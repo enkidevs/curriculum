@@ -40,7 +40,7 @@ There are a number of RDBMS servers available, developed by different companies 
 
 *MySQL* is one of the world's most popular open source databases. It was acquired by Sun Microsystems, and they now require a license fee to use it. It's the **M** in the LAMP[1] web development stack. It works well for both small and large applications.
 
-*MS Access* is an entry level database management software developed by Microsoft. It's a powerful database for small-scale projects. MS Access is the first choice of software developers to develop application software. It uses the Jet database engine to deploy a graphical user interface.
+*MS Access* is an entry level database management software developed by Microsoft. It's a powerful database for small-scale projects. It uses the Jet database engine to deploy a graphical user interface.
 
 *MS SQL Server* is a RDBMS server developed by Microsoft. It's suitable for many different workloads, from small hobby projects to huge production applications. It's not open-source, and licensing fees are required to deploy it to production. There are a large suite of powerful tools for managing MS SQL Server developed by Microsoft, and a large community that uses them.
 
