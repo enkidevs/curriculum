@@ -17,8 +17,6 @@ aspects:
   - workout
 
 links:
-  - '[CodePen: Form Simple Dropdown](https://codepen.io/enkidevs/pen/oMBzMz){code}'
-  - '[CodePen: Dropdown w/ optgroup](https://codepen.io/enkidevs/pen/NBdRBB){code}'
 
 ---
 # Select
