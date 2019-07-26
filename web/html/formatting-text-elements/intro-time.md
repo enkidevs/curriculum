@@ -18,9 +18,6 @@ aspects:
   - introduction
 
 links:
-  - '[CodePen: Element Time (1)](https://codepen.io/enkidevs/pen/qyROGe){code}'
-  - '[CodePen: Element Time (2)](https://codepen.io/enkidevs/pen/oMBbvN){code}'
-  - '[CodePen: Element Time (3)](https://codepen.io/enkidevs/pen/MBJKgB){code}'
   - '[MDN docs for time](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/time){website}'
 
 ---

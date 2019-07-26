@@ -17,7 +17,6 @@ aspects:
   - workout
 
 links:
-  - '[CodePen: Radio Button](https://codepen.io/enkidevs/pen/QBdKZJ){code}'
   - '[MDN docs for radio buttons](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/radio){website}'
 
 ---

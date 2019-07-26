@@ -20,9 +20,6 @@ aspects:
 links:
   - '[MDN docs for b](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/b){website}'
   - '[MDN docs for strong](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/strong){website}'
-  - '[CodePen: strong & b](https://codepen.io/enkidevs/pen/mjRemb){code}'
-  - '[CodePen: strong & b (2)](https://codepen.io/enkidevs/pen/NBdGvb){code}'
-
 
 ---
 # Important (b & strong)

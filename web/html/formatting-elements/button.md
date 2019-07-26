@@ -13,14 +13,11 @@ standards:
   web.layout-html.0: 10
   web.html-forms.2: 10
 
-
 aspects:
   - introduction
   - workout
 
 links:
-  - '[CodePen: button Element](https://codepen.io/enkidevs/pen/dKQxjM){code}'
-  - '[CodePen: Button element with Text & Image](https://codepen.io/enkidevs/pen/VdqZdQ){code}'
   - '[MDN docs for button](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button){website}'
 
 ---
@@ -70,7 +67,6 @@ The `<button>` element has a slight edge over the `<input>` as both images and t
 [View CodePen](https://codepen.io/enkidevs/pen/VdqZdQ)
 
 **Note:** Buttons have no default action upon click. This is why they are best tied to forms or advanced uses of JavaScript.
-
 
 ---
 ## Practice
