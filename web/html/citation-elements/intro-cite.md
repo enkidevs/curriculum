@@ -20,7 +20,6 @@ aspects:
   - deep
 
 links:
-  - '[CodePen: cite](https://codepen.io/enkidevs/pen/xzyKBz){code}'
   - '[MDN docs for cite](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/cite){website}'
 
 ---

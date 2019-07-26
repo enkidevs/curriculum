@@ -18,8 +18,6 @@ aspects:
   - introduction
 
 links:
-  - '[CodePen: Element abbr](https://codepen.io/enkidevs/pen/rrjOGv){code}'
-  - '[CodePen: Element abbr Styled](https://codepen.io/enkidevs/pen/rKQEEK){code}'
 
 ---
 # Intro abbr
