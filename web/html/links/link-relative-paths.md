@@ -65,7 +65,7 @@ Match the image code with the path descriptions:
 `<img src="../../logo.svg">`: ???
 `<img src="../images/logo.svg">`: ???
 
-Select the reason relative links are not considered the best for images and files within a website.
+Select the reason relative links are NOT considered the best for images and files within a website.
 
 ???
 
@@ -77,9 +77,6 @@ Select the reason relative links are not considered the best for images and file
 * Within the folder above the current folder and then into the images folder.
 * the web pages are protected from others linking to them.
 * easy for local management
-* easy to move the entire site to other domains
-* link paths do not need to be updated when domains are changed.
-
 
 ---
 ## Revision
@@ -96,9 +93,7 @@ Working with your own website on your own domain, are absolute links possible to
 * `Yes, but it is not the best way.`
 * When the files being linked are located within other domains.
 * It is never better to use relative paths.
-* It is always better to use relative paths.
 * `Yes, this is the best way.`
-* `Yes, but it will not validate. `
 * `No, it is not possible. `
 
 ---
