@@ -31,6 +31,8 @@ The HTML `<map>` element is used for creating links on selected portions of an i
 
 [View CodePen](https://codepen.io/enkidevs/pen/ajbxbX)
 
+`usemap` is an attribute used with a <map> element's name attribute to create a relationship between the `<img>` and `<map>` elements.
+
 The clickable area has 3 available shapes:
   - `rect` (Rectangle)
   - `circle` (Circle)
@@ -61,7 +63,7 @@ poly: shape="x1,y1,x2,y2,x3,y3...xn,yn"
   **- (0,0)** are the top left corner coordinates of an area.
   **-** `coords` attribute is specified in pixels.
 
- Finding the coordinates can be tricky and tedious. Luckily, there are free services like [http://www.image-maps.com/](http://www.image-maps.com/) to make this much easier!
+Finding the coordinates can be tricky and tedious. Luckily, there are free services like [http://www.image-maps.com/](http://www.image-maps.com/) to make this much easier!
 
 
 ---
@@ -74,21 +76,18 @@ Add map elements to create clickable areas within a single image.
   <area shape="???" coords="10,50,82,126"
     alt="" href="object1.htm">
   <area shape="???" coords="90,58,3"
-    alt="" href="object2.htm"
-      target="???">
+    alt="" href="object2.htm">
   <area shape="???"
     coords="14,24,12,32,25,41,34,33,32,25"
       alt="" href="object3.htm">
 </map>
 
-<img ???="#objects" src="#" alt="">
+<img usemap="#objects" src="#" alt="">
 ```
 
 * rect
 * circle
-* _blank
 * poly
-* usemap
 * rectangle
 * polygon
 * pentagon
