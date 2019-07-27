@@ -17,7 +17,6 @@ aspects:
   - workout
 
 links:
-  - '[CodePen: Image Height and Width](https://codepen.io/enkidevs/pen/GBRLYE){code}'
   - '[Documentation on MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img){documentation}'
 
 ---
