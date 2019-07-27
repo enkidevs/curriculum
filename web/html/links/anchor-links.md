@@ -20,8 +20,6 @@ aspects:
   - introduction
 
 links:
-  - '[CodePen: Anchor Tag](https://codepen.io/enkidevs/pen/Zjegoq){code}'
-  - '[CodePen: Placeholder Link #](https://codepen.io/enkidevs/pen/NBpQzw){code}'
 
 ---
 
@@ -57,20 +55,20 @@ This is a
 
 [View CodePen](https://codepen.io/enkidevs/pen/NBpQzw)
 
+
 ---
 ## Practice
 
 Complete the following snippet in order for it to be valid:
 ```html
 Link to the
-<tag ???="???contact.html">
+<tag ???="#contact.html">
  contact section
 </tag> of the page.
 ```
 tag = ???
 
 * `href`
-* `#`
 * `a`
 * `style`
 * `p`
