@@ -19,7 +19,6 @@ aspects:
   - deep
 
 links:
-  - '[CodePen: & in HTML](https://codepen.io/enkidevs/pen/JBEbbN){code}'
 
 ---
 
