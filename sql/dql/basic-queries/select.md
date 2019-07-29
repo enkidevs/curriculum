@@ -51,7 +51,7 @@ FROM pokemon;
 
 The above command gets all of the *columns* and all of the *rows* from the `pokemon` table.
 
-We can also use the `SELECT` statement to specify the exact *columns* we want to keep from the table, and to discard the others. Depending on how the database was created, you might have to deal with complicated column names. In order to increase readability, the columns can be rename using *aliases* represented by the `AS` keyword.
+We can also use the `SELECT` statement to specify the exact *columns* we want to keep from the table, and to discard the others. Depending on how the database was created, you might have to deal with complicated column names. In order to increase readability, the columns can be renamed using *aliases* represented by the `AS` keyword.
 
 ```sql
 SELECT id, hp AS 'Health Points', attack
