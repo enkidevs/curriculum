@@ -75,7 +75,7 @@ ORDER BY last_name;
 
 Note that the ascending order is set as default. If we want to display the result in a descending order we need to put `DESC` after specifying the columns.
 
-There might be some cases where you want your result set to be ordered by multiple columns, each being sorted differently (ascending or descending). In SQL, this is done by specifying the name of the column's you want ordered followed by their order, and each set of column-order should be separated by a column. 
+There might be some cases where you want your result set to be ordered by multiple columns, each being sorted differently (ascending or descending). In SQL, this is done by specifying the name of the column's you want ordered followed by their order, and each set of column-order should be separated by a column. When you're sorting using only one column, the result set might contain duplicate values. In this case, you can add another column to the sorting strategy such that the duplicate values would be sorted by the second column.
 
 On the same `employees` table, to return the `last_name` and `first_name`, sorted in ascending order by the `last_name` and in descending order by the `first_name`, the command would be:
 

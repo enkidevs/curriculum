@@ -105,17 +105,21 @@ This query will only return the row with the `name` *Dugtrio* because for the re
 ---
 ## Practice
 
-Select all the columns from the `pokemon` table, keeping the rows where the `total` is greater than 350 and `attack` is greater than 15.
+Select all the columns from the `pokemon` table, keeping the rows where the `total` is greater than 350 or `attack` is between 5 and 15.
 
-`SELECT * `
-`FROM pokemon`
-??? ??? 350 ??? ??? 15;
-
+```sql
+SELECT * 
+FROM pokemon
+??? ??? 350 ???
+      ??? 5 ??? ??? 15; 
+```
 
 * WHERE
 * total >
-* AND
+* OR
 * attack >
+* AND
+* attack <
 * IS
 * OR
 * total GREATER THAN

@@ -35,7 +35,7 @@ When added to an SQL `SELECT` statement, `WHERE` allows us to select rows in a t
 
 You can write a conditional statement after `WHERE` and, for each row in the table, if the conditional statement evaluates to true, the row will be included in the query result. If not, it will not be included in the result.
 
-SQL supports both comparison operators (`=`, `<>`, `>`, `>=`, `<`, `<=`) and logical operations (`AND`, `OR`, `NOT`, `IN`, `BETWEEN`, `LIKE`, `IS NULL`, `IS NOT NULL`). Together, these predicates allow us to define complex rules for extracting just the data that we want from an SQL database. However, if we're not careful, we can easily miss some edge case here, and introduce bugs.
+SQL supports both comparison operators (such as `=` and `>=`) and logical operations (such as `AND`, `NOT` or `LIKE`). Together, these predicates allow us to define complex rules for extracting just the data that we want from an SQL database. However, if we're not careful, we can easily miss some edge case here, and introduce bugs.
 
 Let's consider the following `pokemon` table:
 
@@ -55,7 +55,7 @@ FROM pokemon
 WHERE name <> 'Charmander' AND level <= 3;
 ```
 
-In this query we are using two conditionals: `name` is not equal (`<>`) to 'Charmander' and `level` is less than or equal (`<=`) to 3. More complex queries can be achieved by chaining multiple conditionals. The resulting set would look like this:
+In this query we are using two conditionals: `name` is not equal (`<>`) to 'Charmander' and `level` is less than or equal (`<=`) to 3. The resulting set would look like this:
 
 | name      | level |
 |-----------|-------|
