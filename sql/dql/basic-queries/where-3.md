@@ -19,6 +19,8 @@ standards:
 
 links:
   - '[SQL Tutorial: WHERE](http://www.sql-tutorial.com/sql-where-sql-tutorial/){website}'
+  - '[Like Predicate](https://en.wikibooks.org/wiki/Structured_Query_Language/Like_Predicate){website}'
+  - '[The IN Keyword](https://en.wikibooks.org/wiki/Structured_Query_Language/Quantified_Comparison#IN){website}'
 
 aspects:
   - workout
@@ -30,9 +32,15 @@ aspects:
 ---
 ## Content
 
-### `LIKE`, `IN`
+### `LIKE`, `IN`, `BETWEEN`
 
-In a `WHERE` clause, we can also use the keywords `LIKE` and `IN`. `LIKE` allows us to define a pattern that the given attribute should conform to, such as the length or the first letter. `IN` allows us to define a list of values of which the attribute must be one. 
+
+
+SQL provides a bunch of special operators to help you write complex querying conditions. More specifically, in this insight, we will take a look at:
+
+- the `LIKE` operator which is used to define a pattern that the given attribute should conform to
+- the `IN` operator which allows us to define a list of values of which the attribute must be one
+- the `BETWEEN` operator which allows us to define a range of values in which the attribute must be
 
 Let's consider the following `pokemon` table:
 
@@ -86,6 +94,25 @@ The result of this statement is the two rows of the Pokémon whose names end in 
 |-----------|-------|----|--------|---------|
 | Squirtle  | 314   | 44 | 48     | 65      |
 | Wartortle | 405   | 59 | 63     | 80      |
+
+Instead of chaining two comparison operators in your `WHERE` clause you can use the `BETWEEN` operator to define a range of acceptable values, like so:
+
+```sql
+SELECT *
+FROM pokemon
+WHERE attack BETWEEN 60 AND 100;
+```
+
+The resulting set will be:
+
+| name       | total | hp | attack | defense |
+|------------|-------|----|--------|---------|
+| Ivysaur    | 405   | 60 | 62     | 63      |
+| Venusaur   | 525   | 80 | 82     | 83      |
+| Charmeleon | 405   | 58 | 64     | 58      |
+| Charizard  | 534   | 78 | 84     | 78      |
+| Wartortle  | 405   | 59 | 63     | 80      |
+| Blastoise  | 530   | 79 | 83     | 100     |
 
 ---
 ## Practice

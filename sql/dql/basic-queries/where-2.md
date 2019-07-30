@@ -31,7 +31,7 @@ aspects:
 ---
 ## Content
 
-### `AND`, `OR`, `NOT`, `BETWEEN`
+### `AND`, `OR`, `NOT`
 
 As you have seen in the previous insight, the predicates we use in `WHERE` can be conjoined using logical operators like `AND`, `OR` and `NOT`. They work as you would expect them to; you can include only the rows which satisfy both or either of two conditions using `AND` and `OR`, respectively. `NOT` negates the truth value of the predicate, so it now selects the rows that don't satisfy the condition.
 
@@ -70,22 +70,6 @@ WHERE NOT name = 'Charmander';
 
 This statement shows all rows **except** for the one where name is equal to 'Charmander'. In our case, this query would return all our records (rows) as we do not have any entries with the `name` 'Charmander'.
 
-Instead of chaining two comparison operators in your `WHERE` clause you can use the `BETWEEN` operator to define a range of acceptable values, like so:
-
-```sql
-SELECT *
-FROM pokemon
-WHERE attack BETWEEN 60 AND 100;
-```
-
-The resulting set will be:
-
-| id | name    | total | hp | attack | defense |
-|----|---------|-------|----|--------|---------|
-| 51 | Dugtrio | 425   | 35 | 100    | 50      |
-| 53 | Persian | 440   | 65 | 70     | 60      |
-| 55 | Golduck | 500   | 80 | 82     | 78      |
-
 You can also use parenthesis to construct complex expressions, like so:
 
 ```sql
@@ -93,7 +77,7 @@ SELECT *
 FROM pokemon
 WHERE (name = 'Diglett'
   OR name = 'Dugtrio')
-    AND total BETWEEN 300 AND 500;
+    AND (total > 300 AND total < 500);
 ```
 
 This query will only return the row with the `name` *Dugtrio* because for the record with the `name` *Diglett* the `total` value is not between 300 and 500.
