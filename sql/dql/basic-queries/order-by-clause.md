@@ -41,7 +41,7 @@ aspects:
 ---
 ## Content
 
-`ORDER BY` clause enables users to order data in ascending or descending order on one or more columns.
+The `ORDER BY` clause enables users to order data in ascending or descending order on one or more columns. This is also more commonly known as **sorting** data.
 
 Considering the following `employees` table:
 
