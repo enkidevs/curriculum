@@ -31,7 +31,7 @@ aspects:
 ---
 ## Content
 
-Consider the following `pokemon` table:
+Consider the following table named `pokemon`:
 
 | id | name       | total | hp | attack | defense |
 |----|------------|-------|----|--------|---------|
