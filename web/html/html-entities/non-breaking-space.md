@@ -19,8 +19,6 @@ aspects:
   - deep
 
 links:
-  - '[CodePen: non-breaking space](https://codepen.io/enkidevs/pen/YjNpVa){code}'
-  - '[CodePen: &nbsp within Table](https://codepen.io/enkidevs/pen/PBpLqV){code}'
 
 ---
 # Non-breaking Space
