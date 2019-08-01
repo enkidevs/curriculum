@@ -19,11 +19,7 @@ standards:
   web.markup-text.2: 10
 
 links:
-  - '[CodePen: Ordered List](https://codepen.io/enkidevs/pen/VBbZrW){code}'
-  - '[CodePen: Unordered List](https://codepen.io/enkidevs/pen/pZPzdm){code}'
-  - '[CodePen: Nested List](https://codepen.io/enkidevs/pen/xJdKpO){code}'
   - '[MDN docs for unordered lists](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ul){website}'
-  - '[Example on codepen.io](){website}'
   - '[MDN docs for ordered lists]](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ol){website}'
 
 ---
