@@ -19,10 +19,6 @@ standards:
   web.markup-text.2: 10
 
 links:
-  - '[CodePen: List Description](https://codepen.io/enkidevs/pen/LByPZZ){code}'
-  - '[CodePen: List Multi Description](https://codepen.io/enkidevs/pen/ZjKzON){code}'
-  - '[CodePen: List Multi Terms and Descriptions](https://codepen.io/enkidevs/pen/rrmBWB){code}'
-  - '[CodePen: Description lists](https://codepen.io/enkidevs/pen/wxdwoX){code}'
   - '[MDN docs for description lists](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dl){website}'
 
 ---
