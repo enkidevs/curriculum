@@ -18,7 +18,6 @@ aspects:
   - obscura
 
 links:
-  - '[CodePen: Form Formaction](https://codepen.io/enkidevs/pen/MXZzzo){code}'
   - '[W3S docs for formaction](https://www.w3schools.com/tags/att_formaction.asp){documentation}'
 
 ---

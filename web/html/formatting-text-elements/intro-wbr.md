@@ -15,9 +15,6 @@ aspects:
   - introduction
 
 links:
-  - '[CodePen: Element wbr (1)](https://codepen.io/enkidevs/pen/rrjxao){code}'
-  - '[CodePen: Element wbr (2)](https://codepen.io/enkidevs/pen/wxgMKr){code}'
-  - '[CodePen: Element wbr (3)](https://codepen.io/shoutmatt/pen/gGxNJa){code}'
 
 tags:
   - deep

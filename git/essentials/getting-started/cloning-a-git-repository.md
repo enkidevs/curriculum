@@ -57,7 +57,7 @@ $ git clone https://github.com/enki/repo \
                             myAwesomeClone
 ```
 
-Apart from through the `https` protocol used above, `git` also supports transfer through **SSH** and local protocols.
+Apart from the `https` protocol used above, `git` also supports transfer through **SSH** and local protocols.
 
 ---
 ## Practice
