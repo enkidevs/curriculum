@@ -19,7 +19,6 @@ aspects:
   - workout
 
 links:
-  - '[CodePen: Header Element](https://codepen.io/enkidevs/pen/NBrNPx){code}'
   - '[MDN docs for header](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/header){website}'
 
 ---
