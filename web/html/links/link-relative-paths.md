@@ -65,7 +65,7 @@ Match the image code with the path descriptions:
 `<img src="../../logo.svg">`: ???
 `<img src="../images/logo.svg">`: ???
 
-Select the reason relative links are NOT considered the best for images and files within a website.
+Select the reason relative links are **not** considered the best for images and files within a website.
 
 ???
 
