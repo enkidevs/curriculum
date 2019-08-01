@@ -18,7 +18,6 @@ aspects:
   - deep
 
 links:
-  - '[CodePen: Copyright in HTML](https://codepen.io/enkidevs/pen/WKRooB){code}'
 
 ---
 # Copyright
