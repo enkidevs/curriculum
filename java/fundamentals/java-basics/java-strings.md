@@ -46,7 +46,7 @@ In the `HelloWorld` example, the value printed to the console was a `String`:
 ```java
 System.out.println("Hello World!");
 ```
-You can also concatenate(or add) `String`s. The easiest way to do this is:
+You can also concatenate (or add) `String`s. The easiest way to do this is:
 ```java
 String concat = "Concatenated" + " string"
                                + "!";
@@ -63,7 +63,7 @@ System.out.println(concat);
 To concatenate two strings, operator ??? is used.
 
 
-* +
-* ++
-* -
-* ,
+* `+`
+* `++`
+* `-`
+* `,`

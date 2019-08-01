@@ -31,7 +31,7 @@ tags:
 ---
 ## Content
 
-A *command shell*[1], *command-line interface*, or simply *shell* is any text-based user interface used to access to an operating system's underlying services.   They all work very similarly:
+A *command shell*[1], *command-line interface*, or simply *shell* is any text-based user interface used to access an operating system's underlying services.   They all work very similarly:
 
 1. The user is presented with a prompt.
 2. The user types a command and presses enter.

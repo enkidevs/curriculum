@@ -20,7 +20,6 @@ aspects:
   - deep
 
 links:
-  - '[CodePen: cite](https://codepen.io/enkidevs/pen/xzyKBz){code}'
   - '[MDN docs for cite](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/cite){website}'
 
 ---
@@ -57,7 +56,7 @@ What falls under creative work:
 
 The cited URL under the `<cite>` element will, by default, display in <i>italic</i>. However, this is easily editable by adding the `font-style` CSS property to the `<cite>` element and changing the default value to 'normal' or even 'oblique' (aka bold).
 
-<!--[View CodePen](https://codepen.io/enkidevs/pen/xzyKBz)-->
+[View CodePen](https://codepen.io/enkidevs/pen/xzyKBz)
 
 ---
 ## Practice
@@ -115,4 +114,3 @@ Which HTML element is used to reference the title of a body of work (like a book
 * `<quote>`
 * `<blockquote>`
 * `<q>`
- 

@@ -23,7 +23,6 @@ aspects:
   - obscura
 
 links:
-  - '[CodePen: bdi element](https://codepen.io/enkidevs/pen/yERBoJ){code}'
   - '[MDN docs for bdi](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/bdi){website}'
   - '[MDN docs for User Agent](https://developer.mozilla.org/en-US/docs/Glossary/user_agent){website}'
 
@@ -47,7 +46,7 @@ The strange result would be:
 
 ![bdi-bad](%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22320%22%20height%3D%2252%22%3E%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%3Crect%20width%3D%22320%22%20height%3D%2252%22%20fill%3D%22%23FFF%22%20rx%3D%229%22%2F%3E%3Ctext%20fill%3D%22%23000%22%20font-family%3D%22ArialMT%2C%20Arial%22%20font-size%3D%2216%22%3E%3Ctspan%20x%3D%2218%22%20y%3D%2231%22%3EUser%3A%20428%20%D9%85%D8%A7%D8%AB%D9%8A%D9%88%20points.%3C%2Ftspan%3E%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fsvg%3E)
 
-In order to display the numbers properly with, for instance, Arabic, here is how the `<bdi>` element fixes this issue: 
+In order to display the numbers properly with, for instance, Arabic, here is how the `<bdi>` element fixes this issue:
 
 Example:
 ```html
@@ -62,7 +61,7 @@ bdi Result:
 
 ![bdi-good](%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22320%22%20height%3D%2252%22%3E%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%3Crect%20width%3D%22320%22%20height%3D%2252%22%20fill%3D%22%23FFF%22%20rx%3D%229%22%2F%3E%3Ctext%20fill%3D%22%23000%22%20font-family%3D%22ArialMT%2C%20Arial%22%20font-size%3D%2216%22%3E%3Ctspan%20x%3D%2218%22%20y%3D%2231%22%3EUser%3A%20%D9%85%D8%A7%D8%AB%D9%8A%D9%88%20%3C%2Ftspan%3E%3C%2Ftext%3E%3Ctext%20fill%3D%22%23000%22%20font-family%3D%22ArialMT%2C%20Arial%22%20font-size%3D%2216%22%3E%3Ctspan%20x%3D%2294%22%20y%3D%2232%22%3E428%20points.%3C%2Ftspan%3E%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fsvg%3E)
 
-<!--[Visit CodePen](https://codepen.io/enkidevs/pen/yERBoJ)-->
+[Visit CodePen](https://codepen.io/enkidevs/pen/yERBoJ)
 
 The CSS rule `unicode-bidi : isolate` can achieve the same effect as with the `<bdi>` element. Nevertheless, it is always better to use the `<bdi>` because it provides important semantic meaning, whereas the CSS rule is only presentational.
 
@@ -83,7 +82,7 @@ Which statement about the `<bdi>` element is correct?
 ---
 ## Revision
 
-Which HTML element is used to isolate a span of text that might be formatted in a different direction from other text outside it in within a multi-language document - for such languages as Arabic and Hebrew?  
+Which HTML element is used to isolate a span of text that might be formatted in a different direction from other text outside it in within a multi-language document - for such languages as Arabic and Hebrew?
 
 ???
 
@@ -111,4 +110,3 @@ Without the `<bdi>` element, what would happen to the Arabic username and the po
 * The name will not display at all.
 * The name will display in front of the points.
 * Nothing without CSS styles added.
- 

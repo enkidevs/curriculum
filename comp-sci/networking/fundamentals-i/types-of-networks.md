@@ -54,7 +54,7 @@ This type of networks is usually characterized by **high-speed** communication a
 
 `WAN`, as the term implies, it is capable of spanning a large physical distance such as a town, a region, a country or the entire world. The **Internet** is the largest `WAN`, spanning the Earth.
 
-A network device called **router** connects more `LAN`s to a `WAN`, resulting in a **high speed** connection as well, but with higher costs.
+A network device called a **router** connects more `LAN`s to a `WAN`, resulting in a **high speed** connection as well, but with higher costs.
 
 
 ### WLAN

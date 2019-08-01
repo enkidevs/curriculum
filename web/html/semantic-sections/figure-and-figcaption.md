@@ -20,7 +20,6 @@ tags:
   - deep
 
 links:
-  - '[CodePen](https://codepen.io/enkidevs/pen/YjqEWp){code}'
   - '[MDN docs for figure](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figure){website}'
   - '[MDN docs for figcaption](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figcaption){website}'
 
@@ -49,7 +48,7 @@ Example with a poem:
 </figure>
 ```
 
-<!--[View CodePen](https://codepen.io/enkidevs/pen/YjqEWp)-->
+[View CodePen](https://codepen.io/enkidevs/pen/YjqEWp)
 
 ---
 ## Practice

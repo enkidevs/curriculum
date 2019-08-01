@@ -56,7 +56,7 @@ Any *implementation* of a graph data type should provide these methods:
 - `adjacent(v,u)` : *Returns* `true` if there is an edge between v and u.
 - `inEdges(v)` : *Returns* a collection of edges that have *v* as their endpoint.
 - `outEdges(v)` : *Returns* a collection of edges that have *v* as their start point.
-- `getOpposite(v,e)` : *Returns* the node on the other end of edge e, with v as starting point.
+- `getOpposite(v,e)` : *Returns* the node on the other end of edge e, with v as the starting point.
 - `getEdge(v,u)` : *Returns* the edge between v and u.
 - `addVertex(v)` : *Adds* vertex v to the graph.
 - `addEdge(v,u,x)` : *Adds* an edge with value x between v and u.

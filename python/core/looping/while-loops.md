@@ -35,7 +35,7 @@ while condition:
     doSomething()
 ```
 
-While the condition evaluates to *true*, the code inside the loop is executed, as soon as the condition evaluates to *false* the loop is exited and the code immediately following the loop is executed.
+While the condition evaluates to *true*, the code inside the loop is executed. As soon as the condition evaluates to *false*, the loop is exited and the code immediately following the loop is executed.
 
 For example:
 

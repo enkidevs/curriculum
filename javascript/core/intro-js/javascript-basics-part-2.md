@@ -54,10 +54,12 @@ JavaScript has two scopes, global and local. If a variable is defined *outside* 
 ```javascript
 function hello(){
    var company="enki";
-   console.log(company); // "enki"
+   console.log(company); 
+   // "enki"
 }
 // variable out of scope
-console.log(company); // undefined
+console.log(company); 
+// ReferenceError: company is not defined
 ```
 
 ---
@@ -107,7 +109,7 @@ console.log(answer)
 
 ???
 
-* undefined
+* ReferenceError: answer is not defined
 * 42
 * answer
 * local

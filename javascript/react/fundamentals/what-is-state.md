@@ -33,7 +33,7 @@ aspects:
 ---
 ## Content
 
-Just like `props`, **React** components' `state` can change their behaviour or how they render.
+Just like `props`, **React** components' `state` can change their behavior or how they render.
 
 You can think of *state* as a **private** data set only accessible from within the `component` via `this.state`.
 
@@ -41,7 +41,6 @@ Consider the component:
 ```jsx
 class Hello extends React.Component {
   render() {
-    const show = this.state.show;
     return <p>{this.state.text}</p>;
   }
 }

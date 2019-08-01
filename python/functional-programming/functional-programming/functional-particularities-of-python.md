@@ -38,7 +38,7 @@ Generators allow us to make functions which essentially keep these variables fro
 ```python
 def generate_ints(N):
   for i in range(N):
-  yield i
+      yield i
 ```
 
 This is a simple generator, identified by the `yield` keyword. (Any function with a `yield` is a generator.) When it is called, instead of returning a value, a generator object is returned instead which supports the iterator protocol. Calling `next()` on the generator object will continually run and return the result, "pausing" the function every time after it reaches `yield`.
