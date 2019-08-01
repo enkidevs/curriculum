@@ -18,9 +18,6 @@ aspects:
 standards:
   web.markup-text.2: 10
 links:
-  - '[CodePen: List Order](https://codepen.io/enkidevs/pen/EpmYmV){code}'
-  - '[CodePen: List Order Reversed](https://codepen.io/enkidevs/pen/GBmKmy){code}'
-  - '[CodePen: List Order Tricky Example](https://codepen.io/enkidevs/pen/xJdKrV){code}'
   - '[MDN docs for ordered lists](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ol){website}'
   - '[CSS list style type Property](https://www.w3schools.com/cssref/pr_list-style-type.asp){website}'
 

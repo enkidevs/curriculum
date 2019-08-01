@@ -19,7 +19,6 @@ aspects:
   - deep
 
 links:
-  - '[CodePen: Form Autofocus](https://codepen.io/enkidevs/pen/djbrLP){code}'
 
 ---
 # Autofocus
