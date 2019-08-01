@@ -17,7 +17,6 @@ aspects:
   - introduction
   - workout
 links:
-  - '[CodePen: Form Button Attributes](https://codepen.io/enkidevs/pen/BPWEzL){code}'
   - '[MDN docs for button](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button){website}'
 
 ---
