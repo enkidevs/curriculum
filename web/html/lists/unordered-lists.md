@@ -19,11 +19,7 @@ standards:
   web.markup-text.2: 10
 
 links:
-  - '[CodePen: Unordered List](https://codepen.io/enkidevs/pen/zLwOLq){code}'
-  - '[CodePen: Unordered List Styles](https://codepen.io/enkidevs/pen/qKMMyr){code}'
-  - '[CodePen: Unordered List Nested](https://codepen.io/enkidevs/pen/PBmYBB){code}'
   - '[MDN docs for unordered lists](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ul){website}'
-  - '[Example on codepen.io](https://codepen.io/stefan-stojanovic/pen/GdeaLg?editors=1000#){website}'
   - '[CSS list style type Property](https://www.w3schools.com/cssref/pr_list-style-type.asp){website}'
 
 ---
@@ -87,7 +83,6 @@ Example of a nested lists:
 
 **Notes:**
 - The key to nesting lists is making sure the nested lists are within the appropriate list items (`<li>` and `</li>`).
-
 
 **Best Uses:**
 The `<ul>` element is best used for:
