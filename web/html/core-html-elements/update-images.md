@@ -98,18 +98,10 @@ If an image does not have an assigned height and width using HTML or CSS, how wi
 * `alt`
 * `.img`
 * At its original image size.
-* `image src="image.jpg" alt="Image Description"`
-* `img href="image.jpg" alt="Image Description"`
 * `img alt="image.jpg" src="Image Description"`
-* `href`
-* `title`
 * `desc`
 * `.png`
-* .`svg`
-* `.gif`
-* Will resize filling the container it is within.
 * Will resize by default to 100px wide.
-* It will only resize if the image is larger than the viewing area.
 
 ---
 ## Quiz
