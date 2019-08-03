@@ -80,30 +80,7 @@ The `reversed` attribute is of type boolean and is used to specify that the item
 The `start` attribute was deprecated in HTML4 but reintroduced back in HTML5. This attribute is used to specify which number/value the list starts counting. No matter what numbering type is used, the starting value must be set as a number. `<ol start="3">` could be used to start the numbering at `3`, `c`, or even `III`.
 
 
-Additionally, the `<ol>` element can be nested with itself any number of times. When nested, each list section displays starting from either 1 or whatever the `start` attributes value is. Additionally, you can add a different style for each `<ol>` section in the nested list.
-
-
-Example of a nested list:
-```html
-<ol>
-  <li>Item A</li>
-  <li>Item B
-    <ol>
-      <li>Item B1</li>
-      <li>Item B2</li>
-      <li>Item B3</li>
-    </ol>
-  </li>
-  <li>Item C</li>
-</ol>
-```
-
-![list-ol-nested](%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22320%22%20height%3D%22139%22%3E%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%3Crect%20width%3D%22320%22%20height%3D%22139%22%20fill%3D%22%23FFF%22%20rx%3D%229%22%2F%3E%3Ctext%20fill%3D%22%23000%22%20font-family%3D%22ArialMT%2C%20Arial%22%20font-size%3D%2216%22%3E%3Ctspan%20x%3D%2217%22%20y%3D%2232%22%3E%201.%20Item%20A%3C%2Ftspan%3E%20%3Ctspan%20x%3D%2217%22%20y%3D%2249%22%3E%202.%20Item%20B%3C%2Ftspan%3E%20%3Ctspan%20x%3D%2217%22%20y%3D%2266%22%3E%201.%20Item%20B1%3C%2Ftspan%3E%20%3Ctspan%20x%3D%2217%22%20y%3D%2283%22%3E%202.%20Item%20B2%3C%2Ftspan%3E%20%3Ctspan%20x%3D%2217%22%20y%3D%22100%22%3E%203.%20Item%20B3%3C%2Ftspan%3E%20%3Ctspan%20x%3D%2217%22%20y%3D%22117%22%3E%203.%20Item%20C%3C%2Ftspan%3E%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fsvg%3E)
-
-[View CodePen](https://codepen.io/enkidevs/pen/BPRBrO)
-
-**Note:**
-	- The closing `</li>` tag for `Item B` must wrap around the entire nested list.
+Additionally, the `<ol>` element can be nested with itself any number of times. (more on this later in the workout)
 
 **Best Uses:**
 Ordered lists are best used for:
