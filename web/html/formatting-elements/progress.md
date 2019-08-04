@@ -15,8 +15,8 @@ standards:
 aspects:
   - deep
   - workout
+  
 links:
-  - '[CodePen: Progress Element](https://codepen.io/enkidevs/pen/eKbYJv){code}'
 
 ---
 # Progress

@@ -18,7 +18,6 @@ aspects:
   - introduction
 
 links:
-  - '[CodePen: Headings: h1-h6](https://codepen.io/enkidevs/pen/KBMMBb){code}'
   - '[Elements on MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements){documentation}'
 
 ---
