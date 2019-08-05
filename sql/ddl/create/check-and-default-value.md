@@ -45,7 +45,7 @@ Apart from the `PRIMARY KEY` and `FOREIGN KEY`, SQL allows you define other colu
 
 ### Check Constraint
 
-Column checks are used to ensure that values entered in a column meet a defined criterion. To best explain this, let's say you want to create a table of eligible voters in which you store and identification column `id`, the name of the person as `name` and their `age`. To be eligible to vote you must be 18 or older, and to simplify data entering and ensure that no human errors are made, you can set up a column check. Let's look at how this table is created:
+Column checks are used to ensure that values entered in a column meet a defined criterion. To best explain this, let's say you want to create a table of eligible voters in which you store an identification column `id`, the name of the person as `name` and their `age`. To be eligible to vote you must be 18 or older, and to simplify data entering and ensure that no human errors are made, you can set up a column check. Let's look at how this table is created:
 
 ```sql
 CREATE TABLE voters (
@@ -134,8 +134,9 @@ CREATE TABLE cars (
 * CHECK
 * year > 1970
 * VERIFY
-* HAS
-* BASIC
+* year GT THAN 1970
+* undefined
+* FALLBACK
 
 
 ---
