@@ -72,7 +72,9 @@ CREATE TABLE employees (
     id INT,
     name VARCHAR,
     department_id INT,
-    CONSTRAINT department_fk FOREIGN KEY (department_id) REFERENCES departments(id)
+    CONSTRAINT department_fk 
+    FOREIGN KEY (department_id) 
+    REFERENCES departments(id)
 );
 ```
 

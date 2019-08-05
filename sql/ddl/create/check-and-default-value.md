@@ -64,16 +64,19 @@ CREATE TABLE voters (
   id INTEGER PRIMARY KEY,
   name VARCHAR,
   age INTEGER,
-  CONSTRAINT age_and_name_check CHECK (age >= 18 AND name LIKE 'T%')
+  CONSTRAINT age_and_name_check 
+  CHECK (age >= 18 AND name LIKE 'T%')
 );
 ```
 
 Now let's try inserting some values in our table:
 
 ```sql
-INSERT INTO voters VALUES (1, 'Abraham Lincoln', 56);
--- This will fail because the name starts with 'A'
-INSERT INTO voters VALUES (2, 'Titus Andronicus', 33);
+INSERT INTO voters VALUES 
+(1, 'Abraham Lincoln', 56);
+-- Fails because the name starts with 'A'
+INSERT INTO voters VALUES 
+(2, 'Titus Andronicus', 33);
 -- This will be successful
 ```
 
@@ -98,8 +101,10 @@ CREATE TABLE dogs (
 Now let's see what happens when we insert the following records in the table:
 
 ```sql
-INSERT INTO dogs (name) VALUES ('Oscar');
-INSERT INTO dogs (name, weight) VALUES ('Benson', 22);
+INSERT INTO dogs (name) VALUES 
+('Oscar');
+INSERT INTO dogs (name, weight) VALUES 
+('Benson', 22);
 ```
 
 And this is how the table would look like:

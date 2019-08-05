@@ -67,12 +67,12 @@ Let's see what happens when we insert the following values in the `students` tab
 ```sql
 INSERT INTO students values
 (NULL, 'Andrei'), 
--- This will fail because PRIMARY KEY columns
+-- Fails because PRIMARY KEY columns
 -- can't store NULL values
 (1, 'Catalin'), 
 -- This will be successful
 (1, 'Mihai'), 
--- This will fail because PRIMARY KEY columns
+-- Fails because PRIMARY KEY columns
 -- can only store unique values
 (2, 'Catalin'); 
 -- This will be successful
