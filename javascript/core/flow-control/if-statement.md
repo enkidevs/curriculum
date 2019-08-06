@@ -66,10 +66,10 @@ Code can be more readable using the switch statement if there are many cases for
 
 ```
 switch (customerType){
-   case: "normal" :
+   case "normal" :
          ...
          break;
-   case: "vip":
+   case "vip":
          ...
          break;
    default:
@@ -83,10 +83,10 @@ switch (customerType){
 Complete the basic syntax of the following `switch` statement:
 ```
 ??? (checker) {
-   ???: "1" :
+   ??? "1" :
         ...
         break;
-   case: "2" :
+   case "2" :
         ...
         break;
    ???:
