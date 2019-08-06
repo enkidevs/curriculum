@@ -19,7 +19,6 @@ aspects:
   - deep
 
 links:
-  - '[CodePen: Form multiple attributes](https://codepen.io/enkidevs/pen/yqBreR){code}'
 
 ---
 # Multiple

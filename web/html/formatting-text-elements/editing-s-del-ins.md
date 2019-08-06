@@ -18,8 +18,6 @@ aspects:
   - introduction
 
 links:
-  - '[CodePen: s Element](https://codepen.io/enkidevs/pen/LBxVxz){code}'
-  - '[CodePen: del & ins Element](https://codepen.io/enkidevs/pen/ejgNyd){code}'
 
 ---
 # Markup for Editing

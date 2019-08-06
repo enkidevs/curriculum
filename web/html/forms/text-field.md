@@ -17,10 +17,7 @@ standards:
   web.html-forms.0: 10
   
 links:
-  - '[Codepen: Form Textfields Intro](https://codepen.io/enkidevs/pen/oMwXaB){code}'
-  - '[Codepen: Form Size Attribute](https://codepen.io/enkidevs/pen/ajwOPd){code}'
   - '[MDN docs for text](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/text){website}'
-
 
 ---
 # Text Field

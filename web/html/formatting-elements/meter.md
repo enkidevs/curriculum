@@ -15,8 +15,8 @@ standards:
 aspects:
   - deep
   - workout
+    
 links:
-  - '[CodePen: Meter Element ](https://codepen.io/enkidevs/pen/xzmxxP){code}'
 
 ---
 # Meter
