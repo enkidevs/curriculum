@@ -45,6 +45,7 @@ aspects:
 ## Content
 
 Sometimes we need to add ulterior constraints to the table we define. The `ALTER TABLE` statement enables us to do it. There are several types of constraints we can add. If we want to ensure that all values in one or more columns are different:
+
 ```sql
 ALTER TABLE table_name
 ADD CONSTRAINT constraint_name
@@ -52,23 +53,35 @@ UNIQUE (column1, column2, ...)
 ```
 
 If we want to limit the value range that can be stored in a column:
+
 ```sql
 ALTER TABLE table_name
 ADD CONSTRAINT constraint_name
 CHECK (CONDITION)
 ```
 
-If we want to add a primary key constraint:
+If we want to add a `PRIMARY KEY` constraint:
+
 ```sql
 ALTER TABLE table_name
 ADD CONSTRAINT constraint_name
 PRIMARY KEY (column1, column2, ...)
 ```
 
+If we want to add a `FOREIGN KEY` constraint:
+
+```sql
+ALTER TABLE table_name
+ADD CONSTRAINT constraint_name
+FOREIGN KEY (column_name) 
+REFERENCES table_name(column_name);
+```
+
 ---
 ## Practice
 
 Consider the "generation" table. We want to add a new constraint called "PK-constraints" in which we state that we want "region_id" and "name" columns to be primary keys:
+
 ```
 id | region_id |      name      
 ===+===========+===============
@@ -98,6 +111,7 @@ ADD ??? PK-constraints
 ## Revision
 
 Consider the `version` table. We want to add a `CHECK` constraint to `version_group_id` column. Any of its entries should not be bigger than 10:
+
 ```
 id | version_group_id |      name      
 ===+==================+===============
