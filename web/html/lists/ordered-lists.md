@@ -71,15 +71,6 @@ Result:
 
 [View CodePen](https://codepen.io/enkidevs/pen/ajWoYZ)
 
-**Reversed**
-
-The `reversed` attribute is of type boolean and is used to specify that the items in the list are in the reversed order (3,2,1, or c,b,a).
-
-**Start**
-
-The `start` attribute was deprecated in HTML4 but reintroduced back in HTML5. This attribute is used to specify which number/value the list starts counting. No matter what numbering type is used, the starting value must be set as a number. `<ol start="3">` could be used to start the numbering at `3`, `c`, or even `III`.
-
-
 Additionally, the `<ol>` element can be nested with itself any number of times. (more on this later in the workout)
 
 **Best Uses:**
