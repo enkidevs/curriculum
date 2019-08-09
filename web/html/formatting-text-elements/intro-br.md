@@ -18,8 +18,6 @@ aspects:
   - introduction
 
 links:
-  - '[CodePen: Element br](https://codepen.io/enkidevs/pen/XBpmqB){code}'
-  - '[CodePen: Element br (2)](https://codepen.io/enkidevs/pen/EpZVRO){code}'
 
 ---
 # Intro br

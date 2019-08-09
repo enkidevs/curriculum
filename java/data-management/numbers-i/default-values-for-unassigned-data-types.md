@@ -45,7 +45,6 @@ What is the default value of an unassigned `float` data type?
 
 `???`
 
-
 * `0.0f` 
 * `0` 
 * `0.0` 
@@ -54,12 +53,11 @@ What is the default value of an unassigned `float` data type?
 ---
 ## Revision
 
-What is the default value of an unassigned `float` data type?
+What is the default value of an unassigned `boolean` data type?
 
 `???`
 
-
-* `0.0f` 
-* `0` 
-* `0.0` 
-* `\u0000`
+* `false` 
+* `true` 
+* `1` 
+* `0`

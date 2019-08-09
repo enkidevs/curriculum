@@ -58,7 +58,7 @@ The example is evaluated in the following way:
 ```
 var x = (a - b) - c;
 ```
-These brackets can be safely omitted without effecting the outcome of the equation. However, if you wish to evaluate the right-hand side of the equation first, then brackets must be used:
+These brackets can be safely omitted without affecting the outcome of the equation. However, if you wish to evaluate the right-hand side of the equation first, then brackets must be used:
 ```
 var x = a - (b - c);
 ```

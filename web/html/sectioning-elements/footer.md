@@ -19,7 +19,6 @@ aspects:
   - workout
 
 links:
-  - '[CodePen: Styled Footer](https://codepen.io/enkidevs/pen/PaXVmR){code}'
   - '[MDN: Footer](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/footer){website}'
 
 ---
