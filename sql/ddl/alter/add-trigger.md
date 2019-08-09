@@ -38,63 +38,137 @@ aspects:
 ---
 ## Content
 
-*Triggers* are defined to let the computer know it has to run a certain set of actions when an event happens. Usually this events mean executing: `UPDATE`, `INSERT` and `DELETE` statements. Basically it's a database object that is bound to a table and executes automatically. Types of triggers:
-- After triggers
-- Instead of triggers
+*Triggers* are defined to let the computer know it has to run a certain set of actions when an event happens. Usually this events mean executing: `UPDATE`, `INSERT` and `DELETE` statements. Basically it's a database object that is bound to a table and executes automatically. For the SQL Standard, there are two main types of triggers:
 
-After triggers run after an `INSERT`, `UPDATE` or `DELETE`:
+- `ON UPDATE` triggers
+- `ON DELETE` triggers
+
+These *triggers* are added when defining a `FOREIGN KEY` constraint, and both `ON UPDATE` and `ON DELETE` have several arguments which decide what action is taken after a `DELETE` or `UPDATE` statement. Here is how the default syntax would look:
+
 ```sql
-CREATE TRIGGER afterInsert
-ON db_name.table_name
-AFTER DELETE
-AS BEGIN
-  UPDATE another_table
-  SET someColumn = Column2
-  FROM deleted
-END
-GO;
+CREATE TABLE table_name (
+  ...
+  CONSTRAINT constraint_name 
+  FOREIGN KEY (col1)
+  REFERENCES table_2(col2)
+  ON UPDATE argument
+  ON DELETE argument,
+  ...
+);
 ```
 
-What this trigger does is: it updates "another_table" with the value that has just been deleted from "db_name.table_name".
+### CASCADE
 
-Instead of triggers specify what statement to run instead of the `INSERT`, `UPDATE` or `DELETE` statements:
+Using the `CASCADE` argument means that when a row in the parent table is deleted or updated, all the matching rows in the child tables are deleted or updated. Here is an example syntax:
+
 ```sql
-CREATE TRIGGER insteadUpdate
-ON db_name.table_name
-INSTEAD OF INSERT
-AS BEGIN
-  UPDATE another_table
-  SET someColumn = Column2
-  FROM inserted
-END
-GO;
+CREATE TABLE my_table(
+  ...
+  CONSTRAINT cascade_cstr
+  FOREIGN KEY (col1)
+  REFERENCES table_name(col2)
+  ON UPDATE CASCADE
+  ON DELETE CASCADE,
+  ...
+);
 ```
 
-This time we say: If we update table "db_name.table_name", then update "another_table" instead.
+### SET NULL
+
+Using the `SET NULL` argument means that when there is a change in the parent table (update or delete) the corresponding records in the child tables are set to have a `NULL` value. Here is how it would look in practice:
+
+```sql
+...
+  ON UPDATE SET NULL
+  ON DELETE SET NULL,
+...
+```
+
+### SET DEFAULT
+
+The `SET DEFAULT` argument is very similar to `SET NULL`, but instead of storing a `NULL` value, the RDBMS changes the corresponding records in the child tables to their default values.
+
+```sql
+...
+  ON UPDATE SET DEFAULT
+  ON DELETE SET DEFAULT,
+...
+```
+
+### RESTRICT
+
+If you want to make sure you never delete any records that have a relationship defined, you can use the `RESTRICT` argument. This ensures that it is prohibited to delete a row from the parent table if there are any matching rows in the child tables.
+
+```sql
+...
+  ON UPDATE RESTRICT
+  ON DELETE RESTRICT,
+...
+```
+
+### NO ACTION
+
+The `NO ACTION` argument is similar to `RESTRICT` in that it prohibits changing any records from the parent table if there are matching records in the child tables. This argument is also the default that is used in the case that no *triggers* are defined. The difference between `RESTRICT` and `NO ACTION` will become more evident as you learn about deferring.
+
+```sql
+...
+  ON UPDATE NO ACTION
+  ON DELETE NO ACTION,
+...
+```
+
+---
+## Practice
+
+Complete the following syntax such that the *trigger* name 'integrity' prohibits deleting a record from the `pokemons` table if there are any matching records in the `region` table.
+
+```sql
+CREATE TABLE region (
+  ...
+  ??? integrity
+  ??? (id)
+  ??? pokemons(region_id)
+  ??? RESTRICT
+  ??? RESTRICT,
+  ...
+);
+```
+
+* CONSTRAINT
+* FOREIGN KEY
+* REFERENCES
+* ON UPDATE
+* ON DELETE
+* PRIMARY KEY
+* RELATES
+* ON INSERT
+* IF UPDATE
+* IF DELETE
 
 ---
 ## Revision
 
-Create trigger such that each time we update something to the "region" table under the "name" column, it will insert the same entry to our "region_backup" table on the "name_backup" column:
+Create trigger such that each time we update something to the `region` table under the `name` column, it will insert the same entry to our `region_backup` table on the `name_backup` column:
+
 ```sql
-??? afterInsertRegion
-ON pokemon.region
-AFTER ???
-AS BEGIN
-  UPDATE region_backup
-  SET ??? = name
-  FROM region
-???
-GO;
+CREATE TABLE region_backup (
+  name_backup VARCHAR,
+  ...
+  ??? bckup_cstr
+  ??? (name_backup)
+  ??? region(name)
+  ??? ???
+);
 ```
 
-* CREATE TRIGGER
-* UPDATE
-* name_backup
-* END
-* START
-* name
-* region_id
-* INSERT
- 
- 
+
+* CONSTRAINT
+* FOREIGN KEY
+* REFERENCES
+* ON UPDATE
+* CASCADE
+* ON DELETE
+* RESTRICT
+* NO ACTION
+* SET DEFAULT
+* SET NULL

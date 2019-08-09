@@ -5,7 +5,7 @@ description: Modify your database schema
 insights:
   - add-column
   - add-constraint
-  - add-default-value
+  - alter-characteristics
   - add-trigger
   - add-rule
 
