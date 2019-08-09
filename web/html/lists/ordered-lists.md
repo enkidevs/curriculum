@@ -71,7 +71,7 @@ Result:
 
 [View CodePen](https://codepen.io/enkidevs/pen/ajWoYZ)
 
-Additionally, the `<ol>` element can be nested with itself any number of times. (more on this later in the workout)
+Additionally, the `<ol>` element can be nested within itself any number of times. (more on this later in the workout)
 
 **Best Uses:**
 Ordered lists are best used for:
