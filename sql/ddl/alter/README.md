@@ -7,7 +7,6 @@ insights:
   - add-constraint
   - alter-characteristics
   - add-trigger
-  - add-rule
 
 exercises:
   - sql-practice-alter-table
