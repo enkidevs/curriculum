@@ -68,7 +68,8 @@ Now let's say you want to add a column `hash`, which you know is going to be uni
 
 ```sql
 ALTER TABLE transactions
-ADD hash VARCHAR PRIMARY KEY CHECK (hash LIKE '36hya%');
+ADD hash VARCHAR PRIMARY KEY 
+CHECK (hash LIKE '36hya%');
 ```
 
 If you ever get bored of one of your columns, you can use the following statement to delete it:
