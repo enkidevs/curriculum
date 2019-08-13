@@ -106,5 +106,3 @@ Create the following table:
 
 ---
 ## Footnotes
-[1: ANSI Standard]
-Since 1970 (the year SQL was invented) improvements have been added constantly and many different SQL *flavours* arose. As an attempt to unify SQL across all *flavours*, the American National Standards Institute (ANSI) has created specific standards for database query languages. 
