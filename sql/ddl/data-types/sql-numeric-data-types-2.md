@@ -64,6 +64,3 @@ Which of the following data types is not an approximate numeric type?
 * FLOAT(n)
 * REAL
 * DOUBLE PRECISION
-
----
-## Footnotes

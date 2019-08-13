@@ -103,6 +103,3 @@ Create the following table:
 * `SMALLINT`
 * `REAL`
 * `TIMESTAMP`
-
----
-## Footnotes
