@@ -47,9 +47,14 @@ When creating a new table, there are a couple rules which must be always followe
 * each table column has a fixed name
 * all data in a column must have the same type
 
-On top of the rules mentioned above, you must also decide what data you should include in your table, what name do you assign to the data (column) and what type it is going to be. Each object in a table holds an attribute (*data type*) that specifies the type of data that it can hold: numbers, text, date & time, monetary data and others.
+On top of the rules mentioned above, you must also decide what data you should include in your table, what name do you assign to the data (column) and what type it is going to be [1].
 
-Let's create a simple table called `employees` which takes two column, `full_name` and `age`. In this case, all the information in the `full_name` column will be text and the information in the `age` column will be numerical. In SQL there are multiple ways to define data as a text or number, but for this insight we will employ only the most widely used types: `INTEGER`[1] and `VARCHAR`[2]. This table can be created in SQL using the following command:
+The process of creating a new table is very simple. First we need to tell the database that we want to create a new table using the `CREATE TABLE` statement followed by the table name. Inside the `CREATE TABLE` statement you start defining your columns together with their types, and every subsequent pair of column-type must be preceded by a comma.
+
+To gain a better understanding of this concept let's look at an example. We want to create a simple table called `employees` which takes two columns:
+
+- `full_name` with `VARCHAR` type [2]
+- `age` with `INTEGER` type [3]
 
 ```sql
 CREATE TABLE employees(
@@ -58,9 +63,7 @@ CREATE TABLE employees(
 );
 ```
 
-First we need to tell the database that we want to create a new table using the `CREATE TABLE` statement followed by the table name. Inside the `CREATE TABLE` statement you start defining your columns together with their types, and every subsequent pair of column-type must be preceded by a comma.
-
-Note that if the name is not unique, an error is usually thrown. To suppress the error and skip creating a duplicate table, you can use the `IF NOT EXISTS` clause which is used as such:
+Note that if the name is not unique, an error is usually thrown. To suppress the error and skip creating a duplicate table, you can utilize the `IF NOT EXISTS` clause which is used as such:
 
 ```sql
 CREATE TABLE IF NOT EXISTS table_name (
@@ -122,7 +125,9 @@ Which of the following queries would create this table:
 
 ---
 ## Footnotes
-[1:INTEGER]
+[1:Data Types]
+Each object in a table holds an attribute (*data type*) that specifies the type of data that it can hold: numbers, text, date & time, monetary data and others.
+[2:INTEGER]
 An integer represents a whole number or a number which is not a fraction.
-[2:VARCHAR]
+[3:VARCHAR]
 This type is used for columns which will store a string of characters (can be letters, digits and so on).
