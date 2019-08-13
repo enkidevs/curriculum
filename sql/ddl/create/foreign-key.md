@@ -37,12 +37,10 @@ aspects:
 
 ---
 
-# Check
+# Foreign Key
 
 ---
 ## Content
-
-### Foreign Key
 
 The `FOREIGN KEY` is the main principle behind RDBMS. It represents a directed reference from one table (usually called the *child*) to another table (the *parent*). This relationship is only possible when the column from the *child* table and the column from the *parent* table contain identical values. The `FOREIGN KEY` relates one row from the *child* with a single row from the *parent*, but a row from the *parent* table can be related to many rows from the *child* table.
 
