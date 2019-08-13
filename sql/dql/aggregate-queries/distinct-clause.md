@@ -43,30 +43,42 @@ aspects:
 
 The `DISTINCT` keyword enables users to filter the duplicates that result after doing a `SELECT` query.
 
-We will give some examples based on a database we have set up:
-```
-SELECT COUNT(ability_id)
-FROM ability_name;
+Consider the following table of `pokemons`:
 
---Result:
-count
-======
- 1397
-(1 row)
-```
-First, we count how many ability ids are there in the ability_name table.
-If we would like to see how many of them are `DISTINCT`:
+| name      | level |
+|-----------|-------|
+| bulbasaur | 5     |
+| charizard | 50    |
+| bulbasaur | 45    |
 
-```
-SELECT COUNT(DISTINCT ability_id)
-FROM ability_name;
+If you wanted to return a list of all the *unique* names you would use:
 
---Result:
-count
-======
-  251
-(1 row)
+```sql
+SELECT DISTINCT name FROM pokemons;
 ```
+
+*Results*:
+
+| name      |
+|-----------|
+| bulbasaur |
+| charizard |
+
+There might be some cases where you only want to return a certain number of results, or records after a certain number of rows. In this case you would have to use the `OFFSET <number> ROWS` and the `FETCH FIRST <number> ROWS ONLY` commands.
+
+Using the same table, if we wanted to limit our results to 1 record and start counting after the first row we would use:
+
+```sql
+SELECT * FROM pokemons
+OFFSET 1 ROWS
+FETCH FIRST 1 ROWS ONLY
+```
+
+*Results*:
+
+| name      | level |
+|-----------|-------|
+| charizard | 50    |
 
 ---
 ## Practice
