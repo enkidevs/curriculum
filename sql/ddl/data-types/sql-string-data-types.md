@@ -36,7 +36,7 @@ aspects:
 ---
 ## Content
 
-In terms of *string data types*, there are less options to be used. As it was the case with the previous insights, you will learn the SQL Standard and even if the naming convention might be different the functionality should be relatively the same. The three main types are:
+In terms of *string data types*, there are less options to be used with the three main types being:
 
 - `CHAR(n)`
 - `VARCHAR(n)`
@@ -44,15 +44,13 @@ In terms of *string data types*, there are less options to be used. As it was th
 
 ### CHAR(n)
 
-The fixed-size string data types, which always takes up the number of bytes required to store a string of length `n`. In case the string has less than `n` characters, it will be padded with spaces. If a longer string is inserted, the excess characters are truncated.
-
-`CHAR` fields can have different maximum values, depending on the implementation, which results in varying max length for filenames. Characters that can be found in ASCII are usually represented in 1 byte, while emoticons and special characters (think Korean alphabet) can take up to 4 bytes.
+The fixed-size string data types, which always takes up the number of bytes required to store a string of length `n`[1]. In case the string has less than `n` characters, it will be padded with spaces. If a longer string is inserted, the excess characters are truncated.
 
 Use `CHAR` whenever you know the fields would be up a certain length. For example, you can have the 2-letter (International Organization for Standardization - ISO) or 3-letter (United Nations) country codes: `US/USA`, `GB/GBR`, `RU/RUS`, `DE/DEU`, etc. Whichever you were to choose, the space required to store them is always 2 or 3 bytes.
 
 ### VARCHAR(n)
 
-A variable length string of potentially size `n`. The maximum size of a string depends on the chosen implementation. Since its size is variable, `VARCHAR` needs an overhead of 1 to 4 bytes to store the data length, so the next table field can be easily looked up in memory.
+A variable length string of potentially size `n`[2]. The maximum size of a string depends on the chosen implementation.
 
 `VARCHAR` values are not padded when stored. Trailing spaces that do not exceed the maximum allocated size of the column are kept.
 
@@ -95,3 +93,12 @@ Create a table that contains a fixed width column and a variable one, such that 
 * `CHAR(2)`
 * `CHAR(70)`
 * `VARCHAR(2)`
+
+---
+## Footnotes
+
+[1:Maximum Values]
+`CHAR` fields can have different maximum values, depending on the implementation, which results in varying max length for filenames. Characters that can be found in ASCII are usually represented in 1 byte, while emoticons and special characters (think Korean alphabet) can take up to 4 bytes.
+
+[2:VARCHAR Variable Size]
+Since its size is variable, `VARCHAR` needs an overhead of 1 to 4 bytes to store the data length, so the next table field can be easily looked up in memory.
