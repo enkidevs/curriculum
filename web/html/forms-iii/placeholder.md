@@ -19,7 +19,6 @@ aspects:
   - deep
 
 links:
-  - '[CodePen: Placeholder Attribute](https://codepen.io/enkidevs/pen/LrMJqV){code}'
 
 ---
 # Placeholder

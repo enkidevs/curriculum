@@ -17,9 +17,6 @@ aspects:
   - workout
 
 links:
-  - '[CodePen: Form Submit & Rest](https://codepen.io/enkidevs/pen/QBdKym){code}'
-  - '[CodePen: Form Submit & Reset](https://codepen.io/enkidevs/pen/ZjLpWm){code}'
-  - '[CodePen: Form with access keys](https://codepen.io/enkidevs/pen/xJgEVv){code}'
   - '[MDN docs for reset](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/reset){website}'
   - '[MDN docs for submit](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/submit){website}'
 

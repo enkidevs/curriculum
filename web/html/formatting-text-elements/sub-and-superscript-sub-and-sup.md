@@ -18,7 +18,6 @@ aspects:
   - introduction
 
 links:
-  - '[CodePen: Element sub & sup](https://codepen.io/enkidevs/pen/xzQvPv){code}'
 
 ---
 # Sub and Super Script

@@ -18,7 +18,6 @@ standards:
   web.markup-text.2: 10
 
 links:
-  - '[CodePen: Simple Link](https://codepen.io/enkidevs/pen/vaKKQZ){code}'
 
 ---
 # Hyperlinks

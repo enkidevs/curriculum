@@ -13,20 +13,13 @@ aspects:
   - introduction
 
 tags:
-
   - styling
-
   - before
-
   - after
 
-
 links:
-
   - '[MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/::after){documentation}'
   - '[MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/%3A%3Abefore){documentation}'
-  - '[codepen.io](http://codepen.io/anon/pen/MKgrXB){website}'
-
 
 ---
 
@@ -64,8 +57,9 @@ This adds a red __#__ at the start of every `p` element and a blue __?__ at the 
 
 `content` is mandatory to display the element but can be empty (`content:"";`).
 
-
 Both `::before` and `::after` can be used to display shapes, images or even borders.
+
+[codepen.io](http://codepen.io/anon/pen/MKgrXB)
 
 ---
 ## Practice

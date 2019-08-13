@@ -19,12 +19,8 @@ standards:
   web.markup-text.2: 10
 
 links:
-  - '[CodePen: Ordered Lists](https://codepen.io/enkidevs/pen/QBvLQo){code}'
-  - '[CodePen: Ordered Lists Roman Numerals](https://codepen.io/enkidevs/pen/ajWoYZ){code}'
-  - '[CodePen: Nested](https://codepen.io/enkidevs/pen/BPRBrO){code}'
   - '[MDN docs for ordered lists](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ol){website}'
   - '[CSS list style type Property](https://www.w3schools.com/cssref/pr_list-style-type.asp){website}'
-
 
 ---
 # Ordered Lists

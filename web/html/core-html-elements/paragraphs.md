@@ -17,7 +17,6 @@ aspects:
   - introduction
 
 links:
-  - '[CodePen: Simple Paragraph](https://codepen.io/enkidevs/pen/gjMMdo){code}'
 
 ---
 # Paragraphs
