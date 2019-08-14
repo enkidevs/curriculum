@@ -36,7 +36,7 @@ aspects:
 ---
 ## Content
 
-In terms of *string data types*, there are less options to be used with the three main types being:
+In terms of *string data types*, there are fewer options that can used with the three main types being:
 
 - `CHAR(n)`
 - `VARCHAR(n)`
@@ -44,9 +44,9 @@ In terms of *string data types*, there are less options to be used with the thre
 
 ### CHAR(n)
 
-The fixed-size string data types, which always takes up the number of bytes required to store a string of length `n`[1]. In case the string has less than `n` characters, it will be padded with spaces. If a longer string is inserted, the excess characters are truncated.
+The fixed-size string data types always take up the number of bytes required to store a string of length `n`[1]. In case the string has less than `n` characters, it will be padded with spaces. If a longer string is inserted, the excess characters are truncated.
 
-Use `CHAR` whenever you know the fields would be up a certain length. For example, you can have the 2-letter (International Organization for Standardization - ISO) or 3-letter (United Nations) country codes: `US/USA`, `GB/GBR`, `RU/RUS`, `DE/DEU`, etc. Whichever you were to choose, the space required to store them is always 2 or 3 bytes.
+Use `CHAR` whenever you know the length of the inputted values. For example, you can have the 2-letter (International Organization for Standardization - ISO) or 3-letter (United Nations) country codes: `US/USA`, `GB/GBR`, `RU/RUS`, `DE/DEU`, etc. Whichever you choose, the required space to store them is always 2 or 3 bytes. 
 
 ### VARCHAR(n)
 

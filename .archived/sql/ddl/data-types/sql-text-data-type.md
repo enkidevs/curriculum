@@ -51,7 +51,7 @@ You should keep in mind that, for variable length character data types, the requ
 
 ### Microsoft SQL
 
-SQL Server used to support the `TEXT` data type but this isn't the case anymore. Right now, `TEXT` is considered legacy and its use not recommended anymore.
+SQL Server used to support the `TEXT` data type but this isn't the case anymore. Right now, `TEXT` is considered legacy and its use is not recommended anymore.
 
 This doesn't mean that SQL Server has no replacement. `VARCHAR(max)` accepts strings up to 2GB in size.
 

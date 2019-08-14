@@ -49,7 +49,7 @@ In SQL, the logic is based on three values: `true`, `false` and `unknown`. To de
 
 ### Date & Time
 
-In SQL there are multiple way in which you can store temporal values, depending on what needs to be stored. A list of the main temporal data types recognized by the ANSI Standard is presented below.
+In SQL there are multiple ways in which you can store temporal values, depending on what needs to be stored. A list of the main temporal data types recognized by the ANSI Standard is presented below.
 
 - `DATE`
   - stores year, month and day
