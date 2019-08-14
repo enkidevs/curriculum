@@ -33,7 +33,7 @@ $ git merge fix
 The file impacted will have conflict-resolution markers (`<<<<<<<` and `>>>>>>>`) added to it by git, showing the conflicting lines (separated by `=======`). Opening `README.md` in a text editor:
 ```
 To contact us email:
-\<<<<<<< HEAD
+<<<<<<< HEAD
 hello@enki.com
 =======
 help@enki.com
@@ -53,7 +53,7 @@ $ git ??? test
 # merge failed
 
 # open testing.js to resolve issues
-\<<<<<<< HEAD
+<<<<<<< HEAD
 console.log(a);
 =======
 console.log(b);
