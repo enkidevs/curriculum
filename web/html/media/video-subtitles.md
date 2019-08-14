@@ -18,7 +18,6 @@ aspects:
   - deep
 
 links:
-  - '[CodePen: Video subtitles with webvtt](https://codepen.io/enkidevs/pen/YjPYKm){code}'
   - '[a walkthrough](https://www.quackit.com/html_5/tags/html_video_tag.cfm){website}'
   - '[Documentation on MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video){documentation}'
 
