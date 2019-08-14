@@ -49,7 +49,6 @@ Using the `CASCADE` argument means that when a row in the parent table is delete
   ON UPDATE CASCADE
   ON DELETE CASCADE,
 ...
-);
 ```
 
 ### SET NULL
