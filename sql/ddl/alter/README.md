@@ -6,7 +6,8 @@ insights:
   - add-column
   - add-constraint
   - alter-characteristics
-  - add-trigger
+  - add-trigger-1
+  - add-trigger-2
 
 exercises:
   - sql-practice-alter-table

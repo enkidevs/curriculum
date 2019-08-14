@@ -33,7 +33,7 @@ aspects:
 
 ---
 
-# Add Trigger
+# Add Trigger (1)
 
 ---
 ## Content
@@ -55,40 +55,6 @@ CREATE TABLE table_name (
   ON DELETE argument,
   ...
 );
-```
-
-### CASCADE
-
-Using the `CASCADE` argument means that when a row in the parent table is deleted or updated, all the matching rows in the child tables are deleted or updated. Here is an example syntax:
-
-```sql
-...
-  ON UPDATE CASCADE
-  ON DELETE CASCADE,
-...
-);
-```
-
-### SET NULL
-
-Using the `SET NULL` argument means that when there is a change in the parent table (update or delete) the corresponding records in the child tables are set to have a `NULL` value. Here is how it would look in practice:
-
-```sql
-...
-  ON UPDATE SET NULL
-  ON DELETE SET NULL,
-...
-```
-
-### SET DEFAULT
-
-The `SET DEFAULT` argument is very similar to `SET NULL`, but instead of storing a `NULL` value, the RDBMS changes the corresponding records in the child tables to their default values.
-
-```sql
-...
-  ON UPDATE SET DEFAULT
-  ON DELETE SET DEFAULT,
-...
 ```
 
 ### RESTRICT
@@ -116,7 +82,7 @@ The `NO ACTION` argument is similar to `RESTRICT` in that it prohibits changing 
 ---
 ## Practice
 
-Complete the following syntax such that the *trigger* name 'integrity' prohibits deleting a record from the `pokemons` table if there are any matching records in the `region` table.
+Complete the following syntax such that the *trigger* named 'integrity' prohibits deleting a record from the `pokemons` table if there are any matching records in the `region` table.
 
 ```sql
 CREATE TABLE region (
@@ -140,31 +106,3 @@ CREATE TABLE region (
 * ON INSERT
 * IF UPDATE
 * IF DELETE
-
----
-## Revision
-
-Create trigger such that each time we update something to the `region` table under the `name` column, it will insert the same entry to our `region_backup` table on the `name_backup` column:
-
-```sql
-CREATE TABLE region_backup (
-  name_backup VARCHAR,
-  ...
-  ??? bckup_cstr
-  ??? (name_backup)
-  ??? region(name)
-  ??? ???
-);
-```
-
-
-* CONSTRAINT
-* FOREIGN KEY
-* REFERENCES
-* ON UPDATE
-* CASCADE
-* ON DELETE
-* RESTRICT
-* NO ACTION
-* SET DEFAULT
-* SET NULL
