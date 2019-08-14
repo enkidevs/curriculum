@@ -34,8 +34,6 @@ aspects:
 
 ### `LIKE`, `IN`, `BETWEEN`
 
-
-
 SQL provides a bunch of special operators to help you write complex querying conditions. More specifically, in this insight, we will take a look at:
 
 - the `LIKE` operator which is used to define a pattern that the given attribute should conform to
@@ -75,7 +73,7 @@ In this case, we will only get the rows of the three starter Pokémon: Charmande
 | Charmander | 309   | 39 | 52     | 43      |
 | Squirtle   | 314   | 44 | 48     | 65      |
 
-The `LIKE` statement accepts a pattern string, where wildcard characters are used to denote an acceptable pattern. *Note that some databases may have a different implementation of the specific wildcard characters*
+The `LIKE` statement accepts a pattern string, where wildcard characters are used to denote an acceptable pattern.[1]
 
  - `%` is a **wildcard**. This means it counts for a string of any characters of any length, including nothing.
  - `_` represents only one character.
@@ -179,5 +177,8 @@ Choose the query that will get all the location records that are based in region
 * SELECT * FROM location WHERE region_id < 3 AND name='%city';
 * SELECT * FROM location WHERE BETWEEN 1 AND 2 AND name='%city';
 * SELECT * FROM location WHERE region_id < 3 AND name LIKE '_city';
- 
- 
+
+---
+## Footnotes
+[1:RDBMS Implementations]
+Note that some databases may have a different implementation of the specific wildcard characters
