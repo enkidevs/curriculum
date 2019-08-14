@@ -62,14 +62,10 @@ CREATE TABLE table_name (
 Using the `CASCADE` argument means that when a row in the parent table is deleted or updated, all the matching rows in the child tables are deleted or updated. Here is an example syntax:
 
 ```sql
-CREATE TABLE my_table(
-  ...
-  CONSTRAINT cascade_cstr
-  FOREIGN KEY (col1)
-  REFERENCES table_name(col2)
+...
   ON UPDATE CASCADE
   ON DELETE CASCADE,
-  ...
+...
 );
 ```
 
