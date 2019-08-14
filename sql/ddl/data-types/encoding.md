@@ -31,18 +31,12 @@ aspects:
 
 ---
 
-# Encoding and Collation
+# Encoding
 
 ---
 ## Content
 
-When it comes to storing and manipulating string fields, two questions come to mind:
-- What if the characters are not part of the Latin alphabet, e.g. Korean, Russian or even emojis?
-- When sorting results alphabetically, should 'é' come before 'f' or after 'z'? What about 'カ' or '😊'?
-
-Internationalization and localization are important aspects of database design which require more and more attention. Luckily, these problems can be prevented by using the right *encoding* and *collation*.
-
-### Encoding
+When it comes to storing and manipulating string fields, one question that comes to mind is: what if the characters are not part of the Latin alphabet, e.g. Korean, Russian or even emojis? Because internationalization is an important aspect of database design, a solution to the mentioned problem is represented by *encoding*.
 
 You can see the **encoding** of a system as a function that maps groups of bits to a character. One of the first encodings was ASCII: it maps characters to a numeric value and it can represent up to 127 characters - 'A' maps to 65, 'a' to 97, etc. Extended ASCII can be used to represent up to 255 characters.
 
@@ -54,12 +48,6 @@ And it was. The current standard is *Unicode* (*Universal Coded Character Set*) 
 - UTF-32: 4 bytes encoding
 
 While all three encodings are viable, the one that over 90% of all web pages are using is `UTF-8`. Its variable size and compatibility with previous standards made it the best choice.
-
-### Collation
-
-**Collation** means collecting and combining pieces of written information. It is the reason why 'é' (whose ASCII code point is 130) is seen as another type of 'e' and not something that comes after 'z' (122 in ASCII) in a clause that sorts results by a string field.
-
-For this reason, each language has its own collation rules. Most of the time, the table default collation rule is deduced based on the locale settings (`en_US`, `fr_FR`, etc.). However, specific ones can be set for columns and even operations.
 
 ---
 ## Practice
@@ -73,23 +61,3 @@ As of now, the most recommended character encoding is
 * UTF-16
 * UTF-32
 * ASCII
-
----
-## Revision
-
-Match the description to the term it refers to:
-```
-Used to group accented characters with
-their base character.
-???
-
-A function that maps bits to characters.
-???
-```
-
-
-* collation
-* encoding
-
- 
- 

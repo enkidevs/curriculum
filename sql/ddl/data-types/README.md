@@ -7,6 +7,7 @@ insights:
   - sql-numeric-data-types-2
   - sql-numeric-data-types-3
   - sql-string-data-types
-  - encoding-and-collation
+  - encoding
+  - collation
  
  
