@@ -7,7 +7,8 @@ insights:
   - create-a-table
   - primary-key
   - foreign-key
-  - check-and-default-value
+  - check-constraint
+  - default-value
 
 exercises:
   - sql-practice-create-table
