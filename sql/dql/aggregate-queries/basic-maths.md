@@ -106,18 +106,3 @@ FROM subsidiaries;
 * \*
 * \
 * %
-
----
-## Revision
-
-Complete the following query:
-
-```sql
-SELECT id, name,
-    cost * 100
-```
-
-*
-
----
-## Footnotes
