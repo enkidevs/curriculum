@@ -29,7 +29,7 @@ aspects:
 ---
 ## Content
 
-As with returning all columns, you will generally want to restrict the number of records (rows) returned to comply with a constraint. This is done using the `WHERE` keyword and the query would generally look like:
+As with returning all columns, you will generally want to restrict the number of records (rows) returned to comply with a constraint. This is done using the `WHERE` keyword and the query would generally look like this:
 ```sql
 SELECT column_1, column_2,... 
 FROM table_name
