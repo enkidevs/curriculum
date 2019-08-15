@@ -27,7 +27,6 @@ sections:
     - in-depth-ii
     - recipes-ii
   '3':
-    - async
     - async-tips
 
 standards:
