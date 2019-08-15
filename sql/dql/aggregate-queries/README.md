@@ -3,6 +3,7 @@ name: Aggregate Queries
 description: Tools for calculations across sets of data
 
 insights:
+  - basic-maths
   - group-by-clause
   - sum-clause
   - count-clause

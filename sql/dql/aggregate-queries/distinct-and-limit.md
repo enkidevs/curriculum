@@ -36,7 +36,7 @@ aspects:
 
 ---
 
-# Distinct clause
+# Distinct and Limit
 
 ---
 ## Content
@@ -79,6 +79,9 @@ FETCH FIRST 1 ROWS ONLY
 | name      | level |
 |-----------|-------|
 | charizard | 50    |
+
+
+It is important to note that the `OFFSET <number> ROWS` and `FETCH FIRST <number> ROWS ONLY` clauses represent the ANSI Standard for *limiting* or *skipping* a certain number of rows, but that does not mean that all RDBMS implementations will use the same wording. One of the most popular implementations consists of using `LIMIT <number> OFFSET <number>` so it is important to check the syntax used by your [RBDMS implementation](https://en.wikipedia.org/wiki/Select_(SQL)#FETCH_FIRST_clause).
 
 ---
 ## Practice
