@@ -56,7 +56,7 @@ Let's consider the following `pokemon` table:
 | Caterpie   | 195   | 45 | 30     | 35      |
 | Metapod    | 205   | 50 | 20     | 55      |
 
-The n-tuple list of possible values given to `IN` is the list of possible values that the attribute must take in that column for it to be included in the query result.
+The `IN` condition allows you to easily test if a value inside a column matches any one specific item in a list of values.
 
 ```sql
 SELECT *
