@@ -45,7 +45,7 @@ $ npm bin
 ```
 Add an extra `-g` flag (`--global`) to check where global packages are installed:
 ```bash
-$ npm bin
+$ npm bin -g
 /usr/local/bin
 ```
 There isn't a predefined command for listing the available binaries, but you can manually do it using *ls*:
