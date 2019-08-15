@@ -28,7 +28,6 @@ sections:
     - recipes-ii
   '3':
     - async
-    - async-tips
 
 standards:
   javascript-syntax:
