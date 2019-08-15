@@ -61,7 +61,7 @@ INSERT INTO dogs (name, weight) VALUES
 ('Benson', 22);
 ```
 
-And this is how the table would look like:
+And this is what the table would look like:
 
 | name   | weight |
 |--------|--------|
