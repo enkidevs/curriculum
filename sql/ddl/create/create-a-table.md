@@ -112,6 +112,7 @@ Create a table called `students` with the following columns:
 Which of the following queries would create this table:  
 
 `employees`
+
 | ID      | full_name | salary  |
 |---------|-----------|---------|
 | INTEGER | VARCHAR   | INTEGER |
