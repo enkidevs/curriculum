@@ -108,7 +108,7 @@ p.???(res => {
 * Promise
 * resolve
 * then
-* fullfil
+* fulfill
 * reject
 * wait
 * try
