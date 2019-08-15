@@ -47,16 +47,18 @@ The `FOREIGN KEY` is the main principle behind RDBMS. It represents a directed r
 Consider the following tables:
 
 `employees`
+
 | id  | name    | department_id |
 |-----|---------|---------------|
 | INT | VARCHAR | INT           |
 
 `departments`
+
 | id  | name    |
 |-----|---------|
 | INT | VARCHAR |
 
-As with `PRIMARY KEY`s, `FOREIGN KEY`s can be defined when creating a table or added at a later time. In this insight you will learn how to define a `FOREIGN KEY` when creating your table. For the `employees` and `departments` table, we know that the `department_id` and the `id` columns contain identical values and would like to create a reference between these tables. This would be done as such:
+As with `PRIMARY KEY`s, `FOREIGN KEY`s can be defined when creating a table or added at a later time. In this insight you will learn how to define a `FOREIGN KEY` when creating your table. For the `employees` and `departments` table, we know that the `department_id` and the `id` columns contain identical values. We would then like to create a reference between these tables. This would be done as such:
 
 ```sql
 CREATE TABLE departments (
@@ -76,7 +78,7 @@ CREATE TABLE employees (
 );
 ```
 
-Defining *constraints* such as a `FOREIGN KEY` usually starts with `CONSTRAINT` followed by the constraint name, which in our case is `department_fk`. Following is the type of constraint, `FOREIGN KEY`, the name of the column, `department_id`, which `REFERENCES` another table, `departments`, and in parentheses is the *parent* column name, `id`.
+Defining *constraints* such as a `FOREIGN KEY` usually starts with `CONSTRAINT` followed by the constraint name, which in our case is `department_fk`. Following this is the type of constraint, `FOREIGN KEY`, the name of the column, `department_id`, which `REFERENCES` another table, `departments`, and in parentheses is the *parent* column name, `id`.
 
 Note that the column from the *parent* table must be defined as either `PRIMARY KEY` or `UNIQUE`[1] for the relationship to work.
 
