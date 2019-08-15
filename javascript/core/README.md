@@ -26,8 +26,6 @@ sections:
     - recipes-i
     - in-depth-ii
     - recipes-ii
-  '3':
-    - async
 
 standards:
   javascript-syntax:
