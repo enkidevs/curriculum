@@ -28,6 +28,7 @@ tags:
 links:
 
   - '[More on DISTINCT](https://www.tutorialspoint.com/sql/sql-distinct-keyword.htm){documentation}'
+  - '[FETCH FIRST Clause Implementations](https://en.wikipedia.org/wiki/Select_(SQL)#FETCH_FIRST_clause){documentation}'
 
 
 aspects:
@@ -47,9 +48,13 @@ Consider the following table of `pokemons`:
 
 | name      | level |
 |-----------|-------|
-| bulbasaur | 5     |
-| charizard | 50    |
-| bulbasaur | 45    |
+| Weedle    | 1     |
+| Caterpie  | 3     |
+| Bulbasaur | 5     |
+| Charizard | 45    |
+| Bulbasaur | 47    |
+| Caterpie  | 65    |
+| Charizard | 100   |
 
 If you wanted to return a list of all the *unique* names you would use:
 
@@ -61,65 +66,57 @@ SELECT DISTINCT name FROM pokemons;
 
 | name      |
 |-----------|
-| bulbasaur |
-| charizard |
+| Weedle    |
+| Caterpie  |
+| Bulbasaur |
+| Charizard |
 
-There might be some cases where you only want to return a certain number of results, or records after a certain number of rows. In this case you would have to use the `OFFSET <number> ROWS` and the `FETCH FIRST <number> ROWS ONLY` commands.
+There might be some cases where you only want to return a certain number of results, or records that start after a certain number of rows. In this case you would have to use the `OFFSET <number> ROWS` and the `FETCH FIRST <number> ROWS ONLY` commands.
 
-Using the same table, if we wanted to limit our results to 1 record and start counting after the first row we would use:
+Using the same table, if we wanted to limit our results to 3 records and start counting after the second row we would use:
 
 ```sql
 SELECT * FROM pokemons
-OFFSET 1 ROWS
-FETCH FIRST 1 ROWS ONLY
+OFFSET 2 ROWS
+FETCH FIRST 3 ROWS ONLY
 ```
 
 *Results*:
 
 | name      | level |
 |-----------|-------|
-| charizard | 50    |
+| Bulbasaur | 5     |
+| Charizard | 45    |
+| Bulbasaur | 47    |
 
 
-It is important to note that the `OFFSET <number> ROWS` and `FETCH FIRST <number> ROWS ONLY` clauses represent the ANSI Standard for *limiting* or *skipping* a certain number of rows, but that does not mean that all RDBMS implementations will use the same wording. One of the most popular implementations consists of using `LIMIT <number> OFFSET <number>` so it is important to check the syntax used by your [RBDMS implementation](https://en.wikipedia.org/wiki/Select_(SQL)#FETCH_FIRST_clause).
+It is important to note that the `OFFSET <number> ROWS` and `FETCH FIRST <number> ROWS ONLY` clauses represent the ANSI Standard for *limiting* or *skipping* a certain number of rows, but that does not mean that all RDBMS implementations will use the same wording. One of the most popular implementation consists of using `LIMIT <number> OFFSET <number>`, and here is how you would put it in application:
+
+```sql
+SELECT * FROM pokemons
+LIMIT 3 OFFSET 2;
+```
+
+Make sure to check out the resource links if you are unsure of what syntax your implementation uses.
 
 ---
 ## Practice
 
-We know that the table *pokedex_name* has a field called name with 42 entries. We would like to see how many of these are distinct values. Which query do you think will have the desired output?
-```
-SELECT COUNT(name) FROM pokedex_name;
-
---Result:
-count
-======
-   42
-(1 row)
+What is the ANSI Standard syntax for limiting your resulting set to a certain number of rows?
 
 ???
 
---Result:
-count
-======
-   35
-(1 row)
-```
-
-
-* SELECT COUNT(DISTINCT name) FROM pokedex_name;
-* SELECT * FROM pokedex_name;
-* SELECT DISTINCT COUNT(name) FROM pokedex_name;
-* DISTINCT SELECT COUNT(name) FROM pokedex_name;
+* `FETCH FIRST <number> ROWS ONLY`
+* `LIMIT <number>`
+* `FIRST <number>`
 
 ---
 ## Revision
 
-Consider the following table and the following query. Fill the gaps such that we will have no duplicates in the resulting table:
-```
---GRADES table:
+Consider the following table and the following query. Fill the gaps such that we will have no duplicates in the resulting table called `GRADES`:
 
-|   NAME    | GRADES |
-|===========|========|
+| NAME      | GRADES |
+|-----------|--------|
 | John      | 56%    |
 | Sebastian | 68%    |
 | Doris     | 56%    |
@@ -127,6 +124,7 @@ Consider the following table and the following query. Fill the gaps such that we
 | Stefan    | 68%    |
 | Raul      | 50%    |
 
+```sql
 SELECT ???
 FROM ???
 ??? BY GRADES;
@@ -138,5 +136,3 @@ FROM ???
 * `ORDER`
 * `EMPLOYEES`
 * `*`
- 
- 

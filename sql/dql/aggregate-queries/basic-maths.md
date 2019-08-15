@@ -19,7 +19,7 @@ standards:
 
 links:
 
-  - '[](){}'
+
 
 aspects:
   - workout
