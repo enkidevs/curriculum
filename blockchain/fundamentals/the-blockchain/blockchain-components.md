@@ -28,11 +28,11 @@ aspects:
 
 A blockchain is a type of network. Just like any other network, it has to follow a **protocol**. **Nodes** are required to acknowledge, verify and append information. This time, however, information is not converging towards a single source of truth (e.g. central database), but is broadcasted between nodes. This is called **decentralization**.
 
-After a certain period of time (dependant on internet speed and latency) and a number of confirmation from other verifying nodes, the set of data (**block**) is confirmed as part of the blockchain.
+After a certain period of time (dependant on internet speed and latency), and a number of confirmations from other verifying nodes, the set of data (**block**) is confirmed as part of the blockchain.
 
 A distinction can also be made between nodes: there are **full nodes** and **mining nodes**. In short, mining nodes, or simply *miners*, are the ones that verify and bundle the valid, available[1] transactions into a new block. They also make sure to include a reference to the previous block in the chain. Full nodes are the ones that receive the bundled blocks from miners and verify its *integrity*. If everything is in order, they then forward a confirmation message to other nodes.
 
-To prevent nodes from turning against the network, they *are rewarded* whenever they find a valid block - we discuss node rewards later.
+To prevent nodes from turning against the network, they *are rewarded* whenever they find a valid block. We’ll discuss node rewards later.
 
 The high-level components of the blockchain can be enumerated as follows:
 - `Protocol`: The set of rules on which the network runs
@@ -45,13 +45,13 @@ The high-level components of the blockchain can be enumerated as follows:
 ## Footnotes
 
 [1: Availability]
-Given the size of the network and transaction happening all over the globe, two nodes might not be aware of the same transactions at the same time.
+Given the size of the network and transactions happening all over the globe, two nodes might not be aware of the same transactions at the same time.
 
 ---
 ## Practice
 
 
-Identify the item that `is not` part of a blockchain:
+Select the item that `is not` part of a blockchain:
              	
 ???
              	
