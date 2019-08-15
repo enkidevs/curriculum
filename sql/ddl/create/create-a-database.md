@@ -48,7 +48,7 @@ Previously, we have looked at how you can extract information from a database us
 CREATE DATABASE my_first_db;
 ```
 
-This command creates a new database called *"my_first_db"*. Inside this database you can now start creating tables or insert data in said tables. Keep in mind that each database must hold an *unique* name. Having done this we can now follow with creating tables or altering already existing tables.
+This command creates a new database called *"my_first_db"*. Inside this database you can now start creating tables or insert data in said tables. Keep in mind that each database must hold a *unique* name. Having done this we can now follow up with creating tables or altering already existing tables.
 
 Note that if the name is not unique, an error is usually thrown. To suppress the error and skip creating a duplicate database, you can use the `IF NOT EXISTS` clause which is used as such:
 
