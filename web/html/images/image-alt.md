@@ -18,7 +18,6 @@ aspects:
   - obscura
 
 links:
-  - '[CodePen: Broken Image with Alt](https://codepen.io/enkidevs/pen/JBjqRb){code}'
   - '[Documentation on MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img){documentation}'
   - '[Official documentation on w3.org](https://www.w3.org/TR/2011/WD-html5-author-20110705/the-img-element.html#dom-img-alt){documentation}'
 
