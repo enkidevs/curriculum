@@ -45,51 +45,42 @@ links:
 ---
 ## Content
 
-Arrays added a number of prototype methods in ES6 for improved ease of searching Arrays.
+Arrays have a number of prototype methods for performing search operations.
 
-**Array.prototype.includes(expr)**
+- **Array.prototype.includes(expr)**
 
-*includes* returns a boolean indicating with an array contains a specific value:
+`includes` returns a boolean indicating whether an array contains a specific value or not:
 
-```javacript
+```javascript
 var people = ["john", "bob"];
 people.includes("john"); //true
 ```
 
-**Array.prototype.find(f)**  
-**Array.prototype.findIndex(f)**  
+- **Array.prototype.find(f)**  
+- **Array.prototype.findIndex(f)**  
 
-*find* and *findIndex* return the first value or index that satisfies a testing function `f`, which will receive the arguments `element`, `index`, `source`.
+`find` and `findIndex` return the first value or index that satisfies a testing function `f`, which will receive the arguments `element`, `index`, `source`.
 
 If no elements match then *undefined* will be returned:
 
-```javacript
+```javascript
 var people = [
-    {name: 'Alex', age: 36},
-    {name: 'John', age: 20},
-    {name: 'Tait', age: 1}
+  { name: "Alex", age: 36 },
+  { name: "John", age: 20 },
+  { name: "Tait", age: 1 }
 ];
 
-people.find(function (e, i, src) {
-    return element.age>=18;
+people.find(function(e, i, src) {
+  return element.age >= 18;
 });
 //returns Alex
 
-people.findIndex(function (e, i, src) {
-    return element.age > 18 &&
-           element.age < 30;
+people.findIndex(function(e, i, src) {
+  return (
+    element.age > 18 && element.age < 30
+  );
 });
 //returns 1
-
-```
-
-**Array.prototype.fill(value, [start, [end]])**
-
-Populates an array with a supplied value and optional start & end position and is great for producing test data.
-
-```javacript
-[1,1,1].fill(5); //[5,5,5]
-[1,1,1,1,1].fill(5,1,3); //[1,5,5,1,1]
 ```
 
 ---
@@ -97,9 +88,9 @@ Populates an array with a supplied value and optional start & end position and i
 
 Find the first number divisible by `4`:
 
-```javacript
-let ints = ['6','2','5','6','5','8'];
-ints.???(???)
+```javascript
+let ints = ["6", "2", "5", "6", "5", "8"];
+ints.???(???);
 ```
 
 * `find`
@@ -116,8 +107,9 @@ ints.???(???)
 
 Fill the array with the first number divisible by `2` and `3`:
 
-```javacript
-let ints = ['2','5','4','5','6','5','8'];
+```javascript
+let ints = ["2", "5", "4", "5",
+  "6" , "5", "8"];
 ints.???(ints.???(???))
 ```
 
