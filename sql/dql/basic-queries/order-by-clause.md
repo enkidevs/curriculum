@@ -43,7 +43,7 @@ aspects:
 
 The `ORDER BY` clause enables users to order data in ascending or descending order on one or more columns. This is also more commonly known as **sorting** data.
 
-Considering the following `employees` table:
+Consider the following `employees` table:
 
 | id  | first_name | last_name | email                   |
 | --- | ---------- | --------- | ----------------------- |
@@ -75,7 +75,7 @@ ORDER BY last_name;
 
 Note that the ascending order is set as default. If we want to display the result in a descending order we need to put `DESC` after specifying the columns.
 
-There might be some cases where you want your result set to be ordered by multiple columns, each being sorted differently (ascending or descending). In SQL, this is done by specifying the name of the column's you want ordered followed by their order, and each set of column-order should be separated by a column. When you're sorting using only one column, the result set might contain duplicate values. In this case, you can add another column to the sorting strategy such that the duplicate values would be sorted by the second column.
+There might be some cases where you want your result set to be ordered by multiple columns, each being sorted differently (ascending or descending). In SQL, this is done by specifying the name of the columns you want ordered, followed by their order. On top of that, each set of column-order should be separated by a comma. When you're sorting using only one column, the result set might contain duplicate values. In this case, you can add another column to the sorting strategy such that the duplicate values would be sorted by the second column.
 
 On the same `employees` table, to return the `last_name` and `first_name`, sorted in ascending order by the `last_name` and in descending order by the `first_name`, the command would be:
 
