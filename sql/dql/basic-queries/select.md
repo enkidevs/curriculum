@@ -51,14 +51,14 @@ FROM pokemon;
 
 The above command gets all of the *columns* and all of the *rows* from the `pokemon` table[1].
 
-We can also use the `SELECT` statement to specify the exact *columns* we want to keep from the table, and to discard the others. Depending on how the database was created, you might have to deal with complicated column names. In order to increase readability, or to avoid repeatedly writing lengthy names, the columns can be renamed using *aliases* represented by the `AS` keyword.
+We can also use the `SELECT` statement to specify the exact *columns* we want to display from the table. Depending on how the database was created, you might have to deal with complicated column names. In order to increase readability, or to avoid repeatedly writing lengthy names, the columns can be renamed using *aliases* represented by the `AS` keyword.
 
 ```sql
 SELECT id, hp AS 'Health Points', attack
 FROM pokemon;
 ```
 
-The above command gets only the `id`, `hp`, and `attack` columns from the table, but keeps all of the rows of the `pokemon` table. On top of that, we create an *alias* for the `hp` column that reads 'Health Points'. It is important to keep in mind that *aliases* exist only for the duration or purpose of the query. Here is how the resulting set of our query looks like:
+The above command gets only the `id`, `hp`, and `attack` columns from the table, but keeps all of the rows of the `pokemon` table. On top of that, we create an *alias* for the `hp` column that reads 'Health Points'. It is important to keep in mind that *aliases* exist only for the duration or purpose of the query. Here is what the result of our query looks like:
 
 | id | Health Points | attack |
 |----|---------------|--------|
