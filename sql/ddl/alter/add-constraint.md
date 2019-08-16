@@ -44,9 +44,9 @@ aspects:
 ---
 ## Content
 
-Sometimes we need to add ulterior constraints to the table we define. The `ALTER TABLE` statement enables us to do it. There are several types of constraints we can add. 
+Sometimes we need to add ulterior constraints to the table we define. The `ALTER TABLE` statement enables us to do this. There are several types of constraints we can add. 
 
-If we want to ensure that all values in one or more columns are different we would use the `UNIQUE` keyword as such:
+If we want to ensure that all values in one or more columns are different we'd use the `UNIQUE` keyword like this:
 
 ```sql
 ALTER TABLE table_name
