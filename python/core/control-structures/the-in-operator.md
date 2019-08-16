@@ -57,7 +57,7 @@ Other iterable sequence types include tuples and strings. When the `in` keyword 
 ---
 ## Practice
 
-Complete the following code snippet to check for the existence of the `letter` 'p' in `my_string`, returning True if the string contains the letter p and False if it does not:
+Complete the following code snippet to check for the existence of the `letter` 'p' in `my_string`, printing True if the string contains the letter p and False if it does not:
 
 ```python
 letter = 'p'
