@@ -33,7 +33,7 @@ aspects:
 
 The `SUM` clause comes in handy when we need to perform numerical addition.
 
-Below we will see some examples based on a hypothetical database containing important information on pokemon. First, we will extract a limited number of entries[1]:
+Below we'll see some examples based on a hypothetical database containing important information on pokemon. First, we'll extract a limited number of entries[1]:
 
 ```
 -- table called `experience_table`
@@ -111,7 +111,7 @@ SELECT ???(???) FROM move_effect_change;
 ---
 ## Revision
 
-We have a table called `items` that contains the name and cost of every item in Pokeland. We want to know how much it would cost to buy all items...
+We have a table called `items` that contains the name and cost of every item in Pokeland. We want to know how much it would cost to buy all the items...
 ```
 --items:
 
@@ -128,7 +128,7 @@ id  | cost  |    name
 (1 row)
 ```
 
-Which query will do so?
+Which query will do this for us?
 
 ???
 
