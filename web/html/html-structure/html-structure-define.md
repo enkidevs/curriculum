@@ -41,7 +41,7 @@ opening tag: ???
 end tag: ???
 attribute: ???
 attribute's name: ???
-attributes value: ???
+attribute's value: ???
 ```
 
 * `<a href="https:/enki.com/">Enki</a>`
