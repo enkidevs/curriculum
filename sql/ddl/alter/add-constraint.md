@@ -44,7 +44,9 @@ aspects:
 ---
 ## Content
 
-Sometimes we need to add ulterior constraints to the table we define. The `ALTER TABLE` statement enables us to do it. There are several types of constraints we can add. If we want to ensure that all values in one or more columns are different:
+Sometimes we need to add ulterior constraints to the table we define. The `ALTER TABLE` statement enables us to do it. There are several types of constraints we can add. 
+
+If we want to ensure that all values in one or more columns are different we would use the `UNIQUE` keyword as such:
 
 ```sql
 ALTER TABLE table_name
@@ -77,7 +79,7 @@ FOREIGN KEY (column_name)
 REFERENCES table_name(column_name);
 ```
 
-You can also remove any of you constraints by using the following syntax:
+You can also remove any of your constraints by using the following syntax:
 
 ```sql
 ALTER TABLE table_name

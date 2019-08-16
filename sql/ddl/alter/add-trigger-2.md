@@ -53,7 +53,7 @@ Using the `CASCADE` argument means that when a row in the parent table is delete
 
 ### SET NULL
 
-Using the `SET NULL` argument means that when there is a change in the parent table (update or delete) the corresponding records in the child tables are set to have a `NULL` value. Here is how it would look in practice:
+Using the `SET NULL` argument means that when there is a change in the parent table (update or delete) the corresponding records in the child tables are set to have a `NULL` value. Here is what it would look in practice:
 
 ```sql
 ...

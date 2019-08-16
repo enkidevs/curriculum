@@ -38,12 +38,14 @@ aspects:
 ---
 ## Content
 
-*Triggers* are defined to let the computer know it has to run a certain set of actions when an event happens. Usually this events mean executing: `UPDATE`, `INSERT` and `DELETE` statements. Basically it's a database object that is bound to a table and executes automatically. For the SQL Standard, there are two main types of triggers:
+*Triggers* are defined to let the computer know it has to run a certain set of actions when an event happens. Usually this event means executing `UPDATE`, `INSERT` and `DELETE` statements. Basically it's a database object that is bound to a table and executes automatically. 
+
+For the SQL Standard, there are two main types of triggers:
 
 - `ON UPDATE` triggers
 - `ON DELETE` triggers
 
-These *triggers* are added when defining a `FOREIGN KEY` constraint, and both `ON UPDATE` and `ON DELETE` have several arguments which decide what action is taken after a `DELETE` or `UPDATE` statement. Here is how the default syntax would look:
+These *triggers* are added when defining a `FOREIGN KEY` constraint, and both `ON UPDATE` and `ON DELETE` have several arguments which decide what action is taken after a `DELETE` or `UPDATE` statement. Here is what the default syntax would look like:
 
 ```sql
 CREATE TABLE table_name (

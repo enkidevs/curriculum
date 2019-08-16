@@ -52,7 +52,7 @@ There are three main characteristics which you can change using an `ALTER` comma
 
 ### Data Type
 
-Although you are able to change the data type of a column, the new definition must be compatible with the old existing data. For example, if you change a numeric type to `VARCHAR` this will always be successful, but if you change a `VARCHAR` type to numeric values like 'abc' will fail to be cast as numbers.
+Although you are able to change the data type of a column, the new definition must be compatible with the old existing data. For example, if you change a numeric type to `VARCHAR` this will always be successful. If, however, you change a `VARCHAR` type to numeric, values like 'abc' will fail to be cast as numbers.
 
 The syntax for changing a data type looks like this:
 
@@ -72,7 +72,7 @@ ALTER COLUMN column_name
 SET DEFAULT value;
 ```
 
-Keep in mind that the 'value' must have the same data type as the column. Now if you wanted to remove the default value from one of your columns you would use:
+Keep in mind that the 'value' must have the same data type as the column. Now if you wanted to remove the default value from one of your columns, you would use:
 
 ```sql
 ALTER TABLE table_name
@@ -82,7 +82,7 @@ DROP DEFAULT;
 
 ### NOT NULL
 
-The `NOT NULL` clause can also be altered for any of your columns, and the syntax is very similar to the one used for default value. To add a `NOT NULL` clause you would use:
+The `NOT NULL` clause can also be altered for any of your columns, and the syntax is very similar to the one used for default value. To add a `NOT NULL` clause, you would use:
 
 ```sql
 ALTER TABLE table_name
@@ -90,7 +90,7 @@ ALTER COLUMN column_name
 SET NOT NULL;
 ```
 
-And if you wanted to remove the `NOT NULL` clause you would use:
+And if you wanted to remove the `NOT NULL` clause, you would use:
 
 ```sql
 ALTER TABLE table_name
