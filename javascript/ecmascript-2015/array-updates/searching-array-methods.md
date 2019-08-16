@@ -108,8 +108,15 @@ ints.???(???);
 Fill the array with the first number divisible by `2` and `3`:
 
 ```javascript
-let ints = ["2", "5", "4", "5",
-  "6" , "5", "8"];
+let ints = [
+  "2",
+  "5",
+  "4",
+  "5",
+  "6",
+  "5",
+  "8"
+];
 ints.???(ints.???(???))
 ```
 
