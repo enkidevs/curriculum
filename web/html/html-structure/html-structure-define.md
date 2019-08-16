@@ -75,8 +75,8 @@ Enki: ???
 * opening tag
 * end tag
 * attribute
-* attributes name
-* attributes value
+* attribute's name
+* attribute's value
 * content
 * value
 * rule
