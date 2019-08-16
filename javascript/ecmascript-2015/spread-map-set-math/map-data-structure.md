@@ -110,7 +110,7 @@ const myMap = new Map()
 
 myMap.???(???, 'enki')
 console.log(myMap)
-// Map(1) {1 => "enki"}
+// Map(4) {4 => "enki"}
 
 console.log(myMap.???(4))
 // true
