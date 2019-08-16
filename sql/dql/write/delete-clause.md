@@ -29,7 +29,7 @@ links:
 ---
 ## Content
 
-The `DELETE` clause enables users to delete data from a table. We can specify which rows to delete using the `WHERE` clause, otherwise all records will be deleted.
+The `DELETE` clause lets users delete data from a table. We can specify which rows to delete using the `WHERE` clause, otherwise all records will be deleted.
 
 Consider the `egg_group` table:
 
@@ -57,6 +57,8 @@ Suppose we want to delete the first value from the table:
 DELETE FROM egg_group
 WHERE id = 1;
 ```
+
+Then, our table becomes:
 
 | id | name          |
 |----|---------------|
@@ -86,7 +88,7 @@ WHERE  id IN
   );
 ```
 
-If we wanted to delete all data in this table:
+If we wanted to delete all the data in this table:
 
 ```sql
 DELETE FROM egg_group;
@@ -95,7 +97,7 @@ DELETE FROM egg_group;
 ---
 ## Practice
 
-Consider the `egg_group` table. This time we want to delete the first 5 values:
+Consider the `egg_group` table. Fill in the gap to delete the first 5 values of it.
 
 | id | name          |
 |----|---------------|
@@ -128,7 +130,7 @@ WHERE id ??? 1 and 5;
 ---
 ## Revision
 
-We want to delete the 15th element of "egg_group" table:
+We want to delete the 15th element of the "egg_group" table:
 
 | id | name          |
 |----|---------------|
