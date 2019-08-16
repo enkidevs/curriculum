@@ -42,7 +42,7 @@ aspects:
 ---
 ## Content
 
-The `DISTINCT` keyword enables users to filter the duplicates that result after doing a `SELECT` query.
+The `DISTINCT` keyword enables users to filter the duplicates that appear after doing a `SELECT` query.
 
 Consider the following table of `pokemons`:
 
@@ -56,7 +56,7 @@ Consider the following table of `pokemons`:
 | Caterpie  | 65    |
 | Charizard | 100   |
 
-If you wanted to return a list of all the *unique* names you would use:
+If you wanted to return a list of all the *unique* names you'd use:
 
 ```sql
 SELECT DISTINCT name FROM pokemons;
@@ -71,9 +71,9 @@ SELECT DISTINCT name FROM pokemons;
 | Bulbasaur |
 | Charizard |
 
-There might be some cases where you only want to return a certain number of results, or records that start after a certain number of rows. In this case you would have to use the `OFFSET <number> ROWS` and the `FETCH FIRST <number> ROWS ONLY` commands.
+There might be some cases where you only want to return a certain number of results, or records that start after a certain number of rows. In this case you'd have to use the `OFFSET <number> ROWS` and the `FETCH FIRST <number> ROWS ONLY` commands.
 
-Using the same table, if we wanted to limit our results to 3 records and start counting after the second row we would use:
+Using the same table, if we wanted to limit our results to 3 records and start counting after the second row we'd use:
 
 ```sql
 SELECT * FROM pokemons
@@ -90,14 +90,14 @@ FETCH FIRST 3 ROWS ONLY
 | Bulbasaur | 47    |
 
 
-It is important to note that the `OFFSET <number> ROWS` and `FETCH FIRST <number> ROWS ONLY` clauses represent the ANSI Standard for *limiting* or *skipping* a certain number of rows, but that does not mean that all RDBMS implementations will use the same wording. One of the most popular implementation consists of using `LIMIT <number> OFFSET <number>`, and here is how you would put it in application:
+It's important to note that the `OFFSET <number> ROWS` and `FETCH FIRST <number> ROWS ONLY` clauses represent the ANSI Standard for *limiting* or *skipping* a certain number of rows, but that does not mean that all RDBMS implementations will use the same wording. One of the most popular implementations consists of using `LIMIT <number> OFFSET <number>`, and here is how you would apply it:
 
 ```sql
 SELECT * FROM pokemons
 LIMIT 3 OFFSET 2;
 ```
 
-Make sure to check out the resource links if you are unsure of what syntax your implementation uses.
+Check out the resource links if you're unsure of what syntax your implementation uses.
 
 ---
 ## Practice
@@ -113,7 +113,7 @@ What is the ANSI Standard syntax for limiting your resulting set to a certain nu
 ---
 ## Revision
 
-Consider the following table and the following query. Fill the gaps such that we will have no duplicates in the resulting table called `GRADES`:
+Look at the following table and query. Fill the gaps so that we end up with no duplicates in the resulting `GRADES` table:
 
 | NAME      | GRADES |
 |-----------|--------|
