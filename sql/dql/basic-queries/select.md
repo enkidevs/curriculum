@@ -31,7 +31,7 @@ aspects:
 ---
 ## Content
 
-Consider the following table named `pokemon`:
+The `SELECT` command is used to retrieve data from tables. Consider the following table named `pokemon`:
 
 | id | name       | total | hp | attack | defense |
 |----|------------|-------|----|--------|---------|
@@ -51,7 +51,14 @@ FROM pokemon;
 
 The above command gets all of the *columns* and all of the *rows* from the `pokemon` table[1].
 
-We can also use the `SELECT` statement to specify the exact *columns* we want to display from the table. Depending on how the database was created, you might have to deal with complicated column names. In order to increase readability, or to avoid repeatedly writing lengthy names, the columns can be renamed using *aliases* represented by the `AS` keyword.
+We can also use the `SELECT` statement to specify the exact *columns* we want to display from the table.
+
+```sql
+SELECT name, total, hp
+FROM pokemon;
+```
+
+Depending on how the database was created, you might have to deal with complicated column names. In order to increase readability, or to avoid repeatedly writing lengthy names, the columns can be renamed using *aliases* represented by the `AS` keyword.
 
 ```sql
 SELECT id, hp AS 'Health Points', attack
