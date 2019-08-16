@@ -41,7 +41,7 @@ aspects:
 ---
 ## Content
 
-The `ORDER BY` clause enables users to order data in ascending or descending order on one or more columns. This is also more commonly known as **sorting** data.
+The `ORDER BY` clause in SQL helps you sort data returned by your queries.
 
 Consider the following `employees` table:
 
@@ -54,7 +54,7 @@ Consider the following `employees` table:
 | 5   | Immanuel   | Kippen    | ikippen4@biglobe.ne.jp  |
 | 6   | Regina     | Pantone   | regone@stratos.org      |
 
-Right now, the table is sorted in ascending order by the `id` column, but what if you need the results of your query to be sorted in ascending order by the `last_name` column? To achieve this you would use the following syntax: 
+Let's say that through a query we want our results sorted alphabetically by their `last_name`. To achieve this you would use the following syntax: 
 
 ```sql
 SELECT last_name, first_name
@@ -72,6 +72,8 @@ ORDER BY last_name;
 | Pantone   | Karlene    |
 | Pantone   | Regina     |
 | Warrier   | Esta       |
+
+The sorting behavior of `ORDER BY` can be explicitly changed by placing the `ASC` (ascending) or `DESC` (descending) keywords after the column name: `ORDER BY column_name ASC/DESC`.
 
 Note that the ascending order is set as default. If we want to display the result in a descending order we need to put `DESC` after specifying the columns.
 
@@ -101,15 +103,15 @@ First, the `last_name` column is sorted in ascending order, and for the rows whe
 ---
 ## Practice
 
-The `nature_name` table contains data about the nature name in multiple languages, and it has the following columns:
-* `name`, for nature name
-* `language_id` to reflect the given language.
+The `students` table contains data about each student at an international school. Two of the columns in the table are represented by:
+* `name`, for the student's name
+* `language_id` to reflect the native language
 
 Select both columns from the table and sort your resulting set in descending order by the `name` column:
 
 ```sql
 SELECT name, ???
-FROM nature_name
+FROM students
 ??? name ???;
 ```
 
