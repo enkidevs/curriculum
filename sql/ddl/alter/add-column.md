@@ -46,18 +46,18 @@ aspects:
 ---
 ## Content
 
-The `ALTER TABLE` command let's you modify table constraints and column definitions after you have defined your table.
+The `ALTER TABLE` command lets you modify table constraints and column definitions after you've defined your table.
 
-If you would like to add a new column to a certain table, we can use the `ALTER TABLE` statement:
+If you'd like to add a new column to a certain table, we can use the `ALTER TABLE` statement:
 
 ```sql
 ALTER TABLE table_name
 ADD column_name datatype;
 ```
 
-You must always specify the column name and its data type, but there are some other optional arguments you can use. For example, you can add a `CHECK` constraint, a `DEFAULT` value, a `NOT NULL` clause, or even set the column as a `PRIMARY KEY` (that is if there isn't a `PRIMARY KEY` already defined).
+You must always specify the column name and its data type, but there are some other optional arguments you can use. For example, you can add a `CHECK` constraint, a `DEFAULT` value, a `NOT NULL` clause, or even set the column as a `PRIMARY KEY` (that is, if there isn't a `PRIMARY KEY` already defined).
 
-Here is a simple example:
+Here's a simple example:
 
 ```sql
 ALTER TABLE pets
