@@ -51,7 +51,7 @@ Consider the `egg_group` table:
 | 14 | dragon        |
 | 15 | no-eggs       |
 
-Suppose we want to delete the first value of the table:
+Suppose we want to delete the first value from the table:
 
 ```sql
 DELETE FROM egg_group

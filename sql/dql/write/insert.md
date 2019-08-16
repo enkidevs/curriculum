@@ -61,7 +61,7 @@ INSERT INTO item (id, fling_power,
 VALUES (1230, 50, 33, 'bug-ball');
 ```
 
-This would effectively skip the `cost` and `item_fling_effect_id` value. If the fields *are not required* by the DB, this should work just fine and the RDBMS would store a `NULL` value. On top of that, if you omit a column which has a `DEFAULT` value defined, the RDBMS will store the default value rather than a `NULL`.
+This would effectively skip the `cost` and `item_fling_effect_id` value. If the fields *are not required* by the DB, this should work just fine and the RDBMS would store a `NULL` value. If, however, you omit a column which has a `DEFAULT` value defined, the RDBMS will store the default value rather than a `NULL`.
 
 Multiple insertion are done by adding multiple parentheses:
 
