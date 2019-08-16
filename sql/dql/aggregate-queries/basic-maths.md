@@ -31,7 +31,7 @@ aspects:
 ---
 ## Content
 
-In SQL you can use basic arithmetic operations to combine the values in your columns, row by row. Apart from the operations you already know (`+`, `-`, `*`, `/`) you can also use the modulo operator (`%`) which returns the remainder after division of the values.
+In SQL you can use basic arithmetic operations to combine the values in your columns, row by row. Apart from the operations you already know (`+`, `-`, `*`, `/`) you can also use the modulo operator (`%`) which returns the remainder after division of values.
 
 Consider this simple table called `pokemon_stats` which has the following values:
 
@@ -63,7 +63,7 @@ FROM pokemon_stats;
 
 Keep in mind that the new column `total` exists only for the duration or the purpose of the query, and that it will not modify the database.
 
-If for some reason you want a table which contains the ratio between `hp` and `attack` as a percentage you would use:
+If for some reason you want a table which contains the ratio between `hp` and `attack` as a percentage, you would use:
 
 ```sql
 SELECT id, hp, attack, defense,
