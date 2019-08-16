@@ -78,7 +78,7 @@ The `LIKE` statement accepts a pattern string, where wildcard characters are use
  - `%` is a **wildcard**. This means it counts for a string of any characters of any length, including nothing.
  - `_` represents only one character.
 
-Therefore, `%le` denotes any string that ends in 'le'. `_le` denotes any string with only one character before 'le'. They can be chained together into complex patterns like `___taco%` which denotes any string containing 'taco' starting on the 4th character and with any number of characters after.
+Therefore, `%le` denotes any string that ends in 'le'. `_le` denotes any string with only one character before 'le'. They can be chained together into complex patterns like `___taco%` which denotes any string containing the substring 'taco' at its 4th position, and with any number of characters after.
 
 ```sql
 SELECT *
