@@ -86,7 +86,7 @@ If an image cannot load properly in a web page, what attribute will display text
 
 ???
 
-Which of these are not a common web image format:
+Which one of these is not a common web image format:
 
 ???
 
