@@ -31,7 +31,7 @@ aspects:
 ---
 ## Content
 
-When added to an SQL `SELECT` statement, `WHERE` allows us to select rows in a table by specifying rules. 
+When added to an SQL `SELECT` statement, `WHERE` allows us to select rows in a table by specifying *filtering* rules. 
 
 You can write a conditional statement after `WHERE` and, for each row in the table, if the conditional statement evaluates to true, the row will be included in the query result. If not, it will not be included in the result.
 
