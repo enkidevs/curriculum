@@ -33,7 +33,13 @@ aspects:
 
 ### `AND`, `OR`, `NOT`
 
-As you have seen in the previous insight, the predicates we use in `WHERE` can be conjoined using logical operators like `AND`, `OR` and `NOT`. They work as you would expect them to; you can include only the rows which satisfy both or either of two conditions using `AND` and `OR`, respectively. `NOT` negates the truth value of the predicate, so it now selects the rows that don't satisfy the condition.
+As you have seen in the previous insight, the predicates we use in `WHERE` can be conjoined using logical operators like `AND`, `OR` and `NOT`. These operators are used in combination with filtering conditions (e.g. `salary > 1000`) and can be used for:
+
+- returning records for which two (or more) conditions are true at the same time with `AND`
+- returning records for which any of two (or more) conditions are true with `OR`
+- negating a condition with `NOT`
+
+They work as you would expect them to; you can include only the rows which satisfy both or either of two conditions using `AND` and `OR`, respectively. `NOT` negates the truth value of the predicate, so it now selects the rows that don't satisfy the condition.
 
 As always, let's take a look at this `pokemon` table:
 
