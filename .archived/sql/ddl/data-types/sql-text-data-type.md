@@ -27,38 +27,36 @@ aspects:
 
 ---
 
-# SQL TEXT Data Types
+# SQL Text Data Types
 
 ---
 ## Content
 
-While it is not in the standard SQL, some databases decided to support the `TEXT` data type. Similar to `VARCHAR`, it accepts variable length strings. Below, you can find the differences in vendors implementation.
+While it is not in the standard SQL, some databases decided to support the `text` data type. Similar to `varchar`, it accepts variable length strings. Below, you can find the differences in vendors implementation.
 
 ### PostgreSQL
 
-In PostgreSQL, the `TEXT` data type accepts strings of variable length, up to 1GB in size. According to the documentation, there's no difference between `VARCHAR` and `TEXT`, as they both use the same underlying data structures.
+In PostgreSQL, the `text` data types accepts strings of variable length, up to 1GB in size. According to the documentation, there's no difference between `varchar` and `text`, as they both use the same underlying data structures.
 
 ### MySQL
 
-MySQL's version of `TEXT` is similar to `VARCHAR(65535)`. While the former has at all times this maximum value, multiple `VARCHAR(n)` columns can have different maximum lengths.
+MySQL's version of `text` is similar to `varchar(65535)`. While the former has at all times this maximum value, multiple `varchar(n)` columns can have different maximum lengths.
 
-However, this is somehow limiting. Just like for other data types, MySQL has `MEDIUM` and `LONG` modifiers for `TEXT`:
-
-- `MEDIUMTEXT`: strings up to 16MB
-- `LONGTEXT`: strings up to 4GB
-
+However, this is somehow limiting. Just like for other data types, MySQL has `medium` and `long` modifiers for `text`:
+- `mediumtext`: strings up to 16MB
+- `longtext`: strings up to 4GB
 You should keep in mind that, for variable length character data types, the required disk space depends on the length of the string and the encoding of the table, and not on the maximum declared length.
 
 ### Microsoft SQL
 
-SQL Server used to support the `TEXT` data type but this isn't the case anymore. Right now, `TEXT` is considered legacy and its use is not recommended anymore.
+SQL Server used to support the `text` data type but this isn't the case anymore. Right now, `text` is considered legacy and its use not recommended anymore.
 
-This doesn't mean that SQL Server has no replacement. `VARCHAR(max)` accepts strings up to 2GB in size.
+This doesn't mean that SQL Server has no replacement. `varchar(max)` accepts strings up to 2GB in size.
 
 ---
 ## Practice
 
-Which of the following databases accepts the `MEDIUM` and `LONG` modifiers for the `TEXT` data type?
+Which of the following databases accepts the `medium` and `long` modifiers for the `text` data type?
 
 ???
 
@@ -71,7 +69,7 @@ Which of the following databases accepts the `MEDIUM` and `LONG` modifiers for t
 ---
 ## Revision
 
-Which of the following vendors discontinued the support for the `TEXT` data type?
+Which of the following vendors discontinued the support for the `text` data type?
 
 ???
 
