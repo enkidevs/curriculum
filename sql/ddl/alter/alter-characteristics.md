@@ -52,7 +52,7 @@ There are three main characteristics which you can change using an `ALTER` comma
 
 ### Data Type
 
-Although you are able to change the data type of a column, the new definition must be compatible with the old existing data. For example, if you change a numeric type to `VARCHAR` this will always be successful. If, however, you change a `VARCHAR` type to numeric, values like 'abc' will fail to be cast as numbers.
+Although you are able to change the data type of a column, the new definition must be compatible with the old existing data. For example, if you change a numeric type to `VARCHAR` this will always work. If, however, you change a `VARCHAR` type to numeric, values like 'abc' will fail to be cast as numbers.
 
 The syntax for changing a data type looks like this:
 
@@ -101,7 +101,7 @@ DROP NOT NULL;
 ---
 ## Practice
 
-Consider the `region` table. We want to set default value 1 to all entries under `region_id` column:
+Look at the `region` table below. How would you set 1 as the default value to all entries in the `region_id` column?
 
 | id | region_id | name           |
 |----|-----------|----------------|
@@ -129,7 +129,7 @@ ALTER ??? ???
 ---
 ## Revision
 
-We would like to set the default value "ruby" to all entries under column `name` in the `version` table and remove the `NOT NULL` clause to the `id` column.
+We'd like to set the default value "ruby" to all entries in the column `name` in the `version` table and remove the `NOT NULL` clause to the `id` column.
 
 | id | version_group_id | name     |
 |----|------------------|----------|
