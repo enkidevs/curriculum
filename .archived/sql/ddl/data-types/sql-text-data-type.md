@@ -36,7 +36,7 @@ While it is not in the standard SQL, some databases decided to support the `TEXT
 
 ### PostgreSQL
 
-In PostgreSQL, the `TEXT` data types accepts strings of variable length, up to 1GB in size. According to the documentation, there's no difference between `VARCHAR` and `TEXT`, as they both use the same underlying data structures.
+In PostgreSQL, the `TEXT` data type accepts strings of variable length, up to 1GB in size. According to the documentation, there's no difference between `VARCHAR` and `TEXT`, as they both use the same underlying data structures.
 
 ### MySQL
 
