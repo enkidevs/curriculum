@@ -86,7 +86,7 @@ FROM pokemon
 WHERE name LIKE '%le';
 ```
 
-The result of this statement is the two rows of the Pokémon whose names end in '-le': Squirtle and Wartortle.
+The result of this statement is the two rows of the Pokémon whose names end in 'le': Squirtle and Wartortle.
 
 | name      | total | hp | attack | defense |
 |-----------|-------|----|--------|---------|
