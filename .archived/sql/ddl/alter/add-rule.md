@@ -44,7 +44,7 @@ aspects:
 ---
 ## Content
 
-We can also add rules to specific clauses. `CREATE RULE` statement enables us to do it. We will use an example in order to make it easier to understand. What we will do is create a new rule such that each time we `SELECT` something from table1, it will select all from table2 as well.
+We can also add rules to specific clauses. The `CREATE RULE` statement enables us to do it. Let's look at an example. What we'll do is create a new rule such that each time we `SELECT` something from table1, it will select all from table2 as well.
 ```
 CREATE RULE "rule_name"
 AS ON SELECT TO table1
@@ -57,7 +57,7 @@ DO ALSO
 ---
 ## Revision
 
-Create a rule such that when we `SELECT` from "region" table, it will display the "id" column every time:
+Create a rule such that when we `SELECT` from the "region" table, it will display the "id" column every time:
 ```
 id | region_id |      name      
 ===+===========+===============
