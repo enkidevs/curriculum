@@ -93,7 +93,7 @@ The result of this statement is the two rows of the Pokémon whose names end in 
 | Squirtle  | 314   | 44 | 48     | 65      |
 | Wartortle | 405   | 59 | 63     | 80      |
 
-Instead of chaining two comparison operators in your `WHERE` clause you can use the `BETWEEN` operator to define a range of acceptable values, like so:
+You can use the `BETWEEN` operator[2] to define a range of acceptable values, like so:
 
 ```sql
 SELECT *
@@ -182,3 +182,13 @@ Choose the query that will get all the location records that are based in region
 ## Footnotes
 [1:RDBMS Implementations]
 Note that some databases may have a different implementation of the specific wildcard characters
+[2: BETWEEN]
+This can be seen as a shortcut for chaining two comparison operators with the `AND` clause:
+```sql
+SELECT * FROM table_name
+WHERE col BETWEEN 1 AND 10;
+-- is the same as
+SELECT * FROM table_name
+WHERE col >= 1 AND
+      col <= 10;
+```
