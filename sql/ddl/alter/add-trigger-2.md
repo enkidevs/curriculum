@@ -38,7 +38,7 @@ aspects:
 ---
 ## Content
 
-In the previous insight we showed you two arguments, `RESTRICT` and `NO ACTION`, which are used to restrict deleting records that have a matching row in the child tables. It is also possible to create triggers that modify the data in a table using arguments such as `CASCADE`, `SET NULL`, and `SET DEFAULT`.
+In the previous insight we showed you two arguments, `RESTRICT` and `NO ACTION`, which are used to restrict deleting records that have a matching row in the child tables. It's also possible to create triggers that modify the data in a table using arguments such as `CASCADE`, `SET NULL`, and `SET DEFAULT`.
 
 ### CASCADE
 
