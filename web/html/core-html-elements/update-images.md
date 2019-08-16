@@ -86,7 +86,7 @@ If an image cannot load properly in a web page, what attribute will display text
 
 ???
 
-Which of these are not a common web image format:
+Which one of these is not a common web image format:
 
 ???
 
@@ -99,6 +99,7 @@ If an image does not have an assigned height and width using HTML or CSS, how wi
 * `.img`
 * At its original image size.
 * `image src="image.jpg" alt="Image Description"`
+* `img alt="image.jpg" src="Image Description"`
 * `desc`
 * `.png`
 * Will resize by default to 100px wide.
