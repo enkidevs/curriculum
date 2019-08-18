@@ -151,7 +151,7 @@ enki@host ~ $ FOOD = "waffles"
 enki@host ~ $
 ```
 
-Note: `bash `treats most lists of words as a command with parameters. This means that in the snippet above, `bash` will interpret the name of the variable as a command and try to run it. You'll usually see a `command not found` error, but if your variable name happens to be the name of a command you'll see confusing output:
+Note: `bash` treats most lists of words as a command with parameters. This means that in the snippet above, `bash` will interpret the name of the variable as a command and try to run it. You'll usually see a `command not found` error, but if your variable name happens to be the name of a command you'll see confusing output:
 
 ```shell
 enki@host ~ $ FOOD = "waffles"
