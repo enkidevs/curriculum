@@ -25,7 +25,7 @@ links:
 ---
 ## Content
 
-**proxy** is new to ES6 and allows you to intercept (referred to as trap) calls to actions on objects such as property access and enumeration.
+`Proxy` allows you to intercept (referred to as trap) calls to actions on objects such as property access and enumeration.
 
 To illustrate proxy usage we will create a logger proxy to log any calls made to an objects property.
 
@@ -37,13 +37,13 @@ var loggerHandler = {
     console.info(prop + " was accessed");
     return obj[prop];
   }
-}
+};
 ```
 
 Next we'll create an object to use with this:
 
 ```javascript
-var x = { someProp: "enki"};
+var x = { someProp: "enki" };
 ```
 
 Then we will wrap our object with a Proxy and pass in the logger handler:
@@ -70,12 +70,12 @@ Proxies can also be used to intercept set calls. Maybe for example we want to va
 var setWrapper = {
   set: function(obj, prop, value) {
     if (prop === "company") {
-      if (value!="enki"){
+      if (value != "enki") {
         return;
       }
     }
   }
-}
+};
 ```
 
 ---
@@ -117,16 +117,16 @@ Fill in the missing outputs of the `console.log` calls:
 
 ```javascript
 const proxyFn = {
-  get: (obj, prop) => 'enki'
-}
+  get: (obj, prop) => "enki"
+};
 const obj = {
   number: 42
-}
-const proxy = new Proxy(obj, proxyFn)
+};
+const proxy = new Proxy(obj, proxyFn);
 
-console.log(obj.number)
+console.log(obj.number);
 // ???
-console.log(proxy.number)
+console.log(proxy.number);
 // ???
 ```
 
