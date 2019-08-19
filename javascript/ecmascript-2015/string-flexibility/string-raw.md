@@ -34,14 +34,14 @@ Consider if we had the following template literal:
 `Line1\nLine2!`;
 ```
 
-When output this would be interpreted as below as `\n` signifies a new line:
+When executed, the code above would treat `\n` as a new line and produce:
 
 ```bash
 "Line1
 Line2"
 ```
 
-However sometimes it is desirable to work with a string template in its raw format - `String.raw` allows you to do this - note how there is no new line between Line1 and Line2 now, just `\n`:
+However sometimes it is desirable to work with a string template in its raw format (without interpretation of escaped characters) - `String.raw` allows you to do this - note how there is no new line between Line1 and Line2 now, just `\n`:
 
 ```javascript
 String.raw`Line1\nLine2`;

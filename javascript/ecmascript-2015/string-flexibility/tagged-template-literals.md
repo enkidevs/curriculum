@@ -47,6 +47,9 @@ aspects:
 ES6 introduced a new feature called template strings that make it easier to work with strings by adding string interpolation and multi-line strings:
 
 ```js
+// string interpolation
+// is a fancy word for
+// variable substitution
 let company = "Enki";
 console.log(`Hello ${company}!`);
 //prints: "Hello Enki!"
@@ -61,7 +64,7 @@ I am a multiline string
 `;
 ```
 
-As well as embedding _any_ JavaScript expression inside of a pair of curly braces prefixed by a dollar sign: `${5 + 5}`. The expression will be cast to a string, then replaced inside the template string.
+Beyond variables, template literals actually allow us to interpolate any JavaScript expression, for example `${5 + 5}`. The expression will be cast to a string, then replaced inside the template string.
 
 ```js
 let item = "Oranges";
