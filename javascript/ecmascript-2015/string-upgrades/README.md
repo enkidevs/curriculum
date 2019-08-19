@@ -1,11 +1,11 @@
 name: String Upgrades
 
-description: New features in ES6
+description: Additional string methods
 
 insights:
   - template-literals
   - string-extensions
-  - unicode-in-es6
+  - unicode-in-javascript
   - internationalization-localization
 
 
