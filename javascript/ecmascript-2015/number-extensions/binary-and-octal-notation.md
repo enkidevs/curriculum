@@ -24,34 +24,34 @@ aspects:
 
 ---
 
-# Binary and octal notation in ES6
+# Binary and octal notation
 
 ---
 ## Content
 
-In ES6 you can use **binary** and **octal** notation as well as hexadecimal:
+Since ES6 you can use **binary** and **octal** notation as well as hexadecimal:
 
 ```javascript
 0x1 // hex '1'
-0xFF // hex '255'
+0xff // hex '255'
 0b1 // bin '1'
-0B11111111 // bin '255'
+0b11111111 // bin '255'
 0o1 // oct '1'
-0O377 // oct '255'
+0o377 // oct '255'
 ```
 
 You can use the method `.toString(r)` to convert numbers to hex/bin/oct:
 
 ```javascript
-(255).toString(16) // 'ff' in hex
-(1).toString(2) // '1' in bin
-(10).toString(8) // '12' in oct
+(255).toString(16); // 'ff' in hex
+(1).toString(2); // '1' in bin
+(10).toString(8); // '12' in oct
 ```
 
 ---
 ## Practice
 
-How would you write the number `2` in binary notation? (introduced in ES6)
+How would you write the number `2` in binary notation?
 
 ??? ??? ???
 
