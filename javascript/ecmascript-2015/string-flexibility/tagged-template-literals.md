@@ -64,7 +64,7 @@ I am a multiline string
 `;
 ```
 
-Beyond variables, template literals actually allow us to interpolate any JavaScript expression, for example `${5 + 5}`. The expression will be cast to a string, then replaced inside the template string.
+Beyond variables, template literals actually allow us to interpolate *any* JavaScript expression, for example `${5 + 5}`. The expression will be cast to a string, then replaced inside the template string.
 
 ```js
 let item = "Oranges";
