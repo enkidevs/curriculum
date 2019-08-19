@@ -33,7 +33,7 @@ Lets imagine for this section we declare the following object:
 ```javascript
 var obj = {};
 obj["company"] = "Enki";
-obj[Symbol()] = "You wont see me";
+obj[Symbol()] = "You won't see me";
 ```
 
 You will find symbols are ignored in `for..in` loops:
