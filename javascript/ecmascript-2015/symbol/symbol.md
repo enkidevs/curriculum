@@ -56,7 +56,7 @@ The `typeof` method, of course, returns `"symbol"`:
 typeof Symbol(); //"symbol"
 ```
 
-When you create a symbol, it is unique even if you create symbols with the same names:
+When you create a symbol, it is unique even if there are other symbols with the same description:
 
 ```javascript
 var sym1 = Symbol("Enki");
