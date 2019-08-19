@@ -46,12 +46,12 @@ Since ES6 the notation has been simplified:
 "\u{1F332}"=="🌲"=="\uD83C\uDF32"
 ```
 
-As with ES5, having multiple code units per code point means that `.length` is not reliable:
+Having multiple code units per code point means that `.length` is not reliable:
 
 ```js
 "🌲🌲🌲".length; // length is 6
 ```
-However in ES6 the string iterator can be used to loop over code **points** rather than code **units**:
+However, the string iterator can be used to loop over code **points** rather than code **units**:
 
 ```js
 for (let codePoint of "🌲✈❤") {

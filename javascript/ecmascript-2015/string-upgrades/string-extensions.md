@@ -29,7 +29,7 @@ standards:
 
 ES6 expands on existing primitives to fix some long time issues and add useful functionality.
 
-In previous versions of EcmaScript, if you wanted to use Unicode characters one method was to use `String.fromCharCode`:
+In previous versions of ECMAScript, if you wanted to use Unicode characters one method was to use `String.fromCharCode`:
 
 ```javascript
 String.fromCharCode(65); // A
