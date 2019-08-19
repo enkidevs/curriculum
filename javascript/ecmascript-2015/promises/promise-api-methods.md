@@ -34,10 +34,9 @@ Accepts an array of promises and waits until all have completed. This is very us
 If any of the supplied promises are rejected then the reject method is called immediately:
 
 ```javascript
-Promise.all([p1, p2, p3])
-.then(values => {
- console.log(values);
-//[3, 1337, "foo"]
+Promise.all([p1, p2, p3]).then(values => {
+  console.log(values);
+  //[3, 1337, "foo"]
 });
 ```
 
@@ -46,9 +45,8 @@ Promise.all([p1, p2, p3])
 Takes an array of promises and resolves when any supplied promises resolve successfully – you could use this for example to call different vendors services and just make use of the first result returned:
 
 ```javascript
-Promise.race([p1, p2, p3])
-.then(values => {
- console.log(“completed”);
+Promise.race([p1, p2, p3]).then(values => {
+  console.log("completed");
 });
 ```
 
@@ -57,9 +55,7 @@ Promise.race([p1, p2, p3])
 Creates immediately rejected or resolved promises which could be useful for testing scenarios for example:
 
 ```javascript
-var p1 = Promise.reject(
- new Error("fail")
-);
+var p1 = Promise.reject(new Error("fail"));
 var p2 = Promise.resolve();
 ```
 
@@ -70,18 +66,23 @@ Given the following code snippet, what do you think will be the output of each m
 
 ```javascript
 const p1 = new Promise(resolve =>
-  setTimeout(() => resolve('a'), 5000))
+  setTimeout(() => resolve("a"), 5000)
+);
 const p2 = new Promise(resolve =>
-  setTimeout(() => resolve('b'), 500))
+  setTimeout(() => resolve("b"), 500)
+);
 const p3 = new Promise(resolve =>
-  setTimeout(() => resolve('c'), 4000))
+  setTimeout(() => resolve("c"), 4000)
+);
 
-Promise.all([p1, p2, p3])
-  .then(res => console.log(res))
+Promise.all([p1, p2, p3]).then(res =>
+  console.log(res)
+);
 // ???
 
-Promise.race([p1, p2, p3])
-  .then(res => console.log(res))
+Promise.race([p1, p2, p3]).then(res =>
+  console.log(res)
+);
 // ???
 ```
 
