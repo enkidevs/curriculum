@@ -35,14 +35,14 @@ Our Engineer class also has a method called greet that will call the parent clas
 
 ```javascript
 class Engineer extends Person {
- constructor(name, age){
-  super(name)
-  this.age = age;
- }
+  constructor(name, age) {
+    super(name);
+    this.age = age;
+  }
 
- greet: function(){
-  super.sayHello();
- }
+  greet() {
+    super.sayHello();
+  }
 }
 
 var e = new Engineer("alex", 35);
