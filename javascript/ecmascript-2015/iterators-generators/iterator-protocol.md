@@ -30,13 +30,13 @@ In our previous example above we have not implemented all of the iterator protoc
 
 There is an issue with our current implementation - what happens when have iterated through all the values?
 
-The iterator protocol defines that we should also return a boolean property called **done** that indicates when we have iterated through the entire sequence.
+The iterator protocol defines that we should also return a boolean property called `done` that indicates when we have iterated through the entire sequence.
 
 You can think of the iterator contract as having the following structure:
 
 ```javascript
 Iterator {
-    next() : {value, done};
+  next() : {value, done};
 }
 ```
 
@@ -45,17 +45,16 @@ Let’s modify our return statement to use this:
 ```javascript
 //code omitted
 return {
-
- next: function() {
-  if (nextIndex < num.length) {
-  var valueToReturn = num[nextIndex];
-  nextIndex++;
-  return {
-    value: valueToReturn,
-    done: false
-  }
-  } else {
-      return {done: true}
+  next: function() {
+    if (nextIndex < num.length) {
+      var valueToReturn = num[nextIndex];
+      nextIndex++;
+      return {
+        value: valueToReturn,
+        done: false
+      };
+    } else {
+      return { done: true };
     }
   }
 };
