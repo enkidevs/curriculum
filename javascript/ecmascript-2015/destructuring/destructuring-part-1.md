@@ -45,13 +45,13 @@ Let's say we have a function that multiplies two input arguments (x and y) by tw
 Destructuring can assign the results of this operation to two variables with just one line of code:
 
 ```javascript
-var x,y;
+var x, y;
 
 function dblNumbers(x, y) {
-  return [x*2, y*2];
+  return [x * 2, y * 2];
 }
 
-[x, y] = dblNumbers(100,200);
+[x, y] = dblNumbers(100, 200);
 //x=200, y=400
 ```
 
@@ -69,7 +69,7 @@ var y = 2;
 ---
 ## Practice
 
-Swap `a` and `b` using ES6 destructuring:
+Swap `a` and `b` using destructuring:
 
 ```javascript
 let a = 'foo'
@@ -99,14 +99,14 @@ What will be the output of the following statements:
 ```javascript
 function squareNums(nums) {
   return nums.map(function(num) {
-    return num * num
-  })
+    return num * num;
+  });
 }
 
-const [a, b] = squareNums([3, 4, 5])
-console.log(a)
+const [a, b] = squareNums([3, 4, 5]);
+console.log(a);
 // ???
-console.log(b)
+console.log(b);
 // ???
 ```
 
