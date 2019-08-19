@@ -42,21 +42,20 @@ links:
 
 Arrow Functions(`() => {}`) differ from anonymous keyword functions (`function(){}`) by not changing the value of `this`.
 
-```
-window.counter = 0
+```js
+window.counter = 0;
 
-function Counter () {
+function Counter() {
   this.counter = 0;
   this.countUp = setInterval(function() {
     this.counter++;
-  }, 1000)
+  }, 1000);
   this.countDown = setInterval(() => {
     this.counter--;
-  }, 1000)
+  }, 1000);
 }
 
 let count = new Counter();
-
 ```
 
 In the `countUp` counter, `window.counter` is modified, because keyword functions use the same .
@@ -67,8 +66,7 @@ In the `countDown` counter, `Counter.counter` because the `this` value is preser
 
 Create a counter that can successfully count up and down:
 
-```
-
+```js
 function Counter () {
   this.counter = 0;
   this.countUp = setInterval(???, 1000)
@@ -76,7 +74,6 @@ function Counter () {
 }
 
 let count = new Counter();
-
 ```
 
 
@@ -91,8 +88,7 @@ let count = new Counter();
 
 Create a counter that can successfully count up and down:
 
-```
-
+```js
 function Counter () {
   this.counter = 0;
   this.countUp = setInterval(???, 1000)
@@ -100,7 +96,6 @@ function Counter () {
 }
 
 let count = new Counter();
-
 ```
 
 
