@@ -64,6 +64,7 @@ Fill in the gaps such that the variables will have the commented value:
 ```javascript
 let x, y, z;
 [??? ??? ???] = [5, 10, 15]
+console.log(x)
 // x == 5
 console.log(y)
 // y == undefined
