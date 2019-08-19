@@ -45,7 +45,7 @@ for (var i in obj) {
 //company
 ```
 
-Symbols do not show up in `object.keys`:
+Symbols do not show up in `Object.keys`:
 
 ```javascript
 Object.keys(obj);
@@ -66,7 +66,7 @@ JSON.stringify(obj);
 //"{"company":"enki"}"
 ```
 
-Note you can retrieve symbols with `getOwnPropertySymbols`:
+You can retrieve symbols with `getOwnPropertySymbols`:
 
 ```javascript
 Object.getOwnPropertySymbols(obj);

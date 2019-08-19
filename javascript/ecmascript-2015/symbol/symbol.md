@@ -50,7 +50,7 @@ console.log(sym);
 
 Note that supplying a description when creating a symbol does not add the symbol to the symbol registry which we will discuss shortly.
 
-The `typeof` method, of course, returns symbol:
+The `typeof` method, of course, returns `"symbol"`:
 
 ```javascript
 typeof Symbol(); //"symbol"
