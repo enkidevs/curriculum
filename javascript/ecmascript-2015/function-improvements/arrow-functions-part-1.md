@@ -60,8 +60,16 @@ Below we use arrow function syntax to declare a function that accepts two parame
 
 ```js
 let add = (x, y) => {
-  x + y;
+  return x + y;
 };
+add(2, 4); //6
+```
+
+Because the returned expression is one line, this syntax is also valid:
+
+```js
+let add = (x, y) => x + y;
+
 add(2, 4); //6
 ```
 

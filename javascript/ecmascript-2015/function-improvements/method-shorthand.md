@@ -36,7 +36,7 @@ return {
 };
 ```
 
-Since ES6 this can now become:
+This can now become:
 
 ```javascript
 return {
