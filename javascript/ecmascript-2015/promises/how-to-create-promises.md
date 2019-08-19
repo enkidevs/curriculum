@@ -54,9 +54,9 @@ let p = new Promise((resolve, reject) => {
 // logs "enki"
 ```
 
-We declared a new promise supplying a function with two arguments resolve and reject. Next we used `setTimeout` to asynchronously call the resolve function after two seconds passing the value `"enki"`. When resolve was called after two seconds we then logged this value to the console.
+We declared a new promise supplying a function with two arguments `resolve` and `reject`. Next we used `setTimeout` to asynchronously call the resolve function after two seconds passing the value `"enki"`. When resolve was called after two seconds we then logged this value to the console.
 
-It is important to note that you cannot cancel a promise once it's being processed and you cant check on its current state either.
+It is important to note that you cannot cancel a promise once it's being processed and you can't check on its current state either.
 
 Note that the code in the function body runs immediately. It is only the call to `resolve` or `reject` that is actually async:
 
