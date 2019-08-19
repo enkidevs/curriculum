@@ -32,11 +32,11 @@ It is common in JavaScript to perform tasks that do not complete immediately –
 
 However we still need a way to know when our ajax call has completed. One way of approaching this problem is to use callback functions. A callback function is called when the original task has completed.
 
-The most common approach in JavaScript to perform an async operation is to use a callback with an async mechanism like fetch or setTimeout. Callbacks work great for simple scenarios such as doing one or two async tasks at a time. As soon as we need to involve more async tasks or increase their complexity with logic and/or error handling, callbacks-based code starts getting difficult to manage.
+The most common approach in JavaScript to perform an async operation is to use a callback with an async mechanism like `fetch` or `setTimeout`. Callbacks work great for simple scenarios such as doing one or two async tasks at a time. As soon as we need to involve more async tasks or increase their complexity with logic and/or error handling, callbacks-based code starts getting difficult to manage.
 
-With Promises we do not get this issue because promises are inherently reliable (they handle errors for us automatically) and they allow us to write simpler syntax for handling async logic
+With Promises we do not get this issue because promises are inherently reliable (they handle errors for us automatically) and they allow us to write simpler syntax for handling async logic.
 
-At the same time, Promises we can write code that pretends like we already have the value, no matter when that value actually arrives. This allows Promises to eliminate time as a concern in our code.
+At the same time, with Promises we can write code that behaves like we already have the value, no matter when that value actually arrives. This allows Promises to eliminate time as a concern in our code.
 
 ### Promises eliminate time as a concern
 
