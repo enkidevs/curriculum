@@ -40,44 +40,48 @@ links:
 
 **Arrow functions** (called lambda or "fat arrow" functions in some other languages) provide a shorthand syntax to declare function expression.
 
-```
-(parameters) => {}
+```js
+(parameters) => {};
 ```
 
 The parenthesis are optional if there is a single parameter:
 
-```
-parameter => {}
+```js
+parameter => {};
 ```
 
 The braces are optional if the returned expression is one line:
 
-```
-parameter => expression
+```js
+parameter => expression;
 ```
 
 Below we use arrow function syntax to declare a function that accepts two parameters (x and y) and will add them together:
 
-```
-let add = (x,y) => { x + y }
-add(2,4); //6
+```js
+let add = (x, y) => {
+  x + y;
+};
+add(2, 4); //6
 ```
 
 ---
 ## Practice
 
 Write a function that will take the array `planets` and output `[5, 6, 5, 7]`:
-```
+```js
 let foo = () => {
   let planets = [
-    'Earth',
-    'Saturn',
-    'Pluto',
-    'Jupiter'
+    "Earth",
+    "Saturn",
+    "Pluto",
+    "Jupiter"
   ];
 
-  return planets.map(??? => ???);
-}
+  return planets.map(
+    ??? => ???
+  );
+};
 ```
 
 * `planet`
@@ -92,8 +96,8 @@ Filter out all of the odd numbers,
 such that only even numbers are present
 in the array.
 
-```
-let integers = [1,2,3,4,5,6,7,8,9];
+```js
+let integers = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 
 integers.filter(???);
 ```

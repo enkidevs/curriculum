@@ -28,25 +28,24 @@ links:
 It is very common to return an object from a function with a property the same name as a source value declared elsewhere e.g.
 
 ```javascript
-function test(){
-   var name="Enki";
+function test() {
+  var name = "Enki";
 
-   return {
-      name: name
-   }
+  return {
+    name: name
+  };
 }
-
 ```
 
-ES6 provides a convenient shortcut to do this that allows you to drop the property name if you want it to be the same as the source variable:
+JavaScript provides a convenient shortcut to do this that allows you to drop the property name if you want it to be the same as the source variable:
 
 ```javascript
-function test(){
-   var name = "enki";
+function test() {
+  var name = "enki";
 
-   return {
-      name
-   };
+  return {
+    name
+  };
 }
 
 test(); // { name: "enki" }
@@ -61,13 +60,13 @@ What will be logged by the following snippet:
 
 ```javascript
 function bar() {
-  var foo = 'b'
-  this.foo = 'a'
+  var foo = "b";
+  this.foo = "a";
   return {
     foo
-  }
+  };
 }
-console.log(bar())
+console.log(bar());
 // ???
 ```
 
@@ -85,11 +84,11 @@ Fill in the missing gap such that the `prop` value is returned using property va
 
 ```javascript
 function foo() {
-  var prop = 'value'
+  var prop = "value";
 
   return {
     ???
-  }
+  };
 }
 ```
 
