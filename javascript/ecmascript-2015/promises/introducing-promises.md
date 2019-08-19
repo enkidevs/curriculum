@@ -42,9 +42,12 @@ At the same time, Promises we can write code that pretends like we already have 
 
 Creating a Promise returns immediately:
 ```js
-var promise = new Promise(function(resolve, reject) {
- // we call resolve() on success
- // we call reject() on fail
+var promise = new Promise(function(
+  resolve,
+  reject
+) {
+  // we call resolve() on success
+  // we call reject() on fail
 });
 ```
 
