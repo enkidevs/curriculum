@@ -85,6 +85,7 @@ const { a = 1 } = { a: undefined };
 ---
 ## Revision
 
+What is **a** strictly equal to?
 ```javascript
 const { a = 1 } = { a: null };
 // a === ???
