@@ -95,11 +95,9 @@ ints.???(???);
 
 * `find`
 * `function (e) {return e % 4 === 0}`
-* `fill`
 * `includes`
-* `get`
-* `filter`
 * `function (e) {return e % 4}`
+* `filter`
 * `function (e) {return e === 4}`
 
 ---
@@ -117,13 +115,11 @@ let ints = [
   "5",
   "8"
 ];
-ints.???(ints.???(???))
+ints.fill(ints.???(???))
 ```
 
-* `fill`
 * `find`
-* `function (e) {return e % 2 === 0 && e % 3 === 0}`
+* `e => e % 2 === 0 && e % 3 === 0`
 * `findIndex`
 * `includes`
-* `get`
-* `filter`
+* `e => e / 2 === 0 && e / 3 === 0`
