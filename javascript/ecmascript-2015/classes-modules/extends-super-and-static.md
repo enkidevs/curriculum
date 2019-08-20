@@ -35,14 +35,14 @@ Our Engineer class also has a method called greet that will call the parent clas
 
 ```javascript
 class Engineer extends Person {
- constructor(name, age){
-  super(name)
-  this.age = age;
- }
+  constructor(name, age) {
+    super(name);
+    this.age = age;
+  }
 
- greet: function(){
-  super.sayHello();
- }
+  greet() {
+    super.sayHello();
+  }
 }
 
 var e = new Engineer("alex", 35);
@@ -57,7 +57,7 @@ class UtilityMethods {
   static log() {
     console.log("hello enki");
   }
-};
+}
 
 UtilityMethods.log();
 ```
@@ -79,8 +79,8 @@ class Utils {
   static NotFound404() {
     return new Error({
       statusCode: 404,
-      message: 'not found'
-    })
+      message: "not found"
+    });
   }
 }
 ```
@@ -104,12 +104,12 @@ throw Utils().NotFound404() // 4
 ---
 ## Revision
 
-Consider the following ES6 class:
+Consider the following class:
 
 ```javascript
 class Animal {
   constructor(name) {
-    this.name = name
+    this.name = name;
   }
 }
 ```
