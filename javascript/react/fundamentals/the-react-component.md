@@ -36,10 +36,19 @@ In **React** a `component` represents a fundamental *class* you can work with to
 
 These `component`s behave like simple functions, they can take input arguments called `props` and will return what should be *rendered*.
 
-The *rendered* output needs to be specified inside a function called `render()`.
+If you want to create a simple component, you can use a JavaScript function like this:
 
-To create a component you can `extend` the `ES6`[1] class `React.Component`:
+```jsx
+// functional component
+function Enki(props) {
+  return <p>Enki aka Ea</p>;
+}
 ```
+
+At the same time, you can also `extend` the `ES6`[1] class `React.Component` to create a component. In this case, the *rendered* output needs to be specified inside a function called `render()`:
+
+```jsx
+// class component
 class Enki extends React.Component {
   render() {
     return <p>Enki aka Ea</p>;
@@ -47,16 +56,27 @@ class Enki extends React.Component {
 }
 ```
 
-You can pass dynamic values to a component via `props` which will be discussed next. In addition, you can use other components when `render`ing.
+The differences between functional and class components will be discussed at the end of this workout, but for now know that React views both of the components defined above as being the same.
+
+You can pass dynamic values to a component via `props` which will be discussed next. 
 
 `Component` names should start with a capital letter such that you can differentiate them from **DOM tags**.
 
-An `element` can represent your `component` as well:
-```
+You can use other components when `render`ing, and an `element` can represent your `component` as well:
+
+```jsx
+class Enki extends React.Component {
+  render() {
+    return <Welcome />;
+  }
+}
+
 const element = <Enki />;
 ```
+
 Giving you the means to `render` it:
-```
+
+```jsx
 ReactDOM.render(
   element,
   document.getElementById('root')
@@ -68,7 +88,8 @@ Because our `component` didn't use any input (`prop`) we didn't need to specify 
 ## Practice
 
 Complete the missing gaps such that a `component` is defined using `ES6` syntax:
-```
+
+```jsx
 ??? MyComponent ??? React.??? {
   ???() {
     return <h1>Hello, World!</h1>;
@@ -90,7 +111,8 @@ Complete the missing gaps such that a `component` is defined using `ES6` syntax:
 ## Revision
 
 Complete the missing gaps such that a `component` is defined using `ES6` syntax:
-```
+
+```jsx
 class MyComponent extends React.??? {
   ???() {
     return <h1>Hello, World!</h1>;

@@ -46,7 +46,7 @@ class Enki extends React.Component {
 }
 ```
 
-A **stateless** component is **functional** when written literally as a `JS` function:
+A **stateless** component is **functional** when written literally as a JS function:
 ```jsx
 function Enki(props) {
   return <p>{props.enki}</p>;
@@ -65,7 +65,7 @@ First:
 ```jsx
 class Test extend React.Component {
   render() {
-    return <h1>{this.props.test}
+    return <h1>{this.props.test};
   }
 }
 ```
@@ -97,7 +97,7 @@ When can a component be written as a `function`?
 When it has ???.
 
 
-* no `state` and **lifecycle methods**
+* no `state` and no **lifecycle methods**
 * no `state`
 * no **lifecycle methods**
 * no `props`
