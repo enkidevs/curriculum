@@ -39,7 +39,7 @@ Note that `element`s are **immutable** and their children or attributes can't be
 In **React** you'll work mainly with a more flexible concept - `component`s. However, these are *made of* `element`s therefore it's helpful to understand the *fundamentals* of how they work.
 
 To define an element you can simply:
-```
+```jsx
 const element = <p>Enki was here</p>;
 ```
 
@@ -48,12 +48,12 @@ const element = <p>Enki was here</p>;
 The way `element`s are rendered is with help from the **React DOM**[1], under the `root`[2] node.
 
 Suppose in your **HTML** you have the `div`:
-```
+```html
 <div id="root"></div>
 ```
 
 Now, using `ReactDOM.render()` you can display in your webpage the element declared above:
-```
+```jsx
 ReactDOM.render(
   element,
   document.getElementById('root')
