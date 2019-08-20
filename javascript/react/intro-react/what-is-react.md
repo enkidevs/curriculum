@@ -29,7 +29,7 @@ aspects:
 
 The big and frequent problem that **React** solves is keeping the `DOM`[3] in sync with the data model.
 
-It does that by generating a `DOM`-like custom object whenever a change is made in the data model. This complex data type is then compared with the real `DOM`, updating the latter only when necessary, thus minimising execution time.
+It does that by generating a `DOM`-like custom object whenever a change is made in the data model. This complex data type is then compared with the real `DOM`, updating the latter only when necessary, thus minimizing execution time.
 
 
 Many developers have adopted this library because of these key features:
