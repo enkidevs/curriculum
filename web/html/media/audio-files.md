@@ -18,7 +18,6 @@ aspects:
   - deep
 
 links:
-  - '[CodePen: Simple Audio with mp3 & ogg](https://codepen.io/enkidevs/pen/WKjeLW){code}'
   - '[MDN Docs for audio](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio){website}'
   - '[W3S Docs for audio](https://www.w3schools.com/html/html5_audio.asp){website}'
 

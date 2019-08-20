@@ -16,11 +16,11 @@ sections:
   '2':
     - classes-modules
     - promises
+    - async-tips
     - symbol
   '3':
     - iterators-generators
     - generators-proxy
-    - master-es6-features
 
 standards:
   new-declaration-keywords:

@@ -45,7 +45,8 @@ We will first create a file called `mathFuncs.js` and add the following code to 
 
 ```javascript
 export function double(x) {
- return x * 2;
+  return x * 2;
+}
 }
 ```
 
@@ -69,16 +70,14 @@ Finally we use this functionality with the call mathFuncs.double.
 ---
 ## Practice
 
-How do you expose a method in a ES6 module file?
+How do you expose a method from a module?
 
 ```javascript
 // myModule.js
 
-export function myFunc() {
+??? function myFunc() {
   // function code here
 }
-
-??? myFunc
 ```
 
 * export
@@ -91,7 +90,7 @@ export function myFunc() {
 ---
 ## Revision
 
-Fill in the missing keywords in the canonic ES6 module import syntax:
+Fill in the missing keywords for importing and renaming a module at the same time:
 
 ```javascript
 ??? module ???

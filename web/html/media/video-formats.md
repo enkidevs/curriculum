@@ -18,7 +18,6 @@ aspects:
   - deep
 
 links:
-  - '[CodePen: Video Element](https://codepen.io/enkidevs/pen/xJbYLE){code}'
   - '[a walkthrough](https://www.quackit.com/html_5/tags/html_video_tag.cfm){website}'
   - '[Validated on css-tricks.com](https://css-tricks.com/snippets/html/video-for-everybody-html5-video-with-flash-fallback/){documentation}'
 
@@ -48,22 +47,8 @@ AddType video/mp4 .mp4
 AddType video/webm .webm
 ```
 
-
 ---
 ## Practice
-
-Match the browser with the video file format that it works with:
-
-Mozilla Firefox & Google Chrome & Opera: ???
-Apple Safari & IE9: ???
-IE 6-8: ???
-
-* WebM & Ogv
-* MP4
-* No HTML5, Flash Only!
-
----
-## Revision
 
 Finish the sentence:
 
