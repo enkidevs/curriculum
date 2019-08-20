@@ -48,6 +48,17 @@ const el = React.createElement(
 );
 ```
 
+After performing some checks that ensure your code is bug-free, the `React.createElement()` method creates an object like this:
+
+```jsx
+const el = {
+  type: 'h2',
+  props: {
+    children: 'Enki!'
+  }
+};
+```
+
 From here, you can embed `JS` expressions within **JSX** by wrapping them with `{ }` curly brackets:
 ```jsx
 const x = "Hey there!";
