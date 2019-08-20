@@ -35,7 +35,7 @@ notes: >-
 ---
 ## Content
 
-`JConsole` is a graphical monitoring tool to monitor *Java Virtual Machine* and *Java *applications both on a local or remote machine.
+`JConsole` is a graphical monitoring tool to monitor *Java Virtual Machine* and *Java* applications both on a local or remote machine.
 
 It is useful for high-level diagnosis on problems such as memory leaks, excessive class loading, and running threads.
 

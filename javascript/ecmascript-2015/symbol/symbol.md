@@ -26,7 +26,7 @@ links:
 ---
 ## Content
 
-ES 6 introduces a new primitive type - **Symbol**.
+ES6 introduced a new primitive type - `Symbol`.
 
 Symbols are unique and immutable. These special characteristics give them a number of usages we will look at shortly.
 
@@ -44,19 +44,19 @@ During creation you can also set a description for the symbol which is useful ma
 
 ```javascript
 var sym = Symbol("Enki");
-console.log(sym)
+console.log(sym);
 // Symbol(Enki)
 ```
 
 Note that supplying a description when creating a symbol does not add the symbol to the symbol registry which we will discuss shortly.
 
-The typeof method of course returns symbol:
+The `typeof` method, of course, returns `"symbol"`:
 
 ```javascript
 typeof Symbol(); //"symbol"
 ```
 
-When you create a symbol it is unique even if you create symbols with the same names:
+When you create a symbol, it is unique even if there are other symbols with the same description:
 
 ```javascript
 var sym1 = Symbol("Enki");
@@ -64,9 +64,9 @@ var sym2 = Symbol("Enki");
 sym1 === sym2; //false
 ```
 
-This probably is not what you would expect but remember Symbols are always unique.
+This probably is not what you would expect but remember `Symbol`s are always unique.
 
-If you want to be able to access the same symbol using a key, we can use the Symbol registry which we will discuss next.
+If you want to be able to access the same symbol using a key, we can use the `Symbol` registry which we will discuss next.
 
 ---
 ## Practice
@@ -74,15 +74,15 @@ If you want to be able to access the same symbol using a key, we can use the Sym
 What will be the output of the following statements ?
 
 ```javascript
-const sym1 = Symbol('enki')
-console.log(sym1)
+const sym1 = Symbol("enki");
+console.log(sym1);
 // ???
 
-console.log(typeof sym1)
+console.log(typeof sym1);
 // ???
 
-const sym2 = Symbol('enki')
-console.log(sym1 === sym2)
+const sym2 = Symbol("enki");
+console.log(sym1 === sym2);
 // ???
 ```
 
@@ -100,20 +100,20 @@ console.log(sym1 === sym2)
 ---
 ## Revision
 
-How do you create a `Symbol` in ES6?
+How do you create a `Symbol`?
 
 ```javascript
 // a
-const sym = new Symbol('enki')
+const sym = new Symbol("enki");
 
 // b
-const sym = Symbol.create('enki')
+const sym = Symbol.create("enki");
 
 // c
-const sym = Symbol('enki')
+const sym = Symbol("enki");
 
 // d
-const sym = Symbol.new('enki')
+const sym = Symbol.new("enki");
 ```
 
 ???
