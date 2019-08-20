@@ -46,14 +46,14 @@ Here is an example of intercepting delete calls:
 
 ```javascript
 var handler = {
- deleteProperty (target, key) {
-  console.log("ignoring delete");
-  return true
- }
-}
+  deleteProperty(target, key) {
+    console.log("ignoring delete");
+    return true;
+  }
+};
 
-var obj = { x: 'y' }
-var proxy = new Proxy(obj, handler)
+var obj = { x: "y" };
+var proxy = new Proxy(obj, handler);
 delete proxy.x; //ignoring delete
 console.log(obj.x); //y
 ```
@@ -64,14 +64,17 @@ There is a special type of proxy called a **revocable proxy**.
 
 This allows you to later deny access to the proxy by calling the revoke method.
 
-First we use **Proxy.revocable** to obtain a revocable proxy:
+First we use `Proxy.revocable` to obtain a revocable proxy:
 
 ```javascript
-var rev = Proxy.revocable({}, {
-  get: function(target, name) {
-    console.log('accessed ' + target);
+var rev = Proxy.revocable(
+  {},
+  {
+    get: function(target, name) {
+      console.log("accessed " + target);
+    }
   }
-});
+);
 
 var p = rev.proxy;
 p.a; // accessed a

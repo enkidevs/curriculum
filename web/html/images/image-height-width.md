@@ -17,7 +17,6 @@ aspects:
   - workout
 
 links:
-  - '[CodePen: Image Height and Width](https://codepen.io/enkidevs/pen/GBRLYE){code}'
   - '[Documentation on MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img){documentation}'
 
 ---
@@ -55,11 +54,10 @@ img {
 
 Fill in the appropriate attributes/values for creating an image in HTML with dimensions 300x200.
 
-`<??? ???="image.svg" ???="200" ???="300">`
+`<??? ???="image.svg" height="200" ???="300">`
 
 * img
 * src
-* height
 * width
 * length
 * size

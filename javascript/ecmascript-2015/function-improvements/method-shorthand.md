@@ -24,7 +24,7 @@ links:
 ---
 ## Content
 
-ES6 method shorthand allows us to remove the function key word and colon making code more succinct.
+Method shorthand allows us to remove the function key word and colon making code more succinct.
 
 For example, prior to ES6, you would have written something similar to the below:
 
@@ -36,7 +36,7 @@ return {
 };
 ```
 
-With ES6 this can now become:
+This can now become:
 
 ```javascript
 return {
