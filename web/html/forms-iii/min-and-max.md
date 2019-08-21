@@ -19,8 +19,6 @@ aspects:
   - deep
 
 links:
-  - '[CodePen: Min & Max Attribute](https://codepen.io/enkidevs/pen/qKLKJm){code}'
-
 
 ---
 # Min and max

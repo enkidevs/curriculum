@@ -31,42 +31,42 @@ Symbols behave differently to other primitives such as strings and numbers.
 Lets imagine for this section we declare the following object:
 
 ```javascript
-var obj = {}
-obj["company"] = "Enki"
-obj[Symbol()]="You wont see me";
+var obj = {};
+obj["company"] = "Enki";
+obj[Symbol()] = "You won't see me";
 ```
 
-You will find symbols are ignored in **for..in** loops:
+You will find symbols are ignored in `for..in` loops:
 
 ```javascript
-for(var i in obj){
-console.log(i)
+for (var i in obj) {
+  console.log(i);
 }
 //company
 ```
 
-Symbols do not show up in **object.keys**
+Symbols do not show up in `Object.keys`:
 
 ```javascript
 Object.keys(obj);
 //["company"]
 ```
 
-Symbols are not returned from a call to **getOwnPropertyNames**:
+Symbols are not returned from a call to `getOwnPropertyNames`:
 
 ```javascript
 Object.getOwnPropertyNames(obj);
 //["company"]
 ```
 
-**JSON.stringify** ignores symbols:
+`JSON.stringify` ignores symbols:
 
 ```javascript
 JSON.stringify(obj);
 //"{"company":"enki"}"
 ```
 
-Note you can retrieve symbols with **getOwnPropertySymbols**
+You can retrieve symbols with `getOwnPropertySymbols`:
 
 ```javascript
 Object.getOwnPropertySymbols(obj);
@@ -78,8 +78,8 @@ Object.getOwnPropertySymbols(obj);
 Consider the following object:
 
 ```javascript
-const obj = {}
-obj[Symbol('enki')] = 'hello'
+const obj = {};
+obj[Symbol("enki")] = "hello";
 ```
 
 Which of the following code snippets will return the symbol key when called?
@@ -114,13 +114,13 @@ Which of the following code snippets will return the symbol key when called?
 What will be returned by the following call?
 
 ```javascript
-const obj = {}
-obj[Symbol('enki')] = 1
-obj[Symbol()] = 2
+const obj = {};
+obj[Symbol("enki")] = 1;
+obj[Symbol()] = 2;
 
 console.log(
   Object.getOwnPropertyNames(obj)
-)
+);
 // ???
 ```
 

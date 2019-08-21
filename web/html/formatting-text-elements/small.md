@@ -18,8 +18,6 @@ aspects:
   - introduction
 
 links:
-  - '[CodePen: Element small](https://codepen.io/enkidevs/pen/NBdxNX){code}'
-  - '[CodePen: Element small (headings)](https://codepen.io/enkidevs/pen/OwWMbj){code}'
 
 ---
 # Small

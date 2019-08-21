@@ -19,7 +19,6 @@ aspects:
   - deep
 
 links:
-  - '[CodePen: Greater and Less Than in HTML](https://codepen.io/enkidevs/pen/vagygR){code}'
 
 ---
 # Greater and Less Than

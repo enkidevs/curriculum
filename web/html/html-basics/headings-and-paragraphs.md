@@ -19,8 +19,6 @@ aspects:
   - introduction
 
 links:
-  - '[CodePen: Headings and Paragraphs](https://codepen.io/enkidevs/pen/djNpBW){code}'
-  - '[CodePen: Nested Paragraphs](https://codepen.io/enkidevs/pen/rrjMXV){code}'
   - '[MDN paragraphs](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/p){documentation}'
   - '[MDN headings](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements){documentation}'
 

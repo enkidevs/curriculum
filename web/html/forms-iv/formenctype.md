@@ -18,7 +18,6 @@ aspects:
   - obscura
 
 links:
-  - '[CodePen: Form Enctype](https://codepen.io/enkidevs/pen/YvdRMb){code}'
 
 ---
 # Enctype

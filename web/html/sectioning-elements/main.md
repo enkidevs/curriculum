@@ -21,7 +21,6 @@ aspects:
   - deep
 
 links:
-  - '[CodePen: Main Element](https://codepen.io/enkidevs/pen/QBEyxw){code}'
   - '[MDN docs for main](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/main){website}'
   - '[W3S docs for main](https://www.w3schools.com/tags/tag_main.asp){website}'
 

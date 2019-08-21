@@ -19,9 +19,6 @@ aspects:
   - deep
 
 links:
-  - '[CodePen: Pattern Attribute](https://codepen.io/enkidevs/pen/OErEda){code}'
-  - '[CodePen: 5-10 numbers/letters Pattern](https://codepen.io/enkidevs/pen/vaBvBG){code}'
-  - '[CodePen: Password Pattern](https://codepen.io/enkidevs/pen/aKPaRg){code}'
 
 ---
 # Pattern

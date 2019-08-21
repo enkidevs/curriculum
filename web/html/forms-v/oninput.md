@@ -18,7 +18,6 @@ aspects:
   - deep
 
 links:
-  - '[CodePen: Form oninput](https://codepen.io/enkidevs/pen/rrBbWb){code}'
 
 ---
 # Oninput

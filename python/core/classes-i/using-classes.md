@@ -20,7 +20,7 @@ standards:
 ---
 ## Content
 
-To use a class, you must create an instance of a class. Take the previous class:
+To use a class, you must create an instance of a class. Take the following class:
 ```python
 class Employee:
   count = 0

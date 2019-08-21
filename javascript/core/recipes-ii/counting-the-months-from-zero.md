@@ -35,7 +35,7 @@ var date = new Date(2015,1,21);
 console.log(date);
 ```
 
-The date that will not be the 21st of January, but instead this date object represents: `Sat Feb 21 2015 00:00:00 GMT-700`.
+The date will not be the 21st of January, but instead this date object represents: `Sat Feb 21 2015 00:00:00 GMT-700`.
 
 To print the 21st of January, use month `0`:
 

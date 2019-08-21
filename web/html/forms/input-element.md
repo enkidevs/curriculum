@@ -17,7 +17,6 @@ aspects:
   - workout
 
 links:
-  - '[CodePen: Form Simple Input](https://codepen.io/enkidevs/pen/pZzGPJ){code}'
   - '[MDN docs and examples for forms](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form){website}'
 
 ---

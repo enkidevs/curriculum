@@ -20,7 +20,6 @@ aspects:
   - obscura
 
 lists:
-  - '[CodePen: Form Datalist](https://codepen.io/enkidevs/pen/VBPKGp){code}'
 
 ---
 # Intro list

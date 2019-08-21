@@ -18,7 +18,6 @@ aspects:
   - obscura
 
 links:
-  - '[CodePen: Form Method](https://codepen.io/enkidevs/pen/QxzJXd){code}'
 
 ---
 # Form Method

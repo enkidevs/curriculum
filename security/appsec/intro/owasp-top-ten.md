@@ -46,7 +46,7 @@ What's the number one most important tool used to secure applications?
 ???
 
 * checklists and processes
-* an up-to-the-minuite awareness of vulnerabilities
+* an up-to-the-minute awareness of vulnerabilities
 * up-to-date virus scanning tools
 * a passion for information security
 

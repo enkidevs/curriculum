@@ -23,7 +23,6 @@ aspects:
   - deep
 
 links:
-  - '[CodePen: Table Colgroup](https://codepen.io/enkidevs/pen/bjWGNy){code}'
 
 ---
 # Colgroup & col

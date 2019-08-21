@@ -19,7 +19,6 @@ aspects:
   - obscura
 
 links:
-  - '[CodePen: Submit Image Button](https://codepen.io/enkidevs/pen/vrvvJO){code}'
   - '[MDN docs for image buttons](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/image){website}'
 
 ---

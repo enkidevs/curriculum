@@ -22,8 +22,6 @@ aspects:
   - deep
 
 links:
-  - '[CodePen: Simple Keyboard Input and Sample Example](https://codepen.io/enkidevs/pen/NBjJNV){code}'
-  - '[CodePen: Styled kbd Element](https://codepen.io/enkidevs/pen/pKxKGE){code}'
   - '[MDN Docs for kbd](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/kbd){website}'
 
 ---

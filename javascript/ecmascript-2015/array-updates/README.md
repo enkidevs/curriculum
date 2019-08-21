@@ -1,6 +1,6 @@
 name: Array Updates
 
-description: Updating arrays, ES6 style.
+description: Updating arrays.
 
 insights:
   - searching-array-methods

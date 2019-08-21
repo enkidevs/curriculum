@@ -22,7 +22,6 @@ aspects:
   - deep
 
 links:
-  - '[CodePen: Address Element](https://codepen.io/enkidevs/pen/OEoaVN){code}'
   - '[MDN docs for address](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/address){website}'
 
 ---

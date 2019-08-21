@@ -19,7 +19,6 @@ aspects:
   - deep
 
 links:
-  - '[CodePen: Form Password](https://codepen.io/enkidevs/pen/dKwgVW){code}'
 
 ---
 # Type=password

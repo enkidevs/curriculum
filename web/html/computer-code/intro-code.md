@@ -22,8 +22,6 @@ aspects:
   - deep
 
 links:
-  - '[CodePen: Code Element](https://codepen.io/enkidevs/pen/rrmROe){code}'
-  - '[CodePen: Styled Code Element](https://codepen.io/enkidevs/pen/mKzKxa){code}'
 
 ---
 # code - Display code in HTML

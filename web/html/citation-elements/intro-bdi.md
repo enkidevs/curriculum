@@ -23,7 +23,6 @@ aspects:
   - obscura
 
 links:
-  - '[CodePen: bdi element](https://codepen.io/enkidevs/pen/yERBoJ){code}'
   - '[MDN docs for bdi](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/bdi){website}'
   - '[MDN docs for User Agent](https://developer.mozilla.org/en-US/docs/Glossary/user_agent){website}'
 

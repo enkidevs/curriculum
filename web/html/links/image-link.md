@@ -13,8 +13,6 @@ aspects:
   - introduction
 
 links:
-  - '[CodePen: Image Link](https://codepen.io/enkidevs/pen/NBpQLw){code}'
-  - '[CodePen: Image & Text Link](https://codepen.io/enkidevs/pen/RBpXEG){code}'
 
 ---
 # Image Links

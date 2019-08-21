@@ -39,7 +39,7 @@ Keep in mind that nodes can be **linked** with the help of:
 - infrared light beams
 
 Even though nowadays we take for granted that all devices can connect to a network, this wasn't always this case.
-While modern devices have network devices integrated into their circuit boards, older ones counting PCs or XBox game consoles need a *peripheral* network device, such as *USB adapters* or *Network Interface Cards* (NIC).
+While modern devices have network devices integrated into their circuit boards, older ones such as PCs or game consoles, needed a *peripheral* network device, such as *USB adapters* or *Network Interface Cards* (NIC).
 
 At the same time, some devices can't connect to a network at all.
 

@@ -34,7 +34,7 @@ Of course, iterators can work with any sequence of items you want so you could u
 * Generate sequences of id's
 * As a state machine, e.g. you might have different discount levels for a customer and could move from new customer to regular to VIP
 
-It's a fair amount of code to create even a simple iterator. ES6 offers another way that is usually a better option for most scenarios called **Generators** which we will look at next.
+It's a fair amount of code to create even a simple iterator. JavaScript offers another way that is usually a better option for most scenarios called `Generators` which we will look at next.
 
 ---
 ## Practice

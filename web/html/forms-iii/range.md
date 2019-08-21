@@ -19,8 +19,6 @@ aspects:
   - deep
 
 links:
-  - '[CodePen: Range Slider](https://codepen.io/enkidevs/pen/bKOxPL){code}'
-  - '[CodePen: Range Slider w/ Tickmarks](https://codepen.io/enkidevs/pen/pKqxEY){code}'
   - '[Range elements on MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/range){documentation}'
 
 ---

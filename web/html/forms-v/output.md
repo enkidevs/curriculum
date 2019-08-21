@@ -18,7 +18,6 @@ aspects:
   - deep
 
 links:
-  - '[CodePen: Form output](https://codepen.io/enkidevs/pen/EpYJoa){code}'
 
 ---
 # Output

@@ -34,7 +34,7 @@ links:
 
 ---
 
-# Suppressing warnings using `@SuppressWarnings`
+# Suppressing warnings
 
 ---
 ## Content

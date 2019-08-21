@@ -18,11 +18,6 @@ aspects:
   - introduction
 
 links:
-  - '[CodePen: Element i](https://codepen.io/enkidevs/pen/MBJwMp){code}'
-  - '[CodePen: Element em](https://codepen.io/enkidevs/pen/NBdGKG){code}'
-  - '[CodePen: Elemente em Embedded](https://codepen.io/enkidevs/pen/GBrpgb){code}'
-  - '[CodePen: Element em & i](https://codepen.io/enkidevs/pen/djNYYw){code}'
-  - '[CodePen: Element cite](https://codepen.io/enkidevs/pen/GBrpoV){code}'
 
 ---
 # Italic & Emphasis

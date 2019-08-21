@@ -16,8 +16,6 @@ aspects:
   - introduction
 
 links:
-  - '[CodePen: Link in Existing Tab](https://codepen.io/enkidevs/pen/yqbBBG){code}'
-  - '[CodePen: Link in New Tab](https://codepen.io/enkidevs/pen/jpmNbe){code}'
 
 ---
 # Target Link

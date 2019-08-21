@@ -46,7 +46,7 @@ def all_rooms(total):
     print('We have: ', total, 'rooms.')
 ```
 
-Now that we have these files defined in out **Hotel package** we can use them in our script by importing this package:
+Now that we have these files defined in our **Hotel package** we can use them in our script by importing this package:
 
 ```python
 # rooms_update.py

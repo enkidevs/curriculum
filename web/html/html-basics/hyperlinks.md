@@ -20,7 +20,6 @@ aspects:
   - introduction
 
 links:
-  - '[CodePen: Simple Link](https://codepen.io/enkidevs/pen/RBKobx){code}'
   - '[MDN](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Creating_hyperlinks){documentation}'
 
 ---

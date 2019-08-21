@@ -18,8 +18,6 @@ aspects:
   - workout
 
 links:
-  - '[CodePen: Form: Simple Textarea](https://codepen.io/enkidevs/pen/MBJjjz){code}'
-  - '[CodePen: Form Textarea w/ Attributes](https://codepen.io/enkidevs/pen/ajpmme){code}'
   - '[MDN docs for textarea](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea){website}'
 
 ---

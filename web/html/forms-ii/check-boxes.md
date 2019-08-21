@@ -17,8 +17,6 @@ aspects:
   - workout
 
 links:
-  - '[CodePen: Simple Checkboxes](https://codepen.io/enkidevs/pen/yqoNpR){code}'
-  - '[CodePen: Form Checkboxes](https://codepen.io/enkidevs/pen/qyRaXO){code}'
   - '[MDN docs for checkboxes](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/checkbox){website}'
 
 ---

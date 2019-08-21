@@ -18,7 +18,6 @@ aspects:
   - deep
 
 links:
-  - '[CodePen: Form Autocomplete](https://codepen.io/enkidevs/pen/ejOXPj){code}'
 
 ---
 # Autocomplete

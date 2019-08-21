@@ -16,8 +16,9 @@ standards:
 aspects:
   - introduction
   - workout
+
 links:
-  - '[CodePen: Span Element](https://codepen.io/enkidevs/pen/JZwPQO){code}'
+
 ---
 # Intro span
 ---

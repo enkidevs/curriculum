@@ -23,7 +23,6 @@ aspects:
   - deep
 
 links:
-  - '[CodePen: Table Caption](https://codepen.io/enkidevs/pen/OwNXqB){code}'
   - '[MDN docs for caption](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/caption){website}'
 
 ---

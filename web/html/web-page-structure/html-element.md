@@ -18,7 +18,6 @@ aspects:
   - introduction
 
 links:
-  - '[CodePen :root selector](https://codepen.io/enkidevs/pen/zLqrRE){code}'
   - '[MDN docs for html](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/html){website}'
 
 ---

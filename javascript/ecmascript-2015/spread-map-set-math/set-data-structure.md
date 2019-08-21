@@ -23,7 +23,7 @@ links:
 ---
 ## Content
 
-Set is a new data structure in ES6 that will only store unique values.
+Set is a data structure that only stores unique values.
 
 ```javascript
 var mySet = new Set();
@@ -47,16 +47,16 @@ Note that iterating through a set will return objects in their insertion order.
 What will be the output of the last line of the following code?
 
 ```javascript
-const mySet = new Set()
-mySet.add(4)
-mySet.add(5)
-mySet.add(4)
-mySet.add(3)
-mySet.add(5)
-mySet.add(5)
-mySet.add(1)
+const mySet = new Set();
+mySet.add(4);
+mySet.add(5);
+mySet.add(4);
+mySet.add(3);
+mySet.add(5);
+mySet.add(5);
+mySet.add(1);
 
-console.log(mySet.size)
+console.log(mySet.size);
 // ???
 ```
 

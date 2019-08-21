@@ -4,6 +4,6 @@ description: The operating system with the highest device installation rate. Itâ
 
 color: 5783C1
 
-icon: 'placeholder'
+icon: https://img.enkipro.com/a5c6a16b0d1ef2757fb6edf042212c9c.png
 
 language: bash

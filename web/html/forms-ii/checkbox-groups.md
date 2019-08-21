@@ -17,8 +17,6 @@ aspects:
   - workout
 
 links:
-  - '[CodePen: Checkboxes with Legend](https://codepen.io/enkidevs/pen/qyRaPO){code}'
-  - '[CodePen: Form Checkbox checked by default](https://codepen.io/enkidevs/pen/BPpLYY){code}'
   - '[MDN docs for checkboxes](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/checkbox){website}'
   - '[StockOverflow: Multiple Checkboxes](https://stackoverflow.com/questions/18745456/handle-multiple-checkboxes-with-a-single-serverside-variable){code}'
 

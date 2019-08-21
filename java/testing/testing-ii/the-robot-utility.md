@@ -25,6 +25,7 @@ links:
 # The Robot Utility
 
 ---
+
 ## Content
 
 `Java.awt.Robot` is a class used to mimic the human behavior, taking control over the mouse and keyboard. For example:
@@ -34,7 +35,7 @@ Robot myRobot = new Robot();
 // Moving the mouse:
 
 myrobot.mouseMove(x,y);
-//(0,0) represents the upper-right corner
+//(0,0) represents the upper-left corner
 
 // Inserting a delay:
 myRobot.delay(2000);
@@ -62,6 +63,7 @@ try {
 ```
 
 ---
+
 ## Practice
 
 Trigger a left mouse button click using the `Robot` class:
@@ -79,6 +81,7 @@ robot.???(
 * `keyPress`
 
 ---
+
 ## Revision
 
 Using the `Robot` class, move the mouse to the desired coordinates:
