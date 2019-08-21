@@ -41,7 +41,7 @@ As you have seen in the previous insight, the predicates we use in `WHERE` can b
 
 They work as you would expect them to; you can include only the rows which satisfy both or either of two conditions using `AND` and `OR`, respectively. `NOT` negates the truth value of the predicate, so it selects the rows that don't satisfy the condition.
 
-As always, let's take a look at this `pokemon` table:
+Let's take a look at this `pokemon` table:
 
 | id | name    | total | hp | attack | defense |
 |----|---------|-------|----|--------|---------|
