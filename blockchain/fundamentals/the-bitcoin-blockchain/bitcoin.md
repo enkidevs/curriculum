@@ -27,13 +27,13 @@ aspects:
 ## Content
 
 
-**Bitcoin** was the first public blockchain which works as a ledger for tracking bitcoin tokens[1] transactions happening between users. A token is a "e-currency based on cryptographic proof"[2]. The first block was mined on the 3rd of January 2009.
+**Bitcoin** was the first public blockchain which works as a ledger for tracking bitcoin token[1] transactions happening between users. A token is a "e-currency based on cryptographic proof"[2]. The first block was mined on the 3rd of January 2009.
              	
-It was all the idea of one (or a team), Satoshi Nakamoto. But no one knows who Satoshi Nakamoto really is. There had been speculations over the years, but none of them were confirmed.
+It was all the idea of Satoshi Nakamoto (or a team with that alias). No one knows who Satoshi Nakamoto really is. There’s been plenty of speculation over the years about who it was, but none of them were confirmed.
              	
-Some say this worked in favor of Bitcoin: by using a pseudonym, Satoshi Nakamoto made sure the spotlight was pointing at the technology rather than at the person behind it. Slowly, but surely, bitcoin value raised year by year, attracting more and more enthusiasts.
+Some say this worked in favor of Bitcoin: by using a pseudonym, Satoshi Nakamoto made sure the spotlight was pointing at the technology rather than the person behind it. Slowly, but surely, the value of Bitcoin increased year by year, attracting more and more enthusiasts.
              	
-But the skyrocketing price is not the reason Bitcoin is great. Yes, it is fairly limited in functionality and initially slow, but without it there wouldn't have been any blockchains. Like any pioneer, Bitcoin survived through numerous scandals, regulatory commissions and heists in a long way to prove it is worth adopting.
+But the skyrocketing price is not the reason Bitcoin is great. Yes, it is fairly limited in functionality and initially slow, but without it there wouldn't have been any blockchains. Like any pioneer, Bitcoin survived through numerous scandals, regulatory commissions and heists, going a long way to prove it is worth adopting.
              	
 A Bitcoin block contains a list of **transactions** between network participants. To receive bitcoins, you don't necessarily have to be an active participant, but you do need a Bitcoin address. A **Bitcoin address** is the public half of the **digital signature** used to sign outgoing transactions. As long as you have a **public key**, anyone can send you bitcoins. If you also have the **private key**, you can send bitcoins to others.
              	

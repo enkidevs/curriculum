@@ -29,26 +29,26 @@ standards:
 
 ES6 expands on existing primitives to fix some long time issues and add useful functionality.
 
-In previous versions of EcmaScript if you wanted to use Unicode characters one method was to use *String.fromCharCode*:
+In previous versions of ECMAScript, if you wanted to use Unicode characters one method was to use `String.fromCharCode`:
 
 ```javascript
 String.fromCharCode(65); // A
 ```
 
-However *fromCharCode* doesn’t work with all possible unicode values, but only ranging from `1` to `65535` (`0xFFFF`). Greater number used as input will be truncated automatically.
+However `fromCharCode` doesn’t work with all possible unicode values, but only ranging from `1` to `65535` (`0xFFFF`). A greater number used as input will be truncated automatically.
 
 ```javascript
-String.fromCharCode(0x2014) // —
-String.fromCharCode(0x12014) // -
+String.fromCharCode(0x2014); // —
+String.fromCharCode(0x12014); // -
 // the first 1 is truncated
 ```
 
-ES6 introduces a new method *fromCodePoint* that can be used to work with all Unicode values up to 21 bits:
+ES6 introduced a new method, `fromCodePoint`, that can be used to work with all Unicode values up to 21 bits:
 
 ```javascript
 String.fromCodePoint(65); // A
-String.fromCodePoint(65,66,67); // ABC
-String.fromCodePoint(0x12014) // 𒀔
+String.fromCodePoint(65, 66, 67); // ABC
+String.fromCodePoint(0x12014); // 𒀔
 ```
 
 ---
@@ -79,9 +79,9 @@ console.log(???.???(70))
 What should go in the missing gap such that the log statement is correct?
 
 ```javascript
-console.log(String.fromCharCode(90))
+console.log(String.fromCharCode(90));
 // Z
-console.log(String.fromCodePoint(90))
+console.log(String.fromCodePoint(90));
 // ???
 ```
 

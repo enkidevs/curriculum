@@ -28,7 +28,7 @@ standards:
 
 Python uses two keywords to allow complex boolean conditions to be created, `and` and `or`.
 
-The `and` operator means that two or more conditions must be true in order to progress, and the `or` means that at least one condition must be true for progression.
+The `and` operator means that two or more conditions must be True in order to progress, and the `or` means that at least one condition must be True for progression.
 
 The `and` operator:
 
