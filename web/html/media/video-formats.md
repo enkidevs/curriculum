@@ -54,7 +54,7 @@ Finish the sentence:
 
 In order for videos today to be supported on all major web browsers you should use either the `???` format.
 
-* .mp4 or.webm
+* .mp4 or .webm
 * h.246 or codec
 * .mp3 or .oog
 * flash or .mp3
