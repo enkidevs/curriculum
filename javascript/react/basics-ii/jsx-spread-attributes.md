@@ -38,7 +38,6 @@ Suppose we want the following component with `name` and `content` props:
 ```jsx
 const component = <Component name="enki"
   content="cool content" />;
-
 ```
 `name` and `content` can be bundled inside an object.
 ```jsx

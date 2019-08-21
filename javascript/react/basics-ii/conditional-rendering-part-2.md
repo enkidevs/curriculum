@@ -53,7 +53,7 @@ function Welcome(props) {
 
 Regardless of the `isRaining` prop's value, the `<h2>Welcome</h2>` is shown. If you pass `isRaining` as `true` then the `<h3>` element will be displayed as well.
 
-The reason this approach works is because in `JS` the `true && exp` expression will evaluate to `exp`, while `false && exp` will evaluate to `false`.
+The reason this approach works is because in JS the `true && exp` expression will evaluate to `exp`, while `false && exp` will evaluate to `false`.
 
 Sometimes you might want to **prevent** a component from rendering. This is also simply achievable by `return`ing `null` instead of the normal output:
 ```jsx
@@ -65,7 +65,7 @@ function Maybe(props) {
 }
 ```
 
-Keep in mind that when returning `null` during `render`, this won't affect the call on **lifecycle methods** such as `componentWillUpdate`.
+Keep in mind that when returning `null` during `render`, this won't affect the call on **lifecycle methods** such as `componentDidUpdate`.
 
 ---
 ## Practice
