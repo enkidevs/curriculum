@@ -36,7 +36,7 @@ aspects:
 ---
 ## Content
 
-In terms of *string data types*, there are fewer options that can used with the three main types being:
+In terms of *string data types*, there are fewer options that can be used with the three main types being:
 
 - `CHAR(n)`
 - `VARCHAR(n)`
