@@ -35,7 +35,7 @@ When added to an SQL `SELECT` statement, `WHERE` allows us to select rows in a t
 
 You can write a conditional statement after `WHERE` and, for each row in the table, if the conditional statement evaluates to true, the row will be included in the query result. If not, it will not be included in the result.
 
-SQL supports both comparison operators (such as `=` and `>=`) and logical operations (such as `AND`, `NOT` or `LIKE`). Together, these predicates allow us to define complex rules for extracting just the data that we want from an SQL database. However, if we're not careful, we can easily miss some edge case here, and introduce bugs.
+SQL supports both comparison operators (such as `=` and `>=`) and logical operations (such as `AND`, `NOT` or `LIKE`). Together, these predicates allow us to define complex rules for extracting just the data that we want from an SQL database.
 
 Let's consider the following `pokemon` table:
 
