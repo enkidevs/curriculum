@@ -47,8 +47,8 @@ Let's start by creating a simple table `students` with 2 columns, `id` and `name
 
 ```sql
 CREATE TABLE students (
-    id INT PRIMARY KEY,
-    name VARCHAR
+  id INT PRIMARY KEY,
+  name VARCHAR
 );
 ```
 
@@ -101,7 +101,7 @@ Create a new table named `muscle_cars` which has the `id`, `name`, and `year` co
 ---
 ## Revision
 
-Create a table name `billboard_songs` with the `id`, `name`, and `position` columns. Define the `id` column as a primary key and make sure that the `position` column can't take `NULL` values.
+Create a table named `billboard_songs` with the `id`, `name`, and `position` columns. Define the `id` column as a primary key and make sure that the `position` column can't take `NULL` values.
 
 ```sql
 ??? billboard_songs (

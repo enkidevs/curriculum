@@ -62,19 +62,19 @@ As with `PRIMARY KEY`s, `FOREIGN KEY`s can be defined when creating a table or a
 
 ```sql
 CREATE TABLE departments (
-    id INT PRIMARY KEY,
-    name VARCHAR
+  id INT PRIMARY KEY,
+  name VARCHAR
 );
 ```
 
 ```sql
 CREATE TABLE employees (
-    id INT,
-    name VARCHAR,
-    department_id INT,
-    CONSTRAINT department_fk 
-    FOREIGN KEY (department_id) 
-    REFERENCES departments(id)
+  id INT,
+  name VARCHAR,
+  department_id INT,
+  CONSTRAINT department_fk 
+  FOREIGN KEY (department_id) 
+  REFERENCES departments(id)
 );
 ```
 

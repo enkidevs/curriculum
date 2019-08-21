@@ -68,7 +68,7 @@ And this is what the table would look like:
 | Oscar  | 0      |
 | Benson | 22     |
 
-Notice that if we omit the `weight` column when using an `INSERT` command, the RDBMS will store the default value, which was 0.
+Notice that if we omit the `weight` column when using an `INSERT` command, the RDBMS will store the default value, which is 0.
 
 ---
 ## Practice
@@ -77,9 +77,9 @@ What will the following code output?
 
 ```sql
 CREATE TABLE cars (
-    id INTEGER,
-    name VARCHAR DEFAULT 'unknown',
-    year INTEGER
+  id INTEGER,
+  name VARCHAR DEFAULT 'unknown',
+  year INTEGER
 );
 --
 INSERT INTO cars VALUES
