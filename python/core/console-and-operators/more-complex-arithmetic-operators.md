@@ -38,9 +38,16 @@ This code executes as 2 to the power of 4.
 Example 2:
 ```python
 >>> -3 ** 4
--81
+81
 ```
-This code executes as (-3) to the power of 4.
+This code executes as -(3 to the power of 4). The reasoning behind this is that the `**` operator has higher precedence than the `-` operator. This table presents the mathematical operators ordered by their precedence:
+
+| Operator | Description                         |
+|:--------:|-------------------------------------|
+|    ()    | Parentheses(grouping)               |
+|    **    | Exponentiation                      |
+|  *, /, % | Multiplication, division, remainder |
+|   +, -   | Addition, subtraction               |
 
 Python also supports the modulo operator, `%`, which is used to return the integer remainder of a division sum.
 
