@@ -126,12 +126,9 @@ Select all the columns from the `pokemon` table, keeping only the rows where the
 * name
 * IN
 * ('Groudon', 'Snorlax', 'Wailord')
-* NAME IS
-* AND
-* 'Groudon'
-* 'Snorlax'
-* 'Wailord'
-* ALL
+* SUCH THAT
+* IS ONE OF
+* ['Groudon', 'Snorlax', 'Wailord']
 
 ---
 ## Revision
