@@ -19,6 +19,11 @@ aspects:
 standards:
   python.native-types-operations.2: 10
 
+links: 
+  
+  - '[operator-precedence](https://docs.python.org/3/reference/expressions.html#operator-precedence){documentation}'
+
+
 ---
 
 # More Complex Arithmetic Operators
@@ -38,16 +43,9 @@ This code executes as 2 to the power of 4.
 Example 2:
 ```python
 >>> -3 ** 4
-81
+-81
 ```
-This code executes as -(3 to the power of 4). The reasoning behind this is that the `**` operator has higher precedence than the `-` operator. This table presents the mathematical operators ordered by their precedence:
-
-| Operator | Description                         |
-|:--------:|-------------------------------------|
-|    ()    | Parentheses(grouping)               |
-|    **    | Exponentiation                      |
-|  *, /, % | Multiplication, division, remainder |
-|   +, -   | Addition, subtraction               |
+This code executes as -(3 to the power of 4). If you want to learn more about the order in which operations are executed make sure to check out the resources for this insight.
 
 Python also supports the modulo operator, `%`, which is used to return the integer remainder of a division sum.
 
