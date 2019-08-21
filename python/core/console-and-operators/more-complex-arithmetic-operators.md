@@ -21,7 +21,7 @@ standards:
 
 links: 
   
-  - '[operator-precedence](https://docs.python.org/3/reference/expressions.html#operator-precedence){documentation}'
+  - '[Operator Precedence in Python](https://docs.python.org/3/reference/expressions.html#operator-precedence){documentation}'
 
 
 ---
