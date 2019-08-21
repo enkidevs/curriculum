@@ -47,7 +47,7 @@ But in Python you can use tuple assignment:
 Complete the following snippet such that the variables are swapped, using tuple assignment:
 ```
 >>> d, e = 3, 4
->>> d, e  = ???, ???
+>>> d, e = ???, ???
 >>> d, e
 (4, 3)
 ```

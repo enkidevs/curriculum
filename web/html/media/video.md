@@ -55,24 +55,24 @@ There are many more functionalities you can add to your videos with attributes. 
  - `loop` = makes the video play again as soon as it finishes
 
 
+
 ---
 ## Practice
 
 Complete the following snippet in order for it to be valid:
 ```html
-tag = ???
-
-<tag ???="videofile.mp4"
+<??? ???="videofile.mp4"
      height="525"
      width="360
      controls>
-</tag>
+<???>
 ```
 * `video`
 * `src`
+* `/video`
 * `vid`
 * `href`
-* `movie`
+* `/vid`
 
 
 ---
