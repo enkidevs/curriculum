@@ -38,7 +38,7 @@ This code executes as 2 to the power of 4.
 Example 2:
 ```python
 >>> -3 ** 4
-81
+-81
 ```
 This code executes as (-3) to the power of 4.
 
