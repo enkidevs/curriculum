@@ -56,7 +56,7 @@ myListener(e) {
 
 Above, `e` is the **synthetic event**[1] passed when clicking the button.
 
-To make the second `console.log` work a `bind`ing must be made in the `constructor` to allow you using `this` in the method's context (as a consequence of how functions work in `JS`):
+To make the second `console.log` work a `bind`ing must be made in the `constructor` to allow you using `this` in the method's context (as a consequence of how functions work in JS):
 ```jsx
 class Click extends React.Component {
   constructor(props) {

@@ -46,23 +46,16 @@ constructor(props) {
     time: new Date();
   }
 }
-
 ```
 
-- `componentWillMount()` - is invoked **just before** `render`. Modifying the `state` here won't trigger a **re-render**.
-
-- `componentDidMount()` - is invoked **after** `render`. Useful for initialisations that require `DOM` nodes.
+- `componentDidMount()` - is invoked **after** `render`. Useful for initializations that require `DOM` nodes.
 
 
 ### 2. Updating
 
-- `componentWillReceiveProps(nextProps)` - is only called after `render`ing, but **before** receiving new `props`. Because **React** may call this method although `props` stay the same its recommended to manually implement a check to see if there's a difference.
+- `shouldComponentUpdate(nextProps, nextState)` - the method is called **before** receiving new `props` or `state`. By default it returns `true` meaning `render` is triggered by any change. Modifying this method allows you to only re-`render` in intended scenarios.
 
-- `shouldComponentUpdate(nxtProps, nxtState)` - the method is called **before** receiving new `props` or `state`. By default it returns `true` meaning `render` is triggered by any change. Modifying this method allows you to only re-`render` in intended scenarios.
-
-- `componentWillUpdate(nextProps, nextState)` - is invoked if `shouldComponentUpdate` returns `true`, **before** `render`. Note you can't use `this.setState()` here.
-
-- `componentDidUpdate(prevProps, prevState)` - is invoked **after** `render`, but not after the initial one. This method is useful for manipulating the `DOM` when updated
+- `componentDidUpdate(prevProps, prevState, snapshot)` - is invoked **after** `render`, but not after the initial one. This method is useful for manipulating the `DOM` when updated.
 
 ### 3. Unmounting
 

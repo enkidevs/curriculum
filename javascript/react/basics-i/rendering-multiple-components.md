@@ -32,14 +32,14 @@ aspects:
 ---
 ## Content
 
-**React** allows the creation of `DOM` element collections by harnessing the power of pure `JS`.
+**React** allows the creation of `DOM` element collections by harnessing the power of pure JS.
 
-For example, you can dynamically generate a collection of `<p>` items by transforming an `array` with the `map()` function:
+For example, you can dynamically generate a collection of `<p>` items by transforming an array with the `map()` function:
 ```jsx
 const input = [0, 1, 2, 3];
-const collection = input.map((no) => {
-    return <p>{no}</p>;
-  });
+const collection = input.map(no => {
+  return <p>{no}</p>;
+});
 ```
 
 When rendering such lists inside a `component`, an additional **identity attribute** named `key` must be included for every element. `key`s should be unique to each **sibling element**.
@@ -47,19 +47,20 @@ When rendering such lists inside a `component`, an additional **identity attribu
 Consider the following **functional component**:
 ```jsx
 function MyList(props) {
-  return (<div>
-    {props.input.map(no =>
-      <p key={no.toString()}>
-        {no}
-      </p>)}
-  </div>);
+  return (
+    <div>
+      {props.input.map(no => (
+        <p key={no.toString()}>{no}</p>
+      ))}
+    </div>
+  );
 }
 ```
 When passing an array called `input` as a `prop`, this component will return a `<div>` with a `<p>` for every element in the array:
 ```jsx
 ReactDOM.render(
   <MyList input={[7, 13, 42]} />,
-  document.getElementById('root')
+  document.getElementById("root")
 );
 
 // output in the DOM is:
