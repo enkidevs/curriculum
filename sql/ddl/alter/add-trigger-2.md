@@ -42,7 +42,7 @@ In the previous insight we showed you two arguments, `RESTRICT` and `NO ACTION`,
 
 ### CASCADE
 
-Using the `CASCADE` argument means that when a row in the parent table is deleted or updated, all the matching rows in the child tables are deleted or updated. Here is an example syntax:
+Using the `CASCADE` argument means that when a row in the parent table is deleted or updated, all the matching rows in the child tables are deleted or updated as well. Here is an example syntax:
 
 ```sql
 ...
@@ -104,12 +104,10 @@ CREATE TABLE region_backup (
 ---
 ## Revision
 
-Complete the following syntax such that the *trigger* named 'cstr_2' does the following:
+Complete the following syntax such that the *trigger* named `cstr_2` does the following:
 
 - when deleting from the parent table the corresponding record in the child table is set to its default value
 - when updating the parent table the corresponding record in the child table is updated
-
-prohibits deleting a record from the `pokemons` table if there are any matching records in the `region` table.
 
 ```sql
 CREATE TABLE region (
