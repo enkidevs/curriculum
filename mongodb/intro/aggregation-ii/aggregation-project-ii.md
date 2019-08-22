@@ -173,7 +173,7 @@ db.pokemon.???(
 ---
 ## Revision
 
-Let's say we have a `shoes` collection with `5000` shoes of all sizes. Each shoe has 5 sizes saved in fields called `size1`,`size2`...`size5`. Create an aggregation that will combine all 5 shoe sizes in a new array called `sizes`.
+Let's say we have a `shoes` collection with `5000` shoes of all sizes. Each shoe has 5 sizes saved in fields called `size1`, `size2`...`size5`. Create an aggregation that will combine all 5 shoe sizes in a new array called `sizes`.
 
 ```javascript
 db.shoes.aggregate(
