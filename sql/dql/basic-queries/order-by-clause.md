@@ -169,3 +169,4 @@ This table shows how much experience you need to gain in order to get to level 1
 * SELECT * FROM experience WHERE level=100 ORDER DESC BY experience;
  
  
+

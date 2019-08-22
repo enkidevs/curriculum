@@ -72,3 +72,4 @@ Which of the following queries will retrieve only the `id` and `name` columns fr
 * `SELECT id AND name FROM move_names`
  
  
+
