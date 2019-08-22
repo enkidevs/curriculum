@@ -39,7 +39,7 @@ The syntax for aggregating a database is :`db.aggregate(pipeline, options)`
 The `pipeline` part is mandatory. It is an array of at least one, or more, pipeline stages and can have 1 or more operations.
 The `options` part is optional and will be discussed later on.
 
-The aggregation pipeline is where all the documents from a collection or a database are grouped together and sent through a pipeline where they are transformed after each specified stage into an aggregated result.
+The aggregation pipeline is where all the documents from a collection and/or a database are grouped together and sent through a pipeline where they are transformed after each specified stage into an aggregated result.
 
 The stages are ways of processing data.
 
