@@ -23,7 +23,7 @@ links:
 ---
 ## Content
 
-The aggregation `$group` stage is used to group documents by a specified expression. The grouped documents are send to the next stage and split into a document for each grouping. Also, each outputed document contains an `_id` with a distinct group by key.
+The aggregation `$group` stage is used to group documents by a specified expression. The grouped documents are sent to the next stage and split into a document for each grouping. Also, each outputted document contains an `_id` with a distinct group by key.
 
 The syntax for `$group` is:
 ```javascript
@@ -69,7 +69,7 @@ Output:
 { "_id" : "Water" }
 ```
 
-**Note:** As you can notice in the example above, when adding the name of the field you want grouped by, you have to add a `$` before the name. This the normal syntax for this aggregation stage.
+**Note:** As you can notice in the example above when adding the name of the field you want grouped by, you have to add a `$` before the name. This the normal syntax for this aggregation stage.
 
 Now we know which `type`s of pokémon we have, however, we don't know how many documents each type has. We can easily count it by adding a comma after the `_id : "$type"` and adding `count:{$sum:1}`.
 
@@ -112,7 +112,7 @@ The `$sum` accumulator is used ???
 * to group documents by a specified expression.
 * to sum all numerical values by a specified expression.
 * to group aggregation stages as a single aggregation
-* to sum all non numerical and numerical values and output a combined result.
+* to sum all non-numerical and numerical values and output a combined result.
 
 ---
 ## Revision
