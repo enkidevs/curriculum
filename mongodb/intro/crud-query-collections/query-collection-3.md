@@ -137,12 +137,14 @@ db.pokemon.find(
 ---
 ## Practice
 
-Which logical operator is used together with 2 or more comparison operators to display a range of documents between two values?
+Finish the sentence:
 
-* `$and`
-* `$range`
-* `$if`
-* `$compare`
+`$and` is ???
+
+* a logical operator used together with 2 or more comparison operators to display a range of documents between two values
+* a logical operator used together with 2 or more logical operators to display documents between two or four values
+* a comparison operator used to compare 2 or more logical operators
+* a comparison operators used together with 2 or more logical operators to display databases ordered in the specified order
 
 ---
 ## Revision
