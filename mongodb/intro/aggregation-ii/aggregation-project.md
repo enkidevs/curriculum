@@ -29,8 +29,8 @@ The aggregation pipeline `$project` stage is used to define which fields of the 
 This stage can be used for:
 - inclusion or exclusion of a field or fields
 - adding new fields
-- supressing the `_id` field
-- reseting values of existing fields
+- suppressing the `_id` field
+- resetting  values of existing fields
 
 The syntax for `$project` is:
 ```javascript
@@ -85,7 +85,7 @@ Which of these is a valid use case for `$project`?
 
 ???
 
-* All 4 options
+* All four of them
 * Include fields to pass to the next pipeline stage
 * Exclude fields to pass to the next pipeline stage
 * Add new fields
