@@ -44,7 +44,7 @@ aspects:
 ---
 ## Content
 
-In *MS Acccess* and *SQL Servers*, we can use the `ALTER TABLE` statement to set default values for desired columns:
+In *MS Access* and *SQL Servers*, we can use the `ALTER TABLE` statement to set default values in certain columns:
 ```sql
 ALTER TABLE table_name
 ALTER COLUMN column_name
@@ -68,7 +68,7 @@ DEFAULT value;
 ---
 ## Practice
 
-Consider the "region" table. We want to set default value 1 to all entries under "region_id" column:
+Look at the "region" table. We want to set 1 as the default value to all entries in the "region_id" column:
 ```
 id | region_id |      name      
 ===+===========+===============
