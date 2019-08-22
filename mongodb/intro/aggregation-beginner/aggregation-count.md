@@ -70,7 +70,7 @@ Output:
 
 In the previous example, our aggregation returned a document that displayed all the documents which matched the specified value. However, since we added the `$count` stage, the result passes both the `$match` and `$count` stage and then displayed the computed result.
 
-If we would to only use the `$count` stage, it would count the total number of documents located inside the collection.
+If we were to only use the `$count` stage, it would count the total number of documents located inside the collection.
 
 ```javascript
 db.pokemon.aggregate(
