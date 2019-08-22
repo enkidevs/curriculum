@@ -73,7 +73,7 @@ Which database is open-source, _and_ does not require a license for commercial u
 * Oracle
 * MS SQL Server
 
-
+---
 ## Footnotes
 
 [1:LAMP]
