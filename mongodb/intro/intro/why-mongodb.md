@@ -12,8 +12,6 @@ type: normal
 
 category: must-know
 
-standards:
-
 links:
    - '[Offical MongoDB Website](https://www.mongodb.com){website}'
 
