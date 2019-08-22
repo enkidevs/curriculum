@@ -153,6 +153,7 @@ Consider you have the table `servers` which has a column `id` defined as a `PRIM
 * RELATES
 * PRIMARY KEY
 
+---
 ## Footnotes
 
 [1:UNIQUE Constraint]
