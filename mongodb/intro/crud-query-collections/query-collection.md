@@ -132,7 +132,7 @@ db.pokemon.find({
 });
 ```
 
-The Output is the same for both examples:
+Output is the same for both examples:
 
 ```javascript
 {
