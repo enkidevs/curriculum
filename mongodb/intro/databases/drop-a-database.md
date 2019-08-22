@@ -22,7 +22,7 @@ standards:
 links:
   - '[link to official documentation](https://enki.com)'
 ---
-# Create a database
+# Delete a database
 ---
 ## Content
 
