@@ -71,13 +71,13 @@ var people = [
 ];
 
 people.find(function(e, i, src) {
-  return element.age >= 18;
+  return e.age >= 18;
 });
 //returns Alex
 
 people.findIndex(function(e, i, src) {
   return (
-    element.age > 18 && element.age < 30
+    e.age > 18 && e.age < 30
   );
 });
 //returns 1
