@@ -72,7 +72,7 @@ const x = "Hey there!";
 const el = <h2>{x}</h2>;
 ```
 
-When rendered, this element will display `"Hey there"` as a `h2`.
+When rendered, this element will display `"Hey there"` as an `h2`.
 
 **JSX** expressions can be used everywhere in JS. You can:
 - `return` them
