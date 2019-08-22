@@ -27,14 +27,14 @@ aspects:
 
 ---
 
-# The **React** element
+# The React element
 
 ---
 ## Content
 
 An `element` in **React** is the most basic building block for describing your application's UI.
 
-Note that `element`s are **immutable** and their children or attributes can't be updated after rendering. This implies that `element`s describe the UI at a specific point in time - like a *snapshot*.
+It is important to know that `element`s are **immutable** and their children or attributes can't be updated after rendering. This implies that `element`s describe the UI at a specific point in time - like a *snapshot*.
 
 In **React** you'll work mainly with a more flexible concept - `component`s. However, these are *made of* `element`s therefore it's helpful to understand the *fundamentals* of how they work.
 
