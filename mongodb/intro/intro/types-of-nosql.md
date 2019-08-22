@@ -42,21 +42,21 @@ Some popular key-value databases are **Oracle NoSQL Database**, **Redis**, **Goo
 
 ### Column databases
 
-**Column databases**, also referred to as, **Wide Column databases**, store data into structures conceptually similar to tables but with less-strict rules, known as *column families*.
+**Column databases** also referred to as, **Wide Column databases**, store data into structures conceptually similar to tables but with less-strict rules, known as *column families*.
 
 Column families are comprised of rows and columns, but unlike a relational database, the names and format of the columns can vary from row to row within the same family. Each column family can have multiple rows, and each row can have a different number of columns. The columns can also differ from one another, in length, type of data they store, have different names, etc.
 
 Each row also has a unique key used to identify that row either for modifying or deleting data(Like key-value databases).
 
-Since the column names as well as the record keys are not fixed, Column databases can be seen as two-dimensional key-value databases, where a combination of column and row id serves as a "key" for fast data lookups.
+Since the column names, as well as the record keys are not fixed, Column databases can be seen as two-dimensional key-value databases, where a combination of column and row id serves as a "key" for fast data lookups.
 
 Some popular Column databases are **Bigtable**, **Cassandra**, **Microsoft Azure Cosmos DB**, etc.
 
 ### Graph databases
 
-**Graph databases**, as the name implies, store data in graphs. The graphs are represented as collections of `Nodes` that hold some *properties*, and are connected with `Edges`(Relationships) to one another. Each `Edge` has information about the relationship between each Node.
+**Graph databases**, as the name implies, store data in graphs. The graphs are represented as collections of `Nodes` that hold some *properties* and are connected with `Edges`(Relationships) to one another. Each `Edge` has information about the relationship between each Node.
 
-The relationships in `Graph` databases are a first-class citizen and directly stored. This allows data to be linked together explicitly and, in many cases, retrieved with one operation. In other words, a `Graph` database usually allow for fast information retrieval across different nodes (unlike multi table joins in relational databases which are quite costly).
+The relationships in `Graph` databases are a first-class citizen and directly stored. This allows data to be linked together explicitly and, in many cases, retrieved with one operation. In other words, a `Graph` database usually allows for fast information retrieval across different nodes (unlike multi-table joins in relational databases which are quite costly).
 
 Some popular `Graph` databases are **GraphD**, **Neo4j**, **ArangoDB**, **OrientDB** and more.
 
@@ -78,7 +78,7 @@ Some popular `document` databases are **MongoDB**, **CouchDB**, **RaptorDB**, **
 ---
 ## Practice
 
-Chose the correct 4 types of NoSQL databases:
+Which are the 4 correct NoSQL databases:
 
 ???
 
