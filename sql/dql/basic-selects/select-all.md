@@ -31,14 +31,30 @@ aspects:
 ---
 ## Content
 
-To get all of the data from a table, use a `SELECT *` statement.
+To retrieve data from a table we usually write queries with the help of the `SELECT` statement. A query is just a way to declare the data that you want returned and where to find it in the database. On top of that, you can specify how you want your data displayed before it is returned but for this insight we will focus on the basics of queries.
+ 
+Consider the following table named `pokemon`:
 
+| id | name      | type_1 | type_2 |
+|----|-----------|--------|--------|
+| 1  | Bulbasaur | Grass  | Poison |
+| 2  | Ivysaur   | Grass  | Poison |
+| 3  | Venusaur  | Grass  | Poison |
+
+If you wanted to return all the data in this table, you would use one of the simplest queries. The syntax would look like this:
 ```sql
 SELECT *
 FROM pokemon;
 ```
 
-The above command gets all of the *columns* and all of the *rows* from the `pokemon` table.
+What the above query does is that it `SELECT`s all (represented by the `*` symbol) the columns in the order of their definition in the database `FROM` the table named `pokemon`. The returned table will contain all of the *columns* and all of the *rows* from the table.
+
+Note that all the SQL keywords like `SELECT` and `FROM` are case insensitive, but they are capitalized to increase readability. The example above can also be written as:
+
+```sql
+select *
+from pokemon;
+```
 
 
 ---
