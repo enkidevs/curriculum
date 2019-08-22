@@ -32,7 +32,7 @@ aspects:
 
 Opting out for an immutable style of data management, a significant speed up can be achieved by easily implementing a fast `shouldComponentUpdate()` lifecycle method.
 
-Given the fact that **JavaScript** wasn't designed for dealing with immutable data, **React** provides an immutability helper `update()` with a syntax inspired by **MongoDB**.
+Given the fact that **JavaScript** wasn't designed for dealing with immutable data, **React** used to provide an immutability helper `update()` with a syntax inspired by **MongoDB**.
 
 Mutate without having any way of determining which data has changed:
 
