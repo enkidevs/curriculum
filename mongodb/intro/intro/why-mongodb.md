@@ -15,14 +15,16 @@ category: must-know
 standards:
 
 links:
-    - '[Offical MongoDB Website](https://www.mongodb.com){website}'
-    
+   - '[Offical MongoDB Website](https://www.mongodb.com){website}'
+
 ---
+
 # Why MongoDB?
+
 ---
 ## Content
 
-MongoDB is a free, open-source, document-based database that stores documents in BSON (Binary JSON) format, grouped together in *collections*.
+MongoDB is a free, open-source, document-based database that stores documents in BSON (Binary JSON) format, grouped in *collections*.
 
 Those documents are schema-less and can have any number of fields, varying over time. For instance, in any valid MongoDB collection, we can have one document with 1 field, another document with 40 fields, and another document with 12 fields.
 
