@@ -83,7 +83,7 @@ Output:
 { "_id" : "Water", "w" : 233, "s" : 667 }
 ```
 
-Furthermore, even though the `_id` field in the `$group` stage is mandatory, we can set the expression as `null` and not group documents but still use acumulators to aggregate the collection.
+Furthermore, even though the `_id` field in the `$group` stage is mandatory, we can set the expression as `null` and not group documents but still use accumulators to aggregate the collection.
 
 For instance, we can set the `_id` as `null` and calculate the sum of all powers, or the average age of all pokémon, or the highest or lowest `power`/`age`, etc.
 
@@ -174,7 +174,7 @@ db.???.???(
 ---
 ## Revision
 
-Let's say we have a collection named `games` with 1000 documents. Each game has an `name`, `difficulty` and `type` field. Group all documents by their `type` and find out the what is the lowest and what the highest `difficulty` level for each `type` and save them in fields called `low` and `max`.
+Let's say we have a collection named `games` with 1000 documents. Each game has a `name`, `difficulty` and `type` field. Group all documents by their `type` and find out the what is the lowest and what the highest `difficulty` level for each `type` and save them in fields called `low` and `max`.
 
 ```javascript
 db.???.aggregate(
