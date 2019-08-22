@@ -62,3 +62,5 @@ How do you select all the rows and columns from the `products` table?
 * `GO GET ALL PRODUCTS`
 * `SELECT EVERYTHING FROM products`
 * `SELECT * FROM items`
+
+

@@ -150,3 +150,4 @@ To select all the columns from a table, in the order they were define, you can u
 ```sql
 SELECT * FROM table_name;
 ```
+
