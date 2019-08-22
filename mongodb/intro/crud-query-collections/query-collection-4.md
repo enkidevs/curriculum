@@ -141,7 +141,7 @@ db.pokemon.find(
 ---
 ## Revision
 
-Add each query operator to its explanation.
+Match the query operator with its explanation:
 
 Not equal to the specified value: ???
 
