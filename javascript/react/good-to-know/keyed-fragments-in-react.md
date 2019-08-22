@@ -29,62 +29,127 @@ aspects:
 ---
 ## Content
 
-With two sets of children that need reordering, there is no way of putting a key on each set without adding a wrapper element.
+Take a look at the following code:
 
-To solve this problem, **React** provides the `createFragment` add-on which can give keys to sets of children.
+```jsx
+class Columns extends React.Component {
+  render() {
+    return (
+      <div>
+        <td>Is this real life</td>
+        <td>Or is it fantasy</td>
+      </div>
+    );
+  }
+}
 
-```javascript
-Array<ReactNode> createFragment(
-    object children);
+class Table extends React.Component {
+  render() {
+    return (
+      <table>
+        <tr>
+          <Columns />
+        </tr>
+      </table>
+    );
+  }
+}
 ```
 
-Instead of:
-```javascript
-children = [this.props.rightChildren,
-    this.props.leftChildren];
+Although it might seem correct at a first glance, this would result in an invalid HTML code because the `<td>`s in the `Columns` component are encapsulated in a `<div>`. The solution to this problem is represented by `Fragment`s, which allows you to add a parent tag to your JSV elements without adding an extra note to the DOM.
+
+Here is how you would use `Fragment`s on the `Columns` component:
+
+```jsx
+class Columns extends React.Component {
+  render() {
+    return (
+      <React.Fragment>
+        <td>Is this real life</td>
+        <td>Or is it fantasy</td>
+      </React.Fragment>
+    );
+  }
+}
 ```
-This can be done like:
-```javascript
-var createFragment= require(
-    'react-addons-create-fragment');
 
-children = createFragment({
-  right: this.props.rightChildren,
-  left:this.props.leftChildren,
-});
+Or, if you despise writing too many words when you code:
+
+```jsx
+// ...
+      <>
+        <td>Is this real life</td>
+        <td>Or is it fantasy</td>
+      </>
+// ...
 ```
 
-The `left`and `right` keys are used as keys for the entire set of children, and the rendering order is determined by the order of object's keys.
+You can also attribute `key`s to your `Fragment`s, but only if they are declared using the explicit `<React.Fragment>` syntax. There are many use cases for this, with one example being mapping a collection to an array of fragments:
 
-The return value of `createFragment`  is an opaque object and `React.Children` helpers should be used in order to access it.
-
-In the future, `createFragment` may be replaced by a different **API** which should allow you assigning keys without a wrapper.
+```jsx
+class ProductList extends React.Component {
+  // ...
+  render() {
+    return (
+      <dl>
+        {props.products.map(product => (
+          <React.Fragment key={product.id}>
+            <dt>{product.name}</dt>
+            <dd>{product.description}</dd>
+          </React.Fragment>
+        ))}
+      </dl>
+    );
+  }
+}
+```
 
 ---
 ## Practice
 
-Complete the `createFragment` add-on below which can give keys to sets of children:
+Complete the following code:
 
-```javascript
-Array<ReactNode ???(
-      object ???);
+```jsx
+class Columns extends React.Component {
+  render() {
+    return (
+      ???
+        <td>Is this real life</td>
+        <td>Or is it fantasy</td>
+      ???
+    );
+  }
+}
 ```
 
-
-* `createFragment`
-* `children`
-* `create`
-* `opaque`
-* `props`
-* `createProps`
+* <React.Fragment>
+* </React.Fragment>
+* <Fragment>
+* </Fragment>
 
 ---
 ## Revision
 
-What type of object is returned by `createFragment`? ???
+Complete the following description list component:
 
+```jsx
+function Glossary(props) {
+  return (
+    <dl>
+      {props.items.map(item => (
+        // Without the `key`, React will fire a key warning
+        <React.Fragment key={item.id}>
+          <dt>{item.term}</dt>
+          <dd>{item.description}</dd>
+        </React.Fragment>
+      ))}
+    </dl>
+  );
+}
+```
 
-* An opaque object.
-* A transparent object.
-
-
+* React.Fragment
+* key
+* /React.Fragment
+* Fragment
+* /Fragment

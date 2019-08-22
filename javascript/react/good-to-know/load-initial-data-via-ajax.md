@@ -24,19 +24,18 @@ aspects:
 ---
 ## Content
 
-Data is typically fetched in the `componentDidMount` lifecycle method.
-When the response has arrived, the data is stored in a state, triggering a render to update your user interface.
+Data is typically fetched in the `componentDidMount` lifecycle method. When the response has arrived, the data is stored in a state, triggering a render to update your user interface.
 
-If processing an asynchronous request response, ensure the component is still mounted prior to updating its state. This can be done by tracking mount and unmount within the component, and checking it hasn't been unmounted before calling `setState`:
+If processing an asynchronous request-response, ensure the component is still mounted before updating its state. This can be done by tracking mount and unmount within the component, and checking it hasn't been unmounted before calling `setState`:
 
 ```javascript
 var loadData = React.createClass({
- componentDidMount() {
+  componentDidMount() {
     this.mounted = true;
-    $.get(this.props.source, (result) => {
+    $.get(this.props.source, result => {
       if (this.mounted) {
         this.setState({
-          username: result.owner.login;
+          username: result.owner.login
         });
       }
     });

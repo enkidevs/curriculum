@@ -16,7 +16,7 @@ category: feature
 
 links:
 
-  - '[facebook.github.io](https://facebook.github.io/react/docs/update.html){website}'
+  - '[Immutability Helper](https://github.com/kolodny/immutability-helper){website}'
 
 parent: custom-proptype-s-to-be-required
 
@@ -30,7 +30,7 @@ aspects:
 ---
 ## Content
 
-When opting in for an immutable style of data management, a significant speed up can be achieved by easily implementing a fast `shouldComponentUpdate()` lifecycle method.
+When opting in for an immutable style of data management, a significant speedup can be achieved by easily implementing a fast `shouldComponentUpdate()` lifecycle method. To do this, you would need a method that aids with comparing *versions* of your component's `state`.
 
 Let's take a look at the following example of mutating data:
 
@@ -55,37 +55,43 @@ import update from "immutability-helper";
 
 const newData = update(myData, {
   x: { y: { z: { $set: 10 } } },
+  // myData.x.y.z = 10;
   a: { b: { $push: [13] } }
+  // myData.a.b.push(13);
 });
 ```
 
 Although this format might need some getting used to, it provides a much better approach for determining which data has changed[1].
 
-Keys that are preceded by a `$` are called **commands** (`{push: array}`, `{apply: function}`, etc.) and the data that is being mutated is called the **target**. 
+In terms of notation, keys that are preceded by a `$` are called **commands** (`{push: array}`, `{apply: function}`, etc.) and the data that is being mutated is called the **target**. 
 
-The `$` is a prefix for keys that are called commands such as `{$push: array}` or `{$apply: function}`.
-
-(Shallow) merge:
+Here is how you would perform a shallow merge using the `update()` method:
 
 ```javascript
-var obj = {a: 5, b:3};
+var obj = { a: 5, b: 3 };
 var newObj = update(obj, {
-  $merge: {b: 6, c: 7}});
+  $merge: { b: 6, c: 7 }
+});
 //newObj = {a: 5, b: 6, c:7}
 ```
 
-Other worth mentioning intuitive commands are `{$unshift: array}` and `{$splice: array of arrays}`.
+Other worth mentioning intuitive commands are `{$unshift: array}` and `{$splice: array of arrays}`, but you can see all the available methods in the Resources section of this insight.
 
 ---
 ## Practice
+
+Given:
 
 ```javascript
 myData.x.y = 3;
 myData.a.b.push(4);
 ```
-Give the equivalent of the code above with the help of immutability helpers:
+
+Write the equivalent with the aid of immutability helpers:
+
 ```javascript
-var update = require('react-addons-update');
+import update from "immutability-helper";
+
 var newObj = ???(myData, {
  x: {y: {???set :3}},
  a: {b: {$???: [4]}},
@@ -106,13 +112,18 @@ var newObj = ???(myData, {
 ---
 ## Revision
 
+Given:
+
 ```javascript
 myData.x.y = 3;
 myData.a.b.push(4);
 ```
-Give the equivalent of the code above with the help of immutability helpers:
+
+Write the equivalent with the aid of immutability helpers:
+
 ```javascript
-var update = require('react-addons-update');
+import update from "immutability-helper";
+
 var newObj = ???(myData, {
  x: {y: {???set :3}},
  a: {b: {$???: [4]}},
