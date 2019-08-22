@@ -26,7 +26,7 @@ links:
 
 The `$project` stage can also be used to include or exclude specified fields within an array.
 
-For instance, let's say we have a `pokemon` collection where each pokémon has an `_id`,`name`,`type`,`power` fields and an `ability` array field.
+For instance, let's say we have a `pokemon` collection where each pokémon has an `_id`, `name`, `type`, `power` fields and an `ability` array field.
 In the array there are 3 fields; `Basic`, `Strong` and `Ultimate`. We can use the `$project` stage to only include the `name`, `type` and `Ultimate` `ability` in the aggregation.
 
 Example document:
@@ -75,7 +75,7 @@ Output:
 }
 ```
 
-Furthermore, we can use the `$project` stage to add a new array field to a document. For instance, let's say we have a document where there are 5 different abilites in fields called `ability1`,`ability2`...`ability5`. We can use the `$project` stage to combine all 5 abilities and return them as an `ability` array.
+Furthermore, we can use the `$project` stage to add a new array field to a document. For instance, let's say we have a document where there are 5 different abilities in fields called `ability1`, `ability2` ...`ability5`. We can use the `$project` stage to combine all 5 abilities and return them as an `ability` array.
 
 Document:
 ```javascript
