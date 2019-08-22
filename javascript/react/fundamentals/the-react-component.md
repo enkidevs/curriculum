@@ -27,7 +27,7 @@ aspects:
 
 ---
 
-# The **React** component
+# The React component
 
 ---
 ## Content

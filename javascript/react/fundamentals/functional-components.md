@@ -38,6 +38,7 @@ As stated before, **React** components behave just like functions, taking `props
 Simple `component`s that don't have an internal `state` and don't make use of any **lifecycle** methods such as `constructor()` can be written as **functional components**.
 
 Consider the component:
+
 ```jsx
 class Enki extends React.Component {
   render() {
@@ -47,6 +48,7 @@ class Enki extends React.Component {
 ```
 
 A **stateless** component is **functional** when written literally as a JS function:
+
 ```jsx
 function Enki(props) {
   return <p>{props.enki}</p>;

@@ -28,7 +28,7 @@ aspects:
 
 ---
 
-# What are `props`?
+# What are props?
 
 ---
 ## Content
@@ -56,6 +56,7 @@ class Greeting extends React.Component {
 Note that if the value of your `return` extends over multiple lines it must be enclosed in parenthesis.
 
 If we want to `render` it, the `element` must specify the value of `name` prop:
+
 ```jsx
 const element = <Greeting
   name="John" />;
@@ -64,6 +65,7 @@ const element = <Greeting
 Now, when `render`ed, `element` will display "Enki greets John".
 
 You can also define **default props** in the following manner:
+
 ```jsx
 class Greeting extends React.Component {
   //...
