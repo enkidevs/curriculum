@@ -21,9 +21,9 @@ links:
 ---
 ## Content
 
-`NoSQL`, or **Not only SQL**, is a common term to describe any database that strays away from the traditional relation database model.
+`NoSQL`, or **Not only SQL**, is a common term to describe any database that strays away from the traditional relational database model.
 
-Storing and retrieving of data in a NoSQL database is usually done through other means that aren't tables (which are used in a relational databases).
+Storing and retrieving of data in a NoSQL database is usually done through other means that aren't tables (which are used in relational databases).
 
 There are 4 main types of NoSQL databases, named after the data structures they use to store data:
 
