@@ -27,11 +27,9 @@ aspects:
 ---
 ## Content
 
-**React** encourages **unidirectional data flow** by design, making it the canonical example of this approach nowadays.
+**React** encourages **unidirectional data flow** by design, making it the canonical example of this approach nowadays. Along with two-way data binding, these approaches describe the way your application keeps the `view` in sync with the data `model`.
 
-Along with two-way data binding, these approaches describe the way your application keeps the `view` in sync with the data `model`.
-
-In two-way data binding the `model` is dynamically bound to the `view` such that one can change the other and vice-versa.
+In two-way data binding, the `model` is dynamically bound to the `view` such that one can change the other and vice-versa.
 
 In **one-way data binding** the `model` is the *single source of truth*.
 
@@ -39,7 +37,7 @@ Instead of changing the `model` directly when a **UI field** changes, the `model
 
 This technique is often seen as *cleaner* and it's preferred because it gives better control over the **data flow**.
 
-Note that you can still implement two-way data binding in **React**, but this require some extra effort.
+Note that you can still implement two-way data binding in **React**, but this requires some extra effort.
 
 ---
 ## Practice

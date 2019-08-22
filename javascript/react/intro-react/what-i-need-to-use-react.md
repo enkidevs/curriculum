@@ -17,12 +17,12 @@ aspects:
   - introduction
 
 ---
-# **React** dependencies
+# React dependencies
 
 ---
 ## Content
 
-Being a truly flexible library, you can create applications from scratch with **React**, but also gradually including it to your code base without having to re-write anything.
+Being a truly flexible library, you can create applications from scratch with **React**, but also gradually including it to your codebase without having to re-write anything.
 
 To install **React** you can use a *package manager* such as `yarn` or `npm`:
 
@@ -42,7 +42,7 @@ Although not required, adopting a modern **build pipeline** is highly recommende
 - a **bundler**[1] such as `webpack` or `browserify` to improve load time by modularising your code
 - a **compiler** such as `Babel`[2]
 
-Using `Babel` compiler will allow you to write your application with both `ES6`[3] and `JSX` syntax. For this, you need to install `babel-preset-react` and `babel-preset-es2015` and enable them in your `.babelrc` config file.
+Using the `Babel` compiler will allow you to write your application with both `ES6`[3] and `JSX` syntax. For this, you need to install `babel-preset-react` and `babel-preset-es2015` and enable them in your `.babelrc` config file.
 
 To create a **Single page application** you can use the officially supported package called `create-react-app`:
 

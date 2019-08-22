@@ -19,7 +19,7 @@ aspects:
 
 ---
 
-# What is **React**?
+# What is React?
 
 ---
 ## Content
