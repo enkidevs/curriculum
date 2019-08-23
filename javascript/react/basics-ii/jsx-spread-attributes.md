@@ -27,7 +27,7 @@ aspects:
 
 ---
 
-# **JSX** Spread attributes
+# JSX Spread attributes
 
 ---
 ## Content

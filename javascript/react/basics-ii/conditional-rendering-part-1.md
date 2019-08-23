@@ -78,7 +78,7 @@ class Message extends React.component {
 }
 ```
 
-When rendering `Message` component with `isRaining=true`, it will make use of `<Rainy />` while otherwise it will use `<Sunny />`. In both cases the latter `<p>` is shown as well.
+When rendering `Message` component with `isRaining=true`, it will make use of `<Rainy />` while otherwise, it will use `<Sunny />`. In both cases the latter `<p>` is shown as well.
 
 ---
 ## Practice
