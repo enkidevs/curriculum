@@ -40,7 +40,7 @@ Since ES6 you can use **binary** and **octal** notation as well as hexadecimal:
 0o377 // oct '255'
 ```
 
-You can use the method `.toString(r)` to convert numbers to hex/bin/oct:
+You can use the method `.toString(radix)` to convert numbers to hex/bin/oct:
 
 ```javascript
 (255).toString(16); // 'ff' in hex
