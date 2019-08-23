@@ -24,7 +24,7 @@ links:
 ---
 ## Content
 
-`Number` benefits from many new methods saving you from writing your own potentially error prone implementation. Because of the increased number of methods available, this insight will explain the ones you are more likely to use.
+`Number` benefits from many new methods saving you from writing your own potentially error prone-implementation. Because of the increased number of methods available, this insight will explain the ones you are more likely to use.
 
 ### Number.isFinite
 
@@ -59,6 +59,15 @@ isNaN("Enki") == true; //true
 ```javascript
 Number.isNaN(1); //false
 Number.isNaN(Number.NaN); //true
+```
+
+It is worth noting the fact that `!Number.isNaN(<value>)` and `Number.parseFloat(<value>)` are not reliable ways of checking if a value is numerical or not. This is because `!Number.isNaN("")` evaluates to `true`, and while `Number.parseFloat("")` does evaluate to `NaN`, it fails on input like `"1.1.1"` and results in `1.1` as output.
+
+One reliable way to check if a given string is a valid number is:
+
+```js
+const isNum = num =>
+  num !== "" && Number(num) === Number(num);
 ```
 
 ---
