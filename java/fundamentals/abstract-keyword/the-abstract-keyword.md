@@ -61,7 +61,7 @@ It is worth noting that methods in an interface are implicitly `abstract`, so it
 ## Practice
 
 Which of the following is a properly declared abstract method? 
-```java
+```
 abstract String optionX[String s]; 
 abstract String optionY{String s);   
 abstract String optionZ(String s);
@@ -76,7 +76,7 @@ abstract String optionZ(String s);
 ## Revision
 
 Which of the following is a properly declared abstract method?
-```java
+```
 abstract float optionA(float e);    
 abstract float optionB(float e) {};
 abstract float optionC(float e) {

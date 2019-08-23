@@ -80,7 +80,7 @@ function A(props) {
   return (
     <div>
     {y ??? <h2>Hello, World</h2>}
-    <???>
+    ???
   );
 }
 
