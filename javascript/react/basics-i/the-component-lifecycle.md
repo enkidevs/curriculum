@@ -28,7 +28,7 @@ aspects:
 
 ---
 
-# The **component** lifecycle
+# The component lifecycle
 
 ---
 ## Content
@@ -51,7 +51,7 @@ class Spawn extends React.Component {
 }
 ```
 
-This `component` can be dynamically **mounted** multiple times in an application, and after this happens we'll see the `log` in console.
+This `component` can be **mounted** dynamically multiple times in an application, and after this happens we'll see the `log` in the console.
 
 If you want to mark the **un-mounting**, you can use the `componentWillUnmount()`:
 ```jsx
@@ -61,6 +61,8 @@ If you want to mark the **un-mounting**, you can use the `componentWillUnmount()
   }
 // ...
 ```
+
+Now, before the component is **un-mounted** you will see the `log` in the console.
 
 By convention, methods starting with `will` are run **before** an event happens while those starting with `did` are run **afterwards**.
 

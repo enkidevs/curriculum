@@ -26,7 +26,7 @@ aspects:
 
 ---
 
-# Component **lifecycle methods**
+# Component lifecycle methods
 
 ---
 ## Content
@@ -37,7 +37,8 @@ We can split them into three broader categories by the *type of event* that will
 
 ### 1. Mounting
 
-- `constructor(props)` - the first method called in the lifecycle, **before mounting**. It's most commonly used to set the initial `state` and to `bind` methods. If used, it must include `super(props)` as first call:
+- `constructor(props)` 
+  - the first method called in the lifecycle, **before mounting**. It's most commonly used to set the initial `state` and to `bind` methods. If used, it must include `super(props)` as the first call:
 
 ```jsx
 constructor(props) {
@@ -48,18 +49,35 @@ constructor(props) {
 }
 ```
 
-- `componentDidMount()` - is invoked **after** `render`. Useful for initializations that require `DOM` nodes.
+- `componentDidMount()` 
+  - is invoked **after** `render`
+  - useful for initializations that require `DOM` nodes.
+
+- `static getDerivedStateFromProps(props, state)` 
+  - is invoked **right before** calling the `render` method, both on the initial mount and on subsequent updates
+  - it returns `null` to update nothing, or an object to update the state
 
 
 ### 2. Updating
 
-- `shouldComponentUpdate(nextProps, nextState)` - the method is called **before** receiving new `props` or `state`. By default it returns `true` meaning `render` is triggered by any change. Modifying this method allows you to only re-`render` in intended scenarios.
+- `shouldComponentUpdate(nextProps, nextState)` 
+  - the method is called **before** receiving new `props` or `state`. 
+  - by default, it returns `true` meaning `render` is triggered by any change
+  - modifying this method allows you to only re-`render` in intended scenarios.
 
-- `componentDidUpdate(prevProps, prevState, snapshot)` - is invoked **after** `render`, but not after the initial one. This method is useful for manipulating the `DOM` when updated.
+- `componentDidUpdate(prevProps, prevState, snapshot)` 
+  - is invoked **after** `render`, but not after the initial one. 
+  - this method is useful for manipulating the `DOM` when updated.
 
-### 3. Unmounting
+- `getSnapshotBeforeUpdate(prevProps, prevState)`
+  - is invoked right before the most recently rendered output is committed to the DOM
+  - this method is useful because it captures information from the DOM before it is changed
 
-- `componentWillUnmount()` - is invoked immediately **before** a `component` is unmounted and destroyed. Useful for resource cleanup.
+### 3. Un-mounting
+
+- `componentWillUnmount()` 
+  - is invoked immediately **before** a `component` is unmounted and destroyed
+  - it is useful for resource cleanup
 
 ---
 ## Practice

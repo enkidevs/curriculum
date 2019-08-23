@@ -27,7 +27,7 @@ aspects:
 
 ---
 
-# Forms in **React**
+# Forms in React
 
 ---
 ## Content
@@ -69,7 +69,6 @@ handle(e) {
 With consistency in mind, *form elements* in **React** work a little differently:
 
 - for `<textarea />` the text is specified with `value` attribute instead of having it as a child:
-
 
 ```html
 <!-- standard HTML -->

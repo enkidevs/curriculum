@@ -27,7 +27,7 @@ aspects:
 
 ---
 
-# Event handling in **React**
+# Event handling in React
 
 ---
 ## Content
@@ -79,6 +79,8 @@ render() {
   );
 }
 ```
+
+Although possible, it is advised against `bind`ing functions inside `render()` as it might cause excessive re-rendering.
 
 A similar effect can be achieved using either the **property initializer syntax**[2] or an **arrow function**[3] in the callback.
 
