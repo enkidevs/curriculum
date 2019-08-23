@@ -6,8 +6,8 @@ aspects:
 type: normal
 category: must-know
 links:
-  - '[Containers vs VMs](Link: https://blog.netapp.com/blogs/containers-vs-vms/){article}
-  - '[How is Docker different from a virtual machine?](https://stackoverflow.com/questions/16047306/how-is-docker-different-from-a-virtual-machine){discussion}
+  - '[Containers vs VMs](Link: https://blog.netapp.com/blogs/containers-vs-vms/){article}'
+  - '[How is Docker different from a virtual machine?](https://stackoverflow.com/questions/16047306/how-is-docker-different-from-a-virtual-machine){discussion}'
 ---
 
 # Container vs VM
