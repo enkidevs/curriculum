@@ -6,3 +6,4 @@ insights:
   - intro
   - volumes
   - bind-mounts
+  - tmpfs
