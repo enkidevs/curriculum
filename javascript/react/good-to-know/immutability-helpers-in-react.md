@@ -56,7 +56,7 @@ import update from "immutability-helper";
 const newData = update(myData, {
   x: { y: { z: { $set: 10 } } },
   // myData.x.y.z = 10;
-  a: { b: { $push: [13] } }
+  a: { b: { $push: [13 ] } }
   // myData.a.b.push(13);
 });
 ```
