@@ -29,7 +29,7 @@ Even though *reactive* data flow always ensures that the latest props are sent t
 To create a reference, you must call `React.createRef()` in the `constructor()` method, followed by attaching said reference to a React element using the `ref` attribute.
 
 ```jsx
-class EnkiComponent extends React.Component {
+class EnkiComponent extends React.Component{
   constructor(props) {
     super(props);
     this.myRef = React.createRef();

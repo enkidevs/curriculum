@@ -142,7 +142,6 @@ var newObj = ???(myData, {
 * `}`
 
 ---
-
 ## Footnotes
 
 [1: Deep Copies]

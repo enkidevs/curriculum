@@ -77,10 +77,10 @@ Or, if you despise writing too many words when you code:
 
 ```jsx
 // ...
-      <>
-        <td>Is this real life</td>
-        <td>Or is it fantasy</td>
-      </>
+<>
+  <td>Is this real life</td>
+  <td>Or is it fantasy</td>
+</>;
 // ...
 ```
 
@@ -137,11 +137,12 @@ function Glossary(props) {
   return (
     <dl>
       {props.items.map(item => (
-        // Without the `key`, React will fire a key warning
-        <React.Fragment key={item.id}>
+        // Without the `key`
+        // React will fire a key warning
+        <??? ???={item.id}>
           <dt>{item.term}</dt>
           <dd>{item.description}</dd>
-        </React.Fragment>
+        <???>
       ))}
     </dl>
   );
