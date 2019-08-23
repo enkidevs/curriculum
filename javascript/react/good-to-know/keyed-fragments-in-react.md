@@ -24,7 +24,7 @@ aspects:
 
 ---
 
-# Keyed fragments in **React**
+# Keyed fragments in React
 
 ---
 ## Content

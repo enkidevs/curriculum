@@ -18,7 +18,7 @@ aspects:
 
 ---
 
-# `null` value for *Controlled Components* in **React**
+# `null` value for Controlled Components in React
 
 ---
 ## Content
