@@ -130,7 +130,7 @@ class Enki extends React.Component {
 }
 
 const element = <???
-  myValue="Hello there" />;
+  myValue="Enki" />;
 
 ReactDOM.render(
   element

@@ -28,7 +28,7 @@ aspects:
 
 ---
 
-# What is **state**?
+# What is state?
 
 ---
 ## Content
@@ -47,7 +47,7 @@ class Hello extends React.Component {
 }
 ```
 
-This won't render however, because `this.state` is `null` at the moment.
+This won't render, however, because `this.state` is `null` at the moment.
 
 To set the **initial state**, by giving `text` a value, you can make use of the `constructor` lifecycle method which is called when the component is created:
 
