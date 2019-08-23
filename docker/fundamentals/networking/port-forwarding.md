@@ -1,30 +1,12 @@
 ---
 author: nem035
-
-levels:
-
-  - beginner
-
-  - basic
-
-
-tags:
-
-  - introduction
-
+aspects:
+  - deep
   - workout
-
-
 type: normal
-
 category: must-know
-
 links:
-
-- '[link to official documentation](https://enki.com)'
-- '[link to deeper dive blog post](https://enki.com)'
-- '[link to a video](https://enki.com)'
-- '[link to a discussion](https://enki.com)'
+  - '[Binding Docker Ports](https://runnable.com/docker/binding-docker-ports){article}'
 ---
 
 # Port Forwarding
@@ -34,7 +16,7 @@ By default, a container is not accessible to the outside world.
 To allow access we can tell Docker to expose a local container port to a port on the host machine.
 
 ```bash
-❯ docker run \
+docker run \
   -p 127.0.0.1:<host-port>:<container-port> \
   -t someimage
 ```
@@ -45,25 +27,25 @@ Using the `EXPOSE` command in the Dockerfile, we can tell Docker that the contai
 EXPOSE <container-port>
 ```
 
-**Note** that `EXPOSE` does not expose the port itself -- only `-p` will do that.
+**Note** that `EXPOSE` does not expose the port itself, only `-p` will do that.
 
 To list port mappings for a container, we can do:
 
 ```bash
-❯ docker port <container-name>
+docker port <container-name>
 ```
 
 Example:
 
 ```bash
-❯ docker port mongo
+docker port mongo
 27017/tcp -> 0.0.0.0:27017
 ```
 
 We can also list a specific mapping by passing the port into the command:
 
 ```bash
-❯ docker port mongo 27017
+docker port mongo 27017
 0.0.0.0:27017
 ```
 
@@ -79,10 +61,10 @@ EXPOSE 9090
 #...
 ```
 
-Using the command:
+Using this exact command:
 
 ```bash
-❯ docker run -t enki-image
+docker run -t enki-image
 ```
 
 Will the container be accessible via port `9090` on the host it's running on?

@@ -1,34 +1,12 @@
 ---
 author: nem035
-
-levels:
-
-  - beginner
-
-  - basic
-
-
-tags:
-
+aspects:
   - introduction
   - workout
-
-
 type: normal
-
 category: must-know
-
-standards:
-  devops.identify-docker.1: 10
-  cs.identify-linear-collection-data-structures-usage.0: 1000
-  cs.identify-linear-collection-data-structures-usage.3: 1000
-
 links:
-
-- '[link to official documentation](https://enki.com)'
-- '[link to deeper dive blog post](https://enki.com)'
-- '[link to a video](https://enki.com)'
-- '[link to a discussion](https://enki.com)'
+- '[What is the difference between a Docker image and a Container?](https://stackoverflow.com/questions/23735149/what-is-the-difference-between-a-docker-image-and-a-container){discussion}'
 ---
 
 # Images
@@ -41,7 +19,9 @@ A Docker image represents a blueprint for creating containers.
 
 It contains the specification for instantiating a container, including the environment in which the container will run, the application code it will need and other runtime settings such as environment variables and config files.
 
-A Docker image is immutable; it only contains read-only layers, meaning that once an image is created it is never modified.
+The image ID is based on the SHA[1] of the docker hub image.
+
+A Docker image is *immutable*; it only contains read-only layers, meaning that once an image is created it is never modified.
 
 Images can be composed from each other to minimize data repetition. This also means that if we need to modify an image, the only way is to extend it and add our changes on top.
 
@@ -54,17 +34,26 @@ It's important to note that image layers are cached and can be reused between va
 This is indicated by the `"Layer already exists"` message in the console output when pushing or pulling the image from a registry:
 
 ```bash
-❯ docker image pull enki:example
+docker image pull enki:example
 a82b6c66a6d4: Layer already exists
 1941ca4a7a84: Layer already exists
 a2ae92ffcd29: Layer already exists
-example: digest: sha256:9e81asffa499922aea9877fg6a652be11asd25lmin331322nybys size: 948
+example: digest: sha256:xxx size: 948
 ```
 
-We can use the `docker history IMAGE_ID` command to show the layers of changes made on an image and their sizes.
+When we run a container and change a file within an image, a copy-on-write[2] happens. That file is extracted from the image and stored in the container layer. Any layers that were unchanged are just reused. In this manner, the container contains all of its files and the files that differ from the image we used to create the container.
+
+We can use the `docker history <IMAGE_ID>` command to show the layers of changes made on an image and their sizes.
+
+For example:
+
+```bash
+docker history nginx
+```
+
+would output something like:
 
 ```
-❯ docker history nginx
 IMAGE               CREATED             CREATED BY                                      SIZE                COMMENT
 3f8a4339aadd        2 days ago          /bin/sh -c #(nop)  CMD ["nginx" "-g" "daem...   0B
 <missing>           2 days ago          /bin/sh -c #(nop)  STOPSIGNAL [SIGTERM]         0B
@@ -103,3 +92,9 @@ A Docker image can be modified.
 
 * false
 * true
+
+---
+## Footnotes
+
+[1: SHA]
+In cryptography, SHA (Secure Hash Algorithm) is a cryptographic hash function which takes an input and produces a hash value known as a message digest – typically rendered as a hexadecimal number.

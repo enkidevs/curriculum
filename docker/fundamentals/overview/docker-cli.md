@@ -1,38 +1,17 @@
 ---
 author: nem035
-
-levels:
-
-  - beginner
-
-  - basic
-
-
-tags:
-
+aspects:
   - introduction
-
   - workout
-
-
 type: normal
-
 category: must-know
-
-
-
-standards:
-  devops.identify-docker.0: 10
-  devops.identify-docker.1: 10
-
 links:
+- '[Docker CLI](https://docs.docker.com/engine/reference/commandline/cli/){documentation}'
 
-- '[link to official documentation](https://enki.com)'
-- '[link to deeper dive blog post](https://enki.com)'
-- '[link to a video](https://enki.com)'
-- '[link to a discussion](https://enki.com)'
 ---
+
 # Docker CLI
+
 ---
 ## Content
 
@@ -40,40 +19,51 @@ Docker comes with a command-line interface (CLI) that uses the Docker REST API t
 
 Most Docker CLI commands have 3 parts.
 
-They start with `docker`, followed by a subcommand which is usually a name of a Docker Object such as `image`, then followed by a command.
+They start with `docker`, followed by a subcommand which is usually a name of a Docker Object such as `image`, then followed by a command for an action to perform on that object.
+
+```bash
+docker <object> <action>
+```
 
 For example, to list all containers, we can do:
 
 ```bash
-❯ docker container ls
+docker container ls
 ```
 
 Likewise, to remove the `nginx` image, we can do:
 
 ```bash
-❯ docker image rm nginx
+docker image rm nginx
 ```
 
 In fact, `docker` has many commands that are generic across Docker Objects (containers, images, etc.) and can be applied to any of them.
 
 ```bash
 # list all objects
-❯ docker OBJECT ls
+docker <OBJECT> ls
 
 # remove object
-❯ docker OBJECT rm ID_OR_NAME
+docker <OBJECT> rm <ID_OR_NAME>
 
-# inspect an object (return a JSON metadata describing it)
-❯ docker OBJECT inspect
+# return JSON metadata describing the object
+docker <OBJECT> inspect <ID_OR_NAME>
 
 # remove unused objects
-❯ docker OBJECT prune
+docker <OBJECT> prune
 ```
 
-To list available commands and other helpful information for `docker` itself or any of it's sub commands like `docker container`, we can suffix the command we want to examine with `--help`.
+To list available commands and other helpful information for `docker` itself or any of its sub commands like `docker container`, we can suffix the command we want to examine with `--help`.
+
+For example:
+
+```bash
+docker attach --help
+```
+
+would display:
 
 ```
-❯ docker attach --help
 Usage:  docker attach [OPTIONS] CONTAINER
 
 Attach local standard input, output, and error streams to a running container
@@ -93,6 +83,7 @@ This essentially means that the default configurations in Docker are setup to be
 ## Practice
 
 To inspect a Docker `nginx` image, we'd run the command:
+
 ???
 
 * `docker image inspect nginx`
@@ -110,4 +101,4 @@ To fetch the logs for a Docker container named `webserver`, we'd run:
 * `docker container logs webserver`
 * `docker logs container webserver`
 * `docker show logs webserver`
-* `docker container-logs`
+* `docker webserver container-logs`

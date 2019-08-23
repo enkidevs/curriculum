@@ -1,32 +1,13 @@
 ---
 author: nem035
-
-levels:
-
-  - beginner
-
-  - basic
-
-
-tags:
-
+aspects:
   - introduction
-
   - workout
-
   - deep
-
-
 type: normal
-
 category: must-know
-
 links:
-
-- '[link to official documentation](https://enki.com)'
-- '[link to deeper dive blog post](https://enki.com)'
-- '[link to a video](https://enki.com)'
-- '[link to a discussion](https://enki.com)'
+- '[Docker: use bind mounts](https://docs.docker.com/storage/bind-mounts/){documentation}'
 ---
 # Bind Mounts
 ---
@@ -37,10 +18,11 @@ A sharing (mounting) a host directory/file into a container that just looks like
 
 Since bind mounts are host-specific, they cannot be part of a Dockerfile and have to be used at run-time with `docker container run`:
 
-Similarly to volumes, a bind mount is done with the `-v` flag but we pass in a full path instead of a name.
+Similarly to volumes, a bind mount is created with the `-v` flag but we pass in a full path instead of a name.
 
 ```bash
-❯ docker container run -v /Users/enki/local_path:/path/container mysql
+docker container run -v
+  -v ~/enki/local_path:/path/container mysql
 ```
 
 TEXT TO USE TO EXTRACT QUESTION:
