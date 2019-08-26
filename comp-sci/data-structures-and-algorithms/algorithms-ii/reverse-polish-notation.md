@@ -50,7 +50,7 @@ parent: trie-data-structure
 
 An advantage of Polish and Reverse-Polish notation is that it's easier to parse for a machine. RPN and PN don't need paranthesis to specify operator precedence.
 
-For example, consider the infix expression with 2 arbitrary operators `1 $ 2 # 3`. Now, we don't know what those operators mean, so there are two possible corresponding postfix expressions: `1 2 $ 3 #` and `1 2 3 $ #`. Without knowing the rules governing the use of these operators, the infix expression is essentially worthless. But with PN or RPN, computation of an expression is independent of their precedence order. This is one of the reasons why Lisp uses prefix notation in for expressions.
+For example, consider the infix expression with 2 arbitrary operators `1 $ 2 # 3`. Now, we don't know what those operators mean, so there are two possible corresponding postfix expressions: `1 2 $ 3 #` and `1 2 3 $ #`. Without knowing the rules governing the use of these operators, the infix expression is essentially worthless. But with PN or RPN, computation of an expression is independent of their precedence order. This is one of the reasons why Lisp uses prefix notation in expressions.
 
 ---
 ## Practice
