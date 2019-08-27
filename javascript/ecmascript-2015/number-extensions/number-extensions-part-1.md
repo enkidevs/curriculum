@@ -24,7 +24,7 @@ links:
 ---
 ## Content
 
-`Number` benefits from many new methods saving you from writing your own potentially error prone-implementation. Because of the increased number of methods available, this insight will explain the ones you are more likely to use.
+The `Number` class benefits from many new methods saving you from writing your own potentially error prone-implementation. Because of the increased number of methods available, this insight will explain the ones you are more likely to use.
 
 ### Number.isFinite
 
