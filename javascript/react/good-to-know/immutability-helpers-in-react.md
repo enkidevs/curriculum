@@ -30,7 +30,7 @@ aspects:
 ---
 ## Content
 
-When opting in for an immutable style of data management, a significant speedup can be achieved by easily implementing a fast `shouldComponentUpdate()` lifecycle method. To do this, you would need a method that aids with comparing *versions* of your component's `state`.
+When opting in for an immutable style of data management, a significant speedup can be achieved by implementing a `shouldComponentUpdate()` lifecycle method. To do this, you would need a method that aids with comparing *versions* of your component's `state`.
 
 Let's take a look at the following example of mutating data:
 
@@ -75,7 +75,7 @@ var newObj = update(obj, {
 //newObj = {a: 5, b: 6, c:7}
 ```
 
-Other worth mentioning intuitive commands are `{$unshift: array}` and `{$splice: array of arrays}`, but you can see all the available methods in the Resources section of this insight.
+Other commands worth mentioning are `{$unshift: array}` and `{$splice: array of arrays}`, but you can see all the available methods in the Resources section of this insight.
 
 ---
 ## Practice
