@@ -37,7 +37,7 @@ with the help of `toString` and `parseInt` functions.
 
 ### toString
 
-`<number>.toString(base)` operates on a number and converts it into a string in given base
+`<number>.toString(base)` operates on a number and converts it into a string in the given base.
 
 For example, converting a decimal number to hexadecimal, octal and binary looks something like this:
 ```javascript
@@ -47,7 +47,7 @@ number.toString(8) // "173"
 number.toString(2) // "1111011"
 ```
 
-Note that the type of returned valye is string
+Note that the type of returned value is a string.
 
 ```javascript
 let number = 123
@@ -58,7 +58,7 @@ typeof number.toString(16) // "string"
 
 `parseInt(<string>, <base>)` takes a string and it's base and converts it into a decimal number.
 
-For example, parsing a hexadecimal, octal and binary number in string form into a decimal
+For example, parsing a hexadecimal, octal and binary number in string form into a decimal:
 
 ```javascript
 parseInt("7b", 16) // 123
@@ -66,7 +66,7 @@ parseInt("173", 8) // 123
 parseInt("1111011", 2) // 123
 ```
 
-The type of returned value is `number`
+The type of returned value is `number`.
 
 ---
 ## Practice
