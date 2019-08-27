@@ -5,6 +5,10 @@ description: Create Databases and add entities to your databases
 insights:
   - create-a-database
   - create-a-table
+  - primary-key
+  - foreign-key
+  - check-constraint
+  - default-value
 
 exercises:
   - sql-practice-create-table
