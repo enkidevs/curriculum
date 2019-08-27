@@ -61,9 +61,7 @@ Number.isNaN(1); //false
 Number.isNaN(Number.NaN); //true
 ```
 
-It is worth noting the fact that `!Number.isNaN(<value>)` and `Number.parseFloat(<value>)` are not reliable ways of checking if a value is numerical or not. This is because `!Number.isNaN("")` evaluates to `true`, and while `Number.parseFloat("")` does evaluate to `NaN`, it fails on input like `"1.1.1"` and results in `1.1` as output.
-
-One reliable way to check if a given string is a valid number is:
+One reliable way[1] to check if a given string is a valid number is:
 
 ```js
 const isNum = num =>
@@ -110,3 +108,8 @@ Number.???(Number.NaN) // true
 * NaN
 * isNotNaN
  
+---
+## Footnotes
+
+[1: Checking if a value is numerical]
+It is worth noting the fact that `!Number.isNaN(<value>)` and `Number.parseFloat(<value>)` are not reliable ways of checking if a value is numerical or not. This is because `!Number.isNaN("")` evaluates to `true`, and while `Number.parseFloat("")` does evaluate to `NaN`, it fails on input like `"1.1.1"` and results in `1.1` as output.
