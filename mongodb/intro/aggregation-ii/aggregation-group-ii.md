@@ -31,9 +31,9 @@ db.pokemon.aggregate(
   [
     {
       $group:{
-        _id:"$type",
+        _id: "$type",
         averagePower: {
-            $avg:"$power"
+            $avg: "$power"
           }
       }
     }
@@ -60,9 +60,9 @@ db.pokemon.aggregate(
   [
     {
       $group:{
-        _id:"$type",
-        w:{$min:"$power"},
-        s:{$max:"$power"}
+        _id: "$type",
+        w: {$min:"$power"},
+        s: {$max:"$power"}
       }
     }
   ]
@@ -91,9 +91,9 @@ Sum:
 db.pokemon.aggregate(
   [
     {
-      $group:{
-        _id:null,
-        totalPower:{$sum:"$power"}
+      $group: {
+        _id: null,
+        totalPower: {$sum:"$power"}
       }
     }
   ]
@@ -101,16 +101,19 @@ db.pokemon.aggregate(
 ```
 Output:
 ```javascript
-{ "_id":null,"totalPower":878921 }
+{ 
+  "_id": null,
+  "totalPower": 878921
+ }
 ```
 Average:
 ```javascript
 db.pokemon.aggregate(
   [
     {
-      $group:{
-        _id:null,
-        averagePower:{$avg:"$power"}
+      $group: {
+        _id: null,
+        averagePower: {$avg:"$power"}
       }
     }
   ]
@@ -118,7 +121,10 @@ db.pokemon.aggregate(
 ```
 Output:
 ```javascript
-{ "_id":null, "averagePower":391.7016 }
+{ 
+  "_id": null, 
+  "averagePower": 391.7016
+ }
 ```
 Min and max:
 ```javascript
@@ -126,9 +132,9 @@ db.pokemon.aggregate(
   [
     {
       $group:{
-        _id:null,
-        youngest:{$min:"$age"},
-        oldest:{$max:"$age"}
+        _id: null,
+        youngest: {$min:"$age"},
+        oldest: {$max:"$age"}
       }
     }
   ]
@@ -136,7 +142,11 @@ db.pokemon.aggregate(
 ```
 Output:
 ```javascript
-{ "_id":null, "youngest":1, "oldest":89 }
+{ 
+  "_id": null, 
+  "youngest": 1, 
+  "oldest": 89
+}
 ```
 ---
 ## Practice
@@ -148,9 +158,9 @@ Group and calculate the average `age` of all pokémon within the `pokemon` colle
 db.???.???(
   [
     {
-      ???:{
-        ???:null,
-        ???:{???:"$age"}
+      ???: {
+        ???: null,
+        ???: {???:"$age"}
       }
     }
   ]
@@ -179,21 +189,21 @@ Let's say we have a collection named `games` with 1000 documents. Each game has 
 db.???.aggregate(
   [
     {
-      ???:{
-        ???:"$type",
+      ???: {
+        ???: "$type",
         low: {
-            ???:"$difficulty"
+            ???: "$difficulty"
           },
         max: {
-            ???:"$difficulty"
+            ???: "$difficulty"
           }
       }
     }
   ]
 )
-// {"_id":"Playstation","low":1,"max":10}
-// {"_id":"X-box","low":2.1,"max":9.4}
-// {"_id":"PC","low":0,"max":9.1}
+// {"_id": "Playstation","low": 1,"max": 10}
+// {"_id": "X-box","low": 2.1,"max": 9.4}
+// {"_id": "PC","low": 0,"max": 9.1}
 ```
 
 * `games`
