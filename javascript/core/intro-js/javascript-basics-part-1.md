@@ -52,10 +52,10 @@ When naming any function, property or variable, the first character must be a le
 After the first character, you are free to use numbers, letters, dollar signs or underscores.
 
 ```javascript
-var name = "Enki"; //valid
-var $taxRate = 8.25; //valid
-var _id = 23; //valid
-var 2Company = "Enki"; //not valid
+var name = "Enki"; // valid
+var $taxRate = 8.25; // valid
+var _id = 23; // valid
+var 2Company = "Enki"; // not valid
 ```
 
 ### Comments
@@ -71,7 +71,7 @@ As a single line comment:
 You can also add single line comments to the same line as other code:
 
 ```javascript
-var company="enki"; //define company
+var company="enki"; // define company
 ```
 
 Or if you have more text you can use a block comment:
