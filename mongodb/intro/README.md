@@ -16,7 +16,7 @@ sections:
 standards:
   shell:
     name: Use the MongoDB interactive JavaScript Shell
-    description: This standards deals with ways to connect to a MongoDB shell and the shells commands
+    description: This standard deals with ways to connect to a MongoDB shell and the shells commands
     objectives:
       0: Use the mongo command to start the shell
       1: Use either the quit() or exit command to leave the shell
