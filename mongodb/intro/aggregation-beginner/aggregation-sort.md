@@ -97,7 +97,7 @@ What is the `$sort` aggregation stage used for?
 
 ???
 
-Possible values for `$sort`?
+What are the possible values for `$sort`?
 
 ???
 
