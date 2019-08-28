@@ -35,7 +35,7 @@ standards:
     description: This standard deals with creating, finding, updating and deleting data from a specific collection
     objectives:
       0: Use the insert() method to create a new document or documents within an existing or new collection
-      1: Use the insertOne() method to add a single new documents within an existing or new collection
+      1: Use the insertOne() method to add a single new document within an existing or new collection
       2: Use the insertMany() method to add multiple new documents within an existing or new collection
       3: Use the find() method to find a specific document located within a collection
       4: Use the find() and limit method to list an exact number of documents within a collection
