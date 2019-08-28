@@ -65,7 +65,7 @@ Comments can be created in 2 ways in JavaScript.
 As a single line comment:
 
 ```js
-//I am a single line comment
+// I am a single line comment
 ```
 
 You can also add single line comments to the same line as other code:
