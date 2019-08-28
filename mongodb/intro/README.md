@@ -68,7 +68,7 @@ standards:
     name: Use field update operators to update documents in various ways
     description: This standard deals with learning to use various update operators to update documents
     objectives:
-        0: Use the $set operator to set a new value for a specified fiield
+        0: Use the $set operator to set a new value for a specified field
   comparison-operators:
     name: Use different comparison operators to perform better queries
     description: This standard deals with learning how to use various comparison operators to more efficiently perform queries
