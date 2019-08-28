@@ -76,7 +76,7 @@ standards:
         0: Use $gt to match values that are greater than the specified value.
         1: Use $gte to match values that are greater than or equal to the specified value.
         2: Use $lt to match values that are less than the specified value.
-        3: Use $lte to match values that less than or equal to the specified value.
+        3: Use $lte to match values that are less than or equal to the specified value.
         4: Use $in to match any value specified in an array.
         5: Use $ne to match values that are not equal to a specified value.
         6: Use $eq to match values that are equal to a specified value.
