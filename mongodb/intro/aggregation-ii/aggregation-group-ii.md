@@ -17,7 +17,6 @@ standards:
   javascript.aggregation-pipeline.8: 10
 
 links:
-  - '[link to official documentation](https://enki.com)'
 
 ---
 # Aggregation group 2
