@@ -40,9 +40,15 @@ p { color: green; }
 
 Loading only the **HTML** file gives the paragraph mentioned above.
 
+![html-only](https://img.enkipro.com/8a07eeb10ac4d27e9f903664784db9ec.png)
+
 Loading both files gives the paragraph mentioned above and colors it green.
 
+![html-and-css](https://img.enkipro.com/97facbb13c3f9533ff5df8a6cebb00f3.png)
+
 However, loading just the **CSS** file will only show the text `p { color: green; }`.
+
+![css-only](https://img.enkipro.com/07fa86950c8cbfb5363c32428ce5b116.png)
 
 **Note:** XHTML or XML can be used instead of **HTML** to produce the same result. The only difference between them is the syntax; some have looser syntax while other have stricter.
 
