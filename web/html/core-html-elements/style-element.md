@@ -39,7 +39,7 @@ Output:
 
 The above example, colors only that single paragraph element. 
 
-If we would like to color all paragraphs withing the whole HTML document, we would add the `style` element at the top of the document.
+If we would like to color all paragraphs within the whole HTML document, we would add the `style` element at the top of the document.
 However, if we add a style attribute within any `<p>` element, it would override our top level style element.
 
 Example 2:
@@ -83,7 +83,7 @@ The `style` element also has 4 attributes which are all optional and will be dis
 ---
 ## Practice
 
-Finish styling all paragraph elements within the document in the color `gray`:
+Finish styling all paragraph elements within the document to have text color as `gray`:
 
 ```
 ???
