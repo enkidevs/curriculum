@@ -41,7 +41,7 @@ Only the `_id` field is mandatory. Everything else is optional.
 Some accumulators:
 - `$avg` calculates an average of numerical values and returns the computed result.
 - `$mergeObjects` combines documents and returns the computed document for each group.
-- `$sum` calculates the sum of the input
+- `$sum` calculates the sum of the input.
 
 For instance, let's say we want to group all pokémon in the `pokemon` collection by their `type`. We can do so like this:
 ```javascript
