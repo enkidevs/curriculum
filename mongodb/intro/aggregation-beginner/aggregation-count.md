@@ -30,20 +30,20 @@ The `$count` aggregation stage is used to count the number of documents that ent
 Syntax:
 ```javascript
 {
-  $count: <string>
+  $count: "<string>"
 }
 ```
 
 The `<string>` is the name of the field where the output will be displayed. The string cannot start with a `$`, contain a `.` or be empty.
 
 ```javascript
-Ok:
+// Ok:
 {$count: "totalNumber"}
 {$count: "a"}
 {$count: "num"}
 {$count: "1"}
 
-Not ok:
+// Not ok:
 {$count: "$totalNumber"}
 {$count: ""}
 {$count: "total.Number"}
