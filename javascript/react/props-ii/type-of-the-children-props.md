@@ -31,30 +31,34 @@ When there is a single child, `this.props.children` will be the the single child
 
 The example shows both with and without an array allocation:
 
-```javascript
-var Wrapper = React.createClass({
-  componentDidMount: function() {
+```jsx
+class Wrapper extends React.Component {
+  componentDidMount() {
     console.log(
       Array.isArray(this.props.children)
     );
   }
-  render: function() {
-      return <div />;
+
+  render() {
+    return <div />;
   }
-});
+}
 
 // an array of components
 ReactDOM.render(
-  <Wrapper><span/><span/>
-         <span/></Wrapper>,
-  document.getElementById('foo')
+  <Wrapper>
+    <span />
+    <span />
+    <span />
+  </Wrapper>,
+  document.getElementById("foo")
 );
 // true
 
 // single child (no array allocation)
 ReactDOM.render(
   <Wrapper>hello</Wrapper>,
-  document.getElementById('foo2')
+  document.getElementById("foo2")
 );
 // false
 ```
@@ -65,36 +69,41 @@ ReactDOM.render(
 Consider the following react component:
 
 ```javascript
-var Enki = React.createClass({
-  componentDidMount: function {
-    console.log(this.props.children)
+class Enki extends React.Component {
+  componentDidMount() {
+    console.log(this.props.children);
   }
-  render: function() {
+  render() {
     return <div />;
   }
-})
+}
 ```
 
 What will the following output?
 
 ```javascript
 ReactDOM.render(
-  <Enki><p/><p/></Enki>,
+  <Enki>
+    <p />
+    <p />
+  </Enki>,
   aNode
 );
 // ???
 
 ReactDOM.render(
-  <Enki><p/></Enki>,
+  <Enki>
+    <p />
+  </Enki>,
   aSecondNode
 )
 // ???
 ```
 
-* `[<p/> <p/>]`
-* `<p/>`
-* `[ <p/>]`
-* `<p/>, <p/>`
+* `[<p />, <p />]`
+* `<p />`
+* `[<p />]`
+* `<p />, <p />`
 * null
 * undefined
 
