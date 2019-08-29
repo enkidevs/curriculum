@@ -25,6 +25,28 @@ docker container run \
   -v ~/enki/local_path:/path/container mysql
 ```
 
-TEXT TO USE TO EXTRACT QUESTION:
+---
+## Practice
 
-> Bind mounts have limited functionality compared to volumes. When you use a bind mount, a file or directory on the host machine is mounted into a container. The file or directory is referenced by its full or relative path on the host machine. By contrast, when you use a volume, a new directory is created within Docker’s storage directory on the host machine, and Docker manages that directory’s contents.
+A bind mount is ???.
+
+* a file or directory on the host machine directly mounted onto a file path within a container
+* a hard-drive on the host machine that is virtually mounted into a container
+* an IP address and a port bound from the host machine to the container
+* an ftp connection mounted onto a file path within a container
+
+---
+## Revision
+
+Create a bind-mount when launching a container from the local path `~/local/data` to the path `/data` within the container:
+
+```bash
+docker container run \
+  ??? ???:??? nginx
+```
+
+* -v
+* ~/local/data
+* /data
+* -b
+* --bind
