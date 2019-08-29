@@ -1,6 +1,6 @@
-name: Docker
+name: Fundamentals
 
-icon: https://img.enkipro.com/84d4c9f4d92d2003359d4608d30ba8cd.png
+description: Master Docker fundamentals and demystify containers
 
 core: true
 
@@ -12,5 +12,3 @@ sections:
   '1':
     - storage
     - networking
-
-description: Everything you wanted to know about how to containerize and deploy with Docker
