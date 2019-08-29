@@ -2,7 +2,7 @@ name: Meta Elements
 
 type: insights-list
 
-description: TODO
+description: What are meta elements and how to use them.
 
 section: 0
 
