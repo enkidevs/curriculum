@@ -40,37 +40,47 @@ The `createChainableChecker` should look like:
 
 ```jsx
 function createChainableChecker(validate) {
-  function checkType(isRequired, props,
-    propName, componentName) {
-    if(props[propName] == null) {
-      if(isRequired) {
+  function checkType(
+    isRequired,
+    props,
+    propName,
+    componentName
+  ) {
+    if (props[propName] == null) {
+      if (isRequired) {
         return new Error("missing prop");
       }
-    return null;
+      return null;
     } else {
-      return validate(props, propName,
-        componentName);
+      return validate(
+        props,
+        propName,
+        componentName
+      );
     }
   }
-  let chainedChecker = checkType.bind(null,
-    false);
-  chainedChecker.isRequired =
-    checkType.bind(null, true);
+  let chainedChecker = checkType.bind(
+    null,
+    false
+  );
+  chainedChecker.isRequired = checkType.bind(
+    null,
+    true
+  );
   return chainedChecker;
 }
-
 ```
 
 Now we can use it like:
 
 ```jsx
-text = lengthChecker.isRequired,
+text: lengthChecker.isRequired,
 ```
 
 ---
 ## Practice
 
-Consider you need to implement a custom `propTypes` validator. What should you code do if the validator is used like: `myValidator.isRequired`, but no prop is passed to it?
+Consider you need to implement a custom `propTypes` validator. What would your code do if the validator is used like: `myValidator.isRequired`, but no prop is passed to it?
 
 ???
 
@@ -82,7 +92,7 @@ Consider you need to implement a custom `propTypes` validator. What should you c
 ---
 ## Revision
 
-Is there a way to make a custom `propTypes` validator function implementing the `.isRquired` behavior of normal `propTypes` ?
+Is there a way to make a custom `propTypes` validator function implementing the `.isRequired` behavior of normal `propTypes` ?
 
 ???
 
@@ -97,13 +107,17 @@ Is there a way to make a custom `propTypes` validator function implementing the 
 [1:code]
 
 ```jsx
-function textLengthChecker(props, propName,
-  componentName) {
-  if(props[propName]){
+function textLengthChecker(
+  props,
+  propName,
+  componentName
+) {
+  if (props[propName]) {
     let text = props[propName];
-    if (typeof text === 'string') {
-      return text.length < 200 ? null :
-        new Error (propName + "too long");
+    if (typeof text === "string") {
+      return text.length < 200
+        ? null
+        : new Error(propName + "too long");
     }
   }
   //assume everything is ok

@@ -15,6 +15,11 @@ type: normal
 
 category: how to
 
+links:
+
+  - '[facebook.github.io](https://facebook.github.io/react/docs/typechecking-with-proptypes.html#react.proptypes){website}'
+  - '[prop-types library](https://www.npmjs.com/package/prop-types){website}'
+
 parent: default-values-for-props
 
 aspects:
@@ -27,57 +32,91 @@ aspects:
 ---
 ## Content
 
-In addition to standard *prop validations* for *JavaScript* primitives there are other types available through `React.PropTypes`.
+In addition to standard *prop validations* for *JavaScript* primitives there are other types available through `PropTypes`.
 
-Validate for anything that can be rendered (e.g. numbers, strings, elements or even an array containing these types):
+Validation for anything that can be rendered (e.g. numbers, strings, elements or even an array containing these types):
 
 ```jsx
-myNode: React.PropTypes.node,
+myNode: PropTypes.node,
 ```
+
 Validate for a React element:
+
 ```jsx
-myElem: React.PropTypes.element,
+myElem: PropTypes.element,
 ```
+
 Validate for an instance of a class (using `instanceof` operator):
+
 ```jsx
-myEnki: React.PropTypes.instanceof(Enki),
+myEnki: PropTypes.instanceOf(Enki),
 ```
 
 Validate for specific values treating it as an `enum`:
+
 ```jsx
-myEnum: React.PropTypes.oneOf(['a', 'b']),
+myEnum: PropTypes.oneOf(['a', 'b']),
 ```
+
 Validate for multiple types simultaneously:
+
 ```jsx
 myProp: React.PropTypes.oneOfType([
- React.PropTypes.string,
- React.PropTypes.instanceOf(Enki),
+  PropTypes.string,
+  PropTypes.instanceOf(Enki)
 ]),
+```
 
-```
 Validate for an array of a certain type:
+
 ```jsx
-myArray: React.PropTypes.arrayOf(
-  React.PropTypes.bool),
+myArray: PropTypes.arrayOf(
+  PropTypes.bool),
 ```
+
 Validate for an object with prop values of a certain type:
+
 ```jsx
-myObjOf: React.PropTypes.objectOf(
-  React.PropTypes.number),
+myObjOf: PropTypes.objectOf(
+  PropTypes.number),
+```
+
+Validate for an object taking on a particular shape:
+
+```jsx
+myObjWithShape: PropTypes.shape({
+  age: PropTypes.number,
+  name: PropTypes.string
+}),
+```
+
+Validate for an object with warnings on extra properties:
+
+```jsx
+myObjWithStrictShape: PropTypes.exact({
+  age: PropTypes.number,
+  name: PropTypes.string
+})
+```
+
+Validate for a value with any data type:
+
+```jsx
+myRequiredValue: PropTypes.any.isRequired
 ```
 
 ---
 ## Practice
 
 Validate if `myProp` is an instance of the `Enki` class:
+
 ```jsx
 function Test(props) {
-  return <p>Testing props..</p>;
+  return <p>Testing {myProp}</p>;
 }
 
 Test.propTypes = {
-  myProp = React.???
-              .???(???),
+  myProp: ???.???(???)
 };
 ```
 
@@ -94,14 +133,14 @@ Test.propTypes = {
 ## Revision
 
 Validate if `myProp` is an instance of the `Enki` class:
+
 ```jsx
 function Test(props) {
-  return <p>Testing props..</p>;
+  return <p>Testing {myProp}</p>;
 }
 
 Test.propTypes = {
-  myProp = React.???
-              .???(???),
+  myProp: ???.???(???)
 };
 ```
 
@@ -113,5 +152,3 @@ Test.propTypes = {
 * `PropType`
 * `propType`
 * `oneOf`
-
-

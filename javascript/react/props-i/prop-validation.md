@@ -18,6 +18,7 @@ category: best practice
 links:
 
   - '[facebook.github.io](https://facebook.github.io/react/docs/typechecking-with-proptypes.html#react.proptypes){website}'
+  - '[prop-types library](https://www.npmjs.com/package/prop-types){website}'
 
 parent: destructuring-arguments
 
@@ -35,26 +36,58 @@ aspects:
 
 This helps you in validating if the data (`props`) received in components is valid compared to what you expect. If not, warnings will be displayed in the *JavaScript* console.
 
-All validators are available through `React.PropTypes` and should be specified as part of your *React* component, on the property `propTypes`:
+To access the validators, you must first install the `prop-types` library which can be done using the NPM package manager:
+
+```shell
+$ npm install --save prop-types
+```
+
+Now, all validators are available through `PropTypes` and should be specified as part of your *React* component, on the property `propTypes`:
+
 ```jsx
-// class MyComponent extends ...
+import React from "react";
+import PropTypes from "prop-types";
+
+class MyComponent extends React.Component {
+  render() {
+    // ...
+  }
+}
 
 MyComponent.propTypes = {
-  myArray: React.PropTypes.array,
-  myBoolean: React.PropTypes.bool,
-  myFunction: React.PropTypes.func,
-  myNumber: React.PropTypes.number,
-  myObject: React.PropTypes.object,
-  myString: React.PropTypes.string,
+  myArray: PropTypes.array,
+  myBoolean: PropTypes.bool,
+  myFunction: PropTypes.func,
+  myNumber: PropTypes.number,
+  myObject: PropTypes.object,
+  myString: PropTypes.string,
+  mySymbol: PropTypes.symbol
 };
 ```
 
 The validations above state that the specified `props` should be **JS** primitives. By default, they are **optional** so no warnings are shown if they are not passed to the component.
 
- However, they can be required by appending `.isRequired` to the type:
-```
+However, they can be required by appending `.isRequired` to the type:
+
+```jsx
 MyComponent.propTypes = {
- myFunc: React.PropTypes.func.isRequired,
+  myFunc: PropTypes.func.isRequired
+};
+```
+
+Now, let's create a simple component and verify that the `name` prop is a string:
+
+```jsx
+class Welcome extends React.Component {
+  render() {
+    return (
+      <h1>Welcome {this.props.name}</h1>
+    );
+  }
+}
+
+Welcome.propTypes = {
+  name: PropTypes.string
 };
 ```
 
