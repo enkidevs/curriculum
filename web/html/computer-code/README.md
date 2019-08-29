@@ -2,7 +2,7 @@ name: Computer Code
 
 type: insights-list
 
-description: TODO
+description: Displaying code in your HTML website.
 
 section: 0
 
