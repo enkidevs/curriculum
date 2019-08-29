@@ -1,4 +1,4 @@
-name: images
+name: Images
 
 description: Docker container blueprints
 

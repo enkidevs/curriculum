@@ -1,4 +1,4 @@
-name: overview
+name: Overview
 
 description: What is Docker and why should we care?
 

@@ -1,6 +1,6 @@
 name: Docker
 
-description: Everything you wanted to know about how to containerize and deploy with Docker
+description: Everything you wanted to know about containerization and deploys with Docker
 
 color: 4FA1D0
 

@@ -1,6 +1,6 @@
-name: networking
+name: Networking
 
-description: How doe Docker services communicate with each other and the world?
+description: How do Docker services communicate with each other and the world?
 
 insights:
   - docker-networks

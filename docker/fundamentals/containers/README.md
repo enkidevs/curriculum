@@ -1,4 +1,4 @@
-name: containers
+name: Containers
 
 description: Docker's application packaging format
 
