@@ -64,12 +64,21 @@ docker run --name enki -p 8080:80 -it nginx
 ---
 ## Practice
 
-Docker containers allow us to package run our applications on any operating system.
+Run a container (from the `mongo` image) with the name `db` and expose the port `27017` to port `3000` on host machine:
 
-???
+```bash
+docker run -p ???:??? --name ??? -it ???
+```
 
-* true
-* false
+* 3000
+* 27017
+* db
+* mongo
+* mongodb
+* docker
+* container
+* 80
+* 8080
 
 ---
 ## Revision
