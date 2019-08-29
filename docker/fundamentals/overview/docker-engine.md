@@ -1,6 +1,6 @@
 ---
 author: nem035
-tags:
+aspects:
   - introduction
   - workout
 type: normal
