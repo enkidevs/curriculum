@@ -17,9 +17,7 @@ Docker containers can have DNS aliases which behave pretty similar to actual DNS
 
 Note: We can use the command `--network-alias` to create a network-scoped alias for a container.
 
-By sending requests to the alias instead of a particular container name, Docker will perform round-robin load balancing and redirect it to one of the instances.
-
-_Note_: [DNS Round Robin](https://en.wikipedia.org/wiki/Round-robin_DNS) basically means that we can have different hosts (ip addresses) with DNS aliases that respond to the same DNS name and then particular hosts are selected in a Round Robin fashion (for example, each host can get a specific time slice as the main ip behind the DNS name)
+By sending requests to the alias instead of a particular container name, Docker will perform round-robin[1] load balancing and redirect it to one of the instances.
 
 For Docker particularly, this is useful in production to get around the fact that container names are unique. For example, this allows us to install the same app twice (maybe `dev` and `test`) on the same docker server and we need to, in both of those, call something `search` in the DNS.
 
@@ -79,5 +77,12 @@ And here's the output on `centos`:
   "tagline" : "You Know, for Search"
 }
 ```
+
+---
+## Footnotes
+
+[1: Round Robin]
+[DNS Round Robin](https://en.wikipedia.org/wiki/Round-robin_DNS)
+is the name of an IP address picking strategy for domain names where a domain name maps to a list of IPs instead of just a single IP. When a request is made to www.example.com, a DNS server would pick an IP address from that list, in a round-about order. Among other things, this allows us to distribute load across different servers because on different connection attempts clients would receive services from different providers.
 
 
