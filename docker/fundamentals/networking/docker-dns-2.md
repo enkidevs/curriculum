@@ -40,7 +40,8 @@ docker run -d \
   --network-alias=ikne \
   elasticsearch:2
 
-# perform DNS lookup on the containers to see the aliases
+# perform DNS lookup on the containers
+# to see the aliases
 
 # from alpine
 docker container run \

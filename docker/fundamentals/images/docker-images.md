@@ -96,5 +96,4 @@ A Docker image can be modified.
 ---
 ## Footnotes
 
-[1: SHA]
-In cryptography, SHA (Secure Hash Algorithm) is a cryptographic hash function which takes an input and produces a hash value known as a message digest – typically rendered as a hexadecimal number.
+[1: SHA] In cryptography, SHA (Secure Hash Algorithm) is a cryptographic hash function which takes an input and produces a hash value known as a message digest, typically rendered as a hexadecimal number.

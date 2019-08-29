@@ -4,8 +4,8 @@ aspects:
   - introduction
 category: must-know
 links:
-- '[Virtualization](https://en.wikipedia.org/wiki/Virtualization){documentation}'
-- '[Reasons to start using a VM](https://www.makeuseof.com/tag/reasons-start-using-virtual-machine/){article}'
+  - '[Virtualization](https://en.wikipedia.org/wiki/Virtualization){documentation}'
+  - '[Reasons to start using a VM](https://www.makeuseof.com/tag/reasons-start-using-virtual-machine/){article}'
 ---
 
 # Virtualization

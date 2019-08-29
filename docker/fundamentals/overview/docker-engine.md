@@ -40,9 +40,9 @@ The Docker daemon and Docker CLI use ??? to communicate.
 ---
 ## Revision
 
-The two main parts of the Docker architecture are the ??? and the ???
+The two main parts of the Docker architecture are the ???
 
-* Docker CLI
-* Docker daemon
-* Docker Object
-* Docker container
+* CLI and daemon
+* daemon and container
+* Object and namespaces
+* Container and Hub

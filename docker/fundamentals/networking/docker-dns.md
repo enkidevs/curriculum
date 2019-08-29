@@ -82,5 +82,7 @@ Docker DNS relies on ??? to locate and identify containers.
 
 The suggested practice in Docker is for us to always create our own networks because the default `bridge` network doesn't have DNS.
 
+???
+
 * true
 * false

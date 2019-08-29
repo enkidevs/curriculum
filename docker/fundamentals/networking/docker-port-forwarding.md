@@ -11,6 +11,9 @@ links:
 
 # Port Forwarding
 
+---
+## Content
+
 By default, a container is not accessible to the outside world.
 
 To allow access we can tell Docker to expose a local container port to a port on the host machine.

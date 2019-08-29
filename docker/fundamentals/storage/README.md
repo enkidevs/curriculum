@@ -1,4 +1,4 @@
-name: overview
+name: storage
 
 description: Persisting data in the ephemeral world of containers
 

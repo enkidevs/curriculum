@@ -41,6 +41,8 @@ Let's now take a look at both options of persisting data in Docker containers.
 
 When a Docker container is destroyed, all of its data is still available.
 
+???
+
 * false
 * true
 
