@@ -7,6 +7,7 @@ type: normal
 category: must-know
 links:
 - '[What is Docker Engine?](https://docs.docker.com/engine/){documentation}'
+- '[Installing Docker](https://docs.docker.com/install/){documentation}'
 
 ---
 
