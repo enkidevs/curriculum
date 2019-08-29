@@ -22,8 +22,16 @@ The default tag is called `"latest"`. It is important to know that that is just 
 Only official images are allowed on Dockerhub without a user attached to the repo name. For example, the `nginx`[1] is the only official image for Nginx built by the Docker team and Nginx team. If we want to publish our own nginx image, we have to re-tag it with our username, i.e. `enki/nginx`, and then push.
 
 ```bash
+# pull the official nginx image from Dockerhub
+docker pull nginx
+
+# tag the image with our username
 docker image \
   tag nginx:latest enki/nginx:latest
+
+# push the newly tagged image
+# into our own DockerHub profile
+docker push enki/nginx:latest
 ```
 
 ---
