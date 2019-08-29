@@ -52,6 +52,7 @@ docker port mongo 27017
 0.0.0.0:27017
 ```
 
+---
 ## Practice
 
 If we instantiate a container from an image created with this Dockerfile:
@@ -77,6 +78,7 @@ Will the container be accessible via port `9090` on the host it's running on?
 * No
 * Yes
 
+---
 ## Revision
 
 List all port mappings for the container `enki`:
