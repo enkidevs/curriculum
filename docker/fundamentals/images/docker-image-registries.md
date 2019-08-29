@@ -50,6 +50,29 @@ Similarly, we can also add images to the registry by pushing them:
 docker push enki
 ```
 
+Alternatively, you can host your docker images on GCP, AWS, Azure, GitLab, JFrog or even on your own system.
+
+### Self-hosted registry
+
+You can use the `registry` image from DockerHub to self host a registry.
+
+```bash
+# Launch the registry on port 1234
+# We are pulling the version 2
+# of the `registry` image which is
+# the official DockerHub image for
+# creating your own registries
+docker run -d -p 1234:1234 \
+  --restart=always \
+  --name enki-registry registry:2
+
+# Copy ubuntu image from DockerHub
+# to your registry
+docker pull ubuntu:16.04
+docker tag ubuntu:16.04 localhost:1234/ubuntu
+docker push localhost:1234/ubuntu
+```
+
 ---
 ## Practice
 
