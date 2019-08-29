@@ -56,7 +56,7 @@ typeof number.toString(16) // "string"
 
 ### parseInt
 
-`parseInt(<string>, <base>)` takes a string and it's base and converts it into a decimal number.
+`parseInt(<string>, <base>)` takes a string and its base and converts it into a decimal number.
 
 For example, parsing a hexadecimal, octal and binary number in string form into a decimal:
 
@@ -66,7 +66,7 @@ parseInt("173", 8) // 123
 parseInt("1111011", 2) // 123
 ```
 
-The type of returned value is `number`.
+The type of returned value is `"number"`.
 
 ---
 ## Practice
