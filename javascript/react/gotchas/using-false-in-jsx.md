@@ -22,29 +22,40 @@ aspects:
 
 ---
 
-# Using `false` in **JSX**
+# Using `false` in JSX
 
 ---
 ## Content
 
-The usage of the `false` keyword in **JSX** and implicitly **React** is worth mentioning because of its volatile behaviour.
+The usage of the `false` keyword in **JSX** and implicitly **React** is worth mentioning because of its volatile behavior.
 
 First of all, `false` is widely used to specify that a **React** element has no child:
-```
-ReactDOM.render(<div>{false}</div>,
-                              myNode);
+
+```jsx
+ReactDOM.render(
+  <div>{false}</div>, 
+  myNode
+);
 ```
 
 Additional care must be taken when specifying the `id` of an element with the value `false` as it will be rendered as a string:
+
+```jsx
+ReactDOM.render(
+  <div id={false} />, 
+  myNode
+);
 ```
-ReactDOM.render(<div id={false} />, myNode);
-```
+
 This will be rendered as `id="false"`.
 
-This will also happen when `false` will be set as value for an `input` :
-```
-ReactDOM.render(<input value={false} />,
- myNode);
+This will also happen when `false` will be set as value for an `input`:
+
+```jsx
+ReactDOM.render(
+  <input value={false} />,
+  myNode
+);
 ```
 
 ---
@@ -53,7 +64,10 @@ ReactDOM.render(<input value={false} />,
 What does the following code snippet do? ???
 
 ```javascript
-ReactDOM.render(<div>{false}</div>, aNode);
+ReactDOM.render(
+  <div>{false}</div>, 
+  aNode
+);
 ```
 
 * Specifies that the React element has no child.
@@ -66,7 +80,10 @@ ReactDOM.render(<div>{false}</div>, aNode);
 How will the `id` in the following code snippet be rendered as?
 
 ```jsx
-ReactDOM.render(<div id={false} />, myNode);
+ReactDOM.render(
+  <div id={false} />, 
+  myNode
+);
 ```
 Result:
 ```

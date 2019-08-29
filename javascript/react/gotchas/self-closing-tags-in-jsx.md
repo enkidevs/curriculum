@@ -19,7 +19,7 @@ aspects:
 
 ---
 
-# Self-closing tags in **JSX**
+# Self-closing tags in JSX
 
 ---
 ## Content
@@ -45,7 +45,7 @@ Keep in mind that while `<div /> ` alone is a valid tag, `<div>` is not if it's 
 
 Which of the following tags is a self closing tag? ???
 
-```
+```jsx
 // Option A
 <div>
 </div>

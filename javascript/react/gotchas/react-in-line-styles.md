@@ -19,32 +19,34 @@ aspects:
   - deep
 
 ---
-# **React** in-line styles
+# React in-line styles
 
 ---
 ## Content
 
-In **React** in-line styling is not done by specifying a string, but by creating an object with the needed value for the style.
+In **React**, in-line styling is not done by specifying a string, but by creating an object with the needed value for the style.
 
 The object name represents the name of the style and should be written in *camelCase* format.
 
-Create the style object:
+Here is how you can create the style object:
 
-```javascript
+```jsx
 var divStyle = {
-  color : 'white',
-  WebkitTransition: 'all',
-  msTransition: 'all'
+  color: "white",
+  WebkitTransition: "all",
+  msTransition: "all"
 };
 ```
 
 All style keys are *camelCased* to provide consistency, yet vendor prefixes should begin with capital letters ( `ms` is the only exception).
 
-Apply the style:
+Now that you have your object, here is how to apply the style:
 
-```javascript
-ReactDOM.render(<div style={divStyle}>
-  Hello World!</div>, myNode);
+```jsx
+ReactDOM.render(
+  <div style={divStyle}>Hello World!</div>,
+  myNode
+);
 ```
 
 The style object can also be created from `state` or `props` of a component!
