@@ -32,15 +32,15 @@ This can be often used because a common type of **React** element is the one tha
 Having the following component:
 
 ```jsx
-var EnkiLink = React.createClass({
-  render: function() {
+class EnkiLink extends React.Component {
+  render() {
     return (
       <a {...this.props}>
         {this.props.children}
       </a>
     );
   }
-});
+}
 ```
 
 We can directly pass a *HTML attribute*:
@@ -52,8 +52,9 @@ ReactDOM.render(
   </EnkiLink>,
   document.getElementById('linkID')
 );
-
 ```
+
+This will render the text "Click here!" as a hyper-link which, when clicked, will open the "www.enki.com" webpage.
 
 Note how in the component definition we made use of `...this.props`.
 
@@ -77,13 +78,13 @@ How can you copy the contents of `this.props`, ideally for passing it down to ot
 How would you use the spread syntax to pass the current `props` to the following `<p/>` element?
 
 ```javascript
-var Sample = React.createClass({
-  render: function() {
-    return (
+class Sample extends React.Component{
+  render() {
+    return(
       <p ??? ??? ??? ??? />
-    )
+    );
   }
-})
+}
 ```
 
 * {

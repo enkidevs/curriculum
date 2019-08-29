@@ -29,63 +29,79 @@ aspects:
 
 ---
 
-# Shallow compare in **React**
+# Shallow compare in React
 
 ---
 ## Content
 
-A performance boost can be achieved with the helper function `shallowCompare` when used on a **React** component render function that is *"pure"*.
-
-The same functionality of `PureRenderMixin` can be achieved while using **ES6** classed with this helper function.
-
-Import `shallowCompare`:
-```javascript
-var shallowCompare = require(
-  'react-addons-shallow-compare');
-```
+A performance boost can be achieved by extending the `React.PureComponent` when creating your components.
 
 Use shallow compare:
-```javascript
-export class SampleComponent extends
-                        React.Component {
-shouldComponentUpdate(nextProps,nextState){
-  return shallowCompare(this,
-    nextProps,nextState);
-  }
-render() {
-  return <div className={
-    this.props.className}>foo</div>;
+```jsx
+class SampleComponent extends React.PureComponent {
+  render() {
+    return (
+      <div className={this.props.className}>
+        foo
+      </div>
+    );
   }
 }
 ```
 
-A shallow equality check is performed on the current `props` and `nextProps`, but also on `state` and `nextState` objects, returning `true` if the comparison fails (component should update) and `false` otherwise.
+Now, a shallow equality check is performed on the current `props` and `nextProps`, but also on `state` and `nextState` objects. If a change in either `props` or `state` is observed, the component will be re-rendered. It is important to know that `React.PureComponent` skips `prop` updates for the whole component subtree, meaning that `prop` changes will be ignored if a difference couldn't be found in the shallow comparison. On top of that, for scalar variables the values are compared, but for objects only the references are compared. If you have nested data, you should consider using a deep comparison.
 
+Another important aspect is that you should make sure all the child components are also `Pure`. If the children are regular components, then the entire component tree will re-render, but if the children are pure components then only the modified child will re-render.
+
+If you want to use functional components, the same performance boost can be achieved by wrapping the component in a call to `React.memo`. What this does is that React will skip rendering the component and re-use the last rendered result if there is no change in `prop`s or `state`. As it was the case with `PureComponent`s, only a shallow comparison is completed.
+
+```jsx
+const FnComp = React.memo(function FnComp(
+  props
+) {
+  // render using props
+});
+```
 ---
 ## Practice
 
-A ??? can be achieved with the helper function `shallowCompare` when used on a React component render function that is ???.
+Complete the following code to define a pure component:
 
+```jsx
+??? MyComp ??? React.??? {
+  render() {
+    // ...
+  }
+}
+```
 
-* performance boost
-* pure
-* successful check
-* clean
-* raw
-* successful render
+* class
+* extends
+* PureComponent
+* Component
+* Pure
+* React
+* function
+* export
 
 ---
 ## Revision
 
-Import `shallowCompare` into your React code:
+Complete the following code to define a pure component:
 
-```javascript
-var shallowCompare = require('???');
+```jsx
+??? MyComp ??? React.??? {
+  render() {
+    // ...
+  }
+}
 ```
 
-* `react-addons-shallow-compare`
-* `shallow-compare`
-* `s-compare`
-* `shallowcompare`
-
-
+* class
+* extends
+* PureComponent
+* Component
+* Pure
+* React
+* function
+* export
