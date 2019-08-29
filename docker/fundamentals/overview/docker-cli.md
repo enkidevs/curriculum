@@ -15,7 +15,7 @@ links:
 ---
 ## Content
 
-Docker comes with a command-line interface (CLI) that uses the Docker REST API to control or interact with the Docker daemon. This gives us a fine-grain control to manipulate containers, images, networks, services and other Docker Objects.
+Docker comes with a command-line interface (CLI) that uses the Docker REST API to control or interact with the Docker daemon[1]. This gives us a fine-grain control to manipulate containers, images, networks, services and other Docker Objects.
 
 Most Docker CLI commands have 3 parts.
 
@@ -102,3 +102,10 @@ To fetch the logs for a Docker container named `webserver`, we'd run:
 * `docker logs container webserver`
 * `docker show logs webserver`
 * `docker webserver container-logs`
+
+---
+## Footnotes
+
+[1: daemon]
+A daemon is a computer program that runs in the background (outside of direct user control) and performs a specified operation at predefined times or in response to certain events. They are usually used for performing automated, administrative tasks for the operating system or an application. For example, `syslogd` is the daemon that implements the system logging facility on Linux, and `sshd` is a daemon that serves incoming SSH connections.
+Traditionally, the process names of a daemon end with the letter d, to make the more distinguishable from other processes.
