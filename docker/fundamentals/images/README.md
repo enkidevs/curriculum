@@ -3,7 +3,7 @@ name: images
 description: Docker container blueprints
 
 insights:
-  - images
+  - docker-images
   - dockerfile
-  - image-tags
-  - image-registries
+  - docker-image-tags
+  - docker-image-registries

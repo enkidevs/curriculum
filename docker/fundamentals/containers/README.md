@@ -3,7 +3,7 @@ name: containers
 description: Docker's application packaging format
 
 insights:
-  - virtualization
-  - container-vs-vm
-  - containers
-  - container-philosophy
+  - hardware-virtualization
+  - docker-container-vs-vm
+  - docker-containers
+  - docker-container-philosophy
