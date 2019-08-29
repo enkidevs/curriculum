@@ -74,17 +74,23 @@ The type of returned value is `"number"`.
 Complete the following code snippet:
 ```javascript
 // convert 1423 to base 2
- console.log((1423).???(???));
+(1423).???(???)
+
 // convert "ad23e1" from base 16 to base 10
-console.log(???("ad23e1",???));
+???("ad23e1",???)
 ```
 
 * toString
 * 2
 * parseInt
 * 16
+* '10'
+* '2'
 * 10
-* ”base 10”
+* "base 10"
+* "base 16"
+* intToString
+* "two"
 
 ---
 ## Revision
@@ -92,10 +98,10 @@ console.log(???("ad23e1",???));
 Complete the following code snippet:
 ```javascript
 // convert 132 to base 16
-console.log((???).???(???));
+(???).???(???)
 
 // convert "ead2" from base 15 to base 2
-console.log(???("ef2",???));
+???("ead2",???).???(???);
 ```
 
 * 132
@@ -103,5 +109,11 @@ console.log(???("ef2",???));
 * 16
 * parseInt
 * 15
+* toString
+* 2
 * 10
+* toBase
+* toNumber
 * ”base 10”
+* ”base 15”
+* ”base 2”
