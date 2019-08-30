@@ -27,18 +27,19 @@ The `.findOneAndUpdate()` method can be used to search through a collection and 
 For instance, the bellow query searches for the first pokémon of `type: "Water"` and increases its `power` by `15`:
 ```javascript
 db.pokemon.findOneAndUpdate(
-   { "type" : "Water" },
+   { "type": "Water" },
    { $inc: { "power" : 15 } }
 )
 ```
 Output:
 ```javascript
 {
-	"_id" : 4,
-	"name" : "Squirtle",
-	"type" : "Water",
-	"power" : 233,
-	"spells" : [
+	"_id": 4,
+	"name": "Squirtle",
+	"type": "Water",
+	"power": 233,
+	"spells": 
+	[
 		"Poison",
 		"Growth",
 		"Solar-Beam"
@@ -51,7 +52,7 @@ Output:
 In the above example, we added 15 to the `power` field. This time let's decrease the `power` by 14:
 ```javascript
 db.pokemon.findOneAndUpdate(
-   { "type" : "Water" },
+   { "type": "Water" },
    { $inc: { "power" : -14 } },
    {returnNewDocument: true}
 )
@@ -59,11 +60,12 @@ db.pokemon.findOneAndUpdate(
 Output:
 ```javascript
 {
-	"_id" : 4,
-	"name" : "Squirtle",
-	"type" : "Water",
-	"power" : 234,
-	"spells" : [
+	"_id": 4,
+	"name": "Squirtle",
+	"type": "Water",
+	"power": 234,
+	"spells": 
+	[
 		"Poison",
 		"Growth",
 		"Solar-Beam"
@@ -80,12 +82,12 @@ For instance, let us say one of our documents was no longer viable and we wanted
 
 ```javascript
 db.pokemon.findOneAndReplace(
-   { "power" : { $eq : 350 } },
+   { "power": { $eq: 350 } },
    {
-	    "_id" : 101,
-		"name" : "Mewtoo",
-		"type" : "Unknown", 
-		"power" : 700
+	    "_id": 101,
+		"name": "Mewtoo",
+		"type": "Unknown", 
+		"power": 700
 	}
 )
 ```
@@ -93,11 +95,12 @@ db.pokemon.findOneAndReplace(
 Output:
 ```javascript
 { 
-	"_id" : 101, 
-	"name" : "Electrode", 
-	"type" : "Electric", 
-	"power" : 350, 
-	"spells" : [ 
+	"_id": 101, 
+	"name": "Electrode", 
+	"type": "Electric", 
+	"power": 350, 
+	"spells": 
+	[ 
 		"Seed Bomb", 
 		"Bite", 
 		"Hydro-Pump" 
@@ -109,12 +112,12 @@ Just like with the `.findOneAndUpdate()` method, if we don't add `returnNewDocum
 
 ```javascript
 db.pokemon.findOneAndReplace(
-   { "power" : { $eq : 350 } },
+   { "power": { $eq: 350 } },
    {
 	    "_id" : 101,
-		"name" : "Mewtoo",
-		"type" : "Unknown", 
-		"power" : 700
+		"name": "Mewtoo",
+		"type": "Unknown", 
+		"power": 700
 	},
 	{returnNewDocument: true}
 )
@@ -122,10 +125,10 @@ db.pokemon.findOneAndReplace(
 Output:
 ```javascript
  {
-	"_id" : 101,
-	"name" : "Mewtoo",
-	"type" : "Unknown", 
-	"power" : 700
+	"_id": 101,
+	"name": "Mewtoo",
+	"type": "Unknown", 
+	"power": 700
 }
 ```
 
@@ -136,8 +139,8 @@ Output:
 Find the first document within the `pokemon` collection with a `power` greater than `400` and decrease the `power` by `135`.
 ```javascript
 db.pokemon???(
-   { "power" : ???},
-   { ???: { "power" : -135 } },
+   { "power": ???},
+   { ???: { "power": -135 } },
 )
 ```
 
@@ -147,9 +150,9 @@ db.pokemon???(
    { "type": ???},
    {
 	    "_id" : 6,
-		"name" : "Charizard",
-		"type" : "Fire", 
-		"power" : 999
+		"name": "Charizard",
+		"type": "Fire", 
+		"power": 999
 	}
 )
 ```
@@ -160,7 +163,7 @@ Which command has to be added to our queries to display the updated/replaced doc
 * `$inc`
 * `.findOneAndReplace`
 * `"Water"`
-* `	{returnNewDocument: true}`
+* `{returnNewDocument: true}`
 * `{returnNew: true}`
 * `update`
 * `replace`
