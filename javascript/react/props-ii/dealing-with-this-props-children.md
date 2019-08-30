@@ -90,7 +90,7 @@ ReactDOM.render(
 If you wanted to return only the first 5 children, you could use:
 
 ```jsx
-class LimitChildren extends React.Component {
+class LimitChildren extends React.Component{
   render() {
     return React.Children.map(
       this.props.children,
