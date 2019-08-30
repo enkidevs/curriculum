@@ -12,7 +12,10 @@ type: normal
 category: must-know
 
 standards: 
-
+  javascript.crud.18: 10
+  javascript.crud.19: 10
+  javascript.update-operators: 10
+  
 links:
 
 ---
