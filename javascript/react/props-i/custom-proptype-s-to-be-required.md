@@ -63,7 +63,8 @@ function createChainableChecker(validate) {
     null,
     false
   );
-  chainedChecker.isRequired = checkType.bind(
+  chainedChecker.isRequired = checkType.bind
+  (
     null,
     true
   );
