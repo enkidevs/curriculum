@@ -40,7 +40,7 @@ Output:
 The above example, colors only that single paragraph element. 
 
 If we would like to color all paragraphs within the whole HTML document, we would add the `style` element at the top of the document.
-However, if we add a style attribute within any `<p>` element, it would override our top level style element.
+However, if we add a style attribute to any `<p>` element, it would override our top level style element.
 
 Example 2:
 ```
