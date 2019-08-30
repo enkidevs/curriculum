@@ -38,7 +38,7 @@ A performance boost can be achieved by extending the `React.PureComponent` when 
 
 Use shallow compare:
 ```jsx
-class SampleComponent extends React.PureComponent {
+class MyComp extends React.PureComponent {
   render() {
     return (
       <div className={this.props.className}>
