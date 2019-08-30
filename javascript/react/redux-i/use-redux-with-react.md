@@ -27,7 +27,7 @@ aspects:
 
 ---
 
-# Use **Redux** with **React**
+# Use Redux with React
 
 ---
 ## Content
@@ -39,6 +39,26 @@ React bindings are not provided by default in Redux, so `react-redux` must be in
 npm install --save react-redux
 ```
 The general paradigm is that only top level components (e.g. route handlers) should be aware of Redux.
+
+The first step in using Redux is making the `store` available to your app. This is done by wrapping the app with the `<Provider />` API, which is provided by React-Redux.
+
+```jsx
+import React from 'react';
+import ReactDOM from 'react-dom';
+
+import { Provider } from 'react-redux';
+import store from './redux/store';
+
+ReactDOM.render(
+  <Provider store={store}>
+    <MyApp />
+  </Provider>
+)
+```
+
+Note that you must also pass a `store` attribute to the `<Provider />` wrapper, which takes a value of `{store}`.
+
+
 
 To turn a presentational container into a component, the `connect` function must be imported:
 ```javascript
