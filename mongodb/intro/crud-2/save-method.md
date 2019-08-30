@@ -34,10 +34,10 @@ If we specify an existing `_id` field for the `.save()` method, it will work lik
 Let's say we have a document where some information is wrong:
 ```javascript
 {
-    "_id" : 3, 
-    "name" : "Chharmander", 
-    "type" : "Mud", 
-    "power" : 199
+    "_id": 3, 
+    "name": "Chharmander", 
+    "type": "Mud", 
+    "power": 199
 }
 ```
 To replace it with a new document with the corrected information, we can easily do so like this:
@@ -46,8 +46,8 @@ db.pokemon.save(
     { 
         "_id": 3, 
         "name": "Charmander",
-        "type" : "Flame",
-        "power" : 430, 
+        "type": "Flame",
+        "power": 430, 
     }
 )
 ```
@@ -63,19 +63,19 @@ WriteResult(
 ```
 
 The `nMatched: 1` means that the `.save()` method has matched a single document.
-The `nUpserted: 0` means that no documents was inserted into the collection.
-The `nModified: 1` means that a signle document was modified.
+The `nUpserted: 0` means that no documents were inserted into the collection.
+The `nModified: 1` means that a single document was modified.
 
 ### Adding a new document with an `_id` field
 
-To add a new document to an existing collection, we can either ad an `_id` field whose value doesn't match any document, like so:
+To add a new document to an existing collection, we can either add an `_id` field whose value doesn't match any document, like so:
 ```javascript
 db.pokemon.save(
     { 
         "_id": 777, 
         "name": "RandomPokemon",
-        "type" : "Adaptable",
-        "power" : 123321, 
+        "type": "Adaptable",
+        "power": 123321, 
     }
 )
 ```
@@ -83,10 +83,10 @@ Output:
 ```javascript
 WriteResult(
     { 
-    "nMatched" : 0, 
-    "nUpserted" : 1, 
-    "nModified" : 0, 
-    "_id" : 777 
+    "nMatched": 0, 
+    "nUpserted": 1, 
+    "nModified": 0, 
+    "_id": 777 
     }
 )
 ```
@@ -111,7 +111,7 @@ db.pokemon.save(
 WriteResult({ "nInserted" : 1 })
 ```
 
-How the documents looks:
+How the document looks:
 ```javascript
 { 
     "_id": ObjectId("5d68a9beb63e7f6619512670"),
