@@ -65,7 +65,7 @@ React.Children.toArray(children)
 Now, let's see how you can use these in your code. Let's start by creating a component that counts the total number of children:
 
 ```jsx
-class CountChildren extends React.Component {
+class CountChildren extends React.Component{
   render() {
     return (
       <p>
