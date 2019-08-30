@@ -34,7 +34,7 @@ aspects:
 
 In addition to standard *prop validations* for *JavaScript* primitives there are other types available through `PropTypes`.
 
-Validation for anything that can be rendered (e.g. numbers, strings, elements or even an array containing these types):
+Validate for anything that can be rendered (e.g. numbers, strings, elements or even an array containing these types):
 
 ```jsx
 myNode: PropTypes.node,
