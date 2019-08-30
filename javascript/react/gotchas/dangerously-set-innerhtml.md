@@ -42,7 +42,7 @@ dangerouslySetInnerHTML: {
 }
 ```
 
-The recommended way of using `dangerouslySetInnerHTML` when needed is by creating an object containing only the key `__html` and your *sanitized* data as the value.
+The recommended way of using `dangerouslySetInnerHTML` when needed is by creating an object containing only the key `__html` and your *sanitized*[1] data as the value.
 
 ```jsx
 function createMarkup() {
