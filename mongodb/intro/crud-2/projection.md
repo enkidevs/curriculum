@@ -67,7 +67,7 @@ Output:
 }
 ...
 ```
-Let's say we only wanted to display a partical field that matched our query. To do so, we need to use something called *projection*.
+Let's say we only wanted to display a particular field that matched our query. To do so, we need to use something called *projection*.
 
 *Projection* is used on a query to specify which fields will and which won't be displayed upon executing the query.
 The syntax is:
