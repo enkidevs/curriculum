@@ -33,7 +33,10 @@ aspects:
 `map` invokes a function on every immediate child within `children`, returning an array:
 
 ```jsx
-React.Children.map(children, function[(thisArg)])
+React.Children.map(
+  children, 
+  function[(thisArg)]
+)
 ```
 
 Keep in mind that if `children` is a nested object or an array it will be traversed and also that `function` will never be passed to the container objects.
@@ -41,25 +44,34 @@ Keep in mind that if `children` is a nested object or an array it will be traver
 `forEach` works like `map`, yet it does not return an array:
 
 ```jsx
-React.Children.forEach(children, function[(thisArg)])
+React.Children.forEach(
+  children, 
+  function[(thisArg)]
+)
 ```
 
 Return the total number of components in `children`:
 
 ```jsx
-React.Children.count(children)
+React.Children.count(
+  children
+)
 ```
 
 Return the only child in `children`:
 
 ```jsx
-React.Children.only(children)
+React.Children.only(
+  children
+)
 ```
 
 Manipulate collections of `children` by converting them into arrays:
 
 ```jsx
-React.Children.toArray(children)
+React.Children.toArray(
+  children
+)
 ```
 
 Now, let's see how you can use these in your code. Let's start by creating a component that counts the total number of children:
