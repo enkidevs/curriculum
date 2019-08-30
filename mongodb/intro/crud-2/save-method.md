@@ -12,7 +12,10 @@ type: normal
 category: must-know
 
 standards: 
-
+  javascript.crud.15: 10
+  javascript.crud.0: 10
+  javascript.crud.5: 10
+  
 links:
 
 ---
