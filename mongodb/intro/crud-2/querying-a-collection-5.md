@@ -46,9 +46,9 @@ Output:
 }
 ```
 
-**Note:** When executed, the query returns the original version of the document by default. To display the modified version of the document upon executing the query, you need to add `returnNewDocument : true`.
+**Note:** When executed, the query returns the original version of the document by default. To display the modified version of the document upon executing the query, you need to add `returnNewDocument: true`.
 
-In the above example, we added 15 to the `power` field. This time, lets decrease the `power` by 14:
+In the above example, we added 15 to the `power` field. This time let's decrease the `power` by 14:
 ```javascript
 db.pokemon.findOneAndUpdate(
    { "type" : "Water" },
@@ -74,9 +74,9 @@ Output:
 
 A similar method to `.findOneAndUpdate()` is the `.findOneAndReplace()` method. 
 
-Unlike the first method, which finds the first document and *updates* the content based on the specified criteria, the `.findOneAndReplace()` method  also finds the first document, but instead of *updating* it, it *replaces* it with a newly specified document.
+Unlike the first method, which finds the first document and *updates* the content based on the specified criteria, the `.findOneAndReplace()` method also finds the first document, but instead of *updating* it, it *replaces* it with a newly specified document.
 
-For instance, lets say one of our documents was no longer viable and we wanted to remove it and replace it with a new one, we can do so like this:
+For instance, let us say one of our documents was no longer viable and we wanted to remove it and replace it with a new one, we can do so like this:
 
 ```javascript
 db.pokemon.findOneAndReplace(
@@ -141,10 +141,10 @@ db.pokemon???(
 )
 ```
 
-Fill in the blanks bellow to find the first document with a `type` of `Water` and replace it with the document listed bellow:
+Fill in the blanks to find the first document with a `type` of `Water` and replace it with the document listed below:
 ```javascript
 db.pokemon???(
-   { "type" : ???},
+   { "type": ???},
    {
 	    "_id" : 6,
 		"name" : "Charizard",
