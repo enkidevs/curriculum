@@ -23,8 +23,7 @@ aspects:
 
 Selectors are used to compute derived data, thus making Redux store the minimal possible state. Reducers specify how the application's state changes in response to some actions.
 
-A good practice in Redux is to export your **selectors** with the related **reducers**.
-Doing so, views and action creators can be decoupled from the state shape tree.
+A good practice in Redux is to export your **selectors** with the related **reducers**. In doing so, views and action creators can be decoupled from the state shape tree.
 
 ```javascript
 function visibleIds(state = [], action){
