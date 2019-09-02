@@ -42,7 +42,7 @@ myData.a.b.push(13);
 
 Given the fact that **JavaScript** wasn't designed for dealing with immutable data, using one of the above methods does not provide a way of determining which data has changed since the previous copy. To help with this, **React** used to provide an immutability helper (has since become legacy) which is now replaced by the `immutability-helper` library.
 
-This library can be installed using the NPM package manager by using the following command:
+This new library can be installed using the NPM package manager by using the following command:
 
 ```shell
 $ npm install immutability-helper --save
