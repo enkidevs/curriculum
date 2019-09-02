@@ -31,7 +31,7 @@ aspects:
 ---
 ## Content
 
-As discussed before, **lifecycle methods** can be used to target a specific point in the *life* of a `component`.
+As discussed before, **lifecycle methods** can be used to target a specific point in the *life* of a component.
 
 We can split them into three broader categories by the *type of event* that will trigger them:
 
@@ -76,7 +76,7 @@ constructor(props) {
 ### 3. Un-mounting
 
 - `componentWillUnmount()` 
-  - is invoked immediately **before** a `component` is unmounted and destroyed
+  - is invoked immediately **before** a component is unmounted and destroyed
   - it is useful for resource cleanup
 
 ---
