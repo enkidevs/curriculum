@@ -55,12 +55,12 @@ standards:
       16: Use the save() method to either replace an existing document or add a new document to a collection
       17: Use the renameCollection() method to rename a collection
       18: Use the findOneAndUpdate() method to find the first document matching the specified criteria and update its content:
-      19: Use the findOneAndReplace() mehod to find the first document matching the specified criteria and replace it with a newly specified one
+      19: Use the findOneAndReplace() method to find the first document matching the specified criteria and replace it with a newly specified one
       20: Use the findOneAndModify()method to find the first document matching the specified criteria and modify it
       21: Use projection to include or exclude fields from the output of the query
       22: Use the Remove() method to delete the first document matching the specified criteria
       23: Use the findOneAndDelete() method to delete the first document matching the specified criteria
-      24: Use the Remove method to delte multiple or all documents matching the specified criteria
+      24: Use the Remove method to delete multiple or all documents matching the specified criteria
   aggregation-pipeline:
     name: Use a variety of aggregation operations to process data and return the result in a single document
     description: Use aggregation operations to process data in variety of ways to return a specific result
@@ -100,7 +100,7 @@ standards:
         0: Use the $and operator to join 2 or more clauses together with a logical AND, and return all documents that match all of the specified expressions
         1: Use the $or operator to join 2 or more clauses together with a logical OR, and return all documents that match at least one of the specified expressions
         2: Use the $nor operator to join 2 or more clauses together with a logical NOR,  and return only documents that don't match all of the specified expressions
-        3: Use the $not operator to invert the effect of the querry.
+        3: Use the $not operator to invert the effect of the query.
 next:
   - mongodb:intermediate
 
