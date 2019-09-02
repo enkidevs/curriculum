@@ -89,7 +89,7 @@ Complete the following code snippet:
 * 10
 * "base 10"
 * "base 16"
-* intToString
+* intoString
 * "two"
 
 ---
