@@ -35,7 +35,7 @@ aspects:
 
 Just like `props`, **React** components' `state` can change their behavior or how they render.
 
-You can think of `state` as a **private** data set only accessible from within the `component` via `this.state`.
+You can think of `state` as a **private** data set only accessible from within the component via `this.state`.
 
 Consider the component:
 

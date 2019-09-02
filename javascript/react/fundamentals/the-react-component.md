@@ -32,9 +32,9 @@ aspects:
 ---
 ## Content
 
-In **React** a `component` represents a fundamental *class* you can work with to build re-usable and independent `UI` blocks.
+In **React**, a component represents a fundamental *class* you can work with to build re-usable and independent `UI` blocks.
 
-These `component`s behave like simple functions, they can take input arguments called `props` and will return what should be *rendered*.
+These components behave like simple functions, they can take input arguments called `props` and will return what should be *rendered*.
 
 If you want to create a simple component, you can use a JavaScript function like this:
 
@@ -60,9 +60,9 @@ The differences between functional and class components will be discussed at the
 
 You can pass dynamic values to a component via `props` which will be discussed next. 
 
-`Component` names should start with a capital letter such that you can differentiate them from **DOM tags**.
+Component names should start with a capital letter such that you can differentiate them from **DOM tags**.
 
-You can use other components when `render`ing, and an `element` can represent your `component` as well:
+You can use other components when `render`ing, and a React element can represent your component as well:
 
 ```jsx
 class Enki extends React.Component {
@@ -82,7 +82,7 @@ ReactDOM.render(
   document.getElementById('root')
 );
 ```
-Because our `component` didn't use any input (`prop`) we didn't need to specify those values in the `element`.
+Because our component didn't use any input (`prop`) we didn't need to specify those values in the element.
 
 ---
 ## Practice

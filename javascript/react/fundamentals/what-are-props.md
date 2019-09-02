@@ -33,11 +33,11 @@ aspects:
 ---
 ## Content
 
-As discussed before, `component`s can take input in a similar way to a function, via `props`.
+As discussed before, components can take input in a similar way to a function, via `props`.
 
-`props` is a plain JS object accessible via `this.props`, its properties representing the arguments of a `component`.
+`props` is a plain JS object accessible via `this.props`, its properties representing the arguments of a component.
 
-An important aspect of the `props` object is that it is **immutable**. That means `props` can't and shouldn't be changed within a `component`, but only from its *parent*(s).
+An important aspect of the `props` object is that it is **immutable**. That means `props` can't and shouldn't be changed within a component, but only from its *parent*(s).
 
 Consider the component:
 ```jsx
@@ -55,14 +55,14 @@ class Greeting extends React.Component {
 
 Note that if the value of your `return` extends over multiple lines it must be enclosed in parenthesis.
 
-If we want to `render` it, the `element` must specify the value of `name` prop:
+If we want to `render` it, the element must specify the value of `name` prop:
 
 ```jsx
-const element = <Greeting
+const el = <Greeting
   name="John" />;
 ```
 
-Now, when `render`ed, `element` will display "Enki greets John".
+Now, when `render`ed, `el` will display "Enki greets John".
 
 You can also define **default props** in the following manner:
 
@@ -77,7 +77,7 @@ Greeting.defaultProps = {
 
 This allows us to create a `Greeting` element without specifying the `name`:
 ```jsx
-const element = <Greeting />;
+const el = <Greeting />;
 ```
 
 If we `render` it now (using `ReactDOM.render`), we will see "Enki greets User";
