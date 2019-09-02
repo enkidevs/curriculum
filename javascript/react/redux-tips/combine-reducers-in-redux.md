@@ -98,7 +98,11 @@ export default function counter(
       return state;
   }
 }
+```
 
+We can combine our `products` and `counter` reducers like so:
+
+```jsx
 // App.js
 import { combineReducers } from "redux";
 import products from "./Products";
