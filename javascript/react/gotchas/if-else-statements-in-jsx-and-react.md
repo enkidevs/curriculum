@@ -93,7 +93,7 @@ Can you use switch statements in JSX?
 ---
 ## Revision
 
-How would you write `if (condition) return 'x' else return 'y'` in JSX id assignment?
+How would you write `if (condition) return 'x' else return 'y'` using ternary expressions?
 
 ```jsx
 <div id=
