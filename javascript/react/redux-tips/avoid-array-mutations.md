@@ -17,6 +17,7 @@ category: best practice
 links:
 
   - '[egghead.io](https://egghead.io/lessons/javascript-redux-avoiding-array-mutations-with-concat-slice-and-spread){website}'
+  - '[immutability-helper](https://github.com/kolodny/immutability-helper){website}'
 
 aspects:
   - deep
@@ -28,35 +29,99 @@ aspects:
 ---
 ## Content
 
-There are different ways of creating a **pure** function needed in **Redux** for generating a new array of items.
+There are different ways of creating a **pure** function needed in **Redux** for generating a new array of items. These types of functions are necessary because Redux takes a given state, passes it to each `reducer`, and finally it expects a new object if there are any changes. If we mutate the old state in a `reducer`, both the old state and the new state point to the same object, resulting in Redux thinking that there has been no change.
 
 Using the `push()` standard method will alter the original object and should be avoided because it is not **pure**.
 
-Instead, if you want to append an element to the end of the array simply use the `concat()` method or the new spread operator (`...`) :
+The key when inserting or removing a new item is that the original in-memory reference is not modified. This can be achieved by creating a copy of the array, and safely mutating the copy:
 
-```javascript
-return myArray.concat([0]);
-//this will add a 0 to the end of the array
-return [...myArray, 0];
-//same result with spread operator
-```
-To remove an element from an array at a given index point, rather than using the mutating `splice()` method, a combination of `concat()` and  `slice()` (returning a new array between two indexes) can  be used:
-```javascript
-return myArray.slice(0,index)
-  .concat(myArray.slice(index+1));
-//will remove a given index from an array
-return [ ...myArray.slice(0,index),
-  ...myArray.slice(index+1)];
-//same result with spread operator
+```jsx
+function insertItem(array, action) {
+  let newArray = array.slice();
+  newArray.splice(
+    action.index,
+    0,
+    action.item
+  );
+  return newArray;
+}
+// this will add a 0 at the end of the array
 
+function insertItem(array) {
+  let newArray = array;
+  return newArray.concat([0]);
+}
+// same functionality
+
+function insertItem(array) {
+  let newArray = array;
+  return [...newArray, 0];
+}
+// same functionality
 ```
-Other operations should follow the same strategies described above.
+
+When removing items, you can use:
+
+```jsx
+function removeItem(array, action) {
+  let newArray = array.slice();
+  newArray.splice(action.index, 1);
+  return newArray;
+}
+
+// or
+
+function removeItem(array, action) {
+  return array.filter(
+    (item, index) => index !== action.index
+  );
+}
+
+// or
+
+function removeItem(array, action) {
+  return array
+    .slice(0, action.index)
+    .concat(array.slice(action.index + 1));
+}
+
+// or
+
+function removeItem(array, action) {
+  return [
+    ...array.slice(0, action.index),
+    ...array.slice(action.index + 1)
+  ];
+}
+```
+
+Updating an item in an array is done by using the `Array.map` method together with the spread (`...`) operator:
+
+```jsx
+function updateItemInArray(array, action) {
+  return array.map((item, index) => {
+    if (index !== action.index) {
+      return item;
+      // this isn't the item we want
+      // return it un-modified
+    }
+
+    return {
+      ...item,
+      ...action.item
+    };
+  });
+}
+```
+
+The last option is to use an immutability helper, like the `immutability-helper` library that was explained in a previous workout.
 
 ---
 ## Practice
 
 Append `enki` to `myArray` using the spread operator in a **pure** fashion:
-```
+
+```jsx
 return [???myArray, ???];
 ```
 
@@ -71,6 +136,7 @@ return [???myArray, ???];
 ## Revision
 
 Append `enki` to `myArray` using the spread operator in a **pure** fashion:
+
 ```
 return [???myArray, ???];
 ```

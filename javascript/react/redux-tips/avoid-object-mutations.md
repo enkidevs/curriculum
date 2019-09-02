@@ -30,15 +30,35 @@ aspects:
 
 A **pure** function that returns a new object with the needed modifications can easily be implemented in **Redux**. However, if other properties are added later on to the object, you might need to update several pieces of your code.
 
-To avoid this, the `Object.assign()` method introduced in **ES6** can be used because it returns a new object with all enumerable properties of the *source* object:
+To avoid this, the `Object.assign()` method (introduced in **ES6**) can be used because it returns a new object with all enumerable properties of the *source* object:
+
+```jsx
+const target = { a: 1, b: 2 };
+const source = { b: 3, c: 4 };
+
+const returnedTarget = Object.assign(
+  target,
+  source
+);
+
+console.log(target);
+// { a: 1, b: 3, c: 4 }
+
+console.log(returnedTarget);
+// { a: 1, b: 3, c: 4 }
+```
+
+This method is used to create a new object by copying the properties from the source object to the target object. This is useful for Redux as the method returns a new object, which keeps in line with creating **pure** functions. When used inside `reducers`, the target object is the one whose properties are going to be assigned. Because we want to keep our function **pure** we will pass an empty object `{ }`. The source object contains the properties that are going to be copied, and we can even add new properties:
+
 ```javascript
 return Object.assign({}, myObj, {
   myProperty: newValue
 });
 ```
-The first argument of this function, `{ }`, is the one whose properties are going to be assigned. As we want to keep our function **pure** we pass an empty `Object`. The others represent objects whose properties are going to be copied. If there are two objects that have different values for the same property, the last one wins.
+Note that if there are two objects that have different values for the same property, the last one wins.
 
-Another approach to this problem is to use the new **spread operator**(`...`) available in **Babel** stage two preset:
+Another approach to this problem is to use the new **spread operator**(`...`):
+
 ```javascript
 return {
   ...myObj,
@@ -48,8 +68,9 @@ return {
 ---
 ## Practice
 
-What **ES6** method can be used to create a new object, but with additional properties in a **pure** fashion:
-```
+What method can be used to create a new object, but with additional properties in a **pure** fashion:
+
+```jsx
 return ???.???({}, myObj, {
   myProperty: newValue
 });
@@ -66,8 +87,9 @@ return ???.???({}, myObj, {
 ---
 ## Revision
 
-What **ES6** method can be used to create a new object, but with additional properties in a **pure** fashion:
-```
+What method can be used to create a new object, but with additional properties in a **pure** fashion:
+
+```jsx
 return ???.???({}, myObj, {
   myProperty: newValue
 });
