@@ -14,7 +14,6 @@ category: must-know
 standards: 
   javascript.crud.22: 10
   javascript.crud.23: 10
-  javascript.crud.23: 10
 
 links:
 

@@ -36,7 +36,7 @@ Notable properties:
 - Support for multi-document `ACID` transactions
 
 ---
-# Practice
+## Practice
 
 Documents in a MongoDB collection always have to have the same structure.
 
