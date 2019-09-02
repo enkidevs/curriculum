@@ -60,7 +60,7 @@ new Date() returns the date the PC is currently set to. This will evaluate to tr
 
 Infinity
 %exp
-The way EcmaScript's logic OR casts arguments to booleans is by using `toBoolean` function. It evaluates to false `-0`, `+0` and `NaN`, otherwise the result is true. This means infinity is evaluated to true.
+The way ECMAScript's logic OR casts arguments to booleans is by using `toBoolean` function. It evaluates to false `-0`, `+0` and `NaN`, otherwise the result is true. This means infinity is evaluated to true.
 %
 
 {}

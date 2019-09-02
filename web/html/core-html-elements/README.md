@@ -2,7 +2,7 @@ name: Core HTML Elements
 
 type: insights-list
 
-description: TODO
+description: Learn about some of the widely used HTML elements.
 
 section: 0
 
