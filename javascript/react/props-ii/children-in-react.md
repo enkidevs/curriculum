@@ -43,7 +43,7 @@ It can be used to access the `children` of any parent component from within it.
 <Wrapper>
   <A />
   <B />
-</Wrapper>;
+</Wrapper>
 
 // <A /> and <B /> are the children of
 // <Wrapper>
