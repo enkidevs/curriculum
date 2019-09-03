@@ -34,7 +34,7 @@ aspects:
 
 **Conditional rendering** is the long-standing technique of `render`ing different `element`s for different scenarios.
 
-Exploiting the power of pure JS, **React** allows conditional rendering with simple `if`s or *ternary operators*[1].
+Exploiting the power of pure JS, **React** allows conditional rendering with `if` statements or *ternary operators*[1].
 
 Consider the following two functional components:
 ```jsx
