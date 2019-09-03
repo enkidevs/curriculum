@@ -67,7 +67,7 @@ Output:
 { "_id": "Water" }
 ```
 
-**Note:** As you can notice in the example above, when adding the name of the field you want grouped by you have to add a `$` before the name. This the normal syntax for this aggregation stage.
+**Note:** As you can notice in the example above, when adding the name of the field you want grouped by you have to add a `$` before the name. This is the normal syntax for this aggregation stage.
 
 Now we know which `type`s of pokémon we have, however, we don't know how many documents each type has. We can easily count it by adding a comma after the `_id : "$type"` and adding `count: { $sum: 1 }`.
 
