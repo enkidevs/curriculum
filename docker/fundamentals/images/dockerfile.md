@@ -113,7 +113,7 @@ A Dockerfile must start with a `FROM` instruction which initializes a new build 
 
 A Dockerfile must contain at least the `CMD` or the `ENTRYPOINT` instruction to indicate the start command for an image.
 
-The `RUN` instruction executes the commands in a new layer on top of the current image. Each successive `RUN` instruction builds a new image layer on top of the previous.
+The `RUN` instruction executes the commands in a new layer on top of the current image. Each successive `RUN` instruction builds a new image layer on top of the previous one.
 
 Each Dockerfile instruction result gets cached.
 
