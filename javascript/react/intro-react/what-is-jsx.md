@@ -64,7 +64,7 @@ const el = {
 };
 ```
 
-From here, you can embed JS expressions within **JSX** by wrapping them with `{ }` curly brackets:
+**JSX**  allows you to embed JS expressions within it wrapping them with `{ }` curly brackets:
 
 ```jsx
 const x = "Hey there!";
@@ -74,7 +74,7 @@ const el = <h2>{x}</h2>;
 
 When rendered, this element will display `"Hey there"` as an `h2`.
 
-**JSX** expressions can be used everywhere in JS. You can:
+Because we are using Babel to transform our entire React application, you can us **JSX** expressions anywhere. For example, you can:
 - `return` them
 - use them in `for` loops
 - use them in `if` statements
