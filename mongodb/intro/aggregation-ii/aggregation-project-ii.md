@@ -32,19 +32,19 @@ In the array there are 3 fields; `Basic`, `Strong` and `Ultimate`. We can use th
 Example document:
 ```javascript
 {
-  _id: 138,
-  name: "Omanyte",
-  type: "Rock",
-  power: 303,
-  ability: [
+  "_id": 138,
+  "name": "Omanyte",
+  "type": "Rock",
+  "power": 303,
+  "ability": [
     {
-      Basic: "Seed Bomb"
+      "Basic": "Seed Bomb"
     },
     {
-      Strong: "Bite"
+      "Strong": "Bite"
     },
     {
-      Ultimate: "Hydro-Pump"
+      "Ultimate": "Hydro-Pump"
     }
   ]
 }
@@ -63,11 +63,11 @@ db.pokemon.aggregate([
 Output:
 ```javascript
 {
-  name: "Omanyte",
-  type: "Rock",
-  ability: [
+  "name": "Omanyte",
+  "type": "Rock",
+  "ability": [
     {
-      Ultimate: "Hydro-Pump"
+      "Ultimate": "Hydro-Pump"
     }
   ]
 }
@@ -78,13 +78,13 @@ Furthermore, we can use the `$project` stage to add a new array field to a docum
 Document:
 ```javascript
 {
-  _id: 3,
-  name: "Charmander",
-  ability1: "Throw",
-  ability2: "Grab",
-  ability3: "Stab",
-  ability4: "Claw",
-  ability5: "Shock"
+  "_id": 3,
+  "name": "Charmander",
+  "ability1": "Throw",
+  "ability2": "Grab",
+  "ability3": "Stab",
+  "ability4": "Claw",
+  "ability5": "Shock"
 }
 ```
 ```javascript
@@ -105,9 +105,9 @@ db.pokemon.aggregate([
 Output:
 ```javascript
 {
-  _id: 3,
-  name: "Charmander",
-  abilities: [
+  "_id": 3,
+  "name": "Charmander",
+  "abilities": [
     "Throw",
     "Grab",
     "Stab",
@@ -119,28 +119,31 @@ Output:
 ---
 ## Practice
 
-Let's say we have a `pokemon` collection where each pokémon has a `name`, `_id`, `type`, `power` and an `abilities` array field. Aggregate the collection, exclude the `_id` field and only include the `power` and `type` fields, as well as the `Ultimate` ability.
+Let's say we have a `pokemon` collection where each pokémon has a `name`, `_id`, `type`, `power` and an `abilities` array field:
 
 ```javascript
-// sample document
 {
-  _id: 12,
-  name: "Charizard",
-  type: "Flame",
-  power: 651,
-  abilities: [
+  "_id": 12,
+  "name": "Charizard",
+  "type": "Flame",
+  "power": 651,
+  "abilities": [
     {
-      Basic: "Fire Breath"
+      "Basic": "Fire Breath"
     },
     {
-      Strong: "Bite"
+      "Strong": "Bite"
     },
     {
-      Ultimate: "Napalm"
+      "Ultimate": "Napalm"
     }
   ]
 }
-// fill in the query
+```
+
+Aggregate the collection, exclude the `_id` field and only include the `power` and `type` fields, as well as the `Ultimate` ability.
+
+```js
 db.pokemon.???([
   {
     ???: {
