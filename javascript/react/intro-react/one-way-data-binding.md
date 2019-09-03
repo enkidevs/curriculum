@@ -27,7 +27,7 @@ aspects:
 ---
 ## Content
 
-**React** encourages **unidirectional data flow** by design, making it the canonical example of this approach nowadays. Along with two-way data binding, these approaches describe the way your application keeps the `view` in sync with the data `model`.
+**React** encourages **unidirectional data flow** by design and lets you describe the way your application keeps the `view` in sync with the data `model` using an HTML-like language called JSX.
 
 In two-way data binding, the `model` is dynamically bound to the `view` such that one can change the other and vice-versa.
 
