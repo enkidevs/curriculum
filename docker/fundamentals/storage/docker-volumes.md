@@ -39,7 +39,7 @@ docker run --mount \
 
 When creating a volume with `docker run`, if the volume at that path (or with that name) doesn't exist, docker will create one for use. If it does exist, docker will use the existing volume without creating a new one.
 
-If you mount an empty volume into a directory in the container in which files or directories already exist, these files or directories are copied into the volume.
+If you mount an empty volume into a container's directory in which files or directories already exist, these files or directories are copied into the volume.
 
 If you mount a non-empty volume at the same place, the contents will be obscured by the volume and won't be available as long as the volume is mounted. It's important to note that the obscured files are not removed or altered, just inaccessible while the volume is mounted.
 
