@@ -32,106 +32,98 @@ Now, we are going to discuss how to find a range between two values using a comb
 
 The `$and` logical operator is used to join 2 or more expressions together to query data more precisely. When we query with the `$and` operator, no matter the number of expressions located inside, all expressions have to evaluate to true.
 
-Let's say we want to find all the pokémon whos `power` ranges between 250 and 350, we would need to use 2 or more of the above operators together with the `$and` operator to achieve so. If we would use them without `$and`, it would not give a range between the two values, but rather all values lower than and greater than the specified ones.
+Let's say we want to find all the pokémon whose `power` ranges between 250 and 350, we would need to use 2 or more of the above operators together with the `$and` operator to achieve this. If we would use them without `$and` it would not give a range between the two values, but rather all values lower than and greater than the specified ones.
 
 Example without `$and`:
 ```javascript
-db.pokemon.find(
-{
-    power:{$gt:250},
-    power:{$lt:450}
+db.pokemon.find({
+  power: { $gt: 250 },
+  power: { $lt: 450 }
 })
 ```
 Output:
 ```javascript
 {
-    "_id" : 1,
-    "name" : "Pikachu",
-    "type" : "Electric",
-    "power" : 231
+  "_id": 1,
+  "name": "Pikachu",
+  "type": "Electric",
+  "power": 231
 }
 {
-    "_id" : 2,
-    "name" : "Bulbasaur",
-    "type" : "Grass",
-    "power" : 311
+  "_id": 2,
+  "name": "Bulbasaur",
+  "type": "Grass",
+  "power": 311
 }
 {
-    "_id" : 3,
-    "name" : "Charmander",
-    "type" : "Flame",
-    "power" : 199
+  "_id": 3,
+  "name": "Charmander",
+  "type": "Flame",
+  "power": 199
 }
 {
-    "_id" : 150,
-    "name" : "Mewtoo",
-    "type" : "Psychic",
-    "power" : 800
+  "_id": 150,
+  "name": "Mewtoo",
+  "type": "Psychic",
+  "power": 800
 }
-...
+// ...
 ```
-In the example above, the document with `"_id":1` doesn't satisfy the first expression, but it does satisfy the second, therefore it gets displayed.
+In the example above, the document with `"_id": 1` doesn't satisfy the first expression, but it does satisfy the second, therefore it gets displayed.
 
-On the other hand, the query with the `$and` operator below:
+On the other hand, this query that uses the `$and` operator:
 ```javascript
-db.pokemon.find(
-    {$and:
-        [
-        {power: {$gt: 250}},
-        {power:{$lt:350}}
-        ]
-    }
-)
+db.pokemon.find({
+  $and: [
+    { power: { $gt: 250 } },
+    { power: { $lt: 350 } }
+  ]
+})
 ```
-would only display pokémon(documents) within the specified range.
+Would only display pokémon(documents) within the specified range.
 
 Output of the above example:
 ```javascript
 {
-    "_id" : 2,
-    "name" : "Bulbasaur",
-    "type" : "Grass",
-    "power" : 311
+  "_id": 2,
+  "name": "Bulbasaur",
+  "type": "Grass",
+  "power": 311
 }
 {
-    "_id" : 7,
-    "name" : "Ivisaur:",
-    "type" : "Grass",
-    "power" : 335
+  "_id": 7,
+  "name": "Ivysaur:",
+  "type": "Grass",
+  "power": 335
 }
 {
-    "_id" : 73,
-    "name" : "Tentacruel",
-    "type" : "Water",
-    "secondType" : "Poison",
-    "power" : 333
+  "_id": 73,
+  "name": "Tentacruel",
+  "type": "Water",
+  "secondType": "Poison",
+  "power": 333
 }
-...
+// ...
 ```
 
-**Note**: The order of the operators does not matter(`$lt`, `$lte`, `$gt` and `$gte`). This means the two examples below would give the exact same output.
+**Note**: The order of the operators does not matter (`$lt`, `$lte`, `$gt` and `$gte`). This means the two examples below would give the exact same output.
 
-Example 1:
 ```javascript
-db.pokemon.find(
-    {$and:
-        [
-        {power: {$gte: 250}},
-        {power: {$lte:350}}
-        ]
-    }
-)
-```
-Example 2:
-```javascript
-db.pokemon.find(
-    {$and:
-        [
-        {power: {$lte:350}},
-        {power: {$gte: 250}}
-        ]
-    }
-)
+// Example 1:
+db.pokemon.find({
+  $and: [
+    { power: { $gte: 250 } },
+    { power: { $lte: 350 } }
+  ]
+})
+
+// Example 2:
+db.pokemon.find({
+  $and: [
+    { power: { $lte: 350 } },
+    { power: { $gte: 250 } }
+  ]
+})
 ```
 
 ---
@@ -152,17 +144,15 @@ Finish the sentence:
 Create a query to find all documents within the `pokemon` collection whose `age` falls in the range 23-31, including the bounds.
 
 ```javascript
-db.pokemon???(
-    {???:
-        [
-        {age: {???: 23}},
-        {???:{???: 31}}
-        ]
-    }
-)
+db.pokemon.???({
+  ???: [
+    { age: { ???: 23 } },
+    { ???: { ???: 31 } }
+  ]
+})
 ```
 
-* `.find`
+* `find`
 * `$and`
 * `$gte`
 * `age`
@@ -170,3 +160,4 @@ db.pokemon???(
 * `$lt`
 * `$gt`
 * `%and`
+* `aggregate`
