@@ -32,60 +32,58 @@ Syntax:
 ```javascript
 {
   $sort:
-  { <field1>: <sort order>,
-    <field2>: <sort order>
-    ...
+  { field1: sort order,
+    field2: sort order
+    // ...
   }
 }
 ```
 The `field` is the field you want the documents to be sorted by.
-The `<sort order>` is the order of the documents.
+The `sort order` is the order of the documents.
 
-Possible values for <sort order> are:
+Possible values for `sort order` are:
 - `1` for ascending order.
 - `-1` for descending order.
 
-For instance, the
+For instance, this command:
 ```javascript
-db.pokemon.aggregate(
-    { $sort : {name:1}}
-)
+db.pokemon.aggregate({
+  $sort: { name: 1 }
+})
 ```
-would sort all pokémon by name in ascending order. Whereas the
+Would sort all pokémon by name in ascending order. On the other hand, this command:
 ```javascript
-db.pokemon.aggregate(
-    { $sort : {age:-1}}
-)
+db.pokemon.aggregate({
+  $sort: { age: -1 }
+})
 ```
-Would sort them by age in decending order.
+Would sort them by age in descending order.
 
-The `$sort` pipeline stage can also be used with `skip`, `$limit`,and/or `$match` stages. We can also use it with `$count` but there is no purpose since the result is counted and outputted as a number.
+The `$sort` pipeline stage can also be used with `skip`, `$limit`,and/or `$match` stages. We can also use it with `$count`, but there is no purpose since the result is counted and outputted as a number.
 
 ```javascript
-db.pokemon.aggregate(
-  [
-    { $skip : 130 },
-    { $limit : 22 },
-    { $sort : {power:-1}},
-    { $match: {power:{$gt: 400}}}
-  ]
-)
+db.pokemon.aggregate([
+  { $skip: 130 },
+  { $limit: 22 },
+  { $sort: { power: -1 } },
+  { $match: { power: { $gt: 400 } } }
+])
 ```
 
 Output:
 ```javascript
 {
-    "_id" : 150,
-    "name" : "Mewtwo",
-    "type" : "Psychic",
-    "power" : 800
+  "_id": 150,
+  "name": "Mewtwo",
+  "type": "Psychic",
+  "power": 800
 }
 {
-    "_id" : 146,
-    "name" : "Moltres",
-    "type" : "Fire",
-    "secondType" : "Flying",
-    "power" : 404
+  "_id" : 146,
+  "name": "Moltres",
+  "type": "Fire",
+  "secondType": "Flying",
+  "power": 404
 }
 ```
 In the above example, we skipped the first `130` documents and limited the aggregation to `22` documents after that one. Next, we sorted the documents by `power` in descending order and set to match only those that have a `power` level greater than 400.
