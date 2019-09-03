@@ -29,7 +29,7 @@ To make them space-efficient, images are designed to be composed of layers of ot
 
 Every image starts with a blank layers known as scratch. Any change that happens after creates a new image layer.
 
-It's important to note that image layers are cached and can be reused between various images, allowing for storage savings.
+It's important to note that image layers are cached and can be reused between various images, saving storage.
 
 This is indicated by the `"Layer already exists"` message in the console output when pushing or pulling the image from a registry:
 
