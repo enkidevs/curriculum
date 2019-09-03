@@ -23,9 +23,7 @@ links:
 ---
 ## Content
 
-Before creating or accessing a database in MongoDB, you should first start the MongoDB shell. The MongoDB shell is an interactive JavaScript shell.
-
-To start it, you need to use the `mongo` command.
+Before creating or accessing a database in MongoDB, you should first start the MongoDB shell. The MongoDB shell is an interactive JavaScript shell. To start it, you need to use the `mongo` command.
 
 ```shell
 mongo
@@ -59,13 +57,13 @@ You can use the `help()` function to list all the available commands for a parti
 db.help()
 ```
 
-or a particular collection:
+Or for a particular collection:
 
 ```javascript
 db.mycollection.help()
 ```
 
-or a particular collection operation:
+Or for a particular collection operation:
 
 ```javascript
 db.mycollection.find().help()
