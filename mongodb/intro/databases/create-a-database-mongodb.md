@@ -13,10 +13,10 @@ type: normal
 category: must-know
 
 standards:
-  javascript.database.0: 10
-  javascript.database.1: 10
-  javascript.database.2: 10
-  javascript.database.3: 10
+  mongodb.database.0: 10
+  mongodb.database.1: 10
+  mongodb.database.2: 10
+  mongodb.database.3: 10
 
 links:
 

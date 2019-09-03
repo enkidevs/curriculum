@@ -12,9 +12,9 @@ type: normal
 category: must-know
 
 standards:
-  javascript.aggregation-pipeline.0: 10
-  javascript.aggregation-pipeline.2: 10
-  javascript.aggregation-pipeline.5: 10
+  mongodb.aggregation-pipeline.0: 10
+  mongodb.aggregation-pipeline.2: 10
+  mongodb.aggregation-pipeline.5: 10
 
 links:
 

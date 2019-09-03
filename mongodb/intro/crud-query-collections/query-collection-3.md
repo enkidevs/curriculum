@@ -12,12 +12,12 @@ type: normal
 category: must-know
 
 standards:
-  javascript.crud.3: 10
-  javascript.comparison-operators.0: 10
-  javascript.comparison-operators.1: 10
-  javascript.comparison-operators.2: 10
-  javascript.comparison-operators.3: 10
-  javascript.logical-operators.0: 10
+  mongodb.crud.3: 10
+  mongodb.comparison-operators.0: 10
+  mongodb.comparison-operators.1: 10
+  mongodb.comparison-operators.2: 10
+  mongodb.comparison-operators.3: 10
+  mongodb.logical-operators.0: 10
 
 links:
 

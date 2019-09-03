@@ -12,9 +12,9 @@ type: normal
 category: must-know
 
 standards:
-  javascript.aggregation-pipeline.0: 10
-  javascript.aggregation-pipeline.6: 10
-  javascript.aggregation-pipeline.8: 10
+  mongodb.aggregation-pipeline.0: 10
+  mongodb.aggregation-pipeline.6: 10
+  mongodb.aggregation-pipeline.8: 10
 
 links:
 
@@ -27,59 +27,55 @@ Next to summing values with the `$sum` accumulator, there are many more accumula
 
 We can use the `$avg` accumulator to calculate averages. For instance, let's say we want to group all pokémon by their `type` and calculate the average `power` for all pokémon of each `type`. We can do so like this:
 ```javascript
-db.pokemon.aggregate(
-  [
-    {
-      $group:{
-        _id: "$type",
-        averagePower: {
-            $avg: "$power"
-          }
+db.pokemon.aggregate([
+  {
+    $group: {
+      _id: "$type",
+      averagePower: {
+        $avg: "$power"
       }
     }
-  ]
-)
+  }
+])
 ```
 Output:
 ```javascript
-{ "_id" : "Bug", "averagePower" : 120 }
-{ "_id" : "Psychic", "averagePower" : 600 }
-{ "_id" : "Normal", "averagePower" : 60.5 }
-{ "_id" : "Rock", "averagePower" : 352 }
-{ "_id" : "Electric", "averagePower" : 344.83333333 }
-{ "_id" : "Flame", "averagePower" : 432 }
-{ "_id" : "Grass", "averagePower" : 296.2 }
-{ "_id" : "Fairy", "averagePower" : 0 }
-{ "_id" : "Fire", "averagePower" : 404 }
-{ "_id" : "Water", "averagePower" : 366.5 }
+{ "_id": "Bug", "averagePower": 120 }
+{ "_id": "Psychic", "averagePower": 600 }
+{ "_id": "Normal", "averagePower": 60.5 }
+{ "_id": "Rock", "averagePower": 352 }
+{ "_id": "Electric", "averagePower": 344.83333333 }
+{ "_id": "Flame", "averagePower": 432 }
+{ "_id": "Grass", "averagePower": 296.2 }
+{ "_id": "Fairy", "averagePower": 0 }
+{ "_id": "Fire", "averagePower": 404 }
+{ "_id": "Water", "averagePower": 366.5 }
 ```
 
 Next, we can use the `$min` and `$max` accumulators to calculate the lowest and highest power level for each `type` of pokémon. We will save the weakest in a field called `w` and the strongest in a field called `s`.
 ```javascript
-db.pokemon.aggregate(
-  [
-    {
-      $group:{
-        _id: "$type",
-        w: {$min:"$power"},
-        s: {$max:"$power"}
-      }
+db.pokemon.aggregate([
+  {
+    $group: {
+      _id: "$type",
+      w: { $min: "$power" },
+      s: { $max: "$power" }
     }
-  ]
-)
+  }
+])
 ```
 Output:
 ```javascript
-{ "_id" : "Bug", "w" : 15, "s" : 120 }
-{ "_id" : "Psychic", "w" : 401, "s" : 800}
-{ "_id" : "Normal", "w" : 35, "s" : 86 }
-{ "_id" : "Rock", "w" : 251, "s" : 502 }
-{ "_id" : "Electric", "w" : 231, "s" : 486}
-{ "_id" : "Flame", "w" : 199, "s" : 665 }
-{ "_id" : "Grass", "w" : 100, "s" : 500 }
-{ "_id" : "Fairy", "w" : 0, "s" : 0 }
-{ "_id" : "Fire", "w" : 404, "s" : 404 }
-{ "_id" : "Water", "w" : 233, "s" : 667 }
+{ "_id": "Bug", "w": 15, "s": 120 }
+{ "_id": "Psychic", "w": 401, "s": 800}
+{ "_id": "Normal", "w": 35, "s": 86 }
+{ "_id": "Rock", "w": 251, "s": 502 }
+{ "_id": "Electric", "w": 231, "s": 486}
+{ "_id": "Flame", "w": 199, "s": 665 }
+{ "_id": "Grass", "w": 100, "s": 500 }
+{ "_id": "Fairy", "w": 0, "s": 0 }
+{ "_id": "Fire", "w": 404, "s": 404 }
+{ "_id": "Water", "w": 233, "s": 667 }
 ```
 
 Furthermore, even though the `_id` field in the `$group` stage is mandatory, we can set the expression as `null` and not group documents but still use accumulators to aggregate the collection.
@@ -88,57 +84,51 @@ For instance, we can set the `_id` as `null` and calculate the sum of all powers
 
 Sum:
 ```javascript
-db.pokemon.aggregate(
-  [
-    {
-      $group: {
-        _id: null,
-        totalPower: {$sum:"$power"}
-      }
+db.pokemon.aggregate([
+  {
+    $group: {
+      _id: null,
+      totalPower: { $sum: "$power" }
     }
-  ]
-)
+  }
+])
 ```
 Output:
 ```javascript
 { 
   "_id": null,
   "totalPower": 878921
- }
+}
 ```
 Average:
 ```javascript
-db.pokemon.aggregate(
-  [
-    {
-      $group: {
-        _id: null,
-        averagePower: {$avg:"$power"}
-      }
+db.pokemon.aggregate([
+  {
+    $group: {
+      _id: null,
+      averagePower: { $avg: "$power" }
     }
-  ]
-)
+  }
+])
 ```
 Output:
 ```javascript
 { 
   "_id": null, 
   "averagePower": 391.7016
- }
+}
 ```
 Min and max:
 ```javascript
-db.pokemon.aggregate(
-  [
-    {
-      $group:{
-        _id: null,
-        youngest: {$min:"$age"},
-        oldest: {$max:"$age"}
-      }
+db.pokemon.aggregate([
+  {
+    $group: {
+      _id: null,
+      youngest: { $min: "$age" },
+      oldest: { $max: "$age" }
     }
-  ]
-)
+  }
+])
 ```
 Output:
 ```javascript

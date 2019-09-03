@@ -12,9 +12,9 @@ type: normal
 category: must-know
 
 standards:
-  javascript.crud.3: 10
-  javascript.crud.6: 10
-  javascript.field-update-operators.0: 10
+  mongodb.crud.3: 10
+  mongodb.crud.6: 10
+  mongodb.field-update-operators.0: 10
 
 links:
 

@@ -14,8 +14,8 @@ type: normal
 category: must-know
 
 standards:
-  javascript.aggregation-pipeline.0: 10
-  javascript.aggregation-pipeline.7: 10
+  mongodb.aggregation-pipeline.0: 10
+  mongodb.aggregation-pipeline.7: 10
 
 links:
 
@@ -32,44 +32,42 @@ In the array there are 3 fields; `Basic`, `Strong` and `Ultimate`. We can use th
 Example document:
 ```javascript
 {
-  "_id" : 138,
-  "name" : "Omanyte",
-  "type" : "Rock",
-  "power" : 303,
-  "ability" : [
+  _id: 138,
+  name: "Omanyte",
+  type: "Rock",
+  power: 303,
+  ability: [
     {
-      "Basic" : "Seed Bomb"
+      Basic: "Seed Bomb"
     },
     {
-      "Strong" : "Bite"
-      },
+      Strong: "Bite"
+    },
     {
-      "Ultimate" : "Hydro-Pump"
+      Ultimate: "Hydro-Pump"
     }
   ]
 }
 ```
 ```javascript
-db.pokemon.aggregate(
-  [
-    {
-      $project:{
-        _id:0,
-        name:1,
-        "ability.Ultimate":1
-      }
+db.pokemon.aggregate([
+  {
+    $project: {
+      _id: 0,
+      name: 1,
+      "ability.Ultimate": 1
     }
-  ]
-)
+  }
+])
 ```
 Output:
 ```javascript
 {
-  "name" : "Omanyte",
-  "type" : "Rock",
-  "ability" : [
+  name: "Omanyte",
+  type: "Rock",
+  ability: [
     {
-      "Ultimate" : "Hydro-Pump"
+      Ultimate: "Hydro-Pump"
     }
   ]
 }
@@ -80,38 +78,36 @@ Furthermore, we can use the `$project` stage to add a new array field to a docum
 Document:
 ```javascript
 {
-_id:3,
-"name" : "Charmander",
-"ability1" : "Throw",
-"ability2" : "Grab",
-"ability3" : "Stab",
-"ability4" : "Claw",
-"ability5" : "Shock"
+  _id: 3,
+  name: "Charmander",
+  ability1: "Throw",
+  ability2: "Grab",
+  ability3: "Stab",
+  ability4: "Claw",
+  ability5: "Shock"
 }
 ```
 ```javascript
-db.pokemon.aggregate(
-  [
-    {
-      $project: {
-         abilities: [
-           "$ability1",
-           "$ability2",
-           "$ability3",
-           "$ability4",
-           "$ability5"
-        ]
-      }
+db.pokemon.aggregate([
+  {
+    $project: {
+      abilities: [
+        "$ability1",
+        "$ability2",
+        "$ability3",
+        "$ability4",
+        "$ability5"
+      ]
     }
-  ]
-)
+  }
+])
 ```
 Output:
 ```javascript
 {
-  "_id" : 3,
-  "name" : "Charmander",
-  "abilities" : [
+  _id: 3,
+  name: "Charmander",
+  abilities: [
     "Throw",
     "Grab",
     "Stab",
@@ -126,36 +122,35 @@ Output:
 Let's say we have a `pokemon` collection where each pokémon has a `name`, `_id`, `type`, `power` and an `abilities` array field. Aggregate the collection, exclude the `_id` field and only include the `power` and `type` fields, as well as the `Ultimate` ability.
 
 ```javascript
+// sample document
 {
-  "_id" : 12,
-  "name" : "Carizard",
-  "type" : "Flame",
-  "power" : 651,
-  "abilities" : [
+  _id: 12,
+  name: "Charizard",
+  type: "Flame",
+  power: 651,
+  abilities: [
     {
-      "Basic" : "Fire Breath"
+      Basic: "Fire Breath"
     },
     {
-      "Strong" : "Bite"
-      },
+      Strong: "Bite"
+    },
     {
-      "Ultimate" : "Napalm"
+      Ultimate: "Napalm"
     }
   ]
 }
----------------------------------
-db.pokemon.???(
-  [
-    {
-      ???:{
-        _id:???,
-        ???:1,
-        power:???,
-        "???.???":1
-      }
+// fill in the query
+db.pokemon.???([
+  {
+    ???: {
+      _id: ???,
+      ???: 1,
+      power: ???,
+      "???.???": 1
     }
-  ]
-)
+  }
+])
 ```
 
 * `aggregate`
@@ -176,21 +171,19 @@ db.pokemon.???(
 Let's say we have a `shoes` collection with `5000` shoes of all sizes. Each shoe has 5 sizes saved in fields called `size1`, `size2`...`size5`. Create an aggregation that will combine all 5 shoe sizes in a new array called `sizes`.
 
 ```javascript
-db.shoes.aggregate(
-  [
-    {
-      $project: {
-         sizes: [
-           "$size1",
-           "$size2",
-           "$size3",
-           "$size4",
-           "$size5"
-        ]
-      }
+db.???.???([
+  {
+    ???: {
+      ???: [
+        "$size1",
+        "$size2",
+        "$size3",
+        "$size4",
+        "$size5"
+      ]
     }
-  ]
-)
+  }
+])
 ```
 
 * `shoes`

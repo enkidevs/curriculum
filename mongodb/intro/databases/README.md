@@ -4,5 +4,5 @@ description: Learn how to start up the MongoDB shell and create and delete datab
 
 insights:
   - mongodb-shell
-  - create-a-database
+  - create-a-database-mongodb
   - drop-a-database

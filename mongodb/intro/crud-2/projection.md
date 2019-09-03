@@ -1,5 +1,5 @@
 ---
-author: stefan.stojanovic
+author: Stefan-Stojanovic
 
 levels:
   - beginner
@@ -12,8 +12,8 @@ type: normal
 category: must-know
 
 standards: 
-  javascript.crud.21: 10
-  javascript.crud.4: 10
+  mongodb.crud.21: 10
+  mongodb.crud.4: 10
 links:
 
 ---

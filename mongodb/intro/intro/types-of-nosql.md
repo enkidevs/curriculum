@@ -3,7 +3,6 @@ author: Stefan-Stojanovic
 
 levels:
   - beginner
-  - introduction
 
 aspects:
   - introduction

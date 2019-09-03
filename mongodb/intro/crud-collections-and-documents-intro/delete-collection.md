@@ -13,8 +13,8 @@ type: normal
 category: must-know
 
 standards:
-  javascript.crud.13: 10
-  javascript.crud.14: 10
+  mongodb.crud.13: 10
+  mongodb.crud.14: 10
 
 links:
     - '[LINK DESCRIPTION](http://www.example.com){code}'

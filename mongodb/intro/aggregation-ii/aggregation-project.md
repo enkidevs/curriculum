@@ -14,8 +14,8 @@ type: normal
 category: must-know
 
 standards:
-  javascript.aggregation-pipeline.0: 10
-  javascript.aggregation-pipeline.7: 10
+  mongodb.aggregation-pipeline.0: 10
+  mongodb.aggregation-pipeline.7: 10
 
 links:
 
@@ -24,7 +24,7 @@ links:
 ---
 ## Content
 
-The aggregation pipeline `$project` stage is used to define which fields of the document/s will go into the next aggregation stage. These fields can be already existing fields or completely new ones.
+The aggregation pipeline, the `$project` stage is used to define which fields of the document/s will go into the next aggregation stage. These fields can be already existing fields or completely new ones.
 
 This stage can be used for:
 - inclusion or exclusion of a field or fields
@@ -39,43 +39,42 @@ The syntax for `$project` is:
 
 The `<specification(s)>` can be:
 ```javascript
-<field>: <1 or true>( to include)
-<field>: <0 or false>( to exclude)
-<field>: <expression>(add new field or reset existing field)
-_id: <0 or false>(to exclude the _id field)
+// to include
+field: 1 or true
+// to exclude
+field: 0 or false
+// to add a new field
+// or reset an existing field
+field: expression
+// to exclude the _id field
+_id: 0 or false
 ```
 
 The `_id` field is included in the output of the aggregation by default. To exclude it, you must add `_id: 0 or false`.
 
 For instance, let's say we wanted to aggregate the `pokemon` collection and want to only pass the `secondType` field through the next stage. We can do so like this:
 ```javascript
-db.pokemon.aggregate(
-  [ { $project :
-      { secondType : 1}
-    }
-  ]
-)
+db.pokemon.aggregate([
+  { $project: { secondType: 1 } }
+])
 ```
 Output:
 ```javascript
-{ "_id" : 72, "secondType" : "Poison" }
-{ "_id" : 73, "secondType" : "Poison" }
-...
+{ "_id": 72, "secondType": "Poison" }
+{ "_id": 73, "secondType": "Poison" }
+// ...
 ```
 As you can see above, our aggregation was supposed to only aggregate documents which contain the specified field(`secondType`). However, since the `_id` field is included by default we have to add `_id:0` to exclude it.
 ```javascript
-db.pokemon.aggregate(
-  [ { $project :
-      {_id:0, secondType : 1}
-    }
-  ]
-)
+db.pokemon.aggregate([
+  { $project: { _id: 0, secondType: 1 } }
+])
 ```
 Output:
 ```javascript
-{"secondType" : "Poison" }
-{"secondType" : "Poison" }
-...
+{"secondType": "Poison" }
+{"secondType": "Poison" }
+// ...
 ```
 
 ---

@@ -13,15 +13,15 @@ type: normal
 category: must-know
 
 standards:
-  javascript.crud.3: 10
-  javascript.comparison-operators.0: 10
-  javascript.comparison-operators.1: 10
-  javascript.comparison-operators.2: 10
-  javascript.comparison-operators.3: 10
-  javascript.logical-operators.0: 10
+  mongodb.crud.3: 10
+  mongodb.comparison-operators.0: 10
+  mongodb.comparison-operators.1: 10
+  mongodb.comparison-operators.2: 10
+  mongodb.comparison-operators.3: 10
+  mongodb.logical-operators.0: 10
 
 links:
-  - '[link to official documentation](https://enki.com)'
+  - '[link to official documentation](https://docs.mongodb.com/manual/reference/operator/query-comparison/){documentation}'
 ---
 
 # Querying a collection using ranges
@@ -50,34 +50,34 @@ Output:
 
 ```javascript
 {
-  "_id" : 2,
-  "name" : "Bulbasaur",
-  "type" : "Grass",
-  "secondType" : "Poison",
-  "power" : 311
+  "_id": 2,
+  "name": "Bulbasaur",
+  "type": "Grass",
+  "secondType": "Poison",
+  "power": 311
 }
 {
-  "_id" : 7,
-  "name" : "Ivisaur:",
-  "type" : "Grass",
-  "secondType" : "Poison",
-  "power" : 335
+  "_id": 7,
+  "name": "Ivisaur:",
+  "type": "Grass",
+  "secondType": "Poison",
+  "power": 335
 }
 {
-  "_id" : 73,
-  "name" : "Tentacruel",
-  "type" : "Water",
-  "secondType" : "Poison",
-  "power" : 333
+  "_id": 73,
+  "name": "Tentacruel",
+  "type": "Water",
+  "secondType": "Poison",
+  "power": 333
 }
 {
-  "_id" : 146,
-  "name" : "Moltres",
-  "type" : "Fire",
-  "secondType" : "Flying",
-  "power" : 404
+  "_id": 146,
+  "name": "Moltres",
+  "type": "Fire",
+  "secondType": "Flying",
+  "power": 404
 }
-...
+// ...
 ```
 
 The other 3 operators, `$lt`, `$lte` and `$gte` are used in the exact same way as the `$gt` operator.
@@ -107,22 +107,22 @@ db.pokemon.find({
 
 Output:
 ```javascript
-...
+// ...
 {
-  "_id" : 146,
-  "name" : "Moltres",
-  "type" : "Fire",
-  "secondType" : "Flying",
-  "power" : 404
+  "_id": 146,
+  "name": "Moltres",
+  "type": "Fire",
+  "secondType": "Flying",
+  "power": 404
 }
 {
-  "_id" : 151,
-  "name" : "Mew",
-  "type" : "Psychic",
-  "age" : 1,
-  "power" : 404
+  "_id": 151,
+  "name": "Mew",
+  "type": "Psychic",
+  "age": 1,
+  "power": 404
 }
-...
+// ...
 ```
 
 **Note**: If we want the query above to find only the documents where one of the values is true, we would have to add the `$or` logical operator.
@@ -148,7 +148,9 @@ Match the operator with the description:
 Create a query to find all documents within the `pokemon` collection whose `age` falls in the range 23-31, including the bounds.
 
 ```javascript
-db.pokemon.???({ ???: { ???: 23, ???: 31 } });
+db.pokemon.???({ 
+  ???: { ???: 23, ???: 31 }
+});
 ```
 
 * `find`

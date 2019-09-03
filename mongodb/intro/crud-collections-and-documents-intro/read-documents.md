@@ -13,8 +13,8 @@ type: normal
 category: must-know
 
 standards:
-  javascript.crud.3: 10
-  javascript.crud.4: 10
+  mongodb.crud.3: 10
+  mongodb.crud.4: 10
 
 links:
 
@@ -34,13 +34,13 @@ Result:
 
 ```javascript
 {
-  "_id" : 1,
-  "name" : "Pikachu",
-  "type" : "Electric"
+  "_id": 1,
+  "name": "Pikachu",
+  "type": "Electric"
 }
 ```
 
-Using the `.find()` method without any paramaters will retrieve all the documents from the selected collection.
+Using the `.find()` method without any parameters will retrieve all the documents from the selected collection.
 
 **Note** that `.find({})` and `.find()` both work the same way.
 
@@ -58,45 +58,47 @@ Result:
 
 ```javascript
 {
-  "_id" : 1,
-  "name" : "Pikachu",
-  "type" : "Electric"
+  "_id": 1,
+  "name": "Pikachu",
+  "type": "Electric"
 }
 {
-  "_id" : 26,
-  "name" : "Raichu",
-  "type" : "Electric"
+  "_id": 26,
+  "name": "Raichu",
+  "type": "Electric"
 }
 {
-  "_id" : 100,
-  "name" : "Voltorb",
-  "type" : "Electric"
+  "_id": 100,
+  "name": "Voltorb",
+  "type": "Electric"
 }
 {
-  "_id" : 101,
-  "name" : "Electrode",
-  "type" : "Electric"
+  "_id": 101,
+  "name": "Electrode",
+  "type": "Electric"
 }
 ```
 
 You can limit the number of results by adding the `.limit(number)` method. If the limit is not specified, the default limit is `20`.
 
 ```javascript
-db.pokemon.find({ type:"Electric" }).limit(2)
+db.pokemon
+  .find({ type: "Electric" })
+  .limit(2)
 ```
 
 Result:
 
 ```javascript
 {
-  "_id" : 1,
-  "name" : "Pikachu",
-  "type" : "Electric"
+  "_id": 1,
+  "name": "Pikachu",
+  "type": "Electric"
 }
 {
-  "_id" : 26,
-  "name" : "Raichu",
-  "type" : "Electric"
+  "_id": 26,
+  "name": "Raichu",
+  "type": "Electric"
 }
 ```
 
@@ -112,21 +114,21 @@ If we wanted to get the top 2 pokemon sorted in descending order by `_id`, we ca
 db.pokemon
   .find({ type: "Electric" })
   .limit(2)
-  .sort({ _id: -1 });
+  .sort({ _id: -1 })
 ```
 
 Result:
 
 ```javascript
 {
-  "_id" : 26,
-  "name" : "Raichu",
-  "type" : "Electric"
+  "_id": 26,
+  "name": "Raichu",
+  "type": "Electric"
 }
 {
-  "_id" : 1,
-  "name" : "Pikachu",
-  "type" : "Electric"
+  "_id": 1,
+  "name": "Pikachu",
+  "type": "Electric"
 }
 ```
 

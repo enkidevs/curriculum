@@ -13,9 +13,9 @@ type: normal
 category: must-know
 
 standards:
-  javascript.crud.3: 10
-  javascript.comparison-operators.4: 10
-  javascript.logical-operators.1: 10
+  mongodb.crud.3: 10
+  mongodb.comparison-operators.4: 10
+  mongodb.logical-operators.1: 10
 
 links:
 

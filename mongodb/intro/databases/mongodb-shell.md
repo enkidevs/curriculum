@@ -12,9 +12,9 @@ type: normal
 category: must-know
 
 standards:
-  javascript.shell.1: 10
-  javascript.shell.2: 10
-  javascript.shell.3: 10
+  mongodb.shell.1: 10
+  mongodb.shell.2: 10
+  mongodb.shell.3: 10
 
 links:
 
