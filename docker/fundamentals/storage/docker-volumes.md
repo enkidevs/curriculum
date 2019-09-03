@@ -5,7 +5,7 @@ aspects:
   - workout
   - deep
 type: normal
-category: must-know
+category: best practice
 links:
 - '[Docker Volumes](https://docs.docker.com/storage/volumes/){documentation}'
 - '[Manage data in Docker](https://docs.docker.com/storage/){documentation}'

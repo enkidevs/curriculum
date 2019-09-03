@@ -4,7 +4,7 @@ aspects:
   - workout
   - deep
 type: normal
-category: must-know
+category: caveats
 links:
   - '[Configure Container DNS](https://docs.docker.com/v17.09/engine/userguide/networking/default_network/configure-dns/){article}'
 ---

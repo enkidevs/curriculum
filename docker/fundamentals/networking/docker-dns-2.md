@@ -5,7 +5,7 @@ aspects:
   - deep
   - obscura
 type: normal
-category: must-know
+category: caveats
 ---
 
 # More about Docker DNS

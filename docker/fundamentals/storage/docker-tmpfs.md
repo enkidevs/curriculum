@@ -5,7 +5,7 @@ aspects:
   - deep
   - obscura
 type: normal
-category: must-know
+category: feature
 links:
 - '[Use tmpfs mounts](https://docs.docker.com/storage/tmpfs/){documentation}'
 ---

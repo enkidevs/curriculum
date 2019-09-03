@@ -4,7 +4,7 @@ aspects:
   - deep
   - workout
 type: normal
-category: must-know
+category: caveats
 links:
   - '[Binding Docker Ports](https://runnable.com/docker/binding-docker-ports){article}'
 ---

@@ -5,7 +5,7 @@ aspects:
   - workout
   - deep
 type: normal
-category: must-know
+category: feature
 links:
 - '[Docker: use bind mounts](https://docs.docker.com/storage/bind-mounts/){documentation}'
 ---
@@ -14,7 +14,7 @@ links:
 
 ## Content
 
-A bind mount is a mapping of a host file or directory to a container file or directory. Mounting a host directory/file into a container behaves like a local file path - the container is unaware this is coming from a host. 
+A bind mount is a mapping of a host file or directory to a container file or directory. Mounting a host directory/file into a container behaves like a local file path - the container is unaware this is coming from a host.
 
 Unlike volumes which are completely managed by Docker, bind mounts are dependent on the directory structure of the host machine. This means that host files overwrite any files in the container.
 
