@@ -119,7 +119,7 @@ ReactDOM.render(
 ---
 ## Revision
 
-What does **React** use for **conditional rendering**?
+Which JS capabilities are commonly used in **React** for **conditional rendering**?
 
 ???
 
