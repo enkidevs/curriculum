@@ -56,7 +56,9 @@ myListener(e) {
 
 Above, `e` is the **synthetic event**[1] passed when clicking the button.
 
-To make the second `console.log` work, a `bind`ing must be made in the `constructor` to allow you using `this` in the method's context (as a consequence of how functions work in JS):
+To make the second `console.log` work, the `this` context of the `myListener` method must be explicitly bound to the `Click` class. 
+
+The reason is that `this` in JavaScript depends on how a function is called, not where it is defined. If we call a function as a method on an object, i.e. `person.say()`, `this` will point to that object. If we call a function as a standalone function, i.e. `say()`. `this` will be `undefined`. Since we're passing `myListener` into a `button` as the `onClick` function, the `button` will internally call it as a regular function, i.e. `onClick()`, making the `this` be `undefined` and causing an error. By binding `this` to always point to our class instance, we can avoid this problem.
 ```jsx
 class Click extends React.Component {
   constructor(props) {
