@@ -24,13 +24,13 @@ links:
 ---
 ## Content
 
-The aggregation pipeline, the `$project` stage is used to define which fields of the document/s will go into the next aggregation stage. These fields can be already existing fields or completely new ones.
+In the aggregation pipeline, the `$project` stage is used to define which fields of the document/s will go into the next aggregation stage. These fields can already exist or be completely new ones.
 
 This stage can be used for:
 - inclusion or exclusion of a field or fields
 - adding new fields
 - suppressing the `_id` field
-- resetting  values of existing fields
+- resetting values of existing fields
 
 The syntax for `$project` is:
 ```javascript
@@ -72,8 +72,8 @@ db.pokemon.aggregate([
 ```
 Output:
 ```javascript
-{"secondType": "Poison" }
-{"secondType": "Poison" }
+{ "secondType": "Poison" }
+{ "secondType": "Poison" }
 // ...
 ```
 
@@ -88,7 +88,7 @@ Which of these is a valid use case for `$project`?
 * Include fields to pass to the next pipeline stage
 * Exclude fields to pass to the next pipeline stage
 * Add new fields
-* Reset already existing ones
+* Reset already existing fields
 
 ---
 ## Revision
@@ -96,12 +96,11 @@ Which of these is a valid use case for `$project`?
 Add the missing pieces of code to exclude the `_id` field and only include the `type` and `power` fields in the next aggregation pipeline stage.
 
 ```javascript
-db.pokemon.???(
-  [ { ??? :
-      {???:0, ??? : 1, power: ???}
-    }
-  ]
-)
+db.pokemon.???([
+  {
+    ???: { ???: 0, ???: 1, power: ??? }
+  }
+])
 ```
 
 * `aggregate`
