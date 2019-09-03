@@ -20,15 +20,15 @@ standards:
 
 
 links:
-  - '[link to official documentation](https://enki.com)'
+  - '[link to official documentation](https://docs.mongodb.com/manual/reference/method/db.dropDatabase/){documentation}'
 ---
 # Delete a database
 ---
 ## Content
 
-In the last insight, we learned how to create a database, show the current one and show all the databases. Now we're gonna learn how to delete(drop) a database.
+In the last insight, we learned how to create a database, show the current or all the databases. Now we're gonna learn how to delete(drop) a database.
 
-Last time, we created two similarly named databases; `Pokemon` and `pokemon`. Now we wanna delete the `Pokemon` one.
+Last time, we created two similarly named databases: `Pokemon` and `pokemon`. Now we wanna delete the one named `Pokemon`.
 
 To do that, first, we need to switch to that database with the `use` command.
 
@@ -44,7 +44,7 @@ Next, when we are sure we are on the correct database, we can use the `db.dropDa
 
 ```javascript
 db.dropDatabase()
-// { "dropped" : "Pokemon", "ok" : 1 }
+// { "dropped": "Pokemon", "ok": 1 }
 ```
 
 ---
@@ -73,4 +73,4 @@ How do you delete a database named `pokemon`?
 * Use the `use pokemon` command and then use the `db.dropDatabase()` command.
 * Use the `delete` command.
 * Use the `db.dropDatabase(pokemon)` command.
-* Use the `db.delete()` method.
+* Use the `db.delete(pokemon)` method.
