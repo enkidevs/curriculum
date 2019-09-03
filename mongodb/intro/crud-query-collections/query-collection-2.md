@@ -31,16 +31,16 @@ links:
 
 Last insight we learned how to query documents and use the `$in` and `$or` operators.
 
-Now we will learn how to use the `$lt`, `$lte`, `$gt` or `$gte` comparison operators to find documents more precisely.
+Now, we will learn how to use the `$lt`, `$lte`, `$gt` or `$gte` comparison operators to find documents more precisely.
 
-- `$lt` less than the specified value
-- `$lte` less than or equal to the specified value
-- `$gt` greater than the specified value
-- `$gte` greater than or equal to the specified value
+- `$lt` means less than the specified value
+- `$lte` means less than or equal to the specified value
+- `$gt` means greater than the specified value
+- `$gte` means greater than or equal to the specified value
 
 Let's say we have a `pokemon` collection where each pokémon has a `power` field which specifies their strength.
 
-Now we want to look through the `pokemon` collection and find all the pokémon that have their `power` level greater than `250`. We can do so like this:
+Now, we want to look through the `pokemon` collection and find all the pokémon that have their `power` level greater than `250`. We can do so like this:
 
 ```javascript
 db.pokemon.find({ power: { $gt: 250 } });
@@ -80,23 +80,17 @@ Output:
 // ...
 ```
 
-The other 3 operators, `$lt`, `$lte` and `$gte` are used in the exact same way as the `$gt` operator.
+The other 3 operators, `$lt`, `$lte` and `$gte`, are used in the exact same way as the `$gt` operator.
 
 ```javascript
 db.pokemon.find({ power: { $gte: 250 } });
-```
 
-```javascript
 db.pokemon.find({ power: { $lt: 250 } });
-```
 
-```javascript
 db.pokemon.find({ power: { $lte: 250 } });
 ```
 
-You can also use a combination of the above operators to create more precise queries.
-
-For instance, to find all pokemon that are `1` or less years old and have power greater than `350`:
+You can also use a combination of the above operators to create more precise queries. For instance, to find all pokemon that are `1` or less years old and have power greater than `350`:
 
 ```javascript
 db.pokemon.find({
@@ -125,7 +119,7 @@ Output:
 // ...
 ```
 
-**Note**: If we want the query above to find only the documents where one of the values is true, we would have to add the `$or` logical operator.
+**Note**: If we wanted the query above to find only the documents where one of the values is true, we would have to add the `$or` logical operator.
 
 ---
 ## Practice
