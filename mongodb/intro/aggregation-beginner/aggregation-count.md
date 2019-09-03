@@ -23,7 +23,7 @@ links:
 ---
 ## Content
 
-In the previous insight we learned how to aggregate using the `$match` aggregation pipeline stage. Now we are going to discuss the `$count` aggregation stage.
+In the previous insight, we learned how to aggregate using the `$match` aggregation pipeline stage. Now we are going to discuss the `$count` aggregation stage.
 
 The `$count` aggregation stage is used to count the number of documents that entered the specified stage.
 

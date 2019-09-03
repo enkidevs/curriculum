@@ -19,42 +19,40 @@ standards:
   mongodb.aggregation-pipeline.5: 10
 
 links:
-  - '[link to official documentation](https://enki.com)'
+  - '[link to official documentation](https://docs.mongodb.com/manual/reference/operator/aggregation/skip/){documentation}'
 
 ---
 # Aggregation $skip
 ---
 ## Content
 
-A similar aggregation pipeline stage to `$limit`, is the `$skip` stage.
+A similar aggregation pipeline stage to `$limit` is the `$skip` stage.
 
-The `$limit` stage limits the number of documents you want to enter into the aggregation pipeline starting from the first. Whereas the `$skip` stage skips the specified number of documents starting from the first and enters all the rest.
+The `$limit` stage limits the number of documents you want to enter into the aggregation pipeline starting from the first, whereas the `$skip` stage skips the specified number of documents starting from the first and enters all the rest.
 
 Syntax:
 ```javascript
-{$skip: <positive integer> }
+{ $skip: <positive integer> }
 ```
 The `<positive integer>` has to be a whole number.
 
-For instance, Let's say we have a `pokemon` collection with 10 pokémon and want to aggregate only the last 2. We can that like so:
+For instance, let's say we have a `pokemon` collection with 10 pokémon and want to aggregate only the last 2. We can do that like so:
 ```javascript
-db.pokemon.aggregate(
-    { $skip : 8 }
-)
+db.pokemon.aggregate({ $skip: 8 })
 ```
 Output:
 ```javascript
 {
-  "_id" : 9,
-  "name" : "Blastoise",
-  "type" : "Water",
-  "power" : 667
+  "_id": 9,
+  "name": "Blastoise",
+  "type": "Water",
+  "power": 667
 },
 {
-  "_id" : 10,
-  "name" : "Caterpie",
-  "type" : "Bug",
-  "power" : 120
+  "_id": 10,
+  "name": "Caterpie",
+  "type": "Bug",
+  "power": 120
 }
 ```
 
@@ -62,17 +60,17 @@ The `$skip` pipeline stage can also be used with `$limit`, `$count` and/or `$mat
 
 ```javascript
 db.pokemon.aggregate(
-    { $skip : 8 },
-    { $limit : 1 }
+  { $skip: 8 },
+  { $limit: 1 }
 )
 ```
 Output:
 ```javascript
 {
-  "_id" : 9,
-  "name" : "Blastoise",
-  "type" : "Water",
-  "power" : 667
+  "_id": 9,
+  "name": "Blastoise",
+  "type": "Water",
+  "power": 667
 },
 ```
 In the above example, we skipped the first 8 pokemon and aggregated only 1 after that.
@@ -81,21 +79,17 @@ Now we'll use all 4 stages learned in this workout.
 
 We are going to aggregate the first `50` pokémon, starting from the 301, count how many have a `power` level greater than `400` and store the result in a field named `"result"`.
 ```javascript
-db.pokemon.aggregate(
-  [
-    {$match:
-      { power: {$gt: 400}}
-    },
-    {$skip: 300},
-    {$limit: 50},
-    {$count: "result"}
-  ]
-)
+db.pokemon.aggregate([
+  { $match: { power: { $gt: 400 } } },
+  { $skip: 300 },
+  { $limit: 50 },
+  { $count: "result" }
+])
 ```
 Output:
 ```javascript
 {
-  "result" : 2
+  "result": 2
 }
 ```
 
@@ -110,8 +104,12 @@ Which of the 2 examples below is a valid `$skip` stage?
 
 ???
 
-A: {$limit: 9.9}
-B: {$skip: 99}
+```js
+// A
+{ $limit: 9.9 }
+// B
+{ $skip: 99 }
+```
 
 * To skip a specified number of documents to be aggregated starting from the first
 * `B`
@@ -125,14 +123,14 @@ Let's say we have a collection named `games` with 100 documents. Display the 55t
 
 ```javascript
 db.???.aggregate(
-    { ??? : 54 },
-    { ??? : ??? }
+  { ???: 54 },
+  { ???: ??? }
 )
 ```
 
 * `games`
 * `$skip`
-* `%limit`
+* `$limit`
 * `2`
 * `GAMES`
 * `58`
