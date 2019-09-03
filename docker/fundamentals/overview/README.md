@@ -6,3 +6,4 @@ insights:
   - what-is-docker
   - docker-engine
   - docker-cli
+  - docker-benefits
