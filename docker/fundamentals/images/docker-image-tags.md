@@ -14,7 +14,7 @@ links:
 ---
 ## Content
 
-A docker image tag is similar concept to git tags. It is a pointer to a specific image commit (id) that serves to identify the image in a meaningful way.
+A docker image tag is a similar concept to git tags. It is a pointer to a specific image commit (id) that serves to identify the image in a meaningful way.
 Multiple tags can point to the same image commit (id).
 
 The default tag is called `"latest"`. It is important to know that that is just the default tag and it is up to the image owner to make sure the newest version actually gets assigned this tag (Docker does not enforce this).
