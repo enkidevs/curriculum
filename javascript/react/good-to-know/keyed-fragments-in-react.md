@@ -56,7 +56,7 @@ class Table extends React.Component {
 }
 ```
 
-Although it might seem correct at a first glance, this would result in an invalid HTML code because the `<td>`s in the `Columns` component are encapsulated in a `<div>`. The solution to this problem is represented by `Fragment`s, which allows you to add a parent tag to your JSV elements without adding an extra node to the DOM.
+Although it might seem correct at a first glance, this would result in an invalid HTML code because the `<td>`s in the `Columns` component are encapsulated in a `<div>`. One solution to this problem is represented by `Fragment`s, which allows you to add a parent tag to your JSX elements without adding an extra node to the DOM.
 
 Here is how you would use `Fragment`s on the `Columns` component:
 
@@ -76,7 +76,7 @@ class Columns extends React.Component {
 Or, if you prefer writing more succinct code:
 
 ```jsx
-// ...
+{/* ... */}
 <>
   <td>Is this real life</td>
   <td>Or is it fantasy</td>

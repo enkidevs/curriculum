@@ -40,12 +40,12 @@ myData.x.y.z = 10;
 myData.a.b.push(13);
 ```
 
-Given the fact that **JavaScript** wasn't designed for dealing with immutable data, using one of the above methods does not provide a way of determining which data has changed since the previous copy. To help with this, **React** used to provide an immutability helper (has since become legacy) which is now replaced by the `immutability-helper` library.
+Given the fact that **JavaScript** wasn't designed for dealing with immutable data, using one of the above methods does not provide a way of determining which data has changed after the mutation. To help with this, **React** used to provide an immutability helper (has since become legacy) which is now replaced by the `immutability-helper` library.
 
-This new library can be installed using the NPM package manager by using the following command:
+This new library can be installed using the NPM package manager:
 
 ```shell
-$ npm install immutability-helper --save
+npm install immutability-helper --save
 ```
 
 Now, with the help of the immutability helper we would write:
@@ -63,7 +63,7 @@ const newData = update(myData, {
 
 Although this format might need some getting used to, it provides a much better approach for determining which data has changed [1].
 
-In terms of notation, keys that are preceded by a `$` are called **commands** (`{push: array}`, `{apply: function}`, etc.) and the data that is being mutated is called the **target**. 
+In terms of notation, keys that are preceded by a `$` are called **commands** (`{ $push: array }`, `{ $apply: function }`, etc.) and the data that is being mutated is called the **target**. 
 
 Here is how you would perform a shallow merge using the `update()` method:
 
@@ -75,7 +75,7 @@ var newObj = update(obj, {
 //newObj = {a: 5, b: 6, c:7}
 ```
 
-Other commands worth mentioning are `{$unshift: array}` and `{$splice: array of arrays}`, but you can see all the available methods in the Resources section of this insight.
+Other commands worth mentioning are `{ $unshift: array }` and `{ $splice: array of arrays }`, but you can see all the available methods in the Resources section of this insight.
 
 ---
 ## Practice
