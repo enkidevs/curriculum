@@ -37,7 +37,7 @@ docker run --mount \
   source=enki-volume,target=/~/enki nginx
 ```
 
-When creating a volume with `docker run`, if the volume at that path (or with that name) doesn't exist, docker will create one for use. If it does exist, docker will use the existing volume without creating a new one.
+When creating a volume with `docker run`, if the volume at that path (or with that name) doesn't exist, docker will create one for us. If it does exist, docker will use the existing volume without creating a new one.
 
 If you mount an empty volume into a container's directory in which files or directories already exist, these files or directories are copied into the volume.
 
