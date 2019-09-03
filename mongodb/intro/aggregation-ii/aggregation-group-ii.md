@@ -55,7 +55,7 @@ Output:
 { "_id": "Water", "averagePower": 366.5 }
 ```
 
-Next, we can use the `$min` and `$max` accumulators to calculate the lowest and highest power level for each `type` of pokémon. We will save the weakest in a field called `w` and the strongest in a field called `s`.
+Next, we can use the `$min` and `$max` accumulators to calculate the lowest and highest power level for each `type` of pokémon. We will save the weakest in a field called `w`, and the strongest in a field called `s`.
 ```javascript
 db.pokemon.aggregate([
   {
@@ -73,7 +73,7 @@ Output:
 { "_id": "Psychic", "w": 401, "s": 800}
 { "_id": "Normal", "w": 35, "s": 86 }
 { "_id": "Rock", "w": 251, "s": 502 }
-{ "_id": "Electric", "w": 231, "s": 486}
+{ "_id": "Electric", "w": 231, "s": 486 }
 { "_id": "Flame", "w": 199, "s": 665 }
 { "_id": "Grass", "w": 100, "s": 500 }
 { "_id": "Fairy", "w": 0, "s": 0 }
@@ -144,20 +144,17 @@ Output:
 ---
 ## Practice
 
-Complete the aggregation.
 Group and calculate the average `age` of all pokémon within the `pokemon` collection and return the result in a field called `"averagePower"`.
 
 ```javascript
-db.???.???(
-  [
-    {
-      ???: {
-        ???: null,
-        ???: {???:"$age"}
-      }
+db.???.???([
+  {
+    ???: {
+      ???: null,
+      ???: { ???: "$age" }
     }
-  ]
-)
+  }
+])
 ```
 
 * `pokemon`
@@ -176,24 +173,23 @@ db.???.???(
 ---
 ## Revision
 
-Let's say we have a collection named `games` with 1000 documents. Each game has a `name`, `difficulty` and `type` field. Group all documents by their `type` and find out the what is the lowest and what the highest `difficulty` level for each `type` and save them in fields called `low` and `max`.
+Let's say we have a collection named `games` with 1000 documents. Each game has a `name`, `difficulty` and `type` field. Group all documents by their `type` and find out what is the lowest and what is the highest `difficulty` level for each `type`. Save them in fields called `low` and `max`.
 
 ```javascript
-db.???.aggregate(
-  [
-    {
-      ???: {
-        ???: "$type",
-        low: {
-            ???: "$difficulty"
-          },
-        max: {
-            ???: "$difficulty"
-          }
+db.???.aggregate([
+  {
+    ???: {
+      ???: "$type",
+      low: {
+        ???: "$difficulty"
+      },
+      max: {
+        ???: "$difficulty"
       }
     }
-  ]
-)
+  }
+])
+
 // {"_id": "Playstation","low": 1,"max": 10}
 // {"_id": "X-box","low": 2.1,"max": 9.4}
 // {"_id": "PC","low": 0,"max": 9.1}
