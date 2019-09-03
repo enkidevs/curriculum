@@ -46,7 +46,7 @@ docker container start enki
 docker container stop enki
 ```
 
-In fact, creating and starting containers happens so frequently in Docker that we have a command to do both at once called `docker run`.
+In fact, creating and starting containers happens so frequently in Docker that we have a command to do both at the same time, called `docker run`.
 
 In essence: `docker run = docker container create + docker container start`
 
