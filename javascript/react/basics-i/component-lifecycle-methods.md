@@ -38,7 +38,7 @@ We can split them into three broader categories by the *type of event* that will
 ### 1. Mounting
 
 - `constructor(props)` 
-  - the first method called in the lifecycle, **before mounting**. It's most commonly used to set the initial `state` and to `bind` methods. If used, it must include `super(props)` as the first call:
+  - the first method called in the lifecycle, **before mounting**. It's most commonly used to set the initial `state` and to `bind` methods. If used, it must include `super(props)` as the first call[1]:
 
 ```jsx
 constructor(props) {
@@ -106,5 +106,8 @@ What method is the first being called in the **component lifecycle**?
 * `componentWillMount`
 * `shouldComponentUpdate`
 * `componentDidMount`
+---
+## Footnotes
 
-
+[1: Why do we write `super(props)`]
+In React, `super` refers to the `React.Component` class constructor implementation. Because of the way JavaScript works, you can't use this in your `constructor` method until after you call `super`. The `props` in `super(props)` is called so that the base `React.Component` constructor can initialize `this.props`. If you want to learn more about this make sure to read [this article](https://overreacted.io/why-do-we-write-super-props/).
