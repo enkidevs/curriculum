@@ -68,7 +68,9 @@ Let's say that you mistakenly write the following code:
 />
 ```
 
-Fortunately, this will not render because `getUsername()` would return a string, but `dangerouslySetInnerHTML` expects and object of the type `__html: ''`. By using a function to return the wrapper object we ensure that only *sanitized* data is returned. For this same reason, we also recommend against writing this type of code:
+Fortunately, this will not render because `getUsername()` would return a string, but `dangerouslySetInnerHTML` expects and object of the type `__html: ''`. By forcing you to write an object with a special `__html` property, it increases that chance that you will remember to *sanitized* the data. 
+
+You still have to be careful. The following code can also leak sensitive data:
 
 ```jsx
 <div

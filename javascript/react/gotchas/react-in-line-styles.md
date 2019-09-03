@@ -33,7 +33,7 @@ Here is how you can create the style object:
 ```jsx
 var divStyle = {
   color: "white",
-  WebkitTransition: "all",
+  webkitTransition: "all",
   msTransition: "all"
 };
 ```
