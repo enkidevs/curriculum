@@ -14,7 +14,7 @@ category: must-know
 standards: 
   mongodb.crud.18: 10
   mongodb.crud.19: 10
-  mongodb.update-operators: 10
+  mongodb.update-operators.1: 10
   
 links:
 

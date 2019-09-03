@@ -40,16 +40,19 @@ db.pokemon.aggregate([
 ```
 Output:
 ```javascript
-{ "_id": "Bug", "averagePower": 120 }
-{ "_id": "Psychic", "averagePower": 600 }
-{ "_id": "Normal", "averagePower": 60.5 }
-{ "_id": "Rock", "averagePower": 352 }
-{ "_id": "Electric", "averagePower": 344.83333333 }
-{ "_id": "Flame", "averagePower": 432 }
-{ "_id": "Grass", "averagePower": 296.2 }
-{ "_id": "Fairy", "averagePower": 0 }
-{ "_id": "Fire", "averagePower": 404 }
-{ "_id": "Water", "averagePower": 366.5 }
+{ _id: "Bug", averagePower: 120 }
+{ _id: "Psychic", averagePower: 600 }
+{ _id: "Normal", averagePower: 60.5 }
+{ _id: "Rock", averagePower: 352 }
+{
+  _id: "Electric",
+  averagePower: 344.83333333
+}
+{ _id: "Flame", averagePower: 432 }
+{ _id: "Grass", averagePower: 296.2 }
+{ _id: "Fairy", averagePower: 0 }
+{ _id: "Fire", averagePower: 404 }
+{ _id: "Water", averagePower: 366.5 }
 ```
 
 Next, we can use the `$min` and `$max` accumulators to calculate the lowest and highest power level for each `type` of pokémon. We will save the weakest in a field called `w` and the strongest in a field called `s`.

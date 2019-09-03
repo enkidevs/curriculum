@@ -14,7 +14,7 @@ category: must-know
 standards:
   mongodb.crud.3: 10
   mongodb.crud.7: 10
-  mongodb.field-update-operators.0: 10
+  mongodb.update-operators.0: 10
 
 links:
 
@@ -38,14 +38,14 @@ Output:
 
 ```javascript
 {
-  "_id" : 3,
-  "name" : "Charmander",
-  "type" : "Fire"
+  "_id": 3,
+  "name": "Charmander",
+  "type": "Fire"
 }
 {
-  "_id" : 6,
-  "name" : "Charizard",
-  "type" : "Fire"
+  "_id": 6,
+  "name": "Charizard",
+  "type": "Fire"
 }
 ```
 
@@ -61,9 +61,9 @@ Output:
 
 ```javascript
 {
-  "acknowledged" : true,
-  "matchedCount" : 2,
-  "modifiedCount" : 2
+  "acknowledged": true,
+  "matchedCount": 2,
+  "modifiedCount": 2
 }
 ```
 
@@ -77,14 +77,14 @@ Output:
 
 ```javascript
 {
-  "_id" : 3,
-  "name" : "Charmander",
-  "type" : "Flame"
+  "_id": 3,
+  "name": "Charmander",
+  "type": "Flame"
 }
 {
-  "_id" : 6,
-  "name" : "Charizard",
-  "type" : "Flame"
+  "_id": 6,
+  "name": "Charizard",
+  "type": "Flame"
 }
 ```
 

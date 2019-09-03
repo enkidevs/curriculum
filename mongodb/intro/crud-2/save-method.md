@@ -107,9 +107,9 @@ WriteResult({ nInserted: 1 })
 How the document looks:
 ```javascript
 { 
-  "_id": ObjectId("5d68a9beb63e7f6619512670"),
-  "name": "Unknown", 
-  "type": "Unknown" 
+  _id: ObjectId("5d68a9beb63e7f6619512670"),
+  name: "Unknown",
+  type: "Unknown"
 }
 ```
 

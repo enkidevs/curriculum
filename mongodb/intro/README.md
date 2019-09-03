@@ -100,6 +100,5 @@ standards:
         1: Use the $or operator to join 2 or more clauses together with a logical OR, and return all documents that match at least one of the specified expressions
         2: Use the $nor operator to join 2 or more clauses together with a logical NOR,  and return only documents that don't match all of the specified expressions
         3: Use the $not operator to invert the effect of the query.
-next:
-  - mongodb:intermediate
+
 

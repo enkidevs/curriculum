@@ -12,9 +12,9 @@ type: normal
 category: must-know
 
 standards:
+  mongodb.shell.0: 10
   mongodb.shell.1: 10
   mongodb.shell.2: 10
-  mongodb.shell.3: 10
 
 links:
 
