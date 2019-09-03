@@ -42,7 +42,7 @@ const collection = input.map(no => {
 });
 ```
 
-When rendering such lists inside a component, an additional **identity attribute** named `key` must be included for every element. `key`s should be unique among all sibling elements.
+When rendering such lists inside a component, an additional **identity attribute** named `key` must be included for every element. `key`s should be unique among all sibling elements[1].
 
 Consider the following **functional component**:
 ```jsx
@@ -111,4 +111,7 @@ What is the name of the **identity attribute** that must be included when creati
 * `identity`
 * `ref`
 
-
+---
+## Footnotes
+[1:keys]
+To get a better understanding of this, let's take a look at how React decides when it should render or re-render a component. Knowing that in its rawest form, a React component is just an object with a set of properties, each time a change occurs in these properties React will compare the new and old versions and, if a difference is detected, it will redraw the component. If the defined `key` is not unique, the order of the components might get mixed which will lead to React thinking that all components have changed (instead of just one). This, in turn, will lead to React re-rendering all the components (instead of just the one that was changed) which might lead to performance issues. Take a look at [this article](https://dev.to/jtonzing/the-significance-of-react-keys---a-visual-explanation--56l7) if you want to learn more about this.
