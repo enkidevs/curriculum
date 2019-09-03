@@ -27,7 +27,7 @@ parent: what-is-react
 ---
 ## Content
 
-**JSX** is syntactic sugar that brings an `XML`-like syntax to **JavaScript**. Here is how it looks like:
+**JSX** is syntactic sugar that brings an `HTML`-like syntax to **JavaScript**. Here is how it looks like:
 
 ```jsx
 const el = <h2>Enki!</h2>;
@@ -64,7 +64,7 @@ const el = {
 };
 ```
 
-**JSX**  allows you to embed JS expressions within it wrapping them with `{ }` curly brackets:
+**JSX** allows you to embed JS expressions within it wrapping them with `{ }` curly brackets:
 
 ```jsx
 const x = "Hey there!";

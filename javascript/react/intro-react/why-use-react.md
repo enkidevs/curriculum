@@ -28,12 +28,11 @@ aspects:
 In addition to the previously stated reasons developers are eager to adopt this library, **React** comes with many more interesting features such as:
 
 - great *performance* as a result of the **Virtual DOM** diff algorithm
-- **React**'s syntax is simple. Unlike other popular JS frameworks with specific syntax, **React** makes use of pure JS
+- **React**'s syntax is declarative[2]
 - easier debugging with **out-of-the-box tools** such as `React Chrome Extension`
-- **React** is good for *Search Engine Optimization* when employing server-side rendering
 - knowing **React** allows you to easily switch to **React Native** to build native mobile applications
 
-**React Native** is a different JS open-source library released by *Facebook* that follows the same design patterns as **React**. It's used to create applications for specific operating systems such as `Android`, `iOS` or `UWP`[2], but it lets you share a large percentage of code between them.
+**React Native** is a different JS open-source library released by *Facebook* that follows the same design patterns as **React**. It's used to create applications for specific operating systems such as `Android`, `iOS` or `UWP`[3], but it lets you share a large percentage of code between them.
 
 ---
 ## Practice
@@ -66,7 +65,10 @@ Which one of the following improves **React**'s performance the most?
 
 **Single-Page Applications** (SPAs) are Web apps that load a single `HTML` page and dynamically update that page as the user interacts with the app.
 
-[2:UWP]
+[2: Declarative Syntax]
+This means that you write your code such that it describes what you want to do, not how you want to do it. Figuring out how is left to the compiler.
+
+[3:UWP]
 
 **Universal Windows Platform** (UWP), is a platform-homogeneous application architecture created by *Microsoft* intended to help the development of universal applications that can run on multiple types of devices (*PC* and *Mobile*).
 
