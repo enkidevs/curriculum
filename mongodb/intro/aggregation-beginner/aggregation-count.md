@@ -23,7 +23,7 @@ links:
 ---
 ## Content
 
-In the previous insight, we learned how to aggregate using the `$match` aggregation pipeline stage. Now we are going to discuss the `$count` aggregation stage.
+In the previous insight we learned how to aggregate using the `$match` aggregation pipeline stage. Now we are going to discuss the `$count` aggregation stage.
 
 The `$count` aggregation stage is used to count the number of documents that entered the specified stage.
 
@@ -52,35 +52,31 @@ The `<string>` is the name of the field where the output will be displayed. The 
 We will use the same example as in the previous insight. Only this time, we will add the `$count` stage.
 
 ```javascript
-db.pokemon.aggregate(
-  [
-    {$match:
-      { power: {$lte: 200}}
-    },
-    {$count: "numOfWeakPokemon"}
-  ]
-)
+db.pokemon.aggregate([
+  { $match: { power: { $lte: 200 } } },
+  { $count: "numOfWeakPokemon" }
+])
 ```
 Output:
 ```javascript
 {
-  "numOfWeakPokemon" : 3
+  "numOfWeakPokemon": 3
 }
 ```
 
-In the previous example, our aggregation returned a document that displayed all the documents which matched the specified value. However, since we added the `$count` stage, the result passes both the `$match` and `$count` stage and then displayed the computed result.
+In the previous example, our aggregation returned a document that displayed all the records which matched the specified value. However, since we added the `$count` stage, the result passes both the `$match` and `$count` stage, and then the computed result is displayed.
 
 If we were to only use the `$count` stage, it would count the total number of documents located inside the collection.
 
 ```javascript
-db.pokemon.aggregate(
-    {$count: "numOfPokemon"}
-)
+db.pokemon.aggregate({
+  $count: "numOfPokemon"
+})
 ```
 Output:
 ```javascript
 {
-  "numOfPokemon" : 500
+  "numOfPokemon": 500
 }
 ```
 
@@ -113,14 +109,12 @@ Let's say we have a collection named `students` with 2000 documents. Each studen
 Count the number of students whose average grade is `95` or above and output the result in a field named `numOfExemplaryStudents`.
 
 ```javascript
-db.???.aggregate(
-  [
-    {???:
-      { ???: {???: 95}}
-    },
-    {???: "numOfExemplaryStudents"}
-  ]
-)
+db.???.aggregate([
+  {
+    ???: { ???: { ???: 95 } }
+  },
+  { ???: "numOfExemplaryStudents" }
+])
 
 //{
 //  "numOfExemplaryStudent" : 731
