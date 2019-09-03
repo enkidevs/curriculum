@@ -17,11 +17,11 @@ links:
 
 If we are running Docker on Linux, besides bind-mounts and volumes, we can use a third type of storage mechanism called a *tmpfs* mount.
 
-As opposed to volumes and bind mounts, a *tmpfs* mount is temporary, and only persisted in the host memory. When the container stops, the tmpfs mount is removed, and files written there won’t be persisted.
+As opposed to volumes and bind mounts, a *tmpfs* mount is temporary, and is only persisted in the host memory. When the container stops, the tmpfs mount is removed, and files written there won’t be persisted.
 
 This makes *tmpfs* mounts suitable for non-persistent state data and will also increase the container’s performance since it will not write into the container’s writable layer.
 
-Another reason to use *tmpfs* mounts is for security reasons if we don't want sensitive data to leak into the host or onto the container writable layer.
+Another reason to use *tmpfs* mounts is for security reasons: if we don't want sensitive data to leak into the host or onto the container's writable layer.
 
 Due to their temporary lifespan, *tmpfs* mounts cannot be shared among containers.
 
@@ -31,7 +31,7 @@ One way to specify usage of *tmpfs* is with the `--tmpfs` in the `docker run` co
 docker run --tmpfs ~/enki nginx
 ```
 
-As with volumes and bind mounts, the recommended approach due its better readability is to use the `--mount` flag:
+As with volumes and bind mounts, the recommended approach due to its better readability is to use the `--mount` flag:
 
 ```bash
 docker run \

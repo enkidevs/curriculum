@@ -19,15 +19,15 @@ By design, data in Docker containers doesn’t persist when that container no lo
 
 Since Docker containers are meant to be created many times over, they aren't suitable for storing persisted data.
 
-As a best practice, data is isolated from a container. This means that data management is distinctly independent from the container lifecycle.
+As a best practice, data is isolated from a container. This means that data management is distinctly independent from the container's lifecycle.
 
-Even though containers are immutable and their data gets removed when they do, it is still useful sometimes to persist data through a container(s) lifecycle.
+Even though containers are immutable and their data gets removed when they do, it is still useful sometimes to persist data through a container's lifecycle.
 
 In an ideal case, our containers should not contain unique data mixed in with the application binaries and should just recreate their contents on each deployment. However, this can't always be done.
 
-One example would be running a database container many times over without loosing the data in the actual database.
+One example would be running a database container many times over without losing the data in the actual database.
 
-To achieve data persistence for containers, Docker generally provides two options.
+To achieve data persistence for containers, Docker generally provides two options:
 
 1.  Volumes
 2.  Bind-mounts
