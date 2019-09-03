@@ -42,7 +42,7 @@ const collection = input.map(no => {
 });
 ```
 
-When rendering such lists inside a component, an additional **identity attribute** named `key` must be included for every element. `key`s should be unique to each **sibling element**.
+When rendering such lists inside a component, an additional **identity attribute** named `key` must be included for every element. `key`s should be unique among all sibling elements.
 
 Consider the following **functional component**:
 ```jsx
