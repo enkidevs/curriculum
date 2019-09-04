@@ -31,7 +31,7 @@ When applications become more complex, the *reduction function* can and should b
 This function will transform an object with different reducer functions as parameters into a single reducer function that can be passed to `createStore()`.
 
 Call the function:
-```jsx
+```js
 combineReducers({
   firstReducer: myFirstReducer,
   secondReducer: mySecondReducer
@@ -66,7 +66,7 @@ combineReducer({
 
 Consider we have the following reducers:
 
-```jsx
+```js
 // Products.js
 export default function products(
   state = [],
@@ -102,7 +102,7 @@ export default function counter(
 
 We can combine our `products` and `counter` reducers like so:
 
-```jsx
+```js
 // App.js
 import { combineReducers } from "redux";
 import products from "./Products";
