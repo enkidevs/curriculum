@@ -30,7 +30,7 @@ aspects:
 
 A **pure** function that returns a new object with the needed modifications can easily be implemented in **Redux**. However, if other properties are added later on to the object, you might need to update several pieces of your code.
 
-To avoid this, the `Object.assign()` method (introduced in **ES6**) can be used because it returns a new object with all enumerable properties of the *source* object:
+To avoid this, the `Object.assign()` method can be used because it returns a new object with all enumerable properties of the *source* object:
 
 ```jsx
 const target = { a: 1, b: 2 };

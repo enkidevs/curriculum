@@ -35,7 +35,7 @@ Using the `push()` standard method will alter the original object and should be 
 
 The key when inserting or removing a new item is that the original in-memory reference is not modified. This can be achieved by creating a copy of the array, and safely mutating the copy:
 
-```jsx
+```js
 function insertItem(array, action) {
   let newArray = array.slice();
   newArray.splice(
@@ -62,7 +62,7 @@ function insertItem(array) {
 
 When removing items, you can use:
 
-```jsx
+```js
 function removeItem(array, action) {
   let newArray = array.slice();
   newArray.splice(action.index, 1);
@@ -97,7 +97,7 @@ function removeItem(array, action) {
 
 Updating an item in an array is done by using the `Array.map` method together with the spread (`...`) operator:
 
-```jsx
+```js
 function updateItemInArray(array, action) {
   return array.map((item, index) => {
     if (index !== action.index) {
@@ -121,7 +121,7 @@ The last option is to use an immutability helper, like the `immutability-helper`
 
 Append `enki` to `myArray` using the spread operator in a **pure** fashion:
 
-```jsx
+```js
 return [???myArray, ???];
 ```
 
@@ -137,7 +137,7 @@ return [???myArray, ???];
 
 Append `enki` to `myArray` using the spread operator in a **pure** fashion:
 
-```
+```js
 return [???myArray, ???];
 ```
 

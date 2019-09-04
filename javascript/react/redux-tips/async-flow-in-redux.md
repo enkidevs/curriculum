@@ -35,7 +35,7 @@ Common strategies take advantage of promises by allowing them to be used somewhe
 
 Some well-known libraries are `redux-thunk` and `redux-promise`.
 
-The main difference between a custom implementation of middleware or using a specific package is that the former wraps the store’s `dispatch()` method and allows you to dispatch something other than actions such as functions. This functions do not have to be **pure**, so asynchronous API calls are permitted.
+There are two ways of adding capabilities to Redux, whether that is handling async operations or something else. The first one is to add one or more `middleware`s. The second is by enhancing the Redux store. 
 
 To use `redux-thunk`, you must first install the library. Here's how to do that using the NPM package manager:
 
@@ -45,7 +45,7 @@ npm install redux-thunk
 
 The next step consists of enabling Redux Thunk, which is done by calling `applyMiddleware(thunk)` when creating the store:
 
-```jsx
+```js
 import {
   createStore,
   applyMiddleware
@@ -60,7 +60,7 @@ const store = createStore(
 
 Now that we have enabled Redux Thunk, we can use it to create async functions. Here is an example:
 
-```jsx
+```js
 function increase() {
   return {
     type: "increase_counter"
@@ -78,7 +78,7 @@ function increase_async() {
 
 In the above example, the `increase_async` function will dispatch our `increase` action after waiting one second. It is also possible to create functions that dispatch after a certain condition has been fulfilled:
 
-```jsx
+```js
 function conditional_async() {
   return (dispatch, getState) => {
     const { counter } = getState();
