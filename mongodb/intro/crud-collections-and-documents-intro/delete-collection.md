@@ -16,8 +16,6 @@ standards:
   mongodb.crud.13: 10
   mongodb.crud.14: 10
 
-links:
-    - '[LINK DESCRIPTION](http://www.example.com){code}'
 
 ---
 # Delete a collection
@@ -36,7 +34,7 @@ show collections
 // Pokemon
 ```
 
-Here's how we can delete the 2nd collection called `Pokemon`.
+Here's how we can delete the 2nd collection called `Pokemon`:
 
 ```javascript
 db.Pokemon.drop()
