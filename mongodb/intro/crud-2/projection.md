@@ -27,11 +27,9 @@ When using the `.find()` method, all documents matching the specified criteria a
 
 Example:
 ```javascript
-db.pokemon.find(
-	{
-		"type":"Electric"
-	}
-)
+db.pokemon.find({
+  type: "Electric"
+})
 ```
 Output:
 ```javascript
@@ -66,26 +64,26 @@ Output:
 		]
 		 
 }
-...
+// ...
 ```
 Let's say we only wanted to display a particular field that matched our query. To do so, we need to use something called *projection*.
 
-*Projection* is used on a query to specify which fields will and which won't be displayed upon executing the query.
+*Projection* is used on a query to specify which fields will be displayed and which won't upon executing the query.
 The syntax is:
 ```javascript
 db.collection_name.find(
 	{query},
 	{projection}
-
 )
 ```
 
 ### Specifying which fields to display
+
 Using the same query as above, we are going to add *projection* to only display the `_id` and `name` fields of all documents whose `type` is `Electric`.
 ```javascript
 db.pokemon.find(
-	{ type: "Electric"} ,
-	{_id: 1, name: 1}
+  { type: "Electric" },
+  { _id: 1, name: 1 }
 )
 ```
 Output:
@@ -99,8 +97,8 @@ Output:
 Using the same query as above, we are going to add *projection* to omit the `_id`, `name` and `spells` fields and display all other fields for all documents whose `type` is `Electric`.
 ```javascript
 db.pokemon.find(
-	{ type: "Electric"} ,
-	{_id:0, name: 0, spells: 0}
+  { type: "Electric" },
+  { _id: 0, name: 0, spells: 0 }
 )
 ```
 Output:
@@ -109,14 +107,14 @@ Output:
 { "type": "Electric", "power": 453 }
 ```
 
-
 ---
 ## Practice
 
 What is *projection* used for?
+
 ???
 
-* `to specify which fields will and which won't be displayed upon executing the query.`
-* `only to specify which fields will be omitted from the query`
-* `Only to specify which fields will be displayed upon executing the query`
-* `To create a new document with the combined fields from all documents in the executed query`
+* To specify which fields will and which won't be displayed upon executing the query.
+* Only to specify which fields will be omitted from the query
+* Only to specify which fields will be displayed upon executing the query
+* To create a new document with the combined fields from all documents in the executed query
