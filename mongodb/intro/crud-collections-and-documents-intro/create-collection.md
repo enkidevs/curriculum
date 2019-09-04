@@ -26,18 +26,17 @@ links:
 
 To create a collection in MongoDB, you need to use the `db.createCollection(name, options)` command.
 
-**Note:** When creating a collection, you have to specify only the `name` parameter. The `options` parameter is not required and will be explained in a later workout.
-
+**Note:** When creating a collection, you only have to specify the `name` parameter. The `options` parameter is not required and will be explained in a later workout.
 
 ```javascript
 db.createCollection("pokemon")
 
-// { "ok" : 1 }
+// { "ok": 1 }
 ```
 
 **Note:** MongoDB will also automatically create a collection when you create/insert a new document. You don't really need to create a collection unless you want a specific configuration.
 
-To list all collections within a database, you need to use the `show collections` command.
+To list all collections within a database, you need to use the `show collections` command:
 
 ```javascript
 show collections
