@@ -26,7 +26,7 @@ aspects:
 You don't normally want every file in a project to be under version control. Files that control local configuration or compiled code files, for example, should be excluded and **Git** provides the `.gitignore` file.
 
 
-If **Git** finds a `.gitignore` file[1] in the root of your project, it will use it to automatically ignore all files specified by the *ignore rule*.
+If **Git** finds a `.gitignore` file [1] in the root of your project, it will use it to automatically ignore all files specified by the *ignore rule*.
 
 You can ignore single files:
 ```
