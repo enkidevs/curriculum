@@ -23,7 +23,7 @@ links:
 ---
 ## Content
 
-In the previous insight, we learned how to aggregate using the `$match` aggregation pipeline stage. Now we are going to discuss the `$count` aggregation stage.
+In the previous insight, we learned how to aggregate using the `$match` aggregation pipeline stage. Now, we are going to discuss the `$count` aggregation stage.
 
 The `$count` aggregation stage is used to count the number of documents that entered the specified stage.
 
@@ -49,7 +49,7 @@ The `<string>` is the name of the field where the output will be displayed. The 
 {$count: "total.Number"}
 ```
 
-We will use the same example as in the previous insight. Only this time, we will add the `$count` stage.
+We will use the same example as in the previous insight, only this time we will add the `$count` stage.
 
 ```javascript
 db.pokemon.aggregate([
@@ -116,9 +116,9 @@ db.???.aggregate([
   { ???: "numOfExemplaryStudents" }
 ])
 
-//{
-//  "numOfExemplaryStudent" : 731
-//}
+// {
+//   "numOfExemplaryStudent" : 731
+// }
 ```
 
 * `students`
