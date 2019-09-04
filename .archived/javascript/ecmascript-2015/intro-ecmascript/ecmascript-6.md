@@ -14,11 +14,11 @@ aspects:
 inAlgoPool: false
 
 links:
-  - '[EcmaScript 6 Features](https://github.com/lukehoban/es6features){website}'
+  - '[ECMAScript 6 Features](https://github.com/lukehoban/es6features){website}'
   - '[Babel](https://babeljs.io/){website}'
 
 ---
-# EcmaScript 6
+# ECMAScript 6
 
 ---
 ## Content

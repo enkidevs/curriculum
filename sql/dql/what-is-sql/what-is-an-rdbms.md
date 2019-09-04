@@ -38,44 +38,34 @@ links:
 
 _Relational Databases_ store data in _tables_, which are similar to a spreadsheet in that they've got rows and columns. When you want data in one _table_ to reference data in another _table_, you create a _relation_ between them. A Relational Database Management System is therefore the program that actually does the creating, reading, updating, searching, filtering, and relating. It does this using a Structured Query Language called SQL.
 
-SQL has two main parts, the Query part, and the Definition part. DDL stands for Data Definition Language, and that is how we define data the tables contain.
+SQL has three main elements:
+- the Definition part or DDL
+- the Modification part or DML
+- the Query part or DQL
 
-Here's an example of how a table can be created and defined:
+DDL stands for Data Definition Language, and that is how we define the data that the tables contain. The DDL commands are executed on the *Database Server*, and the database server creates space for it.
 
-```sql
-CREATE TABLE users (
-  id INT,
-  name VARCHAR(500)
-);
-```
+DML stands for Data Modification Language, and that is how we insert new information in the database, or how we alter the already existing data.
 
-This is executed on the *Database Server*, and the database server creates space for it.
-
-Then we could query it like this:
-
+DQL stands for Data Query Language, and that is how we retrieve data from a database. With DQL, we write commands that query from the *Database Client* and return the requested information. One simple example of DQL is returning all rows and columns from a table, and it is done using this syntax:
 ```sql
 SELECT * FROM users;
 ```
 
-We query from the *Database Client*.
-
 ---
 ## Practice
 
-How do you think we could create the `products` table?
+What do DDL and DQL stand for?
 
-```sql
-??? (
-  id INT,
-  name VARCHAR(500),
-  cost FLOAT
-);
-```
+DDL = ???
+DQL = ???
 
-* `CREATE TABLE products`
-* `MAKE TABLE products`
-* `rdbms.createTable('products')`
-* `sql.create.table('products')`
+* Data Definition Language
+* Data Query Language
+* Database Definition Language
+* Database Query Language
+* Duck Definition Language
+* Duck Query Language
 
 ---
 ## Revision
@@ -97,3 +87,4 @@ How do you think we could create a table called `coupons`?
  
  
  
+
