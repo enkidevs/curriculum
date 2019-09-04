@@ -20,7 +20,7 @@ standards:
 
 
 links:
-  - '[link to official documentation](https://docs.mongodb.com/manual/reference/method/db.dropDatabase/){documentation}'
+  - '[official-documentation](https://docs.mongodb.com/manual/reference/method/db.dropDatabase/){documentation}'
 ---
 # Delete a database
 ---
