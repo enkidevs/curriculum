@@ -21,7 +21,7 @@ standards:
   mongodb.logical-operators.0: 10
 
 links:
-  - '[link to official documentation](https://docs.mongodb.com/manual/reference/operator/query-comparison/){documentation}'
+  - '[official-documentation](https://docs.mongodb.com/manual/reference/operator/query-comparison/){documentation}'
 ---
 
 # Querying a collection using ranges
