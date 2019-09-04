@@ -32,11 +32,9 @@ The `updateOne()` method is used to update a single document, and the `updateMan
 
 The `updateOne()` method has 3 parameters `(filter, update, options)`.
 
-The `filter` is the criteria used for selecting a document you want to edit.
+The `filter` is the criteria used for selecting the document you want to edit.
 
-The `update` is the new modification for the value of the selected document. Possible values for modification are `$rename`, `$set` and `$unset`(we will only use the `$set` value in this workout).
-
-`$set` is used to replace a value for the selected field of the document. If the selected field doesn't exist, `$set` will create a new one with the specified value.
+The `update` is the new modification for the value of the selected document. Possible values for modification are `$rename`, `$set` and `$unset`(we will only use the `$set` value in this workout). `$set` is used to replace a value for the selected field of the document. If the selected field doesn't exist, `$set` will create a new one with the specified value.
 
 The `options` parameter is used for adding more options to the update method and will be discussed in a later workout.
 
@@ -63,7 +61,6 @@ db.pokemon.updateOne(
   { _id: 8 },
   { $set: { type: "Grass" } }
 );
-
 
 // OR
 
