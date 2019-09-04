@@ -29,21 +29,19 @@ links:
 To add a document in MongoDB, you need to use the `db.mycollection.insertOne()` command.
 
 ```javascript
-db.pokemon.insertOne(
-  {
-    _id: 1,
-    name: "Pikachu",
-    type: "Electric"
-  }
-)
+db.pokemon.insertOne({
+  _id: 1,
+  name: "Pikachu",
+  type: "Electric"
+})
 ```
 
 Output:
 
 ```javascript
 {
-  "acknowledged" : true,
-  "insertedId" : 1
+  "acknowledged": true,
+  "insertedId": 1
 }
 ```
 
@@ -56,19 +54,19 @@ To add multiple documents to the `pokemon` database, you need to use the `db.pok
 ```javascript
 db.pokemon.insertMany([
   {
-    _id:2,
-    name:"Bulbasaur",
-    type:"Grass"
+    _id: 2,
+    name: "Bulbasaur",
+    type: "Grass"
   },
   {
-    _id:3,
-    name:"Charmander",
-    type:"Fire"
+    _id: 3,
+    name: "Charmander",
+    type: "Fire"
   },
   {
-    _id:4,
-    name:"Squirtle",
-    type:"Water"
+    _id: 4,
+    name: "Squirtle",
+    type: "Water"
   }
 ])
 ```
@@ -77,8 +75,8 @@ Output:
 
 ```javascript
 {
-  "acknowledged" : true,
-  "insertedIds" : [ 2, 3, 4 ]
+  "acknowledged": true,
+  "insertedIds": [ 2, 3, 4 ]
 }
 ```
 
@@ -104,19 +102,19 @@ Complete the following code to add 3 documents to the `pokemon` database.
 ```javascript
 db.pokemon.???([
   {
-    ???:2,
-    name:"Bulbasaur",
-    type:"Grass"
+    ???: 2,
+    name: "Bulbasaur",
+    type: "Grass"
   },
   {
-    _id:3,
-    ???:"Charmander",
-    type:"Fire"
+    _id: 3,
+    ???: "Charmander",
+    type: "Fire"
   },
   {
-    _id:???,
-    name:"Squirtle",
-    ???:"Water"
+    _id: ???,
+    name: "Squirtle",
+    ???: "Water"
   }
 ])
 ```
