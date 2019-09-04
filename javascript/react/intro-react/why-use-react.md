@@ -27,12 +27,12 @@ aspects:
 
 In addition to the previously stated reasons developers are eager to adopt this library, **React** comes with many more interesting features such as:
 
-- great *performance* as a result of the **Virtual DOM** diff algorithm
-- **React**'s syntax is declarative[2]
+- great *performance* as a result of the **Virtual DOM** diff algorithm[2]
+- **React**'s syntax is declarative[3]
 - easier debugging with **out-of-the-box tools** such as `React Chrome Extension`
 - knowing **React** allows you to easily switch to **React Native** to build native mobile applications
 
-**React Native** is a different JS open-source library released by *Facebook* that follows the same design patterns as **React**. It's used to create applications for specific operating systems such as `Android`, `iOS` or `UWP`[3], but it lets you share a large percentage of code between them.
+**React Native** is a different JS open-source library released by *Facebook* that follows the same design patterns as **React**. It's used to create applications for specific operating systems such as `Android`, `iOS` or `UWP`[4], but it lets you share a large percentage of code between them.
 
 ---
 ## Practice
@@ -65,10 +65,19 @@ Which one of the following improves **React**'s performance the most?
 
 **Single-Page Applications** (SPAs) are Web apps that load a single `HTML` page and dynamically update that page as the user interacts with the app.
 
-[2: Declarative Syntax]
+[2:VDOM]
+The Virtual DOM (or VDOM) is nothing more but a programming concept in which a "virtual" representation of the UI is kept in memory. It is synced with the "real" DOM by using a library, which in our case is the `ReactDOM` library. The Virtual DOM provides increased performance because only the parts of the app that have been changed are re-rendered, instead of re-rendering the whole application.
+```jsx
+<div className="first" />
+
+<div className="second"/>
+```
+In this case, React know to only modify the `className` on the underlying DOM node. For more information on the **diff algorithm** that React uses make sure to check out [this article](https://reactjs.org/docs/reconciliation.html).
+
+[3:Declarative Syntax]
 This means that you write your code such that it describes what you want to do, not how you want to do it. Figuring out how is left to the compiler.
 
-[3:UWP]
+[4:UWP]
 
 **Universal Windows Platform** (UWP), is a platform-homogeneous application architecture created by *Microsoft* intended to help the development of universal applications that can run on multiple types of devices (*PC* and *Mobile*).
 
