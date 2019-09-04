@@ -45,7 +45,7 @@ Some popular key-value databases are **Oracle NoSQL Database**, **Redis**, **Goo
 
 Column families are comprised of rows and columns, but unlike a relational database, the names and format of the columns can vary from row to row within the same family. Each column family can have multiple rows, and each row can have a different number of columns. The columns can also differ from one another, in length, type of data they store, have different names, etc.
 
-Each row also has a unique key used to identify that row either for modifying or deleting data(Like key-value databases).
+Each row also has a unique key used to identify that row either for modifying or deleting data (like key-value databases).
 
 Since the column names, as well as the record keys are not fixed, Column databases can be seen as two-dimensional key-value databases, where a combination of column and row id serves as a "key" for fast data lookups.
 
@@ -61,11 +61,11 @@ Some popular `Graph` databases are **GraphD**, **Neo4j**, **ArangoDB**, **Orient
 
 ### Document databases
 
-**Document databases** represent an extension to `Key-value` databases.  They store data in sets of key-value dictionaries called *documents*, encoded as JSON, BSON (Strictly on MongoDB), XML or YAML.
+**Document databases** represent an extension to `Key-value` databases. They store data in sets of key-value dictionaries called *documents*, encoded as JSON, BSON (Strictly on MongoDB), XML or YAML.
 
 Document databases organize documents into groups called *collections*.
 
-Unlike a Key-Value database where a key-value dictionary is inherently opaque to the database, a Document database understands the internal structure of these dictionaries.
+Unlike a Key-Value database, where a key-value dictionary is inherently opaque to the database, a Document database understands the internal structure of these dictionaries.
 
 This allows us to query a Document database for information based on any part of a document's shape, not just the key.
 
