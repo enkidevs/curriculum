@@ -29,7 +29,7 @@ aspects:
 ---
 ## Content
 
-There are different ways of creating a **pure** function needed in **Redux** for generating a new array of items. These types of functions are necessary because Redux takes a given state, passes it to each `reducer`, and finally it expects a new object if there are any changes. If we mutate the old state in a `reducer`, both the old state and the new state point to the same object, resulting in Redux thinking that there has been no change.
+There are different ways of creating a **pure** function needed in **Redux** for generating a new array of items. These types of functions are necessary for `reducers` because Redux takes a given state, passes it to each `reducer`, and finally it expects a new object if there are any changes. If we mutate the old state in a `reducer`, both the old state and the new state point to the same object, resulting in Redux thinking that there has been no change.
 
 Using the `push()` standard method will alter the original object and should be avoided because it is not **pure**.
 
