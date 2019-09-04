@@ -38,7 +38,7 @@ The syntax for `$group` is:
 
 Only the `_id` field is mandatory. Everything else is optional.
 
-Some accumulators:
+Here are some accumulators you can use:
 - `$avg` calculates an average of the numerical values and returns the computed result.
 - `$mergeObjects` combines documents and returns the computed document for each group.
 - `$sum` calculates the sum of the input.
@@ -67,9 +67,9 @@ Output:
 { "_id": "Water" }
 ```
 
-**Note:** As you can notice in the example above, when adding the name of the field you want grouped by you have to add a `$` before the name. This is the normal syntax for this aggregation stage.
+**Note:** As you can notice in the example above, when adding the name of the field you want you want your collection grouped by, you have to add a `$` before the name. This is the normal syntax for this aggregation stage.
 
-Now we know which `type`s of pokémon we have, however, we don't know how many documents each type has. We can easily count it by adding a comma after the `_id : "$type"` and adding `count: { $sum: 1 }`.
+Now we know which `type`s of pokémon we have, however, we don't know how many documents each type has. We can easily count it by adding a comma after the `_id: "$type"` and adding `count: { $sum: 1 }`.
 
 ```javascript
 db.pokemon.aggregate([
