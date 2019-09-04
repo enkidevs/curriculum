@@ -28,11 +28,11 @@ links:
 
 In the previous insight, we discussed how to query using the `$lt`, `$gt`, `$lte` and `$gte` operators.
 
-Now, we are going to discuss how to find a range between two values using a combination of the 4 previously explained operators and the `$and` logical operator.
+Now, we are going to discuss how to define a range between two values using a combination of the 4 previously explained operators together with the `$and` logical operator.
 
-The `$and` logical operator is used to join 2 or more expressions together to query data more precisely. When we query with the `$and` operator, no matter the number of expressions located inside, all expressions have to evaluate to true.
+The `$and` logical operator is used to join two or more expressions together to query data more precisely. When we query with the `$and` operator, no matter the number of expressions located inside, all expressions have to evaluate to true.
 
-Let's say we want to find all the pokémon whose `power` ranges between 250 and 350, we would need to use 2 or more of the above operators together with the `$and` operator to achieve this. If we would use them without `$and` it would not give a range between the two values, but rather all values lower than and greater than the specified ones.
+Let's say we want to find all the pokémon whose `power` ranges between 250 and 350. For this, we would need to use 2 or more of the above operators together with the `$and` operator. If we would use them without `$and` it would not give a range between the two values, but rather all values lower than and greater than the specified ones.
 
 Example without `$and`:
 ```javascript
@@ -41,6 +41,7 @@ db.pokemon.find({
   power: { $lt: 450 }
 })
 ```
+
 Output:
 ```javascript
 {
