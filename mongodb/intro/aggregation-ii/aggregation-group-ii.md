@@ -25,7 +25,7 @@ links:
 
 Next to summing values with the `$sum` accumulator, there are many more accumulators we can use for the `$group` aggregation pipeline stage.
 
-We can use the `$avg` accumulator to calculate averages. For instance, let's say we want to group all pokémon by their `type` and calculate the average `power` for all pokémon of each `type`. We can do so like this:
+One good example is using the `$avg` accumulator to calculate averages. For instance, let's say we want to group all pokémon by their `type` and calculate the average `power` for all pokémon of each `type`. We can do so like this:
 ```javascript
 db.pokemon.aggregate([
   {
@@ -144,7 +144,7 @@ Output:
 ---
 ## Practice
 
-Group and calculate the average `age` of all pokémon within the `pokemon` collection and return the result in a field called `"averagePower"`.
+Group and calculate the average `age` of all pokémon within the `pokemon` collection. Return the result in a field called `"averagePower"`.
 
 ```javascript
 db.???.???([
