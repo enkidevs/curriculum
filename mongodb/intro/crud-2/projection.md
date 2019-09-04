@@ -14,7 +14,6 @@ category: must-know
 standards: 
   mongodb.crud.21: 10
   mongodb.crud.4: 10
-links:
 
 ---
 # Projection

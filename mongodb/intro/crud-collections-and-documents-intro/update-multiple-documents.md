@@ -16,8 +16,6 @@ standards:
   mongodb.crud.7: 10
   mongodb.update-operators.0: 10
 
-links:
-
 ---
 # Update multiple documents
 

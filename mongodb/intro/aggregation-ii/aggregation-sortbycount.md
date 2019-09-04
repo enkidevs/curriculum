@@ -16,8 +16,6 @@ standards:
   mongodb.aggregation-pipeline.5: 10
   mongodb.aggregation-pipeline.9: 10
 
-links:
-
 ---
 # Aggregation sortByCount
 ---

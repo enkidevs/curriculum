@@ -16,8 +16,6 @@ standards:
   mongodb.crud.12: 10
   mongodb.crud.13: 10
 
-links:
-
 ---
 # Create a collection
 

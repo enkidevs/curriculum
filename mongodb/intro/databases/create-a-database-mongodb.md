@@ -18,8 +18,6 @@ standards:
   mongodb.database.2: 10
   mongodb.database.3: 10
 
-links:
-
 ---
 # Create a database
 ---

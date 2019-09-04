@@ -18,8 +18,6 @@ standards:
   mongodb.comparison-operators.7: 10
   mongodb.logical-operators.0: 10
 
-links:
-
 ---
 # query-documents-4
 ---

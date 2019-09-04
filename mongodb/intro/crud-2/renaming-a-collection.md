@@ -14,8 +14,6 @@ category: must-know
 standards: 
   mongodb.crud.17: 10
 
-links:
-
 ---
 # Renaming a collection
 ---
