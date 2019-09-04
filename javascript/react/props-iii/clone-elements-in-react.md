@@ -42,7 +42,7 @@ React.cloneElement(
 );
 ```
 
-A new `ReactElement` will be returned using the provided `element` as the starting point. The old `props` will be merged in shallowly with the new specified ones. Furthermore, new `children` will replace old ones.
+A new element will be returned using the provided element as the starting point. The old `props` will be merged in shallowly with the new specified ones. Furthermore, new `children` will replace old ones.
 
 Keep in mind that using:
 ```jsx
