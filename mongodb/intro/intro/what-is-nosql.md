@@ -40,7 +40,7 @@ The notable aspects that most NoSQL databases share are:
 
 - **Not `ACID`**: Most NoSQL stores lack true ACID transactions [1], although a few databases have made them central to their designs. In computer science, `ACID` stands for a set of properties (Atomicity, Consistency, Isolation, Durability) intended to guarantee validity even in the event of errors, power failures, etc.
 
-NoSQL databases increase the amount of potential data storage options business can use, allowing companies to use more-specialized technologies for certain kinds of data. This idea is commonly known as *polyglot persistence*.
+NoSQL databases increase the amount of potential data storage options a business can use, allowing companies to use more-specialized technologies for certain kinds of data. This idea is commonly known as *polyglot persistence*.
 
 ---
 ## Practice
