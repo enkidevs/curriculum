@@ -27,8 +27,7 @@ links:
 ---
 ## Content
 
-The `$sort` aggregation stage is used to sort all the documents you want to enter into the aggregation pipeline.
-Syntax:
+The `$sort` aggregation stage is used to sort all the documents you want to enter into the aggregation pipeline. The syntax looks like this:
 ```javascript
 {
   $sort:
@@ -38,10 +37,9 @@ Syntax:
   }
 }
 ```
-The `field` is the field you want the documents to be sorted by.
-The `sort order` is the order of the documents.
+The `field` represents the field you want the documents to be sorted by.
 
-Possible values for `sort order` are:
+The `sort order` is the order of the documents. The possible values for `sort order` are:
 - `1` for ascending order.
 - `-1` for descending order.
 
