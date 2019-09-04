@@ -35,11 +35,7 @@ To see ways you can use the `mongo` shell command, pass in the `help` flag:
 mongo --help
 ```
 
-After starting the shell, a series of commands will be available to you.
-
-You can CRUD (Create, Read, Update and Delete) a database, CRUD collections and documents, and more.
-
-To see a list of those commands, use the `help` command:
+After starting the shell, a series of commands will be available to you. You can CRUD (Create, Read, Update and Delete) a database, CRUD collections and documents, and more. To see a list of those commands, use the `help` command:
 
 ```shell
 help
