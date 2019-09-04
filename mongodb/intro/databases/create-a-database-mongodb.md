@@ -26,6 +26,7 @@ links:
 ## Content
 
 In MongoDB, the `use NAME_OF_DATABASE` command is used to either create a new database or switch to an existing one.
+
 **Note:** If you do not create a new database, the default `test` database will be used.
 
 ```javascript
@@ -36,9 +37,7 @@ use digimon
 // switched to db digimon
 ```
 
-**Note:** the names of databases are case sensitive.
-
-This means that if you want to switch from the current database to the `pokemon` one, you shouldn't write `use Pokemon` because that would create a new database instead of switching to your desired one.
+It is important to know that the names of databases are case sensitive. This means that if you want to switch from the current database to the `pokemon` one, you shouldn't write `use Pokemon` because that would create a new database instead of switching to your desired one.
 
 ```javascript
 use Pokemon
@@ -52,7 +51,7 @@ db
 // Pokemon
 ```
 
-To list all the databases you need to use the `show dbs` command.
+To list all the databases, you need to use the `show dbs` command.
 
 **Note:** Empty databases won't show with the `show dbs` command.
 
