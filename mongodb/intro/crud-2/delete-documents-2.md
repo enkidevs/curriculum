@@ -15,8 +15,6 @@ standards:
   mongodb.crud.22: 10
   mongodb.crud.23: 10
 
-links:
-
 ---
 # Deleting documents 2
 ---

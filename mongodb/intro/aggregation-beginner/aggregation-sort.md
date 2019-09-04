@@ -20,8 +20,6 @@ standards:
   mongodb.aggregation-pipeline.4: 10
   mongodb.aggregation-pipeline.5: 10
 
-links:
-
 ---
 # Aggregation $sort
 ---

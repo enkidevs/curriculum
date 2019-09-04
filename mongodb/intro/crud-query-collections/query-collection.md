@@ -17,8 +17,6 @@ standards:
   mongodb.comparison-operators.4: 10
   mongodb.logical-operators.1: 10
 
-links:
-
 ---
 # Querying a collection
 

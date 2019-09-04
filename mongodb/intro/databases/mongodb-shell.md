@@ -16,8 +16,6 @@ standards:
   mongodb.shell.1: 10
   mongodb.shell.2: 10
 
-links:
-
 ---
 # mongodb-shell
 ---

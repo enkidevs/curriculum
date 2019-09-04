@@ -16,8 +16,6 @@ standards:
   mongodb.crud.3: 10
   mongodb.crud.4: 10
 
-links:
-
 ---
 # Read documents
 

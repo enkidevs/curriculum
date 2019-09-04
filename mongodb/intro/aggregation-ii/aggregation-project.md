@@ -17,8 +17,6 @@ standards:
   mongodb.aggregation-pipeline.0: 10
   mongodb.aggregation-pipeline.7: 10
 
-links:
-
 ---
 # Aggregation $project
 ---

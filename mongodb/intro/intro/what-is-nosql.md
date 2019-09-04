@@ -12,10 +12,6 @@ type: normal
 
 category: must-know
 
-standards:
-
-links:
-
 ---
 # what-is-nosql
 ---

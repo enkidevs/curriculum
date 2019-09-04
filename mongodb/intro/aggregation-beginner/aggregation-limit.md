@@ -17,8 +17,6 @@ standards:
   mongodb.aggregation-pipeline.2: 10
   mongodb.aggregation-pipeline.5: 10
 
-links:
-
 ---
 # Aggregation limit
 ---

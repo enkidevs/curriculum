@@ -15,8 +15,6 @@ standards:
   mongodb.crud.15: 10
   mongodb.crud.0: 10
   mongodb.crud.5: 10
-  
-links:
 
 ---
 # The save() command

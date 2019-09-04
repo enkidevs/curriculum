@@ -16,8 +16,6 @@ standards:
   mongodb.aggregation-pipeline.6: 10
   mongodb.aggregation-pipeline.8: 10
 
-links:
-
 ---
 # Aggregation group
 ---
