@@ -36,15 +36,15 @@ Let's say we want to delete a pokemon named `Snorlax` from the `pokemon` collect
 ```javascript
 db.pokemon.deleteOne({
   name: "Snorlax"
-});
+});;
 ```
 
 Output:
 
 ```javascript
 {
-  "acknowledged" : true,
-  "deletedCount" : 1
+  "acknowledged": true,
+  "deletedCount": 1
 }
 ```
 
@@ -56,7 +56,7 @@ db.pokemon.deleteOne({
 });
 ```
 
-but this method would only delete the first Pokémon document of that type. If we wanted to delete all Pokémon of that type, we would need to use the `db.pokemon.deleteMany()` method.
+This method would only delete the first Pokémon document of that type. If we wanted to delete all Pokémon of that type, we would need to use the `db.pokemon.deleteMany()` method.
 
 ### Delete Multiple Documents
 
@@ -74,8 +74,8 @@ Output:
 
 ```javascript
 {
-  "acknowledged" : true,
-  "deletedCount" : 5
+  "acknowledged": true,
+  "deletedCount": 5
 }
 ```
 
@@ -89,8 +89,8 @@ Output:
 
 ```javascript
 {
-  "acknowledged" : true,
-  "deletedCount" : 12
+  "acknowledged": true,
+  "deletedCount": 12
 }
 ```
 
@@ -103,13 +103,17 @@ Delete the first document in the `pokemon` table of type `Fire`.
   ???: ???
 })
 ```
-Delete all documents within the `pokemon` collection: ???
+Delete all documents within the `pokemon` collection: 
+
+```js
+???
+```
 
 * `db`
 * `deleteOne`
 * `type`
 * `"Fire"`
-* `db.pokemon.deleteMany({})`
+* `db.pokemon.deleteMany()`
 * `db.pokemon.delete({})`
 * `db.pokemon.deleteAll()`
 * `database`
