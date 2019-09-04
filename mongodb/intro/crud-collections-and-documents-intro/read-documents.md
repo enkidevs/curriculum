@@ -104,7 +104,7 @@ Result:
 
 You can sort your result with the `.sort({})` method in either ascending or descending order by any field.
 
-The syntax is `.sort({ field_name: 1 or -1 })`:
+The syntax is `.sort({ field_name: 1 or -1 })` where:
 - `1` is ascending.
 - `-1` is descending.
 
