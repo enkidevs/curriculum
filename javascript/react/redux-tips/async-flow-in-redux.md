@@ -29,7 +29,11 @@ aspects:
 
 The default **Redux** store only supports synchronous data flow. However, with the help of `middleware`s, asynchronous data flow is also possible.
 
-Packages such as `redux-thunk` and `redux-promise` provide syntax sugar as to help you achieve such data flow.
+Dealing with async operations in Redux is usually achieved with external libraries that enhance Redux with additional capabilities allowing you to handle async behavior.
+
+Common strategies take advantage of promises by allowing them to be used somewhere in the Redux data flow: returned from action dispatching, sent via action creators, etc. With any strategy, an async library will typically send an initial action when an async operation begins (a promise is created), then send another action (either success or error) when the async operation ends (a promise is settled).
+
+Some well-known libraries are `redux-thunk` and `redux-promise`.
 
 The main difference between a custom implementation of middleware or using a specific package is that the former wraps the store’s `dispatch()` method and allows you to dispatch something other than actions such as functions. This functions do not have to be **pure**, so asynchronous API calls are permitted.
 
