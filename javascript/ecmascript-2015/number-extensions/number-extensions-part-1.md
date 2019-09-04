@@ -24,9 +24,7 @@ links:
 ---
 ## Content
 
-Number benefits from a number of new methods saving you from writing your own potentially error prone implementation.
-
-There are a large number so here are some of the ones that are likely to have more use:
+The `Number` class benefits from many new methods saving you from writing your own potentially error prone-implementation. Because of the increased number of methods available, this insight will explain the ones you are more likely to use.
 
 ### Number.isFinite
 
@@ -48,19 +46,26 @@ Number.isInteger(0.1); //false
 
 ### Number.isNaN
 
-Before ES6 it was difficult to test if a value was equal to *NaN* (Not a number). This is because NaN == NaN evaluates to false.
+Before ES6 it was difficult to test if a value was equal to `NaN` (Not a number). This is because `NaN == NaN` evaluates to false.
 
-Whilst a global *isNaN* function has existed in previous versions it has the issue that it converts values which makes it hard to test if something is really *NaN*:
+Whilst a global `isNaN` function has existed in previous versions, it converts the given value to a number before checking if the given number is equal to `NaN`, making it hard to test if something is really `NaN`:
 
 ```javascript
 isNaN("Enki") == true; //true
 ```
 
-Number.isNaN allows you to easily test if a number really is NaN:
+`Number.isNaN` allows you to easily test if a number really is `NaN`:
 
 ```javascript
 Number.isNaN(1); //false
 Number.isNaN(Number.NaN); //true
+```
+
+One reliable way[1] to check if a given string is a valid number is:
+
+```js
+const isNum = num =>
+  num !== "" && Number(num) === Number(num);
 ```
 
 ---
@@ -69,10 +74,10 @@ Number.isNaN(Number.NaN); //true
 What is the output of the following two calls?
 
 ```javascript
-const enki = 'enki';
+const enki = "enki";
 
-isNaN(enki)
-Number.isNaN(enki)
+isNaN(enki);
+Number.isNaN(enki);
 // ???
 ```
 
@@ -84,7 +89,7 @@ Number.isNaN(enki)
 ---
 ## Revision
 
-Complete the missing calls with methods introduced in ES6 such that all the statements are true:
+Complete the missing calls with methods such that all the statements are true:
 
 ```javascript
 
@@ -103,3 +108,8 @@ Number.???(Number.NaN) // true
 * NaN
 * isNotNaN
  
+---
+## Footnotes
+
+[1: Checking if a value is numerical]
+It is worth noting the fact that `!Number.isNaN(<value>)` and `Number.parseFloat(<value>)` are not reliable ways of checking if a value is numerical or not. This is because `!Number.isNaN("")` evaluates to `true`, and while `Number.parseFloat("")` does evaluate to `NaN`, it fails on input like `"1.1.1"` and results in `1.1` as output.

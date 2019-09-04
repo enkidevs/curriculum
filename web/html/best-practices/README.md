@@ -2,7 +2,7 @@ name: Best Practices
 
 type: insights-list
 
-description: TODO
+description: Learn how to write the *best* HTML code.
 
 section: 0
 

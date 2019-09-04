@@ -30,7 +30,7 @@ Like most programming languages, JavaScript has a number of syntax rules that mu
 
 ### Semicolon
 
-In EcmaScript it is best practice to add a semicolon at the end of a statement:
+In ECMAScript it is best practice to add a semicolon at the end of a statement:
 
 ```javascript
 var company="enki";

@@ -33,7 +33,7 @@ JavaScript has the following primitive types:
 - boolean
 - number
 - string
-- symbol (new to EcmaScript 6)
+- symbol (new to ECMAScript 6)
 
 There are also a few special types - `Array`, `Date`, `RegExp` - that are types of `Object` but included out of the box.
 
