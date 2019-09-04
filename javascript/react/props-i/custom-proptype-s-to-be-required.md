@@ -87,7 +87,7 @@ Consider you need to implement a custom `propTypes` validator. What would your c
 
 * throw an error
 * send a notification to the user
-* crash the webpage
+* show a warning
 * don't allow the component to render again
 
 ---
