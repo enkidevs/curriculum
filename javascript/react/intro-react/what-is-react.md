@@ -84,4 +84,4 @@ Even though the **HTML** and **DOM** are closely related, they are not the same 
 Languages such as *CSS* or *JavaScript** manipulate the **DOM** and not the **HTML**.
 
 [4:Virtual DOM]
-This is also referred to as the Virtual DOM or VDOM. It represents a concept in which a "virtual" representation of the UI is kept in memory and synced with the "real" DOM by a libray. In our case, this library is `ReactDOM`.
+This is also referred to as the Virtual DOM or VDOM. It represents a concept in which a "virtual" representation of the UI is kept in memory and synced with the "real" DOM by a library. In our case, this library is `ReactDOM`.
