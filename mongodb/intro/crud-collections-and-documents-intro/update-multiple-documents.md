@@ -24,14 +24,12 @@ links:
 ---
 ## Content
 
-The  `updateMany()` method is used to update multiple documents.
-
-The `updateMany()` method has the same 3 parameters as the `updateOne` method; `(filter, update, options)`.
+The  `updateMany()` method is used to update multiple documents. This method has the same 3 parameters as the `updateOne` method: `(filter, update, options)`.
 
 Let's say we have a `pokemon` collection with 2 Pokémon of `type` `Fire`.
 
 ```javascript
-db.pokemon.find({ "type": "Fire" })
+db.pokemon.find({ type: "Fire" })
 ```
 
 Output:
@@ -67,10 +65,10 @@ Output:
 }
 ```
 
-If we check the `pokemon` collection for  `"type": "Flame"` Pokémon we would get:
+Now, if we check the `pokemon` collection for Pokémon that have `"type": "Flame"` we would get:
 
 ```javascript
-db.pokemon.find({ "type": "Flame" })
+db.pokemon.find({ type: "Flame" })
 ```
 
 Output:
