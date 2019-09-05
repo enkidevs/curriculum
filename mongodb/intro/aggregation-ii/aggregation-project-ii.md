@@ -12,7 +12,7 @@ aspects:
 
 type: normal
 
-category: feature
+category: how to
 
 standards:
   mongodb.aggregation-pipeline.0: 10

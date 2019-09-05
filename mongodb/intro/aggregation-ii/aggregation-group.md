@@ -9,7 +9,7 @@ aspects:
 
 type: normal
 
-category: feature
+category: must-know
 
 ---
 # Aggregation group

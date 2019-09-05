@@ -12,7 +12,7 @@ aspects:
 
 type: normal
 
-category: feature
+category: how to
 
 ---
 # Aggregation $sort

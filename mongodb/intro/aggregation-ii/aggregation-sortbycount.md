@@ -11,7 +11,7 @@ aspects:
 
 type: normal
 
-category: feature
+category: tip
 
 ---
 # Aggregation sortByCount

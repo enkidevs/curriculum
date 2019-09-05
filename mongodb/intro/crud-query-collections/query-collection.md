@@ -10,7 +10,7 @@ aspects:
 
 type: normal
 
-category: feature
+category: how to
 
 ---
 # Querying a collection

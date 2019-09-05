@@ -10,7 +10,7 @@ aspects:
 
 type: normal
 
-category: feature
+category: how to
 
 links:
   - '[official-documentation](https://docs.mongodb.com/manual/reference/operator/query-comparison/){documentation}'

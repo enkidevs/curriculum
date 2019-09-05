@@ -9,7 +9,7 @@ aspects:
 
 type: normal
 
-category: must-know
+category: how to
 
 ---
 # Update a single document
