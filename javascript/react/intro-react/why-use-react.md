@@ -66,13 +66,13 @@ Which one of the following improves **React**'s performance the most?
 **Single-Page Applications** (SPAs) are Web apps that load a single `HTML` page and dynamically update that page as the user interacts with the app.
 
 [2:VDOM]
-The Virtual DOM (or VDOM) is a programming concept in which a "virtual" representation of the DOM is kept in memory. It is synced with the "real" DOM by using a library, which in React's case is the `ReactDOM` library. The Virtual DOM provides increased performance because it reduced the need for expensive interactions with the actual DOM. Most data changes in React stay in the virtual, in-memory DOM and only propagate to the actual DOM if necessary.
+The Virtual DOM (or VDOM) is a programming concept in which a "virtual" representation of the DOM is kept in memory. It is synced with the "real" DOM by using a library, which in React's case is the `ReactDOM` library. The Virtual DOM provides increased performance because it reduces the need for expensive interactions with the actual DOM. Most data changes in React stay in the virtual, in-memory DOM and only propagate to the actual DOM if necessary.
 ```jsx
 <div className="first" />
 
 <div className="second"/>
 ```
-In this case, React knows to only modify the `className` on the underlying DOM node. For more information on the **diff algorithm** that React uses to make sure to check out [this article](https://reactjs.org/docs/reconciliation.html).
+In this case, React knows to only modify the `className` on the underlying DOM node. For more information on the **diff algorithm** that React uses, make sure to check out [this article](https://reactjs.org/docs/reconciliation.html).
 
 [3:Declarative Syntax]
 This means that you write your code such that it describes what you want to do, not how you want to do it. Figuring out how is an implementation detail of the runtime system.
