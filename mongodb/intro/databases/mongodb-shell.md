@@ -22,7 +22,7 @@ Before creating or accessing a database in MongoDB, you should first start the M
 mongo
 ```
 
-To see ways you can use the `mongo` shell command, pass in the `help` flag:
+To see ways you can use the `mongo` shell command, pass in the `--help` flag:
 
 ```shell
 mongo --help
