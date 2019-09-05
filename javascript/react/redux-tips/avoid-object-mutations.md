@@ -55,7 +55,7 @@ return Object.assign({}, myObj, {
   myProperty: newValue
 });
 ```
-Note that if there are two objects that have different values for the same property, the last one wins.
+Note that if there are two objects that have different values for the same property, the rightmost object wins.
 
 Another approach to this problem is to use the new **spread operator**(`...`):
 
