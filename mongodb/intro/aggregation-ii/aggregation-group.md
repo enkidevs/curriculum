@@ -9,12 +9,7 @@ aspects:
 
 type: normal
 
-category: must-know
-
-standards:
-  mongodb.aggregation-pipeline.0: 10
-  mongodb.aggregation-pipeline.6: 10
-  mongodb.aggregation-pipeline.8: 10
+category: feature
 
 ---
 # Aggregation group

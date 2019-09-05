@@ -12,11 +12,6 @@ type: normal
 
 category: must-know
 
-standards:
-  mongodb.crud.13: 10
-  mongodb.crud.14: 10
-
-
 ---
 # Delete a collection
 

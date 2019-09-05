@@ -12,12 +12,6 @@ type: normal
 
 category: must-know
 
-standards:
-  mongodb.database.0: 10
-  mongodb.database.1: 10
-  mongodb.database.2: 10
-  mongodb.database.3: 10
-
 ---
 # Create a database
 ---

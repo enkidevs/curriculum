@@ -10,12 +10,7 @@ aspects:
 
 type: normal
 
-category: must-know
-
-standards:
-  mongodb.crud.3: 10
-  mongodb.comparison-operators.4: 10
-  mongodb.logical-operators.1: 10
+category: feature
 
 ---
 # Querying a collection

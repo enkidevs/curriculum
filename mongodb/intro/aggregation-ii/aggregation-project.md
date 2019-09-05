@@ -8,14 +8,11 @@ levels:
 aspects:
   - introduction
   - new
+  - workout
 
 type: normal
 
 category: must-know
-
-standards:
-  mongodb.aggregation-pipeline.0: 10
-  mongodb.aggregation-pipeline.7: 10
 
 ---
 # Aggregation $project

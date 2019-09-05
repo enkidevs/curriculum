@@ -10,15 +10,7 @@ aspects:
 
 type: normal
 
-category: must-know
-
-standards:
-  mongodb.crud.3: 10
-  mongodb.comparison-operators.0: 10
-  mongodb.comparison-operators.1: 10
-  mongodb.comparison-operators.2: 10
-  mongodb.comparison-operators.3: 10
-  mongodb.logical-operators.0: 10
+category: feature
 
 links:
   - '[official-documentation](https://docs.mongodb.com/manual/reference/operator/query-comparison/){documentation}'

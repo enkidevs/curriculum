@@ -8,17 +8,11 @@ levels:
 aspects:
   - introduction
   - new
+  - workout
 
 type: normal
 
-category: must-know
-
-standards:
-  mongodb.aggregation-pipeline.0: 10
-  mongodb.aggregation-pipeline.1: 10
-  mongodb.aggregation-pipeline.3: 10
-  mongodb.aggregation-pipeline.4: 10
-  mongodb.aggregation-pipeline.5: 10
+category: feature
 
 ---
 # Aggregation $sort

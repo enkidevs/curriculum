@@ -12,11 +12,6 @@ type: normal
 
 category: must-know
 
-standards:
-  mongodb.crud.9: 10
-  mongodb.crud.10: 10
-  mongodb.crud.11: 10
-
 ---
 # Delete documents
 

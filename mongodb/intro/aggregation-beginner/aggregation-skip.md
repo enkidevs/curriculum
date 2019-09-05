@@ -6,17 +6,11 @@ levels:
 
 aspects:
   - new
+  - workout
 
 type: normal
 
-category: must-know
-
-standards:
-  mongodb.aggregation-pipeline.0: 10
-  mongodb.aggregation-pipeline.1: 10
-  mongodb.aggregation-pipeline.2: 10
-  mongodb.aggregation-pipeline.4: 10
-  mongodb.aggregation-pipeline.5: 10
+category: feature
 
 links:
   - '[official-documentation](https://docs.mongodb.com/manual/reference/operator/aggregation/skip/){documentation}'

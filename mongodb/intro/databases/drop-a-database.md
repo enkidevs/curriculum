@@ -12,13 +12,6 @@ type: normal
 
 category: must-know
 
-standards:
-  mongodb.database.1: 10
-  mongodb.database.2: 10
-  mongodb.database.3: 10
-  mongodb.database.4: 10
-
-
 links:
   - '[official-documentation](https://docs.mongodb.com/manual/reference/method/db.dropDatabase/){documentation}'
 ---

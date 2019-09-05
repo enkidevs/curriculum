@@ -3,21 +3,14 @@ author: Stefan-Stojanovic
 
 levels:
   - beginner
+  - workout
 
 aspects:
   - new
 
 type: normal
 
-category: must-know
-
-standards:
-  mongodb.crud.3: 10
-  mongodb.comparison-operators.0: 10
-  mongodb.comparison-operators.1: 10
-  mongodb.comparison-operators.2: 10
-  mongodb.comparison-operators.3: 10
-  mongodb.logical-operators.0: 10
+category: feature
 
 ---
 # Querying a collection using $and

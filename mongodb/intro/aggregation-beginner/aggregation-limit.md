@@ -6,16 +6,11 @@ levels:
 
 aspects:
   - new
+  - workout
 
 type: normal
 
-category: must-know
-
-standards:
-  mongodb.aggregation-pipeline.0: 10
-  mongodb.aggregation-pipeline.1: 10
-  mongodb.aggregation-pipeline.2: 10
-  mongodb.aggregation-pipeline.5: 10
+category: feature
 
 ---
 # Aggregation limit

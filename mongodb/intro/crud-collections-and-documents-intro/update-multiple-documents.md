@@ -11,11 +11,6 @@ type: normal
 
 category: must-know
 
-standards:
-  mongodb.crud.3: 10
-  mongodb.crud.7: 10
-  mongodb.update-operators.0: 10
-
 ---
 # Update multiple documents
 

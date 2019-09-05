@@ -3,20 +3,14 @@ author: Stefan-Stojanovic
 
 levels:
   - beginner
+  - workout
 
 aspects:
   - introduction
 
 type: normal
 
-category: must-know
-
-standards:
-  mongodb.crud.3: 10
-  mongodb.comparison-operators.5: 10
-  mongodb.comparison-operators.6: 10
-  mongodb.comparison-operators.7: 10
-  mongodb.logical-operators.0: 10
+category: feature
 
 ---
 # query-documents-4

@@ -11,9 +11,6 @@ type: normal
 
 category: must-know
 
-standards: 
-  mongodb.crud.17: 10
-
 ---
 # Renaming a collection
 ---

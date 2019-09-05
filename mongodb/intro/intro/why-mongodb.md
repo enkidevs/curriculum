@@ -13,7 +13,7 @@ type: normal
 category: must-know
 
 links:
-   - '[Offical MongoDB Website](https://www.mongodb.com){website}'
+  - '[Official MongoDB Website](https://www.mongodb.com){website}'
 
 ---
 

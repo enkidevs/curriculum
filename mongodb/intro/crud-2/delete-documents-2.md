@@ -5,15 +5,12 @@ levels:
   - beginner
   
 aspects:
-  - introduction
+	- deep
+	- workout
 
 type: normal
 
-category: must-know
-
-standards: 
-  mongodb.crud.22: 10
-  mongodb.crud.23: 10
+category: feature
 
 ---
 # Deleting documents 2

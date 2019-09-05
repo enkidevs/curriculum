@@ -12,11 +12,8 @@ type: normal
 
 category: must-know
 
-standards:
-
 links:
--
-    - '[Analysis of the NoSQL Landscape](http://blog.knuthaugen.no/2010/03/the-nosql-landscape.html){website}'
+  - '[Analysis of the NoSQL Landscape](http://blog.knuthaugen.no/2010/03/the-nosql-landscape.html){website}'
 
 ---
 

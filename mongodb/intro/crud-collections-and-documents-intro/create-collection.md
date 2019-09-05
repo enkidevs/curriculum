@@ -12,10 +12,6 @@ type: normal
 
 category: must-know
 
-standards:
-  mongodb.crud.12: 10
-  mongodb.crud.13: 10
-
 ---
 # Create a collection
 

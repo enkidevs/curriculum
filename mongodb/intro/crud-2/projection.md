@@ -5,15 +5,12 @@ levels:
   - beginner
   
 aspects:
-  - introduction
+	- deep
+	- workout
 
 type: normal
 
-category: must-know
-
-standards: 
-  mongodb.crud.21: 10
-  mongodb.crud.4: 10
+category: best practice
 
 ---
 # Projection

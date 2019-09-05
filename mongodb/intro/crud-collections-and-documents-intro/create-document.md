@@ -12,10 +12,6 @@ type: normal
 
 category: must-know
 
-standards:
-  mongodb.crud.1: 10
-  mongodb.crud.2: 10
-
 ---
 # Create a document
 
