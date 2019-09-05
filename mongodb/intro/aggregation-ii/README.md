@@ -1,4 +1,4 @@
-name: Aggregation ii
+name: Aggregation II
 
 description: Learn more about aggregation and the aggregation pipeline 
 
