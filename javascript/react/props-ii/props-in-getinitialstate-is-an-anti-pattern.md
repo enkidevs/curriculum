@@ -30,12 +30,14 @@ An example of a duplication of source of truth:
 
 ```jsx
 class Duplication extends React.Component {
-  getInitialState() {
-    return {
+  constructor(props) {
+    super(props);
+    this.state = {
       nameWithQualifier:
         "Country " + this.props.country
     };
   }
+
   render() {
     return (
       <div>
