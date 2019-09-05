@@ -35,7 +35,7 @@ aspects:
 
 As stated before, **React** components behave just like functions, taking `props` as input and returning **React elements**.
 
-Simple components that don't have an internal `state` and don't make use of any **lifecycle** methods (such as `constructor()`) can be written as **functional components**.
+Components that don't make use of any **lifecycle** methods (such as `componentDidMount`) can be written just using functions and are usually called **functional components**.
 
 Consider the component:
 
