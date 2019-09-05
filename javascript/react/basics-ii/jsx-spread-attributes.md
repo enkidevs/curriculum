@@ -101,26 +101,27 @@ const test = <Test {...props}
 
 What will the value of `test.props.x` in the following snippet?
 ```jsx
-function Test(props) {
+function Enki(props) {
   return <p>{props.x}</p>;
 }
 
 const props = {
-  x: 'dog',
-  y: 'cat',
+  x: 'capybara',
+  y: 'komodo dragon',
 };
 
 const test = <Test {...props}
-  x="cat" />;
+  x="fish" />;
 
 // test.props.x = ???
 ```
 
 
-* `'cat'`
-* `'dog'`
+* `'fish'`
+* `'capybara'`
+* `'komodo dragon'`
 * `error`
-* `'dogcat'`
-* `'catdog'`
+* `'fishcapybara'`
+* `'fishkomodo dragon'`
 
 
