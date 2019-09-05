@@ -48,7 +48,7 @@ console.log(returnedTarget);
 // { a: 1, b: 3, c: 4 }
 ```
 
-This method is used to create a new object by copying the properties from the source object to the target object. This is useful for Redux as the method returns a new object, which keeps in line with creating **pure** functions. When used inside `reducers`, the target object is the one whose properties are going to be assigned. Because we want to keep our function **pure** we will pass an empty object `{ }`. The source object contains the properties that are going to be copied, and we can even add new properties:
+This method is used to create a new object by copying the properties from the source object to the target object. This is useful for Redux as the method returns a new object, which keeps in line with creating **pure** reducers. Within a reducer, the target object is the one on which we assign properties. Because we want to keep our reducer **pure** (avoid mutation) we will pass an empty object `{ }` as the starting target. The source object contains the properties that are going to be copied to the target, and we can even add new properties:
 
 ```javascript
 return Object.assign({}, myObj, {
