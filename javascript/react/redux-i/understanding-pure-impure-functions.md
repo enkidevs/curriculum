@@ -56,14 +56,15 @@ Another good example of **pure** versus **impure**  functions is this:
 
 ```js
 function increasePure(x) {
-  // for the same number x, we always get 2*x
+  // for the same number x, 
+  // we always get 2 * x
   return 2 * x;
 }
 
 function increaseImpure(x) {
   // for any number x, we'll probably get
-  // a larger number but we can't predictably
-  // tell which one
+  // a larger number but we can't
+  // predictably tell which one
   return x * randomInteger();
 }
 ```
