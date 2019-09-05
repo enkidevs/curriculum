@@ -90,8 +90,8 @@ Would you say function `a` is pure or impure? What about function `b`?
 
 ???
 
-* impure, pure
 * pure, impure
+* impure, pure
 * impure, impure
 * pure, pure
 
