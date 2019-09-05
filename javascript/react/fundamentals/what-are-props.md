@@ -77,7 +77,9 @@ Greeting.defaultProps = {
 
 This allows us to create a `Greeting` element without specifying the `name`:
 ```jsx
-const el = <Greeting />;
+const el = (
+  <Greeting  />;
+);
 ```
 
 If we `render` it now (using `ReactDOM.render`), we will see "Enki greets User";
