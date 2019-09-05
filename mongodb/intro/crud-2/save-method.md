@@ -44,6 +44,7 @@ db.pokemon.save({
   "power": 430
 })
 ```
+
 Output:
 ```javascript
 WriteResult({
@@ -68,6 +69,7 @@ db.pokemon.save({
   "power": 123321
 })
 ```
+
 Output:
 ```javascript
 WriteResult({
@@ -77,6 +79,7 @@ WriteResult({
   "_id": 777
 })
 ```
+
 The `nMatched:0` means 0 documents were matched.
 The `nUpserted: 1` means one new document was inserted into the collection.
 The `nModified: 0` means 0 documents were modified.

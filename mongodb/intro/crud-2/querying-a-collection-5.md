@@ -28,6 +28,7 @@ db.pokemon.findOneAndUpdate(
   { $inc: { power: 15 } }
 )
 ```
+
 Output:
 ```javascript
 {
@@ -54,6 +55,7 @@ db.pokemon.findOneAndUpdate(
   { returnNewDocument: true }
 )
 ```
+
 Output:
 ```javascript
 {
@@ -69,6 +71,7 @@ Output:
 	]
 }
 ```
+
 **Note:** The `$inc` operator is used to either increase or decrease the value of the specified field. If the field doesn't exist, it will be created with the value specified with the `$inc` operator.
 
 A similar method to `.findOneAndUpdate()` is the `.findOneAndReplace()`. 
@@ -119,6 +122,7 @@ db.pokemon.findOneAndReplace(
   { returnNewDocument: true }
 )
 ```
+
 Output:
 ```javascript
 {
@@ -152,6 +156,7 @@ db.pokemon.???(
 	}
 )
 ```
+
 Which command has to be added to our queries to display the updated/replaced document as opposed to the original one? 
 
 ???

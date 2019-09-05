@@ -61,7 +61,7 @@ In a typical NoSQL database, the structure (shape) of the data that can be store
 ---
 ## Footnotes
 
-[1:`ACID` transaction]
+[1:ACID transaction]
 An `ACID` transaction should be *atomic*, *consistent*, *isolated*, *durable*:
 - Atomic: although composed of multiple smaller tasks, a transaction succeeds or fails as a single "unit".
 - Consistent: a transaction can only bring the database from one valid state to another, based on the database rules

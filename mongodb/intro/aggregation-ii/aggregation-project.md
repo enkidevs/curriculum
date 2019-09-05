@@ -59,7 +59,7 @@ Output:
 { "_id": 73, "secondType": "Poison" }
 // ...
 ```
-As you can see above, our aggregation was supposed to only aggregate documents which contain the specified field(`secondType`). However, since the `_id` field is included by default we have to add `_id:0` to exclude it.
+As you can see above, our aggregation was supposed to only aggregate documents which contain the specified field(`secondType`). However, since the `_id` field is included by default we have to add `_id: 0` to exclude it.
 ```javascript
 db.pokemon.aggregate([
   { $project: { _id: 0, secondType: 1 } }

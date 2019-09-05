@@ -45,7 +45,7 @@ Let's say we have over 100 Pokémon in the `pokemon` database and want to find o
 We would do that like so:
 
 ```javascript
-db.pokemon.find({ type:"Electric" })
+db.pokemon.find({ type: "Electric" })
 ```
 
 Result:

@@ -5,8 +5,8 @@ levels:
   - beginner
 
 aspects:
+  - obscura
   - introduction
-  - workout
 
 type: normal
 
@@ -32,7 +32,7 @@ By having opaque values, Key-Value databases only allow querying by key, meaning
 
 This also means that a dictionary contains only the values we explicitly stored into it, without any extra data such as placeholder values. This allows Key-Value databases to often use far less memory than traditional SQL databases.
 
-Since each value in a dictionary corresponds to a particular key, Key-Value databases allow us to perform very fast lookups and operations on any value uniquely identifiable by its key.
+Since each value in a dictionary corresponds to a particular key, these databases allow us to perform very fast lookups and operations on any value uniquely identifiable by its key.
 
 Some popular key-value databases are **Oracle NoSQL Database**, **Redis**, **Google Cloud Datastore**, **Hbase**, and more.
 
@@ -44,7 +44,7 @@ Column families are comprised of rows and columns, but unlike a relational datab
 
 Each row also has a unique key used to identify that row either for modifying or deleting data (like key-value databases).
 
-Since the column names, as well as the record keys are not fixed, Column databases can be seen as two-dimensional key-value databases, where a combination of column and row id serves as a "key" for fast data lookups.
+Since the column names, as well as the record keys are not fixed, **Column databases** can be seen as two-dimensional key-value databases, where a combination of column and row id serves as a "key" for fast data lookups.
 
 Some popular Column databases are **Bigtable**, **Cassandra**, **Microsoft Azure Cosmos DB**, etc.
 
@@ -74,7 +74,7 @@ Some popular `document` databases are **MongoDB**, **CouchDB**, **RaptorDB**, **
 ---
 ## Practice
 
-Which are the 4 correct NoSQL databases:
+Which are the 4 types of NoSQL databases:
 
 ???
 

@@ -28,6 +28,7 @@ db.pokemon.findOneAndDelete({
   power: { $gt: 1000 }
 })
 ```
+
 Output:
 ```javascript
 {
@@ -42,8 +43,7 @@ Output:
 
 ### `.remove()`
 
-The `.remove()` method can be used to delete a single, multiple or all documents at once based on the specified criteria.
-Syntax:
+The `.remove()` method can be used to delete a single, multiple or all documents at once based on the specified criteria. The syntax is:
 ```javascript
 db.collection.remove(
   <query>,
@@ -62,6 +62,7 @@ db.pokemon.remove({
 	power: { $eq: 40 } 
 })
 ```
+
 Output:
 ```javascript
 WriteResult({ "nRemoved": 11 })
@@ -73,7 +74,7 @@ In the above example, we have deleted all documents whose `power` field equals e
 
 To delete exactly one document based on specified criteria we need to add `true` or `1` for the `justOne` boolean parameter.
 
-When using `.remove()` to delete a singular document, it works the same way as the `.findOneAndDelete()` method by deleting the first matching document.
+When using `.remove()` to delete a single document, it works the same way as the `.findOneAndDelete()` method by deleting the first matching document.
 
 **Note:** The `justOne` parameter is false by default.
 

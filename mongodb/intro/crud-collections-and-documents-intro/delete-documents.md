@@ -29,7 +29,7 @@ Let's say we want to delete a pokemon named `Snorlax` from the `pokemon` collect
 ```javascript
 db.pokemon.deleteOne({
   name: "Snorlax"
-});;
+});
 ```
 
 Output:

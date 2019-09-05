@@ -27,6 +27,7 @@ db.pokemon.find({
   type: "Electric"
 })
 ```
+
 Output:
 ```javascript
 { 
@@ -64,8 +65,7 @@ Output:
 ```
 Let's say we only wanted to display a particular field that matched our query. To do so, we need to use something called *projection*.
 
-*Projection* is used on a query to specify which fields will be displayed and which won't upon executing the query.
-The syntax is:
+*Projection* is used on a query to specify which fields will be displayed and which won't upon executing the query. The syntax is:
 ```javascript
 db.collection_name.find(
 	{query},
@@ -82,6 +82,7 @@ db.pokemon.find(
   { _id: 1, name: 1 }
 )
 ```
+
 Output:
 ```javascript
 { "_id": 1, "name": "Pikachu" }
@@ -97,6 +98,7 @@ db.pokemon.find(
   { _id: 0, name: 0, spells: 0 }
 )
 ```
+
 Output:
 ```javascript
 { "type": "Electric", "power": 231 }

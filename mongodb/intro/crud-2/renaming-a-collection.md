@@ -29,6 +29,7 @@ db.Pokemon.renameCollection(
   "cartoonCharacters"
 )
 ```
+
 Output:
 ```javascript
 { "ok": 1 }

@@ -102,7 +102,7 @@ What is the `$sortByCount` aggregation stage used for?
 ???
 
 True or false?
-The syntax for the `$sortByCount `stage is `{ $sortByCount:  <expression> }`.
+The syntax for the `$sortByCount` stage is `{ $sortByCount:  <expression> }`.
 
 ???
 
