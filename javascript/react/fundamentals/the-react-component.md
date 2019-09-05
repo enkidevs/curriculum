@@ -90,7 +90,7 @@ Because our component didn't use any input (`prop`) we didn't need to specify th
 Complete the missing gaps such that a `component` is defined using `ES6` syntax:
 
 ```jsx
-??? MyComponent ??? React.??? {
+class MyComponent extends React.??? {
   ???() {
     return <h1>Hello, World!</h1>;
   }
@@ -98,8 +98,6 @@ Complete the missing gaps such that a `component` is defined using `ES6` syntax:
 ```
 
 
-* `class`
-* `extends`
 * `Component`
 * `render`
 * `return`
@@ -113,7 +111,7 @@ Complete the missing gaps such that a `component` is defined using `ES6` syntax:
 Complete the missing gaps such that a `component` is defined using `ES6` syntax:
 
 ```jsx
-class MyComponent extends React.??? {
+??? MyComponent ??? React.??? {
   ???() {
     return <h1>Hello, World!</h1>;
   }
@@ -121,6 +119,8 @@ class MyComponent extends React.??? {
 ```
 
 
+* `class`
+* `extends`
 * `Component`
 * `render`
 * `return`
