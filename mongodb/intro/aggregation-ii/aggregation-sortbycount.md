@@ -24,7 +24,7 @@ The `$sortByCount` aggregation stage is used to group documents by a specified e
 
 Syntax:
 ```javascript
-{ $sortByCount:  <expression> }
+{ $sortByCount: <expression> }
 ```
 
 Let's say we have a `pokemon` collection with `500` pokémon. Each pokémon has an `_id`, `name`, `type` and `power` field. However, there are some pokémon that also have a `secondType` field. We want to count and sort all pokémon by their `secondType` field. We can do so, like this:
@@ -48,7 +48,7 @@ As you can see in the output of the example above, there is a `null` field with 
 
 Next, we can use the `$match` aggregation stage to only match documents of a certain `type` and perform the `$sortByCount: "$secondType"` for documents that match our specified `type`.
 
-For instance, let's say we want to count and sort documents by their `secondType`, but only documents where the `type` is `Water`. We can do so like this:
+For instance, let's say we want to count and sort documents by their `secondType`, but we are only interested in documents where the `type` is `Water`. We can do so like this:
 ```javascript
 db.pokemon.aggregate([
   {
@@ -59,14 +59,18 @@ db.pokemon.aggregate([
   }
 ])
 ```
+
 Output:
 ```javascript
 { "_id": "Poison", "count": 3 }
-{ "_id": null, "count": 33 }
+{ "_id": null, "count": 45 }
 ```
-As you can see in the example above, there are only `3` pokémon who have a `type:"Water"` and a `secondType:"Poison"` and `33` pokémon whose `secondType` is `"Poison"` but the `type` isn't `"Water"`.
 
-We can also only count and sort documents where the `power` is greater than or equal to `300`.
+What this output means is that:
+- there are 3 pokémon that have `type: "Water"` and `secondType: "Poison"`
+- there are 45 pokémon that have `type: "Water"` and `secondType: null`
+
+You are not limited to using only the `$match` stage. Another good example is to count and sort documents where the `power` is greater than or equal to 300.
 ```javascript
 db.pokemon.aggregate([
   {
@@ -77,11 +81,19 @@ db.pokemon.aggregate([
   }
 ])
 ```
+
 Output:
 ```javascript
-{ "_id": "Poison", "count": 3 }
+{ "_id": "Fighting", "count": 3 }
+{ "_id": "Fire", "count": 23 }
 { "_id": null, "count": 91 }
 ```
+
+What this output means is that:
+- there are 3 pokémon that have `secondType: "Fighting"` and a `power` greater than 300
+- there are 23 pokémon that have `secondType: "Fire"` and a `power` greater than 300
+- there are 91 pokémon that don't have a `secondType` (`secondType: null`) and have a `power` greater than 300
+
 ---
 ## Practice
 

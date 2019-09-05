@@ -13,7 +13,7 @@ type: normal
 category: how to
 
 ---
-# query-documents-4
+# Querying a collection using $ne, $eq, and $nin
 ---
 ## Content
 
@@ -99,7 +99,7 @@ db.pokemon.find({
 })
 ```
 
-Find all pokémon except those that have a `type` of either `Mud` or `Flying`:
+Find all pokémon that don't have a `type` of either `Mud` or `Flying`:
 ```javascript
 db.pokemon.find({
   ???: {
@@ -115,7 +115,7 @@ db.pokemon.find({
 })
 ```
 
-* `$age`
+* `age`
 * `$eq`
 * `type`
 * `$nin`

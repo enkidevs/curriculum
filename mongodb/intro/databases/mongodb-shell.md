@@ -32,36 +32,61 @@ After starting the shell, a series of commands will be available to you. You can
 
 ```shell
 help
+
+#db.help()         help on db methods
+#db.mycoll.help()  help on collection...
+#...
 ```
 
 To see all existing non-empty databases do:
 
 ```shell
 show dbs
+
+#admin  0.000GB
+#config 0.000GB
+#local  0.000GB
 ```
+
+Note that because we haven't created any databases yet, we are only seeing the ones that are created by default (`admin`, `config`, and `local`).
 
 You can use the `help()` function to list all the available commands for a particular database:
 
-```javascript
+```shell
 db.help()
+
+#DB methods:
+#  db.adminComman(nameOrDocument) ...
+#  ...
 ```
 
 Or for a particular collection:
 
-```javascript
+```shell
 db.mycollection.help()
+
+#DBCollection help:
+#  db.mycollection.find.help() ...
+#  ...
 ```
 
 Or for a particular collection operation:
 
-```javascript
+```shell
 db.mycollection.find().help()
+
+#find(<predicate>, <projection>) modifiers
+#  .sort({...})
+#  .limit(<n>)
+#  ...
 ```
 
 To exit the shell, you can use the `exit` command.
 
 ```shell
 exit
+
+#bye
 ```
 
 ---

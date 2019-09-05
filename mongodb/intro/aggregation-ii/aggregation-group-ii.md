@@ -138,14 +138,14 @@ Output:
 ---
 ## Practice
 
-Group and calculate the average `age` of all pokémon within the `pokemon` collection. Return the result in a field called `"averagePower"`.
+Group and calculate the average `power` of all pokémon within the `pokemon` collection. Return the result in a field called `"averagePower"`.
 
 ```javascript
 db.???.???([
   {
     ???: {
       ???: null,
-      ???: { ???: "$age" }
+      ???: { ???: "$power" }
     }
   }
 ])

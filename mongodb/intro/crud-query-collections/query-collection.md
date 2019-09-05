@@ -166,8 +166,8 @@ db.pokemon.???({
 
 * `find`
 * `$in`
-* `["Grass", "Fire"]`
-* `[{ type: "Grass" }, { type: "Fire" }]`
+* `["Water", "Fire"]`
+* `[{ type: "Water" }, { type: "Fire" }]`
 * `search`
 
 ---
