@@ -58,8 +58,9 @@ Note that if the value of your `return` extends over multiple lines it must be e
 If we want to `render` it, the element must specify the value of `name` prop:
 
 ```jsx
-const el = <Greeting
-  name="John" />;
+const el = (
+  <Greeting name="John" />;
+);
 ```
 
 Now, when `render`ed, `el` will display "Enki greets John".
