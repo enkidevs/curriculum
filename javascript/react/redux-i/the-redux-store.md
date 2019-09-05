@@ -30,20 +30,20 @@ aspects:
 
 The **Redux** store is simply an object with few *methods* that holds the whole *state tree* of your application. The only way to change this state is by `dispatching` an action to the store.
 
-Although we have connected our component in the previous insight, we still need to create our main `reducer`:
+Although we have connected our component in the previous insight, we still need to create our main reducer:
 
-```jsx
+```js
 // App.js
 function reducer(state, action) {
   return state;
 }
 ```
 
-The `reducer` works like any `reduce` function in JavaScript. You pass it a function, and for each element of the array the function is called. The `reducer` presented above literally does nothing, it just returns the `state` un-modified. It is important to know that the `reducer` must be a pure function, concept which will be discussed in the following insight.
+The reducer works like any `reduce` function in JavaScript. You pass it a function, and for each element of the array the function is called. The reducer presented above literally does nothing, it just returns the `state` un-modified. It is important to know that the reducer must be a pure function, concept which will be discussed in the following insight.
 
-Now, to create your store you need to pass your main `reducer` to the `createStore` function:
+Now, to create your store you need to pass your main reducer to the `createStore` function:
 
-```jsx
+```js
 // App.js
 import { createStore } from "redux";
 
@@ -56,7 +56,7 @@ const store = createStore(reducer);
 
 To get the current *state tree* of the application:
 
-```jsx
+```js
 // App.js
 store.getState();
 ```
@@ -86,7 +86,7 @@ store.replaceReducer(newReducer);
 
 Create a Redux store and get the current state of the application:
 
-```jsx
+```js
 import { createStore } from ‘redux’;
 let store =
   ???(reducer, initstate);

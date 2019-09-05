@@ -22,7 +22,7 @@ aspects:
 ---
 ## Content
 
-In a previous insight we have created a simple `reducer` that looked something like this:
+In a previous insight we have created a simple reducer that looked something like this:
 
 ```jsx
 // App.js
@@ -31,7 +31,7 @@ function reducer(state, action) {
 }
 ```
 
-Let's try and develop this `reducer` to make it fit with our `<Counter />` component. The first step consists of setting our initial `state`, and passing that to our `reducer`:
+Let's try and develop this reducer to make it fit with our `<Counter />` component. The first step consists of setting our initial `state`, and passing that to our reducer:
 
 ```jsx
 // App.js
@@ -56,7 +56,7 @@ You might be wondering what an `action` is, and the answer to that is: a plain o
 }
 ```
 
-For our component, we will want to increase, decrease or reset the counter. To do this, we would write our `reducer` such that it inspects the `type` of an action received and returns the new updated state for a particular action:
+For our component, we will want to increase, decrease or reset the counter. To do this, we would write our reducer such that it inspects the `type` of an action received and returns the new updated state for a particular action:
 
 ```jsx
 //App.js
@@ -85,7 +85,7 @@ function reducer(
 
 Note that you should always return the `state`, even if it was unchanged. Returning an `undefined` state might break your app.
 
-Now that we have created our `reducer`, we need to `dispatch` the actions so that the `state` is changed. We will do this in the main body of our `<Counter />` component:
+Now that we have created our reducer, we need to `dispatch` the actions so that the `state` is changed. We will do this in the main body of our `<Counter />` component:
 
 ```jsx
 // Counter.js

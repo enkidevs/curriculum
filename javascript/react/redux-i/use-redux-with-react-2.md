@@ -85,15 +85,21 @@ export default ??? ??? ???;
 ---
 ## Revision
 
-Connect the `<Counter />` component to the Redux `store`:
+Finish the following code so that you can connect the component to the Redux `store`:
 
-```jsx
-export default ??? ??? ???;
+```js
+function ???(state) {
+  ??? {
+    name: ???.name,
+    age: ???.age
+  };
+}
 ```
 
-* `connect`
-* `(mapStateToProps)`
-* `(Counter)`
-* `(mapPropsToState)`
-* `(mapProps)`
-* `(mapState)`
+* `mapStateToProps`
+* `return`
+* `state`
+* `state`
+* `props`
+* `props`
+* `mapPropsToState`

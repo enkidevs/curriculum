@@ -29,7 +29,10 @@ Example of a simple pure function:
 
 ```javascript
 function doublePure(x) {
-  return 2 * x;
+  // do not change the object x.
+  // instead return a new object
+  // with the change applied to it.
+  return { ...x, num: x.num * 2 };
 }
 ```
 
@@ -40,10 +43,32 @@ On the contrary, **impure** functions don't have a predictable behavior as they 
 Example:
 ```javascript
 function doubleImpure(x) {
-  x = 2 * x;
+  // change the object x.
+  // this mutation affects the object
+  // outside the lifetime of doubleImpure
+  // which is not "pure"
+  x.num = x.num * 2;
   return x;
 }
 ```
+
+Another good example of **pure** versus **impure**  functions is this:
+
+```js
+function increasePure(x) {
+  // for the same number x, we always get 2*x
+  return 2 * x;
+}
+
+function increaseImpure(x) {
+  // for any number x, we'll probably get
+  // a larger number but we can't predictably
+  // tell which one
+  return x * randomInteger();
+}
+```
+
+The **pure** function provides a predictable and consistent output for the same input, while the **impure** function does not.
 
 ---
 ## Practice
@@ -52,12 +77,11 @@ Are the following functions pure or impure?
 
 ```javascript
 function a(x) {
-  x = "enki";
-  return x;
+  return x * x;
 }
 
 function b(x) {
-  return "enki";
+  return Math.random() * x;
 }
 ```
 
