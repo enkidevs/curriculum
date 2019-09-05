@@ -1,4 +1,4 @@
-name: Crud collections and documents intro
+name: CRUD Intro
 
 description: Learn how to create, read, update and delete collections.
 
