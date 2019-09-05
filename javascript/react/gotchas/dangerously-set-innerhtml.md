@@ -73,7 +73,10 @@ Fortunately, this will not render because `getUsername()` would return a string,
 You still have to be careful. The following code can also leak sensitive data:
 
 ```jsx
-{/* we still have to sanitize HTML within getMarkup */}
+{/*
+we still have to sanitize HTML
+within getMarkup 
+*/}
 <div
   dangerouslySetInnerHTML={{
     __html: getMarkup()
