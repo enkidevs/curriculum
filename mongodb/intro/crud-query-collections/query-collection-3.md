@@ -3,10 +3,10 @@ author: Stefan-Stojanovic
 
 levels:
   - beginner
-  - workout
 
 aspects:
   - new
+  - workout
 
 type: normal
 
