@@ -32,7 +32,7 @@ aspects:
 
 `map` creates a new collection of children by invoking a function on every immediate child:
 
-```jsx
+```js
 React.Children.map(
   children, 
   functionToCallOnEachChild
@@ -43,7 +43,7 @@ Keep in mind that if `children` is a nested object or an array it will be traver
 
 `forEach` works similarly to `map`, where it also iterates on each child but this time it ignores the returned value of its callback and doesn't create a new collection:
 
-```jsx
+```js
 React.Children.forEach(
   children, 
   functionToCallOnEachChild
@@ -52,7 +52,7 @@ React.Children.forEach(
 
 Return the total number of components in `children`:
 
-```jsx
+```js
 React.Children.count(
   children
 )
@@ -60,7 +60,7 @@ React.Children.count(
 
 Return the only child in `children`:
 
-```jsx
+```js
 React.Children.only(
   children
 )
@@ -68,7 +68,7 @@ React.Children.only(
 
 Manipulate a collection of `children` by converting it into an array:
 
-```jsx
+```js
 React.Children.toArray(
   children
 )

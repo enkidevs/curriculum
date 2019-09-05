@@ -68,7 +68,7 @@ ReactDOM.render(
 
 Consider the following react component:
 
-```javascript
+```jsx
 class Enki extends React.Component {
   componentDidMount() {
     console.log(this.props.children);
@@ -81,7 +81,7 @@ class Enki extends React.Component {
 
 What will the following output?
 
-```javascript
+```jsx
 ReactDOM.render(
   <Enki>
     <p />

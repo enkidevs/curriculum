@@ -45,7 +45,7 @@ class NewComponent extends React.Component {
 ```
 
 To throw an error if anything but exactly 1 element is passed as `children`, we suffix the `PropTypes` validation with `isRequired`:
-```jsx
+```js
 NewComponent.propTypes = {
   children: PropTypes.element.isRequired
 };
@@ -56,7 +56,7 @@ NewComponent.propTypes = {
 
 What validator must be used to make sure there is exactly one child passed to `children`?
 
-```jsx
+```js
 children: PropTypes.???.???,
 ```
 
@@ -74,7 +74,7 @@ children: PropTypes.???.???,
 
 What validator must be used to make sure there is exactly one child passed to `children`?
 
-```jsx
+```js
 children: PropTypes.???.???,
 ```
 

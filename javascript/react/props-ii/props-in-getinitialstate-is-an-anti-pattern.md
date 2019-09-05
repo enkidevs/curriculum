@@ -28,7 +28,7 @@ Passing down props from the parent to generate state in `getInitialState` can le
 
 An example of a duplication of source of truth:
 
-```javascript
+```jsx
 class Duplication extends React.Component {
   getInitialState() {
     return {
@@ -50,7 +50,7 @@ This is bad due to `constructor` being invoked when the component is first creat
 
 Computing values on-the-fly ensures that values don't get out of sync later and cause maintenance issues.
 
-```javascript
+```jsx
 class OnTheFly extends React.Component {
   render() {
     return (
@@ -84,7 +84,7 @@ What do you think about generating state from props in `getInitialState`?
 
 Which of the following two components do you think employs the best practice for passing props?
 
-```javascript
+```jsx
 class A extends React.Component {
   getInitialState() {
     return {
