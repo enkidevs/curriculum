@@ -6,7 +6,9 @@ levels:
   
 aspects:
 	- deep
+
 	- workout
+
 
 type: normal
 
