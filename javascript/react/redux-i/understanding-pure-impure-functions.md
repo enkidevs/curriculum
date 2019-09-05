@@ -74,7 +74,7 @@ The **pure** function provides a predictable and consistent output for the same 
 ---
 ## Practice
 
-Are the following functions pure or impure?
+Consider these functions:
 
 ```javascript
 function a(x) {
@@ -85,6 +85,8 @@ function b(x) {
   return Math.random() * x;
 }
 ```
+
+Would you say function `a` is pure or impure? What about function `b`?
 
 ???
 
