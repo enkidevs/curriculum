@@ -68,11 +68,12 @@ Let's say that you mistakenly write the following code:
 />
 ```
 
-Fortunately, this will not render because `getUsername()` would return a string, but `dangerouslySetInnerHTML` expects and object of the type `__html: ''`. By forcing you to write an object with a special `__html` property, it increases that chance that you will remember to *sanitize* the data. 
+Fortunately, this will not render because `getUsername()` would return a string, but `dangerouslySetInnerHTML` expects an object of the shape `{ __html: string }`. This design is on purpose. By forcing you to write an object with an unusually named `__html` property, React increases the chances that you will actually remember to *sanitize* the data.
 
 You still have to be careful. The following code can also leak sensitive data:
 
 ```jsx
+{/* we still have to sanitize HTML within getMarkup */}
 <div
   dangerouslySetInnerHTML={{
     __html: getMarkup()
