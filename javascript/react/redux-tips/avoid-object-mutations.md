@@ -55,7 +55,7 @@ return Object.assign({}, myObj, {
   myProperty: newValue
 });
 ```
-Note that if there are two objects that have different values for the same property, the rightmost object wins.
+Note that if there are two objects that have different values for the same property, the rightmost object wins. Looking at our example, this means that if `myObj` has the `myProperty: oldValue` property it will be replaced by `myProperty: newValue`.
 
 Another approach to this problem is to use the new **spread operator**(`...`):
 
