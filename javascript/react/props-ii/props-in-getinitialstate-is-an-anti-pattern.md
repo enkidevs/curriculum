@@ -46,7 +46,7 @@ class Duplication extends React.Component {
 }
 ```
 
-This is bad due to `getInitialState` being invoked when the component is first created, therefore the example allows a value to get out of sync.
+This is bad due to `constructor` being invoked when the component is first created, therefore the example allows a value to get out of sync.
 
 Computing values on-the-fly ensures that values don't get out of sync later and cause maintenance issues.
 

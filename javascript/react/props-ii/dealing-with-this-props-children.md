@@ -30,23 +30,23 @@ aspects:
 
 **React** provides the user with the useful class `React.Children` which provides various utilities for dealing with the opaque data structure `this.props.children`.
 
-`map` invokes a function on every immediate child within `children`, returning an array:
+`map` creates a new collection of children by invoking a function on every immediate child:
 
 ```jsx
 React.Children.map(
   children, 
-  function[(thisArg)]
+  functionToCallOnEachChild
 )
 ```
 
 Keep in mind that if `children` is a nested object or an array it will be traversed and also that `function` will never be passed to the container objects.
 
-`forEach` works like `map`, yet it does not return an array:
+`forEach` works similarly to `map`, where it also iterates on each child but this time it ignores the returned value of its callback and doesn't create a new collection:
 
 ```jsx
 React.Children.forEach(
   children, 
-  function[(thisArg)]
+  functionToCallOnEachChild
 )
 ```
 
@@ -66,7 +66,7 @@ React.Children.only(
 )
 ```
 
-Manipulate collections of `children` by converting them into arrays:
+Manipulate a collection of `children` by converting it into an array:
 
 ```jsx
 React.Children.toArray(
