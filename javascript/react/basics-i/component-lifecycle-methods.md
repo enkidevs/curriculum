@@ -127,8 +127,10 @@ class Example extends Enki {
   }
 }
 
-new Example().greeting; // "Hello from undefined 👋"
-new Example().type;  // "explanation"
+new Example().greeting; 
+// "Hello from undefined 👋"
+new Example().type;  
+// "explanation"
 ```
 
 For the `Example` class to have the greeting properly setup in the `Enki` class, it needs to somehow send the `name` to the `Enki` class to run its constructor and initialize the `greeting`. This is achieved with the `super` keyword.
