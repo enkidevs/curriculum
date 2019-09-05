@@ -110,4 +110,39 @@ What method is the first being called in the **component lifecycle**?
 ## Footnotes
 
 [1: Why do we write `super(props)`]
-In React, `super` refers to the `React.Component` class constructor implementation. Because of the way JavaScript works, you can't use this in your `constructor` method until after you call `super`. The `props` in `super(props)` is called so that the base `React.Component` constructor can initialize `this.props`. If you want to learn more about this make sure to read [this article](https://overreacted.io/why-do-we-write-super-props/).
+In JavaScript classes, the constructor is commonly used to setup the initial data of the class.
+```js
+class Enki {
+  constructor(name) {
+    this.greeting = `Hello from ${name} 👋`;
+  }
+}
+```
+
+Classes can also extend behavior from other classes.
+```js
+class Example extends Enki {
+  constructor() {
+    this.type = 'explanation';
+  }
+}
+
+new Example().greeting; // "Hello from undefined 👋"
+new Example().type;  // "explanation"
+```
+
+For the `Example` class to have the greeting properly setup in the `Enki` class, it needs to somehow send the `name` to the `Enki` class to run its constructor and initialize the `greeting`. This is achieved with the `super` keyword.
+```js
+class Example extends Enki {
+  constructor() {
+    super('enki'); // pass name to Enki's constructor
+    this.type = 'explanation';
+  }
+}
+
+new Example().greeting; // "Hello from enki 👋"
+new Example().type;  // "explanation"
+```
+In React, we have to call `super(props)` in a class component to tell `React.Component` to run its setup, such as initializing `props`.
+
+For more info, [check out this article](https://overreacted.io/why-do-we-write-super-props/).
