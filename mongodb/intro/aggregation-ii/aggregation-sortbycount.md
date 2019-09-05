@@ -14,7 +14,7 @@ type: normal
 category: tip
 
 ---
-# Aggregation sortByCount
+# Aggregating with sortByCount
 ---
 ## Content
 
