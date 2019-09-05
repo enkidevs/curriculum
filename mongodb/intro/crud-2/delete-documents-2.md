@@ -5,9 +5,8 @@ levels:
   - beginner
   
 aspects:
-	- deep
-
 	- workout
+	- deep
 
 
 type: normal
