@@ -32,7 +32,7 @@ aspects:
 ---
 ## Content
 
-While standard *HTML behaviour* of `<input />`, `<textarea />` or `<select />` elements work in **React**, having JS functions handling updates and submission is highly advised because it gives us more control.
+While standard `HTML` form elements such as `<input />`, `<textarea />` or `<select />` elements behave correctly in **React**, using JS functions to handle updates and submissions is highly advised because it gives us more control.
 
 **HTML form** elements keep an **internal state** in sync with the user's *input*. Coupling this with components' `state` can result in a **controlled component**.
 
