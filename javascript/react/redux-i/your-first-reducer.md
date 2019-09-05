@@ -47,7 +47,7 @@ function reducer(
 }
 ```
 
-You might be wondering what an `action` is, and the answer to that is: a plain object that has a property called `type`:
+You might be wondering what an `action` is, and the answer to that is: a plain object that has a property called `type` and (optionally) other properties specific to that action type:
 
 ```jsx
 {
@@ -56,7 +56,7 @@ You might be wondering what an `action` is, and the answer to that is: a plain o
 }
 ```
 
-For our component, we will want to increase, decrease or reset the counter. To do this, we would write our `reducer` like this:
+For our component, we will want to increase, decrease or reset the counter. To do this, we would write our `reducer` such that it inspects the `type` of an action received and returns the new updated state for a particular action:
 
 ```jsx
 //App.js
