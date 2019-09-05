@@ -45,7 +45,7 @@ function Enki(props) {
 }
 ```
 
-At the same time, you can also `extend` the `ES6`[1] class `React.Component` to create a component. In this case, the *rendered* output needs to be specified inside a function called `render()`:
+At the same time, you can also `extend` the `ES6`[1] class `React.Component` to create a component. In this case, the *rendered* output needs to be returned from a method called `render()`:
 
 ```jsx
 // class component
@@ -56,7 +56,7 @@ class Enki extends React.Component {
 }
 ```
 
-The differences between functional and class components will be discussed at the end of this workout, but for now know that React views both of the components defined above as being the same.
+The differences between functional and class components will be discussed at the end of this workout, but for now know that, when viewed externally, each way of writting a component can render the same result.
 
 You can pass dynamic values to a component via `props` which will be discussed next. 
 
@@ -87,7 +87,7 @@ Because our component didn't use any input (`prop`) we didn't need to specify th
 ---
 ## Practice
 
-Complete the missing gaps such that a `component` is defined using `ES6` syntax:
+Complete the missing gaps such that a `component` is defined using class syntax:
 
 ```jsx
 class MyComponent extends React.??? {
@@ -108,7 +108,7 @@ class MyComponent extends React.??? {
 ---
 ## Revision
 
-Complete the missing gaps such that a `component` is defined using `ES6` syntax:
+Complete the missing gaps such that a `component` is defined using class syntax:
 
 ```jsx
 ??? MyComponent ??? React.??? {

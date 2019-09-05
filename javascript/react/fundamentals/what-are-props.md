@@ -35,7 +35,7 @@ aspects:
 
 As discussed before, components can take input in a similar way to a function, via `props`.
 
-`props` is a plain JS object accessible via `this.props`, its properties representing the arguments of a component.
+`props` is a plain JS object whose properties represent the arguments of a component.
 
 An important aspect of the `props` object is that it is **immutable**. That means `props` can't and shouldn't be changed within a component, but only from its *parent*(s).
 

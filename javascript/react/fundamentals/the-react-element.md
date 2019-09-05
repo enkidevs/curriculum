@@ -36,10 +36,19 @@ An element in **React** is the most basic building block for describing your app
 
 It is important to know that elements are **immutable** and their children or attributes can't be updated after rendering. This implies that elements describe the UI at a specific point in time - like a *snapshot*.
 
-In **React** you'll work mainly with a more flexible concept - components. However, these are *made of* elements therefore it's helpful to understand the *fundamentals* of how they work.
+In **React** you'll work mainly with a more flexible concept, components, which are *wrappers* around elements that provide additional capabilities.
 
 To define an element you can simply:
 ```jsx
+// create an object representing
+// a React element
+const element = React.createElement(
+  'p', // type
+  null, // props
+  'Enki was here' // children
+)
+
+// or using JSX
 const element = <p>Enki was here</p>;
 ```
 
@@ -52,7 +61,7 @@ Suppose in your **HTML** you have the `div`:
 <div id="root"></div>
 ```
 
-Now, using `ReactDOM.render()` you can display in your webpage the element declared above:
+Now, on your webpage, you can display the `<p>` element (declared above) as a child of the `"root"` div, using `ReactDOM.render()` :
 ```jsx
 ReactDOM.render(
   element,
