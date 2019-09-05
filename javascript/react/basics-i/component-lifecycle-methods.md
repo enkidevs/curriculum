@@ -137,13 +137,16 @@ For the `Example` class to have the greeting properly setup in the `Enki` class,
 ```js
 class Example extends Enki {
   constructor() {
-    super('enki'); // pass name to Enki's constructor
+    super('enki'); 
+    // pass name to Enki's constructor
     this.type = 'explanation';
   }
 }
 
-new Example().greeting; // "Hello from enki 👋"
-new Example().type;  // "explanation"
+new Example().greeting; 
+// "Hello from enki 👋"
+new Example().type;  
+// "explanation"
 ```
 In React, we have to call `super(props)` in a class component to tell `React.Component` to run its setup, such as initializing `props`.
 
