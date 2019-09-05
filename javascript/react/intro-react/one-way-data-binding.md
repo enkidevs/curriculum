@@ -48,7 +48,7 @@ What type of data flow does **React** use?
 ---
 ## Revision
 
-What type of data flow does **React** use?
+In which type of data flow is the `model` the *single source of truth*?
 
 ???
 
