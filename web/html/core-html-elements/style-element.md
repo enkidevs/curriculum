@@ -43,12 +43,12 @@ If we would like to color all paragraphs within the whole HTML document, we woul
 However, if we add a style attribute to any `<p>` element, it would override our top level style element.
 
 Example 2:
-```
- <style>
-    p {
-      color: red;
-    }
-  </style> 
+```html
+<style>
+  p {
+    color: red;
+  }
+</style> 
   
 <p> 
   Color of this text is red.
@@ -59,12 +59,12 @@ Same output:
 ![image-output](https://img.enkipro.com/b199c00475956669e57f76ba58a0f654.png)
 
 Example 3:
-```
- <style>
-    p {
-      color: red;
-    }
-  </style> 
+```html
+<style>
+  p {
+    color: red;
+  }
+</style> 
   
 <p style="color: teal"> 
   Color of this text is no longer red.
@@ -85,7 +85,7 @@ The `style` element also has 4 attributes which are all optional and will be dis
 
 Finish styling all paragraph elements within the document to have text color as `gray`:
 
-```
+```html
 ???
  ??? {
      ???: ???;
@@ -97,18 +97,18 @@ Finish styling all paragraph elements within the document to have text color as 
 </p>
 ```
 
-* <style>
-* p
-* color
-* gray
-* </style>
-* <paragraph>
-* </paragraph>
+* `<style>`
+* `p`
+* `color`
+* `gray`
+* `</style>`
+* `<paragraph>`
+* `</paragraph>`
 
 ---
 ## Revision
 
-What is the <style> element used for?
+What is the `<style>` element used for?
 
 ???
 
