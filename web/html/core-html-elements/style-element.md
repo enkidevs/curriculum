@@ -27,7 +27,7 @@ links:
 
 ## Content
 
-The HTML `style` element is used to style the content of an html document. These styles are loaded with the HTML page and work even if external CSS fails to load for some reason. The `style` tag is often used to load  **Critical CSS**[1]
+The HTML `style` element is used to style the content of an html document. These styles are loaded with the HTML page and work even if external CSS fails to load for some reason. The `style` tag is often used to load **Critical CSS**[1]
 
 ```html
 <head>
@@ -47,7 +47,7 @@ Output:
 
 ![image-output](https://img.enkipro.com/1b62665911cc2168a8dc80e6084690ab.png)
 
-The code above colors **all** the paragraphs in color red, as you can see below:
+The code above colors **all** the paragraphs in color red, as you can see in the picture.
 
 ### `style` attribute
 
@@ -69,7 +69,7 @@ Output:
 
 The above example, colors only that single paragraph element. 
 
-We can use the `style` element and attribute together to provide styles to all elements and override style for some elements. For example, to set color of all paragraphs red but change color of one paragraph to blue.
+We can use the `style` element and attribute together to provide styles to all elements and override the style for some elements. For example, to set the color of all paragraphs red but change the color of one paragraph to blue.
 
 Same output:
 
