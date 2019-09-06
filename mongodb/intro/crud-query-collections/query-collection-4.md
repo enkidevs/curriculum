@@ -56,7 +56,7 @@ db.pokemon.find({
 This query finds only pokémon whose `type` is `Fire`. This is exactly the same as:
 ```javascript
 db.pokemon.find({
-  secondType: "Fire"
+  type: "Fire"
 })
 ```
 

@@ -88,12 +88,12 @@ Which string can be used as the name of the output field for the `$count` aggreg
 ```
 
 * To count the number of documents that entered the aggregation pipeline
-* `{$count: "totalNumber"}`
+* `{ $count: "totalNumber" }`
 * To sort documents based on the specified number
 * To count the number of aggregation stages each document passes through
-* `{$count: "$totalNumber"}`
-* `{$count: ""}`
-* `{$count: "total.Number"}`
+* `{ $count: "$totalNumber" }`
+* `{ $count: "" }`
+* `{ $count: "total.Number" }`
 
 ---
 ## Revision

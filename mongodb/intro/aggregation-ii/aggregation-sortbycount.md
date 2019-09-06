@@ -27,7 +27,7 @@ Syntax:
 { $sortByCount: <expression> }
 ```
 
-Let's say we have a `pokemon` collection with `500` pokémon. Each pokémon has an `_id`, `name`, `type` and `power` field. However, there are some pokémon that also have a `secondType` field. We want to count and sort all pokémon by their `secondType` field. We can do so, like this:
+Let's say we have a `pokemon` collection with `500` pokémon. Each pokémon has an `_id`, `name`, `type` and `power` field. However, there are some pokémon that also have a `secondType` field. We want to count and sort all pokémon by their `secondType` field. To achieve this you would write:
 
 ```javascript
 db.pokemon.aggregate({
@@ -44,7 +44,7 @@ Output:
 { "_id": "Water", "count": 32 }
 ```
 
-As you can see in the output of the example above, there is a `null` field with a count of `344`. Those are the documents(pokémon) without a `secondType` field and are counted as well.
+As you can see in the output of the example above, there is a `null` field with a count of `344`. Those are the documents(pokémon) without a `secondType` field and they are counted as well.
 
 Next, we can use the `$match` aggregation stage to only match documents of a certain `type` and perform the `$sortByCount: "$secondType"` for documents that match our specified `type`.
 

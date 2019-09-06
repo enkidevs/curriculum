@@ -76,7 +76,7 @@ Output:
 
 A similar method to `.findOneAndUpdate()` is the `.findOneAndReplace()`. 
 
-Unlike the first method, which finds the first document and *updates* the content based on the specified criteria, the `.findOneAndReplace()` method also finds the first document, but instead of *updating* it, it *replaces* it with a newly specified document.
+Unlike the first method, which finds the first document and *updates* the content based on the specified criteria, the `.findOneAndReplace()` method also finds the first document, but instead of *updating*, it *replaces* it with a newly specified document.
 
 For instance, let us say one of our documents was no longer viable and we wanted to remove it and replace it with a new one. We can do so like this:
 

@@ -155,6 +155,7 @@ Which piece of code lists only the first `3` documents of the `pokemon` collecti
 ???
 
 Which method is used to make the output of the query sorted by a selected field?
+
 ???
 
 * `.find()`

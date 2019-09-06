@@ -1,4 +1,4 @@
-name: CRUD query collections
+name: CRUD Query Collections
 
 description: Learn how to perform basic queries using the $in, $or, $lt, $gt, $lte, $gte and $and operators
 

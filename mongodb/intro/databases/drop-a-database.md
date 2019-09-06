@@ -19,11 +19,9 @@ links:
 ---
 ## Content
 
-In the last insight, we learned how to create a database, show the current or all the databases. Now we're gonna learn how to delete(drop) a database.
+In the last insight, we learned how to create a database, show the current or all the databases. Now, we're gonna learn how to delete(drop) a database.
 
-Last time, we created two similarly named databases: `Pokemon` and `pokemon`. Now we wanna delete the one named `Pokemon`.
-
-To do that, first, we need to switch to that database with the `use` command.
+Last time, we created two similarly named databases: `Pokemon` and `pokemon`. We want to delete the one named `Pokemon`. To do that, first, we need to switch to that database with the `use` command.
 
 ```javascript
 use Pokemon
