@@ -67,7 +67,7 @@ Example 3:
   </style> 
   
 <p style="color: teal"> 
-  Color of this no longer red.
+  Color of this text is no longer red.
 </p>
 ```
 Output:
