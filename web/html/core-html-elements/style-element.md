@@ -78,7 +78,9 @@ Same output:
 </head>
 <body>
   <p>Color of this text is red.</p>
-  <p style="color: blue;">Color of this text is blue.</p>
+  <p style="color: blue;">
+    Color of this text is blue.
+  </p>
 </body>
 ```
 
