@@ -54,8 +54,13 @@ The code above colors **all** the paragraphs in color red, as you can see below:
 The`style` attribute can be used to add style per element.
 
 ```html
-<p style="color: red">Color of this text is red.</p>
-<p>Color of this text is black, which is default.</p>
+<p style="color: red">
+  Color of this text is red.
+</p>
+<p>
+  Color of this text is black, 
+  which is default.
+</p>
 ```
 
 Output:
