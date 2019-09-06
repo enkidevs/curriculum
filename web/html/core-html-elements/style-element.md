@@ -69,7 +69,7 @@ Output:
 
 The above example, colors only that single paragraph element. 
 
-We can use the `style` element and attribute together to provide styles to all elements and override the style for some elements. For example, to set the color of all paragraphs red but change the color of one paragraph to blue.
+We can use the `style` element and attribute together to provide styles to all elements and override the style for some elements. For example, to set the color of all paragraphs to red but change the color of one paragraph to blue.
 
 Same output:
 
