@@ -20,65 +20,78 @@ links:
   - '[style element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/style){documentation}'
 
 ---
+
 # Style element
 
 ---
+
 ## Content
 
-The HTML `style` element is used to style the content of an html document. Also, there is a `style` attribute used to achieve the same thing, but per element.
+The HTML `style` element is used to style the content of an html document. These styles are loaded with the HTML page and work even if external CSS fails to load for some reasno. These are often used to load what we call **Critical CSS**, without which page is really hard to read
 
-Example 1:
 ```html
-<p style="color: red"> 
-  Color of this text is red.
-</p>
+<head>
+  <style>
+    p {
+      color: red;
+    }  
+  </style>
+</head>
+<body>
+  <p>Color of this text is red.</p>
+  <p>Color of this text is blue.</p>
+</body>
 ```
+
 Output:
 
-![image-output](https://img.enkipro.com/b199c00475956669e57f76ba58a0f654.png)
+![image-output](https://img.enkipro.com/1b62665911cc2168a8dc80e6084690ab.png)
+
+The code above colors **all** the paragraphs in color red, as you can see below:
+
+### `style` attribute
+
+The`style` attribute can be used to add style per element.
+
+```html
+<p style="color: red">Color of this text is red.</p>
+<p>Color of this text is black, which is default.</p>
+```
+
+Output:
+
+![image-output](https://img.enkipro.com/741b9d7c80e283feb0eeb1f1f2d91a5d.png)
 
 The above example, colors only that single paragraph element. 
 
-If we would like to color all paragraphs within the whole HTML document, we would add the `style` element at the top of the document.
-However, if we add a style attribute to any `<p>` element, it would override our top level style element.
+We can use the `style` element and attribute together to provide styles to all elements and override style for some elements. For example, to set color of all paragraphs red but change color of one paragraph to blue.
 
-Example 2:
-```html
-<style>
-  p {
-    color: red;
-  }
-</style> 
-  
-<p> 
-  Color of this text is red.
-</p>
-```
 Same output:
 
-![image-output](https://img.enkipro.com/b199c00475956669e57f76ba58a0f654.png)
-
-Example 3:
 ```html
-<style>
-  p {
-    color: red;
-  }
-</style> 
-  
-<p style="color: teal"> 
-  Color of this text is no longer red.
-</p>
+<head>
+  <style>
+    p {
+      color: red;
+    }  
+  </style>
+</head>
+<body>
+  <p>Color of this text is red.</p>
+  <p style="color: blue;">Color of this text is blue.</p>
+</body>
 ```
-Output:
 
-![image-output](https://img.enkipro.com/f8368ff87a3b2541e7bc9b23f550f501.png)
+Output
+
+![image-output](https://img.enkipro.com/f65a564d1bf8a82e3c68c971afbf38ab.png)
+
 
 The `style` element also has 4 attributes which are all optional and will be discussed in the Style course:
-  - type
-  - media
-  - nonce
-  - title
+- type
+- media
+- nonce
+- title
 
 ---
 ## Practice
