@@ -27,7 +27,7 @@ links:
 
 ## Content
 
-The HTML `style` element is used to style the content of an html document. These styles are loaded with the HTML page and work even if external CSS fails to load for some reason. These are often used to load what we call **Critical CSS**, without which the page is really hard to read
+The HTML `style` element is used to style the content of an html document. These styles are loaded with the HTML page and work even if external CSS fails to load for some reason. `style` tag is often used to load  **Critical CSS**[1]
 
 ```html
 <head>
@@ -54,13 +54,8 @@ The code above colors **all** the paragraphs in color red, as you can see below:
 The`style` attribute can be used to add style per element.
 
 ```html
-<p style="color: red">
-  Color of this text is red.
-</p>
-<p>
-  Color of this text is black, 
-  which is default.
-</p>
+<p style="color: red">Color of this text is red.</p>
+<p>Color of this text is black, which is default.</p>
 ```
 
 Output:
@@ -83,9 +78,7 @@ Same output:
 </head>
 <body>
   <p>Color of this text is red.</p>
-  <p style="color: blue;">
-    Color of this text is blue.
-  </p>
+  <p style="color: blue;">Color of this text is blue.</p>
 </body>
 ```
 
@@ -136,3 +129,10 @@ What is the `<style>` element used for?
 * only to color the text of a paragraph element.
 * to resize the document to a specific size.
 * to include important information about the author of the document
+
+---
+
+## Footnotes
+
+[1:Critical CSS]
+The critical CSS used to style the above-the-fold content of your website. Above-the-fold content is what users see on your website first loads, which can include navigation and other elements. So it’s very important to properly style and render this part of the website as quickly as possible.
