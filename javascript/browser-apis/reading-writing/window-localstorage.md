@@ -72,7 +72,7 @@ Retrieve the data corresponding to the "Enki" key from local storage:
 
 ```javascript
 var localData = ???.???(
-  "data"
+  "Enki"
 );
 ```
 
