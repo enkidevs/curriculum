@@ -39,36 +39,48 @@ In this case, each book has its own *allocated space* and you can straight up *s
 A *dynamic* bookshelf would resize itself as soon as there is no more room for another book, while a *static* one wouldn't.
 
 
-You can declare an array using:
-```
-//constructed arrays of size 3
-//Java
+You can declare a constructed array using:
+
+```java
+// Java
 int[] myArray = {1,2,3};
-//C++
+```
+```c++
+// C++
 int myArray[] = {1,2,3};
-//Python
+```
+```py
+# Python
 from array import array
 myArray = array('i', [1,2,3])
-//JavaScript
+```
+```js
+// JavaScript
 var myArray = [1,2,'enki'];
 ```
-Or empty arrays of size 3:
-```
-//Java
-int[] myArray = new int[3];
-//C++
-int myArray[3];
-//JavaScript
-var myArray = new Array(3);
 
+Or, you can declare empty arrays of size 3 using:
+```java
+// Java
+int[] myArray = new int[3];
 ```
+```c++
+// C++
+int myArray[3];
+```
+```js
+// JavaScript
+var myArray = new Array(3);
+```
+
 The advantage of an array is that you have immediate access to its elements. All you have to do is specify the index of the element you are looking for:
-```
-//works for most languages
+```js
+// works for most languages
 x = myArray[0];
 ```
+
 Swap the order to assign a value to the cell:
-```
+```js
 myArray[0] = x;
 ```
 
