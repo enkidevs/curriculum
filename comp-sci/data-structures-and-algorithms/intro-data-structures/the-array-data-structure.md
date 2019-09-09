@@ -92,7 +92,7 @@ To access an element in an array, you would use:
 
 ???
 
-* indexes
+* an index
 * promises
 * values
 * data structures
