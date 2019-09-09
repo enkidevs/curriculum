@@ -36,7 +36,7 @@ The *`const`* (constant) keyword has been introduced in ES6 and creates a variab
 When declaring a constant variable, you must assign an initial value otherwise you
 will receive an error.
 
-To declare a constant, use the *`const`* keyword:
+To declare a constant variable assignment, use the *`const`* keyword:
 
 ```javascript
 const year = 2016;
@@ -62,7 +62,7 @@ console.log(x);
 // Throws an error
 ```
 
-Now that you understand what a scope is, it is important to know that `const`s can exist in different scopes. For example, if we had already declared a `const` variable called `year`, it is valid to declare another as long as it exists in another scope:
+Now that you understand what scope is, it is important to know that `const`s cannot exist in the same scope. For example, if we had already declared a `const` variable called `year`, we cannot declare another one in the same scope, but we are free to do so in any other scope:
 
 ```javascript
 const year = 2015;
