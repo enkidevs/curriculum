@@ -36,7 +36,7 @@ The *`const`* (constant) keyword has been introduced in ES6 and creates a variab
 When declaring a constant variable, you must assign an initial value otherwise you
 will receive an error.
 
-To declare a constant, use the *`const`*:
+To declare a constant, use the *`const`* keyword:
 
 ```javascript
 const year = 2016;
