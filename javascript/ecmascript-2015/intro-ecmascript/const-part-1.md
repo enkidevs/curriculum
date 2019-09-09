@@ -69,11 +69,21 @@ const year = 2015;
 console.log(year);
 // 2015
 
+// ...
+
+// declaring a const variable in the same 
+// scope would cause a syntax error:
+// "Identifier 'year' has 
+// already been declared."
+const year = 2016;
+
 if (1 == 1) {
-  const year = 2016; // valid
+  // However, it is perfectly fine to do
+  // so in a different scope
+  const year = 2016;
   console.log(year);
+  // 2016
 }
-// 2016
 ```
 
 ---
