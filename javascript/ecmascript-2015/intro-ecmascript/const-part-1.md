@@ -31,12 +31,12 @@ aspects:
 ---
 ## Content
 
-The *`const`* (constant) keyword is new to ES6 and creates a variable that cannot be reassigned.
+The *`const`* (constant) keyword has been introduced in ES6 and creates a variable that cannot be reassigned.
 
 When declaring a constant variable, you must assign an initial value otherwise you
 will receive an error.
 
-To declare a constant use the *`const`* keyword where you would have used *`var`*:
+To declare a constant, use the *`const`* keyword where you would have used *`var`*:
 
 ```javascript
 const year = 2016;
@@ -45,18 +45,35 @@ const year = 2016;
 Once a `const` is declared any attempts to reassign the value will cause an error:
 
 ```javascript
-year = 2017; //error
-year = "future"; //error
+year = 2017; // error
+year = "future"; // error
 ```
 
-`const`s can exist in different scopes for example if we had already declared a `const` variable called `year` it is valid to declare another as long as it exists in another scope:
+Before we move on with this insight, we need to take a look at what scope means in JavaScript. Scope is the accessibility of variables, functions, and objects in some particular part of your code during runtime. In other words, scope determines the visibility of variables and other resources in areas of your code. Here is a simple example that should clear any confusion:
+
+```js
+function foo() {
+  var x = "declared inside function";
+  // x can only be used in foo
+  console.log(x);
+}
+
+console.log(x);
+// Throws an error
+```
+
+Now that you understand what a scope is, it is important to know that `const`s can exist in different scopes. For example, if we had already declared a `const` variable called `year`, it is valid to declare another as long as it exists in another scope:
 
 ```javascript
 const year = 2015;
+console.log(year);
+// 2015
 
 if (1 == 1) {
-   const year = 2016; //valid
+  const year = 2016; // valid
+  console.log(year);
 }
+// 2016
 ```
 
 ---
@@ -85,7 +102,7 @@ if (true) {
 ```
 
 * throw an error
-* assign 22 to enki within the if's scope
+* assign 22 to enki within the `if`'s scope
 * also throw an error
 * re-assign 22 to enki
 
