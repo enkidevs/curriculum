@@ -35,7 +35,7 @@ Consider a file `available_rooms.py` in a directory called **Hotel**:
 # available_rooms.py
 
 def available(rooms):
-  print('We have ', rooms, ' rooms available.')
+  print(rooms, ' rooms are available.')
 ```
 Then, a file `total_rooms.py` in the *same* directory:
 
@@ -56,7 +56,7 @@ Now that we have these files defined in our **Hotel package**, we can use them i
 from Hotel import available_rooms, total_rooms
 
 available_rooms.available(10)
-# We have 10 rooms available.
+# 10 rooms are available.
 total_rooms.all_rooms(25)
 # We have: 25 rooms.
 ```
