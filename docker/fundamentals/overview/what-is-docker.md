@@ -22,7 +22,7 @@ Using Docker we can package our application with all of its dependencies into a 
 
 The software that was developed and tested is the same software that gets deployed.
 
-Docker enables separating applications from the infrastructure it will be run and deployed. This allows developers to deliver software much more quickly. Developers can focus on writing the application code without worrying a lot about the system that it will ultimately be running on.
+Docker enables separating an application from the infrastructure it will be run on and deployed. This allows developers to deliver software much more quickly. Developers can focus on writing the application code without worrying a lot about the system that it will ultimately be running on.
 
 ---
 ## Practice

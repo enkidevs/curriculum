@@ -21,7 +21,7 @@ Containers can fail or move and IP addresses can easily become invalid.
 This is why Docker DNS exists. Docker DNS uses container names as the equivalent
 of a host name for container communication.
 
-Any non-bridge network has automatic DNS resolution for all the containers on that virtual network using container names. Two containers can find each other on the same network no matter what their ip is.
+Any non-bridge network has automatic DNS resolution for all the containers on that virtual network using container names. Two containers can find each other on the same network no matter what their IP is.
 
 _Note_: The default `brigde` network doesn't come with this DNS behavior of container names.
 That's why it's **always** good practice to create your own networks.

@@ -20,7 +20,7 @@ Supporting and maintaining various physical devices was very expensive.
 
 Virtualization was invented as a response to this, enabling software to emulate a particular hardware system. This allowed us to run applications with different hardware requirements on the same physical machine, significantly lowering costs.
 
-The virutalization software emulating the functionality of a physical computer is called A Virtual Machine (VM). It is an (operating system or application) environment that is installed on software and imitates dedicated hardware, giving the user the same experience as they would have on the actual hardware.
+The virtualization software emulating the functionality of a physical computer is called A Virtual Machine (VM). It is an (operating system or application) environment that is installed on software and imitates dedicated hardware, giving the user the same experience as they would have on the actual hardware.
 
 From the user's perspective, the virtual machine is a real, physical computer.
 
@@ -37,7 +37,7 @@ Virtualization provided an abstraction on top of hardware that allowed developme
 
 Virtualization allows us to abstract away the hardware. This enables us to use ??? physical machines for running and deploying our software.
 
-* less
+* fewer
 * more
 * cheap
 * fast

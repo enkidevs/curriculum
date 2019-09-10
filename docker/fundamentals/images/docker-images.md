@@ -19,6 +19,8 @@ A Docker image represents a blueprint for creating containers.
 
 It contains the specification for instantiating a container, including the environment in which the container will run, the application code it will need and other runtime settings such as environment variables and config files.
 
+Containers derived from the same image are identical to each other in terms of their application code and runtime dependencies.
+
 The image ID is based on the SHA[1] of the docker hub image.
 
 A Docker image is *immutable*; it only contains read-only layers, meaning that once an image is created it is never modified.
@@ -27,7 +29,9 @@ Images can be composed from each other to minimize data repetition. This also me
 
 To make them space-efficient, images are designed to be composed of layers of other images, allowing a minimal amount of data to be sent when transferring images over the network.
 
-Every image starts with a blank layers known as scratch. Any change that happens after creates a new image layer.
+Every image starts with a blank layer known as *scratch*. Any change that happens after creates a new image layer. This means that image layers are read-only.
+
+However, running containers include a writable layer (the container layer) on top of the read-only layers of the image. Runtime changes, including any writes and updates to data and files, are saved in that container layer. Thus, multiple concurrent running containers that share the same underlying image may have container layers that differ substantially.
 
 It's important to note that image layers are cached and can be reused between various images, saving storage.
 
