@@ -16,7 +16,7 @@ links:
 
 By default, a container is not accessible to the outside world.
 
-To allow access we can tell Docker to expose a local container port to a port on the host machine.
+To allow access we have to tell Docker to expose a local container port to a port on the host machine.
 
 ```bash
 docker run \
@@ -24,7 +24,7 @@ docker run \
   -t someimage
 ```
 
-Using the `EXPOSE` command in the Dockerfile, we can tell Docker that the container listens on the specified network ports at runtime:
+Using the `EXPOSE` command in the Dockerfile, we can tell Docker that the container listens on the specified network port at runtime:
 
 ```Dockerfile
 EXPOSE <container-port>
@@ -42,6 +42,11 @@ Example:
 
 ```bash
 docker port mongo
+```
+
+Above would output something like this:
+
+```
 27017/tcp -> 0.0.0.0:27017
 ```
 
@@ -49,6 +54,11 @@ We can also list a specific mapping by passing the port into the command:
 
 ```bash
 docker port mongo 27017
+```
+
+Above would output something like this:
+
+```
 0.0.0.0:27017
 ```
 

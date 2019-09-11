@@ -25,8 +25,8 @@ To pull an image from DockerHub, we can use `docker pull`:
 
 ```bash
 # pull a docker image named
-# node from DockerHub
-docker pull node
+# nginx from DockerHub
+docker pull nginx
 ```
 
 The command above would output something like:

@@ -20,7 +20,7 @@ Unlike volumes which are completely managed by Docker, bind mounts are dependent
 
 Since bind mounts are host-specific, they cannot be part of a Dockerfile and have to be used at run-time with `docker container run`:
 
-Similarly to volumes, a bind mount is created with the `-v` flag, but we pass in a full path instead of a name.
+Similarly to volumes, a bind mount is created with the `-v` flag, but with bind-mounts we pass in a full path instead of a name.
 
 ```bash
 docker container run \

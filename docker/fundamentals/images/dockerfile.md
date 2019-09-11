@@ -111,6 +111,11 @@ A Dockerfile must start with a `FROM` instruction which initializes a new build 
 
 `FROM` may only be preceded by one or more `ARG` instructions, which represent externally passed build arguments into the image building process.
 
+```bash
+docker build . \
+  --build-arg EXAMPLE="this is an"
+```
+
 A Dockerfile must contain at least the `CMD` or the `ENTRYPOINT` instruction to indicate the start command for an image.
 
 The `RUN` instruction executes the commands in a new layer on top of the current image. Each successive `RUN` instruction builds a new image layer on top of the previous one.
@@ -118,6 +123,8 @@ The `RUN` instruction executes the commands in a new layer on top of the current
 Each Dockerfile instruction result gets cached.
 
 When evaluating each instruction, Docker will look for an existing image in its cache that it can reuse, rather than creating a new (duplicate) image.
+
+This is why re-building images is faster than the initial build because we can re-use cached layers.
 
 Whenever we change a line in the Dockerfile, the cached result for every line after it is invalidated and has to be re-computed.
 

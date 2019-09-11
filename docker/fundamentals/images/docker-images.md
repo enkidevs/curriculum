@@ -31,7 +31,7 @@ To make them space-efficient, images are designed to be composed of layers of ot
 
 Every image starts with a blank layer known as *scratch*. Any change that happens after creates a new image layer. This means that image layers are read-only.
 
-However, running containers include a writable layer (the container layer) on top of the read-only layers of the image. Runtime changes, including any writes and updates to data and files, are saved in that container layer. Thus, multiple concurrent running containers that share the same underlying image may have container layers that differ substantially.
+It should be noted that running containers include a writable layer (the container layer) on top of the read-only layers of the image. Runtime changes, including any writes and updates to data and files, are saved in that container layer. Thus, multiple concurrent running containers that share the same underlying image may have container layers that differ substantially (they don't interfere).
 
 It's important to note that image layers are cached and can be reused between various images, saving storage.
 
@@ -73,7 +73,7 @@ IMAGE               CREATED             CREATED BY                              
 
 An image that doesn't extend any other image is known as the base image.
 
-Images are built using a special configuration file (usually) named Dockerfile and the `docker build` command.
+Images are built using a special configuration file (commonly) named Dockerfile and the `docker build` command.
 
 ---
 

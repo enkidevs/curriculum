@@ -15,43 +15,44 @@ links:
 ## Content
 
 We can't really rely on IP addresses in a dynamic system like Docker.
-Using static IPs for talking to containers is an anti-pattern and should be avoided.
-Containers can fail or move and IP addresses can easily become invalid.
 
-This is why Docker DNS exists. Docker DNS uses container names as the equivalent
-of a host name for container communication.
+Using static IPs for talking to containers is an anti-pattern and should be avoided. Containers can fail or move and IP addresses can easily become invalid.
+
+This is why Docker DNS exists. Docker DNS uses container names as the equivalent of a host name for container communication.
 
 Any non-bridge network has automatic DNS resolution for all the containers on that virtual network using container names. Two containers can find each other on the same network no matter what their IP is.
 
-_Note_: The default `brigde` network doesn't come with this DNS behavior of container names.
+_Note_: The default `bridge` network doesn't come with this DNS behavior of container names.
 That's why it's **always** good practice to create your own networks.
 
 Containers shouldn't rely on IP's for inter-communication and should use container names instead.
 
 Within Docker, a DNS for friendly names is built-in (if we use custom networks).
 
-Here's how we would create a network between two containers and have them talk:
+Here's how we would create a network between two containers and have them talk to each other:
 
 ```bash
-# create network for a webapp
+# create a network
+# and name it my_web_app
 docker network create my_web_app
 
-# create container for one
+# create a container for an
 # nginx server on our network
+# named webserver1
 docker run \
   --name webserver1 \
   --detach \
   --network my_web_app nginx:alpine
 
-# create container for another
-# nginx server
+# create a container for another
+# nginx server named webserver2
 docker run \
   --name webserver2 \
   --detach \
   --network my_web_app nginx:alpine
 
 # ping second container from the first
-# doing the opposite would work as well
+# (doing the opposite would work as well)
 docker container exec \
   -it webserver1 ping webserver2
 ```

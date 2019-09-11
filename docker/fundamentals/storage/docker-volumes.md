@@ -16,7 +16,11 @@ links:
 ---
 ## Content
 
-Volumes represent a special location outside of a container's file system to store persistent data. This preserves the data through the container lifespan and allows us to attach it to whatever container we want (including multiple containers). As far as the container is concerned, that volume is just a local file path. This means that volumes require manual deletion and won't be removed by removing the container. Another consequence is that, since they are independent from containers, volumes do not increase the size of a container.
+Volumes represent a special location outside of a container's file system to store persistent data. This preserves the data through the container's lifespan and allows us to attach it to whatever container we want to(including multiple containers).
+
+As far as the container is concerned, that volume is just a local file path.
+
+This means that volumes require manual deletion and won't be removed by removing the container. Another consequence is that, since they are independent from containers, volumes do not increase the size of a container.
 
 Volumes can be created using the `VOLUME` command in the Dockerfile, or by using the command line flags for `docker run`. The flags we can use are `--mount` or `--volume` (`-v` for short).
 
