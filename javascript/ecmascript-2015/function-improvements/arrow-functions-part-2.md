@@ -40,7 +40,11 @@ links:
 ---
 ## Content
 
-Arrow Functions(`() => {}`) differ from anonymous keyword functions (`function(){}`) by not changing the value of `this`. Before **ES6**, every time you would call a function it would define its own `this` value, depending on how the function was called.
+One way that arrow functions (`() => {}`) differ from regular functions (`function(){}`) is that they do not treat `this` specially. 
+
+Any usage of `this` inside an arrow function is just like any other variable, and is looked up lexically through parent scopes until a `this` is found.
+
+On the other hand, `this` in any regular function is a special construct that ignores where a functions is defined (and thus ignores the scope), and its value solely depends on how a function was called.
 
 Let's take a look at how this `Counter()` constructor is being defined: 
 
