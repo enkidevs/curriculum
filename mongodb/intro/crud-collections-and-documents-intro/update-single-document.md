@@ -99,17 +99,22 @@ Output:
 ---
 ## Practice
 
-Which command is used for updating a single document:
+How would you change the `name` of a pokemon with `"_id": 38` to "Tyranitar"?
 
-```javascript
-db.mycollection.???
+```js
+db.pokemon.updateOne(
+  { _id: 38 },
+  { $set: { name: "Tyranitar" } }
+);
 ```
 
 * `updateOne()`
-* `updateMany()`
-* `addOne()`
-* `addMany()`
-* `updateMultiple()`
+* `_id`
+* `38`
+* `$set`
+* `$update`
+* `"_id"`
+* `"38"`
 * `updateSingle()`
 
 ---
