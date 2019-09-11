@@ -127,7 +127,7 @@ Use the `.save()` method to replace an existing document whose `_id` is `3` and 
 
 ```javascript
 db.pokemon.save({
-  ???: ???,
+  "_id": ???,
   "name": "NewName",
   ???: ???
 })
@@ -143,7 +143,6 @@ Use the `.save()` method to insert a new document without the `_id` field:
 * `"_id"`
 * `17`
 * `"name"`
-* `"_id"`
 * `3`
 * `"type"`
 * `"NewType"`
