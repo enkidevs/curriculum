@@ -19,7 +19,7 @@ category: how to
 
 Next to using the `db.collection_name.insertOne()` or `.insertMany()` methods to create a document, or `.find()` to find a specific document, there are a couple of other more specific methods you can use to find and modify your documents.
 
-The `.findOneAndUpdate()` method can be used to search through a collection and modify only the first documents found based on the specified query. 
+The `.findOneAndUpdate()` method can be used to search through a collection and modify only the first documents found based on the specified query. The full syntax for this method is `findOneAndUpdate(filter, update, options)`. The `filter` argument is used to constrain documents entering the aggregation pipeline, the `update` argument is used to update a certain field, and the `options` argument is used to control the `.findOneAndUpdate()` method. The only required arguments are `filter` and `update`, and we will focuse on these for this insight.
 
 For instance, the query below searches for the first pokémon of `type: "Water"` and increases its `power` by `15`:
 ```javascript
