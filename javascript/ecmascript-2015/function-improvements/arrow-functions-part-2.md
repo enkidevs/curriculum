@@ -52,25 +52,18 @@ Let's take a look at how this `Counter()` constructor is being defined:
 window.counter = 0;
 
 function Counter() {
-  // The Counter() constructor defines `this`
-  // as an instance of itself.
   this.counter = 0;
 
-  this.countUp = setInterval(function() {
-    // The countUp() function defines `this`
-    // as the global object (because it's where
-    // countUp() is executed), which is different
-    // from the `this` defined by the
-    // Person() constructor
+  function countUp() {
     this.counter++;
-  }, 1000);
+  }
 
-  this.countDown = setInterval(() => {
-    // In the countDown() function,
-    // `this` properly refers to the
-    // Person() object 
+  const countDown = () => {
     this.counter--;
-  }, 1000);
+  }
+
+  setInterval(countUp, 1000);
+  setInterval(countDown, 1000)
 }
 
 let count = new Counter();
@@ -88,7 +81,64 @@ console.log(count);
 // Object { counter: -10 }
 ```
 
-You would normally expect the `counter` property to be 0, because each second you add 1 and you subtract 1 from it's value. This is not the case because in the `countUp()` function, `this` is defined as a global object which is different from the `this` that is defined by the `Person()` constructor. This leads to only the `countDown()` function modifying the `counter` property.
+At first glance, you would expect the `counter` property to be 0, because each second you both add 1 and subtract 1 from its value. However, this isn't the case.
+
+`setInterval(fn, ms)` will invoke the given function like a regular function, i.e. `fn()`.
+
+This means that in the `countUp()` function, `this` will be the global object which is different from the `this` pointing to the instance of `Counter`.
+
+On the other hand, arrow functions always treat `this` like a variable from the upper scope, no matter how we call them. This leads to the `countDown()` function modifying the `counter` property on the instance of `Counter`.
+
+Here's the code snippet again with the explanations:
+
+```js
+function Counter() {
+  // We wrote `Counter` in such
+  // a way that it expects `this`
+  // to be an instance of itself.
+  // In other words, we expect
+  // `Counter` to be called using the
+  // keyword `new`, which will initialize
+  // `this` to be an instance object, and
+  // we assign a `counter` variable to
+  // that object
+  this.counter = 0;
+
+  function countUp() {
+    // This function will have `this`
+    // as the global object because setInterval
+    // will call it like a regular function,
+    // i.e. fn()
+
+    // this means that in here
+    // we increment a `counter`
+    // on the global object,
+    // not the one on `Counter`
+    this.counter++;
+  }
+
+  const countDown = () => {
+    // this arrow function
+    // will look up `this`
+    // in the scope above, which is the
+    // scope of Counter, and use that.
+    // In here, we update the `counter`
+    // on whatever `this` points to 
+    // within `Counter`, which in our 
+    // case should be an instance of
+    // `Counter`
+    this.counter--;
+  }
+
+  setInterval(countUp, 1000);
+  setInterval(countDown, 1000)
+}
+
+// the behavior explained above
+// is correct because we are
+// calling `Counter` with `new`
+let count = new Counter();
+```
 
 ---
 ## Practice
