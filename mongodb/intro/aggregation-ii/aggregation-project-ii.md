@@ -139,7 +139,7 @@ Let's say we have a `pokemon` collection where each pokémon has a `name`, `_id`
 }
 ```
 
-Aggregate the collection, exclude the `_id` field and only include the `power`, `name` and `type` fields, as well as the `Ultimate` ability.
+Aggregate the collection, exclude the `_id` field and only include the `power` and `name` fields, as well as the `Ultimate` ability.
 
 ```js
 db.pokemon.???([
