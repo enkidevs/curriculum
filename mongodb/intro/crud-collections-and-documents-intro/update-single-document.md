@@ -102,9 +102,9 @@ Output:
 How would you change the `name` of a pokemon with `"_id": 38` to "Tyranitar"?
 
 ```js
-db.pokemon.updateOne(
-  { _id: 38 },
-  { $set: { name: "Tyranitar" } }
+db.pokemon.???(
+  { ???: ??? },
+  { ???: { name: "Tyranitar" } }
 );
 ```
 
