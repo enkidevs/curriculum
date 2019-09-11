@@ -110,7 +110,7 @@ In the example above, we have 7 checkboxes, each with the same name - `genre` an
 
 The 'name' & 'value' attributes work as a pair in keeping track of the data sent and are both important to use with checkboxes. For instance, if the user picks `folk` and `reggae` the name/value pairs would be `genre=folk&genre=reggae`. This is something the client never sees as the data is sent upon submission of the form.
 
-When this data is submitted and sent to the server, it can be captured as an array of related values.
+When this data is submitted and sent to the server, it can be captured as an array of related values. 
 
 <!--Handling multiple checkboxes with a single server variable: '[Check out Here](https://stackoverflow.com/questions/18745456/handle-multiple-checkboxes-with-a-single-serverside-variable)'-->
 
