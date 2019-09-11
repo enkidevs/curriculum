@@ -82,18 +82,23 @@ Output:
 ---
 ## Practice
 
-Which command is used for updating several documents at once:
+How would you update all documents of `type: "Poison"` to be of `type: "Normal"`?
 
-```javascript
-db.mycollection.???
+```js
+db.pokemon.???(
+  { ???: "Poison" },
+  { ???: { type: ??? } }
+);
 ```
 
 * `updateMany()`
-* `updateOne()`
-* `addOne()`
-* `addMany()`
+* `type`
+* `$set`
+* `"Normal"`
 * `updateMultiple()`
-* `updateSingle()`
+* `$update`
+* `Normal`
+* `"type"`
 
 ---
 ## Revision
