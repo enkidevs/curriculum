@@ -37,11 +37,11 @@ db.pokemon.aggregate({
 Output:
 ```javascript
 { "_id": null, "count": 344 }
-{ "_id": "Poison", "count": 36 }
-{ "_id": "Ground", "count": 18 }
-{ "_id": "Steel", "count": 29 }
 { "_id": "Flying", "count": 41 }
+{ "_id": "Poison", "count": 36 }
 { "_id": "Water", "count": 32 }
+{ "_id": "Steel", "count": 29 }
+{ "_id": "Ground", "count": 18 }
 ```
 
 As you can see in the output of the example above, there is a `null` field with a count of `344`. Those are the documents(pokémon) without a `secondType` field and they are counted as well.
