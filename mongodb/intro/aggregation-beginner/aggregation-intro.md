@@ -73,6 +73,8 @@ Output:
 
 The `$match` pipeline stage is used to filter through a database or collection and only pass fields that match the specified value. In our case, by using `{ power: { $lte: 200 } }` we are matching pokémon that have a `power` level that is lower than or equal to `200`.
 
+The `$match` pipeline stage is similar to the `.find()` querying method, but it can be used inside the `.aggregate()` method. 
+
 ---
 ## Practice
 
