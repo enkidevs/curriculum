@@ -25,10 +25,10 @@ Last insight we learned how to query documents and use the `$in` and `$or` opera
 
 Now, we will learn how to use the `$lt`, `$lte`, `$gt` or `$gte` comparison operators to find documents more precisely.
 
-- `$lt` means less than the specified value
-- `$lte` means less than or equal to the specified value
-- `$gt` means greater than the specified value
-- `$gte` means greater than or equal to the specified value
+- `$lt` means less than the specified value (`<` is the mathematical counterpart)
+- `$lte` means less than or equal to the specified value (`<=` is the mathematical counterpart)
+- `$gt` means greater than the specified value (`>` is the mathematical counterpart)
+- `$gte` means greater than or equal to the specified value (`>=` is the mathematical counterpart)
 
 Let's say we have a `pokemon` collection where each pokémon has a `power` field which specifies their strength.
 
