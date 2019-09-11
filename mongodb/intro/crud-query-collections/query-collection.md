@@ -20,7 +20,7 @@ category: how to
 
 To perform queries means to search through a database or collection and return a result matching a specified condition.
 
-In MongoDB, there are a group of *query operators* and *projection operators* that can be used to specify different conditions for your queries.
+In MongoDB, there is a group of *query operators* that can be used to specify different conditions for your queries.
 
 For instance, let's say we have a `pokemon` collection with more than 200 pokémon documents. We know that each pokémon has an `_id`, `type`, `name` and `secondaryType` field, and we want to display all the pokémon that have the type `Grass`. We can do that like so:
 
