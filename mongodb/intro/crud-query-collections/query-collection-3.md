@@ -53,6 +53,7 @@ Output:
   "type": "Flame",
   "power": 199
 }
+// ...
 {
   "_id": 150,
   "name": "Mewtoo",
@@ -61,7 +62,7 @@ Output:
 }
 // ...
 ```
-In the example above, the document with `"_id": 1` doesn't satisfy the first expression, but it does satisfy the second, therefore it gets displayed.
+In the example above, the document with `"_id": 1` doesn't satisfy the first expression, but it does satisfy the second, therefore it gets displayed. The same goes for all the other documents, they first one of the conditions, but not both.
 
 On the other hand, this query that uses the `$and` operator:
 ```javascript
@@ -125,7 +126,7 @@ Finish the sentence:
 
 `$and` is ???
 
-* a logical operator used together with 2 or more comparison operators to display a range of documents between two values
+* a logical operator that evaluates one or more expressions and returns `true` if all are correct and `false` if not
 * a logical operator used together with 2 or more logical operators to display documents between two or four values
 * a comparison operator used to compare 2 or more logical operators
 * a comparison operators used together with 2 or more logical operators to display databases ordered in the specified order
