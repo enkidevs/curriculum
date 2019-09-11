@@ -70,7 +70,7 @@ For example:
 ```python
 x = 3
 if (x < 5):
-   print 'True!'
+   print('True!')
 ```
 `if` statements can be extended to have an `else` statement. The standard python syntax for this is:
 
