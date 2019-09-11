@@ -87,7 +87,7 @@ Which string can be used as the name of the output field for the `$count` aggreg
 ???
 ```
 
-* To count the number of documents that entered the aggregation pipeline
+* To count the number of remaining documents in the aggregation pipeline
 * `{ $count: "totalNumber" }`
 * To sort documents based on the specified number
 * To count the number of aggregation stages each document passes through
