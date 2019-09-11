@@ -29,6 +29,8 @@ show collections
 // Pokemon
 ```
 
+Unlike most SQL implementations, the collection names are case-sensitive in MongoDB. For this reason, the `pokemon` collection is different from the `Pokemon` collection, and you should always take extra care when dropping databases.
+
 Here's how we can delete the 2nd collection called `Pokemon`:
 
 ```javascript
