@@ -34,6 +34,8 @@ Docker allows you to build your app once and deploy it anywhere.
 
 ### 3. Technology agnostic
 
-Docker does not care which technology (or which version of a particular technology) you develop your application in. It lets you experiment with new frameworks and services without going putting you through the pains of technology-specific installation complications. Instead of polluting your system with a bunch of services that you may not use, Docker allows you to granularly and quickly install only the exact dependencies you need for a particular task.
+Docker does not care which technology (or which version of a particular technology) you develop your application in. It lets you experiment with new frameworks and services without putting you through the pains of technology-specific installation complications.
+
+Instead of polluting your system with a bunch of services that you may not use, Docker allows you to granularly and quickly install only the exact dependencies you need for a particular task.
 
 Docker empowers you to pick whatever technology is best for your project.

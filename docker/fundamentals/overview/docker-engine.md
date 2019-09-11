@@ -20,7 +20,7 @@ Docker uses a client-server architecture consisting of 2 parts.
 
 1. The Docker daemon (`dockerd`), which listens for requests through the Docker REST API and manages Docker Objects such as containers, images, networks, and volumes.
 
-2. The Docker client (`docker`), which is front-facing CLI tool that users primarily interact with. It sends all commands to `dockerd` via the Docker REST API to do the heavy-lifting.
+2. The Docker client (`docker`), which is a front-facing CLI tool that users primarily interact with. It sends all commands to `dockerd` via the Docker REST API to do the heavy-lifting.
 
 The main parts of Docker that we interact with on a daily basis are Docker Objects such as images, containers, networks, volumes, plugins, etc.
 

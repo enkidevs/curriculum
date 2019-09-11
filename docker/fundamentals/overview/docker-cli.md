@@ -17,9 +17,9 @@ links:
 
 Docker comes with a command-line interface (CLI) that uses the Docker REST API to control or interact with the Docker daemon[1]. This gives us a fine-grain control to manipulate containers, images, networks, services and other Docker Objects.
 
-Most Docker CLI commands have 3 parts.
+Most Docker CLI commands consists of 3 parts.
 
-They start with `docker`, followed by a subcommand which is usually a name of a Docker Object such as `image`, then followed by a command for an action to perform on that object.
+They start with the command `docker`, followed by a subcommand which is usually a name of a Docker Object such as `image`, then followed by a command for an action to perform on that object.
 
 ```bash
 docker <object> <action>
@@ -43,13 +43,13 @@ In fact, `docker` has many commands that are generic across Docker Objects (cont
 # list all objects
 docker <OBJECT> ls
 
-# remove object
+# remove an object
 docker <OBJECT> rm <ID_OR_NAME>
 
 # return JSON metadata describing the object
 docker <OBJECT> inspect <ID_OR_NAME>
 
-# remove unused objects
+# remove all unused objects
 docker <OBJECT> prune
 ```
 
