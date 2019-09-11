@@ -70,7 +70,7 @@ b'\x08\x00'
 OverflowError: int too big to convert
 # 10000000000 occupies more than 1 byte
 
-# converting -777 with little endian
+# converting -25 with little endian
 >>> (-25).to_bytes(-(-(-25).bit_length()
     // 8), byteorder="little", signed=True)
 b'\xe7'
@@ -83,7 +83,7 @@ Similarly, the `.from_bytes()` method works in reverse:
       byteorder="big")
 2048
 
-# converting back to -777, little endian
+# converting back to -25, little endian
 >>> int.from_bytes(b'\xe7\xff\xff\xff\xff',
       byteorder="little", signed=True)
 -25
