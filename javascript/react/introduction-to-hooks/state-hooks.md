@@ -27,43 +27,110 @@ links:
 ---
 ## Content
 
-Start by writing the questions- what are you trying to show the user how to do?
-Write the Practice first, then the Revision. Then come back to the content.
+Let's start off by looking at how you would usually initialize a state in a class component:
+
+```js
+class Enki extends React.Component(
+  constructor(props) {
+    super(props);
+    this.state = {
+      name: "Enki"
+    };
+  }
+)
+```
+
+But what if you wanted to use functional components? In a function component you can't use the `this` keyword, nor can you assign or read `this.state`. This is where hooks come in:
+
+```js
+import React, { useState } from "react";
+
+function Enki() {
+  const [name, setName] = useState("Enki");
+}
+```
+
+Both of the examples above provide the same functionality. Note that you must import the `useState` hook from the `'react'` library.
+
+By calling the `useState()` hook we declare a *state variable*, which in our case is called `name`. This *state variable* can take any name you want, and it represents a way to preserve some values between the function calls. Basically, by calling `useState()` we enable the functionality of `this.state` for functional components.
+
+The only argument we pass to the `useState()` hook is the **initial state**, and if you want to store two different values in `state` you can call the `useState()` hook twice. The state doesn't have to an object, but it can be if you need it.
+
+The `useState()` hook returns a pair of values that corresponds to the current state and a function used to update it. It makes use of array destructuring[1], and for this reason we call:
+
+```js
+const [name, setName] = useState("Enki");
+```
+
+Now that we have defined the `name` state we can use it anywhere in our component:
+
+```jsx
+import React, { useState } from "react";
+import ReactDOM from "react-dom";
+
+function Enki() {
+  const [name, setName] = useState("Enki");
+
+  return <p>Hello, my name is {name}</p>;
+}
+
+ReactDOM.render(
+  <Enki />,
+  document.getElementById("root")
+);
+```
 
 ---
 ## Practice
 
-This question will be shown with the insight, and users will have just read the content.
-It's best to use a code example here.
+Complete the following code that defines the `age` state with a value of 23:
 
-example:
-Given this directory structure, change directories **from** `www/css` **to** `www/images/promo`:
-```
-- www
-  - css
-  - images
-    - promo
-  - js
-
+```js
+function Person() {
+  const [???, setAge] = ???(???);
+}
 ```
 
-`cd ???/???/???`
-
-* ..
-* images
-* promo
-* www
-* js
-* .
-* ^
+* `age`
+* `useState`
+* `23`
+* `this.setState`
+* `setState`
 
 ---
 ## Revision
 
-Revision questions are shown without the insight, and users may never have seen the content. Use a code example or multiple choice question.
+Complete the following code to define the `count` state and use it in the component's body:
 
-???
+```jsx
+function Counter() {
+  const [???, setCount] = ???(0);
 
-* right answer
-* wrong answer
-* wrong answer 2
+  return (
+    <div>
+      <p>
+        The button has been clicked ???
+        {" "}times
+      </p>
+      <button
+        onClick={() => ???(count + 1)}
+      />
+    </div>
+  );
+}
+```
+
+* `count`
+* `useState`
+* `{count}`
+* `setCount`
+* `setState`
+* `this.setState`
+* `this.count`
+* `this.setCount`
+
+---
+## Footnotes
+
+[1:Array destructuring]
+In JavaScript, the destructuring assignment syntax allows you to unpack values from arrays (or properties from objects) into distinct variables. In our case, the `useState()` returns and array with the current value of the state as element `[0]`, and a function that modifies the state as element `[1]`. We use array destructuring to assign the elements names because it is a bit confusing referring to them by their index.
