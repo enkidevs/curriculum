@@ -3,7 +3,7 @@ name: Introduction to Hooks
 description: An introduction to hooks in React
 
 insights:
-  - why-where-hooks-needed
+  - why-were-hooks-needed
   - what-are-hooks
   - state-hooks
   - effect-hooks
