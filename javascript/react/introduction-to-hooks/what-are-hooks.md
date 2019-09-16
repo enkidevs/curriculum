@@ -94,9 +94,54 @@ Both components have the same functionality, but you can already see how much ea
 ---
 ## Practice
 
+This question will be shown with the insight, and users will have just read the content.
+It's best to use a code example here.
 
+example:
+Given this directory structure, change directories **from** `www/css` **to** `www/images/promo`:
+```
+- www
+  - css
+  - images
+    - promo
+  - js
+
+```
+
+`cd ???/???/???`
+
+* ..
+* images
+* promo
+* www
+* js
+* .
+* ^
 
 ---
 ## Revision
 
 
+This question will be shown with the insight, and users will have just read the content.
+It's best to use a code example here.
+
+example:
+Given this directory structure, change directories **from** `www/css` **to** `www/images/promo`:
+```
+- www
+  - css
+  - images
+    - promo
+  - js
+
+```
+
+`cd ???/???/???`
+
+* ..
+* images
+* promo
+* www
+* js
+* .
+* ^

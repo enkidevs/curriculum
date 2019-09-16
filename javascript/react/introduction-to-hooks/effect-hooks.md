@@ -17,15 +17,8 @@ type: normal
 
 category: how to
 
-
-standards: 
-  topic-slug.standard-slug.objective-number: points (10 for insights, 1000 for exercises)
-
 links:
-  - '[link to official documentation](https://enki.com)'
-  - '[link to deeper dive blog post](https://enki.com)'
-  - '[link to a video](https://enki.com)'
-  - '[link to a discussion](https://enki.com)'
+
 
 ---
 
