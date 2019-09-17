@@ -18,6 +18,7 @@ type: normal
 category: how to
 
 links:
+  - '[effect-hooks](https://reactjs.org/docs/hooks-effect.html){documentation}'
 
 
 ---
@@ -30,20 +31,25 @@ links:
 Effect hooks allow you to perform side effects in functional components. Some examples of side effects include setting up a subscription, manually changing the DOM or data fetching. Let's use the same `<Enki />` component that was created in the previous insight:
 
 ```jsx
-import React, { useState } from 'react';
+import React, {
+  useState,
+  useEffect
+} from "react";
 
 function Enki() {
   const [name, setName] = useState("Enki");
 
   useEffect(() => {
     document.title = `Welcome ${name}.`;
-  })
+  });
 
   return <p>Hello, my name is {name}</p>;
 }
 ```
 
 Notice anything new? We have used the `useEffect()` hook to set the document's title to a new custom message that includes the `name` state. If the syntax looks a bit different it is because we are using template literals[1] that allow us to embed expressions. You can think of the `useEffect()` hook as a replacement for `componentDidMount`, `componentDidUpdate`, and `componentWillUnmount` combined.
+
+Note that you have to import the `useEffect` hook from the `'react'` library.
 
 There are two types of effect hooks: with cleanup or without cleanup. In this insight we will focus on the effects without cleanup.
 

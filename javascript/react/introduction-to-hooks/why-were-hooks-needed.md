@@ -71,11 +71,11 @@ Which of the following does not represent a method of "attaching" reusable behav
 ---
 ## Revision
 
-Which of the following does not represent a method of "attaching" reusable behavior to a component?
+Which of the following represents a method of "attaching" reusable behavior to a component?
 
 ???
 
-* pure components
-* render props
 * hooks
-* higher-order components
+* pure components
+* nested functions
+* class components

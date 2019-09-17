@@ -18,7 +18,7 @@ type: normal
 category: how to
 
 links:
-
+  - '[rules-of-hooks](https://reactjs.org/docs/hooks-rules.html){documentation}'
 
 ---
 
@@ -55,7 +55,7 @@ function App() {
 
 Now that you know your functional components can contain multiple hook calls, it is time to learn the rules that apply to hooks.
 
-The first rule is **always call hooks at the top level**. To allow React to correctly preserve the state of hooks between multiple `useState()` and `useEffect` calls, you can't call call hooks inside loops, conditions, or nested functions. What this rule does is it ensures that the hooks are called in the exact same order each time a component renders.
+The first rule is **always call hooks at the top level**. To allow React to correctly preserve the state of hooks between multiple `useState()` and `useEffect` calls, you can't call hooks inside loops, conditions, or nested functions. What this rule does is it ensures that the hooks are called in the exact same order each time a component renders.
 
 The second rule is **only call hooks from React functions**. Hooks were designed to work when called either inside React functional components or inside a custom hook (concept which will be taught at a later time). Hooks can't be called from regular JavaScript functions.
 

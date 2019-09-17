@@ -18,6 +18,7 @@ type: normal
 category: must-know
 
 links:
+  - '[hooks-intro](https://reactjs.org/docs/hooks-intro.html){documentation}'
 
 ---
 
@@ -56,7 +57,7 @@ function Enki() {
 }
 ```
 
-What the `Enki` component does is that every time the button is click, the `count` is incremented by one. Now, if we would've used class components, the code would've looked something like this:
+What the `Enki` component does is that every time the button is clicked, the `count` state is incremented by one. Now, if we would've used class components, the code would've looked something like this:
 
 ```jsx
 class Enki extends React.Component {
@@ -71,8 +72,8 @@ class Enki extends React.Component {
     return (
       <div>
         <p>
-          You clicked {this.state.count}{" "}
-          times
+          You clicked {this.state.count}
+          {" "}times
         </p>
         <button
           onClick={() =>
@@ -94,54 +95,31 @@ Both components have the same functionality, but you can already see how much ea
 ---
 ## Practice
 
-This question will be shown with the insight, and users will have just read the content.
-It's best to use a code example here.
+Which of the following does not represent a React hook?
 
-example:
-Given this directory structure, change directories **from** `www/css` **to** `www/images/promo`:
-```
-- www
-  - css
-  - images
-    - promo
-  - js
+???
 
-```
-
-`cd ???/???/???`
-
-* ..
-* images
-* promo
-* www
-* js
-* .
-* ^
+* lifecycle hook
+* state hook
+* effect hook
+* custom hook
 
 ---
 ## Revision
 
+Complete the following code that defines the `foo` state with the initial value of `null`:
 
-This question will be shown with the insight, and users will have just read the content.
-It's best to use a code example here.
+```jsx
+function Revision() {
+  const [???, setFoo] = ???(???);
 
-example:
-Given this directory structure, change directories **from** `www/css` **to** `www/images/promo`:
-```
-- www
-  - css
-  - images
-    - promo
-  - js
-
+  // ...
+}
 ```
 
-`cd ???/???/???`
-
-* ..
-* images
-* promo
-* www
-* js
-* .
-* ^
+* `foo`
+* `useState`
+* `null`
+* `setState`
+* `this.useState`
+* `this.setState`
