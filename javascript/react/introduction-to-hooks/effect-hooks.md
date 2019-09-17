@@ -27,43 +27,95 @@ links:
 ---
 ## Content
 
-Start by writing the questions- what are you trying to show the user how to do?
-Write the Practice first, then the Revision. Then come back to the content.
+Effect hooks allow you to perform side effects in functional components. Some examples of side effects include setting up a subscription, manually changing the DOM or data fetching. Let's use the same `<Enki />` component that was created in the previous insight:
+
+```jsx
+import React, { useState } from 'react';
+
+function Enki() {
+  const [name, setName] = useState("Enki");
+
+  useEffect(() => {
+    document.title = `Welcome ${name}.`;
+  })
+
+  return <p>Hello, my name is {name}</p>;
+}
+```
+
+Notice anything new? We have used the `useEffect()` hook to set the document's title to a new custom message that includes the `name` state. If the syntax looks a bit different it is because we are using template literals[1] that allow us to embed expressions. You can think of the `useEffect()` hook as a replacement for `componentDidMount`, `componentDidUpdate`, and `componentWillUnmount` combined.
+
+There are two types of effect hooks: with cleanup or without cleanup. In this insight we will focus on the effects without cleanup.
+
+When using class components, the side effects are defined inside the `componentDidMount`, `componentDidUpdate` or `componentWillUnmount` methods, because defining them in the `render` method would be too early (we want side effects to happen **after** React updates the DOM). Here is how our example would look like if we used class components:
+
+```jsx
+class Enki extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      name: "Enki"
+    };
+  }
+
+  componentDidMount() {
+    document.title = `Welcome ${name}.`;
+  }
+
+  componentDidUpdate() {
+    document.title = `Welcome ${name}.`;
+  }
+
+  render() {
+    return (
+      <p>Hello, my name is {this.name}.</p>
+    );
+  }
+}
+```
+
+You can already see the advantages of using hooks by comparing these two examples. With the `useEffect()` hook, you tell React that your component has to do something after every render. The `useEffect()` hook is placed inside the component so that we can access the `name` variable. This is possible because of how JavaScript's scope works, and it removes the need of React-specific APIs that would have to read the hook. By default, the `useEffect()` is ran after the first render and after every subsequent update.
 
 ---
 ## Practice
 
-This question will be shown with the insight, and users will have just read the content.
-It's best to use a code example here.
+The `useEffect()` hook can be considered as a replacement of what when using functional components?
 
-example:
-Given this directory structure, change directories **from** `www/css` **to** `www/images/promo`:
-```
-- www
-  - css
-  - images
-    - promo
-  - js
+???
 
-```
-
-`cd ???/???/???`
-
-* ..
-* images
-* promo
-* www
-* js
-* .
-* ^
+* All of the methods mentioned.
+* `componentDidUpdate()`
+* `componentDidMount()`
+* `componentWillUnmount()`
 
 ---
 ## Revision
 
-Revision questions are shown without the insight, and users may never have seen the content. Use a code example or multiple choice question.
+Complete the following code to change the document's title to "Welcome to the revision question.":
 
-???
+```jsx
+function Revision() {
+  const [foo, setFoo] = ???(
+    "revision"
+  );
 
-* right answer
-* wrong answer
-* wrong answer 2
+  ???(() => {
+    document.title =
+      `Welcome to the ??? question.`;
+  });
+}
+```
+
+* `useState`
+* `useEffect`
+* `${foo}`
+* `setState`
+* `setEffect`
+* `{foo}`
+* `$foo`
+
+---
+## Footnotes
+
+[1:Template literals]
+Template literals (formerly known as *template strings*) are a way of using multi-line strings together with string interpolation features. What this basically means is that it allows us to call the `name` state inside a string by appending the `$` sign before the `{name}` syntax. Template literals are defined using back ticks `` `string text` ``.
