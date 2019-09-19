@@ -23,7 +23,7 @@ links:
 
 ---
 
-# Errors and Excpetions
+# Errors and Exceptions
 
 ---
 ## Content
