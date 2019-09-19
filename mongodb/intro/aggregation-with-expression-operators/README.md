@@ -1,6 +1,6 @@
 name: Aggregation With Expression Operators
 
-description: Use different expression operators to aggregate a collection or database
+description: Use different expression operators to aggregate a collection or a database
 
 insights:
   - aggregation-with-arithmetic-expression-operators-i
