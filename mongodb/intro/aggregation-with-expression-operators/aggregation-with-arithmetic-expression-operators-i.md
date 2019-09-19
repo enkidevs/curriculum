@@ -26,7 +26,7 @@ These operators are used for mathematical calculations of numbers.
 
 Some operators and explanations:
 `$add` - adds 2 or more numbers together and returns a sum.
-`$substract` - subtracts the second number from the first and returns the difference.(accepts exactly 2 expressions)
+`$subtract` - subtracts the second number from the first and returns the difference (accepts exactly 2 expressions).
 
 ### $add
 
@@ -42,17 +42,16 @@ Syntax:
 }
 ```
 
-Let's say we have a `pokemon` collection where each pokémon has 3 `power` fields, `Basic` ,`Strong` and `Ultimate`. Each filed, has its own power "level"(number). We can use the `$add` operator to easily calculate the total strength of all 3 `powers`.
+Let's say we have a `pokemon` collection where each pokémon has 3 power fields: `Basic` ,`Strong` and `Ultimate`. Each field has its own power "level" (number). We can use the `$add` operator to easily calculate the total strength of all 3 powers.
 
 Example documents:
 ```javascript
 { 
-  "Name": "Pikatchu",
+  "Name": "Pikachu",
   "Basic": 101,
   "Strong": 211,
-  "Ultimate" : 500 
+  "Ultimate": 500 
 }
-
 { 
   "Name": "Raichu", 
   "Basic": 171,
@@ -78,11 +77,12 @@ db.pokemon.aggregate([
   }
 ]);
 ```
+
 Output:
 ```javascript
 { 
   "_id": 1,
-  "Name": "Pikatchu", 
+  "Name": "Pikachu", 
   "totalPowerStrength": 812 
 }
 { 
@@ -107,7 +107,7 @@ Syntax:
 }
 ```
 
-Using the same documents as above, we can use the `$subtract` operator to calucate how stronger the `Ultimate` `power` is compared to the `Basic` one for each pokémon.
+Using the same documents as above, we can use the `$subtract` operator to calculate how stronger the `Ultimate` `power` is compared to the `Basic` one for each pokémon.
 
 **Note:** The expressions are calculated like so `<expression1>` - `<expression2>`.
 
@@ -118,20 +118,18 @@ db.pokemon.aggregate([
     $project: {
       Name: 1,
       ultimateMinusBasic: {
-        $subtract: [
-          "$Ultimate",
-          "$Basic"
-        ]
+        $subtract: ["$Ultimate", "$Basic"]
       }
     }
   }
 ]);
 ```
+
 Output:
 ```javascript
 { 
   "_id": 1,
-  "Name": "Pikatchu", 
+  "Name": "Pikachu", 
   "ultimateMinusBasic": 399 
 }
 { 
@@ -145,7 +143,7 @@ Output:
 
 Now that we know how to use each operator, we can also combine them.
 
-Using the same documents and examples as above, let's calculate how stronger the `Ultimate` power is compared to the sum of the 2 weaker ones. 
+Using the same documents and examples as above, let's calculate how stronger the `Ultimate` power is compared to the sum of the other two. 
 
 Example:
 ```javascript
@@ -168,7 +166,7 @@ Output:
 ```javascript
 { 
   "_id": 1,
-  "Name": "Pikatchu", 
+  "Name": "Pikachu", 
   "ultimateMinusOtherTwo": 188 
 }
 { 
@@ -187,10 +185,7 @@ db.pokemon.aggregate([
     $project: {
       Name: 1,
       basicMinusSeven: {
-        $subtract: [
-          "$Basic",
-          7
-        ]
+        $subtract: ["$Basic", 7]
       }
     }
   }
@@ -208,7 +203,7 @@ True or False:
 
 When adding or subtracting expressions it is not possible to add a literal as an expression: ???
 
-* is an Arithmetic operator used to add any number of expressions with a minimum of 2.
+* is an Arithmetic operator used to add two or more expressions any number of expressions with a minimum of 2.
 * is an Arithmetic operator used to subtract the 2nd expression from the first. (exactly 2 expressions can be used)
 * False
 * True
