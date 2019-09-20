@@ -19,15 +19,13 @@ category: must-know
 links:
 
   - '[facebook.github.io](https://facebook.github.io/react/docs/components-and-props.html){website}'
+  - '[how-are-function-components-different-from-classes](https://overreacted.io/how-are-function-components-different-from-classes/){website}'
 
 parent: what-is-state
 
 aspects:
   - introduction
   - deep
-
-links:
-  - '[how-are-function-components-different-from-classes](https://overreacted.io/how-are-function-components-different-from-classes/){website}'
 
 ---
 
@@ -43,13 +41,14 @@ Up until recently, functional components couldn't make us of any **lifecycle** m
 ```js
 function Enki() {
   // defining the "name" state,
-  // a "setName()" function to change the state,
-  // and the initial state, 'Enki'.
-  const [name, setName] = useState('Enki');
+  // a "setName()" function to change
+  // the state, and the initial
+  // state, 'Enki'.
+  const [name, setName] = useState("Enki");
 
   useEffect(
     // lifecycle methods
-  )
+  );
 }
 ```
 
@@ -58,7 +57,7 @@ Don't worry about hooks for now, they will be explained in a later workout. For 
 ```jsx
 function FollowComponent(props) {
   const showMessage = () => {
-    alter('Followed ' + props.user);
+    alter("Followed " + props.user);
   };
 
   const handleClick = () => {
@@ -66,13 +65,15 @@ function FollowComponent(props) {
   };
 
   return (
-    <button onClick={handleClick}>Follow</button>
+    <button onClick={handleClick}>
+      Follow
+    </button>
   );
 }
 
 class FollowComponent extends React.Component {
   showMessage = () => {
-    alert('Followed ' + this.props.user);
+    alert("Followed " + this.props.user);
   };
 
   handleClick = () => {
@@ -80,7 +81,11 @@ class FollowComponent extends React.Component {
   };
 
   render() {
-    return <button onClick={this.handleClick}>Follow</button>;
+    return (
+      <button onClick={this.handleClick}>
+        Follow
+      </button>
+    );
   }
 }
 ```
@@ -99,14 +104,18 @@ class FollowComponent extends React.Component {
     const props = this.props;
 
     const showMessage = () => {
-      alert('Followed ' + props.user);
+      alert("Followed " + props.user);
     };
 
     const handleClick = () => {
       setTimeout(showMessage, 3000);
     };
 
-    return <button onClick={handleClick}>Follow</button>;
+    return (
+      <button onClick={handleClick}>
+        Follow
+      </button>
+    );
   }
 }
 ```
