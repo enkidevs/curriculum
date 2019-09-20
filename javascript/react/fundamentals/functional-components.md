@@ -26,6 +26,9 @@ aspects:
   - introduction
   - deep
 
+links:
+  - '[how-are-function-components-different-from-classes](https://overreacted.io/how-are-function-components-different-from-classes/){website}'
+
 ---
 
 # Functional components
@@ -35,29 +38,80 @@ aspects:
 
 As stated before, **React** components behave just like functions, taking `props` as input and returning **React elements**.
 
-Components that don't make use of any **lifecycle** methods (such as `componentDidMount`) can be written just using functions and are usually called **functional components**.
+Up until recently, functional components couldn't make us of any **lifecycle** methods, nor could they access `this.state` or call `setState()`. With the introduction of hooks, there is no visible difference between functional and class components:
 
-Consider the component:
+```js
+function Enki() {
+  // defining the "name" state,
+  // a "setName()" function to change the state,
+  // and the initial state, 'Enki'.
+  const [name, setName] = useState('Enki');
+
+  useEffect(
+    // lifecycle methods
+  )
+}
+```
+
+Don't worry about hooks for now, they will be explained in a later workout. For now, let's take a look at the following components:
 
 ```jsx
-class Enki extends React.Component {
+function FollowComponent(props) {
+  const showMessage = () => {
+    alter('Followed ' + props.user);
+  };
+
+  const handleClick = () => {
+    setTimeout(showMessage, 3000);
+  };
+
+  return (
+    <button onClick={handleClick}>Follow</button>
+  );
+}
+
+class FollowComponent extends React.Component {
+  showMessage = () => {
+    alert('Followed ' + this.props.user);
+  };
+
+  handleClick = () => {
+    setTimeout(showMessage, 3000);
+  };
+
   render() {
-    return <p>{this.props.enki}</p>;
+    return <button onClick={this.handleClick}>Follow</button>;
   }
 }
 ```
 
-A **stateless** component is **functional** when written literally as a JS function:
+The components defined above should have the same functionality right? This statement is mostly correct, although there is an unseen side effect. In the class component, although `props` are immutable, `this` will always be mutable. For this reason, the property `this.props.user` is changed after every render or lifecycle method. Imagine that the button is clicked, but before the 3 seconds pass the `name` prop is changed from 'Andrei' to 'Stefan'. The effects of this action will be:
+
+- in the functional component, the message displayed will be 'Followed Andrei', which is the **correct** behavior
+- in the class component, the message displayed will be 'Followed Stefan', because `this.props.user` reflects the latest value
+
+A quick fix for this issue is represented by capturing the current `props` in the `render()` method:
 
 ```jsx
-function Enki(props) {
-  return <p>{props.enki}</p>;
+class FollowComponent extends React.Component {
+  render() {
+    // capture the props
+    const props = this.props;
+
+    const showMessage = () => {
+      alert('Followed ' + props.user);
+    };
+
+    const handleClick = () => {
+      setTimeout(showMessage, 3000);
+    };
+
+    return <button onClick={handleClick}>Follow</button>;
+  }
 }
 ```
 
-The two components defined above are completely equivalent from **React**'s point of view.
-
-**Functional components** are preferred for **UI** because they enforce the best practice of having *dumb presentational components*, but also require less typing (e.g. no `this` keyword).
+For more information on the differences between functional and class components make sure to check the resources.
 
 ---
 ## Practice
@@ -90,18 +144,3 @@ Second:
 * `props.test`
 * `test`
 * `this.props.test`
-
----
-## Revision
-
-When can a component be written as a `function`?
-
-When it has ???.
-
-
-* no `state` and no **lifecycle methods**
-* no `state`
-* no **lifecycle methods**
-* no `props`
-
-
