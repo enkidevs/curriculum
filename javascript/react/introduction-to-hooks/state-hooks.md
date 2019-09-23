@@ -40,7 +40,7 @@ class Enki extends React.Component(
 )
 ```
 
-But what if you wanted to use functional components? In a function component you can't use the `this` keyword, nor can you assign or read `this.state`. This is where hooks come in:
+But what if you wanted to use functional components? In a function component you can't assign or read `this.state`. This is where hooks come in:
 
 ```js
 import React, { useState } from "react";

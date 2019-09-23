@@ -30,11 +30,11 @@ links:
 
 Hooks represent a new addition to React, and they allow you to use state or other useful features without using class components.
 
-Hooks were created to solve a number of issues that were encountered in the past five years since React was created.
+Hooks were created to solve a number of issues that were encountered in the first five years since React was created.
 
-In React, there is no direct way to "attach" reusable behavior to a component (such as connecting to a store). The patterns that emerged from the need of reusable behavior were either using [render props](https://reactjs.org/docs/render-props.html) or using [higher-order components](https://reactjs.org/docs/higher-order-components.html) (or HOCs).
+In React, there is no built-in way to "attach" reusable behavior to a component (such as connecting to a store). The patterns that emerged to solve this need were [render props](https://reactjs.org/docs/render-props.html) and [higher-order components](https://reactjs.org/docs/higher-order-components.html) (or HOCs).
 
-A `render prop` is nothing more than a function that a component uses to know what to render.
+A `render prop` is a function that a component uses to know what to render.
 
 ```jsx
 <MyComponent
@@ -44,7 +44,7 @@ A `render prop` is nothing more than a function that a component uses to know wh
 />
 ```
 
-A higher-order component is a function that takes a component and returns a new component:
+A higher-order component is a function that takes a component and returns a new component that includes the reusable behavior
 
 ```js
 const EnhancedComponent = higherOrderComponent(
@@ -52,7 +52,7 @@ const EnhancedComponent = higherOrderComponent(
 );
 ```
 
-Although you can use these patterns to create reusable behavior, most of the time they require component restructuring. This can make your code hard to follow because your components will be surrounded by wrappers, consumers, higher-order components, render props and any other abstractions that you make.
+Although you can use these patterns to create reusable behavior, most of the time they require component restructuring. This can make your code more verbose and harder to follow because your components will be surrounded by wrappers, consumers, higher-order components, render props and other, potentially noisy, abstractions.
 
 To solve this issue, the React team has created hooks.
 

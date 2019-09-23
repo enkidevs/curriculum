@@ -27,14 +27,14 @@ links:
 ---
 ## Content
 
-Hooks represent a new way of using state with your functional components. They are the best approach at reusing stateful logic and enable you to use more of React's features without having to use classes.
+Hooks represent a new way of using state with your functional components. They are the great for reusing stateful logic and enable you to use more of React's features without having to use classes.
 
 There are three main types of hooks:
 - State Hooks
 - Effect Hooks
 - Custom Hooks
 
-Before hooks, your components would start out simple but with time they would grow into a random grouping of stateful logic and side effects. Your components could perform some data fetching in the `componentDidMount` or `componentDidUpdate` lifecycle methods, but the `componentDidMount` could also contain some event listeners that were totally unrelated. Hooks introduced a way of splitting up components into smaller functions such that each part is related.
+Before hooks, many initially simple React component would eventually grow to contain many unrelated groupings of stateful logic and side effects. A component could perform some data fetching in the `componentDidMount` or `componentDidUpdate` lifecycle methods, while the `componentDidMount` could also contain some event listeners. Hooks allow us to separate these unrelated parts by encapsulating related logic into functions.
 
 Now, let's take a look at a simple state hook:
 

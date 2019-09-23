@@ -53,7 +53,9 @@ Note that you have to import the `useEffect` hook from the `'react'` library.
 
 There are two types of effect hooks: with cleanup or without cleanup. In this insight we will focus on the effects without cleanup.
 
-When using class components, the side effects are defined inside the `componentDidMount`, `componentDidUpdate` or `componentWillUnmount` methods, because defining them in the `render` method would be too early (we want side effects to happen **after** React updates the DOM). Here is how our example would look like if we used class components:
+When using class components, a common pattern for side effects is to define them right after the component is rendered for the first time (in the `componentDidMount` method), update them if necessary on subsequent renders (in the `componentDidUpdate` method), and clean them up when the component is unmounted (in the `componentWillUnmount` method)
+
+Here is how our example would look like if we used class components:
 
 ```jsx
 class Enki extends React.Component {
@@ -80,7 +82,7 @@ class Enki extends React.Component {
 }
 ```
 
-You can already see the advantages of using hooks by comparing these two examples. With the `useEffect()` hook, you tell React that your component has to do something after every render. The `useEffect()` hook is placed inside the component so that we can access the `name` variable. This is possible because of how JavaScript's scope works, and it removes the need of React-specific APIs that would have to read the hook. By default, the `useEffect()` is ran after the first render and after every subsequent update.
+You can already see the advantages of using hooks by comparing these two examples. With the `useEffect()` hook, you tell React that your component has to do something after every render. The `useEffect()` hook is placed inside the component so that we can access the `name` variable. This is possible because of how JavaScript's scope works, and it removes the need of React-specific APIs that would have to read the hook. By default, the `useEffect()` is ran after the first render and after every subsequent update (we'll see more how to control this later on).
 
 ---
 ## Practice
@@ -97,7 +99,7 @@ The `useEffect()` hook can be considered as a replacement of what when using fun
 ---
 ## Revision
 
-Complete the following code to change the document's title to "Welcome to the revision question.":
+Complete the following code to change the document's title to `"Welcome to the revision question."`:
 
 ```jsx
 function Revision() {

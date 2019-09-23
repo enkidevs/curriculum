@@ -55,11 +55,15 @@ function App() {
 
 Now that you know your functional components can contain multiple hook calls, it is time to learn the rules that apply to hooks.
 
-The first rule is **always call hooks at the top level**. To allow React to correctly preserve the state of hooks between multiple `useState()` and `useEffect` calls, you can't call hooks inside loops, conditions, or nested functions. What this rule does is it ensures that the hooks are called in the exact same order each time a component renders.
+The first rule is **always call hooks at the top level**. 
 
-The second rule is **only call hooks from React functions**. Hooks were designed to work when called either inside React functional components or inside a custom hook (concept which will be taught at a later time). Hooks can't be called from regular JavaScript functions.
+To allow React to correctly preserve the state of hooks between multiple `useState()` and `useEffect` calls, you can't call hooks inside loops, conditions, or nested functions. What this rule does is it ensures that the hooks are called in the exact same order each time a component renders.
 
-To help developers follow these rules more easily, the React team has created an ESLint plugin called `eslint-plugin-react-hooks` with plans to include it by default in the Create React App toolkit. To add this to your project, use the following command:
+The second rule is **only call hooks from React functions**. 
+
+Hooks were designed to work when called either inside React functional components or inside a custom hook (concept which will be taught at a later time). Hooks can't be called from regular JavaScript functions.
+
+To help developers follow these rules more easily, the React team has created an ESLint plugin called `eslint-plugin-react-hooks`. A quick way to add it to your project is to install it from NPM[1]:
 
 ```shell
 npm i eslint-plugin-react-hooks --save-dev
