@@ -1,9 +1,5 @@
 ---
 author: kapnobatai136
-
-levels:
-
-  - medium
   
 aspects:
 
