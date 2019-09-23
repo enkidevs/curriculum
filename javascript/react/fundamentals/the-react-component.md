@@ -32,7 +32,7 @@ aspects:
 ---
 ## Content
 
-In **React**, a component represents a fundamental *class* you can work with to build re-usable and independent `UI` blocks.
+In **React**, a component represents a fundamental *unit of logic* you can work with to build re-usable and independent `UI` blocks.
 
 These components behave like simple functions, they can take input arguments called `props` and will return what should be *rendered*.
 

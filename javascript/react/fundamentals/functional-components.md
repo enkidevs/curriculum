@@ -36,7 +36,7 @@ aspects:
 
 As stated before, **React** components behave just like functions, taking `props` as input and returning **React elements**.
 
-Up until recently, functional components couldn't make us of any **lifecycle** methods, nor could they access `this.state` or call `setState()`. With the introduction of hooks, there is no visible difference between functional and class components:
+Hooks allow functional components to achieve state management:
 
 ```js
 function Enki() {
@@ -47,7 +47,7 @@ function Enki() {
   const [name, setName] = useState("Enki");
 
   useEffect(
-    // lifecycle methods
+    // perform side effects
   );
 }
 ```
