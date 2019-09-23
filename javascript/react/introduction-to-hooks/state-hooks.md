@@ -1,10 +1,6 @@
 ---
 author: kapnobatai136
-
-levels:
-
-  - medium
-  
+ 
 aspects:
 
   - new
@@ -52,17 +48,17 @@ function Enki() {
 
 Both of the examples above provide the same functionality. Note that you must import the `useState` hook from the `'react'` library.
 
-By calling the `useState()` hook we declare a *state variable*, which in our case is called `name`. This *state variable* can take any name you want, and it represents a way to preserve some values between the function calls. Basically, by calling `useState()` we enable the functionality of `this.state` for functional components.
+By calling the `useState()` hook you declare a *state variable*, which in our case is called `name`. This *state variable* can take any name you want, and it represents a way to preserve some values between the function calls. Basically, by calling `useState()` you enable the functionality of `this.state` for functional components.
 
-The only argument we pass to the `useState()` hook is the **initial state**, and if you want to store two different values in `state` you can call the `useState()` hook twice. The state doesn't have to an object, but it can be if you need it.
+The only argument you pass to the `useState()` hook is the **initial state**, and if you want to store two different values in `state` you can call the `useState()` hook twice. The state doesn't have to be an object, but it can be if you need it.
 
-The `useState()` hook returns a pair of values that corresponds to the current state and a function used to update it. It makes use of array destructuring[1], and for this reason we call:
+The `useState()` hook returns a pair of values that corresponds to the current state and a function used to update it. It makes use of array destructuring[1], and for this reason you call:
 
 ```js
 const [name, setName] = useState("Enki");
 ```
 
-Now that we have defined the `name` state we can use it anywhere in our component:
+Now that you have defined the `name` state you can use it anywhere in your component:
 
 ```jsx
 import React, { useState } from "react";

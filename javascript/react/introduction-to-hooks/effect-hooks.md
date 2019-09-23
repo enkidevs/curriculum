@@ -1,10 +1,6 @@
 ---
 author: kapnobatai136
 
-levels:
-
-  - medium
-  
 aspects:
 
   - new
@@ -53,7 +49,7 @@ Note that you have to import the `useEffect` hook from the `'react'` library.
 
 There are two types of effect hooks: with cleanup or without cleanup. In this insight we will focus on the effects without cleanup.
 
-When using class components, a common pattern for side effects is to define them right after the component is rendered for the first time (in the `componentDidMount` method), update them if necessary on subsequent renders (in the `componentDidUpdate` method), and clean them up when the component is unmounted (in the `componentWillUnmount` method)
+When using class components, a common pattern for side effects is to define them right after the component is rendered for the first time (in the `componentDidMount` method), update them if necessary on subsequent renders (in the `componentDidUpdate` method), and clean them up when the component is unmounted (in the `componentWillUnmount` method).
 
 Here is how our example would look like if we used class components:
 

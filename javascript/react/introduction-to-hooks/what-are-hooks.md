@@ -36,61 +36,79 @@ There are three main types of hooks:
 
 Before hooks, many initially simple React component would eventually grow to contain many unrelated groupings of stateful logic and side effects. A component could perform some data fetching in the `componentDidMount` or `componentDidUpdate` lifecycle methods, while the `componentDidMount` could also contain some event listeners. Hooks allow us to separate these unrelated parts by encapsulating related logic into functions.
 
-Now, let's take a look at a simple state hook:
+Now, let's take a look at the following code:
 
 ```jsx
-import React, { useState } from "react";
-
-function Enki() {
-  const [count, setCount] = useState(0);
-
-  return (
-    <div>
-      <p>You clicked {count} times</p>
-      <button
-        onClick={() => setCount(count + 1)}
-      >
-        Click me
-      </button>
-    </div>
-  );
-}
-```
-
-What the `Enki` component does is that every time the button is clicked, the `count` state is incremented by one. Now, if we would've used class components, the code would've looked something like this:
-
-```jsx
-class Enki extends React.Component {
+class FriendStatus extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      count: 0
+      count: 0,
+      isOnline: null
     };
+    this.handleStatus 
+      = this.handleStatus.bind(
+        this
+      );
   }
 
-  render() {
-    return (
-      <div>
-        <p>
-          You clicked {this.state.count}
-          {" "}times
-        </p>
-        <button
-          onClick={() =>
-            this.setState(state => ({
-              count: state.count + 1
-            }))
-          }
-        >
-          Click me
-        </button>
-      </div>
+  componentDidMount() {
+    API.subscribeToFriendStatus(
+      this.props.friend.id,
+      this.handleStatusChange
+    );
+    this.setState({ count: count + 1 });
+    document.title 
+      = `You have ${this.state.count} friends online.`;
+  }
+
+  componentDidUpdate() {
+    document.title 
+      = `You have ${this.state.count} friends online.`;
+  }
+
+  componentWillUnmount() {
+    API.unsubscribeFromFriendStatus(
+      this.props.friend.id,
+      this.handleStatusChange
     );
   }
+
+  handleStatusChange(status) {
+    this.setState({
+      isOnline: status.isOnline
+    });
+  }
+  // ...
 }
 ```
 
-Both components have the same functionality, but you can already see how much easier it is to write state hooks compared to using state in a class component.
+What the above component does is count the number of online friends and handle their status. Notice how the `componentDidMount()` and `componentWillUnmount()` methods contain unrelated logic. Now, if we would've used functional components, the code would've looked something like this:
+
+```jsx
+function FriendStatus() {
+  const [count, setCount] = useState(0);
+  useEffect(() => {
+    document.title = `You have ${this.state.count} friends online.`
+  })
+
+  const [isOnline, setIsOnline] = useState(null);
+  useEffect(() => {
+    function handleStatusChange(status) {
+      setIsOnline(status.isOnline);
+    }
+
+    API.subscribeToFriendStatus(props.friend.id, handleStatusChange);
+    setCount(() => count + 1);
+    return () => {
+      API.unsubscribeFromFriendStatus(props,friend.id, handleStatusChange);
+    };
+  });
+
+  // ....
+```
+
+Both components have the same functionality, but you can already see the differences. When using hooks, we can group related stateful logic and side effects together, effectively separating said group from unrelated code.
 
 ---
 ## Practice

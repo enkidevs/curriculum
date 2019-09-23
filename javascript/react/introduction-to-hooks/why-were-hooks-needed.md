@@ -34,7 +34,7 @@ Hooks were created to solve a number of issues that were encountered in the firs
 
 In React, there is no built-in way to "attach" reusable behavior to a component (such as connecting to a store). The patterns that emerged to solve this need were [render props](https://reactjs.org/docs/render-props.html) and [higher-order components](https://reactjs.org/docs/higher-order-components.html) (or HOCs).
 
-A `render prop` is a function that a component uses to know what to render.
+A `render prop` is a function that a component uses to know what to render[1].
 
 ```jsx
 <MyComponent
@@ -44,7 +44,7 @@ A `render prop` is a function that a component uses to know what to render.
 />
 ```
 
-A higher-order component is a function that takes a component and returns a new component that includes the reusable behavior
+A higher-order component is a function that takes a component and returns a new component that includes the reusable behavior:
 
 ```js
 const EnhancedComponent = higherOrderComponent(
@@ -79,3 +79,16 @@ Which of the following represents a method of "attaching" reusable behavior to a
 * pure components
 * nested functions
 * class components
+
+---
+## Footnotes
+[1:render props]
+Another version of the "render props" pattern is to pass a function as `children`:
+
+```jsx
+<MyComponent>
+  {person => (
+    <p>Hello {person.name}</p>
+  )}
+</MyComponent>
+```

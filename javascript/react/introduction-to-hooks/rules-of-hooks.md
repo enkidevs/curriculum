@@ -1,9 +1,5 @@
 ---
 author: kapnobatai136
-
-levels:
-
-  - medium
   
 aspects:
 
@@ -106,3 +102,9 @@ Can you have more than one hook in a component?
 * no
 * maybe
 * yes, but only two hooks per component
+
+---
+## Footnotes
+
+[1:NPM]
+NPM (short for Node Package Manager) is on online repository used for the publishing of open-source Node.js projects. At the same time, it also provides a command-line utility for interacting with this repository, which helps with package installation, version management, and dependency management.
