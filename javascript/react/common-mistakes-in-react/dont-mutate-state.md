@@ -15,7 +15,7 @@ aspects:
 
 type: normal
 
-category: how to
+category: tip
 
 links:
 
