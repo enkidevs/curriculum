@@ -63,7 +63,7 @@ Fill in the gaps such that the `log` statement makes sense:
 ```javascript
 console.log(
   String.???`A\nB???
-)
+);
 // A\nB
 ```
 
