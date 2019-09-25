@@ -19,7 +19,7 @@ Containers are a way of isolating an application with its own environment. It's 
 
 They are the fundamental building blocks of Docker and effectively represent runtime instances of Docker images (more on Docker images later).
 
-A container can be viewed as an independent software environment that includes everything it needs to execute. We can use containers to isolate applications from each other and from the underlying infrastructure they are built on.
+A container can be viewed as an independent software environment that includes everything it needs to execute. We can use containers to isolate applications from each other and from the underlying infrastructure they are running on.
 
 Containerization involves bundling an application together with all of its related configuration files, libraries and dependencies required for it to run in an efficient and bug-free way across different computing environments.
 
