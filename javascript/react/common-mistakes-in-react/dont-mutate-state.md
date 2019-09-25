@@ -17,8 +17,6 @@ type: normal
 
 category: tip
 
-links:
-
 ---
 
 # Don't mutate state

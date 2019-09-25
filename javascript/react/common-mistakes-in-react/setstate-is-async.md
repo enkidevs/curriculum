@@ -11,8 +11,6 @@ type: normal
 
 category: tip
 
-links:
-
 ---
 
 # setState is async

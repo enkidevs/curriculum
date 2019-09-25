@@ -17,8 +17,6 @@ type: normal
 
 category: tip
 
-links:
-
 ---
 
 # Value types and the initial state
@@ -85,7 +83,3 @@ What value should you use when defining the initial state?
 * Any value.
 * `{}`
 * `[]`
-
----
-## Revision
-
