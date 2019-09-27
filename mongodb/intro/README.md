@@ -16,6 +16,7 @@ sections:
   '2':
     - crud-2
     - aggregation-with-expression-operators
+    - aggregation-iii
 standards:
   shell:
     name: Use the MongoDB interactive JavaScript Shell
