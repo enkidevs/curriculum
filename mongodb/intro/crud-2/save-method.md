@@ -148,3 +148,15 @@ Use the `.save()` method to insert a new document without the `_id` field:
 * `"NewType"`
 * `db.pokemon.save({ "name": "NoName" })`
 * `db.pokemon.save({ "_id":false, "name": "NoName" })`
+
+---
+## Revision
+
+What is the MongoDB `.save()` method used for?
+
+???
+
+* `To either update/replace an existing document or insert a new one.`
+* `Only to save a new document.`
+* `Only to update.`
+* `To save a new copy of the specified collection.`
