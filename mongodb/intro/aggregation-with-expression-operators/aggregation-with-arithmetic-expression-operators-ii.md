@@ -148,3 +148,15 @@ Match the explanation with the operator.
 * is an Arithmetic operator used to divide the 2nd expression to the first (exactly 2 expressions can be used).
 * is an Arithmetic operator used to multiply exactly 2 expressions.
 * is an Arithmetic operator used to divide any number of expressions
+
+---
+## Revision
+
+Which of these are not valid Arithmetic Expression Operators?
+
+???
+
+* `$power` and `$squareRoot`
+* `$multiply` and `$divide`
+* `$subtract` and `$add`
+* `$round` and `$trunc`
