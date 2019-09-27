@@ -93,3 +93,22 @@ What are the possible values for `$sort`?
 * `1` and `-1`
 * To sort documents by the number of fields they have
 * `1`, `0` and `-1`
+
+
+---
+## Revision
+
+Fill in the code below to sort all documents in the pokemon database in an ascending order by their `age`.
+
+```javascript
+db.???.aggregate({
+  ???: { age: ??? }
+})
+```
+
+* `pokemon`
+* `$sort`
+* `1`
+* `Pokemon`
+* `-1`
+* `0`
