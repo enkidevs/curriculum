@@ -201,3 +201,25 @@ Match the explanation with the operator.
 * is an Arithmetic operator used to truncate a positive or negative number to the desired decimal point.
 * is an Arithmetic operator only used for rounding positive integers. 
 * is an Arithmetic operator only used to truncate a positive integer.
+
+---
+## Revision
+
+Fill in the missing code to successfully truncate the `minimumPower` field to 0 decimal points.
+
+```javascript
+db.pokemon.aggregate([
+  {
+    $project: {
+      truncatedPower: {
+        ???: [???]
+      }
+    }
+  }
+]);
+```
+
+* `$trunc`
+* `"$minimumPower"`
+* `$truncate `
+* `"$minimumPower", 2"
