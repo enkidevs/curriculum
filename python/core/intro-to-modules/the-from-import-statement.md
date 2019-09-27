@@ -74,7 +74,7 @@ This simply means, from `module_name` import every item. Keep in mind that wildc
 You can also rename the item imported to whatever you want using the `as` keyword:
 ```python
 from my_functions import quad as q
-q(3) # 27
+q(3) # 81
 ```
 
 To end with, using `from ... import` statement doesn't save memory. It executes and caches the entire module just like regular `import` statement. So there is no consecrated pattern of distinguishing between these two, it depends on the developer's preferences.
