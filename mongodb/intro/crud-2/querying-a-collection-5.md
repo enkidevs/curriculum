@@ -171,3 +171,15 @@ Which command has to be added to our queries to display the updated/replaced doc
 * `update`
 * `replace`
 * `$dec`
+
+---
+## Revision
+
+Which of these is not a valid MongoDb query method?
+
+???
+
+* `db.collection_name.insertMultiple()`
+* `db.collection_name.insertMany()`
+* `db.collection_name.insertOne()`
+* `db.collection_name.insert()`
