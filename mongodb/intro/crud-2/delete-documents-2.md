@@ -114,3 +114,16 @@ Remove all documents within the `pokemon` collection.
 * `[]`
 * `deleteAll`
 * `delete`
+
+---
+## Revision
+
+Which one is not a valid remove method in MongoDB?
+
+???
+
+* `.removeAll()
+* `.remove()`
+* `.deleteOne()`
+* `.deleteMany()`
+
