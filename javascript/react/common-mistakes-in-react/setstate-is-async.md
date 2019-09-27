@@ -18,7 +18,7 @@ category: tip
 ---
 ## Content
 
-More often than not, we are very eager with accessing a new state value after setting it. Because a new value is set on the next available render, the state might not reflect your latest update. Let's take a look at an example:
+More often than not, we are eager with accessing a new state value after setting it. Because a new value is set on the next available render, the state might not reflect your latest update. Let's take a look at an example:
 
 ```js
 handleChange = age => {
@@ -27,7 +27,7 @@ handleChange = age => {
 };
 ```
 
-In the `handleChange` function, when we call `this.props.callback(this.state.count)` we are getting the old state value, not the new one we set through `this.setState({ count })`. This issue can be fixed by using an optional second argument of the `setState` method, a callback function that is called after the state is updated:
+In the `handleChange` function, when we call `this.props.callback(this.state.count)` we are getting the old state value, not the new one we set through `this.setState({ count })` (because the state hasn't yet updated between the two lines of code). This issue can be fixed by using an optional second argument of the `setState` method, a callback function that is called after the state is updated:
 
 ```js
 handleChange = age => {
@@ -51,7 +51,9 @@ const handleChange = value => {
 };
 ```
 
-In the `useEffect()` hook, the `callback(age)` is called whenever the value of `age` changes. One important takeaway here is that `setState` is async, but not in a way that returns a promise. Using `async`, `await` or `then` methods will not work.
+In the `useEffect()` hook, the `callback(age)` is called whenever the value of `age` changes. 
+
+Note: Another important takeaway here is that although `setState` can be async, this happens behind the scenes, and we cannot control it. `setState` doesn't return a promise so using `await` or `then` will not work.
 
 ---
 ## Practice

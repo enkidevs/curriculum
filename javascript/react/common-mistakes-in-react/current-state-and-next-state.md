@@ -18,17 +18,18 @@ category: tip
 ---
 ## Content
 
-In the previous insight we have discussed how the `setState()` update call is asynchronous. For this reason, when you update the state to a value that is based on the old state you might end up with weird values if you do the following:
+In the previous insight we have discussed how the `setState()` update call can sometimes be asynchronous. For this reason, the value of `this.state` might not always hold the most up to date value:
 
 ```js
 increaseAge = age => {
   this.setState({
-    age: this.state.age + 1
+    // this.state.age might be stale
+    age: this.state.age + 1 
   });
 };
 ```
 
-This code relies on the current value of state to update it, but it is not correct. The proper way of updating the state is by using the functional form of `setState`:
+This code generates new state based on its current value, which might contain old data. To reliably update the state based on its latest value you should use the functional form of `setState`:
 
 ```js
 increaseAge = () => {
@@ -38,7 +39,9 @@ increaseAge = () => {
 };
 ```
 
-This way, the latest state value is used. When using the functional form of `setState`, you can also pass a second argument - `props` at the time the update is applied. This argument can be used in a manner similar to state.
+This way, the latest state value is **always** provided as an argument to the function you pass into `setState`, and the new state value will become whatever you return from said function. 
+
+Note: the function also receives the latest `props`, as its second argument.
 
 If using functional components, the same logic applies to the `useState` hook:
 
@@ -51,7 +54,7 @@ const increaseAge = () => {
 ---
 ## Practice
 
-Which function would correctly update the state?
+Which function would **always** update the state to the expected value?
 
 ```js
 A = count => {

@@ -21,7 +21,7 @@ links:
 ---
 ## Content
 
-One important feature of the `useEffect()` hook is represented by its dependency array. When included, the dependency array can result in a performance increase due to reducing the number of re-renders. Let's take a look at an example:
+One important feature of the `useEffect()` hook is represented by its dependency array. When included, the `useEffect` hook only runs when one or more of its dependencies change, which can result in a performance increase by reducing the number of re-renders. Let's take a look at an example:
 
 ```js
 function App() {
@@ -32,7 +32,7 @@ function App() {
 }
 ```
 
-Now, React checks if the current value of name is different from the previous value of name, and only re-renders if that is true.
+Now, React will only re-runs the hook function if the current value of `name` is different from its previous value.
 
 Let's take a look at another example:
 
@@ -46,13 +46,19 @@ function App() {
 }
 ```
 
-In this case, React only stores a reference to the `features` array and compares it to the previous reference of the array. We have define the `features` array inside our component, meaning that after every render we recreate the array. When React compares the two references, it will always result on running the callback function. This is because we recreate the `features` array on every render which results in recreating the reference that leads to said array.
+It's important to understand that React uses a similar comparison mechanism[1] to `===` when determining if the value of a hook dependency changed.
+
+In the case of objects and object-like structures such as arrays, `===` will compare the references of two objects, not the data they contain.
+
+Even if we pass `[1, 2, 3]` to `useEffect` twice, the actual values within the array will not matter, React will only be interested if the array itself (i.e. the reference to it) is the same, not its content.
+
+In the example above we are creating the `features` array within the component `App`. This means that anytime `App` renders, `features` will contain a new array instance with the same contents. When React checks if `features` array is the same as before, it never will be because we're recreating it on each render, which means that the `useEffect` hook will also run on each render.
 
 Note that this is not an issue when using strings, primitive values or numbers as these are compared by value rather than reference.
 
 There are multiple options of dealing with this issue. The first consists of moving the dependency array outside of the component, although in some cases this might not be possible.
 
-The second option is wrapping our value in a `useMemo()` hook which keeps our reference during re-renders:
+The second option is wrapping our value in a `useMemo()` hook which caches[1] our reference during re-renders:
 
 ```js
 function App() {
@@ -67,7 +73,7 @@ function App() {
 }
 ```
 
-The third and last option consists of using a deep compare hook that properly tracks the dependency references. We will not cover this option in this insight, but make sure to check out the resources for a link to a popular custom hook.
+The third and last option consists of using a deep compare hook that tracks the dependency references and their contents. We will not cover this option in this insight, but make sure to check out the resources for a link to a popular custom hook that handles this use-case.
 ---
 ## Practice
 

@@ -24,7 +24,7 @@ category: tip
 ---
 ## Content
 
-Now that you know how to handle yourself with React, it is time to learn about some of the most common mistakes and how to avoid them.
+Now that you know how to start using React, it is time to learn about some of the most common mistakes and how to avoid them.
 
 One of the most common mistakes one can make when using React is trying to directly modify the `state`. In a previous workout we have discussed how the `state` is considered immutable, and some methods of updating arrays or objects were presented. Consider the following example:
 
@@ -36,7 +36,7 @@ const updateFeaturesList = (e, idx) => {
 };
 ```
 
-Although this code might seem correct at a first glance, the UI won't reflect this because the `state` is updated with the same object reference which doesn't trigger a re-render. Because the `state` has an asynchronous nature, mutating it might result in later `state` updates overriding the changes you have made directly. When using functional components, use the setter method returned by `useState()`:
+Although this code might seem correct at a first glance, the UI won't actually reflect this change because the `state` is updated on the same object reference, which doesn't trigger a re-render. Because the `state` updates can happen asynchronously (React might do this outside of our control), mutating it might result in later `state` updates overriding the changes you have made directly. To circumvent this when using functional components, use the setter method returned by `useState()`:
 
 ```js
 const updateFeaturesList = (e, idx) => {
@@ -54,7 +54,7 @@ const updateFeaturesList = (e, idx) => {
 };
 ```
 
-Note that by using the `.map()` array prototype and object spread we are ensuring that the original `state` items are not changed.
+Note that by using the `.map()` array method (which creates a new array) and object spread (which creates a new object) we are ensuring that the original `state` items are not changed.
 
 ---
 ## Practice
