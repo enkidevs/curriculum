@@ -116,3 +116,22 @@ What is *projection* used for?
 * Only to specify which fields will be omitted from the query
 * Only to specify which fields will be displayed upon executing the query
 * To create a new document with the combined fields from all documents in the executed query
+
+---
+## Revision
+
+Fill in the missing code below to only project(display) the `name` field for all documents whose `type` is `Water`.
+
+```javascript
+db.pokemon.find(
+  { ???: "???" },
+  {name: ???}
+)
+```
+
+
+* `type`
+* `Water`
+* `1`
+* `water`
+* `0`
