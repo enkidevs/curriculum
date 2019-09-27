@@ -106,3 +106,15 @@ db.pokemon.aggregate(
 * `$objectToArray`
 * `$documentToArray`
 * `$combineObjects`
+
+---
+## Revision
+
+Which of these operators are Object expression operators?
+
+???
+
+* `$objectToArray` and `$mergeObjects`
+* `$fromObjectToAnArray`
+* `$arrayToObjects` and `$mergeArrays`
+* `$objectToAray` and `$arrayToObject`
