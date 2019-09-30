@@ -11,7 +11,7 @@ aspects:
 
 type: normal
 
-category: must-know
+category: how to
    
 links:
   
@@ -22,7 +22,7 @@ links:
 
 ### $ceil
 
-The `$ceil` operator is used to return the smallest number that is either greater than or equal to the specified number.
+The `$ceil` operator is used to return the smallest whole number (integer) that is either greater than or equal to the specified number.
 
 Syntax:
 ```javascript
@@ -56,7 +56,7 @@ Output:
 { "_id": "Water", "sumOfPowers": 1467 }
 ```
 
-**Note:** If the expression can't evaluate a valid number(the number is missing), it will return `null`.
+**Note:** If the expression can't evaluate a valid number (the number is missing), it will return `null`.
 
 ### $floor
 
@@ -67,7 +67,7 @@ Syntax:
 { $floor: <number> }
 ```
 
-They also behave very similarly, the only difference being, the `$ceil` operator rounds up, whereas the `$floor` rounds down.
+They also behave very similarly, the only difference being that the `$ceil` operator rounds up, whereas the `$floor` rounds down.
 
 Example on the same document as above:
 ```javascript
@@ -95,7 +95,7 @@ What is the difference between the `$floor` and `$ceil` aggregation operators?
 
 ???
 
-* The `$floor` operator rounds down, whereas the `$ceil` operator rounds up
-* The `$ceil` operator rounds down, whereas the `$floor` operator rounds up
-* There is no difference
-* The `$floor` operator can only be used on an array of values, whereas the `$ceil` operator can only be used on an integer
+* The `$floor` operator rounds down, whereas the `$ceil` operator rounds up.
+* The `$ceil` operator rounds down, whereas the `$floor` operator rounds up.
+* There is no difference.
+* The `$floor` operator can only be used on an array of values, whereas the `$ceil` operator can only be used on an integer.

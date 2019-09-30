@@ -9,7 +9,7 @@ aspects:
 
 type: normal
 
-category: must-know
+category: how to
       
 links:
 
@@ -27,7 +27,7 @@ Syntax:
 
 The `$max` accumulator is used to find the maximum value. When used with the `$group` stage, we can find the maximum value of each document from the group of documents with the same key.
 
-For instance, the  `pokemon` database has thousands of pokémon, and each of them has a `type` and `power` fields.
+For instance, the `pokemon` database has thousands of pokémon, and each of them has a `type` and `power` field.
 
 All pokémon have one of the possible types: Water, Fire, Rock, Normal, etc. However, all have different `power` levels.
 
@@ -35,17 +35,14 @@ We can use the `$group` stage to group them by their `type`, and then use the `$
 
 Example:
 ```javascript
-db.pokemon.aggregate(
-   [
-     {
-       $group:
-         {
-           _id: "$type",
-           highestPower: { $max: "$power" }
-         }
-     }
-   ]
-)
+db.pokemon.aggregate([
+  {
+    $group: {
+      _id: "$type",
+      highestPower: { $max: "$power" }
+    }
+  }
+]);
 ```
 Output:
 ```javascript
@@ -61,25 +58,22 @@ Output:
 { "_id": "Fairy", "highestPower": 0 }
 { "_id": "Water", "highestPower": 667 }
 ```
-**Note:** If one of the documents(pokémon) in our database doesn't have a value for the field, the `$max` operator returns `null`.
+**Note:** If one of the documents (pokémon) in our database doesn't have a value for the field, the `$max` operator returns `null`.
 
 ### $min
 
-The `$min` operator behaves the same as the `$max` operator except that it looks for the lowest(min) value instead of the highest(max) value.
+The `$min` operator behaves the same as the `$max` operator except that it looks for the lowest (minimum) value instead of the highest (maximum) value.
 
 Example:
 ```javascript
-db.pokemon.aggregate(
-   [
-     {
-       $group:
-         {
-           _id: "$type",
-           lowestPower: { $min: "$power" }
-         }
-     }
-   ]
-)
+db.pokemon.aggregate([
+  {
+    $group: {
+      _id: "$type",
+      lowestPower: { $min: "$power" }
+    }
+  }
+]);
 ```
 
 Output:
@@ -99,26 +93,24 @@ Output:
 
 Example with both operators:
 ```javascript
-db.pokemon.aggregate(
-   [
-     {
-       $group:
-         {
-           _id: "$type",
-           lowestPower: { $min: "$power" },
-           highestPower: {$max: "$power" }
-         }
-     }
-   ]
-)
+db.pokemon.aggregate([
+  {
+    $group: {
+      _id: "$type",
+      lowestPower: { $min: "$power" },
+      highestPower: { $max: "$power" }
+    }
+  }
+]);
 ```
 
 Output:
 ```javascript
-/// ...
-{   "_id": "Water",
-    "lowestPower": 233, 
-    "highestPower" : 667 
+// ...
+{   
+  "_id": "Water",
+  "lowestPower": 233, 
+  "highestPower" : 667 
 }
 // ...
 ```
@@ -129,6 +121,15 @@ Output:
 Fill in the missing code to group all documents in the `pokemon` collection by their `type`, and find the min and max power level of each type and output them in fields called `minPower` and `maxPower`.
 
 ```javascript
+db.pokemon.aggregate([
+  {
+    ???: {
+      _id: "???",
+      ???: { ???: "$power" },
+      ???: { $max: "???" }
+    }
+  }
+]);
 
 db.pokemon.aggregate(
    [

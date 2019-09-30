@@ -11,7 +11,7 @@ aspects:
 
 type: normal
 
-category: must-know
+category: how to
 
 links:
 
@@ -20,9 +20,7 @@ links:
 ---
 ## Content
 
-Many operators can be used when aggregating a MongoDB database.
-
-However, there are some operators which are specific to the `$group` aggregation stage and are referred to as *Accumulators*.
+There are many possible operators that can be used when aggregating a MongoDB database. Some of these operators are specific to the `$group` aggregation stage, and are referred to as *Accumulators*.
 
 Some of these are:
 - `$first`
@@ -46,27 +44,23 @@ For instance, let's say we have a `pokemon` database with thousands of pokémon,
 
 All pokémon have one of the possible types: Water, Fire, Rock, Normal, etc. However, all of them have a unique `name`.
 
-We can use the `$group` stage to group them by their `type`, and then use the `$first` operator to find out the `name` of each "First" pokémon for each `type`.
+We can use the `$group` stage to group them by their `type`, and then use the `$first` operator to find out the `name` for the first pokémon of each `type`.
 
-By `first` it means the first document ever entered in the database of the selected grouping.
+By first we mean the first document entered in the database for the selected grouping.
 
-**Note:** 
- - When using the `$first` operator within the `$group` stage, it is best to use it together with the `$sort` aggregation stage.
+**Note:** When using the `$first` operator within the `$group` stage, it is best to use it together with the `$sort` aggregation stage.
 
 Example:
 ```javascript
-db.pokemon.aggregate(
-   [
-     {
-       $group:
-         {
-           _id: "$type",
-           nameOfFirst: { $first: "$name" }
-         }
-     },
-       { $sort: { _id: 1} }
-   ]
-)
+db.pokemon.aggregate([
+  {
+    $group: {
+      _id: "$type",
+      nameOfFirst: { $first: "$name" }
+    }
+  },
+  { $sort: { _id: 1 } }
+]);
 ```
 Output:
 ```javascript
@@ -82,26 +76,23 @@ Output:
 { "_id": "Water", "nameOfFirst": "Squirtle" }
 ```
 
-In the example above, the `$First` operator found all documents of each grouping(in our case, grouped by `type`), and looked for the `name` of the first document of said `type` and saved them to a new field called: "nameOfFirst". Next, the `$sort` sorted them by the selected grouping in alphabetically ascending order.
+In the example above, the `$first` operator found all documents of each grouping (in our case grouped by `type`), looked for the `name` of the first document of said `type`, and saved them to a new field called `"nameOfFirst"`. Next, the `$sort` sorted them by the selected grouping in alphabetically ascending order.
 
 ### $last
 
-The `$last` operator behaves the same as the `$first` operator except that it looks for the last instead of the first document.
+The `$last` operator behaves the same as the `$first` operator except that it looks for the last document instead of the first.
 
 Example:
 ```javascript
-db.pokemon.aggregate(
-   [
-     {
-       $group:
-         {
-           _id: "$type",
-           nameOfLast: { $last: "$name" }
-         }
-     },
-      { $sort: { _id: 1} }
-   ]
-)
+db.pokemon.aggregate([
+  {
+    $group: {
+      _id: "$type",
+      nameOfLast: { $last: "$name" }
+    }
+  },
+  { $sort: { _id: 1 } }
+]);
 ```
 Output:
 ```javascript
@@ -117,25 +108,22 @@ Output:
 { "_id": "Water", "nameOfLast": "Blastoise" }
 ```
 
-**Note** If our grouping has only one document, the `$first` and `$last` would give out the same output.
+**Note** If our grouping has only one document, `$first` and `$last` would give out the same output.
 ---
 ## Practice
 
-Fill in the code to find the `name` of the first document of each `type` group of pokémon, sort them by their `type` and output them in a field called "nameOfFirst".
+Fill in the code to find the `name` of the first document for each `type` group of pokémon, sort them by their `type` and output them in a field called "nameOfFirst".
 
 ```javascript
-db.pokemon.aggregate(
-   [
-     {
-       ???:
-         {
-           _id: "???",
-           ???: { ???: "$name" }
-         }
-     },
-      { $sort: { _id: 1} }
-   ]
-)
+db.pokemon.aggregate([
+  {
+    ???: {
+      _id: "???",
+      ??: { ???: "$name" }
+    }
+  },
+  { $sort: { _id: 1 } }
+]);
 ```
 * `$group`
 * `$type`
@@ -147,7 +135,7 @@ db.pokemon.aggregate(
 ---
 ## Revision
 
-Which of these is not a valid Accumulator for the `$group` stage?
+Which of these is not a valid accumulator for the `$group` stage?
 
 ???
 
