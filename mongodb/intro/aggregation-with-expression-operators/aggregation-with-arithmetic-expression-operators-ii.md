@@ -9,7 +9,7 @@ aspects:
 
 type: normal
 
-category: must-know
+category: how to
       
 links:
 
@@ -37,7 +37,7 @@ Syntax:
 }
 ```
 
-Let's say we have a `pokemon` collection where each pokémon has a base `power` field and an `age` field. To get the maximum power of each pokémon we need to calculate the product of the `power` and `age` fields (maximum power = when the power hits the other pokemon completely).
+Let's say we have a `pokemon` collection where each pokémon has a base `power` field and an `age` field. To get the actual power of each pokémon we need to calculate the product of the `power` and `age` fields (the power of each pokemon increases with its age).
 
 Example documents:
 ```javascript
@@ -59,11 +59,8 @@ db.pokemon.aggregate([
   {
     $project: {
       Name: 1,
-      maxPower: {
-        $multiply: [
-          "$Power",
-          "$Age"
-        ]
+      actualPower: {
+        $multiply: ["$Power", "$Age"]
       }
     }
   }
@@ -74,17 +71,17 @@ Output:
 ```javascript
 { 
   "_id": 1,
-  "Name": "Pikatchu", 
-  "maxPower": 812 
+  "Name": "Pikachu", 
+  "actualPower": 812 
 }
 { 
   "_id": 2, 
   "Name": "Raichu", 
-  "maxPower": 1152 
+  "actualPower": 1152 
 }
 ```
 
-In the example above, we have used the project stage to only display the `Name` field, along with a new field called `maxPower`. The `maxPower` field is where we stored the product of our 2 expressions.
+In the example above, we have used the project stage to only display the `Name` field, along with a new field called `actualPower`. The `actualPower` field is where we stored the product of our 2 expressions.
 
 **Note:** In the example, for demonstration purposes we have used only 2 expressions. However, the `$multiply` operator can take in any number of expressions, with a minimum of 2.
 
@@ -101,7 +98,7 @@ Syntax:
 }
 ```
 
-Using the same documents as above, we can use the `$divide` operator to calculate the lowest `power` of each `pokemon` by dividing the `age` with the `power` field (lowest power = when only the smallest possible part of the power hits the pokemon).
+Using the same documents as above, we can use the `$divide` operator to calculate the initial power of each `pokemon` by dividing the `power` field by the `age` field (this way we can find the `power` of a pokemon when their age is one).
 
 **Note:** The expressions are calculated like so `<expression1>` / `<expression2>`.
 
@@ -111,11 +108,8 @@ db.pokemon.aggregate([
   {
     $project: {
       Name: 1,
-      minimumPower: {
-        $divide: [
-          "$Power",
-          "$Age"
-        ]
+      initialPower: {
+        $divide: ["$Power", "$Age"]
       }
     }
   }
@@ -127,14 +121,15 @@ Output:
 { 
   "_id": 1,
   "Name": "Pikachu", 
-  "minimumPower": 63.30769230769231 
+  "initialPower": 63.30769230769231 
 }
 { 
   "_id": 2, 
   "Name": "Raichu", 
-  "minimumPower": 50.80769230769231 
+  "initialPower": 50.80769230769231 
 }
 ```
+
 **Note:** Just like with the `$add` and `$subtract` operators, the expressions do not have to be existing fields, they can also be any literals.
 ---
 ## Practice
@@ -147,7 +142,7 @@ Match the explanation with the operator.
 * is an Arithmetic operator used to multiply any number of expressions with a minimum of 2.
 * is an Arithmetic operator used to divide the 2nd expression to the first (exactly 2 expressions can be used).
 * is an Arithmetic operator used to multiply exactly 2 expressions.
-* is an Arithmetic operator used to divide any number of expressions
+* is an Arithmetic operator used to divide any number of expressions.
 
 ---
 ## Revision

@@ -11,7 +11,7 @@ aspects:
 
 type: normal
 
-category: must-know
+category: feature
 
 links:
   
@@ -22,39 +22,35 @@ links:
 
 In the previous insights, we learned how to aggregate using the `$add`, `$subtract`, `$divide` and `$multiply` operators. Now, we are going to discuss the `$trunc` and `$round` operators.
 
-`$trunc` - Used to truncate an expression to a whole number or the desired decimal place 
-`$round` - Used to round an expression to a whole number or the desired decimal place
+`$trunc` - Used to truncate an expression to a whole number or the desired decimal place.
+`$round` - Used to round an expression to a whole number or the desired decimal place.
 
 ### $trunc
 
 Syntax:
 ```javascript
-{ 
-  $trunc:  
-  [ 
-    <number>, 
-    <place>
-  ] 
+{
+  $trunc: [<number>, <place>];
 }
 ```
 
-In the previous insight, we used the `$divide` operator to calculate the `minimumPower` for each pokémon.
+In the previous insight, we used the `$divide` operator to calculate the `initialPower` for each pokémon.
 
 Output documents from previous insight:
 ```javascript
 { 
   "_id": 1,
   "Name": "Pikachu", 
-  "minimumPower": 63.30769230769231 
+  "initialPower": 63.30769230769231 
 }
 { 
   "_id": 2, 
   "Name": "Raichu", 
-  "minimumPower": 50.80769230769231 
+  "initialPower": 50.80769230769231 
 }
 ```
 
-Now, let's say we have saved these `key: value` pairs with the `.insert()` method. We want to truncate them to a "nicer" value with fewer decimal points.
+Now, let's say we have saved these `key: value` pairs with the `.insert()` method. We want to truncate them to a value with fewer decimal points.
 
 Example:
 ```javascript
@@ -62,7 +58,7 @@ db.pokemon.aggregate([
   {
     $project: {
       truncatedPower: {
-        $trunc: ["$minimumPower", 1]
+        $trunc: ["$initialPower", 1]
       }
     }
   }
@@ -71,12 +67,12 @@ db.pokemon.aggregate([
 
 Output:
 ```javascript
-{ "_id" : 2, "truncatedPower" : 50.8 }
-{ "_id" : 1, "truncatedPower" : 63.3 }
+{ "_id": 2, "truncatedPower": 50.8 }
+{ "_id": 1, "truncatedPower": 63.3 }
 ```
-**Note:** The `,1` in `$trunc: ["$minimumPower", 1]` means it will truncate to 1 decimal point.
+**Note:** The `,1` in `$trunc: ["$initialPower", 1]` means that the value will be truncate to 1 decimal point.
 
-If we wanted to truncate without any decimal points, we would write it as `$trunc: ["$minimumPower"]`  or `$trunc: ["$minimumPower", 0]`.
+If we wanted to truncate without any decimal points, we would write it as `$trunc: ["$initialPower"]`  or `$trunc: ["$initialPower", 0]`.
 
 Output:
 ```javascript
@@ -107,19 +103,19 @@ Syntax:
   ] 
 }
 ```
-They operate the same way, except that `$round` rounds the number up/down to the desired decimal point, whereas the `$trunc` only truncates it.
+They operate the same way, except that `$round` is used to round the number up or down to the desired decimal point, whereas `$trunc` is only used to truncate the value.
 
 Let's use the same document as above:
 ```javascript
 { 
   "_id": 1,
   "Name": "Pikachu", 
-  "minimumPower": 63.30769230769231 
+  "initialPower": 63.30769230769231 
 }
 { 
   "_id": 2, 
   "Name": "Raichu", 
-  "minimumPower": 50.80769230769231 
+  "initialPower": 50.80769230769231 
 }
 ```
 
@@ -129,21 +125,23 @@ db.pokemon.aggregate([
   {
     $project: {
       roundedPower: {
-        $round: ["$minimumPower"]
+        $round: ["$initialPower"]
       }
     }
   }
 ]);
 ```
+
 Output:
 ```javascript
-{ "_id" : 1, "roundedPower" : 63 }
-{ "_id" : 2, "roundedPower" : 51 }
+{ "_id": 1, "roundedPower": 63 }
+{ "_id": 2, "roundedPower": 51 }
 ```
-**Note:** `$round: ["$minimumPower"]` = `$round: ["$minimumPower", 0]` 
-If we wanted to round with any decimal point, we would write it as `$round: ["$minimumPower", NUMBER_HERE]` 
 
-Example with `$round: ["$minimumPower", 2]`:
+**Note:** `$round: ["$initialPower"]` = `$round: ["$initialPower", 0]` 
+If we wanted to round with any decimal point, we would write it as `$round: ["$initialPower", NUMBER_HERE]` 
+
+Example with `$round: ["$initialPower", 2]`:
 ```javascript
 { "_id" : 2, "roundedPower" : 50.81}
 { "_id" : 1, "roundedPower" : 63.31}
@@ -155,14 +153,15 @@ Example with `$round: ["$minimumPower", 2]`:
 
 Both the `$round` and `$trunc` operators can take negative numbers as input.
 
-Using the same document as above we will truncate with a negative number.
+Using the same document as above, we will truncate with a negative number.
+
 Example with negative input:
 ```javascript
 db.pokemon.aggregate([
   {
     $project: {
       truncatedPower: {
-        $trunc: ["$minimumPower", -1]
+        $trunc: ["$initialPower", -1]
       }
     }
   }
@@ -183,7 +182,7 @@ db.pokemon.aggregate([
 { "_id" : 1, "roundedPower" : 60 }
 ```
 
-As you can see in the example above, the value is truncated starting from the left of the decimal, as opposed to the right when the input is positive.
+As you can see in the example above, the value is truncated starting from the left of the decimal, as opposed to starting from the right when the input is positive.
 
 If the input was equal or exceeded the digit count of our inputted value, the resulting number would be 0.
 
@@ -205,7 +204,7 @@ Match the explanation with the operator.
 ---
 ## Revision
 
-Fill in the missing code to successfully truncate the `minimumPower` field to 0 decimal points.
+Fill in the missing code to successfully truncate the `initialPower` field to 0 decimal points.
 
 ```javascript
 db.pokemon.aggregate([
@@ -220,6 +219,6 @@ db.pokemon.aggregate([
 ```
 
 * `$trunc`
-* `"$minimumPower"`
+* `"$initialPower"`
 * `$truncate `
-* `"$minimumPower", 2"
+* `"$initialPower", 2"`

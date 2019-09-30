@@ -11,7 +11,7 @@ aspects:
 
 type: normal
 
-category: must-know
+category: feature
    
 links:
   
@@ -28,7 +28,7 @@ For instance, let's say we have this document within our `pokemon` collection:
 ```javascript
 {
  _id: 1,
- name: "Pikatchu",
+ name: "Pikachu",
  type: "Electric",
  power: 501,
  spells: {
@@ -40,17 +40,16 @@ For instance, let's say we have this document within our `pokemon` collection:
 
 Example aggregation where we only include the object(`spells`):
 ```javascript
-db.pokemon.aggregate(
-   [
-      {
-         $project: {
-            name: 1,
-            spells: { $objectToArray: "$spells" }
-         }
-      }
-   ]
-)
+db.pokemon.aggregate([
+  {
+    $project: {
+      name: 1,
+      spells: { $objectToArray: "$spells" }
+    }
+  }
+]);
 ```
+
 Output:
 ```javascript
 {
@@ -62,24 +61,20 @@ Output:
 }
 ```
 
-As you can see in the example above, the object was transformed into an array. 
+As you can see in the example above, the object was transformed into an array. Each key-value pair was displayed in `k: "key"` and `v: "value"` pairs.
 
-Each key-value pair was displayed in `k` and `v` key-value pairs, where the `k` and `v` are the keys and their values are the key-value pairs of the original document.
-
-**Note:** We used the same name "`spells`" to store the converted object. You can use a different name.
+**Note:** We used the same name `"spells"` to store the converted object. You can use a different name.
 
 ---
 ## Practice
 
-Fill in the gaps below to transform the document into an array and output the converted object into an array of the same name:
-
-**Note:** Next to aggregating the object, only project the `power` field.
+Fill in the gaps below to transform the document into an array and output the converted object into an array with the same name. Project the aggregation's result together with the `power` field.
 
 ```javascript
 // document:
 {
  _id: 1,
- name: "Pikatchu",
+ name: "Pikachu",
  type: "Electric",
  power: 501,
  spells: {
@@ -89,16 +84,14 @@ Fill in the gaps below to transform the document into an array and output the co
 }
 
 // aggregation
-db.pokemon.aggregate(
-   [
-      {
-         $project: {
-            ???: 1,
-            ???: { ???: "$spells" }
-         }
-      }
-   ]
-)
+db.pokemon.aggregate([
+  {
+    $project: {
+      ???: 1,
+      ???: { ???: "$spells" }
+    }
+  }
+]);
 ```
 
 * `power`
@@ -117,4 +110,4 @@ Which of these operators are Object expression operators?
 * `$objectToArray` and `$mergeObjects`
 * `$fromObjectToAnArray`
 * `$arrayToObjects` and `$mergeArrays`
-* `$objectToAray` and `$arrayToObject`
+* `$objectToArray` and `$arrayToObject`
