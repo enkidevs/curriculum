@@ -28,7 +28,7 @@ parent: what-is-a-data-structure
 
 An **array** is a data structure organized as a linear collection of elements, for which an **index** (a numerical indicator of position) is used to access its content. The same information may appear in the array more than once but under a different index. This is how you could picture it:
 
-![array](https://img.enkipro.com/006ffa09f0ac72637e11c0d6fd9e4e06.png)
+![array](https://img.enkipro.com/630c4678f67993a0479b25467cda6db9.png)
 
 We can differentiate between arrays based on whether their size is declared up-front (*static*) or able to change at run-time (*dynamic*).
 
