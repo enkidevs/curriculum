@@ -125,6 +125,7 @@ db.pokemon.aggregate([
   { $sort: { _id: 1 } }
 ]);
 ```
+
 * `$group`
 * `$type`
 * `nameOfLast `
