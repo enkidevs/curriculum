@@ -25,7 +25,7 @@ parent: the-stack-data-structure
 
 The *queue* data structure is a collection of objects which is optimized for adding new objects to the collection and removing the oldest object from the collection. That is, the first object in will be the first object out (*FIFO*).
 
-![alt description](https://img.enkipro.com/57fe8c159a9d577869153f6fa421f8f0.png)
+![alt description](https://img.enkipro.com/d1d42fb605fee09047b0304338f6acfb.png)
 
 A grocery store line serves as a simple real-world example of a queue: the first person in the line is the first person to be serviced (and leave the line).
 
