@@ -34,13 +34,13 @@ Graphs come in two flavors: **directed graphs** (*digraph*) and **undirected gra
 
 This is how an undirected graph is represented:
 
-![undirgraph](https://img.enkipro.com/2ef95cd75a5e2a67d43c82292d11962d.png)
+![undirgraph](https://img.enkipro.com/bf52325a6f6a0464d8e2c09e01480049.png)
 
 In the above example, `A` is a node, and the line connecting node `A` and node `C` is an **edge**.
 
 And this is a directed graph:
 
-![dirgraph](https://img.enkipro.com/11ded20cef0af56a0eae88fc17e21037.png)
+![dirgraph](https://img.enkipro.com/68f62123d7690d4b01edb2c7c7a1c9d1.png)
 
 For example, *linked lists* are special a kind of directed graphs.
 
@@ -52,7 +52,7 @@ A **self-loop** is an edge for which the 2 nodes coincide.
 
 A graph containing both parallel edges and a self loop is represented below:
 
-![notsimplegraph](https://img.enkipro.com/c8741632a5df8a2fd7aa28317b94b549.png)
+![notsimplegraph](https://img.enkipro.com/d82b7624ea78d9218a0410acf177f982.png)
 
 We call **simple graph** one that does *not contain self-loops or multiple edges*. The first two graphs are simple.
 
