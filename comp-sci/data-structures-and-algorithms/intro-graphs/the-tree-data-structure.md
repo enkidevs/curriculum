@@ -51,6 +51,7 @@ A tree is **ordered** if there is a *linear* relation among the *nodes on each l
 - The chapters' children are the *subchapters* (1.1,1.2,1.3).
 
 And so on and so forth:
+
 ![booktree](https://img.enkipro.com/ae7ebe447b1fb0fb58ea322a983c371f.png)
 
 It is worth mentioning that a *tree* is a special kind of graph, in which the edges have a direction (parent-child) and there are no cycles (acyclic).
