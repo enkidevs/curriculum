@@ -124,18 +124,6 @@ db.pokemon.aggregate([
     }
   }
 ]);
-
-db.pokemon.aggregate(
-   [
-     {
-       ???:
-         {
-           _id: "???",
-           ???: { ???:  { name: "$name" } }
-         }
-     }
-   ]
-)
 ```
 
 * `$group`
