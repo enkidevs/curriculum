@@ -109,6 +109,7 @@ Output:
 ```
 
 **Note** If our grouping has only one document, `$first` and `$last` would give out the same output.
+
 ---
 ## Practice
 
@@ -119,7 +120,7 @@ db.pokemon.aggregate([
   {
     ???: {
       _id: "???",
-      ??: { ???: "$name" }
+      ???: { ???: "$name" }
     }
   },
   { $sort: { _id: 1 } }

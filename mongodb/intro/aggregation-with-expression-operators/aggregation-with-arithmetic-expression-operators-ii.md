@@ -131,6 +131,7 @@ Output:
 ```
 
 **Note:** Just like with the `$add` and `$subtract` operators, the expressions do not have to be existing fields, they can also be any literals.
+
 ---
 ## Practice
 

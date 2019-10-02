@@ -191,6 +191,7 @@ db.pokemon.aggregate([
   }
 ]);
 ```
+
 ---
 ## Practice
 
