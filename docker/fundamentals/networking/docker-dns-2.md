@@ -25,23 +25,27 @@ We can use an `nslookup` within our container to see a list of aliased container
 
 ```bash
 # create a new virtual network
-# (default bridge driver)
+# (with default bridge driver)
+# and name it `enki`
 docker network create enki
 
-# create two containers from
-# elasticsearch:2 image
-# connected them to the `enki`
-# network and give each container
-# an alias `ikne`
+# create a container from the
+# elasticsearch:2 image,
+# name it `example`,
+# connect it to the `enki`
+# network, and give it an alias
+# `ikne`
 docker run -d \
+  --name example \
   --network enki \
   --network-alias=ikne \
   elasticsearch:2
 
-# perform DNS lookup on the containers
-# to see the aliases
-
-# from alpine
+# create another container, this
+# time from `alpine` image,
+# perform DNS lookup for `ikne`
+# on the `enki` network, and
+# remove the container
 docker container run \
   --rm \
   --network enki alpine nslookup ikne
@@ -51,8 +55,7 @@ Here's what `nslookup` would output on `alpine`:
 
 ```
 Name:      ikne
-Address 1: 172.18.0.2 ikne.enki
-Address 2: 172.18.0.3 ikne.enki
+Address 1: 172.19.0.2 example.enki
 ```
 
 ---
