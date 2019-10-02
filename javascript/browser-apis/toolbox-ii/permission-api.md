@@ -58,7 +58,7 @@ You can also create an event handler for `permissionStatus.onchange`.
 
 Requesting permission from the user still depends on the specific API.
 
-Currently this API is only available in **Chrome**.
+Currently this API is available in **Chrome** and **Firefox**.
 
 ---
 ## Practice
@@ -75,12 +75,12 @@ How do you check the status of a permission? ???
 ---
 ## Revision
 
-To what browser is the Permission API currently limited to?
-???
+To what browsers is the Permission API currently limited to?
+??? ???
 
 
 * Chrome
+* Firefox
 * Safari
-* Mozilla
 * Internet Explorer
  
