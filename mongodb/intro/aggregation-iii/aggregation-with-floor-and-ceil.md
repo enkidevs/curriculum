@@ -16,7 +16,9 @@ category: how to
 links:
   
 ---
+
 # Aggregation With $ceil and $floor
+
 ---
 ## Content
 
