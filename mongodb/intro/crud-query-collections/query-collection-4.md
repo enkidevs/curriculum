@@ -13,7 +13,9 @@ type: normal
 category: how to
 
 ---
+
 # Querying a collection using $ne, $eq, and $nin
+
 ---
 ## Content
 
