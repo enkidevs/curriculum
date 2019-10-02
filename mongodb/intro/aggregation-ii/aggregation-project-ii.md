@@ -14,10 +14,6 @@ type: normal
 
 category: how to
 
-standards:
-  mongodb.aggregation-pipeline.0: 10
-  mongodb.aggregation-pipeline.7: 10
-
 ---
 
 # Aggregation project 2

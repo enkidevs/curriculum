@@ -10,8 +10,6 @@ aspects:
 type: normal
 
 category: how to
-      
-links:
 
 ---
 # Aggregation With Arithmetic Expression Operators 2

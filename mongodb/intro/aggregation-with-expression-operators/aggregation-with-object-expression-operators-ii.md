@@ -12,9 +12,7 @@ aspects:
 type: normal
 
 category: feature
-   
-links:
-  
+
 ---
 # Aggregation With Object Expression operators ii
 ---

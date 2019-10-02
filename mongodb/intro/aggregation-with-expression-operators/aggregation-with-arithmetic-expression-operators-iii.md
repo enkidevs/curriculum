@@ -13,8 +13,6 @@ type: normal
 
 category: feature
 
-links:
-  
 ---
 # Aggregation With Arithmetic Operators III
 ---
