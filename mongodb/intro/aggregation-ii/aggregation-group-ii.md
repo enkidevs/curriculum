@@ -13,7 +13,9 @@ type: normal
 category: how to
 
 ---
+
 # Aggregation group 2
+
 ---
 ## Content
 
