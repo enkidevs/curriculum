@@ -13,7 +13,9 @@ type: normal
 category: must-know
 
 ---
+
 # Create a database
+
 ---
 ## Content
 
@@ -67,6 +69,7 @@ show dbs
 // digimon       0.001GB
 // Pokemon       0.001GB
 ```
+
 ---
 ## Practice
 
