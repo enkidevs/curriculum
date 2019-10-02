@@ -16,7 +16,9 @@ category: how to
 links:
 
 ---
+
 # Aggregation With Accumulators
+
 ---
 ## Content
 
@@ -109,6 +111,7 @@ Output:
 ```
 
 **Note** If our grouping has only one document, `$first` and `$last` would give out the same output.
+
 ---
 ## Practice
 
