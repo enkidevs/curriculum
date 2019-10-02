@@ -14,7 +14,9 @@ type: normal
 category: how to
 
 ---
+
 # Deleting documents 2
+
 ---
 ## Content
 
