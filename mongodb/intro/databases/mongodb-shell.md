@@ -12,7 +12,9 @@ type: normal
 category: must-know
 
 ---
+
 # MongoDB Shell
+
 ---
 ## Content
 
