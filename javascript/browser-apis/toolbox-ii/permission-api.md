@@ -75,7 +75,7 @@ How do you check the status of a permission? ???
 ---
 ## Revision
 
-Which of the following is a valid method for checking Permissions API browser compatibility?
+Which of the following is a valid service for checking Permissions API browser compatibility?
 
 ???
 
