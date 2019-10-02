@@ -19,7 +19,9 @@ standards:
   mongodb.aggregation-pipeline.7: 10
 
 ---
+
 # Aggregation project 2
+
 ---
 ## Content
 

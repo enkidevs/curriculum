@@ -16,7 +16,9 @@ links:
   - '[official-documentation](https://docs.mongodb.com/manual/reference/operator/aggregation/skip/){documentation}'
 
 ---
+
 # Aggregation $skip
+
 ---
 ## Content
 
