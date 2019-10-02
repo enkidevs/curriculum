@@ -14,7 +14,9 @@ type: normal
 category: tip
 
 ---
+
 # Aggregating with sortByCount
+
 ---
 ## Content
 
@@ -93,6 +95,7 @@ What this output means is that:
 - there are 3 pokémon that have `secondType: "Fighting"` and a `power` greater than 300
 - there are 23 pokémon that have `secondType: "Fire"` and a `power` greater than 300
 - there are 91 pokémon that don't have a `secondType` (`secondType: null`) and have a `power` greater than 300
+
 
 ---
 ## Practice
