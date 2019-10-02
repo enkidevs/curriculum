@@ -16,7 +16,9 @@ category: how to
 links:
 
 ---
+
 # Aggregation With Arithmetic Expressions Operators
+
 ---
 ## Content
 
@@ -191,6 +193,7 @@ db.pokemon.aggregate([
   }
 ]);
 ```
+
 ---
 ## Practice
 
