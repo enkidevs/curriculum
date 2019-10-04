@@ -23,7 +23,7 @@ links:
 
 ---
 
-# Errors and Excpetions
+# Errors and Exceptions
 
 ---
 ## Content
@@ -37,8 +37,8 @@ value = 5
 return value
 
 # File "test", line 2
-#   value = 12
-#      ^
+#   value = 5
+#   ^
 # IndentationError: expected
 #         an indented block
 ```
