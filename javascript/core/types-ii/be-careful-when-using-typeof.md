@@ -17,12 +17,6 @@ tags:
 
   - introduction
 
-
-links:
-
-  - '[Type detection tutorial](http://javascript.info/tutorial/type-detection){tutorial}'
-
-
 aspects:
   - introduction
   - workout
