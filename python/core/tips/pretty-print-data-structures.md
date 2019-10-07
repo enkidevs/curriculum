@@ -46,18 +46,19 @@ pprint.pprint(data)
 
 The module also provides a way of formatting data structures into strings for other purposes (e.g. logging):
 ```python
-data = [(x, {y: y * y for y in range(2)})
-        for x in range(4)]
-print(pprint.pformat(data, width=19))
+data = []
+for x in range(4):
+  data.append((x, {0: 0, 1: 1}))
 
+print(pprint.pformat(data, width=19))
 ```
+
 Instead of a single line our output will be:
 ```python
 [(0, {0: 0, 1: 1}),
  (1, {0: 0, 1: 1}),
  (2, {0: 0, 1: 1}),
  (3, {0: 0, 1: 1})]
-
 ```
 
 You can even check if an object is **readable**:
