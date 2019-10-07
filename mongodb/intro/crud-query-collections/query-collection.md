@@ -42,13 +42,13 @@ Output:
 }
 {
    "_id": 7,
-  "name": "Ivisaur:",
+  "name": "Ivysaur",
   "type": "Grass"
   "secondaryType": "Poison"
 }
 {
   "_id": 8,
-  "name": "Venusaur:",
+  "name": "Venusaur",
   "type": "Grass"
   "secondaryType": "Poison"
 }

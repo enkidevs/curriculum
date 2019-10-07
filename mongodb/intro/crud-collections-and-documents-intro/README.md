@@ -10,4 +10,4 @@ insights:
   - update-single-document
   - update-multiple-documents
   - delete-documents
-  - Objectid
+  - objectid-intro
