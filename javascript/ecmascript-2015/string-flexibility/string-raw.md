@@ -44,7 +44,7 @@ console.log(String.raw`Line1\nLine2`);
 // "Line1\nLine2"
 ```
 
-Normally, `String.raw` is not called as a function, but for the sake of the argument let's call it as a function:
+Alternatively, we can invoke `String.raw` like a regular function, which would look something like this:
 ```js
 String.raw({raw: 'enki'}, 0, 1, 2);
 // e0n1k2i
@@ -55,6 +55,9 @@ The above code is the equivalent of calling:
 ```js
 String.raw`e${0}n${1}k${2}i`
 ```
+
+Note that although calling `String.raw` as a function is possible, it is not done often.
+
 ---
 ## Practice
 
