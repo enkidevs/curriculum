@@ -39,12 +39,16 @@ In the previous insight, we used the `$divide` operator to calculate the `initia
 Output documents from previous insight:
 ```javascript
 { 
-  "_id": 1,
+  "_id": ObjectId(
+      "5d9d8c330b24990f19398214"
+      ),
   "Name": "Pikachu", 
   "initialPower": 63.30769230769231 
 }
 { 
-  "_id": 2, 
+  "_id": ObjectId(
+      "5d9d8c3f0b24990f19398215"
+      ),
   "Name": "Raichu", 
   "initialPower": 50.80769230769231 
 }
@@ -67,8 +71,16 @@ db.pokemon.aggregate([
 
 Output:
 ```javascript
-{ "_id": 2, "truncatedPower": 50.8 }
-{ "_id": 1, "truncatedPower": 63.3 }
+{   "_id": ObjectId(
+      "5d9d8c3f0b24990f19398215"
+      ),
+    "truncatedPower": 50.8
+}
+{   "_id": ObjectId(
+      "5d9d8c330b24990f19398214"
+      ), 
+     "truncatedPower": 63.3 
+}
 ```
 **Note:** The `,1` in `$trunc: ["$initialPower", 1]` means that the value will be truncate to 1 decimal point.
 
@@ -76,8 +88,16 @@ If we wanted to truncate without any decimal points, we would write it as `$trun
 
 Output:
 ```javascript
-{ "_id" : 2, "truncatedPower" : 50}
-{ "_id" : 1, "truncatedPower" : 63}
+{   "_id": ObjectId(
+      "5d9d8c3f0b24990f19398215"
+      ),
+    "truncatedPower": 50
+}
+{   "_id": ObjectId(
+      "5d9d8c330b24990f19398214"
+      ), 
+     "truncatedPower": 63 
+}
 ```
 
 Similarly, if we wanted to truncate to any different decimal point, we would just add the corresponding number in the aggregation.
@@ -86,7 +106,11 @@ Similarly, if we wanted to truncate to any different decimal point, we would jus
 
 Example output if we had `-50.80769230769231` as a value:
 ```javascript
-{ "_id" : 2, "truncatedPower" : -50.8 }
+{   "_id": ObjectId(
+      "5d9d8c3f0b24990f19398215"
+      ),
+    "truncatedPower": -50.8
+}
 ```
 
 ### $round
@@ -108,12 +132,16 @@ They operate the same way, except that `$round` is used to round the number up o
 Let's use the same document as above:
 ```javascript
 { 
-  "_id": 1,
+  "_id": ObjectId(
+      "5d9d8c330b24990f19398214"
+      ),
   "Name": "Pikachu", 
   "initialPower": 63.30769230769231 
 }
 { 
-  "_id": 2, 
+  "_id": ObjectId(
+      "5d9d8c3f0b24990f19398215"
+      ),
   "Name": "Raichu", 
   "initialPower": 50.80769230769231 
 }
@@ -134,8 +162,16 @@ db.pokemon.aggregate([
 
 Output:
 ```javascript
-{ "_id": 1, "roundedPower": 63 }
-{ "_id": 2, "roundedPower": 51 }
+{   "_id": ObjectId(
+      "5d9d8c330b24990f19398214"
+      ), 
+     "roundedPower": 63
+}
+{   "_id": ObjectId(
+      "5d9d8c3f0b24990f19398215"
+      ),
+    "roundedPower": 51
+}
 ```
 
 **Note:** `$round: ["$initialPower"]` = `$round: ["$initialPower", 0]` 
@@ -143,8 +179,16 @@ If we wanted to round with any decimal point, we would write it as `$round: ["$i
 
 Example with `$round: ["$initialPower", 2]`:
 ```javascript
-{ "_id" : 2, "roundedPower" : 50.81}
-{ "_id" : 1, "roundedPower" : 63.31}
+{   "_id": ObjectId(
+      "5d9d8c3f0b24990f19398215"
+      ),
+    "roundedPower": 50.81
+}
+{   "_id": ObjectId(
+      "5d9d8c330b24990f19398214"
+      ), 
+     "roundedPower": 63.31
+}
 ```
 
 **Note:** Just like the `$trunc` operator, the `$round` operator also works on both positive and negative numbers.
@@ -174,12 +218,28 @@ db.pokemon.aggregate([
 50.80769230769231 
 
 // Previous output
-{ "_id" : 2, "roundedPower" : 50 }
-{ "_id" : 1, "roundedPower" : 63 }
+{   "_id": ObjectId(
+      "5d9d8c3f0b24990f19398215"
+      ),
+    "truncatedPower": 50
+}
+{   "_id": ObjectId(
+      "5d9d8c330b24990f19398214"
+      ), 
+     "truncatedPower": 63
+}
 
 // Output with a negative input
-{ "_id" : 2, "roundedPower" : 50 }
-{ "_id" : 1, "roundedPower" : 60 }
+{   "_id": ObjectId(
+      "5d9d8c3f0b24990f19398215"
+      ),
+    "truncatedPower": 50
+}
+{   "_id": ObjectId(
+      "5d9d8c330b24990f19398214"
+      ), 
+     "truncatedPower": 60
+}
 ```
 
 As you can see in the example above, the value is truncated starting from the left of the decimal, as opposed to starting from the right when the input is positive.
