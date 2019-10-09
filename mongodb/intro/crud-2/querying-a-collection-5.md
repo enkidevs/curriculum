@@ -34,7 +34,9 @@ db.pokemon.findOneAndUpdate(
 Output:
 ```javascript
 {
-	"_id": 4,
+    "_id": ObjectId(
+        "5d9d8bc20b24990f19398211"
+      ),
 	"name": "Squirtle",
 	"type": "Water",
 	"power": 233,
@@ -61,7 +63,9 @@ db.pokemon.findOneAndUpdate(
 Output:
 ```javascript
 {
-	"_id": 4,
+    "_id": ObjectId(
+        "5d9d8bc20b24990f19398211"
+      ),
 	"name": "Squirtle",
 	"type": "Water",
 	"power": 234,
@@ -86,7 +90,9 @@ For instance, let us say one of our documents was no longer viable and we wanted
 db.pokemon.findOneAndReplace(
   { power: { $eq: 350 } },
   {
-    _id: 101,
+     "_id": ObjectId(
+      "5d9d8e800b24990f19398223"
+      ),
     name: "Mewtoo",
     type: "Unknown",
     power: 700
@@ -97,7 +103,9 @@ db.pokemon.findOneAndReplace(
 Output:
 ```javascript
 { 
-	"_id": 101, 
+    "_id": ObjectId(
+      "5d9d8dcb0b24990f1939821f"
+      ), 
 	"name": "Electrode", 
 	"type": "Electric", 
 	"power": 350, 
@@ -116,7 +124,9 @@ Just like with the `.findOneAndUpdate()` method, if we don't add `returnNewDocum
 db.pokemon.findOneAndReplace(
   { power: { $eq: 350 } },
   {
-    _id: 101,
+    "_id": ObjectId(
+      "5d9d8e800b24990f19398223"
+      ),
     name: "Mewtoo",
     type: "Unknown",
     power: 700
@@ -128,7 +138,9 @@ db.pokemon.findOneAndReplace(
 Output:
 ```javascript
 {
-	"_id": 101,
+	"_id": ObjectId(
+     	 "5d9d8e800b24990f19398223"
+      ),
 	"name": "Mewtoo",
 	"type": "Unknown", 
 	"power": 700
@@ -151,11 +163,10 @@ Fill in the blanks to find the first document with a `type` of `Water` and repla
 db.pokemon.???(
   { "type": ???},
   {
-	  "_id" : 6,
-		"name": "Charizard",
-		"type": "Fire", 
-		"power": 999
-	}
+	"name": "Charizard",
+	"type": "Fire", 
+	"power": 999
+  }
 )
 ```
 
