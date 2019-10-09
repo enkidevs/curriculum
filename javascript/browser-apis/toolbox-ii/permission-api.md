@@ -40,18 +40,20 @@ You can check the status of a permission using `permissions.query()`. The status
 
 For example:
 
-```
+```js
 // Check for Geolocation API permissions.
 // Pass permission's name into method
 // as 'permissionDescriptor' object.
 navigator.permissions
-               .query({name:'geolocation'})
+  .query({ name: "geolocation" })
   // The Promise resolves to
   // `permissionStatus' object
   .then(function(permissionStatus) {
     // print state of geolocation permission
-    console.log('geo permission
-        state is ', permissionStatus.state);
+    console.log(
+      "geo permission state is ",
+      permissionStatus.state
+    );
   });
 ```
 You can also create an event handler for `permissionStatus.onchange`.
