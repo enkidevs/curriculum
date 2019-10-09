@@ -34,7 +34,9 @@ db.pokemon.findOneAndDelete({
 Output:
 ```javascript
 {
-	"_id": 807,
+	"_id": ObjectId(
+     	 "5d9d9ba30b24990f1939822a"
+    	  ),,
 	"name": "Zeraora",
 	"type": "Electric",
 	"power": 3012
