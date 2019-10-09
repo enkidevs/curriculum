@@ -57,8 +57,16 @@ db.pokemon.aggregate([
 ```
 Output:
 ```javascript
-{ "_id": 72, "secondType": "Poison" }
-{ "_id": 73, "secondType": "Poison" }
+{   "_id": ObjectId(
+      "5d9d8ce00b24990f19398218"
+      ),
+    "secondType": "Poison" 
+}
+{   "_id": ObjectId(
+      "5d9d8ce90b24990f19398219"
+      ),
+    "secondType": "Poison" 
+}
 // ...
 ```
 As you can see above, our aggregation was supposed to only aggregate documents which contain the specified field(`secondType`). However, since the `_id` field is included by default we have to add `_id: 0` to exclude it.
