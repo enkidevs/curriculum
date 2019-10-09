@@ -38,44 +38,52 @@ The `$mergeObjects` operator ignores any `null` values. Also, if all values are 
 Let's say we have the following documents in our database:
 ```javascript
 {
-_id: 1,
-name: "Pikachu",
-type: "Electric",
-power: 501,
-spells: {
-  Basic: "Lightning",
-  Strong: "Bolt"
-}
+  "_id": ObjectId(
+      "5d9d8c330b24990f19398214"
+      ),
+  name: "Pikachu",
+  type: "Electric",
+  power: 501,
+  spells: {
+    Basic: "Lightning",
+    Strong: "Bolt"
+  }
 },
 {
-_id: 2,
-name: "Raichu",
-type: "Electric",
-power: 404,
-spells: {
-  Passive: "Shock",
-  Ultimate: "Destruction"
-}
+  "_id": ObjectId(
+      "5d9d8c3f0b24990f19398215"
+      ),
+  name: "Raichu",
+  type: "Electric",
+  power: 404,
+  spells: {
+    Passive: "Shock",
+    Ultimate: "Destruction"
+  }
 },
 {
-_id: 3,
-name: "Squirtle",
-type: "Water",
-power: 342,
-spells: {
-  Basic: "Water-gun",
-  Strong: "Blast"
-}
+  "_id": ObjectId(
+      "5d9d8bc20b24990f19398211"
+      ),
+  name: "Squirtle",
+  type: "Water",
+  power: 342,
+  spells: {
+    Basic: "Water-gun",
+    Strong: "Blast"
+  }
 },
 {
-_id: 4,
-name: "Blastoise",
-type: "Water",
-power: 533,
-spells: {
-  Passive: "Water-Shield",
-  Ultimate: "Water-Cannon"
-}
+  "_id": ObjectId(
+      "5d9d8bde0b24990f19398212"
+      ),
+  name: "Blastoise",
+  type: "Water",
+  power: 533,
+  spells: {
+    Passive: "Water-Shield",
+    Ultimate: "Water-Cannon"
+  }
 }
 ```  
 
@@ -122,24 +130,28 @@ In the example above, the outputted document was grouped by the `type` field, an
 However, if for instance we had fields with the same name in both objects, like the documents below:
 ```javascript
 {
- _id: 3,
- name: "Squirtle",
- type: "Water",
- power: 342,
- spells: {
-   Basic: "Water-gun",
-   Strong: "Blast"
- }
+  "_id": ObjectId(
+      "5d9d8bc20b24990f19398211"
+      ),
+  name: "Squirtle",
+  type: "Water",
+  power: 342,
+  spells: {
+    Basic: "Water-gun",
+    Strong: "Blast"
+  }
 },
 {
- _id: 4,
- name: "Blastoise",
- type: "Water",
- power: 533,
- spells: {
-   Basic: "Water-Shield",
-   Strong: "Water-Cannon"
- }
+  "_id": ObjectId(
+      "5d9d8bde0b24990f19398212"
+      ),
+  name: "Blastoise",
+  type: "Water",
+  power: 533,
+  spells: {
+    Basic: "Water-Shield",
+    Strong: "Water-Cannon"
+  }
 }
 ```
 
