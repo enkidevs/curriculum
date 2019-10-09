@@ -67,9 +67,7 @@ This **worst-case** approximation is expressed using the `Big O`[1] notation. In
 
 For example, when talking about moving from end to end within an array, it makes sense to say that the number of operations is bounded by the number of items in the array, or `O(n)`. Moreover, the insertion operation is bounded by the same function, `O(n)`, as inserting at index 0 means performing additional *n* operations for moving all of the items to the right.
 
-For comparison, visiting every node in a linked list is also a linear operation (`O(n)`). Inserting, however, does not depend on the size of the list, but on the number of the immediate neighbors, which is a constant relative to the size[2]. Therefore, the insertion operation is bounded by the constant function, `O(1)`.
-
-NOTE:In a singly linked list, adding after a node is a O(1) operation however adding before a node is a O(n) operation.
+For comparison, visiting every node in a linked list is also a linear operation (`O(n)`). Inserting, however, does not depend on the size of the list, but on the number of the immediate neighbors, which is a constant relative to the size[2]. Therefore, the insertion operation is bounded by the constant function, `O(1)`[3].
 
 ---
 ## Practice
@@ -105,3 +103,5 @@ The number of nodes depends on the type of LinkedList used and on how many refer
 
 For example, in a *SinglyLinkedList* you have to change 2 references, in a *DoublyLinkedList* you have to change 4 references, but, in the end, it **does not** depend on *the total number of nodes* in the list.
 
+[3:Inserting before or after a node]
+In a singly linked list, adding after a node is a `O(1)` operation and adding before a node is a `O(n)` operation. Although possible with a singly linked list, you might want to consider using a doubly linked list if you need to frequently insert before a node. In this case (doubly linked list), inserting before a node will also be a `O(1)` operation.
