@@ -29,8 +29,8 @@ Example document:
 ```javascript
 {
   "_id": ObjectId(
-      "5d9d8e1e0b24990f19398221"
-      ),
+    "5d9d8e1e0b24990f19398221"
+  ),
   "name": "Omanyte",
   "type": "Rock",
   "power": 303,
@@ -77,8 +77,8 @@ Document:
 ```javascript
 {
   "_id": ObjectId(
-      "5d9d8b8c0b24990f1939820f"
-      ),
+    "5d9d8b8c0b24990f1939820f"
+  ),
   "name": "Charmander",
   "ability1": "Throw",
   "ability2": "Grab",
@@ -106,8 +106,8 @@ Output:
 ```javascript
 {
   "_id": ObjectId(
-      "5d9d8b8c0b24990f1939820f"
-      ),
+    "5d9d8b8c0b24990f1939820f"
+  ),
   "name": "Charmander",
   "abilities": [
     "Throw",
@@ -126,8 +126,8 @@ Let's say we have a `pokemon` collection where each pokémon has a `name`, `_id`
 ```javascript
 {
   "_id": ObjectId(
-      "5d9d8ba70b24990f19398210"
-      ),
+    "5d9d8ba70b24990f19398210"
+  ),
   "name": "Charizard",
   "type": "Flame",
   "power": 651,

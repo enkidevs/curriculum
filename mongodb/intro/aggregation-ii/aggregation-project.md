@@ -57,15 +57,17 @@ db.pokemon.aggregate([
 ```
 Output:
 ```javascript
-{   "_id": ObjectId(
-      "5d9d8ce00b24990f19398218"
-      ),
-    "secondType": "Poison" 
-}
-{   "_id": ObjectId(
-      "5d9d8ce90b24990f19398219"
-      ),
-    "secondType": "Poison" 
+{
+  "_id": ObjectId(
+    "5d9d8ce00b24990f19398218"
+  ),
+  "secondType": "Poison"
+},
+{
+  "_id": ObjectId(
+    "5d9d8ce90b24990f19398219"
+  ),
+  "secondType": "Poison"
 }
 // ...
 ```

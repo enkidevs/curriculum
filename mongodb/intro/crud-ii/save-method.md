@@ -31,8 +31,8 @@ Let's say we have a document where some information is wrong:
 ```javascript
 {
   "_id": ObjectId(
-      "5d9d8b8c0b24990f1939820f"
-      ),
+    "5d9d8b8c0b24990f1939820f"
+  ),
   "name": "Chharmander", 
   "type": "Mud", 
   "power": 199
@@ -43,8 +43,8 @@ To replace it with a new document with the corrected information, we can easily 
 ```javascript
 db.pokemon.save({
   "_id": ObjectId(
-      "5d9d8b8c0b24990f1939820f"
-      ),
+    "5d9d8b8c0b24990f1939820f"
+  ),
   "name": "Charmander",
   "type": "Flame",
   "power": 430

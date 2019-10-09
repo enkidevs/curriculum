@@ -69,15 +69,15 @@ Output:
 ```javascript
 { 
   "_id": ObjectId(
-      "5d9d8c330b24990f19398214"
-      ),
+    "5d9d8c330b24990f19398214"
+  ),
   "Name": "Pikachu", 
   "actualPower": 812 
 }
 { 
   "_id": ObjectId(
-      "5d9d8c3f0b24990f19398215"
-      ),, 
+    "5d9d8c3f0b24990f19398215"
+  ),
   "Name": "Raichu", 
   "actualPower": 1152 
 }
@@ -122,15 +122,15 @@ Output:
 ```javascript
 { 
   "_id": ObjectId(
-      "5d9d8c330b24990f19398214"
-      ),
+    "5d9d8c330b24990f19398214"
+  ),
   "Name": "Pikachu", 
   "initialPower": 63.30769230769231 
 }
 { 
   "_id": ObjectId(
-      "5d9d8c3f0b24990f19398215"
-      ),
+    "5d9d8c3f0b24990f19398215"
+  ),
   "Name": "Raichu", 
   "initialPower": 50.80769230769231 
 }

@@ -34,8 +34,8 @@ Output:
 ```javascript
 { 
 	"_id": ObjectId(
-     	   "5d9d8c330b24990f19398214"
-      	), 
+    "5d9d8c330b24990f19398214"
+	), 
 	"name": "Pikachu", 
 	"type": "Electric", 
 	"power": 231, 
@@ -48,8 +48,8 @@ Output:
 }
 { 
 	"_id": ObjectId(
-     	   "5d9d8c3f0b24990f19398215"
-     	 ), 
+    "5d9d8c3f0b24990f19398215"
+  ), 
 	"name": "Raichu", 
 	"type": "Electric", 
 	"power": 453, 
@@ -91,18 +91,18 @@ db.pokemon.find(
 
 Output:
 ```javascript
-
-{  "_id": ObjectId(
-      "5d9d8c330b24990f19398214"
-      ),
-     "name": "Pikachu" 
+{
+	"_id": ObjectId(
+		"5d9d8c330b24990f19398214"
+	),
+	"name": "Pikachu"
+},
+{
+	"_id": ObjectId(
+		"5d9d8c3f0b24990f19398215"
+	),
+	"name": "Raichu"
 }
-{   "_id": ObjectId(
-       "5d9d8c3f0b24990f19398215"
-      ),
-     "name": "Raichu"
-}
-
 ```
 
 ### Specifying which fields NOT to display

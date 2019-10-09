@@ -35,24 +35,24 @@ Output:
 ```javascript
 {
   "_id": ObjectId(
-      "5d9d8c330b24990f19398214"
-      ),
+    "5d9d8c330b24990f19398214"
+  ),
   "name": "Pikachu",
   "type": "Electric",
   "power": 231
 }
 {
   "_id" : ObjectId(
-      "5d9d8a6a0b24990f19398209"
-      ),
+    "5d9d8a6a0b24990f19398209"
+  ),
   "name": "Bulbasaur",
   "type": "Grass",
   "power": 311
 }
 {
   "_id": ObjectId(
-      "5d9d8b8c0b24990f1939820f"
-      ),
+    "5d9d8b8c0b24990f1939820f"
+  ),
   "name": "Charmander",
   "type": "Flame",
   "power": 199

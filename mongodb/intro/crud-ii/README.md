@@ -1,4 +1,4 @@
-name: CRUD Advanced
+name: CRUD II
 
 description: Learn how to create, read, update and delete collections and documents.
 

@@ -75,8 +75,8 @@ Output:
 ```javascript
 {
   "_id": ObjectId(
-      "5d9d8ce90b24990f19398219"
-      )
+    "5d9d8ce90b24990f19398219"
+  )
   "name": "Tentacruel"
   "type": "Water"
   "secondType": "Poison"
@@ -84,8 +84,8 @@ Output:
 }
 {
   "_id": ObjectId(
-      "5d9d8e090b24990f19398220"
-      )
+    "5d9d8e090b24990f19398220"
+  )
   "name": "Porygon"
   "type": "Normal"
   "power": 86

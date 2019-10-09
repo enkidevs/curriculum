@@ -39,8 +39,8 @@ Let's say we have the following documents in our database:
 ```javascript
 {
   "_id": ObjectId(
-      "5d9d8c330b24990f19398214"
-      ),
+    "5d9d8c330b24990f19398214"
+  ),
   name: "Pikachu",
   type: "Electric",
   power: 501,
@@ -51,8 +51,8 @@ Let's say we have the following documents in our database:
 },
 {
   "_id": ObjectId(
-      "5d9d8c3f0b24990f19398215"
-      ),
+    "5d9d8c3f0b24990f19398215"
+  ),
   name: "Raichu",
   type: "Electric",
   power: 404,
@@ -63,8 +63,8 @@ Let's say we have the following documents in our database:
 },
 {
   "_id": ObjectId(
-      "5d9d8bc20b24990f19398211"
-      ),
+    "5d9d8bc20b24990f19398211"
+  ),
   name: "Squirtle",
   type: "Water",
   power: 342,
@@ -75,8 +75,8 @@ Let's say we have the following documents in our database:
 },
 {
   "_id": ObjectId(
-      "5d9d8bde0b24990f19398212"
-      ),
+    "5d9d8bde0b24990f19398212"
+  ),
   name: "Blastoise",
   type: "Water",
   power: 533,
@@ -131,8 +131,8 @@ However, if for instance we had fields with the same name in both objects, like 
 ```javascript
 {
   "_id": ObjectId(
-      "5d9d8bc20b24990f19398211"
-      ),
+    "5d9d8bc20b24990f19398211"
+  ),
   name: "Squirtle",
   type: "Water",
   power: 342,
@@ -143,8 +143,8 @@ However, if for instance we had fields with the same name in both objects, like 
 },
 {
   "_id": ObjectId(
-      "5d9d8bde0b24990f19398212"
-      ),
+    "5d9d8bde0b24990f19398212"
+  ),
   name: "Blastoise",
   type: "Water",
   power: 533,

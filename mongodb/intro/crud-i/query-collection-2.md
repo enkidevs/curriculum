@@ -43,26 +43,26 @@ Output:
 ```javascript
 {
   "_id" : ObjectId(
-      "5d9d8a6a0b24990f19398209"
-      ),
+    "5d9d8a6a0b24990f19398209"
+  ),
   "name": "Bulbasaur",
   "type": "Grass",
   "secondType": "Poison",
   "power": 311
 }
 {
-   "_id": ObjectId(
-       "5d9d8b550b24990f1939820d"
-       ),
-  "name": "Ivisaur:",
+  "_id": ObjectId(
+    "5d9d8b550b24990f1939820d"
+  ),
+  "name": "Ivysaur:",
   "type": "Grass",
   "secondType": "Poison",
   "power": 335
 }
 {
   "_id": ObjectId(
-      "5d9d8ce90b24990f19398219"
-      ),
+    "5d9d8ce90b24990f19398219"
+  ),
   "name": "Tentacruel",
   "type": "Water",
   "secondType": "Poison",
@@ -70,8 +70,8 @@ Output:
 }
 {
   "_id": ObjectId(
-      "5d9d8e640b24990f19398222"
-      ),
+    "5d9d8e640b24990f19398222"
+  ),
   "name": "Moltres",
   "type": "Fire",
   "secondType": "Flying",
@@ -104,8 +104,8 @@ Output:
 // ...
 {
   "_id": ObjectId(
-      "5d9d8e640b24990f19398222"
-      ),
+    "5d9d8e640b24990f19398222"
+  ),
   "name": "Moltres",
   "type": "Fire",
   "secondType": "Flying",
@@ -113,8 +113,8 @@ Output:
 }
 {
   "_id": ObjectId(
-      "5d9d8e9a0b24990f19398224"
-      ),
+    "5d9d8e9a0b24990f19398224"
+  ),
   "name": "Mew",
   "type": "Psychic",
   "age": 1,

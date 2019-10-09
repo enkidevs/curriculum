@@ -40,16 +40,16 @@ Output:
 ```javascript
 {
   "_id": ObjectId(
-      "5d9d8bde0b24990f19398212"
-      ),
+    "5d9d8bde0b24990f19398212"
+  ),
   "name": "Blastoise",
   "type": "Water",
   "power": 667
 },
 {
   "_id": ObjectId(
-      "5d9d8bf80b24990f19398213"
-      ),
+    "5d9d8bf80b24990f19398213"
+  ),
   "name": "Caterpie",
   "type": "Bug",
   "power": 120
@@ -68,8 +68,8 @@ Output:
 ```javascript
 {
   "_id": ObjectId(
-      "5d9d8bde0b24990f19398212"
-      ),
+    "5d9d8bde0b24990f19398212"
+  ),
   "name": "Blastoise",
   "type": "Water",
   "power": 667

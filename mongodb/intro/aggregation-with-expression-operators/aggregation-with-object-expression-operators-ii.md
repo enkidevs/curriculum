@@ -28,8 +28,8 @@ For instance, let's say we have this document within our `pokemon` collection:
 ```javascript
 {
   "_id": ObjectId(
-      "5d9d8c330b24990f19398214"
-      ),
+    "5d9d8c330b24990f19398214"
+  ),
   name: "Pikachu",
   type: "Electric",
   power: 501,
@@ -56,8 +56,8 @@ Output:
 ```javascript
 {
    "_id": ObjectId(
-      "5d9d8c330b24990f19398214"
-      ),
+    "5d9d8c330b24990f19398214"
+  ),
   spells: [
     { k: "Basic", v: "Lightning" },
     { k: "Strong", v: "Bolt" }
@@ -78,8 +78,8 @@ Fill in the gaps below to transform the document into an array and output the co
 // document:
 {
   "_id": ObjectId(
-      "5d9d8c330b24990f19398214"
-      ),
+    "5d9d8c330b24990f19398214"
+  ),
   name: "Pikachu",
   type: "Electric",
   power: 501,

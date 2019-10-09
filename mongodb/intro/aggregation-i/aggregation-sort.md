@@ -66,16 +66,16 @@ Output:
 ```javascript
 {
   "_id": ObjectId(
-      "5d9d8e800b24990f19398223"
-      ),
+    "5d9d8e800b24990f19398223"
+  ),
   "name": "Mewtwo",
   "type": "Psychic",
   "power": 800
 }
 {
   "_id": ObjectId(
-      "5d9d8e640b24990f19398222"
-      ),
+    "5d9d8e640b24990f19398222"
+  ),
   "name": "Moltres",
   "type": "Fire",
   "secondType": "Flying",

@@ -35,7 +35,7 @@ db.collection.aggregate(pipeline, options)
 ```
 
 The syntax for aggregating a database is:
-```jsx
+```js
 db.aggregate(pipeline, options)
 ```
 
@@ -54,24 +54,24 @@ Output:
 ```javascript
 {
   "_id": ObjectId(
-      "5d9d8b8c0b24990f1939820f"
-      ),
+    "5d9d8b8c0b24990f1939820f"
+  ),
   "name": "Charmander",
   "type": "Flame",
   "power": 199
 }
 {
   "_id": ObjectId(
-      "5d9d8ea50b24990f19398225"
-      ),
+    "5d9d8ea50b24990f19398225"
+  ),
   "name": "Togepi",
   "type": "Fairy",
   "power": 0
 }
 {
   "_id": ObjectId(
-      "5d9d8eeb0b24990f19398227"
-      ),
+    "5d9d8eeb0b24990f19398227"
+  ),
   "name": "Castform",
   "type": "Normal",
   "power": 35

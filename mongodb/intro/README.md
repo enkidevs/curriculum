@@ -8,13 +8,13 @@ sections:
   '0':
     - intro
     - databases
-    - crud-collections-and-documents-intro
+    - crud-intro
   '1':
-    - crud-query-collections
-    - aggregation-beginner
+    - crud-i
+    - aggregation-i
     - aggregation-ii
   '2':
-    - crud-2
+    - crud-ii
     - aggregation-with-expression-operators
     - aggregation-iii
 standards:

@@ -40,15 +40,15 @@ Output documents from previous insight:
 ```javascript
 { 
   "_id": ObjectId(
-      "5d9d8c330b24990f19398214"
-      ),
+    "5d9d8c330b24990f19398214"
+  ),
   "Name": "Pikachu", 
   "initialPower": 63.30769230769231 
 }
 { 
   "_id": ObjectId(
-      "5d9d8c3f0b24990f19398215"
-      ),
+    "5d9d8c3f0b24990f19398215"
+  ),
   "Name": "Raichu", 
   "initialPower": 50.80769230769231 
 }
@@ -71,15 +71,17 @@ db.pokemon.aggregate([
 
 Output:
 ```javascript
-{   "_id": ObjectId(
-      "5d9d8c3f0b24990f19398215"
-      ),
-    "truncatedPower": 50.8
-}
-{   "_id": ObjectId(
-      "5d9d8c330b24990f19398214"
-      ), 
-     "truncatedPower": 63.3 
+{
+  "_id": ObjectId(
+    "5d9d8c3f0b24990f19398215"
+  ),
+  "truncatedPower": 50.8
+},
+{
+  "_id": ObjectId(
+    "5d9d8c330b24990f19398214"
+  ),
+  "truncatedPower": 63.3
 }
 ```
 **Note:** The `,1` in `$trunc: ["$initialPower", 1]` means that the value will be truncate to 1 decimal point.
@@ -88,15 +90,17 @@ If we wanted to truncate without any decimal points, we would write it as `$trun
 
 Output:
 ```javascript
-{   "_id": ObjectId(
-      "5d9d8c3f0b24990f19398215"
-      ),
-    "truncatedPower": 50
+{   
+  "_id": ObjectId(
+    "5d9d8c3f0b24990f19398215"
+  ),
+  "truncatedPower": 50
 }
-{   "_id": ObjectId(
-      "5d9d8c330b24990f19398214"
-      ), 
-     "truncatedPower": 63 
+{   
+  "_id": ObjectId(
+    "5d9d8c330b24990f19398214"
+  ), 
+  "truncatedPower": 63 
 }
 ```
 
@@ -106,10 +110,11 @@ Similarly, if we wanted to truncate to any different decimal point, we would jus
 
 Example output if we had `-50.80769230769231` as a value:
 ```javascript
-{   "_id": ObjectId(
-      "5d9d8c3f0b24990f19398215"
-      ),
-    "truncatedPower": -50.8
+{   
+  "_id": ObjectId(
+    "5d9d8c3f0b24990f19398215"
+  ),
+  "truncatedPower": -50.8
 }
 ```
 
@@ -133,15 +138,15 @@ Let's use the same document as above:
 ```javascript
 { 
   "_id": ObjectId(
-      "5d9d8c330b24990f19398214"
-      ),
+    "5d9d8c330b24990f19398214"
+  ),
   "Name": "Pikachu", 
   "initialPower": 63.30769230769231 
 }
 { 
   "_id": ObjectId(
-      "5d9d8c3f0b24990f19398215"
-      ),
+    "5d9d8c3f0b24990f19398215"
+  ),
   "Name": "Raichu", 
   "initialPower": 50.80769230769231 
 }
@@ -162,15 +167,17 @@ db.pokemon.aggregate([
 
 Output:
 ```javascript
-{   "_id": ObjectId(
-      "5d9d8c330b24990f19398214"
-      ), 
-     "roundedPower": 63
+{   
+  "_id": ObjectId(
+    "5d9d8c330b24990f19398214"
+  ), 
+  "roundedPower": 63
 }
-{   "_id": ObjectId(
-      "5d9d8c3f0b24990f19398215"
-      ),
-    "roundedPower": 51
+{   
+  "_id": ObjectId(
+    "5d9d8c3f0b24990f19398215"
+  ),
+  "roundedPower": 51
 }
 ```
 
@@ -179,15 +186,17 @@ If we wanted to round with any decimal point, we would write it as `$round: ["$i
 
 Example with `$round: ["$initialPower", 2]`:
 ```javascript
-{   "_id": ObjectId(
-      "5d9d8c3f0b24990f19398215"
-      ),
-    "roundedPower": 50.81
+{   
+  "_id": ObjectId(
+    "5d9d8c3f0b24990f19398215"
+  ),
+  "roundedPower": 50.81
 }
-{   "_id": ObjectId(
-      "5d9d8c330b24990f19398214"
-      ), 
-     "roundedPower": 63.31
+{   
+  "_id": ObjectId(
+    "5d9d8c330b24990f19398214"
+  ), 
+  "roundedPower": 63.31
 }
 ```
 
@@ -218,27 +227,31 @@ db.pokemon.aggregate([
 50.80769230769231 
 
 // Previous output
-{   "_id": ObjectId(
-      "5d9d8c3f0b24990f19398215"
-      ),
-    "truncatedPower": 50
+{   
+  "_id": ObjectId(
+    "5d9d8c3f0b24990f19398215"
+  ),
+  "truncatedPower": 50
 }
-{   "_id": ObjectId(
-      "5d9d8c330b24990f19398214"
-      ), 
-     "truncatedPower": 63
+{  
+  "_id": ObjectId(
+    "5d9d8c330b24990f19398214"
+  ), 
+  "truncatedPower": 63
 }
 
 // Output with a negative input
-{   "_id": ObjectId(
-      "5d9d8c3f0b24990f19398215"
-      ),
-    "truncatedPower": 50
+{   
+  "_id": ObjectId(
+    "5d9d8c3f0b24990f19398215"
+  ),
+  "truncatedPower": 50
 }
-{   "_id": ObjectId(
-      "5d9d8c330b24990f19398214"
-      ), 
-     "truncatedPower": 60
+{  
+  "_id": ObjectId(
+    "5d9d8c330b24990f19398214"
+  ), 
+  "truncatedPower": 60
 }
 ```
 

@@ -35,8 +35,8 @@ Output:
 ```javascript
 {
 	"_id": ObjectId(
-     	 "5d9d9ba30b24990f1939822a"
-    	  ),,
+    "5d9d9ba30b24990f1939822a"
+  ),
 	"name": "Zeraora",
 	"type": "Electric",
 	"power": 3012

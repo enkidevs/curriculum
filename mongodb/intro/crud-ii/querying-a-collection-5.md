@@ -34,9 +34,9 @@ db.pokemon.findOneAndUpdate(
 Output:
 ```javascript
 {
-    "_id": ObjectId(
-        "5d9d8bc20b24990f19398211"
-      ),
+  "_id": ObjectId(
+    "5d9d8bc20b24990f19398211"
+  ),
 	"name": "Squirtle",
 	"type": "Water",
 	"power": 233,
@@ -63,9 +63,9 @@ db.pokemon.findOneAndUpdate(
 Output:
 ```javascript
 {
-    "_id": ObjectId(
-        "5d9d8bc20b24990f19398211"
-      ),
+  "_id": ObjectId(
+    "5d9d8bc20b24990f19398211"
+  ),
 	"name": "Squirtle",
 	"type": "Water",
 	"power": 234,
@@ -90,9 +90,9 @@ For instance, let us say one of our documents was no longer viable and we wanted
 db.pokemon.findOneAndReplace(
   { power: { $eq: 350 } },
   {
-     "_id": ObjectId(
+    "_id": ObjectId(
       "5d9d8e800b24990f19398223"
-      ),
+    ),
     name: "Mewtoo",
     type: "Unknown",
     power: 700
@@ -103,9 +103,9 @@ db.pokemon.findOneAndReplace(
 Output:
 ```javascript
 { 
-    "_id": ObjectId(
-      "5d9d8dcb0b24990f1939821f"
-      ), 
+  "_id": ObjectId(
+    "5d9d8dcb0b24990f1939821f"
+  ), 
 	"name": "Electrode", 
 	"type": "Electric", 
 	"power": 350, 
@@ -126,7 +126,7 @@ db.pokemon.findOneAndReplace(
   {
     "_id": ObjectId(
       "5d9d8e800b24990f19398223"
-      ),
+    ),
     name: "Mewtoo",
     type: "Unknown",
     power: 700
@@ -139,8 +139,8 @@ Output:
 ```javascript
 {
 	"_id": ObjectId(
-     	 "5d9d8e800b24990f19398223"
-      ),
+    "5d9d8e800b24990f19398223"
+  ),
 	"name": "Mewtoo",
 	"type": "Unknown", 
 	"power": 700

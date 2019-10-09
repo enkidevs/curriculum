@@ -36,34 +36,34 @@ Output:
 ```javascript
 {
   "_id" : ObjectId(
-      "5d9d8a6a0b24990f19398209"
-      ),
+    "5d9d8a6a0b24990f19398209"
+  ),
   "name": "Bulbasaur",
-  "type": "Grass"
+  "type": "Grass",
   "secondaryType": "Poison"
 }
 {
    "_id": ObjectId(
-       "5d9d8b550b24990f1939820d"
-       ),
+      "5d9d8b550b24990f1939820d"
+    ),
   "name": "Ivysaur",
-  "type": "Grass"
+  "type": "Grass",
   "secondaryType": "Poison"
 }
 {
   "_id": ObjectId(
-      "5d9d8b6c0b24990f1939820e"
-      ),
+    "5d9d8b6c0b24990f1939820e"
+  ),
   "name": "Venusaur",
-  "type": "Grass"
+  "type": "Grass",
   "secondaryType": "Poison"
 }
 {
   "_id": ObjectId(
-      "5d9d8ec00b24990f19398226"
-      ),
+    "5d9d8ec00b24990f19398226"
+  ),
   "name": "Snorlax",
-  "type": "Grass"
+  "type": "Grass",
   "secondaryType": "Normal"
 }
 // ...
@@ -83,24 +83,24 @@ Output:
 ```javascript
 {
   "_id": ObjectId(
-      "5d9d926c0b24990f19398228"
-      ),
+    "5d9d926c0b24990f19398228"
+  ),
   "name": "Kangaskhan",
   "type": "Grass",
   "secondaryType": "Normal"
 },
 {
   "_id": ObjectId(
-      "5d9d92910b24990f19398229"
-      ),
+    "5d9d92910b24990f19398229"
+  ),
   "name": "Chikorita",
   "type": "Grass",
   "secondaryType": "Normal"
 },
 {
   "_id": ObjectId(
-      "5d9d8ec00b24990f19398226"
-      ),
+    "5d9d8ec00b24990f19398226"
+  ),
   "name": "Snorlax",
   "type": "Grass"
   "secondaryType": "Normal"
@@ -143,30 +143,30 @@ Output is the same for both examples:
 ```javascript
 {
   "_id": ObjectId(
-      "5d9d8c330b24990f19398214"
-      ),
+    "5d9d8c330b24990f19398214"
+  ),
   "name": "Pikachu",
   "type": "Electric"
 }
 {
   "_id" : ObjectId(
-      "5d9d8a6a0b24990f19398209"
-      ),
+    "5d9d8a6a0b24990f19398209"
+  ),
   "name": "Bulbasaur",
   "type": "Grass"
 }
 {
   "_id": ObjectId(
-      "5d9d8c3f0b24990f19398215"
-      ),
+    "5d9d8c3f0b24990f19398215"
+  ),
   "name": "Raichu",
   "type": "Electric"
 }
 {
-   "_id": ObjectId(
-       "5d9d8b550b24990f1939820d"
-       ),
-  "name": "Ivisaur:",
+  "_id": ObjectId(
+    "5d9d8b550b24990f1939820d"
+  ),
+  "name": "Ivysaur:",
   "type": "Grass"
 }
 // ...

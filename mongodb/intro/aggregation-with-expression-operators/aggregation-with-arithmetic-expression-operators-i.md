@@ -82,15 +82,15 @@ Output:
 ```javascript
 { 
   "_id": ObjectId(
-      "5d9d8c330b24990f19398214"
-      ),
+    "5d9d8c330b24990f19398214"
+  ),
   "Name": "Pikachu", 
   "totalPowerStrength": 812 
 }
 { 
   "_id": ObjectId(
-      "5d9d8c3f0b24990f19398215"
-      ),
+    "5d9d8c3f0b24990f19398215"
+  ),
   "Name": "Raichu", 
   "totalPowerStrength": 1152 
 }
@@ -133,15 +133,15 @@ Output:
 ```javascript
 { 
   "_id": ObjectId(
-      "5d9d8c330b24990f19398214"
-      ),
+    "5d9d8c330b24990f19398214"
+  ),
   "Name": "Pikachu", 
   "ultimateMinusBasic": 399 
 }
 { 
   "_id": ObjectId(
-      "5d9d8c3f0b24990f19398215"
-      ),
+    "5d9d8c3f0b24990f19398215"
+  ),
   "Name": "Raichu", 
   "ultimateMinusBasic": 496 
 }
@@ -174,15 +174,15 @@ Output:
 ```javascript
 { 
   "_id": ObjectId(
-      "5d9d8c330b24990f19398214"
-      ),
+    "5d9d8c330b24990f19398214"
+  ),
   "Name": "Pikachu", 
   "ultimateMinusOtherTwo": 188 
 }
 { 
   "_id": ObjectId(
-      "5d9d8c3f0b24990f19398215"
-      ),
+    "5d9d8c3f0b24990f19398215"
+  ),
   "Name": "Raichu", 
   "ultimateMinusOtherTwo": 182 
 }

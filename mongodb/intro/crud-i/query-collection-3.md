@@ -39,24 +39,24 @@ Output:
 ```javascript
 {
   "_id": ObjectId(
-      "5d9d8c330b24990f19398214"
-      ),
+    "5d9d8c330b24990f19398214"
+  ),
   "name": "Pikachu",
   "type": "Electric",
   "power": 231
 }
 {
   "_id" : ObjectId(
-      "5d9d8a6a0b24990f19398209"
-      ),
+    "5d9d8a6a0b24990f19398209"
+  ),
   "name": "Bulbasaur",
   "type": "Grass",
   "power": 311
 }
 {
   "_id": ObjectId(
-      "5d9d8b8c0b24990f1939820f"
-      ),
+    "5d9d8b8c0b24990f1939820f"
+  ),
   "name": "Charmander",
   "type": "Flame",
   "power": 199
@@ -64,8 +64,8 @@ Output:
 // ...
 {
   "_id": ObjectId(
-      "5d9d8e800b24990f19398223"
-      ),
+    "5d9d8e800b24990f19398223"
+  ),
   "name": "Mewtoo",
   "type": "Psychic",
   "power": 800
@@ -89,24 +89,24 @@ Output of the above example:
 ```javascript
 {
   "_id" : ObjectId(
-      "5d9d8a6a0b24990f19398209"
-      ),
+    "5d9d8a6a0b24990f19398209"
+  ),
   "name": "Bulbasaur",
   "type": "Grass",
   "power": 311
 }
 {
-   "_id": ObjectId(
-       "5d9d8b550b24990f1939820d"
-       ),
+  "_id": ObjectId(
+    "5d9d8b550b24990f1939820d"
+  ),
   "name": "Ivysaur:",
   "type": "Grass",
   "power": 335
 }
 {
   "_id": ObjectId(
-      "5d9d8ce90b24990f19398219"
-      ),
+    "5d9d8ce90b24990f19398219"
+  ),
   "name": "Tentacruel",
   "type": "Water",
   "secondType": "Poison",
