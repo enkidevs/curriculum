@@ -74,14 +74,18 @@ db.pokemon.find({
 Output:
 ```javascript
 {
-  "_id": 73
+  "_id": ObjectId(
+      "5d9d8ce90b24990f19398219"
+      )
   "name": "Tentacruel"
   "type": "Water"
   "secondType": "Poison"
   "power": 333
 }
 {
-  "_id": 137
+  "_id": ObjectId(
+      "5d9d8e090b24990f19398220"
+      )
   "name": "Porygon"
   "type": "Normal"
   "power": 86
