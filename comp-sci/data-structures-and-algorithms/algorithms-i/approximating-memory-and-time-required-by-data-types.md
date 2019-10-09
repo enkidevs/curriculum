@@ -104,4 +104,8 @@ The number of nodes depends on the type of LinkedList used and on how many refer
 For example, in a *SinglyLinkedList* you have to change 2 references, in a *DoublyLinkedList* you have to change 4 references, but, in the end, it **does not** depend on *the total number of nodes* in the list.
 
 [3:Inserting before or after a node]
-In a singly linked list, adding after a node is a `O(1)` operation and adding before a node is a `O(n)` operation. Although possible with a singly linked list, you might want to consider using a doubly linked list if you need to frequently insert before a node. In this case (doubly linked list), inserting before a node will also be a `O(1)` operation.
+In a singly linked list:
+- inserting **after** a known node is an `O(1)` operation
+- inserting **before** a known node is a `O(n)` operation
+
+Although possible with a singly linked list, you might want to consider using a doubly linked list if you need to frequently insert **before** a node. In this case (doubly linked list), inserting before a node will also be an `O(1)` operation.
