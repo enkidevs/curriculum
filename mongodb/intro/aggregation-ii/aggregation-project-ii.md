@@ -28,7 +28,9 @@ For instance, let's say we have a `pokemon` collection where each pokémon has t
 Example document:
 ```javascript
 {
-  "_id": 138,
+  "_id": ObjectId(
+      "5d9d8e1e0b24990f19398221"
+      ),
   "name": "Omanyte",
   "type": "Rock",
   "power": 303,
@@ -74,7 +76,9 @@ Furthermore, we can use the `$project` stage to add a new array field to a docum
 Document:
 ```javascript
 {
-  "_id": 3,
+  "_id": ObjectId(
+      "5d9d8b8c0b24990f1939820f"
+      ),
   "name": "Charmander",
   "ability1": "Throw",
   "ability2": "Grab",
@@ -101,7 +105,9 @@ db.pokemon.aggregate([
 Output:
 ```javascript
 {
-  "_id": 3,
+  "_id": ObjectId(
+      "5d9d8b8c0b24990f1939820f"
+      ),
   "name": "Charmander",
   "abilities": [
     "Throw",
@@ -119,7 +125,9 @@ Let's say we have a `pokemon` collection where each pokémon has a `name`, `_id`
 
 ```javascript
 {
-  "_id": 12,
+  "_id": ObjectId(
+      "5d9d8ba70b24990f19398210"
+      ),
   "name": "Charizard",
   "type": "Flame",
   "power": 651,
