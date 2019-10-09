@@ -53,19 +53,25 @@ db.pokemon.aggregate([
 Output:
 ```javascript
 {
-  "_id": 3,
+  "_id": ObjectId(
+      "5d9d8b8c0b24990f1939820f"
+      ),
   "name": "Charmander",
   "type": "Flame",
   "power": 199
 }
 {
-  "_id": 175,
+  "_id": ObjectId(
+      "5d9d8ea50b24990f19398225"
+      ),
   "name": "Togepi",
   "type": "Fairy",
   "power": 0
 }
 {
-  "_id": 351,
+  "_id": ObjectId(
+      "5d9d8eeb0b24990f19398227"
+      ),
   "name": "Castform",
   "type": "Normal",
   "power": 35
