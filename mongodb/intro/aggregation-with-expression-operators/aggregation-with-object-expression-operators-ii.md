@@ -27,14 +27,16 @@ The outputted array has 2 fields, `k` and `v`, for each key-value pair of the or
 For instance, let's say we have this document within our `pokemon` collection:
 ```javascript
 {
- _id: 1,
- name: "Pikachu",
- type: "Electric",
- power: 501,
- spells: {
-   Basic: "Lightning",
-   Strong: "Bolt"
- }
+  "_id": ObjectId(
+      "5d9d8c330b24990f19398214"
+      ),
+  name: "Pikachu",
+  type: "Electric",
+  power: 501,
+  spells: {
+    Basic: "Lightning",
+    Strong: "Bolt"
+  }
 }
 ```
 
@@ -53,7 +55,9 @@ db.pokemon.aggregate([
 Output:
 ```javascript
 {
-  _id: 1,
+   "_id": ObjectId(
+      "5d9d8c330b24990f19398214"
+      ),
   spells: [
     { k: "Basic", v: "Lightning" },
     { k: "Strong", v: "Bolt" }
@@ -73,14 +77,16 @@ Fill in the gaps below to transform the document into an array and output the co
 ```javascript
 // document:
 {
- _id: 1,
- name: "Pikachu",
- type: "Electric",
- power: 501,
- spells: {
-   Basic: "Lightning",
-   Strong: "Bolt"
- }
+  "_id": ObjectId(
+      "5d9d8c330b24990f19398214"
+      ),
+  name: "Pikachu",
+  type: "Electric",
+  power: 501,
+  spells: {
+    Basic: "Lightning",
+    Strong: "Bolt"
+  }
 }
 
 // aggregation
