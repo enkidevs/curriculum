@@ -42,28 +42,36 @@ Output:
 
 ```javascript
 {
-  "_id": 2,
+  "_id" : ObjectId(
+      "5d9d8a6a0b24990f19398209"
+      ),
   "name": "Bulbasaur",
   "type": "Grass",
   "secondType": "Poison",
   "power": 311
 }
 {
-  "_id": 7,
+   "_id": ObjectId(
+       "5d9d8b550b24990f1939820d"
+       ),
   "name": "Ivisaur:",
   "type": "Grass",
   "secondType": "Poison",
   "power": 335
 }
 {
-  "_id": 73,
+  "_id": ObjectId(
+      "5d9d8ce90b24990f19398219"
+      ),
   "name": "Tentacruel",
   "type": "Water",
   "secondType": "Poison",
   "power": 333
 }
 {
-  "_id": 146,
+  "_id": ObjectId(
+      "5d9d8e640b24990f19398222"
+      ),
   "name": "Moltres",
   "type": "Fire",
   "secondType": "Flying",
@@ -95,14 +103,18 @@ Output:
 ```javascript
 // ...
 {
-  "_id": 146,
+  "_id": ObjectId(
+      "5d9d8e640b24990f19398222"
+      ),
   "name": "Moltres",
   "type": "Fire",
   "secondType": "Flying",
   "power": 404
 }
 {
-  "_id": 151,
+  "_id": ObjectId(
+      "5d9d8e9a0b24990f19398224"
+      ),
   "name": "Mew",
   "type": "Psychic",
   "age": 1,
