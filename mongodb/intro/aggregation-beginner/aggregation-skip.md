@@ -39,13 +39,17 @@ db.pokemon.aggregate({ $skip: 8 })
 Output:
 ```javascript
 {
-  "_id": 9,
+  "_id": ObjectId(
+      "5d9d8bde0b24990f19398212"
+      ),
   "name": "Blastoise",
   "type": "Water",
   "power": 667
 },
 {
-  "_id": 10,
+  "_id": ObjectId(
+      "5d9d8bf80b24990f19398213"
+      ),
   "name": "Caterpie",
   "type": "Bug",
   "power": 120
@@ -63,7 +67,9 @@ db.pokemon.aggregate([
 Output:
 ```javascript
 {
-  "_id": 9,
+  "_id": ObjectId(
+      "5d9d8bde0b24990f19398212"
+      ),
   "name": "Blastoise",
   "type": "Water",
   "power": 667
