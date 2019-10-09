@@ -35,25 +35,33 @@ Output:
 
 ```javascript
 {
-  "_id": 2,
+  "_id" : ObjectId(
+      "5d9d8a6a0b24990f19398209"
+      ),
   "name": "Bulbasaur",
   "type": "Grass"
   "secondaryType": "Poison"
 }
 {
-   "_id": 7,
+   "_id": ObjectId(
+       "5d9d8b550b24990f1939820d"
+       ),
   "name": "Ivysaur",
   "type": "Grass"
   "secondaryType": "Poison"
 }
 {
-  "_id": 8,
+  "_id": ObjectId(
+      "5d9d8b6c0b24990f1939820e"
+      ),
   "name": "Venusaur",
   "type": "Grass"
   "secondaryType": "Poison"
 }
 {
-  "_id": 333,
+  "_id": ObjectId(
+      "5d9d8ec00b24990f19398226"
+      ),
   "name": "Snorlax",
   "type": "Grass"
   "secondaryType": "Normal"
@@ -74,19 +82,25 @@ Output:
 
 ```javascript
 {
-  "_id": 156,
+  "_id": ObjectId(
+      "5d9d926c0b24990f19398228"
+      ),
   "name": "Kangaskhan",
-  "type": "Grass"
+  "type": "Grass",
   "secondaryType": "Normal"
 },
 {
-  "_id": 199,
+  "_id": ObjectId(
+      "5d9d92910b24990f19398229"
+      ),
   "name": "Chikorita",
-  "type": "Grass"
+  "type": "Grass",
   "secondaryType": "Normal"
 },
 {
-  "_id": 333,
+  "_id": ObjectId(
+      "5d9d8ec00b24990f19398226"
+      ),
   "name": "Snorlax",
   "type": "Grass"
   "secondaryType": "Normal"
@@ -128,22 +142,30 @@ Output is the same for both examples:
 
 ```javascript
 {
-  "_id": 1,
+  "_id": ObjectId(
+      "5d9d8c330b24990f19398214"
+      ),
   "name": "Pikachu",
   "type": "Electric"
 }
 {
-  "_id": 2,
+  "_id" : ObjectId(
+      "5d9d8a6a0b24990f19398209"
+      ),
   "name": "Bulbasaur",
   "type": "Grass"
 }
 {
-  "_id": 26,
+  "_id": ObjectId(
+      "5d9d8c3f0b24990f19398215"
+      ),
   "name": "Raichu",
   "type": "Electric"
 }
 {
-   "_id": 7,
+   "_id": ObjectId(
+       "5d9d8b550b24990f1939820d"
+       ),
   "name": "Ivisaur:",
   "type": "Grass"
 }
