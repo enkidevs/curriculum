@@ -69,6 +69,8 @@ For example, when talking about moving from end to end within an array, it makes
 
 For comparison, visiting every node in a linked list is also a linear operation (`O(n)`). Inserting, however, does not depend on the size of the list, but on the number of the immediate neighbors, which is a constant relative to the size[2]. Therefore, the insertion operation is bounded by the constant function, `O(1)`.
 
+NOTE:In a singly linked list, adding after a node is a O(1) operation however adding before a node is a O(n) operation.
+
 ---
 ## Practice
 
