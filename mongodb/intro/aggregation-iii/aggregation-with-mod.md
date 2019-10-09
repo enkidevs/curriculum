@@ -47,8 +47,16 @@ db.pokemon.aggregate([
 ```
 Output:
 ```javascript
-{ "_id": 1, "spellsToCast" : 18.2332 }
-{ "_id": 2, "spellsToCast" : 26.4}
+{   "_id": ObjectId(
+      "5d9d8c330b24990f19398214"
+      ),
+    "spellsToCast" : 18.2332 
+}
+{   "_id": ObjectId(
+      "5d9d8c3f0b24990f19398215"
+      ), 
+    "spellsToCast" : 26.4
+}
 ```
 
 In the example above, we used the `$mod` to calculate how many spells each pokemon has to cast to evolve into a better version of itself.
