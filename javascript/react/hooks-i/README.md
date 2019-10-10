@@ -6,3 +6,5 @@ insights:
   - custom-hooks
   - using-custom-hooks
   - state-variables
+  - dependency-array
+  - effects-with-cleanup
