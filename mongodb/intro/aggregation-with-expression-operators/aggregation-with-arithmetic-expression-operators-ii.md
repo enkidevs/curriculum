@@ -12,7 +12,9 @@ type: normal
 category: how to
 
 ---
+
 # Aggregation With Arithmetic Expression Operators 2
+
 ---
 ## Content
 
@@ -40,7 +42,7 @@ Let's say we have a `pokemon` collection where each pokémon has a base `power` 
 Example documents:
 ```javascript
 { 
-  "Name": "Pikatchu",
+  "Name": "Pikachu",
   "Power": 823,
   "Age": 13
 },
