@@ -13,7 +13,7 @@ category: how to
 
 ---
 
-# Aggregation With Arithmetic Expression Operators 2
+# Aggregation With Arithmetic Expression Operators II
 
 ---
 ## Content
