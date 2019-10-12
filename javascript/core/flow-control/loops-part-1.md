@@ -60,7 +60,7 @@ Note that the loop will never run if the expression is never true:
 
 ```javascript
 // 0 to 9
-var i = 10;
+var i = 0;
 
 while (i < 10) {
   console.log(i)
@@ -73,7 +73,8 @@ while (i < 10) {
 *do while* loops are similar to while loops but have the important difference that they will always run at least once before the condition is checked:
 
 ```javascript
-var i = 10;
+//5 to 10
+var i = 5;
 
 do {
   console.log(i);
