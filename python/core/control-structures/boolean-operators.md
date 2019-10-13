@@ -38,12 +38,14 @@ str = 'boolean'
 
 if str == 'boolean' and num == 1:
     print('Success!')
+#print "Success!"
 ```
 The `or` operator:
 
 ```python
 if str == 'boolean' or num > 2:
     print('Success!')
+#print "Success!"
 ```
 
 ---
