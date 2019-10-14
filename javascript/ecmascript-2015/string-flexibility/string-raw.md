@@ -56,7 +56,7 @@ The above code is the equivalent of calling:
 String.raw`e${0}n${1}k${2}i`
 ```
 
-Note that although calling `String.raw` as a function is possible, it is not done often.
+Note that although calling `String.raw` as a function is possible, it is the less common pattern. `String.raw` is a tag function that is predominantly used with template strings so template-string syntax is usually preferred.
 
 ---
 ## Practice
