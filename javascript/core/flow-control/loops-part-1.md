@@ -54,16 +54,29 @@ for (var i = 9; i >-1; i--) {
 
 **while Loops**
 
-The *while* loop continues to run as long as the expression in brackets is true.
+The *while* loop continues to run as long as the expression in brackets is true:
 
-Note that the loop will never run if the expression is never true:
-
-```javascript
+```js
 // 0 to 9
 var i = 0;
 
 while (i < 10) {
-  console.log(i)
+  console.log(i);
+  i++;
+}
+```
+
+**Note:** the loop will never run if the expression is never true:
+
+```javascript
+// 0 to 9
+var i = 10;
+
+// this loop will never run because i = 0
+// and thus the condition i < 10 means
+// 10 < 10, which is never true
+while (i < 10) {
+  console.log(i);
   i++;
 }
 ```
@@ -73,7 +86,7 @@ while (i < 10) {
 *do while* loops are similar to while loops but have the important difference that they will always run at least once before the condition is checked:
 
 ```javascript
-//5 to 10
+// 5 to 10
 var i = 5;
 
 do {
