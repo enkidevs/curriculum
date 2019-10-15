@@ -72,7 +72,7 @@ while (i < 10) {
 // 0 to 9
 var i = 10;
 
-// this loop will never run because i = 0
+// this loop will never run because i = 10
 // and thus the condition i < 10 means
 // 10 < 10, which is never true
 while (i < 10) {
