@@ -100,7 +100,7 @@ Output:
 ---
 ## Practice
 
-How would you change the `name` of a pokemon with `"_id": 38` to "Tyranitar"?
+How would you change the `name` of a pokemon from "Tyran" to "Tyranitar"?
 
 ```js
 db.pokemon.???(
@@ -109,14 +109,14 @@ db.pokemon.???(
 );
 ```
 
-* `updateOne()`
-* `_id`
-* `38`
+* `updateOne`
+* `name`
+* `"Tyran"`
 * `$set`
 * `$update`
-* `"_id"`
-* `"38"`
-* `updateSingle()`
+* `Name`
+* `$change`
+* `updateSingle`
 
 ---
 ## Revision

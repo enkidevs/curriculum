@@ -92,7 +92,7 @@ db.pokemon.???(
 );
 ```
 
-* `updateMany()`
+* `updateMany`
 * `type`
 * `$set`
 * `"Normal"`
