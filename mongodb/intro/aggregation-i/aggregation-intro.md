@@ -15,7 +15,7 @@ category: must-know
 
 ---
 
-# What Is Aggregation
+# What Is Aggregation?
 
 ---
 ## Content
