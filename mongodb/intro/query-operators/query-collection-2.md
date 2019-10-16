@@ -16,7 +16,7 @@ links:
   - '[official-documentation](https://docs.mongodb.com/manual/reference/operator/query-comparison/){documentation}'
 ---
 
-# Querying a collection using ranges
+# Querying a Collection Using Ranges
 
 ---
 ## Content

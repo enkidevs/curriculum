@@ -14,28 +14,23 @@ category: how to
 
 ---
 
-# Querying a collection using $and
+# Querying a Collection Using Ranges 2
 
 ---
 ## Content
 
-In the previous insight, we discussed how to query using the `$lt`, `$gt`, `$lte` and `$gte` operators.
+We are are going to discuss how to define a range between two values using a combination of the 4 previously explained operators.
 
-Now, we are going to discuss how to define a range between two values using a combination of the 4 previously explained operators together with the `$and` logical operator.
+Let's say we want to find all the pokémon whose `power` ranges between 250 and 350. Initially, you would be tempted to write this:
 
-The `$and` logical operator is used to join two or more expressions together to query data more precisely. When we query with the `$and` operator, no matter the number of expressions located inside, all expressions have to evaluate to true.
-
-Let's say we want to find all the pokémon whose `power` ranges between 250 and 350. For this, we would need to use 2 or more of the above operators together with the `$and` operator. If we would use them without `$and` it would not give a range between the two values, but rather all values lower than and greater than the specified ones.
-
-Example without `$and`:
 ```javascript
 db.pokemon.find({
   power: { $gt: 250 },
-  power: { $lt: 450 }
+  power: { $lt: 350 }
 })
 ```
 
-Output:
+Which will output the following:
 ```javascript
 {
   "_id": ObjectId(
@@ -62,28 +57,17 @@ Output:
   "power": 199
 }
 // ...
-{
-  "_id": ObjectId(
-    "5d9d8e800b24990f19398223"
-  ),
-  "name": "Mewtoo",
-  "type": "Psychic",
-  "power": 800
-}
-// ...
 ```
-In the example above, the document with `"_id": 1` doesn't satisfy the first expression, but it does satisfy the second, therefore it gets displayed. The same goes for all the other documents, they first one of the conditions, but not both.
 
-On the other hand, this query that uses the `$and` operator:
-```javascript
+Notice how all the results have their `power` lower than 350 but some of the results do not have their `power` greater than 250. This is because we are overwriting the `power: { $gt: 250 }` query with the `power: { $lt: 350 }` query. The correct way of writing is:
+
+```mjs
 db.pokemon.find({
-  $and: [
-    { power: { $gt: 250 } },
-    { power: { $lt: 350 } }
-  ]
-})
+  power: {$gt: 250, $lt: 350}
+});
 ```
-Would only display pokémon(documents) within the specified range.
+
+Now, we are displaying the pokémon (documents) within the specified range.
 
 Output of the above example:
 ```javascript
@@ -115,42 +99,45 @@ Output of the above example:
 // ...
 ```
 
-**Note**: The order of the operators does not matter (`$lt`, `$lte`, `$gt` and `$gte`). This means the two examples below would give the exact same output.
+**Note**: The order of the operators does not matter (`$lt`, `$lte`, `$gt` and `$gte`). This means the two examples below would give the exact same output:
 
 ```javascript
 // Example 1:
 db.pokemon.find({
-  $and: [
-    { power: { $gte: 250 } },
-    { power: { $lte: 350 } }
-  ]
-})
+  { power: { $gte: 250, $lte: 350 } }
+});
 
 // Example 2:
 db.pokemon.find({
-  $and: [
-    { power: { $lte: 350 } },
-    { power: { $gte: 250 } }
-  ]
-})
+  { power: { $lte: 350, $gte: 250 } }
+});
 ```
 
 ---
 ## Practice
 
-Finish the sentence:
+Which of the following represents the correct way of selecting documents that fit withing a defined range:
 
-`$and` is ???
-
-* a logical operator that evaluates one or more expressions and returns `true` if all are correct and `false` if not
-* a logical operator used together with 2 or more logical operators to display documents between two or four values
-* a comparison operator used to compare 2 or more logical operators
-* a comparison operators used together with 2 or more logical operators to display databases ordered in the specified order
+```js
+// A
+db.collection.find({
+  field: {$lt: 100},
+  field: {$gt: 1}
+});
+// B
+db.collection.find({
+  field: {$lt: 100, $gt: 1}
+});
+// C
+db.collection.find({
+  field: { {$lt: 100}, {$gt: 1} }
+});
+```
 
 ---
 ## Revision
 
-Create a query to find all documents within the `pokemon` collection whose `age` falls in the range 23-31, including the bounds.
+Create a query to find all documents within the `pokemon` collection whose `age` falls in the range 23-31 (including the bounds).
 
 ```javascript
 db.pokemon.???({

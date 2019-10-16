@@ -14,7 +14,7 @@ category: how to
 
 ---
 
-# Querying a collection
+# Querying a Collection
 
 ---
 ## Content

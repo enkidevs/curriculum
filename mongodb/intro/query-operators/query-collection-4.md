@@ -14,7 +14,7 @@ category: how to
 
 ---
 
-# Querying a collection using $ne, $eq, and $nin
+# Querying a Collection Using $ne, $eq, and $nin
 
 ---
 ## Content
