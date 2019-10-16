@@ -19,7 +19,7 @@ category: must-know
 ---
 ## Content
 
-To delete a document in MongoDB you can use either the  `deleteOne()`, `remove()` or `deleteMany()` method.
+To delete a document in MongoDB you can use either the  `deleteOne()` or `deleteMany()` method.
 
 ### Delete a Single Document
 
