@@ -1,6 +1,6 @@
 name: CRUD Intro
 
-description: Learn what the ObjectId is and how to create, read, update and delete documents and collections.
+description: Learn how to create, read, update and delete documents and collections.
 
 insights:
   - create-collection
