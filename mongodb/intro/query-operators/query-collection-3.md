@@ -61,7 +61,7 @@ Which will output the following:
 
 Notice how all the results have their `power` lower than 350 but some of the results do not have their `power` greater than 250. This is because we are overwriting the `power: { $gt: 250 }` query with the `power: { $lt: 350 }` query. The correct way of writing is:
 
-```mjs
+```js
 db.pokemon.find({
   power: {$gt: 250, $lt: 350}
 });
