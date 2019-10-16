@@ -4,10 +4,9 @@ description: Learn what the ObjectId is and how to create, read, update and dele
 
 insights:
   - create-collection
-  - delete-collection
   - create-document
   - read-documents
   - update-single-document
   - update-multiple-documents
+  - delete-collection
   - delete-documents
-  - objectid-intro

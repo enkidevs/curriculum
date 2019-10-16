@@ -27,7 +27,7 @@ Let's say we want to find all the pokémon whose `power` ranges between 250 and 
 db.pokemon.find({
   power: { $gt: 250 },
   power: { $lt: 350 }
-})
+});
 ```
 
 Which will output the following:
