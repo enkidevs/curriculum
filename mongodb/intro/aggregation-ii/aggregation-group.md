@@ -13,7 +13,7 @@ category: must-know
 
 ---
 
-# Aggregation group
+# Aggregation $group
 
 ---
 ## Content

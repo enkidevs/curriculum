@@ -14,7 +14,7 @@ category: how to
 
 ---
 
-# Aggregation group 2
+# Aggregation $group 2
 
 ---
 ## Content

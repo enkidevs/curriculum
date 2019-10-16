@@ -16,7 +16,7 @@ category: how to
 
 ---
 
-# Aggregation project 2
+# Aggregation $project 2
 
 ---
 ## Content
