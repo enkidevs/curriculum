@@ -21,7 +21,7 @@ category: how to
 
 To perform queries means to search through a database or collection and return a result matching a specified condition.
 
-In MongoDB, there is a group of *query operators* that can be used to specify different conditions for your queries.
+In MongoDB, we have *query operators* that can be used to specify different conditions for your queries.
 
 For instance, let's say we have a `pokemon` collection with more than 200 pokémon documents. We know that each pokémon has an `_id`, `type`, `name` and `secondaryType` field, and we want to display all the pokémon that have the type `Grass`. We can do that like so:
 
@@ -110,7 +110,7 @@ Output:
 
 The above search displays only the documents that have a type `Grass` and secondaryType `Normal`.
 
-Let's say that now we want to display all documents that have a type `Grass` or `Electric`. We can do so by using the `$or` logical operator, or the `$in` comparison operator.
+Let's say we want to get all documents with their type equal to either `Grass` **or** `Electric`. We can do so by using the `$or` logical operator, or the `$in` comparison operator.
 
 - `$or` is a logical operator used to match one or more values from at least two expressions.
 - `$in` is a comparison operator used to match any values specified inside the given array like `$in: []`.

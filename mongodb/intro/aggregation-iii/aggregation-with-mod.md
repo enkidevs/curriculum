@@ -51,13 +51,13 @@ Output:
   "_id": ObjectId(
     "5d9d8c330b24990f19398214"
   ),
-  "spellsToCast" : 18.2332 
+  "spellsToCast" : 18
 }
 {   
   "_id": ObjectId(
     "5d9d8c3f0b24990f19398215"
   ), 
-  "spellsToCast" : 26.4
+  "spellsToCast" : 26
 }
 ```
 

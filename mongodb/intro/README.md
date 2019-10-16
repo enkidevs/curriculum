@@ -10,7 +10,7 @@ sections:
     - databases
     - crud-intro
   '1':
-    - crud-i
+    - query-operators
     - aggregation-i
     - aggregation-ii
   '2':

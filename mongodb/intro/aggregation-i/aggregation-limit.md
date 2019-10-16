@@ -14,7 +14,7 @@ category: how to
 
 ---
 
-# Aggregation limit
+# Aggregation $limit
 
 ---
 ## Content

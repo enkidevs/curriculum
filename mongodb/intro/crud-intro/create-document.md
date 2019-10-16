@@ -107,7 +107,7 @@ db.pokemon.???([
     type: "Fire"
   },
   {
-    _id: ???,
+    _id: 4,
     name: "Squirtle",
     ???: "Water"
   }
@@ -117,7 +117,6 @@ db.pokemon.???([
 * `insertMany`
 * `_id`
 * `name`
-* `4`
 * `type`
 * `insertOne`
 * `1`

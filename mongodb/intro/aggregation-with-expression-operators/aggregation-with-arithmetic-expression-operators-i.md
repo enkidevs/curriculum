@@ -20,7 +20,7 @@ category: how to
 ---
 ## Content
 
-There are a number of Arithmetic Expressions operators used in aggregation. 
+There are a number of arithmetic expressions operators used in aggregation. 
 
 These operators are used for mathematical calculations of numbers.
 
@@ -216,9 +216,9 @@ True or False:
 
 When adding or subtracting expressions it is not possible to add a literal as an expression: ???
 
-* is an Arithmetic operator used to add two or more expressions any number of expressions with a minimum of 2.
-* is an Arithmetic operator used to subtract the 2nd expression from the first. (exactly 2 expressions can be used)
-* False
-* True
-* is an Arithmetic operator used to add exactly 2 expressions.
-* is an Arithmetic operator used to subtract any number of expressions
+* is an arithmetic operator used to add two or more expressions, with a minimum of 2.
+* is an arithmetic operator used to subtract the second expression from the first (only 2 expressions can be used).
+* False.
+* True.
+* is an arithmetic operator used to add exactly 2 expressions.
+* is an arithmetic operator used to subtract any number of expressions.

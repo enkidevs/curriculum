@@ -14,7 +14,7 @@ category: how to
 
 ---
 
-# Aggregation count
+# Aggregation $count
 
 ---
 ## Content

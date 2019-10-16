@@ -15,7 +15,7 @@ category: feature
 
 ---
 
-# Aggregation With Object Expression operators II
+# Aggregation With Object Expression Operators II
 
 ---
 ## Content

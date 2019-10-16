@@ -118,7 +118,7 @@ Output:
 ---
 ## Practice
 
-Fill in the missing code to group all documents in the `pokemon` collection by their `type`, and find the min and max power level of each type and output them in fields called `minPower` and `maxPower`.
+Fill in the missing code to group all documents in the `pokemon` collection by their `type`, and find the min and max power level of each type and output them in fields called `lowestPower` and `highestPower`.
 
 ```javascript
 db.pokemon.aggregate([

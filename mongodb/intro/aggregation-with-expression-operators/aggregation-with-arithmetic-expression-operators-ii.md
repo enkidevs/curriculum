@@ -148,15 +148,15 @@ Match the explanation with the operator.
 `$multiply` - ???
 `$divide` - ???
 
-* is an Arithmetic operator used to multiply any number of expressions with a minimum of 2.
-* is an Arithmetic operator used to divide the 2nd expression to the first (exactly 2 expressions can be used).
-* is an Arithmetic operator used to multiply exactly 2 expressions.
-* is an Arithmetic operator used to divide any number of expressions.
+* is an arithmetic operator used to multiply any number of expressions with a minimum of 2.
+* is an arithmetic operator used to divide the 2nd expression to the first (exactly 2 expressions can be used).
+* is an arithmetic operator used to multiply exactly 2 expressions.
+* is an arithmetic operator used to divide any number of expressions.
 
 ---
 ## Revision
 
-Which of these are not valid Arithmetic Expression Operators?
+Which of these are not valid arithmetic Expression Operators?
 
 ???
 

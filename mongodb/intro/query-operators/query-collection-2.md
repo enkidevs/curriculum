@@ -23,8 +23,7 @@ links:
 
 Last insight we learned how to query documents and use the `$in` and `$or` operators.
 
-Now, we will learn how to use the `$lt`, `$lte`, `$gt` or `$gte` comparison operators to find documents more precisely.
-
+While in the previous insight we learned about the `$or` and `$in` operators which help us query categorical data, in this insight we introduce operators that help us query discrete data by specifying value ranges[1]. These operators are:
 - `$lt` means less than the specified value (`<` is the mathematical counterpart)
 - `$lte` means less than or equal to the specified value (`<=` is the mathematical counterpart)
 - `$gt` means greater than the specified value (`>` is the mathematical counterpart)
@@ -158,3 +157,9 @@ db.pokemon.???({
 * `$lt`
 * `$gt`
 * `%and`
+
+---
+## Footnotes
+
+[1:Categorical and discrete data]
+By categorical data we mean variables that represent a characteristic, and that might not have a logical order. By discrete data we mean variables that are countable, and that can be bounded by a range of values.

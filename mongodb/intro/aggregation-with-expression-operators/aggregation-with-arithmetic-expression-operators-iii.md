@@ -20,8 +20,6 @@ category: feature
 ---
 ## Content
 
-In the previous insights, we learned how to aggregate using the `$add`, `$subtract`, `$divide` and `$multiply` operators. Now, we are going to discuss the `$trunc` and `$round` operators.
-
 `$trunc` - Used to truncate an expression to a whole number or the desired decimal place.
 `$round` - Used to round an expression to a whole number or the desired decimal place.
 
@@ -54,7 +52,7 @@ Output documents from previous insight:
 }
 ```
 
-Now, let's say we have saved these `key: value` pairs with the `.insert()` method. We want to truncate them to a value with fewer decimal points.
+Now, let's say we have saved these `key: value` pairs with the `.insert()` method. We want to truncate them to a value with fewer decimals.
 
 Example:
 ```javascript
@@ -84,7 +82,7 @@ Output:
   "truncatedPower": 63.3
 }
 ```
-**Note:** The `,1` in `$trunc: ["$initialPower", 1]` means that the value will be truncate to 1 decimal point.
+**Note:** The `,1` in `$trunc: ["$initialPower", 1]` represents the decimal place and it means that the value will be truncate to 1 decimal point.
 
 If we wanted to truncate without any decimal points, we would write it as `$trunc: ["$initialPower"]`  or `$trunc: ["$initialPower", 0]`.
 
@@ -106,18 +104,6 @@ Output:
 
 Similarly, if we wanted to truncate to any different decimal point, we would just add the corresponding number in the aggregation.
 
-**Note:** The `$trunc` operator works on both positive and negative numbers.
-
-Example output if we had `-50.80769230769231` as a value:
-```javascript
-{   
-  "_id": ObjectId(
-    "5d9d8c3f0b24990f19398215"
-  ),
-  "truncatedPower": -50.8
-}
-```
-
 ### $round
 
 The syntax for `$round` is the same as for `$trunc`. 
@@ -132,7 +118,7 @@ Syntax:
   ] 
 }
 ```
-They operate the same way, except that `$round` is used to round the number up or down to the desired decimal point, whereas `$trunc` is only used to truncate the value.
+They operate similarly, but `$round` is used to round the number up or down to the desired decimal point.
 
 Let's use the same document as above:
 ```javascript
@@ -200,16 +186,13 @@ Example with `$round: ["$initialPower", 2]`:
 }
 ```
 
-**Note:** Just like the `$trunc` operator, the `$round` operator also works on both positive and negative numbers.
-
 ### $round and $trunc
 
-Both the `$round` and `$trunc` operators can take negative numbers as input.
-
-Using the same document as above, we will truncate with a negative number.
+In the previous examples, we have used a positive integer when truncating or rounding: `$trunc: ["field", 1]`. Using the same documents as above, we will now truncate using a negative number `$trunc: ["field", -1]`. In this case, instead of truncating to the right of the decimal, we are truncating to the left of the decimal.
 
 Example with negative input:
 ```javascript
+// Aggregation
 db.pokemon.aggregate([
   {
     $project: {
@@ -219,45 +202,29 @@ db.pokemon.aggregate([
     }
   }
 ]);
-```
 
-```javascript
 // Numbers used for input
-63.30769230769231 
-50.80769230769231 
+638.30769230769231 
+519.80769230769231 
 
-// Previous output
+// Output
 {   
   "_id": ObjectId(
     "5d9d8c3f0b24990f19398215"
   ),
-  "truncatedPower": 50
+  "truncatedPower": 510
 }
 {  
   "_id": ObjectId(
     "5d9d8c330b24990f19398214"
   ), 
-  "truncatedPower": 63
-}
-
-// Output with a negative input
-{   
-  "_id": ObjectId(
-    "5d9d8c3f0b24990f19398215"
-  ),
-  "truncatedPower": 50
-}
-{  
-  "_id": ObjectId(
-    "5d9d8c330b24990f19398214"
-  ), 
-  "truncatedPower": 60
+  "truncatedPower": 630
 }
 ```
 
-As you can see in the example above, the value is truncated starting from the left of the decimal, as opposed to starting from the right when the input is positive.
+As you can see in the example above, the value is truncated to the left of the decimal. Because we are truncating to `-1`, we are replacing digits (starting from the decimal point and going to the left) with `0`s. If we would've used `-2` as our decimal place, the results would be `500` and `600`.
 
-If the input was equal or exceeded the digit count of our inputted value, the resulting number would be 0.
+If we used `-3` as our decimal place (which is equal to the number of digits to the left of the decimal), the results would be `0` for both documents.
 
 **Note:** The negative input works the same for both `$trunc` and `$round`.
 
@@ -269,10 +236,10 @@ Match the explanation with the operator.
 `$round` - ???
 `$trunc` - ???
 
-* is an Arithmetic operator used to round a positive or negative number up or down to the desired decimal point.
-* is an Arithmetic operator used to truncate a positive or negative number to the desired decimal point.
-* is an Arithmetic operator only used for rounding positive integers. 
-* is an Arithmetic operator only used to truncate a positive integer.
+* is an arithmetic operator used to round a positive or negative number up or down to the desired decimal point.
+* is an arithmetic operator used to truncate a positive or negative number to the desired decimal point.
+* is an arithmetic operator only used for rounding positive integers. 
+* is an arithmetic operator only used to truncate a positive integer.
 
 ---
 ## Revision
