@@ -18,7 +18,7 @@ category: must-know
 ---
 ## Content
 
-In the previous insights, we used manually inputted `_id`'s when creating new documents. However, since `_id`'s have to be unique for each document, this is not very useful. When working with a large number of documents, you would have to ensure that every new `_id` is unique, and you can imagine how this can get tedious very fast.
+In the previous workouts, we used manually inputted `_id`s when creating new documents. However, since `_id`s have to be unique for each document, this is not very useful. When working with a large number of documents, you would have to ensure that every new `_id` is unique, and you can imagine how this can get tedious very fast.
 
 Fortunately, MongoDB offers a solution for this problem: auto-generated `ObjectId`s. When creating a document, if you omit the `_id` field, MongoDB will automatically create a unique `_id` for you.
 
@@ -35,51 +35,41 @@ Here is an example of an `ObjectId` value:
 x = ObjectId("507f1f77bcf86cd799439011");
 ```
 
-### Why ObjectId's are better than manually inputted `_id`s
+### Why are `ObjectId`s better than manually inputted `_id`s?
 
-Let's say we have 2 databases where we add each new employee from the day they start working.
-
-One database has manually inputted id's while the other has auto-generated `ObjectId`'s.
-
-Both of these have the same documents and field-value pairs (except the `_id`). The fields are `_id`, `name` and `position`.
+To understand why `ObjectId`s are better, let's start off by taking a look at an example document:
 
 Example documents:
 ```javascript
-// 1.
 { 
-"_id": ObjectId("5d9b400f6fc68ecf1965c726"),
-"name": "Mark",
-"position": "developer"
+  "_id": ObjectId(
+    "5d9b400f6fc68ecf1965c726"
+  ),
+  "name": "Mark",
+  "position": "developer"
 }
-// 2.
-{ 
-"_id": 100,
-"name": "Mark",
-"position": "developer"
-}
-
 ```
-Looking at the 2nd document, we know *Mark* is the 100th employee, we know his position and we know his name.
 
-However, looking at the first document, we can use the `ObjectId` to find the exact time Mark started to work at our company.
+Besides being auto-generated and maintained by Mongo, `ObjectId`s also contain the creation date of a document. Looking at the example above, we can use the ObjectId to find the exact time Mark started to work at the company.
 
-To do so, we need to use the `.getTimestamp()` method after the `ObjectId` in our MongoDB shell and the output will give us the exact time Mark was employed in an `ISODate` format.
+To do so, we need to use the `getTimestamp()` method after the `ObjectId` in our MongoDB shell and the output will give us the exact time Mark was employed in an `ISODate` format.
 
 ```javascript
 ObjectId(
   "5d9b400f6fc68ecf1965c726"
 ).getTimestamp();
 ```
+
 Output:
 ```javascript
 ISODate("2019-10-07T13:39:27Z")
 ```
 
-When looking at databases with millions of documents, these dates can help us narrow our searches. Also, when searching for documents with `ObjectId`'s, we can sort the documents by those id's and essentially have a chronological order of documents based on the time they were generated.
+When looking at databases with millions of documents, these dates can help us narrow our searches. Also, when searching for documents with `ObjectId`s, we can sort the documents by those ids and essentially have a chronological order of documents based on the time they were generated.
 
-There are more methods and uses for `ObjectId`'s that we will cover later on.
+There are more methods and uses for `ObjectId`s that we will cover later on.
 
-**Important note:** Even though it is best practice to use `ObjectId`'s instead of manually inputted ones, we will still use some manually inputted id's in our examples for easier readability and explanation of certain functions.
+**Important note:** Even though it is best practice to use `ObjectId`s instead of manually inputted ones, we will still use some manually inputted ids in our examples for easier readability and explanation of certain functions.
 
 ---
 ## Practice
@@ -92,5 +82,5 @@ What is an `ObjectId`?
 
 * omit the `_id` field and let MongoDB create a unique `ObjectID`
 * An `ObjectId` is a 12-byte BSON type value that stores unique information about the document it was generated for.
-* An `ObjectId` is an object used to hold all the id's.
+* An `ObjectId` is an object used to hold all the ids.
 * add a manually inputted value for the `_id` field that you can easily remember for later use

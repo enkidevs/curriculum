@@ -7,4 +7,5 @@ insights:
   - aggregation-count
   - aggregation-limit
   - aggregation-skip
+  - aggregation-4-stages
   - aggregation-sort

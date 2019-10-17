@@ -4,6 +4,7 @@ description: Learn how to create, read, update and delete collections and docume
 
 insights:
   - querying-a-collection-5
+  - querying-a-collection-6
   - delete-documents-2
   - save-method
   - projection

@@ -21,7 +21,7 @@ category: best practice
 
 To retrieve a single, multiple or all documents from a specific collection in MongoDB, we can use the `db.collection_name.find()` method.
 
-When using the `.find()` method, all documents matching the specified criteria are displayed along with all of their fields.
+When using the `find()` method, all documents matching the specified criteria are displayed along with all of their fields.
 
 Example:
 ```javascript
@@ -136,7 +136,7 @@ What is *projection* used for?
 ---
 ## Revision
 
-Fill in the missing code below to only project(display) the `name` field for all documents whose `type` is `Water`.
+Fill in the missing code below to only project(display) the `name` field for all documents whose `type` is `"Water"`.
 
 ```javascript
 db.pokemon.find(

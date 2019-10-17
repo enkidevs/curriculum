@@ -23,7 +23,7 @@ To perform queries means to search through a database or collection and return a
 
 In MongoDB, we have *query operators* that can be used to specify different conditions for your queries.
 
-For instance, let's say we have a `pokemon` collection with more than 200 pokémon documents. We know that each pokémon has an `_id`, `type`, `name` and `secondaryType` field, and we want to display all the pokémon that have the type `Grass`. We can do that like so:
+For instance, let's say we have a `pokemon` collection with more than 200 pokémon documents. We know that each pokémon has an `_id`, `type`, `name` and `secondType` field, and we want to display all the pokémon that have the type `"Grass"`. We can do that like so:
 
 ```javascript
 db.pokemon.find({
@@ -40,7 +40,7 @@ Output:
   ),
   "name": "Bulbasaur",
   "type": "Grass",
-  "secondaryType": "Poison"
+  "secondType": "Poison"
 }
 {
    "_id": ObjectId(
@@ -48,7 +48,7 @@ Output:
     ),
   "name": "Ivysaur",
   "type": "Grass",
-  "secondaryType": "Poison"
+  "secondType": "Poison"
 }
 {
   "_id": ObjectId(
@@ -56,7 +56,7 @@ Output:
   ),
   "name": "Venusaur",
   "type": "Grass",
-  "secondaryType": "Poison"
+  "secondType": "Poison"
 }
 {
   "_id": ObjectId(
@@ -64,17 +64,17 @@ Output:
   ),
   "name": "Snorlax",
   "type": "Grass",
-  "secondaryType": "Normal"
+  "secondType": "Normal"
 }
 // ...
 ```
 
-If we wanted to display all the pokémon of type `Grass` whose `secondType` equals `Normal`, we would do:
+If we wanted to display all the pokémon of type `"Grass"` whose `secondType` equals `"Normal"`, we would do:
 
 ```javascript
 db.pokemon.find({
   type: "Grass",
-  secondaryType: "Normal"
+  secondType: "Normal"
 });
 ```
 
@@ -87,7 +87,7 @@ Output:
   ),
   "name": "Kangaskhan",
   "type": "Grass",
-  "secondaryType": "Normal"
+  "secondType": "Normal"
 },
 {
   "_id": ObjectId(
@@ -95,7 +95,7 @@ Output:
   ),
   "name": "Chikorita",
   "type": "Grass",
-  "secondaryType": "Normal"
+  "secondType": "Normal"
 },
 {
   "_id": ObjectId(
@@ -103,19 +103,19 @@ Output:
   ),
   "name": "Snorlax",
   "type": "Grass"
-  "secondaryType": "Normal"
+  "secondType": "Normal"
 }
 // ...
 ```
 
-The above search displays only the documents that have a type `Grass` and secondaryType `Normal`.
+The above search returns only the documents that have `type` equal to `"Grass"` and `secondType` equal to `"Normal"`.
 
-Let's say we want to get all documents with their type equal to either `Grass` **or** `Electric`. We can do so by using the `$or` logical operator, or the `$in` comparison operator.
+Let's say we want to get all documents with their type equal to either `"Grass"` **or** `"Electric"`. We can do so by using the `$or` logical operator, or the `$in` comparison operator.
 
 - `$or` is a logical operator used to match one or more values from at least two expressions.
 - `$in` is a comparison operator used to match any values specified inside the given array like `$in: []`.
 
-In our case, since we are looking at different types, the `$in` operator is more suited. Nevertheless, here are both examples:
+In our case, since we’re looking at different values for the same field (the `type` field), the `$in` operator is better suited since it is less verbose.. Nevertheless, here are both examples:
 
 Using the `$or` operator:
 
@@ -177,7 +177,7 @@ Next to the `$or` and `$in` operators, there are a number of different operators
 ---
 ## Practice
 
-Find all the documents (pokémon) within the `pokemon` collection that have a `type` that's either `Water` or `Fire`.
+Find all the documents (pokémon) within the `pokemon` collection that have a `type` that's either `"Water"` or `"Fire"`.
 
 ```javascript
 db.pokemon.???({
@@ -192,11 +192,12 @@ db.pokemon.???({
 * `["Water", "Fire"]`
 * `[{ type: "Water" }, { type: "Fire" }]`
 * `search`
+* `$or`
 
 ---
 ## Revision
 
-Find all the documents within the `pokemon` collection that have a `type` that's either `Water` or `Fire`.
+Find all the documents within the `pokemon` collection that have a `type` that's either `"Water"` or `"Fire"`.
 
 ???
 

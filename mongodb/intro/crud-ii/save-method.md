@@ -18,13 +18,13 @@ category: must-know
 ---
 ## Content
 
-The mongodb `.save()` method can be used to either update/replace an existing document or insert a new one. The syntax is:
+The mongodb `save()` method can be used to either update/replace an existing document or insert a new one. The syntax is:
 
 ```javascript
 db.collection.save(<document>)
 ```
 
-If we specify an existing `_id` field for the `.save()` method, it will work like the `.update()` method and replace the document matching the specified `_id` field with the newly specified one.
+If we specify an existing `_id` field for the `save()` method, it will work like the `update()` method and replace the document matching the specified `_id` field with the newly specified one.
 
 ### Replacing a document
 Let's say we have a document where some information is wrong:
@@ -39,7 +39,7 @@ Let's say we have a document where some information is wrong:
 }
 ```
 
-To replace it with a new document with the corrected information, we can easily do so like this:
+To replace it with a new document with the corrected information, we can do so like this:
 ```javascript
 db.pokemon.save({
   "_id": ObjectId(
@@ -60,7 +60,7 @@ WriteResult({
 })
 ```
 
-The `nMatched: 1` means that the `.save()` method has matched a single document.
+The `nMatched: 1` means that the `save()` method has matched a single document.
 The `nUpserted: 0` means that no documents were inserted into the collection.
 The `nModified: 1` means that a single document was modified.
 
@@ -120,7 +120,7 @@ How the document looks:
 ---
 ## Practice
 
-Use the `.save()` method to insert a new document that has 17 for its `_id` and is named `"new document"`:
+Use the `save()` method to insert a new document that has 17 for its `_id` and is named `"new document"`:
 
 ```javascript
 db.pokemon.save({
@@ -129,7 +129,7 @@ db.pokemon.save({
 })
 ```
 
-Use the `.save()` method to replace an existing document whose `_id` is `3` and add a new `type` field which takes `"NewType"` as a value. 
+Use the `save()` method to replace an existing document whose `_id` is `3` and add a new `type` field which takes `"NewType"` as a value. 
 
 ```javascript
 db.pokemon.save({
@@ -139,7 +139,7 @@ db.pokemon.save({
 })
 ```
 
-Use the `.save()` method to insert a new document without the `_id` field:
+Use the `save()` method to insert a new document without the `_id` field:
 
 ```javascript
 ???   
@@ -158,7 +158,7 @@ Use the `.save()` method to insert a new document without the `_id` field:
 ---
 ## Revision
 
-What is the MongoDB `.save()` method used for?
+What is the MongoDB `save()` method used for?
 
 ???
 

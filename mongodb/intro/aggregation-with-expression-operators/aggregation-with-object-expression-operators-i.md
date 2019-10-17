@@ -166,7 +166,7 @@ And we run the same aggregation, our output would look like this:
 }
 ```
 
-As you can see in the example above, because both objects had fields with the same name (`Basic` and `Strong`), our aggregation merged the objects in a single object with the values of the last document overwriting the values of any previous one.
+As you can see in the example above, because both objects had fields with the same name (`"Basic"` and `"Strong"`), our aggregation merged the objects in a single object with the values of the last document overwriting the values of any previous one.
 
 ---
 ## Practice

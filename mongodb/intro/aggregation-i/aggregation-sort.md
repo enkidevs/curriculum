@@ -104,7 +104,7 @@ What are the possible values for `$sort`?
 ---
 ## Revision
 
-Fill in the code below to sort all documents in the pokemon database in an ascending order by their `age`.
+Fill in the code below to sort all documents in the `pokemon` database in an ascending order by their `age`.
 
 ```javascript
 db.???.aggregate({

@@ -37,7 +37,7 @@ Syntax:
 }
 ```
 
-Let's say we have a `pokemon` collection where each pokémon has a base `power` field and an `age` field. To get the actual power of each pokémon we need to calculate the product of the `power` and `age` fields (the power of each pokemon increases with its age).
+Let's say we have a `pokemon` collection where each pokémon has a base `power` field and an `age` field. To get the actual power of each pokémon we need to calculate the product of the `power` and `age` fields (the power of each pokémon increases with its age).
 
 Example documents:
 ```javascript
@@ -102,7 +102,7 @@ Syntax:
 }
 ```
 
-Using the same documents as above, we can use the `$divide` operator to calculate the initial power of each `pokemon` by dividing the `power` field by the `age` field (this way we can find the `power` of a pokemon when their age is one).
+Using the same documents as above, we can use the `$divide` operator to calculate the initial power of each `pokemon` by dividing the `power` field by the `age` field (this way we can find the `power` of a pokémon when their age is one).
 
 **Note:** The expressions are calculated like so `<expression1>` / `<expression2>`.
 

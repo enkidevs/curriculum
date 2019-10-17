@@ -20,7 +20,7 @@ category: how to
 
 The  `updateMany()` method is used to update multiple documents. This method has the same 3 parameters as the `updateOne` method: `(filter, update, options)`.
 
-Let's say we have a `pokemon` collection with 2 Pokémon of `type` `Fire`.
+Let's say we have a `pokemon` collection with 2 pokémon of `type` `"Fire"`.
 
 ```javascript
 db.pokemon.find({ type: "Fire" })
@@ -59,7 +59,7 @@ Output:
 }
 ```
 
-Now, if we check the `pokemon` collection for Pokémon that have `"type": "Flame"` we would get:
+Now, if we check the `pokemon` collection for pokémon that have `"type": "Flame"` we would get:
 
 ```javascript
 db.pokemon.find({ type: "Flame" })
@@ -96,15 +96,15 @@ db.pokemon.???(
 * `type`
 * `$set`
 * `"Normal"`
-* `updateMultiple()`
+* `updateMultiple`
 * `$update`
 * `Normal`
-* `"type"`
+* `$update`
 
 ---
 ## Revision
 
-Finish the code below to change the `type` of all "Mud" Pokémon in the `pokemon` collection to be of `type` "Dirt".
+Finish the code below to change the `type` of all "Mud" pokémon in the `pokemon` collection to be of `type` "Dirt".
 
 ```javascript
 db.pokemon.???(
@@ -118,6 +118,6 @@ db.pokemon.???(
 * `$set`
 * `"Dirt"`
 * `$arrange`
-* `.updateCollection`
+* `updateCollection`
 * `mud`
 * `dirt`

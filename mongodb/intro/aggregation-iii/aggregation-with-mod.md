@@ -32,7 +32,7 @@ Syntax:
 }
 ```
 
-For instance, let's say we have a `pokemon` database where each pokemon has a `power` and `age` field. Each pokemon can evolve into a greater and stronger one. The way they evolve is by casting a specific number of spells, which is determined by the remainder of `power` divided by `age`.
+For instance, let's say we have a `pokemon` database where each pokémon has a `power` and `age` field. Each pokemon can evolve into a greater and stronger one. The way they evolve is by casting a specific number of spells, which is determined by the remainder of `power` divided by `age`.
 
 ```javascript
 db.pokemon.aggregate([
@@ -61,7 +61,7 @@ Output:
 }
 ```
 
-In the example above, we used the `$mod` to calculate how many spells each pokemon has to cast to evolve into a better version of itself.
+In the example above, we used the `$mod` to calculate how many spells each pokémon has to cast to evolve into a better version of itself.
 
 ---
 ## Practice

@@ -19,7 +19,7 @@ category: must-know
 ---
 ## Content
 
-In MongoDB, the `use NAME_OF_DATABASE` command is used to either create a new database or switch to an existing one.
+In MongoDB, the `use <db>` command is used to either create a new database or switch to an existing one.
 
 **Note:** If you do not create a new database, the default `test` database will be used.
 

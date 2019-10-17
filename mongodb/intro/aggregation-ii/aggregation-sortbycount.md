@@ -50,7 +50,7 @@ As you can see in the output of the example above, there is a `null` field with 
 
 Next, we can use the `$match` aggregation stage to only match documents of a certain `type` and perform the `$sortByCount: "$secondType"` for documents that match our specified `type`.
 
-For instance, let's say we want to count and sort documents by their `secondType`, but we are only interested in documents where the `type` is `Water`. We can do so like this:
+For instance, let's say we want to count and sort documents by their `secondType`, but we are only interested in documents where the `type` is `"Water"`. We can do so like this:
 ```javascript
 db.pokemon.aggregate([
   {

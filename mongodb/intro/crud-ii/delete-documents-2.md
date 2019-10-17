@@ -20,9 +20,9 @@ category: how to
 ---
 ## Content
 
-Next to using the `db.collection_name.deleteOne()` or `.deleteMany()` methods to delete a single or multiple documents, we can use the `db.collection_name.findOneAndDelete()` or `db.collection_name.remove()` methods.
+Next to using the `db.collection_name.deleteOne()` or `deleteMany()` methods to delete a single or multiple documents, we can use the `db.collection_name.findOneAndDelete()` or `db.collection_name.remove()` methods.
 
-The `.findOneAndDelete()` method can be used to search through a collection and delete only the first document found based on the specified query. 
+The `findOneAndDelete()` method can be used to search through a collection and delete only the first document found based on the specified query. 
 
 For instance, the query below searches for the first pokémon(document) whose `power` is greater than `1000` and deletes it:
 ```javascript
@@ -45,9 +45,9 @@ Output:
 
 **Note:** When executed, the query returns the document that was deleted.
 
-### `.remove()`
+### `remove()`
 
-The `.remove()` method can be used to delete a single, multiple or all documents at once based on the specified criteria. The syntax is:
+The `remove()` method can be used to delete a single, multiple or all documents at once based on the specified criteria. The syntax is:
 ```javascript
 db.collection.remove(
   <query>,
@@ -74,11 +74,11 @@ WriteResult({ "nRemoved": 11 })
 
 In the above example, we have deleted all documents whose `power` field equals exactly `40`.
 
-**Note:** The output of the `.remove()` method, whether it is deleting a single, multiple or all documents, will always be `WriteResult({"nRemoved": NUMBER})`. The `NUMBER` is the number of documents deleted.
+**Note:** The output of the `remove()` method, whether it is deleting a single, multiple or all documents, will always be `WriteResult({"nRemoved": NUMBER})`. The `NUMBER` is the number of documents deleted.
 
 To delete exactly one document based on specified criteria we need to add `true` or `1` for the `justOne` boolean parameter.
 
-When using `.remove()` to delete a single document, it works the same way as the `.findOneAndDelete()` method by deleting the first matching document.
+When using `remove()` to delete a single document, it works the same way as the `findOneAndDelete()` method by deleting the first matching document.
 
 **Note:** The `justOne` parameter is false by default.
 
@@ -97,7 +97,7 @@ WriteResult({ "nRemoved": 1 })
 ---
 ## Practice
 
-Delete all documents in the `pokemon` collection whose `type` equals `Water`.
+Delete all documents in the `pokemon` collection whose `type` equals `"Water"`.
 ```javascript
 db.pokemon.???( 
 	{ "???": "Water" } 
@@ -126,8 +126,8 @@ Which one is not a valid remove method in MongoDB?
 
 ???
 
-* `.removeAll()
-* `.remove()`
-* `.deleteOne()`
-* `.deleteMany()`
+* `removeAll()
+* `remove()`
+* `deleteOne()`
+* `deleteMany()`
 

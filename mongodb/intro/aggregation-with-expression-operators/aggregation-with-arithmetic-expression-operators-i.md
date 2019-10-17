@@ -22,13 +22,14 @@ category: how to
 
 There are a number of arithmetic expressions operators used in aggregation. 
 
-These operators are used for mathematical calculations of numbers.
+These operators are used for numerical calculations.
 
 Some operators and explanations:
+
 `$add` - adds 2 or more numbers together and returns a sum.
 `$subtract` - subtracts the second number from the first and returns the difference (accepts exactly 2 expressions).
 
-### $add
+### `$add`
 
 Syntax:
 ```javascript
@@ -42,7 +43,7 @@ Syntax:
 }
 ```
 
-Let's say we have a `pokemon` collection where each pokémon has 3 power fields: `Basic` ,`Strong` and `Ultimate`. Each field has its own power "level" (number). We can use the `$add` operator to easily calculate the total strength of all 3 powers.
+Let's say we have a `pokemon` collection where each pokémon has 3 power fields: `"Basic"` ,`"Strong"` and `"Ultimate"`. Each field has its own power "level" (number). We can use the `$add` operator to calculate the total strength of all 3 powers.
 
 Example documents:
 ```javascript
@@ -98,7 +99,7 @@ Output:
 
 In the example above, we have used the project stage to only display the `Name` field, along with a new field called `totalPowerStrength` where the added values will be stored and displayed.
 
-### $subtract
+### `$subtract`
 
 Syntax:
 ```javascript
@@ -111,7 +112,7 @@ Syntax:
 }
 ```
 
-Using the same documents as above, we can use the `$subtract` operator to calculate how stronger the `Ultimate` `power` is compared to the `Basic` one for each pokémon.
+Using the same documents as above, we can use the `$subtract` operator to calculate how stronger the `"Ultimate"` `power` is compared to the `"Basic"` one for each pokémon.
 
 **Note:** The expressions are calculated like so `<expression1>` - `<expression2>`.
 
@@ -151,7 +152,7 @@ Output:
 
 Now that we know how to use each operator, we can also combine them.
 
-Using the same documents and examples as above, let's calculate how stronger the `Ultimate` power is compared to the sum of the other two. 
+Using the same documents and examples as above, let's calculate how stronger the `"Ultimate"` power is compared to the sum of the other two. 
 
 Example:
 ```javascript
@@ -190,7 +191,7 @@ Output:
 
 **Note:** When adding or subtracting, we do not need to add existing fields for the computations, we can also add an existing field and a literal to perform the calculation.
 
-Example of subtracting `7` from the `Basic` `power`:
+Example of subtracting `7` from the `"Basic"` `power`:
 ```javascript
 db.pokemon.aggregate([
   {

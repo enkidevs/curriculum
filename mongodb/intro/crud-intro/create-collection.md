@@ -29,7 +29,7 @@ db.createCollection("pokemon")
 // { "ok": 1 }
 ```
 
-**Note:** MongoDB will also automatically create a collection when you create/insert a new document. You don't really need to create a collection unless you want a specific configuration.
+**Note**: If a collection doesn’t exist when you create/insert a new document, MongoDB will create one for you
 
 To list all collections within a database, you need to use the `show collections` command:
 

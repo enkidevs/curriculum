@@ -16,14 +16,14 @@ category: how to
 
 ---
 
-# Aggregation $project 2
+# Aggregation $project Part 2
 
 ---
 ## Content
 
 The `$project` stage can also be used to include or exclude specified fields within an array.
 
-For instance, let's say we have a `pokemon` collection where each pokémon has the `_id`, `name`, `type`, `power` fields and an `ability` array field. In the array there are 3 fields: `Basic`, `Strong` and `Ultimate`. We can use the `$project` stage to only include the `name`, `type` and `Ultimate` `ability` in the aggregation.
+For instance, let's say we have a `pokemon` collection where each pokémon has the `_id`, `name`, `type`, `power` fields and an `ability` array field. In the array there are 3 fields: `"Basic"`, `"Strong"` and `"Ultimate"`. We can use the `$project` stage to only include the `name`, `type` and `"Ultimate"` `ability` in the aggregation.
 
 Example document:
 ```javascript
@@ -145,7 +145,7 @@ Let's say we have a `pokemon` collection where each pokémon has a `name`, `_id`
 }
 ```
 
-Aggregate the collection, exclude the `_id` field and only include the `power` and `name` fields, as well as the `Ultimate` ability.
+Aggregate the collection, exclude the `_id` field and only include the `power` and `name` fields, as well as the `"Ultimate"` ability.
 
 ```js
 db.pokemon.???([

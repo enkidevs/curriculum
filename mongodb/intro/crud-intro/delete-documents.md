@@ -19,13 +19,11 @@ category: must-know
 ---
 ## Content
 
-To delete a document in MongoDB you can use either the  `deleteOne()` or `deleteMany()` method.
-
 ### Delete a Single Document
 
 To delete a single document you should use the `db.mycollection.deleteOne()` method.
 
-Let's say we want to delete a pokemon named `Snorlax` from the `pokemon` collection. We can easily do so like this:
+Let's say we want to delete a pokémon named `Snorlax` from the `pokemon` collection. We can do so like this:
 
 ```javascript
 db.pokemon.deleteOne({
@@ -42,7 +40,7 @@ Output:
 }
 ```
 
-If we wanted to delete a pokemon of type `Grass` where there are more than one of them, we could attempt to do so like:
+If we wanted to delete a pokémon of type `"Grass"` where there are more than one of them, we could attempt to do so like:
 
 ```javascript
 db.pokemon.deleteOne({
@@ -50,13 +48,13 @@ db.pokemon.deleteOne({
 });
 ```
 
-This method would only delete the first Pokémon document of that type. If we wanted to delete all Pokémon of that type, we would need to use the `db.pokemon.deleteMany()` method.
+This method would only delete the first pokémon document of that type. If we wanted to delete all pokémon of that type, we would need to use the `db.pokemon.deleteMany()` method.
 
 ### Delete Multiple Documents
 
 To delete multiple documents within the `pokemon` collection, we need to use the `db.pokemon.deleteMany()` method.
 
-For instance, here we delete all pokémon of type `Grass`:
+For instance, here we delete all pokémon of type `"Grass"`:
 
 ```javascript
 db.pokemon.deleteMany({
@@ -91,7 +89,7 @@ Output:
 ---
 ## Practice
 
-Delete the first document in the `pokemon` table of type `Fire`.
+Delete the first document in the `pokemon` table of type `"Fire"`.
 ```javascript
 ???.pokemon.???({
   ???: ???

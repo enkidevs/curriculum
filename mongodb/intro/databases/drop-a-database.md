@@ -13,7 +13,7 @@ type: normal
 category: must-know
 
 links:
-  - '[official-documentation](https://docs.mongodb.com/manual/reference/method/db.dropDatabase/){documentation}'
+  - '[Official Documentation](https://docs.mongodb.com/manual/reference/method/db.dropDatabase/){documentation}'
 ---
 
 # Delete a database
@@ -59,11 +59,10 @@ How do you delete (drop) the currently active database in MongoDB?
 ---
 ## Revision
 
-How do you delete a database named `pokemon`?
+To delete a database named `pokemon`, you have to use the ??? command followed by using the ??? command.
 
-???
-
-* Use the `use pokemon` command and then use the `db.dropDatabase()` command.
-* Use the `delete` command.
-* Use the `db.dropDatabase(pokemon)` command.
-* Use the `db.delete(pokemon)` method.
+* `use pokemon`
+* `db.dropDatabase()`
+* `delete`
+* `db.dropDatabase(pokemon)`
+* `db.delete(pokemon)`

@@ -21,7 +21,7 @@ category: must-know
 ---
 ## Content
 
-In the aggregation pipeline, the `$project` stage is used to define which fields of the document/s will go into the next aggregation stage. These fields can already exist or be completely new ones.
+In the aggregation pipeline, the `$project` stage is used to define which fields of the documents will go into the next aggregation stage. These fields can already exist or be completely new ones.
 
 This stage can be used for:
 - inclusion or exclusion of a field or fields
@@ -47,7 +47,7 @@ field: expression
 _id: 0 or false
 ```
 
-The `_id` field is included in the output of the aggregation by default. To exclude it, you must add `_id: 0 or false`.
+The `_id` field is included in the output of the aggregation by default. To exclude it, you must add `_id: 0` or `_id: false`.
 
 For instance, let's say we wanted to aggregate the `pokemon` collection and want to only pass the `secondType` field through the next stage. We can do so like this:
 ```javascript
@@ -67,7 +67,7 @@ Output:
   "_id": ObjectId(
     "5d9d8ce90b24990f19398219"
   ),
-  "secondType": "Poison"
+  "secondType": "Fire"
 }
 // ...
 ```
@@ -80,7 +80,7 @@ db.pokemon.aggregate([
 Output:
 ```javascript
 { "secondType": "Poison" }
-{ "secondType": "Poison" }
+{ "secondType": "Fire" }
 // ...
 ```
 
@@ -105,9 +105,13 @@ Add the missing pieces of code to exclude the `_id` field and only include the `
 ```javascript
 db.pokemon.???([
   {
-    ???: { ???: 0, ???: 1, power: ??? }
+    ???: { 
+      ???: 0, 
+      ???: 1, 
+      power: ??? 
+    }
   }
-])
+]);
 ```
 
 * `aggregate`

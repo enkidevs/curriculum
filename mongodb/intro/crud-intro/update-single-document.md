@@ -18,9 +18,7 @@ category: how to
 ---
 ## Content
 
-To update a document in MongoDB you should use either the `updateOne()` or the `updateMany()` method.
-
-The `updateOne()` method is used to update a single document, and the `updateMany()` method is used to update multiple documents at once.
+In MongoDB, we can use the `updateOne()` method to update a single document, and the `updateMany()` method to update multiple documents at once.
 
 ### Update a single document
 
@@ -28,11 +26,11 @@ The `updateOne()` method has 3 parameters `(filter, update, options)`.
 
 The `filter` is the criteria used for selecting the document you want to edit.
 
-The `update` is the new modification for the value of the selected document. Possible values for modification are `$rename`, `$set` and `$unset`(we will only use the `$set` value in this workout). `$set` is used to replace a value for the selected field of the document. If the selected field doesn't exist, `$set` will create a new one with the specified value.
+The `update` parameter contains the changes that we want to apply to the document. Commonly, we do this with MongoDB [update operators](https://docs.mongodb.com/manual/reference/operator/update/#id1) such as `$set` or `$rename`. For example, `$set` will either update a value for a field that exists or create a new field with that value if it doesn’t.
 
 The `options` parameter is used for adding more options to the update method and will be discussed in a later workout.
 
-Let's say we have a `pokemon` collection where one of the Pokémon's type is misspelled.
+Let's say we have a `pokemon` collection where one of the pokémon's type is misspelled.
 
 ```javascript
 db.pokemon.find({ _id: 8 })
@@ -48,7 +46,7 @@ Output:
 }
 ```
 
-If we wanted to change that Pokémon's `"type"` from `"Grasz"` to `"Grass"`, we can update the document with the `$set` modification through any of its properties like so:
+If we wanted to change that pokémon's `"type"` from `"Grasz"` to `"Grass"`, we can update the document with the `$set` operator through any of its properties like so:
 
 ```javascript
 db.pokemon.updateOne(
@@ -71,7 +69,7 @@ db.pokemon.updateOne(
 );
 ```
 
-Output:
+The output in all three cases is:
 
 ```javascript
 {
@@ -100,7 +98,7 @@ Output:
 ---
 ## Practice
 
-How would you change the `name` of a pokemon from "Tyran" to "Tyranitar"?
+How would you change the `name` of a pokémon from "Tyran" to "Tyranitar"?
 
 ```js
 db.pokemon.???(
@@ -121,7 +119,7 @@ db.pokemon.???(
 ---
 ## Revision
 
-Finish the code below to change the `type` of the misspelled "Firee" Pokémon in the `pokemon` collection to be of `type` "Fire".
+Finish the code below to change the `type` of the misspelled "Firee" pokémon in the `pokemon` collection to be of `type` "Fire".
 
 ```javascript
 db.pokemon.???(
@@ -135,5 +133,5 @@ db.pokemon.???(
 * `$set`
 * `"Fire"`
 * `$arrange`
-* `.updateCollection`
+* `updateCollection`
 * `fire`

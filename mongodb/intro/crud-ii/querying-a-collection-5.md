@@ -14,14 +14,25 @@ category: how to
 
 ---
 
-# Querying a collection 
+# Querying with `findOneAndUpdate()`
 
 ---
 ## Content
 
-Next to using the `db.collection_name.insertOne()` or `.insertMany()` methods to create a document, or `.find()` to find a specific document, there are a couple of other more specific methods you can use to find and modify your documents.
+Thus far we learned to use `insertOne` and `insertMany` to create document(s), `updateOne` and `updateMany` to update documents, or find to search for them, among other things. Besides these, MongoDB gives us a few more methods to use to find and modify documents.
 
-The `.findOneAndUpdate()` method can be used to search through a collection and modify only the first documents found based on the specified query. The full syntax for this method is `findOneAndUpdate(filter, update, options)`. The `filter` argument is used to constrain documents entering the aggregation pipeline, the `update` argument is used to update a certain field, and the `options` argument is used to control the `.findOneAndUpdate()` method. The only required arguments are `filter` and `update`, and we will focuse on these for this insight.
+The `findOneAndUpdate` method has the following signature:
+
+```js
+findOneAndUpdate(
+  filter, 
+  update, 
+  options
+);
+```
+
+Similarly to `updateOne`, this method allows us to search through collection for a document matching the given `filter` and modify the first one using the provided `update`. 
+, and the `options` argument is used to control the `findOneAndUpdate()` method. The only required arguments are `filter` and `update`, and we will focus on these for this insight.
 
 For instance, the query below searches for the first pokémon of `type: "Water"` and increases its `power` by `15`:
 ```javascript
@@ -80,73 +91,6 @@ Output:
 
 **Note:** The `$inc` operator is used to either increase or decrease the value of the specified field. If the field doesn't exist, it will be created with the value specified with the `$inc` operator.
 
-A similar method to `.findOneAndUpdate()` is the `.findOneAndReplace()`. 
-
-Unlike the first method, which finds the first document and *updates* the content based on the specified criteria, the `.findOneAndReplace()` method also finds the first document, but instead of *updating*, it *replaces* it with a newly specified document.
-
-For instance, let us say one of our documents was no longer viable and we wanted to remove it and replace it with a new one. We can do so like this:
-
-```javascript
-db.pokemon.findOneAndReplace(
-  { power: { $eq: 350 } },
-  {
-    "_id": ObjectId(
-      "5d9d8e800b24990f19398223"
-    ),
-    name: "Mewtoo",
-    type: "Unknown",
-    power: 700
-  }
-)
-```
-
-Output:
-```javascript
-{ 
-  "_id": ObjectId(
-    "5d9d8dcb0b24990f1939821f"
-  ), 
-	"name": "Electrode", 
-	"type": "Electric", 
-	"power": 350, 
-	"spells": 
-	[ 
-		"Seed Bomb", 
-		"Bite", 
-		"Hydro-Pump" 
-	] 
-}
-```
-
-Just like with the `.findOneAndUpdate()` method, if we don't add `returnNewDocument: true`, our query would display the original document.
-
-```javascript
-db.pokemon.findOneAndReplace(
-  { power: { $eq: 350 } },
-  {
-    "_id": ObjectId(
-      "5d9d8e800b24990f19398223"
-    ),
-    name: "Mewtoo",
-    type: "Unknown",
-    power: 700
-  },
-  { returnNewDocument: true }
-)
-```
-
-Output:
-```javascript
-{
-	"_id": ObjectId(
-    "5d9d8e800b24990f19398223"
-  ),
-	"name": "Mewtoo",
-	"type": "Unknown", 
-	"power": 700
-}
-```
-
 ---
 ## Practice
 
@@ -158,41 +102,10 @@ db.pokemon.???(
 )
 ```
 
-Fill in the blanks to find the first document with a `type` of `Water` and replace it with the document listed below:
-```javascript
-db.pokemon.???(
-  { "type": ???},
-  {
-	"name": "Charizard",
-	"type": "Fire", 
-	"power": 999
-  }
-)
-```
-
-Which command has to be added to our queries to display the updated/replaced document as opposed to the original one? 
-
-???
-
 * `findOneAndUpdate`
 * `{ $gt: 400 }`
 * `$inc`
-* `findOneAndReplace`
-* `"Water"`
-* `{ returnNewDocument: true }`
-* `{ returnNew: true }`
 * `update`
+* `findAndUpdate`
 * `replace`
 * `$dec`
-
----
-## Revision
-
-Which of these is not a valid MongoDb query method?
-
-???
-
-* `db.collection_name.insertMultiple()`
-* `db.collection_name.insertMany()`
-* `db.collection_name.insertOne()`
-* `db.collection_name.insert()`

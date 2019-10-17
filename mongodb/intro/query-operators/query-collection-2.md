@@ -13,7 +13,7 @@ type: normal
 category: how to
 
 links:
-  - '[official-documentation](https://docs.mongodb.com/manual/reference/operator/query-comparison/){documentation}'
+  - '[Official Documentation](https://docs.mongodb.com/manual/reference/operator/query-comparison/){documentation}'
 ---
 
 # Querying a Collection Using Ranges
@@ -21,9 +21,10 @@ links:
 ---
 ## Content
 
-Last insight we learned how to query documents and use the `$in` and `$or` operators.
+In the previous insight we learned how we can query categorical data[1] using the `$or` and `$in` operators.
+In this insight we introduce operators that help us query discrete data by specifying value ranges.
 
-While in the previous insight we learned about the `$or` and `$in` operators which help us query categorical data, in this insight we introduce operators that help us query discrete data by specifying value ranges[1]. These operators are:
+These operators are:
 - `$lt` means less than the specified value (`<` is the mathematical counterpart)
 - `$lte` means less than or equal to the specified value (`<=` is the mathematical counterpart)
 - `$gt` means greater than the specified value (`>` is the mathematical counterpart)
@@ -34,7 +35,11 @@ Let's say we have a `pokemon` collection where each pokémon has a `power` field
 Now, we want to look through the `pokemon` collection and find all the pokémon that have their `power` level greater than `250`. We can do so like this:
 
 ```javascript
-db.pokemon.find({ power: { $gt: 250 } });
+db.pokemon.find({ 
+  power: { 
+    $gt: 250 
+  } 
+});
 ```
 
 Output:
@@ -82,14 +87,26 @@ Output:
 The other 3 operators, `$lt`, `$lte` and `$gte`, are used in the exact same way as the `$gt` operator.
 
 ```javascript
-db.pokemon.find({ power: { $gte: 250 } });
+db.pokemon.find({ 
+  power: { 
+    $gte: 250 
+  } 
+});
 
-db.pokemon.find({ power: { $lt: 250 } });
+db.pokemon.find({ 
+  power: { 
+    $lt: 250 
+  } 
+});
 
-db.pokemon.find({ power: { $lte: 250 } });
+db.pokemon.find({ 
+  power: { 
+    $lte: 250 
+  } 
+});
 ```
 
-You can also use a combination of the above operators to create more precise queries. For instance, to find all pokemon that are `1` or less years old and have power greater than `350`:
+You can also use a combination of the above operators to create more precise queries. For instance, to find all pokémon that are `1` or less years old and have power greater than `350`:
 
 ```javascript
 db.pokemon.find({

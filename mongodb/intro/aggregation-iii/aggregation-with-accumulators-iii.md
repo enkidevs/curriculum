@@ -29,7 +29,7 @@ Syntax:
 
 The `$push` operator is used with the `$group` stage to return an array of values for each group of documents with the same key.
 
-For instance, let's say we have a `pokemon` collection where each pokemon has a `type` and `name` field. We can use the `$push` operator to push the `name` field of each pokemon within the same group (`type`) and output an array of names for each `type`.
+For instance, let's say we have a `pokemon` collection where each pokémon has a `type` and `name` field. We can use the `$push` operator to push the `name` field of each pokemon within the same group (`type`) and output an array of names for each `type`.
 
 Example where there are only 3 types of pokémon:
 ```javascript
@@ -84,7 +84,7 @@ Syntax:
 
 The `$sum` operator is used to calculate the `$sum` of all values of each document per specified group key. 
 
-For instance, let's say each pokémon also has a `power` field in our `pokemon` database. We can use the `$sum` operator to calculate the total `power` of all pokemon within each group (`type`).
+For instance, let's say each pokémon also has a `power` field in our `pokemon` database. We can use the `$sum` operator to calculate the total `power` of all pokémon within each group (`type`).
 
 Example:
 ```javascript
@@ -111,7 +111,7 @@ In the example above, we grouped the documents by their `type` field and used th
 ---
 ## Practice
 
-Fill in the missing code to group all documents in the `pokemon` database by their `type` and push the names of each pokemon from the same `type` into a single array per `type`. Name the resulting array `"namesPerGroup"`.
+Fill in the missing code to group all documents in the `pokemon` database by their `type` and push the names of each pokémon from the same `type` into a single array per `type`. Name the resulting array `"namesPerGroup"`.
 
 ```javascript
 db.pokemon.aggregate([

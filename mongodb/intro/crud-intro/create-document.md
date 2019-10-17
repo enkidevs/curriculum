@@ -40,11 +40,11 @@ Output:
 }
 ```
 
-**Note:** If there is no `pokemon` collection, a new one will be created. Also, if you don't specify an `_id` when adding a new document, an `_id` with an `ObjectId` value will be added by MongoDB. `ObjectId`'s will be discussed later on.
+**Note:** If there is no `pokemon` collection, a new one will be created. Also, if you don't specify an `_id` when adding a new document, an `_id` with an `ObjectId` value will be added by MongoDB. `ObjectId`s will be discussed later on.
 
 ### Add Multiple Documents
 
-To add multiple documents to the `pokemon` database, you need to use the `db.pokemon.insertMany([])` command.
+To add multiple documents to the `pokemon` database, you need to pass an array of pokémon (documents) to the `db.pokemon.insertMany()` command
 
 ```javascript
 db.pokemon.insertMany([

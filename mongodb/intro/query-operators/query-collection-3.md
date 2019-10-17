@@ -14,7 +14,7 @@ category: how to
 
 ---
 
-# Querying a Collection Using Ranges 2
+# Querying a Collection Using Ranges Continued
 
 ---
 ## Content
@@ -116,7 +116,7 @@ db.pokemon.find({
 ---
 ## Practice
 
-Which of the following represents the correct way of selecting documents that fit withing a defined range:
+Which of the following represents the correct way of selecting documents that fit within a defined range:
 
 ```js
 // A

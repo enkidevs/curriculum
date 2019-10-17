@@ -30,11 +30,13 @@ Syntax:
 ```javascript
 { $skip: <positive integer> }
 ```
-The `<positive integer>` has to be a whole number.
 
 For instance, let's say we have a `pokemon` collection with 10 pokémon and want to aggregate only the last 2. We can do that like so:
 ```javascript
-db.pokemon.aggregate({ $skip: 8 })
+db.pokemon.aggregate({
+  // skip the first 8 pokemon
+  $skip: 8 
+});
 ```
 Output:
 ```javascript
@@ -75,32 +77,8 @@ Output:
   "power": 667
 },
 ```
-In the above example, we skipped the first 8 pokemon and aggregated only 1 after that.
 
-Now, we'll use all 4 stages learned in this workout.
-
-We are going to aggregate the first `50` pokémon starting from number 301. We want to count how many have a `power` level greater than `400` and store the result in a field named `"result"`.
-```javascript
-db.pokemon.aggregate([
-  { $skip: 300 },
-  { $limit: 50 },
-  { $match: { power: { $gt: 400 } } },
-  { $count: "result" }
-])
-```
-
-Output:
-```javascript
-{
-  "result": 2
-}
-```
-
-Note that the order of the aggregation stages matters. In this example, the process is the following:
-1. We skip the first 300 documents from the collection
-2. We limit the number of documents entering the aggregation pipeline to 50
-3. We match the documents to fit a criteria
-4. We count the remaining documents in the pipeline
+In the above example, we skipped the first 8 pokémon and aggregated only 1 after that.
 
 ---
 ## Practice

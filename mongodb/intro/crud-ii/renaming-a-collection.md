@@ -18,7 +18,7 @@ category: must-know
 ---
 ## Content
 
-To rename a collection in MongoDB, we need to use the `.renameCollection()`method. The syntax is:
+To rename a collection in MongoDB, we need to use the `renameCollection()`method. The syntax is:
 ```javascript
 db.collection_name.renameCollection(
   "<string>"

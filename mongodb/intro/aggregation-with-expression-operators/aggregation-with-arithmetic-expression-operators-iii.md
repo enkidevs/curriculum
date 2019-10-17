@@ -52,7 +52,7 @@ Output documents from previous insight:
 }
 ```
 
-Now, let's say we have saved these `key: value` pairs with the `.insert()` method. We want to truncate them to a value with fewer decimals.
+Now, let's say we have saved these `key: value` pairs with the `insert()` method. We want to truncate them to a value with fewer decimals.
 
 Example:
 ```javascript

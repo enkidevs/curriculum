@@ -35,13 +35,13 @@ Result:
 }
 ```
 
-Using the `.find()` method without any parameters will retrieve all the documents from the selected collection.
+Using the `find()` method without any parameters will retrieve all the documents from the selected collection.
 
-**Note** that `.find({})` and `.find()` both work the same way.
+**Note** that `find({})` and `find()` both work the same way.
 
-You can also add different parameters to `.find()` for a more specific search.
+You can also add different parameters to `find()` for a more specific search.
 
-Let's say we have over 100 Pokémon in the `pokemon` database and want to find only the ones that have an `Electric` type.
+Let's say we have over 100 pokémon in the `pokemon` database and want to find only the ones that have an `Electric` type.
 
 We would do that like so:
 
@@ -74,7 +74,7 @@ Result:
 }
 ```
 
-You can limit the number of results by adding the `.limit(number)` method. If the limit is not specified, the default limit is `20`.
+You can limit the number of results by adding the `limit(number)` method. If the limit is not specified, the default limit is `20`.
 
 ```javascript
 db.pokemon
@@ -97,13 +97,13 @@ Result:
 }
 ```
 
-You can sort your result with the `.sort({})` method in either ascending or descending order by any field.
+You can sort your result with the `sort({})` method in either ascending or descending order by any field.
 
-The syntax is `.sort({ field_name: 1 or -1 })` where:
+The syntax is `sort({ field_name: 1 or -1 })` where:
 - `1` is ascending.
 - `-1` is descending.
 
-If we wanted to get the top 2 pokemon sorted in descending order by `_id`, we can run.
+If we wanted to get the top 2 pokémon sorted in descending order by `_id`, we can run.
 
 ```javascript
 db.pokemon
@@ -159,11 +159,11 @@ Which method is used to make the output of the query sorted by a selected field?
 
 ???
 
-* `.find()`
+* `find()`
 * `db.pokemon.find().limit(3)`
-* `.sort()`
-* `.order()`
-* `.locate()`
-* `.list()`
+* `sort()`
+* `order()`
+* `locate()`
+* `list()`
 * `db.Pokemon.find().limit(3)`
 * `db.pokemon.find().first(3)`

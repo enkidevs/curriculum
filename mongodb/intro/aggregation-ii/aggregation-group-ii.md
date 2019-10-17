@@ -14,7 +14,7 @@ category: how to
 
 ---
 
-# Aggregation $group 2
+# Aggregation $group Part 2
 
 ---
 ## Content
@@ -40,10 +40,7 @@ Output:
 { "_id": "Psychic", "averagePower": 600 }
 { "_id": "Normal", "averagePower": 60.5 }
 { "_id": "Rock", "averagePower": 352 }
-{
-  "_id": "Electric",
-  "averagePower": 344.83333333
-}
+{ "_id": "Electric", "averagePower": 344.83333333}
 { "_id": "Flame", "averagePower": 432 }
 { "_id": "Grass", "averagePower": 296.2 }
 { "_id": "Fairy", "averagePower": 0 }
@@ -172,7 +169,7 @@ db.???.???([
 Let's say we have a collection named `games` with 1000 documents. Each game has a `name`, `difficulty` and `type` field. Group all documents by their `type` and find out what is the lowest and what is the highest `difficulty` level for each `type`. Save them in fields called `low` and `max`.
 
 ```javascript
-db.???.aggregate([
+db.games.???([
   {
     ???: {
       ???: "$type",
@@ -191,7 +188,7 @@ db.???.aggregate([
 // {"_id": "PC","low": 0,"max": 9.1}
 ```
 
-* `games`
+* `aggregate`
 * `$group`
 * `_id`
 * `$min`
@@ -199,5 +196,6 @@ db.???.aggregate([
 * `$minimum`
 * `$maximum`
 * `ID`
-* `GAMES`
+* `accumulate`
+* `find`
 * `$project`

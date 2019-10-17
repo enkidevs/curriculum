@@ -75,7 +75,7 @@ Output:
 }
 ```
 
-Note that the order of the pipeline stages is very important. In the example above, the process is the following:
+Note that the order of the pipeline stages matters. The stages are applied in a top-down manner. In the example above, the process is the following:
 1. We limit the number of documents to be aggregated
 2. We match the documents to fit a criteria
 3. We count the remaining documents in the pipeline
@@ -110,7 +110,7 @@ Let's say we have a collection named `shoes` with 50000 documents. Each shoe has
 Count the number of shoes, for the first 500, where the size is less than or equal to 12. Output the result in a field named `kidsShoes`.
 
 ```javascript
-db.???.aggregate([
+db.shoes.???([
   { $match: { ???: { ???: 12 } } },
   { ???: ??? },
   { $count: ??? }
@@ -121,12 +121,13 @@ db.???.aggregate([
 // }
 ```
 
-* `shoes`
+* `aggregate`
 * `size`
 * `$lte`
 * `$limit`
 * `500`
 * `"kidsShoes"`
 * `color`
-* `SHOES`
 * `%limit`
+* `accumulate`
+* `find`
