@@ -4,6 +4,9 @@ description: Learn what a NoSQL database is and why you would choose MongoDB as 
 
 insights:
   - what-is-nosql
-  - types-of-nosql
+  - key-value-databases
+  - column-databases
+  - graph-databases
+  - document-databases
   - why-mongodb
 
