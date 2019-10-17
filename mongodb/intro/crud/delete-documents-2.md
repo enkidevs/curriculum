@@ -15,37 +15,10 @@ category: how to
 
 ---
 
-# Deleting documents 2
+# Delete documents with `remove()`
 
 ---
 ## Content
-
-Next to using the `db.collection_name.deleteOne()` or `deleteMany()` methods to delete a single or multiple documents, we can use the `db.collection_name.findOneAndDelete()` or `db.collection_name.remove()` methods.
-
-The `findOneAndDelete()` method can be used to search through a collection and delete only the first document found based on the specified query. 
-
-For instance, the query below searches for the first pokémon(document) whose `power` is greater than `1000` and deletes it:
-```javascript
-db.pokemon.findOneAndDelete({
-  power: { $gt: 1000 }
-})
-```
-
-Output:
-```javascript
-{
-	"_id": ObjectId(
-    "5d9d9ba30b24990f1939822a"
-  ),
-	"name": "Zeraora",
-	"type": "Electric",
-	"power": 3012
-}
-```
-
-**Note:** When executed, the query returns the document that was deleted.
-
-### `remove()`
 
 The `remove()` method can be used to delete a single, multiple or all documents at once based on the specified criteria. The syntax is:
 ```javascript
@@ -55,12 +28,12 @@ db.collection.remove(
 )
 ```
 
-To delete all documents from a collection:
+To delete all documents from a collection, you would use:
 ```javascript
 db.pokemon.remove({})
 ```
 
-To delete a single or multiple documents based on criteria:
+To delete documents based on criteria:
 ```javascript
 db.pokemon.remove({ 
 	power: { $eq: 40 } 
@@ -126,7 +99,7 @@ Which one is not a valid remove method in MongoDB?
 
 ???
 
-* `removeAll()
+* `removeAll()`
 * `remove()`
 * `deleteOne()`
 * `deleteMany()`

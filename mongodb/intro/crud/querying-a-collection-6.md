@@ -14,16 +14,14 @@ category: how to
 
 ---
 
-# Querying with `findOneAndReplace`
+# Querying with `findOneAndReplace()`
 
 ---
 ## Content
 
-A similar method to `findOneAndUpdate()` is the `findOneAndReplace()`. 
+As the name suggests, the `findOneAndReplace()` method makes use of a constrain to find a document, and replaces it with a newly specified document.
 
-Unlike the first method, which finds the first document and *updates* the content based on the specified criteria, the `findOneAndReplace()` method also finds the first document, but instead of *updating*, it *replaces* it with a newly specified document.
-
-For instance, let us say one of our documents was no longer viable and we wanted to remove it and replace it with a new one. We can do so like this:
+This is best explained through an example. Let's say that we want to replace a document that is no longer viable. We can do so like this:
 
 ```javascript
 db.pokemon.findOneAndReplace(
@@ -36,7 +34,7 @@ db.pokemon.findOneAndReplace(
     type: "Unknown",
     power: 700
   }
-)
+);
 ```
 
 Output:
@@ -57,7 +55,7 @@ Output:
 }
 ```
 
-Just like with the `findOneAndUpdate()` method, if we don't add `returnNewDocument: true`, our query would display the original document.
+By default, our query returns the original document (the one that will be replaced). If you wanted to return the new document, you'd have to add `returnNewDocument: true` in your query.
 
 ```javascript
 db.pokemon.findOneAndReplace(
@@ -89,14 +87,6 @@ Output:
 ---
 ## Practice
 
-Find the first document within the `pokemon` collection with a `power` greater than `400` and decrease the `power` by `135`.
-```javascript
-db.pokemon.???(
-  { "power": ???},
-  { ???: { "power": -135 } },
-)
-```
-
 Fill in the blanks to find the first document with a `type` of `"Water"` and replace it with the document listed below:
 ```javascript
 db.pokemon.???(
@@ -106,7 +96,7 @@ db.pokemon.???(
 	"type": "Fire", 
 	"power": 999
   }
-)
+);
 ```
 
 Which command has to be added to our queries to display the updated/replaced document as opposed to the original one? 
