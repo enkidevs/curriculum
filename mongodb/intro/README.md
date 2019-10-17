@@ -8,13 +8,14 @@ sections:
   '0':
     - intro
     - databases
-    - crud-intro
+    - create-and-read-documents
+    - update-and-delete-documents
   '1':
     - query-operators
     - aggregation-i
     - aggregation-ii
   '2':
-    - crud-ii
+    - crud
     - aggregation-with-expression-operators
     - aggregation-iii
 standards:
