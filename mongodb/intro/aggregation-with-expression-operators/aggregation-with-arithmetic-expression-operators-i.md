@@ -29,7 +29,7 @@ Some operators and explanations:
 `$add` - adds 2 or more numbers together and returns a sum.
 `$subtract` - subtracts the second number from the first and returns the difference (accepts exactly 2 expressions).
 
-### `$add`
+### **`$add`**
 
 Syntax:
 ```javascript
@@ -99,7 +99,7 @@ Output:
 
 In the example above, we have used the project stage to only display the `Name` field, along with a new field called `totalPowerStrength` where the added values will be stored and displayed.
 
-### `$subtract`
+### **`$subtract`**
 
 Syntax:
 ```javascript
@@ -148,7 +148,7 @@ Output:
 }
 ```
 
-### $add and $subtract
+### **`$add` and `$subtract`**
 
 Now that we know how to use each operator, we can also combine them.
 
