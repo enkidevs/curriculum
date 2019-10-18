@@ -20,7 +20,7 @@ category: how to
 ---
 ## Content
 
-### $ceil
+### **`$ceil`**
 
 The `$ceil` operator is used to return the smallest whole number (integer) that is either greater than or equal to the specified number.
 
@@ -58,7 +58,7 @@ Output:
 
 **Note:** If the expression can't evaluate a valid number (the number is missing), it will return `null`.
 
-### $floor
+### **`$floor`**
 
 The `$floor` aggregation operator has the same syntax as `$ceil`.
 
