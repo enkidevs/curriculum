@@ -20,7 +20,7 @@ category: how to
 
 In MongoDB, we can use the `updateOne()` method to update a single document, and the `updateMany()` method to update multiple documents at once.
 
-### Update a single document
+### ***Update a single document***
 
 The `updateOne()` method has 3 parameters `(filter, update, options)`.
 
