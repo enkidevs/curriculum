@@ -6,5 +6,6 @@ insights:
   - aggregation-with-accumulators
   - aggregation-with-accumulators-ii
   - aggregation-with-accumulators-iii
+  - aggregation-with-accumulators-iv
   - aggregation-with-floor-and-ceil
   - aggregation-with-mod
