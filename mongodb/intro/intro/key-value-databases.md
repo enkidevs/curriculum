@@ -25,7 +25,7 @@ links:
 
 When talking about databases, there are multiple types you can choose from. In the following insights we will present the main types with their advantages and disadvantages.
 
-### Key-Value databases
+### ***Key-Value databases***
 
 *Key-Value databases* store data as key-value pairs, also called dictionaries.
 
