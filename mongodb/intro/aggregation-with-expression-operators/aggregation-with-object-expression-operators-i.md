@@ -22,7 +22,7 @@ category: feature
 
 There are two object expression operators that can be used with aggregation in MongoDB. These are `$mergeObjects` and `$objectToArray`.
 
-### $mergeObjects
+### **`$mergeObjects`**
 
 Syntax:
 ```javascript
