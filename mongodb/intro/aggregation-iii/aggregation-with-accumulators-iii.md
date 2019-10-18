@@ -20,7 +20,7 @@ category: how to
 ---
 ## Content
 
-### **`$Push`**
+### **`$push`**
 
 Syntax:
 ```javascript

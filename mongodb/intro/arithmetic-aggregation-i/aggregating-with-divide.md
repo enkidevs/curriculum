@@ -13,14 +13,13 @@ category: how to
 
 ---
 
-# Aggregation With Arithmetic Expression Operators V
+# Aggregating With `$divide`
 
 ---
 ## Content
 
-### **`$divide`**
+Division is performed in MongoDB by using the `$divide` operator. The syntax looks like this:
 
-Syntax:
 ```javascript
 { 
   $divide:  
@@ -31,7 +30,7 @@ Syntax:
 }
 ```
 
-Using the same documents as in the previous insight, we can use the `$divide` operator to calculate the initial power of each `pokemon` by dividing the `power` field by the `age` field (this way we can find the `power` of a pokémon when their age is one).
+Using the same documents as in the previous insights[1], we can use the `$divide` operator to calculate the initial power of each `pokemon` by dividing the `power` field by the `age` field (this way we can find the `power` of a pokémon when their age is one).
 
 **Note:** The expressions are calculated like so `<expression1>` / `<expression2>`.
 
@@ -57,7 +56,7 @@ Output:
   ),
   "Name": "Pikachu", 
   "initialPower": 63.30769230769231 
-}
+},
 { 
   "_id": ObjectId(
     "5d9d8c3f0b24990f19398215"
@@ -72,10 +71,42 @@ Output:
 ---
 ## Practice
 
-Match the explanation with the operator.
+What operator would you use in MongoDB to perform division?
 
-`$divide` - ???
+???
 
+* `$divide`
+* `$multiply`
+* `$slice`
+* `$partition`
 
-* is an arithmetic operator used to divide the 2nd expression to the first (exactly 2 expressions can be used).
-* is an arithmetic operator used to divide any number of expressions.
+---
+## Revision
+
+Which of these are not valid arithmetic operator?
+
+???
+
+* `$addition`
+* `$multiply`
+* `$divide`
+* `$subtract`
+* `$add`
+
+---
+## Footnotes
+
+[1:Previous Documents]
+Here are the documents used in the previous insight:
+```javascript
+{ 
+  "Name": "Pikachu",
+  "Power": 823,
+  "Age": 13
+},
+{ 
+  "Name": "Raichu", 
+  "Power": 1321,
+  "Age": 26
+}
+```

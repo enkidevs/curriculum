@@ -121,7 +121,7 @@ Let's say we have a collection named `students` with 2000 documents. Each studen
 
 
 ```javascript
-db.???.aggregate([
+db.students.???([
   {
     ???: { ???: { $gt: 90 } }
   },
@@ -131,7 +131,7 @@ db.???.aggregate([
 ])
 ```
 
-* `students`
+* `aggregate`
 * `$match`
 * `averageGrade`
 * `$sortByCount`

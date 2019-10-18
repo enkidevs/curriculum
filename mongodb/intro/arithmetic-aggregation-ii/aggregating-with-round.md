@@ -15,19 +15,13 @@ category: feature
 
 ---
 
-# Aggregation With Arithmetic Operators VII
+# Aggregating With `$round`
 
 ---
 ## Content
 
-`$trunc` - Used to truncate an expression to a whole number or the desired decimal place.
-`$round` - Used to round an expression to a whole number or the desired decimal place.
+In case you don't want to truncate your values, Mongo let's you round them using the `$round` operator. The syntax looks like this:
 
-### **`$round`**
-
-The syntax for `$round` is the same as for `$trunc`. 
-
-Syntax:
 ```javascript
 { 
   $round:  
@@ -37,27 +31,9 @@ Syntax:
   ] 
 }
 ```
-They operate similarly, but `$round` is used to round the number up or down to the desired decimal point.
 
-Let's use the same document as above:
-```javascript
-{ 
-  "_id": ObjectId(
-    "5d9d8c330b24990f19398214"
-  ),
-  "Name": "Pikachu", 
-  "initialPower": 63.30769230769231 
-}
-{ 
-  "_id": ObjectId(
-    "5d9d8c3f0b24990f19398215"
-  ),
-  "Name": "Raichu", 
-  "initialPower": 50.80769230769231 
-}
-```
+We're going to use the same documents as in the previous insight[1], and first we want to round with no decimal points. To do this we would write:
 
-Example without decimal points:
 ```javascript
 db.pokemon.aggregate([
   {
@@ -87,6 +63,7 @@ Output:
 ```
 
 **Note:** `$round: ["$initialPower"]` = `$round: ["$initialPower", 0]` 
+
 If we wanted to round with any decimal point, we would write it as `$round: ["$initialPower", NUMBER_HERE]` 
 
 Example with `$round: ["$initialPower", 2]`:
@@ -109,9 +86,31 @@ Example with `$round: ["$initialPower", 2]`:
 ---
 ## Practice
 
-Match the explanation with the operator.
+To round numerical values in Mongo you have to use the ??? operator.
 
-`$round` - ???
+* `$round`
+* `$trunc`
+* `$rounding`
+* `$truncating`
 
-* is an arithmetic operator used to round a positive or negative number up or down to the desired decimal point.
-* is an arithmetic operator only used for rounding positive integers. 
+---
+## Footnotes
+
+[1:Previous Documents]
+Here are the documents we used in the previous insights:
+```javascript
+{ 
+  "_id": ObjectId(
+    "5d9d8c330b24990f19398214"
+  ),
+  "Name": "Pikachu", 
+  "initialPower": 63.30769230769231 
+}
+{ 
+  "_id": ObjectId(
+    "5d9d8c3f0b24990f19398215"
+  ),
+  "Name": "Raichu", 
+  "initialPower": 50.80769230769231 
+}
+```

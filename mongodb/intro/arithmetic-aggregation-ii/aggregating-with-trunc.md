@@ -15,26 +15,12 @@ category: feature
 
 ---
 
-# Aggregation With Arithmetic Operators VI
+# Aggregating with `$trunc`
 
 ---
 ## Content
 
-`$trunc` - Used to truncate an expression to a whole number or the desired decimal place.
-`$round` - Used to round an expression to a whole number or the desired decimal place.
-
-### **`$trunc`**
-
-Syntax:
-```javascript
-{
-  $trunc: [<number>, <place>];
-}
-```
-
-In the previous insight, we used the `$divide` operator to calculate the `initialPower` for each pokémon.
-
-Output documents from previous insight:
+In a previous insight, we used the `$divide` operator to calculate the `initialPower` for each pokémon. The output was:
 ```javascript
 { 
   "_id": ObjectId(
@@ -52,9 +38,16 @@ Output documents from previous insight:
 }
 ```
 
-Now, let's say we have saved these `key: value` pairs with the `insert()` method. We want to truncate them to a value with fewer decimals.
+Notice how the values for `"initialPower"` have many numbers after the decimal point. When presenting your numbers, you might want to make them more readable. One way to do this in MongoDB is to use the `$trunc` operator. This operator is used to truncate to a whole number or to a desired decimal place, and it has the following syntax:
 
-Example:
+```javascript
+{
+  $trunc: [<number>, <place>];
+}
+```
+
+Now, let's say we have saved these `key: value` pairs with the `insert()` method. We want to truncate them to a value with only one decimal. To do this we would write:
+
 ```javascript
 db.pokemon.aggregate([
   {
@@ -82,6 +75,7 @@ Output:
   "truncatedPower": 63.3
 }
 ```
+
 **Note:** The `,1` in `$trunc: ["$initialPower", 1]` represents the decimal place and it means that the value will be truncate to 1 decimal point.
 
 If we wanted to truncate without any decimal points, we would write it as `$trunc: ["$initialPower"]`  or `$trunc: ["$initialPower", 0]`.
@@ -104,16 +98,15 @@ Output:
 
 Similarly, if we wanted to truncate to any different decimal point, we would just add the corresponding number in the aggregation.
 
-
 ---
 ## Practice
 
-Match the explanation with the operator.
+To truncate numbers in MongoDB you have to use the ??? operator.
 
-`$trunc` - ???
-
-* is an arithmetic operator used to truncate a positive or negative number to the desired decimal point.
-* is an arithmetic operator only used to truncate a positive integer.
+* `$trunc`
+* `$reduce`
+* `$truncate`
+* `$makeSmaller`
 
 ---
 ## Revision

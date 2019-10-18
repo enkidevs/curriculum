@@ -15,23 +15,15 @@ category: how to
 
 ---
 
-# Aggregation With Arithmetic Expressions Operators I
+# Aggregating With `$add`
 
 ---
 ## Content
 
-There are a number of arithmetic expressions operators used in aggregation. 
+When working with databases, you're bound to encounter a case in which you need to add, subtract or perform any other arithmetic operation. MongoDB provides many operators suited for this use case that we will discuss in this workout.
 
-These operators are used for numerical calculations.
+Let's start off with one of the simples arithmetic operations, addition. In MongoDB, you have to use the `$add` operator whenever you want to add two or more expressions. The syntax looks like this:
 
-Some operators and explanations:
-
-`$add` - adds 2 or more numbers together and returns a sum.
-`$subtract` - subtracts the second number from the first and returns the difference (accepts exactly 2 expressions).
-
-### **`$add`**
-
-Syntax:
 ```javascript
 { 
   $add:  
@@ -43,9 +35,8 @@ Syntax:
 }
 ```
 
-Let's say we have a `pokemon` collection where each pokémon has 3 power fields: `"Basic"` ,`"Strong"` and `"Ultimate"`. Each field has its own power "level" (number). We can use the `$add` operator to calculate the total strength of all 3 powers.
+Let's say we have a `pokemon` collection where each pokémon has 3 power fields: `"Basic"` ,`"Strong"` and `"Ultimate"`. Each field has its own power "level" (number). Here are two example documents:
 
-Example documents:
 ```javascript
 { 
   "Name": "Pikachu",
@@ -61,7 +52,8 @@ Example documents:
 }
 ```
 
-Example aggregation with `$add`:
+We can use the `$add` operator to calculate the total strength of all 3 powers:
+
 ```javascript
 db.pokemon.aggregate([
   {
@@ -102,9 +94,11 @@ In the example above, we have used the project stage to only display the `Name` 
 ---
 ## Practice
 
-Match the correct explanation with the given operator.
+In MongoDB, we can use the ??? operator to perform addition. The minimum number of expressions that can be used is ???.
 
-`$add` - ???
-
-* is an arithmetic operator used to add two or more expressions, with a minimum of 2.
-* is an arithmetic operator used to add exactly 2 expressions.
+* `$add`
+* 2
+* `$addition`
+* `$sum`
+* 3
+* 1

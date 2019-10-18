@@ -147,19 +147,15 @@ Create a query to find all documents within the `pokemon` collection whose `age`
 
 ```javascript
 db.pokemon.???({
-  ???: [
-    { age: { ???: 23 } },
-    { ???: { ???: 31 } }
-  ]
-})
+  ???: { ???: 23, ???: 31}
+});
 ```
 
 * `find`
-* `$and`
-* `$gte`
 * `age`
+* `$gte`
 * `$lte`
-* `$lt`
 * `$gt`
-* `%and`
+* `$lt`
 * `aggregate`
+* `accumulate`

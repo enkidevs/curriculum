@@ -20,18 +20,13 @@ category: feature
 ---
 ## Content
 
-There are two object expression operators that can be used with aggregation in MongoDB. These are `$mergeObjects` and `$objectToArray`.
+You documents might contains objects instead of numbers or strings. In the aggregation stage, you can use the `$mergeObjects` operator to combine multiple documents and output them as a single document. The syntax looks like this:
 
-### **`$mergeObjects`**
-
-Syntax:
 ```javascript
 { $mergeObjects: <object> }
 ```
 
-The `$mergeObjects` aggregation operator, when aggregating a collection, is used to merge objects from multiple documents and output them as a single document.
-
-The `$mergeObjects` operator ignores any `null` values. Also, if all values are `null` the aggregation would just return an empty document. 
+This operator ignores any `null` values, and, if all values are `null`, the aggregation would just return an empty document. 
 
 **Note:** The `$mergeObjects` operator does not modify the original documents. The aggregation combines the documents and outputs a new temporary document.
 

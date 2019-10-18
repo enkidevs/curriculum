@@ -105,7 +105,7 @@ Let's say we have a collection named `students` with 2000 documents. Each studen
 Count the number of students whose average grade is `95` or above and output the result in a field named `numOfExemplaryStudents`.
 
 ```javascript
-db.???.aggregate([
+db.students.???([
   {
     ???: { ???: { ???: 95 } }
   },
@@ -117,7 +117,7 @@ db.???.aggregate([
 // }
 ```
 
-* `students`
+* `aggregate`
 * `$match`
 * `averageGrade`
 * `$gte`

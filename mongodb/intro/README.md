@@ -16,7 +16,8 @@ sections:
     - aggregation-ii
   '2':
     - crud
-    - aggregation-with-expression-operators
+    - arithmetic-aggregation-i
+    - arithmetic-aggregation-ii
     - aggregation-iii
 standards:
   shell:

@@ -109,13 +109,13 @@ Which of the 2 examples below is a valid `$skip` stage?
 Let's say we have a collection named `games` with 100 documents. Display the 55th and 56th game using aggregation.
 
 ```javascript
-db.???.aggregate(
+db.games.???(
   { ???: 54 },
   { ???: ??? }
 )
 ```
 
-* `games`
+* `aggregate`
 * `$skip`
 * `$limit`
 * `2`

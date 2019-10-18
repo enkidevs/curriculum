@@ -15,16 +15,15 @@ category: feature
 
 ---
 
-# Aggregation With Arithmetic Operators VIII
+# Aggregating With `$round` and `$trunc`
 
 ---
 ## Content
 
-### **`$round` and `$trunc`**
+In the previous insights, we have used a positive integer when truncating or rounding: `$trunc: ["field", 1]`. Using the same documents[1], we will now truncate using a negative number for the decimal place `$trunc: ["field", -1]`. 
 
-In the previous insights, we have used a positive integer when truncating or rounding: `$trunc: ["field", 1]`. Using those same documents from the previos 2 insights, we will now truncate using a negative number `$trunc: ["field", -1]`. In this case, instead of truncating to the right of the decimal, we are truncating to the left of the decimal.
+In this case, instead of truncating to the right of the decimal, we are truncating to the left of the decimal. So, if we were to write this command:
 
-Example with negative input:
 ```javascript
 // Aggregation
 db.pokemon.aggregate([
@@ -40,8 +39,10 @@ db.pokemon.aggregate([
 // Numbers used for input
 638.30769230769231 
 519.80769230769231 
+```
 
-// Output
+We'd get the following documents as output:
+```js
 {   
   "_id": ObjectId(
     "5d9d8c3f0b24990f19398215"
@@ -74,3 +75,25 @@ Match the explanation with the operator.
 * is an arithmetic operator used to truncate a positive or negative number to the desired decimal point.
 * is an arithmetic operator only used for rounding positive integers. 
 * is an arithmetic operator only used to truncate a positive integer.
+
+---
+## Footnotes
+
+[1:Previous Documents]
+Here are the documents we used in the previous insights:
+```javascript
+{ 
+  "_id": ObjectId(
+    "5d9d8c330b24990f19398214"
+  ),
+  "Name": "Pikachu", 
+  "initialPower": 63.30769230769231 
+}
+{ 
+  "_id": ObjectId(
+    "5d9d8c3f0b24990f19398215"
+  ),
+  "Name": "Raichu", 
+  "initialPower": 50.80769230769231 
+}
+```
