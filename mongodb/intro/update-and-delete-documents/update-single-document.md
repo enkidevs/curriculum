@@ -13,7 +13,7 @@ category: how to
 
 ---
 
-# Update a single document
+# Updating a document
 
 ---
 ## Content
