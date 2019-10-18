@@ -23,7 +23,7 @@ In the previous insight, we learned how to aggregate using the `$add` and `$subt
 `$divide` - divides the first expression by the second one and returns the result (accepts exactly 2 expressions).
 `$multiply` - multiplies 2 or more expressions and returns the product.
 
-### $multiply
+### **`$multiply`**
 
 Syntax:
 ```javascript
@@ -89,7 +89,7 @@ In the example above, we have used the project stage to only display the `Name` 
 
 **Note:** In the example, for demonstration purposes we have used only 2 expressions. However, the `$multiply` operator can take in any number of expressions, with a minimum of 2.
 
-### $divide
+### **`$divide`**
 
 Syntax:
 ```javascript
