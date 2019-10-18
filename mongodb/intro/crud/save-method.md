@@ -26,7 +26,8 @@ db.collection.save(<document>)
 
 If we specify an existing `_id` field for the `save()` method, it will work like the `update()` method and replace the document matching the specified `_id` field with the newly specified one.
 
-### Replacing a document
+### ***Replacing a document***
+
 Let's say we have a document where some information is wrong:
 ```javascript
 {
@@ -64,7 +65,7 @@ The `nMatched: 1` means that the `save()` method has matched a single document.
 The `nUpserted: 0` means that no documents were inserted into the collection.
 The `nModified: 1` means that a single document was modified.
 
-### Adding a new document with an `_id` field
+### ***Adding a new document with an `_id` field***
 
 To add a new document to an existing collection, we can add an `_id` field whose value doesn't match any document, like so:
 ```javascript
@@ -91,7 +92,7 @@ The `nUpserted: 1` means one new document was inserted into the collection.
 The `nModified: 0` means 0 documents were modified.
 The `"_id": 777` is the `_id` we specified in our save method.
 
-### Adding a new document without an `_id` field
+### ***Adding a new document without an `_id` field***
 
 Last but not least, we can add a new document to the collection without specifying an `_id` field. If a document is added this way, a new `ObjectID` is created by default.
 Example:
