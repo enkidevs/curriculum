@@ -23,7 +23,7 @@ category: feature
 `$trunc` - Used to truncate an expression to a whole number or the desired decimal place.
 `$round` - Used to round an expression to a whole number or the desired decimal place.
 
-### $trunc
+### **`$trunc`**
 
 Syntax:
 ```javascript
@@ -104,7 +104,7 @@ Output:
 
 Similarly, if we wanted to truncate to any different decimal point, we would just add the corresponding number in the aggregation.
 
-### $round
+### **`$round`**
 
 The syntax for `$round` is the same as for `$trunc`. 
 
@@ -186,7 +186,7 @@ Example with `$round: ["$initialPower", 2]`:
 }
 ```
 
-### $round and $trunc
+### **`$round` and `$trunc`**
 
 In the previous examples, we have used a positive integer when truncating or rounding: `$trunc: ["field", 1]`. Using the same documents as above, we will now truncate using a negative number `$trunc: ["field", -1]`. In this case, instead of truncating to the right of the decimal, we are truncating to the left of the decimal.
 
