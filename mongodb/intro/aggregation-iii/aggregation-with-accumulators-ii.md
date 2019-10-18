@@ -18,7 +18,7 @@ category: how to
 ---
 ## Content
 
-### $max
+### **`$max`**
 
 Syntax:
 ```javascript
@@ -60,7 +60,7 @@ Output:
 ```
 **Note:** If one of the documents (pokémon) in our database doesn't have a value for the field, the `$max` operator returns `null`.
 
-### $min
+### **`$min`**
 
 The `$min` operator behaves the same as the `$max` operator except that it looks for the lowest (minimum) value instead of the highest (maximum) value.
 
