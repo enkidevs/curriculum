@@ -19,7 +19,7 @@ category: must-know
 ---
 ## Content
 
-### Delete a Single Document
+### ***Delete a Single Document***
 
 To delete a single document you should use the `db.mycollection.deleteOne()` method.
 
@@ -50,7 +50,7 @@ db.pokemon.deleteOne({
 
 This method would only delete the first pokémon document of that type. If we wanted to delete all pokémon of that type, we would need to use the `db.pokemon.deleteMany()` method.
 
-### Delete Multiple Documents
+### ***Delete Multiple Documents***
 
 To delete multiple documents within the `pokemon` collection, we need to use the `db.pokemon.deleteMany()` method.
 
