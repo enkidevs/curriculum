@@ -20,7 +20,7 @@ category: how to
 ---
 ## Content
 
-### $Push
+### **`$Push`**
 
 Syntax:
 ```javascript
@@ -75,7 +75,7 @@ Output:
 In the above example, we used the `$group` stage to group documents by their `type` field and then we used the `$push` operator to push the `name` field and value of each document in each grouping as a single array of values per group.
 
 
-### $sum
+### **`$sum`**
 
 Syntax:
 ```javascript
