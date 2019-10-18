@@ -21,7 +21,7 @@ category: must-know
 
 ### Add Single Document
 
-To add a document in MongoDB, you need to use the `db.mycollection.insertOne()` command.
+To add a document in MongoDB, you need to use the `db.mycollection.insertOne()` method.
 
 ```javascript
 db.pokemon.insertOne({
@@ -44,7 +44,7 @@ Output:
 
 ### Add Multiple Documents
 
-To add multiple documents to the `pokemon` database, you need to pass an array of pokémon (documents) to the `db.pokemon.insertMany()` command
+To add multiple documents to the `pokemon` database, you need to pass an array of pokémon (documents) to the `db.pokemon.insertMany()` method.
 
 ```javascript
 db.pokemon.insertMany([
@@ -78,9 +78,9 @@ Output:
 ---
 ## Practice
 
-Command used to add a single document: ???
+Method used to add a single document: ???
 
-Command used to add multiple documents: ???
+Method used to add multiple documents: ???
 
 * `insertOne()`
 * `insertMany()`
