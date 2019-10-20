@@ -79,7 +79,7 @@ print(dict.keys())
 # Output: [1, 2, 3, 4, 5]
 ```
 
-- `pop(key,[d])` : returns the item with the given `key`. If no item is found, the optional `default` argument will be returned
+- `pop(key[, default])` : returns the item with the given `key`. If no item is found, the optional `default` argument will be returned
 
 ```
 print(dict.pop(4))
