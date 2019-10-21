@@ -30,7 +30,7 @@ links:
 
 Consider the following dictionary:
 
-```
+```python
 dict = {1:1, 2:4, 3:9, 4:16, 5:25}
 ```
 
@@ -38,7 +38,7 @@ Python provides a plethora of **methods** intended for dictionaries manipulation
 
 - `clear()`: removes all items from the **dictionary**
 
-```
+```python
 dict.clear()
 print(dict)
 
@@ -47,16 +47,16 @@ print(dict)
 
 - `copy()` : returns a **shallow copy**[1] of the **dictionary**
 
-```
+```python
 new = dict.copy()
 print(new)
 
 # Output: {1:1, 2:4, 3:9, 4:16, 5:25}
 ```
 
-- `get(key,[default])`: the value mapped to the given key; if there's no item with that key, it'll return the optional argument `default`
+- `get(key,[default])`: returns the value mapped to the given key; if there's no item with that key, it'll return the optional argument `default`
 
-```
+```py
 print(dict.get(3))
 
 # Output: 9
@@ -64,25 +64,25 @@ print(dict.get(3))
 
 - `items()`: returns a list composed of all dictionary entries expressed as tuples of the form `(key,value)`
 
-```
+```py
 print(dict.items())
 
 # Output:
-# (2, 4), (3, 9), (4, 16), (5, 25)])
+# [(2, 4), (3, 9), (4, 16), (5, 25)]
 ```
 
 - `keys()` : returns a list of all dictionary `key`s
 
-```
+```py
 print(dict.keys())
 
 # Output: [1, 2, 3, 4, 5]
 ```
 
-- `pop(key[, default])` : returns the item with the given `key`. If no item is found, the optional `default` argument will be returned
+- `pop(key[, default])` : removes the item at the given position (`key`) in the list, and returns its value; if no item is found, the optional `default` argument will be returned
 
-```
-print(dict.pop(4))
+```py
+dict.pop(4)
 print(dict)
 
 # Output:
@@ -90,10 +90,10 @@ print(dict)
 # {1: 1, 2: 4, 3: 9, 5: 25}
 ```
 
-- `popitem()` : returns an arbitrary **item** from the dictionary and `KeyError` if the **dictionary** is empty
+- `popitem()` : removes an arbitrary **item** from the dictionary, and returns it; if the **dictionary** is empty `KeyError` is returned 
 
-```
-print(dict.popitem())
+```py
+dict.popitem()
 print(dict)
 
 # Output:
@@ -103,15 +103,16 @@ print(dict)
 
 - `values()` : lists all the values present in the **dictionary**
 
-```
+```py
 print(dict.values())
 
-# Output: dict_values([1, 4, 9, 16, 25])
+# Output:
+# [1, 4, 9, 16, 25]
 ```
 
 - `fromkeys(seq[, v])`: return a new **dictionary** with keys from `seq` and value equal to `v`
 
-```
+```py
 dict = {}.fromkeys([1,2,3], 0)
 print(dict)
 
@@ -122,7 +123,7 @@ print(dict)
 ## Practice
 
 Suppose we want to create a dictionary having the following keys starting from `1` up to `5` and value `0` assigned to all items. Fill the gaps accordingly:
-```
+```py
 new = ???.???(
   [1, 2, 3, 4, 5], ???)
 ```
@@ -141,7 +142,7 @@ new = ???.???(
 ## Revision
 
 Print all of the keys from the dictionary:
-```
+```py
 num_dict = {1:1, 2:4, 3:9, 4:16, 5:25}
 
 print(???)
