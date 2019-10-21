@@ -91,7 +91,7 @@ Example:
    <option
     value="onion">Onions
    </option>
-  </optgroup
+  </optgroup>
 </select>
 ```
 
