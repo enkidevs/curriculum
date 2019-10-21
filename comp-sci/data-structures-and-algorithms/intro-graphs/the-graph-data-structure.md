@@ -42,7 +42,7 @@ And this is a directed graph:
 
 ![dirgraph](https://img.enkipro.com/68f62123d7690d4b01edb2c7c7a1c9d1.png)
 
-For example, *linked lists* are special a kind of directed graphs.
+For example, *linked lists* are a special kind of directed graphs.
 
 Graphs can be used to represent friendships on social networks. *Facebook*, for instance, is organized as an *undirected graph* (you appear on each other's friend list), while *Twitter*, is organized as a *directed graph* (you can follow someone without them having to follow you back).
 
