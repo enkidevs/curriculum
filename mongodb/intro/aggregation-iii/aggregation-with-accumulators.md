@@ -30,7 +30,7 @@ Some of these are:
 - `$push`
 - `$sum`	
 
-### **`$first`**
+### `$first`
 
 Syntax:
 
@@ -78,7 +78,7 @@ Output:
 
 In the example above, the `$first` operator found all documents of each grouping (in our case grouped by `type`), looked for the `name` of the first document of said `type`, and saved them to a new field called `"nameOfFirst"`. Next, the `$sort` sorted them by the selected grouping in alphabetically ascending order.
 
-### **`$last`**
+### `$last`
 
 The `$last` operator behaves the same as the `$first` operator except that it looks for the last document instead of the first.
 

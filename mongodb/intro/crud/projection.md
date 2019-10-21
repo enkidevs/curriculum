@@ -79,7 +79,7 @@ db.collection_name.find(
 )
 ```
 
-### ***Specifying which fields to display***
+### Specifying which fields to display
 
 Using the same query as above, we are going to add *projection* to only display the `_id` and `name` fields of all documents whose `type` is `Electric`.
 ```javascript
@@ -105,7 +105,7 @@ Output:
 }
 ```
 
-### ***Specifying which fields NOT to display***
+### Specifying which fields NOT to display
 
 Using the same query as above, we are going to add *projection* to omit the `_id`, `name` and `spells` fields and display all other fields for all documents whose `type` is `Electric`.
 ```javascript

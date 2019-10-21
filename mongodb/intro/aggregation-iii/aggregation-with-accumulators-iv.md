@@ -20,7 +20,7 @@ category: how to
 ---
 ## Content
 
-### **`$sum`**
+### `$sum`
 
 Syntax:
 ```javascript

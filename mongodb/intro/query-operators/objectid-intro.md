@@ -22,7 +22,7 @@ In the previous workouts, we used manually inputted `_id`s when creating new doc
 
 Fortunately, MongoDB offers a solution for this problem: auto-generated `ObjectId`s. When creating a document, if you omit the `_id` field, MongoDB will automatically create a unique `_id` for you.
 
-### ***What is an `ObjectId`?***
+### What is an `ObjectId`?
 
 An `ObjectId` is a value made up of 12-byte of type BSON. These 12-byte values are made up of 3 segments:
 - a 4-byte value that represents the seconds since the Unix epoch
@@ -35,7 +35,7 @@ Here is an example of an `ObjectId` value:
 x = ObjectId("507f1f77bcf86cd799439011");
 ```
 
-### ***Why are `ObjectId`s better than manually inputted `_id`s?***
+### Why are `ObjectId`s better than manually inputted `_id`s?
 
 To understand why `ObjectId`s are better, let's start off by taking a look at an example document:
 
