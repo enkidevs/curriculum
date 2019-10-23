@@ -80,7 +80,7 @@ sc.run()
 * sleep
 * 4
 * 1
-* argument=('second')
+* argument=('second',)
 * sc
 
 
