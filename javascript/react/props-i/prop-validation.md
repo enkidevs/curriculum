@@ -35,17 +35,19 @@ aspects:
 
 This helps you in validating if the data (`props`) received in components is valid compared to what you expect. If not, warnings will be displayed in the *JavaScript* console.
 
-All validators are available through `React.PropTypes` and should be specified as part of your *React* component, on the property `propTypes`:
+All validators are available through `PropTypes` which can be imported from the library `prop-types`.
 ```jsx
+import PropTypes from 'prop-types'; // importing PropTypes
+
 // class MyComponent extends ...
 
 MyComponent.propTypes = {
-  myArray: React.PropTypes.array,
-  myBoolean: React.PropTypes.bool,
-  myFunction: React.PropTypes.func,
-  myNumber: React.PropTypes.number,
-  myObject: React.PropTypes.object,
-  myString: React.PropTypes.string,
+  myArray: PropTypes.array,
+  myBoolean: PropTypes.bool,
+  myFunction: PropTypes.func,
+  myNumber: PropTypes.number,
+  myObject: PropTypes.object,
+  myString: PropTypes.string,
 };
 ```
 
@@ -54,7 +56,7 @@ The validations above state that the specified `props` should be **JS** primitiv
  However, they can be required by appending `.isRequired` to the type:
 ```
 MyComponent.propTypes = {
- myFunc: React.PropTypes.func.isRequired,
+ myFunc: PropTypes.func.isRequired,
 };
 ```
 
@@ -68,8 +70,8 @@ Complete the missing validation such that the first prop is a function and the s
 ```jsx
 function Test(props) { return <p>A</p>; };
 Test.propTypes = {
-  myFunction: React.???.???,
-  myObject: React.PropTypes.???,
+  myFunction: ???.???,
+  myObject: PropTypes.???,
 };
 ```
 
@@ -93,8 +95,8 @@ Complete the missing validation such that the first prop is a function and the s
 ```jsx
 function Test(props) { return <p>A</p>; };
 Test.propTypes = {
-  myFunction: React.???.???,
-  myObject: React.PropTypes.???,
+  myFunction: ???.???,
+  myObject: PropTypes.???,
 };
 ```
 
