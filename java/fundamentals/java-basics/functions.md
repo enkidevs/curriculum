@@ -68,7 +68,7 @@ public class Example {
     heyName("Sam");
   }
 }
-// Output: Hey, Sam!;
+// Output: Hey, Sam!
 ```
 ### Non-void Functions
 
