@@ -97,5 +97,5 @@ Is `React.Component`'s `constructor(props)` method considered a **lifecycle hook
 [1:mounting]
 
 **Mounting** refers to the initial insertion of a **React** `component` into the **DOM**.
-Similarly, **unmouting** happens when the `component` is removed from the **DOM**.
+Similarly, **unmounting** happens when the `component` is removed from the **DOM**.
 
