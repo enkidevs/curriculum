@@ -67,8 +67,6 @@ constructor(props) {
 
 - `componentDidUpdate(prevProps, prevState)` - is invoked **after** `render`, but not after the initial one. This method is useful for manipulating the `DOM` when updated
 
-
-
 - `UNSAFE_componentWillUpdate()` - is considered legacy and you should **avoid** it (previously named componentWillUpdate).
 
 - `UNSAFE_componentWillReceiveProps()` - is considered legacy and you should **avoid** it (previously named componentWillReceiveProps).
@@ -87,9 +85,9 @@ What of the following methods is called **after** rendering, but not after the f
 
 * `componentDidUpdate`
 * `componentDidMount`
-* `componentWillUpdate`
-* `componentWillMount`
 * `componentWillUnmount`
+* `getDerivedStateFromProps`
+* `getSnapshotBeforeUpdate`
 * `constructor`
 
 ---
