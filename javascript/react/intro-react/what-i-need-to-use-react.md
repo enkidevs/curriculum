@@ -91,7 +91,7 @@ Which tool will automatically set-up the development environment for a simple `R
 A `JavaScript` **bundler** is a tool that puts your code and all its dependencies together in one `JS` file. There are many of them out there these days, being the most popular ones `browserify` and `webpack`.
 
 [2:Babel]
-`Babel` is a compiler that transforms newer `JS` sytnax (such as `ES6`) into standard `JS` that can run on the browser(or server).
+`Babel` is a compiler that transforms newer `JS` syntax (such as `ES6`) into standard `JS` that can run on the browser(or server).
 You can download `Babel` at:
 ```
 https://babeljs.io/
