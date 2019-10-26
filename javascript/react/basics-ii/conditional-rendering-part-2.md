@@ -61,7 +61,7 @@ function Maybe(props) {
   if (props.not) {
     return null;
   }
-  return <p>Heey</p>;
+  return <p>Hey</p>;
 }
 ```
 

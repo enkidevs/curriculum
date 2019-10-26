@@ -64,6 +64,15 @@ const enki = <Component {...props}
 
 Now the value of `enki.props.content` will be `"other value"`.
 
+The spread operator is useful for passing in all the props of a component to its children.
+```jsx
+function Component(props) {
+  return <ChildComponent {...props}>;
+}
+```
+
+Now ChildComponent has access to the same props as Component.
+
 ---
 ## Practice
 
