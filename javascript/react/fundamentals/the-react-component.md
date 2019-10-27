@@ -83,7 +83,6 @@ Complete the missing gaps such that a `component` is defined using `ES6` syntax:
 * `render`
 * `return`
 * `Enki`
-* `createClass`
 * `createElement`
 
 ---
@@ -103,14 +102,13 @@ class MyComponent extends React.??? {
 * `render`
 * `return`
 * `Enki`
-* `createClass`
 * `createElement`
 
 ---
 ## Footnotes
 [1:ES6 alternative]
 
-If you don't use **React** with `ES6` syntax you can create components with the `React.createClass` helper:
+If you don't use **React** with `ES6` syntax you can create components with the `createReactClass` helper from the `create-react-class` module:
 ```
 var Enki = React.createClass({
   render: function() {
@@ -118,4 +116,4 @@ var Enki = React.createClass({
   }
 });
 ```
-
+However, it is recommended to use the `ES6` syntax as it is the current standard.

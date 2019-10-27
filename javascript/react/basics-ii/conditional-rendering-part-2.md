@@ -65,7 +65,7 @@ function Maybe(props) {
 }
 ```
 
-Keep in mind that when returning `null` during `render`, this won't affect the call on **lifecycle methods** such as `componentWillUpdate`.
+Keep in mind that when returning `null` during `render`, this won't affect the call on **lifecycle methods** such as `componentDidUpdate`.
 
 ---
 ## Practice

@@ -17,7 +17,7 @@ category: best practice
 
 links:
 
-  - '[facebook.github.io](https://facebook.github.io/react/docs/typechecking-with-proptypes.html#react.proptypes){website}'
+  - '[facebook.github.io](https://facebook.github.io/react/docs/typechecking-with-proptypes.html){website}'
 
 parent: destructuring-arguments
 
