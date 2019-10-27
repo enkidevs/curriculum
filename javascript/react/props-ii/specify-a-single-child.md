@@ -16,7 +16,7 @@ category: how to
 
 links:
 
-  - '[facebook.github.io](https://facebook.github.io/react/docs/reusable-components.html#single-child){website}'
+  - '[facebook.github.io](https://facebook.github.io/react/docs/typechecking-with-proptypes.html#requiring-single-child){website}'
 
 parent: custom-proptype-s-to-be-required
 

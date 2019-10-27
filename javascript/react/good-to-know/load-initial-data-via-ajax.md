@@ -11,7 +11,7 @@ type: normal
 category: must-know
 
 links:
-  - '[facebook.github.io](https://facebook.github.io/react/tips/initial-ajax.html){website}'
+  - '[facebook.github.io](https://facebook.github.io/react/docs/faq-ajax.html){website}'
 
 parent: custom-proptype-s-to-be-required
 

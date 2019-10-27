@@ -11,7 +11,7 @@ type: normal
 category: tip
 
 links:
-  - '[facebook.github.io](https://facebook.github.io/react/tips/children-props-type.html){website}'
+  - '[facebook.github.io](https://facebook.github.io/react/docs/jsx-in-depth.html#children-in-jsx){website}'
 
 parent: custom-proptype-s-to-be-required
 
