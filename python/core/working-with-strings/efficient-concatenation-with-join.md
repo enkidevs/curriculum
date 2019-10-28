@@ -29,7 +29,7 @@ notes: ''
 
 ---
 
-# Efficient concatenation with *join()*
+# Efficient concatenation with `join()`
 
 ---
 ## Content
@@ -120,3 +120,5 @@ x += 'enki' # 'enkienki'
 In this example, Python first allocates and creates `'enki'`, before it can allocate and create `'enkienki'`. When concatenating a small number of strings this wouldn't pose a problem, but what would happen if the total number of string that need to be concatenated was over 1000? In this case, each substring would get copied approximately `N/2` times (where `N` represents the number of strings to be concatenated). You can already see why this method does not scale well with a large number of strings.
 
 On the other hand, the `join()` method uses some tricks to find out the memory that needs to be allocated and copying each substring to the new buffer. This means that each string is copied only once, resulting in a performance increase.
+
+Check out this [Stack Overflow thread](https://stackoverflow.com/a/39312172) for more information.
