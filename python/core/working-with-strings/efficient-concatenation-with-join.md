@@ -42,14 +42,14 @@ One disadvantage is that if you want to amend any part of an existing string, yo
 
 Let's see a few examples of how to update strings more efficiently and prevent unnecessary memory usage.
 
-For instance, a naive approach to combining a list of strings into a single string would be to use a loop and string concatenation:
+For instance, a naive approach to combining a list of strings into a single string would be to use a loop and string concatenation[1]:
 ```python
 s = ""
 for substring in list:
   s += substring
 ```
 
-The above code is actually a common mistake when building large strings[1]. Instead, use:
+The above code is actually a common mistake when building large strings[2]. Instead, use:
 
 ```python
 s = "".join(list)
@@ -109,7 +109,10 @@ l = "".join(l)
 ---
 ## Footnotes
 
-[1:Efficient Concatenation]
+[1:String Concatenation]
+In computer programming, string concatenation represents the operation or process of joining two or more character strings in a series. For example, if we wanted to concatenate `"En"` and `"ki"` we would get `"Enki"`. Notice how there is no gap between our character strings. If you wanted to include a space, you would simple have to concatenate a `" "`. If we concatenated `"Enki"`, `" "`, and `"is fun"` we would get `"Enki is fun"`.
+
+[2:Efficient Concatenation]
 To understand why iteratively creating a string with `+=` is inefficient, let's take a look at this example:
 ```py
 x = 'en'
