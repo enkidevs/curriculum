@@ -1,6 +1,6 @@
 name: SQL
 
-description: All about SQL!
+description: The most popular programming language used for managing data in relational databases.
 
 color: 008bb9
 
