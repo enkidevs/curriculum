@@ -43,6 +43,8 @@ This code executes as 2 to the power of 4.
 Example 2:
 ```python
 >>> -3 ** 4
+# This is executed as
+# -(3 ** 4) which results in:
 -81
 >>> 2 ** -2
 0.25
