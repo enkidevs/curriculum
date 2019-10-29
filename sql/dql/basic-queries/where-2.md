@@ -104,17 +104,17 @@ FROM pokemon
   (??? 5 ??? ??? 15); 
 ```
 
-* WHERE
-* total >
-* OR
-* attack >
-* AND
-* attack <
-* IS
-* total GREATER THAN
-* attack MORE THAN
-* total MORE THAN
-* attack GREATER THAN
+* `WHERE`
+* `total >`
+* `OR`
+* `attack >`
+* `AND`
+* `attack <`
+* `IS`
+* `total GREATER THAN`
+* `attack MORE THAN`
+* `total MORE THAN`
+* `attack GREATER THAN`
 
 ---
 ## Revision
@@ -129,16 +129,16 @@ FROM pokemon
 ???;
 ```
 
-* WHERE
-* name = 'bulbasaur' OR
-* name = 'ivysaur' OR
-* name = 'venusaur'
-* name IS
-* OR
-* name IN
-* 'ivysaur'
-* 'bulbasaur'
-* 'venusaur'
+* `WHERE`
+* `name = 'bulbasaur' OR`
+* `name = 'ivysaur' OR`
+* `name = 'venusaur'`
+* `name IS`
+* `OR`
+* `name IN`
+* `'ivysaur'`
+* `'bulbasaur'`
+* `'venusaur'`
 
 ---
 ## Quiz 
