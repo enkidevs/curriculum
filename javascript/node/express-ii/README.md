@@ -1,6 +1,6 @@
 name: express-ii
 
-description: Description of the workout goes here 
+description: Learn how to handle sessions, gzip compressions, logging and virtual hosting in Express.
 
 insights:
   - session-handling-in-express
