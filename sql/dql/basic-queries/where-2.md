@@ -100,8 +100,8 @@ Select all the columns from the `pokemon` table, keeping the rows where the `tot
 ```sql
 SELECT * 
 FROM pokemon
-??? ??? 350 ???
-      ??? 5 ??? ??? 15; 
+??? (??? 350) ???
+  (??? 5 ??? ??? 15); 
 ```
 
 * WHERE
@@ -111,7 +111,6 @@ FROM pokemon
 * AND
 * attack <
 * IS
-* OR
 * total GREATER THAN
 * attack MORE THAN
 * total MORE THAN
