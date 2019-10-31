@@ -78,11 +78,10 @@ string in ES6!`;
 
 What character is used in ES2015 for multi line string variables? ???
 
-
-* Backticks (`)
-* Single quotes (`'`)
-* Double quotes (`"`)
-* Backslash (`\`)
+* ``Backticks (`)``
+* ``Single quotes (')``
+* ``Double quotes (")``
+* ``Backslash (\)``
 
 ---
 ## Revision
