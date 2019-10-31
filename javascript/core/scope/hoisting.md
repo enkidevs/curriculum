@@ -58,6 +58,7 @@ This default behaviour moves all variable declarations to the top of the current
 
 This is how the snippet is actually executed, in order:
 
+```javascript
     var a;
     a = 1;
     function go(){
@@ -66,7 +67,7 @@ This is how the snippet is actually executed, in order:
         a = 2;
     }
     go();
-
+```
 In this case, `a` is redeclared and reset to `undefined` before it is logged.
 
 ---
