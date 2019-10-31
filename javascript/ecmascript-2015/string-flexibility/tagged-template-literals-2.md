@@ -131,12 +131,12 @@ console.log(
 // Number 2 is even
 ```
 
-* processNumber
-* `
-* `)
-* processNumber(
-* processNumber()
-* this.processNumber(
-* String.template(processNumber
-* `))
+* ``processNumber``
+* `` ` ``
+* `` `) ``
+* ``processNumber(``
+* ``processNumber()``
+* ``this.processNumber(``
+* ``String.template(processNumber``
+* `` `)) ``
  
