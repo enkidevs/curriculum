@@ -46,7 +46,7 @@ aspects:
 
 The main difference between the two methods is the way they handle arguments.
 
-For the `.apply` method, we have to pass an array of arguments, and for the `.call` method we have to pass the arguments one by one.
+For the `.apply` method, we have to pass in an array of arguments, but for the `.call` method we have to pass in the arguments one by one.
 
 **Example**
 
