@@ -43,7 +43,7 @@ console.log(Enki);
 
 ```
 
-In contrast, a variable can be assigned the value `null`. In which case it is considered *defined* (even though it's set to nothing):
+In contrast, a variable can be assigned the value `null`. In which case it is considered *defined* (even though it's set to a special value that represents nothing):
 ```
 var Enki = null;
 console.log(Enki);
