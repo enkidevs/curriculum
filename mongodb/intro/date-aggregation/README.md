@@ -7,3 +7,4 @@ insights:
   - aggregation-with-date-expression-operators-ii
   - aggregation-with-date-expression-operators-iii
   - aggregation-with-date-expression-operators-iv
+  - aggregation-with-date-expression-operators-v
