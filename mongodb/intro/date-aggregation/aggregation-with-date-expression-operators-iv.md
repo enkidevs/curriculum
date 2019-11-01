@@ -51,7 +51,7 @@ Output:
 
 The `$week` date operator is used to extract the exact week of the year the document was made on. The output goes from 1-53.
 
-**Note:** The weeks start on Sunday(`1`) on each year. If the year stars on any other day, those days belong in week `0` and week `1` starts from the first Sunday of that year.
+**Note:** The weeks start counting on Sunday(`1`) each year. If the year stars on any other day, those days belong in week `0` and week `1` starts from the first Sunday of that year.
 
 Example:
 ```js
@@ -144,31 +144,3 @@ Here is the document used in the previous insight:
   "Date": ISODate("2019-10-09T07:21:14Z")
 }
 ```
-
-
-
-
-
-
-db.pokemon.aggregate(
-   [
-     {$match: {"name": "Bulbasaur"}},
-     {
-       $project:
-         {
-           dayOfYear: { $dayOfYear: "$date" },
-            year: { $year: "$date" },
-           month: { $month: "$date" },
-           day: { $dayOfMonth: "$date" },
-           hour: { $hour: "$date" },
-           minutes: { $minute: "$date" },
-           seconds: { $second: "$date" },
-           milliseconds: { $millisecond: "$date" },
-           dayOfWeek: { $dayOfWeek: "$date" },
-           week: { $week: "$date" },
-           _id: 0
-         }
-     }
-   ]
-)
-{ "dayOfYear" : 282, "year" : 2019, "month" : 10, "day" : 9, "hour" : 7, "minutes" : 21, "seconds" : 14, "milliseconds" : 0, "dayOfWeek" : 4, "week" : 40 }
