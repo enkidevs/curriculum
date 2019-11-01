@@ -20,11 +20,11 @@ category: how to
 ---
 ## Content
 
-Now that we know how to extract the date into an ISODate format, we can use some aggregation operators to find the exact time that document was made as precise as in milliseconds.
+Now that we know how to extract the date into an ISODate format, we can use some aggregation operators to find the exact time that the document was made as precise as in milliseconds.
 
 **Note:** For easier readability and comprehension of date operators, we will be using the date from the `name:"Bulbasaur"` document shown in the previous insight. **(The document will also be in the footnotes of every insight of this workout)**
 
-**NoteL** All 10 date operators have the exact same syntax:
+**Note:** All 10 date operators have the same syntax:
 
 ```js
 {
@@ -147,7 +147,7 @@ Fill in the blanks:
 
 The ??? operator is used to extract the year portion of the ISODate.
 The ??? operator is used to extract the month the document was made as a ???
-The ??? operator is used to extract the day of the month the doocument was created on.
+The ??? operator is used to extract the day of the month the document was created on.
 
 * `$year`
 * `$month`
