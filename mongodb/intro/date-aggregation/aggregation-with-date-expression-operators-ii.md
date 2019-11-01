@@ -22,7 +22,7 @@ category: how to
 
 Now that we know how to extract the date into an ISODate format, we can use some aggregation operators to find the exact time that the document was made as precise as in milliseconds.
 
-**Note:** For easier readability and comprehension of date operators, we will be using the date from the `name:"Bulbasaur"` document shown in the previous insight. **(The document will also be in the footnotes of every insight of this workout)**
+**Note:** For easier readability and comprehension of date operators, we will be using the date from the `name:"Bulbasaur"` document shown in the previous insight. **(The document will also be in the footnotes of every insight of this workout under Previous Document[1])**
 
 **Note:** All 10 date operators have the same syntax:
 
