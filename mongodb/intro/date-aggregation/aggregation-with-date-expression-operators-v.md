@@ -14,13 +14,13 @@ category: must-know
 links:
 
 ---
-# ObjectId
+# Aggregation with all 10 date expression operators
 ---
 ## Content
 
 Now that we've seen all 10 date operators and know which part of the date each is responsible for, here is an example of all operators used in the same aggregation.
 
-**Note:** Same document as in the previous insights. (check footnotes)
+**Note:** Same document as in the previous insights. (check footnotes Previous Document[1])
 
 Example with all operators:
 ```js
