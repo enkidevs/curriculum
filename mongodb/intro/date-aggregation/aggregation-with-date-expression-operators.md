@@ -15,7 +15,7 @@ category: how to
 
 ---
 
-# Aggregation With Date Expression Operators
+# Intro to Aggregation With Date Expression Operators
 
 ---
 ## Content
@@ -27,13 +27,13 @@ There are a total of 10 operators that can be used to aggregate a collection by 
 These are:
 - `$year`
 - `$month`
+- `$dayOfMonth`
 - `$week`
 - `$hour`
 - `$minute`
 - `$second`
 - `$milisecond`
 - `$dayOfYear`
-- `$dayOfMonth`
 - `$dayOfWeek`
 
 In a previous workout, we learned what `ObjectId`s are and how to extract the date in the ISODate format. 
@@ -43,20 +43,20 @@ Short reminder:
 Let's say we have this pokémon(document).
 ```javascript
 { 
-	"_id": ObjectId("5d9d8a6a0b24990f19398209"),
-    "name": "Bulbasaur",
-	"type": "Grass"
+  "_id": ObjectId("5d9d8a6a0b24990f19398209"),
+  "name": "Bulbasaur",
+  "type": "Grass"
+}
 ```
 
-We can copy the ObjectId: `ObjectId("5d9d8a6a0b24990f19398209")` and add `.getTimestamp()` after it and hit enter.
+We can copy the ObjectId: `ObjectId("5d9d8a6a0b24990f19398209")` and add the `.getTimestamp()` method after it in our `mongodb` Shell and hit enter.
 
 This will output the date part from the ObjectId in an ISODate format.
+
 Output:
 ```javascript
 ISODate("2019-10-09T07:21:14Z")
 ```
-
-**Note:** For easier readability and comprehension of date operators, we will be using the date from the above document. 
 
 ---
 ## Practice
