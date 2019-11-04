@@ -57,7 +57,7 @@ Let's visit each point and quickly understand the concepts behind each; we've al
 
 ### Prevention of Side Effects
 
-Side effects are unintended consquences of calling some function which the programmer is unaware of and can therefore cause undefined behaviour. In all but the most pure functional programming side-effects are unavoidable; the key is to ensure they are controlled and minimised.
+Side effects are unintended consequences of calling some function which the programmer is unaware of and can therefore cause undefined behaviour. In all but the most pure functional programming side-effects are unavoidable; the key is to ensure they are controlled and minimised.
 
 Immutable objects help with this as they automatically rule out a whole class of side effects which take place after an object's creation. Unlike with mutable objects, nothing can change an immutable object after creation and therefore it is impossible to encounter bugs caused by a function changing an object the programmer did not intend to as part of its routine.
 
