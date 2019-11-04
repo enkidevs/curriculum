@@ -67,7 +67,7 @@ cube() // 0
 ---
 ## Revision
 
-What will be output?
+What will be the output of this code?
 
 ```javascript
 function square(a = 1) {
