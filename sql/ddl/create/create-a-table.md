@@ -128,7 +128,7 @@ Which of the following queries would create this table:
 ## Footnotes
 [1:Data Types]
 Each object in a table holds an attribute (*data type*) that specifies the type of data that it can hold: numbers, text, date & time, monetary data and others.
-[2:INTEGER]
-An integer represents a whole number or a number which is not a fraction.
-[3:VARCHAR]
+[2:VARCHAR]
 This type is used for columns which will store a string of characters (can be letters, digits and so on).
+[3:INTEGER]
+An integer represents a whole number or a number which is not a fraction.
