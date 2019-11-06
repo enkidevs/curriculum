@@ -59,7 +59,7 @@ class Pure extends React.PureComponent {
 
 The **NotPure** component would render every time **this.props.className** updates, even if its value stays the same, whereas **Pure** would render only if **this.props.className** updates to a different value.
 
-Note that `PureComponent` only shallowly compares the objects, meaning it the **prop**s or **state** contains complex data structures, it may produce false-negatives for deeper differences. Only use `PureComponent` if the component has simple **prop**s and **state**.
+Note that `PureComponent` only shallowly compares the objects, meaning if the **prop**s or **state** contains complex data structures, it may produce false-negatives for deeper differences. Only use `PureComponent` if the component has simple **prop**s and **state**.
 
 ### React.memo
 
