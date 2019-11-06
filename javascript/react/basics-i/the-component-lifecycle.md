@@ -92,7 +92,7 @@ Is `React.Component`'s `constructor(props)` method considered a **lifecycle hook
 * only when setting `state`
 * if only accompanied by other **lifecycle methods**
 
----1
+---
 ## Footnotes
 [1:mounting]
 
