@@ -98,14 +98,13 @@ Complete the following code snippet:
 Complete the following code snippet:
 ```javascript
 // convert 132 to base 16
-(???).???(???)
+(???).toString(???)
 
 // convert "ead2" from base 15 to base 2
 ???("ead2",???).???(???);
 ```
 
 * 132
-* toString
 * 16
 * parseInt
 * 15

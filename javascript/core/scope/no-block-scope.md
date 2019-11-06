@@ -100,6 +100,7 @@ function bar() {
   }
   alert(a); // ???
 }
+bar()
 ```
 
 * 0
