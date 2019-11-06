@@ -32,7 +32,7 @@ aspects:
 ---
 ## Content
 
-# React.PureComponent
+### React.PureComponent
 
 `React.PureComponent` can be used instead of `React.Component`. `React.PureComponent` implements the `shouldComponentUpdate()` lifecycle automatically with shallow prop and state comparison.
 
@@ -61,7 +61,7 @@ The **NotPure** component would render every time **this.props.className** updat
 
 Note that `PureComponent` only shallowly compares the objects, meaning it the **prop**s or **state** contains complex data structures, it may produce false-negatives for deeper differences. Only use `PureComponent` if the component has simple **prop**s and **state**.
 
-# React.memo
+### React.memo
 
 `React.memo` achieves the same as `React.PureComponent`, but it is used for **function**s instead.
 
