@@ -38,8 +38,6 @@ aspects:
 
 Since **React 0.14** it is possible to define components as a simple function:
 ```
-import 
-
 let comp = ({enki}) => <h1>{enki}</h1>;
 ```
 
