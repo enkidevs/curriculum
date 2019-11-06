@@ -63,18 +63,6 @@ ReactDOM.render(
 ```
 
 ---
-## Revision
-
-What do you think about generating state from props in `this.state` in the constructor?
-
-???
-
-* it's an anti-pattern
-* it's a good practice
-* can cause application crashes
-* it's useful when working with many props
-
----
 ## Practice
 
 Which of the following two components do you think employs the best practice for passing props?
@@ -112,4 +100,14 @@ class B extends React.Component {
 * both
 * neither
 
+---
+## Revision
 
+What do you think about generating state from props in `this.state` in the constructor?
+
+???
+
+* it's an anti-pattern
+* it's a good practice
+* can cause application crashes
+* it's useful when working with many props
