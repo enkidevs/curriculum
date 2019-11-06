@@ -65,16 +65,18 @@ Fragments declared with explicit `React.Fragment` syntax may have keys. This is 
 
 ```javascript
 function Enki(props) {
-    return (
-        <dl>
-            {props.items.map(item => (
-                // Without the `key`, React will fire a key warning
-                <React.Fragment key={item.id}>
-                    <dt>{item.subject}</dt>
-                    <dd>{item.description}</dd>
-                </React.Fragment>
-            ))}
-    );
+  return (
+    <dl>
+      {props.items.map(item => (
+        // Without the `key`,
+        // React will fire a key warning
+        <React.Fragment key={item.id}>
+          <dt>{item.subject}</dt>
+          <dd>{item.description}</dd>
+        </React.Fragment>
+      ))}
+    </dl>
+  );
 }
 ```
 
@@ -87,15 +89,16 @@ Complete the snippet below which maps a collection to an array of fragments:
 
 ```javascript
 function Enki(props) {
-    return (
-        <dl>
-            {props.items.???(item => (
-                <React.Fragment ???={item.id}>
-                    <dt>{item.subject}</dt>
-                    <dd>{item.description}</dd>
-                </React.???>
-            ))}
-    );
+  return (
+    <dl>
+      {props.items.???(item => (
+        <React.Fragment ???={item.id}>
+          <dt>{item.subject}</dt>
+          <dd>{item.description}</dd>
+        </React.???>
+      ))}
+    </dl>
+  );
 }
 ```
 
@@ -110,7 +113,9 @@ function Enki(props) {
 ---
 ## Revision
 
-What is a shorter syntax for the `React.Fragment` tag? ???
+What is a shorter syntax for the `React.Fragment` tag? 
+
+???
 
 
 * `<>`
