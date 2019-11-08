@@ -14,11 +14,11 @@ category: must-know
 links:
 
 ---
-# Aggregation with all 10 date expression operators
+# Aggregation With All Date Operators
 ---
 ## Content
 
-Now that we've seen all 10 date operators and know which part of the date each is responsible for, here is an example of all operators used in the same aggregation.
+Now that we've seen all the date operators and know how to use them, let's take a look at an example of all operators being used in the same aggregation.
 
 **Note:** We are using the same document[1] as in the previous insights.
 
