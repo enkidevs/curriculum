@@ -15,7 +15,7 @@ category: how to
 
 ---
 
-# Aggregation With $year, $month and $dayOfMonth
+# Aggregation With `$year`, `$month` and `$dayOfMonth`
 
 ---
 ## Content
