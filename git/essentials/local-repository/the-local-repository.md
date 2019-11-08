@@ -18,8 +18,8 @@ inAlgoPool: false
 
 links:
 
-  - '[git-scm.com](https://git-scm.com/book/en/v2/Getting-Started-Git-Basics#The-Three-States){website}'
-  - '[blog.udemy.com](https://blog.udemy.com/git-tutorial-a-comprehensive-guide/#6_1){website}'
+  - '[The Three States Official Documentation](https://git-scm.com/book/en/v2/Getting-Started-Git-Basics#The-Three-States){website}'
+  - '[Git Tutorial Udemy.com](https://blog.udemy.com/git-tutorial-a-comprehensive-guide/#6_1){website}'
 
 
 ---
