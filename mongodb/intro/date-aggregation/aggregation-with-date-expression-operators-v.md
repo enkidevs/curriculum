@@ -78,7 +78,7 @@ db.pokemon.aggregate([
       Seconds: { ???: "$Date" },
       Milliseconds: { ???: "$Date" },
       Week: { ???: "$Date" },
-      DayOfTheWeek: { ???k: "$Date" },
+      DayOfTheWeek: { ???: "$Date" },
       _id: 0
     }
   }
@@ -95,6 +95,15 @@ db.pokemon.aggregate([
 * `$millisecond`
 * `$week`
 * `$dayOfWeek`
+* `$dayOfTheYear`
+* `$dayOfTheMonth`
+* `$dayOfTheWeek`
+* `$Year
+* `$Hour`
+* `$Second`
+* `$Minute`
+* `$Week`
+* `$Month`
 
 ---
 ## Footnotes
