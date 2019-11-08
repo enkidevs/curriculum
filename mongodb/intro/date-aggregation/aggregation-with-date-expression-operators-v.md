@@ -20,7 +20,7 @@ links:
 
 Now that we've seen all 10 date operators and know which part of the date each is responsible for, here is an example of all operators used in the same aggregation.
 
-**Note:** Same document as in the previous insights. (check footnotes Previous Document[1])
+**Note:** We are using the same document[1] as in the previous insights.
 
 Example with all operators:
 ```js
