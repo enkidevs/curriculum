@@ -24,27 +24,24 @@ Now that we've seen all the date operators and know how to use them, let's take 
 
 Example with all operators:
 ```js
-db.pokemon.aggregate(
-   [
-     {$match: {"name": "Bulbasaur"}},
-     {
-       $project:
-         {
-           dayOfTheYear: { $dayOfYear: "$Date" },
-           Year: { $year: "$Date" },
-           Month: { $month: "$Date" },
-           DayOfTheMonth: { $dayOfMonth: "$Date" },
-           Hour: { $hour: "$Date" },
-           Minutes: { $minute: "$Date" },
-           Seconds: { $second: "$Date" },
-           Milliseconds: { $millisecond: "$Date" },
-           Week: { $week: "$Date" },
-           DayOfTheWeek: { $dayOfWeek: "$Date" },
-           _id: 0
-         }
-     }
-   ]
-)
+db.pokemon.aggregate([
+  { $match: { name: "Bulbasaur" } },
+  {
+    $project: {
+      dayOfTheYear: { $dayOfYear: "$Date" },
+      Year: { $year: "$Date" },
+      Month: { $month: "$Date" },
+      DayOfTheMonth: { $dayOfMonth: "$Date" },
+      Hour: { $hour: "$Date" },
+      Minutes: { $minute: "$Date" },
+      Seconds: { $second: "$Date" },
+      Milliseconds: { $millisecond: "$Date" },
+      Week: { $week: "$Date" },
+      DayOfTheWeek: { $dayOfWeek: "$Date" },
+      _id: 0
+    }
+  }
+]);
 ```
 
 Output:
@@ -68,27 +65,24 @@ Output:
 
 Fill in the blanks below to get all parts of the date the document with `name: "Bulbasaur"` was created on.
 ```js
-db.pokemon.aggregate(
-   [
-     {$match: {"name": "Bulbasaur"}},
-     {
-       $project:
-         {
-           dayOfTheYear: { ???: "$Date" },
-           Year: { $year: "$Date" },
-           Month: { $month: "$Date" },
-           DayOfTheMonth: { $dayOfMonth: "$Date" },
-           Hour: { $hour: "$Date" },
-           Minutes: { $minute: "$Date" },
-           Seconds: { $second: "$Date" },
-           Milliseconds: { $millisecond: "$Date" },
-           Week: { $week: "$Date" },
-           DayOfTheWeek: { $dayOfWeek: "$Date" },
-           _id: 0
-         }
-     }
-   ]
-)
+db.pokemon.aggregate([
+  { $match: { name: "Bulbasaur" } },
+  {
+    $project: {
+      dayOfTheYear: { ???: "$Date" },
+      Year: { ???: "$Date" },
+      Month: { ???: "$Date" },
+      DayOfTheMonth: { ???: "$Date" },
+      Hour: { ???: "$Date" },
+      Minutes: { ???: "$Date" },
+      Seconds: { ???: "$Date" },
+      Milliseconds: { ???: "$Date" },
+      Week: { ???: "$Date" },
+      DayOfTheWeek: { ???k: "$Date" },
+      _id: 0
+    }
+  }
+]);
 ```
 
 * `$dayOfYear`
