@@ -98,7 +98,7 @@ db.pokemon.aggregate([
 * `$dayOfTheYear`
 * `$dayOfTheMonth`
 * `$dayOfTheWeek`
-* `$Year
+* `$Year`
 * `$Hour`
 * `$Second`
 * `$Minute`
