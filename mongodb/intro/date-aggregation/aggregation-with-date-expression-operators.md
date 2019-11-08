@@ -61,7 +61,7 @@ ISODate("2019-10-09T07:21:14Z")
 ---
 ## Practice
 
-Which method is used to extract the date from an ObjectId value in an ISODate format?
+Which method is used to extract the date from an `ObjectId` value in an ISODate format?
 
 ???
 
