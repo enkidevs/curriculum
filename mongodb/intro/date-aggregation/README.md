@@ -1,4 +1,4 @@
-name: Aggregation with date
+name: Aggregation With Date
 
 description: Use different date expression operators to extract different parts of the date from the ObjectId into an ISODate
 
