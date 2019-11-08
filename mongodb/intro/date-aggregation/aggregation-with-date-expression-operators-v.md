@@ -66,7 +66,7 @@ Output:
 ---
 ## Practice
 
-Fill in the blanks bellow to get all parts of the date the document with a `name`: `"Bulbasaur"` was created on.
+Fill in the blanks below to get all parts of the date the document with `name: "Bulbasaur"` was created on.
 ```js
 db.pokemon.aggregate(
    [
