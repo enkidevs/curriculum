@@ -10,11 +10,12 @@ type: normal
 category: must-know
 
 aspects:
-  
   - deep
   - obscura
   - workout
 
+link:
+  - '[Difference between git reset --soft and --hard](https://stackoverflow.com/questions/3528245/whats-the-difference-between-git-reset-mixed-soft-and-hard){website}'
 
 ---
 
