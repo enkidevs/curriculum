@@ -19,73 +19,105 @@ aspects:
   - deep
 
 ---
-# ReactDOM.render ref
+# `ReactDOM.createRef`
 
 ---
 ## Content
 
-Even though *reactive* data flow always ensures that latest props are sent to each child outputted from `render()`, there are few cases where it's necessary or beneficial to *reach out* to component instances. This is done via `refs` (references).
+Even though *reactive* data flow always ensures that the latest props are sent to each child outputted from `render()`, there are few cases where it's necessary or beneficial to *reach out* to component instances. This is done via `refs` (references).
 
-The `ReactDOM.render()` function (different from the component `render()`) will return a reference to **DOM** node (virtual component's **backing instance**).
-
-```jsx
-var comp = ReactDOM.render(<Enki />,
-  container);
-```
-
-An important distinction to make is that **JSX** doesn't return component instances, but `ReactElement`s which are lightweight representation of how mounted components should look like:
+To create a reference, you must call `React.createRef()` in the `constructor()` method, followed by attaching said reference to a React element using the `ref` attribute.
 
 ```jsx
-var compElement = <Enki />; //ReactElement
-var compInstance = ReactDOM.render(
-  compElement, container);
-
-compInstance.doSomething();
+class EnkiComponent extends React.Component{
+  constructor(props) {
+    super(props);
+    this.myRef = React.createRef();
+  }
+  render() {
+    return <div ref={this.myRef} />;
+  }
+}
 ```
 
-It's advisable that this shouldn't be used at the *top level*. Instead `props` and `state` should handle communication with child components.
+Now, the node reference becomes accessible by calling the `.current` method:
+
+```jsx
+const nodeReference = this.myRef.current;
+```
+
+Depending on the type of node it is applied to, the `current` value of `ref` differs as such:
+
+* on an HTML element, the `ref` receives the underlying DOM element
+* on a class component, the `ref` receives the mounted instance of the component
+
+Although functional components can't have `ref` as their attribute (because they don't have instances), it is possible to use `ref` inside a functional component if they are used on a class component or DOM element:
+
+```jsx
+function EnkiComponent(props) {
+  // myRef has to be declared here
+  // so it can be referenced
+  let myRef = React.createRef();
+
+  function handleClick() {
+    myRef.current.focus();
+  }
+
+  return (
+    <div>
+      <input type="text" ref={myRef} />
+
+      <input
+        type="button"
+        value="Focus the text input"
+        onClick={handleClick}
+      />
+    </div>
+  );
+}
+```
+
+It's advisable that `ref`s shouldn't be used at the *top-level*. Instead `props` and `state` should handle communication with child components.
 
 ---
 ## Practice
 
-What will the following call return?
+Which of the following can't have `ref` as an attribute:
 
 ???
 
-```javascript
-var x = <Enki />
-```
-
-What will the following call return?
-
-```javascript
-var y = ReactDOM.render(
-  <Enki />, container
-)
-```
-
-Suppose the Enki component has a method `sayHello`. Which of the two variables above will be allowed to call it like:
-
-```javascript
-???.sayHello()
-```
-
-* element instance
-* y
-* component instance
-* x
-* DOM
-* ReactDOM
-* variable
-* constant
+* functional components
+* class components
+* HTML elements
 
 ---
 ## Revision
 
-What method will return a `ref` to a component?
+Complete the following code to create the `coolRef` reference:
 
-???
+```jsx
+class Enki extends React.Component {
+  constructor(props) {
+    super(props);
+    this.??? = React.???;
+  }
 
-* ReactDOM.render()
-* render()
+  render() {
+    return (
+      <div>
+        <h1>Nice title</h1>
+        <div ???={???.coolRef} />
+      </div>
+    );
+  }
+}
+```
 
+* coolRef
+* createRef()
+* ref
+* this
+* coolReference
+* createRef
+* reference
+* that
