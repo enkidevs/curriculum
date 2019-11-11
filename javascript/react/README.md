@@ -17,4 +17,5 @@ sections:
     - props-iii
     - redux-i
     - redux-tips
+    - introduction-to-hooks
     - hooks-i

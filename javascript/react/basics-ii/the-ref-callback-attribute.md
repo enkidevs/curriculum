@@ -55,7 +55,6 @@ render() {
 In the `ref` callback function above, `in` (input) will be:
 
 - the underlying **DOM** element or **React** component *instance* when `<input />` is **mounted**
-
 - `null` when `<input />` is **unmounted**
 
 The referenced element is now accessible via `this.myInput`:

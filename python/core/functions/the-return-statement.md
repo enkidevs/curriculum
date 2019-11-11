@@ -26,7 +26,7 @@ standards:
 
 Python's `return` statement exits a function and passes back an expression to the function caller. It is used to return the *flow of control* with an *output result* to the function call.
 
-A return statement without any arguments is the same as returning `None.none`, which is a special type in Python which represents 'nothing'.
+A return statement without any arguments is the same as returning `None`, which is a special type in Python which represents 'nothing'.
 
 All Python functions implicitly contain a `return None` statement at the end unless you have written your return statement.
 

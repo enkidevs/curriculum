@@ -18,24 +18,22 @@ aspects:
   - introduction
 
 ---
-# Why use **React**?
+# Why use React?
 
 ---
 ## Content
 
-**React** is considered a great choice for building the **UI** of web applications - be it simple *SPAs*[1] or
-large projects with numerous authors due to the **self-containing** nature of its *components*.
+**React** is considered a great choice for building the **UI** of web applications - be it simple *SPAs*[1] or large projects with numerous authors due to the **self-containing** nature of its *components*.
 
 In addition to the previously stated reasons developers are eager to adopt this library, **React** comes with many more interesting features such as:
 
-- great *performance* as a result of the **Virtual DOM** diff algorithm
-- **React**'s syntax is simple. Unlike other popular `JS` frameworks with specific syntax, **React** makes use of pure `JS`
+- great *performance* as a result of the **Virtual DOM** diff algorithm[2]
+- **React**'s syntax is declarative[3]
 - easier debugging with **out-of-the-box tools** such as `React Chrome Extension`
-- **React** is good for *Search Engine Optimisation* when employing server-side rendering
-- knowing **React** allows you to easily switch to **React Native** to build applications
+- knowing **React** allows you to easily switch to **React Native** to build native mobile applications
 
-**React Native** is a different `JS` open source library released by *Facebook* that follows the same design patterns as **React**.
-It's used to create applications for specific operating systems such as `Android`, `iOS` or `UWP`[2], but it lets you share a large percentage of code between them.
+
+**React Native** is a different JS open-source library released by *Facebook* that follows the same design patterns as **React**. It's used to create applications for specific operating systems such as `Android`, `iOS` or `UWP`[4], but it lets you share a large percentage of code between them.
 
 ---
 ## Practice
@@ -68,7 +66,19 @@ Which one of the following improves **React**'s performance the most?
 
 **Single-Page Applications** (SPAs) are Web apps that load a single `HTML` page and dynamically update that page as the user interacts with the app.
 
-[2:UWP]
+[2:VDOM]
+The Virtual DOM (or VDOM) is a programming concept in which a "virtual" representation of the DOM is kept in memory. It is synced with the "real" DOM by using a library, which in React's case is the `ReactDOM` library. The Virtual DOM provides increased performance because it reduces the need for expensive interactions with the actual DOM. Most data changes in React stay in the virtual, in-memory DOM and only propagate to the actual DOM if necessary.
+```jsx
+<div className="first" />
+
+<div className="second"/>
+```
+In this case, React knows to only modify the `className` on the underlying DOM node. For more information on the **diff algorithm** that React uses, make sure to check out [this article](https://reactjs.org/docs/reconciliation.html).
+
+[3:Declarative Syntax]
+This means that you write your code such that it describes what you want to do, not how you want to do it. Figuring out how is an implementation detail of the runtime system.
+
+[4:UWP]
 
 **Universal Windows Platform** (UWP), is a platform-homogeneous application architecture created by *Microsoft* intended to help the development of universal applications that can run on multiple types of devices (*PC* and *Mobile*).
 

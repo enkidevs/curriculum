@@ -29,42 +29,69 @@ Example of a simple pure function:
 
 ```javascript
 function doublePure(x) {
-  return 2*x;
- }
+  // do not change the object x.
+  // instead return a new object
+  // with the change applied to it.
+  return { ...x, num: x.num * 2 };
+}
 ```
 
 **Pure** functions must always return a new object and not modify the argument. For example, if we want to decrement every element of an `array`, the **pure** way to do it's by creating a new array with the same elements, but decremented.
 
-On the contrary, **impure** functions don't have a predictable behaviour as they might call the network, the database, modify the **DOM** or even alter the value/s passed to them.
+On the contrary, **impure** functions don't have a predictable behavior as they might call the network, the database, modify the **DOM** or even alter the value/s passed to them.
 
 Example:
 ```javascript
 function doubleImpure(x) {
-  x= 2 * x;
+  // change the object x.
+  // this mutation affects the object
+  // outside the lifetime of doubleImpure
+  // which is not "pure"
+  x.num = x.num * 2;
   return x;
 }
 ```
 
----
-## Practice
+Another good example of **pure** versus **impure**  functions is this:
 
-Are the following functions pure or impure?
-
-```javascript
-function a(x) {
-  x = 'enki'
-  return x
+```js
+function increasePure(x) {
+  // for the same number x, 
+  // we always get 2 * x
+  return 2 * x;
 }
 
-function b(x){
-  return 'enki'
+function increaseImpure(x) {
+  // for any number x, we'll probably get
+  // a larger number but we can't
+  // predictably tell which one
+  return x * randomInteger();
 }
 ```
 
+The **pure** function provides a predictable and consistent output for the same input, while the **impure** function does not.
+
+---
+## Practice
+
+Consider these functions:
+
+```javascript
+function a(x) {
+  return x * x;
+}
+
+function b(x) {
+  return Math.random() * x;
+}
+```
+
+Would you say function `a` is pure or impure? What about function `b`?
+
 ???
 
-* impure, pure
 * pure, impure
+* impure, pure
 * impure, impure
 * pure, pure
 

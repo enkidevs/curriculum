@@ -44,7 +44,7 @@ Of these options npm is usually seen as the current best-choice.
 ---
 ## Practice
 
-Which of the following is not a JavaScript package manger?
+Which of the following is not a JavaScript package manager?
 
 ???
 
