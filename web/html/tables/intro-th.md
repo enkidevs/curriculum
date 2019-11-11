@@ -35,7 +35,7 @@ links:
 ---
 ## Content
 
-The HTML `<th>` element  stands to "tabular headers" and is used to specify a header cell for a group of table cells within a table. The `<th>` element has to nested within a `<tr>` element. By default, the text within a `<th>` element will appear centered and bold.
+The HTML `<th>` element  stands to "tabular headers" and is used to specify a header cell for a group of table cells within a table. The `<th>` element has to be nested within a `<tr>` element. By default, the text within a `<th>` element will appear centered and bold.
 
 Example:
 ```html

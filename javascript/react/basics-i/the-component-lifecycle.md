@@ -28,22 +28,22 @@ aspects:
 
 ---
 
-# The **component** lifecycle
+# The component lifecycle
 
 ---
 ## Content
 
-**Lifecycle methods** are special methods that can be overridden by a **React** `component` to run code at a particular point in time.
+**Lifecycle methods** are special methods that can be overridden by a **React** component to run code at a particular point in time.
 
 These methods correspond to exact points in the **component's lifecycle**.
 
 A **lifecycle hook** is the `constructor(props)` which is commonly used to set the initial `state` of your component, but not only.
 
-Suppose you want to `log` a message when a component **will** be mounted[1] (before being `render`ed). For this, you can use the `componentWillMount` method:
+Suppose you want to log a message after a component was mounted[1] (after being `render`ed). For this, you can use the `componentDidMount()` method:
 ```jsx
 class Spawn extends React.Component {
-  componentWillMount() {
-    console.log('I will spawn');
+  componentDidMount() {
+    console.log("I have spawned");
   }
   render() {
     return <p>I'm basic</p>;
@@ -51,9 +51,9 @@ class Spawn extends React.Component {
 }
 ```
 
-This `component` can be dynamically **mounted** multiple times in an application, when this happens we'll see the `log` in console.
+This component can be **mounted** dynamically multiple times in an application, and after this happens we'll see the log in the console.
 
-If you also want to mark the **un-mounting**, you can use the `componentWillUnmount()`:
+If you want to mark the **un-mounting**, you can use the `componentWillUnmount()`:
 ```jsx
 // ...
   componentWillUnmount() {
@@ -62,21 +62,24 @@ If you also want to mark the **un-mounting**, you can use the `componentWillUnmo
 // ...
 ```
 
+Now, before the component is **un-mounted** you will see the log in the console.
+
 By convention, methods starting with `will` are run **before** an event happens while those starting with `did` are run **afterwards**.
 
-Making use of **lifecycle methods** grants you improved control over the `component`, letting you perform optimisations, free up resources, integrate third-party libraries or even handle `props` and `state` better.
+Making use of **lifecycle methods** grants you improved control over the component, letting you perform optimizations, free up resources, integrate third-party libraries or even handle `props` and `state` better.
 
 ---
 ## Practice
 
-What **lifecycle method** is used to target the point in time **before** `render`ing?
+What **lifecycle method** is used to target the point in time **after** `render`ing?
 
 ???
 
 
-* `componentWillMount`
 * `componentDidMount`
+* `shouldComponentUpdate`
 * `componentWillUnmount`
+* `componentDidUpdate`
 * `render`
 
 ---
@@ -97,5 +100,5 @@ Is `React.Component`'s `constructor(props)` method considered a **lifecycle hook
 [1:mounting]
 
 **Mounting** refers to the initial insertion of a **React** `component` into the **DOM**.
-Similarly, **unmouting** happens when the `component` is removed from the **DOM**.
+Similarly, **unmounting** happens when the `component` is removed from the **DOM**.
 

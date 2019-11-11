@@ -24,11 +24,11 @@ links:
 ---
 ## Content
 
-In ES6 the *Math* object has been expanded with a lot of functionality. Many of the additions have very specific use cases so let's discuss those more likely to be used in every day development. 
+Since its creation, the `Math` object has been expanded to provide a great deal of functionality. Although many of the additions have very specific use cases, for this insight we will take a look at those that you are more likely to use in every day development.
 
-### Math.trunc**
+### Math.trunc
 
-*Math.trunc* will drop any numbers after the decimal point whether the number is positive or negative.
+`Math.trunc` will drop any numbers after the decimal point whether the number is positive or negative.
 
 ```javascript
 Math.trunc(1.2343); //1
@@ -37,15 +37,15 @@ Math.trunc(-3242.34); //-3242
 
 ### Math.cbrt
 
-Math.cbrt returns the cube root of a number:
+`Math.cbrt` returns the cube root of a number:
 
 ```javascript
-Math.cbrt(81); //4.326748710922225
+Math.cbrt(27); //3
 ```
 
 ### Math.sign
 
-Math.sign returns a value that represents whether a number is positive (1), negative (-1), positve zero (0), negative zero (-0) and NaN:
+`Math.sign` returns a value that represents whether a number is positive (1), negative (-1), positive zero (0), negative zero (-0) and NaN:
 
 ```javascript
 Math.sign(1); //1
@@ -58,13 +58,13 @@ Math.sign(-1); //-1
 What will the following function calls return?
 
 ```javascript
-console.log(Math.cbrt(27))
+console.log(Math.cbrt(27));
 // ???
 
-console.log(Math.sign(-22))
+console.log(Math.sign(-22));
 // ???
 
-console.log(Math.trunc(4.522))
+console.log(Math.trunc(4.522));
 // ???
 ```
 
@@ -82,7 +82,7 @@ console.log(Math.trunc(4.522))
 ---
 ## Revision
 
-What `Math` method introduced in ES6 can be used to find the cubic root of a number?
+What `Math` method can be used to find the cubic root of a number?
 
 `Math.???`
 

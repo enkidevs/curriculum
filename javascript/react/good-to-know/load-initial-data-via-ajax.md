@@ -11,7 +11,7 @@ type: normal
 category: must-know
 
 links:
-  - '[facebook.github.io](https://facebook.github.io/react/tips/initial-ajax.html){website}'
+  - '[facebook.github.io](https://facebook.github.io/react/docs/faq-ajax.html){website}'
 
 parent: custom-proptype-s-to-be-required
 
@@ -29,7 +29,7 @@ Data is typically fetched in the `componentDidMount` lifecycle method. When the 
 If processing an asynchronous request-response, ensure the component is still mounted before updating its state. This can be done by tracking mount and un-mount within the component, and checking it hasn't been unmounted before calling `setState`:
 
 ```javascript
-var loadData = React.createClass({
+class LoadData extends React.Component {
   componentDidMount() {
     this.mounted = true;
     $.get(this.props.source, result => {
@@ -39,14 +39,12 @@ var loadData = React.createClass({
         });
       }
     });
-  },
-
-  render() { ... },
-
+  }
+  render() { ... }
   componentWillUnmount() {
     this.mounted = false;
   }
-});
+}
 ```
 
 ---
@@ -55,8 +53,8 @@ var loadData = React.createClass({
 Suppose you want to load some data via an ajax call to your component after it was mounted. Fill in the gaps such that you make sure you won't update the state with your ajax call login if the component is unmounted:
 
 ```javascript
-const component = React.createClass({
-  ???: {
+class Component extends React.Component {
+  ???() {
     this.??? = ???
     $.get(this.props.ajaxSource, res => {
       if (???) {
@@ -66,12 +64,10 @@ const component = React.createClass({
       }
     })
   }
-
   render() {
     // ...
   }
-
-  ??? {
+  ???() {
     this.mounted = false
   }
 })
@@ -86,7 +82,6 @@ const component = React.createClass({
 * render
 * false
 * isMounted
-* componentWillReceiveProps
 
 ---
 ## Revision
@@ -96,7 +91,7 @@ Suppose you need to load some data via an ajax call to your component, after it 
 Which lifecycle method will you use to load the data?
 
 ```javascript
-const component = React.createClass({
+class Component extends React.Component {
   ??? {
     $.get('path/to/resource', res => {
       // ...
@@ -110,5 +105,4 @@ const component = React.createClass({
 * componentDidRender()
 * render()
 * component()
-* componentWillReceiveProps()
 

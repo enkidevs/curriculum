@@ -88,18 +88,19 @@ function Enki({text, ???}) {
 ## Revision
 
 Complete the following functional component such that:
-  - `text` prop is displayed within a `<h1>`
+  - `age` prop is displayed within a `<h1>`
   - all other `props` properties are used as **DOM** attributes for the `<h1>` element
 
 ```jsx
-function Enki({text, ???}) {
+??? Enki({age, ???}) {
   return <h1 {...props}>???</h1>;
 }
 ```
 
 
+* `function`
 * `...props`
-* `{text}`
+* `{age}`
 * `props`
 * `{props}`
 * `text`

@@ -26,7 +26,7 @@ links:
 ---
 ## Content
 
-Probably the primary use of symbols is to introduce changes into EcmaScript. We can see this in action with *iterators*.
+Probably the primary use of symbols is to introduce changes into ECMAScript. We can see this in action with *iterators*.
 
 `Symbol.iterator` is used to identify something that can be iterated over. It is used by language features such as `for of` loops to understand how to work with an object.
 

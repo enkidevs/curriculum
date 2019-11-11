@@ -75,13 +75,13 @@ Consider the following class:
 ```python
 class Enki:
   def printEnki(self):
-    print('Hello, Enki');
+    print('Hello, Enki')
 ```
 
 Complete the following snippet such that an **instance object** of the **class** above is created, but also the corresponding method of `Enki.printEnki` function object is called:
-```
-enki = ???;
-???.???;
+```python
+enki = ???
+???.???
 ```
 
 

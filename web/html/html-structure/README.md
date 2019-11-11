@@ -2,7 +2,7 @@ name: HTML Structure
 
 type: insights-list
 
-description: TODO
+description: How to write HTML code.
 
 section: 0
 

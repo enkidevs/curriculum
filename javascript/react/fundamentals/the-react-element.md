@@ -27,36 +27,45 @@ aspects:
 
 ---
 
-# The **React** element
+# The React element
 
 ---
 ## Content
 
-An `element` in **React** is the most basic building block for describing your application's `UI`.
+An element in **React** is the most basic building block for describing your application's UI.
 
-Note that `element`s are **immutable** and their children or attributes can't be updated after rendering. This implies that `element`s describe the `UI` at a specific point in time - like a *snapshot*.
+It is important to know that elements are **immutable** and their children or attributes can't be updated after rendering. This implies that elements describe the UI at a specific point in time - like a *snapshot*.
 
-In **React** you'll work mainly with a more flexible concept - `component`s. However, these are *made of* `element`s therefore it's helpful to understand the *fundamentals* of how they work.
+In **React** you'll work mainly with a more flexible concept, components, which are *wrappers* around elements that provide additional capabilities.
 
 To define an element you can simply:
-```
+```jsx
+// create an object representing
+// a React element
+const element = React.createElement(
+  'p', // type
+  null, // props
+  'Enki was here' // children
+)
+
+// or using JSX
 const element = <p>Enki was here</p>;
 ```
 
-`Element`s are plain objects and can be created cheaply and rendered into the **DOM**.
+Elements are plain objects and can be created cheaply and rendered into the **DOM**.
 
-The way `element`s are rendered is with help from the **React DOM**[1], under the `root`[2] node.
+The way elements are rendered is with help from the **React DOM**[1], under the `root`[2] node.
 
 Suppose in your **HTML** you have the `div`:
-```
+```html
 <div id="root"></div>
 ```
 
-Now, using `ReactDOM.render()` you can display in your webpage the element declared above:
-```
+Now, on your webpage, you can display the `<p>` element (declared above) as a child of the `"root"` div, using `ReactDOM.render()` :
+```jsx
 ReactDOM.render(
   element,
-  document.getElementById('root')
+  document.getElementById("root")
 );
 ```
 
@@ -64,7 +73,7 @@ ReactDOM.render(
 ## Practice
 
 Render `"Enki"` under the `root` node:
-```
+```jsx
 const element = <h2>Enki<h2>;
 
 ???.render(

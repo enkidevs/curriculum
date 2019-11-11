@@ -12,14 +12,14 @@ category: must-know
 
 links:
 
-  - '[andrewhfarmer.com](http://andrewhfarmer.com/what-is-react/){website}'
+  - '[fullstackreact.com](https://www.fullstackreact.com/30-days-of-react/day-1/){website}'
 
 aspects:
   - introduction
 
 ---
 
-# What is **React**?
+# What is React?
 
 ---
 ## Content
@@ -29,7 +29,7 @@ aspects:
 
 The big and frequent problem that **React** solves is keeping the `DOM`[3] in sync with the data model.
 
-It does that by generating a `DOM`-like custom object whenever a change is made in the data model. This complex data type is then compared with the real `DOM`, updating the latter only when necessary, thus minimising execution time.
+It does that by generating a `DOM`-like custom object whenever a change is made in the data model. This complex data type is then compared with the real `DOM`, updating the latter only when necessary, thus minimizing execution time[4].
 
 
 Many developers have adopted this library because of these key features:
@@ -83,3 +83,5 @@ The **HTML** of a webpage is used to create the **DOM**, which is a in-memory re
 Even though the **HTML** and **DOM** are closely related, they are not the same thing.
 Languages such as *CSS* or *JavaScript** manipulate the **DOM** and not the **HTML**.
 
+[4:Virtual DOM]
+This is also referred to as the Virtual DOM or VDOM. It represents a concept in which a "virtual" representation of the UI is kept in memory and synced with the "real" DOM by a library. In our case, this library is `ReactDOM`.
