@@ -61,7 +61,10 @@ FROM pokemon;
 Depending on how the database was created, you might have to deal with complicated column names. In order to increase readability, or to avoid repeatedly writing lengthy names, the columns can be renamed using *aliases* represented by the `AS` keyword.
 
 ```sql
-SELECT id, hp AS 'Health Points', attack
+SELECT 
+  id, 
+  hp AS 'Health Points', 
+  attack
 FROM pokemon;
 ```
 
