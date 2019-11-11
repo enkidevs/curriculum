@@ -31,17 +31,15 @@ aspects:
 ---
 ## Content
 
-Making use of the `propTypes` you can enforce a *warning* fired when you pass more than one child to a component as children.
+Making use of the `propTypes`, you can show a *warning* or throw an *error*, when you pass more than one child to a component.
 
 The validator used is `PropTypes.element`.
 
-Suppose the following scenario:
+Suppose we have the following scenario:
 ```jsx
 import PropTypes from 'prop-types';
 
-class Component extends React.Component {
-  //propTypes
-
+class NewComponent extends React.Component {
   render {
     return (
       <div>
@@ -57,7 +55,13 @@ To make sure `this.props.children` is **exactly** a single element we suffix the
 propTypes: {
   children: PropTypes.element.isRequired,
 }
+```
 
+To throw an error if anything but exactly 1 element is passed as `children`, we suffix the `PropTypes` validation with `isRequired`:
+```js
+NewComponent.propTypes = {
+  children: PropTypes.element.isRequired
+};
 ```
 
 ---
@@ -65,7 +69,7 @@ propTypes: {
 
 What validator must be used to make sure there is exactly one child passed to `children`?
 
-```jsx
+```js
 children: PropTypes.???.???,
 ```
 
@@ -83,7 +87,7 @@ children: PropTypes.???.???,
 
 What validator must be used to make sure there is exactly one child passed to `children`?
 
-```jsx
+```js
 children: PropTypes.???.???,
 ```
 
