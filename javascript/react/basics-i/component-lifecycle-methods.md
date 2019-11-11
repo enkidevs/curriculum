@@ -18,6 +18,7 @@ category: must-know
 links:
 
   - '[facebook.github.io](https://facebook.github.io/react/docs/react-component.html#the-component-lifecycle){website}'
+  - '[projects.wojtekmaj.pl](http://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/){website}'
 
 parent: the-component-lifecycle
 
@@ -56,7 +57,9 @@ constructor(props) {
 - `static getDerivedStateFromProps(props, state)` 
   - is invoked **right before** calling the `render` method, both on the initial mount and on subsequent updates
   - it returns `null` to update nothing, or an object to update the state
+  - this method exists for rare use cases when the state depends on changes in props over time
 
+- `UNSAFE_componentWillMount()` - is considered legacy and you should **avoid** it because it will be removed in one of the upcoming React versions (it was previously named `componentWillMount`).
 
 ### 2. Updating
 
@@ -69,8 +72,11 @@ constructor(props) {
   - is invoked **after** `render`, but not after the initial one. 
   - this method is useful for manipulating the `DOM` when updated.
 
+- `getDerivedStateFromProps(props, state)`
+  - as mentioned above, this method is invoked **just before** a render, meaning it is called **both** during a mount and an update
+  
 - `getSnapshotBeforeUpdate(prevProps, prevState)`
-  - is invoked right before the most recently rendered output is committed to the DOM
+  - is invoked **right before** the most recently rendered output is committed to the DOM
   - this method is useful because it captures information from the DOM before it is changed
 
 ### 3. Un-mounting
@@ -78,6 +84,14 @@ constructor(props) {
 - `componentWillUnmount()` 
   - is invoked immediately **before** a component is unmounted and destroyed
   - it is useful for resource cleanup
+
+- `UNSAFE_componentWillUpdate()`
+  - is considered legacy and should be **avoided** because it will be removed in one of the upcoming React versions
+  - previously named `componentWillUpdate`
+
+- `UNSAFE_componentWillReceiveProps()`
+  - is considered legacy and should be **avoided** because it will be removed in one of the upcoming React versions
+  - previously named `componentWillReceiveProps`
 
 ---
 ## Practice
@@ -89,9 +103,9 @@ What of the following methods is called **after** rendering, but not after the f
 
 * `componentDidUpdate`
 * `componentDidMount`
-* `componentWillUpdate`
-* `componentWillMount`
 * `componentWillUnmount`
+* `getDerivedStateFromProps`
+* `getSnapshotBeforeUpdate`
 * `constructor`
 
 ---
@@ -103,7 +117,7 @@ What method is the first being called in the **component lifecycle**?
 
 
 * `constructor`
-* `componentWillMount`
+* `getDerivedStateFromProps`
 * `shouldComponentUpdate`
 * `componentDidMount`
 ---

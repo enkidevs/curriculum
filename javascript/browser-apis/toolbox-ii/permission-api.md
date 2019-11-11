@@ -40,25 +40,27 @@ You can check the status of a permission using `permissions.query()`. The status
 
 For example:
 
-```
+```js
 // Check for Geolocation API permissions.
 // Pass permission's name into method
 // as 'permissionDescriptor' object.
 navigator.permissions
-               .query({name:'geolocation'})
+  .query({ name: "geolocation" })
   // The Promise resolves to
   // `permissionStatus' object
   .then(function(permissionStatus) {
     // print state of geolocation permission
-    console.log('geo permission
-        state is ', permissionStatus.state);
+    console.log(
+      "geo permission state is ",
+      permissionStatus.state
+    );
   });
 ```
 You can also create an event handler for `permissionStatus.onchange`.
 
 Requesting permission from the user still depends on the specific API.
 
-Currently this API is only available in **Chrome**.
+This API's availability is limited to some specific browsers. To ensure that your app will run without problems, check the [Mozilla documentation](https://developer.mozilla.org/en-US/docs/Web/API/Permissions_API#Permissions_interface), the [Can I Use](https://caniuse.com/#feat=permissions-api) website, or [kangax](https://kangax.github.io/) to verify browser compatibility.
 
 ---
 ## Practice
@@ -75,12 +77,11 @@ How do you check the status of a permission? ???
 ---
 ## Revision
 
-To what browser is the Permission API currently limited to?
+Which of the following is a valid service for checking Permissions API browser compatibility?
+
 ???
 
-
-* Chrome
-* Safari
-* Mozilla
-* Internet Explorer
- 
+* MDN
+* NPM
+* GitHub
+* DockerHub

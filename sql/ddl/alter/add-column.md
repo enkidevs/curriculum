@@ -46,30 +46,51 @@ aspects:
 ---
 ## Content
 
-If we would like to add a new column to a certain table, we can use the `ALTER TABLE` statement:
+The `ALTER TABLE` command lets you modify table constraints and column definitions after you've defined your table.
+
+If you'd like to add a new column to a certain table, we can use the `ALTER TABLE` statement:
+
 ```sql
 ALTER TABLE table_name
 ADD column_name datatype;
 ```
 
-To delete a column from our table, we can use the following statement:
+You must always specify the column name and its data type, but there are some other optional arguments you can use. For example, you can add a `CHECK` constraint, a `DEFAULT` value, a `NOT NULL` clause, or even set the column as a `PRIMARY KEY` (that is, if there isn't a `PRIMARY KEY` already defined).
+
+Here's a simple example:
+
 ```sql
-ALTER TABLE table_name
-DROP COLUMN column_name
+ALTER TABLE pets
+ADD age INTEGER NOT NULL DEFAULT 1;
+```
+
+Now let's say you want to add a column `hash`, which you know is going to be unique. You want it to be set as a `PRIMARY KEY` and make sure that only records starting with '36hya' are inserted. To do this you would use the following code:
+
+```sql
+ALTER TABLE transactions
+ADD hash VARCHAR PRIMARY KEY 
+CHECK (hash LIKE '36hya%');
+```
+
+If you ever get bored of one of your columns, you can use the following statement to delete it:
+
+```sql
+ALTER TABLE cool_table
+DROP COLUMN boring_column;
 ```
 
 ---
 ## Practice
 
 Consider the "gender" table. We want to add a new column called "members". This column will store data about how many members each gender has:
-```
-id |    name    
-===+============
- 1 | female
- 2 | male
- 3 | genderless
-(3 rows)
 
+| id | name       |
+|----|------------|
+| 1  | female     |
+| 2  | male       |
+| 3  | genderless |
+
+```sql
 ??? gender
 ADD ??? ???;
 ```
@@ -85,19 +106,18 @@ ADD ??? ???;
 ## Revision
 
 Consider the "generation" table. We want to delete the "region_id" column:
-```
-id | region_id |      name      
-===+===========+===============
- 1 |         1 | generation-i
- 2 |         2 | generation-ii
- 3 |         3 | generation-iii
- 4 |         4 | generation-iv
- 5 |         5 | generation-v
- 6 |         6 | generation-vi
-(6 rows)
 
-    ???
-```
+| id | region_id | name           |
+|----|-----------|----------------|
+| 1  | 1         | generation-i   |
+| 2  | 2         | generation-ii  |
+| 3  | 3         | generation-iii |
+| 4  | 4         | generation-iv  |
+| 5  | 5         | generation-v   |
+| 6  | 6         | generation-vi  |
+
+???
+
 
 * ALTER TABLE generation DROP COLUMN region_id;
 * ALTER TABLE generation DROP region_id;
