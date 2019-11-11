@@ -18,25 +18,32 @@ aspects:
 
 ---
 
-# `null` value for *Controlled Components* in **React**
+# `null` value for Controlled Components in React
 
 ---
 ## Content
 
-Using **React**, an `<input>` form element that has a set `value` prop is a *controlled* component.
+When using HTML, the form elements (`<input>`, `<textarea>`, `<select>`) maintain their state and update it based on user input. In **React** only the `state` property contains the mutable state, and it is updated using the `setState()` method. This allows **React** to control what happens on subsequent user input, making **React** the single source of truth. From this, we can gather that there are two types of components:
 
-In a controlled `<input>`, the value of the rendered element will always reflect the `value` property.
+* controlled
+* uncontrolled
 
-There is a known bug in **React** when you set the `<input>` value to `null` or `undefined` that makes the component *uncontrolled*.
+To define a controlled component, you have to use a prop called `value` which, as the name suggests, reflects the value the form will have when rendered.
 
-This is a controlled `<input>`:
-```javascript
-ReactDOM.render(<input value="hi" />, node)
+```jsx
+class Enki extends React.Component {
+  render() {
+    return <input value="hello" />;
+  }
+}
 ```
 
-This will make it uncontrolled:
-```javascript
-ReactDOM.render(<input value={null} />,node)
+If for some reason you want to make your component uncontrolled, all you would have to do is assign `null` or `undefined` to the `value` prop.
+
+```jsx
+// ...
+    return <input value={null} />;
+// ...
 ```
 
 An *uncontrolled* component will give the user the ability to change its content without consent.
@@ -48,9 +55,11 @@ Taking all of this into consideration, setting the `value` of `<input>` to `null
 
 Is this a controlled or uncontrolled <input>? ???
 
-```javascript
-ReactDOM.render(<input value="Enki!" />,
-                node)
+```jsx
+ReactDOM.render(
+  <input value="Enki!" />,
+  node
+);
 ```
 
 * Controlled
@@ -60,9 +69,12 @@ ReactDOM.render(<input value="Enki!" />,
 ## Revision
 
 Make the following `<input>` form element uncontrolled:
-```javascript
-ReactDOM.render(<input
-  value={???} />, node);
+
+```jsx
+ReactDOM.render(
+  <input value={???} />,
+  node
+);
 ```
 
 

@@ -10,7 +10,7 @@ type: normal
 category: how to
 
 links:
-  - '[facebook.github.io](https://facebook.github.io/react/tips/if-else-in-JSX.html){website}'
+  - '[facebook.github.io](https://facebook.github.io/react/docs/conditional-rendering.html#inline-if-else-with-conditional-operator){website}'
 
 parent: custom-proptype-s-to-be-required
 
@@ -19,7 +19,7 @@ aspects:
   - deep
 
 ---
-# if/else statements in **JSX** and **React**
+# if/else statements in JSX and React
 
 ---
 ## Content
@@ -38,23 +38,44 @@ React.createElement("div",
 Instead, ternary expressions can be used:
 
 ```jsx
-<div id={condition ?'msg':null}> Hello</div>
+<div id={condition ? "msg" : null}>
+  Hello
+</div>;
 ```
 
 If ternary expressions are too convoluted, an `if-else` statement can be used outside the **JSX** to determine what components to use.
+
+```jsx
+var loginButton;
+if (loggedIn) {
+  loginButton = <LogoutButton />;
+} else {
+  loginButton = <LoginButton />;
+}
+
+return (
+  <nav>
+    <Home />
+    {loginButton}
+  </nav>
+);
+```
 
 Another alternative is that *immediately-invoked function expressions* can be used in-line inside **JSX**:
 
 ```jsx
 <p>
   {(() => {
-    switch (this.state.somestate) {
-      case "one": return "enki";
-      case "two" : return "enki2";
-      case "three" : return "enki3";
+    switch (this.state.someState) {
+      case "one":
+        return "enki";
+      case "two":
+        return "enki2";
+      case "three":
+        return "enki3";
     }
   })()}
-</p>
+</p>;
 ```
 
 ---
@@ -72,13 +93,14 @@ Can you use switch statements in JSX?
 ---
 ## Revision
 
-How would you write `if (condition) return 'x' else return 'y'` in JSX id assignment?
+How would you write `if (condition) return 'x' else return 'y'` using ternary expressions?
 
-```javascript
+```jsx
 <div id=
   {
     ??? ??? ??? ??? ???
-  }>
+  }
+/>
 ```
 
 * condition

@@ -68,11 +68,11 @@ public class Example {
     heyName("Sam");
   }
 }
-// Output: Hey, Sam!;
+// Output: Hey, Sam!
 ```
 ### Non-void Functions
 
-Instead of `void`, we could use primitive names if we want our function to return the result of a numbers multiplication or strings concatenation:
+Instead of `void`, we could use a concrete type to denote that our function will return a specific result. For example, we could use an `int` to denote returning the result of integer multiplication or a `String` to denote returning the result of string concatenation. In general, we’re allowed to return any type available in Java (primitive or non-primitive).
 ```java
 public class NonVoidExample {
 
@@ -103,7 +103,7 @@ In this case, we designate the methods to do the job for us, which helps with ke
 ## Revision
 
 Complete the snippet with the function's correct type:
-```
+```java
 public ??? test() {
   System.out.println("test");
 }

@@ -32,7 +32,7 @@ aspects:
 ---
 ## Content
 
-**React** provides a way of defining *default* values for props. This allows the safety usage of props even though they are not specified by the parent component.
+**React** provides a way of defining *default* values for props. This allows the safe usage of props even though they are not specified by the parent component.
 
 The value assignment is done via the `defaultProps` special property of your component:
 
@@ -42,7 +42,7 @@ function MyComponent(props) {
 }
 
 MyComponent.defaultProps = {
-  text: 'Bonjour le monde!',
+  text: "Bonjour le monde!"
 };
 ```
 
@@ -67,7 +67,7 @@ Comp.??? = {
 
 * `defaultProps`
 * `value`
-* `'xyz'`
+* `"xyz"`
 * `default`
 * `getDefaultProps`
 
@@ -89,7 +89,7 @@ Comp.??? = {
 
 * `defaultProps`
 * `value`
-* `'xyz'`
+* `"xyz"`
 * `default`
 * `getDefaultProps`
 

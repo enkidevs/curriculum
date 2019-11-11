@@ -4,8 +4,8 @@ description: More strategies for dealing with common issues with props
 
 insights:
   - clone-elements-in-react
-  - componentwillreceiveprops-not-triggered-after-mounting
   - shallow-compare-in-react
+  - shallow-compare-in-function-components
   - shortcut-for-transferring-props
   - use-proptypes-on-stateless-components
  

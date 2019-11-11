@@ -1,5 +1,5 @@
 ---
-author: catalin
+author: kapnobatai136
 
 levels:
 
@@ -11,14 +11,12 @@ levels:
 
 type: normal
 
-category: pattern
+category: must-know
 
 
 links:
 
-  - '[rackt.org](http://rackt.org/redux/docs/basics/UsageWithReact.html){website}'
-  - '[github.com](https://github.com/rackt/react-redux/blob/master/docs/quick-start.md#quick-start){website}'
-  - '[github.com](https://github.com/rackt/react-redux/blob/master/docs/api.md#api){website}'
+  - '[redux.js.org](https://redux.js.org/basics/usage-with-react){documentation}'
 
 notes: This can be also placed in the react subtopic
 
@@ -27,7 +25,7 @@ aspects:
 
 ---
 
-# Use **Redux** with **React**
+# Use Redux with React
 
 ---
 ## Content
@@ -35,59 +33,77 @@ aspects:
 *Redux* has no relation to *React*, yet it works well with this framework as UI can be described as functions of *state*, which **Redux** can update in response to actions.
 
 React bindings are not provided by default in Redux, so `react-redux` must be installed:
+
 ```bash
 npm install --save react-redux
 ```
+
 The general paradigm is that only top level components (e.g. route handlers) should be aware of Redux.
 
-To turn a presentational container into a component, the `connect` function must be imported:
-```javascript
-import { connect } from 'react-redux'
+Let's say that you have a `<Counter />` component found in `Counter.js`. The first step in using Redux is making the `store` available to your app. This is done by wrapping the main component (usually found in `App.js`) with the `<Provider />` API, which is provided by React-Redux.
 
+```jsx
+// App.js
+import React from "react";
+import ReactDOM from "react-dom";
+
+import { Provider } from "react-redux";
+import store from "./redux/store";
+
+const App = () => (
+  <Provider store={store}>
+    <Counter />
+  </Provider>
+);
+
+ReactDOM.render(
+  <App />,
+  document.getElementById("root")
+);
 ```
-Canonical form of `connect()` function:
-```javascript
-connect([mapStateToProps],
-[mapDispatchToProps],[mergeProps],[options])
 
-```
-
-This will connect a React component to a Redux store, not modifying the component class passed, but instead returning a new, connected component class.
-
-Inject `dispatch` and don't listen to the store:
-```javascript
-export default connect()(myReducer)
-```
+Note that you must also pass a `store` attribute to the `<Provider />` wrapper.
 
 ---
 ## Practice
 
-Connect the React component to the Redux store without modifying the component class passed, returning a new connected component class:
+Complete the following code such that you will make the `store` available for your `<App />`:
 
-```javascript
-connect([???], [mapDispatchToProps],
-        [???], [options])
+```jsx
+const App = () => (
+  <??? ???=???>
+    <Counter />
+  <???>
+);
 ```
 
-
-* `mapStateToProps`
-* `mergeProps`
-* `connectProps`
-* `storeProps`
-* `componentClass`
-* `returnComponent`
+* Provider
+* store
+* {store}
+* /Provider
+* state
+* {state}
+* Reducer
+* /Reducer
 
 ---
 ## Revision
 
-What function must be imported as to turn a presentational container into a component?
+Complete the following code such that you will make the `store` available for your `<App />`:
+
+```jsx
+const App = () => (
+  <??? ???=???>
+    <Counter />
+  <???>
+);
 ```
-import { ??? } form `react-redux`
-```
 
-
-* `connect`
-* `container`
-* `dispatch`
-
-
+* Provider
+* store
+* {store}
+* /Provider
+* state
+* {state}
+* Reducer
+* /Reducer

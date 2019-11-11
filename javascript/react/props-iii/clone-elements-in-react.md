@@ -16,7 +16,7 @@ category: how to
 
 links:
 
-  - '[facebook.github.io](https://facebook.github.io/react/docs/top-level-api.html#react.cloneelement){website}'
+  - '[facebook.github.io](https://facebook.github.io/react/docs/top-level-api.html#cloneelement){website}'
   - '[facebook.github.io](https://facebook.github.io/react/blog/2015/03/03/react-v0.13-rc2.html){website}'
 
 parent: custom-proptype-s-to-be-required
@@ -26,31 +26,79 @@ aspects:
 
 ---
 
-# Clone Elements in **React**
+# Clone Elements in React
 
 ---
 ## Content
 
-**React** provides different ways to clone elements. The `React.cloneElement` method, unlike `React.addons.cloneWithProps` can clone an element whilst keeping the `key` and `ref` of the original one.
+**React** provides different ways to clone elements. The `React.cloneElement` method can clone an element whilst keeping the `key` and `ref` of the original one.
 
 How to use:
-```javascript
-ReactElement cloneElement(
-  ReactElement element,
-  [object props],
-  [children ...]
+```jsx
+React.cloneElement(
+  element,
+  [props],
+  [...children]
 );
 ```
 
-A new `ReactElement` will be returned using the provided `element` as the starting point. The old `props` will be merged in shallowly with the new specified ones. Furthermore, new `children` will replace old ones.
+A new element[1] will be returned using the provided element as the starting point. The old `prop`s will be merged in shallowly[2] with the new specified ones. Furthermore, new `children` will replace old ones.
 
 Keep in mind that using:
 ```jsx
-React.cloneElement(child, { ref: 'newRef' })
+React.cloneElement(
+  child,
+  { ref: "newRef" },
+  null
+);
 ```
 will override the `ref`.
 
-Documentation warns that `React.addons.cloneWithProps` will be deprecated so you should consider using `React.cloneElement` instead.
+A good example consists of adding `prop`s to the elements that are passed as children to one of your components.
+
+```jsx
+class Enki extends React.Component {
+  render() {
+    const newProp = "Enki";
+    return (
+      <div>
+        {React.Children.map(
+          this.props.children,
+          child => {
+            return React.cloneElement(
+              child,
+              { newProp },
+              null
+            );
+          }
+        )}
+      </div>
+    );
+  }
+}
+
+class EnkiChild extends React.Component {
+  render() {
+    return (
+      <h1>
+        Hello {name}, and welcome to
+        {newProp}!
+      </h1>
+    );
+  }
+}
+
+ReactDOM.render(
+  <Enki>
+    <EnkiChild name="Andrei" />
+    <EnkiChild name="Stefan" />
+  </Enki>,
+  document.getElementById("root")
+);
+
+// Hello Andrei, and welcome to Enki!
+// Hello Stefan, and welcome to Enki!
+```
 
 ---
 ## Practice
@@ -58,9 +106,12 @@ Documentation warns that `React.addons.cloneWithProps` will be deprecated so you
 Complete the code snippet below to clone an element and override the ref:
 
 ```javascript
-React.???(child, { ???: 'newRef' })
+React.???(
+  child, 
+  { ???: 'newRef' },
+  null
+);
 ```
-
 
 * `cloneElement`
 * `ref`
@@ -73,12 +124,32 @@ React.???(child, { ???: 'newRef' })
 ---
 ## Revision
 
-Using the `React.cloneElement` method what props will be preserved unlike with the  `cloneWithProps` method. ???
+Complete the code snippet below to clone an element and override the ref:
 
+```javascript
+React.???(
+  child, 
+  { ???: 'newRef' },
+  null
+);
+```
 
-* `key` and `ref`
-* `key` and `props`
-* `child` and `ref`
-* `child` and `props`
+* `cloneElement`
+* `ref`
+* `newElement`
+* `spawnElement`
+* `key`
+* `obj`
+* `env`
 
+---
+## Footnotes
 
+[1: element]
+The React element represents the building block of any React application. Although one might confuse elements with components, they are not the same. An element is used to describe what you want to see on the screen. Here's an example:
+```jsx
+const element = <h1>Enki is cool!</h1>;
+```
+
+[2: shallow merge]
+A merge of two objects in JavaScript produces a new object by combining their properties. Properties that only exists in one of the two objects are just copied into the result. If a property exists in both, the value of that property from the second object will overwrite the value of the first. A"shallow" merge means that we only compare/merge top-level properties. Merging all levels of properties between two objects is called a *deep merge*.
