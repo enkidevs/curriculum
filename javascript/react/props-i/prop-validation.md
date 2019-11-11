@@ -101,8 +101,8 @@ Complete the missing validation such that the first prop is a function and the s
 ```jsx
 function Test(props) { return <p>A</p>; };
 Test.propTypes = {
-  myFunction: React.???.???,
-  myObject: React.PropTypes.???,
+  myFunction: ???.???,
+  myObject: PropTypes.???,
 };
 ```
 
@@ -126,8 +126,8 @@ Complete the missing validation such that the first prop is a function and the s
 ```jsx
 function Test(props) { return <p>A</p>; };
 Test.propTypes = {
-  myFunction: React.???.???,
-  myObject: React.PropTypes.???,
+  myFunction: ???.???,
+  myObject: PropTypes.???,
 };
 ```
 

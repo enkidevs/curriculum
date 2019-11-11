@@ -53,6 +53,12 @@ sudo yum install git
 sudo apt-get install git
 ```
 
+### Windows
+
+When working on Windows, there are multiple ways of installing Git. The easiest way is installing GitHub Desktop, which comes with a command line version of Git as well as the GUI. All you have to do is go to their [website](https://desktop.github.com/), download and install GitHub Desktop.
+
+Another option is installing Git for Windows, which brings the full feature set of the Git SCM to Windows. Go to the [official website](https://git-scm.com/download/win) which will automatically start downloading the Windows installer, followed by installing Git for Windows.
+
 If you install the *GitHub* client application (repository hosting service), which is available on all leading operating systems, **Git** will also be installed on your machine.
 
 ---

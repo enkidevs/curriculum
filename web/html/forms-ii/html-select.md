@@ -80,7 +80,7 @@ Example:
    <option
     value="orange">Oranges
    </option>
-  </optgroup
+  </optgroup>
   <optgroup label="Fav Veggie">
    <option
     value="carrot">Carrots
@@ -91,7 +91,7 @@ Example:
    <option
     value="onion">Onions
    </option>
-  </optgroup
+  </optgroup>
 </select>
 ```
 

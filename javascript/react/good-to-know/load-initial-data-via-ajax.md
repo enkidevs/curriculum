@@ -11,7 +11,7 @@ type: normal
 category: must-know
 
 links:
-  - '[facebook.github.io](https://facebook.github.io/react/tips/initial-ajax.html){website}'
+  - '[facebook.github.io](https://facebook.github.io/react/docs/faq-ajax.html){website}'
 
 parent: custom-proptype-s-to-be-required
 
@@ -24,30 +24,27 @@ aspects:
 ---
 ## Content
 
-Data is typically fetched in the  `componentDidMount` lifecycle method.
-When the response has arrived, the data is stored in a state, triggering a render to update your user interface.
+Data is typically fetched in the `componentDidMount` lifecycle method. When the response has arrived, the data is stored in a state, triggering a render to update your user interface.
 
-If processing an asynchronous request response, ensure the component is still mounted prior to updating its state. This can be done by tracking mount and unmount within the component, and checking it hasn't been unmounted before calling `setState`:
+If processing an asynchronous request-response, ensure the component is still mounted before updating its state. This can be done by tracking mount and un-mount within the component, and checking it hasn't been unmounted before calling `setState`:
 
 ```javascript
-var loadData = React.createClass({
- componentDidMount() {
+class LoadData extends React.Component {
+  componentDidMount() {
     this.mounted = true;
-    $.get(this.props.source, (result) => {
+    $.get(this.props.source, result => {
       if (this.mounted) {
         this.setState({
-          username: result.owner.login;
+          username: result.owner.login
         });
       }
     });
-  },
-
-  render() { ... },
-
+  }
+  render() { ... }
   componentWillUnmount() {
     this.mounted = false;
   }
-});
+}
 ```
 
 ---
@@ -56,8 +53,8 @@ var loadData = React.createClass({
 Suppose you want to load some data via an ajax call to your component after it was mounted. Fill in the gaps such that you make sure you won't update the state with your ajax call login if the component is unmounted:
 
 ```javascript
-const component = React.createClass({
-  ???: {
+class Component extends React.Component {
+  ???() {
     this.??? = ???
     $.get(this.props.ajaxSource, res => {
       if (???) {
@@ -67,12 +64,10 @@ const component = React.createClass({
       }
     })
   }
-
   render() {
     // ...
   }
-
-  ??? {
+  ???() {
     this.mounted = false
   }
 })
@@ -87,7 +82,6 @@ const component = React.createClass({
 * render
 * false
 * isMounted
-* componentWillReceiveProps
 
 ---
 ## Revision
@@ -97,7 +91,7 @@ Suppose you need to load some data via an ajax call to your component, after it 
 Which lifecycle method will you use to load the data?
 
 ```javascript
-const component = React.createClass({
+class Component extends React.Component {
   ??? {
     $.get('path/to/resource', res => {
       // ...
@@ -111,5 +105,4 @@ const component = React.createClass({
 * componentDidRender()
 * render()
 * component()
-* componentWillReceiveProps()
 
