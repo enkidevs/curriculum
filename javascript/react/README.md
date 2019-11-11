@@ -19,3 +19,4 @@ sections:
     - redux-tips
     - introduction-to-hooks
     - hooks-i
+    - common-mistakes-in-react
