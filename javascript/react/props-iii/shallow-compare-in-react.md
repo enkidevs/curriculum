@@ -1,5 +1,5 @@
 ---
-author: DanielAmorimAraujo
+author: kapnobatai136
 
 levels:
 
@@ -17,8 +17,6 @@ category: feature
 links:
 
   - '[facebook.github.io](https://facebook.github.io/react/docs/react-api.html#reactpurecomponent){website}'
-  
-  - '[facebook.github.io](https://facebook.github.io/react/docs/react-api.html#reactmemo){website}'
 
 parent: custom-proptype-s-to-be-required
 
@@ -27,79 +25,61 @@ aspects:
 
 ---
 
-# Shallow compare in **React**
+# Shallow compare in React
 
 ---
 ## Content
 
-### React.PureComponent
+It is possible to obtain a performance boost in React when using an automatic form of shallow comparison. For class components this is done by extending `React.PureComponent`:
 
-`React.PureComponent` can be used instead of `React.Component`. `React.PureComponent` implements the `shouldComponentUpdate()` lifecycle automatically with shallow prop and state comparison.
-
-If a component **render**s the same result given the same **props** and **state** (this type of component is considered *pure*), `React.PureComponent` can provide a performance boost. 
-
-Using `React.PureComponent`:
-```javascript
-class NotPure extends React.Component {
+```jsx
+class MyComp extends React.PureComponent {
   render() {
     return (
-      <div className={this.props.className}>foo</div>
-    )
-  }
-}
-
-class Pure extends React.PureComponent {
-  render() {
-    return (
-      <div className={this.props.className}>foo</div>
+      <div className={this.props.className}>
+        foo
+      </div>
     );
   }
 }
 ```
 
-The **NotPure** component would render every time **this.props.className** updates, even if its value stays the same, whereas **Pure** would render only if **this.props.className** updates to a different value.
+`React.PureComponent` implements the `shouldComponentUpdate()` lifecycle automatically with shallow prop and state comparison.
+
+If a component **render**s the same result given the same **props** and **state** (this type of component is considered *pure*), `React.PureComponent` can provide a performance boost. 
+
+So, when using a `PureComponent`, a shallow equality check is performed on the current `props` and `nextProps`, but also on `state` and `nextState` objects. If a change in either `props` or `state` is observed, the component will be re-rendered. It is important to know that `React.PureComponent` skips `prop` updates for the whole component subtree, meaning that `prop` changes will be ignored if a difference couldn't be found in the shallow comparison. On top of that, for scalar variables the values are compared, but for objects only the references are compared. If you have nested data, you should consider using a deep comparison.
 
 Note that `PureComponent` only shallowly compares the objects, meaning if the **prop**s or **state** contains complex data structures, it may produce false-negatives for deeper differences. Only use `PureComponent` if the component has simple **prop**s and **state**.
 
-### React.memo
-
-`React.memo` achieves the same as `React.PureComponent`, but it is used for **function**s instead.
-
-**React** will simply skip rendering the component and reuse the last rendered result if the **props** are the same.
-
-`React.memo` wraps a **function** component.
-```javascript
-const Component = React.memo(
-  function MemoComponent(props) {
-    /* return */
-  }
-);
-```
-
-By default, `React.memo` only shallowly compares complex objects in the **props** object. You can provide a custom comparison function as the second argument to have more control over the comparison.
-
-```javascript
-function MemoComponent(props) {
-  /* return using props */
-}
-function areEqual(prevProps, nextProps) {
-  /*
-  returns true if nextProps renders
-  the same result as prevProps,
-  otherwise returns false
-  */
-}
-const Component = React.Memo(
-  MemoComponent,
-  areEqual
-);
-```
+Another important aspect is that you should make sure all the child components are also `Pure`. If the children are regular components, then the entire component tree will re-render, but if the children are pure components then only the modified child will re-render.
 
 ---
 ## Practice
 
-A ??? can be achieved with `React.PureComponent` or `React.memo` when used on a React component that is ???.
+Complete the following code to define a pure component:
 
+```jsx
+??? MyComp ??? React.??? {
+  render() {
+    // ...
+  }
+}
+```
+
+* class
+* extends
+* PureComponent
+* Component
+* Pure
+* React
+* function
+* export
+
+---
+## Revision
+
+A ??? can be achieved with `React.PureComponent` when used on a React component that is ???.
 
 * performance boost
 * pure
@@ -107,32 +87,3 @@ A ??? can be achieved with `React.PureComponent` or `React.memo` when used on a 
 * clean
 * raw
 * successful render
-
----
-## Revision
-
-Complete the code so that **EnkiComp** only re-renders if **areEqual** returns false
-
-```javascript
-function EnkiComp(props) {
-  /* ... */
-}
-function areEqual(prevProps, nextProps) {
-  /* ... */
-}
-const Enki = React.???(
-  ???,
-  ???
-);
-```
-
-* `memo`
-* `EnkiComp`
-* `areEqual`
-* `PureComponent`
-* `Memo`
-* `Enki`
-* `React.PureComponent`
-* `React.memo`
-
-

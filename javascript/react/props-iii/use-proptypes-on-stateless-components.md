@@ -36,16 +36,15 @@ aspects:
 ---
 ## Content
 
-Since **React 0.14** it is possible to define components as a simple function:
-```
+Since **React 0.14** it is possible to define components as a simple arrow function:
+
+```jsx
 let comp = ({enki}) => <h1>{enki}</h1>;
 ```
 
 Yet, a type for the arguments can still be specified using `propTypes`:
 
-```
-import PropTypes from 'prop-types';
-
+```jsx
 comp.propTypes = {
   enki: PropTypes.string
 };
