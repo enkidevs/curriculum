@@ -34,7 +34,7 @@ aspects:
 
 **Conditional rendering** is the long-standing technique of `render`ing different `element`s for different scenarios.
 
-Exploiting the power of pure `JS`, **React** allows conditional rendering with simple `if`s or *ternary operators*[1].
+Exploiting the power of pure JS, **React** allows conditional rendering with `if` statements or *ternary operators*[1].
 
 Consider the following two functional components:
 ```jsx
@@ -62,7 +62,7 @@ In addition, such `element`s can be stored using **variables**. This is particul
 ```jsx
 class Message extends React.component {
   render() {
-    const isRaining = props.isRaining;
+    const isRaining = this.props.isRaining;
     let message = null;
 
     message = isRaining ?
@@ -78,7 +78,7 @@ class Message extends React.component {
 }
 ```
 
-When rendering `Message` component with `isRaining=true`, it will make use of `<Rainy />` while otherwise it will use `<Sunny />`. In both cases the latter `<p>` is shown as well.
+When rendering `Message` component with `isRaining=true`, it will make use of `<Rainy />` while otherwise, it will use `<Sunny />`. In both cases the latter `<p>` is shown as well.
 
 ---
 ## Practice
@@ -119,7 +119,7 @@ ReactDOM.render(
 ---
 ## Revision
 
-What does **React** use for **conditional rendering**?
+Which JS capabilities are commonly used in **React** for **conditional rendering**?
 
 ???
 
@@ -141,12 +141,12 @@ condition ? expression1 : expression2
 ```
 
 This operator is generally used as a shortcut for an `if-else` statement:
-```
+```js
 const x = 5 > 2 ? 'yes' : 'no';
 // x = 'yes'
 ```
 The snippet above is equivalent to:
-```
+```js
 const x = '';
 if (5 > 2) {
   x = 'yes';
