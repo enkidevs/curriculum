@@ -18,3 +18,4 @@ sections:
     - redux-i
     - redux-tips
     - introduction-to-hooks
+    - hooks-i
