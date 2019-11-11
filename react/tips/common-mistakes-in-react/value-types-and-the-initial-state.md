@@ -28,14 +28,20 @@ Let's start this insight by taking a look at an example:
 
 ```jsx
 function Person() {
+  // We initiate the state with null
   const [info, setInfo] = useState(null);
 
-  getInfo = () => {
+  // we run an effect
+  // to grab the profile
+  // data from our API
+  useEffect(() => {
     fetch("/api/profile").then(data => {
       setInfo(data);
     });
-  };
+  }, []);
 
+  // we show the data
+  // from the API
   return (
     <div>
       <p>Name: {info.name}</p>
@@ -45,10 +51,13 @@ function Person() {
 }
 ```
 
-Normally, you would expect this function to work without a problem. This is a common mistake because while the data is being fetched though the `getProfile()` call, the component is rendered with the initial state. In our case, the initial state is `null` which leads to a rendering error. Not providing an initial state for nested objects, or defining an empty array as initial state and then trying to access the n-th element would lead to the same error. For these reasons, it is important to define the initial state as close to the updated state as possible. In our case, we should've wrote:
+Normally, you would expect this function to work without a problem. This is a common mistake because while the data is being fetched though the `useEffect()` hook, the component is rendered with the initial state (remember, hooks run at the end of render). In our case, the initial state is `null` but we try to read a property off it as if it was an object. We are effectively trying to access `null.name` and `null.age`, which do not exist. Here are two possible ways of overcoming this issue:
 
+1. Properly defining the initial state:
 ```jsx
 function Person() {
+  // we expect the info state
+  // to be an object
   const [info, setInfo] = useState({
     name: "",
     age: 0
@@ -69,17 +78,53 @@ function Person() {
 }
 ```
 
+2. Use a loading flag while waiting for the API call:
+```js
+function Person() {
+  const [info, setInfo] = useState(null);
+
+  useEffect(() => {
+    fetch("/api/profile").then(data => {
+      setInfo(data);
+    });
+  )};
+
+  // if the info state has not been updated
+  // return the Spinner component
+  // indicating that the call has not been completed
+  if (info === null) {
+    return <Spinner />
+  }
+  // otherwise, we return our paragraphs
+  return (
+    <div>
+      <p>Name: {info.name}</p>
+      <p>Age: {info.age}</p>
+    </div>
+  );
+}
+```
+
 ---
 ## Practice
 
-What value should you use when defining the initial state?
+What will be the `state` of the `<Test>` component?
+
+```jsx
+function Test() {
+  const [state, setState] = useState(0);
+
+  useEffect(()=> {
+    setState(1);
+  });
+
+  return <p>{state}</p>;
+}
+```
 
 ???
 
-* A value that is as close to the updated state as possible.
+* `0`
+* `1`
 * `null`
-* `""`
 * `undefined`
-* Any value.
-* `{}`
-* `[]`
