@@ -23,7 +23,7 @@ links:
 ---
 ## Content
 
-In EcmaScript if a function with parameters is called without supplying arguments then any arguments are undefined:
+In ECMAScript if a function with parameters is called without supplying arguments then any arguments are undefined:
 
 ```
 function test(x){

@@ -32,6 +32,7 @@ In addition to the previously stated reasons developers are eager to adopt this 
 - easier debugging with **out-of-the-box tools** such as `React Chrome Extension`
 - knowing **React** allows you to easily switch to **React Native** to build native mobile applications
 
+
 **React Native** is a different JS open-source library released by *Facebook* that follows the same design patterns as **React**. It's used to create applications for specific operating systems such as `Android`, `iOS` or `UWP`[4], but it lets you share a large percentage of code between them.
 
 ---
