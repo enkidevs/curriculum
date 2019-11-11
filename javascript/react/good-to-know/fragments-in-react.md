@@ -40,7 +40,7 @@ render() {
       <ChildA />
       <ChildB />
       <ChildC />
-  </React.Fragment>
+    </React.Fragment>
   );
 }
 ```
@@ -58,7 +58,7 @@ render() {
       <ChildC />
     </>
   );
-  }
+}
 ```
 
 Fragments declared with explicit `React.Fragment` syntax may have keys. This is useful for mapping a collection to an array of fragments.

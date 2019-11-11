@@ -62,7 +62,7 @@ constructor(props) {
 
 - `shouldComponentUpdate(nxtProps, nxtState)` - the method is called **before** receiving new `props` or `state`. By default it returns `true` meaning `render` is triggered by any change. Modifying this method allows you to only re-`render` in intended scenarios.
 
-- `getSnapshotBeforeUpdate(prevProps, prevState)` - is involved **right before** the most recently rendered output is committed. It enables your component to capture some information from the `DOM` before it is potentially changed, passing it as a parameter to `componentDidUpdate()`.
+- `getSnapshotBeforeUpdate(prevProps, prevState)` - is invoked **right before** the most recently rendered output is committed. It enables your component to capture some information from the `DOM` before it is potentially changed, passing it as a parameter to `componentDidUpdate()`.
 
 - `componentDidUpdate(prevProps, prevState)` - is invoked **after** `render`, but not after the initial one. This method is useful for manipulating the `DOM` when updated
 
