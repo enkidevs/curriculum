@@ -10,7 +10,7 @@ levels:
   - medium
 
 type: exercise
-category: good practice
+category: best practice
 aspects:
   - introduction
   - workout

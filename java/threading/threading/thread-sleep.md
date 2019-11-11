@@ -1,5 +1,5 @@
 ---
-author: Nick Daminov
+author: nickdaminov
 
 levels:
 
@@ -17,7 +17,7 @@ aspects:
 
 links:
 
-  - '[More on Sleep](https://docs.oracle.com/javase/tutorial/essential/concurrency/sleep.html§){website}'
+  - '[More on Sleep](https://docs.oracle.com/javase/tutorial/essential/concurrency/sleep.html){website}'
   - '[More on Joining](https://docs.oracle.com/javase/tutorial/essential/concurrency/join.html){website}'
   - '[More on InterruptedException](https://docs.oracle.com/javase/7/docs/api/java/lang/InterruptedException.html){website}'
 

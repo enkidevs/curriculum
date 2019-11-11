@@ -16,7 +16,7 @@ aspects:
 
 
 type: exercise
-category: good practice
+category: best practice
 
 links:
 

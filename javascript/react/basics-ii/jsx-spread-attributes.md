@@ -27,7 +27,7 @@ aspects:
 
 ---
 
-# **JSX** Spread attributes
+# JSX Spread attributes
 
 ---
 ## Content
@@ -38,7 +38,6 @@ Suppose we want the following component with `name` and `content` props:
 ```jsx
 const component = <Component name="enki"
   content="cool content" />;
-
 ```
 `name` and `content` can be bundled inside an object.
 ```jsx
@@ -63,6 +62,15 @@ const enki = <Component {...props}
 ```
 
 Now the value of `enki.props.content` will be `"other value"`.
+
+The spread operator is also useful for passing in all the props of a component to its children.
+```jsx
+function Component(props) {
+  return <ChildComponent {...props}>;
+}
+```
+
+Now ChildComponent has access to the same props as Component.
 
 ---
 ## Practice
@@ -102,26 +110,27 @@ const test = <Test {...props}
 
 What will the value of `test.props.x` in the following snippet?
 ```jsx
-function Test(props) {
+function Enki(props) {
   return <p>{props.x}</p>;
 }
 
 const props = {
-  x: 'dog',
-  y: 'cat',
+  x: 'capybara',
+  y: 'komodo dragon',
 };
 
 const test = <Test {...props}
-  x="cat" />;
+  x="fish" />;
 
 // test.props.x = ???
 ```
 
 
-* `'cat'`
-* `'dog'`
+* `'fish'`
+* `'capybara'`
+* `'komodo dragon'`
 * `error`
-* `'dogcat'`
-* `'catdog'`
+* `'fishcapybara'`
+* `'fishkomodo dragon'`
 
 

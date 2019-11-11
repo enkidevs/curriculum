@@ -13,6 +13,7 @@ insights:
   - headings-h1-h6
   - update-images
   - update-hyperlinks
+  - style-element
  
 exercises:
   - html-headings-and-paragraphs-codepen-exercise

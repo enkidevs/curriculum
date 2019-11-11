@@ -35,7 +35,7 @@ Consider a file `available_rooms.py` in a directory called **Hotel**:
 # available_rooms.py
 
 def available(rooms):
-    print(rooms, ', are available.')
+  print(rooms, ' rooms are available.')
 ```
 Then, a file `total_rooms.py` in the *same* directory:
 
@@ -43,39 +43,52 @@ Then, a file `total_rooms.py` in the *same* directory:
 # total_rooms.py
 
 def all_rooms(total):
-    print('We have: ', total, 'rooms.')
+  print('We have: ', total, 'rooms.')
 ```
 
-Now that we have these files defined in our **Hotel package** we can use them in our script by importing this package:
+Lastly, you need to have a file named `__init__.py` in your **Hotel** directory. This file indicates that the directory contains a Python package. It is usually empty, but it can be used to export portions of the package under a more convenient name.
+
+Now that we have these files defined in our **Hotel package**, we can use them in our script by importing this package:
 
 ```python
 # rooms_update.py
 
-import Hotel
+from Hotel 
+import available_rooms, total_rooms
 
-Hotel.available(10)
-# 10 rooms are available
-Hotel.all_rooms(25)
+available_rooms.available(10)
+# 10 rooms are available.
+total_rooms.all_rooms(25)
 # We have: 25 rooms.
+```
+
+Note that the script `rooms_update.py` should be located in the main directory of your application. Here is how the file structure looks like:
+
+```
+my_app/
+  rooms_update.py
+  Hotel/
+    __init__.py
+    available_rooms.py
+    total_rooms.py
 ```
 
 ---
 ## Practice
 
-Complete the missing that such that the `Hotel` package is imported and used properly:
+Complete the missing code such that the `Hotel` package is imported and used properly:
 ```python
-??? Hotel
+??? Hotel ??? total_rooms
 
 def foo(x):
-    capacity = ???.all_rooms(x)
-    return capacity
+  capacity = ???.all_rooms(x)
+  return capacity
 ```
 
 
-
-* `import`
-* `Hotel`
 * `from`
+* `import`
+* `total_rooms`
 * `as`
 * `all_rooms`
 
@@ -87,15 +100,16 @@ Say the `Hotel` package exposes the `available_rooms()` method. Complete the fol
 ??? Hotel import ???
 
 def foo(x):
-    ???
+  return ???.available(x)
 ```
 
 
 * `from`
 * `available_rooms`
-* `available_rooms(x)`
+* `available_rooms`
 * `Hotel.available_rooms(x)`
 * `total_rooms`
+* `all_rooms`
 
 ---
 ## Footnotes

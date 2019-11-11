@@ -16,7 +16,7 @@ category: how to
 
 links:
 
-  - '[facebook.github.io](https://facebook.github.io/react/docs/reusable-components.html#single-child){website}'
+  - '[facebook.github.io](https://facebook.github.io/react/docs/typechecking-with-proptypes.html#requiring-single-child){website}'
 
 parent: custom-proptype-s-to-be-required
 
@@ -37,10 +37,23 @@ The validator used is `PropTypes.element`.
 
 Suppose we have the following scenario:
 ```jsx
+import PropTypes from 'prop-types';
+
 class NewComponent extends React.Component {
-  render() {
-    return <div>{this.props.children}</div>;
+  render {
+    return (
+      <div>
+        {this.props.children}
+      </div>
+    );
   }
+}
+```
+
+To make sure `this.props.children` is **exactly** a single element we suffix the validation with `isRequired`:
+```jsx
+propTypes: {
+  children: PropTypes.element.isRequired,
 }
 ```
 

@@ -28,7 +28,7 @@ standards:
 
 Python uses two keywords to allow complex boolean conditions to be created, `and` and `or`.
 
-The `and` operator means that two or more conditions must be True in order to progress, and the `or` means that at least one condition must be True for progression.
+The `and` operator means that two or more conditions must be `True` in order to progress, and the `or` means that at least one condition must be `True` for progression.
 
 The `and` operator:
 
@@ -38,13 +38,20 @@ str = 'boolean'
 
 if str == 'boolean' and num == 1:
     print('Success!')
+# Success!
 ```
+
+In this case, we check that both `str == 'boolean'` **and** that `num == 1` at the same time. Because these conditions both evaluate to `True`, we print `'Success!'`.
+
 The `or` operator:
 
 ```python
 if str == 'boolean' or num > 2:
     print('Success!')
+# Success!
 ```
+
+In this case, we check that either `str == 'boolean'` **or** that `num > 2`. Because the `str == 'boolean'` (when using `or`, only one of the conditions must evaluate to `True`) is true, we print `'Success!'`.
 
 ---
 ## Practice
