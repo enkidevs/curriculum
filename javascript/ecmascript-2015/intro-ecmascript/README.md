@@ -1,6 +1,6 @@
-name: Intro to EcmaScript
+name: Intro to ECMAScript
 
-description: What is EcmaScript?
+description: What is ECMAScript?
 
 insights:
   - ecmascript

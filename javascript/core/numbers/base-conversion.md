@@ -31,26 +31,42 @@ aspects:
 ---
 ## Content
 
-Base conversion for `int` data types is easily achievable with the help of `toString` and `parseInt` functions. 
+Base conversion for numerical values in JavaScript is easily achievable
+with the help of `toString` and `parseInt` functions.
 
-Convert decimal to hexadecimal:
+
+### toString
+
+`<number>.toString(base)` operates on a number and converts it into a string in the given base.
+
+For example, converting a decimal number to hexadecimal, octal and binary looks something like this:
 ```javascript
-(int).toString(16);
+let number = 123
+number.toString(16) // "7b"
+number.toString(8) // "173"
+number.toString(2) // "1111011"
 ```
 
-Convert decimal to octal:
-```javascript
-(int).toString(8);
-```
-Vice-versa convert hexadecimal to decimal:
-```javascript
-parseInt(string, 16);
-```
-Convert octal to decimal:
-```javascript
-parseInt(string,8);
+Note that the type of returned value is a string.
 
+```javascript
+let number = 123
+typeof number.toString(16) // "string"
 ```
+
+### parseInt
+
+`parseInt(<string>, <base>)` takes a string and its base and converts it into a decimal number.
+
+For example, parsing a hexadecimal, octal and binary number in string form into a decimal:
+
+```javascript
+parseInt("7b", 16) // 123
+parseInt("173", 8) // 123
+parseInt("1111011", 2) // 123
+```
+
+The type of returned value is `"number"`.
 
 ---
 ## Practice
@@ -58,16 +74,23 @@ parseInt(string,8);
 Complete the following code snippet:
 ```javascript
 // convert 1423 to base 2
- console.log((1423).toString(???));
+(1423).???(???)
+
 // convert "ad23e1" from base 16 to base 10
-console.log(???("ad23e1",???));
+???("ad23e1",???)
 ```
 
+* toString
 * 2
 * parseInt
 * 16
+* '10'
+* '2'
 * 10
-* ”base 10”
+* "base 10"
+* "base 16"
+* intoString
+* "two"
 
 ---
 ## Revision
@@ -75,15 +98,21 @@ console.log(???("ad23e1",???));
 Complete the following code snippet:
 ```javascript
 // convert 132 to base 16
-console.log((132).toString(???));
-// convert "ead2" from base 15 to base 10
-console.log(???("ef2",???));
+(???).toString(???)
+
+// convert "ead2" from base 15 to base 2
+???("ead2",???).???(???);
 ```
 
+* 132
 * 16
 * parseInt
 * 15
+* toString
+* 2
 * 10
+* toBase
+* toNumber
 * ”base 10”
-
- 
+* ”base 15”
+* ”base 2”

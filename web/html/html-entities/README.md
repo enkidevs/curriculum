@@ -2,7 +2,7 @@ name: HTML Entities
 
 type: insights-list
 
-description: TODO
+description: How to display some reserved characters.
 
 section: 0
 

@@ -43,12 +43,12 @@ Each module, in order to be recognized by the interpreter, has to have the `.py`
 Consider the python file `my_adder.py`. Plainly, this **module**'s name is `my_adder`.
 
 ```python
-# consider module in adder.py:
+# consider module in my_adder.py:
 
 def add(a, b):
-    sum = a + b
-    print("The sum is: ", sum)
-    return sum
+  sum = a + b
+  print("The sum is: ", sum)
+  return sum
 ```
 
 Note that within each module, its name is dynamically available through the global variable `__name__`.
