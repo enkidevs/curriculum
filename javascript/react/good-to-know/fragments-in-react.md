@@ -35,13 +35,13 @@ Fragments let you group a list of children without adding extra nodes to the **D
 
 ```javascript
 render() {
-    return (
-        <React.Fragment>
-            <ChildA />
-            <ChildB />
-            <ChildC />
-        </React.Fragment>
-    );
+  return (
+    <React.Fragment>
+      <ChildA />
+      <ChildB />
+      <ChildC />
+  </React.Fragment>
+  );
 }
 ```
 
@@ -51,14 +51,14 @@ You can also use `empty tags` as a shorter syntax. This is equivalent to the abo
 
 ```javascript
 render() {
-    return (
-        <>
-            <ChildA />
-            <ChildB />
-            <ChildC />
-        </>
-    );
-}
+  return (
+    <>
+      <ChildA />
+      <ChildB />
+      <ChildC />
+    </>
+  );
+  }
 ```
 
 Fragments declared with explicit `React.Fragment` syntax may have keys. This is useful for mapping a collection to an array of fragments.

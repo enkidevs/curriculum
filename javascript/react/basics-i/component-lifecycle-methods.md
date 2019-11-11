@@ -50,16 +50,15 @@ constructor(props) {
 
 ```
 
-- `getDerivedStateFromProps(props, state)` - is invoked **just before** `render`. It should return an object to update the state or null to update nothing. Use this method sparingly.
+- `getDerivedStateFromProps(props, state)` - is invoked **just before** `render`. It should return an object to update the state or null to update nothing. This method exists for rare use cases when the state depends on changes in props over time.
 
-- `componentDidMount()` - is invoked **after** `render`. Useful for initialisations that require `DOM` nodes.
+- `componentDidMount()` - is invoked **after** `render`. Useful for initializations that require `DOM` nodes.
 
-- `UNSAFE_componentWillMount()` - is considered legacy and you should **avoid** it (previously named componentWillMount).
-
+- `UNSAFE_componentWillMount()` - is considered legacy and you should **avoid** it because it will be removed in one of the upcoming React versions (it was previously named `componentWillMount`).
 
 ### 2. Updating
 
-- `getDerivedStateFromProps(props, state)` - is invoked **just before** `render`. It should return an object to update the state or null to update nothing. Use this method sparingly.
+- `getDerivedStateFromProps(props, state)` - As mentioned above, this method is invoked **just before** a render, meaning it is called **both** during a mount and an update.
 
 - `shouldComponentUpdate(nxtProps, nxtState)` - the method is called **before** receiving new `props` or `state`. By default it returns `true` meaning `render` is triggered by any change. Modifying this method allows you to only re-`render` in intended scenarios.
 
@@ -67,9 +66,9 @@ constructor(props) {
 
 - `componentDidUpdate(prevProps, prevState)` - is invoked **after** `render`, but not after the initial one. This method is useful for manipulating the `DOM` when updated
 
-- `UNSAFE_componentWillUpdate()` - is considered legacy and you should **avoid** it (previously named componentWillUpdate).
+- `UNSAFE_componentWillUpdate()` - is considered legacy and you should **avoid** it because it will be removed in one of the upcoming React versions (it was previously named `componentWillUpdate`).
 
-- `UNSAFE_componentWillReceiveProps()` - is considered legacy and you should **avoid** it (previously named componentWillReceiveProps).
+- `UNSAFE_componentWillReceiveProps()` - is considered legacy and you should **avoid** it because it will be removed in one of the upcoming React versions (it was previously named `componentWillReceiveProps`).
 
 ### 3. Unmounting
 

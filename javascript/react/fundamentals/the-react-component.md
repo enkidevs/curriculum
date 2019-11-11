@@ -39,6 +39,7 @@ These `component`s behave like simple functions, they can take input arguments c
 The *rendered* output needs to be specified inside a function called `render()`.
 
 To create a component you can `extend` the `ES6`[1] class `React.Component`:
+
 ```
 class Enki extends React.Component {
   render() {
@@ -68,7 +69,8 @@ Because our `component` didn't use any input (`prop`) we didn't need to specify 
 ## Practice
 
 Complete the missing gaps such that a `component` is defined using `ES6` syntax:
-```
+
+```jsx
 ??? MyComponent ??? React.??? {
   ???() {
     return <h1>Hello, World!</h1>;
@@ -89,14 +91,13 @@ Complete the missing gaps such that a `component` is defined using `ES6` syntax:
 ## Revision
 
 Complete the missing gaps such that a `component` is defined using `ES6` syntax:
-```
+```jsx
 class MyComponent extends React.??? {
   ???() {
     return <h1>Hello, World!</h1>;
   }
 }
 ```
-
 
 * `Component`
 * `render`
@@ -108,12 +109,14 @@ class MyComponent extends React.??? {
 ## Footnotes
 [1:ES6 alternative]
 
-If you don't use **React** with `ES6` syntax you can create components with the `createReactClass` helper from the `create-react-class` module:
-```
+If you use **React** with legacy (pre-ES6) syntax you can create components with the `createReactClass` helper from the `create-react-class` module:
+
+```jsx
 var Enki = React.createClass({
   render: function() {
     return <p>Enki aka Ea</p>;
   }
 });
 ```
-However, it is recommended to use the `ES6` syntax as it is the current standard.
+
+However, it is recommended to use the modern syntax to keep up with the current standard and have access to the latest features.
