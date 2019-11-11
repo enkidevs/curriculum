@@ -16,7 +16,7 @@ category: feature
 
 links:
 
-  - '[facebook.github.io](http://facebook.github.io/react/docs/component-specs.html#proptypes){website}'
+  - '[facebook.github.io](http://facebook.github.io/react/docs/typechecking-with-proptypes){website}'
 
 parent: custom-proptype-s-to-be-required
 
@@ -44,8 +44,10 @@ let comp = ({enki}) => <h1>{enki}</h1>;
 Yet, a type for the arguments can still be specified using `propTypes`:
 
 ```
+import PropTypes from 'prop-types';
+
 comp.propTypes = {
-  enki: React.PropTypes.string
+  enki: PropTypes.string
 };
 ```
 
@@ -60,7 +62,7 @@ let enki = ({enki}) => <h1>{enki}</h1>;
 Complete the code snippet to enforce **prop validation**:
 ```javascript
 ???.??? = {
-  enki: React.PropTypes.string,
+  enki: PropTypes.string,
 }
 ```
 
@@ -84,7 +86,7 @@ let enki = ({enki}) => <h1>{enki}</h1>;
 Complete the code snippet to enforce **prop validation**:
 ```javascript
 ???.??? = {
-  enki: React.PropTypes.string,
+  enki: PropTypes.string,
 }
 ```
 
