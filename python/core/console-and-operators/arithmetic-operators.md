@@ -40,24 +40,28 @@ Here they are in use:
 
 ```python
 >>> 210 + 32
-242
+# 242
 
 >>> 6 - 43
--37
+# -37
 
 >>> 9 * 8.12
-73.08
+# 73.08
 
 >>> 62 / 9
-6.888888888888889
+# 6.888888888888889
 
 ```
-In Python 3, division using `/` will return a float. If you want to perform floor division, use the `//` operator:
+In Python 3, using the division operator (`/`) will return a float[1]. 
 
-```
+If you want to perform floor division, use the `//` operator:
+
+```py
 >>> 62 // 9
-6
+# 6
 ```
+
+When performing floor division with the `//` operator, you are effectively returning only the integer part with the digits after the decimal point being removed. 
 
 ---
 ## Practice
@@ -94,3 +98,9 @@ What are the outputs to the following lines of code?
 * `3`
 * `25`
 * `26`
+
+---
+## Footnotes
+
+[1:Floating Point Numbers]
+Floats or floating point numbers represent real numbers and they are written with a decimal point that divides the integer and fractional parts. For example, 26.3 is a float while 26 is an integer.

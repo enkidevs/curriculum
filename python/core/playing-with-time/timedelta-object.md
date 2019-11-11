@@ -38,7 +38,6 @@ Another useful class provided by `datetime` is called `timedelta`. With this obj
 This object will store a **difference** in time, a delta. Although internally the values are stored only in *days*, *seconds* and *microseconds*, its constructor can accept any argument related to time:
 ```python
 from datetime import timedelta
-from datetime import timedelta
 
 day = timedelta(days=1)
 week = timedelta(weeks=1)

@@ -31,7 +31,7 @@ You can use any Python source file as a **module** by executing an `import` stat
 
 Importing is achieved through the provided `import` statement whose syntax looks like:
 
-```
+```py
 import module1[, module2[, ... moduleN]
 
 # note that [] refers to optional arguments
@@ -39,14 +39,14 @@ import module1[, module2[, ... moduleN]
 
 When the *interpreter* encounters an `import` statement, it **imports** that specific module inside, as long as it exists in the search path. A **search path** is simply the list of directories where the interpreter searches for the specified module.
 
-We will `import` and use a *method* exposed by the `adder` module[1] we defined in the previous insight ("What are modules?"):
+We will `import` and use a *method* exposed by the `my_adder` module[1] we defined in the previous insight:
 
 ```python
 # we need to import the module first
-import adder
+import my_adder
 
 # now we can use methods exposed by it
-result = adder.add(3,4)
+result = my_adder.add(3,4)
 print(result)
 
 # This will be the output: 7
@@ -127,10 +127,10 @@ subtractor.???(10, 2)
 ---
 ## Footnotes
 [1:adder]
-Consider the previously defined module in `added.py`:
+Consider the previously defined module in `my_adder.py`:
 ```python
 def add(a, b):
-    sum = a + b
-    print("The sum is: ", sum)
-    return sum
+  sum = a + b
+  print("The sum is: ", sum)
+  return sum
 ```

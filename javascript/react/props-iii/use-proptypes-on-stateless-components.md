@@ -16,7 +16,7 @@ category: feature
 
 links:
 
-  - '[facebook.github.io](http://facebook.github.io/react/docs/component-specs.html#proptypes){website}'
+  - '[facebook.github.io](http://facebook.github.io/react/docs/typechecking-with-proptypes){website}'
 
 parent: custom-proptype-s-to-be-required
 

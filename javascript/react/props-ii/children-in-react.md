@@ -19,7 +19,7 @@ category: feature
 links:
 
   - '[learn.co](https://learn.co/lessons/react-this-props-children){website}'
-  - '[facebook.github.io](https://facebook.github.io/react/docs/react-api.html#react.children){website}'
+  - '[facebook.github.io](https://facebook.github.io/react/docs/react-api.html#reactchildren){website}'
 
 parent: custom-proptype-s-to-be-required
 
@@ -28,7 +28,7 @@ aspects:
 
 ---
 
-# Children in **React**
+# Children in React
 
 ---
 ## Content
@@ -47,7 +47,6 @@ It can be used to access the `children` of any parent component from within it.
 
 // <A /> and <B /> are the children of
 // <Wrapper>
-
 ```
 
 Keep in mind that a `component` can have a **single** child / **no** children, but also an **array** of children.
@@ -57,21 +56,20 @@ You can make use of `props.children` to dynamically render `component`s and `ele
 Consider the following component:
 ```jsx
 class Wrapper extends React.Component{
-	render() {
-  	return (
-    	<div>
-      	{this.props.children}
+  render() {
+    return (
+      <div>
+        {this.props.children}
       </div>
     );
   }
 }
-
 ```
 Our component will render nothing but the enclosed `<div>` in the following scenario:
 ```jsx
 ReactDOM.render(
   <Wrapper></Wrapper>,
-  document.getElementById('root')
+  document.getElementById("root")
 );
 ```
 
@@ -94,18 +92,17 @@ The `React.Children` class provides a bunch of methods useful for iterating and 
 What will be rendered within the `div` with `id="main"`?
 ```jsx
 function Exercise(props) {
-	return (
-  	<div id="main">
-  		{props.children}
-  	</div>
-    );
+  return (
+    <div id="main">{props.children}</div>
+  );
 }
 
 ReactDOM.render(
-  <Exercise><h1>Main</h1></Exercise>,
-  document.getElementById('root')
+  <Exercise>
+    <h1>Main</h1>
+  </Exercise>,
+  document.getElementById("root")
 );
-
 ```
 
 `???`

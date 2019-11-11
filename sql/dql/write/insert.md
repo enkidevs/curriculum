@@ -80,7 +80,7 @@ SELECT * FROM item
 WHERE item.cost <= 0;
 ```
 
-Note that for this to work, the number and type of selected columns must corelate with either the number and type of columns specified after the `INSERT` keyword or with the number and type of columns found in the table. Any variant of the specific column insertion is applicable to the last query as well.
+Note that for this to work, the number and type of selected columns must correlate with either the number and type of columns specified after the `INSERT` keyword or with the number and type of columns found in the table. Any variant of the specific column insertion is applicable to the last query as well.
 
 ---
 ## Practice

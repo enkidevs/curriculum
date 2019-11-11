@@ -11,7 +11,7 @@ type: normal
 category: how to
 
 links:
-  - '[facebook.github.io](https://facebook.github.io/react/docs/reusable-components.html#transferring-props-a-shortcut){website}'
+  - '[facebook.github.io](https://facebook.github.io/react/docs/jsx-in-depth.html#spread-attributes){website}'
 
 parent: custom-proptype-s-to-be-required
 
