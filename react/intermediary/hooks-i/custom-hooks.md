@@ -89,7 +89,7 @@ B: ???
 * React component
 
 ---
-### Footnotes
+## Footnotes
 
 [1: Custom hooks]
 Because both components and hooks are functions, this functionality can be applied to both.

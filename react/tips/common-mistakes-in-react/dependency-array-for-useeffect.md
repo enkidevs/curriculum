@@ -86,6 +86,7 @@ function App() {
 ```
 
 The third and last option consists of using a deep compare hook that tracks the dependency references and their contents. We will not cover this option in this insight, but make sure to check out the resources for a link to a popular custom hook that handles this use-case.
+
 ---
 ## Practice
 
