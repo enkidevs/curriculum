@@ -1,6 +1,6 @@
 name: Intermediary
 
-description: Learn the basics of React.
+description: Get accustomed to more advanced React features.
 
 sections:
   '0':

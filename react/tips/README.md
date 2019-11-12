@@ -1,6 +1,6 @@
 name: Tips
 
-description: Learn the basics of React.
+description: Common tips for working with React.
 
 sections:
   '0':
