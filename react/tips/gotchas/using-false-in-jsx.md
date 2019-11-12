@@ -57,7 +57,9 @@ ReactDOM.render(
 ---
 ## Practice
 
-What does the following code snippet do? ???
+What does the following code snippet do? 
+
+???
 
 ```javascript
 ReactDOM.render(

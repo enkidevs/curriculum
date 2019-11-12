@@ -53,7 +53,9 @@ Taking all of this into consideration, setting the `value` of `<input>` to `null
 ---
 ## Practice
 
-Is this a controlled or uncontrolled <input>? ???
+Is this a controlled or uncontrolled <input>? 
+
+???
 
 ```jsx
 ReactDOM.render(

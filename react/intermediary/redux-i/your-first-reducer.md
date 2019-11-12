@@ -10,9 +10,6 @@ type: normal
 
 category: must-know
 
-links:
-
-
 aspects:
   - introduction
 

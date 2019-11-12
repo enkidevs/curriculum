@@ -9,6 +9,6 @@ sections:
     - props-i
     - props-ii
     - props-iii
-  '2':
+  '1':
     - hooks-i
     - redux-i

@@ -43,7 +43,9 @@ Keep in mind that while `<div /> ` alone is a valid tag, `<div>` is not if it's 
 ---
 ## Practice
 
-Which of the following tags is a self closing tag? ???
+Which of the following tags is a self closing tag? 
+
+???
 
 ```jsx
 // Option A

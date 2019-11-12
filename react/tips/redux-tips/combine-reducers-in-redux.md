@@ -146,8 +146,9 @@ console.log(store.getState());
 ---
 ## Practice
 
-Once the `combineReducers()` function has transformed an object with different reducer functions into a single reducer function, where is it then passed to? ???
+Once the `combineReducers()` function has transformed an object with different reducer functions into a single reducer function, where is it then passed to? 
 
+???
 
 * `createStore()`
 * `createReducer()`
@@ -157,8 +158,8 @@ Once the `combineReducers()` function has transformed an object with different r
 ## Revision
 
 What special method is used to combine different reduction functions with the scope of keeping your code scalable?
-???
 
+???
 
 * `combineReducers()`
 * `combine()`
