@@ -2,6 +2,8 @@ name: Introduction
 
 description: Learn the basics of React.
 
+core: true
+
 sections:
   '0':
     - intro-react
