@@ -35,7 +35,7 @@ const el = <h2>Enki!</h2>;
 
 This means that **JSX** is a way of writing your **HTML** inside JS code.
 
-A **JSX** expression is evaluated to a **React** `element`, which is short-hand for calling `React.createElement()` Think of `ReactElement`s as the **UI** building blocks of **React**. We will come back to this later.
+A **JSX** expression is evaluated to a **React** `element`, which is short-hand for calling `React.createElement()`. Think of `ReactElement`s as the **UI** building blocks of **React**. We will come back to this later.
 
 **JSX** expressions are transformed (compiled) into standard JS objects. For example, the following **JSX** code:
 
