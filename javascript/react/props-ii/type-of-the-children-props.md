@@ -11,7 +11,7 @@ type: normal
 category: tip
 
 links:
-  - '[facebook.github.io](https://facebook.github.io/react/tips/children-props-type.html){website}'
+  - '[facebook.github.io](https://facebook.github.io/react/docs/jsx-in-depth.html#children-in-jsx){website}'
 
 parent: custom-proptype-s-to-be-required
 
@@ -32,16 +32,16 @@ When there is a single child, `this.props.children` will be the the single child
 The example shows both with and without an array allocation:
 
 ```javascript
-var Wrapper = React.createClass({
-  componentDidMount: function() {
+class Wrapper extends React.Component {
+  componentDidMount {
     console.log(
       Array.isArray(this.props.children)
     );
   }
-  render: function() {
-      return <div />;
+  render {
+    return <div />;
   }
-});
+}
 
 // an array of components
 ReactDOM.render(
@@ -65,14 +65,14 @@ ReactDOM.render(
 Consider the following react component:
 
 ```javascript
-var Enki = React.createClass({
-  componentDidMount: function {
-    console.log(this.props.children)
+class Enki extends React.Component {
+  componentDidMount {
+    console.log(this.props.children);
   }
-  render: function() {
+  render {
     return <div />;
   }
-})
+}
 ```
 
 What will the following output?
