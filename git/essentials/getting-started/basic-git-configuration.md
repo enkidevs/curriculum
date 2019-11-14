@@ -18,7 +18,7 @@ inAlgoPool: false
 
 links:
 
-  - '[git-scm.com](https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup){website}'
+  - '[First Time Git Setup Official Documentation](https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup){website}'
 
 
 ---

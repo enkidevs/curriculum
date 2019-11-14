@@ -43,7 +43,8 @@ myData.a.b.push(9);
 
 Using the immutability helper:
 ```javascript
-var update = require('react-addons-update');
+import update from 'immutability-helper';
+
 var newData = update(myData, {
   x: {y: {z: {$set: 7}}},
   a: {b: {$push: [9]}}
@@ -70,7 +71,8 @@ myData.a.b.push(4);
 ```
 Give the equivalent of the code above with the help of immutability helpers:
 ```javascript
-var update = require('react-addons-update');
+import update from 'immutability-helper';
+
 var newObj = ???(myData, {
  x: {y: {???set :3}},
  a: {b: {$???: [4]}},
@@ -97,7 +99,8 @@ myData.a.b.push(4);
 ```
 Give the equivalent of the code above with the help of immutability helpers:
 ```javascript
-var update = require('react-addons-update');
+import update from 'immutability-helper';
+
 var newObj = ???(myData, {
  x: {y: {???set :3}},
  a: {b: {$???: [4]}},

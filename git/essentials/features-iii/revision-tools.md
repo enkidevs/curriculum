@@ -16,7 +16,7 @@ aspects:
 
 links:
 
-  - '[git-scm.com](http://git-scm.com/book/en/v2/Git-Tools-Revision-Selection){website}'
+  - '[Git Tools - Revision Selection](http://git-scm.com/book/en/v2/Git-Tools-Revision-Selection){website}'
 
 
 ---
