@@ -19,7 +19,7 @@ category: feature
 links:
 
   - '[learn.co](https://learn.co/lessons/react-this-props-children){website}'
-  - '[facebook.github.io](https://facebook.github.io/react/docs/react-api.html#react.children){website}'
+  - '[facebook.github.io](https://facebook.github.io/react/docs/react-api.html#reactchildren){website}'
 
 parent: custom-proptype-s-to-be-required
 
@@ -57,10 +57,10 @@ You can make use of `props.children` to dynamically render `component`s and `ele
 Consider the following component:
 ```jsx
 class Wrapper extends React.Component{
-	render() {
-  	return (
-    	<div>
-      	{this.props.children}
+  render() {
+    return (
+      <div>
+        {this.props.children}
       </div>
     );
   }
