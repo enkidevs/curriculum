@@ -11,7 +11,7 @@ type: normal
 category: how to
 
 links:
-  - '[facebook.github.io](https://facebook.github.io/react/docs/reusable-components.html#transferring-props-a-shortcut){website}'
+  - '[facebook.github.io](https://facebook.github.io/react/docs/jsx-in-depth.html#spread-attributes){website}'
 
 parent: custom-proptype-s-to-be-required
 
@@ -32,15 +32,15 @@ This can be often used because a common type of **React** element is the one tha
 Having the following component:
 
 ```jsx
-var EnkiLink = React.createClass({
-  render: function() {
+class EnkiLink extends React.Component {
+  render() {
     return (
       <a {...this.props}>
         {this.props.children}
       </a>
     );
   }
-});
+}
 ```
 
 We can directly pass a *HTML attribute*:
@@ -77,13 +77,13 @@ How can you copy the contents of `this.props`, ideally for passing it down to ot
 How would you use the spread syntax to pass the current `props` to the following `<p/>` element?
 
 ```javascript
-var Sample = React.createClass({
-  render: function() {
+class Sample extends React.Component {
+  render() {
     return (
       <p ??? ??? ??? ??? />
     )
   }
-})
+}
 ```
 
 * {
