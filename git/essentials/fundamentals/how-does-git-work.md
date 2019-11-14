@@ -19,7 +19,7 @@ inAlgoPool: false
 
 links:
 
-  - '[git-scm.com](https://git-scm.com/book/en/v2/Getting-Started-Git-Basics){website}'
+  - '[Git Basics Official Documentation](https://git-scm.com/book/en/v2/Getting-Started-Git-Basics){website}'
 
 
 ---
