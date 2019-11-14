@@ -19,7 +19,7 @@ inAlgoPool: false
 
 links:
 
-  - '[www.atlassian.com](https://www.atlassian.com/git/tutorials/what-is-git/){website}'
+  - '[What Is Git](https://www.atlassian.com/git/tutorials/what-is-git/){website}'
 
 
 ---
