@@ -21,7 +21,7 @@ aspects:
 
 links:
 
-  - '[Git Blame Official Documentation](https://git-scm.com/book/en/v2/Git-Tools-Debugging-with-Git){website}'
+  - '[Debugging with Git](https://git-scm.com/book/en/v2/Git-Tools-Debugging-with-Git){website}'
 
 
 ---
