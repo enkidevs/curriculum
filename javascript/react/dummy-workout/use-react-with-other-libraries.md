@@ -18,7 +18,7 @@ parent: custom-proptype-s-to-be-required
 links:
 
   - >-
-    [facebook.github.io](https://facebook.github.io/react/tips/use-react-with-other-libraries.html){website}
+    [facebook.github.io](https://facebook.github.io/react/docs/integrating-with-other-libraries.html){website}
 
 ---
 # Use **React** with other libraries
