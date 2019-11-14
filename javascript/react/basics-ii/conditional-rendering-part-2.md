@@ -61,11 +61,11 @@ function Maybe(props) {
   if (props.not) {
     return null;
   }
-  return <p>Heey</p>;
+  return <p>Hey</p>;
 }
 ```
 
-Keep in mind that when returning `null` during `render`, this won't affect the call on **lifecycle methods** such as `componentWillUpdate`.
+Keep in mind that when returning `null` during `render`, this won't affect the call on **lifecycle methods** such as `componentDidUpdate`.
 
 ---
 ## Practice

@@ -19,7 +19,7 @@ inAlgoPool: false
 
 links:
 
-  - '[www.atlassian.com](https://www.atlassian.com/git/tutorials/saving-changes/git-commit){website}'
+  - '[Git Commit Tutorial](https://www.atlassian.com/git/tutorials/saving-changes/git-commit){website}'
 
 
 ---
