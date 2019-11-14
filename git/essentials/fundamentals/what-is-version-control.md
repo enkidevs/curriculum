@@ -18,8 +18,8 @@ inAlgoPool: false
 
 links:
 
-  - '[git-scm.com](https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control){website}'
-  - '[www.atlassian.com](https://www.atlassian.com/git/tutorials/what-is-version-control){website}'
+  - '[About Version Control Official Documentation](https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control){website}'
+  - '[What Is Version Control](https://www.atlassian.com/git/tutorials/what-is-version-control){website}'
 
 
 ---
