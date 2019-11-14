@@ -16,7 +16,7 @@ category: must-know
 
 links:
 
-  - '[facebook.github.io](https://facebook.github.io/react/tips/dangerously-set-inner-html.html){website}'
+  - '[facebook.github.io](https://facebook.github.io/react/docs/dom-elements.html#dangerouslysetinnerhtml){website}'
 
 parent: custom-proptype-s-to-be-required
 
