@@ -15,7 +15,7 @@ aspects:
 
 links:
 
-  - '[git-scm.com](http://git-scm.com/book/en/v2/Getting-Started-Git-Basics){website}'
+  - '[Getting Started Git Basics](http://git-scm.com/book/en/v2/Getting-Started-Git-Basics){website}'
 
 
 ---

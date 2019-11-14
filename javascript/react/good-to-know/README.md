@@ -7,5 +7,5 @@ insights:
   - load-initial-data-via-ajax
   - reactdom-render-ref
   - null-value-for-controlled-components-in-react
-  - keyed-fragments-in-react
+  - fragments-in-react
  
