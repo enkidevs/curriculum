@@ -16,7 +16,7 @@ category: how to
 
 links:
 
-  - '[facebook.github.io](https://facebook.github.io/react/docs/top-level-api.html#react.cloneelement){website}'
+  - '[facebook.github.io](https://facebook.github.io/react/docs/top-level-api.html#cloneelement){website}'
   - '[facebook.github.io](https://facebook.github.io/react/blog/2015/03/03/react-v0.13-rc2.html){website}'
 
 parent: custom-proptype-s-to-be-required
@@ -31,14 +31,14 @@ aspects:
 ---
 ## Content
 
-**React** provides different ways to clone elements. The `React.cloneElement` method, unlike `React.addons.cloneWithProps` can clone an element whilst keeping the `key` and `ref` of the original one.
+**React** provides different ways to clone elements. The `React.cloneElement` method, unlike `React.addons.cloneWithProps` (which is now deprecated) can clone an element whilst keeping the `key` and `ref` of the original one.
 
 How to use:
 ```javascript
-ReactElement cloneElement(
-  ReactElement element,
-  [object props],
-  [children ...]
+React.cloneElement(
+  element,
+  [props],
+  [...children]
 );
 ```
 
@@ -49,8 +49,6 @@ Keep in mind that using:
 React.cloneElement(child, { ref: 'newRef' })
 ```
 will override the `ref`.
-
-Documentation warns that `React.addons.cloneWithProps` will be deprecated so you should consider using `React.cloneElement` instead.
 
 ---
 ## Practice
