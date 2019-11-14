@@ -18,7 +18,7 @@ inAlgoPool: false
 
 links:
 
-  - '[git-scm.com](https://git-scm.com/book/en/v1/Git-Tools-Stashing){website}'
+  - '[Git Tools Stashing](https://git-scm.com/book/en/v1/Git-Tools-Stashing){website}'
 
 
 ---
