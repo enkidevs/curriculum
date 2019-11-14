@@ -39,10 +39,10 @@ These methods correspond to exact points in the **component's lifecycle**.
 
 A **lifecycle hook** is the `constructor(props)` which is commonly used to set the initial `state` of your component, but not only.
 
-Suppose you want to `log` a message when a component **will** be mounted[1] (before being `render`ed). For this, you can use the `componentWillMount` method:
+Suppose you want to `log` a message when a component **did** mount[1] (after being `render`ed). For this, you can use the `componentDidMount` method:
 ```jsx
 class Spawn extends React.Component {
-  componentWillMount() {
+  componentDidMount() {
     console.log('I will spawn');
   }
   render() {
@@ -64,18 +64,18 @@ If you also want to mark the **un-mounting**, you can use the `componentWillUnmo
 
 By convention, methods starting with `will` are run **before** an event happens while those starting with `did` are run **afterwards**.
 
-Making use of **lifecycle methods** grants you improved control over the `component`, letting you perform optimisations, free up resources, integrate third-party libraries or even handle `props` and `state` better.
+Making use of **lifecycle methods** grants you improved control over the `component`, letting you perform optimizations, free up resources, integrate third-party libraries or even handle `props` and `state` better.
 
 ---
 ## Practice
 
-What **lifecycle method** is used to target the point in time **before** `render`ing?
+What **lifecycle method** is used to target the point in time **after** `render`ing?
 
 ???
 
 
-* `componentWillMount`
 * `componentDidMount`
+* `shouldComponentUpdate`
 * `componentWillUnmount`
 * `render`
 
@@ -97,5 +97,5 @@ Is `React.Component`'s `constructor(props)` method considered a **lifecycle hook
 [1:mounting]
 
 **Mounting** refers to the initial insertion of a **React** `component` into the **DOM**.
-Similarly, **unmouting** happens when the `component` is removed from the **DOM**.
+Similarly, **unmounting** happens when the `component` is removed from the **DOM**.
 
