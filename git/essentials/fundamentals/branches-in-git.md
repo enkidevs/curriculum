@@ -19,7 +19,7 @@ inAlgoPool: false
 
 links:
 
-  - '[git-scm.com](https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell){website}'
+  - '[Git Branching Official Documentation](https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell){website}'
 
 
 ---
@@ -70,7 +70,7 @@ To rename the current branch:
 $ git branch -m new-branch-name
 
 ```
-Thinking of a branch as a pointer to a specific state of the repository, We can visualize how changing to a different branch takes us to a different stage of the same project. different changes of the same project are stored on different branches. To change the branch, we are on we can use `git checkout`[4]:
+Thinking of a branch as a pointer to a specific state of the repository, we can visualize how changing to a different branch takes us to a different stage of the same project. Different changes of the same project are stored on different branches. To change the branch, we are on we can use `git checkout`[4]:
 ```
 $ git checkout my-branch
 ```
@@ -78,7 +78,7 @@ $ git checkout my-branch
 ---
 ## Practice
 
-Complete the command below in order to force the delete of `my-branch`:
+Complete the command below to force the delete of `my-branch`:
 ```
 $ git ??? ??? my-branch
 ```

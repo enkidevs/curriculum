@@ -19,8 +19,8 @@ aspects:
 
 links:
 
-  - '[git-scm.com](http://git-scm.com/book/en/v2/Git-Branching-Remote-Branches){website}'
-  - '[git-scm.com](https://git-scm.com/docs/git-branch){website}'
+  - '[Remote Branches Official Documentation](http://git-scm.com/book/en/v2/Git-Branching-Remote-Branches){website}'
+  - '[Git Branch Official Documentation](https://git-scm.com/docs/git-branch){website}'
 
 
 ---
