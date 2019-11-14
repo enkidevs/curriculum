@@ -17,8 +17,7 @@ inAlgoPool: false
 
 
 links:
-
-  - '[help.github.com](https://help.github.com/articles/github-glossary/){website}'
+  - '[GitHub Glossary Official Documentation](https://help.github.com/articles/github-glossary/){website}'
 
 
 ---
