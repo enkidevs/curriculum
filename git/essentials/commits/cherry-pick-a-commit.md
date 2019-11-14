@@ -19,7 +19,7 @@ aspects:
   
 links:
 
-  - '[swsblog.stanford.edu](https://swsblog.stanford.edu/blog/cherry-picking-small-git-lesson){website}'
+  - '[Cherry Picking Small Git Lesson](https://swsblog.stanford.edu/blog/cherry-picking-small-git-lesson){website}'
 
 ---
 
