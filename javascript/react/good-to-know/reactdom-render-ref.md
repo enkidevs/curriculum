@@ -11,7 +11,7 @@ type: normal
 category: must-know
 
 links:
-  - '[facebook.github.io](https://facebook.github.io/react/docs/more-about-refs.html#the-ref-returned-from-reactdom.render){website}'
+  - '[facebook.github.io](https://facebook.github.io/react/docs/refs-and-the-dom.html){website}'
 
 parent: custom-proptype-s-to-be-required
 

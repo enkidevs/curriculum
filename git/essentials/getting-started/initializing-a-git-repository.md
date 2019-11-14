@@ -18,7 +18,7 @@ inAlgoPool: false
 
 links:
 
-  - '[www.atlassian.com](https://www.atlassian.com/git/tutorials/setting-up-a-repository/){website}'
+  - '[Setting up a Repository Official Documentation](https://www.atlassian.com/git/tutorials/setting-up-a-repository/){website}'
 
 
 ---
