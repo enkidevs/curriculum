@@ -27,43 +27,43 @@ aspects:
 ---
 ## Content
 
-In addition to standard *prop validations* for *JavaScript* primitives there are other types available through `React.PropTypes`.
+In addition to standard *prop validations* for *JavaScript* primitives there are other types available through `PropTypes`.
 
 Validate for anything that can be rendered (e.g. numbers, strings, elements or even an array containing these types):
 
 ```jsx
-myNode: React.PropTypes.node,
+myNode: PropTypes.node,
 ```
 Validate for a React element:
 ```jsx
-myElem: React.PropTypes.element,
+myElem: PropTypes.element,
 ```
 Validate for an instance of a class (using `instanceof` operator):
 ```jsx
-myEnki: React.PropTypes.instanceof(Enki),
+myEnki: PropTypes.instanceof(Enki),
 ```
 
 Validate for specific values treating it as an `enum`:
 ```jsx
-myEnum: React.PropTypes.oneOf(['a', 'b']),
+myEnum: PropTypes.oneOf(['a', 'b']),
 ```
 Validate for multiple types simultaneously:
 ```jsx
-myProp: React.PropTypes.oneOfType([
- React.PropTypes.string,
- React.PropTypes.instanceOf(Enki),
+myProp: PropTypes.oneOfType([
+ PropTypes.string,
+ PropTypes.instanceOf(Enki),
 ]),
 
 ```
 Validate for an array of a certain type:
 ```jsx
-myArray: React.PropTypes.arrayOf(
-  React.PropTypes.bool),
+myArray: PropTypes.arrayOf(
+  PropTypes.bool),
 ```
 Validate for an object with prop values of a certain type:
 ```jsx
-myObjOf: React.PropTypes.objectOf(
-  React.PropTypes.number),
+myObjOf: PropTypes.objectOf(
+  PropTypes.number),
 ```
 
 ---
@@ -76,8 +76,7 @@ function Test(props) {
 }
 
 Test.propTypes = {
-  myProp = React.???
-              .???(???),
+  myProp = ???.???(???),
 };
 ```
 
@@ -100,8 +99,7 @@ function Test(props) {
 }
 
 Test.propTypes = {
-  myProp = React.???
-              .???(???),
+  myProp = ???.???(???),
 };
 ```
 

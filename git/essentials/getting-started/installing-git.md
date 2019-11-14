@@ -15,8 +15,8 @@ aspects:
   
 links:
 
-  - '[Git official webiste](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git){website}'
-  - '[GitHub download](https://desktop.github.com/){website}'
+  - '[Git Official Documentation](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git){website}'
+  - '[GitHub Download](https://desktop.github.com/){website}'
 
 
 ---
