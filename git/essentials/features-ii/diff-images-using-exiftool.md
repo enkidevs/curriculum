@@ -19,8 +19,8 @@ aspects:
 
 links:
 
-  - '[www.sno.phy.queensu.ca](http://www.sno.phy.queensu.ca/~phil/exiftool/){website}'
-  - '[git-scm.com](http://git-scm.com/book/en/v2/Customizing-Git-Git-Attributes){website}'
+  - '[ExifTool Library](http://www.sno.phy.queensu.ca/~phil/exiftool/){website}'
+  - '[Git Attributes Official Documentation](http://git-scm.com/book/en/v2/Customizing-Git-Git-Attributes){website}'
 
 
 ---
