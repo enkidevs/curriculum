@@ -12,7 +12,7 @@ category: must-know
 
 links:
 
-  - '[andrewhfarmer.com](http://andrewhfarmer.com/what-is-react/){website}'
+  - '[fullstackreact.com](https://www.fullstackreact.com/30-days-of-react/day-1/){website}'
 
 aspects:
   - introduction
