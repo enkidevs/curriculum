@@ -19,7 +19,7 @@ inAlgoPool: false
 
 links:
 
-  - '[git-scm.com](https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository){website}'
+  - '[Recording Changes To The Repository](https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository){website}'
 
 
 ---
