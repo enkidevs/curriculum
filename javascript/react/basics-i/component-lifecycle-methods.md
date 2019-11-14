@@ -18,6 +18,7 @@ category: must-know
 links:
 
   - '[facebook.github.io](https://facebook.github.io/react/docs/react-component.html#the-component-lifecycle){website}'
+  - '[projects.wojtekmaj.pl](http://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/){website}'
 
 parent: the-component-lifecycle
 
@@ -49,20 +50,25 @@ constructor(props) {
 
 ```
 
-- `componentWillMount()` - is invoked **just before** `render`. Modifying the `state` here won't trigger a **re-render**.
+- `getDerivedStateFromProps(props, state)` - is invoked **just before** `render`. It should return an object to update the state or null to update nothing. This method exists for rare use cases when the state depends on changes in props over time.
 
-- `componentDidMount()` - is invoked **after** `render`. Useful for initialisations that require `DOM` nodes.
+- `componentDidMount()` - is invoked **after** `render`. Useful for initializations that require `DOM` nodes.
 
+- `UNSAFE_componentWillMount()` - is considered legacy and you should **avoid** it because it will be removed in one of the upcoming React versions (it was previously named `componentWillMount`).
 
 ### 2. Updating
 
-- `componentWillReceiveProps(nextProps)` - is only called after `render`ing, but **before** receiving new `props`. Because **React** may call this method although `props` stay the same its recommended to manually implement a check to see if there's a difference.
+- `getDerivedStateFromProps(props, state)` - As mentioned above, this method is invoked **just before** a render, meaning it is called **both** during a mount and an update.
 
 - `shouldComponentUpdate(nxtProps, nxtState)` - the method is called **before** receiving new `props` or `state`. By default it returns `true` meaning `render` is triggered by any change. Modifying this method allows you to only re-`render` in intended scenarios.
 
-- `componentWillUpdate(nextProps, nextState)` - is invoked if `shouldComponentUpdate` returns `true`, **before** `render`. Note you can't use `this.setState()` here.
+- `getSnapshotBeforeUpdate(prevProps, prevState)` - is invoked **right before** the most recently rendered output is committed. It enables your component to capture some information from the `DOM` before it is potentially changed, passing it as a parameter to `componentDidUpdate()`.
 
 - `componentDidUpdate(prevProps, prevState)` - is invoked **after** `render`, but not after the initial one. This method is useful for manipulating the `DOM` when updated
+
+- `UNSAFE_componentWillUpdate()` - is considered legacy and you should **avoid** it because it will be removed in one of the upcoming React versions (it was previously named `componentWillUpdate`).
+
+- `UNSAFE_componentWillReceiveProps()` - is considered legacy and you should **avoid** it because it will be removed in one of the upcoming React versions (it was previously named `componentWillReceiveProps`).
 
 ### 3. Unmounting
 
@@ -78,9 +84,9 @@ What of the following methods is called **after** rendering, but not after the f
 
 * `componentDidUpdate`
 * `componentDidMount`
-* `componentWillUpdate`
-* `componentWillMount`
 * `componentWillUnmount`
+* `getDerivedStateFromProps`
+* `getSnapshotBeforeUpdate`
 * `constructor`
 
 ---
@@ -92,7 +98,7 @@ What method is the first being called in the **component lifecycle**?
 
 
 * `constructor`
-* `componentWillMount`
+* `getDerivedStateFromProps`
 * `shouldComponentUpdate`
 * `componentDidMount`
 
