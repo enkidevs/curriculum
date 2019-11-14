@@ -18,7 +18,7 @@ inAlgoPool: false
 
 links:
 
-  - '[www.atlassian.com](https://www.atlassian.com/git/tutorials/setting-up-a-repository/git-clone){website}'
+  - '[Git Clone Official Documentation](https://www.atlassian.com/git/tutorials/setting-up-a-repository/git-clone){website}'
 
 
 ---
@@ -49,7 +49,7 @@ Running this command will:
  - create a directory named "reduck"
  - initialize a `.git` directory inside
  - pull all repository data in the `.git` directory
- -  check out a working copy of the latest version of the project
+ - checkout a working copy of the latest version of the project
 
 Another name for the parent directory can be specified as follows:
 ```
@@ -75,13 +75,13 @@ What's the last step **Git** automatically does after running `git clone`?
 ---
 ## Revision
 
-Does running `git clone` with a repository's URL require having an existing working copy on you machine?
+Does running `git clone` with a repository's URL require having an existing working copy on your machine?
 
 ???
 
 
 * No
 * Yes
-* Only if you don't provide a new new directory name
+* Only if you don't provide a new directory name
 
  
