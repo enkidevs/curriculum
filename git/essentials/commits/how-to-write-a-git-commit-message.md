@@ -17,8 +17,8 @@ aspects:
 
 links:
 
-  - '[chris.beams.io](http://chris.beams.io/posts/git-commit/){website}'
-  - '[robots.thoughtbot.com](https://robots.thoughtbot.com/5-useful-tips-for-a-better-commit-message){website}'
+  - '[How To Write A Git Commit Message](http://chris.beams.io/posts/git-commit/){website}'
+  - '[5 Useful Tips For A Better Commit Message](https://robots.thoughtbot.com/5-useful-tips-for-a-better-commit-message){website}'
 
 
 ---

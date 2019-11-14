@@ -1,5 +1,5 @@
 ---
-author: catalin
+author: DanielAmorimAraujo
 
 levels:
 
@@ -16,11 +16,9 @@ category: feature
 
 links:
 
-  - '[facebook.github.io](https://facebook.github.io/react/docs/shallow-compare.html){website}'
-
-notes: |-
-  probably best in the same workout with :
-  https://insights.enki.com/#/contrib/56aa0290bd6a4609006eaee3
+  - '[facebook.github.io](https://facebook.github.io/react/docs/react-api.html#reactpurecomponent){website}'
+  
+  - '[facebook.github.io](https://facebook.github.io/react/docs/react-api.html#reactmemo){website}'
 
 parent: custom-proptype-s-to-be-required
 
@@ -34,37 +32,73 @@ aspects:
 ---
 ## Content
 
-A performance boost can be achieved with the helper function `shallowCompare` when used on a **React** component render function that is *"pure"*.
+### React.PureComponent
 
-The same functionality of `PureRenderMixin` can be achieved while using **ES6** classed with this helper function.
+`React.PureComponent` can be used instead of `React.Component`. `React.PureComponent` implements the `shouldComponentUpdate()` lifecycle automatically with shallow prop and state comparison.
 
-Import `shallowCompare`:
+If a component **render**s the same result given the same **props** and **state** (this type of component is considered *pure*), `React.PureComponent` can provide a performance boost. 
+
+Using `React.PureComponent`:
 ```javascript
-var shallowCompare = require(
-  'react-addons-shallow-compare');
-```
-
-Use shallow compare:
-```javascript
-export class SampleComponent extends
-                        React.Component {
-shouldComponentUpdate(nextProps,nextState){
-  return shallowCompare(this,
-    nextProps,nextState);
+class NotPure extends React.Component {
+  render() {
+    return (
+      <div className={this.props.className}>foo</div>
+    )
   }
-render() {
-  return <div className={
-    this.props.className}>foo</div>;
+}
+
+class Pure extends React.PureComponent {
+  render() {
+    return (
+      <div className={this.props.className}>foo</div>
+    );
   }
 }
 ```
 
-A shallow equality check is performed on the current `props` and `nextProps`, but also on `state` and `nextState` objects, returning `true` if the comparison fails (component should update) and `false` otherwise.
+The **NotPure** component would render every time **this.props.className** updates, even if its value stays the same, whereas **Pure** would render only if **this.props.className** updates to a different value.
+
+Note that `PureComponent` only shallowly compares the objects, meaning if the **prop**s or **state** contains complex data structures, it may produce false-negatives for deeper differences. Only use `PureComponent` if the component has simple **prop**s and **state**.
+
+### React.memo
+
+`React.memo` achieves the same as `React.PureComponent`, but it is used for **function**s instead.
+
+**React** will simply skip rendering the component and reuse the last rendered result if the **props** are the same.
+
+`React.memo` wraps a **function** component.
+```javascript
+const Component = React.memo(
+  function MemoComponent(props) {
+    /* return */
+  }
+);
+```
+
+By default, `React.memo` only shallowly compares complex objects in the **props** object. You can provide a custom comparison function as the second argument to have more control over the comparison.
+
+```javascript
+function MemoComponent(props) {
+  /* return using props */
+}
+function areEqual(prevProps, nextProps) {
+  /*
+  returns true if nextProps renders
+  the same result as prevProps,
+  otherwise returns false
+  */
+}
+const Component = React.Memo(
+  MemoComponent,
+  areEqual
+);
+```
 
 ---
 ## Practice
 
-A ??? can be achieved with the helper function `shallowCompare` when used on a React component render function that is ???.
+A ??? can be achieved with `React.PureComponent` or `React.memo` when used on a React component that is ???.
 
 
 * performance boost
@@ -77,15 +111,28 @@ A ??? can be achieved with the helper function `shallowCompare` when used on a R
 ---
 ## Revision
 
-Import `shallowCompare` into your React code:
+Complete the code so that **EnkiComp** only re-renders if **areEqual** returns false
 
 ```javascript
-var shallowCompare = require('???');
+function EnkiComp(props) {
+  /* ... */
+}
+function areEqual(prevProps, nextProps) {
+  /* ... */
+}
+const Enki = React.???(
+  ???,
+  ???
+);
 ```
 
-* `react-addons-shallow-compare`
-* `shallow-compare`
-* `s-compare`
-* `shallowcompare`
+* `memo`
+* `EnkiComp`
+* `areEqual`
+* `PureComponent`
+* `Memo`
+* `Enki`
+* `React.PureComponent`
+* `React.memo`
 
 
