@@ -40,17 +40,15 @@ Since we are only looking for the date of a specific document, we will use the `
 
 Example:
 ```javascript
-db.pokedex.aggregate(
-   [
-     {$match: {"name": "Bulbasaur"}},
-     {
-       $project:
-         {
-           year: { $year: "$Date" }
-         }
-     }
-   ]
-)
+db.pokedex.aggregate([
+  { $match: { name: "Bulbasaur" } },
+  {
+    $project: {
+      year: { $year: "$Date" }
+    }
+  }
+]);
+
 ```
 Output:
 ```javascript
@@ -70,18 +68,16 @@ Since we already know the exact document and its `ObjectId` we can exclude it to
 
 Example with `_id` excluded:
 ```javascript
-db.pokedex.aggregate(
-   [
-     {$match: {"name": "Bulbasaur"}},
-     {
-       $project:
-         {
-           Year: { $year: "$Date" },
-           _id: 0
-         }
-     }
-   ]
-)
+db.pokedex.aggregate([
+  { $match: { name: "Bulbasaur" } },
+  {
+    $project: {
+      Year: { $year: "$Date" },
+      _id: 0
+    }
+  }
+]);
+
 ```
 Output:
 ```javascript
@@ -95,18 +91,16 @@ Output:
 The `$month` operator is used to find the month the document was created on. The output goes from `1`-`12`, `1` being January and `12` being December.
 
 ```js
-db.pokedex.aggregate(
-   [
-     {$match: {"name": "Bulbasaur"}},
-     {
-       $project:
-         {
-           Month: { $month: "$Date" },
-           _id: 0
-         }
-     }
-   ]
-)
+db.pokedex.aggregate([
+  { $match: { name: "Bulbasaur" } },
+  {
+    $project: {
+      Month: { $month: "$Date" },
+      _id: 0
+    }
+  }
+]);
+
 ```
 
 Output:
@@ -120,18 +114,18 @@ Output:
 The `$dayOfMonth` operator is used to find the day of the month the document was created on. The output goes from 1-31.
 
 ```js
-db.pokedex.aggregate(
-   [
-     {$match: {"name": "Bulbasaur"}},
-     {
-       $project:
-         {
-           DayOfTheMonth: { $dayOfMonth: "$Date" },
-           _id: 0
-         }
-     }
-   ]
-)
+db.pokedex.aggregate([
+  { $match: { name: "Bulbasaur" } },
+  {
+    $project: {
+      DayOfTheMonth: {
+        $dayOfMonth: "$Date"
+      },
+      _id: 0
+    }
+  }
+]);
+
 ```
 
 Output:
