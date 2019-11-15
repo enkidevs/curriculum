@@ -21,7 +21,7 @@ aspects:
 
 links:
 
-  - '[git-scm.com](https://git-scm.com/book/en/v2/Git-Basics-Viewing-the-Commit-History){website}'
+  - '[Git Basics Official Documentation](https://git-scm.com/book/en/v2/Git-Basics-Viewing-the-Commit-History){website}'
 
 
 ---
