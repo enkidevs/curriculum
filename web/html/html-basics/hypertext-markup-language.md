@@ -78,8 +78,6 @@ The part of the HTML that is not *displayed* in the web page itself, but helps t
 </html>
 ```
 
-You can bookmark this insight to receive a link to the *first online web page*.
-
 ---
 ## Practice
 
