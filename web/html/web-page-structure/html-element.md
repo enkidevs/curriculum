@@ -25,7 +25,7 @@ links:
 ---
 ## Content
 
-The HTML `<html>` element is the root (top-level element) of an HTML document and is the primary container for all of the other elements in the documents, which are they descendants of this one element.
+The HTML `<html>` element is the root (top-level element) of an HTML document and is the primary container for all of the other elements in the documents, which are the descendants of this one element.
 
 Within every `<html>` element are two primary elements:
 * `<head>`: Data useful for the page.
@@ -42,7 +42,7 @@ Example:
 
 The `lang` attribute is useful for helping both search engines and screen readers determine the proper language of the text on the page. When the `lang` attribute is not included, screen readers will use the operating system's set language, which isn't always the best because it may not provide the proper accents and pronunciation.
 
-The `<html>` element is easily modifiable with CSS by using either the `html` or the `:root` selector. They selectors are identical, except that the `:root` selector's specificity is higher (meaning it will override `html`).
+The `<html>` element is easily modifiable with CSS by using either the `html` or the `:root` selector. The selectors are identical, except that the `:root` selector's specificity is higher (meaning it will override `html`).
 
 For instance, by adding the CSS:
 ```css
