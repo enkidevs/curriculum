@@ -41,9 +41,9 @@ aspects:
 Think fast, what does this snippet print?
 ```javascript
 var a = 1;
-function go(){
-    console.log(a);
-    var a = 2;
+function go() {
+  console.log(a);
+  var a = 2;
 }
 go();
 ```
@@ -61,10 +61,10 @@ This is how the snippet is actually executed, in order:
 ```javascript
 var a;
 a = 1;
-function go(){
-    var a;
-    console.log(a);
-    a = 2;
+function go() {
+  var a;
+  console.log(a);
+  a = 2;
 }
 go();
 ```
@@ -77,16 +77,16 @@ What will the following functions print? ???
 
 ```
 var e = 1;
-function run(){
-    console.log(e);
-    var e = 4;
+function run() {
+  console.log(e);
+  var e = 4;
 }
 run();
 
 var c = 1;
 function calc() {
-    console.log(c*c);
-    c = 4;
+  console.log(c * c);
+  c = 4;
 }
 calc();
 ```
@@ -104,9 +104,9 @@ calc();
 What will this print
 ```javascript
 var a = 1;
-function go(){
-    console.log(a);
-    var a = 2;
+function go() {
+  console.log(a);
+  var a = 2;
 }
 go();
 // ???
