@@ -28,18 +28,16 @@ The `$hour` date operator is used to extract the exact hour the document was cre
 
 Example:
 ```js
-db.pokedex.aggregate(
-   [
-     {$match: {"name": "Bulbasaur"}},
-     {
-       $project:
-         {
-           Hour: { $hour: "$Date" },
-           _id: 0
-         }
-     }
-   ]
-)
+db.pokedex.aggregate([
+  { $match: { name: "Bulbasaur" } },
+  {
+    $project: {
+      Hour: { $hour: "$Date" },
+      _id: 0
+    }
+  }
+]);
+
 ```
 
 Output:
@@ -55,18 +53,16 @@ The `$minute` date operator is used to extract the exact minute the document was
 
 Example:
 ```js
-db.pokedex.aggregate(
-   [
-     {$match: {"name": "Bulbasaur"}},
-     {
-       $project:
-         {
-           Minutes: { $minute: "$Date" },
-           _id: 0
-         }
-     }
-   ]
-)
+db.pokedex.aggregate([
+  { $match: { name: "Bulbasaur" } },
+  {
+    $project: {
+      Minutes: { $minute: "$Date" },
+      _id: 0
+    }
+  }
+]);
+
 ```
 Output:
 ```js
@@ -81,18 +77,16 @@ The `$seconds` date operator is used to extract the exact second the document wa
 
 Example:
 ```js
-db.pokedex.aggregate(
-   [
-     {$match: {"name": "Bulbasaur"}},
-     {
-       $project:
-         {
-           Seconds: { $second: "$Date" },
-           _id: 0
-         }
-     }
-   ]
-)
+db.pokedex.aggregate([
+  { $match: { name: "Bulbasaur" } },
+  {
+    $project: {
+      Seconds: { $second: "$Date" },
+      _id: 0
+    }
+  }
+]);
+
 ```
 Output:
 ```js
@@ -107,18 +101,18 @@ The `$milliseconds` date operator is used to extract the exact millisecond the d
 
 Example:
 ```js
-db.pokedex.aggregate(
-   [
-     {$match: {"name": "Bulbasaur"}},
-     {
-       $project:
-         {
-           Milliseconds: { $millisecond: "$Date" },
-           _id: 0
-         }
-     }
-   ]
-)
+db.pokedex.aggregate([
+  { $match: { name: "Bulbasaur" } },
+  {
+    $project: {
+      Milliseconds: {
+        $millisecond: "$Date"
+      },
+      _id: 0
+    }
+  }
+]);
+
 ```
 
 Output:
