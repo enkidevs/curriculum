@@ -28,18 +28,15 @@ The `$dayOfYear` date operator is used to extract the exact day of the year the 
 
 Example:
 ```js
-db.pokedex.aggregate(
-   [
-     {$match: {"name": "Bulbasaur"}},
-     {
-       $project:
-         {
-           DayOfTheYear: { $dayOfYear: "$Date" },
-           _id: 0
-         }
-     }
-   ]
-)
+db.pokedex.aggregate([
+  { $match: { name: "Bulbasaur" } },
+  {
+    $project: {
+      DayOfTheYear: { $dayOfYear: "$Date" },
+      _id: 0
+    }
+  }
+]);
 ```
 
 Output:
@@ -57,18 +54,15 @@ The `$week` date operator is used to extract the exact week of the year the docu
 
 Example:
 ```js
-db.pokedex.aggregate(
-   [
-     {$match: {"name": "Bulbasaur"}},
-     {
-       $project:
-         {
-           WeekOfTheYear: { $week: "$Date" },
-           _id: 0
-         }
-     }
-   ]
-)
+db.pokedex.aggregate([
+  { $match: { name: "Bulbasaur" } },
+  {
+    $project: {
+      WeekOfTheYear: { $week: "$Date" },
+      _id: 0
+    }
+  }
+]);
 ```
 Output:
 ```js
@@ -83,18 +77,15 @@ The `$dayOfWeek` date operator is used to extract the exact day of the week the 
 
 Example:
 ```js
-db.pokedex.aggregate(
-   [
-     {$match: {"name": "Bulbasaur"}},
-     {
-       $project:
-         {
-           DayOfTheWeek: { $dayOfWeek: "$Date" },
-           _id: 0
-         }
-     }
-   ]
-)
+db.pokedex.aggregate([
+  { $match: { name: "Bulbasaur" } },
+  {
+    $project: {
+      DayOfTheWeek: { $dayOfWeek: "$Date" },
+      _id: 0
+    }
+  }
+]);
 ```
 Output:
 ```js
