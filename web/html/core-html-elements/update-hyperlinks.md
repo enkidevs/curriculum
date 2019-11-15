@@ -45,7 +45,7 @@ or
 ```
 Result:
 
-![link-visit-enki](%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20style%3D%22width%3A100%25%22%20viewBox%3D%220%200%20320%2052%22%3E%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%3Crect%20width%3D%22320%22%20height%3D%2252%22%20fill%3D%22%23FFF%22%20rx%3D%229%22%2F%3E%3Ctext%20fill%3D%22%230001EE%22%20font-family%3D%22ArialMT%2C%20Arial%22%20font-size%3D%2216%22%3E%3Ctspan%20x%3D%2220%22%20y%3D%2232%22%3EVisit%20Enki%26apos%3Bs%205-minute%20workouts!%3C%2Ftspan%3E%3C%2Ftext%3E%3Cpath%20stroke%3D%22%230001EE%22%20stroke-linecap%3D%22square%22%20d%3D%22M20.5%2033.5h215%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E)
+![link-visit-enki](https://img.enkipro.com/c581aa7e610d8051487c107fb2f2c407.png)
 
 [View CodePen](https://codepen.io/enkidevs/pen/vaKKQZ)
 
