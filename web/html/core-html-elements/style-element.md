@@ -17,7 +17,7 @@ aspects:
   - introduction
 
 links:
-  - '[style element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/style){documentation}'
+  - '[MDN Style element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/style){documentation}'
 
 ---
 
