@@ -48,7 +48,7 @@ href="http://enki.com/samples/page.html">
 </a>'s website.</p>
 ```
 
-![link-text](https://img.enkipro.com/8ffc6087d2e832fc2ae2066d70455afa.png)
+![link-text](https://img.enkipro.com/2de7065475dfbb87f0f827bd0d63c945.png)
 
 [View CodePen](https://codepen.io/enkidevs/pen/RBKobx)
 
