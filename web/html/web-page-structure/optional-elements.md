@@ -26,7 +26,7 @@ links:
 ---
 ## Content
 
-In HTML5, there is actually a lot of optional tags where either the starting, ending, or both tags can be omitted. It can be a little usual working with optional tags because just because an element's tag is omitted, it doesn't mean the element itself is not present at all. It means that it is implied and is there no matter if the markup code doesn't contain the typical tags.
+In HTML5, there are a lot of optional tags where either the starting, ending, or both tags can be omitted. Just because an element's tag is omitted, it doesn't mean the element itself is not present at all. It means that it is implied and is there no matter if the markup code doesn't contain the typical tags.
 
 Some optional elements:
   - `<html>`
