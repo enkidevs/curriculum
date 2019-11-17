@@ -55,7 +55,7 @@ If your `alt` attribute needs to contain acronyms (like "USA"), you would write 
     alt="United States of America map">`
 ```
 
-The reason is, you want to prevent screen readers from reading the any acronyms as single words like: "Usa map".
+The reason is, you want to prevent screen readers from reading any acronyms as single words like: "Usa map".
 
 ---
 ## Practice
