@@ -70,14 +70,19 @@ In the example above, `rows="10"` specifies the number of visible text lines for
 
 Write the form code that creates a multi-line input for text.
 
-`<??? ???="???">`
+```
+<??? 
+  ???="???">
+<???>
+```
 
 * textarea
 * name
 * textbox
+* /textarea
 * form
 * input
-* textarea
+* /input
 
 ---
 ## Revision
