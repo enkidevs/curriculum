@@ -34,7 +34,7 @@ The HTML `<dfn>`, or the **Definition** element, is used to specify a term that'
 </p>
 ```
 
-![element-dfn](%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22320%22%20height%3D%2278%22%3E%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%3Crect%20width%3D%22320%22%20height%3D%2278%22%20fill%3D%22%23FFF%22%20rx%3D%229%22%2F%3E%3Ctext%20fill%3D%22%23000%22%20font-family%3D%22Roboto-Italic%2C%20Roboto%22%20font-size%3D%2216%22%20font-style%3D%22italic%22%3E%3Ctspan%20x%3D%2220%22%20y%3D%2234%22%3EEnki%3C%2Ftspan%3E%20%3Ctspan%20x%3D%2249.32813%22%20y%3D%2234%22%20font-family%3D%22Roboto-Regular%2C%20Roboto%22%3E%20is%20an%20app%20that%20provides%20daily%20%3C%2Ftspan%3E%20%3Ctspan%20x%3D%2220%22%20y%3D%2253%22%20font-family%3D%22Roboto-Regular%2C%20Roboto%22%3Eworkouts%20for%20your%20dev%20skills.%3C%2Ftspan%3E%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fsvg%3E)
+![element-dfn](https://img.enkipro.com/a4baae13adcf71436592b38eae34faa9.png)
 
 
 **Note:** The `<dfn>` elements main purpose is to provide semantic meaning. Other than that, it has no special functionality.
@@ -69,7 +69,7 @@ Example with abbr:
 
 Abbr Result:
 
-![element-dfn-abbr](%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22320%22%20height%3D%22173%22%3E%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%3Crect%20width%3D%22320%22%20height%3D%22173%22%20fill%3D%22%23FFF%22%20rx%3D%229%22%2F%3E%3Ctext%20fill%3D%22%23000%22%20font-family%3D%22Roboto-Italic%2C%20Roboto%22%20font-size%3D%2216%22%20font-style%3D%22italic%22%3E%3Ctspan%20x%3D%2220%22%20y%3D%2234%22%3EHTML%3C%2Ftspan%3E%20%3Ctspan%20x%3D%2262.30469%22%20y%3D%2234%22%20font-family%3D%22Roboto-Regular%2C%20Roboto%22%3E%20is%20the%20standard%20markup%20%3C%2Ftspan%3E%20%3Ctspan%20x%3D%2220%22%20y%3D%2253%22%20font-family%3D%22Roboto-Regular%2C%20Roboto%22%3Elanguage%20for%20creating%20web%20pages.%3C%2Ftspan%3E%20%20%3Ctspan%20x%3D%2220%22%20y%3D%2291%22%20font-family%3D%22Roboto-Regular%2C%20Roboto%22%3E...%20later%20in%20the%20document...%3C%2Ftspan%3E%20%20%3Ctspan%20x%3D%2220%22%20y%3D%22129%22%20font-family%3D%22Roboto-Regular%2C%20Roboto%22%3EAfter%20a%20few%20hours%2C%20I%20was%20finally%20able%20%3C%2Ftspan%3E%20%3Ctspan%20x%3D%2220%22%20y%3D%22148%22%20font-family%3D%22Roboto-Regular%2C%20Roboto%22%3Eto%20understand%20%3C%2Ftspan%3E%20%3Ctspan%20x%3D%22122.71094%22%20y%3D%22148%22%3EHTML%3C%2Ftspan%3E%20%3Ctspan%20x%3D%22165.01563%22%20y%3D%22148%22%20font-family%3D%22Roboto-Regular%2C%20Roboto%22%3E%20!%3C%2Ftspan%3E%3C%2Ftext%3E%3Cpath%20stroke%3D%22%23000%22%20stroke-dasharray%3D%221%202%22%20stroke-linecap%3D%22square%22%20d%3D%22M18.5%2036.5h45m58%20113.75h45%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E)
+![element-dfn-abbr](https://img.enkipro.com/90a7f02d339751f2f5499d5bc092b7b1.png)
 
 
 ---
@@ -87,7 +87,7 @@ for your dev skills.
 </p>
 ```
 
-* `<dft>` defines a term when it is being described.
+* `<dfn>` defines a term when it is being described.
 * Useful to apply element each time term is referred.
 * Common to use `<abbr>` with `<dfn>` for all abbreviation's expansion.
 
