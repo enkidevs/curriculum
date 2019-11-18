@@ -44,7 +44,7 @@ If you don't use the `<bdi>` element when working with alphanumeric numbers and 
 ```
 The strange result would be:
 
-![bdi-bad](%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22320%22%20height%3D%2252%22%3E%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%3Crect%20width%3D%22320%22%20height%3D%2252%22%20fill%3D%22%23FFF%22%20rx%3D%229%22%2F%3E%3Ctext%20fill%3D%22%23000%22%20font-family%3D%22ArialMT%2C%20Arial%22%20font-size%3D%2216%22%3E%3Ctspan%20x%3D%2218%22%20y%3D%2231%22%3EUser%3A%20428%20%D9%85%D8%A7%D8%AB%D9%8A%D9%88%20points.%3C%2Ftspan%3E%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fsvg%3E)
+![bdi-bad](https://img.enkipro.com/c6a662a610ff8d70ed198df581d9a4e0.png)
 
 In order to display the numbers properly with, for instance, Arabic, here is how the `<bdi>` element fixes this issue:
 
@@ -59,7 +59,7 @@ Example:
 ```
 bdi Result:
 
-![bdi-good](%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22320%22%20height%3D%2252%22%3E%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%3Crect%20width%3D%22320%22%20height%3D%2252%22%20fill%3D%22%23FFF%22%20rx%3D%229%22%2F%3E%3Ctext%20fill%3D%22%23000%22%20font-family%3D%22ArialMT%2C%20Arial%22%20font-size%3D%2216%22%3E%3Ctspan%20x%3D%2218%22%20y%3D%2231%22%3EUser%3A%20%D9%85%D8%A7%D8%AB%D9%8A%D9%88%20%3C%2Ftspan%3E%3C%2Ftext%3E%3Ctext%20fill%3D%22%23000%22%20font-family%3D%22ArialMT%2C%20Arial%22%20font-size%3D%2216%22%3E%3Ctspan%20x%3D%2294%22%20y%3D%2232%22%3E428%20points.%3C%2Ftspan%3E%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fsvg%3E)
+![bdi-good](https://img.enkipro.com/9d7a76a3500630482903190cd6c17f4c.png)
 
 [Visit CodePen](https://codepen.io/enkidevs/pen/yERBoJ)
 
