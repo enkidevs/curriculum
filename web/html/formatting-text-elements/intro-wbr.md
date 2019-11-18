@@ -42,7 +42,7 @@ If you add a `<wbr>` element before the word `path` like so: `<wbr>/path/filenam
 
 Here's another example of adding a `<wbr>` element to a long word to tell the browser where to break in case it doesn't fit the screen.
 
-Lets take the unusually long name for a town in northern Wales, England.
+Lets take the unusually long name for a town in northern Wales, UK.
 
 Name: **Llanfairpwllgwyngyllgogerychwyrndrobwllllantysiliogogogoch**.
 
