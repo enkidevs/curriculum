@@ -103,9 +103,6 @@ Which command has to be added to our queries to display the updated/replaced doc
 
 ???
 
-* `findOneAndUpdate`
-* `{ $gt: 400 }`
-* `$inc`
 * `findOneAndReplace`
 * `"Water"`
 * `{ returnNewDocument: true }`
