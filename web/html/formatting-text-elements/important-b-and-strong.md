@@ -40,7 +40,7 @@ Example:
 ```
 Result:
 
-![element-strong-b](%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22320%22%20height%3D%2278%22%3E%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%3Crect%20width%3D%22320%22%20height%3D%2278%22%20fill%3D%22%23FFF%22%20rx%3D%229%22%2F%3E%3Ctext%20fill%3D%22%23000%22%20font-family%3D%22Roboto-Bold%2C%20Roboto%22%20font-size%3D%2216%22%20font-weight%3D%22bold%22%3E%3Ctspan%20x%3D%2220%22%20y%3D%2234%22%3EWarning%3C%2Ftspan%3E%20%3Ctspan%20x%3D%2279.44531%22%20y%3D%2234%22%20font-family%3D%22Roboto-Regular%2C%20Roboto%22%20font-weight%3D%22normal%22%3E%3A%20The%20latest%20%3C%2Ftspan%3E%20%3Ctspan%20x%3D%22161.49219%22%20y%3D%2234%22%3EiPhone%3C%2Ftspan%3E%20%3Ctspan%20x%3D%22211.66406%22%20y%3D%2234%22%20font-family%3D%22Roboto-Regular%2C%20Roboto%22%20font-weight%3D%22normal%22%3E%20is%20%3C%2Ftspan%3E%20%3Ctspan%20x%3D%2220%22%20y%3D%2253%22%20font-family%3D%22Roboto-Regular%2C%20Roboto%22%20font-weight%3D%22normal%22%3Eexpensive.%3C%2Ftspan%3E%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fsvg%3E)
+![element-strong-b](https://img.enkipro.com/4a7c5e17ac6a527ee31eb43fcc59ccef.png)
 
 [View CodePen](https://codepen.io/enkidevs/pen/mjRemb)
 
@@ -57,7 +57,7 @@ The floor is
 ```
 Result:
 
-![element-strong-b-2](%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22320%22%20height%3D%2278%22%3E%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%3Crect%20width%3D%22320%22%20height%3D%2278%22%20fill%3D%22%23FFF%22%20rx%3D%229%22%2F%3E%3Ctext%20fill%3D%22%23000%22%20font-family%3D%22Roboto-Bold%2C%20Roboto%22%20font-size%3D%2216%22%20font-weight%3D%22bold%22%3E%3Ctspan%20x%3D%2220%22%20y%3D%2234%22%3EAttention!%3C%2Ftspan%3E%20%3Ctspan%20x%3D%2291.0625%22%20y%3D%2234%22%20font-family%3D%22Roboto-Regular%2C%20Roboto%22%20font-weight%3D%22normal%22%3E%20The%20floor%20is%20%3C%2Ftspan%3E%20%3Ctspan%20x%3D%22178.3125%22%20y%3D%2234%22%3Eslippery%3C%2Ftspan%3E%20%3Ctspan%20x%3D%22235.69531%22%20y%3D%2234%22%20font-family%3D%22Roboto-Regular%2C%20Roboto%22%20font-weight%3D%22normal%22%3E%20and%20%3C%2Ftspan%3E%20%3Ctspan%20x%3D%2220%22%20y%3D%2253%22%3Ewet%3C%2Ftspan%3E%20%3Ctspan%20x%3D%2245.8125%22%20y%3D%2253%22%20font-family%3D%22Roboto-Regular%2C%20Roboto%22%20font-weight%3D%22normal%22%3E!%3C%2Ftspan%3E%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fsvg%3E)
+![element-strong-b-2](https://img.enkipro.com/e06f459f7551728301762b850638bacd.png)
 
 [View CodePen](https://codepen.io/enkidevs/pen/NBdGvb)
 
