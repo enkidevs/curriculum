@@ -15,7 +15,7 @@ category: must-know
 inAlgoPool: false
 
 links:
-  - '[MDN docs on CSS](https://developer.mozilla.org/en-US/docs/Glossary/CSSs){documentation}'
+  - '[MDN Docs on CSS](https://developer.mozilla.org/en-US/docs/Glossary/CSSs){documentation}'
   - '[Scrimba CSS documents & The Cascade](https://scrimba.com/p/pWvwCg/c3vE7cg){website}'
 
 ---
