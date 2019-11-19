@@ -66,6 +66,8 @@ handle(e) {
 }
 ```
 
+Note: we use `e.target.value` as our state because `e` represents the argument to our event handler. An event is nothing more than an object that has properties, so in this case we select the `target.value` property of our *event*.
+
 With consistency in mind, *form elements* in **React** work a little differently:
 
 - for `<textarea />` the text is specified with `value` attribute instead of having it as a child:

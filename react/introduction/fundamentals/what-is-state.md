@@ -49,7 +49,7 @@ class Hello extends React.Component {
 
 This won't render, however, because `this.state` is `null` at the moment.
 
-To set the **initial state**, by giving `text` a value, you can make use of the `constructor` lifecycle method which is called when the component is created:
+To set the **initial state**, by giving `text` a value, you can make use of `constructor()`. This method is a special function that gets executed when the component is created (creating an instance of the `React.Component` class). We'll look at these in depth in the future workouts.
 
 ```jsx
 class Hello extends React.Component {
@@ -111,5 +111,3 @@ Where should **initial state** be set in a component class?
 * in `render()`
 * in `this.setState(initialState)`
 * anywhere in the component
-
-

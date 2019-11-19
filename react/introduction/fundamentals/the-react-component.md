@@ -56,6 +56,8 @@ class Enki extends React.Component {
 }
 ```
 
+Notice how both types of components are used to return elements (e.g. `<p>Enki aka Ea</p>` is a React element).
+
 The differences between functional and class components will be discussed at the end of this workout, but for now know that, when viewed externally, each way of writing a component can render the same result.
 
 You can pass dynamic values to a component via `props` which will be discussed next. 
@@ -83,6 +85,8 @@ ReactDOM.render(
 );
 ```
 Because our component didn't use any input (`prop`) we didn't need to specify those values in the element.
+
+It is important to remember the difference between components and elements. The React component is used to **return** React elements.
 
 ---
 ## Practice

@@ -93,6 +93,11 @@ constructor(props) {
   - is considered legacy and should be **avoided** because it will be removed in one of the upcoming React versions
   - previously named `componentWillReceiveProps`
 
+### 4. Error handling
+
+- `componentDidCatch(error, info)`
+  - is invoked when an error is thrown by a child component
+
 ---
 ## Practice
 

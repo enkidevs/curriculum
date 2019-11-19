@@ -57,18 +57,21 @@ function MyList(props) {
 }
 ```
 When passing an array called `input` as a `prop`, this component will return a `<div>` with a `<p>` for every element in the array:
+
 ```jsx
 ReactDOM.render(
   <MyList input={[7, 13, 42]} />,
   document.getElementById("root")
 );
+```
 
-// output in the DOM is:
-// <div>
-//   <p>7</p>
-//   <p>13</p>
-//   <p>42</p>
-// </div>
+The output in the DOM is:
+```html
+<div>
+  <p>7</p>
+  <p>13</p>
+  <p>42</p>
+</div>
 ```
 
 ---

@@ -75,9 +75,13 @@ The view has two meanings:
 
 As with the view, the model also has two meanings:
 * it directly manages the data, logic and rules of application
-* 
+* it receives user input from the controller
 
-[3: Two-way data binding]
+The controller's main meanings are:
+* accepts input and converts it to commands for the controller and view
+* it responds to user input
+
+[3:Two-way data binding]
 Although React uses one-way data binding, there is also two-way data binding. By this we mean that the `model` is dynamically bound to the `view` such that one can change the other and vice-versa:
 - when you update a property in the model, the UI is also updated
 - when you update the UI, the data model is also changed

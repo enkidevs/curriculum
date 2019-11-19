@@ -39,10 +39,10 @@ The former option is advised because it gives you access to a vast ecosystem of 
 
 Although not required, adopting a modern **build pipeline** is highly recommended to boost productivity and efficiency. Apart from the *package manager*, this includes:
 
-- a **bundler**[1] such as `webpack` or `browserify` to improve load time by modularising your code
-- a **compiler** such as `Babel`[2]
+- a **bundler**[1] such as `webpack` or `browserify` to improve load time[2] by modularizing your code
+- a **compiler** such as `Babel`[3]
 
-Using the `Babel` compiler will allow you to write your application with both `ES.Next`[3] and `JSX` syntax. For this, you need to install `babel-preset-react` and `babel-preset-es2015` and enable them in your `.babelrc` config file.
+Using the `Babel` compiler will allow you to write your application with both `ES.Next`[4] and `JSX` syntax. For this, you need to install `babel-preset-react` and `babel-preset-es2015` and enable them in your `.babelrc` config file.
 
 To create a **Single page application** you can use the officially supported package called `create-react-app`:
 
@@ -89,12 +89,15 @@ Which tool will automatically set-up the development environment for a simple `R
 [1:bundler]
 A `JavaScript` **bundler** is a tool that puts your code and all its dependencies together in one `JS` file. There are many of them out there these days, being the most popular ones `browserify` and `webpack`.
 
-[2:Babel]
+[2:Improved Load Time]
+A bundler flattens your module hierarchy into a single file, effectively reducing load times.
+
+[3:Babel]
 `Babel` is a compiler that transforms modern (or experimental) `JS` OR `JSX` syntax into a format that can run in current and older browsers (or environments). 
 You can download `Babel` at:
 ```
 https://babeljs.io/
 ```
 
-[3:ES.Next]
+[4:ES.Next]
 `ES.Next` is a dynamic name that represents whatever the next version of ECMAScript is at the time of writing.
