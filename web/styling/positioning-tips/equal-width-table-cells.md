@@ -20,7 +20,7 @@ category: hack
 
 links:
 
-  - '[github.com](https://github.com/AllThingsSmitty/css-protips){website}'
+  - '[CSS Pro Tips](https://github.com/AllThingsSmitty/css-protips){website}'
 
 
 ---
