@@ -40,7 +40,7 @@ CSS code can be written inside a `<style>` tag, in the `head` part of the HTML d
       background: purple;
     }
    </style>
-<head>
+</head>
 <body>
  <p></p>
  <div id="my-div"></div>
