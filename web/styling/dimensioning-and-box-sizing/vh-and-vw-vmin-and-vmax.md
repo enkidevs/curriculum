@@ -20,8 +20,8 @@ aspects:
 
 links:
 
-  - '[caniuse.com](http://caniuse.com/#feat=viewport-units){website}'
-  - '[MDN lengths](https://developer.mozilla.org/en-US/docs/Web/CSS/length){documentation}'
+  - '[Viewport unis](http://caniuse.com/#feat=viewport-units){website}'
+  - '[MDN Docs On length](https://developer.mozilla.org/en-US/docs/Web/CSS/length){documentation}'
 
 notes: ''
 
