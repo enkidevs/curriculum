@@ -90,7 +90,7 @@ Because we are using Babel to transform our entire React application, you can us
 What will the following **JSX** expression compile to?
 
 ```jsx
-const el = <p><3 JSX</p>;
+const el = <p>&lt;3 JSX</p>;
 
 // compiled to:
 

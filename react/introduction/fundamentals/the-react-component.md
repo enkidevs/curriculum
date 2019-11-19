@@ -27,7 +27,7 @@ aspects:
 
 ---
 
-# The React component
+# The React Component
 
 ---
 ## Content
@@ -55,6 +55,8 @@ class Enki extends React.Component {
   }
 }
 ```
+
+Notice how both types of components 
 
 The differences between functional and class components will be discussed at the end of this workout, but for now know that, when viewed externally, each way of writing a component can render the same result.
 

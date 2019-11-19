@@ -29,7 +29,7 @@ In addition to the previously stated reasons developers are eager to adopt this 
 
 - great *performance* as a result of the **Virtual DOM** diff algorithm[2]
 - **React**'s syntax is declarative[3]
-- easier debugging with **out-of-the-box tools** such as `React Chrome Extension`
+- easier debugging with **out-of-the-box tools** such as the `React Developer Tools` extension for Chrome or Firefox
 - knowing **React** allows you to easily switch to **React Native** to build native mobile applications
 
 
@@ -44,7 +44,7 @@ Which of the following statements is false about **React**?
 
 * the virtual DOM slows down performance
 * the syntax is simple
-* it can create web *and* mobile applications
+* it can create web and mobile applications
 
 ---
 ## Revision
@@ -53,7 +53,7 @@ Which one of the following improves **React**'s performance the most?
 
 ???
 
-* **Virtual DOM** diff algorithm
+* Virtual DOM diff algorithm
 * JSX
 * SEO
 * React Native

@@ -68,7 +68,6 @@ Which of the following is not a bundler for react?
 ???
 
 * jsx
-* babel
 * webpack
 * browserify
 
