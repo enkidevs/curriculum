@@ -17,8 +17,8 @@ inAlgoPool: false
 
 links:
   - '[Scrimba CSS The Box Model](https://scrimba.com/p/pWvwCg/cnm3RSZ){website}'
-  - '[Box Sizing](https://css-tricks.com/box-sizing/){website}'
-  - '[MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing){documentation}'
+  - '[css-tricks.com / Box Sizing](https://css-tricks.com/box-sizing/){website}'
+  - '[MDN Docs On box-sizing](https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing){documentation}'
 
 ---
 
