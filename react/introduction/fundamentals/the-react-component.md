@@ -56,8 +56,6 @@ class Enki extends React.Component {
 }
 ```
 
-Notice how both types of components 
-
 The differences between functional and class components will be discussed at the end of this workout, but for now know that, when viewed externally, each way of writing a component can render the same result.
 
 You can pass dynamic values to a component via `props` which will be discussed next. 
