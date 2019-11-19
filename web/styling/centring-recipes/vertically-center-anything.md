@@ -50,7 +50,7 @@ There may be some unwanted behaviour in IE11.
 ---
 ## Revision
 
-You can verically-center elements inside a flex container with:
+You can vertically-center elements inside a flex container with:
 ```css
 .container{
  display: flex;
