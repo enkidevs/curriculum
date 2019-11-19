@@ -16,8 +16,8 @@ aspects:
 
 links:
 
-  - '[github.com](https://github.com/AllThingsSmitty/css-protips){website}'
-  - '[MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/line-height){documentation}'
+  - '[Css Pro Tips - github.com](https://github.com/AllThingsSmitty/css-protips){website}'
+  - '[MDN Docs On line-height](https://developer.mozilla.org/en-US/docs/Web/CSS/line-height){documentation}'
 
 
 ---
