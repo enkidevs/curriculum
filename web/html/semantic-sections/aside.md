@@ -21,7 +21,7 @@ aspects:
   - deep
 
 links:
-  - '[MDN docs for aside](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/aside){website}'
+  - '[MDN Docs On aside](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/aside){documentation}'
 
 ---
 # Aside
