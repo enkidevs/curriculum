@@ -17,8 +17,8 @@ aspects:
   - workout
 
 links:
-  - '[MDN docs for option](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/option){website}'
-  - '[MDN docs for select](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/select){website}'
+  - '[MDN docs for option](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/option){documentation}'
+  - '[MDN docs for select](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/select){documentation}'
 
 ---
 # DropDown List
