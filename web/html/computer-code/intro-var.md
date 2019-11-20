@@ -22,7 +22,7 @@ aspects:
   - deep
 
 links:
-  - '[MDN Docs for var](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/var){website}'
+  - '[MDN Docs for var](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/var){documentation}'
 
 ---
 # Intro var
