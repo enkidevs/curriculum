@@ -11,9 +11,6 @@ type: normal
 
 category: must-know
 
-standards:
-  blockchain.analyze-blockchain-components.4: 40
-
 aspects:
 
   - introduction
@@ -50,7 +47,6 @@ Given the size of the network and transactions happening all over the globe, two
 ---
 ## Practice
 
-
 Select the item that `is not` part of a blockchain:
              	
 ???
@@ -63,7 +59,6 @@ Select the item that `is not` part of a blockchain:
 
 ---
 ## Revision
-
 
 What is the name of blockchain participants that verify whole blocks validity?
              	
