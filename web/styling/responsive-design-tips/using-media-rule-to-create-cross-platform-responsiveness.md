@@ -25,8 +25,6 @@ tags:
 
 
 
-notes: The length of the topic might be an issue
-
 ---
 
 # Using `@media` rule to create cross platform responsiveness
