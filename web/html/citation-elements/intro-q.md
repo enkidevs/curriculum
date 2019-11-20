@@ -20,7 +20,7 @@ aspects:
   - deep
 
 links:
-  - '[MDN docs for q](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/q){website}'
+  - '[MDN docs for q](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/q){documentation}'
 
 ---
 # Intro q
