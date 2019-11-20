@@ -22,7 +22,7 @@ aspects:
   - deep
 
 links:
-  - '[MDN docs for address](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/address){website}'
+  - '[MDN docs for address](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/address){documentation}'
 
 ---
 # Address
