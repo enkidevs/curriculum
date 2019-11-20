@@ -18,7 +18,7 @@ aspects:
   - introduction
 
 links:
-  - '[MDN docs for html](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/html){website}'
+  - '[MDN Docs On html](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/html){documentation}'
 
 ---
 # The `html` Element
