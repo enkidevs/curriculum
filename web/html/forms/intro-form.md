@@ -18,7 +18,7 @@ aspects:
   - workout
 
 links:
-  - '[MDN docs and examples for forms](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form){website}'
+  - '[MDN docs and examples for forms](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form){documentation}'
 
 ---
 # Intro form
