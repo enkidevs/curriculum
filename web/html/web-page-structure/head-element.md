@@ -22,9 +22,9 @@ standards:
   web.metadata.4: 10
 
 links:
-  - '[MDC docs for Metadata](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML)(website)'
-  - '[MDN docs for head](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/head){website}'
-  - '[StackOverflow CSS before JS explanationn](https://stackoverflow.com/questions/9271276/is-the-recommendation-to-include-css-before-javascript-invalid){website}'
+  - '[MDC Docs On Metadata](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML)(documentation)'
+  - '[MDN Docs On head](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/head){documentation}'
+  - '[StackOverflow CSS before JS](https://stackoverflow.com/questions/9271276/is-the-recommendation-to-include-css-before-javascript-invalid){discussion}'
 
 ---
 # The `head` Element
