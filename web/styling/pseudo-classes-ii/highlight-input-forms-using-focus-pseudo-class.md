@@ -27,7 +27,7 @@ tags:
 
 links:
 
-  - '[MDN empty](https://developer.mozilla.org/en-US/docs/Web/CSS/:focus)[documentation}'
+  - '[MDN Docs On :focus](https://developer.mozilla.org/en-US/docs/Web/CSS/:focus)[documentation}'
 
 
 ---
