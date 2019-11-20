@@ -21,8 +21,8 @@ aspects:
   - deep
 
 links:
-  - '[MDN docs for main](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/main){website}'
-  - '[W3S docs for main](https://www.w3schools.com/tags/tag_main.asp){website}'
+  - '[MDN Docs On main](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/main){documentation}'
+  - '[W3S Docs On main](https://www.w3schools.com/tags/tag_main.asp){documentation}'
 
 ---
 # Main element
