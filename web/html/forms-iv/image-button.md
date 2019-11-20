@@ -19,7 +19,7 @@ aspects:
   - obscura
 
 links:
-  - '[MDN docs for image buttons](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/image){website}'
+  - '[MDN docs for image buttons](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/image){documentation}'
 
 ---
 # Image Button
