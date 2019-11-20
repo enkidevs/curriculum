@@ -40,7 +40,7 @@ When working with column gutters you can get rid of `nth-`, `first-`, and `last-
 }
 
 .list .person {
-  flex-basis: 23%;
+  flex-basis: 25%;
 }
 ```
 Consider the following image:
