@@ -23,8 +23,8 @@ aspects:
   - obscura
 
 links:
-  - '[MDN docs for bdi](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/bdi){website}'
-  - '[MDN docs for User Agent](https://developer.mozilla.org/en-US/docs/Glossary/user_agent){website}'
+  - '[MDN docs for bdi](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/bdi){documentation}'
+  - '[MDN docs for User Agent](https://developer.mozilla.org/en-US/docs/Glossary/user_agent){documentation}'
 
 ---
 # bdi Element
