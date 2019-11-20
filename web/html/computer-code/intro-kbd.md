@@ -22,7 +22,7 @@ aspects:
   - deep
 
 links:
-  - '[MDN Docs for kbd](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/kbd){website}'
+  - '[MDN Docs for kbd](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/kbd){documentation}'
 
 ---
 # kbd - Keyboard Input Element
