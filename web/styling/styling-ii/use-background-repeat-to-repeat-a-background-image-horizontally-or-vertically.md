@@ -27,7 +27,7 @@ tags:
 
 links:
 
-  - '[developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/CSS/background-repeat){website}'
+  - '[MDN Docs On background-repeat](https://developer.mozilla.org/en-US/docs/Web/CSS/background-repeat){documentation}'
 
 
 ---
