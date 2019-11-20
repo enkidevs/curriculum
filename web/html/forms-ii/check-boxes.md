@@ -17,7 +17,7 @@ aspects:
   - workout
 
 links:
-  - '[MDN docs for checkboxes](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/checkbox){website}'
+  - '[MDN docs for checkboxes](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/checkbox){documentation}'
 
 ---
 # Check Boxes
