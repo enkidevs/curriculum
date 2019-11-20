@@ -21,8 +21,8 @@ aspects:
   - deep
 
 links:
-  - '[MDN docs for nav](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/nav){website}'
-  - '[W3S docs for nav](https://www.w3schools.com/tags/tag_nav.asp){website}'
+  - '[MDN Docs On nav](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/nav){documentation}'
+  - '[W3S Docs On nav](https://www.w3schools.com/tags/tag_nav.asp){documentation}'
 
 ---
 # Nav element
