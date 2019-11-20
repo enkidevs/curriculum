@@ -20,7 +20,7 @@ aspects:
   - introduction
 
 links:
-  - '[MDN](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Creating_hyperlinks){documentation}'
+  - '[MDN Docs On creating hyperlinks](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Creating_hyperlinks){documentation}'
 
 ---
 
