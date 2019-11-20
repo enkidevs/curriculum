@@ -20,8 +20,8 @@ tags:
   - deep
 
 links:
-  - '[MDN docs for figure](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figure){website}'
-  - '[MDN docs for figcaption](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figcaption){website}'
+  - '[MDN Docs On figure](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figure){documentation}'
+  - '[MDN Docs On figcaption](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figcaption){documentation}'
 
 ---
 # Figure & Figcaption
