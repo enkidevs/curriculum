@@ -21,7 +21,7 @@ aspects:
   - deep
 
 links:
-  - '[MDN docs for section](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/section){website}'
+  - '[MDN Docs On section](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/section){documentation}'
 
 ---
 # Section
