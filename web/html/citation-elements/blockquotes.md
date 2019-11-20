@@ -21,7 +21,8 @@ aspects:
 
 
 links:
-  - '[MDN docs for blockquotes](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blockquote){website}'
+  - '[MDN docs for blockquotes](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blockquote){documentation}'
+  
 ---
 # Blockquotes
 ---
