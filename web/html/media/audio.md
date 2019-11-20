@@ -18,8 +18,8 @@ aspects:
   - deep
 
 links:
-  - '[MDN Docs for audio](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio){website}'
-  - '[W3S Docs for audio](https://www.w3schools.com/html/html5_audio.asp){website}'
+  - '[MDN Docs for audio](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio){documentation}'
+  - '[W3S Docs for audio](https://www.w3schools.com/html/html5_audio.asp){documentation}'
 
 ---
 # Audio
