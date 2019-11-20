@@ -23,7 +23,7 @@ aspects:
   - obscura
 
 links:
-  - '[MDN docs for bdo](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/bdo){website}'
+  - '[MDN docs for bdo](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/bdo){documentation}'
 
 ---
 # bdo Element
