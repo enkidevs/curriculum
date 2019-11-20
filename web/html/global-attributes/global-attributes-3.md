@@ -15,7 +15,7 @@ aspects:
   - deep
 
 links:
-  -  '[MDN docs on Global Attributes](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes){website}'
+  -  '[MDN docs on Global Attributes](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes){documentation}'
 ---
 # Global Attributes 3
 ---
