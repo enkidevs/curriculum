@@ -57,7 +57,7 @@ In the example above, we have a credit card input field with autocomplete set to
 
 Also, a credit card used on one website can autocomplete on a different website if that website has similar input fields. For security reasons, turning off autocomplete on such inputs as the CV code is wise.
 
-The default value for autocomplete is `on`.
+The default value for autocomplete is `on`. 
 
 ---
 ## Practice
