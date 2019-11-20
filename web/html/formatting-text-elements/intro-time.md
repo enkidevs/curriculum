@@ -18,7 +18,7 @@ aspects:
   - introduction
 
 links:
-  - '[MDN docs for time](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/time){website}'
+  - '[MDN docs for time](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/time){documentation}'
 
 ---
 # Intro time
