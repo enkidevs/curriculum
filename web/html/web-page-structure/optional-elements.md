@@ -18,8 +18,8 @@ aspects:
   - introduction
 
 links:
-  - '[w3 documents on all Optional Elements](https://www.w3.org/TR/html5/syntax.html#optional-tags){website}'
-  - '[Google docs for Optional Elements](https://google.github.io/styleguide/htmlcssguide.html#Optional_Tags){website}'
+  - '[w3 documents on all Optional Elements](https://www.w3.org/TR/html5/syntax.html#optional-tags){documentation}'
+  - '[Google Docs On Optional Elements](https://google.github.io/styleguide/htmlcssguide.html#Optional_Tags){documentation}'
 
 ---
 # Optional Elements
