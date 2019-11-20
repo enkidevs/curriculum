@@ -23,7 +23,7 @@ tags:
 
 links:
 
-  - '[List Tutorial](http://css.maxdesign.com.au/listutorial/index.htm){article}'
+  - '[list Tutorial](http://css.maxdesign.com.au/listutorial/index.htm){article}'
 
 
 ---
