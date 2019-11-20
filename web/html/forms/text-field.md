@@ -17,7 +17,7 @@ standards:
   web.html-forms.0: 10
   
 links:
-  - '[MDN docs for text](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/text){website}'
+  - '[MDN docs for text](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/text){documentation}'
 
 ---
 # Text Field
