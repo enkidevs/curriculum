@@ -21,7 +21,7 @@ aspects:
   - deep
 
 links:
-  - '[MDN docs for semantics](https://developer.mozilla.org/en-US/docs/Glossary/Semantics){website}'
+  - '[MDN Docs On semantics](https://developer.mozilla.org/en-US/docs/Glossary/Semantics){website}'
 
 ---
 # Semantic Containers
