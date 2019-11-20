@@ -19,7 +19,7 @@ standards:
   web.markup-text.2: 10
 
 links:
-  - '[MDN docs for description lists](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dl){website}'
+  - '[MDN docs for description lists](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dl){documentation}'
 
 ---
 # Description Lists
