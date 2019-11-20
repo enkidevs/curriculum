@@ -29,7 +29,7 @@ increaseAge = age => {
 };
 ```
 
-This code generates new state based on its current value, which might contain old data. To reliably update the state based on its latest value you should use the functional form of `setState`:
+This code generates new state based on its current value, which might contain old data. To reliably update the state based on its latest value you should use the function form of `setState`:
 
 ```js
 increaseAge = () => {
@@ -43,7 +43,7 @@ This way, the latest state value is **always** provided as an argument to the fu
 
 Note: the function also receives the latest `props`, as its second argument.
 
-If using functional components, the same logic applies to the `useState` hook:
+If using function components, the same logic applies to the `useState` hook:
 
 ```js
 const increaseAge = () => {

@@ -19,7 +19,7 @@ aspects:
 ---
 ## Content
 
-In a previous insight we have created a simple reducer that looked something like this:
+In a previous insight we have created a reducer that looked something like this:
 
 ```jsx
 // App.js

@@ -25,7 +25,7 @@ function Char() {
 }
 ```
 
-Although nesting state is useful in some cases, let's see what happens when we want to change the `pos` state. Assuming that the screen size does not change, we only want to modify the `x` and `y` values. In a class component, `this.setState` merges the updated fields into the object, but in a functional component we have to manually do the merge:
+Although nesting state is useful in some cases, let's see what happens when we want to change the `pos` state. Assuming that the screen size does not change, we only want to modify the `x` and `y` values. In a class component, `this.setState` merges the updated fields into the object, but in a function component we have to manually do the merge:
 
 ```js
 function Char() {
@@ -58,11 +58,11 @@ function Char() {
 ---
 ## Practice
 
-Can you have a nested state when using functional components?
+Can you have a nested state when using function components?
 
 ???
 
-Compared to class components, when updating the state in a functional component we ??? the fields and values.
+Compared to class components, when updating the state in a function component we ??? the fields and values.
 
 * Yes.
 * No.
@@ -72,7 +72,7 @@ Compared to class components, when updating the state in a functional component 
 ---
 ## Revision
 
-Which of the following is considered to be the correct way of updating state in a functional component?
+Which of the following is considered to be the correct way of updating state in a function component?
 
 ```js
 function Foo() {

@@ -51,7 +51,7 @@ Depending on the type of node it is applied to, the `current` value of `ref` dif
 * on an HTML element, the `ref` receives the underlying DOM element
 * on a class component, the `ref` receives the mounted instance of the component
 
-Although functional components can't have `ref` as their attribute (because they don't have instances), it is possible to use `ref` inside a functional component if they are used on a class component or DOM element:
+Although function components can't have `ref` as their attribute (because they don't have instances), it is possible to use `ref` inside a function component if they are used on a class component or DOM element:
 
 ```jsx
 function EnkiComponent(props) {
@@ -86,7 +86,7 @@ Which of the following can't have `ref` as an attribute:
 
 ???
 
-* functional components
+* function components
 * class components
 * HTML elements
 

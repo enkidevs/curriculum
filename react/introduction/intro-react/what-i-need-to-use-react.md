@@ -51,7 +51,7 @@ $ npm i -g create-react-app
 $ create-react-app myAppName
 ```
 
-This will automatically create a *static application* with no backend logic or databases. However, this will set-up the development environment including all the modern tools specified above.
+This will automatically create a *static application* with no backend logic or databases. This will set-up the development environment including all the modern tools specified above.
 
 To run your `create-react-app` app just:
 
@@ -74,7 +74,7 @@ Which of the following is not a bundler for react?
 ---
 ## Revision
 
-Which tool will automatically set-up the development environment for a simple `React` **SPA**?
+Which tool will automatically set-up the development environment for a `React` **SPA**?
 
 ???
 

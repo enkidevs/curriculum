@@ -32,20 +32,20 @@ aspects:
 ---
 ## Content
 
-In **React**, a component represents a fundamental *unit of logic* you can work with to build re-usable and independent `UI` blocks.
+In **React**, a component represents a fundamental *unit of logic* you can work with to build re-usable and independent `UI` blocks. These blocks can be anything you see in a UI: a button, a header with an image, a list of links, etc.
 
-These components behave like simple functions, they can take input arguments called `props` and will return what should be *rendered*.
+React components are functions that take input arguments called `props` and return what should be *rendered*. 
 
-If you want to create a simple component, you can use a JavaScript function like this:
+If you want to create a component, you can use a JavaScript function like this:
 
 ```jsx
-// functional component
-function Enki(props) {
+// function component
+function Enki() {
   return <p>Enki aka Ea</p>;
 }
 ```
 
-At the same time, you can also `extend` the `ES6`[1] class `React.Component` to create a component. In this case, the *rendered* output needs to be returned from a method called `render()`:
+Alternatively, you can `extend` the `ES6`[1] class `React.Component` to create a component. In this case, the *rendered* output needs to be returned from a method called `render()`:
 
 ```jsx
 // class component
@@ -58,7 +58,7 @@ class Enki extends React.Component {
 
 Notice how both types of components are used to return elements (e.g. `<p>Enki aka Ea</p>` is a React element).
 
-The differences between functional and class components will be discussed at the end of this workout, but for now know that, when viewed externally, each way of writing a component can render the same result.
+The differences between function and class components will be discussed at the end of this workout, but for now know that, when viewed externally, each way of writing a component can render the same result.
 
 You can pass dynamic values to a component via `props` which will be discussed next. 
 

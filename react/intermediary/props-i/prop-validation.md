@@ -75,7 +75,7 @@ MyComponent.propTypes = {
 };
 ```
 
-Now, let's create a simple component and verify that the `name` prop is a string:
+Now, let's create a component and verify that the `name` prop is a string:
 
 ```jsx
 class Welcome extends React.Component {

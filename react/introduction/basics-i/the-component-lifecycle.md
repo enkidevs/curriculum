@@ -21,7 +21,7 @@ links:
   - '[facebook.github.io](https://facebook.github.io/react/docs/state-and-lifecycle.html#adding-lifecycle-methods-to-a-class){website}'
   - '[facebook.github.io](https://facebook.github.io/react/docs/react-component.html#the-component-lifecycle){website}'
 
-parent: functional-components
+parent: function-components
 
 aspects:
   - introduction

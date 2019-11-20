@@ -36,7 +36,7 @@ aspects:
 ---
 ## Content
 
-Since **React 0.14** it is possible to define components as a simple arrow function:
+Since **React 0.14** it is possible to define components as an arrow function:
 
 ```jsx
 let comp = ({enki}) => <h1>{enki}</h1>;
@@ -53,7 +53,7 @@ comp.propTypes = {
 ---
 ## Practice
 
-Consider the following component defined as a simple function:
+Consider the following component defined as a function:
 ```javascript
 let enki = ({enki}) => <h1>{enki}</h1>;
 ```
@@ -77,7 +77,7 @@ Complete the code snippet to enforce **prop validation**:
 ---
 ## Revision
 
-Consider the following component defined as a simple function:
+Consider the following component defined as a function:
 ```javascript
 let enki = ({enki}) => <h1>{enki}</h1>;
 ```

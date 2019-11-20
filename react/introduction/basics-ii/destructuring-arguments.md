@@ -44,7 +44,7 @@ console.log(x); //13
 console.log(y); //42
 ```
 
-Using this, you can easily extract `props` from a **functional component**:
+Using this, you can easily extract `props` from a **function component**:
 ```jsx
 function Display({text}) {
   return <p>{text}</p>;
@@ -65,7 +65,7 @@ function Display({text, ...props}) {
 ---
 ## Practice
 
-Complete the following functional component such that:
+Complete the following function component such that:
   - `text` prop is displayed within a `<h1>`
   - all other `props` properties are used as **DOM** attributes for the `<h1>` element
 
@@ -87,7 +87,7 @@ function Enki({text, ???}) {
 ---
 ## Revision
 
-Complete the following functional component such that:
+Complete the following function component such that:
   - `age` prop is displayed within a `<h1>`
   - all other `props` properties are used as **DOM** attributes for the `<h1>` element
 

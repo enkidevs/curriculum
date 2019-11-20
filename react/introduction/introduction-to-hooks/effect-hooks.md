@@ -24,7 +24,7 @@ links:
 ---
 ## Content
 
-Effect hooks allow you to perform side effects in functional components. Some examples of side effects include setting up a subscription, manually changing the DOM or data fetching. Let's use the same `<Enki />` component that was created in the previous insight:
+Effect hooks allow you to perform side effects in function components. Some examples of side effects include setting up a subscription, manually changing the DOM or data fetching. Let's use the same `<Enki />` component that was created in the previous insight:
 
 ```jsx
 import React, {
@@ -83,7 +83,7 @@ You can already see the advantages of using hooks by comparing these two example
 ---
 ## Practice
 
-The `useEffect()` hook can be considered as a replacement of what when using functional components?
+The `useEffect()` hook can be considered as a replacement of what when using function components?
 
 ???
 

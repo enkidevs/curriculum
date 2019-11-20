@@ -23,14 +23,14 @@ links:
 ---
 ## Content
 
-Hooks represent a new way of using state with your functional components. They are the great for reusing stateful logic and enable you to use more of React's features without having to use classes.
+Hooks represent a new way of using state with your function components. They are the great for reusing stateful logic and enable you to use more of React's features without having to use classes.
 
 There are three main types of hooks:
 - State Hooks
 - Effect Hooks
 - Custom Hooks
 
-Before hooks, many initially simple React component would eventually grow to contain many unrelated groupings of stateful logic and side effects. A component could perform some data fetching in the `componentDidMount` or `componentDidUpdate` lifecycle methods, while the `componentDidMount` could also contain some event listeners. Hooks allow us to separate these unrelated parts by encapsulating related logic into functions.
+Before hooks, many React component would eventually grow to contain many unrelated groupings of stateful logic and side effects. A component could perform some data fetching in the `componentDidMount` or `componentDidUpdate` lifecycle methods, while the `componentDidMount` could also contain some event listeners. Hooks allow us to separate these unrelated parts by encapsulating related logic into functions.
 
 Now, let's take a look at the following code:
 
@@ -79,7 +79,7 @@ class FriendStatus extends React.Component {
 }
 ```
 
-What the above component does is count the number of online friends and handle their status. Notice how the `componentDidMount()` and `componentWillUnmount()` methods contain unrelated logic. Now, if we would've used functional components, the code would've looked something like this:
+What the above component does is count the number of online friends and handle their status. Notice how the `componentDidMount()` and `componentWillUnmount()` methods contain unrelated logic. Now, if we would've used function components, the code would've looked something like this:
 
 ```jsx
 function FriendStatus() {

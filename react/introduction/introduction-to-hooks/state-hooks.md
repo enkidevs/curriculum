@@ -36,7 +36,7 @@ class Enki extends React.Component(
 )
 ```
 
-But what if you wanted to use functional components? In a function component you can't assign or read `this.state`. This is where hooks come in:
+But what if you wanted to use function components? In a function component you can't assign or read `this.state`. This is where hooks come in:
 
 ```js
 import React, { useState } from "react";
@@ -48,7 +48,7 @@ function Enki() {
 
 Both of the examples above provide the same functionality. Note that you must import the `useState` hook from the `'react'` library.
 
-By calling the `useState()` hook you declare a *state variable*, which in our case is called `name`. This *state variable* can take any name you want, and it represents a way to preserve some values between the function calls. Basically, by calling `useState()` you enable the functionality of `this.state` for functional components.
+By calling the `useState()` hook you declare a *state variable*, which in our case is called `name`. This *state variable* can take any name you want, and it represents a way to preserve some values between the function calls. Basically, by calling `useState()` you enable the functionality of `this.state` for function components.
 
 The only argument you pass to the `useState()` hook is the **initial state**, and if you want to store two different values in `state` you can call the `useState()` hook twice. The state doesn't have to be an object, but it can be if you need it.
 

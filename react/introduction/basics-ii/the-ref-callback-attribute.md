@@ -65,7 +65,7 @@ someMethod() {
 }
 ```
 
-Note that `ref` attribute **can't** be used on functional components because they don't have instances. However, it can be used inside a component's `render()` method.
+Note that `ref` attribute **can't** be used on function components because they don't have instances. However, it can be used inside a component's `render()` method.
 
 Using `ref`s implies an *imperative* approach to a problem, while **React** was designed to be *declarative*. Therefore, to enforce **React**'s data flow it's recommended not to overuse `ref`s.
 

@@ -36,7 +36,7 @@ aspects:
 
 Exploiting the power of pure JS, **React** allows conditional rendering with `if` statements or *ternary operators*[1].
 
-Consider the following two functional components:
+Consider the following two function components:
 ```jsx
 function Sunny(props) {
   return <p>Enjoy the weather</p>;

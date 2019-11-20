@@ -38,7 +38,7 @@ It is important to know that elements are **immutable** and their children or at
 
 In **React** you'll work mainly with a more flexible concept, components, which are *wrappers* around elements that provide additional capabilities.
 
-To define an element you can simply:
+To define an element, you can:
 ```jsx
 // create an object representing
 // a React element

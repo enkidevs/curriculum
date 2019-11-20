@@ -36,7 +36,7 @@ const updateFeaturesList = (e, idx) => {
 };
 ```
 
-Although this code might seem correct at a first glance, the UI won't actually reflect this change because the `state` is updated on the same object reference, which doesn't trigger a re-render. Because the `state` updates can happen asynchronously (React might do this outside of our control), mutating it might result in later `state` updates overriding the changes you have made directly. To circumvent this when using functional components, use the setter method returned by `useState()`:
+Although this code might seem correct at a first glance, the UI won't actually reflect this change because the `state` is updated on the same object reference, which doesn't trigger a re-render. Because the `state` updates can happen asynchronously (React might do this outside of our control), mutating it might result in later `state` updates overriding the changes you have made directly. To circumvent this when using function components, use the setter method returned by `useState()`:
 
 ```js
 const updateFeaturesList = (e, idx) => {

@@ -23,7 +23,7 @@ aspects:
 ---
 ## Content
 
-**React** is considered a great choice for building the **UI** of web applications - be it simple *SPAs*[1] or large projects with numerous authors due to the **self-containing** nature of its *components*.
+**React** is considered a great choice for building the **UI** of web applications - be it *SPAs*[1] or large projects with numerous authors due to the **self-containing** nature of its *components*.
 
 In addition to the previously stated reasons developers are eager to adopt this library, **React** comes with many more interesting features such as:
 

@@ -37,7 +37,7 @@ handleChange = age => {
 };
 ```
 
-If using functional components together with hooks, you would use:
+If using function components together with hooks, you would use:
 
 ```jsx
 const [age, setAge] = useState(0);

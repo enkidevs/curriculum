@@ -29,7 +29,7 @@ aspects:
 ---
 ## Content
 
-If you want to use functional components, the same performance boost can be achieved by wrapping the component in a call to `React.memo`. What this does is that React will skip rendering the component and re-use the last rendered result if there is no change in `prop`s or `state`. As it was the case with `PureComponent`s, only a shallow comparison is completed.
+If you want to use function components, the same performance boost can be achieved by wrapping the component in a call to `React.memo`. What this does is that React will skip rendering the component and re-use the last rendered result if there is no change in `prop`s or `state`. As it was the case with `PureComponent`s, only a shallow comparison is completed.
 
 ```jsx
 const FnComp = React.memo(function FnComp(

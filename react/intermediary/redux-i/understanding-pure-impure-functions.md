@@ -25,7 +25,7 @@ As **Redux** is based on the general concept of the *single immutable state tree
 
 **Pure** functions are basically functions whose `return` value depends only on their arguments. They don't have observable side effects (database/network calls) and are predictable.
 
-Example of a simple pure function:
+Example of a pure function:
 
 ```javascript
 function doublePure(x) {

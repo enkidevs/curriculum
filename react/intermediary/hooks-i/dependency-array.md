@@ -52,7 +52,7 @@ class Enki extends React.Component {
 }
 ```
 
-Because this functionality was commonly used, it was built into the `useEffect()` hook. Now, when using functional components, you can skip effects if certain values haven't changed between re-renders. The code above can be re-written like so:
+Because this functionality was commonly used, it was built into the `useEffect()` hook. Now, when using function components, you can skip effects if certain values haven't changed between re-renders. The code above can be re-written like so:
 
 ```js
 function Enki() {
@@ -94,7 +94,7 @@ function Test() {
 ---
 ## Revision
 
-How would you reproduce the following code using functional components?
+How would you reproduce the following code using function components?
 
 ```js
 class Revision extends React.Component {

@@ -23,7 +23,7 @@ links:
 ---
 ## Content
 
-You have learned how to use the `useState()` and `useEffect()` hooks, but until now we have only called these methods once. An important feature of hooks is that you can have multiple `useState()` and `useEffect()` in the same functional component. Here's a simple example:
+You have learned how to use the `useState()` and `useEffect()` hooks, but until now we have only called these methods once. An important feature of hooks is that you can have multiple `useState()` and `useEffect()` in the same function component. Here's an example:
 
 ```jsx
 function App() {
@@ -49,7 +49,7 @@ function App() {
 }
 ```
 
-Now that you know your functional components can contain multiple hook calls, it is time to learn the rules that apply to hooks.
+Now that you know your function components can contain multiple hook calls, it is time to learn the rules that apply to hooks.
 
 The first rule is **always call hooks at the top level**. 
 
@@ -57,7 +57,7 @@ To allow React to correctly preserve the state of hooks between multiple `useSta
 
 The second rule is **only call hooks from React functions**. 
 
-Hooks were designed to work when called either inside React functional components or inside a custom hook (concept which will be taught at a later time). Hooks can't be called from regular JavaScript functions.
+Hooks were designed to work when called either inside React function components or inside a custom hook (concept which will be taught at a later time). Hooks can't be called from regular JavaScript functions.
 
 To help developers follow these rules more easily, the React team has created an ESLint plugin called `eslint-plugin-react-hooks`. A quick way to add it to your project is to install it from NPM[1]:
 

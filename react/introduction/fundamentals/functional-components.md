@@ -29,14 +29,14 @@ aspects:
 
 ---
 
-# Functional components
+# Function components
 
 ---
 ## Content
 
 As stated before, **React** components behave just like functions, taking `props` as input and returning **React elements**.
 
-Hooks allow functional components to achieve state management:
+Hooks allow function components to achieve state management:
 
 ```js
 function Enki() {
@@ -92,7 +92,7 @@ class FollowComponent extends React.Component {
 
 The components defined above should have the same functionality right? This statement is mostly correct, although there is an unseen side effect. In the class component, although `props` are immutable, `this` will always be mutable. For this reason, the property `this.props.user` is changed after every render or lifecycle method. Imagine that the button is clicked, but before the 3 seconds pass the `name` prop is changed from 'Andrei' to 'Stefan'. The effects of this action will be:
 
-- in the functional component, the message displayed will be 'Followed Andrei', which is the **correct** behavior
+- in the function component, the message displayed will be 'Followed Andrei', which is the **correct** behavior
 - in the class component, the message displayed will be 'Followed Stefan', because `this.props.user` reflects the latest value
 
 A quick fix for this issue is represented by capturing the current `props` in the `render()` method:
@@ -120,7 +120,7 @@ class FollowComponent extends React.Component {
 }
 ```
 
-For more information on the differences between functional and class components make sure to check the resources.
+For more information on the differences between function and class components make sure to check the resources.
 
 ---
 ## Practice

@@ -53,7 +53,7 @@ const el = React.createElement(
 );
 ```
 
-After performing some checks that ensure your code is bug-free, the `React.createElement()` method creates an object like this:
+After performing some checks to make sure you’re providing valid data, the `React.createElement()` method creates an object like this:
 
 ```jsx
 const el = {
@@ -64,7 +64,7 @@ const el = {
 };
 ```
 
-**JSX** allows you to embed JS expressions within it wrapping them with `{ }` curly brackets:
+**JSX** allows you to embed JS expressions within it by wrapping them with `{ }` curly brackets:
 
 ```jsx
 const x = "Hey there!";
@@ -74,7 +74,7 @@ const el = <h2>{x}</h2>;
 
 When rendered, this element will display `"Hey there"` as an `h2`.
 
-Because we are using Babel to transform our entire React application, you can us **JSX** expressions anywhere. For example, you can:
+You can use **JSX** expressions anywhere. For example, you can:
 - `return` them
 - use them in `for` loops
 - use them in `if` statements
@@ -82,15 +82,15 @@ Because we are using Babel to transform our entire React application, you can us
 - etc.
 
 
-**React** doesn't require **JSX** usage, but its usage is highly encouraged as well as `Babel` compiling.
-
+Although writing `React.createElement` statements is perfectly valid, the main reason developers prefer to use JSX is the familiarity of HTML-like syntax.
+It’s important to know that, since JSX isn’t a language that is understood in JavaScript environments, React uses Babel[1] to convert it to valid JavaScript, i.e. the mentioned `React.createElement` calls.
 ---
 ## Practice
 
 What will the following **JSX** expression compile to?
 
 ```jsx
-const el = <p>&lt;3 JSX</p>;
+const el = <p>I love JSX</p>;
 
 // compiled to:
 
@@ -104,10 +104,10 @@ const el = React.createElement(
 
 * `'p'`
 * `null`
-* `'<3 JSX'`
+* `'I love JSX'`
 * `<p>`
 * `jsx`
-* `'<p><3 JSX</p>'`
+* `'<p>I love JSX</p>'`
 * `'</p>'`
 
 ---
@@ -122,4 +122,9 @@ const el = React.createElement(
 * `JSX` entities
 * `XML` elements
 
+---
+## Footnotes
 
+
+[1:Babel]
+Babel is an open-source JavaScript compiler that is used to convert new ECMAScript code into a backwards compatible version of JavaScript that can run on older engines.

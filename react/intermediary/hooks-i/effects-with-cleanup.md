@@ -23,7 +23,7 @@ In class components, this functionality would be split into three lifecycle meth
 - set up a subscription in `componentDidMount()`
 - cleanup the subscription in the `componentWillUnmount()` and the `componentDidUpdate()` methods
 
-When using functional components, the hooks were designed such that adding and removing a subscription is kept together. The idea behind is that if you return a function for your `useEffect()` hook, React will run it at cleanup. Let's take a look at an example:
+When using function components, the hooks were designed such that adding and removing a subscription is kept together. The idea behind is that if you return a function for your `useEffect()` hook, React will run it at cleanup. Let's take a look at an example:
 
 ```js
 function Enki() {
@@ -79,7 +79,7 @@ The cleanup function does not have to be named `cleanup()`, and it doesn't have 
 ---
 ## Practice
 
-How do you cleanup after running an effect in a functional component?
+How do you cleanup after running an effect in a function component?
 
 ???
 
