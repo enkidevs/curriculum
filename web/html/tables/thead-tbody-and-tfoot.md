@@ -24,10 +24,10 @@ standards:
 
 links:
   - '[CodePen: Scrolling Table CSS](https://codepen.io/enkidevs/pen/JBXyoJ){code}'
-  - '[MDN docs for thead](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/thead){website}'
-  - '[MDN docs for tbody](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tbody){website}'
-  - '[MDN docs for tfoot](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tfoot){website}'
-  - '[Codepen Example](https://codepen.io/stefan-stojanovic/pen/jKbJgQ){website}'
+  - '[MDN docs for thead](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/thead){documentation}'
+  - '[MDN docs for tbody](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tbody){documentation}'
+  - '[MDN docs for tfoot](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tfoot){documentation}'
+  - '[Codepen Example](https://codepen.io/stefan-stojanovic/pen/jKbJgQ){code}'
 
 ---
 # Thead, tbody, & tfoot
