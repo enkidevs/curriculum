@@ -18,7 +18,7 @@ aspects:
   - workout
 
 links:
-  - '[MDN docs for textarea](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea){website}'
+  - '[MDN docs for textarea](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea){documentation}'
 
 ---
 # Text Area
