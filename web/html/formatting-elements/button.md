@@ -18,7 +18,7 @@ aspects:
   - workout
 
 links:
-  - '[MDN docs for button](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button){website}'
+  - '[MDN docs for button](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button){documentation}'
 
 ---
 # Button
