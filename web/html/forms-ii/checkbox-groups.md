@@ -17,8 +17,8 @@ aspects:
   - workout
 
 links:
-  - '[MDN docs for checkboxes](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/checkbox){website}'
-  - '[StockOverflow: Multiple Checkboxes](https://stackoverflow.com/questions/18745456/handle-multiple-checkboxes-with-a-single-serverside-variable){code}'
+  - '[MDN docs for checkboxes](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/checkbox){documentation}'
+  - '[StackOverflow: Multiple Checkboxes](https://stackoverflow.com/questions/18745456/handle-multiple-checkboxes-with-a-single-serverside-variable){discussion}'
 
 
 ---
