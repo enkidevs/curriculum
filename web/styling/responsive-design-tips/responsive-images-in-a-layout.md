@@ -24,8 +24,8 @@ tags:
 
 links:
 
-  - '[learn.shayhowe.com](http://learn.shayhowe.com/advanced-html-css/responsive-web-design/){website}'
-  - '[developers.google.com](https://developers.google.com/web/fundamentals/layouts/rwd-fundamentals/use-media-queries?hl=en){website}'
+  - '[Responsive Web Design](http://learn.shayhowe.com/advanced-html-css/responsive-web-design/){article}'
+  - '[Web Design Basics](https://developers.google.com/web/fundamentals/layouts/rwd-fundamentals/use-media-queries?hl=en){website}'
 
 parent: using-media-rule-to-create-cross-platform-responsiveness
 
