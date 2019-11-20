@@ -19,7 +19,7 @@ aspects:
   - deep
 
 links:
-  - '[Range elements on MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/range){documentation}'
+  - '[MDN Docs On range](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/range){documentation}'
 
 ---
 # Range
