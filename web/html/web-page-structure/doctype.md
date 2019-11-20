@@ -19,8 +19,8 @@ standards:
   web.metadata.4: 10
 
 links:
-  - '[MDN docs for Doctype](https://developer.mozilla.org/en-US/docs/Glossary/Doctype){website}'
-  - '[List of all Doctype declarations](https://www.w3.org/QA/2002/04/valid-dtd-list.html){website}'
+  - '[MDN Docs On Doctype](https://developer.mozilla.org/en-US/docs/Glossary/Doctype){documentation}'
+  - '[List of all Doctype declarations](https://www.w3.org/QA/2002/04/valid-dtd-list.html){documentation}'
   
 ---
 # Doctype
