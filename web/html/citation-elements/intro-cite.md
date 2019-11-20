@@ -20,7 +20,7 @@ aspects:
   - deep
 
 links:
-  - '[MDN docs for cite](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/cite){website}'
+  - '[MDN docs for cite](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/cite){documentation}'
 
 ---
 # Cite Element
