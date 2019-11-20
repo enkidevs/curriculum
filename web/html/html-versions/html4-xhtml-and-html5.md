@@ -18,9 +18,9 @@ aspects:
   - deep
 
 links:
-  - '[MDN docs for HTML](https://developer.mozilla.org/en-US/docs/Web/HTML){website}'
-  - '[MDN docs for HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5){website}'
-  - '[W3 docs for HTML5 vs HTML4](https://www.w3.org/TR/html5-diff/){website}'
+  - '[MDN docs for HTML](https://developer.mozilla.org/en-US/docs/Web/HTML){documentation}'
+  - '[MDN docs for HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5){documentation}'
+  - '[W3 docs for HTML5 vs HTML4](https://www.w3.org/TR/html5-diff/){documentation}'
 
 ---
 # HTML4, XHTML, & HTML5
