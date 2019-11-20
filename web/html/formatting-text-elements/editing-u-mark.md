@@ -18,8 +18,8 @@ aspects:
   - introduction
 
 links:
-  - '[MDN docs for u](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/u){website}'
-  - '[MDN docs for mark](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/mark){website}'
+  - '[MDN docs for u](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/u){documentation}'
+  - '[MDN docs for mark](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/mark){documentation}'
 
 ---
 # Markup for Editing
