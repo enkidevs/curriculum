@@ -17,8 +17,8 @@ aspects:
   - workout
 
 links:
-  - '[MDN docs for div](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/div){website}'
-  - '[W3S docs for div](https://www.w3schools.com/tags/tag_div.asp){website}'
+  - '[MDN docs for div](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/div){documentation}'
+  - '[W3S docs for div](https://www.w3schools.com/tags/tag_div.asp){documentation}'
 
 ---
 # Div element
