@@ -22,7 +22,7 @@ aspects:
   - deep
 
 link:
-  - '[MDN Docs for samp](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/samp){website}'
+  - '[MDN Docs for samp](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/samp){documentation}'
 
 ---
 # samp - Sample Output Element
