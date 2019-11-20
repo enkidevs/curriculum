@@ -23,7 +23,7 @@ aspects:
   - deep
 
 links:
-  - '[MDN docs for caption](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/caption){website}'
+  - '[MDN Docs On caption](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/caption){documentation}'
 
 ---
 # Caption
