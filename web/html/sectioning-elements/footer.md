@@ -19,7 +19,7 @@ aspects:
   - workout
 
 links:
-  - '[MDN: Footer](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/footer){website}'
+  - '[MDN Docs On Footer](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/footer){documentation}'
 
 ---
 # Footer
