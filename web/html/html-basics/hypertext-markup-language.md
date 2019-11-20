@@ -21,7 +21,7 @@ aspects:
 links:
 
   - '[First web page](http://info.cern.ch/hypertext/WWW/TheProject.html){website}'
-  - '[MDN](https://developer.mozilla.org/en-US/docs/Glossary/HTML){documentation}'
+  - '[MDN Docs On HTML](https://developer.mozilla.org/en-US/docs/Glossary/HTML){documentation}'
 
 
 ---
