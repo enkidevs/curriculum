@@ -81,7 +81,7 @@ In addition to what a library provides, a **Framework** will dictate the structu
 **DOM** stands for *Document Object Model*.
 The **HTML** of a webpage is used to create the **DOM**, which is a in-memory representation of the webpage.
 Even though the **HTML** and **DOM** are closely related, they are not the same thing.
-Languages such as *CSS* or *JavaScript** manipulate the **DOM** and not the **HTML**.
+Languages such as *CSS* or *JavaScript* manipulate the **DOM** and not the **HTML**.
 
 [4:Virtual DOM]
 This is also referred to as the Virtual DOM or VDOM. It represents a concept in which a "virtual" representation of the UI is kept in memory and synced with the "real" DOM by a library. In our case, this library is `ReactDOM`.
