@@ -17,7 +17,7 @@ aspects:
   - workout
 
 links:
-  - '[MDN docs for radio buttons](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/radio){website}'
+  - '[MDN docs for radio buttons](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/radio){documentation}'
 
 ---
 # Radio Buttons
