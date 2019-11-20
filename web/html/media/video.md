@@ -19,7 +19,7 @@ aspects:
 
 links:
   - '[CodePen: Video: Simple HTML Player](https://codepen.io/enkidevs/pen/MBYOJb){code}'
-  - '[a walkthrough](https://www.quackit.com/html_5/tags/html_video_tag.cfm){website}'
+  - '[HTML Video Tag Tutorial](https://www.quackit.com/html_5/tags/html_video_tag.cfm){article}'
   - '[Documentation on MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video){documentation}'
 
 ---
