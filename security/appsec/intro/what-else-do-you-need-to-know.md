@@ -28,7 +28,7 @@ If you'd like to learn more about application security, you should make sure you
 
 - The __Open Systems Interconnection Model__ (OSI Model) (covered in this course)
 - At least one scripting language (even bash, check out our other topics)
-- Network Protocols (check our Networking course!)
+- Network Protocols (check our Computer Science / Networking course!)
 - Operating Systems
 - How memory in a computer works, and where data is located at any given time
 
