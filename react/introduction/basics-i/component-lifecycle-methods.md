@@ -101,7 +101,7 @@ constructor(props) {
 ---
 ## Practice
 
-What of the following methods is called **after** rendering, but not after the first one.
+Which of the following methods is called **after** all **but first** render?
 
 ???
 

@@ -65,8 +65,8 @@ Can you have a nested state when using function components?
 Compared to class components, when updating the state in a function component we ??? the fields and values.
 
 * Yes.
-* No.
 * replace
+* No.
 * merge
 
 ---

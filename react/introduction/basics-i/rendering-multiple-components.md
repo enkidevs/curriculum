@@ -77,6 +77,20 @@ The output in the DOM is:
 ---
 ## Practice
 
+What is the name of the **identity attribute** that must be included when creating collections of `element`s with `map`?
+
+???
+
+
+* `key`
+* `index`
+* `i`
+* `identity`
+* `ref`
+
+---
+## Revision
+
 Complete the following code snippet such that for every element in `input` prop, its value is displayed inside a `<h2>`:
 ```jsx
 function Test(props) {
@@ -89,7 +103,6 @@ function Test(props) {
 }
 ```
 
-
 * `props.input`
 * `map`
 * `h2`
@@ -99,20 +112,6 @@ function Test(props) {
 * `/div`
 * `input`
 * `forEach`
-
----
-## Revision
-
-What is the name of the **identity attribute** that must be included when creating collections of `element`s with `map`?
-
-???
-
-
-* `key`
-* `index`
-* `i`
-* `identity`
-* `ref`
 
 ---
 ## Footnotes
