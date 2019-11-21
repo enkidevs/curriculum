@@ -17,8 +17,8 @@ category: best practice
 
 links:
 
-  - '[facebook.github.io](https://facebook.github.io/react/docs/typechecking-with-proptypes.html#react.proptypes){website}'
-  - '[prop-types library](https://www.npmjs.com/package/prop-types){website}'
+  - '[Type checking with PropTypes](https://facebook.github.io/react/docs/typechecking-with-proptypes.html#react.proptypes){website}'
+  - '[PropTypes library](https://www.npmjs.com/package/prop-types){website}'
 
 parent: destructuring-arguments
 

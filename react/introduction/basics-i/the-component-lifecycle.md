@@ -18,8 +18,8 @@ category: must-know
 
 links:
 
-  - '[facebook.github.io](https://facebook.github.io/react/docs/state-and-lifecycle.html#adding-lifecycle-methods-to-a-class){website}'
-  - '[facebook.github.io](https://facebook.github.io/react/docs/react-component.html#the-component-lifecycle){website}'
+  - '[Adding lifecycle methods to a class](https://facebook.github.io/react/docs/state-and-lifecycle.html#adding-lifecycle-methods-to-a-class){website}'
+  - '[The component lifecycle](https://facebook.github.io/react/docs/react-component.html#the-component-lifecycle){website}'
 
 parent: function-components
 
@@ -37,7 +37,7 @@ aspects:
 
 These methods correspond to exact points in the **component's lifecycle**.
 
-A **lifecycle hook** is the `constructor(props)` which is commonly used to set the initial `state` of your component, but not only.
+One example of a **lifecycle hook** is the `constructor(props)`, which is commonly used to set the initial `state` of your component.
 
 Suppose you want to log a message after a component was mounted[1] (after being `render`ed). For this, you can use the `componentDidMount()` method:
 ```jsx

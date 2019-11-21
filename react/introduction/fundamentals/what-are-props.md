@@ -33,11 +33,11 @@ aspects:
 ---
 ## Content
 
-As discussed before, components can take input in a similar way to a function, via `props`.
+Components can take input in a similar way to a function, via `props`.
 
 `props` is a plain JS object whose properties represent the arguments of a component.
 
-An important aspect of the `props` object is that it is **immutable**. That means `props` can't and shouldn't be changed within a component, but only from its *parent*(s).
+An important aspect of the `props` object is that it is **immutable**. That means `props` can't and shouldn't be changed within a component, but only from its *parent*(s). We will elaborate more on this later.
 
 Consider the component:
 ```jsx
@@ -53,9 +53,9 @@ class Greeting extends React.Component {
 }
 ```
 
-Note that if the value of your `return` extends over multiple lines it must be enclosed in parenthesis.
+Note that if the value of your `return` extends over multiple lines it must be enclosed in parentheses[1].
 
-If we want to `render` it, the element must specify the value of `name` prop:
+Here is how to pass `props` to an element:
 
 ```jsx
 const el = (
@@ -63,7 +63,7 @@ const el = (
 );
 ```
 
-Now, when `render`ed, `el` will display "Enki greets John".
+Now, when `render`ed, `el` will display `"Enki greets John"`.
 
 You can also define **default props** in the following manner:
 
@@ -83,7 +83,7 @@ const el = (
 );
 ```
 
-If we `render` it now (using `ReactDOM.render`), we will see "Enki greets User";
+If we `render` it now, we will see `"Enki greets User"`;
 
 ---
 ## Practice
@@ -150,4 +150,38 @@ ReactDOM.render(
 * `default`
 * `class`
 
+---
+## Footnotes
 
+[1:Return & parentheses]
+Although not necessary, it is highly recommended to use parentheses to wrap your JSX code that goes over multiple lines. Let's look at an example:
+
+```jsx
+// this is perfectly valid syntax
+// but it is hard to read
+let el = <ul>
+  <li>
+    Hello World
+  </li>
+</ul>;
+
+// this is much better to read
+// but it does not represent valid syntax
+// and it will give an error on compilation
+let el = 
+  <ul>
+    <li>
+      Hello World
+    </li>
+  </ul>;
+
+// so, to improve readability,
+// we enclose the JSX code in parentheses
+let el = (
+  <ul>
+    <li>
+      Hello World
+    </li>
+  </ul>
+)
+```

@@ -32,7 +32,7 @@ aspects:
 ---
 ## Content
 
-As discussed before, **lifecycle methods** can be used to target a specific point in the *life* of a component.
+**Lifecycle methods** can be used to target a specific point in the *life* of a component.
 
 We can split them into three broader categories by the *type of event* that will trigger them:
 

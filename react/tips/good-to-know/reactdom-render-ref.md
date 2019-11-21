@@ -19,7 +19,7 @@ aspects:
   - deep
 
 ---
-# `ReactDOM.createRef`
+# `React.createRef`
 
 ---
 ## Content

@@ -85,7 +85,7 @@ What the above component does is count the number of online friends and handle t
 function FriendStatus() {
   const [count, setCount] = useState(0);
   useEffect(() => {
-    document.title = `You have ${this.state.count} friends online.`
+    document.title = `You have ${count} friends online.`
   })
 
   const [isOnline, setIsOnline] = useState(null);

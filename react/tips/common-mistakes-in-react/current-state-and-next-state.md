@@ -18,7 +18,7 @@ category: tip
 ---
 ## Content
 
-In the previous insight we have discussed how the `setState()` update call can sometimes be asynchronous. For this reason, the value of `this.state` might not always hold the most up to date value:
+We have previously discussed how the `setState()` update call can sometimes be asynchronous. For this reason, the value of `this.state` might not always hold the most up to date value:
 
 ```js
 increaseAge = age => {
@@ -70,9 +70,9 @@ B = () => {
 };
 
 C = count => {
-  this.setState(state => {
-    count: state.count + 1;
-  });
+  this.setState(() => ({
+    count: count + 1
+  }));
 };
 ```
 

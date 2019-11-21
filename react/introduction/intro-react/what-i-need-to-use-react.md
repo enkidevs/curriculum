@@ -27,9 +27,9 @@ Being a truly flexible library, you can create applications from scratch with **
 To install **React** you can use a *package manager* such as `yarn` or `npm`:
 
 ```bash
-// yarn
+# yarn
 $ yarn add react react-dom
-// npm
+# npm
 $ npm install --save react react-dom
 ```
 
@@ -93,11 +93,7 @@ A `JavaScript` **bundler** is a tool that puts your code and all its dependencie
 A bundler flattens your module hierarchy into a single file, effectively reducing load times.
 
 [3:Babel]
-`Babel` is a compiler that transforms modern (or experimental) `JS` OR `JSX` syntax into a format that can run in current and older browsers (or environments). 
-You can download `Babel` at:
-```
-https://babeljs.io/
-```
+`Babel` is a compiler that transforms modern (or experimental) `JS` OR `JSX` syntax into a format that can run in current and older browsers (or environments).  You can download `Babel` at this [link](https://babeljs.io/).
 
 [4:ES.Next]
 `ES.Next` is a dynamic name that represents whatever the next version of ECMAScript is at the time of writing.

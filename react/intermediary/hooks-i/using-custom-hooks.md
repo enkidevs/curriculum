@@ -16,7 +16,7 @@ aspects:
 ---
 ## Content
 
-Now that we know how to write our own custom hooks, let's see how to integrate them with components. Let's say that we have two components that make use of the same piece of code. We start off by creating our custom hook, like we've learned in the previous insight:
+Now that we know how to write our own custom hooks, let's see how to integrate them with components. Let's say that we have two components that make use of the same piece of code. We start off by creating our custom hook:
 
 ```js
 function useCode(arg) {
@@ -62,8 +62,8 @@ Where can you call custom hooks inside a component?
 
 ???
 
-* Anywhere.
 * Only at the top-level.
+* Anywhere.
 * Only inside a `useEffect()` statement.
 
 ---

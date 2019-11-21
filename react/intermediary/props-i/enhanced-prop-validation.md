@@ -17,8 +17,8 @@ category: how to
 
 links:
 
-  - '[facebook.github.io](https://facebook.github.io/react/docs/typechecking-with-proptypes.html#react.proptypes){website}'
-  - '[prop-types library](https://www.npmjs.com/package/prop-types){website}'
+  - '[Type checking with PropTypes](https://facebook.github.io/react/docs/typechecking-with-proptypes.html#react.proptypes){website}'
+  - '[PropTypes Library](https://www.npmjs.com/package/prop-types){website}'
 
 parent: default-values-for-props
 
@@ -61,7 +61,7 @@ myEnum: PropTypes.oneOf(['a', 'b']),
 Validate for multiple types simultaneously:
 
 ```jsx
-myProp: React.PropTypes.oneOfType([
+myProp: PropTypes.oneOfType([
   PropTypes.string,
   PropTypes.instanceOf(Enki)
 ]),

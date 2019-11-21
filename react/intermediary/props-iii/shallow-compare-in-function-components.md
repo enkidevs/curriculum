@@ -15,7 +15,7 @@ category: feature
 
 
 links:  
-  - '[facebook.github.io](https://facebook.github.io/react/docs/react-api.html#reactmemo){website}'
+  - '[React.memo Official Documentation](https://facebook.github.io/react/docs/react-api.html#reactmemo){website}'
 
 parent: custom-proptype-s-to-be-required
 
@@ -52,7 +52,7 @@ function areEqual(prevProps, nextProps) {
   otherwise returns false
   */
 }
-const Component = React.Memo(
+const Component = React.memo(
   MemoComponent,
   areEqual
 );
