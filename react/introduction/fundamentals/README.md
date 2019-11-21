@@ -9,3 +9,4 @@ insights:
   - what-are-props
   - what-is-state
   - functional-components
+  - one-way-data-binding
