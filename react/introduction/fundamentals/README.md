@@ -7,4 +7,4 @@ insights:
   - the-react-component
   - what-are-props
   - what-is-state
-  - function-components
+  - functional-components
