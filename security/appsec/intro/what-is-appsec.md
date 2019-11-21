@@ -37,7 +37,7 @@ The field of application security includes many different individuals working to
 
 This course aims to introduce you to common security patterns that you can follow in your code, your application design, and your organization - to be more secure, and keep your customers' data safe.
 
-In order to improve application security, we'll make use of many automated tools to make the process more automatic, and integrate it into your normal developer workflow.
+In order to improve application security, we'll make use of many automated tools to make the process more automatic and integrate it into your normal developer workflow.
 
 ---
 ## Practice
