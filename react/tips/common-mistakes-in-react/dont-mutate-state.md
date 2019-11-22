@@ -29,32 +29,44 @@ Now that you know how to start using React, it is time to learn about some of th
 One of the most common mistakes one can make when using React is trying to directly modify the `state`. In a previous workout we have discussed how the `state` is considered immutable, and some methods of updating arrays or objects were presented. Consider the following example:
 
 ```js
-const updateFeaturesList = (e, idx) => {
-  listFeatures[idx].checked =
-    e.target.checked;
-  setListFeatures(listFeatures);
-};
+function User() {
+  // define the state
+  const [name, setName] = useState('user');
+
+  const updateUser = (user) => {
+    // assign the `user.name` field 
+    //to the `name` state
+    name = user.name;
+    // use the setter method
+    // `setName` to set the state
+    setName(name);
+  }
+
+  return (
+    <button onClick={() => updateUser('Enki')} />
+  )
+}
 ```
 
-Although this code might seem correct at a first glance, the UI won't actually reflect this change because the `state` is updated on the same object reference, which doesn't trigger a re-render. Because the `state` updates can happen asynchronously (React might do this outside of our control), mutating it might result in later `state` updates overriding the changes you have made directly. To circumvent this when using function components, use the setter method returned by `useState()`:
+Suppose we click the button returned from `<User />`. Although this code might seem correct at a first glance, the UI won't actually reflect this change because the `name` is updated on the same object reference (`name = user.name`), which doesn't trigger a re-render.
 
-```js
-const updateFeaturesList = (e, idx) => {
-  const { checked } = e.target;
-  setListFeatures(features => {
-    return features.map(
-      (feature, index) => {
-        if (idx === index) {
-          feature = { ...feature, checked };
-        }
-        return feature;
-      }
-    );
-  });
-};
+To circumvent this when using function components, use the setter method returned by `useState()`:
+
+```jsx
+function User() {
+  // ...
+
+  const updateUser = (user) => {
+    // use the setter method to
+    // directly update the state
+    setName(user)
+  }
+
+  // ...
+}
 ```
 
-Note that by using the `.map()` array method (which creates a new array) and object spread (which creates a new object) we are ensuring that the original `state` items are not changed.
+Remember, you should **never** mutate state.
 
 ---
 ## Practice
@@ -63,19 +75,7 @@ Which of the following represents a good reason to mutate `state`?
 
 ???
 
-* you should never mutate state
-* to write less code
-* to increase your app's performance
-* to have easier access to nested values
-
----
-## Revision
-
-Which of the following represents a good reason to mutate `state`?
-
-???
-
-* you should never mutate state
-* to write less code
-* to increase your app's performance
-* to have easier access to nested values
+* You should never mutate state.
+* To write less code.
+* To increase your app's performance.
+* To have easier access to nested values.
