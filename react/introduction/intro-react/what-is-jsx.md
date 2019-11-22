@@ -84,6 +84,7 @@ You can use **JSX** expressions anywhere. For example, you can:
 
 Although writing `React.createElement` statements is perfectly valid, the main reason developers prefer to use JSX is the familiarity of HTML-like syntax.
 It’s important to know that, since JSX isn’t a language that is understood in JavaScript environments, React uses Babel[1] to convert it to valid JavaScript, i.e. the mentioned `React.createElement` calls.
+
 ---
 ## Practice
 
@@ -113,8 +114,7 @@ const el = React.createElement(
 ---
 ## Revision
 
-**JSX** expressions after compilation are transformed into
-??? .
+**JSX** expressions after compilation are transformed into ???.
 
 
 * `JavaScript` objects
