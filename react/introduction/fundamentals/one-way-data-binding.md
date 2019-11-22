@@ -25,7 +25,7 @@ By design, data in React flows only in **one direction**. Take a look at the fol
 
 ![Data Flow in React](https://img.enkipro.com/e000ba53014eb373691858feda14991a.png)
 
-This process is called **one-way data binding**[1], and as you can see, the actions modify the state of React, which, in turn, modifies the UI.
+This process is called **one-way data binding**[1], in which the user (with a click, hover, etc.) triggers the actions that modify the state of React. This, in turn, modifies the UI.
 
 This technique is often seen as *cleaner* and it's preferred because it gives better control over the **data flow**. Only your actions can modify the state, making your actions the only source of truth.
 

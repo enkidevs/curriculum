@@ -23,14 +23,14 @@ aspects:
 ---
 ## Content
 
-One of the main concept and the building block of React is the component.
+One of the main concepts and the building block of React is the component.
 
 A component can be anything:
-- a header ith an image
+- a header with an image
 - a list of links
 - a button
 
-So, for example, this is a React component:
+For example, this is a React component:
 ```jsx
 function App() {
   return (
@@ -51,8 +51,8 @@ function App() {
 }
 ```
 
-And this component will display:
+This component will display:
 
 ![First React Component](https://img.enkipro.com/299cd451feedb68007faf2d7143aa914.png)
 
-Don't worry too much about components now as we will talk more about this in the following workouts.
+Don't worry too much about components now as we will talk more about them in the following workouts.
