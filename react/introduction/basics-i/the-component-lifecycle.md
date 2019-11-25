@@ -37,9 +37,9 @@ aspects:
 
 These methods correspond to exact points in the **component's lifecycle**.
 
-One example of a **lifecycle hook** is the `constructor(props)`, which is commonly used to set the initial `state` of your component.
+One example of a **lifecycle hook** is the `constructor(props)`, which is commonly used to set the initial `state` of your component[2].
 
-Suppose you want to log a message after a component was mounted[1] (after being `render`ed). For this, you can use the `componentDidMount()` method:
+Suppose you want to log a message after a component was mounted[2] (after being `render`ed). For this, you can use the `componentDidMount()` method:
 ```jsx
 class Spawn extends React.Component {
   componentDidMount() {
@@ -97,7 +97,20 @@ Is `React.Component`'s `constructor(props)` method considered a **lifecycle hook
 
 ---
 ## Footnotes
-[1:mounting]
+
+[1:constructor()]
+Calling `constructor()` is a common occurrence when working with JavaScript classes. By calling `constructor()` we any extended instance (such as a component in React) to access all the parent's properties.
+
+If we want to initialize all the properties that the parent initializes, then we would call `super()` inside `constructor()`:
+```js
+constructor() {
+  super();
+}
+```
+
+Basically, we use `constructor()` to initialize "stuff", and if we want to initialize all the "stuff" that the parent does, we would then have to call `super()` inside our `constructor()`.
+
+[2:mounting]
 
 **Mounting** refers to the initial insertion of a **React** `component` into the **DOM**.
 Similarly, **unmounting** happens when the `component` is removed from the **DOM**.

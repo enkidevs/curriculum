@@ -8,5 +8,5 @@ insights:
   - using-react-components
   - what-are-props
   - what-is-state
-  - functional-components
-  - one-way-data-binding
+  - function-components
+  - data-flow-in-react

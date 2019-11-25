@@ -25,7 +25,7 @@ aspects:
 
 One of the main concepts and the building block of React is the component.
 
-A component can be anything:
+You can think of a component as a definition representing one or more UI elements. For example, a component can represent:
 - a header with an image
 - a list of links
 - a button
@@ -56,3 +56,5 @@ This component will display:
 ![First React Component](https://img.enkipro.com/299cd451feedb68007faf2d7143aa914.png)
 
 Don't worry too much about components now as we will talk more about them in the following workouts.
+
+For now, it’s enough to understand that components in React represent definitions of UI elements.

@@ -36,9 +36,7 @@ Many developers have adopted this library because of these key features:
  - **JSX**: JavaScript syntactic sugar used to quote **HTML** elements, allowing their usage in JS code
  - **virtual DOM**: the `DOM`-like in-memory data structure cache used to efficiently update the real `DOM`
 
-React is an open-source[6] project that was released in 2013 and has since become one of the most popular UI libraries with millions of weekly downloads and its usage has spread across many platforms (web, mobile, etc).
-
-**React** is an open-source project that was released in 2013 and has already become one of the top 5 starred projects on **GitHub**. Due to the large number of contributors, this library is improving at a rapid pace.
+React is an open-source[6] project that was released in 2013 and has since become one of the most popular UI libraries with millions of weekly downloads and its usage has spread across many platforms (web, mobile, etc). It has become one of the [top starred projects on GitHub](https://github.com/search?q=stars%3A%3E100&s=stars&type=Repositories). Due to the large number of contributors, this library is improving at a rapid pace.
 
 
 By focusing on developer experience, **React** has become the first choice for both beginners and experts of Front-End Web Development.

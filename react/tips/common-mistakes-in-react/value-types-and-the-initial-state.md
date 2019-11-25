@@ -35,7 +35,7 @@ function Person() {
   // to grab the profile
   // data from our API
   useEffect(() => {
-    fetch("/api/profile").then(data => {
+    fetch("/information").then(data => {
       setInfo(data);
     });
   }, []);
@@ -64,7 +64,7 @@ function Person() {
   });
 
   getInfo = () => {
-    fetch("/api/profile").then(data => {
+    fetch("/information").then(data => {
       setInfo(data);
     });
   };
@@ -84,7 +84,7 @@ function Person() {
   const [info, setInfo] = useState(null);
 
   useEffect(() => {
-    fetch("/api/profile").then(data => {
+    fetch("/information").then(data => {
       setInfo(data);
     });
   )};

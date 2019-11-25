@@ -128,7 +128,7 @@ What method is the first being called in the **component lifecycle**?
 ---
 ## Footnotes
 
-[1: Why do we write `super(props)`]
+[1: Why do we write super(props)]
 In JavaScript classes, the constructor is commonly used to setup the initial data of the class.
 ```js
 class Enki {
