@@ -106,7 +106,7 @@ const el = React.createElement(
 ---
 ## Revision
 
-**JSX** expressions after compilation are transformed into ???.
+JSX expressions after compilation are transformed into ???.
 
 
 * `JavaScript` objects
