@@ -4,9 +4,9 @@ description: Building blocks of React, explained.
 
 insights:
   - the-react-element
-  - the-react-component
+  - react-the-react-component
   - using-react-components
-  - what-are-props
+  - react-what-are-props
   - what-is-state
   - function-components
   - data-flow-in-react

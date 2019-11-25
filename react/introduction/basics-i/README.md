@@ -3,9 +3,9 @@ name: Basics of React
 description: Explore how React works by tackling basic web programming challenges.
 
 insights:
-  - the-component-lifecycle
-  - component-lifecycle-methods
-  - rendering-multiple-components  
+  - react-the-component-lifecycle
+  - react-component-lifecycle-methods
+  - react-rendering-multiple-components 
   - forms-in-react
   - event-handling-in-react
  

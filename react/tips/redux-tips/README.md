@@ -3,8 +3,8 @@ name: Redux Tips
 description: Tips for working with Redux
 
 insights:
-  - async-flow-in-redux
-  - avoid-array-mutations
-  - avoid-object-mutations
-  - combine-reducers-in-redux
+  - react-async-flow-in-redux
+  - react-avoid-array-mutations
+  - react-avoid-object-mutations
+  - react-combine-reducers-in-redux
  
