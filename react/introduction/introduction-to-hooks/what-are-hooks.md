@@ -101,7 +101,8 @@ function BookStatus() {
     };
   });
 
-  // ....
+  // ...
+}
 ```
 
 Both components have the same functionality, but you can already see the differences. When using hooks, we can group related stateful logic and side effects together, effectively separating said group from unrelated code.
