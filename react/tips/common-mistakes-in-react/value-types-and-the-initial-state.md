@@ -82,11 +82,7 @@ function Person() {
 ```js
 function Person() {
   const [info, setInfo] = useState(null);
-  const [
-    isLoading,
-    setIsLoading
-  ] = useState(info === null);
-
+  const [isLoading, setIsLoading] = useState(info === null);
   useEffect(() => {
     fetch("/information")
       .then(data => {
@@ -96,7 +92,6 @@ function Person() {
         setIsLoading(false);
       });
   }, [info]);
-
   // if the info state has not been updated
   // return the Spinner component
   // indicating that the call has not been completed
