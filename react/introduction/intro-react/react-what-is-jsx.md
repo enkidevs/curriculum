@@ -93,9 +93,11 @@ What will the following **JSX** expression compile to?
 
 ```jsx
 const el = <p>I love JSX</p>;
+```
 
-// compiled to:
+Is compiled to:
 
+```jsx
 const el = React.createElement(
   ???,
   ???, 
