@@ -19,8 +19,8 @@ inAlgoPool: false
 
 links:
 
-  - '[git-scm.com](https://git-scm.com/book/en/v2/Git-Branching-Remote-Branches){website}'
-  - '[git-scm.com](https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes){website}'
+  - '[Remote Branches Official Documentation](https://git-scm.com/book/en/v2/Git-Branching-Remote-Branches){website}'
+  - '[Working With Remotes Official Documentation](https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes){website}'
 
 
 ---
