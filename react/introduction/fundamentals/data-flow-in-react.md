@@ -32,7 +32,7 @@ This technique is often seen as *cleaner* and it's preferred because it gives be
 ---
 ## Practice
 
-In React, your actions modify the state, and the state modifies the UI.
+In React, your ??? modify the state, and the ??? modifies the ???.
 
 * actions
 * state
@@ -54,6 +54,6 @@ What type of data flow does **React** use?
 ## Footnotes
 
 [1:Two-way data binding]
-Although React uses one-way data binding, there is also two-way data binding. By this we mean that the `model` is dynamically bound to the `view` such that one can change the other and vice-versa:
+Although React uses one-way data binding, there is also two-way data binding. By this we mean that the `state` is dynamically bound to the `UI` such that one can change the other and vice-versa:
 - when you update a property in the model, the UI is also updated
 - when you update the UI, the data model is also changed

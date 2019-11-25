@@ -32,8 +32,8 @@ function Person() {
   const [info, setInfo] = useState(null);
 
   // we run an effect
-  // to grab the profile
-  // data from our API
+  // to grab the data
+  // from our API
   useEffect(() => {
     fetch("/information").then(data => {
       setInfo(data);
@@ -82,18 +82,26 @@ function Person() {
 ```js
 function Person() {
   const [info, setInfo] = useState(null);
+  const [
+    isLoading,
+    setIsLoading
+  ] = useState(info === null);
 
   useEffect(() => {
-    fetch("/information").then(data => {
-      setInfo(data);
-    });
-  )};
+    fetch("/information")
+      .then(data => {
+        setInfo(data);
+      })
+      .finally(() => {
+        setIsLoading(false);
+      });
+  }, [info]);
 
   // if the info state has not been updated
   // return the Spinner component
   // indicating that the call has not been completed
-  if (info === null) {
-    return <Spinner />
+  if (isLoading) {
+    return <Spinner />;
   }
   // otherwise, we return our paragraphs
   return (
@@ -116,7 +124,7 @@ function Test() {
 
   useEffect(()=> {
     setState(1);
-  });
+  }, []);
 
   return <p>{state}</p>;
 }

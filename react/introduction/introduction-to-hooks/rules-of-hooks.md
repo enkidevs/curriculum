@@ -38,7 +38,7 @@ function App() {
 
   const [bar, setBar] = useState("Second");
 
-  useEffect(function saveData() {
+  useEffect(() => {
     localStorage.setItem(
       "Second state",
       bar
@@ -72,7 +72,7 @@ How many times can you call hooks in React?
 
 ???
 
-Can you call hooks inside JavaScript functions?
+Can you call hooks inside JavaScript functions that aren't components?
 
 ???
 

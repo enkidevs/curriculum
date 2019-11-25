@@ -23,7 +23,7 @@ links:
 ---
 ## Content
 
-Hooks represent a new way of using state with your function components. They are the great for reusing stateful logic and enable you to use more of React's features without having to use classes.
+Hooks represent a way of using state with your function components. They are the great for reusing stateful logic and enable you to use more of React's features without having to use classes.
 
 There are three main types of hooks:
 - State Hooks
@@ -85,6 +85,7 @@ What the above component does is count the number of available books and handle 
 function BookStatus() {
   const [count, setCount] = useState(0);
   const [isAvailable, setIsAvailable] = useState(null);
+  
   useEffect(() => {
     document.title = `There are ${count} books available.`
   }, [isAvailable]);

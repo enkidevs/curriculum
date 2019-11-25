@@ -62,9 +62,9 @@ When thinking of class components, where would you insert a callback function so
 
 ???
 
-* in the `setState` method
-* after the `setState` method
-* before the `setState` method
+* as a second argument in the `setState` method
+* after calling the `setState` method
+* before calling the `setState` method
 * anywhere, as long as it is in the same scope as the `setState` method
 
 ---

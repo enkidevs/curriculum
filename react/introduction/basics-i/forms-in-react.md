@@ -66,7 +66,7 @@ handle(e) {
 }
 ```
 
-Note: we use `e.target.value` as our state because `e` represents the argument to our event handler. An event is nothing more than an object that has properties, so in this case we select the `target.value` property of our *event*.
+Note: we use `e.target.value` as our state because `e` is a DOM event given to us for an input and it contains the current string value of the input in its `target` object property[1].
 
 With consistency in mind, *form elements* in **React** work a little differently:
 
@@ -85,7 +85,6 @@ With consistency in mind, *form elements* in **React** work a little differently
 
 - for `<select />`, instead of using `selected` attribute on an `<option />` to specify the default selection, you can specify the `<option />`'s `value` in the root `<select />`:
 
-
 ```html
 <!-- standard HTML -->
 <select>
@@ -102,35 +101,35 @@ With consistency in mind, *form elements* in **React** work a little differently
 ---
 ## Practice
 
-Complete the following snippet such that the rendered **controlled component** makes sense and works:
+Complete the following snippet such that the rendered **controlled component** works:
 ```jsx
 class Control extends React.Component {
-	constructor(props) {
-  	super(props);
-    this.state = {in: ''};
+  constructor(props) {
+    super(props);
+    this.state = { in: "" };
   }
 
   handle(e) {
-  	this.???({
-    	in: e.target.value
+    this.???({
+      in: e.target.value
     });
   }
 
   render() {
-  	return (
-     <input type="text"
+    return (
+      <input
+        type="text"
         ???={this.state.in}
-      	???={(???) =>
-          this.???(e)} />
+        ???={??? => this.???(e)}
+      />
     );
   }
-};
+}
 
 ReactDOM.render(
   <Control />,
-  document.getElementById('root')
+  document.getElementById("root")
 );
-
 ```
 
 * `setState`
@@ -157,4 +156,11 @@ A component ???.
 * without `props`
 * with any *HTML form elements*
 
+---
+## Footnotes
 
+[1:DOM Events]
+
+DOM events for input elements have a specific shape and contain specific data (e.g. `Event.target()`). You can find a [comprehensive list](https://developer.mozilla.org/en-US/docs/Web/API/Event) of event properties in the Mozilla documentation.
+
+React mimics this feature with synthetic events. The React documentation holds a [list of supported events](https://reactjs.org/docs/events.html#supported-events).

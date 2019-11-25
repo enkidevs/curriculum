@@ -32,7 +32,7 @@ function App() {
 }
 ```
 
-Now, React will only re-runs the hook function if the current value of `name` is different from its previous value.
+Now, React will only re-run the hook function if the current value of `name` is different from its previous value.
 
 Let's take a look at another example:
 
@@ -54,7 +54,7 @@ Even if we pass `[1, 2, 3]` to `useEffect` twice, the actual values within the a
 
 In the example above we are creating the `features` array within the component `App`. This means that anytime `App` renders, `features` will contain a new array instance with the same contents. When React checks if `features` array is the same as before, it never will be because we're recreating it on each render, which means that the `useEffect` hook will also run on each render.
 
-Note that this is not an issue when using strings, primitive values or numbers as these are compared by value rather than reference.
+Note that this is not an issue when using primitive values, such as strings or numbers, as these are compared by value rather than reference.
 
 There are multiple options of dealing with this issue. The first consists of moving the dependency array outside of the component, although in some cases this might not be possible.
 

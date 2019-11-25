@@ -46,8 +46,7 @@ function Rainy(props) {
   return <p>You should take an umbrella</p>
 }
 ```
-You might want to render either `<Sunny />` or `<Rainy />` in different scenarios.
-Furthermore, you might use a `props.isRaining` deciding which component should be rendered:
+You might want to render either `<Sunny />` or `<Rainy />` in different scenarios. Furthermore, you might use a `props.isRaining` deciding which component should be rendered:
 ```jsx
 function Message(props) {
   const isRaining = props.isRaining;
@@ -58,14 +57,13 @@ function Message(props) {
 }
 ```
 
-In addition, such `element`s can be stored using **variables**. This is particularly useful when conditional `render`ing just parts of the `component`:
+In addition, such `element`s can be stored using **variables**. This is particularly useful when conditional `render`ing parts of the `component`:
 ```jsx
 class Message extends React.component {
   render() {
     const isRaining = this.props.isRaining;
-    let message = null;
 
-    message = isRaining ?
+    const message = isRaining ?
       <Rainy /> : <Sunny/>;
 
     return (

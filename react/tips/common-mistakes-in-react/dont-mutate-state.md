@@ -39,7 +39,6 @@ function User() {
     name = user.name;
     // use the setter method
     // `setName` to set the state
-    setName(name);
   }
 
   return (

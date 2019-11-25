@@ -32,7 +32,7 @@ aspects:
 ---
 ## Content
 
-Adding **event handlers** in **React** is done by providing a listener to the element when initially `render`ed and **not** by calling `addEventListener`:
+Adding **event handlers** in **React** is done by providing a listener to the element when initially `render`ed (and **not** by calling `addEventListener` like with regular DOM):
 ```jsx
 class Click extends React.Component {
   render() {
@@ -60,7 +60,13 @@ Above, `e` is the **synthetic event**[1] passed when clicking the button.
 
 To make the second `console.log` not throw an error, the `this` context of the `myListener` method must be explicitly bound to the `Click` class. 
 
-The reason is that `this` in JavaScript depends on how a function is called, not where it is defined. If we call a function as a method on an object, i.e. `person.say()`, `this` will point to that object. If we call a function as a standalone function, i.e. `say()`, `this` will be `undefined`. Since we're passing `myListener` into a `button` as the `onClick` function, the `button` will internally call it as a regular function, i.e. `onClick()`, making the `this` be `undefined` and causing an error. By binding `this` to always point to our class instance, we can avoid this problem.
+The reason is that `this` in JavaScript depends on how a function is called, not where it is defined. 
+
+If we call a function as a method on an object, i.e. `person.say()`, `this` will point to that object. 
+
+If we call a function as a standalone function, i.e. `say()`, `this` will be `undefined`. 
+
+Since we're passing `myListener` into a `button` as the `onClick` function, the `button` will internally call it as a regular function, i.e. `onClick()`, making the `this` be `undefined` and causing an error. By binding `this` to always point to our class instance, we can avoid this problem.
 ```jsx
 class Click extends React.Component {
   constructor(props) {
@@ -84,7 +90,7 @@ render() {
 }
 ```
 
-Although possible, it is advised against `bind`ing functions inside `render()` as it might cause excessive re-rendering.
+Although possible, it is advised against `bind`ing functions inside `render()` as it might cause excessive re-rendering (because React will re-render a component anytime it's `props` change and binding a function in `render` always creates a new function).
 
 A similar effect can be achieved using either the **property initializer syntax**[2] or an **arrow function**[3] in the callback.
 

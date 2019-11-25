@@ -24,7 +24,7 @@ links:
 ---
 ## Content
 
-Hooks represent a new addition to React, and they allow you to use state or other useful features without using class components.
+They allow you to use state or other useful features without using class components.
 
 Hooks were created to solve a number of issues that were encountered in the first five years since React was created.
 

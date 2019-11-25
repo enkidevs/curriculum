@@ -26,7 +26,10 @@ aspects:
 
 **React** is a *JavaScript* library[1] (not a framework[2]) created and maintained by **Facebook**. It's used for creating user interfaces.
 
-The main benefit of React is in the way it enhances developer productivity. The UI in React is represented as a function of the state. This means that developers only write the declarative[3] rules of how the UI will look for the given data and leave it to React to perform actual visual updates behind the scenes.
+The main benefit of React is in the way it enhances developer productivity. 
+
+The UI in React is represented as a function of the state. This means that developers only write the declarative[3] rules of how the UI will look for the given data and leave it to React to perform actual visual updates behind the scenes.
+
 It allows you to write the rules of how the UI will look for a particular piece of data and performs actual UI updates behind the scenes. 
 
 It does that by generating a `DOM`-like[4] custom object whenever a change is made in the data model. This complex data type is then compared with the real `DOM`, updating the latter only when necessary, thus minimizing execution time[5].

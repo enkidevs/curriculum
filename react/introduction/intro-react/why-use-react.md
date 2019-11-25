@@ -42,9 +42,9 @@ Which of the following statements is false about **React**?
 
 ???
 
-* the virtual DOM slows down performance
-* the syntax is declarative
-* it can create web and mobile applications
+* The virtual DOM renders the whole UI on each change.
+* The syntax is declarative.
+* It can create web and mobile applications.
 
 ---
 ## Revision
