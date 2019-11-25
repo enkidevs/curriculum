@@ -43,7 +43,7 @@ A **JSX** expression is evaluated to a **React** `element`, which is short-hand 
 const el = <h2>Enki!</h2>;
 ```
 
-will be *compiled* to:
+will be *compiled* to[1]:
 
 ```jsx
 const el = React.createElement(
@@ -51,17 +51,6 @@ const el = React.createElement(
   null,
   "Enki!"
 );
-```
-
-After performing some checks to make sure you’re providing valid data, the `React.createElement()` method creates an object like this:
-
-```jsx
-const el = {
-  type: 'h2',
-  props: {
-    children: 'Enki!'
-  }
-};
 ```
 
 **JSX** allows you to embed JS expressions within it by wrapping them with `{ }` curly brackets:
@@ -84,7 +73,7 @@ You can use **JSX** expressions anywhere. For example, you can:
 
 Although writing `React.createElement` statements is perfectly valid, the main reason developers prefer to use JSX is the familiarity of HTML-like syntax.
 
-It’s important to know that, since JSX isn’t a language that is understood in JavaScript environments, React uses Babel[1] to convert it to valid JavaScript, i.e. the mentioned `React.createElement` calls.
+It’s important to know that, since JSX isn’t a language that is understood in JavaScript environments, React uses Babel[2] to convert it to valid JavaScript, i.e. the mentioned `React.createElement` calls.
 
 ---
 ## Practice
@@ -128,6 +117,19 @@ const el = React.createElement(
 ---
 ## Footnotes
 
+[1:Compilation Object]
+After performing some checks to make sure you’re providing valid data, the `React.createElement()` method creates an object like this:
 
-[1:Babel]
+```jsx
+const el = {
+  type: 'h2',
+  props: {
+    children: 'Enki!'
+  }
+};
+```
+
+This shape isn't important when developing with React and you shouldn't worry about it. It just happens to be the most convenient shape for React's internal usage.
+
+[2:Babel]
 Babel is an open-source JavaScript compiler that is used to convert new ECMAScript code into a backwards compatible version of JavaScript that can run on older engines.
