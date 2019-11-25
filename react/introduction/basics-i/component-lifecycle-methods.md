@@ -156,8 +156,8 @@ For the `Example` class to have the greeting properly setup in the `Enki` class,
 ```js
 class Example extends Enki {
   constructor() {
-    super('enki'); 
     // pass name to Enki's constructor
+    super('enki'); 
     this.type = 'explanation';
   }
 }
