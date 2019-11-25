@@ -14,7 +14,7 @@ type: normal
 category: how to
 
 links:
-  - '[state-hooks](https://reactjs.org/docs/hooks-state.html){documentation}'
+  - '[State hooks](https://reactjs.org/docs/hooks-state.html){documentation}'
 
 ---
 

@@ -12,7 +12,7 @@ type: normal
 category: tip
 
 links:
-  - '[use-deep-compare-effect](https://github.com/kentcdodds/use-deep-compare-effect){website}'
+  - '[Use deep compare effect](https://github.com/kentcdodds/use-deep-compare-effect){website}'
 
 ---
 

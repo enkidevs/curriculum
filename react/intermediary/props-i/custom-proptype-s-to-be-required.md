@@ -12,7 +12,7 @@ type: normal
 category: how to
 
 links:
-  - '[ian-thomas.net](http://www.ian-thomas.net/custom-proptype-validation-with-react/){website}'
+  - '[Custom PropType validation with React](http://www.ian-thomas.net/custom-proptype-validation-with-react/){website}'
 
 parent: custom-validations-for-props
 

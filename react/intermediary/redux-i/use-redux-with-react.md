@@ -16,7 +16,7 @@ category: must-know
 
 links:
 
-  - '[redux.js.org](https://redux.js.org/basics/usage-with-react){documentation}'
+  - '[Redux usage with React](https://redux.js.org/basics/usage-with-react){documentation}'
 
 notes: This can be also placed in the react subtopic
 

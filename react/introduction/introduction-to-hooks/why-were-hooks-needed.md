@@ -14,8 +14,8 @@ type: normal
 category: must-know
 
 links:
-  - '[render-props](https://reactjs.org/docs/render-props.html){documentation}'
-  - '[higher-order-components](https://reactjs.org/docs/higher-order-components.html){documentation}'
+  - '[Render props](https://reactjs.org/docs/render-props.html){documentation}'
+  - '[Higher order components](https://reactjs.org/docs/higher-order-components.html){documentation}'
 
 ---
 

@@ -14,7 +14,7 @@ type: normal
 category: how to
 
 links:
-  - '[effect-hooks](https://reactjs.org/docs/hooks-effect.html){documentation}'
+  - '[Effect hooks](https://reactjs.org/docs/hooks-effect.html){documentation}'
 
 
 ---

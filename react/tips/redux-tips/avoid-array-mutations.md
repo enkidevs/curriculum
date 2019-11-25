@@ -16,8 +16,8 @@ category: best practice
 
 links:
 
-  - '[egghead.io](https://egghead.io/lessons/javascript-redux-avoiding-array-mutations-with-concat-slice-and-spread){website}'
-  - '[immutability-helper](https://github.com/kolodny/immutability-helper){website}'
+  - '[Avoiding array mutations](https://egghead.io/lessons/javascript-redux-avoiding-array-mutations-with-concat-slice-and-spread){website}'
+  - '[Immutability helper](https://github.com/kolodny/immutability-helper){website}'
 
 aspects:
   - deep

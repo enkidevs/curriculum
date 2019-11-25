@@ -16,8 +16,7 @@ category: how to
 
 links:
 
-  - '[facebook.github.io](https://facebook.github.io/react/docs/top-level-api.html#cloneelement){website}'
-  - '[facebook.github.io](https://facebook.github.io/react/blog/2015/03/03/react-v0.13-rc2.html){website}'
+  - '[cloneElement() documentation](https://facebook.github.io/react/docs/top-level-api.html#cloneelement){website}'
 
 parent: custom-proptype-s-to-be-required
 

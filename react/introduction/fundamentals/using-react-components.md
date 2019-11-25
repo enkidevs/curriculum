@@ -18,7 +18,7 @@ category: must-know
 
 links:
 
-  - '[facebook.github.io](https://facebook.github.io/react/docs/components-and-props.html){website}'
+  - '[Components and props](https://facebook.github.io/react/docs/components-and-props.html){website}'
 
 parent: the-react-element
 
@@ -32,8 +32,9 @@ aspects:
 ---
 ## Content
 
-Let's demonstrate how you can use React components
-You can use other components when `render`ing, and a React element can represent your component as well:
+Because JSX is flexible, you can combine multiple components to build larger reusable UI elements. For example, you can have a `<Table />` component which is made up of multiple `<Row />` components.
+
+Here are all the possible ways a component can be used:
 
 ```jsx
 // we create a component 

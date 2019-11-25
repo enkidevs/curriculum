@@ -18,7 +18,7 @@ category: must-know
 
 links:
 
-  - '[facebook.github.io](https://facebook.github.io/react/docs/components-and-props.html){website}'
+  - '[Components and props](https://facebook.github.io/react/docs/components-and-props.html){website}'
 
 parent: the-react-element
 

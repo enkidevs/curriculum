@@ -9,7 +9,7 @@ type: normal
 category: must-know
 
 links:
-  - '[www.nicoespeon.com](http://www.nicoespeon.com/en/2015/01/pure-functions-javascript/){website}'
+  - '[Pure functions in JavaScript](http://www.nicoespeon.com/en/2015/01/pure-functions-javascript/){website}'
 
 aspects:
   - introduction

@@ -18,8 +18,8 @@ category: feature
 
 links:
 
-  - '[learn.co](https://learn.co/lessons/react-this-props-children){website}'
-  - '[facebook.github.io](https://facebook.github.io/react/docs/react-api.html#reactchildren){website}'
+  - '[React This Props Children](https://learn.co/lessons/react-this-props-children){website}'
+  - '[React Children](https://facebook.github.io/react/docs/react-api.html#reactchildren){website}'
 
 parent: custom-proptype-s-to-be-required
 

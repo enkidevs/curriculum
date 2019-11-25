@@ -18,7 +18,7 @@ category: must-know
 
 links:
 
-  - '[facebook.github.io](https://facebook.github.io/react/docs/handling-events.html){website}'
+  - '[Handling events](https://facebook.github.io/react/docs/handling-events.html){website}'
 
 parent: forms-in-react
 

@@ -18,8 +18,8 @@ category: must-know
 
 links:
 
-  - '[facebook.github.io](https://facebook.github.io/react/docs/components-and-props.html){website}'
-  - '[how-are-function-components-different-from-classes](https://overreacted.io/how-are-function-components-different-from-classes/){website}'
+  - '[Components and props](https://facebook.github.io/react/docs/components-and-props.html){website}'
+  - '[How are function components different from classes](https://overreacted.io/how-are-function-components-different-from-classes/){website}'
 
 parent: what-is-state
 

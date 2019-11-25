@@ -18,8 +18,8 @@ category: must-know
 
 links:
 
-  - '[facebook.github.io](https://facebook.github.io/react/docs/components-and-props.html){website}'
-  - '[tutorialspoint.com](https://www.tutorialspoint.com/reactjs/reactjs_props_overview.htm){website}'
+  - '[Components and props](https://facebook.github.io/react/docs/components-and-props.html){website}'
+  - '[Props overview](https://www.tutorialspoint.com/reactjs/reactjs_props_overview.htm){website}'
 
 parent: the-react-component
 
@@ -88,7 +88,7 @@ If we `render` it now, we will see `"Enki greets User"`;
 ---
 ## Practice
 
-Complete the missing gaps so that the `render`ed output is "Enki":
+Complete the missing gaps so that the `render`ed output is `"Enki"`:
 ```jsx
 class Enki extends React.Component {
   render() {
@@ -123,7 +123,7 @@ ReactDOM.render(
 ---
 ## Revision
 
-Complete the missing gaps so that the `render`ed element under `root` reads "Enki":
+Complete the missing gaps so that the `render`ed element under `root` reads `"Enki"`:
 
 ```jsx
 class Enki extends React.Component {

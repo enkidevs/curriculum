@@ -16,7 +16,7 @@ category: must-know
 
 links:
 
-  - '[egghead.io](https://egghead.io/lessons/javascript-redux-avoiding-object-mutations-with-object-assign-and-spread){website}'
+  - '[Avoiding object mutations](https://egghead.io/lessons/javascript-redux-avoiding-object-mutations-with-object-assign-and-spread){website}'
 
 aspects:
   - deep

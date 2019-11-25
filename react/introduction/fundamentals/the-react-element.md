@@ -18,7 +18,7 @@ category: must-know
 
 links:
 
-  - '[facebook.github.io](https://facebook.github.io/react/docs/rendering-elements.html){website}'
+  - '[Rendering elements](https://facebook.github.io/react/docs/rendering-elements.html){website}'
 
 parent: what-i-need-to-use-react
 

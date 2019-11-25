@@ -9,8 +9,8 @@ type: normal
 category: must-know
 
 links:
-  - '[medium.com](https://medium.com/@zackargyle/stop-using-react-for-everything-c8297ac1a644#.bp2zaar6p){website}'
-  - '[linkedin.com](https://www.linkedin.com/pulse/what-reactjs-why-i-recommend-other-javascript-sandip-das){website}'
+  - '[Stop using React for everything](https://medium.com/@zackargyle/stop-using-react-for-everything-c8297ac1a644#.bp2zaar6p){website}'
+  - '[What is React.js](https://www.linkedin.com/pulse/what-reactjs-why-i-recommend-other-javascript-sandip-das){website}'
 
 parent: one-way-data-binding
 

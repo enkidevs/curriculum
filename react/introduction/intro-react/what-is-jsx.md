@@ -12,8 +12,8 @@ category: must-know
 
 links:
 
-  - '[facebook.github.io](https://facebook.github.io/react/docs/introducing-jsx.html){website}'
-  - '[medium.com](https://medium.com/javascript-scene/jsx-looks-like-an-abomination-1c1ec351a918#.amqkpfybp/){website}'
+  - '[Introducing JSX](https://facebook.github.io/react/docs/introducing-jsx.html){website}'
+  - '[JSX looks like an abomination](https://medium.com/javascript-scene/jsx-looks-like-an-abomination-1c1ec351a918#.amqkpfybp/){website}'
 
 aspects:
   - introduction

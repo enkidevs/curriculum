@@ -18,7 +18,7 @@ category: must-know
 
 links:
 
-  - '[facebook.github.io](https://facebook.github.io/react/docs/lists-and-keys.html){website}'
+  - '[Lists and keys](https://facebook.github.io/react/docs/lists-and-keys.html){website}'
 
 parent: component-lifecycle-methods
 

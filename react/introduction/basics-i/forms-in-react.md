@@ -18,7 +18,7 @@ category: must-know
 
 links:
 
-  - '[facebook.github.io](https://facebook.github.io/react/docs/forms.html){website}'
+  - '[Forms](https://facebook.github.io/react/docs/forms.html){website}'
 
 parent: rendering-multiple-components
 

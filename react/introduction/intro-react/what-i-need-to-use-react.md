@@ -9,7 +9,7 @@ type: normal
 category: must-know
 
 links:
-  - '[facebook.github.io](https://facebook.github.io/react/docs/getting-started.html){website}'
+  - '[React Getting Started](https://facebook.github.io/react/docs/getting-started.html){website}'
 
 parent: why-use-react
 

@@ -14,7 +14,7 @@ type: normal
 category: how to
 
 links:
-  - '[rules-of-hooks](https://reactjs.org/docs/hooks-rules.html){documentation}'
+  - '[Rules of hooks](https://reactjs.org/docs/hooks-rules.html){documentation}'
 
 ---
 

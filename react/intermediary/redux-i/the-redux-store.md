@@ -13,11 +13,6 @@ type: normal
 
 category: must-know
 
-
-links:
-
-  - '[rackt.org](http://rackt.org/redux/docs/api/Store.html){website}'
-
 aspects:
   - introduction
 

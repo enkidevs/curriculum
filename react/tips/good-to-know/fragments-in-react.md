@@ -15,7 +15,7 @@ category: feature
 
 links:
 
-  - '[facebook.github.io](https://facebook.github.io/react/docs/fragments.html){website}'
+  - '[Fragments](https://facebook.github.io/react/docs/fragments.html){website}'
 
 parent: custom-proptype-s-to-be-required
 

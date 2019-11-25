@@ -18,8 +18,8 @@ category: must-know
 
 links:
 
-  - '[facebook.github.io](https://facebook.github.io/react/docs/state-and-lifecycle.html){website}'
-  - '[medium.com](https://medium.com/react-tutorials/react-state-14a6d4f736f5#.8vf5a6ngz){website}'
+  - '[State and the lifecycle](https://facebook.github.io/react/docs/state-and-lifecycle.html){website}'
+  - '[React state](https://medium.com/react-tutorials/react-state-14a6d4f736f5#.8vf5a6ngz){website}'
 
 parent: what-are-props
 

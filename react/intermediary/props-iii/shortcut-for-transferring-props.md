@@ -11,7 +11,7 @@ type: normal
 category: how to
 
 links:
-  - '[facebook.github.io](https://facebook.github.io/react/docs/jsx-in-depth.html#spread-attributes){website}'
+  - '[Spread attributes](https://facebook.github.io/react/docs/jsx-in-depth.html#spread-attributes){website}'
 
 parent: custom-proptype-s-to-be-required
 
@@ -54,7 +54,7 @@ ReactDOM.render(
 );
 ```
 
-This will render the text "Click here!" as a hyper-link which, when clicked, will open the "www.enki.com" webpage.
+This will render the text `"Click here!"` as a hyper-link which, when clicked, will open the `"www.enki.com"` webpage.
 
 Note how in the component definition we made use of `...this.props`.
 

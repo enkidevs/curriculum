@@ -10,9 +10,9 @@ type: normal
 category: how to
 
 links:
-  - '[redux.js.org](http://redux.js.org/docs/advanced/AsyncActions.html){website}'
-  - '[stackoverflow.com](http://stackoverflow.com/questions/34570758/why-do-we-need-middleware-for-async-flow-in-redux){website}'
-  - '[redux-thunk](https://github.com/reduxjs/redux-thunk){website}'
+  - '[Async actions](http://redux.js.org/docs/advanced/AsyncActions.html){website}'
+  - '[Why do we need middleware for async flow in Redux](http://stackoverflow.com/questions/34570758/why-do-we-need-middleware-for-async-flow-in-redux){website}'
+  - '[Redux thunk](https://github.com/reduxjs/redux-thunk){website}'
 
 notes: >-
   This insight should be given right before or after the specific Middleware

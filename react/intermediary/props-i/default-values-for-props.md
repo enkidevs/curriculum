@@ -18,7 +18,7 @@ category: how to
 
 links:
 
-  - '[facebook.github.io](https://facebook.github.io/react/docs/typechecking-with-proptypes.html#default-prop-values){website}'
+  - '[Default prop values](https://facebook.github.io/react/docs/typechecking-with-proptypes.html#default-prop-values){website}'
 
 parent: validate-for-required-props
 
@@ -46,7 +46,7 @@ MyComponent.defaultProps = {
 };
 ```
 
-Here, the default value for the `text` prop is "Bonjour le monde!".
+Here, the default value for the `text` prop is `"Bonjour le monde!"`.
 
 As a consequence, `this.props.text` will have a value even if it's not specified by the parent component.
 

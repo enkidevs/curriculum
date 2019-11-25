@@ -14,7 +14,7 @@ type: normal
 category: must-know
 
 links:
-  - '[hooks-intro](https://reactjs.org/docs/hooks-intro.html){documentation}'
+  - '[Introduction to Hooks](https://reactjs.org/docs/hooks-intro.html){documentation}'
 
 ---
 
@@ -35,12 +35,12 @@ Before hooks, many React component would eventually grow to contain many unrelat
 Now, let's take a look at the following code:
 
 ```jsx
-class FriendStatus extends React.Component {
+class BookStatus extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
       count: 0,
-      isOnline: null
+      isAvailable: null
     };
     this.handleStatus 
       = this.handleStatus.bind(
@@ -49,55 +49,55 @@ class FriendStatus extends React.Component {
   }
 
   componentDidMount() {
-    API.subscribeToFriendStatus(
-      this.props.friend.id,
+    getStatus(
+      this.props.book.id,
       this.handleStatusChange
     );
     this.setState({ count: count + 1 });
     document.title 
-      = `You have ${this.state.count} friends online.`;
+      = `There are ${this.state.count} books available.`;
   }
 
   componentDidUpdate() {
     document.title 
-      = `You have ${this.state.count} friends online.`;
+      = `There are ${this.state.count} books available.`;
   }
 
   componentWillUnmount() {
-    API.unsubscribeFromFriendStatus(
-      this.props.friend.id,
+    getStatus(
+      this.props.book.id,
       this.handleStatusChange
     );
   }
 
   handleStatusChange(status) {
     this.setState({
-      isOnline: status.isOnline
+      isAvailable: status.isAvailable
     });
   }
   // ...
 }
 ```
 
-What the above component does is count the number of online friends and handle their status. Notice how the `componentDidMount()` and `componentWillUnmount()` methods contain unrelated logic. Now, if we would've used function components, the code would've looked something like this:
+What the above component does is count the number of available books and handle their status. Notice how the `componentDidMount()` and `componentWillUnmount()` methods contain unrelated logic. Now, if we would've used function components, the code would've looked something like this:
 
 ```jsx
-function FriendStatus() {
+function BookStatus() {
   const [count, setCount] = useState(0);
+  const [isAvailable, setIsAvailable] = useState(null);
   useEffect(() => {
-    document.title = `You have ${count} friends online.`
-  })
+    document.title = `There are ${count} books available.`
+  }, [isAvailable]);
 
-  const [isOnline, setIsOnline] = useState(null);
   useEffect(() => {
     function handleStatusChange(status) {
-      setIsOnline(status.isOnline);
+      setIsAvailable(status.isAvailable);
     }
 
-    API.subscribeToFriendStatus(props.friend.id, handleStatusChange);
+    getStatus(props.book.id, handleStatusChange);
     setCount(() => count + 1);
     return () => {
-      API.unsubscribeFromFriendStatus(props,friend.id, handleStatusChange);
+      unsubscribe(props.book.id, handleStatusChange);
     };
   });
 

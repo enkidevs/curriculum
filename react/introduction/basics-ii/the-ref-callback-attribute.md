@@ -18,7 +18,7 @@ category: must-know
 
 links:
 
-  - '[facebook.github.io](https://facebook.github.io/react/docs/refs-and-the-dom.html){website}'
+  - '[Refs and the DOM](https://facebook.github.io/react/docs/refs-and-the-dom.html){website}'
 
 parent: conditional-rendering-part-2
 

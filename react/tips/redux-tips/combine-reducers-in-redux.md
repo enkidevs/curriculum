@@ -14,7 +14,7 @@ category: how to
 
 links:
 
-  - '[rackt.org](http://rackt.org/redux/docs/api/combineReducers.html){website}'
+  - '[Combine Reducers](http://rackt.org/redux/docs/api/combineReducers.html){website}'
 
 aspects:
   - deep

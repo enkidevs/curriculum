@@ -16,7 +16,7 @@ category: must-know
 
 links:
 
-  - '[facebook.github.io](https://facebook.github.io/react/docs/dom-elements.html#dangerouslysetinnerhtml){website}'
+  - '[Official Documentation](https://facebook.github.io/react/docs/dom-elements.html#dangerouslysetinnerhtml){website}'
 
 parent: custom-proptype-s-to-be-required
 

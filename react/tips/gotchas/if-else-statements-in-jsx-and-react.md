@@ -10,7 +10,7 @@ type: normal
 category: how to
 
 links:
-  - '[facebook.github.io](https://facebook.github.io/react/docs/conditional-rendering.html#inline-if-else-with-conditional-operator){website}'
+  - '[Inline if else conditional operator](https://facebook.github.io/react/docs/conditional-rendering.html#inline-if-else-with-conditional-operator){website}'
 
 parent: custom-proptype-s-to-be-required
 

@@ -12,7 +12,7 @@ category: must-know
 
 links:
 
-  - '[fullstackreact.com](https://www.fullstackreact.com/30-days-of-react/day-1/){website}'
+  - '[30 days of React](https://www.fullstackreact.com/30-days-of-react/day-1/){website}'
 
 aspects:
   - introduction

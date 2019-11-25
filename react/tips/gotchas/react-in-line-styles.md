@@ -10,7 +10,7 @@ type: normal
 category: must-know
 
 links:
-  - '[facebook.github.io](https://facebook.github.io/react/docs/dom-elements.html#style){website}'
+  - '[Style](https://facebook.github.io/react/docs/dom-elements.html#style){website}'
 
 parent: custom-proptype-s-to-be-required
 

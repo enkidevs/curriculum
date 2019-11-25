@@ -18,7 +18,7 @@ category: how to
 
 links:
 
-  - '[facebook.github.io](https://facebook.github.io/react/docs/conditional-rendering.html){website}'
+  - '[Conditional rendering](https://facebook.github.io/react/docs/conditional-rendering.html){website}'
 
 parent: event-handling-in-react
 
