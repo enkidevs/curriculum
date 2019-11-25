@@ -39,7 +39,7 @@ The `queue` module provides thread safe `queue` data structures. As a consequenc
 
 First we need the modules imported:
 ```python
-from Queue import Queue
+from queue import Queue
 from threading import Thread
 ```
 Define the worker function:
