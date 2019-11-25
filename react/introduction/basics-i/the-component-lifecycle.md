@@ -37,7 +37,7 @@ aspects:
 
 These methods correspond to exact points in the **component's lifecycle**.
 
-One example of a **lifecycle hook** is the `constructor(props)`, which is commonly used to set the initial `state` of your component[2].
+One example of a **lifecycle hook** is the `constructor(props)`, which is commonly used to set the initial `state` of your component[1].
 
 Suppose you want to log a message after a component was mounted[2] (after being `render`ed). For this, you can use the `componentDidMount()` method:
 ```jsx
@@ -99,19 +99,39 @@ Is `React.Component`'s `constructor(props)` method considered a **lifecycle hook
 ## Footnotes
 
 [1:constructor()]
-Calling `constructor()` is a common occurrence when working with JavaScript classes. By calling `constructor()` we any extended instance (such as a component in React) to access all the parent's properties.
+A `constructor()` in a JavaScript class is used to setup the initial data for any instances created from that class. Every time we create an instance from a class, i.e. by calling the class with `new` like `new Animal()`, the `constructor()` of that class will be called.
 
-If we want to initialize all the properties that the parent initializes, then we would call `super()` inside `constructor()`:
+For example, here's how we create an instance of a flying `Bird`:
+
 ```js
-constructor() {
-  super();
+class Bird {
+  constructor() {
+    this.flies = true;
+  }
 }
+
+const bird1 = new Bird();
+bird1.flies // true
 ```
 
-Basically, we use `constructor()` to initialize "stuff", and if we want to initialize all the "stuff" that the parent does, we would then have to call `super()` inside our `constructor()`.
+When working with classes that inherit from other classes, `i.e. class Child extends from Parent`, you usually want to run the `constructor()` of the `Parent` class as well, to make sure the data in the child is properly initialized and that the child has all the capabilities that the parent has.
+
+For example, this is how we can create a flying `Dove`:
+
+```js
+class Dove extends Bird {
+  constructor() {
+    super(); // <-- call the constructor of Bird to setup flying
+  }
+}
+
+const dove1 = new Dove();
+dove1.flies // true
+```
+
+This is the same reason why in React components we call `super(props)`: because we want any component we create to have all the capabilities a React component has.
 
 [2:mounting]
 
 **Mounting** refers to the initial insertion of a **React** `component` into the **DOM**.
 Similarly, **unmounting** happens when the `component` is removed from the **DOM**.
-

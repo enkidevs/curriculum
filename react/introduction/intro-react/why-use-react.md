@@ -43,7 +43,7 @@ Which of the following statements is false about **React**?
 ???
 
 * the virtual DOM slows down performance
-* the syntax is simple
+* the syntax is declarative
 * it can create web and mobile applications
 
 ---
