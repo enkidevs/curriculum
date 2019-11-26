@@ -16,7 +16,7 @@ aspects:
 
 links:
 
-  - '[Interactive Staging Official Documentation](http://git-scm.com/book/en/v2/Git-Tools-Interactive-Staging){website}'
+  - '[Interactive Staging](http://git-scm.com/book/en/v2/Git-Tools-Interactive-Staging){documentation}'
 
 
 ---
