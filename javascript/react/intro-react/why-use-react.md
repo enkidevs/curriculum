@@ -31,7 +31,7 @@ In addition to the previously stated reasons developers are eager to adopt this 
 - great *performance* as a result of the **Virtual DOM** diff algorithm
 - **React**'s syntax is simple. Unlike other popular `JS` frameworks with specific syntax, **React** makes use of pure `JS`
 - easier debugging with **out-of-the-box tools** such as `React Chrome Extension`
-- **React** is good for *Search Engine Optimisation* when employing server-side rendering
+- **React** is good for *Search Engine Optimization* when employing server-side rendering
 - knowing **React** allows you to easily switch to **React Native** to build applications
 
 **React Native** is a different `JS` open source library released by *Facebook* that follows the same design patterns as **React**.
