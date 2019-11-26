@@ -24,7 +24,7 @@ parent: stashing-changes
 links:
 
   - >-
-    [Stashing And Cleaning Official Documentation](http://git-scm.com/book/en/v2/Git-Tools-Stashing-and-Cleaning){website}
+    [Stashing And Cleaning](http://git-scm.com/book/en/v2/Git-Tools-Stashing-and-Cleaning){documentation}
 
 ---
 
