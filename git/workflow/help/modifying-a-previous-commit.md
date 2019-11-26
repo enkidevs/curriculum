@@ -17,7 +17,7 @@ aspects:
 
 links:
 
-  - '[www.atlassian.com](https://www.atlassian.com/git/tutorials/rewriting-history){website}'
+  - '[Rewriting Git History](https://www.atlassian.com/git/tutorials/rewriting-history){website}'
 
 
 ---

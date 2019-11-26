@@ -22,8 +22,8 @@ aspects:
 
 links:
 
-  - '[git-scm.com](http://git-scm.com/book/en/v2/Git-Tools-Signing-Your-Work){website}'
-  - '[mikegerwitz.com](https://mikegerwitz.com/papers/git-horror-story){website}'
+  - '[Signing Your Work Official Documentation](http://git-scm.com/book/en/v2/Git-Tools-Signing-Your-Work){website}'
+  - '[Git Horror Story](https://mikegerwitz.com/papers/git-horror-story){website}'
 
 
 ---

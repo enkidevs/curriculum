@@ -17,8 +17,6 @@ aspects:
 
 links:
 
-  - '[ochronus.com](https://ochronus.com/git-tips-from-the-trenches/){website}'
-
 parent: check-the-reflog
 
 ---
