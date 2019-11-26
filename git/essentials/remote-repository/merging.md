@@ -20,7 +20,7 @@ inAlgoPool: false
 
 links:
 
-  - '[git-scm.com](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging){website}'
+  - '[Branching And Merging Official Documentation](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging){website}'
 
 
 ---
