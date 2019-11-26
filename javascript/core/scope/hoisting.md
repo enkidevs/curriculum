@@ -75,7 +75,7 @@ In this case, `a` is redeclared and reset to `undefined` before it is logged.
 
 What will the following functions print? ???
 
-```
+```javascript
 var e = 1;
 function run() {
   console.log(e);
