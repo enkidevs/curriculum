@@ -21,7 +21,7 @@ aspects:
 
 links:
 
-  - '[ponyfoo.com](https://ponyfoo.com/articles/git-github-hacks){website}'
+  - '[Git and Github Hacks](https://ponyfoo.com/articles/git-github-hacks){website}'
 
 
 ---

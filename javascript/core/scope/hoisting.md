@@ -40,12 +40,12 @@ aspects:
 
 Think fast, what does this snippet print?
 ```javascript
-    var a = 1;
-    function go(){
-        console.log(a);
-        var a = 2;
-    }
-    go();
+var a = 1;
+function go() {
+  console.log(a);
+  var a = 2;
+}
+go();
 ```
 
 If you thought the answer was `1`, you are incorrect!
@@ -58,15 +58,16 @@ This default behaviour moves all variable declarations to the top of the current
 
 This is how the snippet is actually executed, in order:
 
-    var a;
-    a = 1;
-    function go(){
-        var a;
-        console.log(a);
-        a = 2;
-    }
-    go();
-
+```javascript
+var a;
+a = 1;
+function go() {
+  var a;
+  console.log(a);
+  a = 2;
+}
+go();
+```
 In this case, `a` is redeclared and reset to `undefined` before it is logged.
 
 ---
@@ -74,18 +75,18 @@ In this case, `a` is redeclared and reset to `undefined` before it is logged.
 
 What will the following functions print? ???
 
-```
+```javascript
 var e = 1;
-function run(){
-    console.log(e);
-    var e = 4;
+function run() {
+  console.log(e);
+  var e = 4;
 }
 run();
 
 var c = 1;
 function calc() {
-    console.log(c*c);
-    c = 4;
+  console.log(c * c);
+  c = 4;
 }
 calc();
 ```
@@ -103,9 +104,9 @@ calc();
 What will this print
 ```javascript
 var a = 1;
-function go(){
-    console.log(a);
-    var a = 2;
+function go() {
+  console.log(a);
+  var a = 2;
 }
 go();
 // ???

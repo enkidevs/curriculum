@@ -52,11 +52,11 @@ var temperature=17.2;
 You can perform simple maths calculations using the following operators:
 
 ```javascript
-1+2; //add
-9/3 //divide
-1*5 //multiply
-9-5 //subtract
-10%4 //modulus (division remainder)
+1 + 2; // add
+9 / 3; // divide
+1 * 5; // multiply
+9 - 5; // subtract
+10 % 4; // modulus (division remainder)
 ```
 
 More math functionality is available via the `Math` object e.g.
