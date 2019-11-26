@@ -20,7 +20,7 @@ aspects:
 
 links:
 
-  - '[git-scm.com](http://git-scm.com/book/en/v2/Git-Tools-Rerere){website}'
+  - '[Git Tool Rerere Official Documentation](http://git-scm.com/book/en/v2/Git-Tools-Rerere){website}'
 
 
 ---

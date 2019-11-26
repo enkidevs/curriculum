@@ -17,7 +17,7 @@ aspects:
 
 links:
 
-  - '[www.atlassian.com](https://www.atlassian.com/git/tutorials/undoing-changes/git-revert){website}'
+  - '[Git Revert](https://www.atlassian.com/git/tutorials/undoing-changes/git-revert){website}'
 
 
 ---
