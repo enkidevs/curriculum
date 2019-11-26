@@ -73,7 +73,7 @@ Output:
 
 ### $seconds
 
-The `$seconds` date operator is used to extract the exact second the document was made on. The output goes from 0-59, however it is possible for the output to be 60 in case of a leap second.
+The `$seconds` date operator is used to extract the exact second the document was made on. Although the output goes from 0 to 59, it is possible for the output to be 60 in case of a leap second.
 
 Example:
 ```js
@@ -97,7 +97,7 @@ Output:
 
 ### $milliseconds
 
-The `$milliseconds` date operator is used to extract the exact millisecond the document was made on. The output goes from 0-999.
+The `$milliseconds` date operator is used to extract the exact millisecond the document was made on. The output goes from 0 to 999.
 
 Example:
 ```js

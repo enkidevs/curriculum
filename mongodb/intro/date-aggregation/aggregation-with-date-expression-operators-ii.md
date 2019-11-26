@@ -111,7 +111,7 @@ Output:
 ```
 ### $dayOfMonth
 
-The `$dayOfMonth` operator is used to find the day of the month the document was created on. The output goes from 1-31.
+The `$dayOfMonth` operator is used to find the day of the month the document was created on. The output goes from `1`  to `31`.
 
 ```js
 db.pokedex.aggregate([

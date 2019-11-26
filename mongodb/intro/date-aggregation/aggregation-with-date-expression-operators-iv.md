@@ -20,11 +20,11 @@ category: how to
 ---
 ## Content
 
-For the document used in aggregation, make sure to check the Previous Document[1] footnote.
+In this insight, we will use the same document[1] that you have previously seen.
 
 ### $dayOfYear
 
-The `$dayOfYear` date operator is used to extract the exact day of the year the document was created on. The output goes from 1-366.
+The `$dayOfYear` date operator is used to extract the exact day of the year the document was created on. The output goes from 1 to 366.
 
 Example:
 ```js
@@ -48,7 +48,7 @@ Output:
 
 ### $week
 
-The `$week` date operator is used to extract the exact week of the year the document was made on. The output goes from 1-53.
+The `$week` date operator is used to extract the exact week of the year the document was made on. The output goes from 1 to 53.
 
 **Note:** The weeks start counting on Sunday(`1`) each year. If the year stars on any other day, those days belong in week `0` and week `1` starts from the first Sunday of that year.
 
@@ -73,7 +73,7 @@ Output:
 
 ### $dayOfWeek
 
-The `$dayOfWeek` date operator is used to extract the exact day of the week the document was made on. The output goes from 1-7, 1 being Sunday and 7 being Saturday.
+The `$dayOfWeek` date operator is used to extract the exact day of the week the document was made on. The output goes from 1 to 7, with 1 being Sunday and 7 being Saturday.
 
 Example:
 ```js
