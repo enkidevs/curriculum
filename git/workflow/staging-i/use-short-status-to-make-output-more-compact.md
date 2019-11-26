@@ -20,7 +20,7 @@ aspects:
 
 links:
 
-  - '[git-scm.com](http://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository){website}'
+  - '[Short Status](http://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository){documentation}'
 
 
 ---

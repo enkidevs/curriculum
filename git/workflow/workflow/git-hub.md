@@ -13,7 +13,8 @@ aspects:
   - obscura
 
 links:
-  - '[www.github.com](www.github.com){website}'
+
+  - '[Github Official Website](https://github.com/){website}'
 
 ---
 

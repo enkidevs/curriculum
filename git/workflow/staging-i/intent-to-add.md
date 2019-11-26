@@ -17,7 +17,7 @@ aspects:
 
 links:
 
-  - '[github.com](https://github.com/jbranchaud/til/blob/master/git/intent-to-add.md){website}'
+  - '[Intent To Add](https://github.com/jbranchaud/til/blob/master/git/intent-to-add.md){website}'
 
 
 ---
