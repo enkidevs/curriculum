@@ -90,7 +90,7 @@ Create a table called `students` with the following columns:
 ??? ??? students(
   id ???,
   full_name ???,
-  year_of_study ???
+  year_of_study INTEGER
 );
 ```
 
@@ -98,7 +98,6 @@ Create a table called `students` with the following columns:
 * TABLE
 * INTEGER
 * VARCHAR
-* INTEGER
 * UPDATE
 * DATABASE
 * MAKE
