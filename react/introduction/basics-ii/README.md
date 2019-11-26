@@ -3,9 +3,9 @@ name: How to React
 description: Get better at React with idiomatic ways of solving problems.
 
 insights:
-  - conditional-rendering-part-1
-  - conditional-rendering-part-2
-  - the-ref-callback-attribute
-  - jsx-spread-attributes
-  - destructuring-arguments
+  - react-conditional-rendering-part-1
+  - react-conditional-rendering-part-2
+  - react-the-ref-callback-attribute
+  - react-jsx-spread-attributes
+  - react-destructuring-arguments
  

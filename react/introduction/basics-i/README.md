@@ -6,6 +6,6 @@ insights:
   - react-the-component-lifecycle
   - react-component-lifecycle-methods
   - react-rendering-multiple-components 
-  - forms-in-react
-  - event-handling-in-react
+  - react-forms-in-react
+  - react-event-handling-in-react
  

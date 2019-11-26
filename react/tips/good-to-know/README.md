@@ -4,8 +4,8 @@ description: Good to know particularities and addons of React.
 
 insights:
   - react-immutability-helpers-in-react
-  - load-initial-data-via-ajax
+  - react-load-initial-data-via-ajax
   - react-reactdom-render-ref
   - react-null-value-for-controlled-components-in-react
-  - fragments-in-react
+  - react-fragments-in-react
  

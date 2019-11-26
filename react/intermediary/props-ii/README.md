@@ -3,10 +3,10 @@ name: Advanced Props
 description: Explore how props can be used as mechanism for more advanced techniques.
 
 insights:
-  - children-in-react
+  - react-children-in-react
   - react-children-methods
   - react-dealing-with-this-props-children
-  - type-of-the-children-props
-  - specify-a-single-child
-  - props-in-constructor-state-is-an-anti-pattern
- 
+  - react-type-of-the-children-props
+  - react-specify-a-single-child
+  - react-props-in-constructor-state-is-an-anti-pattern
+

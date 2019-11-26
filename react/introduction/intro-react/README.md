@@ -5,6 +5,6 @@ description: Get a boarder pictures of what is React and why it became such as p
 insights:
   - react-what-is-react
   - react-what-is-jsx
-  - intro-components
+  - react-intro-components
   - react-why-use-react
-  - what-i-need-to-use-react
+  - react-what-i-need-to-use-react
