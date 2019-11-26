@@ -21,7 +21,7 @@ aspects:
 
 links:
 
-  - '[Git Reset Official Documentation](https://git-scm.com/docs/git-reset){website}'
+  - '[Git Reset](https://git-scm.com/docs/git-reset){documentation}'
 
 
 ---
