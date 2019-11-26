@@ -20,7 +20,7 @@ aspects:
 
 links:
 
-  - '[github.com](https://github.com/jbranchaud/til/blob/master/git/clean-up-old-remote-tracking-references.md){website}'
+  - '[Clean Up Old Remote Tracking References](https://github.com/jbranchaud/til/blob/master/git/clean-up-old-remote-tracking-references.md){website}'
 
 
 ---

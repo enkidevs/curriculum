@@ -17,7 +17,7 @@ aspects:
 
 links:
 
-  - '[git-scm.com](http://git-scm.com/book/en/v2/Git-Branching-Remote-Branches){website}'
+  - '[Tracking Branches](http://git-scm.com/book/en/v2/Git-Branching-Remote-Branches){documentation}'
 
 parent: managing-branches
 

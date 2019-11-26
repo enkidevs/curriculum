@@ -92,9 +92,9 @@ Fill in the blanks to find the first document with a `type` of `"Water"` and rep
 db.pokemon.???(
   { "type": ???},
   {
-	"name": "Charizard",
-	"type": "Fire", 
-	"power": 999
+    "name": "Charizard",
+    "type": "Fire", 
+    "power": 999
   }
 );
 ```
@@ -103,9 +103,6 @@ Which command has to be added to our queries to display the updated/replaced doc
 
 ???
 
-* `findOneAndUpdate`
-* `{ $gt: 400 }`
-* `$inc`
 * `findOneAndReplace`
 * `"Water"`
 * `{ returnNewDocument: true }`
