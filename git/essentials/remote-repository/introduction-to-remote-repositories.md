@@ -18,7 +18,7 @@ inAlgoPool: false
 
 links:
 
-  - '[git-scm.com](https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes){website}'
+  - '[Working With Remotes Official Documentation](https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes){website}'
 
 
 ---
