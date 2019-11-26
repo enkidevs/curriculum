@@ -16,7 +16,7 @@ aspects:
 
 links:
 
-  - '[guides.github.com](https://guides.github.com/introduction/flow/){website}'
+  - '[Understanding The Github Flow](https://guides.github.com/introduction/flow/){website}'
 
 parent: git-hub
 
