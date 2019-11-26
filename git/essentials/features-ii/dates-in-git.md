@@ -17,7 +17,7 @@ aspects:
 
 links:
 
-  - '[alexpeattie.com](https://alexpeattie.com/blog/working-with-dates-in-git){website}'
+  - '[Working With Dates In Git](https://alexpeattie.com/blog/working-with-dates-in-git){website}'
 
 
 ---

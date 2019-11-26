@@ -14,7 +14,7 @@ category: feature
 
 links:
 
-  - '[facebook.github.io](https://facebook.github.io/react/docs/top-level-api.html#react.children){website}'
+  - '[facebook.github.io](https://facebook.github.io/react/docs/top-level-api.html#reactchildren){website}'
 
 parent: custom-proptype-s-to-be-required
 
