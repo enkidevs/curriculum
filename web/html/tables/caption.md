@@ -9,10 +9,6 @@ type: normal
 
 category: must-know
 
-standards:
-  web.syntax-html.1: 1000
-  web.layout-html.1: 1000
-
 tags:
   - workout
   - deep
@@ -23,10 +19,10 @@ aspects:
   - deep
 
 links:
-  - '[MDN Docs On caption](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/caption){documentation}'
+  - '[HTML <caption> Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/caption){documentation}'
 
 ---
-# Caption
+# The `<caption>` Element
 ---
 ## Content
 
