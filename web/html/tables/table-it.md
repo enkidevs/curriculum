@@ -18,14 +18,10 @@ type: tetris
 
 category: 'feature'
 
-standards:
-  web.syntax-html.1: 1000
-  web.layout-html.1: 1000
-
 links:
-  - '[MDN Docs for The Table element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table){documentation}'
-  - '[MDN docs for The Table Row element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tr){documentation}'
-  - '[MDN docs for The Table Data element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/td){documentation}'
+  - '[HTML <table> Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table){documentation}'
+  - '[HTML <tr> Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tr){documentation}'
+  - '[HTML <td> Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/td){documentation}'
 
 ---
 # Table It
