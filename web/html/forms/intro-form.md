@@ -9,19 +9,15 @@ type: normal
 
 category: must-know
 
-standards:
-  web.html-forms.0: 10
-  web.html-forms.1: 10
-
 aspects:
   - introduction
   - workout
 
 links:
-  - '[MDN docs and examples for forms](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form){documentation}'
+  - '[HTML <form> Elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form){documentation}'
 
 ---
-# Intro form
+# Intro `<form>`
 ---
 ## Content
 
