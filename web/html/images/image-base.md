@@ -9,16 +9,13 @@ type: normal
 
 category: must-know
 
-standards:
-  web.embed-media.0: 10
-
 aspects:
   - introduction
   - workout
   - obscura
 
 links:
-  - '[Documentation on MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base){documentation}'
+  - '[HTML <base> Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base){documentation}'
 
 ---
 # Image Base
