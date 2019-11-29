@@ -9,23 +9,16 @@ type: normal
 
 category: must-know
 
-standards:
-  web.semantic-html.0: 10
-  web.semantic-html.1: 10
-  web.semantic-html.3: 10
-  web.markup-text.2: 10
-  web.layout-html.3: 10
-
 aspects:
   - introduction
   - workout
   - deep
 
 links:
-  - '[MDN Docs for kbd](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/kbd){documentation}'
+  - '[HTML <kbd> Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/kbd){documentation}'
 
 ---
-# kbd - Keyboard Input Element
+# `<kbd>` - Keyboard Input Element
 ---
 ## Content
 
