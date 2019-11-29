@@ -20,7 +20,7 @@ aspects:
 links:
 
 ---
-# Intro dfn
+# Intro `<dfn>`
 ---
 ## Content
 
