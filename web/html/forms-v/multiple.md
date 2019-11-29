@@ -9,10 +9,6 @@ type: normal
 
 category: must-know
 
-standards:
-  web.html-forms.7: 10
-  web.html-forms.8: 10
-
 aspects:
   - introduction
   - workout
@@ -21,7 +17,7 @@ aspects:
 links:
 
 ---
-# Multiple
+# The `multiple` Attribute
 ---
 ## Content
 
