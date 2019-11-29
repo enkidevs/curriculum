@@ -9,21 +9,16 @@ type: normal
 
 category: must-know
 
-standards:
-  web.semantic-html.0: 10
-  web.semantic-html.1: 10
-  web.semantic-html.3: 10
-
 aspects:
   - introduction
   - workout
   - deep
 
 links:
-  - '[MDN docs for q](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/q){documentation}'
+  - '[HTML <q> Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/q){documentation}'
 
 ---
-# Intro q
+# Intro `<q>`
 ---
 ## Content
 
