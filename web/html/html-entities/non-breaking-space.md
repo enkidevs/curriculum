@@ -10,9 +10,6 @@ type: normal
 
 category: must-know
 
-standards:
-  web.markup-text.2: 10
-
 aspects:
   - introduction
   - workout
@@ -21,7 +18,7 @@ aspects:
 links:
 
 ---
-# Non-breaking Space
+# The Non-breaking Space
 
 ---
 ## Content
