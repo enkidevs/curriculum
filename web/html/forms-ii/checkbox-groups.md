@@ -9,15 +9,12 @@ type: normal
 
 category: must-know
 
-standards:
-  web.html-forms.4: 10
-
 aspects:
   - introduction
   - workout
 
 links:
-  - '[MDN docs for checkboxes](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/checkbox){documentation}'
+  - '[HTML <checkbox> Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/checkbox){documentation}'
   - '[StackOverflow: Multiple Checkboxes](https://stackoverflow.com/questions/18745456/handle-multiple-checkboxes-with-a-single-serverside-variable){discussion}'
 
 
