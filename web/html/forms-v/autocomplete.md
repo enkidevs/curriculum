@@ -9,9 +9,6 @@ type: normal
 
 category: must-know
 
-standards:
-  web.html-forms.9: 10
-
 aspects:
   - introduction
   - workout
@@ -20,7 +17,7 @@ aspects:
 links:
 
 ---
-# Autocomplete
+# The `autocomplete` Attribute
 ---
 ## Content
 
