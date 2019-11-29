@@ -9,16 +9,12 @@ type: normal
 
 category: must-know
 
-standards:
-  web.html-forms.0: 10
-  web.layout-html.2: 10
-
 aspects:
   - introduction
   - workout
 
 links:
-  - '[MDN docs for textarea](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea){documentation}'
+  - '[HTML <textarea> Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea){documentation}'
 
 ---
 # Text Area
