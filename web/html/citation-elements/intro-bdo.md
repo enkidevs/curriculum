@@ -9,13 +9,6 @@ type: normal
 
 category: must-know
 
-standards:
-  web.semantic-html.0: 10
-  web.semantic-html.1: 10
-  web.semantic-html.3: 10
-  web.markup-text.2: 10
-  web.layout-html.3: 10
-
 aspects:
   - introduction
   - workout
@@ -23,16 +16,16 @@ aspects:
   - obscura
 
 links:
-  - '[MDN docs for bdo](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/bdo){documentation}'
+  - '[HTML <bdo> Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/bdo){documentation}'
 
 ---
-# bdo Element
+# The `<bdo>` Element
 ---
 ## Content
 
 The HTML `<bdo>`, or the **Bidirectional Text Override** element, is used to override the current directionality of text. This means that you can have text written in one direction, render and display in the opposite direction.
 
-This element has 1 element related attribute, `dir` and `dir` has 2 possible values, `ltr` and `rtl`.
+This element can have only one attribute, `dir`, with only 2 two possible values:
  - `ltr` sets the text direction to Left-to-Right.
  - `rtl` sets the text direction to Right-to-Left.
 
