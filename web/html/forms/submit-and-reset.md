@@ -9,16 +9,13 @@ type: normal
 
 category: must-know
 
-standards:
-  web.html-forms.2: 10
-
 aspects:
   - introduction
   - workout
 
 links:
-  - '[MDN docs for reset](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/reset){documentation}'
-  - '[MDN docs for submit](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/submit){documentation}'
+  - '[HTML type="reset"](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/reset){documentation}'
+  - '[HTML type="submit"](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/submit){documentation}'
 
 ---
 # Submit & Reset
