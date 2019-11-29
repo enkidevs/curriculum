@@ -20,7 +20,7 @@ aspects:
 links:
 
 ---
-# Intro abbr
+# Intro `<abbr>`
 ---
 ## Content
 
