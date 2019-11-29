@@ -15,11 +15,8 @@ tags:
 aspects:
   - introduction
 
-standards:
-  web.markup-text.2: 10
-
 links:
-  - '[MDN docs for description lists](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dl){documentation}'
+  - '[HTML <dl> Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dl){documentation}'
 
 ---
 # Description Lists
