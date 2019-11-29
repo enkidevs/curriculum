@@ -11,16 +11,12 @@ category: must-know
 
 inAlgoPool: false
 
-standards:
-  web.syntax-html.0: 10
-  web.layout-html.0: 10
-
 aspects:
   - introduction
 
 links:
-  - '[MDN divisions](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/div){documentation}'
-  - '[MDN spans](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/span){documentation}'
+  - '[HTML <div> Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/div){documentation}'
+  - '[HTML <span> Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/span){documentation}'
 
 ---
 
