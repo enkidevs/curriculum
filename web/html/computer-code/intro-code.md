@@ -9,13 +9,6 @@ type: normal
 
 category: must-know
 
-standards:
-  web.semantic-html.0: 10
-  web.semantic-html.1: 10
-  web.semantic-html.3: 10
-  web.markup-text.2: 10
-  web.layout-html.4: 10
-
 aspects:
   - introduction
   - workout
@@ -24,7 +17,7 @@ aspects:
 links:
 
 ---
-# code - Display code in HTML
+# `<code>` - Display code in HTML
 ---
 ## Content
 
