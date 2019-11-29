@@ -9,9 +9,6 @@ type: normal
 
 category: must-know
 
-standards:
-  web.embed-media.1: 10
-
 aspects:
   - introduction
   - workout
@@ -19,11 +16,11 @@ aspects:
 
 links:
   - '[CodePen: Video: Simple HTML Player](https://codepen.io/enkidevs/pen/MBYOJb){code}'
-  - '[HTML Video Tag Tutorial](https://www.quackit.com/html_5/tags/html_video_tag.cfm){article}'
-  - '[Documentation on MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video){documentation}'
+  - '[HTML <video> Tutorial](https://www.quackit.com/html_5/tags/html_video_tag.cfm){article}'
+  - '[HTML <video> Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video){documentation}'
 
 ---
-# Video
+# The `<video>` Element
 ---
 ## Content
 
