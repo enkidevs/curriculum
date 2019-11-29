@@ -15,11 +15,8 @@ tags:
 aspects:
   - introduction
 
-standards:
-  web.markup-text.2: 10
-
 links:
-  - '[MDN docs for unordered lists](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ul){documentation}'
+  - '[HTML <ul> Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ul){documentation}'
   - '[CSS list style type Property](https://www.w3schools.com/cssref/pr_list-style-type.asp){documentation}'
 
 ---
