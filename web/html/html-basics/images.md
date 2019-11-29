@@ -9,18 +9,11 @@ type: normal
 
 category: must-know
 
-inAlgoPool: false
-
-standards:
-  web.syntax-html.0: 10
-  web.syntax-html.1: 10
-  web.embed-media.0: 10
-
 aspects:
   - introduction
 
 links:
-  - '[MDN Documentation on <img>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img){documentation}'
+  - '[HTML <img> Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img){documentation}'
   
 ---
 
