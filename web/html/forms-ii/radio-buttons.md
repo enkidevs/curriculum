@@ -9,15 +9,12 @@ type: normal
 
 category: must-know
 
-standards:
-  web.html-forms.5: 10
-
 aspects:
   - introduction
   - workout
 
 links:
-  - '[MDN docs for radio buttons](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/radio){documentation}'
+  - '[HTML Radio Button](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/radio){documentation}'
 
 ---
 # Radio Buttons
