@@ -9,9 +9,6 @@ type: normal
 
 category: must-know
 
-standards:
-  web.embed-media.0: 10
-
 aspects:
   - introduction
   - workout
