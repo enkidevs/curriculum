@@ -11,15 +11,13 @@ category: must-know
 
 stub: true
 
-standards:
-
 aspects:
   - introduction
   - workout
   - deep
  
 links:
-  -  '[MDN docs on Global Attributes](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes){documentation}'
+  -  '[Global Attributes List](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes){documentation}'
 ---
 # Intro Global Attributes
 ---
