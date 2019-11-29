@@ -9,20 +9,16 @@ type: normal
 
 category: must-know
 
-standards:
-  web.html-forms.0: 10
-  web.html-forms.7: 10
-
 aspects:
   - introduction
   - workout
   - deep
 
 links:
-  - '[MDN Docs On range](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/range){documentation}'
+  - '[HTML <input type="range"](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/range){documentation}'
 
 ---
-# Range
+# The HTML `<input type="range"`
 ---
 ## Content
 
