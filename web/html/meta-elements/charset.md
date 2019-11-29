@@ -9,16 +9,12 @@ type: normal
 
 category: must-know
 
-standards:
-  web.metadata.0: 10
-  web.metadata.4: 10
-
 aspects:
   - introduction
   - workout
   
 ---
-# Charset
+# The `charset` Attribute
 ---
 ## Content
 
