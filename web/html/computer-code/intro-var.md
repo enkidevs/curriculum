@@ -9,23 +9,16 @@ type: normal
 
 category: must-know
 
-standards:
-  web.semantic-html.0: 10
-  web.semantic-html.1: 10
-  web.semantic-html.3: 10
-  web.markup-text.2: 10
-  web.layout-html.3: 10
-
 aspects:
   - introduction
   - workout
   - deep
 
 links:
-  - '[MDN Docs for var](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/var){documentation}'
+  - '[HTML <var> Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/var){documentation}'
 
 ---
-# Intro var
+# Intro `<var>`
 ---
 ## Content
 
