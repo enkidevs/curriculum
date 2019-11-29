@@ -9,23 +9,17 @@ type: normal
 
 category: must-know
 
-standards:
-  web.layout-html.0: 10
-  web.semantic-html.0: 10
-  web.semantic-html.1: 10
-  web.semantic-html.3: 10
-
 aspects:
   - introduction
   - workout
   - deep
 
 links:
-  - '[MDN Docs On main](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/main){documentation}'
-  - '[W3S Docs On main](https://www.w3schools.com/tags/tag_main.asp){documentation}'
+  - '[MDN: <main> Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/main){documentation}'
+  - '[W3S: <main> Element](https://www.w3schools.com/tags/tag_main.asp){documentation}'
 
 ---
-# Main element
+# The `<main>` Element
 ---
 ## Content
 
