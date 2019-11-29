@@ -9,9 +9,6 @@ type: normal
 
 category: must-know
 
-standards:
-  web.html-forms.6: 10
-
 aspects:
   - introduction
   - workout
@@ -19,7 +16,7 @@ aspects:
 links:
 
 ---
-# Select
+# The `<select>` Element
 ---
 ## Content
 
