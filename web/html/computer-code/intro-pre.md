@@ -9,10 +9,6 @@ type: normal
 
 category: must-know
 
-standards:
-  web.markup-text.2: 10
-  web.layout-html.4: 10
-
 aspects:
   - introduction
   - workout
@@ -21,7 +17,7 @@ aspects:
 links:
 
 ---
-# pre - Preformatted Text
+# `<pre>` - Preformatted Text
 ---
 ## Content
 
