@@ -9,19 +9,16 @@ type: normal
 
 category: must-know
 
-standards:
-  web.html-forms.2: 10
-
 aspects:
   - workout
   - deep
   - obscura
 
 links:
-  - '[W3S docs for formaction](https://www.w3schools.com/tags/att_formaction.asp){documentation}'
+  - '[HTML formaction Attribute](https://www.w3schools.com/tags/att_formaction.asp){documentation}'
 
 ---
-# Formaction
+# The `formaction` Attribute
 ---
 ## Content
 
