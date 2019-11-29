@@ -11,21 +11,16 @@ category: must-know
 
 stub: true
 
-standards:
-  web.semantic-html.0: 10
-  web.semantic-html.1: 10
-  web.semantic-html.3: 10
-
 aspects:
   - introduction
   - workout
   - deep
 
 links:
-  - '[MDN docs for address](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/address){documentation}'
+  - '[HTML <address> element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/address){documentation}'
 
 ---
-# Address
+# The `<address>` Element
 ---
 ## Content
 
