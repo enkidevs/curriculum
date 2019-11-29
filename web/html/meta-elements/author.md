@@ -9,10 +9,6 @@ type: normal
 
 category: must-know
 
-standards:
-  web.metadata.0: 10
-  web.metadata.2: 10
-
 tags:
   - introduction
   - workout
@@ -22,7 +18,7 @@ aspects:
   - workout
 
 ---
-# Author
+# The `author` Attribute
 ---
 ## Content
 
