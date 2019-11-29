@@ -9,20 +9,15 @@ type: normal
 
 category: must-know
 
-standards:
-  web.layout-html.0: 10
-  web.semantic-html.0: 10
-  web.semantic-html.1: 10
-
 aspects:
   - introduction
   - workout
 
 links:
-  - '[MDN Docs On Footer](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/footer){documentation}'
+  - '[HTML <footer> Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/footer){documentation}'
 
 ---
-# Footer
+# The `<footer>` Element
 ---
 ## Content
 
