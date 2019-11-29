@@ -9,18 +9,11 @@ type: normal
 
 category: must-know
 
-inAlgoPool: false
-
-standards:
-  web.syntax-html.0: 10
-  web.markup-text.0: 10
-  web.markup-text.2: 10
-
 aspects:
   - introduction
 
 links:
-  - '[MDN Docs On creating hyperlinks](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Creating_hyperlinks){documentation}'
+  - '[Creating Hyperlinks](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Creating_hyperlinks){documentation}'
 
 ---
 
