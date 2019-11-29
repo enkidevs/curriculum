@@ -9,13 +9,9 @@ type: normal
 
 category: must-know
 
-standards:
-  web.syntax-html.0: 10
-  web.syntax-html.1: 10
-  web.embed-media.0: 10
-
 aspects:
   - introduction
+  
 ---
 # Images
 ---
