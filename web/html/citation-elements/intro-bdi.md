@@ -9,13 +9,6 @@ type: normal
 
 category: must-know
 
-standards:
-  web.semantic-html.0: 10
-  web.semantic-html.1: 10
-  web.semantic-html.3: 10
-  web.markup-text.2: 10
-  web.layout-html.3: 10
-
 aspects:
   - introduction
   - workout
@@ -23,11 +16,11 @@ aspects:
   - obscura
 
 links:
-  - '[MDN docs for bdi](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/bdi){documentation}'
-  - '[MDN docs for User Agent](https://developer.mozilla.org/en-US/docs/Glossary/user_agent){documentation}'
+  - '[HTML <bdi> Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/bdi){documentation}'
+  - '[User Agent](https://developer.mozilla.org/en-US/docs/Glossary/user_agent){documentation}'
 
 ---
-# bdi Element
+# The `<bdi>` Element
 ---
 ## Content
 
