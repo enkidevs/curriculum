@@ -9,19 +9,13 @@ type: normal
 
 category: must-know
 
-inAlgoPool: false
-
-standards:
-  web.syntax-html.0: 10
-  web.syntax-html.4: 10
-
 aspects:
   - introduction
 
 links:
 
-  - '[First web page](http://info.cern.ch/hypertext/WWW/TheProject.html){website}'
-  - '[MDN Docs On HTML](https://developer.mozilla.org/en-US/docs/Glossary/HTML){documentation}'
+  - '[First Web Page](http://info.cern.ch/hypertext/WWW/TheProject.html){website}'
+  - '[HTML Concept And Syntax](https://developer.mozilla.org/en-US/docs/Glossary/HTML){documentation}'
 
 
 ---
