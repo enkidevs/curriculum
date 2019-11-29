@@ -9,16 +9,13 @@ type: normal
 
 category: must-know
 
-standards:
-  web.html-forms.6: 10
-
 aspects:
   - introduction
   - workout
 
 links:
-  - '[MDN docs for option](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/option){documentation}'
-  - '[MDN docs for select](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/select){documentation}'
+  - '[HTML <option> Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/option){documentation}'
+  - '[HTML <select> Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/select){documentation}'
 
 ---
 # DropDown List
