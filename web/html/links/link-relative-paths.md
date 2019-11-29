@@ -16,7 +16,7 @@ aspects:
 - introduction
 
 links:
-  - '[Article On Absolute vs Relative Paths](https://www.coffeecup.com/help/articles/absolute-vs-relative-pathslinks/){article}'
+  - '[Absolute vs Relative Paths](https://www.coffeecup.com/help/articles/absolute-vs-relative-pathslinks/){article}'
 
 ---
 # Relative Paths
