@@ -9,17 +9,14 @@ type: normal
 
 category: must-know
 
-standards:
-  web.embed-media.0: 10
-
 aspects:
   - introduction
   - workout
   - obscura
 
 links:
-  - '[Documentation on MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img){documentation}'
-  - '[Official documentation on w3.org](https://www.w3.org/TR/2011/WD-html5-author-20110705/the-img-element.html#dom-img-alt){documentation}'
+  - '[MDN: <img> Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img){documentation}'
+  - '[W3.org: <img> Element](https://www.w3.org/TR/2011/WD-html5-author-20110705/the-img-element.html#dom-img-alt){documentation}'
 
 ---
 # Image Alt
