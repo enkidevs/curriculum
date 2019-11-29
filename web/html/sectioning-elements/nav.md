@@ -9,23 +9,17 @@ type: normal
 
 category: must-know
 
-standards:
-  web.layout-html.0: 10
-  web.semantic-html.0: 10
-  web.semantic-html.1: 10
-  web.semantic-html.3: 10
-
 aspects:
   - introduction
   - workout
   - deep
 
 links:
-  - '[MDN Docs On nav](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/nav){documentation}'
-  - '[W3S Docs On nav](https://www.w3schools.com/tags/tag_nav.asp){documentation}'
+  - '[MDN: <nav> Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/nav){documentation}'
+  - '[W3S: <nav> Element](https://www.w3schools.com/tags/tag_nav.asp){documentation}'
 
 ---
-# Nav element
+# The `<nav>` element
 
 ---
 ## Content
