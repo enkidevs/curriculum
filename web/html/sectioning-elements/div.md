@@ -9,19 +9,16 @@ type: normal
 
 category: must-know
 
-standards:
-  web.layout-html.0: 10
-
 aspects:
   - introduction
   - workout
 
 links:
-  - '[MDN docs for div](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/div){documentation}'
-  - '[W3S docs for div](https://www.w3schools.com/tags/tag_div.asp){documentation}'
+  - '[MDN: <div> Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/div){documentation}'
+  - '[W3S: <div> Element](https://www.w3schools.com/tags/tag_div.asp){documentation}'
 
 ---
-# Div element
+# The `<div>` element
 ---
 ## Content
 
