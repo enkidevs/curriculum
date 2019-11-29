@@ -10,17 +10,12 @@ category: must-know
 
 inAlgoPool: false
 
-standards:
-  web.syntax-html.0: 10
-  web.markup-text.0: 10
-  web.markup-text.2: 10
-
 aspects:
   - introduction
 
 links:
-  - '[MDN paragraphs](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/p){documentation}'
-  - '[MDN headings](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements){documentation}'
+  - '[HTML <p> Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/p){documentation}'
+  - '[HTML Headings](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements){documentation}'
 
 ---
 
