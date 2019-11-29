@@ -9,9 +9,6 @@ type: normal
 
 category: must-know
 
-standards:
-  web.html-forms.2: 10
-
 aspects:
   - workout
   - deep
@@ -20,7 +17,7 @@ aspects:
 links:
 
 ---
-# Formnovalidate & novalidate
+# The `formnovalidate` & `novalidate` Attributes
 ---
 ## Content
 
