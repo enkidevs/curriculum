@@ -18,10 +18,10 @@ aspects:
   - introduction
 
 links:
-  - '[MDN docs for time](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/time){documentation}'
+  - '[HTML <time> Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/time){documentation}'
 
 ---
-# Intro time
+# Intro `<time>`
 ---
 ## Content
 
