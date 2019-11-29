@@ -12,22 +12,13 @@ category: must-know
 aspects:
   - introduction
 
-standards:
-  web.syntax-html.3: 10
-  web.syntax-html.4: 10
-  web.syntax-html.5: 10
-  web.metadata.0: 10
-  web.metadata.1: 10
-  web.metadata.2: 10
-  web.metadata.4: 10
-
 links:
-  - '[MDC Docs On Metadata](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML)(documentation)'
-  - '[MDN Docs On head](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/head){documentation}'
+  - '[HTML Metadata](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML)(documentation)'
+  - '[HTML <head> Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/head){documentation}'
   - '[StackOverflow CSS before JS](https://stackoverflow.com/questions/9271276/is-the-recommendation-to-include-css-before-javascript-invalid){discussion}'
 
 ---
-# The `head` Element
+# The `<head>` Element
 ---
 ## Content
 
