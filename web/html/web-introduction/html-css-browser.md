@@ -9,9 +9,6 @@ type: normal
 
 category: must-know
 
-standards:
-  web.syntax-html.4: 10
-
 aspects:
   - introduction
 
