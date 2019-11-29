@@ -20,7 +20,7 @@ aspects:
 links:
 
 ---
-# Small
+# The `<small>` Element
 ---
 ## Content
 
