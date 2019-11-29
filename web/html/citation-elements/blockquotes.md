@@ -9,11 +9,6 @@ type: normal
 
 category: must-know
 
-standards:
-  web.semantic-html.0: 10
-  web.semantic-html.1: 10
-  web.semantic-html.3: 10
-
 aspects:
   - introduction
   - workout
@@ -21,10 +16,10 @@ aspects:
 
 
 links:
-  - '[MDN docs for blockquotes](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blockquote){documentation}'
+  - '[HTML <blockquotes> element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blockquote){documentation}'
   
 ---
-# Blockquotes
+# The `<blockquotes>` Element
 ---
 ## Content
 
