@@ -20,7 +20,7 @@ aspects:
 links:
 
 ---
-# Output
+# The `<output>` Element
 ---
 ## Content
 
