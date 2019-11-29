@@ -9,22 +9,16 @@ type: normal
 
 category: must-know
 
-standards:
-  web.layout-html.0: 10
-  web.semantic-html.0: 10
-  web.semantic-html.1: 10
-  web.semantic-html.3: 10
-
 aspects:
   - introduction
   - workout
   - deep
 
 links:
-  - '[MDN Docs On section](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/section){documentation}'
+  - '[HTML <section> Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/section){documentation}'
 
 ---
-# Section
+# The `<section>` Element
 ---
 ## Content
 
