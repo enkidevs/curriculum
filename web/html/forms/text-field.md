@@ -12,12 +12,9 @@ category: must-know
 aspects:
   - introduction
   - workout
-
-standards:
-  web.html-forms.0: 10
   
 links:
-  - '[MDN docs for text](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/text){documentation}'
+  - '[HTML <text> Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/text){documentation}'
 
 ---
 # Text Field
