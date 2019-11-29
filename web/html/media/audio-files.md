@@ -9,17 +9,14 @@ type: normal
 
 category: must-know
 
-standards:
-  web.embed-media.2: 10
-
 aspects:
   - introduction
   - workout
   - deep
 
 links:
-  - '[MDN Docs for audio](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio){documentation}'
-  - '[W3S Docs for audio](https://www.w3schools.com/html/html5_audio.asp){documentation}'
+  - '[MDN: <audio> Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio){documentation}'
+  - '[W3S: <audio> Element](https://www.w3schools.com/html/html5_audio.asp){documentation}'
 
 ---
 # Audio Files
