@@ -9,16 +9,13 @@ type: normal
 
 category: must-know
 
-standards:
-  web.embed-media.1: 10
-
 aspects:
   - introduction
   - workout
   - deep
 
 links:
-  - '[HTML Video Tag Walkthrough](https://www.quackit.com/html_5/tags/html_video_tag.cfm){article}'
+  - '[Walkthrough For <video>](https://www.quackit.com/html_5/tags/html_video_tag.cfm){article}'
   - '[Validated on css-tricks.com](https://css-tricks.com/snippets/html/video-for-everybody-html5-video-with-flash-fallback/){documentation}'
 
 ---
