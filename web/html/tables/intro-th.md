@@ -18,10 +18,6 @@ aspects:
   - workout
   - deep
 
-standards:
-  web.syntax-html.1: 1000
-  web.layout-html.1: 1000
-
 links:
   - '[CodePen: Table Default style of th element](https://codepen.io/enkidevs/pen/ejZgbN){code}'
   - '[CodePen: Table tabular header](https://codepen.io/enkidevs/pen/ajNpdb){code}'
@@ -31,7 +27,7 @@ links:
   - '[MDN Docs On th](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/th){documentation}'
 
 ---
-# Table Header
+# The `<th>` Element
 ---
 ## Content
 
