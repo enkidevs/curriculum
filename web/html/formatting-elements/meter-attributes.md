@@ -9,9 +9,6 @@ type: normal
 
 category: must-know
 
-standards:
-  web.layout-html.3: 1000
-
 aspects:
   - deep
   - workout
@@ -19,7 +16,7 @@ aspects:
 links:
 
 ---
-# Meter Attributes
+# `<meter>` Attributes
 ---
 ## Content
 
