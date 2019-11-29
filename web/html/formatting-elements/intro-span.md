@@ -9,10 +9,6 @@ type: normal
 
 category: must-know
 
-standards:
-  web.layout-html.0: 1000
-  web.layout-html.2: 1000
-
 aspects:
   - introduction
   - workout
@@ -20,7 +16,7 @@ aspects:
 links:
 
 ---
-# Intro span
+# Intro `<span>`
 ---
 ## Content
 
