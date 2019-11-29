@@ -9,21 +9,16 @@ type: normal
 
 category: must-know
 
-standards:
-  web.semantic-html.0: 10
-  web.semantic-html.1: 10
-  web.semantic-html.3: 10
-
 aspects:
   - introduction
   - workout
   - deep
 
 links:
-  - '[MDN docs for cite](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/cite){documentation}'
+  - '[HTML <cite> Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/cite){documentation}'
 
 ---
-# Cite Element
+# The `<cite>` Element
 
 ---
 ## Content
