@@ -17,19 +17,16 @@ aspects:
   - introduction
   - workout
 
-standards:
-  web.syntax-html.1: 1000
-  web.layout-html.1: 1000
 
 links:
   - '[CodePen: Table without Style](https://codepen.io/enkidevs/pen/JBXWLL){code}'
   - '[CodePen: Table with Style](https://codepen.io/enkidevs/pen/JBXWbr){code}'
-  - '[MDN Docs for The Table element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table){website}'
-  - '[MDN docs for The Table Row element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tr){website}'
-  - '[MDN docs for The Table Data element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/td){website}'
+  - '[HTML <table> Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table){documentation}'
+  - '[HTML <tr> Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tr){documentation}'
+  - '[HTML <td> Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/td){documentation}'
 
 ---
-# Table, tr, and td
+# The `<table>`, `<tr>`, & `<td>` Elements
 ---
 ## Content
 
