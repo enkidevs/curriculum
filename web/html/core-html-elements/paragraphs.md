@@ -9,10 +9,6 @@ type: normal
 
 category: must-know
 
-standards:
-  web.syntax-html.0: 10
-  web.markup-text.2: 10
-
 aspects:
   - introduction
 
