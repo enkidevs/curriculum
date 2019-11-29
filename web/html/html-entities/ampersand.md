@@ -10,9 +10,6 @@ type: normal
 
 category: must-know
 
-standards:
-  web.markup-text.2: 10
-
 aspects:
   - introduction
   - workout
@@ -22,7 +19,7 @@ links:
 
 ---
 
-# Ampersand
+# The Ampersand Character
 
 ---
 ## Content
