@@ -153,17 +153,17 @@ The ??? operator is used to extract the exact minute the document was made and a
 [1:Previous Document]
 Here is the document used in the previous insight:
 ```javascript
-// document without the date
+// document without the Date
 { 
-	"_id": ObjectId("5d9d8a6a0b24990f19398209"),
+  "_id": ObjectId("5d9d8a6a0b24990f19398209"),
   "name": "Bulbasaur",
-	"type": "Grass"
+  "type": "Grass"
 }
-// Document with the date
+// Document with the Date
 { 
-	"_id": ObjectId("5d9d8a6a0b24990f19398209"),
+  "_id": ObjectId("5d9d8a6a0b24990f19398209"),
   "name": "Bulbasaur",
-	"type": "Grass",
+  "type": "Grass",
   "Date": ISODate("2019-10-09T07:21:14Z")
 }
 ```
