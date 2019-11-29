@@ -18,11 +18,11 @@ aspects:
   - introduction
 
 links:
-  - '[MDN docs for b](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/b){documentation}'
-  - '[MDN docs for strong](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/strong){documentation}'
+  - '[HTML <b> Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/b){documentation}'
+  - '[HTML <strong> Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/strong){documentation}'
 
 ---
-# Important (b & strong)
+# Important (`<b>` & `<strong>`)
 ---
 ## Content
 
