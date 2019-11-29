@@ -9,9 +9,6 @@ type: normal
 
 category: must-know
 
-standards:
-  javascript.dom.3: 10
-
 aspects:
   - introduction
   - workout
@@ -20,7 +17,7 @@ aspects:
 links:
 
 ---
-# Oninput
+# The `oninput` Event
 ---
 ## Content
 
