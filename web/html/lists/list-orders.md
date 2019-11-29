@@ -15,10 +15,8 @@ tags:
 aspects:
   - introduction
 
-standards:
-  web.markup-text.2: 10
 links:
-  - '[MDN docs for ordered lists](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ol){documentation}'
+  - '[HTML <ol> Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ol){documentation}'
   - '[CSS list style type Property](https://www.w3schools.com/cssref/pr_list-style-type.asp){documentation}'
 
 ---
