@@ -9,9 +9,6 @@ type: normal
 
 category: must-know
 
-standards:
-  web.embed-media.3: 10
-
 aspects:
   - introduction
   - workout
@@ -19,10 +16,10 @@ aspects:
 
 links:
   - '[A walkthrough on w3schools](https://www.w3schools.com/tags/tag_embed.asp){documentation}'
-  - '[Official documentation on MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/embed){documentation}'
+  - '[MDN: <embed> Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/embed){documentation}'
 
 ---
-# Embed
+# The `<embed>` Element
 
 ---
 ## Content
