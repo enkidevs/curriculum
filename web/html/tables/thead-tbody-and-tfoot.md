@@ -18,19 +18,15 @@ aspects:
   - workout
   - deep
 
-standards:
-  web.syntax-html.1: 1000
-  web.layout-html.1: 1000
-
 links:
   - '[CodePen: Scrolling Table CSS](https://codepen.io/enkidevs/pen/JBXyoJ){code}'
-  - '[MDN docs for thead](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/thead){documentation}'
-  - '[MDN docs for tbody](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tbody){documentation}'
-  - '[MDN docs for tfoot](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tfoot){documentation}'
+  - '[HTML <thead> Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/thead){documentation}'
+  - '[HTML <tbody> Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tbody){documentation}'
+  - '[HTML <tfoot> Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tfoot){documentation}'
   - '[Codepen Example](https://codepen.io/stefan-stojanovic/pen/jKbJgQ){code}'
 
 ---
-# Thead, tbody, & tfoot
+# The `<thead>`, `<tbody>`, & `<tfoot>` Elements
 ---
 ## Content
 
