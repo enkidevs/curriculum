@@ -9,18 +9,15 @@ type: normal
 
 category: must-know
 
-standards:
-  web.layout-html.0: 10
-  web.html-forms.2: 10
-
 aspects:
   - introduction
   - workout
+  
 links:
-  - '[MDN docs for button](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button){documentation}'
+  - '[HTML <button> Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button){documentation}'
 
 ---
-# Button attributes
+# `<button>` attributes
 ---
 ## Content
 
