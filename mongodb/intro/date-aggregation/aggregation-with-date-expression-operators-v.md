@@ -113,15 +113,15 @@ Here is the document used in the previous insight:
 ```javascript
 // document without the Date
 { 
-	"_id": ObjectId("5d9d8a6a0b24990f19398209"),
+  "_id": ObjectId("5d9d8a6a0b24990f19398209"),
   "name": "Bulbasaur",
-	"type": "Grass"
+  "type": "Grass"
 }
 // Document with the Date
 { 
-	"_id": ObjectId("5d9d8a6a0b24990f19398209"),
+  "_id": ObjectId("5d9d8a6a0b24990f19398209"),
   "name": "Bulbasaur",
-	"type": "Grass",
+  "type": "Grass",
   "Date": ISODate("2019-10-09T07:21:14Z")
 }
 ```
