@@ -9,17 +9,13 @@ type: normal
 
 category: must-know
 
-standards:
-  web.html-forms.2: 10
-  web.embed-media.0: 10
-
 aspects:
   - introduction
   - workout
   - obscura
 
 links:
-  - '[MDN docs for image buttons](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/image){documentation}'
+  - '[HTML Image Button](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/image){documentation}'
 
 ---
 # Image Button
