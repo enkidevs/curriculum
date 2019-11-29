@@ -9,10 +9,6 @@ type: normal
 
 category: must-know
 
-standards:
-  web.html-forms.9: 10
-  javascript.dom.3: 10
-
 aspects:
   - introduction
   - workout
@@ -21,7 +17,7 @@ aspects:
 links:
 
 ---
-# Autofocus
+# The `autofocus` Attribute
 ---
 ## Content
 
