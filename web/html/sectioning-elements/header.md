@@ -9,20 +9,15 @@ type: normal
 
 category: must-know
 
-standards:
-  web.layout-html.0: 10
-  web.semantic-html.0: 10
-  web.semantic-html.1: 10
-
 aspects:
   - introduction
   - workout
 
 links:
-  - '[MDN Docs On header](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/header){documentation}'
+  - '[HTML <header> Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/header){documentation}'
 
 ---
-# Header
+# The `<header>` Element
 ---
 ## Content
 
