@@ -12,15 +12,10 @@ category: must-know
 aspects:
   - introduction
 
-standards:
-  web.syntax-html.3: 10
-  web.syntax-html.4: 10
-  web.syntax-html.5: 10
-  web.metadata.4: 10
 
 links:
-  - '[MDN Docs On Doctype](https://developer.mozilla.org/en-US/docs/Glossary/Doctype){documentation}'
-  - '[List of all Doctype declarations](https://www.w3.org/QA/2002/04/valid-dtd-list.html){documentation}'
+  - '[HTML Doctype](https://developer.mozilla.org/en-US/docs/Glossary/Doctype){documentation}'
+  - '[All Doctype Declarations](https://www.w3.org/QA/2002/04/valid-dtd-list.html){documentation}'
   
 ---
 # Doctype
