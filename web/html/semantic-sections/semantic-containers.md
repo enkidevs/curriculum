@@ -9,19 +9,13 @@ type: normal
 
 category: must-know
 
-standards:
-  web.layout-html.0: 10
-  web.semantic-html.0: 10
-  web.semantic-html.1: 10
-  web.semantic-html.3: 10
-
 aspects:
   - introduction
   - workout
   - deep
 
 links:
-  - '[MDN Docs On semantics](https://developer.mozilla.org/en-US/docs/Glossary/Semantics){website}'
+  - '[Semantic Containers](https://developer.mozilla.org/en-US/docs/Glossary/Semantics){website}'
 
 ---
 # Semantic Containers
