@@ -9,16 +9,11 @@ type: normal
 
 category: must-know
 
-standards:
-  web.syntax-html.0: 10
-  web.markup-text.0: 10
-  web.markup-text.2: 10
-
 aspects:
   - introduction
 
 links:
-  - '[Elements on MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements){documentation}'
+  - '[HTML Elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements){documentation}'
 
 ---
 # Headings (h1-h6)
