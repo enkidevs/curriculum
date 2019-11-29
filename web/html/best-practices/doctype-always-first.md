@@ -13,12 +13,6 @@ aspects:
   - introduction
   - obscura
 
-standards:
-  web.syntax-html.5: 10
-  web.syntax-html.3: 10
-  web.metadata.0: 10
-  web.syntax-html.6: 10
-
 ---
 # Doctype - always first
 ---
