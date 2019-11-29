@@ -9,23 +9,16 @@ type: normal
 
 category: must-know
 
-standards:
-  web.semantic-html.0: 10
-  web.semantic-html.1: 10
-  web.semantic-html.3: 10
-  web.markup-text.2: 10
-  web.layout-html.3: 10
-
 aspects:
   - introduction
   - workout
   - deep
 
 link:
-  - '[MDN Docs for samp](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/samp){documentation}'
+  - '[HTML <samp> Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/samp){documentation}'
 
 ---
-# samp - Sample Output Element
+# `<samp>` - Sample Output Element
 ---
 ## Content
 
