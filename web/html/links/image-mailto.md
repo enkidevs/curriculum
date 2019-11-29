@@ -16,7 +16,7 @@ aspects:
   - introduction
 
 links:
-  - '[MDN docs for anchor](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a){documentation}'
+  - '[HTML <a> Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a){documentation}'
 
 ---
 # Mailto:
