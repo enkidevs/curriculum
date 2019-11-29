@@ -9,19 +9,14 @@ type: normal
 
 category: must-know
 
-standards:
-  web.syntax-html.3: 10
-  web.syntax-html.4: 10
-  web.syntax-html.5: 10
-
 aspects:
   - introduction
 
 links:
-  - '[MDN Docs On html](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/html){documentation}'
+  - '[HTML <html> Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/html){documentation}'
 
 ---
-# The `html` Element
+# The `<html>` Element
 ---
 ## Content
 
