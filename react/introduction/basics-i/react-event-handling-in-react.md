@@ -60,7 +60,7 @@ Above, `e` is the **synthetic event**[1] passed when clicking the button.
 
 To make the second `console.log` not throw an error, the `this` context of the `myListener` method must be explicitly bound to the `Click` class. 
 
-The reason is that `this` in JavaScript depends on how a function is called, not where it is defined. 
+The reason is that `this` in JavaScript depends on how a function is called, it is definedd. 
 
 If we call a function as a method on an object, i.e. `person.say()`, `this` will point to that object. 
 
