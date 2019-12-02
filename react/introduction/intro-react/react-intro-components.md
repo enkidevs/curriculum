@@ -53,7 +53,7 @@ function App() {
 
 This component will display:
 
-![First React Component](https://img.enkipro.com/299cd451feedb68007faf2d7143aa914.png)
+![First React Component](https://img.enkipro.com/5a030d8423366ee69b10f1a8b0edd065.png)
 
 Don't worry too much about components now as we will talk more about them in the following workouts.
 
