@@ -68,7 +68,7 @@ SELECT
 FROM pokemon;
 ```
 
-The above command gets only the `id`, `hp`, and `attack` columns from the table, but keeps all of the rows of the `pokemon` table. On top of that, we create an *alias* for the `hp` column that reads 'Health Points'. It is important to keep in mind that *aliases* exist only for the duration or purpose of the query. Here is what the result of our query looks like:
+The above command gets only the `id`, `hp`, and `attack` columns from the table, but keeps all of the rows of the `pokemon` table. On top of that, we create an *alias* for the `hp` column that reads 'Health Points'. It is important to keep in mind that *aliases* exist only for the duration or purpose of the query and does not change the original column name. Here is what the result of our query looks like:
 
 | id | Health Points | attack |
 |----|---------------|--------|
