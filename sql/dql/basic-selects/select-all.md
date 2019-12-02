@@ -56,7 +56,6 @@ select *
 from pokemon;
 ```
 
-
 ---
 ## Practice
 

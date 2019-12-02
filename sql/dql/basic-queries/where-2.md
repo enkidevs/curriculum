@@ -59,14 +59,14 @@ WHERE name = 'Meowth'
   OR name = 'Golduck';
 ```
 
-This shows the rows where the `name` is an exact match of either 'Meowth' or 'Golduck'. The resulting set looks like this:
+This shows the rows where the `name` is an exact match of either `'Meowth'` or `'Golduck'`. The resulting set looks like this:
 
 | id | name    | total | hp | attack | defense |
 |----|---------|-------|----|--------|---------|
 | 52 | Meowth  | 290   | 40 | 45     | 35      |
 | 55 | Golduck | 500   | 80 | 82     | 78      |
 
-In the previous insight we have used the `<>` comparison operator to check if the `name` was not 'Charmander'. The same can be achieved using `!=` or by coupling a comparison operator (`=`) and a logical operation (`NOT`):
+In the previous insight we have used the `<>` comparison operator to check if the `name` was not `'Charmander'`. The same can be achieved using `!=` or by coupling a comparison operator (`=`) and a logical operation (`NOT`):
 
 ```sql
 SELECT *
@@ -74,7 +74,7 @@ FROM pokemon
 WHERE NOT name = 'Charmander';
 ```
 
-This statement shows all rows **except** for the one where name is equal to 'Charmander'. In our case, this query would return all our records (rows) as we do not have any entries with the `name` 'Charmander'.
+This statement shows all rows **except** for the one where name is equal to `'Charmander'`. In our case, this query would return all our records (rows) as we do not have any entries with the `name` `'Charmander'`.
 
 You can also use parenthesis to construct complex expressions, like so:
 
@@ -83,7 +83,7 @@ SELECT *
 FROM pokemon
 WHERE (name = 'Diglett'
   OR name = 'Dugtrio')
-    AND (total > 300 AND total < 500);
+  AND (total > 300 AND total < 500);
 ```
 
 This query will only return the row with the `name` *Dugtrio* because for the record with the `name` *Diglett* the `total` value is not between 300 and 500.
@@ -145,20 +145,18 @@ FROM pokemon
 ### Can you select rows between two values in SQL?
 Consider the `move_name` table:
 
-```bash
+| id  | language_id | move_id | name       |
+|-----|-------------|---------|------------|
+| 1   | 1           | 1       | はたく     |
+| 2   | 3           | 1       | 막치기     |
+| 3   | 5           | 1       | Écras'Face |
+| 4   | 6           | 1       | Pfund      |
+| 5   | 7           | 1       | Destructor |
+| ... | ...         | ...     | ...        |
 
-  id  | language_id | move_id |  name       
-======|=============|=========|=============
-    1 |           1 |       1 | はたく
-    2 |           3 |       1 | 막치기
-    3 |           5 |       1 | Écras'Face
-    4 |           6 |       1 | Pfund
-    5 |           7 |       1 | Destructor
-  (...)
-```
 Choose the query that will get all move names with id between 3 and 6. Also, pay attention to select those name that are used in languages with id 5 or 9:
 
- ???
+???
 
 * SELECT name FROM move_name WHERE move_id BETWEEN 3 AND 6 AND language_id IN (5,9);
 * SELECT * FROM move_name WHERE move_id BETWEEN 3 AND 6 AND language_id IN (5,9);

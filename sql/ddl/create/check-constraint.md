@@ -53,7 +53,7 @@ CREATE TABLE voters (
 
 Now, if you were to insert a record which had a value for the `age` column less that 18, you would get an error. 
 
-What if you wanted to constrain the value of two columns at the same time? This is possible by creating a table check constraint. Let's say that for some reason you also want only names that start with 'T'. In this case, your table definition would look like:
+What if you wanted to constrain the value of two columns at the same time? This is possible by creating a table check constraint. Let's say that for some reason you also want only names that start with `'T'`. In this case, your table definition would look like:
 
 ```sql
 CREATE TABLE voters (
@@ -76,7 +76,7 @@ INSERT INTO voters VALUES
 -- This will be successful
 ```
 
-There are two main advantages of using table constraints over column constraints. The first advantage is that they are more powerful, allowing you to use two or more columns. The second one is that they can have their own name, in our case `age_and_name_check`, which helps with:
+There are two main advantages of using table constraints over column constraints. The first is that they are more powerful, allowing you to use two or more columns. The second one is that they can have their own name, in our case `age_and_name_check`, which helps with:
 - understanding system messages
 - creating constraints after the table was defined
 - altering (activating, deactivating, deleting) the constraints
