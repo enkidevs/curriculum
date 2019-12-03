@@ -38,7 +38,7 @@ SQL provides a bunch of special operators to help you write complex querying con
 
 - the `LIKE` operator, which is used to define a pattern that the given attribute should conform to
 - the `IN` operator, which allows us to define a list of values of which the attribute must be one
-- the `BETWEEN` operator, which allows us to define a range of values in which the attribute must be
+- the `BETWEEN` operator, which allows us to define a range of values in which the attribute must be in
 
 Let's consider the following `pokemon` table:
 
