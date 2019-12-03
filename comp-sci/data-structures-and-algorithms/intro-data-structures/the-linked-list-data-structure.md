@@ -35,9 +35,9 @@ Because a list is *linear*[2], each element other than the head and the tail hav
 ### LinkedList
 *LinkedList* uses the concept of *nodes*[3] to represent its data.
 
-Think of a conga line, in which every person, except the first and the last person, holds and is being held by someone. If you wanted to join the line to have some fun, you could do it by only "disturbing" 2 people: the one at the position *i* and the one at the position *i-1*.
+Think of a conga line, in which every person, except the first and the last person, holds and is being held by someone. If you wanted to join the line to have some fun, you could do it by only "disturbing" 2 people: the one at the position `i` and the one at the position `i-1`.
 
-However, you would still need to count to get to position *i*: no one has a sign above them stating their index.
+However, you would still need to count to get to position `i`: no one has a sign above them stating their index.
 
 The *conga line* is an example of a **SinglyLinkedList** because you cannot see who is behind you. The last one (in the example below, *G*) still has a reference that points to nothing(or `null`):
 
@@ -98,4 +98,3 @@ Also known as *Josephus permutation*, it is a *count-out* game. The game starts 
 After the *nth* person is kicked out, the ones left close the circle and start again.
 
 The game ends when there is a single person remaining.
-
