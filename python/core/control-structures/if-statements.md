@@ -29,7 +29,7 @@ standards:
 ---
 ## Content
 
-Python uses *booleans* to evaluate conditions. A boolean variable has two values, true and false, and one of these values is after a condition has been evaluated.
+Python uses *booleans* to evaluate conditions. A boolean variable has two values, true and false. After a condition has been evaluated Python will return one of these values.
 
 Using *comparison operators* is one way to create conditions in Python. Comparison operators include
 
