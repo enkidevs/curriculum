@@ -42,7 +42,7 @@ Usually, the main blockchain client has an integrated wallet as well (the possib
              	
 The encryption is necessary because the private key would otherwise be saved in plain text. This is something that you may not necessarily want, especially if you have invested a large sum of money into the coin.
              	
-There are also paper wallets. Paper wallets usually consist of printed page that contains 2 QR codes, one that carries the public key and one the private key.
+There are also paper wallets. Paper wallets usually consist of a printed page that contains 2 QR codes, one that carries the public key and one the private key.
                  
 Physical wallets are pieces of hardware that can run wallet applications but are not connected to the internet. The actual device usually requires purchasing, but once bought can generate new addresses, a feature the paper wallet doesn't have.
 
@@ -69,4 +69,3 @@ What do you need to obtain an address' balance for a particular cryptocoin?
 * The private key and a blockchain connection.
 * The public key.
 * The public/private key pair.
-
