@@ -38,13 +38,13 @@ A (digital) **wallet** is a piece of software that can listen to and interact wi
              	
 Probably one of the biggest misconception people have about wallets is that your wallet is your balance on the blockchain. A cryptowallet is rather a collection of identities on the blockchain, each with its own UTXOs. Because of that, in general, but also in particular for Bitcoin, it is also recommended to never use an address more than once (we'll cover the reasons why soon).
              	
-Usually, the main blockchain client has an integrated wallet as well (the possibility of generating private keys and computing public ones). Another feature that you must be looking for when choosing a wallet is its ability to encrypt the private keys.
+Usually, the main blockchain client has an integrated wallet as well (the possibility of generating private keys and computing public ones). Another feature that you must look for when choosing a wallet is its ability to encrypt the private keys.
              	
-The encryption is necessary because the private key would be otherwise saved in plain text - not necessarily something you want if you have invested a large sum of money into the coin.
+The encryption is necessary because the private key would otherwise be saved in plain text. This is something that you may not necessarily want, especially if you have invested a large sum of money into the coin.
              	
-There are also paper wallets. They are usually a printed page that contains 2 QR codes, that carry the public key and the private key, respectively.
+There are also paper wallets. Paper wallets usually consist of a printed page that contains 2 QR codes, one that carries the public key and one the private key.
                  
-Physical wallets are pieces of hardware not connected to the internet that can run wallet applications. They usually require purchasing the actual device, but can generate new addresses, a feature the paper wallet doesn't have.
+Physical wallets are pieces of hardware that can run wallet applications but are not connected to the internet. The actual device usually requires purchasing, but once bought can generate new addresses, a feature the paper wallet doesn't have.
 
 ---
 ## Practice
@@ -69,4 +69,3 @@ What do you need to obtain an address' balance for a particular cryptocoin?
 * The private key and a blockchain connection.
 * The public key.
 * The public/private key pair.
-
