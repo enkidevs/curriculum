@@ -41,7 +41,7 @@ print 'Python 2'
 
 ### Python 3
 
-Python 3 was released in 2008 with the goal of making Python easier language to use.
+Python 3 was released in 2008 with the goal of making Python an easier language to use.
 
 In Python 3, you must pass the items you want to print explicitly to the function in parentheses as follows:
 ```python

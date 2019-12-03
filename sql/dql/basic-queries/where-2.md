@@ -66,7 +66,7 @@ This shows the rows where the `name` is an exact match of either 'Meowth' or 'Go
 | 52 | Meowth  | 290   | 40 | 45     | 35      |
 | 55 | Golduck | 500   | 80 | 82     | 78      |
 
-In the previous insight we have used the `<>` comparison operator to check if the `name` was not 'Charmander'. The same can be achieved using `!=` or by coupling a comparison operator (`=`) and a logical operation (`NOT`):
+In the previous insight we used the `<>` comparison operator to check if the `name` was not 'Charmander'. The same can be achieved using `!=` or by coupling a comparison operator (`=`) and a logical operation (`NOT`):
 
 ```sql
 SELECT *
