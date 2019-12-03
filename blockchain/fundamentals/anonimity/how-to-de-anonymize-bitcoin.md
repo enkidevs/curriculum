@@ -33,13 +33,14 @@ links:
 
 In the previous insight, we mentioned a specific way of linking transactions to an online identity: joint payments. Most of the times, however, a single redeemed UTXO is enough to track someone if the transacted value is specific enough.
              	
-A bitcoin transaction can represent up to 8 digits after the decimal points (`0.000000001 bitcoin` is called a `satoshi`), so the distribution space is large. If someone is to know the exact value of your transaction and a timeframe in which you had initiated the transaction, there's a chance they could track your address. If we assume a uniform distribution over the `[1, 10^8)` interval, and know that the maximum number of transactions per second Bitcoin can handle is 7, it would probabilistically take around 14 years for a second transaction with the same exact decimals to appear. While, in reality, the distribution is not uniform, you can still be certain that, for a longer or shorter period of time, the transaction can be correctly identified.
+A bitcoin transaction can represent up to 8 digits after the decimal points (`0.000000001 bitcoin` is called a `satoshi`), so the distribution space is large. If someone knows the exact value of your transaction and the timeframe in which you initiated the transaction, there's a chance they could track your address. If we assume a uniform distribution over the `[1, 10^8)` interval, and know that the maximum number of transactions per second Bitcoin can handle is 7, it would take on average around 14 years for a second transaction with the same exact decimals to appear. While, in reality, the distribution is not uniform, you can still be certain that, for a longer or shorter period of time, the transaction can be correctly identified.
        	      
-And depending on where they found out about the exact value of the transaction, they can even know your real identity. By transacting with anyone in person, you are linking your identity to the address they received coins from. By donating bitcoins and sharing the donation confirmation to incentivize others to do the same, you are also revealing your blockchain identity.
+What's more, depending on the location where the exact value of the transaction was discovered, your real identity can also be traced. By transacting with anyone in person, you are linking your identity to the address they received coins from. Even donating bitcoins and sharing the donation confirmation to incentivize others to do the same, can reveal your blockchain identity.
              	
-Why should you care though? Well, chances are you won't have that many bitcoins anyway. If you made a good investment and have a large sum of money in your bank account, there's a slim chance of anyone knowing it unless you told someone. But your Bitcoin address is public and will always be public.
+Why should you care though? Well, chances are you won't have that many bitcoins anyway. Perhaps you made a smart investment and have a large sum of money in your bank account. There's only slim chance of anyone knowing your blockchain identity unless you told someone. But your Bitcoin address is and always will be public.
              	
-If you decide to buy more bitcoins because you believe it is the coin of the future, what stops others from trying to steal your private key? Attention to details and precaution go a long way. To make the whole tracking process harder, *mixing services*, or simply mixers, appeared. 
+If you do decide to buy more bitcoins because you believe it is the coin of the future, it is important to remember that   attention to detail and precaution can go a long way towards preventing others from stealing your private key. 
+
 
 ---
 ## Practice
