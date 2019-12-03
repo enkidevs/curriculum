@@ -60,7 +60,7 @@ from pokemon;
 ---
 ## Practice
 
-Which of the following queries will return all columns and all rows from a a table called `item`?
+Which of the following queries will return all columns and all rows from a table called `item`?
 
 ???
 
