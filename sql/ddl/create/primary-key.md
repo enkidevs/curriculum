@@ -39,9 +39,9 @@ aspects:
 ---
 ## Content
 
-To allow the association of data in relational databases, rows should be uniquely identifiable. When defining a new table, there are two types of constraints that can be declared, `PRIMARY KEY`s and `FOREIGN KEY`s, and this insight will focus on the former. 
+To allow the association of data in relational databases, rows should be uniquely identifiable. When defining a new table, there are two types of constraints that can be declared, `PRIMARY KEY`s and `FOREIGN KEY`s. This insight will focus on the former. 
 
-By `PRIMARY KEY` we mean a field or a combination of fields that is used to uniquely define a record (row). `PRIMARY KEY`s can be defined when creating a table or they can be added at a later time.
+A `PRIMARY KEY` is a field or a combination of fields that is used to uniquely define a record (row). `PRIMARY KEY`s can be defined when creating a table or they can be added at a later time.
 
 Let's start by creating a simple table `students` with 2 columns, `id` and `name`. We want to identify each `student` by their `id`, meaning that we will define this column as a `PRIMARY KEY`. To do this, you would have to write:
 

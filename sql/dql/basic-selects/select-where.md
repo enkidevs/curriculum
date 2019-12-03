@@ -65,7 +65,7 @@ And the resulting table would look like:
 |----|----------|-------|----|--------|---------|
 | 10 | Caterpie | 195   | 45 | 30     | 35      |
 
-To retrieve the `name` and `hp` of all pokemons with `attack` greater than or equal to 30, query:
+To retrieve the `name` and `hp` of all pokemon with `attack` greater than or equal to 30, query:
 
 ```sql
 SELECT name, hp
