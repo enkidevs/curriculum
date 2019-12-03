@@ -41,7 +41,7 @@ aspects:
 ---
 ## Content
 
-Probably the most used data types in tables are *numeric values*. They can be used for `id`s, `stats`, `damage points` and so on. Although some implementations might have slightly different names, in this workout you will learn about the ANSI Standard[1] data types and what they mean.
+*Numeric values* are probably the most used data type in tables. They can be used for `id`s, `stats`, `damage points` and so on. Although some implementations might have slightly different names, in this workout you will learn about the ANSI Standard[1] data types and what they mean.
 
 Exact numeric data types are used to store numerical values without digits after the decimal or with a fixed number of digits after the decimal. Below you will find a list of all the exact numeric data type that adhere to the ANSI Standards.
 
