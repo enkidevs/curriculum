@@ -50,7 +50,7 @@ The `FLOAT(n)` data type can store `n` or more digits after the decimal place, b
 - `REAL`
 - `DOUBLE PRECISION`
 
-The `REAL` and `DOUBLE PRECISION` types are very similar to `FLOAT`, with the difference being that you cannot choose the precision, this is already defined by the Relational Database Management System (RDBMS). The general convention is that `DOUBLE PRECISION` allows for a higher degree of accuracy than the `REAL` type.
+The `REAL` and `DOUBLE PRECISION` types are very similar to `FLOAT`. However, unlike `FLOAT` you cannot choose the precision, as this is already defined by the Relational Database Management System (RDBMS). The general convention is that `DOUBLE PRECISION` allows for a higher degree of accuracy than the `REAL` type.
 
 ---
 ## Practice
