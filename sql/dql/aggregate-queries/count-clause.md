@@ -70,7 +70,7 @@ We have a table `"location"`. It has data stating the region each location belon
 | ... | ...       | ...           |
 
 ```sql
-SELECT ???(name),???
+SELECT ???(name), ???
 FROM location
 ??? region_id
 ORDER BY region_id;
@@ -100,7 +100,7 @@ Output:
 Knowing that the pokemon db has a table called `item` and a field `name`, how do we count all name entries?
 
 ```sql
-SELECT COUNT(name)
+SELECT ???(???)
 FROM item;
 ```
 
@@ -110,11 +110,11 @@ Output:
 |-------|
 | 746   |
 
-
-* SELECT COUNT(name) FROM item;
-* SELECT COUNT(DISTINCT name) FROM item;
-* SELECT COUNT(item) FROM name;
-* SELECT COUNT(all) FROM item;
+* COUNT
+* name
+* DISTINCT name
+* item
+* all
 
 ---
 ## Footnotes
