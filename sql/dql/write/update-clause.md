@@ -29,7 +29,7 @@ links:
 ---
 ## Content
 
-The `UPDATE` clause enables user to modify existing rows in the database. It is often used with the `WHERE` clause to conditionally update data.
+The `UPDATE` clause enables users to modify existing rows in the database. It is often used with the `WHERE` clause to conditionally update data.
 
 Consider the `egg_group` table:
 
