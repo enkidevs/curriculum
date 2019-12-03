@@ -21,7 +21,7 @@ aspects:
 
 links:
 
-  - '[git-scm.com](https://git-scm.com/docs/git-clean){website}'
+  - '[Git Clean](https://git-scm.com/docs/git-clean){documentation}'
 
 
 ---

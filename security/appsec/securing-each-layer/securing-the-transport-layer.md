@@ -32,7 +32,7 @@ links:
 ---
 ## Content
 
-Vulnerabilities in the Transport Layer are usually brought about by misuse of ports. Hosting a web server on a remote access port (22), or handling SFTP on port 8000, for example. This kind of misuse results in an inability to filter out traffic by service, and can create errors that affect higher Layers on the OSI model. These issues can be mitigates by [strictly using ports as they are designed](http://packetlife.net/media/library/23/common_ports.pdf). For example, Web servers should only be hosted on port 80, HTTPS (HTTP over Secure Socket Layer) on port 443, FTP on port 20-21, and SSH on port 22.
+Vulnerabilities in the Transport Layer are usually brought about by misuse of ports. Hosting a web server on a remote access port (22), or handling SFTP on port 8000, for example. This kind of misuse results in an inability to filter out traffic by service, and can create errors that affect higher Layers on the OSI model. These issues can be mitigated by [strictly using ports as they are designed](http://packetlife.net/media/library/23/common_ports.pdf). For example, Web servers should only be hosted on port 80, HTTPS (HTTP over Secure Socket Layer) on port 443, FTP on port 20-21, and SSH on port 22.
  
 ---
 ## Practice

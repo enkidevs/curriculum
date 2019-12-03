@@ -61,11 +61,14 @@ FROM pokemon;
 Depending on how the database was created, you might have to deal with complicated column names. In order to increase readability, or to avoid repeatedly writing lengthy names, the columns can be renamed using *aliases* represented by the `AS` keyword.
 
 ```sql
-SELECT id, hp AS 'Health Points', attack
+SELECT 
+  id, 
+  hp AS 'Health Points', 
+  attack
 FROM pokemon;
 ```
 
-The above command gets only the `id`, `hp`, and `attack` columns from the table, but keeps all of the rows of the `pokemon` table. On top of that, we create an *alias* for the `hp` column that reads 'Health Points'. It is important to keep in mind that *aliases* exist only for the duration or purpose of the query. Here is what the result of our query looks like:
+The above command gets only the `id`, `hp`, and `attack` columns from the table, but keeps all of the rows of the `pokemon` table. On top of that, we create an *alias* for the `hp` column that reads 'Health Points'. It is important to keep in mind that *aliases* exist only for the duration or purpose of the query and do not change the original column name. Here is what the result of our query looks like:
 
 | id | Health Points | attack |
 |----|---------------|--------|
@@ -151,4 +154,3 @@ To select all the columns from a table, in the order they were define, you can u
 ```sql
 SELECT * FROM table_name;
 ```
-

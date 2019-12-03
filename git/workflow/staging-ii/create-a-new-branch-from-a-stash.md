@@ -20,7 +20,7 @@ aspects:
 
 links:
 
-  - '[git-scm.com](http://git-scm.com/book/en/v2/Git-Tools-Stashing-and-Cleaning){website}'
+  - '[Stashing And Cleaning](http://git-scm.com/book/en/v2/Git-Tools-Stashing-and-Cleaning){documentation}'
 
 parent: stashing-changes
 

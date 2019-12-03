@@ -33,11 +33,11 @@ They are generally secure, up to a degree. While the cryptographic mechanisms ar
              	
 It is more likely for an online wallet to be stolen from a server than an offline wallet to be stolen from you. Even the simpler paper wallets work great long-term, if you take care of them right.
              	
-Remember that this is all a game of keeping your private key secure: if you lose it or share it, all your money are gone. Similarly, if someone fools you into sending them your money, there's not much you can do to recover them.
+Remember that this is all a game of keeping your private key secure: if you lose it or share it, all of your money is gone. Similarly, if someone fools you into sending them your money, there's not much you can do to recover them.
              	
 ### Are cryptowallets anonymous?
              	
-Unless you are storing an anonymous coin like XMR (monero), best you could hope for is pseudo-anonymity. While an wallet doesn't store any personal information, the transactions are there on the blockchain. As it will be discussed in the next workout, there are some ways in which you could trace someone's identity. But unless you are dealing with very large sums, there's no need to worry too much.
+Unless you are storing an anonymous coin like XMR (monero), the best you can hope for is pseudo-anonymity. While a wallet doesn't store any personal information, the transactions are visible on the blockchain. As discussed in the next workout, there are some ways you can trace someone else's identity. But, unless you are dealing with very large sums, there's no need to worry too much.
 
 ---
 ## Practice

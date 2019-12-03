@@ -66,7 +66,7 @@ This shows the rows where the `name` is an exact match of either 'Meowth' or 'Go
 | 52 | Meowth  | 290   | 40 | 45     | 35      |
 | 55 | Golduck | 500   | 80 | 82     | 78      |
 
-In the previous insight we have used the `<>` comparison operator to check if the `name` was not 'Charmander'. The same can be achieved using `!=` or by coupling a comparison operator (`=`) and a logical operation (`NOT`):
+In the previous insight we used the `<>` comparison operator to check if the `name` was not 'Charmander'. The same can be achieved using `!=` or by coupling a comparison operator (`=`) and a logical operation (`NOT`):
 
 ```sql
 SELECT *
@@ -100,22 +100,21 @@ Select all the columns from the `pokemon` table, keeping the rows where the `tot
 ```sql
 SELECT * 
 FROM pokemon
-??? ??? 350 ???
-      ??? 5 ??? ??? 15; 
+??? (??? 350) ???
+  (??? 5 ??? ??? 15); 
 ```
 
-* WHERE
-* total >
-* OR
-* attack >
-* AND
-* attack <
-* IS
-* OR
-* total GREATER THAN
-* attack MORE THAN
-* total MORE THAN
-* attack GREATER THAN
+* `WHERE`
+* `total >`
+* `OR`
+* `attack >`
+* `AND`
+* `attack <`
+* `IS`
+* `total GREATER THAN`
+* `attack MORE THAN`
+* `total MORE THAN`
+* `attack GREATER THAN`
 
 ---
 ## Revision
@@ -130,16 +129,16 @@ FROM pokemon
 ???;
 ```
 
-* WHERE
-* name = 'bulbasaur' OR
-* name = 'ivysaur' OR
-* name = 'venusaur'
-* name IS
-* OR
-* name IN
-* 'ivysaur'
-* 'bulbasaur'
-* 'venusaur'
+* `WHERE`
+* `name = 'bulbasaur' OR`
+* `name = 'ivysaur' OR`
+* `name = 'venusaur'`
+* `name IS`
+* `OR`
+* `name IN`
+* `'ivysaur'`
+* `'bulbasaur'`
+* `'venusaur'`
 
 ---
 ## Quiz 
