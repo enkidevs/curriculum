@@ -28,7 +28,7 @@ parent: graph-adt
 ---
 ## Content
 
-A **tree** is the abstract data type that can store elements *hierarchically* (non-linearly). Every element other than the *root* has a **parent** element and zero or more **children** elements. The **root** can only have children.
+A **tree** is an abstract data type that can store elements *hierarchically* (non-linearly). Every element other than the *root* has a **parent** element and zero or more **children** elements. The **root** can only have children.
 
 Consider the following tree, whose root node is *A*:
 
@@ -36,13 +36,13 @@ Consider the following tree, whose root node is *A*:
 
 For example, a data structure that implements the *Tree* ADT is LinkedList, whose nodes have at most one child.
 
-One of the most intuitive multilayered data structure representation is the *family tree*: a common ancestor, that has one or more children, that have zero, one or more children of their own etc. up to their last off-springs.
+One of the most intuitive multilayered data structure representation is the *family tree*: a common ancestor has one or more children, who in turn have children of their own etc.
 
 The nodes in a family tree have a value and a list of references to their children. The group formed by these nodes is called a **linked tree**.
 
-More formally, a **linked tree T** is a set of **nodes** having a **parent-child** relationship:
-- If *T is non-empty*, it must have a node, called *root*, without a parent.
-- Every *node* other than the root has an unique parent *w*; those nodes are the children of *w*.
+More formally, a **linked tree T** is a set of **nodes** which have a **parent-child** relationship:
+- If *T is non-empty*, it must have a node, called a *root*, without a parent.
+- Every *node* other than the root has an unique parent *w*; these nodes are the children of *w*.
 
 A tree is **ordered** if there is a *linear* relation among the *nodes on each level*. The way a book is structured exemplifies this:
 - The actual document, the book, is the *root*.
