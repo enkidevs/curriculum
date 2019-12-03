@@ -37,7 +37,7 @@ Remember that this is all a game of keeping your private key secure: if you lose
              	
 ### Are cryptowallets anonymous?
              	
-Unless you are storing an anonymous coin like XMR (monero), the best you could hope for is pseudo-anonymity. While a wallet doesn't store any personal information, the transactions are there on the blockchain. As discussed in the next workout, there are some ways you can trace someone else's identity. But, unless you are dealing with very large sums, there's no need to worry too much.
+Unless you are storing an anonymous coin like XMR (monero), the best you can hope for is pseudo-anonymity. While a wallet doesn't store any personal information, the transactions are visible on the blockchain. As discussed in the next workout, there are some ways you can trace someone else's identity. But, unless you are dealing with very large sums, there's no need to worry too much.
 
 ---
 ## Practice
