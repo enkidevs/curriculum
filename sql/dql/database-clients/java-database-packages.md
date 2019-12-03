@@ -1,5 +1,5 @@
 ---
-author: Nick Daminov
+author: nickdaminnov
 
 levels:
   - basic
