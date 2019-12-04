@@ -18,7 +18,7 @@ links:
   - '[HTML <input type="range"](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/range){documentation}'
 
 ---
-# The HTML `<input type="range"`
+# HTML `range` type input
 ---
 ## Content
 
