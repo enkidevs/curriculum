@@ -28,14 +28,14 @@ links:
 
 To be able to use **Git**, it first must be available on your machine. You can install **Git** in various ways, depending on your Operating System.
 
-**Git** is available for downloading together with installing instructions from the official **Git** website for *Linux* , *Windows* or *Mac OSX*.
+**Git** is available to download together with installing instructions from the official **Git** website for *Linux* , *Windows* or *Mac OSX*.
 
 
 ### Mac OS X
 
 
 You can install **Git** by:
-- running `git` from the terminal will prompt you to the installation if your OS version is at least `10.9.`
+- running `git` from the terminal, which will prompt you to the installation if your OS version is at least `10.9.`
 
 
 ### Linux
