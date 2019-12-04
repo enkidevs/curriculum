@@ -68,7 +68,7 @@ Output:
 ---
 ## Practice
 
-We have the table `"item"`. It holds data about each item and it's cost. We want to find out the most expensive item:
+We have the table `item`. It holds data about each item and its cost. We want to find out the most expensive item:
 
 | id | cost | name        |
 |----|------|-------------|
@@ -91,7 +91,7 @@ SELECT ???(???) FROM ???
 ---
 ## Revision
 
-Consider the table `"move_effect_change"`. Choose the query that finds the move with the lowest effect:
+Consider the table `move_effect_change`. Choose the query that finds the move with the **lowest** effect:
 
 | id | move_effect | version_group_id |
 |----|-------------|------------------|
@@ -113,7 +113,7 @@ FROM move_effect_change;
 ---
 ## Footnotes
 [1:Pokemon Db]
-We will use the same segment of `"experience"` table for all aggregate functions:
+We will use the same segment of `experience` table for all aggregate functions:
 
 | id  | level | experience | growth_rate_id |
 |-----|-------|------------|----------------|

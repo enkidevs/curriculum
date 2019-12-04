@@ -72,7 +72,7 @@ ALTER COLUMN column_name
 SET DEFAULT value;
 ```
 
-Keep in mind that the `'value'` must have the same data type as the column. 
+Keep in mind that the `value` must have the same data type as the column. 
 
 If you wanted to remove the default value from one of your columns, you would use:
 

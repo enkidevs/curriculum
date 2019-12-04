@@ -60,7 +60,7 @@ No matter how many entries there are in the `experience` table, we limit the out
 ---
 ## Practice
 
-We have a table `"location"`. It has data stating the region each location belongs to. How many locations are there in each region? Display the result ordered by regions.
+We have a table `location`. It has data stating the region each location belongs to. How many locations are there in each region? Display the result ordered by regions.
 
 | id  | region_id | name          |
 |-----|-----------|---------------|
@@ -119,7 +119,7 @@ Output:
 ---
 ## Footnotes
 [1:Pokemon Db]
-We will use the same segment of `"experience"` table for all aggregate functions:
+We will use the same segment of `experience` table for all aggregate functions:
 
 | id  | level | experience | growth_rate_id |
 |-----|-------|------------|----------------|

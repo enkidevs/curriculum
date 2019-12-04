@@ -42,14 +42,14 @@ aspects:
 ---
 ## Content
 
-When creating a new table there are a couple rules which must be always followed to ensure good performance:
+When creating a new table there are some essential rules to follow to ensure good performance:
 
 * each table column has a fixed name
 * all data in a column must be of the same type
 
 On top of the rules mentioned above, you must also decide what data you want to include in your table, what name do you assign to the data (column) and what type it is going to be[1].
 
-The process of creating a new table is very simple. First, we need to tell the database that we want to create a new table using the `CREATE TABLE` statement followed by the table name. Inside the `CREATE TABLE` statement you start defining your columns together with their types, and every subsequent pair of column-type must be preceded by a comma.
+The process of creating a new table contains two steps. First, you tell the database that you want to create a new table using the `CREATE TABLE` statement followed by the table name. Next, inside the `CREATE TABLE` statement, you start defining your columns together with their types, and every subsequent pair of column-type must be preceded by a comma.
 
 To gain a better understanding of this concept let's look at an example. We want to create a simple table called `employees` which takes two columns:
 

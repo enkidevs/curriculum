@@ -47,7 +47,7 @@ Let's consider the following `pokemon` table:
 | Pikachu    | 5     | 45 | 65     | 50      |
 | Charmander | 10    | 50 | 66     | 54      |
 
-If we wanted to return the `name` and `level` of all the pokemon that are not named `'Charmander'` and that don't have a level higher than 3 we would use the following query:
+If we wanted to return the `name` and `level` of all the pokemon that are not named `'Charmander'` and that don't have a level higher than `3` we would use the following query:
 
 ```sql
 SELECT name, level
@@ -132,4 +132,3 @@ have this result when used with the above query?
 * WHERE id='speed-boost';
  
  
-

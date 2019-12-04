@@ -36,7 +36,7 @@ aspects:
 ---
 ## Content
 
-Node is another popular platform (available as a course for premium users) which uses JavaScript. As there are lots of packages available for it we will take a look at some of the database packages:
+Node is another popular platform and it uses JavaScript. As there are lots of packages available for it we will take a look at some of the database packages:
  - mongoose (for MongoDB)
  - sqlite3
  - pg (for postgres)

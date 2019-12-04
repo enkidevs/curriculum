@@ -89,7 +89,7 @@ DROP CONSTRAINT constraint_name;
 ---
 ## Practice
 
-Consider the `generation` table. We want to add a new constraint called `"PK-constraints"` in which we state that we want `region_id` and `name` columns to be primary keys:
+Consider the `generation` table. We want to add a new constraint called `PK-constraints` in which we state that we want `region_id` and `name` columns to be primary keys:
 
 | id | region_id | name           |
 |----|-----------|----------------|

@@ -70,7 +70,7 @@ LEFT JOIN type
 ON pokemon_type.type_id = type.id;
 ```
 
-This is effectively join the first two tables (`pokemon_type` and `pokemon`) and then join the resulting table with the *type* table.
+This is effectively a join between the first two tables (`pokemon_type` and `pokemon`) and then a join between the resulting table and the `type` table.
 
 These are the first four rows of output (out of 1225):
 
