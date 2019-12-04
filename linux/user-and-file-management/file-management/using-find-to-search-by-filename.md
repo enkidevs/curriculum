@@ -37,7 +37,7 @@ aspects:
 ---
 ## Content
 
-The `find` command is used to search for files on your computer.  One of the most common uses is to search for a files based on their filename, although it can do much more than that.
+The `find` command is used to search for files on your computer.  One of the most common uses is to search for a file based on its filename, although it can do much more than that.
 
 Here's a quick example that will print out the names of every mp3 file in the current directory:
 
