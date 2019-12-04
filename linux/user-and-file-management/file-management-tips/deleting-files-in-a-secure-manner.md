@@ -46,9 +46,9 @@ aspects:
 ---
 ## Content
 
-Delete files in a relatively secure way using `shred`. 
+You can delete files in a relatively secure way using `shred`. 
 
-It is obtainable through the installation of `coreutils` (Ubuntu has it preinstalled). `shred` securely erases and overwrites single files with the `Gutmann`[1] method. 
+`Shred`is obtainable through the installation of `coreutils` (Ubuntu has it preinstalled). `shred` securely erases and overwrites single files with the `Gutmann`[1] method. 
 
 Fast shredding:
 ```
