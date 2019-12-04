@@ -15,7 +15,7 @@ aspects:
   - deep
 
 links:
-  - '[Walkthrough For <video>](https://www.quackit.com/html_5/tags/html_video_tag.cfm){article}'
+  - '[Walkthrough for <video>](https://www.quackit.com/html_5/tags/html_video_tag.cfm){article}'
   - '[HTML <video> Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video){documentation}'
 
 ---
