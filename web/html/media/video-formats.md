@@ -15,7 +15,7 @@ aspects:
   - deep
 
 links:
-  - '[Walkthrough For <video>](https://www.quackit.com/html_5/tags/html_video_tag.cfm){article}'
+  - '[Walkthrough for <video>](https://www.quackit.com/html_5/tags/html_video_tag.cfm){article}'
   - '[Validated on css-tricks.com](https://css-tricks.com/snippets/html/video-for-everybody-html5-video-with-flash-fallback/){documentation}'
 
 ---
