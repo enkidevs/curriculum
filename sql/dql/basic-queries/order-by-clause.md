@@ -98,7 +98,7 @@ ORDER BY last_name ASC, first_name DESC;
 | Pantone   | Karlene    |
 | Warrier   | Esta       |
 
-First, the `last_name` column is sorted in ascending order, and for the rows where the `last_name` have equal values (`'Pantone Karlene'`, `'Pantone Regina'`) the `first_name` column is sorted in descending order.
+First, the `last_name` column is sorted in ascending order, and for the rows where the `last_name` has equal values (`'Pantone Karlene'`, `'Pantone Regina'`) the `first_name` column is sorted in descending order.
 
 ---
 ## Practice
@@ -166,4 +166,3 @@ This table shows how much experience you need to gain in order to get to level 1
 * SELECT * FROM experience WHERE level=100 ORDER DESC BY experience;
  
  
-

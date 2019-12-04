@@ -47,9 +47,9 @@ SELECT *
 FROM pokemon;
 ```
 
-What the above query does is that it `SELECT`s all (represented by the `*` symbol) the columns in the order of their definition in the database `FROM` the table named `pokemon`. The returned table will contain all of the *columns* and all of the *rows* from the table.
+The query above `SELECT`s all the columns (represented by the `*` symbol), in the order of their definition in the database, `FROM` the table named `pokemon`. The returned table will contain all of the *columns* and all of the *rows* from the table.
 
-Note that all the SQL keywords like `SELECT` and `FROM` are case insensitive, but they are capitalized to increase readability. The example above can also be written as:
+Note that all the SQL keywords like `SELECT` and `FROM` are case insensitive, but they are capitalized to improve readability. The example above can also be written as:
 
 ```sql
 select *
@@ -59,7 +59,7 @@ from pokemon;
 ---
 ## Practice
 
-Which of the following queries will return all columns and all rows from a a table called `item`?
+Which of the following queries will return all columns and all rows from a table called `item`?
 
 ???
 
@@ -81,4 +81,3 @@ Which of these symbols is used to denote "all columns" in SQL?
 * `?`
 * `%`
 * `#`
-

@@ -83,7 +83,7 @@ SELECT ???(???)
 ---
 ## Revision
 
-We have a table called `"contest_combo"`. It holds info about how much damage each combo can give. We want to know an average damage value for the second move:
+We have a table called `contest_combo`. It holds info about how much damage each combo can give. We want to know an average damage value for the second move:
 
 | id | first_move | second_move |
 |----|------------|-------------|
@@ -109,7 +109,7 @@ Output:
 ---
 ## Footnotes
 [1:Pokemon Db]
-We will use the same segment of `"experience"` table for all aggregate functions:
+We will use the same segment of `experience` table for all aggregate functions:
 
 | id | level | experience | growth_rate_id |
 |----|-------|------------|----------------|

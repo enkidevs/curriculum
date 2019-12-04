@@ -66,7 +66,7 @@ This shows the rows where the `name` is an exact match of either `'Meowth'` or `
 | 52 | Meowth  | 290   | 40 | 45     | 35      |
 | 55 | Golduck | 500   | 80 | 82     | 78      |
 
-In the previous insight we have used the `<>` comparison operator to check if the `name` was not `'Charmander'`. The same can be achieved using `!=` or by coupling a comparison operator (`=`) and a logical operation (`NOT`):
+In the previous insight we used the `<>` comparison operator to check if the `name` was not `'Charmander'`. The same can be achieved using `!=` or by coupling a comparison operator (`=`) and a logical operation (`NOT`):
 
 ```sql
 SELECT *
@@ -74,7 +74,7 @@ FROM pokemon
 WHERE NOT name = 'Charmander';
 ```
 
-This statement shows all rows **except** for the one where name is equal to `'Charmander'`. In our case, this query would return all our records (rows) as we do not have any entries with the `name` `'Charmander'`.
+This statement shows all rows **except** for the one where the name is equal to `'Charmander'`. In our case, this query would return all our records (rows) as we do not have any entries that would be filtered by that condition.
 
 You can also use parenthesis to construct complex expressions, like so:
 
@@ -164,4 +164,3 @@ Choose the query that will get all move names with id between 3 and 6. Also, pay
 * SELECT name FROM move_name WHERE move_id IN (3,6) AND language_id >= 5 AND language_id <= 9;
  
  
-

@@ -82,7 +82,7 @@ DROP COLUMN boring_column;
 ---
 ## Practice
 
-Consider the `"gender"` table. We want to add a new column called `"members"`. This column will store data about how many members each gender has.
+Consider the `gender` table. We want to add a new column called `members`. This column will store data about how many members each gender has.
 
 | id | name       |
 |----|------------|
