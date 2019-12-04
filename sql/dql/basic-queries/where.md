@@ -47,7 +47,7 @@ Let's consider the following `pokemon` table:
 | Pikachu    | 5     | 45 | 65     | 50      |
 | Charmander | 10    | 50 | 66     | 54      |
 
-If we wanted to return the `name` and `level` of all the pokemons that are not named 'Charmander' and that don't have a level higher than 3 we would use the following query:
+If we wanted to return the `name` and `level` of all the pokemon that are not named `'Charmander'` and that don't have a level higher than `3` we would use the following query:
 
 ```sql
 SELECT name, level
@@ -108,24 +108,23 @@ Select all the rows from the `pokemon` table where the name is exactly equal to 
 ### Can you find a particular entry in a table with SQL?
 
 Consider the `ability` table and the following query:
-```
 
-id   | is_main_series | generation_id |      name      
-=====|================|===============|===============
-   1 | t              |             3 | stench
-   2 | f              |             3 | drizzle
-   3 | t              |             3 | speed-boost
-   4 | t              |             3 | battle-armor
-(...)
+| id  | is_main_series | generation_id | name         |
+|-----|----------------|---------------|--------------|
+| 1   | t              | 3             | stench       |
+| 2   | f              | 3             | drizzle      |
+| 3   | t              | 3             | speed-boost  |
+| 4   | t              | 3             | battle-armor |
+| ... | ...            | ...           | ...          |
 
+```sql
 SELECT *
 FROM ability
-
 ```
 We want to get the record for the ability called "speed-boost". Which of the following `WHERE` clauses will
 have this result when used with the above query?
 
- ???
+???
 
 * WHERE name='speed-boost';
 * WHERE name IS "speed-boost";
@@ -133,4 +132,3 @@ have this result when used with the above query?
 * WHERE id='speed-boost';
  
  
-

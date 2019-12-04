@@ -41,7 +41,7 @@ aspects:
 ---
 ## Content
 
-When creating a table you can also set a default value for your columns. This value can be a constant number like 5, a string like 'not available', a system variable or a function call that determines dynamic values like the actual timestamp.
+When creating a table you can also set a default value for your columns. This value can be a constant number like 5, a string like `'not available'`, a system variable or a function call that determines dynamic values like the actual timestamp.
 
 The `DEFAULT` clause affects `INSERT` commands that do not specify a value for the column in question. Let's start off by defining a simple table named `dogs` that only takes the `name` and `weight` columns.
 

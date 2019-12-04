@@ -39,8 +39,12 @@ Queries in SQL are commonly written to return only the columns of interest. Let'
 If you only want to see *some* of the columns in a table, use a `SELECT` statement followed by a comma-separated list of the columns you wish to retrieve:
 
 ```sql
-SELECT name, hp, attack
-FROM pokemon;
+SELECT 
+  name, 
+  hp, 
+  attack
+FROM 
+  pokemon;
 ```
 
 The above command retrieves the `name`, `hp` and `attack` information for all of the *rows* in the `pokemon` table. The resulting table would look something like this:

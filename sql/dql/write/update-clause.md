@@ -86,12 +86,12 @@ UPDATE egg_group
 SET name = 'water'
 WHERE id IN
   (SELECT egg_id
-   FROM pokemons
+   FROM pokemon
    WHERE type LIKE '%water%'
   );
 ```
 
-In the example above, we change the `name` for all our records in the `egg_group` table which have their `id` equal to `egg_id` for the records in the `pokemons` table that contain `'water'` in their `type` column.
+In the example above, we will change the `name` for all our records in the `egg_group` table which have their `id` equal to `egg_id` for the records in the `pokemon` table that contain `'water'` in their `type` column.
 
 ---
 ## Practice

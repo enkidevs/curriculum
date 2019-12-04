@@ -84,14 +84,14 @@ The `NO ACTION` argument is similar to `RESTRICT` in that it prohibits changing 
 ---
 ## Practice
 
-Complete the following syntax such that the *trigger* named 'integrity' prohibits deleting a record from the `pokemons` table if there are any matching records in the `region` table.
+Complete the following syntax such that the *trigger* named `'integrity'` prohibits deleting a record from the `pokemon` table if there are any matching records in the `region` table.
 
 ```sql
 CREATE TABLE region (
   ...
   ??? integrity
   ??? (id)
-  ??? pokemons(region_id)
+  ??? pokemon(region_id)
   ??? RESTRICT
   ??? RESTRICT,
   ...

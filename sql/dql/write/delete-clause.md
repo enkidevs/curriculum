@@ -77,14 +77,14 @@ Then, our table becomes:
 | 14 | dragon        |
 | 15 | no-eggs       |
 
-You can also use subqueries when constraining the rows you want deleted. Here is an example of how to delete your records from the `egg_group` table if the pokemon is a 'fire' type:
+You can also use subqueries when constraining the rows you want deleted. Here is an example of how to delete your records from the `egg_group` table if the pokemon is a `'fire'` type:
 
 ```sql
 DELETE FROM egg_group
-WHERE  id IN
+WHERE id IN
   (SELECT egg_id
-   FROM   pokemons
-   WHERE  type = 'fire'
+   FROM pokemon
+   WHERE type = 'fire'
   );
 ```
 
