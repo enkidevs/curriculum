@@ -36,7 +36,7 @@ To do this, in the Python3 interpreter (REPL), use Python's print function as fo
 >>> print('Hello World!')
 ```
 
-Note that `print` as a method which you pass arguments to is specific syntax to Python 3.x. In Python 2.x `print` is a statement and would be used as follows:
+Note that `print`, as a method which you pass arguments to, is specific syntax to Python 3.x. In Python 2.x `print` is a statement and would be used as follows:
 
 ```python
 >>> print 'Hello World!'

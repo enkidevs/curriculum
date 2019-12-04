@@ -29,27 +29,18 @@ links:
 ---
 ## Content
 
-The `UPDATE` clause enables user to modify existing rows in the database. It is often used with the `WHERE` clause to conditionally update data.
+The `UPDATE` clause enables users to modify existing rows in the database. It is often used with the `WHERE` clause to conditionally update data.
 
 Consider the `egg_group` table:
 
-| id | name          |
-|----|---------------|
-| 1  | monster       |
-| 2  | water1        |
-| 3  | bug           |
-| 4  | flying        |
-| 5  | ground        |
-| 6  | fairy         |
-| 7  | plant         |
-| 8  | humanshape    |
-| 9  | water3        |
-| 10 | mineral       |
-| 11 | indeterminate |
-| 12 | water2        |
-| 13 | ditto         |
-| 14 | dragon        |
-| 15 | no-eggs       |
+| id  | name    |
+|-----|---------|
+| 1   | monster |
+| 2   | water1  |
+| ... | ...     |
+| 13  | ditto   |
+| 14  | dragon  |
+| 15  | no-eggs |
 
 If we want to change the value "ditto" to "rabbit", we use `SET`:
 
@@ -61,23 +52,14 @@ WHERE id = 13;
 
 *Result:*
 
-| id | name          |
-|----|---------------|
-| 1  | monster       |
-| 2  | water1        |
-| 3  | bug           |
-| 4  | flying        |
-| 5  | ground        |
-| 6  | fairy         |
-| 7  | plant         |
-| 8  | humanshape    |
-| 9  | water3        |
-| 10 | mineral       |
-| 11 | indeterminate |
-| 12 | water2        |
-| 13 | rabbit        |
-| 14 | dragon        |
-| 15 | no-eggs       |
+| id  | name    |
+|-----|---------|
+| 1   | monster |
+| 2   | water1  |
+| ... | ...     |
+| 13  | rabbit  |
+| 14  | dragon  |
+| 15  | no-eggs |
 
 Note that if the `WHERE` clause isn't used all the values in the specified column will be updated:
 
@@ -88,23 +70,14 @@ SET name = 'rabbit';
 
 *Result:*
 
-| id | name   |
-|----|--------|
-| 1  | rabbit |
-| 2  | rabbit |
-| 3  | rabbit |
-| 4  | rabbit |
-| 5  | rabbit |
-| 6  | rabbit |
-| 7  | rabbit |
-| 8  | rabbit |
-| 9  | rabbit |
-| 10 | rabbit |
-| 11 | rabbit |
-| 12 | rabbit |
-| 13 | rabbit |
-| 14 | rabbit |
-| 15 | rabbit |
+| id  | name   |
+|-----|--------|
+| 1   | rabbit |
+| 2   | rabbit |
+| ... | ...    |
+| 13  | rabbit |
+| 14  | rabbit |
+| 15  | rabbit |
 
 You can also use subqueries in your `WHERE` clause to determine which records are involved in the `UPDATE` command. On top of that, you can chain complex combinations of boolean operators or predicates like `ANY`, `ALL`, or `EXISTS` to further constrain which records are updated. Here is a simple example:
 
@@ -118,7 +91,7 @@ WHERE id IN
   );
 ```
 
-In the example above, we will change the `name` for all our records in the `egg_group` table which have their `id` equal to `egg_id` for the records in the `pokemons` table that contain 'water' in their `type` column.
+In the example above, we change the `name` for all our records in the `egg_group` table which have their `id` equal to `egg_id` for the records in the `pokemons` table that contain `'water'` in their `type` column.
 
 ---
 ## Practice

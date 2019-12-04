@@ -47,7 +47,7 @@ jesse@host ~ $ which wget
 jesse@host ~ $
 ```
 
-This tells me that when I type `ps` at the prompt and hit enter my shell will actually be running the `/bin/ps` executable.
+This tells me that when I type `ps` at the prompt and hit enter, my shell will actually be running the `/bin/ps` executable.
 
 **Note**: these paths are purely hypothetical and you may not see the same output on your own system.
 
