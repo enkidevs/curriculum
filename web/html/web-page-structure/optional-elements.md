@@ -13,7 +13,7 @@ aspects:
   - introduction
 
 links:
-  - '[w3: Optional Elements](https://www.w3.org/TR/html5/syntax.html#optional-tags){documentation}'
+  - '[W3: Optional Elements](https://www.w3.org/TR/html5/syntax.html#optional-tags){documentation}'
   - '[Google: Optional Elements](https://google.github.io/styleguide/htmlcssguide.html#Optional_Tags){documentation}'
 
 ---
