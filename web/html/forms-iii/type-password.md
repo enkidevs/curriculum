@@ -17,7 +17,7 @@ aspects:
 links:
 
 ---
-# The HTML `<input type="password"`
+# HTML `password` type input
 ---
 ## Content
 
