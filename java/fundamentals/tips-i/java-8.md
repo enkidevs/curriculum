@@ -28,7 +28,7 @@ aspects:
 ---
 ## Content
 
-With the introduction of Java 8, numerous classes and interfaces have been added to the languages as to help users program easier and in a more efficient fashion.
+With the introduction of Java 8, numerous classes and interfaces have been added to the languages so as to help users program easier and in a more efficient fashion.
 
 ---
 ## Game Content
