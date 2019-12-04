@@ -89,12 +89,6 @@ The port is `23336`.
 * `aws-us-west-1-portal.29.dblayer.com`
 * `23336`
 * `pokemon`
-* `postgres`
-* `dbprotocol`
-* `hostname`
-* `aws-us-east-1-portal.29.dblayer.com`
-* `?ssl=true`
-* `mssql`
 
 ---
 ## Revision
@@ -119,9 +113,3 @@ The port is `23336`.
 * `aws-us-east-1-portal.42.dblayer.com`
 * `23336`
 * `pokemon`
-* `dbprotocol`
-* `hostname`
-* `aws-us-east-1-portal.29.dblayer.com`
-* `mysql`
-* `?ssl=true`
-* `mssql`

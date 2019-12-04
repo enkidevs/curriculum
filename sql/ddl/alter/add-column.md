@@ -55,9 +55,9 @@ ALTER TABLE table_name
 ADD column_name datatype;
 ```
 
-You must always specify the column name and its data type, with some other option arguments being available.You can add a `CHECK` constraint, a `DEFAULT` value, a `NOT NULL` clause, or even set the column as a `PRIMARY KEY` (that is, if there isn't a `PRIMARY KEY` already defined).
+You must always specify the column name and its data type, with some other optional arguments being available. For example, you can add a `CHECK` constraint, a `DEFAULT` value, a `NOT NULL` clause, or even set the column as a `PRIMARY KEY` (that is, if there isn't a `PRIMARY KEY` already defined).
 
-Here's how you would add a new column that only takes `INTEGERS` that are not null with a default value of 1:
+Here's how you would add a new column that only takes `INTEGERS` with a default value of 1, and makes them required (commonly known as not being `NULL`):
 
 ```sql
 ALTER TABLE pets
@@ -107,7 +107,7 @@ ADD ??? ???;
 ---
 ## Revision
 
-Consider the `"generation"` table. How would you delete the `"region_id"` column:
+Consider the `generation` table. How would you delete the `region_id` column:
 
 | id | region_id | name           |
 |----|-----------|----------------|
