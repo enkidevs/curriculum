@@ -14,7 +14,7 @@ aspects:
 
 links:
   - '[w3: Optional Elements](https://www.w3.org/TR/html5/syntax.html#optional-tags){documentation}'
-  - '[google.github.io: Optional Elements](https://google.github.io/styleguide/htmlcssguide.html#Optional_Tags){documentation}'
+  - '[Google: Optional Elements](https://google.github.io/styleguide/htmlcssguide.html#Optional_Tags){documentation}'
 
 ---
 # Optional Elements
