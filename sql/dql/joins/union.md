@@ -54,7 +54,6 @@ FROM language_name;
 /* ERROR:  each UNION query must have
  the same number of columns
  LINE 4: SELECT *  */
-
 ```
 
 As well as the next one:
@@ -79,18 +78,15 @@ from language_name;
 ```
 
 With the output:
-```
-id |       name       
-===+============
-16 | Chinese
-35 | Englisch
- 2 | roomaji
-29 | 伊語
-9  | en
-26 | Espagnol
 
-(51 rows)
-```
+| id | name     |
+|----|----------|
+| 16 | Chinese  |
+| 35 | Englisch |
+| 2  | roomaji  |
+| 29 | 伊語     |
+| 9  | en       |
+| 26 | Espagnol |
 
 ### UNION ALL
 
@@ -104,20 +100,18 @@ from language_name;
 ```
 
 And the output:
-```
-id  |       name       
-====+============
-  1 | ja
-  2 | roomaji
-  3 | ko
-  4 | zh
-  5 | fr
-  6 | de
-  7 | es
-  8 | it
-  9 | en
-(51 rows)
-```
+
+| id | name    |
+|----|---------|
+| 1  | ja      |
+| 2  | roomaji |
+| 3  | ko      |
+| 4  | zh      |
+| 5  | fr      |
+| 6  | de      |
+| 7  | es      |
+| 8  | it      |
+| 9  | en      |
 
 For tables where data singularity is not always the case, the results might be different. An immediate consequence of this is that `UNION` performs worse, as it must scan the result for duplicates.
 

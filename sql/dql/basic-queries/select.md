@@ -86,8 +86,10 @@ Remember, the information is not deleted from the database, you're simply **quer
 
 Get all of the columns and rows from the `pokemon_form` table.
 
+```sql
 ??? ???
 ??? ???;
+```
 
 
 * `SELECT`
@@ -105,9 +107,10 @@ Get all of the columns and rows from the `pokemon_form` table.
 
 Get all of the rows and the `id`, `weight`, `name` columns from the `pokemon` table.
 
+```sql
 ??? ??? ??? ???
 ??? ???;
-
+```
 
 * `SELECT`
 * `id, `
@@ -126,16 +129,13 @@ Get all of the rows and the `id`, `weight`, `name` columns from the `pokemon` ta
 ### What statement gets columns and rows from tables?
 Given a table called `ability` from our pokemon database:
 
-```
-id   | is_main_series | generation_id |      name      
-=====|================|===============|===============
-   1 | t              |             3 | stench
-   2 | f              |             3 | drizzle
-   3 | t              |             3 | speed-boost
-   4 | t              |             3 | battle-armor
-(...)
-
-```
+| id  | is_main_series | generation_id | name         |
+|-----|----------------|---------------|--------------|
+| 1   | t              | 3             | stench       |
+| 2   | f              | 3             | drizzle      |
+| 3   | t              | 3             | speed-boost  |
+| 4   | t              | 3             | battle-armor |
+| ... | ...            | ...           | ...          |
 
 Choose the query that will get all the entries from this table:
 
