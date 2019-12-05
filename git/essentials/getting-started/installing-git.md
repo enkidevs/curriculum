@@ -34,8 +34,7 @@ To be able to use **Git**, it first must be available on your machine. You can i
 ### Mac OS X
 
 
-You can install **Git** by:
-- running `git` from the terminal, which will prompt you to the installation if your OS version is at least `10.9.`
+You can install **Git** by running `git` from the terminal, which will prompt you to proceed with the installation if your OS version is at least `10.9.`
 
 
 ### Linux
