@@ -76,14 +76,9 @@ FROM pokemon
 
 * WHERE
 * level <
-* AND
 * attack >
-* FROM
-* pokemon
-* IS
 * level IS LESS THAN
 * attack IS GREATER THAN
-* OR
 
 ---
 ## Revision
