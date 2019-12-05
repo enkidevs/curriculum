@@ -76,16 +76,14 @@ string in ES6!`;
 ---
 ## Practice
 
-Which of the following represent the correct way of defining a multi line string variable?
+Which characters are used to enclose a multi-line string?
 
 ```js
-let A = 'I am
-a multi line
-string';
+"" // A
+```
 
-let B = `I am
-a multi line
-string`;
+```js
+`` // B
 ```
 
 ???
