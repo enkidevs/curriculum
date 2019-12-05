@@ -55,7 +55,7 @@ LIMIT 5;
 |-------|
 | 5     |
 
-No matter how many entries there are in the `experience` table, we limit the output to 5 rows. Hence, the result is *5*.
+No matter how many entries there are in the `experience` table, we limit the output to 5 rows. Hence, the result is `5`.
 
 ---
 ## Practice

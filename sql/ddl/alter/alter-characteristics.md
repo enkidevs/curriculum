@@ -52,7 +52,7 @@ There are three main characteristics which you can change using an `ALTER` comma
 
 ### Data Type
 
-Although you are able to change the data type of a column, the new definition must be compatible with the old existing data. For example, if you change a numeric type to `VARCHAR` this will always work. If, however, you change a `VARCHAR` type to numeric, values like 'abc' will fail to be cast as numbers.
+Although you are able to change the data type of a column, the new definition must be compatible with the old existing data. For example, if you change a numeric type to `VARCHAR` this will always work. If, however, you change a `VARCHAR` type to numeric, values like `'abc'` will fail to be cast as numbers.
 
 The syntax for changing a data type looks like this:
 

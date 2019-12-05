@@ -42,7 +42,7 @@ Consider the `egg_group` table:
 | 14  | dragon  |
 | 15  | no-eggs |
 
-If we want to change the value "ditto" to "rabbit", we use `SET`:
+If we want to change the value `"ditto"` to `"rabbit"`, we use `SET`:
 
 ```sql
 UPDATE egg_group
@@ -113,7 +113,7 @@ SET ???='generation-vi'
 WHERE id=???;
 ```
 
-We would like to update the table contents such that the last generation is generation "vi" instead of "vii".
+We would like to update the table contents such that the last generation is generation `"vi"` instead of `"vii"`.
 
 * UPDATE
 * name
