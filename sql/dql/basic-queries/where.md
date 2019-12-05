@@ -65,25 +65,20 @@ In this query we are using two conditionals: `name` is not equal (`<>`) to `'Cha
 ---
 ## Practice
 
-Select all the columns and rows from the `pokemon` table where the `level` is less than `10` *and* the `attack` is higher than 40.
+Select all the columns and rows from the `pokemon` table where the `level` is less than `10`.
 
 ```sql
 SELECT * 
 FROM pokemon
-??? ??? 10 ??? ??? 40;
+??? ??? 10;
 ```
 
 
 * WHERE
 * level <
-* AND
-* attack >
-* FROM
-* pokemon
-* IS
+* level <=
 * level IS LESS THAN
-* attack IS GREATER THAN
-* OR
+* level IS LESS THAN OR EQUAL TO
 
 ---
 ## Revision
