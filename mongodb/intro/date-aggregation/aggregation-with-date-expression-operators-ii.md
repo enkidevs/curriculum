@@ -58,7 +58,7 @@ Output:
 }
 ```
 
-As you can see in the example above, the `$match` stage was used to match the pokémon(document) named "Bulbasaur" and get the year it was created.
+As you can see in the example above, the `$match` stage was used to match the pokémon document named `"Bulbasaur"` and get the year it was created.
 
 The "Date" in `year: { $year: "$Date" }` is just how we named our date field after we extracted the date with the `.getTimestamp()` method.
 
