@@ -56,12 +56,12 @@ VALUES('{
 	"types": ["poison", "grass"],
 	"has_evolution": true,
   "moves": [{
-      "name": "Tackle",
-      "level": 1,
-      "pp": 35,
-      "power": 40,
-      "accuracy": 100,
-      "type": null
+    "name": "Tackle",
+    "level": 1,
+    "pp": 35,
+    "power": 40,
+    "accuracy": 100,
+    "type": null
   }]}');
 ```
 And querying object properties is done using `@>` operator:
@@ -71,11 +71,10 @@ FROM poke_json WHERE
 pokemon @> '{"types": ["poison", "grass"]}';
 ```
 With the output:
-```
-   id   |     pokemon
-========+===================
-    1   | {"id": 1, "name": "Bulbasaur" ...}
-```
+
+| id | pokemon                            |
+|----|------------------------------------|
+| 1  | {"id": 1, "name": "Bulbasaur" ...} |
 
 ---
 ## Practice
@@ -102,7 +101,6 @@ Querying the JSON `pokemon` field in a PostgreSQL database, select all Pokémon 
 PostgreSQL's operator for JSON parsing is
 
 ???
-
 
 * `@>`
 * `->`

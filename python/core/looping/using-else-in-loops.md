@@ -26,7 +26,7 @@ standards:
 
 Unlike other programming languages such as C, Python allows the use of `else` statements with loops.
 
-They are implemented so once a `for` or `while` loops condition evaluates to false, the `else` is executed. In other words, the `else` statement is called **once** when loops exit naturally.
+They are implemented so that once a `for` or a `while` loop condition evaluates to false, the `else` is executed. In other words, the `else` statement is called **once** when the loops exit naturally.
 
 For example, an `else` statement integrated into a `while` loop:
 ```python

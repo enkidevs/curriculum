@@ -19,7 +19,7 @@ aspects:
   
 links:
 
-  - '[swsblog.stanford.edu](https://swsblog.stanford.edu/blog/cherry-picking-small-git-lesson){website}'
+  - '[Cherry Picking Small Git Lesson](https://swsblog.stanford.edu/blog/cherry-picking-small-git-lesson){website}'
 
 ---
 
@@ -28,7 +28,7 @@ links:
 ---
 ## Content
 
-Cherry-picking is the method to apply a single, specific commit from another branch.
+Cherry-picking is a method to apply a single, specific commit from another branch.
 
 For example:
 ```

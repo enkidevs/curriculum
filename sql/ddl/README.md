@@ -46,12 +46,12 @@ standards:
       3: Join a table to itself with self-referencing foreign keys
   define-indices:
     name: Write statements to create or modify indices
-    description: This standard deals with creation of indicies on a database table
+    description: This standard deals with creation of indices on a database table
     objectives:
       0: Create an index on a database table
       1: Modify the properties of an index on a database table
       2: Create a clustered index on a database table
-      3: Distinguish between effective indicies that improve the performance of table lookups and ineffective indicies that hinder performance
+      3: Distinguish between effective indices that improve the performance of table lookups and ineffective indices that hinder performance
   define-sequences-or-default-values:
     name: Write statements to create or modify sequences or default values
     description: This standard has to do with columns with computed values, sequences, auto-incrementing values, GUIDs, defaults, etc. Any type of data-altering computation that is defined by the column.

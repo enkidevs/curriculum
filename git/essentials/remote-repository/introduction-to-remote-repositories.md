@@ -18,7 +18,7 @@ inAlgoPool: false
 
 links:
 
-  - '[git-scm.com](https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes){website}'
+  - '[Working With Remotes Official Documentation](https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes){website}'
 
 
 ---
@@ -32,7 +32,7 @@ links:
 
 You can have multiple remote repositories, with different permissions on each one. Some can be **read-only** while on some you can perform both **read** and **write** operations.
 
-These remote repositories are useful and even a requirement when collaborating as part of a team.
+These remote repositories are useful and, most of the time, represent a requirement when collaborating as part of a team.
 
 Even though about `90%` of version control related work happens on local repositories, the remote ones are needed to share the data between different team members.
 

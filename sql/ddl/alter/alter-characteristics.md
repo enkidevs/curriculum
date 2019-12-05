@@ -52,7 +52,7 @@ There are three main characteristics which you can change using an `ALTER` comma
 
 ### Data Type
 
-Although you are able to change the data type of a column, the new definition must be compatible with the old existing data. For example, if you change a numeric type to `VARCHAR` this will always work. If, however, you change a `VARCHAR` type to numeric, values like 'abc' will fail to be cast as numbers.
+Although you are able to change the data type of a column, the new definition must be compatible with the old existing data. For example, if you change a numeric type to `VARCHAR` this will always work. If, however, you change a `VARCHAR` type to numeric, values like `'abc'` will fail to be cast as numbers.
 
 The syntax for changing a data type looks like this:
 
@@ -72,7 +72,9 @@ ALTER COLUMN column_name
 SET DEFAULT value;
 ```
 
-Keep in mind that the 'value' must have the same data type as the column. Now if you wanted to remove the default value from one of your columns, you would use:
+Keep in mind that the `value` must have the same data type as the column. 
+
+If you wanted to remove the default value from one of your columns, you would use:
 
 ```sql
 ALTER TABLE table_name
@@ -129,7 +131,7 @@ ALTER ??? ???
 ---
 ## Revision
 
-We'd like to set the default value "ruby" to all entries in the column `name` in the `version` table and remove the `NOT NULL` clause to the `id` column.
+We'd like to set the default value `"ruby"` to all entries in the column `name` in the `version` table. We would also like to remove the `NOT NULL` clause to the `id` column.
 
 | id | version_group_id | name     |
 |----|------------------|----------|

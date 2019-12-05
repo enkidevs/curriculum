@@ -16,8 +16,8 @@ aspects:
 
 links:
 
-  - '[git-scm.com](https://git-scm.com/docs/git-reset){website}'
-  - '[git-scm.com](https://git-scm.com/docs/git-add){website}'
+  - '[Git Reset](https://git-scm.com/docs/git-reset){documentation}'
+  - '[Git Add](https://git-scm.com/docs/git-add){documentation}'
 
 parent: interactively-stage-patches
 

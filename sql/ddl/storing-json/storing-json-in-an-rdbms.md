@@ -55,9 +55,10 @@ aspects:
 ```
 As you can see, a JSON object looks very much like a table entry on its own[1]. Even though it's a different concept altogether (stacked fields), relational databases started supporting them as data types not too long ago.
 
-While JSON isn't a RDBMS standardized type, vendors took their liberty to implement their own way of dealing with it. But the lack of specifications comes with a cost: big differences in how storing, querying and updating work from vendor to vendor.
+While JSON isn't a RDBMS standardized type, vendors took their liberty to implement their own way of dealing with it. The lack of specifications comes with a cost: big differences in how storing, querying and updating work from vendor to vendor.
 
-There is, however, a common requirement: tables to include JSON fields must use `UTF-8` encoding, regardless of the SQL implementation.
+
+A common requirement that tables include is that JSON fields must use `UTF-8` encoding, regardless of the SQL implementation.
 
 ---
 ## Practice
@@ -83,6 +84,7 @@ Which of the following JSON objects is valid?
   "friends": ["John", "Anna"]
 }
 ```
+
 ???
 
 

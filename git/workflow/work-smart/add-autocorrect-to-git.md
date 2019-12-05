@@ -16,7 +16,7 @@ aspects:
 
 links:
 
-  - '[git-scm.com](http://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration){website}'
+  - '[Basic Client Configuration Official Documentation](http://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration){website}'
 
 
 ---
