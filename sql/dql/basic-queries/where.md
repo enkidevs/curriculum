@@ -35,7 +35,7 @@ When added to an SQL `SELECT` statement, `WHERE` allows us to select rows in a t
 
 You can write a conditional statement after `WHERE` and, for each row in the table, if the conditional statement evaluates to true, the row will be included in the query result. If not, it will not be included in the result.
 
-SQL supports both comparison operators (such as `=` and `>=`) and logical operations (such as `AND`, `NOT` or `LIKE`). Together, these predicates allow us to define complex rules for extracting just the data that we want from an SQL database.
+SQL supports both comparison operators (such as `=` and `>=`) and logical operations (such as `AND`, `NOT` or `LIKE`). Together, these predicates allow us to define complex rules for extracting only the data that we want from an SQL database.
 
 Let's consider the following `pokemon` table:
 
@@ -47,7 +47,7 @@ Let's consider the following `pokemon` table:
 | Pikachu    | 5     | 45 | 65     | 50      |
 | Charmander | 10    | 50 | 66     | 54      |
 
-If we wanted to return the `name` and `level` of all the pokemons that are not named 'Charmander' and that don't have a level higher than 3 we would use the following query:
+If we wanted to return the `name` and `level` of all the pokemon that are not named `'Charmander'` and that don't have a level higher than `3` we would use the following query:
 
 ```sql
 SELECT name, level
@@ -55,7 +55,7 @@ FROM pokemon
 WHERE name <> 'Charmander' AND level <= 3;
 ```
 
-In this query we are using two conditionals: `name` is not equal (`<>`) to 'Charmander' and `level` is less than or equal (`<=`) to 3. The resulting set would look like this:
+In this query we are using two conditionals: `name` is not equal (`<>`) to `'Charmander'` and `level` is less than or equal (`<=`) to 3. The resulting set would look like this:
 
 | name      | level |
 |-----------|-------|
@@ -65,35 +65,31 @@ In this query we are using two conditionals: `name` is not equal (`<>`) to 'Char
 ---
 ## Practice
 
-Select all the columns and rows from the `pokemon` table where the `level` is less than `10` *and* the `attack` is higher than 40.
+Select all the columns and rows from the `pokemon` table where the `level` is less than `10`.
 
 ```sql
 SELECT * 
 FROM pokemon
-??? ??? 10 ??? ??? 40;
+??? ??? 10;
 ```
 
 
 * WHERE
 * level <
-* AND
-* attack >
-* FROM
-* pokemon
-* IS
+* level <=
 * level IS LESS THAN
-* attack IS GREATER THAN
-* OR
+* level IS LESS THAN OR EQUAL TO
 
 ---
 ## Revision
 
 Select all the rows from the `pokemon` table where the name is exactly equal to `braixen`.
 
-`SELECT * `
-`FROM pokemon`
+```sql
+SELECT * 
+FROM pokemon
 ??? ??? ??? ???;
-
+```
 
 * WHERE
 * name
@@ -108,24 +104,23 @@ Select all the rows from the `pokemon` table where the name is exactly equal to 
 ### Can you find a particular entry in a table with SQL?
 
 Consider the `ability` table and the following query:
-```
 
-id   | is_main_series | generation_id |      name      
-=====|================|===============|===============
-   1 | t              |             3 | stench
-   2 | f              |             3 | drizzle
-   3 | t              |             3 | speed-boost
-   4 | t              |             3 | battle-armor
-(...)
+| id  | is_main_series | generation_id | name         |
+|-----|----------------|---------------|--------------|
+| 1   | t              | 3             | stench       |
+| 2   | f              | 3             | drizzle      |
+| 3   | t              | 3             | speed-boost  |
+| 4   | t              | 3             | battle-armor |
+| ... | ...            | ...           | ...          |
 
+```sql
 SELECT *
 FROM ability
-
 ```
-We want to get the record for the ability called "speed-boost". Which of the following `WHERE` clauses will
+We want to get the record for the ability called `"speed-boost"`. Which of the following `WHERE` clauses will
 have this result when used with the above query?
 
- ???
+???
 
 * WHERE name='speed-boost';
 * WHERE name IS "speed-boost";
@@ -133,4 +128,3 @@ have this result when used with the above query?
 * WHERE id='speed-boost';
  
  
-

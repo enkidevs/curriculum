@@ -16,7 +16,7 @@ aspects:
 
 links:
 
-  - '[github.com](https://github.com/jbranchaud/til/blob/master/git/untrack-a-file-without-deleting-it.md){website}'
+  - '[Untrack A File Without Deleting It](https://github.com/jbranchaud/til/blob/master/git/untrack-a-file-without-deleting-it.md){website}'
 
 
 ---

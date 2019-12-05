@@ -33,8 +33,8 @@ links:
 
 In **Python**, **sets** have four main characteristics:
 - they are an **unordered collection** of elements;
-- every elements is **unique** (no duplicates);
-- and every element must be **immutable**;
+- every element is **unique** (no duplicates);
+- and every element must be **immutable** (cannot be changed);
 - they can store elements of different **types**.
 
 Even though elements stored in **sets** must be **immutable** the set itself is **mutable**.

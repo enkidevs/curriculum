@@ -20,7 +20,7 @@ aspects:
 
 links:
 
-  - '[github.com](https://github.com/jbranchaud/til/blob/master/git/checkout-previous-branch.md){website}'
+  - '[Checkout Previous Branch Github](https://github.com/jbranchaud/til/blob/master/git/checkout-previous-branch.md){website}'
 
 
 ---

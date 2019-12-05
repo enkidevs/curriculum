@@ -68,8 +68,8 @@ Multiple insertion are done by adding multiple parentheses:
 ```sql
 INSERT INTO item (id, fling_power,
   item_category_id, name) VALUES
-  (1230, 50, 33, 'bug-ball'),
-  (1231, 50, 33, 'storm-ball');
+(1230, 50, 33, 'bug-ball'),
+(1231, 50, 33, 'storm-ball');
 ```
 
 You can also insert the results of a whole query:
@@ -95,7 +95,7 @@ SELECT * FROM
 
 /* Syntax B */
 INSERT INTO table (column1, column2,
-    column3)
+  column3)
 VALUES (value1, 'value2', value3);
 
 /* Syntax C */
@@ -119,7 +119,7 @@ Complete the following query to insert values into a new table called `water_pok
 ??? ('Bulbasaur', 25, 150);
 --
 INSERT INTO water_pokemon
-??? ??? FROM pokemons;
+??? ??? FROM pokemon;
 ```
 
 * INSERT

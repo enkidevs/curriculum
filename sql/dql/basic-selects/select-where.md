@@ -51,7 +51,7 @@ Consider the following `pokemon` table:
 | 14 | Kakuna     | 205   | 45 | 25     | 50      |
 | 15 | Beedrill   | 395   | 65 | 90     | 40      |
 
-For example, to retrieve all information in the `pokemon` table about the Pokemon named "Caterpie", query:
+For example, to retrieve all information in the `pokemon` table about the Pokemon named `"Caterpie"`, query:
 
 ```sql
 SELECT *
@@ -65,7 +65,7 @@ And the resulting table would look like:
 |----|----------|-------|----|--------|---------|
 | 10 | Caterpie | 195   | 45 | 30     | 35      |
 
-To retrieve the `name` and `hp` of all pokemons with `attack` greater than or equal to 30, query:
+To retrieve the `name` and `hp` of all pokemon with `attack` greater than or equal to 30, query:
 
 ```sql
 SELECT name, hp
@@ -83,7 +83,6 @@ This query would return the following table:
 | Beedrill   | 65 |
 
 Note that text needs to be enclosed within quotation marks (`'text'`), while integers (and other numerical types) should not have quotes.
-
 
 ---
 ## Practice

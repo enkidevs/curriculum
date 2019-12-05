@@ -17,7 +17,7 @@ aspects:
 
 links:
 
-  - '[git-scm.com](http://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration){website}'
+  - '[Colors In Git Official Documentation](http://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration#_colors_in_git){website}'
 
 
 ---

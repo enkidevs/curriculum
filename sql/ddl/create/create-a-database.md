@@ -24,12 +24,6 @@ tags:
 
   - workout
 
-
-links:
-
-  - '[More about how to create a database](https://www.postgresql.org/docs/9.1/static/app-createdb.html){website}'
-
-
 aspects:
   - introduction
   - workout
@@ -66,7 +60,7 @@ DROP DATABASE my_first_db;
 ## Practice
 
 Create a new database called `practice_qw`.
-```
+```sql
 ??? ??? ???
 ```
 
@@ -83,7 +77,7 @@ Create a new database called `practice_qw`.
 
 Complete the following code such that you will create a new database called `my_db`, display all the available databases, and select `my_db` to work on.
 
-```
+```sql
 ??? ??? my_db;
 
 ??? DATABASES;

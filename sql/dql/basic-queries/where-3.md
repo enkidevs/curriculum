@@ -73,12 +73,12 @@ In this case, we will only get the rows of the three starter Pokémon: Charmande
 | Charmander | 309   | 39 | 52     | 43      |
 | Squirtle   | 314   | 44 | 48     | 65      |
 
-The `LIKE` statement accepts a pattern string, where wildcard characters are used to denote an acceptable pattern.[1]
+The `LIKE` statement accepts a pattern string, where wildcard characters are used to denote an acceptable pattern[1].
 
  - `%` is a **wildcard**. This means it counts for a string of any characters of any length, including nothing.
  - `_` represents only one character.
 
-Therefore, `%le` denotes any string that ends in 'le'. `_le` denotes any string with only one character before 'le'. They can be chained together into complex patterns like `___taco%` which denotes any string containing the substring 'taco' at its 4th position, and with any number of characters after.
+Therefore, `%le` denotes any string that ends in `'le'`. `_le` denotes any string with only one character before `'le'`. They can be chained together into complex patterns like `___taco%` which denotes any string containing the substring `'taco'` at its 4th position, and with any number of characters after.
 
 ```sql
 SELECT *
@@ -86,7 +86,7 @@ FROM pokemon
 WHERE name LIKE '%le';
 ```
 
-The result of this statement is the two rows of the Pokémon whose names end in 'le': Squirtle and Wartortle.
+The result of this statement is the two rows of the Pokémon whose names end in `'le'`: Squirtle and Wartortle.
 
 | name      | total | hp | attack | defense |
 |-----------|-------|----|--------|---------|
@@ -115,7 +115,7 @@ The resulting set will be:
 ---
 ## Practice
 
-Select all the columns from the `pokemon` table, keeping only the rows where the name is one of: 'Groudon', 'Snorlax' or 'Wailord'.
+Select all the columns from the `pokemon` table, keeping only the rows where the name is one of: `'Groudon'`, `'Snorlax'` or `'Wailord'`.
 
 `SELECT * `
 `FROM pokemon`
@@ -133,7 +133,7 @@ Select all the columns from the `pokemon` table, keeping only the rows where the
 ---
 ## Revision
 
-Select all the columns from the `pokemon` table, keeping only the rows where the name ends with the string 'saur'.
+Select all the columns from the `pokemon` table, keeping only the rows where the name ends with the string `'saur'`.
 
 `SELECT * `
 `FROM pokemon`
@@ -154,17 +154,12 @@ Select all the columns from the `pokemon` table, keeping only the rows where the
 ### Do you know how to match a pattern in SQL?
 Consider the `location` table from our pokemon database:
 
-
-```
-
-id  | region_id |     name           
-====|===========|================
-  1 |         4 | canalave-city
-  2 |         1 | eterna-city
-  3 |         3 | pastoria-city
-(...)
-
-```
+| id  | region_id | name          |
+|-----|-----------|---------------|
+| 1   | 4         | canalave-city |
+| 2   | 1         | eterna-city   |
+| 3   | 3         | pastoria-city |
+| ... | ...       | ...           |
 
 Choose the query that will get all the location records that are based in regions 1, 2. Also, pay attention to include only locations that end in 'city':
 
@@ -187,5 +182,5 @@ WHERE col BETWEEN 1 AND 10;
 -- is the same as
 SELECT * FROM table_name
 WHERE col >= 1 AND
-      col <= 10;
+  col <= 10;
 ```
