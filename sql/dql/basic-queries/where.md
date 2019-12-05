@@ -122,7 +122,7 @@ Consider the `ability` table and the following query:
 SELECT *
 FROM ability
 ```
-We want to get the record for the ability called "speed-boost". Which of the following `WHERE` clauses will
+We want to get the record for the ability called `"speed-boost"`. Which of the following `WHERE` clauses will
 have this result when used with the above query?
 
 ???

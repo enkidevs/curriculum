@@ -58,7 +58,7 @@ Output:
 ---
 ## Practice
 
-We have a table of items called *item*. This table has a field called *cost*, indicating how much each item costs. We would like to know an average cost for all items in the table. Fill the gaps accordingly:
+Consider the following table of items. This table has a field called `cost`, indicating how much each item costs. We would like to know an average cost for all items in the table. Fill the gaps accordingly:
 
 | id | cost | name        |
 |----|------|-------------|

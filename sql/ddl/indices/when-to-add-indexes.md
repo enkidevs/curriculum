@@ -56,7 +56,7 @@ Thus, we should bear in mind the followings while creating Indices:
 ---
 ## Practice
 
-Consider the "experience" table. We want to create a non-clustered index on the "experience" column:
+Consider the following table. We want to create a non-clustered index on the `experience` column:
 
 | id | level | experience | growth_rate_id |
 |----|-------|------------|----------------|
