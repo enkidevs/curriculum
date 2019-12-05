@@ -34,7 +34,7 @@ parent: securing-the-physical-layer
 
 The Data Link Layer (Layer 2) is responsible for data transfer between two physical devices (or **nodes**) in a wide area network (WAN) or local area network (LAN). The Data Link Layer takes the form of both physical ethernet connections and wireless networking and the protocols that facilitate the transfer between them. Devices on this layer are identified by their media access control (MAC) address.
 
-One note-worthy protocol in the Data Link Layer is the Address Resolution Protocol(ARP), responsible for mapping IP Addresses to MAC addresses on the link layer, and ensures that data transfered over the network reaches the correct destination.
+One note-worthy protocol in the Data Link Layer is the Address Resolution Protocol (ARP), responsible for mapping IP Addresses to MAC addresses on the link layer, and ensuring that data transferred over the network reaches the correct destination.
  
 ---
 ## Practice
