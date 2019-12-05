@@ -55,7 +55,7 @@ FROM pokemon
 WHERE name <> 'Charmander' AND level <= 3;
 ```
 
-In this query we are using two conditionals: `name` is not equal (`<>`) to 'Charmander' and `level` is less than or equal (`<=`) to 3. The resulting set would look like this:
+In this query we are using two conditionals: `name` is not equal (`<>`) to `'Charmander'` and `level` is less than or equal (`<=`) to 3. The resulting set would look like this:
 
 | name      | level |
 |-----------|-------|
@@ -90,10 +90,11 @@ FROM pokemon
 
 Select all the rows from the `pokemon` table where the name is exactly equal to `braixen`.
 
-`SELECT * `
-`FROM pokemon`
+```sql
+SELECT * 
+FROM pokemon
 ??? ??? ??? ???;
-
+```
 
 * WHERE
 * name
