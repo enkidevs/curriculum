@@ -53,7 +53,7 @@ Now that you know your function components can contain multiple hook calls, it i
 
 The first rule is **always call hooks at the top level**. 
 
-To allow React to correctly preserve the state of hooks between multiple `useState()` and `useEffect` calls, you can't call hooks inside loops, conditions, or nested functions. What this rule does is it ensures that the hooks are called in the exact same order each time a component renders.
+To allow React to correctly preserve the state of hooks between multiple `useState()` and `useEffect` calls, you can't call hooks inside loops, conditions, or nested functions. This rule ensures that the hooks are called in the exact same order each time a component renders.
 
 The second rule is **only call hooks from React functions**. 
 
