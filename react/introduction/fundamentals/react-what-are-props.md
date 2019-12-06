@@ -37,7 +37,7 @@ Components can take input in a similar way to a function, via `props`.
 
 `props` is a plain JS object whose properties represent the arguments of a component.
 
-An important aspect of the `props` object is that it is **immutable**. That means `props` can't and shouldn't be changed within a component, but only from its *parent*(s). We will elaborate more on this later.
+An important aspect of the `props` object is that it is **immutable**. That means `props` cannot and should not be changed within a component, but rather only from its *parent*(s). We will elaborate more on this later.
 
 Consider the component:
 ```jsx
