@@ -43,7 +43,7 @@ ECMAScript **version 5** introduced a feature called **strict mode** that makes 
 
 **What does strict mode do?**
 
-Strict mode takes a number of probable mistakes that would either work, or fail silently and turn them into errors.
+Strict mode takes a number of probable mistakes that would either work, or fail silently and turns them into errors.
 
 Arguably one of the most important issues strict mode will catch is that it will throw errors if you forget to use the `var` statement when declaring variables, thus preventing global variables being accidentally created.
 
