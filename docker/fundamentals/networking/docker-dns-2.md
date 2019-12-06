@@ -13,7 +13,7 @@ category: caveats
 ---
 ## Content
 
-Docker containers can have DNS aliases which behave pretty similar to actual DNS aliases.
+Docker containers can have DNS aliases which behave pretty similarly to actual DNS aliases.
 
 Note: We can use the command `--network-alias` to create a network-scoped alias for a container.
 
