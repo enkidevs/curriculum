@@ -14,7 +14,7 @@ category: must-know
 
 ## Content
 
-A great analogy for Docker containers can be found in the shipping industry. Before shipping containers were standardized, it was difficult to transport things across the world. Now, with advent of standardized containers, you only have to rent or buy a container and pack it with your things (in a way which makes sure not to damage the container). As the containers are standardised, people know how to handle them and therefore don’t need to adjust their contents too much.
+A great analogy for Docker containers can be found in the shipping industry. Before shipping containers were standardized, it was difficult to transport things across the world. Now, you only have to rent or buy a container and pack it safely with whatever you need to transport and the rest of the process is essentially automated. With standardization came automation, and with automation came efficiency.
 
 Docker containers are meant to be **immutable** and **ephemeral**.
 
