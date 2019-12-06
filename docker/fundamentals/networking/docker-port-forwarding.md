@@ -24,7 +24,7 @@ docker run \
   -t someimage
 ```
 
-Using the `EXPOSE` command in the Dockerfile, we can tell Docker that the container listens on the specified network port at runtime:
+Using the `EXPOSE` command in the Dockerfile, we can tell Docker that the container listens to the specified network port at runtime:
 
 ```Dockerfile
 EXPOSE <container-port>
