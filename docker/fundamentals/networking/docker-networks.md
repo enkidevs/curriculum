@@ -20,7 +20,7 @@ Each Docker network routes out through a NAT firewall, which is the Docker Daemo
 
 Docker allows us to create a virtual network, to which one or more containers can attach to.
 
-A container can be attached to any number of virtual networks, including being not connected to any. Each network is an encapsulated environment that can have controlled communication with other Docker networks or the Internet.
+A container can be attached to any number of virtual networks, including zero. Each network is an encapsulated environment that can have controlled communication with other Docker networks or the Internet.
 
 The default network in Docker is called the `bridge` network.
 
