@@ -22,7 +22,7 @@ aspects:
 ---
 ## Content
 
-Being a truly flexible library, you can not only create applications from scratch with **React**, but also gradually include them in to your codebase.
+Being a truly flexible library, you can not only create applications from scratch with **React** but also gradually include it into your codebase.
 
 To install **React** you can use a *package manager* such as `yarn` or `npm`:
 
