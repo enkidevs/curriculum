@@ -15,9 +15,9 @@ links:
 ---
 ## Content
 
-A Docker image registry stores Docker images. We can think of a Docker image registry being to Docker images what Github is to code repositories.
+A Docker image registry stores Docker images. We can think of a Docker image registry being to Docker images as Github is to code repositories.
 
-By default, Docker is configured to look for images in its own registry called Docker Hub, but users could also run their own private registry.
+By default, Docker is configured to look for images in its own registry called Docker Hub, but users can also run their own private registry.
 
 Docker Hub is public and allows anybody to store publicly available images.
 
