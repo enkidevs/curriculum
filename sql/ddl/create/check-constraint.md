@@ -107,7 +107,7 @@ Complete the following table definition to check that the `year` column is highe
 ---
 ## Revision
 
-Complete the following code to define a table constraint named `check_name` that requires the `first_name` to start with 'B' and the `last_name` to end with 'e'.
+Complete the following code to define a table constraint named `check_name` that requires the `first_name` to start with `'B'` and the `last_name` to end with `'e'`.
 
 ```sql
 CREATE TABLE voters_b (
