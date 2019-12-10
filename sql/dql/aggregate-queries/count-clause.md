@@ -45,53 +45,47 @@ The `COUNT` clause returns the total number of entries in a given column.
 
 Using `COUNT` function[1]:
 
-```
+```sql
 SELECT COUNT(experience) AS count
 FROM experience
 LIMIT 5;
-
-
---Result:
-  count
-=========
-    5
-(1 row)
 ```
-No matter how many entries there are in the `experience` table, we limit the output to 5 rows. Hence, the result is *5*.
+
+| count |
+|-------|
+| 5     |
+
+No matter how many entries there are in the `experience` table, we limit the output to 5 rows. Hence, the result is `5`.
 
 ---
 ## Practice
 
-We have a table "location". It has data stating the region each location belongs to. How many locations are there in each region? Display the result ordered by regions.
-```
--- location
-id  | region_id |      name           
-====+===========+===============
-  1 |         4 | canalave-city
-  2 |         4 | eterna-city
-  3 |         4 | pastoria-city
-...
+We have a table `location`. It has data stating the region each location belongs to. How many locations are there in each region? Display the result ordered by regions.
 
-SELECT ???(name),???
+| id  | region_id | name          |
+|-----|-----------|---------------|
+| 1   | 4         | canalave-city |
+| 2   | 4         | eterna-city   |
+| 3   | 4         | pastoria-city |
+| ... | ...       | ...           |
+
+```sql
+SELECT ???(name), ???
 FROM location
 ??? region_id
 ORDER BY region_id;
-
---Result:
-count | region_id
-======+===========
-   90 |         1
-   64 |         2
-   82 |         3
-  126 |         4
-  121 |         5
-  104 |         6
-   91 |          
-(7 rows)
-
-
 ```
 
+Output:
+
+| count | region_id |
+|-------|-----------|
+| 90    | 1         |
+| 64    | 2         |
+| 82    | 3         |
+| 126   | 4         |
+| 121   | 5         |
+| 104   | 6         |
 
 * COUNT
 * region_id
@@ -104,50 +98,50 @@ count | region_id
 ## Revision
 
 Knowing that the pokemon db has a table called `item` and a field `name`, how do we count all name entries?
-```
-    ???
---Result:
-  count
-=========
-   746
-(1 row)
 
+```sql
+SELECT ???(???)
+FROM item;
 ```
 
+Output:
 
-* SELECT COUNT(name) FROM item;
-* SELECT COUNT(DISTINCT name) FROM item;
-* SELECT COUNT(item) FROM name;
-* SELECT COUNT(all) FROM item;
+| count |
+|-------|
+| 746   |
+
+* COUNT
+* name
+* DISTINCT name
+* item
+* all
 
 ---
 ## Footnotes
 [1:Pokemon Db]
-We will use the same segment of "experience" table for all aggregate functions:
-```
--- experience table:
+We will use the same segment of `experience` table for all aggregate functions:
 
-id  | level | experience | growth_rate_id
-====+=======+============+===============
-  1 |     1 |          0 |              1
-  2 |     2 |         10 |              1
-  3 |     3 |         33 |              1
-....
+| id  | level | experience | growth_rate_id |
+|-----|-------|------------|----------------|
+| 1   | 1     | 0          | 1              |
+| 2   | 2     | 10         | 1              |
+| 3   | 3     | 33         | 1              |
+| ... | ...   | ...        | ...            |
 
+```sql
 SELECT experience
 FROM experience
 LIMIT 5;
-
---Result:
-experience
-============
-     0
-    10
-    33
-    80
-   156
- (5 rows)
-
 ```
+
+Output:
+
+| experience |
+|------------|
+| 0          |
+| 10         |
+| 33         |
+| 80         |
+| 156        |
  
  

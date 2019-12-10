@@ -77,14 +77,14 @@ Then, our table becomes:
 | 14 | dragon        |
 | 15 | no-eggs       |
 
-You can also use subqueries when constraining the rows you want deleted. Here is an example of how to delete your records from the `egg_group` table if the pokemon is a 'fire' type:
+You can also use subqueries when constraining the rows you want deleted. Here is an example of how to delete your records from the `egg_group` table if the pokemon is a `'fire'` type:
 
 ```sql
 DELETE FROM egg_group
-WHERE  id IN
+WHERE id IN
   (SELECT egg_id
-   FROM   pokemons
-   WHERE  type = 'fire'
+   FROM pokemon
+   WHERE type = 'fire'
   );
 ```
 
@@ -130,25 +130,16 @@ WHERE id ??? 1 and 5;
 ---
 ## Revision
 
-We want to delete the 15th element of the "egg_group" table:
+We want to delete the 15th element of the `egg_group` table:
 
-| id | name          |
-|----|---------------|
-| 1  | monster       |
-| 2  | water1        |
-| 3  | bug           |
-| 4  | flying        |
-| 5  | ground        |
-| 6  | fairy         |
-| 7  | plant         |
-| 8  | humanshape    |
-| 9  | water3        |
-| 10 | mineral       |
-| 11 | indeterminate |
-| 12 | water2        |
-| 13 | ditto         |
-| 14 | dragon        |
-| 15 | no-eggs       |
+| id  | name    |
+|-----|---------|
+| 1   | monster |
+| 2   | water1  |
+| 3   | bug     |
+| ... | ...     |
+| 14  | dragon  |
+| 15  | no-eggs |
 
 
 ???
@@ -156,7 +147,3 @@ We want to delete the 15th element of the "egg_group" table:
 * DELETE FROM egg_group WHERE id= 15;
 * UPDATE egg_group DELETE WHERE id=15;
 * DELETE FROM egg_group;
- 
- 
- 
- 
