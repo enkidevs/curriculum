@@ -19,7 +19,7 @@ aspects:
 
 links:
 
-  - '[developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/CSS/-webkit-touch-callout){website}'
+  - '[MDN Docs on webkit-touch-callout](https://developer.mozilla.org/en-US/docs/Web/CSS/-webkit-touch-callout){documentation}'
 
 
 ---
@@ -42,7 +42,7 @@ You can use `-webkit-touch-callout` to disable the callout:
 ---
 ## Revision
 
-Which property is missing in the following CSS code when disabling the defauly callout shown when a touch target is touched and held?
+Which property is missing in the following CSS code when disabling the default callout shown when a touch target is touched and held?
 ```css
 -webkit-???: none;
 ```

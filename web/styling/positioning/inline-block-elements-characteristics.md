@@ -15,7 +15,7 @@ inAlgoPool: false
 
 links:
   - '[Scrimba CSS Width and Height](https://scrimba.com/p/pWvwCg/cPvRvAV){website}'
-  - '[MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Inline_elements){documentation}'
+  - '[MDN Docs on Inline Elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Inline_elements){documentation}'
 
 ---
 

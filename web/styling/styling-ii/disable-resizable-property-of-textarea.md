@@ -70,7 +70,7 @@ Which of the following disables the resizing behavior of an element?
 ---
 ## Revision
 
-When disabling the resizing behavior of `textarea` elements, `overflow` property must be set to what value in order for the disabling to work?
+When disabling the resizing behavior of `textarea` elements, `overflow` property must be set to what value for the disabling to work?
 
 ???
 

@@ -22,10 +22,10 @@ aspects:
 
 links:
 
-  - '[addyosmani.com](http://addyosmani.com/blog/be-careful-when-using-null-transform-hacks-to-force-gpu-acceleration/){website}'
-  - '[dev.w3.org](http://dev.w3.org/csswg/css-will-change/){website}'
-  - '[MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/will-change){documentation}'
-notes: 'http://www.creativebloq.com/css3/tips-breathe-new-life-your-css-61411880'
+  - '[Take Care When Forcing GPU Acceleration](http://addyosmani.com/blog/be-careful-when-using-null-transform-hacks-to-force-gpu-acceleration/){article}'
+  - '[CSS Will Change](http://dev.w3.org/csswg/css-will-change/){documentation}'
+  - '[MDN Docs on will-change](https://developer.mozilla.org/en-US/docs/Web/CSS/will-change){documentation}'
+  - '[25 Pro Tips For CSS](https://www.creativebloq.com/css3/tips-breathe-new-life-your-css-61411880){article}'
 
 ---
 

@@ -14,12 +14,9 @@ aspects:
 
 inAlgoPool: false
 
-
 links:
 
-  - '[MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Inline_elemente){documentation}'
-
-notes: 'http://www.webcredible.com/blog-reports/css/more-css-tricks.shtml'
+  - '[MDN Docs on Inline Elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Inline_elemente){documentation}'
 
 ---
 
@@ -35,7 +32,6 @@ An inline element has the following characteristics:
 * Its width is as wide as the content and can't be modified
 
 Examples of inline elements include `<span>`, `<a>`, `<label>`, `<input>`, `<img>`, `<strong>` and `<em>`.
-
 
 Example of useless CSS:
 

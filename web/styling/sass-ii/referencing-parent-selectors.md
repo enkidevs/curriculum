@@ -19,7 +19,7 @@ aspects:
 
 links:
 
-  - '[thesassway.com](http://thesassway.com/intermediate/referencing-parent-selectors-using-ampersand){website}'
+  - '[Referencing Parent Selectors](http://thesassway.com/intermediate/referencing-parent-selectors-using-ampersand){website}'
 
 
 ---

@@ -15,8 +15,8 @@ aspects:
 
 links:
 
-  - '[css-tricks.com](https://css-tricks.com/almanac/selectors/r/required/){website}'
-  - '[MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes)[documentation}'
+  - '[The Required Selector](https://css-tricks.com/almanac/selectors/r/required/){website}'
+  - '[MDN Docs on Pseudo Classes](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes){documentation}'
 
 
 ---

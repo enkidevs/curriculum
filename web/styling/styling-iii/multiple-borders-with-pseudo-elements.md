@@ -19,7 +19,7 @@ aspects:
 
 links:
 
-  - '[css-tricks.com](https://css-tricks.com/snippets/css/multiple-borders/){website}'
+  - '[Multiple Borders](https://css-tricks.com/snippets/css/multiple-borders/){article}'
 
 
 ---
@@ -55,7 +55,7 @@ Add the second border:
 }
 ```
 
-![svgcode.svg](%3C?xml%20version=%221.0%22%20encoding=%22UTF-8%22%20standalone=%22no%22?%3E%0D%0A%3Csvg%20width=%22100%25%22%20height=%22auto%22%20viewBox=%220%200%20800%20300%22%20%20preserveAspectRatio=%22xMidYMid%20meet%22%20xmlns=%22http://www.w3.org/2000/svg%22%3E%0D%0A%09%3Cg%3E%0D%0A%09%09%3Crect%20x=%220%22%20y=%220%22%20width=%22800px%22%20height=%22300px%22%20fill=%22#596193%22%20/%3E%0D%0A%09%09%3Crect%20x=%22262.5%22%20y=%2262.5%22%20width=%22275px%22%20height=%22175px%22%20fill=%22orangered%22%20/%3E%0D%0A%09%09%3Crect%20x=%22275%22%20y=%2275%22%20width=%22250px%22%20height=%22150px%22%20fill=%22#fff%22%20stroke=%22#52df00%22%20stroke-width=%225%22/%3E%0D%0A%09%09%0D%0A%09%3C/g%3E%0D%0A%3C/svg%3E%09)
+![svgcode.svg](https://img.enkipro.com/314f902f9748cf7e54dcf197adb0ca01.png)
 
 `z-index: -1` will keep the border behind the content preserving,for example, selectability of text and clickability of links.
 

@@ -20,8 +20,8 @@ tags:
 
 links:
 
-  - '[stackoverflow.com](http://stackoverflow.com/questions/826782/css-rule-to-disable-text-selection-highlighting){website}'
-  - '[caniuse.com](http://caniuse.com/#search=webkit){website}'
+  - '[Disable Text Selection](http://stackoverflow.com/questions/826782/css-rule-to-disable-text-selection-highlighting){discussion}'
+  - '[WebKit](http://caniuse.com/#search=webkit){website}'
 
 ---
 
@@ -61,7 +61,6 @@ Complete the method which can be used to make text in a web page unselectable:
   ???: none;
 }
 ```
-
 
 * `user-select`
 * `selectable`

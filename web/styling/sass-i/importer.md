@@ -17,7 +17,7 @@ aspects:
 
 links:
 
-  - '[github.com](https://github.com/chriseppstein/sass-css-importer/blob/master/README.markdown){website}'
+  - '[Sass CSS Importer Plugin](https://github.com/chriseppstein/sass-css-importer/blob/master/README.markdown){website}'
 
 
 ---

@@ -24,8 +24,7 @@ tags:
 
 links:
 
-  - '[css4.rocks](http://css4.rocks/selectors-level-4/){website}'
-  - '[MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/:matches){documentation}'
+  - '[MDN Docs on :matches](https://developer.mozilla.org/en-US/docs/Web/CSS/:matches){documentation}'
 
 
 ---

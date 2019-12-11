@@ -17,8 +17,8 @@ aspects:
 
 links:
 
-  - '[github.com](https://github.com/AllThingsSmitty/css-protips){website}'
-  - '[MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing){documentation}'
+  - '[CSS Pro Tips](https://github.com/AllThingsSmitty/css-protips){website}'
+  - '[MDN Docs on Box Sizing](https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing){documentation}'
 
 parent: use-box-sizing-to-define-an-element-s-width-and-height-properties
 

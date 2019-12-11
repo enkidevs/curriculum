@@ -25,7 +25,7 @@ tags:
 
 links:
 
-  - '[css-tricks.com](https://css-tricks.com/working-with-shapes-in-web-design/){website}'
+  - '[Working With Shapes](https://css-tricks.com/working-with-shapes-in-web-design/){article}'
 
 
 ---
@@ -61,7 +61,7 @@ transform-origin: left center;
 ```
 This is the default rotation around its center:
 
-![diamondtransform.svg](%3Csvg%20version%3D%221.2%22%20baseProfile%3D%22tiny%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20height%3D%22auto%22%20viewBox%3D%220%200%20612%20200%22%3E%0A%20%20%3Cpath%20fill%3D%22%23596294%22%20stroke%3D%22%23000%22%20stroke-miterlimit%3D%225%22%20d%3D%22M0%200h612v200H0z%22%2F%3E%0A%20%20%3Cpath%20fill%3D%22%23fff%22%20stroke%3D%22%23000%22%20stroke-miterlimit%3D%222%22%20d%3D%22M150%2050h100v100H150zM428.9878%2029.6985l70.7107%2070.7107-70.7107%2070.7106-70.7107-70.7106z%22%2F%3E%0A%3C%2Fsvg%3E%0A)
+![diamondtransform.svg](https://img.enkipro.com/afacbc50fedc953093d5d1aba5b4d385.png)
 
 ---
 ## Revision

@@ -12,7 +12,7 @@ type: normal
 category: feature
 
 links:
-  - '[MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Transitions){documentation}'
+  - '[MDN Docs on CSS-transitions](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Transitions){documentation}'
 
 aspects:
   - workout

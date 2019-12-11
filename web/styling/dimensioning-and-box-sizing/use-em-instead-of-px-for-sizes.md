@@ -25,8 +25,7 @@ tags:
 
 
 links:
-- '[MDN lengths](https://developer.mozilla.org/en-US/docs/Web/CSS/length){documentation}'
-
+- '[MDN Docs on Length](https://developer.mozilla.org/en-US/docs/Web/CSS/length){documentation}'
 
 
 ---
@@ -37,7 +36,6 @@ links:
 ## Content
 
 `em` is directly proportional to the font size currently in use. This makes it easier to keep the proportions intact for future changes and responsive design.
-
 
 With `px` :
 

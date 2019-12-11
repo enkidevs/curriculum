@@ -14,8 +14,8 @@ aspects:
   - workout
 
 links:
-  - '[Scrimba CSS Pseudo Classes / Elements](https://scrimba.com/p/pWvwCg/cbmMJSb){website}'
-  - '[MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/hover)[documentation}'
+  - '[Tutorial on Pseudo Classes & Elements](https://scrimba.com/p/pWvwCg/cbmMJSb){article}'
+  - '[MDN Docs on :hover](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/hover){documentation}'
 
 ---
 

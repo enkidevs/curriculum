@@ -20,10 +20,8 @@ category: best practice
 
 links:
 
-  - '[caniuse.com](http://caniuse.com/#feat=currentcolor){website}'
-  - '[osvaldas.info](http://osvaldas.info/keeping-css-short-with-currentcolor){website}'
-
-notes: ''
+  - '[Browser Availability for currentColor](http://caniuse.com/#feat=currentcolor){website}'
+  - '[Keep CSS Short with currentColor](http://osvaldas.info/keeping-css-short-with-currentcolor){website}'
 
 ---
 

@@ -19,7 +19,7 @@ aspects:
 
 links:
 
-  - '[sass-lang.com](http://sass-lang.com/documentation/file.SASS_REFERENCE.html#color_operations){website}'
+  - '[Article on Color Operations](http://sass-lang.com/documentation/file.SASS_REFERENCE.html#color_operations){article}'
 
 
 ---
