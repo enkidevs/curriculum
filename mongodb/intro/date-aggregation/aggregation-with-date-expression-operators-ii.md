@@ -40,7 +40,7 @@ db.pokedex.aggregate([
   { $match: { name: "Bulbasaur" } },
   {
     $project: {
-      year: { $year: "$createdAt" }
+      createdAtYear: { $year: "$createdAt" }
     }
   }
 ]);
@@ -50,13 +50,13 @@ Output:
 ```javascript
 {
   "_id": ObjectId("5d9d8a5a0b24990f19398208"),
-  "year" : 2019
+  "createdAtYear": 2019
 }
 ```
 
 As you can see in the example above, the `$match` stage was used to match the pokémon document named `"Bulbasaur"` and get the year it was created.
 
-The "createdAt" in `year: { $year: "$createdAt" }` is just how we named our date field after we extracted the date with the `.getTimestamp()` method.
+The "createdAt" in `createdAtYear: { $year: "$createdAt" }` is just how we named our date field after we extracted the date with the `.getTimestamp()` method.
 
 **Note:** Just like with any aggregation, if we don't exclude the `_id` with the project stage, it will be displayed by default.
 
@@ -68,7 +68,7 @@ db.pokedex.aggregate([
   { $match: { name: "Bulbasaur" } },
   {
     $project: {
-      Year: { $year: "$createdAt" },
+      createdAtYear: { $year: "$createdAt" },
       _id: 0
     }
   }
@@ -78,7 +78,7 @@ db.pokedex.aggregate([
 Output:
 ```javascript
 {
-  "Year" : 2019
+  "createdAtYear": 2019
 }
 ```
 
@@ -91,7 +91,7 @@ db.pokedex.aggregate([
   { $match: { name: "Bulbasaur" } },
   {
     $project: {
-      Month: { $month: "$createdAt" },
+      createdAtMonth: { $month: "$createdAt" },
       _id: 0
     }
   }
@@ -102,7 +102,7 @@ db.pokedex.aggregate([
 Output:
 ```javascript
 {
-  "Month" : 10
+  "createdAtMonth": 10
 }
 ```
 ### $dayOfMonth
@@ -114,7 +114,7 @@ db.pokedex.aggregate([
   { $match: { name: "Bulbasaur" } },
   {
     $project: {
-      DayOfTheMonth: {
+      dayOfTheMonth: {
         $dayOfMonth: "$createdAt"
       },
       _id: 0
@@ -127,7 +127,7 @@ db.pokedex.aggregate([
 Output:
 ```javascript
 {
-  "DayOfTheMonth" : 9
+  "dayOfTheMonth" : 9
 }
 ```
 
