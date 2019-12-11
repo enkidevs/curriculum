@@ -61,7 +61,7 @@ To best demonstrate the usage of various date expression operators, we will add 
   "_id": ObjectId("5d9d8a6a0b24990f19398209"),
   "name": "Bulbasaur",
   "type": "Grass",
-  "createdAt": ISODate("2019-10-09T07:21:14Z") <-- should use this one due to inconsistent capitalization
+  "createdAt": ISODate("2019-10-09T07:21:14Z")
 }
 ```
 
