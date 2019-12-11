@@ -25,16 +25,16 @@ db.pokemon.aggregate([
   { $match: { name: "Bulbasaur" } },
   {
     $project: {
-      DayOfTheYear: { $dayOfYear: "$createdAt" },
-      Year: { $year: "$createdAt" },
-      Month: { $month: "$createdAt" },
-      DayOfTheMonth: { $dayOfMonth: "$createdAt" },
-      Hour: { $hour: "$createdAt" },
-      Minutes: { $minute: "$createdAt" },
-      Seconds: { $second: "$createdAt" },
-      Milliseconds: { $millisecond: "$createdAt" },
-      Week: { $week: "$createdAt" },
-      DayOfTheWeek: { $dayOfWeek: "$createdAt" },
+      dayOfTheYear: { $dayOfYear: "$createdAt" },
+      createdAtYear: { $year: "$createdAt" },
+      createdAtMonth: { $month: "$createdAt" },
+      dayOfTheMonth: { $dayOfMonth: "$createdAt" },
+      createdAtHour: { $hour: "$createdAt" },
+      createdAtMinute: { $minute: "$createdAt" },
+      createdAtSecond: { $second: "$createdAt" },
+      createdAtMillisecond: { $millisecond: "$createdAt" },
+      weekOfTheYear: { $week: "$createdAt" },
+      dayOfTheWeek: { $dayOfWeek: "$createdAt" },
       _id: 0
     }
   }
@@ -44,16 +44,16 @@ db.pokemon.aggregate([
 Output:
 ```js
 { 
-  "DayOfTheYear": 282, 
-  "Year": 2019, 
-  "Month": 10, 
-  "DayOfTheMonth": 9, 
-  "Hour": 7, 
-  "Minutes": 21, 
-  "Seconds": 14, 
-  "Milliseconds": 0, 
-  "Week": 40, 
-  "DayOfTheWeek": 4 
+  "dayOfTheYear": 282, 
+  "createdAtYear": 2019, 
+  "createdAtMonth": 10, 
+  "dayOfTheMonth": 9, 
+  "createdAtHour": 7, 
+  "createdAtMinute": 21, 
+  "createdAtSecond": 14, 
+  "createdAtMillisecond": 0, 
+  "weekOfTheYear": 40, 
+  "dayOfTheWeek": 4 
 }
 ```
 
@@ -66,16 +66,16 @@ db.pokemon.aggregate([
   { $match: { name: "Bulbasaur" } },
   {
     $project: {
-      DayOfTheYear: { ???: "$createdAt" },
-      Year: { ???: "$createdAt" },
-      Month: { ???: "$createdAt" },
-      DayOfTheMonth: { ???: "$createdAt" },
-      Hour: { ???: "$createdAt" },
-      Minutes: { ???: "$createdAt" },
-      Seconds: { ???: "$createdAt" },
-      Milliseconds: { ???: "$createdAt" },
-      Week: { ???: "$createdAt" },
-      DayOfTheWeek: { ???: "$createdAt" },
+      dayOfTheYear: { ???: "$createdAt" },
+      createdAtYear: { ???: "$createdAt" },
+      createdAtMonth: { ???: "$createdAt" },
+      dayOfTheMonth: { ???: "$createdAt" },
+      createdAtHour: { ???: "$createdAt" },
+      createdAtMinute: { ???: "$createdAt" },
+      createdAtSecond: { ???: "$createdAt" },
+      createdAtMillisecond: { ???: "$createdAt" },
+      weekOfTheYear: { ???: "$createdAt" },
+      dayOfTheWeek: { ???: "$createdAt" },
       _id: 0
     }
   }
