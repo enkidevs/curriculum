@@ -28,7 +28,7 @@ db.pokedex.aggregate([
   { $match: { name: "Bulbasaur" } },
   {
     $project: {
-      Hour: { $hour: "$createdAt" },
+      createdAtHour: { $hour: "$createdAt" },
       _id: 0
     }
   }
@@ -39,7 +39,7 @@ db.pokedex.aggregate([
 Output:
 ```js
 { 
-  "Hour" : 7 
+  "createdAtHour" : 7 
 }
 ```
 
@@ -53,7 +53,7 @@ db.pokedex.aggregate([
   { $match: { name: "Bulbasaur" } },
   {
     $project: {
-      Minutes: { $minute: "$createdAt" },
+      createdAtMinute: { $minute: "$createdAt" },
       _id: 0
     }
   }
@@ -63,7 +63,7 @@ db.pokedex.aggregate([
 Output:
 ```js
 { 
-  "Minutes" : 21 
+  "createdAtMinute" : 21 
 }
 ```
 
@@ -77,7 +77,7 @@ db.pokedex.aggregate([
   { $match: { name: "Bulbasaur" } },
   {
     $project: {
-      Seconds: { $second: "$createdAt" },
+      createdAtSecond: { $second: "$createdAt" },
       _id: 0
     }
   }
@@ -87,7 +87,7 @@ db.pokedex.aggregate([
 Output:
 ```js
 { 
-  "Seconds" : 14 
+  "createdAtSecond" : 14 
 }
 ```
 
@@ -101,7 +101,7 @@ db.pokedex.aggregate([
   { $match: { name: "Bulbasaur" } },
   {
     $project: {
-      Milliseconds: {
+      createdAtMillisecond: {
         $millisecond: "$createdAt"
       },
       _id: 0
@@ -114,7 +114,7 @@ db.pokedex.aggregate([
 Output:
 ```js
 { 
-  "Milliseconds" : 0 
+  "createdAtMillisecond" : 0 
 }
 ```
 
