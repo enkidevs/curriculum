@@ -28,7 +28,7 @@ db.pokemon.aggregate([
   { $match: { name: "Bulbasaur" } },
   {
     $project: {
-      dayOfTheYear: { $dayOfYear: "$Date" },
+      DayOfTheYear: { $dayOfYear: "$Date" },
       Year: { $year: "$Date" },
       Month: { $month: "$Date" },
       DayOfTheMonth: { $dayOfMonth: "$Date" },
@@ -47,7 +47,7 @@ db.pokemon.aggregate([
 Output:
 ```js
 { 
-  "dayOfTheYear": 282, 
+  "DayOfTheYear": 282, 
   "Year": 2019, 
   "Month": 10, 
   "DayOfTheMonth": 9, 
@@ -69,7 +69,7 @@ db.pokemon.aggregate([
   { $match: { name: "Bulbasaur" } },
   {
     $project: {
-      dayOfTheYear: { ???: "$Date" },
+      DayOfTheYear: { ???: "$Date" },
       Year: { ???: "$Date" },
       Month: { ???: "$Date" },
       DayOfTheMonth: { ???: "$Date" },
