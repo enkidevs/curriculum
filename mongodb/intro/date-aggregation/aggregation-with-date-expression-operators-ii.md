@@ -1,10 +1,6 @@
 ---
 author: Stefan-Stojanovic
 
-levels:
-  - beginner
-  - basic
-  
 aspects:
   - introduction
   - new
@@ -44,7 +40,7 @@ db.pokedex.aggregate([
   { $match: { name: "Bulbasaur" } },
   {
     $project: {
-      year: { $year: "$Date" }
+      year: { $year: "$createdAt" }
     }
   }
 ]);
@@ -60,7 +56,7 @@ Output:
 
 As you can see in the example above, the `$match` stage was used to match the pokémon document named `"Bulbasaur"` and get the year it was created.
 
-The "Date" in `year: { $year: "$Date" }` is just how we named our date field after we extracted the date with the `.getTimestamp()` method.
+The "createdAt" in `year: { $year: "$createdAt" }` is just how we named our date field after we extracted the date with the `.getTimestamp()` method.
 
 **Note:** Just like with any aggregation, if we don't exclude the `_id` with the project stage, it will be displayed by default.
 
@@ -72,7 +68,7 @@ db.pokedex.aggregate([
   { $match: { name: "Bulbasaur" } },
   {
     $project: {
-      Year: { $year: "$Date" },
+      Year: { $year: "$createdAt" },
       _id: 0
     }
   }
@@ -95,7 +91,7 @@ db.pokedex.aggregate([
   { $match: { name: "Bulbasaur" } },
   {
     $project: {
-      Month: { $month: "$Date" },
+      Month: { $month: "$createdAt" },
       _id: 0
     }
   }
@@ -119,7 +115,7 @@ db.pokedex.aggregate([
   {
     $project: {
       DayOfTheMonth: {
-        $dayOfMonth: "$Date"
+        $dayOfMonth: "$createdAt"
       },
       _id: 0
     }
@@ -156,17 +152,11 @@ The ??? operator is used to extract the day of the month the document was create
 [1:Previous Document]
 Here is the document used in the previous insight:
 ```javascript
-// document without the Date
-{ 
-  "_id": ObjectId("5d9d8a6a0b24990f19398209"),
-  "name": "Bulbasaur",
-  "type": "Grass"
-}
-// Document with the Date
+// Document with the ISODate
 { 
   "_id": ObjectId("5d9d8a6a0b24990f19398209"),
   "name": "Bulbasaur",
   "type": "Grass",
-  "Date": ISODate("2019-10-09T07:21:14Z")
+  "createdAt": ISODate("2019-10-09T07:21:14Z")
 }
 ```
