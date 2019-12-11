@@ -40,7 +40,7 @@ In a previous workout, we learned what `ObjectId`s are and how to extract the da
 
 Short reminder:
 
-Let's say we have this pokémon(document).
+Let's say we have this pokémon document.
 ```javascript
 { 
   "_id": ObjectId("5d9d8a6a0b24990f19398209"),
