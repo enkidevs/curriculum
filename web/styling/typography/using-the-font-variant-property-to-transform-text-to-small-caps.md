@@ -30,8 +30,8 @@ tags:
 
 links:
 
-  - '[font-variant - css-tricks.com](https://css-tricks.com/almanac/properties/f/font-variant/){website}'
-  - '[MDN Docs On font-variant](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/font-variant){documentation}'
+  - '[Font Variant](https://css-tricks.com/almanac/properties/f/font-variant/){website}'
+  - '[MDN Docs on Font Variant](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/font-variant){documentation}'
 
 
 ---

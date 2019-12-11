@@ -17,7 +17,7 @@ aspects:
 
 links:
 
-  - '[Article On Sass Operators](http://webstandardssherpa.com/reviews/getting-started-with-sass-part-2/){article}'
+  - '[Article on Sass Operators](http://webstandardssherpa.com/reviews/getting-started-with-sass-part-2/){article}'
 
 
 ---

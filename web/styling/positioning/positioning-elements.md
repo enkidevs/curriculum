@@ -16,7 +16,7 @@ inAlgoPool: false
 
 links:
   - '[Scrimba CSS Position Property](https://scrimba.com/p/pWvwCg/c2vEnHR){website}'
-  - '[MDN Docs On Positioning](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Positioning){documentation}'
+  - '[MDN Docs on Positioning](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Positioning){documentation}'
 
 ---
 

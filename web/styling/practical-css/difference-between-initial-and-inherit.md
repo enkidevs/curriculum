@@ -21,8 +21,8 @@ tags:
 
 
 links:
-  - '[MDN Docs On initial](https://developer.mozilla.org/en-US/docs/Web/CSS/initial){documentation}'
-  - '[MDN Docs On inherit](https://developer.mozilla.org/en-US/docs/Web/CSS/inherit){documentation}'
+  - '[MDN Docs on Initial](https://developer.mozilla.org/en-US/docs/Web/CSS/initial){documentation}'
+  - '[MDN Docs on Inherit](https://developer.mozilla.org/en-US/docs/Web/CSS/inherit){documentation}'
   - '[Inherit and Initial Values](http://www.quirksmode.org/css/cascading/values.html){website}'
 
 ---

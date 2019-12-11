@@ -15,7 +15,7 @@ aspects:
 
 links:
 
-  - '[Article On content](https://css-tricks.com/almanac/properties/c/content/){article}'
+  - '[Article on Content](https://css-tricks.com/almanac/properties/c/content/){article}'
 
 
 ---

@@ -22,8 +22,8 @@ tags:
 
 links:
 
-  - '[Article On flex-grow](https://css-tricks.com/almanac/properties/f/flex-grow/){article}'
-  - '[MDN Docs On flex-grow](https://developer.mozilla.org/en-US/docs/Web/CSS/flex-grow){documentation}'
+  - '[Article on flex-grow](https://css-tricks.com/almanac/properties/f/flex-grow/){article}'
+  - '[MDN Docs on flex-grow](https://developer.mozilla.org/en-US/docs/Web/CSS/flex-grow){documentation}'
 
 ---
 

@@ -19,7 +19,7 @@ aspects:
 
 links:
 
-  - '[Documentation On sass](http://sass-lang.com/documentation/file.SASS_REFERENCE.html#_5){documentation}'
+  - '[Documentation on Sass](http://sass-lang.com/documentation/file.SASS_REFERENCE.html#_5){documentation}'
 
 
 ---

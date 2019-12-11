@@ -32,7 +32,7 @@ tags:
 
 links:
 
-  - '[list-style - css-tricks.com](https://css-tricks.com/almanac/properties/l/list-style/){website}'
+  - '[The list-style Property](https://css-tricks.com/almanac/properties/l/list-style/){website}'
 
 
 ---

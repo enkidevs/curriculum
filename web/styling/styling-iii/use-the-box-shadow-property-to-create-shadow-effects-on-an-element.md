@@ -32,7 +32,7 @@ tags:
 
 links:
 
-  - '[MDN Docs On box-shadow](https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow){documentation}'
+  - '[MDN Docs on Box Shadow](https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow){documentation}'
 
 
 ---

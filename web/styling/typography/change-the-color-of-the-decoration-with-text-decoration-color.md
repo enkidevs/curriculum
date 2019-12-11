@@ -16,8 +16,8 @@ aspects:
 
 links:
 
-  - '[MDN Docs On text-decoration](https://developer.mozilla.org/fr/docs/Web/CSS/text-decoration){documentation}'
-  - '[More Control Over text-decoration](https://css-tricks.com/more-control-over-text-decoration/){website}'
+  - '[MDN Docs on Text Decoration](https://developer.mozilla.org/fr/docs/Web/CSS/text-decoration){documentation}'
+  - '[More Control Over Text Decoration](https://css-tricks.com/more-control-over-text-decoration/){website}'
 
 parent: underline-feature-on-html-elements
 

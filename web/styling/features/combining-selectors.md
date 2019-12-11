@@ -20,7 +20,7 @@ aspects:
 links:
 
   - '[30 CSS selectors](http://code.tutsplus.com/tutorials/the-30-css-selectors-you-must-memorize--net-16048){article}'
-  - '[MDN Docs On selectors](https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/Selectors){documentation}'
+  - '[MDN Docs on Selectors](https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/Selectors){documentation}'
 
 
 ---

@@ -19,9 +19,9 @@ aspects:
 
 links:
 
-  - '[MDN Docs On text-decoration-style](https://developer.mozilla.org/en-US/docs/Web/CSS/text-decoration-style){documentation}'
-  - '[text-decoration-style - caniuse.com](http://caniuse.com/#feat=text-decoration){website}'
-  - '[More Control Over text-decoration](https://css-tricks.com/more-control-over-text-decoration/){website}'
+  - '[MDN Docs on Text Decoration Style](https://developer.mozilla.org/en-US/docs/Web/CSS/text-decoration-style){documentation}'
+  - '[Browser Availability for text-decoration-style](http://caniuse.com/#feat=text-decoration){website}'
+  - '[More Control Over Text Decoration](https://css-tricks.com/more-control-over-text-decoration/){website}'
 
 ---
 

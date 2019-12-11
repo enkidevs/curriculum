@@ -22,7 +22,7 @@ tags:
 
 links:
 
-  - '[Misc-flexbox-fundamentals](https://egghead.io/lessons/misc-flexbox-fundamentals){website}'
+  - '[Flexbox Fundamentals](https://egghead.io/lessons/misc-flexbox-fundamentals){website}'
 
 
 ---

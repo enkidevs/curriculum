@@ -26,7 +26,7 @@ tags:
 
 links:
 
-  - '[Article On @font-face](https://css-tricks.com/snippets/css/using-font-face/){article}'
+  - '[Article on @font-face](https://css-tricks.com/snippets/css/using-font-face/){article}'
 
 
 ---

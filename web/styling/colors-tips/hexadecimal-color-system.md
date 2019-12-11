@@ -18,7 +18,6 @@ tags:
 
 links:
   - '[Scrimba CSS Colors](https://scrimba.com/p/pWvwCg/cMMymu2){website}'
-  - '[www.codecademy.com](https://www.codecademy.com/courses/web-beginner-en-TlhFi/2/2?curriculum_id=50579fb998b470000202dc8b){website}'
 
 ---
 

@@ -19,7 +19,7 @@ category: hack
 links:
 
   - '[CSS Pro Tips](https://github.com/AllThingsSmitty/css-protips){website}'
-  - '[MDN Docs On ::before](https://developer.mozilla.org/en-US/docs/Web/CSS/::before){documentation}'
+  - '[MDN Docs on ::before](https://developer.mozilla.org/en-US/docs/Web/CSS/::before){documentation}'
 
 
 ---

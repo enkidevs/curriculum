@@ -19,8 +19,7 @@ aspects:
 
 links:
 
-  - '[MDN Docs On display](https://developer.mozilla.org/en-US/docs/Web/CSS/display){documentation}'
-  - '[link to learn more](https://enki.com){website}'
+  - '[MDN Docs on Display](https://developer.mozilla.org/en-US/docs/Web/CSS/display){documentation}'
 
 
 ---

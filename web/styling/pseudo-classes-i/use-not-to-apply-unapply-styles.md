@@ -16,7 +16,7 @@ aspects:
 links:
 
   - '[CSS Pro Tips](https://github.com/AllThingsSmitty/css-protips){website}'
-  - '[MDN Docs On :not](https://developer.mozilla.org/en-US/docs/Web/CSS/:not){documentation}'
+  - '[MDN Docs on :not](https://developer.mozilla.org/en-US/docs/Web/CSS/:not){documentation}'
 
 
 ---

@@ -16,7 +16,7 @@ inAlgoPool: false
 
 links:
 
-  - '[MDN Docs On Inline Elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Inline_elemente){documentation}'
+  - '[MDN Docs on Inline Elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Inline_elemente){documentation}'
 
 ---
 

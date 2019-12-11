@@ -20,8 +20,8 @@ aspects:
 
 links:
 
-  - '[Article On Animation And Keyframes](http://www.tutorialspark.com/css3/CSS3_Animation_Keyframes.php){article}'
-  - '[MDN Docs On @keyframes](https://developer.mozilla.org/en-US/docs/Web/CSS/@keyframes){documentation}'
+  - '[Article on Animation And Keyframes](http://www.tutorialspark.com/css3/CSS3_Animation_Keyframes.php){article}'
+  - '[MDN Docs on @keyframes](https://developer.mozilla.org/en-US/docs/Web/CSS/@keyframes){documentation}'
 
 
 ---

@@ -25,7 +25,7 @@ tags:
 
 links:
 
-  - '[Google.com/fonts](https://www.google.com/fonts){website}'
+  - '[Google Fonts](https://www.google.com/fonts){website}'
 
 
 ---

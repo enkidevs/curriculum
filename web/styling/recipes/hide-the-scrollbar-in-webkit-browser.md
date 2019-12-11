@@ -26,7 +26,7 @@ tags:
 
 links:
 
-  - '[Hiding the Scrollbar On The Web](http://stackoverflow.com/questions/3296644/hiding-the-scrollbar-on-an-html-page){discussion}'
+  - '[Hiding the Scrollbar on the Web](http://stackoverflow.com/questions/3296644/hiding-the-scrollbar-on-an-html-page){discussion}'
 
 
 ---

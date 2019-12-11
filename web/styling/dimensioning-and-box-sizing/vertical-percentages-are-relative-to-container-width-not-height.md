@@ -20,7 +20,7 @@ category: caveats
 links:
 
   - '[Vertical Percentage CSS](http://www.impressivewebs.com/vertical-percentages-css/){website}'
-  - '[MDN docs On Percentage](https://developer.mozilla.org/en-US/docs/Web/CSS/percentage){documentation}'
+  - '[MDN Docs on Percentage](https://developer.mozilla.org/en-US/docs/Web/CSS/percentage){documentation}'
 
 ---
 

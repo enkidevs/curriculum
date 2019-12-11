@@ -24,7 +24,7 @@ tags:
 
 links:
 
-  - '[MDN Docs On :matches](https://developer.mozilla.org/en-US/docs/Web/CSS/:matches){documentation}'
+  - '[MDN Docs on :matches](https://developer.mozilla.org/en-US/docs/Web/CSS/:matches){documentation}'
 
 
 ---

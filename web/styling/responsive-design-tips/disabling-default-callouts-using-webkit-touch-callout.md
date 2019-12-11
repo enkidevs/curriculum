@@ -19,7 +19,7 @@ aspects:
 
 links:
 
-  - '[MDN Docs On webkit-touch-callout](https://developer.mozilla.org/en-US/docs/Web/CSS/-webkit-touch-callout){documentation}'
+  - '[MDN Docs on webkit-touch-callout](https://developer.mozilla.org/en-US/docs/Web/CSS/-webkit-touch-callout){documentation}'
 
 
 ---

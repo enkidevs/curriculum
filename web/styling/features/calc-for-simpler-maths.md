@@ -22,8 +22,8 @@ tags:
 
 links:
 
-  - '[Use Cases For calc()](https://css-tricks.com/a-couple-of-use-cases-for-calc/){article}'
-  - '[MDN Docs On calc()](https://developer.mozilla.org/en-US/docs/Web/CSS/calc){documentation}'
+  - '[Use Cases for calc()](https://css-tricks.com/a-couple-of-use-cases-for-calc/){article}'
+  - '[MDN Docs on calc()](https://developer.mozilla.org/en-US/docs/Web/CSS/calc){documentation}'
 
 
 ---

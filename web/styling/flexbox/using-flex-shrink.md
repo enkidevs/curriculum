@@ -26,8 +26,8 @@ tags:
 
 links:
 
-  - '[Article On flex-shrink](https://css-tricks.com/almanac/properties/f/flex-shrink/){article}'
-  - '[MDN Docs On flex-shrink](https://developer.mozilla.org/en-US/docs/Web/CSS/flex-shrink){documentation}'
+  - '[Article on flex-shrink](https://css-tricks.com/almanac/properties/f/flex-shrink/){article}'
+  - '[MDN Docs on flex-shrink](https://developer.mozilla.org/en-US/docs/Web/CSS/flex-shrink){documentation}'
 
 ---
 

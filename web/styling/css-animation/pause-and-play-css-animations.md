@@ -17,7 +17,7 @@ aspects:
 
 links:
 
-  - '[Tutorial On Animations](http://tympanus.net/codrops/css_reference/animation-play-state/){article}'
+  - '[Tutorial on Animations](http://tympanus.net/codrops/css_reference/animation-play-state/){article}'
   - '[12 Little Known CSS Tips](http://www.sitepoint.com/12-little-known-css-facts/){article}'
 
 ---

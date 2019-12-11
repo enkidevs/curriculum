@@ -20,8 +20,8 @@ tags:
 
 links:
 
-  - '[Article On order](https://css-tricks.com/almanac/properties/o/order/){article}'
-  - '[MDN Docs On Ordering Flex Items](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Ordering_Flex_Items){documentation}'
+  - '[Article on Order](https://css-tricks.com/almanac/properties/o/order/){article}'
+  - '[MDN Docs on Ordering Flex Items](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Ordering_Flex_Items){documentation}'
 
 
 ---

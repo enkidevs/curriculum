@@ -31,8 +31,8 @@ tags:
 
 links:
 
-  - '[Article On z-index](https://css-tricks.com/almanac/properties/z/z-index/){article}'
-  - '[MDN Docs On z-index](https://developer.mozilla.org/en-US/docs/Web/CSS/z-index){documentation}'
+  - '[Article on z-index](https://css-tricks.com/almanac/properties/z/z-index/){article}'
+  - '[MDN Docs on z-index](https://developer.mozilla.org/en-US/docs/Web/CSS/z-index){documentation}'
 
 
 ---

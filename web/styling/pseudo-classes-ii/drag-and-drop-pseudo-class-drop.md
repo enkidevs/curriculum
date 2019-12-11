@@ -28,7 +28,7 @@ tags:
 
 links:
 
-  - '[Article On CSS Selectors](http://www.sitepoint.com/future-generation-css-selectors-level-4/){Article}'
+  - '[Article on CSS Selectors](http://www.sitepoint.com/future-generation-css-selectors-level-4/){Article}'
 
 
 ---

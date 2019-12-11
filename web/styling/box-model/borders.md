@@ -15,7 +15,7 @@ inAlgoPool: false
 
 links:
   - '[Scrimba CSS Borders](https://scrimba.com/p/pWvwCg/cmJvzh6){tutorial}'
-  - '[MDN Docs On border](https://developer.mozilla.org/en-US/docs/Web/CSS/border){documentation}'
+  - '[MDN Docs on border](https://developer.mozilla.org/en-US/docs/Web/CSS/border){documentation}'
 
 ---
 

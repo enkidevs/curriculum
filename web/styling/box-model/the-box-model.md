@@ -15,8 +15,8 @@ aspects:
 inAlgoPool: false
 
 links:
-  - '[Scrimba CSS The Box Model](https://scrimba.com/p/pWvwCg/cnm3RSZ){website}'
-  - '[MDN Docs On The Box Model](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Introduction_to_the_CSS_box_model){documentation}'
+  - '[Scrimba CSS the Box Model](https://scrimba.com/p/pWvwCg/cnm3RSZ){website}'
+  - '[MDN Docs on the Box Model](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Introduction_to_the_CSS_box_model){documentation}'
 
 ---
 

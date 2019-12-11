@@ -20,8 +20,8 @@ inAlgoPool: false
 
 links:
   - '[Scrimba CSS Margins](https://scrimba.com/p/pWvwCg/cpKPmh9){tutorial}'
-  - '[MDN Docs On margin](https://developer.mozilla.org/en-US/docs/Web/CSS/margin){documentation}'
-  - '[MDN Docs On padding](https://developer.mozilla.org/en-US/docs/Web/CSS/padding){documentation}'
+  - '[MDN Docs on Margin](https://developer.mozilla.org/en-US/docs/Web/CSS/margin){documentation}'
+  - '[MDN Docs on Padding](https://developer.mozilla.org/en-US/docs/Web/CSS/padding){documentation}'
   - '[Scrimba CSS Padding](https://scrimba.com/p/pWvwCg/czM84uZ){tutorial}'
 
 ---

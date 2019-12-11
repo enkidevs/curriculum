@@ -22,7 +22,7 @@ tags:
 
 links:
 
-  - '[MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/justify-content){documentation}'
+  - '[Justify Content](https://developer.mozilla.org/en-US/docs/Web/CSS/justify-content){documentation}'
 
 
 ---

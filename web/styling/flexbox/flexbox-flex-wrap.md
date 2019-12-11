@@ -20,8 +20,8 @@ tags:
 
 links:
 
-  - '[Article On flex-wrap](https://css-tricks.com/almanac/properties/f/flex-wrap/){website}'
-  - '[MDN Docs On flex-wrap](https://developer.mozilla.org/en-US/docs/Web/CSS/flex-wrap){documentation}'
+  - '[Article on flex-wrap](https://css-tricks.com/almanac/properties/f/flex-wrap/){website}'
+  - '[MDN Docs on flex-wrap](https://developer.mozilla.org/en-US/docs/Web/CSS/flex-wrap){documentation}'
 
 
 ---

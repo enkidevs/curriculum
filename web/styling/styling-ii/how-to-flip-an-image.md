@@ -17,7 +17,7 @@ aspects:
 
 links:
 
-  - '[How To Flip Images](http://stackoverflow.com/questions/28583629/how-to-make-images-flip-rotate-using-css){discussion}'
+  - '[How to Flip Images](http://stackoverflow.com/questions/28583629/how-to-make-images-flip-rotate-using-css){discussion}'
 
 
 ---

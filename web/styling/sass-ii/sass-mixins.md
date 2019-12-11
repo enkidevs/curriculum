@@ -19,7 +19,7 @@ aspects:
 
 links:
 
-  - '[Structure Of A Stylesheet](http://sass-lang.com/documentation/file.SASS_REFERENCE.html#sassscript){website}'
+  - '[Structure of a Stylesheet](http://sass-lang.com/documentation/file.SASS_REFERENCE.html#sassscript){website}'
 
 
 ---

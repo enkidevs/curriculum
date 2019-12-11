@@ -21,7 +21,7 @@ aspects:
 
 links:
 
-  - '[border-radius Tutorial](http://www.techonthenet.com/css/properties/border_radius.php){article}'
+  - '[Tutorial on Border Radius](http://www.techonthenet.com/css/properties/border_radius.php){article}'
 
 
 ---

@@ -26,7 +26,7 @@ tags:
 
 links:
 
-  - '[www.htmlcodetutorial.com](http://www.htmlcodetutorial.com/tables/index_famsupp_29.html){website}'
+  - '[Difference between Cellpadding & Cellspacing](http://www.htmlcodetutorial.com/tables/index_famsupp_29.html){website}'
 
 
 ---

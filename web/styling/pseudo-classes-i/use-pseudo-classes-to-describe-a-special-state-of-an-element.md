@@ -19,8 +19,8 @@ tags:
   - links
 
 links:
-  - '[Article On pseudo-classes](http://www.sitepoint.com/web-foundations/pseudo-classes/){article}'
-  - '[MDN Docs On :hover](https://developer.mozilla.org/en-US/docs/Web/CSS/:hover){documentation}'
+  - '[Article on Pseudo Classes](http://www.sitepoint.com/web-foundations/pseudo-classes/){article}'
+  - '[MDN Docs on :hover](https://developer.mozilla.org/en-US/docs/Web/CSS/:hover){documentation}'
 
 ---
 

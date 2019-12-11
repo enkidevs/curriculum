@@ -16,7 +16,7 @@ inAlgoPool: false
 
 links:
   - '[MDN Docs on CSS](https://developer.mozilla.org/en-US/docs/Glossary/CSSs){documentation}'
-  - '[Scrimba CSS documents & The Cascade](https://scrimba.com/p/pWvwCg/c3vE7cg){website}'
+  - '[Scrimba CSS Documents & the Cascade](https://scrimba.com/p/pWvwCg/c3vE7cg){website}'
 
 ---
 

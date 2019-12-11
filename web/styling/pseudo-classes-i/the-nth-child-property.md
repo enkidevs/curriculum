@@ -15,9 +15,9 @@ aspects:
   - workout
 
 links:
-  - '[Tutorial On Pseudo Classes / Elements](https://scrimba.com/p/pWvwCg/cbmMJSb){website}'
+  - '[Tutorial on Pseudo Classes & Elements](https://scrimba.com/p/pWvwCg/cbmMJSb){website}'
   - '[CSS Pro Tips](https://github.com/AllThingsSmitty/css-protips){website}'
-  - '[MDN Docs On :nth-child](https://developer.mozilla.org/en-US/docs/Web/CSS/:nth-child){documentation}'
+  - '[MDN Docs on :nth-child](https://developer.mozilla.org/en-US/docs/Web/CSS/:nth-child){documentation}'
 
 ---
 

@@ -20,7 +20,7 @@ aspects:
 links:
 
   - '[CSS Animations](http://unmatchedstyle.com/news/css-animation.php){article}'
-  - '[MDN Docs On animation](https://developer.mozilla.org/en-US/docs/Web/CSS/animation){documentation}'
+  - '[MDN Docs on Animation](https://developer.mozilla.org/en-US/docs/Web/CSS/animation){documentation}'
 
 
 ---

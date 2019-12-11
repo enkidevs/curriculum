@@ -21,7 +21,7 @@ aspects:
 links:
 
   - '[CSS Pro Tips](https://github.com/AllThingsSmitty/css-protips){website}'
-  - '[MDN Docs On flexbox](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox){documentation}'
+  - '[MDN Docs on Flexbox](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox){documentation}'
 
 
 ---
