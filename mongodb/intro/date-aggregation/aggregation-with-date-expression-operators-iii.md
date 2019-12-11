@@ -15,7 +15,7 @@ category: how to
 
 ---
 
-# Aggregation With $hour, $minutes, $seconds and $milliseconds
+# Aggregation With $hour, $minute, $second and $millisecond
 
 ---
 ## Content
@@ -71,9 +71,9 @@ Output:
 }
 ```
 
-### $seconds
+### $second
 
-The `$seconds` date operator is used to extract the exact second the document was made on. Although the output goes from 0 to 59, it is possible for the output to be 60 in case of a leap second.
+The `$second` date operator is used to extract the exact second the document was made on. Although the output goes from 0 to 59, it is possible for the output to be 60 in case of a leap second.
 
 Example:
 ```js
@@ -95,9 +95,9 @@ Output:
 }
 ```
 
-### $milliseconds
+### $millisecond
 
-The `$milliseconds` date operator is used to extract the exact millisecond the document was made on. The output goes from 0 to 999.
+The `$millisecond` date operator is used to extract the exact millisecond the document was made on. The output goes from 0 to 999.
 
 Example:
 ```js
@@ -137,11 +137,11 @@ The ??? operator is used to extract the exact minute the document was made and a
 
 
 * `$hour`
-* `$minutes`
+* `$minute`
 * `number between 0-59`
-* `$seconds`
+* `$second`
 * `0-60, 60 to account for a leap second`
-* `$milliseconds`
+* `$millisecond`
 * `number between 0-999`
 * `number between 1-1000`
 * `number between 1-60`
