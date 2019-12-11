@@ -1,10 +1,6 @@
 ---
 author: Stefan-Stojanovic
 
-levels:
-  - beginner
-  - basic
-  
 aspects:
   - introduction
   - new
@@ -56,6 +52,17 @@ This will output the date part from the `ObjectId` in an ISODate format.
 Output:
 ```javascript
 ISODate("2019-10-09T07:21:14Z")
+```
+
+To best demonstrate the usage of various date expression operators, we will add the creation date to our `"Bulbasaur"` pokémon and use it as the example in the upcoming insights:
+
+```json
+{ 
+  "_id": ObjectId("5d9d8a6a0b24990f19398209"),
+  "name": "Bulbasaur",
+  "type": "Grass",
+  "createdAt": ISODate("2019-10-09T07:21:14Z") <-- should use this one due to inconsistent capitalization
+}
 ```
 
 ---
