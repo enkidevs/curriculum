@@ -1,10 +1,6 @@
 ---
 author: Stefan-Stojanovic
 
-levels:
-  - beginner
-  - basic
-  
 aspects:
   - introduction
   - new
@@ -32,7 +28,7 @@ db.pokedex.aggregate([
   { $match: { name: "Bulbasaur" } },
   {
     $project: {
-      Hour: { $hour: "$Date" },
+      Hour: { $hour: "$createdAt" },
       _id: 0
     }
   }
@@ -57,7 +53,7 @@ db.pokedex.aggregate([
   { $match: { name: "Bulbasaur" } },
   {
     $project: {
-      Minutes: { $minute: "$Date" },
+      Minutes: { $minute: "$createdAt" },
       _id: 0
     }
   }
@@ -81,7 +77,7 @@ db.pokedex.aggregate([
   { $match: { name: "Bulbasaur" } },
   {
     $project: {
-      Seconds: { $second: "$Date" },
+      Seconds: { $second: "$createdAt" },
       _id: 0
     }
   }
@@ -106,7 +102,7 @@ db.pokedex.aggregate([
   {
     $project: {
       Milliseconds: {
-        $millisecond: "$Date"
+        $millisecond: "$createdAt"
       },
       _id: 0
     }
@@ -153,17 +149,11 @@ The ??? operator is used to extract the exact millisecond the document was made 
 [1:Previous Document]
 Here is the document used in the previous insight:
 ```javascript
-// document without the Date
-{ 
-  "_id": ObjectId("5d9d8a6a0b24990f19398209"),
-  "name": "Bulbasaur",
-  "type": "Grass"
-}
-// Document with the Date
+// Document with the ISODate
 { 
   "_id": ObjectId("5d9d8a6a0b24990f19398209"),
   "name": "Bulbasaur",
   "type": "Grass",
-  "Date": ISODate("2019-10-09T07:21:14Z")
+  "createdAt": ISODate("2019-10-09T07:21:14Z")
 }
 ```
