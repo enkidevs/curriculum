@@ -1,9 +1,6 @@
 ---
 author: Stefan-Stojanovic
 
-levels:
-  - beginner
-  
 aspects:
   - introduction
 
@@ -28,16 +25,16 @@ db.pokemon.aggregate([
   { $match: { name: "Bulbasaur" } },
   {
     $project: {
-      DayOfTheYear: { $dayOfYear: "$Date" },
-      Year: { $year: "$Date" },
-      Month: { $month: "$Date" },
-      DayOfTheMonth: { $dayOfMonth: "$Date" },
-      Hour: { $hour: "$Date" },
-      Minutes: { $minute: "$Date" },
-      Seconds: { $second: "$Date" },
-      Milliseconds: { $millisecond: "$Date" },
-      Week: { $week: "$Date" },
-      DayOfTheWeek: { $dayOfWeek: "$Date" },
+      DayOfTheYear: { $dayOfYear: "$createdAt" },
+      Year: { $year: "$createdAt" },
+      Month: { $month: "$createdAt" },
+      DayOfTheMonth: { $dayOfMonth: "$createdAt" },
+      Hour: { $hour: "$createdAt" },
+      Minutes: { $minute: "$createdAt" },
+      Seconds: { $second: "$createdAt" },
+      Milliseconds: { $millisecond: "$createdAt" },
+      Week: { $week: "$createdAt" },
+      DayOfTheWeek: { $dayOfWeek: "$createdAt" },
       _id: 0
     }
   }
@@ -69,16 +66,16 @@ db.pokemon.aggregate([
   { $match: { name: "Bulbasaur" } },
   {
     $project: {
-      DayOfTheYear: { ???: "$Date" },
-      Year: { ???: "$Date" },
-      Month: { ???: "$Date" },
-      DayOfTheMonth: { ???: "$Date" },
-      Hour: { ???: "$Date" },
-      Minutes: { ???: "$Date" },
-      Seconds: { ???: "$Date" },
-      Milliseconds: { ???: "$Date" },
-      Week: { ???: "$Date" },
-      DayOfTheWeek: { ???: "$Date" },
+      DayOfTheYear: { ???: "$createdAt" },
+      Year: { ???: "$createdAt" },
+      Month: { ???: "$createdAt" },
+      DayOfTheMonth: { ???: "$createdAt" },
+      Hour: { ???: "$createdAt" },
+      Minutes: { ???: "$createdAt" },
+      Seconds: { ???: "$createdAt" },
+      Milliseconds: { ???: "$createdAt" },
+      Week: { ???: "$createdAt" },
+      DayOfTheWeek: { ???: "$createdAt" },
       _id: 0
     }
   }
@@ -111,17 +108,11 @@ db.pokemon.aggregate([
 [1:Previous Document]
 Here is the document used in the previous insight:
 ```javascript
-// document without the Date
-{ 
-  "_id": ObjectId("5d9d8a6a0b24990f19398209"),
-  "name": "Bulbasaur",
-  "type": "Grass"
-}
-// Document with the Date
+// Document with the ISODate
 { 
   "_id": ObjectId("5d9d8a6a0b24990f19398209"),
   "name": "Bulbasaur",
   "type": "Grass",
-  "Date": ISODate("2019-10-09T07:21:14Z")
+  "createdAt": ISODate("2019-10-09T07:21:14Z")
 }
 ```
