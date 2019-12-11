@@ -19,7 +19,7 @@ aspects:
 
 links:
 
-  - '[sass-lang.com](http://sass-lang.com/documentation/Sass/Script/Functions.html){website}'
+  - '[Article on Functions](http://sass-lang.com/documentation/Sass/Script/Functions.html){article}'
 
 
 ---

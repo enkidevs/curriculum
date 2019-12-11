@@ -15,9 +15,9 @@ aspects:
   - workout
 
 links:
-  - '[Scrimba CSS Pseudo Classes / Elements](https://scrimba.com/p/pWvwCg/cbmMJSb){website}'
-  - '[github.com](https://github.com/AllThingsSmitty/css-protips){website}'
-  - '[MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/:nth-child){documentation}'
+  - '[Tutorial on Pseudo Classes & Elements](https://scrimba.com/p/pWvwCg/cbmMJSb){website}'
+  - '[CSS Pro Tips](https://github.com/AllThingsSmitty/css-protips){website}'
+  - '[MDN Docs on :nth-child](https://developer.mozilla.org/en-US/docs/Web/CSS/:nth-child){documentation}'
 
 ---
 
@@ -93,7 +93,7 @@ li:nth-child(-n+5) {
 }
 ```
 
-![HtmlToSvgmin.svg](%3Csvg%20height=%22auto%22%20viewBox=%220%200%20800%20300%22%20xmlns=%22http://www.w3.org/2000/svg%22%20version=%221.2%22%20baseProfile=%22tiny%22%3E%3Cdesc%3ECreated%20by%20HiQPdf%3C/desc%3E%3Cg%20fill=%22none%22%20stroke=%22#000%22%20fill-rule=%22evenodd%22%20stroke-linecap=%22square%22%20stroke-linejoin=%22bevel%22%3E%3Cpath%20d=%22M8%208h800v300H8V8%22%20fill=%22#596193%22%20stroke=%22none%22/%3E%3Ctext%20stroke=%22none%22%20x=%22328%22%20y=%2245%22%20font-family=%22Arial%22%20font-size=%2228%22%20font-weight=%22400%22%20fill=%22#ff6f31%22%3EFirst%20list%20item%3C/text%3E%3Ctext%20stroke=%22none%22%20x=%22328%22%20y=%2289%22%20font-family=%22'Roboto',%20sans-serif%22%20font-size=%2228%22%20font-weight=%22400%22%20fill=%22#ff6f31%22%3ESecond%20list%20item%3C/text%3E%3Ctext%20stroke=%22none%22%20x=%22328%22%20y=%22133%22%20font-family=%22'Roboto',%20sans-serif%22%20font-size=%2228%22%20font-weight=%22400%22%20fill=%22#ff6f31%22%3EThird%20list%20item%3C/text%3E%3Ctext%20stroke=%22none%22%20x=%22328%22%20y=%22177%22%20font-family=%22'Roboto',%20sans-serif%22%20font-size=%2228%22%20font-weight=%22400%22%20fill=%22#ff6f31%22%3EFourth%20list%20item%3C/text%3E%3Ctext%20stroke=%22none%22%20x=%22328%22%20y=%22221%22%20font-family=%22'Roboto',%20sans-serif%22%20font-size=%2228%22%20font-weight=%22400%22%20fill=%22#ff6f31%22%3EFifth%20list%20item%3C/text%3E%3Ctext%20stroke=%22none%22%20x=%22328%22%20y=%22265%22%20font-family=%22'Roboto',%20sans-serif%22%20font-size=%2228%22%20font-weight=%22400%22%20fill=%22#fff%22%3ESixth%20list%20item%3C/text%3E%3C/g%3E%3C/svg%3E)
+![HtmlToSvgmin.svg](https://img.enkipro.com/314f902f9748cf7e54dcf197adb0ca01.png)
 
 ---
 ## Revision

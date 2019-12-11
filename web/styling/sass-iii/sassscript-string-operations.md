@@ -19,7 +19,7 @@ aspects:
 
 links:
 
-  - '[sass-lang.com](http://sass-lang.com/documentation/file.SASS_REFERENCE.html#string_operations){website}'
+  - '[Article on String Operations](http://sass-lang.com/documentation/file.SASS_REFERENCE.html#string_operations){article}'
 
 
 ---

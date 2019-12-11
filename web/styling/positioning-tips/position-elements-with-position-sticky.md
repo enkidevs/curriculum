@@ -20,8 +20,8 @@ category: feature
 
 links:
 
-  - '[caniuse.com](http://caniuse.com/#feat=css-sticky){website}'
-  - '[updates.html5rocks.com](http://updates.html5rocks.com/2012/08/Stick-your-landings-position-sticky-lands-in-WebKit){website}'
+  - '[Browser Availability for position:sticky](http://caniuse.com/#feat=css-sticky){website}'
+  - '[Stick Your Landings](http://updates.html5rocks.com/2012/08/Stick-your-landings-position-sticky-lands-in-WebKit){website}'
 
 notes: ''
 

@@ -25,7 +25,7 @@ tags:
 
 links:
 
-  - '[developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/CSS/border-style){website}'
+  - '[MDN Docs on Border Style](https://developer.mozilla.org/en-US/docs/Web/CSS/border-style){website}'
 
 
 ---

@@ -28,7 +28,7 @@ links:
 ---
 ## Content
 
-Cherry-picking is the method to apply a single, specific commit from another branch.
+Cherry-picking is a method to apply a single, specific commit from another branch.
 
 For example:
 ```

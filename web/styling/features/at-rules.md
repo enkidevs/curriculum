@@ -24,7 +24,7 @@ tags:
 
 links:
 
-  - '[MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/At-rule){documentation}'
+  - '[MDN Docs on at-rule](https://developer.mozilla.org/en-US/docs/Web/CSS/At-rule){documentation}'
 
 
 ---

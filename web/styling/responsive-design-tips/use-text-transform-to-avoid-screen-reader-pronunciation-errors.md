@@ -19,10 +19,8 @@ aspects:
 
 links:
 
-  - '[24ways.org](http://24ways.org/2007/css-for-accessibility){website}'
-
-notes: >-
-  http://www.instantshift.com/2010/03/15/47-css-tips-tricks-to-take-your-site-to-the-next-level/
+  - '[CSS for Accesibility](http://24ways.org/2007/css-for-accessibility){article}'
+  - '[47 CSS Tips & Tricks](http://www.instantshift.com/2010/03/15/47-css-tips-tricks-to-take-your-site-to-the-next-level/){article}'
 
 ---
 

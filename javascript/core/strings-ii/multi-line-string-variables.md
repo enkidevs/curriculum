@@ -50,7 +50,7 @@ aspects:
 For readability, it may be preferable to write strings over multiple lines:
 
 ```javascript
-var stringOfHTML = "<div>
+let stringOfHTML = "<div>
   This is a bad example.
 </div>";
 ```
@@ -60,15 +60,15 @@ However, this will cause an error.
 To preserve both readability and functionality, use string concatenation:
 
 ```javascript
-var stringOfHTML = '<div>' +
+let stringOfHTML = '<div>' +
   '  This is a better example.' +
 '</div>';
 ```
 
-Or, ES2015 makes it possible to use backticks, in this form:
+Or, since ES2015, it is possible to use backticks (`` ` ``), in this form:
 
-```
-var stringOfHTML = `This is a 
+```javascript
+let stringOfHTML = `This is a 
 multi-line
 string in ES6!`;
 ```
@@ -76,13 +76,20 @@ string in ES6!`;
 ---
 ## Practice
 
-What character is used in ES2015 for multi line string variables? ???
+Which characters are used to enclose a multi-line string?
 
+```js
+"" // A
+```
 
-* Backticks (`)
-* Single quotes (`'`)
-* Double quotes (`"`)
-* Backslash (`\`)
+```js
+`` // B
+```
+
+???
+
+* B
+* A
 
 ---
 ## Revision

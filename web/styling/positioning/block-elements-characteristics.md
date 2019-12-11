@@ -15,9 +15,7 @@ inAlgoPool: false
 
 links:
   - '[Scrimba CSS Width and Height](https://scrimba.com/p/pWvwCg/cPvRvAV){website}'
-  - '[MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Block-level_elements){documentation}'
-
-notes: 'http://www.webcredible.com/blog-reports/css/more-css-tricks.shtml'
+  - '[MDN Docs on Block Level Elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Block-level_elements){documentation}'
 
 ---
 
@@ -42,7 +40,6 @@ Most of the newer tags, such as `<article>`, `<aside>`, `<main>` etc. are also d
 Which of the following element is * not * a block element?
 
 ???
-
 
 * `<span>`
 * `<form>`

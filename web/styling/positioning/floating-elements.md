@@ -15,8 +15,7 @@ inAlgoPool: false
 
 links:
   - '[Scrimba CSS Float & Clear](https://scrimba.com/p/pWvwCg/cD6KWHq){website}'
-  - '[MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/float){documentation}'
-
+  - '[MDN Docs on Float](https://developer.mozilla.org/en-US/docs/Web/CSS/float){documentation}'
 
 ---
 
@@ -44,7 +43,7 @@ p{
 }
 ```
 
-![min.svg](%3Csvg%20height=%22auto%22%20viewBox=%220%200%20810%20310%22%20xmlns=%22http://www.w3.org/2000/svg%22%20version=%221.2%22%20baseProfile=%22tiny%22%3E%3Cdesc%3ECreated%20by%20HiQPdf%3C/desc%3E%3Cg%20fill=%22none%22%20stroke=%22#000%22%20fill-rule=%22evenodd%22%20stroke-linecap=%22square%22%20stroke-linejoin=%22bevel%22%3E%3Cpath%20d=%22M8%208h800v300H8V8%22%20fill=%22#596193%22%20stroke=%22none%22/%3E%3Cpath%20d=%22M8%2018h150v150H8V18M658%2018h150v150H658V18%22%20fill=%22#ff4500%22%20stroke=%22none%22/%3E%3Ctext%20stroke=%22none%22%20x=%22158%22%20y=%2246%22%20font-family=%22inherit%22%20font-size=%2230%22%20font-weight=%22400%22%20fill=%22#fff%22%3EThis%20is%20some%20text.This%20is%20some%3C/text%3E%3Ctext%20stroke=%22none%22%20x=%22158%22%20y=%2282%22%20font-family=%22inherit%22%20font-size=%2230%22%20font-weight=%22400%22%20fill=%22#fff%22%3Etext.This%20is%20some%20text.This%20is%20some%3C/text%3E%3Ctext%20stroke=%22none%22%20x=%22158%22%20y=%22118%22%20font-family=%22inherit%22%20font-size=%2230%22%20font-weight=%22400%22%20fill=%22#fff%22%3Etext.This%20is%20some%20text.This%20is%20some%3C/text%3E%3Ctext%20stroke=%22none%22%20x=%22158%22%20y=%22154%22%20font-family=%22inherit%22%20font-size=%2230%22%20font-weight=%22400%22%20fill=%22#fff%22%3Etext.This%20is%20some%20text.This%20is%20some%3C/text%3E%3Ctext%20stroke=%22none%22%20x=%22158%22%20y=%22190%22%20font-family=%22inherit%22%20font-size=%2230%22%20font-weight=%22400%22%20fill=%22#fff%22%3Etext.This%20is%20some%20text.This%20is%20some%3C/text%3E%3Ctext%20stroke=%22none%22%20x=%228%22%20y=%22226%22%20font-family=%22inherit%22%20font-size=%2230%22%20font-weight=%22400%22%20fill=%22#fff%22%3Etext.This%20is%20some%20text.This%20is%20some%20text.This%20is%20some%3C/text%3E%3Ctext%20stroke=%22none%22%20x=%228%22%20y=%22262%22%20font-family=%22inherit%22%20font-size=%2230%22%20font-weight=%22400%22%20fill=%22#fff%22%3Etext.This%20is%20some%20text.This%20is%20some%20text.%3C/text%3E%3C/g%3E%3C/svg%3E)
+![min.svg](https://img.enkipro.com/1deb6d42e45d2bd90fc68736575f71c0.png)
 
 It can also be used to align elements to the side of the last one:
 ```css
@@ -72,7 +71,7 @@ And the HTML:
 <div class="elem rightelem">Right</div>
 ```
 
-![woclearmin.svg](%3Csvg%20height=%22auto%22%20viewBox=%220%200%20810%20310%22%20xmlns=%22http://www.w3.org/2000/svg%22%20version=%221.2%22%20baseProfile=%22tiny%22%3E%3Cdesc%3ECreated%20by%20HiQPdf%3C/desc%3E%3Cg%20fill=%22none%22%20stroke=%22#000%22%20fill-rule=%22evenodd%22%20stroke-linecap=%22square%22%20stroke-linejoin=%22bevel%22%3E%3Cpath%20d=%22M8%208h800v300H8V8%22%20fill=%22#596193%22%20stroke=%22none%22/%3E%3Cpath%20d=%22M23%2023h120v100H23V23%22%20fill=%22#fff%22%20stroke=%22none%22/%3E%3Ctext%20stroke=%22none%22%20x=%2258.5%22%20y=%2251%22%20font-family=%22inherit%22%20font-size=%2230%22%20font-weight=%22400%22%20fill=%22#000%22%3ELeft%3C/text%3E%3Cpath%20d=%22M173%2023h120v100H173V23%22%20fill=%22#fff%22%20stroke=%22none%22/%3E%3Ctext%20stroke=%22none%22%20x=%22208.5%22%20y=%2251%22%20font-family=%22inherit%22%20font-size=%2230%22%20font-weight=%22400%22%20fill=%22#000%22%3ELeft%3C/text%3E%3Cpath%20d=%22M323%2023h120v100H323V23%22%20fill=%22#fff%22%20stroke=%22none%22/%3E%3Ctext%20stroke=%22none%22%20x=%22358.5%22%20y=%2251%22%20font-family=%22inherit%22%20font-size=%2230%22%20font-weight=%22400%22%20fill=%22#000%22%3ELeft%3C/text%3E%3Cpath%20d=%22M673%2023h120v100H673V23%22%20fill=%22#fff%22%20stroke=%22none%22/%3E%3Ctext%20stroke=%22none%22%20x=%22697.5%22%20y=%2251%22%20font-family=%22inherit%22%20font-size=%2230%22%20font-weight=%22400%22%20fill=%22#000%22%3ERight%3C/text%3E%3Cpath%20d=%22M523%2023h120v100H523V23%22%20fill=%22#fff%22%20stroke=%22none%22/%3E%3Ctext%20stroke=%22none%22%20x=%22547.5%22%20y=%2251%22%20font-family=%22inherit%22%20font-size=%2230%22%20font-weight=%22400%22%20fill=%22#000%22%3ERight%3C/text%3E%3Cpath%20d=%22M673%20153h120v100H673V153%22%20fill=%22#fff%22%20stroke=%22none%22/%3E%3Ctext%20stroke=%22none%22%20x=%22697.5%22%20y=%22181%22%20font-family=%22inherit%22%20font-size=%2230%22%20font-weight=%22400%22%20fill=%22#000%22%3ERight%3C/text%3E%3C/g%3E%3C/svg%3E)
+![woclearmin.svg](https://img.enkipro.com/4755d5867013fb92808d58f7f83b80dc.png)
 
 However, this might not be the layout we were looking to achieve. As there is space left for 2 more rectangle on the first line, `float:right` will position them in the empty space.
 
@@ -86,13 +85,12 @@ Because we want the first right element to start on a new line, we have to `clea
 ```
 And the result will be:
 
-![clearmin.svg](%3Csvg%20height=%22auto%22%20viewBox=%220%200%20810%20310%22%20xmlns=%22http://www.w3.org/2000/svg%22%20version=%221.2%22%20baseProfile=%22tiny%22%3E%3Cdesc%3ECreated%20by%20HiQPdf%3C/desc%3E%3Cg%20fill=%22none%22%20stroke=%22#000%22%20fill-rule=%22evenodd%22%20stroke-linecap=%22square%22%20stroke-linejoin=%22bevel%22%3E%3Cpath%20d=%22M8%208h800v300H8V8%22%20fill=%22#596193%22%20stroke=%22none%22/%3E%3Cpath%20d=%22M23%2023h120v100H23V23%22%20fill=%22#fff%22%20stroke=%22none%22/%3E%3Ctext%20stroke=%22none%22%20x=%2258.5%22%20y=%2251%22%20font-family=%22inherit%22%20font-size=%2230%22%20font-weight=%22400%22%20fill=%22#000%22%3ELeft%3C/text%3E%3Cpath%20d=%22M173%2023h120v100H173V23%22%20fill=%22#fff%22%20stroke=%22none%22/%3E%3Ctext%20stroke=%22none%22%20x=%22208.5%22%20y=%2251%22%20font-family=%22inherit%22%20font-size=%2230%22%20font-weight=%22400%22%20fill=%22#000%22%3ELeft%3C/text%3E%3Cpath%20d=%22M323%2023h120v100H323V23%22%20fill=%22#fff%22%20stroke=%22none%22/%3E%3Ctext%20stroke=%22none%22%20x=%22358.5%22%20y=%2251%22%20font-family=%22inherit%22%20font-size=%2230%22%20font-weight=%22400%22%20fill=%22#000%22%3ELeft%3C/text%3E%3Cpath%20d=%22M673%20153h120v100H673V153%22%20fill=%22#fff%22%20stroke=%22none%22/%3E%3Ctext%20stroke=%22none%22%20x=%22697.5%22%20y=%22181%22%20font-family=%22inherit%22%20font-size=%2230%22%20font-weight=%22400%22%20fill=%22#000%22%3ERight%3C/text%3E%3Cpath%20d=%22M523%20153h120v100H523V153%22%20fill=%22#fff%22%20stroke=%22none%22/%3E%3Ctext%20stroke=%22none%22%20x=%22547.5%22%20y=%22181%22%20font-family=%22inherit%22%20font-size=%2230%22%20font-weight=%22400%22%20fill=%22#000%22%3ERight%3C/text%3E%3Cpath%20d=%22M373%20153h120v100H373V153%22%20fill=%22#fff%22%20stroke=%22none%22/%3E%3Ctext%20stroke=%22none%22%20x=%22397.5%22%20y=%22181%22%20font-family=%22inherit%22%20font-size=%2230%22%20font-weight=%22400%22%20fill=%22#000%22%3ERight%3C/text%3E%3C/g%3E%3C/svg%3E)
+![clearmin.svg](https://img.enkipro.com/b84c371f37e5eb86d96a9cb45e41a52e.png)
 
 ---
 ## Revision
 
 Text ??? a floated element.
-
 
 * surrounds
 * pushes

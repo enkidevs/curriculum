@@ -17,8 +17,8 @@ inAlgoPool: false
 
 links:
   - '[Scrimba CSS Selectors, Properties & Values](https://scrimba.com/p/pWvwCg/cpKbvTV){website}'
-  - '[learn.shayhowe.com](http://learn.shayhowe.com/html-css/getting-to-know-css/#combining-selectors){website}'
-  - '[MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors){documentation}'
+  - '[Combining Selectors](http://learn.shayhowe.com/html-css/getting-to-know-css/#combining-selectors){website}'
+  - '[MDN Docs on CSS Selectors](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors){documentation}'
 
 
 ---

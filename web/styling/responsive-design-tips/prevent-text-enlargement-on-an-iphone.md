@@ -20,7 +20,7 @@ aspects:
 
 links:
 
-  - '[css-tricks.com](https://css-tricks.com/prevent-iphone-text-enlargement/){website}'
+  - '[Article on Text Enlargement](https://css-tricks.com/prevent-iphone-text-enlargement/){article}'
 
 
 ---

@@ -19,8 +19,7 @@ aspects:
 
 links:
 
-  - '[MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/display){documentation}'
-  - '[link to learn more](https://enki.com){website}'
+  - '[MDN Docs on Display](https://developer.mozilla.org/en-US/docs/Web/CSS/display){documentation}'
 
 
 ---
@@ -59,12 +58,12 @@ Which of those properties won’t preserve the space allocated for the element?
 
 * `display: none`
 * `visibility: hidden`
-* neither
+* `neither`
 
 ---
 ## Revision
 
-Which of the following is the definition for display:none?
+Which of the following is the definition for `display:none`?
 
 ???
 

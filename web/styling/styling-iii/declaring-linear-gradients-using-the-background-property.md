@@ -30,7 +30,7 @@ tags:
 
 links:
 
-  - '[css-tricks.com](https://css-tricks.com/css3-gradients/){website}'
+  - '[CSS Gradients](https://css-tricks.com/css3-gradients/){article}'
 
 
 ---

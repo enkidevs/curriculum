@@ -78,7 +78,7 @@ The `LIKE` statement accepts a pattern string, where wildcard characters are use
  - `%` is a **wildcard**. This means it counts for a string of any characters of any length, including nothing.
  - `_` represents only one character.
 
-Therefore, `%le` denotes any string that ends in 'le'. `_le` denotes any string with only one character before 'le'. They can be chained together into complex patterns like `___taco%` which denotes any string containing the substring 'taco' at its 4th position, and with any number of characters after.
+Therefore, `%le` denotes any string that ends in `'le'`. `_le` denotes any string with only one character before `'le'`. They can be chained together into complex patterns like `___taco%` which denotes any string containing the substring `'taco'` at its 4th position, and with any number of characters after.
 
 ```sql
 SELECT *
@@ -86,7 +86,7 @@ FROM pokemon
 WHERE name LIKE '%le';
 ```
 
-The result of this statement is the two rows of the Pokémon whose names end in 'le': Squirtle and Wartortle.
+The result of this statement is the two rows of the Pokémon whose names end in `'le'`: Squirtle and Wartortle.
 
 | name      | total | hp | attack | defense |
 |-----------|-------|----|--------|---------|
@@ -115,7 +115,7 @@ The resulting set will be:
 ---
 ## Practice
 
-Select all the columns from the `pokemon` table, keeping only the rows where the name is one of: 'Groudon', 'Snorlax' or 'Wailord'.
+Select all the columns from the `pokemon` table, keeping only the rows where the name is one of: `'Groudon'`, `'Snorlax'` or `'Wailord'`.
 
 `SELECT * `
 `FROM pokemon`
@@ -133,7 +133,7 @@ Select all the columns from the `pokemon` table, keeping only the rows where the
 ---
 ## Revision
 
-Select all the columns from the `pokemon` table, keeping only the rows where the name ends with the string 'saur'.
+Select all the columns from the `pokemon` table, keeping only the rows where the name ends with the string `'saur'`.
 
 `SELECT * `
 `FROM pokemon`

@@ -4,6 +4,6 @@ description: Use this popular JavaScript library to create powerful user interfa
 
 icon: https://img.enkipro.com/1d6cdc777f332daf922c8910f1550d94.png
 
-color: C1A957
+color: 00ADDE
 
 language: js

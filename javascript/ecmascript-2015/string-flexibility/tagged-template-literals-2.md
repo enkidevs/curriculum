@@ -126,17 +126,15 @@ How would you call the the tagged template function such that the log statement 
 ```javascript
 const number = 2;
 console.log(
- ???`Number ${number}???
+  ???`Number ???{???}`
 )
 // Number 2 is even
 ```
 
 * processNumber
-* `
-* `)
+* $
+* number
 * processNumber(
 * processNumber()
 * this.processNumber(
 * String.template(processNumber
-* `))
- 

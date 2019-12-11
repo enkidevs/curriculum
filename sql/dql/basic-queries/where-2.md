@@ -86,7 +86,7 @@ WHERE (name = 'Diglett'
   AND (total > 300 AND total < 500);
 ```
 
-This query will only return the row with the `name` *Dugtrio* because for the record with the `name` *Diglett* the `total` value is not between 300 and 500.
+This query will only return the row with the name `'Dugtrio'` because for the record with the name `'Diglett'` the `total` value is not between 300 and 500.
 
 | id | name    | total | hp | attack | defense |
 |----|---------|-------|----|--------|---------|
@@ -119,7 +119,7 @@ FROM pokemon
 ---
 ## Revision
 
-Select all the columns from the `pokemon` table, keeping only the rows where the name equals either 'bulbasaur', 'ivysaur' or 'venusaur'.
+Select all the columns from the `pokemon` table, keeping only the rows where the name equals either `'bulbasaur'`, `'ivysaur'` or `'venusaur'`.
 
 ```sql
 SELECT *

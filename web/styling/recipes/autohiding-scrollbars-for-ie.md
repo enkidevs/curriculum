@@ -18,7 +18,7 @@ aspects:
 
 links:
 
-  - '[css-tricks.com](https://css-tricks.com/snippets/css/hide-scrollbar-in-edge-ie-1011/){website}'
+  - '[Hide The Scrollbar In IE](https://css-tricks.com/snippets/css/hide-scrollbar-in-edge-ie-1011/){website}'
 
 
 ---

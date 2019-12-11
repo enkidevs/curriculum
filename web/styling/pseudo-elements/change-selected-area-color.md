@@ -16,7 +16,7 @@ aspects:
 
 links:
 
-  - '[MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/%3A%3Aselection){documentation}'
+  - '[MDN Docs on ::selection](https://developer.mozilla.org/en-US/docs/Web/CSS/%3A%3Aselection){documentation}'
 
 
 ---

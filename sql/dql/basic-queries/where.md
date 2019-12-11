@@ -55,7 +55,7 @@ FROM pokemon
 WHERE name <> 'Charmander' AND level <= 3;
 ```
 
-In this query we are using two conditionals: `name` is not equal (`<>`) to 'Charmander' and `level` is less than or equal (`<=`) to 3. The resulting set would look like this:
+In this query we are using two conditionals: `name` is not equal (`<>`) to `'Charmander'` and `level` is less than or equal (`<=`) to 3. The resulting set would look like this:
 
 | name      | level |
 |-----------|-------|
@@ -65,35 +65,31 @@ In this query we are using two conditionals: `name` is not equal (`<>`) to 'Char
 ---
 ## Practice
 
-Select all the columns and rows from the `pokemon` table where the `level` is less than `10` *and* the `attack` is higher than 40.
+Select all the columns and rows from the `pokemon` table where the `level` is less than `10`.
 
 ```sql
 SELECT * 
 FROM pokemon
-??? ??? 10 ??? ??? 40;
+??? ??? 10;
 ```
 
 
 * WHERE
 * level <
-* AND
-* attack >
-* FROM
-* pokemon
-* IS
+* level <=
 * level IS LESS THAN
-* attack IS GREATER THAN
-* OR
+* level IS LESS THAN OR EQUAL TO
 
 ---
 ## Revision
 
 Select all the rows from the `pokemon` table where the name is exactly equal to `braixen`.
 
-`SELECT * `
-`FROM pokemon`
+```sql
+SELECT * 
+FROM pokemon
 ??? ??? ??? ???;
-
+```
 
 * WHERE
 * name
@@ -121,7 +117,7 @@ Consider the `ability` table and the following query:
 SELECT *
 FROM ability
 ```
-We want to get the record for the ability called "speed-boost". Which of the following `WHERE` clauses will
+We want to get the record for the ability called `"speed-boost"`. Which of the following `WHERE` clauses will
 have this result when used with the above query?
 
 ???
