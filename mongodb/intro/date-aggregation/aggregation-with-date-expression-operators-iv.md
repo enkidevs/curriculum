@@ -1,10 +1,6 @@
 ---
 author: Stefan-Stojanovic
 
-levels:
-  - beginner
-  - basic
-  
 aspects:
   - introduction
   - new
@@ -32,7 +28,7 @@ db.pokedex.aggregate([
   { $match: { name: "Bulbasaur" } },
   {
     $project: {
-      DayOfTheYear: { $dayOfYear: "$Date" },
+      DayOfTheYear: { $dayOfYear: "$createdAt" },
       _id: 0
     }
   }
@@ -58,7 +54,7 @@ db.pokedex.aggregate([
   { $match: { name: "Bulbasaur" } },
   {
     $project: {
-      WeekOfTheYear: { $week: "$Date" },
+      WeekOfTheYear: { $week: "$createdAt" },
       _id: 0
     }
   }
@@ -81,7 +77,7 @@ db.pokedex.aggregate([
   { $match: { name: "Bulbasaur" } },
   {
     $project: {
-      DayOfTheWeek: { $dayOfWeek: "$Date" },
+      DayOfTheWeek: { $dayOfWeek: "$createdAt" },
       _id: 0
     }
   }
@@ -123,17 +119,11 @@ The ??? operator is used to extract the exact day of the week the document was c
 [1:Previous Document]
 Here is the document used in the previous insight:
 ```javascript
-// document without the Date
-{ 
-  "_id": ObjectId("5d9d8a6a0b24990f19398209"),
-  "name": "Bulbasaur",
-  "type": "Grass"
-}
-// Document with the Date
+// Document with the ISODate
 { 
   "_id": ObjectId("5d9d8a6a0b24990f19398209"),
   "name": "Bulbasaur",
   "type": "Grass",
-  "Date": ISODate("2019-10-09T07:21:14Z")
+  "createdAt": ISODate("2019-10-09T07:21:14Z")
 }
 ```
