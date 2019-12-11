@@ -47,7 +47,7 @@ Output:
 }
 ```
 
-### $minutes
+### $minute
 
 The `$minute` date operator is used to extract the exact minute the document was made on. The output goes from 0 to 59.
 
