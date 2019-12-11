@@ -133,7 +133,7 @@ The ??? operator is used to extract the exact minute the document was made and a
 
 The ??? operator is used to extract the exact second the document was created on as a number between ???.
 
-The ??? operator is used to extract the exact minute the document was made and as a ???
+The ??? operator is used to extract the exact millisecond the document was made and as a ???
 
 
 * `$hour`
