@@ -51,7 +51,7 @@ There are two categories of PNG images that help keep file sizes down depending 
 
 Vector images are made of thin lines, curves, and shapes, stored in mathematical drawing instructions. No matter how much you zoom in or rescale your image, the clear resolution stays the same.
 
-**SVG:** Has unlimited colors and supports transparency and are best to use when creating a logo, an icon, or any other simple image pattern that may be displayed as multiple screen sizes. Also, SVG images can be directly inserted into an HTML page as code(since they are defined using XML) without being linked to a standalone image file.
+**SVG:** Has unlimited colors and supports transparency and are best to use when creating a logo, an icon, or any other simple image pattern that may be displayed as multiple screen sizes. Also, SVG images can be directly inserted into an HTML page as code (since they are defined using XML) without being linked to a standalone image file.
 
 **Note: All image formats are animatable by CSS**
 
