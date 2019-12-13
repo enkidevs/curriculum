@@ -123,34 +123,3 @@ db.pokedex???({
 * `$arraySize`
 * `$length`
 * `.search`
-
-
----
-## Footnotes
-
-[1:Previous Documents]
-Here are the documents used in the previous insight:
-```javascript
-// Previous Documents
-{
-  _id: ObjectId("5d9d8a6a0b24990f19398209"),
-  name: "Bulbasaur",
-  type: "Grass",
-  power: 311,
-  spells: ["Seed Bomb", "Bite", "Hydro-Pump"]
-},
-{
-  _id: ObjectId("5d9d8b550b24990f1939820d"),
-  name: "Ivysaur:",
-  type: "Grass",
-  power: 335,
-  spells: ["Seed Bomb", "Hydro-Pump", "Bite"]
-},
-{
-  _id: ObjectId("5df389d397b15a71714c7592"),
-  name: "Zubat:",
-  type: "Poison",
-  power: 344,
-  spells: ["Bite"]
-}
-```
