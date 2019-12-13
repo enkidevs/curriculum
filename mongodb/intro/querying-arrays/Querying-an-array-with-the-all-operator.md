@@ -17,7 +17,7 @@ links:
 
 Now that we know how to query an array for a single value, let's increase the value count and add additional query operators for a more precise query.
 
-Querying the same database as before [1:Previous Documents].
+Querying the same database as before [1].
 
 ```js
 db.pokedex.find({
