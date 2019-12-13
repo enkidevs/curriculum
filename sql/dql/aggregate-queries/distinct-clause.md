@@ -89,7 +89,7 @@ SELECT DISTINCT COUNT(name)
 FROM pokedex_name;
 
 -- D
-SELECT COUNT(DISTING name)
+SELECT COUNT(DISTINCT name)
 FROM pokedex_name;
 ```
 
