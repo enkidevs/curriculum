@@ -30,7 +30,7 @@ To do this, all we have to do is add `[]` around our `"Bite"` value, like so:
 // Search for an array containing the "Bite" value
 db.pokedex.find( { spells: "Bite" } )
 
-// Search for an array with only the specified value
+// Search for an array containing only the "Bite" value
 db.pokedex.find( { spells: ["Bite"] } )
 ```
 The first input searches for a "Bite" value regardless of the amount of values in the array.
