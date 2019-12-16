@@ -34,7 +34,7 @@ Consider the following tree, whose root node is *A*:
 
 ![treeds](https://img.enkipro.com/7816fd226319c7a636bf356a6929cf30.png)
 
-For example, a data structure that implements the *Tree* ADT is LinkedList, whose nodes have at most one child.
+For example, a data structure that implements the *Tree* ADT[1] is LinkedList[2], whose nodes have at most one child.
 
 One of the most intuitive multilayered data structure representation is the *family tree*: a common ancestor has one or more children, who in turn have children of their own etc.
 
@@ -94,4 +94,15 @@ Which of the following statements does apply to Tree data structures?
 * The root node cannot have more than 2 children.
 * There is no relation between the nodes of a tree.
 
+---
+## Footnotes
 
+[1:ADT]
+Abstract Data Type, or ADT for short, represents a type (or class) for objects that have their behavior defined by a set of operations and a set of values. This means that the ADT only specifies what actions to take, not how these actions are implemented. Some examples include:
+- Array ADT
+- LinkedList ADT
+- Stack ADT
+- Queue ADT
+
+[2:LinkedList]
+A linear collection of data elements whose order is not given by their physical placement in memory, but each element points to the next. For more information check out the `'Intro to Data Structures'` mission.
