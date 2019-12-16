@@ -17,7 +17,7 @@ links:
 
 Querying an array in a `mongodb` database is similar to querying without an array. You need to use the `.find()` method.
 
-Let's say we wanted to find which document in our `pokedex` collection contains a  "Bite" value in their `spells` array, regardless of their position in the array or the size of the array. We would need to use this method:
+Let's say we wanted to find which document in our `pokedex` collection contains a "Bite" value in their `spells` array, regardless of their position in the array or the size of the array. We would need to use this method:
 
 ```js
 db.pokedex.find( { spells: "Bite" } )
@@ -71,4 +71,3 @@ db.pokedex???(
 * `Hydro-Pump`
 * `.search`
 * `Spells`
-
