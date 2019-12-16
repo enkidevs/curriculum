@@ -29,23 +29,13 @@ The available options in the `<select>` list are created with the `<option>` tag
 Example:
 ```html
 <form>
-<select>
-  <option
-    value="apple">Apples
-  </option>
-  <option
-   value="banana">Bananas
-  </option>
-  <option
-    value="orange">Oranges
-  </option>
-  <option
-    value="plum">Plums
-  </option>
-  <option
-    value="lemon">Lemons
-  </option>
-</select>
+  <select>
+    <option value="apple">Apples</option>
+    <option value="banana">Bananas</option>
+    <option value="orange">Oranges</option>
+    <option value="plum">Plums</option>
+    <option value="lemon">Lemons</option>
+  </select>
 </form>
 ```
 
@@ -71,26 +61,16 @@ Example:
 ```html
 <select>
   <optgroup label="Fav Fruit">
-   <option
-    value="apple">Apples
-    </option>
-   <option
-    value="banana">Bananas
-   </option>
-   <option
-    value="orange">Oranges
-   </option>
+    <option value="apple">Apples</option>
+    <option value="banana">Bananas</option>
+    <option value="orange">Oranges</option>
   </optgroup>
   <optgroup label="Fav Veggie">
-   <option
-    value="carrot">Carrots
-   </option>
-   <option
-    value="cucumber">Cucumbers
-   </option>
-   <option
-    value="onion">Onions
-   </option>
+    <option value="carrot">Carrots</option>
+    <option value="cucumber">
+      Cucumbers
+    </option>
+    <option value="onion">Onions</option>
   </optgroup>
 </select>
 ```
