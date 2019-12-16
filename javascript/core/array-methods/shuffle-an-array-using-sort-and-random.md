@@ -54,7 +54,10 @@ This is due to how the `Array.prototype.sort()` method works. The arrow function
 - > 0 -> `a > b`
 - < 0 -> `b > a`
 
-Because `Math.random()` returns a random number between 0 and 1, which means that when we return `Math.random() - 0.5` we return a number between `-0.5` and `0.5`.
+In our example, we return `Math.random() - 0.5` which works like this:
+- `Math.random()` return a random number between 0 and 1 (`0 < Math.random() < 1`)
+- we subtract `0.5` from the random number (`-0.5 < Math.random() - 0.5 < 0.5`)
+- we sort the array depending on the result
 
 ---
 ## Practice
