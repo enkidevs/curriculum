@@ -24,7 +24,7 @@ parent: the-tree-data-structure
 ---
 ## Content
 
-The **height of a node** is the number of edges on the *longest path* from that node to a leaf.
+The **height of a node** is the number of edges on the *longest path* from that node to a leaf[1].
 
 Moreover, we can say that the **height of a tree** is the *height of the root node*.
 
@@ -80,9 +80,9 @@ What *depth and height* do the following nodes have?
         B
         |
         C
-A ???
-B ???
-C ???
+A: ???
+B: ???
+C: ???
 ```
 
 * `D0/H2`
@@ -90,4 +90,8 @@ C ???
 * `D2/H0`
 * `D2/H2`
 
+---
+## Footnotes
 
+[1:Leaf]
+In computer science, a leaf represents a node with **no children**.
