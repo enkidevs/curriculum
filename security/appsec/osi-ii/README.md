@@ -1,6 +1,6 @@
 name: OSI II
 
-description: Description of the workout goes here
+description: Delving deeper into layers
 
 insights:
   - identifying-the-data-link-layer
