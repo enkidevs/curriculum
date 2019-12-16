@@ -67,7 +67,7 @@ int[] myArray = new int[3];
 ```
 ```c++
 // C++
-int myArray[3];
+int myArray[3] = {};
 ```
 ```js
 // JavaScript
