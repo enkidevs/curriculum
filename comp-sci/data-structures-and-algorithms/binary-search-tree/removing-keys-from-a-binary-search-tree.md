@@ -38,7 +38,7 @@ Removing or deleting a node from a binary search tree (BST) is more complicated 
 
 Consider the following highlighted nodes:
 
-![rem1](https://img.enkipro.com/b90a56945413732632f4a4a46e20aea0.png)
+![rem1](https://img.enkipro.com/81d4ec88b216c011d5829cba5172f173.png)
 
 The first two cases are easy to handle:
 
