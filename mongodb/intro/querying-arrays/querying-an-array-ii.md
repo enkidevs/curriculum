@@ -58,7 +58,7 @@ Find all documents in the `pokedex` collection that only have the `"Poison"` val
 
 ```javascript
 db.pokedex???( 
-	{ ???: ??? } 
+  { ???: ??? } 
 )
 ```
 
