@@ -1,6 +1,6 @@
 name: OSI II
 
-description: Delving deeper into layers
+description: The principles of InfoSec 2
 
 insights:
   - identifying-the-data-link-layer
