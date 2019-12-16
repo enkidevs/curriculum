@@ -25,7 +25,7 @@ db.pokedex.find( { spells: "Bite" } )
 
 The `db.pokedex.find()` method searches all the documents in the `pokedex` collection. 
 
-Adding ` { spells: "Bite" } ` makes our query look for any document with the `spells` array, and whichever document has a `spells` array, searches through the array for a `"Bite"` value.
+Adding ` { spells: "Bite" } ` makes our query look for any document with the `spells` array, and searches through that `spells` array for a `"Bite"` value.
 
 Which gives us this output:
 
