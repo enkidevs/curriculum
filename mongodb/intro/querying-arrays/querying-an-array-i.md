@@ -62,7 +62,7 @@ Find all documents in the `pokedex` collection that have a `"Hydro-Pump"` value 
 
 ```javascript
 db.pokedex???( 
-	{ ???: "???" } 
+  { ???: "???" } 
 )
 ```
 
