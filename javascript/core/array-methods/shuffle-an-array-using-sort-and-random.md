@@ -49,7 +49,7 @@ array.sort((a, b) => {
 // [5, 4, 2, 1, 6, 3, 7, 8, 9]
 ```
 
-This is due to how the `Array.prototype.sort()` method works. The arrow function we pass as an argument will return a number, and depending on its value it will sort the array:
+This is due to how the `Array.prototype.sort()` method works. The comparator function we pass as an argument compares two values from the array on each sort cycle, let's call them `a` and `b`. Each comparison returns a number that determines whether `a` or `b` comes first in the sorted result. If we return:
 - 0 -> `a = b`
 - > 0 -> `a > b`
 - < 0 -> `b > a`
