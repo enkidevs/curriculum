@@ -50,9 +50,9 @@ array.sort((a, b) => {
 ```
 
 This is due to how the `Array.prototype.sort()` method works. The comparator function we pass as an argument compares two values from the array on each sort cycle, let's call them `a` and `b`. Each comparison returns a number that determines whether `a` or `b` comes first in the sorted result. If we return:
-- 0 -> `a = b`
-- > 0 -> `a > b`
-- < 0 -> `b > a`
+- `0`, then the sort order doesn't change 
+- `> 0`, then `b` comes before `a`
+- `< 0`, then `a` comes before `b` 
 
 In our example, we return `Math.random() - 0.5` which works like this:
 - `Math.random()` return a random number between 0 and 1 (`0 < Math.random() < 1`)
@@ -115,9 +115,9 @@ console.log(days);
 ```
 
 You can also pass a function as an argument. The function can take `(a, b)` as input, representing a pair of 2 elements in the array that the function will be called on. It must return a number, and depending on the returned number it means:
-- 0 -> `a = b`
-- > 0 -> `a > b`
-- < 0 => `a < b`
+- `0`, then the sort order doesn't change 
+- `> 0`, then `b` comes before `a`
+- `< 0`, then `a` comes before `b` 
 
 ```js
 let numbers = [1, 2, 3, 4, 5];
