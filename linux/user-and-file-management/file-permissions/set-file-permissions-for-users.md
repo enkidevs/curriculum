@@ -24,10 +24,8 @@ tags:
 
 
 links:
-
-  - '[linuxcommand.org](http://linuxcommand.org/lts0070.php){website}'
-  - '[www.yolinux.com](http://www.yolinux.com/TUTORIALS/LinuxTutorialManagingGroups.html){website}'
-  - '[Unix permissions](https://drawings.jvns.ca/permissions/){illustration}'
+  - '[Managing Group Access](http://www.yolinux.com/TUTORIALS/LinuxTutorialManagingGroups.html){website}'
+  - '[Unix Permissions](https://drawings.jvns.ca/permissions/){illustration}'
 
 parent: understanding-umask
 
