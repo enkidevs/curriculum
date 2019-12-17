@@ -1,5 +1,5 @@
 ---
-author: tuwi.dc
+author: tuwidc
 
 levels:
 
@@ -45,7 +45,7 @@ The port is then made available and we can connect to it as `127.0.0.1:yourport`
 
 Bonus example to connect to an external IRC server:
 ```
-ssh -L8888:irc.freenode.net:6667 \
+ssh -L 8888:irc.freenode.net:6667 \
     myuser@my_ssh_host.net
 ```
 
