@@ -41,7 +41,7 @@ The advantage of PoW algorithms is that they are straightforward: everybody solv
 - Should allow for parameterizable cost: the difficulty should grow or shrink relative to the total computing power in the network.
 - The solution should be trivial to verify as every node in the network will have to carry through with the process.
              	
-The most common puzzles are of two types: computational heavy (many operations) or memory heavy (big input data). One the one hand, the double SHA-256 function used in Bitcoin (and others) has to be computed for every nonce in a very large interval. On the other hand, in Ethereum, the complexity is given by the large data set (1GB) rather than a variable nonce.
+The most common puzzles are of two types: computational heavy (many operations) or memory heavy (big input data). On the one hand, the double SHA-256 function used in Bitcoin (and others) has to be computed for every nonce in a very large interval. On the other hand, in Ethereum, the complexity is given by the large data set (1GB) rather than a variable nonce.
              	
 PoW requires miners to invest in mining hardware: ASICs or GPU cards. This is an **external investment** where the retailers that sell the hardware have no direct involvement in the development of the blockchain (other than profiting off of it). On top of the already elevated overhead cost of electricity and the low transaction throughput, there are enough compelling reasons for blockchains to migrate from proof of work to proof of stake.
 
