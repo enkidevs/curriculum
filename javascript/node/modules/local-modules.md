@@ -61,7 +61,7 @@ var newsModule = require(`./news.js`);
 
 The local module object can now be called with one of its functions:
 ```javascript
-newsModule.good('We're working on Node!');
+newsModule.good("We're working on Node!");
 ```
 To run the module:
 ```bash
@@ -92,7 +92,7 @@ var myModule = ???('./myModule.js')
 ???.???
 ```
 
-Running `$ node myModule` should log "Hello from Enki".
+Running `$ node main.js` should log "Hello from Enki".
 
 * require
 * myModule
