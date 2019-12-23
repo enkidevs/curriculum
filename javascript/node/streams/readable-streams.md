@@ -56,7 +56,7 @@ rstream.on(‘data’, function(avail) {
 
 });
 ```
-Calling `fs.createReadStream` creates a readable stream, this stream then beings to flow once a callback has been attached.
+Calling `fs.createReadStream` creates a readable stream, this stream then begins to flow once a callback has been attached.
 
 A callback also needs to be added for when the stream has reached the end of the data:
 ```javascript
