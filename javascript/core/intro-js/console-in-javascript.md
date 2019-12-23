@@ -23,7 +23,7 @@ tags:
 
 links:
 
-  - '[github.com](https://github.com/getify/You-Dont-Know-JS/blob/master/async%20&%20performance/ch1.md){website}'
+  - '[github.com](https://github.com/getify/You-Dont-Know-JS/blob/2nd-ed/sync-async/ch1.md){website}'
   - '[developer.mozilla.org](https://developer.mozilla.org/en/docs/Web/API/Console/log){website}'
 
 
