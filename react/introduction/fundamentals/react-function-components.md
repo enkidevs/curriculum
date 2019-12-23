@@ -115,7 +115,7 @@ First:
 ```jsx
 class Test extend React.Component {
   render() {
-    return <h1>{this.props.test};
+    return <p>{this.props.test}</p>;
   }
 }
 ```
