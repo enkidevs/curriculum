@@ -42,11 +42,11 @@ Local modules must be in their own separate JavaScript file.
 Consider the following example of a local module (filename `news.js`):
 
 ```javascript
-var news = {
-  good: function(good) {
+const news = {
+  good: (good) => {
     console.log('Good news! ' + good);
   },
-  bad: function(bad) {
+  bad: (bad) => {
     console.log('Bad news... ' + bad);
   }
 };
@@ -56,12 +56,12 @@ module.export = news
 A local module has to be required into an application in the same way a core module does, the only difference being that the path to the module must be specified as follows in `main.js`:
 
 ```javascript
-var newsModule = require(`./news.js`);
+const newsModule = require(`./news.js`);
 ```
 
 The local module object can now be called with one of its functions:
 ```javascript
-newsModule.good('We're working on Node!');
+newsModule.good("We're working on Node!");
 ```
 To run the module:
 ```bash
@@ -77,8 +77,8 @@ Consider the following local node module:
 ```javascript
 // myModule.js
 module.exports = {
-  hello: function() {
-    console.log('Hello from Enki')
+  hello: () => {
+    console.log('Hello from Enki');
   }
 }
 ```
@@ -87,12 +87,12 @@ How would you import and use it in your application?
 
 ```javascript
 // main.js
-var myModule = ???('./myModule.js')
+const myModule = ???('./myModule.js')
 
 ???.???
 ```
 
-Running `$ node myModule` should log "Hello from Enki".
+Running `$ node main.js` should log `"Hello from Enki"`.
 
 * require
 * myModule
