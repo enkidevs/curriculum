@@ -45,19 +45,19 @@ Intuitively, the answer would be *LinkedList*, which is also the correct one.
 
 Using an Array, I would potentially need to shift **n elements** to the right, if I insert a new element at **index 0**. Here's an example:
 
-![arraybefore](https://img.enkipro.com/6b85051ac92ef29269e5bd10209fe6f8.png)
+![arraybefore](https://img.enkipro.com/596895e6c9b41d0a3f0eb0e70cbd0712.png)
 
 And the array after insertion:
 
-![arrayafter](https://img.enkipro.com/6b767db1d58c47aaf7e50f3a09e891cf.png)
+![arrayafter](https://img.enkipro.com/2845b78c237f536c9c7cec6c4f9a9258.png)
 
 Using a LinkedList, the time needed to insert a new node will be **constant** in relation to the size of the list. Consider the following linked list:
 
-![listbefore](https://img.enkipro.com/0cfa23f131e05315e409cc05e89c19c6.png)
+![listbefore](https://img.enkipro.com/fa292ba308e7aad8197d6c713d5b6989.png)
 
 And the list afterwards:
 
-![listafter](https://img.enkipro.com/8134f060a90e6b9d9ed2dae5fd6d7090.png)
+![listafter](https://img.enkipro.com/f4cf672223e172a8490dbb79e514ee7d.png)
 
 We can say that:
 - *For an Array* with n elements, the worst-case insertion scenario requires `n operations` to complete.
