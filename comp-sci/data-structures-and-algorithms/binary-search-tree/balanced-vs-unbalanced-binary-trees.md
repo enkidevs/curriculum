@@ -40,11 +40,11 @@ This distance constraint ensures that it takes approximately the same amount of 
 
 Consider the following unbalanced tree. The nodes that can be swapped to balance the tree are highlighted:
 
-![unbalanced](https://img.enkipro.com/a9755cf09082e37af6a8f92e7aa59b68.png)
+![unbalanced](https://img.enkipro.com/470dfa40d01af333ae1defa06325d82b.png)
 
 In order to balance the above tree, the `10-15-13` subtree has to be "rotated":
 
-![balanced](https://img.enkipro.com/20922d0ab79c7e0806b4c594656152a2.png)
+![balanced](https://img.enkipro.com/ae8e2050e71add9a8fb89297747e8b0b.png)
 
 
 This is a problem for binary search trees (BSTs) because an ordered linked list is a BST and searching it is linear. Thus, a BST has log-time searching *on average*, but a linear-time worst case.
