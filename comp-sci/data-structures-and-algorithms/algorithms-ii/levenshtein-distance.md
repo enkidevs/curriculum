@@ -63,7 +63,7 @@ levd(i,j) = min(levd(i-1,j)+1,
 ```
 The final distance is obtained using previously calculated distances, one step at a time. Things will get clearer after you consider this table:
 
-![levd](https://img.enkipro.com/99d399a3992cf55f8298ef739878ae04.png)
+![levd](https://img.enkipro.com/b540a12fdff2ee4b29647aefe9eabbef.png)
 
 Each cell in the table represents the edit distance between the two substrings of length i and j, respectively.
 
