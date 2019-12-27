@@ -70,11 +70,11 @@ exists or not in the list
 ```
 Consider the following **sorted** (and much shorter) user list, that would contain the whole user object:
 
-![bssorted](https://img.enkipro.com/c2fb2280cc46a04d5393e4749e9fb7ad.png)
+![bssorted](https://img.enkipro.com/952379f9352ef981ac273f5fc1c568e5.png)
 
 In this case, iterating through 7 items would return the `zephyr123` user object. However, we can improve the result by using binary search:
 
-![bscomplete](https://img.enkipro.com/b63a809c4db811fe12ed2eba5eeb877f.png)
+![bscomplete](https://img.enkipro.com/d4d86085742d17356500521575d8d3da.png)
 
 Which results in the searching process ending after 3 steps.
 
