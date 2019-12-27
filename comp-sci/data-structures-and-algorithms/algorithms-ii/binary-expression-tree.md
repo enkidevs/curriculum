@@ -36,7 +36,7 @@ Each node of the tree will hence have zero, one or two children.
 
 The BET of **(5×10+9)/(3-2)** is:
 
-![bes](https://img.enkipro.com/23f2d5783c826920b2be4b8e6383095b.png)
+![bes](https://img.enkipro.com/5b246fee15c2688c0c0d644250b979ec.png)
 
 The leaves of the tree are operands, while the internal nodes contain operators. If a node has one child, its value will either be unary minus operator (-7) or logical negation (¬).
 
