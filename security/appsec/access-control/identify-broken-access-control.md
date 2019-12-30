@@ -39,7 +39,7 @@ links:
 ---
 ## Content
 
-SAST (Source Abstract Syntax Tree) and DAST (Dynamic Abstract Syntax Tree) tools can read source code to detect access control vulnerabilities. Similarly, web crawlers and automated scanners are particularly effective at identifying access control vulnerabilities. If you use a commonly known web application framework, known vulnerabilities for that framework can be scanned for access control issues.
+SAST (Static Application Security Testing) and DAST (Dynamic Application Security Testing) tools can read source code to detect access control vulnerabilities. Similarly, web crawlers and automated scanners are particularly effective at identifying access control vulnerabilities. If you use a commonly known web application framework, known vulnerabilities for that framework can be scanned for access control issues.
 
 Largely this vulnerability comes from absentmindedness in the development process. It is simply that web developers implement access control as the last step in the process, when a product or feature is still in development but is pushed into a demo-able state, or is left unfinished. Sometimes it comes from application framework components that are not protected by default.
 
