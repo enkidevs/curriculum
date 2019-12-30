@@ -34,7 +34,7 @@ parent: removing-keys-from-a-binary-search-tree
 ---
 ## Content
 
-A binary tree is called *balanced* if every leaf node is not more than a certain distance away from the root than any other leaf.  That is, if we take any two leaf nodes (including empty nodes), the distance between each node and the root is approximately the same.  In most cases "approximately the same" means the distance between the leaf and the root is not greater than 1, but the exact number can vary from application to application.
+A binary tree is called *balanced* if every leaf node is not more than a certain distance away from the root than any other leaf.  That is, if we take any two leaf nodes (including empty nodes), the distance between each node and the root is approximately the same. In most cases, "approximately the same" means that the difference between the two distances (root to first leaf and root to second leaf) is not greater than 1, but the exact number can vary from application to application.
 
 This distance constraint ensures that it takes approximately the same amount of time to reach any leaf node in a binary tree from the root. A linked list is a kind of maximally-unbalanced binary tree.
 
