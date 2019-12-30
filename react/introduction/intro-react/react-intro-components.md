@@ -18,7 +18,7 @@ aspects:
 
 ---
 
-# Intro components
+# Intro Components
 
 ---
 ## Content
