@@ -17,7 +17,7 @@ standards:
 
 links:
 
-  - '[More information about I/O](https://www.tutorialspoint.com/python/python_files_io.htm){website}'
+  - '[More Information About I/O](https://www.tutorialspoint.com/python/python_files_io.htm){website}'
 
 
 ---
@@ -27,19 +27,18 @@ links:
 ---
 ## Content
 
-`I/O`(input/output) stands for the communication between a **data processing system** such as a computer, or any device, and the **outside world**.
+`I/O` (input/output) stands for the communication between a **data processing system** such as a computer, or any device, and the **outside world**.
 
-Python provides numerous out-of-the-box function for `I/O` communication, making the interactions fairly easy.
+Python provides numerous out-of-the-box functions for `I/O` communication, making the interactions fairly easy.
 
-
-The most **basic output** function in **Python** is `print()`[1]. The arguments passed to it will be converted to **strings** and they will be outputed to the `stdout`[2].
+The most **basic output** function in **Python** is `print()`[1]. The arguments passed to it will be converted to **strings** and they will be outputted to the `stdout`[2].
 
 The syntax simply is:
-```
+```py
 print('This is a print statement.')
 ```
 This will produce the following result on your screen:
-```
+```text
 This is a print statement.
 ```
 
@@ -48,33 +47,33 @@ For managing user input, **Python 3** provides a built-in function called `input
 Consider the following scenario:
 ```python
 # user input will be assigned to `str`
-str = input('Please enter your input:');
+str = input('Please enter your input:')
 # program will wait here for user input
 # input need to be entered as a string
 # e.g 'Hello'
 
 # print the user input
-print("The input is: ", str);
+print("The input is: ", str)
 ```
 
 Following, the `stdout` will look like:
-```
+```text
 Please enter your input: Hello
-The input is:  Hello
+The input is: Hello
 ```
 
 The **input** of the user will be returned as a `string` without any additional changes. If this **raw input** has to be transformed into another **data type** needed by the **program**, then there are two ways to do this:
 - `casting` function (which would **cast** the input into the needed *data type*)
 - `eval`[3] function (which would interpret `string`s as Python *code* and evaluate it)
 
-Consider we want to know the user's favorite colors and save them in a list, for this `eval()` function can be used:
+Let's say we want to know the user's favorite colors and save them in a list. For this, the `eval()` function can be used like so:
 ```python
 colors = eval(input('Favorite colors: '))
 print(colors, type(colors))
 ```
 
 The `stdout` will be as follows:
-```
+```text
 Favorite colors: ["Green","Blue"]
 ['Green','Blue'] <class `list`>
 ```
@@ -86,7 +85,7 @@ print(age, type(age))
 ```
 The `stdout` will look like this:
 
-```
+```text
 How old are you? 21
 21 <class `int`>
 ```
@@ -95,7 +94,7 @@ How old are you? 21
 ## Practice
 
 Suppose we want to print a list containing the first three favorite fruits of some user. Fill the gaps accordingly:
-```
+```py
 fruits = ???(input('favorite fruits:'))
 first_three = ???[0:3]
 ???(first_three)
@@ -117,7 +116,7 @@ first_three = ???[0:3]
 ## Revision
 
 Suppose we want to add `10` to somebody's age. Fill the gaps accordingly:
-```
+```py
 your_age = ???(input('How old are you?'))
 ???(your_age + 10)
 ```
@@ -139,7 +138,7 @@ your_age = ???(input('How old are you?'))
 ## Footnotes
 [1: print]
 In Python 2 we had the `print` statement, later in Python 3 that statement was replaced by the function `print()`
-```
+```py
 # Python 2
 print 'Hello'
 # Python 3
@@ -150,4 +149,4 @@ print('Hello')
 Standard streams are preconnected communication channels between a computer program and its environment when it begins execution. There are 3 main connections standard input (`stdin`), standard output (`stdout`) and standard error (`stderr`).
 
 [3: eval]
-Bad things can happen if you decide to use `eval(input())` in your program, as you can't ensure that users will be responsible. For example one could enter `os.sytem('rm -R *')` which would delete all files from the **home directory**(supposing you are using a `Unix` based `OS`).
+Bad things can happen if you decide to use `eval(input())` in your program, as you can't ensure that users will be responsible. For example, one could enter `os.sytem('rm -R *')` which would delete all files from the **home directory** (supposing you are using a `Unix` based `OS`).
