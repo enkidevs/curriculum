@@ -112,7 +112,7 @@ for (
 ```
 
 * `getElementsByTagName`
-* `p`
+* `"p"`
 * `paragraphTags`
 * `innerHTML`
 * `document`

@@ -29,7 +29,7 @@ links:
   - >-
     [Ethereum's inventor, Vitalik Buterin, about blockchains and Ethereum](https://www.youtube.com/watch?v=WSN5BaCzsbo)
   - >-
-    [Exemples of blockchain use-cases](https://medium.com/@matteozago/50-examples-of-how-blockchains-are-taking-over-the-world-4276bf488a4b)
+    [Examples of blockchain use-cases](https://medium.com/@matteozago/50-examples-of-how-blockchains-are-taking-over-the-world-4276bf488a4b)
 
 ---
 # What Is a Blockchain?
