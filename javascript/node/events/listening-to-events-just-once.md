@@ -11,15 +11,9 @@ type: normal
 
 category: must-know
 
-standards:
-  javascript.events-asynchronous-operations.1: 20
-
 tags:
   - introduction
   - workout
-
-links:
-  - '[Listening to events once](https://blog.yld.io/2015/12/15/using-an-event-emitter/#.WI4gL7aLQy4){website}'
 
 parent: consuming-events
 
