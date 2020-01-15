@@ -36,7 +36,7 @@ parent: the-binary-search-tree-data-structure
 
 Sometimes we might have a binary tree and want to verify whether it is organized as a binary search tree.  The naive algorithm — traverse the tree, checking at every node whether the node contains a value larger than the value at the left child and smaller than the value on the right child — does not always work. Consider the following tree:
 
-![verifybst](https://img.enkipro.com/6a8954e8b7c9c1312b91e2c8d05c3de2.png)
+![verifybst](https://img.enkipro.com/7c8b9ec3c166ca7d190807df1e37e575.png)
 
 At each node, the left child is smaller and the right child is greater, but this tree is still not a BST since `5` is less than `20` but is in its right sub-tree.  Instead, we have to make sure that every node in the left sub-tree is smaller than the current node and every node in the right sub-tree is greater than the current node.
 
