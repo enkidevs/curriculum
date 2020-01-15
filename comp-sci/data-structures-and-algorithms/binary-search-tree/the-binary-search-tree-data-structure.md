@@ -46,7 +46,7 @@ We use numbers as an example here, but a BST works with any information that has
 
 There is one key property that makes searching BSTs efficient:
 
-- For a every key, the children to the left have smaller keys and the children to the right have larger keys
+- For every key, the children to the left have smaller keys and the children to the right have larger keys
 
 Therefore, to search a BST we ask "Is the key I'm searching for greater than or less than the current key?". If it is less, then we know the key we're searching for is in the left sub-tree and if it is greater, then we know the key we're searching for is in the right sub-tree.  Thus, at each stage, we effectively cut the search space in half.
 

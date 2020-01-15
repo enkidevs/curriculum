@@ -19,6 +19,7 @@ sections:
     - arithmetic-aggregation-i
     - arithmetic-aggregation-ii
     - aggregation-iii
+    - querying-arrays
 standards:
   shell:
     name: Use the MongoDB interactive JavaScript Shell
