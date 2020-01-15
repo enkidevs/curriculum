@@ -17,7 +17,7 @@ aspects:
 
 links:
 
-  - '[Graph theory](https://en.wikipedia.org/wiki/Graph_theory){website}'
+  - '[Graph Theory](https://en.wikipedia.org/wiki/Graph_theory){website}'
 
 parent: the-queue-data-structure
 
@@ -34,13 +34,13 @@ Graphs come in two flavors: **directed graphs** (*digraph*) and **undirected gra
 
 This is how an undirected graph is represented:
 
-![undirgraph](https://img.enkipro.com/ca60d5a0329b65c6c384c3f37682907f.png)
+![undirgraph](https://img.enkipro.com/15e87edfadeb3ae6822621f00aa010b3.png)
 
 In the above example, `A` is a node, and the line connecting node `A` and node `C` is an **edge**.
 
 And this is a directed graph:
 
-![dirgraph](https://img.enkipro.com/364621a9c871d7ba8bc0b505d59f7c61.png)
+![dirgraph](https://img.enkipro.com/da30ca77d85f3844be2b2fdcd47dd3e6.png)
 
 For example, *linked lists* are a special kind of directed graphs.
 

@@ -23,7 +23,7 @@ aspects:
 
 links:
 
-  - '[Working with tries](https://medium.com/algorithms/trie-prefix-tree-algorithm-ee7ab3fe3413){website}'
+  - '[Working With Tries](https://medium.com/algorithms/trie-prefix-tree-algorithm-ee7ab3fe3413){website}'
 
 parent: o-logn-operations-for-heaps
 

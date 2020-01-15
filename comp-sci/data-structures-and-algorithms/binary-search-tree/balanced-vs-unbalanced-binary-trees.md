@@ -23,7 +23,7 @@ aspects:
 
 links:
 
-  - '[Why is it safer to keep the tree balanced?](http://stackoverflow.com/questions/8015630/definition-of-a-balanced-tree){website}'
+  - '[Why Is It Safer to Keep the Tree Balanced?](http://stackoverflow.com/questions/8015630/definition-of-a-balanced-tree){website}'
 
 parent: removing-keys-from-a-binary-search-tree
 
@@ -40,11 +40,11 @@ This distance constraint ensures that it takes approximately the same amount of 
 
 Consider the following unbalanced tree. The nodes that can be swapped to balance the tree are highlighted:
 
-![unbalanced](https://img.enkipro.com/470dfa40d01af333ae1defa06325d82b.png)
+![unbalanced](https://img.enkipro.com/95af1c1303e70b87589a2f93d8884b6d.png)
 
 In order to balance the above tree, the `10-15-13` subtree has to be "rotated":
 
-![balanced](https://img.enkipro.com/ae8e2050e71add9a8fb89297747e8b0b.png)
+![balanced](https://img.enkipro.com/9dab8acba7e13fed56e5a6d94613fba3.png)
 
 
 This is a problem for binary search trees (BSTs) because an ordered linked list is a BST and searching it is linear. Thus, a BST has log-time searching *on average*, but a linear-time worst case.

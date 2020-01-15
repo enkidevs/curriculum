@@ -25,7 +25,7 @@ parent: parsing-reverse-polish-notation
 
 ---
 
-# Binary Expression tree
+# Binary Expression Tree
 
 ---
 ## Content
@@ -36,7 +36,7 @@ Each node of the tree will hence have zero, one or two children.
 
 The BET of **(5×10+9)/(3-2)** is:
 
-![bes](https://img.enkipro.com/5b246fee15c2688c0c0d644250b979ec.png)
+![bes](https://img.enkipro.com/26087fd410881f2a8fd2235b3a8f16f5.png)
 
 The leaves of the tree are operands, while the internal nodes contain operators. If a node has one child, its value will either be unary minus operator (-7) or logical negation (¬).
 

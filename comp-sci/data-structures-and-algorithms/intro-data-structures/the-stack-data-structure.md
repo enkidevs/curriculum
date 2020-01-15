@@ -33,7 +33,7 @@ A **stack** is a collection of objects optimized for two things:
 
 The items are inserted and removed according to the *last-in, first-out* (*LIFO*) principle.
 
-![stack](https://img.enkipro.com/df45877c1de4e1891f45d451089edc3e.png)
+![stack](https://img.enkipro.com/a81cf71c5ee5e7dfbf0ffcd911b02642.png)
 
 Imagine how you fill a steam cooker. You can add a tray of food on the top of the existing ones, but not in the middle, and only remove the last tray added.
 

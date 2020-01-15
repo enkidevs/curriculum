@@ -29,7 +29,7 @@ parent: approximation-methods
 
 ---
 
-# Binary search
+# Binary Search
 
 ---
 ## Content
@@ -70,11 +70,11 @@ exists or not in the list
 ```
 Consider the following **sorted** (and much shorter) user list, that would contain the whole user object:
 
-![bssorted](https://img.enkipro.com/952379f9352ef981ac273f5fc1c568e5.png)
+![bssorted](https://img.enkipro.com/9ea66b4e1e80d4ea41a0e6e520b22cb4.png)
 
 In this case, iterating through 7 items would return the `zephyr123` user object. However, we can improve the result by using binary search:
 
-![bscomplete](https://img.enkipro.com/d4d86085742d17356500521575d8d3da.png)
+![bscomplete](https://img.enkipro.com/7ec73ac762b151f7446cee9def633469.png)
 
 Which results in the searching process ending after 3 steps.
 

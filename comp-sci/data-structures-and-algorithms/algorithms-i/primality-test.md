@@ -25,7 +25,7 @@ parent: sieve-of-eratosthenes
 
 ---
 
-# Primality test
+# Primality Test
 
 ---
 ## Content
