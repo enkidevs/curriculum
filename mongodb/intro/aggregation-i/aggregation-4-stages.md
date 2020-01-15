@@ -110,7 +110,7 @@ db.pokemon.aggregate([
 
 ???
 
-* D
-* A
 * B
+* A
+* D
 * C

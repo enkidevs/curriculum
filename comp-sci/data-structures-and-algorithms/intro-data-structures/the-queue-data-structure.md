@@ -51,12 +51,16 @@ These are your queue options in different programming languages:
 
 Complete the following snippet with the output of each operation, based on the abstract data type (ADT) presented in the insight:
 ```
-Q.isEmpty()     true
-Q.dequeue()     ???
+Q.isEmpty()
+// true
+Q.dequeue()
+// ???
 Q.enqueue(3)
 Q.enqueue(4)
-Q.size()        ???
-Q.dequeue()     ???
+Q.size()
+// ???
+Q.dequeue()
+// ???
 ```
 
 * `null`
