@@ -7,3 +7,4 @@ sections:
     - what-is-zapier
     - first-zap
     - zaps-i
+    - zaps-ii
