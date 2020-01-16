@@ -9,3 +9,4 @@ sections:
     - zaps-i
     - zaps-ii
     - zapier-filtering
+    - zapier-built-in-apps
