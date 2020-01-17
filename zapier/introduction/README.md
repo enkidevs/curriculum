@@ -10,3 +10,4 @@ sections:
     - zaps-ii
     - zapier-filtering
     - zapier-built-in-apps
+    - zapier-task-history
