@@ -38,11 +38,11 @@ Normally, we'd *listen to* uncaught error events like this:
 
 ```js
 process.on('uncaughtException', (err) => {
-    console.error('There was an uncaught error', err)
-    closeDBConnection();
-    process.exit(1) // signals that process ended with an error (as per Node docs) 
+  console.error('There was an uncaught error', err)
+  closeDBConnection();
+  process.exit(1) // signals that process ended with an error (as per Node docs) 
 });
-\`\`\`
+```
 
 Now, let's say the application throws 5 unexpected exceptions at the same time. This will lead to this procedure being triggered 5 times concomitantly which might lead to issues in the database shutdown procedure (as mentioned earlier).
 
@@ -50,47 +50,13 @@ To **listen to events just once** you would call `process.once` instead:
 
 ```js
 process.once('uncaughtException', (err) => {
-    console.error('There was an uncaught error', err)
-    closeDBConnection();
-    process.exit(1) // signals that process ended with an error (as per Node docs) 
+  console.error('There was an uncaught error', err)
+  closeDBConnection();
+  process.exit(1) // signals that process ended with an error (as per Node docs) 
 });
-\`\`\`
+```
 
 Voilà, this will ensure that we'll react only to the first emitted `uncaughtException` event.
-
-Suppose the application throws an unexpected exception, which is then caught followed by the `closedown` method being called before terminating the application (which is the expected behavior).
-
-Now, let's say the the application throws 5 unexpected exceptions at the same time. This will lead to the `closedown` method being triggered 5 times concomitantly which might lead to issues in the shutdown procedure.
-
-The trigger of this procedure is done through an `uncaughtException` event, and you want a way to listen to this just once.
-
-To achieve this, only the first instance of an uncaught exception being caught should be used. By calling the `.once` method to our emitter (in our case the emitter is called `test`, which would lead to us calling `test.once`):
-
-```javascript
-test.once("uncaughtException", function(
-  err
-) {
-  closeApp(function(err) {
-    // log error
-  });
-
-  // exit
-  test.exit(1);
-});
-```
-
-This doesn’t solve the issue entirely. If two `uncaughtException`s do occur, the second will trigger an instant process shutdown, interrupting and overriding the `closedown` method currently in progress. To avoid this, log each uncaught exception:
-
-```javascript
-test.once("uncaughtException", function(
-  err
-) {
-  console.error(
-    "uncaught exception: ",
-    err.stack || err
-  );
-});
-```
 
 ---
 ## Practice
@@ -108,10 +74,11 @@ Which method is used to add a one-time listener function to an event emitter?
 
 Complete the code snippet to define the callback function to catch an event just once:
 ```javascript
-test.???('uncaughtException',
-    function(err) {
-      // handler
-    }
+test.???('uncaughtException', (err) => {
+  console.error('There was an uncaught error', err)
+  closeDBConnection();
+  process.exit(1)
+});
 ```
 
 * once
