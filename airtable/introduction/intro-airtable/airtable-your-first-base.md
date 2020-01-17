@@ -1,0 +1,42 @@
+---
+author: kapnobatai136
+
+category: must-know
+
+aspects:
+  - introduction
+
+type: normal
+
+---
+
+# Your First Base
+
+---
+## Content
+
+Nobody: nothing
+
+Airtable:
+
+![meme-1](https://img.enkipro.com/77de9d7565dbd87b9389da32223c6334.png)
+
+The first time you log into Airtable you are presented with the following screen:
+
+![airtable-dashboard](https://img.enkipro.com/89d47b7aad1f5b9ee20e2f3205e25cfe.png)
+
+Let's ignore the first row for now, and click on `Add a base`. Now, you will be presented with three main options:
+- Start with a template
+- Import from spreadsheet
+- Start from scratch
+
+Go ahead and select `Start from scratch` (we will look at the other options in the following missions). The next is selecting a:
+- name
+- color
+- icon
+
+You can either fill these in now or edit them at a later time. For now, we will skip these options.
+
+Success, you have created your first base. You can now see cells, rows, columns and many other options that we will discuss at a later time.
+
+![gif-of-base-creation-process](#)
