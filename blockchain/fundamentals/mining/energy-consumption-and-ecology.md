@@ -27,9 +27,9 @@ aspects:
 
 High processing power doesn't come cheap. The same $3,000 piece of hardware eats up 1,320 kW, which is around 31.5 kW/h running non-stop every day. Depending on the cost of household electricity, this might range from $1.48 a day in Ukraine to $5.67 a day in California, US.
              	
-One of the often overlooked cost is the *cooling cost*. The ASIC's built-in fan works for the individual piece of hardware in a temperate climate, stacking them may need external cooling.
+One of the often overlooked costs is the *cooling cost*. The ASIC's built-in fan works for the individual piece of hardware in a temperate climate, stacking them may need external cooling.
              	
-The price per kWh decreases in case of industrial use (can reach up to 50% discount). Entire data centers have been built in the past years in countries with *cheap electricity*, *cold weather* and *fast internet*, to the point where individual mining can only be done for fun.
+The price per kWh decreases in the case of industrial use (can reach up to 50% discount). Entire data centers have been built in the past years in countries with *cheap electricity*, *cold weather* and *fast internet*, to the point where individual mining can only be done for fun.
              	
 As of early 2018, in percentage of the world's electricity consumption, the entire Bitcoin network is estimated to consume `0.24%`. Bangladesh is the closest country in terms of energy consumption.
 

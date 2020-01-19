@@ -42,7 +42,7 @@ The `<embed>` element was introduced in HTML5. It has to have a starting tag and
 
 **Important:**
   - **Not all mobile devices support plug-ins.**
-  - **Many modern browsers have deprecated and removed the support for plug-ins, so using the `<embed>` element is not that good anymore.**
+  - **Many modern browsers have deprecated and removed the support for plug-ins, so using the `<embed>` element is no longer recommended.**
   - **For implementing audio you should use the `<audio>` element, and for implementing video you should use the `<video>` element.**
 
 
