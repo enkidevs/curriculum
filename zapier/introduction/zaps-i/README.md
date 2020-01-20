@@ -6,4 +6,3 @@ insights:
   - zapier-flow-of-information
   - multi-step-zaps
   - zapier-step-names
-  - zapier-team-collaboration
