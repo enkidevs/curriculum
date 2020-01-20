@@ -89,7 +89,7 @@ Example:
 ![how-to-remove-gif](https://img.enkipro.com/5942bfe502242b44c2253ac4f6de6b19.gif)
 
 ---
-## Practice Question
+## Practice
 
 What is `Data validation`?
 
