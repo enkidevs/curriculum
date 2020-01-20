@@ -74,7 +74,7 @@ Our table will now look like this:
 
 ---
 
-## Practice Question
+## Practice
 
 What are filters used for?
 
