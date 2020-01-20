@@ -19,4 +19,4 @@ Built-in apps represent apps that Zapier has created so that you can use a certa
 
 The main benefit of this is that it reduces the time it takes to set up your zaps, and provides additional actions or triggers due to native support.
 
-Although Zapier provides these options, it is still possible that some different application might be better for your integration. It is up to you to test and find out the best way to optimize your work.
+Although Zapier provides these options, it is still possible that some different application might be better for your integration. It is up to you to test and find out the best optimizations.

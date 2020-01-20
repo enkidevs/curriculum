@@ -6,6 +6,8 @@ category: must-know
 aspects:
   - introduction
 
+type: normal
+
 ---
 
 # Some Integrations
@@ -13,9 +15,9 @@ aspects:
 ---
 ## Content
 
-The first step consists of deciding what applications you need to use. Let's say that your stack includes **Mailchimp**, **Trello** and **Typeform**.
+Intuitively, for any zap, you'll need to figure out which apps will be connected. Let's say that your stack includes **Mailchimp**, **Trello** and **Typeform**.
 
-The best way to start is by going to the [Explore page](https://zapier.com/apps/integrations/), typing in the names and selecting them. This will give you a good starting point. If no results show up, don't worry. You can always create your own zaps from scratch.
+Start by going to the [Explore page](https://zapier.com/apps/integrations/), typing in the names and selecting them. This will give you a good starting point. If no results show up, don't worry. You can always create your own zaps from scratch.
 
 For this insight, let's go ahead and select our entire stack:
 

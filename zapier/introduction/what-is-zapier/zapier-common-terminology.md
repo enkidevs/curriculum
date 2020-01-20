@@ -6,6 +6,8 @@ category: must-know
 aspects:
   - introduction
 
+type: normal
+
 ---
 
 # Zapier Dependencies
@@ -13,23 +15,24 @@ aspects:
 ---
 ## Content
 
-Now that you have your account, you are ready to start using Zapier.
+The first step is getting used to some of the terms that you will see. Here is a list to help you get started[1].
 
-The first step is getting used to some of the terms that you will see. Here is a list to help you get started[1]:
-- **zap**
+### Zap
   - this refers to the automated workflow that connects apps and services
   - think of a zap as your entire integration
+  - a zap is made out of tasks
   - e.g. we have previously mentioned that you can get email notification for each Google form completion. This is a zap.
-- **trigger**
+### Trigger
   - this represents an event that starts a zap
   - in our example, the trigger would be the submittal of the Google form
-- **action**
+### Action
   - this represents an event that will be performed by our zap after a trigger
   - going back to the example, the action is getting the email notification
-- **task**
-  - this is more a general term that refers to any single action performed by Zapier
-  - in our example, submitting a form **or** receiving an email notification are both actions
-  - as you have already noticed, both triggers and tasks can be actions
+### Task
+  - this is more a general term that refers to any single piece of data that passes through a zap
+  - in our example, submitting a form **or** receiving an email notification are both tasks
+  - if your zap sends 5 emails, then it has performed 5 tasks
+  - as you have already noticed, both triggers and actions can be tasks
 
 Now, you are ready to create your first zap.
 

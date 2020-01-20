@@ -6,6 +6,8 @@ category: tip
 aspects:
   - introduction
 
+type: normal
+
 ---
 
 # Adding and Editing Zaps 3
@@ -43,3 +45,5 @@ Now, let's take a look at the other `'optional'` fields:
 You are now ready to click `'Continue'` (and as before you can skip the tests). Your zaps is now ready to be used. Go ahead and change a row in the spreadsheet and see how the magic happens.
 
 Don't forget to turn on the zap in the top right corner of the screen.
+
+![final-set-up-page](https://img.enkipro.com/dd6ded782ca71a080338c67e893cf0c4.png)

@@ -6,6 +6,8 @@ category: must-know
 aspects:
   - introduction
 
+type: normal
+
 ---
 
 # Adding and Editing Zaps
@@ -31,9 +33,9 @@ Your screen should now look like this, and you are ready to press `"Continue"`.
 
 ![google-sheets-final-screen](https://img.enkipro.com/a7b9300b3f61a6227d6ea0331e474009.png)
 
-Note: `'Has Access?'` is just the name of a **column** found in the `'Access to your secret base'` **worksheet**, which is found in the `'Some Impportant Data'` **spreadsheet**.
+Note: `'Has Access?'` is just the name of a **column** found in the `'Access to your secret base'` **worksheet**, which is found in the `'Some Important Data'` **spreadsheet**.
 
-Zapier might ask you to test the connection, but for now you can press `"Skip Test"`.
+Zapier might ask you to test the connection, but for now you can press `"Skip Test"`[2].
 
 ---
 ## Practice
@@ -59,3 +61,14 @@ Select the order of the actions that you need to take to connect Google Sheets t
 Here is the card that you should choose:
 
 ![zap-template](https://img.enkipro.com/94e172b334be0795157a5caca03b61a0.png)
+
+[2:Connection Tests]
+For this example we have chosen to skip the tests for simplicity. 
+
+When testing a trigger in Zapier, a sample is searched for (e.g. a row in your spreadsheet), and with it you can:
+- test & review
+  - you will be able to preview sample data and decide which should Zapier use in the step
+- test & continue
+  - the connection will be tested, and if no errors show up, Zapier will finish setting up your step
+
+Using these options you can ensure Zapier will be able to function correctly.

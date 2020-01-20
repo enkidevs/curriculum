@@ -6,6 +6,8 @@ category: must-know
 aspects:
   - introduction
 
+type: normal
+
 ---
 
 # Adding and Editing Zaps 2
@@ -19,7 +21,7 @@ Now, we want to choose `'Send Direct Message'` in the `'Choose Action Event'` dr
 
 The next step is signing in to Slack. If you do this for the first time it might be a good idea to use a test workspace before integrating your production workspace.
 
-Note: Zapier adds a lot of permissions to your account, so if you don't feel comfortable you should check the entire list and decide if you want to go further or not. In the off chance that you do not, you can always choose another app to integrate.
+Note: Zapier adds a lot of permissions[1] to your account, so if you don't feel comfortable you should check the entire list and decide if you want to go further or not. In the off chance that you do not, you can always choose another app to integrate.
 
 For this example, we want to receive a direct message every time someone edits the `"Has Access?"` column.
 
@@ -43,3 +45,11 @@ In Zapier, you need to complete ??? to integrate your apps:
 * the required fields
 * the fields marked as 'optional'
 * any fields
+
+---
+## Footnotes
+
+[1:Permissions]
+The permissions that Zapier requires differ from application to application. The first time you connect the app with Zapier, you will be presented with a list that you should read. For example, when connecting Slack here is what we see:
+
+![slack-permissions](https://img.enkipro.com/5171518b61af8ec2f0a9deca27436351.png)

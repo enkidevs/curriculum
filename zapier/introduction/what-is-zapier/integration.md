@@ -6,6 +6,8 @@ category: must-know
 aspects:
   - introduction
 
+type: normal
+
 ---
 
 # Integration
@@ -28,6 +30,7 @@ Some features include:
 - hooking multiple applications
 - reading, writing & updating data
 - setting filters for data
+- manipulating data between integration steps
 - debugging using task history & stops
 - others
 

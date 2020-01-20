@@ -25,4 +25,4 @@ Notice the `+AND` and `+OR` buttons in the bottom left corner. What these do is 
 - `+AND` - both constrains must pass **at the same time**
 - `+OR` - **at least one** of the constraints must pass
 
-You can already see how very complicated logic can be created, which is bound to make your work more efficient.
+This feature give us a lot of power to by allowing us to adjust various logic into a zap.
