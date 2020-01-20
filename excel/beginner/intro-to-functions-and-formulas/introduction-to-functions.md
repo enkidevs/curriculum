@@ -13,7 +13,7 @@ type: normal
 category: how to
 
 links:
-  - [Excel Function List](https://support.office.com/en-us/article/excel-functions-alphabetical-b3944572-255d-4efb-bb96-c6d90033e188)
+  - '[Excel Function List](https://support.office.com/en-us/article/excel-functions-alphabetical-b3944572-255d-4efb-bb96-c6d90033e188){documentation}'
 ---
 
 # Introduction to functions
