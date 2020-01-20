@@ -44,7 +44,7 @@ Example:
 
 ---
 
-## Practice Question
+## Practice
 
 What are functions in Excel?
 
