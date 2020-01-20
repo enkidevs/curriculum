@@ -10,7 +10,7 @@ type: normal
 
 ---
 
-# Zapier Dependencies
+# Zapier Common Terminology
 
 ---
 ## Content
