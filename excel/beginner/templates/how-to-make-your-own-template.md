@@ -13,8 +13,8 @@ type: normal
 category: how to
 
 links:
-  - [Google Spreadsheet](https://www.laptopmag.com/articles/create-custom-template-google-docs)
-  - [Office Excel](https://www.excel-easy.com/basics/templates.html)
+  - '[Google Spreadsheet](https://www.laptopmag.com/articles/create-custom-template-google-docs){documentation}'
+  - '[Office Excel](https://www.excel-easy.com/basics/templates.html){documentation}'
 
 ---
 
