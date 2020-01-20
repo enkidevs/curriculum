@@ -35,7 +35,7 @@ This will sum up the 3 cells and display the result.
 
 ---
 
-## Practice Question
+## Practice
 
 Complete the sentence.
 
