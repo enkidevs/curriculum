@@ -49,7 +49,7 @@ We can also group the `Professor` and `Student` cells and then nest all 3 in a t
 
 ---
 
-## Practice Question
+## Practice
 
 Which sentence is not true about groups in Excel?
 
