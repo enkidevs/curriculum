@@ -50,7 +50,7 @@ List of errors in Excel:
 ![error-list](https://img.enkipro.com/aec9daa1f3be3570bf4e5770706dc866.png)
 
 ---
-## Practice Question
+## Practice
 
 Which of these are the 4 main data types in Excel?
 
