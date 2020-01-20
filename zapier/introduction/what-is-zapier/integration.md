@@ -13,9 +13,9 @@ aspects:
 ---
 ## Content
 
-As we have previously mentioned, you can use Zapier to connect many popular applications and create complicated logic.
+As we have previously mentioned, you can use Zapier to connect many popular applications and create complex logic.
 
-Other than the popular applications that you already know, Zapier provides integration possibilities for more than 1500 applications. On the off-chance that your app is not included, you can still find a way to integrate it (possibly using another application as a bridge).
+Other than the popular applications that you might already know about, Zapier provides integration possibilities for more than 1500 applications. On the off-chance that your app is not included, you can still find a way to integrate it (possibly using another application as a bridge).
 
 If you need any more convincing, here are a couple of examples:
   1. Get email notifications for new Google Forms responses

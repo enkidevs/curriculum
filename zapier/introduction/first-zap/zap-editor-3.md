@@ -40,6 +40,6 @@ Now, let's take a look at the other `'optional'` fields:
     - schedule a time for the message to be sent
     - can't be more than 120 days in the future
 
-You are now ready to click `'Continue'` (and as before you can skip the tests). Your zaps is now ready to be used. Go ahead and change a row in the spreadsheet and see how the magic happens.
+You are now ready to click `'Continue'` (and as before you can skip the tests). Your zap is now ready to be used. Go ahead and change a row in the spreadsheet and see how the magic happens.
 
 Don't forget to turn on the zap in the top right corner of the screen.

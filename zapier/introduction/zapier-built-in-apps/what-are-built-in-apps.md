@@ -15,7 +15,7 @@ type: normal
 ---
 ## Content
 
-Built-in apps represent apps that Zapier has created so that you can use a certain service without singing up somewhere else. 
+Built-in apps represent apps that Zapier has created so that you can use a certain service without signing up somewhere else. 
 
 The main benefit of this is that it reduces the time it takes to set up your zaps, and provides additional actions or triggers due to native support.
 

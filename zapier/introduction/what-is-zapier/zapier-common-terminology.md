@@ -15,7 +15,7 @@ aspects:
 
 Now that you have your account, you are ready to start using Zapier.
 
-The first step is getting used to some of the terms that you will see. Here is a list to help you get started[1]:
+In this insight we'll explore some of the common terminology used when talking about zapier integrations. Here is a list to help you get started[1]:
 - **zap**
   - this refers to the automated workflow that connects apps and services
   - think of a zap as your entire integration
