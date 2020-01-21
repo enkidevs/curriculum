@@ -42,7 +42,7 @@ An actual problem may sound like this: Given a set of *n* items, each with a val
 
 Consider the following input example:
 
-![inputex](https://img.enkipro.com/e6b239db3ba9ba0c36679d15328d592f.png)
+![inputex](https://img.enkipro.com/185332a414e4719fca72e961ecb7d743.png)
 
 The *knapsack problem* is interesting because, like the Traveling Salesman Problem, there is no known algorithm to *quickly solve it* for all cases.
 
@@ -63,7 +63,7 @@ We are using the matrix to save partial sums (thus splitting the problem into sm
 
 For `W = 10` and the input above, the completed matrix looks like this:
 
-![knapmatrix](https://img.enkipro.com/106b1a737470c0b9cfdac438d3277fd5.png)
+![knapmatrix](https://img.enkipro.com/3cc589462d11f6d4a172688a516b6dae.png)
 
 The *y-axis* of the matrix is the maximum allowed weight (*W*) and the *x-axis* is the index of the item in the input array.
 

@@ -37,11 +37,11 @@ Its implementation looks like this:
 - Traverse the *right subtree* recursively.
 - *Modify/Display* the current node (starting with the root)
 
-![traversalex](https://img.enkipro.com/34487ad41bc6317f63440df48d238abb.png)
+![traversalex](https://img.enkipro.com/a60c49e26c0b710b7fd170527d2adf93.png)
 
 *Post-order traversal* visits nodes in the following order:
 
-![postorder](https://img.enkipro.com/c87da5f3bbd3a924ba09783267696965.png)
+![postorder](https://img.enkipro.com/333200d1ce66957302d8b7f18c707187.png)
 
 With the output:
 ```text

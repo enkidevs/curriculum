@@ -32,7 +32,7 @@ A **tree** is an abstract data type that can store elements *hierarchically* (no
 
 Consider the following tree, whose root node is *A*:
 
-![treeds](https://img.enkipro.com/7816fd226319c7a636bf356a6929cf30.png)
+![treeds](https://img.enkipro.com/4e264ddca0d006f917fd2784dced716a.png)
 
 For example, a data structure that implements the *Tree* ADT[1] is LinkedList[2], whose nodes have at most one child.
 
@@ -52,7 +52,7 @@ A tree is **ordered** if there is a *linear* relation among the *nodes on each l
 
 And so on and so forth:
 
-![booktree](https://img.enkipro.com/ae7ebe447b1fb0fb58ea322a983c371f.png)
+![booktree](https://img.enkipro.com/80c15848eba8257d56620b059c830cf6.png)
 
 It is worth mentioning that a *tree* is a special kind of graph, in which the edges have a direction (parent-child) and there are no cycles (acyclic).
 
