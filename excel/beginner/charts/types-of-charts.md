@@ -50,7 +50,6 @@ The column charts are used to horizontally represent data with vertical bars.
 
 ![column-chart](https://img.enkipro.com/81d21f8992f86192897d3e6a646eac31.png)
 
-
 ---
 ## Practice
 

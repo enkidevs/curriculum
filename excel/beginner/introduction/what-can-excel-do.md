@@ -37,6 +37,7 @@ Furthermore, Excel can be used to calculate averages, medians or date calculatio
 There are many formulas that can be used to easily organize and look/calculate only specific data from the spreadsheet. You can set up formulas to change the color of certain cells based on calculations or if a condition is met. 
 
 There is also some more advanced stuff Excel can do, which we will discuss later on.
+
 ---
 ## Practice
 
