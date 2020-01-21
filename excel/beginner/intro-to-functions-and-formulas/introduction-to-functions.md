@@ -43,7 +43,6 @@ Example:
 ```
 
 ---
-
 ## Practice
 
 What are functions in Excel?

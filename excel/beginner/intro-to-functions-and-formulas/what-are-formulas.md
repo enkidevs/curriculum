@@ -34,7 +34,6 @@ This will sum up the 3 cells and display the result.
 ![simple-formula](https://img.enkipro.com/488abdd009ea6634bbd73d15f059e786.png)
 
 ---
-
 ## Practice
 
 Complete the sentence.

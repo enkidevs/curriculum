@@ -29,7 +29,6 @@ Let's say we have this table where we input how much money we saved each month.
 The COUNT function will only count numerical values as well as ignore any zeroes. Since our table has a 0 and 2 words, the result is `9` numerical values.
 
 ---
-
 ## Practice
 
 Create a function that will count how many numerical values are present from the cell C7 to C32.

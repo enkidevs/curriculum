@@ -35,7 +35,6 @@ Function ADD parameter 1 expects number values. But 'z' is a text and cannot be 
 ```
 
 ---
-
 ## Practice
 
 What is the main characteristic of any formula?

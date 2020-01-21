@@ -35,7 +35,6 @@ As you can see in the image above, the highlighted C18 cell displays the result.
 And Excel makes it easy to see which function is inputted into that field by looking at the top left side of the picture.
 
 ---
-
 ## Practice
 
 Create a function that will sum up all the values from the cell K63 to K88.
