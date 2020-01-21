@@ -24,9 +24,9 @@ links:
 
 The `<base>` element is used to specify a link path for all relative URL attributes. There can be only one `<base>` element per page or document, and it is written inside the `<head>` element. If more than one `<base>` element is present, only the first `href` and `target` values are used, while the others are ignored.
 
-Also, the `<base>` element cannot be empty, it must contain either the target attribute, the href attribute, or both of them.
+The `<base>` element cannot be empty, it must contain either the `target` attribute, the `href` attribute, or both of them.
 
-All links in the web page or document are set to open in a new tab:
+All links in the web page or document are set to open in the same tab:
 
 ```html
 <head>
@@ -51,7 +51,7 @@ All links in the web page or document will lead to the `https://www.enki.com` li
 </head>
 ```
 
-**Note: In HTML5 the `<base>` end tag has to be omitted. On the other hand, in XHTML it has to be closed.**
+**Note**: In HTML5, the `<base>` end tag has to be omitted. On the other hand, in XHTML it has to be closed.
 
 ---
 ## Practice

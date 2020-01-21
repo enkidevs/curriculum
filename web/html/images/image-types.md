@@ -19,7 +19,7 @@ aspects:
 
 When using images in your web page or document, whether it's for a logo, product photographs, etc, it is important to know which web image formats to use.
 
-Image formats are divided into 2 categories:
+Image formats are divided into 2 categories, with some examples being:
 - **Raster images**
   - JPG/JPEG
   - GIF
@@ -28,7 +28,6 @@ Image formats are divided into 2 categories:
 - **Vector images**
    - SVG
    
-##### --> image-types.svg
    
 **Raster images**
 
@@ -42,13 +41,15 @@ Raster images consist of a two-dimensional grid of pixels. They do not scale wel
 
 There are two categories of PNG images that help keep file sizes down depending on the number of colors available.
   - PNG 8: limited with a maximum of 256 colors.
-  - PNG 24: unlimited colors.
+  - PNG 24: limited with a maximum of 16 million colors
 
 **Vector images**
 
 Vector images are made of thin lines, curves, and shapes, stored in mathematical drawing instructions. No matter how much you zoom in or rescale your image, the clear resolution stays the same.
 
-**SVG:** Has unlimited colors and supports transparency and are best to use when creating a logo, an icon, or any other simple image pattern that may be displayed as multiple screen sizes. Also, SVG images can be directly inserted into an HTML page as code(since they are defined using XML) without being linked to a standalone image file.
+**SVG:** Has unlimited colors and supports transparency and are best to use when creating a logo, an icon, or any other simple image pattern that may be displayed as multiple screen sizes. Also, SVG images can be directly inserted into an HTML page as code (since they are defined using XML) without being linked to a standalone image file.
+
+Although we have only presented four image types, there are [many more](https://en.wikipedia.org/wiki/Image_file_formats#Major_graphic_file_formats) from which you can choose, with each type being suited for a different application.
 
 **Note: All image formats are animatable by CSS**
 

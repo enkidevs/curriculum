@@ -21,8 +21,8 @@ aspects:
 
 links:
 
-  - '[docs.python.org](https://docs.python.org/3.5/library/datetime.html#time-objects){website}'
-  - '[pymotw.com](https://pymotw.com/3/datetime/){website}'
+  - '[Time Objects](https://docs.python.org/3.5/library/datetime.html#time-objects){website}'
+  - '[Date & Time Value Manipulation](https://pymotw.com/3/datetime/){website}'
 
 ---
 
@@ -149,5 +149,5 @@ current = ???
 
 ---
 ## Footnotes
-[1:proleptic Georgian calendar]
+[1:Proleptic Gregorian Calendar]
 The proleptic Gregorian calendar is produced by extending the Gregorian calendar backward with negative values to dates preceding its official introduction in **1582**.

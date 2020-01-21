@@ -9,7 +9,7 @@ type: normal
 category: must-know
 
 links:
-  - '[React Getting Started](https://facebook.github.io/react/docs/getting-started.html){website}'
+  - '[Getting Started](https://facebook.github.io/react/docs/getting-started.html){website}'
 
 parent: why-use-react
 
@@ -17,7 +17,7 @@ aspects:
   - introduction
 
 ---
-# React dependencies
+# React Dependencies
 
 ---
 ## Content
