@@ -23,7 +23,7 @@ standards:
   web.layout-html.3: 1000
 
 links:
-  - '[MDN docs for global attributes](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes){website}'
+  - '[MDN docs for global attributes](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes){documentation}'
 
 ---
 # HTML formatting elements exercise

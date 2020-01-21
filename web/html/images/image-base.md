@@ -15,7 +15,7 @@ aspects:
   - obscura
 
 links:
-  - '[MDN Docs on <base>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base){documentation}'
+  - '[HTML <base> Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base){documentation}'
 
 ---
 # Image Base

@@ -9,10 +9,6 @@ type: normal
 
 category: must-know
 
-standards:
-  web.html-forms.6: 10
-  web.html-forms.9: 10
-
 aspects:
   - introduction
   - workout
@@ -22,7 +18,7 @@ aspects:
 lists:
 
 ---
-# Intro list
+# Intro `<list>`
 ---
 ## Content
 

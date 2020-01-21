@@ -20,7 +20,7 @@ tags:
   - deep
 
 ---
-# Intro wbr
+# Intro `<wbr>`
 ---
 ## Content
 
@@ -36,19 +36,19 @@ Let's say you have this link:
 ```
 If you add a `<wbr>` element before the word `path` like so: `<wbr>/path/filename.html`, then as soon as the link doesn't fit the browser's window, the browser creates a line break like so:
 
-![element-wbr](%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22320%22%20height%3D%2274%22%3E%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%3Crect%20width%3D%22320%22%20height%3D%2274%22%20fill%3D%22%23FFF%22%20rx%3D%229%22%2F%3E%3Ctext%20fill%3D%22%23000%22%20font-family%3D%22Roboto-Regular%2C%20Roboto%22%20font-size%3D%2216%22%3E%3Ctspan%20x%3D%2220%22%20y%3D%2234%22%3Ehttp%3A%2F%2Fwww.enkipro.com%2F%3C%2Ftspan%3E%20%3Ctspan%20x%3D%2220%22%20y%3D%2253%22%3Epath%2Ffilename.html%3C%2Ftspan%3E%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fsvg%3E)
+![element-wbr](https://img.enkipro.com/5e0abaf7481bbb0598849b05f1761414.png)
 
 [View CodePen](https://codepen.io/enkidevs/pen/rrjxao)
 
 Here's another example of adding a `<wbr>` element to a long word to tell the browser where to break in case it doesn't fit the screen.
 
-Lets take the unusually long name for a town in northern Wales, England.
+Lets take the unusually long name for a town in northern Wales, UK.
 
 Name: **Llanfairpwllgwyngyllgogerychwyrndrobwllllantysiliogogogoch**.
 
 Example with a `<wbr>` element between `Llanfairpwllgwyngyllgogerychwyrn` and `drobwllllantysiliogogogoch`:
 
-![element-wbr-2](%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22320%22%20height%3D%2274%22%3E%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%3Crect%20width%3D%22320%22%20height%3D%2274%22%20fill%3D%22%23FFF%22%20rx%3D%229%22%2F%3E%3Ctext%20fill%3D%22%23000%22%20font-family%3D%22Roboto-Regular%2C%20Roboto%22%20font-size%3D%2216%22%3E%3Ctspan%20x%3D%2220%22%20y%3D%2234%22%3ELlanfairpwllgwyngyllgogerychwyrn%3C%2Ftspan%3E%20%3Ctspan%20x%3D%2220%22%20y%3D%2253%22%3Edrobwllllantysiliogogogoch%3C%2Ftspan%3E%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fsvg%3E)
+![element-wbr-2](https://img.enkipro.com/585172af209d801b72c3973db1899a1f.png)
 
 [View CodePen](https://codepen.io/enkidevs/pen/wxgMKr)
 

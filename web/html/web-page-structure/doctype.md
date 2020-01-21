@@ -12,15 +12,10 @@ category: must-know
 aspects:
   - introduction
 
-standards:
-  web.syntax-html.3: 10
-  web.syntax-html.4: 10
-  web.syntax-html.5: 10
-  web.metadata.4: 10
 
 links:
-  - '[MDN docs for Doctype](https://developer.mozilla.org/en-US/docs/Glossary/Doctype){website}'
-  - '[List of all Doctype declarations](https://www.w3.org/QA/2002/04/valid-dtd-list.html){website}'
+  - '[HTML Doctype](https://developer.mozilla.org/en-US/docs/Glossary/Doctype){documentation}'
+  - '[All Doctype Declarations](https://www.w3.org/QA/2002/04/valid-dtd-list.html){documentation}'
   
 ---
 # Doctype
@@ -29,7 +24,7 @@ links:
 
 In HTML, every page, no matter the version of HTML it is written in, requires a doctype declaration telling the browser how to render the document properly.
 
-Technically, the doctype declaration isn't an HTML element, but a specific direction for browsers to understand they type of web page being delivered.
+Technically, the doctype declaration isn't an HTML element, but a specific direction for browsers to understand the type of web page being delivered.
 
 The doctype declaration for HTML5 is:
 ```html
@@ -38,7 +33,7 @@ The doctype declaration for HTML5 is:
 
 Although the doctype declaration can be written both in lower and uppercase letters, it tends to be most widely accepted for `DOCTYPE` to be written in uppercase and `html` to be written in lowercase letters. 
 
-This is only one doctype declaration for HTML5 compared to the three doctype declarations used for HTML 4.01 making this much similar for developers. 
+This is only one doctype declaration for HTML5 compared to the three doctype declarations used for HTML 4.01 making this much simpler for developers. 
 
 ---
 ## Practice

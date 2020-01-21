@@ -9,19 +9,16 @@ type: normal
 
 category: must-know
 
-standards:
-  web.embed-media.0: 10
-
 aspects:
   - introduction
   - workout
   - obscura
 
 links:
-  - '[A walkthrough on w3schools](https://www.w3schools.com/tags/att_area_coords.asp){website}'
-  - '[Documentation on MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/map){documentation}'
-  - '[An example on w3schools](https://www.w3schools.com/tags/att_img_usemap.asp){website}'
-  - '[Official docs on w3.org](https://dev.w3.org/html5/spec-preview/image-maps.html){documentation}'
+  - '[A walkthrough on w3schools](https://www.w3schools.com/tags/att_area_coords.asp){documentation}'
+  - '[MDN: <map> Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/map){documentation}'
+  - '[Example With <map>](https://www.w3schools.com/tags/att_img_usemap.asp){documentation}'
+  - '[w3.org: <map> Element](https://dev.w3.org/html5/spec-preview/image-maps.html){documentation}'
 ---
 # Image Map
 ---

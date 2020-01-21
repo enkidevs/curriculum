@@ -9,18 +9,11 @@ type: normal
 
 category: must-know
 
-inAlgoPool: false
-
-standards:
-  web.syntax-html.0: 10
-  web.markup-text.0: 10
-  web.markup-text.2: 10
-
 aspects:
   - introduction
 
 links:
-  - '[MDN](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Creating_hyperlinks){documentation}'
+  - '[Creating Hyperlinks](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Creating_hyperlinks){documentation}'
 
 ---
 
@@ -48,7 +41,7 @@ href="http://enki.com/samples/page.html">
 </a>'s website.</p>
 ```
 
-![link-text](https://img.enkipro.com/8ffc6087d2e832fc2ae2066d70455afa.png)
+![link-text](https://img.enkipro.com/2de7065475dfbb87f0f827bd0d63c945.png)
 
 [View CodePen](https://codepen.io/enkidevs/pen/RBKobx)
 

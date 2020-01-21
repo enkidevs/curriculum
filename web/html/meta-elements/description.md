@@ -9,18 +9,12 @@ type: normal
 
 category: must-know
 
-standards:
-  web.metadata.0: 10
-  web.metadata.1: 10
-  web.metadata.3: 10
-
-
 aspects:
   - introduction
   - workout
   
 ---
-# Description
+# The `description` Attribute
 ---
 ## Content
 
