@@ -16,7 +16,7 @@ aspects:
 
 links:
 
-  - '[Graph representation](http://www.geeksforgeeks.org/graph-and-its-representations/){website}'
+  - '[Graph Representation](http://www.geeksforgeeks.org/graph-and-its-representations/){website}'
 
 parent: the-components-of-a-graph
 
@@ -29,7 +29,7 @@ parent: the-components-of-a-graph
 
 Consider this graph:
 
-![digraph](https://img.enkipro.com/691fea19b61030fe73ce827f114b5c0c.png)
+![digraph](https://img.enkipro.com/9e4b059a8e0042dd126eba438501b5bf.png)
 
 It must be said that there are 4 common ways of representing it:
 - **Edge list**: maintains an unordered list of all edges, but makes it hard to find a particular edge or the edges incident to vertex v. For the above example, the list is:
@@ -50,7 +50,7 @@ It must be said that there are 4 common ways of representing it:
 - **Adjacency map**: maintains a map of incident edges for each vertex. For a vertex v, its map  *(key,value)* pair is equivalent to (*adjacentVertex(u)* , *edgeBetween(v,u)*). The only difference between the list and the map is the container (data structure) used to store them.
 - **Adjacency (incidence) matrix**: maintains an _n*n_ matrix, for a graph with *n* vertices. Each cell represents an edge between *(v,u)*; if there is no edge, the value of the cell is null(or 0).
 
-![matrix](https://img.enkipro.com/e20bb5299703a14df4c43a6aa0a3d89b.png)
+![matrix](https://img.enkipro.com/6b26321d5ca7565679df808559dc893c.png)
 
 Any *implementation* of a graph data type should provide these methods:
 - `adjacent(v,u)` : *Returns* `true` if there is an edge between v and u.

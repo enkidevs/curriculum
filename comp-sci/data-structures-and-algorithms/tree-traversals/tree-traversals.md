@@ -57,11 +57,11 @@ In the following insights we will assume that a left node has priority over the 
 
 Let’s consider the tree:
 
-![treeex](https://img.enkipro.com/a306200d50807cbc1ebd43bc078fab04.png)
+![treeex](https://img.enkipro.com/857d47ddc50f5dfa0e2947ab092854df.png)
 
 The visiting order for BFS is:
 
-![bfs](https://img.enkipro.com/2f1305eacba99b5796204a49f2abe33a.png)
+![bfs](https://img.enkipro.com/f94e05dd3aef718eb49094bca2c19b87.png)
 
 And it outputs:
 ```

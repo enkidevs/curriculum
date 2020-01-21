@@ -44,7 +44,7 @@ The order in which the cities are visited is not important - yet, finding a solu
 
 As stated above, the input is represented by a graph:
 
-![tsp1](https://img.enkipro.com/5096f531a41ebfddfcda63e3510fdd24.png)
+![tsp1](https://img.enkipro.com/7b7f1bca963f5d494aa5478df3b42eb4.png)
 
 The traveling salesman problem is regarded as being difficult to solve due to the huge search space. The brute-force search, which verifies all the possible routes, is also the most expensive one to pull off. In this case, finding a solution is becoming a permutation problem which requires checking **(n-1)!** permutations[1].
 
@@ -54,7 +54,7 @@ Another was of finding a solution is using a greedy approach: always take the ne
 
 However, this is an example where the greedy approach doesn't work properly:
 
-![tsp2](https://img.enkipro.com/14d60cd0c7cc35c2b5c5fa466cf25c2b.png)
+![tsp2](https://img.enkipro.com/14a2481834a3d1e4f7195fda1d832f47.png)
 
 With the solutions:
 ```
