@@ -1,4 +1,4 @@
-name: Basics Of Excel
+name: Data validation, filtering and grouping
 
 description: Learn what data types excel uses, what data validation is and how to group and filter cells
 
