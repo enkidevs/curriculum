@@ -10,7 +10,7 @@ type: normal
 
 ---
 
-# Zapier Data
+# Unique Search Actions
 
 ---
 ## Content

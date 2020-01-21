@@ -15,7 +15,7 @@ type: normal
 ---
 ## Content
 
-The first step is getting used to some of the terms that you will see. Here is a list to help you get started[1].
+Now, let's introduce some of the terms that you'll see. Here is a list to help you get started[1].
 
 ### Zap
   - this refers to the automated workflow that connects apps and services

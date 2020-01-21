@@ -27,7 +27,6 @@ All that you would have to do is go to the Slack step, and in the `'Message Text
 
 ![image-of-completed-data](https://img.enkipro.com/936b5a4e98e90a855f51334425e4fd5f.png)
 
-
 ---
 ## Practice
 
