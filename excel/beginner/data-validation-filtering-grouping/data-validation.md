@@ -17,7 +17,6 @@ category: must-know
 # Data Validation
 
 ---
-
 ## Content
 
 Excel has a feature called "Data Validation" which you can use to force a particular input into a cell.
@@ -89,7 +88,6 @@ Example:
 ![how-to-remove-gif](https://img.enkipro.com/5942bfe502242b44c2253ac4f6de6b19.gif)
 
 ---
-
 ## Practice
 
 What is `Data validation`?

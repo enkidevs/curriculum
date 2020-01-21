@@ -52,7 +52,6 @@ The column charts are used to horizontally represent data with vertical bars.
 
 
 ---
-
 ## Practice
 
 Which of these is not a famous Excel Chart?
