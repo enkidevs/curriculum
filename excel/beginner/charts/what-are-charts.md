@@ -30,6 +30,7 @@ Charts are located under `insert > charts`.
 There are many types of charts that can be used to represent and/or compare data in different ways.
 
 ---
+
 ## Practice
 
 What are charts?
