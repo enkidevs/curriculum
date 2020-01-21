@@ -32,7 +32,7 @@ Due to all the various ways users can view web content  today (computers, phones
 
 As you can see, you really only need 2 HTML5 video formats for modern web browsers. Since Google created WebM, it has become more common to provide only WebM & MP4 for modern HTML5 browsers.
 
-This CodePen will provide all the necessary code - it's a decent chuck compared to just the `video` element.
+This CodePen will provide all the necessary code - it's a decent chunk compared to just the `video` element.
 
 [View CodePen](https://codepen.io/enkidevs/pen/xJbYLE)
 
