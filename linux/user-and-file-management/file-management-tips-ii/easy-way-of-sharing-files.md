@@ -24,7 +24,7 @@ category: how to
 ---
 ## Content
 
-File transfer on the network without setting up extra software can be easily achieved using `woof` utility.
+File transfer on the network without setting up extra software can be easily achieved using the `woof` utility.
 
 `woof` (Web Offer One File) is a script and will run on any machine with *Python* installed.
  

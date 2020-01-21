@@ -34,7 +34,7 @@ links:
 
 When commenting your code, it is not good practice to write what the code does line-for-line. In fact, if the code needs to be explained in this fashion, it is probably poorly written.
 
-Instead, comments should explain the code at a higher level of abstraction. This means that it should be explained what the code does in the context of the rest of the program.
+Instead, comments should explain the code at a higher level of abstraction. This means that it should explain what the code does in the context of the rest of the program.
 
 For example:
 
