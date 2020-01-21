@@ -38,7 +38,6 @@ There are many formulas that can be used to easily organize and look/calculate o
 
 There is also some more advanced stuff Excel can do, which we will discuss later on.
 ---
-
 ## Practice
 
 What is Excel good for?
