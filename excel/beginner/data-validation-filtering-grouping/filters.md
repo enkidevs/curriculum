@@ -73,6 +73,7 @@ Our table will now look like this:
 
 
 ---
+
 ## Practice
 
 What are filters used for?
