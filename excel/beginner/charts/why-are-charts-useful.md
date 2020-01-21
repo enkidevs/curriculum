@@ -30,6 +30,7 @@ Each type of chart also "tells a story".
 This is because upon creating a chart with large data, you can instantly see patterns and visualize the data and use it to determine any negative or positive information regarding the data.
 
 ---
+
 ## Practice
 
 Which of these is not true?
