@@ -7,3 +7,4 @@ insights:
   - airtable-records
   - airtable-fields
   - airtable-field-types
+  - airtable-primary-fields
