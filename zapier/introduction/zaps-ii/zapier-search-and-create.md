@@ -15,7 +15,7 @@ type: normal
 ---
 ## Content
 
-Depending on the app that you are using, Zapier allows you to create date after doing a search action.
+Depending on the app that you are using, Zapier allows you to create data after doing a search action.
 
 A good workflow example would be to monitor some data, and when a certain condition is met you create a new record/data.
 
