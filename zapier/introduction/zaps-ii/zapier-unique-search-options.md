@@ -19,9 +19,9 @@ Up until now, we have only used Slack and Google Sheets in our zaps. Considering
 
 Depending on the type of application you use or integrate, you will find that each have their own actions.
 
-In this insight, we will present you the process of finding out all the possible actions and integrations, which can be used with any app.
+In this insight, we will look at how to find out all the possible actions and integrations which can be used with every app.
 
-To find out what unique search actions (or triggers) an app can have, you'll first have to head on over to [Zapier](https://zapier.com/apps) and select the app in question.
+To find out all related search actions (triggers) to a specific app, you can head to the [Zapier Apps](https://zapier.com/apps) webpage and select the app in question.
 
 Let's say our stack contains Dropbox and Instagram. 
 

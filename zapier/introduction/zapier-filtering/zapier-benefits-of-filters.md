@@ -15,7 +15,7 @@ type: normal
 ---
 ## Content
 
-When working with simple zaps, you might not even need to include filters in your flow. As the size of the zaps increase, and the size of the data you are working with (e.g. production database), the necessity of filters will become apparent.
+When working with simple zaps, you might not even need to include filters in your flow. As the size of the zaps increase, and the size of the data you are working with (e.g. production database), the necessity of filters may become apparent.
 
 Let's take another look at a filter step:
 
