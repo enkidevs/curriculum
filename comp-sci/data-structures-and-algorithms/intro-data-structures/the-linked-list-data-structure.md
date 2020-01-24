@@ -41,11 +41,11 @@ However, you would still need to count to get to position `i`: no one has a sign
 
 The *conga line* is an example of a **SinglyLinkedList** because you cannot see who is behind you. The last one (in the example below, *G*) still has a reference that points to nothing(or `null`):
 
-![sll](https://img.enkipro.com/7b0cad245c9ed5cb55d6c12678629acd.png)
+![sll](https://img.enkipro.com/9fc64a4643c8c46b7d2a600fe99a124d.png)
 
 To make it a **DoublyLinkedList**, everyone would have to use one hand to hold the person in front of them, and their other hand to hold the person behind them. In this case, you would be able to move through in both directions, from *start to finish* and from *finish to start*.
 
-![dll](https://img.enkipro.com/46b5d724b14755373af739d2b55fc878.png)
+![dll](https://img.enkipro.com/dfe8bdeaffa55cb2d4504f4048f2b515.png)
 
 ### Dynamic Array vs. LinkedList
 

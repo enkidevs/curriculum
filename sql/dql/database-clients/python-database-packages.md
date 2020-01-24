@@ -69,7 +69,7 @@ In order to execute a query we must use the cursor class:
 >>> cur.fetchall()
 ```
 
-This will should list all the colors in an array of pairs.
+This will list all the colors in an array of pairs.
 
 As `cur` is now a Python list object we can iterate through the query result simply by:
 

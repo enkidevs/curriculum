@@ -9,11 +9,6 @@ type: normal
 
 category: must-know
 
-standards:
-  web.metadata.0: 10
-  web.metadata.3: 10
-  web.metadata.4: 10
-
 tags:
   - workout
   - deep
@@ -23,7 +18,7 @@ aspects:
   - deep
 
 ---
-# Robots
+# The `robot` Attribute
 ---
 ## Content
 

@@ -9,9 +9,6 @@ type: normal
 
 category: must-know
 
-standards:
-  web.layout-html.3: 10
-
 aspects:
   - deep
   - workout
@@ -19,7 +16,7 @@ aspects:
 links:
 
 ---
-# Progress
+# The `<progress>` Element
 ---
 ## Content
 
@@ -34,7 +31,7 @@ Example:
 </progress>
 ```
 
-![progress-element](%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22320%22%20height%3D%2246%22%3E%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%3Crect%20width%3D%22320%22%20height%3D%2246%22%20fill%3D%22%23FFF%22%20rx%3D%229%22%2F%3E%3Cpath%20fill%3D%22%23EDEDED%22%20stroke%3D%22%23CFCFCF%22%20d%3D%22M52.5%2020.5v5H169c1.38071%200%202.5-1.11929%202.5-2.5s-1.11929-2.5-2.5-2.5H52.5z%22%2F%3E%3Cpath%20fill%3D%22%233B99FC%22%20stroke%3D%22%233385DB%22%20d%3D%22M52.5%2025.5v-5H17c-1.38071%200-2.5%201.11929-2.5%202.5s1.11929%202.5%202.5%202.5h35.5z%22%2F%3E%3Cpath%20stroke%3D%22%233B99FC%22%20stroke-linecap%3D%22square%22%20d%3D%22M52.5%2021.5v3%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E)
+![progress-element](https://img.enkipro.com/8e80f41251adcc753a26c4ad32cb2543.png)
 
 [View CodePen](https://codepen.io/enkidevs/pen/eKbYJv)
 

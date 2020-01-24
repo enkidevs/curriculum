@@ -9,16 +9,11 @@ type: normal
 
 category: must-know
 
-standards:
-  web.syntax-html.0: 10
-  web.markup-text.0: 10
-  web.markup-text.2: 10
-
 aspects:
   - introduction
 
 links:
-  - '[Elements on MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements){documentation}'
+  - '[HTML Elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements){documentation}'
 
 ---
 # Headings (h1-h6)
@@ -41,7 +36,7 @@ Example:
 ```
 Headings appear like this:
 
-![heading-sizes](%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20style%3D%22width%3A100%25%22%20viewBox%3D%220%200%20320%20282%22%3E%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%3Crect%20width%3D%22320%22%20height%3D%22282%22%20fill%3D%22%23FFF%22%20rx%3D%229%22%2F%3E%3Ctext%20fill%3D%22%23000%22%20font-family%3D%22Arial-BoldMT%2C%20Arial%22%20font-size%3D%2216%22%20font-weight%3D%22bold%22%3E%3Ctspan%20x%3D%2219%22%20y%3D%22183%22%3EHeading%204%3C%2Ftspan%3E%3C%2Ftext%3E%3Ctext%20fill%3D%22%23000%22%20font-family%3D%22Arial-BoldMT%2C%20Arial%22%20font-size%3D%2213.28%22%20font-weight%3D%22bold%22%3E%3Ctspan%20x%3D%2219%22%20y%3D%22221%22%3EHeading%205%3C%2Ftspan%3E%3C%2Ftext%3E%3Ctext%20fill%3D%22%23000%22%20font-family%3D%22Arial-BoldMT%2C%20Arial%22%20font-size%3D%2211%22%20font-weight%3D%22bold%22%3E%3Ctspan%20x%3D%2219%22%20y%3D%22259%22%3EHeading%206%3C%2Ftspan%3E%3C%2Ftext%3E%3Ctext%20fill%3D%22%23000%22%20font-family%3D%22Arial-BoldMT%2C%20Arial%22%20font-size%3D%2218.72%22%20font-weight%3D%22bold%22%3E%3Ctspan%20x%3D%2219%22%20y%3D%22143%22%3EHeading%203%3C%2Ftspan%3E%3C%2Ftext%3E%3Ctext%20fill%3D%22%23000%22%20font-family%3D%22Arial-BoldMT%2C%20Arial%22%20font-size%3D%2224%22%20font-weight%3D%22bold%22%3E%3Ctspan%20x%3D%2219%22%20y%3D%22101%22%3EHeading%202%3C%2Ftspan%3E%3C%2Ftext%3E%3Ctext%20fill%3D%22%23000%22%20font-family%3D%22Arial-BoldMT%2C%20Arial%22%20font-size%3D%2232%22%20font-weight%3D%22bold%22%3E%3Ctspan%20x%3D%2219%22%20y%3D%2251%22%3EHeading%201%3C%2Ftspan%3E%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fsvg%3E)
+![heading-sizes](https://img.enkipro.com/dfc6e88808b6a70ddb2c6e74f7132faa.png)
 
 [View CodePen](https://codepen.io/enkidevs/pen/KBMMBb)
 

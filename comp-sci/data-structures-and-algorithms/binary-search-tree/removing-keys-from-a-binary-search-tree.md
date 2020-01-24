@@ -38,7 +38,7 @@ Removing or deleting a node from a binary search tree (BST) is more complicated 
 
 Consider the following highlighted nodes:
 
-![rem1](https://img.enkipro.com/b90a56945413732632f4a4a46e20aea0.png)
+![rem1](https://img.enkipro.com/dc7edf100ae53da78b89649e1db59ad5.png)
 
 The first two cases are easy to handle:
 
@@ -56,7 +56,7 @@ Thus, we can handle the two-children case as follows:
 
 After the three nodes removal, our initial tree will look like this:
 
-![rem2](https://img.enkipro.com/15991d681aad31424da299c885eecf7d.png)
+![rem2](https://img.enkipro.com/f82d4d98eb80e48fe42d50f46538a567.png)
 
 **Note**: the node with the maximum key in any sub-tree of a BST will never have two children since it couldn't possibly have a *right* child.  This guarantees that our delete operation will never call itself recursively more than once.
 

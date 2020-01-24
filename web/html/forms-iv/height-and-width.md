@@ -9,17 +9,13 @@ type: normal
 
 category: must-know
 
-standards:
-  web.html-forms.2: 10
-  web.embed-media.0: 10
-
 aspects:
   - introduction
   - workout
   - obscura
 
 ---
-# Height & width
+# The `height` & `width` Attributes
 ---
 ## Content
 

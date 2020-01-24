@@ -40,7 +40,7 @@ Recall that a binary tree is a tree in which each node has at most two children.
 
 Here is a picture of a binary search tree containing numbers:
 
-![bstds](https://img.enkipro.com/3b21e02671070e6f5b49ec0744609cc2.png)
+![bstds](https://img.enkipro.com/09e3a9cd394bdae7a3724f1f3f563858.png)
 
 We use numbers as an example here, but a BST works with any information that has a natural order to it, e.g., strings with alphabetical order.
 
