@@ -17,7 +17,7 @@ type: normal
 
 Depending on the app that you are using, Zapier allows you to create data after doing a search action.
 
-A good workflow example would be to monitor some data, and when a certain condition is met you create a new record/data.
+For example, a workflow which uses this feature could be monitoring some data change and, when a certain condition is met, it'll create a new data record
 
 Let's take another look at the zap we have created. After you receive a message that a person was given access to your base, you want to write a new cell that specifies the number of access days.
 
