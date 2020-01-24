@@ -15,7 +15,11 @@ type: normal
 ---
 ## Content
 
-So, let's say that in our case, we are only interested in the first 3 rows of the spreadsheet, or we are interested if their last name is `'Wick'` (you've seen what he can do when he is upset).
+In this insight, we'll take a close look at how we can add filters using more than one constraint.
+
+In the previous lessons, we used as an example a filter step which ensures that we react only to spreadsheet row changes where their `Has Access?` column is `'Yes'`. 
+
+To extend this example, say that we want to react only to _the first 3 rows of the spreadsheet_, or we to rows where the last name is `'Wick'` (you've seen what he can do when he is upset).
 
 For this, our logic would look something like this:
 
