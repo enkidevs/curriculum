@@ -8,3 +8,4 @@ sections:
     - airtable-basics
     - airtable-intro-templates
     - airtable-views
+    - table-relationships
