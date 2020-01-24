@@ -36,9 +36,9 @@ Start from left to right, we will now explain what each option does:
 - the date specifier
     - choose a date as a constraint
 
-Lastly, you've got the refresh button (meant to refresh the actions seen in the task history), and the `'Clear Filters'` button.
+Lastly, you've got the refresh button (meant to help with seeing the most recent runs in task history), and the `'Clear Filters'` button.
 
-Using these together you will be able to debug any zaps.
+These features should provide you with a straightforward debugging experience.
 
 ---
 ## Practice

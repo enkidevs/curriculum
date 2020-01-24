@@ -15,13 +15,13 @@ type: normal
 ---
 ## Content
 
-Starting off with the Schedule built-in app, this provides only triggers depending on how often you want your actions to happen. Your options consists of:
+The `Schedule` built-in app lets you trigger workflows at specific intervals. The trigger options you can pick from are: 
 - every day
 - every week
 - every month
 - every hour
 
-On the other hand, the Delay built-in app provides only actions. These actions are used to control when an action happen, allowing you to queue your flow:
+The `Delay` built-in app helps you _pause_ workflows based on time values. By adding a delay **action** within your workflow you'll be able to:
 - delay for
     - when encountered in the flow, the zap will wait for the specified amount of time
 - delay until

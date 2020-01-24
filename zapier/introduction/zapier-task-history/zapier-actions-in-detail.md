@@ -15,9 +15,11 @@ type: normal
 ---
 ## Content
 
-Although you can already extract a lot of information about your zaps, you still haven't uncovered the full potential of the task history.
+Looking over items in the task history is undoubtedly useful. Another useful extension of this view is the **detailed view** of each task run.
 
-If you click on any of the actions seen in the history, a new detailed page will be opened. In here, you will see all the actions that were performed by your zap, with each having a more detailed view. Let's say we have added a new record to our spreadsheet that has `'Wick'` in the `'Last Name'` column. Here is what you will find in the task history:
+If you click on any of the actions seen in the history, a new detailed page will be opened. In here, you will see all the actions that were performed by your zap, with each having a more detailed view. 
+
+Let's say we have added a new record to our spreadsheet that has `'Wick'` in the `'Last Name'` column. Here is what you will find in the task history:
 
 ![zaps-in-detail-1](https://img.enkipro.com/2175178a26b04235bd28151a49ee7ac5.png)
 

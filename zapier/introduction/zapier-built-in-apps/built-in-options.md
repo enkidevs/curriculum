@@ -15,13 +15,13 @@ type: normal
 ---
 ## Content
 
-Zapier wants to provide a built-in option for the most used integrations, for some actions that you would do often, or for actions that can't be found in any other apps (e.g. delay).
+Zapier provides built-in options for the most used integrations, common actions and for actions that can't be found in any other apps (e.g. delay).
 
 Out of the most popular options, you can distinguish:
 - Email
     - you can send emails without having an account for any provider
 - SMS
-    - same as with email
+    - you can send sms without having an account for any provider
 - Delay
     - you can set timer for when your action should happen
 - Formatter
