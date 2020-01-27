@@ -48,7 +48,7 @@ It must be said that there are 4 common ways of representing it:
  (F, B)]
 ```
 - **Adjacency map**: maintains a map of incident edges for each vertex. For a vertex v, its map  *(key,value)* pair is equivalent to (*adjacentVertex(u)* , *edgeBetween(v,u)*). The only difference between the list and the map is the container (data structure) used to store them.
-- **Adjacency (incidence) matrix**: maintains an _n*n_ matrix, for a graph with *n* vertices. Each cell represents an edge between *(v,u)*; if there is no edge, the value of the cell is null(or 0).
+- **Adjacency (incidence) matrix**: maintains an `n x n` matrix, for a graph with `n` vertices. Each cell represents an edge between *(v,u)*; if there is no edge, the value of the cell is null(or 0).
 
 ![matrix](https://img.enkipro.com/6b26321d5ca7565679df808559dc893c.png)
 
