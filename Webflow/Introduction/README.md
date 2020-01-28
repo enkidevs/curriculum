@@ -9,3 +9,4 @@ sections:
     - templates
     - diy
     - intro-components
+    - style
