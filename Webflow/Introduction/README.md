@@ -1,6 +1,6 @@
 name: Introduction
 
-description: Learn what Webflow is and how to create a website without writing a single peace of code.
+description: Learn how to import templates, create websites and use Webflow's features.
 
 sections:
   '0':
