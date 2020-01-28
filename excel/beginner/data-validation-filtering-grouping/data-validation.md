@@ -19,17 +19,17 @@ category: must-know
 ---
 ## Content
 
-Excel has a feature called "Data Validation" which you can use to force a particular input into a cell.
+Excel has a feature called "Data Validation" which you can use to constrain a particular input into a cell.
 
 For instance, you can make a cell be of type `date` and only allow actual date input or a date `after`, `before` or even `between` a certain date.
 
-To open `data validation` you can either go to(Google sheets):
+To open `data validation` you can either go to (Google sheets):
 
 ![how-to-open-data-validation](https://img.enkipro.com/8cd2e9b2913a5dc3f348d3b93c90c3ea.png)
 
 or right-click any cell and select `data validation` at the bottom.
 
-The difference between these two ways of opening `data validation` is if you right-click a cell, it will select that cell to be validated. However, if you open it like in the picture above, you will have to select the cells on your own.
+The difference between these two ways of opening `data validation` is if you right-click a cell, it will select that cell to be validated. However, if you open it like in the image above, you will have to select the cells on your own.
 
 This will give you a popup window like so:
 
@@ -37,13 +37,13 @@ This will give you a popup window like so:
 
 To select a cell click on `Cell range` and click on a cell. 
 
-To select a range of cells starting from a cell, click on a cell and drag in any direction to select a range of cells you want to use this validation on. 
+To select a range of cells, click on a particular cell and drag towards the cells on which you want to use a validation.
 
 Under "Criteria" there are several options:
 
 ![criteria-options](https://img.enkipro.com/ba4bb0f6f2fd08fb155c92ae0365a658.png)
 
-And each `option` has a different set of `sub-options` that will appear on the right side after choosing one. 
+Each option has a different set of sub-options that will appear on the right side after choosing one.
 
 We are going to use the `Date` validation for our example, which will give us these options:
 
@@ -94,7 +94,7 @@ What is `Data validation`?
 
 `Data Validation` is ???
 
-* a feature in Excel used to force a particular input into a cell.
+* a feature in Excel used to constrain a particular input into a cell.
 * an external program used to create valid data
 * just another name for Analysis
 * a feature used to separate different dates and validate them separately
