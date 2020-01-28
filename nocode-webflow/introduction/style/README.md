@@ -1,0 +1,9 @@
+name: Style
+
+description: Learn the basics of what the Style panel is and how to use its features
+
+insights:
+  - the-style-panel
+  - webflow-html-tags
+  - classes
+  - states
