@@ -19,14 +19,13 @@ category: how to
 ---
 ## Content
 
-The COUNT function is used to count numerical data. This function ignores any text in the cell range.
+The `COUNT` function is used to count numerical data. This function ignores any text in the cell range.
 
 Let's say we have this table where we input how much money we saved each month.
 
-
 ![example-image](https://img.enkipro.com/fbe1632afae52be09ec3144d0198534e.png)
 
-The COUNT function will only count numerical values as well as ignore any zeroes. Since our table has a 0 and 2 words, the result is `9` numerical values.
+The `COUNT` function will only count numerical values as well as ignore any zeroes. Since our table has a 0 and 2 words, the result is 9 numerical values.
 
 ---
 ## Practice
