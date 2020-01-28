@@ -14,7 +14,7 @@ category: how to
 
 ---
 
-# HTML
+# Hypertext Markup Language
 
 ---
 ## Content
