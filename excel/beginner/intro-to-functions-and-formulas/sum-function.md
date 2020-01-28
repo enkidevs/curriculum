@@ -19,15 +19,15 @@ category: how to
 ---
 ## Content
 
-The `SUM` function is used to add all values/cells specified in the argument.
+The `SUM` function is used to add all values/cells specified in its argument.
 
 Let's say we have a table where we input money saved for each month every year:
 
 ![example-table](https://img.enkipro.com/614fb05bcbcf3cd5fd082b3b607c5b79.png)
 
-We can input `=SUM(C6:C17)` or `=SUM()` and while the cursor is in the SUM parentheses click on C6 and shift-click on C18 to select that.
+We can input `=SUM(C6:C17)` or `=SUM()` and while the cursor is in the `SUM` parentheses click on C6 and shift-click on C18 to select that.
 
-After inputting `=SUM(C6:C17)` and hitting enter, our cell will display the result of the SUM function.
+After inputting `=SUM(C6:C17)` and hitting enter, our cell will display the result of the `SUM` function.
 
 ![sum-function](https://img.enkipro.com/d1698476840a7f87883efd299617d0e7.png)
 
