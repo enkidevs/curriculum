@@ -21,7 +21,7 @@ category: must-know
 
 There are 4 main data types in Excel. `Number`, `Text`, `Logical` and `Error`.
 
-- The `Number` data type are any numbers like whole numbers, fractions, as well as dates and times.
+- The `Number` data type contains numerical values such as whole numbers, fractions, as well as dates and times.
 
 It is important to note that what is displayed is not how Excel saves its data.
 
@@ -29,9 +29,9 @@ It is important to note that what is displayed is not how Excel saves its data.
 
 The `Times` are treated as fractions of a day. `24` hours or `1` is `12:00:00AM`, `0.5` is `12:00:00PM` and `0.25` is `06:00:00AM`.
 
-So if we format a cell to treat its input as both Time and date. `2.25` would be displayed as `1/1/1900 6:00:00AM`
+So if we format a cell to treat its input as both Time and Date. `2.25` would be displayed as `1/1/1900 6:00:00AM`
 
-- The `Text` data type are any letter, symbol, space, tab as well as number.
+- The `Text` data type contains any letter, symbol, space, tab as well as number.
 
 For instance, if you have `00123` in a cell that treats its input as a `Number` data type, it will save it as `123`. Whereas if you have a `Text` data type, it will save it as `00123`.
 
@@ -43,7 +43,7 @@ These data types are usually presented as a result of a function. We will discus
 
 - `Errors` are usually displayed when there is a problem with a function or formula.
 
-For instance, if you try to divide a number by `0` you will get the `#DIV/0!` because you cannot divide a number with `0`.
+For instance, if you try to divide a number by `0` you will get the `#DIV/0!` message.
 
 List of errors in Excel:
 
