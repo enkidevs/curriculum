@@ -20,7 +20,8 @@ category: how to
 ## Content
 
 There are a variety of charts you can make in Excel.
-Some of the more famous ones are the `Pie`, `Bar` and `Columns` charts.
+
+Some of the more well known ones are the `Pie`, `Bar` and `Columns` charts.
 
 We will use the same data to create the 3 charts.
 
@@ -53,11 +54,12 @@ The column charts are used to horizontally represent data with vertical bars.
 ---
 ## Practice
 
-Which of these is not a famous Excel Chart?
+Match the description with the appropriate chart.
 
-???
+Pie : ???
+Bar : ???
+Column : ???
 
-* Circle
-* Pie
-* Bar
-* Column
+* circular and sliced into sections. The whole chart represents 100% and each section is a percentage.
+* used to represent data with either horizontal or vertical bars.
+* used to horizontally represent data with vertical bars.
