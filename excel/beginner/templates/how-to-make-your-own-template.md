@@ -24,7 +24,7 @@ links:
 ---
 ## Content
 
-Now that we know how to use predefined templates, its time to learn how to make one. 
+Now that we know how to use predefined templates, it's time to learn how to make one. 
 
 There is a difference when creating a template in Office Excel and in Google Spreadsheets.
 
