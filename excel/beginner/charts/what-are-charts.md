@@ -21,7 +21,7 @@ category: how to
 
 Charts are graphical representations of data. 
 
-They allow us to create simple representations of data.
+They allow us to combine a lot of information into intuitive visualizations.
 
 Charts are located under `insert > charts`.
 
