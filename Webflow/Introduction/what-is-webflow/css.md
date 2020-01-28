@@ -14,7 +14,7 @@ category: how to
 
 ---
 
-# CSS
+# Cascading Style Sheets
 
 ---
 ## Content
