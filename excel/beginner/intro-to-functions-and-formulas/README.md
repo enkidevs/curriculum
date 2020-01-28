@@ -1,6 +1,6 @@
 name: Intro to functions and formulas
 
-description: Learn the basics of functions and formulas. What they are and how to use them.
+description: Learn what functions and formulas are and how to use them.
 
 insights:
   - what-are-formulas
