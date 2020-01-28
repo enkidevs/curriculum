@@ -1,6 +1,6 @@
 name: Beginner
 
-description: Learn how to create workbooks and worksheets as well as simple and complex formulas to better analyze data.
+description: Learn how to create workbooks and worksheets and use formulas to better analyze data.
 
 sections:
   '0':
