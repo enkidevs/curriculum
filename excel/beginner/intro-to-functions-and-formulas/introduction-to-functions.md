@@ -29,7 +29,7 @@ This is why you don't need to create formulas for most things, you can just make
 
 These functions can be used to calculate a sum, an average, min and max values, perform a count, calculate logarithms and much more. A full list of built-in functions will be in the `links` sections.
 
-Just like formulas, functions start with an equal sign but are followed by a "function name" and an argument.
+Just like formulas, functions start with an equal sign but are followed by a "function name" and zero or more arguments.
 
 All functions are written in UPPERCASE letters.
 
