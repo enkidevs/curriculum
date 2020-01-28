@@ -1,6 +1,6 @@
 name: Excel
 
-description: Popular multi-purpose tool used for analyzing data.
+description: Popular multi-purpose tool used for analyzing data in tabular form
 
 color: 008A47
 
