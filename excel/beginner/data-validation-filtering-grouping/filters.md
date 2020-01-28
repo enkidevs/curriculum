@@ -19,7 +19,7 @@ category: how to
 ---
 ## Content
 
-Filters are used to temporarily hide some data in your spreadsheet so you can more easily analyze a selected part of data.
+Filters are used to temporarily hide a portion of the data in your spreadsheet to allow you to deliberately expose or analyze only a specific (unfiltered) part of your data.
 
 **Note:** Any filter you apply to your spreadsheet will be visible to anyone with access to your spreadsheet. Depending on their permissions, they can also edit the filter.
 
@@ -53,7 +53,7 @@ To create a filter only on a specific range of cells, you need to select those c
 
 Now that we know how to create a filter, let's use the spreadsheet above and add a filter to only display people who are older than `40` in `ascending` order.
 
-When you create a filter, its blank at the start. You need to select how you want to filter your data inside the filter.
+When you create a filter, it's blank at the start. You need to select how you want to filter your data inside the filter.
 
 Press on the 3 green lines highlighted below:
 
@@ -79,7 +79,7 @@ What are filters used for?
 
 ???
 
-* Filters are used to temporarily hide some data in your spreadsheet so you can more easily analyze a selected part of data.
+* Filters are used to hide a portion of the data in a spreadsheet to allow exposing or analyzing only a subset of the data.
 * Filters are used to add different colors to your cells.
 * Filters are used to filter between different sheets of data.
 * Filters are used to clean up functions.
