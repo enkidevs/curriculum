@@ -1,6 +1,6 @@
 name: Introduction
 
-description: //
+description: Learn what Webflow is and how to create a website without writing a single peace of code.
 
 sections:
   '0':
