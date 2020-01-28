@@ -10,7 +10,7 @@ type: normal
 
 ---
 
-# Grid
+# Grid View
 
 ---
 ## Content
