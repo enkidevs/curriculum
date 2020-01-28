@@ -45,7 +45,7 @@ Example of 2 Symbols one under the other where we only edit the margin of the im
 ---
 ## Practice
 
-Symbols are 
+Symbols are ???
 
 * instances of an element that can be reused any time.
 * reserved special characters used for creating buttons.
