@@ -19,13 +19,13 @@ category: how to
 ---
 ## Content
 
-A workbook is a single file containing one or more worksheets(sheets).
+A workbook is a single file containing one or more worksheets (sheets).
 
-When you create a new workboot, by default, you get 1 worksheet. More sheets can be added at any time.
+When you create a new workbook, by default, you get 1 worksheet. More sheets can be added at any time.
 
-The main difference between a workbook and a worksheet(sheet) is that you can have many worksheets inside a single workbook, but not vice versa. The workbook is the main file and it can contain as many worksheets as needed.
+The main difference between a workbook and a worksheet (sheet) is that you can have many worksheets inside a single workbook, but not vice versa. The workbook is the main file and it can contain as many worksheets as needed.
 
-A Worksheet is a grid-like table sheet compromised of rows and columns.
+A worksheet is a grid-like table sheet comprised of rows and columns.
 
 To create a new workbook in Microsoft Excel you need to go to:
  `File > New > *blank workbook*`
