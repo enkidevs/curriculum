@@ -23,7 +23,9 @@ A cell in Excel is where a row and a column intersect.
 
 Since each row has a number, and each column has a letter, each cell corresponds to a letter-number combination. This combination is called a cells `address`.
 
-Every sheet starts with an `A1` cell at the top left corner.
+As an example, a cell in column `C` and row `20` has the address `C20`.
+
+Every sheet starts with an `A1` cell at the top left corner corresponding the column `A` and row `1`.
 
 Cells are essentially storage units that can contain numbers, text, formulas, dates and more.
 
