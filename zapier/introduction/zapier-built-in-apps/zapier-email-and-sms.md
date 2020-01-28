@@ -24,6 +24,7 @@ With the Email built-in app, Zapier allows you to:
 
 The SMS built-in app is a bit limited, with only one possible action:
 - send a SMS
+    - sends a SMS to a phone number
     - a successful action means that the SMS is queued, but not sent
 
 Using these two built-in apps, you can set up triggers such that whenever your data changes you are alerted, no matter where you are.

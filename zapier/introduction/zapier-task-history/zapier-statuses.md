@@ -15,7 +15,7 @@ type: normal
 ---
 ## Content
 
-Now that you know where to find your task history, let's take a look at a sample:
+Every item in the task history list represents a previous run of a zap. Let's look at a sample:
 
 ![task-history-example](https://img.enkipro.com/ca9e7a3a5b9a8888e19319dfb01a6ee2.png)
 

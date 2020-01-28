@@ -43,3 +43,15 @@ Which of the following is not possible in Zapier?
 * Edit pictures. 
 * Search data.
 * Save data to be used at a later time.
+
+---
+## Revision
+
+Which of the following you **wouldn't** expect to see when looking at an app's page on Zapier:
+
+???
+
+* A list of all you zaps with that application.
+* A list of recommended integrations.
+* Recommended templates.
+* All the possible triggers, actions and searches.

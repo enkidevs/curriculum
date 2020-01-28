@@ -30,8 +30,8 @@ From top to bottom we can see that Zapier noticed a change in the spreadsheet, v
 Continuing, we see that we create a new column, verify that the `'Has Access?'` column says `'Yes'`, and update the `'# of days'` column to 7.
 
 Although the zap is working, we have already found some problems:
-1. we are checking twice that the `'Has Access?'` column says `'Yes'`
-2. for every successful zap, we create a new `'# of days'` column
+1. We are checking twice that the `'Has Access?'` column says `'Yes'`
+2. For every successful zap, we create a new `'# of days'` column
 
 It is good practice to check your zaps because you never know how you can improve your workflow even further.
 

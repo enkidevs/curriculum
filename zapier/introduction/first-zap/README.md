@@ -8,4 +8,5 @@ insights:
   - zap-editor-1
   - zap-editor-2
   - zap-editor-3
+  - zap-editor-4
   - maintaining-zaps

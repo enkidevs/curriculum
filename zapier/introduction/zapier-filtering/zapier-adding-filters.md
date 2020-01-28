@@ -15,7 +15,7 @@ type: normal
 ---
 ## Content
 
-In this insight, we'll take a close look at how we can add filters using more than one constraint.
+In this insight, we'll take a close look at how we can add filters using more than one check.
 
 In the previous lessons, we used as an example a filter step which ensures that we react only to spreadsheet row changes where their `Has Access?` column is `'Yes'`. 
 
@@ -37,12 +37,14 @@ And if we set our filter as discussed above:
 
 ![filter-fields](https://img.enkipro.com/dc9727ca46844f5f914355b92455b67b.png)
 
-Your zap is now ready, and you will only be notified if the data passes the constraints.
+Notice how only `AND` can be linked (e.g. `check 1 AND check 2 AND ...`), with this sequence not being possible `check 1 OR (check 2 AND check 3)`.
+
+Your zap is now ready, and you will only be notified if the data passes the checks.
 
 ---
 ## Practice
 
-The limit of constraints a filter can have in Zapier is ???.
+The limit of checks a filter can have in Zapier is ???.
 
 * none
 * 2

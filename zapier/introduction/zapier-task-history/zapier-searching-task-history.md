@@ -10,14 +10,14 @@ type: normal
 
 ---
 
-# Searching Task History
+# History of a Single Task
 
 ---
 ## Content
 
-No matter the number of zaps you work with, at some point you will find your task history filled with records. You can imagine how hard it can get to manually search through hundreds (or even thousands) of records just to find out what the problem is.
+The task history shows records from all zaps, which can become a big list in time. You can filter these records (more details on this concept will be presented in the following insight), or you can open the task history for a single zap.
 
-Fortunately, you will never have to do a manual search. Without clicking on any record, there are multiple ways of filtering. One of the first steps you should take, before even opening the `'Task History'` page, is giving your zaps a name (preferably a unique one). This can be done:
+One of the first steps you should take, before even opening the `'Task History'` page, is giving your zaps a name (preferably a unique one). This can be done:
 - either in the zap editor (just click on the name)
 ![editing-zap-name-1](https://img.enkipro.com/906882beabe8ba54c74f8b8b78db714f.png)
 - from your dashboard (by clicking on the small arrow)

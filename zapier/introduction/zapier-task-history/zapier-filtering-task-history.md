@@ -15,7 +15,7 @@ type: normal
 ---
 ## Content
 
-Now that you know how to rename your zaps and how to access your task history, it is time to learn how to filter it.
+No matter the number of zaps you work with, at some point you will find your task history filled with records. Manually looking through countless runs is unfeasible and filtering is required.
 
 All the magic happens at the top of the list:
 
