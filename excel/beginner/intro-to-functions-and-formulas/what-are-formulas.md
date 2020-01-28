@@ -21,8 +21,6 @@ category: how to
 
 Formulas are the building blocks of excel. They are used to calculate the values of a cell.
 
-Formulas can be simple or complex, depending on the user.
-
 Let's say we wanted to add 3 cells together, for instance, B2, B3, and B4.
 
 We can do so by selecting any empty cell, usually the first cell underneath our 3 cells so we can easily see the result.
