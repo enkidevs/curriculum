@@ -10,7 +10,7 @@ aspects:
 type: normal
 
 links:
-  -'[Explore Integrations](https://zapier.com/apps/integrations/){website}'
+  - '[Explore Integrations](https://zapier.com/apps/integrations/){website}'
 
 ---
 

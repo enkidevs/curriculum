@@ -10,7 +10,7 @@ aspects:
 type: normal
 
 links:
-  -'[Task History](https://zapier.com/app/history){website}'
+  - '[Task History](https://zapier.com/app/history){website}'
 
 ---
 
