@@ -1,10 +1,11 @@
 ---
 author: kapnobatai136
 
-category: must-know
+category: feature
 
 aspects:
-  - introduction
+  - workout
+  - deep
 
 type: normal
 
@@ -15,7 +16,7 @@ type: normal
 ---
 ## Content
 
-In our case, you want to set the step such that every time the zap runs:
+In this case, you want to set the step such that every time the zap runs:
 - if you have access to the base (the search step)
   - meaning that if the value found in the `'Has Access'` column is `'Yes'`
 - your number of access days will be updated to 7 (the update step)

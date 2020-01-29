@@ -5,6 +5,7 @@ category: must-know
 
 aspects:
   - introduction
+  - deep
 
 type: normal
 
@@ -43,12 +44,10 @@ The column that you will most likely notice first is `'Status'`, and as you can 
 
 Fill in the descriptions:
 
-```text
 Stopped   ???
 Playing   ???
 Holding   ???
 Filtered  ???
-```
 
 * Zap ran into an error.
 * Zap is in the process of completing.

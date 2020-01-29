@@ -1,10 +1,11 @@
 ---
 author: kapnobatai136
 
-category: must-know
+category: tip
 
 aspects:
   - introduction
+  - obscura
 
 type: normal
 

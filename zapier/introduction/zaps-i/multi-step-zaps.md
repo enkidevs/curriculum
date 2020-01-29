@@ -5,6 +5,7 @@ category: must-know
 
 aspects:
   - introduction
+  - workout
 
 type: normal
 

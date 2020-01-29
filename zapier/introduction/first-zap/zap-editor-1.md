@@ -1,12 +1,16 @@
 ---
 author: kapnobatai136
 
-category: must-know
+category: feature
 
 aspects:
   - introduction
+  - workout
 
 type: normal
+
+links:
+  -'[Explore Integrations](https://zapier.com/apps/integrations/){website}'
 
 ---
 
@@ -42,12 +46,11 @@ Zapier might ask you to test the connection, but for now you can press `"Skip Te
 
 Select the order of the actions that you need to take to connect Google Sheets to Zapier:
 
-```text
 ??? Select the trigger column.
 ??? Select the spreadsheet.
 ??? Select the worksheet.
 ??? Sign into Google Sheets.
-```
+
 
 * 4
 * 2
@@ -57,7 +60,7 @@ Select the order of the actions that you need to take to connect Google Sheets t
 ---
 ## Footnotes
 
-[1: Reminder]
+[1:Reminder]
 Here is the card that you should choose:
 
 ![zap-template](https://img.enkipro.com/94e172b334be0795157a5caca03b61a0.png)

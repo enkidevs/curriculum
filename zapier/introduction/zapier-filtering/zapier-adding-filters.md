@@ -1,10 +1,12 @@
 ---
 author: kapnobatai136
 
-category: must-know
+category: how to
 
 aspects:
   - introduction
+  - workout
+  - deep
 
 type: normal
 

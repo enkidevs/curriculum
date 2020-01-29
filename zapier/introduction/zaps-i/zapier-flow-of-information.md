@@ -5,6 +5,7 @@ category: must-know
 
 aspects:
   - introduction
+  - workout
 
 type: normal
 
@@ -20,6 +21,9 @@ When we were working with templates in the previous examples, you might've notic
 What this is means is that you are not limited to using two applications (or the same application once).
 
 Let's first understand what happens behind the scenes. In the zap we have previously created:
+
+![previous-zap](https://img.enkipro.com/dd6ded782ca71a080338c67e893cf0c4.png)
+
 1. Zapier monitors a Google Sheet
 2. A change in said sheet triggers a Slack action
 3. You receive a direct message on Slack

@@ -1,12 +1,16 @@
 ---
 author: kapnobatai136
 
-category: must-know
+category: feature
 
 aspects:
   - introduction
+  - deep
 
 type: normal
+
+links:
+  - '[Built-In Apps](https://zapier.com/apps/categories/zapier-tools){website}'
 
 ---
 

@@ -1,10 +1,11 @@
 ---
 author: kapnobatai136
 
-category: tip
+category: feature
 
 aspects:
   - introduction
+  - workout
 
 type: normal
 
@@ -15,14 +16,17 @@ type: normal
 ---
 ## Content
 
-Now, let's take a look at the other `'optional'` fields:
+Now, let's take a look at the other `'optional'` fields.
+
+![zap-optional-fields](https://img.enkipro.com/15a4687aeb6bcdf51e15a36c3bc78241.png)
+
 1. `'Send as a bot?`
     - this is a useful feature that can be used when managing a large workspace
     - this field can take a `yes` (`true`) or `no` (`false)` value
     - for simplicity, we will set this field to `no`
 2. `'Bot Name'`
     - if `'Send as a bot?'` is set to `yes` then you need to specify a name
-    - otherwise you don't need to touch this field
+    - otherwise, you don't need to touch this field
 3. `'Bot Icon'`
     - same as with `'Bot Name'`
 4. `'Include a link to this Zap?`

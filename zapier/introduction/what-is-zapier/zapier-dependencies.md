@@ -8,6 +8,10 @@ aspects:
 
 type: normal
 
+links:
+  - '[Sign Up](https://zapier.com/sign-up/){website}'
+  - '[Plans & Pricing](https://zapier.com/pricing){website}'
+
 ---
 
 # Zapier Dependencies

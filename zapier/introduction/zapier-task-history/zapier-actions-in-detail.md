@@ -1,10 +1,12 @@
 ---
 author: kapnobatai136
 
-category: must-know
+category: feature
 
 aspects:
   - introduction
+  - deep
+  - workout
 
 type: normal
 

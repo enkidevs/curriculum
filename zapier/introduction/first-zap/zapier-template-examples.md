@@ -1,12 +1,16 @@
 ---
 author: kapnobatai136
 
-category: must-know
+category: how to
 
 aspects:
   - introduction
+  - workout
 
 type: normal
+
+links:
+  - '[Explore Integrations](https://zapier.com/apps/integrations/){website}'
 
 ---
 
@@ -17,7 +21,7 @@ type: normal
 
 Intuitively, for any zap, you'll need to figure out which apps will be connected. Let's say that your stack includes **Mailchimp**, **Trello** and **Typeform**.
 
-Start by going to the [Explore page](https://zapier.com/apps/integrations/), typing in the names and selecting them. This will give you a good starting point. If no results show up, don't worry. You can always create your own zaps from scratch.
+Begin by going to the [Explore page](https://zapier.com/apps/integrations/), typing in the names and selecting them. This will give you a good starting point. If no results show up, don't worry. You can always create your own zaps from scratch.
 
 For this insight, let's go ahead and select our entire stack:
 

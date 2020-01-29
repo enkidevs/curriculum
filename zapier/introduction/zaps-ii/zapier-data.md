@@ -21,11 +21,13 @@ We have somewhat done this already when we used the _filter step_ to verify that
 
 Extending on the previous example[1], what if we want to know who has gained access to our base? This is possible and, since we are using Google Sheets, we don't need to add any extra steps in the zap.
 
-All that you would have to do is go to the Slack step. In the `'Message Text'` box you'll have access all the information related toany row change seen in the linked spreadsheet.
+All that you would have to do is go to the Slack step. In the `'Message Text'` box you'll have access all the information related to any row change seen in the linked spreadsheet.
 
 ![gif-of-data](https://img.enkipro.com/90680a1d2f923084e64502d4d124b29c.gif)
 
 ![image-of-completed-data](https://img.enkipro.com/936b5a4e98e90a855f51334425e4fd5f.png)
+
+To access data from previous steps, click on the `+` button on the right side of the field, and Zapier will show you all the data that you can use.
 
 ---
 ## Practice
@@ -51,4 +53,4 @@ With Zapier, you can:
 
 The previous example refers to the zap that sent a Slack message every time a Google Sheets record was created or updated:
 
-![previous-example](https://img.enkipro.com/dd6ded782ca71a080338c67e893cf0c4.png)
+![previous-example](https://img.enkipro.com/50de0285a6aa665f7ab1ee83e0c3a152.png)

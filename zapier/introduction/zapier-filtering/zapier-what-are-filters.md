@@ -1,10 +1,12 @@
 ---
 author: kapnobatai136
 
-category: must-know
+category: feature
 
 aspects:
   - introduction
+  - workout
+  - deep
 
 type: normal
 
@@ -15,9 +17,9 @@ type: normal
 ---
 ## Content
 
-Filters represent a very important part of Zapier because they allow you to control which data goes forward in the flow. Basically, if the received information does not fit a certain check (defined by you), then the flow won't continue. 
+Filters represent a very important part of Zapier because they allow you to control which data goes forward in the flow. Basically, if the received information does not fit a certain check (defined by you), then the flow won't continue.
 
-A filter in Zapier is represented by a buit-in app called `'Filter by Zapier'`. To add filters to your zap, you have to add a new step and choose `'Filter by Zapier'` as your app.
+A filter in Zapier is represented by a built-in app called `'Filter by Zapier'`. To add filters to your zap, you have to add a new step and choose `'Filter by Zapier'` as your app.
 
 We have briefly used a filter in the past to check whether a column in our spreadsheet had a certain value or not. Keep in mind that filters are not limited to one check per step.
 

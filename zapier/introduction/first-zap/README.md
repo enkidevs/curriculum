@@ -1,6 +1,6 @@
 name: First Zap
 
-description: Get started with Zapier.
+description: Use templates to create a zap and learn how to edit it.
 
 insights:
   - zapier-templates

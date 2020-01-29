@@ -1,13 +1,17 @@
 ---
 author: kapnobatai136
 
-category: must-know
+category: feature
 
 aspects:
   - introduction
+  - workout
+  - deep
 
 type: normal
 
+links:
+  - '[Applications Page](https://zapier.com/apps){website}'
 ---
 
 # Unique Search Actions

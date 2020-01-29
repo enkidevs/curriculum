@@ -5,9 +5,13 @@ category: must-know
 
 aspects:
   - introduction
+  - workout
 
 type: normal
 
+links:
+  - '[Your Integrations](https://zapier.com/app/zaps){website}'
+  - '[Dashboard](https://zapier.com/app/dashboard){website}'
 ---
 
 # Maintaining Zaps

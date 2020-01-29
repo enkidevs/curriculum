@@ -1,12 +1,16 @@
 ---
 author: kapnobatai136
 
-category: must-know
+category: feature
 
 aspects:
   - introduction
 
 type: normal
+
+links:
+  - '[Explore Integrations](https://zapier.com/apps/integrations){website}'
+  - '[Discover Apps](https://zapier.com/apps){website}'
 
 ---
 
@@ -15,13 +19,11 @@ type: normal
 ---
 ## Content
 
-A good way to start using Zapier is to choose one of the available templates.
-
-A template is just a zap that has already been created for you so that you can quickly start using Zapier. All you'd have to do is sign in to the respective accounts.
+A template is just a zap that has already been created so that you can quickly start using Zapier. All you'd have to do is sign in to the respective accounts.
 
 As we have already mentioned, along with the most popular apps (e.g. Gmail, Slack), Zapier provides a multitude of options. The best way to start is by visiting the [Explore page](https://zapier.com/apps/integrations) and selecting some applications that you might want to integrate. Here is us selecting Gmail and Twitter:
 
-![gif-of-templates](#)
+![gif-of-templates](https://img.enkipro.com/b7d89356a77f72097900aa215f22b02e.gif)
 
 For a more advanced experience, you can search for apps in the [Apps page](https://zapier.com/apps).
 
