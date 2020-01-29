@@ -10,7 +10,7 @@ type: normal
 
 ---
 
-# What is the task history?
+# What Is the Task History?
 
 ---
 ## Content

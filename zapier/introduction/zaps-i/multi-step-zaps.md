@@ -10,7 +10,7 @@ type: normal
 
 ---
 
-# Multi-step Zaps
+# Multi-Step Zaps
 
 ---
 ## Content
