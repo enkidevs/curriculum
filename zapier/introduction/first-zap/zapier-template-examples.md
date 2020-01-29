@@ -25,7 +25,7 @@ Begin by going to the [Explore page](https://zapier.com/apps/integrations/), typ
 
 For this insight, let's go ahead and select our entire stack:
 
-![gif-of-selecting-stack](#)
+![gif-of-selecting-stack](https://img.enkipro.com/1685a73c736c0d01738c24ccdf30c806.gif)
 
 Depending on your application, you can either:
 * find your perfect integration
