@@ -1,6 +1,6 @@
 name: Basics of Web
 
-description: Webflow is a powerful interactive website design software where you can create websites without writing any code.
+description: Learn the basics of web design and how to use Webflow.
 
 insights:
   - webflow-the-box-model

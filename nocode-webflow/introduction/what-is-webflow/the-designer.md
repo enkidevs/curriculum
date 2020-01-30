@@ -33,7 +33,7 @@ The `Designer` consists of 5 main elements:
 - the bottom navigation breadcrumb bar (mostly for navigation with a visible and clickable hierarchy of elements)
 - the right panels (gives powerful control for each of your elements)
 
-To access the `Designer`, you must first have a project (website). Go to the [dashboard](https://webflow.com/dashboard) and click on the `New project` button.
+To access the `Designer`, you must first have a project (website). To create one, go to your [dashboard](https://webflow.com/dashboard) and click on the `New project` button.
 
 ![dashboard-new-project](https://img.enkipro.com/555516a92724576ddffdbf0c7287cc01.png)
 

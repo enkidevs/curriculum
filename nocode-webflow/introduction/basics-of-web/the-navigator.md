@@ -5,12 +5,12 @@ levels:
   - beginner
 
 aspects:
-  - new
+  - introduction
   - workout
 
 type: normal
 
-category: how to
+category: must-know
 
 ---
 
@@ -21,9 +21,9 @@ category: how to
 
 The `Navigator` panel is one of the most important panels on Webflow.
 
-You can open the panel by pressing the 2nd tab on the left side or by pressing the `Z` key. 
+You can open the panel by pressing the second tab on the left side, or by pressing the `Z` key. 
 
-This panel can be used to visually see the Hierarchy of your elements.
+This panel can be used to visually see the hierarchy of your elements.
 
 ![example-hierarchy](https://img.enkipro.com/a64eaf5195e98bb9a52128a9d5491031.png)
 

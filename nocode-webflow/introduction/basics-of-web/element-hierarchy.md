@@ -5,12 +5,12 @@ levels:
   - beginner
 
 aspects:
-  - new
+  - introduction
   - workout
 
 type: normal
 
-category: how to
+category: must-know
 
 ---
 
@@ -19,39 +19,25 @@ category: how to
 ---
 ## Content
 
-An element is an HTML component of a webpage. It can be a paragraph, image, list, link, button, label, navigation bar and more.
+Essentially, all components of a webpage are HTML elements. An HTML element can be a paragraph, image, list, link, button, label, navigation bar and more.
 
-Essentially all components of a webpage are HTML elements.
+The element hierarchy is how elements behave with respect to one another based on their type. The type can be either **parent**, **sibling**, or **child**.
 
-The `Element Hierarchy` is how elements behave with respect to one another based on their "rank". 
+In Webflow, all elements are boxes. These can be nested, have different sizes or text styling.
 
-There are "Parent", "Sibling" and "Child" elements.
+For instance, let's say we have a `container` element in which we nest two `image` elements.
 
-In Webflow all elements are boxes.
+The `container` will then be **parent**, and the two `image` elements will be its **children**. Because both `image` elements are on the same level, they are called **siblings**. 
 
-These boxes can be nested in each other, be of different sizes and have different text styling. 
+Nesting is not limited to one level. You can nest another element inside one of the `image`s. This new element will then become the **child** of the `image` element.
 
-For instance, let's say we have a single container element.
+This hierarchy affects how elements react to one another. If the **parent** container element is of fixed size, then any of its child elements will also have a fixed size (a little smaller than the parent element). If you set a specific text styling to a parent element, then all its children will have the same styling (unless you change it). The general idea is that elements **inherit** properties from their **parents**.
 
-Now we nest 2 image elements inside the container.
-
-The Container is the "Parent", the 2 image elements are the "Child" elements of the container, and since the 2 image elements are on the same level they are called "Sibling" elements.
-
-We can also nest another element within one or both of the image elements. Now, those new elements are the child elements of the image elements.
-
-This hierarchy affects how elements react to one another.
-
-For instance, if our "Parent" container element is of fixed size, then any of its child elements also have a fixed size a little smaller than the parent element. Also, if we move the parent element, we also move all of the child elements as well as their child elements. We can also set a specific text styling to a parent element and have the same styling on all of its child elements.
-
-The easiest way to view the Hierarchy is in the `Navigator` panel.
-
-The hierarchy can be visualized in the Navigator panel. Each child element is slightly indented compared to its parent element.
-
+When looking in the `Navigator` panel, you can observe the element hierarchy:
+ 
 ![example-navigator-hierarchy](https://img.enkipro.com/a64eaf5195e98bb9a52128a9d5491031.png)
 
-In the image above, the "body" element is the top parent level element. 
-
-The 2 `Section` elements are the child elements of the "body` element and are also "Sibling" elements since they are on the same level.
+Each child element is slightly indented compared to its parent element. The `body` element is the top parent element. The two `Section` elements are the children of `body` element and are also siblings.
 
 ---
 ## Practice
@@ -60,5 +46,5 @@ Which sentence is true?
 
 ???
 
-* The `Element Hierarchy` is how elements behave with respect to one another based on their "rank". 
-* The `Element Hierarchy` is used to navigate through the webpage.
+* The element hierarchy is how elements behave with respect to one another based on their type. 
+* The element hierarchy is used to navigate through the webpage.
