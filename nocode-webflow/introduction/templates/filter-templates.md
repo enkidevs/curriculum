@@ -5,7 +5,7 @@ levels:
   - beginner
 
 aspects:
-  - new
+  - introduction
   - workout
 
 type: normal
@@ -21,9 +21,9 @@ category: how to
 
 The [templates page](https://webflow.com/templates) gives users the ability to filter through the templates.
 
-There is a `Search` bar you can use to easily find the templates you want.
+There is a search bar you can use to easily find the templates you want.
 
-Under the search bar, there are 4 categories as well as a `Tags` bar that you can use to filter through the templates.
+Under the search bar, there are 4 categories as well as a tags bar that you can use to filter through the templates.
 
 ![filtering-image](https://img.enkipro.com/9187372b0e7ca6f6a0e1e6f3db25a350.png)
 
@@ -35,7 +35,7 @@ There are over 50 different tags like `Blog`, `Recipe`, `Wedding`, `Winery`, `Mo
 
 These categories and tags provide a good filtering option when you want to find the desired template.
 
-For instance, you can choose the category "free" and select the `One Page` tag to only show One page free templates.
+For instance, you can choose the category `Free` and select the `One Page` tag to only show templates that have one page and that are free.
 
 ---
 ## Practice

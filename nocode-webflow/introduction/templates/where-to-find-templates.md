@@ -14,7 +14,7 @@ category: how to
 
 ---
 
-# Where to find templates
+# How To Find Templates
 
 ---
 ## Content
@@ -23,7 +23,7 @@ To find templates on Webflow, go to `Resources -> Templates`.
 
 ![template-location](https://img.enkipro.com/da1735dbc722a9dde4474c4595b3cb6d.png)
 
-On the Webflow [templates page](https://webflow.com/templates), there are around `100` premium and around `40` free templates.
+On the [templates page](https://webflow.com/templates) there are around 10` premium and 40 free templates.
 
 ![premium](https://img.enkipro.com/9dc4099fb5095df7479d95766eab8e8e.png)
 
