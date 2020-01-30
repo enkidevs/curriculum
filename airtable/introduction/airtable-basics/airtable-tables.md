@@ -25,7 +25,7 @@ For starters, you can rename the table so that it provides a very short descript
 
 ![gif-of-renaming-table](https://img.enkipro.com/8909b664b02611e52ed6241806a62b72.gif)
 
-For this example, you also need a new table named `'Earth Data'`. You can do this by pressing the `+` button to the right of the `'Earth Data'` table:
+For this example, you also need a new table named `'Earth Data'`. You can do this by pressing the `+` button to the right of the `'Mars Data'` table:
 
 ![gif-of-adding-a-new-table](https://img.enkipro.com/582a69d31c8bacd1737aaaa131bf0125.gif)
 

@@ -21,9 +21,9 @@ Let's start off with some common spreadsheet terms:
 - cell
   - it is a rectangle in which you insert data
 - column
-  - a column of cells
+  - vertical cells
 - row
-  - a row of cells
+  - horizontal cells
 
 ![img-of-cell-column-row](https://img.enkipro.com/aa17ac1fa1221c2726e5e80fac1721ef.png)
 
@@ -47,12 +47,10 @@ Now that you have an account and you have familiarized yourself with the termino
 
 Fill in the definitions:
 
-```text
 Cell       ???
 Workspace  ???
 Base       ???
 Table      ???
-```
 
 * Rectangle in which you insert data
 * Collection of projects

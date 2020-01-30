@@ -15,7 +15,7 @@ type: normal
 ---
 ## Content
 
-Creating new views can prove useful in many scenarios, but Airtable is not limited to that. Another important feature is the possibility to the filter data (depending on predefined criteria) that you can see.
+Creating new views can prove useful in many scenarios, but Airtable is not limited to that. Another important feature is the possibility to filter data (depending on predefined criteria) that you can see.
 
 Filters do not change the data in the table, they simply hide some of the records.
 

@@ -21,7 +21,7 @@ Airtable can be used as a simple spreadsheet, but most of its power comes from t
 
 Another advantage that Airtable has over traditional spreadsheets is that you can group rows by their values and link different data tables together.
 
-Airtable can be used as a production database for your application, a personal spreadsheet or more.
+Airtable can be used as a personal spreadsheet, for a small project, or even as a production database for your application.
 
 ---
 ## Practice

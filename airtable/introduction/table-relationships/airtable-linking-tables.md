@@ -32,7 +32,7 @@ Suppose we are in the `'Movies'` table. To link both tables (and all the records
 
 That's it, you have now linked both tables. Notice how a new field named `'Movies'` appears in the `'Directors'` table. This is due to the dual nature of linking.
 
-Adding data to the linked fields is done clicking on the `+` sign found in the linked field, and selecting the record you want.
+Adding data to the linked fields is done by clicking on the `+` sign found in the linked field, and selecting the record you want.
 
 ![selecting-data-in-linked-fields](https://img.enkipro.com/9d304af19f846ad4767aae26f36e5f5d.gif)
 

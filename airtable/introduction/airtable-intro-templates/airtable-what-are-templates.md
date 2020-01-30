@@ -39,3 +39,12 @@ Templates in Airtable let you have a ??? start.
 * slow
 * hard
 * confusing
+
+---
+## Revision
+
+To get started more quickly with Airtable, you can use prebuilt data collections called ???.
+
+* templates
+* patterns
+* impressions

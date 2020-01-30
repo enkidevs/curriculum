@@ -44,7 +44,7 @@ Here's a list of the most common types.
   - precision and including negative numbers are also possible options
 ### Email
   - stores email addresses
-  - clicking on a record will open up the native email client and fill the `To` filed with the address corresponding to the record clicked
+  - clicking on a record will open up the native email client and fill the `To` field with the address corresponding to the record clicked
 ### Date (and time)
   - select a date from a calendar
   - can also include time

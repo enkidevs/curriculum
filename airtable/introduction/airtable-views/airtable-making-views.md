@@ -15,7 +15,7 @@ type: normal
 ---
 ## Content
 
-Consider that you are trying to create a new product, and would like to make a market research. This would include sending out forms for users to fill in and further analyzing the gathered data.
+Consider that you are trying to create a new product, and would like to do a market research. This would include sending out forms for users to fill in and further analyzing the gathered data.
 
 In Airtable, you can create a Form view, which can be sent to your users to complete. Each completion is recorded in the table, and it can be seen in the main view.
 
@@ -38,9 +38,9 @@ There you have it, your form is ready.
 ---
 ## Practice
 
-To make a new view, you have to ??? and ???.
+To make a new view, you have to ??? and select the new view you want.
 
 * click on the current view
-* select the new view
 * create a new base
 * delete the old view
+* delete an old base
