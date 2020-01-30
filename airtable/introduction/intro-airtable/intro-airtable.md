@@ -26,9 +26,8 @@ Airtable can be used as a personal spreadsheet, for a small project, or even as 
 ---
 ## Practice
 
-Airtable is part ??? and part ???.
+Airtable is part ??? and part spreadsheet.
 
 * database
-* spreadsheet
 * video editing software
 * JavaScript library
