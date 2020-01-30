@@ -28,3 +28,11 @@ However, `CSS` is not good for inserting media, creating links, and it also does
 With Webflow, you don't need to type your code for margins, paddings, or any styling and animation. You can do all of that through the `Designer` and the code will be written and edited automatically as you edit each element of your webpage.
 
 To learn more about `CSS` you can visit our `Web -> Styling` course.
+
+---
+## Practice
+
+CSS is good for ???.
+
+* styling websites
+* creating the structure of a website

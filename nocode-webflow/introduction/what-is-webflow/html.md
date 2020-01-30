@@ -30,3 +30,12 @@ In short, **HTML** is used to create the structure of the website, but it can't 
 With Webflow, you don't need to write the code to create different elements. You can create them through the `Designer`. Any time you add a new element, the code will be auto-generated.
 
 To learn more about `HTML` you can visit our `Web -> HTML` course.
+
+---
+## Practice
+
+HTML is used for ???.
+
+* creating the structure of a website
+* creating animations
+* creating interactions within the content

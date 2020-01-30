@@ -14,7 +14,7 @@ category: how to
 
 ---
 
-# What I need to use Webflow?
+# Webflow Dependencies
 
 ---
 ## Content
