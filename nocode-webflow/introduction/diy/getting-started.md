@@ -5,7 +5,7 @@ levels:
   - beginner
 
 aspects:
-  - new
+  - introduction
   - workout
 
 type: normal
@@ -19,9 +19,7 @@ category: how to
 ---
 ## Content
 
-Now that we know how to start from a Template, a lot of the times, we will want to start from scratch.
-
-To create a new project from scratch, go to `Dashboard -> + New Project -> Blank Site`.
+To create a new project from scratch, go to your [dashboard](https://webflow.com/dashboard), click on the `New Project` button and select `Blank Site`.
 
 A new popup window will ask you to name your project. After giving it a name, press create and you're done.
 
