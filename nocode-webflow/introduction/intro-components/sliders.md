@@ -23,7 +23,7 @@ A Slider is a simple but very powerful component.
 
 Sliders can be used to create any number of things, like a slideshow of some pictures or a product. 
 
-On `Webflow`, when you create a Slider, it comes pre-designed with some elements.
+On Webflow, when you create a Slider, it comes pre-designed with some elements.
 
 Default Slider:
 
@@ -64,5 +64,5 @@ As you can see, Netflix has sliders for each category separated into several mov
 
 Sliders are simple ???.
 
-* but powerful components on `Webflow`
-* and useless components on `Webflow`
+* but powerful components on Webflow
+* and useless components on Webflow

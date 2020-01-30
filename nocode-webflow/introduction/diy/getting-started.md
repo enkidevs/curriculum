@@ -29,7 +29,7 @@ A new popup window will ask you to name your project. After giving it a name, pr
 
 As you can see in the `Navigator` in the image above, a new project doesn't have a single element in it.
 
-We can test at any time how our project looks by publishing a prototype version of it on `Webflow` for free.
+We can test at any time how our project looks by publishing a prototype version of it on Webflow for free.
 
 ![publish-image](https://img.enkipro.com/707281c0f9119f450c5d9a7870558f9d.png)
 

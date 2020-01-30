@@ -27,7 +27,7 @@ The `Element Hierarchy` is how elements behave with respect to one another based
 
 There are "Parent", "Sibling" and "Child" elements.
 
-In `Webflow` all elements are boxes.
+In Webflow all elements are boxes.
 
 These boxes can be nested in each other, be of different sizes and have different text styling. 
 

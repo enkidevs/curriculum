@@ -81,7 +81,7 @@ As you can see all elements that have text inherit the body elements styling pro
 ---
 ## Practice
 
-Which color are HTML tags in `Webflow`?
+Which color are HTML tags in Webflow?
 
 ???
 

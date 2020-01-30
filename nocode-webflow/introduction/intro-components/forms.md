@@ -39,7 +39,7 @@ In the `Navigator`:
 
 ![nav-form](https://img.enkipro.com/fa4b5f74a0b397b7604b84a816069d7c.png)
 
-All forms on `Webflow` are fully customizable.
+All forms on Webflow are fully customizable.
 
 After creating a `Form Block` you can remove or add any element to it. 
 

@@ -5,12 +5,15 @@ levels:
   - beginner
 
 aspects:
-  - new
+  - introduction
   - workout
 
 type: normal
 
 category: how to
+
+links:
+  - '[Dashboard](https://webflow.com/dashboard){website}'
 
 ---
 
@@ -21,33 +24,20 @@ category: how to
 
 One of the most powerful features Webflow has to offer is called the `Designer`.
 
-With this feature, you can create and design responsive websites using customizable pre-made templates or by starting from scratch.
-
-With the `Designer` you can create a fully functional website without looking at or writing a single line of code.
-
 This interactive website building software is completely customizable and it is where you will spend most of your time.
 
 The `Designer` consists of 5 main elements:
-- The left toolbar and panels ( Used for structuring your website, adding navigation, new elements and much more)
-- The Canvas(Provides real-time webpage interaction where you can see the end result as well as modify any element by dragging and dropping, resizing and more)
-- The top bar(Page number, save, undo, publish, export code and few more features)
-- The bottom navigation breadcrumb bar(Mostly for navigation with a visible and clickable hierarchy of elements)
-- The right panels(Gives powerful control for each of your elements)
+- the left toolbar and panels (used for structuring your website, navigation, adding new elements and much more)
+- the Canvas (provides real-time webpage interaction where you can see the end result as well as modify any element by dragging and dropping, resizing and more)
+- the top bar (page number, save, undo, publish, export code and few more features)
+- the bottom navigation breadcrumb bar (mostly for navigation with a visible and clickable hierarchy of elements)
+- the right panels (gives powerful control for each of your elements)
 
-To access the `Designer`:
-
-If you have no projects:
-- Go to the `dashboard -> new project`.
+To access the `Designer`, you must first have a project (website). Go to the [dashboard](https://webflow.com/dashboard) and click on the `New project` button.
 
 ![dashboard-new-project](https://img.enkipro.com/555516a92724576ddffdbf0c7287cc01.png)
 
-If you have an existing project/s:
-- Just click on the thumbnail for the project.
-- Or go to `existing project -> project settings -> Designer`
-
-![example-both-cases](https://img.enkipro.com/e53902a68b1864fec0051f2b9e02c889.png)
-
-![existing-project-settings](https://img.enkipro.com/2288aa691ae637d0bfaec1c9628afb36.png)
+Now, to open the `Designer` all you have to do is click on the project[1].
 
 ---
 ## Practice
@@ -60,3 +50,15 @@ With the `Designer` you can create a fully functional website without looking at
 
 * True
 * False
+
+---
+## Footnotes
+
+[1:Designer Access]
+There is another way of accessing the `Designer`. From the [dashboard](https://webflow.com/dashboard), hover over an existing project, and click on the `...` (the project settings).
+
+![example-both-cases](https://img.enkipro.com/e53902a68b1864fec0051f2b9e02c889.png)
+
+From there you can click on the `Designer` button.
+
+![existing-project-settings](https://img.enkipro.com/2288aa691ae637d0bfaec1c9628afb36.png)

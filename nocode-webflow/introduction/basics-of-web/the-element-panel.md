@@ -42,7 +42,7 @@ The 3rd option is the most precise because you don't have to aim the element's b
 ---
 ## Practice
 
-How do you add new elements in `Webflow`?
+How do you add new elements in Webflow?
 
 ???
 

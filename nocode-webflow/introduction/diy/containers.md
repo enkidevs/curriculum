@@ -19,7 +19,7 @@ category: how to
 ---
 ## Content
 
-A container in `Webflow` is just another layout box element. However, a container cannot be nested with other containers.
+A container in Webflow is just another layout box element. However, a container cannot be nested with other containers.
 
 Containers are used to group a bunch of elements together for easier positioning, styling, text editing and more.
 

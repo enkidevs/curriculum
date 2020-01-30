@@ -23,7 +23,7 @@ A section is a layout element with a default width of 100% (full width of the br
 
 By default, the height is auto adjustable based on the content within. However, it can also be changed manually through the "style panel" (more on this in the `Style` workout).
 
-Since we know that `Webflow` uses the box model, a section is just a layout box element.
+Since we know that Webflow uses the box model, a section is just a layout box element.
 
 Sections are very useful for creating a layout of a web page. They are used to separate the content of a web page into different meaningful segments.
 

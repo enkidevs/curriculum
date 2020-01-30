@@ -19,7 +19,7 @@ category: how to
 ---
 ## Content
 
-The `Navigator` panel is one of the most important panels on `Webflow`.
+The `Navigator` panel is one of the most important panels on Webflow.
 
 You can open the panel by pressing the 2nd tab on the left side or by pressing the `Z` key. 
 

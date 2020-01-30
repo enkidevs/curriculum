@@ -5,7 +5,7 @@ levels:
   - beginner
 
 aspects:
-  - new
+  - introduction
   - workout
 
 type: normal
@@ -25,6 +25,8 @@ category: how to
 
 However, **HTML** is not good for creating animations, managing responsive layouts, and other similar interactions within the content.
 
-On `Webflow` you don't need to write the code to create different elements. You can create them through the `Designer` and any time you add a new element, the code will be auto-generated.
+In short, **HTML** is used to create the structure of the website, but it can't be used to create the styling. 
+
+With Webflow, you don't need to write the code to create different elements. You can create them through the `Designer`. Any time you add a new element, the code will be auto-generated.
 
 To learn more about `HTML` you can visit our `Web -> HTML` course.

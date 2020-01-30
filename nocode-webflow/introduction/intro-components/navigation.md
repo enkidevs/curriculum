@@ -21,7 +21,7 @@ category: how to
 
 All Websites have a form of navigation to make it easier for users to navigate through their webpage.
 
-For this purpose, `Webflow` provides a powerful element called `Navbar`.
+For this purpose, Webflow provides a powerful element called `Navbar`.
 
 `Navbar` is a pre-designed navigation element which by default has a place for a logo, a couple of navigation links and an invisible button that is shown only when the screen size becomes to small for the whole navigation bar, like on a phone or a tablet. `Navbar`s are the only elements you can place nav links in.
 
