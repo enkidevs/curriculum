@@ -30,27 +30,27 @@ From a couple of hundred classes in *Java 1.0*, Java had grown to three thousand
 
 Transitioning from one version to another has always left room for problems. Usually backporting (making new features available to older versions) was the most troublesome. Deprecated classes or optimizations made to the existing ones were also reasons for code to break.
 
-One way to prevent this from happening was to stop public support for older versions - which has now happened. As of 2015, *Java 8* is the only publicly supported version.
+One way to prevent this from happening was to stop public support for older versions - which has now happened. As of 2022, *Java 8* and *Java 11* are the only publicly supported versions.
 
-*Java 8* ends public support by the year 2023.
+*Java 8* ends public support by the year 2023, and *Java 11* by 2026.
 
-There are 4 new versions of *Java* that were released after *Java 8*. 
+There are 2 new versions of *Java* that were released after *Java 11*. 
 
 *Java 9*, released in September 2017 and *Java 10*, released in March 2018 both had a total of around 6000 classes and are old versions that have stopped public support in 2018. 
 
-*Java 11*, released September 2018 is not the latest version, nevertheless, it will have public support until the year 2022.
+*Java 11*, released September 2018 is not the latest version, nevertheless, it will have public support until the year 2026.
 
-As of March 2019, *Java 12* is the latest version of *Java* and the amount of classes has decreased to around 4400.
+As of January 2020, *Java 13* is the latest version of *Java* and the amount of classes has decreased to around 4500.
 
 ---
 
 ## Practice
 
-Roughly how many classes are in **Java** version 12?
+Roughly how many classes are in **Java** version 13?
 
 ???
 
-* 4400
+* 4500
 * 10
 * 100
 * 1000
