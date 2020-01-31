@@ -5,7 +5,7 @@ levels:
   - beginner
 
 aspects:
-  - new
+  - introduction
   - workout
 
 type: normal
@@ -23,15 +23,15 @@ A section is a layout element with a default width of 100% (full width of the br
 
 By default, the height is auto adjustable based on the content within. However, it can be changed manually through the `Style` panel (more on this in the `Style` workout).
 
-Since we know that Webflow uses the box model, a section is just a layout box element.
+Since we know that Webflow uses the box model, a section is just another box.
 
-Sections are very useful for creating a layout of a webpage. They are used to separate the content into different meaningful segments.
+Sections are very useful for creating the layout of a webpage. They are used to separate the content into different meaningful segments.
 
 Example from "Toystore" template:
 
 ![toy-template-example](https://img.enkipro.com/3cd64edcfaf6321b4f6cabc4f5823f10.png)
 
-Looking at the image above, we have 2 sections. One for the stuffed animals content (highlighted in green) and one for the wooden toys (highlighted in blue). 
+Looking at the image above, we have two sections. One for the stuffed animals content (highlighted in green) and one for the wooden toys (highlighted in blue). 
 
 There are several ways of adding a new section:
 - Click anywhere on the canvas and left-click a section element from the `Add Elements` panel to add it to the previously clicked position.
@@ -44,6 +44,18 @@ Example with drag and drop:
 
 ---
 ## Practice
+
+Which of the following can't be used to add sections?
+
+???
+
+* The dashboard.
+* The navigator.
+* The canvas.
+* The element panel.
+
+---
+## Revision
 
 Which of these is not the correct way of adding a section element?
 

@@ -1,6 +1,6 @@
 name: Do It Yourself
 
-description: Learn how to start a new project from scratch as well as some of the layout elements.
+description: Start a project from scratch and get used to some of the elements.
 
 insights:
   - getting-started
