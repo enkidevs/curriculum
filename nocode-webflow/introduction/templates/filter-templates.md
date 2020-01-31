@@ -14,7 +14,7 @@ category: how to
 
 ---
 
-# Filter templates
+# Filter Templates
 
 ---
 ## Content
