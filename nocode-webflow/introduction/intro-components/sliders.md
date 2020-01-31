@@ -5,7 +5,7 @@ levels:
   - beginner
 
 aspects:
-  - new
+  - deep
   - workout
 
 type: normal
@@ -19,38 +19,23 @@ category: how to
 ---
 ## Content
 
-A Slider is a simple but very powerful component.
-
 Sliders can be used to create any number of things, like a slideshow of some pictures or a product. 
 
-On Webflow, when you create a Slider, it comes pre-designed with some elements.
-
-Default Slider:
+On Webflow, when you create a Slider, it comes pre-designed with some elements:
 
 ![default-slider](https://img.enkipro.com/44960d891625b50c689a04bf7bd88d72.png)
 
-The default slider has 2 navigation buttons (highlighted in purple), a `Slider nav` element with a link per page of the slider and a `Mask` element that contains all the slides.
-
-Default slider viewed in the `Navigator`:
-
 ![navigator-def-slide](https://img.enkipro.com/f4c1dbcc07680b70f242b6ca964d9d04.png)
 
-To add a `Slider` to your webpage:
+As you can see, the slider has two navigation buttons (highlighted in purple), a `Slider nav` element with a link per page of the slider, and a `Mask` element that contains all the slides.
 
-- Click anywhere on the Canvas and left-click a `Slider` element from the `Add Elements` panel to add it to the previously clicked position.
+Because `Slider`s are components, you can add them as you would an element[1].
 
-- Drag and drop a `Slider` element from the `Add Elements` panel anywhere on the canvas.
-
-- Drag and drop a `Slider` element from the `Add Elements` panel to a position in the `Navigator`.
-
-
-To add a new slide element to your `Slider`, select the `Slider` and add a new slide in the `Slider Settings` panel on the right side of the screen.
+To add a new slide element, select the `Slider` and add a new slide in the `Slider Settings` panel on the right side of the screen.
 
 ![add-slide](https://img.enkipro.com/af608fcc31fac43cc203b37bbeed58e5.png)
 
-You can also add a new slide by copying and pasting an existing one.
-
-The `Slider settings` panel can also be used to add animation, an attribute or to select a specific slide.
+The `Slider settings` panel can also be used to add animations, an attribute or to select a specific slide.
 
 A good example of a `Slider` is how Netflix presents its categories.
 
@@ -66,3 +51,12 @@ Sliders are simple ???.
 
 * but powerful components on Webflow
 * and useless components on Webflow
+
+---
+## Footnotes
+
+[1:Adding elements]
+To add a `Slider` to your webpage:
+- Click anywhere on the Canvas and left-click a `Slider` element from the `Add Elements` panel to add it to the previously clicked position.
+- Drag and drop a `Slider` element from the `Add Elements` panel anywhere on the canvas.
+- Drag and drop a `Slider` element from the `Add Elements` panel to a position in the `Navigator`.

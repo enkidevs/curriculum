@@ -1,6 +1,6 @@
 name: Intro Components
 
-description: Introduction to basic components of Webflow
+description: Introduction to basic components.
 
 insights:
   - forms

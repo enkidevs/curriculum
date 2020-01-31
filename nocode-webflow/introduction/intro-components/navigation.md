@@ -5,7 +5,7 @@ levels:
   - beginner
 
 aspects:
-  - new
+  - deep
   - workout
 
 type: normal
@@ -19,35 +19,31 @@ category: how to
 ---
 ## Content
 
-All Websites have a form of navigation to make it easier for users to navigate through their webpage.
+All websites have some form of navigation to make it easier for users to find their way through the webpage.
 
-For this purpose, Webflow provides a powerful element called `Navbar`.
+For this purpose, Webflow provides a powerful component called `Navbar`.
 
-`Navbar` is a pre-designed navigation element which by default has a place for a logo, a couple of navigation links and an invisible button that is shown only when the screen size becomes to small for the whole navigation bar, like on a phone or a tablet. `Navbar`s are the only elements you can place nav links in.
+By default, `Navbar` comes with the following elements:
+- logo (an image element)
+- navigation links
+- invisible button
+  - used when the screen is too small to show the `Navbar`, just like on mobile
 
-Example of an empty `Navbar`:
+Here is an example of an empty `Navbar`:
 
 ![simple-navbar](https://img.enkipro.com/c46297799897d8e9c66a76b05c022b40.png)
 
-Example of a `Navbar` with an `<Enki/>` logo and 1 more link section:
+And here is an example of a `Navbar` with an `<Enki/>` logo and one more link section:
 
 ![simple-edit](https://img.enkipro.com/6704bbc77b41a25623ec6bf83d5659a4.png)
 
-To add a `Navbar` to your webpage:
+Because the `Navbar` is a component, you add it as you would add an ordinary element[1].
 
-- Click anywhere on the Canvas and left-click a `Navbar` element from the `Add Elements` panel to add it to the previously clicked position.
-
-- Drag and drop a `Navbar` element from the `Add Elements` panel anywhere on the canvas.
-
-- Drag and drop a `Navbar` element from the `Add Elements` panel to a position in the `Navigator`.
-
-To add a new link element to your `Navbar`, select the `Navbar` and add a new link in the `Navbar Settings` panel on the right side of the screen.
+To add a new link element, select the `Navbar` and add a new link in the `Navbar Settings` panel on the right side of the screen.
 
 ![add-link](https://img.enkipro.com/2163666efb91364e793136f5161782de.png)
 
-You can also add a new link by copying and pasting an existing one.
-
-Above the `Add link` button there is a `Link Settings` section. The 5 image buttons are used to determine what kind of link you want. After choosing an option the bottom part of the `Link Settings` will change. 
+Above the `Add link` button there is a `Link Settings` section. The five buttons are used to determine what kind of link you want. After choosing an option, the bottom part of the `Link Settings` will change. 
 
 For instance, choosing the first `URL` button will give a placeholder for a custom link with a checkbox button to "Open in new tab".
 
@@ -72,3 +68,12 @@ The `Navbar` is NOT the only element you can place a navigation link in.
 
 * False
 * True
+
+---
+## Footnotes
+
+[1:Adding elements]
+If you forgot how to add elements, here is a reminder:
+- Click anywhere on the Canvas and left-click a `Navbar` element from the `Add Elements` panel to add it to the previously clicked position.
+- Drag and drop a `Navbar` element from the `Add Elements` panel anywhere on the canvas.
+- Drag and drop a `Navbar` element from the `Add Elements` panel to a position in the `Navigator`.

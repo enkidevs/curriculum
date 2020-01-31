@@ -5,7 +5,7 @@ levels:
   - beginner
 
 aspects:
-  - new
+  - deep
   - workout
 
 type: normal
@@ -38,7 +38,7 @@ All three options will give you a popup window to name your Symbol.
 
 After creating a Symbol it will be located in the `Symbol` section of the `Add` panel.
 
-Example of 2 Symbols one under the other where we only edit the margin of the image in the top one:
+Here is an example of how changing one symbol propagates to other identical symbols:
 
 ![example-gif](https://img.enkipro.com/f6eec6f636d18afe9d05896edb756ac7.gif)
 
