@@ -39,4 +39,4 @@ You can either fill these in now or edit them at a later time. For now, we will 
 
 Success, you have created your first base. You can now see cells, rows, columns and many other options that we will discuss at a later time.
 
-![gif-of-base-creation-process](#)
+![gif-of-base-creation-process](https://img.enkipro.com/c017cde7a0fc0171aec5db3b0f47a944.gif)
