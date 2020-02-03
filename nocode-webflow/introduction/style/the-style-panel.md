@@ -5,8 +5,9 @@ levels:
   - beginner
 
 aspects:
-  - new
+  - introduction
   - workout
+  - deep
 
 type: normal
 
@@ -19,32 +20,24 @@ category: how to
 ---
 ## Content
 
-The Style panel is used for styling any element. The Style panel can be used to edit an elements layout, spacing, positioning, color, effects and more.
+The style panel can be used to edit an element's layout, spacing, positioning, color, effects and more. It is located on the right side of the `Designer`. 
 
-The Style panel is located on the right side of the `Designer`. 
+An important feature of the style panel is that it can be used to create new classes, edit already existing classes, or change the class of an element at any time.
 
-You can also use the Style panel to create new classes, edit previously created ones as well as change any elements class at any time.
+Depending on where your website is viewed (tablet, phone, computer, etc.), you can edit each view independently using the style panel.
 
-The Style panel can also be used to edit the styling of your webpage depending on if it is viewed on a Tablet, Phone, Computer or any other specific pixel size.
+To use the style panel, select an existing element and you are good to go. The style panel is always active and responds to your selections.
 
-The Style panel is always active and responds to the selected element.
+You are not limited to applying effects to one element at a time. Using classes (concept that will be explained in the following insights), you can apply changes to all the elements that belong to a class by only editing one element of that class.
 
-To use it, all you have to do is select an existing element. 
-
-After selecting an element, any changes you make on the Style panel will be applied to the selected element.
-
-**Note:** The Style panel can also be used to apply effects to multiple elements at once. 
-
-To do so, we need to create classes. If more than 1 element has the same class name, we can use the Style panel to apply changes to all elements of the same class through one of those elements. More on classes in the next insight.
-
-The Style panel is divided into several sections with numerous options inside each one.
+Here are some of the options that you will find in the style panel:
 
 ![sections](https://img.enkipro.com/cdbd08b93ae3dfafc6d92df615eff2f6.png)
 
 ---
 ## Practice
 
-Which of these is not accessed through the `Style` panel?
+Which of these is not accessed through the style panel?
 
 ???
 
