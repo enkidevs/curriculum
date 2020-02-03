@@ -35,7 +35,7 @@ The `Designer` consists of 5 main elements:
 
 To access the `Designer`, you must first have a project (website). To create one, go to your [dashboard](https://webflow.com/dashboard) and click on the `New project` button.
 
-![dashboard-new-project](https://img.enkipro.com/555516a92724576ddffdbf0c7287cc01.png)
+![dashboard-new-project](https://img.enkipro.com/82f8991e0e66d7594f370d36e139bf8a.png)
 
 Now, to open the `Designer` all you have to do is click on the project[1].
 
