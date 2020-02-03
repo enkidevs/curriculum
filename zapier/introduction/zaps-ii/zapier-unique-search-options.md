@@ -29,7 +29,7 @@ To find out all related search actions (triggers) to a specific app, you can hea
 
 Let's say our stack contains Dropbox and Instagram. 
 
-![gif-of-selecting-dropbox](#)
+![gif-of-selecting-dropbox](https://img.enkipro.com/ceaf3d287fc34dc8eae5ce7ca7943985.gif)
 
 When selecting an app from the list, Zapier shows you:
 * a list of recommended integrations
