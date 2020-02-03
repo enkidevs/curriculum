@@ -5,7 +5,7 @@ levels:
   - beginner
 
 aspects:
-  - new
+  - introduction
   - workout
 
 type: normal
@@ -15,7 +15,7 @@ category: how to
 ---
 
 
-# What can you do with excel
+# What Can Spreadsheets Do
 
 ---
 ## Content

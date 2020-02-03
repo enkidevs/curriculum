@@ -1,6 +1,6 @@
 name: Introduction
 
-description: Learn what Excel is and what it can do
+description: Learn more about spreadsheets and how they can help you.
 
 insights:
   - what-is-excel
