@@ -1,6 +1,6 @@
 name: Templates
 
-description: Learn what Templates are, where to find them and how to create your own.
+description: Get accustomed to templates, where to find them and how to create your own.
 
 insights:
   - what-are-templates

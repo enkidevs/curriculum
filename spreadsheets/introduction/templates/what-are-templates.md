@@ -5,29 +5,24 @@ levels:
   - beginner
 
 aspects:
-  - new
-  - workout
+  - introduction
 
 type: normal
 
-category: how to
+category: must-know
 
 ---
 
-# What is a template?
+# What Is a Template?
 
 ---
 ## Content
 
-A template is a predesigned sheet with predefined formulas and formatting.
+A template is a pre-designed sheet with predefined formulas and formatting. Templates are very useful because they save a lot of time. 
 
-Templates are very useful because they save a lot of time. 
+You can use templates to instantly create a "To-Do" list, a wedding planner, an invoice, a calendar and much more.
 
-You can use templates to instantly create a "To-Do" list, or a wedding planner, an invoice, a calendar and much more.
-
-These templates allow users to take advantage of Excel's power even though they haven't yet learned all the formulas and formatting required to do from scratch.
-
-Moreover, you can even create your custom ones.
+They allow you to take full advantage of spreadsheets even when you haven't mastered all the necessary formulas and formatting.
 
 To create a new spreadsheet from a template go to:
 
@@ -39,4 +34,4 @@ This will open a new tab called "Template gallery" where you can choose the temp
 
 **Note:** Both Office Excel and Google Sheets have many powerful templates users can use. However, if you do not like what they offer you can always find a ton more online.
 
-For instance,[this website](https://www.goskills.com/Excel/Articles/Free-Excel-templates) has 7 different categories with numerous templates in each that you can download for free.
+For instance, [this website](https://www.goskills.com/Excel/Articles/Free-Excel-templates) has seven different categories with numerous templates in each that you can download for free.
