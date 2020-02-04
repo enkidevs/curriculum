@@ -1,6 +1,6 @@
-name: Basics Of Excel
+name: Basics Of Spreadsheets
 
-description: Learn the basics of Excel.
+description: Get used to the common terminology.
 
 insights:
   - what-is-a-workbook

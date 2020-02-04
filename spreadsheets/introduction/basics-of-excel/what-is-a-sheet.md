@@ -5,12 +5,11 @@ levels:
   - beginner
 
 aspects:
-  - new
-  - workout
+  - introduction
 
 type: normal
 
-category: how to
+category: must-know
 
 ---
 
@@ -19,16 +18,15 @@ category: how to
 ---
 ## Content
 
-A Sheet or a Worksheet in Excel is a single page (sheet) of a Workbook/Spreadsheet/file.
+A sheet (or a worksheet) is a single page of a workbook/spreadsheet/folder.
 
-It consists of rows usually marked with numbers and columns usually marked with letters.
+It consists of rows (usually marked with numbers) and columns (usually marked with letters).
 
-The maximum number of rows, columns, and cells a sheet can have, solely depends on the version of Excel.
+The maximum number of rows, columns, and cells a sheet can have solely depends on the spreadsheet tool you are using.
 
-For instance, a Google sheets sheet can have a maximum of 500,000 rows, 18,278 columns or 5,000,000 cells. As soon as the cell count reaches 5 million, you cannot make any more new rows or columns.
+For instance, in Google Sheets you can have a maximum of 500,000 rows, 18,278 columns or 5,000,000 cells. As soon as the cell count reaches 5 million, you cannot make any more new rows or columns.
 
-To add a new sheet in Google docs, go to the bottom left corner of the spreadsheet and press on the `+` sign.
-The process is the same for Microsoft Excel.
+To add a new sheet, go to the bottom left corner of the spreadsheet and press on the `+` sign.
 
 ![image.png](https://img.enkipro.com/0ea4f3f810b4934f42ddb4d704184a78.png)
 
