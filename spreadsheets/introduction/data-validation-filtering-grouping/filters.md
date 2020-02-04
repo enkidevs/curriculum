@@ -5,29 +5,30 @@ levels:
   - beginner
 
 aspects:
-  - new
+  - introduction
   - workout
+  - deep
 
 type: normal
 
-category: how to
+category: must-know
 
 ---
 
-# What are filters
+# What Are Filters
 
 ---
 ## Content
 
-Filters are used to temporarily hide a portion of the data in your spreadsheet to allow you to deliberately expose or analyze only a specific (unfiltered) part of your data.
+Filters are used to temporarily hide a portion of the data in your spreadsheet. This allows you to deliberately expose or analyze only a specific (unfiltered) part of your data.
 
 **Note:** Any filter you apply to your spreadsheet will be visible to anyone with access to your spreadsheet. Depending on their permissions, they can also edit the filter.
 
 You can also create specific filter view links when you want to create different filters for different people regarding the same spreadsheet.
 
-Filters are used for sorting data in ascending or descending order, larger than/smaller than a value, between two values, containing a part of a string, only display specific values and much more.
+Filters are used for sorting data in ascending or descending order, larger than or smaller than a value, between two values, containing a part of a string, only display specific values and much more.
 
-For instance, let us say we have this spreadsheet:
+For instance, let us say we have the following data:
 
 ![spreadsheet-without-filter](https://img.enkipro.com/3b9822e2a460ad19dfddd8dda3bd2dd9.png)
 

@@ -1,4 +1,4 @@
-name: Basics Of Spreadsheets
+name: Basics of Spreadsheets
 
 description: Get used to the common terminology.
 

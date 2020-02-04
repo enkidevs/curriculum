@@ -5,7 +5,7 @@ levels:
   - beginner
 
 aspects:
-  - new
+  - introduction
   - workout
 
 type: normal
@@ -19,31 +19,46 @@ category: must-know
 ---
 ## Content
 
-Excel has a feature called "Data Validation" which you can use to constrain a particular input into a cell.
+With spreadsheets, you might want to limit the type of data that can be inserted in a cell. This can be achieved by using data validation.
 
-For instance, you can make a cell be of type `date` and only allow actual date input or a date `after`, `before` or even `between` a certain date.
+For instance, you can make a cell be of type `date` and only allow actual date input. You can even restrict the data further and only accept a date `after`, `before` or `between`.
 
-To open `data validation` you can either go to (Google sheets):
+To open `Data validation` you can go to `Data` in the toolbar:
 
 ![how-to-open-data-validation](https://img.enkipro.com/8cd2e9b2913a5dc3f348d3b93c90c3ea.png)
 
-or right-click any cell and select `data validation` at the bottom.
-
-The difference between these two ways of opening `data validation` is if you right-click a cell, it will select that cell to be validated. However, if you open it like in the image above, you will have to select the cells on your own.
+Another option is right-clicking any cell and selecting `Data validation` at the bottom.
 
 This will give you a popup window like so:
 
 ![data-validation](https://img.enkipro.com/e8e5151a6a2d4745a003e7c1b888ef7f.png)
 
-To select a cell click on `Cell range` and click on a cell. 
+To select a cell click on `Cell range` followed by clicking (or clicking and dragging) on the cells of interest.
 
-To select a range of cells, click on a particular cell and drag towards the cells on which you want to use a validation.
-
-Under "Criteria" there are several options:
+Under `Criteria` there are several options you can choose from:
 
 ![criteria-options](https://img.enkipro.com/ba4bb0f6f2fd08fb155c92ae0365a658.png)
 
-Each option has a different set of sub-options that will appear on the right side after choosing one.
+Depending on your selection, a different subset of options that will appear on the right side[1].
+
+To remove a data validation, all you have to do is right-click the cell you want to remove the validation, open `data validation` and click `remove validation`.
+
+![how-to-remove-gif](https://img.enkipro.com/5942bfe502242b44c2253ac4f6de6b19.gif)
+
+---
+## Practice
+
+`Data Validation` is ???
+
+* a feature used to constrain a particular input into a cell.
+* an external program used to create valid data.
+* just another name for analysis.
+* a feature used to separate different dates and validate them separately.
+
+---
+## Footnotes
+
+[1:Example]
 
 We are going to use the `Date` validation for our example, which will give us these options:
 
@@ -80,21 +95,3 @@ Now that our data validation is done, this is how our cell looks like when we ho
 
 How it looks when there is a wrong input:
 ![image-of-rejected-input](https://img.enkipro.com/6f9321ee5bb2fa4e89c8816a334ff61a.png)
-
-To remove a data validation, all you have to do is right-click the cell you want to remove the validation, open `data validation` and click `remove validation`.
-
-Example:
-
-![how-to-remove-gif](https://img.enkipro.com/5942bfe502242b44c2253ac4f6de6b19.gif)
-
----
-## Practice
-
-What is `Data validation`?
-
-`Data Validation` is ???
-
-* a feature in Excel used to constrain a particular input into a cell.
-* an external program used to create valid data
-* just another name for Analysis
-* a feature used to separate different dates and validate them separately

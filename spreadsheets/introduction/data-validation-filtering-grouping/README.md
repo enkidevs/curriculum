@@ -1,6 +1,6 @@
-name: Data validation, filtering and grouping
+name: Validation, Filtering & Grouping
 
-description: Learn what data types excel uses, what data validation is and how to group and filter cells
+description: Learn more about data types, validation, grouping and filtering.
 
 insights:
   - data-types
