@@ -22,7 +22,7 @@ In Airtable, there are three main ways of creating a base:
 
 We have previously discussed the first method, and now we will take a look at importing data. Imagine that you are a scientist researching and developing a drone that is meant to fly on Mars. Using a formula you were able to create a `.csv`[1] file and you would like to have all this data in Airtable.
 
-The long way around is to manually insert all the records, but that is not the only way. What you can do, when clicking on the `'Add a base'` button, is select the option that says `'Import a spreadsheet'` and upload the `.csv` file that you already had. At the end, you will be prompted for the base name, color and other initial information.
+The long way around is to manually insert all the records, but that is not the only way. What you can do, when clicking on the `Add a base` button, is select the option that says `Import a spreadsheet` and upload the `.csv` file that you already had. At the end, you will be prompted for the base name, color and other initial information.
 
 ![importing-data](https://img.enkipro.com/3bae585fd8588d316740db39095dce9a.gif)
 

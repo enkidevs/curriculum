@@ -23,11 +23,11 @@ Initially, you see the presentation page of the template which contains a short 
 
 ![template-presentation-page](https://img.enkipro.com/13511682bbdd6d94562e1bda65da89bf.png)
 
-If the template is good for your project, clicking `'Use template'` will add it to your workspace.
+If the template is good for your project, clicking `Use template` will add it to your workspace.
 
 ![template-added-in-workspace](https://img.enkipro.com/eed5b679439ed412aafafde9368e22ac.png)
 
-You are now the proud owner of a new base 🎉🎉. Clicking on `'Apartment Hunting'` will open the base, which is populated with some sample data. In the following insights you'll learn how to edit the data and customize the base.
+You are now the proud owner of a new base 🎉🎉. Clicking on `Apartment Hunting` will open the base, which is populated with some sample data. In the following insights you'll learn how to edit the data and customize the base.
 
 ---
 ## Practice

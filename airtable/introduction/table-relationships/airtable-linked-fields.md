@@ -23,7 +23,7 @@ Airtable handles sharing data between tables through linked fields. This link (b
 
 ![directors-table](https://img.enkipro.com/99a67e510e1be7ce1579d5a038e84bc8.png)
 
-Both tables are linked, and the relation between them means that `'The Irishman'` was directed by `'Scorsese'`, and that `'Scorsese'` has directed `'The Irishman'`.
+Both tables are linked, and the relation between them means that `The Irishman` was directed by `Scorsese`, and that `Scorsese` has directed `The Irishman`.
 
 In this example, both tables are linked, so all the records can be accessed. There is another option which requires the creation of a new table from a linked field.
 

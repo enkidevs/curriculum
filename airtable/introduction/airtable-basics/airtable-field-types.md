@@ -19,7 +19,7 @@ links:
 ---
 ## Content
 
-In the previous insight, we have changed all our fields to be of type `'Number'`. As you have noticed, there were many other options available, depending on your application.
+In the previous insight, we have changed all our fields to be of type `Number`. As you have noticed, there were many other options available, depending on your application.
 
 Here's a list of the most common types.
 
