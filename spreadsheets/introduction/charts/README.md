@@ -1,6 +1,6 @@
 name: Charts
 
-description: Use charts to display your data.
+description: Use charts to visualize your data.
 
 insights:
   - what-are-charts

@@ -15,7 +15,7 @@ category: how to
 
 links:
   - '[Google Sheets](https://www.howtogeek.com/448828/how-to-create-a-google-sheets-template/){documentation}'
-  - '[Office Excel](https://www.excel-easy.com/basics/templates.html){documentation}'
+  - '[Excel](https://www.excel-easy.com/basics/templates.html){documentation}'
 
 ---
 

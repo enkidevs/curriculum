@@ -24,7 +24,7 @@ For example, a cell in column `C` and row `20` has the address `C20`.
 
 Cells are essentially storage units that can contain numbers, text, formulas, dates and more.
 
-There are 4 types of cells in Excel:
+There are four types of cells:
 1. Numbers (Formulas, Dates and Times)
 2. Strings
 3. Boolean
