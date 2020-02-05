@@ -1,6 +1,6 @@
-name: Basics Of Excel
+name: Charts
 
-description: Learn what charts are, why they are useful and how to create them.
+description: Use charts to display your data.
 
 insights:
   - what-are-charts

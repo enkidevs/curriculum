@@ -5,7 +5,7 @@ levels:
   - beginner
 
 aspects:
-  - new
+  - deep
   - workout
 
 type: normal
@@ -14,18 +14,16 @@ category: how to
 
 ---
 
-# Why are charts useful?
+# Why Are Charts Useful?
 
 ---
 ## Content
 
-A good example of why charts are useful is because they can be used to detect patterns and understand results in a more clear way.
+Charts are very useful in understanding large quantities of that that would otherwise be difficult do individually analyze. You can represent thousands of data points in a chart.
 
-They are good for understanding large quantities of data that would otherwise be difficult to individually analyze. A single chart can represent thousands of data points.
+Another good example is detecting patterns and understanding results in a more clear way.
 
-Each type of chart also "tells a story".
-
-This is because visualizations can quickly demonstrate patterns and allow us to draw conclusions and determine any negative or positive outcomes about our data.
+Depending on the type of chart you choose, you can "tell a different story". This is because visualizations can quickly demonstrate patterns, allow us to draw conclusions, and determine any negative or positive outcomes about our data.
 
 ---
 ## Practice

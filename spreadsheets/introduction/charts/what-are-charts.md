@@ -5,7 +5,7 @@ levels:
   - beginner
 
 aspects:
-  - new
+  - deep
   - workout
 
 type: normal
@@ -14,29 +14,25 @@ category: how to
 
 ---
 
-# What are charts?
+# What Are Charts?
 
 ---
 ## Content
 
-Charts are graphical representations of data. 
+Charts are graphical representations of data. They allow us to combine a lot of information into intuitive visualizations.
 
-They allow us to combine a lot of information into intuitive visualizations.
-
-Charts are located under `insert > charts`.
+Charts are usually located under the `Insert` tab, in the `Chart` option.
 
 ![charts-location](https://img.enkipro.com/55c3581cce980aa548b612e63dc2efab.png)
 
-There are many types of charts that can be used to represent and/or compare data in different ways.
+There are many types of charts that can be used to represent and/or compare data in different ways, and we will present the most popular options in this mission.
 
 ---
 ## Practice
 
-What are charts?
+Charts are ???.
 
-???
-
-* Graphical representations of data.
-* Different names for Chalk.
-* The same as Darts.
-* Used to create comments on cells.
+* graphical representations of data
+* different names for chalk
+* the same as darts
+* used to create comments on cells

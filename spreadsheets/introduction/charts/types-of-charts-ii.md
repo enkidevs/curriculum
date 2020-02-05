@@ -5,7 +5,7 @@ levels:
   - beginner
 
 aspects:
-  - new
+  - deep
   - workout
 
 type: normal
@@ -14,32 +14,31 @@ category: how to
 
 ---
 
-# Types of charts continued
+# Types of Charts II
 
 ---
 ## Content
 
 Some other well known charts are the `line` and `combo` charts.
 
-We will use the same data from the previous insight.
+Using the following data, let's create these charts.
 
-Data used:
 ![chart-data](https://img.enkipro.com/5fb6d6cec47fd3c56f26b1e8349d8a17.png)
 
-### The `Line` Chart
+### Line Chart
 
-The Line chart is made with lines and plot points. These points create clear visualization of the increase and decrease of, for instance, players in December. 
+The line chart is made with lines and plot points. These points create clear visualization of the increase and decrease of, in this case, players in December. 
 
 ![line](https://img.enkipro.com/f0db10f741888c074552309a2c133e10.png)
 
-### The `Combo` Chart
+### Combo Chart
 
-A combination chart is a chart that combines two or more chart types in a single chart.
+This type combines two or more chart types in a single chart.
 
-Using the same chart data from above, we are going to add a revenue column:
+Using the same chart data, we are going to add a revenue column:
 
 ![with-revenue-plus](https://img.enkipro.com/522f9e74fe05fb92235acf71963544e4.png)
 
-And create a combo `Line-column` chart.
+And create a combo `Line-Column` chart.
 
 ![combo](https://img.enkipro.com/fe0640054333ac430a4c161d10971736.png)
