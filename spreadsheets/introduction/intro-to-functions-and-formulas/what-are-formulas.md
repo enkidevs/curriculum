@@ -5,7 +5,7 @@ levels:
   - beginner
 
 aspects:
-  - new
+  - deep
   - workout
 
 type: normal
@@ -19,26 +19,38 @@ category: how to
 ---
 ## Content
 
-Formulas are the building blocks of excel. They are used to calculate the values of a cell.
+Formulas are the building blocks of spreadsheets. They are used to transform the values of a cell.
 
-Let's say we wanted to add 3 cells together, for instance, B2, B3, and B4.
+Suppose you have the following spreadsheet:
 
-We can do so by selecting any empty cell, usually the first cell underneath our 3 cells so we can easily see the result.
+![data](https://img.enkipro.com/bd39918bdc033118ec692ce1f0d85edb.png)
 
-After we select the cell, input `= B2+B3+B4`.
+In this spreadsheet you have saved your weekly spending, and you would now like to find out the total amount spent.
 
-This will sum up the 3 cells and display the result.
+Instead of manually adding all the number, you can create a formula that does this for you. To differentiate formulas from other data, they always start with an equal (`=`) sign. In this case, you want to go `B6`, and in that cell you would insert this:
 
-![simple-formula](https://img.enkipro.com/488abdd009ea6634bbd73d15f059e786.png)
+```text
+= B2 + B3 + B4 + B5
+```
+
+Now, every time you update the data in one of the cells found in the formula (`B2`, `B3`, `B4`, `B5`), the total sum will be re-calculated for the new values.
+
+![simple-formula](https://img.enkipro.com/f6ce7842765f9a189f6f75e187ab1ce6.png)
 
 ---
 ## Practice
 
-Complete the sentence.
+Consider the following spreadsheet:
 
-Formulas are ???
+![data](https://img.enkipro.com/f6ce7842765f9a189f6f75e187ab1ce6.png)
 
-* the building blocks of Excel.
-* rarely used in Excel.
-* used to store data in Excel.
-* used to format data in Excel
+What will this formula output?
+
+```text
+B2 + B4 = ???
+```
+
+* 51
+* 83
+* 125
+* 23

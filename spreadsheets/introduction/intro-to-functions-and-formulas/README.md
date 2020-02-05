@@ -1,6 +1,6 @@
-name: Intro to functions and formulas
+name: Functions & Formulas
 
-description: Learn what functions and formulas are and how to use them.
+description: Transform your data using functions and formulas.
 
 insights:
   - what-are-formulas
