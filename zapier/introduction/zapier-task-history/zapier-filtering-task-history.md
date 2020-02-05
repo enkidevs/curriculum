@@ -29,16 +29,16 @@ Start from left to right, we will now explain what each option does:
     - when selected, you can play, delete, or download them
     - useful for retrying a certain action
 - the zap specifier
-    - in the picture you can see the `'All Zaps'` button
+    - in the picture you can see the `All Zaps` button
     - using this, you can specify which zaps you are interested in
     - this is where renaming zaps comes in useful
 - the status specifier
-    - in the picture, you can see the `'Everything'` button; this specifies which statuses you are interested in
+    - in the picture, you can see the `Everything` button; this specifies which statuses you are interested in
     - use this to find out which actions threw an error or which are still waiting
 - the date specifier
     - choose a date as a constraint
 
-Lastly, you've got the refresh button (meant to help with seeing the most recent runs in task history), and the `'Clear Filters'` button.
+Lastly, you've got the refresh button (meant to help with seeing the most recent runs in task history), and the `Clear Filters` button.
 
 These features should provide you with a straightforward debugging experience.
 

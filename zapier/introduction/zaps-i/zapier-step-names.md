@@ -22,9 +22,9 @@ Fortunately, Zapier allows you to change the name of your step, and here is how 
 
 ![gif-of-changing-step-name](https://img.enkipro.com/6bcc7f98ca5d539db6252aa56f0e9282.gif)
 
-All you have to do is click on the `...` in the top right corner of the step card, press `'Rename...'`, and write the new name.
+All you have to do is click on the `...` in the top right corner of the step card, press `Rename...`, and write the new name.
 
-In our case, we will change the Google Sheets step to `'Monitor Important Data'`.
+In our case, we will change the Google Sheets step to `Monitor Important Data`.
 
 On top of this, you can also add a description and a timezone (so that all time related tasks are done relative to specified timezone). This is done by clicking on the cogwheel icon and filling the required fields.
 

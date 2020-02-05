@@ -24,7 +24,7 @@ Step by step, this zap will:
 1. New or Update Spreadsheet Row in Google Sheets
     - monitor a spreadsheet for any new or updated rows
 2. Send Direct Message in Slack
-    - send a direct message in slack that reads `'Someone has gained access to your base!'`
+    - send a direct message in slack that reads `Someone has gained access to your base!`
 
 Your zap is now ready to be used. Go ahead and change a row in the spreadsheet and see how the magic happens.
 

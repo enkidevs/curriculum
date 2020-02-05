@@ -18,9 +18,9 @@ type: normal
 
 We have previously mentioned that zaps are not limited to only two steps. Let's take the zap that we have previously created, and add another step.
 
-Currently, the zap sends `'A new person has gained access to your base!'` when the `'Has Access'` row is changed or updated. The `'Has Access'` cell can say `'Yes'` or `'No'`, which means that changing the cell to `'No'` will still lead to the same message being sent.
+Currently, the zap sends `A new person has gained access to your base!` when the `Has Access` row is changed or updated. The `Has Access` cell can say `Yes` or `No`, which means that changing the cell to `No` will still lead to the same message being sent.
 
-Let's change this by adding a filter[1]. Press the `+` button between Google Sheets and Slack, choose `'Filter by Zapier'`, and change the fields such that the trigger will only happen if the change contains `'Yes'`.
+Let's change this by adding a filter[1]. Press the `+` button between Google Sheets and Slack, choose `Filter by Zapier`, and change the fields such that the trigger will only happen if the change contains `Yes`.
 
 Here is how you would do that:
 

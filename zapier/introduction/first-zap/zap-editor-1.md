@@ -19,9 +19,9 @@ links:
 ---
 ## Content
 
-Let's say that you want to receive a direct message on Slack every time a row in one of your spreadsheets is added or updated. Go to the [Explore page](https://zapier.com/apps/integrations/), select Google Sheets and Slack and choose `'Post a new message to Slack whenever a Google Sheets row is updated'`.
+Let's say that you want to receive a direct message on Slack every time a row in one of your spreadsheets is added or updated. Go to the [Explore page](https://zapier.com/apps/integrations/), select Google Sheets and Slack and choose `Post a new message to Slack whenever a Google Sheets row is updated`.
 
-After clicking on the `"Use this Zap"` button[1], you will be presented with the following screen:
+After clicking on the `Use this Zap` button[1], you will be presented with the following screen:
 
 ![google-sheets-link](https://img.enkipro.com/52b49f072104e1b18500232348d02d18.png)
 
@@ -33,13 +33,13 @@ First, we need to set up Google Sheets. After signing in, you have to specify:
 3. The trigger column
     - lastly, Zapier wants to know which column to watch
 
-Your screen should now look like this, and you are ready to press `"Continue"`.
+Your screen should now look like this, and you are ready to press `Continue`.
 
 ![google-sheets-final-screen](https://img.enkipro.com/a7b9300b3f61a6227d6ea0331e474009.png)
 
-Note: `'Has Access?'` is just the name of a **column** found in the `'Access to your secret base'` **worksheet**, which is found in the `'Some Important Data'` **spreadsheet**.
+Note: `Has Access?` is just the name of a **column** found in the `Access to your secret base` **worksheet**, which is found in the `Some Important Data` **spreadsheet**.
 
-Zapier might ask you to test the connection, but for now you can press `"Skip Test"`[2].
+Zapier might ask you to test the connection, but for now you can press `Skip Test`[2].
 
 ---
 ## Practice

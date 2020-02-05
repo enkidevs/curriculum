@@ -55,4 +55,4 @@ task    ???
 ## Footnotes
 
 [1:Bookmark]
-You can bookmark this insight and, whenever you need a refresher, access it from `'Settings'`.
+You can bookmark this insight and, whenever you need a refresher, access it from `Settings`.

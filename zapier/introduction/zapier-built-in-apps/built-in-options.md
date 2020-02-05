@@ -34,4 +34,4 @@ Out of the most popular options, you can distinguish:
     - same as delay, but the input is a specified interval (e.g. every week)
 
 
-There are many other [built-in options](https://zapier.com/apps/categories/zapier-tools), and you can usually find them by searching for `'Zapier'`.
+There are many other [built-in options](https://zapier.com/apps/categories/zapier-tools), and you can usually find them by searching for `Zapier`.

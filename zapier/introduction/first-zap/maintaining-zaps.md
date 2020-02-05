@@ -30,7 +30,7 @@ In here you can:
 * turn them on and off
 * organize your zaps in folders
 * share folders and zaps
-* look in the `'Trash'` section
+* look in the `Trash` section
 
 You can also go to your [dashboard](https://zapier.com/app/dashboard) where Zapier will offer you recommendations, a quick way of integrating two apps, and how far your have leveled in Zapier.
 

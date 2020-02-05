@@ -20,22 +20,22 @@ Every item in the task history list represents a previous run of a zap. Let's lo
 
 ![task-history-example](https://img.enkipro.com/ca9e7a3a5b9a8888e19319dfb01a6ee2.png)
 
-The column that you will most likely notice first is `'Status'`, and as you can see there are quite a few different types:
-- `'Success'`
+The column that you will most likely notice first is `Status`, and as you can see there are quite a few different types:
+- `Success`
     - zap was ran successfully
-- `'Filtered'`
+- `Filtered`
     - usually means that the zap was stopped due to a constraint
-    - a more detailed response is provided in the `'Status Reason'` column
-- `'Playing'`
+    - a more detailed response is provided in the `Status Reason` column
+- `Playing`
     - this means that all the filters were passed and the zap is in the process of being completed
     - for example, an email is being sent
-- `'Waiting'`
+- `Waiting`
     - the zap is ready to be completed, but it is waiting for a delay or scheduled time
-    - if you have the `'Autoreplay'`[1] feature enabled, you might also see this status
-- `'Holding'`
+    - if you have the `Autoreplay`[1] feature enabled, you might also see this status
+- `Holding`
     - the zap is on hold for a certain reason
-    - more detail is provided in the `'Status Reason'` column
-- `'Stopped'`
+    - more detail is provided in the `Status Reason` column
+- `Stopped`
     - this is usually shown when your zap runs into an error
     - if this happens too many times, the zap will be paused
 
