@@ -15,12 +15,6 @@ type: normal
 ---
 ## Content
 
-Nobody: nothing
-
-Airtable:
-
-![meme-1](https://img.enkipro.com/77de9d7565dbd87b9389da32223c6334.png)
-
 The first time you log into Airtable you are presented with the following screen:
 
 ![airtable-dashboard](https://img.enkipro.com/89d47b7aad1f5b9ee20e2f3205e25cfe.png)
