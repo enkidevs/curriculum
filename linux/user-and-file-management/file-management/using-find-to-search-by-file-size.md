@@ -60,7 +60,7 @@ In this case, we'll call `ls -lh` for each file we find.  For `ls`, the `-l` opt
 ---
 ## Revision
 
-Find all the files (in the current folder) of at least 1GB in size :
+Find all the files (in the current directory) of at least 1GB in size :
 ```
 $ ??? ??? ??? f 
          ??? ??? 
