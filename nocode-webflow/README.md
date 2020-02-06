@@ -1,6 +1,6 @@
 name: Webflow
 
-description: Learn how to create websites without writing any code.
+description: Create websites and responsive interfaces without writing code.
 
 color: FA00FF
 
