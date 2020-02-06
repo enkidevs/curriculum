@@ -21,11 +21,11 @@ In the designer, looking in the navigator, expand the two sections:
 
 ![expanded-sections](https://img.enkipro.com/4a4212607725e435bb28a92555867523.png)
 
-Notice how the second section containts four `div` blocks (each representing an image and a description of your project). To delete these, select the parent component named `'Works Grid'` and either press delete or backspace. Another way of deleting elements of components is by right clicking them and selecting the `'Delete'` option.
+Notice how the second section contains four `div` blocks (each representing an image and a description of your project). To delete these, select the parent component named `Works Grid` and either press delete or backspace. Another way of deleting elements of components is by right clicking them and selecting the `Delete` option.
 
 ![deleting-an-element](https://img.enkipro.com/399a858670e67c714ca376a2af9900c1.gif)
 
-Now, go into the `'Add Elements'`[2] section and find the `'Components'` category. You can position the component using the navigator or by dragging it in the page.
+Now, go into the `Add Elements`[2] section and find the `Components` category. You can position the component using the navigator or by dragging it in the page.
 
 When you're done positioning, you can change the style of elements or components by pressing the `S` button on your keyboard.
 

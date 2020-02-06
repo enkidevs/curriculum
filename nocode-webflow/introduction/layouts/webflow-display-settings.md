@@ -1,10 +1,11 @@
 ---
 author: kapnobatai136
 
-category: must-know
+category: feature
 
 aspects:
-  - introduction
+  - deep
+  - workout
 
 type: normal
 
@@ -15,9 +16,9 @@ type: normal
 ---
 ## Content
 
-In design, there are multiple ways you can get your component to display, and the elements surounding it have different behaviours depending on the option.
+In design, there are multiple ways you can get your component to display, and the elements surrounding it have different behaviors depending on the option.
 
-To change the dispaly setting, open the style panel and find the `'Layout'` group.
+To change the display setting, open the style panel and find the `Layout` group.
 
 ![layout-group](https://img.enkipro.com/fb41bea61236c080ad6e1e726b5e36b0.png)
 
