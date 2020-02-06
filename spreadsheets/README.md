@@ -1,6 +1,6 @@
 name: Spreadsheets
 
-description: Popular multi-purpose tool used for analyzing data in tabular form
+description: Multi-purpose tool (e.g. Excel, Google Sheets) used for analyzing data in tabular form.
 
 color: 008A47
 
