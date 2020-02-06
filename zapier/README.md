@@ -1,6 +1,6 @@
 name: Zapier
 
-description: Popular tool used for applications integration.
+description: Connect applications to automate repetitive tasks, without using any code.
 
 color: FF4A00
 
