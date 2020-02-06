@@ -1,6 +1,6 @@
 name: Airtable
 
-description: Store information in a visually appealing and easy-to-use spreadsheet-like database.
+description: Build a database with no code! Easy to use, visually appealing, and spreadsheet-like.
 
 color: FFCC00
 
