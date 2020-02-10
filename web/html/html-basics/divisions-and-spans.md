@@ -63,7 +63,7 @@ When using CSS to style `<div>` and `<span>` elements, ids and classes are often
 ---
 ## Revision
 
-Span's are seen as ??? elements.
+Spans are seen as ??? elements.
 
 * stylistic
 * structural
