@@ -25,9 +25,7 @@ Python can use two different methods for string formatting.
 
 The first, and older, method is similar to how the language C creates new and formatted strings.
 
-The `%` operator formats a set of variables enclosed in a tuple, which is a fixed size list, alongside a format string which holds normal text with special symbols such as `%s` and `%d`, these are known as *argument specifiers*.
-
-These are the argument specifiers:
+The `%` operator formats a set of variables enclosed in a tuple, which is a fixed size list, alongside a format string which holds normal text with special symbols such as `%s` and `%d`. These are known as *argument specifiers*:
 - `%s` is for a String
 - `%d` is for Integers
 - `%f` is for Floats
@@ -40,6 +38,8 @@ workout_number = 3
 print('Learning Python with %s, workout number %d.' % (app, workout_number))
 # Learning Python with Enki, workout number 3.
 ```
+
+Although useful when working with a low number of variables, you can see how readability decreases as the number of variables used increases.
 
 Since Python 2.6, a new method of string formatting has been introduced. You can now call the `str.format()` method on any string. The functionality is similar, but instead of `%s`, `%d`, or `%f`, you now have to use curly brackets `{}`.
 
@@ -64,19 +64,23 @@ workout_number = 3
 ---
 ## Practice
 
-Complete the code snippet to print the variable `str` to the console:
-```python
-str = 'practice'
-print('The best way to learn is to ???'
-        ??? str)
+Complete the code snippet to print the output:
+
+```py
+replace = 'Enki'
+
+print('??? is fun!' % (replace))
+
+'??? is fun!'.format(replace)
+
+# Output in both cases:
+# Enki is fun!
 ```
 
-* `%s`
-* `%`
-* `%d`
-* `%f`
-* `+`
-* `/`
+* %s
+* {}
+* %d
+* {2}
 
 ---
 ## Revision
