@@ -2,7 +2,6 @@
 author: tommarshall
 
 levels:
-
   - beginner
 
 type: normal
@@ -10,13 +9,10 @@ type: normal
 category: must-know
 
 inAlgoPool: false
+
 aspects:
   - introduction
   - workout
-standards:
-  python.standard-library-data.6: 10
-  python.data-structures-uses.5: 10
-
 
 ---
 
@@ -25,7 +21,9 @@ standards:
 ---
 ## Content
 
-Python uses string formatting in a similar way to the language C to create new and formatted strings.
+Python can use two different methods for string formatting.
+
+The first, and older, method is similar to how the language C creates new and formatted strings.
 
 The `%` operator formats a set of variables enclosed in a tuple, which is a fixed size list, alongside a format string which holds normal text with special symbols such as `%s` and `%d`, these are known as *argument specifiers*.
 
@@ -34,22 +32,33 @@ These are the argument specifiers:
 - `%d` is for Integers
 - `%f` is for Floats
 
-For instance, say you have a variable with a string inside it, this is how you print that string:
+For instance, say you have some variables. This is how you would print them:
 
 ```python
 app = 'Enki'
-print('Learning Python with %s' % app)
-# Learning Python with Enki
+workout_number = 3
+print('Learning Python with %s, workout number %d.' % (app, workout_number))
+# Learning Python with Enki, workout number 3.
 ```
 
-To use two or more argument specifiers you must use a tuple:
-```python
-app = 'Enki'
-streak = 3
+Since Python 2.6, a new method of string formatting has been introduced. You can now call the `str.format()` method on any string. The functionality is similar, but instead of `%s`, `%d`, or `%f`, you now have to use curly brackets `{}`.
 
-print('''This is Python workout number %d
-       with %s''' % (streak, app))
-# This is Python workout number 3 with Enki
+```py
+app = 'Enki'
+workout_number = 3
+'Learning Python with {}, workout number {}.'.format(app, workout_number)
+# Output:
+# Learning Python with Enki, workout number 3.
+```
+
+As you can see, the `format` method takes in the replacements as arguments, and returns the formatted string. Another useful feature of this method is that you can decide which argument is replaced, by using indexes:
+
+```py
+app = 'Enki'
+workout_number = 3
+'Learning Python with {1}, workout number {0}.'.format(app, workout_number)
+# Output:
+# Learning Python with 3, workout number Enki.
 ```
 
 ---
