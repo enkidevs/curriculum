@@ -24,6 +24,8 @@ aspects:
   - introduction
   - workout
 
+links:
+  - '[for in / for of loops](https://youtu.be/a3KHBqH7njs){video}'
 
 ---
 

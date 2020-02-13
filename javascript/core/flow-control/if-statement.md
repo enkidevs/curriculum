@@ -22,6 +22,8 @@ tags:
 aspects:
   - introduction
 
+links:
+  - '[Comparison Operators & If Else](https://youtu.be/7WkfzokHGqo){video}'
 
 ---
 
