@@ -23,7 +23,8 @@ standards:
 
 links:
 
-  - '[MDN - Switch Case](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/switch)'
+  - '[MDN - Switch Case](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/switch){documentation}'
+  - '[Switch Statements](https://youtu.be/fM5qnyasUYI){video}'
 ---
 
 # JS Practice Switch Case
