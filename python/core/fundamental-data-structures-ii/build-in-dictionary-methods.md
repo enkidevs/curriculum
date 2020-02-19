@@ -142,7 +142,6 @@ print(new)
 * `{}`
 * `fromkeys`
 * `0`
-* `dict`
 * `1`
 * `fromKeys`
 * `values`
