@@ -66,7 +66,7 @@ list_a.pop(index)
 # Output: 3
 
 print(list_a)
-# [6, 5, 2, 1]
+# [6, 5, 4, 2, 1]
 
 list_a.pop()
 # Output: 1
