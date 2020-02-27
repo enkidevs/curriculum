@@ -26,7 +26,7 @@ links:
 ---
 ## Content
 
-These are some common built-in list methods. Consider the following lists:
+These are some common built-in list methods. Consider the following list:
 ```py
 list_a = [1, 2, 3, 4, 5]
 ```
