@@ -59,6 +59,7 @@ As you can see, the `format` method takes in the replacements as arguments, and 
 app = 'Enki'
 workout_number = 3
 another_string = 'Learning Python with {1}, workout number {0}.'.format(app, workout_number)
+
 print(another_string)
 # Output:
 # Learning Python with 3, workout number Enki.
