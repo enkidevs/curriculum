@@ -80,10 +80,18 @@ print(x)
 print(y)
 print(z)
 
-#result:
+# result:
 # x = ('a1', 'a2', 'a3', 'a4', 'a5')
 # y = ('b1', 'b2', 'b3', 'b4', 'b5')
 # z = ('c1', 'c2', 'c3', 'c4', 'c5')
+```
+
+Note that when unzipping, Python returns **tuples** instead of **lists**:
+
+```py
+type(x)
+# result:
+# <type 'tuple'>
 ```
 
 ---
