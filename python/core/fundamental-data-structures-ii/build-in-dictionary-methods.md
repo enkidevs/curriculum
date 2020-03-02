@@ -84,7 +84,7 @@ print(a_dict.keys())
 # Output: [1, 2, 3, 4, 5]
 ```
 
-- `pop(key[, default])`[2]: removes the item at the given position (`key`) in the list, and returns its value; if no item is found, the optional `default` argument will be returned
+- `pop(key[, default])`: removes the item at the given position (`key`) in the list, and returns its value; if no item is found, the optional `default` argument will be returned
 
 ```py
 a_dict.pop(4)
@@ -115,7 +115,7 @@ print(a_dict.values())
 # [1, 4, 9, 16, 25]
 ```
 
-- `fromkeys(seq[, v])`[2]: return a new **dictionary** with keys from `seq` and value equal to `v`
+- `fromkeys(seq[, v])`: return a new **dictionary** with keys from `seq` and value equal to `v`
 
 ```py
 a_dict = {}.fromkeys([1,2,3], 0)

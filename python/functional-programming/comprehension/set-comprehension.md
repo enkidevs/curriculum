@@ -81,7 +81,7 @@ new_set = {x ??? x % 2 == 0 else/
 
 
 ---
-## Reviosion
+## Revision
 
 What will the `odd_set` look like after we run the following code snippet?
 
