@@ -74,7 +74,7 @@ print(list_a)
 # [6, 5, 4, 2]
 ```
 
-Return a new sorted *list*:
+If you want to sort the list, you could use `sort`. This method will sort the list **in-place**, mutating list indices, and in the end it returns `None`.
 ```python
 list_a.sort(key=None, reverse=False)
 print(list_a)
