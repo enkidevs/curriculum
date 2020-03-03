@@ -89,18 +89,14 @@ print(today.strftime(format))
 ---
 ## Practice
 
-Let's say that you have two variables `date_one` and `date_two`:
+Complete the gaps so that the following codeblock returns `True`:
 
-```py
+```python
 from datetime import datetime
 
 date_one = datetime(2019, 12, 1)
 date_two = datetime(2019, 1, 12)
-```
 
-Complete the gaps so that the following codeblock returns `True`:
-
-```python
 if ??? ??? ???:
   print(True)
 else:
@@ -113,8 +109,8 @@ else:
 * `date_one`
 * `>`
 * `date_two`
-* `<`
-* `Equals()`
+* `!=`
+* `=`
 
 ---
 ## Revision
