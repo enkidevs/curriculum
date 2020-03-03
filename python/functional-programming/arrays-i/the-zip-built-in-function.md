@@ -60,7 +60,7 @@ print(zip(a, b, c))
 # ('a5', 'b5', 'c5')]
 ```
 
-The star operator `*` can be used with `zip` to do the opposite action&mdash;to unzip a list. This action takes an iterator of tuples and returns a list for each field in the tuples.[2] Unzipping has the syntax:
+The star operator `*` can be used with `zip` to do the opposite action&mdash;to unzip a list. This action takes an iterator of tuples and returns a tuple for each field in the tuples[2]. Unzipping has the syntax:
 
 ```python
 zip(*zippedList)
