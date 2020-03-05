@@ -7,3 +7,4 @@ core: true
 sections:
   '0':
     - intro-typescript
+    - ts-data-types
