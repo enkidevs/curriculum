@@ -46,7 +46,9 @@ Since Python 2.6, a new method of string formatting has been introduced. You can
 ```py
 app = 'Enki'
 workout_number = 3
-'Learning Python with {}, workout number {}.'.format(app, workout_number)
+a_string = 'Learning Python with {}, workout number {}.'.format(app, workout_number)
+
+print(a_string)
 # Output:
 # Learning Python with Enki, workout number 3.
 ```
@@ -56,7 +58,9 @@ As you can see, the `format` method takes in the replacements as arguments, and 
 ```py
 app = 'Enki'
 workout_number = 3
-'Learning Python with {1}, workout number {0}.'.format(app, workout_number)
+another_string = 'Learning Python with {1}, workout number {0}.'.format(app, workout_number)
+
+print(another_string)
 # Output:
 # Learning Python with 3, workout number Enki.
 ```
