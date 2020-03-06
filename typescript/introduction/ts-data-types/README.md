@@ -6,3 +6,5 @@ insights:
   - ts-intro-data-types
   - ts-types-i
   - ts-types-ii
+  - ts-types-iii
+  - ts-types-iv
