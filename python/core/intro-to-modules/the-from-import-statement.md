@@ -2,21 +2,17 @@
 author: SebaRaba
 
 levels:
-
   - beginner
 
 type: normal
 
 category: must-know
+
 aspects:
   - introduction
   - workout
-standards:
-  python.modules.0: 10
-  python.modules.1: 10
 
 links:
-
   - '[from...import in depth](https://www.tutorialspoint.com/python3/python_modules.htm){website}'
 
 
@@ -49,7 +45,7 @@ To access exposed methods of it we could do the following:
 ```python
 import my_functions
 
-print(my_functions.cube(3)) # 27
+my_functions.cube(3) # 27
 my_functions.hello('Seba') # Hello, Seba
 ```
 
