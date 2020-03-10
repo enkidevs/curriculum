@@ -8,3 +8,4 @@ insights:
   - ts-types-ii
   - ts-types-iii
   - ts-types-iv
+  - ts-types-v
