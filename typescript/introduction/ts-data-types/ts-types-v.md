@@ -57,7 +57,7 @@ Object.create('Enki'); // Error
 ---
 ## Practice
 
-Which of the following is the corret way of using `Object.create()`?
+Which of the following is the correct way of using `Object.create()`?
 
 ```js
 // a
