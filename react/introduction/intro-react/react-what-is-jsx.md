@@ -27,7 +27,7 @@ parent: what-is-react
 ---
 ## Content
 
-**JSX** is syntactic sugar that brings an `HTML`-like syntax to **JavaScript**. Here is how it looks like:
+**JSX** is syntactic sugar that brings an `HTML`-like syntax to **JavaScript**. Here is what it looks like:
 
 ```jsx
 const el = <h2>Enki!</h2>;
