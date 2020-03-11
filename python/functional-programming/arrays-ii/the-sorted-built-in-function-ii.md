@@ -34,18 +34,6 @@ links:
 ---
 ## Content
 
-`sorted` can also be used on strings, where Python lexicographically orders individual characters by comparing the Unicode code point number.
-
-```python
-pyString = ',.()-.12345ABCDabcd='
-print(sorted(pyString))
-# result:
-# ['(', ')', ',', '-', '.', '.',
-#  '1', '2', '3', '4', '5', '=',
-#  'A', 'B', 'C', 'D',
-#  'a', 'b', 'c', 'd']
-```
-
 Let's look at keys. Defining keys allows us to tell Python exactly what to compare to achieve the sort if we don't want Python to simply compare the two elements as they are. Below, we define a custom class of `Order`s, where each `Order` has a name and a number. We populate a list of orders and then define a function that returns the order number from a given order. We use this function as the key. This allows `sorted` to sort the list of orders by their number.
 
 ```python
@@ -108,22 +96,6 @@ print(sorted(???, ???))
 * `floor`
 * `True`
 
----
-## Revision
-
-What is the result of the execution of the following code snippet?
-
-```python
-print(sorted([0, 2, 3, 1,
-'a', 'b', 'A', 'B']))
-```
-
-???
-
-
-* `[0, 1, 2, 3, 'A', 'B', 'a', 'b']`
-* `['A', 'B', 'a', 'b', 0, 1, 2, 3,]`
-* `[0, 1, 2, 3, 'a', 'b', 'A', 'B']`
 
 ---
 ## Footnotes
