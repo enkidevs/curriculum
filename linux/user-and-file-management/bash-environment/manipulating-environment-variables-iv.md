@@ -24,12 +24,10 @@ tags:
 
 ---
 
-# Manipulating Environment Variables (Part 4)
+# Variable creation syntax
 
 ---
 ## Content
-
-### Variable creation syntax
 
 In the previous insights, we mentioned in that having spaces around `=` when creating an environment variable is not valid.
 
