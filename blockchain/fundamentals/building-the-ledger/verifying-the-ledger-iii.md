@@ -35,8 +35,9 @@ In most cases, the network designates a checkpoint block, that is used as a defi
 
 What does the Block verification ensure?
 
-             	
-*  that everybody has exactly the same history: the hash of the previous block must be correct and match the end of the longest current chain.
+???
+
+* That everybody has exactly the same history: the hash of the previous block must be correct and match the end of the longest current chain.
 * That the history cannot be the same for anyone and that the previous block cannot match the longest chain
 
 ---
