@@ -21,12 +21,10 @@ links:
 
 ---
 
-# Why Functional Programming? (Part 3)
+# Using Immutable Data
 
 ---
 ## Content
-
-### Using Immutable Data
 
 As you might remember from the insights on *immutability*, there are a number of advantages to using immutable data instead of mutable state objects.
 
