@@ -21,12 +21,10 @@ links:
   - '[Interactive tutorial of how blocks are built](https://anders.com/blockchain/)'
 
 ---
-# Blocks (Part 3)
+# Hashing block data
 
 ---
 ## Content
-
-### Hashing block data
              	
 If any piece of data can be represented as an unique string of fixed length, what if, to build block N, we are to hash the content of block N-1 and block N-1's reference to block N-2. By including the content, any modification done to it would change the hash. By also including the reference to block N-2, we ensure that every block before cannot be tampered with.
              	
