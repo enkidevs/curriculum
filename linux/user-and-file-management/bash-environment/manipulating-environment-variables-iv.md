@@ -53,3 +53,19 @@ enki@host ~ $
 Here, `bash` interprets `=` and `"giraffe"` as arguments to the `ls` command rather than a variable assignment. 
 
 Avoiding this mistake is one of the reasons for the ALL CAPS convention.
+
+---
+## Practice
+
+Which of the following is the correct way of defining a variable?
+
+```
+A) enki@host ~ $ export FOOD = "waffles"
+B) enki@host ~ $ export FOOD="waffles"
+
+```
+
+???
+
+* B)
+* A)
