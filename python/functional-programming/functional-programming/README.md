@@ -4,6 +4,7 @@ description: Programming like mathematicians.
 
 insights:
   - what-is-functional-programming
+  - why-functional-programming
   - why-functional-programming-ii
   - why-functional-programming-iii
   - why-functional-programming-iv
