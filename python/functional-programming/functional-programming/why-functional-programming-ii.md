@@ -21,12 +21,10 @@ links:
 
 ---
 
-# Why Functional Programming? (Part 2)
+# Eschewing Shared State
 
 ---
 ## Content
-
-### Eschewing Shared State
 
 A shared state is any kind of memory object (a variable, collection of variables or an object) which is accessible from multiple scopes. Often, in object-oriented programming (OOP), objects are shared between different scopes by adding properties to other objects. This is quite common in OOP, but cannot be done in functional programming.
 
