@@ -21,7 +21,7 @@ links:
 
 ---
 
-# Why Functional Programming? (Part 1)
+# Why Functional Programming?
 
 ---
 ## Content
