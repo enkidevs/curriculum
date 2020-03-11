@@ -71,6 +71,18 @@ this returns the reversed numerically-sorted list:
 
 Behind the scenes, Python calls a derivative of merge-sort on the list (*Timsort*[1]), a recursive sorting algorithm which is efficient because it only requires the calling of the comparison function once per element in the input `iterable`. Being able to use the `sorted` function whenever we need to order a large data set is very useful since we don't need to worry about the efficiency of our algorithm when we use a readily-available, efficient and popular feature of the language.
 
+`sorted` can also be used on strings, where Python lexicographically orders individual characters by comparing the Unicode code point number.
+
+```python
+pyString = ',.()-.12345ABCDabcd='
+print(sorted(pyString))
+# result:
+# ['(', ')', ',', '-', '.', '.',
+#  '1', '2', '3', '4', '5', '=',
+#  'A', 'B', 'C', 'D',
+#  'a', 'b', 'c', 'd']
+```
+
 ---
 ## Practice
 
@@ -87,6 +99,23 @@ print(sorted([4, 0, 2, 3, 1, 5]))
 * `[5, 4, 3, 2, 1, 0]`
 * `[4, 0, 2, 3, 1, 5]`
 * `[5, 1, 3, 2, 0, 4]`
+
+---
+## Revision
+
+What is the result of the execution of the following code snippet?
+
+```python
+print(sorted([0, 2, 3, 1,
+'a', 'b', 'A', 'B']))
+```
+
+???
+
+
+* `[0, 1, 2, 3, 'A', 'B', 'a', 'b']`
+* `['A', 'B', 'a', 'b', 0, 1, 2, 3,]`
+* `[0, 1, 2, 3, 'a', 'b', 'A', 'B']`
 
 ---
 ## Footnotes
