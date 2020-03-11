@@ -7,4 +7,5 @@ core: true
 sections:
   '0':
     - intro-typescript
-    - ts-data-types
+    - tsc-data-types
+    - tsc-variable-declaration
