@@ -21,12 +21,10 @@ links:
 
 ---
 
-# Why Functional Programming? (Part 4)
+# Avoiding Side Effects
 
 ---
 ## Content
-
-### Avoiding Side Effects
 
 Side effects are the name given to any kind of application state change that is outside of the return value of a function. As we know, a pure function should not cause any changes in any external state as it does its business. This is one of the most important features of pure functions as it ensures they have no effect other than what is fully intended. (Or at least protects against most unintended modifications of state, which can lead to subtle bugs.)
 
