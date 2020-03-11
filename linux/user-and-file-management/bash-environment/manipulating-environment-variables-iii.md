@@ -57,3 +57,20 @@ enki@host ~ $ echo $FOOD
 
 enki@host $
 ```
+
+---
+## Practice
+
+Modify then unset the variable.
+
+```bash
+enki@host ~ $ echo $SOMETHING
+foobar
+enki@host ~ $ export SOMETHING="bar ???"
+enki@host ~ $ echo $SOMETHING
+bar foobar
+enki@host ~ $ ??? SOMETHING
+```
+
+* $SOMETHING
+* unset
