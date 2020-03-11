@@ -30,7 +30,7 @@ links:
 
 A shared state is any kind of memory object (a variable, collection of variables or an object) which is accessible from multiple scopes. Often, in object-oriented programming (OOP), objects are shared between different scopes by adding properties to other objects. This is quite common in OOP, but cannot be done in functional programming.
 
-Why? While this approach will work, issues will eventually arise without great care, such as race conditions or difficulty diagnosing bugs. In order to understand the effect of a function with shared state, you would need to gather the entire history of every shared variable that the function uses or affects, which is very difficult and tedious. Functional programming style designs away these difficulties.[1]
+Why? While this approach will work, issues will eventually arise without great care, such as race conditions or difficulty diagnosing bugs. In order to understand the effect of a function with shared state, you would need to gather the entire history of every shared variable that the function uses or affects, which is very difficult and tedious. Functional programming style designs away these difficulties[1].
 
 ---
 ## Practice
