@@ -56,7 +56,7 @@ The `DEFAULT` keyword here means that there shouldn't be any special value for t
 To insert into specific columns, you can use the following syntax:
 
 ```sql
-INSERT INTO item (id, fling_power,
+INSERT INTO items (id, fling_power,
   item_category_id, name)
 VALUES (1230, 50, 33, 'bug-ball');
 ```
@@ -66,7 +66,7 @@ This would effectively skip the `cost` and `item_fling_effect_id` value. If the 
 Multiple insertion are done by adding multiple parentheses:
 
 ```sql
-INSERT INTO item (id, fling_power,
+INSERT INTO items (id, fling_power,
   item_category_id, name) VALUES
 (1230, 50, 33, 'bug-ball'),
 (1231, 50, 33, 'storm-ball');
@@ -75,9 +75,9 @@ INSERT INTO item (id, fling_power,
 You can also insert the results of a whole query:
 
 ```sql
-INSERT INTO costless_item
-SELECT * FROM item
-WHERE item.cost <= 0;
+INSERT INTO costless_items
+SELECT * FROM items
+WHERE items.cost <= 0;
 ```
 
 Note that for this to work, the number and type of selected columns must correlate with either the number and type of columns specified after the `INSERT` keyword or with the number and type of columns found in the table. Any variant of the specific column insertion is applicable to the last query as well.
