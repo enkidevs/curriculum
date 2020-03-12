@@ -1,6 +1,6 @@
 name: Intro to React
 
-description: Get a broader pictures of what is React and why it became such as popular library.
+description: Learn about the basics of React, and why it's become such a popular library.
 
 insights:
   - react-what-is-react
