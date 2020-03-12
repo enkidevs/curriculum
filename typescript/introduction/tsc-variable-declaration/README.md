@@ -7,3 +7,4 @@ insights:
   - tsc-let
   - tsc-const
   - tsc-block-scoping
+  - tsc-destructuring

@@ -47,7 +47,7 @@ for (let i = 0; i < 3; i++) {
 // 2
 ```
 
-Using `let` with iterations, you kind of declare a new scope for every iteration step.
+Using `let` with iterations, you declare a new scope for every iteration step.
 
 ---
 ## Practice
