@@ -15,7 +15,7 @@ category: how to
 
 ---
 
-# Aggregation With Accumulators 3
+# Aggregation With Accumulators (`$push`)
 
 ---
 ## Content
