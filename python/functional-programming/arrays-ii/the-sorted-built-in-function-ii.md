@@ -34,7 +34,7 @@ links:
 ---
 ## Content
 
-Let's look at keys. Defining keys allows us to tell Python exactly what to compare to achieve the sort if we don't want Python to simply compare the two elements as they are. Below, we define a custom class of `Order`s, where each `Order` has a name and a number. We populate a list of orders and then define a function that returns the order number from a given order. We use this function as the key. This allows `sorted` to sort the list of orders by their number.
+Now, let's look at using keys together with the `sorted` method. Defining keys allows us to tell Python exactly what to compare to achieve the sort if we don't want Python to simply compare the two elements as they are. Below, we define a custom class of `Order`s, where each `Order` has a name and a number. We populate a list of orders and then define a function that returns the order number from a given order. We use this function as the key. This allows `sorted` to sort the list of orders by their number.
 
 ```python
 class Order(object):
