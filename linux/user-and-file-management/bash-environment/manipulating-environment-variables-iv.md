@@ -59,7 +59,7 @@ Avoiding this mistake is one of the reasons for the ALL CAPS convention.
 
 Which of the following is the correct way of defining a variable?
 
-```
+```shell
 # A
 enki@host ~ $ export FOOD = "waffles"
 
