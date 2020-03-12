@@ -24,7 +24,7 @@ tags:
 
 ---
 
-# Variable creation syntax
+# Variable Creation Syntax
 
 ---
 ## Content
@@ -60,12 +60,14 @@ Avoiding this mistake is one of the reasons for the ALL CAPS convention.
 Which of the following is the correct way of defining a variable?
 
 ```
-A) enki@host ~ $ export FOOD = "waffles"
-B) enki@host ~ $ export FOOD="waffles"
+# A
+enki@host ~ $ export FOOD = "waffles"
 
+# B
+enki@host ~ $ export FOOD="waffles"
 ```
 
 ???
 
-* B)
-* A)
+* B
+* A

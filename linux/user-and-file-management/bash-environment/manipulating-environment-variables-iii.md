@@ -74,3 +74,5 @@ enki@host ~ $ ??? SOMETHING
 
 * $SOMETHING
 * unset
+* SOMETHING
+* set
