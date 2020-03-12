@@ -11,4 +11,6 @@ insights:
  - the-utxo-model
  - consensus
  - verifying-the-ledger
+ - verifying-the-ledger-ii
+ - verifying-the-ledger-iii
  - malicious-nodes
