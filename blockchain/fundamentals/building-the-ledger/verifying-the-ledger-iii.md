@@ -21,7 +21,7 @@ links:
   - '[Full list of block checks](https://en.bitcoin.it/wiki/Protocol_rules#.22block.22_messages)'
 
 ---
-# Block verification
+# Block Verification
 
 ---
 ## Content
