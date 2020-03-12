@@ -21,7 +21,7 @@ links:
   - '[Interactive tutorial of how blocks are built](https://anders.com/blockchain/)'
 
 ---
-# Hashing block data
+# Hashing Block Data
 
 ---
 ## Content
@@ -55,4 +55,3 @@ Identify the input to the hash function that yields the address of a new, generi
 * Previous block's reference and current's content and header
 * Genesis block's reference and previous' reference
 * Account transactions and the reference to the previous block
-

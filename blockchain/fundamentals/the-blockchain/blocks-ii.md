@@ -21,7 +21,7 @@ links:
   - '[Interactive tutorial of how blocks are built](https://anders.com/blockchain/)'
 
 ---
-# Hash functions
+# Hash Functions
 
 ---
 ## Content
