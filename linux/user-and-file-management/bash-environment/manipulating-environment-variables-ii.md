@@ -67,3 +67,20 @@ enki@host ~ $ export FOOD = "waffles"
 -bash: export: `=': not a valid identifier
 enki@host ~ $
 ```
+
+---
+## Practice
+
+Fill in the code to create and display a variable:
+
+```shell
+enki@host ~ $ ??? NAME="Enki"
+enki@host ~ $ ??? ???
+```
+
+* export
+* echo
+* $NAME
+* import
+* NAME
+* $echo
