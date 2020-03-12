@@ -4,9 +4,9 @@ description: Use different accumulators and operators with the group and project
 
 insights:
   - aggregation-with-accumulators
-  - aggregation-with-accumulators-last
   - aggregation-with-accumulators-ii
   - aggregation-with-accumulators-iii
   - aggregation-with-accumulators-iv
+  - aggregation-with-accumulators-v
   - aggregation-with-floor-and-ceil
   - aggregation-with-mod

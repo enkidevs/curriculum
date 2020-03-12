@@ -3,10 +3,8 @@ author: Stefan-Stojanovic
 
 levels:
   - beginner
-  - basic
   
 aspects:
-  - introduction
   - new
 
 type: normal
@@ -15,79 +13,120 @@ category: how to
 
 ---
 
-# Aggregation With Accumulators 3
+# Aggregation With Accumulators 2
 
 ---
 ## Content
 
-### `$push`
+### `$max`
 
 Syntax:
 ```javascript
-{ $push: <expression> }
+{ $max: <expression> }
 ```
 
-The `$push` operator is used with the `$group` stage to return an array of values for each group of documents with the same key.
+The `$max` accumulator is used to find the maximum value. When used with the `$group` stage, we can find the maximum value of each document from the group of documents with the same key.
 
-For instance, let's say we have a `pokemon` collection where each pokémon has a `type` and `name` field. We can use the `$push` operator to push the `name` field of each pokemon within the same group (`type`) and output an array of names for each `type`.
+For instance, the `pokemon` database has thousands of pokémon, and each of them has a `type` and `power` field.
 
-Example where there are only 3 types of pokémon:
+All pokémon have one of the possible types: Water, Fire, Rock, Normal, etc. However, all have different `power` levels.
+
+We can use the `$group` stage to group them by their `type`, and then use the `$max` operator to determine which `type` of pokémon has the highest `power`.
+
+Example:
 ```javascript
 db.pokemon.aggregate([
   {
     $group: {
       _id: "$type",
-      namesPerGroup: {
-        $push: { name: "$name" }
-      }
+      highestPower: { $max: "$power" }
     }
   }
 ]);
 ```
 Output:
 ```javascript
+{ "_id": "Unknown", "highestPower": null }
+{ "_id": "Bug", "highestPower": 120 }
+{ "_id": "Psychic", "highestPower": 800 }
+{ "_id": "Normal", "highestPower": 86 }
+{ "_id": "Rock", "highestPower": 502 }
+{ "_id": "Fire", "highestPower": 404 }
+{ "_id": "Electric", "highestPower": 501 }
+{ "_id": "Flame", "highestPower": 665 }
+{ "_id": "Grass", "highestPower": 500 }
+{ "_id": "Fairy", "highestPower": 0 }
+{ "_id": "Water", "highestPower": 667 }
+```
+**Note:** If one of the documents (pokémon) in our database doesn't have a value for the field, the `$max` operator returns `null`.
 
-{ "_id": "Psychic",
- "namesPerGroup": 
-  [
-    { "name": "Mewtwo" },
-    { "name": "Mew" } 
-  ] 
-},
-{ "_id": "Normal", 
-  "namesPerGroup": 
-   [ 
-     { "name": "Porygon" }, 
-     { "name": "Castform" } 
-   ] 
-},
-{ "_id": "Water", 
-  "namesPerGroup": 
-   [ 
-     { "name": "Squirtle" }, 
-     { "name": "Tentacruel" }, 
-     { "name": "Tentacool" }, 
-     { "name": "Blastoise" } 
-   ] 
-}
+### `$min`
+
+The `$min` operator behaves the same as the `$max` operator except that it looks for the lowest (minimum) value instead of the highest (maximum) value.
+
+Example:
+```javascript
+db.pokemon.aggregate([
+  {
+    $group: {
+      _id: "$type",
+      lowestPower: { $min: "$power" }
+    }
+  }
+]);
 ```
 
-In the above example, we used the `$group` stage to group documents by their `type` field and then we used the `$push` operator to push the `name` field and value of each document in each grouping as a single array of values per group.
+Output:
+```javascript
+{ "_id": "Unknown", "lowestPower": null }
+{ "_id": "Bug", "lowestPower": 120 }
+{ "_id": "Psychic", "lowestPower": 400 }
+{ "_id": "Normal", "lowestPower": 35 }
+{ "_id": "Rock", "lowestPower": 251 }
+{ "_id": "Fire", "lowestPower": 404 }
+{ "_id": "Electric", "lowestPower": 231 }
+{ "_id": "Flame", "lowestPower": 430 }
+{ "_id": "Grass", "lowestPower": 100 }
+{ "_id": "Fairy", "lowestPower": 0 }
+{ "_id": "Water", "lowestPower": 233 }
+```
 
+Example with both operators:
+```javascript
+db.pokemon.aggregate([
+  {
+    $group: {
+      _id: "$type",
+      lowestPower: { $min: "$power" },
+      highestPower: { $max: "$power" }
+    }
+  }
+]);
+```
+
+Output:
+```javascript
+// ...
+{   
+  "_id": "Water",
+  "lowestPower": 233, 
+  "highestPower" : 667 
+}
+// ...
+```
 
 ---
 ## Practice
 
-Fill in the missing code to group all documents in the `pokemon` database by their `type` and push the names of each pokémon from the same `type` into a single array per `type`. Name the resulting array `"namesPerGroup"`.
+Fill in the missing code to group all documents in the `pokemon` collection by their `type`, and find the min and max power level of each type and output them in fields called `lowestPower` and `highestPower`.
 
 ```javascript
 db.pokemon.aggregate([
   {
     ???: {
       _id: "???",
-      ???: {
-        ???: { name: "$name" }
-      }
+      ???: { ???: "$power" },
+      ???: { $max: "???" }
     }
   }
 ]);
@@ -95,9 +134,10 @@ db.pokemon.aggregate([
 
 * `$group`
 * `$type`
-* `namesPerGroup`
-* `$push`
-* `Names per group`
-* `array`
-* `push`
-* `type`
+* `lowestPower`
+* `$min`
+* `highestPower`
+* `$power`
+* `$minimum`
+* `$maximum`
+* `power`
