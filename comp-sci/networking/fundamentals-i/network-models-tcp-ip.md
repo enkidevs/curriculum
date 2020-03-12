@@ -24,7 +24,7 @@ parent: types-of-networks
 
 ---
 
-# Network models (TCP/IP)
+# Network Models (TCP/IP)
 
 ---
 ## Content
