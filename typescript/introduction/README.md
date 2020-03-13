@@ -9,3 +9,4 @@ sections:
     - intro-typescript
     - tsc-data-types
     - tsc-variable-declaration
+    - tsc-basics
