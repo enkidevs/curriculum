@@ -8,9 +8,6 @@ category: must-know
 aspects:
   - introduction
 
-links:
-  - '[ts-node](https://www.npmjs.com/package/ts-node){website}'
-
 ---
 
 # Assigning Types
@@ -18,7 +15,7 @@ links:
 ---
 ## Content
 
-Assigning types is one of the main features of TypeScript. We have shown you how to do this in the previous examples, and now we can check the benefits of this.
+Assigning types is one of the main features of TypeScript.
 
 ```ts
 function hello(who: string): void {
@@ -28,7 +25,9 @@ hello('Enki'); // Hello Enki
 hello(5); // TypeError
 ```
 
-But what we haven't showed you is how TypeScript can infer a variable's type:
+In this example, the `who` argument always has to be a string, and the `hello` function can't return anything (from the `function hello(): void` syntax). Notice that when we try to call the function using a number, we get a type error. The same would happen if we tried to include a `return` statement in the function.
+
+What we haven't showed you is how TypeScript can infer a variable's type:
 
 ```ts
 let aNumber = 5;
@@ -48,3 +47,45 @@ hello('Enki');
 ```
 
 There is a way to define optional arguments, but this will be explained in the following mission.
+
+---
+## Practice
+
+Which of the following is correct?
+
+```ts
+// a
+let a = 5;
+a = '5';
+
+// b
+function b(): void {
+  return 5;
+}
+
+// c
+const arr = [];
+arr.push(5);
+```
+
+???
+
+* c
+* a
+* b
+
+---
+## Revision
+
+Is this valid?
+
+```ts
+function Enki(): number {
+  return '5';
+}
+```
+
+???
+
+* No.
+* Yes.
