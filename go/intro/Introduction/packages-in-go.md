@@ -74,7 +74,7 @@ import (
 
 ```
 
+???
+
 * Factored import statement.
 * Multi-statement import.
-* There is no "Good Practice" way.
-* A third, non-mentioned way.
