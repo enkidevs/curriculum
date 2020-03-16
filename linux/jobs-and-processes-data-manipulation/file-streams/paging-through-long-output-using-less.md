@@ -50,6 +50,11 @@ To exit `less` press the `q` key.
 
 To find the next match you can simply type `/` and hit enter again, i.e., you don't have to  akin to the "Find Next" feature in most text editors and word processors.
 
+There are 2 more ways of searching for the previous/next.
+
+- `n` - Next match.
+- `N` - Previous Match.
+
 ### What's With The Name?
 
 In the same way that `bash` (the Bourne Again Shell) is a play on its predecessor `sh` (the Bourne Shell), `less` is a play on its predecessor `more`.  The `more` command exists on most systems but is much more limited than `less`.  For example, it's impossible to scroll backwards with `more`.
