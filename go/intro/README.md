@@ -9,6 +9,3 @@ sections:
     - introduction
     - variables-and-constants
     - importing-exporting-functions
-    - flows
-    - extra-types
-    - concurrency
