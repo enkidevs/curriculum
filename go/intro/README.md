@@ -1,6 +1,6 @@
 name: Introduction
 
-description: 
+description: Learn how to define variables, import-export packages/functions, create loops and concurrency.
 
 core: true
 
