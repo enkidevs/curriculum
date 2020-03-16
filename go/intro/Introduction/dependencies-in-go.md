@@ -19,12 +19,3 @@ category: how to
 ---
 ## Content
 
-
----
-## Practice
-
-
----
-## Revision
-
-
