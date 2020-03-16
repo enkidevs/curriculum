@@ -6,3 +6,4 @@ description: GO is a programming language created at Google to increase programm
 
 icon: https://img.enkipro.com/0827fa53ec3d35578795000f43aba076.png
 
+language: go
