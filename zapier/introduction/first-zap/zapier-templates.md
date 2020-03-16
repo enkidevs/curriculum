@@ -29,8 +29,11 @@ For a more advanced experience, you can search for apps in the [Apps page](https
 
 There are two main ways for checking app integrations:
 - directly searching for its name
+
 ![searching-directly](https://img.enkipro.com/5fadfa427b44901a352514ee4b6e5f6c.png)
+
 - using the category section to discover an app
+
 ![discovering-by-category](https://img.enkipro.com/87c3f9b1b7c3a9c5b3e5488629d38253.png)
 
 Using these search methods, you'll be able to quickly start connecting your apps or discover how you can further optimize your workflow.

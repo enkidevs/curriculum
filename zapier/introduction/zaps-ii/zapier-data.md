@@ -32,19 +32,15 @@ To access data from previous steps, click on the `+` button on the right side of
 ---
 ## Practice
 
-With Zapier, you can:
+With Zapier, you **can't**:
 
 ???
 
-???
 
-???
-
+* Use it as a database.
 * Find data in an app and use it at a later time.
 * Monitor data and react to changes.
 * Send messages.
-* Use it as a database.
-* Replace note taking apps.
 
 ---
 ## Footnotes

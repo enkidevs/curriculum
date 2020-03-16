@@ -33,10 +33,10 @@ Note: To create multi-step zaps, you need to have a paid plan.
 ---
 ## Practice
 
-Zapier can ??? steps.
+Zapier can have ??? steps.
 
-* have only two
 * an unlimited number of
+* only two
 
 ---
 ## Footnotes

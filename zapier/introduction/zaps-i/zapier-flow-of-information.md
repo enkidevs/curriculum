@@ -42,4 +42,4 @@ How does information flow in Zapier?
 * From top to bottom.
 * From bottom to top.
 * From left to right.
-* from right to left.
+* From right to left.

@@ -31,7 +31,7 @@ The column that you will most likely notice first is `Status`, and as you can se
     - for example, an email is being sent
 - `Waiting`
     - the zap is ready to be completed, but it is waiting for a delay or scheduled time
-    - if you have the `Autoreplay`[1] feature enabled, you might also see this status
+    - if you have the `Autoreplay` feature enabled, you might also see this status
 - `Holding`
     - the zap is on hold for a certain reason
     - more detail is provided in the `Status Reason` column
