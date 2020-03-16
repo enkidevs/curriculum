@@ -55,7 +55,7 @@ Which of the following you **wouldn't** expect to see when looking at an app's p
 
 ???
 
-* A list of all you zaps with that application.
+* A list of all your zaps with that application.
 * A list of recommended integrations.
 * Recommended templates.
 * All the possible triggers, actions and searches.
