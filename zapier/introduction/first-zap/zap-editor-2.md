@@ -53,6 +53,15 @@ In Zapier, you need to complete ??? to integrate your apps:
 * any fields
 
 ---
+## Revision
+
+You need to complete all the ??? for an integration to work.
+
+* required fields
+* optional fields
+* fields
+
+---
 ## Footnotes
 
 [1:Permissions]

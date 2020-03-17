@@ -43,6 +43,14 @@ With Zapier, you **can't**:
 * Send messages.
 
 ---
+## Revision
+
+Say that you have a Google Sheets step followed by a Slack step. To include data from the spreadsheet, you need to add it from ???.
+
+* the Slack step
+* the Google Sheets step
+
+---
 ## Footnotes
 
 [1:Previous Example]

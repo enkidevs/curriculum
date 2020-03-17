@@ -23,7 +23,30 @@ Let's take another look at a filter step:
 ![filter-setup-and-testing](https://img.enkipro.com/25eaef765da3856792a1ae9f92ddfea3.png)
 
 Notice the `+AND` and `+OR` buttons in the bottom left corner. What these do is add another check (the one we have now says that the `Has Access?` column must contain the `Yes` value), and depending on the type:
-- `+AND` - both constrains must pass **at the same time**
+- `+AND` - both checks must pass **at the same time**
 - `+OR` - **at least one** of the checks must pass
 
 This feature give us a lot of power to by allowing us to adjust various logic into a zap.
+
+---
+## Practice
+
+Match the type with its description:
+
+```text
++AND - ???
++OR  - ???
+```
+
+* both checks must pass
+* at least one check must pass
+
+---
+## Revision
+
+When filtering, which type do you have to use such that both checks must pass at the same time?
+
+???
+
+* +AND
+* +OR

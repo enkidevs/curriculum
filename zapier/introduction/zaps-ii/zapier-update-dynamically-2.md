@@ -42,3 +42,12 @@ Which of the following is not a possible option in Zapier?
 * Destroy data.
 * Search for data.
 * Update data.
+
+---
+## Revision
+
+To dynamically change data for every iteration of the zap, you need to add a ??? step.
+
+* search
+* find
+* filter

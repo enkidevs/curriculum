@@ -35,3 +35,26 @@ In here you can:
 You can also go to your [dashboard](https://zapier.com/app/dashboard) where Zapier will offer you recommendations, a quick way of integrating two apps, and how far your have leveled in Zapier.
 
 ![my-dashboard](https://img.enkipro.com/10991b261f47e07bbdad43358d6e377e.png)
+
+---
+## Practice
+
+In the [My Zaps](https://zapier.com/app/zaps) section, you **can't**:
+
+???
+
+* discover new integrations
+* find your created zaps
+* turn zaps on and off
+* organize zaps
+
+---
+## Revision
+
+In the [dashboard](https://zapier.com/app/dashboard) you **can**:
+
+???
+
+* discover new integrations
+* turn zaps on and off
+* organize zaps

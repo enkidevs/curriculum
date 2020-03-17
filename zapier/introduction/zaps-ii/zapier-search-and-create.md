@@ -30,7 +30,7 @@ Every time this step will be activated, a new column named `# of days` will be a
 ---
 ## Practice
 
-Which of the following is **not an action** belonging to Google Sheets integration? If you need a refresher you can always visit the [app's page](https://zapier.com/apps/google-sheets/integrations) on Zapier.
+Which of the following **is not an action** belonging to Google Sheets integration? If you need a refresher you can always visit the [app's page](https://zapier.com/apps/google-sheets/integrations) on Zapier.
 
 ???
 
@@ -38,6 +38,17 @@ Which of the following is **not an action** belonging to Google Sheets integrati
 * Create Spreadsheet Column
 * Create Spreadsheet Row
 * Update Spreadsheet Row
+
+---
+## Revision
+
+Which of the following **is an action** belonging to Twitter. If you need a refresher, you can go to the [app's page](https://zapier.com/apps/twitter).
+
+???
+
+* Replace File.
+* Create spreadsheet.
+* Create workbook.
 
 ---
 ## Footnotes

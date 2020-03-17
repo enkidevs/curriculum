@@ -29,3 +29,20 @@ In our case, we will change the Google Sheets step to `Monitor Important Data`.
 On top of this, you can also add a description and a timezone (so that all time related tasks are done relative to specified timezone). This is done by clicking on the cogwheel icon and filling the required fields.
 
 ![gif-of-adding-description](https://img.enkipro.com/c0ba5cadfea1d330b2712baf50fe9013.gif)
+
+---
+## Practice
+
+Other than renaming your zap, you can ???.
+
+* add a description
+* add a background image
+* add a sound for completion
+
+---
+## Revision
+
+Is it possible to add a timezone to your zap?
+
+* Yes.
+* No.

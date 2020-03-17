@@ -37,3 +37,11 @@ To add a filter in Zapier means to ???.
 * add a new step
 * add a new action
 * add a new zap
+
+---
+## Revision
+
+Filtering is done with ???.
+
+* the Filter by Zapier step
+* a separate filter application

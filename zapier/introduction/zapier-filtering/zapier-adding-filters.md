@@ -52,3 +52,19 @@ The limit of checks a filter can have in Zapier is ???.
 * 2
 * 4
 * 6
+
+---
+## Revision
+
+Is this type of check possible with `Filter by Zapier`?
+
+```text
+check 1 
+OR 
+(check 1 AND check 2)
+```
+
+???
+
+* No.
+* Yes.

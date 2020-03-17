@@ -35,3 +35,27 @@ Out of the most popular options, you can distinguish:
 
 
 There are many other [built-in options](https://zapier.com/apps/categories/zapier-tools), and you can usually find them by searching for `Zapier`.
+
+---
+## Practice
+
+Which of these **is not** a built-in app?
+
+???
+
+* Google Sheets
+* Email
+* SMS
+* Schedule
+
+---
+## Revision
+
+Which of these **is** a built-in app?
+
+???
+
+* Email
+* Slack
+* Twitter
+* Gmail

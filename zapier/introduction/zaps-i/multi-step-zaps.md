@@ -39,6 +39,18 @@ Zapier can have ??? steps.
 * only two
 
 ---
+## Revision
+
+How many steps is Zapier **limited to**?
+
+???
+
+* 0
+* 1
+* 2
+* 10
+
+---
 ## Footnotes
 
 [1:Filters]

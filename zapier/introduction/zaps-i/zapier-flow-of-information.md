@@ -43,3 +43,14 @@ How does information flow in Zapier?
 * From bottom to top.
 * From left to right.
 * From right to left.
+
+---
+## Revision
+
+What should be the order of the following steps in a zap?
+
+??? Send a SMS.
+??? Monitor a spreadsheet.
+
+* 2
+* 1

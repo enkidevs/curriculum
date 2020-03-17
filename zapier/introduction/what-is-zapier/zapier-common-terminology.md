@@ -52,6 +52,14 @@ task    ???
 * Any single action performed by Zapier.
 
 ---
+## Revision
+
+A task can be both an action and a ???.
+
+* trigger
+* zap
+
+---
 ## Footnotes
 
 [1:Bookmark]

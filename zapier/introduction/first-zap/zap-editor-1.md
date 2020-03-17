@@ -46,16 +46,26 @@ Zapier might ask you to test the connection, but for now you can press `Skip Tes
 
 Select the order of the actions that you need to take to connect Google Sheets to Zapier:
 
-??? Select the trigger column.
-??? Select the spreadsheet.
-??? Select the worksheet.
-??? Sign into Google Sheets.
+??? 
+??? 
+??? 
+??? 
 
 
-* 4
-* 2
-* 3
-* 1
+* Sign into Google Sheets.
+* Select the spreadsheet.
+* Select the worksheet.
+* Select the trigger column.
+
+---
+## Revision
+
+To connect Google Sheets in Zapier, you have to sign in to your account, and select the ??? and ???.
+
+* spreadsheet
+* worksheet
+* sheet
+* workbook
 
 ---
 ## Footnotes
