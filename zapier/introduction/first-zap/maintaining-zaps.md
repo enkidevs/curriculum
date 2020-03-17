@@ -32,9 +32,9 @@ In here you can:
 * share folders and zaps
 * look in the `Trash` section
 
-You can also go to your [dashboard](https://zapier.com/app/dashboard) where Zapier will offer you recommendations, a quick way of integrating two apps, and how far your have leveled in Zapier.
+You can also go to your [dashboard](https://zapier.com/app/dashboard) where Zapier will offer you recommendations, and a quick way of integrating two apps.
 
-![my-dashboard](https://img.enkipro.com/10991b261f47e07bbdad43358d6e377e.png)
+![my-dashboard](https://img.enkipro.com/e0492707d785d96fcbe02fd9af1a620b.png)
 
 ---
 ## Practice
