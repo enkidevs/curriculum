@@ -9,24 +9,19 @@ type: normal
 
 category: must-know
 
-standards:
-  web.syntax-html.3: 10
-  web.syntax-html.4: 10
-  web.syntax-html.5: 10
-
 aspects:
   - introduction
 
 links:
-  - '[w3 documents on all Optional Elements](https://www.w3.org/TR/html5/syntax.html#optional-tags){website}'
-  - '[Google docs for Optional Elements](https://google.github.io/styleguide/htmlcssguide.html#Optional_Tags){website}'
+  - '[W3: Optional Elements](https://www.w3.org/TR/html5/syntax.html#optional-tags){documentation}'
+  - '[Google: Optional Elements](https://google.github.io/styleguide/htmlcssguide.html#Optional_Tags){documentation}'
 
 ---
 # Optional Elements
 ---
 ## Content
 
-In HTML5, there is actually a lot of optional tags where either the starting, ending, or both tags can be omitted. It can be a little usual working with optional tags because just because an element's tag is omitted, it doesn't mean the element itself is not present at all. It means that it is implied and is there no matter if the markup code doesn't contain the typical tags.
+In HTML5, there are a lot of optional tags where either the starting, ending, or both tags can be omitted. Just because an element's tag is omitted, it doesn't mean the element itself is not present at all. It means that it is implied and is there no matter if the markup code doesn't contain the typical tags.
 
 Some optional elements:
   - `<html>`

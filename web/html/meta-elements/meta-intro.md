@@ -9,15 +9,12 @@ type: normal
 
 category: must-know
 
-standards:
-  web.metadata.0: 10
-
 aspects:
   - introduction
   - workout
 
 ---
-# Meta Intro
+# The `<meta>` Element
 ---
 ## Content
 

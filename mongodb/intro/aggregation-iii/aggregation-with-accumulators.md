@@ -78,38 +78,6 @@ Output:
 
 In the example above, the `$first` operator found all documents of each grouping (in our case grouped by `type`), looked for the `name` of the first document of said `type`, and saved them to a new field called `"nameOfFirst"`. Next, the `$sort` sorted them by the selected grouping in alphabetically ascending order.
 
-### `$last`
-
-The `$last` operator behaves the same as the `$first` operator except that it looks for the last document instead of the first.
-
-Example:
-```javascript
-db.pokemon.aggregate([
-  {
-    $group: {
-      _id: "$type",
-      nameOfLast: { $last: "$name" }
-    }
-  },
-  { $sort: { _id: 1 } }
-]);
-```
-Output:
-```javascript
-{ "_id": "Bug", "nameOfLast": "Caterpie" }
-{ "_id": "Electric", "nameOfLast": "Magneton" }
-{ "_id": "Fairy", "nameOfLast": "Togepi" }
-{ "_id": "Fire", "nameOfLast": "Moltres" }
-{ "_id": "Flame", "nameOfLast": "Charizard" }
-{ "_id": "Grass", "nameOfLast": "Bellsprout" }
-{ "_id": "Normal", "nameOfLast": "Castform" }
-{ "_id": "Psychic", "nameOfLast": "Mew" }
-{ "_id": "Rock", "nameOfLast": "Omanyte" }
-{ "_id": "Water", "nameOfLast": "Blastoise" }
-```
-
-**Note** If our grouping has only one document, `$first` and `$last` would give out the same output.
-
 ---
 ## Practice
 
@@ -129,22 +97,7 @@ db.pokemon.aggregate([
 
 * `$group`
 * `$type`
-* `nameOfLast `
+* `nameOfFirst`
 * `$first`
 * `$Type`
 * `$Group`
-
----
-## Revision
-
-Which of these is not a valid accumulator for the `$group` stage?
-
-???
-
-* `$medium`
-* `$first`
-* `$last`
-* `$min` 
-* `$max`
-* `$push`
-* `$sum`

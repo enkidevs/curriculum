@@ -17,7 +17,6 @@ standards:
   python.native-types-operations.6: 10
 
 links:
-
   - '[Dictionary methods](https://www.programiz.com/python-programming/dictionary){website}'
 
 
@@ -60,7 +59,7 @@ print(new)
 # Output: {1: 1, 2: 4, 3: 9, 4: 16, 5: 25}
 ```
 
-- `get(key[, default])`: returns the value mapped to the given key; if there's no item with that key, it'll return the optional argument `default`
+- `get(key[, default])`[2]: returns the value mapped to the given key; if there's no item with that key, it'll return the optional argument `default`
 
 ```py
 print(a_dict.get(3))
@@ -77,7 +76,7 @@ print(a_dict.items())
 # [(1, 1), (2, 4), (3, 9), (4, 16), (5, 25)]
 ```
 
-- `keys()` : returns a list of all dictionary `key`s
+- `keys()`: returns a list of all dictionary `key`s
 
 ```py
 print(a_dict.keys())
@@ -85,7 +84,7 @@ print(a_dict.keys())
 # Output: [1, 2, 3, 4, 5]
 ```
 
-- `pop(key[, default])` : removes the item at the given position (`key`) in the list, and returns its value; if no item is found, the optional `default` argument will be returned
+- `pop(key[, default])`: removes the item at the given position (`key`) in the list, and returns its value; if no item is found, the optional `default` argument will be returned
 
 ```py
 a_dict.pop(4)
@@ -96,7 +95,7 @@ print(a_dict)
 # {1: 1, 2: 4, 3: 9, 5: 25}
 ```
 
-- `popitem()` : removes an **arbitrary item** from the dictionary, and returns it; if the dictionary **is empty**, `KeyError` is returned 
+- `popitem()`: removes an **arbitrary item** from the dictionary, and returns it; if the dictionary **is empty**, `KeyError` is returned 
 
 ```py
 a_dict.popitem()
@@ -142,7 +141,6 @@ print(new)
 * `{}`
 * `fromkeys`
 * `0`
-* `dict`
 * `1`
 * `fromKeys`
 * `values`
@@ -168,3 +166,6 @@ print(???)
 ## Footnotes
 [1:Shallow Copy]
 Shallow copies are used to duplicate the minimum amount necessary. Let's say we have a collection named `A`. If we were to make a **shallow copy** of it (named `B`), we would say that `B` represents a copy of `A`s structure, not `A`s elements. Now, both `A` and `B` point to (or share) the same elements that `A` initially had.
+
+[2:Common notation]
+When reading the definition of a method, if you see something like `method(foo[, bar])` it means that the `foo` argument is **mandatory**, and the `bar` argument is **optional**.

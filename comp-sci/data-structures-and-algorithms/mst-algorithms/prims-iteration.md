@@ -35,27 +35,27 @@ parent: prims-algorithm
 
 Consider the following *weighted, connected graph*:
 
-![primsinit](https://img.enkipro.com/32aeec3823a531002b3272807fba65b9.png)
+![primsinit](https://img.enkipro.com/6b7311859751de6cfaa608c8e661e516.png)
 
 The algorithm starts off by picking a random node, say *B*. It then adds edges incident to B to the sorted container of available edges:
 
-![iter1](https://img.enkipro.com/6c9212db51278e63d9e9ab143e3e7be5.png)
+![iter1](https://img.enkipro.com/46d35429206cf9d52c4162d7e043a10a.png)
 
 Out of those edges, the cheapest one is *BA*. So it adds *A* to the tree and the new available edges to the sorted container:
 
-![iter2](https://img.enkipro.com/ec96b86d6393d3a3e763347af3e9fd13.png)
+![iter2](https://img.enkipro.com/09fe967ccf0f13887c55aaee6ff4d169.png)
 
 *AD* is picked next:
 
-![iter3](https://img.enkipro.com/181cf36172849b971a501fc3a2ead962.png)
+![iter3](https://img.enkipro.com/5ae7f44df86102a32d7f4eaf30cd113c.png)
 
 The next cheapest edge is *DE*, so it adds *E* to the tree:
 
-![alt description](https://img.enkipro.com/8f8b109ce6fc6a1b33b6e4ddb0e9095e.png)
+![alt description](https://img.enkipro.com/51bdceeefb410a4ff763d12e7560c204.png)
 
 Left with two edges that have the same weight to be picked next, the algorithm chooses the one for which the node at the other end is not already in the tree(or a random edge if neither node has been added). In the end, the minimum spanning tree will be:
 
-![final](https://img.enkipro.com/e19cbd0f6aee98dc72a1519b20ff945a.png)
+![final](https://img.enkipro.com/9b43122686b2efeedea6f29d2920e619.png)
 
 ---
 ## Practice

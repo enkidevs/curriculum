@@ -9,9 +9,6 @@ type: normal
 
 category: must-know
 
-standards:
-  web.syntax-html.4: 10
-
 aspects:
   - introduction
 
@@ -26,7 +23,17 @@ aspects:
 
 **HTML** is made up of content between `<tags>`, whereas **CSS** is made of selectors followed by a {declaration block}.
 
-When creating a website, all of your unique HTML and CSS files for the same website are usually located inside one primary folder.
+When creating a website, all of your unique HTML and CSS files for the same website are usually located inside one primary folder like so:
+
+```text
+/primary_folder
+  /html_files
+    main.html
+    contact.html
+  /css_files
+    main.css
+    contact.css
+```
 
 ---
 ## Practice

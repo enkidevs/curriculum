@@ -9,22 +9,16 @@ type: normal
 
 category: must-know
 
-standards:
-  web.layout-html.0: 10
-  web.semantic-html.0: 10
-  web.semantic-html.1: 10
-  web.semantic-html.3: 10
-
 aspects:
   - introduction
   - workout
   - deep
 
 links:
-  - '[MDN docs for aside](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/aside){website}'
+  - '[HTML <aside> Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/aside){documentation}'
 
 ---
-# Aside
+# The `<aside>` Element
 ---
 ## Content
 

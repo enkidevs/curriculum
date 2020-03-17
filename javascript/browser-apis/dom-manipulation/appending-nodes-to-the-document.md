@@ -32,14 +32,13 @@ links:
 ---
 ## Content
 
-
 Once you have created an element you need to add it to the HTML document, or it won't show up anywhere. The `appendChild` method adds an element to a parent element. You must select the desired parent element with one of the various methods available.
 
 In this example we will use the `getElementById` to select the parent, then our `initializeElement` function to create a heading and then use `appendChild` to add it to the document:
 
 ```javascript
 var container = document
-  .getElementsById('container');
+  .getElementById('container');
 
 function initializeElement(element, text) {
   var newElement = document
@@ -79,7 +78,7 @@ Fill in the blanks to add the new element to the HTML document.
 
 ```javascript
 var container = document
-  .getElementsById('container');
+  .getElementById('container');
 var paragraph = document
   .createElement('p');
 

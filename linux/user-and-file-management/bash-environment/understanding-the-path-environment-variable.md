@@ -55,7 +55,7 @@ Let's say you type a command like `ls` at the command prompt.  How does `bash` k
 Internally, when you type `ls` and hit enter, `bash` does the following (assuming the contents of `PATH` are as above):
 
 - Is `/usr/local/bin/ls` a valid executable?  If yes, run it.
-- If no, is `/usr/bin/ls` a valid executable?  If yes, run it.
+- If no, is `/local/bin/ls` a valid executable?  If yes, run it.
 - If no, is `/bin/ls` a valid executable?  If yes, run it.
 
 Here, `bash` will continue down the list until it finds `/bin/ls` and then execute that.  If `bash` reaches the end of the list without finding a valid executable it will display a `command not found` error.

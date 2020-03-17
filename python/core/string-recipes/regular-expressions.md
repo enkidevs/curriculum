@@ -2,11 +2,8 @@
 author: catalin
 
 levels:
-
   - basic
-
   - advanced
-
   - medium
 
 type: normal
@@ -15,7 +12,6 @@ category: feature
 
 
 links:
-
   - '[pymotw.com](https://pymotw.com/2/re/){website}'
   - '[docs.python.org](https://docs.python.org/3.5/howto/regex.html#regex-howto){website}'
 
@@ -23,10 +19,6 @@ aspects:
   - introduction
   - workout
   - deep
-standards:
-  python.data-structures-uses.5: 10
-  python.native-types-operations.4: 10
-
 
 ---
 
@@ -57,9 +49,9 @@ if re.search('Enki', text):
 To find start and end indexes of your match:
 ```python
 text = 'Enki is cool'
-match = re.search('Enki', text)
-print(match.start())
-print(match.end())
+matched_text = re.search('Enki', text)
+print(matched_text.start())
+print(matched_text.end())
 # 0
 # 4
 ```
@@ -69,7 +61,7 @@ print(match.end())
 
 Search the given text for the `abc` pattern:
 
-```
+```python
 import re
 text = “here is abc”
 if ???.???(‘abc’, text)

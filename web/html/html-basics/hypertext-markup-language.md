@@ -9,19 +9,13 @@ type: normal
 
 category: must-know
 
-inAlgoPool: false
-
-standards:
-  web.syntax-html.0: 10
-  web.syntax-html.4: 10
-
 aspects:
   - introduction
 
 links:
 
-  - '[First web page](http://info.cern.ch/hypertext/WWW/TheProject.html){website}'
-  - '[MDN](https://developer.mozilla.org/en-US/docs/Glossary/HTML){documentation}'
+  - '[First Web Page](http://info.cern.ch/hypertext/WWW/TheProject.html){website}'
+  - '[HTML Concept And Syntax](https://developer.mozilla.org/en-US/docs/Glossary/HTML){documentation}'
 
 
 ---
@@ -77,8 +71,6 @@ The part of the HTML that is not *displayed* in the web page itself, but helps t
 </body>
 </html>
 ```
-
-You can bookmark this insight to receive a link to the *first online web page*.
 
 ---
 ## Practice

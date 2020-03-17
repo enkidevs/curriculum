@@ -9,13 +9,6 @@ type: normal
 
 category: must-know
 
-inAlgoPool: false
-
-standards:
-  web.syntax-html.0: 10
-  web.markup-text.0: 10
-  web.markup-text.2: 10
-
 aspects:
   - introduction
 
