@@ -10,5 +10,6 @@ sections:
     - diy
     - intro-components
     - style
+  '1':
     - templates-2
     - layouts
