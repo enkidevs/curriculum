@@ -65,8 +65,8 @@ Example 2:
     type="audio/mpeg">
   <source src="some_song.ogg"
     type="audio/ogg">
-  <source src="some_song"
-    type="some_song.wav">
+  <source src="some_song.wav"
+    type="audio/wav">
      You're seeing this because
      your browser does not support
      the <audio> element.

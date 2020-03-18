@@ -61,7 +61,7 @@ Create a text link that downloads a web file and renames it with a more user-fri
 ```html
 <??? ???="???"
   ???="???">
-  Email Me
+  Download File
 <???>
 ````
 

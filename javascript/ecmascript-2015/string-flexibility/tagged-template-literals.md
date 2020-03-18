@@ -28,7 +28,7 @@ tags:
 
 links:
 
-  - '[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals){website}'
+  - '[Template Literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals){website}'
 
 
 aspects:
@@ -73,7 +73,7 @@ let money = 10;
 let compositeString = `Hi,
 I have ${money} dollars,
 and I would like to purchase :
-${itemPrice / money} ${item}s.
+${money / itemPrice} ${item}s.
 `;
 
 console.log(compositeString);

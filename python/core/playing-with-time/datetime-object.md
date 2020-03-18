@@ -89,23 +89,28 @@ print(today.strftime(format))
 ---
 ## Practice
 
-Check if `date_one` is closer to the present than `date_two`:
+Complete the gaps so that the following codeblock returns `True`:
 
 ```python
-import datetime
+from datetime import datetime
+
+date_one = datetime(2019, 12, 1)
+date_two = datetime(2019, 1, 12)
 
 if ??? ??? ???:
   print(True)
 else:
   print(False)
 
+# Output:
+# True
 ```
 
 * `date_one`
 * `>`
 * `date_two`
-* `<`
-* `Equals()`
+* `!=`
+* `=`
 
 ---
 ## Revision
