@@ -1,6 +1,6 @@
 name: Templates
 
-description: Learn where to find templates and what they are.
+description: Where to find them and what they are.
 
 insights:
   - quick-start

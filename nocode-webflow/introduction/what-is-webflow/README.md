@@ -1,6 +1,6 @@
 name: What is Webflow
 
-description: Learn what Webflow is and how to create websites without writing any code.
+description: Get introduced to Webflow and creating websites without code.
 
 insights:
   - what-is-webflow

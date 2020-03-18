@@ -1,6 +1,6 @@
 name: Basics of Web
 
-description: Learn the basics of web design and how to use Webflow.
+description: The basics of web design and using Webflow.
 
 insights:
   - webflow-the-box-model
