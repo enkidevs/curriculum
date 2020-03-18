@@ -2,6 +2,8 @@ name: Introduction
 
 description: Learn how to navigate Zapier, use templates or create your own zaps.
 
+core: true
+
 sections:
   '0':
     - what-is-zapier
