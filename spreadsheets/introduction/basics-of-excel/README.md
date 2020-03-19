@@ -7,3 +7,4 @@ insights:
   - what-is-a-sheet
   - cells
   - cells-continued
+  - spreadsheets-find-and-replace-example
