@@ -92,18 +92,3 @@ FROM pokemon
 * SUCH THAT
 * IS ONE OF
 * ['Groudon', 'Snorlax', 'Wailord']
-
----
-## Footnotes
-[1:RDBMS Implementations]
-Note that some databases may have a different implementation of the specific wildcard characters
-[2: BETWEEN]
-This can be seen as a shortcut for chaining two comparison operators with the `AND` clause:
-```sql
-SELECT * FROM table_name
-WHERE col BETWEEN 1 AND 10;
--- is the same as
-SELECT * FROM table_name
-WHERE col >= 1 AND
-  col <= 10;
-```
