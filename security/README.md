@@ -1,6 +1,6 @@
 name: Security
 
-description: Security'; DROP TABLE Topics;
+description: Learn security best practices. Includes dependency analysis, SQL injection, and more.
 
 color: 16ABB3
 

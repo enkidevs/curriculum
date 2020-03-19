@@ -1,6 +1,6 @@
 name: Comp. Sci.
 
-description: Everything you need to know to confidently tackle programming challenges.
+description: Understand how computers work, programming challenges, and more.
 
 color: 9A57C1
 

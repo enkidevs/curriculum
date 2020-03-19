@@ -1,6 +1,6 @@
 name: Java
 
-description: Classes, objects and coffee — the foundation on which Java was built.
+description: Over 3 billion devices run on Java. Need we say more?
 
 icon: https://img.enkipro.com/95a487d8d78e8e67a2ba47739623e5ee.png
 

@@ -1,6 +1,6 @@
 name: React
 
-description: Use this popular JavaScript library to create powerful user interfaces.
+description: Create powerful user interfaces. Includes hooks, props, Redux, and more.
 
 icon: https://img.enkipro.com/1d6cdc777f332daf922c8910f1550d94.png
 
