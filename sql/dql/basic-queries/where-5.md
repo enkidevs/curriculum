@@ -147,7 +147,7 @@ SELECT * FROM table_name
 WHERE col >= 1 AND
   col <= 10;
 ```
-[3: Table]
+[3:Table]
 | name       | total | hp | attack | defense |
 |------------|-------|----|--------|---------|
 | Bulbasaur  | 318   | 45 | 49     | 49      |
