@@ -25,9 +25,6 @@ links:
 ## Content
 
 Writing "good code" implies more than properly naming variables or using the right modifiers. It also refers to software design and how easily the application can be maintained and extended.
-
-### Tight Coupling
-
 **Tight coupling** is a syntagm that describes two or more classes that *know more than they should* about each other. In this case, propagating changes requires extra work. Any smartphone that has its battery soldered can be seen as a good example of *tight coupling*: if the battery wears out, *replacing it would be expensive*.
 
 ---

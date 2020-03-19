@@ -24,7 +24,6 @@ links:
 ---
 ## Content
 
-### Loose Coupling
 
 The equivalent of the relation between a smartphone whose battery you could remove yourself and the battery is called **loose coupling**. The implementation details are specific to each class, therefore reducing the dependencies. This design paradigm promotes *single responsibility* and *separation of concerns*.
 
