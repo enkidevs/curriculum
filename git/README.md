@@ -1,6 +1,6 @@
 name: Git
 
-description: Become a master in the de facto standard of version control for teams.
+description: Master the de facto standard of version control for teams.
 
 color: C17B57
 
