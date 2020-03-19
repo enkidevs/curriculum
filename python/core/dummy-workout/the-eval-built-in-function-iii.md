@@ -71,10 +71,3 @@ print(???(???(9, 3)',
 * gcd
 * math.gcd
 * sqrt
-
----
-## Footnotes
-
-[1:Scope]
-*To check the available variables and methods in a section of code, use the command `print(eval('dir()'))`, which lists them to the console. We can also see the global and local dictionary currently available using the `globals()` and `locals()` built-in methods, respectively.*
- 
