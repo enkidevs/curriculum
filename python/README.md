@@ -1,6 +1,6 @@
 name: Python
 
-description: One of the easiest languages to start coding with. But we go pretty advanced too.
+description: One of the easiest languages to learn. But we go advanced too.
 
 color: 79A551
 

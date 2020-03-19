@@ -1,6 +1,6 @@
 name: Comp. Sci.
 
-description: Understand how computers work, programming challenges, and more.
+description: Understand how computers work, tackle programming challenges.
 
 color: 9A57C1
 

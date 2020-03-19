@@ -1,6 +1,6 @@
 name: Security
 
-description: Learn security best practices. Includes dependency analysis, SQL injection, and more.
+description: Master security best practices.
 
 color: 16ABB3
 

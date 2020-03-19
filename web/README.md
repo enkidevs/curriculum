@@ -1,6 +1,6 @@
 name: Web
 
-description: All you need to know before creating your first webpage. Includes HTML, CSS, and more.
+description: Create your first webpage here. Includes HTML, CSS, and more.
 
 color: 7A57C1
 
