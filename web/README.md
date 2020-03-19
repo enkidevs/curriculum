@@ -1,6 +1,6 @@
 name: Web
 
-description: The language that styles today’s internet. From coloring and sizing, to animations and positioning, CSS has an answer for it.
+description: Create your first webpage here. Includes HTML, CSS, and more.
 
 color: 7A57C1
 
