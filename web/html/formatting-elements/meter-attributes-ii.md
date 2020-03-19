@@ -16,9 +16,12 @@ aspects:
 links:
 
 ---
-# `<meter>` Attributes (part 2)
+# More `<meter>` Attributes
+
 ---
 ## Content
+
+We've previously discussed the `value`, `low` and `high` attributes for the `<meter>` element. Let's now take a look at the rest.
 
 - The `min` attribute is used to set the lower bound of the range. If specified, the value of the `min` attribute has to be lower than the value of the `max` attribute. On the other hand, if the `min` attribute is not specified, the minimum value is set to `0`.
 
