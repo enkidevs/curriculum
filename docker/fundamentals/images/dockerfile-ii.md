@@ -33,7 +33,7 @@ Each Dockerfile instruction result gets cached.
 
 When evaluating each instruction, Docker will look for an existing image in its cache that it can reuse, rather than creating a new (duplicate) image.
 
-This is why re-building images is faster than the initial build because we can re-use cached layers.
+This is why re-building an image is faster than the initial build because we can re-use the cached layers.
 
 Whenever we change a line in the Dockerfile, the cached result for every line after it is invalidated and has to be re-computed.
 
