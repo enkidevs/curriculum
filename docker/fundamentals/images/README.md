@@ -5,5 +5,6 @@ description: Docker container blueprints
 insights:
   - docker-images
   - dockerfile
+  - dockerfile-ii
   - docker-image-tags
   - docker-image-registries
