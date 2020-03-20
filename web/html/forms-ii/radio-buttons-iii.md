@@ -17,11 +17,11 @@ links:
   - '[HTML Radio Button](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/radio){documentation}'
 
 ---
-# Radio Buttons (Part 3)
+# Default Values for Radio Buttons
 ---
 ## Content
 
-Additionally, if you want your form with radio buttons to have a default value, you should add the `checked` attribute.
+If you want your form with radio buttons to have a default value, you should add the `checked` attribute.
 
 Same example with `checked` added:
 ```html
@@ -73,7 +73,7 @@ Write the form code that creates a radio button with the button already selected
 ```html
 <??? ???="???"
      name="topic"
-     value="item" ??? >
+     value="item" ???>
 ```
 * input
 * type

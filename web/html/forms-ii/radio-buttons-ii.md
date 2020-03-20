@@ -17,7 +17,7 @@ links:
   - '[HTML Radio Button](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/radio){documentation}'
 
 ---
-# Radio Buttons
+# Creating Radio Buttons
 ---
 ## Content
 
