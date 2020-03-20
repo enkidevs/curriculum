@@ -2,18 +2,12 @@
 author: SebaRaba
 
 levels:
-
   - beginner
-
   - basic
 
 type: normal
 
 category: must-know
-
-standards:
-  python.native-types-operations.10: 10
-  python.identify-python-syntax.2: 10
 
 aspects:
   - introduction
@@ -21,18 +15,17 @@ aspects:
   - deep
 
 links:
-
   - '[Python debugger](https://www.digitalocean.com/community/tutorials/how-to-use-the-python-debugger){website}'
 
 
 ---
 
-# Python Debugger (list, step & next)
+# Python Debugger Methods
 
 ---
 ## Content
 
-Considering the **source code** exemplified in the previous insight[1], lets see how `list()` command works:
+Considering the **source code** exemplified in the previous insight[1], lets see how `list()` works:
 ```python
 (Pdb) list
 1  -> num_list = [1, 2]
@@ -48,6 +41,7 @@ Considering the **source code** exemplified in the previous insight[1], lets see
 11     if __name__ == '__main__':
 (Pdb)
 ```
+
 The current line is indicated by the `->` character. This command is provided with two **optional arguments**, they must be two `int` values which define the range of lines the user wants to list (eg: `list 5, 11`). Without providing any arguments, the `list` command prints 11 lines above and below the current line.
 
 The `step` command will **iterate** through the loops showing exactly what the **loop** is doing. The difference between `step` and `next` is that `step` will stop within a called function, while `next` executes called functions to only stop at the next line of the current function.
@@ -100,7 +94,7 @@ Finally, whenever you want to leave `pdb` console, type `quit` or `exit`.
 ## Practice
 
 What is the error this snippet will throw?
-```
+```py
 name = input('What\'s your name?\n')
 def interaction()
   print(name)
@@ -131,19 +125,33 @@ When debugging a python file with `pdb`, which command will show the step-by-ste
 ---
 ## Footnotes
 
-[1:example]
+[1:Source Code]
+Previously, we had this code:
+
 ```python
-#Program name: debug.py
+# Program name: debug.py
 
 number_list = [1, 2]  
 chars = ['a', 'b']
 
 def nested_loop():
-    for nr in number_list
-        print(nr)
-        for(char in chars)
-            print(char)
+  for nr in number_list:
+    print(nr)
+    for char in chars:
+      print(char)
 
 if __name_ == '__main__':
-    nested_loop()
+  nested_loop()
+```
+
+And we ran the debugger using:
+
+```bash
+$ python3 -m pdb debug.py
+
+#Console output:
+
+> /Users/seba/debug.py(1)<module>()
+-> num_list = [1, 2]
+(Pdb)
 ```

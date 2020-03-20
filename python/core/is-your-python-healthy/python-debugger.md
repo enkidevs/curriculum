@@ -2,18 +2,12 @@
 author: SebaRaba
 
 levels:
-
   - beginner
-
   - basic
 
 type: normal
 
 category: must-know
-
-standards:
-  python.native-types-operations.10: 10
-  python.identify-python-syntax.2: 10
 
 aspects:
   - introduction
@@ -21,9 +15,7 @@ aspects:
   - deep
 
 links:
-
   - '[Python debugger](https://www.digitalocean.com/community/tutorials/how-to-use-the-python-debugger){website}'
-
 
 ---
 
@@ -36,19 +28,19 @@ The **Python debugger** comes as a module called `pdb`, which is part of the **s
 
 We will consider a program with two **global variables**, a function that creates a **nested loop** and the `if __name__ == '__main__'` statement that calls the nested loop:
 ```python
-#Program name: debug.py
+# Program name: debug.py
 
 number_list = [1, 2]  
 chars = ['a', 'b']
 
 def nested_loop():
-    for nr in number_list
-        print(nr)
-        for(char in chars)
-            print(char)
+  for nr in number_list:
+    print(nr)
+    for char in chars:
+      print(char)
 
 if __name_ == '__main__':
-    nested_loop()
+  nested_loop()
 ```
 
 Running the **debugger** from the command line causes it to load your **source file** and stop the execution before the first statement it finds:
@@ -72,13 +64,13 @@ As the **debugger** is an interactive tool, it provides three commands for navig
 - `step`
 - `next`
 
-Which we will discuss in the next insight.
+We will take a look at how these work in the following insight.
 
 ---
 ## Practice
 
 What is the error this snippet will throw?
-```
+```py
 name = input('What\'s your name?\n')
 def interaction()
   print(name)
@@ -86,6 +78,7 @@ def interaction()
   if name is my_name:
     print("We have the same name!")
 ```
+
 ???
 
 
