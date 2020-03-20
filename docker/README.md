@@ -1,6 +1,6 @@
 name: Docker
 
-description: Docker is a tool that makes it easier to create, deploy, and run applications anywhere in a unified manner
+description: Learn how to create, deploy, and run applications anywhere.
 
 color: 4FA1D0
 
