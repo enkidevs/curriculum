@@ -1,6 +1,6 @@
 name: Zapier
 
-description: Connect applications to automate repetitive tasks, without using any code.
+description: Automate tasks by connecting applications. No code involved!
 
 color: FF4A00
 
