@@ -33,7 +33,6 @@ You might already remember `count()` which, given a starting number and a step (
 
 `cycle()` simply creates an infinite list from a finite one by returning to the beginning once the iteration reaches the end. `repeat()` just creates a list of length n (infinite if not provided) where every element in the series is the element given as an argument, duplicated.
 
-More interesting are the iterators which terminate on the shortest input sequence, such as `chain()`, `filterfalse()` and `compress()`. Which we will discuss in the next insight.
 
 
 ---
