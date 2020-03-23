@@ -36,4 +36,11 @@ A *path* is **simple** if it contains each edge and vertex at most *once*. If a 
 
 Given an edge between two vertices *u* and *v*, we could say that *u* **reaches** *v* and *v* is **reachable** from *u*. In case of an undirected edge, the converse is also true: *v* **reaches** *u* and *u* is **reachable** from *v*.
 
+---
+## Practice
 
+If the path starts and ends with the same vertex, having more than one edge, it is called a ???.
+
+
+* Cycle
+* Simple Cycle
