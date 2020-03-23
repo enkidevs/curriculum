@@ -14,7 +14,7 @@ category: how to
 
 ---
 
-# Querying a Collection with $in & $or
+# `$in` & `$or`
 
 ---
 ## Content
@@ -114,4 +114,3 @@ Find all the documents within the `pokemon` collection that have a `type` that's
 * `db.Pokemon.find({ type: [ "Water","Fire" ] })`
 * `db.pokemon.find({ $in: [ "Water","Fire" ] })`
 * `db.pokemon.find({ $or: { type: ["Water","Fire"] } })`
-
