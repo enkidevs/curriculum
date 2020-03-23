@@ -24,7 +24,7 @@ parent: the-graph-data-structure
 ---
 ## Content
 
-A graph is **connected** if between every vertex in the graph, there is a *path*. The graph in the previous insight[1] was connected, while the one below isn't (you cannot get from *A* to *B*, for example):
+A graph is **connected** if between every vertex in the graph, there is a *path* (here's an example[1]). Below you can see a graph that isn't connected (you cannot get from *A* to *B*, for example):
 
 ![notconnected](https://img.enkipro.com/e59ce9c8052bc0aed3ef2ec9db706c1d.png)
 
