@@ -88,4 +88,4 @@ The working principle behind a queue is
 ## Footnotes
 
 [1:ADT]
-This is just an abreviation for the Abstract Data Structure, hence ADT.
+Abstract Data Type, or ADT, means the data type cannot be implemented (i.e. represented) by itself and it needs some kind of 'support' in order to be used.
