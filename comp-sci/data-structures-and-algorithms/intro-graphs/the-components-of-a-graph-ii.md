@@ -19,7 +19,7 @@ parent: the-graph-data-structure
 
 ---
 
-# The Components of a Graph
+# More Components of a Graph
 
 ---
 ## Content
