@@ -57,4 +57,8 @@ In order to avoid this problem, `long` and `double` values need to be granted at
 private volatile long i = 0;
 ```
 
-Making the field `volatile` will guarantee its atomicity.
+We've previously said that making the field `volatile` **will not guarantee its atomicity**. This is true, especially in the case of operations that require more than one read or write.
+
+Making a variable `volatile` will guarantee that **each individual read or write operation** on the variable will be atomic.
+
+If you have more than one read or write operation (e.g. `i = i + 1`), this **will not be atomic**.
