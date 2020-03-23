@@ -28,17 +28,17 @@ parent: dijkstras-algorithm
 
 Consider the following undirected, weighted graph, for which **A** is the initial node:
 
-![weightedg](https://img.enkipro.com/c0c22c8c486d5da2014a047ece15c2ea.png)
+![weightedg](https://img.enkipro.com/44f09a4a8eb3cbe2fab4a851f86ed8f9.png)
 
 The initial three steps required by the algorithm are taken: assigning the starting node, *A*, setting the distance between *A* and every node to `inf` and marking *A* as the current node.
 
 The next step is updating the distance from **A** to all reachable nodes. In this case, every vertex is reachable, so we update the distance for all of them and mark *A* as visited:
 
-![iter1](https://img.enkipro.com/6487414eb44d0495f15211a4f9ff5f78.png)
+![iter1](https://img.enkipro.com/49f65650c7564a9fdcf81acc7c3fd4df.png)
 
 If you prioritize the current smallest distance for the next node to be visited, **C** is the one to go to. Exactly as we did with A, we check C's neighbors and update their distances to A[1]. In this case, there is only D:
 
-![iter2](https://img.enkipro.com/fdb0fe716f5361010f0791179ef09c22.png)
+![iter2](https://img.enkipro.com/30c7a2795cb6d2f1ff134bc4238df3bd.png)
 
 The distance from **C** to **D** is 3. This means that the distance between **A** and **D**(through C) is:
 ```text
@@ -48,7 +48,7 @@ AD = 20
 ```
 So, we update the current distance. There are 3 more nodes to visit (*D*, *E* and *B*, in this order), but we'll jump straight to the final state as the process repeats itself:
 
-![final](https://img.enkipro.com/842d1d3e36f562dac47c39561dd075c7.png)
+![final](https://img.enkipro.com/7c604771a4d9e2c54e5b364342e40ff8.png)
 
 In the end, we are left with:
 ```

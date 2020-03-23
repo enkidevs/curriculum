@@ -9,9 +9,6 @@ type: normal
 
 category: must-know
 
-standards:
-  web.embed-media.3: 10
-
 aspects:
   - introduction
   - workout
@@ -19,10 +16,10 @@ aspects:
 
 links:
   - '[A walkthrough on w3schools](https://www.w3schools.com/tags/tag_embed.asp){documentation}'
-  - '[Official documentation on MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/embed){documentation}'
+  - '[MDN: <embed> Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/embed){documentation}'
 
 ---
-# Embed
+# The `<embed>` Element
 
 ---
 ## Content
@@ -42,7 +39,7 @@ The `<embed>` element was introduced in HTML5. It has to have a starting tag and
 
 **Important:**
   - **Not all mobile devices support plug-ins.**
-  - **Many modern browsers have deprecated and removed the support for plug-ins, so using the `<embed>` element is not that good anymore.**
+  - **Many modern browsers have deprecated and removed the support for plug-ins, so using the `<embed>` element is no longer recommended.**
   - **For implementing audio you should use the `<audio>` element, and for implementing video you should use the `<video>` element.**
 
 

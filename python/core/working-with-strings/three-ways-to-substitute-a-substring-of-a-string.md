@@ -26,7 +26,7 @@ standards:
 ---
 ## Content
 
-1) `string.Template`
+- `string.Template`
 ```python
 import string
 t = string.Template("Hello $name")
@@ -35,7 +35,7 @@ print(t.substitute(name='Ted'))
 ```
 `$identifier` names a substitution placeholder matching a mapping key of "identifier".
 
-2) `percent-style`
+- `percent-style`
 
 ```python
 t = "Hello %(name)s"
@@ -44,7 +44,7 @@ print(t % dict(name='Ted'))
 ```
 General form: `f % v`, where `f` is the template string and `v` specifies the value.
 
-3) `curly-bracket`
+- `curly-bracket`
 ```python
 t = "Hello {name}"
 print(t.format(name='Ted'))
@@ -54,7 +54,7 @@ Format strings contain “replacement fields” surrounded by curly braces `{}`.
 
 ### Update: 
 
-4) There is a new and improved way of formatting strings in Python called `f-strings`.
+- There is a new and improved way of formatting strings in Python called `f-strings`.
 
 It is the easiest way to format strings and is done like so:
 ```python

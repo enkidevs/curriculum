@@ -23,7 +23,7 @@ aspects:
 
 links:
 
-  - '[Working with tries](https://medium.com/algorithms/trie-prefix-tree-algorithm-ee7ab3fe3413){website}'
+  - '[Working With Tries](https://medium.com/algorithms/trie-prefix-tree-algorithm-ee7ab3fe3413){website}'
 
 parent: o-logn-operations-for-heaps
 
@@ -40,7 +40,7 @@ Unlike a *binary search tree*, an element of a trie isn't a *independent entity*
 
 The best example that uses the trie data structure is the autocomplete function of smartphones: the entry node represents the empty character as you press space, then it gives suggestions of words (represented as leaves) that can be obtained extending the current character sequence (path between the current node and a leaf).
 
-![trie](https://img.enkipro.com/be6eba090e3f75cdbb91821908044599.png)
+![trie](https://img.enkipro.com/a5ed10e77fadaabfbe50f952564b9916.png)
 
 A node that has a *value associated* represents a word with a higher or lower chance to be picked by the autocomplete function.
 

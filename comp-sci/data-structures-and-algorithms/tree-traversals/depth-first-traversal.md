@@ -34,11 +34,11 @@ parent: tree-traversals
 
 Let's consider the following tree:
 
-![treeex](https://img.enkipro.com/1c13273b9f66077ab3950c52164984cc.png)
+![treeex](https://img.enkipro.com/857d47ddc50f5dfa0e2947ab092854df.png)
 
 Following DFS pattern, the order in which the nodes are visited is:
 
-![traversal](https://img.enkipro.com/00f178be5b321c29cb0980c16150f2a2.png)
+![traversal](https://img.enkipro.com/8cbe39d23bafa7a3d22e602e248a7132.png)
 
 Which yields the sequence:
 ```text

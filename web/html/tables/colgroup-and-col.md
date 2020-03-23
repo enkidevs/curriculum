@@ -9,10 +9,6 @@ type: normal
 
 category: must-know
 
-standards:
-  web.syntax-html.1: 1000
-  web.layout-html.1: 1000
-
 tags:
   - workout
   - deep
@@ -25,7 +21,7 @@ aspects:
 links:
 
 ---
-# Colgroup & col
+# The `<colgroup>` & `<col>` Elements
 ---
 ## Content
 

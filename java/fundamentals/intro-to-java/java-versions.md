@@ -15,6 +15,10 @@ aspects:
 
 inAlgoPool: false
 
+links:
+  - '[Java Version History](https://en.wikipedia.org/wiki/Java_version_history){website}'
+  - '[Official Support Roadmap](https://www.oracle.com/technetwork/java/java-se-support-roadmap.html){website}'
+
 ---
 
 # Java Versions
@@ -22,35 +26,25 @@ inAlgoPool: false
 ---
 ## Content
 
-A little history for you. Java was first released in 1995. Since then, there have been 9 other major versions, Java 10 being the latest publicly available one.
+Here's a little history for you. Java was first released in 1995, and since then there have been many major versions. 
 
-Even though there have been continuous improvements before *Java 5* as well, this version introduced a lot of new features and bug fixes that pushed Java to the top of the most used programming languages.
+With continuous improvements, the Java team has introduced a lot of new features and bug fixes, pushing it to the top of the most used programming languages.
 
 From a couple of hundred classes in *Java 1.0*, Java had grown to three thousand classes in *Java 5*. By *Java 8*, the number grew to be around 4300 classes.
 
-Transitioning from one version to another has always left room for problems. Usually backporting (making new features available to older versions) was the most troublesome. Deprecated classes or optimizations made to the existing ones were also reasons for code to break.
+Transitioning from one version to another has always left room for problems. Usually backporting (making new features available to older versions) was the most troublesome. Deprecated classes or optimizations made to the existing ones were also reasons for code to break. One way to prevent this from happening was to stop public support for older versions.
 
-One way to prevent this from happening was to stop public support for older versions - which has now happened. As of 2015, *Java 8* is the only publicly supported version.
-
-*Java 8* ends public support by the year 2023.
-
-There are 4 new versions of *Java* that were released after *Java 8*. 
-
-*Java 9*, released in September 2017 and *Java 10*, released in March 2018 both had a total of around 6000 classes and are old versions that have stopped public support in 2018. 
-
-*Java 11*, released September 2018 is not the latest version, nevertheless, it will have public support until the year 2022.
-
-As of March 2019, *Java 12* is the latest version of *Java* and the amount of classes has decreased to around 4400.
+Because of the reasons mentioned above, the *latest* Java version is always subject to change. To check support availability you can either go on the [Java version history wiki](https://en.wikipedia.org/wiki/Java_version_history) or check the [official support roadmap](https://www.oracle.com/technetwork/java/java-se-support-roadmap.html).
 
 ---
 
 ## Practice
 
-Roughly how many classes are in **Java** version 12?
+Roughly how many classes are in **Java**?
 
 ???
 
-* 4400
+* 4300
 * 10
 * 100
 * 1000

@@ -40,7 +40,7 @@ A heap that supports the `find-max` operation is called a *max heap* while a hea
 
 A common implementation of a heap is a *binary heap*, in which the trees are all complete binary trees. *Complete* means that every level of the tree is filled, except possibly the last level.  Here is a picture of a max heap as a complete binary tree:
 
-![heapds](https://img.enkipro.com/0ef2c2024f4caea6ece3c84778dd79fe.png)
+![heapds](https://img.enkipro.com/5298558ee2aa4b08af53ccc6e264e4ba.png)
 
 Finding the maximum element is easy — it's the root node — but storing the information in a tree with the heap property allows for `O(log n)`-time insertion and removal. We'll see how shortly.
 

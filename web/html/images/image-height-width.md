@@ -9,15 +9,12 @@ type: normal
 
 category: must-know
 
-standards:
-  web.embed-media.0: 10
-
 aspects:
   - introduction
   - workout
 
 links:
-  - '[Documentation on MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img){documentation}'
+  - '[HTML <img> Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img){documentation}'
 
 ---
 # Image Height & Width

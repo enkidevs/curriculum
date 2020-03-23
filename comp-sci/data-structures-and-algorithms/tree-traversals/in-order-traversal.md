@@ -39,12 +39,12 @@ It works like this:
 
 For the same tree:
 
-![traversalex](https://img.enkipro.com/7d4525e1f72729a78d4c19916b2e3ff5.png)
+![traversalex](https://img.enkipro.com/a60c49e26c0b710b7fd170527d2adf93.png)
 
 
 *In-order traversal* will visit nodes in the following order:
 
-![inorder](https://img.enkipro.com/2c3117bd74d5987724852f380ef22a1e.png)
+![inorder](https://img.enkipro.com/9a551ec21baec6ae9651535be19ad38b.png)
 
 With the output:
 ```

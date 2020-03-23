@@ -36,7 +36,7 @@ The new key is first compared with that of the root.  If its key is less than th
 
 Consider the following BST:
 
-![i1](https://img.enkipro.com/5c17619576f824570907091721075ed4.png)
+![i1](https://img.enkipro.com/7d6936b6e83091631f9eeb09c2d2ebe6.png)
 
 Let's say we wanted to insert the key `4`.  To do so, the procedure would work as follows:
 
@@ -47,7 +47,7 @@ Let's say we wanted to insert the key `4`.  To do so, the procedure would work a
 
 The final result is a BST that looks like this:
 
-![i2](https://img.enkipro.com/3b5af4431116f9fbdb1a46f3f9dd78ae.png)
+![i2](https://img.enkipro.com/5d32d488258cf59c725595ba4baedde5.png)
 
 ## Order Dependence
 

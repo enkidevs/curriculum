@@ -18,10 +18,10 @@ aspects:
   - introduction
 
 links:
-  - '[MDN docs for time](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/time){website}'
+  - '[HTML <time> Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/time){documentation}'
 
 ---
-# Intro time
+# Intro `<time>`
 ---
 ## Content
 
@@ -94,7 +94,7 @@ Example:
 ```
 Result:
 
-![element-time-1](%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22320%22%20height%3D%2256%22%3E%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%3Crect%20width%3D%22320%22%20height%3D%2256%22%20fill%3D%22%23FFF%22%20rx%3D%229%22%2F%3E%3Ctext%20fill%3D%22%23000%22%20font-family%3D%22Roboto-Regular%2C%20Roboto%22%20font-size%3D%2216%22%3E%3Ctspan%20x%3D%2220%22%20y%3D%2234%22%3EThe%20class%20starts%20at%2008%3A00.%3C%2Ftspan%3E%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fsvg%3E)
+![element-time-1](https://img.enkipro.com/5c7f2e3b34d43cb42042e0b722cff81f.png)
 
 [View CodePen](https://codepen.io/enkidevs/pen/qyROGe)
 
@@ -110,7 +110,7 @@ Date of birth:
 ```
 Result:
 
-![element-time-2](%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22320%22%20height%3D%2273%22%3E%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%3Crect%20width%3D%22320%22%20height%3D%2273%22%20fill%3D%22%23FFF%22%20rx%3D%229%22%2F%3E%3Ctext%20fill%3D%22%23000%22%20font-family%3D%22Roboto-Regular%2C%20Roboto%22%20font-size%3D%2216%22%3E%3Ctspan%20x%3D%2220%22%20y%3D%2234%22%3EDate%20of%20birth%3A%20December%206%2C%201993%20at%20%3C%2Ftspan%3E%20%3Ctspan%20x%3D%2220%22%20y%3D%2253%22%3E18%3A12%3A24%3C%2Ftspan%3E%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fsvg%3E)
+![element-time-2](https://img.enkipro.com/522c250380d236a6eba0cbe53555d171.png)
 
 [View CodePen](https://codepen.io/enkidevs/pen/oMBbvN)
 
@@ -124,7 +124,7 @@ Example with datetime:
 ```
 Result:
 
-![element-time-3](%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22320%22%20height%3D%2256%22%3E%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%3Crect%20width%3D%22320%22%20height%3D%2256%22%20fill%3D%22%23FFF%22%20rx%3D%229%22%2F%3E%3Ctext%20fill%3D%22%23000%22%20font-family%3D%22Roboto-Regular%2C%20Roboto%22%20font-size%3D%2216%22%3E%3Ctspan%20x%3D%2220%22%20y%3D%2234%22%3EWW2%20ended%20September%202%2C%201945.%3C%2Ftspan%3E%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fsvg%3E)
+![element-time-3](https://img.enkipro.com/2da767e543dbe16abb35d97344d23339.png)
 
 [View CodePen](https://codepen.io/enkidevs/pen/MBJKgB)
 

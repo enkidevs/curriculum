@@ -9,19 +9,15 @@ type: normal
 
 category: must-know
 
-standards:
-  web.syntax-html.0: 10
-  web.markup-text.0: 10
-
 aspects:
   - introduction
 
 links:
-  - '[style element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/style){documentation}'
+  - '[HTML <style> Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/style){documentation}'
 
 ---
 
-# Style element
+# The `<style>` Element
 
 ---
 

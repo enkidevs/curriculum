@@ -39,12 +39,12 @@ def print_info(name, age, gender):
   print ('Name: ', name)
   print ('Age: ', age)
   print ('Gender: ', gender)
-  return;
+  return
 
 n = 'Doris'
 a = 20
 g = 'female'
-print_info(n, a);
+print_info(n, a)
 ```
 Because the function was defined with three parameters, but the call presented only two parameters the following error will result:
 ```
@@ -68,11 +68,11 @@ def print_info(name, age, gender):
   print ('Name: ', name)
   print ('Age: ', age)
   print ('Gender: ', gender)
-  return;
+  return
 
 print_info(name = 'Seba',
            gender = 'male',
-           age = 21);
+           age = 21)
 ```
 The following output will be generated:
 ```
@@ -89,10 +89,10 @@ def print_info(name, gender, age = 20):
   print ('Name: ', name)
   print ('Age: ', age)
   print ('Gender: ', gender)
-  return;
+  return
 
 
-print_info(name = 'Seba', gender = 'male');
+print_info(name = 'Seba', gender = 'male')
 ```
 
 Our function will print the following:
@@ -127,7 +127,7 @@ def foo(name, salary = 1500, department):
 name = 'John'
 department = 'IT'
 
-foo(name, department);
+foo(name, department)
 ```
 ???
 
