@@ -51,7 +51,7 @@ $ python3 -m pdb debug.py
 #Console output:
 
 > /Users/seba/debug.py(1)<module>()
--> num_list = [1, 2]
+-> number_list = [1, 2]
 (Pdb)
 ```
 
