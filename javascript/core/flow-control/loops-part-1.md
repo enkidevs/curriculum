@@ -24,6 +24,9 @@ tags:
 aspects:
   - introduction
 
+links: 
+  - '[For Loops](https://youtu.be/24Wpg6njlYI){video}'
+  - '[While / Do While loops](https://youtu.be/v9zgD8wjtbw){video}'
 
 ---
 

@@ -117,10 +117,11 @@ The resulting set will be:
 
 Select all the columns from the `pokemon` table, keeping only the rows where the name is one of: `'Groudon'`, `'Snorlax'` or `'Wailord'`.
 
-`SELECT * `
-`FROM pokemon`
+```sql
+SELECT * 
+FROM pokemon
 ??? ??? ??? ???;
-
+```
 
 * WHERE
 * name
@@ -135,10 +136,11 @@ Select all the columns from the `pokemon` table, keeping only the rows where the
 
 Select all the columns from the `pokemon` table, keeping only the rows where the name ends with the string `'saur'`.
 
-`SELECT * `
-`FROM pokemon`
+```sql
+SELECT * 
+FROM pokemon
 ??? ??? ??? ???;
-
+```
 
 * WHERE
 * name

@@ -2,21 +2,17 @@
 author: catalin
 
 levels:
-
   - basic
-
   - advanced
-
   - medium
 
 type: normal
 
 category: how to
+
 aspects:
   - introduction
   - workout
-standards:
-  python.native-types-operations.4: 10
 
 links:
 
@@ -30,43 +26,80 @@ links:
 ---
 ## Content
 
-These are some common built-in list methods.
+These are some common built-in list methods. Consider the following list:
+```py
+list_a = [1, 2, 3, 4, 5]
+```
 
 To extend one list with the contents of another list:
 ```python
+list_b = [6, 7]
+
 list_a.extend(list_b)
+print(list_a)
+# [1, 2, 3, 4, 5, 6, 7]
 ```
+
 Reverse the items in a *list*:
 ```python
 list_a.reverse()
+
+print(list_a)
+# [7, 6, 5, 4, 3, 2, 1]
 ```
+
 Remove a *specific item*:
 ```python
+item = 7
 list_a.remove(item)
 # will remove only the first
 # occurrence of the `item`
-```
-Remove and return an element at a given *index* (if no `index` is specified, it will remove and return the last item in the *list*):
-```python
-list_a.pop([index])
+
+print(list_a)
+# [6, 5, 4, 3, 2, 1]
 ```
 
-Return a new sorted *list*:
+Remove and return an element at a given *index* (if no `index` is specified, it will remove and return the last item in the *list*):
 ```python
-list_a.sort(key=None,reverse=False)
+index = 3
+list_a.pop(index)
+# Output: 3
+
+print(list_a)
+# [6, 5, 4, 2, 1]
+
+list_a.pop()
+# Output: 1
+print(list_a)
+# [6, 5, 4, 2]
 ```
+
+If you want to sort the list, you could use `sort`. This method will sort the list **in-place**, mutating list indices, and in the end it returns `None`.
+```python
+list_a.sort(key=None, reverse=False)
+print(list_a)
+# [2, 4, 5, 6]
+```
+
 `key` specifies a function of one argument that is used to extract a *comparison key* (e.g.`key=str.lower`). If no key is specified, elements will be compared directly.
 
 If `reverse` is set to `True`, list elements are sorted as each comparison were reversed.
 
 Insert an element at a given *index*:
 ```python
+index = 2
+item = 6
 list_a.insert(index, item)
+
+print(list_a)
+# [2, 4, 6, 5, 6]
 ```
 
 Get the number of occurrences of an *item*:
 ```python
+item = 6
 list_a.count(item)
+# Output: 2
 ```
 
 ---

@@ -2,11 +2,9 @@
 author: tommarshall
 
 tags:
-
   - introduction
 
 levels:
-
   - beginner
 
 type: normal
@@ -14,14 +12,11 @@ type: normal
 category: must-know
 
 inAlgoPool: false
+
 aspects:
   - introduction
 
-standards:
-  python.native-types-operations.0: 10
-
 links:
-
   - '[is operator](http://stackoverflow.com/questions/13650293/understanding-pythons-is-operator){website}'
 
 
@@ -39,12 +34,13 @@ Python's `is` operator is used to match instances of variables, instead of match
 For example:
 
 ```python
-str = 'python'
-istr = str
+a_string = 'python'
+another_string = a_string
 
-istr is str
+another_string is a_string
 # prints true
 ```
+
 Whereas:
 
 ```python

@@ -63,14 +63,13 @@ If you install the *GitHub* client application (repository hosting service), whi
 ---
 ## Revision
 
-Will **Git** also be installed when you would install **GitHub** ?
+Choose the operating system on which **Git** can be installed.
 
 ???
 
-
-* Yes
-* No
-* Only on Mac OS X
-* Only on Linux
+* All of the above.
+* Windows
+* Mac OS X
+* Linux
 
  

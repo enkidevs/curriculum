@@ -11,12 +11,6 @@ type: normal
 
 category: how to
 
-standards:
-  javascript.data-types-structures.2: 10
-  javascript.data-types-structures.3: 10
-  javascript.data-types-structures.6: 10
-  javascript.functions.4: 10
-
 aspects:
   - introduction
   - workout
@@ -26,25 +20,25 @@ notes: ''
 
 ---
 
-# Get a random item from an Array
+# Get a Random Item From an Array
 
 ---
 ## Content
 
 Given the array:
 
-```
+```js
 var food = ["Sushi", "Pizza", "Tacos"];
 ```
 
-Select an item using `Math.random()` with a range of `food.length`.
-```
+Select an item using `Math.random()` with a range of `food.length`[1].
+```js
 var randIndex =
   Math.floor(Math.random() * food.length);
 ```
 
 Now, print out the result.
-```
+```js
 console.log("Let's get " + food[randIndex]);
 ```
 
@@ -53,7 +47,7 @@ console.log("Let's get " + food[randIndex]);
 
 How would you select a fruit at random
 from the array `fruits`?
-```
+```js
 var fruits =[oranges, apples, banana];
 
 var index =
@@ -74,7 +68,7 @@ console.log("the random fruit is"
 
 How would you select a fruit at random
 from the array `fruits`?
-```
+```js
 var fruits =[oranges, apples, banana];
 
 var index =
@@ -90,3 +84,9 @@ console.log("the random fruit is"
 * ceil
 * wall
  
+---
+## Footnotes
+
+[1:Explanation]
+
+The `Math.random()` function returns a random number between 0 and 1 (inclusive of 0 but non-inclusive of 1). By multiplying this with the length of the array (3), we will return a random number `x` which has the following bounds `0 < x < 2.99999...`. If we call `Math.floor()` to `x`, the result will be a random number between 0 and 2 inclusively.

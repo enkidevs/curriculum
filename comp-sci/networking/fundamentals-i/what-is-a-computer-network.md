@@ -2,7 +2,6 @@
 author: SebaRaba
 
 levels:
-
   - beginner
 
 type: normal
@@ -10,13 +9,7 @@ type: normal
 category: must-know
 
 aspects:
-
   - introduction
-
-links:
-
-  - '[www.explainingcomputers.com](http://www.explainingcomputers.com/networking.html){website}'
-
 
 ---
 
@@ -52,7 +45,6 @@ Within a computer network, what do we call devices that send, route, or receive 
 
 ???
 
-
 * nodes
 * hardware
 * software
@@ -70,4 +62,3 @@ Such examples are:
 - routers
 - modems
 - switches
-

@@ -42,7 +42,7 @@ The nodes in a family tree have a value and a list of references to their childr
 
 More formally, a **linked tree T** is a set of **nodes** which have a **parent-child** relationship:
 - If *T is non-empty*, it must have a node, called a *root*, without a parent.
-- Every *node* other than the root has an unique parent *w*; these nodes are the children of *w*.
+- Every *node* other than the root has a unique parent *w*; these nodes are the children of *w*.
 
 A tree is **ordered** if there is a *linear* relation among the *nodes on each level*. The way a book is structured exemplifies this:
 - The actual document, the book, is the *root*.
