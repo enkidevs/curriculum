@@ -2,7 +2,6 @@
 author: mihaiberq
 
 levels:
-
   - basic
 
 type: normal
@@ -10,9 +9,7 @@ type: normal
 category: tip
 
 aspects:
-
   - workout
-
   - deep
   
 ---
@@ -36,12 +33,16 @@ User john = new User("John");
 // which has a single argumet of type String
 // "new Class[] { String.class }""
 Method toTest = User
+  .getClass
   .getDeclaredMethod("checkPassHash",
     new Class[] { String.class });
 // make it accessible
 toTest.setAccessible(true);
 // call "checkPassHash()" method on john
-toTest.invoke(john);
+toTest.invoke(
+  john,
+  "test hash"
+);
 
 
 public class User {
@@ -60,12 +61,9 @@ The last option would be to **refactor** said class. Maybe the class to be teste
 ---
 ## Practice
 
-Is the following statement true?
-
-```
 JUnit can test private methods by itself.
+
 ???
-```
 
 * False
 * True
