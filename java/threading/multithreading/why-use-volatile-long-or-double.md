@@ -33,7 +33,7 @@ notes: >-
 ---
 ## Content
 
-When multi threading read/writes operations with 64 bit values, you need to take into consideration that `long` and `double` values are not atomic. That means that a single write or read is treated as two separate operations: one to each `32 bit` half.
+When multi threading read/writes operations with 64 bit values, you need to take into consideration that `long` and `double` values are not atomic[1]. That means that a single write or read is treated as two separate operations: one to each `32 bit` half.
 
 ```java
 class SampleLong { 
@@ -58,3 +58,9 @@ private volatile long i = 0;
 ```
 
 Making a variable `volatile` will guarantee that **each individual read or write operation** on the variable will be atomic. If you have more than one read or write operation (e.g. `i = i + 1`), this **will not be atomic**. This does not only apply to `long` and `double` variables, but also to all other types.
+
+---
+## Footnotes
+
+[1:Atomic]
+In programming, an operation (or a set of operations) is considered atomic if it appears to the rest of the system as a single, indivisible step.
