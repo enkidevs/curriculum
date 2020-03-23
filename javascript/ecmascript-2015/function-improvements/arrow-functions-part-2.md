@@ -87,7 +87,7 @@ At first glance, you would expect the `counter` property to be 0, because each s
 
 This means that in the `countUp()` function, `this` will be the global object which is different from the `this` pointing to the instance of `Counter`.
 
-On the other hand, arrow functions always treat `this` like a variable from the upper scope, no matter how we call them. This leads to the `countDown()` function modifying the `counter` property on the instance of `Counter`.
+On the other hand, arrow functions always treat `this` like a variable from the upper scope, no matter how we call them. This leads to the `countDown()` function modifying the `counter` property on the instance of `Counter`. If you're still unsure on how this works, we've added some comments to the example in this footnote[1].
 
 ---
 ## Practice
