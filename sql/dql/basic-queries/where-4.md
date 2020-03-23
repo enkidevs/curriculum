@@ -27,12 +27,10 @@ aspects:
 
 ---
 
-# WHERE (4)
+# LIKE, IN, BETWEEN
 
 ---
 ## Content
-
-### `LIKE`, `IN`, `BETWEEN`
 
 SQL provides a bunch of special operators to help you write complex querying conditions. More specifically, in the next two insights, we will take a look at:
 
