@@ -26,15 +26,12 @@ aspects:
 
 ---
 
-# WHERE (AND & NOT)
+# AND, OR & NOT
 
 ---
 ## Content
 
-### `AND`, `OR`, `NOT`
-
 As you have seen in the previous insight, the predicates we use in `WHERE` can be conjoined using logical operators like `AND`, `OR` and `NOT`. These operators are used in combination with filtering conditions (e.g. `salary > 1000`) and can be used for:
-
 - returning records for which two (or more) conditions are true at the same time with `AND`
 - returning records for which any of two (or more) conditions are true with `OR`
 - negating a condition with `NOT`
