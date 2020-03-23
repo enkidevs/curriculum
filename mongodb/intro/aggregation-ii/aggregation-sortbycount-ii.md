@@ -22,7 +22,8 @@ category: tip
 
 We can use the `$match` aggregation stage to only match documents of a certain `type` followed by sorting by count for documents that match our specified `type`.
 
-For instance, let's say we want to count and sort documents by their `secondType`, but we are only interested in documents where the `type` is `"Water"`. We can do so like this:
+Let's say we want to count and sort documents by their `secondType`, but we are only interested in documents where the `type` is `"Water"`. We can do so like this:
+
 ```javascript
 db.pokemon.aggregate([
   {
