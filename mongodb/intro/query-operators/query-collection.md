@@ -113,15 +113,17 @@ The above search returns only the documents that have `type` equal to `"Grass"` 
 ---
 ## Practice
 
-Fill in the blanks to create a simple query that finds all pokemon of `type: Mud` in the `pokemon` collection.
+Fill in the blanks to create a simple query that finds all `"Mud"` type pokémon in the `pokemon` collection.
 
 ```js
-???{
- ???
+db.???.find({
+  ???: ???
 });
 ```
 
-* db.pokemon.find(
-* type: "Mud"
-* db.Pokemon.find(
-* TYPE: "MUD"
+* pokemon
+* type
+* "Mud"
+* Pokemon
+* TYPE
+* Mud
