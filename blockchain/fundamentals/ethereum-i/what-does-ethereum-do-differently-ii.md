@@ -27,6 +27,8 @@ aspects:
 ---
 ## Content
       	       
+Ethereum is different than Bitcoin in many ways. It has an account model, special transactions, a programming language (called Solidity) and token standards. In this insight we'll take a look at some of those differences.
+
 ### Solidity
 
 **Solidity** is Ethereum's most popular programming language. All you have to do is throw some Solidity code (similar to JavaScript in syntax) into a `.sol` file and deploy the smart contract on the blockchain. There are a few tools you can use, but probably the easiest to set-up is `Remix`[1] compiler.
@@ -68,4 +70,3 @@ Identify the programming language used to write smart contracts on the Ethereum 
 * Java
 * C++
 * Ethereum
-
