@@ -21,6 +21,8 @@ links:
 ---
 ## Content
 
+Using the `useEffect()` hook with a dependency array might lead to some unexpected bugs. This is due to how the comparison is made. Instead of the value being compared, React compares the references. In this insight, we'll take a look at how to avoid any issues. 
+
 The first consists of moving the dependency array outside of the component, although in some cases this might not be possible.
 
 ```js
