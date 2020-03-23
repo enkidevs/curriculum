@@ -27,14 +27,14 @@ aspects:
 
 ---
 
-# WHERE  (LIKE & BEWTEEN)
+# LIKE & BEWTEEN
 
 ---
 ## Content
 
-Considering this table[3].
+The `WHERE` keyword can be coupled with the `LIKE`, `IN`, and `BETWEEN` operators to create more complex querie conditions. Using this table[1], we'll take a look at how `LIKE` and `BETWEEN` behave.
 
-The `LIKE` statement accepts a pattern string, where wildcard characters are used to denote an acceptable pattern[1].
+The `LIKE` statement accepts a pattern string, where wildcard characters are used to denote an acceptable pattern[2].
 
  - `%` is a **wildcard**. This means it counts for a string of any characters of any length, including nothing.
  - `_` represents only one character.
@@ -54,7 +54,7 @@ The result of this statement is the two rows of the Pokémon whose names end in 
 | Squirtle  | 314   | 44 | 48     | 65      |
 | Wartortle | 405   | 59 | 63     | 80      |
 
-You can use the `BETWEEN` operator[2] to define a range of acceptable values, like so:
+You can use the `BETWEEN` operator[3] to define a range of acceptable values, like so:
 
 ```sql
 SELECT *
@@ -135,19 +135,7 @@ Choose the query that will get all the location records that are based in region
 
 ---
 ## Footnotes
-[1:RDBMS Implementations]
-Note that some databases may have a different implementation of the specific wildcard characters
-[2: BETWEEN]
-This can be seen as a shortcut for chaining two comparison operators with the `AND` clause:
-```sql
-SELECT * FROM table_name
-WHERE col BETWEEN 1 AND 10;
--- is the same as
-SELECT * FROM table_name
-WHERE col >= 1 AND
-  col <= 10;
-```
-[3:Table]
+[1:Table]
 | name       | total | hp | attack | defense |
 |------------|-------|----|--------|---------|
 | Bulbasaur  | 318   | 45 | 49     | 49      |
@@ -161,3 +149,15 @@ WHERE col >= 1 AND
 | Blastoise  | 530   | 79 | 83     | 100     |
 | Caterpie   | 195   | 45 | 30     | 35      |
 | Metapod    | 205   | 50 | 20     | 55      |
+[2:RDBMS Implementations]
+Note that some databases may have a different implementation of the specific wildcard characters
+[3: BETWEEN]
+This can be seen as a shortcut for chaining two comparison operators with the `AND` clause:
+```sql
+SELECT * FROM table_name
+WHERE col BETWEEN 1 AND 10;
+-- is the same as
+SELECT * FROM table_name
+WHERE col >= 1 AND
+  col <= 10;
+```
