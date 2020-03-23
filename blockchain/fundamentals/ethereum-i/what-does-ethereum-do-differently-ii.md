@@ -22,7 +22,7 @@ aspects:
   - deep
 
 ---
-# What Does Ethereum Do Differently? (Part 2)
+# What Else Does Ethereum Do Differently?
 
 ---
 ## Content
