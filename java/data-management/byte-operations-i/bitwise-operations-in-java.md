@@ -40,7 +40,6 @@ public class Main{
     //&:   0001
     //     0101
     //     0001
-
 ```
 ---
 ## Practice
