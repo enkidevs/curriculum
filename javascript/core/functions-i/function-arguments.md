@@ -2,7 +2,6 @@
 author: alexjmackey
 
 levels:
-
   - beginner
 
 type: normal
@@ -11,12 +10,7 @@ category: must-know
 
 inAlgoPool: false
 
-standards:
-
-  javascript.functions.1: 10
-
 tags:
-
   - introduction
 
 
@@ -32,27 +26,28 @@ aspects:
 ---
 ## Content
 
-When we pass primitive variables (such as numbers and strings) to functions in JavaScript, they are *passed by value* which means that if we manipulate the argument value inside the function, changes will not be reflected outside the function.
+When we pass primitive variables (such as numbers and strings) to functions in JavaScript, they are *passed by value*. This means that if we manipulate the argument value inside the function, changes will not be reflected outside the function.
 
-However, if we were to pass an object then changes *are* reflected on the object itself.
-
-For example:
-```
-function changeVal(x){
-    x=1000;
+```js
+function changeVal(x) {
+  x = 1000;
 }
 
 var x = 5;
 changeVal(x);
-console.log(x);//still 5
+console.log(x); // still 5
+```
 
-function changeObj(x){
-    x.name="Apple";
+However, if we were to use an object as argument, then it will **not be pased as a value**. What will happen though is that the object will **be passed as a reference**, which means that all the changes on the object made inside the function **are** reflected on the object itself.
+
+```js
+function changeObj(x) {
+  x.name = "Apple";
 }
 
-var obj = {name:"Enki"};
+var obj = { name: "Enki" };
 changeObj(obj);
-console.log(obj.name);//Apple
+console.log(obj.name); // Apple
 ```
 
 ---
@@ -70,7 +65,7 @@ In JavaScript, objects are passed into a function as a ???.
 ## Revision
 
 What will the following snippet output?
-```
+```js
 function changeProp(obj){
   obj.name = "John";
 }
@@ -85,4 +80,3 @@ console.log(per.name);
 * Alex
 * undefined
 * null
- 
