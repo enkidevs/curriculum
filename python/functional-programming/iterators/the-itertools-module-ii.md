@@ -20,10 +20,12 @@ links:
 
 ---
 
-# The `itertools` Module (chain(), filterfalse() and compress())
+# chain(), filterfalse() and compress()
 
 ---
 ## Content
+
+The `itertools` module provides a host of useful methods for working with iterable objects. Out of these methods, one can distinguish the iterators which terminate on the shortest input sequence, such as `chain()`, `filterfalse()` and `compress()`
 
 Let's start with `chain()`. This method allows us to "glue" the end of one sequence to the start of another, chaining them together. This can be done for multiple sequences at a time. Take a look at this example:
 
