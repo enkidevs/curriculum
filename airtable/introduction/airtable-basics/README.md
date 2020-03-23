@@ -1,6 +1,6 @@
 name: Basics
 
-description: Get the hand of Airtable.
+description: Get the hang of Airtable.
 
 insights:
   - airtable-tables

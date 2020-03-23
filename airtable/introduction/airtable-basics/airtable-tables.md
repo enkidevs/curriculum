@@ -34,7 +34,7 @@ Tables belong inside a base. In our example, both `Mars Data` and `Earth Data` a
 ---
 ## Practice
 
-Which of the following phrases is false?
+Which of the following phrases **is false**?
 
 ```text
 Base 1  Table A
@@ -44,6 +44,6 @@ Base 2  Table C
 
 ???
 
-* You can link records **from Table C** to **Table A**
-* You can link records **from Table B** to **Table A**
-* You can link records **from Table A** to **Table B**
+* You can link records from Table C to Table A
+* You can link records from Table B to Table A
+* You can link records from Table A to Table B

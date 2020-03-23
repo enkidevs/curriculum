@@ -1,6 +1,6 @@
 name: Airtable
 
-description: Build a database with no code! Easy to use, visually appealing, and spreadsheet-like.
+description: Build a database with no code!
 
 color: FFCC00
 

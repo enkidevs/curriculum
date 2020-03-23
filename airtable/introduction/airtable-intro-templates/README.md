@@ -1,6 +1,6 @@
 name: Templates
 
-description: Get accustomed to templates in Airtable.
+description: Get to know templates for Airtable.
 
 insights:
   - airtable-what-are-templates

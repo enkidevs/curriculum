@@ -1,4 +1,4 @@
-name: What is Airtable?
+name: What's Airtable?
 
 description: Super flexible, spreadsheet-like database.
 
