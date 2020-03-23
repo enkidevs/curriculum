@@ -2,7 +2,6 @@
 author: Nick Daminov
 
 levels:
-
   - beginner
 
 type: normal
@@ -10,11 +9,9 @@ type: normal
 category: must-know
 
 aspects:
-
   - introduction
 
 links:
-
   - '[More on ArrayLists](https://docs.oracle.com/javase/7/docs/api/java/util/ArrayList.html){website}'
   - '[More on Arrays](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html){website}'
 
@@ -29,13 +26,13 @@ links:
 
 The declaration of these structures is:
 ```java
-//Fixed size array declaration, type int
+// Fixed size array declaration, type int
 int[] array = new int[3];
 
-//ArrayList with starting length of 3,
-//type Integer
+// ArrayList with starting length of 3,
+// type Integer
 ArrayList<Integer> arrList =
-                 new ArrayList<Integer>(3);
+  new ArrayList<Integer>(3);
 ```
 
 Both `Arrays` and `ArrayLists` have numerous useful inbuilt methods such as sorting, copying, adding and deleting elements. Since both of these structures both store elements linearly, *Java API* provides us with methods which convert one structure into another one, it is important to remember though that `ArrayLists` do not reference primitive types such as `int`.
