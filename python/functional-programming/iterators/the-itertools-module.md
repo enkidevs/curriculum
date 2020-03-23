@@ -33,7 +33,18 @@ You might already remember `count()` which, given a starting number and a step (
 
 `cycle()` simply creates an infinite list from a finite one by returning to the beginning once the iteration reaches the end. `repeat()` just creates a list of length n (infinite if not provided) where every element in the series is the element given as an argument, duplicated.
 
+---
+## Practice
 
+The `cycle()` method creates an ??? list from a ??? one.
+
+The `repeat()` method creates a list of length `n`, where each element is the ??? of the argument.
+
+* infinite
+* finite
+* duplicate
+* original
+* new
 
 ---
 ## Footnotes
