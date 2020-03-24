@@ -31,7 +31,7 @@ A format string is a string which can include one or more format specifiers.
 ```java
 String hungry = "hungry";
 String hippo = "hippo";
-String s = String.format(
+String result = String.format(
   "%s %s",
   hungry,
   hippo);
@@ -39,7 +39,7 @@ String s = String.format(
 
 Here, `"%s %s"` is a format string, and `%s` is a format specifier. The `%s` specifier will be replaced with the first string given as an argument.
 
-In this example, `s` will be formatted to `"hungry hippo"`.
+In this example, `result` will be formatted to `"hungry hippo"`.
 
 To modify the order that the arguments appear in the format string, specify an argument index in the format specifiers.
 
@@ -48,7 +48,7 @@ Argument indexes take the form of a non-negative integer followed by `$`, where 
 ```java
 String hungry = "hungry";
 String hippo = "hippo";
-String s = String.format(
+String result = String.format(
   "%2$s %1$s",
   hungry, 
   hippo);
@@ -59,17 +59,17 @@ Here, `%2$s` will be replaced with **the second** string argument, and `%1$s` wi
 ---
 ## Revision
 
-What will be the value of `s`?
+What will be the value of `result`?
 
 ```java
-s = String.format(
+result = String.format(
   "%2$s %3$s %1$s",
   "a",
   "b",
   "c"
 );
 
-// s = ???
+// result = ???
 ```
 
 * `bca`
