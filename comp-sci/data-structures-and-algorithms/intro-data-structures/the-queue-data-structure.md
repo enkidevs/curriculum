@@ -88,4 +88,4 @@ The working principle behind a queue is
 ## Footnotes
 
 [1:ADT]
-Abstract Data Type, or ADT, means the data type cannot be implemented (i.e. represented) by itself and it needs some kind of 'support' in order to be used.
+Abstract Data Type, or ADT, is a definition of a data type (or a data structure) that only mentions what operations are to be performed but not how these operations will be implemented.
