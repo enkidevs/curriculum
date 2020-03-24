@@ -35,9 +35,9 @@ ArrayList<Integer> arrList =
   new ArrayList<Integer>(3);
 ```
 
-Both `Arrays` and `ArrayLists` have numerous useful inbuilt methods such as sorting, copying, adding and deleting elements. Since both of these structures both store elements linearly, *Java API* provides us with methods which convert one structure into another one, it is important to remember though that `ArrayLists` do not reference primitive types such as `int`.
+Both `Arrays` and `ArrayLists` have numerous useful inbuilt methods such as sorting, copying, adding and deleting elements. Since both of these structures both store elements linearly, *Java API* provides us with methods which convert one structure into another one. It is important to remember though that `ArrayLists` do not reference primitive types such as `int`, because it requires the type of its members to derive from `Object`[1].
 
-As `Arrays` are a simpler structure of constant size and it only holds elements and nothing else, they occupy less memory and can be the deciding factor when working with limited resources.
+As `Arrays` are a simpler structure of constant size and it only holds elements and nothing else, they occupy less memory and can be the deciding factor when working with limited resources. Moreover, they do not need to go through the whole boxing or unboxing process, which in turn makes using them faster.
 
 ---
 ## Practice
@@ -67,3 +67,9 @@ Which data structure is of a fixed length?
 
 * Array
 * ArrayList
+
+---
+## Footnotes
+
+[1:Boxing & Unboxing]
+Because primitive types (e.g. `int`) do not derive from `Object`, they have to be converted (or boxed) into their non-primitive respective types. For example, `int` would be boxed into `Integer`. This process of boxing and unboxing adds an additional layer of indirection, and thus provides a performance penalty.
