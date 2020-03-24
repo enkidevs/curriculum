@@ -1,6 +1,6 @@
 name: Spreadsheets
 
-description: Everyone will know you’re the Excel and Google Sheets expert after this course.
+description: Become an expert in Excel and Google Sheets.
 
 color: 008A47
 

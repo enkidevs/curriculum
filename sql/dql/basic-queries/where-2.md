@@ -12,11 +12,6 @@ category: must-know
 
 inAlgoPool: false
 
-standards:
-  sql.read-single-table.0: 10
-  sql.read-single-table.1: 10
-  sql.read-single-table.2: 10
-
 links:
   - '[SQL Tutorial: WHERE](http://www.sql-tutorial.com/sql-where-sql-tutorial/){website}'
 
@@ -66,58 +61,9 @@ This shows the rows where the `name` is an exact match of either `'Meowth'` or `
 | 52 | Meowth  | 290   | 40 | 45     | 35      |
 | 55 | Golduck | 500   | 80 | 82     | 78      |
 
-In the previous insight we used the `<>` comparison operator to check if the `name` was not `'Charmander'`. The same can be achieved using `!=` or by coupling a comparison operator (`=`) and a logical operation (`NOT`):
-
-```sql
-SELECT *
-FROM pokemon
-WHERE NOT name = 'Charmander';
-```
-
-This statement shows all rows **except** for the one where the name is equal to `'Charmander'`. In our case, this query would return all our records (rows) as we do not have any entries that would be filtered by that condition.
-
-You can also use parenthesis to construct complex expressions, like so:
-
-```sql
-SELECT *
-FROM pokemon
-WHERE (name = 'Diglett'
-  OR name = 'Dugtrio')
-  AND (total > 300 AND total < 500);
-```
-
-This query will only return the row with the name `'Dugtrio'` because for the record with the name `'Diglett'` the `total` value is not between 300 and 500.
-
-| id | name    | total | hp | attack | defense |
-|----|---------|-------|----|--------|---------|
-| 51 | Dugtrio | 425   | 35 | 100    | 50      |
 
 ---
 ## Practice
-
-Select all the columns from the `pokemon` table, keeping the rows where the `total` is greater than 350 or `attack` is between 5 and 15.
-
-```sql
-SELECT * 
-FROM pokemon
-??? (??? 350) ???
-  (??? 5 ??? ??? 15); 
-```
-
-* `WHERE`
-* `total >`
-* `OR`
-* `attack >`
-* `AND`
-* `attack <`
-* `IS`
-* `total GREATER THAN`
-* `attack MORE THAN`
-* `total MORE THAN`
-* `attack GREATER THAN`
-
----
-## Revision
 
 Select all the columns from the `pokemon` table, keeping only the rows where the name equals either `'bulbasaur'`, `'ivysaur'` or `'venusaur'`.
 
