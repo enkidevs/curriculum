@@ -54,7 +54,7 @@ String s = String.format(
   hippo);
 ```
 
-Here, `%2$s` will be replaced with **the second** string argument, and `%2$s` will be replaced with **the first** string argument. So, in this example, `%2$s` will be the `hippo` string, and `%1$s` will be the `hungry` string. The output of the method will be `"hippo hungry"`.
+Here, `%2$s` will be replaced with **the second** string argument, and `%1$s` will be replaced with **the first** string argument. So, in this example, `%2$s` will be the `hippo` string, and `%1$s` will be the `hungry` string. The output of the method will be `"hippo hungry"`.
 
 ---
 ## Revision
