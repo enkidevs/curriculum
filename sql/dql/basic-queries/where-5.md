@@ -32,7 +32,7 @@ aspects:
 ---
 ## Content
 
-The `WHERE` keyword can be coupled with the `LIKE`, `IN`, and `BETWEEN` operators to create more complex querie conditions. Using this table[1], we'll take a look at how `LIKE` and `BETWEEN` behave.
+The `WHERE` keyword can be coupled with the `LIKE`, `IN`, and `BETWEEN` operators to create more complex query conditions. Using this table[1], we'll take a look at how `LIKE` and `BETWEEN` behave.
 
 The `LIKE` statement accepts a pattern string, where wildcard characters are used to denote an acceptable pattern[2].
 
