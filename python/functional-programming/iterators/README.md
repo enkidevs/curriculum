@@ -7,6 +7,7 @@ insights:
   - what-are-iterators
   - the-iteration-protocol
   - the-itertools-module
+  - the-itertools-module-ii
   - iterators-applications
 
 exercises:
