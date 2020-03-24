@@ -2,6 +2,8 @@ name: Introduction
 
 description: Learn how to use spreadsheets and formulas to better analyze data.
 
+core: true
+
 sections:
   '0':
     - introduction
