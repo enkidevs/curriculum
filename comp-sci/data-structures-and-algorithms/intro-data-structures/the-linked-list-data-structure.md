@@ -43,6 +43,8 @@ The *conga line* is an example of a **SinglyLinkedList** because you cannot see 
 
 ![sll](https://img.enkipro.com/9fc64a4643c8c46b7d2a600fe99a124d.png)
 
+Note: when saying the first one we refer to node `A`, and when saying the last one we refer to node `G`.
+
 To make it a **DoublyLinkedList**, everyone would have to use one hand to hold the person in front of them, and their other hand to hold the person behind them. In this case, you would be able to move through in both directions, from *start to finish* and from *finish to start*.
 
 ![dll](https://img.enkipro.com/dfe8bdeaffa55cb2d4504f4048f2b515.png)
@@ -84,7 +86,7 @@ Which of the following concepts is list-specific?
 ---
 ## Footnotes
 [1:Abstract Data Type]
-Abstract Data Type, or ADT, means the data type cannot be implemented (i.e. represented) by itself and it needs some kind of 'support' in order to be used.
+Abstract Data Type, or ADT, is a definition of a data type (or a data structure) that only mentions what operations are to be performed but not how these operations will be implemented.
 
 [2:Linear Data Structure]
 A linear data structure means that its items are lying on the same level and are not hierarchically structured.
