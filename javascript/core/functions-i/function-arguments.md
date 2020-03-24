@@ -26,7 +26,7 @@ aspects:
 ---
 ## Content
 
-When we pass primitive variables (such as numbers and strings) to functions in JavaScript, they are *passed by value*. This means that if we manipulate the argument value inside the function, changes will not be reflected outside the function.
+When we pass primitive values (such as numbers and strings) into a function, we are actually passing in a copy of each of those values instead of the originals. This behavior is called **pass by value**. If we were to manipulate one of those values, the changes will not be reflected on the original value outside of the function.
 
 ```js
 function changeVal(x) {
@@ -38,7 +38,7 @@ changeVal(x);
 console.log(x); // still 5
 ```
 
-However, if we were to use an object as argument, then it will **not be pased as a value**. What will happen though is that the object will **be passed as a reference**, which means that all the changes on the object made inside the function **are** reflected on the object itself.
+When we pass non-primitive values (such as objects and arrays) into a function, we are not passing in a copy and instead are passing in the actual value. This behavior is called **pass by reference**, where the "reference" means "direct link to the value". If we were to manipulate one of those values, we will also end up changing original value outside of the function. 
 
 ```js
 function changeObj(x) {
