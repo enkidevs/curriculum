@@ -31,7 +31,7 @@ After opening a **file object**, we have three **operations** available in **Pyt
 - `readlines()`
 
 Suppose we have a file named `test.txt` with the following text inside:
-```
+```text
 Hello!
 My name is Steve.
 Where is my food?
@@ -49,29 +49,36 @@ print(file.read())
 # Where is my food?
 ```
 
-Instead of **reading** the whole **file** at once, you could read it one line at a time with the help of `readline()` file object method. A line is defined as all characters until the **end of line character** (`\n`):
+Instead of **reading** the whole **file** at once, you could read it one line at a time with the help of the `readline()` file object method. A line is defined as all characters until the **end of line character** (`\n`). In the output, a newline (`\n`) is left at the end of each string, with the only exception being the last line:
 
-```
+```py
 file = open('test.txt', 'r')
 
 print(file.readline())
-# Oputput: Hello!
+# Output: Hello!\n
 
 print(file.readline())
-# Output: My name is Steve.
+# Output: My name is Steve.\n
+
+print(file.readline())
+# Output: Where is my food?
 ```
 
 Last but not least, `readlines()` reads all lines from a file and returns them as a **list**:
 
-```
+```py
 file = open('test.txt', 'r')
 
 print(file.readlines())
-# Oputput: ['Hello!', 'My name is Steve.'
-#                 , 'Where is my food?']
+# Output: 
+# [
+#   'Hello!', 
+#   'My name is Steve.',
+#   'Where is my food?'
+# ]
 ```
 
-**Remember**, we used all operations available on the same **file** just for exemplification purposes. In reality if we use one of the **operations** on a file, then we cannot read from it again. If we use the `read()` **operation** on a file, then the `readlines()` **operation** applied to the same file will return an **empty string**.
+**Remember**, we used all operations available on the same **file** just for exemplification purposes. In reality, if we use one of the **operations** on a file then we cannot read from it again. If we use the `read()` **operation** on a file, then the `readlines()` **operation** applied to the same file will return an **empty array**.
 
 However, there's a workaround to this - the `seek()` function which allows you to read the same file multiple times. More on this in the next insights!
 
@@ -100,7 +107,7 @@ print(???.readline())
 ## Revision
 
 Suppose we want to read all lines from a file and return them as a string. Fill the gaps accordingly:
-```
+```py
 file = open('test.txt', '???')
 
 print(file.???())
