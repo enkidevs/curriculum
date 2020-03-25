@@ -15,7 +15,8 @@ standards:
 
 links:
 
-  - '[More about reading from files](http://www.pythonforbeginners.com/files/reading-and-writing-files-in-python){website}'
+  - '[Reading and Writing Files](http://www.pythonforbeginners.com/files/reading-and-writing-files-in-python){website}'
+  - '[Official Documentation](https://docs.python.org/3/tutorial/inputoutput.html#methods-of-file-objects){documentation}'
 
 
 ---
