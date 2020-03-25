@@ -1,27 +1,20 @@
 ---
 author: SebaRaba
 
-levels:
-
-  - beginner
-
 type: normal
 
 category: how to
+
 aspects:
   - introduction
-standards:
-  python.standard-library-operating-system.0: 10
 
 links:
-
   - '[Reading and Writing Files](http://www.pythonforbeginners.com/files/reading-and-writing-files-in-python){website}'
   - '[Official Documentation](https://docs.python.org/3/tutorial/inputoutput.html#methods-of-file-objects){documentation}'
 
-
 ---
 
-# Reading from files
+# Reading From Files
 
 ---
 ## Content
