@@ -18,7 +18,7 @@ aspects:
 links:
   - '[MDN - ASI](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Lexical_grammar#Automatic_semicolon_insertion
 ){documentation}'
-  - '[MDN - Block](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/block){documentation}
+  - '[MDN - Block](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/block){documentation}'
 
 ---
 # Styling Brackets
@@ -207,4 +207,3 @@ console.log(pi())
 ## Footnotes
 
 [1: Lexical Grammar] JavaScript has a set of rules of how it needs to be written such that it is valid. This set of rules is called a [Lexical Grammar](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Lexical_grammar). One consequence of these rules is that we have to be careful in some situations to not forget to put a `;`. The statements affected by ASI are: `var`, `do`-`while`, `continue`, `break`, `return`, `throw`.
-
