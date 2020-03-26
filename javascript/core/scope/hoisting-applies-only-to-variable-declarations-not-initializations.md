@@ -36,11 +36,19 @@ var x;
 Note that it's only the declarations but not initializations that are hoisted:
 
 ```js
-alert(x) // undefined
+alert(x); // undefined
 var x = 5;
 ```
 
 This alert will produce `undefined` because, although the declaration `var x` is hoisted to the top, `x` is not initialized to the value of `5` until after the alert.
+
+The code above can be thought of as behaving like this:
+
+```js
+var x; // hoisted declaration
+alert(x); // undefined
+x = 5; // initialization
+```
 
 ---
 ## Practice
@@ -61,6 +69,7 @@ var s;
 ## Revision
 
 The following code outputs ???
+
 ```javascript
 console.log(v);
 var v = "enki";
