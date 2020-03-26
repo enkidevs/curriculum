@@ -16,7 +16,7 @@ aspects:
 
 
 ---
-# No block scope
+# Function vs Block Scope
 
 ---
 ## Content
