@@ -1,20 +1,9 @@
 ---
 author: nem035
 
-levels:
-  - beginner
-
 type: normal
 
 category: must-know
-
-inAlgoPool: false
-
-standards:
-  javascript.functions.5: 10
-
-tags:
-  - introduction
 
 aspects:
   - introduction
@@ -26,67 +15,78 @@ aspects:
 ---
 ## Content
 
-Like most programming languages, JavaScript has a number of syntax rules that must be adhered to.
+Like most programming languages, JavaScript has a number of syntax rules that it must adhere to.
 
 ### Semicolon
 
-In ECMAScript it is best practice to add a semicolon at the end of a statement:
+Statement in JavaScript end in a `;`. Based on the ECMAScript[1] rules, adding a `;` isn't actually required (but is common practice):
 
 ```javascript
-var company="enki";
+let firstName = "Enki";
+//                  ^
 ```
 
-It’s not strictly necessary to do this as the parser will try to determine the end of a statement and add a semicolon automatically. However, it will help you be sure that the code runs as expected because automatic semicolon insertion sometimes causes errors.
+Omitting a semicolon in certain situations can cause problems. JavaScript has a feature called Automatic Semicolon Insertion (ASI) which means that, if you omit a semicolon, JavaScript will automatically add it where it thinks it should go. 
+
+This can sometimes lead to unexpected results[2], and it's usually recommended to always insert the `;` yourself.
 
 ### Variables
 
-Variables are essential for programming. They are used to store a modifiable value and are given a name. Declare a variable in JavaScript with the `var` keyword.
+Variables are the essential building blocks of programs. They are used to store a value and are given a name. 
+
+Declaring a variable in JavaScript can be done in 3 ways.
+
+The first is using the `let` keyword:
 
 ```javascript
-var firstName="John";
+let firstName = "Enki";
 ```
 
-If `var` is omitted the variable will still be created and referenced, but it will behave in unintended ways because of a concept in JavaScript called scope.
-
-JavaScript has two scopes, global and local. If a variable is defined *outside* of a function then it is in the global scope which means it can be read and changed throughout the program. If a variable is declared *inside* a function then it will only "exist" or be accessible inside the function.  For example, here company is declared inside a function and will exist only inside the function:
-
+Which allows us to also change what the variable points to, if needed:
 
 ```javascript
-function hello(){
-   var company="enki";
-   console.log(company); 
-   // "enki"
-}
-// variable out of scope
-console.log(company); 
-// ReferenceError: company is not defined
+let firstName = "Enki";
+firstName = "Changed"; // this works
 ```
+
+We can also declare a variable using `const`, but in this case we cannot change what it points to:
+
+```javascript
+const firtName = "Enki";
+firstName = "Changed"; // Error!
+```
+
+The final (and the oldest) way of declaring a variable in JavaScript is using `var`:
+
+```javascript
+var firstName = "Enki";
+firstName = "Changed"; // this works
+```
+
+We'll learn more about the differences between `let`, `const`, and `var` later on.
 
 ---
 ## Practice
 
-Which will define a variable in the global scope?
+Which snippet will throw an error?
 
 ```
 // Option A
-var answer = 42;
+let answer = 42;
+answer = 'life';
 ```
 
 ```
 // Option B
-function globalFunction() {
-  var answer = 42;
-}
+const answer = 42;
+answer = 'life';
 ```
 
 ```
 // Option C
-function answer() {
-  var answer = 42;
-  return answer;
-}
+var answer = 42;
+answer = 'life';
 ```
-
 
 ???
 
@@ -98,22 +98,43 @@ function answer() {
 ---
 ## Revision
 
-What will log to the console?
-
-```javascript
-function getAnswers(){
-  var answer = 42
-}
-console.log(answer)
-```
+Are semicolons required in JavaScript?
 
 ???
 
-* ReferenceError: answer is not defined
-* 42
-* answer
-* local
+* No
+* Yes
+* Sometimes
 
  
+---
+## Footnotes
 
+[1: ECMAScript]
+ECMAScript is the specification defining the rules of JavaScript, based on which the features of the language are implemented.
  
+[2: ASI]
+JavaScript ASI will sometimes assume a statement ends where it might not be intended.
+
+For example, the code bellow:
+
+```js
+x 
+++ 
+y
+```
+
+is understod as:
+
+```js
+x; ++y;
+```
+
+and not as:
+
+```js
+x++;
+y
+```
+
+
