@@ -16,7 +16,7 @@ aspects:
 ---
 ## Content
 
-The common ways to declare a string value in JavaScript is to use quotes. Using single or double works the same:
+The primary way to declare a string value in JavaScript is to use quotes. Using single or double works the same:
 
 ```javascript
 let company1 = "Enki";
