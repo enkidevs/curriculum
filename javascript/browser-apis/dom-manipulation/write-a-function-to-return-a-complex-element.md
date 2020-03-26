@@ -65,7 +65,7 @@ container.appendChild(
 
 ```
 
-In the example above we selected a parent element and stored it in a variable called `container`. Then we created an `ul` element, looped through our array of `teas` and created a `li` element for each type of `tea` while appending each of them to the `ul`. Once we created the list we appended it to the parent element.
+In the example above we selected a parent element and stored it in a variable called `container`. Then we created a `ul` element, looped through our array of `teas` and created a `li` element for each type of `tea` while appending each of them to the `ul`. Once we created the list we appended it to the parent element.
 
 ---
 ## Practice
