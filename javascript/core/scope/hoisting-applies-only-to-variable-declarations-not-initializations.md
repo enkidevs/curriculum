@@ -23,7 +23,7 @@ aspects:
 ---
 ## Content
 
-Variable declarations using `var` are moved to the top of the function scope (or global scope if outside of a function). One consequences of this is that variables can be used before they are declared.
+Variable declarations using `var` are moved to the top of the function scope (or global scope if outside of a function). One consequence of this is that variables can be used before they are declared.
 
 ```js
 x = 5;
