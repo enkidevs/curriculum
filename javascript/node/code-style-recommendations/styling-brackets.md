@@ -113,7 +113,7 @@ Why is that?
 
 It turns out that JavaScript is trying to help us write correct code. 
 
-Statements in JavaScript are separated with a semicolon, i.e. `;`. If we forget to add semicolon after a line of code, JavaScript tries to be a good friend and inserts a semicolon for us. This property is called *automatic semicolon insertion* (ASI). 
+Statements in JavaScript are separated with a semicolon, i.e. `;`. If we forget to add a semicolon after a line of code, JavaScript tries to be a good friend and inserts a semicolon for us. This property is called *automatic semicolon insertion* (ASI). 
 
 In the code above, when JavaScript notices a new line after a `return` statement, it assumes that the intention was to end the code there and return from the function, so it inserts a `;`[1].
 
