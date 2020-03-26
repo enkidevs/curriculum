@@ -26,7 +26,7 @@ links:
 ---
 ## Content
 
-The style of the code shouldn't influence its performance in any way. The guidelines for what is the "right" style differ from team to team, and are primarily subjective. It's common that developers would disagree on using `camelCase` versus `kebab_case` naming conventions, tabs versus spaces, or various positions of braces or brackets. 
+The style of the code shouldn't influence its performance in any way. The guidelines for what is the "right" style differ from team to team and are primarily subjective. Commonly, developers would disagree on using `camelCase` versus `kebab_case` naming conventions, tabs versus spaces, or various positions of braces or brackets. 
 
 However, in the land of JavaScript, the location of brackets sometimes isn't up for debate. Let's take a look at an example:
 
