@@ -36,7 +36,7 @@ import java.util.Arrays;
 copyOf(String[] original, int newLength);
 ```
 
-Notice how we've used the `String` type for the our array. This is not require, the array can have any type. Make sure to change the type depending on your array.
+Notice how we've used the `String` type for our array. This is not required, the array can have any type. Make sure to change the type depending on your array.
 
 Now, let's take a look at an example:
 
