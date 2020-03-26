@@ -1,24 +1,9 @@
 ---
 author: catalin
 
-levels:
-  - basic
-  - beginner
-
 type: normal
 
 category: hack
-
-standards:
-  javascript.data-types-structures.2: 10
-  javascript.data-types-structures.3: 10
-  javascript.data-types-structures.6: 10
-
-tags:
-  - introduction
-  - workout
-  - arrays
-
 
 aspects:
   - introduction
@@ -33,24 +18,44 @@ links:
 ---
 ## Content
 
-`concat` is not always the best approach to merging arrays as it generates a new array.
+One approach we can use to merge two arrays in JavaScript, is to loop through one array adding each of its elements to the other array:
 
-Since `var`s are passed by reference, `concat` may mess up a reference.
+```js
+let array1 = [1, 2, 3];
+let array2 = [4, 5, 6];
 
-Instead:
+for (let item1 of array1) {
+  array2.push(item1);
+}
 
-```javascript
-var array1 = [1, 2, 3];
-var array2 = [4, 5, 6];
+console.log(array2);
+// 1, 2, 3, 4, 5, 6
 ```
 
-Merge them, adding the second one after the first one:
+We can also use the spread operator, i.e. `...`, to do the same with less code:
 
-```javascript
-Array.prototype.push.apply(array1, array2);
+```js
+let array1 = [1, 2, 3];
+let array2 = [4, 5, 6];
+
+array2.push(...array1);
+
+console.log(array2);
+// 1, 2, 3, 4, 5, 6
 ```
 
-Unlike other languages, JavaScript does not support `+` for concatenating arrays. The output of such an operation would be a string:
+Arrays also have a method that can be used to merge them:
+
+```js
+let array1 = [1, 2, 3];
+let array2 = [4, 5, 6];
+let array3 = array1.concat(array2);
+```
+
+The notable difference when using `concat` is that it, instead of merging one array into another, it generates a new array out of the two merged arrays.
+
+
+Note that, unlike other languages, JavaScript does not support `+` for concatenating arrays. The output of such an operation would be a string:
 
 ```javascript
 console.log([1, 2] + [3, 4])
@@ -63,41 +68,41 @@ console.log([1, 2] + [3, 4])
 Modify `array1` such that it contains `array2`'s contents in order.
 
 ```javascript
-var array1 = ['a', 'b', 'c'];
-var array2 = ['d', 'e', 'f'];
+let array1 = ['a', 'b', 'c'];
+let array2 = ['d', 'e', 'f'];
 
-Array.prototype.???
-.???(array1, array2);
+array1.???(???array2)
 ```
 
-* push
-* apply
-* merge
-* arrayList
-* on
-* after
-* concat
+* `push`
+* `...`
+* `merge`
+* `+`
+* `concat`
 
 ---
 ## Revision
 
-What is the output of the following snippet?
+What is the value of `a` at the end of the following snippet?
 
 ```javascript
-var a = [3, 1, 4]
-var b = [2, 7, 1]
-console.log(a + b)
+let a = [3, 1, 4]
+let b = [2, 7, 1]
+a.concat(b);
+
+console.log(a);
 ```
 
 ???
 
-* 3,1,42,7,1
-* [3, 1, 4, 2, 7, 1]
-* [[3, 1, 4], [2, 7, 1]]
-* 3, 1, 4, 2, 7, 1
+* `[3,1,4]`
+* `[3, 1, 4, 2, 7, 1]`
+* `[[3, 1, 4], [2, 7, 1]]`
+* `2, 7, 1`
 
 ---
 ## Quiz
+
 ### what is the result of the following addition?
 
 ```javascript
