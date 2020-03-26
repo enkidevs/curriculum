@@ -59,19 +59,6 @@ The four child boxes inside class parent will be displayed **vertically** on top
 
 ![566ed55387abab0c00bccab0.svg](https://img.enkipro.com/5cd4ebde7bebedb1168c64d4f3d8ee61.png)
 
----
-## Practice
-
-
-When using Flexbox, how does `column-reverse` allow users to arrange elements?
-
-???
-
-* Vertically in reverse order.
-* Vertically in normal order.
-* Horizontally in reverse order.
-* Horizontally in normal order.
-
 
 ---
 ## Revision
