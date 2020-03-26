@@ -25,7 +25,7 @@ System.out.println(++i);
 // 5
 ```
 
-Let's first look at postfix incrementation (`i++`). Let's take a look at an example:
+Let's first look at the postfix incrementation (`i++`): 
 
 ```java
 int i = 3;
