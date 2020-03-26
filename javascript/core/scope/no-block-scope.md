@@ -25,7 +25,7 @@ In JavaScript, every function creates a scope.
 
 Nested functions create nested scopes. 
 
-When JavaScript tries to figure out what value a particular variable contains, it checks the closest scope. If it doesn't find it there, it keeps going up the scope until it does (or reaches the global scope without finding the value at all).
+When JavaScript tries to figure out what value a particular variable contains, it checks the closest scope. If it doesn't find it there, it keeps going up the chain of scopes until it does (or reaches the global scope without finding the value at all).
 
 Let's look at an example:
 
