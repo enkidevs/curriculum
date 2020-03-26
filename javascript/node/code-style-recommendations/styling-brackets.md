@@ -131,7 +131,7 @@ function wrong() {
 }
 ```
 
-Checkout the Read More links for more details on ASI and don't forget to write your `;`.
+Check out the Read More links for more details on ASI and don't forget to write your `;`.
 
 ---
 ## Practice
