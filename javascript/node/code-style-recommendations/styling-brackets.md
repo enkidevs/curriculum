@@ -26,9 +26,9 @@ links:
 ---
 ## Content
 
-The style of the code shouldn't influence its performance in any way. The guidelines for what is the "right" style differ from team to team, and are primarily subjective. It's not uncommon that developers would disagree on using `camelCase` versus `kebabCase` naming conventions, tabs versus spaces, or various positions of braces or brackets. 
+The style of the code shouldn't influence its performance in any way. The guidelines for what is the "right" style differ from team to team, and are primarily subjective. It's common that developers would disagree on using `camelCase` versus `kebab_case` naming conventions, tabs versus spaces, or various positions of braces or brackets. 
 
-It turns out that, in the land of JavaScript, the location of brackets sometimes isn't up for debate. Let's take a look at an example:
+However, in the land of JavaScript, the location of brackets sometimes isn't up for debate. Let's take a look at an example:
 
 ```javascript
 function right() {
@@ -56,9 +56,9 @@ console.log(wrong().status);
 // undefined
 ```
 
-What is going on? Why and where does the bracket position matter?
+What is going on? Why does the bracket position matter?
 
-For a function or a block (`if`/`else`, `switch`, etc) in JavaScript, brackets are used to denote the body[1]:
+For a function or a block (`if`/`else`, `switch`, etc) in JavaScript, brackets are used to denote the body:
 
 ```javascript
 function echo() {
@@ -93,7 +93,7 @@ console.log(
 // "right", "right", "right"
 ```
 
-No matter how we place the brackets around a block, the behavior of the code insight will be unaffected.
+No matter how we place the brackets around a block, the behavior of the code inside will be unaffected.
 
 However, things are not the same when brackets are used to denote and `return` an object:
 
@@ -111,7 +111,7 @@ console.log(wrong());
 
 Why is that?
 
-It's because JavaScript is trying to help us write correct code. 
+It turns out that JavaScript is trying to help us write correct code. 
 
 Statements in JavaScript are separated with a semicolon, i.e. `;`. If we forget to add semicolon after a line of code, JavaScript tries to be a good friend and inserts a semicolon for us. This property is called *automatic semicolon insertion* (ASI). 
 
@@ -131,7 +131,7 @@ function wrong() {
 }
 ```
 
-Checkout the Read More links for more details on ASI.
+Checkout the Read More links for more details on ASI and don't forget to write your `;`.
 
 ---
 ## Practice
@@ -171,7 +171,7 @@ function C()
 ---
 ## Revision
 
-What is the name of the JavaScript language feature that causes problems if we forget to put a `;` in certain situations?
+What is the name of the JavaScript language feature that can cause problems in certain situations if we forget to put a `;`?
 
 ???
 
@@ -206,4 +206,5 @@ console.log(pi())
 ---
 ## Footnotes
 
-JavaScript has a set of rules of how it can be written, called a [Lexical Grammar](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Lexical_grammar). One consequence of these rules is that we have to be careful in some situations to not forget to put a `;`. The statements affected by ASI are: `var`, `do`-`while`, `continue`, `break`, `return`, `throw`.
+[1: Lexical Grammar] JavaScript has a set of rules of how it needs to be written such that it is valid. This set of rules is called a [Lexical Grammar](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Lexical_grammar). One consequence of these rules is that we have to be careful in some situations to not forget to put a `;`. The statements affected by ASI are: `var`, `do`-`while`, `continue`, `break`, `return`, `throw`.
+
