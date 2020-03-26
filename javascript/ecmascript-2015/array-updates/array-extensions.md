@@ -17,7 +17,7 @@ aspects:
 ---
 ## Content
 
-In ES2015, the array type was updated to comform to the shape of an **iterator**. This gave arrays 3 additional methods:
+In ES2015, the array type was updated to conform to the shape of an **iterator**. This gave arrays 3 additional methods:
 
 * `keys`
 * `values`
