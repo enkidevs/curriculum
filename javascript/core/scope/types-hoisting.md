@@ -28,14 +28,14 @@ In JavaScript, when you declare variables using `var` they are always executed f
 For example, if you have the following code:
 
 ```javascript
-x=1;
+x = 1;
 var x;
 ```
 
 This is actually executed as:
 ```javascript
 var x;
-x=1;
+x = 1;
 ```
 
 This process is called **hoisting**.
