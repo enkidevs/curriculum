@@ -28,7 +28,7 @@ links:
 ---
 ## Content
 
-To copy the contents of an array, you can use the  `Arrays.copyOf()` method. It can be found in the `java.util.Arrays` class, and the syntax is:
+To copy the contents of an array, you can use the `Arrays.copyOf()` method. It can be found in the `java.util.Arrays` class, and the syntax is:
 
 ```java
 import java.util.Arrays;
