@@ -18,7 +18,7 @@ links:
 ---
 ## Content
 
-One approach we can use to merge two arrays in JavaScript, is to loop through one array adding each of its elements to the other array:
+One approach that we can use to merge two arrays in JavaScript, is to loop through the first array and add each of its elements to the second array:
 
 ```js
 let array1 = [1, 2, 3];
