@@ -70,7 +70,7 @@ let myString = 'this will ???
 ---
 ## Revision
 
-Which one of the following is correct ?
+Which one of the following is correct?
 
 ```javascript
 let company1 = "Enki";
