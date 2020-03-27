@@ -30,7 +30,7 @@ Java supports 2 forms of shorter incrementation of variables:
 
 ```java
 int i = 3;
-int j = 10
+int j = 10;
 System.out.println(++i); // Prints 4
 System.out.println(j++); // Prints 10
 ```
