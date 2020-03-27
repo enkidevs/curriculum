@@ -15,7 +15,7 @@ category: must-know
 
 links:
 
-- '[MDN - Traversing an HTML table with JavaScript and DOM Interfaces](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Traversing_an_HTML_table_with_JavaScript_and_DOM_Interfaces)'
+- '[Traversing HTML tables with JavaScript and DOM Interfaces](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Traversing_an_HTML_table_with_JavaScript_and_DOM_Interfaces){documentation}'
 ---
 # Write a Function to Return a Complex Element
 ---
