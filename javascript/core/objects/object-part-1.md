@@ -50,7 +50,7 @@ console.log(per.firstName); // "john"
 
 We can also access properties using the array syntax.
 
-This can be useful when you do not know the name of the property you want to change it at runtime dynamically .
+This can be very useful, especially when you do not know the name of the property you want to dynamically change at runtime .
 
 ```js
 let propName = "firstName";
