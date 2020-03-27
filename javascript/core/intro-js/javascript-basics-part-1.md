@@ -1,21 +1,9 @@
 ---
 author: alexjmackey
 
-levels:
-  - beginner
-
 type: normal
 
 category: must-know
-
-inAlgoPool: false
-
-standards:
-  javascript.javascript-syntax.1: 10
-  javascript.javascript-syntax.2: 10
-
-tags:
-  - introduction
 
 aspects:
   - introduction
@@ -27,7 +15,7 @@ aspects:
 ---
 ## Content
 
-Like most programming languages, JavaScript has a number of rules its code must adhere to.
+Like most programming languages, JavaScript has a number of syntax rules that it must adhere to.
 
 ### Case Sensitivity
 
@@ -52,10 +40,10 @@ When naming any function, property or variable, the first character must be a le
 After the first character, you are free to use numbers, letters, dollar signs or underscores.
 
 ```javascript
-var name = "Enki"; // valid
-var $taxRate = 8.25; // valid
-var _id = 23; // valid
-var 2Company = "Enki"; // not valid
+let name = "Enki"; // valid
+let $taxRate = 8.25; // valid
+let _id = 23; // valid
+let 2Company = "Enki"; // not valid
 ```
 
 ### Comments
@@ -71,7 +59,7 @@ As a single line comment:
 You can also add single line comments to the same line as other code:
 
 ```javascript
-var company="enki"; // define company
+let company="enki"; // define company
 ```
 
 Or if you have more text you can use a block comment:
@@ -98,7 +86,7 @@ What syntax is used in *JavaScript* for **single line** comments?
 Is the following line of code **valid**?
 
 ```javascript
-var 777jackpot = "jackpot";
+let 777jackpot = "jackpot";
 // line is ???
 ```
 
