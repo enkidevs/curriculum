@@ -1,34 +1,14 @@
 ---
 author: alexjmackey
 
-levels:
-
-  - beginner
-
 type: normal
 
 category: must-know
-
-inAlgoPool: false
-
-standards:
-
-  javascript.exceptions.4: 10
-
-tags:
-
-  - introduction
-
-  - workout
-
-
 
 aspects:
   - introduction
   - workout
   - obscura
-
-
 
 ---
 
@@ -52,29 +32,19 @@ If you want the debugger to stop on a line of code and dont want to add a breakp
 It can be useful to find out the values of variables when debugging code. 
 
 Some developers will use an alert statement to do this:
-```
+
+```js
 alert(myVar);
 ```
+
 A better way is to use the console.log statement to write the variables value out to the console:
-```
+
+```js
 console.log(myVar); 
 ```
 
 ---
 ## Practice
-
-What statement will make the debugger stop at its line?
-
-???
-
-
-* `debugger;`
-* `stop;`
-* `break;`
-* `debug;`
-
----
-## Revision
 
 How can you log variables into the console?
 
@@ -88,4 +58,14 @@ How can you log variables into the console?
 * `debugger;`
 * `addVar`
 
- 
+---
+## Revision
+
+What statement will make the debugger stop at its line?
+
+???
+
+* `debugger;`
+* `stop;`
+* `break;`
+* `debug;`
