@@ -13,7 +13,7 @@ category: must-know
 
 links:
 
-  - '[MDN - Document.getElementById()](https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById)'
+  - '[Document.getElementById()](https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById){documentation}'
   - '[MDN - Document.getElementsByClassName()](https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementsByClassName)'
   - '[MDN - Document.getElementsByTagName()](https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementsByTagName)'
 ---
