@@ -19,7 +19,7 @@ links:
 ---
 ## Content
 
-`for..in` loops allow you to iterate through an objects keys. E.g. the keys below are `firstName` and `lastName`:
+The `for..in` loop allows you to iterate through an object's keys. Consider the following `firstName` and `lastName` keys:
 
 ```javascript
 let obj = {
