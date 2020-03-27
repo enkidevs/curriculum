@@ -1,40 +1,15 @@
 ---
 author: NomaDube
 
-levels:
-
-  - basic
-
-  - advanced
-
-  - medium
-
 type: normal
 
 category: feature
 
-standards:
-
-  javascript.functions.0: 10
-
-  javascript.functions.1: 10
-
-  javascript.functions.3: 10
-
-  javascript.functions.4: 10
-
-tags:
-
-  - introduction
-
 links:
-
   - '[developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions#Function_constructor_vs._function_declaration_vs._function_expression){website}'
-
 
 aspects:
   - introduction
-
 
 ---
 
@@ -47,9 +22,9 @@ The concepts of constructors, declaration and expressions are often misused. Her
 
 A function defined with the `function` *constructor* assigned to the variable `multiply`:
 
-```
+```js
 function multiply(x, y) {
-   return x * y;
+  return x * y;
 }
 
 ```
@@ -57,8 +32,8 @@ function multiply(x, y) {
 Function *expression* of an anonymous function assigned to the variable `multiply`:
 
 ```
-var multiply = function(x, y) {
-   return x * y;
+let multiply = function(x, y) {
+  return x * y;
 }
 
 ```
@@ -66,8 +41,8 @@ var multiply = function(x, y) {
 Function *expression* of a `function` named `mult` assigned to the variable `multiply`:
 
 ```
-var multiply = function mult(x, y) {
-   return x * y;
+let multiply = function mult(x, y) {
+  return x * y;
 };
 
 ```
@@ -78,8 +53,8 @@ var multiply = function mult(x, y) {
 What is the following code? ???
 
 ```javascript
-var multiply = function times(x, y) {
-   return x * y;
+let multiply = function times(x, y) {
+  return x * y;
 };
 ```
 
@@ -92,9 +67,10 @@ var multiply = function times(x, y) {
 ## Revision
 
 What is the following?
+
 ```javascript
-var multiply = function(x, y) {
-   return x * y;
+let multiply = function(x, y) {
+  return x * y;
 }
 ```
 
