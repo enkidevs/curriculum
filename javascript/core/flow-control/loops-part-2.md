@@ -52,7 +52,7 @@ for (let i of arr) {
 }
 ```
 
-**Why use `for..of`?**
+### Why use `for..of`?
 
 `for..of` loops will only iterate over an object's values and **not** its inherited properties like the `for..in` loop will.
 
