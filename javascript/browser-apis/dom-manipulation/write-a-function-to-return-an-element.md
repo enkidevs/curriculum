@@ -1,29 +1,15 @@
 ---
 author: elliehoward
 
-levels:
-
-  - beginner
-
-  - basic
-
-  - medium
-
-
 aspects:
 
   - introduction
 
   - workout
 
-
 type: normal
 
 category: must-know
-
-standards:
-  javascript.dom.0: 10
-  javascript.dom.1: 10
 
 ---
 # Write a Function to Return an Element
@@ -44,7 +30,7 @@ We can make our functions more useful by adding some parameters that can change 
 
 ```javascript
 function initializeElement(element, text) {
-  var newElement = document
+  let newElement = document
     .createElement(element)
   newElement
     .appendChild(
@@ -67,7 +53,7 @@ Fill in the blanks to create a function that returns an element.
 
 ```javascript
 function initializeElement() {
-  var paragraph = document.???('p')
+  let paragraph = document.???('p')
   return ???
 }
 ```
@@ -88,7 +74,7 @@ Which of the following will return an element?
 Option A:
 ```javascript
 function initializeElement() {
-  var paragraph = document
+  let paragraph = document
     .create('p')
   return paragraph;
 }
@@ -104,7 +90,7 @@ function initializeElement() {
 Option C:
 ```javascript
 function initializeElement() {
-  var paragraph = document
+  let paragraph = document
     .createElement('p')
   return paragraph;
 }
