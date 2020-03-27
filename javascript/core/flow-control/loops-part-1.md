@@ -21,7 +21,7 @@ links:
 
 JavaScript supports the standard loop constructs you may have seen in other languages:
 
-**for Loop**
+### `for` loop
 
 ```javascript
 // print values from 0 to 9
@@ -43,7 +43,7 @@ for (let i = 9; i >= 0; i--) {
 // 9, 8, 7, 6, 5, 4, 3, 2, 1, 0
 ```
 
-**while Loops**
+### `while` loop
 
 The `while` loop continues to run as long as its condition is true:
 
