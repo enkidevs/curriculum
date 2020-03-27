@@ -1,5 +1,5 @@
 ---
-author: daniel_adelberg
+author: danadelberg
 
 type: normal
 
