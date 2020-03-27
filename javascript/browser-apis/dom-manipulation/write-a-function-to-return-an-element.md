@@ -17,34 +17,31 @@ category: must-know
 ## Content
 
 
-Let's say we need to create elements quite often within our code, then we should write a function that creates and returns an element:
+Let's say we need to create elements quite often within our code. In that case, we should write a function that creates and returns an element:
 
 ```javascript
 function initializeElement() {
-  var heading = document
-    .createElement('h1')
-  return heading
+  let heading = document.createElement(
+    'h1'
+  );
+  return heading;
 }
 ```
-We can make our functions more useful by adding some parameters that can change the text inside, and even the type of element itself:
+We can make our functions more useful by adding some parameters that can change the text inside, or even the type of the element itself:
 
 ```javascript
 function initializeElement(element, text) {
-  let newElement = document
-    .createElement(element)
-  newElement
-    .appendChild(
-      document
-      .createTextNode(text)
-    )
-  return newElement
+  let newElement = document.createElement(
+    element
+  );
+  newElement.appendChild(
+    document.createTextNode(text)
+  );
+  return newElement;
 }
-createElement(
-  'h1',
-  'hello world'
-)
+initializeElement('h1', 'hello world');
 ```
-In the example above we create an h1 element that says hello world.
+In the example above, we create an `h1` element that says `'hello world'`.
 
 ---
 ## Practice
