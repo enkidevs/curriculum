@@ -28,7 +28,7 @@ let firstName = "Enki";
 
 Omitting a semicolon in certain situations can cause problems. JavaScript has a feature called Automatic Semicolon Insertion (ASI) which means that, if you omit a semicolon, JavaScript will automatically add it where it thinks it should go. 
 
-This can sometimes lead to unexpected results[2], thus it's usually recommended to always insert the `;` yourself.
+This can sometimes lead to unexpected results[2]. Thus, it's usually recommended to insert the `;` yourself.
 
 ### Variables
 
@@ -136,4 +136,3 @@ and not as:
 x++;
 y
 ```
-
