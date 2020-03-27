@@ -31,13 +31,13 @@ var PASSWORD;
 
 ### Keywords
 
-Like most languages, there are a number of reserved words in JavaScript that you cannot use to name your functions and variables (e.g. `var`, `let`, `new`).
+Tthere are a number of reserved words in JavaScript that you cannot use to as names for your functions and variables (e.g. `var`, `let`, `new`).
 
 ### Identifier naming rules
 
-When naming any function, property or variable, the first character must be a letter, $ sign or underscore.
+When naming any function, property or variable, the first character must be a letter, a $ sign or an underscore.
 
-After the first character, you are free to use numbers, letters, dollar signs or underscores.
+After the first character, you are free to use numbers, letters, $ signs or underscores.
 
 ```javascript
 let name = "Enki"; // valid
@@ -59,7 +59,7 @@ As a single line comment:
 You can also add single line comments to the same line as other code:
 
 ```javascript
-let company="enki"; // define company
+let company = "enki"; // define company
 ```
 
 Or if you have more text you can use a block comment:
