@@ -11,8 +11,8 @@ aspects:
   - workout
 
 links:
-  - '[ponyfoo.com](https://ponyfoo.com/articles/es6-template-strings-in-depth){website}'
-  - '[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals){website}'
+  - '[Template Literals in Depth](https://ponyfoo.com/articles/es6-template-strings-in-depth){website}'
+  - '[Template Literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals){documentation}'
 
 ---
 # Template Literals
