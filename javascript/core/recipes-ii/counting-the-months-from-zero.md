@@ -1,26 +1,14 @@
 ---
 author: jordanfish
 
-levels:
-  - basic
-  - advanced
-  - medium
-
 type: normal
 
 category: caveats
-
-standards:
-  javascript.standard-library.5: 10
-
-tags:
-  - workout
 
 aspects:
   - introduction
   - workout
   - obscura
-
 
 ---
 # Counting the months from zero
@@ -31,7 +19,7 @@ aspects:
 The months of the year in a date object begin counting from zero.
 
 ```javascript
-var date = new Date(2015,1,21);
+let date = new Date(2015, 1, 21);
 console.log(date);
 ```
 
@@ -40,14 +28,14 @@ The date will not be the 21st of January, but instead this date object represent
 To print the 21st of January, use month `0`:
 
 ```javascript
-var date = new Date(2015,0,21);
+let date = new Date(2015, 0, 21);
 console.log(date);
 ```
 
 Similarly, using the 12th month of 2015 in a date object will print January of 2016:
 
 ```javascript
-var date = new Date(2015,12,21);
+let date = new Date(2015, 12, 21);
 console.log(date);
 // date = Thur Jan 21 2016 00:00:00
 ```
@@ -58,7 +46,7 @@ console.log(date);
 Fill in the missing gaps to create a date on the 15 December 2019
 
 ```javascript
-var date = new ???(???, ???, ???)
+let date = new ???(???, ???, ???)
 console.log(date)
 // Sun Dec 15 2019 00:00:00 GMT+0000 (GMT)
 ```
@@ -82,7 +70,7 @@ console.log(date)
 What will the following code snippet print?
 
 ```javascript
-var date = new Date(2016, 1, 5);
+let date = new Date(2016, 1, 5);
 console.log(date);
 // Tue ??? ??? 2016
 // 00:00:00 GMT-700
