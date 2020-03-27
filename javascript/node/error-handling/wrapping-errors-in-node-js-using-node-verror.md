@@ -6,21 +6,21 @@ type: normal
 category: feature
 
 links:
-  - '[github.com](https://github.com/davepacheco/node-verror){website}'
+  - '[node-verror](https://github.com/davepacheco/node-verror){documentation}'
 
 aspects:
   - introduction
   - workout
 
 ---
-# Wrapping errors in Node.js using _node-verror_
+# Wrapping Errors in Node.Js Using `node-verror`
 
 ---
 ## Content
 
 The module `node-verror` can be used to produce useful error messages in Node.js. It has two classes `VError` and `WError`.
 
-**VError class**
+### `VError` Class
 
 `VError` is used to **combine errors**. It is possible to nest errors so that each layer in the stack annotates the error:
 
@@ -46,7 +46,7 @@ request failed: failed to open "eg.txt":
 file not found
 ```
 
-**WError class**
+### `WError` Class
 
 To avoid giving detail about the error at every layer in stack, use `WError` to **wrap errors**.  For example the code above could be changed to:
 
