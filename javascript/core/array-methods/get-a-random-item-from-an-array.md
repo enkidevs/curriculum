@@ -1,12 +1,6 @@
 ---
 author: AlexYancey
 
-levels:
-
-  - basic
-
-  - beginner
-
 type: normal
 
 category: how to
@@ -14,9 +8,6 @@ category: how to
 aspects:
   - introduction
   - workout
-
-
-notes: ''
 
 ---
 
@@ -28,16 +19,18 @@ notes: ''
 Given the array:
 
 ```js
-var food = ["Sushi", "Pizza", "Tacos"];
+let food = ["Sushi", "Pizza", "Tacos"];
 ```
 
 Select an item using `Math.random()` with a range of `food.length`[1].
+
 ```js
-var randIndex =
+let randIndex =
   Math.floor(Math.random() * food.length);
 ```
 
 Now, print out the result.
+
 ```js
 console.log("Let's get " + food[randIndex]);
 ```
@@ -45,44 +38,50 @@ console.log("Let's get " + food[randIndex]);
 ---
 ## Practice
 
-How would you select a fruit at random
-from the array `fruits`?
+How would you select a fruit at random from the array `fruits`?
+
 ```js
-var fruits =[oranges, apples, banana];
+let fruits = [
+  "oranges",
+  "apples",
+  "banana"
+];
 
-var index =
-Math.???(
-  Math.random() *
-    fruits.length);
+let index = Math.???(
+  Math.random() * fruits.length
+);
 
-console.log("the random fruit is"
-  +fruits[index]);
+console.log(
+  "the random fruit is" + fruits[index]
+);
+
 ```
 
-* floor
-* ceil
-* wall
+* `floor`
+* `ceil`
+* `wall`
 
 ---
 ## Revision
 
-How would you select a fruit at random
-from the array `fruits`?
+How would you select a fruit at random from the array `fruits`?
+
 ```js
-var fruits =[oranges, apples, banana];
+let fruits = [oranges, apples, banana];
 
-var index =
-Math.???(Math.random()*
-   fruits.length);
+let index = Math.???(
+  Math.random() * fruits.length
+);
 
-console.log("the random fruit is"
-  +fruits[index]);
+console.log(
+  "the random fruit is" + fruits[index]
+);
 ```
 
 
-* floor
-* ceil
-* wall
+* `floor`
+* `ceil`
+* `wall`
  
 ---
 ## Footnotes
