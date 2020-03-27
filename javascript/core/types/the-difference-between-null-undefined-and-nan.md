@@ -12,33 +12,34 @@ aspects:
 
 ---
 
-# The difference between null, undefined and NaN
+# The NaN value
 
 ---
 ## Content
 
-In JavaScript, a variable that has been declared but not yet initialized has the value of `undefined`:
+In JavaScript, `NaN` means **Not-A-Number** and is the result when math functions fail or when a function expecting a number is given a different type:
 
 ```js
-let Enki;
-console.log(Enki);
-// undefined
-```
-
-In contrast, a variable can be assigned the value `null`, in which case it is considered *defined* (even though it's set to a special value that represents "no value"):
-
-```js
-let Enki = null;
-console.log(Enki);
-// null
-```
-
-`NaN` means **Not-A-Number** and is the result when math functions fail or when a function expecting a number is given a different type:
-
-```js
+// dividing by zero
+// gives "not a number"
 let x = 0 / 0;
 console.log(x);
 // NaN
+```
+
+It is a special value of type `"number"` to represent an invalid number.
+
+One notable property of `NaN` is that it is never equal to itself:
+
+```js
+NaN === NaN // false
+```
+
+The main way to check if a value is `NaN` is by using the `isNaN` function:
+
+```js
+Number.isNaN(NaN); // true
+Number.isNaN(2); // false
 ```
 
 ---
@@ -68,7 +69,6 @@ let x = 0 / 0;
 console.log(x);
 // ???
 ```
-
 
 * `NaN`
 * `undefined`
