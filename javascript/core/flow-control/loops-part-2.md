@@ -39,7 +39,7 @@ for (let key in obj) {
 // "lastName" "Smith"
 ```
 
-**For of**
+### `for...of`
 
 `for..of` loops are used for looping through iterable objects such as arrays:
 
