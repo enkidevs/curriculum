@@ -21,49 +21,52 @@ links:
 Like most programming languages JavaScript has a number of flow control statements including the standard `if`, `if..else` and `switch` statements.
 
 ```js
-let isNewCustomer = true;
+let isEnkiCoder = true;
 
-if (isNewCustomer === true) {
-  // ...
+if (isEnkiCoder) {
+  // this executes
+  // if above check
+  // is equal to true
+  console.log("if statement");
 }
 
-if (invalidLogins > 3) {
-  // ...
+let coding = "fun";
+
+if (coding === "fun") {
+  // this executes
+  // if above check
+  // is equal to true
+  console.log(" is cool");
 }
+```
+
+The output of the code above is:
+
+```sh
+if statement is cool
 ```
 
 ### `if..else`
 
-We can test multiple conditions using `if..else`. The first expression that is found to be `true` will be executed. If none of them are `true` then the `else` condition is executed (if it exists):
+We can test multiple conditions using `if..else`. Going top to bottom, the first `if` check that is found to be `true` will be executed. If none of them are `true` then the final `else` condition is executed (if it exists):
 
 ```js
-if (isNewCustomer) {
-  // ...
-} else if (isVipCustomer) {
-  // ...
+const codingSkill = "learning";
+
+if (codingSkill === "beginner") {
+  console.log("keep going!");
+} else if (codingSkill === "ninja") {
+  console.log("hello sensei");
 } else {
-  // ...
+  console.log("still figuring it out");
 }
 ```
 
-### `switch`
+The output of the code above is:
 
-When needing to do a lot of comparisons for a single value, instead of using many `if..else` statements, code can be made more readable by using the `switch` statement:
-
-```js
-switch (customerType) {
-  case "normal":
-    // ...
-    break;
-  case "vip":
-    // ...
-    break;
-  default:
-    // ...
-}
+```sh
+"still figuring it out"
 ```
-
-The `default` case in a `switch` statement is like the last `else` in an `if..else` chain. It will be reached if none of the previously tested conditions are `true`.
 
 ---
 ## Practice
@@ -87,29 +90,3 @@ if (condition <= 0) {
 * `switch`
 * `case`
 * `==`
-
----
-## Revision
- 
-Complete the basic syntax of the following `switch` statement:
-
-```js
-??? (checker) {
-  case "1":
-    // ...
-    break;
-  case "2":
-    // ...
-    break;
-  ???:
-    // ...
-}
-```
-
-* `switch`
-* `case`
-* `default`
-* `break`
-* `if`
-* `else`
-* `if else`
