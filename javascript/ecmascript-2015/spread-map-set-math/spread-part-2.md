@@ -34,7 +34,7 @@ let another = [0, ...original, 4, 5, 6];
 // [0, 1, 2, 3, 4, 5, 6]
 ```
 
-Or add and existing array to the end:
+Or add an existing array to the end:
 
 ```javascript
 original.push(...copyOfOriginal);
@@ -104,4 +104,5 @@ const copy = [...arr];
 console.log(copy === arr); // false
 // but still contains the same elements
 console.log(copy[0] === arr[0]); // true
+console.log(copy[1] === arr[1]); // true
 ```
