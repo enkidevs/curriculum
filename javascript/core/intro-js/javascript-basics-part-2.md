@@ -90,8 +90,8 @@ answer = 'life';
 
 ???
 
-* Option A
 * Option B
+* Option A
 * Option C
 * None of these
 
