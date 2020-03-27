@@ -1,14 +1,6 @@
 ---
 author: tommarshall
 
-levels:
-
-  - basic
-
-  - advanced
-
-  - medium
-
 type: normal
 
 category: must-know
@@ -19,10 +11,6 @@ aspects:
   - workout
   - deep
   - obscura
-
-standards:
-  javascript.browser-apis-device.3: 10
-  javascript.browser-store-data.6: 10
 
 links:
 
@@ -38,50 +26,61 @@ links:
 
 *MediaDevices.getUserMedia()* prompts a user for permission to use video/audio input devices such as webcams/microphones.
 
-If permission is provided then the promise returned is resolved with the *MediaStream* object.
+If permission is provided then the promise returned is resolved with the `MediaStream` object.
 
 Standard syntax:
 ```javascript
-navigator.mediaDevices.getUserMedia
-                            (constraints)
-.then(function(mediaStream) { ... })
-.catch(function(error) { ... })
+navigator.mediaDevices
+  .getUserMedia(constraints)
+  .then(function (mediaStream) {
+    /*...*/
+  })
+  .catch(function (error) {
+    /*...*/
+  });
 ```
 
-A full example getting and returning the *MediaStream* object, using the promise:
+A full example getting and returning the `MediaStream` object, using the promise:
+
 ```javascript
-var p = navigator.mediaDevices.
-           getUserMedia({ audio: true,
-                          video: true });
+let p = navigator.mediaDevices.getUserMedia(
+  { audio: true, video: true }
+);
 ```
-You can do something with the video here.
+
+You can do something with the video here:
+
 ```javascript
-p.then(function(mediaStream) {
-  var video = document.
-              querySelector('video');
-  video.src = window.URL.
-              createObjectURL(mediaStream);
-  video.onloadedmetadata = function(e) {
+p.then(function (mediaStream) {
+  let video = document.querySelector(
+    "video"
+  );
+  video.src = window.URL.createObjectURL(
+    mediaStream
+  );
+  video.onloadedmetadata = function (e) {
     // ...
   };
 });
 ```
-You always check for errors at the end.
+
+You always check for errors at the end:
+
 ```javascript
 p.catch(function(err) {
-     console.log(err.name);
+  console.log(err.name);
 });
 ```
 
 ---
 ## Practice
 
-Get and return the MediaStream object using the promise below:
+Get and return the `MediaStream` object using the promise below:
 
 ```javascript
-var p = navigator.???.???({
-   audio: true,
-   video: true
+let p = navigator.???.???({
+  audio: true,
+  video: true
 });
 ```
 
