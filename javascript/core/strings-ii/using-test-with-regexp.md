@@ -14,7 +14,7 @@ aspects:
 
 ---
 
-# Using `.test()` with RegExp
+# Using `.test()` With RegExp
 
 ---
 ## Content
