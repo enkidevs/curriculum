@@ -24,8 +24,8 @@ One approach that we can use to merge two arrays in JavaScript, is to loop throu
 let array1 = [1, 2, 3];
 let array2 = [4, 5, 6];
 
-for (let item1 of array1) {
-  array2.push(item1);
+for (let item of array2) {
+  array1.push(item);
 }
 
 console.log(array2);
@@ -38,7 +38,7 @@ We can also use the spread operator, i.e. `...`, to do the same with less code:
 let array1 = [1, 2, 3];
 let array2 = [4, 5, 6];
 
-array2.push(...array1);
+array1.push(...array2);
 
 console.log(array2);
 // 1, 2, 3, 4, 5, 6
@@ -52,10 +52,10 @@ let array2 = [4, 5, 6];
 let array3 = array1.concat(array2);
 ```
 
-The notable difference when using `concat` is that it, instead of merging one array into another, it generates a new array out of the two merged arrays.
+The notable difference when using `concat` is that, instead of merging one array into another, it generates a new array out of the two merged arrays.
 
 
-Note that, unlike other languages, JavaScript does not support `+` for concatenating arrays. The output of such an operation would be a string:
+Note that, unlike other languages, JavaScript does not support using `+` to concatenate arrays. The output of such an operation would be a string:
 
 ```javascript
 console.log([1, 2] + [3, 4])
@@ -74,11 +74,11 @@ let array2 = ['d', 'e', 'f'];
 array1.???(???array2)
 ```
 
-* `push`
-* `...`
-* `merge`
-* `+`
-* `concat`
+* push
+* ...
+* merge
+* +
+* concat
 
 ---
 ## Revision
@@ -95,10 +95,10 @@ console.log(a);
 
 ???
 
-* `[3,1,4]`
-* `[3, 1, 4, 2, 7, 1]`
-* `[[3, 1, 4], [2, 7, 1]]`
-* `2, 7, 1`
+* [3, 1, 4]
+* [3, 1, 4, 2, 7, 1]
+* [[3, 1, 4], [2, 7, 1]]
+* 2, 7, 1
 
 ---
 ## Quiz
