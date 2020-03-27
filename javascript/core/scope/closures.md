@@ -10,7 +10,7 @@ aspects:
   - workout
 
 links:
-  - '[ryanmorr.com](http://ryanmorr.com/understanding-scope-and-context-in-javascript/){website}'
+  - '[Understanding Scope and Context](http://ryanmorr.com/understanding-scope-and-context-in-javascript/){website}'
 
 ---
 
