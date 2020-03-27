@@ -1,14 +1,6 @@
 ---
 author: tommarshall
 
-levels:
-
-  - basic
-
-  - advanced
-
-  - medium
-
 type: normal
 
 category: must-know
@@ -17,9 +9,6 @@ aspects:
   - introduction
   - workout
   - deep
-
-standards:
-  javascript.browser-store-data.6: 10
 
 links:
 
@@ -37,15 +26,15 @@ A *blob* object represents an "almost file" object of raw data. It represents da
 
 To create a blob, use the blob constructor:
 ```javascript
-var debug = {hello: "world"};
-var blob = new Blob([
+let debug = {hello: "world"};
+let blob = new Blob([
   JSON.stringify(debug, null, 2)
 ], {type : 'application/json'});
 ```
 
 To create a subset of a blob, use the *slice()* method:
 ```javascript
-var blob = instanceOfBlob.slice([
+let blob = instanceOfBlob.slice([
   start [, end [, contentType]]
 ]);
 ```
@@ -56,9 +45,9 @@ var blob = instanceOfBlob.slice([
 Use the blob constructor to create a blob:
 
 ```javascript
-var debug = {hello: "Enki"};
+let debug = {hello: "Enki"};
 
-var blob = new ???([
+let blob = new ???([
     JSON.???(debug, null, 2)],
     {type : 'application/json'});
 ```
@@ -77,7 +66,7 @@ var blob = new ???([
 
 What method should be used to create a subset of a blob?
 ```javascript
-var blob = instanceOfBlob.???([
+let blob = instanceOfBlob.???([
  start, [, end [, contentType]]
 ]);
 ```
