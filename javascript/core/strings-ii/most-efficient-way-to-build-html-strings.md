@@ -1,22 +1,9 @@
 ---
 author: pawel
 
-levels:
-  - basic
-
 type: normal
 
 category: best practice
-
-standards:
-  javascript.evaluate-expressions.3: 10
-  javascript.write-expressions.1: 10
-
-tags:
-  - strings
-  - html
-  - introduction
-  - workout
 
 links:
   - '[jsperf.com](http://jsperf.com/string-concat-vs-array-join-10000){website}'
@@ -38,8 +25,8 @@ On modern browsers, building **HTML** strings with `.join()` is less efficient t
 So, adding the values to an array and then joining them at the end:
 
 ```javascript
-var html = [];
-for(var i=0; i<100; i++) {
+let html = [];
+for (let i = 0; i < 100; i++) {
   html.push('<p>', i, '</p>');
 }
 html = html.join('');
@@ -48,8 +35,8 @@ html = html.join('');
 Runs slower than the straightforward method of building `HTML` strings using `+=`:
 
 ```javascript
-var html = '';
-for(var i=0; i<100; i++) {
+let html = '';
+for(let i = 0; i < 100; i++) {
   html += '<p>' + i + '</p>'
 }
 ```
@@ -60,7 +47,7 @@ for(var i=0; i<100; i++) {
 Fill in the gaps of the following snippet such that the `squares` string will contain, one after the other, the square value of all numbers from `1` to `10`:
 
 ```javascript
-var squares = '';
+let squares = '';
 for (var i = 1; i ??? 10; i ++) {
   squares ??? i*i ??? ' '
 }
@@ -68,9 +55,9 @@ console.log(squares)
 // "1 4 9 16 25 36 49 64 81 100 "
 ```
 
-* `<=`
 * `+=`
 * `+`
+* `<=`
 * `=+`
 * `<`
 * `>`
