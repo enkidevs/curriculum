@@ -41,7 +41,7 @@ for (let key in obj) {
 
 ### `for...of`
 
-`for..of` loops are used for looping through iterable objects such as arrays:
+The `for..of` loops are used for looping through iterable objects such as arrays:
 
 ```javascript
 let arr = [10, 20, 30];
