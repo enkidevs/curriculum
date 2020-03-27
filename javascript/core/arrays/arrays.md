@@ -118,12 +118,6 @@ for (let item of myArray) {
 ## Practice
 
 How would you get the last value in the `myArray` array?
-
-```
-var myLength = myArray.???
-var last = ???[??? ???];
-```
-
 ```js
 let myArray = [1, 2, 3];
 let length = myArray.???;
