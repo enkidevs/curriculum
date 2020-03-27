@@ -77,7 +77,7 @@ for (let i of iterable) {
 
 ```
 
-**break and continue**
+### `break` & `continue`
 
 The `break` statement exits out of a loop and the `continue` statement will skip to the next iteration:
 
