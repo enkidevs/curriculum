@@ -71,6 +71,26 @@ let greeting = `hello \``;
 ---
 ## Practice
 
+Fill in the template literal syntax:
+
+```javascript
+let name = 'Enki'
+console.log(
+  `Hello from ???`
+);
+```
+
+* ${name}
+* {name}
+* $name
+* &{name}
+* %{name}
+* %name
+* &name
+
+---
+## Revision
+
 Complete the gaps such that the log is correct:
 
 ```javascript
@@ -99,21 +119,3 @@ console.log(str)
 * dayNumber
 * ${year}
 * {dayNumber}
-
----
-## Revision
-
-Fill in the template literal syntax:
-
-```javascript
-let name = 'Enki'
-console.log(`Hello from ???`)
-```
-
-* ${name}
-* {name}
-* $name
-* &{name}
-* %{name}
-* %name
-* &name
