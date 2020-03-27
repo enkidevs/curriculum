@@ -34,7 +34,7 @@ In fact, we can think of functions as invocable (executable) objects.
 
 This means that we can also pass function as arguments into other functions (the passed in functions are usually called "callbacks").
 
-A somewhat contrived example would be, if we were creating a calculator, we could pass different calculation expressions into the `calc` function and avoid repeating the console logging code:
+Consider this example: if we were creating a calculator, we could pass different calculation expressions into the `calc` function and avoid repeating the console logging code:
 
 ```js
 function calc(expression){
