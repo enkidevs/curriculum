@@ -86,7 +86,7 @@ The way to think of `undefined` is as the default value assigned to anything wit
 let myNullValue = null;
 ```
 
-Unlike `undefined`, which JavaScript automatically assigns as the value wherever a value is missing, `null` is a special value given to the programmer to explicitly say that something is defined but holds no value. More on this to come later.
+Unlike `undefined`, which JavaScript automatically assigns as the value wherever a value is missing, `null` is a special value that the programmer can use to explicitly say that something is defined but holds no value. More on this to come later.
 
 If you compare `null` and `undefined` you will find they are equal when using `==`:
 
