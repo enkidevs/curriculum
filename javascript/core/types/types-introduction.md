@@ -41,11 +41,11 @@ There are also a few special types - `Array`, `Date`, `RegExp` - that are types 
 
 ### typeof
 
-You can check the type of value by using the `typeof` operator e.g.
+You can check the type of a value by using the `typeof` operator e.g.
 
 ```javascript
-var company="enki";
-typeof company; //string
+let company = "enki";
+typeof company; // "string"
 ```
 
 ### Dynamic Types
