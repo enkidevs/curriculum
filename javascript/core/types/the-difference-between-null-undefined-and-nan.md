@@ -23,10 +23,9 @@ In JavaScript, a variable that has been declared but not yet initialized has the
 let Enki;
 console.log(Enki);
 // undefined
-
 ```
 
-In contrast, a variable can be assigned the value `null`. In which case it is considered *defined* (even though it's set to a special value that represents "no value"):
+In contrast, a variable can be assigned the value `null`, in which case it is considered *defined* (even though it's set to a special value that represents "no value"):
 
 ```js
 let Enki = null;
@@ -49,7 +48,7 @@ The following code outputs ???
 
 ```javascript
 function foo(num){
-  return num/2;
+  return num / 2;
 }
 
 console.log(foo("sum"));
