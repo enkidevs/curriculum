@@ -7,7 +7,7 @@ category: feature
 
 links:
 
-  - '[stackoverflow.com](http://stackoverflow.com/questions/3725546/variable-hoisting){website}'
+  - '[Variable Hoisting](http://stackoverflow.com/questions/3725546/variable-hoisting){website}'
 
 
 aspects:
