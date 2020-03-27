@@ -6,7 +6,7 @@ type: normal
 category: feature
 
 links:
-  - '[developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/test){website}'
+  - '[Official Documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/test){documentation}'
 
 aspects:
   - introduction
