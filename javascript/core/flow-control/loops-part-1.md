@@ -75,9 +75,9 @@ while (i < 10) {
 // 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
 ```
 
-**do while**
+### `do..while` loop
 
-`do`/`while` loops are similar to `while` loops but have the important difference that they will always run at least once before the condition is checked:
+`do..while` loops are similar to `while` loops but have the important difference that they will always run at least once before the condition is checked:
 
 ```javascript
 let i = 10;
