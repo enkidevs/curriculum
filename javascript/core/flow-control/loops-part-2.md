@@ -129,8 +129,8 @@ let myArray = [1, 2, "3", "item"];
 To exit a loop, you can use the ??? keyword.
 
 
-* `break`
-* `stop`
-* `finish`
-* `end`
+* break
+* stop
+* finish
+* end
  
