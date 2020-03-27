@@ -26,7 +26,7 @@ links:
 ---
 ## Content
 
-The style of the code shouldn't influence its performance in any way. The guidelines for what is the "right" style differ from team to team and are primarily subjective. Commonly, developers would disagree on using `camelCase` versus `kebab_case` naming conventions, tabs versus spaces, or various positions of braces or brackets. 
+The style of the code shouldn't influence its performance in any way. The guidelines for what is the "right" style are primarily subjective. Commonly, developers would disagree on using `camelCase` versus `kebab_case` naming conventions, tabs versus spaces, or different positions of braces. 
 
 However, in the land of JavaScript, the location of brackets sometimes isn't up for debate. Let's take a look at an example:
 
@@ -56,7 +56,7 @@ console.log(wrong().status);
 // undefined
 ```
 
-What is going on? Why does the bracket position matter?
+What is going on?
 
 For a function or a block (`if`/`else`, `switch`, etc) in JavaScript, brackets are used to denote the body:
 
@@ -93,7 +93,7 @@ console.log(
 // "right", "right", "right"
 ```
 
-No matter how we place the brackets around a block, the behavior of the code inside will be unaffected.
+No matter how we place the brackets around a block, the behavior of the code inside is unaffected.
 
 However, things are not the same when brackets are used to denote and `return` an object:
 
@@ -113,7 +113,7 @@ Why is that?
 
 It turns out that JavaScript is trying to help us write correct code. 
 
-Statements in JavaScript are separated with a semicolon, i.e. `;`. If we forget to add a semicolon after a line of code, JavaScript tries to be a good friend and inserts a semicolon for us. This property is called *automatic semicolon insertion* (ASI). 
+If we forget to add a semicolon after a line of code, JavaScript tries to be a good friend and inserts a semicolon for us. This property is called *automatic semicolon insertion* (ASI). 
 
 In the code above, when JavaScript notices a new line after a `return` statement, it assumes that the intention was to end the code there and return from the function, so it inserts a `;`[1].
 
@@ -122,7 +122,7 @@ The code above is seen by JavaScript like this:
 ```javascript
 function wrong() {
   return; // equivalent to return undefined;
-//      ^ this semi colon is inserted for us
+  //    ^ this semi colon is inserted for us
   // the code below is ignored because
   // of the return
   {
