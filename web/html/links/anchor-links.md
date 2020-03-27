@@ -23,7 +23,7 @@ links:
 
 **Anchor Tags** represent a way to tell the browser to move up or down the same web page (think of content summaries) or to open other HTML pages in certain locations further down from the top.
 
-Anchor links are still defined by the typical link `<a>` tag, but rather than linking to only to a file, they link to an `id` tag on the webpage. In this example, the link is navigating down to the `id` with the value `content`, which is usually written in HTML like this:
+Anchor links are still defined by the typical link `<a>` tag, but rather than only linking to a file, they link to an `id` tag on the webpage. In this example, the link is navigating down to the `id` with the value `contact`, which is usually written in HTML like this:
 
 ```html
 <a href="#contact">
