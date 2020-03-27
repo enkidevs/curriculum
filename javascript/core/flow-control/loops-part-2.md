@@ -79,7 +79,7 @@ for (let i of iterable) {
 
 ### `break` & `continue`
 
-The `break` statement exits out of a loop and the `continue` statement will skip to the next iteration:
+The `break` statement exits out of a loop, while the `continue` statement will skip to the next iteration:
 
 ```javascript
 let i = 0;
