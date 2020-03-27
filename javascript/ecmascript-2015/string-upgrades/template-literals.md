@@ -97,9 +97,8 @@ console.log(str)
 * ${dayNumber}
 * year
 * dayNumber
-* ${dayName}
 * ${year}
-* ${dayNumber
+* {dayNumber}
 
 ---
 ## Revision
