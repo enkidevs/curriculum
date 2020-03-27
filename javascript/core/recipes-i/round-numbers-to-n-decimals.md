@@ -12,7 +12,7 @@ aspects:
 
 ---
 
-# Round numbers to `N` decimals 
+# Round Numbers to `N` Decimals
 
 ---
 ## Content
