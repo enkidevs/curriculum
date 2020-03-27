@@ -18,7 +18,7 @@ links:
 ---
 ## Content
 
-Like most programming languages JavaScript has a number of flow control statements including the standard `if`, `if..else` and `switch` statements.
+Like most programming languages JavaScript has a number of flow control statements including the standard `if` and `if..else`.
 
 ```js
 let isEnkiCoder = true;
