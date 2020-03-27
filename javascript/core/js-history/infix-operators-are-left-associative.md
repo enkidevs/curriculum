@@ -70,7 +70,7 @@ console.log(x);
 ---
 ## Revision
 
-The processing of operations starts with the ??? operator if no brackets are used.
+The processing of operations starts with the ??? operator if no parentheses are used.
 
 
 * left-most
