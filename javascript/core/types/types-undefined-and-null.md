@@ -17,29 +17,6 @@ aspects:
 ---
 ## Content
 
-### `undefined`
-
-A variable is of `undefined` type when it is created but not set to a value:
-
-```js
-let company;
-typeof company; // undefined
-```
-
-Note that if the `typeof` operator is used on a variable that has never been defined it will also return `undefined`:
-
-```js
-typeof randomName; //undefined
-```
-
-### `null`
-
-null is used to represent a deliberate absence of a value:
-
-```js
-let myNullValue = null;
-```
-
 ### `==` vs `===`
 
 In JavaScript, there are two ways to check if two values are equal. 
@@ -75,13 +52,41 @@ let y = '2';
 
 // when using ===
 // any values that
-// aren't the same
-// type are not
-// equal.
+// have a different
+// type are always
+// not equal
 console.log(
   x === y // false
 );
 ```
+
+### `undefined`
+
+A variable has a value of `undefined` when it is created but not set to a value. The type of `undefined` is `"undefined"`:
+
+```js
+let company;
+company === undefined; // true
+typeof company; // "undefined"
+```
+
+Note that if the `typeof` operator is used on a variable that has never been defined it will also return `undefined`:
+
+```js
+typeof randomName; // undefined
+```
+
+The way to think of `undefined` is as the default value assigned to anything without an assigned value.
+
+### `null`
+
+`null` is used to represent a deliberate absence of a value:
+
+```js
+let myNullValue = null;
+```
+
+Unlike `undefined`, which JavaScript automatically assigns as the value wherever a value is missing, `null` is a special value that the programmer can use to explicitly say that something is defined but holds no value. More on this to come later.
 
 If you compare `null` and `undefined` you will find they are equal when using `==`:
 
