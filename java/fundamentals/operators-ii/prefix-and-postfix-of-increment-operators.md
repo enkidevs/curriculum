@@ -112,4 +112,4 @@ System.out.println(b + " and " + c);
 ## Footnotes
 
 [1:Increment and Decrement]
-In computer science, incrementing means **increasing** the value by 1. On the same note, decrementing means **decreasing** the value by 1. 
+In computer science, incrementing means **increasing** the value by 1. On the same note, decrementing means **decreasing** the value by 1.
