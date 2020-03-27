@@ -1,10 +1,6 @@
 ---
 author: alexjmackey
 
-levels:
-  - medium
-  - advanced
-
 type: normal
 
 category: must-know
@@ -13,8 +9,6 @@ aspects:
   - introduction
   - new
   - workout
-
-inAlgoPool: false
 
 links:
   - '[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy){website}'
@@ -45,17 +39,17 @@ Of course you only need to specify those you want to intercept otherwise the def
 Here is an example of intercepting delete calls:
 
 ```javascript
-var handler = {
+let handler = {
   deleteProperty(target, key) {
     console.log("ignoring delete");
     return true;
   }
 };
 
-var obj = { x: "y" };
-var proxy = new Proxy(obj, handler);
-delete proxy.x; //ignoring delete
-console.log(obj.x); //y
+let obj = { x: "y" };
+let proxy = new Proxy(obj, handler);
+delete proxy.x; // ignoring delete
+console.log(obj.x); // y
 ```
 
 ### Revocable Proxy
@@ -67,7 +61,7 @@ This allows you to later deny access to the proxy by calling the revoke method.
 First we use `Proxy.revocable` to obtain a revocable proxy:
 
 ```javascript
-var rev = Proxy.revocable(
+let rev = Proxy.revocable(
   {},
   {
     get: function(target, name) {
@@ -76,7 +70,7 @@ var rev = Proxy.revocable(
   }
 );
 
-var p = rev.proxy;
+let p = rev.proxy;
 p.a; // accessed a
 ```
 
