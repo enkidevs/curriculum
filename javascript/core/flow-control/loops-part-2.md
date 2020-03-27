@@ -47,7 +47,8 @@ for (let key in obj) {
 let arr = [10, 20, 30];
 
 for (let i of arr) {
-   console.log(i); //10 20 30
+   console.log(i); 
+   // 10 20 30
 }
 ```
 
