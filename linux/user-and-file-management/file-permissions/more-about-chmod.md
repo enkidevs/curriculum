@@ -15,7 +15,7 @@ category: must-know
 ---
 ## Content
 
-Basides having characters to denote who gets what permissions, `chmod` allows us to use digits as well.
+Besides having characters to denote who gets what permissions, `chmod` allows us to use digits as well.
 
 Different digits in `chmod` mean a different set of permissions. The digits we can use and their meaning are shown below:
 
