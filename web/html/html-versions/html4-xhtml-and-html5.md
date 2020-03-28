@@ -1,16 +1,9 @@
 ---
 author: Stefan-Stojanovic
 
-levels:
-  - beginner
-  - basic
-
 type: normal
 
 category: must-know
-
-standards:
-  web.metadata.4: 10
 
 aspects:
   - introduction
@@ -94,13 +87,6 @@ XHTML Transitional:
 
 A lot of elements from HTML4 were deprecated and made obsolete in HTML5. Deprecated means that even though these elements can be used to style how HTML is displayed, it's better to use CSS instead. Some of these deprecate HTML elements are `<basefont>`, `<center>`, `<font>` and `<strike>` and these were all used to style typography. 
 
-Additionally, HTML5 has none of the presentational attributes which were used in HTML4. This is because handling those functionalities is much better with CSS.
-
-Also, HTML5 has many new features that HTML4 doesn't have. Some of these are:
-  - audio and video for multimedia content
-  - track to provide text tracks for the video element
-  - embed for plugin content
-  - new geolocation features
 
 ---
 ## Practice
@@ -132,19 +118,6 @@ Which of these HTML elements was not removed in HTML5?
 * all elements must be written in uppercase in XHTML, but not in HTML4
 * `<font>`
 * `<strike>`
-
-
----
-## Revision
-
-Is this statement true?: HTML5 supports approx. 50% of the presentational attributes that were in HTML4?
-
-???
-
-* No because there are no presentational attributes from HTML4 that are supported in HTML5.
-* No, because all presentational attributes from HTML4 are supported in HTML5.
-* Yes.
-* No, because presentational attributes only existed in HTML1.
 
 ---
 ## Quiz
