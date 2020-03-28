@@ -16,6 +16,9 @@ links:
 ---
 # HTML4, XHTML, & HTML5 Continued
 
+---
+## Content
+
 HTML5 has none of the presentational attributes which were used in HTML4. 
 
 This is because handling those functionalities is much more powerful using CSS.
