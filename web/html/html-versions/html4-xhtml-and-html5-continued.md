@@ -11,9 +11,7 @@ aspects:
   - deep
 
 links:
-  - '[HTML Tutorials](https://developer.mozilla.org/en-US/docs/Web/HTML){documentation}'
   - '[HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5){documentation}'
-  - '[HTML5 Vs HTML4](https://www.w3.org/TR/html5-diff/){documentation}'
 
 ---
 # HTML4, XHTML, & HTML5 Continued
