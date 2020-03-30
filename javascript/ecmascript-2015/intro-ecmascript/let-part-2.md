@@ -21,7 +21,7 @@ links:
 
 It solves an issue you may have come across before when attempting to add event handlers to multiple elements. Let's look at an example of what we mean. 
 
-The code below looks like it will output 0 1 2 3 4 to the console but will actually output 5 5 5 5 5.
+The code below looks like it will output `0 1 2 3 4` to the console but will actually output `5 5 5 5 5`.
 
 ```javascript
 function example() {
@@ -55,7 +55,7 @@ for (let i = 0; i < 5; i++) {
 // 0 1 2 3 4
 ```
 
-Because `let` is block-scoped, it will get separately re-created during each iteration of the `for` loop and not be available globally. The code will now run as expected as each loop iteration refers to a different instance of `i`.
+Because `let` is block-scoped[1], it will get separately re-created during each iteration of the `for` loop and not be available globally. The code will now run as expected as each loop iteration refers to a different instance of `i`.
 
 ---
 ## Practice
@@ -122,3 +122,19 @@ for (func of letFuncs) {
 * [4, 4, 4]
 * [2, 2, 2]
 * [1, 2, 3]
+
+---
+## Footnotes
+
+[1:Block-scope]
+By this we mean that any variable defined with `let` (or `const`) is only accessible in its scope. This is best shown through an example:
+
+```js
+if (true) {
+  let foo = 1;
+}
+console.log(foo);
+// undefined
+```
+
+Here, `foo` is only accessible in the `if` scope.
