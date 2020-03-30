@@ -6,16 +6,14 @@ type: normal
 category: how to
 
 links:
-
-  - '[node-tricks.com](http://node-tricks.com/express-js-deliver-html-files-1/){website}'
-  - '[github.com](https://github.com/expressjs/serve-static){website}'
+  - '[serve-static](https://github.com/expressjs/serve-static){website}'
 
 aspects:
   - introduction
 
 ---
 
-# Easy way to deliver **HTML** pages with **Express**
+# Deliver HTML Pages With Express
 
 ---
 ## Content
@@ -54,7 +52,7 @@ Files will be firstly looked for in `/first` then in `/second` as a fallback.
 ---
 ## Practice
 
-Require the requisite module used to deliver  HTML pages:
+Require the requisite module used to deliver HTML pages:
 
 ```javascript
 let ??? = require('???');
@@ -73,6 +71,7 @@ let ??? = require('???');
 ## Revision
 
 What express module can be used to easily deliver HTML pages?
+
 ???
 
 * serve-static
@@ -80,4 +79,3 @@ What express module can be used to easily deliver HTML pages?
 * easy-html
 * static-express
 * node-html
-
