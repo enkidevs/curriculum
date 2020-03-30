@@ -46,7 +46,20 @@ function test() {
 test(); // { name: "enki" }
 ```
 
-Note an exception will be thrown at run time if you specify a value that doesn’t exist in your return object.
+**Note:** an exception will be thrown at run time if you specify a value that doesn’t exist in your return object.
+
+```js
+function test() {
+  let name = "enki";
+
+  return {
+    nombre
+  };
+}
+
+test(); 
+// ReferenceError: nombre is not defined
+```
 
 ---
 ## Practice
