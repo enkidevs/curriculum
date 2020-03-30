@@ -11,7 +11,7 @@ aspects:
   - deep
 
 links:
-  - '[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Collator){website}'
+  - '[Official Documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Collator){documentation}'
 
 ---
 # Internationalization & Localization
