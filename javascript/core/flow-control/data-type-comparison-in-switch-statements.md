@@ -51,7 +51,7 @@ switch (test) {
 }
 ```
 
-Therefore, the code snippet above won't `log` anything.
+Because of the **strict comparison**, JavaScript tests that `5 === '5'`  which evaluates to `false`. Therefore, the code snippet above won't `log` anything.
 
 ---
 ## Practice
