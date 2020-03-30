@@ -1,9 +1,10 @@
-name: file-permissions
+name: File Permissions
 
-description: Tips for working with file persmissions
+description: Tips for working with file permissions
 
 insights:
   - set-file-permissions-for-users
+  - more-about-chmod
 
 game: sudo-fu
  
