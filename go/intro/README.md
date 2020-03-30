@@ -8,3 +8,4 @@ sections:
   '0':
     - introduction
     - variables-and-constants
+    - functions
