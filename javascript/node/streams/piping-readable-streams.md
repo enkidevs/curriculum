@@ -6,7 +6,7 @@ type: normal
 category: must-know
 
 links:
-  - '[Piping streams](https://www.sandersdenardi.com/readable-writable-transform-streams-node/){website}'
+  - '[Piping Streams](https://www.sandersdenardi.com/readable-writable-transform-streams-node/){website}'
 
 parent: readable-streams
 
