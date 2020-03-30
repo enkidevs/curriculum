@@ -12,7 +12,7 @@ aspects:
 
 links:
 
-  - '[developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/API/FileReader/readAsText){website}'
+  - '[Official Documentation](https://developer.mozilla.org/en-US/docs/Web/API/FileReader/readAsText){documentation}'
 
 ---
 
