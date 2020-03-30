@@ -11,7 +11,7 @@ aspects:
   - obscura
 
 ---
-# Counting the months from zero
+# Counting the Months From Zero
 
 ---
 ## Content
