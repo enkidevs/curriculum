@@ -71,14 +71,14 @@ Complete the following snippet:
 ```javascript
 var numbers = [0,1,2,3,4,5,6,7];
 // div3 contains all numbers
-// divisible with 3
+// which are divisible by 3
 var div3 = numbers.???( num =>
-  num%3 ???);
+  num % 3 ???);
 ```
 
 * `filter`
-* `== 0`
-* `!= 0`
+* `=== 0`
+* `!== 0`
 * `get`
 
 ---
