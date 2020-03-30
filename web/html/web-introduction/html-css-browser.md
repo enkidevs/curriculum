@@ -47,7 +47,6 @@ However, loading just the **CSS** file will only show the text `p { color: green
 
 ![css-only](https://img.enkipro.com/07fa86950c8cbfb5363c32428ce5b116.png)
 
-**Note:** XHTML or XML can be used instead of **HTML** to produce the same result. The only difference between them is the syntax; some have looser syntax while other have stricter. 
 
 ---
 ## Practice
