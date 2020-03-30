@@ -24,7 +24,7 @@ links:
 
 The Navigation Timing API provides timing information about the page load process. It also monitors how a user navigates to a page.
 
-### Timing metrics
+### Timing Metrics
 
 The API records the time at key points in the page load process and stores each event as a propriety of the `window.performance.timing` object.
 
@@ -44,7 +44,6 @@ window.addEventListener(
   },
   false
 );
-
 ```
 
 ### Navigation
@@ -83,7 +82,7 @@ The navigation API shows how a user navigated on a particular page. What are the
 ---
 ## Revision
 
-Navigation API stores events as a propriety of which object?
+Navigation API stores events as a property of which object?
 
 ???
 
