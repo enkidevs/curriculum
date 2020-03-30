@@ -13,7 +13,7 @@ links:
   - '[MDN - Generators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator){website}'
 
 ---
-# Passing values to Generators
+# Passing Values to Generators
 
 ---
 ## Content
