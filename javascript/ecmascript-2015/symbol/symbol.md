@@ -12,8 +12,8 @@ aspects:
   - deep
 
 links:
-  - '[ponyfoo](https://ponyfoo.com/articles/es6-symbols-in-depth){website}'
-  - '[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol){website}'
+  - '[Symbols in Depth](https://ponyfoo.com/articles/es6-symbols-in-depth){website}'
+  - '[MDN Documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol){documentation}'
 
 ---
 # Symbol
