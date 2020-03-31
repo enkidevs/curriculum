@@ -6,14 +6,14 @@ type: normal
 category: feature
 
 links:
-  - '[developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions#Function_constructor_vs._function_declaration_vs._function_expression){website}'
+  - '[Constructor vs. Declaration vs. Expression](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions#Constructor_vs._declaration_vs._expression){documentation}'
 
 aspects:
   - introduction
 
 ---
 
-# Function constructor vs. function expression
+# Function Constructor vs. Function Expression
 
 ---
 ## Content
@@ -26,7 +26,6 @@ A function defined with the `function` *constructor* assigned to the variable `m
 function multiply(x, y) {
   return x * y;
 }
-
 ```
 
 Function *expression* of an anonymous function assigned to the variable `multiply`:
@@ -35,7 +34,6 @@ Function *expression* of an anonymous function assigned to the variable `multipl
 let multiply = function(x, y) {
   return x * y;
 }
-
 ```
 
 Function *expression* of a `function` named `mult` assigned to the variable `multiply`:
@@ -44,19 +42,20 @@ Function *expression* of a `function` named `mult` assigned to the variable `mul
 let multiply = function mult(x, y) {
   return x * y;
 };
-
 ```
 
 ---
 ## Practice
 
-What is the following code? ???
+What is the following code?
 
 ```javascript
 let multiply = function times(x, y) {
   return x * y;
 };
 ```
+
+???
 
 
 * A function expression of a function named `times` assigned to the variable `multiply`.
