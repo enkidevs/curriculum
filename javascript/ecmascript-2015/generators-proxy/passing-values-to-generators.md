@@ -22,7 +22,7 @@ Generator's `next` method also accepts a parameter.
 
 When you pass in a parameter it is assigned to the result of the `yield` statement (if you don’t pass anything in it is `undefined`).
 
-We could for example use this functionality to reset our number sequence when 0 is passed in:
+We could, for example, use this functionality to reset our number sequence when 0 is passed in:
 
 ```javascript
 function* getGenerator() {
