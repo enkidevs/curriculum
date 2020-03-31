@@ -14,7 +14,7 @@ aspects:
 
 links:
 
-  - '[developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/API/MediaDevices){website}'
+  - '[MediaDevices](https://developer.mozilla.org/en-US/docs/Web/API/MediaDevices){documentation}'
 
 
 ---
