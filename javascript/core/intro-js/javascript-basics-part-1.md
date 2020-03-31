@@ -31,7 +31,7 @@ var PASSWORD;
 
 ### Keywords
 
-Tthere are a number of reserved words in JavaScript that you cannot use to as names for your functions and variables (e.g. `var`, `let`, `new`).
+There are a number of reserved words in JavaScript that you cannot use to as names for your functions and variables (e.g. `var`, `let`, `new`).
 
 ### Identifier naming rules
 
