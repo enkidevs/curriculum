@@ -48,7 +48,7 @@ console.log(myVar);
 
 How can you log variables into the console?
 
-```
+```js
 ???.???(myVar);
 ```
 
@@ -61,7 +61,7 @@ How can you log variables into the console?
 ---
 ## Revision
 
-What statement will make the debugger stop at its line?
+What statement will make the debugger when it sees it?
 
 ???
 
