@@ -2,22 +2,13 @@
 author: Dral
 
 levels:
-
   - basic
-
   - advanced
-
   - medium
 
 type: normal
 
 category: best practice
-
-standards:
-  javascript.data-types-structures.2: 10
-  javascript.data-types-structures.3: 10
-  javascript.data-types-structures.6: 10
-  javascript.functions.4: 10
 
 tags:
   - introduction
@@ -29,65 +20,124 @@ aspects:
   - introduction
   - workout
 
+links:
+  - '[MDN Documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter){documentation}'
 
 ---
 
-# Filtering items out of an array
+# Filtering Items out of an Array
 
 ---
 ## Content
 
 A common pattern to filter items from an array is the following:
 
-```
+```js
 let persons = [...];
 let activated = [];
-for(let person of persons) {
+for (let person of persons) {
   if (person.isActived) {
     activated.push(person);
   }
 }
 ```
-However, using the `Array::filter` method is generally more concise and readable:
 
+However, using the `Array.prototype.filter` method is generally more concise and readable. With `filter()`, you **create a new array** whose elements must pass a test. Here's the simplified syntax[1]:
+
+```js
+let newArray = arr.filter(
+  callback(element)
+);
 ```
-let persons = [...];
-let activated = persons.filter(
-  person => person.isActived
+
+You pass a callback function which is applied to every element, and if the result of `callback` is `true` then the element gets added to `newArray`. This might seem a bit confusing, so let's take a look at an example:
+
+```js
+let numbers = [
+  1,
+  2,
+  3,
+  4
+];
+function isEven (element) {
+  if (element % 2 === 0) {
+    return true;
+  }
+  return false;
+}
+let even = numbers.filter(
+  isEven
 )
+console.log(even);
+// [2, 4]
 ```
 
-`.filter` can be applied to any array. It takes a predicate which should return a boolean, depending on whether or not the item should be preserved in the array.
+`.filter` can also be applied directly to an array:
 
-```
-[1,2,3,4].filter(x => x % 2);
-// => [1, 3]
+```js
+function isOdd (element) {
+  // ...
+}
+[1, 2, 3, 4].filter(
+  isOdd
+);
+// [1, 3]
 ```
 
 ---
 ## Practice
 
-Complete the following snippet:
-```javascript
-var numbers = [0,1,2,3,4,5,6,7];
-// div3 contains all numbers
-// divisible with 3
-var div3 = numbers.???( num =>
-  num%3 ???);
-```
-
-* `filter`
-* `== 0`
-* `!= 0`
-* `get`
-
----
-## Revision
-
-`.filter`  can be used instead of ??? .
+`.filter`  can be used instead of ???.
 
 * for and if
 * if
 * for and alert
- 
- 
+
+---
+## Revision
+
+Complete the following snippet such that the `div3` variable will contain all numbers divisible by 3:
+
+```javascript
+let numbers = [
+  0, 1, 2,
+  3, 4, 5,
+  6, 7
+];
+
+function isDivisibleBy3(element) {
+  if (element % 3 ???) {
+    return true;
+  }
+  return false;
+}
+
+let div3 = numbers.???(
+  ???
+);
+```
+
+* === 0
+* filter
+* isDivisibleBy3
+* isDivisibleBy3()
+* isDivisibleBy3(element)
+* !== 0
+* get
+
+---
+## Footnotes
+
+[1:Syntax]
+We've provided you with the simplified syntax (without any optional arguemnts), but there is the full one:
+
+```js
+let newArray = arr.filter(
+  callback(element[, index, [array]])[,
+  thisArg]
+);
+```
+
+Here, `thisArg` is an optional parameter (hence being enclosed by brackets), and it represents that value that is used as `this` when executing the `callback` function.
+
+For the `callback` function, it must have an `element` argument, with the `index` (the index of the current element being processed) and the `array` (the array on which you call `filter()`) arguments being optional. 
