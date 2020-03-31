@@ -16,8 +16,6 @@ aspects:
   - workout
   - new
 
-inAlgoPool: false
-
 tags:
 
   - introduction
