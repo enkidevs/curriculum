@@ -1,10 +1,6 @@
 ---
 author: alexjmackey
 
-levels:
-  - medium
-  - advanced
-
 type: normal
 
 category: must-know
@@ -12,8 +8,6 @@ category: must-know
 aspects:
   - introduction
   - workout
-
-inAlgoPool: false
 
 links:
   - '[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/yield#Examples){website}'
@@ -48,11 +42,11 @@ function* gen2() {
   yield 4;
 }
 var it = gen1();
-it.next(); //Object {value: 1, done: false}
-it.next(); //Object {value: 2, done: false}
-it.next(); //Object {value: 3, done: false}
-it.next(); //Object {value: 4, done: false}
-it.next(); //Object {value: 5, done: false}
+it.next(); // {value: 1, done: false}
+it.next(); // {value: 2, done: false}
+it.next(); // {value: 3, done: false}
+it.next(); // {value: 4, done: false}
+it.next(); // {value: 5, done: false}
 ```
 
 ---
