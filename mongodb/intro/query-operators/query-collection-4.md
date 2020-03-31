@@ -5,7 +5,6 @@ levels:
   - beginner
 
 aspects:
-  - new
   - workout
 
 type: normal
