@@ -117,7 +117,7 @@ Where should **initial state** be set in a component class?
 ## Footnotes
 
 [1:Immutable State]
-This has to do with how data flows in React. The general idea behind this concept is that data goes down while actions go up, effectively creating a circular system. This will be explained in more detail and the end of the workout.
+This has to do with how data flows in React. The general idea behind this concept is that data goes down while actions go up, effectively creating a circular system. This will be explained in more detail at the end of the workout.
 
 [2:Changing state before mounting]
 If you try to change the `state` before the component was mounted, React will display the value of the initial `state`.
