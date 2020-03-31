@@ -8,17 +8,11 @@ type: normal
 
 category: must-know
 
-inAlgoPool: false
-
-standards:
-  javascript.evaluate-expressions.10: 10
-
 tags:
   - introduction
 
 aspects:
   - introduction
-
 
 ---
 # Types - Introduction
