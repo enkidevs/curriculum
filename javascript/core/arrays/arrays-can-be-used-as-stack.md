@@ -14,7 +14,7 @@ links:
 
 ---
 
-# Arrays can be used as stack
+# Arrays Can Be Used as Stack
 
 ---
 ## Content
