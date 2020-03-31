@@ -1,14 +1,9 @@
 ---
 author: alexjmackey
 
-levels:
-  - beginner
-
 type: normal
 
 category: must-know
-
-inAlgoPool: false
 
 tags:
   - introduction
