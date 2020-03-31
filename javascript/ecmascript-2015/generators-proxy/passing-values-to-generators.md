@@ -42,7 +42,7 @@ g.next().value; // 3
 g.next(0).value; // 1
 ```
 
-There is however also a gotcha to watch out for when passing values to generators.
+There is also a gotcha to watch out for when passing values to generators.
 
 This is best implemented with an example - the below function simply logs to the console any values passed in:
 
