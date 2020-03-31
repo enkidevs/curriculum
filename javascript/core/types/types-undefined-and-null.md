@@ -29,7 +29,7 @@ aspects:
 A variable is of `undefined` type when it is created but not set to a value:
 ```js
 let company;
-typeof company; //undefined
+typeof company; // undefined
 ```
 
 Note that if the `typeof` operator is used on a variable that has never been defined it will also return as `undefined`:
