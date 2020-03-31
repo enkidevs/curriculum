@@ -28,7 +28,7 @@ let container = document.getElementById(
 );
 
 function initializeElement(element, text) {
-  var newElement = document.createElement(
+  let newElement = document.createElement(
     element
   );
   newElement.appendChild(
@@ -64,10 +64,10 @@ After creating an element, which method is used to add the element to the HTML d
 Fill in the blanks to add the new element to the HTML document.
 
 ```javascript
-var container = document.getElementById(
+let container = document.getElementById(
   "container"
 );
-var paragraph = document.createElement("p");
+let paragraph = document.createElement("p");
 
 container.???(paragraph);
 ```
