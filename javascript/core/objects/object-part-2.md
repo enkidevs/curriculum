@@ -10,6 +10,7 @@ aspects:
   - workout
 
 ---
+
 # Object - Part 2
 
 ---
@@ -58,39 +59,6 @@ You can even implement inheritance in JavaScript by building on this, but this i
 ---
 ## Practice
 
-Fill in the gaps of the following constructor function such that the code below works as intended:
-
-```javascript
-function ???(name) {
-  this.name = ???;
-  this.??? = {
-    ???: ???() {
-      console.log('Hello there')
-    }
-  }
-}
-
-const flash = new Superhero('Flash')
-flash.superpowers.greet()
-// Hello there
-```
-
-* Superhero
-* name
-* superpowers
-* greet
-* function
-* hello
-* console
-* log
-* Flash
-* new
-* superhero
-* powers
-
----
-## Revision
-
 You can invoke an object's method by writing:
 
 ???
@@ -98,4 +66,37 @@ You can invoke an object's method by writing:
 * obj.methodName();
 * obj.methodName;
 * methodName(obj);
- 
+
+---
+## Revision
+
+Fill in the gaps of the following constructor function such that the code below works as intended:
+
+```javascript
+function ???(name) {
+  this.name = ???;
+  this.??? = {
+    ???: function() {
+      console.log(
+        "Hi, I'm " + name
+      );
+    }
+  }
+};
+
+const flash = new Superhero('Flash');
+flash.superpowers.greet();
+// Hi, I'm Flash
+```
+
+* Superhero
+* name
+* superpowers
+* greet
+* hello
+* console
+* log
+* Flash
+* new
+* superhero
+* powers
