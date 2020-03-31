@@ -79,7 +79,7 @@ Write the form code that creates a radio button.
 ```html
 <??? ???="???"
      name="topic"
-     value="item"> Item
+     value="item">
 ```
 
 * input
@@ -95,10 +95,10 @@ Which line creates an HTML form’s radio buttons?
 
 ???
 
-* `<input type="radio" name="topic" value="item"> Item`
-* `<radio name="topic" value="item"> Item`
-* `<input radio="topic" value="item"> Item`
-* `<input type="radio" value="topic" name="item"> Item`
+* `<input type="radio" name="topic" value="item">`
+* `<radio name="topic" value="item">`
+* `<input radio="topic" value="item">`
+* `<input type="radio" value="topic" name="item">`
 
 ---
 ## Quiz
