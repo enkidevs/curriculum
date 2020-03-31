@@ -11,8 +11,8 @@ aspects:
   - workout
 
 links:
-  - '[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Iteration_protocols){website}'
-  - '[ponyfoo.com](https://ponyfoo.com/articles/es6-iterators-in-depth){website}'
+  - '[Iteration Protocols](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Iteration_protocols){documentation}'
+  - '[Iterators in Depth](https://ponyfoo.com/articles/es6-iterators-in-depth){website}'
 
 ---
 # Introducing Iterators
