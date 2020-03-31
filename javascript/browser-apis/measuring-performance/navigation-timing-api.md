@@ -12,8 +12,8 @@ aspects:
   - obscura
 
 links:
-  - '[www.sitepoint.com - apis](http://www.sitepoint.com/10-html5-apis-worth-looking/){website}'
-  - '[www.sitepoint.com - profiling](http://www.sitepoint.com/profiling-page-loads-with-the-navigation-timing-api/){website}'
+  - '[10 HTML5 APIs Worth Looking Into](http://www.sitepoint.com/10-html5-apis-worth-looking/){website}'
+  - '[Profiling Page Loads with the Navigation Timing API](http://www.sitepoint.com/profiling-page-loads-with-the-navigation-timing-api/){website}'
 
 ---
 
@@ -26,7 +26,7 @@ The Navigation Timing API provides timing information about the page load proces
 
 ### Timing Metrics
 
-The API records the time at key points in the page load process and stores each event as a propriety of the `window.performance.timing` object.
+The API records the time at key points in the page load process and stores each event as a property of the `window.performance.timing` object.
 
 For example you can measure the total page load time experienced by the user:
 
@@ -58,7 +58,7 @@ let navigation =
 let navType = navigation.type;
 let redirectCount =
   navigation.redirectCount;
-// number of redirects to current page
+// number of redirects to the current page
 ```
 
 ---
