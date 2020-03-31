@@ -49,7 +49,7 @@ class Hello extends React.Component {
 
 This will throw an error, however, because `this.state` is `undefined` at the moment. The error would be `Cannot read property 'x' of undefined`.
 
-To set the **initial state**, by giving `text` a value, you can make use of `constructor()`. This method is a special function that gets executed when the component is created (creating an instance of the `React.Component` class). We'll look at these in depth in the future workouts.
+To set the **initial state**, by giving `text` a value, you can make use of `constructor()`. This method is a special function that gets executed when the component is created (creating an instance of the `React.Component` class). We'll look at these in depth in future missions.
 
 ```jsx
 class Hello extends React.Component {
