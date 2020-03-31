@@ -11,7 +11,7 @@ aspects:
   - workout
 
 links:
-  - '[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy){website}'
+  - '[MDN Documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy){documentation}'
 
 ---
 # Introducing Proxy
@@ -61,7 +61,7 @@ p.someProp // someProp was accessed
 Proxies can also be used to intercept set calls. Maybe for example we want to validate a value passed in without changing the underlying code:
 
 ```javascript
-var setWrapper = {
+let setWrapper = {
   set: function(obj, prop, value) {
     if (prop === "company") {
       if (value !== "enki") {
