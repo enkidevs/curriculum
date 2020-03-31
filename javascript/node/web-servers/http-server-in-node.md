@@ -6,7 +6,7 @@ type: normal
 category: must-know
 
 links:
-  - '[ponyfoo.com](https://ponyfoo.com/articles/teach-yourself-nodejs-in-10-steps#http-server){website}'
+  - '[HTTP Server in Node](https://ponyfoo.com/articles/teach-yourself-nodejs-in-10-steps#http-server){website}'
 
 aspects:
   - introduction
@@ -89,4 +89,3 @@ http
 * on
 * localhost
 * require
-
