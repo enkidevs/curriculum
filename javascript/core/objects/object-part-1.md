@@ -42,7 +42,7 @@ Objects have properties which can be both primitive values and functions.
 
 These properties are generally accessed via dot notation.
 
-We can access our person objects name with the dot syntax:
+We can access our `person` object's name with the dot syntax:
 
 ```js
 console.log(per.firstName); // "john"
