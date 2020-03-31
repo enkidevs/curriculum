@@ -2,29 +2,17 @@
 author: pawel
 
 levels:
-
   - basic
 
 type: normal
 
 category: must-know
 
-standards:
-  javascript.evaluate-expressions.5: 10
-  javascript.evaluate-expressions.4: 10
-  javascript.javascript-syntax.2: 10
-  javascript.evaluate-expressions.3: 10
-  javascript.evaluate-expressions.10: 10
-
 tags:
-
   - introduction
 
-
 links:
-
   - '[developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Comparison_Operators){website}'
-
 
 aspects:
   - introduction
@@ -40,7 +28,7 @@ aspects:
 
 JavaScript supports two forms of equality.
 
-*Weak Typing*
+### Weak Typing
 
 The operator `==` coerces (converts) types before comparing the terms:
 
@@ -52,7 +40,7 @@ false == "0"   // true
 ```
 Using `==` is generally considered bad practice as it often leads to difficult-to-locate bugs due to unintuitive conversion rules.
 
-*Strict Typing*
+### Strict Typing
 
 The strict equality operator is expressed as `===`. It works as `==`, but without type coercion:
 ```
