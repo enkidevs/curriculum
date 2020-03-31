@@ -9,7 +9,7 @@ aspects:
   - introduction
 
 links:
-  - '[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let){website}'
+  - '[MDN Documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let){documentation}'
 
 ---
 # Let (Part 1)
