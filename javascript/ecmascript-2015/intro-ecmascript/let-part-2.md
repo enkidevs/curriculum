@@ -127,7 +127,7 @@ for (func of letFuncs) {
 ## Footnotes
 
 [1:Block-scope]
-By this we mean that any variable defined with `let` (or `const`) is only accessible in its scope. This is best shown through an example:
+By this we mean that any variable defined with `let` (or `const`) is only accessible in its scope (between the nearest pair of `{}`). This is best shown through an example:
 
 ```js
 if (true) {
