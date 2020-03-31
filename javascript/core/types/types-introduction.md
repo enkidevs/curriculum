@@ -8,17 +8,11 @@ type: normal
 
 category: must-know
 
-inAlgoPool: false
-
-standards:
-  javascript.evaluate-expressions.10: 10
-
 tags:
   - introduction
 
 aspects:
   - introduction
-
 
 ---
 # Types - Introduction
@@ -40,14 +34,14 @@ There are also a few special types - `Array`, `Date`, `RegExp` - that are types 
 Unlike some other languages you do not need to tell JavaScript what type a variable is when declaring it as the interpreter will work it out for you:
 
 ```javascript
-var name = "john smith";
+let name = "john smith";
 ```
 
 Javascript's typing is dynamic which means you can also change a variable's type at any time:
 
 ```javascript
-var x=1; //number
-x="blah"; //reassigns to string
+let x = 1; //number
+x = "blah"; //reassigns to string
 ```
 
 ### typeof
@@ -55,7 +49,7 @@ x="blah"; //reassigns to string
 You can check the type of value by using the typeof operator e.g.
 
 ```javascript
-var company="enki";
+let company = "enki";
 typeof company; //string
 ```
 
