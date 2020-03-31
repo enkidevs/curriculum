@@ -84,6 +84,8 @@ function isOdd (element) {
 // [1, 3]
 ```
 
+Note that you can use any type of array, you are not limited to a number array.
+
 ---
 ## Practice
 
