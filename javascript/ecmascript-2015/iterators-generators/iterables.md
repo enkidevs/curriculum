@@ -11,7 +11,7 @@ aspects:
   - workout
 
 links:
-  - '[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Iteration_protocols){website}'
+  - '[Iteration Protocols](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Iteration_protocols){documentation}'
 
 ---
 # Iterables
