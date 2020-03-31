@@ -6,7 +6,7 @@ type: normal
 category: caveats
 
 links:
-  - '[www.standardista.com](http://www.standardista.com/javascript/15-common-javascript-gotchas){website}'
+  - '[16 Common JavaScript Gotchas](http://www.standardista.com/javascript/15-common-javascript-gotchas){website}'
   - '[== vs ===](https://youtu.be/kVOmc7NK1M0){video}'
 
 aspects:
@@ -15,7 +15,7 @@ aspects:
 
 ---
 
-# Data type comparison in `switch` statements
+# Data Type Comparison in `switch` Statements
 
 ---
 ## Content
