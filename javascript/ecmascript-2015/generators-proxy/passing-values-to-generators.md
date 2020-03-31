@@ -10,7 +10,7 @@ aspects:
   - workout
 
 links:
-  - '[MDN - Generators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator){website}'
+  - '[Generators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator){documentation}'
 
 ---
 # Passing Values to Generators
