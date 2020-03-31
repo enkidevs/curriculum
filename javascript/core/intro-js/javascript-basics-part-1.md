@@ -1,25 +1,12 @@
 ---
-author: alexjmackey
-
-levels:
-  - beginner
+author: nem035
 
 type: normal
 
 category: must-know
 
-inAlgoPool: false
-
-standards:
-  javascript.javascript-syntax.1: 10
-  javascript.javascript-syntax.2: 10
-
-tags:
-  - introduction
-
 aspects:
   - introduction
-
 
 ---
 # JavaScript Basics - Part 1
@@ -27,98 +14,124 @@ aspects:
 ---
 ## Content
 
-Like most programming languages, JavaScript has a number of rules its code must adhere to.
+Like most programming languages, JavaScript has a number of syntax rules that it must adhere to.
 
-### Case Sensitivity
+### Semicolon
 
-Everything in JavaScript is case sensitive.
-
-```js
-var password;
-// Is not the same as
-var pasSword;
-// or
-var PASSWORD;
-```
-
-### Keywords
-
-Like most languages, there are a number of reserved words in JavaScript that you cannot use to name your functions and variables (e.g. `var`, `let`, `new`).
-
-### Identifier naming rules
-
-When naming any function, property or variable, the first character must be a letter, $ sign or underscore.
-
-After the first character, you are free to use numbers, letters, dollar signs or underscores.
+Statements in JavaScript end in a `;`. Based on the ECMAScript[1] rules however, adding a `;` isn't actually required (although it is common practice):
 
 ```javascript
-var name = "Enki"; // valid
-var $taxRate = 8.25; // valid
-var _id = 23; // valid
-var 2Company = "Enki"; // not valid
+let firstName = "Enki";
+//                    ^
 ```
 
-### Comments
+Omitting a semicolon in certain situations can cause problems. JavaScript has a feature called Automatic Semicolon Insertion (ASI) which means that, if you omit a semicolon, JavaScript will automatically add it where it thinks it should go. 
 
-Comments can be created in 2 ways in JavaScript.
+This can sometimes lead to unexpected results[2]. Thus, it's usually recommended to insert the `;` yourself.
 
-As a single line comment:
+### Variables
 
-```js
-// I am a single line comment
-```
+Variables are the essential building blocks of programs. They are used to store a value and are given a name. 
 
-You can also add single line comments to the same line as other code:
+Declaring a variable in JavaScript can be done in 3 ways.
+
+The first is using the `let` keyword:
 
 ```javascript
-var company="enki"; // define company
+let firstName = "Enki";
 ```
 
-Or if you have more text you can use a block comment:
+Which allows us to also change what the variable points to, if needed:
+
 ```javascript
-/*
-I am a block comment
-*/
+let firstName = "Enki";
+firstName = "Changed"; // this works
 ```
+
+We can also declare a variable using `const`, but in this case we cannot change what it points to:
+
+```javascript
+const firtName = "Enki";
+firstName = "Changed"; // Error!
+```
+
+The final (and the oldest) way of declaring a variable in JavaScript is using `var`:
+
+```javascript
+var firstName = "Enki";
+firstName = "Changed"; // this works
+```
+
+We'll learn more about the differences between `let`, `const`, and `var` later on.
 
 ---
 ## Practice
 
-What syntax is used in *JavaScript* for **single line** comments?
+Which snippet will throw an error?
+
+```js
+// Option A
+let answer = 42;
+answer = 'life';
+```
+
+```js
+// Option B
+const answer = 42;
+answer = 'life';
+```
+
+```js
+// Option C
+var answer = 42;
+answer = 'life';
+```
 
 ???
 
-* //
-* `/* */`
-* `#`
+* Option B
+* Option A
+* Option C
+* None of these
 
 ---
 ## Revision
 
-Is the following line of code **valid**?
+Are semicolons required in JavaScript?
 
-```javascript
-var 777jackpot = "jackpot";
-// line is ???
-```
+???
 
-* not valid
-* valid
+* No
+* Yes
+* Sometimes
 
----
-## Quiz
-### which of the following is a valid comment?
-
-```javascript
-(1. // first comment
-(2. <!-- second comment
-(3. /* third comment */
-```
-
- ???
-
-* 1, 2 & 3
-* 1
-* 1 & 3
-* 2
  
+---
+## Footnotes
+
+[1: ECMAScript]
+ECMAScript is the specification defining the rules of JavaScript, based on which the features of the language are implemented.
+ 
+[2: ASI]
+JavaScript ASI will sometimes assume a statement ends where it might not be intended.
+
+For example, the code bellow:
+
+```js
+x 
+++ 
+y
+```
+
+is understod as:
+
+```js
+x; ++y;
+```
+
+and not as:
+
+```js
+x++;
+y
+```

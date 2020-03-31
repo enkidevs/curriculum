@@ -1,14 +1,6 @@
 ---
 author: elliehoward
 
-levels:
-
-  - beginner
-
-  - basic
-
-  - medium
-
 
 aspects:
 
@@ -21,13 +13,9 @@ type: normal
 
 category: must-know
 
-standards:
-  javascript.dom.0: 10
-  javascript.dom.1: 10
-
 links:
 
-- '[MDN - Traversing an HTML table with JavaScript and DOM Interfaces](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Traversing_an_HTML_table_with_JavaScript_and_DOM_Interfaces)'
+- '[Traversing HTML tables with JavaScript and DOM Interfaces](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Traversing_an_HTML_table_with_JavaScript_and_DOM_Interfaces){documentation}'
 ---
 # Write a Function to Return a Complex Element
 ---
@@ -38,26 +26,27 @@ Let's say we have an array of data and we want to display that data in a list on
 Instead of writing out all the HTML elements for each piece of data, we can just use a function to loop through the array and return a list based on the data passed in:
 
 ```javascript
-var teas = [
+let teas = [
   'chamomile',
   'green',
   'breakfast',
   'earl grey'
 ];
-var container = document
+
+let container = document
   .getElementById('container');
 
 function createListElement(data){
-  var ul = document
+  let ul = document
     .createElement('ul');
   for (
-    var i = 0;
+    let i = 0;
     i < data.length;
     i++
   ) {
-    var li = document
+    let li = document
       .createElement('li');
-    var text = document
+    let text = document
       .createTextNode(data[i]);
     li.appendChild(text);
     ul.appendChild(li);
@@ -66,16 +55,17 @@ function createListElement(data){
   return ul;
 }
 
-var teaList = createListElement(
+let teaList = createListElement(
   teas
 );
+
 container.appendChild(
   teaList
 );
 
 ```
 
-In the example above we selected a parent element and stored it in a variable called container. Then we created a ul element, looped through our array of teas and created a li element for each type of tea while appending each of them to the ul. Once we created the list we appended it to the parent element.
+In the example above we selected a parent element and stored it in a variable called `container`. Then we created a `ul` element, looped through our array of `teas` and created a `li` element for each type of `tea` while appending each of them to the `ul`. Once we created the list we appended it to the parent element.
 
 ---
 ## Practice
@@ -84,16 +74,16 @@ Fill in the blanks to complete a function that takes an array and returns a list
 
 ```javascript
 function createListElement(data){
-  var ul = document
+  let ul = document
     .???('ul');
   for (
-    var i = 0;
+    let i = 0;
     i < data.length;
     i++
   ) {
-    var li = document
+    let li = document
       .createElement('li');
-    var text = document
+    let text = document
       .???(data[???]);
     li
       .appendChild(text);
@@ -121,16 +111,16 @@ Which function, given an array, will return a list element with a list item elem
 Option A:
 ```javascript
 function createLI(data){
-  var ul = document
+  let ul = document
     .createElement('ul');
   for (
-    var i = 0;
+    let i = 0;
     i < data.length;
     i++
   ) {
-    var li = document
+    let li = document
       .createElement('li');
-    var text = document
+    let text = document
       .createTextNode(data[i]);
     li
       .appendChild(text);
@@ -144,16 +134,16 @@ function createLI(data){
 Option B:
 ```javascript
 function createLI(data){
-  var ul = document
+  let ul = document
     .makeElement('ul');
   for (
-    var i = 0;
+    let i = 0;
     i < data.length;
     i++
   ) {
-    var li = document
+    let li = document
       .makeElement('li');
-    var text = document
+    let text = document
       .createTextNode(data[i]);
     li
       .appendChild(text);
@@ -167,16 +157,16 @@ function createLI(data){
 Option C:
 ```javascript
 function createLI(data){
-  var ul = document
+  let ul = document
     .createElement('ul');
   for (
-    var i = 0;
+    let i = 0;
     i < data.length;
     i++
   ) {
-    var li = document
+    let li = document
       .createElement('li');
-    var text = document
+    let text = document
       .createTextNode(data[i]);
     li
       .appendElement(text);
