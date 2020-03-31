@@ -11,7 +11,7 @@ aspects:
   - workout
 
 links:
-  - '[MDN](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment){website}'
+  - '[Destructuring Assignment](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment){documentation}'
 
 ---
 # Destructuring (Part 2)
