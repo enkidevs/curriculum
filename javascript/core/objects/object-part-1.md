@@ -30,7 +30,7 @@ There are a couple of ways to create objects in JavaScript.
 Probably the most common is with the object initializer:
 
 ```js
-let per = {
+let person = {
   firstName: "john",
   lastName: "smith"
 };
@@ -45,7 +45,7 @@ These properties are generally accessed via dot notation.
 We can access our `person` object's name with the dot syntax:
 
 ```js
-console.log(per.firstName); // "john"
+console.log(person.firstName); // "john"
 ```
 
 We can also access properties using the array syntax.
@@ -54,17 +54,17 @@ This can be very useful, especially when you do not know the name of the propert
 
 ```js
 let propName = "firstName";
-console.log(per[propName]);
+console.log(person[propName]);
 ```
 
 We can even add properties anytime we want to our objects:
 
 ```js
 // using dot notation
-per.age = "40";
+person.age = "40";
 
 // using bracket notation
-per["homeTown"] = "London";
+person["homeTown"] = "London";
 ```
 
 ---
@@ -97,7 +97,7 @@ console.log(car.test); // ???
 Which line adds a new property to an object that looks like this:
 
 ```js
-var per = {
+let person = {
   firstName = "John",
   lastName = "Smith"
 };
@@ -105,8 +105,8 @@ var per = {
 ???
 ```
 
-* `per.age = 40;`
-* `var per.age = 40;`
-* `per[age] = 40;`
-* `per.addNewProperty(age, 40);`
+* `person.age = 40;`
+* `let person.age = 40;`
+* `person[age] = 40;`
+* `person.addNewProperty(age, 40);`
  
