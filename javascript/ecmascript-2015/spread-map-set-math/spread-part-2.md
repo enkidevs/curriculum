@@ -12,7 +12,7 @@ aspects:
 
 links:
   - '[Spread and Butter in Depth](https://ponyfoo.com/articles/es6-spread-and-butter-in-depth){website}'
-  - '[MDN](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Operators/Spread_operator){website}'
+  - '[Spread Operator](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Operators/Spread_operator){documentation}'
 
 ---
 # Spread (Part 2)
