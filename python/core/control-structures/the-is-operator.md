@@ -57,7 +57,7 @@ numsY is numsX
 ---
 ## Practice
 
-The `is` operator is used to match ??? instead of variables.
+The `is` operator is used to match ??? instead of values.
 
 
 * instances
