@@ -51,7 +51,7 @@ firstName = "Changed"; // this works
 We can also declare a variable using `const`, but in this case we cannot change what it points to:
 
 ```javascript
-const firtName = "Enki";
+const firstName = "Enki";
 firstName = "Changed"; // Error!
 ```
 
@@ -89,8 +89,8 @@ answer = 'life';
 
 ???
 
-* Option A
 * Option B
+* Option A
 * Option C
 * None of these
 
