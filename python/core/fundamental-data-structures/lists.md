@@ -12,12 +12,9 @@ levels:
 type: normal
 
 category: must-know
+
 aspects:
   - introduction
-inAlgoPool: false
-
-standards:
-  python.native-types-operations.4: 10
 
 ---
 
@@ -26,7 +23,7 @@ standards:
 ---
 ## Content
 
-Lists are containers of objects. They can contain any variable type, and be any number of entries long.
+Lists are containers of objects. They can contain any data type, and be any number of entries long.
 
 To build a list:
 ```python
