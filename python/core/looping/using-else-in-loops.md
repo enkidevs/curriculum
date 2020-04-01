@@ -83,7 +83,7 @@ a
 ---
 ## Practice
 
-Fill in the following snippet such that it will print *"Computation Done"* when the while loop terminates:
+Fill in the following snippet such that it will print `"Computation Done"` when the while loop terminates:
 
 ```python
 x = 0
