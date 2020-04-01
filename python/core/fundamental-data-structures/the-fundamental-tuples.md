@@ -2,30 +2,21 @@
 author: catalin
 
 tags:
-
   - introduction
-
-levels:
-
-  - basic
 
 type: normal
 
 category: must-know
+
 aspects:
   - introduction
 
-standards:
-  python.native-types-operations.4: 10
-
 links:
-
-  - '[docs.python.org](https://docs.python.org/3.5/tutorial/datastructures.html#tuples-and-sequences){website}'
-
+  - '[Tuples and Sequences](https://docs.python.org/3.5/tutorial/datastructures.html#tuples-and-sequences){website}'
 
 ---
 
-# The fundamental `tuple`
+# The Fundamental `tuple`
 
 ---
 ## Content
@@ -43,7 +34,9 @@ print(myTuple[3])
 # 42
 ```
 
-The index used must be valid:
+Note that `tuples` (as well as `lists` and `ranges`) use **zero-based indexing**. What this means is that `myTuple[0]` will represent the first element of your `tuple`. 
+
+On the same topic, the index used must be valid:
 ```python
 print(myTuple[4])
 # IndexError: tuple index out of range
@@ -64,35 +57,50 @@ print(fname)
 print(age)
 # 27
 ```
+
 In case of tuples with multiple fields, use the `*` unpacking syntax:
 ```python
 a, *b, c = (1, 2, 3, 4, 5)
 print(b)
 # [2, 3, 4]
 ```
-Tuples are often used for a sequence of values of heterogeneous types (e.g. fields of a database record or columns from a CSV file), while lists are often used for homogeneous items, such as a list of only numbers, or a list of only strings. But this is not a rule; it can be the other way around too.
+
+In this example, we assign the first element of the tuple to `a`, the last element of the tuple to `c`, and everything in-between to `b`.
+
+Tuples are often used for a sequence of values of heterogeneous types (e.g. fields of a database record or columns from a CSV file), while lists are often used for homogeneous items, such as a list of only numbers, or a list of only strings. This is not a rule; it can be the other way around too.
 
 ---
 ## Practice
 
 Which of the following properly declares a new tuple called `ex_tuple`?
 
-???
-
 ```python
 # Tuple 1
-new Tuple ex_tuple = ("Enki",
-                     1, "Python", 2)
+new Tuple ex_tuple = (
+  "Enki",
+  1, 
+  "Python", 
+  2
+)
 
 # Tuple 2
-ex_tuple = ("Enki",
-           1, "Python", 2)
+ex_tuple = (
+  "Enki",
+  1,
+  "Python",
+  2
+)
 
 # Tuple 3
-ex_tuple = ["Enki",
-               1, "Python", 2]
+ex_tuple = [
+  "Enki",
+  1,
+  "Python",
+  2
+]
 ```
 
+???
 
 * `Tuple 2`
 * `Tuple 3`
@@ -104,7 +112,12 @@ ex_tuple = ["Enki",
 Extract the element "Enki" from the tuple:
 
 ```python
-ex_tuple = ("Python", 1, "Enki", 2)
+ex_tuple = (
+  "Python",
+  1,
+  "Enki",
+  2
+)
 ???[???]
 ```
 
