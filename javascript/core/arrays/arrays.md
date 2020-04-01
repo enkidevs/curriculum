@@ -120,7 +120,7 @@ for (let item of myArray) {
 How would you get the last value in the `myArray` array?
 ```js
 let myArray = [1, 2, 3];
-let length = myArray.???;
+let arrayLength = myArray.???;
 let lastVal = ???[??? ???];
 console.log(lastVal);
 // 3
@@ -128,7 +128,7 @@ console.log(lastVal);
 
 * `length`
 * `myArray`
-* `length`
+* `arrayLength`
 * `- 1`
 * `+ 0`
 * `+ 1`
