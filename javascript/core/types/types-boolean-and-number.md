@@ -53,8 +53,8 @@ Math.round(5.7); // 6
 ---
 ## Practice
 
-On the first line declare a **boolean** variable named `a` that's `true`.
-On the second line declare a **number** variable named `b` with the value equal to `3.14`.
+On the first line declare a **boolean variable** named `a` that's `true`.
+On the second line declare a **number constant** named `b` with the value equal to `3.14`.
 
 ```javascript
 let ??? = ???
@@ -63,13 +63,12 @@ let ??? = ???
 
 * `a`
 * `true`
-* `var`
+* `const`
 * `b`
 * `3.14`
 * `"3.14"`
 * `True`
 * `"true"`
-* `const`
 * `number`
 * `boolean`
 * `'3.14'`

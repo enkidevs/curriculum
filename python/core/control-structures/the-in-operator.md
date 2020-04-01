@@ -35,7 +35,7 @@ links:
 
 Python's `in` operator is a *membership operator* and can be used to check whether an object exists inside a container of objects--for example, a list.
 
-It evaluates to true if it finds the specified variable in the container, and false if it doesn't.
+It evaluates to true if it finds the specified value in the container, and false if it doesn't.
 
 Here's an example of the `in` operator searching for a value in a list:
 
@@ -78,7 +78,7 @@ else:
 ---
 ## Revision
 
-The `in` operator evaluates to ??? if it finds the specified variable in the ???.
+The `in` operator evaluates to ??? if it finds the specified value in the ???.
 
 
 * true
