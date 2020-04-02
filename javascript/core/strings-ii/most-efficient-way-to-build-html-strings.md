@@ -45,7 +45,7 @@ Fill in the gaps of the following snippet such that the `squares` string will co
 
 ```javascript
 let squares = '';
-for (let i = 1; i ??? 10; i ++) {
+for (let i = 1; i ??? 10; i++) {
   squares ??? i*i ??? ' ';
 };
 console.log(squares);
