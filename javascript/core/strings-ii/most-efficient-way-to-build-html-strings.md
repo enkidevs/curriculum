@@ -5,15 +5,14 @@ type: normal
 
 category: best practice
 
-
 aspects:
   - introduction
   - workout
   - obscura
 
-
 ---
-# Most efficient way to build `HTML` strings
+
+# Most Efficient Way to Build `HTML` Strings
 
 ---
 ## Content
@@ -46,16 +45,16 @@ Fill in the gaps of the following snippet such that the `squares` string will co
 
 ```javascript
 let squares = '';
-for (var i = 1; i ??? 10; i ++) {
-  squares ??? i*i ??? ' '
-}
-console.log(squares)
+for (let i = 1; i ??? 10; i ++) {
+  squares ??? i*i ??? ' ';
+};
+console.log(squares);
 // "1 4 9 16 25 36 49 64 81 100 "
 ```
 
+* `<=`
 * `+=`
 * `+`
-* `<=`
 * `=+`
 * `<`
 * `>`
