@@ -53,6 +53,7 @@ db.pokemon.aggregate([
     $project: {
       _id: 0,
       name: 1,
+      type: 1
       "ability.Ultimate": 1
     }
   }
