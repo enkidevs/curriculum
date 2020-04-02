@@ -2,23 +2,14 @@
 author: tommarshall
 
 tags:
-
   - introduction
-
-levels:
-
-  - beginner
 
 type: normal
 
 category: must-know
 
-inAlgoPool: false
 aspects:
   - introduction
-
-standards:
-  python.native-types-operations.2: 10
 
 ---
 
@@ -34,8 +25,8 @@ There are few things to keep in mind when talking about Python:
 
 To define a string (`str` type), you can either use single or double quotes:
 ```python
-str = 'Enki'
-str_2 = "Enki"
+string_1 = 'Enki'
+string_2 = "Enki"
 ```
 
 Using single quotes will allow unescaped embedding of double quotes and vice-versa:
@@ -48,13 +39,13 @@ It is most Pythonic[1] to use single quotes until you need double quotes.
 
 To define integers (keep in mind these are signed, as in they are positive unless specified as negative):
 ```python
-int = 23
+int_1 = 23
 int_2 = -3
 ```
 
 Longs (long integers) are also available - as integers of infinite size and followed by the letter `L`:
 ```python
-long = 0122L
+long_int = 0122L
 ```
 Note that `long` and `int` are **unified** in Python 3.x and you do not need to worry about long integers anymore.  
 
@@ -63,14 +54,14 @@ Floating point numbers:
 float_value = 7.0
 ```
 
-Python also provides support for complex numbers in the form `a + b*j`, where `a` and `b` are floats and `J` represents the square root of `-1`:
+Python also provides support for complex numbers in the form `a + b*j`, where `a` and `b` are floats and `j` represents the square root of `-1`:
 ```python
-complex_value = 3 + 5J
+complex_value = 3 + 5j
 ```
 
 Using the built-in `type()` function, we can find out what type a variable is:
 ```python
-print(type(integer_2))
+print(type(int_2))
 # <type 'int'>
 
 print(type(complex_value))
@@ -86,7 +77,7 @@ a = -8.9
 print(type(a))
 # <type '???'>
 
-b = 877734314J
+b = 877734314j
 print(type(b))
 # <type '???'>
 
@@ -94,7 +85,6 @@ c = '"3.14"'
 print(type(c))
 # <type '???'>
 ```
-
 
 * `float`
 * `complex`
@@ -108,7 +98,7 @@ print(type(c))
 Fill in the types of the following variables:
 
 ```python
-b = 100J
+b = 100j
 print(type(b))
 # <type '???'>
 

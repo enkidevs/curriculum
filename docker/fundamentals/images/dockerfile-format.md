@@ -71,6 +71,7 @@ docker build enki
 
 Here's an example output of building an image from the Dockerfile above:
 
+```
 Sending build context to Docker daemon  23.29MB
 Step 1/5 : FROM node
 latest: Pulling from library/node
