@@ -2,28 +2,20 @@
 author: milesflo
 
 levels:
-
   - basic
-
   - medium
-
   - advanced
 
 type: normal
 
 category: must-know
 
-inAlgoPool: false
-
 aspects:
   - introduction
   - workout
 
 links:
-
   - '[SANS Institute](https://www.sans.org/reading-room/whitepapers/protocols/applying-osi-layer-network-model-information-security-1309){website}'
-
-parent: securing-the-presentation-layer
 
 ---
 
@@ -32,7 +24,7 @@ parent: securing-the-presentation-layer
 ---
 ## Content
 
-The Application Layer (Layer 7), highest on the stack and __most broad__ in definition, could be considered a catch-all for anything outside of the concerns of the lower Layers. In the Application Layer lives programs using protocols such as naming (DNS), file transfer (HTTP, FTP), messaging (SMTP, IRC), remote access (Telnet, SSH), and countless more. These programs are designed for human interaction (via GUI) and utilize high level functions that interact with the network.
+The Application Layer (Layer 7), highest on the stack and __most broad__ in definition, could be considered a catch-all for anything outside of the concerns of the lower Layers. In the Application Layer live programs using protocols such as naming (DNS), file transfer (HTTP, FTP), messaging (SMTP, IRC), remote access (Telnet, SSH), and countless more. These programs are designed for human interaction (via GUI) and utilize high level functions that interact with the network.
 
 Due to its high level of variance and loose security standards, this Layer is the most vulnerable to exploits.
  
