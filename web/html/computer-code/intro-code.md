@@ -17,7 +17,7 @@ aspects:
 links:
 
 ---
-# `<code>` - Display code in HTML
+# Display Code in HTML
 ---
 ## Content
 
@@ -63,17 +63,14 @@ What content is best to style when using the `<code>` element?
 ---
 ## Revision
 
-What HTML element is used to visually highlight the difference of the paragraph elements in an appropriate way?
-
-`<p>`The `<???>` `<p>` `</p>` `</???>` tags are used in HTML to create paragraphs.`</p>`
+Which of these elements is used to style the contents as computer code?
 
 ???
 
-* code
-* kbd
-* samp
-* pre
-* var
+* <code>
+* <kbd>
+* <codeBlock>
+* <styleCode>
 
 ---
 ## Quiz
