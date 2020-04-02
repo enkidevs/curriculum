@@ -39,7 +39,7 @@ What will be the result of the following expression?
 # 9.0
 ```
 
-To summarise, **division** and **multiplication** have the same priority. Also **summation** and **subtraction** have equal priority. However, **division** and **multiplication** have higher priority than **summation** and **subtraction**. Basically if we have an equation formed only of `*`, `/`, and/or `//`  we calculate them in the order they come (from left to right). The same thing happens with `-` and `+`. But if there is an equation containing a mix of them, then `*`, `/` and `//` have higher priority than `-` and `+` and will be computed first.
+To summarise, **division** and **multiplication** have the same priority. Also, **addition** and **subtraction** have equal priority. However, **division** and **multiplication** have higher priority than **addition** and **subtraction**. Basically if we have an expression formed only of `*`, `/`, and/or `//`  we calculate them in the order they come (from left to right). The same thing happens with `-` and `+`. But if there is an expression containing a mix of them, then `*`, `/` and `//` have higher priority than `-` and `+` and will be computed first.
 
 
 ---
