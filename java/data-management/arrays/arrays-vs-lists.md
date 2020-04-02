@@ -27,7 +27,7 @@ links:
 The declaration of these structures is:
 ```java
 // Fixed size array declaration, type int
-int[] array = new int[3];
+int[] array = new int[3 ];
 
 // ArrayList with starting length of 3,
 // type Integer
