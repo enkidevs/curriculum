@@ -6,6 +6,7 @@ insights:
   - applying-css
   - internal-css
   - css-specificity
+  - css-specificity-ii
   - common-css-properties-values
   - relative-css-properties
 

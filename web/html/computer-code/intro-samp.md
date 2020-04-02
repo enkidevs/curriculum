@@ -46,7 +46,7 @@ By adding CSS styles, the `<samp>` element can be used to present the sample out
 ---
 ## Practice
 
-When using the `<samp>` element, which statement is not true?
+When using the `<samp>` element, which statement is **not** true?
 
 ???
 

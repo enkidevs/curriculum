@@ -9,6 +9,7 @@ insights:
   - button-attributes
   - meter
   - meter-attributes
+  - meter-attributes-ii
   - progress
 
 exercises:
