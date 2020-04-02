@@ -15,7 +15,7 @@ tags:
   - strings
 
 links:
-  - '[docs.oracle.com](http://docs.oracle.com/javase/7/docs/api/java/util/Formatter.html){website}'
+  - '[Class Formatter](http://docs.oracle.com/javase/7/docs/api/java/util/Formatter.html){website}'
 
 notes: 'Gamified insight. Static Workout. '
 
