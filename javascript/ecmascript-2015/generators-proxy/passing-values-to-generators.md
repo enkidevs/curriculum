@@ -1,10 +1,6 @@
 ---
 author: alexjmackey
 
-levels:
-  - medium
-  - advanced
-
 type: normal
 
 category: must-know
@@ -13,59 +9,57 @@ aspects:
   - introduction
   - workout
 
-inAlgoPool: false
-
 links:
-  - '[MDN - Generators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator){website}'
+  - '[Generators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator){documentation}'
 
 ---
-# Passing values to Generators
+# Passing Values to Generators
 
 ---
 ## Content
 
-Generators next method also accepts a parameter.
+Generator's `next` method also accepts a parameter.
 
-When you pass in a parameter it is assigned to the result of the **yield** statement (if you don’t pass anything in this is undefined).
+When you pass in a parameter it is assigned to the result of the `yield` statement (if you don’t pass anything in it is `undefined`).
 
-We could for example use this functionality to reset our number sequence when 0 is passed in:
+We could, for example, use this functionality to reset our number sequence when 0 is passed in:
 
 ```javascript
-function* getGenerator(){
- var currentNumber = 1;
+function* getGenerator() {
+  let currentNumber = 1;
 
- while(currentNumber < 6){
-  var input = yield currentNumber++;
-  if (input==0) currentNumber = 1;
- }
+  while (currentNumber < 6) {
+    let input = yield currentNumber++;
+    if (input == 0) currentNumber = 1;
+  }
 }
 
 var g = getGenerator();
 
-g.next().value //1
-g.next().value //2
-g.next().value //3
-g.next(0).value //1
+g.next().value; // 1
+g.next().value; // 2
+g.next().value; // 3
+g.next(0).value; // 1
 ```
 
-There is however also a gotcha to watch out for when passing values to generators.
+There is also a gotcha to watch out for when passing values to generators.
 
 This is best implemented with an example - the below function simply logs to the console any values passed in:
 
 ```javascript
-function* getGenerator(){
- while(true){
-  console.log(yield);
- }
+function* getGenerator() {
+  while (true) {
+    console.log(yield);
+  }
 }
 ```
 
 However, the first value we pass in will be ignored!
 
 ```javascript
-var g = getGenerator();
-g.next("a") //ignored
-g.next("b") // b
+let g = getGenerator();
+g.next("a"); //ignored
+g.next("b"); // b
 ```
 
 This is because the first time we get our generator we are at the beginning of the function and there is nothing to log from the yield statement.
@@ -73,9 +67,9 @@ This is because the first time we get our generator we are at the beginning of t
 The solution is to simply call the generators next method once:
 
 ```javascript
-var g = getGenerator();
+let g = getGenerator();
 g.next();
-g.next("a") //a
+g.next("a") // a
 g.next("b") // b
 ```
 
@@ -86,21 +80,21 @@ Fill in the missing output of the following code snippet:
 
 ```javascript
 function* myGen() {
-  let toYield = 2
-  while(true) {
-    const i = yield toYield
+  let toYield = 2;
+  while (true) {
+    const i = yield toYield;
     if (i) {
-      toYield = i
+      toYield = i;
     }
   }
 }
 
-let z = myGen()
-z.next()
+let z = myGen();
+z.next();
 // { value: ???, done: false}
-z.next(4)
+z.next(4);
 // { value: ???, done: false}
-z.next(3)
+z.next(3);
 // { value: ???, done: false}
 ```
 

@@ -62,14 +62,26 @@ The four child boxes inside class parent will be displayed **vertically** on top
 ---
 ## Practice
 
-Where will the first child be displayed?
+Which of the following elements will be displayed first?
+
+```html
+<div class="foobar">
+  <p>Child 1</p>
+  <p>Child 2</p>
+</div>
+```
+
+```css
+.foobar {
+  display: flex;
+  flex-direction: column-reverse;
+}
+```
 
 ???
 
-* Bottom-left of the parent.
-* Top-left of the parent.
-* Bottom-right of the parent.
-* Top-right of the parent.
+* Child 2
+* Child 1
 
 ---
 ## Revision
@@ -77,7 +89,6 @@ Where will the first child be displayed?
 When using Flexbox, how does `column-reverse` allow users to arrange elements?
 
  ???
-
 
 * Vertically in reverse order.
 * Vertically in normal order.
