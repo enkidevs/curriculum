@@ -17,7 +17,7 @@ aspects:
 links:
 
 ---
-# `<code>` - Display code in HTML
+# Display Code in HTML
 ---
 ## Content
 
