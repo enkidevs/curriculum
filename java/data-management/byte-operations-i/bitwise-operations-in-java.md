@@ -1,10 +1,8 @@
 ---
-author: Nick Daminov
+author: nickdaminov
 
 levels:
-
   - beginner
-
   - basic
 
 type: normal
@@ -12,9 +10,7 @@ type: normal
 category: feature
 
 aspects:
-
   - introduction
-
   - obscura
 
 links:
@@ -38,13 +34,12 @@ This is very similar to how correlated logical operators work but on all bits th
 ```java
 public class Main{
   public static void main(String args[]) {
-    int a = 1; //0001 in binary
-    int b = 5; //0101 in binary
+    int a = 1; // 0001 in binary
+    int b = 5; // 0101 in binary
     System.out.println(a & b);
     //&:   0001
     //     0101
-    //
-
+    //     0001
 ```
 ---
 ## Practice
@@ -52,7 +47,6 @@ public class Main{
 What would be the output of `System.out.println(7 & 5);`, 7 = 0111, 5 = 0101?
 
 ???
-
 
 * 5
 * 0
@@ -68,7 +62,6 @@ What does *AND* operation return if the input bits are `1` and `0`?
 What does *OR* operation returns if the input bits are `1` and `0`?
 
 ???
-
 
 * `0`
 * `1`
