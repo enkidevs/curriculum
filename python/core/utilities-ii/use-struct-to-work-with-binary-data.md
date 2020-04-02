@@ -44,7 +44,7 @@ Import the module:
 import struct
 ```
 
-This module uses certain format characters such as `I` = unasigned int (in **C**) / integer (in **Python**).
+This module uses certain format characters such as `I` = unassigned int (in **C**) / integer (in **Python**).
 
 Get a `bytes` object containing some values:
 ```python

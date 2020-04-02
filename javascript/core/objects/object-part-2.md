@@ -1,30 +1,16 @@
 ---
 author: alexjmackey
 
-levels:
-  - beginner
-
 type: normal
 
 category: must-know
-
-inAlgoPool: false
-
-standards:
-  javascript.data-types-structures.3: 10
-  javascript.data-types-structures.4: 10
-  javascript.evaluate-expressions.6: 10
-  javascript.evaluate-expressions.7: 10
-
-tags:
-  - introduction
 
 aspects:
   - introduction
   - workout
 
-
 ---
+
 # Object - Part 2
 
 ---
@@ -35,13 +21,13 @@ Object's properties can also be functions.
 For example, we might add a function to our person object to print out a greeting message to the console:
 
 ```javascript
-var per = {
-    firstName: "alex",
-    lastName: "smith",
+let per = {
+  firstName: "alex",
+  lastName: "smith",
 
-    sayHi: function(){
-       console.log("hello");
-    }
+  sayHi: function () {
+    console.log("hello");
+  },
 };
 ```
 
@@ -59,13 +45,13 @@ It is common to use functions to create new objects.
 This allows you to encapsulate object creation similar to a class constructor:
 
 ```javascript
-function Person(firstName,lastName){
+function Person(firstName, lastName) {
   this.firstName = firstName;
   this.lastName = lastName;
 }
 
-var p1 = new Person("john","smith");
-var p2 = new Person("joe","smith");
+let p1 = new Person("john", "smith");
+let p2 = new Person("joe", "smith");
 ```
 
 You can even implement inheritance in JavaScript by building on this, but this is a more advanced technique.
@@ -73,28 +59,40 @@ You can even implement inheritance in JavaScript by building on this, but this i
 ---
 ## Practice
 
+You can invoke an object's method by writing:
+
+???
+
+* obj.methodName();
+* obj.methodName;
+* methodName(obj);
+
+---
+## Revision
+
 Fill in the gaps of the following constructor function such that the code below works as intended:
 
 ```javascript
 function ???(name) {
   this.name = ???;
   this.??? = {
-    ???: ???() {
-      console.log('Hello there')
+    ???: function() {
+      console.log(
+        "Hi, I'm " + name
+      );
     }
   }
-}
+};
 
-const flash = new Superhero('Flash')
-flash.superpowers.greet()
-// Hello there
+const flash = new Superhero('Flash');
+flash.superpowers.greet();
+// Hi, I'm Flash
 ```
 
 * Superhero
 * name
 * superpowers
 * greet
-* function
 * hello
 * console
 * log
@@ -102,15 +100,3 @@ flash.superpowers.greet()
 * new
 * superhero
 * powers
-
----
-## Revision
-
-You can invoke an object's method by writing:
-
-???
-
-* ob.methodName();
-* ob.methodName;
-* methodName(ob);
- 
