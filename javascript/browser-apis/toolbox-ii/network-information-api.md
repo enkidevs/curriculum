@@ -11,7 +11,7 @@ aspects:
   - workout
   
 links:
-  - '[code.tutsplus.com](http://code.tutsplus.com/tutorials/html5-network-information-api--cms-21598){website}'
+  - '[Network Information API](http://code.tutsplus.com/tutorials/html5-network-information-api--cms-21598){website}'
 
 ---
 
@@ -33,7 +33,7 @@ let connection =
   navigator.connection ||
   navigator.mozConnection ||
   navigator.webkitConnection;
-let type = connection.type;
+let type = connection.effectiveType;
 ```
 
 Listener for a change to the user's connection.
@@ -50,11 +50,11 @@ Function to output for any change to the user's connection if called by the list
 ```javascript
 function updateConnectionStatus() {
   console.log(
-    "Connection type is change \
+    "Connection type is changed \
   from " +
       type +
       " to " +
-      connection.type
+      connection.effectiveType
   );
 }
 ```
@@ -74,7 +74,7 @@ let type = connection.???;
 
 * `navigator`
 * `mozConnection`
-* `type`
+* `effectiveType`
 * `connection`
 * `kind`
 * `statusConnection`
