@@ -19,7 +19,7 @@ tags:
   - arrays
 
 links:
-  - '[www.javapractices.com](http://www.javapractices.com/topic/TopicAction.do?Id=3){website}'
+  - '[Copy an Array](http://www.javapractices.com/topic/TopicAction.do?Id=3){website}'
 
 ---
 
