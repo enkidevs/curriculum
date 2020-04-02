@@ -1,24 +1,12 @@
 ---
 author: mihaiberq
 
-levels:
-  - beginner
-  - basic
-  - medium
-
 type: normal
 
 category: how to
 
-standards:
-  javascript.identify-common-design-patterns.7: 10
-
-tags:
-  - introduction
-
 aspects:
   - introduction
-
 
 ---
 # Use ESLint
@@ -35,14 +23,16 @@ The standard is `ESLint`. It can be installed through *npm* and integrated with 
 A lot of customization can go on with `ESLint`. You can abide by open-source, community supported set of rules or you can write your own. Usually, the best idea is to customize open-source ones. One of the most known is `eslint-config-airbnb`.
 
 Any configuration goes into the `.eslintrc` file that is created after running `eslint --init` in the main folder, as `JSON` objects. For example, here's how rules are defined:
+
 ```json
 {
-    "rules": {
-        "semi": ["error", "always"],
-        "quotes": ["warning", "double"]
-    }
+  "rules": {
+    "semi": ["error", "always"],
+    "quotes": ["warning", "double"]
+  }
 }
 ```
+
 You can also have different rules for different types of files: `.css`, `.js`, or `.html`.
 
 ---
@@ -60,7 +50,7 @@ ESLint can be integrated with text editors and IDEs.
 ---
 ## Revision
 
-A linter is, among others, ???
+A linter represents a ???
 
 * a set of rules for coding style
 * a set of rules concerning modularity

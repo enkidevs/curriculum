@@ -9,5 +9,6 @@ section: 2
 insights:
  - ethereum-and-ether
  - what-does-ethereum-do-differently
+ - what-does-ethereum-do-differently-ii
  - what-are-smart-contracts
 

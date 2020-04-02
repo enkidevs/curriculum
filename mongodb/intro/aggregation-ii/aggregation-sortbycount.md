@@ -48,55 +48,6 @@ Output:
 
 As you can see in the output of the example above, there is a `null` field with a count of `344`. Those are the documents(pokémon) without a `secondType` field and they are counted as well.
 
-Next, we can use the `$match` aggregation stage to only match documents of a certain `type` and perform the `$sortByCount: "$secondType"` for documents that match our specified `type`.
-
-For instance, let's say we want to count and sort documents by their `secondType`, but we are only interested in documents where the `type` is `"Water"`. We can do so like this:
-```javascript
-db.pokemon.aggregate([
-  {
-    $match: { type: "Water" }
-  },
-  {
-    $sortByCount: "$secondType"
-  }
-])
-```
-
-Output:
-```javascript
-{ "_id": "Poison", "count": 3 }
-{ "_id": null, "count": 45 }
-```
-
-What this output means is that:
-- there are 3 pokémon that have `type: "Water"` and `secondType: "Poison"`
-- there are 45 pokémon that have `type: "Water"` and `secondType: null`
-
-You are not limited to using only the `$match` stage. Another good example is to count and sort documents where the `power` is greater than or equal to 300.
-```javascript
-db.pokemon.aggregate([
-  {
-    $match: { power: { $gte: 300 } }
-  },
-  {
-    $sortByCount: "$secondType"
-  }
-])
-```
-
-Output:
-```javascript
-{ "_id": "Fighting", "count": 3 }
-{ "_id": "Fire", "count": 23 }
-{ "_id": null, "count": 91 }
-```
-
-What this output means is that:
-- there are 3 pokémon that have `secondType: "Fighting"` and a `power` greater than 300
-- there are 23 pokémon that have `secondType: "Fire"` and a `power` greater than 300
-- there are 91 pokémon that don't have a `secondType` (`secondType: null`) and have a `power` greater than 300
-
-
 ---
 ## Practice
 
