@@ -52,7 +52,7 @@ And three other helper methods:
 These are the available stack implementations in different programming languages:
   - `Java`: You can instantiate a Stack object through the `Stack` class. The insertion method is called `push`, while the removal one is `pop`.
   - `JavaScript`: There is no special Stack prototype in JavaScript. The Array prototype, however, supports the `push` and `pop` methods that replicate the behavior of a stack.
-  - `Python`: There isn't any python `Stack` module. A `list`, however, can be used as a stack through the `append` and `pop` methods.
+  - `Python`: The [`deque` class](https://docs.python.org/2.5/lib/deque-objects.html) can be used to perform stack operations. Another option can be using a `list` with the `append` and `pop` methods.
   - `C++`: Stacks in C++ are part of the `std::stack` library. In this case, elements can be inserted by using `push` and removed by using `pop`.
 
 ---
@@ -79,5 +79,4 @@ Which of the following methods can be called on a `stack`?
 * `first()`
 * `none`
 * `all`
-
 
