@@ -1,16 +1,9 @@
 name: What is SQL?
 
-description: What is SQL?
+description: SQL? Never heard of that.
 
 insights:
-  - what-is-sql
-  - what-is-an-rdbms
-  - what-is-a-database-server
-  - database-server-types
-  - what-is-a-database-client
-
-exercises:
-  - sql-practice-what-is-sql
- 
- 
-
+  - 1-1-what-is-sql
+  - 1-2-why-learn-sql
+  - 1-3-how-to-use-sql
+  - 1-4-your-first-query
