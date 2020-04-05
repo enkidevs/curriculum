@@ -15,7 +15,7 @@ aspects:
 ---
 ## Content
 
-Here's a couple more rules.
+Here are a couple more rules.
 
 ### Case Sensitivity
 
