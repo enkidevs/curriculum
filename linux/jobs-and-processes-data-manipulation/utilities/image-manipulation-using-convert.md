@@ -1,5 +1,5 @@
 ---
-author: tuwi.dc
+author: tuwidc
 
 levels:
 
@@ -32,12 +32,7 @@ tags:
 
 
 links:
-
   - '[www.imagemagick.org](http://www.imagemagick.org/Usage/){website}'
-
-notes: |+
-
-
 
 ---
 
@@ -82,7 +77,7 @@ $ ??? enki.png ???
 ---
 ## Footnotes
 [1:Where to get it]
-Part of `imagemagick` suite of tools.
+Part of the `imagemagick` suite of tools.
 [2:Size]
 Resizing both width and height requires 250x250, while resizing the width requires only 250.
 [3:Range]
