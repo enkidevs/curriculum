@@ -36,7 +36,7 @@ links:
 
 *RDBMS* stands for **Relational Database Management System**. 
 
-_Relational Databases_ store data in _tables_, which are similar to a spreadsheet in that they've got rows and columns. 
+*Relational Databases* store data in *tables*, which are similar to a spreadsheet in that they've got rows and columns. 
 
 When you want data in one _table_ to reference data in another _table_, you create a _relation_ between them. 
 
