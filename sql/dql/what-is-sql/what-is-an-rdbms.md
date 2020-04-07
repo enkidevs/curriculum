@@ -49,6 +49,7 @@ SQL has three main elements:
 2. **DML**, which stands for **Data Modification Language**. This is how we insert new information in the database, or how we alter the already existing data.
 
 3. **DQL**, which stands for **Data Query Language**, and that is how we retrieve data from a database. With DQL, we write commands that query from the **Database Client** and return the requested information. One simple example of DQL is returning all rows and columns from a table, and is done using this syntax:
+
 ```sql
 SELECT * FROM users;
 ```

@@ -27,9 +27,9 @@ links:
 ---
 ## Content
 
-*SQL* is a *Query Language*. This means that it's a programming language that allows us to ask for data from a database.
+*SQL* is a **Query Language**. This means that it's a programming language that allows us to ask for data from a database.
 
-*SQL* stands for *Structured Query Language* and was developed in the 1970s. Many databases use it today.
+*SQL* stands for **Structured Query Language** and was developed in the 1970s. Many databases use it today.
 
 Here's an example of an SQL Query which returns all rows and columns from the `users` table:
 
