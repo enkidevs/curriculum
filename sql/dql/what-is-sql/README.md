@@ -1,6 +1,6 @@
 name: What is SQL?
 
-description: What is SQL?
+description: A quick intro to SQL.
 
 insights:
   - what-is-sql
