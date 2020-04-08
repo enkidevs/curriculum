@@ -57,7 +57,7 @@ ___
 ```
 The four child boxes inside class parent will be displayed **vertically** on top of one another in reverse order, starting from the bottom of the parent element:
 
-![566ed55387abab0c00bccab0.svg](https://img.enkipro.com/5cd4ebde7bebedb1168c64d4f3d8ee61.png)
+![566ed55387abab0c00bccab0.svg](https://img.enkipro.com/c9bd35fa50bf1db13c2a2b28764e8e7a.png)
 
 ---
 ## Practice
