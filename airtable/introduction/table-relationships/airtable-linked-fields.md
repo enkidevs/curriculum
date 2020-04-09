@@ -15,7 +15,7 @@ type: normal
 ---
 ## Content
 
-The most important rule for linking two tables in Airtable is they **must belong to the same base** (otherwise it can't be done).
+The most important rule for linking two tables in Airtable is that they **must belong to the same base** (otherwise it won't work).
 
 Airtable handles sharing data between tables through linked fields. This link (between tables) goes both ways. Consider the following tables (found in the same base):
 

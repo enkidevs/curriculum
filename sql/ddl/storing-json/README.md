@@ -1,4 +1,4 @@
-name: Storing JSON in an RDBMS
+name: Storing JSON
 
 description: Use relational databases to store the less conventional data type
 
