@@ -7,10 +7,6 @@ insights:
   - intro-hr
   - button
   - button-attributes
-  - meter
-  - meter-attributes
-  - meter-attributes-ii
-  - progress
 
 exercises:
   - formatting-elements-codepen-exercise
