@@ -19,7 +19,7 @@ links:
 ---
 ## Content
 
-In the previous insight, we have changed all our fields to be of type `Number`. As you have noticed, there were many other options available, depending on your application.
+In the previous insight, we changed all our fields to the `Number` type. You may have noticed that there were many other options available, depending on your application.
 
 Here's a list of the most common types.
 
@@ -30,12 +30,12 @@ Here's a list of the most common types.
   - accepts any text
   - use it when the text is too long for the single line of text type
 ### Number
-  - accepts numbers depending on a criteria defined by you
+  - accepts numbers depending on criteria defined by you
   - can take integers or decimals
   - pre-defined decimal point
   - choice of including or excluding negative numbers
 ### Percentage
-  - insert a number that is a fraction of 100
+  - insert a number which is a fraction of 100
   - will show as `<number>%`
   - you can choose the precision
 ### Currency
