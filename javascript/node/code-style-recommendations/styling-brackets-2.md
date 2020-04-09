@@ -21,7 +21,7 @@ links:
   - '[MDN - Block](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/block){documentation}'
 
 ---
-# Styling Brackets
+# Styling Brackets Continued
 
 ---
 ## Content
