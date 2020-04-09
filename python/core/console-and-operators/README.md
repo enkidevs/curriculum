@@ -1,6 +1,6 @@
-name: Python Syntax and Numerical Operators
+name: Syntax & Numerical Operators
 
-description: Get familiar with syntactic basis of python's console and common arithmetic operators.
+description: Learn about the syntactic basis of Python’s console, and common arithmetic operators.
 
 insights:
   - printing-to-the-console

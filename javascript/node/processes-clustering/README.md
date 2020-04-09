@@ -1,4 +1,4 @@
-name: Processes and Clustering
+name: Processes & Clustering
 
 description: Working with processes in node and explore clustering in JS. 
 

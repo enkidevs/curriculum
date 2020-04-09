@@ -37,10 +37,10 @@ Even though python does not provide a special stack data structure, lists can ea
 stack = [1,2,3]
 # adds 4 at the end
 stack.append(4)
-print stack
+print(stack)
 >>> [1, 2, 3, 4]
 # remove and return the last element
-print stack.pop()
+print(stack.pop())
 >>> 4
 ```
 

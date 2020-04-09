@@ -8,6 +8,8 @@ insights:
   - check-boxes
   - checkbox-groups
   - radio-buttons
+  - radio-buttons-ii
+  - radio-buttons-iii
   - html-select
   - dropdown-list
  
