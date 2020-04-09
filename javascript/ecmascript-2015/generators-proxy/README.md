@@ -1,4 +1,4 @@
-name: Generators and Proxy
+name: Generators & Proxy
 
 description: Getting to know generators and proxies.
 
