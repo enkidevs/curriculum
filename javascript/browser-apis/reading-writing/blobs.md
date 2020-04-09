@@ -38,7 +38,9 @@ let blob = new Blob(
 
 A blob can be very large, so this means it can contain audio and video data. They can be created dynamically, and used as files when coupled with blobl URLs.
 
-Another place where blobs are useful is when working with binary remote files.
+Although blobs aren't particularly useful when on their own, their redeeming feature is being able to be used in many calls that are meant for `File`s.
+
+For example, a `Blob` could represent something like a temporary file, which can then be linked to and treated as being a file on a web server.
 
 ---
 ## Practice
