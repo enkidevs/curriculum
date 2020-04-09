@@ -32,10 +32,12 @@ User john = new User("John");
 // look for "checkPassHash()" method
 // which has a single argumet of type String
 // "new Class[] { String.class }""
-Method toTest = User
-  .getClass
-  .getDeclaredMethod("checkPassHash",
-    new Class[] { String.class });
+Method toTest = john
+  .getClass() // this is only required if you want to invoke a `private` method
+  .getDeclaredMethod(
+    "checkPassHash",
+    new Class[] { String.class }
+  );
 // make it accessible
 toTest.setAccessible(true);
 // call "checkPassHash()" method on john
