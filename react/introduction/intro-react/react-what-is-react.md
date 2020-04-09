@@ -42,7 +42,7 @@ Many developers have adopted this library because of these key features:
 React is an open-source[6] project that was released in 2013 and has since become one of the most popular UI libraries with millions of weekly downloads and its usage has spread across many platforms (web, mobile, etc). It has become one of the [top starred projects on GitHub](https://github.com/search?q=stars%3A%3E100&s=stars&type=Repositories). Due to the large number of contributors, this library is improving at a rapid pace.
 
 
-By focusing on developer experience, **React** has become the first choice for both beginners and experts of Front-End Web Development.
+By focusing on developer experience, **React** has become a top choice for both beginners and experts of Front-End Web Development.
 
 ---
 ## Practice
@@ -79,7 +79,11 @@ You can think of a **library** as a toolkit consisting of helper functions/objec
 In addition to what a library provides, a **Framework** will dictate the structure/architecture of your application. It is somewhat similar to a *code-template* enhanced with helpers, constructors etc.
 
 [3:Imperative vs Declarative]
-In imperative programming, you define all the necessary steps your code needs to take to complete it's mission. In declarative programming, you assume that the computer already knows all the necessary steps, so you just tell it what you want the end result to be. To find out more analogies and information, make sure to check out this great article on [Imperative vs Declarative Programming](https://tylermcginnis.com/imperative-vs-declarative-programming/).
+In imperative programming, you define all the necessary steps your code needs to take to complete it's mission. 
+
+In declarative programming, you assume that the computer already knows all the necessary steps, so you just tell it what you want the end result to be. 
+
+To find out more analogies and information, make sure to check out this great article on [Imperative vs Declarative Programming](https://tylermcginnis.com/imperative-vs-declarative-programming/).
 
 [4:DOM]
 **DOM** stands for *Document Object Model*.

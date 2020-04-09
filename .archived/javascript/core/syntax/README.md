@@ -1,5 +1,3 @@
-name: JavaScript Syntax and Variables
+name: Syntax and Variables
 
 description: Syntax of JavaScript, Variables
- 
- 

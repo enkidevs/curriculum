@@ -48,7 +48,7 @@ d3 = dict({"first": 1, "second": 2})
 
 This is how we access elements:
 ```python
-print(d1['first'])
+print(d1["first"])
 # 1
 print(d2)
 # {"second": 2, "first": 1}

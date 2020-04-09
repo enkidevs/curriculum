@@ -1,4 +1,4 @@
-name: Dimensions and Box Sizing
+name: Dimensions & Box Sizing
 
 description: Dimensioning 101
 

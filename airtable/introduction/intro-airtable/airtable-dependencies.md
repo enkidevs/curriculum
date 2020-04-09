@@ -10,24 +10,24 @@ type: normal
 
 ---
 
-# Airtable Dependencies
+# Get started with Airtable
 
 ---
 ## Content
 
-Being a web application, the only requirement is an internet connection and an account.
+Airtable is a web app, so the only requirements to get started are an internet connection and an account!
 
-Head on over to their [official sign up page](https://airtable.com/signup) and either fill in the required information or create an account using Google.
+Head on over to their [official sign up page](https://airtable.com/signup) to create an account.
 
-Airtable offers a multitude of subscription options, including a free type. Check out their [pricing page](https://airtable.com/pricing), and choose a plan depending on your application's requirements.
+Airtable offers several subscription options, including a free one. Check out their [pricing page](https://airtable.com/pricing), and choose a plan that works for you.
 
-For the better part of this tutorial we will be using the free plan.
+For most of this course we'll use the free plan.
 
 ---
 ## Practice
 
 To use Airtable, you need ???.
 
-* an account
-* a castle
-* to be over 55 years old
+* just an online account
+* to #stayathome
+* to download a desktop app
