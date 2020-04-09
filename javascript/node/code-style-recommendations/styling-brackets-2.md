@@ -26,9 +26,7 @@ links:
 ---
 ## Content
 
-The style of the code shouldn't influence its performance in any way. The guidelines for what is the "right" style are primarily subjective. Commonly, developers would disagree on using `camelCase` versus `kebab_case` naming conventions, tabs versus spaces, or different positions of braces. 
-
-However, in the land of JavaScript, the location of brackets sometimes isn't up for debate. Let's take a look at an example:
+Although flexible, the location of brackets sometimes isn't up for debate. Let's take a look at an example:
 
 ```javascript
 function right() {
@@ -37,8 +35,7 @@ function right() {
   };
 }
 
-function wrong()
-{
+function wrong() {
   return
   {
     status: 'wrong',
@@ -57,59 +54,6 @@ console.log(wrong().status);
 ```
 
 What is going on?
-
-For a function or a block (`if`/`else`, `switch`, etc) in JavaScript, brackets are used to denote the body:
-
-```javascript
-function echo() {
-  const status = 'right';
-  return status;
-}
-
-// or
-function echoNew()
-{
-  const status = 'right';
-  return status;
-}
-
-// or even
-function echoNewNew()         {
-    const status = 'right';
-  if(true)                    {
-    console.log('Please stop.');
-                              }
-  else                        {
-    console.log('I\'m serious.');
-                              }
-                              }
-
-console.log(
-  echo(),
-  echoNew(),
-  echoNewNew()
-);
-
-// "right", "right", "right"
-```
-
-No matter how we place the brackets around a block, the behavior of the code inside is unaffected.
-
-However, things are not the same when brackets are used to denote and `return` an object:
-
-```javascript
-function wrong()
-{
-  return
-  {
-    status: 'wrong',
-  };
-}
-console.log(wrong());
-// undefined
-```
-
-Why is that?
 
 It turns out that JavaScript is trying to help us write correct code. 
 
