@@ -44,8 +44,8 @@ The strict equality operator `===` works as `==`, but without type coercion:
 
 ```js
 0 === "" // false
-5 == "5" // false
-false == "0" // false
+5 === "5" // false
+false === "0" // false
 "enki" === "enki" // true
 ```
 

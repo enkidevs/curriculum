@@ -15,7 +15,7 @@ type: normal
 ---
 ## Content
 
-Yet another useful feature present in Airtable is sorting data. Similarly to filters, you can create new views in which certain fields are sorted, or you can apply a sorting rule to an already existing view.
+Yet another useful feature that Airtable has is **sorting data**. Similar to filters, you can create new views in which certain fields are sorted, or you can apply a sorting rule to an existing view.
 
 When paired together with filtering, personalized views of the same data can be created. One popular example application can be seen on a table that contains project related tasks.
 
@@ -23,11 +23,11 @@ Consider that this table has a `Task Name`, a `Lead` (person responsible for tas
 
 ![sample-table-data](https://img.enkipro.com/bfce634624b751bcdc6fec387641a39b.png)
 
-For this insight, let's create a personalized view for `Catalin`. This view should only display records that have him as a `Lead`, and sort the tasks by their priority (descending, we want him to do the most important tasks first).
+For this insight, let's create a personalized view for `Catalin`. This view should only display records that have her as a `Lead`, and sort the tasks by their priority (descending, we want him to do the most important tasks first).
 
-Start off by creating a filter that says `Where Lead is Catalin`. Now, sort the `Priority` column descending.
+Start off by creating a filter that says `Where Lead is Catalin`. Now, sort the `Priority` column in descending order.
 
-As a last step, you can rename the view by either right clicking on `Grid view` or by clicking the `...` button (rightmost button on the toolbar). We have renamed this view `Catalin's view`. 
+As a last step, you can rename the view by either right clicking on `Grid view` or by clicking the `...` button (the far right button on the toolbar). We renamed this view `Catalin's view`. 
 
 ---
 ## Practice

@@ -15,9 +15,9 @@ type: normal
 ---
 ## Content
 
-With traditional spreadsheets, the stored data was shown as it was (without any modifications). This, more often than not, led to reduced readability and introduced the chance of human errors appearing (like reading off the wrong row).
+In normal spreadsheets, the stored data is shown as is (without any modifications). This can lead to reduced readability and human errors (like reading off the wrong row).
 
-One main feature of Airtable is that you can **view** your data in many different ways. For example, if you store meeting data in a table (information such as person you are meeting, date and time, meeting notes, and so on), the table would look something like this:
+One big feature of Airtable is that you can **view** your data in many different ways. For example, if you store meeting data in a table (including info on the person you're meeting, date and time, meeting notes, and so on), the table would look something like this:
 
 ![some-meeting-data](https://img.enkipro.com/7177e9e52c5df49d5c431c45ffc3a074.png)
 
