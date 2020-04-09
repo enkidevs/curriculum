@@ -7,6 +7,5 @@ description: Tips and best practices for code styling.
 section: 1
 
 insights:
-  - styling-brackets
-  - use-eslint
- 
+  - styling-brackets-1
+  - styling-brackets-2
