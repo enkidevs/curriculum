@@ -68,8 +68,8 @@ Complete the basic syntax of the following `switch` statement:
 ```
 
 * `switch`
-* `case`
 * `default`
+* `case`
 * `break`
 * `if`
 * `else`
