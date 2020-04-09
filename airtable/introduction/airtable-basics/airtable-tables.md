@@ -15,26 +15,28 @@ type: normal
 ---
 ## Content
 
-Supposing you have created a base from scratch, the first time you open it you will see something like this:
+Suppose you've created a base from scratch. When you open it, you'll see something like this:
 
 ![empty-base](https://img.enkipro.com/bdaeb9da037d322efc7036f7f9704b49.png)
 
-You can see that you are working in `Table 1`, which has three fields `Name`, `Notes`, `Attachments`.
+You can see that you're working in `Table 1`, which has three fields: `Name`, `Notes`, `Attachments`.
 
-For starters, you can rename the table so that it provides a very short description of what data it will hold. 
+For starters, you can rename the table so that it provides a very short description of what data it'll hold. 
 
 ![gif-of-renaming-table](https://img.enkipro.com/8909b664b02611e52ed6241806a62b72.gif)
 
-For this example, you also need a new table named `Earth Data`. You can do this by pressing the `+` button to the right of the `Mars Data` table:
+In this example, you also need a new table named `Earth Data`. You can do this by pressing the `+` button to the right of the `Mars Data` table:
 
 ![gif-of-adding-a-new-table](https://img.enkipro.com/582a69d31c8bacd1737aaaa131bf0125.gif)
 
-Tables belong inside a base. In our example, both `Mars Data` and `Earth Data` are found in the same base. You can link records from `Mars Data` to `Earth Data` (or vice versa), but you couldn't link records from a table that belongs to a **different** base.
+Tables belong inside a base. In our example, both `Mars Data` and `Earth Data` are found in the same base. 
+
+You can link records from `Mars Data` to `Earth Data` (or vice versa), but you can't link records from a table that belongs to a **different** base.
 
 ---
 ## Practice
 
-Which of the following phrases **is false**?
+Which of the following phrases is false?
 
 ```text
 Base 1  Table A
@@ -44,6 +46,6 @@ Base 2  Table C
 
 ???
 
-* You can link records from Table C to Table A
-* You can link records from Table B to Table A
-* You can link records from Table A to Table B
+* You can link records **from Table C** to **Table A**
+* You can link records **from Table B** to **Table A**
+* You can link records **from Table A** to **Table B**
