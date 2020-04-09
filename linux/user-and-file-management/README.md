@@ -7,6 +7,7 @@ core: true
 sections:
   '0':
     - bash-environment
+    - manipulating-environment-variables
     - file-management
     - file-permissions
     - file-management-tips
