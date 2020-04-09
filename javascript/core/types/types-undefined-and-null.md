@@ -5,6 +5,9 @@ type: normal
 
 category: must-know
 
+tags:
+  - introduction
+  
 aspects:
   - introduction
   - workout

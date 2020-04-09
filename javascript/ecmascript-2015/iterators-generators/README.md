@@ -1,4 +1,4 @@
-name: Iterators and Generators
+name: Iterators & Generators
 
 description: Introduction to Iterators and Generators.
 

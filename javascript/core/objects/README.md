@@ -6,7 +6,6 @@ insights:
   - object-part-1
   - object-part-2
   - deleting-properties
-  - keywords-in-hash-keys
   - hasownproperty-method
   - converting-to-and-from-json
 
