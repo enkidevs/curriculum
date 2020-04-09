@@ -1,4 +1,4 @@
-name: Common mistakes in React
+name: Common Mistakes
 
 description: Learn about some of the most common mistakes in React
 

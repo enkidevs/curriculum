@@ -66,13 +66,13 @@ An `<aside>` should usually contain a navigation list on either the left- or rig
 ???
 
 * `<aside>`
+* False
 * `<article>`
 * `<section>`
 * `<comment>`
 * `<news>`
 * `<record>`
 * `<forum>`
-* False
 * True
 
 ---

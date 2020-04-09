@@ -1,11 +1,6 @@
 ---
 author: nene
 
-levels:
-  - basic
-  - advanced
-  - medium
-
 type: normal
 
 category: tip
@@ -15,14 +10,8 @@ aspects:
   - workout
   - deep
 
-tags:
-  - locale
-
-standards:
-  javascript.es6-extensions-standard-library.2: 10
-
 links:
-  - '[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Collator){website}'
+  - '[Official Documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Collator){documentation}'
 
 ---
 # Internationalization & Localization
@@ -35,9 +24,9 @@ links:
 To sort through a list of letters in two different languages:
 
 ```javascript
-var list = [ "ä", "a", "z" ];
-var i10nDE = new Intl.Collator("de");
-var i10nSV = new Intl.Collator("sv");
+let list = [ "ä", "a", "z" ];
+let i10nDE = new Intl.Collator("de");
+let i10nSV = new Intl.Collator("sv");
 ```
 
 In German, `ä` sorts with `a`. In Swedish, `ä` sorts after `z`.
@@ -48,6 +37,7 @@ i10nSV.compare("ä", "z") === +1;
 
 console.log(list.sort(i10nDE.compare));
 // [ "a", "ä", "z" ]
+
 console.log(list.sort(i10nSV.compare));
 // [ "a", "z", "ä" ]
 ```
@@ -58,7 +48,7 @@ console.log(list.sort(i10nSV.compare));
 Create a `Collator` based on *German* language:
 
 ```javascript
-var i10nDE = new ???.???("de");
+let i10nDE = new ???.???("de");
 ```
 
 * Intl
@@ -75,7 +65,7 @@ var i10nDE = new ???.???("de");
 Which method can you use to compare the ordering of two characters in a specific language, using the `Collator` class?
 
 ```javascript
-var i10nSV = new Intl.???('sv');
+let i10nSV = new Intl.???('sv');
 
 console.log(
   i10nSV.???("ä", "z")

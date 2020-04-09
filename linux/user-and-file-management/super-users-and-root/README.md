@@ -1,4 +1,4 @@
-name: Super Users and Root
+name: Super Users & Root
 
 description: Having that extra power.
 
