@@ -1,4 +1,4 @@
-name: The Basics of Process Management
+name: Basics of Process Management
 
 description: How to handle and manage processes.
 

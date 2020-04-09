@@ -54,7 +54,7 @@ This is the visual equivalent of the above snippet:
 
 Other functions instead of `circle()` include: `ellipse()`, `polygon()`, `inset()`.
 
-However, this property is not supported by IE or Firefox and does not change the actual shape of the element.
+However, this property is not supported by IE and does not change the actual shape of the element.
 
 ---
 ## Practice

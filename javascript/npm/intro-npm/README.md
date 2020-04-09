@@ -1,6 +1,6 @@
-name: Intro to npm
+name: Intro to NPM
 
-description: Introducing npm.
+description: Introducing NPM.
 
 insights:
   - what-is-npm

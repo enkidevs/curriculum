@@ -33,7 +33,7 @@ Consider reading and printing the contents of a simple text file:
 file = open('somefile', r)
 
 while True:
-  line = f.readline()
+  line = file.readline()
   if not line:
     break
   else:
