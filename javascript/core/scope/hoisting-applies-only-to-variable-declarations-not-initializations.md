@@ -18,7 +18,7 @@ aspects:
 
 ---
 
-# Hoisting applies only to variable declarations, not initializations
+# Hoisting Applies Only to Variable Declarations
 
 ---
 ## Content
@@ -78,5 +78,3 @@ var v = "enki";
 * undefined
 * enki
 * nothing
-
- 
