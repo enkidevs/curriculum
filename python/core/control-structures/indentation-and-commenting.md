@@ -80,10 +80,10 @@ else:
 ```
 ???
 
-* `"this is true"`
+* `this is true`
 * `True`
 * `False
-* `"this is false"`
+* `this is false`
 
 ---
 ## Revision
