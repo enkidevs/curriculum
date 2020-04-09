@@ -11,5 +11,3 @@ insights:
 exercises:
   - formatting-elements-codepen-exercise
   - html-create-buttons-codepen-exercise
-  - html-create-meter-codepen-exercise
-  - html-create-progress-bar-codepen-exercise
