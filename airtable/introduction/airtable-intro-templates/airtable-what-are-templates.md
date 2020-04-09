@@ -18,32 +18,34 @@ links:
 ---
 ## Content
 
-Whether you are just starting out, you are not sure what Airtable is capable of, or just looking to explore, it is a good idea to check the available templates.
+Checking out the available templates on Airtabe is always a good starting point for those getting to know the product.
 
-A template is a base that has already been created with a specific purpose in mind. They help you get started quick, and if your requirements change along the way you can always update the base.
+A template is a base that has already been created **with a specific purpose in mind**. They help you get started quickly, and if your requirements are different to the default you can always update the base.
 
-For exploration purposes, the [templates page](https://airtable.com/templates) allows you to search directly by name or by choosing a category.
+Feel free to explore the [templates page](https://airtable.com/templates) which lets you search directly by name or by choosing a category.
 
 Some template examples include:
 - [Project planning with Gantt](https://airtable.com/templates/project-management/exptRCzoncS1Sjsf0/project-planning-with-gantt)
 - [Content calendar](https://airtable.com/templates/featured/exp3FNmOkdHZvprXB/content-calendar)
 - [User research](https://airtable.com/templates/featured/expwA47rLvwTu3SiF/user-research)
-- many others...
+- and many more...
 
 ---
 ## Practice
 
-Templates in Airtable let you have a ??? start.
+A template is a ??? created for ???.
 
-* quick
-* slow
-* hard
-* confusing
+* base
+* a specific purpose
+* table
+* worksheet
+* specific companies
+* project planning
 
 ---
 ## Revision
 
-To get started more quickly with Airtable, you can use prebuilt data collections called ???.
+To get started more quickly with Airtable, you can use pre-built data collections called ???.
 
 * templates
 * patterns
