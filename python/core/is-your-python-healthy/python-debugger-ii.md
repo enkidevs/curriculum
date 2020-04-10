@@ -95,8 +95,8 @@ Finally, whenever you want to leave `pdb` console, type `quit` or `exit`.
 
 
 The `???` command will **iterate** through the loops showing exactly what the **loop** is doing.
-The `???` command executes the next **statement**, without showing everything that happened to evaluate the call.
-The `???` command has **optional arguments** that must be two `int` values that define the range of lines the user wants to list.
+The `???` command executes **statements**, without showing everything that happened to evaluate the call.
+The `???` command has **optional arguments** that must be two `int` values that define the range of lines the user wants.
 
 
 * step
@@ -109,7 +109,6 @@ The `???` command has **optional arguments** that must be two `int` values that 
 When debugging a python file with `pdb`, which command will show the step-by-step process?
 
 ???
-
 
 * `step`
 * `next`
