@@ -8,5 +8,6 @@ insights:
   - why-types-have-immutability
   - why-types-have-immutability-ii
   - more-benefits-of-immutability
+  - more-benefits-of-immutability-ii
   - immutability-gotchas
  
