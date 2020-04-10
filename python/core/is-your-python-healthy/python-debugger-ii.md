@@ -93,7 +93,6 @@ Finally, whenever you want to leave `pdb` console, type `quit` or `exit`.
 ---
 ## Practice
 
-Match the command to what it does.
 
 The `???` command will **iterate** through the loops showing exactly what the **loop** is doing.
 The `???` command executes the next **statement**, without showing everything that happened to evaluate the call.
