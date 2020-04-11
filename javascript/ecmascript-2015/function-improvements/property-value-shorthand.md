@@ -1,9 +1,6 @@
 ---
 author: alexjmackey
 
-levels:
-  - beginner
-
 type: normal
 
 category: must-know
@@ -13,11 +10,9 @@ aspects:
   - new
   - workout
 
-inAlgoPool: false
-
 links:
-  - '[benmvp.com](http://www.benmvp.com/learning-es6-enhanced-object-literals/){website}'
-  - '[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Object_initializer){website}'
+  - '[Enhanced Object Literals](http://www.benmvp.com/learning-es6-enhanced-object-literals/){website}'
+  - '[Object Initializer](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Object_initializer){documentation}'
 
 ---
 # Property Value Shorthand
@@ -29,7 +24,7 @@ It is very common to return an object from a function with a property the same n
 
 ```javascript
 function test() {
-  var name = "Enki";
+  let name = "Enki";
 
   return {
     name: name
@@ -41,7 +36,7 @@ JavaScript provides a convenient shortcut to do this that allows you to drop the
 
 ```javascript
 function test() {
-  var name = "enki";
+  let name = "enki";
 
   return {
     name
@@ -51,7 +46,20 @@ function test() {
 test(); // { name: "enki" }
 ```
 
-Note an exception will be thrown at run time if you specify a value that doesn’t exist in your return object.
+**Note:** an exception will be thrown at run time if you specify a value that doesn’t exist in your return object.
+
+```js
+function test() {
+  let name = "enki";
+
+  return {
+    nombre
+  };
+}
+
+test(); 
+// ReferenceError: nombre is not defined
+```
 
 ---
 ## Practice
@@ -60,7 +68,7 @@ What will be logged by the following snippet:
 
 ```javascript
 function bar() {
-  var foo = "b";
+  let foo = "b";
   this.foo = "a";
   return {
     foo
@@ -70,12 +78,12 @@ console.log(bar());
 // ???
 ```
 
-* { foo: 'b' }
-* 'b'
-* 'a'
-* { foo: 'a' }
+* `{ foo: 'b' }`
+* `'b'`
+* `'a'`
+* `{ foo: 'a' }`
 * error
-* foo
+* `foo`
 
 ---
 ## Revision
@@ -84,7 +92,7 @@ Fill in the missing gap such that the `prop` value is returned using property va
 
 ```javascript
 function foo() {
-  var prop = "value";
+  let prop = "value";
 
   return {
     ???

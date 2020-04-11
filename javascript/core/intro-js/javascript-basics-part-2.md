@@ -1,5 +1,5 @@
 ---
-author: nem035
+author: alexjmackey
 
 type: normal
 
@@ -15,124 +15,97 @@ aspects:
 ---
 ## Content
 
-Like most programming languages, JavaScript has a number of syntax rules that it must adhere to.
+Here are a couple more rules.
 
-### Semicolon
+### Case Sensitivity
 
-Statements in JavaScript end in a `;`. Based on the ECMAScript[1] rules however, adding a `;` isn't actually required (although it is common practice):
+Everything in JavaScript is case sensitive.
 
-```javascript
-let firstName = "Enki";
-//                    ^
+```js
+let password;
+// Is not the same as
+let pasSword;
+// or
+let PASSWORD;
 ```
 
-Omitting a semicolon in certain situations can cause problems. JavaScript has a feature called Automatic Semicolon Insertion (ASI) which means that, if you omit a semicolon, JavaScript will automatically add it where it thinks it should go. 
+### Keywords
 
-This can sometimes lead to unexpected results[2]. Thus, it's usually recommended to insert the `;` yourself.
+Like most languages, there are a number of reserved words in JavaScript that you cannot use to name your functions and variables (e.g. `var`, `let`, `new`).
 
-### Variables
+### Identifier naming rules
 
-Variables are the essential building blocks of programs. They are used to store a value and are given a name. 
+When naming any function, property or variable, the first character must be a letter, $ sign or underscore.
 
-Declaring a variable in JavaScript can be done in 3 ways.
-
-The first is using the `let` keyword:
+After the first character, you are free to use numbers, letters, dollar signs or underscores.
 
 ```javascript
-let firstName = "Enki";
+let name = "Enki"; // valid
+let $taxRate = 8.25; // valid
+let _id = 23; // valid
+let 2Company = "Enki"; // not valid
 ```
 
-Which allows us to also change what the variable points to, if needed:
+### Comments
+
+Comments can be created in 2 ways in JavaScript.
+
+As a single line comment:
+
+```js
+// I am a single line comment
+```
+
+You can also add single line comments to the same line as other code:
 
 ```javascript
-let firstName = "Enki";
-firstName = "Changed"; // this works
+let company="enki"; // define company
 ```
 
-We can also declare a variable using `const`, but in this case we cannot change what it points to:
-
+Or if you have more text you can use a block comment:
 ```javascript
-const firtName = "Enki";
-firstName = "Changed"; // Error!
+/*
+I am a block comment
+*/
 ```
-
-The final (and the oldest) way of declaring a variable in JavaScript is using `var`:
-
-```javascript
-var firstName = "Enki";
-firstName = "Changed"; // this works
-```
-
-We'll learn more about the differences between `let`, `const`, and `var` later on.
 
 ---
 ## Practice
 
-Which snippet will throw an error?
-
-```
-// Option A
-let answer = 42;
-answer = 'life';
-```
-
-```
-// Option B
-const answer = 42;
-answer = 'life';
-```
-
-```
-// Option C
-var answer = 42;
-answer = 'life';
-```
+What syntax is used in *JavaScript* for **single line** comments?
 
 ???
 
-* Option A
-* Option B
-* Option C
-* None of these
+* //
+* `/* */`
+* `#`
 
 ---
 ## Revision
 
-Are semicolons required in JavaScript?
+Is the following line of code **valid**?
 
-???
+```javascript
+let 777jackpot = "jackpot";
+// line is ???
+```
 
-* No
-* Yes
-* Sometimes
+* not valid
+* valid
 
- 
 ---
-## Footnotes
+## Quiz
+### which of the following is a valid comment?
 
-[1: ECMAScript]
-ECMAScript is the specification defining the rules of JavaScript, based on which the features of the language are implemented.
- 
-[2: ASI]
-JavaScript ASI will sometimes assume a statement ends where it might not be intended.
-
-For example, the code bellow:
-
-```js
-x 
-++ 
-y
+```javascript
+(1. // first comment
+(2. <!-- second comment
+(3. /* third comment */
 ```
 
-is understod as:
+ ???
 
-```js
-x; ++y;
-```
-
-and not as:
-
-```js
-x++;
-y
-```
+* 1, 2 & 3
+* 1
+* 1 & 3
+* 2
