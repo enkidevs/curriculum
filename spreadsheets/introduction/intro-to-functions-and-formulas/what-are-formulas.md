@@ -25,9 +25,9 @@ Suppose you have the following spreadsheet:
 
 ![data](https://img.enkipro.com/bd39918bdc033118ec692ce1f0d85edb.png)
 
-In this spreadsheet you have saved your weekly spending, and you would now like to find out the total amount spent.
+In this spreadsheet you've noted your weekly spending, and you'd like to figure out how much you've spent in total.
 
-Instead of manually adding all the number, you can create a formula that does this for you. To differentiate formulas from other data, they always start with an equal (`=`) sign. In this case, you want to go `B6`, and in that cell you would insert this:
+Instead of manually adding all the numbers, you can create a formula that does this for you. To differentiate formulas from other data, they always start with an equals (`=`) sign. In this case, you place your cursor to `B6`, and in that cell you'd insert this:
 
 ```text
 = B2 + B3 + B4 + B5
