@@ -8,7 +8,8 @@ sections:
   '0':
     - what-is-sql
     - using-select
-    - basic-queries
+    - building-queries
+    - special-operators
     - write
   '1':
     - aggregate-queries
