@@ -41,7 +41,7 @@ Following DFS pattern, the order in which the nodes are visited is:
 ![traversal](https://img.enkipro.com/8cbe39d23bafa7a3d22e602e248a7132.png)
 
 Which yields the sequence:
-```text
+```plain-text
 A, B, C, D, E, F, G, H
 ```
 
@@ -64,5 +64,3 @@ Which node will be prioritized after *B* in a depth-first traversal?
 * E
 * A
 * C
-
-

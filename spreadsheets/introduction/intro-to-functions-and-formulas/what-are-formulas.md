@@ -29,7 +29,7 @@ In this spreadsheet you've noted your weekly spending, and you'd like to figure 
 
 Instead of manually adding all the numbers, you can create a formula that does this for you. To differentiate formulas from other data, they always start with an equals (`=`) sign. In this case, you place your cursor to `B6`, and in that cell you'd insert this:
 
-```text
+```plain-text
 = B2 + B3 + B4 + B5
 ```
 

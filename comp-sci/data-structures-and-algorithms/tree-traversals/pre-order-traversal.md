@@ -46,7 +46,7 @@ For the tree below:
 ![preorder](https://img.enkipro.com/508bf94856560067c2a843ea7e3e2185.png)
 
 With the output:
-```text
+```plain-text
 A, B, C, D, E, F, G, H
 ```
 
@@ -95,5 +95,3 @@ D     F     E
 * `D,B,F,A,C,E`
 * `D,F,B,E,C,A`
 * `A,B,C,D,F,E`
-
-
