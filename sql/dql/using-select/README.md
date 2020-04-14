@@ -4,6 +4,6 @@ description: Learn to find and filter data!
 
 insights:
   - select-structure
-  - select-cols
+  - select-columns
   - select-where-1
   - select-where-2

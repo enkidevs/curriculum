@@ -13,7 +13,7 @@ aspects:
 
 ---
 
-# SELECTing columns
+# SELECTing Columns
 
 ---
 ## Content
