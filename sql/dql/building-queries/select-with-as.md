@@ -33,7 +33,7 @@ SELECT name, total, hp
 FROM pokemon;
 ```
 
-See how the meaning of *hp* might not be obvious to whoever ends up reading the results? 
+See how the meaning of `hp` might not be obvious to whoever ends up reading the results? 
 
 You can create an *alias* for the `hp` column that reads `'Health Points'`. 
 
@@ -129,12 +129,3 @@ Choose the query that will get all the entries from this table:
 * DISPLAY [all] FROM ability;
 * SELECT [all] FROM ability;
 * FIND * FROM ability;
-
----
-## Footnotes
-
-[1:Shorthand]
-To select all the columns from a table, in the order they were define, you can use the `*` shorthand as such:
-```sql
-SELECT * FROM table_name;
-```
