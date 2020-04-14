@@ -42,11 +42,11 @@ Now, every time you update the data in one of the cells found in the formula (`B
 
 Consider the following spreadsheet:
 
-![data](https://img.enkipro.com/f6ce7842765f9a189f6f75e187ab1ce6.png)
+![data](https://img.enkipro.com/a57be7c4784b165308b3874649d14fcd.png)
 
 What will this formula output?
 
-```text
+```
 B2 + B4 = ???
 ```
 
