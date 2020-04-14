@@ -25,7 +25,7 @@ There are two types of editing you can do:
 - in the editor
   - here you can only edit the content
 
-To access the designer, you can click on the project that you want to edit. 
+To access the designer, you can click on the project that you want to edit.
 
 If you want to access the editor, you must first ensure that your project is published. Afterwards, from the dashboard, click on the `...` found in the bottom right corner of your project card. From there, select `'Editor'`.
 
@@ -36,14 +36,14 @@ If you want to access the editor, you must first ensure that your project is pub
 
 Complete the following block:
 
-```text
+```plain-text
 ???
   - can edit content
   - can edit structure
   - can edit design
 
 ???
-  - can edit content  
+  - can edit content
 ```
 
 * designer

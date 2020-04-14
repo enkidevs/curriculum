@@ -38,7 +38,7 @@ The Linux filesystem is laid out as a "directory tree".  There is a single root 
 
 Here is a graphical representation:
 
-```text
+```plain-text
 /
  ├── bin
  ├── dev
@@ -68,7 +68,7 @@ So, for example, `/usr/share/..` is a valid directory path and refers to the par
 ---
 ## Practice
 
-In what directory will you be after issuing `cd .` ? 
+In what directory will you be after issuing `cd .` ?
 
 ???
 
@@ -79,12 +79,10 @@ In what directory will you be after issuing `cd .` ?
 ---
 ## Revision
 
-In what directory will you be after issuing `cd ..` ? 
+In what directory will you be after issuing `cd ..` ?
 
 ???
 
 * In the parent directory
 * In the same directory
 * In the first child directory
-
- 

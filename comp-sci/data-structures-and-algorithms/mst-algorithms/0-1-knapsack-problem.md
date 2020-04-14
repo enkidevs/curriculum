@@ -49,7 +49,7 @@ The *knapsack problem* is interesting because, like the Traveling Salesman Probl
 The *0-1* constraint, however, makes the problem solvable by using a dynamic approach[1] that takes close to *O(nW) time* (where *n* is the number of items and *W* is the max weight).
 
 Values in every cell are calculated using the formula[2]:
-```text
+```plain-text
 m[w][ 0] = 0
 if wi + m[w][i-1] > W
   m[w][i] = m[w][i-1]
@@ -102,4 +102,3 @@ One such example could be calculating the Fibonacci sequence using an array: ini
 
 [2: Variables]
 Where `i`, `wi` and `v` are the current item's index, weight and value, `w` is the current partial weight, and `W` is the maximum allowed weight.
-
