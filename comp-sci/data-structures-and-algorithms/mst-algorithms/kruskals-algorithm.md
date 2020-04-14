@@ -51,7 +51,7 @@ Having these two data structures, the algorithm comes down to extracting the *ch
 The algorithm terminates when the forest becomes a spanning tree of the graph.
 
 The *pseudocode* looks like this:
-```text
+```plain-text
 Kruskal(SortedEdges[])
   Vertices[] // map of edge's weights
     // between two nodes
@@ -99,4 +99,3 @@ If the chosen edge creates a cycle, the data structure won't be a tree anymore.
 
 [4: Hint]
 If they are part of the same component, it means those nodes will already appear in the final spanning tree.
-

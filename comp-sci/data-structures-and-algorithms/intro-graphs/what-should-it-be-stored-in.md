@@ -29,7 +29,7 @@ Choose the data structures that would best fit the examples.
 ---
 ## Game Content
 
-```text
+```plain-text
 Conga line representation.
 ```
 
@@ -43,7 +43,7 @@ You can hop in the conga line anywhere you want without disturbing more than 2 p
 
 ---
 
-```text
+```plain-text
 A way to undo actions.
 ```
 
@@ -57,7 +57,7 @@ The stack's last in, first out principle makes this an easy job.
 
 ---
 
-```text
+```plain-text
 Printing documents in order of their arrival.
 ```
 
@@ -71,7 +71,7 @@ You want the first document sent to be printed first (first in, first out).
 
 ---
 
-```text
+```plain-text
 Books on a bookshelf.
 ```
 
@@ -85,7 +85,7 @@ You would have to move the other books to insert/remove one. The bookshelf also 
 
 ---
 
-```text
+```plain-text
 Chess board.
 ```
 
@@ -99,7 +99,7 @@ The chessboard is in itself a fixed `8*8` matrix (two-dimensional array).
 
 ---
 
-```text
+```plain-text
 Egg hunt clues.
 ```
 
@@ -113,7 +113,7 @@ Clues are linked to one another (the previous one gets you to the next). Adding 
 
 ---
 
-```text
+```plain-text
 A train.
 ```
 
@@ -127,7 +127,7 @@ From each car, you'd only be able to get to the next and the previous one.
 
 ---
 
-```text
+```plain-text
 Store recursion calls.
 ```
 
@@ -141,7 +141,7 @@ The recursion goes as deep as possible, then computes the latest added operation
 
 ---
 
-```text
+```plain-text
 Store the first n numbers in the Fibonacci
 
 sequence.
@@ -157,7 +157,7 @@ As you know the index of the last Fibonacci number you have to compute, declarin
 
 ---
 
-```text
+```plain-text
 Cars in a drive-through.
 ```
 
