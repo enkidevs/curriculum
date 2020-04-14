@@ -7,7 +7,7 @@ core: true
 sections:
   '0':
     - what-is-sql
-    - basic-selects
+    - using-select
     - basic-queries
     - write
   '1':
