@@ -44,7 +44,7 @@ function title(t) {
 }
 ```
 
-The above will return `"Untitled"` for `t` if the provided value for `t` is falsy[1].
+The above will return `"Untitled"` for `t` if the provided value for `t` is falsy
 
 Sometimes this isn't desired. If an empty title is allowed, we would (incorrectly) get `"Untitled"` instead (because an empty string `''` is falsy).
 
