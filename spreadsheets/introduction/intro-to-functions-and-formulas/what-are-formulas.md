@@ -44,11 +44,9 @@ Consider the following spreadsheet:
 
 ![data](https://img.enkipro.com/f6ce7842765f9a189f6f75e187ab1ce6.png)
 
-What will this formula output?
+What will `B2 + B4` output?
 
-```text
-B2 + B4 = ???
-```
+???
 
 * 51
 * 83
