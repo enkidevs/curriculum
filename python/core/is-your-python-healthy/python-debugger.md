@@ -39,7 +39,7 @@ def nested_loop():
     for char in chars:
       print(char)
 
-if __name_ == '__main__':
+if __name__ == '__main__':
   nested_loop()
 ```
 
