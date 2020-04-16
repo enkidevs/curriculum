@@ -37,7 +37,7 @@ Consider the following weighted graph:
 ![kinitial](https://img.enkipro.com/1083f1190f1ced85c824cd8007b8cf9a.png)
 
 In order to apply the algorithm, we have to sort the edges by weight. Doing that yields the following ordered **(edge, weight)** pairs:
-```text
+```plain-text
 BC - 2, CD - 5, AE - 5
 BD - 6, AB - 7, BE - 9
 DE - 10, AC - 20
@@ -62,7 +62,7 @@ Not exactly what we've been looking for. In order for a subgraph to be a tree, i
 ## Practice
 
 Is the following graph a valid one on which to apply Kruskal's algorithm?
-```text
+```plain-text
            5
      A   C -- D
    3/         |2
@@ -87,5 +87,3 @@ In order for the Kruskal's algorithm to work, the graph should be
 * directed
 * acyclic
 * disconnected
-
-

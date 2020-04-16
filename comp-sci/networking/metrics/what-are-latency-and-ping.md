@@ -55,7 +55,7 @@ ping enki.com
 ```
 
 A general output would be:
-```text
+```plain-text
 64 bytes from 52.85.178.222:
    icmp_seq=1 ttl=55 time=55.9 ms
 64 bytes from 52.85.178.222:
@@ -114,4 +114,3 @@ There are some factors that directly influence the network latency:
 **Congestion** goes hand in hand with **bandwidth**. The smaller your bandwidth is, the more likely are you to experience congestion with low latency.
 
 All the information gets to you fast enough, but it does not have enough space on the bandwidth to get through and will slow down.
-
