@@ -1,11 +1,6 @@
 ---
 author: stefkn
 
-levels:
-  - beginner
-  - basic
-  - medium
-
 aspects:
   - workout
   - obscura
@@ -17,17 +12,19 @@ category: must-know
 links:
 
   - '[Dictionaries Basics](https://bdhacker.wordpress.com/20){website}'
-  - '[How to override comparison operators in Python](http://jcalderone.livejournal.com/32837.html){website}'
+  - '[How to Override Comparison Operators](http://jcalderone.livejournal.com/32837.html){website}'
 
 
 ---
 
-# Atomicity of failure
+# Atomicity of Failure
 
 ---
 ## Content
 
-This is an easy one: *mutable objects can sometimes be left in a half-broken state*. If we call some method on an object which causes it to throw an exception, but still exist, that object's state might not properly reflect what it is meant to describe, or be improper in some way. In this case, it is the object user's duty to properly think of all the possible situations and exceptions that could occur and handle them properly; one missed case and the object could cause bugs or maintainability issues.
+This is an easy one: *mutable objects can sometimes be left in a half-broken state*. If we call some method on an object which causes it to throw an exception, but still exist, that object's state might not properly reflect what it is meant to describe, or be improper in some way. 
+
+In this case, it is the object user's duty to properly think of all the possible situations and exceptions that could occur and handle them properly; one missed case and the object could cause bugs or maintainability issues.
 
 Take a look at this simple class, `MutableShoppingBasket`, representing a user's basket on some online store. It holds an integer keeping track of the number of items, and it can increment (increase by one) or decrement (decrease by one) that integer. In the constructor we make sure that it is not possible to create a shopping basket with less than zero items.
 
@@ -82,7 +79,7 @@ print(b3)
 #    zero items in the basket!
 ```
 
-It doesn't let us, as, in creating the new object, we fail to satisfy the constraints when the constructor is called. The object is not created, and it is easy to spot where we've went wrong due to failure being contained at this point and this point only. (*As opposed to silently creating a broken object to cause trouble elsewhere.*) This is another great advantage of immutable objects as it provides this without much extra effort on the developer's part.
+It won't work. When creating the new object, we fail to satisfy the constraints when the constructor is called. The object is not created, and it is easy to spot where we've went wrong due to failure being contained at this point and this point only (*as opposed to silently creating a broken object to cause trouble elsewhere*). This is another great advantage of immutable objects as it provides this without much extra effort on the developer's part.
 
 ---
 ## Practice
