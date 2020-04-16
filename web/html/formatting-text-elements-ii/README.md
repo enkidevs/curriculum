@@ -1,6 +1,6 @@
-name: Formatting Text Elements 2
+name: Formatting Text Elements II
 
-description: How to format text with HTML part 2
+description: More text formatting elements.
 
 insights:
   - intro-abbr

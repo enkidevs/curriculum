@@ -1,6 +1,6 @@
-name: Formatting Text Elements
+name: Formatting Text Elements I
 
-description: How to format text with HTML 
+description: How to format text with HTML.
 
 insights:
   - intro-br
