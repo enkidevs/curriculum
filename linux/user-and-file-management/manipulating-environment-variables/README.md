@@ -1,6 +1,6 @@
-name: Manipulating variables in the Bash environment
+name: Manipulating Environment Variables
 
-description: Getting familiar manipulating variables in the bash environment.
+description: What are environment variables and how you can manipulate them.
 
 insights:
   - manipulating-environment-variables
