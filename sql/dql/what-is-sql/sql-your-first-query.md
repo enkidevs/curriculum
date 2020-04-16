@@ -11,9 +11,6 @@ tags:
 aspects:
   - introduction
 
-links:
-  - '[Playground](placeholder-url){website}'
-
 ---
 
 # Your First Query
@@ -29,11 +26,9 @@ SELECT * FROM users;
 
 This code retrieves **all** the data from the `users` table. It's often used to inspect what's inside a database.
 
-> If you like, type and run the code above in the code playground that's in the Learn More link below.
-
 From the next workout, things will get exciting! Pretty much all the insights will teach you how to **build more complicated and useful queries**.
 
-> Note: every time you bookmark any insight, we email you its Learn More links. This way, you can check them out later on your desktop if its easier for you to read the content or write code there.
+> Note: you should make a habit of bookmarking insights. This way, you can check the Learn More links later, or it could serve as a refresher.
 
 ---
 ## Practice
