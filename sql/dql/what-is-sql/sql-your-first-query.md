@@ -26,9 +26,9 @@ SELECT * FROM users;
 
 This code retrieves **all** the data from the `users` table. It's often used to inspect what's inside a database.
 
-From the next workout, things will get exciting! Pretty much all the insights will teach you how to **build more complicated and useful queries**.
+Enough talk! From the next workout, things will get exciting and practical.
 
-> Note: you should make a habit of bookmarking insights. This way, you can check the Learn More links later, or it could serve as a refresher.
+Pretty much all the insights from now on will teach you how to **build more complicated and useful queries**.
 
 ---
 ## Practice
