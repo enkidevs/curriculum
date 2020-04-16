@@ -1,6 +1,6 @@
-name: Meter and progress
+name: Meter & Progress
 
-description: Learn how to format the meter and progress elements
+description: Elements used to indicate completion.
 
 insights:
   - meter

@@ -1,6 +1,6 @@
 name: Formatting HTML Elements
 
-description: How to format other HTML elements
+description: How to format other HTML elements.
 
 insights:
   - intro-span
