@@ -87,7 +87,7 @@ Store a method object of class `Hello` in the variable `temp` and call it afterw
 ```python
 class Hello:
   def greet(name):
-      print(f'Hello {name}!')
+    print(f'Hello {name}!')
 
 temp = ???
 ???    # Hello Enki!
