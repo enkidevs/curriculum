@@ -21,7 +21,6 @@ aspects:
 
 In short, CSS is used to create responsive layouts, animations, styling text, and positioning containers. By applying CSS, you add the look and feel that you'd like to your websites.
 
-However, CSS is not good for inserting media, creating links, and it also doesn't allow database storage.
 
 ---
 ## Practice
