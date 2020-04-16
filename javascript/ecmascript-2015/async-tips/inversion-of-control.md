@@ -22,7 +22,6 @@ aspects:
   - obscura
 
 links:
-  - '[blog.getify.com](http://blog.getify.com/promises-part-2/){website}'
 
 ---
 # Inversion of Control

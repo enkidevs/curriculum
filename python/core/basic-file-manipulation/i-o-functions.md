@@ -38,7 +38,7 @@ The syntax simply is:
 print('This is a print statement.')
 ```
 This will produce the following result on your screen:
-```text
+```plain-text
 This is a print statement.
 ```
 
@@ -57,7 +57,7 @@ print("The input is: ", str)
 ```
 
 Following, the `stdout` will look like:
-```text
+```plain-text
 Please enter your input: Hello
 The input is: Hello
 ```
@@ -73,7 +73,7 @@ print(colors, type(colors))
 ```
 
 The `stdout` will be as follows:
-```text
+```plain-text
 Favorite colors: ["Green","Blue"]
 ['Green','Blue'] <class `list`>
 ```
@@ -85,7 +85,7 @@ print(age, type(age))
 ```
 The `stdout` will look like this:
 
-```text
+```plain-text
 How old are you? 21
 21 <class `int`>
 ```

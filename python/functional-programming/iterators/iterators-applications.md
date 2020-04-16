@@ -102,7 +102,7 @@ for x in itertools.permutations(list):
 # ...
 ```
 
-Or iterate in reverse using the `reverse()` method:
+Or iterate in reverse using the `reversed()` method:
 
 ```python
 list = ['a', 'b', 'c', 'd']

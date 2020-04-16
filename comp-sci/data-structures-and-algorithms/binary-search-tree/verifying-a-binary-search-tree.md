@@ -47,7 +47,7 @@ Phrased another way:
 
 We can check this recursively using the following pseudo-code:
 
-```text
+```plain-text
 function isBST(root, minKey, maxKey)
   if root is empty then
     return true
@@ -97,5 +97,3 @@ A node in a binary search tree has to be
 * larger than its left child and smaller than its right one.
 * larger than the root and smaller than the right-most leaf.
 * larger than any node in its right subtree and smaller than any node in the left one.
-
-

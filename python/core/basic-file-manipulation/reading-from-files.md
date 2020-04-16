@@ -25,7 +25,7 @@ After opening a **file object**, we have three **operations** available in **Pyt
 - `readlines()`
 
 Suppose we have a file named `test.txt` with the following text inside:
-```text
+```plain-text
 Hello!
 My name is Steve.
 Where is my food?
@@ -64,9 +64,9 @@ Last but not least, `readlines()` reads all lines from a file and returns them a
 file = open('test.txt', 'r')
 
 print(file.readlines())
-# Output: 
+# Output:
 # [
-#   'Hello!', 
+#   'Hello!',
 #   'My name is Steve.',
 #   'Where is my food?'
 # ]

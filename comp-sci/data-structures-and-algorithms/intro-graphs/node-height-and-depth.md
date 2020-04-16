@@ -31,7 +31,7 @@ Moreover, we can say that the **height of a tree** is the *height of the root no
 The **depth of a node** is number of edges from the node to the root of the tree. A root always has a depth of *0*. We cannot talk about the *depth of a tree*.
 
 For example:
-```text
+```plain-text
           Depth 0
           Height 3
          /        \
