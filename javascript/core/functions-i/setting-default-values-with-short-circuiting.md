@@ -82,15 +82,31 @@ function shortCir(name){
 ---
 ## Revision
 
-Complete the following code to return a *valid* String as name or a default value:
+Complete the following code to return a *valid* String as `name` or a default value if `name` is `undefined`:
 
 ```javascript
-function shortCir(name){
-  return ??? ??? 'John Doe';
+function getDefault(name ??? 'John Doe'){
+  return name;
 }
 ```
 
-* name
+* =
+* ||
+* &&
+* ==
+ 
+---
+## Quiz
+
+Complete the following code to return a *valid* String as `name` or a default value if `name` is `undefined` or `null`:
+
+```javascript
+function getDefault(name){
+  return name ??? 'John Doe';
+}
+```
+
+* ??
 * ||
 * &&
 * ==
