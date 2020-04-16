@@ -1,38 +1,21 @@
 ---
 author: pawel
 
-levels:
-
-  - basic
-
-  - beginner
-
 type: normal
 
 category: pattern
 
-standards:
-  javascript.evaluate-expressions.5: 10
-  javascript.functions.2: 10
-
 tags:
-
   - short-circuiting
-
-  - introduction
-
-  - workout
-
-
-links:
-
-  - '[javascriptissexy.com](http://javascriptissexy.com/12-simple-yet-powerful-javascript-tips/){website}'
 
 
 aspects:
   - introduction
   - workout
 
+links:
+  - '[MDN - Nullish Coalescing Operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Nullish_coalescing_operator){documentation}'
+  - '[MDN - Falsy](https://developer.mozilla.org/en-US/docs/Glossary/Falsy){documentation}'
 
 ---
 
@@ -46,17 +29,38 @@ aspects:
 Instead of setting default values as below:
 
 ```javascript
-function document(theTitle) {
- if (!theTitle) {
-   theTitle = "Untitled Doc";
+function title(t) {
+ if (!t) {
+   t = "Untitled";
  }
 }
 ```
+
 We can use:
 
 ```javascript
-function documentTitle(theTitle) {
-  theTitle = theTitle || "Untitled Doc";
+function title(t) {
+  t = t || "Untitled";
+}
+```
+
+The above will return `"Untitled"` for `t` if the provided value for `t` is falsy
+
+Sometimes this isn't desired. If an empty title is allowed, we would (incorrectly) get `"Untitled"` instead (because an empty string `''` is falsy).
+
+A better approach would be to use default parameters to use the default value only if the provided one is `undefined`.
+
+```javascript
+function title(t = "Untitled") {
+  
+}
+```
+
+If we wanted additional safety against both `undefined` and `null` (but allow all other values), we'd use the nullish coalescing operator `??`:
+
+```javascript
+function title(t) {
+  t = t ?? "Untitled";
 }
 ```
 

@@ -52,7 +52,7 @@ $ npm link myImportedModule
 
 This method fails when you have a local module depending on another local module:
 
-```text
+```plain-text
 modules/moduleOne
 modules/moduleTwo -> depends on moduleOne
 app/
@@ -99,4 +99,3 @@ $ npm ???
 * --local:myLibrary
 * --use-local=myLibrary
 * --local=myLibrary
- 
