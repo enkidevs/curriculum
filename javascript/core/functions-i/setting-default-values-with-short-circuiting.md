@@ -98,6 +98,8 @@ function getDefault(name ??? 'John Doe'){
 ---
 ## Quiz
 
+### Fallback when null or undefined
+
 Complete the following code to return a *valid* String as `name` or a default value if `name` is `undefined` or `null`:
 
 ```javascript
