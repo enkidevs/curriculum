@@ -1,4 +1,4 @@
-name: JavaScript History and Obscura
+name: History & Obscura
 
 description: Some history and rules of JavaScript
 

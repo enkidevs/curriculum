@@ -58,7 +58,7 @@ The last function, `little-o`, satisfies `f(n)<c⋅g(n)`, for every `n>=n'`. In 
 ## Practice
 
 Which bound is defined as:
-```text
+```plain-text
 g(n) is O(f(n))
 and
 g(n) is not Θ(f(n))
@@ -86,12 +86,12 @@ If a function is both Big-O and Big-Omega, it is called
 ## Footnotes
 [1:Big O]
 Consider this equation:
-```text
+```plain-text
 nˆ3 >= 3nˆ2 + 10n,
 true for any n >= 5
 ```
 In this case:
-```text
+```plain-text
 f(n) = 3nˆ2 + 10n
 g(n) = nˆ3
 c = 1
@@ -100,7 +100,6 @@ n' = 5
 
 [2:Big Theta]
 Here, the following axiom is used:
-```text
+```plain-text
 if a>=b and b>=a, then a=b.
 ```
-
