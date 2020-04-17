@@ -1,27 +1,14 @@
 ---
 author: catalin
 
-levels:
-
-  - beginner
-
-  - basic
-
-  - medium
-
-  - advanced
-
 type: normal
 
 category: must-know
-
 
 links:
 
   - '[Components and props](https://facebook.github.io/react/docs/components-and-props.html){website}'
   - '[How are function components different from classes](https://overreacted.io/how-are-function-components-different-from-classes/){website}'
-
-parent: what-is-state
 
 aspects:
   - introduction

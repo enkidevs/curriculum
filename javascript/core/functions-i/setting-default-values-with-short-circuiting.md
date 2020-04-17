@@ -19,12 +19,12 @@ links:
 
 ---
 
-# Setting default values with `short circuiting`
+# Setting default values with "short circuiting"
 
 ---
 ## Content
 
-`Short circuiting` returns the value of the second operand based on the value of the first.
+"Short circuiting" returns the value of the second operand based on the value of the first.
 
 Instead of setting default values as below:
 
@@ -67,7 +67,7 @@ function title(t) {
 ---
 ## Practice
 
-`Short circuit` the following code:
+"Short circuit" the following code:
 ```javascript
 function shortCir(name){
   return ??? ??? 'John Doe';
@@ -82,15 +82,33 @@ function shortCir(name){
 ---
 ## Revision
 
-Complete the following code to return a *valid* String as name or a default value:
+Complete the following code to return a *valid* String as `name` or a default value if `name` is `undefined`:
 
 ```javascript
-function shortCir(name){
-  return ??? ??? 'John Doe';
+function getDefault(name ??? 'John Doe'){
+  return name;
 }
 ```
 
-* name
+* =
+* ||
+* &&
+* ==
+ 
+---
+## Quiz
+
+### Fallback when null or undefined
+
+Complete the following code to return a *valid* String as `name` or a default value if `name` is `undefined` or `null`:
+
+```javascript
+function getDefault(name){
+  return name ??? 'John Doe';
+}
+```
+
+* ??
 * ||
 * &&
 * ==
