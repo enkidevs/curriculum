@@ -1,6 +1,6 @@
-name: More fundamentals of React
+name: Fundamentals II
 
-description: Building blocks of React, explained.
+description: Function components, props, and state explained.
 
 insights:
   - react-what-are-props

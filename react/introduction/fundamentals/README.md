@@ -1,6 +1,6 @@
-name: Fundamentals of React
+name: Fundamentals I
 
-description: Building blocks of React, explained.
+description: Elements, components, and how to use them.
 
 insights:
   - react-the-react-element
