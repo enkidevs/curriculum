@@ -7,6 +7,7 @@ insights:
   - distinguish-the-mutability-of-common-types
   - why-types-have-immutability
   - why-types-have-immutability-ii
-  - more-benefits-of-immutability
+  - avoiding-identity-mutation
+  - atomicity-of-failure
   - immutability-gotchas
  

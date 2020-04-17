@@ -33,7 +33,7 @@ This feature give us a lot of power to by allowing us to adjust various logic in
 
 Match the type with its description:
 
-```text
+```plain-text
 +AND - ???
 +OR  - ???
 ```

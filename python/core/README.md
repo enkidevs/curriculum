@@ -9,6 +9,7 @@ sections:
     - meet-python
     - console-and-operators
     - control-structures
+    - control-structures-ii
     - fundamental-data-structures
     - fundamental-data-structures-ii
     - looping

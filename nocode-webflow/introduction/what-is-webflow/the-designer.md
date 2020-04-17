@@ -22,22 +22,22 @@ links:
 ---
 ## Content
 
-One of the most powerful features Webflow has to offer is called the `Designer`.
+One of the most powerful Webflow features is the `Designer`.
 
-This interactive website building software is completely customizable and it is where you will spend most of your time.
+This interactive website building software is completely customizable and it's where you'll spend most of your time.
 
 The `Designer` consists of 5 main elements:
-- the left toolbar and panels (used for structuring your website, navigation, adding new elements and much more)
-- the Canvas (provides real-time webpage interaction where you can see the end result as well as modify any element by dragging and dropping, resizing and more)
-- the top bar (page number, save, undo, publish, export code and few more features)
-- the bottom navigation breadcrumb bar (mostly for navigation with a visible and clickable hierarchy of elements)
-- the right panels (gives powerful control for each of your elements)
+- the *left toolbar and panels* (used for structuring your website, navigation, adding new elements and much more)
+- the *Canvas* (which provides real-time webpage interaction where you can see the end result as well as modify any element by dragging and dropping, resizing and more)
+- the *top bar* (page number, save, undo, publish, export code and few more features)
+- the *bottom navigation breadcrumb bar* (mostly for navigation with a visible and clickable hierarchy of elements)
+- the *right panels* (which give powerful control for each of your elements)
 
 To access the `Designer`, you must first have a project (website). To create one, go to your [dashboard](https://webflow.com/dashboard) and click on the `New project` button.
 
 ![dashboard-new-project](https://img.enkipro.com/82f8991e0e66d7594f370d36e139bf8a.png)
 
-Now, to open the `Designer` all you have to do is click on the project[1].
+Now, open the `Designer` by clicking on the project[1].
 
 ---
 ## Practice
