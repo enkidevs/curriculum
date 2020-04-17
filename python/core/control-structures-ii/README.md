@@ -1,6 +1,6 @@
 name: Control Structures II
 
-description: More fundamental control structures of Python.
+description: More operators to help you take control.
 
 insights:
   - the-in-operator

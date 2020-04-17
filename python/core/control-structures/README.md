@@ -1,6 +1,6 @@
-name: Control Structures
+name: Control Structures I
 
-description: Explore fundamental control structures of Python.
+description: Explore fundamental control structures.
 
 insights:
   - if-statements
