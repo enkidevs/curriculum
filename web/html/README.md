@@ -24,6 +24,7 @@ sections:
     - sectioning-elements
     - formatting-elements
     - formatting-text-elements
+    - formatting-text-elements-ii
     - forms-iii
     - forms-iv
     - forms-v

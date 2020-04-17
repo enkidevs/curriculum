@@ -16,19 +16,6 @@ aspects:
 
 Like most programming languages, JavaScript has a number of syntax rules that it must adhere to.
 
-### Semicolon
-
-Statements in JavaScript end in a `;`. Based on the ECMAScript[1] rules however, adding a `;` isn't actually required (although it is common practice):
-
-```javascript
-let firstName = "Enki";
-//                    ^
-```
-
-Omitting a semicolon in certain situations can cause problems. JavaScript has a feature called Automatic Semicolon Insertion (ASI) which means that, if you omit a semicolon, JavaScript will automatically add it where it thinks it should go. 
-
-This can sometimes lead to unexpected results[2]. Thus, it's usually recommended to insert the `;` yourself.
-
 ### Variables
 
 Variables are the essential building blocks of programs. They are used to store a value and are given a name. 
@@ -63,6 +50,19 @@ firstName = "Changed"; // this works
 ```
 
 We'll learn more about the differences between `let`, `const`, and `var` later on.
+
+### Semicolon
+
+Statements in JavaScript end in a `;`. Based on the ECMAScript[1] rules however, adding a `;` isn't actually required (although it is common practice):
+
+```javascript
+let firstName = "Enki";
+//                    ^
+```
+
+Omitting a semicolon in certain situations can cause problems. JavaScript has a feature called Automatic Semicolon Insertion (ASI) which means that, if you omit a semicolon, JavaScript will automatically add it where it thinks it should go. 
+
+This can sometimes lead to unexpected results[2]. Thus, it's usually recommended to insert the `;` yourself, or use a tool such as [Prettier](https://prettier.io) to do it for you.
 
 ---
 ## Practice
@@ -126,7 +126,8 @@ y
 is understod as:
 
 ```js
-x; ++y;
+x;
+++y;
 ```
 
 and not as:
