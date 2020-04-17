@@ -1,44 +1,23 @@
 ---
 author: jordanfish
 
-levels:
-
-  - basic
-
-  - advanced
-
-  - medium
-
 type: normal
 
 category: caveats
 
-standards:
-
-  javascript.evaluate-expressions.3: 10
-
-  javascript.write-expressions.1: 10
-
 tags:
-
   - strings
-
   - html
-
   - introduction
-
   - workout
 
 
 links:
-
-  - '[www.standardista.com](http://www.standardista.com/javascript/15-common-javascript-gotchas/){website}'
-
+  - '[15 Common JavaScript Gotchas](http://www.standardista.com/javascript/15-common-javascript-gotchas/){website}'
 
 aspects:
   - introduction
   - workout
-
 
 ---
 
@@ -47,44 +26,79 @@ aspects:
 ---
 ## Content
 
-The `String.replace` method only changes the first occurrence of a substring, not all possible matches: 
+Using `String.prototype.replace()`, you can create a new string that replaces certain parts based on a pattern.
+
+```js
+let aString = 'Enki is the best!';
+let newString = aString.replace(
+  'Enki',
+  'Summer'
+);
+console.log(newString);
+// "Summer is the best!"
 ```
-var testString = "An example string for us";
-testString = testString.replace(/ /,"%20"); 
-// testString = "An%20example string for us"
+
+This method will only replace the **first occurence**, when the pattern used is a string:
+
+```js
+let aString = 'A duplicate duplicate word.';
+let newString = aString.replace(
+  'duplicate',
+  'wow'
+);
+console.log(newString);
+// "A wow duplicate word."
 ```
-To replace all occurrences, you need to set the global modifier:
+
+The method is not limited to using strings as patterns, with RegEx[1] also being a possibility:
+
+```js
+let aString = 'An example string for us';
+let newString = aString.replace(
+  / /g, // this will match all the spaces in the string
+  ''
+);
+console.log(newString);
+// "Anexamplestringforus"
 ```
-var testString = "An example string for us";
-testString = testString.replace(/ /g,"%20");
-// "An%20example%20string%20for%20us"
-```
+
+> When using regular expressions, you can replace more than the first occurence in the string. 
 
 ---
 ## Practice
 
-Complete the following code snippet to replace `+` with `%2B`:
+Complete the following code snippet to replace **the first** `+` with `-`:
 
 ```javascript
-var s = 'x+y+z=w';
-s=s.replace(???,'%2B');
-console.log(s); // x%2By%2Bz=w
+let s = 'x + y + z = w';
+s = s.???(
+  ???,
+  ???
+);
+console.log(s); 
+// "x - y + z = w"
 ```
 
-* `/\+/g`
-* `\\+/g`
-* `\+/g`
-* `/\+/`
+* replace
+* '+'
+* '-'
+* findAndReplace
+* change
+* '='
 
 ---
 ## Revision
 
-??? is used to replace one or more occurrences of a substring with another string.
+String.prototype.??? is used to replace one or more occurrences of a substring with another string.
 
 
-* String.replace()
-* String.map()
-* String.change()
-* String.delete()
+* replace()
+* map()
+* change()
+* delete()
 
- 
+---
+## Footnotes
+
+[1:RegEx]
+RegEx is short for regular expression, and it represent a sequence of characters that define a search pattern. For example, this pattern `/ /g` will match with all the spaces in a string. For more information about RegEx check out [their documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions).

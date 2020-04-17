@@ -41,7 +41,7 @@ If you prioritize the current smallest distance for the next node to be visited,
 ![iter2](https://img.enkipro.com/30c7a2795cb6d2f1ff134bc4238df3bd.png)
 
 The distance from **C** to **D** is 3. This means that the distance between **A** and **D**(through C) is:
-```text
+```plain-text
 AD = AC + CD = 3+5 = 8
 which is smaller than the old one
 AD = 20
@@ -74,4 +74,3 @@ One of the initial steps in applying Dijkstra's algorithm is
 ## Footnotes
 [1:Paths]
 If there is a path between A and C and one between C and, say, X, it means that there is also a path between A and X.
-

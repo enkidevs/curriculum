@@ -1,4 +1,4 @@
-name: Disk and Time Management
+name: Disk & Time Management
 
 description: Utilities that come in hand for disk and time management.
 

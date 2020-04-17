@@ -1,4 +1,4 @@
-name: User and File management
+name: User & File management
 
 description: Files, users, permissions.
 
@@ -7,6 +7,7 @@ core: true
 sections:
   '0':
     - bash-environment
+    - manipulating-environment-variables
     - file-management
     - file-permissions
     - file-management-tips

@@ -48,7 +48,7 @@ Hovering over each option will reveal its name and a short description.
 
 Match the word with its description.
 
-```text
+```plain-text
 block  ???
 inline ???
 ```

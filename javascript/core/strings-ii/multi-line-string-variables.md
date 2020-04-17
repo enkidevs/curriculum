@@ -1,48 +1,27 @@
 ---
 author: jordanfish
 
-levels:
-
-  - basic
-
-  - advanced
-
-  - medium
-
 type: normal
 
 category: how to
 
-standards:
-
-  javascript.evaluate-expressions.3: 10
-
-  javascript.write-expressions.1: 10
-
 tags:
-
   - strings
-
   - html
-
   - introduction
-
   - workout
 
 
 links:
-
-  - '[stackoverflow.com](http://stackoverflow.com/questions/805107/creating-multiline-strings-in-javascript/6247331#6247331){website}'
-
+  - '[Creating Multi-line String Variables](http://stackoverflow.com/questions/805107/creating-multiline-strings-in-javascript/6247331#6247331){discussion}'
 
 aspects:
   - introduction
   - workout
 
-
 ---
 
-# Multi-line string variables
+# Multi-Line String Variables
 
 ---
 ## Content

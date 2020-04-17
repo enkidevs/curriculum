@@ -23,7 +23,9 @@ sections:
     - meta-elements
     - sectioning-elements
     - formatting-elements
+    - meter-and-progress
     - formatting-text-elements
+    - formatting-text-elements-ii
     - forms-iii
     - forms-iv
     - forms-v

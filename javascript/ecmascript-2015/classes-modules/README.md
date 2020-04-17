@@ -1,4 +1,4 @@
-name: Classes and Modules
+name: Classes & Modules
 
 description: Compartmentalizing your code the proper way.
 
