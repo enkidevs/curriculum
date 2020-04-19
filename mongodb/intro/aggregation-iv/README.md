@@ -1,6 +1,6 @@
 name: Aggregation IV
 
-description: More accumulators and operators to you with aggregation.
+description: More accumulators and operators to use with aggregation.
 
 insights:
   - aggregation-with-accumulators-iv
