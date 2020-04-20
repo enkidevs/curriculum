@@ -1,11 +1,6 @@
 ---
 author: Dral
 
-levels:
-  - basic
-  - advanced
-  - medium
-
 type: normal
 
 category: best practice
@@ -21,7 +16,7 @@ aspects:
   - workout
 
 links:
-  - '[MDN Documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter){documentation}'
+  - '[MDN Filter](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter){documentation}'
 
 ---
 
@@ -72,19 +67,7 @@ console.log(even);
 // [2, 4]
 ```
 
-`.filter` can also be applied directly to an array:
-
-```js
-function isOdd (element) {
-  // ...
-}
-[1, 2, 3, 4].filter(
-  isOdd
-);
-// [1, 3]
-```
-
-Note that you can use any type of array, you are not limited to a number array.
+> Note: you can use any type of array, you are not limited to a number array.
 
 ---
 ## Practice
@@ -131,15 +114,18 @@ let div3 = numbers.???(
 ## Footnotes
 
 [1:Syntax]
-We've provided you with the simplified syntax (without any optional arguemnts), but there is the full one:
+We've provided you with the simplified syntax (without any optional arguments), but here is the full one:
 
 ```js
 let newArray = arr.filter(
-  callback(element[, index, [array]])[,
-  thisArg]
+  callback(element, index, array),
+  thisArg
 );
 ```
 
-Here, `thisArg` is an optional parameter (hence being enclosed by brackets), and it represents that value that is used as `this` when executing the `callback` function.
+The `callback` function can take three arguments:
+- `element` (mandatory)
+- `index` (optional, it represents the index of the current element being processed)
+- `array` (optional, it represents the array on which you call `filter()`)
 
-For the `callback` function, it must have an `element` argument, with the `index` (the index of the current element being processed) and the `array` (the array on which you call `filter()`) arguments being optional. 
+Here, `thisArg` is also an optional parameter, and it represents that value that is used as `this` when executing the `callback` function.
