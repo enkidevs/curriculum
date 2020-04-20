@@ -41,7 +41,10 @@ However, using the `Array.prototype.filter` method is generally more concise and
 
 ```js
 let newArray = arr.filter(
-  callback(element)
+  function callback(element) {
+    // if callback returns true
+    // elements is kept in array
+  }
 );
 ```
 
@@ -110,7 +113,7 @@ let div3 = numbers.???(
 * isDivisibleBy3()
 * isDivisibleBy3(element)
 * !== 0
-* get
+* separate
 
 ---
 ## Footnotes
@@ -120,7 +123,10 @@ We've provided you with the simplified syntax (without any optional arguments), 
 
 ```js
 let newArray = arr.filter(
-  callback(element, index, array),
+  callback(element, index, array) {
+    // if callback returns true
+    // elements is kept in array
+  },
   thisArg
 );
 ```
