@@ -21,7 +21,7 @@ Suppose you've created a base from scratch. When you open it, you'll see somethi
 
 You can see that you're working in `Table 1`, which has three fields: `Name`, `Notes`, `Attachments`.
 
-For starters, you can rename the table so that it provides a very short description of what data it'll hold. 
+For starters, you can rename the table so that it provides a very short description of what data it'll hold.
 
 ![gif-of-renaming-table](https://img.enkipro.com/8909b664b02611e52ed6241806a62b72.gif)
 
@@ -29,7 +29,7 @@ In this example, you also need a new table named `Earth Data`. You can do this b
 
 ![gif-of-adding-a-new-table](https://img.enkipro.com/582a69d31c8bacd1737aaaa131bf0125.gif)
 
-Tables belong inside a base. In our example, both `Mars Data` and `Earth Data` are found in the same base. 
+Tables belong inside a base. In our example, both `Mars Data` and `Earth Data` are found in the same base.
 
 You can link records from `Mars Data` to `Earth Data` (or vice versa), but you can't link records from a table that belongs to a **different** base.
 
@@ -38,7 +38,7 @@ You can link records from `Mars Data` to `Earth Data` (or vice versa), but you c
 
 Which of the following phrases is false?
 
-```text
+```plain-text
 Base 1  Table A
         Table B
 Base 2  Table C
