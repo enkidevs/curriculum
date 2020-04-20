@@ -1,4 +1,4 @@
-name: Grep and Background Tasks
+name: Grep & Background Tasks
 
 description: Handling background tasks.
 

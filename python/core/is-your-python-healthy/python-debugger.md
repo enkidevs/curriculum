@@ -39,7 +39,7 @@ def nested_loop():
     for char in chars:
       print(char)
 
-if __name_ == '__main__':
+if __name__ == '__main__':
   nested_loop()
 ```
 
@@ -51,7 +51,7 @@ $ python3 -m pdb debug.py
 #Console output:
 
 > /Users/seba/debug.py(1)<module>()
--> num_list = [1, 2]
+-> number_list = [1, 2]
 (Pdb)
 ```
 

@@ -1,26 +1,12 @@
 ---
 author: kapnobatai136
 
-levels:
-
-  - beginner
-
-  - basic
-
-  - medium
-
-  - advanced
-
 type: normal
 
 category: must-know
 
-
 links:
-
   - '[Components and props](https://facebook.github.io/react/docs/components-and-props.html){website}'
-
-parent: the-react-element
 
 aspects:
   - introduction
