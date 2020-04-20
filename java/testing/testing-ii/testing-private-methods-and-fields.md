@@ -1,9 +1,6 @@
 ---
 author: mihaiberq
 
-levels:
-  - basic
-
 type: normal
 
 category: tip
