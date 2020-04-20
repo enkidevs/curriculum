@@ -18,7 +18,7 @@ aspects:
 
 Times may come when you will have to test **private** methods. As using *inner classes* to write tests is *not advisable* (as tests would likely end up in production), three other methods are to be considered.
 
-The least intrusive method is to test **the contract** that class has with other objects: is every other object for which the private method was used behaving properly? If they do, then you can assume the code works as expected. With this approach, you can test the side-effects of your private function.
+The least intrusive method is to test **the contract** that class has with other objects: did all data affected by the private method call change accordingly? If it did, then you can assume the code works as expected. With this approach, you can test the side-effects of your private function.
 
 Another option is to use **reflection**. Reflection can be used for observing and modifying program execution. It allows for instantiation of objects and invocation of methods that would otherwise be private.
 
@@ -39,18 +39,15 @@ class User {
 }
 ```
 
-You can access the method to be tested like so:
+To target the private method, you need to match its arguments signature. For this, we instantiate an array of `Class`es, with its first and only item a `String` class (because our method only accepts a string as input):
 
 ```java
 import java.lang.reflect.Method;
 
-// build an argument of type:
-// new Class[] { String.class }
 Class[] arg = new Class[1];
 arg[0] = String.class;
 
 // look for "checkPassHash()" method
-// which has a single argument "arg"
 Method toTest = User
   .class
   .getDeclaredMethod(
