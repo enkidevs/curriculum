@@ -47,7 +47,7 @@ let blob = new Blob(
 
 > Note: the first argument **must** be an array.
 
-A blob can be very large, meaning it can contain audio and video data. They can be created on-the-go, and used as files when coupled with blob URLs.
+A blob can be very large, meaning it can contain audio and video data. They can be created on-the-go, and used as files when coupled with blob URLs[5].
 
 Although blobs aren't particularly useful on their own, their redeeming feature is being able to be used in many calls that are meant for `File`s.
 
@@ -127,3 +127,8 @@ Media (or MIME) types are a two-part identifier for file formats and format cont
 This option is used to choose whether you want to transform end-of-line characters in the `Blob` to correspond to current Operating System newlines (e.g. `\r\n` or `\r`). It can take two values:
 - `transparent` (which means do nothing)
 - `native` ( which means transform)
+
+[5:Blob URLs]
+`Blob`s can be used as an URL for links, images (or other elements) to show its contents.
+
+Also, you can download or upload `Blob` objects, with the type becoming `Content-Type`.
