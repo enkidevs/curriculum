@@ -45,7 +45,7 @@ let newArray = arr.filter(
 );
 ```
 
-You pass a callback function which is applied to every element, and if the result of `callback` is `true` then the element gets added to `newArray`. This might seem a bit confusing, so let's take a look at an example:
+You pass a callback function which is applied to every element, and if the result of `callback` is truthy then the element gets added to `newArray`. Let's take a look at an example:
 
 ```js
 let numbers = [
@@ -54,12 +54,14 @@ let numbers = [
   3,
   4
 ];
+
 function isEven (element) {
   if (element % 2 === 0) {
     return true;
   }
   return false;
 }
+
 let even = numbers.filter(
   isEven
 )
