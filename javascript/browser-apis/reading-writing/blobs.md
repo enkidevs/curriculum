@@ -74,6 +74,8 @@ let c = Blob(
 );
 ```
 
+???
+
 * b
 * a
 * c
@@ -84,11 +86,11 @@ let c = Blob(
 Complete the definition of the `Blob` constructor.
 
 ```js
-new Blob(
-  ["parts"],
+new ???(
+  ???,
   {
-    type: 'text/html',
-    endings: 'transparent'
+    ???: 'text/html',
+    ???: 'transparent'
   }
 );
 ```
