@@ -42,7 +42,7 @@ class SimplisticTest(unittest.TestCase):
       self.assertTrue(True)
 
   def test_Upper(self):
-      self.assertEqual('enki'.upper,
+      self.assertEqual('enki'.upper(),
                               'ENKI')
 
 if __name__ == '__main__':
