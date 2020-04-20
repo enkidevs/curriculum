@@ -43,7 +43,7 @@ However, using the `Array.prototype.filter` method is generally more concise and
 let newArray = arr.filter(
   function callback(element) {
     // if callback returns true
-    // elements is kept in array
+    // element is kept in array
   }
 );
 ```
@@ -125,7 +125,7 @@ We've provided you with the simplified syntax (without any optional arguments), 
 let newArray = arr.filter(
   callback(element, index, array) {
     // if callback returns true
-    // elements is kept in array
+    // element is kept in array
   },
   thisArg
 );
