@@ -1,26 +1,12 @@
 ---
 author: catalin
 
-levels:
-
-  - beginner
-
-  - basic
-
-  - medium
-
-  - advanced
-
 type: normal
 
 category: must-know
 
-
 links:
-
   - '[Rendering elements](https://facebook.github.io/react/docs/rendering-elements.html){website}'
-
-parent: what-i-need-to-use-react
 
 aspects:
   - introduction

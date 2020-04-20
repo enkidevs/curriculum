@@ -25,7 +25,7 @@ aspects:
 
 When creating a website, all of your unique HTML and CSS files for the same website are usually located inside a folder like so:
 
-```text
+```plain-text
 /your-website-folder
   /html_files
     main.html
@@ -103,4 +103,3 @@ What do HTML and CSS stand for?
 * Hyperlink Text Markup Language & Computer SheetStyles
 * Home Tool Markup Listing & Custom ScriptStyles
 * Hyper Text Mark Language & Cascading SheetStyles
- 

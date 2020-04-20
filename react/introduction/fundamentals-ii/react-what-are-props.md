@@ -1,27 +1,13 @@
 ---
 author: catalin
 
-levels:
-
-  - beginner
-
-  - basic
-
-  - medium
-
-  - advanced
-
 type: normal
 
 category: must-know
 
-
 links:
-
   - '[Components and props](https://facebook.github.io/react/docs/components-and-props.html){website}'
   - '[Props overview](https://www.tutorialspoint.com/reactjs/reactjs_props_overview.htm){website}'
-
-parent: the-react-component
 
 aspects:
   - introduction

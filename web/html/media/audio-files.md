@@ -27,7 +27,7 @@ In order to support all browsers, it is useful to provide two different types of
 
 ![audio-formats-browser](https://img.enkipro.com/3e463b8c6eca4d637159f063d1837816.png)
 
-**MP3**: The most popular audio format for it's small compressed size and great audio.
+**MP3**: The most popular audio format for its small compressed size and great audio.
 
 **M4A**: The newest audio format works with all same browsers as MP3, but should be used moving forward.
 
@@ -69,7 +69,7 @@ In order for audio files today to be supported on all major web browsers you sho
 ---
 ## Revision
 
-When you want to provide fallback content for user's that do not have browsers that support HTML5 audio, what do you need to do?
+When you want to provide fallback content for users that do not have browsers that support HTML5 audio, what do you need to do?
 
 ???
 

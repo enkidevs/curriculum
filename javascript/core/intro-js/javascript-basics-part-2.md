@@ -15,7 +15,7 @@ aspects:
 ---
 ## Content
 
-Here's a couple more rules.
+Here are a couple more rules.
 
 ### Case Sensitivity
 
@@ -68,19 +68,6 @@ Or if you have more text you can use a block comment:
 I am a block comment
 */
 ```
-
-### Semicolon
-
-Statements in JavaScript end in a `;`. Based on the ECMAScript[1] rules however, adding a `;` isn't actually required (although it is common practice):
-
-```javascript
-let firstName = "Enki";
-//                    ^
-```
-
-Omitting a semicolon in certain situations can cause problems. JavaScript has a feature called Automatic Semicolon Insertion (ASI) which means that, if you omit a semicolon, JavaScript will automatically add it where it thinks it should go. 
-
-This can sometimes lead to unexpected results[2]. Thus, it's usually recommended to insert the `;` yourself.
 
 ---
 ## Practice
