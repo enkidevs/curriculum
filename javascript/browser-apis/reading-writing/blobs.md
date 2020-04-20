@@ -24,7 +24,7 @@ A binary large object, or *blob*, represents a file-like object of immutable[1] 
 
 A `Blob` has two components, the blob **parts** and **type**.
 
-![blob-composition](#)
+![blob-composition](https://img.enkipro.com/2419e9a5221d44d4ccb1ac9f38c8cb75.png)
 
 Creating a `Blob` is done through the constructor:
 
