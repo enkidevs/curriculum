@@ -21,7 +21,7 @@ aspects:
 
 Times may come when you will have to test **private** methods. As using *inner classes* to write tests is *not advisable* (as tests would likely end up in production), three other methods are to be considered.
 
-The least intrusive method is to test **the contract** that class has with other objects: is every other object for which the private method was used behaving properly? If they do, then you can assume the code works as expected.
+The least intrusive method is to test **the contract** that class has with other objects: is every other object for which the private method was used behaving properly? If they do, then you can assume the code works as expected. With this approach, you can test the side-effects of your private function.
 
 Another option is to use **reflection**. Reflection can be used for observing and modifying program execution. It allows for instantiation of objects and invocation of methods that would otherwise be private.
 
