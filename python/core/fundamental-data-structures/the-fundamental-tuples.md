@@ -34,7 +34,7 @@ print(myTuple[3])
 # 42
 ```
 
-Note that `tuples` (as well as `lists` and `ranges`) use **zero-based indexing**. What this means is that `myTuple[0]` will represent the first element of your `tuple`. 
+Note that `tuples` (as well as `lists` and `ranges`) use **zero-based indexing**. This means that `myTuple[0]` will represent the first element of your `tuple`. 
 
 On the same topic, the index used must be valid:
 ```python
@@ -47,27 +47,6 @@ Keep in mind that tuples cannot be modified, so trying to reassign an item raise
 myTuple[0] = "ABC"
 # TypeError: ...
 ```
-
-The **tuple assignment** feature allows packing and unpacking of tuples such that a tuple left of the assignment will be assigned all values from the tuple right of the assignment:
-```python
-flash = ("Berry", "Allen" , 27)
-(fname, lname, age) = flash
-print(fname)
-# 'Berry'
-print(age)
-# 27
-```
-
-In case of tuples with multiple fields, use the `*` unpacking syntax:
-```python
-a, *b, c = (1, 2, 3, 4, 5)
-print(b)
-# [2, 3, 4]
-```
-
-In this example, we assign the first element of the tuple to `a`, the last element of the tuple to `c`, and everything in-between to `b`.
-
-Tuples are often used for a sequence of values of heterogeneous types (e.g. fields of a database record or columns from a CSV file), while lists are often used for homogeneous items, such as a list of only numbers, or a list of only strings. This is not a rule; it can be the other way around too.
 
 ---
 ## Practice
@@ -109,39 +88,17 @@ ex_tuple = [
 ---
 ## Revision
 
-Extract the element "Enki" from the tuple:
+Extract the **third element** from this tuple:
 
-```python
-ex_tuple = (
-  "Python",
-  1,
-  "Enki",
-  2
-)
-???[???]
+```py
+aTuple = ('a', 1, 'b', 2)
+thirdElement = ???[???];
+
+print(thirdElement)
+# 'b'
 ```
 
-
-* `ex_tuple`
-* `2`
-* `ex_tuple.find`
-* `ex_tuple.search`
-* `3`
-* `1`
-
----
-## Quiz
-### how does unpacking work?
-
-```python
-# What will be the value printed by the following code block?
-a, *b, c = (1, 2, 3, 4, 5)
-print(b)
-```
-
- ???
-
-* 2,3,4
+* aTuple
 * 2
-* 2,3,4,5
-* 1,2,3,4,5
+* 3
+* tuple
