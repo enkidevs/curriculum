@@ -30,7 +30,7 @@ You can think of a component as a definition representing one or more UI element
 - a list of links
 - a button
 
-For example, this is a React component:
+Here's an example of a React component:
 ```jsx
 function App() {
   return (

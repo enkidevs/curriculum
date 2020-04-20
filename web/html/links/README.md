@@ -8,7 +8,6 @@ insights:
   - link-absolute-paths
   - link-target
   - image-link
-  - link-mailto
   - image-mailto
   - link-download
  

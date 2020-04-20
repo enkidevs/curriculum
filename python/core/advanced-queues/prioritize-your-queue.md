@@ -28,7 +28,7 @@ parent: a-thread-safe-queue
 ---
 ## Content
 
-To use `PriorityQueue` data type we need to import it from `Queue` module.
+To use `PriorityQueue` data type we need to import it from `queue` module.
 
 It uses the sort method `sort` in order to decide what to retrieve from it first (your object must have a way of comparing its instances):
 ```python

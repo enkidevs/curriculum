@@ -36,7 +36,7 @@ standards:
 ---
 ## Content
 
-The **built-in** `int` types provides several methods for data manipulation at a binary level. Conventionally, for integer values representation, **bytes** (group of 8 bits) are used.
+The **built-in** `int` types provide several methods for data manipulation at a binary level. Conventionally, for integer values representation, **bytes** (groups of 8 bits) are used.
 
 For example, you can get the bits required to store a specific number with `bit_length()`
 ```python
@@ -46,7 +46,7 @@ For example, you can get the bits required to store a specific number with `bit_
 # 1024 is 10000000000 in binary
 ```
 
-In addition, we can distinguish the following couple of methods:
+Additionally, we can distinguish the following couple of methods:
 - `.to_bytes(length, byteorder, *, signed=False)`[1] which return an array of **bytes** representing the integer value called on
 - `.from_bytes(bytes, byteorder, *, signed=False)` which does the opposite - converts an array of bytes to an integer value
 
@@ -152,6 +152,6 @@ When specified, the integer value will be represented in `length` bytes. If thes
 [2:endianness]
 **Big-endian** and **little-endian** are terms that describe the order in which a sequence of bytes are stored in computer memory.
 
-In **big endian**, you store the *most* significant `bit` in the **smallest** address, while in **little endian** you store the *least* significant one.
+In **big-endian**, you store the *most* significant `bit` in the **smallest** address, while in **little-endian** you store the *least* significant one.
 
 If you wish to learn more about this subject, bookmark this insight and check its "Learn more" links section.

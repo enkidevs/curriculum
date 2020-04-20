@@ -51,7 +51,7 @@ Letter:  n
 Letter:  k
 Letter:  i
 ```
-In the following example, `x` acts as the iterator and is incremented with each loop:
+In the following example, `x` acts as the loop variable and is incremented with each loop:
 
 ```python
 nums = [1, 2, 3]

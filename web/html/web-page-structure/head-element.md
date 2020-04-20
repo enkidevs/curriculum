@@ -13,7 +13,7 @@ aspects:
   - introduction
 
 links:
-  - '[HTML Metadata](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML)(documentation)'
+  - '[HTML Metadata](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML){documentation}'
   - '[HTML <head> Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/head){documentation}'
   - '[StackOverflow CSS before JS](https://stackoverflow.com/questions/9271276/is-the-recommendation-to-include-css-before-javascript-invalid){discussion}'
 

@@ -1,15 +1,9 @@
 ---
 author: catalin
 
-levels:
-
-  - beginner
-
 type: normal
 
 category: must-know
-
-parent: what-is-jsx
 
 aspects:
   - introduction

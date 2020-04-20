@@ -48,7 +48,7 @@ div div.my-class h2{
 }
 ```
 If cascading alone was the way to go, the heading *font-size* would be 40. Taking specificity into account:
-```text
+```plain-text
                         id - class - type
 div div.my-class #title  1 -   1   -  2
 div div.my-class h2      0 -   1   -  3
@@ -67,7 +67,7 @@ As discussed earlier, inline CSS has the highest inherited specificity:
 </div>
 ```
 We would have to add a new column to the previous notation in order to represent inline CSS specificity:
-```text
+```plain-text
 internal - id - class - type
     1    - 0  -   0   -  0
 ```
