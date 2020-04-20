@@ -10,5 +10,6 @@ sections:
     - basics-of-excel
     - templates
     - data-validation-filtering-grouping
+    - filtering-grouping
     - intro-to-functions-and-formulas
     - charts
