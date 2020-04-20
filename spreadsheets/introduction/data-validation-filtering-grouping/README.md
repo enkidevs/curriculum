@@ -1,12 +1,9 @@
-name: Validation, Filtering & Grouping
+name: Data types & data validation
 
-description: Learn more about data types, validation, grouping and filtering.
+description: Learn more about data types and data validation.
 
 insights:
   - data-types
   - data-types-2
   - data-validation
   - data-validation-2
-  - filters
-  - filters-2
-  - groups
