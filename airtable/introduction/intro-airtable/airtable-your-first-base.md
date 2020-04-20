@@ -34,3 +34,5 @@ You can either fill these in now or edit them at a later time. For now, we'll sk
 Success! You've created your first base. You can now see cells, rows, columns and many other options that we'll discuss later on.
 
 ![gif-of-base-creation-process](https://img.enkipro.com/c017cde7a0fc0171aec5db3b0f47a944.gif)
+
+> Note: as with all the skills in the app, if you want to access more advanced or specific content at any time, **feel free to use the *Skill Map* tab** to jump to the workouts most relevant for you.
