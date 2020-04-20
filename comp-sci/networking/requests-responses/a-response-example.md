@@ -33,7 +33,7 @@ parent: http-response
 ## Content
 
 Assuming that the dummy password is correct, the server's response to the previous login request looks like this:
-```text
+```plain-text
 HTTP/1.1 200 OK
 Access-Control-Allow-Origin: *
 Content-Encoding: gzip
@@ -89,5 +89,3 @@ Which of the following **HTTP response** header fields specifies the format of t
 * `Content-Encoding`
 * `Content-Length`
 * `Content-Format`
-
-

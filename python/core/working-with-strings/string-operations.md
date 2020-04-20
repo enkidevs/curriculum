@@ -29,36 +29,36 @@ Strings are bits of text either defined with 'single' or "double" quotations. Py
 
 First we'll declare a string for method testing purposes:
 ```python
-str = 'operations'
+testString = 'operations'
 ```
 
 The method `len` prints the length of a string:
 ```python
-print(len(str))
+print(len(testString))
 # 10
 ```
 The `index` method returns the location of the first occurence of a specified character:
 ```python
-print(str.index("r"))
+print(testString.index("r"))
 # 3
 ```
 
 The `count` method returns the number of occurrences of a specified character:
 
 ```python
-print(str.count("o"))
+print(testString.count("o"))
 # 2
 ```
 The following examples prints a `slice` of a string. It starts at index 2 and finishes at index 7, hence making it easier to do maths inside brackets.
 ```python
-print(str[2:8])
+print(testString[2:8])
 # eratio
 ```
 To split a string into two or more strings use the `split` method as follows:
 
 ```python
-str = 'string operations'
-words = str.split(" ")
+testString = 'string operations'
+words = testString.split(" ")
 print(words)
 # ['string', 'operations']
 
@@ -69,8 +69,8 @@ print(words)
 
 Complete the code snippet to return the number of occurrences of the letter `p`:
 ```python
-str = 'laptop'
-print(str.???('p'))
+testString = 'laptop'
+print(testString.???('p'))
 ```
 
 * `count`
@@ -83,9 +83,9 @@ print(str.???('p'))
 
 Complete the code snippet to divide the string into two strings around the whitespace:
 ```python
-str = 'Revision Questions'
+testString = 'Revision Questions'
 
-words = str.???(' ')
+words = testString.???(' ')
 ```
 
 * `split`

@@ -23,10 +23,10 @@ aspects:
 
 **HTML** is made up of content between `<tags>`, whereas **CSS** is made of selectors followed by a {declaration block}.
 
-When creating a website, all of your unique HTML and CSS files for the same website are usually located inside one primary folder like so:
+When creating a website, all of your unique HTML and CSS files for the same website are usually located inside a folder like so:
 
-```text
-/primary_folder
+```plain-text
+/your-website-folder
   /html_files
     main.html
     contact.html
@@ -51,10 +51,6 @@ C: ???
 S: ???
 S: ???
 
-Where are all web files of the same website usually saved?
-
-???
-
 * hyper
 * text
 * markup
@@ -62,7 +58,6 @@ Where are all web files of the same website usually saved?
 * cascading
 * style
 * sheets
-* in the same primary folder.
 * hyperlink
 * tool
 * home
@@ -74,10 +69,6 @@ Where are all web files of the same website usually saved?
 * simple
 * script
 * server
-* HTML files in "html" folder & CSS in "css" folder.
-* in separate primary folders.
-* file structure does not really matter.
-
 
 ---
 ## Revision
@@ -112,4 +103,3 @@ What do HTML and CSS stand for?
 * Hyperlink Text Markup Language & Computer SheetStyles
 * Home Tool Markup Listing & Custom ScriptStyles
 * Hyper Text Mark Language & Cascading SheetStyles
- 

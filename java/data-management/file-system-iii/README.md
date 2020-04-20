@@ -1,4 +1,4 @@
-name: File and System Manipulation III
+name: File & System Manipulation III
 
 description: Handle file manipulation with the help of you system.
 

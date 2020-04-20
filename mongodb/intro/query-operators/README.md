@@ -8,3 +8,4 @@ insights:
   - query-collection-2
   - query-collection-3
   - query-collection-4
+  - query-collection-5

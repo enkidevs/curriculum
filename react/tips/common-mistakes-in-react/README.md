@@ -1,4 +1,4 @@
-name: Common mistakes in React
+name: Common Mistakes
 
 description: Learn about some of the most common mistakes in React
 
@@ -8,3 +8,4 @@ insights:
   - react-setstate-is-async
   - react-current-state-and-next-state
   - react-dependency-array-for-useeffect
+  - react-dependency-array-for-useeffect-ii

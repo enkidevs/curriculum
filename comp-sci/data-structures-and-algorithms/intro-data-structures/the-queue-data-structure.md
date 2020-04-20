@@ -29,7 +29,7 @@ The *queue* data structure is a collection of objects which is optimized for add
 
 A grocery store line serves as a simple real-world example of a queue: the first person in the line is the first person to be serviced (and leave the line).
 
-### Queue ADT
+### Queue ADT[1]
 
 Update methods:
 - `enqueue(e)` : *Adds* e to the end of the queue.
@@ -84,4 +84,8 @@ The working principle behind a queue is
 * SASS
 * OOP
 
+---
+## Footnotes
 
+[1:ADT]
+Abstract Data Type, or ADT, is a definition of a data type (or a data structure) that only mentions what operations are to be performed but not how these operations will be implemented.

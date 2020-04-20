@@ -32,7 +32,7 @@ Brush up on the fundamentals of computer networking with this quick quiz.
 ---
 ## Game Content
 
-```text
+```plain-text
 What are devices within a computer network
 
 that send, route or receive data called?
@@ -52,7 +52,7 @@ A `modem` is a type of hardware device that converts between analog and digital 
 
 ---
 
-```text
+```plain-text
 The first step of data transmission is
 
 breaking down the data into
@@ -72,7 +72,7 @@ Data transmission consists of:
 
 ---
 
-```text
+```plain-text
 A packet is made out of header and
 
 ???
@@ -91,7 +91,7 @@ A `packet` is made out of:
 
 ---
 
-```text
+```plain-text
 Protocols can be thought of as:
 ???
 ```
@@ -106,7 +106,7 @@ A network protocol defines rules and conventions for communication between netwo
 
 ---
 
-```text
+```plain-text
 Which of the following protocols is used
 
 to uniquely identify nodes on a network?
@@ -125,7 +125,7 @@ The **Internet Protocol** (`IP`) enables interconnectivity in a network by uniqu
 
 ---
 
-```text
+```plain-text
 Which of the following stands for wireless
 
 local area network?
@@ -145,7 +145,7 @@ local area network?
 
 ---
 
-```text
+```plain-text
 The Internet is considered a:
 ???
 ```
@@ -162,7 +162,7 @@ The `Internet` is the largest **Wide Area Network**, interconnecting devices all
 
 ---
 
-```text
+```plain-text
 OSI stands for:
 ???
 ```
@@ -177,7 +177,7 @@ The `OSI` (Open System Interconnect) model is a conceptual framework that breaks
 
 ---
 
-```text
+```plain-text
 Which of the following OSI model layers
 
 handles authentication and authorization?
@@ -193,7 +193,7 @@ While the `Session` layer handles authentication and authorization, `Transport` 
 
 ---
 
-```text
+```plain-text
 The topmost layer of the TCP/IP
 
 model is called:

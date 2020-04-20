@@ -7,8 +7,9 @@ core: true
 sections:
   '0':
     - what-is-sql
-    - basic-selects
-    - basic-queries
+    - using-select
+    - building-queries
+    - special-operators
     - write
   '1':
     - aggregate-queries

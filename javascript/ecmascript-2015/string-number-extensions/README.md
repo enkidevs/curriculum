@@ -1,3 +1,3 @@
-name: String and Number Extensions
+name: String & Number Extensions
 
 description: Extending Strings and Numbers.
