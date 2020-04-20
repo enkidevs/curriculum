@@ -16,6 +16,7 @@ sections:
     - aggregation-ii
   '2':
     - crud
+    - crud-ii
     - arithmetic-aggregation-i
     - arithmetic-aggregation-ii
     - aggregation-iii
