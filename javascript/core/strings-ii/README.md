@@ -1,9 +1,8 @@
-name: Strings
+name: Strings II
 
-description: Explore Strings in depth
+description: Explore strings in depth.
 
 insights:
-  - string-replace
   - multi-line-string-variables
   - most-efficient-way-to-build-html-strings
   - using-test-with-regexp
