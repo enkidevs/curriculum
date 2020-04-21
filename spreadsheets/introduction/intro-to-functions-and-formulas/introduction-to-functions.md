@@ -54,7 +54,7 @@ What are functions?
 ## Footnotes
 
 [1:Arguments]
-An argument is just a a cell or a series of cells that you would pass a function. For example, if you had the following function:
+An argument is just a cell or a series of cells that you would pass a function. For example, if you had the following function:
 ```text
 = COUNT(A1:A25)
 ```
