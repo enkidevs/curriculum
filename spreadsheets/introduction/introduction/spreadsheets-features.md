@@ -24,20 +24,14 @@ Spreadsheets were designed for work with numerical data. You can perform both si
 
 There are many *formulas* that can be used to organize, calculate, or find the data that you need. You can even set up formulas to change the color of certain cells based on calculations or conditions.
 
-After transforming your data, you can create *graphs or charts* to represent or visualize the results more effectively.
+For instance, here we have a rule that will paint the cell *red* if the conditon is not met and *green* if it is.
 
-Pivot tables are another important feature of spreadsheets. These can be used on very large data sets to extract or aggregate the data resulting in an improved view.
-
-This is just some of what spreadsheets can do. We'll cover all the main features in this course.
+![red-green-color-rule](https://img.enkipro.com/ef5c21aa8a8b0872a5a9de43d0a05f38.gif)
 
 ---
 ## Practice
 
-What can you **NOT** do using spreadsheets?
+Spreadsheets were designed to ???
 
-???
-
-* Edit a picture.
-* Calculate numerical data.
-* Create graphs and charts.
-* Create pivot tables.
+* work with numerical data.
+* edit video content.
