@@ -9,6 +9,7 @@ sections:
     - introduction
     - basics-of-excel
     - templates
-    - data-validation-filtering-grouping
+    - data-types-and-validation
+    - filtering-grouping
     - intro-to-functions-and-formulas
     - charts

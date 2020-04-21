@@ -37,6 +37,8 @@ The next topics to explore, once you have those ready:
 - Intrusion Detection Tooling
 - Cryptography
 
+> Note: as with all the skills in the app, if you want to access more advanced or specific content at any time, **feel free to use the *Skill Map* tab** to jump to the workouts most relevant for you.
+
 ---
 ## Practice
 
