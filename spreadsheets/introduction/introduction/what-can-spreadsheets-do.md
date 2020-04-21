@@ -15,25 +15,25 @@ category: how to
 ---
 
 
-# What Can Spreadsheets Do
+# Spreadsheet features
 
 ---
 ## Content
 
-Spreadsheets are great with numerical data. You can perform simple (such as addition, subtraction, etc.) or complex (multiple functions at the same time) calculations.
+Spreadsheets were designed for work with numerical data. You can perform both simple calculations like multiplication, or complex ones which include *multiple functions* at the same time.
 
-There are many formulas that can be used to organize, calculate, or find the data that you need. You can even set up formulas to change the color of certain cells based on calculations or if a condition is met. 
+There are many *formulas* that can be used to organize, calculate, or find the data that you need. You can even set up formulas to change the color of certain cells based on calculations or conditions.
 
-After transforming your data, you can create graphs or charts to better represent or visualize the results.
+After transforming your data, you can create *graphs or charts* to represent or visualize the results more effectively.
 
-Pivot tables are another important powerful feature of spreadsheets. These can be used on very large data sets to extract or aggregate the data resulting in an improved view.
+Pivot tables are another important feature of spreadsheets. These can be used on very large data sets to extract or aggregate the data resulting in an improved view.
 
-This is just a part of what spreadsheets can do, but we will cover all the features in the following missions.
+This is just some of what spreadsheets can do. We'll cover all the main features in this course.
 
 ---
 ## Practice
 
-What **can't** spreadsheets do?
+What can you **NOT** do using spreadsheets?
 
 ???
 
