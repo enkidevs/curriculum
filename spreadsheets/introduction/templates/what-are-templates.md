@@ -13,7 +13,7 @@ category: must-know
 
 ---
 
-# What Is a Template?
+# What's a Template?
 
 ---
 ## Content
@@ -32,6 +32,6 @@ This will open a new tab called "Template gallery" where you can choose the temp
 
 ![template-galary](https://img.enkipro.com/15aab5ac55e4b78b6cc8ff1fe0f533e2.png)
 
-**Note:** Both Office Excel and Google Sheets have many powerful templates users can use. However, if you do not like what they offer you can always find a ton more online.
+**Note:** Both Office Excel and Google Sheets have many powerful templates users can use. However, if you do not like what they offer you can always find many more online.
 
 For instance, [this website](https://www.goskills.com/Excel/Articles/Free-Excel-templates) has seven different categories with numerous templates in each that you can download for free.
