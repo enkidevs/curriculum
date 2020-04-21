@@ -1,6 +1,6 @@
 name: Filtering & Grouping
 
-description: Learn more about grouping and filtering.
+description: Learn how to group and filter data.
 
 insights:
   - filters
