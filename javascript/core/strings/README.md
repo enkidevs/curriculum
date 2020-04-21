@@ -1,6 +1,6 @@
 name: Strings I
 
-description: Strings are how we contain text in JavaScript
+description: Strings are how we contain text in JavaScript.
 
 insights:
   - double-and-single-quotes
