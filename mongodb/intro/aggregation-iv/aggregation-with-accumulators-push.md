@@ -20,8 +20,6 @@ category: how to
 ---
 ## Content
 
-### `$push`
-
 Syntax:
 ```javascript
 { $push: <expression> }
