@@ -11,7 +11,6 @@ tags:
   - introduction
   - workout
 
-
 links:
   - '[15 Common JavaScript Gotchas](http://www.standardista.com/javascript/15-common-javascript-gotchas/){website}'
 

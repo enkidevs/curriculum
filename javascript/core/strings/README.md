@@ -1,10 +1,11 @@
-name: Strings
+name: Strings I
 
-description: Strings are how we contain text in JavaScript
+description: Strings are how we contain text in JavaScript.
 
 insights:
   - double-and-single-quotes
   - types-string
+  - string-replace
 
 exercises:
   - js-practice-glitch-length
