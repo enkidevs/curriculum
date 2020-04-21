@@ -1,4 +1,4 @@
-name: Strings
+name: Strings I
 
 description: Strings are how we contain text in JavaScript
 

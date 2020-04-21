@@ -1,4 +1,4 @@
-name: Strings
+name: Strings II
 
 description: Explore Strings in depth
 
