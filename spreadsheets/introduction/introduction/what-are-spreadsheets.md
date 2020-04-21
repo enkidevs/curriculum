@@ -1,9 +1,6 @@
 ---
 author: Stefan-Stojanovic
 
-levels:
-  - beginner
-
 aspects:
   - introduction
   - workout
@@ -14,7 +11,7 @@ category: must-know
 
 ---
 
-# Spreadsheets intro
+# Spreadsheets Intro
 
 ---
 ## Content

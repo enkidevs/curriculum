@@ -14,7 +14,7 @@ category: how to
 
 ---
 
-# Types of Charts
+# Types of Charts I
 
 ---
 ## Content

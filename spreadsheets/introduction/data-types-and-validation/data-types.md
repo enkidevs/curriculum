@@ -14,7 +14,7 @@ category: must-know
 
 ---
 
-# Data Types
+# Data Types I
 
 ---
 ## Content

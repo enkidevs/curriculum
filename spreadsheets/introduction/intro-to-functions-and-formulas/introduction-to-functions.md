@@ -34,8 +34,9 @@ All functions are written in UPPERCASE letters.
 For instance, `=SUM(B2:B3)` would sum all values from cell `B2` to `B3`.
 
 Functions can also input multiple arguments. Here is an example:
-```text
-=MAX(A1:A3,B2:B3,E7)
+
+```plain-text
+= MAX(A1:A3,B2:B3,E7)
 ```
 
 ---
@@ -55,7 +56,7 @@ What are functions?
 
 [1:Arguments]
 An argument is just a cell or a series of cells that you would pass a function. For example, if you had the following function:
-```text
+```plain-text
 = COUNT(A1:A25)
 ```
 

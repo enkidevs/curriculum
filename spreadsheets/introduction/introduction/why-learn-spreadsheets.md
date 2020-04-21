@@ -1,9 +1,6 @@
 ---
 author: Stefan-Stojanovic
 
-levels:
-  - beginner
-
 aspects:
   - introduction
   - workout
@@ -14,7 +11,7 @@ category: must-know
 
 ---
 
-# Why become a pro?
+# Why Become a Pro?
 
 ---
 ## Content

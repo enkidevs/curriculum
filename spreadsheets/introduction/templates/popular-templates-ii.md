@@ -13,7 +13,7 @@ category: tip
 
 ---
 
-# Popular templates continued
+# Popular Templates Continued
 
 ---
 ## Content

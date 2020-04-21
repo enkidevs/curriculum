@@ -18,7 +18,7 @@ links:
 
 ---
 
-# Spreadsheet tool options
+# Spreadsheet Tool Options
 
 ---
 ## Content
