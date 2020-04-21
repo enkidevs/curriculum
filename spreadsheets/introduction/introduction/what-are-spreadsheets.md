@@ -31,7 +31,7 @@ Here's an example of a Google Sheets spreadsheet:
 
 A note on how this course is structured. In the first two workouts we'll go over what you'll get from this course, and some terminology. Workout 3 onwards will start to get more practical and exciting though!
 
-> As with all the skills in the app, if you want to access more advanced or specific content at any time, **feel free to use the *Skill Map* tab** to jump to whichever workouts are most relevant for you.
+> Note: As with all the skills in the app, if you want to access more advanced or specific content at any time, **feel free to use the *Skill Map* tab** to jump to whichever workouts are most relevant for you.
 
 
 ---
