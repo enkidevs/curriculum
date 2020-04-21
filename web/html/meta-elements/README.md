@@ -1,4 +1,4 @@
-name: Meta Element
+name: Meta Elements
 
 type: insights-list
 
