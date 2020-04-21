@@ -20,8 +20,6 @@ category: how to
 ---
 ## Content
 
-### `$sum`
-
 Syntax:
 ```javascript
 { $sum: <expression> }
