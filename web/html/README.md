@@ -22,6 +22,7 @@ sections:
     - tables
   '2':
     - meta-elements
+    - meta-elements-ii
     - sectioning-elements
     - formatting-elements
     - meter-and-progress
