@@ -14,22 +14,16 @@ category: must-know
 
 ---
 
-# Why Should You Use Spreadsheets?
+# Why become a pro?
 
 ---
 ## Content
 
-There are several reasons you might want to learn how to use spreadsheets.
+The main reason to become a spreadsheets pro is that it will **save you a lot of time**, and **increase your value in the modern-day workforce**.
 
-Whether you want to record your grades, calculate income and expenditure, or just keep track and analyze any data, spreadsheets are the go-to tool for that.
+That's because they're used regularly by *pretty much everybody* at work. 
 
-It is used in many professions:
-  - Analysts
-  - Engineers
-  - Accountants
-  - Bankers
-  - Consultants
-  - Professors
-  - etc..
+Sales, marketing, operations, analysis, and finance teams use spreadsheets on a daily basis. Product, development, and management use them on a weekly basis at least.
 
-One of the best part of spreadsheets is that you can learn how to use them for free. Whether it's from a free online course, or just by using the program and figuring it out on your own, knowing spreadsheets can increase your value in the modern-day workforce and is generally good to have on your resume.
+It's also useful for *personal projects*. Whether you want to record your grades, calculate income and expenditure, or just keep track of and analyze any data, spreadsheets are the way to go.
+
