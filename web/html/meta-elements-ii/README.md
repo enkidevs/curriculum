@@ -1,8 +1,8 @@
-name: Meta Elements II
+name: Meta Element II
 
 type: insights-list
 
-description: More on Meta Elements.
+description: More attributes for <meta>.
 
 section: 0
 

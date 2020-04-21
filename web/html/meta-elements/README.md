@@ -1,8 +1,8 @@
-name: Meta Elements
+name: Meta Element
 
 type: insights-list
 
-description: What are meta elements and how to use them.
+description: What's <meta> and its benefits.
 
 section: 0
 
