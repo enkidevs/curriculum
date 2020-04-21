@@ -1,6 +1,6 @@
 name: Strings II
 
-description: Explore Strings in depth
+description: Explore strings in depth.
 
 insights:
   - multi-line-string-variables
