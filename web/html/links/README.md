@@ -1,6 +1,6 @@
 name: Links
 
-description: How to link to other documents in HTML.
+description: How to link to other documents.
 
 insights:
   - anchor-links
