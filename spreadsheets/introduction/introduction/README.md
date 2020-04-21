@@ -5,5 +5,6 @@ description: Learn more about spreadsheets and how they can help you.
 insights:
   - what-are-spreadsheets
   - why-learn-spreadsheets
-  - what-can-spreadsheets-do
+  - spreadsheets-features
+  - spreadsheets-features-ii
   - what-you-need-to-start
