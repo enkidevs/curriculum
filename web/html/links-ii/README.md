@@ -1,6 +1,6 @@
 name: Links II
 
-description: More on links.
+description: Mail, image, and download links.
 
 insights:
   - image-link
