@@ -1,4 +1,4 @@
-name: User & File management
+name: User & File Management
 
 description: Files, users, permissions.
 
