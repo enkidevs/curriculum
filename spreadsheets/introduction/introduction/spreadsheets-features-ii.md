@@ -16,7 +16,7 @@ category: how to
 ---
 ## Content
 
-Next to transforming your data, you can create *graphs or charts* to represent or visualize the results more effectively.
+Other than transforming your data, you can create *graphs or charts* to represent or visualize the results more effectively.
 
 ![charts-and-graphs](https://img.enkipro.com/f85a38f772093d491212cbdf439aa80f.png)
 
