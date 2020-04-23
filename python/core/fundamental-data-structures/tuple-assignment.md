@@ -22,8 +22,9 @@ links:
 ## Content
 
 The **tuple assignment** feature allows packing and unpacking such that a tuple left of the assignment will be assigned all values from the tuple right of the assignment:
+
 ```python
-flash = ("Berry", "Allen" , 27)
+flash = ("Barry", "Allen" , 27)
 (fname, lname, age) = flash
 print(fname)
 # 'Berry'
@@ -31,7 +32,20 @@ print(age)
 # 27
 ```
 
-In case of tuples with multiple fields, use the `*` unpacking syntax:
+In this case, `(fname, lname, age)` is a `tuple`, but all the items are stand-alone variables that can be re-used anywhere:
+
+```py
+type((fname, lname, age))
+# <class 'tuple'>
+type(fname)
+# <class 'str'>
+fname = "Henry"
+print(fname)
+# "Henry"
+```
+
+When assigning values of a tuple to variables, you can omit the parentheses, and use the `*` unpacking syntax:
+
 ```python
 a, *b, c = (1, 2, 3, 4, 5)
 print(a)
@@ -42,16 +56,22 @@ print(c)
 # 5
 ```
 
-> Note: only one starred expression (`*`) is allowed per assignment[1].
+In this example, we assign the first element of the tuple to `a`, the last element of the tuple to `c`, and everything in-between to `b`. 
 
-In this example, we assign the first element of the tuple to `a`, the last element of the tuple to `c`, and everything in-between to `b`.
+Checking the types of each variable, you'll find that `b` **is a list**:
+
+```py
+type(b)
+# <class 'list'>
+```
+
+> Note: only one starred expression (`*`) is allowed per assignment[1].
 
 Tuples are often used for a sequence of values of heterogeneous types[2] (e.g. fields of a database record or columns from a CSV file), while lists are often used for homogeneous items[3]. This is not a rule; it can be the other way around too.
 
-Some advantages of tuples include:
-- faster than lists (due to them being immutable)
-- makes your code *safer* (expecially when working with constant data)
-- could be used as dictionary keys
+If you're not sure which you should use, remember the following:
+- you **can't add** elements to a touple
+- you **can't remove** elements from a touple
 
 ---
 ## Practice

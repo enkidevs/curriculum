@@ -23,28 +23,40 @@ links:
 
 `Tuples` are another one of the three currently implemented **sequence data types** (alongside with `lists` and `ranges`).
 
-Tuples are used to group any number of items into a single compound value regardless of their type (including nested tuples):
+Tuples are used to group any number of items into a single compound value, regardless of their type.
+
+They consist of any number of values, **separated by commas**:
+
 ```python
-myTuple = ("first", 13, "random", 42)
+my_tuple = "first", 13, "random", 42
 ```
 
-Extract elements from the tuple using the index operator:
+> Note: although not necessary, it is common practice to enclose the values of a tuple between parentheses:
+
+```py
+my_tuple = ("first", 13, "random", 42)
+```
+
+To extract elements from the tuple, use the index operator:
+
 ```python
-print(myTuple[3])
+print(my_tuple[3])
 # 42
 ```
 
-Note that `tuples` (as well as `lists` and `ranges`) use **zero-based indexing**. This means that `myTuple[0]` will represent the first element of your `tuple`. 
+> Note: `tuples` (as well as `lists` and `ranges`) use **zero-based indexing**. This means that `my_tuple[0]` will represent the first element of your `tuple`. 
 
 On the same topic, the index used must be valid:
+
 ```python
-print(myTuple[4])
+print(my_tuple[4])
 # IndexError: tuple index out of range
 ```
 
 Keep in mind that tuples cannot be modified, so trying to reassign an item raises an error:
+
 ```python
-myTuple[0] = "ABC"
+my_tuple[0] = "ABC"
 # TypeError: ...
 ```
 

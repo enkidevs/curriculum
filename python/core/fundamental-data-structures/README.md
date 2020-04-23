@@ -5,7 +5,7 @@ description: Getting to know the fundamental data structures specific to Python.
 insights:
   - variables-and-types
   - the-fundamental-tuples
-  - py-tuple-assignment
+  - tuple-assignment
   - lists
   - dictionary-standard-mapping-type
 
