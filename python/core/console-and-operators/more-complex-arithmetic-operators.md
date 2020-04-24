@@ -25,7 +25,7 @@ Python uses the exponent operator, `**`, to multiply a number *to the power* of 
 
 ```bash
 >>> 2 ** 4
-#16
+# 16
 ```
 
 This code executes 2 to the power of 4.
@@ -34,9 +34,9 @@ Here are some other examples:
 
 ```bash
 >>> -3 ** 4
-#-81
+# -81
 >>> 2 ** -2
-#0.25
+# 0.25
 ```
 
 Note how the `**` operator is executed before the `-` in the first example, so the calculation is `-(3**4)`. More about this order of execution in the next insight!
@@ -45,7 +45,7 @@ Python uses the modulus operator, `%`, to return the *remainder of a division*.
 
 ```bash
 >>> 14 % 3
-#2
+# 2
 ```
 
 14 divided by 3 equals 4 remainder 2. The modulus operator returns this remainder 2.
