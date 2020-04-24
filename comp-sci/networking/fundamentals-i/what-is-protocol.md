@@ -38,7 +38,7 @@ So far, you must have encountered some of the following **protocols**:
 - `SMTP` - used for mail transfer
 
 Some of the **protocols** used are hidden from the user, while others can be spotted by accessing a web page:
-```text
+```plain-text
 // the HTTPS protocol is used
 https://enki.com
 ```
@@ -83,4 +83,3 @@ According to the **OSI model** (used for computer systems communication standard
 These layers range from a low-level **Physical Layer** to a high-level **Application Layer**.
 
 Any protocol can be pinpointed to a specific layer. For example, the `HTTP` protocol is situated on the **Session Layer** that manages continuous exchange of information.
-

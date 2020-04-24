@@ -18,7 +18,8 @@ aspects:
   - deep
 
 links:
-  - '[Intro to cryptoeconomics](https://vitalik.ca/files/intro_cryptoeconomics.pdf){article}'
+
+
 ---
 
 # Cryptoeconomics

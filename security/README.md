@@ -1,6 +1,6 @@
 name: Security
 
-description: Security'; DROP TABLE Topics;
+description: Master security best practices.
 
 color: 16ABB3
 

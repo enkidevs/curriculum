@@ -71,8 +71,8 @@ Which node should we move into the root position after removing the old one?
   15  16   3   37
 ```
 
-* `37`
 * `38`
+* `37`
 * `3`
 * `15`
 * `16`

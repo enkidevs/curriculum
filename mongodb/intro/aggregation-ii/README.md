@@ -8,3 +8,4 @@ insights:
   - aggregation-group
   - aggregation-group-ii
   - aggregation-sortbycount
+  - aggregation-sortbycount-ii

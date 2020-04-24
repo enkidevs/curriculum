@@ -29,7 +29,7 @@ The *queue* data structure is a collection of objects which is optimized for add
 
 A grocery store line serves as a simple real-world example of a queue: the first person in the line is the first person to be serviced (and leave the line).
 
-### Queue ADT
+### Queue ADT[1]
 
 Update methods:
 - `enqueue(e)` : *Adds* e to the end of the queue.
@@ -45,6 +45,8 @@ These are your queue options in different programming languages:
   - `JavaScript`: There is no special Queue prototype in JavaScript. The Array prototype, however, supports the `push` and `shift` methods that emulate the behavior of a queue.
   - `Python`: You can instantiate queues using the `queue` module in python3, or the `Queue` module in python2. The insertion method is called `put`, while the removal one is `get`.
   - `C++`: Queues in C++ are part of the `std::queue` library. In this case, elements can be inserted by using `push` and removed by using `pop`.
+
+> Note: as with all the skills in the app, if you want to access more advanced or specific content at any time, **feel free to use the *Skill Map* tab** to jump to the workouts most relevant for you.
 
 ---
 ## Practice
@@ -84,4 +86,8 @@ The working principle behind a queue is
 * SASS
 * OOP
 
+---
+## Footnotes
 
+[1:ADT]
+Abstract Data Type, or ADT, is a definition of a data type (or a data structure) that only mentions what operations are to be performed but not how these operations will be implemented.

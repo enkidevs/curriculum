@@ -1,35 +1,19 @@
 ---
 author: rosielowther
 
-levels:
-
-  - basic
-
-  - beginner
-
 type: normal
 
 category: must-know
 
-standards:
-
-  javascript.javascript-syntax.1: 10
-
-  javascript.standard-library.3: 10
-
 tags:
   - introduction
 
-
 links:
 
-  - '[github.com](https://github.com/getify/You-Dont-Know-JS/blob/2nd-ed/sync-async/ch1.md){website}'
-  - '[developer.mozilla.org](https://developer.mozilla.org/en/docs/Web/API/Console/log){website}'
-
+  - '[MDN Documentation](https://developer.mozilla.org/en/docs/Web/API/Console/log){documentation}'
 
 aspects:
   - introduction
-
 
 ---
 
@@ -41,31 +25,34 @@ aspects:
 The `console.*` methods output information to a console.
 
 For example, `console.log` can print out a message:
-```
+```js
 console.log("This is my message");
 // This is my message
 ```
 
- More commonly it is used to show the current value of a variable when debugging. In this example we are logging the value of a variable called username:
-```
+More commonly it is used to show the current value of a variable when debugging. In this example we are logging the value of a variable called username:
+
+```js
 console.log("Username: " + username);
 // Username: enkilondon
 ```
 
 A few other useful console methods include:
+
 Sending a warning to the console.
-```
+```js
 console.warn("Resource not changed")
 ```
+
 Sending an error message to the console.
-```
+```js
 console.error("File not found!")
 ```
+
 Viewing the current stack trace.
-```
+```js
 console.trace()
 ```
-
 
 In JavaScript, there is no specification for how `console.*` methods behave. Each environment adds its own methods and behavior.
 
@@ -75,11 +62,12 @@ In addition to this, `console.*` can be used to pipe information to `stdout` in 
 
 **It is considered best practice to not include any `console.*` methods in production code.**
 
+> Note: as with all the skills in the app, if you want to access more advanced or specific content at any time, **feel free to use the *Skill Map* tab** to jump to the workouts most relevant for you.
+
 ---
 ## Practice
 
 Which of the following is the correct method for outputting information to the console? ???
-
 
 * `console.log();`
 * `console.write();`
@@ -94,7 +82,6 @@ Log a message in the `console`:
 ???.???("my message");
 ```
 
-
 * `console`
 * `log`
 * `print`
@@ -102,4 +89,3 @@ Log a message in the `console`:
 * `output`
 * `show`
 * `warn`
- 
