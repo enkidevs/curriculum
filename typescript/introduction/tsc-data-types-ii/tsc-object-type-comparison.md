@@ -1,6 +1,5 @@
 ---
-autho
-r: kapnobatai136
+author: kapnobatai136
 
 type: normal
 
