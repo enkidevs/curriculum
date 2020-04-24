@@ -2,71 +2,60 @@
 author: tommarshall
 
 tags:
-
   - introduction
-
-levels:
-
-  - beginner
 
 type: normal
 
 category: must-know
 
-inAlgoPool: false
 aspects:
   - introduction
-standards:
-  python.native-types-operations.2: 10
 
 links: 
-  
-  - '[Operator Precedence in Python](https://docs.python.org/3/reference/expressions.html#operator-precedence){documentation}'
-
+  - '[Operator Precedence](https://docs.python.org/3/reference/expressions.html#operator-precedence){documentation}'
 
 ---
 
-# More Complex Arithmetic Operators
+# Complex Operators
 
 ---
 ## Content
 
-Python supports the `**` arithmetic operator, which multiplies a number to the power of another.
+Python uses the exponent operator, `**`, to multiply a number *to the power* of another.
 
-Example 1:
-```python
+```bash
 >>> 2 ** 4
-16
+#16
 ```
-This code executes as 2 to the power of 4.
 
-Example 2:
-```python
+This code executes 2 to the power of 4.
+
+Here are some other examples:
+
+```bash
 >>> -3 ** 4
-# This is executed as
-# -(3 ** 4) which results in:
--81
+#-81
 >>> 2 ** -2
-0.25
+#0.25
 ```
 
-The first expression executes as `-(3 ** 4)` and the second one as `2 ** (-2)`. Even though the precedence of operators `-` and `+` is higher than that of the exponentiation operator `**`, the operator `**` binds less tightly than the operator on its right and more tightly than the operator on its left. Thus, the unary operator `-` of `-3` is executed on the result of the expression `3 ** 4`.
+Note how the `**` operator is executed before the `-` in the first example, so the calculation is `-(3**4)`. More about this order of execution in the next insight!
 
-Python also supports the modulo operator, `%`, which is used to return the integer remainder of a division sum.
+Python uses the modulus operator, `%`, to return the *remainder of a division*.
 
-Here's this operator in use:
-```python
+```bash
 >>> 14 % 3
-2
+#2
 ```
-14 divided by 3 equals 4 remainder 2. The modulo operator returns the remainder, 2.
+
+14 divided by 3 equals 4 remainder 2. The modulus operator returns this remainder 2.
 
 ---
 ## Practice
 
 Complete the following code snippet to execute 3 to the power of 4:
 
-```
+```bash
 3 ??? 4
 ```
  
@@ -80,9 +69,10 @@ Complete the following code snippet to execute 3 to the power of 4:
 
 What does the following code snippet return:
 
-```
+```bash
 11 % 4
 ```
+
 ???
 
 * `3`
