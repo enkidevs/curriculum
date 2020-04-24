@@ -15,7 +15,7 @@ category: how to
 
 ---
 
-# $ceil and $floor
+# `$ceil` and `$floor`
 
 ---
 ## Content
