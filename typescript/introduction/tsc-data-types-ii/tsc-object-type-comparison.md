@@ -102,7 +102,7 @@ All values besides `null` and `undefined` are a form of object in JavaScript. A 
 
 ```js
 // use anything as x
-x = ???
+x = 'anything'
 // if this throws, then 
 // its not an object
 (x).enki
