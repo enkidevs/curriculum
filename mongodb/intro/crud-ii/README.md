@@ -1,4 +1,4 @@
-name: CRUD II
+name: Save, Project & Rename
 
 description: Learn how to save, project and rename collections and documents.
 
