@@ -1,11 +1,10 @@
-name: Variables and functions
+name: Functions
 
-description: Learn how to create, initialize and convert variables of different types.
+description: Learn how to use exported names and how to create and use different functions. 
 
 insights:
-  - variables
-  - initialization
-  - shorthand-for-defining-variables
-  - data-types
-  - type-conversion
-  - constants
+  - exported-names
+  - functions
+  - functions-ii
+  - functions-iii
+  - multiple-results
