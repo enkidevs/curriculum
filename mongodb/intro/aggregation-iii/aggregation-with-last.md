@@ -15,7 +15,7 @@ category: how to
 
 ---
 
-# $last
+# `$last`
 
 ---
 ## Content
