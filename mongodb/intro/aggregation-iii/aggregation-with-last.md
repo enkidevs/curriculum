@@ -15,7 +15,7 @@ category: how to
 
 ---
 
-# Aggregation With Accumulators ($last)
+# $last
 
 ---
 ## Content
