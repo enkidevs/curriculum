@@ -17,7 +17,7 @@ aspects:
 
 ### Any
 
-As you might've already guessed, you can use type when you want to opt-out of type checking.
+If we want to opt-out of type checking, we can use the `any` type:
 
 ```ts
 let anythingReally: any = 1;
@@ -25,11 +25,17 @@ anythingReally = 'one';
 anythingReally = [true, false];
 ```
 
-Use this type when you are unsure of the incoming data shape, or when transitioning from JavaScript to TypeScript.
+`any` means that the value can have any type and is useful when you are unsure of the type of the data you're working with.
+
+Do not use `any` if you can apply a more specific type because allowing any type defeats the purpose of type-checking.
 
 ### Void
 
-Opposite of `any`, meaning that the data **shouldn't** have any type at all. This is usually used as the return type of a function. Don't worry if this is a bit confusing now, we will explain it in the following missions. For now, know that you can only assign `undefined` as a value if the type is `void`[1]:
+`void` is the opposite of `any`. It means that the data **shouldn't** have any type at all. 
+
+This is usually used as the return type of a function that does not return anything. 
+
+Don't worry if this is a bit confusing now, we'll explain it in future workouts. For now, know that you can only assign `undefined` as a value if the type is `void`[1]:
 
 ```ts
 let nothing: void = undefined;
@@ -37,7 +43,7 @@ let nothing: void = undefined;
 
 ### Null & Undefined
 
-Both have their own types in TS, but they are quite useless on their own.
+Both have their own types in TS:
 
 ```ts
 let zilch: undefined = undefined;

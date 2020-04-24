@@ -17,7 +17,7 @@ aspects:
 
 ### String
 
-String is just the programming word for text. For a value to be a string, it must be enclosed in either single (`'`) or double (`"`) quotation marks.
+A *string* is just a data type used to represent a sequence of characters. For a value to be a string, it must be enclosed in either single (`'`) or double (`"`) quotation marks.
 
 ```ts
 let brand: string = 'Samsung';

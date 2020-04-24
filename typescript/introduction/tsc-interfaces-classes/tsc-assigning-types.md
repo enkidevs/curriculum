@@ -25,9 +25,11 @@ hello('Enki'); // Hello Enki
 hello(5); // TypeError
 ```
 
-In this example, the `who` argument always has to be a string, and the `hello` function can't return anything (from the `function hello(): void` syntax). Notice that when we try to call the function using a number, we get a type error. The same would happen if we tried to include a `return` statement in the function.
+In this example, the `who` argument always has to be a string, and the `hello` function can't return anything (because the return type is `void`). 
 
-What we haven't showed you is how TypeScript can infer a variable's type:
+Notice that when we try to call the function using a number, we get a type error. The same would happen if we tried to include a `return` statement in the function.
+
+If you don't declare a type, TypeScript will guess (infer) one for you:
 
 ```ts
 let aNumber = 5;
@@ -35,23 +37,23 @@ aNumber = '5';
 // error TS2322: Type '"5"' is not assignable to type 'number'.
 ```
 
-Lastly, if you define two arguments for a function, TypeScript will throw an error if less than two arguments are passed:
+TypeScript will also throw an error if the wrong number of arguments is passed in:
 
 ```ts
 function hello(who: string, what: string): void {
-  console.log('Helo ' + who);
+  console.log('Hello ' + who);
 }
 
 hello('Enki');
 // error TS2554: Expected 2 arguments, but got 1.
 ```
 
-There is a way to define optional arguments, but this will be explained in the following mission.
+There is a way to define optional arguments, but this will be explained in the next workout.
 
 ---
 ## Practice
 
-Which of the following is correct?
+Which of the following code snippets do not contain a type error?
 
 ```ts
 // a
@@ -77,7 +79,7 @@ arr.push(5);
 ---
 ## Revision
 
-Is this valid?
+Will TypeScript report an error for `Enki`?
 
 ```ts
 function Enki(): number {
@@ -87,5 +89,5 @@ function Enki(): number {
 
 ???
 
-* No.
-* Yes.
+* Yes
+* No

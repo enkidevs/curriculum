@@ -15,17 +15,23 @@ aspects:
 ---
 ## Content
 
-Along with `let` also came `const`. The only difference between `const` and `let` is that the latter can have its value reassigned:
+The only difference between `const` and `let` is that the variables declared with `const` cannot be reassigned:
 
 ```ts
+// because its declared with
+// let, reassigning a to a
+// new value is fine
 let a: number = 1;
 a = 2;
 
+// on the other hand, b is
+// declared with const and
+// cannot be reassigned
 const b: string = 'enki';
 b = 'foobar'; // Error
 ```
 
-Although values defined with `const` can't be reassigned, that doesn't mean that it is immutable. This type of declaration creates a read-only reference to a value. If the value is an array, it can be mutated without a problem.
+Although variables declared with `const` can't be reassigned, that doesn't mean that the values they hold are constants and can't be changed.
 
 ```ts
 const c: number[] = [
@@ -36,14 +42,9 @@ const c: number[] = [
 c.push(4);
 console.log(c);
 // [1, 2, 3, 4]
-
-const d: {a: number} = {
-  a: 1
-};
-d.a = 2;
-console.log(d);
-// {a: 2}
 ```
+
+When using `const`, the variable name is constant once declared but not the value.
 
 ---
 ## Practice
@@ -61,11 +62,11 @@ b = '13';
 
 // c
 const c: number[] = [1, 2];
-b.push(3);
+c.push(3);
 
 // d
 const d: number = 1;
-b = 2;
+d = 2;
 ```
 
 ???
@@ -78,9 +79,9 @@ b = 2;
 ---
 ## Revision
 
-Defining a variable using `const` creates a ???-only reference to the value, but that doesn't make the value ???.
+The value of a variable declared with `const` can be changed.
 
-* read
-* immutable
-* write
-* mutable
+???
+
+* True
+* False

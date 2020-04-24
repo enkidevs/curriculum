@@ -1,6 +1,6 @@
 name: Introduction
 
-description: Get accustomed to TypeScript.
+description: Introduction, features, and more.
 
 core: true
 
@@ -9,4 +9,4 @@ sections:
     - intro-typescript
     - tsc-data-types
     - tsc-variable-declaration
-    - tsc-basics
+    - tsc-interfaces-classes

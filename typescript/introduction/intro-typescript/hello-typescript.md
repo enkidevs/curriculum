@@ -18,7 +18,7 @@ links:
 ---
 ## Content
 
-We have promised you some TypeScript code, and here it is:
+We promised you some TypeScript code, and here it is:
 
 ```ts
 // hello.ts
@@ -26,44 +26,54 @@ const hello = (name: string) => {
   console.log(`Hello ${name}!`)
 }
 
-let myName = 'Andrei';
-hello(myName);
+hello('Andrei');
 ```
 
-When running `tsc hello.ts` in the shell, a new file `hello.js` is created, and these are its contents:
+When running `tsc hello.ts` in the shell, TypeScript code is converted (compiled) into JavaScript and a new file `hello.js` is created:
 
 ```js
 // hello.js
 var hello = function (name) {
     console.log("Hello " + name + "!");
 };
-var myName = 'Andrei';
-hello(myName);
+hello('Andrei');
 ```
 
-Depending on your application, this might be enough or you might want to run the `.js` file using node. In the latter case, instead of running two separate commands, you can install the [ts-node package](https://www.npmjs.com/package/ts-node) and let it do the work for you.
+Once you have the JavaScript code, you can run it wherever JavaScript can run (any Node.js or browser environment).
 
-With this package installed, you can run `ts-node hello.ts` and it will compile the TypeScript code, and run the resulting JavaScript file.
+To compile TypeScript to JavaScript and run the generated JavaScript as a single step, we can use the [ts-node package](https://www.npmjs.com/package/ts-node).
+
+```sh
+# convert hello.ts from
+# Typescript to JavaScript
+# and run the created JavaScript
+ts-node hello.ts
+```
 
 ---
 ## Practice
 
-To **compile** TypeScript code, you have to run the following command:
+To **compile** a TypeScript file called `enki.ts` into a JavaScript `enki.js`, you have to run the following command:
 
 ```bash
 ??? file.ts
 ```
 
-To **compile and run** a JavaScript file, you have to run the following commands:
+* tsc
+* ts-node
+* ts
+* typescript
+
+---
+## Revision
+
+To **compile and run** a TypeScript file called `enki.ts`, you have to run the following commands:
 
 ```bash
-tsc file.ts
-??? ???
+??? enki.ts
 ```
 
-* tsc
-* node
-* file.js
-* ts
 * ts-node
-* file.ts
+* ts
+* typescript
+* tsc

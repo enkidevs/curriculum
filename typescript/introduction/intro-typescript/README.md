@@ -1,9 +1,9 @@
 name: Intro to TypeScript
 
-description: What is TypeScript and how can it help me?
+description: What's TypeScript and how can it help me?
 
 insights:
   - what-is-typescript
-  - how-can-typescript-help-me
+  - why-typescript
   - typescript-dependencies
   - hello-typescript

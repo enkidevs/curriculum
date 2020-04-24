@@ -10,18 +10,20 @@ aspects:
 
 ---
 
-# TypeScript Dependencies
+# Get started with TypeScript
 
 ---
 ## Content
 
-Installing TypeScript is as easy as writing a line of code. Using Node's package manager, all you'd have to type is:
+Installing TypeScript is as easy as writing a line of code. Using Node's package manager, all you have to type is:
 
 ```bash
 npm install -g typescript
 ```
 
-The above command will install TypeScript as a global package and you can start using it anywhere. Whenever you write TypeScript code, this is have to go in a `.ts` file.
+The command above will install TypeScript as a global package and you can start using it anywhere. A file containing TypeScript code ends in `.ts`.
+
+In fact, since any valid JavaScript is also TypeScript (types are optional), to convert a JavaScript file to TypeScript, we can just replace `.js` with `.ts`[1]:
 
 ```ts
 // enki.ts
@@ -30,15 +32,13 @@ let name = 'Enki';
 console.log(`${name} is cool!`);
 ```
 
-Note: this is plain JS code; in the following insight we will take a look at some TS code.
-
-Because TypeScript is just a wrapper, all the code needs to be compiled to JavaScript:
+The conversion back from TypeScript to JavaScript has an extra step (called "compilation"). To get JavaScript, we first have to remove any TypeScript-specific code that isn't valid in JavaScript. This step is done with the TypeScript Compiler (called `tsc`):
 
 ```bash
 tsc enki.ts
 ```
 
-The result will be:
+This will compile a TypeScript file `enki.ts` into a JavaScript file `enki.js`:
 
 ```js
 // enki.js
@@ -50,12 +50,12 @@ console.log(`${name} is cool!`);
 ---
 ## Practice
 
-TypeScript code is always compiled to ???.
+The technical term for converting TypeScript code into JavaScript is ???.
 
-* JavaScript
-* Python
-* Angular
-* Go
+* compilation
+* conversion
+* transformation
+* manipulation
 
 ---
 ## Revision
@@ -69,4 +69,10 @@ To compile a TypeScript file, you would write:
 * tsc
 * ts
 * jsc
-* to tsc
+* typescript
+
+---
+## Footnotes
+
+[1:Interoperability]
+This is a very important feature of TypeScript. In fact, the #1 reason for its popularity is probably this interoperability with JavaScript and the fact that it's this easy to get started.
