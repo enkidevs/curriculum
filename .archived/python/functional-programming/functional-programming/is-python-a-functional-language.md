@@ -1,4 +1,4 @@
-﻿---
+---
 author: stefkn
 
 levels:
