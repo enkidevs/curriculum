@@ -7,7 +7,8 @@ insights:
   - why-functional-programming
   - why-functional-programming-ii
   - why-functional-programming-iii
-
+  - why-functional-programming-iv
+  
 exercises:
   - py-practice-functional-features2
   - py-practice-functional-imperative
