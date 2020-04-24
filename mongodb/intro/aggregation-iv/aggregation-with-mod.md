@@ -15,7 +15,7 @@ category: how to
 
 ---
 
-# $mod
+# `$mod`
 
 ---
 ## Content
