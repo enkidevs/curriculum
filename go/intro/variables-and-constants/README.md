@@ -1,4 +1,4 @@
-name: Variables and functions
+name: Variables and constants
 
 description: Learn how to create, initialize and convert variables of different types.
 
