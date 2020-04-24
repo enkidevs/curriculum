@@ -1,6 +1,6 @@
 name: Features III
 
-description: See what git has to offer!
+description: Learn to use the exiftool, what are hooks, how to use them, and more.
 
 insights:
   - sharing-data-by-bundling
