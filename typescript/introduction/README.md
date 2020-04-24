@@ -7,6 +7,7 @@ core: true
 sections:
   '0':
     - intro-typescript
-    - tsc-data-types
+    - tsc-data-types-i
+    - tsc-data-types-ii
     - tsc-variable-declaration
     - tsc-interfaces-classes
