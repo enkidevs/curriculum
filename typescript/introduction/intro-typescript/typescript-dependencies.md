@@ -15,7 +15,7 @@ aspects:
 ---
 ## Content
 
-Installing TypeScript is as easy as writing a line of code. Using Node's package manager, all you have to type is:
+Installing TypeScript is as easy as writing a line of code. Using NPM, all you have to type is:
 
 ```bash
 npm install -g typescript

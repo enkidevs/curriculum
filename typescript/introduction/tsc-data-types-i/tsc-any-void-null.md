@@ -81,6 +81,7 @@ Using the `any` type is usually not useful because it defeats the purpose of typ
 
 * true
 * false
+
 ---
 ## Footnotes
 

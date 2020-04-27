@@ -40,7 +40,7 @@ If you want to store more than one type, you can use a union:
 
 ```ts
 // array of strings and numbers
-let mixedArray: Array<string|number>[] = [
+let mixedArray: Array<string|number> = [
   1, 
   'one', 
   3, 

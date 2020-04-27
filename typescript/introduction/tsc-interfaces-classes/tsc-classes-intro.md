@@ -26,10 +26,10 @@ To define a class, TypeScript gives us the `class` keyword. To create an instanc
 class Animal {
   name: string;
   constructor(animalName: string) {
-    this.greeting = animalName;
+    this.name = animalName;
   }
   sayHi() {
-    console.log("Hi, I'm a " + this.greeting);
+    console.log("Hi, I'm a " + this.name);
   }
 }
 

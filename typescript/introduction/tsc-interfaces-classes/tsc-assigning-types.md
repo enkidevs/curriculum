@@ -27,7 +27,7 @@ hello(5); // TypeError
 
 In this example, the `who` argument always has to be a string, and the `hello` function can't return anything (because the return type is `void`). 
 
-Notice that when we try to call the function using a number, we get a type error. The same would happen if we tried to include a `return` statement in the function.
+Notice that when we try to call the function using a number, we get a type error. The same would happen if we tried to include a `return` statement in the function as the return type is specified as `void`.
 
 If you don't declare a type, TypeScript will guess (infer) one for you:
 

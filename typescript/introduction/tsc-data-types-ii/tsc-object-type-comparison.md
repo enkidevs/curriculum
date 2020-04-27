@@ -78,7 +78,7 @@ const c: { enki: string } = { enki: 'fun' };
 
 ???
 
-* none of them
+* None of them
 * b
 * a
 * c
