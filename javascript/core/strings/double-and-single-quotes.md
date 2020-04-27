@@ -1,49 +1,34 @@
 ---
 author: fsites
 
-levels:
-
-  - basic
-
-  - advanced
-
-  - medium
-
 type: normal
 
 category: best practice
 
-standards:
-
-  javascript.javascript-syntax.2: 10
-
 tags:
-
   - obscura
-
   - introduction
-
 
 aspects:
   - obscura
   - introduction
 
-
 ---
 
-# Double and single quotes
+# Double & Single Quotes
 
 ---
 ## Content
-There are different types of values you can store in variables. One type is called a string, which is
-a sequence of text. To create a string add either single or double quotes around the text.
 
-Generally, double and single quotes are handled the same way.
+There are different types of values you can store in variables. One such type is called string, and it represents a sequence of text. 
 
+To create a string add either single or double quotes around the text. Generally, double and single quotes are handled the same way.
+
+```js
+let str1 = 'I\'m a string.';
+let str2 = "I'm a string.";
 ```
-str1 = 'I\'m a string.';
-str2 = "I'm a string.";
-```
+
 `str1` and `str2` output the same string but `str2` is easier to read since it doesn't require an escape character in `I'm`.
 
 JSON standards *require* strings to be double quoted. For consistency, some developers prefer to stick to double quotes on all strings.

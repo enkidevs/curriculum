@@ -14,6 +14,7 @@ sections:
   '1':
     - images
     - links
+    - links-ii
     - lists
     - media
     - forms
@@ -21,8 +22,10 @@ sections:
     - tables
   '2':
     - meta-elements
+    - meta-elements-ii
     - sectioning-elements
     - formatting-elements
+    - meter-and-progress
     - formatting-text-elements
     - formatting-text-elements-ii
     - forms-iii
