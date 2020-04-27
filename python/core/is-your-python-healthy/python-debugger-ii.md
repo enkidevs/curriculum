@@ -93,22 +93,15 @@ Finally, whenever you want to leave `pdb` console, type `quit` or `exit`.
 ---
 ## Practice
 
-What is the error this snippet will throw?
-```py
-name = input('What\'s your name?\n')
-def interaction()
-  print(name)
-  my_name = 'Seba'
-  if name is my_name:
-    print("We have the same name!")
-```
-???
+
+The `???` command will **iterate** through the loops showing exactly what the **loop** is doing.
+The `???` command executes **statements**, without showing everything that happened to evaluate the call.
+The `???` command has **optional arguments** that must be two `int` values that define the range of lines the user wants.
 
 
-* SyntaxError: invalid syntax
-* ZeroDivisionError: division by 0
-* The code will run with no errors
-* EOFError
+* step
+* next
+* list()
 
 ---
 ## Revision
@@ -116,7 +109,6 @@ def interaction()
 When debugging a python file with `pdb`, which command will show the step-by-step process?
 
 ???
-
 
 * `step`
 * `next`

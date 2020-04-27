@@ -27,7 +27,7 @@ aspects:
 ---
 ## Content
 
-Ethereum found itself in a rough spot after theDAO heist: the initial soft-fork that froze the thief's wallet was followed by a hard-fork that modified the smart contract and allowed investors to withdraw their ETH.
+Ethereum found itself in a rough spot after the DAO heist: the initial soft-fork that froze the thief's wallet was followed by a hard-fork that modified the smart contract and allowed investors to withdraw their ETH.
              	
 But a part of the community was not in agreement with the hard-fork. They strongly believed that the blockchain should be immutable unless attacked and no one should tamper with it, not even the majority.
              	

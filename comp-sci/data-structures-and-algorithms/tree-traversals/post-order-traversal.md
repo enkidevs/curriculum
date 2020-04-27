@@ -44,7 +44,7 @@ Its implementation looks like this:
 ![postorder](https://img.enkipro.com/333200d1ce66957302d8b7f18c707187.png)
 
 With the output:
-```text
+```plain-text
 D, C, E, B, G, H, F, A
 ```
 
@@ -93,5 +93,3 @@ D     F    E
 * A,B,D,F,C,E
 * D,B,F,A,C,E
 * A,B,C,D,E,F
-
-
