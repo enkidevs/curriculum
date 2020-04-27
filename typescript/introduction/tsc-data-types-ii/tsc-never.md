@@ -15,7 +15,7 @@ aspects:
 ---
 ## Content
 
-This type (`never`) is used for types of values that **never** return. Let's take a look at these examples:
+The type `never` is used to represent value that **never** occur. Let's take a look at a few examples:
 
 ```ts
 function neverEnding(): never {
@@ -25,6 +25,15 @@ function neverEnding(): never {
 function throwErrorMessage(message: string): never {
   throw new Error(message);
 }
+
+function impossibleValue(value) {
+  if (
+    typeof value === "string" &&
+    typeof value === "number"
+  ) {
+    value; // type "never"
+  }
+}
 ```
 
 Note that in the first example (`neverEnding` function), that's how to assign a return type to a function. We'll go into more detail in a workout later on.
@@ -32,8 +41,9 @@ Note that in the first example (`neverEnding` function), that's how to assign a 
 ---
 ## Practice
 
-The `never` type is used for values that never ???.
+The `never` type is used for values that ???.
 
-* return
-* compile
-* log
+* never occur
+* are undefined
+* are falsy
+* never return

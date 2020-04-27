@@ -17,7 +17,7 @@ aspects:
 
 TypeScript has 3 ways to represent an object with slightly different behaviors.
 
-Since almost everything in JavaScript is an object[1], the `Object` type can be used to represent any type that is considered to contain a value:
+Since any defined value in JavaScript is an object[1], the `Object` type can be used to represent any type that is considered to contain a value:
 
 ```ts
 let num: Object = 3;
@@ -45,10 +45,22 @@ let n: object = null; // error
 let u: object = undefined; // error
 ```
 
-The type `{}` is used to represent an empty JavaScript object.
+The type `{}` is used to represent a JavaScript object with a specific shape.
 
 ```ts
-const empty: {} = {};
+let empty: {} = {};
+
+const Enki: {
+  job: string,
+  isFun: boolean,
+} = { job: "teach", isFun: true };
+```
+
+Assigning values that aren't part of the shape will cause errors:
+
+```ts
+empty.name = 'oops'; // Property 'name' does not exist on type '{}'
+Enki.age = 5; // Property 'age' does not exist on type '{ job: string; isFun: boolean; }'
 ```
 
 ---
@@ -57,19 +69,19 @@ const empty: {} = {};
 Which statement will throw an error?
 
 ```ts
-const a: Object = { enki: true };
+const a: Object = { enki: 'fun' };
 
-const b: object = { enki: true };
+const b: object = { enki: 'fun' };
 
-const c: {} = { enki: true };
+const c: { enki: string } = { enki: 'fun' };
 ```
 
 ???
 
+* none of them
 * b
 * a
 * c
-* d
 
 ---
 ## Revision
@@ -98,7 +110,7 @@ const d: Object = { enki: true };
 
 [1:Objects]
 
-All values besides `null` and `undefined` are a form of object in JavaScript. A quick test to verify if something is an object is to try and access a property on it and seeing if it errors.
+All values besides `null` and `undefined` are a form of object in JavaScript. A quick test to verify if something is an object is to try and access a property on it and see if it errors.
 
 ```js
 // use anything as x

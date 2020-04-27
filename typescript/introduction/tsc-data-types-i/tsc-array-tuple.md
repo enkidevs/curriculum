@@ -54,8 +54,8 @@ let mixedArray: Array<string|number>[] = [
 Tuples are like an array, but they can only take in a fixed number of elements with known types:
 
 ```ts
-// myTyple has one number at the first position
-// and one boolean at the second position
+// myTyple has a number at the first position
+// and a boolean at the second position
 let myTuple: [number, boolean] = [
   1, 
   true

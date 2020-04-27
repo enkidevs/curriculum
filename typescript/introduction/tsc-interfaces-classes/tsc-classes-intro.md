@@ -17,7 +17,7 @@ aspects:
 
 Classes represent the building blocks of the style of programming called *object-oriented (class-based) programming*, or OOP[1]. 
 
-The idea behind it is to organize sections of the code into definitions of entities that exist in your program (an "Animal", a "GamePlayer", a "User", etc). Then you can use these definitions, called classes, to *create (or instantiate)* those entities wherever you'd like. These instances of classes are called objects.
+The idea behind it is to organize related values and behaviors into definitions of entities that exist in your program (an "Animal", a "GamePlayer", a "User", etc). Then you can use these definitions, called classes, to *create (or instantiate)* those entities wherever you'd like. These instances of classes are called objects.
 
 To define a class, TypeScript gives us the `class` keyword. To create an instance of that class we can use the `new` keyword. Let's look at an example:
 

@@ -28,7 +28,9 @@ let nono = str - 3;
 // error because we're subtracting a string
 ```
 
-We can define types for any value (think variable) in TypeScript code. Let's take a look at the `hello.ts` file we wrote in the first workout:
+> *Note*: Adding types is optional and up to the programmer since any JavaScript code is also valid TypeScript.
+
+We can define types for any value in TypeScript code. Let's take a look at the `hello.ts` file we wrote in the first workout:
 
 ```ts
 // hello.ts

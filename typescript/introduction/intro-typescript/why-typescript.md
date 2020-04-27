@@ -29,6 +29,7 @@ It also makes the development faster because you can catch problems early on.
 
 Since the code doesn't need to run to be type-checked (remember, static types), your editor can integrate with TypeScript and underline in red any type mismatches in the code as you're writing it. This means you write safer code from the start.
 
+![ts-safer-code](https://img.enkipro.com/1dca4c660ac1affdf9e903db249599ef.png)
 Since TypeScript is introduced as another layer on top of JavaScript, it also allows us to use the latest JavaScript features and handles the conversion for old platforms behind the scenes.
 
 ---

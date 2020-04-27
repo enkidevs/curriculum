@@ -67,7 +67,7 @@ To **compile** a TypeScript file called `enki.ts` into a JavaScript `enki.js`, y
 ---
 ## Revision
 
-To **compile and run** a TypeScript file called `enki.ts`, you have to run the following commands:
+To **compile and run** a TypeScript file called `enki.ts`, you can use the following NPM package:
 
 ```bash
 ??? enki.ts

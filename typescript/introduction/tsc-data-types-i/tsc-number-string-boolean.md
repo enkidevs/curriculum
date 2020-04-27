@@ -17,11 +17,12 @@ aspects:
 
 ### String
 
-A *string* is just a data type used to represent a sequence of characters. For a value to be a string, it must be enclosed in either single (`'`) or double (`"`) quotation marks.
+A *string* is a data type that represents a sequence of characters. For a value to be a string, it must be enclosed in single (`'`) or double (`"`) quotation marks or back-ticks `` ` ``
 
 ```ts
 let brand: string = 'Samsung';
 brand = "Apple";
+brand = `Enki`;
 ```
 
 ### Number

@@ -15,7 +15,9 @@ aspects:
 ---
 ## Content
 
-The main data type that you can use as a collection of values and behaviors is called an *object*.
+In TypeScript, the shape that represents a collection of key-value pairs is an object.
+
+One way to declare a type of an object is with `{}`:
 
 ```ts
 function f(companyObj: { name: string }) {
@@ -27,7 +29,7 @@ const someObject = {
 f(someObject);
 ```
 
-The function will verify that `companyObj` has a property called `name` of type `string`. 
+TypeScript will verify that `companyObj` has a property called `name` of type `string`. 
 
 ```ts
 function f(companyObj: { name: string }) {

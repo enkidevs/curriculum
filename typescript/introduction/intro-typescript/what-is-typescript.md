@@ -23,6 +23,7 @@ Because of the high adoption rate of JavaScript, many tools (such as Angular, Re
 
 TypeScript is another creation meant to put the future of JavaScript in the hands of developers, and it's actually a **superset of JavaScript**. What that means is that TypeScript has all the functionality of JavaScript, but *adds even more*.
 
+![typescript-is-superset-of-javascript](https://img.enkipro.com/074c0352be386e58bbdd697ed8bff427.png)
 ---
 ## Practice
 
@@ -37,8 +38,7 @@ Any valid JavaScript is also valid TypeScript.
 ---
 ## Revision
 
-TypeScript is a ??? of JavaScript.
+All features of JavaScript are included in TypeScript but not all features of TypeScript are included in JavaScript.
 
-* superset
-* subset
-* extraset
+* true
+* false

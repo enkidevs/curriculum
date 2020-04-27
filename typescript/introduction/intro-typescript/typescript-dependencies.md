@@ -74,5 +74,5 @@ To compile a TypeScript file, you would write:
 ---
 ## Footnotes
 
-[1:Interoperability]
-This is a very important feature of TypeScript. In fact, the #1 reason for its popularity is probably this interoperability with JavaScript and the fact that it's this easy to get started.
+[1:Interoperability with JavaScript]
+This is a very important feature of TypeScript. In fact, a major reason for TypeScript's popularity is how easy it is for JavaScript developers to start using it.

@@ -73,6 +73,15 @@ let d: undefined = undefined;
 * d
 
 ---
+## Revision
+
+Using the `any` type is usually not useful because it defeats the purpose of type-checking since it allows all values.
+
+???
+
+* true
+* false
+---
 ## Footnotes
 
 [1:Exception]
