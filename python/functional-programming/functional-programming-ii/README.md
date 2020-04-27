@@ -3,7 +3,7 @@ name: Functional Programming II
 description: Functions, procedures, lamba functions and more.
 
 insights:
-  - is-python-a-functional-language
+  - is-python-functional-language
   - functions-vs-procedures
   - functional-particularities-of-python
   - lambda-functions
