@@ -29,19 +29,6 @@ const someObject = {
 f(someObject);
 ```
 
-TypeScript will verify that `companyObj` has a property called `name` of type `string`. 
-
-```ts
-function f(companyObj: { name: string }) {
-  console.log(companyObj.name);
-}
-const someObject = {
-  name: "Enki",
-  product: "EnkiApp" // ignored without an error
-};
-f(someObject);
-```
-
 It won't care about the order of the properties or if any additional ones exist.
 
 If we wanted to reuse the type of `companyObj` at multiple places in our program, we can extract it into an interface:

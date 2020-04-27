@@ -29,7 +29,7 @@ let n: Object = null; // error
 let u: Object = undefined; // error
 ```
 
-This often leads to confusion. Usually by "object" we only mean collections of values, whether it be maps, sets, arrays, etc or plain objects, but not primitive values such as numbers or strings.
+This often leads to confusion. Usually by "object" we only mean collections of values (e.g. maps, sets, arrays, plain objects), but not primitive values[2] (e.g. numbers or strings).
 
 This is where the `object` type comes into play.
 
@@ -134,3 +134,13 @@ Only these throw an error:
 (undefined).enki // Uncaught TypeError: Cannot read property 'property' of undefined
 (null).enki // Uncaught TypeError: Cannot read property 'property' of null
 ```
+
+[2:Primitive Values]
+The following types are considered to be primitive:
+- `number`
+- `string`
+- `boolean`
+- `bigint`
+- `symbol`
+- `null`
+- `undefined`

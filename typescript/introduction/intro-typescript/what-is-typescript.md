@@ -40,5 +40,7 @@ Any valid JavaScript is also valid TypeScript.
 
 All features of JavaScript are included in TypeScript but not all features of TypeScript are included in JavaScript.
 
-* true
-* false
+???
+
+* True.
+* False.
