@@ -1,9 +1,9 @@
 name: Features IV
 
-description: Learn how to create a global git commit hook, how to use tags for version control, revision tools and more.
+description: Use tags for version control, revision tools and more.
 
 insights:
-  - create-a-global-git-commit-hook
+  - sharing-data-by-bundling
   - using-tags-for-version-control
   - pushing-tags-to-a-server
   - revision-tools

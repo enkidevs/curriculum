@@ -1,6 +1,6 @@
 name: Features II
 
-description: Learn reset vs revert, what git blame is, dates and more.
+description: Reset, revert, git blame, dates and more.
 
 insights:
   - reset-vs-revert
