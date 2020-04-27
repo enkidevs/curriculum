@@ -15,6 +15,7 @@ sections:
     - objects
   '1':
     - types-ii
+    - strings
     - strings-ii
     - numbers
     - array-methods

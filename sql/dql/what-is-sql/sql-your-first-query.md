@@ -30,6 +30,8 @@ Enough talk! From the next workout, things will get exciting and practical.
 
 Pretty much all the insights from now on will teach you how to **build more complicated and useful queries**.
 
+> Note: as with all the skills in the app, if you want to access more advanced or specific content at any time, **feel free to use the *Skill Map* tab** to jump to the workouts most relevant for you.
+
 ---
 ## Practice
 

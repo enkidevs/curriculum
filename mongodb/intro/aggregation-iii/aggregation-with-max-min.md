@@ -13,7 +13,7 @@ category: how to
 
 ---
 
-# Aggregation With Accumulators (`$max` & `$min`)
+# `$max` & `$min`
 
 ---
 ## Content

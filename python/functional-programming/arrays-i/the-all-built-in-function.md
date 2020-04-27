@@ -1,29 +1,16 @@
 ---
 author: stefkn
 
-levels:
-
-  - beginner
-
-  - basic
-
-  - medium
-
 type: normal
+
 aspects:
   - introduction
   - workout
   - deep
 category: must-know
 
-standards:
-  python.use-iteration-protocol.1: 10
-
 links:
-
   - '[Python 3 Documentation - all](https://docs.python.org/3.3/library/functions.html#all){website}'
-  - '[Check truthiness in Python](http://csparpa.github.io/blog/2015/02/python-truthiness.html){website}'
-
 
 ---
 

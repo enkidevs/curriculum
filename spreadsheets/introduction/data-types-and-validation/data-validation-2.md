@@ -21,11 +21,11 @@ category: must-know
 
 Now that you know what data validation is, let's take a look at an example.
 
-We are going to use the `Date` validation for our example, which will give us these options:
+We're going to use the `Date` validation for our example, which will give us these options:
 
 ![date-criteria](https://img.enkipro.com/67f528223b01d5825b9e36d52a60511f.png)
 
-Next, we are going to use the `between` option, which will give us these two fields to input the desired date.
+Next, we're going to use the `between` option, which will give us these two fields to input the desired date:
 
 ![two-dates-image](https://img.enkipro.com/97309a2b386f0f95a331dceba520ca83.png)
 
@@ -35,9 +35,9 @@ The `On invalid` radio button is used to determine if we should reject the input
 
 The `Appearance` checkbox is used to give a hint regarding the validation required. If the box is checked, the message is auto-generated depending on the validation set.
 
-Now we are going to write `Input a date between 1/2000 and 1/2010:` in a cell left of `D11` so that users what to input.
+Now we're going to write `Input a date between 1/2000 and 1/2010:` in a cell left of `D11` so that users what to input.
 
-With our data validation done, this is how our cell looks like when we hover over it:
+With our data validation done, this is what our cell looks like when we hover over it:
 
 ![image-of-appearance](https://img.enkipro.com/2ecbd3b0dbdbad4fa6eb4f318963123a.png)
 

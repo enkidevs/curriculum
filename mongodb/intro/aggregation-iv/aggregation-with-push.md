@@ -15,12 +15,10 @@ category: how to
 
 ---
 
-# Aggregation With Accumulators (`$push`)
+# `$push`
 
 ---
 ## Content
-
-### `$push`
 
 Syntax:
 ```javascript
