@@ -14,20 +14,20 @@ category: must-know
 
 ---
 
-# Data Types
+# Data Types I
 
 ---
 ## Content
 
-With spreadsheet, you will usually find that there are four main data types: `Number`, `Text`, `Logical` and `Error`.
+In spreadsheets, you'll usually find that there are four main data types: `Number`, `Text`, `Logical` and `Error`.
 
 ### Number
 
-This data type contains numerical values such as whole numbers, fractions, as well as dates and times.
+This data type contains numerical values such as whole numbers and fractions, as well as dates and times.
 
-It is important to note that what is displayed is not how the data is saved.
+It's important to note that **what is displayed is not how the data is saved**.
 
-`Dates` are saved starting as a number start from `1` (which corresponds to `31/12/1899`). If you type `2` in a cell that expects a date, the spreadsheet tool will display the date `1/1/1900`.
+`Dates` are saved starting as a number starting from `1` (which corresponds to `31/12/1899`). If you type `2` in a cell that expects a date, the spreadsheet tool will display the date `1/1/1900`.
 
 `Times` are treated as fractions of a day. For example, `1` is `12:00:00AM`, `0.5` is `12:00:00PM` and `0.25` is `06:00:00AM`.
 
