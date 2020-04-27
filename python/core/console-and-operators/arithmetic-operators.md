@@ -58,17 +58,16 @@ When using the `//` operator, you only return the whole number part of the divis
 Choose the correct result of the following expression:
 
 ```bash
->>> 13 // -3 
+>>> 13 // 3 
 # ???
 >>> 4.5 + 4.5 
 # ???
 ```
 
-* `-4`
+* `4`
 * `9.0`
 * `9`
 * `4.0`
-* `-4.0`
 * `TypeError`
 
 ---

@@ -18,7 +18,7 @@ aspects:
 ---
 ## Content
 
-Everything in Python has a data type, or *class* [1]. The ones you need to know about now are:
+Everything in Python has a data type, or *class*[1]. The ones you need to know about now are:
 
 - **Integers** - any whole number. Integers belong to the `int` class:
 
