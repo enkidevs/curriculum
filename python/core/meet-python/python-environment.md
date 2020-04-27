@@ -27,7 +27,7 @@ links:
 
 Python comes pre-installed on most operating systems. It can also be downloaded online for free.
 
-Once installed, you can type `python3`, `python` or `python -i` to run the **Python interpreter** [1] from the shell [2]:
+Once installed, you can type `python3`, `python` or `python -i` to run the **Python interpreter**[1] from the shell[2]:
 
 ```bash
 $ python3
@@ -49,7 +49,7 @@ For example:
 ```bash
 $ python3
 >>> 3 * 4
-#12
+# 12
 >>>
 ```
 

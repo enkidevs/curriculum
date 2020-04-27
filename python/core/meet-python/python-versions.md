@@ -32,7 +32,7 @@ Python 3 is easier for beginners to understand, and is being updated frequently 
 In the latest version of Python, text is printed as follows:
 
 ```python
-print ('Python 3')
+print('Python 3')
 ```
 
 In older versions, text is printed like this:

@@ -23,7 +23,7 @@ links:
 
 Python is a popular *high-level* programming language.
 
-That means it's designed to be easy to read, using English keywords and simple syntax [1].
+That means it's designed to be easy to read, using English keywords and simple syntax[1].
 
 For example, here's how you might check whether a number is greater than another number:
 
