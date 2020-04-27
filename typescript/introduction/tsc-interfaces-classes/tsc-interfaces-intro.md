@@ -46,8 +46,28 @@ function g(otherCompanyObj: Company) {
   // ...
 }
 ```
+Now both `f` and `g` expect the same shape as their argument.
 
-This is just a short introduction to interfaces, with future workouts going into more details.
+Besides allowing us to define the shape of an object, interfaces let us declare properties as optional or read only:
+
+```ts
+interface Enki {
+  // an optional comment
+  comment?: string;
+  // a read only url
+  readonly url: string;
+}
+
+let e: Enki = {
+  // we are only adding the url
+  // no need to add a comment
+  // because it's optional
+  url: 'enki.com'
+}
+
+// cannot write to a readonly url
+e.url = 'notallowed.com'; // Cannot assign to 'url' because it is a read-only property.
+```
 
 ---
 ## Practice
