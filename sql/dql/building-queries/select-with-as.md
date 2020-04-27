@@ -82,7 +82,6 @@ FROM move
 * AS 'pw'
 * called 'Power
 * `WHEN accuracy > 100`
-* `WHERE accuracy > 100`
 * `IF accuracy > 100`
 
 ---
