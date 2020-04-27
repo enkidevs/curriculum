@@ -73,7 +73,7 @@ A variable is a ??? for ???.
 * function
 * values
 
---
+---
 ## Footnotes
 
 [1:Snake case]
