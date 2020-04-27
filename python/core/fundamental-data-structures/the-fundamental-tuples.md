@@ -21,7 +21,7 @@ links:
 ---
 ## Content
 
-`Tuples` are another one of the three currently implemented **sequence data types** (alongside with `lists` and `ranges`).
+`Tuples` are another one of the fundamental **sequence data types** (alongside `lists` and `ranges`).
 
 Tuples are used to group any number of items into a single compound value, regardless of their type.
 
