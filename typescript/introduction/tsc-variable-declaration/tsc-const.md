@@ -17,9 +17,11 @@ aspects:
 
 The only difference between `const` and `let` is that the variables declared with `const` cannot be reassigned:
 
+> *Note*: Assignment is done using the `=` operator. 
+
 ```ts
 // because its declared with
-// let, reassigning a to a
+// let, reassigning to a
 // new value is fine
 let a: number = 1;
 a = 2;
@@ -44,7 +46,7 @@ console.log(c);
 // [1, 2, 3, 4]
 ```
 
-When using `const`, the variable name is constant once declared but not the value.
+When using `const`, the assignment can happen only once but the value can be changed whenever.
 
 ---
 ## Practice

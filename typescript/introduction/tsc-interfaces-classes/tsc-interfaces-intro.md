@@ -84,3 +84,21 @@ const myObject = {
 * false
 * number
 * Interface
+
+---
+## Revision
+
+Will the following code cause an error?
+
+```ts
+interface Enki {
+  note?: string,
+}
+
+let e: Enki = {};
+```
+
+???
+
+* No
+* Yes

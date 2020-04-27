@@ -37,7 +37,7 @@ if (x == 5) {
 console.log(enki); // true
 ```
 
-Another potentially confusing behavior of `var` is that **it is not an error** to re-declare the same variable multiple times, as long as we keep the same type.
+Another potentially confusing behavior of `var` is that **it is not an error** to redeclare the same variable multiple times, as long as we keep the same type.
 
 ```ts
 var a = 'enki';
@@ -45,7 +45,7 @@ var a = 'foobar';
 console.log(a); // 'foobar'
 ```
 
-The reason this leads to problems is because different parts of the codebase can change same variables without it being obvious. If you only saw `var a = 'foobar'` somewhere in code, you wouldn't know that it was also changing an axisting `a`.
+The reason this leads to problems is because different parts of the codebase can change the same variable without it being obvious. If you only saw `var a = 'foobar'` somewhere in the code, you wouldn't know that it was also changing an existing `a`.
 
 Next we'll showcase safer modern approaches to declaring variables using the keywords `let` and `const`.
 

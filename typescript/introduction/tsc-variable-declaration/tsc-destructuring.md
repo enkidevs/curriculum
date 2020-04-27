@@ -46,9 +46,9 @@ let alphabet: string[] = [
   'd'
 ];
 
-let [first, ...rest] = alphabet;
+let [first, ...others] = alphabet;
 console.log(first); // a
-console.log(rest);
+console.log(others);
 // ['b', 'c', 'd']
 ```
 
@@ -104,10 +104,10 @@ Will the following code cause an error?
 const x = {
   a: 1,
   b: 2,
-  d: 3
+  c: 3
 };
 
-let { a, delta } = x;
+let { a, d } = x;
 ```
 
 ???

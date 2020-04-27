@@ -25,7 +25,7 @@ let a: number = 1;
 
 Unlike `var`, which is always scoped to the function, variables defined with `let` are always block-scoped. 
 
-You can only access them in their containing block:
+You can only access them in their containing block or any nested block but you cannot access them in the upper scope:
 
 ```ts
 function f() {
