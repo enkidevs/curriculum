@@ -67,7 +67,7 @@ type(b)
 
 > Note: only one starred expression (`*`) is allowed per assignment[1].
 
-Tuples are often used for a sequence of values of heterogeneous types[2] (e.g. fields of a database record or columns from a CSV file), while lists are often used for homogeneous items[3]. This is not a rule; it can be the other way around too.
+Tuples are often used for a sequence of values of heterogeneous types[2] (e.g. distinct and different fields of a database record or columns from a CSV file), while lists are often used for homogeneous items[3] (e.g. list of names). This is not a rule; it can be the other way around too.
 
 If you're not sure which you should use, remember the following:
 - you **can't add** elements to a touple
