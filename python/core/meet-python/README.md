@@ -5,8 +5,8 @@ description: Discover the Python language’s versions and its programming envir
 insights:
   - what-is-python
   - why-learn-python
-  - python-2
-  - python-3
+  - python-versions
+  - python-environment
   - python-hello-world
   
 exercises:

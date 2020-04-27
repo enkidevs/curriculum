@@ -2,36 +2,27 @@
 author: tommarshall
 
 tags:
-
   - introduction
-
-levels:
-
-  - beginner
 
 type: normal
 
 category: must-know
 
-inAlgoPool: false
 aspects:
   - introduction
-standards:
-  python.native-types-operations.2: 10
-
 
 ---
 
-# Execution Order of Arithmetic Operators
+# Execution Order of Operators
 
 ---
 ## Content
 
-When creating commands using arithmetic operators in Python, it's very important to understand the order in which the command will be executed.
-
+When using more than one operator in Python, it's crucial to understand the *order* they'll be executed in.
 
 What will be the result of the following expression?
-```python
+
+```bash
 >>> 2 + 9 * 4 / 3 - 5
 # this expression is equivalent to:
 # 2 + ((9*4)/3) - 5
@@ -39,15 +30,22 @@ What will be the result of the following expression?
 # 9.0
 ```
 
-To summarise, **division** and **multiplication** have the same priority. Also, **addition** and **subtraction** have equal priority. However, **division** and **multiplication** have higher priority than **addition** and **subtraction**. Basically if we have an expression formed only of `*`, `/`, and/or `//`  we calculate them in the order they come (from left to right). The same thing happens with `-` and `+`. But if there is an expression containing a mix of them, then `*`, `/` and `//` have higher priority than `-` and `+` and will be computed first.
+Here is the order of execution for Python's operators (highest to lowest):
+
+| Operator            | Name                                              |
+|---------------------|---------------------------------------------------|
+| `()`                | Parenthesis                                       |
+| `**`                | Exponent                                          |
+| `*`, `/`, `//`, `%` | Multiplication, division, floor division, modulus |
+| `+`, `-`            | Addition, subtraction                             |
 
 
 ---
 ## Practice
 
-What’s the output of the following command:
+What’s the output of the following code:
 
-```
+```bash
 2 + 7 * 2 // 8
 ```
 ???
@@ -60,9 +58,9 @@ What’s the output of the following command:
 ---
 ## Revision
 
-What’s the output of the following command:
+What’s the output of the following code:
 
-```
+```bash
 4 + 3 * 9 // 6
 ```
 ???
