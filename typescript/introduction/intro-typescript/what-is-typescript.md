@@ -24,6 +24,7 @@ Because of the high adoption rate of JavaScript, many tools (such as Angular, Re
 TypeScript is another creation meant to put the future of JavaScript in the hands of developers, and it's actually a **superset of JavaScript**. What that means is that TypeScript has all the functionality of JavaScript, but *adds even more*.
 
 ![typescript-is-superset-of-javascript](https://img.enkipro.com/074c0352be386e58bbdd697ed8bff427.png)
+
 ---
 ## Practice
 
