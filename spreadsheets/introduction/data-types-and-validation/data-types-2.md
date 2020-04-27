@@ -23,7 +23,7 @@ Now, let's take a look at the other data types.
 
 ### Text
 
-This data type contains any letter, symbol, space, tab as well as number.
+This data type contains any letter, symbol, space, tab - as well as number.
 
 For instance, if you have `00123` in a cell that treats its input as a `Number`, it will save it as `123`. Whereas if you have a `Text` data type, it will save it as `'00123'`.
 
@@ -31,17 +31,17 @@ This is because, in number format, any 0 before a number doesn't change the valu
 
 ### Logical
 
-This data type can only take the two value of a boolean: `TRUE` or `FALSE`.
+This data type can only take the two values of a boolean: `TRUE` or `FALSE`.
 
-They are usually presented as a result of a function. We will discuss these in the `Functions` mission.
+They are usually presented as a result of a function. We'll discuss these in the `Functions` mission.
 
 ### Errors
 
 `Errors` are usually displayed when there is a problem with a function or formula.
 
-For instance, if you try to divide a number by `0` you will get the `#DIV/0!` message.
+For instance, if you try to divide a number by `0` you'll get the `#DIV/0!` message.
 
-Here is a list of possible errors:
+Here's a list of possible errors:
 
 ![error-list](https://img.enkipro.com/aec9daa1f3be3570bf4e5770706dc866.png)
 

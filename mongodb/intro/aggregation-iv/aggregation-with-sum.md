@@ -15,12 +15,10 @@ category: how to
 
 ---
 
-# Aggregation With Accumulators (`$sum`)
+# `$sum`
 
 ---
 ## Content
-
-### `$sum`
 
 Syntax:
 ```javascript

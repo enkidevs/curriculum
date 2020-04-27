@@ -19,15 +19,15 @@ category: how to
 ---
 ## Content
 
-Groups are used to more easily organize data in a spreadsheet. If you have a large spreadsheet, you can use groups to easily hide and display parts of your sheet. Both rows and columns can be grouped.
+Groups are used to more easily **organize data in a spreadsheet**. If you have a large spreadsheet, you can use groups to easily hide and display parts of your sheet. Both rows and columns can be grouped.
 
-We will use the same spreadsheet from the previous insight:
+Let's use the same spreadsheet from the previous insight:
 
 ![spreadsheet-without-filter](https://img.enkipro.com/9788ed1678de0deb46f131c15ac4a19d.png)
 
 Grouping rows and columns is similar to filtering. You select the rows/columns you want to group and go to `Data` and select `Group`. This will open a popup window asking how you want to group.
 
-Using the table above, we are going to select everyone whose profession is a `Police Officer` and create a new group.
+Using the table above, we're going to select everyone whose profession is a `Police Officer` and create a new group.
 
 This will give us this popup window:
 
@@ -44,11 +44,11 @@ We can also group the `Professor` and `Student` cells and then nest all 3 in a t
 ---
 ## Practice
 
-Which sentence is not true about groups?
+Which sentence is **not** true about groups?
 
 ???
 
 * Groups don't work without filtering first.
 * Groups are used to more easily organize data in a spreadsheet.
 * Groups can be applied to both rows and columns.
-* Groups can nested.
+* Groups can be nested.
