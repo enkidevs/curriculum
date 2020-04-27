@@ -2,28 +2,17 @@
 author: tommarshall
 
 tags:
-
   - introduction
-
-levels:
-
-  - beginner
 
 type: normal
 
 category: must-know
 
-inAlgoPool: false
 aspects:
   - introduction
 
-standards:
-  python.native-types-operations.2: 10
-
 links:
-
   - '[Python division](http://stackoverflow.com/questions/2958684/python-division){website}'
-
 
 ---
 
@@ -32,9 +21,9 @@ links:
 ---
 ## Content
 
-Similar to other programming languages, Python allows the use of standard arithmetic operators.
+Similar to other programming languages, Python uses standard arithmetic operators.
 
-The four standard operators perform addition, subtraction, multiplication and division. The operators are `+`, `-`, `*`, `/` respectively.
+The four standard operators are `+`, `-`, `*` and `/`. These allow us to add, subtract, mutiply and divide.
 
 Here they are in use:
 
@@ -50,34 +39,35 @@ Here they are in use:
 
 >>> 62 / 9
 # 6.888888888888889
-
 ```
-In Python 3, using the division operator (`/`) will return a float[1]. 
 
-If you want to perform floor division, use the `//` operator:
+In Python 3, using the division operator `/` will always return a `float`. And whenever you use a `float` in your calculation, a `float` will be returned, even if the number is a whole number ending in `.0`.
+
+If you want to perform floor division to return an `int`, use the `//` operator:
 
 ```py
 >>> 62 // 9
 # 6
 ```
 
-When performing floor division with the `//` operator, you are effectively returning only the integer part with the digits after the decimal point being removed. 
+When using the `//` operator, you only return the whole number part of the division. Any digits after the decimal point will be removed.
 
 ---
 ## Practice
 
 Choose the correct result of the following expression:
 
-```python
->>> 1 + 2 - 3 + 4
+```bash
+>>> 13 // 3 
+# ???
+>>> 4.5 + 4.5 
+# ???
 ```
 
-???
-
 * `4`
-* `10`
-* `124`
-* `- 4`
+* `9.0`
+* `9`
+* `4.0`
 * `TypeError`
 
 ---
@@ -85,9 +75,11 @@ Choose the correct result of the following expression:
 
 What are the outputs to the following lines of code?
 
-```
-25 // 6 ???
-5 * 5.15 ???
+```bash
+>>> 25 // 6 
+# ???
+>>> 5 * 5.15 
+# ???
 ```
 
 
@@ -98,9 +90,3 @@ What are the outputs to the following lines of code?
 * `3`
 * `25`
 * `26`
-
----
-## Footnotes
-
-[1:Floating Point Numbers]
-Floats or floating point numbers represent real numbers and they are written with a decimal point that divides the integer and fractional parts. For example, 26.3 is a float while 26 is an integer.
