@@ -7,5 +7,3 @@ insights:
   - git-ignore
   - check-the-reflog
   - subdirectory-checkout
-  - reset-vs-revert
- 
