@@ -26,7 +26,7 @@ The main feature, as its name suggests, is that it allows the use of *types*.
 
 TypeScript checks your code by making sure you use the same data shapes wherever you said you would.
 
-If you tell TypeScript that a variable `totalPoints` is going to be a number, it will makes sure that any other place in the code that is using `totalPoints` isn't breaking any rules for the `number` type. For example, if you try to use `totalPoints` as if it contained text instead of a number, TypeScript will tell you.
+For example, if you tell TypeScript that a variable is is going to hold a number and you try to put text into it, TypeScript will give you an error.
 
 This is useful because making sure that the same data shapes are used throughout the code can help avoid bugs. It makes the code consistent, and less prone to typos.
 
@@ -41,8 +41,6 @@ Your editor can integrate with TypeScript and display any problems in the code a
 ### Modern, cross-platform JavaScript
 
 Since TypeScript is another layer on top of JavaScript, it allows us to continuously use the latest JavaScript features, even before they become fully supported in JavaScript[2].
-
-Because it has its own environment, TypeScript enables us to write the latest JavaScript code and handles the conversion for old platforms behind the scenes. For example, this means that you can write modern TypeScript code that can still run on old web browser that might not support modern features.
 
 ---
 ## Practice

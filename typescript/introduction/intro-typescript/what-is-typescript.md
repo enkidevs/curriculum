@@ -65,4 +65,6 @@ Using types in TypeScript is required.
 ## Footnotes
 
 [1: Superset]
-A set `X` is a superset of set `Y`, if `X` includes all values in `Y`. For example, the set `"Fruits"` includes all `"Apples"` that exists. This means that `"Fruits"` is a superset of `"Apples"`.
+A set `X` is a superset of set `Y`, if `X` includes all values in `Y`.
+
+For example, the set `"Fruits"` includes all `"Apples"` that exists. This means that `"Fruits"` is a superset of `"Apples"`.
