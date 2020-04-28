@@ -1,13 +1,9 @@
 ---
 author: kapnobatai136
-
 type: normal
-
 category: must-know
-
 aspects:
   - introduction
-
 links:
   - '[Try out the first example](https://www.typescriptlang.org/play/index.html?ssl=1&ssc=1&pln=6&pc=1#code/PTAEBUE8AcFMGUDGAnAltALqAJrDtkBbVAO1gGdQMALWKmOgewDMAoEK20ANwEM1eAIwA2dEgFdCVRqEF1eoCYTnJ2YOYl7jydAO50A5qm51UWGmMkrQAVlaisS0AF5bAbnt5QjANYvFkqAAtKAAzG6gHCQyBMiMqp5Y5BjI-gDksCQ+qGkeDoqM0f7JqSHhaqCVVVUAenUVsfGysJraerBpyHTk4oIpvIgYpAagCiXDQA){website}'
   - '[Type Inference](https://en.wikipedia.org/wiki/Type_inference){website}'
@@ -23,12 +19,12 @@ A type in TypeScript is defined by its structure and the operations that can be 
 
 For example, a `number` represents any numerical value and it can be subtracted but a `string` is a sequence of characters and it can't be subtracted.
 
-> *Note*: Adding types is optional because any JavaScript code is also valid TypeScript. If you don't declare any types, TypeScript will figure them out for you.
+> 💡 Adding types is optional. If you don't declare any types, TypeScript will try to guess them for you.
 
 ```ts
 // TypeScript determines the type of
 // the variable num to be a number
-// because we give it the number 5
+// because we give it the value 5
 let num = 5;
 let ok = num - 3; // no error
 
@@ -53,8 +49,8 @@ let result = points * lesson;
 
 ???
 
-* B
-* A
+* No
+* Yes
 
 ---
 ## Revision

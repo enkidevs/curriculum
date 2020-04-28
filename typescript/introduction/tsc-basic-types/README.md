@@ -1,4 +1,4 @@
-name: Data Types I
+name: Using Basic Types
 
 description: Assigning and using types
 

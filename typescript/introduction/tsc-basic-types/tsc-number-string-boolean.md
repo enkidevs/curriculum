@@ -1,10 +1,7 @@
 ---
 author: kapnobatai136
-
 type: normal
-
 category: must-know
-
 aspects:
   - introduction
 
@@ -15,11 +12,13 @@ aspects:
 ---
 ## Content
 
-We can define a type for a value by adding a `:` and a type after its name.
+We can define a type for a variable by adding a semi-colon (` : `) and a type after its name.
 
 ### String
 
-A *string* is a data type that represents a sequence of characters. For a value to be a string, it must be enclosed in single (`'`) or double (`"`) quotation marks or back-ticks `` ` ``
+A `string` is a data type that represents a sequence of characters.
+
+For a value to be a string, it must be enclosed in single (` ' `) or double (` " `) quotation marks or back-ticks ``  `  ``
 
 ```ts
 let brand: string = 'Samsung';
@@ -29,7 +28,9 @@ brand = `Enki`;
 
 ### Number
 
-As you might've already guessed, the `number` type is used to store any numerical value[1]. By default, all numbers in TypeScript are floating points values. Hexadecimal, decimal, binary, and octal literals are also considered numbers:
+As you might've already guessed, the `number` type is used to store any numerical value[1].
+
+By default, all numbers in TypeScript are floating points values. Hexadecimal, decimal, binary, and octal literals are also considered numbers:
 
 ```ts
 let meaningOfLife: number = 42;
