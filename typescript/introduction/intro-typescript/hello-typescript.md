@@ -6,7 +6,7 @@ aspects:
   - introduction
   - workout
 links:
-  - '[`ts-node` NPM package](https://www.npmjs.com/package/ts-node){website}'
+  - '[ts-node NPM package](https://www.npmjs.com/package/ts-node){website}'
   - '[Try out the hello.ts example](https://www.typescriptlang.org/play/index.html#code/GYVwdgxgLglg9mABACwKYBt1wBRgIYC2qAXIgM5QBOMYA5gJSIDeAUIohAmXOqgHRZa2AAYAJDFkQASJviIBfAITD6LeSxZpMOAOQBBMABNKqGDvoBuIA){website}'
 
 ---
@@ -16,7 +16,7 @@ links:
 ---
 ## Content
 
-We promised you some TypeScript code, and here it is:
+Let's get started writing some TypeScript code:
 
 ```ts
 // hello.ts
@@ -39,7 +39,7 @@ hello('Andrei');
 
 Once you have the JavaScript code, you can run it wherever JavaScript can run (any Node.js or browser environment).
 
-To compile TypeScript to JavaScript and run the generated JavaScript as a single step, we can use the [ts-node package](https://www.npmjs.com/package/ts-node).
+To compile TypeScript to JavaScript and run the generated JavaScript as a single step, we can use the `ts-node` NPM package:
 
 ```sh
 # convert hello.ts from

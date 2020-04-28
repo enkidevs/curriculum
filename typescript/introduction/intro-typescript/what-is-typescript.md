@@ -14,7 +14,7 @@ links:
 
 ---
 
-# Intro to TypeScript
+# What is TypeScript?
 
 ---
 ## Content
@@ -31,7 +31,7 @@ TypeScript is another creation meant to expand what JavaScript can do.
 
 It is a **strict superset[1] of JavaScript with optional types**.
 
-![ts-superset-of-js](https://img.enkipro.com/240e5e44b287301100c65625ff3d77e9.png)
+![ts-superset-js](https://img.enkipro.com/8e19f0116e9f2c74df35c746c253d90e.png)
 
 This means that TypeScript has and always will have all the functionality of JavaScript with the option of using types where needed.
 

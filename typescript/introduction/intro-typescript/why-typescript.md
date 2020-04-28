@@ -32,7 +32,7 @@ This is useful because making sure that the same data shapes are used throughout
 
 One way to think of TypeScript is as a **spellchecker for JavaScript**.
 
-TypeScript checks your code **statically**, by looking at it *without running it*[1]. This can speed up development because you can catch problems early on.
+TypeScript checks your code **statically**, by looking at it *without running it*. This can speed up development because you can catch problems early on[1].
 
 Your editor can integrate with TypeScript and display any problems in the code as you're writing it. This means you write safer code from the start.
 
@@ -62,10 +62,14 @@ TypeScript compares types based on ???
 
 ---
 ## Footnotes
-[1: JavaScript has a Duck typing system]
-Unlike TypeScript, the types in JavaScript are dynamically determined when the JavaScript program runs. After running the code, the JavaScript environment figures out the type by checking for presence of some pre-defined features in a value.
+[1: JavaScript has Duck Types]
+Unlike TypeScript, the types in JavaScript are dynamically determined later on, when the JavaScript program runs. This means that we can't know if we have type errors until we run the code.
 
-The name "duck typing" comes from a playful metaphor for its meaning:
+After the code is ran, the JavaScript environment figures out the type of some value by checking for presence of certain general features, which various values share.
+
+Because of this, JavaScript allows many values to fall under the same type and has much less type protection than TypeScript.
+
+The term "duck typing" comes from a playful metaphor for its meaning:
 
 > If it looks like a duck, swims like a duck, and quacks like a duck, then it probably is a duck.
 

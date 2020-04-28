@@ -24,7 +24,7 @@ TypeScript can be installed with a single NPM command:
 npm install -g typescript
 ```
 
-This will make TypeScript a global package[1] and you can start using it anywhere.
+This will make TypeScript a global CLI command[1] which you can start using in your terminal.
 
 > 💡A file containing TypeScript code ends in `.ts`.
 
@@ -39,7 +39,7 @@ console.log(`${name} is cool!`);
 
 The conversion back from TypeScript to JavaScript has an extra step called *compilation*[3]. To get JavaScript, we must first remove any TypeScript-specific code that isn't valid in JavaScript.
 
-This step is done with the TypeScript Compiler (called `tsc`):
+This step is done with the TypeScript Compiler:
 
 ```bash
 tsc enki.ts
@@ -82,7 +82,7 @@ To convert a JavaScript file `enki.js` to TypeScript, we can change the file nam
 ## Footnotes
 
 [1: A global NPM package]
-Installing a package [globally](https://docs.npmjs.com/downloading-and-installing-packages-globally) allows you to use it anywhere on your computer.
+Installing an NPM package [globally](https://docs.npmjs.com/downloading-and-installing-packages-globally) allows you to use it anywhere on your computer.
 
 [2:Interoperability with JavaScript]
 This is a very important feature of TypeScript. In fact, a major reason for TypeScript's popularity is how easy it is for JavaScript developers to start using it.
