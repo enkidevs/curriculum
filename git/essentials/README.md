@@ -16,6 +16,7 @@ sections:
     - features-i
     - features-ii
     - features-iii
+    - features-iv
 
 next:
   - git:workflow

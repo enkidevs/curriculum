@@ -2,24 +2,14 @@
 author: tommarshall
 
 tags:
-
   - introduction
-
-levels:
-
-  - beginner
 
 type: normal
 
 category: must-know
 
-inAlgoPool: false
-
 aspects:
   - introduction
-standards:
-  python.identify-python-syntax.1: 10
-
 
 ---
 
@@ -28,25 +18,21 @@ standards:
 ---
 ## Content
 
-We can write our first Python3 program, and print `Hello World!` to the console!
+Let's write our first Python program, and print `Hello World!` to our screen!
 
-To do this, in the Python3 interpreter (REPL), use Python's print function as follows:
-
-```python
->>> print('Hello World!')
-```
-
-Note that `print`, as a method which you pass arguments to, is specific syntax to Python 3.x. In Python 2.x `print` is a statement and would be used as follows:
+To do this, in the Python interpreter, use Python's print function as follows:
 
 ```python
->>> print 'Hello World!'
+print('Hello World!')
 ```
 
-In both cases, the output is as follows:
+The output displayed in the shell is:
 
 ```python
 # Hello World!
 ```
+
+In this program, we've used Python's built-in `print` function. Soon you'll learn about many more of these built-in functions and how to create your own.
 
 > Note: as with all the skills in the app, if you want to access more advanced or specific content at any time, **feel free to use the *Skill Map* tab** to jump to the workouts most relevant for you.
 
@@ -54,21 +40,21 @@ In both cases, the output is as follows:
 
 ## Practice
 
-Let's practice using Python! Which statement will log "Enki" in the terminal?
+Let's practice using Python! Which statement will display `'Enki'`?
 
-```python
+```bash
 ???
 ```
 
 * `print('Enki')`
 * `: 'Enki'`
-* `>> 'Enki'`
+* `puts 'Enki'`
 * `console.log('Enki')`
 
 ---
 ## Revision
 
-Complete the code snippet with the correct function to write the string 'Python with Enki!' to the REPL shell:
+Complete the code snippet with the correct function to write `'Python with Enki!'` to the shell:
 
 ```
 ???('Python with Enki!')

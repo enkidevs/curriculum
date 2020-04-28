@@ -15,7 +15,7 @@ category: how to
 
 ---
 
-# Aggregation With $ceil and $floor
+# `$ceil` and `$floor`
 
 ---
 ## Content
