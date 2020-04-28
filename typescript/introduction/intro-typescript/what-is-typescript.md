@@ -9,11 +9,11 @@ aspects:
   - introduction
 
 links:
-  - [Machine Learning with JavaScript](https://www.tensorflow.org/js){website}
-  - [Build User Interfaces with JavaScript](https://reactjs.org/){website}
-  - [Make iOS and Android apps with JavaScript](https://reactnative.dev){website}
-  - [Use JavaScript for servers and IOT](https://nodejs.dev){website}
-  - [Official Website for TypeScript](https://www.typescriptlang.org){website}
+  - '[Machine Learning with JavaScript](https://www.tensorflow.org/js){website}'
+  - '[Build User Interfaces with JavaScript](https://reactjs.org/){website}'
+  - '[Make iOS and Android apps with JavaScript](https://reactnative.dev){website}'
+  - '[Use JavaScript for servers and IOT](https://nodejs.dev){website}'
+  - '[Official Website for TypeScript](https://www.typescriptlang.org){website}'
 
 ---
 

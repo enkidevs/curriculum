@@ -9,8 +9,8 @@ aspects:
   - introduction
 
 links:
-  - (Try out the first example)[https://www.typescriptlang.org/play/index.html?ssl=1&ssc=1&pln=6&pc=1#code/PTAEBUE8AcFMGUDGAnAltALqAJrDtkBbVAO1gGdQMALWKmOgewDMAoEK20ANwEM1eAIwA2dEgFdCVRqEF1eoCYTnJ2YOYl7jydAO50A5qm51UWGmMkrQAVlaisS0AF5bAbnt5QjANYvFkqAAtKAAzG6gHCQyBMiMqp5Y5BjI-gDksCQ+qGkeDoqM0f7JqSHhaqCVVVUAenUVsfGysJraerBpyHTk4oIpvIgYpAagCiXDQA]{website}
-  - (Type Inference)[https://en.wikipedia.org/wiki/Type_inference]{website}
+  - '(Try out the first example)[https://www.typescriptlang.org/play/index.html?ssl=1&ssc=1&pln=6&pc=1#code/PTAEBUE8AcFMGUDGAnAltALqAJrDtkBbVAO1gGdQMALWKmOgewDMAoEK20ANwEM1eAIwA2dEgFdCVRqEF1eoCYTnJ2YOYl7jydAO50A5qm51UWGmMkrQAVlaisS0AF5bAbnt5QjANYvFkqAAtKAAzG6gHCQyBMiMqp5Y5BjI-gDksCQ+qGkeDoqM0f7JqSHhaqCVVVUAenUVsfGysJraerBpyHTk4oIpvIgYpAagCiXDQA]{website}'
+  - '(Type Inference)[https://en.wikipedia.org/wiki/Type_inference]{website}'
 
 ---
 

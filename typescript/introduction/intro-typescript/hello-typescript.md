@@ -9,8 +9,8 @@ aspects:
   - introduction
 
 links:
-  - [ts-node](https://www.npmjs.com/package/ts-node){website}
-  - [Try out the hello.ts example](https://www.typescriptlang.org/play/index.html#code/GYVwdgxgLglg9mABACwKYBt1wBRgIYC2qAXIgM5QBOMYA5gJSIDeAUIohAmXOqgHRZa2AAYAJDFkQASJviIBfAITD6LeSxZpMOAOQBBMABNKqGDvoBuIA){website}
+  - '[ts-node](https://www.npmjs.com/package/ts-node){website}'
+  - '[Try out the hello.ts example](https://www.typescriptlang.org/play/index.html#code/GYVwdgxgLglg9mABACwKYBt1wBRgIYC2qAXIgM5QBOMYA5gJSIDeAUIohAmXOqgHRZa2AAYAJDFkQASJviIBfAITD6LeSxZpMOAOQBBMABNKqGDvoBuIA){website}'
 
 ---
 

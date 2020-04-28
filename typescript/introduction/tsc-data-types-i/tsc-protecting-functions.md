@@ -9,7 +9,7 @@ aspects:
   - introduction
 
 links:
-  - (Try Out Code From This Insight)[https://www.typescriptlang.org/play/index.html?ssl=1&ssc=1&pln=17&pc=14#code/GYVwdgxgLglg9mABACwKYBt1wOoysgeQAdYEBDdACjDIFtUAuRAZygCcYwBzAGkVVpwAVjAD8TVh24BKRAG8AUIkQQEzOOlQA6LF0oADACRya9AL6JjA4TDMBCfdIVmFCtJhx5CJeDSoByAFEwAGsYfz5-QF4NwGkd-2kAbgUAemTEACJgsMRYu3S3DCxcfGJSP0og0PDElLTMqsRwABNUYE5UJrzXUEgylELPfAARVrIQdChqOkYWdk5efkERCTnuRABeRGjALJ34+SUVNQ1tXQNjU1QLKyXbBycXAo9i5BHgMYmKrPDI2Pik1IyXxyMS67iKXle70mlTCf1qgIaUW2eSAA]{website}
+  - '(Try Out Code From This Insight)[https://www.typescriptlang.org/play/index.html?ssl=1&ssc=1&pln=17&pc=14#code/GYVwdgxgLglg9mABACwKYBt1wOoysgeQAdYEBDdACjDIFtUAuRAZygCcYwBzAGkVVpwAVjAD8TVh24BKRAG8AUIkQQEzOOlQA6LF0oADACRya9AL6JjA4TDMBCfdIVmFCtJhx5CJeDSoByAFEwAGsYfz5-QF4NwGkd-2kAbgUAemTEACJgsMRYu3S3DCxcfGJSP0og0PDElLTMqsRwABNUYE5UJrzXUEgylELPfAARVrIQdChqOkYWdk5efkERCTnuRABeRGjALJ34+SUVNQ1tXQNjU1QLKyXbBycXAo9i5BHgMYmKrPDI2Pik1IyXxyMS67iKXle70mlTCf1qgIaUW2eSAA]{website}'
 
 ---
 

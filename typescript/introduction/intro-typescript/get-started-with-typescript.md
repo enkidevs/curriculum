@@ -9,8 +9,8 @@ aspects:
   - introduction
 
 links:
-  - [What is a Compiler?](https://en.wikipedia.org/wiki/Compiler){website}
-  - [TypeScript Compiler](https://www.npmjs.com/package/typescript){website}'
+  - '[What is a Compiler?](https://en.wikipedia.org/wiki/Compiler){website}'
+  - '[TypeScript Compiler](https://www.npmjs.com/package/typescript){website}'
 
 ---
 

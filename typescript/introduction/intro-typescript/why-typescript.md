@@ -9,9 +9,9 @@ aspects:
   - introduction
 
 links:
-  - (TypeScript is one of the most loved languages)[https://insights.stackoverflow.com/survey/2019#most-loved-dreaded-and-wanted]{website}
-  - (TypeScript is getting more popular every year)[https://2019.stateofjs.com/javascript-flavors/typescript/]{website}
-  - (What is the difference between statically typed and dynamically typed languages?)[https://stackoverflow.com/questions/1517582/what-is-the-difference-between-statically-typed-and-dynamically-typed-languages]{discussion}
+  - '(TypeScript is one of the most loved languages)[https://insights.stackoverflow.com/survey/2019#most-loved-dreaded-and-wanted]{website}'
+  - '(TypeScript is getting more popular every year)[https://2019.stateofjs.com/javascript-flavors/typescript/]{website}'
+  - '(What is the difference between statically typed and dynamically typed languages?)[https://stackoverflow.com/questions/1517582/what-is-the-difference-between-statically-typed-and-dynamically-typed-languages]{discussion}'
 
 ---
 
