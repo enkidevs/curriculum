@@ -1,12 +1,13 @@
 ---
-author: kapnobatai136
-
+author: nem035
 type: normal
-
 category: must-know
-
 aspects:
-  - introduction
+  - workout
+  - deep
+links:
+  - '[Object Type](https://www.typescriptlang.org/docs/handbook/basic-types.html#object){documentation}'
+  - '[Play with object types](https://www.typescriptlang.org/play/index.html?ssl=1&ssc=1&pln=5&pc=45#code/MYewdgzgLgBAhgLhgeQEYCsCmxYF4YDeMmYA1gJZJQBOArpjAL4DcAUK6JLKkiBtnkLEylGDXpM2HcNBjAkREhSSoQIADaY4YJjHyKRVOgxZA){website}'
 
 ---
 
@@ -17,6 +18,10 @@ aspects:
 
 TypeScript has 3 ways to represent an object with slightly different behaviors.
 
+> 💡 An object can be thought of as a collection of named values
+
+### `Object`
+
 Since any defined value in JavaScript is an object[1], the `Object` type can be used to represent any type that is considered to contain a value:
 
 ```ts
@@ -24,28 +29,37 @@ let num: Object = 3;
 let str: Object = 'enki';
 let arr: Object = [1, 2, 3];
 // ...
-// only null and undefined give an error
+// only null and undefined
+//  give an error
 let n: Object = null; // error
 let u: Object = undefined; // error
 ```
 
-This often leads to confusion. Usually by "object" we only mean collections of values (e.g. maps, sets, arrays, plain objects), but not primitive values[2] (e.g. numbers or strings).
+This often leads to confusion.
 
-This is why it is recommended to use the `object` type:
+Usually by "object" we only mean collections of named values (e.g. maps, sets, arrays, plain objects), but not primitive values[2] (e.g. numbers or strings).
+
+### `object`
+
+The recommended type to represent an object is `object`.
 
 ```ts
 let arr: object = [1, 2, 3];
 let obj: object = { enki: true };
-let map: object = new Map([["enki", "cool"]])
+let map: object = new Map([
+  ["enki", "cool"],
+]);
 // ...
 // primitive values give an error
-let str: object = 'enki'; // error
+let str: object = "enki"; // error
 let num: object = 3; // error
 let n: object = null; // error
 let u: object = undefined; // error
 ```
 
-The type `{}` is used to represent a JavaScript object with a specific shape.
+### `{}`
+
+The type `{}` is used to represent an object with a specific shape.
 
 ```ts
 let empty: {} = {};
@@ -53,7 +67,10 @@ let empty: {} = {};
 const Enki: {
   job: string,
   isFun: boolean,
-} = { job: "teach", isFun: true };
+} = {
+  job: "teach",
+  isFun: true
+};
 ```
 
 Assigning values that aren't part of the shape will cause errors:
@@ -69,11 +86,17 @@ Enki.age = 5; // Property 'age' does not exist on type '{ job: string; isFun: bo
 Which statement will throw an error?
 
 ```ts
-const a: Object = { enki: 'fun' };
+const a: Object = {
+  enki: 'fun'
+};
 
-const b: object = { enki: 'fun' };
+const b: object = {
+  enki: 'fun'
+};
 
-const c: { enki: string } = { enki: 'fun' };
+const c: { enki: string } = {
+  enki: 'fun'
+};
 ```
 
 ???
@@ -110,13 +133,15 @@ const d: Object = { enki: true };
 
 [1:Objects]
 
-All values besides `null` and `undefined` are a form of object in JavaScript. A quick test to verify if something is an object is to try and access a property on it and see if it errors.
+All built-in values besides `null` and `undefined` are a form of object in JavaScript.
+
+A quick test to verify if something is an object is to try and access a property on it and see if it errors.
 
 ```js
 // use anything as x
-x = 'anything'
+x = // anything
 // if this throws, then
-// its not an object
+// x is not an object
 (x).enki
 ```
 

@@ -7,6 +7,6 @@ core: true
 sections:
   '0':
     - intro-typescript
+    - tsc-using-types
     - tsc-basic-types
-    - tsc-basic-types-ii
     - tsc-classes-and-interfaces

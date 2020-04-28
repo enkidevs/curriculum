@@ -1,15 +1,12 @@
 ---
 author: kapnobatai136
-
 type: normal
-
 category: must-know
-
 aspects:
   - introduction
-
 links:
-  - '[Enum Type](https://en.wikipedia.org/wiki/Enumerated_type){documentation}'
+  - '[Enum Type](typescriptlang.org/docs/handbook/basic-types.html#enum){documentation}'
+  - '[Try Out Enums](https://www.typescriptlang.org/play/index.html?ssl=1&ssc=1&pln=10&pc=5#code/KYOwrgtgBA8gLgC2AJwCIEM7qgbwFBRQCCUAvFAIwA0BUAQlVAPRNTphwD2AtOgM58AlgHMQwACZQuUAEy0AwmSgBWAAw1CqRizYce-IaIlTOKingC+ePABtgcKADNOnAFyxEKDFiXwkaTHQAOjoAbjwAY04QPk47IJtOYQAKZ04ASnCdGSA){website}'
 
 ---
 

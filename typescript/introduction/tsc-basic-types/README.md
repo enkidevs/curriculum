@@ -1,9 +1,10 @@
-name: Using Basic Types
+name: Basic Types
 
-description: Assigning and using types
+description: Fundamental shapes of TS
 
 insights:
-  - tsc-intro-to-types
-  - tsc-number-string-boolean
-  - tsc-types-in-functions
-  - tsc-protecting-functions
+  - tsc-any-void-null-undefined
+  - tsc-never
+  - tsc-array-tuple
+  - tsc-enum
+  - tsc-object-type-comparison

@@ -4,6 +4,10 @@ type: normal
 category: must-know
 aspects:
   - introduction
+links:
+  - '[Number Type](https://www.typescriptlang.org/docs/handbook/basic-types.html#number){documentation}'
+  - '[String Type](https://www.typescriptlang.org/docs/handbook/basic-types.html#string){documentation}'
+  - '[Boolean Type](https://www.typescriptlang.org/docs/handbook/basic-types.html#boolean){documentation}'
 
 ---
 

@@ -1,12 +1,12 @@
 ---
 author: kapnobatai136
-
 type: normal
-
 category: must-know
-
 aspects:
-  - introduction
+  - deep
+  - workout
+links:
+  - '[Never Type](https://www.typescriptlang.org/docs/handbook/basic-types.html#never){documentation}'
 
 ---
 
@@ -15,14 +15,18 @@ aspects:
 ---
 ## Content
 
-The type `never` is used to represent value that **never** occurs. Let's take a look at a few examples:
+The type `never` is used to represent a value that **never** occurs.
+
+Let's take a look at a few examples:
 
 ```ts
-function neverEnding(): never {
-  while(true) {}
+function neverEnd(): never {
+  while (true) {}
 }
 
-function throwErrorMessage(message: string): never {
+function throwError(
+  message: string
+): never {
   throw new Error(message);
 }
 

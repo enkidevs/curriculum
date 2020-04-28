@@ -1,12 +1,13 @@
 ---
 author: kapnobatai136
-
 type: normal
-
 category: must-know
-
 aspects:
   - introduction
+links:
+  - '[Any Type](https://www.typescriptlang.org/docs/handbook/basic-types.html#any){documentation}'
+  - '[Void Type](https://www.typescriptlang.org/docs/handbook/basic-types.html#void){documentation}'
+  - '[Null & Undefined](https://www.typescriptlang.org/docs/handbook/basic-types.html#null-and-undefined){documentation}'
 
 ---
 
@@ -27,7 +28,7 @@ anythingReally = [true, false];
 
 `any` means that the value can have any type and is useful when you are unsure of the type of the data you're working with.
 
-Do not use `any` if you can apply a more specific type because allowing any type defeats the purpose of type-checking.
+> 💡 Do not use `any` if you can apply a more specific type because allowing any type defeats the purpose of type-checking
 
 ### Void
 
@@ -38,7 +39,7 @@ This is usually useful when we want to protect ourselves from accidentaly return
 ```ts
 function enki(): void {
   return 'enki'
-  // error: Type '"enki"' is not assignable to type 'void
+  // error: Type '"enki"' is not assignable to type 'void'
 }
 ```
 
@@ -92,6 +93,17 @@ console.log(a); // undefined
 
 `null` is the default value used when we want to represent "no value".
 
-For example, if we are waiting to get the name from the user and they do not give us a name, one sensible default value is `null`.
+```ts
+// we decided for some reason
+// that a doesn't have a value
+// and is thus marked as null
+let a = null;
+```
 
-The reason `null` is more sensible than `undefined` in this case is because `null` means that we determined that a value is missing. When a value is `undefined` we cannot know if it's `undefined` because we set it as such or because it never had a value in the first place.
+For example, if we are expecting to get the phone number from a user and they don't give it to us, a sensible default value we can use is `null`.
+
+The reason `null` is more sensible than `undefined` in this case is because `null` means that we determined that a value is missing.
+
+`null` means that something has no value by choice.
+
+When a value is `undefined` we cannot know if it's `undefined` because we set it as such or because it never had a value in the first place.

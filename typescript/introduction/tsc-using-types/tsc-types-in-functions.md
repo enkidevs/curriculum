@@ -6,6 +6,7 @@ aspects:
   - introduction
 links:
   - '[Practice Lessons from this Insight](https://www.typescriptlang.org/play/index.html?ssl=1&ssc=1&pln=7&pc=14#code/GYVwdgxgLglg9mABACwKYBt1wBRgIYC2qAXIgM5QBOMYA5gDSKoFwBWMpF1dAlJ1TVqIA3gChEiSqighKSAAYASYfiIBfRMuZsYagITyA3KLWjREBBUS0p0wYgC8KDFmwByAKJgA1jDeM3QF4NwGkdtx5jCzAyOHRUADosWmwbVDteYwB6DMQAIi9fRBC9HKA){website}'
+  - '[Functions in TS](https://www.typescriptlang.org/docs/handbook/functions.html){documentation}'
 
 ---
 
