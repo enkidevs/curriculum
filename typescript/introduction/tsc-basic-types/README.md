@@ -7,5 +7,3 @@ insights:
   - tsc-number-string-boolean
   - tsc-types-in-functions
   - tsc-protecting-functions
-  - tsc-array-tuple
-  - tsc-any-void-null
