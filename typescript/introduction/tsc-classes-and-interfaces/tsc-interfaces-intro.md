@@ -9,7 +9,7 @@ aspects:
   - introduction
 
 links:
-  - '(Play with interfaces)[https://www.typescriptlang.org/play/index.html?ssl=1&ssc=1&pln=16&pc=88#code/JYOwLgpgTgZghgYwgAgKIgNbGQbwFDLID0RycIyA9gA5jCUhwA2yClAtuxOAax1+AD8ALmQBnMFFABzANy8SZZFAhwAJlRBMAnsgCuUJrxXqGO-YdESpIOXgC+ePEwhhkEUeizIAvLgWkAO4ocCqa5upqMshgABYoBkaEiiCUyCAQEBpgaZFKbJzcYAHIAEYQCHB6YijAYADkYlS09IxJFkyi9dxYAHQF9Q5OipUgqW6BUpAxucqqama6iXgQvYm+yPXjzEyUwWr9HPWyxKQAwuTjZGJiwNIUOZuJ9WUVVTXIdZ9NcHPqALSLZDUKA0aBgbS9IA]{website}'
+  - '[Play with interfaces](https://www.typescriptlang.org/play/index.html?ssl=1&ssc=1&pln=16&pc=88#code/JYOwLgpgTgZghgYwgAgKIgNbGQbwFDLID0RycIyA9gA5jCUhwA2yClAtuxOAax1+AD8ALmQBnMFFABzANy8SZZFAhwAJlRBMAnsgCuUJrxXqGO-YdESpIOXgC+ePEwhhkEUeizIAvLgWkAO4ocCqa5upqMshgABYoBkaEiiCUyCAQEBpgaZFKbJzcYAHIAEYQCHB6YijAYADkYlS09IxJFkyi9dxYAHQF9Q5OipUgqW6BUpAxucqqama6iXgQvYm+yPXjzEyUwWr9HPWyxKQAwuTjZGJiwNIUOZuJ9WUVVTXIdZ9NcHPqALSLZDUKA0aBgbS9IA){website}'
 
 ---
 
