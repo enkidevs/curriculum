@@ -1,12 +1,12 @@
 name: Introduction
 
-description: Introduction, features, and more.
+description: Getting to know TypeScrpt.
 
 core: true
 
 sections:
   '0':
-    - intro-typescript
+    - tsc-intro
     - tsc-using-types
     - tsc-basic-types
     - tsc-classes-and-interfaces
