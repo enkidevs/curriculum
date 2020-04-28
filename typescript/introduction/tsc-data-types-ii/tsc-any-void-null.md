@@ -31,15 +31,10 @@ Do not use `any` if you can apply a more specific type because allowing any type
 
 ### Void
 
-`void` is the opposite of `any`. It means that the data **shouldn't** have any type at all. 
+`void` is the opposite of `any`. It means that the data **shouldn't** have any type at all.
 
-This is usually used as the return type of a function that does not return anything. 
+This is usually used as the return type of a function that does not return anything.
 
-Don't worry if this is a bit confusing now, we'll explain it in future workouts. For now, know that you can only assign `undefined` as a value if the type is `void`[1]:
-
-```ts
-let nothing: void = undefined;
-```
 
 ### Null & Undefined
 

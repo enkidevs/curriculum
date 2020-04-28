@@ -5,5 +5,5 @@ description: What's TypeScript and how can it help me?
 insights:
   - what-is-typescript
   - why-typescript
-  - typescript-dependencies
+  - get-started-with-typescript
   - hello-typescript

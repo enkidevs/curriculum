@@ -9,7 +9,8 @@ aspects:
   - introduction
 
 links:
-  - '[ts-node](https://www.npmjs.com/package/ts-node){website}'
+  - [ts-node](https://www.npmjs.com/package/ts-node){website}
+  - [Try out the hello.ts example](https://www.typescriptlang.org/play/index.html#code/GYVwdgxgLglg9mABACwKYBt1wBRgIYC2qAXIgM5QBOMYA5gJSIDeAUIohAmXOqgHRZa2AAYAJDFkQASJviIBfAITD6LeSxZpMOAOQBBMABNKqGDvoBuIA){website}
 
 ---
 
@@ -22,7 +23,7 @@ We promised you some TypeScript code, and here it is:
 
 ```ts
 // hello.ts
-const hello = (name: string) => {
+function hello(name: string) {
   console.log(`Hello ${name}!`)
 }
 
@@ -33,8 +34,8 @@ When running `tsc hello.ts` in the shell, TypeScript code is converted (compiled
 
 ```js
 // hello.js
-var hello = function (name) {
-    console.log("Hello " + name + "!");
+function hello(name) {
+  console.log(`Hello ${name}!`);
 };
 hello('Andrei');
 ```
@@ -67,7 +68,7 @@ To **compile** a TypeScript file called `enki.ts` into a JavaScript `enki.js`, y
 ---
 ## Revision
 
-To **compile and run** a TypeScript file called `enki.ts`, you can use the following NPM package:
+To **run** a TypeScript file called `enki.ts`, you can use the following command:
 
 ```bash
 ??? enki.ts

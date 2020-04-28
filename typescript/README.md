@@ -1,6 +1,6 @@
 name: TypeScript
 
-description: A typed superset of JavaScript.
+description: Modern JavaScript with Types
 
 color: 007acd
 

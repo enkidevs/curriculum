@@ -1,9 +1,11 @@
 name: Data Types I
 
-description: You might know these from JavaScript.
+description: Assigning and using types
 
 insights:
-  - tsc-intro-data-types
+  - tsc-intro-to-types
   - tsc-number-string-boolean
+  - tsc-types-in-functions
+  - tsc-protecting-functions
   - tsc-array-tuple
   - tsc-any-void-null
