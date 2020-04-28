@@ -8,6 +8,9 @@ category: must-know
 aspects:
   - introduction
 
+links:
+  - (Enum Type)[https://en.wikipedia.org/wiki/Enumerated_type]{documentation}
+
 ---
 
 # Enum

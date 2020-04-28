@@ -15,7 +15,7 @@ aspects:
 ---
 ## Content
 
-The type `never` is used to represent value that **never** occur. Let's take a look at a few examples:
+The type `never` is used to represent value that **never** occurs. Let's take a look at a few examples:
 
 ```ts
 function neverEnding(): never {
@@ -36,7 +36,6 @@ function impossibleValue(value) {
 }
 ```
 
-Note that in the first example (`neverEnding` function), that's how to assign a return type to a function. We'll go into more detail in a workout later on.
 
 ---
 ## Practice
@@ -47,3 +46,21 @@ The `never` type is used for values that ???.
 * are undefined
 * are falsy
 * never return
+
+---
+## Revision
+
+What is the return type of `enki`?
+
+```ts
+function enki(message: string): ??? {
+  throw new Error(message);
+}
+```
+
+???
+
+* `never`
+* `undefined`
+* `null`
+* `void`

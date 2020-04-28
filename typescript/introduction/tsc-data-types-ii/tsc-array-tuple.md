@@ -17,7 +17,7 @@ aspects:
 
 ### Array
 
-An array represents a collection of values. In TypeScript, there are two ways in which you can define an array:
+An array represents an ordered collection of values. In TypeScript, there are two ways in which you can define an array:
 
 ```ts
 // by putting the [] after the type
@@ -36,19 +36,6 @@ let stringArray: Array<string> = [
 
 Note that arrays can only hold values of the type that you specify.
 
-If you want to store more than one type, you can use a union:
-
-```ts
-// array of strings and numbers
-let mixedArray: Array<string|number> = [
-  1, 
-  'one', 
-  3, 
-  5, 
-  'five'
-];
-```
-
 ### Tuple
 
 Tuples are like an array, but they can only take in a fixed number of elements with known types:
@@ -57,16 +44,16 @@ Tuples are like an array, but they can only take in a fixed number of elements w
 // myTyple has a number at the first position
 // and a boolean at the second position
 let myTuple: [number, boolean] = [
-  1, 
+  1,
   true
 ];
 ```
 
-Note that for tuples, the order of elements matters. 
+Note that for tuples, the order of elements matters.
 
-If you define its type as `[number, boolean]`, then the tuple must contain exactly two elements and be in the correct order. 
+If you define its type as `[number, boolean]`, then the tuple must contain exactly two elements and be in the correct order.
 
-Here is an example that would throw an error:
+Here is an example that would throw an error because the order of the types is wrong:
 
 ```ts
 let myTuple: [number, boolean] = [
@@ -97,7 +84,7 @@ let c: []number = [1, 2];
 ---
 ## Revision
 
-Which of the following variable assignments **will not throw** an error:
+Which of the following statements **will not throw** an error:
 
 ```ts
 let aTuple: [string, boolean];

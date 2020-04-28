@@ -31,7 +31,7 @@ let u: Object = undefined; // error
 
 This often leads to confusion. Usually by "object" we only mean collections of values (e.g. maps, sets, arrays, plain objects), but not primitive values[2] (e.g. numbers or strings).
 
-This is where the `object` type comes into play.
+This is why it is recommended to use the `object` type:
 
 ```ts
 let arr: object = [1, 2, 3];
@@ -115,7 +115,7 @@ All values besides `null` and `undefined` are a form of object in JavaScript. A 
 ```js
 // use anything as x
 x = 'anything'
-// if this throws, then 
+// if this throws, then
 // its not an object
 (x).enki
 ```
