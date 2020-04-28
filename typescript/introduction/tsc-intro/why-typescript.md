@@ -24,7 +24,7 @@ The main feature, as its name suggests, is that it allows the use of *types*.
 
 TypeScript checks your code by making sure you use the same data shapes wherever you said you would.
 
-For example, if you tell TypeScript that a variable is is going to hold a number and you try to put text into it, TypeScript will give you an error.
+For example, if you tell TypeScript that a variable is going to hold a number and you try to put text into it, TypeScript will give you an error.
 
 This is useful because making sure that the same data shapes are used throughout the code can help avoid bugs. It makes the code consistent, and less prone to mistakes.
 
@@ -38,7 +38,7 @@ Your editor can integrate with TypeScript and display any problems in the code a
 
 ### Modern, cross-platform JavaScript
 
-Since TypeScript is another layer on top of JavaScript, it allows us to continuously use the latest JavaScript features, even before they become fully supported in JavaScript[2].
+Since TypeScript is a standalone layer on top of JavaScript, it allows us to continuously use the latest JavaScript features, even before they become fully supported in JavaScript[2].
 
 ---
 ## Practice
@@ -62,16 +62,10 @@ TypeScript compares types based on ???
 
 ---
 ## Footnotes
-[1: JavaScript has Duck Types]
-Unlike TypeScript, the types in JavaScript are dynamically determined later on, when the JavaScript program runs. This means that we can't know if we have type errors until we run the code.
+[1: JavaScript has Dynamic Types]
+Unlike TypeScript, the types in JavaScript are dynamically determined later, when the JavaScript program runs. This means that we can't know if we have type errors until we run the code.
 
-After the code is ran, the JavaScript environment figures out the type of some value by checking for presence of certain general features, which various values share.
-
-Because of this, JavaScript allows many values to fall under the same type and has much less type protection than TypeScript.
-
-The term "duck typing" comes from a playful metaphor for its meaning:
-
-> If it looks like a duck, swims like a duck, and quacks like a duck, then it probably is a duck.
+JavaScript is also more lenient than TypeScript and will rarely complain about type errors.
 
 [2: How JavaScript and TypeScript get features]
 Both TypeScript and JavaScript are built based on a specification of rules called [ECMAScript](https://en.wikipedia.org/wiki/ECMAScript). This allows TypeScript to independently include the latest features as soon as they become part of ECMAScript, not matter if JavaScript began to include them.

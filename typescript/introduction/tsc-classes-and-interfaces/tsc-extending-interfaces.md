@@ -5,7 +5,7 @@ category: must-know
 aspects:
   - introduction
 links:
-  - '[Play with interfaces](https://www.typescriptlang.org/play/index.html?ssl=1&ssc=1&pln=28&pc=1#code/JYOwLgpgTgZghgYwgAgMoGtgBsvIN4BQyyIcAthAFzIDOYUoA5gNwEC+BBoksiKAEnABGwMPiLIA7gAsIIanQYgW7Tt2jwkaTDgCycOtACeEiAA9IIACY1t2LABoJxQSLGFiwGgDEArvOQhAHsgrAg4EFYOAjCxMBpqDHt9QygjZABecWJSCmoAIgAVIwAHCFQEBhKwfKdiGTkCiAA3Y2QrOCNaiS8-APpfCCc2VgIEIJAaUIgAOiwgxgAKCQADAEkxOCxJTtsaCAgyW2AyEqCaGmAhMOR-MGxkUQByWysJiBWCAEpWccnpuYLZbEFYAGXCUBATGQABI8PEZrkIGxYfCaDMGiAUV5kDB-AB+VEI3r+NifH4EAD0lOQ+XBcEh0OKZQqVTELTaHXSOLxIEJAwg+QIQA){website}'
+  - '[Play with extending interfaces](https://www.typescriptlang.org/play/index.html#code/JYOwLgpgTgZghgYwgAgMoGtgBsvIN4BQyyIcAthAFzIDOYUoA5gNwEC+BBoksiKAEnABGwMPiLIA7gAsIIanQYgW7Tt2jwkaTDgCycOtACeEiAA9IIACY1t2LABoJxQSLGFiwGgDEArvOQhAHsgrAg4EFYOAjCxMBpqDHt9QygjZABecWJSCmoAIgAVIwAHCFQEBhKwfKdiGTkCiAA3Y2QrOCNaiS8-APpfCCc2VgIEIJAaUIgAOiwgxgAKCQADAEkxOCxJTtsaCAgyW2AyEqCaGmAhMOR-MGxkUQByWysJiBWCAEpWccnpuYLZbEFYAGXCUBATGQABI8PEZrkIGxYfCaDMGiAUV5kDB-AB+VEI3r+NifH4EAD0lOQ+XBcEh0OKZQqVTELTaHXSOLxIEJAwg+U4QA){website}'
 
 ---
 

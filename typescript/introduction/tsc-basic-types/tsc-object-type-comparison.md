@@ -6,8 +6,8 @@ aspects:
   - workout
   - deep
 links:
-  - '[Object Type](https://www.typescriptlang.org/docs/handbook/basic-types.html#object){documentation}'
-  - '[Play with object types](https://www.typescriptlang.org/play/index.html?ssl=1&ssc=1&pln=5&pc=45#code/MYewdgzgLgBAhgLhgeQEYCsCmxYF4YDeMmYA1gJZJQBOArpjAL4DcAUK6JLKkiBtnkLEylGDXpM2HcNBjAkREhSSoQIADaY4YJjHyKRVOgxZA){website}'
+  - '[object Type](https://www.typescriptlang.org/docs/handbook/basic-types.html#object){documentation}'
+  - '[Play with object types](https://www.typescriptlang.org/play/index.html#code/MYewdgzgLgBAhgLhgeQEYCsCmxYF4YDeMmYA1gJZJQBOArpjAL4DcAUK6JLKkiBtnkLEylGDXpM2HcNBjAkREhSSoQIADaY4YJjHyKRVOgxZA){website}'
 
 ---
 
@@ -18,7 +18,7 @@ links:
 
 TypeScript has 3 ways to represent an object with slightly different behaviors.
 
-> 💡 An object can be thought of as a collection of named values
+> 💡 An object can be thought of as a collection of name value pairs
 
 ### `Object`
 
@@ -76,8 +76,10 @@ const Enki: {
 Assigning values that aren't part of the shape will cause errors:
 
 ```ts
-empty.name = 'oops'; // Property 'name' does not exist on type '{}'
-Enki.age = 5; // Property 'age' does not exist on type '{ job: string; isFun: boolean; }'
+empty.name = 'oops';
+// error: Property 'name' does not exist on type '{}'
+Enki.age = 5;
+// error: Property 'age' does not exist on type '{ job: string; isFun: boolean; }'
 ```
 
 ---

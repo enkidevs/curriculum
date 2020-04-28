@@ -6,7 +6,7 @@ aspects:
   - introduction
 links:
   - '[Enum Type](typescriptlang.org/docs/handbook/basic-types.html#enum){documentation}'
-  - '[Try Out Enums](https://www.typescriptlang.org/play/index.html?ssl=1&ssc=1&pln=10&pc=5#code/KYOwrgtgBA8gLgC2AJwCIEM7qgbwFBRQCCUAvFAIwA0BUAQlVAPRNTphwD2AtOgM58AlgHMQwACZQuUAEy0AwmSgBWAAw1CqRizYce-IaIlTOKingC+ePABtgcKADNOnAFyxEKDFiXwkaTHQAOjoAbjwAY04QPk47IJtOYQAKZ04ASnCdGSA){website}'
+  - '[Try Out Enums](https://www.typescriptlang.org/play/index.html#code/KYOwrgtgBA8gLgC2AJwCIEM7qgbwFBRQCCUAvFAIwA0BUAQlVAPRNTphwD2AtOgM58AlgHMQwACZQuUAEy0AwmSgBWAAw1CqRizYce-IaIlTOKingC+ePABtgcKADNOnAFyxEKDFiXwkaTHQAOjoAbjwAY04QPk47IJtOYQAKZ04ASnCdGSA){website}'
 
 ---
 
@@ -19,44 +19,44 @@ An `enum` is used to define a set of named constants.
 
 ```ts
 // numerical enum
-enum SomeData {
-  A = 111,
-  B = 222,
-  C = 333
+enum GameLevel {
+  A = 1,
+  B = 2,
+  C = 3
 }
 
-let foo: SomeData = SomeData.A;
-console.log(foo);
-// 111
+let firstLevel: GameLevel = GameLevel.A;
+console.log(firstLevel);
+// 1
 ```
 
 If we omit the values, the enum will assign values from `0` onwards:
 
 ```ts
 // numerical enum
-enum SomeData {
+enum GameLevel {
   A, // auto-assigned to 0
   B, // auto-assigned to 1
   C  // auto-assigned to 2
 }
 
-let foo: SomeData = SomeData.A;
-console.log(foo);
+let firstLevel: GameLevel = GameLevel.A;
+console.log(firstLevel);
 // 0
 ```
 
 You can also set the starting value from which to start the value sequence:
 
 ```ts
-enum OtherData {
+enum WeirdLevel {
   A = 1,
   B, // auto-assigned to 2
   C = 50,
   D, // auto-assigned to 51
 }
 
-let foo: OtherData = OtherData.B;
-console.log(foo);
+let idk: WeirdLevel = WeirdLevel.B;
+console.log(idk);
 // 2
 ```
 
@@ -72,8 +72,8 @@ enum Enki {
   c
 }
 
-let foo: Enki = Enki.c;
-console.log(foo);
+let enki: Enki = Enki.c;
+console.log(enki);
 // ???
 ```
 
@@ -94,8 +94,8 @@ enum Enki {
   c
 }
 
-let foo: Enki = Enki.c;
-console.log(foo);
+let enki: Enki = Enki.c;
+console.log(enki);
 // 13
 ```
 

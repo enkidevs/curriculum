@@ -5,7 +5,7 @@ category: must-know
 aspects:
   - introduction
 links:
-  - '[Practice Lessons from this Insight](https://www.typescriptlang.org/play/index.html?ssl=1&ssc=1&pln=7&pc=14#code/GYVwdgxgLglg9mABACwKYBt1wBRgIYC2qAXIgM5QBOMYA5gDSKoFwBWMpF1dAlJ1TVqIA3gChEiSqighKSAAYASYfiIBfRMuZsYagITyA3KLWjREBBUS0p0wYgC8KDFmwByAKJgA1jDeM3QF4NwGkdtx5jCzAyOHRUADosWmwbVDteYwB6DMQAIi9fRBC9HKA){website}'
+  - '[Practice Lessons from this Insight](https://www.typescriptlang.org/play/index.html#code/GYVwdgxgLglg9mABACwKYBt1wBRgIYC2qAXIgM5QBOMYA5gDSKoFwBWMpF1dAlJ1TVqIA3gChEiSqighKSAAYASYfiIBfRMuZsYagITyA3KLWjREBBUS0p0wYgC8KDFmwByAKJgA1jDeM3QF4NwGkdtx5jCzAyOHRUADosWmwbVDteYwB6DMQAIi9fRBC9HKA){website}'
   - '[Functions in TS](https://www.typescriptlang.org/docs/handbook/functions.html){documentation}'
 
 ---
@@ -19,10 +19,12 @@ We can define a type for a parameter of a function by adding a `:` and a type af
 
 ```ts
 function hello(name: string) {
+//                 ^^^^^^^^
   console.log(`Hello ${name}!`)
 }
 
 hello('Enki');
+// "Hello Enki!"
 ```
 
 If we were to pass a different type we would get an error:
@@ -52,6 +54,7 @@ We can also define the return type of a function:
 
 ```ts
 function hello(name: string): string {
+//                          ^^^^^^^^
   return `Hello ${name}!`;
 }
 
@@ -119,4 +122,4 @@ function enki(age: number): string {
 [1: Parameter vs Argument]
 A *parameter* is a variable defined by a function to hold one of its input values.
 
-The actual value that is passed in is called an *argument*.
+The value that is passed into a function is called an *argument*.

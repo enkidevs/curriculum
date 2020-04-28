@@ -6,7 +6,7 @@ aspects:
   - deep
   - workout
 links:
-  - '[Play with classes](https://www.typescriptlang.org/play/index.html?ssl=1&ssc=1&pln=23&pc=51#code/PTAEBMFMDMEsDtKgIb1AQXrAtsgNgFADGeyAzmRlrnqAN4GiggTIAuyo0A9gE4p5amHPjKNQ8ZNkgAuUGTa8EAcwDc4tgE8ADrPmKVoALygARKhF5T6piyb2HoAHovXbiDGQBXPG1AA3fC9IAnEWaC94IjZYbjQ2AAt2UF5IyjjQBAVUGPZY+HEiOIVU6L4ACgsaADkpPRKVAEp6cSZE2DIAOklpYxRqfFrpG1AAX1DbMAiomIzE5IAjSDw45Uo2blBIf0heTSpLcTJkTQAJWHLmhgci+DJuPEhOleVy1vsAA3OAGlAASQA5Nh+qAACR0dpdLS6UagIj4R7gMEQhIdbp1UYfd6NEbjcYEFhEXiQdhIcpZDjwXJsSDNVAHGgER5+ABekAWvE4JkQAHcGfhyqY2RzkKYcQRhZzOsczhcccwwKYfv8gSCqvg4QjIEjJaKgA){website}'
+  - '[Play with classes](https://www.typescriptlang.org/play/index.html#code/PTAEBMFMDMEsDtKgIb1AQXrAtsgNgFADGeyAzmRlrnqAN4GiggTIAuyo0A9gE4p5amHPjKNQ8ZNkgAuUGTa8EAcwDc4tgE8ADrPmKVoALygARKhF5T6piyb2HoAHovXbiDGQBXPG1AA3fC9IAnEWaC94IjZYbjQ2AAt2UF5IyjjQBAVUGPZY+HEiOIVU6L4ACgsaADkpPRKVAEp6cSZE2DIAOklpYxRqfFrpG1AAX1DbMAiomIzE5IAjSDw45Uo2blBIf0heTSpLcTJkTQAJWHLmhgci+DJuPEhOleVy1vsAA3OAGlAASQA5Nh+qAACR0dpdLS6UagIj4R7gMEQhIdbp1UYfd6NEbjcYEFhEXiQdhIcpZDjwXJsSDNVAHGgER5+ABekAWvE4JkQAHcGfhyqY2RzkKYcQRhZzOsczhcccwwKYfv8gSCqvg4QjIEjJaKCEA){website}'
   - '[Class Type](https://www.typescriptlang.org/docs/handbook/classes.html){documentation}'
 
 ---
@@ -35,7 +35,7 @@ Let's look at an example:
 class Animal {
   // data for all Animals
   name: string;
-  type: string = "animal";
+  kind: string = "animal";
   //           ^^^^^^^^^^ default value
 
   // function that runs on instantiation
@@ -46,7 +46,7 @@ class Animal {
   // function that belongs to every Animal
   sayHi() {
     console.log(
-      `Hi, I'm an ${this.type} called ${this.name}`
+      `Hi, I'm an ${this.kind} called ${this.name}`
     );
   }
 }

@@ -6,7 +6,7 @@ aspects:
   - introduction
   - workout
 links:
-  - '[Try Out Code From This Insight](https://www.typescriptlang.org/play/index.html?ssl=1&ssc=1&pln=17&pc=14#code/GYVwdgxgLglg9mABACwKYBt1wOoysgeQAdYEBDdACjDIFtUAuRAZygCcYwBzAGkVVpwAVjAD8TVh24BKRAG8AUIkQQEzOOlQA6LF0oADACRya9AL6JjA4TDMBCfdIVmFCtJhx5CJeDSoByAFEwAGsYfz5-QF4NwGkd-2kAbgUAemTEACJgsMRYu3S3DCxcfGJSP0og0PDElLTMqsRwABNUYE5UJrzXUEgylELPfAARVrIQdChqOkYWdk5efkERCTnuRABeRGjALJ34+SUVNQ1tXQNjU1QLKyXbBycXAo9i5BHgMYmKrPDI2Pik1IyXxyMS67iKXle70mlTCf1qgIaUW2eSAA){website}'
+  - '[Play with default parameter values](https://www.typescriptlang.org/play/index.html#code/GYVwdgxgLglg9mABACwKYBt1wOoysgeQAdYEBDdACjDIFtUAuRAZygCcYwBzAGkVVpwAVjAD8TVh24BKRAG8AUIkQQEzOOlQA6LF0oADACRya9AL6JjA4TDMBCfdIVmFCtJhx5CJeDSoByAFEwAGsYfz5-QF4NwGkd-2kAbgUAemTEACJgsMRYu3S3DCxcfGJSP0og0PDElLTMqsRwABNUYE5UJrzXUEgylELPfAARVrIQdChqOkYWdk5efkERCTnuRABeRGjALJ34+SUVNQ1tXQNjU1QLKyXbBycXAo9i5BHgMYmKrPDI2Pik1IyXxyMS67iKXle70mlTCf1qgIaUW2eSAA){website}'
 
 ---
 
@@ -22,7 +22,7 @@ To declare an optional parameter, we can use the `?` after the parameter name:
 ```ts
 function hello(
   name: string,
-  emoji?: string
+  emoji?: string // optional
 ) {
   console.log(`${name} ${emoji}!`);
 }
@@ -33,9 +33,9 @@ hello("Enki");
 // "Enki undefined!"
 ```
 
-The reason we get `"Enki undefined"` above is because we didn't pass anything as the `emoji`.
+The reason we get `"Enki undefined"` above is because we didn't pass anything as the `emoji`[1].
 
-One way to protect against this is to manually give `emoji` some default value if it doesn't exist[1]:
+One way to protect against this is to manually give `emoji` some default value if it doesn't exist[2]:
 
 ```ts
 function hello(
@@ -54,7 +54,7 @@ hello("Enki");
 // Enki 💚!
 ```
 
-However, TypeScript has a built-in way to set a default value:
+Since setting the default value is a common operation, TypeScript gives us a built-in way to do it:
 
 > 💡 When setting a default value we don't need to use the `?` because the parameter automatically becomes optional
 
@@ -62,6 +62,7 @@ However, TypeScript has a built-in way to set a default value:
 function hello(
   name: string,
   emoji: string = "💚"
+//              ^^^^^^ default value
 ) {
   console.log(`${name} ${emoji}!`);
 }
@@ -125,7 +126,22 @@ enki()
 ---
 ## Footnotes
 
-[1: Check Value Existence]
+[1: Undefined Value]
+Any value in TypeScript that isn't defined gets the value `undefined`.
+
+```ts
+// variable without a value is undefined
+let variable;
+
+// parameter without a value is undefined
+function enki(x?: number) {
+  // x is undefined
+}
+
+enki(); // call without passing anything in
+```
+
+[2: Check Value Existence]
 In JavaScript, a value can either be [*falsy*](https://developer.mozilla.org/en-US/docs/Glossary/Falsy) or [*truthy*](https://developer.mozilla.org/en-US/docs/Glossary/Truthy).
 
 This means that, when converted to a boolean, a value will become either `true` or `false`.

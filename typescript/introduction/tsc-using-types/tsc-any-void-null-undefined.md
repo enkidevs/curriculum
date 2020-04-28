@@ -34,7 +34,7 @@ anythingReally = [true, false];
 
 `void` means that the data **shouldn't** have any type at all. You can think of `void` as the opposite of `any`.
 
-This is usually useful when we want to protect ourselves from accidentaly returning a value:
+This is usually useful when you want to protect yourself from accidentaly returning a value:
 
 ```ts
 function enki(): void {
@@ -95,7 +95,7 @@ console.log(a); // undefined
 
 ```ts
 // we decided for some reason
-// that a doesn't have a value
+// that "a" doesn't have a value
 // and is thus marked as null
 let a = null;
 ```
@@ -103,7 +103,5 @@ let a = null;
 For example, if we are expecting to get the phone number from a user and they don't give it to us, a sensible default value we can use is `null`.
 
 The reason `null` is more sensible than `undefined` in this case is because `null` means that we determined that a value is missing.
-
-`null` means that something has no value by choice.
 
 When a value is `undefined` we cannot know if it's `undefined` because we set it as such or because it never had a value in the first place.

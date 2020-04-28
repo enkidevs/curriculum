@@ -5,7 +5,7 @@ category: must-know
 aspects:
   - introduction
 links:
-  - '[Play with interfaces and classes](https://www.typescriptlang.org/play/index.html?ssl=1&ssc=1&pln=43&pc=32#code/JYOwLgpgTgZghgYwgAgGIBsCe1kG8BQyyA9McnOusjFtAM7IC2ArnWMgBZwBuKcyIOIwiESZMF3bAGAexjIwmAA4o2UUAHNRg4QC5kazQG5RpcpWq0oDFm048+lzEwgSZAE1PjJ9hiBnISnBQQq705CCeRGbuMhB0IADk7FCuzFAgEZgSmqI0mAAUAJT63DLA7iYAvvj4COhwdAwAQsBQ7sjAjEroEMLgDBjYUHjaofqGIBomRAgyIGrMCGAyUAU6EBNg6lNFo0REOXQAdBvIALwCoTPINUT5xfsHcwsyvcfoMhoFogfIAAYAIzaHQAJLgjqdQlVOgx8pp-r9kEUbjUanUGk1kAAREIaeadbq9fpgQZWJ4bLY7aaiF6LZardbjAzbTR7Ah-SFnS4bVF5LCPDnPeZ0N4QD5fH5-Ij-dx4gngrnQ2FOBFIlGiNG1OnsCBwDS9C4CCAAd2QrXaBQARABRfW9K0anXIABWcEBgOgJpkCAA1s4eaacfKQFLkFaAFLuz1Qb1+zBW-Aa-B6g3ih4aszA9rIO1plXwqb4N0er0+-3HDMmGIh5BR0ux8vOaSqqZAA){documentation}'
+  - '[Play with interfaces and classes](https://www.typescriptlang.org/play/index.html#code/JYOwLgpgTgZghgYwgAgGIBsCe1kG8BQyyA9McnOusjFtAM7IC2ArnWMgBZwBuKcyIOIwiESZMF3bAGAexjIwmAA4o2UUAHNRg4QC5kazQG5RpcpWq0oDFm048+lzEwgSZAE1PjJ9hiBnISnBQQq705CCeRGbuMhB0IADk7FCuzFAgEZgSmqI0mAAUAJT63DLA7iYAvvj4COhwdAwAQsBQ7sjAjEroEMLgDBjYUHjaofqGIBomRAgyIGrMCGAyUAU6EBNg6lNFo0REOXQAdBvIALwCoTPINUT5xfsHcwsyvcfoMhoFogfIAAYAIzaHQAJLgjqdQlVOgx8pp-r9kEUbjUanUGk1kAAREIaeadbq9fpgQZWJ4bLY7aaiF6LZardbjAzbTR7Ah-SFnS4bVF5LCPDnPeZ0N4QD5fH5-Ij-dx4gngrnQ2FOBFIlGiNG1OnsCBwDS9C4CCAAd2QrXaBQARABRfW9K0anXIABWcEBgOgJpkCAA1s4eaacfKQFLkFaAFLuz1Qb1+zBW-Aa-B6g3ih4aszA9rIO1plXwqb4N0er0+-3HDMmGIh5BR0ux8vOaSqotAA){documentation}'
 
 ---
 
@@ -14,7 +14,7 @@ links:
 ---
 ## Content
 
-Interfaces can be use with classes as their **behavioral contract**.
+Interfaces can be used with classes as their **behavioral contract**.
 
 For example, for a `Bird` and a `Dragon` to become flyers, they must implement the `Flyer` contract.
 

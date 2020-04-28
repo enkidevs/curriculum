@@ -51,10 +51,10 @@ ts-node hello.ts
 ---
 ## Practice
 
-To **compile** a TypeScript file called `enki.ts` into a JavaScript `enki.js`, you have to run the following command:
+To **compile** a TypeScript file called `enki.ts` into a JavaScript file called `enki.js`, you have to run the following command:
 
 ```bash
-??? file.ts
+??? enki.ts
 ```
 
 * tsc

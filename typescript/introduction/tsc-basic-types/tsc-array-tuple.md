@@ -5,7 +5,7 @@ category: must-know
 aspects:
   - introduction
 links:
-  - '[Try out the code from this Insight](https://www.typescriptlang.org/play/index.html?ssl=1&ssc=1&pln=13&pc=3#code/DYUwLgBAdgrgtgIxAJwILOQQwJ4C5rxLIDaAuhALwTECMANBAMwMCsDA7KQNwBQPokAM5hkASygBzdFjwRpOADzCxkgHyVqPCBABEAeyggddLbrAALZCCMntOgGaiAbjdM7BIF1B09ufARBw2AAqMAAOoPjEsIgoDAh6eqCYUORUxKb0piIwIL5cQA){website}'
+  - '[Try out the code from this Insight](https://www.typescriptlang.org/play/index.html#code/DYUwLgBAdgrgtgIxAJwILOQQwJ4C5rxLIDaAuhALwTECMANBAMwMCsDA7KQNwBQPokAM5hkASygBzdFjwRpOADzCxkgHyVqPCBABEAeyggddLbrAALZCCMntOgGaiAbjdM7BIF1B09ufARBw2AAqMAAOoPjEsIgoDAh6eqCYUORUxKb0piIwIL5cQA){website}'
   - '[Array Type](https://www.typescriptlang.org/docs/handbook/basic-types.html#array){documentation}'
   - '[Tuple Type](https://www.typescriptlang.org/docs/handbook/basic-types.html#tuple){documentation}'
 
@@ -75,8 +75,8 @@ The order of the types must be exact:
 // this is an error because we're storing
 // the types in the wrong order
 let myTuple: [number, boolean] = [
-  true, // Type 'true' is not assignable to type 'number'
-  1 // Type 'number' is not assignable to type 'boolean'
+  true, // error: Type 'true' is not assignable to type 'number'
+  1 // error: Type 'number' is not assignable to type 'boolean'
 ];
 ```
 
