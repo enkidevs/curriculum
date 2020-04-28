@@ -7,3 +7,4 @@ insights:
   - tsc-number-string-boolean
   - tsc-types-in-functions
   - tsc-protecting-functions
+  - tsc-any-void-null-undefined

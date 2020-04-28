@@ -26,7 +26,7 @@ npm install -g typescript
 
 This will make TypeScript a global CLI command[1] which you can start using in your terminal.
 
-> 💡A file containing TypeScript code ends in `.ts`.
+> 💡 A file containing TypeScript code ends in `.ts`.
 
 Since any valid JavaScript is also TypeScript (and types are optional), to convert a JavaScript file to TypeScript, we can just replace `.js` with `.ts`[2]:
 

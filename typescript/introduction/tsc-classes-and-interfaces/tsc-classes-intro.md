@@ -1,12 +1,13 @@
 ---
 author: kapnobatai136
-
 type: normal
-
 category: must-know
-
 aspects:
-  - introduction
+  - deep
+  - workout
+links:
+  - '[Play with classes](https://www.typescriptlang.org/play/index.html?ssl=1&ssc=1&pln=23&pc=51#code/PTAEBMFMDMEsDtKgIb1AQXrAtsgNgFADGeyAzmRlrnqAN4GiggTIAuyo0A9gE4p5amHPjKNQ8ZNkgAuUGTa8EAcwDc4tgE8ADrPmKVoALygARKhF5T6piyb2HoAHovXbiDGQBXPG1AA3fC9IAnEWaC94IjZYbjQ2AAt2UF5IyjjQBAVUGPZY+HEiOIVU6L4ACgsaADkpPRKVAEp6cSZE2DIAOklpYxRqfFrpG1AAX1DbMAiomIzE5IAjSDw45Uo2blBIf0heTSpLcTJkTQAJWHLmhgci+DJuPEhOleVy1vsAA3OAGlAASQA5Nh+qAACR0dpdLS6UagIj4R7gMEQhIdbp1UYfd6NEbjcYEFhEXiQdhIcpZDjwXJsSDNVAHGgER5+ABekAWvE4JkQAHcGfhyqY2RzkKYcQRhZzOsczhcccwwKYfv8gSCqvg4QjIEjJaKgA){website}'
+  - '[Class Type](https://www.typescriptlang.org/docs/handbook/classes.html){documentation}'
 
 ---
 
@@ -17,26 +18,36 @@ aspects:
 
 Classes represent the building blocks of the style of programming called *object-oriented programming*, or OOP[1].
 
-The idea behind it is to organize related values and behaviors into definitions of entities that exist in your program (an "Animal", a "GamePlayer", a "User", etc). Then you can use these definitions, called classes, to *create (or instantiate)* those entities wherever you'd like.
+The idea behind OOP is to organize related values and behaviors into definitions of things that exist in your program (an "Animal", a "GamePlayer", a "User", etc).
 
-These instances of classes are called objects.
+You can think of a class as a blueprint that defines how some object will behave and what data it will have.
 
-To define a class, TypeScript gives us the `class` keyword. To create an instance of that class we can use the `new` keyword. Let's look at an example:
+To define a class, we can use the `class` keyword.
 
-> *Note*: A function defined on a class is called a **method**. Any method can access values defined on the class using the `this` keyword.
+To create an object based on that class we can use the `new` keyword.
 
-> *Note*: The `constructor` function is a special function that runs when a class is instantiated using `new`.
+> 💡 Creating an object based on a class is called *instantiation*
+
+Let's look at an example:
 
 ```ts
 // define an Animal
 class Animal {
+  // data for all Animals
   name: string;
-  type: string = 'animal';
+  type: string = "animal";
+  //           ^^^^^^^^^^ default value
+
+  // function that runs on instantiation
   constructor(animalName: string) {
     this.name = animalName;
   }
+
+  // function that belongs to every Animal
   sayHi() {
-    console.log(`Hi, I'm an ${this.type} called ${this.name}`);
+    console.log(
+      `Hi, I'm an ${this.type} called ${this.name}`
+    );
   }
 }
 
@@ -45,25 +56,24 @@ let zebra = new Animal("zebra");
 zebra.sayHi(); // "Hi, I'm an animal called zebra"
 ```
 
-The benefit of classes is that they allow us to define data and behavior in one place, and then create many entities that use that data and follow that behavior as we see fit. In the example above, we used the `Animal` class to create a `zebra` but we could've also created a `tiger` and an `eagle` too.
+> 💡 A function defined on a class is called a **method**. Any method can access values defined on the class through the `this` value.
 
-This allows us to have reusable code and not repeat ourselves.
+> 💡 The `constructor` function is a special function that runs when a class is instantiated using `new`.
 
-Note that using classes comes with some drawbacks due to their strict rules[2].
+The benefit of classes is that they allow us to define data and behaviors in one enclosed place, and then create many objects based on that definition.
+
+In the example above, we used the `Animal` class to create a `zebra` but we could've also created a `tiger` or an `eagle`.
 
 ---
 ## Practice
 
-Create an instance of the `City` class:
+Create the `"London"` instance of the `City` class:
 
 ```ts
 class City {
   name: string;
   constructor(cityName: string) {
     this.name = cityName;
-  }
-  printCity() {
-    console.log(this.name);
   }
 }
 
@@ -76,10 +86,37 @@ let london = ??? ???('London')
 * city
 
 ---
+## Revision
+
+Create the `"Miami"` instance of the `City` class:
+
+```ts
+??? City {
+  name: string;
+  constructor(cityName: string) {
+    this.name = cityName;
+  }
+  printCity() {
+    console.log(this.name);
+  }
+}
+
+let miami = ??? ???('Miami')
+```
+
+* class
+* new
+* City
+* interface
+* New
+* city
+
+---
 ## Footnotes
 
 [1:Object-oriented programming]
-OOP teaches us to [organize](https://en.wikipedia.org/wiki/Encapsulation_(computer_programming)) data along with its associated behaviors into [units](https://en.wikipedia.org/wiki/Abstraction_(computer_science)) called classes. Other classes can [inherit](https://en.wikipedia.org/wiki/Inheritance_(object-oriented_programming)) this data/behaviors further and change it or add their own. Related classes can also be [converted into one another](https://en.wikipedia.org/wiki/Polymorphism_(computer_science)).
+OOP teaches us to [organize](https://en.wikipedia.org/wiki/Encapsulation_(computer_programming)) data along with its associated behaviors into [units](https://en.wikipedia.org/wiki/Abstraction_(computer_science)) called classes.
 
-[2:Classes]
-Classes in OOP can inherit from one another. For example, a Mammal can extend an Animal. This can lead to programs with many levels of these inheritance links that are strict and hard to change. As an example, you can read about the [Diamond Problems](https://en.wikipedia.org/wiki/Multiple_inheritance#The_diamond_problem)
+Other classes can [inherit](https://en.wikipedia.org/wiki/Inheritance_(object-oriented_programming)) this data/behaviors further and change it or add their own.
+
+Related classes can also be [converted into one another](https://en.wikipedia.org/wiki/Polymorphism_(computer_science)).

@@ -1,9 +1,9 @@
-name: Interfaces & Classes
+name: Classes & Interfaces
 
-description: Grouping and re-using types.
+description: Typing and creating objects
 
 insights:
-  - tsc-interfaces-intro
   - tsc-classes-intro
+  - tsc-interfaces-intro
   - tsc-classes-and-interfaces-intro
   - tsc-extending-interfaces

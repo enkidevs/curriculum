@@ -1,15 +1,12 @@
 ---
-author: kapnobatai136
-
+author: nem035
 type: normal
-
 category: must-know
-
 aspects:
   - introduction
-
 links:
-  - '[Play with interfaces](https://www.typescriptlang.org/play/index.html?ssl=1&ssc=1&pln=16&pc=88#code/JYOwLgpgTgZghgYwgAgKIgNbGQbwFDLID0RycIyA9gA5jCUhwA2yClAtuxOAax1+AD8ALmQBnMFFABzANy8SZZFAhwAJlRBMAnsgCuUJrxXqGO-YdESpIOXgC+ePEwhhkEUeizIAvLgWkAO4ocCqa5upqMshgABYoBkaEiiCUyCAQEBpgaZFKbJzcYAHIAEYQCHB6YijAYADkYlS09IxJFkyi9dxYAHQF9Q5OipUgqW6BUpAxucqqama6iXgQvYm+yPXjzEyUwWr9HPWyxKQAwuTjZGJiwNIUOZuJ9WUVVTXIdZ9NcHPqALSLZDUKA0aBgbS9IA){website}'
+  - '[Play with interfaces](https://www.typescriptlang.org/play/index.html?ssl=1&ssc=1&pln=17&pc=71#code/JYOwLgpgTgZghgYwgAgApwJ4FsLgCpRwgDOiYwA9iMgN4BQyyA9E8kchQA7lVwA2yBBSw5wDQcNFgA-AC5kxMFFABzANziWbZFAhwAJhxB8MyAG78ArhHG6DVE+asR5IS1gBG0DQF86dPggwZE5MKXl0bFwwAiJSBB5qAF5aTVYAdxQ4XSNHA31VZDAACxQLPms05BAKaogIQzBa-O0hEWiqrwQ4S2IUYDAAcmIObkoQfnFy63kARgAmAGYAGjo-Oi1ukBrghGKiFSydPX0HU2mbUKjwADoL5BSABg0taCgKKHkAYSIdtmJiMAVNQmshBhdBsguj0+sgBnCRnBjgYALRnELvTjQMAYG5AA){website}'
+  - '[Interface Type](https://www.typescriptlang.org/docs/handbook/interfaces.html){documentation}'
 
 ---
 
@@ -18,108 +15,92 @@ links:
 ---
 ## Content
 
-In TypeScript, the object shape is represented as a collection of key-value pairs:
+The `interface` type is used to define a shape of an object.
+
+> 💡 Unlike a class, an interface is a virtual structure that only exists for type-checking purposes.
 
 ```ts
-function logLanguage(language: { name: string }) {
-  console.log(language.name);
-}
-
-const language = {
-  name: "TypeScript",
-};
-
-logLanguage(language);
-// "TypeScript"
-```
-
-The order of the properties doesn't matter, or if any additional ones exist.
-
-```ts
-function logLanguage(language: { types: string, name: string }) {
-  console.log(`${language.name} has ${language.types} types`);
-}
-
-const language = {
-  name: "TypeScript",
-  types: "static",
-  isFun: true
-};
-
-logLanguage(language);
-// "TypeScript has static types"
-```
-
-If we wanted to reuse the type of `language` shape at multiple places in our program, we can extract it into an interface:
-
-```ts
-interface Language {
+// define what the shape of
+// the Book object
+// should look like
+interface Book {
   name: string;
-  types: string;
+  language: string;
   isFun: boolean;
 }
 
-function one(lang: Language) {
+// use the Book shape as the type.
+function read(book: Book) {
   // ...
 }
 
-function two(language: Language) {
+function countWord(
+  book: Book,
+  word: string
+): number {
   // ...
 }
 ```
 
-Now both `one` and `two` expect the same shape as their argument.
+Interfaces cannot be instantiated. We do not use them to create objects.
 
-Besides allowing us to define the shape of an object, interfaces let us declare properties as optional or read only:
+Their purpose is to declare a type for specific object shapes.
+
+We can use interfaces to declare object properties as optional or read only:
 
 ```ts
-interface Enki {
+interface PaymentTransaction {
   // an optional comment
   comment?: string;
-  // a read only url
-  readonly url: string;
+  // a read only value
+  readonly value: number;
 }
 
-let e: Enki = {
-  // we are only adding the url
+let payment: PaymentTransaction = {
+  // we are only adding the value
   // no need to add a comment
   // because it's optional
-  url: 'enki.com'
+  value: 123,
 }
 
-// cannot write to a readonly url
-e.url = 'notallowed.com'; // Cannot assign to 'url' because it is a read-only property.
+// cannot change a readonly value
+payment.value = 0;
+// error: Cannot assign to 'value' because it is a read-only property.
 ```
 
 ---
 ## Practice
 
-Create an interface for the object:
+Fill in the blacks such that `reader` satisfies the `BookReader` interface:
 
 ```ts
-const myObject = {
-  name: 'foobar',
-  isTrue: false
+interface Book {
+  name: string;
 }
 
-??? MyInterface {
-  name: ???;
-  isTrue: ???;
+interface BookReader {
+  books: ???;
 }
+
+let reader??? = {
+  books: [
+    { name: "Don Quixote" },
+    { name: "Robinson Crusoe" },
+  ],
+};
 ```
 
-* interface
-* string
-* boolean
-* 'foobar'
-* false
-* number
-* Interface
+* Array<Book>
+* : BookReader
+* satisfy BookReader
+* []Book
+* = BookReader
+* Array<string>
 
 ---
 ## Revision
 
-Will the following code cause an error?
+Will the following code cause a type error?
 
 ```ts
 interface Enki {

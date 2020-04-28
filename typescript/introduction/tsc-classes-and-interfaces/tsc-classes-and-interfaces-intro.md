@@ -1,15 +1,11 @@
 ---
 author: nem035
-
 type: normal
-
 category: must-know
-
 aspects:
   - introduction
-
 links:
-  - '[Play with interfaces and classes](https://www.typescriptlang.org/play/index.html?ssl=1&ssc=1&pln=30&pc=58#code/JYOwLgpgTgZghgYwgAgDJxAcwK50ygbwChlkQ4BbCALmQGcwpRMBuE+uATwDlKIAKCBQD2AK2C0GTLAEpaAN2HAAJkQC+RIggA2cOnWQAFKMMxRKFZuiy58yYBQAO2oRHAHrOPIXbkqkxmY2UjouXipBEXEA6UxkAF5kAHJAXg3AKD2kmWRiUlIEYRA6YRcAOm1TfgADAEkkimQwAAsUABICJuA6Er8INWRHEzMLZmRdG29kNqExYDVKmWDkDTyCqWwEMGEofh6Y5iyc3I6unoSyPkWNDS1VsAaDRJAIAHcjQfMKSyxPWwEAIgAKpxHBAAMoIJiOMB-BZEMBdUI8Pj8BbIAD0aOQf1q9SaKCBIPBkLuA1MHy+cTGXjs6T+mh0egMAAlsBQMD8Jg5nK53GgMNSfKRdvRAlhFojwgJptERbEzqkMgd2CtCsUIGUKjU6g1mpN2o1Ot0+H1GqyMKN+b89dLZvNLux8oVGOtNtthVJ9tllTrDadHhd2Fd6bdkG5MNpOo0zk9Xiy2SAOfh+H8AKJYCN0RowthhjONEoS5GojFYnE6lBp8OR5Cm+MW8Y0tJ-IA){website}'
+  - '[Play with interfaces and classes](https://www.typescriptlang.org/play/index.html?ssl=1&ssc=1&pln=43&pc=32#code/JYOwLgpgTgZghgYwgAgGIBsCe1kG8BQyyA9McnOusjFtAM7IC2ArnWMgBZwBuKcyIOIwiESZMF3bAGAexjIwmAA4o2UUAHNRg4QC5kazQG5RpcpWq0oDFm048+lzEwgSZAE1PjJ9hiBnISnBQQq705CCeRGbuMhB0IADk7FCuzFAgEZgSmqI0mAAUAJT63DLA7iYAvvj4COhwdAwAQsBQ7sjAjEroEMLgDBjYUHjaofqGIBomRAgyIGrMCGAyUAU6EBNg6lNFo0REOXQAdBvIALwCoTPINUT5xfsHcwsyvcfoMhoFogfIAAYAIzaHQAJLgjqdQlVOgx8pp-r9kEUbjUanUGk1kAAREIaeadbq9fpgQZWJ4bLY7aaiF6LZardbjAzbTR7Ah-SFnS4bVF5LCPDnPeZ0N4QD5fH5-Ij-dx4gngrnQ2FOBFIlGiNG1OnsCBwDS9C4CCAAd2QrXaBQARABRfW9K0anXIABWcEBgOgJpkCAA1s4eaacfKQFLkFaAFLuz1Qb1+zBW-Aa-B6g3ih4aszA9rIO1plXwqb4N0er0+-3HDMmGIh5BR0ux8vOaSqqZAA){documentation}'
 
 ---
 
@@ -18,75 +14,56 @@ links:
 ---
 ## Content
 
-An interface can be used to define a particular behavior that a class can implement.
+Interfaces can be use with classes as their **behavioral contract**.
+
+For example, for a `Bird` and a `Dragon` to become flyers, they must implement the `Flyer` contract.
 
 ```ts
-interface Language {
+interface Flyer {
+  // all flyers must have a name
+  // that is of type string
   name: string;
+  // all flyers must have a fly method
+  // that has no parameters and
+  // doesn't return anything
+  fly(): void;
 }
 
-class ProgrammingLanguage implements Language {
+class Bird implements Flyer {
   name: string;
   constructor(name: string) {
     this.name = name;
   }
+  fly() {
+    console.log(
+      `bird ${this.name} is flying`
+    );
+  }
 }
 
-const ts = new ProgrammingLanguage("TypeScript");
-ts.name // "TypeScript"
+class Dragon implements Flyer {
+  name: string;
+  constructor(name: string) {
+    this.name = name;
+  }
+  fly() {
+    console.log(
+      `dragon ${this.name} is flying`
+    );
+  }
+}
+
+const eagle = new Bird("Eagle");
+const jabberwocky = new Dragon(
+  "Jabberwocky"
+);
+
+eagle.fly();
+// bird Eagle is flying
+jabberwocky.fly();
+// dragon Jabberwocky is flying
 ```
 
-You can also define methods in an interface that are implemented in the class:
-
-```ts
-interface Language {
-  name: string;
-  sayName(emoji: string): void
-}
-
-class ProgrammingLanguage implements Language {
-  name: string;
-  sayName(emoji: string = '😊') {
-    console.log(`My name is ${this.name} ${emoji}`);
-  }
-  constructor(name: string) {
-    this.name = name;
-  }
-}
-
-const ts = new ProgrammingLanguage("TypeScript");
-ts.sayName(); // "My name is TypeScript 😊"
-```
-
-Multiple classes can implement the same interface:
-
-```ts
-class ProgrammingLanguage implements Language {
-  name: string;
-  sayName(emoji: string = '😊') {
-    console.log(`I'm the ${this.name} programming language ${emoji}`);
-  }
-  constructor(name: string) {
-    this.name = name;
-  }
-}
-
-class HumanLanguage implements Language {
-  name: string;
-  sayName(emoji: string = '😊') {
-    console.log(`I'm the ${this.name} human language ${emoji}`);
-  }
-  constructor(name: string) {
-    this.name = name;
-  }
-}
-
-const ts = new ProgrammingLanguage("TypeScript");
-ts.sayName(); // "I'm the TypeScript programming language 😊"
-
-const english = new HumanLanguage("English");
-english.sayName(); // "I'm the English human language 😊"
-```
 
 ---
 ## Practice
@@ -98,11 +75,13 @@ Fill in the gaps such that the code contains no type errors:
   category: string;
 }
 
-??? Enki ??? MobileApp {
+??? EnkiApp ??? MobileApp {
   category: ???
 }
 
-const e = ??? Enki();
+// Hint: we're not passing
+// in the category
+const e = ??? EnkiApp();
 e.category;
 ```
 
