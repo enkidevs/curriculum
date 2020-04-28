@@ -1,4 +1,4 @@
-﻿---
+---
 author: Stefan-Stojanovic
 
 aspects:
@@ -16,7 +16,7 @@ category: how to
 ---
 ## Content
 
-Other than transforming your data, you can create *graphs or charts* to represent or visualize the results more effectively.
+On top of transforming data, you can create *graphs or charts* to represent or visualize the results more effectively.
 
 ![charts-and-graphs](https://img.enkipro.com/f85a38f772093d491212cbdf439aa80f.png)
 
@@ -27,11 +27,10 @@ This is just some of what spreadsheets can do. We'll cover all the main features
 ---
 ## Practice
 
-What can you **NOT** do using spreadsheets?
+How do you visually represent data in spreadsheets?
 
 ???
 
-* Edit a picture.
-* Calculate numerical data.
-* Create graphs and charts.
-* Create pivot tables.
+* Using graphs or charts.
+* Using images.
+* Using gifs.
