@@ -1,15 +1,12 @@
 ---
 author: kapnobatai136
-
 type: normal
-
 category: must-know
-
 aspects:
   - introduction
-
+  - workout
 links:
-  - '[ts-node](https://www.npmjs.com/package/ts-node){website}'
+  - '[`ts-node` NPM package](https://www.npmjs.com/package/ts-node){website}'
   - '[Try out the hello.ts example](https://www.typescriptlang.org/play/index.html#code/GYVwdgxgLglg9mABACwKYBt1wBRgIYC2qAXIgM5QBOMYA5gJSIDeAUIohAmXOqgHRZa2AAYAJDFkQASJviIBfAITD6LeSxZpMOAOQBBMABNKqGDvoBuIA){website}'
 
 ---

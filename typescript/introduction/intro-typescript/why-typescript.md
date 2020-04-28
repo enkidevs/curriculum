@@ -1,16 +1,14 @@
 ---
 author: kapnobatai136
-
 type: normal
-
 category: must-know
-
 aspects:
   - introduction
-
+  - workout
 links:
   - '[TypeScript is one of the most loved languages](https://insights.stackoverflow.com/survey/2019#most-loved-dreaded-and-wanted){website}'
   - '[TypeScript is getting more popular every year](https://2019.stateofjs.com/javascript-flavors/typescript/){website}'
+  - '[Use TypeScript in VSCode](https://code.visualstudio.com/Docs/languages/typescript){documentation}'
   - '[What is the difference between statically typed and dynamically typed languages?](https://stackoverflow.com/questions/1517582/what-is-the-difference-between-statically-typed-and-dynamically-typed-languages){discussion}'
 
 ---
@@ -28,13 +26,13 @@ TypeScript checks your code by making sure you use the same data shapes wherever
 
 For example, if you tell TypeScript that a variable is is going to hold a number and you try to put text into it, TypeScript will give you an error.
 
-This is useful because making sure that the same data shapes are used throughout the code can help avoid bugs. It makes the code consistent, and less prone to typos.
+This is useful because making sure that the same data shapes are used throughout the code can help avoid bugs. It makes the code consistent, and less prone to mistakes.
 
 ### Static types
 
 One way to think of TypeScript is as a **spellchecker for JavaScript**.
 
-TypeScript checks your code *statically*, by looking at it *without running it*[1]. This can speed up development because you can catch problems early on.
+TypeScript checks your code **statically**, by looking at it *without running it*[1]. This can speed up development because you can catch problems early on.
 
 Your editor can integrate with TypeScript and display any problems in the code as you're writing it. This means you write safer code from the start.
 
@@ -65,11 +63,11 @@ TypeScript compares types based on ???
 ---
 ## Footnotes
 [1: JavaScript has a Duck typing system]
-Unlike TypeScript, the types in JavaScript are dynamically determined when the JavaScript program runs. After running the code, the JavaScript environment figures out the type by checking for presence of some pre-defined features in a value to determine its type.
+Unlike TypeScript, the types in JavaScript are dynamically determined when the JavaScript program runs. After running the code, the JavaScript environment figures out the type by checking for presence of some pre-defined features in a value.
 
 The name "duck typing" comes from a playful metaphor for its meaning:
 
 > If it looks like a duck, swims like a duck, and quacks like a duck, then it probably is a duck.
 
 [2: How JavaScript and TypeScript get features]
-Both TypeScript and JavaScript are built based on a specification of rules called [ECMAScript](https://en.wikipedia.org/wiki/ECMAScript). This allows TypeScript to independently include the latest features even before JavaScript includes them.
+Both TypeScript and JavaScript are built based on a specification of rules called [ECMAScript](https://en.wikipedia.org/wiki/ECMAScript). This allows TypeScript to independently include the latest features as soon as they become part of ECMAScript, not matter if JavaScript began to include them.

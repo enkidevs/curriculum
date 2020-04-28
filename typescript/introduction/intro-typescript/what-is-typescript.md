@@ -1,13 +1,10 @@
 ---
 author: kapnobatai136
-
 type: normal
-
 category: must-know
-
 aspects:
   - introduction
-
+  - workout
 links:
   - '[Machine Learning with JavaScript](https://www.tensorflow.org/js){website}'
   - '[Build User Interfaces with JavaScript](https://reactjs.org/){website}'
@@ -28,17 +25,19 @@ You're probably thinking "What's JavaScript got to do with it -- isn't this a Ty
 
 Because of the popularity of JavaScript, many tools were created to further expand its capabilities, ranging from tools to improve web app development to tools that enable building mobile apps and even backend servers.
 
-> *Note*: Knowing a little bit of JavaScript is recommended before learning TypeScript. If you'd like to, checkout our JavaScript skill to build up your JS muscles 💪.
+> 💡 Knowing a little bit of JavaScript is recommended before learning TypeScript. If you'd like to, checkout our JavaScript skill to build up your JS muscles 💪.
 
-TypeScript is another creation meant to put the future of JavaScript in the hands of developers.
+TypeScript is another creation meant to expand what JavaScript can do.
 
 It is a **strict superset[1] of JavaScript with optional types**.
 
-This means that TypeScript has and always will have all the functionality of JavaScript with the optional capability of using types.
+![ts-superset-of-js](https://img.enkipro.com/240e5e44b287301100c65625ff3d77e9.png)
 
-![typescript-is-superset-of-javascript](https://img.enkipro.com/074c0352be386e58bbdd697ed8bff427.png)
+This means that TypeScript has and always will have all the functionality of JavaScript with the option of using types where needed.
 
-TypeScript has all of the features of JavaScript and more!
+![js-plus-types](https://img.enkipro.com/b26f3ae2980609f1e6eb5cb3eccfa820.png)
+
+Anything that you can build with JavaScript you can also build with TypeScript.
 
 ---
 ## Practice

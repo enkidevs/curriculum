@@ -1,16 +1,13 @@
 ---
 author: kapnobatai136
-
 type: normal
-
 category: must-know
-
 aspects:
   - introduction
-
 links:
   - '[What is a Compiler?](https://en.wikipedia.org/wiki/Compiler){website}'
-  - '[TypeScript Compiler](https://www.npmjs.com/package/typescript){website}'
+  - '[The TypeScript Compiler](https://www.npmjs.com/package/typescript){website}'
+  - '[Download Node.js](https://nodejs.org/en/download/){website}'
 
 ---
 
@@ -19,17 +16,19 @@ links:
 ---
 ## Content
 
-Installing TypeScript is as easy as writing a line of code. Using NPM, all you have to type is:
+TypeScript can be installed with a single NPM command:
+
+> 💻 Before you can install TypeScript, you must have Node.js and NPM installed.
 
 ```bash
 npm install -g typescript
 ```
 
-The command above will install TypeScript as a global package and you can start using it anywhere.
+This will make TypeScript a global package[1] and you can start using it anywhere.
 
-> *Note*: A file containing TypeScript code ends in `.ts`.
+> 💡A file containing TypeScript code ends in `.ts`.
 
-Since any valid JavaScript is also TypeScript (and types are optional), to convert a JavaScript file to TypeScript, we can just replace `.js` with `.ts`[1]:
+Since any valid JavaScript is also TypeScript (and types are optional), to convert a JavaScript file to TypeScript, we can just replace `.js` with `.ts`[2]:
 
 ```ts
 // enki.ts
@@ -38,13 +37,15 @@ let name = 'Enki';
 console.log(`${name} is cool!`);
 ```
 
-The conversion back from TypeScript to JavaScript has an extra step (called *compilation*[2]). To get JavaScript, we first have to remove any TypeScript-specific code that isn't valid in JavaScript. This step is done with the TypeScript Compiler (called `tsc`):
+The conversion back from TypeScript to JavaScript has an extra step called *compilation*[3]. To get JavaScript, we must first remove any TypeScript-specific code that isn't valid in JavaScript.
+
+This step is done with the TypeScript Compiler (called `tsc`):
 
 ```bash
 tsc enki.ts
 ```
 
-This will compile a TypeScript file `enki.ts` into a JavaScript file `enki.js`:
+Above will compile a TypeScript file `enki.ts` into a JavaScript file `enki.js`:
 
 ```js
 // enki.js
@@ -55,12 +56,12 @@ console.log(`${name} is cool!`);
 
 Here's an image to summarize the conversion in both directions:
 
-![typescript-to-and-from-javascript](https://img.enkipro.com/274c90097c3b4af0faf07e0bc9cc4952.png)
+![typescript-to-and-from-javascript](https://img.enkipro.com/e481e032bf000bb9622aae28b2bc1e9f.png)
 
 ---
 ## Practice
 
-The technical term for converting TypeScript code into JavaScript is ???.
+The technical term for converting TypeScript into JavaScript is called ???.
 
 * compilation
 * conversion
@@ -80,8 +81,11 @@ To convert a JavaScript file `enki.js` to TypeScript, we can change the file nam
 ---
 ## Footnotes
 
-[1:Interoperability with JavaScript]
+[1: A global NPM package]
+Installing a package [globally](https://docs.npmjs.com/downloading-and-installing-packages-globally) allows you to use it anywhere on your computer.
+
+[2:Interoperability with JavaScript]
 This is a very important feature of TypeScript. In fact, a major reason for TypeScript's popularity is how easy it is for JavaScript developers to start using it.
 
-[2: Compilation]
+[3: Compilation]
 Compilation is the process of translating computer code written in one programming language into another language
