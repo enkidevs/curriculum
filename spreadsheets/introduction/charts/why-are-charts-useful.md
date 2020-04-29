@@ -1,9 +1,6 @@
 ---
 author: Stefan-Stojanovic
 
-levels:
-  - beginner
-
 aspects:
   - deep
   - workout
@@ -21,14 +18,14 @@ category: how to
 
 Charts are very useful to help **understand large quantities of data** that would otherwise be difficult do individually analyze. You can represent thousands of data points in a chart.
 
-Another good example is detecting patterns and understanding results in a clearer way.
+Another good example is detecting patterns and understanding results in a more clear way.
 
 Depending on the type of chart you choose, you can "tell a different story". This is because visualizations can quickly demonstrate patterns, allow us to draw conclusions, and determine any negative or positive outcomes about our data.
 
 ---
 ## Practice
 
-Which of these are NOT true?
+Which of these are **not** true?
 
 ???
 
