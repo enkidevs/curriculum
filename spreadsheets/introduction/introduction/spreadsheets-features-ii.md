@@ -27,10 +27,9 @@ This is just some of what spreadsheets can do. We'll cover all the main features
 ---
 ## Practice
 
-How do you visually represent data in spreadsheets?
+You can use ??? to visually represent data. If the data set is very large, you can use ??? to aggregate the results in an improved view.
 
-???
-
-* Using graphs or charts.
-* Using images.
-* Using gifs.
+* graphs or charts
+* pivot tables
+* functions
+* named ranges
