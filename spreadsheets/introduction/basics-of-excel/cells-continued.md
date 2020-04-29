@@ -1,9 +1,6 @@
 ---
 author: Stefan-Stojanovic
 
-levels:
-  - beginner
-
 aspects:
   - introduction
   - workout
@@ -25,7 +22,7 @@ Most spreadsheet tools have a feature used to **find and replace data**. To acce
 
 ![find-and-replace](https://img.enkipro.com/78878b3b7f955f8bbd13b8163a01c876.png)
 
-Another quick way of accessing `Find and replace` is by using a keyboard shortcut. In Windows you would have to press `CTRL + H` while in Mac OS you would have to press `COMMAND + SHIFT + H`.
+Another quick way of accessing `Find and replace` is by using a keyboard shortcut. In Windows, you would have to press `CTRL + H` while in Mac OS you would have to press `COMMAND + SHIFT + H`.
 
 ### Using `Find and replace`
 
