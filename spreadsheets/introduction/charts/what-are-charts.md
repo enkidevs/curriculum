@@ -1,9 +1,6 @@
 ---
 author: Stefan-Stojanovic
 
-levels:
-  - beginner
-
 aspects:
   - deep
   - workout
