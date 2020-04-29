@@ -1,9 +1,6 @@
 ---
 author: Stefan-Stojanovic
 
-levels:
-  - beginner
-
 aspects:
   - introduction
   - deep
@@ -19,7 +16,7 @@ category: must-know
 ---
 ## Content
 
-In spreadsheets, you'll usually find that there are four main data types: `Number`, `Text`, `Logical` and `Error`.
+In spreadsheets, you'll usually find that there are four main data types: `Number`, `Text`, `Logical`, and `Error`.
 
 ### Number
 
