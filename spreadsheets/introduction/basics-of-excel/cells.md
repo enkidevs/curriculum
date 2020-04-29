@@ -1,9 +1,6 @@
 ---
 author: Stefan-Stojanovic
 
-levels:
-  - beginner
-
 aspects:
   - introduction
 
@@ -22,7 +19,7 @@ A *cell* is *the intersection point of a row and a column*. Since each row has a
 
 For example, a cell in column `C` and row `20` has the address `C20`.
 
-Cells are essentially **storage units that can contain numbers, text, formulas, dates and more**.
+Cells are essentially **storage units that can contain numbers, text, formulas, dates, and more**.
 
 There are four types of cells:
 1. Numbers (Formulas, Dates and Times)
