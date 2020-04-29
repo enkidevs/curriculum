@@ -1,6 +1,6 @@
-name: Terminology & Basics
+name: Features to save time
 
-description: Get used to the common terminology.
+description: Some tips and tricks to save time.
 
 insights:
   - change-numbers-to-negative
