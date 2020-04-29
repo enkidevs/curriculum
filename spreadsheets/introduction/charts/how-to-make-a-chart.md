@@ -1,9 +1,6 @@
 ---
 author: Stefan-Stojanovic
 
-levels:
-  - beginner
-
 aspects:
   - deep
   - workout
@@ -19,7 +16,7 @@ category: how to
 ---
 ## Content
 
-To create a chart, first you need to create a table.
+To create a chart, first, you need to create a table.
 
 For this example we'll use the following data:
 
@@ -29,10 +26,10 @@ Now, select the whole table, go to `Insert` and select `Chart`.
 
 ![create-chart](https://img.enkipro.com/579a3b86e540f8449faa977b09ae0ea7.png)
 
-This will give you a suggested chart for your data and an option tab where you can choose to modify your chart.
+This will give you a suggested chart for your data and an options tab where you can choose to modify your chart.
 
 ![options](https://img.enkipro.com/67b72c0e3a80125f28a1d0687875462f.png)
 
-After you click on a different charts or change something in the data table, the chart instantly updates.
+After you click on a different chart or change something in the data table, the chart instantly updates.
 
 ![result](https://img.enkipro.com/893dc0bce89b018fa83073b610eb90a7.png)
