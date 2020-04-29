@@ -29,3 +29,15 @@ Spreadsheets were designed to ???
 
 * work with numerical data.
 * edit video content.
+
+---
+## Revision
+
+What can you **NOT** do using spreadsheets?
+
+???
+
+* Edit a picture.
+* Calculate numerical data.
+* Create graphs and charts.
+* Create pivot tables.
