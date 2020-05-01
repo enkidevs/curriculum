@@ -47,7 +47,7 @@ Enki.age = 5;
 
 ### `object`
 
-The type `object` is used to represent any non-primitive[2] value (any collection of values):
+The type `object` is used to represent any non-primitive[1] value (any collection of values):
 
 ```ts
 // an object is an "object"
@@ -70,7 +70,7 @@ let u: object = undefined; // error
 
 The `Object` type is less useful than the other two.
 
-Since any defined value in JavaScript is an object[1], the `Object` type can be used to represent any type that is considered to contain a value:
+Since any defined value in JavaScript is an object[2], the `Object` type can be used to represent any type that is considered to contain a value:
 
 ```ts
 // almost anything is an "Object"
@@ -140,7 +140,17 @@ const d: Object = { enki: true };
 ---
 ## Footnotes
 
-[1: Most JS values are Objects]
+[1:Primitive Values]
+The following types are considered to be primitive:
+- `number`
+- `string`
+- `boolean`
+- `bigint`
+- `symbol`
+- `null`
+- `undefined`
+
+[2:Most JS values are Objects]
 All built-in values besides `null` and `undefined` are a form of object in JavaScript.
 
 A quick test to verify if something is an object is to try and access a property on it and see if it errors.
@@ -167,13 +177,3 @@ Only these throw an error:
 (undefined).enki // Uncaught TypeError: Cannot read property 'property' of undefined
 (null).enki // Uncaught TypeError: Cannot read property 'property' of null
 ```
-
-[2:Primitive Values]
-The following types are considered to be primitive:
-- `number`
-- `string`
-- `boolean`
-- `bigint`
-- `symbol`
-- `null`
-- `undefined`
