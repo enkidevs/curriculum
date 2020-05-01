@@ -52,6 +52,8 @@ class Animal {
 }
 
 // create (instantiate) an Animal
+// Note that we're only passing in the "name" as "zebra"
+// the "kind" has a default value of "animal"
 let zebra = new Animal("zebra");
 zebra.sayHi(); // "Hi, I'm an animal called zebra"
 ```

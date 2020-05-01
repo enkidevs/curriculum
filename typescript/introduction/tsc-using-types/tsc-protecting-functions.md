@@ -60,8 +60,6 @@ hello("Enki");
 
 Since setting the default value is a common operation, TypeScript gives us a built-in way to do it:
 
-> 💡 When setting a default value we don't need to use the `?` because the parameter automatically becomes optional
-
 ```ts
 function hello(
   name: string,
@@ -76,6 +74,8 @@ hello("Enki", "👋");
 hello("Enki");
 // "Enki 💚!"
 ```
+
+> 💡 When setting a default value we don't need to use the `?` because the parameter automatically becomes optional.
 
 ---
 ## Practice

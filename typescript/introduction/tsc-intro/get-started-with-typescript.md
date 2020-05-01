@@ -12,7 +12,7 @@ links:
 
 ---
 
-# Get started with TypeScript
+# Get Started with TypeScript
 
 ---
 ## Content

@@ -140,7 +140,7 @@ const d: Object = { enki: true };
 ---
 ## Footnotes
 
-[1:Objects]
+[1: Most JS values are Objects]
 
 All built-in values besides `null` and `undefined` are a form of object in JavaScript.
 
