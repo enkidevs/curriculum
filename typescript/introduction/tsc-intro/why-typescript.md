@@ -68,4 +68,6 @@ Unlike TypeScript, the types in JavaScript are dynamically determined later, whe
 JavaScript is also more lenient than TypeScript and will rarely complain about type errors.
 
 [2: How JavaScript and TypeScript get features]
-Both TypeScript and JavaScript are built based on a specification of rules called [ECMAScript](https://en.wikipedia.org/wiki/ECMAScript). This allows TypeScript to independently include the latest features as soon as they become part of ECMAScript, not matter if JavaScript began to include them.
+Both TypeScript and JavaScript are built based on a specification of rules called [ECMAScript](https://en.wikipedia.org/wiki/ECMAScript).
+
+This allows TypeScript to independently include the latest features as soon as they become part of ECMAScript, no matter if JavaScript began to include them.

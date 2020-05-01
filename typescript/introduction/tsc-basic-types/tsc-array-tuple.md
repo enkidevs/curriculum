@@ -88,16 +88,20 @@ Tuples and arrays can be combined to build a `Map`:
 // where each tuple is a string pair
 // representing the color and name
 // of each power ranger
-const powerRangers: Array<[string, string]> = [
+const powerRangers: Array<
+  [string, string] // <-- tuple
+> = [
   ["red", "Jason"],
   ["black", "Zach"],
   ["yellow", "Trini"],
   ["blue", "Billy"],
-  ["pink", "Kimberly"]
-]
+  ["pink", "Kimberly"],
+];
 
 // create a map out of an array of tuples
-const powerRangersMap = new Map(powerRangers)
+const powerRangersMap = new Map(
+  powerRangers
+);
 
 console.log(
   powerRangersMap.get("blue") // "Billy"

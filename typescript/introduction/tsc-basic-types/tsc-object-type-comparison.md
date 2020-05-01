@@ -68,9 +68,11 @@ let u: object = undefined; // error
 
 ### `Object`
 
-The `Object` type is less useful than the other two.
+The `Object` type is less useful than the other two because it often leads to confusion.
 
-Since any defined value in JavaScript is an object[2], the `Object` type can be used to represent any type that is considered to contain a value:
+Usually by *"object"* we mean a collection of named values (e.g. map, set, array, plain object), but not a single value (e.g. number, string, etc.).
+
+However, the `Object` type can be used to represent any type that is considered to contain a value[2]:
 
 ```ts
 // almost anything is an "Object"
@@ -84,10 +86,6 @@ let arr: Object = [1, 2, 3];
 let n: Object = null; // error
 let u: Object = undefined; // error
 ```
-
-This often leads to confusion.
-
-Usually by *"object"* we mean collections of named values (e.g. maps, sets, arrays, plain objects), but not single values (e.g. numbers or strings).
 
 ---
 ## Practice
