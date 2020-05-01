@@ -30,6 +30,9 @@ interface Flyer {
 }
 
 class Bird implements Flyer {
+//         ^^^^^^^^^^^^^^^^
+// all Bird now have the data
+// from the Flyer interface
   name: string;
   constructor(name: string) {
     this.name = name;
