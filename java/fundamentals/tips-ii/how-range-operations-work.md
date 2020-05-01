@@ -33,7 +33,7 @@ Let's take a look at an example:
 "Enki".substring(0, 2);
 ```
 
-The result will be `"En"`. This is because the method includes the value of `startIndex`, but the value of `endIndex` **is excluded**.
+The result will be `"En"`. This is because the method starts at the value of `startIndex`, includes everything in-between, but the value of `endIndex` **is excluded**.
 
 There are many more methods that need specifying a range, and all of them use this rule.
 
