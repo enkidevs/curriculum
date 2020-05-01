@@ -31,7 +31,7 @@ let fun: Fun = true;
 
 > 💡 Type aliasing creates a name to refer to a type. It doesn't create a new type.
 
-This is only useful mainly when we want to provide a name for a type that is used in more than one place.
+This is mainly useful when we want to provide a name for a type that is used in more than one place.
 
 ```ts
 // create an alias for the
@@ -89,10 +89,10 @@ Create an alias named `nothing` to the `void` type:
 ```ts
 ??? nothing ??? void;
 
-function runForever(): nothing {
-  for (;;) {
-    // loop forever
-  }
+function logTSFact(): nothing {
+  console.log(
+    'TypeScript helps us write safer code'
+  );
 }
 ```
 
