@@ -141,7 +141,6 @@ const d: Object = { enki: true };
 ## Footnotes
 
 [1: Most JS values are Objects]
-
 All built-in values besides `null` and `undefined` are a form of object in JavaScript.
 
 A quick test to verify if something is an object is to try and access a property on it and see if it errors.
