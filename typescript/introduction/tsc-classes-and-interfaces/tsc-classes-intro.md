@@ -6,7 +6,7 @@ aspects:
   - deep
   - workout
 links:
-  - '[Play with classes](https://www.typescriptlang.org/play/index.html#code/PTAEBMFMDMEsDtKgIb1AQXrAtsgNgFADGeyAzmRlrnqAN4GiggTIAuyo0A9gE4p5amHPjKNQ8ZNkgAuUGTa8EAcwDc4tgE8ADrPmKVoALygARKhF5T6piyb2HoAHovXbiDGQBXPG1AA3fC9IAnEWaC94IjZYbjQ2AAt2UF5IyjjQBAVUGPZY+HEiOIVU6L4ACgsaADkpPRKVAEp6cSZE2DIAOklpYxRqfFrpG1AAX1DbMAiomIzE5IAjSDw45Uo2blBIf0heTSpLcTJkTQAJWHLmhgci+DJuPEhOleVy1vsAA3OAGlAASQA5Nh+qAACR0dpdLS6UagIj4R7gMEQhIdbp1UYfd6NEbjcYEFhEXiQdhIcpZDjwXJsSDNVAHGgER5+ABekAWvE4JkQAHcGfhyqY2RzkKYcQRhZzOsczhcccwwKYfv8gSCqvg4QjIEjJaKCEA){website}'
+  - '[Play with classes](https://repl.it/@enkicontent/TypeScriptPlayWithClasses){website}'
   - '[Class Type](https://www.typescriptlang.org/docs/handbook/classes.html){documentation}'
 
 ---

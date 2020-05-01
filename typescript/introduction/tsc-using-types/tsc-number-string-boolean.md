@@ -16,13 +16,13 @@ links:
 ---
 ## Content
 
-We can define a type for a variable by adding a semi-colon (`:`) and a type after its name.
+We can attach a type to a variable by adding a semi-colon (`:`) and a type after its name.
 
 ### String
 
 A `string` is a data type that represents a sequence of characters.
 
-For a value to be a string, it must be enclosed in single (`'`) or double (`"`) quotation marks or back-ticks `` ` ``
+For a value to be a string, it must be enclosed in single (`'`) or double (`"`) quotation marks or back-ticks `` ` ``.
 
 ```ts
 let brand: string = 'Samsung';

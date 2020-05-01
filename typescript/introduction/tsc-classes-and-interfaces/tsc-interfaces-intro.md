@@ -5,7 +5,7 @@ category: must-know
 aspects:
   - introduction
 links:
-  - '[Play with interfaces](https://www.typescriptlang.org/play/index.html#code/JYOwLgpgTgZghgYwgAgApwJ4FsLgCpRwgDOiYwA9iMgN4BQyyA9E8kchQA7lVwA2yBBSw5wDQcNFgA-AC5kxMFFABzANziWbZFAhwAJhxB8MyAG78ArhHG6DVE+asR5IS1gBG0DQF86dPggwZE5MKXl0bFwwAiJSBB5qAF5aTVYAdxQ4XSNHA31VZDAACxQLPms05BAKaogIQzBa-O0hEWiqrwQ4S2IUYDAAcmIObkoQfnFy63kARgAmAGYAGjo-Oi1ukBrghGKiFSydPX0HU2mbUKjwADoL5BSABg0taCgKKHkAYSIdtmJiMAVNQmshBhdBsguj0+sgBnCRnBjgYALRnELvTjQMAYG50IA){website}'
+  - '[Play with interfaces](https://repl.it/@enkicontent/TypeScriptPlayWithInterfaces){website}'
   - '[Interface Type](https://www.typescriptlang.org/docs/handbook/interfaces.html){documentation}'
 
 ---

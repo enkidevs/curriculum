@@ -5,7 +5,7 @@ category: must-know
 aspects:
   - introduction
 links:
-  - '[Try out the code example](https://www.typescriptlang.org/play/index.html?ssl=8&ssc=12&pln=8&pc=16#code/PTAEBUE8AcFMGUDGAnAltALqAJrDtkBbVAO1gGdQMALWKmOgewDMAoEK20ANwEM1eAIwA2dEgFdCVRqEF1eoCYTnJ2YOYl7jydAO50A5qm51UWGmMkrQAVlaisS0AF5bAbnt5QjANYvFkqAAtKAAzG6gHCQyBMiMqp5Y5BjI-gDksCQ+qGkeDoqM0f7JqSHhaqCVVVUAenUVsfGysJraerBpyHTk4oIpvIgYpAagCiXDQA){website}'
+  - '[Try out the code example](https://repl.it/@enkicontent/TypeScriptIntroToTypes){website}'
   - '[Type Inference](https://en.wikipedia.org/wiki/Type_inference){website}'
 
 ---

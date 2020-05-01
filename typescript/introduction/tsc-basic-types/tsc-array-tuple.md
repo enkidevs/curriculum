@@ -5,7 +5,7 @@ category: must-know
 aspects:
   - introduction
 links:
-  - '[Try out the code from this Insight](https://www.typescriptlang.org/play/index.html#code/DYUwLgBAdgrgtgIxAJwILOQQwJ4C5rxLIDaAuhALwTECMANBAMwMCsDA7KQNwBQPokAM5hkASygBzdFjwRpOADzCxkgHyVqPCBABEAeyggddLbrAALZCCMntOgGaiAbjdM7BIF1B09ufARBw2AAqMAAOoPjEsIgoDAh6eqCYUORUxKb0piIwIL5cQA){website}'
+  - '[Try out the code from this Insight](https://repl.it/@enkicontent/TypeScriptArraysAndTuples){website}'
   - '[Array Type](https://www.typescriptlang.org/docs/handbook/basic-types.html#array){documentation}'
   - '[Tuple Type](https://www.typescriptlang.org/docs/handbook/basic-types.html#tuple){documentation}'
 
@@ -25,15 +25,16 @@ In TypeScript, there are two ways to define an array:
 ```ts
 // by putting the [] after the type
 // here we define an array of numbers
-let numberArray: number[] = [1, 3, 5, 7];
+let primes: number[] = [2, 3, 5, 7];
 
 // or by wraping the type in the Array type
 // here we define an array of strings
-let stringArray: Array<string> = [
-  "one",
-  "three",
-  "five",
-  "seven"
+let powerRangerColors: Array<string> = [
+  "red",
+  "black",
+  "yellow",
+  "blue",
+  "pink"
 ];
 ```
 
@@ -58,12 +59,12 @@ let bools: boolean[] = [];
 
 ### Tuple
 
-Tuple is like an array, but it can only take in a fixed number of elements with known types:
+Tuple is like an array, but it can only take in a fixed number of elements with individual types:
 
 ```ts
 // myTyple has a number at the first position
 // and a boolean at the second position
-let myTuple: [number, boolean] = [
+let numAndBoolTuple: [number, boolean] = [
   1,
   true
 ];
@@ -74,10 +75,33 @@ The order of the types must be exact:
 ```ts
 // this is an error because we're storing
 // the types in the wrong order
-let myTuple: [number, boolean] = [
+let numAndBoolTuple: [number, boolean] = [
   true, // error: Type 'true' is not assignable to type 'number'
   1 // error: Type 'number' is not assignable to type 'boolean'
 ];
+```
+
+Tuples and arrays can be combined to build a `Map`:
+
+```ts
+// powerRangers is an array of tuples
+// where each tuple is a string pair
+// representing the color and name
+// of each power ranger
+const powerRangers: Array<[string, string]> = [
+  ["red", "Jason"],
+  ["black", "Zach"],
+  ["yellow", "Trini"],
+  ["blue", "Billy"],
+  ["pink", "Kimberly"]
+]
+
+// create a map out of an array of tuples
+const powerRangersMap = new Map(powerRangers)
+
+console.log(
+  powerRangersMap.get("blue") // "Billy"
+);
 ```
 
 ---

@@ -7,11 +7,11 @@ aspects:
   - deep
 links:
   - '[object Type](https://www.typescriptlang.org/docs/handbook/basic-types.html#object){documentation}'
-  - '[Play with object types](https://www.typescriptlang.org/play/index.html#code/MYewdgzgLgBAhgLhgeQEYCsCmxYF4YDeMmYA1gJZJQBOArpjAL4DcAUK6JLKkiBtnkLEylGDXpM2HcNBjAkREhSSoQIADaY4YJjHyKRVOgxZA){website}'
+  - '[Play with object types](https://repl.it/@enkicontent/TypeScriptPlayWithObjectTypes){website}'
 
 ---
 
-# `Object` vs `object` vs `{}`
+# `{}` vs `object` vs `Object`
 
 ---
 ## Content
@@ -19,43 +19,6 @@ links:
 TypeScript has 3 ways to represent an object with slightly different behaviors.
 
 > 💡 An object can be thought of as a collection of name value pairs
-
-### `Object`
-
-Since any defined value in JavaScript is an object[1], the `Object` type can be used to represent any type that is considered to contain a value:
-
-```ts
-let num: Object = 3;
-let str: Object = 'enki';
-let arr: Object = [1, 2, 3];
-// ...
-// only null and undefined
-//  give an error
-let n: Object = null; // error
-let u: Object = undefined; // error
-```
-
-This often leads to confusion.
-
-Usually by "object" we only mean collections of named values (e.g. maps, sets, arrays, plain objects), but not primitive values[2] (e.g. numbers or strings).
-
-### `object`
-
-The recommended type to represent an object is `object`.
-
-```ts
-let arr: object = [1, 2, 3];
-let obj: object = { enki: true };
-let map: object = new Map([
-  ["enki", "cool"],
-]);
-// ...
-// primitive values give an error
-let str: object = "enki"; // error
-let num: object = 3; // error
-let n: object = null; // error
-let u: object = undefined; // error
-```
 
 ### `{}`
 
@@ -81,6 +44,50 @@ empty.name = 'oops';
 Enki.age = 5;
 // error: Property 'age' does not exist on type '{ job: string; isFun: boolean; }'
 ```
+
+### `object`
+
+The type `object` is used to represent any non-primitive[2] value (any collection of values):
+
+```ts
+// an object is an "object"
+let obj: object = { enki: true };
+// an array is an "object"
+let arr: object = [1, 2, 3];
+// a map is an "object"
+let map: object = new Map([
+  ["enki", "cool"],
+]);
+// ...
+// primitive values aren't an "object"
+let str: object = "enki"; // error
+let num: object = 3; // error
+let n: object = null; // error
+let u: object = undefined; // error
+```
+
+### `Object`
+
+The `Object` type is less useful than the other two.
+
+Since any defined value in JavaScript is an object[1], the `Object` type can be used to represent any type that is considered to contain a value:
+
+```ts
+// almost anything is an "Object"
+let num: Object = 3;
+let bool: Object = false;
+let str: Object = 'enki';
+let arr: Object = [1, 2, 3];
+// ...
+// only null and undefined
+// give an error
+let n: Object = null; // error
+let u: Object = undefined; // error
+```
+
+This often leads to confusion.
+
+Usually by *"object"* we mean collections of named values (e.g. maps, sets, arrays, plain objects), but not single values (e.g. numbers or strings).
 
 ---
 ## Practice

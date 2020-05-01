@@ -5,7 +5,7 @@ category: must-know
 aspects:
   - introduction
 links:
-  - '[Practice Lessons from this Insight](https://www.typescriptlang.org/play/index.html#code/GYVwdgxgLglg9mABACwKYBt1wBRgIYC2qAXIgM5QBOMYA5gDSKoFwBWMpF1dAlJ1TVqIA3gChEiSqighKSAAYASYfiIBfRMuZsYagITyA3KLWjREBBUS0p0wYgC8KDFmwByAKJgA1jDeM3QF4NwGkdtx5jCzAyOHRUADosWmwbVDteYwB6DMQAIi9fRBC9HKA){website}'
+  - '[Practice Lessons from this Insight](https://repl.it/@enkicontent/TypeScriptFunctionsIntro){website}'
   - '[Functions in TS](https://www.typescriptlang.org/docs/handbook/functions.html){documentation}'
 
 ---
@@ -15,7 +15,7 @@ links:
 ---
 ## Content
 
-We can define a type for a parameter of a function by adding a `:` and a type after its name:
+We can attach a type to a parameter of a function by adding a `:` and a type after its name:
 
 ```ts
 function hello(name: string) {
@@ -59,6 +59,7 @@ function hello(name: string): string {
 }
 
 const greeting = hello("Enki");
+
 console.log(greeting);
 // "Hello Enki!"
 ```

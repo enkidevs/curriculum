@@ -7,6 +7,7 @@ aspects:
 links:
   - '[What is a Compiler?](https://en.wikipedia.org/wiki/Compiler){website}'
   - '[The TypeScript Compiler](https://www.npmjs.com/package/typescript){website}'
+  - '[Moving to TypeScript files](https://www.typescriptlang.org/docs/handbook/migrating-from-javascript.html#moving-to-typescript-files){documentation}'
   - '[Download Node.js](https://nodejs.org/en/download/){website}'
 
 ---
@@ -86,6 +87,26 @@ Installing an NPM package [globally](https://docs.npmjs.com/downloading-and-inst
 
 [2:Interoperability with JavaScript]
 This is a very important feature of TypeScript. In fact, a major reason for TypeScript's popularity is how easy it is for JavaScript developers to start using it.
+
+That being said, changing `.js` to `.ts` will sometimes point out type errors but the code can still run.
+
+One example of such type error would be changing a number to a string:
+
+```js
+// enki.js
+let num = 5;
+num = 'enki'; // ok in JS
+```
+
+```ts
+// enki.ts
+let num = 5;
+num = 'enki'; // error in TS
+```
+
+It is up to the programmer how to deal with these errors.
+
+They can change the code to adjust it to what TypeScript expects or tell TypeScript to ignore the problem.
 
 [3: Compilation]
 Compilation is the process of translating computer code written in one programming language into another language

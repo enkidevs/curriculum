@@ -6,7 +6,7 @@ aspects:
   - introduction
   - workout
 links:
-  - '[Play with Type Aliasing](https://www.typescriptlang.org/play/index.html#code/C4TwDgpgBATghgEwJYFcDOUC8UB2KC2ARhDANwBQ5okUAwkjAMYA202A3uVLAFyyKo0AGnIBfCuUYB7HGmBQACgEksUAMwA6AIwAWCQDMUORsCQyojBowL6SEYxAAUlpqz71XEAJRRO3GBDAKDA4UABMUABUFlasGjBRikoUopSGxqbmcAFwzrEQ7vk+frCBwaEuLBDxUdER0coplNKyUnHMUgDmeUw2dg6O7LxQWlpQol5epFAA9DPkc1AAbACcGgAMABySMmht1R3d2RC5QzB8o+OTFItqAOxrKzpAA){website}'
+  - '[Play with Type Aliasing](https://repl.it/@enkicontent/TypeScriptPlayWithTypeAliasing){website}'
 
 ---
 
@@ -34,8 +34,14 @@ let fun: Fun = true;
 This is only useful mainly when we want to provide a name for a type that is used in more than one place.
 
 ```ts
+// create an alias for the
+// "number" type
+// called "radius"
 type radius = number;
 
+// create an alias for the
+// "{ r: radius }" type
+// called "Circle"
 type Circle = {
   r: radius,
 };
@@ -50,7 +56,7 @@ function area(circle: Circle) {
   return circle.r ** 2 * PI;
 }
 
-console.log(circumference({ r: 11 }));
+console.log(circumference({ r: 11 })); //
 // 69.08
 console.log(area({ r: 11 }));
 // 379.94
@@ -71,7 +77,7 @@ let enki: NameAndFactTuple = [
 
 let morgan: NameAndFactTuple = [
   "Morgan Freeman",
-  "Great actor with a cool voice",
+  "Should narrate my life",
 ];
 ```
 

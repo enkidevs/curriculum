@@ -6,7 +6,7 @@ aspects:
   - introduction
 links:
   - '[Enum Type](typescriptlang.org/docs/handbook/basic-types.html#enum){documentation}'
-  - '[Try Out Enums](https://www.typescriptlang.org/play/index.html#code/KYOwrgtgBA8gLgC2AJwCIEM7qgbwFBRQCCUAvFAIwA0BUAQlVAPRNTphwD2AtOgM58AlgHMQwACZQuUAEy0AwmSgBWAAw1CqRizYce-IaIlTOKingC+ePABtgcKADNOnAFyxEKDFiXwkaTHQAOjoAbjwAY04QPk47IJtOYQAKZ04ASnCdGSA){website}'
+  - '[Try Out Enums](https://repl.it/@enkicontent/TypeScriptEnums){website}'
 
 ---
 
@@ -26,6 +26,7 @@ enum GameLevel {
 }
 
 let firstLevel: GameLevel = GameLevel.A;
+
 console.log(firstLevel);
 // 1
 ```
@@ -41,6 +42,7 @@ enum GameLevel {
 }
 
 let firstLevel: GameLevel = GameLevel.A;
+
 console.log(firstLevel);
 // 0
 ```
@@ -56,6 +58,7 @@ enum WeirdLevel {
 }
 
 let idk: WeirdLevel = WeirdLevel.B;
+
 console.log(idk);
 // 2
 ```

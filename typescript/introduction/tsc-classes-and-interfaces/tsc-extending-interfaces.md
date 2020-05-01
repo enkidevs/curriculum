@@ -5,7 +5,8 @@ category: must-know
 aspects:
   - introduction
 links:
-  - '[Play with extending interfaces](https://www.typescriptlang.org/play/index.html#code/JYOwLgpgTgZghgYwgAgMoGtgBsvIN4BQyyIcAthAFzIDOYUoA5gNwEC+BBoksiKAEnABGwMPiLIA7gAsIIanQYgW7Tt2jwkaTDgCycOtACeEiAA9IIACY1t2LABoJxQSLGFiwGgDEArvOQhAHsgrAg4EFYOAjCxMBpqDHt9QygjZABecWJSCmoAIgAVIwAHCFQEBhKwfKdiGTkCiAA3Y2QrOCNaiS8-APpfCCc2VgIEIJAaUIgAOiwgxgAKCQADAEkxOCxJTtsaCAgyW2AyEqCaGmAhMOR-MGxkUQByWysJiBWCAEpWccnpuYLZbEFYAGXCUBATGQABI8PEZrkIGxYfCaDMGiAUV5kDB-AB+VEI3r+NifH4EAD0lOQ+XBcEh0OKZQqVTELTaHXSOLxIEJAwg+U4QA){website}'
+  - '[Play with extending interfaces](https://repl.it/@enkicontent/TypeScriptExtendingInterfaces){website}'
+  - '[Interface vs Type Alias](https://medium.com/@martin_hotell/interface-vs-type-alias-in-typescript-2-7-2a8f1777af4c){article}'
 
 ---
 
@@ -57,8 +58,12 @@ interface Habit {
   when: string;
 }
 
+// to master a skill
+// we need to build a habit
+// of practicing it
 interface SkillMastery
-  extends Skill, Habit {
+  extends Skill,
+    Habit {
   isFun: boolean;
 }
 

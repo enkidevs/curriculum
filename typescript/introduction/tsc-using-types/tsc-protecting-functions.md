@@ -6,7 +6,7 @@ aspects:
   - introduction
   - workout
 links:
-  - '[Play with default parameter values](https://www.typescriptlang.org/play/index.html#code/GYVwdgxgLglg9mABACwKYBt1wOoysgeQAdYEBDdACjDIFtUAuRAZygCcYwBzAGkVVpwAVjAD8TVh24BKRAG8AUIkQQEzOOlQA6LF0oADACRya9AL6JjA4TDMBCfdIVmFCtJhx5CJeDSoByAFEwAGsYfz5-QF4NwGkd-2kAbgUAemTEACJgsMRYu3S3DCxcfGJSP0og0PDElLTMqsRwABNUYE5UJrzXUEgylELPfAARVrIQdChqOkYWdk5efkERCTnuRABeRGjALJ34+SUVNQ1tXQNjU1QLKyXbBycXAo9i5BHgMYmKrPDI2Pik1IyXxyMS67iKXle70mlTCf1qgIaUW2eSAA){website}'
+  - '[Play with functions and parameters](https://repl.it/@enkicontent/TypeScriptFunctionParameters){website}'
 
 ---
 
@@ -16,6 +16,8 @@ links:
 ## Content
 
 By default, all parameters in a function are considered required.
+
+### Optional parameters
 
 To declare an optional parameter, we can use the `?` after the parameter name:
 
@@ -53,6 +55,8 @@ hello("Enki", "👋");
 hello("Enki");
 // Enki 💚!
 ```
+
+### Default parameters
 
 Since setting the default value is a common operation, TypeScript gives us a built-in way to do it:
 
