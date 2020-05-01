@@ -3,8 +3,7 @@ author: kapnobatai136
 type: normal
 category: must-know
 aspects:
-  - deep
-  - workout
+  - introduction
 links:
   - '[Play with classes](https://repl.it/@enkicontent/TypeScriptPlayWithClasses){website}'
   - '[Class Type](https://www.typescriptlang.org/docs/handbook/classes.html){documentation}'

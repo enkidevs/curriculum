@@ -4,6 +4,7 @@ type: normal
 category: must-know
 aspects:
   - introduction
+  - workout
 links:
   - '[Enum Type](typescriptlang.org/docs/handbook/basic-types.html#enum){documentation}'
   - '[Try Out Enums](https://repl.it/@enkicontent/TypeScriptEnums){website}'

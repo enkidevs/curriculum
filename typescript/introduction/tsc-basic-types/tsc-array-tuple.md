@@ -4,6 +4,7 @@ type: normal
 category: must-know
 aspects:
   - introduction
+  - workout
 links:
   - '[Try out the code from this Insight](https://repl.it/@enkicontent/TypeScriptArraysAndTuples){website}'
   - '[Array Type](https://www.typescriptlang.org/docs/handbook/basic-types.html#array){documentation}'

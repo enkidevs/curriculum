@@ -4,7 +4,6 @@ type: normal
 category: must-know
 aspects:
   - introduction
-  - workout
 links:
   - '[Machine Learning with JavaScript](https://www.tensorflow.org/js){website}'
   - '[Build User Interfaces with JavaScript](https://reactjs.org/){website}'

@@ -3,7 +3,8 @@ author: nem035
 type: normal
 category: must-know
 aspects:
-  - introduction
+  - deep
+  - workout
 links:
   - '[Play with interfaces and classes](https://repl.it/@enkicontent/TypeScriptDragonsFlyButNotFish){website}'
 

@@ -4,7 +4,6 @@ type: normal
 category: must-know
 aspects:
   - introduction
-  - workout
 links:
   - '[ts-node NPM package](https://www.npmjs.com/package/ts-node){website}'
   - '[Try out the hello.ts example](https://repl.it/@enkicontent/TypeScriptHelloWorld){website}'

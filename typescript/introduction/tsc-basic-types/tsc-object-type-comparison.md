@@ -3,8 +3,8 @@ author: nem035
 type: normal
 category: must-know
 aspects:
+  - introduction
   - workout
-  - deep
 links:
   - '[object Type](https://www.typescriptlang.org/docs/handbook/basic-types.html#object){documentation}'
   - '[Play with object types](https://repl.it/@enkicontent/TypeScriptPlayWithObjectTypes){website}'

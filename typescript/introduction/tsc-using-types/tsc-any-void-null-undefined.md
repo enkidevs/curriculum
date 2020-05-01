@@ -4,6 +4,7 @@ type: normal
 category: must-know
 aspects:
   - introduction
+  - workout
 links:
   - '[Any Type](https://www.typescriptlang.org/docs/handbook/basic-types.html#any){documentation}'
   - '[Void Type](https://www.typescriptlang.org/docs/handbook/basic-types.html#void){documentation}'

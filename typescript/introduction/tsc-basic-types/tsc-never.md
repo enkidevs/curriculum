@@ -3,7 +3,7 @@ author: kapnobatai136
 type: normal
 category: must-know
 aspects:
-  - deep
+  - introduction
   - workout
 links:
   - '[Never Type](https://www.typescriptlang.org/docs/handbook/basic-types.html#never){documentation}'

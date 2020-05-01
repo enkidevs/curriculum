@@ -4,6 +4,7 @@ type: normal
 category: must-know
 aspects:
   - introduction
+  - workout
 links:
   - '[Practice Lessons from this Insight](https://repl.it/@enkicontent/TypeScriptFunctionsIntro){website}'
   - '[Functions in TS](https://www.typescriptlang.org/docs/handbook/functions.html){documentation}'

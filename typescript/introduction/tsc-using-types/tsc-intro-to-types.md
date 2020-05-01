@@ -4,6 +4,7 @@ type: normal
 category: must-know
 aspects:
   - introduction
+  - workout
 links:
   - '[Try out the code example](https://repl.it/@enkicontent/TypeScriptIntroToTypes){website}'
   - '[Type Inference](https://en.wikipedia.org/wiki/Type_inference){website}'

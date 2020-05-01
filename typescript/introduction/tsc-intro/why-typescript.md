@@ -4,7 +4,6 @@ type: normal
 category: must-know
 aspects:
   - introduction
-  - workout
 links:
   - '[TypeScript is one of the most loved languages](https://insights.stackoverflow.com/survey/2019#most-loved-dreaded-and-wanted){website}'
   - '[TypeScript is getting more popular every year](https://2019.stateofjs.com/javascript-flavors/typescript/){website}'
