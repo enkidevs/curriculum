@@ -38,7 +38,9 @@ links:
 
 As a convention, when specifying a range of values, the first value 'from' is included while the last value 'to' is excluded. 
 
-For example in `String.substring(from, to)`, the character at position 'from' will be included in the substring, while the character 'to' will not. 
+For example in `String.substring(from, to)`, the character at position 'from' will be included in the substring, while the character 'to' will not.
+
+Indices count from 0, as common in many programming languages.  
 
 So, `"Enki".substring(1,3);` will return `"nk"`. The character at 1; 'n' was included and the character at 3; 'i' was excluded.
 
