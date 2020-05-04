@@ -1,8 +1,13 @@
 ---
-author: emmab
+author: tommarshall
 
 tags:
+
   - introduction
+
+levels:
+
+  - beginner
 
 type: normal
 
@@ -18,63 +23,65 @@ aspects:
 ---
 ## Content
 
-Lists are another **sequential data type** that act as containers for objects. 
+Lists are containers of objects. They can contain any data type, and be any number of entries long.
 
-Lists are also separated by commas, and *must be wrapped in square brackets*, `[]`.
-
+To build a list:
 ```python
-my_first_list = ['apples', 'oranges']
+pyList = []
+```
+To add to a list:
+```python
+pyList.append(11)
+pyList.append(4)
 ```
 
-> Lists are **mutable**, so items *can be modified*.
-
+Refer to an item in a list by its index. Python is zero-indexed, meaning the first item in a list is at position 0:
 ```python
-my_first_list[0] = 'bananas'
+print(pyList[0])
+# prints 11
 
-print(my_first_list)
-# ['bananas', 'oranges']
+print(pyList[1])
+# prints 4
 ```
 
-To add to a list you can use the `append()` method, passing whatever you want added as an argument in parentheses:
+A `for` loop will iterate over each value in a list, one at a time:
 
 ```python
-my_first_list.append('pears')
+for x in pyList:
+    print(x)
 
-print(my_first_list)
-# ['bananas', 'oranges', 'pears']
+# prints 11, 4
 ```
-
-We can also use our `index` and `count` methods that we learnt about back in the `tuple` days on lists.
-
-Let's discover some more `list` methods next!
 
 ---
 ## Practice
 
-Complete the code snippet to add a value to the `list`:
+Complete the code snippet to add a value to the list:
 
-```python
-new_list = []
-new_list.???(5)
 ```
+newList = []
+newList.???(5)
+```
+
 
 * `append`
 * `add`
 * `push`
-* `index`
 
 ---
 ## Revision
 
-Complete the code snippet to return item at index `0` in the `list`:
+Complete the code snippet to view item 0 in the list:
 
-```python
-new_list = []
-new_list.append(2)
+```
+newList = []
+newList.append(2)
 
-new_list???
+???(newList???)
 ```
 
+
+* `print`
 * `[0]`
 * `{0}`
 * `view`
