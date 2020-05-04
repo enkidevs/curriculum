@@ -17,12 +17,13 @@ notes: 'https://insights.enki.com/#/contrib/others/55c83ba83f06ab320051aa8a?sear
 ---
 ## Content
 
-You can use the `substring()` method to extract a part of a string, **as a new string**.
+Strings can be thought of as a list of characters. Hence, a substring is essentially a range in the original string. 
+You can use the `substring()` method to extract a part of a string. The result will be returned **as a new value** while the original string isn't mutated. 
 
 The syntax is:
 
 ```java
-String substring(
+String.substring(
   int startIndex,
   int endIndex
 );
