@@ -1,30 +1,19 @@
 ---
-author: tommarshall
+author: emmab
 
 tags:
-
   - introduction
-
-levels:
-
-  - beginner
 
 type: normal
 
 category: tip
 
-inAlgoPool: false
 aspects:
   - introduction
 
-standards:
-  python.native-types-operations.0: 10
-
 links:
-
   - '[Use cases](http://kracekumar.com/post/22512660850/python-in-operator-use-cases){website}'
   - '[Sequence types](https://docs.python.org/3/library/stdtypes.html#sequence-types-list-tuple-range){website}'
-
 
 ---
 
@@ -33,31 +22,32 @@ links:
 ---
 ## Content
 
-Python's `in` operator is a *membership operator* and can be used to check whether an object exists inside a container of objects--for example, a list.
+Python's `in` operator is an example of a *membership operator*[1]. 
 
-It evaluates to true if it finds the specified value in the container, and false if it doesn't.
+It can be used to check whether a value exists *inside another object*.
 
-Here's an example of the `in` operator searching for a value in a list:
+It evaluates to `True` if it finds the specified value, and `False` if it doesn't.
+
+Here's an example of the `in` operator searching for a string pattern inside a longer string:
 
 ```python
-x = 5
-nums = [1, 2, 3, 4]
+string = 'Python'
+sentence = "Python's the best language to learn!"
 
-# membership operator check using *in*
-if x in nums:
-    print('Found!')
+if string in sentence:
+    print('I agree!')
 else:
-    print('Not found!')
+    print('Hmm, not sure I agree.')
 
-
+# I agree!
 ```
 
-Other iterable sequence types include tuples and strings. When the `in` keyword is used with a string, Python will check for any sequence of matching consecutive characters (called a substring). So, `'p' in 'poppy'` evaluates to true, and so does `'py' in 'poppy'`, but `'ppp' in 'poppy'` evaluates to false, because there is no matching consecutive sequence of characters.
+When the `in` keyword is used on a string, Python will check for any sequence of matching substrings.
 
 ---
 ## Practice
 
-Complete the following code snippet to check for the existence of the `letter` 'p' in `my_string`, printing True if the string contains the letter p and False if it does not:
+Complete the following code snippet to print `'True'` if `letter` is in `my_string`, and `'False'` otherwise:
 
 ```python
 letter = 'p'
@@ -69,11 +59,11 @@ else:
     print(???)
 ```
 
-* in
-* True
-* False
-* is
-* find
+* `in`
+* `'True'`
+* `'False'`
+* `is`
+* `find`
 
 ---
 ## Revision
@@ -81,8 +71,14 @@ else:
 The `in` operator evaluates to ??? if it finds the specified value in the ???.
 
 
-* true
+* `True`
 * sequence
-* false
-* tuple
-* map
+* `true`
+* `false`
+* condition
+
+---
+## Footnotes
+
+[1:Membership operator]
+Membership operators are used to test if a sequence is present in an object, such as a string.
