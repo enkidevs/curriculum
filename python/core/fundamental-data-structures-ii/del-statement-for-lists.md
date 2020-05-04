@@ -1,61 +1,62 @@
 ---
-author: catalin
-
-levels:
-
-  - basic
+author: emmab
 
 type: normal
 
 category: must-know
+
 aspects:
   - introduction
   - workout
-standards:
-  python.native-types-operations.4: 10
 
 links:
-
-  - '[docs.python.org](https://docs.python.org/3.5/tutorial/datastructures.html#the-del-statement){website}'
+  - '[The `del` statement](https://docs.python.org/3.5/tutorial/datastructures.html#the-del-statement){website}'
 
 
 ---
 
-# `del` statement for lists
+# The `del` operator for lists
 
 ---
 ## Content
 
-Python's `del` statement has multiple usages when used on `lists`.
-It differs from the `pop()` method because when using `del`, the element won't be returned when removing it.
+Python has a `del` operator which is useful to delete entire objects. It can also be used to delete items in a `list`.
 
-Delete the *element* at a given *index*:
+It differs from the `pop()` method because items won't be returned when removing them.
+
+To delete an item at a given *index*:
+
 ```python
->>> a = [ 0, 1, 2, 3 ]
->>> del a[0]
->>> a
-[ 1, 2, 3 ]
+a = [0, 1, 2, 3]
+del a[0]
+
+print(a)
+# [1, 2, 3]
 ```
 
-Delete a *slice* of the *list*:
+It can also be used to delete a range of items within a `list`:
+
 ```python
->>> a = [ 1, 2, 3, 4 ]
->>> del a[0:2]
->>> a
-[ 3, 4 ]
+a = [1, 2, 3, 4]
+del a[0: 2]
+
+print(a)
+# [3, 4]
 ```
-Note that even though three elements are specified (*0,1,2*), the last one is not deleted. Consider this example, in which nothing happens:
+Note that even though three elements are specified (*0, 1, 2*), the last one is not deleted. 
+
+We can also use `del` to delete the items inside a `list`, or the whole object itself:
+
 ```python
->>> a = [ 1, 2, 3, 4 ]
->>> del a[0:0]
->>> a
-[ 1, 2, 3, 4 ]
-```
-To delete the entire *list*:
-```python
->>> del a[:]
->>> a
-[]
+del a[:]
+
+print(a)
+# []
+
+del a
+
+print(a)
+# NameError: name 'a' is not defined
 ```
 
 ---
@@ -64,10 +65,10 @@ To delete the entire *list*:
 What’s the output of the following code snippet:
 
 ```python
->>> e = [7, 8, 9, 11, 15, 19]
->>> del e[2:4]
->>> e
+e = [7, 8, 9, 11, 15, 19]
+del e[2: 4]
 
+print(e)
 ???
 ```
 
@@ -80,10 +81,10 @@ What’s the output of the following code snippet:
 ---
 ## Revision
 
-Fill in the code snippet such that it will delete the second number in the list:
+Fill in the code snippet so that it will delete the second number in the list:
 
 ```python
-list = [1,2,3,4,5]
+list = [1, 2, 3, 4, 5]
 
 ??? list[???]
 ```
@@ -93,3 +94,4 @@ list = [1,2,3,4,5]
 * 2
 * 3
 * remove
+
