@@ -1,5 +1,5 @@
 ---
-author: catalin
+author: emmab
 
 tags:
   - introduction
@@ -12,105 +12,69 @@ aspects:
   - introduction
 
 links:
-  - '[Tuples and Sequences](https://docs.python.org/3.5/tutorial/datastructures.html#tuples-and-sequences){website}'
+  - '[Tuples](https://docs.python.org/3.5/tutorial/datastructures.html#tuples-and-sequences){website}'
 
 ---
 
-# The Fundamental `tuple`
+# The `tuple`
 
 ---
 ## Content
 
-`Tuples` are another one of the fundamental **sequence data types** (alongside `lists` and `ranges`).
+Tuples are another **sequential** and **immutable** data type.
 
-Tuples are used to group any number of items into a single compound value, regardless of their type.
+They're used to *group any number of items*, regardless of their type, into a *single value*.
 
-They consist of any number of values, **separated by commas**:
-
-```python
-my_tuple = "first", 13, "random", 42
-```
-
-> Note: although not necessary, it is common practice to enclose the values of a tuple between parentheses:
-
-```py
-my_tuple = ("first", 13, "random", 42)
-```
-
-To extract elements from the tuple, use the index operator:
+> A tuple is created by separating items with commas, and are often wrapped in optional parentheses `()` to make them stand out.
 
 ```python
-print(my_tuple[3])
-# 42
+my_first_tuple = ('first', 1, '1', 1.0)
 ```
 
-> Note: `tuples` (as well as `lists` and `ranges`) use **zero-based indexing**. This means that `my_tuple[0]` will represent the first element of your `tuple`. 
-
-On the same topic, the index used must be valid:
+Again, we can extract elements from tuples using the index operator, and items cannot be reassigned:
 
 ```python
-print(my_tuple[4])
-# IndexError: tuple index out of range
+print(my_first_tuple[3])
+# 1.0
+
+my_first_tuple[0] = 'First'
+# TypeError: 'tuple' object does not support item assignment
 ```
 
-Keep in mind that tuples cannot be modified, so trying to reassign an item raises an error:
-
-```python
-my_tuple[0] = "ABC"
-# TypeError: ...
-```
+Tuples are mostly used when we need to store values of multiple different types, such as for database fields or CSV column names.
 
 ---
 ## Practice
 
-Which of the following properly declares a new tuple called `ex_tuple`?
+Extract the element `'pie'` from the tuple:
 
 ```python
-# Tuple 1
-new Tuple ex_tuple = (
-  "Enki",
-  1, 
-  "Python", 
-  2
-)
+pie_tuple = ('pie', 3.14, 'pi', 3)
 
-# Tuple 2
-ex_tuple = (
-  "Enki",
-  1,
-  "Python",
-  2
-)
-
-# Tuple 3
-ex_tuple = [
-  "Enki",
-  1,
-  "Python",
-  2
-]
+print(???[???])
 ```
 
-???
+* `pie_tuple`
+* `0`
+* `'pie'`
+* `1`
+* `'tuple'`
 
-* `Tuple 2`
-* `Tuple 3`
-* `Tuple 1`
 
 ---
 ## Revision
 
-Extract the **third element** from this tuple:
+Extract the element `'Enki'` from the tuple:
 
-```py
-aTuple = ('a', 1, 'b', 2)
-thirdElement = ???[???];
+```python
+my_tuple = ('Python', 1, 'Enki', 2)
 
-print(thirdElement)
-# 'b'
+print(???[???])
 ```
 
-* aTuple
-* 2
-* 3
-* tuple
+* `my_tuple`
+* `2`
+* `my_tuple.find`
+* `my_tuple.search`
+* `3`
+* `1`

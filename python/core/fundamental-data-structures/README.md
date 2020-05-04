@@ -6,8 +6,7 @@ insights:
   - variables-and-types
   - the-fundamental-tuples
   - tuple-assignment
-  - lists
-  - dictionary-standard-mapping-type
+  - tuple-methods
 
 exercises:
   - py-practice-control-structure
