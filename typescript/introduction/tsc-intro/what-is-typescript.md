@@ -18,13 +18,13 @@ links:
 ---
 ## Content
 
-If you're old enough, you might remember when JavaScript was just a web development language. Due to its versatility, JavaScript is now used in many applications including designing neural networks, building servers and many more.
+If you're old enough, you might remember when JavaScript was just a web development language. Due to its versatility, JavaScript is now used in many applications including neural network design, building servers and many more.
 
-You're probably thinking "What's JavaScript got to do with it -- isn't this a TypeScript course?". Let us explain!
+You're probably thinking: "What's JavaScript got to do with it -- isn't this a TypeScript course?" Let us explain!
 
-Because of the popularity of JavaScript, many tools were created to further expand its capabilities, ranging from tools to improve web app development to tools that enable building mobile apps and even backend servers.
+Because of the popularity of JavaScript, many tools were created to further expand its capabilities, ranging from tools to improve web app development to those that enable mobile apps and even backend servers to be built.
 
-> 💡 Knowing a little bit of JavaScript is recommended before learning TypeScript. If you'd like to, checkout our JavaScript skill to build up your JS muscles 💪.
+> 💡 Knowing a little bit of JavaScript is recommended before learning TypeScript. If you like, check out our JavaScript skill to build up your JS muscles 💪.
 
 TypeScript is another creation meant to expand what JavaScript can do.
 
@@ -63,6 +63,6 @@ Using types in TypeScript is required.
 ## Footnotes
 
 [1: Superset]
-A set `X` is a superset of set `Y`, if `X` includes all values in `Y`.
+A set `X` is a superset of set `Y`, if `X` includes all the values in `Y`.
 
-For example, the set `"Fruits"` includes all `"Apples"` that exists. This means that `"Fruits"` is a superset of `"Apples"`.
+For example, the set `"Fruit"` includes all possible `"Apples"`. This means that `"Fruit"` is a superset of `"Apples"`.
