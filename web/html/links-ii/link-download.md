@@ -69,7 +69,7 @@ Create a text link that downloads a web file and renames it with a more user-fri
 * href
 * file-324.doc
 * download
-* Friendly File.doc
+* Friendly%20File.doc
 * /a
 * rename
 * doc

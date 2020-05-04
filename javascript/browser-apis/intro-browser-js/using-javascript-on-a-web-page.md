@@ -44,9 +44,9 @@ Another, on HTML elements directly:
   onclick="alert('hello');">
 ```
 
-Whilst these are valid approaches, both of them lead to HTML which is hard to maintain.
+While these are valid approaches, both of them lead to HTML which is hard to maintain.
 
-Common approach is to separate our JavaScript code in another file.
+The common approach is to separate our JavaScript code in another file.
 
 We can put our code in a file called *hello.js* (note we remove the script tags when we put JavaScript in another file):
 
@@ -73,7 +73,7 @@ We can even reference scripts hosted on another server – it's common to do thi
 ---
 ## Practice
 
-Complete the missing gaps in the following HTML snippet such that JavaScript code contained by an `enki.js` file will be ran via a script tag:
+Complete the missing gaps in the following HTML snippet, such that the JavaScript code contained by an `enki.js` file will be run via a script tag:
 
 ```html
 ??? 
