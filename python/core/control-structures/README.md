@@ -4,11 +4,10 @@ description: Explore fundamental control structures.
 
 insights:
   - if-statements
-  - indentation-and-commenting
+  - if-elif-else-statements
+  - intro-to-booleans
   - boolean-operators
-  - chain-comparison-operators
-
+  - indentation-and-commenting
 
 exercises:
   - py-practice-else-if
-

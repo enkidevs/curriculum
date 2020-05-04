@@ -1,25 +1,15 @@
 ---
-author: tommarshall
-
-levels:
-
-  - beginner
+author: emmab
 
 type: normal
+
 aspects:
   - introduction
+
 category: must-know
 
-inAlgoPool: false
-
-
-standards:
-  python.identify-python-syntax.2: 10
-
 links:
-
-  - '[Comment conventions](https://www.python.org/dev/peps/pep-0008/#comments){website}'
-
+  - '[Comment Conventions](https://www.python.org/dev/peps/pep-0008/#comments){website}'
 
 ---
 
@@ -28,9 +18,12 @@ links:
 ---
 ## Content
 
-Unlike many other programming languages, Python uses indentation (tabs) to separate blocks of code instead of containing them with curly braces.
+Python is one of the very few programming languages that *relies on the use of indentation* (tabs) to work.
 
-Tabs and spaces are both supported with the standard Python. One indentation has four spaces. For example:
+> Usually, one indentation has *four spaces* in Python.
+
+For example:
+
 ```python
 if True:
     print('Will print this.')
@@ -39,13 +32,15 @@ else:
 print('What about this one?')
 ```
 
-When run from the command line, the above will output:
-```
+The above example returns:
+
+```plain-text
 Will print this.
 What about this one?
 ```
 
-If we were to write the above snippet as such:
+If we were to rewrite the above snippet as:
+
 ```python
 if True:
     print('Will print this.')
@@ -55,15 +50,17 @@ else:
 ```
 
 The output will be:
-```
+
+```plain-text
 Will print this.
 ```
 
-The indentation of the last call to `print` determines whether it belongs to the `else` clause or should be invoked independent of the `if-else` conditions.
+The indentation determines whether the last call to `print` belongs to the `else` statement or whether it should be called separately from the `if` statement.
 
-On the other hand, commented lines don't have any requirements for indentation: they just won't be run. To comment out lines of code in Python, use the hash symbol, `#`. For example:
+As a side note, indentation doesn't matter for *commented out* lines. To comment out lines of code in Python, just use the hash symbol, `#`. For example:
+
 ```python
-# print("This line is commented out.")
+# print('This line is commented out.')
 print("This line isn't commented out!")
 ```
 
@@ -71,13 +68,14 @@ print("This line isn't commented out!")
 ## Practice
 
 What will this code print?
-```
-if True:
-   print("this is true")
-else:
-   print("this is false")
 
+```python
+if True:
+   print('this is true')
+else:
+   print('this is false')
 ```
+
 ???
 
 * `this is true`
@@ -90,11 +88,12 @@ else:
 
 Which of the following is a valid Python comment?
 
-```
+```plain-text
 // Comment A
 /* Comment B */
 # Comment C
 ```
+
 ???
 
 * `Comment C`
