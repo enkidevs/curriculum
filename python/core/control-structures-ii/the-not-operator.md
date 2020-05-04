@@ -1,24 +1,15 @@
 ---
-author: tommarshall
+author: emmab
 
 tags:
-
   - introduction
-
-levels:
-
-  - beginner
 
 type: normal
 
 category: must-know
 
-inAlgoPool: false
 aspects:
   - introduction
-
-standards:
-  python.native-types-operations.0: 10
 
 ---
 
@@ -27,42 +18,43 @@ standards:
 ---
 ## Content
 
-Using Python's `not` operator before a boolean expression negates the expression. In other words, if the original expression evaluates to true, placing a `not` in front of it means the phrase as a whole will evaluate to false, and vice versa.
+Python's `not` operator returns the opposite of whatever condition is given to it.
 
 For example:
 
 ```python
-not (x > y) # is True if
-(x > y)     # is False
+not True
+# False
 ```
 
 ```python
-print(not False)
+x = 5
+y = 10
+
+not (x < y)
+# False
 ```
-Prints `True`, because `True` is the negation of `False`.
-```python
-print(True == (not True))
-```
-Prints `False`, because (`not` `True`) evaluates to `False`, and True does not equal False
+
+You can also negate the `in` and `is` operators to check whether a value is `not in` another object, or to check whether an instance `is not` identical to another instance. 
 
 ---
 ## Practice
 
-Complete this expression to check that `x` does not appear in the list of `nums`:
+Complete this expression to check that the variable `word` does not appear in `sentence`:
 
 ```python
-x = 10
-nums = [1,2,3,4]
+word = 'list'
+sentence = 'we know about numbers, strings and booleans'
 
-??? x ??? in nums:
-    print('x is not in this list!')
+??? word ??? in sentence:
+    print("Let's learn some more data types!")
 ```
 
-* if
-* not
-* is
-* while
-* for
+* `if`
+* `not`
+* `is`
+* `elif`
+* `else`
 
 ---
 ## Revision
@@ -70,11 +62,13 @@ nums = [1,2,3,4]
 What does the following code snippet return:
 
 ```python
-print(True == (not True))
+True == (not True)
 ```
+
 ???
 
 
-* False
-* True
-* Error
+* `False`
+* `True`
+* `Error`
+* `false`

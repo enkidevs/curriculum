@@ -1,13 +1,13 @@
-name: Fundamental Data Structures
+name: Sequential Data Types I
 
-description: Getting to know the fundamental data structures specific to Python.
+description: Getting to know the fundamental sequential data types specific to Python.
 
 insights:
-  - variables-and-types
+  - intro-to-sequential-data-types
   - the-fundamental-tuples
   - tuple-assignment
-  - lists
-  - dictionary-standard-mapping-type
+  - tuple-methods
+
 
 exercises:
   - py-practice-control-structure

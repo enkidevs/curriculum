@@ -10,8 +10,8 @@ sections:
     - console-and-operators
     - control-structures
     - control-structures-ii
-    - fundamental-data-structures
-    - fundamental-data-structures-ii
+    - sequential-data-types-i
+    - sequential-data-types-ii
     - looping
     - functions
     - tips

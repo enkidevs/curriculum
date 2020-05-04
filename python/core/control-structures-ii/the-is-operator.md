@@ -1,24 +1,18 @@
 ---
-author: tommarshall
+author: emmab
 
 tags:
   - introduction
 
-levels:
-  - beginner
-
 type: normal
 
 category: must-know
-
-inAlgoPool: false
 
 aspects:
   - introduction
 
 links:
   - '[is operator](http://stackoverflow.com/questions/13650293/understanding-pythons-is-operator){website}'
-
 
 ---
 
@@ -27,9 +21,9 @@ links:
 ---
 ## Content
 
-Python's `is` operator is used to match instances of variables, instead of matching the values of variables like the `==` operator.
+Python's `is` operator is used to match *instances of variables*.
 
-`is` will evaluate to true if the variables on either side of the operator point to the same object, not just the same value, and will evaluate to false otherwise.
+The `is` operator will evaluate to `True` if the variables on either side of it point to the *same object*, not just the same value.
 
 For example:
 
@@ -38,31 +32,36 @@ a_string = 'python'
 another_string = a_string
 
 another_string is a_string
-# prints true
+# True
 ```
 
 Whereas:
 
 ```python
-numsX = [1, 2, 3]
-numsY = [1, 2, 3]
+x = 'any string'
+y = 'any string'
 
-numsX is numsY
-# prints false
+x is y
+# False
 
-numsY is numsX
-# prints false
+y is x
+# False
+
+x == y
+# True
 ```
+
+Note that the `==` operator can be used to check whether the *values* are the same.
 
 ---
 ## Practice
 
 The `is` operator is used to match ??? instead of values.
 
-
 * instances
 * objects
 * lists
+* classes
 
 ---
 ## Revision
@@ -70,13 +69,14 @@ The `is` operator is used to match ??? instead of values.
 What does the following code snippet return:
 
 ```python
-numsX = [2, 4, 6]
-numsY = [2, 4, 6]
+pizza = 'yummy'
+pasta = 'yummy'
 
-numsX is numsY
+pizza is pasta
 ```
 ???
 
-* False
-* True
-* Error
+* `False`
+* `True`
+* `Error`
+* `false`
