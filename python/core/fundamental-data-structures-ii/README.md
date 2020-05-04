@@ -5,11 +5,10 @@ type: insights-list
 description: More on fundamental data structures specific to Python.
 
 insights:
-  - lists
   - built-in-list-methods
-  - list-methods-ii
   - del-statement-for-lists
-  - ranges
+  - working-with-set-s
+  - build-in-dictionary-methods
 
 exercises:
   - py-practice-data-structure

@@ -1,5 +1,10 @@
 ---
-author: emmab
+author: catalin
+
+levels:
+  - basic
+  - advanced
+  - medium
 
 type: normal
 
@@ -10,95 +15,124 @@ aspects:
   - workout
 
 links:
-  - '[Python List Methods](https://www.programiz.com/python-programming/methods/listl){website}'
+
+  - '[docs.python.org](https://docs.python.org/3.5/library/functions.html){website}'
+
 
 ---
 
-# List Methods I
+# Built-in `list` methods
 
 ---
 ## Content
 
-Python has many built-in `list` methods. Here are some of the most handy ones to know about!
-
-```python
-number_list = [1, 2, 3, 4, 5]
+These are some common built-in list methods. Consider the following list:
+```py
+list_a = [1, 2, 3, 4, 5]
 ```
 
-- The `extend()` method extends one list with the contents of another list:
-
+To extend one list with the contents of another list:
 ```python
-more_numbers = [6, 7]
+list_b = [6, 7]
 
-number_list.extend(more_numbers)
-
-print(number_list)
+list_a.extend(list_b)
+print(list_a)
 # [1, 2, 3, 4, 5, 6, 7]
 ```
 
-- The `reverse()` method reverses the items in a list:
-
+Reverse the items in a *list*:
 ```python
-number_list.reverse()
+list_a.reverse()
 
-print(number_list)
+print(list_a)
 # [7, 6, 5, 4, 3, 2, 1]
 ```
 
-- The `remove()` method deletes specific items:
-
+Remove a *specific item*:
 ```python
-number_list.remove(7)
-# will remove only the first occurrence of the `item`
+item = 7
+list_a.remove(item)
+# will remove only the first
+# occurrence of the `item`
 
-print(number_list)
+print(list_a)
 # [6, 5, 4, 3, 2, 1]
 ```
 
-- The `pop()` method can be used to remove the last item, or to remove an item at a given *index*:
-
+Remove and return an element at a given *index* (if no `index` is specified, it will remove and return the last item in the *list*):
 ```python
-number_list.pop()
-# 1
+index = 3
+list_a.pop(index)
+# Output: 3
 
-number_list.pop(2)
-# 4
+print(list_a)
+# [6, 5, 4, 2, 1]
 
-print(number_list)
-# [6, 5, 3, 2]
+list_a.pop()
+# Output: 1
+print(list_a)
+# [6, 5, 4, 2]
+```
+
+If you want to sort the list, you could use `sort`. This method will sort the list **in-place**, mutating list indices, and in the end it returns `None`.
+```python
+list_a.sort(key=None, reverse=False)
+print(list_a)
+# [2, 4, 5, 6]
+```
+
+`key` specifies a function of one argument that is used to extract a *comparison key* (e.g.`key=str.lower`). If no key is specified, elements will be compared directly.
+
+If `reverse` is set to `True`, list elements are sorted as each comparison were reversed.
+
+Insert an element at a given *index*:
+```python
+index = 2
+item = 6
+list_a.insert(index, item)
+
+print(list_a)
+# [2, 4, 6, 5, 6]
+```
+
+Get the number of occurrences of an *item*:
+```python
+item = 6
+list_a.count(item)
+# Output: 2
 ```
 
 ---
 ## Practice
 
-Extend `positive` with `negative`:
+Complete the code snippet to return a new sorted list of `ex_list`:
 
 ```python
-positive = [1, 2, 3, 4]
-negative = [-1, -2, -3, -4]
-
-???.???(???)
+ex_list.??? (???=None,\
+    reverse=False)
 ```
 
-* positive
-* extend
-* negative
-* concatenate
-* append
-
+* `sort`
+* `key`
+* `order`
+* `priority`
+* `change`
+* `remove`
 
 ---
 ## Revision
 
-Which of the following would NOT work to remove the element at index `3`:
+Extend `pos` list with the `neg` list:
 
 ```python
-pancake = ['eggs', 'flour', 'milk', 'butter']
+pos = [1,2,3,4]
+neg = [-1,-2,-3,-4]
+
+???.???(???)
 ```
 
-???
-
-* `pancake.remove(3)`
-* `pancake.remove('butter')`
-* `pancake.pop()`
-* `pancake.pop(3)`
+* pos
+* extend
+* neg
+* concatenate
+* append
