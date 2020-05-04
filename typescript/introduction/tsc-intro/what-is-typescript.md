@@ -5,10 +5,6 @@ category: must-know
 aspects:
   - introduction
 links:
-  - '[Machine Learning with JavaScript](https://www.tensorflow.org/js){website}'
-  - '[Build User Interfaces with JavaScript](https://reactjs.org/){website}'
-  - '[Make iOS and Android apps with JavaScript](https://reactnative.dev){website}'
-  - '[Use JavaScript for servers and IOT](https://nodejs.dev){website}'
   - '[Official Website for TypeScript](https://www.typescriptlang.org){website}'
 
 ---
@@ -22,13 +18,13 @@ If you're old enough, you might remember when JavaScript was just a web developm
 
 You're probably thinking: "What's JavaScript got to do with it -- isn't this a TypeScript course?" Let us explain!
 
-Because of the popularity of JavaScript, many tools were created to further expand its capabilities, ranging from tools to improve web app development to those that enable mobile apps and even backend servers to be built.
+Because of the popularity of JavaScript, many tools were created to further expand its capabilities, ranging from tools to improve web app development to those that enable mobile apps and even backend servers to be built[1].
 
 > 💡 Knowing a little bit of JavaScript is recommended before learning TypeScript. If you like, check out our JavaScript skill to build up your JS muscles 💪.
 
 TypeScript is another creation meant to expand what JavaScript can do.
 
-It is a **strict superset[1] of JavaScript with optional types**.
+It is a **strict superset[2] of JavaScript with optional types**.
 
 ![ts-superset-js](https://img.enkipro.com/8e19f0116e9f2c74df35c746c253d90e.png)
 
@@ -62,7 +58,15 @@ Using types in TypeScript is required.
 ---
 ## Footnotes
 
-[1: Superset]
+[1: JavaScript is incredibly versatile]
+
+Here are some tools to demonstrate what can be built with JavaScript:
+  - [Develop ML models](https://www.tensorflow.org/js)
+  - [Build User Interfaces](https://reactjs.org/)
+  - [Make iOS and Android apps](https://reactnative.dev)
+  - [Build servers](https://nodejs.dev)
+
+[2: Superset]
 A set `X` is a superset of set `Y`, if `X` includes all the values in `Y`.
 
 For example, the set `"Fruit"` includes all possible `"Apples"`. This means that `"Fruit"` is a superset of `"Apples"`.
