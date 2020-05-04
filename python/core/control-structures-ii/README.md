@@ -3,7 +3,7 @@ name: Control Flow II
 description: Explore more advanced control flow.
 
 insights:
-  - chain-comparison-operators
+  - python-chain-comparison-operators
   - the-in-operator
   - the-is-operator
   - the-not-operator
