@@ -17,6 +17,8 @@ notes: 'https://insights.enki.com/#/contrib/others/55c83ba83f06ab320051aa8a?sear
 ---
 ## Content
 
+A range can refer to an arbitrary, ordered sequence of values within a list-like container. The boundaries of a range are often represented by indexes.
+
 Strings can be thought of as a list of characters. Hence, a substring is essentially a range in the original string. 
 You can use the `substring()` method to extract a part of a string. The result will be returned **as a new value** while the original string isn't mutated. 
 
