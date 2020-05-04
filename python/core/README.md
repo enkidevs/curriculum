@@ -8,7 +8,7 @@ sections:
   '0':
     - meet-python
     - syntax-and-numerical-operators
-    - control-structures
+    - control-flow-i
     - control-structures-ii
     - sequential-data-types-i
     - sequential-data-types-ii
