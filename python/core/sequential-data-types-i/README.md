@@ -4,8 +4,8 @@ description: Getting to know the fundamental sequential data types specific to P
 
 insights:
   - intro-to-sequential-data-types
-  - the-fundamental-tuples
-  - tuple-assignment
+  - python-tuples
+  - python-tuple-assignment
   - tuple-methods
 
 

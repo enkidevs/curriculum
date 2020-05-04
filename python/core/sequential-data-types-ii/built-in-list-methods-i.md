@@ -86,7 +86,6 @@ negative = [-1, -2, -3, -4]
 * concatenate
 * append
 
-
 ---
 ## Revision
 
@@ -95,6 +94,8 @@ Which of the following would NOT work to remove the element at index `3`:
 ```python
 pancake = ['eggs', 'flour', 'milk', 'butter']
 ```
+
+???
 
 * `pancake.remove(3)`
 * `pancake.remove('butter')`

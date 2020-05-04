@@ -1,6 +1,6 @@
-name: Control Structures I
+name: Control Flow I
 
-description: Explore fundamental control structures.
+description: Explore Python's fundamental control flow.
 
 insights:
   - if-statements

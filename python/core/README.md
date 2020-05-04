@@ -7,7 +7,7 @@ core: true
 sections:
   '0':
     - meet-python
-    - console-and-operators
+    - syntax-and-numerical-operators
     - control-structures
     - control-structures-ii
     - sequential-data-types-i
