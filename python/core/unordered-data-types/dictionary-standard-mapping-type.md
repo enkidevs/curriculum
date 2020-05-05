@@ -30,7 +30,7 @@ my_dict = {'name': 'Jack', 'age': 26}
 
 In the example above, `'name'` and `'Jack'` are a *key-value pair*. `'name'` acts as the *key*, and `'Jack'` is the *value*.
 
-Dictionaries are similar to lists because we they are easily mutable - *we can add and remove items*.
+Dictionaries are similar to lists because they are easily mutable - *we can add and remove items*.
 
 Two important differences are:
 
