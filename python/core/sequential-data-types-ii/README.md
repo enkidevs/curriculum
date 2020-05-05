@@ -6,7 +6,7 @@ description: Get to know the fundamental sequential data types - lists and range
 
 insights:
   - python-lists
-  - built-in-list-methods
+  - list-methods-i
   - list-methods-ii
   - del-statement-for-lists
   - ranges
