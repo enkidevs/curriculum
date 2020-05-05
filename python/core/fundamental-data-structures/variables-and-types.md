@@ -32,13 +32,13 @@ text = 'Order matters!'
 > Elements in sequential data types can be *accessed via their indexes*.
 
 ```python
-print(text[0])
+print(text[ 0 ])
 # 'O'
 
-print(text[1])
+print(text[ 1 ])
 # 'r'
 
-print(text[13])
+print(text[ 13 ])
 # '!'
 ```
 
@@ -47,14 +47,14 @@ Indexes are basically *measures of position*. All elements within a variable sta
 The index used must be valid:
 
 ```python
-print(text[14])
+print(text[ 14 ])
 # IndexError: str index out of range
 ```
 
 Strings are also an **immutable data type**[1] which means that items cannot be reassigned.
 
 ```python
-text[13] = '.'
+text[ 13 ] = '.'
 # TypeError: 'str' object does not support item assignment
 ```
 
