@@ -66,7 +66,7 @@ What's the correct output for the following?
 ```python
 text = 'Strings can be accessed via indexes!'
 
-print(text[ 1 ])
+print(text[1])
 # ???
 ```
 
@@ -83,7 +83,7 @@ What's the correct output for the following?
 ```python
 text = 'Strings can be accessed via indexes!'
 
-print(text[ O ])
+print(text[O])
 # ???
 ```
 
