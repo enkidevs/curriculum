@@ -3,7 +3,7 @@ name: Sequential Data Types I
 description: Get to know the fundamental sequential data types - strings and tuples.
 
 insights:
-  - variables-and-types
+  - intro-sequential-data-types
   - the-fundamental-tuples
   - tuple-assignment
   - tuple-methods
