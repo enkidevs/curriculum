@@ -41,18 +41,16 @@ The result will be `"En"`. This is because the method starts at the value of `st
 There are many more methods that need specifying a range, and all of them use this rule.
 
 ```java
-List.sublist(
-  int startIndex,
-  int endIndex
-);
-```
+List<Integer> myList = new ArrayList<Integer>();
+for (int i = 0; i <= 4; i++) {
+  myList.add(i);
+}
+System.out.println(myList);
+// [0, 1, 2, 3, 4]
 
-```java
-Array.copyOfRange(
-  T[],
-  int startIndex,
-  int endIndex
-);
+List<Integer> newList = myList.subList(0, 3);
+System.out.println(newList);
+// [0, 1, 2]
 ```
 
 ---
