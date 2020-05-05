@@ -29,7 +29,7 @@ vowels.index('e')
 # 1
 ```
 
-> Remember that indexes in Python starts from 0 and not 1!
+> Remember that indexes in Python start from 0 and not 1!
 
 Note, if the same element is present more than once, the first/smallest position is returned.
 
