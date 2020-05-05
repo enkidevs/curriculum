@@ -55,8 +55,8 @@ my_set = set([1, "Hello", (1, 2, 3)])
 Sets are an ??? data type. Items inside a set can be of any data type, but each item must be ???.
 
 * `unordered`
-* `ordered`
 * `unique`
+* `ordered`
 * `indexed`
 * `non-unique`
 

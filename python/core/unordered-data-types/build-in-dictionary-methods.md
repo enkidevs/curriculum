@@ -62,12 +62,12 @@ square_numbers.items()
 ---
 ## Practice
 
-Complex the following code snippet to make a duplicate of the variable `my_house` called `new_house`:
+Complete the following code snippet to make a duplicate of the variable `my_house` called `new_house`:
 
 ```python
 my_house = {'bedrooms': 2, 'bathrooms': 2, 'garden': True}
 
-new_house = ???.???()
+new_house = ???.???
 ```
 
 * `my_house`
