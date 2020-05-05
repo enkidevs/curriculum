@@ -1,6 +1,6 @@
 name: Sequential Data Types I
 
-description: Getting to know the fundamental sequential data types specific to Python.
+description: Get to know the fundamental sequential data types - strings and tuples.
 
 insights:
   - variables-and-types

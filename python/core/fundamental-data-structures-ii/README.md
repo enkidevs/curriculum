@@ -2,7 +2,7 @@ name: Sequential Data Types II
 
 type: insights-list
 
-description: Getting to know the fundamental sequential data types specific to Python.
+description: Get to know the fundamental sequential data types - lists and ranges.
 
 insights:
   - python-lists

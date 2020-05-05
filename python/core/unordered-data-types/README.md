@@ -1,6 +1,6 @@
 name: Unordered Data Types
 
-description: More on fundamental data structures specific to Python.
+description: Get to know the fundamental unordered data types - dictionaries and sets.
 
 insights:
   - working-with-set-s
