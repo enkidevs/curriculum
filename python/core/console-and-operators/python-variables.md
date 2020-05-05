@@ -1,5 +1,5 @@
 ---
-author: tommarshall
+author: emmab
 
 tags:
   - introduction
@@ -55,6 +55,7 @@ Complete the following code to print 'Python' to the screen:
 ```python
 ??? ??? ???
 print(language)
+
 # Python
 ```
 * language

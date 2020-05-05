@@ -1,5 +1,5 @@
 ---
-author: tommarshall
+author: emmab
 
 tags:
   - introduction
@@ -42,7 +42,7 @@ In this program, we've used Python's built-in `print` function. Soon you'll lear
 
 Let's practice using Python! Which statement will display `'Enki'`?
 
-```bash
+```python
 ???
 ```
 

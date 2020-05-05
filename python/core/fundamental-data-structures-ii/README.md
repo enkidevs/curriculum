@@ -5,7 +5,7 @@ type: insights-list
 description: More on fundamental data structures specific to Python.
 
 insights:
-  - lists
+  - python-lists
   - built-in-list-methods
   - list-methods-ii
   - del-statement-for-lists
