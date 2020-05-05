@@ -8,8 +8,6 @@ aspects:
 
 category: must-know
 
-links:
-
 ---
 
 # Introduction to Booleans
