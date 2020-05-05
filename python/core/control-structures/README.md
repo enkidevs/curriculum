@@ -1,14 +1,13 @@
-name: Control Structures I
+name: Control Flow I
 
-description: Explore fundamental control structures.
+description: Explore Python's fundamental control flow.
 
 insights:
   - if-statements
-  - indentation-and-commenting
+  - if-elif-else-statements
+  - intro-to-booleans
   - boolean-operators
-  - chain-comparison-operators
-
+  - indentation-and-commenting
 
 exercises:
   - py-practice-else-if
-

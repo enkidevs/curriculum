@@ -1,32 +1,19 @@
 ---
-author: Ricardo
-
-levels:
-
-  - basic
-
-  - beginner
+author: emmab
 
 type: normal
 
 category: tip
+
 aspects:
   - introduction
-standards:
-  python.native-types-operations.0: 10
-
 
 tags:
-
   - introduction
-
   - comparison
-
   - operators
 
-
 links:
-
   - '[stackoverflow.com](http://stackoverflow.com/questions/101268/hidden-features-of-python){website}'
 
 
@@ -37,26 +24,28 @@ links:
 ---
 ## Content
 
-Python provides a syntactic shortcut for chaining comparison operators.
-
+In Python we're able to chain operators. This means that we can use more than one at a time, like this:
 
 ```python
 x = 10
+
 1 < x < 15
-True
+# True
 ```
 
-is the equivalent of:
+Chaining operators as above is equivalent to:
+
 ```python
 x = 10
+
 1 < x  and x < 15
-True
+# True
 ```
 
 ---
 ## Practice
 
-Check whether the value of the integer `x` is at least 2 and no more than 10:
+How do you check whether the value of the integer `x` is at least 2 and no more than 10?
 
 ???
 
@@ -69,8 +58,10 @@ Check whether the value of the integer `x` is at least 2 and no more than 10:
 ## Revision
 
 What will the following expression evaluate to?
+
 ```
 a = 9
+
 1 < a < 8
 ???
 ```
@@ -84,15 +75,14 @@ a = 9
 ### Do you know how to use chained comparison operators?
 
 
-How would we use chained comparison operators to express this conditional statement?
+How would we use chain comparison operators to express this conditional statement?
 
 ```python
-if var >= startvar and var <= endvar:
+if x >= y and x <= y:
     ...
 ```
 
-
-- `if startvar <= var <= endvar:`
-- `if startvar <= and var <= endvar:`
-- `if (startvar <= and var <= endvar):`
-- `if startvar >= var <= endvar:`
+- `if y <= x <= z:`
+- `if y <= and x <= z:`
+- `if (y <= and x <= z):`
+- `if y >= x <= z:`

@@ -1,5 +1,5 @@
 ---
-author: tommarshall
+author: emmab
 
 tags:
   - introduction
@@ -11,104 +11,86 @@ category: must-know
 aspects:
   - introduction
 
+links:
+  - '[Pythonic](https://stackoverflow.com/questions/25011078/what-does-pythonic-mean){website}'
+
 ---
 
-# Variables and Types
+# Intro to Sequential Data Types
 
 ---
 ## Content
 
-There are few things to keep in mind when talking about Python:
-- it is an entirely *object-oriented* programming language
-- each variable is an *object*
-- variables and their types **don't** need to be declared before assigning them values
+There are several different *sequential* data types in Python. These are ones that are *ordered in a defined sequence.*
 
-To define a string (`str` type), you can either use single or double quotes:
+Strings are an example of a sequential data type.
+
 ```python
-string_1 = 'Enki'
-string_2 = "Enki"
+text = 'Order matters!'
 ```
 
-Using single quotes will allow unescaped embedding of double quotes and vice-versa:
+> Elements in sequential data types can be *accessed via their indexes*.
+
 ```python
-single = 'I can use "these" '
-double = "I can use 'these' "
+print(text[0])
+# 'O'
+
+print(text[1])
+# 'r'
+
+print(text[13])
+# '!'
 ```
 
-It is most Pythonic[1] to use single quotes until you need double quotes.
+Indexes are basically *measures of position*. All elements within a variable start at index 0.
 
-To define integers (keep in mind these are signed, as in they are positive unless specified as negative):
+The index used must be valid:
+
 ```python
-int_1 = 23
-int_2 = -3
+print(text[14])
+# IndexError: str index out of range
 ```
 
-Longs (long integers) are also available - as integers of infinite size and followed by the letter `L`:
-```python
-long_int = 0122L
-```
-Note that `long` and `int` are **unified** in Python 3.x and you do not need to worry about long integers anymore.  
+Strings are also an **immutable data type** which means that items cannot be reassigned.
 
-Floating point numbers:
-```python
-float_value = 7.0
-```
+Most python objects (booleans, integers, floats, strings, and tuples) are immutable. This means that after you create the object and assign some value to it, you can't modify that value.
 
-Python also provides support for complex numbers in the form `a + b*j`, where `a` and `b` are floats and `j` represents the square root of `-1`:
 ```python
-complex_value = 3 + 5j
-```
-
-Using the built-in `type()` function, we can find out what type a variable is:
-```python
-print(type(int_2))
-# <type 'int'>
-
-print(type(complex_value))
-# <type 'complex'>
+text[13] = '.'
+# TypeError: 'str' object does not support item assignment
 ```
 
 ---
 ## Practice
 
-Fill in the output given by calling the `type()` function on the following variables:
+What's the correct output for the following?
+
 ```python
-a = -8.9
-print(type(a))
-# <type '???'>
+text = 'Strings can be accessed via indexes!'
 
-b = 877734314j
-print(type(b))
-# <type '???'>
-
-c = '"3.14"'
-print(type(c))
-# <type '???'>
+print(text[1])
+# ???
 ```
 
-* `float`
-* `complex`
-* `str`
-* `long`
-* `int`
+* `'t'`
+* `'S'`
+* `'!'`
+* `'s'`
 
 ---
 ## Revision
 
-Fill in the types of the following variables:
+What's the correct output for the following?
 
 ```python
-b = 100j
-print(type(b))
-# <type '???'>
+text = 'Strings can be accessed via indexes!'
 
-c = '100'
-print(type(c))
-# <type '???'>
+print(text[O])
+# ???
 ```
 
+* `'S'`
+* `'s'`
+* `'!'`
+* `'t'`
 
-* `complex`
-* `str`
-* `float`
-* `int`

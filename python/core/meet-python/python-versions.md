@@ -1,5 +1,5 @@
 ---
-author: tommarshall
+author: emmab
 
 tags:
   - introduction
@@ -53,7 +53,7 @@ Since the start of 2020 Python HQ are no longer working on improvements to Pytho
 Complete the following code using Python 3:
 
 ```py
-print ???'Learning Python with Enki!'???
+print???'Learning Python with Enki!'???
 ```
 
 * (
@@ -71,7 +71,7 @@ Which of the following code snippets is Python 3 code, and which is Python 2?
 Python 3: ???
 Python 2: ???
 
-* `print ('Hello world!')`
+* `print('Hello world!')`
 * `print 'Hello world!'`
 * `write 'Hello world!'`
-* `write ('Hello world!')`
+* `write('Hello world!')`

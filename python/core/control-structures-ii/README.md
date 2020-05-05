@@ -1,8 +1,9 @@
-name: Control Structures II
+name: Control Flow II
 
-description: More operators to help you take control.
+description: Explore more advanced control flow.
 
 insights:
+  - chain-comparison-operators
   - the-in-operator
   - the-is-operator
   - the-not-operator
