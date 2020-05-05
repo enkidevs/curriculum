@@ -20,7 +20,7 @@ Spreadsheets were designed for work with numerical data. You can perform both si
 
 There are many *formulas* that can be used to organize, calculate, or find the data that you need. You can even set up formulas to change the color of certain cells based on calculations or conditions.
 
-![red-green-color-rule](https://img.enkipro.com/99d219ca6028911ce05d78355f99cb93.gif)
+![grey-green-color-rule](https://img.enkipro.com/c0636eb87ceae9a7661145a72c1677d9.gif)
 
 ---
 ## Practice
