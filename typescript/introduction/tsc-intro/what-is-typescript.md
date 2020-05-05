@@ -14,17 +14,17 @@ links:
 ---
 ## Content
 
-If you're old enough, you might remember when JavaScript was just a web development language. Due to its versatility, JavaScript is now used in many applications including neural network design, building servers and many more.
+If you're old enough, you might remember when JavaScript was just a web development language. 
 
-You're probably thinking: "What's JavaScript got to do with it -- isn't this a TypeScript course?" Let us explain!
+Due to its versatility, JavaScript is now used in a wide range of applications, like neural network design, server building and many more[1].
 
-Because of the popularity of JavaScript, many tools were created to further expand its capabilities, ranging from tools to improve web app development to those that enable mobile apps and even backend servers to be built[1].
+You're probably thinking: "What's JavaScript got to do with it -- isn't this a TypeScript course?". Let us explain!
+
+Because of the popularity of JavaScript, many tools were created to further expand its capabilities. TypeScript is one of those.
 
 > 💡 Knowing a little bit of JavaScript is recommended before learning TypeScript. If you like, check out our JavaScript skill to build up your JS muscles 💪.
 
-TypeScript is another creation meant to expand what JavaScript can do.
-
-It is a **strict superset[2] of JavaScript with optional types**.
+TypeScript is a **strict superset[2] of JavaScript with optional types**.
 
 ![ts-superset-js](https://img.enkipro.com/8e19f0116e9f2c74df35c746c253d90e.png)
 
