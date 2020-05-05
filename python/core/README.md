@@ -12,6 +12,7 @@ sections:
     - control-structures-ii
     - fundamental-data-structures
     - fundamental-data-structures-ii
+    - unordered-data-types
     - looping
     - functions
     - tips

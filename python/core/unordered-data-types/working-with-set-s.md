@@ -1,27 +1,20 @@
 ---
-author: SebaRaba
+author: emmab
 
 tags:
-
   - introduction
   - workout
 
-levels:
-
-  - beginner
-
 type: normal
+
 aspects:
   - introduction
   - workout
+
 category: must-know
 
-standards:
-  python.native-types-operations.5: 10
-
 links:
-
-  - '[more about sets](http://www.python-course.eu/python3_sets_frozensets.php){website}'
+  - '[More About Sets](http://www.python-course.eu/python3_sets_frozensets.php){website}'
 
 
 ---
@@ -31,81 +24,48 @@ links:
 ---
 ## Content
 
-In **Python**, **sets** have four main characteristics:
-- they are an **unordered collection** of elements;
-- every element is **unique** (no duplicates);
-- and every element must be **immutable** (cannot be changed);
-- they can store elements of different **types**.
+So we know about sequential data types like `strings`, `tuples` and `lists`. There are other data types where the order *doesn't matter*.
 
-Even though elements stored in **sets** must be **immutable** the set itself is **mutable**.
+**Sets** are one of these. They have four main characteristics:
 
-There are two ways to create a **set**:
-- by placing all items inside `{}`, separated by commas;
-- or by using the **built-in function** `set()`.
+- they are an *unordered collection of items*
+- *every item is unique* (no duplicates)
+- *every item is immutable* (cannot be updated)
+- they can *store items of different types*
 
-There is no constraint regarding which **method** to use, but you have to know that an **empty set** cannot be created using the following **syntax**: `my_set = {}`. It is because **empty curly braces** create an **empty dictionary in Python**.
+> Sets are defined by values separated by commas, inside curly brackets `{}`.
 
-Consider the following example:
-
+```python
+set = {'clubs', 'hearts', 'spades', 'diamonds'}
 ```
-my_set = {1,2,3,4,5}
+
+We can create a `set` by placing all items inside `{}`, separated by commas, OR by using the built-in `set()` function:
+
+```python
+my_set = {1, "Hello", (1, 2, 3)}
 
 # OR
 
-my_set = set([1,2,3,4,5])
-```
-
-**Sets** updating is done using two **methods**:
-- `add()` -> adds one single element to the **set**;
-- `update()` -> adds more elements at a time to the **set**;
-
-Suppose we have the set created above:
-```
-my_set.add(9)
-print(my_set)
-
-# Output: {1,2,3,4,5,9}
-
-my_set.update([2,3,10,7],{11,12})
-print(my_set)
-
-# Output: {1,2,3,4,5,9,10,7,11,12}
-```
-
-As you can see, if we try to add **duplicate values** to the **set**, it would not consider them.
-
-**Sets** have two methods for removing items as well:
-- `discard()` -> which removes an element if it exists and does nothing if it does not.
-- `remove()` -> which does the same thing if the element exists, but would raise an error if it does not exist.
-
-```
-my_set.remove(1)
-my_set.discard(5)
-print(my_set)
-
-# Output: {2,3,4,9,10,7,11,12}
+my_set = set([1, "Hello", (1, 2, 3)])
 ```
 
 ---
 ## Practice
 
-Which of the following pairs are valid set methods?
+Sets are an ??? data type. Items inside a set can be of any data type, but each item must be ???.
 
-???
-
-
-* `update()` and `add()`
-* `update()` and `insert()`
-* `insert()` and `add()`
+* `unordered`
+* `unique`
+* `ordered`
+* `indexed`
+* `non-unique`
 
 ---
 ## Revision
 
-What happens when you use `remove()` on an element that doesn't exist in the set?
+Sets are an ??? data type. Items inside a set cannot be ???, though the whole set is mutable.
 
-???
-
-
-* An error will be thrown.
-* Nothing.
-* The element will be removed.
+* `unordered`
+* `updated`
+* `unique`
+* `indexed`

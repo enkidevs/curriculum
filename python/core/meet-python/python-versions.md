@@ -53,7 +53,7 @@ Since the start of 2020 Python HQ are no longer working on improvements to Pytho
 Complete the following code using Python 3:
 
 ```py
-print???'Learning Python with Enki!'???
+print???'Learning Python!'???
 ```
 
 * (
