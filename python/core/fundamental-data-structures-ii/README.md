@@ -1,8 +1,8 @@
-name: Fundamental Data Structures II
+name: Sequential Data Types II
 
 type: insights-list
 
-description: More on fundamental data structures specific to Python.
+description: Getting to know the fundamental sequential data types specific to Python.
 
 insights:
   - python-lists

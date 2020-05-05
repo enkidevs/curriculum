@@ -1,6 +1,6 @@
-name: Fundamental Data Structures
+name: Sequential Data Types I
 
-description: Getting to know the fundamental data structures specific to Python.
+description: Getting to know the fundamental sequential data types specific to Python.
 
 insights:
   - variables-and-types
