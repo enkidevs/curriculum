@@ -15,8 +15,8 @@ sections:
     - aggregation-i
     - aggregation-ii
   '2':
-    - crud
-    - crud-ii
+    - delete-query-documents
+    - project-rename-save
     - arithmetic-aggregation-i
     - arithmetic-aggregation-ii
     - aggregation-iii
