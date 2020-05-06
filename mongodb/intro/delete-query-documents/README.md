@@ -1,6 +1,6 @@
-name: CRUD
+name: Delete and Query
 
-description: Learn how to create, read, update and delete collections and documents.
+description: Learn how to delete and query collections and documents.
 
 insights:
   - querying-a-collection-5
