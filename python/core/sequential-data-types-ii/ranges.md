@@ -85,7 +85,7 @@ print(opening_hours)
 # [9, 10, 11, 12, 13, 14, 15, 16, 17]
 ```
 
-- `range(9, 18)`
-- `range(9, 17)`
-- `range(8, 17)`
-- `range(8, 18)`
+* `range(9, 18)`
+* `range(9, 17)`
+* `range(8, 17)`
+* `range(8, 18)`
