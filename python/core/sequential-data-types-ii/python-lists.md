@@ -20,7 +20,7 @@ aspects:
 
 Lists are another **sequential data type** that act as containers for objects. 
 
-Lists are also separated by commas, and *must be wrapped in square brackets*, `[]`.
+Lists are also separated by commas, and *must be wrapped in square brackets*, `[ ]`.
 
 ```python
 my_first_list = ['apples', 'oranges']
