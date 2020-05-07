@@ -38,7 +38,7 @@ It can also be used to delete a range of items within a `list`:
 
 ```python
 a = [1, 2, 3, 4]
-del a[0: 2]
+del a[0:2]
 
 print(a)
 # [3, 4]
@@ -66,7 +66,7 @@ What’s the output of the following code snippet:
 
 ```python
 e = [7, 8, 9, 11, 15, 19]
-del e[2: 4]
+del e[2:4]
 
 print(e)
 ???

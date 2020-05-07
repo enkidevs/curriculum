@@ -18,7 +18,7 @@ aspects:
 ---
 ## Content
 
-The `index()` method can be used on a `tuple` to *search for an item and returns its index*.
+The `index()` method can be used on a `tuple` to *search for an item and return its index*.
 
 For example:
 
@@ -34,7 +34,7 @@ vowels.index('e')
 Note, if the same element is present more than once, the first/smallest position is returned.
 
 ```python
-vowels = ('a', 'e', 'i', 'o', 'u', 'i')
+vowels = ('a', 'e', 'i', 'i', 'o', 'u')
 
 vowels.index('i')
 # 2

@@ -53,10 +53,12 @@ The code above will print `'Negative number'`.
 
 Comparison operators include:
 
-- `==`, meaning "is equal to"
-- `!=`, meaning "is not equal to"
-- `<` and `<=` meaning "is less than" and "is less than or equal to"
-- `>` and `>=` meaning "is greater than" and "is greater than or equal to"
+`==` - *is equal to*
+`!=` - *is not equal to*
+`<` - *is less than*
+`<=` - *is less than or equal to*
+`>` - *is greater than*
+`>=` - *is greater than or equal to*
 
 Note that a single `=` is used for assigning values to variables, not for comparison.
 

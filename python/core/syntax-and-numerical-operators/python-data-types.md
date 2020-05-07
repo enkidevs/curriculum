@@ -11,6 +11,9 @@ category: must-know
 aspects:
   - introduction
 
+links:
+  - '[Pythonic](https://stackoverflow.com/questions/25011078/what-does-pythonic-mean){website}'
+
 ---
 
 # Fundamental Data types

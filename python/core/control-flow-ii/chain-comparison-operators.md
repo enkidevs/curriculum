@@ -33,7 +33,7 @@ x = 10
 # True
 ```
 
-Chaining operators as above is equivalent to:
+Chaining operators is equivalent to:
 
 ```python
 x = 10
