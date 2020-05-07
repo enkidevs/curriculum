@@ -71,7 +71,7 @@ payment.value = 0;
 ---
 ## Practice
 
-Fill in the blacks such that `reader` satisfies the `BookReader` interface:
+Fill in the blanks such that `reader` satisfies the `BookReader` interface:
 
 ```ts
 interface Book {
