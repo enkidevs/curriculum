@@ -1,19 +1,17 @@
 ---
 author: mihaiberq
 
-levels:
-
-  - beginner
-
 type: normal
 
 category: must-know
 
 aspects:
-
   - introduction
 
-inAlgoPool: false
+links:
+  - '[JDK - Windows](https://docs.oracle.com/en/java/javase/11/install/installation-jdk-microsoft-windows-platforms.html#GUID-A7E27B90-A28D-4237-9383-A58B416071CA){documentation}'
+  - '[JDK - MacOS](https://docs.oracle.com/en/java/javase/11/install/installation-jdk-macos.html#GUID-2FE451B0-9572-4E38-A1A5-568B77B146DE){documentation}'
+  - '[JDK - Linux](https://docs.oracle.com/en/java/javase/11/install/installation-jdk-linux-platforms.html#GUID-737A84E4-2EFF-4D38-8E60-3E29D1B884B8){documentation}'
 
 ---
 
@@ -22,32 +20,28 @@ inAlgoPool: false
 ---
 ## Content
 
-In the last insight, we talked about the `HelloWorld` class and its output but never mentioned how to get from one point to the other.
+Now that you've seen some Java code, you might be wondering how you can get that to run on your machine.
 
 Before the *Java Virtual Machine* can do its part and run the code, a *compiler*[1] is needed to get the *bytecode* understandable by the JVM[2].
 
-The **compiler** takes the Java code written by the programmer and outputs the *Java classes bytecode* (which is platform neutral).
+This process is done by an *Integrated Development Environment* (IDE) automatically. If you're not using an IDE, both the compilation and interpretation can be run manually. 
 
-The bytecode then goes through the JVM which transforms it into low-level machine code. Here's a graphical representation of the process:
+In both cases, a Java compiler and the JVM have to be installed on the computer. You can get them by installing the *Java Development Kit* (JDK).
 
-![jvm-mental-model](https://img.enkipro.com/a038da2671b98d52c795730e3a676198.png)
+> 💡 If you don't know how to install the JDK, check the Learn More section for instructions.
 
-This process is done by an *Integrated Development Environment* (IDE) automatically, or both the compilation and interpretation can be run manually. In both cases, a Java compiler and the JVM have to be installed on the computer. 
-
-You can get them by installing the *Java Development Kit* (JDK).
-
-Let's take the `HelloWorld.java` class for example. To compile it into `HelloWorld.class` file, you have to open a terminal in the folder containing the initial `.java` file and run:
+Let's take a look at the previous `HelloJava.java` example[3]. To run it, you'll need to follow these two steps:
+1. Compile it to bytecode:
+```bash
+javac HelloWorld.java
 ```
-$ javac HelloWorld.java
-```
-Now, to run the `bytecode` (which is found inside the `.class` file), you have to call the JVM:
-```
-$ java HelloWorld
+2. Run the resulting bytecode
+```bash
+java HelloWorld
 Hello World!
 ```
-As you can see, after calling the JVM, the output of the program is printed to the console.
 
-> Note: as with all the skills in the app, if you want to access more advanced or specific content at any time, **feel free to use the *Skill Map* tab** to jump to the workouts most relevant for you.
+> 💡 Note: as with all the skills in the app, if you want to access more advanced or specific content at any time, **feel free to use the *Skill Map* tab** to jump to the workouts most relevant for you.
 
 ---
 ## Practice
@@ -81,3 +75,15 @@ Fun fact: there are multiple Java compilers, written in either *C*, *C++* or eve
 
 [2:JVM]
 Unlike Java code, a JVM has to be platform specific as it provides a link between the compiled Java code and the operating system.
+
+[3:Previous Example]
+Here's how the previous example looked like:
+```java
+// HelloJava.java
+public class HelloJava {
+  public static void main(String[] args) {
+    System.out.println("Hello Java!");
+  }
+}
+// Hello Java!
+```

@@ -1,51 +1,55 @@
 ---
-author: mihaiberq
-
-levels:
-
-  - basic
+author: kapnobatai136
 
 type: normal
 
 category: must-know
 
 aspects:
-
   - introduction
-
-inAlgoPool: false
-
-links:
-  - '[Java Version History](https://en.wikipedia.org/wiki/Java_version_history){website}'
-  - '[Official Support Roadmap](https://www.oracle.com/technetwork/java/java-se-support-roadmap.html){website}'
 
 ---
 
-# Java Versions
+# Java Virtual Machine
 
 ---
 ## Content
 
-Here's a little history for you. Java was first released in 1995, and since then there have been many major versions. 
+We mentioned that once you create your Java application, you can run it on any system. This is thanks to the Java Virtual Machine.
 
-With continuous improvements, the Java team has introduced a lot of new features and bug fixes, pushing it to the top of the most used programming languages.
+First, let's take a look at how your computer processes information. Because it is an electronic device, the language that it speaks is electricity. Information is received in binary numbers (that is `0` and `1`). 
 
-From a couple of hundred classes in *Java 1.0*, Java had grown to three thousand classes in *Java 5*. By *Java 8*, the number grew to be around 4300 classes.
+![byte-mental-model](https://img.enkipro.com/6cfbe063adf1bb14a3c98cf51f5fdae5.png)
 
-Transitioning from one version to another has always left room for problems. Usually backporting (making new features available to older versions) was the most troublesome. Deprecated classes or optimizations made to the existing ones were also reasons for code to break. One way to prevent this from happening was to stop public support for older versions.
+Using a sequence of 8 binary numbers, we can create text. For example, the letter `A` is `01000001`.
 
-Because of the reasons mentioned above, the *latest* Java version is always subject to change. To check support availability you can either go on the [Java version history wiki](https://en.wikipedia.org/wiki/Java_version_history) or check the [official support roadmap](https://www.oracle.com/technetwork/java/java-se-support-roadmap.html).
+Okay so what does this have to do with Java? The process is the following:
+1. Your Java code is compiled to binary numbers.
+2. The new intermediary code is fed to the Java Virtual Machine (JVM)
+3. The JVM then proceeds to identify your operating system and convert the intermediary code to native code
+
+![jvm-mental-model](https://img.enkipro.com/a038da2671b98d52c795730e3a676198.png)
 
 ---
-
 ## Practice
 
-Roughly how many classes are in **Java**?
+The ??? converts binary code to native code..
 
-???
+* Java Virtual Machine
+* Java Virtual System
+* Virtual Java Environment
 
-* 4300
-* 10
-* 100
-* 1000
-* 20000
+---
+## Revision
+
+Choose the correct order:
+
+```plain-text
+1. ???
+2. ???
+3. ???
+```
+
+* Java code is compiled to binary numbers.
+* The binary code is fed to the JVM.
+* The intermediary code is converted to native code.
