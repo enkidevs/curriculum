@@ -6,5 +6,3 @@ insights:
   - manipulating-environment-variables
   - manipulating-environment-variables-ii
   - manipulating-environment-variables-iii
-  - manipulating-environment-variables-iv
- 

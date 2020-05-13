@@ -1,12 +1,6 @@
 ---
 author: jfarmer
 
-levels:
-
-  - basic
-
-  - beginner
-
 aspects:
   - introduction
   - workout
@@ -15,59 +9,68 @@ type: normal
 
 category: must-know
 
-inAlgoPool: false
-
 tags:
-
   - introduction
+  - shell
+  - environment
+  - variables
 
 
 ---
 
-# Manipulating Environment Variables (Part 1)
+# Shell vs Environment
 
 ---
 ## Content
 
+Shell and environment variables are slightly different.
 
-### Shell Variable vs Environment Variable
-
-To understand what an *environment* variable is, we first have to understand what a *shell* variable is.
-
-You can define a new shell variable using the `=` operator, like so:
+You can define a new shell variable using the `=` operator:
 
 ```shell
-enki@host ~ $ DRINK="water"
-enki@host ~ $ echo $DRINK
+drink="water"
+echo $drink
 water
-enki@host ~ $
 ```
 
 Shell variables are used only by the shell itself, and not available to any of its children processes. They are commonly used in scripts to make calculations and to store intermediate results.
 
-```shell
-enki@host ~ $ DRINK="water"
-enki@host ~ $ AMT="plenty"
-enki@host ~ $ ADVICE="drink $AMT of $DRINK"
-enki@host ~ $ echo $ADVICE
-drink plenty of water
-enki@host ~ $
-```
-
 Environment variables are shell variables that have been exported, being available to its child process. We achieve this using the `export` command:
 
 ```shell
-enki@host ~ $ export DRINK="water"
-enki@host ~ $ echo $DRINK
+export DRINK="water"
+echo $DRINK
 water
-enki@host ~ $
 ```
 
-There are four things you might want to do to an environment variable, which we'll refer to as "variable" from here on out:
+Notice anything different? To avoid overwriting an important environment variable, it is **strongly recommended to write them in uppercase**. This way, you don't need to remember all the environment variables used by your system, you can look at the letter case.
 
-1. Create a new variable or overwrite an old variable
-2. Display a variable's value
-3. Modify an existing variable
-4. Unset a variable
+> **Remember:** if it's your variable **lowercase it**. If you export it, **uppercase it**.
 
-We will cover all 4 in the upcoming insights.
+---
+## Practice
+
+Complete the code to create a new environment variable:
+
+```bash
+??? ???="Enki"
+```
+
+* export
+* NEW_USER
+* $NEW_USER
+* new_user
+* create
+
+---
+## Revision
+
+Match the variable with the text:
+
+```plain-text
+??? - Environment 
+??? - Shell
+```
+
+* HOME
+* home

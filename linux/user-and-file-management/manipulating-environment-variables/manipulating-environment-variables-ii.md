@@ -1,12 +1,6 @@
 ---
 author: jfarmer
 
-levels:
-
-  - basic
-
-  - beginner
-
 aspects:
   - introduction
   - workout
@@ -15,72 +9,79 @@ type: normal
 
 category: must-know
 
-inAlgoPool: false
-
 tags:
-
   - introduction
 
 
 ---
 
-# Manipulating Environment Variables (Part 2)
+# Updating & Deleting
 
 ---
 ## Content
 
-### Capitalizing Environment Variables
 
-First, by convention, environment variables are given names in ALL CAPS and underscores `_`.  It is possible, but not recommended, to use lower-case letters when naming environment variables. You'll only ever see us use ALL CAPS.
+### Modifying an Existing Variable
 
-### Displaying a Variable
+You'll often want to modify an existing variable by appending or prepending data. To do this, you can reference an environment variable inside a string:
 
-Use `echo` to print the contents of a variable.  If you reference a variable that hasn't been created yet it will have an empty string `""` as a default value.
-
-Here `HOME` contains the full path to the current user's home directory while `FOOD` has not been set.
-
-```shell
-enki@host ~ $ echo $HOME
-/home/enki
-enki@host ~ $ echo $FOOD
-
-enki@host ~ $
-```
-
-### Creating a New Variable
-
-You can create a new environment variable using the `=` operator and the `export` command, like so:
-
-```shell
-enki@host ~ $ echo $FOOD
-
-enki@host ~ $ export FOOD="waffles"
-enki@host ~ $ echo $FOOD
+```bash
+export FOOD="waffles"
+echo $FOOD
 waffles
-enki@host ~ $
+
+export FOOD="chocolate $FOOD"
+echo $FOOD
+chocolate waffles
 ```
 
-Make sure not to add any spaces around `=`.
+### Unsetting an Environment Variable
 
-```shell
-enki@host ~ $ export FOOD = "waffles"
--bash: export: `=': not a valid identifier
-enki@host ~ $
+To unset or clear an environment variable use `unset`:
+
+```bash
+export FOOD="waffles"
+echo $FOOD
+waffles
+
+unset FOOD
+echo $FOOD
+
 ```
+
+> If you reference a variable that hasn't been created yet (or that has been deleted), it will have an empty string `""` as a default value.
 
 ---
 ## Practice
 
-Fill in the code to create and display a variable:
+Modify, then unset, the variable.
 
-```shell
-enki@host ~ $ ??? NAME="Enki"
-enki@host ~ $ ??? ???
+```bash
+echo $SOMETHING
+foobar
+export SOMETHING="bar ???"
+echo $SOMETHING
+bar foobar
+??? SOMETHING
 ```
 
-* export
-* echo
-* $NAME
-* import
-* NAME
-* $echo
+* $SOMETHING
+* unset
+* SOMETHING
+* set
+
+---
+## Revision
+
+Fill in the gaps to get the result:
+
+```bash
+a_var="bar"
+a_var="???$???"
+echo ???
+foobar
+```
+
+* foo
+* a_var
+* $a_var
