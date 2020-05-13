@@ -1,12 +1,6 @@
 ---
 author: jfarmer
 
-levels:
-
-  - basic
-
-  - beginner
-
 aspects:
   - introduction
   - workout
@@ -15,64 +9,54 @@ type: normal
 
 category: must-know
 
-inAlgoPool: false
-
 tags:
-
   - introduction
+
 
 
 ---
 
-# Manipulating Environment Variables (Part 3)
+# Understanding `PATH`
 
 ---
 ## Content
 
+Understanding the `PATH` environment variable and how to manipulate it is one of the most important things a beginner can master.  
 
-### Modifying an Existing Variable
+The contents of `PATH` tell your shell where to look for executables.  It is therefore central to understanding what happens when you type a command in the terminal.
 
-Oftentimes you'll want to modify an existing variable by appending or prepending data. To do this you can reference an environment variable inside a string, like so:
+### What Does The `PATH` Variable Contain?
 
-```shell
-enki@host ~ $ export FOOD="waffles"
-enki@host ~ $ echo $FOOD
-waffles
-enki@host ~ $ export FOOD="chocolate $FOOD"
-enki@host ~ $ echo $FOOD
-chocolate waffles
-enki@host ~ $
+The `PATH` variable itself contains a `:`-delimited[1] list of directories:
+
+```bash
+echo $PATH
+/usr/local/bin:/usr/bin:/bin
 ```
 
-### Unsetting an Environment Variable
-
-To unset or clear an environment variable use `unset`, like so:
-
-```shell
-enki@host ~ $ export FOOD="waffles"
-enki@host ~ $ echo $FOOD
-waffles
-enki@host ~ $ unset FOOD
-enki@host ~ $ echo $FOOD
-
-enki@host $
-```
+> **Note**: the fact that `:`'s are used to delimit the directories here is a matter of *convention*.  Other parts of the system assume the list is `:`-delimited, but if in the 1970s we had settled on `,` or `;` instead, we would still be using that today.
 
 ---
 ## Practice
 
-Modify then unset the variable.
+What environment variable is used by your shell to look for executables?
 
-```bash
-enki@host ~ $ echo $SOMETHING
-foobar
-enki@host ~ $ export SOMETHING="bar ???"
-enki@host ~ $ echo $SOMETHING
-bar foobar
-enki@host ~ $ ??? SOMETHING
-```
+???
 
-* $SOMETHING
-* unset
-* SOMETHING
-* set
+* PATH
+* path
+* EXEC
+* exec
+
+
+---
+## Revision
+
+Which of these is used to delimit directories in the `PATH` variable?
+
+???
+
+* :
+* ;
+* ,
+* .
