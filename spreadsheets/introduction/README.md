@@ -14,4 +14,4 @@ sections:
     - intro-to-functions-and-formulas
     - charts
   '1':
-    - features-to-save-time
+    - tips-and-tricks-part-1
