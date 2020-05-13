@@ -1,14 +1,6 @@
 ---
 author: tuwidc
 
-levels:
-
-  - basic
-
-  - medium
-
-  - beginner
-
 aspects:
   - introduction
   - workout
@@ -18,68 +10,64 @@ type: normal
 category: must-know
 
 tags:
-
   - path
-
   - linux
-
   - terminal
-
   - bash
-
   - bashrc
-
   - export
-
   - introduction
-
 
 ---
 
-# Adding directories to your `$PATH`
+# Adding Directories to `PATH`
 
 ---
 ## Content
 
-**PATH** is an environmental variable that informs the shell within which directories to search for executable files in response to commands issued by a user.
+To do this, edit the `.bashrc` file in the home directory and append the following line (chaining the existing path additions):
 
-To do this, edit the `.bashrc` file in the home directory and append the following line (chaining the existing path additions) :
-```
+```bash
 export PATH=/path/to/dir:$PATH
 ```
-You can open *.bashrc* in terminal by running:
-```
-$ nano ~/.bashrc
+
+You can open `.bashrc` in terminal by running:
+
+```bash
+nano ~/.bashrc
 # ~/ being the implicit path for
 # your home folder
 ```
 
-For example, to add the directory */usr/sbin*, the following would be used:
-```
+For example, to add the directory `/usr/sbin`, the following would be used:
+
+```bash
 PATH="/usr/sbin:$PATH"
 ```
 
-Source your .bashrc or logout/login (or restart the terminal) for the changes to take effect.
+Source your `.bashrc` or logout/login (or restart the terminal) for the changes to take effect.
 
-Sourcing executes the file that it was given as a parameter.  To source your *.bashrc*, simply type
+Sourcing executes the file that it was given as a parameter. To source your `.bashrc`, simply type:
+
+```bash
+source ~/.bashrc
 ```
-$ source ~/.bashrc
-```
+
 This is the same as running:
-```
+
+```bash
 . ~/.bashrc
 ```
-
-> Note: as with all the skills in the app, if you want to access more advanced or specific content at any time, **feel free to use the *Skill Map* tab** to jump to the workouts most relevant for you.
 
 ---
 ## Practice
 
-What should be added to `.bashrc` to prepend `/fun/enki`  to `PATH` ?
-```
+What should be added to `.bashrc` to prepend `/fun/enki`  to `PATH`?
+
+```bash
 # PATH=???
 # reload .bashrc
-$ ??? ~/.bashrc
+??? ~/.bashrc
 ```
 
 * `"/fun/enki:$PATH"`
@@ -111,4 +99,3 @@ When is the `~/.bashrc` file run?
 * Once every boot
 * Once for every user login
 * Every thirty minutes
- 
