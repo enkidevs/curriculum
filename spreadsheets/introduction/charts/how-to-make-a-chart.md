@@ -21,7 +21,7 @@ category: how to
 
 To create a chart, first you need to create a table.
 
-For this example we will use the following data:
+For this example we'll use the following data:
 
 ![simple](https://img.enkipro.com/8f80a2f2b6efaab06bbd5effc0407aff.png)
 
