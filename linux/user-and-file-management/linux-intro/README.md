@@ -6,5 +6,5 @@ insights:
   - what-is-linux
   - why-use-linux
   - which-linux
-  - using-linux-i
-  - using-linux-ii
+  - hello-linux
+  - linux-common-terminology

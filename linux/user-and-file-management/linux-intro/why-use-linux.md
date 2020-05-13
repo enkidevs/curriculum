@@ -22,17 +22,16 @@ links:
 ---
 ## Content
 
-There's many reasons you would choose Linux over other operating systems, so let's start with the biggest one: **it's completely free to use**.
+There are many reasons to choose Linux over other operating systems. Let's start with the fact that **it's completely free to use**.
 
-To be more specific, all of Linux is *open-source*[1]. For this reason, there's about 600 *flavours* of Linux available, but we'll come back to this.
+To be more specific, all of Linux is *open-source*[1]. For this reason, there are about 600 *flavors* of Linux available. We'll cover some of them later.
 
-If you're not already convinced, here's a couple more reasons:
-- fitted for any system (from low-end to high-end)
-- secure (no antivirus needed)
-- fully customizable
-- and many others...
+And here are a few more reasons to use Linux:
+- It *works with any system* (from low-end to high-end)
+- It's *secure* (no antivirus needed)
+- It's *fully customizable*
 
-Don't take our word for it, take [Stack Overflow's](https://insights.stackoverflow.com/survey/2019#technology-_-platforms). Their 2019 survey shows that Linux is the most popular platform used for development work. That has to count for something right?
+For these reasons, Linux is the most popular platform used by developers (according to Stack Overflow; see the Learn More link).
 
 ---
 ## Practice
@@ -43,6 +42,7 @@ Linux is an ???-??? operating system.
 * source
 * closed
 * code
+* no
 
 ---
 ## Footnotes

@@ -20,15 +20,13 @@ tags:
 ---
 ## Content
 
-To understand what's Linux, let's go to the very basics of computers.
+To understand what Linux is, let's go back to the very basics of computing.
 
-To be able to complete even the most fundamental of operations, something must facilitate the communication between you and the hardware. That something is called an **operating system**, and it's what makes it possible for you to read this.
+To complete even the most basic operation, something must facilitate the communication between you and the hardware. 
 
-There's a few popular operating systems that you might've heard about already. For example, you phone might be running Android, or your computer might be running MacOS.
+That's what an **operating system** does. It makes it possible for you to read this.
 
-Introducing Linux, an **operating system** found in places you'd have never thought of. From your computer, to your car and refrigerator, there's a high probability that they run on Linux.
-
-> Note: the first two workouts are aimed at beginners. Go ahead and skip to the third workout if you already know what Linux is and how to install it.
+Along with Windows, Android, or MacOS, Linux is an **operating system**. You can find it in many places. From your computer, to your car and refrigerator, there's a high probability that they run on Linux.
 
 ---
 ## Practice
@@ -37,4 +35,5 @@ Operating systems facilitate communication between you and the ???.
 
 * hardware
 * software
+* middleware
 * wares
