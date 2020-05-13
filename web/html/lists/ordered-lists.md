@@ -36,7 +36,7 @@ The HTML `<ol>`, or the **Ordered List** element is used to represent an ordered
 
 [View CodePen](https://codepen.io/enkidevs/pen/QBvLQo)
 
-Ordered lists are displayed as a block element and typically display with preceding numbering; these can be numerals, letters, Roman numerals or even bullets.
+Ordered lists are displayed as a block element and typically display with preceding numbering; these can be numerals, letters or Roman numerals.
 
 The items within the `<ol>` elements list are represented with the `<li>` element. Also, by default, each item in the list is indented with a 40px padding to the left.
 

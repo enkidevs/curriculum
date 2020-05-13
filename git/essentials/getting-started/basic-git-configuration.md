@@ -28,9 +28,9 @@ links:
 ---
 ## Content
 
-After installation, you might want to customize different variables/information in your **Git** environment.
+After installing, you might want to customize different variables or information in your **Git** environment.
 
-For example, you can change your *username* and *email* address so that work you perform in **Git** shows your identity.
+For example, you can change your *username* and *email* address so that work you get done with **Git** shows your identity.
 
 To help you, **Git** provides the `git config` tool, making it easier to change configuration variables that affect how Git works or looks.
 
