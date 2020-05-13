@@ -13,4 +13,5 @@ sections:
     - filtering-grouping
     - intro-to-functions-and-formulas
     - charts
+  '1':
     - features-to-save-time
