@@ -17,6 +17,7 @@ sections:
     - tips-and-tricks-part-1
     - tips-and-tricks-part-2
     - common-mistakes
+    - spreadsheets-shortcuts
 
 
 next:
