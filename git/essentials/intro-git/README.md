@@ -7,3 +7,4 @@ insights:
   - why-git
   - benefits-of-git
   - what-you-will-get-out-of-git
+  - installing-git

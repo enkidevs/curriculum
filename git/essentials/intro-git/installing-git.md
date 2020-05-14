@@ -1,23 +1,16 @@
 ---
 author: catalin
 
-levels:
-
-  - beginner
-
 type: normal
 
 category: must-know
 
 aspects:
-
   - introduction
   
 links:
-
   - '[Git Official Documentation](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git){website}'
   - '[GitHub Download](https://desktop.github.com/){website}'
-
 
 ---
 
@@ -30,12 +23,9 @@ To be able to use **Git**, it first must be available on your machine. You can i
 
 **Git** is available to download together with installing instructions from the official **Git** website for *Linux* , *Windows* or *Mac OSX*.
 
-
 ### Mac OS X
 
-
 You can install **Git** by running `git` from the terminal, which will prompt you to proceed with the installation if your OS version is at least `10.9.`
-
 
 ### Linux
 
