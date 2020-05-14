@@ -61,5 +61,3 @@ On which operating system can **Git** be installed?
 * Windows
 * Mac OS X
 * Linux
-
- 

@@ -15,12 +15,14 @@ aspects:
 ---
 ## Content
 
-Okay, so we've convinced you to use **Git**. Here's what you'll be able to do when you finish this course:
+Okay, so we've convinced you to learn about **Git**. 
+
+Here's what you'll be able to do when you finish this course:
 
 1. Understand all the *Git* lingo.
 2. Master all the basic commands (and more).
 3. Branches? No sweat!
-4. How *Git* works behind the scenes and its mental model.
-5. Many others!
+4. How *Git* works behind the scenes, with mental models.
+5. Tips, tricks, and more!
 
-> 💡 If you want to check out what we have in store for you, go to the Skill Map tab for a full list of workouts.
+> 💡 To see in detail what we have in store for you, go to the *Skill Map* tab for a full list of workouts.
