@@ -47,9 +47,11 @@ waffles
 unset FOOD
 echo $FOOD
 
+
 ```
 
-> If you reference a variable that hasn't been created yet (or that has been deleted), it will have an empty string `""` as a default value.
+> 💡If you reference a variable that hasn't been created yet (or that has been unset), it will have an empty string `""` as a default value.
+
 
 ---
 ## Practice

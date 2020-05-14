@@ -22,18 +22,26 @@ tags:
 
 To understand what Linux is, let's go back to the very basics of computing.
 
-To complete even the most basic operation, something must facilitate the communication between you and the hardware. 
+A computer consists of physical parts, called *hardware*, and written programs, called *software*. 
 
-That's what an **operating system** does. It makes it possible for you to read this.
+Most computers have a special program that manages all other programs and helps them use the underlying hardware.
 
-Along with Windows, Android, or MacOS, Linux is an **operating system**. You can find it in many places. From your computer, to your car and refrigerator, there's a high probability that they run on Linux.
+That program is called an **operating system**, or **OS** for short.
+
+Although commercial computers that most of us use every day are mainly using Windows or MacOS, Linux is by far the most versatile OS.
+
+> 💡Fun fact! The Linux OS is inspired by another older OS called Unix[1]. The name "Linux" is a combination of its creator's name, "Linus", and "Unix".
+
+From cloud storage and space rockets, to your car or refrigerator, there's a high chance that they all run on Linux.
+
+[what-are-clouds-made-of](https://img.enkipro.com/e763d343e3f748f707da85221e99d44d.png)
 
 ---
 ## Practice
 
-Operating systems facilitate communication between you and the ???.
+Linux is an ???.
 
-* hardware
-* software
-* middleware
-* wares
+* operating system
+* ordering system
+* operating software
+* ordering software

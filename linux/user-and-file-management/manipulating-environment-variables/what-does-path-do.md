@@ -21,25 +21,30 @@ tags:
 
 Let's say you type a command like `echo` in the terminal.  How does `bash` know which program to execute?
 
-`bash` tries to find the `echo` command by looking through the list of directories in `PATH`, one by one until it finds an executable named `echo`.  In the case of `echo`, the actual executable is located in `/bin/echo`.
+`bash` tries to find the `echo` command by looking through the list of directories in `PATH`, one by one until it finds an executable named `echo`.  
 
-Assuming the contests of `PATH` are:
+> 💡Executable programs are usually stored in a `bin` directory.
+
+Assuming the contents of `PATH` are:
 
 ```bash
 echo $PATH
 /usr/local/bin:/usr/bin:/bin
 ```
 
+> 💡Each path in `PATH` is separated by a `:`
+
 Internally, when you type `echo` and hit enter, `bash` does the following:
 - Is `/usr/local/bin/echo` a valid executable?  If yes, run it.
 - If no, is `/usr/bin/echo` a valid executable?  If yes, run it.
 - If no, is `/bin/echo` a valid executable?  If yes, run it.
 
-Here, `bash` will continue down the list until it finds `/bin/ls` and then execute that.
+> 💡The `echo` executable is located in `/bin/echo`.
+
 
 If `bash` reaches the end of the list without finding a valid executable it will display a `command not found` error.
 
-> If you're ever dealing with unexpected `command not found` errors then your first thought should be "Is there something wrong with my `PATH` environment variable?"
+>💡If you're ever dealing with unexpected `command not found` errors then your first thought should be "Is there something wrong with my `PATH` environment variable?"
 
 ---
 ## Practice

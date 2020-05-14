@@ -25,7 +25,7 @@ tags:
 ---
 ## Content
 
-To do this, edit the `.bashrc` file in the home directory and append the following line (chaining the existing path additions):
+To do this, edit the `.bashrc` file in the home directory and append the following line (chaining the existing `PATH` at the end):
 
 ```bash
 export PATH=/path/to/dir:$PATH

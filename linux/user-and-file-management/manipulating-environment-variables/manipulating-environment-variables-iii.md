@@ -39,14 +39,13 @@ echo $PATH
 ---
 ## Practice
 
-What environment variable is used by your shell to look for executables?
+The `PATH` environment variable is used by your shell to look for ???.
 
-???
+* executables
+* directories
+* paths
+* code
 
-* PATH
-* path
-* EXEC
-* exec
 
 
 ---
