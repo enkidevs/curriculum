@@ -26,7 +26,7 @@ There are many reasons to choose Linux over other operating systems. Let's start
 
 To be more specific, all of Linux is *open-source*[1]. 
 
-For this reason, there are about 600 *flavors* of Linux available. We'll cover some of them later.
+As the code is publicly available, it's somewhat easy to extend a Linux distro and shape it however you want. Because of this, there are about 600 *flavors* of Linux available. We'll cover some of them later.
 
 > 💡Fun fact: the most popular OS for mobile phones, Android, is a modified version of Linux  
 
