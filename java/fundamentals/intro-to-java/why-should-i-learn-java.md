@@ -36,8 +36,7 @@ There are many more reasons you should learn Java. The only downside is, as with
 ---
 ## Practice
 
-Java is a ??? typed language.
-
+Java has ??? types.
 
 * static
 * dynamic
