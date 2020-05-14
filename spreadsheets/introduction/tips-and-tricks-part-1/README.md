@@ -1,4 +1,4 @@
-name: Features to save time
+name: Tips and tricks part 1
 
 description: Some tips and tricks to save time.
 
