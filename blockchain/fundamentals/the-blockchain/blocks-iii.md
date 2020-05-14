@@ -44,8 +44,6 @@ It's worth talking about the **genesis block** or the first block of the blockch
              	
 In the "learn more" section you can find a link to an interactive website that allows you to create and append blocks to a simplified version of the Bitcoin blockchain.
 
-> Note: as with all the skills in the app, if you want to access more advanced or specific content at any time, **feel free to use the *Skill Map* tab** to jump to the workouts most relevant for you.
-
 ---
 ## Practice
 

@@ -1,7 +1,9 @@
-name: The Blockchain
+name: Introduction
 
-description: Discover blockchain technology and how it can be used.
+description: What is a blockchain, short history and reasons you should care.
 
 insights:
  - what-is-a-blockchain
- - 
+ - blockchain-history
+ - importance-of-blockchain
+ - blockchain-outcomes
