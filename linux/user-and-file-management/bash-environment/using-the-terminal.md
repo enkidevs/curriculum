@@ -45,7 +45,7 @@ If that was your first Linux command, congratulations 🎉🎉.
 
 With `echo`, any string that you pass as an argument will be printed in the shell.
 
-> 💡 Although quotation marks (`"`) are optional, it's recommended to use them. If you omit them, Linux might misunderstand your command.
+> 💡 Although quotation marks (`"`) are optional, it's recommended to use them. If you omit them, the shell might misunderstand your command.
 
 ---
 ## Practice
