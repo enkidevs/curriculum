@@ -92,8 +92,7 @@ In order to add a new directory to `PATH`, you have to modify the ??? file.
 
 When is the `~/.bashrc` file run?
 
-
- ???
+???
 
 * Whenever a new terminal is opened
 * Once every boot

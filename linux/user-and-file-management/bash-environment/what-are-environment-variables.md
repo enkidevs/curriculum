@@ -3,7 +3,6 @@ author: jfarmer
 
 aspects:
   - introduction
-  - workout
 
 type: normal
 
@@ -23,16 +22,24 @@ tags:
 ---
 ## Content
 
-An *environment variable* is a variable that affects the way processes behave on a computer. 
+An *environment variable* is a variable that is available to all the processes running in the shell.
 
-For example, a process might look up the `HOME` environment variable to determine the current user's home directory.
+> 💡 You can think of environment variables like global variables.
+
+Linux contains many default environment variables.
+
+> 💡 Environment variables are usually named with all uppercase letters to differentiate them from regular variables.
+
+As an example, the `HOME` environment variable holds the current user's home directory.
+
+> 💡 A "directory" is just another name for a folder.
 
 Use the `env` command to see a list of all current environment variables:
 
 ```bash
 env
-USER=enki
-HOME=/home/enki
+# USER=enki
+# HOME=/home/enki
 # ... (potentially many lines)
 ```
 
@@ -40,7 +47,7 @@ If you know the name of the variable you're looking for, use the `echo` command 
 
 ```shell
 echo $HOME
-/home/enki
+# /home/enki
 ```
 
 ---
@@ -50,8 +57,8 @@ Display a list of all the current environment variables:
 
 ```bash
 ???
-USER=enki
-HOME=/home/enki
+# USER=enki
+# HOME=/home/enki
 # ...
 ```
 

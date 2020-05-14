@@ -34,7 +34,7 @@ Although commercial computers that most of us use every day are mainly using Win
 
 From cloud storage and space rockets, to your car or refrigerator, there's a high chance that they all run on Linux.
 
-[what-are-clouds-made-of](https://img.enkipro.com/e763d343e3f748f707da85221e99d44d.png)
+![what-are-clouds-made-of](https://img.enkipro.com/e763d343e3f748f707da85221e99d44d.png)
 
 ---
 ## Practice

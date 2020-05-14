@@ -28,11 +28,11 @@ You'll often want to modify an existing variable by appending or prepending data
 ```bash
 export FOOD="waffles"
 echo $FOOD
-waffles
+# waffles
 
 export FOOD="chocolate $FOOD"
 echo $FOOD
-chocolate waffles
+# chocolate waffles
 ```
 
 ### Unsetting an Environment Variable
@@ -42,15 +42,14 @@ To unset or clear an environment variable use `unset`:
 ```bash
 export FOOD="waffles"
 echo $FOOD
-waffles
+# waffles
 
 unset FOOD
 echo $FOOD
-
-
+# 
 ```
 
-> 💡If you reference a variable that hasn't been created yet (or that has been unset), it will have an empty string `""` as a default value.
+> 💡 If you reference a variable that hasn't been created yet (or that has been unset), it will have an empty string `""` as a default value.
 
 
 ---
@@ -60,10 +59,10 @@ Modify, then unset, the variable.
 
 ```bash
 echo $SOMETHING
-foobar
+# foobar
 export SOMETHING="bar ???"
 echo $SOMETHING
-bar foobar
+# bar foobar
 ??? SOMETHING
 ```
 
@@ -81,7 +80,7 @@ Fill in the gaps to get the result:
 a_var="bar"
 a_var="???$???"
 echo ???
-foobar
+# foobar
 ```
 
 * foo

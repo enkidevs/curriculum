@@ -3,7 +3,6 @@ author: jfarmer
 
 aspects:
   - introduction
-  - workout
 
 type: normal
 

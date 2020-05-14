@@ -30,7 +30,7 @@ You can define a new shell variable using the `=` operator:
 ```shell
 drink="water"
 echo $drink
-water
+# water
 ```
 
 Shell variables are used only by the shell itself, and not available to any of its child processes. 
@@ -44,10 +44,10 @@ Shell variables can be converted into environment variables with the `export` co
 # into the environment
 export DRINK="water"
 echo $DRINK
-water
+# water
 ```
 
-> ⚠️When exporting a variable into the environment, be careful not to overwrite another important environment variable with the same name. 
+> ⚠ When exporting a variable into the environment, be careful not to overwrite another important environment variable with the same name. 
 
 ---
 ## Practice

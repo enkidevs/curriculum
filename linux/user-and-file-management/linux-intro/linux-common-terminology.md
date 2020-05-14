@@ -22,30 +22,16 @@ tags:
 
 Let's go over a few terms that you'll see a lot in this course.
 
-A **command** is just a piece of text that you type into the **terminal**. Think of this as an instruction that you give to your computer.
+Linux comes with an improved version of the shell, which is called **bash**[1]. From now on, we'll be using these terms interchangeably.
 
 Sometimes you might type some commands which are restricted. That's where the **root user** comes in. It's the unique admin user, with superpowers. Unsurprisingly, it's also called the **superuser**.
 
 The **package manager** removes the tedious process of installing or uninstalling apps. Think of a **package** as being an app.
 
-The main part of the terminal that reads the commands and executes them is called a **shell**
-
-Linux comes with an improved version of the shell, which is called **bash**[1] (**Bourne-Again SHell**). From now on, we'll be using these terms interchangeably.
-
-> **Note:** as with all the skills in the app, if you want to access more advanced or specific content at any time, **feel free to use the *Skill Map* tab** to jump to the workouts most relevant for you.
+> 💡 As with all the skills in the app, if you want to access more advanced or specific content at any time, **feel free to use the *Skill Map* tab** to jump to the workouts most relevant for you.
 
 ---
 ## Practice
-
-Commands are typed into the ??? and processed by the ???.
-
-* terminal
-* shell
-* package manager
-* superuser manager
-
----
-## Revision
 
 The **root user** is also called the ???.
 
@@ -55,7 +41,17 @@ The **root user** is also called the ???.
 * best-user
 
 ---
+## Revision
+
+Commands are typed into the ??? and processed by the ???.
+
+* terminal
+* shell
+* package manager
+* superuser manager
+
+---
 ## Footnotes
 
 [1:Bash]
-The name is an acronym for the ‘Bourne-Again SHell’, a pun on Stephen Bourne, the author of the direct ancestor of the another shell called `sh`.
+The name is an acronym for the 'Bourne-Again SHell', a pun on Stephen Bourne, the author of the direct ancestor of the another shell called `sh`.

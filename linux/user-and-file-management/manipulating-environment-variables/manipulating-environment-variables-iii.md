@@ -27,14 +27,14 @@ The contents of `PATH` tell your shell where to look for executables.  It is the
 
 ### What Does The `PATH` Variable Contain?
 
-The `PATH` variable itself contains a `:`-delimited[1] list of directories:
+The `PATH` variable itself contains a `:`-delimited list of directories:
 
 ```bash
 echo $PATH
-/usr/local/bin:/usr/bin:/bin
+# /usr/local/bin:/usr/bin:/bin
 ```
 
-> **Note**: the fact that `:`'s are used to delimit the directories here is a matter of *convention*.  Other parts of the system assume the list is `:`-delimited, but if in the 1970s we had settled on `,` or `;` instead, we would still be using that today.
+> 💡 The fact that `:`'s are used to delimit the directories here is a matter of *convention*.  Other parts of the system assume the list is `:`-delimited, but if in the 1970s we had settled on `,` or `;` instead, we would still be using that today.
 
 ---
 ## Practice
@@ -45,8 +45,6 @@ The `PATH` environment variable is used by your shell to look for ???.
 * directories
 * paths
 * code
-
-
 
 ---
 ## Revision

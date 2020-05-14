@@ -30,7 +30,7 @@ Let's try creating a variable now:
 best_app="Enki"
 ```
 
-> **Note:** don't add any spaces around the `=` sign or you'll get an error saying `"Command not found"`.
+> 💡 Don't add any spaces around the `=` sign or you'll get an error saying `"Command not found"`.
 
 We've taken the `"Enki"` information, and stored it in our `best_app` box:
 
@@ -43,11 +43,11 @@ echo $best_app
 # Enki
 ```
 
-> 💡You need to prefix a `$` sign to the variable name to get its value
+> 💡 You need to prefix a `$` sign to the variable name to get its value
 
 ```bash
 echo best_app
-best_app
+# best_app
 ```
 
 ---
@@ -58,7 +58,7 @@ Create a variable named `good_dog` that stores `"Artemis"`, and then print it:
 ```bash
 ???="???"
 echo ???
-Artemis
+# Artemis
 ```
 
 * good_dog

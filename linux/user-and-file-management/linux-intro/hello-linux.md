@@ -25,15 +25,19 @@ links:
 
 All this talk, and we still haven't shown you how to use Linux 😅.
 
-> 💡We're going to assume you have an installed Linux distribution. If you don't, check out the *Learn More* section for Ubuntu installation guides.
+> 💡 We're going to assume you have an installed Linux distribution. If you don't, check out the *Learn More* section for Ubuntu installation guides.
 
 ![printing-hello-linux-in-shell](https://img.enkipro.com/b293f5a296e067d80f9dc7e77c7072d3.gif)
 
 This is the Linux terminal[1]! It's where you'll be typing most of the commands.
 
-What you see in the example is how to use the `echo` command to display some text. 
+What you see in the example is how to use the `echo` command to display some text.
 
-> **Note:** We'll explain how printing works in the next workout.
+> 💡 We'll explain how printing works in the next workout.
+
+A **command** is just a piece of text that you type into the **terminal**. Think of this as an instruction that you give to your computer.
+
+The main part of the terminal that reads the commands and executes them is called a **shell**.
 
 ---
 ## Practice

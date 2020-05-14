@@ -3,7 +3,6 @@ author: jfarmer
 
 aspects:
   - introduction
-  - workout
 
 type: normal
 
@@ -30,7 +29,7 @@ Common customizations include:
 - Using `alias` to create short-hand expressions for common commands
 - Changing system defaults, usually by modifying environment variables such as `PATH` and `EDITOR`.
 
-> **Note:** when researching how to customize your shell, you'll often see reference to both `.bashrc` and `.bash_profile`.  Most systems are set up so that the difference between these two files doesn't matter and you can edit one or the other to the same effect[1].
+> 💡 When researching how to customize your shell, you'll often see reference to both `.bashrc` and `.bash_profile`.  Most systems are set up so that the difference between these two files doesn't matter and you can edit one or the other to the same effect[1].
 
 ---
 ## Practice

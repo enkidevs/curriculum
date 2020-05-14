@@ -1,6 +1,6 @@
 name: Introduction
 
-description: What's Linux, and why do I need it?
+description: What's Linux, and why do you need it?
 
 insights:
   - what-is-linux
