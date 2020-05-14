@@ -32,7 +32,7 @@ As the code is publicly available, it's somewhat easy to extend a Linux distro a
 
 Here are a few more reasons to use Linux:
 - It *works with any hardware* (from low-end to high-end)
-- It's *secure*
+- It's *secure* (continuously reviewed by experts)
 - It's *fully customizable* (you can change anything you want!)
 
 For these reasons, Linux is the most popular platform used by developers (according to Stack Overflow; see the Learn More link).
