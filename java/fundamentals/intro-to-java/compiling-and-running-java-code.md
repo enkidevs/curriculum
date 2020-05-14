@@ -35,6 +35,8 @@ Let's take a look at the previous `HelloJava.java` example[3]. To run it, you'll
 ```bash
 javac HelloWorld.java
 ```
+> 💡 Think of `javac` as **java compile**.
+
 2. Run the resulting bytecode
 ```bash
 java HelloWorld
