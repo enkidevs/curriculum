@@ -20,7 +20,7 @@ tags:
 ---
 ## Content
 
-Think of *variables* as a box. 
+Think of a *variable* as a box. 
 
 They are used to store information. To make them easily identifiable, you put a label on them. 
 
@@ -40,10 +40,10 @@ To print this variable, you'd type:
 
 ```bash
 echo $best_app
-Enki
+# Enki
 ```
 
-> **Note:** when you are referencing variables, you need to prefix a `$` sign to the variable name. Otherwise, you are only printing the name of the variable.
+> 💡You need to prefix a `$` sign to the variable name to get its value
 
 ```bash
 echo best_app

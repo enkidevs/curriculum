@@ -25,13 +25,13 @@ links:
 
 All this talk, and we still haven't shown you how to use Linux 😅.
 
-> Note: we're going to assume you have an installed Linux distribution. If you don't, check out the *Learn More* section for Ubuntu installation guides.
+> 💡We're going to assume you have an installed Linux distribution. If you don't, check out the *Learn More* section for Ubuntu installation guides.
 
 ![printing-hello-linux-in-shell](https://img.enkipro.com/b293f5a296e067d80f9dc7e77c7072d3.gif)
 
 This is the Linux terminal[1]! It's where you'll be typing most of the commands.
 
-In computer science, what you see in the example is called *printing*, a fancy word for displaying text. 
+What you see in the example is how to use the `echo` command to display some text. 
 
 > **Note:** We'll explain how printing works in the next workout.
 
@@ -48,4 +48,8 @@ In Linux, you type commands in the ???.
 ## Footnotes
 
 [1:Terminal]
-This is what facilitates the communication between you and the computer. The term originates from the first computers, which had a physical terminal that was used to communicate. 
+Similarly to how you can use a mouse to tell the computer to open a file, you can also type in a command in the **terminal**. 
+
+From opening files to increasing the computer volume, there's a terminal command for anything the computer can do.
+
+The term "terminal" originates from the first computers, which had a physical terminal that was used to communicate. 

@@ -31,7 +31,12 @@ Now that it's open, go ahead and type:
 
 ```bash
 echo "Enki is cool!"
-Enki is cool!
+```
+
+You should see the text display in the terminal:
+
+```
+Enki is cool! 
 ```
 
 If that was your first Linux command, congratulations 🎉🎉. 

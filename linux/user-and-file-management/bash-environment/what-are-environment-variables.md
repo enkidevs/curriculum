@@ -36,7 +36,7 @@ HOME=/home/enki
 # ... (potentially many lines)
 ```
 
-You don't have to use `env` to display your environment variables. If you know its name, use the `echo` command to display it:
+If you know the name of the variable you're looking for, use the `echo` command to display it:
 
 ```shell
 echo $HOME

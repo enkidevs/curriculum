@@ -28,7 +28,7 @@ Sometimes you might type some commands which are restricted. That's where the **
 
 The **package manager** removes the tedious process of installing or uninstalling apps. Think of a **package** as being an app.
 
-Remember the terminal? Well, this is also referred to as the **shell**. 
+The main part of the terminal that reads the commands and executes them is called a **shell**
 
 Linux comes with an improved version of the shell, which is called **bash**[1] (**Bourne-Again SHell**). From now on, we'll be using these terms interchangeably.
 
@@ -37,9 +37,10 @@ Linux comes with an improved version of the shell, which is called **bash**[1] (
 ---
 ## Practice
 
-Commands are typed in the ???.
+Commands are typed into the ??? and processed by the ???.
 
 * terminal
+* shell
 * package manager
 * superuser manager
 
@@ -57,4 +58,4 @@ The **root user** is also called the ???.
 ## Footnotes
 
 [1:Bash]
-The name is an acronym for the ‘Bourne-Again SHell’, a pun on Stephen Bourne, the author of the direct ancestor of the current Unix shell `sh`, which appeared in the Seventh Edition Bell Labs Research version of Unix.
+The name is an acronym for the ‘Bourne-Again SHell’, a pun on Stephen Bourne, the author of the direct ancestor of the another shell called `sh`.

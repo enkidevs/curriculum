@@ -19,9 +19,9 @@ tags:
 ---
 ## Content
 
-It's possible for each user to customize their `bash` environment. This is done by editing the `.bashrc` file in their home directory.
+It's possible for each user to customize their `bash` environment by editing the `.bashrc` file in their home directory.
 
-One of the first things `bash` does when loaded is look for the `.bashrc` file in the current user's home directory. If the file exists, each line in this file is executed "as if" the user typed the line directly in the terminal.
+ If the file exists, one of the first things `bash` does when loaded is executes each line in this file "as if" the user typed the line directly in the terminal.
 
 ### Common Customizations
 

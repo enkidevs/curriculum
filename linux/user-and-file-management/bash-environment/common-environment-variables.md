@@ -24,11 +24,11 @@ tags:
 
 On Linux (and other Unix-based operating systems), common environment variables include:
 
-- `HOME`, which contains the current user's home directory
+- `HOME`, which contains the current user's home directory. That is the top-level directory to most other directories
 
-- `PATH`, which contains a list of directory paths. When a user types a command without providing the full path, `bash` will look at the directories in the `PATH` environment variable to see if they contain the given command.
+- `PATH`, which contains a list of directories where to look for a command. When a user types `echo` in the terminal, Linux finds the `echo` program in one of the directories listed in `PATH` and executes it.
 
-- `PS1`, which specifies how the prompt is displayed
+- `PWD `, which holds the path to the directory you're currently in. This is usually called the "working directory".
 
 - `EDITOR`, which specifies the default text editor.
 
