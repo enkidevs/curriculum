@@ -33,7 +33,7 @@ Okay so what does this have to do with Java? The process is the following:
 ---
 ## Practice
 
-The ??? converts binary code to native code..
+The ??? converts binary code to native code.
 
 * Java Virtual Machine
 * Java Virtual System

@@ -9,9 +9,7 @@ aspects:
   - introduction
 
 links:
-  - '[JDK - Windows](https://docs.oracle.com/en/java/javase/11/install/installation-jdk-microsoft-windows-platforms.html#GUID-A7E27B90-A28D-4237-9383-A58B416071CA){documentation}'
-  - '[JDK - MacOS](https://docs.oracle.com/en/java/javase/11/install/installation-jdk-macos.html#GUID-2FE451B0-9572-4E38-A1A5-568B77B146DE){documentation}'
-  - '[JDK - Linux](https://docs.oracle.com/en/java/javase/11/install/installation-jdk-linux-platforms.html#GUID-737A84E4-2EFF-4D38-8E60-3E29D1B884B8){documentation}'
+  - '[JDK](https://openjdk.java.net/install/){documentation}'
 
 ---
 
