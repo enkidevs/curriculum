@@ -36,7 +36,7 @@ public class HelloJava {
 
 Wow, that's a lot! All this does is display `"Hello Java!"`.
 
-As it is hard to represent the whole environment on a phone, we will assume that text after `//` is the displayed output, unless stated otherwise.
+As it is hard to represent the whole environment on a phone, we will assume that text after `//` is the displayed output after executing the program, unless stated otherwise.
 
 > We've included a playground in the **Learn More** section. Go wild, run the code, replace things and see what happens!
 

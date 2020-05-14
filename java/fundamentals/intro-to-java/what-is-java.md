@@ -43,7 +43,7 @@ What type of programming language is **Java** considered to be?
 ## Footnotes
 
 [1:Object-oriented programming]
-All you need to know for now is that **object-oriented programming** (OOP) is a *programming pattern* that works with real-life entities. These entities are called **objects**, and they have *attributes* and *behaviors*. 
+All you need to know for now is that **object-oriented programming** (OOP) is a *programming paradigm* that works with real-life entities. These entities are called **objects**, and they have *attributes* and *behaviors*. 
 
 Let's use the common car analogy to better understand OOP. 
 

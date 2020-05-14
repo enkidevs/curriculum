@@ -25,7 +25,7 @@ Here are several reasons to learn Java:
 
 2. The **basic concepts are relatively easy to understand**.
 
-3. It's **static typed**, meaning that **the code can't be built before solving the errors**. Even though the stricter environment doesn't necessarily mean a better one, it allows beginners to stick to less overwhelming rules.
+3. It's **statically typed**, meaning that **the code can't be built before solving the errors**. Even though the stricter environment doesn't necessarily mean a better one, it allows developers to catch bugs early on.
 
 4. Once you create your program, you can run it on any machine. This principle is called **"write once, run anywhere"**(WORA). We'll explain this in the next insight.
 
