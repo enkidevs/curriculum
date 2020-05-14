@@ -31,7 +31,7 @@ Here are several reasons to learn Java:
 
 5. It has continued support, with the roadmap being available publicly.
 
-There are many more reasons you should learn Java. The only downside is, as with all other skills, is that *it might take some time*.
+There are many more reasons you should learn Java. The only downside is, as with all other skills, that *it might take some time*.
 
 ---
 ## Practice
