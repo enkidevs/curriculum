@@ -1,10 +1,10 @@
-name: Manipulating Environment Variables
+name: Manipulating Variables
 
-description: What are environment variables and how you can manipulate them.
+description: Updating and deleting variables, plus working with PATH.
 
 insights:
   - manipulating-environment-variables
   - manipulating-environment-variables-ii
   - manipulating-environment-variables-iii
-  - manipulating-environment-variables-iv
- 
+  - what-does-path-do
+  - adding-directories-to-your-path
