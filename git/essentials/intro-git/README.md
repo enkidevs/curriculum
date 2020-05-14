@@ -1,6 +1,6 @@
 name: What's Git?
 
-description: Why do I need Git in my life?
+description: An intro, benefits of Git, and getting started.
 
 insights:
   - intro-git
