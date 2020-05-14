@@ -24,6 +24,8 @@ Let's go over a few terms that you'll see a lot in this course.
 
 Linux comes with an improved version of the shell, which is called **bash**[1]. From now on, we'll be using these terms interchangeably.
 
+> 💡 **bash** also refers to the programming language used to interpret the code within the shell.
+
 Sometimes you might type some commands which are restricted. That's where the **root user** comes in. It's the unique admin user, with superpowers. Unsurprisingly, it's also called the **superuser**.
 
 The **package manager** removes the tedious process of installing or uninstalling apps. Think of a **package** as being an app.

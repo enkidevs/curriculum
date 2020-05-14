@@ -22,8 +22,10 @@ tags:
 ---
 ## Content
 
-Before we go on, let's open the terminal. There are a few ways of doing this:
-- pressing `CTRL + ALT + T`
+Before we go on, let's open the terminal. *All computers come with a default terminal*.
+
+There are a few ways of doing this:
+- pressing `CTRL + ALT + T` (Ubuntu specific)
 - right-click anywhere in a directory/desktop and press `Open terminal`
 - press the `Super` key (AKA the `Windows` key) and search for `terminal`
 
