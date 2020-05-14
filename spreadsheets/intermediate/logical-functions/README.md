@@ -1,6 +1,6 @@
-name: Logical expressions
+name: Logical functions
 
-description: Learn what logical expressions are and how to use IF, AND, OR and NOT.
+description: Learn what logical functions are and how to use IF, AND, OR and NOT.
 
 insights:
   - what-are-logical-expressions
