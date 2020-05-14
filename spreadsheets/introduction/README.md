@@ -15,3 +15,9 @@ sections:
     - charts
   '1':
     - tips-and-tricks-part-1
+    - tips-and-tricks-part-2
+    - common-mistakes
+
+
+next:
+  - spreadsheets:intermediate
