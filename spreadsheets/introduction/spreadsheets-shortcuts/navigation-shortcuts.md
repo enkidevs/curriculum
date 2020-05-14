@@ -53,6 +53,8 @@ Move to the next sheet.
 
 Move to the previous sheet.
 
+![left-right-sheet](https://img.enkipro.com/e0ea562cdb5e62e602d1ff77cdb32fd0.gif)
+
 ### `Alt + Shift + K` - `Option + Shift + K`
 
 Opens the list of all sheets in the current workbook.
