@@ -13,6 +13,9 @@ tags:
   - linux
   - operating-system
 
+links:
+  - '[Image Source](https://www.cyberciti.biz/humour/dad-what-are-clouds-made-of-in-it/){website}'
+
 ---
 
 # What's Linux?
