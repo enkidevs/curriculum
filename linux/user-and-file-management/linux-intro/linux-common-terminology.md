@@ -56,4 +56,4 @@ Commands are typed into the ??? and processed by the ???.
 ## Footnotes
 
 [1:Bash]
-The name is an acronym for the 'Bourne-Again SHell', a pun on Stephen Bourne, the author of the direct ancestor of the shell called `sh`.
+The name is an acronym for the "Bourne-Again SHell", a pun on the name of the Bourne shell (sh) it replaces (initially developed by Stephen Bourne).
