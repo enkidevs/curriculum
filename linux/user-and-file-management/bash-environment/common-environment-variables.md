@@ -23,7 +23,7 @@ tags:
 
 On Linux (and other Unix-based operating systems), common environment variables include:
 
-- `HOME`, which contains the current user's home directory. That is the top-level directory to most other directories
+- `HOME`, which contains the current user's home directory. That is the top-level directory to most other directories.
 
 - `PATH`, which contains a list of directories where to look for a command. When a user types `echo` in the terminal, Linux finds the `echo` program in one of the directories listed in `PATH` and executes it.
 
