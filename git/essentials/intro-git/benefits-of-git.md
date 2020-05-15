@@ -22,7 +22,7 @@ Let's talk a bit about what **Git** brings to the table.
 
 1. Apart from syncing changes, everything can be done locally.
 
-2. Each *clone* has a full history of changes.
+2. Each *clone*[1] has a full history of changes.
 
 3. Something happened with the main version? **Recreate it** using a local version.
 
@@ -41,3 +41,9 @@ Git is only useful for developers.
 
 * False.
 * True.
+
+---
+## Footnotes
+
+[1:Clone]
+A clone is an exact copy of the project, which retains all information (e.g. history) and references (e.g. branches).

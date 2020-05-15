@@ -44,20 +44,22 @@ sudo apt-get install git
 
 ### Windows
 
-There are multiple ways of installing Git on Windows. The easiest way is to install GitHub Desktop, which comes with a command line version of Git as well as the GUI. Just go to their [website](https://desktop.github.com/); there you can download and install GitHub Desktop.
+There are multiple ways of installing Git on Windows. The easiest way is to install GitHub Desktop, which comes with a command line version of Git as well as the GUI. 
 
-Another option is to install Git for Windows, which brings the full feature set of the Git SCM to Windows. Go to the [official website](https://git-scm.com/download/win) which will automatically start downloading the Windows installer, followed by installing Git for Windows.
+Just go to their [website](https://desktop.github.com/), where you can download and install GitHub Desktop.
+
+Another option is to install Git for Windows, which brings the full feature set of the Git SCM to Windows. 
+
+Go to the [official website](https://git-scm.com/download/win) which will automatically start downloading the Windows installer, followed by installing Git for Windows.
 
 If you install the *GitHub* client application (repository hosting service), which is available on all leading operating systems, **Git** will also be installed on your machine.
 
 ---
 ## Revision
 
-On which operating system can **Git** be installed?
+Git is only available on Mac OS X.
 
 ???
 
-* All three
-* Windows
-* Mac OS X
-* Linux
+* False.
+* True.
