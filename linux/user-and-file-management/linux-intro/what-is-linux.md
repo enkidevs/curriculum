@@ -55,4 +55,4 @@ Linux is an ???.
 [1:Unix]
 Unix is the first major operating system that made it easier to write and manage programs.
 
-It was created 1969 at the famous [Bell Labs](https://en.wikipedia.org/wiki/Bell_Labs)
+It was created in 1969 at the famous [Bell Labs](https://en.wikipedia.org/wiki/Bell_Labs)
