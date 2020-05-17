@@ -20,7 +20,7 @@ The `AND` function returns `TRUE` if all of its arguments are logically true and
 
 Example:
 
-![one-false-all-false](https://img.enkipro.com/535b32a6d2e341d0175dc51d4a4be0dd.png)
+![one-false-all-false](https://img.enkipro.com/525000b0f6922364f5e34796c9895ff9.png)
 
 As you can see in the first image above, our `AND` function has 3 arguments and they all evaluate to `TRUE`. 
 
