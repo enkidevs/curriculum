@@ -25,7 +25,7 @@ It was first released in 1995 by Sun Microsystems, and has since grown to be one
 
 The fact that it's still one of the most-used languages over 25 years later shows how durable it is.
 
-Java is an **object-oriented, secure, and portable language**. We'll discuss what this means very soon!
+Java is an **secure[2], and portable language[3]**. We'll discuss what this means very soon!
 
 ---
 ## Practice
@@ -48,3 +48,9 @@ All you need to know for now is that **object-oriented programming** (OOP) is a 
 Let's use the common car analogy to better understand OOP. 
 
 Think of the car as the object. The model, color or age of the car are the object's *attributes*. Whether the engine is on, or whether it's moving are *behaviors* and would exist as methods.
+
+[2:Secure]
+In Java, some security flaws (stack corruption, buffer overflow) are impossible to exploit. Moreover, the style of coding reduces the chances to introduce a security flaw. 
+
+[3:Portable]
+Once you compile your Java code, it can run on any machine. This concept is called **WORA** (write once, run anywhere) and will be explained in the following insights.
