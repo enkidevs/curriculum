@@ -1,9 +1,6 @@
 ---
 author: Stefan-Stojanovic
 
-levels:
-  - beginner
-
 aspects:
   - introduction
   - workout
@@ -19,7 +16,7 @@ category: must-know
 ---
 ## Content
 
-Most of you will be familiar with most of the content in this workout. If you skim through, we've **bolded** the most interesting stuff!
+Most of you will be familiar with lots of the content in this workout. If you skim through, we've **boldened** the most interesting stuff!
 
 A workbook is a single file containing one or more worksheets. You start with one worksheet when you create a new workbook. More sheets can be added at any time.
 

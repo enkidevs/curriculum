@@ -1,9 +1,6 @@
 ---
 author: Stefan-Stojanovic
 
-levels:
-  - beginner
-
 aspects:
   - deep
   - workout
@@ -31,7 +28,7 @@ Instead of manually adding all the numbers, you can create a formula that does t
 
 In this case, you'd enter the below into `B6`:
 
-```text
+```plain-text
 = B2 + B3 + B4 + B5
 ```
 
