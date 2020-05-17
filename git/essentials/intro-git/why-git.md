@@ -38,4 +38,4 @@ Git is a ??? Version ??? System.
 * Distributed
 * Control
 * Dynamic
-* Clonning
+* Cloning
