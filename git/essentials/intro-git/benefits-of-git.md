@@ -20,7 +20,7 @@ links:
 
 Let's talk a bit about what **Git** brings to the table.
 
-1. Apart from syncing changes, everything can be done locally.
+1. Apart from syncing new changes from other people, everything can be done locally.
 
 2. Each *clone*[1] has a full history of changes.
 
