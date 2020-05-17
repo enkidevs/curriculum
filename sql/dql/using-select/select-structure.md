@@ -52,7 +52,7 @@ select *
 from pokemon;
 ```
 
-They keywords are usually capitalized simply to make the code easier to read. 
+The keywords are usually capitalized simply to make the code easier to read. 
 
 ---
 ## Practice

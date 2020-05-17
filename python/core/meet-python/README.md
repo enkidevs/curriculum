@@ -1,6 +1,6 @@
 name: Meet Python
 
-description: Discover the Python language’s versions and its programming environment.
+description: An intro. And you’ll write your first Python program!
 
 insights:
   - what-is-python

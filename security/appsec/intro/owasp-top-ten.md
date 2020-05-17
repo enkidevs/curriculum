@@ -20,10 +20,10 @@ standards:
   security.security-feed.0: 10
 
 links:
-  - '[OWASP](https://www.owasp.org/)'
-  - '[2017 OWASP Top Ten](https://www.owasp.org/images/7/72/OWASP_Top_10-2017_%28en%29.pdf.pdf)'
-  - '[Common Vulnerabilities and Exposures Database](https://cve.mitre.org/)'
-  - '[Cryptography and Security on Arxiv](https://arxiv.org/list/cs.CR/recent)'
+  - '[OWASP](https://www.owasp.org/){website}'
+  - '[OWASP Top Ten](https://owasp.org/www-project-top-ten/){website}'
+  - '[Common Vulnerabilities and Exposures Database](https://cve.mitre.org/){website}'
+  - '[Cryptography and Security on Arxiv](https://arxiv.org/list/cs.CR/recent){website}'
 
 ---
 

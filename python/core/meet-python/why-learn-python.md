@@ -1,5 +1,5 @@
 ---
-author: tommarshall
+author: emmab
 
 levels:
   - beginner
@@ -74,4 +74,4 @@ All you need to know for now is that **object-oriented programming** (OOP) is a 
 
 Let's use the common car analogy to better understand OOP. 
 
-Think of the car as the object. The model, color or age of the car as the object's *attributes*. Whether the engine is on, or whether it's moving are *behaviors* and would exist as functions.
+Think of the car as the object. The model, color or age of the car are the object's *attributes*. Whether the engine is on, or whether it's moving are *behaviors* and would exist as functions.
