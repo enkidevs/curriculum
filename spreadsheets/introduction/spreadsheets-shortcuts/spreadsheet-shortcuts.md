@@ -15,19 +15,17 @@ category: how to
 ---
 ## Content
 
-Spreadsheets have many useful shortcuts that can save a lot of time.
+In this workout, we will go over the best shortcuts that you can use later. Feel free to bookmark the ones you find most useful!
 
-In this workout, we will list a bunch of them that you can bookmark for later usage.
+This workout will serve as a "Cheatsheet" you can use when working with spreadsheets.
 
-Essentially, the workout will serve as sort of a "Cheatsheet".
-
-The shortcuts are organized like so:
-```
+The shortcuts are structured like this:
+```plain-text
 Windows shortcuts - macOS shortcuts
 
 Description
 
-Image/Gif (If applicable)
+Image (If applicable)
 
-In case there is only one shortcut version it means it is the same shortcut on both operating systems.
+If we give only one shortcut version that means it's the same shortcut on both operating systems.
 ```

@@ -11,12 +11,12 @@ category: how to
 
 ---
 
-# Use shortcuts to select cells 
+# Using shortcuts to select cells 
 
 ---
 ## Content
 
-When selecting a cell or range of cells, whether it is for a function or just for selecting, you can use different shortcuts to save time.
+When selecting a cell or range of cells, whether it's for a function or just when selecting, you can use different shortcuts to save time.
 
 For instance, you can select a range of cells by clicking on one and holding `shift` while selecting a different one and all the cells between those 2 will also be selected. 
 

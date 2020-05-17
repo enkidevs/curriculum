@@ -18,7 +18,7 @@ category: must-know
 
 Filters are used to **temporarily hide a portion of the data in your spreadsheet**. This allows you to deliberately expose or analyze only a specific (unfiltered) part of your data.
 
-> Note: Any filter you apply to your spreadsheet will be visible to anyone with access to your spreadsheet. Depending on their permissions, they can also edit the filter.
+> 💡 Any filter you apply to your spreadsheet will be visible to anyone with access to your spreadsheet. Depending on their permissions, they can also edit the filter.
 
 You can also create specific filter view links when you want to create different filters for different people for the same spreadsheet.
 

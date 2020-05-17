@@ -10,7 +10,7 @@ category: how to
 
 ---
 
-# Formatting & Editing shortcuts part 1
+# Formatting & Editing Shortcuts I
 
 ---
 ## Content

@@ -25,7 +25,7 @@ Depending on the type of chart you choose, you can "tell a different story". Thi
 ---
 ## Practice
 
-Which of these are **not** true?
+Which of these are not true?
 
 ???
 

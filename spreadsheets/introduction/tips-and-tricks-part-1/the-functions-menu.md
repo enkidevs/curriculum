@@ -16,7 +16,7 @@ category: how to
 ---
 ## Content
 
-Instead of typing the equal sign and the function name every time you want to add a new function, you can just select one from the `functions` button.
+Instead of typing the equals sign and the function name every time you want to add a new function, you can just select one from the `functions` button.
 
 When pressed, the `functions` button opens a drop-down menu with all available functions split into several categories.
 

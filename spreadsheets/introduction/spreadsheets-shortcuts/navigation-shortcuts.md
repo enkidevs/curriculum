@@ -35,7 +35,7 @@ Go to the start of the currently selected row.
 
 ### `Ctrl + Home` - `⌘ + Fn + Left Arrow`
 
-Go to the first cell of the sheet which is the top left most cell.
+Go to the first cell of the sheet, ie. the top left-most cell.
 
 ### `End` - `Fn + Right Arrow`
 
@@ -43,7 +43,7 @@ Go to the end of the currently selected row.
 
 ### `Ctrl + End` - `⌘ + Fn + Right Arrow`
 
-Go to the last cell of the sheet which is the bottom right-most cell.
+Go to the last cell of the sheet, ie. the bottom right-most cell.
 
 ### `Alt + Down Arrow` - `Option + Down Arrow`
 
@@ -53,8 +53,6 @@ Move to the next sheet.
 
 Move to the previous sheet.
 
-![left-right-sheet](https://img.enkipro.com/e0ea562cdb5e62e602d1ff77cdb32fd0.gif)
-
 ### `Alt + Shift + K` - `Option + Shift + K`
 
 Opens the list of all sheets in the current workbook.
@@ -63,7 +61,7 @@ Opens the list of all sheets in the current workbook.
 
 ### `Alt + Enter` - `Option + Enter`
 
-Open hyperlink. It only works if there is a hyperlink on the selected cell.
+Open hyperlink. It only works if there is a hyperlink in the selected cell.
 
 ### `Alt + Shift + X` - `Option + Shift + X`
 

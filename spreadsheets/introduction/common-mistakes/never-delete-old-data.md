@@ -16,18 +16,16 @@ category: how to
 ---
 ## Content
 
-Sometimes, when you have a complex spreadsheet, you don't want to spend time creating it again so you overwrite old cell data with new. 
+Sometimes, when you have a complex spreadsheet, you don't want to spend time creating it again so you overwrite the old cell data with the new data. 
 
-This is bad practice.
+This is bad practice, because saving data can help you compare it and find any mistakes, compare changes in outcomes, and many more things, depending on what your spreadsheet is for.
 
-Spreadsheets provide ways to avoid doing this.
+After all, if the data was worth creating a spreadsheet for, it might be worth saving it for future use as well.
 
-For instance, you can create a template from an already made spreadsheet and use that template for any future work. This way you'll save all old data as well as have the new one. 
+You can avoid this problem in two ways:
 
-> You can check how to create a template in our `templates` workout.
+1. Create a template from an already made spreadsheet and use that template for any future work. This way you'll save all old data as well as have the new one. 
 
-Or, you can just select the whole sheet, copy it, and paste it in a new sheet, where you can make your changes.
+> 💡 You can check how to create a template in our `templates` workout.
 
-In the long run, saving data can help you compare it and find any mistakes, compare profits, and many more things, depending on what your spreadsheet is for.
-
-If the data was worth creating a spreadsheet for, it might be worth saving it for future use as well.
+2. Select the whole sheet, copy it, and paste it in a new sheet, where you can make your changes.

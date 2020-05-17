@@ -20,7 +20,7 @@ In spreadsheets, you'll usually find that there are four main data types: `Numbe
 
 ### Number
 
-This data type contains numerical values such as whole numbers and fractions, as well as dates and times.
+This data type contains numerical values like whole numbers and fractions, as well as dates and times.
 
 It's important to note that **what is displayed is not how the data is saved**.
 

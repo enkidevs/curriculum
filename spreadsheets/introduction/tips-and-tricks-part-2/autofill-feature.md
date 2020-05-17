@@ -16,7 +16,7 @@ category: how to
 ---
 ## Content
 
-The `Autofill` feature is one of spreadsheets many powerful features.
+The `Autofill` feature is one of spreadsheets' many powerful features.
 
 You can use the `Autofill` to quickly populate cells.
 

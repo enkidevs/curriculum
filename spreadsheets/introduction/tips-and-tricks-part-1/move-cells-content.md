@@ -19,9 +19,9 @@ category: how to
 There are two ways to transfer contents of a single cell or a range of cells to a different location in the spreadsheet.
 
 **Notes:**
-- The way they are pasted is always the same as how they looked when they were coppied.
-- Functions are also copied
-
+- Moving contents of one or multiple cells is the same, so we'll only show moving multiple
+- The way they are pasted is always the same as how they looked when they were copied
+- Functions are also copied.
 
 ## Method 1
 

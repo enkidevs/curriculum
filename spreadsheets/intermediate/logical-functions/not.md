@@ -43,7 +43,6 @@ An empty cell returns `TRUE`:
 
 ![empty]https://img.enkipro.com/b62c350762df4368dc9cf5c3f8fd1805.png()
 
-
 ---
 ## Practice
 
@@ -56,5 +55,6 @@ An empty cell returns `TRUE`:
 
 ---
 ## Footnotes
+
 [1:0 is false]
 All positive and negative numbers except 0 logically evaluate to `TRUE`, 0 evaluates to `FALSE`.

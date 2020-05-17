@@ -18,7 +18,7 @@ category: how to
 
 Cells are essentially where all of your data goes. This means that finding and replacing mistakes should be easy.
 
-Most spreadsheet tools have a feature used to **find and replace data**. To access this feature in Google Sheets, you go to the `Edit` tab and select `Find and replace`. You can use this feature to find and replace information anywhere in the workbook (all sheets included).
+Most spreadsheets have a feature to **find and replace data**. To access this in Google Sheets, you go to the `Edit` tab and select `Find and replace`. You can use this feature to find and replace information anywhere in the workbook (all sheets included).
 
 ![find-and-replace](https://img.enkipro.com/78878b3b7f955f8bbd13b8163a01c876.png)
 

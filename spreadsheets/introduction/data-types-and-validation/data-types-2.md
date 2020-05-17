@@ -20,7 +20,7 @@ Now, let's take a look at the other data types.
 
 ### Text
 
-This data type contains any letter, symbol, space, tab - as well as number.
+This data type contains numbers but also letters, symbols, spaces, and tabs.
 
 For instance, if you have `00123` in a cell that treats its input as a `Number`, it will save it as `123`. Whereas if you have a `Text` data type, it will save it as `'00123'`.
 

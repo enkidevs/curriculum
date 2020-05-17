@@ -1,4 +1,4 @@
-name: Tips and Tricks 2
+name: Tips & Tricks II
 
 description: Basic tips and tricks to make you better and faster at using Spreadsheets.
 

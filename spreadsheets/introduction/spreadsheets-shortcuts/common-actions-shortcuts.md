@@ -31,11 +31,11 @@ Paste cut/copied content.
 
 ### `Ctrl + Z` - `⌘ + Z`
 
-Undo last action.
+Undo the last action.
 
 ### `Ctrl + Shift + Z`/`Ctrl + Y` - `⌘ + Shift + Z ` / `⌘ + Y`
 
-Redo last action.
+Redo the last action.
 
 ### `Ctrl + F` - `⌘ + F`
 

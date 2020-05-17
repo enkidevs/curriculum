@@ -1,4 +1,4 @@
-name: Tips and tricks part 1
+name: Tips & Tricks I
 
 description: Some tips and tricks to save time.
 

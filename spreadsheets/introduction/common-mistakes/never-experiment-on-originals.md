@@ -22,7 +22,7 @@ An unwanted result could be you saving wrong data without having a history to go
 
 You could accidentally forget to undo just 1 number from an important cell which would give wrong calculations in the end result.
 
-If you want to experiment on the current sheet without worry, all you have to do is create a duplicate.
+If you want to experiment on the current sheet, all you should do is create a duplicate.
 
 To create a duplicate of your sheet, locate the sheet at the bottom of the screen.
 
@@ -42,12 +42,11 @@ All 3 options do the same thing and are recommended when you want to experiment 
 
 ---
 ## Practice
-
 ---
 
-Which of the 2 is considered best practice?
+Which of the following is considered best practice?
 
 When testing you should ???.
 
 * create a duplicate in case you need the original again.
-* overwrite the original since you don't need it currently.
+* overwrite the original since you don't need it right then.
