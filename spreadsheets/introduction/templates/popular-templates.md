@@ -1,9 +1,6 @@
 ---
 author: Stefan-Stojanovic
 
-levels:
-  - beginner
-
 aspects:
   - introduction
 
@@ -22,7 +19,7 @@ If you want to get started quickly, you can always use one of the templates that
 
 ### Invoice
 
-An invoice is a document issued by a seller to the buyer. It provides details about a sale or products, including the quantities, costs, and any special terms.
+An invoice is a document issued by a seller to a buyer. It provides details about a sale or products, including the quantities, costs, and any special terms.
 
 The invoice template looks something like this:
 
