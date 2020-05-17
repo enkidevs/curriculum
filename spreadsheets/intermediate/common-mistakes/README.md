@@ -1,6 +1,6 @@
 name: Common mistakes
 
-description: Common mistakes you should avoid.
+description: Common mistakes to avoid!
 
 insights:
   - always-check-functions-names

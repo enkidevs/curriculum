@@ -1,6 +1,6 @@
 name: Tips & Tricks I
 
-description: Some tips and tricks to save time.
+description: Must-know tips and tricks to save time.
 
 insights:
   - change-numbers-to-negative
