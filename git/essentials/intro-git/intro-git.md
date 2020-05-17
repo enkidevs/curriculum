@@ -17,7 +17,7 @@ aspects:
 
 If you're not already familiar with **Git**, it is the de facto standard of version control.
 
-It's what most commercial (and open-source) projects use to keep track of, you guessed it, versions of their products.
+It's what most commercial (and open-source) projects use to keep track of - you guessed it - versions of their products.
 
 Git came to life in 2005, and was developed by Linux Torvalds (the creator of Linux). 
 
