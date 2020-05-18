@@ -9,7 +9,7 @@ aspects:
   - introduction
 
 links:
-  -'[Examples of Blockchain Use-Cases](https://medium.com/@matteozago/50-examples-of-how-blockchains-are-taking-over-the-world-4276bf488a4b){website}'
+  - '[Examples of Blockchain Use-Cases](https://medium.com/@matteozago/50-examples-of-how-blockchains-are-taking-over-the-world-4276bf488a4b){website}'
 
 ---
 
