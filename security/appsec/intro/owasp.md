@@ -22,7 +22,7 @@ links:
 ---
 ## Content
 
-Much of your practice as a Security Engineer means finding and monitoring lists of common vulnerabilities.
+Much of your practice in working with security means finding and monitoring lists of common vulnerabilities.
 
 Because it's impossible to do all the research yourself, you'll want to form a habit of checking the headlines and top vulnerability lists.
 
@@ -30,7 +30,15 @@ Because it's impossible to do all the research yourself, you'll want to form a h
 
 It provides practical mitigation strategies, and is one of the most beginner-friendly organizations that makes up the vast body of application security. 
 
-> 💡 Check the Learn More section for a list of common vulnerabilities and exploits.
+> 💡 Check out the Learn More section for a list of common vulnerabilities and exploits.
+
+In this Security course we'll teach you:
+- The **Open Systems Interconnection Model** (OSI Model)
+- How to apply appropriate controls to minimize vulnerability
+- How to identify and mitigate different attacks
+- How to evaluate source code for vulnerabilities
+- How to identify and protect sensitive data
+- And much more!
 
 ---
 ## Practice

@@ -25,11 +25,13 @@ The beautiful thing about creating an automated exploit is that you never have t
 
 This makes automated exploit development very dangerous if it gets into the wrong hands.
 
-Because of this, white-hat (ie. good guy) exploit researchers will publish vulnerability scanning tools that allow penetration testers to demonstrate the vulnerability, in order to mitigate it. 
+Because of this, *white-hat*[1] (ie. good guy) exploit researchers will publish vulnerability scanning tools that allow penetration testers to demonstrate the vulnerability, in order to mitigate it. 
 
 This is also very handy tooling for application developers, as you can scan your application for vulnerability as you develop it, as a regular cycle.
 
-> 💡 Some tools common to the industry can be found in this footnote[1].
+> 💡 Some tools common to the industry can be found in this footnote[2].
+
+In order to improve application security, we'll make use of many automated tools to make the process more automatic, and integrate it into your normal developer workflow.
 
 ---
 ## Practice
@@ -47,19 +49,15 @@ In order to develop applications that cannot be scanned for vulnerabilities, you
 * a packet sniffer
 
 ---
-## Revision
-
-In order to find vulnerable ports and network devices, you would use a ???
-
-* packet sniffer
-* wi-fi hijacker
-* password cracker
-* port forwarder
-
----
 ## Footnotes
 
-[1:Common Tools]
+[1:Hacker Types]
+There are three types of hackers:
+- black-hat are looking for exploits for malicious reasons and without permision
+- white-hat are looking for exploits for good reasons and with permision
+- grey-hat are looking for exploits for good reasons but without permision
+
+[2:Common Tools]
 Here's a list of the most common tools used in application security:
 - [Metasploit](https://www.metasploit.com/) - an automated vulnerability scanner
 - [Wireshark](https://www.wireshark.org/) / [Snort](https://www.snort.org/) - packet sniffers / network monitors
