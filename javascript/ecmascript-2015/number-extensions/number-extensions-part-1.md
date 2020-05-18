@@ -71,8 +71,12 @@ That is the issue `Number.isNaN` is designed to address.
 
 ```javascript
 // ok, that's much better ✅
-Number.isNaN(5); // false
+
 Number.isNaN('enki'); // false
+Number.isNaN([1, 2, 3]); // false
+Number.isNaN(() => 'oops'); // false
+Number.isNaN(5); // false
+
 Number.isNaN(NaN); // true
 ```
 
