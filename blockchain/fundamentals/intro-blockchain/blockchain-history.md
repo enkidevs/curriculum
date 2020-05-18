@@ -19,7 +19,9 @@ Theoretical blockchains go back to the early 90's, when multiple different proje
 
 Most of them never saw the light of day, and those that did were unsuccessful.
 
-However, in January 2009, the first public blockchain was released - the **Bitcoin blockchain**. It was created by a person or group of people named Satoshi Nakamoto. More on this later.
+However, in January 2009, the first public blockchain was released - the **Bitcoin blockchain**. 
+
+It was created by a person or group of people named Satoshi Nakamoto. More on this later.
 
 What's important to point out is that, although limited in functionality, Bitcoin worked as a proof-of-concept for more complex blockchains. 
 
@@ -29,6 +31,6 @@ The *peer-to-peer payment system* pioneered by Bitcoin allowed forward thinkers 
 ## Footnotes
 
 [1: Projects old as time]
-Nick Szabo's `bit gold` is the one most similar to Satoshi Nakamoto's Bitcoin, but just in theory. It never came to see the light of day.
+Nick Szabo's proposal for Bit Gold is most similar to Satoshi Nakamoto's Bitcoin, but it was never implemented in practice.
 
-`DigiCash` was also a company trying to create a fully digital currency. Founded by David Chaum in 1990, it filed for bankruptcy in the late 90's.
+`DigiCash` was a company trying to create a fully digital currency with anonymous transactions but entered the market too early, before e-commerce was fully integrated within the Internet.

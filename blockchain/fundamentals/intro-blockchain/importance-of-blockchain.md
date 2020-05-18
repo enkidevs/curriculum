@@ -21,11 +21,13 @@ links:
 Here are a couple reasons to why blockchain is an important technology:
 
 1. **Secure**
+
 All data found in the blockchain is secured using advanced cryptography. This makes it resistant to unauthorized changes (like hacking).
 
-Because the blockchain is decentralized, it is less susceptible to human error, data loss or hacking.
+Because the blockchain is decentralized, it doesn't have a single point of failure. This makes it less susceptible to abuse, human error, data loss or hacking.
 
 2. **Transparent**
+
 The blockchain contains a full history of transactions, not just a snapshot in time. Moreover, the same history is spread across all blocks of the network, with all blocks storing **the same information**.
 
 Another proof of the worthiness and capabilities of this technology comes from Estonia. 
