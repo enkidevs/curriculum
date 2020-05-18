@@ -3,6 +3,7 @@ core: true
 description: The basics of any blockchain.
 sections:
   '0':
+    - intro-blockchain
     - the-blockchain
     - the-bitcoin-blockchain
     - building-the-ledger
