@@ -1,6 +1,6 @@
-name: Basics of Spreadsheets
+name: Terminology & Basics
 
-description: Get used to the common terminology.
+description: Get to know the common terminology.
 
 insights:
   - what-is-a-workbook

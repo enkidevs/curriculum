@@ -1,9 +1,6 @@
 ---
 author: Stefan-Stojanovic
 
-levels:
-  - beginner
-
 aspects:
   - introduction
   - workout
@@ -14,24 +11,24 @@ category: must-know
 
 ---
 
-# What Is a Workbook?
+# Workbooks
 
 ---
 ## Content
 
-A workbook is a single file containing one or more worksheets (or sheets).
+Most of you will be familiar with lots of the content in this workout. If you skim through, we've **boldened** the most interesting stuff!
 
-When you create a new workbook, by default, you get one worksheet. More sheets can be added at any time.
+A workbook is a single file containing one or more worksheets. You start with one worksheet when you create a new workbook. More sheets can be added at any time.
 
-The main difference between a workbook and a worksheet is that you can have many worksheets inside a single workbook, but not vice versa. The workbook is the main 'folder' and it can contain as many worksheets as needed.
+The main difference between a workbook and a worksheet is that **you can have many worksheets inside a single workbook, but not vice versa**. The workbook is the main 'folder' and it can contain as many worksheets as needed.
 
-A worksheet is just a grid-like table, comprised of rows and columns.
+A worksheet is just a grid-like table, made of rows and columns.
 
-To create a new workbook in Microsoft Excel you need to go to `File` then select `New` followed by selecting `Blank Workbook`.
+To create a new workbook in Microsoft Excel go to `File` then select `New` followed by `Blank Workbook`.
 
-In Google Sheets, the process is almost identical. The only difference is that instead of `Blank Workbook` you would be selecting `Spreadsheet`.
+In Google Sheets, the only difference is that instead of `Blank Workbook` you select `Spreadsheet`.
 
-To re-iterate, the process is `File > New > Blank Workbook/Spreadsheet`
+In summary, the process is `File > New > Blank Workbook/Spreadsheet`
 
 ![how-to-create-a-new-workbook](https://img.enkipro.com/f4d152ba9b4359b3517a3528fb1bdbf8.png)
 

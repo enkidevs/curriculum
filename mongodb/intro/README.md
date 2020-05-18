@@ -20,6 +20,7 @@ sections:
     - arithmetic-aggregation-i
     - arithmetic-aggregation-ii
     - aggregation-iii
+    - aggregation-iv
     - querying-arrays
 standards:
   shell:

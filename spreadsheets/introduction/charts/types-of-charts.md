@@ -1,9 +1,6 @@
 ---
 author: Stefan-Stojanovic
 
-levels:
-  - beginner
-
 aspects:
   - deep
   - workout
@@ -14,7 +11,7 @@ category: how to
 
 ---
 
-# Types of Charts
+# Types of Charts I
 
 ---
 ## Content
@@ -31,7 +28,7 @@ Let's use this to create three different charts.
 
 The pie chart is circular and sliced into sections just like a pie. The whole pie represents 100% and each section is a percentage of the whole pie.
 
-Example chart which shows the total number of users for the first 10 days of December for a certain app.
+The example chart shows the total number of users for the first 10 days of December for a certain app.
 
 ![pie-chart](https://img.enkipro.com/9b9faa9cfb972490ce6ade3a59dc235c.png)
 
@@ -58,6 +55,6 @@ Pie : ???
 Bar : ???
 Column : ???
 
-* Circular and sliced into sections. The whole chart represents 100% and each section is a percentage.
+* Circular and sliced into sections.
 * Used to represent data with either horizontal or vertical bars.
-* Used to horizontally represent data with vertical bars.
+* Used to represent data with vertical bars.

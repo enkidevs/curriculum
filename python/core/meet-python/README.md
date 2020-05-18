@@ -1,12 +1,12 @@
 name: Meet Python
 
-description: Discover the Python language’s versions and its programming environment.
+description: An intro. And you’ll write your first Python program!
 
 insights:
   - what-is-python
   - why-learn-python
-  - python-2
-  - python-3
+  - python-versions
+  - python-environment
   - python-hello-world
   
 exercises:

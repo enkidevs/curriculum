@@ -1,9 +1,6 @@
 ---
 author: Stefan-Stojanovic
 
-levels:
-  - beginner
-
 aspects:
   - introduction
   - workout
@@ -44,4 +41,4 @@ You can also use the `Replace all` button to change all instances of `88` to `A`
 
 ![find-and-replace-all](https://img.enkipro.com/51e09ad5093527daf14f2834b3e2b322.png)
 
-**Note:** When you press `Replace all` you get a popup window asking you to confirm your decision. This is because some replacements could end up changing a big part of your data, which isn't always desirable or intended.
+> 💡 When you press `Replace all` you get a popup window asking you to confirm your decision. This is because some replacements could end up changing a big part of your data, which isn't always desirable or intended.

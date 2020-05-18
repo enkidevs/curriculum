@@ -44,7 +44,6 @@ It's worth talking about the **genesis block** or the first block of the blockch
              	
 In the "learn more" section you can find a link to an interactive website that allows you to create and append blocks to a simplified version of the Bitcoin blockchain.
 
-
 ---
 ## Practice
 
@@ -55,3 +54,6 @@ Identify the input to the hash function that yields the address of a new, generi
 * Previous block's reference and current's content and header
 * Genesis block's reference and previous' reference
 * Account transactions and the reference to the previous block
+
+
+

@@ -1,9 +1,6 @@
 ---
 author: Stefan-Stojanovic
 
-levels:
-  - beginner
-
 aspects:
   - deep
   - workout
@@ -27,7 +24,7 @@ Let's say we have this table where we input how much money we saved each month.
 
 Notice how a cell has `0` as a value, and two other cells contain text data.
 
-In cell `C18`, we have inputted the following formula `COUNT(C6:C17)`. You would normally expect the cell to display `12` (the total number of cells). This is not the case because the `COUNT` function only takes into account numerical data, and it excludes `0`s.
+In cell `C18`, we have entered the following formula `COUNT(C6:C17)`. You would normally expect the cell to display `12` (the total number of cells). This is not the case because the `COUNT` function only takes into account numerical data, and it excludes `0`s.
 
 ---
 ## Practice

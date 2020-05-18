@@ -9,6 +9,7 @@ sections:
     - comprehension
     - decorators
     - functional-programming
+    - functional-programming-ii
     - generators
     - immutability
     - iterators

@@ -1,9 +1,6 @@
 ---
 author: Stefan-Stojanovic
 
-levels:
-  - beginner
-
 aspects:
   - deep
   - workout
@@ -35,7 +32,7 @@ The line chart is made with lines and plot points. These points create clear vis
 
 This type combines two or more chart types in a single chart.
 
-Using the same chart data, we are going to add a revenue column:
+Using the same chart data, we're going to add a revenue column:
 
 ![with-revenue-plus](https://img.enkipro.com/522f9e74fe05fb92235acf71963544e4.png)
 
