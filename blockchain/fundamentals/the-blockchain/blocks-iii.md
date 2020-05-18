@@ -55,3 +55,4 @@ Identify the input to the hash function that yields the address of a new, generi
 * Genesis block's reference and previous' reference
 * Account transactions and the reference to the previous block
 
+
