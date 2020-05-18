@@ -38,6 +38,8 @@ false == "0" // true
 
 Using `==` is generally considered bad practice as it often leads to difficult-to-locate bugs due to unexpected type conversions.
 
+> 💡 The **weak equality operator** (`==`) is also refered to as **loose** or **abstract**.
+
 ### Strict Typing
 
 The strict equality operator `===` works as `==`, but without type coercion:
@@ -52,24 +54,28 @@ false === "0" // false
 ---
 ## Practice
 
-What is the output of the following code?
+Match the type name with the operator:
 
-```javascript
-console.log("19" == 19)
-console.log(0 == "");
-console.log("nk" === "nk")
-// ???
+```plain-text
+==  - ???
+=== - ???
 ```
 
+Fill in the gaps with the correct equality operator to get the output:
 
-* `true true true`
-* `false true true`
-* `true false true`
-* `true true false`
-* `true false false`
-* `false true false`
-* `false false true`
-* `false false false`
+```js
+"19" ??? 19
+// true
+
+"nk" ??? "nk"
+// true
+```
+
+* Weak Equality Operator
+* Strict Equality Operator
+* ==
+* ===
+* Reference Equality Operator
 
 ---
 ## Revision
@@ -78,14 +84,13 @@ What will the following code output?
 
 ```javascript
 console.log("" == 0);
+// ???
 console.log("" == " ");
 // ???
 ```
 
-* `true false`
-* `true true`
-* `false true`
-* `false false`
+* true
+* false
 
 ---
 ## Quiz
