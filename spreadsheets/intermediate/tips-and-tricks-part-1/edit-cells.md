@@ -45,6 +45,7 @@ What happens if you click once on a populated cell and start writing?
 
 ---
 ## Footnotes
+
 [1:Formula bar]
 The formula bar is where you can see the contents of a cell, and make any changes. What you see in the formula bar might not be what is displayed in the cell.
 
