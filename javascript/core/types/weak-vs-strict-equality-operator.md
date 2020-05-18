@@ -71,11 +71,11 @@ Fill in the gaps with the correct equality operator to get the output:
 // true
 ```
 
-* Weak Typing
-* Strict Typing
+* Weak Equality Operator
+* Strict Equality Operator
 * ==
 * ===
-* Strong Typing
+* Reference Equality Operator
 
 ---
 ## Revision
