@@ -1,0 +1,84 @@
+---
+author: emmab
+
+tags:
+  - introduction
+
+type: normal
+
+category: must-know
+
+---
+
+# Wildcards II
+
+---
+## Content
+
+Going back to our previous example - if we wanted to find all names beginning with `Fre` then we could write our regex pattern as:
+
+`/Fre\w*/`
+
+This would ensure that the names start with `Fre`, and then have zero or more word characters. 
+
+```
+'Fred' ✅
+'Freya' ✅
+'Francis' ❌
+```
+
+Here are a few more wildcards that can be used when you want to be more specific than using a `.`, `\w` or `\W`!
+
+`/s` matches all whitespace characters - spaces, tabs and line-breaks
+
+`/S` matches all non-whitespace characters
+
+We could use the following regex pattern to match these three strings:
+
+`/\s+abc/`
+
+```
+' abc' ✅
+'	abc' ✅
+'    abc' ✅
+'abc' ❌
+```
+
+`\d` matches all digits
+
+`\D` matches all non-digits
+
+We could match just the numbers in the following strings by using this regex:
+
+`/\d+/`
+
+```
+'abc**123**xyz' ✅
+'define "**456**"' ✅
+'var g = **789**;' ✅
+'abc' ❌
+```
+
+---
+## Practice
+
+Which regex pattern would match any non-digits in the following string?
+
+'**abc**123**xyz**'
+
+* `/\D/`
+* `/\d/`
+* `/\S/`
+* `/\s/`
+
+---
+## Revision
+
+Which regex pattern would match any non-whitespace characters in the following string?
+
+'**green eggs and ham**'
+
+* `/\S/`
+* `/\d/`
+* `/\D/`
+* `/\s/`
