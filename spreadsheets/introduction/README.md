@@ -1,6 +1,6 @@
 name: Introduction
 
-description: Learn how to use spreadsheets and formulas to better analyze data.
+description: Learn the basics of spreadsheets and what they can do.
 
 core: true
 
@@ -13,3 +13,6 @@ sections:
     - filtering-grouping
     - intro-to-functions-and-formulas
     - charts
+
+next:
+  - spreadsheets:intermediate
