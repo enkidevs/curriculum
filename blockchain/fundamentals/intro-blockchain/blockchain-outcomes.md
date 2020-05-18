@@ -16,8 +16,9 @@ aspects:
 ## Content
 
 At the end of this course, you should be able to:
+- Understand how the blockchain and Bitcoin works
 - Architect a theoretical blockchain
-- Compare altcoins
+- Compare various altcoins
 - Distinguish and analyze blockchain components
 - Identify and describe blockchain applications
 - Identify and analyze the process of securing the network
