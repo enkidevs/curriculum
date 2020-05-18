@@ -6,6 +6,7 @@ core: true
 
 sections:
   '0':
+    - intro-git
     - getting-started
     - commits
     - fundamentals
