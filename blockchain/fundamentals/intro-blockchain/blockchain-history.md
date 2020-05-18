@@ -35,3 +35,4 @@ Nick Szabo's proposal for Bit Gold is most similar to Satoshi Nakamoto's Bitcoin
 
 `DigiCash` was a company trying to create a fully digital currency with anonymous transactions but entered the market too early, before e-commerce was fully integrated within the Internet.
 
+
