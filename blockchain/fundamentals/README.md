@@ -77,3 +77,4 @@ standards:
       6: Compare and contrast different consensus algorithms
       7: Identify and describe the incentivizing plan
       8: Identify and describe common attacks against the blockchain
+
