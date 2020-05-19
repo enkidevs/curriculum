@@ -35,15 +35,19 @@ Here's another version of our favorite `pokemon` table:
 | Pikachu    | 5     | 45 | 65     | 50      |
 | Charmander | 10    | 50 | 66     | 54      |
 
-Let's suppose we want the `name` and `level` of all the pokemon that are not named `'Charmander'` AND don't have a level higher than `3`. We'd write:
+Let's suppose we want the `name` and `level` of all the pokemon that are not named `'Charmander'` AND with a level that is **less than or equal to** `3`. 
+
+We'd write:
 
 ```sql
 SELECT name, level
 FROM pokemon
-WHERE name <> 'Charmander' AND level <= 3;
+WHERE 
+  name <> 'Charmander' 
+  AND level <= 3;
 ```
 
-(And now you've met the not equal (`<>`) conditional!)
+> 💡 And now you've met the not equal (`<>`) conditional!
 
 The results looks like this:
 
