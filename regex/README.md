@@ -6,4 +6,4 @@ icon:
 
 color: 
 
-language: 
+language: General
