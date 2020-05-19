@@ -23,14 +23,6 @@ aspects:
 
   - workout
 
-links:
-  - >-
-    [The authoritative guide to blockchain development](https://medium.freecodecamp.org/the-authoritative-guide-to-blockchain-development-855ab65b58bc)
-  - >-
-    [Ethereum's inventor, Vitalik Buterin, about blockchains and Ethereum](https://www.youtube.com/watch?v=WSN5BaCzsbo)
-  - >-
-    [Examples of blockchain use-cases](https://medium.com/@matteozago/50-examples-of-how-blockchains-are-taking-over-the-world-4276bf488a4b)
-
 ---
 # What Is a Blockchain?
 
@@ -105,4 +97,6 @@ Can you identify what concept can be defined by the `sequence of data bundles` s
 - Inheritance
 - Deposition
 - Block
+
+
 
