@@ -32,7 +32,7 @@ Developers can use regex to construct a pattern that the users' input must match
 
 > 💡 A non-developer could also use regex to ensure that email addresses are valid by making use of spreadsheets or online tools.
 
-Spreadsheet tools like Google Sheets have built in regex formulas to match, extract and replace. Take a look at the Learn More link to discover these formulas.
+Spreadsheet tools like Google Sheets have built in regex formulas to match, extract and replace. Take a look at the **Learn More** link to discover these formulas.
 
 We'll share a few of our favorite online tools with you soon!
 
