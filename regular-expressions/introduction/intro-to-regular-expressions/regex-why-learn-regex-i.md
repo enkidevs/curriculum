@@ -20,7 +20,7 @@ links:
 
 Regex is for *everyone*. 
 
-> A developer could use regex to validate that information given by a user is in the correct format. 
+> 💡 A developer could use regex to validate that information given by a user is in the correct format. 
 
 For example, when collecting email addresses on a sign up form, the `@` character must be in the correct position for the email address to be valid. If it isn't, then our form should throw an error. 
 
