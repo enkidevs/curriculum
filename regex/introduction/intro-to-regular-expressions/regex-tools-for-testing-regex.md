@@ -9,7 +9,7 @@ type: normal
 category: must-know
 
 links:
-  - '[Regex101](https://regex101.com/){website}
+  - '[Regex101](https://regex101.com/){website}'
   - '[Regexr](https://regexr.com/){website}'
   - '[Debuggex](https://www.debuggex.com/){website}'
 
