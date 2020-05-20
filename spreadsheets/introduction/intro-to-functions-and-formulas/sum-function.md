@@ -25,7 +25,7 @@ Let's say we have a table where we enter money saved for each month every year:
 
 You can apply the `SUM` function in two ways:
 - type in `=SUM(C6:C17)`
-- type in `=SUM()`, and with the cursor between the parentheses click and drag from `C6` to `C18`
+- type in `=SUM()`, and with the cursor between the parentheses click and drag from `C6` to `C17`
 
 After typing in your formula and hitting enter, your cell displays the result of the `SUM` function.
 
