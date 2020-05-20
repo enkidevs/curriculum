@@ -8,10 +8,15 @@ type: normal
 
 category: must-know
 
+aspects:
+  - introduction
+  - workout
+
 links:
-- '[Special Operators](https://www.regular-expressions.info/refadv.html){website}'
+  - '[Special Operators](https://www.regular-expressions.info/refadv.html){website}'
 
 ---
+
 # Passwords using Positive Lookaheads
 
 ---

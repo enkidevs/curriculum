@@ -8,11 +8,16 @@ type: normal
 
 category: must-know
 
+aspects:
+  - introduction
+  - workout
+
 links:
-- '[Email Address Regex](http://emailregex.com/){website}'
-- '[Stackoverflow Email Address Checker](https://stackoverflow.com/questions/201323/how-to-validate-an-email-address-using-a-regular-expression/201378#201378){website}'
+  - '[Email Address Regex](http://emailregex.com/){website}'
+  - '[Stackoverflow Email Address Checker](https://stackoverflow.com/questions/201323/how-to-validate-an-email-address-using-a-regular-expression/201378#201378){website}'
 
 ---
+
 # Email Address Checker II
 
 ---

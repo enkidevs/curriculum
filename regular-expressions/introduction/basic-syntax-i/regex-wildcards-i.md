@@ -8,11 +8,15 @@ type: normal
 
 category: must-know
 
+aspects:
+  - introduction
+
 links:
-- '[The Dot Wildcard](https://www.regular-expressions.info/dot.html){website}'
-- '[Regex Metacharacters](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions/Character_Classes){website}'
+  - '[The Dot Wildcard](https://www.regular-expressions.info/dot.html){website}'
+  - '[Regex Metacharacters](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions/Character_Classes){website}'
 
 ---
+
 # Wildcards I
 
 ---

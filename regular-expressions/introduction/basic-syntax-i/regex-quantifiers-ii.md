@@ -8,8 +8,13 @@ type: normal
 
 category: must-know
 
+aspects:
+  - introduction
+
 ---
+
 # Quantifiers II
+
 ---
 ## Content
 

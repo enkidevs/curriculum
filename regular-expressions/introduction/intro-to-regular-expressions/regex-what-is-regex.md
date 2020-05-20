@@ -8,9 +8,11 @@ type: normal
 
 category: must-know
 
-links:
+aspects:
+  - introduction
 
-- '[Regex Wiki](https://en.wikipedia.org/wiki/Regular_expression){website}'
+links:
+  - '[Regex Wiki](https://en.wikipedia.org/wiki/Regular_expression){website}'
 
 ---
 

@@ -8,9 +8,12 @@ type: normal
 
 category: must-know
 
+aspects:
+  - introduction
+
 links:
-- '[Learn Regex](https://www.freecodecamp.org/news/learn-regular-expressions-with-this-free-course-37511963d278/){website}'
-- '[Regex Use Cases](https://digitalfortress.tech/tricks/top-15-commonly-used-regex/){website}'
+  - '[Learn Regex](https://www.freecodecamp.org/news/learn-regular-expressions-with-this-free-course-37511963d278/){website}'
+  - '[Regex Use Cases](https://digitalfortress.tech/tricks/top-15-commonly-used-regex/){website}'
 
 ---
 

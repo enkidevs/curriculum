@@ -8,7 +8,12 @@ type: normal
 
 category: must-know
 
+aspects:
+  - introduction
+  - workout
+
 ---
+
 # Password Validation
 
 ---
