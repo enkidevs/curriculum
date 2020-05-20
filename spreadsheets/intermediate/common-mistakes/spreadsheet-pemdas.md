@@ -35,7 +35,7 @@ First, all the parentheses are resolved; next, all exponents; then all the multi
 So, an expression like this one:
 
 ```plain-text
-3 + 5 ^ (5 - 3) * 4 / 2 - 1
+3 + 5 ^ (5 - 3) * 4 / 2
 ```
 Would be calculated like this:
 
