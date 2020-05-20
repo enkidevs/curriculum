@@ -26,11 +26,11 @@ Here's how they work:
 
 `/abc*/`
 
-`ab` followed by zero or more `c`s
+`ab` followed by zero or more `c`'s
 
 `/abc+/`    
      
-`ab` followed by one or more `c`s
+`ab` followed by one or more `c`'s
 
 These metacharacters are super useful as they add much more flexibility to our regex patterns.
 

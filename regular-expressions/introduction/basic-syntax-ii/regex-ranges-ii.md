@@ -36,7 +36,7 @@ Note how most patterns can be written using the technique from the previous insi
 ---
 ## Practice
 
-*Using the `'^'` character*, which regex pattern matches `hog`, `dog`, but not `bog`.
+Using the `'^'` character, which regex pattern matches `hog` and `dog`, but not `bog`.
 
 ???
 

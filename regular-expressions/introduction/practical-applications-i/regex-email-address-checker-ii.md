@@ -22,7 +22,9 @@ There are so many different ways that we could write our email address checker.
 
 Here's another way that allows an optional domain name extension, like '**.co.uk**', but which also works for '**.com**':
 
-`/^[a-zA-Z0-9.!#$%&’*+/=?^_{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/`
+```
+/^[a-zA-Z0-9.!#$%&’*+/=?^_{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/
+```
 
 It looks like a lot, but don't be put off! 😅
 
@@ -32,7 +34,7 @@ Let's take a look at each major chunk.
 
 `/[a-zA-Z0-9-]+/` ensures that the host name is alphanumeric and has at least one character.
 
-`/(?:\.[a-zA-Z0-9-]+)*/` this is the optional part. It ensure that there must be either 0 or more instances of that group - so '**.com**' would match, but also '**.co.uk**'.
+`/(?:\.[a-zA-Z0-9-]+)*/` this is the optional part. It ensure that there must be zero or more instances of that group, so '**.com**' would match, but also '**.co.uk**'.
 
 Pretty neat stuff! 
 
@@ -50,7 +52,7 @@ Which part of the following regex pattern matches each part of the email address
 
 /??? ??? ??? ???/
 
-* `[a-z]+`
+* `(tacos)`
 * `@`
 * `[a-z]+`
 * `(?:\.[a-z]+)*`

@@ -20,19 +20,23 @@ That's because the `input` element on an HTML form already performs the validati
 
 That being said, if for some reason you don't have access to this field, regex can help you validate email addresses in a single line of code, instead of having to write several `if` statements[1]. 
 
-Let's start off with a basic expression to check that the overall structure of the string is in the form '**x@y.z**'.
+Let's start off with a basic expression to check that the overall structure of the string is in the form `'x@y.z'`.
 
-`/.+@.+\..+/`
+```
+/.+@.+\..+/
 
-'**a@b.c**' ✅
-'**xxxx@yyyy.zzz**' ✅
-'**a @ b . c**' ✅
+'a@b.c' ✅
+'xxxx@yyyy.zzz' ✅
+'a @ b . c' ✅
+```
 
 As you can see, this very basic pattern validates even invalid email addresses 😢.
 
 Let's try a stricter example:
 
-`/[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,6}/i`
+```
+/[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,6}/i
+```
 
 `/[a-z0-9._%+-]+/` ensures that only email address-friendly characters are allowed.
 
@@ -49,6 +53,8 @@ Using the regex below, we could match the email address `we_love_code@enki.com`.
 
 `/[a-z]+@[a-z]+\.[a-z]{2,6}/i`
 
+???
+
 * False
 * True
 
@@ -60,11 +66,13 @@ Using the regex below, we could match the email address `we_love_code@enki.com`.
 
 `/[a-z_]+@[a-z]+\.[a-z]{2,6}/i`
 
+???
+
 * True
 * False
 
 ---
 ## Footnotes
 
-[1:`if` statements]
-Conditional statements (or `if` statements) are features of a programming language that perform different actions depending on whether a condition evaluations to true or false.
+[1:if statements]
+Conditional statements (or `if` statements) are features of a programming language that perform different actions depending on whether a condition evaluates to true or false.

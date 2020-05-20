@@ -21,7 +21,7 @@ links:
 
 **Regular expressions** (regex or regexp for short) are *patterns of letters, numbers and non-alphanumeric characters.* 
 
-> They can be used to *find matching patterns in other texts*. 
+> They can be used to find matching patterns in other texts. 
 
 You can think of regular expressions as wildcards[1] on steroids 💪.
 

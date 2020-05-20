@@ -33,7 +33,7 @@ This pattern solves the password length problem, but it also matches on the foll
 
 None of these meet the criteria we need!
 
-Even if we're more explicit in our regex pattern, using wildcards and ranges, we have the exact same problem as above...
+Even if were more explicit in our regex pattern, using wildcards and ranges, we have the exact same problem as above...
 
 `([A-Z]|[a-z]|\d|\W){8,}`
 

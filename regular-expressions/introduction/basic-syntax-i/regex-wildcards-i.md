@@ -10,7 +10,7 @@ category: must-know
 
 links:
 - '[The Dot Wildcard](https://www.regular-expressions.info/dot.html){website}'
-- '[Regex metacharacters](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions/Character_Classes){website}'
+- '[Regex Metacharacters](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions/Character_Classes){website}'
 
 ---
 # Wildcards I
@@ -20,7 +20,7 @@ links:
 
 Wildcards can be used to add flexibility when you don't want to specify characters. 
 
-> In regex, the `.` wildcard can be used to stand in for nearly *any* character[1] which is why it's the most powerful wildcard.
+> In regex, the dot (`.`) wildcard can be used to stand in for nearly *any* character[1] which is why it's the most powerful wildcard.
 
 `/abc.*/`
 
@@ -49,7 +49,7 @@ And would match any word character in a mixed string:
 '**!@£$%^&**' ✅
 'abc' ❌
 
-Note, the backslash is necessary syntax here. While some symbols are directly interpreted like special characters (e.g. `.`, `,`, `?` etc.), some only work like special characters if preceeded by a backslash. 
+Note, the backslash is necessary syntax here. While some symbols are directly interpreted like special characters (e.g. `.`, `?` etc.), some only work like special characters if preceeded by a backslash. 
 
 ---
 ## Practice
@@ -57,6 +57,8 @@ Note, the backslash is necessary syntax here. While some symbols are directly in
 Which regex pattern would match the following string?
 
 `123`
+
+???
 
 * `/\w+/`
 * `/\W+/`
@@ -71,6 +73,8 @@ Which regex pattern would match the following string?
 
 `...`
 
+???
+
 * `/\W+/`
 * `/\w+/`
 * `/./`
@@ -79,7 +83,7 @@ Which regex pattern would match the following string?
 ---
 ## Footnotes
 
-[1:Dot wildcard]
+[1:Dot Wildcard]
 The dot wildcard can be used to match every character **except** for line break characters.
 
 This exception exists mostly because of historic reasons. The first tools that used regex were line-based. They would read a file line by line, and apply the regular expression separately to each line. The effect is that with these tools, the string could never contain line breaks, so the dot could never match them.

@@ -31,7 +31,7 @@ Positive lookaheads start with `/(?=)/`. For example:
 
 `/(?=.*\W)/` means that there must be at least one *symbol*.
 
-If we add these positive lookaheads into our password validator, our regex pattern looks like:
+If we add these positive lookaheads into our password validator, our regex pattern will look like this:
 
 ```
 /(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*\W).{8,}/
@@ -40,13 +40,15 @@ If we add these positive lookaheads into our password validator, our regex patte
 'password123!' ❌
 ```
 
-There's two more things we can add to make it fully watertight.
+There are two more things we can add to make it fully watertight.
 
 '**^**' and '**$**' make sure the match starts at the beginning of a word and ends with the word. Essentially, only whole word matches are allowed. Partial matches aren’t considered.
 
 Our password validator in one line of regex 🎉:
 
-`/^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*\W).{8,}$/`
+```
+/^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*\W).{8,}$/
+```
 
 
 ---

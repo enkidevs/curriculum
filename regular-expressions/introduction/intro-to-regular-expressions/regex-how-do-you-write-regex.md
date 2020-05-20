@@ -23,9 +23,7 @@ Regex patterns are formatted slightly differently depending on the programming l
 
 Imagine that we have a string equal to `'Learning Regex is fun'` and we set our regex pattern to `/fun/`, then the match result from the string would be `'fun'`:
 
-```
 'Learning Regex is **fun**'
-```
 
 If we changed our regex pattern to `/FUN/` then we wouldn't return any match results as *capitalization matters*.
 

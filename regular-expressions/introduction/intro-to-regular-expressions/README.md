@@ -1,4 +1,4 @@
-name: Introduction to Regular Expressions
+name: Intro
 
 description: Intro to regular expressions, covering the why, how and what.
 
