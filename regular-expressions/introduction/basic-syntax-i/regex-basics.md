@@ -26,7 +26,7 @@ string = 'Fred'
 
 However, most of the time we want to make our patterns a bit more flexible...
 
-Say we want to find all names beginning with `'Fre'` from the following list.
+Say we want to find all names beginning with `'Fre'` from the following list:
 
 'Fred, Freya, Francis'
 
@@ -34,7 +34,7 @@ We could use `/Fre/` as our regex pattern to match the following:
 
 '**Fre**d, **Fre**ya, Francis'
 
-This would not match the whole name, just the letters '**Fre**'. 
+> 💡 This would not match the whole name, just the letters '**Fre**'. 
 
 In order to match the whole name, we'd have to use quantifiers and wildcards - more about those next!
 

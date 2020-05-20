@@ -40,7 +40,7 @@ start of a line
 another line
 ```       
 
-Note, when using Ruby, the anchors `^` and `$` always match on all lines. There is no way to turn this option off. This is actually quite a nice way to do things as there are separate anchors for the beginning and end of strings: `\A`, `\Z` and `\z`.
+> 💡 When using Ruby, the anchors `^` and `$` always match on all lines. There is no way to turn this option off. This is actually quite a nice way to do things as there are separate anchors for the beginning and end of strings: `\A`, `\Z` and `\z`.
 
 There are many more modifiers which you can read about [here](https://www.regular-expressions.info/refmodifiers.html).
 

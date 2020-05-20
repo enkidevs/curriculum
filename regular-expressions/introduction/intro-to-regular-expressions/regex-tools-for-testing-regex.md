@@ -22,17 +22,17 @@ links:
 
 The best way to understand how regex works is by *playing around with your own tests.*
 
-Here are our **favorite online tools for testing regex** (check out the Learn More links):
+Here are our **favorite online tools for testing regex** (check out the **Learn More** links):
 
-1. Regex101
+1. **Regex101**
 
 This is the best site for beginners, experts and those in between because it gives you a detailed explanation of all the matching patterns with useful highlighting of the match groups 🖍.
 
-2. Regexr
+2. **Regexr**
 
 This site also has useful highlighting to easily spot matching patterns, but the main advantage of Regexr is that you can create an account to store your regexes so that you can reuse them easily 💾. 
 
-3. Debuggex
+3. **Debuggex**
 
 This is the best site for any mathematicians as it digs a little deeper into the nitty-gritty side of how regexes work by providing you with a graphical model 📈.
 

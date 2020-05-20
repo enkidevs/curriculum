@@ -23,7 +23,7 @@ Imagine if we wanted to match the word `success`, but our text also included the
 
 This is where **anchors** come in handy.
 
-> The `^` is used to signify the *start of a string*, and the `$` character is used to signify the *end of a string*.
+> 💡 The `^` is used to signify the *start of a string*, and the `$` character is used to signify the *end of a string*.
 
 `/^success/`
 

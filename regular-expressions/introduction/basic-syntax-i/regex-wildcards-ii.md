@@ -19,7 +19,7 @@ Going back to our previous example - if we wanted to find all names beginning wi
 
 `/Fre\w*/`
 
-This would ensure that the names start with `Fre`, and then have zero or more word characters. 
+This would match the names that start with `Fre`, and then have zero or more word characters. 
 
 ```
 'Fred' ✅

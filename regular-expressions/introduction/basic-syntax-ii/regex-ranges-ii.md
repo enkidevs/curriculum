@@ -31,7 +31,9 @@ This means that the following is true:
 
 `[^0-9]` is equivalent to `/D`
 
-Note how most patterns can be written using the technique from the previous insight as they are really *two sides of the same coin.* By having both choices, you can decide which one is easier to write and understand when creating your own patterns.
+Most patterns can be written using the technique from the previous insight as they are really *two sides of the same coin*. 
+
+By having both choices, you can decide which one is easier to write and understand when creating your own patterns.
 
 ---
 ## Practice

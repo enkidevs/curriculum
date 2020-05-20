@@ -18,7 +18,7 @@ The wildcards that we learnt about previously (`.`, `\w`, `\W`, `/s`, `/S`, `/d`
 
 Say we want to match *specific characters* instead of every character of a certain type, then we can use **ranges**.
 
-> Ranges are defined in square brackets and are much stricter than using any of the more general wildcards.
+> 💡 Ranges are defined in square brackets and are much stricter than using any of the more general wildcards.
 
 For example, say we want to match the words `can`, `man` and `fan`, but *not* the words `dan`, `ran` or `pan`, we could write our regex as:
 
@@ -42,9 +42,11 @@ Take a real-world example. We can use ranges to check whether a list of credit c
 
 The cards must either start with a `'4'` or a `'5'` and be followed by one or more digit.
 
-`5131421201839759` ✅
-`4273221260472240` ✅
-`357578543114510` ❌
+```
+5131421201839759 ✅
+4273221260472240 ✅
+357578543114510 ❌
+```
 
 ---
 ## Practice

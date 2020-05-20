@@ -14,7 +14,7 @@ category: must-know
 ## Content
 
 
-**More general quantifiers**
+### More general quantifiers
 
 When we don't know the number of times we want something repeated we can use more general metacharacters[1] as our quantifiers.
 

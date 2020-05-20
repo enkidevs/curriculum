@@ -14,7 +14,7 @@ category: must-know
 ---
 ## Content
 
-You'll have probably seen these types of messages on all your favorite sites: *“Your password must have at least 8 characters, including an upper case letter, a lowercase letter and a number”*. 
+You have probably seen these types of messages on all your favorite sites: *“Your password must have at least 8 characters, including an upper case letter, a lowercase letter and a number”*. 
 
 And sometimes even a symbol character to make sure you'll never remember your password in the future... 🤔
 
@@ -37,7 +37,9 @@ Even if were more explicit in our regex pattern, using wildcards and ranges, we 
 
 `([A-Z]|[a-z]|\d|\W){8,}`
 
-We'll need to use a special regex operator called a *positive lookahead* to check that there is *at least one of each specified character* in the password. Let's get cracking!
+We'll need to use a special regex operator called a *positive lookahead* to check that there is *at least one of each specified character* in the password. 
+
+Let's get cracking!
 
 
 ---

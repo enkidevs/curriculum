@@ -33,7 +33,7 @@ Using regex to match patterns is *extremely flexible*. Methods to *find, extract
 ---
 ## Practice
 
-Regex can be used to ??? a users' username.
+Regex can be used to ???  usernames.
 
 * validate
 * update

@@ -16,7 +16,7 @@ category: must-know
 
 Because regex reserves the dot as a special character, we can't actually specify a dot/period with `.`.
 
-> In order to use these reserved characters in a literal sense we need to *add a backslash before them*. In doing so, we say that we "escape the character".
+> 💡 In order to use these reserved characters in a literal sense we need to *add a backslash before them*. In doing so, we say that we "escape the character".
 
 The following regex specifies that there are one or more characters, `/.+/`, followed by a literal dot `/\./`.
 
@@ -35,13 +35,17 @@ Similarly, if we wanted to use an actual backslash, we'd have to escape it too!
 
 Here, the `/\\/` is escaping the backslash, and the `/.+/` is saying that there are one or more characters following the backslash.
 
+```
 '\backslash_demo' ✅
+```
 
 Forward slashes must also always be escaped:
 
 `/\/.+/`
 
+```
 '/forward_slash_demo' ✅
+```
 
 ---
 ## Practice
