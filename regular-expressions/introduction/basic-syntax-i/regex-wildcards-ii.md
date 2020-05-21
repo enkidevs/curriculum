@@ -32,9 +32,9 @@ This would match the names that start with `Fre`, and then have zero or more wor
 
 Here are a few more wildcards that can be used when you want to be more specific than using a `.`, `\w` or `\W`!
 
-`/s` matches all whitespace characters - spaces, tabs and line-breaks
+`\s` matches all whitespace characters - spaces, tabs and line-breaks.
 
-`/S` matches all non-whitespace characters
+`\S` matches all non-whitespace characters
 
 We could use the following regex pattern to match these three strings:
 
