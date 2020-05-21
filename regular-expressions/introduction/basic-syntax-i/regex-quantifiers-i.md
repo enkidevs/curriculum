@@ -36,7 +36,7 @@ Let's have a look at some examples!
 
 `/abc{3,6}/`   
     
-`ab` followed by three, four, fix or six `c`'s
+`ab` followed by three, four, five or six `c`'s
 
 ---
 ## Practice
