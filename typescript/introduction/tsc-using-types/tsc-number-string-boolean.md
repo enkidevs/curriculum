@@ -17,7 +17,7 @@ links:
 ---
 ## Content
 
-We can attach a type to a variable by adding a semi-colon (`:`) and a type after its name.
+We can attach a type to a variable by adding a colon (`:`) and a type after its name.
 
 ### String
 
