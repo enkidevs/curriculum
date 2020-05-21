@@ -36,13 +36,13 @@ On Linux (and other Unix-based operating systems), common environment variables 
 ---
 ## Revision
 
-Print the value of the environmental variable `HOME` : 
+Print the value of the environmental variable `LANG` : 
 ```bash
 ??? ???
 ```
 
 * `echo`
-* `$HOME`
-* `home`
-* `$home`
+* `$LANG`
+* `lang`
+* `$lang`
 * `ls`
