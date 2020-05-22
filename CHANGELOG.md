@@ -11,7 +11,7 @@ The general format is:
 ```md
 ## Date
 ### Type of change
-- [Description of the change](link-to-the-PR-or-commit-where-the-change-was-added)
+- [Topic Name - Insight Name - Description of the change](link-to-the-PR-or-commit-where-the-change-was-added)
 ```
 
 Types of change:
