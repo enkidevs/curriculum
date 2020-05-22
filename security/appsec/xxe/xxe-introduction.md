@@ -68,7 +68,7 @@ SYSTEM "file:///dev/random" >]>
  
 Here's an example of this attack that was a widespread problem due to it's simplicity, called the **Billion Laughs Attack**:
 
-```
+```xml
 <?xml version="1.0"?>
 <!DOCTYPE lolz [
  <!ENTITY lol "lol">
