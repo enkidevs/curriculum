@@ -18,7 +18,9 @@ A great analogy for Docker containers can be found in the shipping industry.
 
 ![shipping-containers](https://img.enkipro.com/25c39f15f9c84357c5ba2f266f3bee75.jpeg)
 
-Before shipping containers were standardized, it was difficult to transport things across the world. Now, you only have to rent or buy a container and pack it safely with whatever you need to transport and the rest of the process is essentially automated. With standardization came automation, and with automation came efficiency.
+Before shipping containers were standardized, it was difficult to transport things across the world. Now, you only have to rent or buy a container and pack it safely with whatever you need to transport and the rest of the process is essentially automated. 
+
+> 💡With standardization came automation, and with automation came efficiency.
 
 Docker containers are meant to be **immutable** and **ephemeral**.
 
