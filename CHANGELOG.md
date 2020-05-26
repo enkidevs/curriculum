@@ -21,6 +21,11 @@ Types of change:
 - `Archived` for content that is no longer necessary.
 - `Fixed` for any minor fixes (e.g. add a missing comma)
 
+## May 26th 2020
+
+### Fixed
+- [Python - Variables - Add missing "i" in "revist"](#)
+
 ## May 22nd 2020
 
 ### Fixed
