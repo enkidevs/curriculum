@@ -10,7 +10,7 @@ aspects:
   - workout
 
 links:
-  - '[Python List Methods](https://www.programiz.com/python-programming/methods/listl){website}'
+  - '[Python List Methods](https://www.programiz.com/python-programming/methods/list){website}'
 
 ---
 
