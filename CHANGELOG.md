@@ -24,7 +24,7 @@ Types of change:
 ## May 26th 2020
 
 ### Fixed
-- [Python - Variables - Add missing "i" in "revist"](#)
+- [Python - Variables - Add missing "i" in "revist"](https://github.com/enkidevs/curriculum/pull/2134)
 
 ## May 22nd 2020
 
