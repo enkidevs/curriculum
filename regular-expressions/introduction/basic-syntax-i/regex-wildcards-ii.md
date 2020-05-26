@@ -53,7 +53,7 @@ We could use the following regex pattern to match these three strings:
 
 We could match just the numbers in the following strings by using this regex:
 
-`/\d+/`
+`/\d/`
 
 ```
 'abc**123**xyz' ✅

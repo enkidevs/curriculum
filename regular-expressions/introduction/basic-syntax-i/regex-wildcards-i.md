@@ -48,7 +48,7 @@ And would match any word character in a mixed string:
 
 > 💡 Using `\W` does the opposite of `\w` and would match all *non-word characters*.
 
-### `/\W*/`
+### `/\W/`
 
 '**!@£$%^&**' ✅
 'abc' ❌
@@ -64,9 +64,9 @@ Which regex pattern would match the following string?
 
 ???
 
-* `/\w+/`
-* `/\W+/`
-* `/./`
+* `/\w/`
+* `/\W/`
+* `/\D/`
 * `/12+/`
 
 
@@ -79,10 +79,10 @@ Which regex pattern would match the following string?
 
 ???
 
-* `/\W+/`
-* `/\w+/`
-* `/./`
-* `/12+/`
+* `/\W/`
+* `/\w/`
+* `//w/`
+* `//W/`
 
 ---
 ## Footnotes
