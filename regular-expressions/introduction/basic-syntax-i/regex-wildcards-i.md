@@ -38,7 +38,7 @@ Using the above pattern, we'd be able to match the following strings because the
 
 ### `/\w/`
 
-This pattern would match the following, as `\w` allows for capitalized letters:
+This pattern would match each character in the following, as `\w` allows for capitalized letters:
 
 '**abcABC123_**' ✅
 
@@ -46,9 +46,13 @@ And would match any word character in a mixed string:
 
 '**abc**!**f**@**g**£**jf**$**h**%^'
 
+If we want to match the entire string then we can use `/\w+/` or `/\w*/`.
+
 > 💡 Using `\W` does the opposite of `\w` and would match all *non-word characters*.
 
 ### `/\W/`
+
+We can use `/\W+/` or `/\W*/` to match an entire string:
 
 '**!@£$%^&**' ✅
 'abc' ❌
@@ -64,9 +68,9 @@ Which regex pattern would match the following string?
 
 ???
 
-* `/\w/`
-* `/\W/`
-* `/\D/`
+* `/\w+/`
+* `/\W+/`
+* `/\D+/`
 * `/12+/`
 
 
@@ -79,10 +83,10 @@ Which regex pattern would match the following string?
 
 ???
 
-* `/\W/`
-* `/\w/`
-* `//w/`
-* `//W/`
+* `/\W+/`
+* `/\w+/`
+* `//w+/`
+* `//W+/`
 
 ---
 ## Footnotes

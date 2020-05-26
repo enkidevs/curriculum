@@ -62,6 +62,8 @@ We could match just the numbers in the following strings by using this regex:
 'abc' ❌
 ```
 
+In this case, `/\d/` will match 1, 2 and 3 individually. If we want to match 123 then we could use `/\d+/` or `/\d*/`.
+
 ---
 ## Practice
 
