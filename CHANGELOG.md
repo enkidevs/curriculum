@@ -24,6 +24,7 @@ Types of change:
 ## May 26th 2020
 
 ### Fixed
+- [Python - List Methods II - Fix last code block example](https://github.com/enkidevs/curriculum/pull/2138)
 - [Python - List Methods I - Fix resource link](https://github.com/enkidevs/curriculum/pull/2136)
 - [React - `React.Children` methods - Remove duplicate "returns"](https://github.com/enkidevs/curriculum/pull/2135)
 - [Python - Variables - Add missing "i" in "revist"](https://github.com/enkidevs/curriculum/pull/2134)
