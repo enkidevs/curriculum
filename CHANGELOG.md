@@ -38,7 +38,7 @@ Types of change:
 
 ## May 27th 2020
 
-### Added
+### Changed
 - [SQL - What is SQL? - Added footnote & improved copy](https://github.com/enkidevs/curriculum/pull/2141)
 
 ## May 26th 2020
