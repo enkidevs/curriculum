@@ -25,15 +25,15 @@ That's because the `input` element on an HTML form already performs the validati
 
 That being said, if for some reason you don't have access to this field, regex can help you validate email addresses in a single line of code, instead of having to write several `if` statements[1]. 
 
-Let's start off with a basic expression to check that the overall structure of the string is in the form `'x@y.z'`.
+Let's start off with a basic expression to check that the overall structure of the text is in the form `x@y.z`.
 
 ```
 /.+@.+\..+/
-
-'a@b.c' ✅
-'xxxx@yyyy.zzz' ✅
-'a @ b . c' ✅
 ```
+
+`a@b.c` ✅
+`xxxx@yyyy.zzz` ✅
+`a @ b . c` ✅
 
 As you can see, this very basic pattern validates even invalid email addresses 😢.
 
@@ -43,11 +43,11 @@ Let's try a stricter example:
 /[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,6}/i
 ```
 
-`/[a-z0-9._%+-]+/` ensures that only email address-friendly characters are allowed.
+/[a-z0-9._%+-]+/ ensures that only email address-friendly characters are allowed.
 
-`/@/` is literally just the '**@**' symbol.
+/@/ is literally just the '**@**' symbol.
 
-`/[a-z0-9.-]+\.[a-z]{2,6}/` ensures that the domain also contains email address-friendly characters, and that there are between 2-6 characters in the domain extension. 
+/[a-z0-9.-]+\.[a-z]{2,6}/ ensures that the domain also contains email address-friendly characters, and that there are between 2-6 characters in the domain extension. 
 
 We can also add an `i` modifier to the end of our regex to make sure that the pattern is case insensitive 🙌.
 
@@ -56,7 +56,9 @@ We can also add an `i` modifier to the end of our regex to make sure that the pa
 
 Using the regex below, we could match the email address `we_love_code@enki.com`.
 
-`/[a-z]+@[a-z]+\.[a-z]{2,6}/i`
+```
+/[a-z]+@[a-z]+\.[a-z]{2,6}/i
+```
 
 ???
 
@@ -69,7 +71,9 @@ Using the regex below, we could match the email address `we_love_code@enki.com`.
 
 Using the regex below, we could match the email address `we_love_code@enki.com`.
 
-`/[a-z_]+@[a-z]+\.[a-z]{2,6}/i`
+```
+/[a-z_]+@[a-z]+\.[a-z]{2,6}/i
+```
 
 ???
 

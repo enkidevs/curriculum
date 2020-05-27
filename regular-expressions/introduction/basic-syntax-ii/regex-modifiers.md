@@ -26,24 +26,28 @@ Modifiers change the *whole nature of our regex pattern*.
 
 They're written outside of the `//` like so:
 
-`/hello/i`
+```
+/hello/i
+```
 
 The `i` modifier makes the whole regex pattern case insensitive, so the following would all match:
 
-'**hello**', '**Hello**', '**HeLlO**', '**HELLO**' ✅✅✅✅
+`hello`, `Hello`, `HeLlO`, `HELLO` ✅✅✅✅
 
-The `m` modifier makes the `^` and `$` anchors match the *start and end of a new line* rather than an entire string.
+The `m` modifier makes the '^' and '$' anchors match the *start and end of a new line* rather than an entire string.
 
 A regex expression with an `m` modifier would allow the pattern to check across multiple lines:
 
-`/^(start|another).*(line)$/m`
+```
+/^(start|another).*(line)$/m
+```
 
 ```plain-text
 start of a line
 another line
 ```       
 
-> 💡 When using Ruby, the anchors `^` and `$` always match on all lines. There is no way to turn this option off. This is actually quite a nice way to do things as there are separate anchors for the beginning and end of strings: `\A`, `\Z` and `\z`.
+> 💡 When using Ruby, the anchors '^' and '$' always match on all lines. There is no way to turn this option off. This is actually quite a nice way to do things as there are separate anchors for the beginning and end of strings: \A, \Z and \z.
 
 There are many more modifiers which you can read about [here](https://www.regular-expressions.info/refmodifiers.html).
 
@@ -52,9 +56,11 @@ There are many more modifiers which you can read about [here](https://www.regula
 
 How would you make the following regex pattern match all four abbreviations?
 
-`/a[lkzr]/???`
+```
+/a[lkzr]/???
+```
 
-'**AL, AK, AR, AZ**' ✅
+`AL, AK, AR, AZ` ✅✅✅✅
 
 * `i`
 * `^`
@@ -66,9 +72,11 @@ How would you make the following regex pattern match all four abbreviations?
 
 How would you make the following regex pattern match all four abbreviations?
 
-`/regexp?/???`
+```
+/regexp?/???
+```
 
-'**Regex, Regexp, RegEx, RegExp**' ✅
+`Regex, Regexp, RegEx, RegExp` ✅✅✅✅
 
 * `i`
 * `^`

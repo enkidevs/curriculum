@@ -18,29 +18,33 @@ aspects:
 ---
 ## Content
 
-We can group certain items using parenthesis `()`. 
+We can group certain items using parenthesis, ( ). 
 
 Say we want to match both the singular and plural forms of a word. We can use grouping to include the elements that should be kept togther. 
 
-Remember that the `?` character makes the thing before it optional. In this case it makes the *grouping* optional.
+Remember that the '?' character makes the thing before it optional. In this case it makes the *grouping* optional.
 
 ```
 /regex(es)?/
-
-'regex' ✅
-'regexes' ✅
-
-/(abc)+/
-
-'abc' ✅
-'abcabcabcabc' ✅
 ```
 
-We can build more complex groupings using the *or* operator, `|`.
+`regex` ✅
+`regexes` ✅
 
-`/(a|b)c/`
+```
+/(abc)+/
+```
 
-This means that the string must match `ac` *or* `bc`.
+`abc` ✅
+`abcabcabcabc` ✅
+
+We can build more complex groupings using the *or* operator, '|'.
+
+```
+/(a|b)c/
+```
+
+This means that the text must match `ac` *or* `bc`.
 
 If we wanted to build a regex pattern to match the following three strings:
 
@@ -50,16 +54,20 @@ If we wanted to build a regex pattern to match the following three strings:
 
 We could write:
 
-`/reg((ular expressions)|ex(p)?)/`
+```
+/reg((ular expressions)|ex(p)?)/
+```
 
-This means that the pattern must start with `reg`, it then has either `ular expressions` *or* `ex` plus an optional `p`.
+This means that the pattern must start with 'reg', it then has either 'ular expressions' *or* 'ex' plus an optional 'p'.
 
 ---
 ## Practice
 
 Which of the following would be a valid match for this regex pattern:
  
-`/color:\s(green|red|blue)/`
+```
+/color:\s(green|red|blue)/
+```
 
 ???
 
@@ -73,7 +81,9 @@ Which of the following would be a valid match for this regex pattern:
 
 Which of the following would be a valid match for this regex pattern:
  
-`/choice:\s(head|tail)s/`
+```
+/choice:\s(head|tail)s/
+```
 
 ???
 

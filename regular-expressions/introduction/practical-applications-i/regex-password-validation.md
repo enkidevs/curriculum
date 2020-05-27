@@ -27,20 +27,24 @@ Let's build a password validator to match each of these rules using one line of 
 
 To crack the **length** part, we need to use a quantifier that allows a number of characters greater or equal to 8. How about:
 
-`/.{8,}/`
+```
+/.{8,}/
+```
 
 This pattern solves the password length problem, but it also matches on the following...
 
-'**password**' ✅
-'**12345678**' ✅
-'**PASSWORD**' ✅
-'**!@£$%^&)**' ✅
+`password` ✅
+`12345678` ✅
+`PASSWORD` ✅
+`!@£$%^&)` ✅
 
 None of these meet the criteria we need!
 
 Even if were more explicit in our regex pattern, using wildcards and ranges, we have the exact same problem as above...
 
-`([A-Z]|[a-z]|\d|\W){8,}`
+```
+/([A-Z]|[a-z]|\d|\W){8,}/
+```
 
 We'll need to use a special regex operator called a *positive lookahead* to check that there is *at least one of each specified character* in the password. 
 

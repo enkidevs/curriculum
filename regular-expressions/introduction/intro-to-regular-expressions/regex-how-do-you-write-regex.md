@@ -24,11 +24,11 @@ Regex patterns are formatted slightly differently depending on the programming l
 /<insert Regex here>/
 ```
 
-Imagine that we have a string equal to `'Learning Regex is fun'` and we set our regex pattern to `/fun/`, then the match result from the string would be `'fun'`:
+Imagine that we have a string equal to 'Learning Regex is fun' and we set our regex pattern to /fun/, then the match result from the string would be 'fun':
 
-'Learning Regex is **fun**'
+Learning Regex is `fun`
 
-If we changed our regex pattern to `/FUN/` then we wouldn't return any match results as *capitalization matters*.
+If we changed our regex pattern to /FUN/ then we wouldn't return any match results as *capitalization matters*.
 
 You'll soon learn about all the different ways you can alter your regex pattern to account for capitalization, as well as numbers, special characters and ranges.
 
