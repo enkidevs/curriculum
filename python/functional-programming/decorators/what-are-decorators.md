@@ -47,7 +47,7 @@ def goodbye_heading(name):
   return "<h2>{0}</h2>"
     .format(say_goodbye(name))
 ```
-This is not ideal, since all you had done, for both function, was to **decorate** (enhance, manipulate or extend) their output. What if could write a function that wraps any function's output in `<h2>` tags?
+This is not ideal, since all you had done, for each function, was to **decorate** (enhance, manipulate or extend) their output. What if you could write a function that wraps any function's output in `<h2>` tags?
 ```python
 def h2_decorate(string_function):
   def func_wrapper(name):
