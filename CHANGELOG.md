@@ -36,6 +36,14 @@ Types of change:
 - `Archived` for content that is no longer necessary and has been archived.
 - `Fixed` for any minor fixes (e.g. add a missing comma, adding a code block tag, fixing a report).
 
+## May 27th 2020
+
+### Added
+
+- [Spreadsheets - Charts 2 - Add new intermediate workout](https://github.com/enkidevs/curriculum/pull/2140)
+- [Spreadsheets - Importing data into spreadsheets - Add new intermediate workout](https://github.com/enkidevs/curriculum/pull/2140)
+- [Spreadsheets - Intro To Pivot Tables - Add new intermediate workout](https://github.com/enkidevs/curriculum/pull/2140)
+
 ## May 26th 2020
 
 ### Fixed
