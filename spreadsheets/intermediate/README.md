@@ -9,3 +9,6 @@ sections:
     - common-mistakes
     - spreadsheets-shortcuts
     - logical-functions
+    - charts-2
+    - importing-data-into-spreadsheets
+    - intro-to-pivot-tables
