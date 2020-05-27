@@ -36,6 +36,11 @@ Types of change:
 - `Archived` for content that is no longer necessary and has been archived.
 - `Fixed` for any minor fixes (e.g. add a missing comma, adding a code block tag, fixing a report).
 
+## May 27th 2020
+
+### Added
+- [SQL - What is SQL? - Added footnote & improved copy](https://github.com/enkidevs/curriculum/pull/2141)
+
 ## May 26th 2020
 
 ### Fixed
