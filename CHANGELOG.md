@@ -44,6 +44,9 @@ Types of change:
 - [Spreadsheets - Importing data into spreadsheets - Add new intermediate workout](https://github.com/enkidevs/curriculum/pull/2140)
 - [Spreadsheets - Intro To Pivot Tables - Add new intermediate workout](https://github.com/enkidevs/curriculum/pull/2140)
 
+### Changed
+- [SQL - What is SQL? - Added footnote & improved copy](https://github.com/enkidevs/curriculum/pull/2141)
+
 ## May 26th 2020
 
 ### Fixed
