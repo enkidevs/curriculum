@@ -57,16 +57,15 @@ How do you select all the rows and columns from the `products` table?
 * SELECT * FROM items;
 
 ---	
-## Footnotes	
+## Footnotes
 
-[1:Query Language]	
-Many people also call SQL a programming language.	
+[1:Query Language]
+Many people also call SQL a programming language.
 
-However, SQL can only interact with a database and doesn't have the capability and many of the features needed to develop software, which is associated with programming languages.	
+However, SQL can only interact with a database and doesn't have the capability and many of the features needed to develop software, which is associated with programming languages.
 
-[2:Database interactions]	
-Aside from getting data from it, interacting with a database can include other manipulations like:	
-
-- inserting data, 	
-- updating data, and 	
-- creating tables.
+[2:Database interactions]
+Aside from getting data from it, interacting with a database can include other manipulations like:
+- inserting data
+- updating data	
+- creating tables
