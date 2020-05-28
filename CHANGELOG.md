@@ -44,6 +44,9 @@ Types of change:
 - [Glossary - General - Object Oriented Programming](https://github.com/enkidevs/curriculum/pull/2128)
 
 ### Fixed
+- [TypeScript - Number, String & Boolean - Retrigger footnotes](https://github.com/enkidevs/curriculum/pull/2149)
+- [Python - Python Variables - Add footnotes back](https://github.com/enkidevs/curriculum/pull/2149)
+- [SQL - What is SQL - Add footnotes back](https://github.com/enkidevs/curriculum/pull/2149)
 - [Python - Python Variables - Temporarily removed footnotes](https://github.com/enkidevs/curriculum/pull/2148)
 - [SQL - What is SQL - Temporarily removed footnotes](https://github.com/enkidevs/curriculum/pull/2148)
 - [SQL - What is SQL - Fix typo in footnote](https://github.com/enkidevs/curriculum/pull/2147)
