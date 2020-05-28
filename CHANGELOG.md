@@ -44,6 +44,8 @@ Types of change:
 - [Glossary - General - Object Oriented Programming](https://github.com/enkidevs/curriculum/pull/2128)
 
 ### Fixed
+- [Python - Python Variables - Temporarily removed footnotes](https://github.com/enkidevs/curriculum/pull/2148)
+- [SQL - What is SQL - Temporarily removed footnotes](https://github.com/enkidevs/curriculum/pull/2148)
 - [SQL - What is SQL - Fix typo in footnote](https://github.com/enkidevs/curriculum/pull/2147)
 - [SQL - Why Learn SQL - Remove old paragraph](https://github.com/enkidevs/curriculum/pull/2146)
 - [Python - Boolean Operators - Fix typo](https://github.com/enkidevs/curriculum/pull/2145)
