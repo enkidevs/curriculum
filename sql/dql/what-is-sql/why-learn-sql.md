@@ -36,8 +36,6 @@ You'll be more self-sufficient with data. Others will come to you for advice. It
 
 It's been around for over 40 years. And yet it's the structure for the top 4 databases, and the 3rd most popular programming language in general.
 
-*Bookmark this insight* to get more details from the Learn More links.
-
 ---
 ## Practice
 
