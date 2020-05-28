@@ -14,6 +14,8 @@ The general format is:
 - [Topic Name - Insight Name - Description of the change](link-to-the-PR-or-commit-where-the-change-was-added)
 ```
 
+`Date` represents the date on which the PR was merged.
+
 If more than one insight is changed in the PR, you can:
 
 - use the workout name with an appropriate description
@@ -37,6 +39,9 @@ Types of change:
 - `Fixed` for any minor fixes (e.g. add a missing comma, adding a code block tag, fixing a report).
 
 ## May 28th 2020
+
+### Added
+- [Glossary - General - Object Oriented Programming](https://github.com/enkidevs/curriculum/pull/2128)
 
 ### Fixed
 - [Python - What Are Decorators? - Fix minor grammatical mistakes](https://github.com/enkidevs/curriculum/pull/2143)
