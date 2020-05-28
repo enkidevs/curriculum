@@ -44,6 +44,7 @@ Types of change:
 - [Glossary - General - Object Oriented Programming](https://github.com/enkidevs/curriculum/pull/2128)
 
 ### Fixed
+- [Python - Boolean Operators - Fix typo](https://github.com/enkidevs/curriculum/pull/2145)
 - [Python - What Are Decorators? - Fix minor grammatical mistakes](https://github.com/enkidevs/curriculum/pull/2143)
 
 ## May 27th 2020
