@@ -65,7 +65,7 @@ Many people also call SQL a programming language.
 However, SQL can only interact with a database and doesn't have the capability and many of the features needed to develop software, which is associated with programming languages.
 
 [2:Database interactions]
-Aside from getting data from it, nteracting with a database can include other manipulations like:
+Aside from getting data from it, interacting with a database can include other manipulations like:
 
 - inserting data, 
 - updating data, and 
