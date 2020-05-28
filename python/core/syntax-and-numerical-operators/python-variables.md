@@ -45,7 +45,7 @@ this_is_a_long_variable_name
 
 > Always give variables a name that makes sense. 
 
-While `c = 10` is valid, writing `count = 10` would make more sense. It is easier to figure out what the variable represents when you revist your code and for other programmers on your team.
+While `c = 10` is valid, writing `count = 10` would make more sense. It is easier to figure out what the variable represents when you revisit your code and for other programmers on your team.
 
 ---
 ## Practice
