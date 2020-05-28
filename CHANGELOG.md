@@ -44,6 +44,7 @@ Types of change:
 - [Glossary - General - Object Oriented Programming](https://github.com/enkidevs/curriculum/pull/2128)
 
 ### Fixed
+- [SQL - What is SQL - Fix typo in footnote](https://github.com/enkidevs/curriculum/pull/2147)
 - [SQL - Why Learn SQL - Remove old paragraph](https://github.com/enkidevs/curriculum/pull/2146)
 - [Python - Boolean Operators - Fix typo](https://github.com/enkidevs/curriculum/pull/2145)
 - [Python - What Are Decorators? - Fix minor grammatical mistakes](https://github.com/enkidevs/curriculum/pull/2143)
