@@ -23,7 +23,9 @@ aspects:
 ---
 ## Content
 
-The [arguments](https://enki.com/glossary/general/parameter-vs-argument) of a function can be accessed with the `arguments` keyword, but `arguments` only returns a *pseudo-array*.
+The [arguments](https://enki.com/glossary/general/parameter-vs-argument.md) of a function can be accessed with the `arguments` keyword.
+
+Do note that the value in `arguments` is a *pseudo-array* (an object with a length) that doesn't have all of the functionality of JavaScript arrays.
 
 Before applying `Array` methods, `arguments` needs to be converted to an actual `Array`, as follows:
 
