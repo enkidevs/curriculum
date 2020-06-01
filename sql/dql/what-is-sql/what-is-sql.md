@@ -20,9 +20,9 @@ links:
 
 **SQL** stands for **Structured Query Language**. 
 
-It's a programming language that lets you get data from a database[1]. 
-
-You use *queries* to get the data. Here's an example:
+It's a query language[1] - a type of language that lets you interact[2] with a database. 
+ 
+You use *queries* to do so. Here's an example: 
 
 ```sql
 SELECT * FROM users;
@@ -59,8 +59,14 @@ How do you select all the rows and columns from the `products` table?
 ---
 ## Footnotes
 
-[1:Features]
-SQL is not limited to only getting data. It's also used in:
-- inserting
-- updating
-- creating databases and tables
+[1:Query Language]
+Many people also call SQL a programming language.
+
+However, SQL can only interact with a database and doesn't have the capability and many of the features needed to develop software, which is associated with programming languages.
+
+[2:Database interactions]
+Aside from getting data from it, interacting with a database can include other manipulations like:
+
+- inserting data, 
+- updating data, and 
+- creating tables.
