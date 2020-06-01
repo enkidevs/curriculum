@@ -50,6 +50,9 @@ Types of change:
 ## May 28th 2020
 
 ### Added
+- [SQL - SELECTing Columns - Added playground](https://github.com/enkidevs/curriculum/pull/2158)
+- [SQL - WHERE (2) - Added playground](https://github.com/enkidevs/curriculum/pull/2158)
+- [SQL - Your First Query - Added playground](https://github.com/enkidevs/curriculum/pull/2158)
 - [Glossary - General - Object Oriented Programming](https://github.com/enkidevs/curriculum/pull/2128)
 
 ### Fixed
