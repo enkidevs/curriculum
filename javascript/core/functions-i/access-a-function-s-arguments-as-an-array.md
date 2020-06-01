@@ -92,3 +92,5 @@ function myArray() {
 * sort
 * slice
 * splice
+* args
+* argvs
