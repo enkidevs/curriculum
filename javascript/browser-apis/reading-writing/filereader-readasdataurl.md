@@ -32,15 +32,17 @@ links:
 ---
 ## Content
 
-The `FileReader` is a global object that provides multuple methods to read the contents of a file stored on the user's computer.
+The `FileReader` is a global object that provides multiple methods to read the contents of a file stored on the user's computer.
 
 Each method can convert a file into a specific format. 
 
-The `readAsDataURL()` method is used to read the contents of a file and return a *data URL* that represents the contents of a file as a base64 encoded string.
+The `readAsDataURL()` method is used to read the contents of a file and return a *data URL* that represents the contents as a base64 encoded string.
 
 > The data given to `readDataAsURL` can be a `File` or a `Blob` object. A `File` object is just a specific version of a `Blob` (it can be used anywhere a `Blob` can)
 
 Here's an example of how we can use this to upload an image file from your computer and show it on a website:
+
+> The trick in the code below is that `Image` element source property `src` supports base64 encoded values
 
 ```html
 <!-- create a file selection input -->
