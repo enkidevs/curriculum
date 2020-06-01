@@ -38,6 +38,11 @@ Types of change:
 - `Archived` for content that is no longer necessary and has been archived.
 - `Fixed` for any minor fixes (e.g. add a missing comma, adding a code block tag, fixing a report).
 
+## June 1st 2020
+
+### Fixed
+- [Python - The `filter` Built-In Function - Change function names to snake case](https://github.com/enkidevs/curriculum/pull/2152)
+
 ## May 28th 2020
 
 ### Added
