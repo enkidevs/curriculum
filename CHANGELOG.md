@@ -41,6 +41,7 @@ Types of change:
 ## June 1st 2020
 
 ### Added
+- [Glossary - Parameter vs Argument - Added entry](https://github.com/enkidevs/curriculum/pull/2154)
 - [Linux - Intro to `iptables` - Add a resource link](https://github.com/enkidevs/curriculum/pull/2151)
 
 ### Fixed
