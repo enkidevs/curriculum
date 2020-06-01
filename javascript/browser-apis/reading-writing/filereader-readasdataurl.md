@@ -60,11 +60,15 @@ And the JavaScript:
 
 ```javascript
 function onFileSelected() {
-  let file = document.getElementById("image-input").files[0];
+  let file = document.getElementById(
+    "image-input"
+  ).files[0];
 
   let reader = new FileReader();
 
-  let wallpaper = document.getElementById("image-output");
+  let wallpaper = document.getElementById(
+    "image-output"
+  );
 
   reader.onload = function () {
     wallpaper.src = reader.result;
