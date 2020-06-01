@@ -40,6 +40,9 @@ Types of change:
 
 ## June 1st 2020
 
+### Added
+- [Linux - Intro to `iptables` - Add a resource link](https://github.com/enkidevs/curriculum/pull/2151)
+
 ### Fixed
 - [Python - The `filter` Built-In Function - Change function names to snake case](https://github.com/enkidevs/curriculum/pull/2152)
 
