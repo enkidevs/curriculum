@@ -41,8 +41,13 @@ Types of change:
 ## June 1st 2020
 
 ### Added
+- [JavaScript - Access a function's `arguments` as an array - Added a glossary reference](https://github.com/enkidevs/curriculum/pull/2155)
+- [TypeScript - Types in Functions - Added glossary reference](https://github.com/enkidevs/curriculum/pull/2155)
 - [Glossary - Parameter vs Argument - Added entry](https://github.com/enkidevs/curriculum/pull/2154)
 - [Linux - Intro to `iptables` - Add a resource link](https://github.com/enkidevs/curriculum/pull/2151)
+
+### Changes
+- [JavaScript - Access a function's `arguments` as an array - Improved example code, practice and revision question](https://github.com/enkidevs/curriculum/pull/2155)
 
 ### Fixed
 - [Python - The `filter` Built-In Function - Change function names to snake case](https://github.com/enkidevs/curriculum/pull/2152)
