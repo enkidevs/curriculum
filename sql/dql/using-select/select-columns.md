@@ -11,6 +11,9 @@ links:
 aspects:
   - introduction
 
+links:
+  - '[Playground](https://student.enkicamp.com/public/playground?jsonUrl=https%3A%2F%2Fgist.githubusercontent.com%2Fkapnobatai137%2F87bd176653e79ee9f6d7cc91cc70709f%2Fraw%2F35304e8c4731db33c74209eb8c6e7f330f4b175c%2Fsql-selecting-columns.json){website}'
+
 ---
 
 # SELECTing Columns
@@ -47,9 +50,11 @@ The query above gives the `name`, `hp` and `attack` information for all of the *
 | Ivysaur   | 60 | 62     |
 | Venusaur  | 80 | 82     |
 
-*Note:* running a query gives a *copy* of your original table that contains only the requested columns. This resulting table is often called the *result set*. 
+> 💡 Running a query gives a *copy* of your original table that contains only the requested columns. This resulting table is often called the *result set*. 
 
 The *result set* isn't stored permanently in the database, and it doesn't change any tables in the database.
+
+If you want to try this query yourself, check the *Learn More* section for the playground link.
 
 > Returning all data from a table is often useful to inspect new databases. But it's sometimes a bad idea to use the `SELECT *` syntax for *real production data* (which is often a lot of data). A couple reasons:
 - **Unnecessary costs!** Some databases charge money per retrieved data (e.g. Google's BigQuery)
