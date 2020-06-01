@@ -1,5 +1,5 @@
 ---
-author: tuwi.dc
+author: tuwidc
 
 levels:
 
@@ -21,8 +21,9 @@ tags:
   - security
 
   - netfilter
-
-
+ 
+links:
+  - '[iptables(8) - Linux man page](https://linux.die.net/man/8/iptables){website}' 
 
 notes: ''
 
