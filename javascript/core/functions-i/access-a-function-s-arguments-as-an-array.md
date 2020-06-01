@@ -23,26 +23,33 @@ aspects:
 ---
 ## Content
 
-The [arguments](https://enki.com/glossary/general/parameter-vs-argument.md) of a function can be accessed with the `arguments` keyword, but `arguments` only returns a *pseudo-array*.
+The [arguments](https://enki.com/glossary/general/parameter-vs-argument) of a function can be accessed with the `arguments` keyword, but `arguments` only returns a *pseudo-array*.
 
 Before applying `Array` methods, `arguments` needs to be converted to an actual `Array`, as follows:
 
 ```javascript
 function sortedArgs() {
-  // pseudo-array of arguments
-  let a = arguments
-  // turn a into a proper Array:
-  a = Array.prototype.slice.call(a)
-  // we can now use Array methods:
-  return a.sort();
+  // `arguments` is a pseudo-array
+  console.log(Array.isArray(arguments));
+  // false
+
+  // to create an array from the arguments
+  // use the Array.from() prototype method
+  let argList = Array.from(arguments);
+  console.log(Array.isArray(argList));
+  // true
+
+  return argList.sort();
 }
 ```
 
 Example of use:
 
 ```javascript
-sortedArgs(3,1,2)
-// [1,2,3]
+sortedArgs(3, 1, 2)
+// false
+// true
+// [1, 2, 3]
 ```
 
 ---
@@ -51,14 +58,13 @@ sortedArgs(3,1,2)
 The following `returnArgs` function should return an array containing the arguments with which it is called. Complete the missing gaps such that it works as intended:
 
 ```javascript
-
 function returnArgs() {
-  return ???.prototype
-    .slice.call(???)
+  return ???.???(???);
 }
 ```
 
 * Array
+* from
 * arguments
 * argv
 * args
@@ -69,21 +75,18 @@ function returnArgs() {
 ---
 ## Revision
 
-Turn the arguments of a method into a array:
+Turn the arguments of a method into a sorted array:
 
 ```javascript
 function myArray() {
-  let a = ???;
-  a = Array.prototype.???.call(a);
-  return a;
+  let argList = ???.???(???);
+  return argList.???();
 }
 ```
 
+* Array
+* from
 * arguments
+* sort
 * slice
 * splice
-* argv
-* args
-* sort
-* toArray
- 

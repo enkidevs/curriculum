@@ -35,7 +35,7 @@ hello(123);
 // error: Argument of type 'number' is not assignable to parameter of type 'string'.
 ```
 
-TypeScript will also throw an error if the wrong number of [arguments](https://enki.com/glossary/general/parameter-vs-argument.md) is passed in:
+TypeScript will also throw an error if the wrong number of [arguments](https://enki.com/glossary/general/parameter-vs-argument) is passed in:
 
 ```ts
 function hello(
