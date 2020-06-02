@@ -1,23 +1,17 @@
 ---
 author: mihaiberq
 
-levels:
-
-  - beginner
-
 type: normal
 
 category: must-know
 
 aspects:
-
   - introduction
-
   - workout
 
 links:
-
   - '[Graph Theory](https://en.wikipedia.org/wiki/Graph_theory){website}'
+  - '[Graph Theory Overview](https://www.youtube.com/watch?v=82zlRaRUsaY){video}'
 
 parent: the-queue-data-structure
 
@@ -59,9 +53,7 @@ We call **simple graph** one that does *not contain self-loops or multiple edges
 ---
 ## Practice
 
-A graph that represents flight routes between cities should be
-
- ???.
+A graph that represents flight routes between cities should be ???.
 
 
 * directed
@@ -78,5 +70,3 @@ What's the name for an edge in a graph that connects a node with itself?
 * simple edge
 * circular edge
 * self-connection
-
-
