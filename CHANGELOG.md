@@ -38,6 +38,14 @@ Types of change:
 - `Archived` for content that is no longer necessary and has been archived.
 - `Fixed` for any minor fixes (e.g. add a missing comma, adding a code block tag, fixing a report).
 
+## June 2nd 2020
+
+### Added
+- [Comp. Sci. - The Graph Data Structure - Add new resource](https://github.com/enkidevs/curriculum/pull/2157)
+- [SQL - SELECTing Columns - Added playground](https://github.com/enkidevs/curriculum/pull/2158)
+- [SQL - WHERE (2) - Added playground](https://github.com/enkidevs/curriculum/pull/2158)
+- [SQL - Your First Query - Added playground](https://github.com/enkidevs/curriculum/pull/2158)
+
 ## June 1st 2020
 
 ### Added
