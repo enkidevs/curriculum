@@ -41,6 +41,7 @@ Types of change:
 ## June 2nd 2020
 
 ### Added
+- [Comp. Sci. - The Graph Data Structure - Add new resource](https://github.com/enkidevs/curriculum/pull/2157)
 - [SQL - SELECTing Columns - Added playground](https://github.com/enkidevs/curriculum/pull/2158)
 - [SQL - WHERE (2) - Added playground](https://github.com/enkidevs/curriculum/pull/2158)
 - [SQL - Your First Query - Added playground](https://github.com/enkidevs/curriculum/pull/2158)
