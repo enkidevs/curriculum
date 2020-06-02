@@ -1,9 +1,9 @@
 # Base64 Encoding
 
-Base64 is a conversion method used to represent binary data. It does so by creating a "dictionary" where each Base64 digit is represented by exactly 6 bits of data.
+In computers, files are commonly stored in binary format (strings of 0's and 1's) but data on the internet is usually transferred as text.
 
-A Base64 character is nothing more than an alphabet letter (or the `+`, `/` and `=` signs). Check out the full [conversion table](https://en.wikipedia.org/wiki/Base64#Base64_table).
+Base64 represents a way to convert binary data into text using 64 [ASCII](https://en.wikipedia.org/wiki/ASCII) characters.
 
-When shipping data accross a network, it's never done by just sending over the binary data. This is because it is uncertain that it will work. Some protocols might think you inserted a special character combination (like a line ending) instead. For this reason, Base64 encoding is used.
+It is predominantly used on the web for encoding files such as images or sounds into textual formats native to the web such as HTML and CSS.
 
-If you're wondering why 64 and not another number, it's because those 64 characters are almost always present, and your data will be transferred without corruptions.
+A Base64 character can be an English alphabet letter or the `+`, `/` or `=` sign. Check out the full [conversion table](https://en.wikipedia.org/wiki/Base64#Base64_table).
