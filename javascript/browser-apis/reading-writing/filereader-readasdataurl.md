@@ -1,16 +1,6 @@
 ---
 author: tommarshall
 
-levels:
-
-  - basic
-
-  - advanced
-
-  - medium
-
-  - beginner
-
 type: normal
 
 category: feature
@@ -21,8 +11,7 @@ aspects:
   - deep
 
 links:
-
-  - '[developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/API/FileReader/readAsDataURL){website}'
+  - '[FileReader.readAsDataURL()](https://developer.mozilla.org/en-US/docs/Web/API/FileReader/readAsDataURL){website}'
 
 
 ---
@@ -36,7 +25,7 @@ The `FileReader` is a global object that provides multiple methods to read the c
 
 Each method can convert a file into a specific format. 
 
-The `readAsDataURL()` method is used to read the contents of a file and return a *data URL* that represents the contents as a base64 encoded string.
+The `readAsDataURL()` method is used to read the contents of a file and return a *data URL* that represents the contents as a [base64 encoded](https://enki.com/glossary/general/base64-encoding) string.
 
 > The data given to `readDataAsURL` can be a `File` or a `Blob` object. A `File` object is just a specific version of a `Blob` (it can be used anywhere a `Blob` can)
 
