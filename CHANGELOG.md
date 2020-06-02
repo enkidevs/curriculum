@@ -41,6 +41,7 @@ Types of change:
 ## June 2nd 2020
 
 ### Added
+- [Comp. Sci. - The Graph Data Structure - Add new resource](https://github.com/enkidevs/curriculum/pull/2157)
 - [SQL - SELECTing Columns - Added playground](https://github.com/enkidevs/curriculum/pull/2158)
 - [SQL - WHERE (2) - Added playground](https://github.com/enkidevs/curriculum/pull/2158)
 - [SQL - Your First Query - Added playground](https://github.com/enkidevs/curriculum/pull/2158)
@@ -48,7 +49,6 @@ Types of change:
 ## June 1st 2020
 
 ### Added
-- [Comp. Sci. - The Graph Data Structure - Add new resource](https://github.com/enkidevs/curriculum/pull/2157)
 - [Glossary - Parameter vs Argument - Added entry](https://github.com/enkidevs/curriculum/pull/2154)
 - [Linux - Intro to `iptables` - Add a resource link](https://github.com/enkidevs/curriculum/pull/2151)
 
