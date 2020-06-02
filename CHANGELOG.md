@@ -41,6 +41,7 @@ Types of change:
 ## June 2nd 2020
 
 ### Added
+- [Glossary - Base64 Encoding - New glossary entry](https://github.com/enkidevs/curriculum/pull/2159)
 - [JavaScript - Access a function's `arguments` as an array - Added a glossary reference](https://github.com/enkidevs/curriculum/pull/2155)
 - [TypeScript - Types in Functions - Added glossary reference](https://github.com/enkidevs/curriculum/pull/2155)
 - [Comp. Sci. - The Graph Data Structure - Add new resource](https://github.com/enkidevs/curriculum/pull/2157)
@@ -49,6 +50,7 @@ Types of change:
 - [SQL - Your First Query - Added playground](https://github.com/enkidevs/curriculum/pull/2158)
 
 ### Changed
+- [JavaScript - FileReader.readAsDataURL() - General Content Improvements](https://github.com/enkidevs/curriculum/pull/2159)
 - [JavaScript - Access a function's `arguments` as an array - Improved example code, practice and revision question](https://github.com/enkidevs/curriculum/pull/2155)
 
 ## June 1st 2020
