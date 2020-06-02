@@ -51,7 +51,7 @@ And the JavaScript:
 function onFileSelected() {
   let file = document.getElementById(
     "image-input"
-  ).files[0];
+  ).files[ 0 ];
 
   let reader = new FileReader();
 
