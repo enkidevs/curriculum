@@ -38,6 +38,13 @@ Types of change:
 - `Archived` for content that is no longer necessary and has been archived.
 - `Fixed` for any minor fixes (e.g. add a missing comma, adding a code block tag, fixing a report).
 
+## June 2nd 2020
+
+### Added
+- [SQL - SELECTing Columns - Added playground](https://github.com/enkidevs/curriculum/pull/2158)
+- [SQL - WHERE (2) - Added playground](https://github.com/enkidevs/curriculum/pull/2158)
+- [SQL - Your First Query - Added playground](https://github.com/enkidevs/curriculum/pull/2158)
+
 ## June 1st 2020
 
 ### Added
@@ -50,9 +57,6 @@ Types of change:
 ## May 28th 2020
 
 ### Added
-- [SQL - SELECTing Columns - Added playground](https://github.com/enkidevs/curriculum/pull/2158)
-- [SQL - WHERE (2) - Added playground](https://github.com/enkidevs/curriculum/pull/2158)
-- [SQL - Your First Query - Added playground](https://github.com/enkidevs/curriculum/pull/2158)
 - [Glossary - General - Object Oriented Programming](https://github.com/enkidevs/curriculum/pull/2128)
 
 ### Fixed
