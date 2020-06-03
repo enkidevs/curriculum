@@ -127,6 +127,8 @@ Result:
 }
 ```
 
+> 💡 The order by which you call the the `sort()` and `limit()` methods doesn't matter. Mongo always applies the `sort()` before the `limit()` regardless of which you wrote first.
+
 ---
 ## Practice
 
