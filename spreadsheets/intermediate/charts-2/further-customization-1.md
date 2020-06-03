@@ -23,7 +23,7 @@ The chart from the previous insight:
 
 In the `Chart editor`, we have a `Customize` tab.
 
-**Important note:** The `Customize` tab is different for each chart type.
+> 💡 The `Customize` tab is different for each chart type.
 
 ![customize](https://img.enkipro.com/01638b7e174af98dffa0959033fa9590.png)
 
