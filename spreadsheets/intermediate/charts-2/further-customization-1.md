@@ -29,7 +29,8 @@ In the `Chart editor`, we have a `Customize` tab.
 
 Here, we can customize our chart with different styling, change the axis, modify the series, and more.
 
-In the `Chart style` tab we can modify the lines of our line chart and make them smooth.
+In the `Chart style` tab we can modify the lines of our chart and make them smooth.
+
 
 ![smooth](https://img.enkipro.com/ad72c00958bc80dbd6ad5b24958bbeaf.gif)
 
