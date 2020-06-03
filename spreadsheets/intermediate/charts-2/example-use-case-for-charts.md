@@ -24,7 +24,7 @@ Let's say we have a table spanning over 3 years, with an `Employee of the month`
 
 Since our table has only 36 entries it wouldn't be to hard to achieve our goal without a chart.
 
-However, we can use a chart to visualize and see who was the `Employee of the month` the most out of the 3 years in just a few steps.
+However, we can use a chart to visualize and see who got `Employee of the month` the most, in just a few steps.
 
 - select all the cells you want to include in your chart
 - go to `insert - > chart`
