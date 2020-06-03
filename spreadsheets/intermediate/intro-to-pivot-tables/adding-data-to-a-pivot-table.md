@@ -2,7 +2,6 @@
 author: Stefan-Stojanovic
 
 aspects:
-  - introduction
   - workout
 
 type: normal
