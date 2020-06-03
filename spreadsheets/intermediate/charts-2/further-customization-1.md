@@ -36,7 +36,8 @@ In the `Chart style` tab we can modify the lines of our chart and make them smoo
 
 This tab also allows us to maximize the chart, change the background color, fonts, border color, and plot null values.
 
-Next we have the `Charts & axis titles`. Here we can modify the title and subtitle of the chart, change their fonts, font sizes, colors, and format.
+In the `Charts & axis titles` we can modify the title and subtitle of the chart, change their font type, size, color, and format.
+
 
 We have made the title bold and added a subtitle:
 
