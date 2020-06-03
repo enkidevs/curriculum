@@ -38,6 +38,7 @@ Types of change:
 - `Archived` for content that is no longer necessary and has been archived.
 - `Fixed` for any minor fixes (e.g. add a missing comma, adding a code block tag, fixing a report).
 
+
 ## June 1st 2020
 
 ### Added
@@ -46,6 +47,7 @@ Types of change:
 
 ### Fixed
 - [Python - The `filter` Built-In Function - Change function names to snake case](https://github.com/enkidevs/curriculum/pull/2152)
+- [Python - List Methods II - Fixed typo when using the #insert method ](https://github.com/enkidevs/curriculum/pull/2156)
 
 ## May 28th 2020
 
@@ -88,7 +90,3 @@ Types of change:
 ### Fixed
 - [Python - Check Available Python Modules - Removed unnecessary `$` and general formatting improvements](https://github.com/enkidevs/curriculum/pull/2127)
 - [Git - What's Git? - Fixed spelling of Linus, creator of Linux](https://github.com/enkidevs/curriculum/pull/2129)
-
-## June 1st 2020
-### Fixed
-- [Python - List Methods II - Fixed typo when using the #insert method ](https://github.com/enkidevs/curriculum/pull/2156)
