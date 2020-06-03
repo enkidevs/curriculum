@@ -35,7 +35,8 @@ Chart:
 
 ![chart](https://img.enkipro.com/70eca1f472c36ead8ece0c5342bb767d.png)
 
-As you can see in the image above, it is much easier to visualize the data into a chart and then determine who has been the `Employee of the month` for most months. 
+Now, it's much easier to visualize the data and then determine who has been `Employee of the month` the most. 
+
 
 Also, when you hover over a part of the chart it will show the number of instances + the percentage.
 
