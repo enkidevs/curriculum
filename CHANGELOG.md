@@ -38,6 +38,11 @@ Types of change:
 - `Archived` for content that is no longer necessary and has been archived.
 - `Fixed` for any minor fixes (e.g. add a missing comma, adding a code block tag, fixing a report).
 
+## June 3rd 2020
+
+### Changed
+- [MongoDB - Read documents - Add a note](https://github.com/enkidevs/curriculum/pull/2160)
+
 ## June 2nd 2020
 
 ### Added
