@@ -40,6 +40,9 @@ Types of change:
 
 ## June 4th 2020
 
+### Changed
+- [Linux - Common Environment Variables - Explain what PWD stands for](https://github.com/enkidevs/curriculum/pull/2161)
+
 ### Fixed
 - [Python - List Methods II - Fixed typo when using the #insert method ](https://github.com/enkidevs/curriculum/pull/2156)
 
