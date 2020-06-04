@@ -58,6 +58,7 @@ const newData = update(myData, {
   // myData.x.y.z = 10;
   a: { b: { $push: [13] } }
   // myData.a.b.push(13);
+  // test[2]
 });
 ```
 
