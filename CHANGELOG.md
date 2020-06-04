@@ -38,11 +38,30 @@ Types of change:
 - `Archived` for content that is no longer necessary and has been archived.
 - `Fixed` for any minor fixes (e.g. add a missing comma, adding a code block tag, fixing a report).
 
-
 ## June 4th 2020
 
 ### Fixed
 - [Python - List Methods II - Fixed typo when using the #insert method ](https://github.com/enkidevs/curriculum/pull/2156)
+
+## June 3rd 2020
+
+### Changed
+- [MongoDB - Read documents - Add a note](https://github.com/enkidevs/curriculum/pull/2160)
+
+## June 2nd 2020
+
+### Added
+- [Glossary - Base64 Encoding - New glossary entry](https://github.com/enkidevs/curriculum/pull/2159)
+- [JavaScript - Access a function's `arguments` as an array - Added a glossary reference](https://github.com/enkidevs/curriculum/pull/2155)
+- [TypeScript - Types in Functions - Added glossary reference](https://github.com/enkidevs/curriculum/pull/2155)
+- [Comp. Sci. - The Graph Data Structure - Add new resource](https://github.com/enkidevs/curriculum/pull/2157)
+- [SQL - SELECTing Columns - Added playground](https://github.com/enkidevs/curriculum/pull/2158)
+- [SQL - WHERE (2) - Added playground](https://github.com/enkidevs/curriculum/pull/2158)
+- [SQL - Your First Query - Added playground](https://github.com/enkidevs/curriculum/pull/2158)
+
+### Changed
+- [JavaScript - FileReader.readAsDataURL() - General Content Improvements](https://github.com/enkidevs/curriculum/pull/2159)
+- [JavaScript - Access a function's `arguments` as an array - Improved example code, practice and revision question](https://github.com/enkidevs/curriculum/pull/2155)
 
 ## June 1st 2020
 
