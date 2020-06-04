@@ -44,7 +44,7 @@ Types of change:
 - [Linux - Common Environment Variables - Explain what PWD stands for](https://github.com/enkidevs/curriculum/pull/2161)
 
 ### Fixed
-- [React - Immutability helpers in React - Fix footnote display](https://github.com/enkidevs/curriculum/pull/2163)
+- [React - Immutability helpers in React - Fix footnote display & remove test footnote](https://github.com/enkidevs/curriculum/pull/2163)
 - [Python - List Methods II - Fixed typo when using the #insert method ](https://github.com/enkidevs/curriculum/pull/2156)
 
 ## June 3rd 2020
