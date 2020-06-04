@@ -58,13 +58,12 @@ const newData = update(myData, {
   // myData.x.y.z = 10;
   a: { b: { $push: [13] } }
   // myData.a.b.push(13);
-  // test[2]
 });
 ```
 
 Although this format might need some getting used to, it provides a much better approach for determining which data has changed [1].
 
-In terms of notation, keys that are preceded by a `$` are called **commands** (`{ $push: array }`, `{ $apply: function }`, etc.) and the data that is being mutated is called the **target**. 
+In terms of notation[2], keys that are preceded by a `$` are called **commands** (`{ $push: array }`, `{ $apply: function }`, etc.) and the data that is being mutated is called the **target**. 
 
 Here is how you would perform a shallow merge using the `update()` method:
 
