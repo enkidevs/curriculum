@@ -44,7 +44,7 @@ print(letters)
 number_list.insert(4, 6)
 
 print(number_list)
-# [2, 4, 5, 6, 6]
+# [2, 3, 5, 6, 6]
 ```
 
 The syntax for this requires that the `index` is given as the *first argument*, and the `item` to insert as the *second argument*.
