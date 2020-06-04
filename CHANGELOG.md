@@ -39,6 +39,11 @@ Types of change:
 - `Fixed` for any minor fixes (e.g. add a missing comma, adding a code block tag, fixing a report).
 
 
+## June 4th 2020
+
+### Fixed
+- [Python - List Methods II - Fixed typo when using the #insert method ](https://github.com/enkidevs/curriculum/pull/2156)
+
 ## June 1st 2020
 
 ### Added
@@ -47,7 +52,6 @@ Types of change:
 
 ### Fixed
 - [Python - The `filter` Built-In Function - Change function names to snake case](https://github.com/enkidevs/curriculum/pull/2152)
-- [Python - List Methods II - Fixed typo when using the #insert method ](https://github.com/enkidevs/curriculum/pull/2156)
 
 ## May 28th 2020
 
