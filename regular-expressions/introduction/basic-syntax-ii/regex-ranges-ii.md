@@ -31,9 +31,9 @@ Say we want all letters and numbers outside of the ranges `a-c` and `1-3` then w
 
 This means that the following is true:
 
-`[^a-zA-Z0-9_]` is equivalent to `/W`
+`[^a-zA-Z0-9_]` is equivalent to `\W`
 
-`[^0-9]` is equivalent to `/D`
+`[^0-9]` is equivalent to `\D`
 
 Most patterns can be written using the technique from the previous insight as they are really *two sides of the same coin*. 
 
