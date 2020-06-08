@@ -1,37 +1,28 @@
 ---
 author: catalin
 
-levels:
-
-  - beginner
-
 type: normal
 
 category: must-know
 
 aspects:
-
   - introduction
-  
-inAlgoPool: false
-
 
 links:
-
   - '[The Three States Official Documentation](https://git-scm.com/book/en/v2/Getting-Started-Git-Basics#The-Three-States){website}'
   - '[Git Tutorial Udemy](https://blog.udemy.com/git-tutorial-a-comprehensive-guide/#6_1){website}'
 
 
 ---
 
-# The local repository
+# The Local Repository
 
 ---
 ## Content
 
 Your local **Git** project is made of three main areas:
 
-- working directory 
+- working tree 
 - staging area (also known as **Index**)
 - the `.git` directory (the repository)
 
@@ -51,7 +42,6 @@ The repository is the proprietary datastore where **Git** maintains the **histor
 
 The area with the files you are working on is called the ???.
 
-
 * working tree
 * GitHub
 * working
@@ -62,9 +52,6 @@ The area with the files you are working on is called the ???.
 
 The area where 'to be committed' changes are placed is called ??? .
 
-
 * the staging area
 * the repository
 * the working directory
-
- 
