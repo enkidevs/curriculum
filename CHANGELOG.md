@@ -41,6 +41,7 @@ Types of change:
 ## June 8th 2020
 
 ### Fixed
+- [Git - The Local Repository - Change "working directory" to "working tree" & clean metadata](https://github.com/enkidevs/curriculum/pull/2168)
 - [Regex - Ranges I - Fix slashes](https://github.com/enkidevs/curriculum/pull/2165)
 - [Regex - Ranges II - Fix slashes](https://github.com/enkidevs/curriculum/pull/2165)
 
