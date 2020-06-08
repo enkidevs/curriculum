@@ -41,6 +41,7 @@ Types of change:
 ## June 8th 2020
 
 ### Fixed
+- [Java - Negative `byte` values - Fix typo in example code block & clean metadata](https://github.com/enkidevs/curriculum/pull/2169)
 - [SQL - Handling Blobs in SQL - Fix blob sizes & general formatting](https://github.com/enkidevs/curriculum/pull/2167)
 - [Git - The Local Repository - Change "working directory" to "working tree" & clean metadata](https://github.com/enkidevs/curriculum/pull/2168)
 - [Regex - Ranges I - Fix slashes](https://github.com/enkidevs/curriculum/pull/2165)
