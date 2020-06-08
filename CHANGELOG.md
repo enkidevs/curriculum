@@ -41,6 +41,7 @@ Types of change:
 ## June 8th 2020
 
 ### Fixed
+- [SQL - Handling Blobs in SQL - Fix blob sizes & general formatting](https://github.com/enkidevs/curriculum/pull/2167)
 - [Regex - Ranges I - Fix slashes](https://github.com/enkidevs/curriculum/pull/2165)
 - [Regex - Ranges II - Fix slashes](https://github.com/enkidevs/curriculum/pull/2165)
 
