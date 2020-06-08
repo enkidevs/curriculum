@@ -41,6 +41,7 @@ Types of change:
 ## June 8th 2020
 
 ### Fixed
+- [JavaScript - Local Nodules - Fix content error, general formatting & clean metadata](https://github.com/enkidevs/curriculum/pull/2170)
 - [SQL - Handling Blobs in SQL - Fix blob sizes & general formatting](https://github.com/enkidevs/curriculum/pull/2167)
 - [Git - The Local Repository - Change "working directory" to "working tree" & clean metadata](https://github.com/enkidevs/curriculum/pull/2168)
 - [Regex - Ranges I - Fix slashes](https://github.com/enkidevs/curriculum/pull/2165)
