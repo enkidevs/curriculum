@@ -43,6 +43,9 @@ Types of change:
 ### Changed
 - [Linux - Changing File Ownership With `chown` - New practice question & notes; mention `chown` required root access](https://github.com/enkidevs/curriculum/pull/2173)
 
+### Fixed
+- [Java - Negative `byte` values - Fix typo in example code block & clean metadata](https://github.com/enkidevs/curriculum/pull/2169)
+
 ## June 9th 2020
 
 ### Added
