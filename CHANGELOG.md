@@ -38,10 +38,20 @@ Types of change:
 - `Archived` for content that is no longer necessary and has been archived.
 - `Fixed` for any minor fixes (e.g. add a missing comma, adding a code block tag, fixing a report).
 
-## June 8th 2020
+## June 10th 2020
 
 ### Fixed
 - [Java - Negative `byte` values - Fix typo in example code block & clean metadata](https://github.com/enkidevs/curriculum/pull/2169)
+
+## June 9th 2020
+
+### Added
+- [SQL - NOT Example - Add playground URL & footnote with pokemon table](https://github.com/enkidevs/curriculum/pull/2171)
+
+## June 8th 2020
+
+### Fixed
+- [JavaScript - Local Nodules - Fix content error, general formatting & clean metadata](https://github.com/enkidevs/curriculum/pull/2170)
 - [SQL - Handling Blobs in SQL - Fix blob sizes & general formatting](https://github.com/enkidevs/curriculum/pull/2167)
 - [Git - The Local Repository - Change "working directory" to "working tree" & clean metadata](https://github.com/enkidevs/curriculum/pull/2168)
 - [Regex - Ranges I - Fix slashes](https://github.com/enkidevs/curriculum/pull/2165)
