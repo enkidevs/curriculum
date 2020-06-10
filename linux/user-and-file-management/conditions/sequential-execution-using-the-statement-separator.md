@@ -44,7 +44,7 @@ Linux
 
 Run the following commands one after the other :
 ```
-$ date ??? who am i
+$ date ??? whoami
 ```
 
 * `;`
