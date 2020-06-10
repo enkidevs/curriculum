@@ -86,7 +86,7 @@ Complete the `INNER JOIN` operation on the `item` and `item_effect_text` tables.
   item_effect_text.short_effect
 ??? item
 ??? ??? ???
-  ??? = item_effect_text.item_id
+  ??? = item_effect_text.item_id;
 ```
 
 * `SELECT`
