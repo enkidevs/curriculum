@@ -75,7 +75,7 @@ INNER JOIN ability_effect_text ON
 ability.id = ability_effect_text.ability_id;
 ```
 
-The first 2 rows of the result would be:
+The first 3 rows of the result would be:
 
 | name      | effect                                                                              |
 |-----------|-------------------------------------------------------------------------------------|
