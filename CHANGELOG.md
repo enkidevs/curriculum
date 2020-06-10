@@ -42,7 +42,7 @@ Types of change:
 
 ### Fixed
 - [Java - Negative `byte` values - Fix typo in example code block & clean metadata](https://github.com/enkidevs/curriculum/pull/2169)
-- [SQL - Inner Join - Fix typo in example output](https://github.com/enkidevs/curriculum/pull/2174)
+- [SQL - Inner Join - Fix result set of example query](https://github.com/enkidevs/curriculum/pull/2174)
 
 ## June 9th 2020
 
