@@ -52,9 +52,9 @@ If your `alt` attribute needs to contain acronyms (like "USA"), you would write 
     alt="United States of America map">`
 ```
 
-The reason is, you want to prevent screen readers from reading any acronyms as single words like: "Usa map".
+The reason is, you want to prevent screen readers from reading any acronyms as single words like "Usa map".
 
-If you really must use acronyms you should add a space after each letter like in the example bellow:
+If you really must use acronyms you should add a space after each letter like in the example below:
 ```html
 `<img src="usa-map.jpg"
     alt="U S A map">`
