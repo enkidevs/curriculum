@@ -46,13 +46,19 @@ The `alt` attribute can also be left empty and completely valid as this is helpf
       alt="">
 ```
 
-If your `alt` attribute needs to contain acronyms (like "USA"), you would write it as to prevent screen readers from trying to read:
+If your `alt` attribute needs to contain acronyms (like "USA"), you would write it as:
 ```html
 `<img src="usa-map.jpg"
     alt="United States of America map">`
 ```
 
 The reason is, you want to prevent screen readers from reading any acronyms as single words like: "Usa map".
+
+If you really must use acronyms you should add a space after each letter like in the example bellow:
+```html
+`<img src="usa-map.jpg"
+    alt="U S A map">`
+```
 
 ---
 ## Practice
