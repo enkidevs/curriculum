@@ -38,6 +38,11 @@ Types of change:
 - `Archived` for content that is no longer necessary and has been archived.
 - `Fixed` for any minor fixes (e.g. add a missing comma, adding a code block tag, fixing a report).
 
+## June 10th 2020
+
+### Changed
+- [Linux - Changing File Ownership With `chown` - New practice question & notes; mention `chown` required root access](https://github.com/enkidevs/curriculum/pull/2173)
+
 ## June 9th 2020
 
 ### Added
