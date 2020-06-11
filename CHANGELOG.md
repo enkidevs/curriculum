@@ -38,6 +38,11 @@ Types of change:
 - `Archived` for content that is no longer necessary and has been archived.
 - `Fixed` for any minor fixes (e.g. add a missing comma, adding a code block tag, fixing a report).
 
+## June 11th 2020
+
+### Fixed
+- [Linux - Sequential execution using the `;` statement separator - Update the `whoami` command](https://github.com/enkidevs/curriculum/pull/2176)
+
 ## June 10th 2020
 
 ### Changed
@@ -45,6 +50,8 @@ Types of change:
 
 ### Fixed
 - [Java - Negative `byte` values - Fix typo in example code block & clean metadata](https://github.com/enkidevs/curriculum/pull/2169)
+- [SQL - Inner Join - Fix result set of example query](https://github.com/enkidevs/curriculum/pull/2174)
+- [Web/HTML - Image Alt - Improve explanation](https://github.com/enkidevs/curriculum/pull/2175)
 
 ## June 9th 2020
 
