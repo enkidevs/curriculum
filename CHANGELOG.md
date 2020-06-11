@@ -40,6 +40,9 @@ Types of change:
 
 ## June 11th 2020
 
+### Changed
+- [Linux - Changing File Ownership With `chown` - New practice question & notes; mention `chown` required root access; new footnote on chgrp; new resource links](https://github.com/enkidevs/curriculum/pull/2173)
+
 ### Fixed
 - [Linux - Sequential execution using the `;` statement separator - Update the `whoami` command](https://github.com/enkidevs/curriculum/pull/2176)
 
