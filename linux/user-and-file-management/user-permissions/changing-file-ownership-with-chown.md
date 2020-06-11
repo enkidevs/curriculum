@@ -13,6 +13,10 @@ aspects:
   - introduction
   - workout
 
+links:
+  - '[chown](https://www.man7.org/linux/man-pages/man1/chown.1.html){website}'
+  - '[chgrp](https://man7.org/linux/man-pages/man1/chgrp.1.html){website}'
+
 ---
 
 # Changing File Ownership With `chown`
@@ -40,7 +44,7 @@ To change only the group run:
 sudo chown :new-group /path/to/some/file
 ```
 
-> 💡 If you don't have root access, you can change the permissions of the file using `chmod` **if you are the owner of that file**. You can't change ownership (with `chown` or `chgrp`) without root access.
+> 💡 If you don't have root access, you can change the permissions of the file using `chmod` **if you are the owner of that file**. You can't change ownership (with `chown` or `chgrp`[1]) without root access.
 
 ### Recursively Changing Ownership
 
@@ -67,6 +71,7 @@ To change the owner of a file using `chown` you need to ???.
 ## Revision
 
 Change the group for the `enki.txt` file:
+
 ```
 ??? ??? 
   ??? ???
@@ -79,4 +84,11 @@ Change the group for the `enki.txt` file:
 * `new-group`
 * `chmod`
 
- 
+---
+## Footnotes
+
+[1:Change Group]
+
+You can use the `chgrp` command to change the **group ownership**. This is the same as writing `sudo chown :new-group ./file`.
+
+For more information check the *Learn More* section for the command's documentation.
