@@ -42,7 +42,7 @@ Using the above pattern, we'd be able to match the following texts because they 
 /\w/
 ```
 
-This pattern would match each character in the following text as `\w` allows for capitalized letters:
+This pattern would match each **individual** character in the following text as `\w` allows for capitalized letters:
 
 `a` `b` `c` `A` `B` `C` `1` `2` `3` `_` ✅
 
@@ -50,23 +50,19 @@ If we want to match the entire string then we can use `/\w+/` or `/\w*/`.
 
 `abcABC123_` ✅
 
-`\w` can be used to match any word character in a mixed string:
+`\w+` can be used to match any word character in a mixed string:
 
 `abc`!`f`@`g`£`jf`$`h`%^
 
 
 > 💡 Using \W does the opposite of \w and would match all *non-word characters*.
 
-```
-/\W/
-```
-
-Similarly, We can use `/\W+/` or `/\W*/` to match an entire string:
+Similarly, we can use `/\W+/` or `/\W*/` to match an entire string:
 
 `!@£$%^&` ✅
 abc ❌
 
-Note, the backslash is necessary syntax here. While some symbols are directly interpreted like special characters (e.g. '.', '?' etc.), some only work like special characters if preceeded by a backslash. 
+Note, the backslash is necessary syntax here. While some symbols are directly interpreted like special characters (e.g. `'.'`, `'?'` etc.), some only work like special characters if preceeded by a backslash. 
 
 ---
 ## Practice

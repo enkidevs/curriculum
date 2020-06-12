@@ -26,7 +26,7 @@ Because regex reserves the dot as a special character, we can't actually specify
 /.+\./
 ```
 
-This regex specifies that there are one or more characters, /.+/, followed by a literal dot /\./.
+This regex specifies that there are one or more characters, `/.+/`, followed by a literal dot `/\./`.
 
 
 | Text | Match |

@@ -27,7 +27,7 @@ Imagine if we wanted to match the word `success`, but our text also included the
 
 This is where **anchors** come in handy.
 
-> 💡 The '^' is used to signify the *start of a string*, and the '$' character is used to signify the *end of a string*.
+> 💡 The `^` is used to signify the *start of a string*, and the `$` character is used to signify the *end of a string*.
 
 ```
 /^success/
@@ -47,7 +47,7 @@ The string can have one or more character but must end with a `'.'`.
 `sentence ending.` ✅
 sentence ending? ❌
 
-Note that '^' has different uses depending on whether it's inside or outside of square brackets , [^...]. This is where it's used to *exclude characters*.
+Note that `^` has different uses depending on whether it's inside or outside of square brackets , [^...]. This is where it's used to *exclude characters*.
 
 
 

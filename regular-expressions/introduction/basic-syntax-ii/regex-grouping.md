@@ -22,7 +22,7 @@ We can group certain items using parenthesis, `( )`.
 
 Say we want to match both the singular and plural forms of a word. We can use grouping to include the elements that should be kept togther. 
 
-Remember that the '?' character makes the thing before it optional. In this case it makes the *grouping* optional.
+Remember that the `?` character makes the thing before it optional. In this case it makes the *grouping* optional.
 
 ```
 /regex(es)?/

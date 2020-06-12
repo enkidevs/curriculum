@@ -20,7 +20,7 @@ aspects:
 
 As with most patterns in regex, we can write the opposite of what we want in a very simple way.
 
-Say we want all letters and numbers outside of the ranges 'a-c' and '1-3' then we can use the hat/caret character, '^', inside the square brackets to exclude these characters.
+Say we want all letters and numbers outside of the ranges 'a-c' and '1-3' then we can use the hat/caret character, `^`, inside the square brackets to exclude these characters.
 
 ```
 /[^a-c1-3]/

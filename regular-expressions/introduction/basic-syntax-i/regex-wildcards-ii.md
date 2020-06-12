@@ -18,13 +18,13 @@ aspects:
 ---
 ## Content
 
-Going back to our previous example - if we wanted to find all names beginning with 'Fre' then we could write our regex pattern as:
+Going back to our previous example - if we wanted to find all names beginning with `'Fre'` then we could write our regex pattern as:
 
 ```
 /Fre\w*/
 ```
 
-This would match the names that start with 'Fre', and then have zero or more word characters. 
+This would match the names that start with `'Fre'`, and then have zero or more word characters. 
 
 `Fred` ✅
 `Freya` ✅
@@ -46,7 +46,6 @@ We could use the following regex pattern to match these three strings:
 '    abc' ✅
 'abc' ❌
 ```
-
 
 `\d` matches all digits
 

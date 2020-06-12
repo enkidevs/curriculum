@@ -20,9 +20,9 @@ aspects:
 
 Very basic regex patterns can be *identical to the content* of the text we want to test:
 
+```
 text = 'Fred'
 
-```
 /fred/ ❌ 
 
 /Fred/ ✅
@@ -30,11 +30,11 @@ text = 'Fred'
 
 However, most of the time we want to make our patterns a bit more flexible...
 
-Say we want to find all names beginning with 'Fre' from the following list:
+Say we want to find all names beginning with `'Fre'` from the following list:
 
 'Fred, Freya, Francis'
 
-We could use /Fre/ as our regex pattern to match the following:
+We could use `/Fre/` as our regex pattern to match the following:
 
 '`Fre`d, `Fre`ya, Francis'
 
