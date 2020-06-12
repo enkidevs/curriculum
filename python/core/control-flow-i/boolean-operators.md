@@ -31,7 +31,7 @@ if str == 'boolean' and num == 1:
 # Success!
 ```
 
-When using the `and` operator, *all conditions* must evaluation to `True` for the code block to run.
+When using the `and` operator, *all conditions* must evaluate to `True` for the code block to run.
 
 2. The `or` operator
 
