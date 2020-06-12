@@ -27,11 +27,11 @@ Regex is for *everyone*.
 
 For example, when collecting email addresses on a sign up form, the `@` character must be in the correct position for the email address to be valid. If it isn't, then our form should throw an error. 
 
-`'@gmail.com'` ❌
+`@gmail.com` ❌
 
 Developers can use regex to construct a pattern that the users' input must match. 
 
-`'devs@enki.com'` ✅
+`devs@enki.com` ✅
 
 > 💡 A non-developer could also use regex to ensure that email addresses are valid by making use of spreadsheets or online tools.
 

@@ -25,15 +25,21 @@ When we don't know the number of times we want something repeated we can use mor
 
 Here's how they work:
 
-`/abc?/`
+```
+/abc?/
+```
 
 `ab` followed by an optional `c`
 
-`/abc*/`
+```
+/abc*/
+```
 
 `ab` followed by zero or more `c`'s
 
-`/abc+/`    
+```
+/abc+/
+```    
      
 `ab` followed by one or more `c`'s
 
@@ -44,7 +50,9 @@ These metacharacters are super useful as they add much more flexibility to our r
 
 Which of these would be a match for the following regex pattern?
 
-`/aeiouy?/`
+```
+/aeiouy?/
+```
 
 ???
 
@@ -57,7 +65,9 @@ Which of these would be a match for the following regex pattern?
 
 Which of these would be a match for the following regex pattern?
 
-`/abc+/`
+```
+/abc+/
+```
 
 ???
 

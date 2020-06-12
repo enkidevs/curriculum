@@ -20,14 +20,14 @@ aspects:
 
 As with most patterns in regex, we can write the opposite of what we want in a very simple way.
 
-Say we want all letters and numbers outside of the ranges `a-c` and `1-3` then we can use the hat/caret character, `^`, inside the square brackets to exclude these characters.
+Say we want all letters and numbers outside of the ranges 'a-c' and '1-3' then we can use the hat/caret character, `^`, inside the square brackets to exclude these characters.
 
 ```
 /[^a-c1-3]/
-
-'abc123' ❌
-'def5678' ✅
 ```
+
+abc123 ❌
+`def5678` ✅
 
 This means that the following is true:
 
@@ -42,7 +42,7 @@ By having both choices, you can decide which one is easier to write and understa
 ---
 ## Practice
 
-Using the `'^'` character, which regex pattern matches `hog` and `dog`, but not `bog`.
+Using the '^' character, which regex pattern matches `hog` and `dog`, but not `bog`.
 
 ???
 
