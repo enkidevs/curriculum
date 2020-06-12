@@ -43,7 +43,7 @@ Similarly, if we wanted to use an actual backslash, we'd have to escape it too!
 /\\.+/
 ```
 
-Here, the /\\/ is escaping the backslash, and the /.+/ is saying that there are one or more characters following the backslash.
+Here, the `/\\/` is escaping the backslash, and the `/.+/` is saying that there are one or more characters following the backslash.
 
 `\backslash_demo` ✅
 

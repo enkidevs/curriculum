@@ -18,7 +18,7 @@ aspects:
 ---
 ## Content
 
-The wildcards that we learnt about previously (., \w, \W, /s, /S, /d, /D) are sometimes *too powerful.*
+The wildcards that we learnt about previously (`.`, `\w`, `\W`, `/s`, `/S`, `/d`, `/D`) are sometimes *too powerful.*
 
 Say we want to match *specific characters* instead of every character of a certain type, then we can use **ranges**.
 
@@ -34,11 +34,11 @@ Our words would have to start with `c`, `m` *or* `f`, and end in `an`.
 
 We can also use the `-` symbol to build an inclusive range:
 
-/[0-9]/ means any digit between zero and nine, and is equivalent to /\d/.
+`/[0-9]/` means any digit between zero and nine, and is equivalent to `/\d/`.
 
-/[a-z]/ means any lowercase letter from 'a' to 'z'.
+`/[a-z]/` means any lowercase letter from 'a' to 'z'.
 
-/[a-zA-Z0-9_]/ is equivalent to /\w/
+`/[a-zA-Z0-9_]/` is equivalent to `/\w/`
 
 So now we can make our wildcards *more specific* by using ranges. This is super useful! 
 

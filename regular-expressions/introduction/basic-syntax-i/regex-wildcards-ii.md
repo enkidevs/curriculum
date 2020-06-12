@@ -30,28 +30,27 @@ This would match the names that start with 'Fre', and then have zero or more wor
 `Freya` ✅
 Francis ❌
 
-Here are a few more wildcards that can be used when you want to be more specific than using a ., \w or \W!
+Here are a few more wildcards that can be used when you want to be more specific than using a `.`, `\w` or `\W`!
 
-\s matches all whitespace characters - spaces, tabs and line-breaks.
+`\s` matches all whitespace characters - spaces, tabs and line-breaks.
 
-\S matches all non-whitespace characters
+`\S` matches all non-whitespace characters
 
 We could use the following regex pattern to match these three strings:
 
 ```
 /\s+abc/
+
+' abc' ✅
+'	abc' ✅
+'    abc' ✅
+'abc' ❌
 ```
 
-| Text       | Match |
-|------------|-------|
-| ` abc`     | ✅     |
-| `   abc`   | ✅     |
-| `     abc` | ✅     |
-| abc        | ❌     |
 
-\d matches all digits
+`\d` matches all digits
 
-\D matches all non-digits
+`\D` matches all non-digits
 
 We could match just the numbers in the following strings by using this regex:
 

@@ -26,15 +26,15 @@ Password validation works best when we use a regex operator called a **positive 
 
 This will search for the pattern inside the text to make sure it appears *at least once*, but the important thing is that the *order of where it appears doesn't matter*.
 
-Positive lookaheads start with /(?=)/. For example:
+Positive lookaheads start with `/(?=)/`. For example:
 
-/(?=.*[a-z])/ means that there must be at least one *lower case letter*.
+`/(?=.*[a-z])/` means that there must be at least one *lower case letter*.
 
-/(?=.*[A-Z])/ means that there must be at least one *upper case letter*.
+`/(?=.*[A-Z])/` means that there must be at least one *upper case letter*.
 
-/(?=.*\d)/ means that there must be at least one *digit*.
+`/(?=.*\d)/` means that there must be at least one *digit*.
 
-/(?=.*\W)/ means that there must be at least one *symbol*.
+`/(?=.*\W)/` means that there must be at least one *symbol*.
 
 If we add these positive lookaheads into our password validator, our regex pattern will look like this:
 

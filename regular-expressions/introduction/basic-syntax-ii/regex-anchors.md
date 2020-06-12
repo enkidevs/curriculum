@@ -42,7 +42,7 @@ unsuccessful ❌
 /.+\.$/
 ```
 
-The string can have one or more character but must end with a '.'.
+The string can have one or more character but must end with a `'.'`.
 
 `sentence ending.` ✅
 sentence ending? ❌
@@ -87,12 +87,12 @@ text has abc inside it ❌
 ## Footnotes
 
 [1:Partial matching]
-Partial matches are when the regex pattern matches some, but not all of the text. An example of partial matching would be if we used /\w/ to attempt to match all of the following text:
+Partial matches are when the regex pattern matches some, but not all of the text. An example of partial matching would be if we used `/\w/` to attempt to match all of the following text:
 
 'let's match this text...'
 
-/\w/ partially matches on any word character, but it misses the punctuation marks and white spaces.
+`/\w/` partially matches on any word character, but it misses the punctuation marks and white spaces.
 
-We could use the regex pattern /.+/ to match the entire text.
+We could use the regex pattern `/.+/` to match the entire text.
 
 `let's match this text` ✅

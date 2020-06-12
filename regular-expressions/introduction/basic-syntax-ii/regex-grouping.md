@@ -18,7 +18,7 @@ aspects:
 ---
 ## Content
 
-We can group certain items using parenthesis, ( ). 
+We can group certain items using parenthesis, `( )`. 
 
 Say we want to match both the singular and plural forms of a word. We can use grouping to include the elements that should be kept togther. 
 
@@ -38,7 +38,7 @@ Remember that the '?' character makes the thing before it optional. In this case
 `abc` ✅
 `abcabcabcabc` ✅
 
-We can build more complex groupings using the *or* operator, '|'.
+We can build more complex groupings using the *or* operator, `|`.
 
 ```
 /(a|b)c/

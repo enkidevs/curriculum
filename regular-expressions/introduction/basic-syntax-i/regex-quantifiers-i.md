@@ -20,7 +20,7 @@ aspects:
 
 Quantifiers allow us to build patterns that have additional characters without explicitly writing those characters.
 
-When we know how many times we want something repeated, we can put that number inside curly brackets { }. 
+When we know how many times we want something repeated, we can put that number inside curly brackets `{ }`. 
 
 The second optional number inside the curly brackets determines the maximum number of times the character before can be repeated. And we can even determine that this should be infinite.
 

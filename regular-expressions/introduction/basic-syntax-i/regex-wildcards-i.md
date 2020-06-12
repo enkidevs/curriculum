@@ -42,15 +42,15 @@ Using the above pattern, we'd be able to match the following texts because they 
 /\w/
 ```
 
-This pattern would match each character in the following text as \w allows for capitalized letters:
+This pattern would match each character in the following text as `\w` allows for capitalized letters:
 
-`a``b``c``A``B``C``1``2``3``_` ✅
+`a` `b` `c` `A` `B` `C` `1` `2` `3` `_` ✅
 
-If we want to match the entire string then we can use /\w+/ or /\w*/.
+If we want to match the entire string then we can use `/\w+/` or `/\w*/`.
 
 `abcABC123_` ✅
 
-\w can be used to match any word character in a mixed string:
+`\w` can be used to match any word character in a mixed string:
 
 `abc`!`f`@`g`£`jf`$`h`%^
 
@@ -61,7 +61,7 @@ If we want to match the entire string then we can use /\w+/ or /\w*/.
 /\W/
 ```
 
-Similarly, We can use /\W+/ or /\W*/ to match an entire string:
+Similarly, We can use `/\W+/` or `/\W*/` to match an entire string:
 
 `!@£$%^&` ✅
 abc ❌

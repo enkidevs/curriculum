@@ -43,11 +43,11 @@ Let's try a stricter example:
 /[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,6}/i
 ```
 
-/[a-z0-9._%+-]+/ ensures that only email address-friendly characters are allowed.
+`/[a-z0-9._%+-]+/` ensures that only email address-friendly characters are allowed.
 
-/@/ is literally just the '**@**' symbol.
+`/@/` is literally just the '**@**' symbol.
 
-/[a-z0-9.-]+\.[a-z]{2,6}/ ensures that the domain also contains email address-friendly characters, and that there are between 2-6 characters in the domain extension. 
+`/[a-z0-9.-]+\.[a-z]{2,6}/` ensures that the domain also contains email address-friendly characters, and that there are between 2-6 characters in the domain extension. 
 
 We can also add an `i` modifier to the end of our regex to make sure that the pattern is case insensitive 🙌.
 
