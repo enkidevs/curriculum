@@ -41,6 +41,7 @@ Types of change:
 ## June 15th 2020
 
 ### Changed
+- [Python - Using Lists as Queues - Add playground & notes](https://github.com/enkidevs/curriculum/pull/2186)
 - [Python - Date arithmetics with `timedelta` - Add playground](https://github.com/enkidevs/curriculum/pull/2185)
 - [Linux - File Ownership - New PQ](https://github.com/enkidevs/curriculum/pull/2184)
 - [Python - I/O Functions - Remove any mentions of the `eval` function, new PQ, other minor improvements](https://github.com/enkidevs/curriculum/pull/2183)
