@@ -41,9 +41,13 @@ Types of change:
 ## June 15th 2020
 
 ### Changed
+- [Python - Date arithmetics with `timedelta` - Add playground](https://github.com/enkidevs/curriculum/pull/2185)
 - [Linux - File Ownership - New PQ](https://github.com/enkidevs/curriculum/pull/2184)
 - [Python - I/O Functions - Remove any mentions of the `eval` function, new PQ, other minor improvements](https://github.com/enkidevs/curriculum/pull/2183)
 - [Regex - Wildcards I - PQ & RQ mention that we want a full match](https://github.com/enkidevs/curriculum/pull/2182)
+
+### Fixed
+- [Python - Date arithmetics with `timedelta` - Also import timedelta in example](https://github.com/enkidevs/curriculum/pull/2185)
 
 ## June 12th 2020
 
