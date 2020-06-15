@@ -38,6 +38,13 @@ Types of change:
 - `Archived` for content that is no longer necessary and has been archived.
 - `Fixed` for any minor fixes (e.g. add a missing comma, adding a code block tag, fixing a report).
 
+## June 15th 2020
+
+### Changed
+- [Linux - File Ownership - New PQ](https://github.com/enkidevs/curriculum/pull/2184)
+- [Python - I/O Functions - Remove any mentions of the `eval` function, new PQ, other minor improvements](https://github.com/enkidevs/curriculum/pull/2183)
+- [Regex - Wildcards I - PQ & RQ mention that we want a full match](https://github.com/enkidevs/curriculum/pull/2182)
+
 ## June 12th 2020
 
 ### Changed
