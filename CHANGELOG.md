@@ -41,6 +41,7 @@ Types of change:
 ## June 15th 2020
 
 ### Changed
+- [Linux - File Ownership - New PQ](https://github.com/enkidevs/curriculum/pull/2184)
 - [Regex - Wildcards I - PQ & RQ mention that we want a full match](https://github.com/enkidevs/curriculum/pull/2182)
 
 ## June 12th 2020
