@@ -67,7 +67,7 @@ Note, the backslash is necessary syntax here. While some symbols are directly in
 ---
 ## Practice
 
-Which regex pattern would match the following string?
+Which regex pattern would match the full string?
 
 `123`
 
@@ -82,7 +82,7 @@ Which regex pattern would match the following string?
 ---
 ## Revision
 
-Which regex pattern would match the following string?
+Which regex pattern would match the full string?
 
 `...`
 
