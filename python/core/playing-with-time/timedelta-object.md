@@ -50,6 +50,7 @@ print(minute) # 0:01:00
 
 You can use standard arithmetic operators to calculate new dates as follows:
 ```python
+from datetime import datetime
 from datetime import timedelta
 
 today = datetime.today()
