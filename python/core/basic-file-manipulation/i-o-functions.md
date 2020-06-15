@@ -41,13 +41,14 @@ For managing user input, **Python 3** provides a built-in function called `input
 Consider the following scenario:
 ```python
 # user input will be assigned to `str`
-str = input('Please enter your input:')
+str = input('Please enter your input: ')
 # program will wait here for user input
-# input needs to be entered as a string
-# e.g 'Hello'
 
 # print the user input
 print("The input is: ", str)
+
+# print the type of `str`
+print(type(str))
 ```
 
 The `stdout` will look like:
@@ -55,9 +56,12 @@ The `stdout` will look like:
 ```plain-text
 Please enter your input: Hello
 The input is: Hello
+<class 'str'>
 ```
 
-The **input** of the user will be returned as a `string` without any additional changes. If this **raw input** has to be transformed into another **data type** needed by the **program**, a `casting` function can be used. 
+> The **input** of the user will **always** be returned as a `string` without any additional changes. 
+
+If this **raw input** has to be transformed into another **data type** needed by the **program**, a `casting` function can be used. 
 
 In the following example, we will use a **casting function** to find out the age of the user by converting the inputted string to an `int`:
 
