@@ -41,7 +41,7 @@ Zero returns `TRUE`:
 
 An empty cell returns `TRUE`:
 
-![empty]https://img.enkipro.com/b62c350762df4368dc9cf5c3f8fd1805.png()
+![empty](https://img.enkipro.com/b62c350762df4368dc9cf5c3f8fd1805.png)
 
 ---
 ## Practice
