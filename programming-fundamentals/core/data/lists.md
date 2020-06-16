@@ -1,0 +1,37 @@
+---
+author: kapnobatai136
+
+type: normal
+
+category: must-know
+
+aspects:
+  - introduction
+
+---
+
+# Lists
+
+---
+## Content
+
+Lists, although a data type on their own, represent a collection of data types. Usually you can mix the data types in a list, but some languages only let you use one data type in a list.
+
+Lists are usually defined using square brackets `[ ]`, with the values (** or variables**) separated by commas inside.
+
+
+Let's take a look at some examples:
+
+```plain-text
+users_list = ["Andrei", "Catalin", "Mihai"]
+```
+
+Or, you can use variables:
+
+```plain-text
+user1 = "Andrei"
+user2 = "Catalin"
+user3 = "Mihai"
+
+users_list = [user1, user2, user3]
+```

@@ -1,0 +1,57 @@
+---
+author: kapnobatai136
+
+type: normal
+
+category: must-know
+
+aspects:
+  - introduction
+
+---
+
+# Loops
+
+---
+## Content
+
+Loops are everywhere in our lives. A good example of a loop is brushing your teeth. You move your hand up-down in five increments. That's what a computer considers a loop.
+
+In programming there are different types of loops, with each having their own application. Starting off with the most used one, the counter loop.
+
+Explaining this is simple, you're just teaching a computer how to count while doing some specific actions. Let's say you want to teach your robot how to brush its teeth. For that, you write a function:
+
+```plain-text
+Function brush teeth
+    Pass In: tooth brush.
+    Direct robot to brush teeth up.
+    Direct robot to brush teeth down.
+    Pass Out: nothing.
+Endfunction
+```
+
+Hmm, one up and down motion isn't enough to get clean teeth. You could call the `brush teeth` function multiple times, or repeat the directions inside the function:
+
+```plain-text
+Direct robot to brush teeth.
+Direct robot to brush teeth.
+... 
+
+// or
+
+Function full brush
+    Pass In: brush teeth function.
+    Direct robot to brush teeth.
+    Direct robot to brush teeth.
+    ...
+    Pass Out: nothing.
+Endfunction
+```
+
+> 💡 You can leave comments in your code to explain why you have chosen a certain solution. In pseudocode comments are left using `//`, but each programming language has its own way of defining comments.
+
+When using a low number of repetitions, you wouldn't have any problems repeating the code, but the higher the number the harder and more tedious it gets. In programming you should aim to never copy-paste your code. It can lead to many issues, such as changing the code in place without updating all the occurences.
+
+A better way of achieving this functionality would be by using loops. Whenever you need to repeat a piece of code for a certain number of times, your best bet are loops.
+
+There are two main types of loops, counter and condition.
