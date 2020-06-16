@@ -38,10 +38,14 @@ Types of change:
 - `Archived` for content that is no longer necessary and has been archived.
 - `Fixed` for any minor fixes (e.g. add a missing comma, adding a code block tag, fixing a report).
 
-## June 15th 2020
+## June 16th 2020
 
 ### Changed
 - [Python - Using Lists as Queues - Add playground & notes](https://github.com/enkidevs/curriculum/pull/2186)
+
+## June 15th 2020
+
+### Changed
 - [Python - Date arithmetics with `timedelta` - Add playground](https://github.com/enkidevs/curriculum/pull/2185)
 - [Linux - File Ownership - New PQ](https://github.com/enkidevs/curriculum/pull/2184)
 - [Python - I/O Functions - Remove any mentions of the `eval` function, new PQ, other minor improvements](https://github.com/enkidevs/curriculum/pull/2183)

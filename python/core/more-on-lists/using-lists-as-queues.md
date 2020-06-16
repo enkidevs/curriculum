@@ -22,9 +22,7 @@ links:
 ---
 ## Content
 
-It's appropriate to create a **new class** to help implement an **abstract data type** such as a **queue**. We will use **list** data structures this time.
-
-> 💡 A common exercise in Computer Science is implementing advanced data structures using the primitive ones.
+A common exercise in Computer Science is implementing advanced data structures using the primitive ones. In this insight we'll create a **new class** that implements a **queue** data structure using **lists**.
 
 **Queues** are abstract data structures that follow the principle of **first in, first out** (FIFO) when adding or removing an element.
 
