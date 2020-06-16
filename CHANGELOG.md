@@ -40,8 +40,12 @@ Types of change:
 
 ## June 16th 2020
 
+### Changed
+- [Python - Using Lists as Queues - Add playground & notes](https://github.com/enkidevs/curriculum/pull/2186)
+
 ### Fixed
 - [Comp. Sci. - Differences between bandwidth and throughput - Remove broken resources](https://github.com/enkidevs/curriculum/pull/2187)
+
 
 ## June 15th 2020
 
