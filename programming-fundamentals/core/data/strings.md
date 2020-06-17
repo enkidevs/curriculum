@@ -24,3 +24,27 @@ best_user = "You"
 ```
 
 > 💡 Strings **always have to be enclosed by quotation marks** (`" "`). In some programming languages you can also use single quotation marks (`' '`).
+
+---
+## Practice
+
+Strings always have to be enclosed by ???.
+
+* quotation marks
+* parentheses
+* square brackets
+* commas
+
+---
+## Revision
+
+Complete the gaps to define a string:
+
+```plain-text
+my_name = "Andrei"
+```
+
+* =
+* "Andrei"
+* Andrei
+* ==

@@ -19,44 +19,71 @@ More often than not, a computer program will have many lines of text (think thou
 
 To prevent this issue, modular programming is used. This means that you split your functionality into individual methods. These are called functions, and the aim is for them to be independent; they should execute only one aspect of the desired functionality.
 
-Let's take a look at an example. It's Saturday afternoon, and you're ready for a margarita 🍹.
+Let's take a look at an example. It's Saturday afternoon, and you're ready for a grilled cheese 🧀.
 
 The recipe says:
 
 ```plain-text
 Ingredients:
-- 50ml tequila
-- 25ml lime juice
-- 20ml triple sec
-- salt
-- two lime wedges
-- one glass
+- cheese
+- bread
+- butter
+- plate
+- bowl
 
 Instructions:
-- Sprinkle salt on a small plate
-- Rub one wedge of a lime along the rim of the glass
-- Dip the glass in salt so that the entire rim is covered
+- Shred the cheese in a small bowl
+- Cut the bread into slices
 
-- Fill a cocktail shaker with ice
-- Add tequila, lime juice, triple sec
-- Shake
+- Butter the bread on both sides
+- Add the cheese to the sandwich
 
-- Strain the mix into the prepared glass
-- Garnish with lime wedge
+- Preheat a pan
+- Fry the sandwich for three minutes on each side (or until golden brown)
 ```
 
-You just remembered that you have a robot sitting in your garage, so why not teach it how to make your cocktails?
+You just remembered that you have a robot sitting in your garage, so why not teach it how to make your gilled cheese?
 
 First, you'll have to create *functions* from the instructions. Starting with the first batch:
 
 ```plain-text
-Function prepare glass
-    Pass In: one glass, one small plate, one lime wedge, salt.
-    Direct the robot to prepare the small plate and sprinkle salt on it.
-    Direct the robot to rub the lime wedge on the rim of the glass.
-    Direct the robot to dip the glass in the salt.
-    Pass Out: a glass with salted rim.
+Function prepare ingredients
+    Pass In: cheese, grater, bowl, bread.
+    Direct the robot to prepare the bowl and grater.
+    Direct the robot to grate cheese in the bowl.
+    Direct the robot to slide the bread.
+    Pass Out: a bowl with cheese, sliced bread.
 Endfunction
 ```
 
+The items in the `Pass In` row are usually called arguments. They represent data that will be available and used in the function.
+
 > 💡 What you've just witnessed is called **Pseudocode**. It's just a way of writing code without actually writing any code. When you'll start learning a specific language, defining functions will be explained.
+
+---
+## Practice
+
+Complete the following function so that the robot will slice the bread:
+
+```plain-text
+??? slice bread
+    ???: bread, knife.
+    Direct the robot to slice the bread.
+    ???: sliced bread.
+???
+```
+
+* Function
+* Pass In
+* Pass Out
+* Endfunction
+
+---
+## Revision
+
+The aim of modular programming is to split ??? into individual ???.
+
+* functionality
+* methods
+* variables
+* markings

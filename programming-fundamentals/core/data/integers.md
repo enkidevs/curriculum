@@ -24,7 +24,41 @@ Depending on the language's use cases, other number types have emerged:
 Let's define an integer!
 
 ```plain-text
-my_age = 23
+my_age = 33
 ```
 
 > 💡 Depending on the programming language, you might have to type the data type before the variable name.
+
+---
+## Practice
+
+Choose the correct way to define an integer:
+
+```plain-text
+a = "13"
+
+b == 13
+
+c = 13
+```
+
+???
+
+* c
+* a
+* b
+
+---
+## Revision
+
+Create a variable named `age` which stores `33`:
+
+```plain-text
+??? ??? ???
+```
+
+* age
+* =
+* 33
+* "age"
+* ==

@@ -54,4 +54,34 @@ When using a low number of repetitions, you wouldn't have any problems repeating
 
 A better way of achieving this functionality would be by using loops. Whenever you need to repeat a piece of code for a certain number of times, your best bet are loops.
 
-There are two main types of loops, counter and condition.
+In the following insights we'll talk about the two main types of loops, counter and condition.
+
+---
+## Practice
+
+A counter loops is useful when we want to repeat a piece of code ??? number of times.
+
+* any
+* for a small
+* for a big
+
+---
+## Revision
+
+What will be the result of this code?
+
+```plain-text
+fruit = "Orange"
+IF fruit == "Banana" THEN
+    Peel fruit.
+// ELSE IF fruit == "Orange"
+    Eat fruit.
+ELSE
+    Wash fruit.
+```
+
+???
+
+* Wash fruit.
+* Eat fruit.
+* Peel fruit.

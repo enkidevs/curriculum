@@ -27,4 +27,33 @@ When programming, this would usually be done by using the `=` sign:
 best_app = "Enki"
 ```
 
-> 💡 It's important to mention that `=` means **assign** `"Enki"` to the `best_app` variable. The equality operator is usually represented by `==`. We'll cover how it works in the next posts.
+> 💡 It's important to mention that `=` means **assign** `"Enki"` to the `best_app` variable. The equality operator is usually represented by `==`. We'll cover how it works in the next insights.
+
+---
+## Practice
+
+Define a variable named `best_user` that stores `"You"`:
+
+```plain-text
+??? ??? ???
+```
+
+* best_user
+* =
+* "You"
+* best user
+* ==
+* You
+
+---
+## Revision
+
+Match the operator with its definition:
+
+```plain-text
+Assignment - ???
+Equality   - ???
+```
+
+* =
+* ==

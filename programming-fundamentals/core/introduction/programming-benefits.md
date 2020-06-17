@@ -17,7 +17,7 @@ aspects:
 
 Learning to code will change the way you think. 
 
-> A programmer's wife tells him to go to the shop and buy eggs. He ends up never coming home because he was only instructed to "buy eggs".
+> A programmer's wife tells him to go to the shop and buy eggs. After five hours he's still at the shop. When called he says "I'm at the shop buying eggs."
 
 As a programmer, when you encounter a problem you don't go straight to coding. You identify the source, break the problem into manageable bits, and start working incrementally.
 

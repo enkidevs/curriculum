@@ -17,7 +17,7 @@ aspects:
 
 You might've already heard about these, they are also called `for loops`. The idea behind these loops is that you create a counter variable, a maximum value for that counter, and the increment step.
 
-```
+```plain-text
 FOR counter = 1 to 10
     Direct robot to brush teeth
 Endfor
@@ -34,3 +34,37 @@ Endfor
 ```
 
 > 💡 The syntax differs for each programming language. When you'll start learning a specific one, loop functionality will be explained in details.
+
+---
+## Practice
+
+Complete the loop so that it repeats five times:
+
+```plain-text
+??? counter = 1 ??? ???
+    Wash hands.
+???
+```
+
+* FOR
+* to
+* 5
+* Endfor
+
+---
+## Revision
+
+Complete the loop so that it rings the alarm every day:
+
+```plain-text
+days = ["Monday", "Tuesday", ...]
+
+??? day ??? ???
+    Ring alarm
+???
+```
+
+* FOR
+* of
+* days
+* Endfor

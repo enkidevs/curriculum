@@ -30,9 +30,4 @@ We've come a long way since the 50s (when the first functioning programming lang
 ---
 ## Practice
 
-Programming is for ???.
-
-* everyone
-* scientists
-* developers
-* artists
+Programming is no longer only for scientist. Everyone can learn how to code, and that can bring great advantages.

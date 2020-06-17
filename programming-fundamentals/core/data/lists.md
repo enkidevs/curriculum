@@ -35,3 +35,32 @@ user3 = "Mihai"
 
 users_list = [user1, user2, user3]
 ```
+
+---
+## Practice
+
+Lists are usually defined using ???.
+
+* square brackets
+* parentheses
+* quotation marks
+* commas
+
+---
+## Revision
+
+Which of the following is a list?
+
+```plain-text
+a = (1, 2, 3)
+
+b = ["1", 2, 3]
+
+c = 1, 2, ,3
+```
+
+???
+
+* b
+* a
+* c

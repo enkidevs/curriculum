@@ -3,6 +3,6 @@ name: Loops
 description: TBD
 
 insights:
-  - loops-i
+  - loops
   - counter-loops
   - condition-loops

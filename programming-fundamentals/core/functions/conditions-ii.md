@@ -21,7 +21,7 @@ Now, knowing that `0` means do nothing, we'll want the robot to take an action i
 IF (input == 0) THEN
     Direct robot to do nothing.
 ELSE
-    Direct robot to make a margarita.
+    Direct robot to make a grilled cheese.
 ```
 
 You have now chained two conditions. If the `input` is anything else than 0, then the robot will start making a margarita.
@@ -45,7 +45,7 @@ ELSE
 
 You can chain multiple conditions using `ELSE IF`. If the `input` is `3` then the robot will make breakfast, **and it won't even check the other conditions** because that one evaluated to `true`.
 
-Another important concept that we introduced is the `AND` logical operator. It is one of the main three used, and it helps you to build complex conditions. Here are all the boolean operators:
+Another important concept that we introduced is the `AND` logical operator. It is one of the main three used, and it helps you to build complex conditions. Here are all the logical operators:
 
 | Operator |                 Meaning                 |
 |:--------:|:---------------------------------------:|
@@ -56,6 +56,29 @@ Another important concept that we introduced is the `AND` logical operator. It i
 ---
 ## Practice
 
+Which of these is **not** a logical operator?
+
+???
+
+* IF
+* AND
+* NOT
+* OR
 
 ---
 ## Revision
+
+Complete the following condition chain:
+
+```plain-text
+??? condition 1 THEN
+    do something
+??? condition 2 THEN
+    do something
+???
+    do something
+```
+
+* IF
+* ELSE IF
+* ELSE
