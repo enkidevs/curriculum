@@ -42,18 +42,18 @@ tags:
 
 You can make a file unalterable so that it cannot be changed or deleted even by root:
 ```
-$ chattr +i /path/to/file
+$ sudo chattr +i /path/to/file
 ```
 
 After that the file becomes *untouchable*.
 
 To update the file, remove the attribute using `-i` flag:
 ```
-$ chattr -i /path/to/file
+$ sudo chattr -i /path/to/file
 ```
 Use `-R` flag to unlock a directory.
 ```
-$ chattr -R -i directory/
+$ sudo chattr -R -i directory/
 ```
 
 The Mac equivalent is:
@@ -67,9 +67,9 @@ $ chflags nouchg /path/to/file
 ---
 ## Revision
 
-Make `enki`  *file* untouchable:
+Make `enki` *file* untouchable:
 ```
-$ ??? ??? enki
+$ sudo ??? ??? enki
 ```
 
 * `chattr`
