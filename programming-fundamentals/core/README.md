@@ -8,3 +8,5 @@ sections:
   '0':
     - introduction
     - data
+    - functions
+    - loops
