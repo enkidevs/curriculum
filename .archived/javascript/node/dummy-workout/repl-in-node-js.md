@@ -31,7 +31,7 @@ In Node.js you can use a **Read-Eval-Print-Loop (REPL)** to interactively run Ja
 You can access the REPL by executing `node` without any arguments from the command-line:
 
 ```
-$ node
+node
 >
 ```
 You can now type in and run JavaScript commands, for example:
@@ -59,7 +59,7 @@ What does *REPL* stand for?
 
 Open **Node**'s REPL:
 ```
-$ ???
+???
 ```
 
 * node

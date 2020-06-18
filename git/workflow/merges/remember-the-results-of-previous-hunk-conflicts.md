@@ -33,14 +33,14 @@ links:
 The "Reuse Recorded Resolution" tool (`rerere`) permits git to remember how you chose to resolve a merge conflict. The next time this conflict appears git can automatically resolve it for you.
 
 To turn on `rerere`:
-```
-$ git config --global rerere.enabled true
+```bash
+git config --global rerere.enabled true
 ```
 
 To see what `rerere` will remember as the resolution:
 
-```
-$ git rerere diff
+```bash
+git rerere diff
 -- - a/hello.js
 +++ b/hello.js
 -<<<<<<<
@@ -57,8 +57,8 @@ This is useful, for example, if you have a topic branch that you want to be sure
 ## Practice
 
 Practice: The command to enable the *Reuse Recorded Resolution* tool is:
-```
-$ ??? ??? ???
+```bash
+??? ??? ???
   ???.??? ???
 ```
 

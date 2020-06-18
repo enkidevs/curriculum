@@ -29,16 +29,16 @@ links:
 To specify a range of commits that can be reached by different branches you can use `^`, `--not`, double dots (`..`) and triple dots (`...`).
 
 These are equivalent:
-```
-$ git log master..tests
-$ git log ^master tests
-$ git log tests --not master
+```bash
+git log master..tests
+git log ^master tests
+git log tests --not master
 # shows commits on the tests
 # branch that are not on master
 ```
 Triple dots are used to show commits that are in one branch but not in both:
-```
-$ git log master...tests
+```bash
+git log master...tests
 # shows all commits that aren't
 # shared history
 ```
@@ -46,8 +46,8 @@ $ git log master...tests
 ---
 ## Practice
 
-```
-$ git log master...myBranch
+```bash
+git log master...myBranch
 ```
 Would print commits that
 
@@ -62,8 +62,8 @@ Would print commits that
 ---
 ## Revision
 
-```
-$ git log ^master myBranch
+```bash
+git log ^master myBranch
 ```
 Is equivalent to
 

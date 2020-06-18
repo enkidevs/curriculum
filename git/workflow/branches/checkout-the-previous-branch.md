@@ -31,12 +31,12 @@ links:
 ## Content
 
 There is a shorthand to checkout the previous branch:
-```
-$ git checkout -
+```bash
+git checkout -
 ```
 This is the same as:
-```
-$ git checkout @{-1}
+```bash
+git checkout @{-1}
 ```
 The shorthand is useful if you want to switch back and forth between a `master` branch and a feature branch.
 This is similar to the *nix `cd -` command.
@@ -45,8 +45,8 @@ This is similar to the *nix `cd -` command.
 ## Revision
 
 What does the next command do?
-```
-$ git checkout -
+```bash
+git checkout -
 ```
 ???
 

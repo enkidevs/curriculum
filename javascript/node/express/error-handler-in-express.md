@@ -31,7 +31,7 @@ The **Express 4.0** `errorhandler` module is designed as a **development only** 
 
 Installing the API:
 ```bash
-$ npm install errorhandler
+npm install errorhandler
 ```
 Importing the API:
 ```javascript

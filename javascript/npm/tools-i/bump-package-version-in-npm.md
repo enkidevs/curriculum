@@ -42,27 +42,27 @@ npm version 1.2.3
 Instead of specifying the whole version, a specific **semver** argument can be specified which will increment the field by 1:
 ```bash
 # assume current version is 1.2.3
-$ npm version major
+npm version major
 # new version will be 2.2.3
-$ npm version minor
+npm version minor
 # new version will be 2.3.3
-$ npm version patch
+npm version patch
 # new version will be 2.3.4
 
 ```
 
 `from-git` can be passed as an argument which will read the latest git tag and use it as the latest npm version:
 ```bash
-$ npm version from-git
+npm version from-git
 ```
 Used inside a **git repository**, a version commit and tag will also be created. To avoid this use:
 ```bash
-$ npm --no-git-tag-version version
+npm --no-git-tag-version version
 ```
 
 Using the `-m` or `--message` config flag, the specified message will become the commit message. `%s` is replaced by the resulting version number:
 ```bash
-$ npm version patch -m "New version is %s"
+npm version patch -m "New version is %s"
 ```
 
 ---
@@ -71,7 +71,7 @@ $ npm version patch -m "New version is %s"
 Fill the gap such that the resulted version of your package will be the same as the one specified:
 ```bash
 # assume current version is 3.2.5
-$ npm version ???
+npm version ???
 # new version will be 3.3.5
 ```
 
@@ -86,7 +86,7 @@ $ npm version ???
 Fill the gap such that the resulted version of your package will be the same as the one specified:
 ```bash
 # assume current version is 3.2.5
-$ npm version ???
+npm version ???
 # new version will be 3.3.5
 ```
 

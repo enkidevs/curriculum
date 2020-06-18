@@ -33,12 +33,12 @@ links:
 **Pushing** is the way to share/push upstream your work on a remote repository.
 
 The basic syntax of the `git push` command is:
-```
-$ git push [remote-name] [branch-name]
+```bash
+git push [remote-name] [branch-name]
 ```
 If you want to push all your local commits to the `origin` server on the `master` branch (both automatically named) you can use:
-```
-$ git push origin master
+```bash
+git push origin master
 ```
 
 
@@ -46,8 +46,8 @@ You can also run `git push` without arguments to push to the upstream of your cu
 
 If, for example, you are on `feature` branch and you want to set it's upstream you need to use the `--set-upstream` flag:
 
-```
-$ git push --set-upstream origin feature
+```bash
+git push --set-upstream origin feature
 ```
 This will create if it doesn't already exist, a new remote branch called `feature`, and push all your changes there.
 
@@ -60,8 +60,8 @@ If the **history** differs from your local - due to somebody pushing changes sin
 
 What flag is used to set the upstream tracking branch on your current branch?
 
-```
-$ git push ??? origin feature
+```bash
+git push ??? origin feature
 ```
 
 
@@ -77,8 +77,8 @@ $ git push ??? origin feature
 ## Revision
 
 Complete the basic syntax for pushing in git:
-```
-$ git ??? ??? ???
+```bash
+git ??? ??? ???
 ```
 
 * `push`

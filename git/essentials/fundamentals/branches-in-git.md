@@ -46,7 +46,7 @@ Branches are often used as a "reference" when working with `git merge`[3] and `g
 
 To list all your branches:
 ```bash
-$ git branch
+git branch
 * develop
 new-feature
 master
@@ -54,33 +54,33 @@ master
 
 Create a new branch:
 ```bash
-$ git branch my-branch
+git branch my-branch
 # will not switch to it
 
 ```
 Delete a branch:
 ```bash
-$ git branch -d my-branch
+git branch -d my-branch
 # unmerged changes will stop this
-$ git branch -D my-branch
+git branch -D my-branch
 # will force delete
 ```
 To rename the current branch:
 ```bash
-$ git branch -m new-branch-name
+git branch -m new-branch-name
 
 ```
 Thinking of a branch as a pointer to a specific state of the repository, we can visualize how changing to a different branch takes us to a different stage of the same project. Different changes of the same project are stored on different branches. To change the branch we are on, we can use `git checkout`[4]:
-```
-$ git checkout my-branch
+```bash
+git checkout my-branch
 ```
 
 ---
 ## Practice
 
 Complete the command below to force the delete of `my-branch`:
-```
-$ git ??? ??? my-branch
+```bash
+git ??? ??? my-branch
 ```
 
 
@@ -122,7 +122,6 @@ A **fork** is a copy of a repository. Forking a repository allows you to freely 
 [4:checkout]
 Using the `git checkout` command together with the `-b` flag, you can simultaneously create a new branch and switch to it:
 ```bash
-$ git checkout -b my-branch
-
+git checkout -b my-branch
 ```
  

@@ -35,15 +35,15 @@ When you use the `git clone` or `git checkout` commands on a remote repository, 
 Instead, you can explicitly set the upstream branch by using the `-u` or `--set-upstream-to` options.
 
 For example, to set the current branch to track the remote branch `scrollFix`:
-```
-$ git branch -u origin/scrollFix
+```bash
+git branch -u origin/scrollFix
 ```
 
 ---
 ## Practice
 
-```
-$ git ??? ??? 
+```bash
+git ??? ??? 
         ???/???
 ``` 
 is used to set the current branch to follow the remote branch *newFeature*.

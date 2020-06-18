@@ -49,8 +49,8 @@ The rules set in `.git/info/exclude` will not be committed.
 ## Practice
 
 To track the `.gitignore` file you’d run :
-```
-$ git ??? ???
+```bash
+git ??? ???
 ```
 * add
 * .gitignore

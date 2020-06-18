@@ -48,8 +48,8 @@ Full directories and subdirectories can be targeted:
 ```
 
 Keep in mind that if files specified in `.gitignore` were checked in before the rule was introduced, you need to manually **untrack** them:
-```
-$ git rm --cached myFile.java
+```bash
+git rm --cached myFile.java
 ```
 Most of the time, you should be able to find online a `.gitignore` template for the language and IDE combination you're using.
 

@@ -50,7 +50,7 @@ However, **unexpected failure** can occur when running `npm install` over time d
 
 The command:
 ```bash
-$ npm shrinkwrap
+npm shrinkwrap
 ```
 generates a snapshot of the current dependency tree and will lock down versions of dependencies.
 
@@ -61,8 +61,8 @@ This is done by automatically generating the `npm-shrinkwrap.json` file which wi
 
 What command do you need to run as to generate a snapshot of the current dependency tree and lock down versions inside it?
 
-```
-$ ??? ???
+```bash
+??? ???
 ```
 
 * npm
@@ -77,8 +77,8 @@ $ ??? ???
 
 What command do you need to run as to generate a snapshot of the current dependency tree and lock down versions inside it?
 
-```
-$ ??? ???
+```bash
+??? ???
 ```
 
 * npm

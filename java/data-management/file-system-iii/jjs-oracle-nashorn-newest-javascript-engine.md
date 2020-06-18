@@ -36,14 +36,14 @@ With the introduction of *Java 8*, the *JDK* will be shipped with a new *JavaScr
 
 The `jjs` tool can be run from the terminal and accepts *JavaScript* files as argument:
 ```shell
-$ jjs MyFile.js
+jjs MyFile.js
 ```
 
 While **Oracle Nashorn** runs *ECMA*-compliant *JavaScript*, it is important to note that objects normally accessible in a web browser are not available, for example, `console`, `window`, and so on.
 
 In order to get a list of all jjs commands:
-```
-$ jjs -help
+```shell
+jjs -help
 ```
 
 A few interesting features of Oracle Nashorn:

@@ -39,9 +39,8 @@ The `PATH` variable itself contains a `:`-delimited list of directories.
 See for yourself:
 
 ```shell
-jesse@host ~ $ echo $PATH
+echo $PATH
 /usr/local/bin:/usr/bin:/bin
-jesse@host ~ $
 ```
 
 **Note**: the fact that `:`'s are used to delimit the directories here is a matter of *convention*.  Other parts of the system assume the list is `:`-delimited, but if in the 1970s we had settled on `,` or `;` instead, we would still be using that today.
@@ -67,7 +66,7 @@ If you're ever dealing with unexpected `command not found` errors then your firs
 
 If the `PATH` variable looks like this:
 ```
-$ echo $PATH
+echo $PATH
 /usr/bin:/bin:/local/binaries
 ```
 In what order will the shell visit the folders in `PATH` to find a valid executable for `somecommand`?
@@ -103,7 +102,7 @@ The `command not found` error is thrown if the executable couldn’t be found
 Suppose your $PATH value is:
 
 ```bash
-$ echo $PATH
+echo $PATH
 /bin:/usr/bin:~/Desktop/rm-ext:~/atom
 ```
 What is the next directory the shell will look

@@ -31,8 +31,8 @@ parent: managing-branches
 You can view your tracking branches by using the `-vv` option.
 
 For example:
-```
-$ git branch -vv
+```bash
+git branch -vv
   master    2bcd45a [origin/master]
    introduce new game
 * scrollfix 12ac79d [uiTeam/uiFix: 
@@ -46,8 +46,8 @@ Note: the information displayed relates to the last time you connected to the se
 ## Practice
 
 After running :
-```
-$ git branch -vv
+```bash
+git branch -vv
   master  2bcd45a [origin/master]
   Bug resolved
  * newfeature 12ac79d 
@@ -70,8 +70,8 @@ It can be said that:
 ## Revision
 
 To see the status of your tracked branches in relation with their upstream counterpart, you would run
-```
-$ git ??? ???
+```bash
+git ??? ???
 ```
 
 * `branch`

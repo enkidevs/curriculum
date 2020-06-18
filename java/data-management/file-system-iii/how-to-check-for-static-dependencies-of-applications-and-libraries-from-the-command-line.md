@@ -35,7 +35,7 @@ Introduced with JDK 8, the `jdeps` command shows the package-level or class-leve
 Basic syntax:
 
 ```java
-$ jdeps myApplication.jar 
+jdeps myApplication.jar 
 
 ```
 
@@ -43,12 +43,12 @@ The input class can be a path name to a `.class` file, a directory, a `JAR` file
 
 Prints all class-level dependencies:
 ```java
-$ jdeps -v myApplication.jar
+jdeps -v myApplication.jar
 ```
 
 Write the output in `.dot` files :
 ```java
-$ jdeps -v myApplication.jar 
+jdeps -v myApplication.jar 
 -dotoutput LOCATION
 
 ```

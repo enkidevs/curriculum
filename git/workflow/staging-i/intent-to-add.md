@@ -28,8 +28,8 @@ links:
 ## Content
 
 You can use the `-N` flag to show that you are going to track a file in the future:
-```
-$ git add -N file.txt
+```bash
+git add -N file.txt
 ```
 Once git knows you are intending to add the untracked file, you can use commands like `git diff` on the file without any problems, as well as commit it using `git commit -a`.
 
@@ -37,8 +37,8 @@ Once git knows you are intending to add the untracked file, you can use commands
 ## Practice
 
 Show that you intend to track `enki.md` :
-```
-$ git ??? ??? enki.md
+```bash
+git ??? ??? enki.md
 ```
 
 * `add`
@@ -51,8 +51,8 @@ $ git ??? ??? enki.md
 ## Revision
 
 Which flag specifies the *intention* to add a file in the future?
-```
-$ git add ???
+```bash
+git add ???
 ```
 
 * `-N`

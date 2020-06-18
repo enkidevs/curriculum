@@ -56,7 +56,7 @@ console.log(test);
 ```
 Running *main.js* from a REPL terminal returns the following:
 ```bash
-$ node main.js
+node main.js
 Required and exported!
 ```
 

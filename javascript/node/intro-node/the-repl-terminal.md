@@ -40,7 +40,7 @@ A key benefit of using Node's REPL terminal is that it helps iron out any irregu
 
 The REPL terminal can be used for simple expressions as follows:
 ```bash
-$ node
+node
 > 4 + 2 * 9 - 6
 16
 ```
@@ -61,7 +61,7 @@ undefined
 
 What does the following print?
 ```bash
-$ node
+node
 > 3 + 7 * 3 - 4
 ```
 ???

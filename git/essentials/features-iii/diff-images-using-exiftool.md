@@ -37,8 +37,8 @@ Add this to your `.gitattributes` file:
 *.png diff=exif
 ```
 Configure git to use `exif`:
-```
-$ git config diff.exif.textconv exiftool
+```bash
+git config diff.exif.textconv exiftool
 ```
 If you run `git diff` you will see changes in the metadata between the images, for example in their file sizes:
 ```
