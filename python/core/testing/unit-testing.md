@@ -1,24 +1,18 @@
 ---
 author: SebaRaba
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-  - workout
-  - deep
-
 links:
-  - '[Unit Testing](https://docs.python.org/3/library/unittest.html){documentation}'
-
-
+  - >-
+    [Unit
+    Testing](https://docs.python.org/3/library/unittest.html){documentation}
 ---
 
 # Unittest
 
+
 ---
+
 ## Content
 
 **"Testing"**, in general programming terms, is the practice of writing code (separate from your actual application), that invokes parts of your application's code in order to **test** if it works as expected.
@@ -46,15 +40,17 @@ if __name__ == '__main__':
 ```
 
 The standard way of writing a unit test is:
-- `import unittest`
-- define a class derived from `unittest.TestCase`
-- define test methods, their *name starting with the keyword `test_`*
-- place `unittest.main()` in your new class to be able to run the **tests**
+
+* `import unittest`
+* define a class derived from `unittest.TestCase`
+* define test methods, their *name starting with the keyword `test_`*
+* place `unittest.main()` in your new class to be able to run the **tests**
 
 Each **test case** can make use of the following methods:
-- `assertEqual()` to check for an expected result
-- `assertTrue()` or `assertFalse()` to verify a condition
-- `assertRises()` to verify that a specific exception is raised
+
+* `assertEqual()` to check for an expected result
+* `assertTrue()` or `assertFalse()` to verify a condition
+* `assertRises()` to verify that a specific exception is raised
 
 Two additional methods are worth mentioning: `setUp()` and `tearDown()`, which allow us to define **instructions** that will be executed **before** (`setUp()`) and **after** (`tearDown()`) each test method.
 
@@ -66,18 +62,17 @@ python -m unittest simple_test.py
 
 The following **output** will be generated:
 
-```
-.
-===========================
-Ran 1 tests in 0.000s
+    .
+    ===========================
+    Ran 1 tests in 0.000s
 
-OK
-```
+    OK
 
 The full stop displayed above the dashes ('-') indicates how many test have **passed**. Below the dashes we can see the **number of tests** and the **time they took to run**. The last line will contain one of three messages:
-- `OK` test passes;
-- `FAIL` the test fails and rises `AssertionError`;
-- `ERROR` the test fails and doesn't rise `AssertionError`.
+
+* `OK` test passes;
+* `FAIL` the test fails and rises `AssertionError`;
+* `ERROR` the test fails and doesn't rise `AssertionError`.
 
 For more detailed test results, use the `-v` flag with the command:
 
@@ -86,16 +81,17 @@ python -m unittest simple_test.py -v
 ```
 
 The following output will be generated:
-```
-test_True (__main__.SimplisticTest) ... ok
-===========================
 
-Ran 1 tests in 0.000s
+    test_True (__main__.SimplisticTest) ... ok
+    ===========================
 
-OK
-```
+    Ran 1 tests in 0.000s
+
+    OK
+
 
 ---
+
 ## Practice
 
 `setUp()` method defines instructions/code that will be run
@@ -107,7 +103,9 @@ OK
 * during testing
 * this is not a method
 
+
 ---
+
 ## Revision
 
 `assertTrue()` and `assertFalse()` methods are used to check whether

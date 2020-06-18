@@ -1,22 +1,16 @@
 ---
 author: Stefan-Stojanovic
-
 levels:
   - beginner
-
-aspects:
-  - deep
-  - workout
-
 type: normal
-
 category: how to
-
 ---
 
 # Classes
 
+
 ---
+
 ## Content
 
 Classes are used when we want to apply the same styles to different elements without having to style every element from scratch[1].
@@ -49,7 +43,9 @@ To edit a class name, duplicate or delete it, select the class you want to edit 
 
 **Note:** If only one element has a particular class and you accidentally removed the class from the element, you don't have to worry. Just start typing the name of the class and the class will be shown in the "Existing classes" section.
 
+
 ---
+
 ## Practice
 
 Which statement about classes is not true?
@@ -61,7 +57,9 @@ Which statement about classes is not true?
 * Classes can be applied to any element.
 * Classes retain all styling information.
 
+
 ---
+
 ## Footnotes
 
 [1:Example]

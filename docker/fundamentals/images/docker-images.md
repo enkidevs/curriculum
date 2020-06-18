@@ -1,15 +1,15 @@
 ---
 author: nem035
-aspects:
-  - introduction
-  - workout
 type: normal
 category: must-know
 links:
-- '[What is the difference between a Docker image and a Container?](https://stackoverflow.com/questions/23735149/what-is-the-difference-between-a-docker-image-and-a-container){discussion}'
+  - >-
+    [What is the difference between a Docker image and a
+    Container?](https://stackoverflow.com/questions/23735149/what-is-the-difference-between-a-docker-image-and-a-container){discussion}
 ---
 
 # Images
+
 
 ---
 
@@ -57,23 +57,22 @@ docker history nginx
 
 would output something like:
 
-```
-IMAGE               CREATED             CREATED BY                                      SIZE                COMMENT
-3f8a4339aadd        2 days ago          /bin/sh -c #(nop)  CMD ["nginx" "-g" "daem...   0B
-<missing>           2 days ago          /bin/sh -c #(nop)  STOPSIGNAL [SIGTERM]         0B
-<missing>           2 days ago          /bin/sh -c #(nop)  EXPOSE 80/tcp                0B
-<missing>           2 days ago          /bin/sh -c ln -sf /dev/stdout /var/log/ngi...   22B
-<missing>           2 days ago          /bin/sh -c set -x  && apt-get update  && a...   53.2MB
-<missing>           2 days ago          /bin/sh -c #(nop)  ENV NJS_VERSION=1.13.8....   0B
-<missing>           2 days ago          /bin/sh -c #(nop)  ENV NGINX_VERSION=1.13....   0B
-<missing>           2 weeks ago         /bin/sh -c #(nop)  LABEL maintainer=NGINX ...   0B
-<missing>           2 weeks ago         /bin/sh -c #(nop)  CMD ["bash"]                 0B
-<missing>           2 weeks ago         /bin/sh -c #(nop) ADD file:f30a8b5b7cdc9ba...   55.3MB
-```
+    IMAGE               CREATED             CREATED BY                                      SIZE                COMMENT
+    3f8a4339aadd        2 days ago          /bin/sh -c #(nop)  CMD ["nginx" "-g" "daem...   0B
+    <missing>           2 days ago          /bin/sh -c #(nop)  STOPSIGNAL [SIGTERM]         0B
+    <missing>           2 days ago          /bin/sh -c #(nop)  EXPOSE 80/tcp                0B
+    <missing>           2 days ago          /bin/sh -c ln -sf /dev/stdout /var/log/ngi...   22B
+    <missing>           2 days ago          /bin/sh -c set -x  && apt-get update  && a...   53.2MB
+    <missing>           2 days ago          /bin/sh -c #(nop)  ENV NJS_VERSION=1.13.8....   0B
+    <missing>           2 days ago          /bin/sh -c #(nop)  ENV NGINX_VERSION=1.13....   0B
+    <missing>           2 weeks ago         /bin/sh -c #(nop)  LABEL maintainer=NGINX ...   0B
+    <missing>           2 weeks ago         /bin/sh -c #(nop)  CMD ["bash"]                 0B
+    <missing>           2 weeks ago         /bin/sh -c #(nop) ADD file:f30a8b5b7cdc9ba...   55.3MB
 
 An image that doesn't extend any other image is known as the base image.
 
 Images are built using a special configuration file (commonly) named Dockerfile and the `docker build` command.
+
 
 ---
 
@@ -86,6 +85,7 @@ Docker images are composed of ???
 * pixels
 * fragments
 
+
 ---
 
 ## Revision
@@ -97,7 +97,9 @@ A Docker image can be modified.
 * false
 * true
 
+
 ---
+
 ## Footnotes
 
 [1: SHA]

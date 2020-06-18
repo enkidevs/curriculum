@@ -1,54 +1,36 @@
 ---
 author: kapnobatai136
-
 levels:
-
   - beginner
-
   - basic
-
   - medium
-
   - advanced
-
 type: normal
-
 category: must-know
-
 inAlgoPool: false
-
 standards:
   sql.define-columns.2: 10
-
 tags:
-
   - workout
-
   - deep
-
-
 links:
-
-  - '[More on ADD DEFAULT](https://www.w3schools.com/sql/sql_default.asp){website}'
-
-
-aspects:
-  - workout
-  - deep
-
-
+  - >-
+    [More on ADD
+    DEFAULT](https://www.w3schools.com/sql/sql_default.asp){website}
 ---
 
 # Alter Characteristics
 
+
 ---
+
 ## Content
 
 There are three main characteristics which you can change using an `ALTER` command:
 
-- the data type
-- the `DEFAULT` clause
-- the `NOT NULL` clause
+* the data type
+* the `DEFAULT` clause
+* the `NOT NULL` clause
 
 ### Data Type
 
@@ -100,13 +82,15 @@ ALTER COLUMN column_name
 DROP NOT NULL;
 ```
 
+
 ---
+
 ## Practice
 
 Look at the `region` table below. How would you set 1 as the default value to all entries in the `region_id` column?
 
 | id | region_id | name           |
-|----|-----------|----------------|
+| -- | --------- | -------------- |
 | 1  | 1         | generation-i   |
 | 2  | 2         | generation-ii  |
 | 3  | 3         | generation-iii |
@@ -128,13 +112,15 @@ ALTER ??? ???
 * UPDATE
 * ALTER COLUMN
 
+
 ---
+
 ## Revision
 
 We'd like to set the default value `"ruby"` to all entries in the column `name` in the `version` table. We would also like to remove the `NOT NULL` clause to the `id` column.
 
 | id | version_group_id | name     |
-|----|------------------|----------|
+| -- | ---------------- | -------- |
 | 1  | 1                | red      |
 | 2  | 1                | blue     |
 | 3  | 2                | yellow   |

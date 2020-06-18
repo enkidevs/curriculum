@@ -1,26 +1,25 @@
 ---
 author: tommarshall
-
 levels:
-
   - beginner
-
 type: normal
-
 category: must-know
-aspects:
-  - introduction
-
 inAlgoPool: false
-
 standards:
   python.control-structures.0: 10
+---
+
+# `break`
+
+ and 
+
+`continue`
+
+ statements
+
 
 ---
 
-# `break` and `continue` statements
-
----
 ## Content
 
 Python's `break` statement is used to terminate the current loop, either a for or a while loop, it then resumes the code execution at the following statement.
@@ -37,6 +36,7 @@ while (x > 0):
 
 print("Broken away!")
 ```
+
 This gives the following output:
 
 ```python
@@ -45,6 +45,7 @@ This gives the following output:
 3
 Broken away!
 ```
+
 Python's `continue` statement is used to skip the current code block, and to resume execution back at the beginning of the current loop.
 
 For example, it can be used to print only odd numbers:
@@ -55,6 +56,7 @@ for x in range(0, 10):
     continue
   print(x)
 ```
+
 This gives the following output:
 
 ```python
@@ -65,25 +67,27 @@ This gives the following output:
 9
 ```
 
+
 ---
+
 ## Practice
 
 Which keyword is used to skip the current code block, and to resume execution at the start of the current loop?
 
 ???
 
-
 * `continue`
 * `break`
 * `restart`
 
+
 ---
+
 ## Revision
 
 Which keyword is used to terminate the current loop, then resuming code execution at the following statement?
 
 ???
-
 
 * `break`
 * `continue`

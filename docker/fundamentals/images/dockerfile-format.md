@@ -1,16 +1,18 @@
 ---
 author: nem035
-aspects:
-  - introduction
-  - workout
 type: normal
 category: must-know
 links:
-- '[Best practices for writing Dockerfiles](https://docs.docker.com/develop/develop-images/dockerfile_best-practices/){article}'
-- '[Dockerfile reference](https://docs.docker.com/engine/reference/builder/){documentation}'
+  - >-
+    [Best practices for writing
+    Dockerfiles](https://docs.docker.com/develop/develop-images/dockerfile_best-practices/){article}
+  - >-
+    [Dockerfile
+    reference](https://docs.docker.com/engine/reference/builder/){documentation}
 ---
 
 # Dockerfile Format
+
 
 ---
 
@@ -71,38 +73,36 @@ docker build enki
 
 Here's an example output of building an image from the Dockerfile above:
 
-```
-Sending build context to Docker daemon  23.29MB
-Step 1/5 : FROM node
-latest: Pulling from library/node
-9cc2ad81d40d: Pull complete
-e6cb98e32a52: Pull complete
-ae1b8d879bad: Pull complete
-42cfa3699b05: Pull complete
-053cac798c4e: Pull complete
-e11ff976ff71: Pull complete
-6e754155fada: Pull complete
-32d7c2fdf415: Pull complete
-7acfea3f0d48: Pull complete
-Digest: sha256:xxx
-Status: Downloaded newer image for node:latest
- ---> b18afbdfc458
-Step 2/5 : ENV ENKI="fun"
- ---> Running in 3560df900d1f
-Removing intermediate container 3560df900d1f
- ---> 53a94ebce927
-Step 3/5 : RUN echo "Learning Docker is $ENKI"
- ---> Running in e42c0617e98e
-Learning Docker is fun
-Removing intermediate container e42c0617e98e
- ---> 78a48477a76d
-Step 4/5 : EXPOSE 1234
- ---> Running in a1df0ebf5605
-Removing intermediate container a1df0ebf5605
- ---> 15a139f293da
-Step 5/5 : CMD ["echo", "Docker", "is", "cool"]
- ---> Running in 3c8e7b309484
-Removing intermediate container 3c8e7b309484
- ---> 8c40e5b0c9b9
-Successfully built 8c40e5b0c9b9
-```
+    Sending build context to Docker daemon  23.29MB
+    Step 1/5 : FROM node
+    latest: Pulling from library/node
+    9cc2ad81d40d: Pull complete
+    e6cb98e32a52: Pull complete
+    ae1b8d879bad: Pull complete
+    42cfa3699b05: Pull complete
+    053cac798c4e: Pull complete
+    e11ff976ff71: Pull complete
+    6e754155fada: Pull complete
+    32d7c2fdf415: Pull complete
+    7acfea3f0d48: Pull complete
+    Digest: sha256:xxx
+    Status: Downloaded newer image for node:latest
+     ---> b18afbdfc458
+    Step 2/5 : ENV ENKI="fun"
+     ---> Running in 3560df900d1f
+    Removing intermediate container 3560df900d1f
+     ---> 53a94ebce927
+    Step 3/5 : RUN echo "Learning Docker is $ENKI"
+     ---> Running in e42c0617e98e
+    Learning Docker is fun
+    Removing intermediate container e42c0617e98e
+     ---> 78a48477a76d
+    Step 4/5 : EXPOSE 1234
+     ---> Running in a1df0ebf5605
+    Removing intermediate container a1df0ebf5605
+     ---> 15a139f293da
+    Step 5/5 : CMD ["echo", "Docker", "is", "cool"]
+     ---> Running in 3c8e7b309484
+    Removing intermediate container 3c8e7b309484
+     ---> 8c40e5b0c9b9
+    Successfully built 8c40e5b0c9b9

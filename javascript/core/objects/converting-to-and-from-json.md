@@ -1,26 +1,20 @@
 ---
 author: Ewa Trzemżalska
-
 levels:
-    - beginner
-    - basic
-
+  - beginner
+  - basic
 type: normal
-
-aspects:
-  - introduction
-  - workout
-
 category: feature
-
 tags:
   - JSON
   - introduction
-
 ---
+
 # Converting to and from JSON
 
+
 ---
+
 ## Content
 
 `JSON.stringify()` method is used to convert a JavaScript object or value to a JSON string. 
@@ -36,7 +30,6 @@ const ourDog = {
 console.log(JSON.stringify(ourDog));
 // prints '{"name":"Leo","dog years":14}'
 ```
-
 
 To override the default behavior of `JSON.stringify()` you can provide a key `toJSON` in your object, mapping to a function with your desired behavior.
 
@@ -64,7 +57,10 @@ const dog = JSON.parse(ourJSON);
 console.log(dog.name);
 // prints "Roxy"
 ```
+
+
 ---
+
 ## Practice
 
 What will be printed by this `console.log()`?
@@ -89,7 +85,9 @@ prints `'{"???":"???","???":???}'`
 * `JSON`
 * `years`
 
+
 ---
+
 ## Revision
 
 What method should be used in example below?
@@ -105,10 +103,13 @@ console.log(cat.name);
 * `toJSON`
 * `stringify`
 
+
 ---
+
 ## Quiz
 
 ### How well do you know JSON?
+
 
 What will be returned by the following code?
 

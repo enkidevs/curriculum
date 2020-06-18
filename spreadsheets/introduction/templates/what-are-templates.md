@@ -1,18 +1,14 @@
 ---
 author: Stefan-Stojanovic
-
-aspects:
-  - introduction
-
 type: normal
-
 category: must-know
-
 ---
 
 # What's a Template?
 
+
 ---
+
 ## Content
 
 A template is a pre-designed sheet with predefined formulas and formatting. Templates are very useful because they save a lot of time. 

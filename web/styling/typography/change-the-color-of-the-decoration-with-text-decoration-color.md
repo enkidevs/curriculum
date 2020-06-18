@@ -1,31 +1,27 @@
 ---
 author: Mathieu
-
 levels:
-
   - basic
-
   - beginner
-
 type: normal
-
 category: how to
-
-aspects:
-  - introduction
-
 links:
-
-  - '[MDN Docs on Text Decoration](https://developer.mozilla.org/fr/docs/Web/CSS/text-decoration){documentation}'
-  - '[More Control Over Text Decoration](https://css-tricks.com/more-control-over-text-decoration/){website}'
-
+  - >-
+    [MDN Docs on Text
+    Decoration](https://developer.mozilla.org/fr/docs/Web/CSS/text-decoration){documentation}
+  - >-
+    [More Control Over Text
+    Decoration](https://css-tricks.com/more-control-over-text-decoration/){website}
 parent: underline-feature-on-html-elements
+---
+
+# Change the color of the decoration with 
+
+`text-decoration-color`
+
 
 ---
 
-# Change the color of the decoration with `text-decoration-color`
-
----
 ## Content
 
 The default for the color of the decoration lines is the same as the `color` of the text. But you can change that:
@@ -36,9 +32,12 @@ a {
   text-decoration-color: #c0ffee;
 }
 ```
+
 The only browser that currently supports this property is `Firefox`.
 
+
 ---
+
 ## Revision
 
 What is the default text decoration colour? And with what property can this be changed? ???

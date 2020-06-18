@@ -1,39 +1,27 @@
 ---
 author: lizTheDeveloper
-
 levels:
-
   - beginner
-
   - basic
-
   - medium
-
-aspects:
-
-  - introduction
-
-  - workout
-
 type: normal
-
 category: best practice
-
-
 standards:
   security.xxe.0: 10
   security.xxe.2: 10
-
 links:
-  - '[XML Security Cheat Sheet](https://www.owasp.org/index.php/XML_Security_Cheat_Sheet)'
-
-
+  - >-
+    [XML Security Cheat
+    Sheet](https://www.owasp.org/index.php/XML_Security_Cheat_Sheet){website}
 ---
 
 # XXE Security
 
+
 ---
+
 ## Content
+
 Two main categories of vulnerability exist in XML processors that can be attack vectors beyond the remote execution of code and denial of service attacks. These come from the following techniques:
 
 **Malformed XML Documents**: vulnerabilities using not well formed documents.
@@ -47,14 +35,15 @@ These document attack vectors include improperly specified schemas allowing mali
 **Schema Poisoning** is considered to be within the Invalid XML Documents section, though these are technically correctly formed. Incorrect permissions can cause locally-defined schemas (schemas defined within the document users send) to execute remote code. Because Schema Poisoning need not be from the originating user (it can be accomplished with man-in-the-middle attacks), defend against this layer by not relying on client-side validation, which is what locally-defined schemas are.
 
 Bookmark this insight to get the cheatsheet for insecure practices, which contains examples of the attack vectors above with mitigation strategies.
- 
+
+
 ---
+
 ## Practice
 
 Which categories of error do XXE vulnerabilities fall into?
 
 ??? XML Documents: exploits vulnerabilities using not well formed documents.
-
 
 ??? XML Documents: exploits vulnerabilities using documents that do not have the expected structure.
 
@@ -65,7 +54,9 @@ Which categories of error do XXE vulnerabilities fall into?
 * NonParseableDocument
 * Broken
 
+
 ---
+
 ## Revision
 
 Locally-defined Schemas in XML documents are vulnerable to:

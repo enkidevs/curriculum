@@ -1,26 +1,22 @@
 ---
 author: catalin
-
 levels:
-
   - basic
-
   - beginner
-
 type: normal
-
 category: best practice
-
 parent: custom-proptype-s-to-be-required
+---
 
-aspects:
-  - deep
+# Using 
+
+`false`
+
+ in JSX
+
 
 ---
 
-# Using `false` in JSX
-
----
 ## Content
 
 The usage of the `false` keyword in **JSX** and implicitly **React** is worth mentioning because of its volatile behavior.
@@ -54,7 +50,9 @@ ReactDOM.render(
 );
 ```
 
+
 ---
+
 ## Practice
 
 What does the following code snippet do? 
@@ -72,7 +70,9 @@ ReactDOM.render(
 * Renders the div element false.
 * Renders there to be no div element.
 
+
 ---
+
 ## Revision
 
 How will the `id` in the following code snippet be rendered as?
@@ -83,14 +83,12 @@ ReactDOM.render(
   myNode
 );
 ```
+
 Result:
-```
-id=???
-```
+
+    id=???
 
 * `"false"`
 * `'false'`
 * `false`
 * `undefined`
-
-

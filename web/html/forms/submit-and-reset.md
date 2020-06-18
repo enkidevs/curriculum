@@ -1,30 +1,30 @@
 ---
 author: Stefan-Stojanovic
-
 levels:
   - beginner
   - basic
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-  - workout
-
 links:
-  - '[HTML type="reset"](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/reset){documentation}'
-  - '[HTML type="submit"](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/submit){documentation}'
+  - >-
+    [HTML
+    type="reset"](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/reset){documentation}
+  - >-
+    [HTML
+    type="submit"](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/submit){documentation}
+---
+
+# Submit & Reset
+
 
 ---
-# Submit & Reset
----
+
 ## Content
 
 The HTML inputs of type `submit` and `reset` are rendered as buttons with `onClick` events. They both send a value to the server when clicked. The `type="submit` button sends the data from the form to the server. Whereas the `type="reset"` resets the data in the form to it's initial or default state.
 
 Example submit:
+
 ```html
 <input
   type="submit"
@@ -33,8 +33,8 @@ Example submit:
 
 ![form-submit-btn](https://img.enkipro.com/e12a58288fba3ed2b0971eba992c7661.png)
 
-
 Example reset:
+
 ```html
 <input
   type="reset"
@@ -50,6 +50,7 @@ The `value` of either type is represented with a `DOMString`. This is something 
 The `type="submit"` button is used to submit a form.
 
 Example submit and reset with one text field:
+
 ```html
 <form>
     <label
@@ -74,6 +75,7 @@ Example submit and reset with one text field:
 Furthermore, you can add shortcuts both to the `submit` and `reset` buttons via the `accesskey` attribute:
 
 Previous example with shortcuts added:
+
 ```html
 <form>
     <label
@@ -99,7 +101,9 @@ In this example, on a Mac, pressing `Control`+`Option`+`S`/`R` triggers the `Nex
 
 Nevertheless, even though we provide the access key, there is no way for the user to know what the `accesskey` shortcut is without giving them a tooltip or a hint with the information somewhere on the page.
 
+
 ---
+
 ## Practice
 
 Write the form code that creates a reset button.
@@ -121,7 +125,9 @@ Which line of code defines the button that sends the data when clicked?
 * `<input submit="Send">`
 * `<input value="submit" type="Send">`
 
+
 ---
+
 ## Revision
 
 Write the form code that creates a submit button.
@@ -135,10 +141,13 @@ Write the form code that creates a submit button.
 * send
 * data
 
+
 ---
+
 ## Quiz
 
 ### How much do you know about buttons within forms?
+
 
 If values are not assigned to reset and submit buttons stating what text the buttons should display, what happens?
 

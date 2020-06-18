@@ -1,37 +1,29 @@
 ---
 author: tommarshall
-
 levels:
   - beginner
   - basic
   - medium
   - advanced
-
 type: normal
-
 category: must-know
-
 standards:
   javascript.events-asynchronous-operations.2: 20
-
 tags:
   - introduction
   - workout
-
 links:
-  - '[Passing arguments](https://nodejs.org/api/events.html#events_passing_arguments_and_this_to_listeners){website}'
-
+  - >-
+    [Passing
+    arguments](https://nodejs.org/api/events.html#events_passing_arguments_and_this_to_listeners){website}
 parent: synchronous-event-delivery
-
-aspects:
-  - introduction
-  - workout
-
-
 ---
+
 # Passing arguments to listeners
 
+
 ---
+
 ## Content
 
 The `eventEmitter.emit()` method allows for a set of arguments to be passed to the listener functions. The `this` keyword, when passed, is set to reference the `EventEmitter` to which the listener is attached.
@@ -51,7 +43,9 @@ emitter.on('event', function(x, y) {
 emitter.emit('event', 'En', 'ki');
 
 ```
+
 Gives the following output:
+
 ```javascript
 En ki MyEmitter {
   domain: null,
@@ -60,7 +54,9 @@ En ki MyEmitter {
   _maxListeners: undefined }
 ```
 
+
 ---
+
 ## Revision
 
 What does `this` refer to inside of a callback registered to listen to an event on an `EventEmitter`?
@@ -70,4 +66,3 @@ What does `this` refer to inside of a callback registered to listen to an event 
 * global
 * event
 * window
- 

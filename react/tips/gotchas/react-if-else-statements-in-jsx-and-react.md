@@ -1,27 +1,22 @@
 ---
 author: catalin
-
 levels:
   - basic
   - beginner
-
 type: normal
-
 category: how to
-
 links:
-  - '[Inline if else conditional operator](https://facebook.github.io/react/docs/conditional-rendering.html#inline-if-else-with-conditional-operator){website}'
-
+  - >-
+    [Inline if else conditional
+    operator](https://facebook.github.io/react/docs/conditional-rendering.html#inline-if-else-with-conditional-operator){website}
 parent: custom-proptype-s-to-be-required
-
-aspects:
-  - workout
-  - deep
-
 ---
+
 # if/else statements in JSX and React
 
+
 ---
+
 ## Content
 
 **JSX** is a JavaScript extension intended to be a syntactic sugar for function calls and object construction.
@@ -78,7 +73,9 @@ Another alternative is that *immediately-invoked function expressions* can be us
 </p>;
 ```
 
+
 ---
+
 ## Practice
 
 Can you use switch statements in JSX?
@@ -90,7 +87,9 @@ Can you use switch statements in JSX?
 * no
 * only for strings
 
+
 ---
+
 ## Revision
 
 How would you write `if (condition) return 'x' else return 'y'` using ternary expressions?
@@ -114,4 +113,3 @@ How would you write `if (condition) return 'x' else return 'y'` using ternary ex
 * else
 * switch
 * () =>
-

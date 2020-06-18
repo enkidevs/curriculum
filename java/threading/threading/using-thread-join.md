@@ -1,25 +1,24 @@
 ---
 author: adamMontgomerie
-
 levels:
   - medium
-
 type: normal
-
 category: feature
-
-aspects:
-  - workout
-
-  - deep
-
 links:
-  - "[docs.oracle.com](https://docs.oracle.com/javase/tutorial/essential/concurrency/join.html){website}"
-  - "[More on Joining](https://docs.oracle.com/javase/tutorial/essential/concurrency/join.html){website}"
-  - "[More on InterruptedException](https://docs.oracle.com/javase/7/docs/api/java/lang/InterruptedException.html){website}"
+  - >-
+    [docs.oracle.com](https://docs.oracle.com/javase/tutorial/essential/concurrency/join.html){website}
+  - >-
+    [More on
+    Joining](https://docs.oracle.com/javase/tutorial/essential/concurrency/join.html){website}
+  - >-
+    [More on
+    InterruptedException](https://docs.oracle.com/javase/7/docs/api/java/lang/InterruptedException.html){website}
 ---
 
-# Using `Thread.join`
+# Using 
+
+`Thread.join`
+
 
 ---
 
@@ -73,6 +72,7 @@ In this case `n` is calculated after we get the results from t1 an t2. If there 
 
 The try/catch block is important as when we call `join()` methods on our threads we are relying on the fact that they finish their execution. During this process, they might get interrupted for whatever reason which will cause incorrectness of the end result.
 
+
 ---
 
 ## Practice
@@ -81,10 +81,11 @@ What does `join()` method do?
 
 ???
 
-- It waits until a thread finished executing.
-- It pauses execution of a thread for a certain time.
-- It pauses all the threads in a queue.
-- It frees all the resources that the current thread is holding.
+* It waits until a thread finished executing.
+* It pauses execution of a thread for a certain time.
+* It pauses all the threads in a queue.
+* It frees all the resources that the current thread is holding.
+
 
 ---
 
@@ -106,11 +107,11 @@ t1.join();
 
 The `t1.join()` method call will? ???
 
-- `join()`
-- wait until t1 to dies
-- `sleep()`
-- `wait()`
-- `combine()`
-- immediately start t2
-- pause t1 until t2 dies
-- speed up t1
+* `join()`
+* wait until t1 to dies
+* `sleep()`
+* `wait()`
+* `combine()`
+* immediately start t2
+* pause t1 until t2 dies
+* speed up t1

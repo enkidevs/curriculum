@@ -1,33 +1,30 @@
 ---
 author: Tyler Bettilyon
-
 levels:
   - beginner
-
-aspects:
-  - introduction
-  - workout
-
 type: normal
 category: must-know
-
 standards:
   comp-sci.dns.0: 10
-
 links:
-
-  - '[What Is DNS?](https://www.cloudflare.com/learning/dns/what-is-dns/){article}'
+  - >-
+    [What Is
+    DNS?](https://www.cloudflare.com/learning/dns/what-is-dns/){article}
   - '[RFC 1035 Defines DNS](https://www.ietf.org/rfc/rfc1035.txt){documentation}'
-
 ---
+
 # DNS Purpose
+
+
 ---
 
 ## Content
 
 DNS is used *a lot*. It's rare for humans to memorize and use IP addresses for a number of reasons; as a result DNS is quietly invoked in a number of different contexts. Any time a program makes an internet request using a name (as opposed to an IP address) a DNS request is required to resolve the proper IP address.
 
+
 ---
+
 ## Practice
 
 Which of the following actions NEVER require a DNS lookup?
@@ -40,7 +37,9 @@ Which of the following actions NEVER require a DNS lookup?
 * Making an HTTP request to a web API in a programming language.
 * Using the `curl` command to make an HTTP request from the terminal.
 
+
 ---
+
 ## Revision
 
 When is a DNS lookup required?

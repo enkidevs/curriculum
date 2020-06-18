@@ -1,23 +1,17 @@
 ---
 author: Stefan-Stojanovic
-
 levels:
   - beginner
-
-aspects:
-  - obscura
-  - introduction
-
 type: normal
-
 category: must-know
-
 links:
-  - '[Analysis of the NoSQL Landscape](http://blog.knuthaugen.no/2010/03/the-nosql-landscape.html){website}'
-
+  - >-
+    [Analysis of the NoSQL
+    Landscape](http://blog.knuthaugen.no/2010/03/the-nosql-landscape.html){website}
 ---
 
 # Column databases
+
 
 ---
 

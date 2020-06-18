@@ -1,29 +1,19 @@
 ---
 author: tommarshall
-
 levels:
-
   - beginner
-
 type: normal
-
 category: must-know
-
 inAlgoPool: false
-
-aspects:
-  - introduction
-
 standards:
   python.functions.1: 10
-
-
 ---
 
 # Calling functions
 
 
 ---
+
 ## Content
 
 To call a function in Python, you write the function's name followed by some brackets `()`.
@@ -39,11 +29,10 @@ def new_func():
 new_func()
 
 ```
+
 Gives the following output:
 
-```
-Function time!
-```
+    Function time!
 
 A parameter in Python is a variable which can be passed into functions so that methods can be performed onto it.
 
@@ -54,17 +43,21 @@ def func(x):
     ans = x * x
     print(ans)
 ```
+
 So to call this function, you must pass a parameter into your function call as follows:
+
 ```python
 num = 5
 func(num)
 ```
+
 In the example, variable `x` will take the value of `num`, therefore the output will be:
-```
-25
-```
+
+    25
+
 
 ---
+
 ## Practice
 
 Find the arithmetic mean of `x` and `y`:
@@ -84,20 +77,18 @@ y = 2
 * (x, y)
 
 
-
 ---
+
 ## Revision
 
 Complete the code snippet to define and call the function with the correct parameter:
 
-```
-??? cube(x):
-    res = x * x * x
-    print (res)
+    ??? cube(x):
+        res = x * x * x
+        print (res)
 
-num = 5
-???(???)
-```
+    num = 5
+    ???(???)
 
 * `def`
 * `cube`

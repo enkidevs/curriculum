@@ -1,32 +1,23 @@
 ---
 author: SebaRaba
-
 levels:
   - beginner
   - basic
   - medium
-
 type: normal
-
 category: must-know
-
 inAlgoPool: false
-
 standards:
   sql.write.3: 10
-
-aspects:
-  - introduction
-  - workout
-
 links:
   - '[More on UPDATE](http://www.dofactory.com/sql/update){website}'
-
 ---
 
 # Update clause
 
+
 ---
+
 ## Content
 
 The `UPDATE` clause enables users to modify existing rows in the database. It is often used with the `WHERE` clause to conditionally update data.
@@ -34,7 +25,7 @@ The `UPDATE` clause enables users to modify existing rows in the database. It is
 Consider the `egg_group` table:
 
 | id  | name    |
-|-----|---------|
+| --- | ------- |
 | 1   | monster |
 | 2   | water1  |
 | ... | ...     |
@@ -53,7 +44,7 @@ WHERE id = 13;
 *Result:*
 
 | id  | name    |
-|-----|---------|
+| --- | ------- |
 | 1   | monster |
 | 2   | water1  |
 | ... | ...     |
@@ -71,7 +62,7 @@ SET name = 'rabbit';
 *Result:*
 
 | id  | name   |
-|-----|--------|
+| --- | ------ |
 | 1   | rabbit |
 | 2   | rabbit |
 | ... | ...    |
@@ -93,13 +84,15 @@ WHERE id IN
 
 In the example above, we will change the `name` for all our records in the `egg_group` table which have their `id` equal to `egg_id` for the records in the `pokemon` table that contain `'water'` in their `type` column.
 
+
 ---
+
 ## Practice
 
 Consider the `generation` table:
 
 | id | region_id | name           |
-|----|-----------|----------------|
+| -- | --------- | -------------- |
 | 1  | 1         | generation-i   |
 | 2  | 2         | generation-ii  |
 | 3  | 3         | generation-iii |
@@ -125,13 +118,15 @@ We would like to update the table contents such that the last generation is gene
 * NEW
 * region_id
 
+
 ---
+
 ## Revision
 
 Consider the following table named `gender`:
 
 | id | name       |
-|----|------------|
+| -- | ---------- |
 | 1  | female     |
 | 2  | male       |
 | 3  | genderless |
@@ -140,6 +135,7 @@ Consider the following table named `gender`:
 ??? gender
 ??? name = '???'
 ```
+
 We want to update the table such that all genders will be neutral.
 
 * UPDATE
@@ -148,5 +144,3 @@ We want to update the table such that all genders will be neutral.
 * WHERE
 * DELETE
 * CHANGE
- 
- 

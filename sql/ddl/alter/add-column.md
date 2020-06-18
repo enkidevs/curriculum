@@ -1,49 +1,31 @@
 ---
 author: SebaRaba
-
 levels:
-
   - beginner
-
   - basic
-
   - medium
-
   - advanced
-
 type: normal
-
 category: must-know
-
 inAlgoPool: false
-
 standards:
   sql.define-columns.0: 10
   sql.define-columns.2: 10
-
 tags:
-
   - workout
-
   - deep
-
-
 links:
-
-  - '[More on ALTER TABLE](https://www.techonthenet.com/sql_server/tables/alter_table.php){website}'
-
+  - >-
+    [More on ALTER
+    TABLE](https://www.techonthenet.com/sql_server/tables/alter_table.php){website}
 parent: create-a-table
-
-aspects:
-  - workout
-  - deep
-
-
 ---
 
 # Add Column
 
+
 ---
+
 ## Content
 
 The `ALTER TABLE` command lets you modify table constraints and column definitions after you've defined your table.
@@ -79,13 +61,15 @@ ALTER TABLE cool_table
 DROP COLUMN boring_column;
 ```
 
+
 ---
+
 ## Practice
 
 Consider the `gender` table. We want to add a new column called `members`. This column will store data about how many members each gender has.
 
 | id | name       |
-|----|------------|
+| -- | ---------- |
 | 1  | female     |
 | 2  | male       |
 | 3  | genderless |
@@ -97,20 +81,21 @@ Complete the code to add the column:
 ADD ??? ???;
 ```
 
-
 * ALTER TABLE
 * members
 * INT
 * UPDATE
 * string
 
+
 ---
+
 ## Revision
 
 Consider the `generation` table. How would you delete the `region_id` column:
 
 | id | region_id | name           |
-|----|-----------|----------------|
+| -- | --------- | -------------- |
 | 1  | 1         | generation-i   |
 | 2  | 2         | generation-ii  |
 | 3  | 3         | generation-iii |
@@ -119,7 +104,6 @@ Consider the `generation` table. How would you delete the `region_id` column:
 | 6  | 6         | generation-vi  |
 
 ???
-
 
 * ALTER TABLE generation DROP COLUMN region_id;
 * ALTER TABLE generation DROP region_id;

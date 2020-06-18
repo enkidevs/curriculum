@@ -1,23 +1,16 @@
 ---
 author: alexjmackey
-
 type: normal
-
 category: must-know
-
 tags:
   - introduction
-  
-aspects:
-  - introduction
-  - workout
-  - obscura
-
 ---
 
 # Types - Undefined and Null
 
+
 ---
+
 ## Content
 
 ### `==` vs `===`
@@ -99,21 +92,22 @@ null  == undefined // true
 
 But not equal when using `===`:
 
-```
-null === undefined // false
-```
+    null === undefined // false
+
 
 ---
+
 ## Practice
 
 Not initializing a variable sets its value to ???.
-
 
 * undefined
 * null
 * the default one
 
+
 ---
+
 ## Revision
 
 What will the following statement evaluate to?
@@ -125,4 +119,3 @@ undefined == null
 
 * true
 * false
- 

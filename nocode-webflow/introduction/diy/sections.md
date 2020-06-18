@@ -1,22 +1,16 @@
 ---
 author: Stefan-Stojanovic
-
 levels:
   - beginner
-
-aspects:
-  - introduction
-  - workout
-
 type: normal
-
 category: how to
-
 ---
 
 # Sections
 
+
 ---
+
 ## Content
 
 A section is a layout element with a default width of 100% (full width of the browser) and a height of 0.
@@ -34,15 +28,18 @@ Example from "Toystore" template:
 Looking at the image above, we have two sections. One for the stuffed animals content (highlighted in green) and one for the wooden toys (highlighted in blue). 
 
 There are several ways of adding a new section:
-- Click anywhere on the canvas and left-click a section element from the `Add Elements` panel to add it to the previously clicked position.
-- Drag and drop a section element from the `Add Elements` panel anywhere on the canvas.
-- Drag and drop a section element from the `Add Elements` panel to a position in the `Navigator`.
+
+* Click anywhere on the canvas and left-click a section element from the `Add Elements` panel to add it to the previously clicked position.
+* Drag and drop a section element from the `Add Elements` panel anywhere on the canvas.
+* Drag and drop a section element from the `Add Elements` panel to a position in the `Navigator`.
 
 Example with drag and drop:
 
 ![drag-n-drop-section-element](https://img.enkipro.com/491b039cf31091bbe28c98ee463a5ce1.gif)
 
+
 ---
+
 ## Practice
 
 Which of the following can't be used to add sections?
@@ -54,7 +51,9 @@ Which of the following can't be used to add sections?
 * The canvas.
 * The element panel.
 
+
 ---
+
 ## Revision
 
 Which of these is not the correct way of adding a section element?

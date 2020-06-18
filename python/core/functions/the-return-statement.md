@@ -1,27 +1,23 @@
 ---
 author: tommarshall
-
 levels:
-
   - beginner
-
 type: normal
-
 category: must-know
-
 inAlgoPool: false
-aspects:
-  - introduction
-
 standards:
   python.control-structures.4: 10
+---
+
+# The 
+
+`return`
+
+ statement
 
 
 ---
 
-# The `return` statement
-
----
 ## Content
 
 Python's `return` statement exits a function and passes back an expression to the function caller. It is used to return the *flow of control* with an *output result* to the function call.
@@ -39,12 +35,15 @@ def return_func():
 
 print(return_func())
 ```
+
 Gives the following output:
-```
-Print!
-Return!
-```
+
+    Print!
+    Return!
+
+
 ---
+
 ## Practice
 
 Fill in the following method such that it will return the sum of `x` and `y`:
@@ -66,11 +65,12 @@ def sum():
 * x
 * y
 
+
 ---
+
 ## Revision
 
 Python’s return statement exits a function and passes back an ??? to the function caller. It’s used to return the ??? with an output result to the function call.
-
 
 * expression
 * flow of control

@@ -1,19 +1,14 @@
 ---
 author: Stefan-Stojanovic
-
-aspects:
-  - introduction
-  - workout
-
 type: normal
-
 category: must-know
-
 ---
 
 # Why Become a Pro?
 
+
 ---
+
 ## Content
 
 The main reason to become a spreadsheets pro is that it will **save you a lot of time**, and **increase your value in the modern-day workforce**.

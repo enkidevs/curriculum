@@ -1,18 +1,17 @@
 ---
 author: nem035
-aspects:
-  - introduction
-  - workout
 type: normal
 category: must-know
 links:
-- '[Docker Registry](https://docs.docker.com/registry/){documentation}'
-- '[Docker Hub](https://hub.docker.com/){website}'
+  - '[Docker Registry](https://docs.docker.com/registry/){documentation}'
+  - '[Docker Hub](https://hub.docker.com/){website}'
 ---
 
 # Image Registries
 
+
 ---
+
 ## Content
 
 A Docker image registry stores Docker images. We can think of a Docker image registry being to Docker images as Github is to code repositories.
@@ -31,16 +30,14 @@ docker pull nginx
 
 The command above would output something like:
 
-```
-Using default tag: latest
-latest: Pulling from library/nginx
-1ab2bdfe9778: Pull complete
-a17e64cfe253: Pull complete
-e1288088c7a8: Pull complete
-Digest: sha256:53ddb41e46de3d63376579acf46f9a41a8d7de33645db47a486de9769201fec9
-Status: Downloaded newer image for nginx:latest
-docker.io/library/nginx:latest
-```
+    Using default tag: latest
+    latest: Pulling from library/nginx
+    1ab2bdfe9778: Pull complete
+    a17e64cfe253: Pull complete
+    e1288088c7a8: Pull complete
+    Digest: sha256:53ddb41e46de3d63376579acf46f9a41a8d7de33645db47a486de9769201fec9
+    Status: Downloaded newer image for nginx:latest
+    docker.io/library/nginx:latest
 
 Similarly, we can also add images to the registry by pushing them:
 
@@ -73,7 +70,9 @@ docker tag ubuntu:16.04 localhost:1234/ubuntu
 docker push localhost:1234/ubuntu
 ```
 
+
 ---
+
 ## Practice
 
 Images stored on DockerHub are ???
@@ -81,7 +80,9 @@ Images stored on DockerHub are ???
 * public
 * private
 
+
 ---
+
 ## Revision
 
 The default registry for Docker images is called ???

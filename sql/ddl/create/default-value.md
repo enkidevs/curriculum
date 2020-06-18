@@ -1,44 +1,25 @@
 ---
 author: kapnobatai136
-
 levels:
-
   - beginner
-
   - basic
-
   - medium
-
 type: normal
-
 category: must-know
-
 inAlgoPool: false
-
 standards:
   sql.define-sequences-or-default-values.1: 10
-
 tags:
-
-  - introduction
-
-  - workout
-
-
-links:
-
-
-
-aspects:
   - introduction
   - workout
-
-
+links: null
 ---
 
 # Default Value
 
+
 ---
+
 ## Content
 
 When creating a table you can also set a default value for your columns. This value can be a constant number like 5, a string like `'not available'`, a system variable or a function call that determines dynamic values like the actual timestamp.
@@ -64,13 +45,15 @@ INSERT INTO dogs (name, weight) VALUES
 And this is what the table would look like:
 
 | name   | weight |
-|--------|--------|
+| ------ | ------ |
 | Oscar  | 0      |
 | Benson | 22     |
 
 Notice that if we omit the `weight` column when using an `INSERT` command, the RDBMS will store the default value, which is 0.
 
+
 ---
+
 ## Practice
 
 What will the following code output?
@@ -89,7 +72,7 @@ INSERT INTO cars (id, year) VALUES
 ```
 
 | id  | name         | year |
-|-----|--------------|------|
+| --- | ------------ | ---- |
 | 1   | Suzuki Swift | 1997 |
 | ??? | ???          | ???  |
 
@@ -100,4 +83,4 @@ INSERT INTO cars (id, year) VALUES
 * unidentified
 * DEFAULT
 * Suzuki Swift
-* 1997 
+* 1997

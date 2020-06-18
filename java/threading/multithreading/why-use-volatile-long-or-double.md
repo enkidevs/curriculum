@@ -1,36 +1,33 @@
 ---
 author: catalin
-
 levels:
-
   - basic
-
   - advanced
-
   - medium
-
 type: normal
-
 category: best practice
-
-aspects:
-
-  - workout
-
-  - deep
-
 links:
-
-  - '[stackoverflow.com](http://stackoverflow.com/questions/3463658/are-64-bit-assignments-in-java-atomic-on-a-32-bit-machine){website}'
-
+  - >-
+    [stackoverflow.com](http://stackoverflow.com/questions/3463658/are-64-bit-assignments-in-java-atomic-on-a-32-bit-machine){website}
 notes: >-
   https://insights.enki.com/#/contrib/others/55f00de0f457f33b00621144?search=khandelwalrinki
+---
+
+# Why use 
+
+`volatile`
+
+ 
+
+`long`
+
+ or 
+
+`double`
+
 
 ---
 
-# Why use `volatile` `long` or `double`
-
----
 ## Content
 
 When multi threading read/writes operations with 64 bit values, you need to take into consideration that `long` and `double` values are not atomic[1]. That means that a single write or read is treated as two separate operations: one to each `32 bit` half.
@@ -59,7 +56,9 @@ private volatile long i = 0;
 
 Making a variable `volatile` will guarantee that **each individual read or write operation** on the variable will be atomic. If you have more than one read or write operation (e.g. `i = i + 1`), this **will not be atomic**. This does not only apply to `long` and `double` variables, but also to all other types.
 
+
 ---
+
 ## Footnotes
 
 [1:Atomic]

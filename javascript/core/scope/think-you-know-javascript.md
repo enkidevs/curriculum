@@ -1,38 +1,29 @@
 ---
 author: jordanfish
-
 levels:
-
   - basic
-
   - advanced
-
   - medium
-
 type: fillTheGap
-
 category: tip
-
 standards:
   javascript.functions.5: 1000
-
-aspects:
-  - introduction
-  - workout
-
-
 ---
 
 # Think you know Javascript?
 
+
 ---
+
 ## Content
 
 Are you prepared for Dmitry Baranovskiy's famous "So, you think you know Javascript?"
 
 It's a quick test for real understanding of JavaScript core beyond closures and scopes.
 
+
 ---
+
 ## Game Content
 
 ```javascript

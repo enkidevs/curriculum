@@ -1,49 +1,35 @@
 ---
 author: SebaRaba
-
 levels:
-
   - beginner
-
   - basic
-
 type: normal
-
 category: must-know
-
 inAlgoPool: false
-
 standards:
   sql.define-tables.2: 10
-
 tags:
-
   - workout
-
   - deep
-
 links:
-
-  - '[More on CREATE TRIGGER](https://www.codeproject.com/Articles/25600/Triggers-SQL-Server){website}'
-
-aspects:
-  - workout
-  - deep
-
-
+  - >-
+    [More on CREATE
+    TRIGGER](https://www.codeproject.com/Articles/25600/Triggers-SQL-Server){website}
 ---
 
 # Add Trigger (1)
 
+
 ---
+
 ## Content
 
 *Triggers* are defined to let the computer know it has to run a certain set of actions when an event happens. Usually this event means executing `UPDATE`, `INSERT` and `DELETE` statements. Basically it's a database object that is bound to a table and executes automatically. 
 
 For the SQL Standard, there are two main types of triggers:
 
-- `ON UPDATE` triggers
-- `ON DELETE` triggers
+* `ON UPDATE` triggers
+* `ON DELETE` triggers
 
 These *triggers* are added when defining a `FOREIGN KEY` constraint, and both `ON UPDATE` and `ON DELETE` have several arguments which decide what action is taken after a `DELETE` or `UPDATE` statement. Here is what the default syntax would look like:
 
@@ -81,7 +67,9 @@ The `NO ACTION` argument is similar to `RESTRICT` in that it prohibits changing 
 ...
 ```
 
+
 ---
+
 ## Practice
 
 Complete the following syntax such that the *trigger* named `'integrity'` prohibits deleting a record from the `pokemon` table if there are any matching records in the `region` table.

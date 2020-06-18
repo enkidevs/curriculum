@@ -1,16 +1,18 @@
 ---
 author: nem035
-aspects:
-  - introduction
-  - workout
 type: normal
 category: must-know
 links:
-- '[Best practices for writing Dockerfiles](https://docs.docker.com/develop/develop-images/dockerfile_best-practices/){article}'
-- '[Dockerfile reference](https://docs.docker.com/engine/reference/builder/){documentation}'
+  - >-
+    [Best practices for writing
+    Dockerfiles](https://docs.docker.com/develop/develop-images/dockerfile_best-practices/){article}
+  - >-
+    [Dockerfile
+    reference](https://docs.docker.com/engine/reference/builder/){documentation}
 ---
 
 # Dockerfile Instructions
+
 
 ---
 
@@ -39,6 +41,7 @@ Whenever we change a line in the Dockerfile, the cached result for every line af
 
 Due to this, a good convention is to keep the things that change the least at the top of the Dockerfile and things that change the most at the bottom.
 
+
 ---
 
 ## Practice
@@ -49,6 +52,7 @@ A Dockerfile contains instructions the Docker daemon uses to build containers.
 
 * false
 * true
+
 
 ---
 

@@ -1,22 +1,16 @@
 ---
 author: Stefan-Stojanovic
-
 levels:
   - beginner
-
-aspects:
-  - introduction
-  - workout
-
 type: normal
-
 category: how to
-
 ---
 
 # Containers
 
+
 ---
+
 ## Content
 
 As we have previously discussed, a container is also represented by another box element. The only difference is that containers **can't** be nested within another container.
@@ -46,11 +40,14 @@ After applying positioning to the container without editing any of the elements 
 Other than positioning, containers can be used to apply styling, group elements and much more.
 
 Creating a container is done the same as creating a section element. There are three ways:
+
 1. Click anywhere on the canvas and left-click a container element from the `Add Elements` panel to add it to the previously clicked position.
 2. Drag and drop a container element from the `Add Elements` panel anywhere on the canvas.
 3. Drag and drop a container element from the `Add Elements` panel to a position in the `Navigator`.
 
+
 ---
+
 ## Practice
 
 Which sentence about containers is not true?

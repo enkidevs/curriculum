@@ -1,45 +1,31 @@
 ---
 author: catalin
-
 levels:
-
   - basic
-
   - beginner
-
 type: normal
-
 category: how to
-
 standards:
-
   javascript.data-types-structures.0: 10
-
   javascript.standard-library.2: 10
-
-
-aspects:
-  - introduction
-  - workout
-  - obscura
-
-
 ---
 
 # Base conversion
 
+
 ---
+
 ## Content
 
 Base conversion for numerical values in JavaScript is easily achievable
 with the help of `toString` and `parseInt` functions.
-
 
 ### toString
 
 `<number>.toString(base)` operates on a number and converts it into a string in the given base.
 
 For example, converting a decimal number to hexadecimal, octal and binary looks something like this:
+
 ```javascript
 let number = 123
 number.toString(16) // "7b"
@@ -68,10 +54,13 @@ parseInt("1111011", 2) // 123
 
 The type of returned value is `"number"`.
 
+
 ---
+
 ## Practice
 
 Complete the following code snippet:
+
 ```javascript
 // convert 1423 to base 2
 (1423).???(???)
@@ -92,10 +81,13 @@ Complete the following code snippet:
 * intoString
 * "two"
 
+
 ---
+
 ## Revision
 
 Complete the following code snippet:
+
 ```javascript
 // convert 132 to base 16
 (???).toString(???)

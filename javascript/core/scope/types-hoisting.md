@@ -1,26 +1,18 @@
 ---
 author: alexjmackey
-
 type: normal
-
 category: must-know
-
 links:
-
   - >-
     [Site
     Point](https://www.sitepoint.com/demystifying-javascript-variable-scope-hoisting/){website}
-
-aspects:
-  - introduction
-  - obscura
-
-
 ---
 
 # Scope - Hoisting
 
+
 ---
+
 ## Content
 
 In JavaScript, when you declare variables using `var` they are always executed first before any value initializations.
@@ -33,6 +25,7 @@ var x;
 ```
 
 This is actually executed as:
+
 ```javascript
 var x;
 x = 1;
@@ -63,11 +56,12 @@ foo();
 
 There are also programs called **linters** (a linter checks code for style and rule breaches) that will help you ensure that variables are being declared before they are used.
 
+
 ---
+
 ## Revision
 
 What does **hoisting** mean?
-
 
 ???
 

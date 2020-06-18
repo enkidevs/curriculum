@@ -1,24 +1,19 @@
 ---
 author: Stefan-Stojanovic
-
-aspects:
-  - introduction
-  - workout
-  - deep
-
 type: normal
-
 category: how to
-
 links:
-  - '[Google Sheets](https://www.howtogeek.com/448828/how-to-create-a-google-sheets-template/){documentation}'
+  - >-
+    [Google
+    Sheets](https://www.howtogeek.com/448828/how-to-create-a-google-sheets-template/){documentation}
   - '[Excel](https://www.excel-easy.com/basics/templates.html){documentation}'
+---
+
+# Making Your Own Templates
+
 
 ---
 
-# Making Your Own Templates 
-
----
 ## Content
 
 Now that we know how to use predefined templates, it's time to learn how to make your own. In this insight, we'll discuss creating your own template in Google Sheets.
@@ -40,8 +35,9 @@ This will open a new tab called `Publish to the web` where you can choose how to
 ![example-image](https://img.enkipro.com/ab9004973498445974a3b430d5a43b91.png)
 
 When publishing, you can choose to either:
-- publish the `Entire Document`
-- pick certain sheets and publish them (using whatever file type you choose)
+
+* publish the `Entire Document`
+* pick certain sheets and publish them (using whatever file type you choose)
 
 After you press publish, you will get a link to the newly published template that you and anyone else can have access to.
 

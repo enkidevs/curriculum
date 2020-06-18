@@ -1,27 +1,23 @@
 ---
 author: Stefan-Stojanovic
-
 levels:
   - beginner
   - basic
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-  - workout
-
 ---
+
 # Image Title
 
+
 ---
+
 ## Content
 
 The `title` attribute can be added to any HTML element, but is most often used with images and links for when the user mouses over these elements, a tooltip will appear. 
 
 Example:
+
 ```html
 <img src="logo.svg"
   title="Enki: Official Logo">
@@ -31,6 +27,7 @@ Example:
 
 
 ---
+
 ## Practice
 
 Add a visual tooltip when the cursor is over the image.
@@ -45,7 +42,9 @@ Add a visual tooltip when the cursor is over the image.
 * desc
 * alt
 
+
 ---
+
 ## Revision
 
 What adds a visual tooltip when the cursor is over the image?
@@ -59,10 +58,13 @@ What adds a visual tooltip when the cursor is over the image?
 * t
 * text
 
+
 ---
+
 ## Quiz
 
 ### Do you know how to create a visual tooltip using just HTML?
+
 
 When the cursor is over the image, what code will add a visual tooltip?
 

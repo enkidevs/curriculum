@@ -1,22 +1,16 @@
 ---
 author: Stefan-Stojanovic
-
 levels:
   - beginner
-
-aspects:
-  - deep
-  - workout
-
 type: normal
-
 category: how to
-
 ---
 
 # HTML tags
 
+
 ---
+
 ## Content
 
 HTML tags are used to easily control the styling of certain element types.
@@ -26,6 +20,7 @@ For instance, you can use the `Paragraph` tag to edit all paragraph elements in 
 All elements have tags, however, not all can be edited through their elements tag. Some elements can only be styled/edited by first creating/assigning them a class. 
 
 The elements that can be edited without creating a class are:
+
 ```html
 Body (all pages)
 H1 Heading
@@ -61,9 +56,10 @@ Example image:
 In the image above, we have selected the `Body` element in the `Navigator`, then from the `Style` panel, we can choose the "Selector".
 
 In the `Selector`, there are 3 possible colors:
-- `Tags` labeled pink
-- `classes` labeled blue
-- `states` labeled green.
+
+* `Tags` labeled pink
+* `classes` labeled blue
+* `states` labeled green.
 
 As you can see in the image we have a blue `Body` and a pink `Body (All Pages)`. The blue one is a class and only corresponds to the selected page's body, whereas the pink one is a tag and corresponds to all body elements within our webpage.
 
@@ -81,7 +77,9 @@ Here is an example where all elements are nested inside the body element and we 
 
 As you can see, all elements that have text inherit the body element's styling properties.
 
+
 ---
+
 ## Practice
 
 Which color are HTML tags in Webflow?

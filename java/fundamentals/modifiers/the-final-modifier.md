@@ -1,27 +1,21 @@
 ---
 author: mihaiberq
-
 levels:
-
   - beginner
-
 type: normal
-
 category: must-know
-
-aspects:
-
-  - introduction
-
-  - workout
-
 inAlgoPool: false
+---
+
+# The 
+
+`final`
+
+ Modifier
+
 
 ---
 
-# The `final` Modifier
-
----
 ## Content
 
 The `final` modifiers limits the initializations number to *1*. A final variable cannot be reassigned to refer another object.
@@ -29,6 +23,7 @@ The `final` modifiers limits the initializations number to *1*. A final variable
 However, the data inside the object can be changed (also called its *state*).
 
 For example:
+
 ```java
 public Car{
   private final int value = 10;
@@ -39,14 +34,18 @@ public Car{
   }
 }
 ```
+
 N.B. `static` and `final` can be used together to create a constant, class specific variable. Their identifiers should also be all capital letters.
 
 A `final` method cannot be overridden by any subclass. This is particularly useful when outsiders shouldn't modify the behavior of the class.
 
+
 ---
+
 ## Practice
 
 Which of the following lines would give rise to an error?
+
 ```java
 1. String DATE = "01-01-2020";
 2. final String ETAD = "2020-01-01";
@@ -54,6 +53,7 @@ Which of the following lines would give rise to an error?
 4. ETAD = DATE;
 5. System.out.println(DATE);
 ```
+
 ???
 
 * 4
@@ -62,20 +62,25 @@ Which of the following lines would give rise to an error?
 * 3
 * 5
 
+
 ---
+
 ## Revision
 
 Variables declared `final` cannot be ???.
-
 
 * reassigned
 * modified
 * copied
 * referenced
 
+
 ---
-## Quiz 
+
+## Quiz
+
 ### how do final variables work?
+
 
 ```java
 public class Person {
@@ -102,4 +107,3 @@ p.printName();
 * Sam
 * name
 * Exception
- 

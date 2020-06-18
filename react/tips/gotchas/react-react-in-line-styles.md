@@ -1,27 +1,21 @@
 ---
 author: catalin
-
 levels:
   - basic
   - beginner
-
 type: normal
-
 category: must-know
-
 links:
-  - '[Style](https://facebook.github.io/react/docs/dom-elements.html#style){website}'
-
+  - >-
+    [Style](https://facebook.github.io/react/docs/dom-elements.html#style){website}
 parent: custom-proptype-s-to-be-required
-
-aspects:
-  - workout
-  - deep
-
 ---
+
 # React in-line styles
 
+
 ---
+
 ## Content
 
 In **React**, in-line styling is not done by specifying a string, but by creating an object with the needed value for the style.
@@ -51,7 +45,9 @@ ReactDOM.render(
 
 The style object can also be created from `state` or `props` of a component!
 
+
 ---
+
 ## Practice
 
 Consider the following style object:
@@ -82,7 +78,9 @@ aNode)
 * useStyle
 * {style}
 
+
 ---
+
 ## Revision
 
 Fill in the following `style` object that's meant to be passed to a React element:
@@ -99,4 +97,3 @@ var style = {
 * msTransition
 * ms-transition
 * webkit-transition
-
