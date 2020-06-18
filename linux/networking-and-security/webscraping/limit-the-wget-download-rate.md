@@ -8,6 +8,20 @@ type: normal
 
 category: how to
 
+tags:	
+
+  - linux	
+
+  - wget	
+
+  - rate	
+
+  - limit	
+
+  - terminal	
+
+  - download	
+
 ---
 
 # Limit the `wget` download rate
