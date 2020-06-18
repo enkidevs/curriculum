@@ -1,12 +1,8 @@
 ---
 author: Stefan-Stojanovic
 
-levels:
-  - basic
-
 aspects:
   - new
-  - workout
 
 type: normal
 
@@ -19,9 +15,9 @@ category: how to
 ---
 ## Content
 
-The different between exported and imported is that imported can only be used in the scope of the project it was defined, whereas Exported, are defined elsewhere in the package but can be used in any program.
+The difference between **exported** and **imported** is that **imported** can only be used in the scope of the project it was defined, whereas **exported**, are defined elsewhere in the package but can be used in any program.
 
-Exported names always start with a capital letter.
+**Exported** names always start with a capital letter.
 
 Example of an exported vs imported:
 
@@ -35,7 +31,7 @@ fmt.Println()
 
 The `Println` is an exported function from the `fmt` import.
 
-If a function starts with a lowercase letter it can only be used within the package it was define at. However, if it starts with an uppercase letter, it can be used by any piece of code that imported the package it was defined at.
+If a function starts with a lowercase letter it can only be used within the package it was defined at. However, if it starts with an uppercase letter, it can be used by any piece of code that imported the package it was defined at.
 
 **It's important to note that if you try to use an Exported function with a lowercase starting letter, you will get an error similar to this one:**
 
@@ -83,7 +79,7 @@ func main() {
 ---
 ## Revision
 
-Exported names always start with a capital letter?
+**Exported** names always start with a capital letter?
 
 ???
 

@@ -1,12 +1,8 @@
 ---
 author: Stefan-Stojanovic
 
-levels:
-  - basic
-
 aspects:
-  - new
-  - workout
+  - introduction
 
 type: normal
 
@@ -23,9 +19,9 @@ Constants are variables that cannot be updated after they are initialized.
 
 They are useful for creating variables that never need to be changed.
 
-Defining a constants is similar to defining a variable, the difference is the `keyword` thats used.
+Defining constants is similar to defining a variable, the difference is the `keyword` that's used.
 
-**Note:** Since `const` values are constants and cannot be chaged later on, it is important to initialize them upon creation.
+**Note:** Since `const` values are constants and cannot be changed later on, it is important to initialize them upon creation.
 
 ```go
 //Regular variable
@@ -37,7 +33,7 @@ const age int = 3
 
 Constants cannot be declared using the shorthand method `:=`. They are declared the same way on the package and function level.
 
-Also, constants can be any character, string, number or boolean.
+Also, constants can be any character, string, number, or boolean.
 
 ---
 ## Practice

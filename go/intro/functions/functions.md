@@ -1,9 +1,6 @@
 ---
 author: Stefan-Stojanovic
 
-levels:
-  - basic
-
 aspects:
   - new
   - workout
@@ -23,7 +20,7 @@ Functions are pieces of code designed for a particular task.
 
 A function in `GO`, can take from zero to any number of arguments.
 
-Functions are defined with the key word `func`. The key word is key sensitive.
+Functions are defined with the keyword `func`. The keyword is key sensitive.
 
 Example:
 
@@ -34,7 +31,7 @@ func multiply(x int, y int) int {
 }
 ```
 
-The `func` key word states that we are creating a function. The `multiply` is the name we have chosen. The `(x int, y int)` are 2 input values that we have given the names `x` and `y` and set the type to `int`. The last `int` after the parentheses specifies what the type of the return will be.
+The `func` keyword states that we are creating a function. The `multiply` is the name we have chosen. The `(x int, y int)` are 2 input values that we have given the names `x` and `y` and set the type to `int`. The last `int` after the parentheses specifies what the type of the return will be.
 
 **Notes:** 
 - You can add as many values as you want to your function.
@@ -51,7 +48,7 @@ func multiply(x, y int) int {
 ---
 ## Practice
 
-Fill in the gaps to create a function with 2 integer arguments types and return their product.
+Fill in the gaps to create a function with 2 integer argument types and return their product.
 
 ```go
 ??? multiply(???) int {
@@ -77,7 +74,7 @@ How many arguments can functions in `GO` have?
 
 ???
 
-Which key word defines a function?
+Which keyword defines a function?
 
 ???
 

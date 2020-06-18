@@ -1,9 +1,6 @@
 ---
 author: Stefan-Stojanovic
 
-levels:
-  - beginner
-
 aspects:
   - new
   - workout
@@ -63,7 +60,7 @@ func main() {
 
 Variable names have to start either with a `letter` or an underscore `_`. After the first character, the name can also contain numbers and the length of a variable is unlimited.
 
-It is important to note that variables are case sensitive. `name`, `Name` and `NAME` are 3 different variables.
+It is important to note that variables are case sensitive. `name`, `Name`, and `NAME` are 3 different variables.
 
 ---
 ## Practice

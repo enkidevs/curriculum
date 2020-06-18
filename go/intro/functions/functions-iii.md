@@ -1,12 +1,8 @@
 ---
 author: Stefan-Stojanovic
 
-levels:
-  - basic
-
 aspects:
   - new
-  - workout
 
 type: normal
 

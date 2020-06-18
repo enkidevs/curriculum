@@ -22,19 +22,39 @@ links:
 ---
 ## Content
 
-The `GO` language is made up of packages. In fact, every program made in `GO` is made up of packages.
+All Go programs are made up of one or more package.
 
-All programs in `GO` start in package `main`.
+Every program in Go starts in the `main` package and there can only be one `main` package.
 
-There are 2 ways to import a package into your program:
+The top of a file containing Go code contains the *package name*:
+
+```go
+// declare that this code
+// belongs to the main package
+package main
+
+// ...rest of the code
+```
+
+> 💡 A package name is written in lowercase letters
+
+A package can import any other package using the `import` statement:
+
 ```Go
+package main
+
+// We can import packages
+// one by one, using the
 // Multi-statement import
 import "fmt"
 import "math"
 import "zip"
 import "json"
 
-//Factored import statement
+// or we can combine the
+// imports as a single
+// statement, called
+// Factored import
 import (
   "fmt"
   "math"
@@ -43,28 +63,25 @@ import (
 )
 ```
 
-Both ways work the same, however, it is good practice to use the `Factored` way.
+> 💡 We'll show you soon how imports work within a simple Go program
 
-There are a lot of packages in GO which you can view [here](https://golang.org/pkg)
-Some widely used packages are the `fmt` and `math` package.
+Both ways work the same, however, it is common practice to use the Factored import as it's quicker to type and easier to change.
 
-The `fmt` package is used to implement already formatted I/O functions like print, println and more.
-
-The `math` package is used to provide mathematical functions like Floor, Sin, Sqrt, Log and more.
+> 💡 Factoring means calling a keyword once on multiple instances. Later we'll show other Go keywords that can also be factored.
 
 ---
 ## Practice
 
-Which of these is the "Good practice" way of importing packages in `GO`?
+Which of these is the common practice way of importing packages in Go?
 
-```GO
+```go
 // Multi-statement import
 import "fmt"
 import "math"
 import "zip"
 import "json"
 
-//Factored import statement
+// Factored import
 import (
   "fmt"
   "math"
@@ -78,3 +95,13 @@ import (
 
 * Factored import statement.
 * Multi-statement import.
+
+---
+## Revision
+
+Using the `import` keyword once to import multiple packages is called ??? import
+
+* factored
+* factorial
+* factoring
+* factual

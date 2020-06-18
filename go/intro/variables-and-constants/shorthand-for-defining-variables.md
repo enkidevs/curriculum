@@ -1,10 +1,6 @@
 ---
 author: Stefan-Stojanovic
 
-levels:
-  - beginner
-  - basic
-
 aspects:
   - introduction
   - new
@@ -22,12 +18,11 @@ links:
 ---
 ## Content
 
-
 Now that we know how to define and initialize a variable both on the package and function level, there is a shorthand method for declaring variables that only works on the function level.
 
 Regular declaration:
 ```go
-var name ="Stefan"
+var name = "Stefan"
 ```
 
 Shorthand declaration:
@@ -35,7 +30,7 @@ Shorthand declaration:
 name := "Stefan"
 ```
 
-As you can see above, the shorthand method is much shorter, however it only works on the function level.
+As you can see above, the shorthand method is much shorter, however, it only works on the function level.
 
 This is because the package level can only start with reserved keywords like `func`, `var`, `package` and more.
 

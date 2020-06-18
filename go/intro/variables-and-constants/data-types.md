@@ -1,12 +1,8 @@
 ---
 author: Stefan-Stojanovic
 
-levels:
-  - beginner
-
 aspects:
-  - new
-  - workout
+  - introduction
 
 type: normal
 
@@ -19,11 +15,7 @@ category: must-know
 ---
 ## Content
 
-4. Data types
-        - the basic data types and what they mean
-        - bool, string, int, byte, rune, float. complex
-
-`GO` support several data types. These are categorized in 4 groups:
+`GO` support several data types. These are categorized into 4 groups:
 - Basic 
 - Aggregate
 - Reference

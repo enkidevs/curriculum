@@ -1,12 +1,8 @@
 ---
 author: Stefan-Stojanovic
 
-levels:
-  - basic
-
 aspects:
   - new
-  - workout
 
 type: normal
 
@@ -29,15 +25,15 @@ func avgOfTwoNum(num1,num2 int) (int,int, int) {
 }
 
 func main() {
-	fmt.Println(avgOfTwoNum(11,34))
+	fmt.Println(avgOfTwoNum(11,33))
 }
 
 // Output
 // 11 33 22
 ```
-The above function gets 2 numbers inputed and then calculates the average of the 2 numbers and returns the inputed 2 numbers as well as their average.
+The above function gets 2 numbers inputted and then calculates the average of the 2 numbers and returns the inputted numbers as well as their average.
 
-Functions can also returno no results. A well known function like that is the `main()` function.
+Functions can also return no results. A well-known function like that is the `main()` function.
 
 ---
 ## Revision

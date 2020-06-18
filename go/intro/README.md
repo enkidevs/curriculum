@@ -8,4 +8,6 @@ sections:
   '0':
     - introduction
     - variables-and-constants
+    - go-operators
     - functions
+    - flows

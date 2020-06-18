@@ -1,19 +1,15 @@
 ---
 author: Stefan-Stojanovic
 
-levels:
-  - beginner
 
 aspects:
-  - new
-  - workout
+  - introduction
 
 type: normal
 
 category: how to
 
 links:
-
 
 ---
 
@@ -23,7 +19,6 @@ links:
 ## Content
 
 When converting types in `GO`, you can use the `type conversion` method.
-
 
 Syntax:
 ```go
@@ -55,12 +50,12 @@ func main() {
 // Result after print:
 31
 ```
-This wil take the float64 convert it to an int and save it in the `newType` value.
+This will take the float64 convert it to an int and save it in the `newType` value.
 
 ---
 ## Practice
 
-Finish the code bellow to convert the "result" floating point number to a new integer number called "newType". And input what the output would be.
+Finish the code below to convert the "result" floating-point number to a new integer number called "newType". And input what the output would be.
 
 
 ```go
