@@ -23,8 +23,3 @@ For example, you could:
 - get a promotion or a raise in your job; understanding how software works will put you ahead of the curve
 
 These are just a few examples, but you're not limited to them. Knowing fundamentals of programmings will demystify the underworking of the modern digital world.
-
----
-## Practice
-
-Learning to code doesn't mean you have to create the next Facebook. It will increase your understanding of the digital world.

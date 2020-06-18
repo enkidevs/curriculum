@@ -26,8 +26,3 @@ You already interact with programming on a daily basis. From your phone and pers
 We've come a long way since the 50s (when the first functioning programming languages were created), and these advances make it possible for anyone to learn. Programming is no longer only for scientists.
 
 ![Margaret Hamilton with the code that got humans on the moon](https://img.enkipro.com/2f391bea71138c89b937f6cab4dc3612.jpeg)
-
----
-## Practice
-
-Programming is no longer only for scientist. Everyone can learn how to code, and that can bring great advantages.

@@ -28,10 +28,3 @@ This pattern is not only applicable to programming though. You'll learn to progr
 We've already mentioned that you could get a promotion, but that's not all. It can also open new opportunities at different jobs. We're living in a rapidly-shifting digital economy, so you never know when it could come in handy.
 
 Learning to code can also be a great bonding experience. You could do it together with your family, significant other, or friends. We guarantee you'll never forget the moments of success (or frustration).
-
----
-## Practice
-
-Learning to code will change the way you see real-life problems. You'll break them into smaller, manageable bits and work your way up.
-
-> You'll become solution driven!
