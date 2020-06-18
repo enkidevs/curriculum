@@ -1,35 +1,12 @@
 ---
 author: tuwi.dc
 
-levels:
-
-  - basic
-
-  - medium
-
 aspects:
   - workout
 
 type: normal
 
 category: how to
-
-tags:
-
-  - linux
-
-  - wget
-
-  - rate
-
-  - limit
-
-  - terminal
-
-  - download
-
-
-
 
 ---
 
