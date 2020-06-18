@@ -40,6 +40,9 @@ Types of change:
 
 ## June 18th 2020
 
+### Added
+- [Programming Fundamentals - New topic](https://github.com/enkidevs/curriculum/pull/2188)
+
 ### Fixed
 - [Linux - Making a file unalterable with `chattr` - Clean metadata & general formatting](https://github.com/enkidevs/curriculum/pull/2192)
 - [Linux - Making a file unalterable with `chattr` - Add `sudo` to the commands](https://github.com/enkidevs/curriculum/pull/2190)
