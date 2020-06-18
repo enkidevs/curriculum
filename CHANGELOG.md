@@ -43,6 +43,7 @@ Types of change:
 ### Fixed
 - [Linux - Making a file unalterable with `chattr` - Clean metadata & general formatting](https://github.com/enkidevs/curriculum/pull/2192)
 - [Linux - Making a file unalterable with `chattr` - Add `sudo` to the commands](https://github.com/enkidevs/curriculum/pull/2190)
+- [Linux - Limit the wget download rate - Fix typo in question](https://github.com/enkidevs/curriculum/pull/2193)
 
 ## June 16th 2020
 
