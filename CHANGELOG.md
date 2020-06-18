@@ -38,6 +38,12 @@ Types of change:
 - `Archived` for content that is no longer necessary and has been archived.
 - `Fixed` for any minor fixes (e.g. add a missing comma, adding a code block tag, fixing a report).
 
+## June 18th 2020
+
+### Fixed
+- [Linux - Making a file unalterable with `chattr` - Clean metadata & general formatting](https://github.com/enkidevs/curriculum/pull/2192)
+- [Linux - Making a file unalterable with `chattr` - Add `sudo` to the commands](https://github.com/enkidevs/curriculum/pull/2190)
+
 ## June 16th 2020
 
 ### Changed
