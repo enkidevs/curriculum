@@ -9,17 +9,11 @@ type: normal
 category: how to
 
 tags:	
-
   - linux	
-
   - wget	
-
   - rate	
-
   - limit	
-
   - terminal	
-
   - download	
 
 ---
@@ -30,7 +24,6 @@ tags:
 ## Content
 
 You can limit the download rate of the `wget` command to avoid band saturation.
-
 
 ```
 $ wget --limit-rate 128k 
