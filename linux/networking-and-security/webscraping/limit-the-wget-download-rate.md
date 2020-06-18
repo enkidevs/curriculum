@@ -58,7 +58,7 @@ $ ??? ??? ???
 ```
 
 * `wget`
-* `—limit-rate`
+* `--limit-rate`
 * `1m`
 * `1MB`
 * `-L`
