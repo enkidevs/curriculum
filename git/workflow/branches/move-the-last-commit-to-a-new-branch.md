@@ -74,3 +74,4 @@ A quick hack to revert the changes made to the current branch and move them to a
 * resetting the last commit and moving to a new branch
 
  
+ 

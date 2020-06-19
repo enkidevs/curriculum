@@ -58,3 +58,4 @@ An empty cell returns `TRUE`:
 
 [1:0 is false]
 All positive and negative numbers except 0 logically evaluate to `TRUE`, 0 evaluates to `FALSE`.
+ 

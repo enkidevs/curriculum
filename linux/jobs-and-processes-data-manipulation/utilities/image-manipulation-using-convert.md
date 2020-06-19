@@ -83,3 +83,4 @@ Resizing both width and height requires 250x250, while resizing the width requir
 [3:Range]
 The strength range depends on the effect type.
  
+ 
