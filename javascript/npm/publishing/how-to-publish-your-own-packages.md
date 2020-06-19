@@ -76,3 +76,4 @@ In order to publish your package to the npm repository, you need
 * an initial package version of `1.0.0`
 * a `README.md` file
  
+ 

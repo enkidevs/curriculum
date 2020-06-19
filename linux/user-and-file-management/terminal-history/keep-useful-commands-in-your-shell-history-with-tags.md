@@ -78,3 +78,4 @@ To reverse search for a tagged command you have to press ???.
 
 [1:Command History]
 Check out [this thread](https://unix.stackexchange.com/a/163406) to find out how you can further customize your shell or how `HISTFILESIZE` and `HISTSIZE` work under the hood.
+ 

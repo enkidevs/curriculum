@@ -126,3 +126,4 @@ bash: permission denied: ./script.sh
 * rm ./script.sh
 * echo "#!/bin/sh" > script.sh && ./script.sh
  
+ 
