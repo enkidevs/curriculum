@@ -38,6 +38,11 @@ Types of change:
 - `Archived` for content that is no longer necessary and has been archived.
 - `Fixed` for any minor fixes (e.g. add a missing comma, adding a code block tag, fixing a report).
 
+## June 19th 2020
+
+### Fixed
+- [MongoDB - Delete a database - Capitalise Pokemon in first code block & minor formatting ](https://github.com/enkidevs/curriculum/pull/2194)
+
 ## June 18th 2020
 
 ### Fixed
