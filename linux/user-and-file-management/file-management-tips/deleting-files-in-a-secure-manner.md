@@ -101,3 +101,4 @@ To delete files in a secure manner you can use
 [1:Gutmann Method]
 An algorithm for secure deletion of files. It involves overwriting to-be-deleted data with 35 patterns of bits so it cannot be recovered.
  
+ 
