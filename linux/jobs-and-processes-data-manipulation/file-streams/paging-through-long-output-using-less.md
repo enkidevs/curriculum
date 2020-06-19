@@ -36,7 +36,7 @@ The `less` command is a "pager", which allows you to scroll and search through s
 A simple example:
 
 ```shell
-$ ps aux | less
+ps aux | less
 ```
 
 `ps aux` will print detailed information about the currently running processes and likely take up several screens worth of text.  By piping its output to `less` we can scroll through the output more easily.

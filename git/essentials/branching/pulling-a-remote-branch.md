@@ -30,8 +30,8 @@ links:
 `git pull` is a command that combines `git fetch` and `git merge`.
 
 For example, to fetch and merge the branch `master` with the current branch:
-```
-$ git pull origin
+```bash
+git pull origin
 ```
 The merge is automatic, and you are unable to review the commits. For this reason, sometimes you can use `git fetch` and `git merge` instead.
 
@@ -41,8 +41,8 @@ There's also the `-a` (shorthand for `--append`) flag targeting the fetch part o
 ## Practice
 
 To `fetch` and `merge` master branch automatically you run :
-```
-$ ??? ??? ???
+```bash
+??? ??? ???
 ```
 
 * `git`
@@ -55,8 +55,8 @@ $ ??? ??? ???
 ## Revision
 
 To automatically `merge` the commits from the master branch you would use :
-```
-$ git ??? origin
+```bash
+git ??? origin
 ```
 
 * `pull`
@@ -72,7 +72,7 @@ $ git ??? origin
 What option related to fetching is `-a` shorthand for in the following command?
 
 ```bash
-$ git pull -a
+git pull -a
 ```
 
  ???

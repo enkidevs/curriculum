@@ -1,5 +1,5 @@
 ---
-author: tuwi.dc
+author: tuwidc
 
 levels:
 
@@ -36,26 +36,26 @@ tags:
 ## Content
 
 To shutdown:
-```
-$ sudo shutdown -h now 
-$ sudo halt
-$ sudo poweroff
-$ sudo init 0 
+```bash
+sudo shutdown -h now 
+sudo halt
+sudo poweroff
+sudo init 0 
 ```
 
 
 To restart:
-```
-$ sudo reboot
-$ sudo shutdown -r now
-$ sudo init 6
+```bash
+sudo reboot
+sudo shutdown -r now
+sudo init 6
 ```
 
 ---
 ## Practice
 
-```
-$ ??? 
+```bash
+??? 
 ```
 command restarts the system.
 
@@ -68,8 +68,8 @@ command restarts the system.
 ---
 ## Revision
 
-```
-$ ???
+```bash
+???
 ```
 command shuts down the system.
 

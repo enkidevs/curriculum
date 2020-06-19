@@ -41,11 +41,10 @@ The `awk` command implements the AWK language and is a common tool for displayin
 Selecting and formatting specific columns of text is probably the most common use of `awk`.  For example, this will print out the 1st and 6th fields from `/etc/passwd` (which are the username and home directory fields, respectively):
 
 ```shell
-$ awk -F':' '{print $1,$6}' /etc/passwd
+awk -F':' '{print $1,$6}' /etc/passwd
 user1 /home/user1
 user2 /home/user2
 ... (other lines) ...
-$
 ```
 
 The `-F` switch tells `awk` to use `:` as the field separator instead of the whitespace default.  The string `'{print $1,$6}'` is the actual AWK code.
@@ -61,8 +60,8 @@ Jeans         300         299       29.99
 ```
 
 Write an `awk` script that would calculate, for each line, the money left from the products not being received. Assume that you are using the default whitespace separator:
-```
-$ awk '{??? ???}' 
+```bash
+awk '{??? ???}' 
             ~/shipment_track
 500.00
 29.99

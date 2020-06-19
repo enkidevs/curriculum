@@ -1,5 +1,5 @@
 ---
-author: tuwi.dc
+author: tuwidc
 
 levels:
 
@@ -39,29 +39,29 @@ A linux system user's ability to login on the shell, or via SSH, depends on thei
 To prevent the access, we can set the user's shell to `nologin`.
 
 First, obtain the path of *nologin*:
-```
-$ which nologin
+```bash
+which nologin
 /bin/nologin
 ```
 Then set user's shell to *nologin* as root :
-```
-$ sudo chsh <guestUser> -s /bin/nologin
+```bash
+sudo chsh <guestUser> -s /bin/nologin
 ```
 
 **Do not set these for the root user**.
 
 To give the access back, restore the login shell to `bash`:
-```
-$ sudo chsh <guestUser> -s /bin/bash 
+```bash
+sudo chsh <guestUser> -s /bin/bash 
 ```
 
 ---
 ## Practice
 
 Prevent user `Tom`  from logging into the system :
-```
-$ sudo ??? ??? 
-       ??? ???
+```bash
+sudo ??? ??? 
+    ??? ???
 ```
 
 * `chsh`
@@ -75,9 +75,9 @@ $ sudo ??? ???
 ## Revision
 
 Restore log-in rights for Tom:
-```
-$ sudo ??? Tom 
-        -s ???
+```bash
+sudo ??? Tom 
+    -s ???
 ```
 
 * `chsh`

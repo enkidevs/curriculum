@@ -1,5 +1,5 @@
 ---
-author: tuwi.dc
+author: tuwidc
 
 levels:
 
@@ -37,30 +37,30 @@ If you want to determine what sort of traffic is being blocked, a way of doing s
 
 Start by creating a new chain:
 
-```
-#the `-N` flag creates a chain
-$ iptables -N LOGDROP
+```bash
+# the `-N` flag creates a chain
+iptables -N LOGDROP
 ```
 
 Set the logging burst and the syslog prefix:
-```
-$ iptables -A LOGDROP -m limit \
+```bash
+iptables -A LOGDROP -m limit \
 --limit 60/min -j LOG  \
 --log-prefix "IPTables-Dropped: " 
 ```
 
 Set the last action to `DROP`:
 
-```
-$ iptables -A LOGDROP -j DROP
+```bash
+iptables -A LOGDROP -j DROP
 ```
 Instead of dropping in the usual way: 
-```
-$ iptables -A INPUT -j DROP
+```bash
+iptables -A INPUT -j DROP
 ```
 Use:
-```
-$ iptables -A INPUT -j LOGDROP
+```bash
+iptables -A INPUT -j LOGDROP
 ```
 
 ---

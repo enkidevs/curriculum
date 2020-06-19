@@ -1,5 +1,5 @@
 ---
-author: tuwi.dc
+author: tuwidc
 
 levels:
 
@@ -53,8 +53,8 @@ The options below enable us to boost our client performance by using compression
 ```
 
 For more info on additional options check 
-```
-$ man ssh_config
+```bash
+man ssh_config
 ```
 
 ---

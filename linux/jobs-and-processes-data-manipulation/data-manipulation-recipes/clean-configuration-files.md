@@ -54,7 +54,7 @@ A shell script accepts comments starting with `#` or `;` . Therefore, this scrip
 **Usage:**
 
 ```shell
-$ sudo clean_file /etc/ntp/conf
+sudo clean_file /etc/ntp/conf
 ```
 
 ---

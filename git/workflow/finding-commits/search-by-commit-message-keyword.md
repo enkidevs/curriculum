@@ -33,8 +33,8 @@ You can search by **keyword** by using the `--grep` option.
 This will produce a list of commits that have the keyword in their commit message.
 
 For example:
-```
-$ git log --pretty=format:"%h: %s" 
+```bash
+git log --pretty=format:"%h: %s" 
   --grep=README
 4310c3a: Altered README content
 cb41c9b: Added README
@@ -44,8 +44,8 @@ cb41c9b: Added README
 ## Practice
 
 Search for all commits with 'enki' in their commit message :
-```
-$ git ??? ??? 
+```bash
+git ??? ??? 
 ```
 
 * `log`
@@ -58,8 +58,8 @@ $ git ??? ???
 ## Revision
 
 What does this code do?
-```
-$ git log --pretty=oneline --grep=enki
+```bash
+git log --pretty=oneline --grep=enki
  
 ```
 ???

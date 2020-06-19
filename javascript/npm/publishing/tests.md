@@ -50,9 +50,9 @@ In your `package.json` you can specify which **script** should be run when `test
 This will provide a shortcut for you, invokable by running:
 
 ```bash
-$ npm test
+npm test
 # instead of
-$ npm run test
+npm run test
 ```
 
 One of the most straightforward ways to test your code is *linting*. A linter checks for errors in your code syntax and helps ensure you follow coding best-practices. Some examples include missing parenthesis, semi-colons, unnecessary keywords or the use of quotes.
@@ -60,7 +60,7 @@ One of the most straightforward ways to test your code is *linting*. A linter ch
 A JavaScript linter is JSLint:
 
 ```bash
-$ npm install jslint
+npm install jslint
 ```
 
 To lint your entire project, add this to the *test* event:
@@ -82,7 +82,7 @@ The options are limitless when it comes to what to test and which tools to use. 
 If you have a `test` script defined in your `package.json`, what will be the easiest way to invoke it?
 
 ```bash
-$ ???
+???
 ```
 
 * npm test

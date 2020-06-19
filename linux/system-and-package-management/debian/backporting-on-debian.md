@@ -1,5 +1,5 @@
 ---
-author: tuwi.dc
+author: tuwidc
 
 levels:
 
@@ -60,19 +60,19 @@ deb http://http.debian.net/debian \
 ```
 
 Then, update the package list:
-```
-$ apt-get update
+```bash
+apt-get update
 ```
 
 Install a package from the backport using:
-```
-$ apt-get -t jessie-backports
+```bash
+apt-get -t jessie-backports
                    install "package"
 ```
 
 Or:
-```
-$ aptitude -t jessie-backports 
+```bash
+aptitude -t jessie-backports 
                    install "package"
 ```
 

@@ -37,25 +37,25 @@ notes: >-
 To print the heap configuration of a running Process:
 
 ```java
-$ jmap -heap PID
+jmap -heap PID
 ```
 
 To print the heap histogram for a running Process:
 
 ```java
-$ jmap -histo PID
+jmap -histo PID
 ```
 
 To list all loaded shared objects:
 
 ```java
-$ jmap PID
+jmap PID
 ```
 
 You can also `dump` the heap information into a `.bin` file:
 
 ```java
-$ jmap -dump:file=myFile.bin PID
+jmap -dump:file=myFile.bin PID
 ```
 
 If the `jmap PID` command does not respond because of a hung process, the `-F` option can be used (on Solaris OS and Linux only) to force the use of the Serviceability Agent.
@@ -65,8 +65,8 @@ If the `jmap PID` command does not respond because of a hung process, the `-F` o
 
 Dump the heap information into the `practice.bin` file:
 
-```
-$ jmap ???:???=
+```bash
+jmap ???:???=
       practice.bin PID
 ```
 
@@ -83,8 +83,8 @@ $ jmap ???:???=
 
 Print the heap histogram for a running process:
 
-```
-$ jmap ??? ???
+```bash
+jmap ??? ???
 ```
 
 * `-histo`

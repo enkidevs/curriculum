@@ -1,5 +1,5 @@
 ---
-author: tuwi.dc
+author: tuwidc
 
 levels:
 
@@ -40,15 +40,15 @@ tags:
 ## Content
 
 You can find the base of your linux distribution by issuing the `lsb_release` [1]command like below:
-```
-$ lsb_release -i
+```bash
+lsb_release -i
 Distributor ID:	elementary OS
 ```
 
 To get more detailed information about your system you can use the `-a` flag:
 
-```
-$ lsb_release -a
+```bash
+lsb_release -a
 No LSB modules are available.
 Distributor ID:	elementary OS
 Description:	elementary OS Luna
@@ -60,8 +60,8 @@ Codename:	luna
 ## Revision
 
 You can get *detailed* information about your Linux distribution by running:
-```
-$ ???
+```bash
+???
 ```
 
 * `lsb_release -a`

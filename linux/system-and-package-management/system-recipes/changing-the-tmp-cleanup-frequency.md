@@ -1,5 +1,5 @@
 ---
-author: tuwi.dc
+author: tuwidc
 
 levels:
 
@@ -47,8 +47,8 @@ A negative number `TMPTIME=-1` tells the system to never delete anything in /tmp
 
 Yet, for servers that rarely reboot, setting up an entry in the `crontab` may be necessary:
 
-```
-$ crontab -e
+```bash
+crontab -e
 ```
 Add:
 ```

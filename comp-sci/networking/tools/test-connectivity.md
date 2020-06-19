@@ -39,7 +39,7 @@ Possibly the simplest way to test the **connectivity** between your machine and 
 
 This tool will send (echo) one or more **ICMP packets**[1] to the specified destination and will print simple statistics (e.g. latency) about the connection as soon as it gets a response.
 ```bash
-$ ping enki.com
+ping enki.com
 PING enki.com (54.192.197.152): ...
 64 bytes from ... time=7.124 ms
 64 bytes from ... time=5.094 ms
@@ -59,7 +59,7 @@ Basically, the two utilities achieve the same thing, the only difference being t
 
 Running `traceroute`:
 ```bash
-$ traceroute enki.com
+traceroute enki.com
 traceroute  to enki.com (52.85.178.249),
    30 hops max, 60 byte packets
  1  192.168.0.1 2.65 ms  3.31 ms  3.82 ms

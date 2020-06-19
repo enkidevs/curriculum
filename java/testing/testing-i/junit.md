@@ -111,8 +111,8 @@ public class TestRunner {
 You can then run the tests from the command line:
 
 ```bash
-$ javac UserTest.java TestRunner.java
-$ java TestRunner
+javac UserTest.java TestRunner.java
+java TestRunner
 ```
 
 ---

@@ -33,7 +33,7 @@ links:
 
 To launch the shell, run the Sass command-line with either the `--interactive` or  `-i` option.
 ```css
-$ sass -i
+sass -i
 ```
 Then at the prompt enter your chosen SassScript expressions and have them evaluated with the results printed to the terminal.
 ```css
@@ -54,7 +54,7 @@ SyntaxError: Incompatible units: 'em' and
 How can you launch *SassScript* interactive shell?
 
 ```
-$ ??? ???
+??? ???
 ```
 
 * `sass`
@@ -71,7 +71,7 @@ $ ??? ???
 How can you launch *SassScript* interactive shell?
 
 ```
-$ ??? ???
+??? ???
 ```
 
 * `sass`

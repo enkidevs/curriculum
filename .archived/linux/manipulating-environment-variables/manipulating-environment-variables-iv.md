@@ -34,20 +34,18 @@ In the previous insights, we mentioned in that having spaces around `=` when cre
 The problem is similar with a shell variable:
 
 ```shell
-enki@host ~ $ FOOD = "waffles"
+FOOD = "waffles"
 - bash: FOOD: command not found
-enki@host ~ $
 ```
 
 Note: `bash` treats most lists of words as a command with parameters. This means that in the snippet above, `bash` will interpret the name of the variable as a command and try to run it. You'll usually see a `command not found` error, but if your variable name happens to be the name of a command you'll see confusing output:
 
 ```shell
-enki@host ~ $ FOOD = "waffles"
+FOOD = "waffles"
 -bash: FOOD: command not found
-enki@host ~ $ export ls = "giraffe"
+export ls = "giraffe"
 ls: =: No such file or directory
 ls: giraffe: No such file or directory
-enki@host ~ $
 ```
 
 Here, `bash` interprets `=` and `"giraffe"` as arguments to the `ls` command rather than a variable assignment. 
@@ -61,10 +59,10 @@ Which of the following is the correct way of defining a variable?
 
 ```shell
 # A
-enki@host ~ $ export FOOD = "waffles"
+export FOOD = "waffles"
 
 # B
-enki@host ~ $ export FOOD="waffles"
+export FOOD="waffles"
 ```
 
 ???

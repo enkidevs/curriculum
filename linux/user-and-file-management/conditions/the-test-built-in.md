@@ -32,15 +32,15 @@ Previously, you've seen the `&&` and `||` operators that have different results 
 
 The syntax is as follows:
 ```bash
-$ test expression
+test expression
 # or
-$ [ expression ]
+[ expression ]
 ```
 While the first option should work in most shells, the second one doesn't work in *zsh* for example.
 
 The command returns **0** if the `expression` evaluates to *false* and **1** otherwise. The `[` **command** must take `]` as its last argument. For example, here are some simple tests you can perform:
 ```bash
-$ test 1 -lt 2 && echo true || echo false
+test 1 -lt 2 && echo true || echo false
 # true
 ```
 `test` has a number of conditional flags, some of which are:
@@ -54,7 +54,7 @@ $ test 1 -lt 2 && echo true || echo false
 
 Another example:
 ```bash
-$ [ 1 \< 2 ] && [ "abc" = "abc" ]; echo $?
+[ 1 \< 2 ] && [ "abc" = "abc" ]; echo $?
 # 1
 ```
 As you can see, `\<` must be escaped when using `[]`. `$?` is used to get the return value, hence the printed `1`.
@@ -66,11 +66,11 @@ There are also flags that replicate the functionality of `&&` (`-a`) and `||` (`
 
 Fill in the gaps for the following snippet to make sense:
 ```bash
-$ touch script.sh
-$ test ??? script.sh && echo "created"
+touch script.sh
+test ??? script.sh && echo "created"
 # created
-$ chmod +x script.sh
-$ test ??? script.sh && echo "executable"
+chmod +x script.sh
+test ??? script.sh && echo "executable"
 # executable
 ```
 

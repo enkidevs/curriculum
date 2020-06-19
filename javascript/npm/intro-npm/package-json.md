@@ -49,7 +49,7 @@ The syntax to specify dependencies inside *package.json* is:
 ```
 To create the *package.json* file, run:
 ```bash
-$ npm init -y
+npm init -y
 ```
 Using the -y flag speeds up the process by omitting certain options including specifying various scripts, a description or a license.
 
@@ -75,7 +75,7 @@ This file is what makes some code a *package*.
 ## Practice
 
 ```bash
-$ ??? ??? ???
+??? ??? ???
 ```
 Will create the default *package.json* file.
 

@@ -1,5 +1,5 @@
 ---
-author: tuwi.dc
+author: tuwidc
 
 levels:
 
@@ -45,8 +45,8 @@ The `hostnamectl` command is part of the `systemd-services` package.
 
 As well as setting the static hostname, it can set the "pretty" hostname[1], which is not used in Ubuntu. 
 
-```
-$ hostnamectl set-hostname 
+```bash
+hostnamectl set-hostname 
                     new_hostname
 ```
 You should also update the `/etc/hosts` file and change the line which reads:
@@ -60,8 +60,8 @@ This takes effect immediately without having to reboot.
 ## Practice
 
 What command should be run to set the new hostname using the  `systemd-services` package?
-```
-$ ??? ??? new_hostname
+```bash
+??? ??? new_hostname
 ```
 
 * `hostnamectl`

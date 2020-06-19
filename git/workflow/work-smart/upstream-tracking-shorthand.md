@@ -34,13 +34,13 @@ links:
 You can reference an upstream tracked branch with the `@{upstream}` or `@{u}` shorthand. 
 
 For example:
-```
-$ git checkout master
-$ git merge origin/master
+```bash
+git checkout master
+git merge origin/master
 ```
 can be replaced by:
 
-```
+```bash
 git checkout master
 git merge @{u}
 ```
@@ -49,9 +49,9 @@ git merge @{u}
 ## Practice
 
 `@{u}` refers to ??? in the following snippet:
-```
-$ git checkout myBranch
-$ git merge @{u}
+```bash
+git checkout myBranch
+git merge @{u}
 #upstream equivalent of myBranch
 ```
 

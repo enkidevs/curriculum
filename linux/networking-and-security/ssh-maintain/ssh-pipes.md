@@ -30,8 +30,8 @@ One of the benefits of piping is that you can use it over networks and it does w
 
 You can copy files over the network in an instant. This archives the files into a `tar` file, compresses it (`tar.gz`) and then copies it to the server:
 
-```
-$ tar cfz - folder |
+```bash
+tar cfz - folder |
   ssh user@enki 'tar xfz destdir'
 ```
 Flags:
@@ -41,15 +41,15 @@ Flags:
 - `-x` extracts the content
 
 You can use `-C` flag to specify a location in which the file to be extracted:
-```
-$ tar xfzC arch /folder1/folder2
+```bash
+tar xfzC arch /folder1/folder2
 ```
 
 ### Backing up data with `dd`
 
 You can also create an image of your local data with:
-```
-$ dd if=/folder/data |
+```bash
+dd if=/folder/data |
   ssh user@enki 'dd of=data.iso'
 ```
 Flags:

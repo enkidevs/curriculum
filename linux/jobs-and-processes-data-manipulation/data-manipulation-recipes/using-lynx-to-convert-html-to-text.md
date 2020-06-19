@@ -1,5 +1,5 @@
 ---
-author: tuwi.dc
+author: tuwidc
 
 levels:
 
@@ -42,15 +42,15 @@ tags:
 ## Content
 
 You can strip the text directly from a html file/content by using lynx
-```
-$ lynx -dump -stdin < file.html
+```bash
+lynx -dump -stdin < file.html
 ```
 
+```bash
+cat file.html | lynx -dump -stdin
 ```
-$ cat file.html | lynx -dump -stdin
-```
-```
-$ curl site | lynx -dump -stdin
+```bash
+curl site | lynx -dump -stdin
 ```
 For a HTML file:
 ```html
@@ -77,9 +77,9 @@ Lynx is a terminal-based browser that often proves useful for testing.
 ## Practice
 
 Strip `index.html` file of tags using `lynx` :
-```
-$ ??? ??? 
-        ??? < index.html
+```bash
+??? ??? 
+    ??? < index.html
 ```
 
 * `lynx`
@@ -92,9 +92,9 @@ $ ??? ???
 ## Revision
 
 You can dump the text from a html file to shell by using:
-```
-$ cat index.html | 
-     ??? ??? ???
+```bash
+cat index.html | 
+    ??? ??? ???
 ```
 
 * `lynx`

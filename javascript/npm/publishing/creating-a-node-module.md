@@ -55,7 +55,7 @@ console.log(math.pow(3,4));
 ```
 Using node to run `app.js` yields:
 ```bash
-$ node app.js
+node app.js
 81
 ```
 

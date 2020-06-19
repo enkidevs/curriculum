@@ -31,13 +31,13 @@ links:
 You should write a commit message that explains the aim of the commit and why the changes were made.
 
 For simple commits, this is an example of best practice:
-```
-$ git commit -m "Fix typo in README"
+```bash
+git commit -m "Fix typo in README"
 ```
 
 For a longer commit, you should leave a line after the subject and include more description in the body of the commit:
-```
-$ git commit
+```bash
+git commit
 # commit message editor
 Redirect user to the login form
 
@@ -54,8 +54,8 @@ You should stick to a convention that is consistent with the rest of the team.
 ## Practice
 
 Commit the changes with the message "issue no.8 fixed" :
-```
-$ git ??? ??? 
+```bash
+git ??? ??? 
             ???
 ```
 
@@ -68,8 +68,8 @@ $ git ??? ???
 ## Revision
 
 Commit the changes with the message "typo fixed"
-```
-$ ??? ??? 
+```bash
+??? ??? 
         ??? ???
 ```
 

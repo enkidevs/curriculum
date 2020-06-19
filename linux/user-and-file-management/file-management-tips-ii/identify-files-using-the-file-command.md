@@ -1,5 +1,5 @@
 ---
-author: tuwi.dc
+author: tuwidc
 
 levels:
 
@@ -45,15 +45,15 @@ notes: >-
 
 Quickly identify the type of a file using the `file` command:
 
-```
-$ file /bin/bash
+```bash
+file /bin/bash
 /bin/bash: ELF 64-bit LSB executable,x86-64,
  version 1 (SYSV), dynamically linked
 
-$ file zte.py
+file zte.py
 zte.py: ASCII text executable
 
-$ file messaggi.zip
+file messaggi.zip
 messaggi.zip: Zip archive data, at least 
  v1.0 to extract
 ```
@@ -62,8 +62,8 @@ messaggi.zip: Zip archive data, at least
 ## Revision
 
 A valid output of the `file` command is:
-```
-$ file script.py
+```bash
+file script.py
 ???
 ```
 

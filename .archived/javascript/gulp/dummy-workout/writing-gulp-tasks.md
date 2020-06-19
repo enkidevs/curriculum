@@ -41,7 +41,7 @@ gulp.task('enki_task', function() {
 ```
 The above code is ran on the command line by:
 ```bash
-$ gulp enki_task
+gulp enki_task
 ```
 Outputs to the console:
 ```bash

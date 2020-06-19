@@ -1,5 +1,5 @@
 ---
-author: tuwi.dc
+author: tuwidc
 
 levels:
 
@@ -43,18 +43,18 @@ It is possible to check if other people are working on a server or machine you a
 
 To do this, use the `w` command:
 ```bash
-$ w
+w
 ```
 Running this will output a list of users currently working on the machine as well as their processes.
 
 To find information about a specific user just add its name as an argument:
 ```bash
-$ w enki
+w enki
 ```
 
 On *Linux* you can also use the `-s` flag[1] to **short**-print the output such that some columns are dropped[2]:
 ```bash
-$ w -s
+w -s
 19:34:06 up 67 days, 21:26,  2 users,
           load average: 0.09, 0.13, 0.13
  USER     TTY    FROM         IDLE   WHAT
@@ -69,7 +69,7 @@ Both the IP from where that user is logged from and what they are doing (in this
 
 Find information about a user named `tom`:
 ```bash
-$ ??? ???
+??? ???
 ```
 
 

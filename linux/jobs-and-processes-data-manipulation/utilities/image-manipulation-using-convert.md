@@ -42,14 +42,14 @@ links:
 ## Content
 
 `convert`[1] can be used to change image formats as well as resize, crop, rotate and many other options. Its basic structure is:
-```
-$ convert [in-opts] in-file [out-opts]
+```bash
+convert [in-opts] in-file [out-opts]
       out-file
 ```
 
 For example:
-```
-$ convert Dog.png -resize x250 -rotate 90
+```bash
+convert Dog.png -resize x250 -rotate 90
   -quality 90% -charcoal 5 newDog.jpg
 ```
 
@@ -60,8 +60,8 @@ The above will resize the *height*[2] to 250, *rotate* the picture 90 degrees to
 
 Use the `convert` command to resize the height of `enki.png` to `200` and rename it `newEnki.jpg`:
 
-```
-$ ??? enki.png ???
+```bash
+??? enki.png ???
   ??? newEnki.jpg
 ```
 

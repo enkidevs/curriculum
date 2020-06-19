@@ -42,7 +42,7 @@ By now, the question of what happens if one package depends on another package m
 
 The answer lies within the npm version you are using. There's a quick way to find that out:
 ```bash
-$ npm -v
+npm -v
 # 3.10.3
 ```
 
@@ -64,8 +64,8 @@ If *PackageA* had the following *package.json* file, which would tell npm to bun
 }
 ```
 The tree would have the following structure:
-```
-$ npm install PackageA
+```bash
+npm install PackageA
 ~/app
  |- PackageA
  |- PackageB

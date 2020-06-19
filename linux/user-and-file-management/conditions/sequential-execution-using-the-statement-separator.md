@@ -31,8 +31,8 @@ tags:
 
 The `;` separator makes it possible to specify several commands all at once, the shell executing them sequentially: 
 
-```
-$ date ; uname ; clear
+```bash
+date ; uname ; clear
 Fri 11 May 12:21:23 BST 2016
 Linux
 # then clear would delete the text
@@ -43,8 +43,8 @@ Linux
 ## Practice
 
 Run the following commands one after the other :
-```
-$ date ??? whoami
+```bash
+date ??? whoami
 ```
 
 * `;`

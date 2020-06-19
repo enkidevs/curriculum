@@ -39,12 +39,12 @@ A stack trace of all threads can be useful in diagnosing a number of issues such
 
 Basic syntax:
 ```java
-$ jstack PID
+jstack PID
 ```
 
 Print a detailed dump:
 ```java
-$ jstack -l PID
+jstack -l PID
 ```
 
 
@@ -65,8 +65,8 @@ A `jstack` call also dumps information about non-Java threads running within the
 ## Revision
 
 Print a detailed dump of threads in the app:
-```
-$ jstack ??? ???
+```bash
+jstack ??? ???
 ```
 
 * `-l`

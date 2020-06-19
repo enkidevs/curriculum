@@ -51,7 +51,7 @@ The command above will search for the file  and kill whatever processes are usin
 
 Complete the command to kill the processes that are using a file :
 ```
-$ ??? ??? file_name
+??? ??? file_name
 ```
 
 * `fuser`

@@ -28,7 +28,7 @@ The `del` module supports *multiple files* and *globbing* so is ideally suited t
 
 To install:
 ```bash
-$ npm install --save-dev gulp del
+npm install --save-dev gulp del
 ```
 
 Imagine this file  structure:

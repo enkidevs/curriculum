@@ -38,7 +38,7 @@ Similarly, when you see a "log in" prompt, this is actually the `login` command 
 The `ps` command displays a flat list of processes, but you can use the `pstree` command if you want to see a tree-like display.  Here's some example output from an Ubuntu web server:
 
 ```shell
-$ pstree
+pstree
 init─┬─atd
      ├─cron
      ├─dbus-daemon
@@ -57,7 +57,6 @@ init─┬─atd
      ├─upstart-file-br
      ├─upstart-socket-
      └─upstart-udev-br
-$
 ```
 
 You can also run `ps auxf` to see a tree-like display, although the output is less user-friendly.
@@ -69,7 +68,7 @@ In the following extract of a tree representation of processes, which process la
 
 ???
 ```
-$ pstree
+pstree
 systemd─┬─ModemManager─┬─{gdbus}
         |              └─{gdmain}  
         └─konsole--bash─┬─pstree

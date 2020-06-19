@@ -29,10 +29,10 @@ Using them is considered to be a good practice as you won't end up losing import
 
 To achieve this functionality by default, the following aliases can be added to `~/.bashrc` or to `/etc/profile`:
 
-```
-$ alias cp='cp -i'
-$ alias mv='mv -i'
-$ alias rm='rm -i'
+```bash
+alias cp='cp -i'
+alias mv='mv -i'
+alias rm='rm -i'
 ```
 
 ---

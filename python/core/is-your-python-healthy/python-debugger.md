@@ -46,7 +46,7 @@ if __name__ == '__main__':
 Running the **debugger** from the command line causes it to load your **source file** and stop the execution before the first statement it finds:
 
 ```bash
-$ python3 -m pdb debug.py
+python3 -m pdb debug.py
 
 #Console output:
 

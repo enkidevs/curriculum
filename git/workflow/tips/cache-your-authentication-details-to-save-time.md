@@ -37,8 +37,8 @@ Before you can push to a git server over HTTP protocol, git will ask for your us
 If you don't want to type these in every time, you can store your authentication details in a cache.
 
 To set up a credential cache:
-```
-$ git config --global 
+```bash
+git config --global 
    credential.helper cache
 ```
 
@@ -52,8 +52,8 @@ Another option to avoid frequent authentication is to use SSH transport.
 ## Practice
 
 Cache your credentials:
-```
-$ git ??? ???
+```bash
+git ??? ???
   ???.??? ???
 ```
 
@@ -67,8 +67,8 @@ $ git ??? ???
 ## Revision
 
 To cache your credentials for 15 minutes you would run:
-```
-$ git ??? ??? 
+```bash
+git ??? ??? 
   credential.??? ???
 ```
 

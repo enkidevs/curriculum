@@ -1,5 +1,5 @@
 ---
-author: tuwi.dc
+author: tuwidc
 
 levels:
 
@@ -45,8 +45,8 @@ notes: ''
 
 In Linux, the `dd` command can be used for simple I/O performance measurements as follows: 
 
-```
-$ dd if=/dev/zero of=~/testfile \
+```bash
+dd if=/dev/zero of=~/testfile \
           bs=1G count=1 oflag=direct
 ```
 Flags:
@@ -70,8 +70,8 @@ Don't forget to delete the test file when finished.
 ## Revision
 
 What command should be run with the following options to obtain an I/O performance measurement?
-```
-$ ??? if=/dev/zero of= ~/testfile
+```bash
+??? if=/dev/zero of= ~/testfile
       bs=1G count=1 oflag=direct
 ```
 

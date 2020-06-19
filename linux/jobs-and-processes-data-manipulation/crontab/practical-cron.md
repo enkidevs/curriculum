@@ -1,5 +1,5 @@
 ---
-author: tuwi.dc
+author: tuwidc
 
 levels:
 
@@ -49,17 +49,17 @@ MINUTE HOUR DATE MONTH WEEKDAY COMMAND
 ```
 
 To list the current cron jobs, use `-l` : 
-```
-$ crontab -l
+```bash
+crontab -l
 ```
 To check another user's crontab, use `-u user` with the `-l` flag:
-```
-$ crontab -u username -l
+```bash
+crontab -u username -l
 ```
 
 To edit the crontab, use `-e`:
-```
-$ crontab -e
+```bash
+crontab -e
 ```
 Some common used *special characters* are:
 - `*` = every possible value[1]

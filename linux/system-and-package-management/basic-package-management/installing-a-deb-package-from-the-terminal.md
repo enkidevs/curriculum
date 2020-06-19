@@ -1,5 +1,5 @@
 ---
-author: tuwi.dc
+author: tuwidc
 
 levels:
 
@@ -44,20 +44,20 @@ tags:
 ## Content
 
 To install a `deb` package:
-```
-$ sudo dpkg -i DEB_PACKAGE
+```bash
+sudo dpkg -i DEB_PACKAGE
 # ex: sudo dpkg -i debpack_3.1.deb
 ```
 If `dpkg` reports an error due to dependency problems, run: 
-```
-$ sudo apt-get install -f
+```bash
+sudo apt-get install -f
 ```
 This will download the missing dependencies. If that reports an error, dependencies will have to be configured manually.
 
 To remove the package:
 
-```
-$ sudo dpkg -r PACKAGE_NAME
+```bash
+sudo dpkg -r PACKAGE_NAME
 # ex: sudo dpkg -r debpack
 ```
 
@@ -65,8 +65,8 @@ $ sudo dpkg -r PACKAGE_NAME
 ## Practice
 
 The missing dependencies error thrown by `dpkg` can be fixed by:
-```
-$ ??? ??? ??? 
+```bash
+??? ??? ??? 
 ```
 
 * `apt-get`
@@ -79,8 +79,8 @@ $ ??? ??? ???
 ## Revision
 
 The usual syntax for installing a `deb` package is:
-```
-$ ??? ??? ???
+```bash
+??? ??? ???
 ```
 
 * `dpkg`

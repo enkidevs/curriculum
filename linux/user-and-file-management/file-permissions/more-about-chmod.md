@@ -36,20 +36,20 @@ Some commonly used permissions examples for executable files:
 
 ```sh
 # all three have no restrictions
-$ chmod 777 filename
+chmod 777 filename
 
 # owner has no restrictions
-$ chmod 700 filename
+chmod 700 filename
 ```
 
 For general files:
 
 ```sh
 # all users can read/write the file
-$ chmod 666 filename
+chmod 666 filename
 
 # above is the same as
-$ chmod a+rw filename
+chmod a+rw filename
 ```
 
 ---

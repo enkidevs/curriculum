@@ -1,5 +1,5 @@
 ---
-author: tuwi.dc
+author: tuwidc
 
 levels:
 
@@ -49,16 +49,16 @@ links:
 It has varying levels of verbosity, acquire additional information using `-v` and `-vv` flags.
 
 Graphics:
-```
-$ lspci -nnk | grep VGA -A1
+```bash
+lspci -nnk | grep VGA -A1
 ```
 Audio:
-```
-$ lspci -v | grep -A7 -i "audio"
+```bash
+lspci -v | grep -A7 -i "audio"
 ```
 Networking:
-```
-$ lspci -nnk | grep net -A2
+```bash
+lspci -nnk | grep net -A2
 ```
 
 `lspci` does not show USB hardware other than USB busses. Instead, `lsusb` is the equivalent of `lspci` for USB devices. 
@@ -69,9 +69,9 @@ $ lspci -nnk | grep net -A2
 ## Practice
 
 How would you retrieve information on audio hardware?
-```
-$ ??? ??? | ??? 
-      -A7 -i "audio"
+```bash
+??? ??? | ??? 
+  -A7 -i "audio"
 ```
 
 * `lspci`

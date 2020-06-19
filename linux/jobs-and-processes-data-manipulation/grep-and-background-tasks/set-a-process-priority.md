@@ -1,5 +1,5 @@
 ---
-author: tuwi.dc
+author: tuwidc
 
 levels:
 
@@ -75,8 +75,8 @@ renice 5 -p 13254
 ## Practice
 
 Set the highest priority for the process with ID `2314` :
-```
-$ ??? ??? ??? 2314
+```bash
+??? ??? ??? 2314
 ```
 
 * `renice`

@@ -1,5 +1,5 @@
 ---
-author: tuwi.dc
+author: tuwidc
 
 levels:
 
@@ -49,20 +49,20 @@ aspects:
 To give a specific user `root` access, you need to add the user to the `root` permissions group.
 
 If you want to create a new user:
-```
-$ adduser newUser
-$ passwd newUser
+```bash
+adduser newUser
+passwd newUser
 ```
 To add newUser to the *root* group, run:
-```
-$ adduser newUser root
+```bash
+adduser newUser root
 # or
-$ usermod -aG root newUser
+usermod -aG root newUser
 ```
 
 Or to give it root privileges manually:
-```
-$ visudo
+```bash
+visudo
 # and add the following line under
 newUser ALL=(ALL:ALL)  ALL
 
@@ -77,8 +77,8 @@ Note that the user must log off and back on for this change to take effect.
 ## Revision
 
 Give `enkiUser` root access:
-```
-$ usermod ??? ??? enkiUser
+```bash
+usermod ??? ??? enkiUser
 ```
 
 * `-aG`

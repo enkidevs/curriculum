@@ -61,7 +61,7 @@ Some of the most known and used networking utilities include:
 Which of the following tools can be used to echo a packet to remote host?
 
 ```bash
-$ ??? google.com
+??? google.com
 ```
 
 

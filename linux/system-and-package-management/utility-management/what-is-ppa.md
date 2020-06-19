@@ -1,5 +1,5 @@
 ---
-author: Nick Daminov
+author: nickdaminov
 
 levels:
 
@@ -35,8 +35,8 @@ Packages from those *PPA*s can be downloaded both through a *shell* and a *GUI i
  - How up to date it is (what OS version it runs on)
 
 In order to list all the installed **PPAs** run the following on the shell:
-```
-$ grep ^ /etc/apt/sources.list.d/*
+```bash
+grep ^ /etc/apt/sources.list.d/*
 ```
 
 ---

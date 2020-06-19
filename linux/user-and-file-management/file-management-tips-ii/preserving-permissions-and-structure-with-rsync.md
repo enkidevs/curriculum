@@ -1,5 +1,5 @@
 ---
-author: tuwi.dc
+author: tuwidc
 
 levels:
 
@@ -42,8 +42,8 @@ tags:
 ## Content
 
 To recursively copy from a remote system to your local system preserving permissions and structure you can use `rsync`. It works best for syncing the same files repeatedly over time:
-```
-$ rsync -a -v -e ssh server:/source/
+```bash
+rsync -a -v -e ssh server:/source/
                            /dest/
 ```
 where:
