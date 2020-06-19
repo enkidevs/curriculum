@@ -46,27 +46,24 @@ For example, let's say we want to check the permissions on the `curl` executable
 We might *happen* to know that `curl` is located at `/usr/bin/curl` or we can use `which` to get the full path to the executeable:
 
 ```shell
-$ which curl
+which curl
 /usr/bin/curl
-$
 ```
 
 Now we can run `ls -l /usr/bin/curl`:
 
 ```shell
-$ ls -l /usr/bin/curl
+ls -l /usr/bin/curl
 -rwxr-xr-x  1 root  wheel  172016
 Dec  2  2015 /usr/bin/curl*
-$
 ```
 
 We can capture the output of `which curl` and pass it to `ls -l` directly using `$(...)`, like so:
 
 ```shell
-$ ls -l $(which curl)
+ls -l $(which curl)
 -rwxr-xr-x  1 root  wheel  172016
 Dec  2  2015 /usr/bin/curl*
-$
 ```
 
 The output of the command inside `$(...)` (here `which curl`) is passed to `ls -l` as if we typed it directly.
@@ -76,10 +73,9 @@ The output of the command inside `$(...)` (here `which curl`) is passed to `ls -
 It's common to see backticks `` `...` `` instead of `$(...)`.  The two are equivalent, with the former existing for backwards compatibility with older shells.
 
 ```shell
-$ ls -l `which curl`
+ls -l `which curl`
 -rwxr-xr-x  1 root  wheel  172016
 Dec  2  2015 /usr/bin/curl*
-$
 ```
 
 ---
@@ -92,8 +88,8 @@ twitter.com
 enki.com
 ```
 Use substitution to pass the content of the file to `curl`:
-```
-$ ??? ???(???)
+```bash
+??? ???(???)
 ```
 
 * `curl`

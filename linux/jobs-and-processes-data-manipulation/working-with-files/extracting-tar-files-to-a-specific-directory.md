@@ -37,8 +37,8 @@ tags:
 ## Content
 
 To extract an archive to a directory different from the current directory, use the `-C` flag:
-```
-$ tar -xf archive.tar -C /target/directory
+```bash
+tar -xf archive.tar -C /target/directory
 ```
 
 ---

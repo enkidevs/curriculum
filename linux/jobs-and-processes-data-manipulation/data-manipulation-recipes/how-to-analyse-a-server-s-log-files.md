@@ -59,8 +59,8 @@ One of the most common log file format is[1]:
 #- is a valid placeholder
 ```
 For a log of that type, you can check which user-agents accessed your -let's say- contact page:
-```
-$ awk -F\" '($2 ~ /contact\.html/)
+```bash
+awk -F\" '($2 ~ /contact\.html/)
       {print $6}' access_log_file
 Googlebot/2.1
 ```

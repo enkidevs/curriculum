@@ -50,8 +50,8 @@ The common log files contain:
                      xsession-errors.old)
 ```
 You can also check kernel messages log by running `dmesg` as root:
-```
-$ sudo dmesg
+```bash
+sudo dmesg
 ...
 [0.052269] Mountpoint-cache hash table 
       entries: 4096(order: 3, 32768 bytes)

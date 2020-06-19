@@ -42,9 +42,8 @@ activity.
 The user can specify a sampling period.
 
 ```bash
-$ vmstat 1
+vmstat 1
 procs
-
 ```
 
 ---

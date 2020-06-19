@@ -52,9 +52,9 @@ about the specified network interface:
 You can check this utility directly by using:
 
 ```bash
-$ slurm -i <interface_name>
+slurm -i <interface_name>
 # for example:
-$ slurm -i eth0
+slurm -i eth0
 ```
 
 An example output would be:

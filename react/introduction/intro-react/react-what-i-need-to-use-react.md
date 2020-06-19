@@ -28,9 +28,9 @@ To install **React** you can use a *package manager* such as `yarn` or `npm`:
 
 ```bash
 # yarn
-$ yarn add react react-dom
+yarn add react react-dom
 # npm
-$ npm install --save react react-dom
+npm install --save react react-dom
 ```
 
 You can also use a **CDN** (Content Delivery Network). For both the development and production builds (*minified*) check the link appended to the insight.
@@ -47,8 +47,8 @@ Using the `Babel` compiler will allow you to write your application with both `E
 To create a **Single page application** you can use the officially supported package called `create-react-app`:
 
 ```bash
-$ npm i -g create-react-app
-$ create-react-app myAppName
+npm i -g create-react-app
+create-react-app myAppName
 ```
 
 This will automatically create a *static application* with no backend logic or databases. This will set-up the development environment including all the modern tools specified above.
@@ -56,8 +56,8 @@ This will automatically create a *static application* with no backend logic or d
 To run your `create-react-app` app just:
 
 ```bash
-$ cd myAppName
-$ npm start
+cd myAppName
+npm start
 ```
 
 > Note: as with all the skills in the app, if you want to access more advanced or specific content at any time, **feel free to use the *Skill Map* tab** to jump to the workouts most relevant for you.

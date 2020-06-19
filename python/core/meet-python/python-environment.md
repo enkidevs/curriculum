@@ -30,7 +30,7 @@ Python comes pre-installed on most operating systems. It can also be downloaded 
 Once installed, you can type `python3`, `python` or `python -i` to run the **Python interpreter**[1] from the shell[2]:
 
 ```bash
-$ python3
+python3
 # Python 3.7.6
 # (default, Dec 30 2019, 19:38:28)
 # Type "help", "copyright", "credits" or
@@ -47,7 +47,7 @@ It is the ideal place for testing out small pieces of code or calculations.
 For example:
 
 ```bash
-$ python3
+python3
 >>> 3 * 4
 # 12
 >>>
@@ -62,7 +62,7 @@ We recommend [Visual Studio Code](https://code.visualstudio.com/Download) for be
 Once you're using a text editor you can save files using a `.py` extension and then open them from the shell by running:
 
 ```bash
-$ python3 myPythonFile.py
+python3 myPythonFile.py
 ```
 
 ---

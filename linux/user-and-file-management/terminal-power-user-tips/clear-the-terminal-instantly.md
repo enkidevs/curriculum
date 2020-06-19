@@ -44,7 +44,7 @@ We can clear the terminal instantly by pressing `ctrl + L` . This will achieve t
 
 To reinitialize the terminal and clear the previous outputs, it's possible to run: 
 ```
-$ reset
+reset
 ```
 This won't, however, reinstantiate the shell, meaning you will still be logged as sudo.
 

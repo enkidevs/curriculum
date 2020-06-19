@@ -50,8 +50,8 @@ It's possible to perform keyword searches under linux using the `apropos` comman
 Each manual page has a short description available within it and `apropos` searches the descriptions for instances of the keyword.
 
 How to search all the user related administrative commands:
-```
-$ apropos "user*"
+```bash
+apropos "user*"
 ```
 Outputs:
 ```
@@ -65,7 +65,7 @@ adduser  - add a user/group to the system
 
 Complete the following snippet to obtain the output :
 ```
-$ ??? ???
+??? ???
 ...
 foomatic-kitload (8) - installs a data kit
           into the foomatic database.

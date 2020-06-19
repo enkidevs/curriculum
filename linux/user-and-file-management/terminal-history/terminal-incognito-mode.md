@@ -47,19 +47,19 @@ aspects:
 
 To temporarily disable command logging in the terminal, use:
 ```bash
-$ set +o history 
+set +o history 
 ```
 Or, alternatively:
 ```bash
-$ shopt -uo history 
+shopt -uo history 
 ```
 To enable command logging once more, run:
 ```bash
-$ set -o history 
+set -o history 
 ```
 Alternatively:
 ```bash
-$ shopt -so history 
+shopt -so history 
 ```
 There are no noticeable differences between the two commands, both being used to modify the same optional shell behavior.
 
@@ -68,7 +68,7 @@ There are no noticeable differences between the two commands, both being used to
 
 Complete the snippet to disable command tracking:
 ```
-$ ??? ??? ???
+??? ??? ???
 ```
 
 * `set`
@@ -81,7 +81,7 @@ $ ??? ??? ???
 ## Revision
 
 ```
-$ set -o history
+set -o history
 ```
 ??? command tracking.
 

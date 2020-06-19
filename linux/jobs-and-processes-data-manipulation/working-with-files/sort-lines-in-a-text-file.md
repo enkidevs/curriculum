@@ -38,28 +38,28 @@ enki
 ```
 
 The `sort` command will sort lines alphabetically and output the result:
-```
-$ sort enki.txt
-are 
-enki 
-we
+```bash
+sort enki.txt
+# are 
+# enki 
+# we
 ```
 
 Using the `-o` we can specify an output file:
-```
-$ sort -o enki_sorted.txt enki.txt
-$ cat enki_sorted.txt
-are
-enki
-we
+```bash
+sort -o enki_sorted.txt enki.txt
+cat enki_sorted.txt
+# are
+# enki
+# we
 ```
 
 To sort in reverse use the the `-r` flag:
-```
-$ sort -r enki.txt
-we
-enki
-are
+```bash
+sort -r enki.txt
+# we
+# enki
+# are
 ```
 
 Other flags are available such as `-c` that will only check if the file is sorted.
@@ -68,9 +68,9 @@ Other flags are available such as `-c` that will only check if the file is sorte
 ## Practice
 
 Sort the file `enki` in reverse and output it to `output_enki`:
-```
-$ ??? ??? ??? 
-          output_enki enki
+```bash
+??? ??? ??? 
+    output_enki enki
 ```
 
 
@@ -85,8 +85,8 @@ $ ??? ??? ???
 ## Revision
 
 Check if the `enki` file is sorted:
-```
-$ ??? ??? enki.txt
+```bash
+??? ??? enki.txt
 ```
 
 * `sort`

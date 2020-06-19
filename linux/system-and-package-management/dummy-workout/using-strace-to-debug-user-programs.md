@@ -26,7 +26,7 @@ programs source.
 In the following example we can see the system calls being issued by the following `cat` invoked via strace:
 
 ```bash
-$ strace cat /etc/passwd
+strace cat /etc/passwd
 execve("/bin/cat", ["cat"
 ...
 open("/etc/passwd", ....)

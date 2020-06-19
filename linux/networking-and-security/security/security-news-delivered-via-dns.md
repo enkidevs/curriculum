@@ -43,8 +43,8 @@ tags:
 The public service `istheinternetonfire.com` provides the latest short security news via DNS.
 
 View on the terminal using:
-```
-$ dig +short -t txt istheinternetonfire.com
+```bash
+dig +short -t txt istheinternetonfire.com
 ```
 
 A sample output of such news:
@@ -52,7 +52,6 @@ A sample output of such news:
 "Make ImageMagick Great Again!
 CVE-2016-3714:RCE in ImageMagick 
 https://imagetragick.com/"
-
 ```
 
 ---

@@ -47,16 +47,16 @@ data from/to a specific host. This can mean the *firewall* needs to be 'disabled
 
 On Debian systems, we can issue the following commands as root:
 
-```
-$ iptables -F
-$ iptables -X
-$ iptables -t nat -F
-$ iptables -t nat -X
-$ iptables -t mangle -F
-$ iptables -t mangle -X
-$ iptables -P INPUT ACCEPT
-$ iptables -P OUTPUT ACCEPT
-$ iptables -P FORWARD ACCEPT
+```bash
+iptables -F
+iptables -X
+iptables -t nat -F
+iptables -t nat -X
+iptables -t mangle -F
+iptables -t mangle -X
+iptables -P INPUT ACCEPT
+iptables -P OUTPUT ACCEPT
+iptables -P FORWARD ACCEPT
 ```
 
 These commands clear the current custom rules and disable the default ones.

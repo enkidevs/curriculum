@@ -44,8 +44,8 @@ The fix consists of either switching Windows to UTC or Mac/Linux to local. The p
 
 Therefore, to make Linux use *local* time, edit `rcS` file, containing variables that affect the behaviour of boot scripts:
 
-```
-$ sudo nano /etc/default/rcS
+```bash
+sudo nano /etc/default/rcS
 ```
 And change: 
 ```

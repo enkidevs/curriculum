@@ -41,16 +41,16 @@ tags:
 When set-user identification (`setuid`) permission is set on an executable file, a process that runs this file is granted access based on the owner of the file, rather than the user who is running the executable file.
 
 This special permission allows a user to access files and directories that are normally only available to the owner. For example, the `setuid` permission on the `passwd` command makes it possible for a user to change its password, assuming the permissions of the root:
-```
-$ ll /usr/bin/passwd
+```bash
+ll /usr/bin/passwd
  -rwsr-xr-x 1 root /usr/bin/passwd*
 ```
 The `s` in the permissions shows that special permissions is set.
 
 We can set this special permissions with:
 
-```
-$ chmod +s file
+```bash
+chmod +s file
 ```
 
 ---
@@ -68,8 +68,8 @@ Which of the following is an alternate description of what `setuid` does?
 ## Revision
 
 Set the `setuid` attribute for a file:
-```
-$ ??? ??? ???
+```bash
+??? ??? ???
 ```
 
 * `chmod`

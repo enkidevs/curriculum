@@ -43,8 +43,8 @@ tags:
 
 It is possible to browse websites from the terminal using `lynx`.
 
-```
-$ lynx https://google.com
+```bash
+lynx https://google.com
 ```
 
 ```ssh

@@ -49,14 +49,14 @@ Adding one or more spaces before your command will result in `history` not recor
 This is useful for passwords (those long mysql connections) on the command-line.
 
 For example:
-```
-$ echo 1
+```bash
+echo 1
 1
-$  echo 2
+echo 2
 2
-$ echo 3
+echo 3
 3
-$ history
+history
   ...
   501  echo 1
   502  echo 3

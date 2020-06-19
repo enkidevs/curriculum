@@ -57,13 +57,13 @@ At first, `2>1` may look like a good way to redirect stderr to stdout. However, 
 So the construct becomes `2>&1`.
 
 This can be useful when you want to pipe the output through a *filtering function*:
-```
-$ ls -ld ~ /tnt 2>&1 |
+```bash
+ls -ld ~ /tnt 2>&1 |
         sed '/[nN]o/d'
-#this will print
+# this will print
 drwxr-xr-x 18 osboxes osboxes 4096
         Jun  9 16:01 /home/osboxes
-#instead of
+# instead of
 ls: cannot access '/tnt': No such
          file or directory
 drwxr-xr-x 18 osboxes osboxes 4096
@@ -73,17 +73,17 @@ drwxr-xr-x 18 osboxes osboxes 4096
 
 There's also the shorthand notation that combines the stream merging with the output redirection:
 ```bash
-$ ./script.sh > /dev/null 2>&1
+./script.sh > /dev/null 2>&1
 # same as
-$ ./script.sh &> /dev/null
+./script.sh &> /dev/null
 ```
 
 ---
 ## Practice
 
 Redirect stdout to stderr :
-```
-$ ls -ld ~/ ???
+```bash
+ls -ld ~/ ???
 ```
 
 * `1>&2`

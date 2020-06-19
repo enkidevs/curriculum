@@ -45,31 +45,31 @@ Here is how we do it using apt/aptitude.
 **Using `apt`**
 
 You can hold a package using:
-```
-$ sudo apt-mark hold package_name
+```bash
+sudo apt-mark hold package_name
 ```
 and remove the hold with:
-```
-$ sudo apt-mark un-hold package_name
+```bash
+sudo apt-mark un-hold package_name
 ```
 
 **Using `aptitude`**
 
 You can hold a package using:
-```
-$ sudo aptitude hold package_name
+```bash
+sudo aptitude hold package_name
 ```
 and remove the hold with:
-```
-$ sudo aptitude unhold package_name
+```bash
+sudo aptitude unhold package_name
 ```
 
 ---
 ## Revision
 
 Using `aptitude`, prevent the `enki` package from updating:
-```
-$ ??? ??? enki
+```bash
+??? ??? enki
 ```
 
 * aptitude

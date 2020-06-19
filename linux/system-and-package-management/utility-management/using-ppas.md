@@ -46,23 +46,23 @@ PPAs[1] are repositories that have additional/custom builds/packages on them. Th
 A clear example would be like installing the latest `node.js` build or installing `docker`. 
 
 On the command line you can add a PPA using the `add-apt-repository` utility, e.g.:
-```
-$ add-apt-repository ppa:gwibber-daily/ppa
+```bash
+add-apt-repository ppa:gwibber-daily/ppa
 ```
 
 If you get an error that the add-apt-repository command could not be found, on Ubuntu 12.04 and earlier, install the python-software-properties package:
-```
-$ apt-get install
+```bash
+apt-get install
    python-software-properties
 ```
 On Ubuntu 14.04 and later:
-```
-$ apt-get install 
+```bash
+apt-get install 
   software-properties-common
 ```
 You can remove a ppa by doing
-```
-$ ppa-purge ppa:<lp-name>/<ppa-name>
+```bash
+ppa-purge ppa:<lp-name>/<ppa-name>
 ```
 
 ---

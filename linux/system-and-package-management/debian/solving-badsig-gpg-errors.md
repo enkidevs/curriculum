@@ -54,8 +54,8 @@ Corporation key
 ```
 
 If you trust the source's key fingerprint, copy the string after `BADSIG` and use it to run the following:
-```
-$ sudo apt-key adv --recv-keys \ 
+```bash
+sudo apt-key adv --recv-keys \ 
   --keyserver keyserver.ubuntu.com \
  54422A4B98AB5139
 ```

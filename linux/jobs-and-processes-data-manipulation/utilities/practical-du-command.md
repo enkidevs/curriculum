@@ -39,22 +39,22 @@ notes: ''
 ## Content
 
 The Linux `du` (disk usage) provides information on disk usage of files and directories.
-```
-tuwid@valhalla:~$ du tmp/
+```bash
+du tmp/
 16	tmp/npm.npmjs.org/net-ping/
 ...
 520	tmp/npm-17349-xo9lASR4
 56023  tmp/
 ```
 The `-h` flag will display the result in human readable format, with sizes expressed in Bytes, Kilobytes, Megabytes... 
-```
-tuwid@valhalla:~$ du -sh tmp/
+```bash
+du -sh tmp/
 55K	tmp/
 ```
 The `-a` flag will display the disk usage for all the files and directories.
 
-```
-tuwid@valhalla:~$ du -ah tmp/
+```bash
+du -ah tmp/
 12K	tmp/npm.npmjs.org/net-ping-1.1.11.tgz
 ...
 52K	tmp/npm-17349-xo9lASR4
@@ -62,8 +62,8 @@ tuwid@valhalla:~$ du -ah tmp/
 ```
 
 To find the largest 3 files in a directory:
-```
-$ du -h dir | sort -rh | head -3
+```bash
+du -h dir | sort -rh | head -3
 ```
 
 ---
@@ -71,7 +71,7 @@ $ du -h dir | sort -rh | head -3
 
 Find out the sizes expressed in easily  readable format of all items on your Desktop:
 ```
-$ ??? ??? ???
+??? ??? ???
 ``` 
 
 * `du`

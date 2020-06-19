@@ -75,9 +75,9 @@ action = iptables
 Here `action = iptables` refers to `/etc/fail2ban/action.d/iptables.conf` that's basically a drop action with IPtables.
 
 To stop/start fail2ban service:
-```
-$ /etc/init.d/fail2ban stop
-$ /etc/init.d/fail2ban start
+```bash
+/etc/init.d/fail2ban stop
+/etc/init.d/fail2ban start
 ```
 
 ---

@@ -48,12 +48,12 @@ ExecStart=/path/myscript
 WantedBy=multi-user.target
 ```
 The name of the file should be something like `myscript.service`. Then, you have to enable the new service to start on system boot:
-```
-$ systemctl enable myscript.service
+```bash
+systemctl enable myscript.service
 ```
 You might also have to set execute permission for the script to work:
-```
-$ chmod 755 myscript.service
+```bash
+chmod 755 myscript.service
 ```
 
 ---

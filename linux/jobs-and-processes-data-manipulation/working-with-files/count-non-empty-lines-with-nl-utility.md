@@ -39,8 +39,8 @@ tags:
 ## Content
 
 If you ever need to add numbering alongside a file then `nl` is the tool for you:
-```
-$ echo 'line 1
+```bash
+echo 'line 1
 > line 2
 >
 > line 4 '| nl
@@ -52,8 +52,8 @@ $ echo 'line 1
 The difference between `nl` and `cat -n` is that `cat -n` will count empty lines as well. 
 
 To count empty lines with `nl` add:
-```
-$ echo 'line 1
+```bash
+echo 'line 1
 > line 2
 >
 > line 4 '| nl -ba
@@ -68,8 +68,8 @@ $ echo 'line 1
 ## Revision
 
 In the terminal, add numbering before a file’s content (counting only non-empty lines) :
-```
-$ cat enki.txt | ???
+```bash
+cat enki.txt | ???
 ```
 
 * `nl`

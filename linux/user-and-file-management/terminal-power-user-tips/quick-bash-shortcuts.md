@@ -60,13 +60,13 @@ To effectively construct commands on the command line make use of the following 
 ## Practice
 
 Complete the following snippet, knowing that `|` is the cursor at the current position:
-```
+```bash
 # ctrl-w will ???
-$ ls| -l ~/
+ls| -l ~/
 # ctrl-k will ???
-$ ls |-l ~/
+ls |-l ~/
 # ctrl-u will ???
-$ ls -l| ~/
+ls -l| ~/
 ```
 
 * delete `ls`

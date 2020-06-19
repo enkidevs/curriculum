@@ -39,7 +39,7 @@ This helps you in validating if the data (`props`) received in components is val
 To access the validators, you must first install the `prop-types` library which can be done using the NPM package manager:
 
 ```shell
-$ npm install --save prop-types
+npm install --save prop-types
 ```
 
 Now, all validators are available through `PropTypes` and should be specified as part of your *React* component, on the property `propTypes`:

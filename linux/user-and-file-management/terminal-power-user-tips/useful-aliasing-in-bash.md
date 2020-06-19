@@ -37,33 +37,33 @@ aspects:
 
 The `alias` tool is a way to simplify things by giving them a new "false name".
 
-```
-$ alias short_word="Command"
+```bash
+alias short_word="Command"
 ```
 
 You can use an alias instead of longer commands, adding them on your `.bashrc` file to make them permanent.
 
 
-```
-$ alias ll="ls –l"
+```bash
+alias ll="ls –l"
 ```
 
 In this example, typing ``ll`` will now return ‘long listing format’.
 
 Quick exit with alias:
-```
-$ alias x="exit"
+```bash
+alias x="exit"
 ```
 Other examples:
-```
-$ alias rm="rm -iv"
-$ alias nbrc="nano ~/.bashrc"
+```bash
+alias rm="rm -iv"
+alias nbrc="nano ~/.bashrc"
 ```
 
 
 Now, to open *~/.bashrc* in nano text editor:
-```
-$ nbrc
+```bash
+nbrc
 ```
 Or, to find the top 10 largest files in your system, you can set the following ‘alias’:
 
@@ -74,21 +74,21 @@ alias top10=
 ```
 
 To save the aliases for future use, you have to add the command to the end of `~/.bashrc` file and then execute it:
-```
-#using the alias created earlier
-$ nbrc
+```bash
+# using the alias created earlier
+nbrc
 # add a new aliased command to the end
 # of the file then execute ~/.bashrc
-$ . ~/.bashrc # there is a point after $
+. ~/.bashrc # notice the . at the beginning
 ```
 
 ---
 ## Practice
 
 Complete the following snippet:
-```
-$ ??? ???="netstat -a | more"
-$ ports
+```bash
+??? ???="netstat -a | more"
+ports
 ```
 
 * `alias`
@@ -115,7 +115,7 @@ is used to give a “false name” to other commands.
 Consider the following command and its output:
 
 ```bash
-$ ll
+ll
 total 40
 drwxr-xr-x  4 enki enki 4096 Nov 16 12:37 Comp. Sci.
 drwxr-xr-x  6 enki enki 4096 Nov 16 12:37 Git
