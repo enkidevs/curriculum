@@ -68,3 +68,4 @@ Before Java 8, you could’ve increased `permGen` memory space to 256M with:
 * `PermSize=256M` 
 * `java :PermSize=256M`
  
+ 

@@ -14,7 +14,7 @@ aspects:
   - workout
   - deep
 
-link:
+links:
   - '[HTML <samp> Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/samp){documentation}'
 
 ---

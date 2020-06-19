@@ -98,3 +98,4 @@ alongside another command to find out its alias, functions, builtins and keyword
 `type` can find whether the targeted command is an *alias*, a *keyword*, a *function*, a *builtin* or a *file*.
  
  
+ 
