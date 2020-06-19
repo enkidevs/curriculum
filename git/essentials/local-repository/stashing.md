@@ -137,3 +137,4 @@ git stash --index
 The `apply` and `pop` can be used within **any** branch.  In this way you can move changes to another branch
  
  
+ 
