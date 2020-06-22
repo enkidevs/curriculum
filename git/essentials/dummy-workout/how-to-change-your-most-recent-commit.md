@@ -76,3 +76,4 @@ When would you use `git --amend` ?
 * To notify other members of the team.
  
  
+ 

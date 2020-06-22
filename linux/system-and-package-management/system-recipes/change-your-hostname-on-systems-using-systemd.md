@@ -87,3 +87,4 @@ Even if you use `hostnamectl` to change the hostname, you should manually edit t
 The pretty hostname is a free-form UTF8 host name for presentation to the user. (e.g. *Charlie's Laptop*)
  
  
+ 

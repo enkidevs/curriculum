@@ -40,6 +40,9 @@ Types of change:
 
 ## June 19th 2020
 
+### Changed
+- [Removed all the unnecessary `$` from code snippets](https://github.com/enkidevs/curriculum/pull/2195)
+
 ### Fixed
 - [Linux - Updated two workout names](https://github.com/enkidevs/curriculum/pull/2199)
 - [MongoDB - Delete a database - Capitalise Pokemon in first code block & minor formatting ](https://github.com/enkidevs/curriculum/pull/2194)

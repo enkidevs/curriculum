@@ -88,3 +88,4 @@ The file system cache (*buffed cache*) stores in memory recently used blocks of 
 When you are copying a large file, the copied data will end up in the cache as well, occupying it unnecessary and dropping older blocks. This slows the system because all other applications that had their blocks stored in cache have to reread them from memory.
  
  
+ 

@@ -100,3 +100,4 @@ Which of the following commands will check connectivity between you and a remote
 ICMP packets are specialized packets used for informational and debugging purposes.
 
  
+ 
