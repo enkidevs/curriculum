@@ -47,3 +47,5 @@ The usual commit object contains a hash-code, author’s name and email, date an
 * checksum
 
  
+ 
+ 

@@ -116,3 +116,5 @@ A merge operation will:
 ## Footnotes
 [1:conflicts]
 These markings are usually in more than one place in the file; everywhere there exists a conflict.
+ 
+ 

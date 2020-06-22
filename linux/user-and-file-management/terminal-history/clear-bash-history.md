@@ -94,3 +94,5 @@ To clear the current user’s history you can run:
 * `-d`
 
  
+ 
+ 

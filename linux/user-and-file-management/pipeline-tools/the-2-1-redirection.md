@@ -117,3 +117,5 @@ Which of the following commands will suppress both stdout and stderr?
 * ./script.sh 2>&1 > /dev/null
 * ./script.sh 2>&0 > /dev/null
  
+ 
+ 

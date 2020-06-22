@@ -14,7 +14,7 @@ aspects:
   - obscura
   - workout
 
-link:
+links:
   - '[git reset --soft vs --hard](https://stackoverflow.com/questions/3528245/whats-the-difference-between-git-reset-mixed-soft-and-hard){website}'
 
 ---
@@ -94,4 +94,6 @@ git ???
 * `reset HEAD`
 * `reset`
 
+ 
+ 
  

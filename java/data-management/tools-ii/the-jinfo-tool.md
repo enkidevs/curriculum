@@ -93,3 +93,5 @@ jinfo ??? PID
 * `-systprops`
 * `sysprops`
 * `props`
+ 
+ 

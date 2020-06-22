@@ -77,3 +77,5 @@ You can check kernel messages log by issuing
 * kmesg
 
  
+ 
+ 

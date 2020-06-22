@@ -66,3 +66,5 @@ To delete a database named `pokemon`, you have to use the ??? command followed b
 * `delete`
 * `db.dropDatabase(pokemon)`
 * `db.delete(pokemon)`
+ 
+ 
