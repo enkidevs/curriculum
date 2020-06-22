@@ -95,9 +95,9 @@ myArray.forEach(
   }
 );
 
-// 1, 0
-// 2, 1
-// 3, 2
+// 1 0
+// 2 1
+// 3 2
 ```
 
 Or using `for..of`:
@@ -106,7 +106,7 @@ Or using `for..of`:
 let myArray = [1, 2, 3];
 
 for (let item of myArray) {
-  console.log(item, index);
+  console.log(item);
 }
 
 // 1
