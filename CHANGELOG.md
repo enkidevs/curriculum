@@ -40,8 +40,8 @@ Types of change:
 
 ## June 22nd 2020
 
-### Fixed
-- [JavaScript - Arrays - Fix last code block example](https://github.com/enkidevs/curriculum/pull/2201)
+### Changed
+- [JavaScript - Arrays - Improve last code block example, add resource link](https://github.com/enkidevs/curriculum/pull/2201)
 
 ## June 19th 2020
 
