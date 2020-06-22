@@ -30,7 +30,7 @@ It accepts 3 arguments with the 3rd being optional:
 
 - *Start* is the 0 based index of where to start manipulating the array
 - *Delete* is how many items to remove at the *Start* position (can be 0)
-- *Items to add* (optional)
+- *Items to add* (optional), separated by commas
 
 We can use splice to add and remove items anywhere in the array.
 
@@ -41,7 +41,7 @@ let myArray = [1, 2, 3];
 console.log(
   myArray.splice(
     2, // start at index 2
-    1 // remove the first item
+    1  // remove the first item
   )
 );
 // [3]
