@@ -70,7 +70,7 @@ console.log(myArray);
 // [3, 4]
 ```
 
-In this example, we start from index `0` and replace the first two elements (which are `1` and `2`). They are replaced by `3` and `4`. Notice how both `3` and `4` are inserted as different arguments. This is because each item to be inserted is represented by an argument[1]. If we were to use `[3, 4]` as an argument, we would actually nest another list:
+In this example, we start from index `0` and replace the first two elements (which are `1` and `2`) with `3` and `4`. Notice how both `3` and `4` are inserted as different arguments. This is because each item to be inserted is represented by an argument[1]. If we were to use `[3, 4]` as an argument, we would actually nest another list:
 
 ```js
 let myArray = [1, 2]
