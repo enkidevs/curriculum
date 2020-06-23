@@ -10,7 +10,7 @@ aspects:
 
 ---
 
-# Functions I
+# Functions Intro
 
 ---
 ## Content
@@ -19,7 +19,7 @@ More often than not, a computer program will have many lines of text (think thou
 
 To prevent this issue, modular programming is used. This means that you split your functionality into individual methods. These are called functions, and the aim is for them to be independent; they should execute only one aspect of the desired functionality.
 
-Let's take a look at an example. It's Saturday afternoon, and you're ready for a grilled cheese 🧀.
+Let's take a look at an example. It's Saturday afternoon, and you're ready for a grilled cheese sandwich 🧀.
 
 The recipe says:
 
@@ -42,7 +42,7 @@ Instructions:
 - Fry the sandwich for three minutes on each side (or until golden brown)
 ```
 
-You just remembered that you have a robot sitting in your garage, so why not teach it how to make your gilled cheese?
+You just remembered that you have a robot sitting in your garage, so why not teach it how to make your gilled cheese sandwich?
 
 First, you'll have to create *functions* from the instructions. Starting with the first batch:
 

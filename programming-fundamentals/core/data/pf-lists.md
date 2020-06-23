@@ -15,7 +15,7 @@ aspects:
 ---
 ## Content
 
-Lists, although a data type on their own, represent a collection of data types. Usually you can mix the data types in a list, but some languages only let you use one data type in a list.
+Lists, although a data type on their own, represent a collection of data types. Usually you can mix elements with different data types in a list, but some languages only let you use one data type in a list.
 
 Lists are usually defined using square brackets `[ ]`, with the values (** or variables**) separated by commas inside.
 

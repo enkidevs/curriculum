@@ -10,24 +10,10 @@ aspects:
 
 ---
 
-# Conditions I
+# Comparison Operators
 
 ---
 ## Content
-
-Have you ever wondered how computer programs can have the same code with different outcomes? Welcome to the programmer's crossroad.
-
-You can write code in such a way that you get different outcomes or actions depending on a condition.
-
-Remember that grilled cheese making robot that we programmed in the last post? Let's repurpose it as our personal cook.
-
-The robot has a small number pad which can take numbers between `0` and `9` as inputs.
-
-```plain-text
-input = 0
-```
-
-> ❔ What type is the `input` variable?
 
 The `input` variable will be used to help the robot decide which action to take. When the value is `0` it will do nothing.
 
@@ -61,15 +47,16 @@ You are not limited to the equality operator. Here is a table of all **compariso
 What do you think the robot will do?
 
 ```plain-text
-age = 17
-IF (age >= 21) THEN
-    Direct robot to drink a beer.
+hungry = false
+
+IF (hungry) THEN
+    Make a grilled cheese sandwich.
 ```
 
 ???
 
-* It won't drink a beer.
-* It will drink a beer.
+* It won't make a sandwich.
+* It will make a sandwich.
 
 ---
 ## Revision

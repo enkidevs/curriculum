@@ -9,4 +9,5 @@ sections:
     - introduction
     - data
     - functions
+    - conditions
     - loops

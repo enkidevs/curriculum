@@ -15,40 +15,17 @@ aspects:
 ---
 ## Content
 
-Condition controlled loops are slightly different than counter loops. Instead of running until the counter reaches a certain value, you set a condition and the loop will run **while the condition evaluated to `true`**.
+Condition controlled loops are slightly different than counter loops. Instead of running until the counter reaches a certain value, you set a condition and the loop will run **while the condition evaluates to `true`**.
 
 There are two types of condition controlled loops:
-- the condition is checked at the beginning `WHILE ... DO`
-- the condition is checked at the end `DO ... WHILE`
+- the condition is checked at the beginning `WHILE..DO`
+- the condition is checked at the end `DO..WHILE`
 
-### WHILE..DO
+Depending on the type of application, you can use different loops. For example, your can require your users to type in a password when they log in. 
 
-This is very useful when you want a piece of code to run while a condition is true. The condition must first evaluate to `true` and then the code will run.
+In this case, a `DO..WHILE` loop can be used. It will ask the user to input the password, check that it has the correct format and number of characters, and finally verify that it is correct. If it is, you exit the loop.
 
-```plain-text
-age = 17
-
-WHILE age < 21
-    Drink juice.
-    Increase age by 1.
-Endwhile
-```
-
-This will check that the age is smaller than 21 (which is true) followed by letting you drink juice. Every iteration we increase the age, so after a while you won't have to drink juice.
-
-### DO..WHILE
-
-The difference here is that the code is ran once, before the condition is evaluated:
-
-```plain-text
-age = 33
-
-DO
-    Drink juice.
-WHILE age < 21
-```
-
-In this case, you would still have to drink juice for the first iteration, before the code realises you are older than 21.
+> 💡 In programming, you can achieve the same functionality through different means. The same check can also be achieved using a `WHILE..DO` loop. It's up to you to choose the method and make it work.
 
 ---
 ## Practice

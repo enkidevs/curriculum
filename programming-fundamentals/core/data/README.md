@@ -6,6 +6,6 @@ insights:
   - variables-i
   - variables-ii
   - data-types
-  - integers
-  - strings
+  - numbers
+  - text
   - lists

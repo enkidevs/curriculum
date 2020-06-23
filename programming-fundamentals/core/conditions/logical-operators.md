@@ -1,0 +1,69 @@
+---
+author: kapnobatai136
+
+type: normal
+
+category: must-know
+
+aspects:
+  - introduction
+
+---
+
+# Logical Operators
+
+---
+## Content
+
+We have quite a few leftover numbers. Since we're not using them at the moment, let's use groups of numbers for the *paths*:
+- 1 - 3 for white bread
+- 4 - 6 for whole wheat bread
+- 7 - 9 for rye bread
+
+To do this, we will have to use the `AND` logical operator:
+
+```plain-text
+IF (input == 0) THEN
+    Direct robot to do nothing.
+ELSE IF (input >= 1 AND input <= 3) THEN
+    ...
+ELSE IF (input >= 4 AND input <= 6) THEN
+    ...
+ELSE IF (input >= 7 AND input <= 9) THEN
+    ...
+```
+
+`AND` is one of the main three logical operators, and it helps you to build complex conditions. Here are all the logical operators:
+
+| Operator |                 Meaning                 |
+|:--------:|:---------------------------------------:|
+|    AND   |  all conditions must evaluate to `true` |
+|    OR    |  any condition must evaluate to `true`  |
+|    NOT   |          negates the condition          |
+
+---
+## Practice
+
+Which of these is **not** a logical operator?
+
+???
+
+* IF
+* AND
+* NOT
+* OR
+
+---
+## Revision
+
+Fill in the gaps:
+
+```plain-text
+??? - negates the condition
+??? - all conditions must evaluate to true
+??? - any condition must evaluate to true
+```
+
+* NOT
+* AND
+* OR

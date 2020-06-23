@@ -10,14 +10,14 @@ aspects:
 
 ---
 
-# Strings
+# Text
 
 ---
 ## Content
 
-The text type is almost never called *'text'*. Instead, it is refered to as a **string**. The reasoning behind is that it is a **string of characters**. From now on we'll refer to it as **string**.
+The text type is almost never called *'text'*. Instead, it is refered to as a **string**. The reasoning behind is that it is a **string/list of characters**. From now on we'll refer to it as **string**.
 
-We've already encountered this type before, when creating the `best_app` variable.Now, let's make another one:
+We've already encountered this type before, when creating the `best_app` variable. Now, let's make another one:
 
 ```plain-text
 best_user = "You"

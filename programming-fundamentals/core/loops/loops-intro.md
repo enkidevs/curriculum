@@ -10,7 +10,7 @@ aspects:
 
 ---
 
-# Loops
+# Loops Intro
 
 ---
 ## Content
@@ -19,38 +19,31 @@ Loops are everywhere in our lives. A good example of a loop is brushing your tee
 
 In programming there are different types of loops, with each having their own application. Starting off with the most used one, the counter loop.
 
-Explaining this is simple, you're just teaching a computer how to count while doing some specific actions. Let's say you want to teach your robot how to brush its teeth. For that, you write a function:
+Explaining this is simple, you're just teaching a computer how to count while doing some specific actions.
+
+Your robot made a really nice grilled cheese sandwich, so now you want to it to make more for your three other friends. 
+
+You could call the `make sandwich` function multiple times, or repeat the directions inside the function:
 
 ```plain-text
-Function brush teeth
-    Pass In: tooth brush.
-    Direct robot to brush teeth up.
-    Direct robot to brush teeth down.
-    Pass Out: nothing.
-Endfunction
-```
-
-Hmm, one up and down motion isn't enough to get clean teeth. You could call the `brush teeth` function multiple times, or repeat the directions inside the function:
-
-```plain-text
-Direct robot to brush teeth.
-Direct robot to brush teeth.
+Direct robot to make a sandwich.
+Direct robot to make a sandwich.
 ... 
 
 // or
 
-Function full brush
-    Pass In: brush teeth function.
-    Direct robot to brush teeth.
-    Direct robot to brush teeth.
+Function make sandwiches
+    Pass In: ingredients.
+    Direct robot to make a sandwich.
+    Direct robot to make a sandwich.
     ...
-    Pass Out: nothing.
+    Pass Out: sandwiches.
 Endfunction
 ```
 
 > 💡 You can leave comments in your code to explain why you have chosen a certain solution. In pseudocode comments are left using `//`, but each programming language has its own way of defining comments.
 
-When using a low number of repetitions, you wouldn't have any problems repeating the code, but the higher the number the harder and more tedious it gets. In programming you should aim to never copy-paste your code. It can lead to many issues, such as changing the code in place without updating all the occurences.
+When using a low number of repetitions, you wouldn't have any problems repeating the code, but the higher the number the harder and more tedious it gets. In programming you should aim to never copy-paste your code. It can lead to many issues, such as changing the code in place without updating all the other occurences.
 
 A better way of achieving this functionality would be by using loops. Whenever you need to repeat a piece of code for a certain number of times, your best bet are loops.
 

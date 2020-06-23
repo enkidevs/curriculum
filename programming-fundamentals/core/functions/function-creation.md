@@ -10,7 +10,7 @@ aspects:
 
 ---
 
-# Functions II
+# Function Creation
 
 ---
 ## Content
@@ -36,8 +36,8 @@ Function finish grilled cheese
     Pass In: sandwich with butter and cheese, pan, plate.
     Direct robot to preheat the pan.
     Direct robot to fry the sandwich on each side.
-    Direct robot to place the grilled cheese sandwich on the place.
-    Pass Out: nothing.
+    Direct robot to place the grilled cheese sandwich on the plate.
+    Pass Out: grilled cheese sandwich.
 Endfunction
 ```
 
@@ -52,7 +52,7 @@ Write a function called `fill glass` that takes `glass` and `water` as arguments
 ??? ???
     ???: glass, water
     ...
-    ???: nothing.
+    ???: glass full of water.
 Endfunction
 ```
 
