@@ -6,7 +6,8 @@ type: normal
 category: must-know
 
 aspects:
-  - introduction
+  - workout
+  - deep
 
 ---
 
@@ -25,7 +26,10 @@ Let's take a look at an example:
 hungry = true
 sandwiches_made = 0
 
-WHILE hungry OR sandwiches_made <=3
+WHILE (
+  hungry OR 
+  sandwiches_made <=3
+  )
     Make sandwhich.
     Increase sandwiches_made by 1.
 ENDWHILE
@@ -39,8 +43,11 @@ We created a complex condition: if the `hungry` variable is equal to `true` **or
 Complete this loop such that it runs only if `number` is between `1` and `100` (inclusive):
 
 ```plain-text
-??? number ??? 1 AND ??? <= 100
-    ...
+??? (
+  number ??? 1 
+  AND ??? <= 100
+)
+  ...
 ???
 ```
 

@@ -1,6 +1,6 @@
 name: Programming Fundamentals
 
-description: TBD
+description: Everything you need to know about programming.
 
 color: aaf0d1
 

@@ -6,7 +6,8 @@ type: normal
 category: must-know
 
 aspects:
-  - introduction
+  - workout
+  - deep
 
 ---
 
@@ -19,7 +20,7 @@ The `input` variable will be used to help the robot decide which action to take.
 
 ```
 IF (input == 0) THEN
-    Direct robot to do nothing.
+  Direct robot to do nothing.
 ```
 
 Wait, double equal signs? What's that? It's called a boolean condition and it can only have **two results**: `true` or `false`.
@@ -50,7 +51,7 @@ What do you think the robot will do?
 hungry = false
 
 IF (hungry) THEN
-    Make a grilled cheese sandwich.
+  Make a grilled cheese sandwich.
 ```
 
 ???

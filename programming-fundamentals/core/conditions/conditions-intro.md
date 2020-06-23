@@ -6,7 +6,8 @@ type: normal
 category: must-know
 
 aspects:
-  - introduction
+  - workout
+  - deep
 
 ---
 
@@ -38,6 +39,8 @@ What type is the `input` variable?
 input = 0
 ```
 
+???
+
 * integer
 * string
 * list
@@ -50,6 +53,8 @@ What type is the `input` variable?
 ```plain-text
 input = "0"
 ```
+
+???
 
 * string
 * integer

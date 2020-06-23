@@ -6,7 +6,8 @@ type: normal
 category: must-know
 
 aspects:
-  - introduction
+  - workout
+  - deep
 
 ---
 
@@ -24,9 +25,12 @@ hungry = true
 sandwiches_made = 0
 
 DO
-    Make a sandwich.
-    Increase sandwiches_made by 1.
-WHILE hungry AND sandwiches_made <= 3
+  Make a sandwich.
+  Increase sandwiches_made by 1.
+WHILE (
+  hungry AND 
+  sandwiches_made <= 3
+)
 ```
 
 Now, you'll make the sandwich, and later decide if more sandwiches are required (based on your condition).

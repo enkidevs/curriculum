@@ -15,9 +15,13 @@ aspects:
 ---
 ## Content
 
-More often than not, a computer program will have many lines of text (think thousands). Imagine you are maintaining one such program and you realise that there is a problem with it. When you try to find it, you have to go through all those lines.
+More often than not, a computer program will have many lines of text (think thousands). 
 
-To prevent this issue, modular programming is used. This means that you split your functionality into individual methods. These are called functions, and the aim is for them to be independent; they should execute only one aspect of the desired functionality.
+Imagine you are maintaining one such program and you realise that there is a problem with it. When you try to find it, you have to go through all those lines.
+
+To prevent this issue, modular programming is used. This means that you split your functionality into individual methods. 
+
+These are called functions, and the aim is for them to be independent; they should execute only one aspect of the desired functionality.
 
 Let's take a look at an example. It's Saturday afternoon, and you're ready for a grilled cheese sandwich 🧀.
 
@@ -48,11 +52,11 @@ First, you'll have to create *functions* from the instructions. Starting with th
 
 ```plain-text
 Function prepare ingredients
-    Pass In: cheese, grater, bowl, bread.
-    Direct the robot to prepare the bowl and grater.
-    Direct the robot to grate cheese in the bowl.
-    Direct the robot to slide the bread.
-    Pass Out: a bowl with cheese, sliced bread.
+  Pass In: cheese, grater, bowl, bread.
+  Direct the robot to prepare the bowl and grater.
+  Direct the robot to grate cheese in the bowl.
+  Direct the robot to slide the bread.
+  Pass Out: a bowl with cheese, sliced bread.
 Endfunction
 ```
 

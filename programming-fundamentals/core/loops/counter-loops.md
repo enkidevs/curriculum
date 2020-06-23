@@ -6,7 +6,8 @@ type: normal
 category: must-know
 
 aspects:
-  - introduction
+  - workout
+  - deep
 
 ---
 
@@ -19,7 +20,7 @@ You might've already heard about these, they are also called `for loops`. The id
 
 ```plain-text
 FOR counter = 1 to 3
-    Direct robot to make a sandwich
+  Make a sandwich.
 ENDFOR
 ```
 
@@ -27,13 +28,13 @@ You're not limited to numbers. You could, for example, use values in a list. Say
 
 ```plain-text
 friends = [
-    "John",
-    "Dan",
-    "Brad"
+  "John",
+  "Dan",
+  "Brad"
 ]
 
 FOR each friend of friends
-    Make a sandwich.
+  Make a sandwich.
 ENDFOR
 ```
 
@@ -46,7 +47,7 @@ Complete the loop so that it repeats **five times**:
 
 ```plain-text
 ??? counter = 1 ??? ???
-    Wash hands.
+  Wash hands.
 ???
 ```
 
@@ -64,7 +65,7 @@ Complete the loop so that it rings the alarm every day:
 days = ["Monday", "Tuesday", ...]
 
 ??? day ??? ???
-    Ring alarm
+  Ring alarm
 ???
 ```
 

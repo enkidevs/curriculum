@@ -1,6 +1,6 @@
 name: Functions
 
-description: TBD
+description: Split your code by functionality.
 
 insights:
   - functions-intro

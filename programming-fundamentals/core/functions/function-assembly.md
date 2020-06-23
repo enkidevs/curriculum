@@ -19,17 +19,19 @@ Your robot is almost ready! The last step is chaining all the functions. You wou
 
 ```plain-text
 Function make a sandwich
-    Pass In: prepare ingredients, assemble sandwich, fry sandwich.
-    Direct robot to execute prepare ingredients.
-    Direct robot to execute assemble sandwich.
-    Direct robot to execute fry sandwich.
-    Pass Out: grilled cheese sandwich.
+  Pass In: prepare ingredients, assemble sandwich, fry sandwich.
+  Direct robot to execute prepare ingredients.
+  Direct robot to execute assemble sandwich.
+  Direct robot to execute fry sandwich.
+  Pass Out: grilled cheese sandwich.
 Endfunction
 ```
 
 > 💡 You should give your functions explanatory names. A good rule is to use verb-noun combinations (`prepare ingredients`). If your functions requires two verbs or nouns for its identifier, you should probably split it into separate functions.
 
 ![gif-of-spongebob-dusting-off-hands](https://img.enkipro.com/cdf13a221aa155022ba5eb2031e27cde.gif)
+
+That's it, you robot is ready to start making you grilled cheese sandwiches.
 
 ---
 ## Practice

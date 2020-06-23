@@ -6,7 +6,8 @@ type: normal
 category: must-know
 
 aspects:
-  - introduction
+  - workout
+  - deep
 
 ---
 
@@ -24,22 +25,31 @@ To do this, we will have to use the `AND` logical operator:
 
 ```plain-text
 IF (input == 0) THEN
-    Direct robot to do nothing.
-ELSE IF (input >= 1 AND input <= 3) THEN
+  Do nothing.
+ELSE IF (
+  input >= 1 AND 
+  input <= 3
+  ) THEN
     ...
-ELSE IF (input >= 4 AND input <= 6) THEN
+ELSE IF (
+  input >= 4 AND 
+  input <= 6
+  ) THEN
     ...
-ELSE IF (input >= 7 AND input <= 9) THEN
+ELSE IF (
+  input >= 7 AND 
+  input <= 9
+  ) THEN
     ...
 ```
 
 `AND` is one of the main three logical operators, and it helps you to build complex conditions. Here are all the logical operators:
 
-| Operator |                 Meaning                 |
-|:--------:|:---------------------------------------:|
-|    AND   |  all conditions must evaluate to `true` |
-|    OR    |  any condition must evaluate to `true`  |
-|    NOT   |          negates the condition          |
+| Operator |          Meaning          |
+|:--------:|:-------------------------:|
+|    AND   | all conditions are `true` |
+|    OR    |  any condition is `true`  |
+|    NOT   |   negates the condition   |
 
 ---
 ## Practice

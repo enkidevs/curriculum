@@ -6,7 +6,8 @@ type: normal
 category: must-know
 
 aspects:
-  - introduction
+  - workout
+  - deep
 
 ---
 
@@ -19,9 +20,9 @@ Now, knowing that `0` means do nothing, we'll want the robot to take an action i
 
 ```plain-text
 IF (input == 0) THEN
-    Direct robot to do nothing.
+  Do nothing.
 ELSE
-    Direct robot to make a grilled cheese.
+  Make a grilled cheese.
 ```
 
 You have now chained two conditions. If the `input` is anything else than 0, then the robot will start making a grilled cheese sandwich.
@@ -34,13 +35,13 @@ The next step is creating different *paths*:
 
 ```plain-text
 IF (input == 0) THEN
-    Direct robot to do nothing.
+  Do nothing.
 ELSE IF (input == 1) THEN
-    Direct robot to make grilled cheese sandwich using white bread.
+  Use white bread.
 ELSE IF (input == 2) THEN
-    Direct robot to make grilled cheese sandwich using whole wheat bread.
+  Use whole wheat bread.
 ELSE IF (input == 3) THEN
-    Direct robot to make grilled cheese sandwich using rye bread.
+  Use rye bread.
 ```
 
 You can chain multiple conditions using `ELSE IF`. If the `input` is `3` then the robot will use white bread, **and it won't even check the other conditions** because that one evaluated to `true`.
@@ -56,7 +57,7 @@ Complete the condition such that you only make a sandwich if you're hungry:
 hungry = ???
 
 ??? (???) THEN
-    Make a sandwich
+  Make a sandwich
 ???
 ```
 
@@ -72,11 +73,11 @@ Complete the following condition chain:
 
 ```plain-text
 ??? condition 1 THEN
-    do something
+  do something
 ??? condition 2 THEN
-    do something
+  do something
 ???
-    do something
+  do something
 ```
 
 * IF
