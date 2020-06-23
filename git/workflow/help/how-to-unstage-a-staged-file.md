@@ -31,10 +31,10 @@ parent: the-three-states-in-git
 If you mistakenly stage a file and want to 'undo' this operation, you can use `git reset`.
 
 For example:
-```
-$ git add *
+```bash
+git add *
 # mistakenly staged all files
-$ git reset HEAD README.txt
+git reset HEAD README.txt
 # unstaged README.txt 
 ```
 You can use `git status` for prompts on unstaging.
@@ -43,9 +43,9 @@ You can use `git status` for prompts on unstaging.
 ## Practice
 
 What do these commands do?
-```
-$ git add enki.md games.md
-$ git reset 
+```bash
+git add enki.md games.md
+git reset 
 ```
  ???
 
@@ -57,13 +57,15 @@ $ git reset
 ## Revision
 
 Undo the command that staged `index.html` :
-```
-$ git add index.html
-$ git ??? HEAD index.html
+```bash
+git add index.html
+git ??? HEAD index.html
 ```
 
 * `reset`
 * `remove`
 * `amend`
 
+ 
+ 
  

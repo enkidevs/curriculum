@@ -29,17 +29,17 @@ links:
 A remote repository is a version of your project that is hosted on the Internet or on your network.
 
 To add a remote repository:
-```
-$ git remote add enki https://git.enki.com
-$ git remote
+```bash
+git remote add enki https://git.enki.com
+git remote
 enki
 ```
 You can now use the shortname `enki` to represent the whole URL.
 
 If you clone a remote repository, the default name for the server you cloned from is `origin`:
-```
-$ git clone https://git.enki.com
-$ git remote
+```bash
+git clone https://git.enki.com
+git remote
 origin
 ```
 
@@ -47,10 +47,9 @@ origin
 ## Practice
 
 What does this code do?
-```
-$ git remote add test
+```bash
+git remote add test
      https://git.enki.com
-
 ```
 ???
 
@@ -62,8 +61,8 @@ $ git remote add test
 ## Revision
 
 Add the remote repository and give it a shortname `experiment` :
-```
-$ git ??? ??? ???
+```bash
+git ??? ??? ???
      https://git.enki.com
 ```
 
@@ -73,4 +72,6 @@ $ git ??? ??? ???
 * clone
 * test
 * origin
+ 
+ 
  

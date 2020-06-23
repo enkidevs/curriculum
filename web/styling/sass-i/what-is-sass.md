@@ -31,9 +31,9 @@ A preprocessor is a program that takes an input and produces an output to be use
 The `sass-convert` command line utility allows fast conversion between the two syntaxes:
 ```bash
 # Sass to SCSS
-$ sass-convert main.sass main.scss
+sass-convert main.sass main.scss
 # SCSS to Sass
-$ sass-convert main.scss main.sass
+sass-convert main.scss main.sass
 ```
 In the following insights, we will be using the *SCSS* syntax.
 
@@ -120,3 +120,5 @@ is a valid ??? file.
 * Sass
 * _
 * preprocessed
+ 
+ 

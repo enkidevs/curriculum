@@ -36,7 +36,7 @@ To help you, **Git** provides the `git config` tool, making it easier to change 
 
 To list all current settings:
 ```bash
-$ git config --list
+git config --list
 user.name=John Doe
 user.email=johndoe@example.com
 color.status=auto
@@ -46,21 +46,21 @@ color.branch=auto
 
 To see a specific setting:
 ```bash
-$ git config user.name
+git config user.name
 John Doe
 
 ```
 
 To change your identity[1]:
 ```bash
-$ git config --global user.name "Enki"
-$ git config --global user.email i@enki.me
+git config --global user.name "Enki"
+git config --global user.email i@enki.me
 
 ```
 
 **Git** will sometimes ask for user input by invoking the system's default text editor. To change what editor is used by **Git**:
 ```bash
-$ git config --global core.editor vim
+git config --global core.editor vim
 ```
 
 On *Windows* machines, the path to the executable must be included.
@@ -69,8 +69,8 @@ On *Windows* machines, the path to the executable must be included.
 ## Practice
 
 Complete the command to change your username for all projects:
-```
-$ git ??? ??? \
+```bash
+git ??? ??? \
   user.??? "My Name"
 ```
 
@@ -103,4 +103,6 @@ What `Git` command is used to change various configuration options?
 ## Footnotes
 [1:global]
 The `--global` flag applies changes to all projects. It's possible to change variables for specific projects by running the command without the flag.
+ 
+ 
  

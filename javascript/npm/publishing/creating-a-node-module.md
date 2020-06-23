@@ -55,7 +55,7 @@ console.log(math.pow(3,4));
 ```
 Using node to run `app.js` yields:
 ```bash
-$ node app.js
+node app.js
 81
 ```
 
@@ -81,4 +81,6 @@ Usually, a module id is
 * the name of the main JavaScript file
 * the name of the first function
 * defined in the *package.json*
+ 
+ 
  

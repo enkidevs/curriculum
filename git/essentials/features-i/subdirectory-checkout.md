@@ -60,10 +60,10 @@ Sparse checkout allows the user to choose what files to look at. It does the opp
 ## Practice
 
 Enable *sparse checkout* then choose to checkout only the `newFeature/` subdirectory:
-```
-$ git ???
+```bash
+git ???
       ???.??? true
-$ echo ??? >>
+echo ??? >>
        .git/info/sparse-checkout
 ```
 
@@ -84,4 +84,6 @@ Directories not specified in the `sparse-checkout` file are
 * the only ones pulled
 * immutable
 
+ 
+ 
  

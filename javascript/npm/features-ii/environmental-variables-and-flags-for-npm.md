@@ -64,7 +64,7 @@ Suppose your application relies on the `env NODE_PATH ./` trick, but also on oth
 How would you add an environmental variable called `API_KEY` that's equal to `xyz` at the runtime of you node application? Suppose the main file of you application is `index.js`
 
 ```bash
-$ ????????? ??? ???
+??? ??? ??? ??? ???
 ```
 
 * API_KEY
@@ -104,4 +104,6 @@ In `package.json`, define a script that runs `node index.js`. Add to it the `--h
 * --har
 * -h
 * "abc"
+ 
+ 
  

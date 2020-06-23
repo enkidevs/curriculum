@@ -48,8 +48,8 @@ Full directories and subdirectories can be targeted:
 ```
 
 Keep in mind that if files specified in `.gitignore` were checked in before the rule was introduced, you need to manually **untrack** them:
-```
-$ git rm --cached myFile.java
+```bash
+git rm --cached myFile.java
 ```
 Most of the time, you should be able to find online a `.gitignore` template for the language and IDE combination you're using.
 
@@ -82,3 +82,5 @@ What file is used to tell git to ignore certain files in your project?
 
 [1: Dot files]
 By convention, a "dot-file" (a file name which begins with `.`) is hidden and extra steps are required for it to be displayed in the file explorer.
+ 
+ 

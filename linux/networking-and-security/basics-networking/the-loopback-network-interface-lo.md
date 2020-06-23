@@ -30,7 +30,7 @@ inAlgoPool: false
 If you run the `ifconfig` command you'll see an interface designated `lo` that doesn't appear to correspond to any physical device:
 
 ```shell
-$ ifconfig
+ifconfig
 lo        
 Link encap:Local Loopback  
 inet addr:127.0.0.1  Mask:255.0.0.0
@@ -43,7 +43,6 @@ TX packets:31 errors:0 dropped:0
    collisions:0 txqueuelen:0
 RX bytes:2240 (2.2 KB)
 TX bytes:2240 (2.2 KB)
-$
 ```
 
 The `lo` interface (`lo` stands for "loopback") is a special, virtual network interface in which all traffic (up or down) is automatically sent back to the interface itself without any processing or modification.  It is assigned the IP address `127.0.0.1`, which is a special IP address that can't ever be used publicly and always refers to the machine itself.
@@ -76,4 +75,6 @@ Loopback interface always refers to the
 * router’s address
 * destination’s address
 
+ 
+ 
  

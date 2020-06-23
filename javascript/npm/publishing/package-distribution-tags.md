@@ -39,24 +39,24 @@ They are more human readable and allow the user to clearly differentiate between
 
 To add a tag to your package:
 ```bash
-$ npm dist-tag add <pkg>@<version> [<tag>]
+npm dist-tag add <pkg>@<version> [<tag>]
 ```
 This will tag the version of the package with the `<tag>`, or the `--tag` config if it's not specified.
 
 You can also remove a tag:
 ```bash
-$ npm dist-tag rm <pkg> <tag>
+npm dist-tag rm <pkg> <tag>
 
 ```
 To list all the tags for a package:
 ```bash
-$  npm dist-tag ls [<pkg>]
+npm dist-tag ls [<pkg>]
 ```
 
 These tags can be used on installing packages:
 ```bash
-$ npm dist-tag add enki stable
-$ npm install enki@stable
+npm dist-tag add enki stable
+npm install enki@stable
 ```
 
 It's advised not to use tags that begin with numbers or the letter `v`  as they may be interpreted as **semVer** syntax.
@@ -66,8 +66,8 @@ It's advised not to use tags that begin with numbers or the letter `v`  as they 
 
 Complete the code snippet to add a tag to your package:
 
-```
-$ npm dist-tag ???
+```bash
+npm dist-tag ???
     <pkg>@<version> [<???>]
 ```
 * add
@@ -82,7 +82,7 @@ $ npm dist-tag ???
 
 List all the tags for a package:
 ```bash
-$ npm ??? ??? [<pkg>]
+npm ??? ??? [<pkg>]
 ```
 
 * dist-tag
@@ -91,4 +91,6 @@ $ npm ??? ??? [<pkg>]
 * --tag
 * add
 * tags
+ 
+ 
  

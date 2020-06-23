@@ -24,7 +24,7 @@ parent: understanding-umask
 Have a look at the current permissions with `ls` and the `l` flag:
 
 ```sh
-$ ls -l filename
+ls -l filename
 ```
 
 This will return something similar to: 
@@ -41,17 +41,16 @@ There are three user groups on the system, and for the above example, their perm
 
  
 You can target them all using the `a` letter:
-```
-$ chmod a+x filename.php
-#adds execute permissions for all
-
+```bash
+chmod a+x filename.php
+# adds execute permissions for all
 ```
 Or individually:
-```
-$ chmod g-x filename.php
+```bash
+chmod g-x filename.php
 # drops execute permissions for group
 
-$ chmod go+w filename.php
+chmod go+w filename.php
 # adds write permissions for g/o
 ```
 
@@ -65,4 +64,6 @@ You can target all groups when setting permissions with the ??? symbol.
 * `all` 
 * `@`
 
+ 
+ 
  

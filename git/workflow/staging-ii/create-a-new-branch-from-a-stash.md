@@ -32,8 +32,8 @@ parent: stashing-changes
 ## Content
 
 If you want to test out a stash before you apply it to its original branch, you can use the `branch` option:
-```
-$ git stash branch testing
+```bash
+git stash branch testing
 ```
 This will create a branch `testing` and checkout the commit you were on when you made the stash. It will then apply the changes and delete the stash if it was successful.
 
@@ -41,8 +41,8 @@ This will create a branch `testing` and checkout the commit you were on when you
 ## Practice
 
 You can test stashed code using a new branch “testing”:
-```
-$ git ??? ??? ???
+```bash
+git ??? ??? ???
 ```
 
 * `stash`
@@ -54,8 +54,8 @@ $ git ??? ??? ???
 ---
 ## Revision
 
-```
-$ git stash branch newBranch
+```bash
+git stash branch newBranch
 ```
 Applies the ??? changes to a new ??? before merging them into the old one.
 
@@ -64,4 +64,6 @@ Applies the ??? changes to a new ??? before merging them into the old one.
 * commit
 * merged
 
+ 
+ 
  

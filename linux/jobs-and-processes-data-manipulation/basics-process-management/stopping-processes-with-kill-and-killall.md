@@ -37,11 +37,10 @@ The `kill` command expects to be given a process ID (or PID), which can be found
 Consider the following output from `ps`:
 
 ```shell
-$ ps
+ps
   PID TTY           TIME CMD
 20735 ttys000    0:00.10 -bash
  3086 ttys002    0:00.70 -bash
-$
 ```
 
 We have two `bash` processes running, one with PID `20735` and one with PID `3086`.  Running `kill 3086` would cause the operating system to send a "graceful shutdown" signal to that specific `bash` process, while `killall bash` would cause the operating system to terminate *every* `bash` process.
@@ -68,8 +67,8 @@ As a best practice, always try `kill PID` before trying `kill -9 PID`.
 
 Match with the correct argument:
 ```
-$ kill ???
-$ killall ???
+kill ???
+killall ???
 ```
 
 * `processID`
@@ -89,4 +88,6 @@ Force killing a process is done by attaching a
 * -3
 * -7
 
+ 
+ 
  

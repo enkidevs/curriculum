@@ -30,17 +30,17 @@ links:
 You might find yourself having made a wrong commit. For this scenario, **Git** provides another useful command - `git revert`.
 
 Basic syntax for reverting:
-```
-$ git revert <commit>
+```bash
+git revert <commit>
 ```
 
 This generates a new commit with all the changes introduced in `<commit>` afterwards applying it to the current branch. Suppose this is your most recent commit:
-```
-$ git commit -m "might be buggy"
+```bash
+git commit -m "might be buggy"
 ```
 You can revert the last commit in the branch with:
-```
-$ git revert HEAD
+```bash
+git revert HEAD
 ```
 Since `HEAD` is a pointer to the most recent  commit, that one is used to create a **new** commit.
 
@@ -50,10 +50,9 @@ Reverting won't change a project's *history*, making it a **safe** operation.
 ## Practice
 
 Undo the last commit in the current branch:
+```bash
+??? ??? ???
 ```
-$ ??? ??? ???
-```
-
 
 * `git`
 * `revert`
@@ -81,4 +80,6 @@ What command is used to get rid of a commit by undoing the changes introduced by
 * `git clean`
 * `git commit`
 
+ 
+ 
  

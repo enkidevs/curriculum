@@ -31,7 +31,7 @@ links:
 
 The output you'll see is *jnettop's* (the utilities have rather similar outputs). After running the command:
 ```bash
-$ jnettop
+jnettop
 Local <-> Remote
  (IP)                       PORT    PROTO
  (IP)                       PORT
@@ -57,11 +57,11 @@ You'll get live updates of in-and-out traffic. Interpreting the output is simple
 You can also sort or filter the output using the flags:
 ```bash
 # only tcp ports, similar to -x
-$ jnettop --filter tcp
+jnettop --filter tcp
 # traffic through eth0, similar to -i
-$ jnettop --interface eth0
+jnettop --interface eth0
 # run for 10 seconds
-$ jnettop --display text -t 10
+jnettop --display text -t 10
 ```
 You might need to run them with *sudo* to work.
 
@@ -89,4 +89,6 @@ The ??? equivalent of `jnettop` is `nettop`.
 * Windows
 * OpenBSD
 
+ 
+ 
  

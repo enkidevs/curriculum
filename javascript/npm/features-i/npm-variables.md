@@ -57,7 +57,7 @@ The downside of it is that the reference can get quite verbose, as you have to a
 
 You can locally override an existing config by running:
 ```bash
-$ npm config set
+npm config set
     packageName:js_dev js/backend/
 ```
 This would add an entry in the *~/.npmrc* file (`packageName:js_dev=js/backend/`), which is read at run time and changes the path on the local machine.
@@ -69,7 +69,7 @@ http.createServer(...).listen(
 ```
 The same principle as above applies if users want to change the default port:
 ```bash
-$ npm config set packageName:port 80
+npm config set packageName:port 80
 ```
 
 Keep in mind, however, that the environmental variables in Windows are invoked using `%`, which may cause OS compatibility problems.
@@ -90,8 +90,8 @@ The prefix needed to invoke preconfigured values is:
 ## Revision
 
 You can override the local value of an environmental variable by running:
-```
-$ npm ??? ??? ??? newValue
+```bash
+npm ??? ??? ??? newValue
 ```
 
 * config
@@ -99,4 +99,6 @@ $ npm ??? ??? ??? newValue
 * packageName:property
 * property
 * -s
+ 
+ 
  

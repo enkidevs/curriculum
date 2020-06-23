@@ -63,8 +63,8 @@ Deprecation makes sure that users installing such packages are informed though w
 
 How do you un-deprecate `enki` package?
 
-```
-$ npm ??? enki ???
+```bash
+npm ??? enki ???
 ```
 
 
@@ -79,8 +79,8 @@ $ npm ??? enki ???
 
 How do you un-deprecate `enki` package?
 
-```
-$ npm ??? enki ???
+```bash
+npm ??? enki ???
 ```
 
 * deprecate
@@ -88,4 +88,6 @@ $ npm ??? enki ???
 * un-deprecate
 * "un-deprecated Enki
 * "any message"
+ 
+ 
  

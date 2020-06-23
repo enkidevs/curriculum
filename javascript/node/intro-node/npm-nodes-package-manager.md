@@ -36,13 +36,13 @@ The NPM registry is home to over 350,000 packages of code open for use to anyone
 NPM comes installed with Node.js, however it is updated more often than Node. To check you’re using the latest NPM version run the following command from your terminal:
 
 ```bash
-$ npm install npm@latest -g
+npm install npm@latest -g
 ```
 
 To download and install a package from NPM:
 
 ```bash
-$ npm install <package>
+npm install <package>
 ```
 
 ---
@@ -72,4 +72,6 @@ Complete the code snippet to install a package from NPM:
 * new
 * download
 
+ 
+ 
  

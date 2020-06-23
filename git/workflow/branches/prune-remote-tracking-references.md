@@ -33,8 +33,8 @@ links:
 You may have references to old remote branches in your local repository.
 
 Use `--prune` to remove references to branches that have been deleted from the remote server:
-```
-$ git fetch origin --prune
+```bash
+git fetch origin --prune
 ```
 This will clean up your log.
 
@@ -42,8 +42,8 @@ This will clean up your log.
 ## Practice
 
 Remove references to deleted branches:
-```
-$ git ??? origin ???
+```bash
+git ??? origin ???
 ```
 
 * `fetch`
@@ -54,8 +54,8 @@ $ git ??? origin ???
 ---
 ## Revision
 
-```
-$ git fetch origin --prune
+```bash
+git fetch origin --prune
 ```
 Removes references to ??? branches.
 
@@ -63,4 +63,6 @@ Removes references to ??? branches.
 * merged
 * existing
 
+ 
+ 
  

@@ -47,7 +47,7 @@ You can limit what type of connections you see by **protocol** with:
 
 To get the **kernel routing table**[1], the `-r` flag is needed:
 ```bash
-$ netstat -r
+netstat -r
 Routing tables
 
 Internet:
@@ -59,7 +59,7 @@ default            192.168.62.254 ...
 ```
 Running `netstat` with the `-i` (Unix only) flag will output the **network interfaces** currently installed in your system.
 ```bash
-$ netstat -i
+netstat -i
 Name  Mtu     Network    Address
 lo0   16384   <Link#1>   ...
 lo0   16384   127        localhost ...
@@ -69,7 +69,7 @@ lo0   16384   localhost  ::1 ...
 
 Per-protocol statistics are also available with `-s` flag:
 ```bash
-$ netstat -s
+netstat -s
 tcp:
    13348093 packets sent
    ...
@@ -82,7 +82,7 @@ The `netstat` is available on most operating systems including **Windows**, **Li
 
 Which flag can you use to display the **kernel routing table**?
 ```bash
-$ netstat ???
+netstat ???
 ```
 
 
@@ -97,7 +97,7 @@ $ netstat ???
 
 What flag would you use to filter the output of the following snippet, showing only `TCP` connections:
 ```bash
-$ netstat ???
+netstat ???
 ```
 
 
@@ -113,3 +113,5 @@ $ netstat ???
 This is the same as the **IP routing table**, mentioned in the previous insight.
 On **Linux** the same information can be retrieved from the table using `route` command.
 
+ 
+ 

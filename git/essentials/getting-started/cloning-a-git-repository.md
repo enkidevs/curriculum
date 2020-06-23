@@ -35,13 +35,13 @@ The term **cloning** entails how the whole **Git** flow works. Instead of provid
 In case of server failure, corruption or other unfortunate events, any clone can be used to restore the state of the project.
 
 The syntax used to clone a repository is:
-```
-$ git clone [URL]
+```bash
+git clone [URL]
 ```
 
 You can clone any open-source project or even private ones as long as you have the right credentials. For example, you can clone the `reduck` library from its specific URL:
-```
-$ git clone
+```bash
+git clone
     https://github.com/enkidevs/reduck
 ```
 
@@ -52,8 +52,8 @@ Running this command will:
  - checkout a working copy of the latest version of the project
 
 Another name for the parent directory can be specified as follows:
-```
-$ git clone https://github.com/enki/repo \
+```bash
+git clone https://github.com/enki/repo \
                             myAwesomeClone
 ```
 
@@ -84,4 +84,6 @@ Does running `git clone` with a repository's URL require having an existing work
 * Yes
 * Only if you don't provide a new directory name
 
+ 
+ 
  

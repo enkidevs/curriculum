@@ -43,7 +43,7 @@ It can also be useful for tuning and heap sizing as it lets dynamically change s
 
 Starting `JConsole` if the JDK is in the system path:
 ```java
-$ jconsole
+jconsole
 
 ```
 When JConsole starts, you will be given a choice of all the Java applications that are running locally that `JConsole` can connect to.
@@ -51,12 +51,12 @@ Output includes, over time, heap memory usage, number of threads, number of clas
 
 Starting `JConsole` on a specific application:
 ```java
-$ jconsole PID
+jconsole PID
 ```
 
 Setting up Remote Monitoring:
 ```java
-$ jconsole hostname:port
+jconsole hostname:port
 ```
 
 If you do not specify a host name/port number combination, then `JConsole` will display a connection dialog box to enable you to enter a host name and port number.
@@ -66,7 +66,7 @@ If you do not specify a host name/port number combination, then `JConsole` will 
 
 Set up remote monitoring with JConsole:
 ```
-$ jconsole ???:???
+jconsole ???:???
 ```
 
 * `hostname`
@@ -81,11 +81,13 @@ $ jconsole ???:???
 ## Revision
 
 What does the following piece of code do?
-```
-$ jconsole PID
+```bash
+jconsole PID
 ```
 ???
 
 * Starts JConsole on a specific application
 * Starts JConsole at a specific time
 * Starts JConsole on a private port
+ 
+ 

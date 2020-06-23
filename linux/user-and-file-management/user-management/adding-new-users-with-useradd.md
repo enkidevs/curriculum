@@ -35,7 +35,7 @@ aspects:
 We can use the `useradd` command to add new user accounts to the system.  The simplest usage is as follows:
 
 ```shell
-$ sudo useradd -m newuser
+sudo useradd -m newuser
 ```
 
 Here `newuser` is the username of your choice.  The `-m` options tells `useradd` to create a home directory.  You will need to have `root` access to add a new user, hence the `sudo` command.
@@ -43,13 +43,13 @@ Here `newuser` is the username of your choice.  The `-m` options tells `useradd`
 By default the new user will have no password assigned and therefore won't be able to log in.  Use the `passwd` command to create a new password for the user, like so:
 
 ```shell
-$ sudo passwd newuser
+sudo passwd newuser
 ```
 
 If you want the user to be added to specific groups upon creation use the `-G` option, like so:
 
 ```shell
-$ sudo useradd -m -G admin newuser
+sudo useradd -m -G admin newuser
 ```
 
 This would create a user named `newuser` and ensure they are a member of the `admin` group.
@@ -75,7 +75,7 @@ In which case will the new user *not* be able to login?
 
 Set up a new user with their own home directory:
 ```
-$ ??? ??? ??? ???
+??? ??? ??? ???
 ```
 
 * `sudo`
@@ -85,4 +85,6 @@ $ ??? ??? ??? ???
 * `-G`
 * `root`
 
+ 
+ 
  

@@ -42,9 +42,8 @@ activity.
 The user can specify a sampling period.
 
 ```bash
-$ vmstat 1
+vmstat 1
 procs
-
 ```
 
 ---
@@ -59,4 +58,6 @@ Running `vmstat 1`  allows the user to monitor the
 * physical memory
 * network
 * server
+ 
+ 
  

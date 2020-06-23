@@ -37,25 +37,25 @@ As well as sharing git data over a network, you can also bundle the data into on
 The `bundle` command creates a binary file which you can email or physically transfer to another computer. 
 
 To create a file `myBundle` from your repository:
-```
-$ git bundle create myBundle HEAD master
+```bash
+git bundle create myBundle HEAD master
 ```
 To access the commits on another computer:
-```
-$ git clone myBundle bundled_repo
-$ git cd bundled_repo
+```bash
+git clone myBundle bundled_repo
+git cd bundled_repo
 ```
 To be safe, you can verify that the commit is valid before cloning:
-```
-$ git bundle verify ../myBundle
+```bash
+git bundle verify ../myBundle
 ```
 
 ---
 ## Practice
 
 How would you bundle the whole `newFeature` branch?
-```
-$ git bundle ??? 
+```bash
+git bundle ??? 
    FeatureBranch ??? ???        
 ```
 
@@ -69,8 +69,8 @@ $ git bundle ???
 ## Revision
 
 To verify if `newBundle` is a valid bundle, you would run
-```
-$ git ??? ??? ../newBundle
+```bash
+git ??? ??? ../newBundle
 ```
 
 * `bundle`
@@ -78,4 +78,6 @@ $ git ??? ??? ../newBundle
 * `-b`
 * `--verify`
 
+ 
+ 
  

@@ -1,5 +1,5 @@
 ---
-author: tuwi.dc
+author: tuwidc
 
 levels:
 
@@ -37,8 +37,8 @@ tags:
 ## Content
 
 To extract an archive to a directory different from the current directory, use the `-C` flag:
-```
-$ tar -xf archive.tar -C /target/directory
+```bash
+tar -xf archive.tar -C /target/directory
 ```
 
 ---
@@ -52,4 +52,6 @@ To extract a tar archive to a different directory than the current one, the ??? 
 * -p
 * -L
 
+ 
+ 
  

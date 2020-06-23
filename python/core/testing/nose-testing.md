@@ -48,7 +48,7 @@ def test_two():
 
 For this example we'll **run** the test with `-v` (verbose) flag:
 ```bash
-$ nosetests -v multiply.py
+nosetests -v multiply.py
 ```
 The following **output** will be produced:
 ```bash
@@ -105,3 +105,5 @@ In terms of basic syntax, `nose` and `pytest` are
 * similar
 * small differences
 * not at all alike
+ 
+ 

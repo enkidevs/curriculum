@@ -28,10 +28,10 @@ links:
 
 You must set your **username** and **email address** when you first start using git.
 
-```
-$ git config --global 
+```bash
+git config --global 
   user.name "C Mustard"
-$ git config --global 
+git config --global 
   user.email me@enki.com
 ```
 
@@ -41,8 +41,8 @@ Every time you make a commit, git adds your username and email to the commit. Th
 ## Practice
 
 Set your username :
-```
-$ git ??? ??? 
+```bash
+git ??? ??? 
       ??? 'my username'
 ```
 * config
@@ -56,8 +56,8 @@ $ git ??? ???
 ## Revision
 
 Set your email :
-```
-$ git ??? ??? 
+```bash
+git ??? ??? 
       ??? 'me@email.com'
 ```
 * config
@@ -66,4 +66,6 @@ $ git ??? ???
 * email
 * -m
 * user
+ 
+ 
  

@@ -34,18 +34,18 @@ links:
 Use `git clean` to remove untracked files from your local repository.
 
 To delete untracked files in the current directory:
-```
-$ git clean -f
+```bash
+git clean -f
 ```
 
 To remove untracked directories:
-```
-$ git clean -f -d
+```bash
+git clean -f -d
 ```
 
 You also can clean the working directory interactively by using the `-i` flag:
-```
-$ git clean -f -i
+```bash
+git clean -f -i
 ```
 
 You can use `-n` to have a dry-run of the operation and display the results without actually deleting anything.
@@ -54,8 +54,8 @@ You can use `-n` to have a dry-run of the operation and display the results with
 ## Practice
 
 Remove the untracked files in your current directory :
-```
-$ git ??? ???
+```bash
+git ??? ???
 ```
 
 * `clean`
@@ -68,8 +68,8 @@ $ git ??? ???
 ## Revision
 
 Remove the untracked directories in your local repository :
-```
-$ git ??? -f ???
+```bash
+git ??? -f ???
 ```
 
 * `clean`
@@ -78,4 +78,6 @@ $ git ??? -f ???
 * `rm`
 * `delete`
 
+ 
+ 
  

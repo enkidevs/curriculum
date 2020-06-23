@@ -47,14 +47,14 @@ Some additional flags :
 
 You can also use `makepasswd` : 
 
-```
-$ makepasswd -count X -minchars Y
+```bash
+makepasswd -count X -minchars Y
 ```
 Just replace `X` with the number of passwords required and `Y` with the minimum length of each in the code above.
 
 Another use could be : 
-```
-$ makepasswd -string 1234567890 -chars 4
+```bash
+makepasswd -string 1234567890 -chars 4
 ``` 
 That would create numerical-only, four digit long passwords (think PIN codes).
 
@@ -70,4 +70,6 @@ Out of the following, the tool that is *not* helpful if you want to generate pas
 * `pwgen`
 * `makepasswd`
 
+ 
+ 
  

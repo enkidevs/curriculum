@@ -29,13 +29,13 @@ links:
 To delete a file from your project in git you use `git rm`.
 
 However, if you only want to remove the file from the index but not the working directory, use instead:
-```
-$ git rm --cached myFile
+```bash
+git rm --cached myFile
 # untrack myFile
 ```
 You can do the same for a directory:
-```
-$ git rm --cached -r myDirectory
+```bash
+git rm --cached -r myDirectory
 # untrack myDirectory
 ```
 
@@ -43,9 +43,9 @@ $ git rm --cached -r myDirectory
 ## Practice
 
 Untrack the directory `experiment` :
-```
-$ git ??? ??? ??? 
-                  experiment
+```bash
+git ??? ??? ??? 
+    experiment
 ```
 
 * `rm`
@@ -58,8 +58,8 @@ $ git ??? ??? ???
 ## Revision
 
 What is the flag to remove a file from cache, but not from the working directory?
-```
-$ git rm ??? enki.html
+```bash
+git rm ??? enki.html
 ```
 
 * `--cached`
@@ -67,4 +67,6 @@ $ git rm ??? enki.html
 * `-m`
 * `--index`
 
+ 
+ 
  

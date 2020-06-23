@@ -50,7 +50,7 @@ To access these arguments the `process.argv` array can be used. In our case `pro
 Alternatively you can provide `--` when calling a script directly:
 
 ```bash
-$ npm run someCommand -- --arg=value
+npm run someCommand -- --arg=value
 ```
 
 ---
@@ -59,7 +59,7 @@ $ npm run someCommand -- --arg=value
 Consider an npm script called `doSomething`. Run it via npm, passing 'enki' as an argument to it:
 
 ```bash
-$ ??? ??? ??? ??? ???
+??? ??? ??? ??? ???
 ```
 
 * npm
@@ -77,7 +77,7 @@ $ ??? ??? ??? ??? ???
 How would you pass to the following npm script call a "test" argument?
 
 ```bash
-$ npm run myScript ??? ???
+npm run myScript ??? ???
 ```
 
 * --
@@ -86,4 +86,6 @@ $ npm run myScript ??? ???
 * argvs
 * arg
 * process.argv[0]
+ 
+ 
  

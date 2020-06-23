@@ -1,5 +1,5 @@
 ---
-author: tuwi.dc
+author: tuwidc
 
 levels:
 
@@ -33,22 +33,22 @@ tags:
 ## Content
 
 To see the IPv6 configuration on a linux server using the `ip` tool:
-```
-$ ip -6 addr show dev <interface>
-$ ip -6 addr show dev eth0
+```bash
+ip -6 addr show dev <interface>
+ip -6 addr show dev eth0
 ```
 Or, using the `ifconfig` tool:
-```
-$ ifconfig <interface> |grep "inet6"
-$ ifconfig eth0 |grep "inet6"
+```bash
+ifconfig <interface> |grep "inet6"
+ifconfig eth0 |grep "inet6"
 ```
 
 ---
 ## Practice
 
 List **IPv6** configuration via `ifconfig`:
-```
-$ ??? <interface> |
+```bash
+??? <interface> |
     ??? ???
 ```
 
@@ -65,9 +65,9 @@ $ ??? <interface> |
 ## Revision
 
 Check the IPv6 configuration of an interface using `ip` command:
-```
-$ ip  ??? ???
-     show ??? ???
+```bash
+ip  ??? ???
+    show ??? ???
 ```
 
 * `-6`
@@ -75,4 +75,6 @@ $ ip  ??? ???
 * `dev`
 * `interface_name`
 
+ 
+ 
  
