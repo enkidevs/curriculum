@@ -1,5 +1,5 @@
 ---
-author: tuwi.dc
+author: tuwidc
 
 levels:
 
@@ -41,8 +41,8 @@ notes: ''
 ## Content
 
 Here is a one liner tip for you:
-```
-$ awk '!(count[$0]++)' file_to_filter
+```bash
+awk '!(count[$0]++)' file_to_filter
 
 ```
 This is using `awk` to print the first occurrence of every line, no matter how many times the same line would appear afterwards - `{print}` is the default instruction.
@@ -55,8 +55,8 @@ The first time a line is met, awk prints it because `!0` is the equivalent of `t
 
 Or if you don't mind sorting your lines:
 
-```
-$ sort file_to_filter | uniq
+```bash
+sort file_to_filter | uniq
 ```
 
 If *file_to_filter* contains:
@@ -87,8 +87,8 @@ doughnut
 ## Revision
 
 Sorting the lines of a file in order to get rid of the duplicates can be done using :
-```
-$ ??? file_to_filter | ???
+```bash
+??? file_to_filter | ???
 ```
 
 * `sort`
@@ -96,4 +96,6 @@ $ ??? file_to_filter | ???
 * `unique`
 * `sed`
 
+ 
+ 
  

@@ -39,8 +39,8 @@ issue no: X
 commit body (72 chars)
 ```
 Then you set this template to be the default commit editor message using `commit.template`:
-```
-$ git config --global 
+```bash
+git config --global 
   commit.template ~/.template.txt
 ```
 When you run `git commit` the template will appear in the editor.
@@ -49,8 +49,8 @@ When you run `git commit` the template will appear in the editor.
 ## Practice
 
 You can add a commit message template using:
-```
-$ git ??? --global
+```bash
+git ??? --global
   ???.???  ~/.template.txt
 ```
 
@@ -64,8 +64,8 @@ $ git ??? --global
 ## Revision
 
 You can add a commit message template using:
-```
-$ git ??? --global
+```bash
+git ??? --global
   ???.???  ~/.template.txt
 ```
 
@@ -75,4 +75,6 @@ $ git ??? --global
 * `-co`
 * `-m`
 
+ 
+ 
  

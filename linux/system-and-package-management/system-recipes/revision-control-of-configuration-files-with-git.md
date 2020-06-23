@@ -1,5 +1,5 @@
 ---
-author: tuwi.dc
+author: tuwidc
 
 levels:
 
@@ -83,4 +83,6 @@ You can upload your important configuration files to *git* using
 * auto-pull scripts
 * history
 
+ 
+ 
  

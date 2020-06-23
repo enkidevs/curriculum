@@ -39,14 +39,14 @@ console.log('Node.js with Enki!');
 To run any JavaScript program using Node use the following generic command:
 
 ```bash
-$ node filename.js
+node filename.js
 # filename.js will be ran
 ```
 
 In this case, to run the *main.js* file the following command would be used:
 
 ```bash
-$ node main.js
+node main.js
 # that outputs:
 Node.js with Enki!
 ```
@@ -64,7 +64,7 @@ console.log('Hello, Enki!')
 How would you run from the terminal interface the code in the file, using the NodeJS interpreter:
 
 ```bash
-$ ??? ???
+??? ???
 # Hello, Enki!
 ```
 
@@ -83,7 +83,7 @@ $ ??? ???
 How would you run the code existing within `main.js`
 
 ```bash
-$ ??? main.js
+??? main.js
 # main.js is ran
 ```
 
@@ -95,4 +95,6 @@ $ ??? main.js
 * javascript
 * java
 * nodeJS
+ 
+ 
  

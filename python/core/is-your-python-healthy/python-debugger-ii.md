@@ -139,7 +139,7 @@ if __name_ == '__main__':
 And we ran the debugger using:
 
 ```bash
-$ python3 -m pdb debug.py
+python3 -m pdb debug.py
 
 #Console output:
 
@@ -147,3 +147,5 @@ $ python3 -m pdb debug.py
 -> num_list = [1, 2]
 (Pdb)
 ```
+ 
+ 

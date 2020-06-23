@@ -34,17 +34,17 @@ links:
 If you commit to the current branch when instead you wanted to commit to a new branch, you can easily correct your mistake.
 
 For example if you made your commit to `master` instead of `test`:
-```
+```bash
 # create new branch from
 # current HEAD
 # but stays on master
-$ git branch test
+git branch test
 
 # reset master to before last commit
-$ git reset --hard HEAD~
+git reset --hard HEAD~
 
 # continue on new branch
-$ git checkout test
+git checkout test
 ```
 
 ---
@@ -73,4 +73,6 @@ A quick hack to revert the changes made to the current branch and move them to a
 * deleting the current branch and switching to the master
 * resetting the last commit and moving to a new branch
 
+ 
+ 
  

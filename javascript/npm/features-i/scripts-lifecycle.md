@@ -65,11 +65,13 @@ A default `npm` script event is:
 
 What command does `npm start` run by default?
 ```
-$ ???
+???
 ```
 
 * node server.js
 * gulp
 * node -v
 * npm install
+ 
+ 
  

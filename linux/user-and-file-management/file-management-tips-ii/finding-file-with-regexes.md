@@ -1,5 +1,5 @@
 ---
-author: tuwi.dc
+author: tuwidc
 
 levels:
 
@@ -51,9 +51,9 @@ translates to "find any files that starts with A and ends with a sh extension".
 ## Practice
 
 Find files that have a title containing `script` as a substring and ending in `.py` :
-```
-$ ??? ??? ??? 
-         ??? '.*script.*\.py'
+```bash
+??? ??? ??? 
+    ??? '.*script.*\.py'
 ``` 
 
 * `find`
@@ -76,4 +76,6 @@ Searching for a file using regular expressions can be done by the
 * `search`
 * `lf`
 
+ 
+ 
  

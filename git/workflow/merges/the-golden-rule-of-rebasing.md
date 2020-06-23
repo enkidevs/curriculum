@@ -36,8 +36,8 @@ Rebasing is the process of modifying the base commit from which a series of comm
 You should stick to this rule so that other people contributing to the project do not end up with a confusing history when you rebase something they have based their code on. 
 
 If someone does rebase shared commits, you can run:
-```
-$ git pull --rebase
+```bash
+git pull --rebase
 ```
 so git will attempt to work out a simple history.
 
@@ -45,8 +45,8 @@ so git will attempt to work out a simple history.
 ## Practice
 
 How would you make git to recreate a history of commits if someone rebased shared commits?
-```
-$ git ??? ???
+```bash
+git ??? ???
 ```
 
 * `pull`
@@ -63,4 +63,6 @@ The best practice is to only `rebase` commits that exist in your ??? ???.
 * repository
 * remote
 
+ 
+ 
  

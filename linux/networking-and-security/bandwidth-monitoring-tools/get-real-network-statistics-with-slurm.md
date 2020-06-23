@@ -1,5 +1,5 @@
 ---
-author: tuwi.dc
+author: tuwidc
 
 levels:
 
@@ -52,9 +52,9 @@ about the specified network interface:
 You can check this utility directly by using:
 
 ```bash
-$ slurm -i <interface_name>
+slurm -i <interface_name>
 # for example:
-$ slurm -i eth0
+slurm -i eth0
 ```
 
 An example output would be:
@@ -92,4 +92,6 @@ Errors on Transmission: 0
 * measurement tool for cpu usage
 * measurement tool for users access to a server
 
+ 
+ 
  

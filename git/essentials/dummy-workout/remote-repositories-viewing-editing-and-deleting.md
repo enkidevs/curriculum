@@ -29,26 +29,26 @@ links:
 **Viewing**
 
 To list the shortnames of all the remote repositories that you have configured:
-```
-$ git remote
+```bash
+git remote
 origin
 ```
 If you use the flag `-v` you can see the URLs associated with each shortname:
-```
-$ git remote -v
+```bash
+git remote -v
 origin https://git.enki.com (fetch)
 origin https://git.enki.com (push)
 ``` 
 **Editing**
 
 To change the name of a remote repository from `ol` to `nu`:
-```
+```bash
 git remote rename ol nu
 ```
 **Deleting**
 
 To remove a remote repository:
-```
+```bash
 git remote rm nu
 ```
 
@@ -56,8 +56,8 @@ git remote rm nu
 ## Practice
 
 How do you remove the remote repository `enki`?
-```
-$ ???
+```bash
+???
 ```
 * git remote rm enki
 * git remote --delete enki
@@ -69,9 +69,9 @@ $ ???
 ## Revision
 
 Rename the remote repository `origin` to `enki`
-```
-$ git remote ??? ???
-                     ???
+```bash
+git remote 
+  ??? ??? ???
 ```
 * rename
 * origin
@@ -80,4 +80,6 @@ $ git remote ??? ???
 * old
 * new
 * rm
+ 
+ 
  

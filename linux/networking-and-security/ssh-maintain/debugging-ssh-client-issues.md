@@ -1,5 +1,5 @@
 ---
-author: tuwi.dc
+author: tuwidc
 
 levels:
 
@@ -34,8 +34,8 @@ notes: code blocks width is weird
 ## Content
 
 To see more detailed information when connecting to a host via ssh for debugging purposes, add the `-v` flag (for verbosity):   
-```
-$ ssh -v user@host.corp.com
+```bash
+ssh -v user@host.corp.com
 ```
 This will display a variety of useful information about the connection. 
 
@@ -43,8 +43,8 @@ This will display a variety of useful information about the connection.
 ```
 OpenSSH_5.9p1 Debian-5ubuntu1.4, 
 OpenSSL 1.0.1 14 Mar 2012
-
 ```
+
 ```
 debug1: Reading configuration data 
 /home/tuwid/.ssh/config
@@ -75,4 +75,6 @@ debug1: Authentication succeeded (publickey)
 
 ```
 
+ 
+ 
  

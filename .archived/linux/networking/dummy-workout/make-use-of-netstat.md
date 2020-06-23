@@ -28,30 +28,30 @@ links:
 `netstat` command line tool is one of the most basic network service debugging tools.
 
 Listing the state of all sockets ( TCP + UDP) :
-```
-$ netstat -a
+```bash
+netstat -a
 ```
 
 Listing TCP ports connections: 
-```
-$ netstat -at
+```bash
+netstat -at
 ```
 
 Displaying RAW network statistics:
-```
-$ netstat --statistics --raw
+```bash
+netstat --statistics --raw
 ```
 
 Show the apps that use internet connection at the moment:
 
-```
-$ netstat -lantp | grep -i stab |
+```bash
+netstat -lantp | grep -i stab |
  awk -F/ '{print $2}' | sort | uniq
 ```
 
 List the number and type of active network connections:
-```
-$ netstat -ant | awk '{print $NF}' |
+```bash
+netstat -ant | awk '{print $NF}' |
  grep -v '[a-z]' | sort | uniq -c
 ```
 
@@ -60,7 +60,7 @@ $ netstat -ant | awk '{print $NF}' |
 
 How do you display **RAW** network statistics?
 ```
-$ ??? --raw ???
+??? --raw ???
 ```
 
 * netstat
@@ -78,3 +78,5 @@ $ ??? --raw ???
 * network statistics utility
 * terminal browser
 * way to connect to internet
+ 
+ 

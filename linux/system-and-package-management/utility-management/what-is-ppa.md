@@ -1,5 +1,5 @@
 ---
-author: Nick Daminov
+author: nickdaminov
 
 levels:
 
@@ -35,8 +35,8 @@ Packages from those *PPA*s can be downloaded both through a *shell* and a *GUI i
  - How up to date it is (what OS version it runs on)
 
 In order to list all the installed **PPAs** run the following on the shell:
-```
-$ grep ^ /etc/apt/sources.list.d/*
+```bash
+grep ^ /etc/apt/sources.list.d/*
 ```
 
 ---
@@ -72,4 +72,6 @@ Advanced Packaging Tool
 
 [2: Launchpad]
 Launchpad is a software collaboration platform that provides various features for application development, as well as hosting Ubuntu packages and providing the PPA repository.
+ 
+ 
  

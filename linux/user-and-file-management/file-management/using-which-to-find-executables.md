@@ -36,15 +36,17 @@ When you type the name of a program at the shell prompt, your shell will use the
 This is what the `which` command is for.  Given the name of a program, `which` will return the full path to the executable.  It looks like this:
 
 ```shell
-jesse@host ~ $ which ls
+which ls
 /bin/ls
-jesse@host ~ $ which ps
+
+which ps
 /bin/ps
-jesse@host ~ $ which curl
+
+which curl
 /usr/bin/curl
-jesse@host ~ $ which wget
+
+which wget
 /usr/local/bin/wget
-jesse@host ~ $
 ```
 
 This tells me that when I type `ps` at the prompt and hit enter, my shell will actually be running the `/bin/ps` executable.
@@ -84,4 +86,6 @@ Which built-in command returns the path to an executable?
 * type ls
 * path ls
 * ll ls
+ 
+ 
  

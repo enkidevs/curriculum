@@ -33,13 +33,13 @@ If you are collaborating on a project stored in a remote repository, you will ne
 `git fetch` gets all the data on the remote respository that you don't have yet and stores it in your local repository. It doesn't change what you're working on, you have to add the changes in manually with `git merge`.
 
 To fetch from your remote repository `origin`:
-```
-$ git fetch origin
+```bash
+git fetch origin
 ```
 
 To fetch from all your remotes:
-```
-$ git fetch --all
+```bash
+git fetch --all
 ```
 
 **Pushing**
@@ -47,8 +47,8 @@ $ git fetch --all
 `git push` lets you share your changes with the rest of the team. 
 
 For example, to share your `master` branch with your `origin` repository:
-```
-$ git push origin master
+```bash
+git push origin master
 ```
 Note: to be allowed to push you must have pulled the most recent version of the project and incorporated any changes into your code.
 
@@ -56,8 +56,8 @@ Note: to be allowed to push you must have pulled the most recent version of the 
 ## Practice
 
 What does this command do?
-```
-$ git push enki master
+```bash
+git push enki master
 ```
 ???
 
@@ -69,8 +69,8 @@ $ git push enki master
 ## Revision
 
 Get the data from the remote repository `enki`:
-```
-$ git ??? ???
+```bash
+git ??? ???
 ```
 * fetch
 * enki
@@ -78,4 +78,6 @@ $ git ??? ???
 * grab
 * push
 * receive
+ 
+ 
  

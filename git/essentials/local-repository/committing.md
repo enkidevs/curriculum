@@ -35,25 +35,25 @@ Generally, **Git** will never change the contents of a commit, making **commits*
 
 You can commit the staged snapshot[1] by running:
 ```bash
-$ git commit
+git commit
 ```
 Immediately, you will be prompted with the default text editor asking for a *commit message*. After filling the commit message and saving the file, the actual **commit** is created.
 
 To commit and avoid the text editor you can include a commit message as part of the command like this (`-m` for "message"):
 ```bash
-$ git commit -m "Description of changes"
+git commit -m "Description of changes"
 ```
 You can also use the `-a` flag to commit all changes of **tracked** files (even though they were modified, but not staged with `git add`):
 ```bash
-$ git commit -a
+git commit -a
 ```
 
 ---
 ## Practice
 
 Write the command to commit all tracked files:
-```
-$ ??? ??? ???
+```bash
+??? ??? ???
 ```
 
 * `git`
@@ -69,8 +69,8 @@ $ ??? ??? ???
 ## Revision
 
 What flag is used to commit with a message specified within the command?
-```
-$ git commit ??? "the message"
+```bash
+git commit ??? "the message"
 ```
 
 * `-m`
@@ -84,18 +84,19 @@ $ git commit ??? "the message"
 [1: Staged snapshot]
 This refers to what has been staged following a `git add` command. Unless you staged the changes, you won't be able to make a commit:
 ```bash
-$ git status
+git status
 # On branch develop
 # Your branch is up-to-date
 #   with 'origin/develop'.
 # nothing to commit,working directory clean
-$ git add .
-$ git status
+git add .
+git status
 # On branch develop
 # Your branch is up-to-date
 #   with 'origin/develop'.
 # Changes to be committed:
 # modified:  src/index.js
-
 ```
+ 
+ 
  

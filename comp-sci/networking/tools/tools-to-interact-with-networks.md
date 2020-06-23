@@ -61,7 +61,7 @@ Some of the most known and used networking utilities include:
 Which of the following tools can be used to echo a packet to remote host?
 
 ```bash
-$ ??? google.com
+??? google.com
 ```
 
 
@@ -78,3 +78,5 @@ A routing table is a set of rules, often viewed in table format, that is used to
 
 All IP-enabled devices, including routers and switches, use routing tables.
 
+ 
+ 

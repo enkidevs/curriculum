@@ -1,5 +1,5 @@
 ---
-author: tuwi.dc
+author: tuwidc
 
 levels:
 
@@ -57,34 +57,33 @@ rw-rw-rw-
 r--r--r--
 ```
 You can check the current `umask` value with:
-```
-$ umask
+```bash
+umask
 0022
-#these would be the permissions
-#for a new file
-$ touch new-file
-$ ls -l new-file
+# these would be the permissions
+# for a new file
+touch new-file
+ls -l new-file
 -rw-r--r-- 1 user group 0 new-file
 
-#for a new dir
-$ mkdir new-dir
-$ ls -l new-dir
+# for a new dir
+mkdir new-dir
+ls -l new-dir
 drwxr-xr-x 2 user group 4096 ./
-
 ```
 To change the umask of current session to `077`, run:
-```
-$ umask 077
-#or
-$ umask u+rwx,g-rwx,o-rwx
-#or
-$ umask u=rwx,g=,o=
+```bash
+umask 077
+# or
+umask u+rwx,g-rwx,o-rwx
+# or
+umask u=rwx,g=,o=
 
 # + enables specified permissions
 # - disables specified permissions
 # = enables specified,disables the others
 
-$ umask
+umask
 0700
 ```
 
@@ -138,4 +137,6 @@ The 3 rightmost digits represent the permissions granted to the user, user's gro
 
 [2:Files]
 In case of files, for which the x (or execute) permission is turned off by default.
+ 
+ 
  

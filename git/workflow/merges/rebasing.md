@@ -28,9 +28,9 @@ aspects:
 The `git rebase` command is a way to combine branches.
 
 In a basic rebase, you 'replay' the changes made on one branch onto the other. For example, to rebase the changes committed to `scrollFix` onto `master`:
-```
-$ git checkout scrollFix
-$ git rebase master
+```bash
+git checkout scrollFix
+git rebase master
 ```
 The base argument can be any one of:
  - commit ID
@@ -41,8 +41,8 @@ The base argument can be any one of:
 This works by 'rewinding' `scrollFix` to the commit shared by the two branches and saving the changes in a temporary file. The `scrollFix` reference is then set to the same as `master` and the changes are applied.
 
 To start an *interactive* rebase you use the `-i` flag:
-```
-$ git rebase -i branch
+```bash
+git rebase -i branch
 ```
 This will give you the option of modifying individual commits throughout the process instead of automatically moving the commits to a new **base**.
 
@@ -51,7 +51,7 @@ If you look at the history, it will seem like all the changes happened in series
 ---
 ## Practice
 
-```
+```bash
 git rebase master
 ```
 restores the current branch to the last ??? shared by the two branches, then ??? the changes made since then to master to the current branch.
@@ -65,10 +65,10 @@ restores the current branch to the last ??? shared by the two branches, then ???
 ## Revision
 
 Complete the following snippet to achieve rebasing of the `scrollFix` branch:
-```
-#checkout to the branch ahead
-$ git checkout scrollFix
-$ ??? ??? master
+```bash
+# checkout to the branch ahead
+git checkout scrollFix
+??? ??? master
 ```
 
 * `git`
@@ -77,4 +77,6 @@ $ ??? ??? master
 * `redo`
 * `checkout`
 
+ 
+ 
  

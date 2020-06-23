@@ -1,5 +1,5 @@
 ---
-author: tuwi.dc
+author: tuwidc
 
 levels:
 
@@ -41,13 +41,13 @@ tags:
 `badblocks` is a Linux utility to check for bad sectors on a disk drive. 
 
 It can be used to generate a file that can then feed to `fsck`.
-```
-$ badblocks -v /dev/hda1 > bad_blocks
+```bash
+badblocks -v /dev/hda1 > bad_blocks
 ```
 
 This generates a `bad_blocks` file. Input `bad_blocks` into `fsck` with:
-```
-$ fsck -t ext3 -l bad_blocks /dev/hda1
+```bash
+fsck -t ext3 -l bad_blocks /dev/hda1
 ```
 Outputting:
 
@@ -78,4 +78,6 @@ You can check your hard drive for bad sectors with
 * usermod
 * hostname
 
+ 
+ 
  

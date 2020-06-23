@@ -44,14 +44,14 @@ This is a file with a single long line
 ```
 
 Fold the text:
-```
-$ fold enki.txt
+```bash
+fold enki.txt
 ```
 This won't have any result because the default **width** is `80`.
 
 Using the `-w` flag you can change it:
-```
-$ fold -w11 enki.txt
+```bash
+fold -w11 enki.txt
 This is a f
 ile with a
 single long
@@ -62,8 +62,8 @@ single long
 ## Practice
 
 How do you break down `file.txt` every 5 characters?
-```
-$ ??? ??? ???
+```bash
+??? ??? ???
 ```
 
 * `fold`
@@ -91,4 +91,6 @@ Use the `fold` command to line-break the content of `enki.txt` every 20 characte
 * `--width`
 * `enki.txt`
 
+ 
+ 
  

@@ -35,13 +35,13 @@ There is a big difference between `su` and `sudo` commands:
 Basically, `sudo` is a binary **setuid** that executes root commands on behalf of other authorized users.
 
 The list of users that can execute `sudo` can be modified by running (requires **root** access):
-```
-$ sudo /usr/sbin/visudo
+```bash
+sudo /usr/sbin/visudo
 ```
 
 By default, the list looks like:
-```
-#User privilege specification
+```bash
+# User privilege specification
 root ALL=(ALL) ALL
 ```
 
@@ -79,4 +79,6 @@ Running `su` will
 * give you root privileges for the next command.
 * switch to the next account in the list.
 
+ 
+ 
  

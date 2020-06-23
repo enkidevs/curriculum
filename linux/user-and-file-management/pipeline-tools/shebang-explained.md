@@ -1,5 +1,5 @@
 ---
-author: tuwi.dc
+author: tuwidc
 
 levels:
 
@@ -101,4 +101,6 @@ should be used for that particular file.
 ## Footnotes
 [1:Directory permision]
 The `+x` bit for a directory allows the user to `cd` into it and access its inner files.
+ 
+ 
  

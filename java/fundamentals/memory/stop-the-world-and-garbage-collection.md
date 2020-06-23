@@ -44,7 +44,7 @@ When *GC* occurs every thread, except the ones used by it, will stop and will on
 
 You can enable *GC* logging before running an application:
 ```java
-$ java -XX:+PrintGCDetails MyApplication
+java -XX:+PrintGCDetails MyApplication
 ```
 
 A common *GC* algorithm is **Mark Sweep Compact** (MSC) that HotSpot tend to use by default, being implemented with a *STW* approach.
@@ -54,7 +54,7 @@ A common *GC* algorithm is **Mark Sweep Compact** (MSC) that HotSpot tend to use
 You can enable *CMS* :
 
 ```java
-$ java -XX:+UseConcMarkSweepGC MyApplication
+java -XX:+UseConcMarkSweepGC MyApplication
 ```
 It's designed to minimize *GC* pauses and thus keep the application responsive.
 
@@ -62,10 +62,10 @@ It's designed to minimize *GC* pauses and thus keep the application responsive.
 ## Practice
 
 Enable **GC** logging when running the java application:
-```
-$ java -XX:+??? 
+```java
+java -XX:+??? 
               Enki
-````
+```
 
 * `PrintGCDetails` 
 * `GCLog` 
@@ -79,8 +79,9 @@ What does **Stop-the-world** mean?
 
 ???
 
-
 * `program is stopped so GC can execute` 
 * `GC is stopped` 
 * `program terminates` 
 * `main thread is stopped`
+ 
+ 

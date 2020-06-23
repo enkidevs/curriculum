@@ -51,7 +51,7 @@ Scripts can be specified inside *package.json*:
 And invoked using:
 
 ```bash
-$ npm run myScript
+npm run myScript
 firstScript
 ```
 
@@ -67,7 +67,7 @@ Why is this great? Say you are using CSS preprocessors like *LESS* or *SASS* and
 Running:
 
 ```bash
-$ npm run build-less
+npm run build-less
 ```
 
 Will produce the *.css* file.
@@ -139,4 +139,6 @@ Given the following is in your `package.json`, execute the script called `dailyS
 * dailyStats
 * script
 * exec
+ 
+ 
  

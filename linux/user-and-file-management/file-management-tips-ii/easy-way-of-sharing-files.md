@@ -31,21 +31,21 @@ File transfer on the network without setting up extra software can be easily ach
 It can be downloaded at: `www.home.unix-ag.org/ simon/woof.html`.
 
 To share a file:
-```
-$ ./woof /directory/file
+```bash
+./woof /directory/file
 
 ```
 This will give you a **URL** that can be typed in a browser and the download will begin.
 
 You can also share directories:
-```
-$ ./woof -z /directory/
+```bash
+./woof -z /directory/
 ```
 This will compress the directory into a **gzipped** tarball.
 
 You can also share `woof` itself:
-```
-$ ./woof -s
+```bash
+./woof -s
 ```
 
 ---
@@ -59,4 +59,6 @@ A quick way of sharing files is using ??? utility.
 * ssh
 * share
 
+ 
+ 
  
