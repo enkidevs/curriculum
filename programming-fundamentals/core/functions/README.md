@@ -6,4 +6,4 @@ insights:
   - functions-intro
   - function-creation
   - function-assembly
-  - debugging
+  - pf-debugging
