@@ -1,6 +1,6 @@
 name: Core
 
-description: TBD
+description: All the information needed to start coding.
 
 core: true
 
