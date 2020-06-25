@@ -38,7 +38,6 @@ Types of change:
 - `Archived` for content that is no longer necessary and has been archived.
 - `Fixed` for any minor fixes (e.g. add a missing comma, adding a code block tag, fixing a report).
 
-
 ## June 25th 2020
 
 ### Changed
