@@ -33,12 +33,12 @@ tags:
 
 ---
 
-# Multiple IP Address with aliasing 
+# Multiple IP Addresses with aliasing 
 
 ---
 ## Content
 
-**IP Aliasing** is assigning multiple IP address to a single network interface. This can be useful when hosting multiple SSL sites or to compensate for a host that's down for the moment.
+**IP Aliasing** is assigning multiple IP addresses to a single network interface. This can be useful when hosting multiple SSL sites or to compensate for a host that's down for the moment.
 
 Supposing the primary interface is `eth0` we can set up a _temporary alias_ by executing:
 ```bash
