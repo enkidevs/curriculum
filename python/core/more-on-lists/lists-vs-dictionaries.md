@@ -47,14 +47,22 @@ Let's see an example:
 
 ```py
 # Printing elements of a list
-print(my_list[0], '\n', my_list[3])
+print(
+  my_list[0], 
+  '\n', 
+  my_list[3]
+)
 
 # Output:
 # list
 # 4
 
 # Printing elements of a dictionary
-print(dict[Name], '\n', dict[Year])
+print(
+  dict['Name'], 
+  '\n', 
+  dict['Year']
+)
 
 # Output:
 # Seba
