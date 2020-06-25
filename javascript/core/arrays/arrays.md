@@ -101,27 +101,6 @@ for (let item of myArray) {
 // 3
 ```
 
-
-Another option is using the `forEach` method. This method will run a function for each array element:
-
-```js
-let myArray = [1, 2, 3];
-
-myArray.forEach(
-  function (number) {
-    if (number % 2 === 0) {
-      console.log(number, " is even.");
-    } else {
-      console.log(number, " isn't even.");
-    }
-  }
-);
-
-// 1 isn't even.
-// 2 is even.
-// 3 isn't even.
-```
-
 ---
 ## Practice
 
