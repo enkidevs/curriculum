@@ -26,7 +26,7 @@ Modifiers change the *whole nature of our regex pattern*.
 
 They're written outside of the `//` like so:
 
-```
+```plain-text
 /hello/i
 ```
 
@@ -38,7 +38,7 @@ The `m` modifier makes the `^` and `$` anchors match the *start and end of a new
 
 A regex expression with an `m` modifier would allow the pattern to check across multiple lines:
 
-```
+```plain-text
 /^(start|another).*(line)$/m
 ```
 
@@ -56,7 +56,7 @@ There are many more modifiers which you can read about [here](https://www.regula
 
 How would you make the following regex pattern match all four abbreviations?
 
-```
+```plain-text
 /a[lkzr]/???
 ```
 
@@ -72,7 +72,7 @@ How would you make the following regex pattern match all four abbreviations?
 
 How would you make the following regex pattern match all four abbreviations?
 
-```
+```plain-text
 /regexp?/???
 ```
 
