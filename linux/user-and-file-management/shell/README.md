@@ -1,4 +1,4 @@
-name: shell
+name: Shell
 
 description: Tips related to your shell
 

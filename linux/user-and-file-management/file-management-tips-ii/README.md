@@ -1,6 +1,6 @@
-name: file-management-tips-ii
+name: File Management Tips II
 
-description: Description of the workout goes here
+description: How to manage your files better.
 
 insights:
   - easy-way-of-sharing-files

@@ -1,27 +1,12 @@
 ---
 author: SebaRaba
 
-levels:
-
-  - beginner
-
-  - basic
-
-  - medium
-
-  - advanced
-
 type: normal
 
 category: must-know
 
 aspects:
-
   - introduction
-
-links:
-
-  - '[A request example](http://rve.org.uk/dumprequest){website}'
 
 parent: https
 
@@ -35,6 +20,7 @@ parent: https
 Whenever a web browser fetches a file from a **web server**, it is using the `HTTP` protocol. `HTTP` is a *request/response* protocol: your machine sends a request to the server, which, in turn returns a response.
 
 The usual request structure is:
+
 ```plain-text
 Request-Line
 (general-header or
@@ -43,7 +29,9 @@ Request-Line
 CRLF
 Message-Body
 ```
+
 The `Request-Line` is composed of:
+
 ```plain-text
 Method Request-URI HTTP-Version CRLF
 ```
@@ -101,12 +89,17 @@ The request header field that delivers information about your browser and operat
 
 ---
 ## Footnotes
+
 [1: Relative vs Absolute URL]
+
 The absolute URL is:
+
 ```plain-text
 http://www.myAwsomeWebsite.com/contact
 ```
+
 While the relative one (which requires the `Host` field) is:
+
 ```
 /contact
 ```

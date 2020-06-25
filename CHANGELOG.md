@@ -38,12 +38,32 @@ Types of change:
 - `Archived` for content that is no longer necessary and has been archived.
 - `Fixed` for any minor fixes (e.g. add a missing comma, adding a code block tag, fixing a report).
 
-## June 22nd 2020
+
+## June 25th 2020
 
 ### Changed
 - [JavaScript - Arrays - Improve last code block example, add resource link](https://github.com/enkidevs/curriculum/pull/2201)
 
+### Fixed
+- [Regex - Modfiers - Add missing code tags](https://github.com/enkidevs/curriculum/pull/2206)
+- [Python - Lists vs Dictionaries - Add missing quotes & general formatting](https://github.com/enkidevs/curriculum/pull/2204)
+
+## June 24th 2020
+
+### Fixed
+- [Comp. Sci. - The HTTP request - Removed broken resource & general formatting](https://github.com/enkidevs/curriculum/pull/2203)
+
+## June 22nd 2020
+
+### Changed
+- [JavaScript - Splice - General improvements](https://github.com/enkidevs/curriculum/pull/2202)
+- [Linux - Updated two workout names](https://github.com/enkidevs/curriculum/pull/2199)
+
+
 ## June 19th 2020
+
+### Changed
+- [Removed all the unnecessary `$` from code snippets](https://github.com/enkidevs/curriculum/pull/2195)
 
 ### Fixed
 - [MongoDB - Delete a database - Capitalise Pokemon in first code block & minor formatting ](https://github.com/enkidevs/curriculum/pull/2194)
