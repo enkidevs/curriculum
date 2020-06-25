@@ -13,7 +13,7 @@ aspects:
   - introduction
 
 links:
-  - '[Optional Elements](https://html.spec.whatwg.org/multipage/syntax.html#optional-tags){documentation}'
+  - '[Optional Tag List](https://html.spec.whatwg.org/multipage/syntax.html#optional-tags){documentation}'
   - '[Google: Optional Elements](https://google.github.io/styleguide/htmlcssguide.html#Optional_Tags){documentation}'
 
 ---
