@@ -59,7 +59,6 @@ Types of change:
 - [JavaScript - Splice - General improvements](https://github.com/enkidevs/curriculum/pull/2202)
 - [Linux - Updated two workout names](https://github.com/enkidevs/curriculum/pull/2199)
 
-
 ## June 19th 2020
 
 ### Changed
