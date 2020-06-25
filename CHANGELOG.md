@@ -38,7 +38,6 @@ Types of change:
 - `Archived` for content that is no longer necessary and has been archived.
 - `Fixed` for any minor fixes (e.g. add a missing comma, adding a code block tag, fixing a report).
 
-
 ## June 25th 2020
 
 ### Changed
@@ -58,7 +57,6 @@ Types of change:
 ### Changed
 - [JavaScript - Splice - General improvements](https://github.com/enkidevs/curriculum/pull/2202)
 - [Linux - Updated two workout names](https://github.com/enkidevs/curriculum/pull/2199)
-
 
 ## June 19th 2020
 
