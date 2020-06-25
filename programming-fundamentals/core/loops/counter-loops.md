@@ -7,6 +7,7 @@ category: must-know
 
 aspects:
   - workout
+  - deep  - workout
   - deep
 
 ---
@@ -33,12 +34,12 @@ friends = [
   "Brad"
 ]
 
-FOR each friend of friends
+FOR EACH friend of friends
   Make a sandwich.
 ENDFOR
 ```
 
-> 💡 The syntax differs for each programming language. When you'll start learning a specific one, loop functionality will be explained in details.
+> 💡 The [syntax](https://www.enki.com/glossary/general/syntax) differs for each programming language. When you start learning a specific one, loop functionality will be explained in details.
 
 ---
 ## Practice
@@ -64,7 +65,7 @@ Complete the loop so that it rings the alarm every day:
 ```plain-text
 days = ["Monday", "Tuesday", ...]
 
-??? day ??? ???
+??? EACH day ??? ???
   Ring alarm
 ???
 ```

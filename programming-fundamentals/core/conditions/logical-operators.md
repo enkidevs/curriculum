@@ -43,7 +43,7 @@ ELSE IF (
     ...
 ```
 
-`AND` is one of the main three logical operators, and it helps you to build complex conditions. Here are all the logical operators:
+`AND` is one of the main three logical operators, and it helps you to build complex conditions. Here are the most commonly used logical operators:
 
 | Operator |          Meaning          |
 |:--------:|:-------------------------:|

@@ -19,11 +19,11 @@ Your robot is almost ready! The last step is chaining all the functions. You wou
 
 ```plain-text
 Function make a sandwich
-  Pass In: prepare ingredients, assemble sandwich, fry sandwich.
+  Input: prepare ingredients, assemble sandwich, fry sandwich.
   Direct robot to execute prepare ingredients.
   Direct robot to execute assemble sandwich.
   Direct robot to execute fry sandwich.
-  Pass Out: grilled cheese sandwich.
+  Output: grilled cheese sandwich.
 Endfunction
 ```
 
@@ -31,7 +31,7 @@ Endfunction
 
 ![gif-of-spongebob-dusting-off-hands](https://img.enkipro.com/cdf13a221aa155022ba5eb2031e27cde.gif)
 
-That's it, you robot is ready to start making you grilled cheese sandwiches.
+That's it, your robot is ready to start making you grilled cheese sandwiches.
 
 ---
 ## Practice
@@ -40,19 +40,19 @@ Complete the gaps such that your robot will cook your lunch:
 
 ```plain-text
 ??? cook lunch
-    ???: serve lunch, cook ingredients, prepare ingredients.
-    ???
-    ???
-    ???
-    Pass Out: lunch.
+  ???: serve lunch, cook ingredients, prepare ingredients.
+  ???
+  ???
+  ???
+  Output: lunch.
 ???
 ```
 
 * Function
-* Pass In
-* Prepare ingredients function
-* Cook ingredients function
-* Serve lunch function.
+* Input
+* Prepare ingredients
+* Cook ingredients
+* Serve lunch
 * Endfunction
 
 ---
@@ -62,16 +62,16 @@ Complete the gaps such that your robot will cook your breakfast:
 
 ```plain-text
 ??? cook breakfast
-    ???: serve breakfast, cook ingredients, prepare ingredients.
-    ???
-    ???
-    ???
-    Pass Out: breakfast.
+  ???: serve breakfast, cook ingredients, prepare ingredients.
+  ???
+  ???
+  ???
+  Output: breakfast.
 ???
 ```
 
 * Function
-* Pass In
+* Input
 * Prepare ingredients
 * Cook ingredients
 * Serve breakfas

@@ -39,21 +39,19 @@ integer my_age = 33
 ---
 ## Practice
 
-Choose the correct way to define an integer:
+Choose the integer:
 
 ```plain-text
-a = "13"
+a = 1
 
-b == 13
+b = "1"
 
-c = 13
+c = "one"
 ```
 
-???
-
-* c
 * a
 * b
+* c
 
 ---
 ## Revision

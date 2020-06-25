@@ -15,7 +15,7 @@ aspects:
 ---
 ## Content
 
-The text type is almost never called *'text'*. Instead, it is refered to as a **string**. The reasoning behind is that it is a **string/list of characters**. From now on we'll refer to it as **string**.
+The text type is almost never called *text*. Instead, it is refered to as a **string** because it is a **string/list of characters**. From now on we'll refer to it as **string**.
 
 We've already encountered this type before, when creating the `best_app` variable. Now, let's make another one:
 
@@ -23,12 +23,12 @@ We've already encountered this type before, when creating the `best_app` variabl
 best_user = "You"
 ```
 
-> 💡 Strings **always have to be enclosed by quotation marks** (`" "`). In some programming languages you can also use single quotation marks (`' '`).
+> 💡 Strings **commonly have to be enclosed by quotation marks** (`" "`). In some programming languages you can also use single quotation marks (`' '`).
 
 ---
 ## Practice
 
-Strings always have to be enclosed by ???.
+Strings commonly have to be enclosed by ???.
 
 * quotation marks
 * parentheses
@@ -41,7 +41,7 @@ Strings always have to be enclosed by ???.
 Complete the gaps to define a string:
 
 ```plain-text
-my_name = "Andrei"
+my_name ??? ???
 ```
 
 * =

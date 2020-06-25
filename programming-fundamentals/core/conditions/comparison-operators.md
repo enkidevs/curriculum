@@ -27,11 +27,13 @@ Wait, double equal signs? What's that? It's called a boolean condition and it ca
 
 The `==` sign means nothing more than **is equal to**. We are comparing the value of `input` with `0`, which is `true`.
 
-> 💡 Don't mix up `=` and `==`! A single equal sign (`=`) is used for **assigning values**. A double equal sign (`==`) is used for **comparing values**.
+> 💡 Don't mix up `=` and `==`! 
+
+A single equal sign (`=`) is used for **assigning values**(i.e. putting values in a bucket). A double equal sign (`==`) is used for **comparing values** (i.e. comparing the values between two buckets).
 
 The `true` and `false` values are not strings. They actually belong to the **boolean** data type and it's what makes conditions possible. 
 
-You are not limited to the equality operator. Here is a table of all **comparison operators**:
+You are not limited to the equality operator. Here is a table of the most commonly used **comparison operators**:
 
 | Operator |         Meaning         |
 |:--------:|:-----------------------:|

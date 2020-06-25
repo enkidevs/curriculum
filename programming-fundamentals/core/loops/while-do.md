@@ -48,7 +48,16 @@ Complete this loop such that it runs only if `number` is between `1` and `100` (
   AND ??? <= 100
 )
   ...
-???
+???hungry = true
+sandwiches_made = 0
+
+DO
+  Make a sandwich.
+  Increase sandwiches_made by 1.
+WHILE (
+  hungry AND 
+  sandwiches_made <= 3
+)
 ```
 
 * WHILE

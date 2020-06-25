@@ -10,7 +10,7 @@ aspects:
 
 ---
 
-# Programming Benefits
+# Takeaway
 
 ---
 ## Content

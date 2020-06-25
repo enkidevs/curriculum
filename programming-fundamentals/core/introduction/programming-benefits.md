@@ -15,17 +15,7 @@ aspects:
 ---
 ## Content
 
-Learning to code may change the way you think. While coding we often move away from the ambiguities of human languages in favor of clear instructions. 
-
-This is best explained through a joke:
-
-> My wife said: "Please go to the store and buy a carton of milk and if they have eggs, get six.". 
-
-> I came back with 6 cartons of milk. 
-
-> She said, "Why in the hell did you buy six cartons of milk?"
-
-> "They had eggs"
+Learning to code may change the way you think.
 
 As a programmer, when you encounter a problem you don't go straight to coding. You identify the source, break the problem into manageable bits, and start working incrementally.
 

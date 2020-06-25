@@ -77,7 +77,23 @@ Complete the following condition chain:
 ??? condition 2 THEN
   do something
 ???
-  do something
+  do somethingIF (input == 0) THEN
+  Do nothing.
+ELSE IF (
+  input >= 1 AND 
+  input <= 3
+  ) THEN
+    ...
+ELSE IF (
+  input >= 4 AND 
+  input <= 6
+  ) THEN
+    ...
+ELSE IF (
+  input >= 7 AND 
+  input <= 9
+  ) THEN
+    ...
 ```
 
 * IF

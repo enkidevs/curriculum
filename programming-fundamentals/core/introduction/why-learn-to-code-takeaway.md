@@ -10,7 +10,7 @@ aspects:
 
 ---
 
-# Why learn to code?
+# Takeaways
 
 ---
 ## Content

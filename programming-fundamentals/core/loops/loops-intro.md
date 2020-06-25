@@ -16,7 +16,7 @@ aspects:
 ---
 ## Content
 
-Loops are everywhere in our lives. A good example of a loop is brushing your teeth. You move your hand up-down in five increments. That's what a computer considers a loop.
+Loops are everywhere in our lives. A good example of a loop is making three sandwiches. You repeat the same instructions for a number of times. That's what a computer considers a loop.
 
 In programming there are different loops types, with each having their own application. Starting off with the most used one, the counter loop.
 
@@ -34,15 +34,15 @@ Make a sandwich.
 // or
 
 Function make sandwiches
-  Pass In: ingredients.
+  Input: ingredients.
   Make a sandwich.
   Make a sandwich.
   ...
-  Pass Out: sandwiches.
+  Output: sandwiches.
 Endfunction
 ```
 
-> 💡 You can leave comments in your code to explain why you have chosen a certain solution. In pseudocode comments are left using `//`, but each programming language has its own way of defining comments.
+> 💡 You can leave comments in your code to explain why you have chosen a certain solution. In [pseudocode](https://www.enki.com/glossary/programming/pseudocode), comments are left using `//`, but each programming language has its own way of defining comments.
 
 When using a low number of repetitions, you wouldn't have any problems repeating the code, but the higher the number the harder and more tedious it gets. 
 

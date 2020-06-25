@@ -20,7 +20,7 @@ Have you ever wondered how computer programs can have the same code with differe
 
 You can write code in such a way that you get different outcomes or actions depending on a condition.
 
-Remember that grilled cheese making robot that we programmed in the last post? Let's repurpose it to use different types of bread.
+Remember that grilled cheese making robot that we programmed? Let's repurpose it to use different types of bread.
 
 The robot has a small number pad which can take numbers between `0` and `9` as inputs.
 

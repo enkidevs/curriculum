@@ -22,4 +22,4 @@ For example, you could:
 - create a website for your product or project; almost everyone has access to internet, so you would get exposure that wouldn't be possible through other means
 - get a promotion or a raise in your job; understanding how software works will put you ahead of the curve
 
-These are just a few examples, but you're not limited to them. Knowing fundamentals of programmings will demystify the underworking of the modern digital world.
+These are just a few examples, but you're not limited to them. Knowing fundamentals of programmings will demystify the underworkings of the modern digital world.
