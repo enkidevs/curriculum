@@ -13,7 +13,7 @@ aspects:
   - introduction
 
 links:
-  - '[W3: Optional Elements](https://www.w3.org/TR/html5/syntax.html#optional-tags){documentation}'
+  - '[Optional Elements](https://html.spec.whatwg.org/multipage/syntax.html#optional-tags){documentation}'
   - '[Google: Optional Elements](https://google.github.io/styleguide/htmlcssguide.html#Optional_Tags){documentation}'
 
 ---
@@ -32,7 +32,7 @@ Some optional elements:
 Although this isn't a very common practice, Google's HTML styleguide recommends that optional tags be used to help cut down on the file size and improve the scannability of the document. They also recommend that developers not pick some optional tags and omit others as consistency is important in avoiding simple mistakes.
 
 ```html
-<!-- Google: Not recommended -->
+<!-- Not recommended by Google -->
 <!DOCTYPE html>
 <html>
   <head>
@@ -46,14 +46,14 @@ Although this isn't a very common practice, Google's HTML styleguide recommends 
 ```
 
 ```html
-<!-- Google: Recommended -->
+<!-- Recommended by Google -->
 <!DOCTYPE html>
 <title>Saving money,
 saving bytes</title>
 <p>Qed.
 ```
 
-In order for the document to display properly with all the optional tags omitted, there are various conditions that need to be met for the document to display properly. <!--All of these conditions can be found in [greater detail here](https://www.w3.org/TR/html5/syntax.html#optional-tags)-->
+In order for the document to display properly with all the optional tags omitted, there are various conditions that need to be met. The `<title>` tag cannot be omitted but the `<p>` tag can. All  conditions for each element can be found in greater detail in the `Optional elements` link in the `learn more` section.
 
 ---
 ## Practice
