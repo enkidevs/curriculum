@@ -7,7 +7,6 @@ category: must-know
 
 aspects:
   - workout
-  - deep  - workout
   - deep
 
 ---

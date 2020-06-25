@@ -1,6 +1,6 @@
-name: Programming Fundamentals
+name: Programming
 
-description: Everything you need to know about programming.
+description: Everything you need to know before you start programming.
 
 color: aaf0d1
 
