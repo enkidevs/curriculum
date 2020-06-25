@@ -11,6 +11,10 @@ type: normal
 
 category: how to
 
+aspects:
+
+  - introduction
+
 tags:
 
   - file-io
@@ -19,11 +23,9 @@ tags:
 
   - streams
 
-
 links:
 
   - '[docs.oracle.com](https://docs.oracle.com/javase/tutorial/essential/io/charstreams.html){website}'
-
 
 ---
 
@@ -35,7 +37,7 @@ links:
 Java has various I/O classes for reading and writing files. The `FileReader` and `FileWriter` classes can be used to read from and write to text files.
 
 For example, if we need to copy text from one file to another, `FileReader` and `FileWriter` objects can be used in the following way:
-```
+```java
 FileReader input = null;
 FileWriter output = null;
 try(
@@ -62,7 +64,7 @@ It would be necessary to either catch the potential `IOException` in a `catch` b
 ## Practice
 
 Consider the following snippet:
-```
+```java
 input = new FileReader("infile.txt");
 int c;
 while ((c = input.read()) != -1) {
@@ -89,5 +91,3 @@ Why is the try-catch block necessary when reading and writing files with `FileRe
 * In case the files are empty.
 * In case the we swapped the paths by mistake.
 * In case files are too large.
-
- 

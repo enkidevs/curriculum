@@ -1,5 +1,5 @@
 ---
-author: stefan.stojanovic
+author: Stefan-Stojanovic
 
 levels:
   - beginner
@@ -9,37 +9,38 @@ type: normal
 
 category: must-know
 
-standards:
-  web.layout-html.0: 10
-  web.semantic-html.0: 10
-  web.semantic-html.1: 10
-  web.semantic-html.3: 10
-
 aspects:
   - introduction
   - workout
   - deep
 
 links:
-  - '[MDN docs for main](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/main){website}'
-  - '[W3S docs for main](https://www.w3schools.com/tags/tag_main.asp){website}'
+  - '[MDN: <main> Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/main){documentation}'
+  - '[W3S: <main> Element](https://www.w3schools.com/tags/tag_main.asp){documentation}'
 
 ---
-# Main element
+# The `<main>` Element
 ---
 ## Content
 
-The HTML `<main>` element is used to specify the main content of a web page, document or an application. It usually consists of content that is directly related to the central topic, or the central functionality of an application. Also, the `<main>` element should not contain content that is repeated throughout the whole website, or across multiple documents, such as:
+The HTML `<main>` element is used to specify the main content of a web page, document or an application and there should **only be one per web page**.
+
+![main-styled](https://img.enkipro.com/15f6a35ddb333294e969b5669c3ccb0b.png)
+
+It usually consists of content that is directly related to the central topic, or the central functionality of an application.
+
+Also, the `<main>` element should not contain content that is repeated throughout the whole website, or across multiple documents, such as:
  - copyright information
  - navigational links
  - search forms
  - sidebars
  - site logo
 
-**Note: The `<main>` element can have a search form as it's content. However, this is only true for when a search form is the main function of the page.**
-
 Example of the main content of a page, in this case, a page describing vehicles:
-```
+```html
+<header>
+  <img src="logo.svg" alt="Company Logo">
+</header>
 <main>
   <h1>Vehicles</h1>
   <p>
@@ -89,21 +90,17 @@ Example of the main content of a page, in this case, a page describing vehicles:
     <p>... </p>
  </article>
 </main>
+<footer>
+    <p>© Copyright</p>
+</footer>
 ```
 
-As you can see in the example above, we have added `<article>` within our `<main>` element to clearly separate each type of vehicle. As for the other way around, you cannot put a `<main>` element as a descendant of the `<article>` element.
+The `<main>` container doesn't have any visual style without CSS. The CSS in this example may be a bit complex at this time, but hopefully it inspires you to learn more CSS!
 
-Also, the `<main>` element can never be a decendant of a few more elements. These are:
- - `<aside>`
- - `<footer>`
- - `<header>`
- - `<nav>`
+[View CodePen](https://codepen.io/enkidevs/pen/QBEyxw)
 
-Furthermore, you can only have one `<main>` element per web page or document if you want your web page or document to validate.
+As you can see in the example above, we have added `<article>` within our `<main>` element to clearly separate each type of vehicle. The `main` is also between the `header` and `footer`.
 
-There is a way for 2 or more `<main>` elements to be present in your document, however, all except one `<main>` element have to have a `hidden` attribute specified.
-
-**Note: Even though the `<main>` element has headings it doesn't contribute the documents outline. Those headings and other outlines within the `<main>` element are only for that `<main>` element. You should use `<body>` or `<h1>`-`<h6>`, and such as the structure of your page.**
 
 ---
 ## Practice

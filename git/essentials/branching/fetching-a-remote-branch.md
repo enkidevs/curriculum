@@ -7,12 +7,17 @@ levels:
 
 type: normal
 
+aspects:
+  
+  - introduction
+  - workout
+  
 category: must-know
 
 
 links:
 
-  - '[git-scm.com](http://git-scm.com/book/en/v2/Git-Branching-Remote-Branches){website}'
+  - '[Remote Branches Official Documentation](http://git-scm.com/book/en/v2/Git-Branching-Remote-Branches){website}'
 
 
 ---
@@ -28,12 +33,12 @@ To do this, you run `git fetch <remote>`, which updates your local repository wi
 
 For example, to synchronize with `origin` remote:
 ```
-$ git fetch origin
+git fetch origin
 ```
 
 To fetch all the remotes:
 ```
-$ git fetch --all
+git fetch --all
 ```
 Note: changes are **not** automatically applied to your local branch, you have to do this yourself with `git merge`.
 
@@ -42,7 +47,7 @@ Note: changes are **not** automatically applied to your local branch, you have t
 
 Synchronise your local branch with changes to the remote `test`:
 ```
-$ git ??? ???
+git ??? ???
 ```
 
 * `fetch`
@@ -56,8 +61,8 @@ $ git ??? ???
 
 Complete the process to apply the changes to your local branch `master`:
 ```
-$ git ??? origin
-$ git ???
+git ??? origin
+git ???
 ```
 
 * `fetch`
@@ -65,4 +70,6 @@ $ git ???
 * `commit`
 * `master`
 
+ 
+ 
  

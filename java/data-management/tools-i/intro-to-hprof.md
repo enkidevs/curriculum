@@ -13,6 +13,11 @@ type: normal
 
 category: feature
 
+aspects:
+
+  - deep
+
+  - obscura
 
 links:
 
@@ -33,18 +38,18 @@ The `HPROF` tool is capable of presenting CPU usage, heap allocation statistics,
 
 Run with `HPROF` :
 ```java
-$ java -agentlib:hprof MyClass
+java -agentlib:hprof MyClass
 ```
 
 Obtain heap allocation profile:
 ```java
-$ java -agentlib:hprof=heap=sites MyClass 
+java -agentlib:hprof=heap=sites MyClass 
 ```
  
 
 Collect *CPU* usage information (from the compiler) :
 ```java
-$ javac -agentlib:hprof=cpu=samples 
+javac -agentlib:hprof=cpu=samples 
 MyClass.java
 ```
 
@@ -55,32 +60,32 @@ The tool writes profiling information either to a file or to a socket in *ASCII*
 
 Collect CPU usage information from the compiler using HPROF:
 ```
-$ java -agentlib:???
+java -agentlib:???
     =cpu=??? example.java
 ```
 
-* `hprof` 
-* `samples` 
-* `agent` 
-* `alloc` 
-* `heap` 
-* `compiler` 
+* `hprof`
+* `samples`
+* `agent`
+* `alloc`
+* `heap`
+* `compiler`
 * `source`
 
 ---
 ## Revision
 
 Using HPROF, obtain the heap allocation profile:
-```
-$ java ???:hprof=???
+```shell
+java ???:hprof=???
          =sites example
 ```
 
-* `-agentlib` 
-* `heap` 
-* `alloc` 
-* `allocation` 
-* `-a-l` 
+* `-agentlib`
+* `heap`
+* `alloc`
+* `allocation`
+* `-a-l`
 * `-hprof`
-
+ 
  

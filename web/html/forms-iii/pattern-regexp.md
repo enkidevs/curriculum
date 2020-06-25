@@ -1,5 +1,5 @@
 ---
-author: stefan.stojanovic
+author: Stefan-Stojanovic
 
 levels:
   - beginner
@@ -9,21 +9,19 @@ type: normal
 
 category: must-know
 
-standards:
-  web.html-forms.0: 10
-  web.html-forms.8: 10
-
 aspects:
   - introduction
   - workout
   - deep
 
+links:
+
 ---
-# Pattern (regexp)
+# The `pattern` Attribute
 ---
 ## Content
 
-The HTML input form attribute `pattern` is used to specify a regular expression, `patternt="regexp"`, that the `<input>` elements value is checked against.
+The HTML input form attribute `pattern` is used to specify a regular expression where the `<input>` elements value is checked against.
 
 The pattern attribute works for several input types:
  - `date`
@@ -35,33 +33,37 @@ The pattern attribute works for several input types:
  - `URL`
 
 Example:
-```
+```html
 <form
   action="/action.php">
-  Area dial code:
-  <input
-    type="text" name="area_code"
-  pattern="[0-9]{1,5}"
-  title="Area dial code">
+  Enter 5 Digit Zip Code:
+  <input type="text" name="area_code"
+  pattern="[0-9]{5}"
+  title="Zip code">
   <input type="submit">
 </form>
 ```
 
-In the example above, we use the `pattern` attribute to set a specific pattern, which in this case means that the value of the input has to be numerical and can contain from 1-5 characters.
+![form-pattern](https://img.enkipro.com/bd5954a1fe9042cf879c65bfa6f43766.png)
 
-You can also add different patterns.
-For instance, if you specify `pattern="[a-zA-Z0-9]{10}"`, the result can be any alphanumerical value ranging from lower and uppercase a-z letters and any number from 0-9 with a maximum of 10 characters.
+[View CodePen](https://codepen.io/enkidevs/pen/OErEda)
 
+In the example above, we use the `pattern` attribute to set a specific pattern, which in this case means that the value of the input has to be numerical and must contain 5 characters.
 
-Another example, where a more complicated pattern is used to force the user to make a more complicated password:
-```
+You can also create different patterns using this technique. For instance, if you specify `pattern="[a-zA-Z0-9]{5-10}"` which checks for any any alphanumeric value ranging from lower and uppercase a-z letters and any number from 0-9 with any combination between 5 and 10 characters.
+
+[View CodePen](https://codepen.io/enkidevs/pen/vaBvBG)
+
+Another popular example, where a more complicated pattern is used to force the user to make a more complicated password:
+
+```html
 <form
   action="/action.php">
   Password:
   <input
    type="password" name="pw"
     pattern="(?=.*\d)(?=.*[a-z])
-      (?=.*[A-Z]).{8,}"
+      (?=.*[A-Z]).{8,20}"
     title="The password must contain
      one lowercase and uppercase letters,
      one number,
@@ -71,17 +73,19 @@ Another example, where a more complicated pattern is used to force the user to m
 </form>
 ```
 
-In the example above, the user has to have at least one lowercase letter, one uppercase letter, one number and a minimum of 8 characters and a maxium of 20 characters.
+[View CodePen](https://codepen.io/enkidevs/pen/aKPaRg)
+
+In the example above, the user has to have at least one lowercase letter, one uppercase letter, one number, and a minimum of 8 characters and a maximum of 20 characters.
 
 ---
 ## Practice
 
 Mark the string that would NOT pass this pattern:
 
-```
+```html
 <input
   type="text" name="test"
-  pattern="[a-zA-Z0-9]{10}"
+  pattern="[a-zA-Z0-9]{0,10}"
   title="">
 ```
 
@@ -99,7 +103,7 @@ Mark the string that would NOT pass this pattern:
 
 Which form attribute is used to only allow a value that follows a unique expression?
 
-```
+```html
 <form
   action="file.php">
  Country code:
@@ -111,10 +115,10 @@ Which form attribute is used to only allow a value that follows a unique express
 </form>
 ```
 
-* pattern
-* expression
-* compare
-* limitation
+* `pattern`
+* `expression`
+* `compare`
+* `limitation`
 
 ---
 ## Quiz
@@ -123,7 +127,7 @@ Which form attribute is used to only allow a value that follows a unique express
 
 When you look at the title, which regular expression do you think should be set as the pattern?
 
-```
+```html
 <form action="file.php">
  Country code:
  <input

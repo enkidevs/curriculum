@@ -13,6 +13,9 @@ type: normal
 
 category: how to
 
+aspects:
+  - workout
+
 tags:
 
   - textarea
@@ -20,9 +23,6 @@ tags:
   - disable
 
   - resizable
-
-
-
 
 ---
 
@@ -40,9 +40,9 @@ textarea {
 ```
 To disable some `textarea` elements, do the following:
 ```css
-/* 
+/*
 note the textarea with the name, foo,
-is  what will be disabled 
+is  what will be disabled
 */
 textarea[name=foo] {
     resize: none;
@@ -58,19 +58,19 @@ overflow: scroll;
 ---
 ## Practice
 
-Which of the following disables the resizing behavior of an element? 
+Which of the following disables the resizing behavior of an element?
 
 ???
 
 
-* `resize: none` 
-* `resizable: false` 
+* `resize: none`
+* `resizable: false`
 * `size-alter: false`
 
 ---
 ## Revision
 
-When disabling the resizing behavior of `textarea` elements, `overflow` property must be set to what value in order for the disabling to work?
+When disabling the resizing behavior of `textarea` elements, `overflow` property must be set to what value for the disabling to work?
 
 ???
 
@@ -79,4 +79,3 @@ When disabling the resizing behavior of `textarea` elements, `overflow` property
 * visible
 * resize
 * none
-

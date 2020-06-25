@@ -15,6 +15,10 @@ standards:
 
   javascript.standard-library.1: 1000
   javascript.write-expressions.0: 1000
+  
+aspects:
+  - introduction
+  - workout
 
 links:
 

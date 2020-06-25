@@ -1,12 +1,17 @@
-name: User and File management
+name: User & File Management
 
 description: Files, users, permissions.
 
 core: true
 
+next:
+  - linux:jobs-and-processes-data-manipulation
+
 sections:
   '0':
+    - linux-intro
     - bash-environment
+    - manipulating-environment-variables
     - file-management
     - file-permissions
     - file-management-tips
@@ -26,6 +31,22 @@ sections:
     - user-management-utilities
 
 standards:
+  file-management:
+    name: Manage files via the command line
+    description: This standard deals with creation and deletion of files, renaming files, traversing the file system, and complex file operations such as appending text or tailing a file.
+    objectives:
+      0: Traverse the file system with cd
+      1: Analyze directories with ls
+      2: Create files with touch
+      3: Create directories with mkdir
+      4: Move or rename files with mv
+      5: Copy files with cp
+      6: Delete files with rm
+      7: Delete directories with rmdir
+      8: Output a file's contents to stdout with cat
+      9: Append to a file
+      10: Watch a file with tail
+      11: Distinguish relative file paths from absolute file paths
   configure-shell:
     name: Configure your shell
     description: This standard covers configuration of shell behavior and display using built-in unix tools as well as external tools.
@@ -34,6 +55,7 @@ standards:
       1: Add data to your terminal's line
       2: Change your display name
       3: Change your shell
+      4: Add startup scripts and environment variables by modifying shell lifecycle configuration scripts
   environment-variables:
     name: Set and use environment variables
     description: This standard covers the use of user-local and system environment variables.
@@ -80,8 +102,3 @@ standards:
       0: Use simple unix programs such as expr to operate on numerical values
       1: Use simple unix programs such as cat and grep to operate on string values
       2: Compose simple unix programs to produce strings or numerical values
-
-
-
-next:
-  - linux:jobs-and-processes-data-manipulation

@@ -11,7 +11,10 @@ type: normal
 
 category: how to
 
-
+aspects:
+  - introduction
+  - workout
+  - obscura
 links:
 
   - '[docs.python.org](https://docs.python.org/3.5/library/calendar.html){website}'
@@ -82,8 +85,6 @@ This module provide other useful methods for working with dates, times and calen
 
 Set the first day of the week of your `calendar` to be Monday:
 
-??
-
 ```
 calendar.??? \
   (calendar.MONDAY)
@@ -110,5 +111,3 @@ print(calendar.???(2016))
 * `year`
 * `currentYear`
 * `annum`
- 
- 

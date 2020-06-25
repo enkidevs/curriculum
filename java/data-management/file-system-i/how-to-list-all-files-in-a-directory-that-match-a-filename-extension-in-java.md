@@ -9,9 +9,9 @@ type: normal
 
 category: how to
 
+aspects:
 
-
-notes: ''
+  - introduction
 
 ---
 
@@ -40,7 +40,7 @@ The third argument specifies in which subdirectories to extend the search. Pass 
 ## Revision
 
 Complete the method to get all the files that contain `enki` in their name, on Desktop and in all other directories on Desktop:
-```
+```java
 FileUtils.listFiles("~/Desktop", new 
 ???,
 ???);
@@ -51,5 +51,3 @@ FileUtils.listFiles("~/Desktop", new
 * `WildcardDirectoryFilter("*")` 
 * `TrueFilter.ALL` 
 * `WildcardFileFilter("enki")`
-
- 

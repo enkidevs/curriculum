@@ -13,10 +13,13 @@ type: normal
 
 category: must-know
 
+aspects:
+  - introduction
+  - workout
 
 links:
 
-  - '[sass-lang.com](http://sass-lang.com/documentation/Sass/Script/Functions.html#list-functions){website}'
+  - '[Article on List Functions](http://sass-lang.com/documentation/Sass/Script/Functions.html#list-functions){website}'
 
 
 ---
@@ -42,7 +45,7 @@ to-upper-case("upper") => UPPER
 Unlike in some languages, the first character in a string is number 1, not 0.
 ```css
 str-insert("Eni", "k", 3) => "Enki"
-str-insert("SassScript is ", "fun", 15) 
+str-insert("SassScript is ", "fun", 15)
 => "SassScript is fun"
 ```
 
@@ -51,7 +54,7 @@ str-insert("SassScript is ", "fun", 15)
 
 Pick the right index at which you should insert a character as to result in "enki" string:
 ```javascript
-str-insert("eki", "n", ???) 
+str-insert("eki", "n", ???)
 ```
 
 
@@ -66,7 +69,7 @@ str-insert("eki", "n", ???)
 
 Pick the right index at which you should insert a character as to result in "enki" string:
 ```javascript
-str-insert("eki", "n", ???) 
+str-insert("eki", "n", ???)
 ```
 
 
@@ -75,4 +78,3 @@ str-insert("eki", "n", ???)
 * `3`
 * `4`
 * `0`
-

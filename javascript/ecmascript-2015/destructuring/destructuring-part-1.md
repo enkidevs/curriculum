@@ -1,18 +1,17 @@
 ---
 author: alexjmackey
 
-levels:
-  - beginner
-
 type: normal
 
 category: feature
 
-inAlgoPool: false
+aspects:
+  - introduction
+  - new
+  - workout
 
 links:
-  - '[MDN](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment){website}'
-
+  - '[Destructuring Assignment](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment){documentation}'
 
 ---
 # Destructuring (Part 1)
@@ -25,9 +24,9 @@ Destructuring provides a succinct and flexible way to assign values from arrays 
 This is best illustrated with an example. Destructuring is used below to assign `x` and `y` the values `100` and `200` in just one line of code:
 
 ```javascript
-var x, y;
+let x, y;
 [x, y] = [100, 200];
-//x=100, y=200
+// x = 100, y = 200
 ```
 
 ### Function Return Values
@@ -39,31 +38,31 @@ Let's say we have a function that multiplies two input arguments (x and y) by tw
 Destructuring can assign the results of this operation to two variables with just one line of code:
 
 ```javascript
-var x,y;
+let x, y;
 
 function dblNumbers(x, y) {
-  return [x*2, y*2];
+  return [x * 2, y * 2];
 }
 
-[x, y] = dblNumbers(100,200);
-//x=200, y=400
+[x, y] = dblNumbers(100, 200);
+// x = 200, y = 400
 ```
 
-### Swapping variables
+### Swapping Variables
 
 Destructuring can also be used to swap the contents of two variables without having to create another temporary variable:
 
 ```javascript
-var x = 1;
-var y = 2;
+let x = 1;
+let y = 2;
 [y, x] = [x, y];
-// x=2, y=1
+// x = 2, y = 1
 ```
 
 ---
 ## Practice
 
-Swap `a` and `b` using ES6 destructuring:
+Swap `a` and `b` using destructuring:
 
 ```javascript
 let a = 'foo'
@@ -93,14 +92,14 @@ What will be the output of the following statements:
 ```javascript
 function squareNums(nums) {
   return nums.map(function(num) {
-    return num * num
-  })
+    return num * num;
+  });
 }
 
-const [a, b] = squareNums([3, 4, 5])
-console.log(a)
+const [a, b] = squareNums([3, 4, 5]);
+console.log(a);
 // ???
-console.log(b)
+console.log(b);
 // ???
 ```
 
@@ -114,4 +113,3 @@ console.log(b)
 * 0
 * undefined
 * null
- 

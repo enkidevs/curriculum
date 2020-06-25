@@ -9,6 +9,9 @@ type: normal
 
 category: must-know
 
+aspects:
+
+  - introduction
 
 links:
 
@@ -26,7 +29,7 @@ parent: what-is-a-packet
 
 **Networks** enable two or more devices to *communicate*.
 
-As in real life, for two parties to communicate efficiently, the need to follow some rules. With regard to computer networks, these sets of rules are called **protocols**.
+As in real life, for two parties to communicate efficiently, they need to follow some rules. With regard to computer networks, these sets of rules are called **protocols**.
 
 So far, you must have encountered some of the following **protocols**:
 - `IP` - used to uniquely identify computers (*hosts*)
@@ -34,8 +37,8 @@ So far, you must have encountered some of the following **protocols**:
 - `HTTP` - key protocol for data transfer across the *World Wide Web*
 - `SMTP` - used for mail transfer
 
-Some of the **protocols** used are hidden from the user, while others can be spotted by accessing a web page: 
-```text
+Some of the **protocols** used are hidden from the user, while others can be spotted by accessing a web page:
+```plain-text
 // the HTTPS protocol is used
 https://enki.com
 ```
@@ -80,4 +83,3 @@ According to the **OSI model** (used for computer systems communication standard
 These layers range from a low-level **Physical Layer** to a high-level **Application Layer**.
 
 Any protocol can be pinpointed to a specific layer. For example, the `HTTP` protocol is situated on the **Session Layer** that manages continuous exchange of information.
- 

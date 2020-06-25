@@ -1,5 +1,5 @@
 ---
-author: stefan.stojanovic
+author: Stefan-Stojanovic
 
 levels:
   - beginner
@@ -9,19 +9,16 @@ type: normal
 
 category: must-know
 
-standards:
-  web.html-forms.2: 10
-
 aspects:
   - workout
   - deep
   - obscura
 
 links:
-  - '[W3S docs for formaction](https://www.w3schools.com/tags/att_formaction.asp){documentation}'
+  - '[HTML formaction Attribute](https://www.w3schools.com/tags/att_formaction.asp){documentation}'
 
 ---
-# Formaction
+# The `formaction` Attribute
 ---
 ## Content
 
@@ -30,27 +27,31 @@ The HTML form input attribute `formaction` is used to specify the form-data when
 If the `formaction` attribute is specified, it will override the forms `action` attribute.
 
 Example:
-```
+```html
 <form action="page1.php"
     method="get">
   Name: <input type="text"
     name="name">
   <button type="submit">
-    Submit
+    Submit to Page 1
   </button>
   <button type="submit"
     formaction="page2.php">
-    Submit to Page2
+    Submit to Page 2
   </button>
 </form>
 ```
+
+![form-formaction](https://img.enkipro.com/4760211ca1e2dfd4e04c4c14f75f4c09.png)
+
+[View CodePen](https://codepen.io/enkidevs/pen/MXZzzo)
 
 ---
 ## Practice
 
 Complete the code so that the second button links properly to the action_page2.php file.
 
-```
+```html
 <form action="page1.php"
     method="get">
   Name: <input type="text"

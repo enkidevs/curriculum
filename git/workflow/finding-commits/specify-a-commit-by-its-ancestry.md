@@ -13,6 +13,10 @@ type: normal
 
 category: feature
 
+aspects:
+
+  - workout
+  - deep
 
 
 
@@ -24,23 +28,23 @@ category: feature
 ## Content
 
 To show a commit's first parent use `^` or `~`, both achieving the same thing:
-```
-$ git show 34de6f1^
+```bash
+git show 34de6f1^
 # or
-$ git show 34de6f1~
+git show 34de6f1~
 ```
 
 To show the second parent of a merge commit:
-```
-$ git show df23e42^2
+```bash
+git show df23e42^2
 # shows parent commit on the branch
 # you merged in
 ```
 To show the grandparent of commit `34de6f1`:
-```
-$ git show 34de6f1^^
+```bash
+git show 34de6f1^^
 # or
-$ git show 34de6f1~2
+git show 34de6f1~2
 ```
 
 ---
@@ -59,8 +63,8 @@ What is the `~` equivalent of `^^^^`?
 ## Revision
 
 The command:
-```
-$ git show 42ea31d^
+```bash
+git show 42ea31d^
 ```
 Gets the ??? of commit `42ea31d`.
 
@@ -84,4 +88,6 @@ Which of the following refers to the commit labeled with D?
 * HEAD^2
 * HEAD^1
 * HEAD~1
+ 
+ 
  

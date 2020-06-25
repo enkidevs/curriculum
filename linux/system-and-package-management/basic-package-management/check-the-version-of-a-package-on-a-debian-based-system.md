@@ -1,5 +1,5 @@
 ---
-author: tuwi.dc
+author: tuwidc
 
 levels:
 
@@ -10,6 +10,10 @@ levels:
   - medium
 
   - beginner
+
+aspects:
+  - introduction
+  - workout
 
 type: normal
 
@@ -42,12 +46,12 @@ notes: ''
 
 You can check the version of a package installed in a deb based system with the `dpkg` command:
 
-```
-$ dpkg --list <package>
+```bash
+dpkg --list <package>
 ```
 
-```
-$ dpkg --list python
+```bash
+dpkg --list python
     Name      Version        Description
 ii  python    2.7.3-0ubuntu2 interact..
 ```
@@ -89,8 +93,8 @@ A status code of `uf` stands for
 ## Revision
 
 You can check the status of installed packages on a Debian system by issuing:
-```
-$ ??? ??? ???
+```bash
+??? ??? ???
 ```
 
 * `dpkg`
@@ -100,4 +104,6 @@ $ ??? ??? ???
 * `apt-get`
 * `list`
 
+ 
+ 
  

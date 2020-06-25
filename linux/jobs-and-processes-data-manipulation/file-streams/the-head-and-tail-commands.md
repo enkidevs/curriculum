@@ -7,6 +7,10 @@ levels:
 
   - beginner
 
+aspects:
+  - introduction
+  - workout
+
 type: normal
 
 category: must-know
@@ -28,13 +32,12 @@ inAlgoPool: false
 For example, you can use `tail` to select the last 5 lines from a log file, like so:
 
 ```shell
-$ tail -n5 /usr/share/dict/words
+tail -n5 /usr/share/dict/words
 zythem
 Zythia
 zythum
 Zyzomys
 Zyzzogeton
-$
 ```
 
 Likewise, `head -n5 some_file.txt` would display the *first* 5 lines from the hypothetical `some_file.txt`.
@@ -46,7 +49,7 @@ Supplying the `-f` or "follow" option to `tail` causes it to not stop when the e
 Try it:
 
 ```shell
-$ tail -f /var/log/messages
+tail -f /var/log/messages
 ```
 
 On Linux, `/var/log/messages` is the generic "system log file".  As new log entries are appended to the file, `tail -f` will display them.
@@ -58,8 +61,8 @@ This is called "tailing a log file" or "tailing a file".
 It's also common to use `head` and `tail` to filter the output of other programs.  Try these out:
 
 ```shell
-$ ls -t | head -n3
-$ ls -t | tail -n3
+ls -t | head -n3
+ls -t | tail -n3
 ```
 
 `ls -t` lists the contents of the current directory sorted by modification time (most recent first).  So `ls -t | head -n3` will list the three most recently modified files and `ls -t | tail -n3` the three files with the oldest modified times.
@@ -74,4 +77,6 @@ The flag of `tail` that will make it keep printing lines as they are appended to
 * -n
 * -r
 
+ 
+ 
  

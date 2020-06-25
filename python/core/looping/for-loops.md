@@ -11,10 +11,13 @@ category: must-know
 
 inAlgoPool: false
 
+aspects:
+  - introduction
 
 standards:
   python.control-structures.2: 10
   python.identify-python-syntax.0: 10
+  python.use-iteration-protocol.0: 10
 
 links:
 
@@ -29,10 +32,10 @@ links:
 
 `for` loops are used in most programming languages to iterate over a defined sequence.
 
-The standard Python for loop syntax is:
+The standard Python `for` loop syntax is:
 ```python
 for iterating_num in sequence:
-    doSomething() 
+    doSomething()
 ```
 
 An example `for` loop:
@@ -48,7 +51,7 @@ Letter:  n
 Letter:  k
 Letter:  i
 ```
-In the following example, `x` acts as the iterator and is incremented with each loop:
+In the following example, `x` acts as the loop variable and is incremented with each loop:
 
 ```python
 nums = [1, 2, 3]
@@ -97,5 +100,3 @@ for letter in 'Python':
 * `letter`
 * `null`
 * `error`
- 
- 

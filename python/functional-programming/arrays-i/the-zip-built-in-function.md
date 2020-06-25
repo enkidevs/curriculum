@@ -10,9 +10,13 @@ levels:
   - medium
 
 type: normal
-
+aspects:
+  - introduction
+  - workout
+  - deep
 category: must-know
-
+standards:
+  python.use-iteration-protocol.1: 10
 
 links:
 
@@ -56,7 +60,7 @@ print(zip(a, b, c))
 # ('a5', 'b5', 'c5')]
 ```
 
-The star operator `*` can be used with `zip` to do the opposite action&mdash;to unzip a list. This action takes an iterator of tuples and returns a list for each field in the tuples.[2] Unzipping has the syntax:
+The star operator `*` can be used with `zip` to do the opposite action&mdash;to unzip a list. This action takes an iterator of tuples and returns a tuple for each field in the tuples[2]. Unzipping has the syntax:
 
 ```python
 zip(*zippedList)
@@ -76,10 +80,18 @@ print(x)
 print(y)
 print(z)
 
-#result:
+# result:
 # x = ('a1', 'a2', 'a3', 'a4', 'a5')
 # y = ('b1', 'b2', 'b3', 'b4', 'b5')
 # z = ('c1', 'c2', 'c3', 'c4', 'c5')
+```
+
+Note that when unzipping, Python returns **tuples** instead of **lists**:
+
+```py
+type(x)
+# result:
+# <type 'tuple'>
 ```
 
 ---
@@ -151,4 +163,3 @@ print(zip(dates, values))
 
 [2:Uneven length = loss of information]
 *Obviously, any information discarded in the initial `zip` step because of input iterables being of uneven length is not recovered when we unzip the result again; the information has already been discarded at the `zip` step.*
- 

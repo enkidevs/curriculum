@@ -1,5 +1,5 @@
 ---
-author: stefan.stojanovic
+author: Stefan-Stojanovic
 
 levels:
   - beginner
@@ -9,46 +9,43 @@ type: normal
 
 category: must-know
 
-standards:
-  web.semantic-html.0: 10
-  web.semantic-html.1: 10
-  web.semantic-html.3: 10
-  web.markup-text.2: 10
-  web.layout-html.4: 10
-
 aspects:
   - introduction
   - workout
   - deep
 
 links:
-  - '[Code Sample](https://codepen.io/lizthedeveloper/pen/gzrZza){code}'
 
 ---
-# code - Display code in HTML
+# Display Code in HTML
 ---
 ## Content
 
-In HTML the `<code>` element is used to style the content to display like a fragment of a computer code.
-Both the starting and ending tags are necessary.
+The HTML `<code>` element is used to display a fragment of a computer code.
 
 Example:
-```
+```html
 <p>
   The function
   <code>
     calculateAverage()
   </code>
   calculates the average
-  of a set of numbers
+  of a set of numbers.
 </p>
 ```
-Result:
- The funcion `calculateAverage()` calculates the average of a set of numbers.
+
+Code Result:
+
+![code-element](https://img.enkipro.com/ac35ba3ba120e7bad24f65ba88ec7776.png)
 
 The default font style for the `<code>` element for most browsers is the monospace font.
 
-**Note: It's best to use the `<code>` element to style content for HTML elements, CSS rules, filenames and JS scripts.**
+**Note:** It's best to use the `<code>` element to style content for HTML elements, CSS rules, filenames, and JS scripts. With a little CSS, the code used can stand out more on a page like this:
+
+![code-element-style](https://img.enkipro.com/aa6b83ce3011d5ec08701c538a3a8f7c.png)
+
+[View CodePen](https://codepen.io/enkidevs/pen/mKzKxa)
 
 ---
 ## Practice
@@ -66,17 +63,14 @@ What content is best to style when using the `<code>` element?
 ---
 ## Revision
 
-What HTML element is used to visually highlight the difference of the paragraph elements in an appropriate way?
-
-`<p>`The `<???>``<p>``</p>``</???>` tags are used in HTML to create paragraphs.`</p>`
+Which of these elements is used to style the contents as computer code?
 
 ???
 
-* code
-* kbd
-* samp
-* pre
-* var
+* <code>
+* <kbd>
+* <codeBlock>
+* <styleCode>
 
 ---
 ## Quiz
@@ -84,7 +78,7 @@ What HTML element is used to visually highlight the difference of the paragraph 
 ### How much do you know about the `<code>` element?
 
 What will be the effect of wrapping this text in the _code_ element?
-```
+```html
 <code>
   var x = 5;
   y = x == 10

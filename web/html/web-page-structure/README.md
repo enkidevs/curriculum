@@ -2,7 +2,7 @@ name: Web Page Structure
 
 type: insights-list
 
-description: TODO
+description: Learn how an HTML webpage is structured.
 
 section: 0
 
@@ -13,4 +13,3 @@ insights:
   - html-element
   - head-element
   - optional-elements
- 

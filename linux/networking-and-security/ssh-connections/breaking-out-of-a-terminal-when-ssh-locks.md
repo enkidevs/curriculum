@@ -1,9 +1,13 @@
 ---
-author: tuwi.dc
+author: tuwidc
 
 levels:
 
   - medium
+
+aspects:
+  - workout
+  - obscura
 
 type: normal
 
@@ -62,4 +66,6 @@ to kill the current session. (↵ being the Enter Key).
 * ↵ ~#
 * ↵ ~R
 
+ 
+ 
  

@@ -13,6 +13,10 @@ type: normal
 
 category: tip
 
+aspects:
+  - introduction
+  - workout
+
 tags:
 
   - #@ #rules
@@ -20,7 +24,7 @@ tags:
 
 links:
 
-  - '[MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/At-rule){documentation}'
+  - '[MDN Docs on at-rule](https://developer.mozilla.org/en-US/docs/Web/CSS/At-rule){documentation}'
 
 
 ---
@@ -81,4 +85,3 @@ Which of the following is the regular form for an @ rule? ???
 * `@[KEYWORD] (RULE);`
 * `@[KEYWORD];`
 * `@[KEYWORD-RULE];`
-

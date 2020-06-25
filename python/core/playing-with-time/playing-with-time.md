@@ -12,7 +12,9 @@ type: normal
 category: feature
 
 inAlgoPool: false
-
+aspects:
+  - introduction
+  - workout
 
 links:
 
@@ -35,7 +37,7 @@ notes: >
 
 The `time` module is widely used for time manipulation, representation and conversion.
 
-Keep in mind an `import` is needeed:
+Keep in mind an `import` is needed:
 ```python
 import time
 ```
@@ -71,7 +73,7 @@ print(time.asctime(time_struct))
 # Fri Jun 23 15:27:36 2017
 ```
 
-Another useful function of this module sis `time.sleep(n)` which can be used to make your program sleep for `n` seconds:
+Another useful function of this module is `time.sleep(n)` which can be used to make your program sleep for `n` seconds:
 ```python
 print("good night")
 time.sleep(5)
@@ -130,5 +132,3 @@ print(???(???())
 * `current`
 * `time_struct`
 * `struct_time`
- 
- 

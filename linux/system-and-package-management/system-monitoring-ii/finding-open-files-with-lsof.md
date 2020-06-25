@@ -11,6 +11,9 @@ levels:
 
   - medium
 
+aspects:
+  - workout
+
 type: normal
 
 category: must-know
@@ -52,10 +55,9 @@ In order to see every file and every process you have to have `root` permission,
 If you know the name of a process and want to see which files it has open, you can use the `-p` option, like so:
 
 ```shell
-$ sudo lsof -p 3164
+sudo lsof -p 3164
 COMMAND  PID  ...  NAME
 mysqld  3164  ... /var/lib/mysql
-$
 ```
 
 We've truncated the output here for illustration purposes.
@@ -65,7 +67,7 @@ We've truncated the output here for illustration purposes.
 If you know the name of a specific file and want to know which processes have it open, you can pass in the name of the file directly, like so:
 
 ```shell
-$ sudo lsof /var/log/syslog
+sudo lsof /var/log/syslog
 ```
 
 ---
@@ -85,8 +87,8 @@ flag is required to find files used by a specific process.
 ## Revision
 
 You can find *all* the processes that are using a file by issuing:
-```
-$ ??? ??? ???
+```bash
+??? ??? ???
 ```
 
 * `sudo`
@@ -99,4 +101,6 @@ $ ??? ??? ???
 ## Footnotes
 [1:lsof]
 You can think of `lsof` as ls + of ,standing for **list** *open files*.
+ 
+ 
  

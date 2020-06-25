@@ -2,16 +2,16 @@
 author: stefkn
 
 levels:
-
   - beginner
+
+aspects:
+  - introduction
 
 type: normal
 
 category: must-know
 
-
 links:
-
   - '[Iterators vs. Generators](http://nvie.com/posts/iterators-vs-generators/){website}'
 
 

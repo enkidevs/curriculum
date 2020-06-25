@@ -1,5 +1,5 @@
 ---
-author: tuwi.dc
+author: tuwidc
 
 levels:
 
@@ -8,6 +8,10 @@ levels:
   - advanced
 
   - medium
+
+aspects:
+  - deep
+  - obscura
 
 type: normal
 
@@ -71,9 +75,9 @@ action = iptables
 Here `action = iptables` refers to `/etc/fail2ban/action.d/iptables.conf` that's basically a drop action with IPtables.
 
 To stop/start fail2ban service:
-```
-$ /etc/init.d/fail2ban stop
-$ /etc/init.d/fail2ban start
+```bash
+/etc/init.d/fail2ban stop
+/etc/init.d/fail2ban start
 ```
 
 ---
@@ -87,4 +91,6 @@ The `fail2ban` service looks through logs and bans IPs that
 * made too many requests
 * were inactive for too long
 
+ 
+ 
  

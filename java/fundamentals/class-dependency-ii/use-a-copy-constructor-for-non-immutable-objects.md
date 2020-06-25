@@ -13,17 +13,23 @@ type: normal
 
 category: best practice
 
+aspects:
+
+  - workout
+
+  - deep
+
+  - obscura
+
 tags:
 
   - object-construction
 
   - object-copying
 
-
 links:
 
   - '[www.javapractices.com](http://www.javapractices.com/topic/TopicAction.do?Id=71){website}'
-
 
 ---
 
@@ -34,20 +40,20 @@ links:
 
 Rather than using `clone`, a simpler way to create a copy of an object is to use a copy constructor. For example, a class 'Person' with this constructor:
 
-```
+```java
 public Person(String name, int age) {
   this.name = name;
   this.age = age;
 }
 ```
 could have this copy constructor:
-```
+```java
 public Person(Person person) {
   this(person.getName(), person.getAge());
 }
 ```
 This would create another Person object with the same name and age properties. However, it is important to note that creating a copy is unnecessary for immutable objects, so using a copy constructor like this should only be done for objects whose state can be changed. For example, if the Person class had this method:
-```
+```java
 public void setName(String name) {
   this.name = name;
 }
@@ -72,7 +78,7 @@ A copy constructor provides a simpler and safer way to create a copy of an objec
 
 Which of the following code snippets is the correct copy constructor for the ‘Address’ constructor:
 
-```
+```java
 // Address Constructor  
 public Location(String country,
                 String city) {
@@ -101,5 +107,3 @@ public Location(Location loc) {
 * Option B
 * Option C
 * Option A
-
- 

@@ -12,6 +12,8 @@ levels:
 type: normal
 
 category: pattern
+aspects:
+  - introduction
 
 
 links:
@@ -37,6 +39,7 @@ notes: >
 
 standards:
   python.native-types-operations.3: 10
+  python.use-iteration-protocol.0: 10
 
 ---
 
@@ -103,6 +106,11 @@ list_a = ['a', 'b', 'c']
 list_one = ['one', 'two', 'three']
 for k, v in ???(list_a, list_one):
     print(???)
+
+//Expected output:
+// a one
+// b two
+// c three
 ```
 
 * `zip`
@@ -115,20 +123,20 @@ for k, v in ???(list_a, list_one):
 ---
 ## Revision
 
-Complete the code snippet to loop through the list in reverse:
+Complete the code snippet to loop through the list in reverse and then print it out:
 
 ```
-enki_list = [‘i’, ‘k’, ‘n’, ‘e’]
-for w in ???(sorted \
-            (???(enki_list))):
-  print(w)
+enki_list = ['i', 'k', 'n', 'e']
+for w in ???(???):
+    ???(w)   
+
 ```
 
 * `reversed`
-* `set`
+* `enki_list`
+* `print`
+* `output`
 * `reverse`
 * `orderreverse`
 * `start`
 * `list`
- 
- 

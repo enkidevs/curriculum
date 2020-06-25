@@ -8,7 +8,10 @@ levels:
   - medium
 
 type: normal
-
+aspects:
+  - introduction
+  - workout
+  - deep
 category: feature
 
 standards:
@@ -109,5 +112,3 @@ lq = queue.???()
 * `FifoQueue`
 * `lifoqueue`
 * `fifoqueue`
- 
- 

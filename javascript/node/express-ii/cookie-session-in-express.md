@@ -20,6 +20,9 @@ links:
 
 parent: easy-way-to-deliver-html-pages-with-express
 
+aspects:
+  - introduction
+
 ---
 # `cookie-session` in **Express**
 
@@ -91,4 +94,4 @@ var cookieSess = ???('???');
 * session
 * import
 * cookie-express
- 
+

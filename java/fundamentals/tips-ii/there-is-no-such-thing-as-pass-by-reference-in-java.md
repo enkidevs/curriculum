@@ -11,17 +11,21 @@ type: normal
 
 category: caveats
 
+aspects:
+
+  - deep
+
+  - obscura 
+
 tags:
 
   - pass-by-value
 
   - java
 
-
 links:
 
   - '[A more in-depth explanation](http://javadude.com/articles/passbyvalue.htm){website}'
-
 
 ---
 
@@ -38,7 +42,7 @@ Everything in Java is *pass-by-value*. This means:
 
 >`Person p` is a **pointer** to a Person object and not a stand-alone Person object.
 
-```
+```java
 public class JavaIsPassByValue {
 
   public static void changeName 
@@ -74,7 +78,7 @@ Andrew
 ## Practice
 
 What will this snippet output?
-```
+```java
 public void foo(Person per){
   per.setName("Tom");
   per = new Person("Mike");
@@ -95,7 +99,7 @@ System.out.println(p.getName());
 ## Revision
 
 What will this snippet output?
-```
+```java
 public void foo(Person per){
   per.setName("Mike");
   per = new Person("Cat");
@@ -111,5 +115,3 @@ System.out.println(p.getName());
 * `Tom` 
 * `Cat` 
 * `Jordan`
-
- 

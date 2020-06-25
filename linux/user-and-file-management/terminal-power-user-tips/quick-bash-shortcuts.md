@@ -1,5 +1,5 @@
 ---
-author: tuwi.dc
+author: enkici
 
 levels:
 
@@ -52,7 +52,7 @@ To effectively construct commands on the command line make use of the following 
 - `ctrl-u` to delete all the way back to the start of the line;
 - `ctrl-k` to delete up to the end of the line;
 - `alt-f` to move forward by one word;
-- `alt-b` to move backwards by one word
+- `alt-b` to move backwards by one word;
 - `ctrl-a` to move to the beginning of the line;
 - `ctrl-e` to move to the end of the line;
 
@@ -60,13 +60,13 @@ To effectively construct commands on the command line make use of the following 
 ## Practice
 
 Complete the following snippet, knowing that `|` is the cursor at the current position:
-```
+```bash
 # ctrl-w will ???
-$ ls| -l ~/
+ls| -l ~/
 # ctrl-k will ???
-$ ls |-l ~/
+ls |-l ~/
 # ctrl-u will ???
-$ ls -l| ~/
+ls -l| ~/
 ```
 
 * delete `ls`
@@ -89,4 +89,6 @@ ctrl-k ???
 * move to the end of the line
 * delete all the way back to the start line
 
+ 
+ 
  

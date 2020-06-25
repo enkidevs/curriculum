@@ -12,7 +12,16 @@ levels:
 type: normal
 
 category: must-know
+aspects:
+  - introduction
+  - workout
+  - deep
+standards:
 
+  python.data-structures-uses.0: 10
+  python.data-structures-uses.1: 10
+  python.native-types-operations.3: 10
+  python.use-iteration-protocol.1: 10
 
 links:
 
@@ -123,4 +132,3 @@ print(max(list3))
 ## Footnotes
 [1:Key]
 *This is exactly the same as the way keys are used in other built-in functions such as `sort` etc. For more information see the lesson on the `sorted` and `sort` functions.*
- 

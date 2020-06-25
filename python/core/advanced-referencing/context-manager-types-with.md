@@ -13,6 +13,11 @@ type: normal
 
 category: how to
 
+aspects:
+
+  - workout
+  - deep
+  - obscura
 
 links:
 
@@ -117,5 +122,3 @@ What functionality does `with` carry in a `with context as name` block in Python
 * It ensures that context object exists and if doesn't the compiler will throw an error.
 * `try/catch`
 * `exceptions`
- 
- 

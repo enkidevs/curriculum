@@ -28,8 +28,7 @@ tags:
   - deep
 
 links:
-
-  - '[SQLMag Dos and Donts of indices](http://www.itprotoday.com/microsoft-sql-server/indexing-dos-and-don-ts){website}'
+  - "[SQLMag Do's and Don'ts of indices](http://www.itprotoday.com/microsoft-sql-server/indexing-dos-and-don-ts){website}"
 
 
 aspects:
@@ -57,27 +56,26 @@ Thus, we should bear in mind the followings while creating Indices:
 ---
 ## Practice
 
-Consider the "experience" table. We want to create a non-clustered index on the "experience" column:
-```
-id  | level | experience | growth_rate_id
-====+=======+============+================
-  1 |     1 |          0 |              1
-  2 |     2 |         10 |              1
-  3 |     3 |         33 |              1
-  4 |     4 |         80 |              1
-  5 |     5 |        156 |              1
-  6 |     6 |        270 |              1
-  7 |     7 |        428 |              1
-  8 |     8 |        640 |              1
-  9 |     9 |        911 |              1
- 10 |    10 |       1250 |              1
- 11 |    11 |       1663 |              1
-...
+Consider the following table. We want to create a non-clustered index on the `experience` column:
 
+| id | level | experience | growth_rate_id |
+|----|-------|------------|----------------|
+| 1  | 1     | 0          | 1              |
+| 2  | 2     | 10         | 1              |
+| 3  | 3     | 33         | 1              |
+| 4  | 4     | 80         | 1              |
+| 5  | 5     | 156        | 1              |
+| 6  | 6     | 270        | 1              |
+| 7  | 7     | 428        | 1              |
+| 8  | 8     | 640        | 1              |
+| 9  | 9     | 911        | 1              |
+| 10 | 10    | 1250       | 1              |
+| 11 | 11    | 1663       | 1              |
+
+```sql
 ??? INDEX exp_index
 ??? experience (???);
 ```
-
 
 * CREATE
 * ON
@@ -91,20 +89,16 @@ id  | level | experience | growth_rate_id
 
 Consider the item table:
 
-```bash
-id  | cost  |    name       
-====+=======+============
-  1 |     0 | master-ball
-  2 |  1200 | ultra-ball
-  3 |   600 | great-ball
-  4 |   200 | poke-ball
+| id | cost | name        |
+|----|------|-------------|
+| 1  | 0    | master-ball |
+| 2  | 1200 | ultra-ball  |
+| 3  | 600  | great-ball  |
+| 4  | 200  | poke-ball   |
 
-    ???
-
-```
+???
 
 Suppose that `PRIMARY KEY` isn't set yet. Choose the query that will create a clustered index on the `id` column.
-
 
 * CREATE UNIQUE INDEX id_clustered ON item(id);
 * CREATE UNIQUE INDEX id_clustered ON item(cost);
@@ -116,20 +110,16 @@ Suppose that `PRIMARY KEY` isn't set yet. Choose the query that will create a cl
 
 Consider the `pokemon` table from our pokemon database:
 
-```bash
+| id  | order | height | weight | base_experience | pokemon_species_id | name      |
+|-----|-------|--------|--------|-----------------|--------------------|-----------|
+| 1   | 1     | 7      | 69     | 64              | 1                  | bulbasaur |
+| 2   | 2     | 10     | 130    | 142             | 2                  | ivysaur   |
+| 3   | 3     | 20     | 1000   | 236             | 3                  | venusaur  |
+| ... | ...   | ...    | ...    | ...             | ...                | ...       |
 
-
-  id   | order | height | weight | base_experience | pokemon_species_id |   name          
-=======|=======|========|========|=================|====================|===========
-     1 |     1 |      7 |     69 |              64 |                  1 | bulbasaur
-     2 |     2 |     10 |    130 |             142 |                  2 | ivysaur
-     3 |     3 |     20 |   1000 |             236 |                  3 | venusaur
-(...)
-
-```
 This table has thousands of entries and querying a pokemon's species is very slow. We need to speed up this common query. We want to create an index that will help us improve the efficiency of this data retrieval.
 
- ???
+???
 
 * CREATE INDEX species_to_pokemon ON pokemon(pokemon_species_id);
 * CREATE UNIQUE INDEX species_to_pokemon ON pokemon(pokemon_species_id);

@@ -1,5 +1,5 @@
 ---
-author: stefan.stojanovic
+author: Stefan-Stojanovic
 
 levels:
   - beginner
@@ -9,23 +9,19 @@ type: normal
 
 category: must-know
 
-standards:
-  web.html-forms.0: 10
-  web.html-forms.1: 10
-
 aspects:
   - introduction
   - workout
 
 links:
-  - '[MDN docs and examples for forms](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form){website}'
+  - '[HTML <form> Elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form){documentation}'
 
 ---
-# Intro form
+# Intro `<form>`
 ---
 ## Content
 
-The HTML `<form>` element is used to represent a section of a document that contains interactive controls for a user to input information. This element can automatically create a request to send to a web server, if the right attributes are specified.
+The HTML `<form>` element is used to represent a section of a document that contains interactive controls for a user to input information, like input text fields, checkboxes, and radio buttons. This element can automatically create a request to send to a web server, if the right attributes are specified.
 
 The `<form>` element has many attributes, some of them:
 
@@ -37,41 +33,21 @@ The `<form>` element has many attributes, some of them:
 
 Brief explanation:
 
-The `action` form attribute used to specify where to send the data.  
+The `action` form attribute used to specify where to send the data.
 
-The `autocomplete` attribute is used to indicate whether the values for the `input` elements will be automatically completed by the browser.  
+There are two methods used to send the data:
 - The `GET` method is used to send the form data encoded within the URL.
 - The `POST` method is used to encode the data within the message body of the HTTP request.
 
-The `name` specifies the name of the form.  
+The `autocomplete` attribute is used to indicate whether the values for the `input` elements will be automatically completed by the browser and is on by default.
 
-The `novalidate` is of type boolean, and when specified indicated that the form should not be validated.  
+The `name` specifies the name used to identify the form.
 
-Example `action`:
-```
-<form action="/submitpage.php">
-```
+The `novalidate` is of type boolean, and when specified indicated that the form should not be validated.
 
-In this example, the form is submitted to the `submitpage` page. Otherwise, if not specified, the form is submitted to the current page.
 
-Example `get` method:
-```
-<form action="" method="GET">
-  <label
-    for="age">Age:
-  </label>
-  <input
-    id="age"
-    type="text"
-    name="age">
-  <input
-    type="submit"
-    value="Submit">
-</form>
-```
-
-Example `post` method:
-```
+Basic Form Example:
+```html
 <form action="" method="POST">
   <label
     for="age">Age:
@@ -85,6 +61,10 @@ Example `post` method:
     value="Submit">
 </form>
 ```
+
+![form-intro](https://img.enkipro.com/d8f6de0fd5a595a1eef2b475dea8339e.png)
+
+[View CodePen](https://codepen.io/enkidevs/pen/MBgZxg)
 
 ---
 ## Practice

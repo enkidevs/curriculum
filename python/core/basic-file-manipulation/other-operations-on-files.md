@@ -8,7 +8,8 @@ levels:
 type: normal
 
 category: feature
-
+aspects:
+  - introduction
 standards:
   python.standard-library-operating-system.0: 10
 
@@ -43,14 +44,14 @@ Let's see how `tell()` and `seek()` work in practice, considering a dummy `file.
 ```python
 
 file = open('file.txt','r+')
-text = file.read(7);
+text = file.read(7)
 
 print('Input is: ', text)
-print('Current pos: ', file.tell());
+print('Current pos: ', file.tell())
 
-file.seek(0);
+file.seek(0)
 
-print('After seek:', file.tell());
+print('After seek:', file.tell())
 print(file.read())
 
 file.close()
@@ -107,5 +108,3 @@ Which method returns the current position of the file pointer within a **file ob
 * `seek()`
 * `open()`
 * `readline()`
- 
- 

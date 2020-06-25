@@ -1,5 +1,5 @@
 ---
-author: stefan.stojanovic
+author: Stefan-Stojanovic
 
 levels:
   - beginner
@@ -9,13 +9,6 @@ type: normal
 
 category: must-know
 
-standards:
-  web.semantic-html.0: 10
-  web.semantic-html.1: 10
-  web.semantic-html.3: 10
-  web.markup-text.2: 10
-  web.layout-html.3: 10
-
 aspects:
   - introduction
   - workout
@@ -23,23 +16,33 @@ aspects:
   - obscura
 
 links:
-  - '[MDN docs for bdi](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/bdi){website}'
+  - '[HTML <bdi> Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/bdi){documentation}'
+  - '[User Agent](https://developer.mozilla.org/en-US/docs/Glossary/user_agent){documentation}'
 
 ---
-# bdi Element
+# The `<bdi>` Element
 ---
 ## Content
 
-The HTML `<bdi>`, or **The Bidirectional Isolation element** is used to isolate a span of text that might be formatted in a different direction than other text.
+The HTML `<bdi>`, or the **Bidirectional Isolation** element, is used to isolate a span of text that might be formatted in a different direction than other text - typically working with languages from different languages whose direction is unknown.
 
-This element is also useful for text whose direction is unknown.
+For instance, you can use this on a text that is in English (written left-right), to present it in Arabic (written right-left). The '[user agent](https://developer.mozilla.org/en-US/docs/Glossary/user_agent)' detects that the text should be rendered differently and adjusts accordingly.
 
-For instance, you can use this on a text that is in English(written left-right), to present it in Arabic (written right-left). The '[user agent](https://developer.mozilla.org/en-US/docs/Glossary/user_agent)'  detects then detects that the text should be rendered differently and adjusts accordingly.
+If you don't use the `<bdi>` element when working with alphanumeric numbers and Arabic text can you see how the code doesn't display as you would expect?:
+```html
+<p>
+  User: ماثيو
+  428 points.
+</p>
+```
+The strange result would be:
 
-Also, if you want numbers displayed properly with, for instance, Arabic, you have to use the `<bdi>` element:
+![bdi-bad](https://img.enkipro.com/c6a662a610ff8d70ed198df581d9a4e0.png)
+
+In order to display the numbers properly with, for instance, Arabic, here is how the `<bdi>` element fixes this issue:
 
 Example:
-```
+```html
 <p>
   User:
   <bdi>ماثيو</bdi>
@@ -47,34 +50,15 @@ Example:
 </p>
 
 ```
-Result:
-```
-  User:
-  ماثيو
-  428 points.
-```
-On the other hand, if you don't use the `<bdi>` element, like so:
-```
-<p>
-  User:
-  ماثيو
-  428 points.
-</p>
-```
-The result would be:
-```
-  User:
-  428
-  ماثيو  
-  points.
-```
+bdi Result:
 
-**Note: The `<dir>` attribute doesn't behave normally like other attributes. When nesting with `<bdi>` it defaults to`auto`, meaning the value is never inherited from the parent. So, unless you specify an `rtl` or `ltr` attribute for `dir`, the user agent will determine the correct directionality from the content of the `<bdi>` element.**
+![bdi-good](https://img.enkipro.com/9d7a76a3500630482903190cd6c17f4c.png)
 
-By using the `unicode-bidi : isolate` CSS rule you can achieve the same effect as with the `<bdi>` element. Nevertheless, it is always better to use the `<bdi>` because it provides important semantic meaning, whereas the CSS rule is only presentational.
+[Visit CodePen](https://codepen.io/enkidevs/pen/yERBoJ)
+
+The CSS rule `unicode-bidi : isolate` can achieve the same effect as with the `<bdi>` element. Nevertheless, it is always better to use the `<bdi>` because it provides important semantic meaning, whereas the CSS rule is only presentational.
 
 This is also important because browsers can ignore CSS styling. So using `<bdi>` displays text correctly, whereas with the CSS `unicode-bidi: isolate` styling would render the text backward due to loss of styling.
-
 
 ---
 ## Practice
@@ -91,7 +75,7 @@ Which statement about the `<bdi>` element is correct?
 ---
 ## Revision
 
-Which HTML element is used to isolate a span of text that might be formatted in a different direction from other text outside it in within a multi-language document - for such languages as Arabic and Hebrew?  
+Which HTML element is used to isolate a span of text that might be formatted in a different direction from other text outside it in within a multi-language document - for such languages as Arabic and Hebrew?
 
 ???
 
@@ -109,7 +93,7 @@ Which HTML element is used to isolate a span of text that might be formatted in 
 
 Without the `<bdi>` element, what would happen to the Arabic username and the points?
 
-```
+```html
 <p>
   User: <bdi>ماثيو</bdi> 428 points.
 </p>

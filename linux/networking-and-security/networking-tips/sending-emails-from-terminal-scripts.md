@@ -1,5 +1,5 @@
 ---
-author: tuwi.dc
+author: tuwidc
 
 levels:
 
@@ -8,6 +8,9 @@ levels:
   - advanced
 
   - medium
+
+aspects:
+  - obscura
 
 type: normal
 
@@ -44,8 +47,8 @@ Firstly, acquire the packages needed:
  *libnet-ssleay-perl* and  *sendemail*.
 
 Then, you can issue it with the following syntax: 
-```
-$ sendemail -f fromuser@gmail.com \
+```bash
+sendemail -f fromuser@gmail.com \
  -t touser@domain.com \
  -u "subject" -m "message" \
  -s smtp.gmail.com \ 
@@ -53,4 +56,6 @@ $ sendemail -f fromuser@gmail.com \
  -xp gmailpassword 
 ```
 
+ 
+ 
  

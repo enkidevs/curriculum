@@ -51,7 +51,7 @@ Scripts can be specified inside *package.json*:
 And invoked using:
 
 ```bash
-$ npm run myScript
+npm run myScript
 firstScript
 ```
 
@@ -67,7 +67,7 @@ Why is this great? Say you are using CSS preprocessors like *LESS* or *SASS* and
 Running:
 
 ```bash
-$ npm run build-less
+npm run build-less
 ```
 
 Will produce the *.css* file.
@@ -91,9 +91,7 @@ This will speed up the process as two subshells will be invoked to resolve each 
 ## Practice
 
 Fill in the following `package.json` file such that it has 2 scripts:
-
-- one called `test` which will run `jest`
-- second called `test:ci` which will run the first script with `-- --runInBand` option:
+One called `test` which will run `jest` and another called `test:ci` which will run the first script with `-- --runInBand` option:
 
 ```json
 {
@@ -141,4 +139,6 @@ Given the following is in your `package.json`, execute the script called `dailyS
 * dailyStats
 * script
 * exec
+ 
+ 
  

@@ -1,5 +1,5 @@
 ---
-author: stefan.stojanovic
+author: Stefan-Stojanovic
 
 levels:
   - beginner
@@ -9,13 +9,6 @@ type: normal
 
 category: must-know
 
-standards:
-  web.semantic-html.0: 10
-  web.semantic-html.1: 10
-  web.semantic-html.3: 10
-  web.markup-text.2: 10
-  web.layout-html.3: 10
-
 aspects:
   - introduction
   - workout
@@ -23,39 +16,34 @@ aspects:
   - obscura
 
 links:
-  - '[MDN docs for bdo](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/bdo){website}'
+  - '[HTML <bdo> Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/bdo){documentation}'
 
 ---
-# bdo Element
+# The `<bdo>` Element
 ---
 ## Content
 
-The HTML `<bdo>`, or **The Bidirectional Text Override element** is used to override the current directionality of text. This means that you can have a text written in one direction, render and display in the opposite direction.
+The HTML `<bdo>`, or the **Bidirectional Text Override** element, is used to override the current directionality of text. This means that you can have text written in one direction, render and display in the opposite direction.
 
-This element has 2 element related attributes, `ltr` and `rtl`.
- - `ltr` sets text direction to Left-to-Right.
- - `rtl` sets text direction to Right-to-Left.
-
+This element can have only one attribute, `dir`, with only 2 two possible values:
+ - `ltr` sets the text direction to Left-to-Right.
+ - `rtl` sets the text direction to Right-to-Left.
 
 Example with one word:
-```
+```html
 <p>
   Play
 </p>
 <p>
-  <bdo
-    dir="rtl">Play
-  </bdo>
+  <bdo dir="rtl">Play</bdo>
 </p>
 ```
-Result:
-```
-  Play
-  yalP
-```
+Single Word Result:
+
+![bdo-play](https://img.enkipro.com/da3b981509e8c795f16933d9e872a778.png)
 
 Example with a sentence:
-```
+```html
 <p>
   The sun is shining.
 </p>
@@ -65,13 +53,15 @@ Example with a sentence:
   </bdo>
 </p>
 ```
-Result:
-```
-The sun is shining.
-.gninihs si nus ehT
-```
+Sentence Result:
+
+![bdo-sun](https://img.enkipro.com/20500383239799793b6f04b204512c10.png)
+
+[Visit CodePen](https://codepen.io/enkidevs/pen/vrVBWQ)
 
 Using this element is very useful for content presented in multiple languages. For instance, if you have a text that you want to be displayed in Arabic or Hebrew, next to translating the text, you would also use the `<bdo>` element along with its `rtl` attribute to make the text go Right-To-Left and become readable.
+
+**Note:** It's also interesting that when text in English is written Right-To-Left in a web page, and the text is copied and pasted elsewhere by a user, that text will be displayed in regular Left-To-Right. This is because the text only appears Right-To-Left because of the HTML code, and without it, the text will display as written.
 
 ---
 ## Practice

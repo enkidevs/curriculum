@@ -8,17 +8,11 @@ type: normal
 
 category: must-know
 
-inAlgoPool: false
-
-standards:
-  javascript.evaluate-expressions.10: 10
-
 tags:
   - introduction
 
 aspects:
   - introduction
-
 
 ---
 # Types - Introduction
@@ -28,39 +22,62 @@ aspects:
 
 JavaScript has the following primitive types:
 
-- undefined
-- null
-- boolean
-- number
-- string
-- symbol (new to EcmaScript 6)
+- `undefined`
+- `null`
+- `boolean`
+- `number`
+- `string`
+- `symbol`
+
+The main non-primitive type is `Object`.
 
 There are also a few special types - `Array`, `Date`, `RegExp` - that are types of `Object` but included out of the box.
 
-Unlike some other languages you do not need to tell JavaScript what type a variable is when declaring it as the interpreter will work it out for you:
-
-```javascript
-var name = "john smith";
-```
-
-You can also change a variable's type at any time:
-
-```javascript
-var x=1; //number
-x="blah"; //reassign to string
-```
-
 ### typeof
 
-You can check the type of value by using the typeof operator e.g.
+You can check the type of a value by using the `typeof` operator e.g.
 
 ```javascript
-var company="enki";
-typeof company; //string
+let company = "enki";
+typeof company; // "string"
+```
+
+### Dynamic Types
+
+Unlike some other languages you do not need to tell JavaScript what type a variable is when declaring it:
+
+```javascript
+// because we assign a string
+let name = "john smith";
+
+// JavaScript knows its a string
+typeof name; // "string"
+```
+
+Javascript's typing is dynamic which means you can also change a variable's type at any time:
+
+```javascript
+let name = "john smith";
+
+// change string to number
+name = 5;
+typeof name; // "number"
 ```
 
 ---
 ## Practice
+
+Which one of the following is **not** a primitive type:
+
+???
+
+* RegExp
+* symbol
+* string
+* number
+
+---
+## Revision
 
 Can you change a variable's type in JavaScript?
 
@@ -68,17 +85,5 @@ Can you change a variable's type in JavaScript?
 
 * yes
 * no
-* only be declaring it again
-
----
-## Revision
-
-Which one of the following is **not** a primitive type:
-
-???
-
-* RegExp
-* Symbol
-* String
-* Number
+* only if you declare it again
  

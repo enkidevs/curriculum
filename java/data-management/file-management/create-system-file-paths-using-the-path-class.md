@@ -9,12 +9,15 @@ type: normal
 
 category: how to
 
+aspects:
+
+  - introduction
+
 tags:
 
   - file-path
 
   - java-7
-
 
 links:
 
@@ -29,11 +32,11 @@ links:
 ## Content
 
 System file paths can be represented in Java by using the `Path` class. For example, a path can be created using the `Paths.get()` method:
-```
+```java
 Path p = Paths.get("/u/me/tmp/myfile.txt");
 ```
 Here is an alternate form for specifying a path. `System.getProperty("user.home")` is used to find the local home directory.
-```
+```java
 Path p = Paths.get(
   System.getProperty("user.home"),
   "tmp", 
@@ -69,5 +72,3 @@ FileSystems.getDefault()
 * `Paths.get(/myDocs/diary.txt);`
 * `Path.get("/myDocs/diary.txt");`
 * `Path.getPath("/myDocs/diary.txt");`
-
- 

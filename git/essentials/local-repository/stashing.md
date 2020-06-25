@@ -9,12 +9,16 @@ type: normal
 
 category: must-know
 
-inAlgoPool: false
+aspects:
 
+  - introduction
+  - deep
+  
+inAlgoPool: false
 
 links:
 
-  - '[git-scm.com](https://git-scm.com/book/en/v1/Git-Tools-Stashing){website}'
+  - '[Git Tools Stashing](https://git-scm.com/book/en/v1/Git-Tools-Stashing){website}'
 
 
 ---
@@ -32,7 +36,7 @@ The key to this feature is the **Git** command `git stash`.
 
 If you have some modified files, you can check on them with `git status`:
 ```bash
-$ git status
+git status
 # ...
 # Changes to be committed:
 #    modified: enki.txt
@@ -40,61 +44,61 @@ $ git status
 ```
 
 To stash your changes:
-```
-$ git stash
+```bash
+git stash
 # Saved working directory and index state
 # HEAD is not at e0bb942 ...
 ```
 
 Checking again, the working directory is clean:
-```
-$ git status
+```bash
+git status
 # On branch master
 # You branch is up-to-date with
 # 'origin/master' ...
 ```
 
 You can see all your stashed changes:
-```
-$ git stash list
+```bash
+git stash list
 # stash@{0}: WIP on master: 049d078 ...
 # stash@{1}: WIP on master: 21d80a5 ...
 ```
 
 To apply the latest stashed changes[2]:
-```
-$ git stash apply
+```bash
+git stash apply
 ```
 
 To apply a specific stashed set of changes, you must specify its name:
-```
-$ git stash apply stash@{2}
+```bash
+git stash apply stash@{2}
 ```
 
 
 You can also remove from the stash stack:
-```
-$ git stash drop stash@{0}
+```bash
+git stash drop stash@{0}
 ```
 
 To both _apply_ and _drop_ the stash, the `pop` command can be used:
-```
-$ git stash pop
+```bash
+git stash pop
 ```
 
 ---
 ## Practice
 
 Complete the code snippet below so it removes the most recent set of changes in the stash:
-```
-$ git stash ??? ???@???
+```bash
+git stash ??? ???@???
 ```
 
 
 * `drop`
 * `stash`
-* `{1}`
 * `{0}`
+* `{1}`
 * `list`
 * `pop`
 * `status`
@@ -103,8 +107,8 @@ $ git stash ??? ???@???
 ## Revision
 
 Complete the command below such as the most recent set of changes in the stash are applied:
-```
-$ ??? ??? ???
+```bash
+??? ??? ???
 ```
 
 
@@ -127,8 +131,10 @@ Commits in the **stash** are counted from index `0`; more recent commits, with a
 
 [2:apply]
 **Git** will update (modifying) the files uncommitted or unstaged when the stash was saved. Keep in mind that the staged files are not re-staged. To do that you must use the `--index` flag:
-```
-$ git stash --index
+```bash
+git stash --index
 ```
 The `apply` and `pop` can be used within **any** branch.  In this way you can move changes to another branch
+ 
+ 
  

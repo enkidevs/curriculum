@@ -1,21 +1,18 @@
 ---
 author: tommarshall
 
-levels:
-
-  - basic
-
-  - beginner
-
 type: normal
 
-category: must-know
+category: feature
 
+aspects:
+  - introduction
+  - workout
+  - deep
 
 links:
 
-  - '[developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/API/FileReader/readAsText){website}'
-
+  - '[Official Documentation](https://developer.mozilla.org/en-US/docs/Web/API/FileReader/readAsText){documentation}'
 
 ---
 
@@ -26,16 +23,18 @@ links:
 
 The `readAsText()` method is used to read text files. It takes two parameters, the first is the file or blob object to read. The second is the encoding of the file, by default this is UTF-8.
 
-
 Creating a new instance of File Reader.
+
 ```javascript
-var reader = new FileReader();
+let reader = new FileReader();
 ```
-Reading the text file. 
+
+Reading the text file.
+
 ```javascript
 reader.onload = function(e) {
-  var text = reader.result;
-}
+  let text = reader.result;
+};
 reader.readAsText(file, encoding);
 ```
 
@@ -46,7 +45,7 @@ Read from a text file:
 
 ```
 reader.onload = function(e) {
-   var text = reader.???;
+  let text = reader.???;
 }
 reader.readAsText(file, ???);
 ```
@@ -66,9 +65,9 @@ reader.readAsText(file, ???);
 
 Read from a text file:
 ```
-var reader = new FileReader();
+let reader = new FileReader();
 reader.onload = function(e) {
-  var text = reader.result;
+  let text = reader.result;
 }
 
 ???.???(file,encoding);
@@ -82,5 +81,4 @@ reader.onload = function(e) {
 * `readText`
 * `readFile`
 * `file`
-
  

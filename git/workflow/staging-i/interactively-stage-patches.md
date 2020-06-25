@@ -9,10 +9,14 @@ type: normal
 
 category: feature
 
+aspects:
+
+  - workout
+  - deep
 
 links:
 
-  - '[git-scm.com](http://git-scm.com/book/en/v2/Git-Tools-Interactive-Staging){website}'
+  - '[Interactive Staging](http://git-scm.com/book/en/v2/Git-Tools-Interactive-Staging){documentation}'
 
 
 ---
@@ -23,10 +27,10 @@ links:
 ## Content
 
 To partially stage a file:
-```
-$ git add -p
+```bash
+git add -p
 # or
-$ git add --patch
+git add --patch
 ```
 Alternatively, when performing an interactive stage, you can type `5` (patch) in the interactive shell.
 
@@ -40,8 +44,8 @@ You can then choose yes `y`, no `n` or other options such as skipping a hunk.
 ## Revision
 
 Complete the following code snippet to partially stage a file:
-```
-$ ??? ??? ???
+```bash
+??? ??? ???
 ```
 
 * git
@@ -50,4 +54,6 @@ $ ??? ??? ???
 * -patch
 * stage
 
+ 
+ 
  

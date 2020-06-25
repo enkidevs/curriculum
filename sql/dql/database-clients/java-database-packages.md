@@ -1,10 +1,8 @@
 ---
-author: Nick Daminov
+author: nickdaminov
 
 levels:
-
   - basic
-
   - medium
 
 type: normal
@@ -18,25 +16,16 @@ standards:
   sql.connect-client.1: 10
 
 tags:
-
-
-  - workout
-
   - java
-
   - implementation
-
   - database packages
 
-
 links:
-
   - '[Why JDBC](https://www.progress.com/faqs/datadirect-jdbc-faqs/why-do-we-need-jdbc){website}'
   - '[Oracle Statement on JDBCs](http://www.oracle.com/technetwork/java/index-138427.html#13){website}'
   - '[Postgres JDBC driver](https://jdbc.postgresql.org/about/about.html){website}'
   - '[Java Driver Interface](https://docs.oracle.com/javase/7/docs/api/java/sql/Driver.html){website}'
   - '[More Examples](https://www.tutorialspoint.com/postgresql/postgresql_java.htm){website}'
-
 
 aspects:
   - workout
@@ -62,7 +51,7 @@ public class Main {
   try {
    Class.forName(
      "org.postgresql.Driver");
-   //connecting to the DB
+   // connecting to the DB
    c = DriverManager
     .getConnection("
        jdbc:postgresql://
@@ -74,34 +63,36 @@ public class Main {
      database successfully");
 
    stmt = c.createStatement();
-   //querying the DB
+   // querying the DB
    ResultSet rs = stmt.executeQuery(
      "SELECT * FROM pokemon_color;");
-   //iterating through the query result
+   // iterating through the query result
    while ( rs.next() ) {
     int id = rs.getInt("id");
     String name = rs.getString("name");
     System.out.println("ID = " + id );
     System.out.println("NAME = "+name);
    }
-   //now we are finished with the task
+   // now we are finished with the task
    rs.close();
    stmt.close();
    c.close();
   } catch ( Exception e ) {
-   //in case the connection failed
-   //or the query could not get executed
+   // in case the connection failed
+   // or the query could not get executed
    System.err.println(
-     e.getClass().getName()+": "
-     + e.getMessage() );
-     System.exit(0);
+    e.getClass().getName()+": "
+    + e.getMessage() );
+    System.exit(0);
   }
   System.out.println("Operation done
-                      successfully");
+    successfully");
   }
 }
 ```
+
 The result of the following code should be similar to:
+
 ```
 Opened database successfully
 ID = 1
@@ -127,8 +118,6 @@ NAME = yellow
 Operation done successfully
 ```
 
-**NOTE: Bookmark this insight, and try connecting to the database on your own!**
-
 ---
 ## Practice
 
@@ -152,6 +141,7 @@ c = DriverManager.getConnection
 ## Revision
 
 What is a database driver?
+
 ???
 
 * It is a library in a certain language and it is specific to a certain DBMS

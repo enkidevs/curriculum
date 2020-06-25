@@ -1,5 +1,5 @@
 ---
-author: stefan.stojanovic
+author: Stefan-Stojanovic
 
 levels:
   - beginner
@@ -9,23 +9,21 @@ type: normal
 
 category: must-know
 
-standards:
-  web.html-forms.2: 10
-
 aspects:
   - workout
   - deep
   - obscura
 
+links:
+
 ---
-# Method
+# The `formmethod` Attribute
 ---
 ## Content
 
 In HTML the `formmethod` form input attribute is used to specify which HTTP method will be used when sending the form-data.
 
-If the `formmethod` attribute is specified it will override the `method` attribute.
-It can be used with `type"submit"` and `type"image"` attributes.
+If the `formmethod` attribute is specified it will override the `method` attribute. It can be used with `type="submit"` and `type="image"` attributes.
 
 There are two possible values for the `formmethod` attribute.
  - `method="get"`
@@ -33,19 +31,18 @@ There are two possible values for the `formmethod` attribute.
 
 The `method="get"` appends form data to the URL when submitted.
 The method is useful for when the user wants to bookmark the result.
-It is not good to use the `method="get"` to pass sensitive information. If passed with this method the information will be visible in the browsers address bar.
+It is not good to use the `method="get"` for password sensitive information. If passed with this method, the information will be visible in the browsers address bar.
 
 The `method="post"` does not append to the URL, but rather sends the form data as an HTTP post transaction.
 
-
 Example:
-```
+```html
 <form
   action="/action.php"
    method="get">
   Full name:
    <input type="text"
-     name="fname"><br>
+     name="fname">
   <input
     type="submit" value="Submit">
   <input
@@ -54,13 +51,16 @@ Example:
 </form>
 ```
 
+![form-formmethod](https://img.enkipro.com/a62935af0423c1dadcb8fb2a2afef465.png)
+
+[View CodePen](https://codepen.io/enkidevs/pen/QxzJXd)
 
 ---
 ## Practice
 
 Match the possible values with their description related to the method attribute.
 
-```
+```html
 <form
   action="file1.php" method="get">
 </form>

@@ -1,32 +1,20 @@
 ---
-author: tuwi.dc
+author: tuwidc
 
-levels:
-
-  - basic
-
-  - medium
+aspects:
+  - workout
 
 type: normal
 
 category: how to
 
-tags:
-
-  - linux
-
-  - wget
-
-  - rate
-
-  - limit
-
-  - terminal
-
-  - download
-
-
-
+tags:	
+  - linux	
+  - wget	
+  - rate	
+  - limit	
+  - terminal	
+  - download	
 
 ---
 
@@ -37,9 +25,8 @@ tags:
 
 You can limit the download rate of the `wget` command to avoid band saturation.
 
-
 ```
-$ wget --limit-rate 128k 
+wget --limit-rate 128k 
                 http://server/file.iso
 ```
 
@@ -50,15 +37,17 @@ $ wget --limit-rate 128k
 
 Limit the download rate for `file.iso`  to 1MB:
 ```
-$ ??? ??? ??? 
+??? ??? ??? 
       http://server.com/file.iso
 ```
 
 * `wget`
-* `—limit-rate`
+* `--limit-rate`
 * `1m`
 * `1MB`
 * `-L`
 * `ds`
 
+ 
+ 
  

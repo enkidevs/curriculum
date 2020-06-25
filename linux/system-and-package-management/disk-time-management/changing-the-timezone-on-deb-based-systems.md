@@ -1,5 +1,5 @@
 ---
-author: tuwi.dc
+author: tuwidc
 
 levels:
 
@@ -8,6 +8,9 @@ levels:
   - medium
 
   - beginner
+
+aspects:
+  - workout
 
 type: normal
 
@@ -38,8 +41,8 @@ tags:
 ## Content
 
 To change the timezone on your Debian based system you can issue the following and an interactive menu will appear in the terminal:
-```
-$ sudo dpkg-reconfigure tzdata
+```bash
+sudo dpkg-reconfigure tzdata
 ```
 
 You can also switch `UTC/GMT` using that same command.
@@ -48,8 +51,8 @@ You can also switch `UTC/GMT` using that same command.
 ## Practice
 
 Change the system’s timezone:
-```
-$ ??? ??? ???
+```bash
+??? ??? ???
 ```
 
 * `sudo`
@@ -63,8 +66,8 @@ $ ??? ??? ???
 ## Revision
 
 On Debian systems, you can change the system’s timezone by running:
-```
-$ sudo ??? ???
+```bash
+sudo ??? ???
 ```
 
 * `dpkg-reconfigure`
@@ -72,4 +75,6 @@ $ sudo ??? ???
 * `dpkg`
 * `reconfigure`
 
+ 
+ 
  

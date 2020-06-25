@@ -10,7 +10,10 @@ levels:
 type: normal
 
 category: must-know
-
+aspects:
+  - introduction
+  - workout
+  - deep
 standards:
   python.testing.1: 10
   python.testing.5: 10
@@ -101,5 +104,3 @@ Mock objects are
 ## Footnotes
 [1: patch decorator]
 It makes it easy to mock classes or objects in a module under test. The object you specify will be replaced with a mock (or other object) during the test and restored when the test ends.
- 
- 

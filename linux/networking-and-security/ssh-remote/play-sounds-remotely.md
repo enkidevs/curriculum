@@ -7,6 +7,9 @@ levels:
 
   - medium
 
+aspects:
+  - obscura
+
 type: normal
 
 category: how to
@@ -27,8 +30,8 @@ You can play a local file on a remote machine using the powerful combination of 
 However, you must have the permission to do that. This is by default `true` on most distros (including **Ubuntu**), but for example on **Fedora** you must be logged in on the server.
 
 The command is:
-```
-$ ssh user@enki 'mpg321 -' < my_sound.mp3
+```bash
+ssh user@enki 'mpg321 -' < my_sound.mp3
 ```
 
 This will play `my_sound.mp3` on the remote machine. 
@@ -47,4 +50,6 @@ You can decode `.mp3` in terminal with
 * mplay
 * sound
 
+ 
+ 
  

@@ -15,6 +15,8 @@ tags:
 
   - interpreter
 
+aspects:
+  - introduction
 
 links:
 
@@ -28,7 +30,7 @@ links:
 ---
 ## Content
 
-The interactive interpreter can be closed conventionally using _CTRL-D_. 
+The interactive interpreter can be closed conventionally using _CTRL-D_.
 
 However, this can also be accomplished programmatically:
 
@@ -77,4 +79,3 @@ What is the key stroke for exiting python interpreter (REPL)?
 * "Esc"
 * "CTRL-E"
 * exit()
- 

@@ -31,6 +31,76 @@ of Ecmascript before they reach the ground.
 ES5:ES6
 
 ```false
+
+undefined
+%exp
+In **JavaScript**, variables which have never been assigned a value are `undefined` variables.
+%
+
+Array
+%exp
+The JavaScript `Array` object is used for the construction and manipulation of arrays.
+
+It was standardized before ES6.
+%
+
+Number
+%exp
+The `number` object represents a set of all possible integer values including the special “Not-a-Number” (NaN) values, positive infinity and negative infinity.
+
+It was standardized before ES6.
+%
+
+var
+%exp
+**JavaScript** has implemented `var`, which enables users to declare a variable of any type.
+It was introduced before ES6.
+%
+
+null
+%exp
+The first version to support `null` is ES1.
+%
+
+if (key in object)
+%exp
+The in operator matches all object keys, including those in the object's prototype chain.
+
+It was standardized before ES6.
+%
+
+Math.PI
+%exp
+This is library which comes in hand when more complex calculations are needed.
+
+It is supported since ES1.1.
+%
+
+void
+%exp
+A void function is a function that has no return values.
+
+It was standardized before ES6.
+%
+
+typeof
+%exp
+Returns the type of the checked object.
+
+It was introduced before ES6.
+%
+
+instanceof
+%exp
+Returns the instance of the checked object.
+
+ES3 was the first version to support it.
+%
+
+```
+
+```true
+
 class
 %exp
 Classes are, in fact, "special functions” and they are composed of two main parts: class declaration and class expression.
@@ -142,75 +212,6 @@ Object.freeze
 Prevents new properties from being added to the object, prevents existing properties from being removed and prevents existing properties from being changed.
 
 It was introduced in ES6.
-%
-
-```
-
-```true
-
-undefined
-%exp
-In **JavaScript**, variables which have never been assigned a value are `undefined` variables.
-%
-
-Array
-%exp
-The JavaScript `Array` object is used for the construction and manipulation of arrays.
-
-It was standardized before ES6.
-%
-
-Number
-%exp
-The `number` object represents a set of all possible integer values including the special “Not-a-Number” (NaN) values, positive infinity and negative infinity.
-
-It was standardized before ES6.
-%
-
-var
-%exp
-**JavaScript** has implemented `var`, which enables users to declare a variable of any type.
-It was introduced before ES6.
-%
-
-null
-%exp
-The first version to support `null` is ES1.
-%
-
-if (key in object)
-%exp
-The in operator matches all object keys, including those in the object's prototype chain.
-
-It was standardized before ES6.
-%
-
-Math.PI
-%exp
-This is library which comes in hand when more complex calculations are needed.
-
-It is supported since ES1.1.
-%
-
-void
-%exp
-A void function is a function that has no return values.
-
-It was standardized before ES6.
-%
-
-typeof
-%exp
-Returns the type of the checked object.
-
-It was introduced before ES6.
-%
-
-instanceof
-%exp
-Returns the instance of the checked object.
-
-ES3 was the first version to support it.
 %
 
 ```

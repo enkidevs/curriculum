@@ -18,7 +18,11 @@ standards:
   python.data-structures-uses.5: 10
   python.native-types-operations.4: 10
   python.store-manipulate-data.3: 10
-
+aspects:
+  - introduction
+  - workout
+  - deep
+  - obscura
 links:
 
   - '[docs.python.org](https://docs.python.org/2/library/stringprep.html){website}'
@@ -94,5 +98,3 @@ import stringrep
 * `table_c1_1`
 * `rfc`
 * `rfc3454`
- 
- 

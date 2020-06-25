@@ -7,6 +7,10 @@ levels:
 
   - beginner
 
+aspects:
+  - introduction
+  - workout
+
 type: normal
 
 category: must-know
@@ -28,7 +32,7 @@ The `ping` command will continuously send a tiny bit of internet traffic to a re
 Here is an example:
 
 ```shell
-$ ping google.com
+ping google.com
 PING google.com (172.217.0.238)
   56(84) bytes of data.
 64 bytes from 172.217.0.238:
@@ -46,7 +50,6 @@ PING google.com (172.217.0.238)
   0% packet loss, time 4001ms
 rtt min/avg/max/mdev =
   0.822/0.871/0.905/0.044 ms
-$
 ```
 
 The `ping` command will continue to do this until it is stopped.  The `time=` field is the most important.  This particular machine is getting a response back from `google.com` in about 1 millisecond, which is very fast.  `ping` will also give an overall summary of the "ping session", which includes the number of ping packets sent, the percentage of packets lost, and various statistics about the round trip time (`rtt`).
@@ -56,7 +59,7 @@ Keep in mind that latency has to do with both the quality of your connection and
 For example, if I ping `www.duma.ru`, the website for the Russian State Parliament (Duma), we get much higher ping times:
 
 ```shell
-$ ping duma.ru
+ping duma.ru
 PING duma.ru (212.11.128.31)
   56(84) bytes of data.
 64 bytes from duma.ru (212.11.128.31):
@@ -72,18 +75,17 @@ PING duma.ru (212.11.128.31)
   20% packet loss, time 4005ms
 rtt min/avg/max/mdev =
   149.660/149.811/149.946/0.484 ms
-$
 ```
 
 ---
 ## Practice
 
-`ping` will send ??? and count the time until the
+The `ping` command will send ??? and count the time until the
 
 ???.
 
 * data
-* server’s response
+* server responds
 * connection fails
 * your public key
 
@@ -98,4 +100,6 @@ Based on the distance, which server would respond to pings faster?
 * a distant one
 * the distance isn’t relevant
 
+ 
+ 
  

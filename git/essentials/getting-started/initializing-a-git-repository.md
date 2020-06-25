@@ -9,12 +9,16 @@ type: normal
 
 category: must-know
 
+aspects:
+
+  - introduction
+  
 inAlgoPool: false
 
 
 links:
 
-  - '[www.atlassian.com](https://www.atlassian.com/git/tutorials/setting-up-a-repository/){website}'
+  - '[Setting up a Repository Official Documentation](https://www.atlassian.com/git/tutorials/setting-up-a-repository/){website}'
 
 
 ---
@@ -31,13 +35,12 @@ There are two primary ways to include a project under **Git** control:
 
  From within a project's directory:
 ```bash
-$ cd myAwesomeProject
-
+cd myAwesomeProject
 ```
 
 You can simply:
 ```bash
-$ git init 
+git init 
 ```
 
 This will create a (hidden) `.git` subdirectory, enabling **Git** to manage your source files.
@@ -45,7 +48,7 @@ This will create a (hidden) `.git` subdirectory, enabling **Git** to manage your
 ---
 ## Practice
 
-What will running `$ git init` do?
+What will running `git init` do?
 
 ???
 
@@ -69,4 +72,6 @@ What command is used to initialize **Git** for a project?
 * `git initalize`
 * `git initalise`
 
+ 
+ 
  

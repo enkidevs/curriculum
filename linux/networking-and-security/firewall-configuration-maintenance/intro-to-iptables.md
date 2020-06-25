@@ -1,9 +1,12 @@
 ---
-author: tuwi.dc
+author: tuwidc
 
 levels:
 
   - basic
+
+aspects:
+  - deep
 
 type: normal
 
@@ -18,8 +21,9 @@ tags:
   - security
 
   - netfilter
-
-
+ 
+links:
+  - '[iptables(8) - Linux man page](https://linux.die.net/man/8/iptables){website}' 
 
 notes: ''
 
@@ -40,30 +44,30 @@ These rules are further structured into *chains*[1]. They can be created as need
 - FORWARD[4]
 
 To list current rules:
-```
-$ iptables -L -n
+```bash
+iptables -L -n
 ```
 
 To list NAT[5] rules:
-```
-$ iptables -L -n -t nat
+```bash
+iptables -L -n -t nat
 ```
 
 Block traffic from a specific IP:
-```
-$ iptables -I INPUT -s 10.10.10.10  \
+```bash
+iptables -I INPUT -s 10.10.10.10  \
  -j DROP
 ```
 
 Allow traffic from a specific IP:
-```
-$ iptables -I INPUT -s 10.10.10.10 \
+```bash
+iptables -I INPUT -s 10.10.10.10 \
  -j ACCEPT
 ```
 
 Allow traffic to a specific port:
-```
-$ iptables -I INPUT -p tcp -m tcp \
+```bash
+iptables -I INPUT -p tcp -m tcp \
 --dport 31415 -j ACCEPT
 
 ```
@@ -75,12 +79,11 @@ as opposed to the `-A` flag that appends. The `-j` flag (jump) is used to specif
 ## Practice
 
 Append a new rule to the INPUT chain that blocks packets from 132.154.32.101
-```
-$ ??? ??? ???
+```bash
+??? ??? ???
     -s ???
     ??? DROP
 ```
-
 
 * `iptables`
 * `-A`
@@ -106,6 +109,7 @@ Which of the following chains is not a default one?
 
 ---
 ## Footnotes
+
 [1:Chains]
 A set of rules a packet is checked against sequentially.
 [2:Input]
@@ -116,4 +120,6 @@ This chain handles traffic created by your server.
 This chain contains rules for traffic that would just pass through your sever and not stop there.
 [5:NAT rules]
 They allow rewriting of the source addresses of the traffic. Typically, they are used by *Untangle* servers which change the the IP address of the machine that made the request to the one of the server and then "untangles" it back to the machine when the response arrives.
+ 
+ 
  

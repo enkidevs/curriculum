@@ -13,11 +13,13 @@ type: normal
 
 category: must-know
 
+aspects:
+  - introduction
+  - workout
 
 links:
 
-  - '[MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/display){documentation}'
-  - '[link to learn more](https://enki.com){website}'
+  - '[MDN Docs on Display](https://developer.mozilla.org/en-US/docs/Web/CSS/display){documentation}'
 
 
 ---
@@ -29,7 +31,7 @@ links:
 
 `visibility:hidden` defines that an element is rendered on the page but not visible. Space on the page will be allocated for this element.
 
-```
+```css
 #foo {
   visibility:hidden;
 }
@@ -37,7 +39,7 @@ links:
 
 `display:none` defines that an element is not rendered on the page and thus does not appear. Unlike `visibility:hidden`, page space is not allocated for the element, allowing other elements to fill in.
 
-```
+```css
 #foo {
   display:none;
 }
@@ -54,14 +56,14 @@ Which of those properties won’t preserve the space allocated for the element?
 
 ???
 
-* `display: none` 
-* `visibility: hidden` 
-* neither
+* `display: none`
+* `visibility: hidden`
+* `neither`
 
 ---
 ## Revision
 
-Which of the following is the definition for display:none?
+Which of the following is the definition for `display:none`?
 
 ???
 
@@ -69,4 +71,3 @@ Which of the following is the definition for display:none?
 * The element is rendered on the page but does not appear, page space is allocated.
 * The element is not rendered on the page so consequently does not appear, page space is allocated.
 * The element is rendered on the page but does not appear, page space is not allocated.
-

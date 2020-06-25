@@ -8,8 +8,7 @@ insights:
   - built-in-exceptions
   - debugging-with-print
   - python-debugger
+  - python-debugger-ii
 
 exercises:
   - py-practice-control-statement
-  - py-practice-syntax
- 

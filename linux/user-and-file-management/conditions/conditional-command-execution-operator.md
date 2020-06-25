@@ -7,6 +7,10 @@ levels:
 
   - beginner
 
+aspects:
+  - introduction
+  - workout
+
 type: normal
 
 category: must-know
@@ -30,8 +34,8 @@ Use the `&&` operator to execute two consecutive commands in order.
 The second command will only be executed if the first one is successful.
 
 
-```
-$ mkdir newFolder && cd newFolder
+```bash
+mkdir newFolder && cd newFolder
 ```
 
 
@@ -47,4 +51,6 @@ The above creates *newFolder* and cd into it.
 * fails
 * is not found
 
+ 
+ 
  

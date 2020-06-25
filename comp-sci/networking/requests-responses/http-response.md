@@ -15,6 +15,9 @@ type: normal
 
 category: must-know
 
+aspects:
+
+  - introduction
 
 links:
 
@@ -31,7 +34,7 @@ parent: a-request-example
 ## Content
 
 After receiving and interpreting a request, the **server** sends back a response to the **client**. The usual response syntax is:
-```text
+```plain-text
 Status-Line
 (general-header or
   request-header or
@@ -41,7 +44,7 @@ Message-Body
 ```
 
 The `Status-Line` contains:
-```text
+```plain-text
 HTTP-Version Status-Code Code-Description
 CRLF
 ```
@@ -99,4 +102,3 @@ The first line in an HTTP response is usually called
 A resource makes a cross-origin HTTP request when it requests a resource from a different domain, or port than the one which the first resource itself serves. You might find this process abbreviated as CORS (cross-origin resource sharing).
 
 The **Access-Control-Allow-Origin** mechanism indicates which domains are allowed to be requested from.
- 

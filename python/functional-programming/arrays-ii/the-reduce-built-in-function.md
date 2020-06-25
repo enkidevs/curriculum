@@ -10,7 +10,16 @@ levels:
 type: normal
 
 category: must-know
+aspects:
+  - introduction
+  - workout
+  - deep
+standards:
 
+  python.data-structures-uses.0: 10
+  python.data-structures-uses.1: 10
+  python.native-types-operations.3: 10
+  python.use-iteration-protocol.1: 10
 
 links:
 
@@ -124,4 +133,3 @@ print(reduce(lambda x, y: x / y, numbers))
 ## Footnotes
 [1:Functional Programming]
 *The style of programming that eschews imperative loops such as for loops is called functional programming. For more information about functional programming and Python, see the related workout, since the topic is too broad to cover in one lesson.*
- 

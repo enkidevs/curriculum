@@ -2,16 +2,17 @@
 author: SebaRaba
 
 levels:
-
   - beginner
+
+aspects:
+  - introduction
+  - workout
 
 type: normal
 
 category: must-know
 
-
 links:
-
   - '[more on generators](http://www.python-course.eu/python3_generators.php){website}'
 
 

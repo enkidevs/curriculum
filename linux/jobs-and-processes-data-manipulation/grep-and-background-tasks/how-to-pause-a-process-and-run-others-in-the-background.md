@@ -9,6 +9,10 @@ levels:
 
   - beginner
 
+aspects:
+  - introduction
+  - workout
+
 type: normal
 
 category: must-know
@@ -33,7 +37,7 @@ links:
 ```
 CTRL+Z  # pauses an application
 ```
-```
+```bash
 fg # returns you to the
    # most recent application
 
@@ -41,8 +45,8 @@ bg # sends a paused process
    # to run in the background
 ```
 Let's say you've opened a file in `nano` (terminal text editor) like this :
-```
-$ nano abc.txt
+```bash
+nano abc.txt
 ```
 
 Midway through typing text into the file you realise that you need to quickly type another command into the terminal. 
@@ -51,26 +55,26 @@ All you really have to do is press `Ctrl-Z` which will force the foreground appl
 
 
 If you have more than one paused process, you can list them with:
-```
-$ jobs
+```bash
+jobs
 [1]+   Stopped     nano abc.txt
 #^jobID
 ```
 This will return the process ID that you can use to bring it back to the foreground:
-```
-$ fg %jobID
+```bash
+fg %jobID
 ```
 Or make it run in the background:
-```
-$ bg %jobID
+```bash
+bg %jobID
 ```
 Or kill it:
-```
-$ kill processID
+```bash
+kill processID
 ```
 The difference between *job IDs* and *process IDs* is that jobs are specific to a shell. Therefore, the job ID and process ID for the same process might differ:
-```
-$ jobs -l
+```bash
+jobs -l
 [1]+  3720  Stopped   nano abc.txt 
 #     ^processID
 ```
@@ -79,11 +83,11 @@ $ jobs -l
 ## Practice
 
 Make the paused process 3 run in the background and bring paused process 2 to the foreground:
-```
-#process 3
-$ ??? ??? 
-#process 2
-$ ??? ??? 
+```bash
+# process 3
+??? ??? 
+# process 2
+??? ??? 
 ```
 
 * `bg`
@@ -104,4 +108,6 @@ Bringing the most recently paused process to the front is done by running
 * `pop`
 * `start -fg`
 
+ 
+ 
  

@@ -13,11 +13,13 @@ type: normal
 
 category: feature
 
+aspects:
 
+  - introduction
+  
 links:
 
-  - '[swsblog.stanford.edu](https://swsblog.stanford.edu/blog/cherry-picking-small-git-lesson){website}'
-
+  - '[Cherry Picking Small Git Lesson](https://swsblog.stanford.edu/blog/cherry-picking-small-git-lesson){website}'
 
 ---
 
@@ -26,12 +28,12 @@ links:
 ---
 ## Content
 
-Cherry-picking is the method to apply a single, specific commit from another branch.
+Cherry-picking is a method to apply a single, specific commit from another branch.
 
 For example:
-```
-$ git checkout master
-$ git cherry-pick a456bd7
+```bash
+git checkout master
+git cherry-pick a456bd7
 # merge commit a456bd7 (from another branch)
 # with branch master
 ```
@@ -49,12 +51,14 @@ The commit cherry-picked in the example was applied on ???.
 ## Revision
 
 To apply a *single* commit (from another branch) on the current branch, you use
-```
-$ git ??? a456bd7
+```bash
+git ??? a456bd7
 ```
 
 * `cherry-pick`
 * `pick`
 * `merge`
 
+ 
+ 
  

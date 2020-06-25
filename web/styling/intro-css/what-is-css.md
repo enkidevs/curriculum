@@ -7,15 +7,18 @@ levels:
 
 type: normal
 
+aspects:
+  - introduction
+
 category: must-know
 
 inAlgoPool: false
 
 
 links:
-
-  - '[MDN](https://developer.mozilla.org/en-US/docs/Glossary/CSS){documentation}'
-  - '[www.theodinproject.com](http://www.theodinproject.com/courses/web-development-101#section-the-front-end){website}'
+  - '[Scrimba Introduction to CSS](https://scrimba.com/p/pWvwCg/c3vBJu2){website}'
+  - '[MDN Docs on CSS](https://developer.mozilla.org/en-US/docs/Glossary/CSS){documentation}'
+  - '[Web Development 101](http://www.theodinproject.com/courses/web-development-101#section-the-front-end){website}'
 
 
 ---

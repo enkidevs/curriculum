@@ -13,10 +13,15 @@ type: normal
 
 category: best practice
 
+aspects:
+
+  - deep
+  - workout
+
 
 links:
 
-  - '[ponyfoo.com](https://ponyfoo.com/articles/git-github-hacks){website}'
+  - '[Git and Github Hacks](https://ponyfoo.com/articles/git-github-hacks){website}'
 
 
 ---
@@ -29,10 +34,10 @@ links:
 If you contribute to an open source project, e.g., by submitting a pull request with a bug fix, it should be presented as one unit of code.
 
 You should **squash** your commits together. For example, if you have three commits:
-```
+```bash
 git reset HEAD~3
-git add 
-git commit -am "Fix bug #14."
+git add .
+git commit -am "Fix bug #14"
 git push --force
 ```
 The `--force` option is needed if the commits have already been pushed, for them to be replaced. **Beware** that this overwrites the previous history so always avoid when possible.

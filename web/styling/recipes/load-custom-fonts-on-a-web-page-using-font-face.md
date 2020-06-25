@@ -11,6 +11,10 @@ levels:
 
 type: normal
 
+aspects:
+  - workout
+  - deep
+
 category: how to
 
 tags:
@@ -22,7 +26,7 @@ tags:
 
 links:
 
-  - '[css-tricks.com](https://css-tricks.com/snippets/css/using-font-face/){website}'
+  - '[Article on @font-face](https://css-tricks.com/snippets/css/using-font-face/){article}'
 
 
 ---
@@ -85,4 +89,3 @@ When using custom fonts with `@font-face`, `sans-serif` is considered to be the
 * italic font
 * next font
 * inline font
-

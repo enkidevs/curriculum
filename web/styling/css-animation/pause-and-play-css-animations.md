@@ -11,12 +11,14 @@ type: normal
 
 category: how to
 
+aspects:
+  - workout
+  - deep
 
 links:
 
-  - '[tympanus.net](http://tympanus.net/codrops/css_reference/animation-play-state/){website}'
-
-notes: 'http://www.sitepoint.com/12-little-known-css-facts/'
+  - '[Tutorial on Animations](http://tympanus.net/codrops/css_reference/animation-play-state/){article}'
+  - '[12 Little Known CSS Tips](http://www.sitepoint.com/12-little-known-css-facts/){article}'
 
 ---
 
@@ -42,7 +44,7 @@ Setting it to _paused_ stops your animation in place, until you change `animatio
 ## Practice
 
 How do you restart an animation?
-```
+```css
 .animation:hover{
   ???:
         ???;
@@ -57,7 +59,7 @@ How do you restart an animation?
 ---
 ## Revision
 
-What are the two states which can pause or play CSS animations? 
+What are the two states which can pause or play CSS animations?
 
 ???
 
@@ -65,4 +67,3 @@ What are the two states which can pause or play CSS animations?
 * Start and stop.
 * Paused and playing.
 * Running and stop.
-

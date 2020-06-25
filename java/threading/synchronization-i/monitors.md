@@ -9,11 +9,15 @@ type: normal
 
 category: pattern
 
+aspects:
+
+  - workout
+
+  - deep
 
 links:
 
   - '[More on Monitors](https://stackoverflow.com/questions/7335950/semaphore-vs-monitors-whats-the-difference){website}'
-
 
 ---
 
@@ -28,7 +32,7 @@ We can think of a **monitor** as being is a class instance which methods are mut
 
 Example of such class implementation:
 
-```
+```java
 class MonitorExample {
   private int counter = 0;
 
@@ -57,7 +61,6 @@ What is the highest class synchronization pattern?
 
 ???
 
-
 * Monitor
 * Lock
 * Mutex
@@ -74,11 +77,8 @@ What is the key concept of a monitor?
 
 ???
 
-
 * A high class structure that provides synchronized functionality accessible by many threads
 * To provide synchronized functionality by mutually exclusive methods
 * To provide more fancy output unlike punchcards and LEDs
 * A pattern that allows multiple threads to use certain functionality at a single time
 * A piece of hardware used to display information from a computer to the user
-
- 

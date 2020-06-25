@@ -39,12 +39,11 @@ In Unix, every process has three standard streams: `stdin`, `stdout`, and `stder
 To do this we use the pipe operator `|`.  Here is a simple example:
 
 ```shell
-$ ps ax | grep mysql
+ps ax | grep mysql
 2922 ?        S      0:00
     /bin/sh /usr/bin/mysqld_safe
 3164 ?        Sl   204:21
     /usr/sbin/mysqld
-$
 ```
 
 On its own, the `ps ax` command writes a list of currently-running processes to `stdout`.  On its own, the `grep mysql` command reads from `stdin` and writes all input lines containing "mysql" to `stdout`.
@@ -55,8 +54,8 @@ Together, we get a single "pipeline" that lists all currently-running processes 
 ## Revision
 
 Print the lines which contain `eth0` by pipelining `ifconfig` ‘s output :
-```
-$ ??? ??? ??? eth0
+```bash
+??? ??? ??? eth0
 ```
 
 * `ifconfig`
@@ -65,4 +64,6 @@ $ ??? ??? ??? eth0
 * `>`
 * `>>`
 
+ 
+ 
  

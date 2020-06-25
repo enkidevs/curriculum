@@ -11,6 +11,9 @@ type: normal
 
 category: how to
 
+aspects:
+  - introduction
+
 tags:
 
   - css
@@ -19,12 +22,10 @@ tags:
 
   - border-style
 
-  - 
-
 
 links:
 
-  - '[developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/CSS/border-style){website}'
+  - '[MDN Docs on Border Style](https://developer.mozilla.org/en-US/docs/Web/CSS/border-style){website}'
 
 
 ---
@@ -57,4 +58,3 @@ Which of the following is not a `border-style`? ???
 * `ridge`
 * `double`
 * `dashed`
-

@@ -1,5 +1,5 @@
 ---
-author: tuwi.dc
+author: tuwidc
 
 levels:
 
@@ -29,6 +29,7 @@ parent: set-file-permissions-for-users
 notes: Approved by Jordan
 
 aspects:
+  - introduction
   - workout
 
 
@@ -100,4 +101,6 @@ should be used for that particular file.
 ## Footnotes
 [1:Directory permision]
 The `+x` bit for a directory allows the user to `cd` into it and access its inner files.
+ 
+ 
  

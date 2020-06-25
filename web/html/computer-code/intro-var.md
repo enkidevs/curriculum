@@ -1,5 +1,5 @@
 ---
-author: stefan.stojanovic
+author: Stefan-Stojanovic
 
 levels:
   - beginner
@@ -9,58 +9,42 @@ type: normal
 
 category: must-know
 
-standards:
-  web.semantic-html.0: 10
-  web.semantic-html.1: 10
-  web.semantic-html.3: 10
-  web.markup-text.2: 10
-  web.layout-html.3: 10
-
 aspects:
   - introduction
   - workout
   - deep
 
 links:
-  - '[MDN Docs for var](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/var){website}'
+  - '[HTML <var> Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/var){documentation}'
 
 ---
-# Intro var
+# Intro `<var>`
 ---
 ## Content
 
-In HTML the `<var>` element is used to represent a name of a variable in either a programming context or a mathematical expression.
-
-**Note:**
-  - **var stands for The Variable element.**
-  - **Both the starting and ending tags are necessary.**
+The HTML `<var>`, or the **Variable** element, is used to represent a name of a variable in either a programming context or a mathematical expression.
 
 Example:
-```
-<p>
- <var>X</var> >
- <var>Y</var>
+```html
+<p><var>X</var> = 10<br>
+ <var>Y</var> = 2
+<p>As you can see:
+ <var>X</var> > <var>Y</var>
 </p>
 ```
 
-Result:
-<p>
- <var>X</var> &gt;
- Y
-</p>
+Variable Result:
 
-In the example above, the `<var>` element is used to create an inline element and to denote variable names in a mathematical expression.
+![var-element](https://img.enkipro.com/aa99d6d64982986f6483d1ff0cc8fa1b.png)
 
-The default text style for the `<var>` element for most browsers is monospace and <i>italic</i>.
+The default text style for the `<var>` element for most browsers is both monospace and italic.
 
-However, you can edit this by using CSS like so:
+By adding CSS styles, the `<var>` element can be used to present variables in much better ways.
 
-```
-var {
-  font: bold 20px "Times New Roman",
-  Times, serif;
-}
-```
+![var-element-style](https://img.enkipro.com/2015fe3ff38303e757e8f246d7c5b1a1.png)
+
+[View CodePen](https://codepen.io/enkidevs/pen/QxZZWR)
+
 
 ---
 ## Practice
@@ -69,11 +53,11 @@ Which statement is not true about using the `<var>` element?
 
 ???
 
- * represents user input
- * represents a variable in a mathematical expression
- * represents a variable in a programming context
- * produces an inline element
- * Default text style is italic.
+* represents user input
+* represents a variable in a mathematical expression
+* represents a variable in a programming context
+* produces an inline element
+* Default text style is both monospace & italic.
 
 
 ---
@@ -96,11 +80,11 @@ What HTML element is best to display mathematical expressions or a programming c
 
 ### How much do you know about HTML elements?
 
-Which HTML element is best to substitute for "tag" within this code:  
+Which HTML element is best to substitute for "tag" within this code:
 
 `<p>`A simple equation: `<tag>`x`</tag>` = `<tag>`y`</tag>` + 2`</p>`
 
-???
+tag=???
 
 * var
 * samp

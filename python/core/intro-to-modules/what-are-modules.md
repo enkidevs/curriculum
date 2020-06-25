@@ -8,7 +8,9 @@ levels:
 type: normal
 
 category: must-know
-
+aspects:
+  - introduction
+  - workout
 standards:
   python.modules.0: 10
   python.modules.2: 10
@@ -41,12 +43,12 @@ Each module, in order to be recognized by the interpreter, has to have the `.py`
 Consider the python file `my_adder.py`. Plainly, this **module**'s name is `my_adder`.
 
 ```python
-# consider module in adder.py:
+# consider module in my_adder.py:
 
 def add(a, b):
-    sum = a + b
-    print("The sum is: ", sum)
-    return sum
+  sum = a + b
+  print("The sum is: ", sum)
+  return sum
 ```
 
 Note that within each module, its name is dynamically available through the global variable `__name__`.
@@ -80,5 +82,3 @@ Which of the following options would better describe a module in Python?
 ## Footnotes
 [1:modular programming]
 Modular programming is a software design technique that emphasizes separating the functionality of a program into independent, interchangeable modules, such that each contains everything necessary to execute only one aspect of the desired functionality.
- 
- 

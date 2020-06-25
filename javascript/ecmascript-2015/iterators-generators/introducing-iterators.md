@@ -1,19 +1,18 @@
 ---
 author: alexjmackey
 
-levels:
-  - medium
-  - advanced
-
 type: normal
 
 category: must-know
 
-inAlgoPool: false
+aspects:
+  - introduction
+  - new
+  - workout
 
 links:
-  - '[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Iteration_protocols){website}'
-  - '[ponyfoo.com](https://ponyfoo.com/articles/es6-iterators-in-depth){website}'
+  - '[Iteration Protocols](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Iteration_protocols){documentation}'
+  - '[Iterators in Depth](https://ponyfoo.com/articles/es6-iterators-in-depth){website}'
 
 ---
 # Introducing Iterators
@@ -26,19 +25,19 @@ An iterator is a special type of object that returns items from a sequence one a
 A sequence can be anything but for simplicity let's imagine we have an array of numbers from 1 to 5:
 
 ```javascript
-[1,2,3,4,5];
+[1, 2, 3, 4, 5];
 ```
 
 Whilst we could easily write a loop to iterate through these numbers let's write a function to return an iterator to do this.
 
 ```javascript
 function getIterator(){
- var num = [1,2,3,4,5];
- var nextIndex = 0;
+ let num = [1,2,3,4,5];
+ let nextIndex = 0;
 
  return {
   next: function(){
-   var x = num[nextIndex];
+   let x = num[nextIndex];
    nextIndex++;
    return {
     value: x
@@ -57,7 +56,7 @@ We then return an object with a next method that will retrieve a value at the cu
 We can use this iterator as follows:
 
 ```javascript
-var it = getIterator();
+let it = getIterator();
 it.next(); //Object {value: 1}
 it.next(); //Object {value: 2}
 it.next(); //Object {value: 3}

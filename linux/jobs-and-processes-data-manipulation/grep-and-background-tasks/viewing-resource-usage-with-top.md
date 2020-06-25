@@ -7,6 +7,10 @@ levels:
 
   - beginner
 
+aspects:
+  - introduction
+  - workout
+
 type: normal
 
 category: must-know
@@ -27,7 +31,7 @@ Whereas `ps` will display a snapshot of the currently-running processes, the `to
 
 Here is some example output from `top`, sorted by memory usage.  The `...` represent columns deleted in order to make the output fit:
 
-```text
+```plain-text
 PID   USER   ...  %CPU %MEM    TIME+ COMMAND
 14944 jesse  ...  0.0  9.5  17:03.55 ruby
 14947 jesse  ...  0.0  9.2  17:03.19 ruby
@@ -45,7 +49,7 @@ You can read `man top` to learn about all the ways to configure the display.  On
 ---
 ## Practice
 
-In contrast to `ps` , `top` displays processes 
+In contrast to `ps` , `top` displays processes
 
 ??? .
 
@@ -58,7 +62,7 @@ In contrast to `ps` , `top` displays processes
 ---
 ## Revision
 
-To display the processes running in real time, you would use 
+To display the processes running in real time, you would use
 
 ???.
 
@@ -66,5 +70,3 @@ To display the processes running in real time, you would use
 * ps
 * ms
 * procstat
-
- 

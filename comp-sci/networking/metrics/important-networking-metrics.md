@@ -15,6 +15,9 @@ type: normal
 
 category: must-know
 
+aspects:
+
+  - introduction
 
 links:
 
@@ -34,7 +37,7 @@ parent: extended-terminologies
 
 This is also the case in *computer networks* where metrics can help us identify underlying problems, enhance connections or even decide for the most suitable Internet plans.
 
-The effective performance of a network is defined by the combination of different metrics which may vary because each network is unique in its nature and design.[1] 
+The effective performance of a network is defined by the combination of different metrics which may vary because each network is unique in its nature and design.[1]
 
 However, there are some standard and relevant measurements applicable to any network:
  - `bandwidth` - maximum rate at which information can be transferred
@@ -82,4 +85,4 @@ Which of the following metrics define maximum rate that information can be trans
 It's not mandatory to measure performance. Instead it can also be modelled and simulated.
 
 One such example is using state transition diagrams to model queuing performance using a **network simulator**.
- 
+

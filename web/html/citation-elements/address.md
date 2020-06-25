@@ -1,5 +1,5 @@
 ---
-author: stefan.stojanovic
+author: Stefan-Stojanovic
 
 levels:
   - beginner
@@ -11,42 +11,39 @@ category: must-know
 
 stub: true
 
-standards:
-  web.semantic-html.0: 10
-  web.semantic-html.1: 10
-  web.semantic-html.3: 10
-
 aspects:
   - introduction
   - workout
   - deep
 
 links:
-  - '[MDN docs for address](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/address){website}'
+  - '[HTML <address> element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/address){documentation}'
 
 ---
-# Address
+# The `<address>` Element
 ---
 ## Content
 
-The HTML `<address>` element is used to provide contact information about the author. This element is displayed as a block element and has a default styling like the `<i>` and `<em>` elements.
+The HTML `<address>` element is used to provide contact information about the author. This element is displayed as a block element and has a default styling like the `<i>` and `<em>` elements (the text is italic).
+
+![address](https://img.enkipro.com/9ec8992af472e5a9d37e0d1f01a1d69a.png)
 
 This element can contain different types of content:
   - Physical address
-  - Url
+  - URL
   - E-mail address
   - Phone number
   - Geographical coordinates
   - And more...
 
-The content of the `<address>` element should include the name of the person, people or organization to which the contact information refers.
+The content of the `<address>` element should include the name of the person, people, or organization to which the contact information refers.
 
-Example:
-```
+Address Example:
+```html
 <address>
   Authors Email:
-  <a href="http://www.website.com/contact">
-    www.website.com
+  <a href="http://www.web.com/contact">
+    www.web.com/contact
   </a>.<br>
   Author address:<br>
   Company name<br>
@@ -55,6 +52,8 @@ Example:
   Country
 </address>
 ```
+
+[View CodePen](https://codepen.io/enkidevs/pen/OEoaVN)
 
 Beside representing contact information about the author of the document, the `<address>` element can be used with different types of context. When placed within a `<body>` element it represents information about the document. When placed within an `<article>` element it represents information about an article.
 

@@ -9,11 +9,15 @@ type: normal
 
 category: must-know
 
+aspects: 
+
+  - introduction
+
+  - workout
 
 links:
 
   - '[More on VarArgs](https://stackoverflow.com/questions/7607353/how-to-create-java-method-that-accepts-variable-number-of-arguments){website}'
-
 
 ---
 
@@ -77,5 +81,3 @@ What is *VarArgs*?
 * It is a concept of passing an unlimited number of arguments to a function.
 * It is a concept of unlimited array with variable number of arguments.
 * It is a concept of passing arguments of various types to a function.
-
- 

@@ -9,11 +9,15 @@ type: normal
 
 category: how to
 
+aspects:
+
+  - workout
+
+  - deep
 
 links:
 
   - '[More on the Thread Class](https://docs.oracle.com/javase/8/docs/api/java/lang/Thread.html){website}'
-
 
 ---
 
@@ -25,7 +29,8 @@ links:
 The easier way of creating a thread is by extending the `Thread` class since we inherit a lot of functionality from it:
 
 Simply:
-```
+
+```java
 public class ThisIsThread
            extends Thread {
   @Override
@@ -34,14 +39,14 @@ public class ThisIsThread
       System.out.println("thread is
                       running" + i);
     }
-    System.out.println("Finished!);
+    System.out.println("Finished!");
   }
 }
 ```
 
 Then in the `main` function:
 
-```
+```java
 public class Main {
   public static void main(String[] args) {
     //instantiating a new thread
@@ -73,7 +78,6 @@ Should a thread object be passed to an instance of a `Thread` class?
 
 ???
 
-
 * `run()`
 * `start()`
 * No
@@ -88,8 +92,5 @@ When we create an object which extends `Thread` do we need to pass this object t
 
 ???
 
-
 * No, as it is a thread itself
 * Yes, as it is only a runnable object
-
- 

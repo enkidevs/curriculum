@@ -1,5 +1,5 @@
 ---
-author: stefan.stojanovic
+author: Stefan-Stojanovic
 
 levels:
   - beginner
@@ -9,9 +9,6 @@ type: normal
 
 category: must-know
 
-standards:
-  web.embed-media.3: 10
-
 aspects:
   - introduction
   - workout
@@ -19,10 +16,10 @@ aspects:
 
 links:
   - '[A walkthrough on w3schools](https://www.w3schools.com/tags/tag_embed.asp){documentation}'
-  - '[Official documentation on MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/embed){documentation}'
+  - '[MDN: <embed> Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/embed){documentation}'
 
 ---
-# Embed
+# The `<embed>` Element
 
 ---
 ## Content
@@ -30,7 +27,7 @@ links:
 In HTML you can use the `<embed>` element to embed an external application or a plug-in(like Adobe Flash Player) to your web page or document.
 
 Example:
-```
+```html
 <embed type="video/quicktime"
     src="dancing_stick-man.mov"
       width="360" height="360">
@@ -42,7 +39,7 @@ The `<embed>` element was introduced in HTML5. It has to have a starting tag and
 
 **Important:**
   - **Not all mobile devices support plug-ins.**
-  - **Many modern browsers have deprecated and removed the support for plug-ins, so using the `<embed>` element is not that good anymore.**
+  - **Many modern browsers have deprecated and removed the support for plug-ins, so using the `<embed>` element is no longer recommended.**
   - **For implementing audio you should use the `<audio>` element, and for implementing video you should use the `<video>` element.**
 
 
@@ -84,3 +81,4 @@ The `<embed>` element is new in which version of HTML?
 * HTML4
 * XHTML
 * DHTML
+ 

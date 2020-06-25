@@ -8,7 +8,8 @@ levels:
 type: normal
 
 category: must-know
-
+aspects:
+  - introduction
 standards:
   python.object-oriented.6: 10
 
@@ -19,7 +20,7 @@ standards:
 ---
 ## Content
 
-To use a class, you must create an instance of a class. Take the previous class:
+To use a class, you must create an instance of a class. Take the following class:
 ```python
 class Employee:
   count = 0
@@ -41,9 +42,9 @@ When creating an instance of a class, the `__init__` function is called and this
 Any instance of the class can then access the class methods:
 ```python
 john.print_idnum()
-# 1
+# John is employee no. 1
 emily.print_idnum()
-# 2
+# Emily is employee no. 2
 ```
 
 ---
@@ -89,5 +90,3 @@ class Car:
 * instance attribute
 * class variable
 * instance variable
- 
- 

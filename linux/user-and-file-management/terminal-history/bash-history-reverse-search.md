@@ -1,5 +1,5 @@
 ---
-author: tuwi.dc
+author: tuwidc
 
 levels:
 
@@ -31,7 +31,6 @@ notes: ''
 
 aspects:
   - workout
-  - workout
 
 
 ---
@@ -60,4 +59,6 @@ Bash reverse search is triggered by ??? .
 * search -r
 * search -r
 
+ 
+ 
  

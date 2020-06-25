@@ -1,5 +1,5 @@
 ---
-author: stefan.stojanovic
+author: Stefan-Stojanovic
 
 levels:
   - beginner
@@ -9,24 +9,22 @@ type: normal
 
 category: must-know
 
-standards:
-  web.html-forms.7: 10
-  web.html-forms.8: 10
-
 aspects:
   - introduction
   - workout
   - deep
 
+links:
+
 ---
-# Multiple
+# The `multiple` Attribute
 ---
 ## Content
 
-When setting HTML input form attributes, you can set the `multiple` attribute. When this attribute is specified, the user is allowed to enter more than one value. This attribute is applied only if the form input is of type `email` or `file`.
+When setting HTML input form attributes, you can set the `multiple` attribute to allow the user to enter more than one value for input types `email` and/or `file`.
 
 Example:
-```
+```html
 <form
    action="/action_page.php">
   Select images:
@@ -36,11 +34,13 @@ Example:
 </form>
 ```
 
-In the example above we have allowed to user to input multiple pictures at once, instead of one by one.
+![form-multiple](https://img.enkipro.com/2b91c43fdc92604442f64d6299748dce.png)
+
+[View CodePen](https://codepen.io/enkidevs/pen/yqBreR)
+
+In the example above we have allowed the user to input multiple pictures at once, instead of one by one. The user can select multiple files by pressing down ctrl or shift when selecting.
 
 If the input type is set to `email` the user can enter multiple emails by separating them with a comma. Like so: firstmail@example.com, secondmail@example.com, thirdmail@example.com, etc.
-
-If the input type is set to `file` the user can select multiple files by pressing down ctrl or shift when selecting.
 
 ---
 ## Practice
@@ -59,7 +59,7 @@ Which statement is not true regarding the `multiple` attribute within forms?
 
 Which form attribute is used to allow the user the option to enter more than one value in an input element, such as input and file?
 
-```
+```html
 <form action="file.php">
  Select images:
   <input type="file"
@@ -81,8 +81,6 @@ Which form attribute is used to allow the user the option to enter more than one
 ### How much do you know about HTML input form attributes?
 
 Which statement is not true regarding the `multiple` input form attribute?
-
-???
 
 * Works with data input type, separated by semicolons.
 * When present, more than one value can be added in the `<input>` element.

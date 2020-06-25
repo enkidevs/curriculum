@@ -9,6 +9,10 @@ type: normal
 
 category: how to
 
+aspects:
+
+  - introduction
+
 tags:
 
   - directories
@@ -21,11 +25,9 @@ tags:
 
   - iterator
 
-
 links:
 
   - '[docs.oracle.com](https://docs.oracle.com/javase/tutorial/essential/io/dirs.html){website}'
-
 
 ---
 
@@ -34,7 +36,7 @@ links:
 ---
 ## Content
 
-```
+```java
 Path dir = Paths.get("home/dir");
 DirectoryStream<Path> stream =
   Files.newDirectoryStream(dir);
@@ -50,7 +52,7 @@ for(Path file: stream) {
 ## Revision
 
 Obtain a `DirectoryStream` collection:
-```
+```java
 Path dir = Paths.("path/dir");
 ???<Path> stream =
    ???
@@ -62,5 +64,3 @@ Path dir = Paths.("path/dir");
 * `newDirectoryStream(dir)` 
 * `newDirectoryStream()` 
 * `File`
-
- 

@@ -12,7 +12,9 @@ type: normal
 category: feature
 
 inAlgoPool: false
-
+aspects:
+  - introduction
+  - workout
 
 links:
 
@@ -123,5 +125,3 @@ a = ???.???
 * `constants`
 * `e`
 * `3.14`
- 
- 

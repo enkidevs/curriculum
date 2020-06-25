@@ -20,6 +20,9 @@ links:
 
 parent: easy-way-to-deliver-html-pages-with-express
 
+aspects:
+  - introduction
+
 ---
 # response object additional properties in **Express**
 
@@ -116,4 +119,4 @@ res.???(???);
 * cookie
 * toJSON
 * sendJSON
- 
+

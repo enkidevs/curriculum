@@ -9,6 +9,9 @@ type: normal
 
 category: must-know
 
+aspects:
+
+  - introduction
 
 links:
 
@@ -26,7 +29,7 @@ notes: 'https://insights.enki.com/#/contrib/others/55c833563f06ab320051aa89?sear
 *Java 5* introduced a new concept of auto converting *primitive types* into their corresponding *wrapper* classes and vice-versa.
 
 `Autoboxing` represents automatic conversion of *primitive type*  to the object of their corresponding *wrapper* classes.
-```
+```java
 // the conversion is automatic
 Integer num1 = 3;
 Double num2 = 2.3;
@@ -85,4 +88,3 @@ What is the wrapper class of primitive `int` ?
 * “integer5”
 * “int5integer5”
 * Nothing
- 

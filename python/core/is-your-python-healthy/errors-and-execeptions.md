@@ -8,7 +8,10 @@ levels:
 type: normal
 
 category: must-know
-
+aspects:
+  - introduction
+  - workout
+  - deep
 standards:
   python.native-types-operations.10: 10
   python.identify-python-syntax.2: 10
@@ -20,7 +23,7 @@ links:
 
 ---
 
-# Errors and Excpetions
+# Errors and Exceptions
 
 ---
 ## Content
@@ -34,8 +37,8 @@ value = 5
 return value
 
 # File "test", line 2
-#   value = 12
-#      ^
+#   value = 5
+#   ^
 # IndentationError: expected
 #         an indented block
 ```
@@ -85,11 +88,8 @@ def sum():
 Which of the following is an alternative name for compile time errors?
 ???
 
-
+* `syntax errors`
 * `exceptions`
 * `bugs`
 * `errors`
-* `syntax errors`
 * `parse errors`
- 
- 

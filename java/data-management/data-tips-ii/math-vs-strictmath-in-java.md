@@ -11,16 +11,15 @@ type: normal
 
 category: feature
 
-tags:
+aspects:
 
-  - 
+  - introduction
 
+  - obscura
 
 links:
 
   - '[stackoverflow.com](http://stackoverflow.com/questions/4232231/whats-the-difference-between-java-lang-math-and-java-lang-strictmath){website}'
-
-notes: ''
 
 ---
 
@@ -54,5 +53,3 @@ What java class related to mathematics have its function not defined to return t
 
 * `Math` 
 * `StrictMath`
-
- 

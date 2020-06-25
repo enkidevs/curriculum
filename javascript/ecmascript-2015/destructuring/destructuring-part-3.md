@@ -8,10 +8,19 @@ type: normal
 
 category: feature
 
+aspects:
+
+  - introduction
+  - new
+  - workout
+
 inAlgoPool: false
 
 links:
   - '[MDN](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment){website}'
+
+standards:
+  javascript.destructuring.0: 10
 
 ---
 # Destructuring (Part 3)
@@ -27,14 +36,14 @@ We can use destructuring to easily copy an array when combining it with the spre
 
 ```javascript
 var myArray;
-[...myArray]=[1,2,3];
+[...myArray] = [1, 2, 3];
 // myArray=[1,2,3]
 ```
 
 If the source object to use for destructuring contains more values than you need you don’t necessarily have to use all of them either:
 
 ```javascript
-var myArray= [1, 2, 3, 4];
+var myArray = [1, 2, 3, 4];
 var [x, y, z] = myArray;
 //x=1, y=2, z=3;
 ```
@@ -55,6 +64,7 @@ Fill in the gaps such that the variables will have the commented value:
 ```javascript
 let x, y, z;
 [??? ??? ???] = [5, 10, 15]
+console.log(x)
 // x == 5
 console.log(y)
 // y == undefined
@@ -64,12 +74,12 @@ console.log(z)
 
 * x,
 * ,
-* ,z
+* z
 * x
 * y
 * ,y
 * y,
-* z
+* ,x
 
 ---
 ## Revision
@@ -78,7 +88,7 @@ What will be the value of `x`, `y` and `z`?
 
 ```javascript
 let x, y, z;
-[x, ,z] = [10, 20, 30];
+[x, , z] = [10, 20, 30];
 // x = ???
 // y = ???
 // z = ???
@@ -96,4 +106,3 @@ let x, y, z;
 * null
 * [10]
 * [30]
- 

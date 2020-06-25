@@ -40,17 +40,17 @@ Linters, precompilers and testing frameworks are examples of packages that shoul
 
 You can check the exact location by running:
 ```bash
-$ npm bin
+npm bin
 /home/user/project/node_modules/.bin
 ```
 Add an extra `-g` flag (`--global`) to check where global packages are installed:
 ```bash
-$ npm bin
+npm bin -g
 /usr/local/bin
 ```
 There isn't a predefined command for listing the available binaries, but you can manually do it using *ls*:
 ```bash
-$ ls node_modules/.bin/
+ls node_modules/.bin/
 babel   mocha    phantomjs
 coffee  nodemon  semver
 ```
@@ -60,9 +60,8 @@ coffee  nodemon  semver
 
 You can find out the exact location of available binaries with:
 ```bash
-$ ??? ???
+??? ???
 ```
-
 
 * npm
 * bin
@@ -81,4 +80,6 @@ A package binary file is needed for
 * importing the module
 * publishing the module
 * explaining the functionalities of the module
+ 
+ 
  

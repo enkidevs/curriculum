@@ -10,7 +10,10 @@ levels:
 type: normal
 
 category: must-know
-
+aspects:
+  - introduction
+  - workout
+  - deep
 standards:
   python.testing.1: 10
   python.testing.4: 10
@@ -68,7 +71,7 @@ Text documentation (`"Test for numbers:"`, `"Test for chars:"`) isn't taken into
 
 Running **doctests** without any flag won't generate any output if the *tests pass*. If the flag `-v` is passed as an argument, a **detailed log** will be printed:
 ```bash
-$ python doctest_mock.py -v
+python doctest_mock.py -v
 ```
 The output:
 ```python
@@ -112,10 +115,10 @@ def sum(a, b):
 ```
 
 * sum
-* (1 + 1)
+* (1, 1)
 * a + b
 * 1 + 1
-* (a + b)
+* (a, b)
 
 
 ---

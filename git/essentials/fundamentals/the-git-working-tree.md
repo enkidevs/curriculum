@@ -9,13 +9,14 @@ type: normal
 
 category: must-know
 
+aspects:
+  - introduction
+  
 inAlgoPool: false
 
 
 links:
-
-  - '[git-scm.com](https://git-scm.com/book/en/v2/Getting-Started-Git-Basics){website}'
-
+  - '[Git Basics Official Documentation](https://git-scm.com/book/en/v2/Getting-Started-Git-Basics){website}'
 
 ---
 
@@ -26,7 +27,7 @@ links:
 
 During the development process, a project can grow to thousands of files.
 
-Those files you are currently working on - and changes that may not be committed as part of a **Git** repository - constitute the **working tree**.  Some of these files _may be_ part of a previous commit, but in a different form.
+Those files you are currently working on - and changes that may or may not be committed as part of a **Git** repository - constitute the **working tree**.  Some of these files _may be_ part of a previous commit, but in a different form.
 
 The **working tree** represents files that have been **created**, **updated** or **modified** and diverge from the contents of the most recent commit.
 

@@ -7,6 +7,10 @@ levels:
 
   - beginner
 
+aspects:
+  - introduction
+  - workout
+
 type: normal
 
 category: must-know
@@ -28,7 +32,7 @@ When you request data over the internet, the traffic doesn't flow directly betwe
 To see all the "hops" between your machine and some remote machine we can use the `traceroute` command.  Here is an example of the output:
 
 ```shell
-$ traceroute google.com
+traceroute google.com
 traceroute to google.com (216.58.194.174), 
   64 hops max, 52 byte packets
  1  192.168.1.254 (192.168.1.254)
@@ -60,7 +64,6 @@ traceroute to google.com (216.58.194.174),
  9  sfo07s13-in-f14.1e100.net 
     (216.58.194.174)
     15.199 ms  16.632 ms  14.472 ms
-$
 ```
 
 Each line corresponds to one "hop."  By default `traceroute` sends out three packets per hop and displays the round trip time for each of the three packets, corresponding to the three times displayed.
@@ -95,4 +98,6 @@ If a particular connection is slow, you can check the *hops* of the packets betw
 * ls
 * packetroute
 
+ 
+ 
  

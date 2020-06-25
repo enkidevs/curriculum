@@ -1,5 +1,5 @@
 ---
-author: tuwi.dc
+author: tuwidc
 
 levels:
 
@@ -45,8 +45,8 @@ aspects:
 ## Content
 
 Use the `stat` command to get a file's permissions in octal form:
-```
-$ stat -c "%a %n" file
+```bash
+stat -c "%a %n" file
 ```
 
 From the man page of `stat`:
@@ -56,13 +56,13 @@ From the man page of `stat`:
 %n     File name
 ```
 Examples for files:
-```
-$ stat -c "%a %n" .ssh/id_rsa 
+```bash
+stat -c "%a %n" .ssh/id_rsa 
 600 .ssh/id_rsa
 ```
 Folders:
-```
-$ stat -c "%a %n" /var/www
+```bash
+stat -c "%a %n" /var/www
 755 /var/www/
 ```
 
@@ -70,8 +70,8 @@ $ stat -c "%a %n" /var/www
 ## Revision
 
 You can use `stat` to get file permissions in octal form as:
-```
-$ stat ??? ??? ???
+```bash
+stat ??? ??? ???
 ```
 
 * `-c`
@@ -80,4 +80,6 @@ $ stat ??? ??? ???
 * `”%c %n”`
 * `-oc`
 
+ 
+ 
  

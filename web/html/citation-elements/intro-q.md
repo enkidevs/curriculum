@@ -1,5 +1,5 @@
 ---
-author: stefan.stojanovic
+author: Stefan-Stojanovic
 
 levels:
   - beginner
@@ -9,30 +9,25 @@ type: normal
 
 category: must-know
 
-standards:
-  web.semantic-html.0: 10
-  web.semantic-html.1: 10
-  web.semantic-html.3: 10
-
 aspects:
   - introduction
   - workout
   - deep
 
 links:
-  - '[MDN docs for q](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/q){website}'
+  - '[HTML <q> Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/q){documentation}'
 
 ---
-# Intro q
+# Intro `<q>`
 ---
 ## Content
 
-The HTML `<q>`, or **The Inline Quotation element** is used for indicating short quotations. This element is displayed as an inline element and is typically used for short quotations that don't require paragraph breaks. On the other hand, if you need a larger quotation, you should use the `<blockquote>` element.
+The HTML `<q>`, or the **Inline Quotation** element, is used for indicating short quotations. This element is displayed as an inline element and is typically used for short quotations that don't require paragraph breaks. On the other hand, if you need a larger quotation, you should use the `<blockquote>` element.
 
-Furthermore, most browsers implement the `<q>` element by placing quotation marks.
+Most browsers display the `<q>` element by placing quotation marks around the content.
 
 Example:
-```
+```html
 <p>
   <cite>
     Carrie Bradshaw
@@ -45,22 +40,18 @@ Example:
 </p>
 ```
 
-Result:
-```
-  Carrie Bradshaw
-  said
-  " Shopping is my cardio "
-  and that is pretty awesome.
-```
+Quote Result:
 
-Even though most modern browsers automatically add quotations for the `<q>` element, some older browsers may require a style rule to be added for quotation marks to appear.
+![q-element](https://img.enkipro.com/377c590f47e82022e7b3d27d90ec4a20.png)
+
+[View CodePen](https://codepen.io/enkidevs/pen/gKBYJO)
 
 ---
 ## Practice
 
 Which statements about the `<q>` element is not correct?
 
-```
+```html
 <p>
   <cite>
     Carrie Bradshaw
@@ -86,7 +77,7 @@ Which statements about the `<q>` element is not correct?
 
 What is the most appropriate HTML element to use here?
 
-```
+```html
 <p> As
   <cite>Ron Burgundy</cite>
   shouted

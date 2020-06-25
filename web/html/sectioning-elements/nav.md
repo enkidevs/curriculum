@@ -1,5 +1,5 @@
 ---
-author: stefan.stojanovic
+author: Stefan-Stojanovic
 
 levels:
   - beginner
@@ -9,45 +9,43 @@ type: normal
 
 category: must-know
 
-standards:
-  web.layout-html.0: 10
-  web.semantic-html.0: 10
-  web.semantic-html.1: 10
-  web.semantic-html.3: 10
-
 aspects:
   - introduction
   - workout
   - deep
 
 links:
-  - '[MDN docs for nav](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/nav){website}'
-  - '[W3S docs for nav](https://www.w3schools.com/tags/tag_nav.asp){website}'
+  - '[MDN: <nav> Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/nav){documentation}'
+  - '[W3S: <nav> Element](https://www.w3schools.com/tags/tag_nav.asp){documentation}'
 
 ---
-# Nav element
+# The `<nav>` element
 
 ---
 ## Content
 
-The HTML `<nav>` element is used to represent a section of the page. The purpose of this section is to provide navigational links, table of contents, previous/next buttons or breadcrumbs.
+The HTML `<nav>` element is used to group the navigation of the page, such as primary website navigational links, table of contents, previous/next buttons, or breadcrumbs.
 
 Example:
-```
+```html
 <nav>
-  <a href="/page1/">Page1</a> |
-  <a href="/page2/">Page2</a> |
-  <a href="/page3/">Page3</a> |
-  <a href="/page4/">Page4</a> |
-  <a href="/page10/">Page10</a>
+  <a href="index.html">Home</a>
+  <a href="about.html">About</a>
+  <a href="contact.html">Contact</a>
 </nav>
 ```
 
-**Note: Not all links should be inside a `<nav>` element. The `<nav>` element is indented for major blocks of navigational links. For instance, the footer element can contain links that don't go in the `<nav>` element.**
+![nav-styled](https://img.enkipro.com/ec9d5b4c1730d77c5dfa0dc9527c8946.png)
 
-You can also have multiple `<nav>` elements in your web page or document. One for the website navigation and one for page navigation.
+The `<nav>` container doesn't have any visual style without CSS. The CSS in this example may be a bit complex at this time, but hopefully it inspires you to learn more CSS!
 
-The `<nav>` element is also used with screen readers who target disabled users. They use this element to determine whether the initial rendering of navigation only content should be omitted.
+[View CodePen](https://codepen.io/enkidevs/pen/MBeKBe)
+
+**Note:** Not all links should be inside a `<nav>` element. The `<nav>` element is intended for major blocks of navigational links. For instance, links within the content of articles don't need to be wrapped within the `<nav>` element.
+
+Multiple `<nav>` elements can be placed within the web page or document, when appropriate.
+
+The `<nav>` element is also important for screen readers of visually disabled users. They use this element to determine whether the initial rendering of navigation-only content should be omitted.
 
 ---
 ## Practice
@@ -56,11 +54,11 @@ Select the item that would be useful placing within a `<nav>` container.
 
 ???
 
- * Navigational links
- * Link to Email
- * Links within main content
- * Tags in a blog post
- * Image Links
+* Navigational links
+* Link to Email
+* Links within main content
+* Tags in a blog post
+* Image Links
 
 ---
 ## Revision
@@ -73,13 +71,9 @@ Should all links within a webpage be placed within a `<nav>` element?
 
 ???
 
- * Yes
- * No
- * Yes, but it will fail validation.
- * No
- * Yes
- * No, but it will fail validation.
-
+* Yes
+* No
+* Yes, but it will fail validation.
 
 ---
 ## Quiz
@@ -90,10 +84,7 @@ Which container is best to organize the buttons that link the primary pages of t
 
 ???
 
- * `<nav>`
- * `<navigation>`
- * `<header>`
- * `<navigate>`
- * `<navi>`
- * `<menu>`
- * `<buttons>`
+* `<nav>`
+* `<navigation>`
+* `<header>`
+* `<div>`

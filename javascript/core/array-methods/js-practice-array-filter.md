@@ -11,6 +11,11 @@ type: exercise
 
 link: http://www.codewars.com/kata/573023c81add650b84000429
 linkType: codewars
+
+aspects:
+  - introduction
+  - workout
+  
 standards:
 
   javascript.standard-library.4: 1000
@@ -19,8 +24,8 @@ standards:
 
 links:
 
-  - '[MDN - Array class](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)'
-  - '[MDN - Array.filter](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)'
+  - '[MDN - Array class](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array){documentation}'
+  - '[MDN - Array.filter](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter){documentation}'
 ---
 
 # JS Practice Array `filter`

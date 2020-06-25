@@ -9,6 +9,14 @@ type: normal
 
 category: feature
 
+aspects:
+  - introduction
+  - workout
+  - obscura
+
+standards:
+  javascript.browser-apis-browser.1: 10
+
 links:
   - '[viralpatel.net](http://viralpatel.net/blogs/disable-back-button-browser-javascript/){website}'
 

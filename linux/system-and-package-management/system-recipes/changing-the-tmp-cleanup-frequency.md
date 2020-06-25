@@ -1,9 +1,12 @@
 ---
-author: tuwi.dc
+author: tuwidc
 
 levels:
 
   - advanced
+
+aspects:
+  - deep
 
 type: normal
 
@@ -44,8 +47,8 @@ A negative number `TMPTIME=-1` tells the system to never delete anything in /tmp
 
 Yet, for servers that rarely reboot, setting up an entry in the `crontab` may be necessary:
 
-```
-$ crontab -e
+```bash
+crontab -e
 ```
 Add:
 ```
@@ -79,4 +82,6 @@ The default `TMPTIME`  (which clears tmp directory after every reboot) value is
 * 1
 * 7
 
+ 
+ 
  

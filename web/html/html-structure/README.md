@@ -2,7 +2,7 @@ name: HTML Structure
 
 type: insights-list
 
-description: TODO
+description: How to write HTML code.
 
 section: 0
 
@@ -14,4 +14,7 @@ insights:
   - html-tags
   - attributes
   - comments
- 
+
+exercises:
+  - html-comment-codepen-exercise
+  - html-element-attribute-codepen-exercise

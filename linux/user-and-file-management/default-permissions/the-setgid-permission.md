@@ -9,6 +9,10 @@ levels:
 
   - medium
 
+aspects:
+  - introduction
+  - workout
+
 type: normal
 
 category: must-know
@@ -19,12 +23,6 @@ tags:
 
   - workout
 
-
-
-
-aspects:
-  - deep
-  - workout
 
 
 ---
@@ -41,26 +39,25 @@ When `setgid` permission is applied to a directory, files that were created in t
 
 
 To set the `setgid` bit on a file:
-```
-$ chmod g+s enkiscript
+```bash
+chmod g+s enkiscript
 
 ```
 
 Remove the `setgid` bit:
-```
-$ chmod g-s enkiscript
-
+```bash
+chmod g-s enkiscript
 ```
 
 To remove both `setuid` and `setgid` with octal alternative:
-```
-$ chmod 0777 enkiscript
+```bash
+chmod 0777 enkiscript
 ```
 
 Find all files with `setgid`:
-```
-$ find / -type f -perm /2000 -exec stat
-         -c "%A %a %n" {} \;
+```bash
+find / -type f -perm /2000 -exec stat
+    -c "%A %a %n" {} \;
 ```
 
 ---
@@ -72,7 +69,6 @@ If a user of group `test` creates a new file in that directory, which group will
 
 ???
 
-
 * enki
 * test
 * both groups
@@ -81,8 +77,8 @@ If a user of group `test` creates a new file in that directory, which group will
 ## Revision
 
 How do you apply `setgid` bit to a file?
-```
-$ ??? ??? myfile
+```bash
+??? ??? myfile
 ```
 
 
@@ -93,4 +89,6 @@ $ ??? ??? myfile
 * `a-s`
 * `perm`
 
+ 
+ 
  

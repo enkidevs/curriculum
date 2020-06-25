@@ -8,6 +8,12 @@ type: normal
 
 category: must-know
 
+aspects:
+
+  - introduction
+  - workout
+  - obscura
+
 links:
   - '[help.github.com](https://help.github.com/articles/ignoring-files/){website}'
 
@@ -43,8 +49,8 @@ The rules set in `.git/info/exclude` will not be committed.
 ## Practice
 
 To track the `.gitignore` file you’d run :
-```
-$ git ??? ???
+```bash
+git ??? ???
 ```
 * add
 * .gitignore
@@ -59,4 +65,6 @@ To exclude files from your repository, you have to add them to the ??? file .
 * .gitignore
 * hooks
 * .gitexclude
+ 
+ 
  

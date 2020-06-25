@@ -10,7 +10,9 @@ levels:
 type: normal
 
 category: how to
-
+aspects:
+  - introduction
+  - workout
 standards:
   python.control-structures.5: 10
   python.modules.0: 10
@@ -60,26 +62,25 @@ s.run()
 ---
 ## Practice
 
-Create a new schedule and set it to enter second with priority = 1 and delay = 4.
+Create a new scheduler and set it to enter `print('second')` with priority = 1 and delay = 4.
 
 ```python
 
 import sched
 import time
 
-start = '2018-03-23 21:55:19.629694'
-stop = '2018-03-24 21:55:19.629694'
-sc=???.scheduler(???.start,???.stop)
+sc=???.scheduler(time.???,time.???)
 
 sc.enter(???,???,print,???)
+sc.run()
 ```
 
 * sched
 * time
-* time
+* sleep
 * 4
 * 1
-* argument=('second')
+* argument=('second',)
 * sc
 
 
@@ -91,11 +92,10 @@ What is the priority ??? and what is the delay ??? of the following scheduler:
 
 ```python
 
-sched.enter(3,2,print,argument=('second'))
+sched.enter(3,2,print,argument=('second',))
 ```
 
 * 2
 * 3
 * second
 * first
- 

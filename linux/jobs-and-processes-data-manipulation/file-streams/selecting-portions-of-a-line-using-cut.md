@@ -7,6 +7,10 @@ levels:
 
   - beginner
 
+aspects:
+  - introduction
+  - workout
+
 type: normal
 
 category: must-know
@@ -32,11 +36,10 @@ Here are some basic examples.
 The `-c` option tells `cut` to select specific *characters* from its input.  Take a look:
 
 ```shell
-$ echo "one:two:three" | cut -c2
+echo "one:two:three" | cut -c2
 n
-$ echo "one:two:three" | cut -c1-5
+echo "one:two:three" | cut -c1-5
 one:t
-$
 ```
 
  In this case `-c2` tells `cut` to select the second character while `-c1-5` tells `cut` to select a range of characters (the first to the fifth).
@@ -47,14 +50,13 @@ $
 
 We can cut out specific columns or fields, too.  Take a look:
 
-```
-$ echo "one:two:three" | cut -d":" -f1
+```bash
+echo "one:two:three" | cut -d":" -f1
 one
-$ echo "one:two:three" | cut -d":" -f2
+echo "one:two:three" | cut -d":" -f2
 two
-$ echo "one:two:three" | cut -d":" -f1-2
+echo "one:two:three" | cut -d":" -f1-2
 one two
-$
 ```
 
 The `-d":"` option tells cut to expect input where the fields are delimited by a `:` character.  `-f1` tells `cut` to select the first field (delimited by `:`), `-f2` the second field, and `-f1-2` the first and second field.
@@ -66,11 +68,10 @@ One can use `-f` without `-d`, although by default `cut` will assume that the in
 The `/etc/passwd` file contains information about every user on the system, including usernames and home directories.  The format is very standard.  The following example will print out all the users alone with their home directories on the system:
 
 ```shell
-$ cut -d":" -f1,6 /etc/passwd
+cut -d":" -f1,6 /etc/passwd
 user1:/home/user1
 user2:/home/user2
 ... etc. etc. ...
-$
 ```
 
 The fields in `/etc/passwd` are `:`-delimited with the first field containing the username and the second sixth field containing the user's home directory.
@@ -85,8 +86,8 @@ Javascript/Core/Prototype
 Java/Fundamentals/Inheritance
 ```
 Print the *subtopic* name using `cut` :
-```
-$ cut ??? ??? ???
+```bash
+cut ??? ??? ???
 ```
 
 * `-d"/"`
@@ -105,4 +106,6 @@ The flag used to specify the delimiter of the `cut` command is ???.
 * -a
 * -F
 
+ 
+ 
  

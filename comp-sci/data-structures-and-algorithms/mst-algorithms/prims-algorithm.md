@@ -15,6 +15,13 @@ type: normal
 
 category: must-know
 
+aspects:
+
+  - deep
+
+  - obscura
+
+  - workout
 
 links:
 
@@ -34,7 +41,7 @@ As an alternative to Kruskal's algorithm, Prim's algorithm yields the same resul
 A random starting node is selected and an empty list initialized that will contain the distance from the start node to all other nodes. Next, the algorithm looks for the minimum-weight edge out of all that are incident to nodes in the visited list and adds the edge node to the tree, marking the new node as visited. It then repeats the process until the there are no unvisited nodes left.
 
 This is the pseudocode:
-```text
+```plain-text
 Prim(AdjMatrix)
 // initial random node
   inTree[]
@@ -57,7 +64,7 @@ The difference between Kruskal's and Prim's is that the former starts building t
 In terms of time complexity, for dense graphs[1], the algorithm can get as fast as *linear time*. Increasing the number of edges for each node means there is a smaller chance for the algorithm to reach a dead end and backtrack. In case of more-common, sparse graphs, **Kruskal's algorithm** should be preferred as it is faster.
 
 The time upper-bound also depends on how the graph is represented[2]. For example, the difference between a matrix representation and an adjacency list and a sorted array of edges(by weight) is shown below:
-```text
+```plain-text
 matrix: O(|V|×|V|)
 adjacency list + sorted array:
     O(|E|×|log V|)
@@ -76,7 +83,7 @@ Prim's algorithm can be applied for
 * any weighted connected graphs
 
 ---
-## Quiz 
+## Quiz
 ### which algorithm is to be use in the following scenario?
 
 Consider a complete, weighted graph. If we want to compute its minimum spanning tree,
@@ -99,4 +106,3 @@ The maximal number of edges of a directed graph is `|V|×|V-1|`, while for an un
 
 [2: Graph Representation]
 If you remember the first Data Structure and Algorithm insight, we said that different data structures are optimized for different types of operations.
- 

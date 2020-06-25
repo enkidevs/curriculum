@@ -11,7 +11,9 @@ type: normal
 
 category: feature
 
-
+aspects:
+  - workout
+  - deep
 links:
 
   - '[docs.python.org](https://docs.python.org/3.5/library/struct.html){website}'
@@ -42,7 +44,7 @@ Import the module:
 import struct
 ```
 
-This module uses certain format characters such as `I` = unasigned int (in **C**) / integer (in **Python**).
+This module uses certain format characters such as `I` = unassigned int (in **C**) / integer (in **Python**).
 
 Get a `bytes` object containing some values:
 ```python
@@ -95,5 +97,3 @@ b'\x03\x00\r\x00*\x00\x00\x00'
 * `struct`
 * `bytes`
 * `calcsize`
- 
- 

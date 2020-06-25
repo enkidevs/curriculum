@@ -13,10 +13,14 @@ type: normal
 
 category: must-know
 
+aspects:
+
+  - workout
+  - deep
 
 links:
 
-  - '[git-scm.com](http://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository){website}'
+  - '[Short Status](http://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository){documentation}'
 
 
 ---
@@ -29,8 +33,8 @@ links:
 You can use the option `-s` or `--short` to get a simplified status output.
 
 For example:
-```
-$ git status --short
+```bash
+git status --short
   M README
 M   LICENSE
 A   CONTRIBUTING
@@ -46,8 +50,8 @@ A   CONTRIBUTING
 ## Practice
 
 What does this tell us about the file `enki.md`?
-```
-$ git status --short
+```bash
+git status --short
 M  enki.md
  M hello.md
 ```
@@ -62,8 +66,8 @@ M  enki.md
 ## Revision
 
 What is the option to get a simplified status output?
-```
-$ git status ???
+```bash
+git status ???
 ```
 
 * `-s`
@@ -71,4 +75,6 @@ $ git status ???
 * `-v`
 * `--long`
 
+ 
+ 
  

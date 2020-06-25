@@ -11,8 +11,9 @@ type: normal
 
 category: how to
 
+aspects:
 
-
+  - introduction
 
 ---
 
@@ -24,19 +25,19 @@ category: how to
 The following code declares a 2D array - an array of 10 
 arrays each of length 7.
 
-```
+```java
 int array[][] = new int[10][7];
 ```
 
 The following code declares a 3D array - an array of 10 
 Arrays each containing 7 arrays. The 7 arrays are of length 3.
 
-```
+```java
 int array[][][] = new int[10][7][3];
 ```
 
 In a similar manner, arrays of higher dimensions can be declared (although the Java VM specification limits this number to 255). The leftmost pair of square brackets indicates the outermost array. For example:
-```
+```java
 int array[][] = new int[10][7];
 for (int i = 0;i < array.length;i++) {
   for (int j = 0;j < array[i].length;j++) {
@@ -49,7 +50,7 @@ for (int i = 0;i < array.length;i++) {
 ## Practice
 
 Declare an array of 8 arrays, each of length 4:
-```
+```java
 int array[][]=new int[???][???]
 ```
 
@@ -74,5 +75,3 @@ Java VM specification sets the maximum number of dimensions an array can have to
 * `101` 
 * `27` 
 * `100`
-
- 

@@ -13,6 +13,10 @@ type: bugSpot
 
 category: tip
 
+aspects:
+  - introduction
+  - workout
+
 ---
 
 # CSSplat

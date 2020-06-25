@@ -19,6 +19,9 @@ links:
 
 parent: easy-way-to-deliver-html-pages-with-express
 
+aspects:
+  - introduction
+
 ---
 # Session handling in **Express**
 
@@ -27,7 +30,7 @@ parent: easy-way-to-deliver-html-pages-with-express
 
 Prior to handling sessions in **Express 4.0**, the `express-session` middleware must be installed:
 ```bash
-$ npm install express-session
+npm install express-session
 ```
 `Session` can be accessed through the `request` object:
 ```javascript
@@ -90,4 +93,6 @@ app.get('/', function(req,res) {
 * sess
 * mySession
 * request
+
+ 
  

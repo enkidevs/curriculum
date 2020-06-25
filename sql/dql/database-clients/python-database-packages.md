@@ -1,10 +1,8 @@
 ---
-author: Nick Daminov
+author: nickdaminov
 
 levels:
-
   - basic
-
   - medium
 
 type: normal
@@ -18,29 +16,19 @@ standards:
   sql.connect-client.1: 10
 
 tags:
-
-
-  - workout
-
   - python
-
   - implementation
-
   - database packages
 
-
 links:
-
   - '[Psycopg2 package](http://initd.org/psycopg/){website}'
   - '[SQLAlchemy package](http://www.sqlalchemy.org/){website}'
   - '[Psycopg documentation](http://initd.org/psycopg/docs/index.html){website}'
   - '[Psycopg start guide](http://initd.org/psycopg/docs/usage.html){website}'
   - '[Using Python to query Postgres video](https://www.youtube.com/watch?v=8gd1DlXwzlY){website}'
 
-
 aspects:
   - workout
-
 
 ---
 
@@ -55,19 +43,20 @@ aspects:
  - SQLAlchemy
 
 As an example we will take *Psycopg on MacOS X*, you can run the following commands straight from the command line or from the python scripts.
+
 After installation of the *Psycopg* package we can run python by typing `python` in the terminal.
 
-Now let's connect to the Pokemon database:
+Now let's connect to a database:
 ```python
 # Import the library
 >>> import psycopg2
 # Connect to the database
 >>> conn = psycopg2.connect("
-  dbname=pokemon
-  user=ashketchum
-  password=iwannabetheverybest
-  host=aws-us-east-1-portal.29.dblayer.com
-  port=23336")
+  dbname=database_name
+  user=user_name
+  password=password
+  host=host-url.com
+  port=port_number")
 ```
 
 In order to execute a query we must use the cursor class:
@@ -80,14 +69,13 @@ In order to execute a query we must use the cursor class:
 >>> cur.fetchall()
 ```
 
-This will should list all the colors in an array of pairs.
-
-**NOTE: you are granted a read-only access so executing writing commands will have no effect.**
+This will list all the colors in an array of pairs.
 
 As `cur` is now a Python list object we can iterate through the query result simply by:
+
 ```python
 >>> for row in cur:
-...     print (row)
+...   print (row)
 ...
 ```
 
@@ -104,8 +92,6 @@ Which should print:
 (9, 'white')
 (10, 'yellow')
 ```
-
-**NOTE: Bookmark this insight, and try connecting to the database on your own!**
 
 ---
 ## Practice

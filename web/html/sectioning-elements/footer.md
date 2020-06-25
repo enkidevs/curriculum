@@ -1,5 +1,5 @@
 ---
-author: stefan.stojanovic
+author: Stefan-Stojanovic
 
 levels:
   - beginner
@@ -9,28 +9,24 @@ type: normal
 
 category: must-know
 
-standards:
-  web.layout-html.0: 10
-  web.semantic-html.0: 10
-  web.semantic-html.1: 10
-
 aspects:
   - introduction
   - workout
 
 links:
-  - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/footer
-  - https://www.w3schools.com/html/html5_semantic_elements.asp
+  - '[HTML <footer> Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/footer){documentation}'
 
 ---
-# Footer
+# The `<footer>` Element
 ---
 ## Content
 
-The HTML `<footer>` element is used to represent a footer for a whole document or a section. It is also possible to have multiple `<footer>` elements, one for each section. This element should contain some information about its containing element. That can be the author, some copyright information, a link to the terms of use, contact info, link back to the top of the page, a link to related documents, a sitemap, etc.
+The HTML `<footer>` element is used to represent a footer for a whole document, or even footers of a grouping of related content as it is possible to have multiple `<footer>` elements.
+
+The `<footer>` element should contain some information about its containing element. That can be the author, some copyright information, a link to the terms of use, contact info, link back to the top of the page, a link to related documents, a sitemap, etc.
 
 Using `<footer>` for contact information:
-```
+```html
 <footer>
   <p>
     Author: Jane Doe
@@ -44,6 +40,12 @@ Using `<footer>` for contact information:
   </p>
 </footer>
 ```
+
+The `<footer>` container doesn't have any visual style without CSS. The CSS in this example may be a bit complex at this time, but hopefully it inspires you to learn more CSS!
+
+![footer-styled](https://img.enkipro.com/3fc59ba0132a8c9562bc7b396ed4d893.png)
+
+[View CodePen](https://codepen.io/enkidevs/pen/PaXVmR)
 
 ---
 ## Practice
@@ -60,7 +62,7 @@ The `<footer>` element is encouraged to contain which of the following?
 ---
 ## Revision
 
-Which container is best to organize the top of a web page or content section?
+Which container is best to organize the bottom of a web page or content section?
 
 ???
 

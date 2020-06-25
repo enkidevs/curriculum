@@ -15,6 +15,9 @@ category: how to
 
 inAlgoPool: false
 
+aspects:
+  - introduction
+  - workout
 
 standards:
   python.data-structures-uses.5: 10
@@ -87,7 +90,7 @@ print(textwrap.shorten
 ```
 The last words are dropped if the text is longer than the width argument.
 
-Other useful methods like `indent` and`dedent` are available in this module.
+Other useful methods like `indent` and `dedent` are available in this module.
 
 ---
 ## Practice
@@ -119,5 +122,3 @@ textwrap.???(text, ???=30)
 * `fill`
 * `length`
 * `max`
- 
- 

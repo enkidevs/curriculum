@@ -1,5 +1,5 @@
 ---
-author: stefan.stojanovic
+author: Stefan-Stojanovic
 
 levels:
   - beginner
@@ -9,57 +9,56 @@ type: normal
 
 category: must-know
 
-standards:
-  web.embed-media.0: 10
-
 aspects:
   - introduction
   - workout
   - obscura
 
 links:
-  - '[Documentation on MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img){documentation}'
-  - '[Official documentation on w3.org](https://www.w3.org/TR/2011/WD-html5-author-20110705/the-img-element.html#dom-img-alt){documentation}'
+  - '[MDN: <img> Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img){documentation}'
+  - '[W3.org: <img> Element](https://www.w3.org/TR/2011/WD-html5-author-20110705/the-img-element.html#dom-img-alt){documentation}'
 
 ---
 # Image Alt
 ---
 ## Content
 
-The `<img>` elements are used for embedding an image in a web page or a document.
-The `alt` attribute exists to specify an alternate text for an image that cannot be displayed.
-
-It provides extra information to the user if for some reason they cannot view the image. Whether it is a broken link, an unsupported image format, a poor internet connection, or if the user uses a screen reader.
+All image `<img>` elements are encouraged to use `alt` attributes which specifies alternate text for the image.
 
 Example:
+```html
+<img src="rainforest.pngrainforest.jpg"
+    alt="Beautiful rain forest
+         thick with trees">
 ```
-<img src="rainforest.png"
-    alt="Beautiful Rainy Forest">
-```
+
+![image-alt](https://img.enkipro.com/515b4af71d82ebd8c7be4c673b4a7e53.png)
+
+[View CodePen](https://codepen.io/enkidevs/pen/JBjqRb)
 
 In the example above, if for some reason the browser doesn't show the `rainforest.png` image, the `alt` attribute will display the `Beautiful Rainy Forest` text instead.
-For the reasons mentioned above, it is good practice to provide useful information in the alt attribute.
 
-Using the `alt` attribute is important for every `img` element for page validation and to help support screen readers.
+Using the `alt` attribute is important for every `img` element for page validation and to help support screen readers that will read the text description to those that are visually impaired.
 
-The `alt` attribute can also be left empty:
-```
-<img src="rainforest.png"
+The `alt` attribute can also be left empty and completely valid as this is helpful for indicating that the image is not a key part of the content:
+```html
+<img src="background-image.png"
       alt="">
 ```
 
-This is helpful for indicating that the image is not a key part of the content. Meaning, non-graphical browsers, or developers who don't want the picture loaded, can decide to not render it. On the other hand, eliminating the whole alt attribute means the image is a key component of the content, should be loaded and has no equivalent textual representation available.
-
-
-If your alt attribute needs to contain acronyms (like "USA"), you would write it as:
-```
+If your `alt` attribute needs to contain acronyms (like "USA"), you would write it as:
+```html
 `<img src="usa-map.jpg"
-    alt="Map of the US">`
+    alt="United States of America map">`
 ```
 
-The reason is, you want to prevent screen readers from reading the `alt` attribute as "Map of the us" instead of
-Map of the US".
+The reason is, you want to prevent screen readers from reading any acronyms as single words like "Usa map".
 
+If you really must use acronyms you should add a space after each letter:
+```html
+`<img src="usa-map.jpg"
+    alt="U S A map">`
+```
 
 ---
 ## Practice

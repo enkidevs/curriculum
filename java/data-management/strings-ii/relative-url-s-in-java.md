@@ -13,6 +13,10 @@ type: normal
 
 category: tip
 
+aspects:
+
+  - introduction
+
 tags:
 
   - http
@@ -20,9 +24,6 @@ tags:
   - www
 
   - url
-
-
-
 
 ---
 
@@ -43,9 +44,9 @@ URL page2 = new URL(myURL, "page2.html");
 ```
 
 The general form of this constructor is:
+
 ```java
 URL(URL baseURL, String relativeURL)
 ```
-The first argument is a URL object that specifies the base of the new URL. The second argument is a String that specifies the rest of the resource name relative to the base.
 
- 
+The first argument is a URL object that specifies the base of the new URL. The second argument is a String that specifies the rest of the resource name relative to the base.

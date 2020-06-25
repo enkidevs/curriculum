@@ -1,6 +1,6 @@
 ---
 
-author: stefan.stojanovic
+author: Stefan-Stojanovic
 
 levels:
   - beginner
@@ -10,16 +10,15 @@ type: normal
 
 category: must-know
 
-standards:
-  web.markup-text.2: 10
-
 aspects:
   - introduction
   - workout
   - deep
-  
+
+links:
+
 ---
-# Non-breaking Space
+# The Non-breaking Space
 
 ---
 ## Content
@@ -29,68 +28,90 @@ In HTML, the non-breaking space is a character entity which can:
 * Create white space between words or web page elements
 * Stop the browser from breaking a line in the wrong place.
 
-
 To insert a non-breaking space you would use either the HTML entity *name* or the HTML entity *number* :
 
 HTML Entity Number
-```
+```html
 &#160;
 ```
 HTML Entity Name
-```
+```html
 &nbsp;
 ```
-
->Uses for the Non-Breaking Space
-
 **Prevent Line Break with Non-Breaking Space**
 
-Sometimes you might want the force the browser to not break the line between certain words or web page elements. To do so, you insert the non-breaking space between words you don't want to be separated. E.g. Mr. John Doe:
+A common use for the non-breaking space is putting it before any numeric (or alphabetic reference) to prevent awkward breaks.
 
-Input:
+WRONG:
+```html
+Under Security Law §
+1893 purchases can be made. ¶
+23 of the contract provides details.
 ```
-Mr.&nbsp;John&nbsp;Doe
+
+CORRECT:
+```html
+Under Security Law
+§ 1893 purchases can be made.
+¶ 23 of the contract provides details.
 ```
+
+[View CodePen](https://codepen.io/enkidevs/pen/YjNpVa)
+
+
+By default, two images placed together in a webpage will visually touch. When a single space should be used to separate them, a non-breaking space can be used like this:
+
+Without &nbsp:
+```html
+<img src="rhino.png"/>
+<img src="elephant.png"/>
+```
+
 Result:
-```
-Mr. John Doe
-```
 
-Another example of forcing the browser to keep things together might be a space between 2 pictures.
+![nbsp-without-rhino-elephant](https://img.enkipro.com/457a1d9fabeb7df7ed59a0167ec59995.png)
 
-Input:
-```
-<p>
-<img src="http://i.picresize.com/images
-  /2018/02/18/N8MeY.png"/>&nbsp;<img
-  src="http://i.picresize.com/images
-  /2018/02/18/N8MeY.png" /></p>
+With &nbsp:
+```html
+<img src="rhino.png"/>
+  &nbsp;
+<img src="elephant.png"/>
 ```
 
 Result:
 
-![alt text][logo]
-![alt text][logo]
-
-[logo]: http://i.picresize.com/images/2018/02/18/N8MeY.png
-
-**Create Whitespace with Non-Breaking Space**
-
-The non-breaking space can be used to create white space between web page elements. Like in the example above, white space is created between the 2 pictures by using the non-breaking space.
+![nbsp-with-rhino-elephant](https://img.enkipro.com/c78795050155a41abda13e362b5ef48f.png)
 
 **Prevent Table Cell Collapse with Non-Breaking Space**
 
-If you have a table with an empty cell within your web page, you should insert the non-breaking space HTML coding in the empty cell to prevent the cell from collapsing.
+If you have a table with an empty cell within your web page, you should insert the non-breaking space HTML coding in the empty cell to prevent the cell from collapsing in older browsers. Adding may not be necessary in modern browsers, but adding `&nbsp;` into the cell can help developers know the cell is empty on purpose and it's content wasn't deleted by accident.
 
+```html
+<table>
+  <tr>
+    <td>&nbsp;</td>
+    <td>Product A</td>
+    <td>Product B</td>
+  </tr>
+  <tr>
+    <td>Option 1:</td>
+    <td>&nbsp;</td>
+    <td>•</td>
+  </tr>
+  <tr>
+    <td>Option 2:</td>
+    <td>•</td>
+    <td>&nbsp;</td>
+  </tr>
+</table>
 ```
-<td>&nbsp;</td>
-```
 
-**What Not to Use the Non-Breaking Space For**
+![nbsp-table](https://img.enkipro.com/da73d862a6c923bf657154b55e8c0fec.png)
 
->Creating Indented Paragraphs
+[View CodePen](https://codepen.io/enkidevs/pen/PBpLqV)
 
-Non-breaking space should not be used to indent a paragraph. This is because some browsers ignore multiple instances of the non-breaking space so indenting this way may not always work. To create an indent for your paragraphs it is better to use your stylesheet.
+**Note:** Do not use multiple non-breaking spaces to create larger spaces. If additional space is necessary, then CSS should be used.
+
 
 ---
 ## Practice
@@ -111,12 +132,12 @@ What HTML character entity is used to prevent the browser from breaking the line
 
 `<p>5???km</p>`
 
-* &nbsp;
-* &ensp;
-* &ltsp;
+* `&nbsp;`
+* `&ensp;`
+* `&ltsp;`
 * empty space: " "
-* &space
-* &gap
+* `&space`
+* `&gap`
 
 ---
 ## Quiz
@@ -125,8 +146,11 @@ What HTML character entity is used to prevent the browser from breaking the line
 
 What does the "&nbsp;" within this line of code do?
 
-`<img src="image1.png" alt="">&nbsp;<img src="image2.png" alt="">`
-
+```html
+<img src="image1.png" alt="">
+&nbsp;
+<img src="image2.png" alt="">
+```
 
 * Adds an empty character of space between the images.
 * Prevents the images from starting on new line like word wrap.

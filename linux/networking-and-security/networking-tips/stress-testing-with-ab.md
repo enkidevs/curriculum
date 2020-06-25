@@ -1,11 +1,14 @@
 ---
-author: tuwi.dc
+author: tuwidc
 
 levels:
 
   - advanced
 
   - medium
+
+aspects:
+  - deep
 
 type: normal
 
@@ -40,8 +43,8 @@ ApacheBench (or `ab` tool) is a tool for benchmarking and regression testing of 
 
 The simplest test you can do is to perform 1000 requests, 10 at a time (which approximately simulates 10 concurrent users getting 100 pages each - over the length of the test).
 
-```
-$ ab -n 1000 -c 10 -k \
+```bash
+ab -n 1000 -c 10 -k \
   -H "Accept-Encoding: gzip, deflate" \
   http://www.example.com/
 ```
@@ -64,4 +67,6 @@ A tool for testing how many connections your server is capable of serving is ???
 * `w`
 * `ss`
 
+ 
+ 
  

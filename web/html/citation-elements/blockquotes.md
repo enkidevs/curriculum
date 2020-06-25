@@ -1,5 +1,5 @@
 ---
-author: stefan.stojanovic
+author: Stefan-Stojanovic
 
 levels:
   - beginner
@@ -9,11 +9,6 @@ type: normal
 
 category: must-know
 
-standards:
-  web.semantic-html.0: 10
-  web.semantic-html.1: 10
-  web.semantic-html.3: 10
-
 aspects:
   - introduction
   - workout
@@ -21,20 +16,20 @@ aspects:
 
 
 links:
-  - '[MDN docs for blockquotes](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blockquote){website}'
-  -
+  - '[HTML <blockquotes> element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blockquote){documentation}'
+  
 ---
-# Blockquotes
+# The `<blockquotes>` Element
 ---
 ## Content
 
-The HTML `<blockquote>` element or **The Block Quotation element** is used to enclose a text which represents an extended or long quotation. This element is displayed as a block element and usually has a 1em top/bottom margin added by default, as well as a left/right indentation of 40 pixels. Of course, this is all editable with CSS styling.
+The HTML `<blockquote>` element or the **Block Quotation** element is used to enclose text which represents an extended or long quotation. This element is displayed as a block element and usually has a 1em top/bottom margin added by default, as well as a left/right indentation of 40 pixels. Of course, this is all editable with CSS styling.
 
 Example:
-```
-<blockquote cite="citing page lik here">
+```html
+<blockquote>
  Every revolutionary idea seems to
- evoke three stages of reaction. <br>
+ evoke three stages of reaction.<br>
  They may be summed up by the phrases:<br>
  It's completely impossible.<br>
  It's possible, but not worth doing.<br>
@@ -43,21 +38,47 @@ Example:
 </blockquote>
 ```
 
+![blockquote-simple](https://img.enkipro.com/de96f330200a0ca38850a2523ed01b92.png)
+
+Blockquotes can be used with the citation element `<cite>` to share the source, but it is important that there is also visible attribution as well.
+
+```html
+<blockquote cite="http://brainyquote.com/
+quotes/arthur_c_clarke_408582">
+Every revolutionary idea seems to
+evoke three stages of reaction.<br>
+They may be summed up by the phrases:<br>
+It's completely impossible.<br>
+It's possible, but not worth doing.<br>
+I said it was a good idea all along.<br>
+  <footer>
+    —<a href="https://brainyquote.com/
+quotes/arthur_c_clarke_408582">
+  Arthur C. Clarke
+     </a>
+  </footer>
+</blockquote>
+```
+
+![blockquote-with-cite](https://img.enkipro.com/f702ae2ea6852ec747ae0ee7518ea83b.png)
+
 If you wish to add a short quote to your web page or document, you should use the `<q>` or the **Quotation element**.
 Example:
-```
-<q>
-I have a dream!
-</q>
+```html
+<q>I have a dream!</q>
 - Martin Luther King
 ```
+
+![quotes](https://img.enkipro.com/39616c8208d10dc2a7a1e12291a5b015.png)
+
+[View CodePen](https://codepen.io/enkidevs/pen/oyPQBr)
 
 ---
 ## Practice
 
 Which statement about the `<blockquote>` element is correct?
 
-```
+```html
 <blockquote>
   The best thing about a boolean
   is even if you are wrong,

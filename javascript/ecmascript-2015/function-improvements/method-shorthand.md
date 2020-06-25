@@ -8,6 +8,11 @@ type: normal
 
 category: must-know
 
+aspects:
+  - introduction
+  - new
+  - workout
+
 inAlgoPool: false
 
 links:
@@ -19,9 +24,9 @@ links:
 ---
 ## Content
 
-ES6 method shorthand allows us remove the function key word and colon making code more succinct.
+Method shorthand allows us to remove the function key word and colon making code more succinct.
 
-For example prior to ES6 you would have written something similar to the below:
+For example, prior to ES6, you would have written something similar to the below:
 
 ```javascript
 return {
@@ -31,7 +36,7 @@ return {
 };
 ```
 
-With ES6 this can now become:
+This can now become:
 
 ```javascript
 return {
@@ -47,7 +52,7 @@ return {
 Consider the function `sayHi` which is supposed to log the `Hi` message.
 Likewise, the `sayHello` function should log the `Hello` message.
 
-Complete the following snippet such that the both functions are defind within the object `return`ed, using method shorthand in both cases:
+Complete the following snippet such that both functions are defined within the object `return`ed, using method shorthand in both cases:
 
 ```javascript
 return {
@@ -55,7 +60,7 @@ return {
    console.log('Hi')
  },
  ??? ??? {
-   console.log('Hello)
+   console.log('Hello')
  }
 }
 ```

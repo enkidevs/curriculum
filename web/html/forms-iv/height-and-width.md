@@ -1,5 +1,5 @@
 ---
-author: stefan.stojanovic
+author: Stefan-Stojanovic
 
 levels:
   - beginner
@@ -9,24 +9,20 @@ type: normal
 
 category: must-know
 
-standards:
-  web.html-forms.2: 10
-  web.embed-media.0: 10
-
 aspects:
   - introduction
   - workout
   - obscura
 
 ---
-# Height & width
+# The `height` & `width` Attributes
 ---
 ## Content
 
 When using HTML input form attributes, if your input is of type `image` you can set it's height and width properties. These properties are set in Pixels(px)
 
 Example:
-```
+```html
 <form
   action="/page.php">
   Full name:
@@ -61,7 +57,7 @@ Which statements are not true regarding height & width attributes within forms?
 
 Complete the code by adding the appropriate input form attributes to assign the size of the submit button (20 pixels wide by 30 pixels tall).
 
-```
+```html
 <form
  action="file.php">
   Name:
@@ -94,3 +90,4 @@ Identify which statement is true regarding the use of height and width with inpu
  * The height attribute is used with `<input type="image">` and `<input type="button">`.
  * The width attribute is used with `<input type="image">` and `<input type="button">`.
  * You can only set the attributes height and width with CSS.
+ 

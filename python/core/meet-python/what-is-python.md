@@ -1,63 +1,67 @@
 ---
-author: tommarshall
+author: emmab
 
-levels:
-
-  - beginner
+tags:
+  - introduction
 
 type: normal
 
 category: must-know
 
-inAlgoPool: false
-
+aspects:
+  - introduction
 
 links:
-
-  - '[www.python.org](https://www.python.org/doc/essays/comparisons/){website}'
+  - '[What is Python?](https://www.python.org/doc/essays/blurb/){website}'
 
 ---
 
-# What is Python?
+# Python Intro
 
 ---
 ## Content
 
-Python is a *high-level*, *interpreted*, *interactive* and *object-oriented* programming language.
+Python is a popular *high-level* programming language.
 
-It's designed to be easily readable as it frequently uses English keywords and few syntactical constructions. Here's the `print` method for example:
+That means it's designed to be easy to read, using English keywords and simple syntax[1].
+
+For example, here's how you might check whether a number is greater than another number:
 
 ```python
-print ('Learning Python with Enki!')
+my_age = 23
+legal_age = 21
+if my_age > legal_age:
+    print("You can have a beer!")
+else:
+    print("Unlucky.")
 ```
 
-Python is processed at `runtime` by the interpreter, which means that Python programs don't need to be compiled pre-execution.
+Python is also a *general-purpose* programming language. That means it can be used for *just about anything*. 
 
-The interactive side to Python means you can use a Python prompt to `interact` with the interpreter directly to create programs!
-
-Since Python is an object-orientated programming language, it supports an object-orientated style of programming which `encapsulates`[1] code within objects.
+You can use it to build websites, web apps and desktop apps. But it's also used in scientific computing, artificial intelligence, and data analysis!
 
 ---
 ## Practice
 
-Do Python programs need to be compiled before execution? ???
+Python is closer to ??? language and further away from ??? language.
 
-* `no`
-* `yes`
+* human
+* machine
+* alien
+* automated
 
 ---
 ## Revision
 
-What type of keyword does Python use to improve its readability? ???
+Python is both a ??? and general-purpose programming language.
 
-* `English`
-* `Simple`
-* `Interactive`
-* `Common`
-* `Programming`
+* high-level
+* niche
+* low-level
+* domain-specific
 
 ---
 ## Footnotes
-[1:encapsulates]
-Encapsulation is an Object-Oriented Programming concept mechanism which wraps the data, variables, and any code acting on the data, methods, together as a single unit.
- 
+
+[1:Syntax]
+The syntax is the set of rules that define how a program will be written and interpreted. It covers the symbols, indentation and keywords of the language. All programming languages use different syntax.

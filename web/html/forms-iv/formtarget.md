@@ -1,5 +1,5 @@
 ---
-author: stefan.stojanovic
+author: Stefan-Stojanovic
 
 levels:
   - beginner
@@ -9,39 +9,44 @@ type: normal
 
 category: must-know
 
-standards:
-  web.html-forms.2: 10
-
 aspects:
   - workout
   - deep
   - obscura
 
+links:
+
 ---
-# Formtarget
+# The `formtarget` Attribute
 ---
 ## Content
 
 The HTML `formtarget` input form attribute is used to indicate where to display the response that is received after submitting the form.
-If the `formtarget` attribute is specified it overrides the forms `target` attribute.
+If the `formtarget` attribute is specified, it overrides the `target` attribute.
 
-Here's an example of the `formtarget` attribute set to open in a different window after it's submitted:
-```
+Here is an example of the `formtarget` attribute set to open in a different window after it is submitted:
+
+```html
 <form
   action="file.php">
   Name:
     <input type="text"
-      name="name"><br>
+      name="name">
   <input type="submit"
     formtarget="_blank">
 </form>
 ```
+
+![form-formtarget](https://img.enkipro.com/987efbd8f9042c25e26b95c9607ae550.png)
+
+[View CodePen](https://codepen.io/enkidevs/pen/mKaaey
+
 Other possible values for `formtarget` are:
  - `_self`
  - `_parent`
  - `_top`
  - `framename`
- 
+
 `_self` is the default value if the attribute is not specified and it displays the response in the same window.
 
 `_parent` value displays the response into the parent window of the current one. If there is no parent, this option will behave the same as `_self`.
@@ -55,7 +60,7 @@ Other possible values for `formtarget` are:
 
 Complete the code by adding the appropriate input form attributes to submit the data to a new window.
 
-```
+```html
 <form
   action="file.php">
   Name:

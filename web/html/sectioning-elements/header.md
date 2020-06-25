@@ -1,5 +1,5 @@
 ---
-author: stefan.stojanovic
+author: Stefan-Stojanovic
 
 levels:
   - beginner
@@ -9,20 +9,15 @@ type: normal
 
 category: must-know
 
-standards:
-  web.layout-html.0: 10
-  web.semantic-html.0: 10
-  web.semantic-html.1: 10
-
 aspects:
   - introduction
   - workout
 
 links:
-  - '[MDN docs for header](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/header){website}'
+  - '[HTML <header> Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/header){documentation}'
 
 ---
-# Header
+# The `<header>` Element
 ---
 ## Content
 
@@ -30,19 +25,14 @@ The HTML `<header>` element is used to represent some introductory content.
 
 This can be an introduction, some navigational aid, a graphical logo, the authors' name, a search form, display one or more heading (h1-h6) elements, and more.
 
-You can also have multiple `<header>` elements on your web page or document.
+You can also have multiple `<header>` elements on your web page, one for the primary layout and for each grouping of related content.
 
-Example Main page Title and Logo within a `<header>`:
-```
+This example showcases two headers within a web page:
+```html
 <header>
-  <h1>Pizza Place!!</h1>
-  <img src="pizza-logo.png"
-       alt="Pizza logo">
+  <h1>Logo</h1>
 </header>
-```
 
-Example of an Article Header:
-```
 <article>
   <header>
     <h1>
@@ -50,18 +40,26 @@ Example of an Article Header:
     </h1>
     <h2>Order pizza now</h2>
     <p>
-    Order two pizza's get 1L Pepsi free!
+    Order two pizza's get 2L Pepsi free!
     </p>
   </header>
   <p>
     We also have:
-    Chicken, Beef, Veal and more..
+    We also have: Chicken, Pineapple,
+    Ghost Peppers and more..
   </p>
 </article>
 ```
 
-Even though you can have multiple `<header>` elements, you cant have a `<header>` nested within another `<header>` element. Also, the `<header>` element can't be within a `<footer>` or an `<address>` element.
+The `<header>` container doesn't have any visual style without CSS. The CSS in this example may be a bit complex at this time, but hopefully it inspires you to learn more CSS!
 
+##### header-styled.svg
+
+![header-styled](https://img.enkipro.com/865e768f929302f23a0ba41de884bdc1.png)
+
+[View CodePen](https://codepen.io/enkidevs/pen/NBrNPx)
+
+Even though you can have multiple `<header>` elements, you can't nest  `<header>` elements within another `<header>` element. Also, the `<header>` element can't be within a `<footer>` or an `<address>` element.
 
 ---
 ## Practice

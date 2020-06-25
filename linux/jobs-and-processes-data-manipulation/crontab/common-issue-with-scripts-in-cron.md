@@ -1,5 +1,5 @@
 ---
-author: tuwi.dc
+author: tuwidc
 
 levels:
 
@@ -8,6 +8,10 @@ levels:
   - advanced
 
   - medium
+
+aspects:
+  - workout
+  - obscura
 
 type: normal
 
@@ -39,8 +43,8 @@ Setting up scripts in `cron` without setting the execution permission first is a
 This will cause ``cron`` to call a script that is not executable and thus fail.
 
 By running:
-```
-$ chmod +x /path/to/script
+```bash
+chmod +x /path/to/script
 ```
 The permissions are set, making it executable.
 
@@ -48,8 +52,8 @@ The permissions are set, making it executable.
 ## Practice
 
 Make `enki.py` file executable:
-```
-$ ??? ??? enki.py
+```bash
+??? ??? enki.py
 ```
 
 * `chmod`
@@ -68,4 +72,6 @@ If the user doesn’t have execute rights for a file, `cron` may
 * set the rights automatically
 * still execute them
 
+ 
+ 
  

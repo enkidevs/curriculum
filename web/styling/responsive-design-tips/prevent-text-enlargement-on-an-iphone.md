@@ -13,10 +13,14 @@ type: normal
 
 category: how to
 
+aspects:
+  - introduction
+  - workout
+  - deep
 
 links:
 
-  - '[css-tricks.com](https://css-tricks.com/prevent-iphone-text-enlargement/){website}'
+  - '[Article on Text Enlargement](https://css-tricks.com/prevent-iphone-text-enlargement/){article}'
 
 
 ---
@@ -26,11 +30,11 @@ links:
 ---
 ## Content
 
-By default, an iPhone will increase the size of the font on a webpage. 
+By default, an iPhone will increase the size of the font on a webpage.
 
 To disable:
 
-```
+```css
 -webkit-text-size-adjust: none;
 ```
 This can be applied to any elements within the webpage to prevent mistakenly enlarging text.
@@ -46,4 +50,3 @@ What does the following piece of CSS code do? ???
 * Prevents font enlarging when using an iPhone.
 * Prevents font enlarging when using an Android phone.
 * Prevents a user from zooming in on a webpage.
-

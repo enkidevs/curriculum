@@ -9,13 +9,17 @@ levels:
 
 type: normal
 
+aspects:
+  - workout
+  - deep
+
 category: hack
 
 
 links:
 
-  - '[github.com](https://github.com/AllThingsSmitty/css-protips){website}'
-  - '[MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/::before){documentation}'
+  - '[CSS Pro Tips](https://github.com/AllThingsSmitty/css-protips){website}'
+  - '[MDN Docs on ::before](https://developer.mozilla.org/en-US/docs/Web/CSS/::before){documentation}'
 
 
 ---
@@ -26,7 +30,7 @@ links:
 ## Content
 
 Display links when the `<a>` element has no text value but the `href` attribute has an external link:
-```
+```css
 a[href^="http"]:empty::before {
   content: attr(href);
 }
@@ -35,7 +39,7 @@ The above code targets:
 ```html
 <a href="http://anysite.com"></a>
 ```
-And it effectively copies the value of `<a>`'s `href` attribute as the content of the `::before` pseudo element. The element will look like this: 
+And it effectively copies the value of `<a>`'s `href` attribute as the content of the `::before` pseudo element. The element will look like this:
 ```html
 <a href="http://anysite.com">
 http://anysite.com
@@ -60,4 +64,3 @@ a[???="http"]:empty::before {
 * `link`
 * `display`
 * `disp^`
-

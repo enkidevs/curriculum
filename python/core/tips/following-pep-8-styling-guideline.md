@@ -13,6 +13,9 @@ type: normal
 
 category: tip
 
+aspects:
+  - introduction
+  - workout
 
 links:
 
@@ -37,7 +40,7 @@ john = 1
 ted = 2
 fred = 3
 ```
-but is not allowed:
+but this is not allowed:
 ```
 john = 1
 ted  = 2
@@ -48,7 +51,7 @@ Raymond Hettinger's word of wisdom:
 "Do not PEP 8 unto others; only PEP 8 thy self.
 Don't let PEP 8 make you insanely intolerant of other people's code."
 
-To PEP 8 yourself, use a linter and an autoformatter. These 
+To PEP 8 yourself, use a linter and an autoformatter. These
 exist for all the popular editors.
 
 ---
@@ -64,14 +67,14 @@ def func():
 
 ???
 
-* yes
 * no
+* yes
 * not applicable
 
 ---
 ## Revision
 
-Which of the following is allowed in the PEP8 styling guidelines? 
+Which of the following is allowed in the PEP8 styling guidelines?
 
 ???
 
@@ -88,7 +91,5 @@ three = 3
 ```
 
 
-* `Option A` 
+* `Option A`
 * `Option B`
-
- 

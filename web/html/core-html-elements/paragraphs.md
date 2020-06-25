@@ -1,5 +1,5 @@
 ---
-author: stefan.stojanovic
+author: Stefan-Stojanovic
 
 levels:
   - beginner
@@ -9,40 +9,36 @@ type: normal
 
 category: must-know
 
-standards:
-  web.syntax-html.0: 10
-  web.markup-text.2: 10
-
 aspects:
   - introduction
+
+links:
 
 ---
 # Paragraphs
 ---
 ## Content
 
-In HTML the `<p>` tag defines the start of a paragraph And the `</p>` defines the end.
+In HTML, the `<p>` tag defines the start of a paragraph and the `</p>` defines the end.
 
-```
+```html
 <p>
-  This is a paragraph
-</p>
-```
-
-Sometimes you may forget to use the end tag, which the browser can still read properly, however it is best practice to put the end tag because some browsers may not read it properly.
-
-To set a specific size of your paragraph, you would use the `style="font-size:(number)%;"`
-
-```
-<p
-  style="font-size:130%;">
   This is a paragraph.
 </p>
 ```
 
-You can set the size either with or without the `%`. Although both inputs are correct, they give different sizes.
+Paragraph Result:
 
-If you do not set a size for your paragraph, then the default size will be 16px(pixels).
+![simple-paragraph](https://img.enkipro.com/fc89aeacc3f0f0509c4fc06684f30a05.png)
+
+[View CodePen](https://codepen.io/enkidevs/pen/gjMMdo)
+
+The defaults of paragraphs:
+
+* The font size is 16px (pixels).
+* The alignment is left aligned.
+* The font family is Times New Roman.
+* There is a margin of space around the top and bottom of each paragraph that is typically 1em.
 
 ---
 ## Practice

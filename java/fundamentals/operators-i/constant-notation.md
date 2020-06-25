@@ -11,6 +11,12 @@ type: normal
 
 category: tip
 
+aspects:
+
+  - introduction
+
+  - obscura
+
 tags:
 
   - final
@@ -18,9 +24,6 @@ tags:
   - constant
 
   - java
-
-
-
 
 ---
 
@@ -33,17 +36,15 @@ When creating constants (variables with only one value), it is good practice to 
 
 This is a common practice within the Java community and makes your code more understandable to other programmers.
 
-```
+```java
 public final int MYCONSTANT = 100;
 public int myNumber = 50;
 ```
 
 When including spaces in the names of your constants, use an underscore `_`:
 
-```
+```java
 public final int IMPORTANT_CONSTANT = 200;
 
 
 ```
-
- 

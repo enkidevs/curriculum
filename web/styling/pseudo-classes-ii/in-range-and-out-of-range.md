@@ -11,11 +11,14 @@ type: normal
 
 category: feature
 
+aspects:
+  - introduction
+  - workout
 
 links:
 
-  - '[MDN in range](https://developer.mozilla.org/en-US/docs/Web/CSS/:in-range)[documentation}'
-  - '[MDN out of range](https://developer.mozilla.org/en-US/docs/Web/CSS/:out-of-range)[documentation}'
+  - '[MDN Docs on :in-range](https://developer.mozilla.org/en-US/docs/Web/CSS/:in-range){documentation}'
+  - '[MDN Docs on :out-of-range](https://developer.mozilla.org/en-US/docs/Web/CSS/:out-of-range){documentation}'
 
 
 ---
@@ -45,6 +48,7 @@ input:out-of-range {
   border: 2px solid red;
 }
 ```
+
 Would change the background color of the field depending on the value introduced.
 
 ---
@@ -53,7 +57,6 @@ Would change the background color of the field depending on the value introduced
 For either `:in-range` and `:out-of-range` pseudo-classes to match, the element has to have
 
 ???
-
 
 * `min`, `max` or both attributes
 * `range` attribute
@@ -66,8 +69,6 @@ For either `:in-range` and `:out-of-range` pseudo-classes to match, the element 
 
 ???
 
-
 * `min`, `max` or both attributes
 * `range` attribute
 * the type of input
-

@@ -1,5 +1,5 @@
 ---
-author: tuwi.dc
+author: tuwidc
 
 levels:
 
@@ -8,6 +8,9 @@ levels:
   - advanced
 
   - medium
+
+aspects:
+  - obscura
 
 type: normal
 
@@ -51,8 +54,8 @@ Corporation key
 ```
 
 If you trust the source's key fingerprint, copy the string after `BADSIG` and use it to run the following:
-```
-$ sudo apt-key adv --recv-keys \ 
+```bash
+sudo apt-key adv --recv-keys \ 
   --keyserver keyserver.ubuntu.com \
  54422A4B98AB5139
 ```
@@ -69,4 +72,6 @@ The installation operation should now succeed.
 * there is not enough space on the disk
 * the login credentials are wrong
 
+ 
+ 
  

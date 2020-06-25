@@ -10,7 +10,10 @@ levels:
   - medium
 
 type: normal
-
+aspects:
+  - introduction
+  - workout
+  - obscura
 standards:
   python.native-types-operations.4: 10
 
@@ -18,7 +21,7 @@ category: tip
 
 ---
 
-# Merge two lists into a dict
+# Parallel Sorting of Lists
 
 ---
 ## Content
@@ -32,7 +35,7 @@ The `zip()` method can bind two lists together such that they become a single on
 names = ['John', 'G', 'Arron', 'Jack']
 age = [18, 21, 40, 32]
 
-print(zip(names, age))
+print(list(zip(names, age)))
 >>> [('John', 18), ('G', 21), ...]
 ```
 
@@ -88,5 +91,3 @@ cities, temps = zip(*sorted(zipped))
 * [12, 17, 16, 21]
 * [12, 16, 17, 21]
 * [12, 16, 21, 16]
- 
- 

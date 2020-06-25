@@ -1,11 +1,14 @@
 ---
-author: tuwi.dc
+author: tuwidc
 
 levels:
 
   - basic
 
   - beginner
+
+aspects:
+  - workout
 
 type: normal
 
@@ -59,4 +62,6 @@ This command allows you to broadcast a message to all users logged in to the sys
 * `shout`
 * `bcast`
 
+ 
+ 
  

@@ -13,7 +13,10 @@ category: best practice
 
 standards:
   python.native-types-operations.4: 10
-
+aspects:
+  - introduction
+  - workout
+  - obscura 
 links:
 
   - '[docs.python.org](https://docs.python.org/3.5/library/bisect.html){website}'
@@ -84,5 +87,3 @@ What will the output of `print(bisect.bisect(a, 2))` be? ???
 * inserts a new element into an ordered list
 * returns the position where to insert a new element in a sorted list
 * sorts and returns an unsorted list
- 
- 

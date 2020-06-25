@@ -11,4 +11,5 @@ insights:
 
 exercises:
   - py-practice-strings
+  - py-practice-syntax
   - py-practice-standard-library

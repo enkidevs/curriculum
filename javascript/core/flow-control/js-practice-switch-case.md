@@ -9,6 +9,9 @@ levels:
 
 type: exercise
 
+aspects:
+  - introduction
+
 link: http://www.codewars.com/kata/572059afc2f4612825000d8a
 linkType: codewars
 standards:
@@ -20,7 +23,8 @@ standards:
 
 links:
 
-  - '[MDN - Switch Case](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/switch)'
+  - '[MDN - Switch Case](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/switch){documentation}'
+  - '[Switch Statements](https://youtu.be/fM5qnyasUYI){video}'
 ---
 
 # JS Practice Switch Case
@@ -28,5 +32,4 @@ links:
 ---
 ## Exercise
 
-Practice using JavaScript Switch-Cases on Code Wars
- 
+Solve this challenge using flow control in JavaScript

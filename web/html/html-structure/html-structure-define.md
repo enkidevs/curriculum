@@ -1,5 +1,5 @@
 ---
-author: stefan.stojanovic
+author: Stefan-Stojanovic
 
 levels:
   - beginner
@@ -9,87 +9,74 @@ type: normal
 
 category: must-know
 
-standards:
-  web.syntax-html.0: 10
-  web.syntax-html.2: 10
-
 aspects:
   - introduction
 
 ---
 # HTML Structure Defined
+
 ---
 ## Content
 
-When writing in HTML there is a certain structure you must follow.
+As you learn to work with HTML, it can be useful to learn the terminology of HTML code. This will help you learn the code as well as help you communicate with others.
 
-The structure of HTML elements is:
-```
-(Element's opening tag)
-(Attribute)"(attributes value)"(content)
-(Element's closing tag)
-```
+The typical structure of HTML elements are defined as:
 
-Example:
-```
-<a
-  href="http://enkipro.com/">Enki
-</a>
-```
+![html-structure-defined](https://img.enkipro.com/0600eacb3e773635c2a5205dc1eddcbb.png)
 
 ---
 ## Practice
 
 Identify the terms defining this HTML code:
 
+```html
+<a href="https:/enki.com/">Enki</a>        
+
+element: ???
+opening tag: ???
+end tag: ???
+attribute: ???
+attribute's name: ???
+attribute's value: ???
 ```
- A  B          C                D  
-<a href="http://enkipro.com/">Enki</a>
 
-<!--IMAGE: html-structure-define.svg-->
-```
-
-A: ???
-B: ???
-C: ???
-D: ???
-
- * element
- * attribute
- * attribute's value
- * content
- * value
- * rule
-
+* `<a href="https:/enki.com/">Enki</a>`
+* `<a href="https:/enki.com/">`
+* `</a>`
+* `href="https:/enki.com/"`
+* `href`
+* `"https:/enki.com/"`
 
 ---
 ## Revision
 
 Match the terms defining this HTML code:
 
+```html
+<a href="https:/enki.com/">
+    Enki
+</a>
+
+
+<a href="https:/enki.com/">Enki</a> : ???
+<a href="https:/enki.com/">: ???
+</a>: ???
+href="https:/enki.com/": ???
+href: ???
+"https:/enki.com/": ???
+Enki: ???
 ```
-AB  C      D                    E  F
-<a href="http://enkipro.com/">Enki</a>
 
-<!--IMAGE: html-structure-define.svg-->
-```
-
-A: ???
-B: ???
-C: ???
-D: ???
-E: ???
-F: ???
-
- * opening tag
- * element
- * attribute
- * attribute's value
- * content
- * closing tag
- * value
- * rule
-
+* element
+* opening tag
+* end tag
+* attribute
+* attribute's name
+* attribute's value
+* content
+* value
+* rule
+ 
 ---
 ## Quiz
 
@@ -99,7 +86,8 @@ Which of these HTML elements is structured properly?
 
 ???
 
- * `<a href="http://enkipro.com/">Enki</a>`
- * `<a></a> href="http://enkipro.com/">Enki`
- * `<a>Enki</a> href="http://enkipro.com/">`
- * `<href a="http://enkipro.com/">Enki</href>`
+* `<a href="http://enki.com/">Enki</a>`
+* `<a></a> href="http://enki.com/">Enki`
+* `<a>Enki</a> href="http://enki.com/">`
+* `<href a="http://enki.com/">Enki</href>`
+ 

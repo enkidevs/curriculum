@@ -8,7 +8,10 @@ levels:
   - medium
 
 type: normal
-
+aspects:
+  - introduction
+  - workout
+  - deep
 category: feature
 
 standards:
@@ -58,7 +61,7 @@ print(a)
 # [7, 8, 999, 12, 9]
 ```
 
---- 
+---
 ## Practice
 
 Replace the smallest number of the heap h with `50`:
@@ -102,5 +105,3 @@ heapq.heapreplace(h, 100)
 * 304
 * 320
 * the following snippet won't wor
- 
- 

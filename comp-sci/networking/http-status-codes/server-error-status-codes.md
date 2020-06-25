@@ -15,7 +15,11 @@ type: normal
 
 category: must-know
 
+aspects:
 
+  - introduction
+
+  - workout
 
 parent: client-error-status-codes
 
@@ -63,4 +67,4 @@ What status code should the server return if it is unable to process the request
 * `501` **Not Implemented**
 * `504` **Gateway Timeout**
 
- 
+

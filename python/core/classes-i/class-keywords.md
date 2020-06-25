@@ -9,7 +9,8 @@ type: normal
 
 category: must-know
 
-
+aspects:
+  - introduction
 standards:
   python.object-oriented.0: 10
 
@@ -64,5 +65,3 @@ Functions without an enclosing class are called ???
 * methods
 * attributes
 * objects
- 
- 

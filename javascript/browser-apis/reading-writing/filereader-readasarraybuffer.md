@@ -8,7 +8,15 @@ levels:
 
 type: normal
 
-category: must-know
+category: feature
+
+aspects:
+  - introduction
+  - workout
+  - deep
+
+standards:
+  javascript.browser-store-data.6: 10
 
 links:
   - '[developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/API/FileReader/readAsArrayBuffer){website}'
@@ -75,5 +83,4 @@ reader.???()
 * readTypedArray
 * readArray
 * readBuffer
-
  

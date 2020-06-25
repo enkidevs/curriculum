@@ -1,5 +1,5 @@
 ---
-author: tuwi.dc
+author: tuwidc
 
 levels:
 
@@ -10,6 +10,9 @@ levels:
   - medium
 
   - beginner
+
+aspects:
+  - workout
 
 type: normal
 
@@ -59,4 +62,6 @@ Some tools that monitor the bandwidth are  ???
 * ab and dd.
 * top and vnstat.
 
+ 
+ 
  

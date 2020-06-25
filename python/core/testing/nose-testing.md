@@ -10,7 +10,10 @@ levels:
 type: normal
 
 category: must-know
-
+aspects:
+  - introduction
+  - workout
+  - deep
 standards:
   python.testing.1: 10
   python.testing.5: 10
@@ -45,7 +48,7 @@ def test_two():
 
 For this example we'll **run** the test with `-v` (verbose) flag:
 ```bash
-$ nosetests -v multiply.py
+nosetests -v multiply.py
 ```
 The following **output** will be produced:
 ```bash

@@ -13,10 +13,13 @@ type: normal
 
 category: how to
 
+aspects:
+  - workout
+  - deep
 
 links:
 
-  - '[developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/CSS/-webkit-touch-callout){website}'
+  - '[MDN Docs on webkit-touch-callout](https://developer.mozilla.org/en-US/docs/Web/CSS/-webkit-touch-callout){documentation}'
 
 
 ---
@@ -28,7 +31,7 @@ links:
 
 On iOS, when you touch and hold a touch target such as a link, the browser displays a callout containing information about the link.
 
-You can use `-webkit-touch-callout` to disable the callout: 
+You can use `-webkit-touch-callout` to disable the callout:
 
 ```css
 -webkit-touch-callout: none;
@@ -39,7 +42,7 @@ You can use `-webkit-touch-callout` to disable the callout:
 ---
 ## Revision
 
-Which property is missing in the following CSS code when disabling the defauly callout shown when a touch target is touched and held? 
+Which property is missing in the following CSS code when disabling the default callout shown when a touch target is touched and held?
 ```css
 -webkit-???: none;
 ```
@@ -54,4 +57,3 @@ And which browser is this only compatible with? ???
 * Chrome
 * Internet Explorer
 * Firefox
-

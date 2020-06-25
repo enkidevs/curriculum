@@ -11,6 +11,10 @@ levels:
 
 type: normal
 
+aspects:
+  - workout
+  - deep
+
 category: how to
 
 tags:
@@ -22,7 +26,7 @@ tags:
 
 links:
 
-  - '[stackoverflow.com](http://stackoverflow.com/questions/3296644/hiding-the-scrollbar-on-an-html-page){website}'
+  - '[Hiding the Scrollbar on the Web](http://stackoverflow.com/questions/3296644/hiding-the-scrollbar-on-an-html-page){discussion}'
 
 
 ---
@@ -32,17 +36,17 @@ links:
 ---
 ## Content
 
-To hide the scrollbar on a particular element: 
+To hide the scrollbar on a particular element:
 
-```
-#element::-webkit-scrollbar { 
-    display: none; 
+```css
+#element::-webkit-scrollbar {
+    display: none;
 }
 ```
 Or, hide all scrollbars on the page:
-```
-::-webkit-scrollbar { 
-    display: none; 
+```css
+::-webkit-scrollbar {
+    display: none;
 }
 ```
 
@@ -51,23 +55,23 @@ Or, hide all scrollbars on the page:
 
 Complete the code snippet to hide all scrollbars on a webkit browser page:
 
-```
+```css
 ??? {  
     display: ???;  
-} 
+}
 ```
 
-* `::-webkit-scrollbar` 
+* `::-webkit-scrollbar`
 * `none`  
-* `.webkit-scrollbar` 
-* `::webkit-scrollbar` 
-* `hide` 
+* `.webkit-scrollbar`
+* `::webkit-scrollbar`
+* `hide`
 * `false`
 
 ---
 ## Revision
 
-What does the following piece of code do? 
+What does the following piece of code do?
 ```css
 ::-webkit-scrollbar {
    display: none;
@@ -79,4 +83,3 @@ What does the following piece of code do?
 * Hides all the scrollbars of a particular element.
 * Displays all scrollbars on the page.
 * Displays all the scrollbars of a particular element.
-

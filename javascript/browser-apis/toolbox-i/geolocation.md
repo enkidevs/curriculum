@@ -10,6 +10,17 @@ type: normal
 
 category: feature
 
+aspects:
+  - introduction
+  - new
+  - workout
+  - deep
+
+
+standards:
+  javascript.browser-apis-browser.0: 10
+  javascript.browser-apis-device.1: 10
+
 links:
   - '[www.sitepoint.com](http://www.sitepoint.com/html5-geolocation/){website}'
 
@@ -19,7 +30,7 @@ links:
 ---
 ## Content
 
-The Geolocation API provides location information such as the latitude and longitude coordinates. 
+The Geolocation API provides location information such as the latitude and longitude coordinates.
 
 The exact information available will depend on the device.
 
@@ -56,24 +67,24 @@ Fill in the gaps in the following code snippet. Using the geolocation API expose
 ```javascript
 navigator.???.???(
   function(pos) {
-    const lat = pos.???.???,
-    const long = ???.???
-    console.log(lat, long)
+    const lat = pos.???.???;
+    const long = ???.???;
+    console.log(lat, long);
   }
-)
+);
 ```
 
 * geolocation
 * getCurrentPosition
-* coordinate
+* coords
 * latitude
-* pos.coordinate
+* pos.coords
 * longitude
 * pos.latitude
 * pos.longitude
 * geoLocation
 * getPosition
-* coord
+* coordiate
 * watchPosition
 * getLocation
 
@@ -85,8 +96,8 @@ Fill in the missing bits of the following snippet such that, using the Geolocati
 ```javascript
 navigator.???.???(
   function (pos) {
-    console.log('new position', pos)
-})
+    console.log('new position', pos);
+});
 ```
 
 * geolocation
@@ -98,5 +109,4 @@ navigator.???.???(
 * watch
 * listen
 * onChange
-
  

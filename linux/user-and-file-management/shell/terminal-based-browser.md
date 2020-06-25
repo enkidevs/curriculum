@@ -1,5 +1,5 @@
 ---
-author: tuwi.dc
+author: tuwidc
 
 levels:
 
@@ -8,6 +8,10 @@ levels:
   - medium
 
   - beginner
+
+aspects:
+  - obscura
+  - workout
 
 type: normal
 
@@ -39,8 +43,8 @@ tags:
 
 It is possible to browse websites from the terminal using `lynx`.
 
-```
-$ lynx https://google.com
+```bash
+lynx https://google.com
 ```
 
 ```ssh
@@ -73,4 +77,6 @@ You can browse websites from the terminal using the
 * browse package
 * firefox package
 
+ 
+ 
  

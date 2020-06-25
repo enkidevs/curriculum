@@ -7,5 +7,9 @@ insights:
   - what-are-iterators
   - the-iteration-protocol
   - the-itertools-module
+  - the-itertools-module-ii
   - iterators-applications
- 
+
+exercises:
+  - py-practice-functional-libraries
+  - py-practice-next-iter

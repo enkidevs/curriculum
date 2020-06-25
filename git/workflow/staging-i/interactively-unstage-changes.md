@@ -9,11 +9,15 @@ type: normal
 
 category: must-know
 
+aspects:
+
+  - workout
+  - deep
 
 links:
 
-  - '[git-scm.com](https://git-scm.com/docs/git-reset){website}'
-  - '[git-scm.com](https://git-scm.com/docs/git-add){website}'
+  - '[Git Reset](https://git-scm.com/docs/git-reset){documentation}'
+  - '[Git Add](https://git-scm.com/docs/git-add){documentation}'
 
 parent: interactively-stage-patches
 
@@ -27,12 +31,12 @@ parent: interactively-stage-patches
 In the same way that you can interactively stage changes, you can interactively unstage changes using `git reset` with the `--patch` option.
 
 For a single file:
-```
-$ git reset --patch experiment.md
+```bash
+git reset --patch experiment.md
 ```
 For the whole repository:
-```
-$ git reset --patch
+```bash
+git reset --patch
 ```
 You then decide what you want to do with each *hunk* (couple of lines of changed code) by selecting one of the options:
 ```
@@ -53,8 +57,8 @@ The hunk above contained the first 2 line changes in the *README* file. You will
 ## Practice
 
 What does this command do?
-```
-$ git reset --patch enki.md
+```bash
+git reset --patch enki.md
 ```
 ???
 
@@ -66,12 +70,14 @@ $ git reset --patch enki.md
 ## Revision
 
 Interactively unstage some of the changes made to `enki.md`.
-```
-$ git reset ??? ???
+```bash
+git reset ??? ???
 ```
 
 * `--patch`
 * `enki.md`
 * `-patch`
 
+ 
+ 
  

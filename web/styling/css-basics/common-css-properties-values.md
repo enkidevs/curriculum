@@ -2,21 +2,24 @@
 author: mihaiberq
 
 levels:
-
   - beginner
 
 type: normal
 
 category: pattern
 
+aspects:
+  - introduction
+  - workout
+
 inAlgoPool: false
 
 links:
-
-- '[MDN colors](https://developer.mozilla.org/en-US/docs/Web/CSS/color_value){documentation}'
-- '[MDN lengths](https://developer.mozilla.org/en-US/docs/Web/CSS/length){documentation}'
-
-
+  - '[MDN Docs on Color](https://developer.mozilla.org/en-US/docs/Web/CSS/color_value){documentation}'
+  - '[MDN Docs on Length](https://developer.mozilla.org/en-US/docs/Web/CSS/length){documentation}'
+  - '[Scrimba CSS Selectors, Properties & Values](https://scrimba.com/p/pWvwCg/cpKbvTV){website}'
+  - '[Scrimba CSS Length Units](https://scrimba.com/p/pWvwCg/cGLEnHg){website}'
+  - '[Scrimba CSS Colors](https://scrimba.com/p/pWvwCg/cMMymu2){website}'
 ---
 
 # Common CSS Properties Values
@@ -24,11 +27,11 @@ links:
 ---
 ## Content
 
-We have talked about *selectors* and *specificity* using almost the same CSS properties in every insight: `color`, `background-color`,`font-size` or `font-weight`. Now of course there are a lot of other existing properties, and, more importantly, there are many ways to declare them.
+We've talked about *selectors* and *specificity* using almost the same CSS properties in every insight: `color`, `background-color`,`font-size` or `font-weight`. Now of course there are a lot of other existing properties, and more importantly there are many ways to declare them.
 
 ### Colors
-Each of these CSS declarations specifies the same thing: that a every `div` tag should have a white background by default.
-```
+Each of these CSS declarations specifies the same thing: that every `div` tag should have a white background by default.
+```css
 .div-hex {
 /* hexadecimal value */
 background-color: #ffffff;
@@ -84,4 +87,3 @@ If *purple* is the combination of *red* and *blue*, which of the following is no
 * #ff00ff
 * rgb(255,0,255)
 * purple
-

@@ -12,7 +12,9 @@ type: normal
 category: feature
 
 inAlgoPool: false
-
+aspects:
+  - introduction
+  - workout
 
 standards:
   python.standard-library-data.1: 10
@@ -97,5 +99,3 @@ a = ???.???(“6.42”)
 * `d`
 * `dec`
 * `Object`
- 
- 

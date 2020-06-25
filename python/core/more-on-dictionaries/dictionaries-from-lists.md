@@ -8,7 +8,9 @@ levels:
 type: normal
 
 category: how to
-
+aspects:
+  - introduction
+  - workout
 standards:
   python.native-types-operations.6: 10
 
@@ -28,7 +30,7 @@ Usually, two lists can be converted into a **dictionary**.
 
 Let's consider two lists:
 - one containing some names
-- the other one containing each ones occupation
+- the other one containing each one's occupation
 
 ```
 names = ['Ovi', 'Maria', 'Sorin']
@@ -129,5 +131,3 @@ print(C)
 * `pop`
 * `clear`
 * `list`
- 
- 

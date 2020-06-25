@@ -15,6 +15,11 @@ type: normal
 
 category: must-know
 
+aspects:
+
+  - deep
+
+  - obscura
 
 links:
 
@@ -33,7 +38,7 @@ parent: binary-search
 
 The simplicity of the algorithm comes from the fact that no *primality testing*, which will be discussed in a further insight, will be necessary.
 
-A prime number is the number that has exactly two distinct natural divisors: *1* and *itself*. Every prime number (other than *2*) will therefore be *odd*.
+A prime number is a number that has exactly two distinct natural divisors: *1* and *itself*. Every prime number (other than *2*) will therefore be *odd*.
 
 Sieve of Eratosthenes algorithm goes as follows:
 - Create a list of *n-1* consecutive numbers beginning with 2.
@@ -96,4 +101,4 @@ You would use the sieve of Eratosthenes for
 * test if a tree has a binary search tree's properties
 * finding the prime divisors of a number
 
- 
+

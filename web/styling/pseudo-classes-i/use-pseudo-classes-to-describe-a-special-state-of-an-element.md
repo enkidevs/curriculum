@@ -9,21 +9,18 @@ type: normal
 
 category: pattern
 
+aspects:
+  - introduction
+  - workout
+
 tags:
-
   - css
-
   - pseudo-class
-
   - links
 
-
 links:
-
-  - '[www.sitepoint.com](http://www.sitepoint.com/web-foundations/pseudo-classes/){website}'
-  - '[Code example](http://codepen.io/mihaiberq/pen/wzGvWq){website}'
-  - '[MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/:hover){documentation}'
-
+  - '[Article on Pseudo Classes](http://www.sitepoint.com/web-foundations/pseudo-classes/){article}'
+  - '[MDN Docs on :hover](https://developer.mozilla.org/en-US/docs/Web/CSS/:hover){documentation}'
 
 ---
 
@@ -53,6 +50,8 @@ a:active  { /* selected link */
 ```
 If defined in a different order (other than *LVHA*), there's a big chance they will override one another.
 
+[Code example](http://codepen.io/mihaiberq/pen/wzGvWq)
+
 ---
 ## Practice
 
@@ -77,4 +76,3 @@ What is the common order of pseudo-classes used for links?
 * ps:visited {
 * ps:hover {
 * ps:active {
-

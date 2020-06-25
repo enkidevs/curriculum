@@ -1,5 +1,5 @@
 ---
-author: tuwi.dc
+author: tuwidc
 
 levels:
 
@@ -10,6 +10,9 @@ levels:
   - medium
 
   - beginner
+
+aspects:
+  - obscura
 
 type: normal
 
@@ -70,4 +73,6 @@ is needed for `crontab` to run the last job in the list.
 * A comment at the end
 * $
 
+ 
+ 
  

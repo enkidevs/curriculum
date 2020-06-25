@@ -1,11 +1,10 @@
-name: Bash Environment
+name: Environment Variables
 
-description: Getting familiar with the bash environment.
+description: Understand what environment variables are.
 
 insights:
-  - customizing-bash-via-bashrc
+  - using-the-terminal
+  - linux-shell-variables
   - what-are-environment-variables
-  - understanding-the-path-environment-variable
-  - manipulating-environment-variables
-  - adding-directories-to-your-path
- 
+  - common-environment-variables
+  - customizing-bash-via-bashrc

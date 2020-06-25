@@ -40,19 +40,19 @@ To support subsequent modification of those modules and to not need to go throug
 The whole linking process consists of two steps, the first being declaring a module as a global link. This is done by running :
 
 ```bash
-$ npm link
-// must be run in the root module folder
+npm link
+# must be run in the root module folder
 ```
 
 Secondly, to install the linked modules in the target app using the following command:
 
 ```bash
-$ npm link myImportedModule
+npm link myImportedModule
 ```
 
 This method fails when you have a local module depending on another local module:
 
-```text
+```plain-text
 modules/moduleOne
 modules/moduleTwo -> depends on moduleOne
 app/
@@ -61,13 +61,13 @@ app/
 To solve this steps must be taken:
 
 ```bash
-$ cd modules/moduleOne
-$ npm link
-$ cd modules/moduleTwo
-$ npm link moduleOne
-$ npm link
-$ cd app/
-$ npm link moduleTwo
+cd modules/moduleOne
+npm link
+cd modules/moduleTwo
+npm link moduleOne
+npm link
+cd app/
+npm link moduleTwo
 ```
 
 ---
@@ -90,7 +90,7 @@ Consider your main application relies on an external library `myLibrary` you hav
 Which npm command can you use to make you application use your local version of the library?
 
 ```bash
-$ npm ???
+npm ???
 ```
 
 * link myLibrary
@@ -99,4 +99,5 @@ $ npm ???
 * --local:myLibrary
 * --use-local=myLibrary
 * --local=myLibrary
+ 
  

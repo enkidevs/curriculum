@@ -13,10 +13,14 @@ type: normal
 
 category: how to
 
+aspects:
+
+  - workout
+  - obscura
 
 links:
 
-  - '[git-scm.com](http://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration){website}'
+  - '[Overcome Line-Ending Issues](http://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration#_formatting_and_whitespace){website}'
 
 
 ---
@@ -31,20 +35,20 @@ Windows uses a carriage-return character and a linefeed character (CRLF) for new
 To make sure the files in the team's shared repository have LF endings and to prevent problems when you checkout to Windows, you can set `core.autocrlf`.
 
 On Windows:
-```
-$ git config --global core.autocrlf true
+```bash
+git config --global core.autocrlf true
 ```
 On Mac and Linux:
-```
-$ git config --global core.autocrlf input
+```bash
+git config --global core.autocrlf input
 ```
 
 ---
 ## Practice
 
 Enable `core.autocrlf` on Windows:
-```
-$ git ??? ???
+```bash
+git ??? ???
       ??? ???
 ```
 
@@ -65,4 +69,6 @@ Linux/Mac   ???
 * input
 * start
 * -true
+ 
+ 
  

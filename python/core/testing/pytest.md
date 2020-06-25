@@ -10,7 +10,10 @@ levels:
 type: normal
 
 category: must-know
-
+aspects:
+  - introduction
+  - workout
+  - deep
 standards:
   python.testing.1: 10
   python.testing.3: 10
@@ -44,7 +47,7 @@ def test_two():
 
 The test can be run issuing the following command[1]:
 ```bash
-$ pytest multiply_pytest.py
+pytest multiply_pytest.py
 ```
 With the following output:
 ```bash
@@ -105,7 +108,7 @@ For `pytest` to collect an assertion function, its name has
 [1: CLI]
 You have to install `pytest` through Python's package manager, `pip`:
 ```bash
-$ pip install --user pytest
+pip install --user pytest
 ```
  
  

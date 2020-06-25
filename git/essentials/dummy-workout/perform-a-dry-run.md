@@ -9,6 +9,11 @@ type: normal
 
 category: must-know
 
+aspects:
+
+  - workout
+  - deep
+
 links:
 
   - >-
@@ -23,14 +28,14 @@ links:
 Some commands in git allow you to have a dry run. The `--dry-run` option gives a preview of the results of the command.
 
 To check which files `-fd` will delete:
-```
-$ git clean -fd --dry-run
+```bash
+git clean -fd --dry-run
 Would remove test.md
 ```
 
 To check which files a commit will include (much like `git status`):
-```
-$ git commit --dry-run --short
+```bash
+git commit --dry-run --short
 M  index.html
 ```
 
@@ -38,8 +43,8 @@ M  index.html
 ## Practice
 
 Preview the result of the following command:
-```
-$ git rm -r resources/ ???
+```bash
+git rm -r resources/ ???
 ```
 
 * --dry-run
@@ -51,12 +56,14 @@ $ git rm -r resources/ ???
 ## Revision
 
 How do you preview the results of a command?
-```
-$ git clean -fd ???
+```bash
+git clean -fd ???
 ```
 
 * --dry-run
 * --prev
 * after
 * reflog
+ 
+ 
  

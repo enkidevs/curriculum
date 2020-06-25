@@ -11,6 +11,10 @@ type: normal
 
 category: feature
 
+aspects:
+
+  - introduction
+
 tags:
 
   - directories
@@ -23,11 +27,9 @@ tags:
 
   - root-directory
 
-
 links:
 
   - '[docs.oracle.com](https://docs.oracle.com/javase/tutorial/essential/io/dirs.html){website}'
-
 
 ---
 
@@ -41,7 +43,7 @@ Using the **static** `FileSystems` class, you can get the default `FileSystem` (
 The `getRootDirectories()` method of `FileSystem`  can be used to acquire a list of root directories on a file system.
 
 An object of type `Iterable` is returned, so the directories can be iterated over in the following way:
-```
+```java
 FileSystem sys = FileSystems.getDefault();
 Iterable<Path> d = sys.getRootDirectories();
 for (Path name: d) {
@@ -66,5 +68,3 @@ Iterable<Path> myDir = ???
 * FileSystem
 * System
 * FileSystemUtils
-
- 

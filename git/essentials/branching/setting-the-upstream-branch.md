@@ -11,11 +11,16 @@ type: normal
 
 category: must-know
 
+aspects:
+  
+  - deep
+  - workout
+  
 
 links:
 
-  - '[git-scm.com](http://git-scm.com/book/en/v2/Git-Branching-Remote-Branches){website}'
-  - '[git-scm.com](https://git-scm.com/docs/git-branch){website}'
+  - '[Remote Branches Official Documentation](http://git-scm.com/book/en/v2/Git-Branching-Remote-Branches){website}'
+  - '[Git Branch Official Documentation](https://git-scm.com/docs/git-branch){website}'
 
 
 ---
@@ -30,15 +35,15 @@ When you use the `git clone` or `git checkout` commands on a remote repository, 
 Instead, you can explicitly set the upstream branch by using the `-u` or `--set-upstream-to` options.
 
 For example, to set the current branch to track the remote branch `scrollFix`:
-```
-$ git branch -u origin/scrollFix
+```bash
+git branch -u origin/scrollFix
 ```
 
 ---
 ## Practice
 
-```
-$ git ??? ??? 
+```bash
+git ??? ??? 
         ???/???
 ``` 
 is used to set the current branch to follow the remote branch *newFeature*.
@@ -59,4 +64,6 @@ is used to set the current branch to follow the remote branch *newFeature*.
 * single
 * false
 
+ 
+ 
  

@@ -9,6 +9,10 @@ type: normal
 
 category: how to
 
+aspects:
+  - workout
+  - deep
+
 tags:
 
   - responsive design
@@ -20,8 +24,8 @@ tags:
 
 links:
 
-  - '[learn.shayhowe.com](http://learn.shayhowe.com/advanced-html-css/responsive-web-design/){website}'
-  - '[developers.google.com](https://developers.google.com/web/fundamentals/layouts/rwd-fundamentals/use-media-queries?hl=en){website}'
+  - '[Responsive Web Design](http://learn.shayhowe.com/advanced-html-css/responsive-web-design/){article}'
+  - '[Web Design Basics](https://developers.google.com/web/fundamentals/layouts/rwd-fundamentals/use-media-queries?hl=en){website}'
 
 parent: using-media-rule-to-create-cross-platform-responsiveness
 
@@ -32,13 +36,13 @@ parent: using-media-rule-to-create-cross-platform-responsiveness
 ---
 ## Content
 
-It's good practice to have conditional breakpoints for responsive images. 
+It's good practice to have conditional breakpoints for responsive images.
 
-This way, they're displayed in columns so that when they get too small, the columns will collapse. 
+This way, they're displayed in columns so that when they get too small, the columns will collapse.
 
 To do this, make use of media queries.
 
-```
+```css
 /* For small devices (e.g. smartphones) */
 img {
   max-width: 100%;
@@ -85,4 +89,3 @@ img {
 * `tablet`
 * `screen-size`
 * `@resize`
-

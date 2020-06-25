@@ -1,5 +1,5 @@
 ---
-author: stefan.stojanovic
+author: Stefan-Stojanovic
 
 levels:
   - beginner
@@ -8,9 +8,6 @@ levels:
 type: normal
 
 category: must-know
-
-standards:
-  web.embed-media.0: 10
 
 aspects:
   - introduction
@@ -22,16 +19,17 @@ aspects:
 ---
 ## Content
 
-The `title` attribute is used for representing helpful information about the element it belongs to.
-Usually via a tooltip.
-
-Tooltips appear to the user when they hover their mouse over the image.
+The `title` attribute can be added to any HTML element, but is most often used with images and links for when the user mouses over these elements, a tooltip will appear. 
 
 Example:
-```
+```html
 <img src="logo.svg"
-  title="Tooltip Text Here">
+  title="Enki: Official Logo">
 ```
+
+![image-with-tooltip](https://img.enkipro.com/5182be329afc3898f8f5fb4db11ceb08.png)
+
+
 ---
 ## Practice
 

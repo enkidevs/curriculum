@@ -12,7 +12,9 @@ levels:
 type: normal
 
 category: feature
-
+aspects:
+  - workout
+  - deep
 
 standards:
   python.data-structures-uses.3: 10
@@ -92,5 +94,3 @@ Convert the bytearray object into a hexadecimal string:
 * `tohex`
 * `byte`
 * `array`
- 
- 

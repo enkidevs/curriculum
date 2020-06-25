@@ -12,6 +12,9 @@ levels:
 type: normal
 
 category: feature
+aspects:
+  - introduction
+  - workout
 
 standards:
   python.standard-library-data.0: 10
@@ -101,5 +104,3 @@ print(random.???())
 * `new`
 * `get`
 * `new_random`
- 
- 

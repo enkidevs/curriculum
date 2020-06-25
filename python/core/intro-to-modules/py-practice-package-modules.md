@@ -8,7 +8,9 @@ levels:
   - basic
 
 type: exercise
-
+aspects:
+  - introduction
+  - workout
 link: https://www.codewars.com/kata/the-enigma-machine-part-1-the-plugboard
 linkType: codewars
 standards:
@@ -34,5 +36,3 @@ links:
 ## Exercise
 
 Train using python packages.
- 
- 

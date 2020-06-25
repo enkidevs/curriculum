@@ -8,7 +8,8 @@ levels:
   - basic
 
 type: exercise
-
+aspects:
+  - introduction
 link: https://www.codewars.com/kata/classy-extentions
 linkType: codewars
 standards:
@@ -31,5 +32,3 @@ links:
 ## Exercise
 
 Practice using classes in python.
- 
- 

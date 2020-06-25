@@ -11,6 +11,9 @@ type: normal
 
 category: how to
 
+aspects:
+  - introduction
+
 tags:
 
   - fonts
@@ -22,7 +25,7 @@ tags:
 
 links:
 
-  - '[www.google.com](https://www.google.com/fonts){website}'
+  - '[Google Fonts](https://www.google.com/fonts){website}'
 
 
 ---
@@ -32,15 +35,16 @@ links:
 ---
 ## Content
 
-The Google Font API is an easy and useful source for fonts. 
+The Google Font API is an easy and useful source for fonts.
 
-Steps: 
+Steps:
 
-1) Go to the Google font database in the link provided in the insight. 
+1) Go to the Google font database in the link provided in the insight.
 
 2) Pick your font and add the stylesheet link to your HTML
-```
-<head> 
+
+```html
+<head>
 ...
 
   <link href='http://fonts.googleapis.
@@ -49,8 +53,10 @@ sheet' type='text/css'>
 
 </head>
 ```
+
 3) Add the font-family to your element in CSS:
-```
+
+```css
 h1 {
 font-family: 'Font name', Arial;
 font-weight: 300; /*if available
@@ -72,4 +78,3 @@ Once you've chosen a font, add the ??? to your HTML and the ??? to your element 
 * Google font database
 * Google font API
 * font description
-

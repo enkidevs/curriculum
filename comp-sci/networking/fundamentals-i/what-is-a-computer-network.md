@@ -2,18 +2,14 @@
 author: SebaRaba
 
 levels:
-
   - beginner
 
 type: normal
 
 category: must-know
 
-
-links:
-
-  - '[www.explainingcomputers.com](http://www.explainingcomputers.com/networking.html){website}'
-
+aspects:
+  - introduction
 
 ---
 
@@ -33,10 +29,10 @@ Keep in mind that nodes can be **linked** with the help of:
 - telephone lines
 - radio waves, enabling a **wireless** connection
 - satellites
-- infrared light beams    
+- infrared light beams
 
 Even though nowadays we take for granted that all devices can connect to a network, this wasn't always this case.
-While modern devices have network devices integrated into their circuit boards, older ones counting PCs or XBox game consoles need a *peripheral* network device, such as *USB adapters* or *Network Interface Cards* (NIC).
+While modern devices have network devices integrated into their circuit boards, older ones such as PCs or game consoles, needed a *peripheral* network device, such as *USB adapters* or *Network Interface Cards* (NIC).
 
 At the same time, some devices can't connect to a network at all.
 
@@ -48,7 +44,6 @@ The largest and most known computer network is the **Internet**. This world-wide
 Within a computer network, what do we call devices that send, route, or receive data?
 
 ???
-
 
 * nodes
 * hardware
@@ -67,4 +62,3 @@ Such examples are:
 - routers
 - modems
 - switches
- 

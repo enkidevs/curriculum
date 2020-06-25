@@ -7,6 +7,10 @@ levels:
 
   - medium
 
+aspects:
+  - workout
+  - obscura
+
 type: normal
 
 category: hack
@@ -50,7 +54,7 @@ A shell script accepts comments starting with `#` or `;` . Therefore, this scrip
 **Usage:**
 
 ```shell
-$ sudo clean_file /etc/ntp/conf
+sudo clean_file /etc/ntp/conf
 ```
 
 ---
@@ -66,4 +70,6 @@ A script to delete comments and empty lines from configuration files would use t
 * del
 * cd
 
+ 
+ 
  

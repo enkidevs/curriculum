@@ -1,5 +1,5 @@
 ---
-author: stefan.stojanovic
+author: Stefan-Stojanovic
 
 levels:
   - beginner
@@ -9,27 +9,24 @@ type: normal
 
 category: must-know
 
-standards:
-  web.semantic-html.0: 10
-  web.semantic-html.1: 10
-  web.semantic-html.3: 10
-
 aspects:
   - introduction
   - workout
   - deep
 
 links:
-  - '[MDN docs for cite](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/cite){website}'
+  - '[HTML <cite> Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/cite){documentation}'
 
 ---
-# Cite Element
+# The `<cite>` Element
+
 ---
 ## Content
 
-The HTML `<cite>` element is used to describing a reference to a cited `creative work`. This element has to contain either the title or the URL of the cited work.
+The HTML `<cite>` element is used to describe a reference of a cited **creative work**. This element needs to contain either the title or the URL of the cited work.
 
 What falls under creative work:
+
 - Any online content
 - Any book
 - Any computer program
@@ -40,17 +37,20 @@ What falls under creative work:
 - Any original artwork
 - Any research paper
 
-Example:
-```
+```html
 <p>
-  More information about enki
+  More information about Enki here
   <cite>
     [https://enki.com/about]
   </cite>.
 </p>
 ```
 
-The cited URL under the `<cite>` element will, by default, display in <i>italic</i>. However, this is easily editable by adding the `font-style` CSS property to the `<cite>` element.
+![cite](https://img.enkipro.com/28852f600f281af9f98989e02b4471bc.png)
+
+The cited URL under the `<cite>` element will, by default, display in <i>italic</i>. However, this is easily editable by adding the `font-style` CSS property to the `<cite>` element and changing the default value to 'normal' or even 'oblique' (aka bold).
+
+[View CodePen](https://codepen.io/enkidevs/pen/xzyKBz)
 
 ---
 ## Practice
@@ -72,7 +72,7 @@ Which statement about the `<cite>` element is not correct?
 
 What HTML element is best to use in this example?
 
-```
+```html
 <p>
 The 1939 movie
 <tag>The Wizard of Oz</tag>

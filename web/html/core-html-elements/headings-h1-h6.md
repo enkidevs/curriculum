@@ -1,5 +1,5 @@
 ---
-author: stefan.stojanovic
+author: Stefan-Stojanovic
 
 levels:
   - beginner
@@ -9,16 +9,11 @@ type: normal
 
 category: must-know
 
-standards:
-  web.syntax-html.0: 10
-  web.markup-text.0: 10
-  web.markup-text.2: 10
-
 aspects:
   - introduction
 
 links:
-  - '[Elements on MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements){documentation}'
+  - '[HTML Elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements){documentation}'
 
 ---
 # Headings (h1-h6)
@@ -26,50 +21,38 @@ links:
 ---
 ## Content
 
-The HTML heading elements are very important.
+The HTML heading elements are very important when determining the style and structure of text within web pages.
 
-They are used to determine the structure of your page.
-
-There are 6 headings in HTML5 ranging from `<h1>` to `<h6>`, `<h1>` being the most important and largest, `<h6>` being the least important and smallest.
-
-Each heading has a pre set size. However, they are easily modified.
+There are 6 headings in HTML5 ranging from `<h1>` to `<h6>`. `<h1>` being the largest in size by default and most important by search engines. `<h6>` being the smallest and least important of the text headings within a web page.
 
 Example:
+```html
+<h1>Heading 1</h1>
+<h2>Heading 2</h2>
+<h3>Heading 3</h3>
+<h4>Heading 4</h4>
+<h5>Heading 5</h5>
+<h6>Heading 6</h6>
 ```
-<h1
-  style="font-size:60px;">
-  Heading 1
-</h1>
+Headings appear like this:
 
-<h2
-  style="font-size:48px;">
-  Heading 2
-</h2>
-```
-Result:
+![heading-sizes](https://img.enkipro.com/dfc6e88808b6a70ddb2c6e74f7132faa.png)
 
-<h1
-  style="font-size:60px;">
-  Heading 1
-</h1>
+[View CodePen](https://codepen.io/enkidevs/pen/KBMMBb)
 
-<h2
-  style="font-size:48px;">
-  Heading 2
-</h2>
+Search engines interpret headings as part of your page and use the hierarchy to help understand the importance of the content of the web page. It is important that regardless of how much content the web page has, each web page has at least one `<h1>` highlighting the most important topic of the page.
 
-By default, the `<h4>` heading is the same size as `<p>`.
+An `h1` should describe the topic of the entire page. `h2`'s typically describe primary blocks of content within the page, and `h3`'s describe less important blocks of content, etc.
 
+Headings are also useful for readability since users typically skim through pages primarily scanning the headings first. Thus, the size of the headings can help provide visual cues to the importance of different sections of the web pages.
 
-Search engines interpret headings as part of your page. They use them to display important info for the user.
+*Additional Tips:*
 
-When users skim through pages, they are mostly looking through headings only. This is why it's important to have at least one heading in your page, and you should always start with `<h1>`.
+Search engines will not penalize multiple uses of `h1`, but one use of an `h1` per page is often preferred. Multiple uses of all the other headings are common and encouraged.
 
-An `<h1>` heading provides users with easier access to the main content of the page.
+By default, the `<h4>` heading is the same size as `<p>`, which is 16px.
 
-It is used in the banner of a web page to describe the website.
-
-Also, it increases readability.
+Don't skip heading sequences, like using `h1` and then an `h3`. You'll only want to use `h3` if you have both `h1` & `h2` on the page.
 
 ---
 ## Practice
@@ -78,7 +61,7 @@ Which of these is not true about headings:
 
 ???
 
-* Headings are more important for page style than search engine ranking.  
+* Headings are more important for page style than search engine ranking.
 * There are 6 heading sizes ranging from `<h1>` to `<h6>`
 * By default, `<h4>` is the same size as a paragraph `<p>`.
 * Every web page should have at least one `<h1>`.

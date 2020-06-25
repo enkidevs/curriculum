@@ -1,5 +1,5 @@
 ---
-author: stefan.stojanovic
+author: Stefan-Stojanovic
 
 levels:
   - beginner
@@ -9,27 +9,25 @@ type: normal
 
 category: must-know
 
-standards:
-  web.html-forms.2: 10
-
 aspects:
   - workout
   - deep
   - obscura
 
+links:
+
 ---
-# Formnovalidate & novalidate
+# The `formnovalidate` & `novalidate` Attributes
 ---
 ## Content
 
 The HTML `novalidate` form input attribute is used to specify that the input should not be validated when submitted.
 
-When specified, the `formnovalidate` attribute overrides the `novalidate` attribute.
-It can be used with the `type"submit"` and `type"image"` attributes.
+When specified, the `formnovalidate` attribute overrides the `novalidate` attribute. It can be used with the `type="submit"` and `type="image"` attributes.
 
 Example:
 
-```
+```html
 <form
  action="/action_page.php" novalidate >
  E-mail:
@@ -39,12 +37,16 @@ Example:
 </form>
 ```
 
+![form-novalidate](https://img.enkipro.com/987efbd8f9042c25e26b95c9607ae550.png)
+
+[View CodePen](https://codepen.io/enkidevs/pen/xzmmKy)
+
 ---
 ## Practice
 
 Complete the code by adding the appropriate input form attributes to disable the validation within the form element and in the submit button.
 
-```
+```html
 <form
  action="/action_page.php" ??? >
  E-mail:
@@ -65,7 +67,7 @@ Complete the code by adding the appropriate input form attributes to disable the
 
 Complete the code by adding the appropriate input form attributes to disable the validation within the form element and in the submit button.
 
-```
+```html
 <form
  action="/action_page.php" ??? >
  E-mail:

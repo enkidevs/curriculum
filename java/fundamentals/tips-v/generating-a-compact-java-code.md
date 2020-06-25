@@ -11,6 +11,11 @@ type: normal
 
 category: tip
 
+aspects:
+
+  - deep
+
+  - obscura
 
 links:
 
@@ -29,5 +34,3 @@ If you're trying to make your code more compact the obvious step would be to JAR
 (for example: CalculatingNumberOfThreads) by shorter, just 2-3 characters.
 
 Use it only on final step, before delivery to customer, as it makes code less readable.
-
- 

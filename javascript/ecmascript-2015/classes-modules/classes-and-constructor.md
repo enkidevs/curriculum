@@ -9,6 +9,11 @@ type: normal
 
 category: feature
 
+aspects:
+  - introduction
+  - new
+  - workout
+
 inAlgoPool: false
 
 tags:
@@ -19,10 +24,6 @@ tags:
 links:
   - '[MDN - Classes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes){webstie}'
   - '[MDN - Constructors](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/constructor){website}'
-
-aspects:
-  - introduction
-
 
 ---
 # Classes and Constructor

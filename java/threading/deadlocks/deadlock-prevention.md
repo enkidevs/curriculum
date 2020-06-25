@@ -9,11 +9,15 @@ type: normal
 
 category: how to
 
+aspects:
+
+  - workout
+
+  - deep
 
 links:
 
   - '[More on Deadlock Prevention](https://en.wikipedia.org/wiki/Deadlock_prevention_algorithms){website}'
-
 
 ---
 
@@ -49,5 +53,3 @@ What is a *master* lock?
 * A general single lock which which is required by every process in order to run
 * Hope it will not occur
 * It is a lock that is acquired by a master process
-
- 

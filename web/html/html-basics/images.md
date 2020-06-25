@@ -9,20 +9,12 @@ type: normal
 
 category: must-know
 
-inAlgoPool: false
-
-standards:
-  web.syntax-html.0: 10
-  web.syntax-html.1: 10
-  web.embed-media.0: 10
-
 aspects:
   - introduction
 
 links:
-  - '[MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img){documentation}'
-
-
+  - '[HTML <img> Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img){documentation}'
+  
 ---
 
 # Images
@@ -30,32 +22,46 @@ links:
 ---
 ## Content
 
-**Images** are *self-enclosing elements*, which display external pictures.They are delimited by the `<img/>` tag.
+**Image** elements display pictures that are stored online. Image elements are unique because they are *self-enclosing elements*, which means that do not have a separate closing tag and are written as a single tag like this:
 
-A self-enclosing element receives its content from attributes within a single tag. The attribute specifying the image source is `src`:
 ```html
-<img src="logo.jpg"/>
+<img src="logo.png" />
 ```
-This works if the image is found in the same folder as the HTML document. For images located inside other folders:
+The image tag will appear in a webpage like this:  
+
+![image-logo-enki](https://img.enkipro.com/0d7d7f3eddad7f5d27b006d0408081ed.png)
+
+An image element receives its content using the source attribute, written as `src`. In this case, the image would be found in the same folder as the HTML document: 
+
 ```html
-<img src="resources/logo.jpg" />
+<img src="logo.png" />
 ```
-Or external sources:
+
+For images located inside other folders:
+```html
+<img src="images/logo.png" />
+```
+
+For images located on other websites:
 ```html
 <img
-  src="https://remotehosting.com/logo.jpg"/>
+  src="http://website.com/logo.png"/>
 ```
-By default, if the image fits inside the screen, it will be displayed depending on its resolution. A *600×400* image's width will be *600* and its height will be *400*.
 
-If its resolution is bigger than the screen, the browser will resize it. Custom dimensions can be specified using `width` and `height` attributes:
+By default, an image will display within a webpage at its original height and width, measured in pixels. The image size can be overridden by using the `width` and `height` attributes - measured in pixels (although it is common for images to be sized appropriately using height and width in CSS):
+
 ```html
 <img src="logo.jpg"
   width="150" height="150" />
 ```
-Another useful attribute is `alt`, which fills the image with a placeholder in case it was not found or it is still loading:
+
+Another important attribute is `alt`, which provides a text description in the browser in case the image doesn't load properly, as well as helping search engines and screen readers for visually disabled understand the meaning of the image. 
+
 ```html
-<img src="html/logo.jpg"
-  alt="This should be the logo" />
+<img src="images/cat.jpg"
+  alt="Mufasa sitting on top
+       of Pride Rock, looking 
+       majestic." />
 ```
 
 ---
@@ -63,11 +69,11 @@ Another useful attribute is `alt`, which fills the image with a placeholder in c
 
 Complete the following snippet such that it contains valid code:
 ```html
-<img ???="example.com/path/dog.jpg"/>
+<img ???="images/puppy.jpg"/>
 ```
-
 
 * src
 * href
 * link
 * source
+ 

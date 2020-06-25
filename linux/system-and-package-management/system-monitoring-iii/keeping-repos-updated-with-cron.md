@@ -1,5 +1,5 @@
 ---
-author: tuwi.dc
+author: tuwidc
 
 levels:
 
@@ -8,6 +8,9 @@ levels:
   - advanced
 
   - medium
+
+aspects:
+  - obscura
 
 type: normal
 
@@ -56,4 +59,6 @@ Append:
 
 This will only update the repos, leaving the system ready to be upgraded.
 
+ 
+ 
  

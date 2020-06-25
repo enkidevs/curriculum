@@ -1,5 +1,5 @@
 ---
-author: tuwi.dc
+author: tuwidc
 
 levels:
 
@@ -46,22 +46,22 @@ Subsequently, you can find different *types* of commands[1].
 Find an **alias**:
 
 ```bash
-$ type ls
+type ls
 ls is aliased to `ls --color=auto'
 ```
 Find a **file**:
 ```bash
-$ type rm
+type rm
 rm is /bin/rm
 ```
 Find a **builtin**:
 ```bash
-$ type cd
+type cd
 cd is a shell builtin
 ```
 Find a **function**:
 ```bash
-$ type psgrep
+type psgrep
 psgrep is a function
 psgrep () 
 { 
@@ -74,8 +74,8 @@ psgrep ()
 ```
 
 You can also check the type of `type`:
-```
-$ type type
+```bash
+type type
 type is a shell builtin
 ```
 
@@ -96,4 +96,6 @@ alongside another command to find out its alias, functions, builtins and keyword
 ## Footnotes
 [1:info]
 `type` can find whether the targeted command is an *alias*, a *keyword*, a *function*, a *builtin* or a *file*.
+ 
+ 
  

@@ -9,6 +9,13 @@ type: normal
 
 category: feature
 
+aspects:
+
+  - deep
+
+  - obscura
+
+  - new
 
 links:
 
@@ -67,4 +74,3 @@ lock.???;
 * `readLock()`
 * `lockReading()`
 * `lockWriting()`
- 

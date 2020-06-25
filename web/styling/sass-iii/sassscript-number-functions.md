@@ -13,10 +13,13 @@ type: normal
 
 category: tip
 
+aspects:
+  - workout
+  - deep
 
 links:
 
-  - '[sass-lang.com](http://sass-lang.com/documentation/Sass/Script/Functions.html){website}'
+  - '[Article on Functions](http://sass-lang.com/documentation/Sass/Script/Functions.html){article}'
 
 
 ---
@@ -45,7 +48,7 @@ round(9.2px) => 9px
 // returns a random number between 0 and 1
 random => 0 <= num < 1
 
-// returns a random number between 1 and 
+// returns a random number between 1 and
 // the limit
 random(3) => 1 <= num <= 3
 
@@ -61,11 +64,11 @@ abs(-2px); /* ??? */
 ```
 
 
-* `200%` 
-* `2px` 
-* `2%` 
-* `-2px` 
-* `0.2px` 
+* `200%`
+* `2px`
+* `2%`
+* `-2px`
+* `0.2px`
 * `20%`
 
 ---
@@ -88,4 +91,3 @@ random(2);
 * 0px
 * random value : `0 <= x <= 2`
 * random value : `x < 2`
-

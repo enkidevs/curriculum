@@ -15,6 +15,11 @@ type: normal
 
 category: how to
 
+aspects:
+
+  - deep
+
+  - obscura
 
 links:
 
@@ -98,4 +103,4 @@ For an exponent of `350`, what's the upper-bound of the number of operations req
 ## Footnotes
 [1:Improvement]
 For an exponent of `20`, it takes *9 operations* to do the same what it would otherwise take *19 operations*.
- 
+

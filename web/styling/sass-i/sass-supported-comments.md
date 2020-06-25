@@ -11,10 +11,12 @@ type: normal
 
 category: best practice
 
+aspects:
+  - introduction
 
 links:
 
-  - '[sass-lang.com](http://sass-lang.com/documentation/file.SASS_REFERENCE.html#comments){website}'
+  - '[Sass Comments](http://sass-lang.com/documentation/file.SASS_REFERENCE.html#comments){website}'
 
 
 ---

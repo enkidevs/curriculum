@@ -13,12 +13,13 @@ type: normal
 
 category: best practice
 
+aspects:
+  - introduction
+  - workout
 
 links:
 
-  - '[github.com](https://github.com/AllThingsSmitty/css-protips){website}'
-
-notes: ''
+  - '[CSS Pro Tips](https://github.com/AllThingsSmitty/css-protips){website}'
 
 ---
 
@@ -28,7 +29,7 @@ notes: ''
 ## Content
 
 Since `SVG` (Scalable Vector Graphics) scales well for all resolution types, it is useful for icons:
-```
+```css
 .logo {
   background: url("logo.svg");
 }
@@ -38,7 +39,7 @@ Since `SVG` (Scalable Vector Graphics) scales well for all resolution types, it 
 ---
 ## Practice
 
-What does SVG stand for? 
+What does SVG stand for?
 
 ???
 
@@ -50,11 +51,10 @@ What does SVG stand for?
 ---
 ## Revision
 
-Why does `SVG` prove to be useful for icons? 
+Why does `SVG` prove to be useful for icons?
 
 ???
 
 * It scales well for all resolution types.
 * As SVG stands for Small Vector Graphics.
 * As it's supported in all browsers from IE9.
-

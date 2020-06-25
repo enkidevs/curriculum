@@ -2,20 +2,19 @@
 author: stefkn
 
 levels:
-
   - beginner
-
   - basic
-
   - medium
+
+aspects:
+  - introduction
+  - workout
 
 type: normal
 
 category: must-know
 
-
 links:
-
   - '[Iteration Protocol](https://medium.com/the-python-corner/iterators-and-generators-in-python-2c3929a144b){website}'
 
 

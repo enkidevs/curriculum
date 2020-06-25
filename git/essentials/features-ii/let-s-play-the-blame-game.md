@@ -13,10 +13,15 @@ type: normal
 
 category: tip
 
+aspects:
+  
+  - introduction
+  - obscura
+  - workout
 
 links:
 
-  - '[git-scm.com](https://git-scm.com/book/en/v2/Git-Tools-Debugging-with-Git){website}'
+  - '[Debugging with Git](https://git-scm.com/book/en/v2/Git-Tools-Debugging-with-Git){website}'
 
 
 ---
@@ -34,8 +39,8 @@ The blame command is a Git feature, designed to help you determine who made chan
 
 In this screen shot the blame command shows who and when changes were made in this file:
 
-```
-$ git blame ./com/mypackage/login/Login.java
+```bash
+git blame ./com/mypackage/login/Login.java
  566a0863 (joe 2011-07-12 09:43:39 +0100 1)
  package com.mypackage.login;
  ed0a7c55 (Ale 2011-07-12 09:43:51 +0100 2)
@@ -51,8 +56,8 @@ ed0a7c54 (chen 2011-07-12 09:43:51 +0100 4)
 ## Practice
 
 Complete the command to see the changes made to a file and by whom:
-```
-$ ??? ??? 
+```bash
+??? ??? 
          src/myPackage/Main.java
 ```
 
@@ -72,4 +77,6 @@ $ ??? ???
 * active developers for the repository
 * nothing
 
+ 
+ 
  

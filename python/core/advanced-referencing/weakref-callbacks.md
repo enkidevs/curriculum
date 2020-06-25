@@ -10,7 +10,10 @@ levels:
 type: normal
 
 category: how to
+aspects:
 
+  - workout
+  - deep
 
 standards:
   python.store-manipulate-data.5: 10
@@ -36,7 +39,7 @@ import weakref
 class Enki(object): pass #empty object
 
 def callback(reference):
-    print("callback", reference)
+  print("callback", reference)
 
 enki = Enki() #definition of callback
 r = weakref.ref(enki, callback)
@@ -56,8 +59,8 @@ These callbacks can be useful for example to remove dead references from a cache
 
 Complete the following code snippet (supposing a callback function is defined):
 
-```
- r = weakref.???(enki, ???)
+```python
+r = weakref.???(enki, ???)
 ```
 
 
@@ -67,10 +70,6 @@ Complete the following code snippet (supposing a callback function is defined):
 * `run`
 * `flag`
 * `bool`
-
-
-
-* `flag`
 * `boolean`
 * `return`
 
@@ -81,9 +80,5 @@ What functionality does `callback` carry in `r = weakref.ref(enki, callback)`?
 
 ???
 
-
 * `callback` function is invoked when `enki` is deleted.
 * In this case `callback` is a proxy to `enki`.
-
- 
- 

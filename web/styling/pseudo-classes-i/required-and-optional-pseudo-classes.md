@@ -9,15 +9,14 @@ type: normal
 
 category: must-know
 
-tags:
-
-  - 
-
+aspects:
+  - workout
+  - deep
 
 links:
 
-  - '[css-tricks.com](https://css-tricks.com/almanac/selectors/r/required/){website}'
-  - '[MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes)[documentation}'
+  - '[The Required Selector](https://css-tricks.com/almanac/selectors/r/required/){website}'
+  - '[MDN Docs on Pseudo Classes](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes){documentation}'
 
 
 ---
@@ -27,7 +26,7 @@ links:
 ---
 ## Content
 
-Especially when creating a form, some fields in it are mandatory for user to complete. 
+Especially when creating a form, some fields in it are mandatory for user to complete.
 
 All modern browsers support the `:required` and `:optional` pseudo classes:
 
@@ -35,7 +34,7 @@ All modern browsers support the `:required` and `:optional` pseudo classes:
 :required {
   border: 2px solid red;
 }
- 
+
 :optional {
   border: 2px solid blue;
 }
@@ -85,4 +84,3 @@ What does the following CSS code do? ???
 * Returns an error.
 * Makes the border of all fields solid and black.
 * Makes the border of all fields dotted and blue.
-

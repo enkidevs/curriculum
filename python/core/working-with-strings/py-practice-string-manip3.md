@@ -9,8 +9,10 @@ levels:
 
   - medium
 
-type: exercise 
-
+type: exercise
+aspects:
+  - introduction
+  - workout
 link: https://www.codewars.com/kata/create-phone-number
 linkType: codewars
 standards:

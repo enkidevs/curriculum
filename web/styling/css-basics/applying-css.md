@@ -2,19 +2,20 @@
 author: mihaiberq
 
 levels:
-
   - beginner
 
 type: normal
 
 category: must-know
 
+aspects:
+  - introduction
+
 inAlgoPool: false
 
 links:
-
-  - '[MDN](https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS){documentation}'
-
+  - '[MDN Docs on CSS](https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS){documentation}'
+  - '[Scrimba CSS Documents & Cascade](https://scrimba.com/p/pWvwCg/c3vE7cg){website}'
 
 ---
 
@@ -40,17 +41,17 @@ Within the `<head>` element of the HTML document, add a new `<link>` element poi
 The `href` attribute contains the path to the `.css` file, much like it would work for the `a` element. The above snippet refers to a style sheet located in the same directory as the HTML document. To link a CSS file inside a subdirectory:
 ```html
 <link rel="stylesheet"
-   href="subdir/main.css"/>
+   href="subdir/main.css">
 ```
 
 ---
 ## Practice
 
 Complete the HTML snippet to import an external CSS file:
-```
+```html
 <head>
   <??? ???="stylesheet"
-           ???="index.css" />
+           ???="index.css" >
 </head>
 ```
 
@@ -71,4 +72,3 @@ What is the recommended way of applying CSS?
 * External file.
 * Internal CSS.
 * Inline CSS.
-

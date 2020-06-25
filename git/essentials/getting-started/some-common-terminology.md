@@ -9,12 +9,15 @@ type: normal
 
 category: must-know
 
+aspects:
+
+  - introduction
+  
 inAlgoPool: false
 
 
 links:
-
-  - '[help.github.com](https://help.github.com/articles/github-glossary/){website}'
+  - '[GitHub Glossary Official Documentation](https://help.github.com/articles/github-glossary/){website}'
 
 
 ---
@@ -54,7 +57,9 @@ A `tag` is a pointer to a specific commit which uniquely identifies a repository
 The `staging` area is where work expected to be committed is staged.
 ### Index
 
-The **staging area** is also be referred to as `index`.
+The **staging area** is also referred to as `index`.
+
+> Note: as with all the skills in the app, if you want to access more advanced or specific content at any time, **feel free to use the *Skill Map* tab** to jump to the workouts most relevant for you.
 
 ---
 ## Practice

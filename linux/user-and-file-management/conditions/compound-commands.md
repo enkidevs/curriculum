@@ -7,6 +7,10 @@ levels:
 
   - medium
 
+aspects:
+  - introduction
+  - workout
+
 type: normal
 
 category: feature
@@ -28,23 +32,23 @@ While `test` does a good job at evaluating expressions, requiring different oper
 
 The `(( expression ))` command evaluates an arithmetic expression and returns *1* if expression evaluates to *0*, and *0* otherwise. The advantage of using this command is that you don't have to escape the characters:
 ```bash
-$ (( 1 == 2 )) && echo true || echo false
+(( 1 == 2 )) && echo true || echo false
 # false
-$ (( 4/2 - 2 )); echo $?
+(( 4/2 - 2 )); echo $?
 # 1
 ```
 On the other hand, `[[ expression ]]` allows you to combine tests that are allowed for the `test` command (same syntax, comprising files, strings or integers):
 ```bash
 # regex matching
-$ [[ "abc de" == a[bc]*\ d* || \
+[[ "abc de" == a[bc]*\ d* || \
     (( 2 > 1 )) ]]; echo $?
 # 0
-$ [[ 3 -gt 2 ]]; echo $?
+[[ 3 -gt 2 ]]; echo $?
 # 0
 ```
 And also files:
 ```bash
-$ [[ -w $HOME || 2 > 1 ]] && echo "true"
+[[ -w $HOME || 2 > 1 ]] && echo "true"
 #  true
 ```
 
@@ -78,4 +82,6 @@ Which of the following statements about `(( ))` is false?
 * 3
 * none
 
+ 
+ 
  

@@ -11,7 +11,8 @@ type: normal
 
 category: must-know
 
-
+aspects:
+  - introduction
 
 
 ---
@@ -30,9 +31,9 @@ A preprocessor is a program that takes an input and produces an output to be use
 The `sass-convert` command line utility allows fast conversion between the two syntaxes:
 ```bash
 # Sass to SCSS
-$ sass-convert main.sass main.scss
+sass-convert main.sass main.scss
 # SCSS to Sass
-$ sass-convert main.scss main.sass
+sass-convert main.scss main.sass
 ```
 In the following insights, we will be using the *SCSS* syntax.
 
@@ -110,7 +111,8 @@ The CSS extensions with indented syntax is ???
 
 Fill in the gaps such that the following statement becomes true (pick `_` if no word should go there):
 ```
-Any ??? CSS file is a valid ??? file.
+Any ??? CSS file
+is a valid ??? file.
 ```
 
 * valid
@@ -118,4 +120,5 @@ Any ??? CSS file is a valid ??? file.
 * Sass
 * _
 * preprocessed
-
+ 
+ 

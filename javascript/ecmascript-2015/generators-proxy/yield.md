@@ -1,15 +1,13 @@
 ---
 author: alexjmackey
 
-levels:
-  - medium
-  - advanced
-
 type: normal
 
 category: must-know
 
-inAlgoPool: false
+aspects:
+  - introduction
+  - workout
 
 links:
   - '[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/yield#Examples){website}'
@@ -20,17 +18,17 @@ links:
 ---
 ## Content
 
-We can actually make our number example even more succinct by using **yield***:
+We can actually make our number example even more succinct by using `yield*`:
 
 ```javascript
-function* genShort(){
-  yield* [1,2,3,4,5];
+function* genShort() {
+  yield* [1, 2, 3, 4, 5];
 }
 ```
 
 When we use `yield*` it iterates over values supplied to the expression (in this case the array).
 
-yield* could also be used to split work between two generators:
+`yield*` could also be used to split work between two generators:
 
 ```javascript
 function* gen1() {
@@ -44,11 +42,11 @@ function* gen2() {
   yield 4;
 }
 var it = gen1();
-it.next();//Object {value: 1, done: false}
-it.next();//Object {value: 2, done: false}
-it.next();//Object {value: 3, done: false}
-it.next();//Object {value: 4, done: false}
-it.next();//Object {value: 5, done: false}
+it.next(); // {value: 1, done: false}
+it.next(); // {value: 2, done: false}
+it.next(); // {value: 3, done: false}
+it.next(); // {value: 4, done: false}
+it.next(); // {value: 5, done: false}
 ```
 
 ---

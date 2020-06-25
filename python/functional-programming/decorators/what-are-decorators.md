@@ -2,18 +2,18 @@
 author: mihaiberq
 
 levels:
-
   - beginner
+
+aspects:
+  - introduction
+  - workout
 
 type: normal
 
 category: must-know
 
-
 links:
-
   - '[What are decorators?](https://www.thecodeship.com/patterns/guide-to-python-function-decorators/){website}'
-
 
 ---
 
@@ -47,7 +47,7 @@ def goodbye_heading(name):
   return "<h2>{0}</h2>"
     .format(say_goodbye(name))
 ```
-This is not ideal, since all you had done, for both function, was to **decorate** (enhance, manipulate or extend) their output. What if could write a function that wraps any function's output in `<h2>` tags?
+This is not ideal, since all you had done, for each function, was to **decorate** (enhance, manipulate or extend) their output. What if you could write a function that wraps any function's output in `<h2>` tags?
 ```python
 def h2_decorate(string_function):
   def func_wrapper(name):
@@ -62,7 +62,7 @@ goodbye_wrapper = h2_decorate(say_goodbye)
 print(hello_wrapper("Mike"))
 print(goodbye_wrapper("Sam"))
 # <h2>Hello, Mike!</h2>
-# <h2>Hello, Sam!</h2>
+# <h2>Goodbye, Sam!</h2>
 ```
 We've mentioned *higher-order functions* in the introduction. Try and figure out where the concept is used in `h2_decorate`'s function definition.
 

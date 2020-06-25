@@ -9,8 +9,10 @@ levels:
 
   - medium
 
-type: exercise 
-
+type: exercise
+aspects:
+  - workout
+  - deep
 link: https://www.codewars.com/kata/binary-representation-of-an-integer
 linkType: codewars
 standards:

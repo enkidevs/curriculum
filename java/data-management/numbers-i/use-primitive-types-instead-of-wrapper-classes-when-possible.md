@@ -11,8 +11,9 @@ type: normal
 
 category: best practice
 
+aspects:
 
-
+  - introduction
 
 ---
 
@@ -43,7 +44,7 @@ The first comparison is faster than the second, as the first just compares value
 ## Practice
 
 What comparison is considered to be more efficient?
-```
+```java
 // 1
 int x = 4;
 int y = 4;
@@ -70,5 +71,3 @@ What are considered more efficient?
 
 * `primitive types`
 * `wrapper classes`
-
- 

@@ -9,11 +9,15 @@ type: normal
 
 category: how to
 
+aspects:
+
+  - workout
+
+  - deep
 
 links:
 
   - '[More on Banker`s Algorithm](https://en.wikipedia.org/wiki/Banker%27s_algorithm){website}'
-
 
 ---
 
@@ -65,6 +69,7 @@ This of course can be expanded to multiple resource types.
 ## Practice
 
 Why is this an unsafe state?
+
 ```
 A : 2k/10k
 
@@ -76,9 +81,8 @@ D : 1k / 6k
 
 Free : 3k
 ```
+
 ???
-
-
 
 * A will not run
 * B will not run
@@ -96,5 +100,3 @@ How does dynamic avoidance work?
 * Calculating whether it will be safe to grant a resource to a process on every iteration
 * Calculating the overall load an the capacity of the system
 * Ensuring that the will always be more resources that the processes
-
- 

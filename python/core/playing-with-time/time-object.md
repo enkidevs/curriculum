@@ -15,12 +15,14 @@ standards:
   python.native-types-operations.8: 10
 
 parent: datetime-module
-
+aspects:
+  - introduction
+  - workout
 
 links:
 
-  - '[docs.python.org](https://docs.python.org/3.5/library/datetime.html#time-objects){website}'
-  - '[pymotw.com](https://pymotw.com/3/datetime/){website}'
+  - '[Time Objects](https://docs.python.org/3.5/library/datetime.html#time-objects){website}'
+  - '[Date & Time Value Manipulation](https://pymotw.com/3/datetime/){website}'
 
 ---
 
@@ -74,7 +76,7 @@ current = date.today()
 print(current) # 2017-06-27
 ```
 
-Another way of creating a `date` is from a **timestamp value** (and even from a **proleptic Georgian ordinal value**[1]):
+Another way of creating a `date` is from a **timestamp value** (and even from a **proleptic Gregorian ordinal value**[1]):
 ```python
 d = date.fromtimestamp(1256953732)
 print(d) # 2009-10-31
@@ -147,7 +149,5 @@ current = ???
 
 ---
 ## Footnotes
-[1:proleptic Georgian calendar]
+[1:Proleptic Gregorian Calendar]
 The proleptic Gregorian calendar is produced by extending the Gregorian calendar backward with negative values to dates preceding its official introduction in **1582**.
- 
- 

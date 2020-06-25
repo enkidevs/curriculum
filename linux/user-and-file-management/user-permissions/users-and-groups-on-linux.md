@@ -53,9 +53,8 @@ The `/etc/group` file contains a list of every group on the system.  Run `cat /e
 You can use the `groups` command to see which groups a specific user belongs to.  For example:
 
 ```shell
-$ groups jesse
+groups jesse
 jesse : admin www-data rvm
-$
 ```
 
 Here we can see that the user `jesse` belongs to three groups: `admin`, `www-data`, and `rvm`.
@@ -65,7 +64,7 @@ Here we can see that the user `jesse` belongs to three groups: `admin`, `www-dat
 
 You can see the groups a user is in by issuing:
 ```
-$ ??? ???
+??? ???
 ```
 
 * `groups`
@@ -74,4 +73,6 @@ $ ??? ???
 * `ls -g`
 * `-groups`
 
+ 
+ 
  

@@ -11,6 +11,10 @@ type: normal
 
 category: tip
 
+aspects:
+
+  - introduction
+
 tags:
 
   - file-io
@@ -19,11 +23,9 @@ tags:
 
   - paths
 
-
 links:
 
   - '[docs.oracle.com](https://docs.oracle.com/javase/tutorial/essential/io/check.html){website}'
-
 
 ---
 
@@ -35,7 +37,7 @@ links:
 When performing operations on files, it is useful to be able to check whether expected files or directories actually exist.
 
 We can check that a file or directory exists by using the `exists` method:
-```
+```java
 File f = new File("path/to/file");
 if(f.exists()) {
   ...
@@ -44,7 +46,7 @@ if(f.exists()) {
 However, `exists` returns `true` for both files and directories. This can cause a problem if we are expecting to be able to open a file and instead are met with a directory.
 
 To solve this, `isFile` and `isDirectory` can be used to check specifically for files and directories respectively:
-```
+```java
 File f = new File("path/to/file");
 if(f.isFile()) {
   ...
@@ -55,7 +57,7 @@ if(f.isFile()) {
 ## Revision
 
 You have the following code snippet:
-```
+```java
 File f = new File("usr/home/enki");
 if( ??? ){
   try{
@@ -94,4 +96,3 @@ public static void main(String[] args) {
 * If the stream is empty
 * If variable 'line' is a string
 * If 'stream.filter()' function exists
- 

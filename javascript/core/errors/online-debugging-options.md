@@ -57,7 +57,7 @@ Which of the following statements do you consider false?
 * you need HTML to test JavaScript
 * online JavaScript environments allow the use of external libraries
 * you can share your code easier through online JavaScript environments
-* online JavaScript environments can ease the proccess of testing out code
+* online JavaScript environments can ease the process of testing out code
 
 ---
 ## Revison
@@ -68,6 +68,6 @@ Do online JavaScript environments allow the use of external libraries?
 
 * yes
 * no
-* only React and Angluar
+* only React and Angular
 * only jQuery
  

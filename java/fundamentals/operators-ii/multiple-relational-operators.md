@@ -11,7 +11,9 @@ type: normal
 
 category: tip
 
+aspects:
 
+  - introduction
 
 notes: Hope it's not too basic
 
@@ -36,11 +38,8 @@ Intuitively, it may appear as though this checks whether `x` exists within the r
 
 and assign value true or false. 
 
-The outcome of that test is then compared against 2, which is not the intended step. To write such condition correctly make sure to use `AND` :
+The outcome of that test is then compared against 2, which is not the intended step. To write such condition correctly make sure to use `AND`:
 
 ```java
 if (-2 <= x && x <= 2) { doSomething }
-
 ```
-
- 

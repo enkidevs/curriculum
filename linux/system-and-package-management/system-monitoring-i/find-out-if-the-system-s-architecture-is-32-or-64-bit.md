@@ -1,5 +1,5 @@
 ---
-author: tuwi.dc
+author: tuwidc
 
 levels:
 
@@ -8,6 +8,10 @@ levels:
   - medium
 
   - beginner
+
+aspects:
+  - introduction
+  - workout
 
 type: normal
 
@@ -38,15 +42,15 @@ tags:
 ## Content
 
 The easiest way to do it is executing:
-```
-$ uname -m
+```bash
+uname -m
 ```
 This will output `x86_64` or `i386/i586/i686`.
 
 You can use `-a` flag for an extended output:
 
-```
-$ uname -a
+```bash
+uname -a
 ```
 
 The result for a 32-bit system[1]:
@@ -63,8 +67,8 @@ The `x86_64` at the end before the GNU/Linux means that the system is running a 
 ## Practice
 
 To find out *just* your system’s architecture, you would run :
-```
-$ ??? ???
+```bash
+??? ???
 ```
 
 * `uname`
@@ -76,8 +80,8 @@ $ ??? ???
 ## Revision
 
 To find out your system’s arhitecture you would run :
-```
-$ ???
+```bash
+???
 ```
 
 * `uname -a`
@@ -88,4 +92,6 @@ $ ???
 ## Footnotes
 [1:32-bit of Context]
 i386 means you are running a 32-bit kernel supporting codes compatible with the Intel 80386 processor - which is from 1985. The same principle applies for every other `iXXX` output, all being 32-bit.
+ 
+ 
  

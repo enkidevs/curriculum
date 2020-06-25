@@ -8,6 +8,9 @@ levels:
   - basic
 
 type: exercise
+aspects:
+  - introduction
+  - workout
 
 link: https://www.codewars.com/kata/help-the-bookseller
 linkType: codewars

@@ -18,9 +18,10 @@ standards:
   python.native-types-operations.4: 10
   python.store-manipulate-data.4: 10
 
-tags:
-
-  -
+aspects:
+  - introduction
+  - workout
+  - deep
 
 
 links:
@@ -91,5 +92,3 @@ What module has the `normalize` method used to normalise unicode data strings?
 * `unicode`
 * `normal`
 * `normalize`
- 
- 

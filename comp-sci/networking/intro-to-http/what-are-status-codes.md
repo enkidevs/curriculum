@@ -15,6 +15,11 @@ type: normal
 
 category: must-know
 
+aspects:
+
+  - introduction
+
+  - workout
 
 links:
 
@@ -74,4 +79,4 @@ If the client gets a `5xx` status code, it means that
 * the requested resource can be found at another address
 * everything is OK so far
 
- 
+

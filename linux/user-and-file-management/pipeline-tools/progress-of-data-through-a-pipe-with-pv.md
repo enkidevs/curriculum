@@ -1,5 +1,5 @@
 ---
-author: tuwi.dc
+author: tuwidc
 
 levels:
 
@@ -37,6 +37,7 @@ tags:
 
 
 aspects:
+  - introduction
   - workout
 
 
@@ -54,12 +55,12 @@ This can be done by installing `pv` and putting it between input / output pipes.
 
 
 To install:
-```
-$ sudo apt-get install pv
+```bash
+sudo apt-get install pv
 ```
 Example:
-```
-$ dd if=/dev/urandom | pv | dd of=/dev/null
+```bash
+dd if=/dev/urandom | pv | dd of=/dev/null
 ```
 Output
 ```
@@ -69,8 +70,8 @@ You could specify the approximate size with the `--size` if you want a time esti
 
 
 You can also use it to output to stdout:
-```
-$ pv /home/user/bigfile.iso | md5sum
+```bash
+pv /home/user/bigfile.iso | md5sum
 ```
 Output
 ```
@@ -80,9 +81,12 @@ Output
 Note that in this case, `pv` recognises the size automatically.
 
 Using `pv` can prove extremely useful when working with big files or processes taking long time to complete.
- For example you can keep track how fast a file is transferred with `nc` command:
-```
-$ pv myFile | nc -w 1 example.com 3000
+
+For example you can keep track how fast a file is transferred with `nc` command:
+```bash
+pv myFile | nc -w 1 example.com 3000
 ```
 
+ 
+ 
  

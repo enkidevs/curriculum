@@ -6,6 +6,10 @@ levels:
   - beginner
 
   - basic
+  
+aspects:
+  - introduction
+  - workout
 
 type: exercise
 
@@ -31,4 +35,3 @@ links:
 ## Exercise
 
 Practice using the JavaScript Array methods `isArray()`, `indexOf()` and `toString()`
- 

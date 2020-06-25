@@ -4,13 +4,17 @@ author: SebaRaba
 levels:
 
   - beginner
- 
+
   - basic
 
 type: exercise
 
 link: https://www.codewars.com/kata/help-the-bookseller
 linkType: codewars
+aspects:
+  - introduction
+  - workout
+  - obscura
 standards:
 
   python.store-manipulate-data.0: 3000

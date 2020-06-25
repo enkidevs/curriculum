@@ -9,10 +9,13 @@ type: normal
 
 category: must-know
 
+aspects:
+
+  - introduction 
+
+  - workout
+
 inAlgoPool: false
-
-
-
 
 ---
 
@@ -28,7 +31,7 @@ Formally, a parent class is called a **superclass**, and a child class a **subcl
 Let's take the `Car` class as example. While it is a generic type, in an app we might be looking for something more specific, like `FamilyCar` and `SportsCar`. Each of those subclasses would have all the fields and methods of a `Car` object, on top of which they have their own properties.
 
 If, for a family car, the number of seats would be important as well, the  `FamilyCar` class declaration would look like this:
-```
+```java
 public FamilyCar extends Car {
   /* implicit fields obtained by extension
      String model;
@@ -57,7 +60,7 @@ The two keywords here are `extends` and `super()`. The first tells the JVM that 
 The `super()` method has to be the *first statement* in the constructor, or otherwise an error is thrown.
 
 The `SportsCar` class would look almost the same, but here it makes sense to know if the engine is turbocharged or not:
-```
+```java
 public SportsCar extends Car {
 
   boolean turboCharged;
@@ -71,7 +74,7 @@ public SportsCar extends Car {
 
 ```
 We can then declare variables as such:
-```
+```java
 Car car = new Car("genericCar","5332V",
        "grey",4);
 FamilyCar fCar = new FamilyCar("familyCar",
@@ -80,7 +83,7 @@ SportsCar sCar = new SportsCar("sportsCar",
     "BH93A","red", 2, true);      
 ```
 Because of inheritance, we would be able to call the `start()` method for all objects, even though we haven't explicitly declared them:
-```
+```java
 car.start();
 fCar.start();
 sCar.start();
@@ -92,7 +95,7 @@ The car starts!
 The car starts!
 ```
 Or access their inherited fields:
-```
+```java
 System.out.println(fCar.noDoors);
 System.out.println(sCar.noDoors);
 
@@ -100,7 +103,7 @@ System.out.println(sCar.noDoors);
 // 2
 ```
 **Keep in mind** that whenever you expect a *superclass*, a *subclass* is valid input as well:
-```
+```java
 void test(Car car){
   car.start();
 }
@@ -134,5 +137,3 @@ What method should the child class call to use the parent's constructor?
 * parent()
 * extends()
 * build()
-
- 

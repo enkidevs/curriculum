@@ -2,12 +2,13 @@
 author: stefkn
 
 levels:
-
   - beginner
-
   - basic
-
   - medium
+
+aspects:
+  - introduction
+  - obscura
 
 type: normal
 
@@ -52,15 +53,7 @@ What advantages does this system inherently provide over a system where all obje
  - Easier to test immutable objects
    - We can assume certain baseline facts about the objects our program will be working with and therefore it is easier to verify correctness.
 
-Let's visit each point and quickly understand the concepts behind each; we've already encountered thread safety, temporal coupling and object lifecycles briefly in previous insights.
-
-### Prevention of Side Effects
-
-Side effects are unintended consquences of calling some function which the programmer is unaware of and can therefore cause undefined behaviour. In all but the most pure functional programming side-effects are unavoidable; the key is to ensure they are controlled and minimised.
-
-Immutable objects help with this as they automatically rule out a whole class of side effects which take place after an object's creation. Unlike with mutable objects, nothing can change an immutable object after creation and therefore it is impossible to encounter bugs caused by a function changing an object the programmer did not intend to as part of its routine.
-
-In the next insight we will consider avoiding identity mutation and atomicity of failure.
+Let's visit each point and quickly understand the concepts behind each; we've already encountered thread safety, temporal coupling and object lifecycles briefly in previous insights. We will cover the rest, in the next insights.
 
 ---
 ## Practice
@@ -86,35 +79,7 @@ Which of the following is not a benefit of using immutable objects?
 * 4
 * 5
 * 6
-* 7
 * 8
-
----
-## Revision
-
-What is the code snippet below an example of?
-
-```python
-class Connection(object):
-  ...
-  def post(self):
-    self.method = "POST"
-      # ^ mutates the Connection object
-    self.httpconnection.request(
-      self.method, "/")
-    self.result =
-      self.httpconnection.getresponse()
-    conn.result.read()
-    return self.result
-```
-
-???
-
-
-* Side effects
-* Temporal coupling
-* Atomicity of failure
-* Identity mutation
 
 ---
 ## Footnotes

@@ -1,5 +1,5 @@
 ---
-author: tuwi.dc
+author: tuwidc
 
 levels:
 
@@ -36,9 +36,8 @@ tags:
   - workout
 
 
-
-
 aspects:
+  - introduction
   - workout
 
 
@@ -50,49 +49,48 @@ aspects:
 ## Content
 
 To list all existing users you can use:
+```bash
+cut -d: -f1 /etc/passwd
 ```
-$ cut -d: -f1 /etc/passwd
-```
-
 To remove/delete a user:
-```
-$ userdel newuser
+```bash
+userdel newuser
 ```
 And to delete their home directory:
+```bash
+rm -r /home/newuser
 ```
-$ rm -r /home/newuser
-```
-Or just pass the `-r` flag with `userdel` to delete their home directory:
-```
-$ userdel -r newuser
+Or just pass the `-r` flag with `userdel` to delete their account and their home directory:
+```bash
+userdel -r newuser
 ```
 To change the password for a user:
-```
-$ passwd username
+```bash
+passwd username
 ```
 To change the shell for a user:
-```
-$ chsh username
+```bash
+chsh username
 ```
 To change the details for a user (real name, for example):
-```
-$ chfn username
+```bash
+chfn username
 ```
 
 ---
 ## Practice
 
 Create a new user:
-```
-$ ??? enkiUser
+```bash
+??? enkiUser
 ```
 Change its password:
-```
-$ ??? enkiUser
+```bash
+??? enkiUser
 ```
 Delete both the user and its home directory:
-```
-$ ??? enkiUser
+```bash
+??? enkiUser
 ```
 
 * `useradd`
@@ -115,4 +113,6 @@ The two equivalent commands for adding a new user are
 * `useradd / usermod -n`
 * `chsh / usermod -a`
 
+ 
+ 
  

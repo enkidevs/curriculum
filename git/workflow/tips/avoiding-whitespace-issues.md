@@ -13,10 +13,15 @@ type: normal
 
 category: must-know
 
+aspects:
+
+  - workout
+  - obscura
+
 
 links:
 
-  - '[git-scm.com](http://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration){website}'
+  - '[Formatting And Whitespace Official Documentation](http://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration#_formatting_and_whitespace){website}'
 
 
 ---
@@ -34,8 +39,8 @@ To get warnings about whitespace when you use `git diff`, add the following to y
       whitespace = warn
 ```
 Alternatively, execute the command to do exactly the same:
-```
-$ git config --global 
+```bash
+git config --global 
              core.whitespace warn
 ```
 Now git will highlight the whitespace issues so you can fix them.
@@ -44,8 +49,8 @@ Now git will highlight the whitespace issues so you can fix them.
 ## Practice
 
 Configure git to warn you about whitespaces
-```
-$ git ??? ??? 
+```bash
+git ??? ??? 
     ???.??? ???
 ```
 
@@ -58,8 +63,8 @@ $ git ??? ???
 ---
 ## Revision
 
-```
-$ git config --global 
+```bash
+git config --global 
            core.whitespace warn
 ```
 Would ??? .
@@ -67,4 +72,6 @@ Would ??? .
 * highlight the whitespace issues
 * automatically fix whitespace issues
 
+ 
+ 
  

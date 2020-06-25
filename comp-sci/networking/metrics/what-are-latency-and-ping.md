@@ -15,6 +15,11 @@ type: normal
 
 category: must-know
 
+aspects:
+
+  - introduction
+
+  - workout
 
 links:
 
@@ -50,7 +55,7 @@ ping enki.com
 ```
 
 A general output would be:
-```text
+```plain-text
 64 bytes from 52.85.178.222:
    icmp_seq=1 ttl=55 time=55.9 ms
 64 bytes from 52.85.178.222:
@@ -103,10 +108,9 @@ Both are in a *cause-and-effect* relationship, each one affecting how the other 
 [3:Factors]
 There are some factors that directly influence the network latency:
  - *connection type* : for example satellite connections are slower than cable connections
- - *distance* : the farther away you are from the server, the more time it takes for information to get to you 
+ - *distance* : the farther away you are from the server, the more time it takes for information to get to you
 
 [4:Congestion]
 **Congestion** goes hand in hand with **bandwidth**. The smaller your bandwidth is, the more likely are you to experience congestion with low latency.
 
 All the information gets to you fast enough, but it does not have enough space on the bandwidth to get through and will slow down.
- 

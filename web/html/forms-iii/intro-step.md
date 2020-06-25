@@ -1,5 +1,5 @@
 ---
-author: stefan.stojanovic
+author: Stefan-Stojanovic
 
 levels:
   - beginner
@@ -9,26 +9,24 @@ type: normal
 
 category: must-know
 
-standards:
-  web.html-forms.0: 10
-  web.html-forms.7: 10
-
 aspects:
   - introduction
   - workout
   - deep
 
+links:
+
 ---
-# Intro step
+# Intro `<step>`
 ---
 ## Content
 
-The input form HTML `step` attribute is used to specify a legal number interval for the `<input>` element.
+The HTML input form `step` attribute is used to specify a *legal* number interval for the `<input>` element.
 
 For instance, if you set `step="4"`, the legal numbers could be -4, 0, 4, 8, etc.
 
 Example:
-```
+```html
 <form
   action="/action.php">
   <input
@@ -40,18 +38,13 @@ Example:
 </form>
 ```
 
-The `step` attribute works with several input types. These are:
- - `date`
- - `datetime`
- - `datetime-local`
- - `month`
- - `number`
- - `range`
- - `time`
- - `week`
+![intro-step](https://img.enkipro.com/cc1bb9c85cb7b73dfaf631e4d117f3b1.png)
 
-The `step` attribute can work together with `min` a `max` attributes to create a range of legal values.
-It can also be the string `any` or a positive floating point number. If you do not set it to `any`, the control will only accept values as multiples of the set step value which are greater than the minimum.
+[View CodePen](https://codepen.io/enkidevs/pen/gKZKKK)
+
+The `step` attribute is easy to assign with the `number` input and works with any positive floating point value (.1, .5, 1.667, etc). The `step` attribute can also work together with `min` and `max` attributes to create a range of legal values. When a value isn't assigned, it will often start at 0 or the min value.
+
+If you want to accept any value regardless of how many decimal places, you can set the `step` value as `any`.
 
 ---
 ## Practice
@@ -60,6 +53,7 @@ Which statement is NOT true regarding step attributes within forms?
 
 ???
 
+* Can step between both numbers and letters.
 * Works with fractions, like 1/2 written as ".5".
 * Specifies the legal number intervals for an `<input>` element.
 * Can be used with min & max to create range of legal values.
@@ -70,7 +64,7 @@ Which statement is NOT true regarding step attributes within forms?
 
 Which form attribute allows a number to be entered in a specified interval, such as (-5, 0, 5, 10, etc)?
 
-```
+```html
 <form
   action="file.php">
  <input
@@ -95,7 +89,7 @@ Which form attribute allows a number to be entered in a specified interval, such
 
 Which values would be accepted by this input field?
 
-```
+```html
 <form
   action="file.php">
  <input

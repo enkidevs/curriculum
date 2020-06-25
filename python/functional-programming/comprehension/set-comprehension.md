@@ -2,24 +2,30 @@
 author: catalin
 
 levels:
-
   - medium
-
   - advanced
+
+aspects:
+  - introduction
 
 type: normal
 
 category: must-know
 
+standards:
+    python.use-comprehensions.0: 1000
+    python.use-comprehensions.4: 3000
+    python.use-comprehensions.5: 3000
 
 links:
-
   - '[python-3-patterns-idioms-test.readthedocs.org](http://python-3-patterns-idioms-test.readthedocs.org/en/latest/Comprehensions.html#set-comprehensions){website}'
 
 parent: list-comprehension
+
 notes: >-
   Added the point that the list-to-set comprehension will work even if the list
   contains duplicates.
+
 
 ---
 
@@ -75,7 +81,7 @@ new_set = {x ??? x % 2 == 0 else/
 
 
 ---
-## Reviosion
+## Revision
 
 What will the `odd_set` look like after we run the following code snippet?
 
@@ -91,4 +97,3 @@ odd_set = {x for x in l if x % 2}
 * {1,3,5,9}
 * {1,2,3,4,5,8,9}
 * {2,4,8}
- 

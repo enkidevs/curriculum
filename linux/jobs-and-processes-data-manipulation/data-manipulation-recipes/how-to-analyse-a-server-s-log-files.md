@@ -1,11 +1,15 @@
 ---
-author: tuwi.dc
+author: tuwidc
 
 levels:
 
   - advanced
 
   - medium
+
+aspects:
+  - workout
+  - obscura
 
 type: normal
 
@@ -55,8 +59,8 @@ One of the most common log file format is[1]:
 #- is a valid placeholder
 ```
 For a log of that type, you can check which user-agents accessed your -let's say- contact page:
-```
-$ awk -F\" '($2 ~ /contact\.html/)
+```bash
+awk -F\" '($2 ~ /contact\.html/)
       {print $6}' access_log_file
 Googlebot/2.1
 ```
@@ -104,4 +108,6 @@ To change the default `awk` field separator, the ??? flag is used.
 - `%r`   =  Request line from the client in double quotes
 - `%>s`  =  Status code sent back
 - `%b`   =  Size of the object returned
+ 
+ 
  

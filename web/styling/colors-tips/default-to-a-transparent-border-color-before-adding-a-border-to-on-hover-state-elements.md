@@ -13,14 +13,15 @@ type: normal
 
 category: pattern
 
-tags:
+aspects:
+  - introduction
+  - workout
+  - deep
 
+tags:
   - borders, border, :hover, hover
 
-
 links:
-
-  - '[codepen.io](http://codepen.io/anon/pen/waEMWw){website}'
 
 
 ---
@@ -34,14 +35,14 @@ By using a transparent border as a default, then changing the `border-color` on 
 
 Instead of:
 
-```
+```css
 button:hover {
   border: 2px solid black;
 }
 ```
 
 Use this:
-```
+```css
 button {
   border: 2px solid transparent;
 }
@@ -51,6 +52,8 @@ button:hover {
 }
 ```
 The second example applies the same black border on `:hover` without pushing out the other page elements by `2px` in every direction.
+
+[codepen](http://codepen.io/anon/pen/waEMWw)
 
 ---
 ## Revision
@@ -70,4 +73,3 @@ label:hover {
 * Makes the border transparent instead of block when the label is hovered over.
 * Makes the label solid instead of transparent when hovered over.
 * Makes the label disappear when hovered over.
-

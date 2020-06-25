@@ -11,6 +11,11 @@ type: normal
 
 category: feature
 
+aspects:
+
+  - deep
+
+  - obscura
 
 links:
 
@@ -33,19 +38,19 @@ Memory leaks often happen due to objects kept alive because of some reference in
 
 Basic syntax:
 ```java
-$ jhat example.hprof
+jhat example.hprof
 
 ```
 `jhat` will analyze the heap dump and make the data available on a local webserver that it runs by default on port `7000` (*http://localhost:7000*). 
 
 To allow `jhat` to use more memory:
 ```java
-$ jhat -J-mx1024 example.hprof 
+jhat -J-mx1024 example.hprof 
 ```
 
 To change webserver port:
 ```java
-$ jhat -port 8080 example.hprof 
+jhat -port 8080 example.hprof 
 ```
 
 More functions of this tool can be found via the `jhat -h` command.
@@ -55,24 +60,24 @@ More functions of this tool can be found via the `jhat -h` command.
 
 Change the webserver port:
 ```
-$ jhat ??? 8080 enki.hprof
+jhat ??? 8080 enki.hprof
 ```
 
-* `-port` 
-* `port` 
-* `-p` 
+* `-port`
+* `port`
+* `-p`
 * `p`
 
 ---
 ## Revision
 
 Allow jhat to use extra memory:
-```
-$ jhat ??? enki.hprof
+```bash
+jhat ??? enki.hprof
 ```
 
-* `-J-mx1024` 
-* `-mx1024` 
+* `-J-mx1024`
+* `-mx1024`
 * `-m1024`
-
+ 
  

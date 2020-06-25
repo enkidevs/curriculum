@@ -1,5 +1,5 @@
 ---
-author: tuwi.dc
+author: tuwidc
 
 levels:
 
@@ -46,20 +46,20 @@ aspects:
 ---
 ## Content
 
-Delete files in a relatively secure way using `shred`. 
+You can delete files in a relatively secure way using `shred`. 
 
-It is obtainable through the installation of `coreutils` (Ubuntu has it preinstalled). `shred` securely erases and overwrites single files with the `Gutmann`[1] method. 
+`Shred` is obtainable through the installation of `coreutils` (Ubuntu has it preinstalled). `shred` securely erases and overwrites single files with the `Gutmann`[1] method. 
 
 Fast shredding:
-```
-$ sudo shred -vzn 0 /dir/file
+```bash
+sudo shred -vzn 0 /dir/file
 ```
 
 The above will overwrite the *file* with 0s in a single iteration. 
 
 Secure shredding:
-```
-$ sudo shred -vzn 3 /dir/file
+```bash
+sudo shred -vzn 3 /dir/file
 ```
 The shredding process is repeated 3 times,  using random numbers. 
 
@@ -71,9 +71,9 @@ Shredding efficiently deletes everything including file system caches in case of
 ## Practice
 
 Use shred to delete `old_folder` , in 2 iterations, without hiding the shredding process:
-```
-$ ??? ??? ??? ??? 
-                 ~/old_folder
+```bash
+??? ??? ??? ??? 
+    ~/old_folder
 ```
 
 * `sudo`
@@ -100,4 +100,6 @@ To delete files in a secure manner you can use
 ## Footnotes
 [1:Gutmann Method]
 An algorithm for secure deletion of files. It involves overwriting to-be-deleted data with 35 patterns of bits so it cannot be recovered.
+ 
+ 
  

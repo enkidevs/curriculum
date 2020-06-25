@@ -13,6 +13,11 @@ type: normal
 
 category: feature
 
+aspects:
+
+  - workout
+
+  - new
 
 links:
 
@@ -57,7 +62,7 @@ System.out.println( "Name: "
 The `map()` method transforms the current `Optional`’s value and returns the new `Optional` instance. The `orElse()` method  accepts a default value if the `optional` is null.
 
 ```java
-System.out.println( myName.map( s -> 
+System.out.println( myName.map( s ->
     "Hey " + s + "!" ).
     orElse( "Hey Stranger!" ) );
 //output: Hey Stranger!
@@ -68,10 +73,10 @@ Optional should be used as the return type of functions that might not return a 
 ## Practice
 
 Check if an optional’s instance is not `null`:
-```
+```java
 Optional<String> 
-   myName = Optional.ofNullable( null );    
-myName.???(); 
+   myName = Optional.ofNullable( null );
+myName.???();
 ```
 
 * `isPresent` 
@@ -83,7 +88,7 @@ myName.???();
 ## Revision
 
 Create an empty `Optional` of type `String`:
-```
+```java
 ???<???> op =
        Optional.empty();
 ```
@@ -94,5 +99,3 @@ Create an empty `Optional` of type `String`:
 * `string` 
 * `EmptyOptional` 
 * `null`
-
- 

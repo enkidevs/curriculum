@@ -17,6 +17,9 @@ standards:
 
   python.standard-library-operating-system.0: 2000
   python.standard-library-operating-system.1: 2000
+aspects:
+  - introduction
+  - workout
 
 links:
 

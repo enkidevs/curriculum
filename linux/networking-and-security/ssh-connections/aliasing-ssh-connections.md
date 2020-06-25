@@ -1,9 +1,13 @@
 ---
-author: tuwi.dc
+author: tuwidc
 
 levels:
 
   - medium
+
+aspects:
+  - workout
+  - obscura
 
 type: normal
 
@@ -35,13 +39,13 @@ notes: ''
 When using many ssh connections it is very convenient to alias them.
 
 Instead of:
-```
-$ ssh -i ~/.ssh/custom_id_rsa \
+```bash
+ssh -i ~/.ssh/custom_id_rsa \
 root@213.133.109.135 -p 31415
 ```
 Start by editing this file:
-```
-$ nano .ssh/config
+```bash
+nano .ssh/config
 ```
 Add the following:
 ```
@@ -53,16 +57,16 @@ Port 31415
 ```
 
 After that, you can ssh by alias:
-```
-$ ssh lisa
+```bash
+ssh lisa
 ```
 
 ---
 ## Practice
 
 Alias the following connection:
-```
-$ ssh -i ~/.ssh/id_rsa
+```bash
+ssh -i ~/.ssh/id_rsa
      root@123.12.255.19 -p 256
 ```
 In the `.ssh/config` file:
@@ -90,4 +94,6 @@ You can alias *ssh connections* by editing the ??? file .
 * .ssh/servers
 * .ssh/alias
 
+ 
+ 
  

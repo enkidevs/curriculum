@@ -1,39 +1,21 @@
 ---
-author: tuwi.dc
+author: tuwidc
 
-levels:
-
-  - basic
-
-  - advanced
-
-  - medium
+aspects:
+  - obscura
+  - workout
 
 type: normal
 
 category: how to
 
 tags:
-
   - linux
-
   - chattr
-
   - unalterable
-
   - terminal
-
-  - obscura
-
-  - workout
-
-
-
-
-aspects:
   - obscura
   - workout
-
 
 ---
 
@@ -43,35 +25,41 @@ aspects:
 ## Content
 
 You can make a file unalterable so that it cannot be changed or deleted even by root:
-```
-$ chattr +i /path/to/file
+
+```bash
+sudo chattr +i /path/to/file
 ```
 
 After that the file becomes *untouchable*.
 
-To update the file, remove the attribute using `-i` flag:
+To make it alterable again, remove the attribute using `-i` flag:
+
+```bash
+sudo chattr -i /path/to/file
 ```
-$ chattr -i /path/to/file
-```
-Use `-R` flag to unlock a directory.
-```
-$ chattr -R -i directory/
+
+Use the `-R` flag to unlock a directory.
+
+```bash
+sudo chattr -R -i directory/
 ```
 
 The Mac equivalent is:
-```
-#to "lock" the file
-$ chflags uchg /path/to/file
-#to "unlock"
-$ chflags nouchg /path/to/file
+
+```bash
+# to "lock" the file
+chflags uchg /path/to/file
+# to "unlock"
+chflags nouchg /path/to/file
 ```
 
 ---
 ## Revision
 
-Make `enki`  *file* untouchable:
-```
-$ ??? ??? enki
+Make `enki` *file* unalterable:
+
+```bash
+sudo ??? ??? enki
 ```
 
 * `chattr`
@@ -79,5 +67,5 @@ $ ??? ??? enki
 * `-R`
 * `-Ri`
 * `-i`
-
+ 
  

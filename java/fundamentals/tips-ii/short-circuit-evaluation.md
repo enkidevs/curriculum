@@ -9,6 +9,11 @@ type: normal
 
 category: must-know
 
+aspects:
+
+  - deep
+
+  - obscura
 
 links:
 
@@ -27,12 +32,11 @@ Short-circuit evaluation is the way programming languages evaluate some boolean 
 
 In the example below function `calc(b)` is never evaluated. It might help prevent expensive calculations and run-time errors.
 
-```
+```java
 boolean check = false;
 if (check != false && calc(b)) {
        evaluate();
 }
-
 ```
 
 ---
@@ -46,5 +50,3 @@ Which of the following does short-circulation not prevent?
 * Exceptions being thrown
 * Expensive calculations
 * Run-time errors
-
- 

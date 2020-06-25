@@ -1,5 +1,5 @@
 ---
-author: stefan.stojanovic
+author: Stefan-Stojanovic
 
 levels:
   - beginner
@@ -9,21 +9,20 @@ type: normal
 
 category: must-know
 
-standards:
-  web.html-forms.0: 10
-  web.html-forms.7: 10
-
 aspects:
   - introduction
   - workout
   - deep
 
+links:
+
 ---
-# Min and max
+# The `<min>` And `<max>` Elements
 ---
 ## Content
 
-When writting HTML input form attributes you can also set their `min` and `max` values.
+The HTML input form `min` and `max` attributes are used to set the minimum and maximum values that can be set. When the user submits the data, an error box will open helping the user spot their mistake.
+
 This works for several input types:
  - date
  - datetime
@@ -35,7 +34,7 @@ This works for several input types:
  - week
 
 Example:
-```
+```html
 <form
   action="/action.php">
    Enter a date before 2000-01-01:
@@ -57,7 +56,11 @@ Example:
 </form>
 ```
 
-**Note: When setting the min value it cannot be greater than the max value, and vice-versa.**
+![form-min-and-max](https://img.enkipro.com/8c98645f6e6439b2e4869f99629ae229.png)
+
+[View CodePen](https://codepen.io/enkidevs/pen/qKLKJm)
+
+**Note:** When setting the `min` value, it cannot be greater than the max value, and vice-versa.
 
 ---
 ## Practice
@@ -76,13 +79,13 @@ Which statement is NOT true regarding min and max attributes within forms?
 
 Which form attributes are used within an input to set low and high values?
 
-```
+```html
 <form
   action="/action.php">
  Rate your experience from 1-5:
   <input
    type="number" name="rating"
-    ???="1" ???="5">  
+    ???="1" ???="5">
  <input type="submit">
 </form>
 ```

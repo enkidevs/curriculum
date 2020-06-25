@@ -7,12 +7,16 @@ levels:
 
 type: normal
 
+aspects:
+  - introduction
+
 category: must-know
 
 inAlgoPool: false
 
 
-
+links:
+  - '[Scrimba CSS Documents & Cascade](https://scrimba.com/p/pWvwCg/c3vE7cg){website}'
 
 ---
 
@@ -21,7 +25,7 @@ inAlgoPool: false
 ---
 ## Content
 
-The next two ways of writing CSS code do not require an external `.css` file - both structure (HTML) and style (CSS) live inside the same HTML file.
+The next two ways of writing CSS code do not require an external `.css` file - both structure (HTML) and style (CSS) can live inside the same HTML file.
 
 ### Internal CSS
 
@@ -36,7 +40,7 @@ CSS code can be written inside a `<style>` tag, in the `head` part of the HTML d
       background: purple;
     }
    </style>
-<head>
+</head>
 <body>
  <p></p>
  <div id="my-div"></div>
@@ -53,7 +57,7 @@ Every HTML element can accept a `style` attribute. As the styling is specific to
 ```
 However, this is bad practice as it cannot be overridden by an external CSS file and may cause unexpected problems. This is because inline CSS has the highest priority when rendering.
 
-*Note:* Even though there are multiple ways in which you can style an HTML page, the recommended one is using external files, as it splits the resources into *structure* and *style*.
+**Note:** Even though there are multiple ways in which you can style an HTML page, the recommended one is using external files, as it splits the resources into *structure* and *style*.
 
 ---
 ## Revision
@@ -66,4 +70,3 @@ The CSS code with the highest rendering priority is
 * inline CSS
 * internal CSS
 * external CSS
-

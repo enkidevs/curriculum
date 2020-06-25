@@ -9,6 +9,9 @@ type: normal
 
 category: feature
 
+aspects:
+
+  - introduction
 
 links:
 
@@ -47,4 +50,3 @@ What is serialization?
 ## Footnotes
 [1:retractable]
 In this context this means that the information about this class can be restored back.
- 

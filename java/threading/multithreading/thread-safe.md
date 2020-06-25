@@ -13,6 +13,12 @@ type: tetris
 
 category: tip
 
+aspects:
+
+  - workout
+
+  - deep
+
 notes: >-
   Request an workout after playing the game?
 
@@ -154,4 +160,3 @@ Boolean
 %
 
 ```
- 

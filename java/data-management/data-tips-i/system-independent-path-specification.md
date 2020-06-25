@@ -11,13 +11,15 @@ type: normal
 
 category: best practice
 
+aspects:
+
+  - introduction
+
+  - obscura
+
 tags:
 
   - java-io
-
-
-
-notes: ''
 
 ---
 
@@ -28,13 +30,13 @@ notes: ''
 
 Try not to be system-dependent with file paths, e.g.:
 
-```
+```java
 String dataFilepathName =
     "data" + "/" + "data.txt";
 
 ```
 or:
-```
+```java
 String dataFilepathName =
     "data" + "\\" + "data.txt";
 ```
@@ -55,5 +57,3 @@ Which of these methods returns the system’s default path to a specific file se
 * `File.pathSeparator` 
 * `File.defaultSeparator` 
 * `System.separator`
-
- 

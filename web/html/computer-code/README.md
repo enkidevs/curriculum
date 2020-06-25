@@ -2,7 +2,7 @@ name: Computer Code
 
 type: insights-list
 
-description: TODO
+description: Displaying code in your HTML website.
 
 section: 0
 
@@ -14,4 +14,6 @@ insights:
   - intro-samp
   - intro-pre
   - intro-var
- 
+
+exercises:
+  - html-computer-code-codepen-exercise

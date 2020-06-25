@@ -2,12 +2,13 @@
 author: stefkn
 
 levels:
-
   - beginner
-
   - basic
-
   - medium
+
+aspects:
+  - introduction
+  - obscura
 
 type: normal
 

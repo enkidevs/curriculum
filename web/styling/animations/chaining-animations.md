@@ -2,11 +2,8 @@
 author: nene
 
 levels:
-
   - basic
-
   - advanced
-
   - medium
 
 type: normal
@@ -14,16 +11,17 @@ type: normal
 category: how to
 
 tags:
-
   - chain
-
   - animations
 
+aspects:
+  - workout
+  - deep
 
 links:
 
-  - '[www.tutorialspark.com](http://www.tutorialspark.com/css3/CSS3_Animation_Keyframes.php){website}'
-  - '[MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/@keyframes){documentation}'
+  - '[Article on Animation And Keyframes](http://www.tutorialspark.com/css3/CSS3_Animation_Keyframes.php){article}'
+  - '[MDN Docs on @keyframes](https://developer.mozilla.org/en-US/docs/Web/CSS/@keyframes){documentation}'
 
 
 ---
@@ -82,4 +80,3 @@ Which CSS property can be used to chain animations together?
 * `animation-chain`
 * `animation-hold`
 * `animation-pause`
-

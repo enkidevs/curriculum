@@ -9,6 +9,10 @@ type: normal
 
 category: tip
 
+aspects:
+
+  - introduction
+
 tags:
 
   - lists
@@ -17,11 +21,9 @@ tags:
 
   - collections
 
-
 links:
 
   - '[www.javapractices.com](http://www.javapractices.com/topic/TopicAction.do?Id=39){website}'
-
 
 ---
 
@@ -32,7 +34,7 @@ links:
 
 Lists can be initialised concisely using `Arrays.asList()`. For example this:
 
-```
+```java
 List<String> animals = new ArrayList<>();
 animals.add("cat");
 animals.add("dog");
@@ -40,7 +42,7 @@ animals.add("sea turtle");
 
 ```
 can instead be written like this:
-``` 
+```java
 List<String> animals = Arrays.asList(
 "cat", "dog", "sea turtle");
 
@@ -50,7 +52,7 @@ List<String> animals = Arrays.asList(
 ## Practice
 
 Complete the snippet such that it makes sense:
-```
+```java
 List<String> enki = 
    ???.???(
    “enki”, “is”, “cool” );
@@ -68,7 +70,7 @@ List<String> enki =
 ## Revision
 
 Complete the snippet such that it makes sense:
-```
+```java
 List<String> myList = 
    Arrays.???(
    “one”, “two”, “three” );
@@ -81,5 +83,3 @@ List<String> myList =
 * `List` 
 * `asArray` 
 * `asArrayList`
-
- 

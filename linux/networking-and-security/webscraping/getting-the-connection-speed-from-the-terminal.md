@@ -1,5 +1,5 @@
 ---
-author: tuwi.dc
+author: tuwidc
 
 levels:
 
@@ -8,6 +8,9 @@ levels:
   - medium
 
   - beginner
+
+aspects:
+  - obscura
 
 type: normal
 
@@ -40,14 +43,14 @@ links:
 
 To get your internet speed from the terminal there is a tool called `speedtest-cli`
 and we can set it up as below:
-```
-$ pip install speedtest-cli
+```bash
+pip install speedtest-cli
 ```
 `pip` is part of the `python-pip` package and it requires a valid Python install to use it.
 
 We should get something like this:
-```
-$ speedtest-cli
+```bash
+speedtest-cli
 Retrieving speedtest.net configuration..
 Retrieving speedtest.net server list...
 Testing from Comcast Cable (x.x.x.x)...
@@ -71,4 +74,6 @@ A tool to test your internet connection using the terminal is
 * internetTest-cli
 * testspeed-cli
 
+ 
+ 
  

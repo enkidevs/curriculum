@@ -13,6 +13,12 @@ type: normal
 
 category: tip
 
+aspects:
+
+  - workout
+
+  - obscura
+
 tags:
 
   - file-io
@@ -40,7 +46,7 @@ It is possible to create user-defined file attributes, besides default ones. Thi
 
 
 To do this, we first need to create a `UserDefinedFileAttributeView`:
-```
+```java
 Path file = Paths.get("home" 
    + File.separator + "file.txt");
 UserDefinedFileAttributeView view = 
@@ -50,7 +56,7 @@ UserDefinedFileAttributeView view =
   );
 ```
 `view` can then be used to define a new file attribute:
-```
+```java
 String attrName = "encrypted";
 String attrVal = "yes";
 view.write(
@@ -61,7 +67,7 @@ view.write(
 Above, the method `write` takes a `ByteBuffer` as the second argument, so we have to convert the value string.
 
 You can then read the attribute value:
-```
+```java
  ByteBuffer readBuffer = 
   ByteBuffer.allocate(view.size(attrName));
 
@@ -78,7 +84,7 @@ You can then read the attribute value:
 ## Practice
 
 Write the attribute/value pair (both expressed as Strings) to the `view` object:
-```
+```java
 view.???(???,
    Charset.defaultCharset()
           .???);
@@ -95,7 +101,7 @@ view.???(???,
 ## Revision
 
 Complete the code snippet to instantiate `view` variable:
-```
+```java
 Path p = Paths.get("path");
 UserDefinedFileAttributeView view =
  ???(
@@ -108,5 +114,3 @@ UserDefinedFileAttributeView view =
 * `file` 
 * `File.getFileAttributeView` 
 * `view`
-
- 

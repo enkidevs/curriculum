@@ -9,11 +9,15 @@ type: normal
 
 category: how to
 
+aspects:
+
+  - deep
+
+  - obscura
 
 links:
 
   - '[www.c2.com](http://www.c2.com/cgi/wiki?DoubleBraceInitialization){website}'
-
 
 ---
 
@@ -49,7 +53,7 @@ someFunction(new HashSet<String>() {{
 ## Practice
 
 Complete the following code snippet using double brace initialization to create an anonymous class derived from the initial specified class:
-```
+```java
 new ArrayList<String>() ???
       ???("Enki!");
 }};
@@ -67,7 +71,7 @@ new ArrayList<String>() ???
 
 Which of the following Java code snippets uses Double Brace Initialization properly to create a new HashSet? 
 
-```
+```java
 // Option A
 newSet(new HashSet<String>() {
   add("Enki");
@@ -89,5 +93,3 @@ newSet(new HashSet<String>() {{
 * Option C
 * Option A
 * Option B
-
- 

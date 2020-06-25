@@ -2,17 +2,16 @@
 author: stefkn
 
 levels:
-
   - beginner
-
   - basic
-
   - medium
+
+aspects:
+  - workout
 
 type: normal
 
 category: must-know
-
 
 links:
 
@@ -34,7 +33,7 @@ Consider reading and printing the contents of a simple text file:
 file = open('somefile', r)
 
 while True:
-  line = f.readline()
+  line = file.readline()
   if not line:
     break
   else:
@@ -103,7 +102,7 @@ for x in itertools.permutations(list):
 # ...
 ```
 
-Or iterate in reverse using the `reverse()` method:
+Or iterate in reverse using the `reversed()` method:
 
 ```python
 list = ['a', 'b', 'c', 'd']

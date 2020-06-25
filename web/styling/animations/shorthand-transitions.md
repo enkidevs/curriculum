@@ -11,12 +11,12 @@ type: normal
 
 category: feature
 
-
 links:
+  - '[MDN Docs on CSS-transitions](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Transitions){documentation}'
 
-  - '[Codepen example](http://codepen.io/mihaiberq/pen/RGAjpK){website}'
-  - '[MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Transitions){documentation}'
-
+aspects:
+  - workout
+  - deep
 
 ---
 
@@ -25,14 +25,14 @@ links:
 ---
 ## Content
 
-Declaring each transition property individually can be intensive, especially using `vendor prefixes`. 
+Declaring each transition property individually can be intensive, especially using `vendor prefixes`.
 
-Instead, try the shorthand property `transition` that supports all the different values. 
+Instead, try the shorthand property `transition` that supports all the different values.
 
 Using only this alone it is possible to set every transition value in order of `transition-property`, `transition-duration`, `transition-timing-function`, and lastly `transition-delay`.
 
 
-```
+```css
 .box {
   background: #2db34a;
   border-radius: 6px;
@@ -45,6 +45,8 @@ Using only this alone it is possible to set every transition value in order of `
 ```
 
 For setting many transitions at once, set every individual group of transition values, then use a comma to separate each group of additional ones.
+
+[Codepen example](http://codepen.io/mihaiberq/pen/RGAjpK)
 
 ---
 ## Revision
@@ -66,4 +68,3 @@ transition: linear background .2s;
 * Option A
 * Option B
 * Option C
-

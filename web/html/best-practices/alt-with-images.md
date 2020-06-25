@@ -1,5 +1,5 @@
 ---
-author: stefan.stojanovic
+author: Stefan-Stojanovic
 
 levels:
   - beginner
@@ -9,10 +9,6 @@ type: normal
 
 category: must-know
 
-standards:
-  web.embed-media.4: 10
-  web.syntax-html.6: 10
-
 aspects:
   - introduction
   - workout
@@ -20,42 +16,41 @@ aspects:
 
 ---
 # Alt with images
+
 ---
 ## Content
 
-The alt attribute exists to specify an alternate text for an image that cannot be displayed.
-It provides information to the user if for some reason they cannot view the image.
+The alt attribute exists for a few reasons: 
+
+* To help search engines understand the meaning of the image.
+* To display descriptive text in place of the image if the image cannot be loaded properly. 
+* Screen readers used by those with visual impairment will use this text to describe the image to the user. 
 
 Example:
-```
-<!DOCTYPE html>
-<html>
-<body>
 
-<img src="brokenglass.gif"
-  alt="Broken glass">
-
-</body>
-</html>
-
-```
-If the browser does not recognize the "brokenglass.gif" file, it will instead display what's in the alt property.
-
-```
-Broken glass
+```html
+<img src="waterfall.jpg"
+  alt="Niagara Falls during Sunset">
 ```
 
-Like in the example above, the `alt` attribute should describe an image if that image contains information.
+If the "waterfall.jpg" image doesn't load properly, it will display a broken image icon using the alt text like this: 
 
-However, if the image is only for decoration, then the `alt=""` can be left empty.
+![alt-tag-broken-image](https://img.enkipro.com/18bdae1aa121adc7a9eb19c013e331d4.png)
+
+Every image needs the alt tag to pass validation, but when the image is only for decoration, then the description can be left empty like this:
+
+```html
+<img src="background-texture.jpg"
+  alt="">
+```
 
 ---
 ## Practice
 
 Is an empty alt attribute considered appropriate?
 
-```
-<img src=”image.png” alt=””>
+```html
+<img src="image.png" alt="">
 ```
 
 ???
@@ -72,7 +67,8 @@ Which statement about alt attributes is false?
 
 ???
 
- * Alt attributes are displayed on top of each image.
- * The alt attribute exists to specify an alternate text for an image that cannot be displayed.
- * It is used to provide information to the user if they cannot view the image.
- * Empty alt attributes are appropriate when the image is purely decorative.
+* Alt attributes are displayed on top of each image.
+* The alt attribute exists to specify an alternate text for an image that cannot be displayed.
+* It is used to provide information to the user if they cannot view the image.
+* Empty alt attributes are appropriate when the image is purely decorative.
+* Screen readers can use alt text to help users that are visually impaired.

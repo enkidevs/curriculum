@@ -9,10 +9,14 @@ type: normal
 
 category: must-know
 
+aspects:
+
+  - workout
+  - deep
 
 links:
 
-  - '[www.atlassian.com](https://www.atlassian.com/git/tutorials/using-branches/git-merge){website}'
+  - '[Git Merge Tutorial](https://www.atlassian.com/git/tutorials/using-branches/git-merge){website}'
 
 
 ---

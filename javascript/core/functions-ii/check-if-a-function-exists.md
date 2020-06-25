@@ -13,6 +13,10 @@ type: normal
 
 category: feature
 
+aspects:
+  - introduction
+  - workout
+
 standards:
 
   javascript.evaluate-expressions.9: 10

@@ -11,7 +11,9 @@ type: normal
 
 category: how to
 
-
+aspects:
+  - workout
+  - deep
 standards:
   python.native-types-operations.4: 10
   python.data-structures-uses.5: 10
@@ -102,5 +104,3 @@ What module contains the SequenceMatcher class?
 ## Footnotes
 [1:Notation]
 We will refer to the first sequence as `a` and to the second sequence as `b`.
- 
- 

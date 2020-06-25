@@ -9,7 +9,9 @@ type: normal
 
 category: must-know
 
-
+aspects:
+  - introduction
+  - workout
 standards:
   python.object-oriented.1: 10
 
@@ -107,9 +109,9 @@ class Employee(Person):
 ---
 ## Quiz
 
-### Do you know how inheritance affects variables defined in the parent class? 
+### Do you know how inheritance affects variables defined in the parent class?
 
-Square is a child class of the Shape class. What is the output from the following code snippet? 
+Square is a child class of the Shape class. What is the output from the following code snippet?
 
 ```
 class Shape:
@@ -134,5 +136,3 @@ print(sq.color)
 - square red
 - AttributeError: 'super' object has no attribute '__getattr__'
 - AttributeError: 'super' object has no attribute '__setattr__'
- 
- 

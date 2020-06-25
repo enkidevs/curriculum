@@ -13,10 +13,15 @@ type: normal
 
 category: hack
 
+aspects:
+
+  - workout
+  - deep
+
 
 links:
 
-  - '[git-scm.com](http://git-scm.com/book/en/v2/Git-Branching-Remote-Branches){website}'
+  - '[Tracking Branches Official Documentation](http://git-scm.com/book/en/v2/Git-Branching-Remote-Branches#_tracking_branches){website}'
 
 
 ---
@@ -29,13 +34,13 @@ links:
 You can reference an upstream tracked branch with the `@{upstream}` or `@{u}` shorthand. 
 
 For example:
-```
-$ git checkout master
-$ git merge origin/master
+```bash
+git checkout master
+git merge origin/master
 ```
 can be replaced by:
 
-```
+```bash
 git checkout master
 git merge @{u}
 ```
@@ -44,9 +49,9 @@ git merge @{u}
 ## Practice
 
 `@{u}` refers to ??? in the following snippet:
-```
-$ git checkout myBranch
-$ git merge @{u}
+```bash
+git checkout myBranch
+git merge @{u}
 #upstream equivalent of myBranch
 ```
 
@@ -65,4 +70,6 @@ $ git merge @{u}
 * downstream tracked branch
 * master branch
 
+ 
+ 
  

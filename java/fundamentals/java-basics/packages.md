@@ -9,13 +9,15 @@ type: normal
 
 category: must-know
 
-inAlgoPool: false
+aspects:
 
+  - introduction
+
+inAlgoPool: false
 
 links:
 
   - '[Naming conventions](http://www.oracle.com/technetwork/java/codeconventions-135099.html){website}'
-
 
 ---
 
@@ -29,7 +31,7 @@ links:
 Packages are also used to organize classes providing similar functionality.
 
 In a Java file, you can specify it belongs to a package with `package` keyword, at the beginning of the said file:
-```
+```java
 package java.lang;
 ```
 `java.lang` is a Java package, which provides fundamental classes.
@@ -37,11 +39,11 @@ package java.lang;
 New packages can also be created whenever needed, in case of large projects. Since the package creates a new *namespace*, there won't be any class names conflicts with classes in other packages.
 
 In order to use a package's classes outside of that package, it has to be imported:
-```
+```java
 import java.io.*;
 ```
 The `*` wildcard refers to every class in that package. To import a single, specific class, you can specify its name:
-```
+```java
 import java.io.File;
 ```
 This will import the `File` class, which is part of the `io` package, which comes with the underlying Java compiler.

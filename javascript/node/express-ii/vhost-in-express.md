@@ -18,6 +18,10 @@ links:
 
 parent: easy-way-to-deliver-html-pages-with-express
 
+aspects:
+  - introduction
+  - deep
+
 ---
 # `vhost` in **Express**
 
@@ -29,7 +33,7 @@ Virtual hosting represents the method of hosting multiple domain names (with sep
 The **Express 4.0** middleware module called `vhost` deals with this, handing off requests to `handle` when the incoming host matches `hostname`. Before using it, the module must be installed:
 
 ```bash
-$ npm install vhost
+npm install vhost
 ```
 
 And imported:
@@ -74,4 +78,6 @@ vhost(???, ???);
 * require
 * connect
 * req.vhost
+
+ 
  

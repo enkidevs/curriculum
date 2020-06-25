@@ -13,6 +13,11 @@ type: normal
 
 category: best practice
 
+aspects:
+  - introduction
+  - workout
+  - deep
+
 tags:
 
   - browsers
@@ -20,7 +25,7 @@ tags:
 
 links:
 
-  - '[autoprefixer.github.io](https://autoprefixer.github.io/){website}'
+  - '[Autoprefixer CSS Plugin Install Link](https://autoprefixer.github.io/){website}'
 
 
 ---
@@ -30,10 +35,10 @@ links:
 ---
 ## Content
 
-Many Webkit browsers still use the `-webkit-prefixed` version of animations, keyframes, and transitions. 
+Many Webkit browsers still use the `-webkit-prefixed` version of animations, keyframes, and transitions.
 
 Until they fully adopt the standard version, it's good practice to include both versions (`unprefixed` & `webkit`) in your code:
-```
+```css
 div {
   -webkit-animation-duration: 2s;
   animation-duration: 2s;
@@ -53,4 +58,3 @@ What's the tool called which calculates which prefixes are required and which ar
 * `Autoprefixer`
 * `Prefixer`
 * `Webkitprefixer`
-

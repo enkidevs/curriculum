@@ -13,12 +13,17 @@ type: normal
 
 category: feature
 
+aspects:
+
+  - deep
+
+  - obscura
+
+  - workout
+
 tags:
 
   - java, JVM, garbage collection
-
-
-
 
 ---
 
@@ -59,5 +64,3 @@ On what is Java’s memory management based?
 * `Mark-and-Sweep` 
 * `Manually nullifying references` 
 * `Breadth first algorithm`
-
- 

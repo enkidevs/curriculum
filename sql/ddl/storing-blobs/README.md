@@ -1,4 +1,4 @@
-name: Soring BLOBs in a RDBMS
+name: Storing BLOBs
 
 type: insights-list
 

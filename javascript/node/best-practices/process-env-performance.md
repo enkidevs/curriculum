@@ -18,6 +18,10 @@ standards:
 links:
   - '[Source](https://github.com/facebook/react/issues/812#issuecomment-172929366){website}'
 
+aspects:
+  - deep
+  - obscura
+
 ---
 # Increase performance with `PROCESS.ENV`
 
@@ -30,7 +34,7 @@ Each process is linked to a set of **environmental variables** that your applica
 
 One way of setting *env* variables is through prefixing the `node` command:
 ```shell
-$ PORT=8080 node index.js
+PORT=8080 node index.js
 ```
 
 Then we can access our `PORT` variable like:
@@ -74,7 +78,7 @@ What kind of object is `process.env`?
 
 Which of the followin scenarios do you think would perform better:
 ```shell
-$ COPY="Enki" node index.js
+COPY="Enki" node index.js
 ```
 ```javascript
 // index.js
@@ -97,4 +101,6 @@ for (y = 0; y < 10; y++) {
 * A
 * B
 * same performance
+
+ 
  

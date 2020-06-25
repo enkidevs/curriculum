@@ -27,7 +27,7 @@ The `browser-sync` module can automatically refresh the page for you and be inte
 
 To install:
 ```bash
-$ npm install browser-sync
+npm install browser-sync
 ```
 In gulpfile.js include the following modules:
 ```javaScript
@@ -61,3 +61,5 @@ Which module is used to allow live-reloading on your server? ???
 * live-reload
 * browserSync
 * liveReload
+ 
+ 

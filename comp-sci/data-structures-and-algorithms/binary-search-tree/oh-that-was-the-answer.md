@@ -11,6 +11,12 @@ type: tetris
 
 category: must-know
 
+aspects:
+
+  - deep
+
+  - workout
+
 parent: primality-test
 
 ---
@@ -94,4 +100,4 @@ n^1000 = O(n)
 The function is equal to `n^3 log n`, which is bigger than `n^2 log n`.
 %
 ```
- 
+

@@ -1,21 +1,21 @@
 ---
-author: Nick Daminov
+author: nickdaminov
 
 levels:
-
   - beginner
-
   - basic
 
 type: normal
 
 category: feature
 
+aspects:
+  - introduction
+  - obscura
 
 links:
 
   - '[Oracle Bit Operations Documentation](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/op3.html){website}'
-
 
 ---
 
@@ -31,16 +31,15 @@ links:
  - `~` - *unary bitwise complement operator* inverts bit pattern, i.e. swaps every `0` to `1` and every `1` to `0`.
 
 This is very similar to how correlated logical operators work but on all bits throughout the length of the binary data:
-```
+```java
 public class Main{
   public static void main(String args[]) {
-    int a = 1; //0001 in binary
-    int b = 5; //0101 in binary
+    int a = 1; // 0001 in binary
+    int b = 5; // 0101 in binary
     System.out.println(a & b);
     //&:   0001
     //     0101
-    //
-
+    //     0001
 ```
 ---
 ## Practice
@@ -48,7 +47,6 @@ public class Main{
 What would be the output of `System.out.println(7 & 5);`, 7 = 0111, 5 = 0101?
 
 ???
-
 
 * 5
 * 0
@@ -65,7 +63,5 @@ What does *OR* operation returns if the input bits are `1` and `0`?
 
 ???
 
-
 * `0`
 * `1`
- 

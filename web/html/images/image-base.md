@@ -1,5 +1,5 @@
 ---
-author: stefan.stojanovic
+author: Stefan-Stojanovic
 
 levels:
   - beginner
@@ -9,17 +9,13 @@ type: normal
 
 category: must-know
 
-standards:
-  web.embed-media.0: 10
-
 aspects:
   - introduction
   - workout
   - obscura
 
 links:
-  - '[w3schools on tags](https://www.w3schools.com/tags/tag_base.asp){website}'
-  - '[Documentation on MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base){documentation}'
+  - '[HTML <base> Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base){documentation}'
 
 ---
 # Image Base
@@ -28,11 +24,11 @@ links:
 
 The `<base>` element is used to specify a link path for all relative URL attributes. There can be only one `<base>` element per page or document, and it is written inside the `<head>` element. If more than one `<base>` element is present, only the first `href` and `target` values are used, while the others are ignored.
 
-Also, the `<base>` element cannot be empty, it must contain either the target attribute, the href attribute, or both of them.
+The `<base>` element cannot be empty, it must contain either the `target` attribute, the `href` attribute, or both of them.
 
-All links in the web page or document are set to open in a new tab:
+All links in the web page or document are set to open in the same tab:
 
-```
+```html
 <head>
    <base
       target="_self">
@@ -40,7 +36,7 @@ All links in the web page or document are set to open in a new tab:
 ```
 
 All links in the web page or document will lead to the `https://www.enki.com` link:
-```
+```html
 <head>
    <base
     href="https://www.enki.com">
@@ -48,21 +44,21 @@ All links in the web page or document will lead to the `https://www.enki.com` li
  ```
 
 All links in the web page or document will lead to the `https://www.enki.com` link, and open in a new tab:
-```
+```html
 <head>
    <base href="https://www.enki.com"
       target="_blank">
 </head>
 ```
 
-**Note: In HTML5 the `<base>` end tag has to be omitted. On the other hand, in XHTML it has to be closed.**
+**Note**: In HTML5, the `<base>` end tag has to be omitted. On the other hand, in XHTML it has to be closed.
 
 ---
 ## Practice
 
 Assign the link path for every image on the webpage:
 
-```
+```html
 <???>
   <??? ???>
 <???>
@@ -86,7 +82,7 @@ The link path to every image on the webpage can be assigned using what HTML elem
 
 Complete the code if a `<base>` URL is assigned and an image is used within an OpenGraph meta-tag.
 
-```
+```html
 <head>
   <base href="http://enkipro.com/">
   <meta property='og:image'
@@ -116,3 +112,4 @@ Complete the code if a `<base>` URL is assigned and an image is used within an O
 * `<link target="_blank">`
 * `<a target="_blank">`
 * `<* target="_blank">`
+ 

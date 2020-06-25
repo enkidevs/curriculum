@@ -22,6 +22,10 @@ links:
 
   - '[developer.mozilla.org](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Statements/with){website}'
 
+aspects:
+  - workout
+  - obscura
+
 
 ---
 

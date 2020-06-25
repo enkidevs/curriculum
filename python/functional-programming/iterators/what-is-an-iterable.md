@@ -2,20 +2,18 @@
 author: stefkn
 
 levels:
-
   - beginner
-
   - basic
-
   - medium
+
+aspects:
+  - introduction
 
 type: normal
 
 category: must-know
 
-
 links:
-
   - '[A slower, more detailed explanation](https://stackoverflow.com/a/18744706){website}'
   - '[Double-underscores in Python](https://dbader.org/blog/meaning-of-underscores-in-python){website}'
   - '[Iterables vs. Iterators vs. Generators](http://nvie.com/posts/iterators-vs-generators/){website}'

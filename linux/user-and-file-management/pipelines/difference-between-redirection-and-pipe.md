@@ -1,11 +1,15 @@
 ---
-author: tuwi.dc
+author: tuwidc
 
 levels:
 
   - basic
 
   - beginner
+
+aspects:
+  - introduction
+  - workout
 
 type: normal
 
@@ -44,25 +48,25 @@ tags:
 Let `p1` be a program that when ran will give a certain output.
 
 To put all the *output* inside a file (say `myFile`), **redirection** is necessary[1]:
-```
-$ p1 > myFile
+```bash
+p1 > myFile
 ```
 However, to use the *output* as *input* of another program (say `p2`) things are different. An auxiliary file can be used (say `tmp_file`)[2]:
-```
-$ p1 > tmp_file && p2 < tmp_file
+```bash
+p1 > tmp_file && p2 < tmp_file
 ```
 Because this approach is quite clunky, **pipes** have been invented to make things easier. You can achieve the exact same thing with the syntax:
-```
-$ p1 | p2
+```bash
+p1 | p2
 ```
 
 ---
 ## Practice
 
 Complete the following snippet to redirect or pipe `script.sh` :
-```
-$ script.sh ??? cat -n
-$ script.sh ??? file.txt
+```bash
+script.sh ??? cat -n
+script.sh ??? file.txt
 ```
 
 * `|`
@@ -101,7 +105,7 @@ Pick the option that would throw an error.
 [1:explanation]
 What happens when running the following line:
 ```bash
-$ p1 > myFile
+p1 > myFile
 ```
 1. `p1` is executed
 2. *output* of `p1` is put in a file called `myFile`.
@@ -110,11 +114,13 @@ If `myFile` already exists, it will be overriden.
 
 [2:explanation]
 What happens when running the line:
-```
-$ p1 > tmp_file && p2 < tmp_file
+```bash
+p1 > tmp_file && p2 < tmp_file
 ```
 
 1. `p1` is executed
 2.  *output* of `p1` is saved in the file called `tmp_file`
 3.  `p2` is executed having as *input* the contents of `tmp_file`
+ 
+ 
  

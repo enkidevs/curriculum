@@ -1,4 +1,4 @@
-name: Bits, bytes and Hexadecimals
+name: Bits, bytes & Hexadecimals
 
 description: Learning about the low-level data representation types in Python
 
@@ -9,5 +9,5 @@ insights:
   - bytearray-objects
   - operations-with-bytes-and-bytearray
 
-exercies:
+exercises:
   - py-practice-binary-data

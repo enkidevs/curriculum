@@ -1,5 +1,5 @@
 ---
-author: stefan.stojanovic
+author: Stefan-Stojanovic
 
 levels:
   - beginner
@@ -9,56 +9,57 @@ type: normal
 
 category: must-know
 
-standards:
-  web.syntax-html.0: 10
-  web.syntax-html.1: 10
-  web.embed-media.0: 10
-
 aspects:
   - introduction
+  
 ---
 # Images
 ---
 ## Content
 
-In HTML, images are defined with the `<img>` tag.
+In order to display an image in a webpage, the `<img>` element is used to tell the web page where to find the image and how to display it within the page.
 
-Example:
-```
-<img
-  src="URL" alt="Image description"
-  width="36px" height="36px">
-```
-or
-```
-<img
-  src="sky.png"
-  alt="Beautiful sunny sky"
-  height="36px" width="36px">
+![baby-elephant](https://img.enkipro.com/b79c0aacddcb4ab21ca44fb790a40675.png)
 
+Insert Image: 
+```html
+<img
+  src="elephant.png"
+  alt="Cute baby elephant"
+  height="180" width="320">
 ```
-The `src` attribute specifies the URL of the image.
-If for some reason the picture cannot be loaded, the alt attribute specifies the text shown instead.
+
+The `src` attribute specifies the URL path to the image. In the example above, the `elephant.png` image would need to be in the same directory as the web page. 
+
+If the `elephant.png` image was in a subdirectory called `images`, then the path would look like this: 
+
+```html
+<img src="images/elephant.png">
+```
+
+The `alt` attribute is required for a few reasons: 
+
+* Important for search engines to determine the purpose of the image.
+* If the image doesn't load properly, the text will display in the web page helping describe the missing image.
+* Screen readers for the visually impaired will read that text to the user. 
 
 The most common image formats are `.gif`, `.png`, `.jpg` and `.svg`.
 
+The `height` and `width` are useful for changing the size of the image within the web page, but aren't required. The values of the `height` and `width` are always in pixels, so no measurement is needed.
 
-**Note: `.img` files are not image files. They are similar to `.iso` files and are used for keeping a backup copy of a disk in a single file, with information about that file.**
+Without setting these sizes, the image will simply display at its original size. Typically, image sizes are set using CSS as it is easier to manage the image sizes for responsive websites, etc. 
 
-
-It is important to set the image width and height attributes. Setting those attributes reserves space on the page when it is loaded and prevents layout shifts.
-
-If you do not set those attributes, the browser won't know how much space to leave the image until it starts loading it.
-It is very important to either set both the width and height attributes or neither of them.
-
-For some image formats, this isn't mandatory and won't cause problems. However, for some like the `.svg` which scales differently, it is important to specify both the height and width you want your picture to be. However, if no attribute is set, the image will load in its default values.
+The main reason it is important to set the image size is because those attributes will reserve space on the page for the images. Without the attributes, the browser won't know how much space to leave the image until it starts loading it - which can cause a jumpy loading effect as the web page downloads.
 
 ---
 ## Practice
 
 Write the code to insert an image:
 
-`<??? ???="???" ???="Enki Logo">`
+```html
+<??? ???="???" 
+     ???="Enki Logo">
+```
 
 * `img`
 * `src`
@@ -77,40 +78,27 @@ Which line of code will place an image into the HTML page?
 
 ???
 
-* `<img src="image.jpg" alt="Image Description">`
-* `<image src="image.jpg" alt="Image Description">`
-* `<img href="image.jpg" alt="Image Description">`
-* `<img alt="image.jpg" src="Image Description">`
-* `<img alt="image.jpg" desc="Image Description">`
-
 If an image cannot load properly in a web page, what attribute will display text in its place?
 
 ???
 
-* `alt`
-* `src`
-* `href`
-* `title`
-* `desc`
-
-Which of these are not a common web image format:
+Which one of these is not a common web image format:
 
 ???
-
-* `.img`
-* `.png`
-* .`svg`
-* `.gif`
-* `.jpg `
 
 If an image does not have an assigned height and width using HTML or CSS, how will the image display within a web page?
 
 ???
 
+* <img src="image.jpg" alt="Image Description">
+* alt
+* .img
 * At its original image size.
-* Will resize filling the container it is within.
+* <image src="image.jpg" alt="Image Description">
+* <img alt="image.jpg" src="Image Description">
+* desc
+* .png
 * Will resize by default to 100px wide.
-* It will only resize if the image is larger than the viewing area.
 
 ---
 ## Quiz
@@ -122,6 +110,7 @@ Why is assigning height & width attributes to an image size more useful than set
 ???
 
 * Page loads with assigned space for images preventing layout shifts.
-* Using HTML height & width attributes is never better than CSS.
-* When image size needs to override the CSS size setting.
-* When the height and width is differen than the default image size.
+* Using HTML height & width attributes is always better than using CSS sizing.
+* When the image size needs to override the CSS size setting.
+* When the height and width is different than the default image size.
+ 

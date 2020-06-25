@@ -29,7 +29,7 @@ Creating a *symbolic link* to *`web/img/logo.png`* inside the *`enki/img`* direc
 
 First, install the plugin:
 ```bash
-$ npm install --save grunt-contrib-symlink
+npm install --save grunt-contrib-symlink
 ```
 Load it into the configuration, and create the *symlink* task:
 ```javaScript
@@ -66,3 +66,5 @@ grunt.???('???');
 * symbolic-link
 * symlink
 * load
+ 
+ 

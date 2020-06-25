@@ -9,14 +9,14 @@ type: normal
 
 category: must-know
 
-inAlgoPool: false
+aspects:
+  - introduction
 
+inAlgoPool: false
 
 links:
 
-  - '[MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Inline_elemente){documentation}'
-
-notes: 'http://www.webcredible.com/blog-reports/css/more-css-tricks.shtml'
+  - '[MDN Docs on Inline Elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Inline_elemente){documentation}'
 
 ---
 
@@ -33,10 +33,9 @@ An inline element has the following characteristics:
 
 Examples of inline elements include `<span>`, `<a>`, `<label>`, `<input>`, `<img>`, `<strong>` and `<em>`.
 
-
 Example of useless CSS:
 
-```
+```css
 span {
   height: 20px; /* no effect! */
   top: 20px; /* no effect! */
@@ -47,20 +46,19 @@ span {
 ---
 ## Practice
 
-Which of the following elements is * not * an inline element? 
+Which of the following elements is * not * an inline element?
 
 ???
 
-
-* `<form>` 
-* `<label>` 
-* `<strong>` 
+* `<form>`
+* `<label>`
+* `<strong>`
 * `<input>`
 
 ---
 ## Revision
 
-Which of the following elements is not inline? 
+Which of the following elements is not inline?
 
 ???
 
@@ -69,4 +67,3 @@ Which of the following elements is not inline?
 * `<span>`
 * `<input>`
 * `<img>`
-

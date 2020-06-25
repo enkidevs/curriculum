@@ -7,13 +7,16 @@ levels:
 
 type: normal
 
+aspects:
+  - introduction
+
 category: must-know
 
 inAlgoPool: false
 
 links:
-  - '[MDN](https://developer.mozilla.org/en-US/docs/Learn/CSS){documentation}'
-
+  - '[MDN Docs on CSS](https://developer.mozilla.org/en-US/docs/Learn/CSS){documentation}'
+  - '[Scrimba CSS Selectors, Properties & Values](https://scrimba.com/p/pWvwCg/cpKbvTV){website}'
 
 ---
 
@@ -25,19 +28,19 @@ links:
 A CSS file is made up of *selectors* (a way of pointing to the HTML elements to be changed) and *declarations* (a property and value pair).
 
 The syntax for a CSS *declaration* is:
-```
+```css
 background-color: red
 ```
 The property we are looking to change is `background-color`. The `:` separates the two entities, and `red` is the new property value.
 
 Every *declaration* has to be located inside a *block*:
-```
+```css
 {
   background-color: red
 }
 ```
 Multiple declaration can be grouped inside a block. In this case, semicolons, `;` are required after each declaration:
-```
+```css
 {
   background-color: red;
   text-decoration: underline;
@@ -56,7 +59,7 @@ p{
 ## Practice
 
 Complete the following snippet with the general syntax for a CSS declaration:
-```
+```css
 ??? {
   ??? ??? ???;
 }
@@ -74,7 +77,7 @@ Complete the following snippet with the general syntax for a CSS declaration:
 ## Revision
 
 Complete the following snippet with the general syntax for a CSS declaration:
-```
+```css
 ??? {
   ??? ??? ???;
 }
@@ -87,4 +90,3 @@ Complete the following snippet with the general syntax for a CSS declaration:
 * `=`
 * `background-decoration`
 * `red`
-

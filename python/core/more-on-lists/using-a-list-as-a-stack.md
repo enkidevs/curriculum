@@ -8,7 +8,10 @@ levels:
 type: normal
 
 category: how to
-
+aspects:
+  - introduction
+  - workout
+  - deep
 
 standards:
   python.native-types-operations.4: 10
@@ -26,20 +29,19 @@ parent: built-in-list-methods
 ---
 ## Content
 
-The `stack` abstract data structure is widely used in computer science. This collection is implemented to best fit the **LIFO** principle ( **last in**, **first out** ). Sometimes we need one data structure that behaves in such a manner. 
+The stack abstract data structure is widely used in computer science. This collection is implemented to best fit the **LIFO** principle ( **last in**, **first out** ). Sometimes we need one data structure that behaves in such a manner.
 
-Even though `python` does not provide a special `stack` data structure, `list`'s can easily be used in the scope.
+Even though python does not provide a special stack data structure, lists can easily be used in the scope.
 
 ```python
 stack = [1,2,3]
-stack.append(4)
 # adds 4 at the end
-stack.append(5)
-print stack
->>> [1, 2, 4, 5]
-# removes and return last element
-print stack.pop()
->>> 5
+stack.append(4)
+print(stack)
+>>> [1, 2, 3, 4]
+# remove and return the last element
+print(stack.pop())
+>>> 4
 ```
 
 By definition, we don't access the elements of a stack by index, we only use methods that add or remove elements from the top of the stack. We use two methods for this purpose:
@@ -70,20 +72,18 @@ stack.???
 
 What’s the output of the following code snippet:
 
-???
-
 ```python
 stack = [‘10’, ‘11’, ‘12’, ‘13’]
 stack.append(14)
 stack.append(15)
 stack.pop()
+print(stack)
+
+// ???
 ```
 
 
-* `15`
+* `['10', '11’, ’12', '13', 14]`
 * `14`
-* `10`
+* `15`
 * There’s no output...
-
- 
- 

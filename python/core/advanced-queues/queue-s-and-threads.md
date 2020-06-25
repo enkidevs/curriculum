@@ -8,7 +8,10 @@ levels:
 type: normal
 
 category: how to
-
+aspects:
+  - introduction
+  - workout
+  - deep
 standards:
   python.control-structures.5: 10
   comp-sci.implement-linear-collection-data-structures.3: 10
@@ -36,7 +39,7 @@ The `queue` module provides thread safe `queue` data structures. As a consequenc
 
 First we need the modules imported:
 ```python
-from Queue import Queue
+from queue import Queue
 from threading import Thread
 ```
 Define the worker function:
@@ -101,5 +104,3 @@ Which methods tells the queue that an operation has finished? ???
 * `task.done()`
 * `task-done()`
 * `taskdone()`
- 
- 

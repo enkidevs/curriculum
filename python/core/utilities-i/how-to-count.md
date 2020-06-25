@@ -11,7 +11,9 @@ type: normal
 
 category: how to
 
-
+aspects:
+  - introduction
+  - workout
 links:
 
   - '[pymotw.com](https://pymotw.com/2/collections/counter.html){website}'
@@ -105,5 +107,3 @@ e.???(“enki”)
 * `new_counter`
 * `add`
 * `add_counter`
- 
- 

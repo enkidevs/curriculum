@@ -9,6 +9,11 @@ type: fillTheGap
 
 category: feature
 
+aspects:
+
+  - workout
+
+
 ---
 
 # Hooks, arrr?
@@ -21,10 +26,11 @@ Do you know what **hook** should be used for each of the following scenarios?
 ---
 ## Game Content
 
-```
+```plain-text
 Check if the commit message is properly
 formatted.
 ```
+
 * commit-msg
 * pre-commit
 * post-commit
@@ -34,10 +40,12 @@ formatted.
 %
 
 ---
-```
+
+```plain-text
 Check if the new code is properly
 documented.
 ```
+
 * pre-commit
 * post-commit
 * pre-staging
@@ -47,9 +55,11 @@ The check should be done before registering the *commit message*, because the yo
 %
 
 ---
-```
+
+```plain-text
 Check for code styling.
 ```
+
 * pre-commit
 * post-commit
 * pre-push
@@ -59,10 +69,12 @@ If the code styling is not right, the commit object shouldn't be valid. Therefor
 %
 
 ---
-```
+
+```plain-text
 Prevent pushing if the last commit's log
 message starts with "work in progress".
 ```
+
 * pre-push
 * post-push
 * pre-commit
@@ -72,10 +84,12 @@ This hook shouldn't restrict committing with that message, only pushing to the r
 %
 
 ---
-```
+
+```plain-text
 Notify other contributors after a commit
 has gone through.
 ```
+
 * post-commit
 * pre-commit
 * pre-push
@@ -85,7 +99,8 @@ If the commit went through, it means the `pre-commit` hook had already passed. E
 %
 
 ---
-```
+
+```plain-text
 Rebuild files after switching branches.
 ```
 
@@ -98,10 +113,12 @@ If the `git checkout newFeature` command is successful, you could rebuild the pr
 %
 
 ---
-```
+
+```plain-text
 Rejecting commits from entering the remote
 repository, after the client push.
 ```
+
 * pre-receive
 * post-receive
 * post-push
@@ -111,10 +128,12 @@ repository, after the client push.
 %
 
 ---
-```
+
+```plain-text
 Check if the message of an updated commit
 has the right format.
 ```
+
 * post-rewrite
 * post-commit
 * pre-commit
@@ -122,4 +141,3 @@ has the right format.
 %exp
 `post-rewrite` hook is run by commands that replace or update commits.
 %
- 

@@ -1,21 +1,16 @@
 ---
 author: stefkn
 
-levels:
-
-  - beginner
-
-  - basic
-
-  - medium
-
 type: normal
 
 category: must-know
 
+aspects:
+  - introduction
+  - workout
+  - deep
 
 links:
-
   - '[map, filter, and reduce](http://www.bogotobogo.com/python/python_fncs_map_filter_reduce.php){website}'
   - '[Lambda, filter, reduce and map](http://www.python-course.eu/lambda.php){website}'
   - '[9 Python Filter Function and List Comprehension Examples](http://www.thegeekstuff.com/2014/05/python-filter-and-list){website}'
@@ -43,15 +38,15 @@ For example, consider the following code fragment:
 ```python
 prices = (1.29, 1.99, 2.30, 2.99, 1.80)
 
-def lessThanTwo(element):
+def less_than_two(element):
   return element < 2
 
-filter(lessThanTwo, prices)
+filter(less_than_two, prices)
 ```
 
-Perhaps we are trying to refine the result of some search on a price-comparison site. In the code above, we define a list of `float`s, our prices, and define a function called `lessThanTwo`, which returns the boolean result of comparing the input element to the number two.
+Perhaps we are trying to refine the result of some search on a price-comparison site. In the code above, we define a list of `float`s, our prices, and define a function called `less_than_two`, which returns the boolean result of comparing the input element to the number two.
 
-Finally, we apply `filter` on the two and receive back only those prices less than two, since these elements were the only ones to return `True` when passed to the `lessThanTwo` function. The result is:
+Finally, we apply `filter` on the two and receive back only those prices less than two, since these elements were the only ones to return `True` when passed to the `less_than_two` function. The result is:
 
 ```python
 (1.29, 1.99, 1.8)
@@ -112,9 +107,9 @@ print(filter(mystery_function, numbers))
 
 ---
 ## Footnotes
+
 [1:map]
 *Used alongside the `map` function, filter can be very useful in applying a complex operation on a iterable collection of data, and picking out the members of the collection that meet a certain criteria after the `map` has been applied.*
 
 [2:true]
 *There is also a complementary function `itertools.filterfalse()` which only returns elements of the iterable object if the function returns false on them. Alternatively, you could negate the return value of the function passed to `filter` to achieve the same result.*
- 

@@ -9,13 +9,18 @@ type: normal
 
 category: must-know
 
+aspects:
+
+  - introduction
+  - workout
+  
 inAlgoPool: false
 
 
 links:
 
-  - '[git-scm.com](https://git-scm.com/book/en/v2/Git-Branching-Remote-Branches){website}'
-  - '[git-scm.com](https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes){website}'
+  - '[Remote Branches Official Documentation](https://git-scm.com/book/en/v2/Git-Branching-Remote-Branches){website}'
+  - '[Working With Remotes Official Documentation](https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes){website}'
 
 
 ---
@@ -28,30 +33,29 @@ links:
 Remote repositories are fundamental to the **Git** workflow for teams who need to collaborate.
 
 You can see the remote repositories with your project by calling `git remote`:
-```
-$ git remote
+```bash
+git remote
 # origin
 ```
 Keep in mind that `origin` is the default name **Git** gives to the server you cloned from.
 
 Using the `-v` flag, you can also see the `URL`s associated with the remotes[1]:
-```
-$ git remote -v
+```bash
+git remote -v
 # origin https://github.com/user/rep (fetch)
 # origin https://github.com/user/rep (push)
 ```
 
 You can add new remotes with the `git remote add` command:
-```
+```bash
 # git remote add <shortname> <url>
-$ git remote add xy \
+git remote add xy \
     https://github.com/us/repo
-$ git remote -v
+git remote -v
 # origin https://github.com/user/rep (fetch)
 # origin https://github.com/user/rep (push)
 # xy     https://github.com/us/repo (fetch)
 # xy     https://github.com/us/repo (push)
-
 ```
 
 ---
@@ -60,7 +64,6 @@ $ git remote -v
 What's the default name **Git** provides to the server you `clone` from?
 
 ???
-
 
 * origin
 * master
@@ -72,10 +75,9 @@ What's the default name **Git** provides to the server you `clone` from?
 
 What command is used to see the remote repositories for your project?
 
+```bash
+git ???
 ```
-$ git ???
-```
-
 
 * `remote`
 * `remotes`
@@ -90,4 +92,6 @@ Using the `-v` flag will show the `URL`s used when both reading (merge or fetch)
 
 - `fetch`: reading
 - `push`: writing
+ 
+ 
  

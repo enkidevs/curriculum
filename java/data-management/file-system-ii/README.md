@@ -1,4 +1,4 @@
-name: File and System Manipulation II
+name: File & System Manipulation II
 
 description: Handle file manipulation with the help of you system.
 

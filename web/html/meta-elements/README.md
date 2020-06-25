@@ -2,18 +2,12 @@ name: Meta Elements
 
 type: insights-list
 
-description: TODO
+description: What's <meta> and its benefits.
 
 section: 0
-
-parent: head-elements
 
 insights:
   - meta-intro
   - charset
   - description
   - keywords
-  - author
-  - http-equiv
-  - robots
- 

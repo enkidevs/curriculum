@@ -41,8 +41,8 @@ aspects:
 The **union** of two or more tables means combining their **type-matching rows**. Unlike the `JOIN` operation, which combines columns (containing all entries from either the left, the right or both tables), the `UNION` operation always retrieves every entry in *both tables*.
 
 However, there are two necessary conditions for a `UNION` to be performed:
-    - each union query must have the same number of columns
-    - every *nth* column must have the same type in all union queries
+  - each union query must have the same number of columns
+  - every *nth* column must have the same type in all union queries
 
 For example, the following union will fail:
 ```sql
@@ -54,7 +54,6 @@ FROM language_name;
 /* ERROR:  each UNION query must have
  the same number of columns
  LINE 4: SELECT *  */
-
 ```
 
 As well as the next one:
@@ -79,18 +78,15 @@ from language_name;
 ```
 
 With the output:
-```
-id |       name       
-===+============
-16 | Chinese
-35 | Englisch
- 2 | roomaji
-29 | 伊語
-9  | en
-26 | Espagnol
 
-(51 rows)
-```
+| id | name     |
+|----|----------|
+| 16 | Chinese  |
+| 35 | Englisch |
+| 2  | roomaji  |
+| 29 | 伊語     |
+| 9  | en       |
+| 26 | Espagnol |
 
 ### UNION ALL
 
@@ -104,20 +100,18 @@ from language_name;
 ```
 
 And the output:
-```
-id  |       name       
-====+============
-  1 | ja
-  2 | roomaji
-  3 | ko
-  4 | zh
-  5 | fr
-  6 | de
-  7 | es
-  8 | it
-  9 | en
-(51 rows)
-```
+
+| id | name    |
+|----|---------|
+| 1  | ja      |
+| 2  | roomaji |
+| 3  | ko      |
+| 4  | zh      |
+| 5  | fr      |
+| 6  | de      |
+| 7  | es      |
+| 8  | it      |
+| 9  | en      |
 
 For tables where data singularity is not always the case, the results might be different. An immediate consequence of this is that `UNION` performs worse, as it must scan the result for duplicates.
 

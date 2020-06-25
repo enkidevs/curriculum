@@ -11,6 +11,8 @@ category: must-know
 
 inAlgoPool: false
 
+aspects:
+  - introduction
 
 standards:
   python.functions.1: 10
@@ -24,7 +26,7 @@ standards:
 ---
 ## Content
 
-To call a function in Python, you write the functions name followed by some brackets `()`.
+To call a function in Python, you write the function's name followed by some brackets `()`.
 
 For example:
 
@@ -79,7 +81,7 @@ y = 2
 * def
 * mean
 * x, y
-* a, b
+* (x, y)
 
 
 
@@ -105,5 +107,3 @@ num = 5
 * `obj`
 * `var`
 * `function`
- 
- 

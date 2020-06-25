@@ -1,5 +1,5 @@
 ---
-author: tuwi.dc
+author: tuwidc
 
 levels:
 
@@ -8,6 +8,9 @@ levels:
   - advanced
 
   - medium
+
+aspects:
+  - deep
 
 type: normal
 
@@ -66,4 +69,6 @@ You have to modify the ??? variable in the cron file to run all the commands usi
 * COMPILE
 * BASH
 
+ 
+ 
  

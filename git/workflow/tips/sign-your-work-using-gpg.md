@@ -13,11 +13,17 @@ type: normal
 
 category: how to
 
+aspects:
+
+  - workout
+  - deep
+  - obscura
+
 
 links:
 
-  - '[git-scm.com](http://git-scm.com/book/en/v2/Git-Tools-Signing-Your-Work){website}'
-  - '[mikegerwitz.com](https://mikegerwitz.com/papers/git-horror-story){website}'
+  - '[Signing Your Work Official Documentation](http://git-scm.com/book/en/v2/Git-Tools-Signing-Your-Work){website}'
+  - '[Git Horror Story](https://mikegerwitz.com/papers/git-horror-story){website}'
 
 
 ---
@@ -28,21 +34,21 @@ links:
 ## Content
 
 First generate a key using GPG:
-```
-$ gpg --gen-key
+```bash
+gpg --gen-key
 ```
 Then configure git to use your key:
-```
-$ git config --global 
+```bash
+git config --global 
   user.signingkey 0A45226A
 ```
 To sign a tag use `-s`:
-```
-$ git tag -s v1.0 -m 'Version 1.0'
+```bash
+git tag -s v1.0 -m 'Version 1.0'
 ```
 To sign a commit or merge use `-S`:
-```
-$ git commit -a -S -m 'Add key'
+```bash
+git commit -a -S -m 'Add key'
 ```
 Note: this is most useful if everyone in the team follows this practice.
 
@@ -52,13 +58,13 @@ Signing your commits it's a way to enhance git's security. This way you confirm 
 ## Practice
 
 Configure your key to be `0A45226A` then sign a commit with it :
-```
-$ git config --global ??? 
+```bash
+git config --global ??? 
                      0A45226A
 
-$ git add .
+git add .
 
-$ git commit ??? ???
+git commit ??? ???
                “commit signed”
 ```
 
@@ -70,8 +76,8 @@ $ git commit ??? ???
 ---
 ## Revision
 
-```
-$ gpg --gen-key
+```bash
+gpg --gen-key
 ```
 Generates a ??? used to sign ??? .
 
@@ -79,4 +85,6 @@ Generates a ??? used to sign ??? .
 * commits
 * password
 
+ 
+ 
  

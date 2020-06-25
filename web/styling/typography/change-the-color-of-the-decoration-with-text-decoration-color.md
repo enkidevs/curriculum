@@ -11,13 +11,15 @@ type: normal
 
 category: how to
 
+aspects:
+  - introduction
 
 links:
 
-  - '[MDN](https://developer.mozilla.org/fr/docs/Web/CSS/text-decoration){documentation}'
+  - '[MDN Docs on Text Decoration](https://developer.mozilla.org/fr/docs/Web/CSS/text-decoration){documentation}'
+  - '[More Control Over Text Decoration](https://css-tricks.com/more-control-over-text-decoration/){website}'
 
 parent: underline-feature-on-html-elements
-notes: 'https://css-tricks.com/more-control-over-text-decoration/'
 
 ---
 
@@ -44,4 +46,3 @@ What is the default text decoration colour? And with what property can this be c
 * Default colour is the text colour. Changed with `text-decoration-color:`.
 * Default colour is black. Changed with `text-decoration-colour:`.
 * Default colour is white. Cannot be changed.
-

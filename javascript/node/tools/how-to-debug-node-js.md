@@ -81,7 +81,7 @@ Which of the following cannot be used to debug a node application?
 Start node with its built-in debugger:
 
 ```bash
-$ ??? ??? app.js
+??? ??? app.js
 ```
 
 * node
@@ -89,4 +89,6 @@ $ ??? ??? app.js
 * debugger
 * node-debug
 * iron-node
+ 
+ 
  

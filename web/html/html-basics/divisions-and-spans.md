@@ -11,17 +11,12 @@ category: must-know
 
 inAlgoPool: false
 
-standards:
-  web.syntax-html.0: 10
-  web.layout-html.0: 10
-
 aspects:
   - introduction
 
 links:
-  - '[MDN divisions](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/div){documentation}'
-  - '[MDN spans](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/span){documentation}'
-
+  - '[HTML <div> Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/div){documentation}'
+  - '[HTML <span> Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/span){documentation}'
 
 ---
 
@@ -30,9 +25,11 @@ links:
 ---
 ## Content
 
-Divisions, or `<div>`s and `<span>`s are elements used for styling. They do not have any semantic value as they are generic containers.
+A `<div>` container, which is short for **div**isions, and `<span>` containers are important HTML elements used for styling the layouts. `<div>`s and `<span>`s alone do absolutely nothing without CSS. They do not have any semantic value as they are simple containers that wrap around content (text, images, etc.) to help control the layout and styling.
 
-When working with CSS, they will be probably your most targeted HTML elements. `<div>` is used to style elements that already have a meaning (think `<p>`, `<img>` or `<h2>`), whereas `<span>` is used to style parts of those elements (such as some important words in a paragraph).
+A `<div>` is often used to group larger chunks of content and is often a block element, meaning it has a distinct break before and after it (like paragraphs, headings, etc). 
+
+A `<span>` is often used to group a small chunk of content inside a line of text (such as styling a few key words inside a paragraph).
 
 Check out this code:
 ```html
@@ -40,29 +37,35 @@ Check out this code:
   <p>A paragraph inside a div.</p>
   <p>An <span>important</span> paragraph
      inside the div. </p>
-  <p> A div <div></div> inside a
-     paragraph. </p>
+  <p>A div <div></div> inside a
+     paragraph.</p>
 </div>
 ```
 
 Visually, the code above will be rendered this way:
-```html
-A paragraph inside a div.
-An important paragraph inside the div.
-A div
- <!-- new line here -->
-inside a paragraph.
-```
-One difference between `<span>` and `<div>` elements is that you are able to stack multiple `<span>`s on the same line without breaking the layout of the page, while trying to stack `<div>`s will effectively be adding a new line (in the above case, between **div** and **inside**).
 
-Knowing this, you are now one step closer to writing CSS: by giving `<div>`s and `<span>`s ids and classes, their content appearance can be altered.
+![div-and-span](https://img.enkipro.com/45c58a5b2098853b8688096d1e5254a6.png)
+
+One difference between `<div>` and `<span>` elements is that you are able to stack multiple `<span>`s on the same line without breaking the layout of the page, while trying to stack `<div>`s will effectively be adding a new line (in the above case, between **div** and **inside**).
+
+When using CSS to style `<div>` and `<span>` elements, ids and classes are often assigned to them in order to uniquely style them. So, it is common to see them written like this where the `<div>` has certain styles assigned to it and the `<span>` changes the style of the text within that paragraph.   
+ 
+```html
+<div id="callout">
+  <p>This is 
+   <span class="highlight">
+     important
+   </span> to see!
+  </p>
+</div>
+```
 
 ---
 ## Revision
 
-span`s are seen as ??? elements.
-
+Spans are seen as ??? elements.
 
 * stylistic
 * structural
 * not
+ 

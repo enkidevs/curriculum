@@ -1,18 +1,17 @@
 ---
 author: alexjmackey
 
-levels:
-  - beginner
-
 type: normal
 
 category: feature
 
-inAlgoPool: false
+aspects:
+  - introduction
+  - new
+  - workout
 
 links:
-  - '[MDN](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment){website}'
-
+  - '[Destructuring Assignment](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment){documentation}'
 
 ---
 # Destructuring (Part 2)
@@ -27,12 +26,12 @@ Destructuring can also be used to work with objects.
 Sometimes when using destructuring you will want to specify where values should be assigned - this can be done as follows:
 
 ```javascript
-var source =
+let source =
 {company: "Enki", topic: "js"};
 
-var {company:v1, topic:v2} = source;
-//v1 = "Enki"
-//v2 = "js"
+let {company:v1, topic:v2} = source;
+// v1 = "Enki"
+// v2 = "js"
 
 ```
 
@@ -45,8 +44,8 @@ Below the default value of `200` will be used for variable `y` as the source obj
 Note how `x`'s default is overwritten as the `x` property exists:
 
 ```javascript
-var {x = 1, y = 200} = {x: 100};
-//x = 100, y = 200
+let {x = 1, y = 200} = {x: 100};
+// x = 100, y = 200
 ```
 
 ---
@@ -81,8 +80,10 @@ const obj = {
   a: 3
 }
 
-const {??? ??? ???,
-  ??? ??? ??? } = obj;
+const {
+  ??? ??? ???,
+  ??? ??? ???
+} = obj;
 console.log(foo)
 // 3
 console.log(bar)
@@ -101,4 +102,3 @@ console.log(bar)
 * : foo
 * : bar
 * : 20
- 

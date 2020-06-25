@@ -7,10 +7,15 @@ levels:
 
   - basic
 
+aspects:
+  - introduction
+  
 type: exercise
 
 link: http://www.codewars.com/kata/57216d4bcdd71175d6000560
+
 linkType: codewars
+
 standards:
 
   javascript.control-flow.0: 1000
@@ -29,5 +34,4 @@ links:
 ---
 ## Exercise
 
-Practice using JavaScript While-Loops on Code Wars
- 
+Solve this challenge using flow control in JavaScript

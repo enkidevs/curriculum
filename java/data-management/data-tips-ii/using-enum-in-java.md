@@ -11,13 +11,13 @@ type: normal
 
 category: must-know
 
+aspects:
+
+  - introduction
+
 tags:
 
   - enum
-
-
-
-notes: ''
 
 ---
 
@@ -40,7 +40,7 @@ Code above represents an example enum type that declares the day of the week in 
 ## Practice
 
 Complete the following snippet such that an enumeration is created:
-```
+```java
 public ??? MyEnum ???
    A, B, C 
 ???
@@ -60,7 +60,7 @@ public ??? MyEnum ???
 ## Revision
 
 Complete the following snippet such that an enumeration is created:
-```
+```java
 public ??? MyEnum {
    A, B, C 
 }
@@ -72,5 +72,3 @@ public ??? MyEnum {
 * `e` 
 * `list` 
 * `array`
-
- 

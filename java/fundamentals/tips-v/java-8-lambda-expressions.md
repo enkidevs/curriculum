@@ -11,6 +11,14 @@ type: normal
 
 category: feature
 
+aspects:
+
+  - deep
+
+  - obscura
+
+  - new
+
 tags:
 
   - fact
@@ -19,7 +27,6 @@ tags:
 links:
 
   - '[www.oracle.com](http://www.oracle.com/webfolder/technetwork/tutorials/obe/java/Lambda-QuickStart/index.html){website}'
-
 
 ---
 
@@ -59,7 +66,7 @@ A lambda expression consists of the following:
 ## Practice
 
 Create a runnable with the help of lambda expressions:
-```
+```java
 Runnable myRunnable = ??? ??? 
    System.out.println(“my runnable”);
 ```
@@ -82,5 +89,3 @@ What token is specific to Lambda expressions?
 * `<-` 
 * `()` 
 * `=>`
-
- 

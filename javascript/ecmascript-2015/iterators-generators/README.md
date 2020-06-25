@@ -1,6 +1,6 @@
-name: Iterators and Generators
+name: Iterators & Generators
 
-description: Introduction to Iterators and Generators in ES6.
+description: Introduction to Iterators and Generators.
 
 insights:
   - introducing-iterators

@@ -20,6 +20,10 @@ standards:
   javascript.evaluate-expressions.1: 10
 
 
+aspects:
+  - workout
+  - deep
+  - obscura
 
 
 ---

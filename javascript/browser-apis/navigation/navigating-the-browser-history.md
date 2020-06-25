@@ -13,6 +13,16 @@ type: normal
 
 category: feature
 
+aspects:
+  - introduction
+  - workout
+  - deep
+  - obscura
+
+standards:
+  javascript.browser-apis-browser.1: 10
+  comp-sci.identify-network-protocols.9: 10
+  comp-sci.identify-network-protocols.10: 10
 
 links:
 
@@ -26,7 +36,7 @@ links:
 ---
 ## Content
 
-The History API allows navigation of the browser history. 
+The History API allows navigation of the browser history.
 
 To move backward once (like a *Back* button click)
 ```
@@ -38,8 +48,8 @@ window.history.forward();
 ```
 To move backward (negative) or forward (positive) to a particular point in history, an integer can be passed:
 ```
-window.history.go(int); /* current page 
-at 0, -1 goes back once, 1 goes 
+window.history.go(int); /* current page
+at 0, -1 goes back once, 1 goes
 forward once */
 ```
 The history length can be found by:
@@ -79,5 +89,4 @@ window.???.???();
 * `go`
 * `navigation`
 * `length`
-
  

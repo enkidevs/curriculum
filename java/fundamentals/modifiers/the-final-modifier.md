@@ -9,10 +9,13 @@ type: normal
 
 category: must-know
 
+aspects:
+
+  - introduction
+
+  - workout
+
 inAlgoPool: false
-
-
-
 
 ---
 
@@ -26,7 +29,7 @@ The `final` modifiers limits the initializations number to *1*. A final variable
 However, the data inside the object can be changed (also called its *state*).
 
 For example:
-```
+```java
 public Car{
   private final int value = 10;
   private static final int PRICE = 30;

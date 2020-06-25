@@ -9,6 +9,9 @@ levels:
 
   - medium
 
+aspects:
+  - deep
+
 type: normal
 
 category: tip
@@ -35,8 +38,8 @@ You can add usernames to `cron.deny` as to lock them from using `cron`.
 To allow a user to run `cron` you need to add its username to `cron.allow`.
 
 You can also disable all users from using `cron` by adding `ALL` to the former file:
-```
-$ echo ALL >>/etc/cron.deny
+```bash
+echo ALL >>/etc/cron.deny
 ```
 *Note*: If the *cron.allow* file exists, only users specified in that file can use cron, and *cron.deny* file is ignored.
 
@@ -44,8 +47,8 @@ $ echo ALL >>/etc/cron.deny
 ## Practice
 
 Disable `cron` access for every user:
-```
-$ ??? ???>>/etc/???
+```bash
+??? ???>>/etc/???
 ```
 
 * `echo`
@@ -70,4 +73,6 @@ You can deny users access to *cronjobs* by adding them to
 * /crontab/deny
 * /cron/.deny
 
+ 
+ 
  

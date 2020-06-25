@@ -2,20 +2,20 @@
 author: mihaiberq
 
 levels:
-
   - basic
-
   - medium
 
 type: normal
 
 category: feature
 
+aspects:
+  - introduction
+  - workout
 
 links:
-
-  - '[MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/hover)[documentation}'
-
+  - '[Tutorial on Pseudo Classes & Elements](https://scrimba.com/p/pWvwCg/cbmMJSb){article}'
+  - '[MDN Docs on :hover](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/hover){documentation}'
 
 ---
 
@@ -68,4 +68,3 @@ In which of the following cases, will the `:hover` pseudo-class most likely work
 * 2
 * 4
 * None
-

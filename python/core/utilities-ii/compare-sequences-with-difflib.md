@@ -12,7 +12,9 @@ levels:
 type: normal
 
 category: feature
-
+aspects:
+  - workout
+  - deep
 standards:
   python.data-structures-uses.5: 10
   python.modules.0: 10
@@ -100,5 +102,3 @@ What class from `difflib` with a `compare` method can be used to see differences
 * `SequenceMatcher`
 * `ndiff`
 * `HtmlDiff`
- 
- 

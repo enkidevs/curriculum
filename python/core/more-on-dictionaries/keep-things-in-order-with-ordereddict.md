@@ -10,7 +10,10 @@ levels:
 type: normal
 
 category: feature
-
+aspects:
+  - introduction
+  - workout
+  - obscura
 standards:
   python.native-types-operations.6: 10
 
@@ -107,5 +110,3 @@ for k, v in e.???():
 * `odict`
 * `dictionary`
 * `holds`
- 
- 

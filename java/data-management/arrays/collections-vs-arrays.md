@@ -11,17 +11,19 @@ type: normal
 
 category: must-know
 
+aspects:
+
+  - introduction
+
 tags:
 
   - collections
 
   - arrays
 
-
 links:
 
   - '[www.javapractices.com](http://www.javapractices.com/topic/TopicAction.do?Id=39){website}'
-
 
 ---
 
@@ -58,5 +60,3 @@ Which one has dynamic size?
 
 * `collections` 
 * `arrays`
-
- 

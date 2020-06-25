@@ -2,19 +2,17 @@
 author: SebaRaba
 
 levels:
-
   - beginner
 
 type: normal
 
 category: must-know
 
-standards:
-  python.modules.0: 10
-  python.modules.1: 10
+aspects:
+  - introduction
+  - workout
 
 links:
-
   - '[from...import in depth](https://www.tutorialspoint.com/python3/python_modules.htm){website}'
 
 
@@ -47,7 +45,7 @@ To access exposed methods of it we could do the following:
 ```python
 import my_functions
 
-print(my_functions.cube(3)) # 27
+my_functions.cube(3) # 27
 my_functions.hello('Seba') # Hello, Seba
 ```
 
@@ -72,7 +70,7 @@ This simply means, from `module_name` import every item. Keep in mind that wildc
 You can also rename the item imported to whatever you want using the `as` keyword:
 ```python
 from my_functions import quad as q
-q(3) # 27
+q(3) # 81
 ```
 
 To end with, using `from ... import` statement doesn't save memory. It executes and caches the entire module just like regular `import` statement. So there is no consecrated pattern of distinguishing between these two, it depends on the developer's preferences.
@@ -138,5 +136,3 @@ calculate_volume(radius, height)
 * `__name__`
 * `cylinder:`
 * `def`
- 
- 

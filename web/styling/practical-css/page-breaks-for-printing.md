@@ -11,13 +11,17 @@ levels:
 
 type: normal
 
+aspects:
+  - workout
+  - deep
+
 category: how to
 
 
 links:
 
-  - '[MDN](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Positioning){documentation}'
-  - '[davidwalsh.name](https://davidwalsh.name/css-page-breaks){website}'
+  - '[MDN Docs on Positioning](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Positioning){documentation}'
+  - '[Advanced CSS Printing](https://davidwalsh.name/css-page-breaks){website}'
 
 
 ---
@@ -56,4 +60,3 @@ Which of the following is not a CSS page break? ???
 * `page-break-before`
 * `page-break-after`
 * `page-break-inside`
-

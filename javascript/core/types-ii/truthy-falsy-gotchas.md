@@ -26,6 +26,8 @@ links:
 
 aspects:
   - introduction
+  - workout
+
 
 
 ---
@@ -52,9 +54,9 @@ null == false
 //false
 ```
 
-`null` and `undefined` are special and not equal to anything but themselves.
+`null` and `undefined` are special and equal only to themselves and each other.
 
-..And there are many more of these strange cases so watch out!
+... And there are many more of these strange cases so watch out!
 
 ---
 ## Practice
@@ -66,8 +68,8 @@ null == undefined
 // ???
 ```
 
-* false
 * true
+* false
 * error
 
 ---

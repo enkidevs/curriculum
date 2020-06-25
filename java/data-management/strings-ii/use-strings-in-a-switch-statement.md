@@ -9,6 +9,10 @@ type: normal
 
 category: feature
 
+aspects:
+
+  - introduction
+
 tags:
 
   - switch
@@ -17,11 +21,9 @@ tags:
 
   - java-7
 
-
 links:
 
   - '[javarevisited.blogspot.jp](http://javarevisited.blogspot.jp/2014/04/10-jdk-7-features-to-revisit-before-you.html){website}'
-
 
 ---
 
@@ -32,8 +34,9 @@ links:
 
 In Java 7+, it is possible to use a string as a selector in a `switch` statement.
 
-For example: 
-```
+For example:
+
+```java
 String colorString;
 switch(color) {
   case "red": colorString = "red";
@@ -45,6 +48,7 @@ switch(color) {
 }
 System.out.println("It's %s", colorString);
 ```
+
 This promotes a more concise code, rather than using `if/else` statements.
 
 The string comparisons are case sensitive.
@@ -54,8 +58,5 @@ The string comparisons are case sensitive.
 
 String comparisons in switch statements ??? case sensitive.
 
-
 * are
 * aren't
-
- 

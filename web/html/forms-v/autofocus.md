@@ -1,5 +1,5 @@
 ---
-author: stefan.stojanovic
+author: Stefan-Stojanovic
 
 levels:
   - beginner
@@ -9,41 +9,42 @@ type: normal
 
 category: must-know
 
-standards:
-  web.html-forms.9: 10
-  javascript.dom.3: 10
-
 aspects:
   - introduction
   - workout
   - deep
 
+links:
+
 ---
-# Autofocus
+# The `autofocus` Attribute
 ---
 ## Content
 
 The HTML input form `autofocus` attribute is used to specify an `<input>` element to have focus once the web page is loaded.
 
 Example:
-```
+```html
 <form action="/credit_card.php">
   Full name: <input type="text"
-    name="fullname" autofocus><br>
+    name="fullname" autofocus>
   Card number: <input type="number"
-    name="ccnumber"><br>
+    name="ccnumber">
   Exparation date: <input type="month"
-    name="ccdate"><br>
+    name="ccdate">
   CV: <input type"number"
-    name="cvnumber"><br>
+    name="cvnumber">
   <input type="submit">
-</form>  
+</form>
 ```
 
-In the example above, we have a credit card input field with the focus set for the `Full name` input field. That means once the page is loaded the user won't have to click on the input field but can rather start typing right away.
+![form-autofocus](https://img.enkipro.com/553f219253150ae4bd0c9bed2e97dff6.png)
+
+[View CodePen](https://codepen.io/enkidevs/pen/djbrLP)
+
+In the example above, the first text field has the autofocus set, so when the page loads, the text box will be selected by default and the user can start entering text right away without having to click the textfield.
 
 You can assign `autofocus` as either `autofocus`, `autofocus=""` or `autofocus="autofocus"`. All three options work the same in HTML5 however,  if you're using XHTML `autofocus` is required to be written as `autofocus="autofocus"`.
-
 
 ---
 ## Practice

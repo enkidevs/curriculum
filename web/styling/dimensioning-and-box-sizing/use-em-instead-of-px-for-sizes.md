@@ -13,6 +13,10 @@ type: normal
 
 category: must-know
 
+aspects:
+  - introduction
+  - workout
+
 tags:
 
   - fonts
@@ -21,8 +25,7 @@ tags:
 
 
 links:
-- '[MDN lengths](https://developer.mozilla.org/en-US/docs/Web/CSS/length){documentation}'
-
+- '[MDN Docs on Length](https://developer.mozilla.org/en-US/docs/Web/CSS/length){documentation}'
 
 
 ---
@@ -34,10 +37,9 @@ links:
 
 `em` is directly proportional to the font size currently in use. This makes it easier to keep the proportions intact for future changes and responsive design.
 
-
 With `px` :
 
-```
+```css
 .bodytext p {
     font-size:14px;
 }
@@ -47,7 +49,7 @@ With `px` :
 ```
 
 Or, using `em` :
-```
+```css
 .bodytext p {
     font-size:0.875em; /* 16x.875=14 */
 }
@@ -66,7 +68,7 @@ You have the following code snippet:
 body{
   font-size: 16px;
 }
-``` 
+```
 Set the font-size of `.smallparagraph`  to 8px in a responsive way:
 ```css
 .smallparagraph{
@@ -74,9 +76,9 @@ Set the font-size of `.smallparagraph`  to 8px in a responsive way:
 }
 ```
 
-* `0.5em` 
-* `0.8em` 
-* `8px` 
+* `0.5em`
+* `0.8em`
+* `8px`
 * `1em`
 
 ---
@@ -94,4 +96,3 @@ Set the font-size of `.smallparagraph`  to 8px in a responsive way:
 * look
 * different
 * changing
-

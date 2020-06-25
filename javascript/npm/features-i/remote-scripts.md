@@ -50,12 +50,12 @@ For example:
 You can then use `npm run` to run both. In case of the Makefile, the target can also be specified:
 
 ```bash
-$ npm run backend dev
+npm run backend dev
 ```
 
 This would work if the *Makefile* has *dev* specified as a target:
 
-```text
+```plain-text
 dev:
   cd .. && NODE_ENV=development
     ENV=development PORT=3000
@@ -81,7 +81,7 @@ How would you define the script?
 How would you run the script?
 
 ```bash
-$ ??? ??? ???
+??? ??? ???
 ```
 
 * scripts
@@ -114,4 +114,5 @@ The syntax to add an `external_script.sh` to *package.json* is:
 * ./external_script.sh
 * script
 * external_script.js
+ 
  

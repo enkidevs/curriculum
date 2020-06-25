@@ -1,11 +1,15 @@
 ---
-author: tuwi.dc
+author: tuwidc
 
 levels:
 
   - advanced
 
   - medium
+
+aspects:
+  - workout
+  - deep
 
 type: normal
 
@@ -79,4 +83,6 @@ You can upload your important configuration files to *git* using
 * auto-pull scripts
 * history
 
+ 
+ 
  

@@ -14,7 +14,10 @@ inAlgoPool: false
 standards:
   python.native-types-operations.5: 10
 
-
+aspects:
+  - introduction
+  - workout
+  - deep
 ---
 
 # Complex `set` operations
@@ -24,7 +27,7 @@ standards:
 
 Python has a number of further complex operations which can be carried out on `sets`.
 
-`issubset(x)` will return true if y is a subset of x. Instead of writing `issubset` you can use the abbreviation `<=`, for example:
+`y.issubset(x)` will return true if y is a subset of x. Instead of writing `issubset` you can use the abbreviation `<=`, for example:
 
 ```python
 x = {"a", "b", "c", "d"}
@@ -40,7 +43,7 @@ y <= x
 # True
 ```
 
-`issuperset()` returns true if x is a superset to y. Instead of writing `issuperset` you can use the abbreviation `>=`, for example:
+`x.issuperset(y)` returns true if x is a superset to y. Instead of writing `issuperset` you can use the abbreviation `>=`, for example:
 
 ```python
 x = {"a", "b", "c", "d"}
@@ -62,12 +65,14 @@ Complete the following code snippet such that it will have the desired output (m
 
 x = {'user1', 'user2', 'user3'}
 y = {'user3'}
+z = {'user4'}
 
 x.???(???)
+# True
 ```
 * issuperset
 * y
-* x
+* z
 * issubset
 
 ---
@@ -86,5 +91,3 @@ x.issubset(y)
 * `x <= y`
 * `x == y`
 * `y > x`
- 
- 

@@ -11,11 +11,14 @@ type: normal
 
 category: must-know
 
+aspects:
+  - workout
+  - deep
 
 links:
 
-  - '[www.sitepoint.com](http://www.sitepoint.com/future-generation-css-selectors-level-4/){website}'
-  - '[MDN empty](https://developer.mozilla.org/en-US/docs/Web/CSS/:empty)[documentation}'
+  - '[Article on CSS Selectors](http://www.sitepoint.com/future-generation-css-selectors-level-4/){website}'
+  - '[MDN Docs on :empty](https://developer.mozilla.org/en-US/docs/Web/CSS/:empty)[documentation}'
 
 ---
 
@@ -31,14 +34,14 @@ The `:blank` pseudo-class, however, will select an element as long as it has no 
 Example:
 
 HTML:
-```
+```html
 <p></p>
 <p> </p>
 
 ```
 CSS:
 
-```
+```css
 p:blank {
   outline: solid 1px red;
 }
@@ -82,4 +85,3 @@ Which lines of HTML code would a *:blank* pseudo class apply to?
 * 4th and 5th
 * 2nd and 5th
 * 1st and 3rd
-

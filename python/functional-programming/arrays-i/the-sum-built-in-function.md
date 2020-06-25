@@ -10,9 +10,13 @@ levels:
   - medium
 
 type: normal
-
+aspects:
+  - introduction
+  - workout
+  - deep
 category: must-know
-
+standards:
+  python.use-iteration-protocol.1: 10
 
 links:
 
@@ -56,7 +60,6 @@ print(sum(letters))
 
 ???
 
-
 * TypeError: unsupported operand type(s) for +: 'int' and 'str'
 * abc
 * ['a', 'b', 'c']
@@ -64,7 +67,7 @@ print(sum(letters))
 ---
 ## Revision
 
-Let's imagine we are comparing the bill totals for two customers. Fill in the blanks in the code below to return the sum of the bill with the greatest total, *after adding the mandatory service charge of $8*.
+Let's imagine we are comparing the bill totals for two customers. Fill in the blanks in the code below to print out the sum of the bill with the greatest total, *after adding the mandatory service charge of $8*.
 
 ```python
 bill1 = [2.5, 3, 16, 18]
@@ -85,4 +88,3 @@ print(bill1 if ??? > ??? else bill2)
 ## Footnotes
 [1:Alternatives to `sum`]
 *An example of a rare case where an alternative method is superior to `sum` is when adding floating point values. When precision is important, it is better to use `math.fsum()` which deliberately avoids loss of precision. For more information, see the Python Docs in the Learn More section.*
- 

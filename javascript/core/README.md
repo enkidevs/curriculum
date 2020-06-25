@@ -7,15 +7,16 @@ core: true
 sections:
   '0':
     - intro-js
-    - syntax
     - types
     - flow-control
     - functions-i
+    - js-history
     - arrays
     - objects
   '1':
     - types-ii
     - strings
+    - strings-ii
     - numbers
     - array-methods
     - functions-ii
@@ -26,9 +27,6 @@ sections:
     - recipes-i
     - in-depth-ii
     - recipes-ii
-  '3':
-    - async
-    - async-tips
 
 standards:
   javascript-syntax:
@@ -135,11 +133,11 @@ standards:
       1: Use the prototype of the constructor function to set methods on instances produced by the constructor function
       2: Modify the instance using a prototype method
   prototype-inherit:
-    name: Use prototypes to create class-like objects in JavaScript
+    name: Use prototypes to inherit attributes from another object in JavaScript
     description: This standard covers using the prototype of a constructor function to create a class-like object, and inheriting methods and properties from another object higher in the prototype chain, from which instances can be produced that share common methods and properties, but not common property values.
     objectives:
-      0: Set the prototype of the constructor function to inherit methods on instances produced by the constructor function
-      1: Modify the instance using an inherited prototype's method
+      0: Set the prototype of a constructor function to inherit methods from another object
+      1: Modify an instance using an inherited prototype's method
   exceptions:
     name: Identify and handle exceptions in JavaScript
     description: This standard deals with exception handling in JavaScript, as well as the identification of different errors that JavaScript displays.

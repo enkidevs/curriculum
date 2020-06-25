@@ -7,6 +7,9 @@ levels:
 
   - medium
 
+aspects:
+  - deep
+
 type: normal
 
 category: feature
@@ -30,25 +33,25 @@ This compulsory access mechanism provides three basic modes that dictate how it 
 Check the current status of **SELinux**:
 
 ```bash
-$ sestatus
+sestatus
 
-$ getenforce
+getenforce
 
-$ system-config-selinux
+system-config-selinux
 ```
 
 If it is `disabled` you can easily turn it on as it is recommended:
 
 ```bash
-$ setenforce enforcing
+setenforce enforcing
 ```
 
 ---
 ## Practice
 
 How do you change **SELinux** settings to only *warn* and *log* :
-```
-$ ??? ???
+```bash
+??? ???
 ```
 
 
@@ -71,4 +74,6 @@ _SELinux_ is a
 * terminal browser
 * Linux distribution
 * hacker group
+ 
+ 
  

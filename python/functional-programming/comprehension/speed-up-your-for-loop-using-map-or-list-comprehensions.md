@@ -2,24 +2,27 @@
 author: Aaron7Sun
 
 levels:
-
   - basic
-
   - advanced
-
   - medium
+
+aspects:
+  - workout
 
 type: normal
 
 category: tip
 
 tags:
-
   - speed-up-code
 
+standards:
+    python.use-iteration-protocol.1: 10
+    python.use-comprehensions.0: 10
+    python.use-comprehensions.4: 10
+    python.use-comprehensions.5: 10
 
 links:
-
   - '[docs.python.org](https://docs.python.org/2/library/functions.html#map){website}'
 
 notes: ''
@@ -84,4 +87,3 @@ What are the two methods that improve list iteration performance in python?
 * sort, map
 * arrange, map
 * list comprehension, sort
- 

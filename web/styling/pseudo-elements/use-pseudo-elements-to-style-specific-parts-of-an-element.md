@@ -9,6 +9,9 @@ type: normal
 
 category: pattern
 
+aspects:
+  - introduction
+
 tags:
 
   - css
@@ -18,7 +21,7 @@ tags:
 
 links:
 
-  - '[MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements){documentation}'
+  - '[MDN Docs on Pseudo Elements](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements){documentation}'
 
 
 ---
@@ -73,4 +76,3 @@ Ideally, what should precede all pseudo-elements declaration?
 * `:`
 * `-`
 * `;`
-

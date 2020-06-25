@@ -1,28 +1,13 @@
 ---
 author: alexjmackey
 
-levels:
-
-  - beginner
-
 type: normal
 
 category: must-know
 
-inAlgoPool: false
-
-standards:
-
-  javascript.data-types-structures.2: 10
-  javascript.evaluate-expressions.6: 10
-  javascript.data-types-structures.3: 10
-  javascript.data-types-structures.5: 10
-
-tags:
-  - introduction
-
 aspects:
   - introduction
+  - workout
 
 ---
 
@@ -31,70 +16,122 @@ aspects:
 ---
 ## Content
 
-Arrays are an essential concept in JavaScript and used frequently.
+Arrays are an essential concept in JavaScript and are used frequently.
 
-Declaring an array:
-```
-var myArray = [1,2,3];
-var anotherArray =["a","b","c"];
+Here's how we can declare an array:
+
+```js
+let myArray = [1, 2, 3];
+let anotherArray = ["a", "b", "c"];
 ```
 
-Array's are *zero based/indexed* so if you want to retrieve the first value you use 0 as the index parameter:
+Array's are *zero based/indexed* which means that if we want to retrieve the first value, we have to use `0` as the index value:
 
-```
+```js
+let myArray = [1, 2, 3];
+
 console.log(myArray[0]);
+// 1
 ```
 
-We can retrieve the last value of an array by using the *length* property and subtracting 1 from it (don’t use this on an empty array!)
+We can retrieve the last value of an array by using the `length` property and subtracting 1 from it:
 
-```
-var arrayLength=myArray.length;
-var lastVal= myArray[arrayLength-1];
+```js
+let myArray = [1, 2, 3];
+
+let lastVal = myArray[myArray.length - 1];
 console.log(lastVal);
+// 3
 ```
 
-Values can be added to the array with the *push* method which returns the new length of the array:
+Values can be added to the array using the `push` method:
+
+```js
+let myArray = [1, 2, 3];
+
+myArray.push(4);
+
+console.log(myArray);
+// 1, 2, 3, 4
+
+// we can even add multiple
+// values at the same time
+myArray.push(5, 6, 7);
+
+console.log(myArray);
+// 1, 2, 3, 4, 5, 6, 7
 ```
-myArray.push(555); //4
-myArray.push(5,6,7); //7
+
+The last item can be returned and removed using `pop`:
+
+```js
+let myArray = [1, 2, 3];
+
+let lastItem = myArray.pop();
+console.log(lastItem);
+// 3
+console.log(myArray);
+// [1, 2]
 ```
-Or the last item can be returned and removed using *pop*:
+
+You can find the position of any item using the `indexOf` method:
+
+```js
+let myArray = [1, 2, 3];
+
+let pos = myArray.indexOf(2);
+console.log(pos);
+// 1
 ```
-myArray.pop();
-```
-You can find the position of any item with the *indexOf* operator:
-```
-var pos = myArray.indexOf(3); //2
-```
-We can iterate over the array items with *forEach*:
-```
+
+You can iterate over the array items with *forEach*:
+
+```js
+let myArray = [1, 2, 3];
+
 myArray.forEach(
-function (item, index, array) {
+  function (item, index, array) {
+    console.log(item, index);
+  }
+);
+
+// 1, 0
+// 2, 1
+// 3, 2
+```
+
+Or using `for..of`:
+
+```js
+let myArray = [1, 2, 3];
+
+for (let item of myArray) {
   console.log(item, index);
 }
-);
+
+// 1
+// 2
+// 3
 ```
-Another cool feature of JavaScript is that you can initialize an array as such:
-```javascript
-var myArray = [,,,];
-```
-What this does is create an *empty* array of *size 3* (not 4, as the last comma is ignored).
 
 ---
 ## Practice
 
 How would you get the last value in the `myArray` array?
-```
-var myLength = myArray.???
-var last = ???[??? ???];
+```js
+let myArray = [1, 2, 3];
+let arrayLength = myArray.???;
+let lastVal = ???[??? ???];
+console.log(lastVal);
+// 3
 ```
 
 * `length`
 * `myArray`
-* `myLength`
-* `-1`
-* `+0`
-* `+1`
+* `arrayLength`
+* `- 1`
+* `+ 0`
+* `+ 1`
 * `array`
 * `[0]`
 * `.getLast`
@@ -103,27 +140,27 @@ var last = ???[??? ???];
 ---
 ## Revision
 
-Fill the gaps such that you get the first element of `enkiArray`:
-```
-var enkiArray = [1, 2, 3];
-var firstElement = ??????;
+Fill in the gaps such that you remove the last element of `enkiArray` and save it in the `elem` variable in a single line of code:
+
+```js
+let enkiArray = [1, 2, 3];
+let elem = ???.???;
 ```
 
 
 * `enkiArray`
-* `[0]`
-* `[1]`
-* `array`
+* `pop()`
+* `[2]`
+* `unshift()`
 * `getLast()`
-* `getFirst()`
-* `push`
-* `pop`
+* `last`
+* `push()`
 
 ---
 ## Quiz
 ### what is the length of the array below?
 
-```javascript
+```js
 let arr = [,,,]
 console.log(arr.length)
 ```
@@ -134,5 +171,3 @@ console.log(arr.length)
 * 4
 * 0
 * 1
- 
- 

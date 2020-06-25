@@ -1,5 +1,5 @@
 ---
-author: stefan.stojanovic
+author: Stefan-Stojanovic
 
 levels:
   - beginner
@@ -9,54 +9,49 @@ type: normal
 
 category: must-know
 
-standards:
-  web.markup-text.2: 10
-
 aspects:
   - introduction
   - workout
   - deep
 
+links:
+
 ---
-# Copyright
+# The Copyright Character
 ---
 ## Content
 
-Some characters are not easily typed on the keyboard.
-
-The Copyright (©) is one of those characters.
+Some characters are not easily typed on the keyboard, like the Copyright (©) character.
 
 To display the Copyright symbol, you can use either the HTML entity *number* or the entity *name*.
 
-HTML Entity Number
-```
+HTML Entity Number:
+```html
 &#169;
 ```
 Result:
-```
-©
-```
 
-HTML Entity Name
-```
+![copyright](https://img.enkipro.com/c4c8f62c7d1b45ded9da5707bd69d4a5.png)
+
+HTML Entity Name:
+```html
 &copy;
 ```
 Result:
-```
-©
-```
+
+![copyright](https://img.enkipro.com/c4c8f62c7d1b45ded9da5707bd69d4a5.png)
 
 Example:
-```
-<p> Copyright &copy; </p>
+```html
+<p>Copyright &copy;</p>
 ```
 Result:
-```
-Copyright ©
-```
 
-When using the Copyright symbol in your HTML, it is better to use the corresponding HTML entity than typing the symbol.
-This is because, even if the symbol renders ok on your browser, it may not render the same on other ones.
+![copyright-year](https://img.enkipro.com/33f77a5af95764ae0e892e2269947b1c.png)
+
+[View CodePen](https://codepen.io/enkidevs/pen/WKRooB)
+
+When using the Copyright symbol in your HTML, it is a best practice to use the corresponding HTML entity vs. cutting and pasting the symbol. Because  even if the symbol renders ok on your browser, it may not render the same on everyone's browser.
 
 ---
 ## Practice
@@ -65,10 +60,10 @@ Why can using "&copy;" for a copyright symbol be easier to code?
 
 ???
 
-* Because © isn't available on your keyboard.
-* Typing © on your keyboard is easier than using "&copy;".
+* Because `©` isn't available on your keyboard.
+* Typing `©` on your keyboard is easier than using `&copy;`.
 * There is no good way to code the copyright symbol.
-* &copy; is smaller in filesize, loading faster.
+* `&copy;` is smaller in filesize, loading faster.
 
 ---
 ## Revision
@@ -77,11 +72,11 @@ What HTML character entity is used to insert a copyright symbol into a document?
 
 ???
 
-* &copy;
-* @
-* ©
-* &copyright
-* @c
+* `&copy;`
+* `@`
+* `©`
+* `&copyright`
+* `@c`
 
 ---
 ## Quiz
@@ -92,8 +87,7 @@ What does &copy; display in this line of code?
 
 `<p>The symbol "&copy;" should be pretty easy to recognize.</p>`
 
-
-* ©
-* symbol
-* &copy;
+* `©`
+* `symbol`
+* `&copy;`
 * Copyright [current year]

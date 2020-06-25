@@ -1,6 +1,6 @@
 name: Fundamentals I
 
-description: How do computer network work? This and more explored in this workout
+description: How do computer networks work? This and more explored in this workout.
 
 insights:
   - what-is-a-computer-network
@@ -8,4 +8,4 @@ insights:
   - what-is-protocol
   - types-of-networks
   - network-models
- 
+  - network-models-tcp-ip

@@ -1,37 +1,21 @@
 ---
 author: jordanfish
 
-levels:
-
-  - basic
-
 type: normal
 
 category: caveats
 
-standards:
-
-  javascript.control-flow.2: 10
-
-  javascript.data-types-structures.5: 10
-
-tags:
-
-  - introduction
-
-
 links:
-
-  - '[www.standardista.com](http://www.standardista.com/javascript/15-common-javascript-gotchas){website}'
-
+  - '[16 Common JavaScript Gotchas](http://www.standardista.com/javascript/15-common-javascript-gotchas){website}'
+  - '[== vs ===](https://youtu.be/kVOmc7NK1M0){video}'
 
 aspects:
   - introduction
-
+  - workout
 
 ---
 
-# Data type comparison in `switch` statements
+# Data Type Comparison in `switch` Statements
 
 ---
 ## Content
@@ -39,13 +23,15 @@ aspects:
 The `==` operator does not care for types. Therefore, the following `if` condition will pass:
 
 ```javascript
-var test = 5;
-if (test == '5'){
-  console.log('Ay caramba');  
+let test = 5;
+if (test == "5") {
+  console.log("Ay caramba");
 }
 // Ay caramba
 ```
+
 Instead, the `===` operator won't do any type conversion and the `if` condition will be evaluated to `false`:
+
 ```javascript
 if (test === '5') {
   console.log('Ay caramba');
@@ -54,30 +40,32 @@ if (test === '5') {
 }
 // Expected
 ```
+
 Keep in mind that **JavaScript** uses **strict comparison** for `switch` statements:
+
 ```javascript
-var test = 5;
+let test = 5;
 switch (test) {
-  case '5':
+  case '5': // this isn't matched!
     console.log('Ay caramba');
 }
 ```
 
-Therefore, the code snippet above won't `log` anything.
+Because of the **strict comparison**, JavaScript tests that `5 === '5'`  which evaluates to `false`. Therefore, the code snippet above won't `log` anything.
 
 ---
 ## Practice
 
 Complete the following code snippet such that `A` is logged to the `console`:
+
 ```javascript
-var x = 1;
+let x = 1;
 switch (???) {
   ??? ???:
     console.log('A');
 }
 // A
 ```
-
 
 * `x`
 * `case`
@@ -94,8 +82,9 @@ switch (???) {
 ## Revision
 
 What will the following snippet output?
+
 ```javascript
-var x = 10;
+let x = 10;
 switch(x){
   case '10':
      console.log("Hi!");

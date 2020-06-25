@@ -9,11 +9,15 @@ type: normal
 
 category: how to
 
+aspects:
+
+  - deep
+
+  - obscura
 
 links:
 
   - '[More on Serialization](https://www.tutorialspoint.com/java/java_serialization.htm){website}'
-
 
 ---
 
@@ -29,7 +33,7 @@ In order for the object to be serializable two conditions must be held:
 - Fields of an objects must be serializable, otherwise they must be marked as `transient`[1]
 
 For example, let's say we want to store a copy of `Car` object on a local machine:
-```
+```java
 import java.io.*;
 public class carSerialization {
   public static void main(String [] args) {
@@ -62,7 +66,7 @@ It is important to use `try` and `catch` blocks as in this case we might get a f
 **Advanced Section:**
 In order to use serialization with generics both of the generic types should be serializable:
 
-```
+```java
 class Pair<L extends Serializable,
            R extends Serializable>
            implements Serializable
@@ -73,7 +77,7 @@ class Pair<L extends Serializable,
 
 Consider the following:
 
-```
+```java
 class Engine { //not serializable    
     private int numberOfCilinders;
     private int volumeInLitres;
@@ -133,4 +137,3 @@ What is the conventional extension of a file that the information about the clas
 ## Footnotes
 [1:`transient`]
 We mark fields with `transient` if this field will not be serialized and the information about this field will not be transferred. The motivation for this may be that this particular piece of information is redundant for the receiver or is too risky to transfer (i.e. passwords or other private data).
- 

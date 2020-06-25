@@ -12,7 +12,16 @@ levels:
 type: normal
 
 category: must-know
+aspects:
+  - introduction
+  - workout
+  - deep
+standards:
 
+  python.data-structures-uses.0: 10
+  python.data-structures-uses.1: 10
+  python.native-types-operations.3: 10
+  python.use-iteration-protocol.1: 10
 
 links:
 
@@ -112,4 +121,3 @@ An easy rule of thumb is that imperative programming specifies **how** (what ste
 
 [3:Functional Programming]
 As explained in the above footnote, functional programming is a type of declarative language, which focus on **what** is to be computed. Functional programming eschews the idea of state from imperative programming and instead reduces a program down into functions applied on immutable data (data that cannot be directly modified). Notice how in the code example, we use `map` to apply our lambda function to each element in the list, but the items in the original list itself are **not** modified. We take each output from the lambda function and create a new copy of the original list with our new answers. This is the essence of *immutability*, one of the most important concepts of functional languages.
- 

@@ -7,6 +7,10 @@ levels:
 
   - beginner
 
+aspects:
+  - introduction
+  - workout
+  
 type: normal
 
 category: must-know
@@ -38,7 +42,7 @@ If we want to save the output to a file we can use the `>` redirection operator.
     This will replace every instance of `apples` with `bananas`.
 
     ```shell
-    $ sed 's/apples/bananas/g' data.txt
+    sed 's/apples/bananas/g' data.txt
     ```
 
     The general format for "search and replace" is `s/stuff-to-find/stuff-to-replace/flags`.  The `flags` allow us to specify different modes for the search and replace command.
@@ -68,8 +72,8 @@ As you can see, `sed` offers powerful tools for manipulating text.  It's one of 
 ## Practice
 
 Replace the first apparition of *apple* in each line by *orange*:
-```
-$ ??? '??? ??? ???'
+```bash
+??? '??? ??? ???'
         fruits.txt
 ```
 
@@ -90,4 +94,6 @@ What does `sed` stand for?
 * stream edit
 * special stream editor
 
+ 
+ 
  

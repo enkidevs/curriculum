@@ -1,6 +1,6 @@
-name: Generators and Proxy
+name: Generators & Proxy
 
-description: Getting to know generators and proxies in ES6.
+description: Getting to know generators and proxies.
 
 insights:
   - yield

@@ -10,7 +10,13 @@ levels:
 type: normal
 
 category: how to
-
+aspects:
+  - introduction
+  - workout
+  - deep
+standards:
+  python.use-iteration-protocol.1: 10
+  python.native-types-operations.4: 10
 
 links:
 
@@ -64,7 +70,7 @@ y % 3 == 0 ]
 ---
 ## Practice
 
-Use nested list comprehension to generate a list of tuples, where the first element must always be odd. 
+Use nested list comprehension to generate a list of tuples, where the first element must always be odd.
 Ex: (1,1),(1,2),(1,3),...(9,7),(9,8),(9,9).
 
 ```python
@@ -96,4 +102,3 @@ print(l[2])
 * (1,2)
 * (1,3)
 * (1,6)
- 

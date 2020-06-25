@@ -12,7 +12,10 @@ levels:
 type: normal
 
 category: feature
-
+aspects:
+  - introduction
+  - workout
+  - deep
 standards:
   python.native-types-operations.6: 10
 
@@ -66,5 +69,3 @@ Which collections class is used for defining a meaning for every position in a t
 * `namedtuple`
 * `definetuple`
 * `definitiontuple`
- 
- 

@@ -13,6 +13,11 @@ type: normal
 
 category: feature
 
+aspects:
+
+  - deep
+
+  - obscura
 
 links:
 
@@ -33,7 +38,7 @@ The Java Virtual Machine has a `jps` tool used in order to list all the running 
 
 Basic syntax / lists all java processes:
 ```java
-$ jps
+jps
 
 8815 Jps
 ```
@@ -41,14 +46,14 @@ $ jps
 Long listing:
 
 ```java
-$ jps -l
+jps -l
 
 8848 sun.tools.jps.Jps
 ```
 
 Listing arguments:
 ```java
-$ jps -m
+jps -m
 
 8909 Jps -m
 
@@ -57,7 +62,7 @@ When running several Java Web Start applications on a system, they tend to look 
 
 To display Java VM parameters: `jps -v`
 ```java
-$ jps -v
+jps -v
 
 8994 Jps -Dapplication.home=/usr/lib/jvm/
 java-8-oracle -Xms8m
@@ -74,14 +79,14 @@ If remote system is running `jstatd`,  `jps` can also list processes on a remote
 
 Display all Java VM parameters:
 ```
-$ ??? ???
+??? ???
 ```
 
-* `jps` 
-* `-v` 
-* `javavm` 
-* `-p` 
-* `-vm` 
+* `jps`
+* `-v`
+* `javavm`
+* `-p`
+* `-vm`
 * `-vmp`
 
 ---
@@ -89,13 +94,13 @@ $ ??? ???
 
 Long list all Java processes using `jps`:
 ```
-$ ???
+???
 ```
 
-* `jps -l` 
-* `jps` 
-* `jps list` 
-* `jps -list` 
+* `jps -l`
+* `jps`
+* `jps list`
+* `jps -list`
 * `jps -long`
-
+ 
  

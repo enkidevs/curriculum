@@ -1,11 +1,15 @@
 ---
-author: tuwi.dc
+author: tuwidc
 
 levels:
 
   - advanced
 
   - medium
+
+aspects:
+  - deep
+  - obscura
 
 type: normal
 
@@ -36,8 +40,8 @@ tags:
 All login attempts in Debian systems are logged to `/var/log/auth.log`. For distribution using *systemd*, the log can be checked with `journalctl`.
 
 Failed log-in attempts for Debian:
-```
-$ grep sshd.\*Failed /var/log/auth.log 
+```bash
+grep sshd.\*Failed /var/log/auth.log 
 ```
 ```
 sshd[5657]: Failed password for root from
@@ -47,8 +51,8 @@ sshd[5768]: Failed password for root from
 ...
 ```
 Failed connections that do not attempt login (for example, port scans):
-```
-$ grep sshd.*Did /var/log/auth.log
+```bash
+grep sshd.*Did /var/log/auth.log
 ```
 ```
 sshd[7748]: Did not receive identification
@@ -58,8 +62,8 @@ sshd[1919]: Did not receive identification
 ...
 ```
 For **other systems**:
-```
-$ journalctl _COMM=sshd 
+```bash
+journalctl _COMM=sshd 
 ```
 
 ---
@@ -74,4 +78,6 @@ $ journalctl _COMM=sshd
 * packets sent
 * passwords used to log in
 
+ 
+ 
  

@@ -9,12 +9,17 @@ type: normal
 
 category: must-know
 
+aspects:
+
+  - introduction
+  - workout
+  
 inAlgoPool: false
 
 
 links:
 
-  - '[git-scm.com](https://git-scm.com/book/en/v2/Getting-Started-Git-Basics){website}'
+  - '[Git Basics Official Documentation](https://git-scm.com/book/en/v2/Getting-Started-Git-Basics){website}'
 
 
 ---
@@ -43,11 +48,10 @@ You can store a snapshot of the data in the local repository by
 
 ???
 
-
 * `committing`
 * `tracking`
 * `creating a Git repository`
-* `doing nothig, Git saves them automatically`
+* `doing nothing, Git saves them automatically`
 
 ---
 ## Revision

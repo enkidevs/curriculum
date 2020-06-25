@@ -13,10 +13,15 @@ type: normal
 
 category: must-know
 
+aspects:
+
+  - deep
+  - workout
+
 
 links:
 
-  - '[git-scm.com](http://git-scm.com/book/en/v2/Git-Basics-Viewing-the-Commit-History){website}'
+  - '[Limiting Log Output](http://git-scm.com/book/en/v2/Git-Basics-Viewing-the-Commit-History){documentation}'
 
 
 ---
@@ -31,8 +36,8 @@ By default `git log` shows the whole commit history, with the most recent commit
 You can limit this output to a specific time period by using `--since/--after` and `--until/--before`. 
 
 For example, to show commits in the past month:
-```
-$ git log --since="last month"
+```bash
+git log --since="last month"
 ```
 Many different formats are accepted, for example relative dates ("3 hours ago"), ISO 8601 and RFC 2822 formats, and "YYYY-MM-DD".
 
@@ -40,10 +45,10 @@ Many different formats are accepted, for example relative dates ("3 hours ago"),
 ## Practice
 
 Show the commits between 01/01/2016 and 05/01/2016 (DD/MM/YYYY) :
-```
-$ git ??? 
-    --???="2016-01-01" 
-    --???="2016-01-05"
+```bash
+git ??? 
+  --???="2016-01-01" 
+  --???="2016-01-05"
 ```
 
 * `log`
@@ -56,8 +61,8 @@ $ git ???
 ## Revision
 
 Show the commits made today :
-```
-$ git ??? ???
+```bash
+git ??? ???
 ```
 
 * `log`
@@ -66,4 +71,6 @@ $ git ??? ???
 * `--since`
 * `"yesterday"`
 
+ 
+ 
  

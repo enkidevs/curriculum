@@ -9,23 +9,26 @@ type: normal
 
 category: how to
 
+aspects:
+  - workout
+  - deep
 
 links:
 
-  - '[github.com](https://github.com/AllThingsSmitty/css-protips){website}'
-  - '[MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/:not){documentation}'
+  - '[CSS Pro Tips](https://github.com/AllThingsSmitty/css-protips){website}'
+  - '[MDN Docs on :not](https://developer.mozilla.org/en-US/docs/Web/CSS/:not){documentation}'
 
 
 ---
 
-# Use `:not()` to apply/unapply styles 
+# Use `:not()` to apply/unapply styles
 
 ---
 ## Content
 
 Rather than adding a border to a navigation bar, and then removing it for the last element:
 
-```
+```css
 /* add border */
 .nav li {
   border-right: 2px solid #FFF;
@@ -38,7 +41,7 @@ Rather than adding a border to a navigation bar, and then removing it for the la
 ```
 Use the `:not()` pseudo-class to only apply to the elements you want:
 
-```
+```css
 .nav li:not(:last-child) {
   border-right: 2px solid #FFF;
 }
@@ -49,21 +52,21 @@ Use the `:not()` pseudo-class to only apply to the elements you want:
 
 Complete the code snippet:
 
-```
-.nav li???(:last-child) { 
-  border-left: 5px dashed #FFF; 
-} 
+```css
+.nav li???(:last-child) {
+  border-left: 5px dashed #FFF;
+}
 ```
 
-* `:not` 
-* `.not` 
-* `::not` 
+* `:not`
+* `.not`
+* `::not`
 * `not`
 
 ---
 ## Revision
 
-What does the following CSS code do? 
+What does the following CSS code do?
 ```css
 .div li:not(:last-child) {
 
@@ -74,4 +77,3 @@ What does the following CSS code do?
 * Allows styles to be applied to all elements except for the final element.
 * Allows styles to be applied specifically to the final element.
 * Allows styles to be applied to every other element.
-

@@ -9,6 +9,11 @@ type: normal
 
 category: best practice
 
+aspects:
+
+  - workout
+
+  - deep
 
 links:
 
@@ -68,5 +73,3 @@ What does the `toString()` method return by default?
 * The first field value.
 * Every field:value pair.
 * Every field:value pair and a list of methods.
-
- 

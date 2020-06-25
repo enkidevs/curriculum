@@ -10,7 +10,8 @@ levels:
   - medium
 
 type: exercise
- 
+aspects:
+  - introduction
 link: https://www.codewars.com/kata/find-the-files-then-read-them
 linkType: codewars
 standards:

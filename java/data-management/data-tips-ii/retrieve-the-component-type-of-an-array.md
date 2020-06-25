@@ -13,6 +13,10 @@ type: normal
 
 category: how to
 
+aspects:
+
+  - introduction
+
 tags:
 
   - array
@@ -21,11 +25,9 @@ tags:
 
   - java.lang.Class
 
-
 links:
 
   - '[www.tutorialspoint.com](http://www.tutorialspoint.com/java/lang/class_getcomponenttype.htm){website}'
-
 
 ---
 
@@ -39,7 +41,7 @@ If the *type* of components in an array is unknown, they can be retrieved by usi
 The method returns `null` if the object on which this method is called does not represent an array.
 
 First, since every array is an object, `getClass()` method is called to get the Class object associated with the array. Then the `getComponentType()` retrieves the type of the elements as follows:
-```
+```java
 public class ElementsTypeInArray {
 
   public static void main(String[] args){
@@ -65,7 +67,7 @@ public class ElementsTypeInArray {
 ## Practice
 
 What will be returned by the following code snippet?
-```
+```java
 int[] array = {1, 2, 3}
 Class arrayClass = array.getClass();
 return arrayClass.getComponentType(); 
@@ -90,5 +92,3 @@ What method is used to get the type of an array?
 * `getType()` 
 * `getClass()` 
 * `getArrayType()`
-
- 

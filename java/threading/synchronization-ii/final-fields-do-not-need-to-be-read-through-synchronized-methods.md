@@ -13,6 +13,12 @@ type: normal
 
 category: tip
 
+aspects:
+
+  - workout
+
+  - deep
+
 tags:
 
   - multithreading
@@ -23,11 +29,9 @@ tags:
 
   - final
 
-
 links:
 
   - '[docs.oracle.com](https://docs.oracle.com/javase/tutorial/essential/concurrency/syncmeth.html){website}'
-
 
 ---
 
@@ -39,7 +43,8 @@ links:
 Using `synchronized` methods to access an object's fields is a way to prevent thread interference and memory consistency errors.
 
 For example:
-```
+
+```java
 private int x = 0;
 public synchronized void getX() {
   return x;
@@ -47,12 +52,12 @@ public synchronized void getX() {
 ```
 
 However, fields that are declared as `final` can be safely accessed using methods that are not `synchronized`:
-```
+
+```java
 private final int x = 0;
 public void getX() {
   return x;
 }
 ```
-This is is because a `final` field cannot be changed once it has been set; so there is no chance of introducing a memory consistency error.
 
- 
+This is is because a `final` field cannot be changed once it has been set; so there is no chance of introducing a memory consistency error.

@@ -1,5 +1,5 @@
 ---
-author: stefan.stojanovic
+author: Stefan-Stojanovic
 
 levels:
   - beginner
@@ -9,23 +9,19 @@ type: normal
 
 category: must-know
 
-standards:
-  web.html-forms.0: 10
-  web.html-forms.3: 10
-
 aspects:
   - introduction
   - workout
   - deep
 
+links:
+
 ---
-# Placeholder
+# The `placeholder` Attribute
 ---
 ## Content
 
-
-The HTML input form attribute `placeholder` is used to display a short hint that describes the expected value for the selected input field.
-It is displayed in the input field until the user enters a value.
+The HTML input form attribute `placeholder` is used to display a short hint that describes the expected value for the selected input field. It is displayed in the input field until the user enters a value.
 
 The placeholder attribute works for several input types:
  - `email`
@@ -36,7 +32,7 @@ The placeholder attribute works for several input types:
  - `URL`
 
 Example:
-```
+```html
 <form
   action="/action.php">
   <input
@@ -47,6 +43,10 @@ Example:
     value="Submit">
 </form>
 ```
+
+![form-placeholder](https://img.enkipro.com/a02fc73d00fa313cb1087ca07e1b5417.png)
+
+[View CodePen](https://codepen.io/enkidevs/pen/LrMJqV)
 
 ---
 ## Practice
@@ -65,7 +65,7 @@ Which statement is true regarding placeholder?
 
 Which form attribute shares a short hint that describes the expected value of an input field and will be overwritten by their input?
 
-```
+```html
 <input
   type="text" name="fname"
   ???="Full name">
