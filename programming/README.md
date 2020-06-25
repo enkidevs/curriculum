@@ -2,8 +2,8 @@ name: Programming
 
 description: Everything you need to know before you start programming.
 
-color: aaf0d1
+color: 5F4B8B
 
-icon: https://img.enkipro.com/2cec1024be8b9d18d1e485fab441ce9c.png
+icon: https://img.enkipro.com/c425f0ed3f805cb615a195059f2f249c.png
 
 language: General
