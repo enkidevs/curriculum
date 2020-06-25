@@ -10,7 +10,7 @@ aspects:
 
 ---
 
-# Takeaways
+# Takeaway
 
 ---
 ## Content
