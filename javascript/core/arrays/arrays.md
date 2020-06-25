@@ -9,9 +9,6 @@ aspects:
   - introduction
   - workout
 
-links:
-  - '[forEach](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach){documentation}'
-
 ---
 
 # Arrays
