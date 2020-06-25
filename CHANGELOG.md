@@ -38,6 +38,18 @@ Types of change:
 - `Archived` for content that is no longer necessary and has been archived.
 - `Fixed` for any minor fixes (e.g. add a missing comma, adding a code block tag, fixing a report).
 
+## June 25th 2020
+
+### Fixed
+- [Regex - Modfiers - Add missing code tags](https://github.com/enkidevs/curriculum/pull/2206)
+- [Python - Lists vs Dictionaries - Add missing quotes & general formatting](https://github.com/enkidevs/curriculum/pull/2204)
+- [HTML - Optional Elements - Update text in snippets, small grammar improvements, move link to the links section](https://github.com/enkidevs/curriculum/pull/2207)
+
+## June 24th 2020
+
+### Fixed
+- [Comp. Sci. - The HTTP request - Removed broken resource & general formatting](https://github.com/enkidevs/curriculum/pull/2203)
+
 ## June 22nd 2020
 
 ### Changed
