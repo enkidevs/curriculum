@@ -53,7 +53,7 @@ saving bytes</title>
 <p>Qed.
 ```
 
-In order for the document to display properly with all the optional tags omitted, there are various conditions that need to be met. The `<title>` tag cannot be omitted but the `<p>` tag can. All  conditions for each element can be found in greater detail in the `Optional elements` link in the `learn more` section.
+In order for the document to display properly with all the optional tags omitted, there are various conditions that need to be met. The `<title>` tag cannot be omitted but the `<p>` tag can. All conditions for each element can be found in greater detail in the `Optional elements` link in the `learn more` section.
 
 ---
 ## Practice
