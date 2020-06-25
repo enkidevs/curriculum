@@ -41,6 +41,7 @@ Types of change:
 ## June 25th 2020
 
 ### Fixed
+- [Regex - Modfiers - Add missing code tags](https://github.com/enkidevs/curriculum/pull/2206)
 - [Python - Lists vs Dictionaries - Add missing quotes & general formatting](https://github.com/enkidevs/curriculum/pull/2204)
 
 ## June 24th 2020
