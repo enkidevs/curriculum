@@ -1,19 +1,14 @@
 ---
 author: Stefan-Stojanovic
-
-aspects:
-  - deep
-  - workout
-
 type: normal
-
 category: how to
-
 ---
 
 # Types of Charts I
 
+
 ---
+
 ## Content
 
 There are a variety of charts you can make, with some of the more well known ones being `Pie`, `Bar` and `Column` charts.
@@ -32,13 +27,11 @@ The example chart shows the total number of users for the first 10 days of Decem
 
 ![pie-chart](https://img.enkipro.com/9b9faa9cfb972490ce6ade3a59dc235c.png)
 
-
 ### Bar Chart
 
 The bar chart is used to represent data with either horizontal or vertical bars.
 
 ![bar-chart](https://img.enkipro.com/b549d8d08b4ab7f10b3946dc7f7f0729.png)
-
 
 ### Column Chart
 
@@ -46,7 +39,9 @@ The column charts are used to horizontally represent data with vertical bars.
 
 ![column-chart](https://img.enkipro.com/81d21f8992f86192897d3e6a646eac31.png)
 
+
 ---
+
 ## Practice
 
 Match the description with the appropriate chart.

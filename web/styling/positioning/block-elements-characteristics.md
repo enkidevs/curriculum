@@ -1,27 +1,22 @@
 ---
 author: Mathieu
-
-levels:
-  - beginner
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-
 inAlgoPool: false
-
 links:
-  - '[Scrimba CSS Width and Height](https://scrimba.com/p/pWvwCg/cPvRvAV){website}'
-  - '[MDN Docs on Block Level Elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Block-level_elements){documentation}'
-
+  - >-
+    [Scrimba CSS Width and
+    Height](https://scrimba.com/p/pWvwCg/cPvRvAV){website}
+  - >-
+    [MDN Docs on Block Level
+    Elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Block-level_elements){documentation}
 ---
 
 # Block Elements Characteristics
 
+
 ---
+
 ## Content
 
 A block element has the following characteristics:
@@ -34,7 +29,9 @@ Examples of block elements include `<div>`, `<p>`, `<h1>`, `<form>`, `<ul>` and 
 
 Most of the newer tags, such as `<article>`, `<aside>`, `<main>` etc. are also displayed as `block` by default.
 
+
 ---
+
 ## Practice
 
 Which of the following element is * not * a block element?
@@ -46,7 +43,9 @@ Which of the following element is * not * a block element?
 * `<ul>`
 * `<article>`
 
+
 ---
+
 ## Revision
 
 Which of the following is not a block element?

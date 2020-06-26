@@ -1,45 +1,26 @@
 ---
 author: SebaRaba
-
-levels:
-
-  - beginner
-
-  - basic
-
-  - medium
-
 type: normal
-
 category: must-know
-
 inAlgoPool: false
-
-standards:
-  sql.define-tables.0: 10
-  sql.define-tables.1: 10
-
 tags:
   - introduction
   - workout
-
-
 links:
-  - '[MySQL define tables documentation](https://dev.mysql.com/doc/refman/5.7/en/creating-tables.html){website}'
-  - '[How to create tables](https://www.w3schools.com/sql/sql_create_table.asp){website}'
+  - >-
+    [MySQL define tables
+    documentation](https://dev.mysql.com/doc/refman/5.7/en/creating-tables.html){website}
+  - >-
+    [How to create
+    tables](https://www.w3schools.com/sql/sql_create_table.asp){website}
   - '[Creating tables](https://youtu.be/EaRj0S3K32Y?t=58s){video}'
-
-
-aspects:
-  - introduction
-  - workout
-
-
 ---
 
 # Create a table
 
+
 ---
+
 ## Content
 
 When creating a new table there are some essential rules to follow to ensure good performance:
@@ -53,8 +34,8 @@ The process of creating a new table contains two steps. First, you tell the data
 
 To gain a better understanding of this concept let's look at an example. We want to create a simple table called `employees` which takes two columns:
 
-- `full_name` with `VARCHAR` type[2]
-- `age` with `INTEGER` type[3]
+* `full_name` with `VARCHAR` type[2]
+* `age` with `INTEGER` type[3]
 
 ```sql
 CREATE TABLE employees(
@@ -77,7 +58,9 @@ To delete a table from a database, you can use the `DROP TABLE` command followed
 DROP TABLE employees;
 ```
 
+
 ---
+
 ## Practice
 
 Create a table called `students` with the following columns:
@@ -105,7 +88,9 @@ Create a table called `students` with the following columns:
 * NUMBER
 * TEXT
 
+
 ---
+
 ## Revision
 
 Which of the following queries would create this table:  
@@ -113,7 +98,7 @@ Which of the following queries would create this table:
 `employees`
 
 | ID      | full_name | salary  |
-|---------|-----------|---------|
+| ------- | --------- | ------- |
 | INTEGER | VARCHAR   | INTEGER |
 
 ???
@@ -123,8 +108,11 @@ Which of the following queries would create this table:
 * CREATE TABLE employees ( ID NUMBER, full_name TEXT, salary NUMBER);
 * MAKE TABLE employees ( ID INTEGER, full_name VARCHAR, salary INTEGER);
 
+
 ---
+
 ## Footnotes
+
 [1:Data Types]
 Each object in a table holds an attribute (*data type*) that specifies the type of data that it can hold: numbers, text, date & time, monetary data and others.
 [2:VARCHAR]

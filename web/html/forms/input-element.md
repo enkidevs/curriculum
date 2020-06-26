@@ -1,29 +1,24 @@
 ---
 author: Stefan-Stojanovic
-
-levels:
-  - beginner
-  - basic
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-  - workout
-
 links:
-  - '[HTML <form> Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form){documentation}'
+  - >-
+    [HTML <form>
+    Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form){documentation}
+---
+
+# The `<input>` Element
+
 
 ---
-# The `<input>` Element
----
+
 ## Content
 
 The `<input>` element is the most basic, and flexible form element. Interactive `<input>` elements like text fields, radio buttons, and checkboxes, must be placed within an `<form>` HTML element to collect user input.
 
 Here's an example of a raw text field:
+
 ```html
 <form>
  First Name:
@@ -41,6 +36,7 @@ Here's an example of a raw text field:
 ![form-input-1](https://img.enkipro.com/3f93f71cd5cffd6b6379485b4775f740.png)
 
 Example radio buttons:
+
 ```html
 <form>
   <input
@@ -66,6 +62,7 @@ Example radio buttons:
 ![simple-radio-buttons](https://img.enkipro.com/ca2acc311b7dd6afa4fc91a2ec415d05.png)
 
 Example submit:
+
 ```html
 <form>
  Full name:<br>
@@ -84,7 +81,9 @@ Example submit:
 
 As you can see, the `input` element is responsible for many of the form controls on the web that you are familiar with.
 
+
 ---
+
 ## Practice
 
 Which input type creates a HTML form’s input text field?
@@ -98,6 +97,7 @@ Which input type creates a HTML form’s input text field?
 
 
 ---
+
 ## Revision
 
 Create a text field to collect a user's name in a form:

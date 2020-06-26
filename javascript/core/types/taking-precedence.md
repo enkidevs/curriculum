@@ -1,30 +1,14 @@
 ---
 author: jordanfish
-
-levels:
-
-  - basic
-
-  - advanced
-
-  - medium
-
 type: fillTheGap
-
 category: tip
-
-aspects:
-  - workout
-
-standards:
-  javascript.javascript-syntax.2: 1000
-  javascript.write-expressions.0: 1000
-  javascript.evaluate-expressions.0: 1000
 ---
 
 # Taking precedence...
 
+
 ---
+
 ## Content
 
 Precedence decides the order in which operators are evaluated.
@@ -33,7 +17,9 @@ Higher precedence means earlier evaluation.
 
 How well do you know how JavaScript handles precedence?
 
+
 ---
+
 ## Game Content
 
 ```javascript
@@ -156,7 +142,6 @@ a
 %exp
 `(a++)+b` first, the value of `a` is incremented and b is added, but this result isn't held by any of the variables. In the end `a`'s value is `2`.  
 %
-
 
 ---
 

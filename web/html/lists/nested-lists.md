@@ -1,27 +1,23 @@
 ---
 author: Stefan-Stojanovic
-
-levels:
-  - beginner
-  - basic
-
 type: normal
-
 category: must-know
-
 tags:
   - introduction
-
-aspects:
-  - introduction
-
 links:
-  - '[HTML <ul> Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ul){documentation}'
-  - '[HTML <ol> Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ol){documentation}'
+  - >-
+    [HTML <ul>
+    Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ul){documentation}
+  - >-
+    [HTML <ol>
+    Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ol){documentation}
+---
+
+# Nested Lists
+
 
 ---
-# Nested Lists
----
+
 ## Content
 
 The two most common lists in HTML are:
@@ -57,7 +53,6 @@ The two most common lists in HTML are:
 
 [View CodePen](https://codepen.io/enkidevs/pen/pZPzdm)
 
-
 **Nested Lists:**
 
 Lists can be nested within other lists. 
@@ -65,6 +60,7 @@ Lists can be nested within other lists.
 When nested, each list section displays starting from either 1 or whatever the `start` attributes value is. Additionally, you can add a different style for each `<ol>` section in the nested list.
 
 Example of a nested `<ol>` list:
+
 ```html
 <ol>
   <li>Item A</li>
@@ -84,7 +80,10 @@ Example of a nested `<ol>` list:
 [View CodePen](https://codepen.io/enkidevs/pen/BPRBrO)
 
 **Note:**
-	- The closing `</li>` tag for `Item B` must wrap around the entire nested list.
+
+```plain-text
+- The closing `</li>` tag for `Item B` must wrap around the entire nested list.
+```
 
 This is an example of an unordered list within an ordered list:
 
@@ -101,6 +100,7 @@ This is an example of an unordered list within an ordered list:
   <li>Bake 15 mins at 350F</li>
 </ol>
 ```
+
 Result:
 
 ![list-nested](https://img.enkipro.com/b8755c181cd9bb24d977267b4e546f43.png)
@@ -109,7 +109,9 @@ Result:
 
 In the example above, the ordered list element `<ol>` is used as the main list because the steps should be followed in a specific order. The unordered list elements don't need to be gathered in any specific order, so this organization of lists makes the most sense.
 
+
 ---
+
 ## Practice
 
 Complete the HTML code to create an unordered list within an ordered list.
@@ -139,7 +141,9 @@ C: ???
 * `bl`
 * `ll`
 
+
 ---
+
 ## Revision
 
 Which code block will create this nested list?
@@ -190,7 +194,9 @@ Option #2:
 * Option #1
 * Option #2
 
+
 ---
+
 ## Quiz
 
 ### How much do you know about nested HTML lists?

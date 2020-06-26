@@ -1,29 +1,24 @@
 ---
 author: Stefan-Stojanovic
-
-levels:
-  - beginner
-  - basic
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-  - workout
-
 links:
-  - '[HTML <img> Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img){documentation}'
+  - >-
+    [HTML <img>
+    Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img){documentation}
+---
+
+# Image Height & Width
+
 
 ---
-# Image Height & Width
----
+
 ## Content
 
 When working with image sizes, this can seem easy to start with, but it is a little tricky today because of responsive websites. Traditionally, the image size in HTML is set with the `height` and `width` attributes, both values set in pixels.
 
 Example:
+
 ```html
 <img src="logo.svg"
     height="80"
@@ -44,9 +39,12 @@ img {
     height: auto;
 }
 ```
+
 [View CodePen](https://codepen.io/enkidevs/pen/GBRLYE)
 
+
 ---
+
 ## Practice
 
 Fill in the appropriate attributes/values for creating an image in HTML with dimensions 300x200.
@@ -61,7 +59,9 @@ Fill in the appropriate attributes/values for creating an image in HTML with dim
 * tall
 * wide
 
+
 ---
+
 ## Revision
 
 What are the appropriate attributes for setting the image size in HTML? (Please provide the two words/answers alphabetically in order.)
@@ -75,10 +75,13 @@ What are the appropriate attributes for setting the image size in HTML? (Please 
 * tall
 * wide
 
+
 ---
+
 ## Quiz
 
 ### The main reason height & width are useful attributes to adding to HTML image elements is:
+
 
 * Browser reserves appropriate space for it.
 * Will overwrite CSS height & width values.

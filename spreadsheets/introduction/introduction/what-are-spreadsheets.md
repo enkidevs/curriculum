@@ -1,19 +1,14 @@
 ---
 author: Stefan-Stojanovic
-
-aspects:
-  - introduction
-  - workout
-
 type: normal
-
 category: must-know
-
 ---
 
 # Spreadsheets Intro
 
+
 ---
+
 ## Content
 
 A *spreadsheet* is an electronic document where data can be recorded, analyzed or used for calculations.
@@ -32,6 +27,7 @@ A note on how this course is structured. In the first two workouts, we'll go ove
 
 
 ---
+
 ## Practice
 
 Spreadsheets can be used to ???, analyze or perform calculations with data.

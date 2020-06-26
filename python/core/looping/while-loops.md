@@ -1,29 +1,15 @@
 ---
 author: tommarshall
-
-levels:
-
-  - beginner
-
 type: normal
-
 category: must-know
-
 inAlgoPool: false
-aspects:
-  - introduction
-
-standards:
-  python.control-structures.3: 10
-  python.identify-python-syntax.0: 10
-  python.use-iteration-protocol.1: 10
-
-
 ---
 
 # `while` loops
 
+
 ---
+
 ## Content
 
 Python's `while` loops repeatedly loop and execute some code *while* a boolean statement evaluates to true.
@@ -45,6 +31,7 @@ while counter < 5:
     print(counter)
     counter = counter + 1
 ```
+
 Gives the following output:
 
 ```python
@@ -55,10 +42,13 @@ Gives the following output:
 4
 ```
 
+
 ---
+
 ## Practice
 
-Print the  all numbers in 0..10 _inclusive_:
+Print the  all numbers in 0..10 *inclusive*:
+
 ```python
 x = 0
 while x < ???:
@@ -73,7 +63,9 @@ while x < ???:
 * x++
 * x+1
 
+
 ---
+
 ## Revision
 
 What’s the output of the following code snippet:
@@ -84,8 +76,8 @@ while x < 5:
      x += 1
      print(x)
 ```
-???
 
+???
 
 * `1 2 3 4 5`
 * `0 1 2 3 4`

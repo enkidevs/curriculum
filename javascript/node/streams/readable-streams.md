@@ -1,23 +1,16 @@
 ---
 author: tommarshall
-
 type: normal
-
 category: must-know
-
 links:
   - '[Readable Streams](https://nodejs.org/api/stream.html){website}'
-
-aspects:
-  - introduction
-  - workout
-  - deep
-
 ---
 
 # Readable Streams
 
+
 ---
+
 ## Content
 
 A readable stream reads data from a source. A source could be a file on a system, another stream, an array or buffer in memory or a variety of other options. Streams are `EventEmitters`, therefore they emit a number of events whilst running.
@@ -35,6 +28,7 @@ rstream.on("data", function (avail) {
   data += avail;
 });
 ```
+
 Calling `fs.createReadStream` creates a readable stream, this stream then begins to flow once a callback has been attached.
 
 A callback also needs to be added for when the stream has reached the end of the data:
@@ -51,7 +45,9 @@ Encoding can be set on the stream like follows:
 rstream.setEncoding(‘utf8’);
 ```
 
+
 ---
+
 ## Practice
 
 Which of the following Node modules needs to be required prior to a readable stream being created?
@@ -62,7 +58,9 @@ Which of the following Node modules needs to be required prior to a readable str
 * http
 * readStream
 
+
 ---
+
 ## Revision
 
 What method is called to create a static readable stream?
@@ -74,4 +72,3 @@ let stream = fs.???('file.txt');
 * createReadStream
 * staticReadableStream
 * readableStream
- 

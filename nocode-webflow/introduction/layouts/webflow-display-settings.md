@@ -1,19 +1,14 @@
 ---
 author: kapnobatai136
-
 category: feature
-
-aspects:
-  - deep
-  - workout
-
 type: normal
-
 ---
 
 # Display Settings
 
+
 ---
+
 ## Content
 
 In design, there are multiple ways you can get your component to display, and the elements surrounding it have different behaviors depending on the option.
@@ -25,25 +20,30 @@ To change the display setting, open the style panel and find the `Layout` group.
 Hovering over each option will reveal its name and a short description.
 
 ### Block
-- usually the default settings
-- starts on a new line **and** pushes other elements down on another new line
-- takes up full width (unless explicitly set)
+
+* usually the default settings
+* starts on a new line **and** pushes other elements down on another new line
+* takes up full width (unless explicitly set)
 
 ### Inline-block
-- block elements that can be stacked side by side
-- allows specific width, height, padding, and margin to be applied
+
+* block elements that can be stacked side by side
+* allows specific width, height, padding, and margin to be applied
 
 ### Inline
-- default style for text inside elements
-- you can change margins and paddings
-- you **can't** change width or height
+
+* default style for text inside elements
+* you can change margins and paddings
+* you **can't** change width or height
 
 ### None
-- hides the element completely
-- elements won't be rendered by the browser
+
+* hides the element completely
+* elements won't be rendered by the browser
 
 
 ---
+
 ## Practice
 
 Match the word with its description.

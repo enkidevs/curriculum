@@ -1,28 +1,23 @@
 ---
 author: catalin
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-  - workout
-
 parent: what-is-jitter
-
 ---
 
 # Differences between bandwidth and throughput
 
+
 ---
+
 ## Content
 
 Both `bandwidth`  and `throughput` are metrics used to describe the performance of data transfer over a network segment (a link from a point `A` to a point `B`).
 
 However, there is a big difference between the two:
-- `bandwidth` refers to the **maximum** theoretic amount of data (number of packets) that can be sent on the channel, regardless of practical considerations
-- `throughput` refers to the **actual** amount of data that travels through the segment successfully
+
+* `bandwidth` refers to the **maximum** theoretic amount of data (number of packets) that can be sent on the channel, regardless of practical considerations
+* `throughput` refers to the **actual** amount of data that travels through the segment successfully
 
 This distinction can be better exemplified by an example.
 
@@ -34,7 +29,9 @@ These metrics are computed over a **single unit of time**, being expressed in bi
 
 Modern networks are much faster and therefore have their speed measured in millions of bits per second, megabits per second (`Mbps`) or in billions of bits per second, gigabits per second (`Gbps`).
 
+
 ---
+
 ## Practice
 
 Which of the following metric refers to the **maximum theoretical** speed data can move over a network link?
@@ -46,7 +43,9 @@ Which of the following metric refers to the **maximum theoretical** speed data c
 * `jitter`
 * `lag`
 
+
 ---
+
 ## Revision
 
 Which of the following metric refers to the **actual** speed data can move over a network segment?
@@ -58,7 +57,9 @@ Which of the following metric refers to the **actual** speed data can move over 
 * `latency`
 * `bandwidth`
 
+
 ---
+
 ## Footnotes
 
 [1: ISP]

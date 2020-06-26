@@ -1,22 +1,14 @@
 ---
 author: Stefan-Stojanovic
-
-levels:
-  - beginner
-
-aspects:
-  - introduction
-  - workout
-
 type: normal
-
 category: must-know
-
 ---
 
 # Create a database
 
+
 ---
+
 ## Content
 
 In MongoDB, the `use <db>` command is used to either create a new database or switch to an existing one.
@@ -70,7 +62,9 @@ show dbs
 // Pokemon       0.001GB
 ```
 
+
 ---
+
 ## Practice
 
 How do you create a database called `Pokemon` in MongoDB?
@@ -88,7 +82,9 @@ How do you create a database called `Pokemon` in MongoDB?
 * `new`
 * `pokemon`
 
+
 ---
+
 ## Revision
 
 How do you check which database is currently active in MongoDB?

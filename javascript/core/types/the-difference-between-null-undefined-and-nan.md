@@ -1,20 +1,14 @@
 ---
 author: rosielowther
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-  - workout
-  - obscura
-
 ---
 
 # The NaN value
 
+
 ---
+
 ## Content
 
 In JavaScript, `NaN` means **Not-A-Number** and is the result when math functions fail or when a function expecting a number is given a different type:
@@ -42,7 +36,9 @@ Number.isNaN(NaN); // true
 Number.isNaN(2); // false
 ```
 
+
 ---
+
 ## Practice
 
 The following code outputs ???
@@ -53,13 +49,15 @@ function foo(num){
 }
 
 console.log(foo("sum"));
-```    
+```
 
 * `NaN`
 * `undefined`
 * `null`
 
+
 ---
+
 ## Revision
 
 What will this print?
@@ -73,4 +71,3 @@ console.log(x);
 * `NaN`
 * `undefined`
 * `null`
- 

@@ -1,34 +1,18 @@
 ---
 author: mihaiberq
-
-levels:
-  - beginner
-  - basic
-  - medium
-  - advanced
-
 type: normal
-
 category: how to
-
 parent: tests
-
-standards:
-  javascript.npm-publish.0: 10
-
 tags:
   - introduction
   - workout
-
-aspects:
-  - introduction
-  - workout
-
-
 ---
+
 # How to Publish Your Own Packages
 
+
 ---
+
 ## Content
 
 You've been using *npm* for some time and you have found out that your favorite framework doesn't do something you really need. The beauty of npm is that everyone can publish their own packages. So you decide to give something back and extend the framework's capabilities.
@@ -52,7 +36,9 @@ You should also add a short description of what the package does in the *descrip
 
 Last but not least, specify an initial version of your package, ideally following the semantic versioning discussed in a previous insight.
 
+
 ---
+
 ## Practice
 
 Which `npm` command, after being ran will ask for your credentials and log you in?
@@ -65,7 +51,9 @@ Which `npm` command, after being ran will ask for your credentials and log you i
 * npm config
 * npm publish
 
+
 ---
+
 ## Revision
 
 In order to publish your package to the npm repository, you need
@@ -75,6 +63,3 @@ In order to publish your package to the npm repository, you need
 * an npm account
 * an initial package version of `1.0.0`
 * a `README.md` file
- 
- 
- 

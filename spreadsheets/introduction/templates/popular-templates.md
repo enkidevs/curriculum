@@ -1,18 +1,14 @@
 ---
 author: Stefan-Stojanovic
-
-aspects:
-  - introduction
-
 type: normal
-
 category: tip
+---
+
+# Popular Templates
+
 
 ---
 
-# Popular Templates 
-
----
 ## Content
 
 If you want to get started quickly, you can always use one of the templates that are available in Google Sheets.

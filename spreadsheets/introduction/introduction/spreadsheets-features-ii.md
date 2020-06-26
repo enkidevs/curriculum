@@ -1,19 +1,14 @@
 ---
 author: Stefan-Stojanovic
-
-aspects:
-  - introduction
-  - workout
-
 type: normal
-
 category: how to
-
 ---
 
 # Spreadsheet Features II
 
+
 ---
+
 ## Content
 
 On top of transforming data, you can create *graphs or charts* to represent or visualize the results more effectively.
@@ -24,7 +19,9 @@ Pivot tables are another important feature of spreadsheets. These can be used on
 
 These are just some examples of what spreadsheets can do. We'll cover graphs, pivot tables and many more features in this course.
 
+
 ---
+
 ## Practice
 
 How do you visually represent data in spreadsheets?
