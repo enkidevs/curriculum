@@ -1,22 +1,18 @@
 ---
 author: rosielowther
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-  - workout
-
 links:
-  - '[Understanding Scope and Context](http://ryanmorr.com/understanding-scope-and-context-in-javascript/){website}'
-
+  - >-
+    [Understanding Scope and
+    Context](http://ryanmorr.com/understanding-scope-and-context-in-javascript/){website}
 ---
 
 # Closures
 
+
 ---
+
 ## Content
 
 A **closure** is created when a function is created and includes both the function and its surrounding scope.
@@ -49,10 +45,13 @@ foo("fun")(); // "coding is fun"
 
 Closures allow us to emulate "private" variables using nested functions, by hidding them in the outer function's scope, and thus making them available only to the returned inner function.
 
+
 ---
+
 ## Practice
 
 This code ??? run:
+
 ```javascript
 function foo() {
   let localVariable = "lVar";
@@ -61,12 +60,14 @@ function foo() {
   };
 }
 foo()();
-```    
+```
 
 * will
 * will not
 
+
 ---
+
 ## Revision
 
 A *closure* is created when a function is ???.
@@ -74,5 +75,3 @@ A *closure* is created when a function is ???.
 * created
 * called
 * nested
-
- 

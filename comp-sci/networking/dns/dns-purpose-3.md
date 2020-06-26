@@ -1,25 +1,17 @@
 ---
 author: Tyler Bettilyon
-
-levels:
-  - beginner
-
-aspects:
-  - introduction
-  - workout
-
 type: normal
 category: must-know
-standards:
-  comp-sci.dns.0: 10
-
 links:
-
-  - '[What Is DNS?](https://www.cloudflare.com/learning/dns/what-is-dns/){article}'
+  - >-
+    [What Is
+    DNS?](https://www.cloudflare.com/learning/dns/what-is-dns/){article}
   - '[RFC 1035 Defines DNS](https://www.ietf.org/rfc/rfc1035.txt){documentation}'
-
 ---
+
 # DNS - Role and Responsibility
+
+
 ---
 
 ## Content
@@ -35,30 +27,34 @@ In the second, `https://www.google.com/seach`, the center segment `www.google.co
 
 Finally, an entire domain name is required in order to map to a specific IP address. Parts of a domain such as `.com` or `.net` as standalone strings are  not eligible for an IP address, although DNS does play a role in their management; there are special servers responsible for managing “Top Level Domains” like com, net, edu, gov, and so on, but those TLD servers have unique names -- for example `h.gtld-servers.net` is the name of one such server.
 
+
 ---
+
 ## Practice
 
 Which of the following values can be mapped to an IP address using DNS?
 
 ???
 
-* www.tebs-lab.com
-* someone_special@gmail.com
-* https://tebs-game-of-life.com/conways-editor/conways-editor.html
+* [www.tebs-lab.com](http://www.tebs-lab.com)
+* [someone_special@gmail.com](mailto:someone_special@gmail.com)
+* <https://tebs-game-of-life.com/conways-editor/conways-editor.html>
 * .gov
 * www.facebook
 
+
 ---
+
 ## Revision
 
 Which subset of this URL can be mapped to an IP address using DNS?
 
-https://www.tebs-game-of-life.com/conways-editor/conways-editor.html
+<https://www.tebs-game-of-life.com/conways-editor/conways-editor.html>
 
 ???
 
-* www.tebs-game-of-life.com
-* https://www.tebs-game-of-life.com/conways-editor/conways-editor.html
+* [www.tebs-game-of-life.com](http://www.tebs-game-of-life.com)
+* <https://www.tebs-game-of-life.com/conways-editor/conways-editor.html>
 * /conways-editor/conways-editor.html
 * https://
 * www.tebs-game-of-life

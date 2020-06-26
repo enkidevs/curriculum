@@ -1,40 +1,33 @@
 ---
 author: alexjmackey
-
 type: normal
-
 category: must-know
-
 tags:
   - introduction
-
-aspects:
-  - introduction
-  - workout
-  - obscura
-
 links:
-  - '[splice](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Array/splice){documentation}'
-
-
+  - >-
+    [splice](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Array/splice){documentation}
 ---
 
 # Splice
 
+
 ---
+
 ## Content
 
 Splice is a handy array function that allows you to add and remove items to an array.
 
 It accepts 3 arguments with the 3rd being optional:
 
-- *Start* is the 0 based index of where to start manipulating the array
-- *Delete* is how many items to remove at the *Start* position (can be 0)
-- *Items to add* (optional), separated by commas
+* *Start* is the 0 based index of where to start manipulating the array
+* *Delete* is how many items to remove at the *Start* position (can be 0)
+* *Items to add* (optional), separated by commas
 
 We can use splice to add and remove items anywhere in the array.
 
 For example to remove the 3rd element:
+
 ```js
 let myArray = [1, 2, 3];
 
@@ -49,9 +42,11 @@ console.log(
 console.log(myArray);
 // [1, 2]
 ```
+
 As you can see, the function returns the elements removed in case you need them.
 
 You can also replace a sequence of elements:
+
 ```js
 console.log(myArray);
 // [1, 2]
@@ -84,10 +79,13 @@ console.log(myArray);
 // [1, [3, 4]]
 ```
 
+
 ---
+
 ## Practice
 
 Remove the `4th` and `5th` elements from the array:
+
 ```js
 myArray.???(3, ???)
 ```
@@ -102,14 +100,16 @@ myArray.???(3, ???)
 * `6`
 * `delete`
 
+
 ---
+
 ## Revision
 
 How would you remove the first element in the array using `splice`?
+
 ```js
 myArray.???(???, ???);
 ```
-
 
 * `splice`
 * `0`
@@ -118,7 +118,9 @@ myArray.???(???, ???);
 * `remove`
 * `slice`
 
+
 ---
+
 ## Footnotes
 
 [1:Syntax]

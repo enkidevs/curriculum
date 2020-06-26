@@ -1,23 +1,20 @@
 ---
 author: Stefan-Stojanovic
-
-aspects:
-  - introduction
-
 type: normal
-
 category: must-know
-
 links:
   - '[Google Sheets](https://docs.google.com/spreadsheets/){website}'
   - '[Microsoft Excel](https://products.office.com/en-gb/excel){website}'
-  - '[Spreadsheet Tools](https://en.wikipedia.org/wiki/Spreadsheet#Web_based_spreadsheets){website}'
-
+  - >-
+    [Spreadsheet
+    Tools](https://en.wikipedia.org/wiki/Spreadsheet#Web_based_spreadsheets){website}
 ---
 
 # Spreadsheet Tool Options
 
+
 ---
+
 ## Content
 
 There are many available options for spreadsheet tools.

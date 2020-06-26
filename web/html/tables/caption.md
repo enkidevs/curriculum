@@ -1,29 +1,21 @@
 ---
 author: Stefan-Stojanovic
-
-levels:
-  - beginner
-  - basic
-
 type: normal
-
 category: must-know
-
 tags:
   - workout
   - deep
-
-aspects:
-  - introduction
-  - workout
-  - deep
-
 links:
-  - '[HTML <caption> Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/caption){documentation}'
+  - >-
+    [HTML <caption>
+    Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/caption){documentation}
+---
+
+# The `<caption>` Element
+
 
 ---
-# The `<caption>` Element
----
+
 ## Content
 
 The HTML `<caption>`, or the **Table Caption** element is used to specify a title for an HTML table.
@@ -33,6 +25,7 @@ Adding a clear and concise description of the table's content within the `<capti
 When used, `<caption>` element must to be the **first** element within the `<table>` element to be valid, although using CSS it can be moved accordingly. The property `caption-side` can be set to `bottom` to quickly move the caption to the bottom of the table even with it added to the top of the table.
 
 Example:
+
 ```html
 <table>
   <caption>Employee List</caption>
@@ -56,7 +49,9 @@ Example:
 
 **Note:** If a `<table>` element has a `<caption>` and is the only child of a `<figure>` element, you should use a `<figcaption>` instead of the `<caption>` element.
 
+
 ---
+
 ## Practice
 
 Code the following table.
@@ -88,7 +83,9 @@ tag4 = ???
 * title
 * tt
 
+
 ---
+
 ## Revision
 
 What HTML element represents the title of a table?
@@ -102,10 +99,13 @@ What HTML element represents the title of a table?
 * cap
 * tabletitle
 
+
 ---
+
 ## Quiz
 
 ### How much do you know about HTML tables?
+
 
 If the `<caption>` of an HTML table is placed under the table's data, where must the code for the caption be placed?
 

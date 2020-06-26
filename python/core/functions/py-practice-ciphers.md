@@ -1,41 +1,28 @@
 ---
 author: SebaRaba
-
-levels:
-
-  - beginner
-
-  - basic
-
 tags:
   - workout
   - deep
-aspects:
-  - workout
-  - deep
 type: exercise
-
 linkType: codewars
-
-link: https://www.codewars.com/kata/digital-cypher
-
-standards:
-
-  python.functions.0: 1000
-  python.functions.1: 2000
-  python.functions.2: 3000
-  python.functions.3: 3000
-
+link: 'https://www.codewars.com/kata/digital-cypher'
 links:
-
-  - '[Official documentation on functions](https://www.python-course.eu/python3_functions.php){website}'
-  - '[Deeper dive blog post on functions](https://www.digitalocean.com/community/tutorials/how-to-define-functions-in-python-3){website}'
-  - '[Video tutorial for functions](https://www.youtube.com/watch?v=9Os0o3wzS_I){video}'
+  - >-
+    [Official documentation on
+    functions](https://www.python-course.eu/python3_functions.php){website}
+  - >-
+    [Deeper dive blog post on
+    functions](https://www.digitalocean.com/community/tutorials/how-to-define-functions-in-python-3){website}
+  - >-
+    [Video tutorial for
+    functions](https://www.youtube.com/watch?v=9Os0o3wzS_I){video}
 ---
 
 # Play with ciphers
 
+
 ---
+
 ## Exercise
 
 Solve ciphers and train your skills with python `functions`.

@@ -1,22 +1,14 @@
 ---
 author: Stefan-Stojanovic
-
-levels:
-  - beginner
-
-aspects:
-  - deep
-  - workout
-
 type: normal
-
 category: how to
-
 ---
 
 # States Example
 
+
 ---
+
 ## Content
 
 Let's say we have this simple form:

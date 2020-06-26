@@ -1,14 +1,11 @@
 ---
 author: nem035
-aspects:
-  - introduction
-  - workout
-  - deep
 type: normal
 category: must-know
 ---
 
 # Container Philosophy
+
 
 ---
 

@@ -1,19 +1,14 @@
 ---
 author: Stefan-Stojanovic
-
-aspects:
-  - deep
-  - workout
-
 type: normal
-
 category: how to
-
 ---
 
 # Types of Charts II
 
+
 ---
+
 ## Content
 
 Some other well known charts are the `line` and `combo` charts.

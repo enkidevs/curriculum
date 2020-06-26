@@ -1,38 +1,20 @@
 ---
 author: catalin
-
-levels:
-
-  - beginner
-
-  - basic
-
-  - medium
-
-  - advanced
-
 type: normal
-
 category: must-know
-
-aspects:
-
-  - introduction
-
-  - workout
-
 links:
-
-  - '[www.tecmint.com](http://www.tecmint.com/linux-network-configuration-and-troubleshooting-commands/){website}'
-  - '[slackbook.org](http://slackbook.org/html/basic-network-commands.html){website}'
-
+  - >-
+    [www.tecmint.com](http://www.tecmint.com/linux-network-configuration-and-troubleshooting-commands/){website}
+  - >-
+    [slackbook.org](http://slackbook.org/html/basic-network-commands.html){website}
 parent: differences-between-bandwidth-and-throughput
-
 ---
 
 # Tools to interact with Networks
 
+
 ---
+
 ## Content
 
 We have witnessed an exponential growth in the size of **computer networks** since their introduction, with more and more people joining them every day.
@@ -48,14 +30,16 @@ In addition, getting to know how the *tools of the trade* work will give you a b
 
 Some of the most known and used networking utilities include:
 
-- `ping` - tests the availability of remote hosts by echoing a packet to the destination
-- `traceroute` - provides information about the path of a packet towards a destination
-- `ipconfig/ifconfig` - configures network interfaces
-- `nslookup` - looks up IP addresses linked to a domain
-- `netstat` - provides statistics about networks
-- `route` - shows and manipulates the **IP Routing Table**[1]
+* `ping` - tests the availability of remote hosts by echoing a packet to the destination
+* `traceroute` - provides information about the path of a packet towards a destination
+* `ipconfig/ifconfig` - configures network interfaces
+* `nslookup` - looks up IP addresses linked to a domain
+* `netstat` - provides statistics about networks
+* `route` - shows and manipulates the **IP Routing Table**[1]
+
 
 ---
+
 ## Revision
 
 Which of the following tools can be used to echo a packet to remote host?
@@ -64,19 +48,18 @@ Which of the following tools can be used to echo a packet to remote host?
 ??? google.com
 ```
 
-
 * `ping`
 * `ipconfig`
 * `nslookup`
 * `netstat`
 * `route`
 
+
 ---
+
 ## Footnotes
+
 [1:IP Routing Table]
 A routing table is a set of rules, often viewed in table format, that is used to determine where data packets traveling over an Internet Protocol (`IP`) network will be directed.
 
 All IP-enabled devices, including routers and switches, use routing tables.
-
- 
- 

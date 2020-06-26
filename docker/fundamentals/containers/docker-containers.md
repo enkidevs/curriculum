@@ -1,18 +1,19 @@
 ---
 author: nem035
-aspects:
-  - introduction
-  - workout
 type: normal
 category: must-know
 links:
-- '[What is a Container?](https://www.docker.com/what-container){documentation}'
-- '[Six essentials on Docker Containers](https://www.plesk.com/blog/business-industry/docker-containers-explained/){article}'
+  - '[What is a Container?](https://www.docker.com/what-container){documentation}'
+  - >-
+    [Six essentials on Docker
+    Containers](https://www.plesk.com/blog/business-industry/docker-containers-explained/){article}
 ---
 
 # Containers
 
+
 ---
+
 ## Content
 
 Containers are a way of isolating an application with its own environment. It's a lightweight alternative to full-blown virtualization.
@@ -61,7 +62,9 @@ In essence: `docker run = docker container create + docker container start`
 docker run --name enki -p 8080:80 -it nginx
 ```
 
+
 ---
+
 ## Practice
 
 Run a container (from the `mongo` image) with the name `db` and expose the port `27017` to port `3000` on host machine:
@@ -80,7 +83,9 @@ docker run -p ???:??? --name ??? -it ???
 * 80
 * 8080
 
+
 ---
+
 ## Revision
 
 To create and start a container in a single command, we use ???:

@@ -1,22 +1,16 @@
 ---
 author: Bruno
-
 type: normal
-
 category: tip
-
-aspects:
-  - introduction
-  - workout
-
 links:
   - '[stackoverflow](http://stackoverflow.com/questions/1590247){discussion}'
-
 ---
 
 # Arrays Can Be Used as Stack
 
+
 ---
+
 ## Content
 
 Using the following array:
@@ -41,7 +35,9 @@ console.log(stack.pop())
 // 1
 ```
 
+
 ---
+
 ## Practice
 
 Complete the code snippet:
@@ -59,7 +55,9 @@ s.??? ; // s = [1,2,3]
 * pop(4)
 * pop(3)
 
+
 ---
+
 ## Revision
 
 Complete the code snippet:

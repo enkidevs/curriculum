@@ -1,19 +1,14 @@
 ---
 author: alexjmackey
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-  - workout
-
 ---
 
 # Object - Part 2
 
+
 ---
+
 ## Content
 
 Object's properties can also be functions.
@@ -56,7 +51,9 @@ let p2 = new Person("joe", "smith");
 
 You can even implement inheritance in JavaScript by building on this, but this is a more advanced technique.
 
+
 ---
+
 ## Practice
 
 You can invoke an object's method by writing:
@@ -67,7 +64,9 @@ You can invoke an object's method by writing:
 * obj.methodName;
 * methodName(obj);
 
+
 ---
+
 ## Revision
 
 Fill in the gaps of the following constructor function such that the code below works as intended:

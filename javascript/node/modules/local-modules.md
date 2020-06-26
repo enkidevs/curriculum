@@ -1,28 +1,22 @@
 ---
 author: tommarshall
-
 type: normal
-
 category: must-know
-
 tags:
   - introduction
   - workout
-
 links:
-  - '[Local Modules](http://www.tutorialsteacher.com/nodejs/nodejs-local-modules){website}'
-
+  - >-
+    [Local
+    Modules](http://www.tutorialsteacher.com/nodejs/nodejs-local-modules){website}
 parent: the-http-module-for-servers
-
-aspects:
-  - introduction
-  - workout
-
 ---
 
 # Local Modules
 
+
 ---
+
 ## Content
 
 In Node.js a local module is a module created locally to your application. A local module can include different functionalities of the application across different files and folders.
@@ -66,12 +60,15 @@ newsModule.good("We're working on Node!");
 ```
 
 To run the module:
+
 ```bash
 node main.js
 # Good news! We're working on Node!
 ```
 
+
 ---
+
 ## Practice
 
 Consider the following local node module:
@@ -107,7 +104,9 @@ const myModule = ???('./myModule.js')
 * myFile
 * myLocalModule
 
+
 ---
+
 ## Revision
 
 Which of the following module types must have its path specified when requiring it?

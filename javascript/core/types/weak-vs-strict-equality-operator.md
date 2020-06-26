@@ -1,26 +1,20 @@
 ---
 author: pawel
-
 type: normal
-
 category: must-know
-
 tags:
   - introduction
-
 links:
-  - '[Comparison Operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Comparison_Operators){website}'
-
-aspects:
-  - introduction
-  - workout
-  - obscura
-
+  - >-
+    [Comparison
+    Operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Comparison_Operators){website}
 ---
 
 # Weak vs Strict equality operator
 
+
 ---
+
 ## Content
 
 JavaScript supports two forms of equality.
@@ -51,7 +45,9 @@ false === "0" // false
 "enki" === "enki" // true
 ```
 
+
 ---
+
 ## Practice
 
 Match the type name with the operator:
@@ -77,7 +73,9 @@ Fill in the gaps with the correct equality operator to get the output:
 * ===
 * Reference Equality Operator
 
+
 ---
+
 ## Revision
 
 What will the following code output?
@@ -92,9 +90,13 @@ console.log("" == " ");
 * true
 * false
 
+
 ---
+
 ## Quiz
+
 ### how familiar are you with weak equality?
+
 
 // What will this evaluate to?
 "\t\r\n\ " == 0
@@ -103,4 +105,3 @@ console.log("" == " ");
 * false
 * SyntaxError
 * String
- 

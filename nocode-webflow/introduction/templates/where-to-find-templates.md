@@ -1,22 +1,14 @@
 ---
 author: Stefan-Stojanovic
-
-levels:
-  - beginner
-
-aspects:
-  - new
-  - workout
-
 type: normal
-
 category: how to
-
 ---
 
 # How To Find Templates
 
+
 ---
+
 ## Content
 
 To find templates on Webflow, go to `Resources -> Templates`.
@@ -33,6 +25,7 @@ The number of templates located on Webflow is constantly increasing over time gi
 
 
 ---
+
 ## Practice
 
 Webflow provides ??? templates.

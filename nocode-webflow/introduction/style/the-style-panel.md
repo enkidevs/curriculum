@@ -1,23 +1,14 @@
 ---
 author: Stefan-Stojanovic
-
-levels:
-  - beginner
-
-aspects:
-  - introduction
-  - workout
-  - deep
-
 type: normal
-
 category: how to
-
 ---
 
 # The Style Panel
 
+
 ---
+
 ## Content
 
 The style panel can be used to edit an element's layout, spacing, positioning, color, effects and more. It is located on the right side of the `Designer`. 
@@ -34,7 +25,9 @@ Here are some of the options that you will find in the style panel:
 
 ![sections](https://img.enkipro.com/cdbd08b93ae3dfafc6d92df615eff2f6.png)
 
+
 ---
+
 ## Practice
 
 Which of these is not accessed through the style panel?

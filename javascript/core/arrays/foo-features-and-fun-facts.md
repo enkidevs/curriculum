@@ -1,41 +1,22 @@
 ---
 author: jordanfish
-
-levels:
-
-  - basic
-
-  - advanced
-
-
 type: fillTheGap
-
 category: tip
-
 notes: 3 more questions? curr up to 11
-
-aspects:
-  - introduction
-  - workout
-
-standards:
-  javascript.evaluate-expressions.1: 1000
-  javascript.evaluate-expressions.3: 1000
-  javascript.evaluate-expressions.5: 1000
-  javascript.evaluate-expressions.7: 1000
-  javascript.evaluate-expressions.8: 1000
-  javascript.evaluate-expressions.9: 1000
-
 ---
 
 # Foo, features and fun facts
 
+
 ---
+
 ## Content
 
 Do you know what is the **output** of the following code snippets?
 
+
 ---
+
 ## Game Content
 
 ```javascript

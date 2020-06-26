@@ -1,32 +1,17 @@
 ---
 author: catalin
-
-levels:
-  - basic
-  - advanced
-  - medium
-
 type: normal
-
 category: must-know
-
-standards:
-  javascript.express-server.1: 10
-  javascript.express-server.7: 10
-  javascript.express-server.8: 10
-
 links:
   - '[node-tricks.com](http://node-tricks.com/response-object/){website}'
-
 parent: easy-way-to-deliver-html-pages-with-express
-
-aspects:
-  - introduction
-
 ---
+
 # response object additional properties in **Express**
 
+
 ---
+
 ## Content
 
 **Express** framework adds many useful properties or methods to the `response` object.
@@ -68,7 +53,9 @@ res.cookie(name,value,[options]);
 res.clearCookie(name,[options]);
 ```
 
+
 ---
+
 ## Practice
 
 Consider the response object proposed by the Express library.
@@ -99,7 +86,9 @@ res.???(???, ???)
 * respond
 * error
 
+
 ---
+
 ## Revision
 
 Send the given JSON file back to the client user Express's `response` object:
@@ -119,4 +108,3 @@ res.???(???);
 * cookie
 * toJSON
 * sendJSON
-

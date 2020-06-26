@@ -1,28 +1,20 @@
 ---
 author: mihaiberq
-
 type: normal
-
 category: must-know
-
 tags:
   - introduction
   - workout
-
 links:
   - '[Inner join](https://en.wikipedia.org/wiki/Join_(SQL)#Inner_join){website}'
-
 parent: avg-clause
-
-aspects:
-  - introduction
-  - workout
-
 ---
 
 # INNER JOIN
 
+
 ---
+
 ## Content
 
 The `JOIN` clauses combine multiple columns from one or more **related tables**, creating a new set of data. Joins are a core part of SQL as their existence promotes data singularity.
@@ -32,7 +24,7 @@ Take, for example, Pokémons and their abilities[1]. Abilities should have a nam
 For reference, here are some table entries for the `ability` table:
 
 | id | is_main_series | generation_id | name         |
-|----|----------------|---------------|--------------|
+| -- | -------------- | ------------- | ------------ |
 | 1  | True           | 3             | stench       |
 | 2  | True           | 3             | drizzle      |
 | 3  | True           | 3             | speed-boost  |
@@ -41,7 +33,7 @@ For reference, here are some table entries for the `ability` table:
 And for the `ability_effect_text`:
 
 | id | effect                                  | short_effect                            | ability_id | language_id |
-|----|-----------------------------------------|-----------------------------------------|------------|-------------|
+| -- | --------------------------------------- | --------------------------------------- | ---------- | ----------- |
 | 1  | This Pokémon's damaging moves have ...  | Has 10% chance of making target ...     | 1          | 9           |
 | 2  | The weather changes to rain when ...    | Summons rain that lasts indefinitely... | 2          | 9           |
 | 3  | This Pokémon's Speed rises one stage... | Raises Speed one stage after each turn. | 3          | 9           |
@@ -60,7 +52,7 @@ ability.id = ability_effect_text.ability_id;
 And the result would be:
 
 |     name     |                  effect                 |
-|:------------:|:---------------------------------------:|
+| :----------: | :-------------------------------------: |
 |    stench    |  This Pokémon's damaging moves have ... |
 |    drizzle   |   The weather changes to rain when ...  |
 |  speed-boost | This Pokémon's Speed rises one stage... |
@@ -76,7 +68,9 @@ If there were some abilities without an effect text or some effects not describi
 
 So, if the `ability` table has `251` records and the `ability_effect_text` has `191` records, the total number of returned rows after the inner join operation will be `191`. This is because there are no matches for the extra `60` records in the `ability table.  
 
+
 ---
+
 ## Practice
 
 Complete the `INNER JOIN` operation on the `item` and `item_effect_text` tables. The matching columns are `id` and `item_id` respectively.
@@ -96,7 +90,9 @@ Complete the `INNER JOIN` operation on the `item` and `item_effect_text` tables.
 * `ON`
 * `item.id`
 
+
 ---
+
 ## Revision
 
 What's the sets theory equivalent of `INNER JOIN`?
@@ -108,9 +104,13 @@ What's the sets theory equivalent of `INNER JOIN`?
 * difference
 * cartesian product
 
+
 ---
-## Quiz 
+
+## Quiz
+
 ### Can you filter one table based on data in another table in SQL?
+
 
 Consider `pokemon` and `pokemon_species` tables. The first one has two columns `height` and `weight`. The latter has a boolean valued column `is_baby`.
 Select the query that will get the name, height and width of all pokemon that are babies:
@@ -122,7 +122,10 @@ Select the query that will get the name, height and width of all pokemon that ar
 * SELECT pokemon.name,pokemon.height,pokemon.weight FROM pokemon RIGHT JOIN pokemon_species ON pokemon.pokemon_species_id = pokemon_species.id WHERE pokemon_species.is_baby='t';
 * SELECT pokemon.name,pokemon.height,pokemon.weight FROM pokemon INNER JOIN pokemon_species ON pokemon.pokemon_species_id = pokemon_species.id WHERE pokemon_species.is_baby='f';
 
+
 ---
+
 ## Footnotes
+
 [1: Ability]
 A Pokémon's ability is an aura that is passively active and provides benefits to the Pokemon and, sometimes, its party.

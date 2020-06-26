@@ -1,36 +1,22 @@
 ---
 author: adamMontgomerie
-
-levels:
-  - basic
-  - beginner
-  - medium
-
 type: fillTheGap
-
 category: tip
-
-standards:
-  javascript.data-types-structures.0: 1000
-  javascript.standard-library.2: 1000
-  javascript.evaluate-expressions.1: 1000
-  
-  
-aspects:
-  - introduction
-  - workout
-
 ---
 
 # Infinity
 
+
 ---
+
 ## Content
 
 Your goal is to determine what the console
 will print out for each given value of `x`.
 
+
 ---
+
 ## Game Content
 
 ```js

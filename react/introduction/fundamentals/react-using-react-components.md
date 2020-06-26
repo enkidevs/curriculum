@@ -1,21 +1,18 @@
 ---
 author: kapnobatai136
-
 type: normal
-
 category: must-know
-
 links:
-  - '[Components and props](https://facebook.github.io/react/docs/components-and-props.html){website}'
-
-aspects:
-  - introduction
-
+  - >-
+    [Components and
+    props](https://facebook.github.io/react/docs/components-and-props.html){website}
 ---
 
 # Using React Components
 
+
 ---
+
 ## Content
 
 Because JSX is flexible, you can combine multiple components to build larger reusable UI elements. For example, you can have a `<Table />` component which is made up of multiple `<Row />` components.
@@ -55,7 +52,9 @@ ReactDOM.render(
 
 It is important to remember the difference between components and elements. The React component is used to **return** React elements.
 
+
 ---
+
 ## Practice
 
 Which of the following represents a valid syntax?

@@ -1,27 +1,14 @@
 ---
 author: jordanfish
-
-levels:
-  - basic
-  - advanced
-  - medium
-
 type: normal
-
 category: caveats
-
-aspects:
-  - introduction
-  - deep
-  - obscura
-
-standards:
-  javascript.evaluate-expressions.1: 10
-
 ---
+
 # `NaN` is a number
 
+
 ---
+
 ## Content
 
 When using the `typeof` operator with `NaN`, an interesting result is observed:
@@ -51,7 +38,9 @@ NaN === NaN // false
 Infinity === NaN // false
 ```
 
+
 ---
+
 ## Practice
 
 Complete the code to check if variable `z` is *not a number*.
@@ -70,7 +59,9 @@ var z = NaN
 * check
 * is
 
+
 ---
+
 ## Revision
 
 The following code snippet outputs ???
@@ -84,9 +75,13 @@ console.log(typeof NaN);
 * false
 * Infinite
 
+
 ---
+
 ## Quiz
+
 ### is NaN a number?
+
 
 What is the output of this line?
 
@@ -100,4 +95,3 @@ console.log(typeof(NaN));
 * object
 * function
 * undefined
- 

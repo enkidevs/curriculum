@@ -1,24 +1,15 @@
 ---
 author: mihaiberq
-
-levels:
-
-  - beginner
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-
-links:
-
+links: null
 ---
 
 # Anchor Tags
 
+
 ---
+
 ## Content
 
 **Anchor Tags** represent a way to tell the browser to move up or down the same web page (think of content summaries) or to open other HTML pages in certain locations further down from the top.
@@ -35,6 +26,7 @@ Anchor links are still defined by the typical link `<a>` tag, but rather than on
 </div>
 
 ```
+
 [View CodePen](https://codepen.io/enkidevs/pen/Zjegoq)
 
 One common trick by developers is to use this anchor tag as a placeholder for links during the page development. Links require the `href` attribute, so when the linked pages aren't ready to be linked yet, a simple `#` can be used. This placeholder technique makes the link valid and active without actually navigating anywhere.
@@ -50,9 +42,11 @@ This is a
 
 
 ---
+
 ## Practice
 
 Complete the following snippet in order for it to be valid:
+
 ```html
 Link to the
 <??? ???="#contact.html">
@@ -72,6 +66,7 @@ Link to the
 
 
 ---
+
 ## Revision
 
 What denotes an anchor link?

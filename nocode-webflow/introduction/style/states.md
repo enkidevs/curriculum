@@ -1,35 +1,28 @@
 ---
 author: Stefan-Stojanovic
-
-levels:
-  - beginner
-
-aspects:
-  - deep
-  - workout
-
 type: normal
-
 category: how to
-
 ---
 
 # States
 
+
 ---
+
 ## Content
 
 States are used to change how different elements react in different instances. For example, you can set an element to popup on a `hover` state or a button to do something on a `pressed` state.
 
 An element can have a total of four states:
-- `None`
-  - the default state of all elements
-- `Hover`
-  - display styling when the user hovers over an element
-- `Pressed`
-  - display styling when the element is pressed
-- `Focused`
-  - display styling while the element is in focus
+
+* `None`
+  * the default state of all elements
+* `Hover`
+  * display styling when the user hovers over an element
+* `Pressed`
+  * display styling when the element is pressed
+* `Focused`
+  * display styling while the element is in focus
 
 States are located on the `Style` panel, and to see them you first need to assign a class to an element.
 
@@ -49,7 +42,9 @@ When you select a state, it will be highlighted in green:
 
 Before applying any effects, always check if that is the correct element and state you want to apply the effect to.
 
+
 ---
+
 ## Practice
 
 What are the 4 standard states of all elements?

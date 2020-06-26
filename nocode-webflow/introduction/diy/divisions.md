@@ -1,22 +1,14 @@
 ---
 author: Stefan-Stojanovic
-
-levels:
-  - beginner
-
-aspects:
-  - introduction
-  - workout
-
 type: normal
-
 category: how to
-
 ---
 
 # Divisions
 
+
 ---
+
 ## Content
 
 The division (`div` block) is one of the most used elements when creating a webpage.
@@ -41,7 +33,9 @@ Notice how the elements are all over the place. Using the division, we can apply
 
 ![with-positioning](https://img.enkipro.com/8cf567e508ab3f56669cb98417451c19.png)
 
+
 ---
+
 ## Practice
 
 Without ???, divisions have no effect on the content within them.
@@ -49,11 +43,14 @@ Without ???, divisions have no effect on the content within them.
 * CSS
 * HTML
 
+
 ---
+
 ## Footnotes
 
 [1:Creating elements]
 As a reminder, you can create a division in these ways:
-- Click anywhere on the canvas and left-click a div element from the `Add Elements` panel to add it to the previously clicked position.
-- Drag and drop a div element from the `Add Elements` panel anywhere on the canvas.
-- Drag and drop a div element from the `Add Elements` panel to a position in the `Navigator`.
+
+* Click anywhere on the canvas and left-click a div element from the `Add Elements` panel to add it to the previously clicked position.
+* Drag and drop a div element from the `Add Elements` panel anywhere on the canvas.
+* Drag and drop a div element from the `Add Elements` panel to a position in the `Navigator`.
