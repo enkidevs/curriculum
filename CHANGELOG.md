@@ -42,6 +42,7 @@ Types of change:
 
 ### Fixed
 - [Comp. Sci. - The Array Data Structure - Fix typo in RQ](https://github.com/enkidevs/curriculum/pull/2210)
+- [Linux - Multiple IP Addresses with aliasing - Change address to plural](https://github.com/enkidevs/curriculum/pull/2208)
 
 ## June 25th 2020
 
