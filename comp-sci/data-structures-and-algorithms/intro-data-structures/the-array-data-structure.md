@@ -1,20 +1,14 @@
 ---
 author: mihaiberq
 
-levels:
-
-  - beginner
-
 type: normal
 
 category: must-know
 
 aspects:
-
   - introduction
 
 links:
-
   - '[What Is an Array?](http://www.bbc.co.uk/education/guides/z4tf9j6/revision/2){website}'
 
 parent: what-is-a-data-structure
@@ -56,7 +50,7 @@ myArray = array('i', [1, 2, 3])
 ```
 ```js
 // JavaScript
-var myArray = [1, 2, 'enki'];
+let myArray = [1, 2, 'enki'];
 ```
 
 Or, you can declare empty arrays of size 3 using:
@@ -71,7 +65,7 @@ int myArray[3];
 ```
 ```js
 // JavaScript
-var myArray = new Array(3);
+let myArray = new Array(3);
 ```
 
 The advantage of an array is that you have immediate access to its elements. All you have to do is specify the index of the element you are looking for:
@@ -100,7 +94,7 @@ To access an element in an array, you would use:
 ---
 ## Revision
 
-An array that has its size declared up-front it's called
+An array that has its size declared up-front is called
 
 ???
 
