@@ -1,5 +1,5 @@
 ---
-author: Nick Daminov
+author: nickdaminov
 
 levels:
 
@@ -34,19 +34,19 @@ links:
 - In order to synchronize on a method `synchronized` is written before the return type of a method. In the example below, `printSeq` is a synchronized method which means that if two or more thread instances call it they will have to wait until the previous thread finishes executing it.
 
 ```java
-class synchExample {  
+class synchExample {
   public synchronized void printSeq(int n){
-    for(int i = 0; i < 5; i++) {  
-      System.out.println(n+i);  
-      try {  
-        Thread.sleep(400);  
-      }  
+    for(int i = 0; i < 5; i++) {
+      System.out.println(n+i);
+      try {
+        Thread.sleep(400);
+      }
       catch(Exception e) {
         System.out.println(e);
-      }  
+      }
     }
-  }  
-}  
+  }
+}
 ```
 
 **NOTE:** synchronizing on a method is equivalent to synchronizing on a `this` object instance, so only one method is accessible at a time.

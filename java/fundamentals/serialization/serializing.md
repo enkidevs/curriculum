@@ -1,5 +1,5 @@
 ---
-author: Nick Daminov
+author: nickdaminov
 type: normal
 category: how to
 links:
@@ -71,7 +71,7 @@ class Pair<L extends Serializable,
 Consider the following:
 
 ```java
-class Engine { //not serializable    
+class Engine { //not serializable
     private int numberOfCilinders;
     private int volumeInLitres;
     private String model;

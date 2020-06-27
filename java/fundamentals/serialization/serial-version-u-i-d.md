@@ -1,5 +1,5 @@
 ---
-author: Nick Daminov
+author: nickdaminov
 type: normal
 category: must-know
 links:

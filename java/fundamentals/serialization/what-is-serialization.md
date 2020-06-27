@@ -1,5 +1,5 @@
 ---
-author: Nick Daminov
+author: nickdaminov
 type: normal
 category: feature
 links:
@@ -19,7 +19,7 @@ links:
 
 The motivation for using **serialization** might be the following points:
 
-* Serialization is cross-platform i.e. it runs on a JVM and is independent of hardware configuration of the machine.  
+* Serialization is cross-platform i.e. it runs on a JVM and is independent of hardware configuration of the machine.
 * It is easy to store information about an object as a local file simply by serializing it.
 * Different machines running same code can communicate via network by sending and receiving serialized objects.
 

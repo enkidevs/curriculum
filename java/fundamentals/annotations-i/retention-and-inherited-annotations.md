@@ -1,5 +1,5 @@
 ---
-author: Nick Daminov
+author: nickdaminov
 
 levels:
 
@@ -9,7 +9,7 @@ type: normal
 
 category: pattern
 
-aspects: 
+aspects:
 
   - deep
 
@@ -40,7 +40,7 @@ Example:
   int counter();
 }
 
-class TestClass{   
+class TestClass{
   @EnkiAnn(name = "Enki", counter = 0)
   public void myTestMethod(){
       //method implementation

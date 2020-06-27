@@ -1,5 +1,5 @@
 ---
-author: Nick Daminov
+author: nickdaminov
 
 levels:
 
@@ -30,7 +30,7 @@ Type inference is a feature of generic methods which allows you to call them as 
 
 ```java
 public <E> boolean oneBiggerThanTwo(
-  E one, E two) {              
+  E one, E two) {
   //in this case we will have to use
   //our own Util class, as 'compare'
   //method is not necessarily
