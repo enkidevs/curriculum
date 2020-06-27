@@ -55,7 +55,7 @@ Which of the following statements do you consider false?
 
 ---
 
-## Revison
+## Revision
 
 Do online JavaScript environments allow the use of external libraries?
 
