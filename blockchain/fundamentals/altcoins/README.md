@@ -5,5 +5,6 @@ section: 1
 insights:
   - altcoins
   - why-is-it-worth-having-multiple-coins
+  
 aspects:
   - introduction
