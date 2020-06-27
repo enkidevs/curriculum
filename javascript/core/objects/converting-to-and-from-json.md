@@ -1,5 +1,5 @@
 ---
-author: Ewa Trzemżalska
+author: trzemzalskaewa
 type: normal
 category: feature
 tags:
@@ -14,7 +14,7 @@ tags:
 
 ## Content
 
-`JSON.stringify()` method is used to convert a JavaScript object or value to a JSON string. 
+`JSON.stringify()` method is used to convert a JavaScript object or value to a JSON string.
 
 Example:
 
