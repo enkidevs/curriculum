@@ -1,5 +1,5 @@
 ---
-author: Tyler Bettilyon
+author: amgando
 
 levels:
   - advanced
@@ -24,7 +24,7 @@ links:
 ---
 ## Content
 
-The first 2 bytes of any DNS message is 
+The first 2 bytes of any DNS message is
 called the transaction ID. This value will
 be shared by the DNS query initiating the
 request and the DNS response to that query.
@@ -35,15 +35,15 @@ request and the DNS response to that query.
 This is a hex-dump of a DNS response.
 
 ```
-0000   ef 0a 81 80 00 01 00 01 00 00 00 00 
+0000   ef 0a 81 80 00 01 00 01 00 00 00 00
   03 77 77 77   ï............www
-0010   06 67 6f 6f 67 6c 65 03 63 6f 6d 00  
+0010   06 67 6f 6f 67 6c 65 03 63 6f 6d 00
   00 01 00 01   .google.com.....
-0020   c0 0c 00 01 00 01 00 00 00 8d 00 04 
+0020   c0 0c 00 01 00 01 00 00 00 8d 00 04
   d8 3a c0 04   À...........Ø:À.
 ```
 
-Which of the following values is the 
+Which of the following values is the
   hexadecimal value of the transaction ID?
 
 ???
@@ -57,16 +57,16 @@ Which of the following values is the
 ---
 ## Revision
 
-Which of the following is true of DNS 
+Which of the following is true of DNS
   transaction IDs?
 
 ???
 
-* The transaction ID is used to match DNS 
+* The transaction ID is used to match DNS
   queries to their DNS response.
-* Every DNS message must have a unique 
+* Every DNS message must have a unique
   transaction ID.
-* Transaction IDs are ignored by modern DNS 
+* Transaction IDs are ignored by modern DNS
   implementations.
-* Each individual response record has a 
+* Each individual response record has a
   transaction ID.

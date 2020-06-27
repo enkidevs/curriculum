@@ -1,5 +1,5 @@
 ---
-author: Tyler Bettilyon
+author: amgando
 tags:
   - introduction
   - workout

@@ -1,5 +1,5 @@
 ---
-author: Tyler Bettilyon
+author: amgando
 type: normal
 category: must-know
 links:
