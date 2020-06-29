@@ -26,3 +26,4 @@ The list should have 4 items and start counting from 8.
 At the top of the list, there needs to be a note saying: "After completing the previous 7 steps, please do:".
 
 Example of the finished exercise is on codepen.
+ 

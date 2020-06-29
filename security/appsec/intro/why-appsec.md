@@ -31,3 +31,4 @@ There are many reasons for making your app secure, and here are a few of them:
 * **keep the data safe** (in case of a data breach, you can incur penalties according to legislation in multiple countries)
 * **your own information can be used against you** (proprietary information leaking out, blackmailing, and others)
 * **Google rankings** (you get less points if you don't follow security best practices which translates to less traffic)
+ 

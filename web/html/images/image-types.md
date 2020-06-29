@@ -107,3 +107,4 @@ If you don’t need transparency or animation for a photograph, which image form
 * GIF
 * SVG
 * PDF
+ 

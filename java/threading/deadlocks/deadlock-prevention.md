@@ -43,3 +43,4 @@ What is a *master* lock?
 * A general single lock which which is required by every process in order to run
 * Hope it will not occur
 * It is a lock that is acquired by a master process
+ 

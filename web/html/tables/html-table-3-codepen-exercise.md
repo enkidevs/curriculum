@@ -50,3 +50,4 @@ Next, you need to separate the table into 3 sections with the appropriate elemen
 After that, you need add a caption on top of the table.
 
 More info and an example on codepen.
+ 

@@ -50,3 +50,4 @@ If coins are found to be stolen, identify what should be done to revert the thef
 * soft fork
 * ban the thief's address
 * transactions cannot be reverted
+ 

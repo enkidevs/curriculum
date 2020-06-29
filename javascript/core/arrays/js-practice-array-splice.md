@@ -23,3 +23,4 @@ links:
 ## Exercise
 
 Practice using the JavaScript Array methods `splice()` and `slice()`
+ 

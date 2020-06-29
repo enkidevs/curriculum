@@ -97,3 +97,4 @@ What is the type of cryptography used for authentication on a distributed networ
 * The network achieves decentralization
 * New tokens are created
 * Symmetric cryptography
+ 

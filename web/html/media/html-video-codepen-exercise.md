@@ -25,3 +25,4 @@ links:
 In this exercise, you will embed a video to a webpage.
 
 The link to the video as well as the example of the finished exercise are provided on codepen.
+ 

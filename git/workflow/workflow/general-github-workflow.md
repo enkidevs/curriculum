@@ -51,3 +51,4 @@ Is the concept of **pull requests** only used in *GitHub*?
 ## Footnotes
 
 [1:pull request] This occurs automatically when you are **not** a listed 'contributor' on the repository
+ 

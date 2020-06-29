@@ -9,3 +9,4 @@ insights:
   - energy-consumption-and-ecology
 aspects:
   - introduction
+ 

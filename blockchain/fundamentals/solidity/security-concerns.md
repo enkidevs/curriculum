@@ -56,3 +56,4 @@ Identify the entity responsible for the security of a smart contract:
 * The blockchain maintainer
 * The user
 * No one, smart contracts are inherently secure
+ 

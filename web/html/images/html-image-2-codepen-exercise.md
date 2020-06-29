@@ -27,3 +27,4 @@ In this exercise, you have to create 2 identical images.
 Next, you have to break one image in order to display the alterrnative property.
 
 More info and an example on codepen.
+ 
