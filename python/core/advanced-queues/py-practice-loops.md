@@ -1,40 +1,25 @@
 ---
 author: SebaRaba
-
-levels:
-
-  - beginner
-
-  - basic
-
-aspects:
-  - introduction
-  - workout
-  - deep
-
 type: exercise
-
 linkType: codewars
-
-link: https://www.codewars.com/kata/convert-a-linked-list-to-a-string
-
-standards:
-
-  python.use-iteration-protocol.0: 1000
-  python.use-iteration-protocol.1: 2000
-  python.use-iteration-protocol.2: 2000
-  python.use-iteration-protocol.3: 3000
-
+link: 'https://www.codewars.com/kata/convert-a-linked-list-to-a-string'
 links:
-
-  - '[Official docummentation for loops](https://www.python-course.eu/python3_for_loop.php){website}'
-  - '[More insight on loops](https://www.tutorialspoint.com/python/python_loops.htm){website}'
-  - '[A video tutorial of loops](https://www.youtube.com/watch?v=xtXexPSfcZg){video}'
+  - >-
+    [Official docummentation for
+    loops](https://www.python-course.eu/python3_for_loop.php){website}
+  - >-
+    [More insight on
+    loops](https://www.tutorialspoint.com/python/python_loops.htm){website}
+  - >-
+    [A video tutorial of
+    loops](https://www.youtube.com/watch?v=xtXexPSfcZg){video}
 ---
 
 # Practice loops
 
+
 ---
+
 ## Exercise
 
 Practice `while` loops in Python.

@@ -1,33 +1,28 @@
 ---
 author: Stefan-Stojanovic
-
-levels:
-  - beginner
-  - basic
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-  - workout
-  - deep
-
 links:
-  - '[MDN: <nav> Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/nav){documentation}'
-  - '[W3S: <nav> Element](https://www.w3schools.com/tags/tag_nav.asp){documentation}'
-
+  - >-
+    [MDN: <nav>
+    Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/nav){documentation}
+  - >-
+    [W3S: <nav>
+    Element](https://www.w3schools.com/tags/tag_nav.asp){documentation}
 ---
+
 # The `<nav>` element
 
+
 ---
+
 ## Content
 
 The HTML `<nav>` element is used to group the navigation of the page, such as primary website navigational links, table of contents, previous/next buttons, or breadcrumbs.
 
 Example:
-```html
+
+```plain-text
 <nav>
   <a href="index.html">Home</a>
   <a href="about.html">About</a>
@@ -47,20 +42,24 @@ Multiple `<nav>` elements can be placed within the web page or document, when ap
 
 The `<nav>` element is also important for screen readers of visually disabled users. They use this element to determine whether the initial rendering of navigation-only content should be omitted.
 
+
 ---
+
 ## Practice
 
 Select the item that would be useful placing within a `<nav>` container.
 
 ???
 
-* Navigational links
-* Link to Email
-* Links within main content
-* Tags in a blog post
-* Image Links
+- Navigational links
+- Link to Email
+- Links within main content
+- Tags in a blog post
+- Image Links
+
 
 ---
+
 ## Revision
 
 Can a webpage contain more than one `<nav>` container?
@@ -71,20 +70,23 @@ Should all links within a webpage be placed within a `<nav>` element?
 
 ???
 
-* Yes
-* No
-* Yes, but it will fail validation.
+- Yes
+- No
+- Yes, but it will fail validation.
+
 
 ---
+
 ## Quiz
 
 ### Quick question about organizing buttons in HTML?
+
 
 Which container is best to organize the buttons that link the primary pages of the website?
 
 ???
 
-* `<nav>`
-* `<navigation>`
-* `<header>`
-* `<div>`
+- `<nav>`
+- `<navigation>`
+- `<header>`
+- `<div>`

@@ -1,39 +1,31 @@
 ---
 author: rosielowther
-
-levels:
-
-  - basic
-
 type: normal
-
 category: feature
-
-aspects:
-
-  - deep
-  - obscura
-
 links:
-
-  - '[Basic Client Configuration Official Documentation](http://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration){website}'
-
-
+  - >-
+    [Basic Client Configuration Official
+    Documentation](http://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration){website}
 ---
 
 # Add autocorrect to git
 
+
 ---
+
 ## Content
 
 If you want git to correct typos you can set `help.autocorrect`:
-```bash
+
+```plain-text
 git config --global help.autocorrect 30
 ```
+
 You set `help.autocorrect` to an integer representing the time you have to change your mind before git executes the command (1 = 0.1 seconds).
 
 For example:
-```bash
+
+```plain-text
 git comit
 WARNING: You called a git command
 named 'comit', which does not exist.
@@ -43,24 +35,24 @@ in 3 seconds automatically...
 ```
 
 If you want to stop the autocorrect you need to set `help.autocorrect` back to `0`:
-```bash
+
+```plain-text
 git config --global help.autocorrect 0
 ```
 
+
 ---
+
 ## Revision
 
 You can enable autocorrect using :
+
 ```bash
 git config --global
     ???.???
 ```
 
-* `help`
-* `autocorrect`
-* `git`
-* `-ac`
-
- 
- 
- 
+- `help`
+- `autocorrect`
+- `git`
+- `-ac`

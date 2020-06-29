@@ -1,26 +1,21 @@
 ---
 author: emmab
-
 tags:
   - introduction
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-
 ---
 
 # What's the syntax?
 
+
 ---
+
 ## Content
 
 Regex patterns are formatted slightly differently depending on the programming language you're using. In JavaScript, Ruby and several other languages regex patterns are written between two forward slashes, `/`, and this is how we'll be displaying them over the next few workouts.
 
-```
+```plain-text
 /<insert Regex here>/
 ```
 
@@ -32,22 +27,26 @@ If we changed our regex pattern to `/FUN/` then we wouldn't return any match res
 
 You'll soon learn about all the different ways you can alter your regex pattern to account for capitalization, as well as numbers, special characters and ranges.
 
+
 ---
+
 ## Practice
 
 When using JavaScript or Ruby, valid regex patterns must be written between ???.
 
-* `/ /`
-* `\ \`
-* `< >`
-* `> <` 
+- `/ /`
+- `\ \`
+- `< >`
+- `> <` 
+
 
 ---
+
 ## Revision
 
 The regex pattern `/FUN/` matches part of the text `'regex is fun'`.
 
 ???
 
-* False
-* True
+- False
+- True

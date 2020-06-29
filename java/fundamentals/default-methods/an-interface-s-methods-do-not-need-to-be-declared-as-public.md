@@ -1,34 +1,20 @@
 ---
 author: adamMontgomerie
-
-levels:
-
-  - basic
-
-  - advanced
-
-  - medium
-
 type: normal
-
 category: must-know
-
-
 tags:
-
   - interface
-
   - public-methods
-
 links:
-
-  - '[docs.oracle.com](https://docs.oracle.com/javase/tutorial/java/IandI/index.html){website}'
-
+  - >-
+    [docs.oracle.com](https://docs.oracle.com/javase/tutorial/java/IandI/index.html){website}
 ---
 
 # An interface's methods do not need to be declared as `public`
 
+
 ---
+
 ## Content
 
 It is not necessary to declare an interface's methods as `public`. This is because every method defined within an interface is implicitly `public`.

@@ -1,29 +1,25 @@
 ---
 author: emmab
-
 type: normal
-
-aspects:
-  - introduction
-  - workout
-
 category: feature
-
 links:
-  - '[Dictionary methods](https://www.programiz.com/python-programming/dictionary){website}'
-
+  - >-
+    [Dictionary
+    methods](https://www.programiz.com/python-programming/dictionary){website}
 ---
 
 # Dictionary Methods I
 
+
 ---
+
 ## Content
 
 Python has tons of built-in methods for dictionaries. Let's explore some of the most commonly used!
 
 Consider the following dictionary:
 
-```python
+```plain-text
 square_numbers = {
   1: 1,
   2: 4,
@@ -35,7 +31,7 @@ square_numbers = {
 
 - `clear()` removes all items from the dictionary
 
-```python
+```plain-text
 square_numbers.clear()
 
 print(square_numbers)
@@ -44,7 +40,7 @@ print(square_numbers)
 
 - `copy()` returns a **shallow copy**[1] of the dictionary
 
-```python
+```plain-text
 new = square_numbers.copy()
 
 print(new)
@@ -53,13 +49,15 @@ print(new)
 
 - `items()` returns a `list` of the dictionary items expressed as tuples `(key, value)`
 
-```python
+```plain-text
 square_numbers.items()
 
 # dict_items([(1, 1), (2, 4), (3, 9), (4, 16), (5, 25)])
 ```
 
+
 ---
+
 ## Practice
 
 Complete the following code snippet to make a duplicate of the variable `my_house` called `new_house`:
@@ -70,14 +68,15 @@ my_house = {'bedrooms': 2, 'bathrooms': 2, 'garden': True}
 new_house = ???.???
 ```
 
-* `my_house`
-* `copy()`
-* `clone()`
-* `copy`
-* `duplicate()`
+- `my_house`
+- `copy()`
+- `clone()`
+- `copy`
+- `duplicate()`
 
 
 ---
+
 ## Revision
 
 What's the correct method to return the contents of a dictionary as a `list` of `tuples`?
@@ -89,12 +88,14 @@ english_to_french.???
 # [('orange', 'orange'), ('apple', 'pomme')]
 ```
 
-* `items()`
-* `contents()`
-* `keys()`
-* `reduce()`
+- `items()`
+- `contents()`
+- `keys()`
+- `reduce()`
+
 
 ---
+
 ## Footnotes
 
 [1:Shallow Copy]

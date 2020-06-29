@@ -20,4 +20,3 @@ notes: ''
 In C and C++ `sizeof()` allocates bytes for data items. It often varies for different machines or operating systems. For example an integer can be stored in 16 or 32 bits. 
 
 Java stores precisely the same sizes on all machines, portability is the part of this language and we should not worry about it.
- 

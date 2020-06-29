@@ -1,29 +1,24 @@
 ---
 author: alexjmackey
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-
-links: 
+links:
   - '[For Loops](https://youtu.be/24Wpg6njlYI){video}'
   - '[While / Do While loops](https://youtu.be/v9zgD8wjtbw){video}'
-
 ---
 
 # Loops - Part 1
 
+
 ---
+
 ## Content
 
 JavaScript supports the standard loop constructs you may have seen in other languages:
 
 ### `for` loop
 
-```javascript
+```plain-text
 // print values from 0 to 9
 for (let i = 0; i < 10; i++) {
   console.log(i);
@@ -34,7 +29,7 @@ for (let i = 0; i < 10; i++) {
 
 We can also count backwards from 9 to 0:
 
-```javascript
+```plain-text
 // print values from 9 to 0
 for (let i = 9; i >= 0; i--) {
   console.log(i);
@@ -47,7 +42,7 @@ for (let i = 9; i >= 0; i--) {
 
 The `while` loop continues to run as long as its condition is true:
 
-```js
+```plain-text
 let i = 0;
 
 // print values from 0 to 9
@@ -61,7 +56,7 @@ while (i < 10) {
 
 **Note:** the loop will never run if the expression is never true:
 
-```javascript
+```plain-text
 let i = 10;
 
 // this loop will never run because i = 10
@@ -78,7 +73,7 @@ while (i < 10) {
 
 `do..while` loops are similar to `while` loops but have the important difference that they will always run at least once before the condition is checked:
 
-```javascript
+```plain-text
 let i = 10;
 
 // runs once
@@ -90,7 +85,9 @@ do {
 } while (i < 10);
 ```
 
+
 ---
+
 ## Practice
 
 Complete the syntax of the following `do/while` loop such that `i` will be `10` at the end of it:
@@ -102,15 +99,17 @@ let i = 0;
 } ??? (i < ???)
 ```
 
-* `do`
-* `while`
-* `10`
-* `if`
-* `else`
-* `9`
-* `for`
+- `do`
+- `while`
+- `10`
+- `if`
+- `else`
+- `9`
+- `for`
+
 
 ---
+
 ## Revision
 
 Complete the following `for` loop such that it's syntactically correct and runs 10 iterations:
@@ -121,10 +120,9 @@ Complete the following `for` loop such that it's syntactically correct and runs 
 }
 ```
 
-* `for`
-* `let`
-* `i++`
-* `while`
-* `do`
-* `i--`
- 
+- `for`
+- `let`
+- `i++`
+- `while`
+- `do`
+- `i--`

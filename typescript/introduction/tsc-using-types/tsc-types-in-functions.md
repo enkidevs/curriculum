@@ -2,23 +2,25 @@
 author: nem035
 type: normal
 category: must-know
-aspects:
-  - introduction
-  - workout
 links:
-  - '[Practice Lessons from this Insight](https://repl.it/@enkicontent/TypeScriptFunctionsIntro){website}'
-  - '[Functions in TS](https://www.typescriptlang.org/docs/handbook/functions.html){documentation}'
-
+  - >-
+    [Practice Lessons from this
+    Insight](https://repl.it/@enkicontent/TypeScriptFunctionsIntro){website}
+  - >-
+    [Functions in
+    TS](https://www.typescriptlang.org/docs/handbook/functions.html){documentation}
 ---
 
 # Types in Functions
 
+
 ---
+
 ## Content
 
 We can attach a type to a parameter of a function by adding a `:` and a type after its name:
 
-```ts
+```plain-text
 function hello(name: string) {
 //                 ^^^^^^^^
   console.log(`Hello ${name}!`)
@@ -30,14 +32,14 @@ hello('Enki');
 
 If we were to pass a different type we would get an error:
 
-```ts
+```plain-text
 hello(123);
 // error: Argument of type 'number' is not assignable to parameter of type 'string'.
 ```
 
 TypeScript will also throw an error if the wrong number of [arguments](https://enki.com/glossary/general/parameter-vs-argument) is passed in:
 
-```ts
+```plain-text
 function hello(
   name: string,
   emoji: string
@@ -53,7 +55,7 @@ hello("Enki");
 
 We can also define the return type of a function:
 
-```ts
+```plain-text
 function hello(name: string): string {
 //                          ^^^^^^^^
   return `Hello ${name}!`;
@@ -67,19 +69,21 @@ console.log(greeting);
 
 This protects us against returning values of the wrong type:
 
-```ts
+```plain-text
 function hello(name: string): string {
   return 123;
   // error: Type '123' is not assignable to type 'string'
 }
 ```
 
+
 ---
+
 ## Practice
 
 Which line do you think will compile without errors?
 
-```ts
+```plain-text
 function getLessonsLearned(
   username: string
 ) {
@@ -99,15 +103,17 @@ getLessonsLearned(100);
 
 ???
 
-* A
-* B
+- A
+- B
+
 
 ---
+
 ## Revision
 
 Will this code compile without errors?
 
-```ts
+```plain-text
 function enki(age: number): string {
   return `Enki is ${age} years old`;
 }
@@ -115,5 +121,5 @@ function enki(age: number): string {
 
 ???
 
-* Yes
-* No
+- Yes
+- No

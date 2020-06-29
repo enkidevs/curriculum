@@ -1,33 +1,20 @@
 ---
 author: pawel
-
-levels:
-
-  - basic
-
-  - advanced
-
-  - medium
-
 type: normal
-
 category: tip
-
 tags:
-
   - java-interface
-
 links:
-
-  - '[www.javaworld.com](http://www.javaworld.com/article/2077421/learn-java/abstract-classes-vs-interfaces.html){website}'
-
+  - >-
+    [www.javaworld.com](http://www.javaworld.com/article/2077421/learn-java/abstract-classes-vs-interfaces.html){website}
 notes: ''
-
 ---
 
 # Abstract class vs interface in Java
 
+
 ---
+
 ## Content
 
 You can only extend one class (abstract or not) whereas you can always implement one or more interfaces. 

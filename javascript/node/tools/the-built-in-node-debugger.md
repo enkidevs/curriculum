@@ -38,10 +38,10 @@ Running this in the debugger will **break** at the relevant line.
 
 Step through your code using these debug commands:
 
-* **continue** – `cont`, `c`
-* **step** – `next`, `n`
-* **step in** – `step`, `s`
-* **step out** – `out`, `o`
+- **continue** – `cont`, `c`
+- **step** – `next`, `n`
+- **step in** – `step`, `s`
+- **step out** – `out`, `o`
 
 
 ---
@@ -50,7 +50,7 @@ Step through your code using these debug commands:
 
 When running the following code snippet in the debugger, which line of code will the debugger break at? ???
 
-```javascript
+```plain-text
 for(var i=0; i<10; i++) {      // line 0
    debugger;                   // line 1
    console.log("hello " + i);  // line 2
@@ -58,11 +58,11 @@ for(var i=0; i<10; i++) {      // line 0
 console.log("end");            // line 4
 ```
 
-* Line 1
-* Line 0
-* Line 2
-* Line 3
-* Line 4
+- Line 1
+- Line 0
+- Line 2
+- Line 3
+- Line 4
 
 
 ---
@@ -75,8 +75,7 @@ How can you run `enki` app in *debug* mode?
 ??? ??? enki
 ```
 
-* node
-* debug
-* debugger
-* npm
- 
+- node
+- debug
+- debugger
+- npm

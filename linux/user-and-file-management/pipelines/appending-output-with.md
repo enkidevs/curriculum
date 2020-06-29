@@ -1,42 +1,23 @@
 ---
 author: jfarmer
-
-levels:
-
-  - basic
-
-  - beginner
-
 type: normal
-
 category: must-know
-
 inAlgoPool: false
-
 tags:
-
-  - introduction
-
-  - workout
-
-
-
-
-aspects:
   - introduction
   - workout
-
-
 ---
 
 # Appending Output With `>>`
 
+
 ---
+
 ## Content
 
 Using `>` to redirect the output of a command to a file will cause the entire contents of the file to be overwritten.  Consider this example, which will write the directory contents of your home directory to a file named `homedir_contents.txt`:
 
-```shell
+```plain-text
 ls -l ~ > homedir_contents.txt
 ```
 
@@ -46,7 +27,7 @@ In some cases, we want to append any output to the contents of an existing file 
 
 Consider the following extended example (`cat` will print the contents of a file to standard out):
 
-```shell
+```plain-text
 cat file1.txt
 cat: file1.txt: No such file or directory
 echo "Apple" > file1.txt
@@ -70,19 +51,16 @@ As you can see, the contents of `file1.txt` are overwritten when we use `>`, whe
 
 Note that for appending purposes the use of the `cat` command is recommended.
 
+
 ---
+
 ## Revision
 
 `>` ??? ,
 
  whereas `>>`  ??? .
 
-
-* writes the stdout to a file, overwriting its content
-* appends stdout stream to a file
-* creates a new folder
-* deletes a file
-
- 
- 
- 
+- writes the stdout to a file, overwriting its content
+- appends stdout stream to a file
+- creates a new folder
+- deletes a file

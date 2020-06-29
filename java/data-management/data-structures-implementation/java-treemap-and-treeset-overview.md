@@ -1,33 +1,19 @@
 ---
 author: alex
-
-levels:
-
-  - advanced
-
-  - medium
-
 type: normal
-
 category: feature
-
-aspects:
-
-  - introduction
-
 tags:
-
   - data structures
-
 links:
-
-  - '[en.wikipedia.org](https://en.wikipedia.org/wiki/Red%E2%80%93black_tree){website}'
-
+  - >-
+    [en.wikipedia.org](https://en.wikipedia.org/wiki/Red%E2%80%93black_tree){website}
 ---
 
 # Java TreeMap and TreeSet overview
 
+
 ---
+
 ## Content
 
 Part of Java's Collections API are the TreeSet and TreeMap classes which provide fast search, insert, update and delete operations for persisting data.

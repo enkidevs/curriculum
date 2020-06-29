@@ -1,33 +1,21 @@
 ---
 author: fahimrahman
-
-levels:
-
-  - basic
-
-  - advanced
-
-  - medium
-
 type: normal
-
 category: feature
-
 tags:
-
   - time
-
   - timezone
-
 links:
-
-  - '[Class TimeZone](http://docs.oracle.com/javase/7/docs/api/java/util/TimeZone.html){website}'
-
+  - >-
+    [Class
+    TimeZone](http://docs.oracle.com/javase/7/docs/api/java/util/TimeZone.html){website}
 ---
 
 # Getting Time Based on Time Zones
 
+
 ---
+
 ## Content
 
 The `TimeZone` class can be used to retrieve the time zone of a particular location and can also figure out daylight savings. 
@@ -36,7 +24,7 @@ The `getDefault()` method can be used to get the time zone where the program is 
 
 The `getTimeZone()` method allows to get the time zone of a city using a time zone ID as follows:
 
-```java
+```plain-text
 import java.util.Calendar;
 import java.util.GregorianCalendar;
 import java.util.TimeZone;
@@ -66,30 +54,32 @@ Time in New York is: 19:18:31
 */
 ```
 
+
 ---
+
 ## Practice
 
 What method can be used to get the timezone of the location where the program is running?
 
 `???`
 
+- `TimeZone.getDefault()` 
+- `TimeZone.getStandard()` 
+- `TimeZone.getLocalTimeZone()` 
+- `TimeZone.getTimeZone()`
 
-* `TimeZone.getDefault()` 
-* `TimeZone.getStandard()` 
-* `TimeZone.getLocalTimeZone()` 
-* `TimeZone.getTimeZone()`
 
 ---
+
 ## Revision
 
 What library can be used to determine the timezone of a specific location, but also figure out daylight saving?
 
 `???`
 
-
-* `TimeZone` 
-* `GregorianCalendar` 
-* `Time` 
-* `Timezone` 
-* `Calendar` 
-* `Date`
+- `TimeZone` 
+- `GregorianCalendar` 
+- `Time` 
+- `Timezone` 
+- `Calendar` 
+- `Date`

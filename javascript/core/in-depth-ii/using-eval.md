@@ -1,27 +1,22 @@
 ---
 author: rosielowther
-
 type: normal
-
 category: best practice
-
 links:
-
-  - '[developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/eval){website}'
-
-aspects:
-  - obscura
-  - workout
+  - >-
+    [developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/eval){website}
 ---
 
 # Using `eval`
 
+
 ---
+
 ## Content
 
 `eval` evaluates the string passed to it as Javascript code:
 
-```js
+```plain-text
 let str = "if(a){1+2;} else{1+3;}";
 let a = true;
 let b = eval(str);  // returns 3
@@ -35,30 +30,32 @@ Third party code can access the scope in which `eval()` was called and this can 
 
 This is why `eval` is sometimes refered to as "evil".
 
+
 ---
+
 ## Practice
 
 What does the following JS code return when ran? ???
 
-```javascript
+```plain-text
 let str = "if(flag){2*8;} else{-2*8;}";
 let flag = false;
 let b = eval(str);
 ```
 
-* `-16`
-* `16`
-* `undefined`
-* `NaN`
+- `-16`
+- `16`
+- `undefined`
+- `NaN`
+
 
 ---
+
 ## Revision
 
 Executing javascript code passed in as a string is done with the function ???
 
-* eval()
-* evil()
-* evaluate()
-* (string).toJS()
-
- 
+- eval()
+- evil()
+- evaluate()
+- (string).toJS()

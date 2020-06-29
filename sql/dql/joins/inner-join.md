@@ -41,7 +41,7 @@ And for the `ability_effect_text`:
 
 To match the abilities that can be found in both tables, use the following `INNER JOIN` command:
 
-```sql
+```plain-text
 SELECT ability.name,
   ability_effect_text.effect
 FROM ability
@@ -83,12 +83,12 @@ Complete the `INNER JOIN` operation on the `item` and `item_effect_text` tables.
   ??? = item_effect_text.item_id;
 ```
 
-* `SELECT`
-* `FROM`
-* `INNER JOIN`
-* `item_effect_text`
-* `ON`
-* `item.id`
+- `SELECT`
+- `FROM`
+- `INNER JOIN`
+- `item_effect_text`
+- `ON`
+- `item.id`
 
 
 ---
@@ -99,10 +99,10 @@ What's the sets theory equivalent of `INNER JOIN`?
 
 ???
 
-* intersection
-* union
-* difference
-* cartesian product
+- intersection
+- union
+- difference
+- cartesian product
 
 
 ---
@@ -117,10 +117,10 @@ Select the query that will get the name, height and width of all pokemon that ar
 
  ???
 
-* SELECT pokemon_species.name,pokemon.height,pokemon.weight FROM pokemon INNER JOIN pokemon_species ON pokemon.pokemon_species_id = pokemon_species.id WHERE pokemon_species.is_baby='t';
-* SELECT pokemon.name,pokemon.height,pokemon.weight FROM pokemon LEFT JOIN pokemon_species ON pokemon.pokemon_species_id = pokemon_species.id WHERE pokemon_species.is_baby='t';
-* SELECT pokemon.name,pokemon.height,pokemon.weight FROM pokemon RIGHT JOIN pokemon_species ON pokemon.pokemon_species_id = pokemon_species.id WHERE pokemon_species.is_baby='t';
-* SELECT pokemon.name,pokemon.height,pokemon.weight FROM pokemon INNER JOIN pokemon_species ON pokemon.pokemon_species_id = pokemon_species.id WHERE pokemon_species.is_baby='f';
+- SELECT pokemon_species.name,pokemon.height,pokemon.weight FROM pokemon INNER JOIN pokemon_species ON pokemon.pokemon_species_id = pokemon_species.id WHERE pokemon_species.is_baby='t';
+- SELECT pokemon.name,pokemon.height,pokemon.weight FROM pokemon LEFT JOIN pokemon_species ON pokemon.pokemon_species_id = pokemon_species.id WHERE pokemon_species.is_baby='t';
+- SELECT pokemon.name,pokemon.height,pokemon.weight FROM pokemon RIGHT JOIN pokemon_species ON pokemon.pokemon_species_id = pokemon_species.id WHERE pokemon_species.is_baby='t';
+- SELECT pokemon.name,pokemon.height,pokemon.weight FROM pokemon INNER JOIN pokemon_species ON pokemon.pokemon_species_id = pokemon_species.id WHERE pokemon_species.is_baby='f';
 
 
 ---
@@ -129,4 +129,3 @@ Select the query that will get the name, height and width of all pokemon that ar
 
 [1: Ability]
 A Pokémon's ability is an aura that is passively active and provides benefits to the Pokemon and, sometimes, its party.
- 

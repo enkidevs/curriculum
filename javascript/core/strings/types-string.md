@@ -13,21 +13,21 @@ category: must-know
 
 The primary way to declare a string value in JavaScript is to use quotes. Using single or double works the same:
 
-```javascript
+```plain-text
 let company1 = "Enki";
 let company2 = 'Enki';
 ```
 
 You can connect, usually called "concat", two strings together with the '+' operator:
 
-```javascript
+```plain-text
 let longText = "abc" + "def" + "ghi";
 // longText is equal to "abcdefghi"
 ```
 
 You can also use the backslash character to continue writing text on multiple lines:
 
-```javascript
+```plain-text
 var longerText = "abc\
 def\
 ghi";
@@ -35,7 +35,7 @@ ghi";
 
 There are also special characters that can be used by preceding the character with a backslash. Here are some common ones:
 
-```javascript
+```plain-text
 \’ single quote
 \" double quote
 \\ backslash
@@ -56,12 +56,12 @@ let myString = 'this will ???
        be displayed on two lines';
 ```
 
-* `\n`
-* `+`
-* `"`
-* `\`
-* `\r`
-* `\t`
+- `\n`
+- `+`
+- `"`
+- `\`
+- `\r`
+- `\t`
 
 
 ---
@@ -70,15 +70,14 @@ let myString = 'this will ???
 
 Which one of the following is correct?
 
-```javascript
+```plain-text
 let company1 = "Enki";
 let company2 = 'Enki';
 ```
 
 ???
 
-* both
-* first
-* second
-* none
- 
+- both
+- first
+- second
+- none

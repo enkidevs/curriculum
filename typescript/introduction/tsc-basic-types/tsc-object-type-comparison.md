@@ -2,18 +2,20 @@
 author: nem035
 type: normal
 category: must-know
-aspects:
-  - introduction
-  - workout
 links:
-  - '[object Type](https://www.typescriptlang.org/docs/handbook/basic-types.html#object){documentation}'
-  - '[Play with object types](https://repl.it/@enkicontent/TypeScriptPlayWithObjectTypes){website}'
-
+  - >-
+    [object
+    Type](https://www.typescriptlang.org/docs/handbook/basic-types.html#object){documentation}
+  - >-
+    [Play with object
+    types](https://repl.it/@enkicontent/TypeScriptPlayWithObjectTypes){website}
 ---
 
 # `{}` vs `object` vs `Object`
 
+
 ---
+
 ## Content
 
 TypeScript has 3 ways to represent an object with slightly different behaviors.
@@ -24,7 +26,7 @@ TypeScript has 3 ways to represent an object with slightly different behaviors.
 
 The type `{}` is used to represent an object with a specific shape.
 
-```ts
+```plain-text
 let empty: {} = {};
 
 const Enki: {
@@ -38,7 +40,7 @@ const Enki: {
 
 Assigning values that aren't part of the shape will cause errors:
 
-```ts
+```plain-text
 empty.name = 'oops';
 // error: Property 'name' does not exist on type '{}'
 Enki.age = 5;
@@ -49,7 +51,7 @@ Enki.age = 5;
 
 The type `object` is used to represent any non-primitive[1] value (any collection of values):
 
-```ts
+```plain-text
 // an object is an "object"
 let obj: object = { enki: true };
 // an array is an "object"
@@ -74,7 +76,7 @@ Usually by *"object"* we mean a collection of named values (e.g. map, set, array
 
 However, the `Object` type can be used to represent any type that is considered to contain a value[2]:
 
-```ts
+```plain-text
 // almost anything is an "Object"
 let num: Object = 3;
 let bool: Object = false;
@@ -87,12 +89,14 @@ let n: Object = null; // error
 let u: Object = undefined; // error
 ```
 
+
 ---
+
 ## Practice
 
 Which statement will throw an error?
 
-```ts
+```plain-text
 const a: Object = {
   enki: 'fun'
 };
@@ -108,17 +112,19 @@ const c: { enki: string } = {
 
 ???
 
-* None of them
-* b
-* a
-* c
+- None of them
+- b
+- a
+- c
+
 
 ---
+
 ## Revision
 
 Which statement will throw an error?
 
-```ts
+```plain-text
 const a: Object = 5;
 
 const b: object = 5;
@@ -130,16 +136,19 @@ const d: Object = { enki: true };
 
 ???
 
-* b
-* a
-* c
-* d
+- b
+- a
+- c
+- d
+
 
 ---
+
 ## Footnotes
 
 [1:Primitive Values]
 The following types are considered to be primitive:
+
 - `number`
 - `string`
 - `boolean`
@@ -153,7 +162,7 @@ All built-in values besides `null` and `undefined` are a form of object in JavaS
 
 A quick test to verify if something is an object is to try and access a property on it and see if it errors.
 
-```js
+```plain-text
 // use anything as x
 x = // anything
 // if this throws, then
@@ -163,7 +172,7 @@ x = // anything
 
 For example, these values are all objects:
 
-```js
+```plain-text
 (3).enki // undefined
 ('enki').enki // undefined
 ({ enki: 1 }).enki // 1
@@ -171,7 +180,7 @@ For example, these values are all objects:
 
 Only these throw an error:
 
-```js
+```plain-text
 (undefined).enki // Uncaught TypeError: Cannot read property 'property' of undefined
 (null).enki // Uncaught TypeError: Cannot read property 'property' of null
 ```

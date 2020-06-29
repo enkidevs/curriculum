@@ -23,12 +23,12 @@ Indices[1] are meant to help SQL Servers to lookup data *faster*. However we nee
 
 Thus, we should bear in mind the followings while creating Indices:
 
-* for tables that have frequent writes, use as few columns as possible under the same index
-* if the table contains a lot of data, but the data isn't modified that frequently, use as many Indices to improve performance
-* try to select columns with very little data in clustered indices, large columns like `text` cause performance issues
-* the more duplicates we have in a column, the lower the performance of the index
-* If we use more columns in a single index, the order is important because the table will be primarily sorted by the first index, and secondarily sorted by the second index, and so on
-* indexing columns is most important when working with exact-match queries
+- for tables that have frequent writes, use as few columns as possible under the same index
+- if the table contains a lot of data, but the data isn't modified that frequently, use as many Indices to improve performance
+- try to select columns with very little data in clustered indices, large columns like `text` cause performance issues
+- the more duplicates we have in a column, the lower the performance of the index
+- If we use more columns in a single index, the order is important because the table will be primarily sorted by the first index, and secondarily sorted by the second index, and so on
+- indexing columns is most important when working with exact-match queries
 
 
 ---
@@ -56,12 +56,12 @@ Consider the following table. We want to create a non-clustered index on the `ex
 ??? experience (???);
 ```
 
-* CREATE
-* ON
-* experience
-* UNIQUE
-* INDEX
-* level
+- CREATE
+- ON
+- experience
+- UNIQUE
+- INDEX
+- level
 
 
 ---
@@ -81,9 +81,9 @@ Consider the item table:
 
 Suppose that `PRIMARY KEY` isn't set yet. Choose the query that will create a clustered index on the `id` column.
 
-* CREATE UNIQUE INDEX id_clustered ON item(id);
-* CREATE UNIQUE INDEX id_clustered ON item(cost);
-* CREATE INDEX id_clustered ON item(id);
+- CREATE UNIQUE INDEX id_clustered ON item(id);
+- CREATE UNIQUE INDEX id_clustered ON item(cost);
+- CREATE INDEX id_clustered ON item(id);
 
 
 ---
@@ -106,10 +106,10 @@ This table has thousands of entries and querying a pokemon's species is very slo
 
 ???
 
-* CREATE INDEX species_to_pokemon ON pokemon(pokemon_species_id);
-* CREATE UNIQUE INDEX species_to_pokemon ON pokemon(pokemon_species_id);
-* CREATE UNIQUE INDEX species_to_pokemon ON pokemon(id);
-* CREATE INDEX species_to_pokemon ON pokemon(weight);
+- CREATE INDEX species_to_pokemon ON pokemon(pokemon_species_id);
+- CREATE UNIQUE INDEX species_to_pokemon ON pokemon(pokemon_species_id);
+- CREATE UNIQUE INDEX species_to_pokemon ON pokemon(id);
+- CREATE INDEX species_to_pokemon ON pokemon(weight);
 
 
 ---
@@ -118,4 +118,3 @@ This table has thousands of entries and querying a pokemon's species is very slo
 
 [1:Indices]
 Reasonable people differ when they refer to the plural of Index. Some people use Indices, some use Indexes.
- 

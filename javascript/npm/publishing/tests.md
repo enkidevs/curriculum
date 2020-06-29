@@ -21,7 +21,7 @@ Some people even think that writing tests and building your module around them i
 
 In your `package.json` you can specify which **script** should be run when `test`ing.
 
-```javascript
+```plain-text
 {
   "scripts": {
     "test": "jest test/mytest.js"
@@ -31,7 +31,7 @@ In your `package.json` you can specify which **script** should be run when `test
 
 This will provide a shortcut for you, invokable by running:
 
-```bash
+```plain-text
 npm test
 # instead of
 npm run test
@@ -41,13 +41,13 @@ One of the most straightforward ways to test your code is *linting*. A linter ch
 
 A JavaScript linter is JSLint:
 
-```bash
+```plain-text
 npm install jslint
 ```
 
 To lint your entire project, add this to the *test* event:
 
-```javascript
+```plain-text
 {
   "scripts": {
     "test": `jslint '**/*.js'
@@ -69,11 +69,11 @@ If you have a `test` script defined in your `package.json`, what will be the eas
 ???
 ```
 
-* npm test
-* npm run test
-* jest all
-* test
-* test .
+- npm test
+- npm run test
+- jest all
+- test
+- test .
 
 
 ---
@@ -91,12 +91,12 @@ Complete the following *package.json* file with code that would make `npm run te
 }
 ```
 
-* "scripts"
-* "test"
-* index.js
-* scripts
-* test
-* script
+- "scripts"
+- "test"
+- index.js
+- scripts
+- test
+- script
 
 
 ---
@@ -105,4 +105,3 @@ Complete the following *package.json* file with code that would make `npm run te
 
 [1:TDD]
 This approach of writing code is called "Test-Driven Development".
- 

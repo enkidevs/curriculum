@@ -1,25 +1,21 @@
 ---
 author: Stefan-Stojanovic
-
-levels:
-  - beginner
-  - basic
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-  - workout
-
 links:
-  - '[MDN: <div> Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/div){documentation}'
-  - '[W3S: <div> Element](https://www.w3schools.com/tags/tag_div.asp){documentation}'
+  - >-
+    [MDN: <div>
+    Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/div){documentation}
+  - >-
+    [W3S: <div>
+    Element](https://www.w3schools.com/tags/tag_div.asp){documentation}
+---
+
+# The `<div>` element
+
 
 ---
-# The `<div>` element
----
+
 ## Content
 
 The HTML `<div>` element is used for content division, meaning it is a container that typically holds text or images and can be styled changing its display within a web page. It is the most commonly used HTML element!
@@ -27,7 +23,8 @@ The HTML `<div>` element is used for content division, meaning it is a container
 The `<div>` element has zero effect on either the content or layout of the page unless styled with CSS. However, this element is really useful for grouping a bunch of content together. In this example, the content would display the same even without the `<div>`  element.
 
 Example:
-```html
+
+```plain-text
 <div>
   <p>
     Any kind of content here.
@@ -45,7 +42,7 @@ Since a web page typically has numerous `div` elements, it is common that they w
 
 In this case, when we add a `class` to the `<div>`, and use CSS to style that class, we have greater control over the layout and design like this:
 
-```html
+```plain-text
 <div class="shadowbox">
   <p>
     Any kind of content here.
@@ -55,7 +52,7 @@ In this case, when we add a `class` to the `<div>`, and use CSS to style that cl
 </div>
 ```
 
-```css
+```plain-text
 .shadowbox {
   font-family: Arial, sans-serif;
   font-size: 1.5em;
@@ -76,28 +73,33 @@ In this case, when we add a `class` to the `<div>`, and use CSS to style that cl
 [View CodePen](https://codepen.io/enkidevs/pen/WyLPxg)
 
 **Notes:**
- - The div element should NOT be used when there is a more appropriate semantic element(like `<nav>` or `<article>`).
- - Before HTML5 there was no specific elements for layout like `<header>`,`<nav>`,`<footer>`, etc, and in it's place people used the `<div>` element. If you encounter code like this `<div class="header">...</div>`, know that it is not semantic and follows older HTML4 layouts.
+
+- The div element should NOT be used when there is a more appropriate semantic element(like `<nav>` or `<article>`).
+- Before HTML5 there was no specific elements for layout like `<header>`,`<nav>`,`<footer>`, etc, and in it's place people used the `<div>` element. If you encounter code like this `<div class="header">...</div>`, know that it is not semantic and follows older HTML4 layouts.
+
 
 ---
+
 ## Practice
 
 Which of the following is a useful way of using a div container in a webpage?
 
 ???
 
-* Generic content for stylistic purposes.
-* Primary content of a document
-* Sub-sections of content
-* Contact information
-* Forum posts
+- Generic content for stylistic purposes.
+- Primary content of a document
+- Sub-sections of content
+- Contact information
+- Forum posts
+
 
 ---
+
 ## Revision
 
 Which HTML element is best used here?
 
-```html
+```plain-text
 <body>
   <TAG class="wrapper">
     <!--rest of site content-->
@@ -107,26 +109,29 @@ Which HTML element is best used here?
 
 TAG: ???
 
- * `<div>`
- * `<main>`
- * `<aside>`
- * `<section>`
- * `<article>`
- * `<wrap>`
+- `<div>`
+- `<main>`
+- `<aside>`
+- `<section>`
+- `<article>`
+- `<wrap>`
+
 
 ---
+
 ## Quiz
 
 ### If you come across a website that uses this code, which statement is most appropriate?
 
-```html
+
+```plain-text
 <div class="nav">...</nav>
 ```
 
 ???
 
- * This code is not semantic and follows older HTML4 layouts.
- * Navigation buttons will typically be found within it.
- * This code is not written properly and will fail validation.
- * Multiple classes called "nav" can be added to various containers.
- * This most likely contains the primary navigation to the web page.
+- This code is not semantic and follows older HTML4 layouts.
+- Navigation buttons will typically be found within it.
+- This code is not written properly and will fail validation.
+- Multiple classes called "nav" can be added to various containers.
+- This most likely contains the primary navigation to the web page.

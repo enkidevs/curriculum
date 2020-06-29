@@ -33,10 +33,10 @@ If virtual machines abstract away the hardware, containers abstract away the ope
 
 Docker container is more ??? than a VM which allows it to be started, stopped and replicated more ???
 
-* light-weight
-* efficiently
-* isolated
-* safely
+- light-weight
+- efficiently
+- isolated
+- safely
 
 
 ---
@@ -45,8 +45,7 @@ Docker container is more ??? than a VM which allows it to be started, stopped an
 
 A VM is an abstraction on top of ??? while a Docker container is an abstraction on top of ???
 
-* hardware
-* operating system
-* cpu
-* software
- 
+- hardware
+- operating system
+- cpu
+- software

@@ -1,44 +1,26 @@
 ---
 author: stefkn
-
-levels:
-
-  - beginner
-
-  - basic
-
-  - medium
-
 type: normal
-
 category: must-know
-aspects:
-  - introduction
-  - workout
-  - deep
-standards:
-
-  python.data-structures-uses.0: 10
-  python.data-structures-uses.1: 10
-  python.native-types-operations.3: 10
-  python.use-iteration-protocol.1: 10
-
 links:
-
-  - '[Python max()](https://www.programiz.com/python-programming/methods/built-in/max){website}'
-  - '[Python 3.3 Documentation](https://docs.python.org/3.3/library/functions.html#max){website}'
-
-
+  - >-
+    [Python
+    max()](https://www.programiz.com/python-programming/methods/built-in/max){website}
+  - >-
+    [Python 3.3
+    Documentation](https://docs.python.org/3.3/library/functions.html#max){website}
 ---
 
 # The `max` Built-in Function
 
+
 ---
+
 ## Content
 
 The `max` function returns the largest item in an iterable object, or, the largest of two or more parameters given to it. The general syntax follows the form:
 
-```python
+```plain-text
 max(iterable, *iterables [,key, default])
 # or
 max(arg1, arg2, *args [, key])
@@ -53,7 +35,7 @@ where `*iterables` and `*args` denotes zero or more iterable objects and additio
 
 Now let's look at the second form,
 
-```python
+```plain-text
 max(arg1, arg2, *args [, key])
 ```
 
@@ -63,7 +45,7 @@ max(arg1, arg2, *args [, key])
 
 In the case that there are more than one maximal items in the given input, `max` returns the first one encountered. Consider the following code examples:
 
-```python
+```plain-text
 # using max(arg1, arg2, *args)
 max(1, 1, 1, 5, 2)
 # result = 5
@@ -76,14 +58,16 @@ max(num)
 
 Using the key argument, however, we can use `max` in more interesting and useful ways. For example, we can specify the key to be a custom or built-in function, such as one that checks the size of objects, `len`.
 
-```python
+```plain-text
 num1 = [1200, 110000, 90, 9012]
 num2 = [12, 12, 12, 30, 30, 90]
 print(max(num1, num2, key=len))
 # result = [12, 12, 12, 30, 30, 90]
 ```
 
+
 ---
+
 ## Practice
 
 Let's say we have some queues of customers being served pizza. We want to know which queue will be the fastest.
@@ -102,33 +86,36 @@ print(???(queue1,
           key=lambda x: ???/???))
 ```
 
+- max
+- sum(x)
+- len(x)
+- queue
+- map(x)
+- min(x)
 
-* max
-* sum(x)
-* len(x)
-* queue
-* map(x)
-* min(x)
 
 ---
+
 ## Revision
 
 What is the result of executing the following code snippet in Python 3?
 
-```python
+```plain-text
 list3 = [1, 2, 'abc', 'xyz', 3, 4, 'zzz']
 print(max(list3))
 ```
 
 ???
 
+- TypeError
+- 'xyz'
+- 'zzz'
+- 4
 
-* TypeError
-* 'xyz'
-* 'zzz'
-* 4
 
 ---
+
 ## Footnotes
+
 [1:Key]
 *This is exactly the same as the way keys are used in other built-in functions such as `sort` etc. For more information see the lesson on the `sorted` and `sort` functions.*

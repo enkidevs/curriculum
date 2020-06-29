@@ -1,22 +1,21 @@
 ---
 author: catalin
-
 type: normal
-
 category: must-know
-
 links:
-  - '[State and the lifecycle](https://facebook.github.io/react/docs/state-and-lifecycle.html){website}'
-  - '[React state](https://medium.com/react-tutorials/react-state-14a6d4f736f5#.8vf5a6ngz){website}'
-
-aspects:
-  - introduction
-
+  - >-
+    [State and the
+    lifecycle](https://facebook.github.io/react/docs/state-and-lifecycle.html){website}
+  - >-
+    [React
+    state](https://medium.com/react-tutorials/react-state-14a6d4f736f5#.8vf5a6ngz){website}
 ---
 
 # What is state?
 
+
 ---
+
 ## Content
 
 Just like `props`, **React** components' `state` can change their behavior or how they render.
@@ -25,7 +24,7 @@ You can think of `state` as private data only accessible from within the compone
 
 Consider the component:
 
-```jsx
+```plain-text
 class Hello extends React.Component {
   render() {
     return <p>{this.state.text}</p>;
@@ -37,7 +36,7 @@ This will throw an error, however, because `this.state` is `null` at the moment.
 
 To set the **initial state**, by giving `text` a value, you can make use of `constructor()`. This method is a special function that gets executed when the component is created (creating an instance of the `React.Component` class). We'll look at these in depth in the future workouts.
 
-```jsx
+```plain-text
 class Hello extends React.Component {
   constructor(props) {
     // props aren't used now
@@ -55,7 +54,7 @@ The `state` value should only be changed through the `this.setState()`[1] method
 
 Note that `state` shouldn't be changed until the component was successfully mounted[2].
 
-```jsx
+```plain-text
 class Hello extends React.Component {
   constructor(props) {
     // ...set initial state
@@ -73,7 +72,9 @@ The snippet above will update the `state` one second after construction. Specifi
 
 Note that we are setting the `state` here inside a `setTimeout` call. This might not be recommended (depending on your application) due to the posibility of creating memory leaks[3].
 
+
 ---
+
 ## Practice
 
 How do you change the value of `this.state.a` ?
@@ -82,26 +83,28 @@ How do you change the value of `this.state.a` ?
 ???
 ```
 
+- `this.setState({a: 'A'})`
+- `this.state.a = 'A'`
+- `this.setState({state: {a: 'A'}})`
+- `constructor(state) {super({a: 'A'})}`
 
-* `this.setState({a: 'A'})`
-* `this.state.a = 'A'`
-* `this.setState({state: {a: 'A'}})`
-* `constructor(state) {super({a: 'A'})}`
 
 ---
+
 ## Revision
 
 Where should **initial state** be set in a component class?
 
 ???
 
+- in `constructor(props)`
+- in `render()`
+- in `this.setState(initialState)`
+- anywhere in the component
 
-* in `constructor(props)`
-* in `render()`
-* in `this.setState(initialState)`
-* anywhere in the component
 
 ---
+
 ## Footnotes
 
 [1:Immutable State]

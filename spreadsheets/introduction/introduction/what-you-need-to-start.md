@@ -26,4 +26,3 @@ The most accessible one is [Google Sheets](https://docs.google.com/spreadsheets/
 There are [other spreadsheet tools available](https://en.wikipedia.org/wiki/Spreadsheet#Web_based_spreadsheets), with functionality similar to Google Sheets and Excel. 
 
 For most of this topic, we'll be using Google Sheets.
- 

@@ -23,7 +23,7 @@ The `FULL JOIN`, or `FULL OUTER JOIN`, is a type of join that combines the funct
 
 If we are to fall back to the previous example of *moves* and *types*, the output won't be different:
 
-```sql
+```plain-text
 SELECT move.id, move.name,
   type.id, type.name AS type_name
 FROM move
@@ -59,12 +59,12 @@ berry.berry_firmness_id = berry_firmness.id
 WHERE berry_firmness.id = 2???
 ```
 
-* `SELECT`
-* `berry`
-* `FULL OUTER JOIN`
-* `ON`
-* `;`
-* `*`
+- `SELECT`
+- `berry`
+- `FULL OUTER JOIN`
+- `ON`
+- `;`
+- `*`
 
 
 ---
@@ -80,10 +80,10 @@ FROM pokemon_type
 pokemon_type.type_id = type.id
 ```
 
-* `FULL JOIN`
-* `ON`
-* `LEFT AND RIGHT JOIN`
-* `OUTER JOIN`
+- `FULL JOIN`
+- `ON`
+- `LEFT AND RIGHT JOIN`
+- `OUTER JOIN`
 
 
 ---
@@ -132,8 +132,7 @@ id  | game_index | region_id
 
  ???
 
-* SELECT location.id,location_area.game_index,location.region_id FROM location FULL OUTER JOIN location_area ON location.id = location_area.id;
-* SELECT location.id,location_area.game_index,location.region_id FROM location INNER JOIN location_area ON location.id = location_area.id;
-* SELECT location.id,location_area.game_index,location.region_id FROM location LEFT JOIN location_area ON location.id = location_area.id;
-* SELECT location.id,location_area.game_index,location.region_id FROM location RIGHT JOIN location_area ON location.id = location_area.id;
- 
+- SELECT location.id,location_area.game_index,location.region_id FROM location FULL OUTER JOIN location_area ON location.id = location_area.id;
+- SELECT location.id,location_area.game_index,location.region_id FROM location INNER JOIN location_area ON location.id = location_area.id;
+- SELECT location.id,location_area.game_index,location.region_id FROM location LEFT JOIN location_area ON location.id = location_area.id;
+- SELECT location.id,location_area.game_index,location.region_id FROM location RIGHT JOIN location_area ON location.id = location_area.id;

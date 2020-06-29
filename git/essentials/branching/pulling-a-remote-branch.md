@@ -19,7 +19,7 @@ links:
 
 For example, to fetch and merge the branch `master` with the current branch:
 
-```bash
+```plain-text
 git pull origin
 ```
 
@@ -38,11 +38,11 @@ To `fetch` and `merge` master branch automatically you run :
 ??? ??? ???
 ```
 
-* `git`
-* `pull`
-* `origin`
-* `merge`
-* `checkout`
+- `git`
+- `pull`
+- `origin`
+- `merge`
+- `checkout`
 
 
 ---
@@ -55,10 +55,10 @@ To automatically `merge` the commits from the master branch you would use :
 git ??? origin
 ```
 
-* `pull`
-* `push`
-* `get`
-* `merge`
+- `pull`
+- `push`
+- `get`
+- `merge`
 
 
 ---
@@ -70,14 +70,13 @@ git ??? origin
 
 What option related to fetching is `-a` shorthand for in the following command?
 
-```bash
+```plain-text
 git pull -a
 ```
 
  ???
 
-* --append
-* --amend
-* --all
-* --autostash
- 
+- --append
+- --amend
+- --all
+- --autostash

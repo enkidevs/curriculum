@@ -1,43 +1,30 @@
 ---
 author: mihaiberq
-
-levels:
-  - beginner
-
 type: normal
-
 category: must-know
-
 parent: why-use-npm
-
-standards:
-  javascript.npm-tasks-and-modules-manager.0: 10
-  javascript.node-developer-environment.2: 10
-
 tags:
   - introduction
-
-aspects:
-  - introduction
-
-
 ---
+
 # Setting up npm
 
+
 ---
+
 ## Content
 
 Now that you have chosen to use **npm**, the next step is to install it: *npm* is included with *Node.js*.
 
 As npm gets updated more often than node, you can update it to its most recent version like follows:
 
-```bash
+```plain-text
 npm install npm@latest -g
 ```
 
 This syntax will be used when installing individual packages:
 
-```bash
+```plain-text
 npm install package-name@version (-g)
 # or
 npm i package-name@version (-g)
@@ -47,18 +34,20 @@ When you install a package globally, by appending the `-g` flag to the command ,
 
 The safest way to install packages is in the project folder, or locally. For example, to check whether the installation was successful, look for the *express* folder inside the *node_modules* directory:
 
-```bash
+```plain-text
 npm install express
 ```
 
 If the version of the package is not specified, npm will install its latest version by default. Once the package is inside the *node_modules* directory, you can require it in your project:
 
-```javascript
+```plain-text
 var express = require('express');
 var app = express();
 ```
 
+
 ---
+
 ## Practice
 
 How would you update npm to the latest version? Place the flag at the end of the command.
@@ -67,16 +56,18 @@ How would you update npm to the latest version? Place the flag at the end of the
 npm ??? ??? ???
 ```
 
-* install
-* npm
-* -g
-* latest
-* -l
-* add
-* remove
-* --latest
+- install
+- npm
+- -g
+- latest
+- -l
+- add
+- remove
+- --latest
+
 
 ---
+
 ## Revision
 
 Install the *react* package locally:
@@ -85,12 +76,9 @@ Install the *react* package locally:
 ??? ??? ???
 ```
 
-* npm
-* install
-* react
-* -l
-* -g
-* node
- 
- 
- 
+- npm
+- install
+- react
+- -l
+- -g
+- node

@@ -1,18 +1,14 @@
 ---
 author: emmab
-
 type: normal
-
-aspects:
-  - introduction
-
 category: must-know
-
 ---
 
 # Introduction to Booleans
 
+
 ---
+
 ## Content
 
 Beneath the magic of an `if` statement is another Python data type, `bool`, the **boolean**!
@@ -23,7 +19,7 @@ Python uses *booleans* to evaluate conditions.
 
 Using a comparison operator to check whether a condition has been met, such as `x > 2`, returns a boolean value.
 
-```python
+```plain-text
 x = 3
 
 x > 2
@@ -32,7 +28,7 @@ x > 2
 
 This means that once an `if` statement condition evaluates to `True`, the indented code block will run.
 
-```python
+```plain-text
 hungry = 'very'
 
 if hungry == 'very':
@@ -45,17 +41,19 @@ Here, `'Get some food!'` is printed because the condition above evaluates to `Tr
 
 > Note: Python booleans must be *capitalized*, and they belong to the `bool` class.
 
-```python
+```plain-text
 >>> type(True)
 # <class 'bool'>
 ```
 
+
 ---
+
 ## Practice
 
 What would the following conditional statement evaluate to?
 
-```python
+```plain-text
 x = 21
 
 x >= 21
@@ -63,12 +61,14 @@ x >= 21
 
 ???
 
-* `True`
-* `False`
-* `true` 
-* `false`
+- `True`
+- `False`
+- `true` 
+- `false`
+
 
 ---
+
 ## Revision
 
 What class would the following code return?
@@ -78,7 +78,7 @@ type(False)
 # <type '???'>
 ```
 
-* `bool`
-* `boolean`
-* `Boolean`
-* `Bool`
+- `bool`
+- `boolean`
+- `Boolean`
+- `Bool`

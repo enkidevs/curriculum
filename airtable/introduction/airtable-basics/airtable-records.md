@@ -1,18 +1,14 @@
 ---
 author: kapnobatai136
-
 category: must-know
-
-aspects:
-  - introduction
-
 type: normal
-
 ---
 
 # Records
 
+
 ---
+
 ## Content
 
 In the base that we previously created, check out the four rows (`1`, `2`, `3`, and `+`):
@@ -29,11 +25,13 @@ A record is identifiable by its row number. For example, we have record `1` with
 
 Depending on the field's type, you can only enter certain data. In this example, both the `Name` and `Notes` fields take text input, while the `Attachments` field takes a file input (don't stress too much about this concept as it'll be explained in the insights coming up).
 
+
 ---
+
 ## Practice
 
 In Airtable, a record is identifiable by its ???.
 
-* row number
-* third column
-* `Notes` column
+- row number
+- third column
+- `Notes` column

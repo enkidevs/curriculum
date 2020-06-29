@@ -21,7 +21,7 @@ parent: underline-feature-on-html-elements
 
 The default for the color of the decoration lines is the same as the `color` of the text. But you can change that:
 
-```css
+```plain-text
 a {
   text-decoration: underline;
   text-decoration-color: #c0ffee;
@@ -37,7 +37,6 @@ The only browser that currently supports this property is `Firefox`.
 
 What is the default text decoration colour? And with what property can this be changed? ???
 
-* Default colour is the text colour. Changed with `text-decoration-color:`.
-* Default colour is black. Changed with `text-decoration-colour:`.
-* Default colour is white. Cannot be changed.
- 
+- Default colour is the text colour. Changed with `text-decoration-color:`.
+- Default colour is black. Changed with `text-decoration-colour:`.
+- Default colour is white. Cannot be changed.

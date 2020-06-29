@@ -16,7 +16,7 @@ A nested loop in Python is where you have one loop inside of another loop. The i
 
 Here is the standard syntax whilst using `for` loops:
 
-```python
+```plain-text
 for x in sequence:
   for x in sequence:
     doSomething()
@@ -25,7 +25,7 @@ for x in sequence:
 
 The standard syntax when using a `while` loop:
 
-```python
+```plain-text
 while condition:
   while condition:
     doSomething()
@@ -34,7 +34,7 @@ while condition:
 
 For example:
 
-```python
+```plain-text
 letters = ["a", "b", "c"]
 
 for letter in letters:
@@ -45,7 +45,7 @@ for letter in letters:
 
 Gives the following output:
 
-```python
+```plain-text
 a
 0
 1
@@ -67,7 +67,7 @@ c
 
 Choose the correct output for the following snippet:
 
-```python
+```plain-text
 for i in [1,2]:
   print(i)
   for j in range(0,2):
@@ -77,9 +77,9 @@ for i in [1,2]:
 
 ???
 
-* 1 0 0 2 0 0
-* 0 0 1 0 0 2
-* 1 0 1 2 0 1
+- 1 0 0 2 0 0
+- 0 0 1 0 0 2
+- 1 0 1 2 0 1
 
 
 ---
@@ -89,7 +89,6 @@ for i in [1,2]:
 How do nested loops work?
 ???
 
-* The outer loop increments once per full cycle of the inner loop.
-* The inner loop increments once per full cycle of the outer loop.
-* The inner and outer loops increment simultaneously.
- 
+- The outer loop increments once per full cycle of the inner loop.
+- The inner loop increments once per full cycle of the outer loop.
+- The inner and outer loops increment simultaneously.

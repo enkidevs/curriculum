@@ -1,21 +1,18 @@
 ---
 author: Stefan-Stojanovic
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-  - workout
-  - deep
-
 links:
-  - '[HTML Tutorials](https://developer.mozilla.org/en-US/docs/Web/HTML){documentation}'
+  - >-
+    [HTML
+    Tutorials](https://developer.mozilla.org/en-US/docs/Web/HTML){documentation}
+---
+
+# HTML4, XHTML, & HTML5
+
 
 ---
-# HTML4, XHTML, & HTML5
----
+
 ## Content
 
 HTML, which stands for, **HyperText Markup Language** has had many versions over the years out of which, only a few are still being used today. These are HTML5, HTML4 and XHTML. HTML4 is the oldest HTML version still in use.
@@ -29,38 +26,44 @@ Unlike in HTML, XHTML elements have to be properly nested, always be closed, wri
 The `doctype` declaration also differs for each version.
 
 HTML5 has 1 Doctype declaration:
-```html
+
+```plain-text
 <!DOCTYPE html>
 ```
 
 HTML4 and XHTML each have 3 types of Doctype declarations:
- - Frameset
- - Strict
- - Transitional
+
+- Frameset
+- Strict
+- Transitional
 
 HTML4 Frameset:
-```html
+
+```plain-text
 <!DOCTYPE HTML PUBLIC
  "-//W3C//DTD HTML 4.01 Frameset//EN"
  "http://www.w3.org/TR/html4/frameset.dtd">
 ```
 
 HTML4 Strict:
-```html
+
+```plain-text
 <!DOCTYPE HTML PUBLIC
   "-//W3C//DTD HTML 4.01//EN"
   "http://www.w3.org/TR/html4/strict.dtd">
 ```
 
 HTML4 Transitional:
-```html
+
+```plain-text
 <!DOCTYPE HTML PUBLIC
   "-//W3C//DTD HTML 4.01 Transitional//EN"
   "http://www.w3.org/TR/html4/loose.dtd">
 ```
 
 XHTML Frameset:
-```html
+
+```plain-text
 <!DOCTYPE html PUBLIC
   "-//W3C//DTD XHTML 1.0 Frameset//EN"
   "http://www.w3.org/TR/xhtml1/DTD
@@ -68,7 +71,8 @@ XHTML Frameset:
 ```
 
 XHTML Strict:
-```html
+
+```plain-text
 <!DOCTYPE html PUBLIC
   "-//W3C//DTD XHTML 1.0 Strict//EN"
   "http://www.w3.org/TR/xhtml1/DTD
@@ -76,7 +80,8 @@ XHTML Strict:
 ```
 
 XHTML Transitional:
-```
+
+```plain-text
 <!DOCTYPE html PUBLIC
  "-//W3C//DTD XHTML 1.0 Transitional//EN"
   "http://www.w3.org/TR/xhtml1/DTD
@@ -87,6 +92,7 @@ A lot of elements from HTML4 were deprecated and made obsolete in HTML5. Depreca
 
 
 ---
+
 ## Practice
 
 Which version of HTML is the oldest still in use today?
@@ -105,29 +111,31 @@ Which of these HTML elements was not removed in HTML5?
 
 ???
 
-* HTML4
-* eXtensible Hypertext Markup Language
-* all tags, once opened, must be closed in XHTML, but not in HTML4
-* `<form>`
-* HTML2
-* HTML3
-* eXtensible Hypertext Markup Library
-* all tags, once opened, must be closed in HTML4, but not in XHTML
-* all elements must be written in uppercase in XHTML, but not in HTML4
-* `<font>`
-* `<strike>`
+- HTML4
+- eXtensible Hypertext Markup Language
+- all tags, once opened, must be closed in XHTML, but not in HTML4
+- `<form>`
+- HTML2
+- HTML3
+- eXtensible Hypertext Markup Library
+- all tags, once opened, must be closed in HTML4, but not in XHTML
+- all elements must be written in uppercase in XHTML, but not in HTML4
+- `<font>`
+- `<strike>`
+
 
 ---
+
 ## Quiz
 
 ### Test your HTML knowledge.
+
 
 When referring to deprecated HTML tags, what does that mean?
 
 ???
 
-* HTML elements which are no longer supported and are replaced with better and more functional CSS alternatives.
-* HTML elements that are best used with certain features.
-* HTML elements that will never be obsolete.
-* HTML elements that are not appreciated enough.
- 
+- HTML elements which are no longer supported and are replaced with better and more functional CSS alternatives.
+- HTML elements that are best used with certain features.
+- HTML elements that will never be obsolete.
+- HTML elements that are not appreciated enough.

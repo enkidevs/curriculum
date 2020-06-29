@@ -35,12 +35,12 @@ It provides practical mitigation strategies, and is one of the most beginner-fri
 
 In this Security course we'll teach you:
 
-* The **Open Systems Interconnection Model** (OSI Model)
-* How to apply appropriate controls to minimize vulnerability
-* How to identify and mitigate different attacks
-* How to evaluate source code for vulnerabilities
-* How to identify and protect sensitive data
-* And much more!
+- The **Open Systems Interconnection Model** (OSI Model)
+- How to apply appropriate controls to minimize vulnerability
+- How to identify and mitigate different attacks
+- How to evaluate source code for vulnerabilities
+- How to identify and protect sensitive data
+- And much more!
 
 
 ---
@@ -51,10 +51,10 @@ A large part of application security involves:
 
 ???
 
-* Monitoring aggregators and news sites for major vulnerabilities and mitigation strategies
-* Doing exploit analysis on your company's hardware
-* Working closely with the database administrator
-* Checking in with the security guards regularly
+- Monitoring aggregators and news sites for major vulnerabilities and mitigation strategies
+- Doing exploit analysis on your company's hardware
+- Working closely with the database administrator
+- Checking in with the security guards regularly
 
 
 ---
@@ -65,7 +65,6 @@ OWASP is:
 
 ???
 
-* An open source community of common security issues and techniques
-* A hacking group
-* A virus affecting wi-fi enabled microwaves
- 
+- An open source community of common security issues and techniques
+- A hacking group
+- A virus affecting wi-fi enabled microwaves

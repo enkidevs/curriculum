@@ -30,10 +30,10 @@ Choose from the following list the case in which successful mining doesn't yield
 
 ???
 
-* There is a longer branch being built on.
-* Double-spend attack.
-* Successfully mining blocks always yields rewards.
-* The nonce is 0.
+- There is a longer branch being built on.
+- Double-spend attack.
+- Successfully mining blocks always yields rewards.
+- The nonce is 0.
 
 
 ---
@@ -44,8 +44,7 @@ What effect does mining have on the structure of the blockchain?
 
 ???
 
-* The blockchain grows.
-* The miner receives a block reward.
-* The mined block contains the block reward transaction.
-* The last block is skipped.
- 
+- The blockchain grows.
+- The miner receives a block reward.
+- The mined block contains the block reward transaction.
+- The last block is skipped.

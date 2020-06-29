@@ -23,9 +23,9 @@ There aren't any *inline-block* elements per se: they are *inline* elements that
 
 With that being said, the `inline-block` behavior has the following characteristics:
 
-* It can fit on the same line as other `inline` or `inline-block` elements (inline)
-* Its `height`, `line-height`, `top-margin` and `bottom-margin` can be specified (block)
-* Its width defaults to 100% of its containing element, but it can be changed. (block)
+- It can fit on the same line as other `inline` or `inline-block` elements (inline)
+- Its `height`, `line-height`, `top-margin` and `bottom-margin` can be specified (block)
+- Its width defaults to 100% of its containing element, but it can be changed. (block)
 
 The only elements which inherently *behave* like this are *replaced elements*, such as `img`, `video` or *form elements*, like `input` and `textarea`.
 
@@ -42,8 +42,7 @@ Whose behavior is `display:inline-block` trying to replicate?
 
 ???
 
-* Replaced elements'
-* Inline elements'
-* Block elements'
-* Newer elements'
- 
+- Replaced elements'
+- Inline elements'
+- Block elements'
+- Newer elements'

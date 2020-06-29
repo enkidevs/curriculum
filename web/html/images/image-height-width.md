@@ -19,7 +19,7 @@ When working with image sizes, this can seem easy to start with, but it is a lit
 
 Example:
 
-```html
+```plain-text
 <img src="logo.svg"
     height="80"
     width="140">
@@ -27,13 +27,13 @@ Example:
 
 Browsers render your page faster and more cleanly (aka the browser will reserve appropriate space for the image, even before the image is loaded preventing loading images from forcing changes in the page layout during loading) when the height and width are used, but in order for these images to be responsive, their height and width will be overridden using CSS.
 
-```html
+```plain-text
 <img src="logo.svg"
     height="80"
     width="140">
 ```
 
-```css
+```plain-text
 img {
     width: 100%;
     height: auto;
@@ -51,13 +51,13 @@ Fill in the appropriate attributes/values for creating an image in HTML with dim
 
 `<??? ???="image.svg" height="200" ???="300">`
 
-* img
-* src
-* width
-* length
-* size
-* tall
-* wide
+- img
+- src
+- width
+- length
+- size
+- tall
+- wide
 
 
 ---
@@ -68,12 +68,12 @@ What are the appropriate attributes for setting the image size in HTML? (Please 
 
 `<img src="image.svg" ___="200" ___="200">`
 
-* height
-* width
-* length
-* size
-* tall
-* wide
+- height
+- width
+- length
+- size
+- tall
+- wide
 
 
 ---
@@ -83,9 +83,8 @@ What are the appropriate attributes for setting the image size in HTML? (Please 
 ### The main reason height & width are useful attributes to adding to HTML image elements is:
 
 
-* Browser reserves appropriate space for it.
-* Will overwrite CSS height & width values.
-* Prevents potential CSS mistakes with image size.
-* Easiest way to set image size.
-* Best way to manage responsive (resizable) images.
- 
+- Browser reserves appropriate space for it.
+- Will overwrite CSS height & width values.
+- Prevents potential CSS mistakes with image size.
+- Easiest way to set image size.
+- Best way to manage responsive (resizable) images.

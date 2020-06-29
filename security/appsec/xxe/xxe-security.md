@@ -40,12 +40,12 @@ Which categories of error do XXE vulnerabilities fall into?
 
 ??? XML Documents: exploits vulnerabilities using documents that do not have the expected structure.
 
-* Malformed
-* Invalid
-* NonWellFormed
-* Exception
-* NonParseableDocument
-* Broken
+- Malformed
+- Invalid
+- NonWellFormed
+- Exception
+- NonParseableDocument
+- Broken
 
 
 ---
@@ -55,8 +55,7 @@ Which categories of error do XXE vulnerabilities fall into?
 Locally-defined Schemas in XML documents are vulnerable to:
 ???
 
-* Schema Poisoning
-* Schema Reversal
-* Spam Filtering
-* Exfiltration
- 
+- Schema Poisoning
+- Schema Reversal
+- Spam Filtering
+- Exfiltration

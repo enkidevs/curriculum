@@ -1,48 +1,27 @@
 ---
 author: adamMontgomerie
-
-levels:
-
-  - basic
-
-  - advanced
-
-  - medium
-
 type: normal
-
 category: tip
-
-aspects:
-
-  - workout
-
-  - deep
-
 tags:
-
   - generics
-
   - generic-methods
-
   - wildcards
-
   - collections
-
 links:
-
-  - '[docs.oracle.com](https://docs.oracle.com/javase/tutorial/java/generics/lowerBounded.html){website}'
-
+  - >-
+    [docs.oracle.com](https://docs.oracle.com/javase/tutorial/java/generics/lowerBounded.html){website}
 ---
 
 # Using lower bounded wildcards
 
+
 ---
+
 ## Content
 
 Lower bounded wildcards can be used to make a variable less restrictive. For example, the following method will only accept collections of type `List<Integer>`:
 
-```java
+```plain-text
 public void method(List<Integer> list) {
   ...
 }
@@ -50,7 +29,7 @@ public void method(List<Integer> list) {
 
 Using a lower bounded wildcard `?`, we can modify the method to accept any `List` which contains `Integer` or any class which is a superclass of `Integer`:
 
-```java
+```plain-text
 public void method(
   List<? super Integer> list) {
   ...

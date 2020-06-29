@@ -19,12 +19,12 @@ The **union** of two or more tables means combining their **type-matching rows**
 
 However, there are two necessary conditions for a `UNION` to be performed:
 
-* each union query must have the same number of columns
-* every *nth* column must have the same type in all union queries
+- each union query must have the same number of columns
+- every *nth* column must have the same type in all union queries
 
 For example, the following union will fail:
 
-```sql
+```plain-text
 SELECT *
 FROM language
 UNION
@@ -37,7 +37,7 @@ FROM language_name;
 
 As well as the next one:
 
-```sql
+```plain-text
 SELECT id, name
 FROM language
 UNION
@@ -50,7 +50,7 @@ from language_name;
 
 Changing `language_id` to `name` fixes the errors:
 
-```sql
+```plain-text
 SELECT id, name
 FROM language
 UNION
@@ -73,7 +73,7 @@ With the output:
 
 By default, `UNION` returns only **distinct** values. If you need all occurrences of the items, use `UNION ALL`. In the above example, the tables won't contain any duplicates: if we were to change the last query to include the `ALL` keyword, the number of total rows will stay the same:
 
-```sql
+```plain-text
 SELECT id, name
 FROM language
 UNION ALL
@@ -113,13 +113,13 @@ FROM ???
 WHERE region_name.region_id = 2;
 ```
 
-* `FROM`
-* `UNION`
-* `name`
-* `region_name`
-* `ON`
-* `OUTER JOIN`
-* `*`
+- `FROM`
+- `UNION`
+- `name`
+- `region_name`
+- `ON`
+- `OUTER JOIN`
+- `*`
 
 
 ---
@@ -128,10 +128,10 @@ WHERE region_name.region_id = 2;
 
 ??? command retrieves all rows, *even duplicated*, of the union.
 
-* `UNION ALL`
-* `UNION`
-* `FULL JOIN`
-* `SELECT UNION`
+- `UNION ALL`
+- `UNION`
+- `FULL JOIN`
+- `SELECT UNION`
 
 
 ---
@@ -177,8 +177,7 @@ The result should look like this:
 
  ???
 
-* SELECT item_category.id, item_pocket.name AS pocket_name, item_category.name FROM item_category RIGHT JOIN item_pocket ON item_pocket.id = item_category.item_pocket_id UNION SELECT item_category.id, item_pocket.name AS pocket_name, item_category.name FROM item_category LEFT JOIN item_pocket ON item_pocket.id = item_category.item_pocket_id;
-* SELECT item_category.id, item_pocket.name AS pocket_name, item_category.name FROM item_category FULL JOIN item_pocket ON item_pocket.id = item_category.item_pocket_id UNION ALL SELECT item_category.id, item_pocket.name AS pocket_name, item_category.name FROM item_category RIGHT JOIN item_pocket ON item_pocket.id = item_category.item_pocket_id;
-* SELECT item_category.id, item_pocket.name AS pocket_name, item_category.name FROM item_category RIGHT JOIN item_pocket ON item_pocket.name = item_category.name UNION SELECT item_category.id, item_pocket.name AS pocket_name, item_category.name FROM item_category RIGHT JOIN item_pocket ON item_pocket.name = item_category.name;
-* SELECT item_category.id, item_pocket.name AS pocket_name, item_category.name FROM item_category RIGHT JOIN item_pocket ON item_pocket.id = item_category.item_pocket_id UNION SELECT item_category.id FROM item_category RIGHT JOIN item_pocket ON item_pocket.id = item_category.item_pocket_id;
- 
+- SELECT item_category.id, item_pocket.name AS pocket_name, item_category.name FROM item_category RIGHT JOIN item_pocket ON item_pocket.id = item_category.item_pocket_id UNION SELECT item_category.id, item_pocket.name AS pocket_name, item_category.name FROM item_category LEFT JOIN item_pocket ON item_pocket.id = item_category.item_pocket_id;
+- SELECT item_category.id, item_pocket.name AS pocket_name, item_category.name FROM item_category FULL JOIN item_pocket ON item_pocket.id = item_category.item_pocket_id UNION ALL SELECT item_category.id, item_pocket.name AS pocket_name, item_category.name FROM item_category RIGHT JOIN item_pocket ON item_pocket.id = item_category.item_pocket_id;
+- SELECT item_category.id, item_pocket.name AS pocket_name, item_category.name FROM item_category RIGHT JOIN item_pocket ON item_pocket.name = item_category.name UNION SELECT item_category.id, item_pocket.name AS pocket_name, item_category.name FROM item_category RIGHT JOIN item_pocket ON item_pocket.name = item_category.name;
+- SELECT item_category.id, item_pocket.name AS pocket_name, item_category.name FROM item_category RIGHT JOIN item_pocket ON item_pocket.id = item_category.item_pocket_id UNION SELECT item_category.id FROM item_category RIGHT JOIN item_pocket ON item_pocket.id = item_category.item_pocket_id;

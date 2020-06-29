@@ -15,7 +15,7 @@ links:
 
 Since `SVG` (Scalable Vector Graphics) scales well for all resolution types, it is useful for icons:
 
-```css
+```plain-text
 .logo {
   background: url("logo.svg");
 }
@@ -32,9 +32,9 @@ What does SVG stand for?
 
 ???
 
-* Scalable Vector Graphics
-* System Vector Graphics
-* Scalable Variable Graphics
+- Scalable Vector Graphics
+- System Vector Graphics
+- Scalable Variable Graphics
 
 
 ---
@@ -45,7 +45,6 @@ Why does `SVG` prove to be useful for icons?
 
 ???
 
-* It scales well for all resolution types.
-* As SVG stands for Small Vector Graphics.
-* As it's supported in all browsers from IE9.
- 
+- It scales well for all resolution types.
+- As SVG stands for Small Vector Graphics.
+- As it's supported in all browsers from IE9.

@@ -1,32 +1,20 @@
 ---
 author: SebaRaba
-
-levels:
-
-  - beginner
-
 type: normal
-
 category: must-know
-
-aspects:
-
-  - deep
-
-  - workout
-
 links:
-
-  - '[what-when-how.com](http://what-when-how.com/data-communications-and-networking/network-models-data-communications-and-networking/){website}'
-  - '[www.webopedia.com](http://www.webopedia.com/quick_ref/OSI_Layers.asp){website}'
-
+  - >-
+    [what-when-how.com](http://what-when-how.com/data-communications-and-networking/network-models-data-communications-and-networking/){website}
+  - >-
+    [www.webopedia.com](http://www.webopedia.com/quick_ref/OSI_Layers.asp){website}
 parent: types-of-networks
-
 ---
 
 # Network models
 
+
 ---
+
 ## Content
 
 In order to ease the *complexity* of network engineering, the **networking communication** concept was divided into multiple **layers**.
@@ -34,7 +22,6 @@ In order to ease the *complexity* of network engineering, the **networking commu
 In the *layered* architecture of a **Network Model**, one whole network *process* is divided into small different **tasks**.
 
 Each  *task* is assigned to a particular layer, dedicated to that task alone. Conclusively, every **layer** performs a specific function.
-
 
 ### OSI (Open System Interconnect) Model
 
@@ -56,18 +43,16 @@ The receiving computer reverses the process, extracting the data at each *layer*
 
 
 ---
+
 ## Practice
 
 Which of the following layers of the **OSI model** handles the routing of data?
 
 ???
 
-
-* Network
-* Transport
-* Application
-* Internet
-* Session
-* Presentation
-
-
+- Network
+- Transport
+- Application
+- Internet
+- Session
+- Presentation

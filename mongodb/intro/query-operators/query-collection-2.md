@@ -1,22 +1,14 @@
 ---
 author: Stefan-Stojanovic
-
-levels:
-  - basic
-
-aspects:
-  - deep
-  - workout
-
 type: normal
-
 category: how to
-
 ---
 
 # `$in` & `$or`
 
+
 ---
+
 ## Content
 
 Let's say we want to get all documents with their type equal to either `"Grass"` **or** `"Electric"`. We can do so by using the `$or` logical operator, or the `$in` comparison operator.
@@ -28,7 +20,7 @@ In our case, since we’re looking at different values for the same field (the `
 
 Using the `$or` operator:
 
-```javascript
+```plain-text
 db.pokemon.find({
   $or: [
     { type: "Electric" },
@@ -39,7 +31,7 @@ db.pokemon.find({
 
 Using the `$in` operator:
 
-```javascript
+```plain-text
 db.pokemon.find({
   type: {
     $in: ["Grass", "Electric"]
@@ -49,7 +41,7 @@ db.pokemon.find({
 
 Output is the same for both examples:
 
-```javascript
+```plain-text
 {
   "_id": ObjectId(
     "5d9d8c330b24990f19398214"
@@ -83,7 +75,9 @@ Output is the same for both examples:
 
 Next to the `$or` and `$in` operators, there are a number of different operators that will be discussed later on.
 
+
 ---
+
 ## Practice
 
 Find all the documents (pokémon) within the `pokemon` collection that have a `type` that's either `"Water"` or `"Fire"`.
@@ -96,21 +90,23 @@ db.pokemon.???({
 });
 ```
 
-* `find`
-* `$in`
-* `["Water", "Fire"]`
-* `[{ type: "Water" }, { type: "Fire" }]`
-* `search`
-* `$or`
+- `find`
+- `$in`
+- `["Water", "Fire"]`
+- `[{ type: "Water" }, { type: "Fire" }]`
+- `search`
+- `$or`
+
 
 ---
+
 ## Revision
 
 Find all the documents within the `pokemon` collection that have a `type` that's either `"Water"` or `"Fire"`.
 
 ???
 
-* `db.pokemon.find({ type: { $in: ["Water","Fire" ] } })`
-* `db.Pokemon.find({ type: [ "Water","Fire" ] })`
-* `db.pokemon.find({ $in: [ "Water","Fire" ] })`
-* `db.pokemon.find({ $or: { type: ["Water","Fire"] } })`
+- `db.pokemon.find({ type: { $in: ["Water","Fire" ] } })`
+- `db.Pokemon.find({ type: [ "Water","Fire" ] })`
+- `db.pokemon.find({ $in: [ "Water","Fire" ] })`
+- `db.pokemon.find({ $or: { type: ["Water","Fire"] } })`

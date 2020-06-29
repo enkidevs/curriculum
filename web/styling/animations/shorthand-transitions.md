@@ -21,7 +21,7 @@ Instead, try the shorthand property `transition` that supports all the different
 
 Using only this alone it is possible to set every transition value in order of `transition-property`, `transition-duration`, `transition-timing-function`, and lastly `transition-delay`.
 
-```css
+```plain-text
 .box {
   background: #2db34a;
   border-radius: 6px;
@@ -44,7 +44,7 @@ For setting many transitions at once, set every individual group of transition v
 
 Which of the following examples are using the CSS `transition` property with the transition values in the correct order? ???
 
-```css
+```plain-text
 // Option A
 transition: background .2s linear;
 
@@ -55,7 +55,6 @@ transition: .2s linear background;
 transition: linear background .2s;
 ```
 
-* Option A
-* Option B
-* Option C
- 
+- Option A
+- Option B
+- Option C

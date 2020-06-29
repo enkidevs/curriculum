@@ -26,4 +26,3 @@ The second item in the first list should be a sublist which also has 3 items ins
 The second item of the sublist should also be a sublist with 3 items inside.
 
 Example picture of the finished exercise is on codepen.
- 

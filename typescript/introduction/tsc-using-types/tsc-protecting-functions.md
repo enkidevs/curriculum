@@ -2,17 +2,17 @@
 author: nem035
 type: normal
 category: must-know
-aspects:
-  - introduction
-  - workout
 links:
-  - '[Play with functions and parameters](https://repl.it/@enkicontent/TypeScriptFunctionParameters){website}'
-
+  - >-
+    [Play with functions and
+    parameters](https://repl.it/@enkicontent/TypeScriptFunctionParameters){website}
 ---
 
 # Protecting Functions
 
+
 ---
+
 ## Content
 
 By default, all parameters in a function are considered required.
@@ -21,7 +21,7 @@ By default, all parameters in a function are considered required.
 
 To declare an optional parameter, we can use the `?` after the parameter name:
 
-```ts
+```plain-text
 function hello(
   name: string,
   emoji?: string // optional
@@ -39,7 +39,7 @@ The reason we get `"Enki undefined"` above is because we didn't pass anything as
 
 One way to protect against this is to manually give `emoji` some default value if it doesn't exist[2]:
 
-```ts
+```plain-text
 function hello(
   name: string,
   emoji?: string
@@ -60,7 +60,7 @@ hello("Enki");
 
 Since setting the default value is a common operation, TypeScript gives us a built-in way to do it:
 
-```ts
+```plain-text
 function hello(
   name: string,
   emoji: string = "💚"
@@ -77,12 +77,14 @@ hello("Enki");
 
 > 💡 When setting a default value we don't need to use the `?` because the parameter automatically becomes optional.
 
+
 ---
+
 ## Practice
 
 What will be logged for `A` and `B`?
 
-```ts
+```plain-text
 function enki1(username?: string) {
   console.log(username); // A
 }
@@ -102,19 +104,21 @@ enki2();
 A = ???
 B = ???
 
-* undefined
-* TS is fun: true
-* null
-* TS is fun: undefined
-* TS is fun: false
-* error
+- undefined
+- TS is fun: true
+- null
+- TS is fun: undefined
+- TS is fun: false
+- error
+
 
 ---
+
 ## Revision
 
 Will this code compile with type errors?
 
-```ts
+```plain-text
 function enki(age?: number = 5): string {
   return `Enki is ${age} years old`;
 }
@@ -124,16 +128,18 @@ enki()
 
 ???
 
-* Yes
-* No
+- Yes
+- No
+
 
 ---
+
 ## Footnotes
 
 [1: Undefined Value]
 Any value in TypeScript that isn't defined gets the value `undefined`.
 
-```ts
+```plain-text
 // variable without a value is undefined
 let variable;
 
@@ -152,7 +158,7 @@ This means that, when converted to a boolean, a value will become either `true` 
 
 The values that convert to `false` are:
 
-```ts
+```plain-text
 false
 0
 -0

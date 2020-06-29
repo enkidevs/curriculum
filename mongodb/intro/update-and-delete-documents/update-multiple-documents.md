@@ -1,34 +1,27 @@
 ---
 author: Stefan-Stojanovic
-
-levels:
-  - beginner
-
-aspects:
-  - introduction
-
 type: normal
-
 category: how to
-
 ---
 
 # Update multiple documents
 
+
 ---
+
 ## Content
 
 The  `updateMany()` method is used to update multiple documents. This method has the same 3 parameters as the `updateOne` method: `(filter, update, options)`.
 
 Let's say we have a `pokemon` collection with 2 pokémon of `type` `"Fire"`.
 
-```javascript
+```plain-text
 db.pokemon.find({ type: "Fire" })
 ```
 
 Output:
 
-```javascript
+```plain-text
 {
   "_id": 3,
   "name": "Charmander",
@@ -43,15 +36,16 @@ Output:
 
 If we wanted to change their `type` to `"Flame"`, we can do that like so:
 
-```javascript
+```plain-text
 db.pokemon.updateMany(
   { type: "Fire" },
   { $set: { type: "Flame" } }
 );
 ```
+
 Output:
 
-```javascript
+```plain-text
 {
   "acknowledged": true,
   "matchedCount": 2,
@@ -61,13 +55,13 @@ Output:
 
 Now, if we check the `pokemon` collection for pokémon that have `"type": "Flame"` we would get:
 
-```javascript
+```plain-text
 db.pokemon.find({ type: "Flame" })
 ```
 
 Output:
 
-```javascript
+```plain-text
 {
   "_id": 3,
   "name": "Charmander",
@@ -80,7 +74,9 @@ Output:
 }
 ```
 
+
 ---
+
 ## Practice
 
 How would you update all documents of `type: "Poison"` to be of `type: "Normal"`?
@@ -92,16 +88,18 @@ db.pokemon.???(
 );
 ```
 
-* `updateMany`
-* `type`
-* `$set`
-* `"Normal"`
-* `updateMultiple`
-* `$update`
-* `Normal`
-* `$update`
+- `updateMany`
+- `type`
+- `$set`
+- `"Normal"`
+- `updateMultiple`
+- `$update`
+- `Normal`
+- `$update`
+
 
 ---
+
 ## Revision
 
 Finish the code below to change the `type` of all "Mud" pokémon in the `pokemon` collection to be of `type` "Dirt".
@@ -113,11 +111,11 @@ db.pokemon.???(
 );
 ```
 
-* `updateMany`
-* `"Mud"`
-* `$set`
-* `"Dirt"`
-* `$arrange`
-* `updateCollection`
-* `mud`
-* `dirt`
+- `updateMany`
+- `"Mud"`
+- `$set`
+- `"Dirt"`
+- `$arrange`
+- `updateCollection`
+- `mud`
+- `dirt`

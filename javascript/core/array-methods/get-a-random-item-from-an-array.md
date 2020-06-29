@@ -1,30 +1,25 @@
 ---
 author: AlexYancey
-
 type: normal
-
 category: how to
-
-aspects:
-  - introduction
-  - workout
-
 ---
 
 # Get a Random Item From an Array
 
+
 ---
+
 ## Content
 
 Given the array:
 
-```js
+```plain-text
 let food = ["Sushi", "Pizza", "Tacos"];
 ```
 
 Select an item using `Math.random()` with a range of `food.length`[1].
 
-```js
+```plain-text
 let randIndex =
   Math.floor(Math.random() * food.length);
 ```
@@ -33,11 +28,13 @@ In this example, we use `Math.random()` to get a random number between `0` and `
 
 Now, print out the result.
 
-```js
+```plain-text
 console.log("Let's get " + food[randIndex]);
 ```
 
+
 ---
+
 ## Practice
 
 How would you select a fruit at random from the array `fruits`?
@@ -59,11 +56,13 @@ console.log(
 
 ```
 
-* `floor`
-* `ceil`
-* `wall`
+- `floor`
+- `ceil`
+- `wall`
+
 
 ---
+
 ## Revision
 
 How would you select a fruit at random from the array `fruits`?
@@ -80,12 +79,13 @@ console.log(
 );
 ```
 
+- `floor`
+- `ceil`
+- `wall`
 
-* `floor`
-* `ceil`
-* `wall`
- 
+
 ---
+
 ## Footnotes
 
 [1:Explanation]

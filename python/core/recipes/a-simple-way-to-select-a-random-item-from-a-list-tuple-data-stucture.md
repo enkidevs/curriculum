@@ -15,7 +15,7 @@ If you need to randomly select an item from a list:
 
 1) Naive approach 1:
 
-```python
+```plain-text
 import random
 items = ['here', 'to', 'one', 'strings']
 rand_item =
@@ -26,7 +26,7 @@ Use `randrange` (or `randint`) to generate a pseudo-random integer from the rang
 
 2) Naive approach 2:
 
-```python
+```plain-text
 rand_items =
 [items[random.randrange(len(items))]
               for item in range(4)]
@@ -36,13 +36,13 @@ Use `random.randrange` to generate indexes inside a list comprehension.
 
 3) Pythonic approach:
 
-```python
+```plain-text
 rand_item = random.choice(items)
 ```
 
 `random.sample` can also select n items:
 
-```python
+```plain-text
 rand_items = random.sample(items, n)
 ```
 
@@ -53,15 +53,17 @@ rand_items = random.sample(items, n)
 
 Complete the following code snippet to select a random item from a list/tuple data structure:
 
-    rand_item = ???.???(items)
+```plain-text
+rand_item = ???.???(items)
+```
 
-* `random`
-* `choice`
-* `rand`
-* `select`
-* `sample`
-* `choose`
-* `randomise`
+- `random`
+- `choice`
+- `rand`
+- `select`
+- `sample`
+- `choose`
+- `randomise`
 
 
 ---
@@ -70,13 +72,14 @@ Complete the following code snippet to select a random item from a list/tuple da
 
 Complete the following code snippet to select 2 random items from a list/tuple data structure:
 
-    rand_items = ???.???(items, 2)
+```plain-text
+rand_items = ???.???(items, 2)
+```
 
-* `random`
-* `sample`
-* `choice`
-* `rand`
-* `select`
-* `choose`
-* `randomise`
- 
+- `random`
+- `sample`
+- `choice`
+- `rand`
+- `select`
+- `choose`
+- `randomise`

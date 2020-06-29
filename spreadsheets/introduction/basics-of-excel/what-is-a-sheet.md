@@ -1,18 +1,14 @@
 ---
 author: Stefan-Stojanovic
-
-aspects:
-  - introduction
-
 type: normal
-
 category: must-know
-
 ---
 
 # Worksheets
 
+
 ---
+
 ## Content
 
 A *sheet (or a worksheet)* is a *single page of a workbook/spreadsheet/folder*.

@@ -21,4 +21,3 @@ links:
 ## Exercise
 
 Iterate without a `loop` in python.
- 

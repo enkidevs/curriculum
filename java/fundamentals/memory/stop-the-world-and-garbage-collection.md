@@ -28,7 +28,7 @@ When *GC* occurs every thread, except the ones used by it, will stop and will on
 
 You can enable *GC* logging before running an application:
 
-```java
+```plain-text
 java -XX:+PrintGCDetails MyApplication
 ```
 
@@ -38,7 +38,7 @@ A common *GC* algorithm is **Mark Sweep Compact** (MSC) that HotSpot tend to use
 
 You can enable *CMS* :
 
-```java
+```plain-text
 java -XX:+UseConcMarkSweepGC MyApplication
 ```
 
@@ -56,10 +56,10 @@ java -XX:+???
               Enki
 ```
 
-* `PrintGCDetails` 
-* `GCLog` 
-* `GCLogging` 
-* `PrintGarbageCollection`
+- `PrintGCDetails` 
+- `GCLog` 
+- `GCLogging` 
+- `PrintGarbageCollection`
 
 
 ---
@@ -70,8 +70,7 @@ What does **Stop-the-world** mean?
 
 ???
 
-* `program is stopped so GC can execute` 
-* `GC is stopped` 
-* `program terminates` 
-* `main thread is stopped`
- 
+- `program is stopped so GC can execute` 
+- `GC is stopped` 
+- `program terminates` 
+- `main thread is stopped`

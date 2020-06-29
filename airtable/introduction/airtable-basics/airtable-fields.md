@@ -1,18 +1,14 @@
 ---
 author: kapnobatai136
-
 category: must-know
-
-aspects:
-  - introduction
-
 type: normal
-
 ---
 
 # Fields
 
+
 ---
+
 ## Content
 
 A field in Airtable represents a column. In this example, `Name`, `Notes` and `Attachments` are all fields:
@@ -29,13 +25,15 @@ When renaming a field, you'll also be asked for its type. For this example, choo
 
 A field type restricts the data that you can insert, and because we chose `Number` we can only insert numbers in our fields. Airtable gives you a heads up that changing the field type will erase previous data that does not fit, which happened in the example above.
 
+
 ---
+
 ## Practice
 
 When changing the type of a field, what happens to the data that doesn't fit the new type?
 
 ???
 
-* It's deleted.
-* It's updated to the new type.
-* You get an error.
+- It's deleted.
+- It's updated to the new type.
+- You get an error.

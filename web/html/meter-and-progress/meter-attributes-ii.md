@@ -1,24 +1,15 @@
 ---
 author: Stefan-Stojanovic
-
-levels:
-  - beginner
-  - basic
-
 type: normal
-
 category: must-know
-
-aspects:
-  - deep
-  - workout
-  
-links:
-
+links: null
 ---
+
 # More `<meter>` Attributes
 
+
 ---
+
 ## Content
 
 We've previously discussed the `value`, `low` and `high` attributes for the `<meter>` element. Let's now take a look at the rest.
@@ -33,7 +24,9 @@ We've previously discussed the `value`, `low` and `high` attributes for the `<me
 
 **Note: Each attribute value(from the 7 attributes previously mentioned) has to be a valid floating point number.**
 
+
 ---
+
 ## Practice
 
 Match the answers with the corresponding text:
@@ -46,40 +39,48 @@ High value range: ???
 Most preferable value: ???
 Current value: ???
 
-* `form`
-* `max`
-* `min`
-* `low`
-* `high`
-* `optimum`
-* `value`
-* `maximum`
-* `minimum`
-* `current`
-* `lowest`
-* `highest`
-* `pref`
-* `best`
+- `form`
+- `max`
+- `min`
+- `low`
+- `high`
+- `optimum`
+- `value`
+- `maximum`
+- `minimum`
+- `current`
+- `lowest`
+- `highest`
+- `pref`
+- `best`
 
 
 ---
+
 ## Revision
 
 Which of these is not a valid `<meter>` element attribute?
 
 ???
 
-* `medium`
-* `high`
-* `low`
-* `min`
-* `max`
-* `form`
+- `medium`
+- `high`
+- `low`
+- `min`
+- `max`
+- `form`
+
 
 ---
+
 ## Quiz
 
-### How much do you know about the `<meter>` element?
+### How much do you know about the 
+
+`<meter>`
+
+ element?
+
 
 If you need to display the value as a percentage, what would you use?
 
@@ -92,7 +93,7 @@ If you need to display the value as a percentage, what would you use?
 </meter>
 ```
 
-* 0.5, 0, 1
-* 50%, 0, 100
-* 0.5, 0, 100
-* 50%, 0, 1
+- 0.5, 0, 1
+- 50%, 0, 100
+- 0.5, 0, 100
+- 50%, 0, 1

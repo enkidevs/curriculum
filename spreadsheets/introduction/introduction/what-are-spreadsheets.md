@@ -32,6 +32,5 @@ A note on how this course is structured. In the first two workouts, we'll go ove
 
 Spreadsheets can be used to ???, analyze or perform calculations with data.
 
-* record
-* upload
- 
+- record
+- upload

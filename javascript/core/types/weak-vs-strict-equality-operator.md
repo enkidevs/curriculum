@@ -23,7 +23,7 @@ JavaScript supports two forms of equality.
 
 The operator `==` coerces (converts) types before comparing the terms:
 
-```js
+```plain-text
 0 == "" // true
 5 == "5" // true
 false == "0" // true
@@ -38,7 +38,7 @@ Using `==` is generally considered bad practice as it often leads to difficult-t
 
 The strict equality operator `===` works as `==`, but without type coercion:
 
-```js
+```plain-text
 0 === "" // false
 5 === "5" // false
 false === "0" // false
@@ -67,11 +67,11 @@ Fill in the gaps with the correct equality operator to get the output:
 // true
 ```
 
-* Weak Equality Operator
-* Strict Equality Operator
-* ==
-* ===
-* Reference Equality Operator
+- Weak Equality Operator
+- Strict Equality Operator
+- ==
+- ===
+- Reference Equality Operator
 
 
 ---
@@ -87,8 +87,8 @@ console.log("" == " ");
 // ???
 ```
 
-* true
-* false
+- true
+- false
 
 
 ---
@@ -101,8 +101,7 @@ console.log("" == " ");
 // What will this evaluate to?
 "\t\r\n\ " == 0
 
-* true
-* false
-* SyntaxError
-* String
- 
+- true
+- false
+- SyntaxError
+- String

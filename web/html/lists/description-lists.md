@@ -21,7 +21,7 @@ The HTML `<dl>`, or the **Description List** element is used to represent a desc
 
 Simple example:
 
-```html
+```plain-text
 <dl>
   <dt>Enki</dt>
   <dd>
@@ -45,7 +45,7 @@ Next to having one term and one description, you can have multiple terms as well
 
 The same example with 1 term added:
 
-```html
+```plain-text
 <dl>
   <dt>Enki Pro</dt>
   <dt>Enki</dt>
@@ -68,7 +68,7 @@ Result:
 
 Again same example, except this time we added another term and a description of that term:
 
-```html
+```plain-text
 <dl>
   <dt>Enki</dt>
   <dt>EnkiApp</dt>
@@ -101,7 +101,7 @@ As you can see in the examples above, you can add as many terms and descriptions
 
 Furthermore, adding description lists can be useful for displaying data that follows the key-value pair organization. Like all the other examples here, this is mainly useful for both search engines to understand the organization of the data as well as for CSS styling purposes.
 
-```html
+```plain-text
 <dl>
   <div>
     <dt>Name:</dt>
@@ -131,7 +131,7 @@ Result:
 
 Complete the HTML code to create a descriptive list.
 
-```html
+```plain-text
 <A>
   <B>HTML</B>
   <C>Content of web page</C>
@@ -144,14 +144,14 @@ A: ???
 B: ???
 C: ???
 
-* `dl`
-* `dt`
-* `dd`
-* `ul`
-* `li`
-* `di`
-* `ld`
-* `td`
+- `dl`
+- `dt`
+- `dd`
+- `ul`
+- `li`
+- `di`
+- `ld`
+- `td`
 
 
 ---
@@ -161,7 +161,7 @@ C: ???
 Which HTML elements are used to describe a term or name in a description list?
 Option A, B, C or D?
 
-```html
+```plain-text
 <!--A-->
 <dl>
   <dt>HTML</dt>
@@ -189,10 +189,10 @@ Option A, B, C or D?
 
 ???
 
-* A
-* B
-* C
-* D
+- A
+- B
+- C
+- D
 
 
 ---
@@ -206,8 +206,7 @@ Which of these HTML list elements is best to use to create a glossary?
 
 ???
 
-* description lists
-* ordered lists
-* unordered lists
-* list items
- 
+- description lists
+- ordered lists
+- unordered lists
+- list items

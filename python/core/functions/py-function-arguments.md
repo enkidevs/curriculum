@@ -17,15 +17,15 @@ links:
 
 Functions can be called using any of the following types of arguments (also called parameters):
 
-* Required arguments
-* Keyword arguments
-* Default arguments
+- Required arguments
+- Keyword arguments
+- Default arguments
 
 *Required arguments* take into account the *positional order* in which the parameters were defined. The *number of arguments* is also significant. If these two restrictions are violated, then the function throws a *syntax error*.
 
 Consider the following example:
 
-```python
+```plain-text
 def print_info(name, age, gender):
   print ('Name: ', name)
   print ('Age: ', age)
@@ -59,7 +59,7 @@ If we were to use *keyword arguments* we could place them in a different order f
 
 Consider the following example:
 
-```python
+```plain-text
 def print_info(name, age, gender):
   print ('Name: ', name)
   print ('Age: ', age)
@@ -83,7 +83,7 @@ Gender:  male
 
 Consider the following example:
 
-```python
+```plain-text
 def print_info(name, gender, age = 20):
   print ('Name: ', name)
   print ('Age: ', age)
@@ -104,7 +104,7 @@ Gender:  male
 
 If we defined our function like this:
 
-```python
+```plain-text
 def print_info(name, age = 20, gender):
 ```
 
@@ -124,7 +124,7 @@ follows default argument
 
 Will the following snippet throw any errors?
 
-```python
+```plain-text
 def foo(name, salary = 1500, department):
   print('Name: ',  name)
   print('Salary: ', salary)
@@ -138,9 +138,9 @@ foo(name, department)
 
 ???
 
-* Yes, it will.
-* No, it won't.
-* Yes, but only for some input.
+- Yes, it will.
+- No, it won't.
+- Yes, but only for some input.
 
 
 ---
@@ -158,7 +158,6 @@ def foo(product, ???, ???):
 foo('Baseball bat', ???)
 ```
 
-* quantity
-* price='$1.00'
-* 150
- 
+- quantity
+- price='$1.00'
+- 150

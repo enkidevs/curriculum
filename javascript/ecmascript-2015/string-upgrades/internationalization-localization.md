@@ -1,29 +1,25 @@
 ---
 author: nene
-
 type: normal
-
 category: tip
-
-aspects:
-  - new
-  - workout
-  - deep
-
 links:
-  - '[Official Documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Collator){documentation}'
-
+  - >-
+    [Official
+    Documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Collator){documentation}
 ---
+
 # Internationalization & Localization
 
+
 ---
+
 ## Content
 
 `Collator` is an object that provides locale-specific string comparisons. It's aware of Unicode.
 
 To sort through a list of letters in two different languages:
 
-```javascript
+```plain-text
 let list = [ "ä", "a", "z" ];
 let i10nDE = new Intl.Collator("de");
 let i10nSV = new Intl.Collator("sv");
@@ -31,7 +27,7 @@ let i10nSV = new Intl.Collator("sv");
 
 In German, `ä` sorts with `a`. In Swedish, `ä` sorts after `z`.
 
-```javascript
+```plain-text
 i10nDE.compare("ä", "z") === -1;
 i10nSV.compare("ä", "z") === +1;
 
@@ -42,7 +38,9 @@ console.log(list.sort(i10nSV.compare));
 // [ "a", "z", "ä" ]
 ```
 
+
 ---
+
 ## Practice
 
 Create a `Collator` based on *German* language:
@@ -51,15 +49,17 @@ Create a `Collator` based on *German* language:
 let i10nDE = new ???.???("de");
 ```
 
-* Intl
-* Collator
-* Language
-* International
-* Languages
-* String
-* Compare
+- Intl
+- Collator
+- Language
+- International
+- Languages
+- String
+- Compare
+
 
 ---
+
 ## Revision
 
 Which method can you use to compare the ordering of two characters in a specific language, using the `Collator` class?
@@ -73,10 +73,10 @@ console.log(
 // + 1
 ```
 
-* Collator
-* compare
-* check
-* sort
-* sign
-* after
-* before
+- Collator
+- compare
+- check
+- sort
+- sign
+- after
+- before

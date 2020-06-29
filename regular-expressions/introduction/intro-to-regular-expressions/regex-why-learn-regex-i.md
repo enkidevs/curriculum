@@ -1,24 +1,20 @@
 ---
 author: emmab
-
 tags:
   - introduction
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-
 links:
-  - '[Regex in Google Sheets](https://www.distilled.net/how-to-use-regex-in-google-sheets/){website}'
-
+  - >-
+    [Regex in Google
+    Sheets](https://www.distilled.net/how-to-use-regex-in-google-sheets/){website}
 ---
 
 # Why Learn Regex?
 
+
 ---
+
 ## Content
 
 Regex is for *everyone*. 
@@ -41,21 +37,24 @@ We'll share a few of our favorite online tools with you soon!
 
 
 ---
+
 ## Practice
 
 A regex can be used to check if some text contains a valid email address.
 
 ???
 
-* True
-* False
+- True
+- False
+
 
 ---
+
 ## Revision
 
 A regex can be used to find all phone numbers within an article.
 
 ???
 
-* True
-* False
+- True
+- False

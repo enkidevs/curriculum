@@ -1,18 +1,14 @@
 ---
 author: Stefan-Stojanovic
-
-aspects:
-  - introduction
-
 type: normal
-
 category: how to
-
 ---
 
 # Formating & Editing Shortcuts II
 
+
 ---
+
 ## Content
 
 `Ctrl + Shift + E` - `⌘ + Shift + E`

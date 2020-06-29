@@ -1,18 +1,14 @@
 ---
 author: kapnobatai136
-
 category: must-know
-
-aspects:
-  - introduction
-
 type: normal
-
 ---
 
 # Templates Again?
 
+
 ---
+
 ## Content
 
 In a previous mission, you have worked with templates and even created a project starting from a template (the `'Portfolio Starter'` template). 

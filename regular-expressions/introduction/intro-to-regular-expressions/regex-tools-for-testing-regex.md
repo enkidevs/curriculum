@@ -1,26 +1,20 @@
 ---
 author: emmab
-
 tags:
   - introduction
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-
 links:
   - '[Regex101](https://regex101.com/){website}'
   - '[Regexr](https://regexr.com/){website}'
   - '[Debuggex](https://www.debuggex.com/){website}'
-
 ---
 
 # How to test your Regular Expressions
 
+
 ---
+
 ## Content
 
 The best way to understand how regex works is by *playing around with your own tests.*
@@ -39,22 +33,26 @@ This site also has useful highlighting to easily spot matching patterns, but the
 
 This is the best site for any mathematicians as it digs a little deeper into the nitty-gritty side of how regexes work by providing you with a graphical model 📈.
 
+
 ---
+
 ## Practice
 
 Once you've learnt some regex syntax it's recommended to test out your Regex patterns by using ???.
 
-* third-party tools
-* your imagination
-* the shell
-* pen and paper
+- third-party tools
+- your imagination
+- the shell
+- pen and paper
+
 
 ---
+
 ## Revision
 
 Once you've learnt some regex syntax it's recommended to test out your Regex patterns by using ???.
 
-* customized online tools
-* your colleagues
-* google
-* your text editor
+- customized online tools
+- your colleagues
+- google
+- your text editor

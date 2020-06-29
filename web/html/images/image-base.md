@@ -21,7 +21,7 @@ The `<base>` element cannot be empty, it must contain either the `target` attrib
 
 All links in the web page or document are set to open in the same tab:
 
-```html
+```plain-text
 <head>
    <base
       target="_self">
@@ -30,7 +30,7 @@ All links in the web page or document are set to open in the same tab:
 
 All links in the web page or document will lead to the `https://www.enki.com` link:
 
-```html
+```plain-text
 <head>
    <base
     href="https://www.enki.com">
@@ -39,7 +39,7 @@ All links in the web page or document will lead to the `https://www.enki.com` li
 
 All links in the web page or document will lead to the `https://www.enki.com` link, and open in a new tab:
 
-```html
+```plain-text
 <head>
    <base href="https://www.enki.com"
       target="_blank">
@@ -61,14 +61,14 @@ Assign the link path for every image on the webpage:
 <???>
 ```
 
-* `head`
-* `base`
-* `href="http://www.enkipro.com/images/"`
-* `/head`
-* `img`
-* `src`
-* `nav`
-* `/nav`
+- `head`
+- `base`
+- `href="http://www.enkipro.com/images/"`
+- `/head`
+- `img`
+- `src`
+- `nav`
+- `/nav`
 
 
 ---
@@ -91,14 +91,14 @@ Complete the code if a `<base>` URL is assigned and an image is used within an O
 
 ???
 
-* `base`
-* `http://enkipro.com/`
-* `image`
-* `link`
-* `target`
-* `[no path is needed]`
-* `enkipro.com/`
-* `path`
+- `base`
+- `http://enkipro.com/`
+- `image`
+- `link`
+- `target`
+- `[no path is needed]`
+- `enkipro.com/`
+- `path`
 
 
 ---
@@ -110,8 +110,7 @@ Complete the code if a `<base>` URL is assigned and an image is used within an O
 
 ???
 
-* `<base target="_blank">`
-* `<link target="_blank">`
-* `<a target="_blank">`
-* `<* target="_blank">`
- 
+- `<base target="_blank">`
+- `<link target="_blank">`
+- `<a target="_blank">`
+- `<* target="_blank">`

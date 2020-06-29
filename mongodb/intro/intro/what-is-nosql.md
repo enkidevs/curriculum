@@ -24,11 +24,11 @@ There are 4 main types of NoSQL databases, named after the data structures they 
 
 The notable aspects that most NoSQL databases share are:
 
-* **Schema-less**: Most NoSQL databases allow us to store unstructured data.
+- **Schema-less**: Most NoSQL databases allow us to store unstructured data.
 
-* **Eventually consistent**: NoSQL databases are often designed to optimize for speed and availability of data, rather than its accuracy. Changes are "eventually" propagated throughout the system (fast but not instant) meaning that queries for data might return stale information for a short period of time.
+- **Eventually consistent**: NoSQL databases are often designed to optimize for speed and availability of data, rather than its accuracy. Changes are "eventually" propagated throughout the system (fast but not instant) meaning that queries for data might return stale information for a short period of time.
 
-* **Not `ACID`**: Most NoSQL stores lack true ACID transactions[1], although a few databases have made them central to their designs. In computer science, `ACID` stands for a set of properties (Atomicity, Consistency, Isolation, Durability) intended to guarantee validity even in the event of errors, power failures, etc.
+- **Not `ACID`**: Most NoSQL stores lack true ACID transactions[1], although a few databases have made them central to their designs. In computer science, `ACID` stands for a set of properties (Atomicity, Consistency, Isolation, Durability) intended to guarantee validity even in the event of errors, power failures, etc.
 
 NoSQL databases increase the amount of potential data storage options a business can use, allowing companies to use more-specialized technologies for certain kinds of data. This idea is commonly known as *polyglot persistence*.
 
@@ -41,8 +41,8 @@ When querying any NoSQL database, we are always guaranteed to get accurate and u
 
 ???
 
-* False
-* True
+- False
+- True
 
 
 ---
@@ -53,8 +53,8 @@ In a typical NoSQL database, the structure (shape) of the data that can be store
 
 ???
 
-* True
-* False
+- True
+- False
 
 
 ---
@@ -64,8 +64,7 @@ In a typical NoSQL database, the structure (shape) of the data that can be store
 [1:ACID transaction]
 An `ACID` transaction should be *atomic*, *consistent*, *isolated*, *durable*:
 
-* Atomic: although composed of multiple smaller tasks, a transaction succeeds or fails as a single "unit".
-* Consistent: a transaction can only bring the database from one valid state to another, based on the database rules
-* Isolation: execution of each transaction should be isolated. The effects of an incomplete transaction should not even be visible to other transactions.
-* Durable: once a transaction has reached a final state, it will remain committed even in the case of a system failure.
- 
+- Atomic: although composed of multiple smaller tasks, a transaction succeeds or fails as a single "unit".
+- Consistent: a transaction can only bring the database from one valid state to another, based on the database rules
+- Isolation: execution of each transaction should be isolated. The effects of an incomplete transaction should not even be visible to other transactions.
+- Durable: once a transaction has reached a final state, it will remain committed even in the case of a system failure.

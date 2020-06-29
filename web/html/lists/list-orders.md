@@ -22,11 +22,11 @@ links:
 
 When creating lists in HTML, you can specify the numbering type of your list by adding these attributes to your list:
 
-* Uppercase letters: `type="A"`
-* Lowercase letters: `type="a"`
-* Uppercase Roman numbers: `type="I"`
-* Lowercase Roman numbers: `type="i"`
-* Begin numbering from a number: `start="50"`
+- Uppercase letters: `type="A"`
+- Lowercase letters: `type="a"`
+- Uppercase Roman numbers: `type="I"`
+- Lowercase Roman numbers: `type="i"`
+- Begin numbering from a number: `start="50"`
 
 **Start**
 
@@ -38,7 +38,7 @@ Next, you can use the optional `start="value"` attribute to specify from which n
 
 Example:
 
-```html
+```plain-text
 <p>After completing sections 1-9, do:</p>
 <ol start="10">
   <li>Buy Cake</li>
@@ -59,7 +59,7 @@ The `reversed` attribute is of type boolean and is used to specify that the item
 
 Example:
 
-```html
+```plain-text
 <ol start="5" reversed>
   <li>Item A</li>
   <li>Item B</li>
@@ -75,7 +75,7 @@ Result:
 
 Furthermore, you can modify the numbering of each individual list item by adding the `value` attribute. This is a tricky example where there are three items in this list, which is then reversed - which should order them as iii, ii, and i. But then on the second list item, the value was changed to 5(or v in this case), which then makes the third item of the list `4(iv)` counting down from the number above it. This may seem tricky, but hopefully it demostrates the control you have over the content.
 
-```html
+```plain-text
 <ol type="i" reversed>
   <li>Coffee</li>
   <li value="5">Tea</li>
@@ -96,7 +96,7 @@ Result:
 
 Complete the HTML code to create a numbered list that starts at 10.
 
-```html
+```plain-text
 <p>After the other 9 steps, do this:</p>
 
 <A B>
@@ -117,19 +117,19 @@ List items will be numbered with lowercase letters: ???
 List items will be numbered with uppercase roman numbers: ???
 List items will start numbering from 50: ???
 
-* `ol`
-* `start="10"`
-* `li`
-* type="A"
-* type="a"
-* type="I"
-* start="50"
-* `ul`
-* `begin="10"`
-* type="uppercase"
-* type="lowercase"
-* type="romanupper"
-* begin="50"
+- `ol`
+- `start="10"`
+- `li`
+- type="A"
+- type="a"
+- type="I"
+- start="50"
+- `ul`
+- `begin="10"`
+- type="uppercase"
+- type="lowercase"
+- type="romanupper"
+- begin="50"
 
 
 ---
@@ -138,7 +138,7 @@ List items will start numbering from 50: ???
 
 What does this code create? Choose the appropriate option.
 
-```html
+```plain-text
 <ol start="5" reversed>
   <li>Item A</li>
   <li>Item B</li>
@@ -150,7 +150,7 @@ What does this code create? Choose the appropriate option.
 
 Option 1
 
-```html
+```plain-text
 5. Item A
 4. Item B
 3. Item C
@@ -158,7 +158,7 @@ Option 1
 
 Option 2
 
-```html
+```plain-text
 5. Item C
 6. Item B
 7. Item A
@@ -166,7 +166,7 @@ Option 2
 
 Option 3
 
-```html
+```plain-text
 3. Item A
 4. Item B
 5. Item C
@@ -174,16 +174,16 @@ Option 3
 
 Option 4
 
-```html
+```plain-text
 3. Item C
 4. Item B
 5. Item A
 ```
 
-* Option 1
-* Option 2
-* Option 3
-* Option 4
+- Option 1
+- Option 2
+- Option 3
+- Option 4
 
 
 ---
@@ -195,7 +195,7 @@ Option 4
 
 Choose the appropriate option:
 
-```html
+```plain-text
 <ol type="i" reversed>
   <li>Coffee</li>
   <li value="5">Tea</li>
@@ -205,7 +205,7 @@ Choose the appropriate option:
 
 A)
 
-```html
+```plain-text
 iii. Milk
 v. Tea
 iv. Coffee
@@ -213,7 +213,7 @@ iv. Coffee
 
 B)
 
-```html
+```plain-text
 iii. Coffee
 v. Tea
 iv. Milk
@@ -221,7 +221,7 @@ iv. Milk
 
 C)
 
-```html
+```plain-text
 3. Coffee
 5. Tea
 4. Milk
@@ -229,7 +229,7 @@ C)
 
 D)
 
-```html
+```plain-text
 3. Coffee
 2. 5
 1. Milk
@@ -237,8 +237,7 @@ D)
 
 ???
 
-* Option B
-* Option A
-* Option C
-* Option D
- 
+- Option B
+- Option A
+- Option C
+- Option D

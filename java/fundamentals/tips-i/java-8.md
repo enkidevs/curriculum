@@ -1,35 +1,26 @@
 ---
 author: catalin
-
-levels:
-
-  - basic
-
-  - advanced
-
-  - medium
-
-  - beginner
-
 type: tetris
-
 category: tip
-
-
 ---
 
 # Java 8?
 
+
 ---
+
 ## Content
 
 With the introduction of Java 8, numerous classes and interfaces have been added to the languages so as to help users program easier and in a more efficient fashion.
 
+
 ---
+
 ## Game Content
 
 not java 8: java 8
-```false
+
+```plain-text
 NavigableMap
 %exp
 In **Java**, `NavigableMap` is an *interface* which enables 'Map' data structures to make use of methods that return the closest matches for given search targets. It was introduced in *Java 6*.
@@ -99,7 +90,7 @@ A **thread-safe** variant of **ArrayList** in which all mutative operations (add
 
 ```
 
-```true
+```plain-text
 StampedLock
 %exp
 A **capability-based** lock with three modes for controlling **read/write** access. It was introduced with **Java 8**.

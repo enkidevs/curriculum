@@ -27,7 +27,7 @@ In this example there are two animations.
 
 If the first one takes 1 second to complete, a chain can be created by using the aforementioned property on the second animation :
 
-```css
+```plain-text
 @keyframes first {
 	from { left: 0; }
 	to { left: 100px; }
@@ -55,10 +55,10 @@ What property is used to chain animations?
 
 ???
 
-* animation-delay
-* animation-chained
-* delay
-* animation-chain
+- animation-delay
+- animation-chained
+- delay
+- animation-chain
 
 
 ---
@@ -69,8 +69,7 @@ Which CSS property can be used to chain animations together?
 
 ???
 
-* `animation-delay`
-* `animation-chain`
-* `animation-hold`
-* `animation-pause`
- 
+- `animation-delay`
+- `animation-chain`
+- `animation-hold`
+- `animation-pause`

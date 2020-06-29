@@ -22,7 +22,7 @@ Since HTML5, the `<audio>` tag is used to embed audio on a web page or document.
 
 Like so:
 
-```html
+```plain-text
 <audio src="audio.mp3" controls>
   <p>
     You're seeing this because
@@ -44,7 +44,7 @@ You can also add more songs via the `<source>` element.
 
 Example 1:
 
-```html
+```plain-text
 <audio controls>
   <source src="one_song.mp3"
     type="audio/mpeg">
@@ -56,7 +56,7 @@ Example 1:
 
 Example 2:
 
-```html
+```plain-text
 <audio controls>
   <source src="some_song.mp3"
     type="audio/mpeg">
@@ -94,13 +94,13 @@ Add an audio player with controls for a single song:
 <???>
 ```
 
-* `audio`
-* `src`
-* `"/happy.mp3"`
-* `controls`
-* `/audio`
-* `href`
-* `alt`
+- `audio`
+- `src`
+- `"/happy.mp3"`
+- `controls`
+- `/audio`
+- `href`
+- `alt`
 
 
 ---
@@ -111,11 +111,11 @@ Which HTML element is used to insert an audio file into the document?
 
 ???
 
-* `<audio>`
-* `<mp3>`
-* `<sound>`
-* `<music>`
-* `<itunes>`
+- `<audio>`
+- `<mp3>`
+- `<sound>`
+- `<music>`
+- `<itunes>`
 
 
 ---
@@ -127,8 +127,7 @@ Which HTML element is used to insert an audio file into the document?
 
 When you want to provide fallback content for user's that do not have browsers that support HTML5 audio, what do you need to do?
 
-* Add any content between the start and end `<audio>` tags.
-* CSS can be used to notify the user.
-* Any browser, regardless of the version, can play HTML5 audio.
-* Use the attribute "fallback" to provide the appropriate message.
- 
+- Add any content between the start and end `<audio>` tags.
+- CSS can be used to notify the user.
+- Any browser, regardless of the version, can play HTML5 audio.
+- Use the attribute "fallback" to provide the appropriate message.

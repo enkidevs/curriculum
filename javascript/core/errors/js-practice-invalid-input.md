@@ -20,4 +20,3 @@ links:
 ## Exercise
 
 Practice Error Handling on Code Wars
- 

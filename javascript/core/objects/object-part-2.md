@@ -15,7 +15,7 @@ Object's properties can also be functions.
 
 For example, we might add a function to our person object to print out a greeting message to the console:
 
-```javascript
+```plain-text
 let per = {
   firstName: "alex",
   lastName: "smith",
@@ -28,7 +28,7 @@ let per = {
 
 You can then invoke the function with:
 
-```javascript
+```plain-text
 per.sayHi();
 // hello
 ```
@@ -39,7 +39,7 @@ It is common to use functions to create new objects.
 
 This allows you to encapsulate object creation similar to a class constructor:
 
-```javascript
+```plain-text
 function Person(firstName, lastName) {
   this.firstName = firstName;
   this.lastName = lastName;
@@ -60,9 +60,9 @@ You can invoke an object's method by writing:
 
 ???
 
-* obj.methodName();
-* obj.methodName;
-* methodName(obj);
+- obj.methodName();
+- obj.methodName;
+- methodName(obj);
 
 
 ---
@@ -88,15 +88,14 @@ flash.superpowers.greet();
 // Hi, I'm Flash
 ```
 
-* Superhero
-* name
-* superpowers
-* greet
-* hello
-* console
-* log
-* Flash
-* new
-* superhero
-* powers
- 
+- Superhero
+- name
+- superpowers
+- greet
+- hello
+- console
+- log
+- Flash
+- new
+- superhero
+- powers

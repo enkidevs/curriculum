@@ -30,9 +30,9 @@ What is a hard fork?
 
 ???
 
-* Ignoring a state/block in the future
-* Modifying states that are considered to be immutable
-* Redistributing the balance of one account to others
+- Ignoring a state/block in the future
+- Modifying states that are considered to be immutable
+- Redistributing the balance of one account to others
 
 
 ---
@@ -47,9 +47,8 @@ What is one case in which the ledger can be modified?
 
 ???
 
-* False
-* The network initiates a hard-fork
-* True
-* The network initiates a soft-fork
-* There is no such case
- 
+- False
+- The network initiates a hard-fork
+- True
+- The network initiates a soft-fork
+- There is no such case

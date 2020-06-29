@@ -1,27 +1,22 @@
 ---
 author: mihaiberq
-
-levels:
-
-  - beginner
-
 type: normal
-
 category: must-know
-
 inAlgoPool: false
-
 ---
 
 # What Is an Object?
 
+
 ---
+
 ## Content
 
 An **object** is the representation of a blueprint. Basically, an *object* is created from a *class*. In Java, the `new` keyword is used to create an object. 
 
 This is how the `Car` constructor looks like:
-```java
+
+```plain-text
 public Car(String newModel, String
      newNoPlate, String newColor,
                   int newNoDoors) {
@@ -31,51 +26,59 @@ public Car(String newModel, String
      noDoors = newNoDoors;
 }
 ```
+
 And this is how you create a `Car` object:
-```java
+
+```plain-text
 Car myCar = new Car("AwsomeCar",
             "RA-325F1", "red", 2);
 ```
 
 There are three steps for creating a new object:
- - `Declaration`: a variable declaration with a type and a name.
- - `Instantiation`: the `new` keyword is used.
- - `Initialization`: constructor method is called.
+
+- `Declaration`: a variable declaration with a type and a name.
+- `Instantiation`: the `new` keyword is used.
+- `Initialization`: constructor method is called.
 
 To start a `Car`, you have to call the `start()` method. To start the `myCar` object, the method must be called on it:
-```java
+
+```plain-text
 myCar.start();
 ```
+
 This ensures only `myCar` starts, and not the other `Car` object that exists in the program.
 
 In case we want to check what model `myCar` is, we can access its fields like this:
-```java
+
+```plain-text
 System.out.println(myCar.model);
 
 // AwsomeCar
 ```
 
+
 ---
+
 ## Practice
 
 What is the keyword used when instantiating objects?
 
 ???
 
+- `new`
+- `build`
+- `new*`
+- `static`
 
-* `new`
-* `build`
-* `new*`
-* `static`
 
 ---
+
 ## Revision
 
 The `initalization` part of creating an object refers to
 
 ???
 
-
-* the constructor method being called
-* the `new` keyword being used
-* the variable being declared
+- the constructor method being called
+- the `new` keyword being used
+- the variable being declared

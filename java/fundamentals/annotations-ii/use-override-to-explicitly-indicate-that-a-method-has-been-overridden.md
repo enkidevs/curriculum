@@ -1,33 +1,20 @@
 ---
 author: adamMontgomerie
-
-levels:
-
-  - basic
-
-  - advanced
-
-  - medium
-
 type: normal
-
 category: tip
-
 tags:
-
   - inheritance
-
   - overriding-methods
-
 links:
-
-  - '[www.javapractices.com](http://www.javapractices.com/topic/TopicAction.do?Id=223){website}'
-
+  - >-
+    [www.javapractices.com](http://www.javapractices.com/topic/TopicAction.do?Id=223){website}
 ---
 
 # Use `@Override` to explicitly indicate that a method has been overridden
 
+
 ---
+
 ## Content
 
 It is possible to override methods in Java without explicitly declaring it, however it is good practice to indicate that this is a method redefinition by using `@Override`.

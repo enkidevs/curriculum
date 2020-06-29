@@ -27,9 +27,9 @@ Keeping this in mind, one can *revert*, *compare* and even *switch* between the 
 
 Other benefits of using a **VCS** include:
 
-* a complete history of file changes, which simplifies tracking and fixing bugs
-* a backup is always immediately available
-* team members are able to work concurrently, thus minimizing the risk of conflicts between their work
+- a complete history of file changes, which simplifies tracking and fixing bugs
+- a backup is always immediately available
+- team members are able to work concurrently, thus minimizing the risk of conflicts between their work
 
 There are three main distinguishable types of **VCS** software:
 
@@ -46,9 +46,9 @@ What *type* of VCS **only** makes use of a local database to keep changes of fil
 
 ???
 
-* Local Version Control
-* Centralised Version Control
-* Distributed Version Control
+- Local Version Control
+- Centralised Version Control
+- Distributed Version Control
 
 
 ---
@@ -59,10 +59,10 @@ In order to be considered in the git commit a file must be ?
 
 ???
 
-* Tracked
-* Untracked
-* Marked
-* Saved
+- Tracked
+- Untracked
+- Marked
+- Saved
 
 
 ---
@@ -78,4 +78,3 @@ Both previous types have a common point of failure - a local database can get co
 
 [3:repository]
 The project files and history in DVCSs is the code **repository**.
- 

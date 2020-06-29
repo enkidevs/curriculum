@@ -19,7 +19,7 @@ Because JSX is flexible, you can combine multiple components to build larger reu
 
 Here are all the possible ways a component can be used:
 
-```jsx
+```plain-text
 // we create a component 
 // that renders 'Welcome'
 function Welcome() {
@@ -41,7 +41,7 @@ const element = <Enki />;
 
 Giving you the means to `render` it:
 
-```jsx
+```plain-text
 ReactDOM.render(
   element,
   document.getElementById('root')
@@ -59,7 +59,7 @@ It is important to remember the difference between components and elements. The 
 
 Which of the following represents a valid syntax?
 
-```jsx
+```plain-text
 function Greet() {
   return <p>Hey</p>;
 }
@@ -71,8 +71,7 @@ function Enki() {
 
 ???
 
-* Both.
-* None.
-* `<Greet />`
-* `<Enki />`
- 
+- Both.
+- None.
+- `<Greet />`
+- `<Enki />`

@@ -22,19 +22,19 @@ Permanent generation (`permGen`) is an area within the heap where class and meth
 
 An app requires an increased `permGen` space when : 
 
-* an application loads a large number of classes
-* an application interns a large number of strings
+- an application loads a large number of classes
+- an application interns a large number of strings
 
 When encountering the `OutOfMemoryError: permGen space` error, the permanent generation memory can be increased:
 
-```java
+```plain-text
 java -XX:PermSize=256M
 //increases initial PermGem space to 256 MB
 ```
 
 A maximum `permGen` size can also be defined:
 
-```java
+```plain-text
 java -XX:MaxPermSize=512m
 //increases maximum PermGem space to 512 MB
 ```
@@ -50,10 +50,11 @@ Bear in mind that with the introduction of `Java 8`, permanent generation space 
 
 Before Java 8, you could’ve increased `permGen` memory space to 256M with:
 
-    ???
+```plain-text
+???
+```
 
-* `java -XX:PermSize=256M` 
-* `java PermSize=256M` 
-* `PermSize=256M` 
-* `java :PermSize=256M`
- 
+- `java -XX:PermSize=256M` 
+- `java PermSize=256M` 
+- `PermSize=256M` 
+- `java :PermSize=256M`

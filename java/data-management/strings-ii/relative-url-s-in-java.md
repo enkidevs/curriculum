@@ -1,42 +1,25 @@
 ---
 author: pawel
-
-levels:
-
-  - basic
-
-  - advanced
-
-  - medium
-
 type: normal
-
 category: tip
-
-aspects:
-
-  - introduction
-
 tags:
-
   - http
-
   - www
-
   - url
-
 ---
 
 # Relative URL's in Java
 
+
 ---
+
 ## Content
 
 A relative URL contains only enough information to reach the resource relative to (or in the context of) another URL.
 
 To create relative URL you can use code similar to the one below:
 
-```java
+```plain-text
 URL myURL = 
     new URL("http://example.com/pages/");
 URL page1 = new URL(myURL, "page1.html");
@@ -45,7 +28,7 @@ URL page2 = new URL(myURL, "page2.html");
 
 The general form of this constructor is:
 
-```java
+```plain-text
 URL(URL baseURL, String relativeURL)
 ```
 

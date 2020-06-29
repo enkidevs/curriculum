@@ -1,39 +1,32 @@
 ---
 author: Stefan-Stojanovic
-
-levels:
-  - beginner
-  - basic
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-  - workout
-  - deep
-
-links:
-
+links: null
 ---
+
 # The `pattern` Attribute
+
+
 ---
+
 ## Content
 
 The HTML input form attribute `pattern` is used to specify a regular expression where the `<input>` elements value is checked against.
 
 The pattern attribute works for several input types:
- - `date`
- - `email`
- - `password`
- - `search`
- - `tel`
- - `text`
- - `URL`
+
+- `date`
+- `email`
+- `password`
+- `search`
+- `tel`
+- `text`
+- `URL`
 
 Example:
-```html
+
+```plain-text
 <form
   action="/action.php">
   Enter 5 Digit Zip Code:
@@ -56,7 +49,7 @@ You can also create different patterns using this technique. For instance, if yo
 
 Another popular example, where a more complicated pattern is used to force the user to make a more complicated password:
 
-```html
+```plain-text
 <form
   action="/action.php">
   Password:
@@ -77,12 +70,14 @@ Another popular example, where a more complicated pattern is used to force the u
 
 In the example above, the user has to have at least one lowercase letter, one uppercase letter, one number, and a minimum of 8 characters and a maximum of 20 characters.
 
+
 ---
+
 ## Practice
 
 Mark the string that would NOT pass this pattern:
 
-```html
+```plain-text
 <input
   type="text" name="test"
   pattern="[a-zA-Z0-9]{0,10}"
@@ -91,14 +86,15 @@ Mark the string that would NOT pass this pattern:
 
 ???
 
-* `http://enki.com`
-* `enkiCode`
-* `Colorado`
-* `12Num34`
-* `8675309`
+- `http://enki.com`
+- `enkiCode`
+- `Colorado`
+- `12Num34`
+- `8675309`
 
 
 ---
+
 ## Revision
 
 Which form attribute is used to only allow a value that follows a unique expression?
@@ -115,15 +111,18 @@ Which form attribute is used to only allow a value that follows a unique express
 </form>
 ```
 
-* `pattern`
-* `expression`
-* `compare`
-* `limitation`
+- `pattern`
+- `expression`
+- `compare`
+- `limitation`
+
 
 ---
+
 ## Quiz
 
 ### How much do you know about forms and accepting certain data?
+
 
 When you look at the title, which regular expression do you think should be set as the pattern?
 
@@ -141,7 +140,7 @@ When you look at the title, which regular expression do you think should be set 
 </form>
 ```
 
-* `[A-Za-z0-9_]{1,15}`
-* `[A-Za-z0-9_]{1-15}`
-* `[a-zA-Z0-9_]{15}`
-* `[A-Z-a-z-0-9_]{1-15}`
+- `[A-Za-z0-9_]{1,15}`
+- `[A-Za-z0-9_]{1-15}`
+- `[a-zA-Z0-9_]{15}`
+- `[A-Z-a-z-0-9_]{1-15}`

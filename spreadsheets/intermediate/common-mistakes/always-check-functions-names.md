@@ -1,19 +1,14 @@
 ---
 author: Stefan-Stojanovic
-
-aspects:
-  - introduction
-  - workout
-
 type: normal
-
 category: how to
-
 ---
 
 # Always check function names
 
+
 ---
+
 ## Content
 
 Spreadsheets have numerous functions you can use. Some of these functions have similar usage but different names and vice versa.

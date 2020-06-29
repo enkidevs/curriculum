@@ -38,10 +38,10 @@ If an altcoin is created by modifying the Bitcoin source code, where can you int
 
 ???
 
-* The altcoin's blockchain
-* The Bitcoin blockchain
-* The Ethereum blockchain
-* Its smart contract
+- The altcoin's blockchain
+- The Bitcoin blockchain
+- The Ethereum blockchain
+- Its smart contract
 
 
 ---
@@ -56,9 +56,8 @@ What platform released a standardized token format?
 
 ???
 
-* No
-* Ethereum
-* Yes
-* Bitcoin
-* Litecoin
- 
+- No
+- Ethereum
+- Yes
+- Bitcoin
+- Litecoin

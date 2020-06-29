@@ -31,4 +31,3 @@ Use `console.log()` to print the second value of the array to the terminal.
 
 Run your program and check to see if it is correct by clicking 'Show' above.
 Be sure to Remix the project, and turn that in as your solution.
- 

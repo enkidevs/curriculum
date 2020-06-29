@@ -18,7 +18,7 @@ However, the data inside the object can be changed (also called its *state*).
 
 For example:
 
-```java
+```plain-text
 public Car{
   private final int value = 10;
   private static final int PRICE = 30;
@@ -40,7 +40,7 @@ A `final` method cannot be overridden by any subclass. This is particularly usef
 
 Which of the following lines would give rise to an error?
 
-```java
+```plain-text
 1. String DATE = "01-01-2020";
 2. final String ETAD = "2020-01-01";
 3. DATE = ETAD;
@@ -50,11 +50,11 @@ Which of the following lines would give rise to an error?
 
 ???
 
-* 4
-* 1
-* 2
-* 3
-* 5
+- 4
+- 1
+- 2
+- 3
+- 5
 
 
 ---
@@ -63,10 +63,10 @@ Which of the following lines would give rise to an error?
 
 Variables declared `final` cannot be ???.
 
-* reassigned
-* modified
-* copied
-* referenced
+- reassigned
+- modified
+- copied
+- referenced
 
 
 ---
@@ -76,7 +76,7 @@ Variables declared `final` cannot be ???.
 ### how do final variables work?
 
 
-```java
+```plain-text
 public class Person {
   String name = "name";
   public Person(String name) {
@@ -97,8 +97,7 @@ p.printName();
 
  ???
 
-* John
-* Sam
-* name
-* Exception
- 
+- John
+- Sam
+- name
+- Exception

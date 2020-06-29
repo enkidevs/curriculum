@@ -24,7 +24,7 @@ If you don't want to type these in every time, you can store your authentication
 
 To set up a credential cache:
 
-```bash
+```plain-text
 git config --global 
    credential.helper cache
 ```
@@ -47,11 +47,11 @@ git ??? ???
   ???.??? ???
 ```
 
-* `config`
-* `--global`
-* `credential`
-* `helper`
-* `cache`
+- `config`
+- `--global`
+- `credential`
+- `helper`
+- `cache`
 
 
 ---
@@ -65,8 +65,7 @@ git ??? ???
   credential.??? ???
 ```
 
-* `config`
-* `--global`
-* `helper`
-* `cache`
- 
+- `config`
+- `--global`
+- `helper`
+- `cache`

@@ -1,21 +1,18 @@
 ---
 author: Stefan-Stojanovic
-
-aspects:
-  - workout
-  - deep
-
 type: normal
-
 category: how to
-
 links:
-  - '[Excel Function List](https://support.office.com/en-us/article/excel-functions-alphabetical-b3944572-255d-4efb-bb96-c6d90033e188){documentation}'
+  - >-
+    [Excel Function
+    List](https://support.office.com/en-us/article/excel-functions-alphabetical-b3944572-255d-4efb-bb96-c6d90033e188){documentation}
 ---
 
 # What Are Functions?
 
+
 ---
+
 ## Content
 
 Functions are nothing more than **predefined formulas**.
@@ -36,23 +33,28 @@ Functions can also input multiple arguments. Here is an example:
 = MAX(A1:A3,B2:B3,E7)
 ```
 
+
 ---
+
 ## Practice
 
 What are functions?
 
 ???
 
-* Functions are predefined formulas.
-* Functions are user made formulas.
-* Functions are a type of grouping system.
-* Functions are predefined ranges used for transferring data.
+- Functions are predefined formulas.
+- Functions are user made formulas.
+- Functions are a type of grouping system.
+- Functions are predefined ranges used for transferring data.
+
 
 ---
+
 ## Footnotes
 
 [1:Arguments]
 An argument is just a cell or a series of cells that you would pass a function. For example, if you had the following function:
+
 ```plain-text
 = COUNT(A1:A25)
 ```

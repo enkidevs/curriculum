@@ -1,21 +1,14 @@
 ---
 author: Stefan-Stojanovic
-
-levels:
-  - beginner
-
-aspects:
-  - introduction
-
 type: normal
-
 category: how to
-
 ---
 
 # Updating a document
 
+
 ---
+
 ## Content
 
 In MongoDB, we can use the `updateOne()` method to update a single document, and the `updateMany()` method to update multiple documents at once.
@@ -32,13 +25,13 @@ The `options` parameter is used for adding more options to the update method and
 
 Let's say we have a `pokemon` collection where one of the pokémon's type is misspelled.
 
-```javascript
+```plain-text
 db.pokemon.find({ _id: 8 })
 ```
 
 Output:
 
-```javascript
+```plain-text
 {
   "_id": 8,
   "name": "Venusaur",
@@ -48,7 +41,7 @@ Output:
 
 If we wanted to change that pokémon's `"type"` from `"Grasz"` to `"Grass"`, we can update the document with the `$set` operator through any of its properties like so:
 
-```javascript
+```plain-text
 db.pokemon.updateOne(
   { _id: 8 },
   { $set: { type: "Grass" } }
@@ -71,7 +64,7 @@ db.pokemon.updateOne(
 
 The output in all three cases is:
 
-```javascript
+```plain-text
 {
   "nMatched": 1,
   "nUpserted": 0,
@@ -81,13 +74,13 @@ The output in all three cases is:
 
 To check if the document has been updated:
 
-```javascript
+```plain-text
 db.pokemon.find({ _id: 8 })
 ```
 
 Output:
 
-```javascript
+```plain-text
 {
   "_id": 8,
   "name": "Venusaur",
@@ -95,7 +88,9 @@ Output:
 }
 ```
 
+
 ---
+
 ## Practice
 
 How would you change the `name` of a pokémon from "Tyran" to "Tyranitar"?
@@ -107,16 +102,18 @@ db.pokemon.???(
 );
 ```
 
-* `updateOne`
-* `name`
-* `"Tyran"`
-* `$set`
-* `$update`
-* `Name`
-* `$change`
-* `updateSingle`
+- `updateOne`
+- `name`
+- `"Tyran"`
+- `$set`
+- `$update`
+- `Name`
+- `$change`
+- `updateSingle`
+
 
 ---
+
 ## Revision
 
 Finish the code below to change the `type` of the misspelled "Firee" pokémon in the `pokemon` collection to be of `type` "Fire".
@@ -128,10 +125,10 @@ db.pokemon.???(
 );
 ```
 
-* `updateOne`
-* `"Firee"`
-* `$set`
-* `"Fire"`
-* `$arrange`
-* `updateCollection`
-* `fire`
+- `updateOne`
+- `"Firee"`
+- `$set`
+- `"Fire"`
+- `$arrange`
+- `updateCollection`
+- `fire`

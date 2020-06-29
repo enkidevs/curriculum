@@ -1,44 +1,39 @@
 ---
 author: alexjmackey
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-  - new
-  - workout
-
 links:
-  - '[Proxy](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy){documentation}'
-
+  - >-
+    [Proxy](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy){documentation}
 ---
+
 # Using Proxies
 
+
 ---
+
 ## Content
 
 Proxies allow you to intercept many different operations and methods:
 
-* new operator
-* getPrototypeOf
-* setPrototypeOf
-* isExtensible
-* preventExtensions
-* getOwnPropertyDescriptor
-* in operator
-* delete
-* defineProperty
-* enumerate
-* ownKeys
-* apply
+- new operator
+- getPrototypeOf
+- setPrototypeOf
+- isExtensible
+- preventExtensions
+- getOwnPropertyDescriptor
+- in operator
+- delete
+- defineProperty
+- enumerate
+- ownKeys
+- apply
 
 Of course, you only need to specify those you want to intercept otherwise the default behavior will occur.
 
 Here is an example of intercepting delete calls:
 
-```javascript
+```plain-text
 let handler = {
   deleteProperty(target, key) {
     console.log("ignoring delete");
@@ -60,7 +55,7 @@ This allows you to later deny access to the proxy by calling the revoke method.
 
 First, we use `Proxy.revocable` to obtain a revocable proxy:
 
-```javascript
+```plain-text
 let rev = Proxy.revocable(
   {},
   {
@@ -76,7 +71,7 @@ p.a; // accessed a
 
 Then we can deny access to the proxy by calling the revoke method:
 
-```javascript
+```plain-text
 p.revoke();
 p.a;
 // TypeError: p.revoke is not a function
@@ -88,14 +83,16 @@ Proxies have a number of potential usages and we will probably see library and f
 
 Some potential usages:
 
-* Block access to values
-* Return different values
-* Stop people setting certain values
-* Validation & logging
-* Extending constructors
-* As a shim/fallback for older browsers in the future
+- Block access to values
+- Return different values
+- Stop people setting certain values
+- Validation & logging
+- Extending constructors
+- As a shim/fallback for older browsers in the future
+
 
 ---
+
 ## Practice
 
 Fill in the gaps such that log statements hold true:
@@ -114,19 +111,21 @@ console.log(proxy.enki)
 // TypeError
 ```
 
-* Proxy
-* revocable
-* get
-* proxy
-* rev
-* revoke
-* throw
-* catch
-* try
-* new Proxy
-* get()
+- Proxy
+- revocable
+- get
+- proxy
+- rev
+- revoke
+- throw
+- catch
+- try
+- new Proxy
+- get()
+
 
 ---
+
 ## Revision
 
 Fill in the gaps of the following snippet such that, using a Proxy, the proprieties of `pObj` cannot be deleted via `delete` keyword:
@@ -145,15 +144,14 @@ console.log(pObj)
 // { enki: 42 }
 ```
 
-* deleteProperty
-* Proxy
-* obj
-* proxyFn
-* enki
-* 42
-* delete
-* deleteOwnProperty
-* proxy
-* function
-* function*
- 
+- deleteProperty
+- Proxy
+- obj
+- proxyFn
+- enki
+- 42
+- delete
+- deleteOwnProperty
+- proxy
+- function
+- function*

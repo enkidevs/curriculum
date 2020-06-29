@@ -1,21 +1,16 @@
 ---
 author: emmab
-
 tags:
   - introduction
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-
 ---
 
 # Grouping
 
+
 ---
+
 ## Content
 
 We can group certain items using parenthesis, `( )`. 
@@ -24,14 +19,14 @@ Say we want to match both the singular and plural forms of a word. We can use gr
 
 Remember that the `?` character makes the thing before it optional. In this case it makes the *grouping* optional.
 
-```
+```plain-text
 /regex(es)?/
 ```
 
 `regex` ✅
 `regexes` ✅
 
-```
+```plain-text
 /(abc)+/
 ```
 
@@ -40,7 +35,7 @@ Remember that the `?` character makes the thing before it optional. In this case
 
 We can build more complex groupings using the *or* operator, `|`.
 
-```
+```plain-text
 /(a|b)c/
 ```
 
@@ -54,40 +49,44 @@ If we wanted to build a regex pattern to match the following three strings:
 
 We could write:
 
-```
+```plain-text
 /reg((ular expressions)|ex(p)?)/
 ```
 
 This means that the pattern must start with 'reg', it then has either 'ular expressions' *or* 'ex' plus an optional 'p'.
 
+
 ---
+
 ## Practice
 
 Which of the following would be a valid match for this regex pattern:
- 
-```
+
+```plain-text
 /color:\s(green|red|blue)/
 ```
 
 ???
 
-* `/color: red/`
-* `/color:green/`
-* `/color:blue/`
-* `/color: green or red or blue/`
+- `/color: red/`
+- `/color:green/`
+- `/color:blue/`
+- `/color: green or red or blue/`
+
 
 ---
+
 ## Revision
 
 Which of the following would be a valid match for this regex pattern:
- 
-```
+
+```plain-text
 /choice:\s(head|tail)s/
 ```
 
 ???
 
-* `choice: heads`
-* `choice:heads`
-* `choice:head`
-* `choice: heads or tails`
+- `choice: heads`
+- `choice:heads`
+- `choice:head`
+- `choice: heads or tails`

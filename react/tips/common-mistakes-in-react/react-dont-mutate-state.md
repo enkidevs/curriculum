@@ -1,34 +1,21 @@
 ---
 author: kapnobatai136
-
-levels:
-
-  - basic
-  
-  - medium
-  
-aspects:
-
-  - workout
-
-  - deep
-
 type: normal
-
 category: tip
-
 ---
 
 # Don't mutate state
 
+
 ---
+
 ## Content
 
 Now that you know how to start using React, it is time to learn about some of the most common mistakes and how to avoid them.
 
 One of the most common mistakes one can make when using React is trying to directly modify the `state`. In a previous workout we have discussed how the `state` is considered immutable, and some methods of updating arrays or objects were presented. Consider the following example:
 
-```js
+```plain-text
 function User() {
   // define the state
   const [name, setName] = useState('user');
@@ -51,7 +38,7 @@ Suppose we click the button returned from `<User />`. Although this code might s
 
 To circumvent this when using function components, use the setter method returned by `useState()`:
 
-```jsx
+```plain-text
 function User() {
   // ...
 
@@ -67,14 +54,16 @@ function User() {
 
 Remember, you should **never** mutate state.
 
+
 ---
+
 ## Practice
 
 Which of the following represents a good reason to mutate `state`?
 
 ???
 
-* You should never mutate state.
-* To write less code.
-* To increase your app's performance.
-* To have easier access to nested values.
+- You should never mutate state.
+- To write less code.
+- To increase your app's performance.
+- To have easier access to nested values.

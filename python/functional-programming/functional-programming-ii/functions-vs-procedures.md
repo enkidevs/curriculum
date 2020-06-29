@@ -1,27 +1,18 @@
-﻿---
+---
 author: stefkn
-
-levels:
-  - beginner
-  - basic
-  - medium
-
-aspects:
-  - obscura
-
 type: normal
-
 category: must-know
-
 links:
-  - '[The fate of reduce() in Python 3000](http://www.artima.com/weblogs/viewpost.jsp?thread=98196){website}'
-
-
+  - >-
+    [The fate of reduce() in Python
+    3000](http://www.artima.com/weblogs/viewpost.jsp?thread=98196){website}
 ---
 
 # Functions vs procedures
 
+
 ---
+
 ## Content
 
 Another important distinction between pure functional programming languages and Python is that Python does not differentiate clearly between *functions* and *procedures*.
@@ -34,27 +25,30 @@ Why does this matter? Python does not distinguish between the two in language no
 
 The above being said, a functional style is still easily usable in all but the most challenging situations with Python, and it is also a great way to get used to many of the concepts and terminology associated with the functional style.
 
+
 ---
+
 ## Practice
 
 What two adjectives describe a function which causes no side-effects and has a valid output for every input?
 
 ???
 
+- Pure & Total
+- Pure & Partial
+- Partial & Pure
+- Immutable & Total
+- Partial & Total
 
-* Pure & Total
-* Pure & Partial
-* Partial & Pure
-* Immutable & Total
-* Partial & Total
 
 ---
+
 ## Revision
 
 Is Python considered a functional language?
 
 ???
 
-* No
-* Yes
-* Sometimes
+- No
+- Yes
+- Sometimes

@@ -1,21 +1,18 @@
 ---
 author: emmab
-
 type: normal
-
-aspects:
-  - introduction
-
 category: must-know
-
 links:
-  - '[Comment Conventions](https://www.python.org/dev/peps/pep-0008/#comments){website}'
-
+  - >-
+    [Comment
+    Conventions](https://www.python.org/dev/peps/pep-0008/#comments){website}
 ---
 
 # Indentation and Commenting
 
+
 ---
+
 ## Content
 
 Python is one of the very few programming languages that *relies on the use of indentation* (tabs) to work.
@@ -24,7 +21,7 @@ Python is one of the very few programming languages that *relies on the use of i
 
 For example:
 
-```python
+```plain-text
 if True:
     print('Will print this.')
 else:
@@ -41,7 +38,7 @@ What about this one?
 
 If we were to rewrite the above snippet as:
 
-```python
+```plain-text
 if True:
     print('Will print this.')
 else:
@@ -59,17 +56,19 @@ The indentation determines whether the last call to `print` belongs to the `else
 
 As a side note, indentation doesn't matter for *commented out* lines. To comment out lines of code in Python, just use the hash symbol, `#`. For example:
 
-```python
+```plain-text
 # print('This line is commented out.')
 print("This line isn't commented out!")
 ```
 
+
 ---
+
 ## Practice
 
 What will this code print?
 
-```python
+```plain-text
 if True:
    print('this is true')
 else:
@@ -78,12 +77,14 @@ else:
 
 ???
 
-* `this is true`
-* `True`
-* `False
-* `this is false`
+- `this is true`
+- `True`
+- `False
+- `this is false`
+
 
 ---
+
 ## Revision
 
 Which of the following is a valid Python comment?
@@ -96,6 +97,6 @@ Which of the following is a valid Python comment?
 
 ???
 
-* `Comment C`
-* `Comment B`
-* `Comment A`
+- `Comment C`
+- `Comment B`
+- `Comment A`

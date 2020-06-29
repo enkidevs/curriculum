@@ -23,7 +23,7 @@ Node applications are event driven applications, an event occurs upon a change o
 
 Node events are consumed when an in-application event occurs, modules subscribe to events by listening to the event on a given object. For example, in a file system, an event could be that a file has been edited:
 
-```javascript
+```plain-text
 var system = require('.filesytem.js');
 system.file.on('edit', function() {
 
@@ -36,7 +36,7 @@ In this example, the `system.file` object is an event emitter, a module can list
 
 Events can also produce relevant data, for example if you wanted to know who edited a file in the system:
 
-```javascript
+```plain-text
 system.file.on('edit', function
                       (fileID, initials) {
 
@@ -48,7 +48,7 @@ system.file.on('edit', function
 
 To unsubscribe to events, use the `.removeListener`  method and specify the event type and the event listener function.
 
-```javascript
+```plain-text
 function onEdit(fileID, initials) {
   // on edit, do something...
 }
@@ -70,11 +70,11 @@ system.file.???(
 )
 ```
 
-* on
-* edit
-* event
-* event=edit
-* callback
+- on
+- edit
+- event
+- event=edit
+- callback
 
 
 ---
@@ -84,7 +84,6 @@ system.file.???(
 Which method is called to register a callback function to run when an event is triggered?
 ???
 
-* .on
-* .event
-* .start
- 
+- .on
+- .event
+- .start

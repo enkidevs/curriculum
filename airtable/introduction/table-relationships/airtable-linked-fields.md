@@ -1,18 +1,14 @@
 ---
 author: kapnobatai136
-
 category: must-know
-
-aspects:
-  - introduction
-
 type: normal
-
 ---
 
 # Linked Fields
 
+
 ---
+
 ## Content
 
 The most important rule for linking two tables in Airtable is that they **must belong to the same base** (otherwise it won't work).
@@ -28,16 +24,19 @@ Both tables are linked, and the relation between them means that `The Irishman` 
 In this example, both tables are linked, so all the records can be accessed. There is another option which requires the creation of a new table from a linked field.
 
 To re-iterate, linked fields are the bridge between tables, and there are two methods of linking tables:
+
 - Directly linking two existing tables
 - Creating a new linked table from an existing field
 
+
 ---
+
 ## Practice
 
 Which of the following is not a method of linking tables?
 
 ???
 
-* Creating a new linked base from an existing field.
-* Directly linking two existing table.
-* Creating a new linked table from an existing field.
+- Creating a new linked base from an existing field.
+- Directly linking two existing table.
+- Creating a new linked table from an existing field.

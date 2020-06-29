@@ -49,12 +49,12 @@ fs.createReadStream('in.txt')
 
 ```
 
-* pipe
-* chain
-* stream
-* feed
-* input
-* output
+- pipe
+- chain
+- stream
+- feed
+- input
+- output
 
 
 ---
@@ -65,7 +65,6 @@ Which function is used to chain streams together?
 
 ???
 
-* pipe()
-* new-pipe()
-* chain()
- 
+- pipe()
+- new-pipe()
+- chain()

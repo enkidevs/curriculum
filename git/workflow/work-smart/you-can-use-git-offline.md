@@ -1,27 +1,14 @@
 ---
 author: rosielowther
-
-levels:
-
-  - basic
-
-  - medium
-
 type: normal
-
 category: must-know
-
-aspects:
-
-  - introduction
-  - deep
-  - obscura
-
 ---
 
 # You can use git offline!
 
+
 ---
+
 ## Content
 
 You can use almost all of git's features offline, as git only needs to read from your local repository.
@@ -30,7 +17,7 @@ You can continue to make commits when you are offline and wait until you have a 
 
 For example, this is all ok offline: 
 
-```bash
+```plain-text
 # make a new commit
 git commit -m 'New button'
 
@@ -43,28 +30,28 @@ b423c5d: Fix scrolling bug
 git checkout testing
 ```
 
+
 ---
+
 ## Practice
 
 Some of the commands that run just fine while `git` is offline are 
 
 ??? .
 
-* commit, log, checkout
-* commit, log, push
-* pull, push, status
+- commit, log, checkout
+- commit, log, push
+- pull, push, status
+
 
 ---
+
 ## Revision
 
 Some of the commands that run just fine while `git` is offline are
 
  ??? .
 
-* commit, log, checkout
-* commit, log, push
-* pull, push, status
-
- 
- 
- 
+- commit, log, checkout
+- commit, log, push
+- pull, push, status

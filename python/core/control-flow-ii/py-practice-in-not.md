@@ -1,35 +1,19 @@
 ---
 author: claremarie
-
-levels:
-
-  - beginner
-
-  - basic
-
-aspects:
-  - introduction
-
 type: exercise
-
 linkType: website
-
-link: https://goo.gl/UrtyTi
-
-standards:
-
-  python.native-types-operations.0: 1000
-  python.native-types-operations.1: 1000
-  python.native-types-operations.4: 1000
-
+link: 'https://goo.gl/UrtyTi'
 links:
-  - '[Control Structures in Python](http://interactivepython.org/runestone/static/pythonds/Introduction/ControlStructures.html){website}'
-
+  - >-
+    [Control Structures in
+    Python](http://interactivepython.org/runestone/static/pythonds/Introduction/ControlStructures.html){website}
 ---
 
 # Python Sequence Iteration Exercise
 
+
 ---
+
 ## Exercise
 
 Click *Launch Exercise* to open a Python Tutor page.

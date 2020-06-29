@@ -18,15 +18,15 @@ links:
 
 An inline element has the following characteristics:
 
-* It begins on the same line as its siblings
-* Its `height`, `line-height`, `top-margin` and `bottom-margin` can't be changed
-* Its width is as wide as the content and can't be modified
+- It begins on the same line as its siblings
+- Its `height`, `line-height`, `top-margin` and `bottom-margin` can't be changed
+- Its width is as wide as the content and can't be modified
 
 Examples of inline elements include `<span>`, `<a>`, `<label>`, `<input>`, `<img>`, `<strong>` and `<em>`.
 
 Example of useless CSS:
 
-```css
+```plain-text
 span {
   height: 20px; /* no effect! */
   top: 20px; /* no effect! */
@@ -43,10 +43,10 @@ Which of the following elements is * not * an inline element?
 
 ???
 
-* `<form>`
-* `<label>`
-* `<strong>`
-* `<input>`
+- `<form>`
+- `<label>`
+- `<strong>`
+- `<input>`
 
 
 ---
@@ -57,9 +57,8 @@ Which of the following elements is not inline?
 
 ???
 
-* `<p>`
-* `<em>`
-* `<span>`
-* `<input>`
-* `<img>`
- 
+- `<p>`
+- `<em>`
+- `<span>`
+- `<input>`
+- `<img>`

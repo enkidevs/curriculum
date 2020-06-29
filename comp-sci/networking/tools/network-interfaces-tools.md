@@ -33,7 +33,7 @@ On **Windows**, the closest equivalent of `ifconfig` command is `ipconfig`, whic
 
 To view all (active and inactive) network interfaces with their details the `-a` flag must be used:
 
-```bash
+```plain-text
 ifconfig -a
 lo0: ... (loopback)
 en0: ... (physical net. conn.)
@@ -46,7 +46,7 @@ Keep in mind that in **OS X** the `-a` flag is implied, while on **Linux** runni
 
 To show only *inactive* connections:
 
-```bash
+```plain-text
 ifconfig -u
 ```
 
@@ -80,10 +80,10 @@ What is the equivalent of `ifconfig` on **Windows**?
 
 ???
 
-* `ipconfig`
-* `tracepath`
-* `netstat`
-* `ifconfig`
+- `ipconfig`
+- `tracepath`
+- `netstat`
+- `ifconfig`
 
 
 ---
@@ -92,14 +92,16 @@ What is the equivalent of `ifconfig` on **Windows**?
 
 Which flag is used to show active and inactive connections while running the following command ?
 
-    ifconfig ???
+```plain-text
+ifconfig ???
+```
 
-* `-a`
-* `-up`
-* `-all`
-* `-ai`
-* `-i`
-* `-u`
+- `-a`
+- `-up`
+- `-all`
+- `-ai`
+- `-i`
+- `-u`
 
 
 ---
@@ -127,4 +129,3 @@ Instead of using the `up/down` flags, specialized equivalent commands are availa
 ifup eth0
 ifdown eth0
 ```
- 

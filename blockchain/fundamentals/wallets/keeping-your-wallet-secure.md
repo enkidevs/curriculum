@@ -36,10 +36,10 @@ Which type of wallets is inherently more secure?
 
 ???
 
-* Offline wallets
-* Online wallets
-* Paper wallets
-* Mobile wallets
+- Offline wallets
+- Online wallets
+- Paper wallets
+- Mobile wallets
 
 
 ---
@@ -50,7 +50,6 @@ What is the level of anonymity of most wallets?
 
 ???
 
-* Similar to one of the coin
-* Anonymous
-* Public
- 
+- Similar to one of the coin
+- Anonymous
+- Public

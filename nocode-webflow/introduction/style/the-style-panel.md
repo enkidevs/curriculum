@@ -34,11 +34,10 @@ Which of these is not accessed through the style panel?
 
 ???
 
-* Pages
-* Background color
-* Position
-* Spacing
-* Typography
-* Borders
-* Effects
- 
+- Pages
+- Background color
+- Position
+- Spacing
+- Typography
+- Borders
+- Effects

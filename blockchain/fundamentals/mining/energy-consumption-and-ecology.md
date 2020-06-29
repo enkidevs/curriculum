@@ -30,9 +30,9 @@ The three things you need for setting up a mining data center are:
 ???, to pay the minimum price to run the rig
 ???, to help with cooling
 
-* good network
-* cheap power
-* cool climate
+- good network
+- cheap power
+- cool climate
 
 
 ---
@@ -43,8 +43,7 @@ Other than electricity consumed for making the chip and running it, what else do
 
 ???
 
-* Cooling
-* Distributing work
-* Hashing
-* Collecting shares
- 
+- Cooling
+- Distributing work
+- Hashing
+- Collecting shares

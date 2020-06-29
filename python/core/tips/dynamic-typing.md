@@ -17,7 +17,7 @@ Some people consider Python's dynamic typing a weakness as it can lead to hard t
 
 As said before, a variable can take different types of values:
 
-```python
+```plain-text
 x = 'enki'
 x = 3.14
 def x():
@@ -28,7 +28,7 @@ In Python, variables do not represent a portion of computer's memory where their
 
 Keep in mind that it is a **bad practice** to use the same variable name for different data types. Instead, use meaningful names for variables.
 
-```python
+```plain-text
 # bad
 x = 2.71
 x = 'hey'
@@ -54,9 +54,9 @@ print(type(n))
 ???
 ```
 
-* int
-* float
-* string
+- int
+- float
+- string
 
 
 ---
@@ -65,7 +65,7 @@ print(type(n))
 
 What will the type of `d` variable will be eventually?
 
-```python
+```plain-text
 d = 'h'
 d = 'hello world'
 
@@ -77,9 +77,8 @@ print(type(d))
 
 ???
 
-* function
-* type
-* int
-* string
-* char
- 
+- function
+- type
+- int
+- string
+- char

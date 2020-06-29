@@ -1,40 +1,23 @@
 ---
 author: pawel
-
-levels:
-
-  - basic
-
-  - advanced
-
-  - medium
-
 type: normal
-
 category: tip
-
 tags:
-
   - variable-types
-
   - local-variables
-
   - instance-variables
-
   - class-variables
-
-
 links:
-
-  - '[www.tutorialspoint.com](http://www.tutorialspoint.com/java/java_variable_types.htm){website}'
-
+  - >-
+    [www.tutorialspoint.com](http://www.tutorialspoint.com/java/java_variable_types.htm){website}
 notes: ''
-
 ---
 
 # Different types of variables in Java
 
+
 ---
+
 ## Content
 
 Java supports three kinds of variables.  

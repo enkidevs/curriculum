@@ -22,7 +22,7 @@ links:
 
 The HTML `<ul>`, or the **Unordered List** element is used to represent an unordered list of items.
 
-```html
+```plain-text
 <ul>
   <li>Item x</li>
   <li>Item x</li>
@@ -40,10 +40,10 @@ The items within the `<ul>` elements list are represented with the `<li>` elemen
 
 The bullet can be changed using CSS styling:
 
-* style="list-style-type:disc"
-* style="list-style-type:circle"
-* style="list-style-type:square"
-* style="list-style-type:none"
+- style="list-style-type:disc"
+- style="list-style-type:circle"
+- style="list-style-type:square"
+- style="list-style-type:none"
 
 ![list-styles](https://img.enkipro.com/479323c3b258bb078ff59111fa831338.png)
 
@@ -53,7 +53,7 @@ Additionally, the `<ul>` element can be nested with itself any number of times. 
 
 Example of a nested lists:
 
-```html
+```plain-text
 <ul>
   <li>Item A</li>
   <li>Item B
@@ -79,13 +79,13 @@ Example of a nested lists:
 
 **Notes:**
 
-* The key to nesting lists is making sure the nested lists are within the appropriate list items (`<li>` and `</li>`).
+- The key to nesting lists is making sure the nested lists are within the appropriate list items (`<li>` and `</li>`).
 
 **Best Uses:**
 The `<ul>` element is best used for:
 
-* a grocery list
-* or any other list that doesn't require a specific order.
+- a grocery list
+- or any other list that doesn't require a specific order.
 
 
 ---
@@ -94,7 +94,7 @@ The `<ul>` element is best used for:
 
 Complete the HTML code to create a bulleted list.
 
-```html
+```plain-text
 <A>
   <B>Apples</B>
   <B>Oranges</B>
@@ -105,14 +105,14 @@ Complete the HTML code to create a bulleted list.
 A: ???
 B: ???
 
-* `ul`
-* `li`
-* `ol`
-* `nl`
-* `dot`
-* `bullet`
-* `list`
-* `dotlist`
+- `ul`
+- `li`
+- `ol`
+- `nl`
+- `dot`
+- `bullet`
+- `list`
+- `dotlist`
 
 
 ---
@@ -121,7 +121,7 @@ B: ???
 
 What does this code create?
 
-```html
+```plain-text
 <ul>
   <li>Item</li>
   <li>Item</li>
@@ -131,12 +131,12 @@ What does this code create?
 
 ???
 
-* unordered list
-* ordered list
-* uniform list
-* unlist item
-* utility list
-* uni list
+- unordered list
+- ordered list
+- uniform list
+- unlist item
+- utility list
+- uni list
 
 
 ---
@@ -150,8 +150,7 @@ Which statement about unordered lists is not true?
 
 ???
 
-* Paragraph tags are required within each list item.
-* By default, each list item displays with a black disc.
-* Typically, each line is indented with 40px of padding-left.
-* They display as block elements.
- 
+- Paragraph tags are required within each list item.
+- By default, each list item displays with a black disc.
+- Typically, each line is indented with 40px of padding-left.
+- They display as block elements.

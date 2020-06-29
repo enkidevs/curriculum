@@ -27,13 +27,13 @@ It can be useful to find out the values of variables when debugging code.
 
 Some developers will use an alert statement to do this:
 
-```js
+```plain-text
 alert(myVar);
 ```
 
 A better way is to use the console.log statement to write the variables value out to the console:
 
-```js
+```plain-text
 console.log(myVar); 
 ```
 
@@ -48,11 +48,11 @@ How can you log variables into the console?
 ???.???(myVar);
 ```
 
-* `console`
-* `log`
-* `alert`
-* `debugger;`
-* `addVar`
+- `console`
+- `log`
+- `alert`
+- `debugger;`
+- `addVar`
 
 
 ---
@@ -63,8 +63,7 @@ What statement will make the debugger when it sees it?
 
 ???
 
-* `debugger;`
-* `stop;`
-* `break;`
-* `debug;`
- 
+- `debugger;`
+- `stop;`
+- `break;`
+- `debug;`

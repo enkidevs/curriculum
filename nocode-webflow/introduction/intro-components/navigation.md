@@ -1,22 +1,14 @@
 ---
 author: Stefan-Stojanovic
-
-levels:
-  - beginner
-
-aspects:
-  - deep
-  - workout
-
 type: normal
-
 category: how to
-
 ---
 
 # Navigation
 
+
 ---
+
 ## Content
 
 All websites have some form of navigation to make it easier for users to find their way through the webpage.
@@ -24,6 +16,7 @@ All websites have some form of navigation to make it easier for users to find th
 For this purpose, Webflow provides a powerful component called `Navbar`.
 
 By default, `Navbar` comes with the following elements:
+
 - logo (an image element)
 - navigation links
 - invisible button
@@ -57,7 +50,9 @@ E-mail link:
 
 ![email-link](https://img.enkipro.com/0dbf5ffadd4cd81138a5586043583e0a.png)
 
+
 ---
+
 ## Practice
 
 True or False?
@@ -66,14 +61,17 @@ The `Navbar` is NOT the only element you can place a navigation link in.
 
 ???
 
-* False
-* True
+- False
+- True
+
 
 ---
+
 ## Footnotes
 
 [1:Adding elements]
 If you forgot how to add elements, here is a reminder:
+
 - Click anywhere on the Canvas and left-click a `Navbar` element from the `Add Elements` panel to add it to the previously clicked position.
 - Drag and drop a `Navbar` element from the `Add Elements` panel anywhere on the canvas.
 - Drag and drop a `Navbar` element from the `Add Elements` panel to a position in the `Navigator`.

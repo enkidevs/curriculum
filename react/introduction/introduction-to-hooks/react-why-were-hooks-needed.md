@@ -1,27 +1,19 @@
 ---
 author: kapnobatai136
-  
-aspects:
-
-  - new
-
-  - workout
-
-  - deep
-
 type: normal
-
 category: must-know
-
 links:
   - '[Render props](https://reactjs.org/docs/render-props.html){documentation}'
-  - '[Higher order components](https://reactjs.org/docs/higher-order-components.html){documentation}'
-
+  - >-
+    [Higher order
+    components](https://reactjs.org/docs/higher-order-components.html){documentation}
 ---
 
 # Why were hooks needed?
 
+
 ---
+
 ## Content
 
 Hooks allow you to use state or other useful features without using class components.
@@ -32,7 +24,7 @@ In React, there is no built-in way to "attach" reusable behavior to a component 
 
 A `render prop` is a function that a component uses to know what to render[1].
 
-```jsx
+```plain-text
 <MyComponent
   render={person => (
     <p>Hello {person.name}</p>
@@ -42,7 +34,7 @@ A `render prop` is a function that a component uses to know what to render[1].
 
 A higher-order component is a function that takes a component and returns a new component that includes the reusable behavior:
 
-```js
+```plain-text
 const EnhancedComponent = higherOrderComponent(
   WrappedComponent
 );
@@ -52,36 +44,43 @@ Although you can use these patterns to create reusable behavior, most of the tim
 
 To solve this issue, the React team created hooks.
 
+
 ---
+
 ## Practice
 
 Which of the following does not represent a method of "attaching" reusable behavior to a component?
 
 ???
 
-* pure components
-* render props
-* hooks
-* higher-order components
+- pure components
+- render props
+- hooks
+- higher-order components
+
 
 ---
+
 ## Revision
 
 Which of the following represents a method of "attaching" reusable behavior to a component?
 
 ???
 
-* hooks
-* pure components
-* nested functions
-* class components
+- hooks
+- pure components
+- nested functions
+- class components
+
 
 ---
+
 ## Footnotes
+
 [1:render props]
 Another version of the "render props" pattern is to pass a function as `children`:
 
-```jsx
+```plain-text
 <MyComponent>
   {person => (
     <p>Hello {person.name}</p>

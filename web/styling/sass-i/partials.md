@@ -1,25 +1,14 @@
 ---
 author: mihaiberq
-
-levels:
-
-  - basic
-
-  - medium
-
 type: normal
-
 category: how to
-
-aspects:
-  - introduction
-  - workout
-
 ---
 
 # Partials
 
+
 ---
+
 ## Content
 
 *Sass* allows the creation of **partial** CSS/SCSS files that you can include in other Sass files through imports. This feature promotes modular code, thus keeping files easier to maintain.
@@ -28,12 +17,14 @@ All you have to do to mark a file as *partial* is to include an underscore befor
 
 Partials are used with the `@import` directive, of which we will talk in the next insight.
 
+
 ---
+
 ## Revision
 
 Sass knows that some `.scss` files are partials because ???
 
-* their name is starts with an `_`.
-* they contain the `@partial` directive.
-* they contain the `@partial` mixin.
-* there are no CSS files generated for them.
+- their name is starts with an `_`.
+- they contain the `@partial` directive.
+- they contain the `@partial` mixin.
+- there are no CSS files generated for them.

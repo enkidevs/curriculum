@@ -40,14 +40,14 @@ The term **jitter** is used interchangeably with:
 
 ??? ??? ???
 
-* Packet
-* Delay
-* Variation
-* Latency
-* Spikes
-* Lag
-* Continuous
-* Effect
+- Packet
+- Delay
+- Variation
+- Latency
+- Spikes
+- Lag
+- Continuous
+- Effect
 
 
 ---
@@ -60,7 +60,6 @@ Keep in mind that the terms **Jitter** and **Packet Delay Variation** are not co
 [2:what causes jitter]
 Common jitter causes in **TCP/IP** networks are:
 
-* congestion
-* improper queuing
-* configuration errors
- 
+- congestion
+- improper queuing
+- configuration errors

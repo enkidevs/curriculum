@@ -1,48 +1,32 @@
 ---
 author: adamMontgomerie
-
-levels:
-
-  - basic
-
-  - beginner
-
 type: normal
-
 category: tip
-
-aspects:
-
-  - introduction
-
 tags:
-
   - binary
-
   - hexadecimal
-
   - jdk-7
-
 links:
-
-  - '[javarevisited.blogspot.jp](http://javarevisited.blogspot.jp/2014/04/10-jdk-7-features-to-revisit-before-you.html){website}'
-
+  - >-
+    [javarevisited.blogspot.jp](http://javarevisited.blogspot.jp/2014/04/10-jdk-7-features-to-revisit-before-you.html){website}
 ---
 
 # Express binary literals with `0b` and hexadecimal literals with `0x`
 
+
 ---
+
 ## Content
 
 Binary values can be expressed using the `0b` or `0B` prefix.
 
-```java
+```plain-text
 int binary = 0b0101110101;
 ```
 
 In the same way, hexadecimal values can be expressed by adding the prefix `0x` or `0X`.
 
-```java
+```plain-text
 int hex = 0x5A;
 ```
 

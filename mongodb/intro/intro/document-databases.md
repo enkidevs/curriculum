@@ -37,8 +37,7 @@ Which are the 4 types of NoSQL databases:
 
 ???
 
-* Column, Graph, Document, Key-Value
-* Column, Graph, Table, Key-Value
-* Table, Graph, Circle, Spreadsheet
-* Spreadsheet, Table, Key-Value, Index
- 
+- Column, Graph, Document, Key-Value
+- Column, Graph, Table, Key-Value
+- Table, Graph, Circle, Spreadsheet
+- Spreadsheet, Table, Key-Value, Index

@@ -1,34 +1,29 @@
 ---
 author: mihaiberq
-
 type: normal
-
 category: tip
-
-standards:
-  javascript.identify-common-design-patterns.7: 10
-
 tags:
   - introduction
-
-
-aspects:
-  - introduction
-
 links:
-  - '[MDN - ASI](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Lexical_grammar#Automatic_semicolon_insertion
-){documentation}'
-  - '[MDN - Block](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/block){documentation}'
-
+  - >-
+    [MDN -
+    ASI](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Lexical_grammar#Automatic_semicolon_insertion
+    ){documentation}
+  - >-
+    [MDN -
+    Block](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/block){documentation}
 ---
+
 # Styling Brackets Continued
 
+
 ---
+
 ## Content
 
 Although flexible, the location of brackets sometimes isn't up for debate. Let's take a look at an example:
 
-```javascript
+```plain-text
 function right() {
   return {
     status: 'right',
@@ -45,7 +40,7 @@ function wrong() {
 
 At the first glance, both functions seem to return the same object containing the property `status`. However, the output is as follows:
 
-```javascript
+```plain-text
 console.log(right().status);
 // right
 
@@ -63,7 +58,7 @@ In the code above, when JavaScript notices a new line after a `return` statement
 
 The code above is seen by JavaScript like this:
 
-```javascript
+```plain-text
 function wrong() {
   return; // equivalent to return undefined;
   //    ^ this semi colon is inserted for us
@@ -77,12 +72,14 @@ function wrong() {
 
 Check out the Read More links for more details on ASI and don't forget to write your `;`.
 
+
 ---
+
 ## Practice
 
 In order for the brackets placement to be less prone to errors and consistent throughout the project, it is recommended that you use style ??? in your code:
 
-```javascript
+```plain-text
 // style A
 function A() {
   return {
@@ -108,29 +105,33 @@ function C()
 }
 ```
 
-* A
-* B
-* C
+- A
+- B
+- C
+
 
 ---
+
 ## Revision
 
 What is the name of the JavaScript language feature that can cause problems in certain situations if we forget to put a `;`?
 
 ???
 
+- Automatic semicolon insertion
+- Scoping semicolon
+- Automatic semicolon placement
+- Returning object semicolon
 
-* Automatic semicolon insertion
-* Scoping semicolon
-* Automatic semicolon placement
-* Returning object semicolon
 
 ---
-## Quiz 
+
+## Quiz
 
 ### What will the following snippet output?
 
-```javascript
+
+```plain-text
 function pi() {
   return
   {
@@ -142,12 +143,14 @@ console.log(pi())
 
  ???
 
-* undefined
-* [object Object]
-* SyntaxError
-* [object Object]
+- undefined
+- [object Object]
+- SyntaxError
+- [object Object]
+
 
 ---
+
 ## Footnotes
 
 [1: Lexical Grammar] JavaScript has a set of rules of how it needs to be written such that it is valid. This set of rules is called a [Lexical Grammar](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Lexical_grammar). One consequence of these rules is that we have to be careful in some situations to not forget to put a `;`. The statements affected by ASI are: `var`, `do`-`while`, `continue`, `break`, `return`, `throw`.

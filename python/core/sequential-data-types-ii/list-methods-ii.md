@@ -1,30 +1,25 @@
 ---
 author: emmab
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-  - workout
-
 links:
- - '[Python List Methods](https://www.programiz.com/python-programming/methods/listl){website}'
-
-
+  - >-
+    [Python List
+    Methods](https://www.programiz.com/python-programming/methods/listl){website}
 ---
 
 # List Methods II
 
+
 ---
+
 ## Content
 
 So we know about `append`, `extend`, `reverse`, `remove` and `pop`.  There are just a few more `list` methods to know for now!
 
 - The `sort()` method sorts a `list` in ascending order, either alphabetically or numerically:
 
-```python
+```plain-text
 number_list = [6, 5, 3, 2]
 
 number_list.sort()
@@ -40,7 +35,7 @@ print(letters)
 
 - The `insert()` method *inserts an element at a given index*:
 
-```python
+```plain-text
 number_list.insert(4, 6)
 
 print(number_list)
@@ -49,7 +44,9 @@ print(number_list)
 
 The syntax for this requires that the `index` is given as the *first argument*, and the `item` to insert as the *second argument*.
 
+
 ---
+
 ## Practice
 
 Complete the code snippet to return a sorted `list` of `keyboard`:
@@ -62,14 +59,16 @@ keyboard.???()
 # ['e', 'q', 'r', 't', 'w', 'y']
 ```
 
-* `sort`
-* `key`
-* `order`
-* `priority`
-* `change`
-* `remove`
+- `sort`
+- `key`
+- `order`
+- `priority`
+- `change`
+- `remove`
+
 
 ---
+
 ## Revision
 
 How would you insert the word `'tres'` into the following `list` so that it's at index 2?
@@ -81,7 +80,7 @@ list.???(???)
 # ['uno', 'dos', 'tres', 'cuatro']
 ```
 
-* `list.insert(2, 'tres')`
-* `list.insert(3, tres)`
-* `list.append(2, 'tres')`
-* `list.extend(2, 'tres)'`
+- `list.insert(2, 'tres')`
+- `list.insert(3, tres)`
+- `list.append(2, 'tres')`
+- `list.extend(2, 'tres)'`

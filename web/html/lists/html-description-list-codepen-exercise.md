@@ -24,4 +24,3 @@ In this exercise, you have to create a description list.
 The list should have 2 terms and 2 descriptions describing those terms.
 
 Example of the finished exercise is on codepen.
- 

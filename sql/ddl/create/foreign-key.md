@@ -38,14 +38,14 @@ Consider the following tables:
 
 As with `PRIMARY KEY`s, `FOREIGN KEY`s can be defined when creating a table or added at a later time. In this insight you will learn how to define a `FOREIGN KEY` when creating your table. For the `employees` and `departments` table, we know that the `department_id` and the `id` columns contain identical values. We would then like to create a reference between these tables. This would be done as such:
 
-```sql
+```plain-text
 CREATE TABLE departments (
   id INT PRIMARY KEY,
   name VARCHAR
 );
 ```
 
-```sql
+```plain-text
 CREATE TABLE employees (
   id INT,
   name VARCHAR,
@@ -86,18 +86,18 @@ How would you define the `employees` table such that there is a constraint named
 );
 ```
 
-* CREATE TABLE
-* CONSTRAINT
-* emp_subs
-* FOREIGN KEY
-* (subsidiary_id)
-* REFERENCES
-* id
-* MAKE TABLE
-* PRIMARY KEY
-* RELATES
-* name
-* email
+- CREATE TABLE
+- CONSTRAINT
+- emp_subs
+- FOREIGN KEY
+- (subsidiary_id)
+- REFERENCES
+- id
+- MAKE TABLE
+- PRIMARY KEY
+- RELATES
+- name
+- email
 
 
 ---
@@ -106,10 +106,10 @@ How would you define the `employees` table such that there is a constraint named
 
 Consider you have the table `servers` which has a column `id` defined as a `PRIMARY KEY`. Create a new table name `players` with the following columns:
 
-* `id` which can't take `NULL` values
-* `name`
-* `age`
-* `server_id` which references the `id` column from the `servers` table
+- `id` which can't take `NULL` values
+- `name`
+- `age`
+- `server_id` which references the `id` column from the `servers` table
 
 ```sql
 ??? players (
@@ -123,17 +123,17 @@ Consider you have the table `servers` which has a column `id` defined as a `PRIM
 );
 ```
 
-* CREATE TABLE
-* NOT NULL
-* CONSTRAINT
-* FOREIGN KEY
-* server_id
-* REFERENCES
-* MAKE TABLE
-* NOT ZERO
-* id
-* RELATES
-* PRIMARY KEY
+- CREATE TABLE
+- NOT NULL
+- CONSTRAINT
+- FOREIGN KEY
+- server_id
+- REFERENCES
+- MAKE TABLE
+- NOT ZERO
+- id
+- RELATES
+- PRIMARY KEY
 
 
 ---
@@ -142,4 +142,3 @@ Consider you have the table `servers` which has a column `id` defined as a `PRIM
 
 [1:UNIQUE Constraint]
 The `UNIQUE` constraint is very similar to `PRIMARY KEY` but it has two small differences. The first is that a column defined as `UNIQUE` can hold `NULL` values, and because the expression `NULL = NULL` doesn't evaluate to `true` (it evaluates to `unknown`) the column can hold multiple `NULL` values. The second difference is that there can only be one column defined as `PRIMARY KEY`, but there can be many columns defined as `UNIQUE`.
- 

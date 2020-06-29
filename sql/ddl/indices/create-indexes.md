@@ -36,14 +36,14 @@ Indices[1] play a big part in the *performance* of the SQL Server database. Indi
 
 There are two main types of indices:
 
-* *clustered* - they store the actual data of the whole element's row. An important feature of the clustered indices is that the indexed values are sorted in either ascending or descending order. This means that a table can only have one clustered index on it
-* *non-clustered* - they store only values from the indexed columns and the row locators to the actual data on the row. A table can have multiple non-clustered indices associated with it
+- *clustered* - they store the actual data of the whole element's row. An important feature of the clustered indices is that the indexed values are sorted in either ascending or descending order. This means that a table can only have one clustered index on it
+- *non-clustered* - they store only values from the indexed columns and the row locators to the actual data on the row. A table can have multiple non-clustered indices associated with it
 
 Note that a table with a clustered index on it is called *clustered table* and one that contains non-clustered indices only is called *heap*.
 
 If we want to create a *non-clustered* index:
 
-```sql
+```plain-text
 CREATE INDEX index_name
 ON table_name (column1, column2, ...)
 ```
@@ -52,7 +52,7 @@ This would create an index called `index_name` on the table called `table_name` 
 
 If we want to create a *clustered* index:
 
-```sql
+```plain-text
 CREATE UNIQUE INDEX index_name
 ON table_name (col1 DESC, col2 ASC, ...)
 ```
@@ -82,11 +82,11 @@ Create an index on the following table, on the `region_id` and `name` columns. I
 ON region (???, name);
 ```
 
-* CREATE
-* INDEX
-* region_id
-* UNIQUE
-* region
+- CREATE
+- INDEX
+- region_id
+- UNIQUE
+- region
 
 
 ---
@@ -110,9 +110,9 @@ Consider the `version` table. Suppose no primary key was defined for it. We need
 
 ???
 
-* CREATE UNIQUE INDEX "u_index" ON version (version_group_id ASC);
-* CREATE UNIQUE INDEX "u_index" ON version (version ASC);
-* CREATE INDEX "u_index" ON version (version_group_id ASC);
+- CREATE UNIQUE INDEX "u_index" ON version (version_group_id ASC);
+- CREATE UNIQUE INDEX "u_index" ON version (version ASC);
+- CREATE INDEX "u_index" ON version (version_group_id ASC);
 
 
 ---
@@ -124,7 +124,7 @@ Consider the `version` table. Suppose no primary key was defined for it. We need
 
 Given a table called `ability` from our pokemon database:
 
-```bash
+```plain-text
 id   | is_main_series | generation_id |      name      
 =====|================|===============|===============
    1 | t              |             3 | stench
@@ -138,10 +138,10 @@ It doesn't have a `PRIMARY KEY` set so far. Create an index to define `ability`'
 
  ???
 
-* CREATE UNIQUE INDEX ability_pk ON ability(id ASC).
-* CREATE INDEX ability_pk ON ability(id ASC).
-* CREATE UNIQUE INDEX ability_pk ON ability(ability_id ASC).
-* CREATE INDEX ability_pk ON ability(name ASC).
+- CREATE UNIQUE INDEX ability_pk ON ability(id ASC).
+- CREATE INDEX ability_pk ON ability(id ASC).
+- CREATE UNIQUE INDEX ability_pk ON ability(ability_id ASC).
+- CREATE INDEX ability_pk ON ability(name ASC).
 
 
 ---
@@ -150,4 +150,3 @@ It doesn't have a `PRIMARY KEY` set so far. Create an index to define `ability`'
 
 [1:Indices]
 Reasonable people differ when they refer to the plural of Index. Some people use Indices, some use Indexes.
- 

@@ -19,7 +19,7 @@ The easier way of creating a thread is by extending the `Thread` class since we 
 
 Simply:
 
-```java
+```plain-text
 public class ThisIsThread
            extends Thread {
   @Override
@@ -35,7 +35,7 @@ public class ThisIsThread
 
 Then in the `main` function:
 
-```java
+```plain-text
 public class Main {
   public static void main(String[] args) {
     //instantiating a new thread
@@ -69,12 +69,12 @@ Should a thread object be passed to an instance of a `Thread` class?
 
 ???
 
-* `run()`
-* `start()`
-* No
-* Yes
-* It does not matter
-* `create()`
+- `run()`
+- `start()`
+- No
+- Yes
+- It does not matter
+- `create()`
 
 
 ---
@@ -85,6 +85,5 @@ When we create an object which extends `Thread` do we need to pass this object t
 
 ???
 
-* No, as it is a thread itself
-* Yes, as it is only a runnable object
- 
+- No, as it is a thread itself
+- Yes, as it is only a runnable object

@@ -26,10 +26,10 @@ links:
 
 In order to review source code to establish whether or not your application is vulnerable to XSS attacks, ask yourself the following questions:
 
-* Does my application *store unvalidated input*?
-* Does my application *write unescaped user input to the page*?
-* Does my application *write unescaped user input to another page*?
-* Do all of my endpoints contain *server side validation*?
+- Does my application *store unvalidated input*?
+- Does my application *write unescaped user input to the page*?
+- Does my application *write unescaped user input to another page*?
+- Do all of my endpoints contain *server side validation*?
 
 Bookmark this insight to receive links to OWASP testing guides for XSS that you can use on your own applications.
 
@@ -41,9 +41,9 @@ Bookmark this insight to receive links to OWASP testing guides for XSS that you 
 Which of these will produce a vulnerability to XSS?
 ???
 
-* Storing unvalidated input
-* Using JSON
-* Using web forms
+- Storing unvalidated input
+- Using JSON
+- Using web forms
 
 
 ---
@@ -53,7 +53,6 @@ Which of these will produce a vulnerability to XSS?
 Which of these will produce a vulnerability to XSS?
 ???
 
-* Writing unvalidated input to the page
-* Allowing connections to your website from any IP address
-* Accepting input from any IP address
- 
+- Writing unvalidated input to the page
+- Allowing connections to your website from any IP address
+- Accepting input from any IP address

@@ -1,33 +1,15 @@
 ---
 author: jfarmer
-
-levels:
-
-  - beginner
-
-  - basic
-
-  - medium
-
-  - advanced
-
 type: normal
-
 category: must-know
-
-aspects:
-
-  - deep
-
-  - workout
-
 parent: verifying-a-binary-search-tree
-
 ---
 
 # Inserting Data Into a Binary Search Tree
 
+
 ---
+
 ## Content
 
 To insert a new key into a BST, we traverse between the left and right children according to how the new key compares to the key at each node, and find the first empty leaf node where the new key fits.
@@ -53,11 +35,14 @@ The final result is a BST that looks like this:
 
 You may have noticed that the shape of the BST depends on the order in which the data is inserted. For example, if the data were all inserted in ascending (or descending order), we would wind up with what essentially resembles a sorted linked list[1].
 
+
 ---
+
 ## Practice
 
 How many checks are required to insert `9` in this BST?
-```
+
+```plain-text
        7
      /   \
     3    10
@@ -66,17 +51,20 @@ How many checks are required to insert `9` in this BST?
 ???
 ```
 
-* `4`
-* `2`
-* `3`
-* `1`
-* `5`
+- `4`
+- `2`
+- `3`
+- `1`
+- `5`
+
 
 ---
+
 ## Revision
 
 How many checks are required to insert `5` in this BST?
-```
+
+```plain-text
        6
      /   \
     3    10
@@ -85,14 +73,16 @@ How many checks are required to insert `5` in this BST?
 ???
 ```
 
-* `3`
-* `2`
-* `5`
-* `1`
-* `4`
+- `3`
+- `2`
+- `5`
+- `1`
+- `4`
+
 
 ---
+
 ## Footnotes
+
 [1: Worst-case scenario]
 This refers to the case in which the tree's *height* (the distance between the root and the furthest away leaf from the root) is equal to the number of nodes in the tree. In this case, the operations that normally take `O(log n)` end up taking `O(n)`.
-

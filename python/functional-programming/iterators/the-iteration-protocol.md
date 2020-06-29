@@ -1,28 +1,18 @@
 ---
 author: stefkn
-
-levels:
-  - beginner
-  - basic
-  - medium
-
-aspects:
-  - introduction
-  - workout
-
 type: normal
-
 category: must-know
-
 links:
-  - '[Iteration Protocol](https://medium.com/the-python-corner/iterators-and-generators-in-python-2c3929a144b){website}'
-
-
+  - >-
+    [Iteration
+    Protocol](https://medium.com/the-python-corner/iterators-and-generators-in-python-2c3929a144b){website}
 ---
 
 # The Iteration Protocol
 
+
 ---
+
 ## Content
 
 The iteration protocol simply refers to the flow of actions that take place each step of an iteration. Iteration is the process of taking one element at a time from a group of elements sequentially; in Python specifically, an iteration is the process of looping through an `iterable` object, which is a collection of objects, and doing something with each element.
@@ -33,7 +23,7 @@ Each time we call the `next` method on the iterator given, it returns the next e
 
 Iterators are always implemented as classes. Let's examine an iterator's code for a better understanding:
 
-```python
+```plain-text
 class Counter(object):
     def __init__(self, start, finish):
         self.current = start
@@ -58,7 +48,7 @@ Notice how the iterator itself has an `iter` method implemented. This means that
 
 We can use many of Python's built-in functions on iterators and get proper results:
 
-```python
+```plain-text
 print(list(Counter(0, 5)))
 # Result: [0, 1, 2, 3, 4, 5]
 print(sum(Counter(0,5)))
@@ -67,7 +57,7 @@ print(sum(Counter(0,5)))
 
 It's important to remember that if the iterator and iterable are both the same object, it is consumed after just one full iteration. Built-in functions such as `list` and `sum` (and more) work by iterating through the whole iterator to produce their answer, so if we execute:
 
-```python
+```plain-text
 thing = (Counter(0, 5))
 print(list(thing))
 # Result: [0, 1, 2, 3, 4, 5]
@@ -77,26 +67,29 @@ print(list(thing))
 
 ...the second time we call list, it is as if the iterable is completely empty. This would not be the case if we called `list` directly on `Counter(0, 5)`, since it would be a new iterator each time.
 
+
 ---
+
 ## Practice
 
 What happens when an iterator reaches the end of the sequence being iterated on?
 
 ???
 
+- `StopIteration` exception
+- `FinishIteration` exception
+- `ReferenceError` exception
+- `TypeError` exception
+- Nothing
 
-* `StopIteration` exception
-* `FinishIteration` exception
-* `ReferenceError` exception
-* `TypeError` exception
-* Nothing
 
 ---
+
 ## Revision
 
 What is the result of the following code execution?
 
-```python
+```plain-text
 iterator = Counter(0,5)
 print(sum(iterator))
 print(sum(iterator))
@@ -104,16 +97,17 @@ print(sum(iterator))
 
 ???
 
+- `15`, then `0`
+- `TypeError` exception
+- `15`, then `15`
+- `5`, then `5`
+- `5`, then `0`
 
-* `15`, then `0`
-* `TypeError` exception
-* `15`, then `15`
-* `5`, then `5`
-* `5`, then `0`
 
 ---
+
 ## Footnotes
+
 [1:`StopIteration` exception]
 An exception is simply another word for an error. Taken directly from the Python 3.6 documentation:
 "Raised by built-in function `next()` and an iterator‘s `__next__()` method to signal that there are no further items produced by the iterator. The exception object has a single attribute value, which is given as an argument when constructing the exception, and defaults to None."
- 

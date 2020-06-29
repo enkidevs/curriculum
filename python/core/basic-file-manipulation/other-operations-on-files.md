@@ -1,36 +1,26 @@
 ---
 author: SebaRaba
-
-levels:
-
-  - beginner
-
 type: normal
-
 category: feature
-aspects:
-  - introduction
-standards:
-  python.standard-library-operating-system.0: 10
-
 links:
-
-  - '[More operations here](https://www.tutorialspoint.com/python/python_files_io.htm){website}'
-
-
+  - >-
+    [More operations
+    here](https://www.tutorialspoint.com/python/python_files_io.htm){website}
 ---
 
 # Other operations on files
 
+
 ---
+
 ## Content
 
 **Python** provides more methods to ease `I/O` interactions and **file handling**. Among these we can count:
+
 - `tell()` which returns the current position in the file
 - `seek(offset, from_what)` which moves the **file pointer** within the file
 - `rename(old_name, new_name)` which enables users to rename files
 - `remove(path)` which enables users to remove files
-
 
 In **Python**, the `tell()` function returns the current position in the **file**. This **position** is represented by the number of **bytes** after the beginning of the file.
 
@@ -41,7 +31,8 @@ In **Python**, the `tell()` function returns the current position in the **file*
 - `2`: which means at the end of the file.
 
 Let's see how `tell()` and `seek()` work in practice, considering a dummy `file.txt`[1]:
-```python
+
+```plain-text
 
 file = open('file.txt','r+')
 text = file.read(7)
@@ -69,42 +60,45 @@ Apart from other uses, `os` module helps with **file processing operations**. Tw
 
 As `os` is a **module**, we need to **import** it to be able to use the operations it provides:
 
-```python
+```plain-text
 import os
 
 os.rename('file.txt','new_file.txt');
 os.remove('new_file.txt');
 ```
 
+
 ---
+
 ## Practice
 
 We want to open `file.txt` just for reading purposes. After we want to print it line by line and print the content.
-```
+
+```plain-text
 file = open('file.txt','???')
 print(???.readline())
 ```
 
+- `r`
+- `file`
+- `seek`
+- `tell`
+- `write`
+- `read`
+- `w`
+- `rename`
+- `remove`
 
-* `r`
-* `file`
-* `seek`
-* `tell`
-* `write`
-* `read`
-* `w`
-* `rename`
-* `remove`
 
 ---
+
 ## Revision
 
 Which method returns the current position of the file pointer within a **file object**?
 
 ???
 
-
-* `tell()`
-* `seek()`
-* `open()`
-* `readline()`
+- `tell()`
+- `seek()`
+- `open()`
+- `readline()`

@@ -1,30 +1,26 @@
 ---
 author: catalin
-
 type: normal
-
 category: feature
-
 links:
-  - '[Immutability Helper](https://github.com/kolodny/immutability-helper){website}'
-
+  - >-
+    [Immutability
+    Helper](https://github.com/kolodny/immutability-helper){website}
 parent: custom-proptype-s-to-be-required
-
-aspects:
-  - deep
-
 ---
 
 # Immutability helpers in React
 
+
 ---
+
 ## Content
 
 When opting in for an immutable style of data management, a significant speedup can be achieved by implementing a `shouldComponentUpdate()` lifecycle method. To do this, you would need a method that aids with comparing *versions* of your component's `state`.
 
 Let's take a look at the following example of mutating data:
 
-```javascript
+```plain-text
 myData.x.y.z = 10;
 // or...
 myData.a.b.push(13);
@@ -34,13 +30,13 @@ Given the fact that **JavaScript** wasn't designed for dealing with immutable da
 
 This new library can be installed using the NPM package manager:
 
-```shell
+```plain-text
 npm install immutability-helper --save
 ```
 
 Now, with the help of the immutability helper we would write:
 
-```javascript
+```plain-text
 import update from "immutability-helper";
 
 const newData = update(myData, {
@@ -57,7 +53,7 @@ In terms of notation, keys that are preceded by a `$` are called **commands** (`
 
 Here is how you would perform a shallow merge using the `update()` method:
 
-```javascript
+```plain-text
 var obj = { a: 5, b: 3 };
 var newObj = update(obj, {
   $merge: { b: 6, c: 7 }
@@ -67,12 +63,14 @@ var newObj = update(obj, {
 
 Other commands worth mentioning are `{ $unshift: array }` and `{ $splice: array of arrays }`, but you can see all the available methods in the Resources section of this insight.
 
+
 ---
+
 ## Practice
 
 Given:
 
-```javascript
+```plain-text
 myData.x.y = 3;
 myData.a.b.push(4);
 ```
@@ -88,23 +86,24 @@ var newObj = ???(myData, {
 });
 ```
 
+- `update`
+- `$`
+- `push`
+- `set`
+- `$unshift`
+- `splice`
+- `arrray`
+- `{`
+- `}`
 
-* `update`
-* `$`
-* `push`
-* `set`
-* `$unshift`
-* `splice`
-* `arrray`
-* `{`
-* `}`
 
 ---
+
 ## Revision
 
 Given:
 
-```javascript
+```plain-text
 myData.x.y = 3;
 myData.a.b.push(4);
 ```
@@ -120,18 +119,19 @@ var newObj = ???(myData, {
 });
 ```
 
+- `update`
+- `$`
+- `push`
+- `set`
+- `$unshift`
+- `splice`
+- `arrray`
+- `{`
+- `}`
 
-* `update`
-* `$`
-* `push`
-* `set`
-* `$unshift`
-* `splice`
-* `arrray`
-* `{`
-* `}`
 
 ---
+
 ## Footnotes
 
 [1:Deep Copies]

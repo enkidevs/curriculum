@@ -1,39 +1,26 @@
 ---
 author: adamMontgomerie
-
-levels:
-
-  - basic
-
-  - advanced
-
-  - medium
-
 type: normal
-
 category: how to
-
 tags:
-
   - exceptions
-
   - strings
-
 links:
-
-  - '[www.javapractices.com](http://www.javapractices.com/topic/TopicAction.do?Id=78){website}'
-
+  - >-
+    [www.javapractices.com](http://www.javapractices.com/topic/TopicAction.do?Id=78){website}
 ---
 
 # Converting stack trace to a string
 
+
 ---
+
 ## Content
 
 To store stack trace as a string, you can use `Throwable.printStackTrace(...)`  
 For example:
 
-```java
+```plain-text
 public static String getStackTrace(
   Throwable throwable
 ){

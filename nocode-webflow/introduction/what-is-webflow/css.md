@@ -1,22 +1,14 @@
 ---
 author: Stefan-Stojanovic
-
-levels:
-  - beginner
-
-aspects:
-  - introduction
-  - workout
-
 type: normal
-
 category: how to
-
 ---
 
 # Cascading Style Sheets
 
+
 ---
+
 ## Content
 
 `CSS` or **Cascading Style Sheets** is a `stylesheet` language used to describe the presentation of an HTML, XML, or XHTML document. It's used to provide styling for text, images, & links.
@@ -31,10 +23,12 @@ To learn more about `CSS`, check out our `Web -> Styling` course.
 
 > Note: as with all the skills in the app, if you want to access more advanced or specific content at any time, **feel free to use the *Skill Map* tab** to jump to the workouts most relevant for you.
 
+
 ---
+
 ## Practice
 
 CSS is good for ???.
 
-* styling websites
-* creating the structure of a website
+- styling websites
+- creating the structure of a website

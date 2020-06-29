@@ -18,4 +18,3 @@ links:
 ## Exercise
 
 Practice working with `nested data` and `data structures` in python.
- 

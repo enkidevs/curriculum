@@ -65,10 +65,10 @@ test.prop1 = ???;
 ??? ;
 ```
 
-* undefined
-* delete test.prop2
-* null
-* delete prop2
+- undefined
+- delete test.prop2
+- null
+- delete prop2
 
 
 ---
@@ -85,7 +85,6 @@ console.log(obj);
 
 ```
 
-* `{ one: undefined }`
-* `{ one: null }`
-* `{ }`
- 
+- `{ one: undefined }`
+- `{ one: null }`
+- `{ }`

@@ -1,37 +1,18 @@
 ---
 author: jfarmer
-
-levels:
-
-  - basic
-
-  - beginner
-
 type: normal
-
 category: must-know
-
 inAlgoPool: false
-
 tags:
-
-  - introduction
-
-  - workout
-
-
-
-
-aspects:
   - introduction
   - workout
-
-
 ---
 
 # Changing File Permissions With `chmod`
 
+
 ---
+
 ## Content
 
 While the `chown` command allows us to change a file's ownership, the `chmod` command allows the permissions.
@@ -42,7 +23,7 @@ There are many ways to use the `chmod` command, so make sure to read `man chmod`
 
 Start with these three examples:
 
-```shell
+```plain-text
 # Make ~/waffles.txt user writable
 chmod u+w ~/waffles.txt
 
@@ -59,7 +40,7 @@ If instead we used `u-w` or `u-r`, we would *remove* the writable (or readable) 
 
 Here we can better see how the changes are reflected in `ls` output:
 
-```shell
+```plain-text
 ls -l waffles.txt
 -rw-r--r-- 1 jesse admin
     0 Jun 13 08:45 waffles.txt
@@ -79,52 +60,58 @@ ls -l waffles.txt
 
 As we add and remove permissions, you can see the changes reflected in the permission string displayed by `ls -l`.
 
+
 ---
+
 ## Practice
 
 Give *full* access to `enki.txt` for the user and its group and remove access of others:
-```
+
+```plain-text
 ??? ???,o??? ???
 ```
 
-* `chmod`
-* `ug+rwx`
-* `-rwx`
-* `enki.txt`
-* `ugo`
-* `+rwx`
+- `chmod`
+- `ug+rwx`
+- `-rwx`
+- `enki.txt`
+- `ugo`
+- `+rwx`
+
 
 ---
+
 ## Revision
 
 What does `chmod go+x` do?
 
 ???
 
-* Gives execute permissions to group and others
-* Removes execute permissions from group and others
-* Gives write and read permissions to user
-* Removes write and read permission from group and others
+- Gives execute permissions to group and others
+- Removes execute permissions from group and others
+- Gives write and read permissions to user
+- Removes write and read permission from group and others
+
 
 ---
-## Quiz 
+
+## Quiz
+
 ### How do you run a script with elevated permissions?
+
 
 Suppose you have a sh file named `script.sh`.
 What of the following commands is the most
 likely to successfully run the script?
-```bash
+
+```plain-text
 ./script.sh
 bash: permission denied: ./script.sh
 ```
 
-
  ???
 
-* chmod +x script.sh && ./script.sh
-* sudo ./script.sh
-* rm ./script.sh
-* echo "#!/bin/sh" > script.sh && ./script.sh
- 
- 
- 
+- chmod +x script.sh && ./script.sh
+- sudo ./script.sh
+- rm ./script.sh
+- echo "#!/bin/sh" > script.sh && ./script.sh

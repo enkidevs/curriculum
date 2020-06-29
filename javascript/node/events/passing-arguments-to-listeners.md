@@ -21,7 +21,7 @@ parent: synchronous-event-delivery
 
 The `eventEmitter.emit()` method allows for a set of arguments to be passed to the listener functions. The `this` keyword, when passed, is set to reference the `EventEmitter` to which the listener is attached.
 
-```javascript
+```plain-text
 var EventEmitter = require('events');
 class MyEmitter extends EventEmitter {}
 const emitter = new MyEmitter();
@@ -39,7 +39,7 @@ emitter.emit('event', 'En', 'ki');
 
 Gives the following output:
 
-```javascript
+```plain-text
 En ki MyEmitter {
   domain: null,
   _events: { event: [Function] },
@@ -55,8 +55,7 @@ En ki MyEmitter {
 What does `this` refer to inside of a callback registered to listen to an event on an `EventEmitter`?
 ???
 
-* The instance of `EventEmitter`
-* global
-* event
-* window
- 
+- The instance of `EventEmitter`
+- global
+- event
+- window

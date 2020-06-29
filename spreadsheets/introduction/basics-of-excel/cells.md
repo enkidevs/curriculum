@@ -1,18 +1,14 @@
 ---
 author: Stefan-Stojanovic
-
-aspects:
-  - introduction
-
 type: normal
-
 category: must-know
-
 ---
 
 # Cells
 
+
 ---
+
 ## Content
 
 A *cell* is *the intersection point of a row and a column*. Since each row has a number, and each column has a letter, each cell corresponds to a letter-number combination. This combination is called a cell's `address`.
@@ -22,6 +18,7 @@ For example, a cell in column `C` and row `20` has the address `C20`.
 Cells are essentially **storage units that can contain numbers, text, formulas, dates, and more**.
 
 There are four types of cells:
+
 1. Numbers (Formulas, Dates and Times)
 2. Strings
 3. Boolean

@@ -1,22 +1,14 @@
 ---
 author: Stefan-Stojanovic
-
-levels:
-  - beginner
-
-aspects:
-  - introduction
-  - workout
-
 type: normal
-
 category: must-know
-
 ---
 
 # The Box Model
 
+
 ---
+
 ## Content
 
 The box model is used to describe the layout of elements in the webpage.
@@ -40,18 +32,21 @@ You can use the container to edit the positioning, animation, styling and more o
 The box model has a responsive design. This means that the box size and position depends on the resolution it is being viewed on. 
 
 Since everything on Webflow is customizable, you can set your boxes to have the following sizes:
-* fixed
-* relative
-* auto-adjustable based on resolution
+
+- fixed
+- relative
+- auto-adjustable based on resolution
+
 
 ---
+
 ## Practice
 
 Which of these sentences **is not true** about the box model?
 
 ???
 
-* Boxes cannot be nested inside other boxes.
-* All elements are treated as boxes.
-* Boxes can be nested inside other boxes.
-* Boxes can be placed in containers for easier access, editing and more.
+- Boxes cannot be nested inside other boxes.
+- All elements are treated as boxes.
+- Boxes can be nested inside other boxes.
+- Boxes can be placed in containers for easier access, editing and more.

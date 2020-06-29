@@ -15,14 +15,14 @@ Since Java 7 it's not necessary to declare the type parameter twice while instan
 
 Consider the following code:
 
-```java
+```plain-text
 Map<String, List<Integer>> phoneBook = new 
 HashMap<String, List<Integer>>();
 ```
 
 The type parameter for HashMap in the right hand side of the expression seems redundant. This can be shortened using an empty "Diamond Operator" to give:
 
-```java
+```plain-text
 Map<String, List<Integer>> phoneBook = new 
 HashMap<>();
 ```
@@ -34,7 +34,7 @@ HashMap<>();
 
 Which of the following Java code snippets is most efficient and illustrates the correct use of a Diamond Operator?
 
-```java
+```plain-text
 // Example A
 Map<String, List<Integer>> map =
  new HashMap<String, List<Integer>>();
@@ -50,9 +50,9 @@ Map<String, List<Integer>> map =
 
 ???
 
-* Example C
-* Example A
-* Example B
+- Example C
+- Example A
+- Example B
 
 
 ---
@@ -61,7 +61,7 @@ Map<String, List<Integer>> map =
 
 Which of the following Java code snippets is most efficient and illustrates the correct use of a Diamond Operator?
 
-```java
+```plain-text
 //Example A
 Map<String, List<Integer>> map =
  new HashMap<String, List<Integer>>();
@@ -77,7 +77,6 @@ Map<String, List<Integer>> map =
 
 ???
 
-* Example B
-* Example A
-* Example C
- 
+- Example B
+- Example A
+- Example C

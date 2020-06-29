@@ -1,37 +1,19 @@
 ---
 author: mihaiberq
-
-levels:
-  - beginner
-  - basic
-  - medium
-  - advanced
-
 type: normal
-
 category: feature
-
 parent: scripts-lifecycle
-
-standards:
-  javascript.npm-tasks-and-modules-manager.1: 10
-  javascript.npm-tasks-and-modules-manager.3: 10
-
 tags:
   - introduction
   - workout
   - deep
-
-aspects:
-  - introduction
-  - workout
-  - deep
-
-
 ---
+
 # Remote Scripts
 
+
 ---
+
 ## Content
 
 Another feature of *npm* is running external scripts. These include shell scripts, Makefiles or other build tools that you are more familiar with.
@@ -40,7 +22,7 @@ Let's say we have both a shell script (`.sh`) and a Makefile that accomplish dif
 
 For example:
 
-```javascript
+```plain-text
 "scripts": {
   "backend": "cd backend && make",
   "deploy:complex": "./deploy.sh"
@@ -49,7 +31,7 @@ For example:
 
 You can then use `npm run` to run both. In case of the Makefile, the target can also be specified:
 
-```bash
+```plain-text
 npm run backend dev
 ```
 
@@ -62,7 +44,9 @@ dev:
     node server.js
 ```
 
+
 ---
+
 ## Practice
 
 Consider there is a Makefile in the `output` directory of your project. You want to run this with `prod` argument via an npm script called `makeOutput`:
@@ -84,22 +68,24 @@ How would you run the script?
 ??? ??? ???
 ```
 
-* scripts
-* makeOutput
-* cd output
-* &&
-* make
-* npm run
-* makeOutput
-* prod
-* ||
-* and
-* npm
-* makeFile
-* output
-* add
+- scripts
+- makeOutput
+- cd output
+- &&
+- make
+- npm run
+- makeOutput
+- prod
+- ||
+- and
+- npm
+- makeFile
+- output
+- add
+
 
 ---
+
 ## Revision
 
 The syntax to add an `external_script.sh` to *package.json* is:
@@ -110,9 +96,7 @@ The syntax to add an `external_script.sh` to *package.json* is:
 }
 ```
 
-* scripts
-* ./external_script.sh
-* script
-* external_script.js
- 
- 
+- scripts
+- ./external_script.sh
+- script
+- external_script.js

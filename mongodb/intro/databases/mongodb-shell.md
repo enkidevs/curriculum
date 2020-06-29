@@ -13,19 +13,19 @@ category: must-know
 
 Before creating or accessing a database in MongoDB, you should first start the MongoDB shell. The MongoDB shell is an interactive JavaScript shell. To start it, you need to use the `mongo` command.
 
-```shell
+```plain-text
 mongo
 ```
 
 To see ways you can use the `mongo` shell command, pass in the `--help` flag:
 
-```shell
+```plain-text
 mongo --help
 ```
 
 After starting the shell, a series of commands will be available to you. You can **CRUD** (Create, Read, Update and Delete) a database, **CRUD** collections and documents, and more. To see a list of those commands, use the `help` command:
 
-```shell
+```plain-text
 help
 
 #db.help()         help on db methods
@@ -35,7 +35,7 @@ help
 
 To see all existing non-empty databases do:
 
-```shell
+```plain-text
 show dbs
 
 #admin  0.000GB
@@ -47,7 +47,7 @@ Note that because we haven't created any databases yet, we are only seeing the o
 
 You can use the `help()` function to list all the available commands for a particular database:
 
-```shell
+```plain-text
 db.help()
 
 #DB methods:
@@ -57,7 +57,7 @@ db.help()
 
 Or for a particular collection:
 
-```shell
+```plain-text
 db.mycollection.help()
 
 #DBCollection help:
@@ -67,7 +67,7 @@ db.mycollection.help()
 
 Or for a particular collection operation:
 
-```shell
+```plain-text
 db.mycollection.find().help()
 
 #find(<predicate>, <projection>) modifiers
@@ -78,7 +78,7 @@ db.mycollection.find().help()
 
 To exit the shell, you can use the `exit` command.
 
-```shell
+```plain-text
 exit
 
 #bye
@@ -97,9 +97,8 @@ How do you exit/quit the MongoDB interactive JavaScript shell?
 
 ???
 
-* by using the `mongo` command
-* by using the `exit` command
-* by using the `mongodb` command
-* by using the `shell` command
-* by using the `leave` command
- 
+- by using the `mongo` command
+- by using the `exit` command
+- by using the `mongodb` command
+- by using the `shell` command
+- by using the `leave` command

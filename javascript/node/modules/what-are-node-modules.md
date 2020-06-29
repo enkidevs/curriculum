@@ -23,10 +23,10 @@ Node incorporates 3 different module types, modules can either be core modules, 
 
 Using modules when building Node applications give a number of advantages:
 
-* easy and straightforward inclusion of external libraries
-* increased modularity
-* reduced amount of code per file
-* easier to read and maintain code
+- easy and straightforward inclusion of external libraries
+- increased modularity
+- reduced amount of code per file
+- easier to read and maintain code
 
 
 ---
@@ -37,9 +37,9 @@ Which of the following statements about node modules do you consider false?
 
 ???
 
-* using modules will increase the performance of you application
-* using modules can reduce the amount of code per file
-* using modules can make your code easier to maintain and code
+- using modules will increase the performance of you application
+- using modules can reduce the amount of code per file
+- using modules can make your code easier to maintain and code
 
 
 ---
@@ -49,8 +49,7 @@ Which of the following statements about node modules do you consider false?
 Where are third party Node.js modules installed to?
 ???
 
-* node_modules
-* local_modules
-* libraries
-* libs
- 
+- node_modules
+- local_modules
+- libraries
+- libs

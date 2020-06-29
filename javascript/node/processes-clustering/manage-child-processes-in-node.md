@@ -1,34 +1,31 @@
 ---
 author: catalin
-
 type: normal
-
 category: how to
-
 links:
-  - '[Managing Child Processes](http://krasimirtsonev.com/blog/article/Nodejs-managing-child-processes-starting-stopping-exec-spawn){website}'
-
-aspects:
-  - workout
-  - deep
-
+  - >-
+    [Managing Child
+    Processes](http://krasimirtsonev.com/blog/article/Nodejs-managing-child-processes-starting-stopping-exec-spawn){website}
 ---
+
 # Manage Child Processes in Node
 
+
 ---
+
 ## Content
 
 **Node** has the ability to externalize *CPU-intensive* processing in order to free the event loop by *spawning* child processes that can communicate seamlessly with their parents.
 
 The `child_process` module is required for any operation of this sort:
 
-```javascript
+```plain-text
 let child = require('child_process');
 ```
 
 The `exec(command, callback)` can be used to to run **UNIX** commands:
 
-```javascript
+```plain-text
 child.exec("ls", function(
   err,
   stdout,
@@ -43,7 +40,7 @@ child.exec("ls", function(
 
 This method does not provide any means of communicating with the parent and gives a buffered output. The `spawn()` method is an improved version of the first:
 
-```javascript
+```plain-text
 let spawn = require("child_process").spawn;
 
 // Create a child process
@@ -56,13 +53,15 @@ let child = spawn("tail", [
 
 Listeners to `stdout` and `stderr` streams can be added:
 
-```javascript
+```plain-text
 child.stdout.on("data", function(data) {
   console.log(data);
 });
 ```
 
+
 ---
+
 ## Practice
 
 Complete the JS code snippet to create a child process:
@@ -72,23 +71,22 @@ let spawn =
   require('???').???;
 ```
 
+- child_process
+- spawn
+- create-child
+- create
+- new
+- new-process
 
-* child_process
-* spawn
-* create-child
-* create
-* new
-* new-process
 
 ---
+
 ## Revision
 
 What module is required to spawn child processes?
 ???
 
-
-* `child_process`
-* `child_processes`
-* `spawn_process`
-* `child-cpu`
- 
+- `child_process`
+- `child_processes`
+- `spawn_process`
+- `child-cpu`

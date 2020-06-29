@@ -1,25 +1,20 @@
 ---
 author: Stefan-Stojanovic
-
-aspects:
-  - introduction
-  - workout
-
 type: normal
-
 category: how to
-
 ---
 
 # Find and Replace Example
 
+
 ---
+
 ## Content
 
 Let's say we have a table that contains only this column:
 
 | Column |
-|:------:|
+| :----: |
 |   77   |
 |   88   |
 |   77   |

@@ -1,18 +1,14 @@
 ---
 author: kapnobatai136
-
 category: must-know
-
-aspects:
-  - introduction
-
 type: normal
-
 ---
 
 # Tables
 
+
 ---
+
 ## Content
 
 Suppose you've created a base from scratch. When you open it, you'll see something like this:
@@ -33,7 +29,9 @@ Tables belong inside a base. In our example, both `Mars Data` and `Earth Data` a
 
 You can link records from `Mars Data` to `Earth Data` (or vice versa), but you can't link records from a table that belongs to a **different** base.
 
+
 ---
+
 ## Practice
 
 Which of the following phrases is false?
@@ -46,6 +44,6 @@ Base 2  Table C
 
 ???
 
-* You can link records **from Table C** to **Table A**
-* You can link records **from Table B** to **Table A**
-* You can link records **from Table A** to **Table B**
+- You can link records **from Table C** to **Table A**
+- You can link records **from Table B** to **Table A**
+- You can link records **from Table A** to **Table B**

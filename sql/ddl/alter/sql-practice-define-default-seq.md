@@ -35,9 +35,8 @@ Fix all of the errors by creating defaults.
 
 In order to do this properly, you will need to satisfy the following conditions:
 
-* *ID fields should autoincrement*
-* *The `email_verified` and `accepted` fields should default to `false`*
-* *The `daily_price` field should default to `0`*
+- *ID fields should autoincrement*
+- *The `email_verified` and `accepted` fields should default to `false`*
+- *The `daily_price` field should default to `0`*
 
 After that is done, the seed script should run properly.
- 

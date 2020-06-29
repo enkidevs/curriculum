@@ -2,23 +2,25 @@
 author: nem035
 type: normal
 category: must-know
-aspects:
-  - deep
-  - workout
 links:
-  - '[Play with extending interfaces](https://repl.it/@enkicontent/TypeScriptExtendingInterfaces){website}'
-  - '[Interface vs Type Alias](https://medium.com/@martin_hotell/interface-vs-type-alias-in-typescript-2-7-2a8f1777af4c){article}'
-
+  - >-
+    [Play with extending
+    interfaces](https://repl.it/@enkicontent/TypeScriptExtendingInterfaces){website}
+  - >-
+    [Interface vs Type
+    Alias](https://medium.com/@martin_hotell/interface-vs-type-alias-in-typescript-2-7-2a8f1777af4c){article}
 ---
 
 # Extending Interfaces
 
+
 ---
+
 ## Content
 
 Interfaces can be combined by extending one another.
 
-```ts
+```plain-text
 interface Skill {
   name: string;
 }
@@ -50,7 +52,7 @@ This allows you to combine information from one interface into another and organ
 
 In fact, more than one interface can be extended:
 
-```ts
+```plain-text
 interface Skill {
   name: string;
 }
@@ -83,7 +85,9 @@ console.log(
 // "Learning TypeScript every day is fun? true"
 ```
 
+
 ---
+
 ## Practice
 
 Fill in the gaps such that the code compiles without errors:
@@ -109,19 +113,21 @@ let human = {
 };
 ```
 
-* extends
-* 33
-* '33'
-* with
-* implements
-* extend
+- extends
+- 33
+- '33'
+- with
+- implements
+- extend
+
 
 ---
+
 ## Revision
 
 An interface can only extend one other interface.
 
 ???
 
-* False
-* True
+- False
+- True

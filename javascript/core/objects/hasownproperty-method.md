@@ -46,7 +46,7 @@ It is considered the right practice to use `hasOwnProperty` in every `for in loo
 
 What does the following JS code return? ???
 
-```javascript
+```plain-text
 enki = new Object();
 enki.practiceQuestion = 'true';
 
@@ -61,10 +61,10 @@ tricky();
 enki.hasOwnProperty('practiceQuestion');
 ```
 
-* True, False, False
-* True, False, True
-* True, True, False
-* False, True, True
+- True, False, False
+- True, False, True
+- True, True, False
+- False, True, True
 
 
 ---
@@ -75,7 +75,6 @@ enki.hasOwnProperty('practiceQuestion');
 
  ???
 
-* obj hasn’t got ‘prop’ as property
-* obj has the property
-* obj has the property and its value is null
- 
+- obj hasn’t got ‘prop’ as property
+- obj has the property
+- obj has the property and its value is null

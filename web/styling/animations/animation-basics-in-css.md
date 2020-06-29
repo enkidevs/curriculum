@@ -27,7 +27,7 @@ There are two main properties when it comes to animating : `animation` and `keyf
 
 Sample code of a circle moving inside a square:  
 
-```css
+```plain-text
 #ball {
 position: relative;
 animation: ball 4s linear infinite;
@@ -49,7 +49,7 @@ You can also *pause* and *play* CSS animation by changing its `animation-play-st
 
 Setting it to *paused* stops your animation in place, until you change `animation-play-state` to running, for example on hover.
 
-```css
+```plain-text
 #ball {
     animation: spin 10s linear infinite;
     animation-play-state: paused;
@@ -68,10 +68,10 @@ Which keyword determines the actions an element should follow during the animati
 
 ???
 
-* `keyframes`
-* `animation`
-* `actions`
-* `move`
+- `keyframes`
+- `animation`
+- `actions`
+- `move`
 
 
 ---
@@ -84,11 +84,10 @@ There are two main properties when it comes to animating.
 
 ??? is how an element should transition (duration, speed).
 
-* keyframes
-* animation
-* sequence
-* transition
-* movements
-* frames
-* splits
- 
+- keyframes
+- animation
+- sequence
+- transition
+- movements
+- frames
+- splits

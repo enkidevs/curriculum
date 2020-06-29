@@ -1,31 +1,21 @@
 ---
 author: kapnobatai136
- 
-aspects:
-
-  - new
-
-  - workout
-
-  - deep
-
 type: normal
-
 category: how to
-
 links:
   - '[State hooks](https://reactjs.org/docs/hooks-state.html){documentation}'
-
 ---
 
 # State hooks
 
+
 ---
+
 ## Content
 
 Let's start off by looking at how you would usually initialize a state in a class component:
 
-```js
+```plain-text
 class Enki extends React.Component(
   constructor(props) {
     super(props);
@@ -38,7 +28,7 @@ class Enki extends React.Component(
 
 But what if you wanted to use function components? In a function component you can't assign or read `this.state`. This is where hooks come in:
 
-```js
+```plain-text
 import React, { useState } from "react";
 
 function Enki() {
@@ -54,13 +44,13 @@ The only argument you pass to the `useState()` hook is the **initial state**, an
 
 The `useState()` hook returns a pair of values that corresponds to the current state and a function used to update it. It makes use of array destructuring[1], and for this reason you call:
 
-```js
+```plain-text
 const [name, setName] = useState("Enki");
 ```
 
 Now that you have defined the `name` state you can use it anywhere in your component:
 
-```jsx
+```plain-text
 import React, { useState } from "react";
 import ReactDOM from "react-dom";
 
@@ -76,7 +66,9 @@ ReactDOM.render(
 );
 ```
 
+
 ---
+
 ## Practice
 
 Complete the following code that defines the `age` state with a value of 23:
@@ -87,13 +79,15 @@ function Person() {
 }
 ```
 
-* `age`
-* `useState`
-* `23`
-* `this.setState`
-* `setState`
+- `age`
+- `useState`
+- `23`
+- `this.setState`
+- `setState`
+
 
 ---
+
 ## Revision
 
 Complete the following code to define the `count` state and use it in the component's body:
@@ -116,16 +110,18 @@ function Counter() {
 }
 ```
 
-* `count`
-* `useState`
-* `{count}`
-* `setCount`
-* `setState`
-* `this.setState`
-* `this.count`
-* `this.setCount`
+- `count`
+- `useState`
+- `{count}`
+- `setCount`
+- `setState`
+- `this.setState`
+- `this.count`
+- `this.setCount`
+
 
 ---
+
 ## Footnotes
 
 [1:Array destructuring]

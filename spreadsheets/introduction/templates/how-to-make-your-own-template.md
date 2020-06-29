@@ -36,10 +36,9 @@ This will open a new tab called `Publish to the web` where you can choose how to
 
 When publishing, you can choose to either:
 
-* publish the `Entire Document`
-* pick certain sheets and publish them (using whatever file type you choose)
+- publish the `Entire Document`
+- pick certain sheets and publish them (using whatever file type you choose)
 
 After you press publish, you will get a link to the newly published template that you and anyone else can have access to.
 
 ![image-after-publish](https://img.enkipro.com/70e986140bc887b46c97499cde9ce6b3.png)
- 

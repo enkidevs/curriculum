@@ -1,53 +1,30 @@
 ---
 author: tuwidc
-
-levels:
-
-  - basic
-
-  - medium
-
-  - beginner
-
-aspects:
-  - obscura
-  - workout
-
 type: normal
-
 category: hack
-
 tags:
-
   - linux
-
   - lynx
-
   - terminal
-
   - browser
-
   - get
-
-  - 
-
-
-
-
+  - null
 ---
 
 # Terminal based browser
 
+
 ---
+
 ## Content
 
 It is possible to browse websites from the terminal using `lynx`.
 
-```bash
+```plain-text
 lynx https://google.com
 ```
 
-```ssh
+```plain-text
         Search Images Maps Play YouTube
             News Gmail Drive More »
 	Google
@@ -61,22 +38,20 @@ lynx https://google.com
 ```
 
 To get lynx, install the `lynx-cur` package (on Debian systems): as follows:
-```
+
+```plain-text
 sudo apt-get install lynx-cur
 ```
 
+
 ---
+
 ## Revision
 
 You can browse websites from the terminal using the 
 
 ??? .
 
-
-* lynx package
-* browse package
-* firefox package
-
- 
- 
- 
+- lynx package
+- browse package
+- firefox package

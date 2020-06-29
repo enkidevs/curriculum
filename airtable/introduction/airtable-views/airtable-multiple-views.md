@@ -1,18 +1,14 @@
 ---
 author: kapnobatai136
-
 category: must-know
-
-aspects:
-  - introduction
-
 type: normal
-
 ---
 
 # Multiple Views
 
+
 ---
+
 ## Content
 
 So far we've only worked with one view. But in real applications you'll encounter tables with multiple views. Let's take another look at the previous example. We created a view of Catalin; or to be more specific we updated the default view to display only Catalin's tasks.

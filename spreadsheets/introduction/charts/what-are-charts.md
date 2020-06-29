@@ -26,7 +26,6 @@ There are many types of charts that can be used to represent and/or compare data
 
 Charts are ???.
 
-* graphical representations of data
-* visual functions
-* maps of a spreadsheet
- 
+- graphical representations of data
+- visual functions
+- maps of a spreadsheet

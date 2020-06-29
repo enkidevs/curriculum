@@ -33,9 +33,9 @@ What is **Git**'s versioning based on?
 
 ???
 
-* Content of the file
-* Name of the file
-* Both
+- Content of the file
+- Name of the file
+- Both
 
 
 ---
@@ -46,10 +46,10 @@ What type of VCS is Git?
 
 ???
 
-* DVCS
-* CVCS
-* LVCS
-* Mix of CVCS and LVCS
+- DVCS
+- CVCS
+- LVCS
+- Mix of CVCS and LVCS
 
 
 ---
@@ -63,4 +63,3 @@ Tovarld once said: "I'm an egotistical bastard, and I name all my projects after
 
 [2:SHA1]
 SHA-1 (Secure Hash Algorithm 1) was designed by the United States National Security Agency, having been the standard for hashing algorithm in IT.
- 

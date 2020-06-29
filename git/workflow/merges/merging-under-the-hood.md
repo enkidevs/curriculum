@@ -45,9 +45,8 @@ When both branches modify the same part of the same file, conflicts are explicit
 What flag can be used such that fast-forward merge is not used even if its possible?
 ???
 
-* `--no-ff`
-* `-n`
-* `-n-ff`
-* `ff-n`
-* `--twm`
- 
+- `--no-ff`
+- `-n`
+- `-n-ff`
+- `ff-n`
+- `--twm`

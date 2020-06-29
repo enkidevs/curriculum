@@ -1,30 +1,28 @@
 ---
 author: alexjmackey
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-  - new
-  - workout
-
 links:
-  - '[Template Literals in Depth](https://ponyfoo.com/articles/es6-template-strings-in-depth){website}'
-  - '[Template Literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals){documentation}'
-
+  - >-
+    [Template Literals in
+    Depth](https://ponyfoo.com/articles/es6-template-strings-in-depth){website}
+  - >-
+    [Template
+    Literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals){documentation}
 ---
+
 # Template Literals
 
+
 ---
+
 ## Content
 
 A common task in any programming language is to concatenate and format strings.
 
 You have probably found yourself writing like this many times:
 
-```javascript
+```plain-text
 let greeting = "Hi " + name;
 ```
 
@@ -32,7 +30,7 @@ Template Literals provide a more succinct and readable form allowing us to speci
 
 Note how the string itself is also enclosed with the *backtick* characters instead of `'` or `"`:
 
-```javascript
+```plain-text
 let name = "Enki";
 let greeting = `Hello ${name}`;
 // "Hello Enki"
@@ -40,7 +38,7 @@ let greeting = `Hello ${name}`;
 
 We can also use template literals to spread our declaration across multiple lines:
 
-```javascript
+```plain-text
 let name = "User";
 let greeting = `Hello ${name}
 Line1
@@ -55,7 +53,7 @@ Line2"
 
 We can even use expressions within the placeholders:
 
-```javascript
+```plain-text
 let x = 1;
 let y = 2;
 let test = `Hello ${x + y}`;
@@ -64,11 +62,13 @@ let test = `Hello ${x + y}`;
 
 Note that if for some reason you wanted to use a backtick in your expression this can be done by escaping it with a backslash e.g.
 
-```javascript
+```plain-text
 let greeting = `hello \``;
 ```
 
+
 ---
+
 ## Practice
 
 Fill in the template literal syntax:
@@ -80,15 +80,17 @@ console.log(
 );
 ```
 
-* ${name}
-* {name}
-* $name
-* &{name}
-* %{name}
-* %name
-* &name
+- ${name}
+- {name}
+- $name
+- &{name}
+- %{name}
+- %name
+- &name
+
 
 ---
+
 ## Revision
 
 Complete the gaps such that the log is correct:
@@ -111,11 +113,11 @@ console.log(str)
 // 2018
 ```
 
-* ${
-* dayName
-* }
-* ${dayNumber}
-* year
-* dayNumber
-* ${year}
-* {dayNumber}
+- ${
+- dayName
+- }
+- ${dayNumber}
+- year
+- dayNumber
+- ${year}
+- {dayNumber}

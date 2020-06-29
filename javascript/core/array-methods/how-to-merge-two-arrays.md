@@ -1,26 +1,21 @@
 ---
 author: catalin
-
 type: normal
-
 category: hack
-
-aspects:
-  - introduction
-  - workout
-  
 links:
   - '[davidwalsh.name](https://davidwalsh.name/merge-arrays-javascript){website}'
-
 ---
+
 # How to merge two arrays
 
+
 ---
+
 ## Content
 
 One approach that we can use to merge two arrays in JavaScript, is to loop through the first array and add each of its elements to the second array:
 
-```js
+```plain-text
 let array1 = [1, 2, 3];
 let array2 = [4, 5, 6];
 
@@ -34,7 +29,7 @@ console.log(array2);
 
 We can also use the spread operator, i.e. `...`, to do the same with less code:
 
-```js
+```plain-text
 let array1 = [1, 2, 3];
 let array2 = [4, 5, 6];
 
@@ -46,7 +41,7 @@ console.log(array2);
 
 Arrays also have a method that can be used to merge them:
 
-```js
+```plain-text
 let array1 = [1, 2, 3];
 let array2 = [4, 5, 6];
 let array3 = array1.concat(array2);
@@ -54,15 +49,16 @@ let array3 = array1.concat(array2);
 
 The notable difference when using `concat` is that, instead of merging one array into another, it generates a new array out of the two merged arrays.
 
-
 Note that, unlike other languages, JavaScript does not support using `+` to concatenate arrays. The output of such an operation would be a string:
 
-```javascript
+```plain-text
 console.log([1, 2] + [3, 4])
 // 1,23,4
 ```
 
+
 ---
+
 ## Practice
 
 Modify `array1` such that it contains `array2`'s contents in order.
@@ -74,18 +70,20 @@ let array2 = ['d', 'e', 'f'];
 array1.???(???array2)
 ```
 
-* push
-* ...
-* merge
-* +
-* concat
+- push
+- ...
+- merge
+- -
+- concat
+
 
 ---
+
 ## Revision
 
 What is the value of `a` at the end of the following snippet?
 
-```javascript
+```plain-text
 let a = [3, 1, 4]
 let b = [2, 7, 1]
 a.concat(b);
@@ -95,25 +93,26 @@ console.log(a);
 
 ???
 
-* [3, 1, 4]
-* [3, 1, 4, 2, 7, 1]
-* [[3, 1, 4], [2, 7, 1]]
-* 2, 7, 1
+- [3, 1, 4]
+- [3, 1, 4, 2, 7, 1]
+- [[3, 1, 4], [2, 7, 1]]
+- 2, 7, 1
+
 
 ---
+
 ## Quiz
 
 ### what is the result of the following addition?
 
-```javascript
+
+```plain-text
 console.log([3, 14] + [2, 71])
 ```
 
 ???
 
-* 3,142,71
-* 3,14,2,71
-* [3,14,2,71]
-* [5, 85]
- 
- 
+- 3,142,71
+- 3,14,2,71
+- [3,14,2,71]
+- [5, 85]

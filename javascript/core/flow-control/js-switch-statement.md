@@ -1,24 +1,19 @@
 ---
 author: nem035
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-
 ---
 
 # Switch Statement
 
----
-## Content
 
+---
+
+## Content
 
 When needing to do a lot of comparisons for a single value, instead of using many `if..else` statements, code can be made more readable by using the `switch` statement:
 
-```js
+```plain-text
 // this code
 if (a === "5") {
   // ...
@@ -49,9 +44,11 @@ The `break` statement is needed to, as you might've already guessed, break out o
 
 In case you omit `break`, `switch` will run all the following cases until it encounters `break`.
 
+
 ---
+
 ## Revision
- 
+
 Complete the basic syntax of the following `switch` statement:
 
 ```js
@@ -67,10 +64,10 @@ Complete the basic syntax of the following `switch` statement:
 }
 ```
 
-* `switch`
-* `default`
-* `case`
-* `break`
-* `if`
-* `else`
-* `if else`
+- `switch`
+- `default`
+- `case`
+- `break`
+- `if`
+- `else`
+- `if else`

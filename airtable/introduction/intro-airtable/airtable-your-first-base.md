@@ -1,18 +1,14 @@
 ---
 author: kapnobatai136
-
 category: must-know
-
-aspects:
-  - introduction
-
 type: normal
-
 ---
 
 # Your First Base
 
+
 ---
+
 ## Content
 
 The first time you log into Airtable you're presented with the following screen:
@@ -20,11 +16,13 @@ The first time you log into Airtable you're presented with the following screen:
 ![airtable-dashboard](https://img.enkipro.com/89d47b7aad1f5b9ee20e2f3205e25cfe.png)
 
 Let's ignore the first row for now, and click on `Add a base`. Now, you'll be presented with three main options:
+
 - Start with a template
 - Import from spreadsheet
 - Start from scratch
 
 Go ahead and select `Start from scratch` (we'll look at the other options in future insights). Next, select a:
+
 - name
 - color
 - icon

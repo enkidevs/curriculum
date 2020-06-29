@@ -24,7 +24,7 @@ Two selectors can be combined to refer to a certain element. The most common one
 
 ### X+Y
 
-```css
+```plain-text
 ul + p {
    color: orangered;
 }
@@ -35,7 +35,7 @@ This is referred to as *an adjacent selector*. It will select only the element t
 
 ### X~Y
 
-```css
+```plain-text
 ul ~ p {
    font-weight: bold;
 }
@@ -46,7 +46,7 @@ This sibling combinator is similar to `X + Y`, however, it's less strict. While 
 
 Consider the HTML code:
 
-```html
+```plain-text
 <ul>
  <li>First list item.</li>
  <p> A paragraph nested inside the
@@ -67,8 +67,8 @@ Both of the selectors are used in this example:
 
 Which of the following two selectors is an adjacent selector? ???
 
-* `+`
-* `~`
+- `+`
+- `~`
 
 
 ---
@@ -77,7 +77,7 @@ Which of the following two selectors is an adjacent selector? ???
 
 Describe the following CSS code snippet in one line?
 
-```css
+```plain-text
 ul + h {
    font-family: "Arial Narrow";
 }
@@ -85,7 +85,6 @@ ul + h {
 
 ???
 
-* Only the first header after each unordered list will use the Arial Narrow font.
-* The header before and header after each unordered list will use the Arial Narrow font.
-* All headers will use the Arial Narrow font.
- 
+- Only the first header after each unordered list will use the Arial Narrow font.
+- The header before and header after each unordered list will use the Arial Narrow font.
+- All headers will use the Arial Narrow font.

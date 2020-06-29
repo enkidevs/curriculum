@@ -1,22 +1,18 @@
 ---
 author: alexjmackey
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-  - workout
-
 links:
-  - '[MDN - Falsy](https://developer.mozilla.org/en-US/docs/Glossary/Falsy){documentation}'
-
+  - >-
+    [MDN -
+    Falsy](https://developer.mozilla.org/en-US/docs/Glossary/Falsy){documentation}
 ---
 
 # Truthy Falsy
 
+
 ---
+
 ## Content
 
 All values in JavaScript have a corresponding *boolean* value of either `true` or `false`.
@@ -47,7 +43,7 @@ This includes some things you might not expect such as:
 
 All boolean operations in JavaScript, before doing what's intended, will first convert a value to its corresponding boolean value, based on its "truthyness".
 
-```javascript
+```plain-text
 // first, convert x to a boolean
 // then, decide where to go in the if/else flow
 if (x) {
@@ -57,23 +53,24 @@ if (x) {
 }
 ```
 
+
 ---
+
 ## Practice
 
 The value of `0` is ???.
 
+- falsy
+- truthy
+- neither falsy nor truthy.
 
-* falsy
-* truthy
-* neither falsy nor truthy.
 
 ---
+
 ## Revision
 
 An empty string is ???.
 
-
-* falsy
-* truthy
-* neither falsy nor truthy
- 
+- falsy
+- truthy
+- neither falsy nor truthy

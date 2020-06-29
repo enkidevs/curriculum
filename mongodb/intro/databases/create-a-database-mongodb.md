@@ -15,7 +15,7 @@ In MongoDB, the `use <db>` command is used to either create a new database or sw
 
 **Note:** If you do not create a new database, the default `test` database will be used.
 
-```javascript
+```plain-text
 use pokemon
 // switched to db pokemon
 
@@ -25,14 +25,14 @@ use digimon
 
 It is important to know that the names of databases are case sensitive. This means that if you want to switch from the current database to the `pokemon` one, you shouldn't write `use Pokemon` because that would create a new database instead of switching to your desired one.
 
-```javascript
+```plain-text
 use Pokemon
 // switched to db Pokemon
 ```
 
 To check which database you're currently working on, you can use the `db` command.
 
-```javascript
+```plain-text
 db
 // Pokemon
 ```
@@ -41,7 +41,7 @@ To list all the databases, you need to use the `show dbs` command.
 
 **Note:** Empty databases won't show with the `show dbs` command.
 
-```javascript
+```plain-text
 show dbs
 
 // admin         0.100GB
@@ -51,7 +51,7 @@ show dbs
 
 On the other hand, if all three databases we created above had documents inside them, running `show dbs` would give us something like:
 
-```javascript
+```plain-text
 show dbs
 
 // admin         0.100GB
@@ -73,14 +73,14 @@ How do you create a database called `Pokemon` in MongoDB?
 ??? ???
 ```
 
-* `use`
-* `Pokemon`
-* `create`
-* `new db`
-* `db`
-* `database`
-* `new`
-* `pokemon`
+- `use`
+- `Pokemon`
+- `create`
+- `new db`
+- `db`
+- `database`
+- `new`
+- `pokemon`
 
 
 ---
@@ -95,12 +95,11 @@ How do you list all databases in MongoDB?
 
 ???
 
-* `db`
-* `show dbs`
-* `check database`
-* `db.check`
-* `database`
-* `dbs`
-* `list dbs`
-* `db.showAll`
- 
+- `db`
+- `show dbs`
+- `check database`
+- `db.check`
+- `database`
+- `dbs`
+- `list dbs`
+- `db.showAll`

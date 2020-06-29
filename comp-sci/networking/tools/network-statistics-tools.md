@@ -25,12 +25,12 @@ When ran with no *flags*, `netstat` will display **active internet connections**
 
 You can limit what type of connections you see by **protocol** with:
 
-* `-t` (`--tcp`) for TCP connections
-* `-u` (`--udp`) for UDP connections
+- `-t` (`--tcp`) for TCP connections
+- `-u` (`--udp`) for UDP connections
 
 To get the **kernel routing table**[1], the `-r` flag is needed:
 
-```bash
+```plain-text
 netstat -r
 Routing tables
 
@@ -44,7 +44,7 @@ default            192.168.62.254 ...
 
 Running `netstat` with the `-i` (Unix only) flag will output the **network interfaces** currently installed in your system.
 
-```bash
+```plain-text
 netstat -i
 Name  Mtu     Network    Address
 lo0   16384   <Link#1>   ...
@@ -55,7 +55,7 @@ lo0   16384   localhost  ::1 ...
 
 Per-protocol statistics are also available with `-s` flag:
 
-```bash
+```plain-text
 netstat -s
 tcp:
    13348093 packets sent
@@ -75,11 +75,11 @@ Which flag can you use to display the **kernel routing table**?
 netstat ???
 ```
 
-* `-r`
-* `-x`
-* `-i`
-* `-u`
-* `-t`
+- `-r`
+- `-x`
+- `-i`
+- `-u`
+- `-t`
 
 
 ---
@@ -92,11 +92,11 @@ What flag would you use to filter the output of the following snippet, showing o
 netstat ???
 ```
 
-* `-t`
-* `-i`
-* `-u`
-* `-r`
-* `-tcp`
+- `-t`
+- `-i`
+- `-u`
+- `-r`
+- `-tcp`
 
 
 ---
@@ -106,4 +106,3 @@ netstat ???
 [1:kernel routing table]
 This is the same as the **IP routing table**, mentioned in the previous insight.
 On **Linux** the same information can be retrieved from the table using `route` command.
- 

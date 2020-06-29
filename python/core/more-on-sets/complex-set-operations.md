@@ -1,35 +1,22 @@
 ---
 author: tommarshall
-
-levels:
-
-  - advanced
-
 type: normal
-
 category: must-know
-
 inAlgoPool: false
-
-standards:
-  python.native-types-operations.5: 10
-
-aspects:
-  - introduction
-  - workout
-  - deep
 ---
 
 # Complex `set` operations
 
+
 ---
+
 ## Content
 
 Python has a number of further complex operations which can be carried out on `sets`.
 
 `y.issubset(x)` will return true if y is a subset of x. Instead of writing `issubset` you can use the abbreviation `<=`, for example:
 
-```python
+```plain-text
 x = {"a", "b", "c", "d"}
 y = {"a", "c"}
 
@@ -45,7 +32,7 @@ y <= x
 
 `x.issuperset(y)` returns true if x is a superset to y. Instead of writing `issuperset` you can use the abbreviation `>=`, for example:
 
-```python
+```plain-text
 x = {"a", "b", "c", "d"}
 y = {"a", "c"}
 
@@ -56,7 +43,9 @@ x >= y
 # True
 ```
 
+
 ---
+
 ## Practice
 
 Complete the following code snippet such that it will have the desired output (marked in the comment):
@@ -70,15 +59,19 @@ z = {'user4'}
 x.???(???)
 # True
 ```
-* issuperset
-* y
-* z
-* issubset
+
+- issuperset
+- y
+- z
+- issubset
+
 
 ---
+
 ## Revision
 
 Match each set method with its shorthand syntax:
+
 ```python
 x.issuperset(y)
 # ???
@@ -87,7 +80,7 @@ x.issubset(y)
 # ???
 ```
 
-* `x >= y`
-* `x <= y`
-* `x == y`
-* `y > x`
+- `x >= y`
+- `x <= y`
+- `x == y`
+- `y > x`

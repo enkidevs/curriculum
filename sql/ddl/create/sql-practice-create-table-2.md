@@ -30,15 +30,15 @@ Your mission today is to create a table called `users`.
 
 This table should have the following columns, which will store the following values:
 
-* `id`, a unique value to identify a user
-* `name`, for example: "John Goose", "Elizabeth Duck"
-* `facebook_id`, for example: "320985721018"
-* `email`, for example: "[john_goose@gmail.com](mailto:john_goose@gmail.com)"
-* `email_verified`, which will be true or false
+- `id`, a unique value to identify a user
+- `name`, for example: "John Goose", "Elizabeth Duck"
+- `facebook_id`, for example: "320985721018"
+- `email`, for example: "[john_goose@gmail.com](mailto:john_goose@gmail.com)"
+- `email_verified`, which will be true or false
 
 Once you've created your table, append these INSERT statements to the left-hand panel:
 
-```sql
+```plain-text
 INSERT INTO users (id, name, facebook_id, email, email_verified)
 VALUES (0, "John Goose", 33248712993, "john.goose@example.com", 0);
 
@@ -59,11 +59,10 @@ Finally, execute the query provided and submit the result
 
 In total, you will need to:
 
-* *Create the table*
-* *Add the seed data*
-* *Build the schema*
-* *Run the provided query*
-* *Submit the result as your Answer*
+- *Create the table*
+- *Add the seed data*
+- *Build the schema*
+- *Run the provided query*
+- *Submit the result as your Answer*
 
 Good luck! :rocket:
- 

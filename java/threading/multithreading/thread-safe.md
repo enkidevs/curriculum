@@ -27,7 +27,7 @@ Can you guess which classes enforce safe use in multi threading and which are no
 
 thread safe:not safe
 
-```false
+```plain-text
 Vector
 %exp
 The `Vector` class implements a growable array of objects, which is thread safe in Java.
@@ -85,7 +85,7 @@ It is a thread-safe interface in which all mutative operations are implemented b
 %
 ```
 
-```true
+```plain-text
 
 HashMap
 %exp
@@ -146,4 +146,3 @@ Boolean
 %
 
 ```
- 

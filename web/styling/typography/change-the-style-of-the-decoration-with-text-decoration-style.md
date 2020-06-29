@@ -21,7 +21,7 @@ links:
 
 ## Content
 
-```css
+```plain-text
 a {
     // Draws a single line - Default
   text-decoration-style: solid;
@@ -49,9 +49,8 @@ This is how they are supposed to look:
 
 Which of the following is *not* a `text-decoration-style` property? ???
 
-* curved
-* solid
-* double
-* wavy
-* dashed
- 
+- curved
+- solid
+- double
+- wavy
+- dashed

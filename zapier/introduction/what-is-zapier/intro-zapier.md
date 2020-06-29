@@ -1,18 +1,14 @@
 ---
 author: kapnobatai136
-
 category: must-know
-
-aspects:
-  - introduction
-
 type: normal
-
 ---
 
 # Zapier?
 
+
 ---
+
 ## Content
 
 Most of you have used Gmail, Twitter, Facebook or other popular web apps. You're probably using several at once. But did you know that there is a way to connect all the apps that you use?
@@ -23,21 +19,25 @@ Your first thought might be 'Hey, this is awesome, but I don't know how to code 
 
 In the following missions you will learn how to make an account, use predefined integrations, and set up your own automations.
 
+
 ---
+
 ## Practice
 
 Zapier is used for ???.
 
-* applications integration
-* meeting other people
-* finding answers to questions
-* solving mathematical equations
+- applications integration
+- meeting other people
+- finding answers to questions
+- solving mathematical equations
+
 
 ---
+
 ## Revision
 
 Zapier requires ??? coding experience.
 
-* no
-* some
-* a lot of
+- no
+- some
+- a lot of

@@ -32,29 +32,29 @@ The HTML `<map>` element is used for creating links on selected portions of an i
 
 The clickable area has 3 available shapes:
 
-* `rect` (Rectangle)
-* `circle` (Circle)
-* `poly` (Polygon)
+- `rect` (Rectangle)
+- `circle` (Circle)
+- `poly` (Polygon)
 
 The coordinates for each shape differ and are mandatory. They are as follows:
 
 rect: shape="x1,y1,x2,y2"
 
-* left corner = `x1`
-* top corner = `y1`
-* right corner = `x2`
-* bottom corner = `y2`
+- left corner = `x1`
+- top corner = `y1`
+- right corner = `x2`
+- bottom corner = `y2`
 
 circle: shape="x,y,r"
 
-* x/y values specify the circle center
-* r specifies the radius of the circle
+- x/y values specify the circle center
+- r specifies the radius of the circle
 
 poly: shape="x1,y1,x2,y2,x3,y3...xn,yn"
 
-* (x1,y1),(x2,y2).. pairs specify the coordinates of an edge for the polygon.
-* First and last coordinate pairs must be the same for the polygon to close.
-* If the first and last coordinate differ, the browsers will add the last coordinate pair.
+- (x1,y1),(x2,y2).. pairs specify the coordinates of an edge for the polygon.
+- First and last coordinate pairs must be the same for the polygon to close.
+- If the first and last coordinate differ, the browsers will add the last coordinate pair.
 
 **Important notes:** Each shape has to have a certain number of values inside the `coords` attribute for it to work.
   **- Circle:** Exactly 3
@@ -86,14 +86,14 @@ Add map elements to create clickable areas within a single image.
 <img usemap="#objects" src="#" alt="">
 ```
 
-* rect
-* circle
-* poly
-* rectangle
-* polygon
-* pentagon
-* square
-* mapclick
+- rect
+- circle
+- poly
+- rectangle
+- polygon
+- pentagon
+- square
+- mapclick
 
 
 ---
@@ -102,7 +102,7 @@ Add map elements to create clickable areas within a single image.
 
 When using the map element to create clickable areas within a single image, what are the available shapes?
 
-```html
+```plain-text
 <map name="imagemap">
   <area shape="_____"
     coords="" alt="" href="page.htm">
@@ -114,10 +114,10 @@ When using the map element to create clickable areas within a single image, what
 
 ???
 
-* rect, circle, poly
-* rectangle, polygon, square
-* triangle, oval, square
-* rect, square, poly, oval
+- rect, circle, poly
+- rectangle, polygon, square
+- triangle, oval, square
+- rect, square, poly, oval
 
 
 ---
@@ -139,11 +139,10 @@ Place the shape value within the appropriate location to create the proper code.
 <img usemap="#objects" src="#" alt="">
 ```
 
-* rect
-* circle
-* poly
-* rectangle
-* polygon
-* pentagon
-* square
- 
+- rect
+- circle
+- poly
+- rectangle
+- polygon
+- pentagon
+- square

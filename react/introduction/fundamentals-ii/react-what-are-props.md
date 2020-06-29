@@ -1,22 +1,21 @@
 ---
 author: catalin
-
 type: normal
-
 category: must-know
-
 links:
-  - '[Components and props](https://facebook.github.io/react/docs/components-and-props.html){website}'
-  - '[Props overview](https://www.tutorialspoint.com/reactjs/reactjs_props_overview.htm){website}'
-
-aspects:
-  - introduction
-
+  - >-
+    [Components and
+    props](https://facebook.github.io/react/docs/components-and-props.html){website}
+  - >-
+    [Props
+    overview](https://www.tutorialspoint.com/reactjs/reactjs_props_overview.htm){website}
 ---
 
 # What are props?
 
+
 ---
+
 ## Content
 
 Components can take input in a similar way to a function, via `props`.
@@ -26,7 +25,8 @@ Components can take input in a similar way to a function, via `props`.
 An important aspect of the `props` object is that it is **immutable**. That means `props` cannot and should not be changed within a component, but rather only from its *parent*(s). We will elaborate more on this later.
 
 Consider the component:
-```jsx
+
+```plain-text
 class Greeting extends React.Component {
   render() {
     return (
@@ -43,7 +43,7 @@ Note that if the value of your `return` extends over multiple lines it must be e
 
 Here is how to pass `props` to an element:
 
-```jsx
+```plain-text
 const el = (
   <Greeting name="John" />;
 );
@@ -53,7 +53,7 @@ Now, when `render`ed, `el` will display `"Enki greets John"`.
 
 You can also define **default props** in the following manner:
 
-```jsx
+```plain-text
 class Greeting extends React.Component {
   //...
 }
@@ -63,7 +63,8 @@ Greeting.defaultProps = {
 ```
 
 This allows us to create a `Greeting` element without specifying the `name`:
-```jsx
+
+```plain-text
 const el = (
   <Greeting  />;
 );
@@ -71,10 +72,13 @@ const el = (
 
 If we `render` it now, we will see `"Enki greets User"`;
 
+
 ---
+
 ## Practice
 
 Complete the missing gaps so that the `render`ed output is `"Enki"`:
+
 ```jsx
 class Enki extends React.Component {
   render() {
@@ -95,18 +99,19 @@ ReactDOM.render(
 
 ```
 
+- `defaultProps`
+- `myValue`
+- `Enki`
+- `element`
+- `default`
+- `props`
+- `Enki myValue="Enki"`
+- `class`
+- `createElement`
 
-* `defaultProps`
-* `myValue`
-* `Enki`
-* `element`
-* `default`
-* `props`
-* `Enki myValue="Enki"`
-* `class`
-* `createElement`
 
 ---
+
 ## Revision
 
 Complete the missing gaps so that the `render`ed element under `root` reads `"Enki"`:
@@ -127,22 +132,23 @@ ReactDOM.render(
 );
 ```
 
+- `props`
+- `myValue`
+- `Enki`
+- `defaultProps`
+- `element`
+- `default`
+- `class`
 
-* `props`
-* `myValue`
-* `Enki`
-* `defaultProps`
-* `element`
-* `default`
-* `class`
 
 ---
+
 ## Footnotes
 
 [1:Return & parentheses]
 Although not necessary, it is highly recommended to use parentheses to wrap your JSX code that goes over multiple lines. Let's look at an example:
 
-```jsx
+```plain-text
 // this is perfectly valid syntax
 // but it is hard to read
 let el = <ul>

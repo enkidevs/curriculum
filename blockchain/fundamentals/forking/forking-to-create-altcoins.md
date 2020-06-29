@@ -28,11 +28,11 @@ Identify what `cannot` be changed in the source code of a fork for it to be cons
 
 ???
 
-* Anything can be changed
-* The coin name
-* The mining puzzle
-* The genesis block
-* The estimated time between blocks
+- Anything can be changed
+- The coin name
+- The mining puzzle
+- The genesis block
+- The estimated time between blocks
 
 
 ---
@@ -43,8 +43,7 @@ What is it that is forked off a blockchain to create an inherently different one
 
 ???
 
-* The source code
-* The state of the blockchain
-* The source code and everything up to block X
-* The nodes
- 
+- The source code
+- The state of the blockchain
+- The source code and everything up to block X
+- The nodes

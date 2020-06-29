@@ -1,25 +1,21 @@
 ---
 author: Stefan-Stojanovic
-
-aspects:
-  - introduction
-  - workout
-
 type: normal
-
 category: how to
-
 ---
 
 # IF
 
+
 ---
+
 ## Content
 
 `IF` is a logical function that returns one value if it evaluates to `TRUE` and another if it evaluates to `FALSE`.
 
 The Syntax is:
-```
+
+```plain-text
 IF(logical_expression, value_if_true, value_if_false)
 ```
 
@@ -38,13 +34,16 @@ What the function outputs when its `TRUE` or `FALSE` is up to you. We could've h
 `IF` logical functions are good for testing if a condition is `TRUE` or `FALSE` and therefore determining if the condition we are looking for is met.
 
 **Note** 
- - The `FALSE` value doesn't need to be provided and if left empty would display an empty cell as the `FALSE` result.
- - Always check if the provided values for `TRUE` and `FALSE` are in the correct order to avoid any errors while using the function.
+
+- The `FALSE` value doesn't need to be provided and if left empty would display an empty cell as the `FALSE` result.
+- Always check if the provided values for `TRUE` and `FALSE` are in the correct order to avoid any errors while using the function.
+
 
 ---
+
 ## Practice
 
 When providing values for an `IF` statement, you should ???.
 
-* make sure your values for `TRUE` and `FALSE` are in the correct order
-* make sure you provide the `TRUE` and `FALSE` values before the arguments.
+- make sure your values for `TRUE` and `FALSE` are in the correct order
+- make sure you provide the `TRUE` and `FALSE` values before the arguments.

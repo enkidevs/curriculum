@@ -21,7 +21,7 @@ links:
 
 The **middleware** or **pipeline** concept is used everywhere in Node.js. They represent a series of processing units connected subsequently: **the output of one unit is the input for the next one**.
 
-```javascript
+```plain-text
 function(/*input/output */, next) {
   next(/* err and/or output */)
 };
@@ -29,7 +29,7 @@ function(/*input/output */, next) {
 
 **Koa** framework does it like this:
 
-```javascript
+```plain-text
 app.use = function(fn) {
   this.middleware.push(fn);
   return this;
@@ -38,7 +38,7 @@ app.use = function(fn) {
 
 This concept is usually implemented through `async.waterfall` or `async.auto`:
 
-```javascript
+```plain-text
 async.waterfall([
   function(callback) {
     callback(...);
@@ -51,7 +51,7 @@ async.waterfall([
 
 Famous Node.js streams also use the concept of pipelining:
 
-```javascript
+```plain-text
 fs.createReadStream("file.gz")
   .pipe(zlib.createGunzip())
   .pipe(through(function write(data) {
@@ -71,10 +71,10 @@ Describe the Middleware/pipeline design pattern:
 
 the ??? of one unit is the ??? for the next one.
 
-* output
-* input
-* error
-* prototype
+- output
+- input
+- error
+- prototype
 
 
 ---
@@ -83,7 +83,7 @@ the ??? of one unit is the ??? for the next one.
 
 Which design pattern can you observe in the following snippet which archives `raw.txt`?
 
-```javascript
+```plain-text
 fs.createReadStream('raw.txt')
   .pipe(zlib.createGzip())
   .pipe(fs.createWriteStream('raw.gz'))
@@ -91,11 +91,10 @@ fs.createReadStream('raw.txt')
 
 ???
 
-* middleware/pipeline
-* factory
-* process-nexttick
-* builder
-* singleton
-* prototype
-* waterfall
- 
+- middleware/pipeline
+- factory
+- process-nexttick
+- builder
+- singleton
+- prototype
+- waterfall

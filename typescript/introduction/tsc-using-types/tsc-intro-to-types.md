@@ -2,18 +2,18 @@
 author: kapnobatai136
 type: normal
 category: must-know
-aspects:
-  - introduction
-  - workout
 links:
-  - '[Try out the code example](https://repl.it/@enkicontent/TypeScriptIntroToTypes){website}'
+  - >-
+    [Try out the code
+    example](https://repl.it/@enkicontent/TypeScriptIntroToTypes){website}
   - '[Type Inference](https://en.wikipedia.org/wiki/Type_inference){website}'
-
 ---
 
 # Introduction to Types
 
+
 ---
+
 ## Content
 
 A type in TypeScript is defined by its structure and the operations that can be performed on it.
@@ -22,7 +22,7 @@ For example, a `number` represents any numerical value and it can be subtracted 
 
 > 💡 Adding types is optional. If you don't declare any types, TypeScript will try to guess them for you.
 
-```ts
+```plain-text
 // TypeScript determines the type of
 // the variable num to be a number
 // because we give it the value 5
@@ -37,12 +37,14 @@ let nono = str - 3;
 
 TypeScript will try to guess as much of the type information as it can in order to provide safety without getting in the way[1].
 
+
 ---
+
 ## Practice
 
 Will this code compile without errors?
 
-```ts
+```plain-text
 let lesson = 'Remember, TS guesses the type';
 let points = 10;
 let result = points * lesson;
@@ -50,27 +52,31 @@ let result = points * lesson;
 
 ???
 
-* No
-* Yes
+- No
+- Yes
+
 
 ---
+
 ## Revision
 
 Will this code compile without errors?
 
-```ts
+```plain-text
 let points = '101';
 let total = points + 2;
 ```
 
 ???
 
-* No
-* Yes
+- No
+- Yes
 
 
 ---
+
 ## Footnotes
+
 [1: Type Inference]
 The automatic detection of types is called *type inference*.
 

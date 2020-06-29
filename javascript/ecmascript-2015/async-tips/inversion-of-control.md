@@ -1,32 +1,19 @@
 ---
 author: rosielowther
-
-levels:
-  - basic
-  - beginner
-
 type: normal
 category: must-know
-
-standards:
-  javascript.async.2: 10
-
 tags:
   - workout
   - deep
   - obscura
-
-aspects:
-  - workout
-  - deep
-  - obscura
-
-links:
-
+links: null
 ---
+
 # Inversion of Control
 
+
 ---
+
 ## Content
 
 **Inversion of control** is one of the problems of using **callbacks** for asynchronous programming in JavaScript.
@@ -35,7 +22,7 @@ Callbacks force you to **trust another party** ("Don't call me, I'll call you!")
 
 Control of the code executing now is separate to the part of the program that executes later, controlled by the other party:
 
-```javascript
+```plain-text
 // now (your control)
 asyncFunc(function(){
     // later (inverted control)
@@ -44,33 +31,37 @@ asyncFunc(function(){
 
 This requires trust that the third party doesn't:
 
-* call your callback too early/late
-* call your callback too many/few times
-* omit any callback states/parameters
-* forget to alert a callback failure
+- call your callback too early/late
+- call your callback too many/few times
+- omit any callback states/parameters
+- forget to alert a callback failure
 
 New async options such as **Promises** un-invert the control.
 
+
 ---
+
 ## Practice
 
 What can **Promises** do compared to callbacks?
 
 ???
 
-* un-invert the control
-* enforce control
-* call your callback earlier
-* call your callback more frequently
+- un-invert the control
+- enforce control
+- call your callback earlier
+- call your callback more frequently
+
 
 ---
+
 ## Revision
 
 Consider the following scenario:
 
 You are relying on a third-party asynchronous function named `computeData` which you are calling at some point in your application. After this function finishes computing, you want to log the computed data and the time it took to compute. To achieve this, you can pass to `computeData` a second argument which should be a callback function.
 
-```javascript
+```plain-text
 function logData(data, time) {
   console.log('computed data:')
   console.log(data)
@@ -87,12 +78,8 @@ What is the name of this dynamic?
 
 ???
 
-* inversion of control
-* inversion of flow
-* un-inversion of control
-* callback hell
-* callback trust
- 
- 
- 
- 
+- inversion of control
+- inversion of flow
+- un-inversion of control
+- callback hell
+- callback trust

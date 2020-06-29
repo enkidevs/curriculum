@@ -29,7 +29,7 @@ Consider the `egg_group` table:
 
 If we want to change the value `"ditto"` to `"rabbit"`, we use `SET`:
 
-```sql
+```plain-text
 UPDATE egg_group
 SET name = 'rabbit'
 WHERE id = 13;
@@ -48,7 +48,7 @@ WHERE id = 13;
 
 Note that if the `WHERE` clause isn't used all the values in the specified column will be updated:
 
-```sql
+```plain-text
 UPDATE egg_group
 SET name = 'rabbit';
 ```
@@ -66,7 +66,7 @@ SET name = 'rabbit';
 
 You can also use subqueries in your `WHERE` clause to determine which records are involved in the `UPDATE` command. On top of that, you can chain complex combinations of boolean operators or predicates like `ANY`, `ALL`, or `EXISTS` to further constrain which records are updated. Here is a simple example:
 
-```sql
+```plain-text
 UPDATE egg_group
 SET name = 'water'
 WHERE id IN
@@ -102,15 +102,15 @@ WHERE id=???;
 
 We would like to update the table contents such that the last generation is generation `"vi"` instead of `"vii"`.
 
-* UPDATE
-* name
-* 6
-* 'generation-vi'
-* CHANGE
-* WHERE
-* SET
-* NEW
-* region_id
+- UPDATE
+- name
+- 6
+- 'generation-vi'
+- CHANGE
+- WHERE
+- SET
+- NEW
+- region_id
 
 
 ---
@@ -132,10 +132,9 @@ Consider the following table named `gender`:
 
 We want to update the table such that all genders will be neutral.
 
-* UPDATE
-* SET
-* neutral
-* WHERE
-* DELETE
-* CHANGE
- 
+- UPDATE
+- SET
+- neutral
+- WHERE
+- DELETE
+- CHANGE

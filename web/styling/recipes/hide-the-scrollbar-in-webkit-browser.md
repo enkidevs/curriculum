@@ -20,7 +20,7 @@ links:
 
 To hide the scrollbar on a particular element:
 
-```css
+```plain-text
 #element::-webkit-scrollbar {
     display: none;
 }
@@ -28,7 +28,7 @@ To hide the scrollbar on a particular element:
 
 Or, hide all scrollbars on the page:
 
-```css
+```plain-text
 ::-webkit-scrollbar {
     display: none;
 }
@@ -47,12 +47,12 @@ Complete the code snippet to hide all scrollbars on a webkit browser page:
 }
 ```
 
-* `::-webkit-scrollbar`
-* `none`  
-* `.webkit-scrollbar`
-* `::webkit-scrollbar`
-* `hide`
-* `false`
+- `::-webkit-scrollbar`
+- `none`  
+- `.webkit-scrollbar`
+- `::webkit-scrollbar`
+- `hide`
+- `false`
 
 
 ---
@@ -61,7 +61,7 @@ Complete the code snippet to hide all scrollbars on a webkit browser page:
 
 What does the following piece of code do?
 
-```css
+```plain-text
 ::-webkit-scrollbar {
    display: none;
 }
@@ -69,8 +69,7 @@ What does the following piece of code do?
 
 ???
 
-* Hides all the scrollbars on the page.
-* Hides all the scrollbars of a particular element.
-* Displays all scrollbars on the page.
-* Displays all the scrollbars of a particular element.
- 
+- Hides all the scrollbars on the page.
+- Hides all the scrollbars of a particular element.
+- Displays all scrollbars on the page.
+- Displays all the scrollbars of a particular element.

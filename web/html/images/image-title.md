@@ -15,7 +15,7 @@ The `title` attribute can be added to any HTML element, but is most often used w
 
 Example:
 
-```html
+```plain-text
 <img src="logo.svg"
   title="Enki: Official Logo">
 ```
@@ -31,13 +31,13 @@ Add a visual tooltip when the cursor is over the image.
 
 `<??? ???="logo.svg" ???="Tooltip Text Here">`
 
-* img
-* src
-* title
-* href
-* text
-* desc
-* alt
+- img
+- src
+- title
+- href
+- text
+- desc
+- alt
 
 
 ---
@@ -48,12 +48,12 @@ What adds a visual tooltip when the cursor is over the image?
 
 `<img src="logo.svg" ???="Tooltip Text Here">`
 
-* title
-* tooltip
-* tool
-* tip
-* t
-* text
+- title
+- tooltip
+- tool
+- tip
+- t
+- text
 
 
 ---
@@ -67,11 +67,10 @@ When the cursor is over the image, what code will add a visual tooltip?
 
 `<img src="logo.svg" ???="Tooltip Text Here">`
 
-* title
-* tooltip
-* tip
-* t
-* text
-* alt
-* src
- 
+- title
+- tooltip
+- tip
+- t
+- text
+- alt
+- src

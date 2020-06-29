@@ -22,7 +22,7 @@ Docker Hub is public and allows anybody to store publicly available images.
 
 To pull an image from DockerHub, we can use `docker pull`:
 
-```bash
+```plain-text
 # pull a docker image named
 # nginx from DockerHub
 docker pull nginx
@@ -43,7 +43,7 @@ docker.io/library/nginx:latest
 
 Similarly, we can also add images to the registry by pushing them:
 
-```bash
+```plain-text
 # push a docker image named
 # enki to DockerHub
 docker push enki
@@ -55,7 +55,7 @@ Alternatively, you can host your docker images on GCP, AWS, Azure, GitLab, JFrog
 
 You can use the `registry` image from DockerHub to self host a registry.
 
-```bash
+```plain-text
 # Launch the registry on port 1234
 # We are pulling the version 2
 # of the `registry` image which is
@@ -79,8 +79,8 @@ docker push localhost:1234/ubuntu
 
 Images stored on DockerHub are ???
 
-* public
-* private
+- public
+- private
 
 
 ---
@@ -89,8 +89,7 @@ Images stored on DockerHub are ???
 
 The default registry for Docker images is called ???
 
-* DockerHub
-* DockerStash
-* DockerImages
-* DockerPictures
- 
+- DockerHub
+- DockerStash
+- DockerImages
+- DockerPictures

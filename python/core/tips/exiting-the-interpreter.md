@@ -20,20 +20,20 @@ The interactive interpreter can be closed conventionally using *CTRL-D*.
 
 However, this can also be accomplished programmatically:
 
-```python
+```plain-text
 >>> raise SystemExit
 ```
 
 or
 
-```python
+```plain-text
 >>> import sys
 >>> sys.exit()
 ```
 
 or
 
-```python
+```plain-text
 >>> quit()
 ```
 
@@ -50,11 +50,11 @@ import ???
 sys.???
 ```
 
-* sys
-* exit()
-* system
-* close()
-* quit()
+- sys
+- exit()
+- system
+- close()
+- quit()
 
 
 ---
@@ -65,8 +65,7 @@ What is the key stroke for exiting python interpreter (REPL)?
 
 ???
 
-* "CTRL-D"
-* "Esc"
-* "CTRL-E"
-* exit()
- 
+- "CTRL-D"
+- "Esc"
+- "CTRL-E"
+- exit()

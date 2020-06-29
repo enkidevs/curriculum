@@ -1,35 +1,30 @@
 ---
 author: emmab
-
 tags:
   - introduction
-
 type: normal
-
-aspects:
-  - introduction
-
 category: must-know
-
 ---
 
 # `if...else` statements
 
+
 ---
+
 ## Content
 
 Control flow is the *order* in which individual statements or functions are executed. Control flow statements give *choices* that result in *different outcomes*.
 
 > The `if...else` statement is used in Python for this decision making.
 
-```python
+```plain-text
 if <condition>:
   <execute this code>
 ```
 
 The program will only execute the code *if the condition has been met*.
 
-```python
+```plain-text
 num = 3
 if num > 0:
     print(num, " is a positive number")
@@ -39,7 +34,7 @@ The code above will print `'3 is a positive number'`.
 
 The `if` statement can be extended to include a *catch-all*, `else`, that will be executed if the condition is not met.
 
-```python
+```plain-text
 num = -1
 if num >= 0:
     print("Positive or Zero")
@@ -62,14 +57,16 @@ Comparison operators include:
 
 Note that a single `=` is used for assigning values to variables, not for comparison.
 
+
 ---
+
 ## Practice
 
 What does the following code snippet print?
 
 ???
 
-```python
+```plain-text
 x = 3
 if (x < 3):
     print ('small')
@@ -77,18 +74,20 @@ else:
     print ('big')
 ```
 
-* big
-* small
-* SyntaxError
+- big
+- small
+- SyntaxError
+
 
 ---
+
 ## Revision
 
 What does the following code snippet print?
 
 ???
 
-```python
+```plain-text
 x = 8
 if (x == 8):
     print ('true')
@@ -96,8 +95,8 @@ else:
     print ('false')
 ```
 
-* true
-* SyntaxError
-* false
-* True
-* False
+- true
+- SyntaxError
+- false
+- True
+- False

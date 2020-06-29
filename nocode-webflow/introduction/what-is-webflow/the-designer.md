@@ -1,25 +1,16 @@
 ---
 author: Stefan-Stojanovic
-
-levels:
-  - beginner
-
-aspects:
-  - introduction
-  - workout
-
 type: normal
-
 category: how to
-
 links:
   - '[Dashboard](https://webflow.com/dashboard){website}'
-
 ---
 
 # The Designer
 
+
 ---
+
 ## Content
 
 One of the most powerful Webflow features is the `Designer`.
@@ -27,6 +18,7 @@ One of the most powerful Webflow features is the `Designer`.
 This interactive website building software is completely customizable and it's where you'll spend most of your time.
 
 The `Designer` consists of 5 main elements:
+
 - the *left toolbar and panels* (used for structuring your website, navigation, adding new elements and much more)
 - the *Canvas* (which provides real-time webpage interaction where you can see the end result as well as modify any element by dragging and dropping, resizing and more)
 - the *top bar* (page number, save, undo, publish, export code and few more features)
@@ -39,7 +31,9 @@ To access the `Designer`, you must first have a project (website). To create one
 
 Now, open the `Designer` by clicking on the project[1].
 
+
 ---
+
 ## Practice
 
 True or false?
@@ -48,10 +42,12 @@ With the `Designer` you can create a fully functional website without looking at
 
 ???
 
-* True
-* False
+- True
+- False
+
 
 ---
+
 ## Footnotes
 
 [1:Designer Access]

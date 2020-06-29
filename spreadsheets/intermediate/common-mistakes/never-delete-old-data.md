@@ -1,19 +1,14 @@
 ---
 author: Stefan-Stojanovic
-
-aspects:
-  - introduction
-  - workout
-
 type: normal
-
 category: how to
-
 ---
 
 # Never destroy old data
 
+
 ---
+
 ## Content
 
 Sometimes, when you have a complex spreadsheet, you don't want to spend time creating it again so you overwrite the old cell data with the new data. 

@@ -1,28 +1,19 @@
 ---
 author: tommarshall
-
-levels:
-  - basic
-  - advanced
-  - medium
-
 type: normal
-
 category: tip
-
 links:
-  - '[Children in JSX](https://facebook.github.io/react/docs/jsx-in-depth.html#children-in-jsx){website}'
-
+  - >-
+    [Children in
+    JSX](https://facebook.github.io/react/docs/jsx-in-depth.html#children-in-jsx){website}
 parent: custom-proptype-s-to-be-required
-
-aspects:
-  - deep
-  - workout
-
 ---
+
 # Type of the Children props
 
+
 ---
+
 ## Content
 
 Generally, a components children, `this.props.children`, would be an array of components.
@@ -31,7 +22,7 @@ When there is a single child, `this.props.children` will be the the single child
 
 The example shows both with and without an array allocation:
 
-```jsx
+```plain-text
 class Wrapper extends React.Component {
   componentDidMount() {
     console.log(
@@ -63,12 +54,14 @@ ReactDOM.render(
 // false
 ```
 
+
 ---
+
 ## Practice
 
 Consider the following react component:
 
-```jsx
+```plain-text
 class Enki extends React.Component {
   componentDidMount() {
     console.log(this.props.children);
@@ -100,22 +93,23 @@ ReactDOM.render(
 // ???
 ```
 
-* `[<p />, <p />]`
-* `<p />`
-* `[<p />]`
-* `<p />, <p />`
-* null
-* undefined
+- `[<p />, <p />]`
+- `<p />`
+- `[<p />]`
+- `<p />, <p />`
+- null
+- undefined
+
 
 ---
+
 ## Revision
 
 Consider there is a single child in your component. What will `this.props.children` return?
 
 ???
 
-* only the child
-* an array with just the children in it
-* an array of possible children
-* an array with the children and the parent component
-
+- only the child
+- an array with just the children in it
+- an array of possible children
+- an array with the children and the parent component

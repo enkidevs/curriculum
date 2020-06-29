@@ -1,28 +1,21 @@
 ---
 author: Stefan-Stojanovic
-
-levels:
-  - beginner
-
-aspects:
-  - workout
-
 type: normal
-
 category: how to
-
 ---
 
 # Querying a Collection Using Ranges Continued
 
+
 ---
+
 ## Content
 
 We are are going to discuss how to define a range between two values using a combination of the 4 previously explained operators.
 
 Let's say we want to find all the pokémon whose `power` ranges between 250 and 350. Initially, you would be tempted to write this:
 
-```javascript
+```plain-text
 db.pokemon.find({
   power: { $gt: 250 },
   power: { $lt: 350 }
@@ -30,7 +23,8 @@ db.pokemon.find({
 ```
 
 Which will output the following:
-```javascript
+
+```plain-text
 {
   "_id": ObjectId(
     "5d9d8c330b24990f19398214"
@@ -60,7 +54,7 @@ Which will output the following:
 
 Notice how all the results have their `power` lower than 350 but some of the results do not have their `power` greater than 250. This is because we are overwriting the `power: { $gt: 250 }` query with the `power: { $lt: 350 }` query. The correct way of writing is:
 
-```js
+```plain-text
 db.pokemon.find({
   power: {$gt: 250, $lt: 350}
 });
@@ -69,7 +63,8 @@ db.pokemon.find({
 Now, we are displaying the pokémon (documents) within the specified range.
 
 Output of the above example:
-```javascript
+
+```plain-text
 {
   "_id" : ObjectId(
     "5d9d8a6a0b24990f19398209"
@@ -100,7 +95,7 @@ Output of the above example:
 
 **Note**: The order of the operators does not matter (`$lt`, `$lte`, `$gt` and `$gte`). This means the two examples below would give the exact same output:
 
-```javascript
+```plain-text
 // Example 1:
 db.pokemon.find({
   { power: { $gte: 250, $lte: 350 } }
@@ -112,12 +107,14 @@ db.pokemon.find({
 });
 ```
 
+
 ---
+
 ## Practice
 
 Which of the following represents the correct way of selecting documents that fit within a defined range:
 
-```js
+```plain-text
 // A
 db.collection.find({
   field: {$lt: 100},
@@ -135,11 +132,13 @@ db.collection.find({
 
 ???
 
-* B
-* A
-* C
+- B
+- A
+- C
+
 
 ---
+
 ## Revision
 
 Create a query to find all documents within the `pokemon` collection whose `age` falls in the range 23-31 (including the bounds).
@@ -150,11 +149,11 @@ db.pokemon.???({
 });
 ```
 
-* `find`
-* `age`
-* `$gte`
-* `$lte`
-* `$gt`
-* `$lt`
-* `aggregate`
-* `accumulate`
+- `find`
+- `age`
+- `$gte`
+- `$lte`
+- `$gt`
+- `$lt`
+- `aggregate`
+- `accumulate`

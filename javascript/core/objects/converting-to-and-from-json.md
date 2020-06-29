@@ -18,7 +18,7 @@ tags:
 
 Example:
 
-```javascript
+```plain-text
 const ourDog = {
     name: 'Leo',
     'dog years': 14
@@ -32,7 +32,7 @@ To override the default behavior of `JSON.stringify()` you can provide a key `to
 
 Example:
 
-```javascript
+```plain-text
 const ourDog = {
     name: 'Rocky',
     age: 2,
@@ -48,7 +48,7 @@ To convert a JSON string back to JavaScript you can use `JSON.parse()` method.
 
 Example:
 
-```javascript
+```plain-text
 const ourJSON = '{"name":"Roxy","age":2}'
 const dog = JSON.parse(ourJSON);
 console.log(dog.name);
@@ -62,7 +62,7 @@ console.log(dog.name);
 
 What will be printed by this `console.log()`?
 
-```javascript
+```plain-text
 const ourDog = {
     name: 'Leo',
     'dog years': 14
@@ -73,14 +73,14 @@ console.log(JSON.stringify(ourDog));
 
 prints `'{"???":"???","???":???}'`
 
-* `name`
-* `Leo`
-* `dog years`
-* `14`
-* `12`
-* `dog`
-* `JSON`
-* `years`
+- `name`
+- `Leo`
+- `dog years`
+- `14`
+- `12`
+- `dog`
+- `JSON`
+- `years`
 
 
 ---
@@ -96,9 +96,9 @@ console.log(cat.name);
 // prints "Coco"
 ```
 
-* `parse`
-* `toJSON`
-* `stringify`
+- `parse`
+- `toJSON`
+- `stringify`
 
 
 ---
@@ -110,7 +110,7 @@ console.log(cat.name);
 
 What will be returned by the following code?
 
-```javascript
+```plain-text
 const enkiObj = {
     a: 'first',
     b: 'second',
@@ -122,8 +122,7 @@ JSON.stringify(enkiObj);
 
 ???
 
-* `"{"c":"third"}"`
-* `"{"a":"first","b":"second"}"`
-* `"{"a":"first","b":"second","c":"third"}"`
-* `"{a: "first", b: "second"}"`
- 
+- `"{"c":"third"}"`
+- `"{"a":"first","b":"second"}"`
+- `"{"a":"first","b":"second","c":"third"}"`
+- `"{a: "first", b: "second"}"`

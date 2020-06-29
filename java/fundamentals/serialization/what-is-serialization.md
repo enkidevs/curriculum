@@ -19,9 +19,9 @@ links:
 
 The motivation for using **serialization** might be the following points:
 
-* Serialization is cross-platform i.e. it runs on a JVM and is independent of hardware configuration of the machine.
-* It is easy to store information about an object as a local file simply by serializing it.
-* Different machines running same code can communicate via network by sending and receiving serialized objects.
+- Serialization is cross-platform i.e. it runs on a JVM and is independent of hardware configuration of the machine.
+- It is easy to store information about an object as a local file simply by serializing it.
+- Different machines running same code can communicate via network by sending and receiving serialized objects.
 
 In order to serialize an object you will use tools/classes available in the `java.io` library so it is important to remember to import `import java.io.*` library.
 
@@ -33,10 +33,10 @@ In order to serialize an object you will use tools/classes available in the `jav
 What is serialization?
 ???
 
-* The way of converting information about an object into a stream of bytes
-* The way of making a class non extendable
-* The way of making a class abstract
-* None of the present options are true
+- The way of converting information about an object into a stream of bytes
+- The way of making a class non extendable
+- The way of making a class abstract
+- None of the present options are true
 
 
 ---
@@ -45,4 +45,3 @@ What is serialization?
 
 [1:retractable]
 In this context this means that the information about this class can be restored back.
- 

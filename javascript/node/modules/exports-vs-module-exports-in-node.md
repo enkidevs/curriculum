@@ -19,7 +19,7 @@ links:
 
 Exporting a module in **Node** can be done in different ways. The most common is using the `exports` object:
 
-```javascript
+```plain-text
 //what is exported (other.js)
 exports.say = function() {
     console.log('Hello from Enki!');
@@ -32,7 +32,7 @@ sample.say(); // 'Hello from Enki!'
 
 However, `exports` is just a helper for `module.exports`. The latter is ultimately returned by your module when called. `exports` only collects properties and attaches them to `module.exports` if and only if it doesn't have something on it already.
 
-```javascript
+```plain-text
 module.exports = 'Oops!';
 exports.say = function() {
   console.log('Hello from Enki!'); }
@@ -41,7 +41,7 @@ exports.say = function() {
 If we import it the same way as above, this will result in a `TypeError` because `module.exports` already had something in it.
 Export an array with `module.exports`:
 
-```javascript
+```plain-text
 module.exports = [ 'A', 'B', 'C'];
 
 var sample = require('./other.js');
@@ -55,7 +55,7 @@ console.log(sample[2]); // 'C'
 
 What is the output of the following JavaScript code? ???
 
-```javascript
+```plain-text
 module.exports = ['a', 'k', 'K', 'y', 'a'];
 
 var test = require('./other.js');
@@ -67,11 +67,11 @@ console.log(test[0]);
 console.log(test[1]);
 ```
 
-* Kayak
-* kayak
-* kayaK
-* ayakK
-* yakaK
+- Kayak
+- kayak
+- kayaK
+- ayakK
+- yakaK
 
 
 ---
@@ -81,8 +81,7 @@ console.log(test[1]);
 `exports` is a helper for?
 ???
 
-* module.exports
-* module.imports
-* module
-* imports
- 
+- module.exports
+- module.imports
+- module
+- imports

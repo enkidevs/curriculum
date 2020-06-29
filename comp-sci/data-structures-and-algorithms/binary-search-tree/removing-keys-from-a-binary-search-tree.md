@@ -1,33 +1,15 @@
 ---
 author: jfarmer
-
-levels:
-
-  - beginner
-
-  - basic
-
-  - medium
-
-  - advanced
-
 type: normal
-
 category: how to
-
-aspects:
-
-  - deep
-
-  - workout
-
 parent: inserting-data-into-a-binary-search-tree
-
 ---
 
 # Removing Keys From a Binary Search Tree
 
+
 ---
+
 ## Content
 
 Removing or deleting a node from a binary search tree (BST) is more complicated than inserting or searching.  There are three possible cases to consider:
@@ -62,11 +44,14 @@ After the three nodes removal, our initial tree will look like this:
 
 We can also delete nodes by working with the *minimum* key in the right sub-tree rather than the *maximum* key in the left sub-tree.
 
+
 ---
+
 ## Practice
 
 Which node in the left sub-tree would replace *10* in case of its removal?
-```
+
+```plain-text
      [10]
     /    \
    5      15
@@ -76,21 +61,21 @@ Which node in the left sub-tree would replace *10* in case of its removal?
 ???
 ```
 
-* `6`
-* `1`
-* `5`
-* `13`
-* `20`
+- `6`
+- `1`
+- `5`
+- `13`
+- `20`
+
 
 ---
+
 ## Revision
 
 Which BST deletion case does require the most work?
 
 ???
 
-* When the node has two children
-* When the node has one child
-* When the node has no children
-
-
+- When the node has two children
+- When the node has one child
+- When the node has no children

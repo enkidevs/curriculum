@@ -18,7 +18,7 @@ The `private` modifier is the most restrictive one. It should be used as it help
 
 If the variables are private, getters and setters are required to access them. These are functions that help move data from one class to another:
 
-```java
+```plain-text
 public class Car{
   private String model;
   private int noDoors;
@@ -41,7 +41,7 @@ Again, classes and interfaces cannot be *protected*. Because it applies to inher
 
 Consider this example:
 
-```java
+```plain-text
 public class Car{
   protected void start(){
     //implementation
@@ -64,23 +64,25 @@ If the `start()` method was declared private, it wouldn't be accessible from any
 
 Complete the following snippet to make the method usable only in its initial class:
 
-    ??? class Car{
-      private int noDoors;
-      ??? void start(){...}
-    }
+```plain-text
+??? class Car{
+  private int noDoors;
+  ??? void start(){...}
+}
 
 
-    public class TestClass{
-     public static void main(String[] args){
-      Car car = new Car(...);
-      car.start(); // error
-     }
-    }
+public class TestClass{
+ public static void main(String[] args){
+  Car car = new Car(...);
+  car.start(); // error
+ }
+}
+```
 
-* `public`
-* `private`
-* `protected`
-* ``
+- `public`
+- `private`
+- `protected`
+- ``
 
 
 ---
@@ -89,8 +91,7 @@ Complete the following snippet to make the method usable only in its initial cla
 
 A ??? field can only be accessed by the subclasses.
 
-* protected
-* private
-* public
-* static
- 
+- protected
+- private
+- public
+- static

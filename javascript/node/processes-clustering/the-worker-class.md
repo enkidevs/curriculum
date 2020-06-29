@@ -1,31 +1,17 @@
 ---
 author: tommarshall
-
-levels:
-  - basic
-  - advanced
-  - medium
-
 type: normal
-
-standards:
-  javascript.node-standard-library-os.5: 20
-
 tags:
   - workout
   - deep
-
 category: tip
-
-aspects:
-  - workout
-  - deep
-
-
 ---
+
 # The Worker Class
 
+
 ---
+
 ## Content
 
 Given NodeJS works on a single thread, you can still make use of all processing-power of multi-core systems by spawning **workers**.
@@ -38,19 +24,21 @@ The *worker* class has many built in functions which can be used to obtain infor
 
 Each new *worker* is given a unique *workers* *ID*, while the worker is alive, the ID number is the key that indexes it in `cluster.wokers`. To get the ID number:
 
-```javascript
+```plain-text
 worker.id();
 ```
 
 To check if a *worker* is connected to its master via its *IPC* channel. The function returns *true* if connected, and *false* if disconnected.
 
-```javascript
+```plain-text
 if (worker.isConnected()) {
   process.send('Worker connected!');
 }
 ```
 
+
 ---
+
 ## Practice
 
 Considering `cluster` to be the master cluster, how would you get all child worker objects?
@@ -60,15 +48,17 @@ Considering `cluster` to be the master cluster, how would you get all child work
 var workers = ???.???
 ```
 
-* cluster
-* workers
-* worker
-* isMaster
-* fromMaster
-* getWorkers()
-* allWorkers()
+- cluster
+- workers
+- worker
+- isMaster
+- fromMaster
+- getWorkers()
+- allWorkers()
+
 
 ---
+
 ## Revision
 
 Complete the following JS code snippet to check if a worked is connected to its master via its IPC channel:
@@ -79,10 +69,9 @@ if (worker.???()) {
 }
 ```
 
-* isConnected
-* process
-* connected
-* worker
-* isIPC
-* send
- 
+- isConnected
+- process
+- connected
+- worker
+- isIPC
+- send

@@ -26,11 +26,11 @@ One way to do this is to use an *online JavaScript environment*.
 
 There are many options available but some of the better known sites are:
 
-* codepen.io
-* jsbin.com
-* js.do
-* jsfiddle.net
-* pythontutor.com
+- codepen.io
+- jsbin.com
+- js.do
+- jsfiddle.net
+- pythontutor.com
 
 As well as running JavaScript these sites often allow you to reference common external libraries such as jQuery, Angular and React which saves you from downloading and setting them up.
 
@@ -47,10 +47,10 @@ Which of the following statements do you consider false?
 
 ???
 
-* you need HTML to test JavaScript
-* online JavaScript environments allow the use of external libraries
-* you can share your code easier through online JavaScript environments
-* online JavaScript environments can ease the process of testing out code
+- you need HTML to test JavaScript
+- online JavaScript environments allow the use of external libraries
+- you can share your code easier through online JavaScript environments
+- online JavaScript environments can ease the process of testing out code
 
 
 ---
@@ -61,8 +61,7 @@ Do online JavaScript environments allow the use of external libraries?
 
 ???
 
-* yes
-* no
-* only React and Angular
-* only jQuery
- 
+- yes
+- no
+- only React and Angular
+- only jQuery

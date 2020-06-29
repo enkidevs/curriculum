@@ -29,7 +29,7 @@ When omitted, it is set to 1 and the flex shrink factor is multiplied by the fle
 
 HTML:
 
-```html
+```plain-text
 <ul class="flex-container">
   <li class="flex-item flex1">1</li>
   <li class="flex-item flex2">2</li>
@@ -39,7 +39,7 @@ HTML:
 
 CSS:
 
-```css
+```plain-text
 .flex1 { flex-shrink: 2;
          flex-basis: 20em; }
 .flex2 { flex-shrink: 1;
@@ -61,7 +61,7 @@ The following container is 30em wide. You can see how the children have been res
 
 Elements of which class will shrink three times as much as the largest one?
 
-```css
+```plain-text
 .container{
   width: 800px;
 }
@@ -81,10 +81,10 @@ Elements of which class will shrink three times as much as the largest one?
 
 ???
 
-* flex1
-* flex3
-* flex2
-* none
+- flex1
+- flex3
+- flex2
+- none
 
 
 ---
@@ -95,7 +95,6 @@ What does the `flex-shrink` factor determine?
 
 ???
 
-* How much the flex item shrinks relative to the rest of the items if there's not space on the row.
-* How much the flex item shrinks on the page.
-* How much the flex item expands.
- 
+- How much the flex item shrinks relative to the rest of the items if there's not space on the row.
+- How much the flex item shrinks on the page.
+- How much the flex item expands.

@@ -1,48 +1,26 @@
 ---
 author: lizTheDeveloper
-
-levels:
-
-  - beginner
-
-  - basic
-
 type: normal
-
 category: feature
-
-aspects:
-  - introduction
-  - new
-  - workout
-
 inAlgoPool: false
-
 tags:
-
   - introduction
-
   - workout
-
   - arrays
-
   - new
-
   - es6
-
-standards:
-  javascript.es6-extensions-standard-library.1: 10
-
 links:
-
-  - '[ponyfoo.com](https://ponyfoo.com/articles/es6-array-extensions-in-depth){website}'
-  - '[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array){website}'
-
+  - >-
+    [ponyfoo.com](https://ponyfoo.com/articles/es6-array-extensions-in-depth){website}
+  - >-
+    [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array){website}
 ---
 
 # Searching Arrays
 
+
 ---
+
 ## Content
 
 Arrays have a number of prototype methods for performing search operations.
@@ -51,7 +29,7 @@ Arrays have a number of prototype methods for performing search operations.
 
 `includes` returns a boolean indicating whether an array contains a specific value or not:
 
-```javascript
+```plain-text
 var people = ["john", "bob"];
 people.includes("john"); //true
 ```
@@ -63,7 +41,7 @@ people.includes("john"); //true
 
 If no elements match then *undefined* will be returned:
 
-```javascript
+```plain-text
 var people = [
   { name: "Alex", age: 36 },
   { name: "John", age: 20 },
@@ -83,7 +61,9 @@ people.findIndex(function(e, i, src) {
 //returns 1
 ```
 
+
 ---
+
 ## Practice
 
 Find the first number divisible by `4`:
@@ -93,14 +73,16 @@ let ints = ["6", "2", "5", "6", "5", "8"];
 ints.???(???);
 ```
 
-* `find`
-* `function (e) {return e % 4 === 0}`
-* `includes`
-* `function (e) {return e % 4}`
-* `filter`
-* `function (e) {return e === 4}`
+- `find`
+- `function (e) {return e % 4 === 0}`
+- `includes`
+- `function (e) {return e % 4}`
+- `filter`
+- `function (e) {return e === 4}`
+
 
 ---
+
 ## Revision
 
 Fill the array with the first number divisible by `2` and `3`:
@@ -118,8 +100,8 @@ let ints = [
 ints.fill(ints.???(???))
 ```
 
-* `find`
-* `e => e % 2 === 0 && e % 3 === 0`
-* `findIndex`
-* `includes`
-* `e => e / 2 === 0 && e / 3 === 0`
+- `find`
+- `e => e % 2 === 0 && e % 3 === 0`
+- `findIndex`
+- `includes`
+- `e => e / 2 === 0 && e / 3 === 0`

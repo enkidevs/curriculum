@@ -34,9 +34,9 @@ When user input cannot be deserialized, or it throws an exception, make sure tha
 How can we pass serialized data to the client while making sure it has not been tampered with?
 ???
 
-* Integrity Check
-* Encryption
-* Serialization
+- Integrity Check
+- Encryption
+- Serialization
 
 
 ---
@@ -46,8 +46,7 @@ How can we pass serialized data to the client while making sure it has not been 
 What is the most effective defense against serialization attack vectors?
 ???
 
-* Input Validation
-* Deserialization
-* Encryption
-* Nonces
- 
+- Input Validation
+- Deserialization
+- Encryption
+- Nonces

@@ -77,22 +77,24 @@ BadException("something bad");
 
 Complete the following block in the code snippet such that the comments make sense:
 
-    ??? {
-       throw "my error";
-    } ??? (e) {
-       //exception is caught here
-    } ??? {
-       // will always run
-    }
+```plain-text
+??? {
+   throw "my error";
+} ??? (e) {
+   //exception is caught here
+} ??? {
+   // will always run
+}
+```
 
-* `try`
-* `catch`
-* `finally`
-* `final`
-* `do`
-* `while`
-* `new`
-* `for`
+- `try`
+- `catch`
+- `finally`
+- `final`
+- `do`
+- `while`
+- `new`
+- `for`
 
 
 ---
@@ -101,11 +103,12 @@ Complete the following block in the code snippet such that the comments make sen
 
 Complete the missing keyword for throwing an exception:
 
-    ??? "my exception"
+```plain-text
+??? "my exception"
+```
 
-* `throw`
-* `raise`
-* `catch`
-* `try`
-* `finally`
- 
+- `throw`
+- `raise`
+- `catch`
+- `try`
+- `finally`

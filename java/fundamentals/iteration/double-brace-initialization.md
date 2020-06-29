@@ -15,7 +15,7 @@ links:
 
 Instead of having to always initialize a set, list or map to contain elements by manually initializing a set and adding elements to it (for example to pass to a function), Java provides a way to do it all in one go. It's called Double Brace Initialization. For example the following code:
 
-```java
+```plain-text
 public Set<String> mySet = new 
 HashSet<String>();
 mySet.add("one");
@@ -28,7 +28,7 @@ someFunction(mySet);
 
 becomes:
 
-```java
+```plain-text
 someFunction(new HashSet<String>() {{
   add("one");
   add("two");
@@ -49,11 +49,11 @@ new ArrayList<String>() ???
 }};
 ```
 
-* `{{` 
-* `add` 
-* `((` 
-* `{(` 
-* `push`
+- `{{` 
+- `add` 
+- `((` 
+- `{(` 
+- `push`
 
 
 ---
@@ -62,7 +62,7 @@ new ArrayList<String>() ???
 
 Which of the following Java code snippets uses Double Brace Initialization properly to create a new HashSet? 
 
-```java
+```plain-text
 // Option A
 newSet(new HashSet<String>() {
   add("Enki");
@@ -82,7 +82,6 @@ newSet(new HashSet<String>() {{
 
 ???
 
-* Option C
-* Option A
-* Option B
- 
+- Option C
+- Option A
+- Option B

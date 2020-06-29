@@ -1,22 +1,14 @@
 ---
 author: Stefan-Stojanovic
-
-levels:
-  - basic
-
-aspects:
-  - deep
-  - workout
-
 type: normal
-
 category: how to
-
 ---
 
 # Querying a Collection
 
+
 ---
+
 ## Content
 
 To perform queries means to search through a database or collection and return a result matching a specified condition.
@@ -25,7 +17,7 @@ In MongoDB, we have *query operators* that can be used to specify different cond
 
 For instance, let's say we have a `pokemon` collection with more than 200 pokémon documents. We know that each pokémon has an `_id`, `type`, `name` and `secondType` field, and we want to display all the pokémon that have the type `"Grass"`. We can do that like so:
 
-```javascript
+```plain-text
 db.pokemon.find({
   type: "Grass"
 });
@@ -33,7 +25,7 @@ db.pokemon.find({
 
 Output:
 
-```javascript
+```plain-text
 {
   "_id" : ObjectId(
     "5d9d8a6a0b24990f19398209"
@@ -71,7 +63,7 @@ Output:
 
 If we wanted to display all the pokémon of type `"Grass"` whose `secondType` equals `"Normal"`, we would do:
 
-```javascript
+```plain-text
 db.pokemon.find({
   type: "Grass",
   secondType: "Normal"
@@ -80,7 +72,7 @@ db.pokemon.find({
 
 Output:
 
-```javascript
+```plain-text
 {
   "_id": ObjectId(
     "5d9d926c0b24990f19398228"
@@ -110,7 +102,9 @@ Output:
 
 The above search returns only the documents that have `type` equal to `"Grass"` and `secondType` equal to `"Normal"`.
 
+
 ---
+
 ## Practice
 
 Fill in the blanks to create a simple query that finds all `"Mud"` type pokémon in the `pokemon` collection.
@@ -121,9 +115,9 @@ db.???.find({
 });
 ```
 
-* pokemon
-* type
-* "Mud"
-* Pokemon
-* TYPE
-* Mud
+- pokemon
+- type
+- "Mud"
+- Pokemon
+- TYPE
+- Mud

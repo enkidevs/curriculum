@@ -25,13 +25,13 @@ Due to their temporary lifespan, *tmpfs* mounts cannot be shared among container
 
 One way to specify usage of *tmpfs* is with the `--tmpfs` in the `docker run` command:
 
-```bash
+```plain-text
 docker run --tmpfs ~/enki nginx
 ```
 
 As with volumes and bind mounts, the recommended approach due to its better readability is to use the `--mount` flag:
 
-```bash
+```plain-text
 docker run \
   --mount type=tmpfs,destination=~/enki nginx
 ```
@@ -43,8 +43,7 @@ docker run \
 
 The *tmpfs* mount is a storage option in Docker where data is persisted ??? and is available only on ???.
 
-* temporary
-* Linux
-* forever
-* Windows
- 
+- temporary
+- Linux
+- forever
+- Windows

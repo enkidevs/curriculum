@@ -1,27 +1,17 @@
 ---
 author: tommarshall
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-  - new
-  - workout
-  - deep
-  - obscura
-
 links:
-
-  - '[MediaDevices](https://developer.mozilla.org/en-US/docs/Web/API/MediaDevices){documentation}'
-
-
+  - >-
+    [MediaDevices](https://developer.mozilla.org/en-US/docs/Web/API/MediaDevices){documentation}
 ---
 
 # MediaDevices.getUserMedia()
 
+
 ---
+
 ## Content
 
 *MediaDevices.getUserMedia()* prompts a user for permission to use video/audio input devices such as webcams/microphones.
@@ -29,7 +19,8 @@ links:
 If permission is provided then the promise returned is resolved with the `MediaStream` object.
 
 Standard syntax:
-```javascript
+
+```plain-text
 navigator.mediaDevices
   .getUserMedia(constraints)
   .then(function (mediaStream) {
@@ -42,7 +33,7 @@ navigator.mediaDevices
 
 A full example getting and returning the `MediaStream` object, using the promise:
 
-```javascript
+```plain-text
 let p = navigator.mediaDevices.getUserMedia(
   { audio: true, video: true }
 );
@@ -50,7 +41,7 @@ let p = navigator.mediaDevices.getUserMedia(
 
 You can do something with the video here:
 
-```javascript
+```plain-text
 p.then(function (mediaStream) {
   let video = document.querySelector(
     "video"
@@ -66,13 +57,15 @@ p.then(function (mediaStream) {
 
 You always check for errors at the end:
 
-```javascript
+```plain-text
 p.catch(function(err) {
   console.log(err.name);
 });
 ```
 
+
 ---
+
 ## Practice
 
 Get and return the `MediaStream` object using the promise below:
@@ -84,23 +77,22 @@ let p = navigator.???.???({
 });
 ```
 
+- `mediaDevices`
+- `getUserMedia`
+- `mediaStream`
+- `navigator`
+- `promise`
+- `permission`
 
-* `mediaDevices`
-* `getUserMedia`
-* `mediaStream`
-* `navigator`
-* `promise`
-* `permission`
 
 ---
+
 ## Revision
 
 If permission is provided, what is the
 promise returned and resolved with? ???
 
-
-* The MediaStream object.
-* A permission object.
-* A promise object.
-* Constraints for the media device.
- 
+- The MediaStream object.
+- A permission object.
+- A promise object.
+- Constraints for the media device.

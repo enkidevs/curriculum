@@ -1,27 +1,21 @@
 ---
 author: emmab
-
 tags:
   - introduction
   - workout
-
 type: normal
-
-aspects:
-  - introduction
-  - workout
-
 category: must-know
-
 links:
-  - '[More About Sets](http://www.python-course.eu/python3_sets_frozensets.php){website}'
-
-
+  - >-
+    [More About
+    Sets](http://www.python-course.eu/python3_sets_frozensets.php){website}
 ---
 
 # Sets in Python
 
+
 ---
+
 ## Content
 
 So we know about sequential data types like `strings`, `tuples` and `lists`. There are other data types where the order *doesn't matter*.
@@ -35,13 +29,13 @@ So we know about sequential data types like `strings`, `tuples` and `lists`. The
 
 > Sets are defined by values separated by commas, inside curly brackets `{}`.
 
-```python
+```plain-text
 set = {'clubs', 'hearts', 'spades', 'diamonds'}
 ```
 
 We can create a `set` by placing all items inside `{}`, separated by commas, OR by using the built-in `set()` function:
 
-```python
+```plain-text
 my_set = {1, "Hello", (1, 2, 3)}
 
 # OR
@@ -49,23 +43,27 @@ my_set = {1, "Hello", (1, 2, 3)}
 my_set = set([1, "Hello", (1, 2, 3)])
 ```
 
+
 ---
+
 ## Practice
 
 Sets are an ??? data type. Items inside a set can be of any data type, but each item must be ???.
 
-* `unordered`
-* `unique`
-* `ordered`
-* `indexed`
-* `non-unique`
+- `unordered`
+- `unique`
+- `ordered`
+- `indexed`
+- `non-unique`
+
 
 ---
+
 ## Revision
 
 Sets are an ??? data type. Items inside a set cannot be ???, though the whole set is mutable.
 
-* `unordered`
-* `updated`
-* `unique`
-* `indexed`
+- `unordered`
+- `updated`
+- `unique`
+- `indexed`

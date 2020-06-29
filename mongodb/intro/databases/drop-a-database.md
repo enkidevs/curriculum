@@ -21,7 +21,7 @@ Last time, we created two similarly named databases: `Pokemon` and `pokemon`. Le
 
 To do that, first, we need to switch to that database with the `use` command:
 
-```javascript
+```plain-text
 use Pokemon
 
 // switched to db Pokemon
@@ -31,7 +31,7 @@ use Pokemon
 
 When we are sure we are on the correct database, we can use the `db.dropDatabase()` command to delete the current database:
 
-```javascript
+```plain-text
 db.dropDatabase()
 // { "dropped": "Pokemon", "ok": 1 }
 ```
@@ -47,12 +47,12 @@ How do you delete (drop) the currently active database in MongoDB?
 ???.???
 ```
 
-* `db`
-* `dropDatabase()`
-* `delete`
-* `db()`
-* `database`
-* `deleteDatabase`
+- `db`
+- `dropDatabase()`
+- `delete`
+- `db()`
+- `database`
+- `deleteDatabase`
 
 
 ---
@@ -61,9 +61,8 @@ How do you delete (drop) the currently active database in MongoDB?
 
 To delete a database named `pokemon`, you have to use the ??? command followed by using the ??? command.
 
-* `use pokemon`
-* `db.dropDatabase()`
-* `delete`
-* `db.dropDatabase(pokemon)`
-* `db.delete(pokemon)`
- 
+- `use pokemon`
+- `db.dropDatabase()`
+- `delete`
+- `db.dropDatabase(pokemon)`
+- `db.delete(pokemon)`

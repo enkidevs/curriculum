@@ -28,7 +28,7 @@ In case of a `LEFT JOIN`, if the joined field has no match in the second table, 
 
 A `LEFT JOIN` is performed like this:
 
-```sql
+```plain-text
 SELECT move.id, move.name,
   type.id, type.name AS type_name
 FROM move
@@ -48,7 +48,7 @@ The first row of the 640 rows result:
 
 The equivalent `RIGHT OUTER JOIN`:
 
-```sql
+```plain-text
 SELECT move.id, move.name,
   type.id, type.name AS type_name
 FROM move
@@ -68,13 +68,13 @@ Conversely, the `RIGHT JOIN` representation is this:
 
 There shouldn't be any difference between the two outputs as every Pokémon, `move`, `type` or `item` is already in the game and `NULL` entries would probably break everything. However, if there was a move without a type in the DB (for the left join) or a type for which there are no moves (for the right join), the output would look like this:
 
-* Left Join
+- Left Join
 
 | id   | name              | id   | type_name |
 | ---- | ----------------- | ---- | --------- |
 | 1234 | coolest-move-ever | NULL | NULL      |
 
-* Right Join
+- Right Join
 
 | id   | name | id | type_name |
 | ---- | ---- | -- | --------- |
@@ -89,10 +89,10 @@ The difference between inner join (IJ) and left outer join (LOJ) is that
 
 ???
 
-* the LOJ result contains all rows in the first table
-* the LOJ result contains all rows in the second table
-* only their name differ
-* tables intersection can only be found as part of IJ result
+- the LOJ result contains all rows in the first table
+- the LOJ result contains all rows in the second table
+- only their name differ
+- tables intersection can only be found as part of IJ result
 
 
 ---
@@ -108,11 +108,11 @@ SELECT *
 type.id = type_efficacy.target_type_id;
 ```
 
-* `FROM`
-* `RIGHT JOIN`
-* `ON`
-* `LEFT JOIN`
-* `WHERE`
+- `FROM`
+- `RIGHT JOIN`
+- `ON`
+- `LEFT JOIN`
+- `WHERE`
 
 
 ---
@@ -157,8 +157,7 @@ id  | game_index | region_id
 
  ???
 
-* SELECT location.id,location_area.game_index,location.region_id FROM location LEFT JOIN location_area ON location.id = location_area.id;
-* SELECT location.id,location_area.game_index,location.region_id FROM location FULL OUTER JOIN location_area ON location.id = location_area.id;
-* SELECT location.id,location_area.game_index,location.region_id FROM location INNER JOIN location_area ON location.id = location_area.id;
-* SELECT location.id,location_area.game_index,location.region_id FROM location RIGHT JOIN location_area ON location.id = location_area.id;
- 
+- SELECT location.id,location_area.game_index,location.region_id FROM location LEFT JOIN location_area ON location.id = location_area.id;
+- SELECT location.id,location_area.game_index,location.region_id FROM location FULL OUTER JOIN location_area ON location.id = location_area.id;
+- SELECT location.id,location_area.game_index,location.region_id FROM location INNER JOIN location_area ON location.id = location_area.id;
+- SELECT location.id,location_area.game_index,location.region_id FROM location RIGHT JOIN location_area ON location.id = location_area.id;

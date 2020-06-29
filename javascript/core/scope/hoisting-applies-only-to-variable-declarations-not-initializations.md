@@ -17,7 +17,7 @@ links:
 
 Variable declarations using `var` are moved to the top of the function scope (or global scope if outside of a function). One consequence of this is that variables can be used before they are declared.
 
-```js
+```plain-text
 x = 5;
 alert(x); // 5
 var x;
@@ -27,7 +27,7 @@ var x;
 
 Note that it's only the declarations but not initializations that are hoisted:
 
-```js
+```plain-text
 alert(x); // undefined
 var x = 5;
 ```
@@ -36,7 +36,7 @@ This alert will produce `undefined` because, although the declaration `var x` is
 
 The code above can be thought of as behaving like this:
 
-```js
+```plain-text
 var x; // hoisted declaration
 alert(x); // undefined
 x = 5; // initialization
@@ -49,15 +49,15 @@ x = 5; // initialization
 
 The following code will output ???
 
-```javascript
+```plain-text
 s = "enki";
 console.log(s);
 var s;
 ```
 
-* enki
-* undefined
-* nothing
+- enki
+- undefined
+- nothing
 
 
 ---
@@ -66,12 +66,11 @@ var s;
 
 The following code outputs ???
 
-```javascript
+```plain-text
 console.log(v);
 var v = "enki";
 ```
 
-* undefined
-* enki
-* nothing
- 
+- undefined
+- enki
+- nothing

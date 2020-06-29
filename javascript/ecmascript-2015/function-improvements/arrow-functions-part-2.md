@@ -1,41 +1,22 @@
 ---
 author: lizTheDeveloper
-
-levels:
-
-  - beginner
-
-  - basic
-
 type: normal
-
 category: feature
-
-aspects:
-  - introduction
-  - workout
-  - new
-
 tags:
-
   - introduction
-
   - es6
-
   - workout
-
   - functions
-
-
 links:
-
-  - '[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions){website}'
-
+  - >-
+    [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions){website}
 ---
 
 # Arrow Functions (Part 2)
 
+
 ---
+
 ## Content
 
 One way that arrow functions (`() => {}`) differ from regular functions (`function(){}`) is that they do not treat `this` specially. 
@@ -46,7 +27,7 @@ On the other hand, `this` in any regular function is a special construct that ig
 
 Let's take a look at how this `Counter()` constructor is being defined: 
 
-```js
+```plain-text
 window.counter = 0;
 
 function Counter() {
@@ -69,7 +50,7 @@ let count = new Counter();
 
 Now, if we were to log the `count` instance, we would get:
 
-```js
+```plain-text
 // after 1 second
 console.log(count);
 // Object { counter: -1}
@@ -87,7 +68,9 @@ This means that in the `countUp()` function, `this` will be the global object wh
 
 On the other hand, arrow functions always treat `this` like a variable from the upper scope, no matter how we call them. This leads to the `countDown()` function modifying the `counter` property on the instance of `Counter`. If you're still unsure on how this works, we've added some comments to the example in this footnote[1].
 
+
 ---
+
 ## Practice
 
 Create a counter that can successfully count up and down:
@@ -102,14 +85,14 @@ function Counter () {
 let count = new Counter();
 ```
 
+- `() => {this.counter++;}`
+- `() => {this.counter--;}`
+- `function() {this.counter++;}`
+- `function() {this.counter--;}`
 
-
-* `() => {this.counter++;}`
-* `() => {this.counter--;}`
-* `function() {this.counter++;}`
-* `function() {this.counter--;}`
 
 ---
+
 ## Revision
 
 Create a counter that can successfully count up and down:
@@ -124,19 +107,19 @@ function Counter () {
 let count = new Counter();
 ```
 
+- `() => {this.counter++;}`
+- `() => {this.counter--;}`
+- `function() {this.counter++;}`
+- `function() {this.counter--;}`
 
 
-* `() => {this.counter++;}`
-* `() => {this.counter--;}`
-* `function() {this.counter++;}`
-* `function() {this.counter--;}`
-
- 
 ---
+
 ## Footnotes
+
 [1: Example]
 
-```js
+```plain-text
 function Counter() {
   // We wrote `Counter` in such
   // a way that it expects `this`

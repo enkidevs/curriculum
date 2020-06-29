@@ -1,35 +1,29 @@
 ---
 author: emmab
-
 tags:
   - introduction
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-
-
 ---
 
 # Intro to Sequential Data Types
 
+
 ---
+
 ## Content
 
 There are several different *sequential* data types in Python. These are ones that are *ordered in a defined sequence.*
 
 Strings are an example of a sequential data type.
 
-```python
+```plain-text
 text = 'Order matters!'
 ```
 
 > Elements in sequential data types can be *accessed via their indexes*.
 
-```python
+```plain-text
 print(text[0])
 # 'O'
 
@@ -44,7 +38,7 @@ Indexes are basically *measures of position*. All elements within a variable sta
 
 The index used must be valid:
 
-```python
+```plain-text
 print(text[14])
 # IndexError: str index out of range
 ```
@@ -53,12 +47,14 @@ Strings are also an **immutable data type** which means that items cannot be rea
 
 Most python objects (booleans, integers, floats, strings, and tuples) are immutable. This means that after you create the object and assign some value to it, you can't modify that value.
 
-```python
+```plain-text
 text[13] = '.'
 # TypeError: 'str' object does not support item assignment
 ```
 
+
 ---
+
 ## Practice
 
 What's the correct output for the following?
@@ -70,12 +66,14 @@ print(text[1])
 # ???
 ```
 
-* `'t'`
-* `'S'`
-* `'!'`
-* `'s'`
+- `'t'`
+- `'S'`
+- `'!'`
+- `'s'`
+
 
 ---
+
 ## Revision
 
 What's the correct output for the following?
@@ -87,8 +85,7 @@ print(text[O])
 # ???
 ```
 
-* `'S'`
-* `'s'`
-* `'!'`
-* `'t'`
-
+- `'S'`
+- `'s'`
+- `'!'`
+- `'t'`

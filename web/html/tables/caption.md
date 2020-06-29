@@ -26,7 +26,7 @@ When used, `<caption>` element must to be the **first** element within the `<tab
 
 Example:
 
-```html
+```plain-text
 <table>
   <caption>Employee List</caption>
   <tr>
@@ -56,7 +56,7 @@ Example:
 
 Code the following table.
 
-```html
+```plain-text
 <tag1>
   <tag2>Employee List</tag2>
   <tag3>
@@ -75,13 +75,13 @@ tag2 = ???
 tag3 = ???
 tag4 = ???
 
-* table
-* caption
-* tr
-* td
-* label
-* title
-* tt
+- table
+- caption
+- tr
+- td
+- label
+- title
+- tt
 
 
 ---
@@ -92,12 +92,12 @@ What HTML element represents the title of a table?
 
 ???
 
-* caption
-* title
-* tt
-* label
-* cap
-* tabletitle
+- caption
+- title
+- tt
+- label
+- cap
+- tabletitle
 
 
 ---
@@ -111,9 +111,8 @@ If the `<caption>` of an HTML table is placed under the table's data, where must
 
 ???
 
-* As the first element within the table
-* As the last element within the table
-* Anywhere within the table
-* Before the table element
-* After the table element
- 
+- As the first element within the table
+- As the last element within the table
+- Anywhere within the table
+- Before the table element
+- After the table element

@@ -30,9 +30,9 @@ Which of the following is NOT a service provided by DNS?
 
 ???
 
-* Managing which computers get which IP addresses
-* Managing which domain names map to which IP addresses
-* Maintaining a list of all publicly accessible domain names
+- Managing which computers get which IP addresses
+- Managing which domain names map to which IP addresses
+- Maintaining a list of all publicly accessible domain names
 
 
 ---
@@ -43,9 +43,8 @@ DNS is a system that maps *** to *** .
 
 ???
 
-* domain names
-* IP addresses
-* name servers
-* web severs
-* URLs
- 
+- domain names
+- IP addresses
+- name servers
+- web severs
+- URLs

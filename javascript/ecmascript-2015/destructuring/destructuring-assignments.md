@@ -1,38 +1,25 @@
 ---
 author: WebReflection
-
-levels:
-
-  - basic
-
-  - advanced
-
-  - medium
-
 type: fillTheGap
-
 category: must-know
-aspects:
-  - introduction
-  - new
-  - workout
 links:
-
-  - '[MDN - Destructuring](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment){documentation}'
-
-standards:
-  javascript.destructuring.0: 1000
-  javascript.destructuring.1: 1000
+  - >-
+    [MDN -
+    Destructuring](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment){documentation}
 ---
 
 # Destructuring assignments
 
+
 ---
+
 ## Content
 
 What will be shown on the console?
 
+
 ---
+
 ## Game Content
 
 ```javascript
@@ -41,9 +28,9 @@ console.log(a, b);
 // ???
 ```
 
-* 1, 2
-* undefined, undefined
-* {a: 1}, {b: 2}
+- 1, 2
+- undefined, undefined
+- {a: 1}, {b: 2}
 
 %exp
 We assign `1` to `a` and `2` to `b`.
@@ -58,10 +45,10 @@ console.log(x, y);
 // ???
 ```
 
-* 10, 15
-* 10, [15, -7]
-* [10, 15], -7
-* [10, 15, -7], [10, 15, -7]
+- 10, 15
+- 10, [15, -7]
+- [10, 15], -7
+- [10, 15, -7], [10, 15, -7]
 
 %exp
 `x` takes the first value in `axes` array and `y` the second.
@@ -78,10 +65,10 @@ console.log(x, z);
 // ???
 ```
 
-* 10, -7
-* SyntaxError
-* 10, [15, -7]
-* 10, 15
+- 10, -7
+- SyntaxError
+- 10, [15, -7]
+- 10, 15
 
 %exp
 Here we assign the first value to `x` and the third to `z`.
@@ -102,9 +89,9 @@ console.log(lat, lon);
 // ???
 ```
 
-* 43.617, 13.517
-* ReferenceError
-* undefined, undefined
+- 43.617, 13.517
+- ReferenceError
+- undefined, undefined
 
 %exp
 We define `lat` and `lon` variables with the values of `latitude` and `longitude`.
@@ -121,10 +108,10 @@ console.log(x, z);
 // ???
 ```
 
-* SyntaxError
-* 10, -7
-* 10, [15, -7]
-* 10, 15
+- SyntaxError
+- 10, -7
+- 10, [15, -7]
+- 10, 15
 
 %exp
 The syntax would work like this: `[x, z, ...rest]`.
@@ -143,10 +130,10 @@ console.log(rest);
 // ???
 ```
 
-* ['d', 'e']
-* SyntaxError
-* ['a','b','c','d','e']
-* 'de'
+- ['d', 'e']
+- SyntaxError
+- ['a','b','c','d','e']
+- 'de'
 
 %exp
 Here `rest` is assigned the last two values in the array.

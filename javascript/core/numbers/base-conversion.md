@@ -20,7 +20,7 @@ with the help of `toString` and `parseInt` functions.
 
 For example, converting a decimal number to hexadecimal, octal and binary looks something like this:
 
-```javascript
+```plain-text
 let number = 123
 number.toString(16) // "7b"
 number.toString(8) // "173"
@@ -29,7 +29,7 @@ number.toString(2) // "1111011"
 
 Note that the type of returned value is a string.
 
-```javascript
+```plain-text
 let number = 123
 typeof number.toString(16) // "string"
 ```
@@ -40,7 +40,7 @@ typeof number.toString(16) // "string"
 
 For example, parsing a hexadecimal, octal and binary number in string form into a decimal:
 
-```javascript
+```plain-text
 parseInt("7b", 16) // 123
 parseInt("173", 8) // 123
 parseInt("1111011", 2) // 123
@@ -63,17 +63,17 @@ Complete the following code snippet:
 ???("ad23e1",???)
 ```
 
-* toString
-* 2
-* parseInt
-* 16
-* '10'
-* '2'
-* 10
-* "base 10"
-* "base 16"
-* intoString
-* "two"
+- toString
+- 2
+- parseInt
+- 16
+- '10'
+- '2'
+- 10
+- "base 10"
+- "base 16"
+- intoString
+- "two"
 
 
 ---
@@ -90,16 +90,15 @@ Complete the following code snippet:
 ???("ead2",???).???(???);
 ```
 
-* 132
-* 16
-* parseInt
-* 15
-* toString
-* 2
-* 10
-* toBase
-* toNumber
-* ”base 10”
-* ”base 15”
-* ”base 2”
- 
+- 132
+- 16
+- parseInt
+- 15
+- toString
+- 2
+- 10
+- toBase
+- toNumber
+- ”base 10”
+- ”base 15”
+- ”base 2”

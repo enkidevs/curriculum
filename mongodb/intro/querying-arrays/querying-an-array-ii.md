@@ -1,23 +1,20 @@
 ---
 author: Stefan-Stojanovic
-
-aspects:
-  - introduction
-
 type: normal
-
 category: must-know
-
-links:
-
+links: null
 ---
+
 # Querying An Array part 2
+
+
 ---
+
 ## Content
 
 In the previous insight, we showed you how to search for a specific element within an array regardless of its position in the array and the number of values in that array.
 
-```js
+```plain-text
 db.pokedex.find( { spells: "Bite" } )
 ```
 
@@ -26,13 +23,15 @@ Now, let's say we wanted to find which document has an array with an exact numbe
 Using the same example from the previous insight, let's say we wanted to find which document contains only the "Bite" spell. 
 
 To do this, all we have to do is add `[]` around our `"Bite"` value, like so:
-```js
+
+```plain-text
 // Search for an array containing the "Bite" value
 db.pokedex.find( { spells: "Bite" } )
 
 // Search for an array containing only the "Bite" value
 db.pokedex.find( { spells: ["Bite"] } )
 ```
+
 The first input searches for a "Bite" value regardless of the amount of values in the array.
 
 The second one searches for the document whose `spells` array only has the value "Bite" in it and nothing else.
@@ -40,7 +39,8 @@ The second one searches for the document whose `spells` array only has the value
 **Note:** For easier comprehension of querying arrays, we will be using the same documents from the  previous insight. **(The documents are in the footnotes of every insight of this workout under Previous Documents[1])**
 
 Output of 2nd example:
-```javascript
+
+```plain-text
 {
   _id: ObjectId("5df389d397b15a71714c7592"),
   name: "Zubat:",
@@ -52,6 +52,7 @@ Output of 2nd example:
 
 
 ---
+
 ## Practice
 
 Find all documents in the `pokedex` collection that only have the `"Poison"` value in their `spells` array.
@@ -62,20 +63,22 @@ db.pokedex???(
 )
 ```
 
-* `.find`
-* `spells`
-* `["Poison"]`
-* `"Poison"`
-* `.search`
-* `Spells`
+- `.find`
+- `spells`
+- `["Poison"]`
+- `"Poison"`
+- `.search`
+- `Spells`
 
 
 ---
+
 ## Footnotes
 
 [1:Previous Documents]
 Here are the documents used in the previous insight:
-```javascript
+
+```plain-text
 // Previous Documents
 {
   _id: ObjectId("5d9d8a6a0b24990f19398209"),

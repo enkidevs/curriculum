@@ -1,28 +1,21 @@
 ---
 author: alexjmackey
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-  - workout
-  - deep
-  - obscura
-
 ---
 
 # Functions Are Objects
 
+
 ---
+
 ## Content
 
 Every function in JavaScript is also an object. 
 
 This means we can assign a function to a variable which can then be used to execute the function. Function used as a value like this is called a *function expression*.
 
-```js
+```plain-text
 let add = function enki(x, y){
   return x + y;
 };
@@ -36,7 +29,7 @@ This means that we can also pass function as arguments into other functions (the
 
 Consider this example: if we were creating a calculator, we could pass different calculation expressions into the `calc` function and avoid repeating the console logging code:
 
-```js
+```plain-text
 function calc(expression){
   console.log(expression(2, 1));
 }
@@ -57,7 +50,7 @@ We don’t even need to give our functions a name.
 
 A function without a name is called an anonymous function:
 
-```js
+```plain-text
 let add = function (x, y){
   return x + y;
 }
@@ -65,7 +58,9 @@ let add = function (x, y){
 add(1, 2); // 3
 ```
 
+
 ---
+
 ## Practice
 
 Complete the function expression in the following code snippet such that the code works correctly:
@@ -78,16 +73,17 @@ Complete the function expression in the following code snippet such that the cod
 console.log(add(1, 2, 3)); 
 ```
 
+- `let`
+- `function`
+- `return`
+- `console.log`
+- `get`
+- `fn`
+- `()`
 
-* `let`
-* `function`
-* `return`
-* `console.log`
-* `get`
-* `fn`
-* `()`
 
 ---
+
 ## Revision
 
 Complete the function expression in the following code snippet such that the code works correctly:
@@ -99,13 +95,10 @@ Complete the function expression in the following code snippet such that the cod
 console.log(x(1, 2, 3)); 
 ```
 
-
-* `let`
-* `function`
-* `return`
-* `console.log`
-* `get`
-* `fn`
-* `()`
-
- 
+- `let`
+- `function`
+- `return`
+- `console.log`
+- `get`
+- `fn`
+- `()`

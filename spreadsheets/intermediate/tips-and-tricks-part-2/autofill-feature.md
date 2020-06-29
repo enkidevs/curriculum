@@ -1,19 +1,14 @@
 ---
 author: Stefan-Stojanovic
-
-aspects:
-  - introduction
-  - workout
-
 type: normal
-
 category: how to
+---
+
+# `Autofill`
+
 
 ---
 
-# `Autofill` 
-
----
 ## Content
 
 The `Autofill` feature is one of spreadsheets' many powerful features.

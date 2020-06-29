@@ -17,8 +17,8 @@ In this case, the arrangement is done in a grid (as you might've already guessed
 
 When deciding what to use between flexbox or grid, think about it like this:
 
-* flexbox allows control of one dimension (either horizontal **or** vertical)
-* grid allows control of both dimensions (horizontal **and** vertical)
+- flexbox allows control of one dimension (either horizontal **or** vertical)
+- grid allows control of both dimensions (horizontal **and** vertical)
 
 
 ---
@@ -31,8 +31,7 @@ Flexbox allows control of ???.
 
 Gridbox allows control of ???.
 
-* one dimension
-* both dimension
-* the horizontal axis only
-* one diagonal
- 
+- one dimension
+- both dimension
+- the horizontal axis only
+- one diagonal

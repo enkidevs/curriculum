@@ -24,7 +24,7 @@ Factories will create objects for you so *you don't have to*.
 
 Basic factories pattern:
 
-```javascript
+```plain-text
 //enki.js
 function Enki (args) {
   this.args = args;
@@ -79,17 +79,17 @@ const e1 = ???(42)
 const e2 = ???.???('55')
 ```
 
-* new Enki
-* return new Enki
-* Enki.createWithNumber
-* Enki
-* createWithNumberString
-* Enki.createWithNumberString
-* return new
-* Enki()
-* create
-* factory
-* init
+- new Enki
+- return new Enki
+- Enki.createWithNumber
+- Enki
+- createWithNumberString
+- Enki.createWithNumberString
+- return new
+- Enki()
+- create
+- factory
+- init
 
 
 ---
@@ -100,8 +100,7 @@ Which of the following statements about the factory design pattern do you consid
 
 ???
 
-* factory methods need to return multiple instances of the object in one call
-* factories begin to be useful when working with complex constructors
-* specific methods will create objects instead of the constructor
-* factory methods will call the constructor themselves
- 
+- factory methods need to return multiple instances of the object in one call
+- factories begin to be useful when working with complex constructors
+- specific methods will create objects instead of the constructor
+- factory methods will call the constructor themselves

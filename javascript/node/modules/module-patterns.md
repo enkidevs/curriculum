@@ -27,7 +27,7 @@ Other module patterns are:
 
 Exporting an anonymous function:
 
-```javascript
+```plain-text
 // module.js
 module.exports = function() {
 
@@ -42,7 +42,7 @@ func();
 
 Named functions can be exported in a similar way, however notice differences when defining the function and requiring the module:
 
-```javascript
+```plain-text
 // module.js
 exports.foo = function() {
 
@@ -63,9 +63,9 @@ foo();
 What must be used when exporting an anonymous function?
 ???
 
-* module.exports
-* require
-* exports
+- module.exports
+- require
+- exports
 
 
 ---
@@ -87,8 +87,7 @@ var foo = require('./module.js'???;
 foo();
 ```
 
-* ).foo
-* )
-* ).module
-* ).exports
- 
+- ).foo
+- )
+- ).module
+- ).exports

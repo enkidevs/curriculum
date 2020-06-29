@@ -1,19 +1,14 @@
 ---
 author: Stefan-Stojanovic
-
-aspects:
-  - introduction
-  - workout
-
 type: normal
-
 category: how to
-
 ---
 
 # OR
 
+
 ---
+
 ## Content
 
 The `OR` function returns `TRUE` if any of its arguments are logically true and `FALSE` if all of them are not logically true.
@@ -50,19 +45,23 @@ In the first image, we have compared to a user inputted string and it evaluated 
 
 In the second image, the green highlighted argument evaluates to `TRUE` so the whole function evaluates to `TRUE`. 
 
+
 ---
+
 ## Practice
 
 `OR` is a ??? function that evaluates to ??? if one of its arguments is ??? and ??? if all of its arguments evaluate ???.
 
-* logical
-* TRUE
-* true
-* FALSE
-* false
-* statistical
+- logical
+- TRUE
+- true
+- FALSE
+- false
+- statistical
+
 
 ---
+
 ## Footnotes
 
 [1:0 is false]

@@ -2,16 +2,15 @@
 author: kapnobatai136
 type: normal
 category: must-know
-aspects:
-  - introduction
 links:
   - '[Official Website for TypeScript](https://www.typescriptlang.org){website}'
-
 ---
 
 # What is TypeScript?
 
+
 ---
+
 ## Content
 
 If you're old enough, you might remember when JavaScript was just a web development language. 
@@ -34,37 +33,44 @@ This means that TypeScript has and always will have all the functionality of Jav
 
 Anything that you can build with JavaScript you can also build with TypeScript.
 
+
 ---
+
 ## Practice
 
 All features of JavaScript are included in TypeScript but not all features of TypeScript are included in JavaScript.
 
 ???
 
-* True.
-* False.
-* Not always, it depends.
+- True.
+- False.
+- Not always, it depends.
+
 
 ---
+
 ## Revision
 
 Using types in TypeScript is required.
 
 ???
 
-* False.
-* True.
+- False.
+- True.
+
 
 ---
+
 ## Footnotes
 
 [1: JavaScript is incredibly versatile]
 
 Here are some tools to demonstrate what can be built with JavaScript:
-  - [Develop ML models](https://www.tensorflow.org/js)
-  - [Build User Interfaces](https://reactjs.org/)
-  - [Make iOS and Android apps](https://reactnative.dev)
-  - [Build servers](https://nodejs.dev)
+
+- [Develop ML models](https://www.tensorflow.org/js)
+- [Build User Interfaces](https://reactjs.org/)
+- [Make iOS and Android apps](https://reactnative.dev)
+- [Build servers](https://nodejs.dev)
 
 [2: Superset]
 A set `X` is a superset of set `Y`, if `X` includes all the values in `Y`.

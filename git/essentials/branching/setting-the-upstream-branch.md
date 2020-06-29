@@ -24,7 +24,7 @@ Instead, you can explicitly set the upstream branch by using the `-u` or `--set-
 
 For example, to set the current branch to track the remote branch `scrollFix`:
 
-```bash
+```plain-text
 git branch -u origin/scrollFix
 ```
 
@@ -40,12 +40,12 @@ git ??? ???
 
 is used to set the current branch to follow the remote branch *newFeature*.
 
-* `branch`
-* `-u`
-* `origin`
-* `newFeature`
-* `checkout`
-* `-upstream`
+- `branch`
+- `-u`
+- `origin`
+- `newFeature`
+- `checkout`
+- `-upstream`
 
 
 ---
@@ -54,7 +54,6 @@ is used to set the current branch to follow the remote branch *newFeature*.
 
 `git clone` and `git checkout` commands on a remote repository set up a ??? branch automatically.
 
-* tracking
-* single
-* false
- 
+- tracking
+- single
+- false

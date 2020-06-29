@@ -20,7 +20,7 @@ This object is usually passed to a callback (therefore it can take any name) and
 
 Send a response to the client:
 
-```javascript
+```plain-text
 res.send(body);
 res.send(status,body);
 //default content type is "text/html"
@@ -28,27 +28,27 @@ res.send(status,body);
 
 Send **JSON** to the client:
 
-```javascript
+```plain-text
 res.json(json);
 res.json(status, json);
 ```
 
 Send different content depending on the Accept request header:
 
-```javascript
+```plain-text
 res.format({'text/plain': 'hey',
   'text/html': '<b>hey</b>'});
 ```
 
 Using `res.locals` one can get an object containing the default context for rendering views.  Rendering a view using the configured templating engine can be done using:
 
-```javascript
+```plain-text
 res.render(view,[locals],callback);
 ```
 
 If middleware support is present, client cookies can be set/cleared:
 
-```javascript
+```plain-text
 res.cookie(name,value,[options]);
 res.clearCookie(name,[options]);
 ```
@@ -72,19 +72,19 @@ If an error happened we would like to send a "There is an error" message to the 
 res.???(???, ???)
 ```
 
-* clearCookie
-* 'my-rogue-cookie'
-* send
-* 'There is an error'
-* 503
-* 404
-* eraseCookie
-* emptyCookie
-* cookie
-* myRogueCookie
-* back
-* respond
-* error
+- clearCookie
+- 'my-rogue-cookie'
+- send
+- 'There is an error'
+- 503
+- 404
+- eraseCookie
+- emptyCookie
+- cookie
+- myRogueCookie
+- back
+- respond
+- error
 
 
 ---
@@ -99,13 +99,12 @@ var myJson; // equal to json we want to send
 res.???(???);
 ```
 
-* json
-* myJson
-* status
-* send
-* format
-* render
-* cookie
-* toJSON
-* sendJSON
- 
+- json
+- myJson
+- status
+- send
+- format
+- render
+- cookie
+- toJSON
+- sendJSON

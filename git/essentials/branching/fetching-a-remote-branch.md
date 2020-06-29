@@ -40,13 +40,15 @@ Note: changes are **not** automatically applied to your local branch, you have t
 
 Synchronise your local branch with changes to the remote `test`:
 
-    git ??? ???
+```plain-text
+git ??? ???
+```
 
-* `fetch`
-* `test`
-* `master`
-* `origin`
-* `merge`
+- `fetch`
+- `test`
+- `master`
+- `origin`
+- `merge`
 
 
 ---
@@ -55,11 +57,12 @@ Synchronise your local branch with changes to the remote `test`:
 
 Complete the process to apply the changes to your local branch `master`:
 
-    git ??? origin
-    git ???
+```plain-text
+git ??? origin
+git ???
+```
 
-* `fetch`
-* `merge`
-* `commit`
-* `master`
- 
+- `fetch`
+- `merge`
+- `commit`
+- `master`

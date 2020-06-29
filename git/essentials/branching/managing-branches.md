@@ -17,7 +17,7 @@ links:
 
 If you want to see a list of your branches, you can run `git branch`:
 
-```bash
+```plain-text
 git branch
 experimental
 * master
@@ -30,7 +30,7 @@ You can use `-v` to see the last commit on each branch.
 
 You can use `--merged` or `--no-merged` to list the branches you have or haven't merged to the current branch:
 
-```bash
+```plain-text
 git branch --merged
 * master
 noDistractions
@@ -50,11 +50,11 @@ Show the last commit on each branch:
 git ??? ???
 ```
 
-* `branch`
-* `-v`
-* `--merged`
-* `-m`
-* `commit`
+- `branch`
+- `-v`
+- `--merged`
+- `-m`
+- `commit`
 
 
 ---
@@ -63,7 +63,7 @@ git ??? ???
 
 What does the asterisk mean?
 
-```bash
+```plain-text
 git branch 
 '*' master 
 test
@@ -71,7 +71,6 @@ test
 
 ???
 
-* `master` is checked out
-* `test` is merged with `master`
-* `master` has modified files
- 
+- `master` is checked out
+- `test` is merged with `master`
+- `master` has modified files

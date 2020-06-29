@@ -1,22 +1,14 @@
 ---
 author: Stefan-Stojanovic
-
-levels:
-  - beginner
-
-aspects:
-  - introduction
-  - workout
-
 type: normal
-
 category: must-know
-
 ---
 
 # Delete documents
 
+
 ---
+
 ## Content
 
 ### Delete a Single Document
@@ -25,7 +17,7 @@ To delete a single document you should use the `db.mycollection.deleteOne()` met
 
 Let's say we want to delete a pokémon named `Snorlax` from the `pokemon` collection. We can do so like this:
 
-```javascript
+```plain-text
 db.pokemon.deleteOne({
   name: "Snorlax"
 });
@@ -33,7 +25,7 @@ db.pokemon.deleteOne({
 
 Output:
 
-```javascript
+```plain-text
 {
   "acknowledged": true,
   "deletedCount": 1
@@ -42,7 +34,7 @@ Output:
 
 If we wanted to delete a pokémon of type `"Grass"` where there are more than one of them, we could attempt to do so like:
 
-```javascript
+```plain-text
 db.pokemon.deleteOne({
   type: "Grass"
 });
@@ -56,7 +48,7 @@ To delete multiple documents within the `pokemon` collection, we need to use the
 
 For instance, here we delete all pokémon of type `"Grass"`:
 
-```javascript
+```plain-text
 db.pokemon.deleteMany({
   type: "Grass"
 });
@@ -64,7 +56,7 @@ db.pokemon.deleteMany({
 
 Output:
 
-```javascript
+```plain-text
 {
   "acknowledged": true,
   "deletedCount": 5
@@ -73,46 +65,52 @@ Output:
 
 Furthermore, you can also delete all documents within a collection by using the `db.pokemon.deleteMany()` method with no parameters.
 
-```javascript
+```plain-text
 db.pokemon.deleteMany()
 ```
 
 Output:
 
-```javascript
+```plain-text
 {
   "acknowledged": true,
   "deletedCount": 12
 }
 ```
 
+
 ---
+
 ## Practice
 
 Delete the first document in the `pokemon` table of type `"Fire"`.
+
 ```javascript
 ???.pokemon.???({
   ???: ???
 })
 ```
+
 Delete all documents within the `pokemon` collection: 
 
 ```js
 ???
 ```
 
-* `db`
-* `deleteOne`
-* `type`
-* `"Fire"`
-* `db.pokemon.deleteMany()`
-* `db.pokemon.delete({})`
-* `db.pokemon.deleteAll()`
-* `database`
-* `deleteMany`
-* `FIRE`
+- `db`
+- `deleteOne`
+- `type`
+- `"Fire"`
+- `db.pokemon.deleteMany()`
+- `db.pokemon.delete({})`
+- `db.pokemon.deleteAll()`
+- `database`
+- `deleteMany`
+- `FIRE`
+
 
 ---
+
 ## Revision
 
 Delete a single document within the `pokemon` collection with the name `"Abraxas"`:
@@ -137,12 +135,12 @@ Delete all documents within the `pokemon` collection:
 ???
 ```
 
-* `deleteOne`
-* `name`
-* `"Abraxas"`
-* `deleteMany`
-* `type`
-* `"Ghost"`
-* `db.pokemon.deleteMany()`
-* `db.pokemon.delete()`
-* `db.pokemon.deleteAll()`
+- `deleteOne`
+- `name`
+- `"Abraxas"`
+- `deleteMany`
+- `type`
+- `"Ghost"`
+- `db.pokemon.deleteMany()`
+- `db.pokemon.delete()`
+- `db.pokemon.deleteAll()`

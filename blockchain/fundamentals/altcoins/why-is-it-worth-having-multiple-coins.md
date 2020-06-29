@@ -30,10 +30,10 @@ Identify one way of creating new cryptocurrencies:
 
 ???
 
-* Forking already established ones
-* It can't be improved
-* Adding new nodes to the network
-* Modifying the mining puzzle
+- Forking already established ones
+- It can't be improved
+- Adding new nodes to the network
+- Modifying the mining puzzle
 
 
 ---
@@ -44,6 +44,5 @@ Blockchain-based projects, as any other start-ups, are more likely to fail than 
 
 ???
 
-* False
-* True
- 
+- False
+- True

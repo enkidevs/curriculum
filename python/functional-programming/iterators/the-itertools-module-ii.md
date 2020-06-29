@@ -1,35 +1,28 @@
 ---
 author: stefkn
-
-levels:
-  - beginner
-  - basic
-  - medium
-
-aspects:
-  - workout
-
 type: normal
-
 category: must-know
-
 links:
-  - '[A gentle introduction to itertools](http://jmduke.com/posts/a-gentle-introduction-to-itertools/){website}'
-  - '[A Demo of APL from 1975](https://www.youtube.com/watch?v=_DTpQ4Kk2wA){website}'
-
-
+  - >-
+    [A gentle introduction to
+    itertools](http://jmduke.com/posts/a-gentle-introduction-to-itertools/){website}
+  - >-
+    [A Demo of APL from
+    1975](https://www.youtube.com/watch?v=_DTpQ4Kk2wA){website}
 ---
 
 # chain(), filterfalse() and compress()
 
+
 ---
+
 ## Content
 
 The `itertools` module provides a host of useful methods for working with iterable objects. Out of these methods, one can distinguish the iterators which terminate on the shortest input sequence, such as `chain()`, `filterfalse()` and `compress()`
 
 Let's start with `chain()`. This method allows us to "glue" the end of one sequence to the start of another, chaining them together. This can be done for multiple sequences at a time. Take a look at this example:
 
-```python
+```plain-text
 import itertools;
 
 letters = ['a', 'b', 'c', 'd']
@@ -44,7 +37,7 @@ print(
 
 Next, `filterfalse` iterates through a collection of elements, and, given a boolean expression to evaluate with the each element, returns a collection which only contains the elements where the expression evaluated to false.
 
-```python
+```plain-text
 numbers = [1, 2, 3, 4, 5, 6, 7, 8]
 
 print(
@@ -57,7 +50,7 @@ print(
 
 Finally, `compress()`, which takes two collections, a and b, and returns only the elements in a where the corresponding element in b evaluates to true.
 
-```python
+```plain-text
 numbers = [1, 2, 3, 4, 5, 6, 7, 8]
 boolean = [1, 0, 1, 0, 1, 0, 1, 0]
 
@@ -68,7 +61,9 @@ print(
 # Result: [1, 3, 5, 7]
 ```
 
+
 ---
+
 ## Practice
 
 Let's say we have three lists. The first is a list of prices for items on an online shop. The second is a list of proposed discounts, to be subtracted from those prices. Finally, the third list is a list of booleans which indicate which products (assume one product per index) are included in the sale.
@@ -105,20 +100,21 @@ print(
   list(salePrices))
 ```
 
+- `compress`
+- `filterfalse`
+- `cycle`
+- `chain`
+- `izip`
+- `islice`
 
-* `compress`
-* `filterfalse`
-* `cycle`
-* `chain`
-* `izip`
-* `islice`
 
 ---
+
 ## Revision
 
 What is the result of the following code execution?
 
-```python
+```plain-text
 import itertools;
 
 names = ['Tom', 'Sadiq', 'Lars',
@@ -135,8 +131,7 @@ print(
 
 ???
 
-
-* `['Tom', 'Lars', 'Lee', 'Tom', 'Lars', 'Lee']`
-* `['Tom', 'Sadiq', 'Lars', 'Lee', 'Jean', 'Tom']`
-* `['Sadiq', 'Jean', 'Sadiq', 'Jean', 'Sadiq', 'Jean']`
-* `<itertools.islice object at 0x????????>`
+- `['Tom', 'Lars', 'Lee', 'Tom', 'Lars', 'Lee']`
+- `['Tom', 'Sadiq', 'Lars', 'Lee', 'Jean', 'Tom']`
+- `['Sadiq', 'Jean', 'Sadiq', 'Jean', 'Sadiq', 'Jean']`
+- `<itertools.islice object at 0x????????>`

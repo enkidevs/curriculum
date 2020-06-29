@@ -1,18 +1,14 @@
 ---
 author: kapnobatai136
-
 category: must-know
-
-aspects:
-  - introduction
-
 type: normal
-
 ---
 
 # Making Views
 
+
 ---
+
 ## Content
 
 Let's say that you're working on a new product, and doing market research for it. This might include sending our surveys and analyzing the responses.
@@ -20,6 +16,7 @@ Let's say that you're working on a new product, and doing market research for it
 In Airtable, you can create a Form view, which can be sent to your users to complete. Each answer is recorded in the table, and it can be seen in the main view.
 
 To begin, create a new table which you can name however you want (we chose `Market Research`). In the table, each field represents an entry that the user will have to fill in. You can start off with something simple, like this:
+
 - `Full Name` - Single line text
 - `Do you enjoy our product?` - Single select
 - `Suggestions for improvement` - Long text
@@ -35,12 +32,14 @@ To create a new view, click on the `Grid view` button (seen in the top left corn
 
 There you have it, your form is ready.
 
+
 ---
+
 ## Practice
 
 To make a new view, you have to ??? and select the new view you want.
 
-* click on the current view
-* create a new base
-* delete the old view
-* delete an old base
+- click on the current view
+- create a new base
+- delete the old view
+- delete an old base

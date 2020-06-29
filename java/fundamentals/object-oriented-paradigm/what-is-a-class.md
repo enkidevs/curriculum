@@ -1,31 +1,24 @@
 ---
 author: mihaiberq
-
-levels:
-
-  - beginner
-
 type: normal
-
 category: must-know
-
 inAlgoPool: false
-
-
 links:
-
-  - '[Why OOP makes sense](https://www.quora.com/What-is-the-difference-between-procedural-and-object-oriented-programming){website}'
-
-
+  - >-
+    [Why OOP makes
+    sense](https://www.quora.com/What-is-the-difference-between-procedural-and-object-oriented-programming){website}
 ---
 
 # What Is a Class?
 
+
 ---
+
 ## Content
 
 In Java, a **class** is a blueprint after which things with similar characteristics can be modeled. An example of a class is: 
-```java
+
+```plain-text
 public class Car {
   String model;
   String noPlate;
@@ -40,6 +33,7 @@ public class Car {
   void handBreak() {}
 }
 ```
+
 *Variables* declared *within* a class, but *outside* any method are called **instance variables**. They store a specific value for every copy of the blueprint and each copy has access to all the variables.
 
 A **class** can have any number of variables or methods, and of any type. It is, however, considered best practice to add only relevant fields or functions. By convention, every class name should start with a *capital letter*.
@@ -49,7 +43,8 @@ A **class** can have any number of variables or methods, and of any type. It is,
 The matrix which transforms the blueprint into *something* is called a **constructor method**. Every class should have a constructor. If one is not defined, the Java compiler will initialize the variables to their default value.
 
 A constructor method should look like this:
-```java
+
+```plain-text
 public class Car {
 
   // fields
@@ -64,19 +59,21 @@ public class Car {
   }
 }
 ```
+
 A *constructor* gives initial values to the *instance variables*, so the general blueprint can become an actual `Car` representation.
 
 In other words, calling a constructor **initializes an object**.
 
+
 ---
+
 ## Revision
 
 The method that creates a new object is called
 
 ???
 
-
-* constructor
-* instantiator
-* class
-* newObject
+- constructor
+- instantiator
+- class
+- newObject

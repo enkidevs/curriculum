@@ -1,24 +1,15 @@
 ---
 author: Stefan-Stojanovic
-
-levels:
-  - beginner
-  - basic
-
 type: normal
-
 category: must-know
-
-aspects:
-  - workout
-  - deep
-  - obscura
-
-links:
-
+links: null
 ---
+
 # The `formenctype` Attribute
+
+
 ---
+
 ## Content
 
 The HTML `formenctype` input form attribute is used to specify how form-data should be encoded before it's sent to the server.
@@ -31,7 +22,8 @@ When using `<input>` elements with the attribute `type="file"` it is necessary t
 Setting the value to `text/plain` converts every space to a `+`, but no character is encoded.
 
 Example:
-```html
+
+```plain-text
 <form
  action="/action_page.asp"
  method="post">
@@ -56,38 +48,45 @@ Example:
 
 In the example above we have set all the spaces in the form to convert to a `+` with no character encoding.
 
+
 ---
+
 ## Practice
 
 Which statement is true regarding `enctype`?
 
 ???
 
-* Specifies how the form-data should be encoded when submitted to a server.
-* Can be used only if `method="get"`.
-* The values `application/x-www-form-urlencoded` and `text/plain` convert spaces into `-` symbols.
+- Specifies how the form-data should be encoded when submitted to a server.
+- Can be used only if `method="get"`.
+- The values `application/x-www-form-urlencoded` and `text/plain` convert spaces into `-` symbols.
+
 
 ---
+
 ## Revision
 
 Which input form attribute is used to specify an encoding type for your form?
 
 ???
 
-* enctype
-* form-data
-* encode
-* urlencoded
-* form
+- enctype
+- form-data
+- encode
+- urlencoded
+- form
+
 
 ---
+
 ## Quiz
 
 ### How much do you know about HTML input form attributes?
 
+
 Which statement is not true regarding `enctype`?
 
-* The values `application/x-www-form-urlencoded` and `text/plain` convert spaces into "-" symbols.
-* specifies how the form-data should be encoded when submitted to a server.
-* The default value is `application/x-www-form-urlencoded`.
-* The value `multipart/form-data` is required when using forms that have a file upload control.
+- The values `application/x-www-form-urlencoded` and `text/plain` convert spaces into "-" symbols.
+- specifies how the form-data should be encoded when submitted to a server.
+- The default value is `application/x-www-form-urlencoded`.
+- The value `multipart/form-data` is required when using forms that have a file upload control.

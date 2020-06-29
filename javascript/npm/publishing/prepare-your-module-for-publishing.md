@@ -20,7 +20,7 @@ If you decide to publish your module, a good *README.md* file is necessary. It d
 
 There are many ways to write the README file but it's worth considering the following sections:
 
-```md
+```plain-text
 ## Introduction
  The introduction should consist of one or
  two paragraphs summarizing the
@@ -43,13 +43,13 @@ There are many ways to write the README file but it's worth considering the foll
 
 When you consider your module ready, run the following to publish it:
 
-```bash
+```plain-text
 npm publish
 ```
 
 Scoped packages are private by default, but you have to pay a subscription to keep them private. It is free, however, to publish *public packages*. In case your module is scoped and you want it to be public, run:
 
-```bash
+```plain-text
 npm publish --access=public
 ```
 
@@ -66,17 +66,17 @@ How would you publish **publicly** your scoped npm package?
 npm ??? ??? ??? ???
 ```
 
-* publish
-* --access
-* =
-* public
-* private
-* allow
-* open
-* ssl
-* pub
-* install
-* &&
+- publish
+- --access
+- =
+- public
+- private
+- allow
+- open
+- ssl
+- pub
+- install
+- &&
 
 
 ---
@@ -85,6 +85,5 @@ npm ??? ??? ??? ???
 
 Scoped packages are ??? by default.
 
-* private
-* public
- 
+- private
+- public

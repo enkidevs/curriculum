@@ -38,10 +38,10 @@ What is the name of an entity that links the outside world to the blockchain?
 
 ???
 
-* Oracle
-* API gate
-* Informatix
-* Developer
+- Oracle
+- API gate
+- Informatix
+- Developer
 
 
 ---
@@ -52,8 +52,7 @@ Identify the entity responsible for the security of a smart contract:
 
 ???
 
-* The developer
-* The blockchain maintainer
-* The user
-* No one, smart contracts are inherently secure
- 
+- The developer
+- The blockchain maintainer
+- The user
+- No one, smart contracts are inherently secure

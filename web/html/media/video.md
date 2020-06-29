@@ -23,7 +23,7 @@ links:
 
 The `<video>` tag was introduced in HTML5 and is used to embed videos on a web page or document.
 
-```html
+```plain-text
 <video src="/video/time-lapse.mp4"
    width="525" height="360" controls>
   <p>
@@ -44,10 +44,10 @@ Adding the `controls` attribute allows the browser to offer controls to the user
 
 There are many more functionalities you can add to your videos with attributes. Here are some of them:
 
-* `poster` = adds a poster for when the video can't play or hasn't loaded yet
-* `autoplay` = plays the video as soon as it's available
-* `muted` = sets the default setting for the audio part of the video
-* `loop` = makes the video play again as soon as it finishes
+- `poster` = adds a poster for when the video can't play or hasn't loaded yet
+- `autoplay` = plays the video as soon as it's available
+- `muted` = sets the default setting for the audio part of the video
+- `loop` = makes the video play again as soon as it finishes
 
 
 ---
@@ -64,12 +64,12 @@ Complete the following snippet in order for it to be valid:
 <???>
 ```
 
-* `video`
-* `src`
-* `/video`
-* `vid`
-* `href`
-* `/vid`
+- `video`
+- `src`
+- `/video`
+- `vid`
+- `href`
+- `/vid`
 
 
 ---
@@ -80,12 +80,12 @@ Which HTML element is used to insert a movie clip or video stream into the docum
 
 ???
 
-* `<video>`
-* `<vid>`
-* `<media>`
-* `<youtube>`
-* `<stream>`
-* `<movie>`
+- `<video>`
+- `<vid>`
+- `<media>`
+- `<youtube>`
+- `<stream>`
+- `<movie>`
 
 
 ---
@@ -97,7 +97,7 @@ Which HTML element is used to insert a movie clip or video stream into the docum
 
 If the browser doesn't support the `<video>` element, what happens?
 
-```html
+```plain-text
 <video src="/video/time-lapse.mp4"
    controls width="360" height="212" >
    <img src="video.png" alt="">
@@ -106,8 +106,7 @@ If the browser doesn't support the `<video>` element, what happens?
 
 ???
 
-* The video.png image will display instead.
-* Nothing displays on the page any content around it will take it's place.
-* Nothing displays on the page, but the video size is taken up preventing any other content from taking its space.
-* The video controls will appear, but the video will never load.
- 
+- The video.png image will display instead.
+- Nothing displays on the page any content around it will take it's place.
+- Nothing displays on the page, but the video size is taken up preventing any other content from taking its space.
+- The video controls will appear, but the video will never load.

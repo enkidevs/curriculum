@@ -24,8 +24,8 @@ There are many *formulas* that can be used to organize, calculate, or find the d
 
 Spreadsheets were designed to ???
 
-* work with numerical data.
-* edit video content.
+- work with numerical data.
+- edit video content.
 
 
 ---
@@ -36,8 +36,7 @@ What can you **NOT** do using spreadsheets?
 
 ???
 
-* Edit a picture.
-* Calculate numerical data.
-* Create graphs and charts.
-* Create pivot tables.
- 
+- Edit a picture.
+- Calculate numerical data.
+- Create graphs and charts.
+- Create pivot tables.

@@ -1,33 +1,28 @@
 ---
 author: emmab
-
 tags:
   - introduction
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-
 ---
 
 # The `not` operator
 
+
 ---
+
 ## Content
 
 Python's `not` operator returns the opposite of whatever condition is given to it.
 
 For example:
 
-```python
+```plain-text
 not True
 # False
 ```
 
-```python
+```plain-text
 x = 5
 y = 10
 
@@ -37,7 +32,9 @@ not (x < y)
 
 You can also negate the `in` and `is` operators to check whether a value is `not in` another object, or to check whether an instance `is not` identical to another instance. 
 
+
 ---
+
 ## Practice
 
 Complete this expression to check that the variable `word` does not appear in `sentence`:
@@ -50,25 +47,26 @@ sentence = 'we know about numbers, strings and booleans'
     print("Let's learn some more data types!")
 ```
 
-* `if`
-* `not`
-* `is`
-* `elif`
-* `else`
+- `if`
+- `not`
+- `is`
+- `elif`
+- `else`
+
 
 ---
+
 ## Revision
 
 What does the following code snippet return:
 
-```python
+```plain-text
 True == (not True)
 ```
 
 ???
 
-
-* `False`
-* `True`
-* `Error`
-* `false`
+- `False`
+- `True`
+- `Error`
+- `false`

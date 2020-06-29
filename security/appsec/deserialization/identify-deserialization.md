@@ -61,20 +61,22 @@ db.insert(
 
 Response Body:
 
-    {
-      admin: "???",
-      user_id: "???",
-      items: "???"
-    }
+```plain-text
+{
+  admin: "???",
+  user_id: "???",
+  items: "???"
+}
+```
 
-* true
-* 14
-* 1,2,3
-* false
-* 16
-* 1
-* 2
-* 3
+- true
+- 14
+- 1,2,3
+- false
+- 16
+- 1
+- 2
+- 3
 
 
 ---
@@ -100,28 +102,31 @@ db.insert(
 
 My Order:
 
-    {
-      admin: "???",
-      user_id: "???",
-      items: "???"
-    }
+```plain-text
+{
+  admin: "???",
+  user_id: "???",
+  items: "???"
+}
+```
 
 User 14's Order:
 
-    {
-      admin: "???",
-      user_id: "???",
-      items: "???"
-    }
+```plain-text
+{
+  admin: "???",
+  user_id: "???",
+  items: "???"
+}
+```
 
-* true
-* 212
-* 4,5,6
-* false
-* 14
-* 1,2,3
-* 16
-* 1
-* 2
-* 3
- 
+- true
+- 212
+- 4,5,6
+- false
+- 14
+- 1,2,3
+- 16
+- 1
+- 2
+- 3

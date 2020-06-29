@@ -23,9 +23,9 @@ links:
 
 Ask yourself these questions to determine if you are vulnerable:
 
-* Does my application accept DTDs (external entities)?
-* Does my application accept unescaped XML?
-* Does my application accept external stylesheets for XML?
+- Does my application accept DTDs (external entities)?
+- Does my application accept unescaped XML?
+- Does my application accept external stylesheets for XML?
 
 The best way to detect if your XML processing is vulnerable is to check the library that you're using, to see if any vulnerabilities have been logged for it. Then, update the dependency to the safe version and configuration, as most libraries have been patched for quite some time.
 
@@ -50,12 +50,12 @@ What's the best way to prevent XXE attacks?
 What should you disable to prevent them?
 ???
 
-* Use a library designed for the job
-* External entities
-* XML Processors
-* XML
-* Prevent unescaped user input
-* Code Execution
+- Use a library designed for the job
+- External entities
+- XML Processors
+- XML
+- Prevent unescaped user input
+- Code Execution
 
 
 ---
@@ -64,10 +64,9 @@ What should you disable to prevent them?
 
 Writing your own custom ??? code can expose user data to ??? attacks.
 
-* XML Processing
-* XXE
-* Cryptography
-* User Input Validation
-* SQL Injection
-* XXR
- 
+- XML Processing
+- XXE
+- Cryptography
+- User Input Validation
+- SQL Injection
+- XXR

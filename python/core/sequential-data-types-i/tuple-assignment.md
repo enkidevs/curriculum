@@ -1,30 +1,28 @@
 ---
 author: emmab
-
 tags:
   - introduction
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-
 links:
-- '[Tuple Assignment](https://runestone.academy/runestone/books/published/thinkcspy/Lists/TupleAssignment.html){website}'
-- '[Multiple Assignment](https://treyhunner.com/2018/03/tuple-unpacking-improves-python-code-readability/#Multiple_assignment_is_very_strict){website}'
-
+  - >-
+    [Tuple
+    Assignment](https://runestone.academy/runestone/books/published/thinkcspy/Lists/TupleAssignment.html){website}
+  - >-
+    [Multiple
+    Assignment](https://treyhunner.com/2018/03/tuple-unpacking-improves-python-code-readability/#Multiple_assignment_is_very_strict){website}
 ---
 
 # Tuple assignment
 
+
 ---
+
 ## Content
 
 We can use **tuple assignment**[1] as a simple way to switch two variables:
 
-```python
+```plain-text
 a, b = 'hard', 'working' 
 a, b = b, a
 
@@ -34,7 +32,7 @@ print(a, b)
 
 Tuple assignment also means that items within two tuples can be assigned to each other:
 
-```python
+```plain-text
 flash = ('Barry', 'Allen' , 27)
 (first_name, last_name, age) = flash
 
@@ -47,7 +45,7 @@ print(age)
 
 In case two tuples don't match in length we can use the `*` operator to ensure that every item is reassigned to another:
 
-```python
+```plain-text
 a, *b, c = (1, 2, 3, 4, 5)
 
 print(b)
@@ -56,7 +54,9 @@ print(b)
 
 In this example, the middle items `2, 3, 4` are assigned to `b` in the form of a `list`. We'll learn all about `list` data types in the next workout!
 
+
 ---
+
 ## Practice
 
 Complete the following snippet so that the variables are swapped using tuple assignment:
@@ -69,13 +69,15 @@ print(d, e)
 # 4 3
 ```
 
-* `e`
-* `d`
-* `swap`
-* `switch`
-* `a`
+- `e`
+- `d`
+- `swap`
+- `switch`
+- `a`
+
 
 ---
+
 ## Revision
 
 What is the output of the following snippet?
@@ -88,12 +90,13 @@ print(x, y)
 # ???
 ```
 
-* `4 5`
-* `5 4`
-* `error`
+- `4 5`
+- `5 4`
+- `error`
 
 
 ---
+
 ## Footnotes
 
 [1:Tuple Assignment]

@@ -1,19 +1,14 @@
 ---
 author: Stefan-Stojanovic
-
-aspects:
-  - introduction
-  - workout
-
 type: normal
-
 category: how to
-
 ---
 
 # Always check your function range
 
+
 ---
+
 ## Content
 
 Functions in Spreadsheets are a powerful feature, however, it's easy to make mistakes in calculations by not selecting a few necessary cells.

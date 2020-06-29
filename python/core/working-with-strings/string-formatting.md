@@ -1,24 +1,15 @@
 ---
 author: tommarshall
-
-levels:
-  - beginner
-
 type: normal
-
 category: must-know
-
 inAlgoPool: false
-
-aspects:
-  - introduction
-  - workout
-
 ---
 
 # String Formatting
 
+
 ---
+
 ## Content
 
 Python can use two different methods for string formatting.
@@ -26,13 +17,14 @@ Python can use two different methods for string formatting.
 The first, and older, method is similar to how the language C creates new and formatted strings.
 
 The `%` operator formats a set of variables enclosed in a tuple, which is a fixed size list, alongside a format string which holds normal text with special symbols such as `%s` and `%d`. These are known as *argument specifiers*:
+
 - `%s` is for a String
 - `%d` is for Integers
 - `%f` is for Floats
 
 For instance, say you have some variables. This is how you would print them:
 
-```python
+```plain-text
 app = 'Enki'
 workout_number = 3
 print('Learning Python with %s, workout number %d.' % (app, workout_number))
@@ -43,7 +35,7 @@ Although useful when working with a low number of variables, you can see how rea
 
 Since Python 2.6, a new method of string formatting has been introduced. You can now call the `str.format()` method on any string. The functionality is similar, but instead of `%s`, `%d`, or `%f`, you now have to use curly brackets `{}`.
 
-```py
+```plain-text
 app = 'Enki'
 workout_number = 3
 a_string = 'Learning Python with {}, workout number {}.'.format(app, workout_number)
@@ -55,7 +47,7 @@ print(a_string)
 
 As you can see, the `format` method takes in the replacements as arguments, and returns the formatted string. Another useful feature of this method is that you can decide which argument is replaced, by using indexes:
 
-```py
+```plain-text
 app = 'Enki'
 workout_number = 3
 another_string = 'Learning Python with {1}, workout number {0}.'.format(app, workout_number)
@@ -65,7 +57,9 @@ print(another_string)
 # Learning Python with 3, workout number Enki.
 ```
 
+
 ---
+
 ## Practice
 
 Complete the code snippet to print the output:
@@ -81,19 +75,20 @@ print('??? is fun!' % (replace))
 # Enki is fun!
 ```
 
-* %s
-* {}
-* %d
-* {2}
+- %s
+- {}
+- %d
+- {2}
+
 
 ---
+
 ## Revision
 
 When you want to use two or more argument specifiers, what must you use in order to print them?
 
 ???
 
-
-* A tuple
-* A function
-* A string
+- A tuple
+- A function
+- A string

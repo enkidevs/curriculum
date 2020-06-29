@@ -1,41 +1,38 @@
 ---
 author: catalin
-
 type: normal
-
 category: how to
-
-aspects:
-  - introduction
-  - workout
-
-
 ---
 
 # Round Numbers to `N` Decimals
 
+
 ---
+
 ## Content
 
 Two methods that can be useful in rounding numbers.
+
 - `toFixed(n)`: argument provides the length after the decimal point
 - `toPrecision(n)`: argument provides the total length of the number
 
 Use `toFixed`:
 
-```javascript
+```plain-text
 let num = 2.44534;
 console.log(num.toFixed(3)); // 2.445
 ```
 
 Use `toPrecision`:
 
-```javascript
+```plain-text
 let num = 444.3245;
 console.log(num.toPrecision(5)); //444.32
 ```
 
+
 ---
+
 ## Practice
 
 Complete the following code snippet:
@@ -49,12 +46,14 @@ console.log((12.4513).???(3);
 console.log((12.4513).???(3);
 ```
 
-* toPrecision
-* toFixed
-* dec
-* length
+- toPrecision
+- toFixed
+- dec
+- length
+
 
 ---
+
 ## Revision
 
 Complete the code snippet below as to get the result shown in the comment:
@@ -66,7 +65,5 @@ console.log(pi.???(2));
 // 3.14
 ```
 
-* `toFixed`
-* `toPrecision`
-
- 
+- `toFixed`
+- `toPrecision`

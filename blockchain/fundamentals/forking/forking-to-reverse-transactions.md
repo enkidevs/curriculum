@@ -26,10 +26,10 @@ What conditioned the Ethereum hard-fork?
 
 ???
 
-* The DAO heist
-* A 51% attack
-* Community divergences about scaling
-* Ethereum had only its source-code forked
+- The DAO heist
+- A 51% attack
+- Community divergences about scaling
+- Ethereum had only its source-code forked
 
 
 ---
@@ -40,8 +40,7 @@ Which of the following statements describes Ethereum Classic?
 
 ???
 
-* Ethereum network pre DAO hard-fork
-* Ethereum network post DAO hard-fork
-* Ethereum network with a PoS consensus algorithm
-* A sham Ethereum network
- 
+- Ethereum network pre DAO hard-fork
+- Ethereum network post DAO hard-fork
+- Ethereum network with a PoS consensus algorithm
+- A sham Ethereum network

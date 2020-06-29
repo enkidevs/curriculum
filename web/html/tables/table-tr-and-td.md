@@ -32,7 +32,7 @@ When creating a table in HTML the `<table>` element is used to create the entire
 
 Example of a simple table:
 
-```html
+```plain-text
 <table>
   <tr>
     <td>Matthew</td>
@@ -59,7 +59,7 @@ Tables themselves in HTML without CSS can appear a little messy and confusing co
 
 Styling tables can take a little practice, as seen in the example above, and often use more specific selectors. Such as, in order to prevent the last column or bottom row from having styles that may look strange, properties on these rows (or cells) can be reset using the psudo class `:last-child` like this.
 
-```css
+```plain-text
 tr:last-child {
   border-bottom: none;
 }
@@ -72,7 +72,7 @@ tr:last-child {
 
 Arrange the HTML tags to properly create this table:
 
-```html
+```plain-text
 <tag1>
   <tag2>
     <tag3>Matthew</tag3>
@@ -91,15 +91,15 @@ tag1 = ???
 tag2 = ???
 tag3 = ???
 
-* table
-* tr
-* td
-* tc
-* th
-* row
-* col
-* colspan
-* rowspan
+- table
+- tr
+- td
+- tc
+- th
+- row
+- col
+- colspan
+- rowspan
 
 
 ---
@@ -112,12 +112,12 @@ Match the HTML element with its description:
 ??? = defines the table row
 ??? = defines the table data
 
-* `<table>`
-* `<tr>`
-* `<td>`
-* `<et>`
-* `<row>`
-* `<col>`
+- `<table>`
+- `<tr>`
+- `<td>`
+- `<et>`
+- `<row>`
+- `<col>`
 
 
 ---
@@ -130,7 +130,7 @@ Match the HTML element with its description:
 What is the output of this table?
 Choose the appropriate option; A,B,C or D:
 
-```html
+```plain-text
 <table>
   <tr>
     <td>Pencil</td>
@@ -147,35 +147,34 @@ Choose the appropriate option; A,B,C or D:
 
 A
 
-```html
+```plain-text
 Pencil 1.99 295
 Pen    2.49 423
 ```
 
 B
 
-```html
+```plain-text
 Pen    2.49 423
 Pencil 1.99 295
 ```
 
 C
 
-```html
+```plain-text
 Pencil 1.99295
 Pen    2.49423
 ```
 
 D
 
-```html
+```plain-text
 Pencil 2.99 495 Pen 1.49 223
 ```
 
 ???
 
-* Option A
-* Option B
-* Option C
-* Option D
- 
+- Option A
+- Option B
+- Option C
+- Option D

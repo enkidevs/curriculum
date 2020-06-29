@@ -1,35 +1,20 @@
 ---
 author: claremarie
-
-levels:
-
-  - beginner
-
-  - basic
-
-aspects:
-  - introduction
-
 type: exercise
-
 linkType: website
-
-link: https://goo.gl/aCst8F
-
-standards:
-
-  python.identify-python-syntax.1: 1000
-  python.identify-python-syntax.2: 1000
-
+link: 'https://goo.gl/aCst8F'
 links:
   - '[Print in 3.0](https://docs.python.org/3/whatsnew/3.0.html){website}'
-  - '[Print in 2.7](https://en.wikibooks.org/wiki/Python_Programming/Input_and_Output){website}'
-
+  - >-
+    [Print in
+    2.7](https://en.wikibooks.org/wiki/Python_Programming/Input_and_Output){website}
 ---
 
 # Python 2 vs 3 Print Syntax Exercise
 
+
 ---
+
 ## Exercise
 
 Click *Launch Exercise* to open a Python Tutor page.

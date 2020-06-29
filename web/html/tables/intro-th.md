@@ -37,7 +37,7 @@ The HTML `<th>` element  stands to "tabular headers" and is used to specify a he
 
 Example:
 
-```html
+```plain-text
 <table>
   <tr>
     <th>Username</th>
@@ -65,7 +65,7 @@ With CSS styles, the same table can really stand out visually:
 
 The colspan and rowspan attributes can be useful in setting the table headers to span over multiple columns or rows.
 
-```html
+```plain-text
 <th colspan="2">
   Monthly Savings
 </th>
@@ -89,7 +89,7 @@ Sometimes it can make sense using tabular headers on both the first row and firs
 
 The `abbr` attribute is used to add an abbreviated description for the content of a cell and speech readers may present this description rather than the content of the cell.
 
-```html
+```plain-text
 <table>
   <tr>
     <th abbr="Make">
@@ -117,7 +117,7 @@ The `abbr` attribute is used to add an abbreviated description for the content o
 
 Arrange the HTML tags to properly create this table:
 
-```html
+```plain-text
 <tag1>
   <tag2>
     <tag3>
@@ -143,15 +143,15 @@ tag2 = ???
 tag3 = ???
 tag4 = ???
 
-* table
-* tr
-* th
-* td
-* tc
-* row
-* col
-* colspan
-* rowspan
+- table
+- tr
+- th
+- td
+- tc
+- row
+- col
+- colspan
+- rowspan
 
 
 ---
@@ -162,12 +162,12 @@ Which HTML element creates the header of a group of table cells within a table?
 
 ???
 
-* th
-* table
-* tr
-* td
-* colhead
-* rowhead
+- th
+- table
+- tr
+- td
+- colhead
+- rowhead
 
 
 ---
@@ -181,8 +181,7 @@ Which CSS property(s) style a `<th>` element of a table by default?
 
 ???
 
-* `font-weight: bold; && text-align: center;`
-* `text-align: left; && font-weight: normal;`
-* `font-style: oblique; && font-style: italic;`
-* `font-style: italic; && text-align: center;`
- 
+- `font-weight: bold; && text-align: center;`
+- `text-align: left; && font-weight: normal;`
+- `font-style: oblique; && font-style: italic;`
+- `font-style: italic; && text-align: center;`

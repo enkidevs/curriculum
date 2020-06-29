@@ -18,7 +18,7 @@ parent: readable-streams
 
 Piping allows for data to be read from a source, and passed onto a destination without your application having to manage the flow of the data.
 
-```javascript
+```plain-text
 let fs = require("fs");
 
 let rStream = fs.createReadStream(
@@ -49,22 +49,22 @@ let w = ???.???(???)
 ???.???(???)
 ```
 
-* `fs.createReadStream`
-* `'fileA.txt'`
-* `fs`
-* `createWriteStream`
-* `'fileB.txt'`
-* `r`
-* `pipe`
-* `w`
-* `fs.readStream`
-* `readStream`
-* `writeStream`
-* `fs.writeStream`
-* `transfer`
-* `move`
-* `fileA`
-* `fileB`
+- `fs.createReadStream`
+- `'fileA.txt'`
+- `fs`
+- `createWriteStream`
+- `'fileB.txt'`
+- `r`
+- `pipe`
+- `w`
+- `fs.readStream`
+- `readStream`
+- `writeStream`
+- `fs.writeStream`
+- `transfer`
+- `move`
+- `fileA`
+- `fileB`
 
 
 ---
@@ -75,12 +75,11 @@ Which function is used for piping data from a source to a destination?
 
 ???
 
-* `pipe()`
-* `pipeto()`
-* `newpipe()`
-* `transfer()`
-* `trasport()`
-* `copy()`
-* `source()`
-* `move()`
- 
+- `pipe()`
+- `pipeto()`
+- `newpipe()`
+- `transfer()`
+- `trasport()`
+- `copy()`
+- `source()`
+- `move()`

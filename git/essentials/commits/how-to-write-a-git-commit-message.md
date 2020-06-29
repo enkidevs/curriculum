@@ -22,13 +22,13 @@ You should write a commit message that explains the aim of the commit and why th
 
 For simple commits, this is an example of best practice:
 
-```bash
+```plain-text
 git commit -m "Fix typo in README"
 ```
 
 For a longer commit, you should leave a line after the subject and include more description in the body of the commit:
 
-```bash
+```plain-text
 git commit
 # commit message editor
 Redirect user to the login form
@@ -54,10 +54,10 @@ git ??? ???
             ???
 ```
 
-* `commit`
-* `-m`
-* `"issue no.8 fixed"`
-* -message
+- `commit`
+- `-m`
+- `"issue no.8 fixed"`
+- -message
 
 
 ---
@@ -71,8 +71,7 @@ Commit the changes with the message "typo fixed"
         ??? ???
 ```
 
-* `git`
-* `commit`
-* `-m`
-* `"typo fixed"`
- 
+- `git`
+- `commit`
+- `-m`
+- `"typo fixed"`

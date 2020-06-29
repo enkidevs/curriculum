@@ -1,25 +1,21 @@
 ---
 author: alexjmackey
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-
 ---
 
 # Declaring Functions
 
+
 ---
+
 ## Content
 
 JavaScript supports many different ways of declaring functions.
 
 The most common is the *function declaration*:
 
-```js
+```plain-text
 // function to add 2 parameters
 function add(x, y){
   return x + y;
@@ -34,7 +30,7 @@ In the above example, we specified that we would return the function argument x 
 
 If we did not specify a return value in the above example, then the function would return *undefined* e.g.
 
-```js
+```plain-text
 function add(x, y){
   x + y;
 }
@@ -44,7 +40,9 @@ add(1,2); // undefined
 
 Note that there are some more complex cases where a function will not return *undefined* when no return is specified.
 
+
 ---
+
 ## Practice
 
 What would the following snippet print?
@@ -58,13 +56,15 @@ console.log(mult(2,3));
 ???
 ```
 
-* `undefined`
-* `4`
-* `9`
-* `6`
-* `error`
+- `undefined`
+- `4`
+- `9`
+- `6`
+- `error`
+
 
 ---
+
 ## Revision
 
 What would the following snippet print?
@@ -78,8 +78,7 @@ console.log(add(2,3));
 ???
 ```
 
-* `undefined`
-* `5`
-* `false`
-* `error`
- 
+- `undefined`
+- `5`
+- `false`
+- `error`

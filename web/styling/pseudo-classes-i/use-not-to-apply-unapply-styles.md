@@ -1,34 +1,24 @@
 ---
 author: jordanfish
-
-levels:
-
-  - medium
-
 type: normal
-
 category: how to
-
-aspects:
-  - workout
-  - deep
-
 links:
-
   - '[CSS Pro Tips](https://github.com/AllThingsSmitty/css-protips){website}'
-  - '[MDN Docs on :not](https://developer.mozilla.org/en-US/docs/Web/CSS/:not){documentation}'
-
-
+  - >-
+    [MDN Docs on
+    :not](https://developer.mozilla.org/en-US/docs/Web/CSS/:not){documentation}
 ---
 
 # Use `:not()` to apply/unapply styles
 
+
 ---
+
 ## Content
 
 Rather than adding a border to a navigation bar, and then removing it for the last element:
 
-```css
+```plain-text
 /* add border */
 .nav li {
   border-right: 2px solid #FFF;
@@ -39,15 +29,18 @@ Rather than adding a border to a navigation bar, and then removing it for the la
   border-right: none;
 }
 ```
+
 Use the `:not()` pseudo-class to only apply to the elements you want:
 
-```css
+```plain-text
 .nav li:not(:last-child) {
   border-right: 2px solid #FFF;
 }
 ```
 
+
 ---
+
 ## Practice
 
 Complete the code snippet:
@@ -58,22 +51,26 @@ Complete the code snippet:
 }
 ```
 
-* `:not`
-* `.not`
-* `::not`
-* `not`
+- `:not`
+- `.not`
+- `::not`
+- `not`
+
 
 ---
+
 ## Revision
 
 What does the following CSS code do?
-```css
+
+```plain-text
 .div li:not(:last-child) {
 
 }
 ```
+
 ???
 
-* Allows styles to be applied to all elements except for the final element.
-* Allows styles to be applied specifically to the final element.
-* Allows styles to be applied to every other element.
+- Allows styles to be applied to all elements except for the final element.
+- Allows styles to be applied specifically to the final element.
+- Allows styles to be applied to every other element.

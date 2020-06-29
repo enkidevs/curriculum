@@ -1,31 +1,24 @@
 ---
 author: Stefan-Stojanovic
-
-levels:
-  - beginner
-  - basic
-
 type: normal
-
 category: must-know
-
 tags:
   - workout
   - deep
-
-aspects:
-  - workout
-  - deep
-
 ---
+
 # The `robot` Attribute
+
+
 ---
+
 ## Content
 
 The HTML meta `robot` attribute is used to define the behavior that robots, or cooperative crawlers, should follow on a page.
 
 Example:
-```html
+
+```plain-text
 <meta
   name="robots"
   content="noindex, nofollow'>
@@ -36,12 +29,13 @@ In the example above, with the `noindex` parameter we have told the search engin
 If no robot tag is present, the default value is `content="index, follow">`. Which tells the robot to index the page and crawl through the rest of the pages.
 
 There are a couple of more parameters you can set. These are:
- - `noimageindex`
- - `none`
- - `noarchive`
- - `nocache`
- - `nosnippet`
- - `nodp`
+
+- `noimageindex`
+- `none`
+- `noarchive`
+- `nocache`
+- `nosnippet`
+- `nodp`
 
 The `index`, `noindex`, `follow` and `nofollow` values are used by all browsers.
 
@@ -57,46 +51,53 @@ The `nosnippet` value is used to prevent search engines from displaying any page
 
 The `nodp` value is used to prevent the use of the `Open Directory Project` description as the description of the page in the search engine result. Used by Google, Yahoo, and Bing.
 
+
 ---
+
 ## Practice
 
 Write the meta tag that tells search engines not to index you webpage.
 
 `<??? ???="???" ???="???, ???">`
 
-* meta
-* name
-* robots
-* content
-* noindex
-* nofollow
-* search
-* engines
-* end
+- meta
+- name
+- robots
+- content
+- noindex
+- nofollow
+- search
+- engines
+- end
+
 
 ---
+
 ## Revision
 
 Which line of code tells search engines not to index or scan your webpage?
 
 ???
 
-* `<meta name="robots" content="noindex, nofollow">`
-* `<meta name="web" content="noindex, nofollow">`
-* `<meta name="index" content="noindex, nofollow">`
-* `<meta name="search" content="noindex, nofollow">`
-* `<meta name="archive" content="noindex, nofollow">`
+- `<meta name="robots" content="noindex, nofollow">`
+- `<meta name="web" content="noindex, nofollow">`
+- `<meta name="index" content="noindex, nofollow">`
+- `<meta name="search" content="noindex, nofollow">`
+- `<meta name="archive" content="noindex, nofollow">`
+
 
 ---
+
 ## Quiz
 
 ### How much do you know about the HTML robots tag?
+
 
 What is the default value of the robots meta tag?
 
 ???
 
-* `<meta name="robots" content="index, follow">`
-* `<meta name="robots" content="noindex, follow">`
-* `<meta name="robots" content="index, nofollow">`
-* `<meta name="robots" content="noindex, nofollow">`
+- `<meta name="robots" content="index, follow">`
+- `<meta name="robots" content="noindex, follow">`
+- `<meta name="robots" content="index, nofollow">`
+- `<meta name="robots" content="noindex, nofollow">`

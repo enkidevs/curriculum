@@ -1,27 +1,23 @@
 ---
 author: kapnobatai136
-
-aspects:
-  - introduction
-
 type: normal
-
 category: must-know
-
 tags:
   - introduction
   - linux
   - distributions
-
 links:
   - '[DistroWatch](https://distrowatch.com/){website}'
-  - '[Linux Distributions](https://en.wikipedia.org/wiki/List_of_Linux_distributions){website}'
-
+  - >-
+    [Linux
+    Distributions](https://en.wikipedia.org/wiki/List_of_Linux_distributions){website}
 ---
 
 # Which Linux?
 
+
 ---
+
 ## Content
 
 Because of how popular and customizable Linux is, there are almost 600 different *flavors* available. In technical terms these are called **distributions**, or **distros** for short.
@@ -32,11 +28,13 @@ If you're just starting out, we recommend **Ubuntu** (that's what we're using ðŸ
 
 > Note: check the Learn More section if you want to discover more distros.
 
+
 ---
+
 ## Practice
 
 Different *flavors* of Linux are called ???.
 
-* distributions
-* distractions
-* bistros
+- distributions
+- distractions
+- bistros

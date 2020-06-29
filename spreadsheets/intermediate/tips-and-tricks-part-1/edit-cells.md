@@ -1,19 +1,14 @@
 ---
 author: Stefan-Stojanovic
-
-aspects:
-  - introduction
-  - workout
-
 type: normal
-
 category: how to
-
 ---
 
 # Editing cells
 
+
 ---
+
 ## Content
 
 Editing an empty cell is as simple as clicking on it and typing.
@@ -34,16 +29,19 @@ There are 3 ways to edit a cell without replacing all of its content:
 
 
 ---
+
 ## Practice
 
 What happens if you click once on a populated cell and start writing?
 
 ???
 
-* The content of the cell is replaced with what you write
-* What you write is added to the end of the content of the cell
+- The content of the cell is replaced with what you write
+- What you write is added to the end of the content of the cell
+
 
 ---
+
 ## Footnotes
 
 [1:Formula bar]

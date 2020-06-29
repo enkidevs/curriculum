@@ -1,31 +1,25 @@
 ---
 author: Stefan-Stojanovic
-
-levels:
-  - beginner
-  - basic
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-  - workout
-  - deep
-
 links:
-  - '[HTML <kbd> Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/kbd){documentation}'
+  - >-
+    [HTML <kbd>
+    Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/kbd){documentation}
+---
+
+# `<kbd>` - Keyboard Input Element
+
 
 ---
-# `<kbd>` - Keyboard Input Element
----
+
 ## Content
 
 The HTML `<kbd>`, or the **Keyboard Input** element, is used to represent user input, such as keys on a keyboard, voice commands, or any other textual input.
 
 Example:
-```html
+
+```plain-text
 <p>
   On a Mac, use the keys:
   <kbd>⌘cmd</kbd> + <kbd>⇧shift</kbd> + 
@@ -45,42 +39,53 @@ By adding CSS styles, the `<kbd>` element can be used to present the user input 
 
 [View CodePen](https://codepen.io/enkidevs/pen/pKxKGE)
 
+
 ---
+
 ## Practice
 
 When using the `<kbd>` element, which statement is true?
 
 ???
 
-* represents user input
-* produces a block element
-* represents preformatted text
-* represents sample output
+- represents user input
+- produces a block element
+- represents preformatted text
+- represents sample output
+
 
 ---
+
 ## Revision
 
 What HTML element wraps around keyboard names to display the text differently than the surrounding text?
 
 ???
 
-* kbd
-* key
-* keyboard
-* k
-* kb
-* kn
+- kbd
+- key
+- keyboard
+- k
+- kb
+- kn
+
 
 ---
+
 ## Quiz
 
-### Can you answer this question about `<kbd>` elements?
+### Can you answer this question about 
+
+`<kbd>`
+
+ elements?
+
 
 What does the tag `<kbd>` do here?
 
 `<p>`Save the document by pressing the `<kbd>`Ctrl`</kbd>` + `<kbd>`S`</kbd>` keyboard shortcut.`</p>`
 
-* Produces inline element representing user input.
-* Produces block element representing user input.
-* Produces pre-formatted text representing user input.
-* Produces sample output representing user input.
+- Produces inline element representing user input.
+- Produces block element representing user input.
+- Produces pre-formatted text representing user input.
+- Produces sample output representing user input.

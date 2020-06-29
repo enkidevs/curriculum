@@ -1,19 +1,14 @@
 ---
 author: Stefan-Stojanovic
-
-aspects:
-  - introduction
-  - deep
-
 type: normal
-
 category: must-know
-
 ---
 
 # Data Types II
 
+
 ---
+
 ## Content
 
 Now, let's take a look at the other data types.
@@ -42,14 +37,16 @@ Here's a list of possible errors:
 
 ![error-list](https://img.enkipro.com/aec9daa1f3be3570bf4e5770706dc866.png)
 
+
 ---
+
 ## Practice
 
 Which of these are the 4 main data types?
 
 ???
 
-* Number, Text, Logical, and Errors.
-* Number, Date, String, and Error.
-* Number, Date, String, and Text.
-* Number, Double, String, and Logical.
+- Number, Text, Logical, and Errors.
+- Number, Date, String, and Error.
+- Number, Date, String, and Text.
+- Number, Double, String, and Logical.

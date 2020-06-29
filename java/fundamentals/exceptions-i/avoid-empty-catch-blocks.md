@@ -1,31 +1,19 @@
 ---
 author: adamMontgomerie
-
-levels:
-
-  - basic
-
-  - advanced
-
-  - medium
-
 type: normal
-
 category: tip
-
 tags:
-
   - exceptions
-
 links:
-
-  - '[www.javapractices.com](http://www.javapractices.com/topic/TopicAction.do?Id=16){website}'
-
+  - >-
+    [www.javapractices.com](http://www.javapractices.com/topic/TopicAction.do?Id=16){website}
 ---
 
 # Avoid empty catch blocks
 
+
 ---
+
 ## Content
 
 When an exception occurs, if a catch block is left empty it will seem to the user that the program has stopped working with no explanation.

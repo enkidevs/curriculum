@@ -1,38 +1,21 @@
 ---
 author: mihaiberq
-
-levels:
-
-  - beginner
-
-  - basic
-
-  - medium
-
-  - advanced
-
 type: normal
-
 category: must-know
-
-aspects:
-
-  - deep
-
-  - workout
-
 parent: depth-first-traversal
-
 ---
 
 # Pre-order Traversal
 
+
 ---
+
 ## Content
 
 **Pre-order traversal** is a type of *depth-first traversal* in which the visiting order is: root, left child, right child. It only makes sense for **binary trees**.
 
 It works like this:
+
 - *Modify/Display* the data of the current node (starting with the root).
 - Traverse the *left subtree* recursively.
 - Traverse the *right subtree* recursively.
@@ -46,12 +29,14 @@ For the tree below:
 ![preorder](https://img.enkipro.com/508bf94856560067c2a843ea7e3e2185.png)
 
 With the output:
+
 ```plain-text
 A, B, C, D, E, F, G, H
 ```
 
 The pseudocode for the recursive method is:
-```
+
+```plain-text
 preorder(node)
   if (node = null)
     return
@@ -60,38 +45,46 @@ preorder(node)
   preorder(node.right)
 ```
 
+
 ---
+
 ## Practice
 
 Chose the sequence that simulates a pre-order traversal of the tree:
-```
+
+```plain-text
       A
     /   \
    B     C
  /   \    \
 D     F    E
 ```
+
 ???
 
-* `A,B,D,F,C,E`
-* `D,B,F,A,C,E`
-* `D,F,B,E,C,A`
-* `A,B,C,D,E,F`
+- `A,B,D,F,C,E`
+- `D,B,F,A,C,E`
+- `D,F,B,E,C,A`
+- `A,B,C,D,E,F`
+
 
 ---
+
 ## Revision
 
 Chose the sequence that simulates a pre-order traversal of the tree:
-```
+
+```plain-text
       A
     /   \
    B     C
  /   \     \
 D     F     E
 ```
+
 ???
 
-* `A,B,D,F,C,E`
-* `D,B,F,A,C,E`
-* `D,F,B,E,C,A`
-* `A,B,C,D,F,E`
+- `A,B,D,F,C,E`
+- `D,B,F,A,C,E`
+- `D,F,B,E,C,A`
+- `A,B,C,D,F,E`

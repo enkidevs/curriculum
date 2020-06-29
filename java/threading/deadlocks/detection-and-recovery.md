@@ -21,9 +21,9 @@ One of the necessary conditions for a deadlock is a *circular wait*, i.e. somewh
 
 There are three ways to deal with this problem:
 
-* Randomly kill processes in a cycle one by one and check for a deadlock after each iteration.
-* Take a resource from one process in a cycle and grant it to another one.
-* Constantly take images of the system (process-resource) and if a deadlock occurred roll back to a closest safe state.
+- Randomly kill processes in a cycle one by one and check for a deadlock after each iteration.
+- Take a resource from one process in a cycle and grant it to another one.
+- Constantly take images of the system (process-resource) and if a deadlock occurred roll back to a closest safe state.
 
 
 ---
@@ -34,7 +34,6 @@ What is the key to resolving a deadlock once it occurred?
 
 ???
 
-* Break the cycle of process-resource dependency
-* Kill all processes in the system
-* Roll the system back to a boot state
- 
+- Break the cycle of process-resource dependency
+- Kill all processes in the system
+- Roll the system back to a boot state

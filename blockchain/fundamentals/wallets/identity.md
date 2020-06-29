@@ -22,13 +22,13 @@ The 'key' behind any blockchain is the cryptographic protocol on which it runs. 
 
 The transaction example in one of the first workouts was:
 
-```bash
+```plain-text
 Alice sends Bob 10 coins
 ```
 
 But this isn't really how transactions look like in the real world. An actual Bitcoin address looks like this:
 
-```bash
+```plain-text
 1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa
 ```
 
@@ -36,14 +36,14 @@ The private key is randomly generated using a set of rules. The public key is de
 
 Without going into too much detail, consider this simple example:
 
-```bash
+```plain-text
 Randomly generated private key (8 chars):
   aNsjti!k
 ```
 
 The private key is always 8 chars long. As the algorithm to compute the public key, we concatenate odd index characters in the private key (starting at index 0):
 
-```bash
+```plain-text
 Derived public key (4 chars):
   Njik
 ```
@@ -54,7 +54,7 @@ On the blockchain, someone's identity is their public key. The private key is th
 
 There are two algorithms, one for signing and one for verifying, that make use of the public and private keys:
 
-```bash
+```plain-text
 Signature generation S
 S = (message, private key)
   -> message signature
@@ -75,12 +75,12 @@ What is the type of cryptography used for authentication on a distributed networ
 
 ???
 
-* Public-key cryptography
-* A new block is added
-* RSA
-* The network achieves decentralization
-* New tokens are created
-* Symmetric cryptography
+- Public-key cryptography
+- A new block is added
+- RSA
+- The network achieves decentralization
+- New tokens are created
+- Symmetric cryptography
 
 
 ---
@@ -91,10 +91,9 @@ What is the type of cryptography used for authentication on a distributed networ
 
 ???
 
-* Public-key cryptography
-* A new block is added
-* RSA
-* The network achieves decentralization
-* New tokens are created
-* Symmetric cryptography
- 
+- Public-key cryptography
+- A new block is added
+- RSA
+- The network achieves decentralization
+- New tokens are created
+- Symmetric cryptography

@@ -1,33 +1,28 @@
 ---
 author: Dral
-
 type: normal
-
 category: best practice
-
 tags:
   - introduction
   - workout
   - functional-programming
   - arrays
-
-aspects:
-  - introduction
-  - workout
-
 links:
-  - '[MDN Filter](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter){documentation}'
-
+  - >-
+    [MDN
+    Filter](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter){documentation}
 ---
 
 # Filtering Items out of an Array
 
+
 ---
+
 ## Content
 
 A common pattern to filter items from an array is the following:
 
-```js
+```plain-text
 let persons = [...];
 let activated = [];
 for (let person of persons) {
@@ -39,7 +34,7 @@ for (let person of persons) {
 
 However, using the `Array.prototype.filter` method is generally more concise and readable. With `filter()`, you **create a new array** whose elements must pass a test. Here's the simplified syntax[1]:
 
-```js
+```plain-text
 let newArray = arr.filter(
   function callback(element) {
     // if callback returns true
@@ -50,7 +45,7 @@ let newArray = arr.filter(
 
 You pass a callback function which is applied to every element, and if the result of `callback` is truthy then the element gets added to `newArray`. Let's take a look at an example:
 
-```js
+```plain-text
 let numbers = [
   1,
   2,
@@ -74,16 +69,20 @@ console.log(even);
 
 > Note: you can use any type of array, you are not limited to a number array.
 
+
 ---
+
 ## Practice
 
 `.filter`  can be used instead of ???.
 
-* for and if
-* if
-* for and alert
+- for and if
+- if
+- for and alert
+
 
 ---
+
 ## Revision
 
 Complete the following snippet such that the `div3` variable will contain all numbers divisible by 3:
@@ -107,21 +106,23 @@ let div3 = numbers.???(
 );
 ```
 
-* === 0
-* filter
-* isDivisibleBy3
-* isDivisibleBy3()
-* isDivisibleBy3(element)
-* !== 0
-* separate
+- === 0
+- filter
+- isDivisibleBy3
+- isDivisibleBy3()
+- isDivisibleBy3(element)
+- !== 0
+- separate
+
 
 ---
+
 ## Footnotes
 
 [1:Syntax]
 We've provided you with the simplified syntax (without any optional arguments), but here is the full one:
 
-```js
+```plain-text
 let newArray = arr.filter(
   callback(element, index, array) {
     // if callback returns true
@@ -132,6 +133,7 @@ let newArray = arr.filter(
 ```
 
 The `callback` function can take three arguments:
+
 - `element` (mandatory)
 - `index` (optional, it represents the index of the current element being processed)
 - `array` (optional, it represents the array on which you call `filter()`)

@@ -27,7 +27,7 @@ By default every element has a `position` value of `static`, which places it in 
 
 The `relative` value of the `position` property places elements in the normal flow of the page, while allowing access to the box offsets:
 
-```css
+```plain-text
 div{
   width:200px;
   height: 100px;
@@ -41,7 +41,7 @@ div{
 
 And the HTML:
 
-```html
+```plain-text
 <div> Static</div>
 <div id="relpos">Relative</div>
 <div> Static</div>
@@ -57,7 +57,7 @@ On the other hand, the `absolute` value of `position` will make the element appe
 
 Additionally, *box offsets* move them in relation to the first `non-static` positioned parent. In case such a parent does not exist, the element will use the `<body>` as reference.
 
-```css
+```plain-text
 #container{
   background-color:white;
   position:relative;
@@ -79,10 +79,10 @@ The third basic way of position elements, *floating*, will be covered in the nex
 
 An element with `position: absolute` is positioned in relation to ???.
 
-* its first non-static ancestor.
-* its first relative positioned ancestor.
-* its first absolute positioned ancestor.
-* its parent.
+- its first non-static ancestor.
+- its first relative positioned ancestor.
+- its first absolute positioned ancestor.
+- its parent.
 
 
 ---
@@ -93,7 +93,6 @@ For which value of `position` you cannot use box offsets?
 
 ???
 
-* Static
-* Relative
-* Absolute
- 
+- Static
+- Relative
+- Absolute

@@ -1,44 +1,25 @@
 ---
 author: jfarmer
-
-levels:
-
-  - basic
-
-  - beginner
-
 type: normal
-
 category: must-know
-
 inAlgoPool: false
-
 tags:
-
-  - introduction
-
-  - workout
-
-
-
-
-aspects:
   - introduction
   - workout
-
-
 ---
 
 # Using `find` To Search By File Size
 
+
 ---
+
 ## Content
 
 The `find` command is used to search for files on your computer.  It's often useful to search for files by file size, e.g., if you want to find potentially large files to delete.
 
 This will find all files at least 100MB or larger in the current directory:
 
-```shell
+```plain-text
 find . -type f -size +100M
 ```
 
@@ -46,7 +27,7 @@ The `+` in `+100M` signifies "at least 100MB".  If instead we used `-size 100MB`
 
 The output of this command will be a simple list of filenames without any size information.  To include more useful information you can run the following:
 
-```shell
+```plain-text
 find . -size +100M
      -exec ls -lh {} \;
 ```
@@ -57,23 +38,22 @@ In this case, we'll call `ls -lh` for each file we find.  For `ls`, the `-l` opt
 
 **Note**: you can use *any* command with `-exec`, not just `ls`.
 
+
 ---
+
 ## Revision
 
 Find all the files (in the current directory) of at least 1GB in size :
+
 ```bash
 ??? ??? ??? f 
     ??? ??? 
 ```
 
-* `find`
-* `.`
-* `-type`
-* `-size`
-* `+1G`
-* `+1GB`
-* `sudo`
-
- 
- 
- 
+- `find`
+- `.`
+- `-type`
+- `-size`
+- `+1G`
+- `+1GB`
+- `sudo`

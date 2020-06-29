@@ -23,7 +23,7 @@ Avoiding command injection is highly recommended when the **security** factor of
 
 Take the following example:
 
-```javascript
+```plain-text
 child_process.exec('ls', function(err,data){
   console.log(data);
 });
@@ -50,9 +50,9 @@ child_process.???('ls', ['-l'
 });
 ```
 
-* spawn
-* execFiles
-* exec
+- spawn
+- execFiles
+- exec
 
 
 ---
@@ -63,8 +63,7 @@ Which of the following is not true about `child_process.exec`?
 
 ???
 
-* is literally the same as `child_process.spawn`
-* calls to execute `/bin/sh`
-* it's a bash interpreter
-* its calls can be targeted for command injection
- 
+- is literally the same as `child_process.spawn`
+- calls to execute `/bin/sh`
+- it's a bash interpreter
+- its calls can be targeted for command injection

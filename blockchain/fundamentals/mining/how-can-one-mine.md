@@ -30,10 +30,10 @@ In the context of Bitcoin, which piece of hardware is the most effective for min
 
 ???
 
-* ASIC
-* GPU
-* CPU
-* FPGA
+- ASIC
+- GPU
+- CPU
+- FPGA
 
 
 ---
@@ -44,8 +44,7 @@ In the context of Bitcoin, what is the name of the variable used to solve the ch
 
 ???
 
-* Nonce
-* Hash
-* Backlink
-* Rock
- 
+- Nonce
+- Hash
+- Backlink
+- Rock

@@ -1,31 +1,25 @@
 ---
 author: Stefan-Stojanovic
-
-levels:
-  - beginner
-  - basic
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-  - workout
-  - deep
-
 links:
-  - '[HTML <var> Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/var){documentation}'
+  - >-
+    [HTML <var>
+    Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/var){documentation}
+---
+
+# Intro `<var>`
+
 
 ---
-# Intro `<var>`
----
+
 ## Content
 
 The HTML `<var>`, or the **Variable** element, is used to represent a name of a variable in either a programming context or a mathematical expression.
 
 Example:
-```html
+
+```plain-text
 <p><var>X</var> = 10<br>
  <var>Y</var> = 2
 <p>As you can see:
@@ -47,38 +41,43 @@ By adding CSS styles, the `<var>` element can be used to present variables in mu
 
 
 ---
+
 ## Practice
 
 Which statement is not true about using the `<var>` element?
 
 ???
 
-* represents user input
-* represents a variable in a mathematical expression
-* represents a variable in a programming context
-* produces an inline element
-* Default text style is both monospace & italic.
+- represents user input
+- represents a variable in a mathematical expression
+- represents a variable in a programming context
+- produces an inline element
+- Default text style is both monospace & italic.
 
 
 ---
+
 ## Revision
 
 What HTML element is best to display mathematical expressions or a programming context differently than the surrounding text?
 
 ???
 
-* var
-* samp
-* code
-* kbd
-* pre
-* math
-* output
+- var
+- samp
+- code
+- kbd
+- pre
+- math
+- output
+
 
 ---
+
 ## Quiz
 
 ### How much do you know about HTML elements?
+
 
 Which HTML element is best to substitute for "tag" within this code:
 
@@ -86,10 +85,10 @@ Which HTML element is best to substitute for "tag" within this code:
 
 tag=???
 
-* var
-* samp
-* code
-* kbd
-* pre
-* math
-* output
+- var
+- samp
+- code
+- kbd
+- pre
+- math
+- output

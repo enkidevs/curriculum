@@ -20,7 +20,7 @@ links:
 
 As of Java 8, it is possible to add implementations of `static` methods to interfaces. This allows utility methods to be included in a relevant interface rather than a separate utility class.
 
-```java
+```plain-text
 public interface AnInterface {
   void method1();
   void method2();
@@ -34,7 +34,7 @@ Classes which implement this interface do not need an implementation of `staticM
 
 To call a static method, the interface should be used rather than the class which implements that interface. For example:
 
-```java
+```plain-text
 int x = AnInterface.staticMethod(5, 10);
 ```
 
@@ -53,14 +53,14 @@ public ??? EnkiInterface {
 }
 ```
 
-* `interface` 
-* `static` 
-* `int` 
-* `long` 
-* `Interface` 
-* `Class` 
-* `long` 
-* `void`
+- `interface` 
+- `static` 
+- `int` 
+- `long` 
+- `Interface` 
+- `Class` 
+- `long` 
+- `void`
 
 
 ---
@@ -71,6 +71,5 @@ Can `static` methods inside an interface be overridden?
 
 `???`
 
-* `No` 
-* `Yes`
- 
+- `No` 
+- `Yes`

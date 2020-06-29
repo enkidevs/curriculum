@@ -1,41 +1,25 @@
 ---
 author: SebaRaba
-
-levels:
-
-  - beginner
-
-  - basic
-
-  - medium
-
-aspects:
-  - introduction
-  - workout
-  - deep
-
 type: exercise
-
-link: https://www.codewars.com/kata/self-closing-cookie-jar
+link: 'https://www.codewars.com/kata/self-closing-cookie-jar'
 linkType: codewars
-standards:
-
-  python.native-types-operations.1: 1000
-  python.native-types-operations.2: 2000
-  python.native-types-operations.4: 4000
-  python.native-types-operations.7: 4000
-  python.native-types-operations.8: 4000
-
 links:
-
-  - '[Official documentation on data structures](https://docs.python.org/3/library/stdtypes.html){website}'
-  - '[A blog about data structures](http://www.diveintopython3.net/native-datatypes.html){website}'
-  - '[A video tutorial of data structures](https://www.youtube.com/watch?v=TkpNMvBrEUw){video}'
+  - >-
+    [Official documentation on data
+    structures](https://docs.python.org/3/library/stdtypes.html){website}
+  - >-
+    [A blog about data
+    structures](http://www.diveintopython3.net/native-datatypes.html){website}
+  - >-
+    [A video tutorial of data
+    structures](https://www.youtube.com/watch?v=TkpNMvBrEUw){video}
 ---
 
 # Python Implement Abstract Class
 
+
 ---
+
 ## Exercise
 
 More insight on `native types` in python.

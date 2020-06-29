@@ -1,31 +1,25 @@
 ---
 author: Stefan-Stojanovic
-
-levels:
-  - beginner
-  - basic
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-  - workout
-  - deep
-
 links:
-  - '[HTML <input type="range"](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/range){documentation}'
+  - >-
+    [HTML <input
+    type="range"](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/range){documentation}
+---
+
+# HTML `range` type input
+
 
 ---
-# HTML `range` type input
----
+
 ## Content
 
 The HTML form input type `range` is used to specify any numeric value between two numbers. That value cannot be less than or greater than the two chosen values. It is usually represented by a slider. This kind of value control is not precise, so it should only be used if the exact value is not important and it requires some JavaScript to display the dynamic value.
 
 Example:
-```html
+
+```plain-text
 <input
   type="range"
   min="1"
@@ -57,7 +51,8 @@ Example:
 [View CodePen](https://codepen.io/enkidevs/pen/bKOxPL)
 
 Breaking down the example:
-```html
+
+```plain-text
 <input
   type="range"
   min="1"
@@ -69,11 +64,11 @@ Breaking down the example:
 With this block of HTML code, we have set the input to type `range`. The initial value is set to 50. The `id` is set as `myRange` and will be used later with the JavaScript `document.getElementbyId()` method.
 
 **Notes:**
- - If the values of min and max are not specified, the default value of min is 0 and the default value of max is 100.
- - You can also set negative numbers, such as: `min=-5` and `max=5`
 
+- If the values of min and max are not specified, the default value of min is 0 and the default value of max is 100.
+- You can also set negative numbers, such as: `min=-5` and `max=5`
 
-```html
+```plain-text
 <script>
  var slider =
   document.getElementById("myRange");
@@ -94,7 +89,8 @@ Additionally, you can edit your sliders by adding hash marks. This is done with 
 **Note:** Chrome only supports these tick marks currently.
 
 Example:
-```html
+
+```plain-text
 <input
   type="range"
   list="tickmarks">
@@ -115,7 +111,8 @@ Example:
 In the example above, we defined a slider with 5 hash marks, at 0, 25, 50, 75 and 100. This slider has values you can easily set with the hash marks. Each point is represented by the `<option>` element and its value set to the desired range's value where the hash mark should be.
 
 Example:
-```html
+
+```plain-text
 <input
   type="range"
   list="tickmarks">
@@ -129,7 +126,9 @@ Example:
 </datalist>
 ```
 
+
 ---
+
 ## Practice
 
 Complete this code where the range slider is between 1 and 100 and starts in the middle at 50 with the appropriate ID.
@@ -156,21 +155,23 @@ Complete this code where the range slider is between 1 and 100 and starts in the
 </script>
 ```
 
-* range
-* min
-* max
-* value
-* id
+- range
+- min
+- max
+- value
+- id
+
 
 ---
+
 ## Revision
 
 Which form input type defines a slider control?
 
 ???
 
-* range
-* max-min
-* controls
-* slider
-* drag
+- range
+- max-min
+- controls
+- slider
+- drag

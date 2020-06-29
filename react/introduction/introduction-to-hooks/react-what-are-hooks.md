@@ -1,31 +1,24 @@
 ---
 author: kapnobatai136
-  
-aspects:
-
-  - new
-
-  - workout
-
-  - deep
-
 type: normal
-
 category: must-know
-
 links:
-  - '[Introduction to Hooks](https://reactjs.org/docs/hooks-intro.html){documentation}'
-
+  - >-
+    [Introduction to
+    Hooks](https://reactjs.org/docs/hooks-intro.html){documentation}
 ---
 
 # What are hooks?
 
+
 ---
+
 ## Content
 
 Hooks represent a way of using state with your function components. They are the great for reusing stateful logic and enable you to use more of React's features without having to use classes.
 
 There are three main types of hooks:
+
 - State Hooks
 - Effect Hooks
 - Custom Hooks
@@ -34,7 +27,7 @@ Before hooks, many React components would eventually grow to contain many unrela
 
 Now, let's take a look at the following code:
 
-```jsx
+```plain-text
 class BookStatus extends React.Component {
   constructor(props) {
     super(props);
@@ -81,7 +74,7 @@ class BookStatus extends React.Component {
 
 What the above component does is count the number of available books and handle their status. Notice how the `componentDidMount()` and `componentWillUnmount()` methods contain unrelated logic. Now, if we would've used function components, the code would've looked something like this:
 
-```jsx
+```plain-text
 function BookStatus() {
   const [count, setCount] = useState(0);
   const [isAvailable, setIsAvailable] = useState(null);
@@ -108,19 +101,23 @@ function BookStatus() {
 
 Both components have the same functionality, but you can already see the differences. When using hooks, we can group related stateful logic and side effects together, effectively separating said group from unrelated code.
 
+
 ---
+
 ## Practice
 
 Which of the following does not represent a React hook?
 
 ???
 
-* lifecycle hook
-* state hook
-* effect hook
-* custom hook
+- lifecycle hook
+- state hook
+- effect hook
+- custom hook
+
 
 ---
+
 ## Revision
 
 Complete the following code that defines the `foo` state with the initial value of `null`:
@@ -133,9 +130,9 @@ function Revision() {
 }
 ```
 
-* `foo`
-* `useState`
-* `null`
-* `setState`
-* `this.useState`
-* `this.setState`
+- `foo`
+- `useState`
+- `null`
+- `setState`
+- `this.useState`
+- `this.setState`

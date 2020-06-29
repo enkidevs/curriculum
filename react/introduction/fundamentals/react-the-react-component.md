@@ -21,7 +21,7 @@ React components are functions that take input arguments called `props` and retu
 
 If you want to create a component, you can use a JavaScript function like this:
 
-```jsx
+```plain-text
 // function component
 function Enki() {
   return <p>Enki aka Ea</p>;
@@ -30,7 +30,7 @@ function Enki() {
 
 Alternatively, you can `extend` the `React.Component` class to create a component[1]. In this case, the *rendered* output needs to be returned from a method called `render()`:
 
-```jsx
+```plain-text
 // class component
 class Enki extends React.Component {
   render() {
@@ -60,11 +60,11 @@ class MyComponent extends React.??? {
 }
 ```
 
-* `Component`
-* `render`
-* `return`
-* `Enki`
-* `createElement`
+- `Component`
+- `render`
+- `return`
+- `Enki`
+- `createElement`
 
 
 ---
@@ -81,13 +81,13 @@ Complete the missing gaps such that `MyComponent` is defined using class syntax:
 }
 ```
 
-* `class`
-* `extends`
-* `Component`
-* `render`
-* `return`
-* `Enki`
-* `createElement`
+- `class`
+- `extends`
+- `Component`
+- `render`
+- `return`
+- `Enki`
+- `createElement`
 
 
 ---
@@ -98,7 +98,7 @@ Complete the missing gaps such that `MyComponent` is defined using class syntax:
 
 If you use **React** with legacy (pre-ES6) syntax you can create components with the `createReactClass` helper from the `create-react-class` module:
 
-```jsx
+```plain-text
 var Enki = React.createClass({
   render: function() {
     return <p>Enki aka Ea</p>;
@@ -107,4 +107,3 @@ var Enki = React.createClass({
 ```
 
 However, it is recommended to use the modern syntax to keep up with the current standard and have access to the latest features.
- 

@@ -23,7 +23,7 @@ Basic behaviour of `process.nextTick()` can be achieved with ` setTimeout(fn,0)`
 
 Its usage proves useful when you want to interleave the execution of a **CPU** intensive task with other events.
 
-```javascript
+```plain-text
 function compute() {
     // complicated calculations    
     process.nextTick(compute);}
@@ -35,7 +35,7 @@ Here, the execution of `compute()` will be reserved for the next tick of the eve
 
 `process.nextTick()` is also used to keep callbacks truly asynchronous:
 
-```javascript
+```plain-text
 function asyncFn(data, callback) {
     process.nextTick(function() {
         //callback value logic
@@ -60,12 +60,12 @@ function compute() {
 compute();
 ```
 
-* nextTick
-* compute
-* nextProcess
-* computation
-* calc
-* event
+- nextTick
+- compute
+- nextProcess
+- computation
+- calc
+- event
 
 
 ---
@@ -76,7 +76,6 @@ What can be used to replicate the basic behaviour of `setTimeout(fn, 0)`?
 
 ???
 
-* process.nextTick()
-* process.next()
-* process.nextTick(0)
- 
+- process.nextTick()
+- process.next()
+- process.nextTick(0)

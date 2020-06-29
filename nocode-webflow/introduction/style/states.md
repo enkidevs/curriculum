@@ -15,14 +15,14 @@ States are used to change how different elements react in different instances. F
 
 An element can have a total of four states:
 
-* `None`
-  * the default state of all elements
-* `Hover`
-  * display styling when the user hovers over an element
-* `Pressed`
-  * display styling when the element is pressed
-* `Focused`
-  * display styling while the element is in focus
+- `None`
+  - the default state of all elements
+- `Hover`
+  - display styling when the user hovers over an element
+- `Pressed`
+  - display styling when the element is pressed
+- `Focused`
+  - display styling while the element is in focus
 
 States are located on the `Style` panel, and to see them you first need to assign a class to an element.
 
@@ -51,8 +51,7 @@ What are the 4 standard states of all elements?
 
 ???
 
-* Focussed, Pressed, None and Hover
-* Pressed, None, Checked and Hover
-* None, Hover, Checked and Default
-* Hover, Checked, isClicked and None
- 
+- Focussed, Pressed, None and Hover
+- Pressed, None, Checked and Hover
+- None, Hover, Checked and Default
+- Hover, Checked, isClicked and None

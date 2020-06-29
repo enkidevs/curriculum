@@ -1,38 +1,27 @@
 ---
 author: mihaiberq
-
-levels:
-
-  - beginner
-
 type: normal
-
 category: must-know
-
-aspects:
-
-  - introduction
-
-
 links:
-
-  - '[What is a linked list?](https://www.cs.cmu.edu/~adamchik/15-121/lectures/Linked%20Lists/linked%20lists.html){website}'
-
+  - >-
+    [What is a linked
+    list?](https://www.cs.cmu.edu/~adamchik/15-121/lectures/Linked%20Lists/linked%20lists.html){website}
 parent: the-array-data-structure
-
 ---
 
 # The Linked List Data Structure
 
+
 ---
+
 ## Content
 
 A **list**, or a **sequence**, is an *abstract*[1] data type that represents a linear chain of values, where the same value can appear more than once. The *list* has a first element, **head**, and a last element, **tail**.
 
 Because a list is *linear*[2], each element other than the head and the tail have a unique *predecessor* and a unique *successor*.
 
-
 ### LinkedList
+
 *LinkedList* uses the concept of *nodes*[3] to represent its data.
 
 Think of a conga line, in which every person, except the first and the last person, holds and is being held by someone. If you wanted to join the line to have some fun, you could do it by only "disturbing" 2 people: the one at the position `i` and the one at the position `i-1`.
@@ -57,34 +46,39 @@ A good example to see the differences is the implementation of the *Josephus pro
 
 In contrast to the list, deletion in *dynamic arrays* implies shifting the other elements to maintain the internal structure. Yet, finding the *nth* person is easier, by referencing their position directly.
 
+
 ---
+
 ## Practice
 
 What does a DoublyLinkedList node usually keep track of?
 
 ???
 
+- Its element, the previous node and the next node.
+- The previous node and the next node.
+- Its element and the next node.
+- Its element, the previous node and the head of the list.
 
-* Its element, the previous node and the next node.
-* The previous node and the next node.
-* Its element and the next node.
-* Its element, the previous node and the head of the list.
 
 ---
+
 ## Revision
 
 Which of the following concepts is list-specific?
 
 ???
 
+- Head
+- Element
+- Index
+- Node
 
-* Head
-* Element
-* Index
-* Node
 
 ---
+
 ## Footnotes
+
 [1:Abstract Data Type]
 Abstract Data Type, or ADT, is a definition of a data type (or a data structure) that only mentions what operations are to be performed but not how these operations will be implemented.
 

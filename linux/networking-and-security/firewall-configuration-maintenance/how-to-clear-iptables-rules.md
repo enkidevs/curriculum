@@ -1,45 +1,23 @@
 ---
 author: tuwidc
-
-levels:
-
-  - basic
-
-  - medium
-
-aspects:
-  - obscura
-  - deep
-
 type: normal
-
 category: how to
-
 tags:
-
   - linux
-
   - firewall
-
   - iptables
-
   - disable
-
   - accept
-
   - chain
-
   - allow
-
-
-
 notes: ''
-
 ---
 
 # How to clear `iptables` rules
 
+
 ---
+
 ## Content
 
 Although it is not a good idea, often we need to make sure that nothing is blocking our 
@@ -47,7 +25,7 @@ data from/to a specific host. This can mean the *firewall* needs to be 'disabled
 
 On Debian systems, we can issue the following commands as root:
 
-```bash
+```plain-text
 iptables -F
 iptables -X
 iptables -t nat -F
@@ -73,16 +51,14 @@ Here:
 
 In practice, you might not want to wipe the state clean since it will leave your machine vulnerable.
 
+
 ---
+
 ## Revision
 
 On a Debian system, to stop the firewall you have to ??? the rules.
 
-* clear
-* stop
-* target
-* add
-
- 
- 
- 
+- clear
+- stop
+- target
+- add

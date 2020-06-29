@@ -19,7 +19,7 @@ You can change the default colour options for the console text.
 
 For example, to set the colour of the results for `git status` command to **magenta foreground**, **white background** and **bold text**:
 
-```bash
+```plain-text
 git config --global color.status.changed
  "magenta white bold"
 ```
@@ -40,11 +40,11 @@ git ??? ???
       ??? ???
 ```
 
-* `config`
-* `--global`
-* `color.diff.meta`
-* `”blue black bold”`
-* `”blue, black, bold”`
+- `config`
+- `--global`
+- `color.diff.meta`
+- `”blue black bold”`
+- `”blue, black, bold”`
 
 
 ---
@@ -53,7 +53,6 @@ git ??? ???
 
 A customisable `color.` option is ??? .
 
-* interactive.
-* git.
-* sources.
- 
+- interactive.
+- git.
+- sources.

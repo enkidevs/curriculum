@@ -1,23 +1,19 @@
 ---
 author: stefkn
-aspects:
-  - workout
-  - obscura
-
 type: normal
-
 category: must-know
-
 links:
-
   - '[Dictionaries Basics](https://bdhacker.wordpress.com/20){website}'
-  - '[How to Override Comparison Operators](http://jcalderone.livejournal.com/32837.html){website}'
-
+  - >-
+    [How to Override Comparison
+    Operators](http://jcalderone.livejournal.com/32837.html){website}
 ---
 
 # Avoiding Identity Mutation
 
+
 ---
+
 ## Content
 
 ### 
@@ -32,21 +28,24 @@ However, there are some scenarios where this is not ideal, such as in Key-Value 
 
 In Python's standard library, mutable data types are prohibited from being used as a key for this very reason. Immutable objects are great for use as keys for any kind of data structure relying on associations between keys and values (such as in a dictionary[2]) as there is no possibility of a corrupted key making a certain value unretrievable.
 
+
 ---
+
 ## Practice
 
 In what kind of data structures are immutable objects ideal to be used as keys?
 
 ???
 
+- Dictionaries
+- List
+- Integers
+- Arrays
+- Strings
 
-* Dictionaries
-* List
-* Integers
-* Arrays
-* Strings
 
 ---
+
 ## Footnotes
 
 [1:Identity Based on Internal State]
@@ -64,4 +63,3 @@ Any data structure with associative mappings between keys and values (Key-Value 
 In Python, the standard associative data structure would be the `Dictionary` data type, which is similar to a Java or C++ `Hashtable`.
 
 See the link in the **Learn More** section for more information.
- 

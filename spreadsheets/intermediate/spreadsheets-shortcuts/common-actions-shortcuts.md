@@ -1,18 +1,14 @@
 ---
 author: Stefan-Stojanovic
-
-aspects:
-  - introduction
-
 type: normal
-
 category: how to
-
 ---
 
 # Common action shortcuts
 
+
 ---
+
 ## Content
 
 These shortcuts are for common actions like copying, pasting, selecting, finding, replacing, etc.

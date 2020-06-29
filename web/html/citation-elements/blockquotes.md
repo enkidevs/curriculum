@@ -1,32 +1,25 @@
 ---
 author: Stefan-Stojanovic
-
-levels:
-  - beginner
-  - basic
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-  - workout
-  - deep
-
-
 links:
-  - '[HTML <blockquotes> element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blockquote){documentation}'
-  
+  - >-
+    [HTML <blockquotes>
+    element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blockquote){documentation}
 ---
+
 # The `<blockquotes>` Element
+
+
 ---
+
 ## Content
 
 The HTML `<blockquote>` element or the **Block Quotation** element is used to enclose text which represents an extended or long quotation. This element is displayed as a block element and usually has a 1em top/bottom margin added by default, as well as a left/right indentation of 40 pixels. Of course, this is all editable with CSS styling.
 
 Example:
-```html
+
+```plain-text
 <blockquote>
  Every revolutionary idea seems to
  evoke three stages of reaction.<br>
@@ -42,7 +35,7 @@ Example:
 
 Blockquotes can be used with the citation element `<cite>` to share the source, but it is important that there is also visible attribution as well.
 
-```html
+```plain-text
 <blockquote cite="http://brainyquote.com/
 quotes/arthur_c_clarke_408582">
 Every revolutionary idea seems to
@@ -64,7 +57,8 @@ quotes/arthur_c_clarke_408582">
 
 If you wish to add a short quote to your web page or document, you should use the `<q>` or the **Quotation element**.
 Example:
-```html
+
+```plain-text
 <q>I have a dream!</q>
 - Martin Luther King
 ```
@@ -73,12 +67,14 @@ Example:
 
 [View CodePen](https://codepen.io/enkidevs/pen/oyPQBr)
 
+
 ---
+
 ## Practice
 
 Which statement about the `<blockquote>` element is correct?
 
-```html
+```plain-text
 <blockquote>
   The best thing about a boolean
   is even if you are wrong,
@@ -88,34 +84,39 @@ Which statement about the `<blockquote>` element is correct?
 
 ???
 
-* used for indicating long quotations
-* quotation marks usually added around text by browsers
-* used for indicating short quotations
-* used within non-quoted paragraphs
-* displays as an inline element
+- used for indicating long quotations
+- quotation marks usually added around text by browsers
+- used for indicating short quotations
+- used within non-quoted paragraphs
+- displays as an inline element
+
 
 ---
+
 ## Revision
 
 Select the default CSS style that is not typically associated with the `<blockquote>` element:
 
 ???
 
-* display: inline;
-* display: block;
-* margin-top: 1em;
-* margin-bottom: 1em;
-* margin-left: 40px;
-* margin-right: 40px;
+- display: inline;
+- display: block;
+- margin-top: 1em;
+- margin-bottom: 1em;
+- margin-left: 40px;
+- margin-right: 40px;
+
 
 ---
+
 ## Quiz
 
 ### How much do you know about semantic HTML?
 
+
 Which HTML element is used to create a section that is quoted from another source?
 
-* `<blockquote>`
-* `<q>`
-* `<quote>`
-* `<cite>`
+- `<blockquote>`
+- `<q>`
+- `<quote>`
+- `<cite>`

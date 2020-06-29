@@ -1,24 +1,21 @@
 ---
 author: alexjmackey
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-  - new 
-  - workout
-
 links:
-  - '[MDN - Import](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import){website}'
-  - '[MDN - Export](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/export){website}'
-
+  - >-
+    [MDN -
+    Import](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import){website}
+  - >-
+    [MDN -
+    Export](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/export){website}
 ---
 
 # Introducing Modules
 
+
 ---
+
 ## Content
 
 A major issue in ECMAScript is lack of a good way to divide up and reuse code.
@@ -37,7 +34,7 @@ A module always exists in its own file. You cannot put two modules in one file.
 
 We will first create a file called `mathFuncs.js` and add the following code to it:
 
-```javascript
+```plain-text
 // mathFuncs.js
 
 export function double(x) {
@@ -47,7 +44,7 @@ export function double(x) {
 
 Next when we want to use this code we tell JavaScript we want to import it:
 
-```javascript
+```plain-text
 import * as mathFuncs from 'mathFuncs';
 console.log(mathFuncs.double(4)); 
 // 8
@@ -63,7 +60,9 @@ We now want to use this functionality in another file so we use the keyword **im
 
 Finally we use this functionality with the call `mathFuncs.double`.
 
+
 ---
+
 ## Practice
 
 How do you expose a method from a module?
@@ -76,14 +75,16 @@ How do you expose a method from a module?
 }
 ```
 
-* export
-* exports
-* module.exports
-* exports.
-* expose
-* import
+- export
+- exports
+- module.exports
+- exports.
+- expose
+- import
+
 
 ---
+
 ## Revision
 
 Fill in the missing keywords for importing and renaming a module at the same time:
@@ -93,13 +94,12 @@ Fill in the missing keywords for importing and renaming a module at the same tim
   moduleRename ??? 'path';
 ```
 
-* import
-* as
-* from
-* new
-* require
-* like
-* imports
-* export
-* exports
- 
+- import
+- as
+- from
+- new
+- require
+- like
+- imports
+- export
+- exports

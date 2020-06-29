@@ -1,29 +1,25 @@
 ---
 author: alexjmackey
-
 type: normal
-
 category: feature
-
-aspects:
-  - introduction
-  - new
-  - workout
-
 links:
-  - '[Destructuring Assignment](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment){documentation}'
-
+  - >-
+    [Destructuring
+    Assignment](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment){documentation}
 ---
+
 # Destructuring (Part 1)
 
+
 ---
+
 ## Content
 
 Destructuring provides a succinct and flexible way to assign values from arrays or objects.
 
 This is best illustrated with an example. Destructuring is used below to assign `x` and `y` the values `100` and `200` in just one line of code:
 
-```javascript
+```plain-text
 let x, y;
 [x, y] = [100, 200];
 // x = 100, y = 200
@@ -37,7 +33,7 @@ Let's say we have a function that multiplies two input arguments (x and y) by tw
 
 Destructuring can assign the results of this operation to two variables with just one line of code:
 
-```javascript
+```plain-text
 let x, y;
 
 function dblNumbers(x, y) {
@@ -52,14 +48,16 @@ function dblNumbers(x, y) {
 
 Destructuring can also be used to swap the contents of two variables without having to create another temporary variable:
 
-```javascript
+```plain-text
 let x = 1;
 let y = 2;
 [y, x] = [x, y];
 // x = 2, y = 1
 ```
 
+
 ---
+
 ## Practice
 
 Swap `a` and `b` using destructuring:
@@ -73,18 +71,20 @@ console.log(a) // bar
 console.log(b) // foo
 ```
 
-* , b
-* [b, a]
-* [, a]
-* a
-* b
-* , a
-* [a]
-* [b]
-* [a, b]
-* ,
+- , b
+- [b, a]
+- [, a]
+- a
+- b
+- , a
+- [a]
+- [b]
+- [a, b]
+- ,
+
 
 ---
+
 ## Revision
 
 What will be the output of the following statements:
@@ -103,13 +103,13 @@ console.log(b);
 // ???
 ```
 
-* 9
-* 16
-* error
-* [9, 16]
-* [16, 25]
-* [9, 25]
-* 25
-* 0
-* undefined
-* null
+- 9
+- 16
+- error
+- [9, 16]
+- [16, 25]
+- [9, 25]
+- 25
+- 0
+- undefined
+- null

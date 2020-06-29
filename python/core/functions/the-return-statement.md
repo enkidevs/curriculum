@@ -20,7 +20,7 @@ All Python functions implicitly contain a `return None` statement at the end unl
 
 Here is an example using a return statement:
 
-```python
+```plain-text
 def return_func():
     print ('Print!')
     return 'Return!'
@@ -52,12 +52,12 @@ def sum():
 
 ```
 
-* x + y
-* return
-* sum
-* sum()
-* x
-* y
+- x + y
+- return
+- sum
+- sum()
+- x
+- y
 
 
 ---
@@ -66,10 +66,9 @@ def sum():
 
 Python’s return statement exits a function and passes back an ??? to the function caller. It’s used to return the ??? with an output result to the function call.
 
-* expression
-* flow of control
-* result
-* sum
-* instance
-* function instance
- 
+- expression
+- flow of control
+- result
+- sum
+- instance
+- function instance

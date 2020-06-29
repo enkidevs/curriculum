@@ -32,15 +32,15 @@ A stream can be Readable, Writable and ???.
 
 Streams allow data to ??? and ???.
 
-* Duplex
-* read from a source
-* piped to a destination
-* Double
-* WritableReadable
-* processed in chunks
-* processed in one go
-* read into `fs` module
-* used by the `request` module
+- Duplex
+- read from a source
+- piped to a destination
+- Double
+- WritableReadable
+- processed in chunks
+- processed in one go
+- read into `fs` module
+- used by the `request` module
 
 
 ---
@@ -49,9 +49,9 @@ Streams allow data to ??? and ???.
 
 Streams are ??? allowing data to be read from a source and for data to be piped to a destination.
 
-* unix pipes
-* transport methods
-* modules
+- unix pipes
+- transport methods
+- modules
 
 
 ---
@@ -60,4 +60,3 @@ Streams are ??? allowing data to be read from a source and for data to be piped 
 
 [1:unix pipes]
 A `pipe` is a form of redirection that is used in **Linux** and other **Unix**-like operating systems to send the *output* of one program to another program for further processing (as *input*).
- 

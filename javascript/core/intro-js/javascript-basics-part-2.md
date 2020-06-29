@@ -1,18 +1,14 @@
 ---
 author: alexjmackey
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-
-
 ---
+
 # JavaScript Basics - Part 2
 
+
 ---
+
 ## Content
 
 Here are a couple more rules.
@@ -21,7 +17,7 @@ Here are a couple more rules.
 
 Everything in JavaScript is case sensitive.
 
-```js
+```plain-text
 let password;
 // Is not the same as
 let pasSword;
@@ -39,7 +35,7 @@ When naming any function, property or variable, the first character must be a le
 
 After the first character, you are free to use numbers, letters, dollar signs or underscores.
 
-```javascript
+```plain-text
 let name = "Enki"; // valid
 let $taxRate = 8.25; // valid
 let _id = 23; // valid
@@ -52,35 +48,40 @@ Comments can be created in 2 ways in JavaScript.
 
 As a single line comment:
 
-```js
+```plain-text
 // I am a single line comment
 ```
 
 You can also add single line comments to the same line as other code:
 
-```javascript
+```plain-text
 let company="enki"; // define company
 ```
 
 Or if you have more text you can use a block comment:
-```javascript
+
+```plain-text
 /*
 I am a block comment
 */
 ```
 
+
 ---
+
 ## Practice
 
 What syntax is used in *JavaScript* for **single line** comments?
 
 ???
 
-* //
-* `/* */`
-* `#`
+- //
+- `/* */`
+- `#`
+
 
 ---
+
 ## Revision
 
 Is the following line of code **valid**?
@@ -90,14 +91,18 @@ let 777jackpot = "jackpot";
 // line is ???
 ```
 
-* not valid
-* valid
+- not valid
+- valid
+
 
 ---
+
 ## Quiz
+
 ### which of the following is a valid comment?
 
-```javascript
+
+```plain-text
 (1. // first comment
 (2. <!-- second comment
 (3. /* third comment */
@@ -105,7 +110,7 @@ let 777jackpot = "jackpot";
 
  ???
 
-* 1, 2 & 3
-* 1
-* 1 & 3
-* 2
+- 1, 2 & 3
+- 1
+- 1 & 3
+- 2

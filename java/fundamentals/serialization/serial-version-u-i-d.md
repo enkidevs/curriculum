@@ -39,11 +39,11 @@ What is the best practice for serialVersionUID declaration?
 
 ???
 
-* A specific number that is used upon deserializing an object
-* Custom declaration
-* Automatic declaration
-* A random number
-* It represents the number of static variables and methods in a serialized class
+- A specific number that is used upon deserializing an object
+- Custom declaration
+- Automatic declaration
+- A random number
+- It represents the number of static variables and methods in a serialized class
 
 
 ---
@@ -67,15 +67,15 @@ What is the data type of serialVersionUID?
 
 ???
 
-* A specific number that is used upon deserializing an object
-* Custom declaration
-* Any access type
-* long
-* Automatic declaration
-* int
-* float
-* A random number
-* It represents the number of static variables and methods in a serialized class
+- A specific number that is used upon deserializing an object
+- Custom declaration
+- Any access type
+- long
+- Automatic declaration
+- int
+- float
+- A random number
+- It represents the number of static variables and methods in a serialized class
 
 
 ---
@@ -84,4 +84,3 @@ What is the data type of serialVersionUID?
 
 [1:ANY-ACCESS-MODIFIER]
 In this it makes no difference if we make it `private`, `public`, `protected` or any other type.
- 

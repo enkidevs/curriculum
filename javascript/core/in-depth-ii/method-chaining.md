@@ -1,44 +1,28 @@
 ---
 author: dean
-
-levels:
-  - basic
-  - advanced
-  - medium
-
 type: normal
-
 category: pattern
-
-standards:
-  javascript.functions.1: 10
-  javascript.functions.6: 10
-  javascript.execution-context.2: 10
-
 tags:
   - introduction
   - workout
   - method
   - function
   - chaining
-
 links:
-  - '[schier.co](http://schier.co/blog/2013/11/14/method-chaining-in-javascript.html){website}'
-
-aspects:
-  - introduction
-  - workout
-
-
+  - >-
+    [schier.co](http://schier.co/blog/2013/11/14/method-chaining-in-javascript.html){website}
 ---
+
 # Method chaining
 
+
 ---
+
 ## Content
 
 Method chaining allows multiple methods to be called one after the other on the same object.
 
-```javascript
+```plain-text
 var foo = new Bar();
 foo.setFirst('Fizz').setLast('Buzz');
 // Two functions, called with one line
@@ -46,7 +30,7 @@ foo.setFirst('Fizz').setLast('Buzz');
 
 Method chaining is typically enabled by implementing methods that return `this` (the object itself):
 
-```javascript
+```plain-text
 var Bar = function() {
   this.first = 'Not';
   this.last = 'FizzBuzz';
@@ -66,7 +50,9 @@ Bar.prototype.setLast = function(last)
 };
 ```
 
+
 ---
+
 ## Practice
 
 Complete the missing gaps such that the log statements on the last lines will print the commented output.
@@ -99,33 +85,32 @@ console.log(r.width) //20
 
 ```
 
-* width
-* prototype
-* setWidth
-* return this
-* Rectangle
-* length
-* this
-* new
-* setLength
-* new
-* return r
-* r
-* return
-* return null
-* return undefined
-* return width
-
+- width
+- prototype
+- setWidth
+- return this
+- Rectangle
+- length
+- this
+- new
+- setLength
+- new
+- return r
+- r
+- return
+- return null
+- return undefined
+- return width
 
 
 ---
+
 ## Revision
 
 How is method chaining typically enabled?
 
 ???
 
-* Implementing methods that return `this`
-* No need for implementation
-* Updating the object to allow this
- 
+- Implementing methods that return `this`
+- No need for implementation
+- Updating the object to allow this

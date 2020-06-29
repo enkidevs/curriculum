@@ -43,9 +43,9 @@ Which two API calls can be used to specify a range of where bulk writes will occ
 
 ???
 
-* `cork()` and `uncork()`
-* `write()` and `end()`
-* `writable()` and `unwritable()`
+- `cork()` and `uncork()`
+- `write()` and `end()`
+- `writable()` and `unwritable()`
 
 
 ---
@@ -56,7 +56,6 @@ What method is used to flush all buffered data from a stream?
 
 ???
 
-* end()
-* uncork()
-* cork()
- 
+- end()
+- uncork()
+- cork()

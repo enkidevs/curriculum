@@ -1,26 +1,22 @@
 ---
 author: kapnobatai136
-
-aspects:
-  - introduction
-
 type: normal
-
 category: must-know
-
 tags:
   - introduction
   - linux
   - operating-system
-
 links:
-  - '[Image Source](https://www.cyberciti.biz/humour/dad-what-are-clouds-made-of-in-it/){website}'
-
+  - >-
+    [Image
+    Source](https://www.cyberciti.biz/humour/dad-what-are-clouds-made-of-in-it/){website}
 ---
 
 # What's Linux?
 
+
 ---
+
 ## Content
 
 To understand what Linux is, let's go back to the very basics of computing.
@@ -39,17 +35,21 @@ From cloud storage and space rockets, to your car or refrigerator, there's a hig
 
 ![what-are-clouds-made-of](https://img.enkipro.com/e763d343e3f748f707da85221e99d44d.png)
 
+
 ---
+
 ## Practice
 
 Linux is an ???.
 
-* operating system
-* ordering system
-* operating software
-* ordering software
+- operating system
+- ordering system
+- operating software
+- ordering software
+
 
 ---
+
 ## Footnotes
 
 [1:Unix]

@@ -20,43 +20,43 @@ Basic operating system related utility functions are available through **Node**'
 
 Firstly, the module must be imported:
 
-```javascript
+```plain-text
 var os = require("os")
 ```
 
 Get operating system name:
 
-```javascript
+```plain-text
 console.log(os.type());
 ```
 
 Get operating system platform:
 
-```javascript
+```plain-text
 console.log(os.platform());
 ```
 
 Get CPU's architecture (`x64`,`arm` or `ia32`):
 
-```javascript
+```plain-text
 console.log(os.arch());
 ```
 
 Get an array with various infrormation about the CPUs:
 
-```javascript
+```plain-text
 console.log(os.cpus());
 ```
 
 Get the total system memory in bytes:
 
-```javascript
+```plain-text
 console.log(os.totalmem());
 ```
 
 Get an array with various information about all the Network Interfaces:
 
-```javascript
+```plain-text
 console.log(os.networkInterfaces());
 ```
 
@@ -72,10 +72,10 @@ var os = require(“os”);
 console.log(os.???());
 ```
 
-* totalmem
-* memory
-* bytesmemory
-* memorytotal
+- totalmem
+- memory
+- bytesmemory
+- memorytotal
 
 
 ---
@@ -84,7 +84,7 @@ console.log(os.???());
 
 Suppose :
 
-```javascript
+```plain-text
 var os = require("os");
 ```
 
@@ -94,11 +94,10 @@ Log the CPU's architecture:
 console.log(???.???());
 ```
 
-* os
-* arch
-* platform
-* type
-* networkInterfaces
-* CPU
-* cpu
- 
+- os
+- arch
+- platform
+- type
+- networkInterfaces
+- CPU
+- cpu

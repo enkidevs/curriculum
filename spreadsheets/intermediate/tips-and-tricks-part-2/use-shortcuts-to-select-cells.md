@@ -1,19 +1,14 @@
 ---
 author: Stefan-Stojanovic
-
-aspects:
-  - introduction
-  - workout
-
 type: normal
-
 category: how to
+---
+
+# Using shortcuts to select cells
+
 
 ---
 
-# Using shortcuts to select cells 
-
----
 ## Content
 
 When selecting a cell or range of cells, whether it's for a function or just when selecting, you can use different shortcuts to save time.

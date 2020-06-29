@@ -1,27 +1,21 @@
 ---
 author: alexjmackey
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-  - workout
-
 links:
   - '[for in / for of loops](https://youtu.be/a3KHBqH7njs){video}'
-
 ---
 
 # Loops - Part 2
 
+
 ---
+
 ## Content
 
 The `for..in` loop allows you to iterate through an object's keys. Consider the following `firstName` and `lastName` keys:
 
-```javascript
+```plain-text
 let obj = {
    firstName: "John",
    lastName: "Smith"
@@ -30,7 +24,7 @@ let obj = {
 
 The keys can be used to get the value:
 
-```javascript
+```plain-text
 for (let key in obj) {
    console.log(key, obj[key]);
 }
@@ -43,7 +37,7 @@ for (let key in obj) {
 
 The `for..of` loops are used for looping through iterable objects such as arrays:
 
-```javascript
+```plain-text
 let arr = [10, 20, 30];
 
 for (let i of arr) {
@@ -60,7 +54,7 @@ Let's see an example.
 
 Notice how the `for..in` loop below returns `newFunc` that was added to array's prototype (we'll look at prototypes shortly but for now think of it as a way to add functionality):
 
-```javascript
+```plain-text
 Array.prototype.newFunc = function() {};
 
 let arr = [10, 20, 30];
@@ -81,7 +75,7 @@ for (let i of iterable) {
 
 The `break` statement exits out of a loop, while the `continue` statement will skip to the next iteration:
 
-```javascript
+```plain-text
 let i = 0;
 do {
   i++;
@@ -104,7 +98,9 @@ do {
 
 ```
 
+
 ---
+
 ## Practice
 
 Iterate through the elements of `myArray`:
@@ -117,20 +113,20 @@ let myArray = [1, 2, "3", "item"];
 }
 ```
 
-* `for`
-* `of`
-* `myArray`
-* `Array`
-* `do`
+- `for`
+- `of`
+- `myArray`
+- `Array`
+- `do`
+
 
 ---
+
 ## Revision
 
 To exit a loop, you can use the ??? keyword.
 
-
-* break
-* stop
-* finish
-* end
- 
+- break
+- stop
+- finish
+- end

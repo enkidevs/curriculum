@@ -23,12 +23,12 @@ links:
 
 For the SQL Standard, there are two main types of triggers:
 
-* `ON UPDATE` triggers
-* `ON DELETE` triggers
+- `ON UPDATE` triggers
+- `ON DELETE` triggers
 
 These *triggers* are added when defining a `FOREIGN KEY` constraint, and both `ON UPDATE` and `ON DELETE` have several arguments which decide what action is taken after a `DELETE` or `UPDATE` statement. Here is what the default syntax would look like:
 
-```sql
+```plain-text
 CREATE TABLE table_name (
   ...
   CONSTRAINT constraint_name 
@@ -44,7 +44,7 @@ CREATE TABLE table_name (
 
 If you want to make sure you never delete any records that have a relationship defined, you can use the `RESTRICT` argument. This ensures that it is prohibited to delete a row from the parent table if there are any matching rows in the child tables.
 
-```sql
+```plain-text
 ...
   ON UPDATE RESTRICT
   ON DELETE RESTRICT,
@@ -55,7 +55,7 @@ If you want to make sure you never delete any records that have a relationship d
 
 The `NO ACTION` argument is similar to `RESTRICT` in that it prohibits changing any records from the parent table if there are matching records in the child tables. This argument is also the default that is used in the case that no *triggers* are defined. The difference between `RESTRICT` and `NO ACTION` will become more evident as you learn about deferring.
 
-```sql
+```plain-text
 ...
   ON UPDATE NO ACTION
   ON DELETE NO ACTION,
@@ -81,14 +81,13 @@ CREATE TABLE region (
 );
 ```
 
-* CONSTRAINT
-* FOREIGN KEY
-* REFERENCES
-* ON UPDATE
-* ON DELETE
-* PRIMARY KEY
-* RELATES
-* ON INSERT
-* IF UPDATE
-* IF DELETE
- 
+- CONSTRAINT
+- FOREIGN KEY
+- REFERENCES
+- ON UPDATE
+- ON DELETE
+- PRIMARY KEY
+- RELATES
+- ON INSERT
+- IF UPDATE
+- IF DELETE
