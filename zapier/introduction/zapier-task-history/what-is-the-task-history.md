@@ -22,3 +22,4 @@ It provides a list of all the tasks that have ever been performed in your Zapier
 ![task-history](https://img.enkipro.com/b56b0580df5e3b71adf5d728bb380c1f.png)
 
 Another way of accessing the task history when editing a zap is by clicking the clock button on the right-hand side of the screen (above the cogwheel representing Setting)
+ 

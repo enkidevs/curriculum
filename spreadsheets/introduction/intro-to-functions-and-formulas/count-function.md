@@ -34,3 +34,4 @@ Create a function that will count how many numerical values are present from the
 - `=COUNT(C7-C32)`
 - `COUNT(C7:C32)`
 - `COUNT(C7-C32)`
+ 

@@ -106,3 +106,4 @@ What do you think about generating state from props in `this.state` in the const
 - it's a good practice
 - can cause application crashes
 - it's useful when working with many props
+ 

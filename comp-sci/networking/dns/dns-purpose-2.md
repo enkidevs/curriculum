@@ -46,3 +46,4 @@ When is a DNS lookup required?
 - Every time an IP address is used.
 - Every time a new computer comes online.
 - Every time a domain name is used but an IP address is needed.
+ 

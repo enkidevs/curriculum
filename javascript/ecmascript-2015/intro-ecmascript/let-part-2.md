@@ -142,3 +142,4 @@ console.log(foo);
 ```
 
 Here, `foo` is only accessible in the `if` scope.
+ 

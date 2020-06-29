@@ -78,3 +78,4 @@ Which of the following is an accepted field type?
 - Number.
 - Single line text.
 - Currency.
+ 

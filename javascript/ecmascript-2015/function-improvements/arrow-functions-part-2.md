@@ -167,3 +167,4 @@ function Counter() {
 // calling `Counter` with `new`
 let count = new Counter();
 ```
+ 

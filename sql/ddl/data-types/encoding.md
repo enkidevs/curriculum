@@ -41,3 +41,4 @@ As of now, the most recommended character encoding is
 - UTF-16
 - UTF-32
 - ASCII
+ 

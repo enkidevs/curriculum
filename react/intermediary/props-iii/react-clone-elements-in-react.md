@@ -148,3 +148,4 @@ const element = <h1>Enki is cool!</h1>;
 
 [2: shallow merge]
 A merge of two objects in JavaScript produces a new object by combining their properties. Properties that only exists in one of the two objects are just copied into the result. If a property exists in both, the value of that property from the second object will overwrite the value of the first. A"shallow" merge means that we only compare/merge top-level properties. Merging all levels of properties between two objects is called a *deep merge*.
+ 

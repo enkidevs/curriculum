@@ -108,3 +108,4 @@ CREATE TABLE voters_b (
 - VERIFY
 - verify_name
 - IS
+ 

@@ -53,3 +53,4 @@ The only two methods for which a browser should redirect the user after receivin
 - POST
 - DELETE
 - GET
+ 

@@ -96,3 +96,4 @@ promise returned and resolved with? ???
 - A permission object.
 - A promise object.
 - Constraints for the media device.
+ 

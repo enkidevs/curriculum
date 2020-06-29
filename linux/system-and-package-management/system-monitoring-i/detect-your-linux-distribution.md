@@ -58,3 +58,4 @@ You can get *detailed* information about your Linux distribution by running:
 
 [1:LSB]
 **LSB** in the `lsb_release` command stands for *Linux Standard Base* which is a joint project by several Linux Distributions aiming to standardise the software system architecture.
+ 

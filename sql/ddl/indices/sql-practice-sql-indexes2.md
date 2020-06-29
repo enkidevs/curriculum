@@ -35,3 +35,4 @@ In order to check your results:
 - build the schema,
 - run the provided query,
 - and provide the `Index_type` displayed in the result in the answer field.
+ 

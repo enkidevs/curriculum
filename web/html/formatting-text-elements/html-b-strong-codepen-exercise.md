@@ -25,3 +25,4 @@ links:
 In this exercise, you have to write 2 sentences by using the appropriate elements.
 
 Example of the finished exercise is on codepen.
+ 

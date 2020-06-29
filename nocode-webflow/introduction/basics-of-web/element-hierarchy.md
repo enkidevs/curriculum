@@ -42,3 +42,4 @@ Which sentence is true?
 
 - The element hierarchy is how elements behave with respect to one another based on their type. 
 - The element hierarchy is used to navigate through the webpage.
+ 

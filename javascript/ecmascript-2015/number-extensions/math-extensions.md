@@ -85,3 +85,4 @@ What `Math` method can be used to find the cubic root of a number?
 - cubicRoot
 - cbRoot
 - cubicrt
+ 

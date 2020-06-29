@@ -90,3 +90,4 @@ Format cell/s as an exponent.
 `Ctrl + /` - `⌘ + /`
 
 Clear all formatting from the selected cell/s.
+ 

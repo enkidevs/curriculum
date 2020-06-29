@@ -33,3 +33,4 @@ In this exercise, you will have 4 elements and 4 sentences.
 You have to add each element to the appropriate sentence.
 
 Example of the finished exercise is on codepen.
+ 

@@ -46,3 +46,4 @@ Git is only useful for developers.
 
 [1:Clone]
 A clone is an exact copy of the project, which retains all information (e.g. history) and references (e.g. branches).
+ 

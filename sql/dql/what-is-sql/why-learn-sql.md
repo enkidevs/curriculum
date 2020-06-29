@@ -45,3 +45,4 @@ Learning SQL **will not** help you ???.
 - understand databases better
 - extract your own data
 - create your own reports
+ 

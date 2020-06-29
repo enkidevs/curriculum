@@ -63,3 +63,4 @@ What is the name of blockchain participants that verify whole blocks validity?
 - Miners
 - Traders
 - Verifiers
+ 

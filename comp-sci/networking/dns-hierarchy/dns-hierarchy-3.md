@@ -62,3 +62,4 @@ A registrar inserts an NS and an A record for a customer's *** into the proper *
 - insufficient
 - root server
 - sufficient
+ 

@@ -70,3 +70,4 @@ What’s the output of the following code:
 - `6.0`
 - `5`
 - `7.0`
+ 

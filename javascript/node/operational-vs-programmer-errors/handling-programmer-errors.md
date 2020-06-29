@@ -63,3 +63,4 @@ Treatment
 - Handling the programmer error
 - Operational error
 - Enclosing the code inside a `try/catch` block
+ 

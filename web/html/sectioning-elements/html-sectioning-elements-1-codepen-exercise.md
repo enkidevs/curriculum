@@ -27,3 +27,4 @@ In this exercise, you have a block of code already present.
 You need to add 2 headers and a footer to the appropriate place. 
 
 Example of the finished exercise is on codepen.
+ 

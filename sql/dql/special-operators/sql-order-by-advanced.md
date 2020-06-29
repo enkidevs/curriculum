@@ -139,3 +139,4 @@ Here is the table we have used previously:
 | 4   | Esta       | Warrier   | [ewarrier3@berkeley.edu](mailto:ewarrier3@berkeley.edu)  |
 | 5   | Immanuel   | Kippen    | [ikippen4@biglobe.ne.jp](mailto:ikippen4@biglobe.ne.jp)  |
 | 6   | Regina     | Pantone   | [regone@stratos.org](mailto:regone@stratos.org)      |
+ 

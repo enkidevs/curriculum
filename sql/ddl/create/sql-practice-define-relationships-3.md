@@ -29,3 +29,4 @@ links:
 Create a foreign key reference to the table `user_reports`, relating `user_id` on `user_reports` to `id` on `users`. Add additional constraints to ensure that there is only *one* report for each user.
 When you are finished, run this query and check that it *fails*:  
 `INSERT INTO user_reports (id, user_id, total_items, max_daily_price) VALUES (110, 99, 58, 900);`
+ 

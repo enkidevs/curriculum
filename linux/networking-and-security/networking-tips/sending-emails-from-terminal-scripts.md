@@ -34,3 +34,4 @@ sendemail -f fromuser@gmail.com \
  -o tls=yes -xu gmailaccount \
  -xp gmailpassword 
 ```
+ 

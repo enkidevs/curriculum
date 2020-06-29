@@ -7,3 +7,4 @@ insights:
 aspects:
   - workout
   - deep
+ 

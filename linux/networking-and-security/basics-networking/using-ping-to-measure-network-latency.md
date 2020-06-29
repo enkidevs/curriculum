@@ -88,3 +88,4 @@ Based on the distance, which server would respond to pings faster?
 - a close one
 - a distant one
 - the distance isn’t relevant
+ 

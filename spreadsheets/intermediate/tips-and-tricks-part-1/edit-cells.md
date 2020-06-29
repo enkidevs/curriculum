@@ -52,3 +52,4 @@ For instance, if you had the formula `=SUM(A1:B1)` in the cell `C1`, the formula
 Example image:
 
 ![cell-display-vs-formula-bar](https://img.enkipro.com/41bbf63532c7a95879b849fec7cc9112.png)
+ 

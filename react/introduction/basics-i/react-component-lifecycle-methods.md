@@ -166,3 +166,4 @@ new Example().type;
 In React, we have to call `super(props)` in a class component to tell `React.Component` to run its setup, such as initializing `props`.
 
 For more info, [check out this article](https://overreacted.io/why-do-we-write-super-props/).
+ 

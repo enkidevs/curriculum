@@ -20,3 +20,4 @@ links:
 ## Exercise
 
 Practice throwing JavaScript Errors on Code Wars
+ 

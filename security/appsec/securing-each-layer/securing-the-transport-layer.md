@@ -66,3 +66,4 @@ What is one control in the Transport Layer of the OSI Model?
 - Use of a physical firewall
 - Using managed switches prevent topographical loops
 - Locks and secure enclosures
+ 

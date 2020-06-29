@@ -23,3 +23,4 @@ links:
 ## Exercise
 
 Practice using the JavaScript Numbers methods `toString()` and `toLocaleString()`
+ 

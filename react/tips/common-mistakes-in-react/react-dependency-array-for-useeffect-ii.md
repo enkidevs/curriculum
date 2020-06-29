@@ -93,3 +93,4 @@ const cachedValue = useMemo(
 You pass a function (`expensiveFunction(a, b)`) and a dependency array (`[a, b]`) in an async manner (`() => ...`). The result is cached, and the function is only re-computed if one of the dependencies changed.
 
 Note that `expensivefunction(a, b)` is ran during rendering.
+ 

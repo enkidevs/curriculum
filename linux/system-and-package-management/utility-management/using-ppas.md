@@ -69,3 +69,4 @@ ppa-purge ppa:<lp-name>/<ppa-name>
 
 [1:Acronym]
 Personal Package Archive
+ 

@@ -127,3 +127,4 @@ db.pokemon.aggregate([
 - `"$initialPower"`
 - `$truncate `
 - `"$initialPower", 2"`
+ 

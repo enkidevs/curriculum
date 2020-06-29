@@ -45,3 +45,4 @@ To ensure a single copy of a value, a **singleton** pattern is better practice.
 In addition, `static` variables are bad for **security**, **re-entrancy** and **concurrency**.
 
 Keep in mind though that `static` constants are not considered a bad practice.
+ 

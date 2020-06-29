@@ -62,3 +62,4 @@ Which of these is not the correct way of adding a section element?
 - Click anywhere on the canvas and left-click a section element from the `Add Elements` panel to add it to the previously clicked position.
 - Drag and drop a section element from the `Add Elements` panel to a position in the `Navigator`.
 - Drag and drop a section element from the `Add Elements` panel anywhere on the canvas.
+ 

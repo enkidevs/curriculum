@@ -33,3 +33,4 @@ In this exercise, you have to create a simple table with 2 columns and 2 rows.
 Next, you need add a caption on top of the table.
 
 More info and an example on codepen.
+ 

@@ -131,3 +131,4 @@ SELECT * FROM table_name
 WHERE col >= 1 AND
   col <= 10;
 ```
+ 

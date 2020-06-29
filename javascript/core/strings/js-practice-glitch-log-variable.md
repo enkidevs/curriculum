@@ -30,3 +30,4 @@ var someString = 'this is a string';
 Use `console.log` to *print the variable* `someString` to the terminal.
 Click Show to check to see if your program is correct.
 Be sure to Remix the project, and turn that in as your solution.
+ 

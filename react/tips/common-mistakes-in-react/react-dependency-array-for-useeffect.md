@@ -84,3 +84,4 @@ var bar = { a: 1 };
 Object.is(foo, foo); // true
 Object.is(foo, bar); // false
 ```
+ 

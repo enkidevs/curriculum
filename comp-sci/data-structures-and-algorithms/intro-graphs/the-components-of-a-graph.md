@@ -33,3 +33,4 @@ If the path starts and ends with the same vertex, having more than one edge, it 
 
 - Cycle
 - Simple Cycle
+ 

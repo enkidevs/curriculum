@@ -80,3 +80,4 @@ VALUES(???);
 - `'0xTHISISMYIMAGE'`
 - `0xTHISISMYIMAGE`
 - `LOAD_FILE('pikachu.jpg')`
+ 

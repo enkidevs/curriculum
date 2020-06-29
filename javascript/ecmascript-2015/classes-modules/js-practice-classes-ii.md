@@ -17,3 +17,4 @@ links:
 ## Exercise
 
 Apply your knowledge of JavaScript Classes in this Code Wars challenge!
+ 

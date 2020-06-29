@@ -35,3 +35,4 @@ int indexFirst = s.indexOf("dog");
 int indexLast = s.lastIndexOf("dog");
 //indexLast: 15
 ```
+ 

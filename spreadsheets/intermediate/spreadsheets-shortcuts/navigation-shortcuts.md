@@ -62,3 +62,4 @@ Open hyperlink. It only works if there is a hyperlink in the selected cell.
 ### `Alt + Shift + X` - `Option + Shift + X`
 
 Open the `Explore` feature.
+ 

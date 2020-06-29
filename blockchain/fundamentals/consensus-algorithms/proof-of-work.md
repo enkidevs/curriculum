@@ -68,3 +68,4 @@ Which mining validation technique is the most resource intensive for miners?
 - Proof of stake
 - Proof of burn
 - Proof of sweat
+ 

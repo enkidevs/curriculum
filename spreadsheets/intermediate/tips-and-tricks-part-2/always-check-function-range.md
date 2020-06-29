@@ -22,3 +22,4 @@ The orange rectangle represents the range of cells we have selected with `shift`
 The `B8` and `B9` cells are separated with a comma because they were not included in the range and were single separate selections using `ctrl`.
 
 > 💡 The colors used to display the ranges and individually selected cells may vary, but the process to select/deselect the cells is the same for everyone.
+ 

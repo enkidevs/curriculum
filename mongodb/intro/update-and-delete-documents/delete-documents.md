@@ -144,3 +144,4 @@ Delete all documents within the `pokemon` collection:
 - `db.pokemon.deleteMany()`
 - `db.pokemon.delete()`
 - `db.pokemon.deleteAll()`
+ 

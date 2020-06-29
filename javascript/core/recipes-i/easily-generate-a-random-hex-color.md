@@ -68,3 +68,4 @@ Create a random `hex` color:
 - `Number`
 - `int`
 - `Hex`
+ 

@@ -27,3 +27,4 @@ In this exercise, you will have to create an input field and 3 buttons.
 Next, assign each button a different attribute or function.
 
 Example of the finished exercise is on codepen.
+ 

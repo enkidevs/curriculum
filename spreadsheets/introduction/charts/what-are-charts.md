@@ -29,3 +29,4 @@ Charts are ???.
 - graphical representations of data
 - visual functions
 - maps of a spreadsheet
+ 

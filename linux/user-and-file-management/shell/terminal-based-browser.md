@@ -55,3 +55,4 @@ You can browse websites from the terminal using the
 - lynx package
 - browse package
 - firefox package
+ 

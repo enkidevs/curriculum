@@ -59,3 +59,4 @@ How does `display:none` affect the element's descendants?
 - They won't be displayed either.
 - It does not affect them.
 - They will be invisible, but clickable.
+ 

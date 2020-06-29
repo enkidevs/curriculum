@@ -91,3 +91,4 @@ class Sample extends React.Component{
 - {...}
 - {...props}
 - ...props
+ 

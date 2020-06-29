@@ -68,3 +68,4 @@ Which child has to be larger than the parent for a tree to be a Binary Search Tr
 - Left
 - Both
 - None
+ 

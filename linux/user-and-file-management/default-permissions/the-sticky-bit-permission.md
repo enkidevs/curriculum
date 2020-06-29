@@ -54,3 +54,4 @@ The sticky bit prevents
 - the owner of the file from deleting the file
 - the root from deleting the file
 - the owner from moving the file
+ 

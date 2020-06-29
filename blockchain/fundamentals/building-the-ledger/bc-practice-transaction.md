@@ -15,3 +15,4 @@ links:
 ## Exercise
 
 Follow the link below and play around with the distributed transaction ledger.
+ 

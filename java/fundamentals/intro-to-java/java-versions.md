@@ -54,3 +54,4 @@ Choose the correct order:
 - Java code is compiled to binary numbers.
 - The binary code is fed to the JVM.
 - The intermediary code is converted to native code.
+ 

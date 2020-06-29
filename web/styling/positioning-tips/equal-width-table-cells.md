@@ -43,3 +43,4 @@ table-layout: fixed;
 - Maintains table cells at an equal width.
 - Stops the table size from being altered.
 - Stops the table layout from being altered.
+ 

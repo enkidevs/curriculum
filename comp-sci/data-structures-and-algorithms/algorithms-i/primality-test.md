@@ -76,3 +76,4 @@ What is a prime number?
 - Any number that has at least 2 divisors.
 - Any number that is not a multiple of 2.
 - Any number that has only 1 as its divisor.
+ 

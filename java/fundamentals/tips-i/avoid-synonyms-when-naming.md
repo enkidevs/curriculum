@@ -21,3 +21,4 @@ When choosing names for methods or variables, it is best to be consistent and av
 For example, if you have two different classes, one with a method `finish()` and another with the method `end()`, it would be better to be consistent and choose either 'end' or 'finish' to describe methods which serve this purpose. 
 
 Using consistent names makes your code more readable and thus easier to maintain.
+ 

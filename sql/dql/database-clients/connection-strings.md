@@ -92,3 +92,4 @@ The port is `23336`.
 - `aws-us-east-1-portal.42.dblayer.com`
 - `23336`
 - `pokemon`
+ 

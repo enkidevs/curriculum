@@ -25,3 +25,4 @@ While both the clases can be used to concatenate strings, the key differences be
 - `StringBuilder` is a drop-in replacement for `StringBuffer` for *use in a single thread* with no synchronization. 
 
 Performance wise, `StringBuilder` is faster compared to `StringBuffer`, and hence should preferred under most implementations.
+ 

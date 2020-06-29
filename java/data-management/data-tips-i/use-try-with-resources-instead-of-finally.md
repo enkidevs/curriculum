@@ -33,3 +33,4 @@ try (FileInputStream inputStream =
 In the above example the resource is the `FileInputStream` called `inputStream`. It will be automatically closed at the end of the statement whether or not the `try` block throws an exception.
 
 It is important to note that try-with-resources will only work for resources that implement `AutoClosable`. It is still necessary to use `finally` to close resources without an implementation of `AutoClosable`.
+ 

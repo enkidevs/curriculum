@@ -62,3 +62,4 @@ cat enki.txt | ???
 - `n1`
 - `echo`
 - `num`
+ 

@@ -97,3 +97,4 @@ How should the cleanup function of an `useEffect()` hook be named?
 - It should be named `cleanup()`.
 - You can only use arrow functions.
 - It should be named `clean()`.
+ 

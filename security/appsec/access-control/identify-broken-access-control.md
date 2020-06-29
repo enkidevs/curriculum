@@ -75,3 +75,4 @@ What order to these steps go in to identify access control issues in your organi
 - Identify all available resources in your application
 - Determine and document the proper access requirements for that resource
 - Scan your application by visiting that resource with each credential type and report which HTTP status code is reported back.
+ 

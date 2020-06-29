@@ -70,3 +70,4 @@ Select the whole row of the currently selected cell.
 ### `Ctrl + A`/`Ctrl + Shift + Space` - `⌘ + A` / `⌘ + Shift + Space`
 
 Select the whole sheet.
+ 

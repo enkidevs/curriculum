@@ -22,3 +22,4 @@ links:
 ## Exercise
 
 Use best practice with Javascript's hoisting in mind on codewars.
+ 

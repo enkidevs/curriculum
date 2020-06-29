@@ -64,3 +64,4 @@ What is one control in the Session Layer of the OSI Model?
 - Strict use of ports as they are designed
 - Use of a physical firewall
 - Using managed switches prevent topographical loops
+ 

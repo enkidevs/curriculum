@@ -64,3 +64,4 @@ What are the two states which can pause or play CSS animations?
 - Start and stop.
 - Paused and playing.
 - Running and stop.
+ 

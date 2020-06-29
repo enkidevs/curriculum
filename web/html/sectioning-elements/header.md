@@ -109,3 +109,4 @@ The HTML `<header>` element cannot what?
 - hold a graphical logo
 - display authorship information
 - have multiple `<header>` elements within the same doc.
+ 

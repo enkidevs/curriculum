@@ -77,3 +77,4 @@ What does the following CSS code do, when you have a floated image inside an ele
 - Alters the images size so it fits inside the element.
 - Hides the element.
 - Hides the image.
+ 

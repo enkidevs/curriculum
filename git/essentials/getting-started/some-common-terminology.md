@@ -65,3 +65,4 @@ What other name does the **staging area** have?
 - HEAD
 - tag
 - stage
+ 

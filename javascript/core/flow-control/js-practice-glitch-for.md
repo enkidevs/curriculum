@@ -37,3 +37,4 @@ After the for loop, use `console.log()` to print the `total` variable to the ter
 
 Click `Show` to check to see if your program is correct.
 Be sure to Remix the project, and turn that in as your solution.
+ 

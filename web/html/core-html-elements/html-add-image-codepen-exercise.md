@@ -24,3 +24,4 @@ In this exercise, you have to add a cat image to your webpage.
 Next, add the alternative description and set the height and width of the image.
 
 Example of the finished exercise is on codepen.
+ 

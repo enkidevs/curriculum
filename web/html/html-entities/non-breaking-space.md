@@ -158,3 +158,4 @@ What does the " " within this line of code do?
 - Prevents the images from starting on new line like word wrap.
 - Removes any space between the images.
 - Useful when pulling image files from a database.
+ 

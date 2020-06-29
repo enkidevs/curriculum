@@ -77,3 +77,4 @@ FROM OPENROWSET(??? 'pikachu.jpg',
 - `BULK`
 - `SINGLE_BLOB`
 - `AS`
+ 

@@ -55,3 +55,4 @@ Identify the weighting factor for choosing validators in a PoS environment:
 - The computing power one has.
 - The time since one's last transaction.
 - One's time spent mining.
+ 

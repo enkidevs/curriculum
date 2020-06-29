@@ -19,3 +19,4 @@ link: 'https://www.codewars.com/kata/stop-gninnips-my-sdrow'
 ## Exercise
 
 Use the `map` and `filter` functions (along with others) to practice array manipulation using functional means.
+ 

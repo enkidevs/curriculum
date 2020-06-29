@@ -76,3 +76,4 @@ Complete the following code such that you will create a new database called `my_
 - DB
 - SELECT
 - CREATE DB
+ 

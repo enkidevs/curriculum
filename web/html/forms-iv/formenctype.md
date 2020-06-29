@@ -90,3 +90,4 @@ Which statement is not true regarding `enctype`?
 - specifies how the form-data should be encoded when submitted to a server.
 - The default value is `application/x-www-form-urlencoded`.
 - The value `multipart/form-data` is required when using forms that have a file upload control.
+ 

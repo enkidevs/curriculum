@@ -23,3 +23,4 @@ links:
 ## Exercise
 
 Write a JavaScript function with default parameters
+ 

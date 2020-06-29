@@ -52,3 +52,4 @@ Which of the following **is not** a viable option of importing data into Airtabl
 
 [1:CSV]
 The `.csv` extension stands for **Comma Separated Values**, a file type which is used to store data in plain sets. Each column is separated by a comma, and each new line represents a new row.
+ 

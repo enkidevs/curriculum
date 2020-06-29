@@ -174,3 +174,4 @@ To check if a value is *falsy* we can negate it with the `!` operator (which con
 In other words, `!x` will become `true` for any of the above values.
 
 This is a common pattern to verify that a value is not empty.
+ 

@@ -31,3 +31,4 @@ The 4 different checkboxes do the following:
 - `Match entire cell contents` is used to find exactly what was inputted. For instance, searching for a cell with `100` won't find any cell that contains `1000`.
 - `Search using regular expressions` is used for searching with regular expressions (will be discussed later on)
 - `Also search within formulas` is used to search inside formulas (will be discussed in the `Formulas` mission)
+ 

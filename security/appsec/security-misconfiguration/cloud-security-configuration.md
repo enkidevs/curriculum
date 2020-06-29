@@ -58,3 +58,4 @@ Which is **not** a practice that will help mitigate cloud security configuration
 - gathering admin credentials to cloud services
 - enabling audit logging
 - helping developers to configure sensible defaults
+ 

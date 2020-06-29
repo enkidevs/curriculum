@@ -25,3 +25,4 @@ Another advantage to standard exceptions is consistency; if the same type of exc
 For example, creating an exception called  `UnusableArgumentException` when there is already a standard `IllegalArgumentException` will confuse anyone who is already familiar with standard exceptions; is an unusable argument the same as an illegal one, or is it something different?
 
 In general it is best to use standard exceptions whenever an appropriate exception exists.
+ 

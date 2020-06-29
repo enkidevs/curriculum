@@ -44,3 +44,4 @@ Where does Metamask store your wallet?
 - Online, on their servers
 - Online, on the cloud
 - Nowhere, that's not what metamask does
+ 

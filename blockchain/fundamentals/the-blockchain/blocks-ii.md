@@ -58,3 +58,4 @@ Identify a property of the above function:
 - Reductor function
 - Bijective function
 - Reversible function
+ 

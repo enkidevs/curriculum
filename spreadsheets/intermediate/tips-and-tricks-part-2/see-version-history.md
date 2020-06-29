@@ -75,3 +75,4 @@ How do you load a previously saved version of your spreadsheet?
 - Version history 
 - Select the version you want 
 - click Restore this version
+ 

@@ -61,3 +61,4 @@ label:hover {
 - Makes the border transparent instead of block when the label is hovered over.
 - Makes the label solid instead of transparent when hovered over.
 - Makes the label disappear when hovered over.
+ 

@@ -81,3 +81,4 @@ How do you enable **strict mode** in ECMAScript 5?
 - `strict-mode`
 - `enable`
 - `on`
+ 

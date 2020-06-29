@@ -48,3 +48,4 @@ while Ethereum blockchain can also
 - solve world hunger
 - ASICs for solving PoW
 - use GPUs
+ 

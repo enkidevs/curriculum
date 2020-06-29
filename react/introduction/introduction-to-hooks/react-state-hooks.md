@@ -126,3 +126,4 @@ function Counter() {
 
 [1:Array destructuring]
 In JavaScript, the destructuring assignment syntax allows you to unpack values from arrays (or properties from objects) into distinct variables. In our case, the `useState()` returns and array with the current value of the state as element `[0]`, and a function that modifies the state as element `[1]`. We use array destructuring to assign the elements names because it is a bit confusing referring to them by their index.
+ 

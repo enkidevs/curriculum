@@ -41,3 +41,4 @@ Bash reverse search is triggered by ??? .
 - Ctrl+E
 - search -r
 - search -r
+ 

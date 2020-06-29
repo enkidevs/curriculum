@@ -115,3 +115,4 @@ If you try to change the `state` before the component was mounted, React will di
 
 [3:Memory Leaks]
 This is mostly due to how JavaScript works, rather than React. In JS, closures can live past the lifetime of a function, and since an interval callback needs to be kept alive by the browser to get executed, it can accidentally keep other references via its closure. Thus, memory isn't cleaned up, no matter if the React component is there or not. Here's [an article](https://reliablejavascript.com/2017/11/05/how-timer-intervals-can-leak-memory/) that provides a more in-depth reading.
+ 

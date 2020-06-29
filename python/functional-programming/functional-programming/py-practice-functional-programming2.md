@@ -19,3 +19,4 @@ link: 'https://www.codewars.com/kata/calculate-average'
 ## Exercise
 
 Try to solve this challenge both functionally, and imperatively. Save both results in the same response, and submit your answer. Then, in the "What did you learn" section, explain which is functional and what makes it functional, and which is imperative and what makes it imperative.
+ 

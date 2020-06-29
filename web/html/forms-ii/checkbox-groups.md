@@ -223,3 +223,4 @@ How are checkboxes styled?
 - Can't be styled
 - With proper HTML
 - Using the `style` menu each browser provides for HTML editting
+ 

@@ -55,3 +55,4 @@ What is a change address transaction?
 - A transaction fully consuming an UTXO
 - A transaction send to someone else
 - A transaction between account of the same person
+ 

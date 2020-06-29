@@ -71,3 +71,4 @@ Which regex pattern would ensure that a password is between 8 and 14 characters 
 - `/.{8,}/`
 - `/.{8-14}/`
 - `/.[8-14]/`
+ 

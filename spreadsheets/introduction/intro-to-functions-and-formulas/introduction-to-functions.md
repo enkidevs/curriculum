@@ -60,3 +60,4 @@ An argument is just a cell or a series of cells that you would pass a function. 
 ```
 
 In this case, `COUNT()` is the function and `A1:A25` is the argument. Basically, everything between the parentheses is the argument.
+ 

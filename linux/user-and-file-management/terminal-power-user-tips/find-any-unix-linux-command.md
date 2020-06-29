@@ -76,3 +76,4 @@ install-sgmlcatalog (8) - maintain
 - commands’ description
 - users
 - servers
+ 

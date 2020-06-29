@@ -111,3 +111,4 @@ Here are the documents we used in the previous insights:
   "initialPower": 50.80769230769231 
 }
 ```
+ 

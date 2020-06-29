@@ -46,3 +46,4 @@ When was the “.htm” extension used?
 - It was never used.
 - It is still mandatory on MAC OS
 - When only 3 letter extensions existed.
+ 

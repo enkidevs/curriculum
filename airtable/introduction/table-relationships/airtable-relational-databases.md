@@ -37,3 +37,4 @@ A better way of doing this is to have two separate tables, one for movies that a
 | ---------- | ---------- | -------- | --- |
 | Andrei     | 25/02/2004 | 1        | ... |
 | ...        | ...        | ...      | ... |
+ 

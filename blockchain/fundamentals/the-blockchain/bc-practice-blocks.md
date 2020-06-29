@@ -16,3 +16,4 @@ links:
 ## Exercise
 
 Follow the link below, introduce `20` as block number and copy-paste `Enki is great` as data and press the `mine` button. Respond to this message with the value you get in the `nonce` field.
+ 

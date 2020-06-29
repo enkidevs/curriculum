@@ -84,3 +84,4 @@ JavaScript is also more lenient than TypeScript and will rarely complain about t
 Both TypeScript and JavaScript are built based on a specification of rules called [ECMAScript](https://en.wikipedia.org/wiki/ECMAScript).
 
 This allows TypeScript to independently include the latest features as soon as they become part of ECMAScript, no matter if JavaScript began to include them.
+ 

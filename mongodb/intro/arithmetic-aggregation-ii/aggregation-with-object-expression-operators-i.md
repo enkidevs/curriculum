@@ -172,3 +172,4 @@ What is the `$mergeObjects` aggregation operator used for?
 - To merge documents together and sort the object fields.
 - To merge objects and output all values from each object separated by a comma.
 - To merge and count all objects.
+ 

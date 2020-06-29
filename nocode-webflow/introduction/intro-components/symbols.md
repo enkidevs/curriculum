@@ -42,3 +42,4 @@ Symbols are ???
 
 - instances of an element that can be reused any time.
 - reserved special characters used for creating buttons.
+ 

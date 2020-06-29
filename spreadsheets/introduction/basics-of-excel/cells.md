@@ -31,3 +31,4 @@ When a new sheet is created, all cells have equal sizes. They can be resized at 
 For instance, if a cell contains a date, it can have different formatting like in the example below:
 
 ![image-example-different-format-date](https://img.enkipro.com/470d899c1b5f0fc853ef095ced5fce5f.png)
+ 

@@ -25,3 +25,4 @@ link: 'https://www.codewars.com/kata/binary-representation-of-an-integer'
 
 Solve this challenge, but write it in a functional style, rather than an imperative or object-oriented style.
 When you explain how you solved this challenge, explain what makes your implementation functional style, rather than imperative style.
+ 

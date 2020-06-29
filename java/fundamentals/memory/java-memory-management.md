@@ -46,3 +46,4 @@ On what is Java’s memory management based?
 - `Mark-and-Sweep` 
 - `Manually nullifying references` 
 - `Breadth first algorithm`
+ 

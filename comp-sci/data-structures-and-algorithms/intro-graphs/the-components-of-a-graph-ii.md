@@ -65,7 +65,7 @@ A subgraph of a graph is *spanning* if it contains
 
 ---
 
-## Footnote
+## Footnotes
 
 [1: Graph]
 The graph discussed in the previous insight

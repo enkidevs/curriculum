@@ -86,3 +86,4 @@ What method would you use to parse the following string so that it doesn't retur
 - `parseInt`
 - `parseString`
 - `parseDouble`
+ 

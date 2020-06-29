@@ -109,3 +109,4 @@ function foo() {
 - this.prop
 - 'value'
 - prop: 'value'
+ 

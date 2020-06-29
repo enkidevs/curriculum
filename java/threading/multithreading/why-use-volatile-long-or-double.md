@@ -49,3 +49,4 @@ Making a variable `volatile` will guarantee that **each individual read or write
 
 [1:Atomic]
 In programming, an operation (or a set of operations) is considered atomic if it appears to the rest of the system as a single, indivisible step.
+ 

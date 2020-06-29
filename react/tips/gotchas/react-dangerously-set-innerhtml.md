@@ -120,3 +120,4 @@ Cross-Site Scripting (or XSS) is a type of attack in which malicious scripts are
 
 [2: Sanitization]
 The process of HTML sanitization represents examining your HTML document and creating a new document such that you only preserve tags that are designated as "safe" or desired. This process can help protect against cross-site scripting (XSS) attacks by sanitizing any HTML code submitted by a user.
+ 

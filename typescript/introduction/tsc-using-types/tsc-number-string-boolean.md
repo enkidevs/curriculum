@@ -98,3 +98,4 @@ let hexadecimal: number = 0xf010;
 let binary: number = 0b1111000000010000;
 let octal: number = 0o170020;
 ```
+ 

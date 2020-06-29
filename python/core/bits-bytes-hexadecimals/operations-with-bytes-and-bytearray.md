@@ -94,3 +94,4 @@ True
 - `isalphanum`
 - `isalpnum`
 - `isnum`
+ 

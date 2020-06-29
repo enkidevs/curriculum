@@ -24,3 +24,4 @@ Another problem was that the zap was checking twice that the `Has Access?` colum
 The improved zap should look something like this:
 
 ![final-improved-zap](https://img.enkipro.com/a7ed827bbf46958adfb8b36344ce39db.png)
+ 

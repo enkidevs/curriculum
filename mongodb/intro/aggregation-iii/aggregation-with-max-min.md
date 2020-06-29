@@ -145,3 +145,4 @@ db.pokemon.aggregate([
 - `$minimum`
 - `$maximum`
 - `power`
+ 

@@ -101,3 +101,4 @@ pancake = ['eggs', 'flour', 'milk', 'butter']
 - `pancake.remove('butter')`
 - `pancake.pop()`
 - `pancake.pop(3)`
+ 

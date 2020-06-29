@@ -88,3 +88,4 @@ What is the `$sum` operator used for in the `$group` aggregation stage?
 - it is used to calculate the sum of all values of all groups and output a single value field.
 - Used to calculate the total number of fields within each group.
 - Used to calculate the total number of field in the collection.
+ 

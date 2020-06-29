@@ -121,3 +121,4 @@ We need to use nested queries to be able to `SELECT SUM()` only on the first 5 e
 In this particular case we say: Compute the `SUM` on the experience column, taking into account only the 5 entries of the table. `AS` must be specified when using nested queries.
 
 Check out this [great resource](https://www.tutorialspoint.com/sql/sql-sub-queries.html) if you want to find out more about nested queries.
+ 

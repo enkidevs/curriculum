@@ -24,3 +24,4 @@ In this exercise, you have to add the same inline element to a word in each of t
 Next, you need to add the CSS classes from the CSS panel to each inline element.
 
 Example of the finished exercise is on codepen.
+ 

@@ -7,3 +7,4 @@ insights:
   - react-combine-reducers-in-redux
 aspects:
   - deep
+ 

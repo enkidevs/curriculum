@@ -22,3 +22,4 @@ Click *Launch Exercise* to open a Python Tutor page.
 Click **Visualize Execution** and see what happens.
 
 Then, edit the code so that it will run successfully in Python 3.6.
+ 

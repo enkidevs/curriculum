@@ -81,3 +81,4 @@ table {
 - Alters the table.
 - Adds a border to the table without padding.
 - Adds a border to the table with padding.
+ 

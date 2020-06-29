@@ -88,3 +88,4 @@ An object in JavaScript that can be inherited from is called ???.
 - prototype
 - variable
 - function
+ 

@@ -27,3 +27,4 @@ In this exercise, there is a list of 10 HTML terms.
 Correctly sort the list of terms into *elements* and *attributes*.
 
 Record your results in the `HTML` column of the linked Codepen.
+ 

@@ -51,3 +51,4 @@ DNS can act as a load balancer when a single *** maps to multiple *** .
 - domain names
 - IP address
 - domain name
+ 

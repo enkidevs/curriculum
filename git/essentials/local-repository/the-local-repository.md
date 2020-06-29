@@ -58,3 +58,4 @@ The area where 'to be committed' changes are placed is called ??? .
 - the staging area
 - the repository
 - the working directory
+ 

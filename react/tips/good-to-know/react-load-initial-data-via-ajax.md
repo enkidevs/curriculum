@@ -99,3 +99,4 @@ class Component extends React.Component {
 - componentDidRender()
 - render()
 - component()
+ 

@@ -81,3 +81,4 @@ What is the key difference between a lock and a semaphore?
 
 [1:Critical Section]
 Section of a code which can only be accessed by a certain number of threads/processes (usually no more than one).
+ 

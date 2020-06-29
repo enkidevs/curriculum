@@ -19,3 +19,4 @@ links:
 ## Exercise
 
 Practice using JavaScript's number methods on glitch
+ 

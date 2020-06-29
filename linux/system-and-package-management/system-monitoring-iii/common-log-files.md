@@ -60,3 +60,4 @@ You can check kernel messages log by issuing
 - dboot
 - log
 - kmesg
+ 

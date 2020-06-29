@@ -71,3 +71,4 @@ What role does the Presentation Layer play in the OSI 7 Layer Model?
 - Opening, closing, and managing connections between applications
 - Maintaining and ensuring a stable connection between two hosts over the Internet
 - Transmitting data between network nodes
+ 

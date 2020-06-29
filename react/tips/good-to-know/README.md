@@ -8,3 +8,4 @@ insights:
   - react-fragments-in-react
 aspects:
   - deep
+ 

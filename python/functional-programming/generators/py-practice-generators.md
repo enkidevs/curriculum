@@ -19,3 +19,4 @@ link: 'https://www.codewars.com/kata/directions-reduction'
 ## Exercise
 
 Practice writing generators in Python with this CodeWars challenge
+ 

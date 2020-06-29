@@ -50,3 +50,4 @@ To get started more quickly with Airtable, you can use pre-built data collection
 - templates
 - patterns
 - impressions
+ 

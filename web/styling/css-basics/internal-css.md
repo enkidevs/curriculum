@@ -66,3 +66,4 @@ The CSS code with the highest rendering priority is
 - inline CSS
 - internal CSS
 - external CSS
+ 

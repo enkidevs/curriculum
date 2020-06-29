@@ -40,3 +40,4 @@ Is this statement true?: HTML5 supports approx. 50% of the presentational attrib
 - No, because all presentational attributes from HTML4 are supported in HTML5.
 - Yes.
 - No, because presentational attributes only existed in HTML1.
+ 

@@ -175,3 +175,4 @@ Which form input type defines a slider control?
 - controls
 - slider
 - drag
+ 

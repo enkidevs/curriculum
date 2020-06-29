@@ -67,3 +67,4 @@ What role does the Session Layer play in the OSI 7 Layer Model?
 - Maintaining and ensuring a stable connection between two hosts over the Internet
 - Routing and transmission over the physical topography of the Internet
 - Packaging data packets into data streams and vice versa
+ 

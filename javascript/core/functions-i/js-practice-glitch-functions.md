@@ -32,3 +32,4 @@ return food + ' tasted really good.';
 Inside of the parentheses of `console.log()`, call the `eat()` function with the string `bananas` as the argument.
 
 Click `Show` to check to see if your program is correct.
+ 

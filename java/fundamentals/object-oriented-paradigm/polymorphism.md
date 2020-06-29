@@ -157,3 +157,4 @@ class Main {
 - Stinky
 - Error: name() has private access
 - Error: cannot find symbol name()
+ 

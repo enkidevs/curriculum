@@ -24,3 +24,4 @@ You can avoid this problem in two ways:
 > 💡 You can check how to create a template in our `templates` workout.
 
 2. Select the whole sheet, copy it, and paste it in a new sheet, where you can make your changes.
+ 

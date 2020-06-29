@@ -51,3 +51,4 @@ A blockchain is a ??? ledger.
 
 [1:Wallet Address]
 Unlike a real address, this will be a long string of numbers and letters.
+ 

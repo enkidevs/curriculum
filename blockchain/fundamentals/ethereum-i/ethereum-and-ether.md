@@ -56,3 +56,4 @@ What is the biggest expected change in the Ethereum blockchain protocol, that wi
 - Removing the periodical block reward reduction
 - Further reducing the block time
 - Removing the gas cost of running DApps
+ 

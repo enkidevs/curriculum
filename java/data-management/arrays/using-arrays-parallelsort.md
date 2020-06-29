@@ -76,3 +76,4 @@ When sorting a small array (up to `2000` elements), what methods is considered m
 
 - `sort()` 
 - `parallelSort()`
+ 

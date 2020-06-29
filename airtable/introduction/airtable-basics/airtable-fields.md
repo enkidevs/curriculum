@@ -37,3 +37,4 @@ When changing the type of a field, what happens to the data that doesn't fit the
 - It's deleted.
 - It's updated to the new type.
 - You get an error.
+ 

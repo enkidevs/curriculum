@@ -115,3 +115,4 @@ When concatenating a small number of strings this wouldn't pose much of a proble
 On the other hand, the `join()` method uses some internal tricks to find out the memory that needs to be allocated ahead of time and copies each substring to the new buffer. This means that each string is copied only once, making the operation ideally efficient. Concatenating `N` strings using `join()` leads to `N` concatenations, which is what one would expect.
 
 Check out this [Stack Overflow thread](https://stackoverflow.com/a/39312172) for more information.
+ 

@@ -24,3 +24,4 @@ Each row also has a unique key used to identify that row either for modifying or
 Since the column names, as well as the record keys are not fixed, **Column databases** can be seen as two-dimensional key-value databases, where a combination of column and row id serves as a "key" for fast data lookups.
 
 Some popular Column databases are **Bigtable**, **Cassandra**, **Microsoft Azure Cosmos DB**, etc.
+ 

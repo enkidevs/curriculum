@@ -26,3 +26,4 @@ Image (If applicable)
 
 If we give only one shortcut version that means it's the same shortcut on both operating systems.
 ```
+ 

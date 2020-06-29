@@ -54,3 +54,4 @@ How can you view an element in fullscreen with the **HTML Fullscreen API** ?
 - `fullScreen()`
 - `viewScreen()`
 - `applyFullscreen()`
+ 

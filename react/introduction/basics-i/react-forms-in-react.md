@@ -155,3 +155,4 @@ A component ???.
 DOM events for input elements have a specific shape and contain specific data (e.g. `Event.target()`). You can find a [comprehensive list](https://developer.mozilla.org/en-US/docs/Web/API/Event) of event properties in the Mozilla documentation.
 
 React mimics this feature with synthetic events. The React documentation holds a [list of supported events](https://reactjs.org/docs/events.html#supported-events).
+ 
