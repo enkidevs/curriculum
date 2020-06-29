@@ -8,4 +8,3 @@ insights:
   - multiple-relational-operators
   - prefix-and-postfix-of-increment-operators
   - use-varargs-when-unsure-about-the-number-of-parameters
- 

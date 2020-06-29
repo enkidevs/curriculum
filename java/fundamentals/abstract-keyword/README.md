@@ -8,4 +8,3 @@ insights:
   - abstract-classes-can-have-static-members
   - abstract-class-vs-interface-in-java
   - template-methods-in-abstract-classes
- 

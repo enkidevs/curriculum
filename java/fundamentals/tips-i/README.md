@@ -9,4 +9,3 @@ insights:
   - follow-existing-project-naming-conventions
 
 game: java-8
- 
