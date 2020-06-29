@@ -82,3 +82,4 @@ What is the key concept of a monitor?
 * To provide more fancy output unlike punchcards and LEDs
 * A pattern that allows multiple threads to use certain functionality at a single time
 * A piece of hardware used to display information from a computer to the user
+ 

@@ -67,3 +67,4 @@ How is the delivery of events treated in Node?
 * asynchronously
 * instantly
 * random
+ 

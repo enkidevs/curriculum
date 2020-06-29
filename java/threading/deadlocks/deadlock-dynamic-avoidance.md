@@ -93,3 +93,4 @@ How does dynamic avoidance work?
 * Calculating whether it will be safe to grant a resource to a process on every iteration
 * Calculating the overall load an the capacity of the system
 * Ensuring that the will always be more resources that the processes
+ 

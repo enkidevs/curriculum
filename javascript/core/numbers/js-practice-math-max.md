@@ -26,3 +26,4 @@ links:
 ## Exercise
 
 Practice using the JavaScript Math methods `max()`, `min()` and `abs()`
+ 

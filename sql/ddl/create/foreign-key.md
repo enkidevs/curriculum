@@ -142,3 +142,4 @@ Consider you have the table `servers` which has a column `id` defined as a `PRIM
 
 [1:UNIQUE Constraint]
 The `UNIQUE` constraint is very similar to `PRIMARY KEY` but it has two small differences. The first is that a column defined as `UNIQUE` can hold `NULL` values, and because the expression `NULL = NULL` doesn't evaluate to `true` (it evaluates to `unknown`) the column can hold multiple `NULL` values. The second difference is that there can only be one column defined as `PRIMARY KEY`, but there can be many columns defined as `UNIQUE`.
+ 

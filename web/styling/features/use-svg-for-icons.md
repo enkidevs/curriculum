@@ -48,3 +48,4 @@ Why does `SVG` prove to be useful for icons?
 * It scales well for all resolution types.
 * As SVG stands for Small Vector Graphics.
 * As it's supported in all browsers from IE9.
+ 

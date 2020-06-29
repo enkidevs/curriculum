@@ -115,3 +115,4 @@ To fetch the logs for a Docker container named `webserver`, we'd run:
 [1: daemon]
 A daemon is a computer program that runs in the background (outside of direct user control) and performs a specified operation at predefined times or in response to certain events. It is usually used for performing automated, administrative tasks for the operating system or an application. For example, `syslogd` is the daemon that implements the system logging facility on Linux, and `sshd` is a daemon that serves incoming SSH connections.
 Traditionally, the name of a daemon process ends with the letter `d`, to make it more distinguishable from other processes.
+ 

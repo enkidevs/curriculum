@@ -15,3 +15,4 @@ exercises:
   - py-practice-pure-functions3
 aspects:
   - introduction
+ 

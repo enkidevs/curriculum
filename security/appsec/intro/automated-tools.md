@@ -73,3 +73,4 @@ Here's a list of the most common tools used in application security:
 * [John The Ripper](https://www.openwall.com/john/) - a password cracker
 * [Aircrack-NG](https://www.aircrack-ng.org/) - password / wifi cracker
 * [Ettercap](https://www.ettercap-project.org/) - Man in the middle attacker
+ 

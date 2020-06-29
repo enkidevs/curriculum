@@ -62,3 +62,4 @@ Complete the process to apply the changes to your local branch `master`:
 * `merge`
 * `commit`
 * `master`
+ 

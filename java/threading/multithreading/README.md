@@ -9,3 +9,4 @@ game: thread-safe
 aspects:
   - workout
   - deep
+ 

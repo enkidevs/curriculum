@@ -77,3 +77,4 @@ An `iterator` can be used to :
 * `append strings`
 * `iterate a class`
 * `iterate a method`
+ 

@@ -58,3 +58,4 @@ What is "Ostrich Algorithm"?
 * Ignoring deadlock problem
 * Solving a deadlock by running a an ostrich class
 * Running an ostrich thread in a process-resource cycle
+ 

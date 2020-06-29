@@ -8,3 +8,4 @@ insights:
   - cryptoeconomics
 aspects:
   - deep
+ 

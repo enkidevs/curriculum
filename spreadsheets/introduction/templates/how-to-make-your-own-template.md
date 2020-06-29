@@ -42,3 +42,4 @@ When publishing, you can choose to either:
 After you press publish, you will get a link to the newly published template that you and anyone else can have access to.
 
 ![image-after-publish](https://img.enkipro.com/70e986140bc887b46c97499cde9ce6b3.png)
+ 

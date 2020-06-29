@@ -65,3 +65,4 @@ Does **JSX** support self closing tags?
 * `yes`
 * `no`
 * `depends`
+ 

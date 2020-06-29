@@ -29,3 +29,4 @@ Use `console.log` to print the length of the string to the terminal.
 
 Click Show to check to see if your program is correct.
 Be sure to Remix the project, and turn that in as your solution.
+ 

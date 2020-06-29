@@ -51,3 +51,4 @@ Why does one pay gas to publish a smart contract on the blockchain?
 * To support the Ethereum foundation
 * To tip the nodes that run the code
 * To speed up the verification process
+ 

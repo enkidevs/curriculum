@@ -57,3 +57,4 @@ Which section of a DNS message contains metadata about the DNS message itself?
 * answers
 * authority
 * additional information
+ 
