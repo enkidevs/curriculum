@@ -25,3 +25,4 @@ links:
 In this exercise, you will have to add a proper quotation element to each of the two quotes.
 
 Example of the finished exercise is on codepen.
+ 

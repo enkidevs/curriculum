@@ -50,3 +50,4 @@ What problem is solved by waiting for consensus before adding new blocks?
 - 51% attack
 - Sybil attack
 - Replay attack
+ 

@@ -84,3 +84,4 @@ list.???(???)
 - `list.insert(3, tres)`
 - `list.append(2, 'tres')`
 - `list.extend(2, 'tres)'`
+ 

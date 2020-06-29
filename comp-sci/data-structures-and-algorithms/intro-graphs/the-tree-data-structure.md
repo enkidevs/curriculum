@@ -104,3 +104,4 @@ Abstract Data Type, or ADT for short, represents a type (or class) for objects t
 
 [2:LinkedList]
 A linear collection of data elements whose order is not given by their physical placement in memory, but each element points to the next. For more information check out the `'Intro to Data Structures'` mission.
+ 

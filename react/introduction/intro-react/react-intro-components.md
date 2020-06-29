@@ -53,3 +53,4 @@ This component will display:
 Don't worry too much about components now as we will talk more about them in the following workouts.
 
 For now, it’s enough to understand that components in React represent definitions of UI elements.
+ 

@@ -65,3 +65,4 @@ Which interface for fetching resources supports promises natively?
 
 - `fetch`
 - `XMLHttpRequest`
+ 

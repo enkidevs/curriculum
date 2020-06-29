@@ -71,3 +71,4 @@ A subgraph of a graph is *spanning* if it contains
 The graph discussed in the previous insight
 
 ![cycle](https://img.enkipro.com/9d61467f8592f253b7c556ce50aeca28.png)
+ 

@@ -55,3 +55,4 @@ Some of the commands that run just fine while `git` is offline are
 - commit, log, checkout
 - commit, log, push
 - pull, push, status
+ 

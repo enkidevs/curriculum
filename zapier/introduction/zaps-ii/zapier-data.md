@@ -59,3 +59,4 @@ Say that you have a Google Sheets step followed by a Slack step. To include data
 The previous example refers to the zap that sent a Slack message every time a Google Sheets record was created or updated:
 
 ![previous-example](https://img.enkipro.com/50de0285a6aa665f7ab1ee83e0c3a152.png)
+ 

@@ -25,3 +25,4 @@ Step by step, this zap will:
 Your zap is now ready to be used. Go ahead and change a row in the spreadsheet and see how the magic happens.
 
 Don't forget to turn on the zap in the top right corner of the screen.
+ 

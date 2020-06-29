@@ -59,3 +59,4 @@ What is the *Facade* pattern?
 - It is a wrapper around the system that provides the end user with a clean desired functionality.
 - It describes the whole inheritance structure of the program.
 - It describes how a group of interfaces acting together.
+ 

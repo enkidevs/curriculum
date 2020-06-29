@@ -121,3 +121,4 @@ Which of these is not a valid MongoDb query method?
 - `db.collection_name.insertMany()`
 - `db.collection_name.insertOne()`
 - `db.collection_name.insert()`
+ 

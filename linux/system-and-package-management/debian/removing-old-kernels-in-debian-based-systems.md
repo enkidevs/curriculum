@@ -84,3 +84,4 @@ The command which outputs the current kernel is ???.
 - `uname -k`
 - `kernel -v`
 - `get -k`
+ 

@@ -73,3 +73,4 @@ Which of the following is not a way to validate blocks?
 - Proof of work
 - Proof of stake
 - Proof of useful work
+ 

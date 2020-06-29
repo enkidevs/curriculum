@@ -20,3 +20,4 @@ Following the same procedure as in the previous insight, you can now create pers
 ![gif-of-final-workspace-views](https://img.enkipro.com/aba82e702b8efa7f544573d36bac6577.gif)
 
 That's it! You now have a table to hold your tasks, assign them to team members, and each has their personalized view.
+ 

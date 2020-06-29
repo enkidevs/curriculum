@@ -23,3 +23,4 @@ link: 'https://www.codewars.com/kata/directions-reduction'
 ## Exercise
 
 Practice using stacks to solve this challenge
+ 

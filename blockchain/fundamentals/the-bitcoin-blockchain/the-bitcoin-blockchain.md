@@ -63,3 +63,4 @@ Which of the following is not a way in which you can obtain bitcoins?
 - Exchanging other currencies for bitcoins
 - Buying bitcoins from ATMs
 - Mining
+ 

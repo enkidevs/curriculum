@@ -55,3 +55,4 @@ JNDI API has access to ???
 - multiple naming and directory services.
 - network statistics.
 - classes bytecode.
+ 

@@ -127,3 +127,4 @@ This is the same reason why in React components we call `super(props)`: because 
 
 **Mounting** refers to the initial insertion of a **React** `component` into the **DOM**.
 Similarly, **unmounting** happens when the `component` is removed from the **DOM**.
+ 

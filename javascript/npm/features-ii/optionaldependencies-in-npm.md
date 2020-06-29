@@ -75,3 +75,4 @@ In what object of `package.json` can dispensable dependencies be specified?
 - peerDependencies
 - devDependenceis
 - dependencies
+ 

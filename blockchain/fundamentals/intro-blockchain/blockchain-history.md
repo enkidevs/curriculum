@@ -32,3 +32,4 @@ The *peer-to-peer payment system* pioneered by Bitcoin allowed forward thinkers 
 Nick Szabo's proposal for Bit Gold is most similar to Satoshi Nakamoto's Bitcoin, but it was never implemented in practice.
 
 `DigiCash` was a company trying to create a fully digital currency with anonymous transactions but entered the market too early, before e-commerce was fully integrated within the Internet.
+ 

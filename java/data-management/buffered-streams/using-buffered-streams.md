@@ -45,3 +45,4 @@ Why is it more efficient to write to a file using a buffer?
 - The buffer reduces the number of disk accesses required to write the data.
 - The buffer increases the number of disk accesses required to write the data.
 - The stream closes itself after it finished writing.
+ 

@@ -32,3 +32,4 @@ public void SubClass extends SuperClass {
 In the above example, the compiler will automatically insert `SuperClass`' constructor into `SubClass`.
 
 If `SuperClass` had no constructor, then there would be an error. Note that the `Object` class has a no-argument constructor, so any class whose only superclass is `Object` will not generate this error.
+ 

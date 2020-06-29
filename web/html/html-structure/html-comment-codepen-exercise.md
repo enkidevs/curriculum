@@ -20,3 +20,4 @@ links:
 In this exercise, you have to write 2 identical sentences and then place the second one in an HTML comment.
 
 More info on codepen.
+ 

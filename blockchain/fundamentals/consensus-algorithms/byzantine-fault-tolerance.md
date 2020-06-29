@@ -59,3 +59,4 @@ What is the problem that most consensus algorithm are trying to solve?
 - The Byzantine fault tolerance Problem
 - The blockchain problem
 - Centralization problem
+ 

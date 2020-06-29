@@ -65,3 +65,4 @@ How memory in a computer works, and where data is located at any given time
 It's something everyone needs to know at some level. It enforces building a secure application from the start, or when major outbreaks occur they can take steps to protect themselves and the applications they develop
 
 At more advanced levels, it means strictly following regulatory guidelines to ensure certain kinds of data are very well protected. At very advanced levels, it can mean research, penetration testing, and more.
+ 

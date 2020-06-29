@@ -61,3 +61,4 @@ What is one control in the Network Layer of the OSI Model?
 - Using managed switches prevent topographical loops
 - Locks and secure enclosures
 - Encrypted password exchange and storage
+ 

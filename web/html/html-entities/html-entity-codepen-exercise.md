@@ -22,3 +22,4 @@ In this exercise, you have to display 4 HTML character entities properly.
 You can use either the entity name or number.
 
 Example of the finished exercise is on codepen.
+ 

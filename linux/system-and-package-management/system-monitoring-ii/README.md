@@ -9,3 +9,4 @@ insights:
 game: gotta-know-them-all
 aspects:
   - workout
+ 

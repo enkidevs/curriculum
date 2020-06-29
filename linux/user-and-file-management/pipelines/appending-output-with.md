@@ -64,3 +64,4 @@ Note that for appending purposes the use of the `cat` command is recommended.
 - appends stdout stream to a file
 - creates a new folder
 - deletes a file
+ 

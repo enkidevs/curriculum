@@ -135,3 +135,4 @@ We want to delete the 15th element of the `egg_group` table:
 - DELETE FROM egg_group WHERE id= 15;
 - UPDATE egg_group DELETE WHERE id=15;
 - DELETE FROM egg_group;
+ 

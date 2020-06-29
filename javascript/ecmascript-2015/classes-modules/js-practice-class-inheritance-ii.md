@@ -21,3 +21,4 @@ links:
 ## Exercise
 
 Apply your knowledge of JavaScript Class Inheritance in this Code Wars challenge!
+ 

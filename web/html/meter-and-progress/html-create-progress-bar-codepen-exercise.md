@@ -23,3 +23,4 @@ links:
 In this exercise, you have to create a simple progress bar.
 
 Example of the finished exercise is on codepen.
+ 

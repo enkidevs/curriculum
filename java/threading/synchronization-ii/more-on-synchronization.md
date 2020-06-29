@@ -57,3 +57,4 @@ What is a thread safe way of accessing and updating variables without using lock
 - atomic variables
 - electronic variables
 - instant variables
+ 

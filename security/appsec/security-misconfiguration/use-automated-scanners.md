@@ -49,3 +49,4 @@ What should you use to check application components for common vulnerabilities?
 - automated scanners
 - overseas pentesters
 - monitor for random chaos
+ 

@@ -36,3 +36,4 @@ With our data validation done, this is what our cell looks like when we hover ov
 And this is how it looks when there is a wrong input:
 
 ![image-of-rejected-input](https://img.enkipro.com/6f9321ee5bb2fa4e89c8816a334ff61a.png)
+ 

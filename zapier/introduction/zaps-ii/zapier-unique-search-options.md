@@ -58,3 +58,4 @@ Which of the following you **wouldn't** expect to see when looking at an app's p
 - A list of recommended integrations.
 - Recommended templates.
 - All the possible triggers, actions and searches.
+ 

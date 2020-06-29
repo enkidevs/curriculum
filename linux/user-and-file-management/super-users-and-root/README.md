@@ -10,3 +10,4 @@ game: know-your-rights
 aspects:
   - workout
   - introduction
+ 

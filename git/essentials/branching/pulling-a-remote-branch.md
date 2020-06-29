@@ -80,3 +80,4 @@ git pull -a
 - --amend
 - --all
 - --autostash
+ 

@@ -127,3 +127,4 @@ WHERE name = Andrei;
 
 [1:Integer]
 An integer is nothing more than a whole number. For example, `1`, `12345`, and `-999` are all integers.
+ 

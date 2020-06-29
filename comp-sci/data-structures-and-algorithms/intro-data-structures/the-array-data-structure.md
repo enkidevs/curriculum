@@ -108,3 +108,4 @@ An array that has its size declared up-front is called
 - dynamic
 - indexed
 - associative
+ 

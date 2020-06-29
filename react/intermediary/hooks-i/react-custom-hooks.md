@@ -96,3 +96,4 @@ Because both components and hooks are functions, this functionality can be appli
 
 [2: Naming convention]
 Although it is common practice to name custom hooks starting with "use", you can still use any name you want (this is not recommended by the creators of React). Just remember to always call hooks at the top-level, and only call hooks from React functions. Keep in mind that if you don't follow this convention, there is no way to automatically check for violations of rules of hooks.
+ 

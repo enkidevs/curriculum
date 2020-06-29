@@ -23,3 +23,4 @@ links:
 ## Exercise
 
 Practice JavaScript's for loop on glitch
+ 

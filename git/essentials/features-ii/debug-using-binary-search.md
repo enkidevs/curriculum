@@ -83,3 +83,4 @@ helps finding a commit that introduced a bug using ??? search.
 - `binary`
 - `-binary`
 - `-B`
+ 

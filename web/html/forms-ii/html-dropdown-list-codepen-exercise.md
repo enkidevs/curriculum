@@ -29,3 +29,4 @@ The list will be about choosing your favorite type of fruit.
 The list will have 5 options with the 4th option selected by default.
 
 Example of the finished exercise is on codepen.
+ 

@@ -24,3 +24,4 @@ In this exercise, you have 2 sentences/elements.
 You have to add the appropriate attribute to each element to style it.
 
 Example of the finished exercise is on codepen.
+ 

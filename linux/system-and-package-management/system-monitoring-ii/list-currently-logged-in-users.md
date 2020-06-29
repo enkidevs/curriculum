@@ -99,3 +99,4 @@ Other flags can be used as well:
 
 [2:Additional Information]
 Other columns printed by `w` command include `JCPU` and `PCPU` time.
+ 

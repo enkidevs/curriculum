@@ -43,3 +43,4 @@ What does `web3` need in order for it to work?
 - The server to run an Ethereum client
 - A global web3 JavaScript object
 - For the website to be written in JavaScript
+ 

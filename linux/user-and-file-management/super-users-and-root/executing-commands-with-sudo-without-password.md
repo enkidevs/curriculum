@@ -67,3 +67,4 @@ You can disable the `sudo` password by modifying the
 - `/etc/visudo`
 - `/etc/passwd`
 - `~/.bashrc`
+ 

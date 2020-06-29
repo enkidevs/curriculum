@@ -84,3 +84,4 @@ Which of the following is a reason you might not want to use `SELECT *`?
 - It might end up being expensive
 - It will definitely crash your DB
 - It's not practically useful in any way
+ 

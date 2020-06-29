@@ -84,3 +84,4 @@ Get the name of a character specified:
 - `name`
 - `lookup`
 - `category`
+ 

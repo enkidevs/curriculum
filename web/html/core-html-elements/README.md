@@ -15,3 +15,4 @@ exercises:
   - html-add-image-codepen-exercise
 aspects:
   - introduction
+ 

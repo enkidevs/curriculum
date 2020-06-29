@@ -82,3 +82,4 @@ Mark which statement is true about the "type=password" attribute:
 - Each input character appears with the strikethrough style.
 - Each input character appears as normal but autocomplete is disabled.
 - Each input character does not appear.
+ 

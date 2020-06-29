@@ -25,3 +25,4 @@ links:
 In this exercise, you have to create a simple meter.
 
 Example of the finished exercise is on codepen.
+ 

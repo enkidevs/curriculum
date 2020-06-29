@@ -41,3 +41,4 @@ We can do so like this:
 Select all the cells you want to move, hold `ctrl` on Windows, or `command` on a Mac, and click on any side of the cells you have selected and drag them to the new location.
 
 ![move-with-drag](https://img.enkipro.com/a9a8f56417641ebb23a3fd3876cd3469.gif)
+ 

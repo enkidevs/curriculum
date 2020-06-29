@@ -53,3 +53,4 @@ What is the default value of an unassigned `boolean` data type?
 - `true` 
 - `1` 
 - `0`
+ 

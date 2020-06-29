@@ -7,3 +7,4 @@ insights:
   - sql-your-first-query
 aspects:
   - introduction
+ 

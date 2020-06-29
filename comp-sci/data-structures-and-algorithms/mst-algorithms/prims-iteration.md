@@ -76,3 +76,4 @@ Prim's algorithm uses
 - a dynamic approach
 - a divide and conquer approach
 - no particular approach
+ 

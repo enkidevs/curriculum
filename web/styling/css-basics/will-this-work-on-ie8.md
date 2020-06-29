@@ -105,3 +105,4 @@ resize: both;
 The `resize` property controls if and how an element can be resized by the user by clicking and dragging the bottom right corner of the element. This property isn't compatible with any version of IE.
 %
 ```
+ 

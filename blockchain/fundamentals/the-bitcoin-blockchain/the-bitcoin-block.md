@@ -54,3 +54,4 @@ In the context of Bitcoin mining, what is the component a miner is searching for
 - The transactions
 - The previous block's hash
 - The hash
+ 

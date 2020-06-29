@@ -84,3 +84,4 @@ Which method of the *Scanner* class returns the next double value read?
 - hasNextDouble()
 - getDouble()
 - parseDouble()
+ 

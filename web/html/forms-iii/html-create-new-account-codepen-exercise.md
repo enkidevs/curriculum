@@ -24,3 +24,4 @@ In this exercise, you will create 2 input fields and 2 buttons.
 A username and password field, and a submit and reset button.
 
 Example of the finished exercise is on codepen.
+ 

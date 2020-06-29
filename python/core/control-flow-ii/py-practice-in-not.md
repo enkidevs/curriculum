@@ -22,3 +22,4 @@ This exercise introduces the `for` keyword. Execute the code to get a feel for h
 
 Read the instructions and edit the code so that the program prints 'Awesome day!!!' if Spot has more than 15 awesome points at the end of the day,
 'We can do better' if she has less than 15 but at least 5 points, and 'Bummer' if she has less than 5 points.
+ 

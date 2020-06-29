@@ -68,3 +68,4 @@ What is the transaction model used by the Bitcoin blockchain?
 - Account model
 - A combination of UTXO and account models
 - A simple transaction
+ 

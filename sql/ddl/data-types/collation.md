@@ -40,3 +40,4 @@ A function that maps bits to characters.
 
 - collation
 - encoding
+ 

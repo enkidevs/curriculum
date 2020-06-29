@@ -36,3 +36,4 @@ When discovering templates, Airtable shows a description and ???.
 
 - a preview of the selected option
 - other templates related to the selected option
+ 

@@ -92,3 +92,4 @@ This is also referred to as the Virtual DOM or VDOM. It is a virtual representat
 
 [6:Open-source]
 An open-source software is protected by copyright laws, but the owner grants users the right to study, change, and distribute the software to anyone for any purpose.
+ 

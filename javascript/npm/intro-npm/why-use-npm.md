@@ -57,3 +57,4 @@ A faster alternative package manager to npm is
 - browserify
 - react
 - node
+ 

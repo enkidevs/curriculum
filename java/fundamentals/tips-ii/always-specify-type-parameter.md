@@ -36,3 +36,4 @@ Although Java allows the use of raw types, they should be avoided since:
 - Using a parameterized type allows compile time checks - less chances of errors.
 - Raw types usually require casts to convert to a suitable type.
 - They only exist to maintain backward compatibility with older versions of Java.
+ 

@@ -87,3 +87,4 @@ You would use the sieve of Eratosthenes for
 - testing if a number is prime
 - test if a tree has a binary search tree's properties
 - finding the prime divisors of a number
+ 

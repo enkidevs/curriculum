@@ -22,3 +22,4 @@ links:
 In this exercise, you have to create 2 different types of links.
 
 Example of the finished exercise is on codepen.
+ 

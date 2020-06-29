@@ -30,3 +30,4 @@ You can find the position of an element on the Canvas by clicking on it in the `
 ![clicking-on-element-2](https://img.enkipro.com/843f404051a6c0280ab9ff098ca06158.gif)
 
 You can also drag and drop a new element on the `Navigator` panel.
+ 

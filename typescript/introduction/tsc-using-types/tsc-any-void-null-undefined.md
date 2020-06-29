@@ -116,3 +116,4 @@ For example, if we are expecting to get the phone number from a user and they do
 The reason `null` is more sensible than `undefined` in this case is because `null` means that we determined that a value is missing.
 
 When a value is `undefined` we cannot know if it's `undefined` because we set it as such or because it never had a value in the first place.
+ 

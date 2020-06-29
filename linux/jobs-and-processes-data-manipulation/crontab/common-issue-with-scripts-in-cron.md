@@ -57,3 +57,4 @@ If the user doesn’t have execute rights for a file, `cron` may
 - fail to run the scripts
 - set the rights automatically
 - still execute them
+ 

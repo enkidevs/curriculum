@@ -108,3 +108,4 @@ foo(null);
 - null
 - 7
 - NaN
+ 

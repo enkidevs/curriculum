@@ -86,3 +86,4 @@ D     F    E
 - A,B,D,F,C,E
 - D,B,F,A,C,E
 - A,B,C,D,E,F
+ 

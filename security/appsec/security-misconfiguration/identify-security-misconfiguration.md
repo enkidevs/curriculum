@@ -61,3 +61,4 @@ What order do these steps go in, to identify security vulnerabilities coming fro
 - Lock down the creation of new cloud services
 - Review watchlists daily for compromised data from your cloud service
 - Contact each cloud provider to obtain credentials to their network systems
+ 

@@ -117,3 +117,4 @@ They can change the code to adjust it to what TypeScript expects or tell TypeScr
 
 [3: Compilation]
 Compilation is the process of translating computer code written in one programming language into another language
+ 

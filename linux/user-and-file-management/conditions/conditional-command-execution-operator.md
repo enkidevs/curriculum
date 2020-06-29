@@ -33,3 +33,4 @@ The above creates *newFolder* and cd into it.
 - succeeds
 - fails
 - is not found
+ 

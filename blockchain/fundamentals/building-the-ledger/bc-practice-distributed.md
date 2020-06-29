@@ -16,3 +16,4 @@ links:
 ## Exercise
 
 By following the link below, you should be presented with the same version of the blockchain, owned by three different peers. To see exactly how the network rejects blocks that do not match the known history, add `forgery` as data for the `1st` block of `peer A` and remine the blocks until they are all green. Then, send the hash of A's 5th block to the bot.
+ 

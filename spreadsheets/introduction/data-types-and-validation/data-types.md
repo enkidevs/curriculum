@@ -24,3 +24,4 @@ It's important to note that **what is displayed is not how the data is saved**.
 `Times` are treated as fractions of a day. For example, `1` is `12:00:00AM`, `0.5` is `12:00:00PM` and `0.25` is `06:00:00AM`.
 
 So, if we format a cell to accept time and date and we input `2.25` the displayed value will be `1/1/1900 6:00:00AM`.
+ 

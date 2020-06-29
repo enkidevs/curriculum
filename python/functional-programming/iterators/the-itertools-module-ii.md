@@ -135,3 +135,4 @@ print(
 - `['Tom', 'Sadiq', 'Lars', 'Lee', 'Jean', 'Tom']`
 - `['Sadiq', 'Jean', 'Sadiq', 'Jean', 'Sadiq', 'Jean']`
 - `<itertools.islice object at 0x????????>`
+ 

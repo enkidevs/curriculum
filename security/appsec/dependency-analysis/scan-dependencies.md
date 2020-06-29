@@ -76,3 +76,4 @@ In order to find vulnerabilities in your dependencies you should ???.
 - Use a source-code scanning tool
 - Manually review all the code
 - Hire a penetration testing team
+ 

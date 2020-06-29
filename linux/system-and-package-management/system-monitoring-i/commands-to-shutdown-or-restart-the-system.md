@@ -64,3 +64,4 @@ command shuts down the system.
 - `sudo reboot`
 - `sudo init 6`
 - `sudo shutdown -r now`
+ 

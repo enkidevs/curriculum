@@ -67,3 +67,4 @@ FileSystems.getDefault()
 - `Paths.get(/myDocs/diary.txt);`
 - `Path.get("/myDocs/diary.txt");`
 - `Path.getPath("/myDocs/diary.txt");`
+ 

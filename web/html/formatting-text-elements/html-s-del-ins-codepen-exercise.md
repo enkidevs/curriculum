@@ -28,3 +28,4 @@ links:
 In this exercise, you have to write 3 sentences by using the appropriate elements.
 
 More details and an example of the finished exercise are on codepen.
+ 

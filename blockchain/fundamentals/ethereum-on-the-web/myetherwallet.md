@@ -49,3 +49,4 @@ Does MyEtherWallet communicate with the Ethereum network?
 
 - Yes
 - No
+ 

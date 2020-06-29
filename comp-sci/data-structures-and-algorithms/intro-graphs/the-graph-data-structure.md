@@ -66,3 +66,4 @@ What's the name for an edge in a graph that connects a node with itself?
 - simple edge
 - circular edge
 - self-connection
+ 

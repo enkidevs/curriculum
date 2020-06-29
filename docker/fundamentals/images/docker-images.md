@@ -109,3 +109,4 @@ In cryptography, SHA (Secure Hash Algorithm) is a cryptographic hash function wh
 
 [2: copy-on-write]
 "Copy on write" means that everyone has a single shared copy of the same data until it's written, and then a copy is made. This allows an efficient sharing of resources such that new data is only created during modification.
+ 

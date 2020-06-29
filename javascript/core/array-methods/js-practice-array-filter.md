@@ -20,3 +20,4 @@ links:
 ## Exercise
 
 Practice using the JavaScript Array method `filter()`
+ 

@@ -31,3 +31,4 @@ links:
 In this exercise, you have 3 paragraphs. You need to add each paragraph to tthe appropriate element.
 
 The elements you need to add are: section, aside and article.
+ 

@@ -37,3 +37,4 @@ public void method(
 ```
 
 This method will now accept `List`s of supertypes of `Integer`, such as `Number` and `Object`.
+ 

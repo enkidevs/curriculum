@@ -30,3 +30,4 @@ In the `Filter by condition` section, select `Greater than or equal to` and inpu
 The table will now look like this:
 
 ![result-after-filter](https://img.enkipro.com/2bd5dedc2ee307bd5548b6590aa8dacc.png)
+ 

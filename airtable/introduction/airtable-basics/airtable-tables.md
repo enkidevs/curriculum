@@ -47,3 +47,4 @@ Base 2  Table C
 - You can link records **from Table C** to **Table A**
 - You can link records **from Table B** to **Table A**
 - You can link records **from Table A** to **Table B**
+ 

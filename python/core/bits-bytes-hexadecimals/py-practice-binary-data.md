@@ -18,3 +18,4 @@ links:
 ## Exercise
 
 Practice using binary data in python.
+ 

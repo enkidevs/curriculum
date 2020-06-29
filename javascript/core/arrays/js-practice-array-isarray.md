@@ -26,3 +26,4 @@ links:
 ## Exercise
 
 Practice using the JavaScript Array methods `isArray()`, `indexOf()` and `toString()`
+ 

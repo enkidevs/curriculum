@@ -24,3 +24,4 @@ To add a new sheet, go to the bottom left corner of the spreadsheet and press th
 ![image.png](https://img.enkipro.com/0ea4f3f810b4934f42ddb4d704184a78.png)
 
 Right-clicking on a sheet opens a menu where you can rename it, move it, duplicate it, delete it and more.
+ 

@@ -76,3 +76,4 @@ What are usually the types of the main mapping of a ERC721 token?
 - int256
 - balance (uint256)
 - string
+ 

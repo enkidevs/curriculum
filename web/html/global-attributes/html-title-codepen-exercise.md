@@ -24,3 +24,4 @@ In this exercise, you have a picture.
 You have to add the appropriate attribute to the img elemt for a tooltip to appear when a user hovers over the picture.
 
 Example of the finished exercise is on codepen.
+ 

@@ -55,3 +55,4 @@ What does type inference do?
 - It allows you to omit specifying type parameters upon calling a method
 - It allows you to call an abstract method if it has a 'default' return value
 - It allows you to change then return type of a method depending on the input
+ 

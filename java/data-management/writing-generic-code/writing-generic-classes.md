@@ -52,3 +52,4 @@ Box<Integer> box1 = new Box<Integer>();
 //can be declared like this in Java 7+:
 Box<Integer> box2 = new Box<>();
 ```
+ 

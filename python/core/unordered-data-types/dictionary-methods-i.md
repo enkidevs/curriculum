@@ -100,3 +100,4 @@ english_to_french.???
 
 [1:Shallow Copy]
 Shallow copies duplicate the minimum amount necessary. Let's say we have a collection named `a`. If we were to make a **shallow copy** of it (named `b`), we would say that `b` represents a copy of `a`s structure, but not `a`s elements.
+ 

@@ -18,3 +18,4 @@ links:
 In the JS fiddle there is a script tag provided. Write some JavaScript code that logs your lucky number to the console.
 
 Make sure to submit the JSFiddle link, to show that you've completed the exercise.
+ 

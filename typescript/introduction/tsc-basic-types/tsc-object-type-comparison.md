@@ -184,3 +184,4 @@ Only these throw an error:
 (undefined).enki // Uncaught TypeError: Cannot read property 'property' of undefined
 (null).enki // Uncaught TypeError: Cannot read property 'property' of null
 ```
+ 

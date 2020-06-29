@@ -82,3 +82,4 @@ type(False)
 - `boolean`
 - `Boolean`
 - `Bool`
+ 

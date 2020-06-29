@@ -71,3 +71,4 @@ Math.max.apply(null, [5,8,2]);
 - `NaN`
 - `-Infinity`
 - `5`
+ 

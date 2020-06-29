@@ -28,3 +28,4 @@ links:
 In this exercise, you have to add an appropriate element to each sentence.
 
 Example of the finished exercise is on codepen.
+ 

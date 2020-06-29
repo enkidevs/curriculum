@@ -66,3 +66,4 @@ How should you escape your user input?
 - Using a library designed for the job
 - Write custom validation for my specific use case
 - Use IP filtering rules to determine which input to escape
+ 

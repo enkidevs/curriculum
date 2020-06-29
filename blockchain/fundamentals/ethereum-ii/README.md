@@ -9,3 +9,4 @@ insights:
   - initial-coin-offerings
 aspects:
   - introduction
+ 

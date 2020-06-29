@@ -54,3 +54,4 @@ Which are the first and second verifications at the transaction level?
 - Check for double-spend
 - Check block references
 - Check UTXOs
+ 

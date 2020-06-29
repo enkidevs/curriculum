@@ -62,3 +62,4 @@ Delete the collection named `Pokemon` from the current database:
 - `pokemon`
 - `deleteCollection()`
 - `database`
+ 

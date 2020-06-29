@@ -33,3 +33,4 @@ public class NewException
 ```
 
 New exceptions should only be created when necessary, as there is a variety of standard exceptions which can be used instead.
+ 

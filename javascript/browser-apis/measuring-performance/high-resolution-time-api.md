@@ -77,3 +77,4 @@ What is the correct call of the High Resolution Time API that returns the curren
 - resolution.start()
 - highres.run()
 - resolution.time()
+ 

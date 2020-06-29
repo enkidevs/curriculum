@@ -74,3 +74,4 @@ dob:focus {
 - Sets the background colour of the name input to red, and of the date of birth input to green.
 - Sets the background colour of the name input to red and the rest of the page to green.
 - Sets the background colour of the date of birth input to green and the rest of the page to red.
+ 

@@ -22,3 +22,4 @@ links:
 In this exercise, you will create a password field with a specified required pattern.
 
 Example of the finished exercise is on codepen.
+ 

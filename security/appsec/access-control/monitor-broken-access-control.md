@@ -63,3 +63,4 @@ The result of ???
 - the determination of the validity of the credential
 - The user's name
 - The number of times the user has presented this credential
+ 

@@ -103,3 +103,4 @@ Change a user's home directory without moving the files:
 - `-dm`
 - `--move-home`
 - `chmod`
+ 

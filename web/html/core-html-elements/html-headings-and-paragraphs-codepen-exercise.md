@@ -24,3 +24,4 @@ In this exercise, you have to create 6 headings(h1-h6) with a paragraph in each.
 Each paragraph should also be in a different color.
 
 Example of the finished exercise is on codepen.
+ 

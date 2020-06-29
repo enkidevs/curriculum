@@ -63,3 +63,4 @@ Address 1: 172.19.0.2 example.enki
 
 [1: RoundRobin][DNS Round Robin](<https://en.wikipedia.org/wiki/Round-robin_DNS>)
 is the name of an IP address picking strategy for domain names where a domain name maps to a list of IPs instead of just a single IP. When a request is made to [www.example.com](http://www.example.com), a DNS server would pick an IP address from that list, in a round-about order. Among other things, this allows distributing load across different servers because on different connection attempts clients would receive services from different providers.
+ 

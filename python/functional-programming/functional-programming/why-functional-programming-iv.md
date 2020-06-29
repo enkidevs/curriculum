@@ -31,3 +31,4 @@ Removing side effects (or at least minimizing them) makes our program easier to 
 
 [1:Side Effects & Pure Functions]
 Purely-functional languages such as Haskell often encapsulate and isolate these kinds of side effects from pure functions using *monads*, which are another long topic too complex to be covered in this insight. In this case you can see a slight shortcoming in the functional programming paradigm in that a *real* purely-functional program shouldn't be able to do many of the things modern programs do, as many of those actions technically count as side effects. Functional frameworks need to provide ways to do these things for utility but they technically break compliance with pure functional style.
+ 

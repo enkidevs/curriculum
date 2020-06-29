@@ -136,3 +136,4 @@ var newObj = ???(myData, {
 
 [1:Deep Copies]
 There is another method to make this comparison possible, but it requires a lot of writing and provides many opportunities for bugs to appear. The process would consist of creating a new copy of your data, changing the parts that need to be changed, and finally comparing the old copy and the new copy using triple-equals.
+ 

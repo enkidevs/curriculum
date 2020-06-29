@@ -50,3 +50,4 @@ When does a new vote happen?
 - Every 2 hours
 - The price of the coin in USD
 - When the price of the coin drops by more than 15%
+ 

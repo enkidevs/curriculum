@@ -76,3 +76,4 @@ What is the difference between a smart contract and code filles written in other
 - Smart contracts are more secure
 - Other code files compile faster
 - There is no difference other than syntax
+ 

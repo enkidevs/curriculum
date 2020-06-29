@@ -8,3 +8,4 @@ insights:
   - clear-bash-history
 aspects:
   - workout
+ 

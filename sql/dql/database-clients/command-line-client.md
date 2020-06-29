@@ -22,3 +22,4 @@ Some of the Database Tools have command-line interface, meaning that instead of 
 - etc.
 
 As there are many RDBMS's (i.e. databases such as Oracle Database, MySQL, Microsoft SQL Server) a lot of Database Client software is built so that it could work with more than one database system.
+ 

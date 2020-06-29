@@ -99,3 +99,4 @@ A bundler flattens your module hierarchy into a single file, effectively reducin
 
 [4:ES.Next]
 `ES.Next` is a dynamic name that represents whatever the next version of ECMAScript is at the time of writing.
+ 

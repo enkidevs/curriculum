@@ -54,3 +54,4 @@ As a hack for bench-testing the computer’s CPU you can use:
 - `md5sum`
 - `db`
 - `md5s`
+ 

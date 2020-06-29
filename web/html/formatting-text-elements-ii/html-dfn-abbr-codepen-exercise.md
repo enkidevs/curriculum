@@ -28,3 +28,4 @@ links:
 In this exercise, you have to define an abbreviation.
 
 More information and an example of the finished exercise are on codepen.
+ 

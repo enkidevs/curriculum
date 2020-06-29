@@ -81,3 +81,4 @@ let total = points + 2;
 The automatic detection of types is called *type inference*.
 
 This means that all values in TypeScript have an implicit type if no type is declared.
+ 

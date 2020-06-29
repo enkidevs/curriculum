@@ -86,3 +86,4 @@ To delete a package installed from a *PPA*, you could run:
 - `PPA_name`
 - `delete`
 - `ppa-purge`
+ 

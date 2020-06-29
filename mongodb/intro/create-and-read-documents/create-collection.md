@@ -65,3 +65,4 @@ Display all collections in a MongoDB database.
 - `display collections`
 - `db.show.collections`
 - `show collections.all`
+ 

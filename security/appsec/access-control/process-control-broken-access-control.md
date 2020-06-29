@@ -41,3 +41,4 @@ When should application resources be checked for proper access control configura
 - During code review
 - quarterly
 - continuously
+ 

@@ -90,3 +90,4 @@ Create a table that contains a fixed width column and a variable one, such that 
 
 [2:VARCHAR Variable Size]
 Since its size is variable, `VARCHAR` needs an overhead of 1 to 4 bytes to store the data length, so the next table field can be easily looked up in memory.
+ 

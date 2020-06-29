@@ -76,3 +76,4 @@ Directories not specified in the `sparse-checkout` file are
 - ignored
 - the only ones pulled
 - immutable
+ 

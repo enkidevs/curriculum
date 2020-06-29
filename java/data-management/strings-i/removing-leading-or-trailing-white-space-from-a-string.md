@@ -28,3 +28,4 @@ System.out.println(trimmed);
 ```
 
 The output printed by the example above will be: `Enki`.
+ 

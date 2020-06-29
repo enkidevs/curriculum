@@ -62,3 +62,4 @@ Note that `exiftool` may not be present on your machine. You can install it with
 - extract metadata
 - extract pixels
 - extract color codes
+ 

@@ -36,3 +36,4 @@ Zaps can be renamed from which screen?
 - Both.
 - Zap editing screen.
 - Dashboard.
+ 

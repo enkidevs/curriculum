@@ -86,3 +86,4 @@ print(opening_hours)
 - `range(9, 17)`
 - `range(8, 17)`
 - `range(8, 18)`
+ 

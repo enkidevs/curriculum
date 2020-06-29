@@ -39,3 +39,4 @@ Use the person's age group to look up the appropriate string in the dictionary.
 When you are ready to give it a try press the blue *Train* button and write your solution.
 
 To test your solution press the blue *Attempt* button.
+ 

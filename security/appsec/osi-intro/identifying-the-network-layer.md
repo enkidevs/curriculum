@@ -63,3 +63,4 @@ What role does the Network Layer play in the OSI 7 Layer Model?
 - Providing computational power via electronic circuits
 - Transmitting data between two directly connected mediums
 - Packaging data packets into data streams and vice versa for transport
+ 

@@ -17,3 +17,4 @@ links:
 ## Exercise
 
 Practice using `data structures` in python.
+ 

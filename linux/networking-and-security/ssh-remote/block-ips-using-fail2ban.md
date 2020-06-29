@@ -73,3 +73,4 @@ The `fail2ban` service looks through logs and bans IPs that
 - had too many failed log in attempts
 - made too many requests
 - were inactive for too long
+ 

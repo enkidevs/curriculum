@@ -74,3 +74,4 @@ What is the recommended way of applying CSS?
 - External file.
 - Internal CSS.
 - Inline CSS.
+ 

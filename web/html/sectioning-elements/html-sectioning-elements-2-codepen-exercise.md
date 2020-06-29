@@ -22,3 +22,4 @@ links:
 In this exercise, you have a list of 3 items. You need to add the whole list in an appropriate block element.
 
 Next, you need to style the content by adding the `.shadobox` CSS class to it.
+ 

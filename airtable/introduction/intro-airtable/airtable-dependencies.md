@@ -29,3 +29,4 @@ To use Airtable, you need ???.
 - just an online account
 - to #stayathome
 - to download a desktop app
+ 

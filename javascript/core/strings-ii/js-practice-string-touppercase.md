@@ -26,3 +26,4 @@ links:
 ## Exercise
 
 Practice using the JavaScript String methods `toUpperCase()`, `toLowerCase()` and `replace()`
+ 

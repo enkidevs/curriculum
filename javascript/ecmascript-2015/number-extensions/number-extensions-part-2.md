@@ -96,3 +96,4 @@ Number.???(
 - isValid
 - isFinite
 - isInteger
+ 

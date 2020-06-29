@@ -89,3 +89,4 @@ The working principle behind a queue is
 
 [1:ADT]
 Abstract Data Type, or ADT, is a definition of a data type (or a data structure) that only mentions what operations are to be performed but not how these operations will be implemented.
+ 

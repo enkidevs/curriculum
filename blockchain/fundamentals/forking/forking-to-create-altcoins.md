@@ -47,3 +47,4 @@ What is it that is forked off a blockchain to create an inherently different one
 - The state of the blockchain
 - The source code and everything up to block X
 - The nodes
+ 

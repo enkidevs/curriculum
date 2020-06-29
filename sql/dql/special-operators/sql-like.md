@@ -133,3 +133,4 @@ Choose the query that will get all the location records based in regions 1, 2. A
 
 [2:RDBMS Implementations]
 Note: some databases may have a different implementation of the specific wildcard characters.
+ 
