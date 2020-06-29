@@ -77,7 +77,7 @@ user2:/home/user2
 $
 ```
 
-The fields in `/etc/passwd` are `:`-delimited with the first field containing the username and the second sixth field containing the user's home directory.
+The fields in `/etc/passwd` are `:`-delimited with the first field containing the username and the sixth field containing the user's home directory.
 
 ---
 ## Practice
