@@ -2,6 +2,9 @@ name: Introduction
 
 description: Why you should learn programming.
 
+aspects:
+  - introduction
+
 insights:
   - intro-to-programming
   - why-learn-to-code
