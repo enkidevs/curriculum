@@ -1,22 +1,14 @@
 ---
 author: Stefan-Stojanovic
-
-levels:
-  - beginner
-
-aspects:
-  - introduction
-  - workout
-
 type: normal
-
 category: how to
-
 ---
 
 # Getting Started
 
+
 ---
+
 ## Content
 
 To create a new project from scratch, go to your [dashboard](https://webflow.com/dashboard), click on the `New Project` button and select `Blank Site`.
@@ -31,7 +23,9 @@ We can test at any time how our project looks by publishing a prototype version 
 
 ![publish-image](https://img.enkipro.com/707281c0f9119f450c5d9a7870558f9d.png)
 
+
 ---
+
 ## Practice
 
 How do you create a new project?

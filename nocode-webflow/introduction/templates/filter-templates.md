@@ -1,22 +1,14 @@
 ---
 author: Stefan-Stojanovic
-
-levels:
-  - beginner
-
-aspects:
-  - introduction
-  - workout
-
 type: normal
-
 category: how to
-
 ---
 
 # Filter Templates
 
+
 ---
+
 ## Content
 
 The [templates page](https://webflow.com/templates) gives users the ability to filter through the templates.
@@ -37,7 +29,9 @@ These categories and tags provide a good filtering option when you want to find 
 
 For instance, you can choose the category `Free` and select the `One Page` tag to only show templates that have one page and that are free.
 
+
 ---
+
 ## Practice
 
 Finding a new template on Webflow is ???

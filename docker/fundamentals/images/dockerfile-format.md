@@ -1,16 +1,18 @@
 ---
 author: nem035
-aspects:
-  - introduction
-  - workout
 type: normal
 category: must-know
 links:
-- '[Best practices for writing Dockerfiles](https://docs.docker.com/develop/develop-images/dockerfile_best-practices/){article}'
-- '[Dockerfile reference](https://docs.docker.com/engine/reference/builder/){documentation}'
+  - >-
+    [Best practices for writing
+    Dockerfiles](https://docs.docker.com/develop/develop-images/dockerfile_best-practices/){article}
+  - >-
+    [Dockerfile
+    reference](https://docs.docker.com/engine/reference/builder/){documentation}
 ---
 
 # Dockerfile Format
+
 
 ---
 
@@ -71,7 +73,7 @@ docker build enki
 
 Here's an example output of building an image from the Dockerfile above:
 
-```
+```plain-text
 Sending build context to Docker daemon  23.29MB
 Step 1/5 : FROM node
 latest: Pulling from library/node

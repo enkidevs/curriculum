@@ -1,35 +1,22 @@
 ---
 author: catalin
-
-levels:
-
-  - beginner
-
-  - basic
-
-  - medium
-
 type: fillTheGap
-
 category: must-know
-
-aspects:
-
-  - deep
-
-  - workout
-
 parent: network-models
 ---
 
 # Networking Fundamentals Quiz
 
+
 ---
+
 ## Content
 
 Brush up on the fundamentals of computer networking with this quick quiz.
 
+
 ---
+
 ## Game Content
 
 ```plain-text
@@ -65,10 +52,11 @@ breaking down the data into
 
 %exp
 Data transmission consists of:
-- breaking data into smaller packets
-- send packets abiding protocols in use
-- reassemble data at the destination
-%
+
+* breaking data into smaller packets
+* send packets abiding protocols in use
+* reassemble data at the destination
+  %
 
 ---
 
@@ -84,8 +72,9 @@ A packet is made out of header and
 
 %exp
 A `packet` is made out of:
-- **header**: special information needed by protocols in use
-- **payload**: actual data of a packet
+
+* **header**: special information needed by protocols in use
+* **payload**: actual data of a packet
 
 %
 
@@ -206,8 +195,9 @@ model is called:
 
 %exp
 The **TCP/IP** stack consists of:
-- Application Layer
-- Transport Layer
-- Internet Layer
-- Network Interface Layer
-%
+
+* Application Layer
+* Transport Layer
+* Internet Layer
+* Network Interface Layer
+  %

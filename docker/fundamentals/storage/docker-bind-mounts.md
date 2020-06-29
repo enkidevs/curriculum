@@ -1,15 +1,16 @@
 ---
 author: nem035
-aspects:
-  - introduction
-  - workout
-  - deep
 type: normal
 category: feature
 links:
-- '[Docker: use bind mounts](https://docs.docker.com/storage/bind-mounts/){documentation}'
+  - >-
+    [Docker: use bind
+    mounts](https://docs.docker.com/storage/bind-mounts/){documentation}
 ---
+
 # Bind Mounts
+
+
 ---
 
 ## Content
@@ -27,7 +28,9 @@ docker container run \
   -v ~/enki/local_path:/path/container mysql
 ```
 
+
 ---
+
 ## Practice
 
 A bind mount is ???.
@@ -37,7 +40,9 @@ A bind mount is ???.
 * an IP address and a port bound from the host machine to the container
 * an ftp connection mounted onto a file path within a container
 
+
 ---
+
 ## Revision
 
 Create a bind-mount when launching a container from the local path `~/local/data` to the path `/data` within the container:

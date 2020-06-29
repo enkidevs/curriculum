@@ -1,28 +1,19 @@
 ---
 author: Mathieu
-
-levels:
-
-  - beginner
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-
 inAlgoPool: false
-
 links:
-
-  - '[MDN Docs on Inline Elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Inline_elemente){documentation}'
-
+  - >-
+    [MDN Docs on Inline
+    Elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Inline_elemente){documentation}
 ---
 
 # Inline Elements Characteristics
 
+
 ---
+
 ## Content
 
 An inline element has the following characteristics:
@@ -43,7 +34,9 @@ span {
 
 ```
 
+
 ---
+
 ## Practice
 
 Which of the following elements is * not * an inline element?
@@ -55,7 +48,9 @@ Which of the following elements is * not * an inline element?
 * `<strong>`
 * `<input>`
 
+
 ---
+
 ## Revision
 
 Which of the following elements is not inline?

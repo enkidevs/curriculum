@@ -1,26 +1,20 @@
 ---
 author: Stefan-Stojanovic
-
-levels:
-  - beginner
-  - basic
-
 type: normal
-
 category: must-know
-
 tags:
   - introduction
-
-aspects:
-- introduction
-
 links:
-  - '[Absolute vs Relative Paths](https://www.coffeecup.com/help/articles/absolute-vs-relative-pathslinks/){article}'
+  - >-
+    [Absolute vs Relative
+    Paths](https://www.coffeecup.com/help/articles/absolute-vs-relative-pathslinks/){article}
+---
+
+# Relative Paths
+
 
 ---
-# Relative Paths
----
+
 ## Content
 
 When wanting to link to other web pages or images from a web page located in the same file directory, it is best to use relative link paths.
@@ -28,32 +22,39 @@ When wanting to link to other web pages or images from a web page located in the
 A relative path is used to point to a file or the location of the file you want to be linked in relation to the webpage being viewed.
 
 Example of linking a logo located within the same directory as the web page:
+
 ```html
 <img src="logo.svg">
 ```
 
 Example of linking a logo located within the `images` folder:
+
 ```html
 <img src="images/logo.svg">
 ```
+
 **Note that the `images` folder is located within the current directory, which is the same directory as the website.**
 
 More example of how you can link with relative paths:
- - `<img src="images/branding/logo.svg">`: Link within the images folder and a subfolder.
- - `<img src="../logo.svg">`: Link within the folder above the current folder.  
- - `<img src="../../logo.svg">`: Link within two folders above the current folder.  
- - `<img src="../images/logo.svg">`: Link within the folder above the current folder and then into the images folder.
+
+* `<img src="images/branding/logo.svg">`: Link within the images folder and a subfolder.
+* `<img src="../logo.svg">`: Link within the folder above the current folder.  
+* `<img src="../../logo.svg">`: Link within two folders above the current folder.  
+* `<img src="../images/logo.svg">`: Link within the folder above the current folder and then into the images folder.
 
 Furthermore, using relative link paths to link files located within your server domain is much better and faster than using absolute(full URL) link paths. The reason for this is, when using relative paths, the browser knows to only look within the specified folder/file path. Whereas when using absolute paths, the browser would go to the linked file like it is located outside of the page, meaning it would load the webpage again just this time with the desired file which is inconvenient and time-consuming.
 
 Also, using relative links has a few more benefits:
-  - easier to move an entire site to a different domain
-  - easy for local management
-  - link paths do not need to be updated when the domain is changed.
+
+* easier to move an entire site to a different domain
+* easy for local management
+* link paths do not need to be updated when the domain is changed.
 
 Relative links can never be used to link to pages or images located on other web servers.
 
+
 ---
+
 ## Practice
 
 Match the image code with the path descriptions:
@@ -78,7 +79,9 @@ Select the reason relative links are **not** considered the best for images and 
 * the web pages are protected from others linking to them.
 * easy for local management
 
+
 ---
+
 ## Revision
 
 When is it better to use relative paths over absolute paths?
@@ -96,10 +99,13 @@ Working with your own website on your own domain, are absolute links possible to
 * `Yes, this is the best way.`
 * `No, it is not possible. `
 
+
 ---
+
 ## Quiz
 
 ### How much do you know about relative paths?
+
 
 What is required within relative paths for images or page links?
 
@@ -110,7 +116,9 @@ What is required within relative paths for images or page links?
 * The web domain is needed within the path location.
 * Nothing is required within relative paths.
 
+
 ---
+
 ## Game
 
 Determining if the path is a relative or absolute path.

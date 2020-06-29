@@ -1,5 +1,5 @@
 ---
-author: Nick Daminov
+author: nickdaminov
 
 levels:
 
@@ -9,7 +9,7 @@ type: normal
 
 category: must-know
 
-aspects: 
+aspects:
 
   - introduction
 
@@ -39,7 +39,7 @@ public static void
 String[] args = {"Enki", "eNki", "enKi"};
 //both method calls work
 varArgsFunc(args);
-varArgsFunc("Enki", "eNki", "enKi");  
+varArgsFunc("Enki", "eNki", "enKi");
 ```
 
 Of course the arguments still have to be passed as "array", and the collection should be the last in the order of arguments, otherwise a compile time error will be raised, this is because the compiler assumes unlimited number of elements in the collection:

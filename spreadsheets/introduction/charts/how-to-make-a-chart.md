@@ -1,19 +1,14 @@
 ---
 author: Stefan-Stojanovic
-
-aspects:
-  - deep
-  - workout
-
 type: normal
-
 category: how to
-
 ---
 
 # How to make a chart
 
+
 ---
+
 ## Content
 
 To create a chart, first, you need to create a table.

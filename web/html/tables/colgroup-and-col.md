@@ -1,28 +1,18 @@
 ---
 author: Stefan-Stojanovic
-
-levels:
-  - beginner
-  - basic
-
 type: normal
-
 category: must-know
-
 tags:
   - workout
   - deep
-
-aspects:
-  - introduction
-  - workout
-  - deep
-
-links:
-
+links: null
 ---
+
 # The `<colgroup>` & `<col>` Elements
+
+
 ---
+
 ## Content
 
 Tables within HTML use the `<colgroup>` & `<col>` elements to help define groups of columns. The `<colgroup>` element is useful for applying styles to entire columns, rather than repeating styles for each cell in every row.
@@ -32,11 +22,12 @@ However this is rarely useful because if you set the background of a row element
 The `<col>` element has one element-specific attribute: `span`, and is used to specify how many columns the `<col>` element extends. If the attribute is not provided, the default value is `1`.
 
 You can edit the `<col>` element by using the appropriate CSS properties, for instance:
-  - `width`
-  - `text-align`
 
+* `width`
+* `text-align`
 
 Example with both elements:
+
 ```html
 <table>
  <colgroup>
@@ -62,7 +53,9 @@ Example with both elements:
 
 In the example above, the `<colgroup>` element is used to create a group of 3 `<col>` elements and the `<tr>` element is used to create a single row with 6 `<td>` elements. Each col element spans differently and has a different style; first `<col>` spans 2 columns and is `lightblue`, 2nd `<col>` spans 1 column and is `hotpink` and the third and last `<col>` spans 3 columns and is `mediumpurple`.
 
+
 ---
+
 ## Practice
 
 Write the code to create the following table:
@@ -105,7 +98,9 @@ When using the `<colgroup>` element, which statements is not true?
 * must be placed after any `<caption>` elements
 * must be placed before any `<thead>`, `<tbody>`, `<tfoot>`, & `<tr>` elements.
 
+
 ---
+
 ## Revision
 
 Which HTML element is useful for applying styles to entire columns, rather than in repeating styles for each cell in every row?
@@ -118,10 +113,13 @@ Which HTML element is useful for applying styles to entire columns, rather than 
 * `<colstyle>`
 * `<colspan>`
 
+
 ---
+
 ## Quiz
 
 ### How much do you know about tables in HTML?
+
 
 What self-closing element can be used within `<colgroup>` to define unique styles within columns of an HTML table?
 

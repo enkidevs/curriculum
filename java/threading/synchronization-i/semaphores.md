@@ -1,5 +1,5 @@
 ---
-author: Nick Daminov
+author: nickdaminov
 
 levels:
 
@@ -14,7 +14,7 @@ aspects:
   - workout
 
   - deep
-  
+
 ---
 
 # Semaphores
@@ -34,7 +34,7 @@ public class Semaphore {
 
   //bounded Semaphore, max number of
   //entered threads is set
-  //in the constructor  
+  //in the constructor
   public Semaphore(int limit){
     this.limit = limit;
   }

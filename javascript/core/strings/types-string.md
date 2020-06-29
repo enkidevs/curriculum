@@ -1,19 +1,14 @@
 ---
 author: alexjmackey
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-
-
 ---
 
 # Types - String
 
+
 ---
+
 ## Content
 
 The primary way to declare a string value in JavaScript is to use quotes. Using single or double works the same:
@@ -49,7 +44,9 @@ There are also special characters that can be used by preceding the character wi
 \t tab
 ```
 
+
 ---
+
 ## Practice
 
 What special character is used to add a `new line` to strings denoted with quotes?
@@ -59,7 +56,6 @@ let myString = 'this will ???
        be displayed on two lines';
 ```
 
-
 * `\n`
 * `+`
 * `"`
@@ -67,7 +63,9 @@ let myString = 'this will ???
 * `\r`
 * `\t`
 
+
 ---
+
 ## Revision
 
 Which one of the following is correct?
@@ -79,9 +77,7 @@ let company2 = 'Enki';
 
 ???
 
-
 * both
 * first
 * second
 * none
- 

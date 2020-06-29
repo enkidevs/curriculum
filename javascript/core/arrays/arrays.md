@@ -1,19 +1,14 @@
 ---
 author: alexjmackey
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-  - workout
-
 ---
 
 # Arrays
 
+
 ---
+
 ## Content
 
 Arrays are an essential concept in JavaScript and are used frequently.
@@ -114,10 +109,13 @@ for (let item of myArray) {
 // 3
 ```
 
+
 ---
+
 ## Practice
 
 How would you get the last value in the `myArray` array?
+
 ```js
 let myArray = [1, 2, 3];
 let arrayLength = myArray.???;
@@ -137,7 +135,9 @@ console.log(lastVal);
 * `.getLast`
 * `.tail`
 
+
 ---
+
 ## Revision
 
 Fill in the gaps such that you remove the last element of `enkiArray` and save it in the `elem` variable in a single line of code:
@@ -147,7 +147,6 @@ let enkiArray = [1, 2, 3];
 let elem = ???.???;
 ```
 
-
 * `enkiArray`
 * `pop()`
 * `[2]`
@@ -156,9 +155,13 @@ let elem = ???.???;
 * `last`
 * `push()`
 
+
 ---
+
 ## Quiz
+
 ### what is the length of the array below?
+
 
 ```js
 let arr = [,,,]

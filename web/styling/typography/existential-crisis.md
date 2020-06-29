@@ -1,36 +1,27 @@
 ---
 author: jordanfish
-
-levels:
-
-  - basic
-
-  - advanced
-
-  - medium
-
 type: tetris
-
 category: must-know
-
-aspects:
-  - workout
-
 ---
 
 # Existential Crisis
 
+
 ---
+
 ## Content
 
 Does the CSS actually exist?
 
 Categorize the falling properties based on whether or not they are existing, legal CSS.
 
+
 ---
+
 ## Game Content
 
 it doesn't exist:it's real
+
 ```false
 font-face
 %exp
@@ -89,7 +80,6 @@ text-transformation
 This is not a CSS property.
 %
 ```
-
 
 ```true
 background-attachment

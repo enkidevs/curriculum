@@ -1,18 +1,14 @@
 ---
 author: Stefan-Stojanovic
-
-aspects:
-  - introduction
-
 type: normal
-
 category: tip
-
 ---
 
 # Popular Templates Continued
 
+
 ---
+
 ## Content
 
 Some other popular templates include the `Gantt Chart` and the `Weekly Time Sheet`.

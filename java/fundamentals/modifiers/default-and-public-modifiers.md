@@ -1,30 +1,21 @@
 ---
 author: mihaiberq
-
-levels:
-
-  - beginner
-
 type: normal
-
 category: must-know
-
-aspects:
-
-  - introduction
-
 inAlgoPool: false
-
 ---
 
 # Default and `public` Modifiers
 
+
 ---
+
 ## Content
 
 The **default** case is the one in which no keyword is present. A variable with no modifier is implicitly accessible by *all the classes* in the *package*.
 
 This is what we have used until now:
+
 ```java
 String model;
 
@@ -36,6 +27,7 @@ The `public` modifier makes a variable, method or class visible to any other cla
 Because of the class inheritance, all `public` methods and variables are inherited by subclasses.
 
 Every declaration of a class so far had the `public` keyword in it:
+
 ```java
 public class Car{
   public Car(...){}
@@ -47,7 +39,9 @@ public class FamilyCar{
  ...
 }
 ```
+
 A testing class could access the public fields and methods like this:
+
 ```java
 public class Car{
   public String model;
@@ -64,12 +58,16 @@ public class TestClass{
 ```
 
 One of the methods that should always be public is the `main()` method:
+
 ```java
 public static void main(String[] args){}
 ```
+
 Otherwise it couldn't be called by the Java interpreter.
 
+
 ---
+
 ## Practice
 
 What do you have to do to use a public class from another package?
@@ -81,7 +79,9 @@ What do you have to do to use a public class from another package?
 * Extend the class.
 * Write a getter.
 
+
 ---
+
 ## Revision
 
 Which is the *default* keyword modifier?
@@ -93,5 +93,3 @@ Which is the *default* keyword modifier?
 * public
 * protected
 * modifier
-
- 

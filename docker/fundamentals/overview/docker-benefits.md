@@ -1,17 +1,18 @@
 ---
 author: nem035
-aspects:
-  - introduction
-  - workout
 type: normal
 category: tip
 links:
-  - '[How Docker containers help save money](https://www.channelfutures.com/open-source/how-docker-containers-help-save-money){article}'
+  - >-
+    [How Docker containers help save
+    money](https://www.channelfutures.com/open-source/how-docker-containers-help-save-money){article}
 ---
 
 # Docker Benefits
 
+
 ---
+
 ## Content
 
 There are at least 3 core benefits of using Docker to build and deploy your software.
