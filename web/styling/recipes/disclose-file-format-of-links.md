@@ -41,4 +41,3 @@ A CSS selector that targets links which resolve to a *pdf* file is:
 * `a.pdf`
 * `[href="pdf"]`
 * `a[after=".pdf"]`
- 

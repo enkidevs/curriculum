@@ -38,4 +38,3 @@ In what way does `will-animate` make your pages run faster? ???
 * It makes animations run faster.
 * It makes code faster.
 * It helps people read your page faster.
- 

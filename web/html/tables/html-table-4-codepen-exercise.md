@@ -33,4 +33,3 @@ In this exercise, you have to create a table with 2 columns and 5 rows.
 Next, you need to set both the header and footer to span 2 rows.
 
 More info and an example on codepen.
- 

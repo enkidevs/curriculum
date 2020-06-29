@@ -1,22 +1,14 @@
 ---
 author: Stefan-Stojanovic
-
-levels:
-  - beginner
-
-aspects:
-  - introduction
-  - workout
-
 type: normal
-
 category: must-know
-
 ---
 
 # Read documents
 
+
 ---
+
 ## Content
 
 To retrieve a document from a specific collection in MongoDB, you need to use the `db.mycollection.find()` method.
@@ -100,8 +92,9 @@ Result:
 You can sort your result with the `sort({})` method in either ascending or descending order by any field.
 
 The syntax is `sort({ field_name: 1 or -1 })` where:
-- `1` is ascending.
-- `-1` is descending.
+
+* `1` is ascending.
+* `-1` is descending.
 
 If we wanted to get the top 2 pokémon sorted in descending order by `_id`, we can run.
 
@@ -129,7 +122,9 @@ Result:
 
 > 💡 The order by which you call the `sort()` and `limit()` methods doesn't matter. Mongo always applies the `sort()` before the `limit()` regardless of which you wrote first.
 
+
 ---
+
 ## Practice
 
 List all documents in the `pokemon` collection.
@@ -146,7 +141,9 @@ List all documents in the `pokemon` collection.
 * `findAll()`
 * `find([])`
 
+
 ---
+
 ## Revision
 
 Which method is used to list all documents located within a single collection?

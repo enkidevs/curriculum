@@ -1,27 +1,18 @@
 ---
 author: Stefan-Stojanovic
-
-levels:
-  - beginner
-  - basic
-
 type: normal
-
 category: must-know
-
 stub: true
-
 tags:
   - introduction
-
-aspects:
-  - introduction
-
-links:
-
+links: null
 ---
+
 # Intro `<br>`
+
+
 ---
+
 ## Content
 
 The `<br>`, or the **Line Break** element, is used to create a line break in a webpage or document. Line breaks can be very useful for writing poems or an address.
@@ -44,6 +35,7 @@ When larger visual gaps are needed around blocks of text, the `margin` CSS prope
 Historical, in XHTML the line breaks are written as `<br />` which is important to know if you want to convert your HTML to XHTML or when reading various tutorials.
 
 Address Example:
+
 ```html
 <p>
 Apple<br>
@@ -52,13 +44,16 @@ Cupertino, CA<br>
 95014
 </p>
 ```
+
 Address Result:
 
 ![element-br-2](https://img.enkipro.com/36ad609fbdfdb3d532b473a09b7d0cca.png)
 
 [View CodePen](https://codepen.io/enkidevs/pen/EpZVRO)
 
+
 ---
+
 ## Practice
 
 Select the statement that is false about the `<br>` element.
@@ -74,22 +69,27 @@ Select the statement that is false about the `<br>` element.
 
 
 ---
+
 ## Revision
 
 The goal is to display text like this:
+
 ```htmlhtml
 Apple
 1 Infinite Loop
 Cupertino, CA
 95014
 ```
+
 So what must happen to this address to display as separate lines of text within a single paragraph?
+
 ```html
 <p>Apple
 1 Infinite Loop
 Cupertino, CA
 95014</p>
 ```
+
 ???
 
 * Add `<br>`'s to create each new line.
@@ -98,10 +98,13 @@ Cupertino, CA
 * New lines are not possible within a single paragraph.
 * Nothing needs to be done to the code.
 
+
 ---
+
 ## Quiz
 
 ### How much do you know about styling text?
+
 
 In an address, what are the preferred method(s) of changing the size of the gaps of space between the lines of text here?
 

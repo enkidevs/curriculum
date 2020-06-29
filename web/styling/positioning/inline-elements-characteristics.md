@@ -62,4 +62,3 @@ Which of the following elements is not inline?
 * `<span>`
 * `<input>`
 * `<img>`
- 

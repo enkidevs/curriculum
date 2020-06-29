@@ -49,4 +49,3 @@ The two main parts of the Docker architecture are the ???
 * daemon and container
 * Object and namespaces
 * Container and Hub
- 

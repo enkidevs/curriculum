@@ -25,4 +25,3 @@ This allows us to build an immutable infrastructure where we only start, stop an
 An update is done by re-deploying a new container, not by changing an existing one.
 
 We create containers using *images* (more on this to come).
- 

@@ -1,18 +1,14 @@
 ---
 author: alexjmackey
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-
-
 ---
+
 # JavaScript Basics - Part 2
 
+
 ---
+
 ## Content
 
 Here are a couple more rules.
@@ -63,13 +59,16 @@ let company="enki"; // define company
 ```
 
 Or if you have more text you can use a block comment:
+
 ```javascript
 /*
 I am a block comment
 */
 ```
 
+
 ---
+
 ## Practice
 
 What syntax is used in *JavaScript* for **single line** comments?
@@ -80,7 +79,9 @@ What syntax is used in *JavaScript* for **single line** comments?
 * `/* */`
 * `#`
 
+
 ---
+
 ## Revision
 
 Is the following line of code **valid**?
@@ -93,9 +94,13 @@ let 777jackpot = "jackpot";
 * not valid
 * valid
 
+
 ---
+
 ## Quiz
+
 ### which of the following is a valid comment?
+
 
 ```javascript
 (1. // first comment

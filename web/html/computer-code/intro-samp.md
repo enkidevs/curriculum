@@ -1,30 +1,24 @@
 ---
 author: Stefan-Stojanovic
-
-levels:
-  - beginner
-  - basic
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-  - workout
-  - deep
-
 links:
-  - '[HTML <samp> Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/samp){documentation}'
+  - >-
+    [HTML <samp>
+    Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/samp){documentation}
+---
+
+# `<samp>` - Sample Output Element
+
 
 ---
-# `<samp>` - Sample Output Element
----
+
 ## Content
 
 The HTML `<samp>`, or the **Sample Output** element, is used to represent a sample output from a computer program.
 
 Example:
+
 ```html
 <p>This is the crazy error I got:</p>
 <p><samp>Keyboard not found<br>
@@ -43,7 +37,9 @@ By adding CSS styles, the `<samp>` element can be used to present the sample out
 
 [View CodePen](https://codepen.io/enkidevs/pen/BVqOJr)
 
+
 ---
+
 ## Practice
 
 When using the `<samp>` element, which statement is **not** true?
@@ -58,6 +54,7 @@ When using the `<samp>` element, which statement is **not** true?
 
 
 ---
+
 ## Revision
 
 What HTML element wraps around sample output text from a computer program to identify it differently?
@@ -72,10 +69,13 @@ What HTML element wraps around sample output text from a computer program to ide
 * out
 * output
 
+
 ---
+
 ## Quiz
 
 ### Do you know which HTML element is best to substitute for "TAG" within this code:
+
 
 `<p>`My first selection within Enki was wrong as it displayed the alert `<TAG>`Oh no... This is a wrong answer`</TAG>`.`</p>`
 

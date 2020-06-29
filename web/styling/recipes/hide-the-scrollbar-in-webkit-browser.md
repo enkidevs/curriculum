@@ -73,4 +73,3 @@ What does the following piece of code do?
 * Hides all the scrollbars of a particular element.
 * Displays all scrollbars on the page.
 * Displays all the scrollbars of a particular element.
- 

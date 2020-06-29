@@ -1,30 +1,24 @@
 ---
 author: Stefan-Stojanovic
-
-levels:
-  - beginner
-  - basic
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-  - workout
-  - deep
-
 links:
-  - '[HTML <var> Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/var){documentation}'
+  - >-
+    [HTML <var>
+    Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/var){documentation}
+---
+
+# Intro `<var>`
+
 
 ---
-# Intro `<var>`
----
+
 ## Content
 
 The HTML `<var>`, or the **Variable** element, is used to represent a name of a variable in either a programming context or a mathematical expression.
 
 Example:
+
 ```html
 <p><var>X</var> = 10<br>
  <var>Y</var> = 2
@@ -47,6 +41,7 @@ By adding CSS styles, the `<var>` element can be used to present variables in mu
 
 
 ---
+
 ## Practice
 
 Which statement is not true about using the `<var>` element?
@@ -61,6 +56,7 @@ Which statement is not true about using the `<var>` element?
 
 
 ---
+
 ## Revision
 
 What HTML element is best to display mathematical expressions or a programming context differently than the surrounding text?
@@ -75,10 +71,13 @@ What HTML element is best to display mathematical expressions or a programming c
 * math
 * output
 
+
 ---
+
 ## Quiz
 
 ### How much do you know about HTML elements?
+
 
 Which HTML element is best to substitute for "tag" within this code:
 

@@ -1,31 +1,21 @@
 ---
 author: stefkn
-
-levels:
-  - beginner
-  - basic
-  - medium
-
-aspects:
-  - introduction
-  - obscura
-
 type: normal
-
 category: must-know
-
-
 links:
-
-  - '[Python Reference: Data Model](https://docs.python.org/3/reference/datamodel.html){website}'
-  - '[Blog post: Objects Should be Immutable](http://www.yegor256.com/2014/06/09/objects-should-be-immutable.html){website}'
-
-
+  - >-
+    [Python Reference: Data
+    Model](https://docs.python.org/3/reference/datamodel.html){website}
+  - >-
+    [Blog post: Objects Should be
+    Immutable](http://www.yegor256.com/2014/06/09/objects-should-be-immutable.html){website}
 ---
 
 # Prevention of Side Effects
 
+
 ---
+
 ## Content
 
 Side effects are unintended consequences of calling some function which the programmer is unaware of and can therefore cause undefined behaviour. In all but the most pure functional programming side-effects are unavoidable; the key is to ensure they are controlled and minimised.
@@ -34,7 +24,9 @@ Immutable objects help with this as they automatically rule out a whole class of
 
 In the next insight we will consider avoiding identity mutation and atomicity of failure.
 
+
 ---
+
 ## Practice
 
 What is the code snippet below an example of?
@@ -54,7 +46,6 @@ class Connection(object):
 ```
 
 ???
-
 
 * Side effects
 * Temporal coupling

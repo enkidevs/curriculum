@@ -1,37 +1,21 @@
 ---
 author: fahimrahman
-
-levels:
-
-  - basic
-
 type: normal
-
 category: tip
-
-aspects:
-
-  - introduction
-
-  - workout
-
 tags:
-
   - StringBuffer
-
   - StringBuilder
-
   - String-concatenation
-
 links:
-
-  - '[docs.oracle.com](http://docs.oracle.com/javase/7/docs/api/java/lang/StringBuilder.html){website}'
-
+  - >-
+    [docs.oracle.com](http://docs.oracle.com/javase/7/docs/api/java/lang/StringBuilder.html){website}
 ---
 
 # `StringBuffer` vs `StringBuilder`
 
+
 ---
+
 ## Content
 
 While both the clases can be used to concatenate strings, the key differences between `StringBuffer` and `StringBuilder` are:

@@ -1,29 +1,24 @@
 ---
 author: Stefan-Stojanovic
-
-levels:
-  - beginner
-  - basic
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-  - workout
-
 links:
-  - '[HTML Radio Button](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/radio){documentation}'
+  - >-
+    [HTML Radio
+    Button](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/radio){documentation}
+---
+
+# Creating Radio Buttons
+
 
 ---
-# Creating Radio Buttons
----
+
 ## Content
 
 When creating radio buttons, each button within the same radio group is given the same `name`.
 
 Example:
+
 ```html
 <form>
  <p>
@@ -71,7 +66,9 @@ Once a user presses a button, and submits the result, the form's data is sent in
 
 On the other hand, if no value is specified, and the user selects the same button, the result will be sent in the form of `gender=on`, and since this isn't really helpful, you should always include the `value` attribute. Similarly, if no button is selected, the form won't submit at all, since it has no value to report.
 
+
 ---
+
 ## Practice
 
 Write the form code that creates a radio button.
@@ -88,7 +85,9 @@ Write the form code that creates a radio button.
 * name
 * value
 
+
 ---
+
 ## Revision
 
 Which line creates an HTML form’s radio buttons?
@@ -100,10 +99,17 @@ Which line creates an HTML form’s radio buttons?
 * `<input radio="topic" value="item">`
 * `<input type="radio" value="topic" name="item">`
 
+
 ---
+
 ## Quiz
 
-### Test your knowledge on input `type="radio"` buttons?
+### Test your knowledge on input 
+
+`type="radio"`
+
+ buttons?
+
 
 Which statement is true?
 

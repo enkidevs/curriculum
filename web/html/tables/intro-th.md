@@ -185,4 +185,3 @@ Which CSS property(s) style a `<th>` element of a table by default?
 * `text-align: left; && font-weight: normal;`
 * `font-style: oblique; && font-style: italic;`
 * `font-style: italic; && text-align: center;`
- 

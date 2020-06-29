@@ -78,4 +78,3 @@ What express module can be used to easily deliver HTML pages?
 * easy-html
 * static-express
 * node-html
- 

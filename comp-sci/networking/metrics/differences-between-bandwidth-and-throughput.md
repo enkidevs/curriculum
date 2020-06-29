@@ -64,4 +64,3 @@ Which of the following metric refers to the **actual** speed data can move over 
 
 [1: ISP]
 Internet Service Provider.
- 

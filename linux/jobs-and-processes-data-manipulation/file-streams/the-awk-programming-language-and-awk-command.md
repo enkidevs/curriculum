@@ -1,33 +1,17 @@
 ---
 author: jfarmer
-
-levels:
-
-  - basic
-
-  - beginner
-
-aspects:
-  - introduction
-  - workout
-
 type: normal
-
 category: must-know
-
 inAlgoPool: false
-
-
 links:
-
   - '[AWK one-liners](http://www.pement.org/awk/awk1line.txt){website}'
-
-
 ---
 
 # The AWK Programming Language And `awk` Command
 
+
 ---
+
 ## Content
 
 AWK is a programming language for processing text files.  It views text files as a big table of data where the rows are records and the columns are fields.  By default AWK will treat each line as a record and each word in a line as a field, although one can change that behavior.
@@ -49,17 +33,21 @@ user2 /home/user2
 
 The `-F` switch tells `awk` to use `:` as the field separator instead of the whitespace default.  The string `'{print $1,$6}'` is the actual AWK code.
 
+
 ---
+
 ## Practice
 
 If you have a file with lines that look like this:
-```
+
+```plain-text
 // clothing   expected    recieved   price
 T-shirts      200         150       10.00
 Jeans         300         299       29.99
 ```
 
 Write an `awk` script that would calculate, for each line, the money left from the products not being received. Assume that you are using the default whitespace separator:
+
 ```bash
 awk '{??? ???}' 
             ~/shipment_track
@@ -73,7 +61,9 @@ awk '{??? ???}'
 * `(&1–&2)*&3`
 * `stdout`
 
+
 ---
+
 ## Revision
 
 Which of the following commands cannot be simulated using an `awk` script? 
@@ -84,7 +74,3 @@ Which of the following commands cannot be simulated using an `awk` script?
 * sed
 * head
 * cut
-
- 
- 
- 

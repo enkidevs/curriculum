@@ -1,22 +1,18 @@
 ---
 author: alexjmackey
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-  - new
-  - workout
-
 links:
-  - '[MDN Documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy){documentation}'
-
+  - >-
+    [MDN
+    Documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy){documentation}
 ---
+
 # Introducing Proxy
 
+
 ---
+
 ## Content
 
 `Proxy` allows you to intercept (referred to as trap) calls to actions on objects such as property access and enumeration.
@@ -72,7 +68,9 @@ let setWrapper = {
 };
 ```
 
+
 ---
+
 ## Practice
 
 Fill in the gaps of the following snippet such that the logs stand true:
@@ -104,7 +102,9 @@ console.log(???.enki)
 * Proxy
 * get()
 
+
 ---
+
 ## Revision
 
 Fill in the missing outputs of the `console.log` calls:
@@ -131,4 +131,3 @@ console.log(proxy.number);
 * prop
 * Proxy
 * Enki
- 

@@ -1,22 +1,16 @@
 ---
 author: emmab
-
 tags:
   - introduction
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-  - workout
-
 ---
 
 # Password Validation
 
+
 ---
+
 ## Content
 
 You have probably seen these types of messages on all your favorite sites: *“Your password must have at least 8 characters, including an upper case letter, a lowercase letter and a number”*. 
@@ -27,7 +21,7 @@ Let's build a password validator to match each of these rules using one line of 
 
 To crack the **length** part, we need to use a quantifier that allows a number of characters greater or equal to 8. How about:
 
-```
+```plain-text
 /.{8,}/
 ```
 
@@ -42,7 +36,7 @@ None of these meet the criteria we need!
 
 Even if were more explicit in our regex pattern, using wildcards and ranges, we have the exact same problem as above...
 
-```
+```plain-text
 /([A-Z]|[a-z]|\d|\W){8,}/
 ```
 
@@ -52,6 +46,7 @@ Let's get cracking!
 
 
 ---
+
 ## Practice
 
 Which regex pattern would ensure that a password is between 8 and 16 characters in length?
@@ -63,7 +58,9 @@ Which regex pattern would ensure that a password is between 8 and 16 characters 
 * `/.{8-16}/`
 * `/.[8-16]/`
 
+
 ---
+
 ## Revision
 
 Which regex pattern would ensure that a password is between 8 and 14 characters in length?

@@ -1,30 +1,15 @@
 ---
 author: jfarmer
-
-levels:
-
-  - basic
-
-  - beginner
-
-aspects:
-  - introduction
-  - workout
-
 type: normal
-
 category: must-know
-
 inAlgoPool: false
-
-
-
-
 ---
 
 # The Loopback Network Interface `lo`
 
+
 ---
+
 ## Content
 
 If you run the `ifconfig` command you'll see an interface designated `lo` that doesn't appear to correspond to any physical device:
@@ -51,7 +36,9 @@ Think of the loopback interface and the `127.0.0.1` IP as a reflexive pronoun: i
 
 The loopback interface is used for debugging and running machine-internal network services.  For example, we might have a development version of a web application running and don't want it available to the internet at large.  We could configure it to only send/receive traffic over the loopback interface and then access it at `http://127.0.0.1`.
 
+
 ---
+
 ## Practice
 
 You can access the loopback interface by going to 
@@ -63,7 +50,9 @@ You can access the loopback interface by going to
 * `http://localarea`
 * `http://l.p`
 
+
 ---
+
 ## Revision
 
 Loopback interface always refers to the 
@@ -74,7 +63,3 @@ Loopback interface always refers to the
 * ISP address
 * router’s address
 * destination’s address
-
- 
- 
- 

@@ -1,35 +1,19 @@
 ---
 author: adamMontgomerie
-
-levels:
-
-  - basic
-
-  - beginner
-
 type: normal
-
-category: best practice 
-
-aspects:
-
-  - introduction
-
-  - obscura
-
+category: best practice
 tags:
-
   - naming-conventions
-
 links:
-
-  - '[javarevisited.blogspot.co.uk](http://javarevisited.blogspot.co.uk/2014/10/10-java-best-practices-to-name-variables-methods-classes-packages.html){website}'
-
+  - >-
+    [javarevisited.blogspot.co.uk](http://javarevisited.blogspot.co.uk/2014/10/10-java-best-practices-to-name-variables-methods-classes-packages.html){website}
 ---
 
 # Follow existing project naming conventions
 
+
 ---
+
 ## Content
 
 When working on a project with other programmers, or updating an old project, either one of your own or someone else's, it is best to follow the existing naming conventions in that project. 

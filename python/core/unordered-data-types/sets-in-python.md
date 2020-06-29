@@ -1,37 +1,31 @@
 ---
 author: emmab
-
 tags:
   - introduction
   - workout
-
 type: normal
-
-aspects:
-  - introduction
-  - workout
-
 category: must-know
-
 links:
-  - '[More About Sets](http://www.python-course.eu/python3_sets_frozensets.php){website}'
-
-
+  - >-
+    [More About
+    Sets](http://www.python-course.eu/python3_sets_frozensets.php){website}
 ---
 
 # Sets in Python
 
+
 ---
+
 ## Content
 
 So we know about sequential data types like `strings`, `tuples` and `lists`. There are other data types where the order *doesn't matter*.
 
 **Sets** are one of these. They have four main characteristics:
 
-- they are an *unordered collection of items*
-- *every item is unique* (no duplicates)
-- *every item is immutable* (cannot be updated)
-- they can *store items of different types*
+* they are an *unordered collection of items*
+* *every item is unique* (no duplicates)
+* *every item is immutable* (cannot be updated)
+* they can *store items of different types*
 
 > Sets are defined by values separated by commas, inside curly brackets `{}`.
 
@@ -49,7 +43,9 @@ my_set = {1, "Hello", (1, 2, 3)}
 my_set = set([1, "Hello", (1, 2, 3)])
 ```
 
+
 ---
+
 ## Practice
 
 Sets are an ??? data type. Items inside a set can be of any data type, but each item must be ???.
@@ -60,7 +56,9 @@ Sets are an ??? data type. Items inside a set can be of any data type, but each 
 * `indexed`
 * `non-unique`
 
+
 ---
+
 ## Revision
 
 Sets are an ??? data type. Items inside a set cannot be ???, though the whole set is mutable.

@@ -1,24 +1,15 @@
 ---
 author: tommarshall
-
-levels:
-  - beginner
-
 type: normal
-
 category: must-know
-
 inAlgoPool: false
-
-aspects:
-  - introduction
-  - workout
-
 ---
 
 # String Formatting
 
+
 ---
+
 ## Content
 
 Python can use two different methods for string formatting.
@@ -26,9 +17,10 @@ Python can use two different methods for string formatting.
 The first, and older, method is similar to how the language C creates new and formatted strings.
 
 The `%` operator formats a set of variables enclosed in a tuple, which is a fixed size list, alongside a format string which holds normal text with special symbols such as `%s` and `%d`. These are known as *argument specifiers*:
-- `%s` is for a String
-- `%d` is for Integers
-- `%f` is for Floats
+
+* `%s` is for a String
+* `%d` is for Integers
+* `%f` is for Floats
 
 For instance, say you have some variables. This is how you would print them:
 
@@ -65,7 +57,9 @@ print(another_string)
 # Learning Python with 3, workout number Enki.
 ```
 
+
 ---
+
 ## Practice
 
 Complete the code snippet to print the output:
@@ -86,13 +80,14 @@ print('??? is fun!' % (replace))
 * %d
 * {2}
 
+
 ---
+
 ## Revision
 
 When you want to use two or more argument specifiers, what must you use in order to print them?
 
 ???
-
 
 * A tuple
 * A function

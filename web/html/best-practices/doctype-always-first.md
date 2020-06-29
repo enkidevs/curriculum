@@ -1,21 +1,14 @@
 ---
 author: Stefan-Stojanovic
-
-levels:
-  - beginner
-  - basic
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-  - obscura
-
 ---
+
 # Doctype - always first
+
+
 ---
+
 ## Content
 
 In every HTML web page, the very first line of code should always be the `<!DOCTYPE html>` declaration.
@@ -30,7 +23,9 @@ For HTML5 the declaration is typed as:
 
 **Note:** The DOCTYPE tag is *not* an HTML element, but a tag specific for browsers to identify the type of code in the document.
 
+
 ---
+
 ## Practice
 
 What declaration is always first in an HTML web page?
@@ -41,4 +36,3 @@ What declaration is always first in an HTML web page?
 * `<body>`
 * `<html>`
 * `<!HTML document>`
- 

@@ -46,4 +46,3 @@ git checkout -
 * Switches to the last branch.
 * Deletes the current branch.
 * Deletes the last branch.
- 

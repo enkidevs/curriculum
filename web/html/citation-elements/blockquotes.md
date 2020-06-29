@@ -1,31 +1,24 @@
 ---
 author: Stefan-Stojanovic
-
-levels:
-  - beginner
-  - basic
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-  - workout
-  - deep
-
-
 links:
-  - '[HTML <blockquotes> element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blockquote){documentation}'
-  
+  - >-
+    [HTML <blockquotes>
+    element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blockquote){documentation}
 ---
+
 # The `<blockquotes>` Element
+
+
 ---
+
 ## Content
 
 The HTML `<blockquote>` element or the **Block Quotation** element is used to enclose text which represents an extended or long quotation. This element is displayed as a block element and usually has a 1em top/bottom margin added by default, as well as a left/right indentation of 40 pixels. Of course, this is all editable with CSS styling.
 
 Example:
+
 ```html
 <blockquote>
  Every revolutionary idea seems to
@@ -64,6 +57,7 @@ quotes/arthur_c_clarke_408582">
 
 If you wish to add a short quote to your web page or document, you should use the `<q>` or the **Quotation element**.
 Example:
+
 ```html
 <q>I have a dream!</q>
 - Martin Luther King
@@ -73,7 +67,9 @@ Example:
 
 [View CodePen](https://codepen.io/enkidevs/pen/oyPQBr)
 
+
 ---
+
 ## Practice
 
 Which statement about the `<blockquote>` element is correct?
@@ -94,7 +90,9 @@ Which statement about the `<blockquote>` element is correct?
 * used within non-quoted paragraphs
 * displays as an inline element
 
+
 ---
+
 ## Revision
 
 Select the default CSS style that is not typically associated with the `<blockquote>` element:
@@ -108,10 +106,13 @@ Select the default CSS style that is not typically associated with the `<blockqu
 * margin-left: 40px;
 * margin-right: 40px;
 
+
 ---
+
 ## Quiz
 
 ### How much do you know about semantic HTML?
+
 
 Which HTML element is used to create a section that is quoted from another source?
 

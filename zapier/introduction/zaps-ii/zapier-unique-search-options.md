@@ -1,22 +1,16 @@
 ---
 author: kapnobatai136
-
 category: feature
-
-aspects:
-  - introduction
-  - workout
-  - deep
-
 type: normal
-
 links:
   - '[Applications Page](https://zapier.com/apps){website}'
 ---
 
 # Unique Search Actions
 
+
 ---
+
 ## Content
 
 Up until now, we have only used Slack and Google Sheets in our zaps. Considering that there are more than 1500 possible applications in Zapier, we have used less that 1% of our possibilities (we've done the math on this).
@@ -32,12 +26,15 @@ Let's say our stack contains Dropbox and Instagram.
 ![gif-of-selecting-dropbox](https://img.enkipro.com/ceaf3d287fc34dc8eae5ce7ca7943985.gif)
 
 When selecting an app from the list, Zapier shows you:
+
 * a list of recommended integrations
 * recommended templates
 * some extra information
 * all the possible triggers, actions and searches
 
+
 ---
+
 ## Practice
 
 Which of the following is not possible in Zapier?
@@ -48,7 +45,9 @@ Which of the following is not possible in Zapier?
 * Search data.
 * Save data to be used at a later time.
 
+
 ---
+
 ## Revision
 
 Which of the following you **wouldn't** expect to see when looking at an app's page on Zapier:

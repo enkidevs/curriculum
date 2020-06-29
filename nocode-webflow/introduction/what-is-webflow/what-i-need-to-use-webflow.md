@@ -1,22 +1,14 @@
 ---
 author: Stefan-Stojanovic
-
-levels:
-  - beginner
-
-aspects:
-  - workout
-  - introduction
-
 type: normal
-
 category: how to
-
 ---
 
 # Webflow Setup
 
+
 ---
+
 ## Content
 
 Webflow is a web app, so all you need is an online account!
@@ -41,7 +33,9 @@ After completing the on-screen steps, depending on what you chose, you will get 
 
 And you're ready to get started!
 
+
 ---
+
 ## Practice
 
 Webflow ???

@@ -1,21 +1,17 @@
 ---
 author: alexjmackey
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-  - workout
-
 links:
-  - '[Generators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator){documentation}'
-
+  - >-
+    [Generators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator){documentation}
 ---
+
 # Passing Values to Generators
 
+
 ---
+
 ## Content
 
 Generator's `next` method also accepts a parameter.
@@ -73,7 +69,9 @@ g.next("a") // a
 g.next("b") // b
 ```
 
+
 ---
+
 ## Practice
 
 Fill in the missing output of the following code snippet:
@@ -105,7 +103,9 @@ z.next(3);
 * 5
 * null
 
+
 ---
+
 ## Revision
 
 What happens when you pass a value to the `next` call of a generator?
@@ -116,4 +116,3 @@ What happens when you pass a value to the `next` call of a generator?
 * nothing
 * it instantly returns an object of the form `{value: input, done: false}`
 * it will throw an error
- 

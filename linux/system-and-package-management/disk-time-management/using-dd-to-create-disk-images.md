@@ -1,27 +1,14 @@
 ---
 author: jfarmer
-
-levels:
-
-  - advanced
-
-  - medium
-
-aspects:
-  - deep
-
 type: normal
-
 category: must-know
-
-
-
-
 ---
 
 # Using `dd` To Create Disk Images
 
+
 ---
+
 ## Content
 
 The `dd` command is a versatile tool for copying and converting files.  Most commonly it is used to interact with disk drives, which are exposed as files via the `/dev` filesystem.
@@ -40,10 +27,13 @@ The arguments for `dd` have an unorthodox syntax, but in this case `if=` specifi
 
 You can back up *any* disk this way: CD-ROMs, DVDs, BluRays, USB sticks, others hard drives, etc.
 
+
 ---
+
 ## Revision
 
 You can create an image of disks by running:
+
 ```bash
 ??? ???=/dev/cdrom 
       ???=~/my_disk.iso
@@ -55,7 +45,3 @@ You can create an image of disks by running:
 * `-of`
 * `-if`
 * `cp`
-
- 
- 
- 

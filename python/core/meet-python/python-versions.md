@@ -1,28 +1,21 @@
 ---
 author: emmab
-
 tags:
   - introduction
-
-levels:
-  - beginner
-
 type: normal
-
-aspects:
-  - introduction
-
 category: must-know
-
 links:
-- '[Python 3 Vs Python 2](https://learntocodewith.me/programming/python/python-2-vs-python-3/){website}'
-- '[Goodbye Python 2](https://www.python.org/doc/sunset-python-2/){website}'
-
+  - >-
+    [Python 3 Vs Python
+    2](https://learntocodewith.me/programming/python/python-2-vs-python-3/){website}
+  - '[Goodbye Python 2](https://www.python.org/doc/sunset-python-2/){website}'
 ---
 
 # Python Versions
 
+
 ---
+
 ## Content
 
 You'll be learning **Python 3** for this course as it's the latest and best version.
@@ -47,7 +40,9 @@ Some programmers still use versions of Python 2, with 2.7 being the last major r
 
 Since the start of 2020 Python HQ are no longer working on improvements to Python 2 and have advised everyone to switch over to Python 3.
 
+
 ---
+
 ## Practice
 
 Complete the following code using Python 3:
@@ -63,7 +58,9 @@ print???'Learning Python!'???
 * [
 * ]
 
+
 ---
+
 ## Revision
 
 Which of the following code snippets is Python 3 code, and which is Python 2?

@@ -24,4 +24,3 @@ In this exercise, you have to create 4 input elements.
 1 input field, 2 radio buttons and a submit button.
 
 Example of the finished exercise is on codepen.
- 

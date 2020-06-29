@@ -1,29 +1,18 @@
 ---
 author: alexjmackey
-
-levels:
-  - medium
-  - advanced
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-  - new
-  - workout
-  - deep
-
 inAlgoPool: false
-
 links:
-  - '[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol){website}'
-
+  - >-
+    [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol){website}
 ---
+
 # Why use Symbols 2
 
+
 ---
+
 ## Content
 
 Probably the primary use of symbols is to introduce changes into ECMAScript. We can see this in action with *iterators*.
@@ -50,7 +39,9 @@ Symbol.keyFor(Symbol.iterator);
 
 Symbols can also implement a kind of limited (they are still accessible via other means) privacy – let's discuss this next.
 
+
 ---
+
 ## Practice
 
 What special `Symbol` is used internally to implement the iteration protocol?
@@ -75,7 +66,9 @@ console.log(it.next().value);
 * iterator)
 * iterate)
 
+
 ---
+
 ## Revision
 
 What will the following call to the Symbol Registry return?
@@ -90,4 +83,3 @@ console.log(Symbol.keyFor(Symbol.iterator));
 * "Iterator"
 * "iterate"
 * "internalIterator"
- 

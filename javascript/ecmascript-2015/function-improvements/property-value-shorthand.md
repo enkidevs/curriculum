@@ -1,23 +1,21 @@
 ---
 author: alexjmackey
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-  - new
-  - workout
-
 links:
-  - '[Enhanced Object Literals](http://www.benmvp.com/learning-es6-enhanced-object-literals/){website}'
-  - '[Object Initializer](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Object_initializer){documentation}'
-
+  - >-
+    [Enhanced Object
+    Literals](http://www.benmvp.com/learning-es6-enhanced-object-literals/){website}
+  - >-
+    [Object
+    Initializer](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Object_initializer){documentation}
 ---
+
 # Property Value Shorthand
 
+
 ---
+
 ## Content
 
 It is very common to return an object from a function with a property the same name as a source value declared elsewhere e.g.
@@ -61,7 +59,9 @@ test();
 // ReferenceError: nombre is not defined
 ```
 
+
 ---
+
 ## Practice
 
 What will be logged by the following snippet:
@@ -85,7 +85,9 @@ console.log(bar());
 * error
 * `foo`
 
+
 ---
+
 ## Revision
 
 Fill in the missing gap such that the `prop` value is returned using property value shorthand:
@@ -107,4 +109,3 @@ function foo() {
 * this.prop
 * 'value'
 * prop: 'value'
- 

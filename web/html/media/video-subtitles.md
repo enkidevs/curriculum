@@ -121,4 +121,3 @@ For files that contain subtitles that can be used with web videos, what file for
 * .sub
 * .txt
 * .track
- 

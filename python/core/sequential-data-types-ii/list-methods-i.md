@@ -1,22 +1,18 @@
 ---
 author: emmab
-
 type: normal
-
 category: how to
-
-aspects:
-  - introduction
-  - workout
-
 links:
-  - '[Python List Methods](https://www.programiz.com/python-programming/methods/list){website}'
-
+  - >-
+    [Python List
+    Methods](https://www.programiz.com/python-programming/methods/list){website}
 ---
 
 # List Methods I
 
+
 ---
+
 ## Content
 
 Python has many built-in `list` methods. Here are some of the most handy ones to know about!
@@ -25,7 +21,7 @@ Python has many built-in `list` methods. Here are some of the most handy ones to
 number_list = [1, 2, 3, 4, 5]
 ```
 
-- The `extend()` method extends one list with the contents of another list:
+* The `extend()` method extends one list with the contents of another list:
 
 ```python
 more_numbers = [6, 7]
@@ -36,7 +32,7 @@ print(number_list)
 # [1, 2, 3, 4, 5, 6, 7]
 ```
 
-- The `reverse()` method reverses the items in a list:
+* The `reverse()` method reverses the items in a list:
 
 ```python
 number_list.reverse()
@@ -45,7 +41,7 @@ print(number_list)
 # [7, 6, 5, 4, 3, 2, 1]
 ```
 
-- The `remove()` method deletes specific items:
+* The `remove()` method deletes specific items:
 
 ```python
 number_list.remove(7)
@@ -55,7 +51,7 @@ print(number_list)
 # [6, 5, 4, 3, 2, 1]
 ```
 
-- The `pop()` method can be used to remove the last item, or to remove an item at a given *index*:
+* The `pop()` method can be used to remove the last item, or to remove an item at a given *index*:
 
 ```python
 number_list.pop()
@@ -68,7 +64,9 @@ print(number_list)
 # [6, 5, 3, 2]
 ```
 
+
 ---
+
 ## Practice
 
 Extend `positive` with `negative`:
@@ -88,6 +86,7 @@ negative = [-1, -2, -3, -4]
 
 
 ---
+
 ## Revision
 
 Which of the following would NOT work to remove the element at index `3`:

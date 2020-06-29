@@ -1,29 +1,24 @@
 ---
 author: Stefan-Stojanovic
-
-levels:
-  - beginner
-  - basic
-
 type: normal
-
 category: must-know
-
 stub: true
-
 tags:
   - deep
-
-aspects:
-  - introduction
-
 links:
-  - '[HTML <u> Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/u){documentation}'
-  - '[HTML <mark> Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/mark){documentation}'
+  - >-
+    [HTML <u>
+    Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/u){documentation}
+  - >-
+    [HTML <mark>
+    Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/mark){documentation}
+---
+
+# Markup for Editing
+
 
 ---
-# Markup for Editing
----
+
 ## Content
 
 ### Mark Text
@@ -35,6 +30,7 @@ The `<mark>`, or the **Mark Text** element, is used to specify that some text is
 <mark>important</mark>
 text in this paragraph.</p>
 ```
+
 ![editing-elements-mark](https://img.enkipro.com/55f1527201f294f0c317f4a3701727f3.png)
 
 [View CodePen](https://codepen.io/enkidevs/pen/GBrJdP)
@@ -42,7 +38,6 @@ text in this paragraph.</p>
 The text within the `<mark>` element is usually rendered with a yellow background, but the `background-color: yellow;` of the element can be changed using CSS.
 
 Also, when `<mark>` is used within a `<q>` or `<blockquote>` element it indicates that that text is important even though it is not marked by the original author as important. This is like highlighting important text from a book with a marker/highlighter.
-
 
 ### Unarticulated Annotation
 
@@ -59,15 +54,15 @@ can <u>corect</u> them.</p>
 
 [View CodePen](https://codepen.io/enkidevs/pen/OwWVBe)
 
-
-
 **Note:** The `<u>` element used to be called the `Underline` element before when it was only used to underline text. If you wish to set some text as underline, you should not use the `<u>` element to style it but rather the appropriate CSS properties.
 
 Also, when using the `<u>` element you should give it a different style than underlined because users may confuse them with hyperlinks.
 
 The `<u>` element is often used to annotate spelling errors, proper nouns and/or names in Chinese, and other annotations.
 
+
 ---
+
 ## Practice
 
 Underline the word "mispell":
@@ -111,7 +106,9 @@ tag = ???
 * highlight
 * high
 
+
 ---
+
 ## Revision
 
 Match these elements with their meaning:

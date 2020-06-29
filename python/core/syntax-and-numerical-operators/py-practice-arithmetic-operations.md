@@ -1,31 +1,19 @@
 ---
 author: claremarie
-
-levels:
-
-  - beginner
-
-  - basic
-
 type: exercise
-aspects:
-  - introduction
 linkType: website
-
-link: https://goo.gl/SZFREy
-
-standards:
-
-  python.native-types-operations.2: 1000
-
+link: 'https://goo.gl/SZFREy'
 links:
-  - '[Operators in Python](http://interactivepython.org/runestone/static/CS152f17/SimplePythonData/OperatorsandOperands.html){website}'
-
+  - >-
+    [Operators in
+    Python](http://interactivepython.org/runestone/static/CS152f17/SimplePythonData/OperatorsandOperands.html){website}
 ---
 
 # Python Arithmetic Operations Exercise
 
+
 ---
+
 ## Exercise
 
 Click *Launch Exercise* to open a Python Tutor page.

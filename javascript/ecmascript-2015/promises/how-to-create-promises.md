@@ -1,27 +1,19 @@
 ---
 author: alexjmackey
-
-levels:
-  - medium
-  - advanced
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-  - workout
-
 inAlgoPool: false
-
 links:
-  - '[MDN - Promises](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Promise){website}'
-
+  - >-
+    [MDN -
+    Promises](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Promise){website}
 ---
+
 # How To Create Promises
 
+
 ---
+
 ## Content
 
 When we create a new Promise we supply a function that has two arguments. These two arguments are mapped to special promise `resolve` and `reject` functions. The below code creates a new promise.
@@ -69,7 +61,9 @@ let p = new Promise((resolve, reject) => {
 
 Next let's look at how to handle errors.
 
+
 ---
+
 ## Practice
 
 Complete the missing words in the code such that the commented scenario stands true:
@@ -102,7 +96,9 @@ p.???(res => {
 * promise
 * after
 
+
 ---
+
 ## Revision
 
 Promises take as input a function with two arguments. How are they usually called?
@@ -122,4 +118,3 @@ const p = new Promise(
 * throw
 * catch
 * then
- 

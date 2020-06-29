@@ -1,41 +1,19 @@
 ---
 author: tuwidc
-
-levels:
-
-  - basic
-
-  - advanced
-
-  - medium
-
-  - beginner
-
-aspects:
-  - workout
-
 type: normal
-
 category: feature
-
 tags:
-
   - linux
-
   - terminal
-
   - networking
-
   - bandwidth
+---
 
-
+# Bandwidth monitoring tools
 
 
 ---
 
-# Bandwidth monitoring tools 
-
----
 ## Content
 
 Here are some tools provided by the Ubuntu repos for network monitoring:
@@ -52,7 +30,9 @@ Here are some tools provided by the Ubuntu repos for network monitoring:
 
 Each can be used for specific monitoring or basic statistics.
 
+
 ---
+
 ## Revision
 
 Some tools that monitor the bandwidth are  ???
@@ -61,7 +41,3 @@ Some tools that monitor the bandwidth are  ???
 * dd and tcptrack.
 * ab and dd.
 * top and vnstat.
-
- 
- 
- 

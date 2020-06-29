@@ -1,34 +1,17 @@
 ---
 author: rosielowther
-
-levels:
-  - basic
-  - advanced
-  - medium
-  - beginner
-
 type: normal
-
 category: feature
-
-aspects:
-  - introduction
-  - new
-  - workout
-  - deep
-
-
-standards:
-  javascript.browser-apis-device.0: 10
-  javascript.browser-apis-browser.2: 10
-
 links:
-  - '[developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/API/notification){website}'
-
+  - >-
+    [developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/API/notification){website}
 ---
+
 # Notifications API
 
+
 ---
+
 ## Content
 
 The Notifications API displays desktop notifications to the user and is a great way to alert the user of important events occurring in the application.
@@ -72,7 +55,9 @@ var options = {
 var n = new Notification(title, options);
 ```
 
+
 ---
+
 ## Practice
 
 Fill in the following code snippet such that it will send the user a notification with the text "Hello from Enki" only if the permissions are already granted:
@@ -98,7 +83,9 @@ if (???.??? === ???)
 * new Notif
 * throw Notif
 
+
 ---
+
 ## Revision
 
 Which method exposed by the Notifications API can be used to ask for user permissions with regard to sending notifications?
@@ -115,4 +102,3 @@ Which method exposed by the Notifications API can be used to ask for user permis
 * access
 * grantAccess
 * Notif
- 

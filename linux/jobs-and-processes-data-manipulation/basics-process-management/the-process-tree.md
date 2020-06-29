@@ -1,30 +1,15 @@
 ---
 author: jfarmer
-
-levels:
-
-  - basic
-
-  - beginner
-
-aspects:
-  - introduction
-  - workout
-
 type: normal
-
 category: must-know
-
 inAlgoPool: false
-
-
-
-
 ---
 
 # The Process Tree
 
+
 ---
+
 ## Content
 
 Every process is launched (or "forked") by another process.  There is a special root process (called "init") that is launched directly by the kernel when your system first boots.
@@ -61,13 +46,16 @@ init─┬─atd
 
 You can also run `ps auxf` to see a tree-like display, although the output is less user-friendly.
 
+
 ---
+
 ## Practice
 
 In the following extract of a tree representation of processes, which process launched  `pstree` ?
 
 ???
-```
+
+```plain-text
 pstree
 systemd─┬─ModemManager─┬─{gdbus}
         |              └─{gdmain}  
@@ -81,7 +69,9 @@ systemd─┬─ModemManager─┬─{gdbus}
 * QXcbEventReader
 * systemd
 
+
 ---
+
 ## Revision
 
 Every process has a common root process named ???.
@@ -90,7 +80,3 @@ Every process has a common root process named ???.
 * root
 * systemd
 * bash
-
- 
- 
- 

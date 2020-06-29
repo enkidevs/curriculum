@@ -122,4 +122,3 @@ ADD ???
 * CONSTRAINT check_constraint CHECK (version_group_id <= 10);
 * PRIMARY KEY (version_group_id > 10);
 * CONSTRAINT check_constraint UNIQUE (version_group_id <= 10);
- 

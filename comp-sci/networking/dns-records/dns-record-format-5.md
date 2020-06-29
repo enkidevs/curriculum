@@ -1,27 +1,19 @@
 ---
 author: amgando
-
-levels:
-  - advanced
-
-aspects:
-  - workout
-  - obscura
-
 type: normal
 category: feature
-
-standards:
-  comp-sci.dns.6: 10
-
 links:
-
   - '[RFC 1035](https://tools.ietf.org/html/rfc1035#page-12){documentation}'
-  - '[DNS Sections Primer](https://www2.cs.duke.edu/courses/fall16/compsci356/DNS/DNS-primer.pdf){article}'
+  - >-
+    [DNS Sections
+    Primer](https://www2.cs.duke.edu/courses/fall16/compsci356/DNS/DNS-primer.pdf){article}
+---
+
+# DNS Record Format
+
 
 ---
-# DNS Record Format
----
+
 ## Content
 
 The first 2 bytes of any DNS message is
@@ -29,12 +21,14 @@ called the transaction ID. This value will
 be shared by the DNS query initiating the
 request and the DNS response to that query.
 
+
 ---
+
 ## Practice
 
 This is a hex-dump of a DNS response.
 
-```
+```plain-text
 0000   ef 0a 81 80 00 01 00 01 00 00 00 00
   03 77 77 77   ï............www
 0010   06 67 6f 6f 67 6c 65 03 63 6f 6d 00
@@ -55,6 +49,7 @@ Which of the following values is the
 
 
 ---
+
 ## Revision
 
 Which of the following is true of DNS
@@ -70,4 +65,3 @@ Which of the following is true of DNS
   implementations.
 * Each individual response record has a
   transaction ID.
- 

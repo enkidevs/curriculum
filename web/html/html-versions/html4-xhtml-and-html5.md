@@ -1,21 +1,18 @@
 ---
 author: Stefan-Stojanovic
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-  - workout
-  - deep
-
 links:
-  - '[HTML Tutorials](https://developer.mozilla.org/en-US/docs/Web/HTML){documentation}'
+  - >-
+    [HTML
+    Tutorials](https://developer.mozilla.org/en-US/docs/Web/HTML){documentation}
+---
+
+# HTML4, XHTML, & HTML5
+
 
 ---
-# HTML4, XHTML, & HTML5
----
+
 ## Content
 
 HTML, which stands for, **HyperText Markup Language** has had many versions over the years out of which, only a few are still being used today. These are HTML5, HTML4 and XHTML. HTML4 is the oldest HTML version still in use.
@@ -29,16 +26,19 @@ Unlike in HTML, XHTML elements have to be properly nested, always be closed, wri
 The `doctype` declaration also differs for each version.
 
 HTML5 has 1 Doctype declaration:
+
 ```html
 <!DOCTYPE html>
 ```
 
 HTML4 and XHTML each have 3 types of Doctype declarations:
- - Frameset
- - Strict
- - Transitional
+
+* Frameset
+* Strict
+* Transitional
 
 HTML4 Frameset:
+
 ```html
 <!DOCTYPE HTML PUBLIC
  "-//W3C//DTD HTML 4.01 Frameset//EN"
@@ -46,6 +46,7 @@ HTML4 Frameset:
 ```
 
 HTML4 Strict:
+
 ```html
 <!DOCTYPE HTML PUBLIC
   "-//W3C//DTD HTML 4.01//EN"
@@ -53,6 +54,7 @@ HTML4 Strict:
 ```
 
 HTML4 Transitional:
+
 ```html
 <!DOCTYPE HTML PUBLIC
   "-//W3C//DTD HTML 4.01 Transitional//EN"
@@ -60,6 +62,7 @@ HTML4 Transitional:
 ```
 
 XHTML Frameset:
+
 ```html
 <!DOCTYPE html PUBLIC
   "-//W3C//DTD XHTML 1.0 Frameset//EN"
@@ -68,6 +71,7 @@ XHTML Frameset:
 ```
 
 XHTML Strict:
+
 ```html
 <!DOCTYPE html PUBLIC
   "-//W3C//DTD XHTML 1.0 Strict//EN"
@@ -76,7 +80,8 @@ XHTML Strict:
 ```
 
 XHTML Transitional:
-```
+
+```plain-text
 <!DOCTYPE html PUBLIC
  "-//W3C//DTD XHTML 1.0 Transitional//EN"
   "http://www.w3.org/TR/xhtml1/DTD
@@ -87,6 +92,7 @@ A lot of elements from HTML4 were deprecated and made obsolete in HTML5. Depreca
 
 
 ---
+
 ## Practice
 
 Which version of HTML is the oldest still in use today?
@@ -117,10 +123,13 @@ Which of these HTML elements was not removed in HTML5?
 * `<font>`
 * `<strike>`
 
+
 ---
+
 ## Quiz
 
 ### Test your HTML knowledge.
+
 
 When referring to deprecated HTML tags, what does that mean?
 
@@ -130,4 +139,3 @@ When referring to deprecated HTML tags, what does that mean?
 * HTML elements that are best used with certain features.
 * HTML elements that will never be obsolete.
 * HTML elements that are not appreciated enough.
- 

@@ -116,4 +116,3 @@ If the `<caption>` of an HTML table is placed under the table's data, where must
 * Anywhere within the table
 * Before the table element
 * After the table element
- 

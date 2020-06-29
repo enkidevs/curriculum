@@ -1,45 +1,23 @@
 ---
 author: tuwidc
-
-levels:
-
-  - basic
-
-  - medium
-
-aspects:
-  - obscura
-  - deep
-
 type: normal
-
 category: how to
-
 tags:
-
   - linux
-
   - firewall
-
   - iptables
-
   - disable
-
   - accept
-
   - chain
-
   - allow
-
-
-
 notes: ''
-
 ---
 
 # How to clear `iptables` rules
 
+
 ---
+
 ## Content
 
 Although it is not a good idea, often we need to make sure that nothing is blocking our 
@@ -73,7 +51,9 @@ Here:
 
 In practice, you might not want to wipe the state clean since it will leave your machine vulnerable.
 
+
 ---
+
 ## Revision
 
 On a Debian system, to stop the firewall you have to ??? the rules.
@@ -82,7 +62,3 @@ On a Debian system, to stop the firewall you have to ??? the rules.
 * stop
 * target
 * add
-
- 
- 
- 

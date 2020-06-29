@@ -31,4 +31,3 @@ links:
 In this exercise, .
 
 More info on codepen.
- 

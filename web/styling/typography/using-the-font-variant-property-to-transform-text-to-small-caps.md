@@ -53,4 +53,3 @@ What must the font-variant property be set to transform the text to small caps?
 * `small-caps`
 * `smallcaps`
 * `small_caps`
- 

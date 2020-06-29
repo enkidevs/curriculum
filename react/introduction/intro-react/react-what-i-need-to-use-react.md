@@ -1,25 +1,19 @@
 ---
 author: catalin
-
-levels:
-  - beginner
-
 type: normal
-
 category: must-know
-
 links:
-  - '[Getting Started](https://facebook.github.io/react/docs/getting-started.html){website}'
-
+  - >-
+    [Getting
+    Started](https://facebook.github.io/react/docs/getting-started.html){website}
 parent: why-use-react
-
-aspects:
-  - introduction
-
 ---
+
 # React Dependencies
 
+
 ---
+
 ## Content
 
 Being a truly flexible library, you can not only create applications from scratch with **React** but also gradually include it into your codebase.
@@ -39,8 +33,8 @@ The former option is advised because it gives you access to a vast ecosystem of 
 
 Although not required, adopting a modern **build pipeline** is highly recommended to boost productivity and efficiency. Apart from the *package manager*, this includes:
 
-- a **bundler**[1] such as `webpack` or `browserify` to improve load time[2] by modularizing your code
-- a **compiler** such as `Babel`[3]
+* a **bundler**[1] such as `webpack` or `browserify` to improve load time[2] by modularizing your code
+* a **compiler** such as `Babel`[3]
 
 Using the `Babel` compiler will allow you to write your application with both `ES.Next`[4] and `JSX` syntax. For this, you need to install `babel-preset-react` and `babel-preset-es2015` and enable them in your `.babelrc` config file.
 
@@ -62,7 +56,9 @@ npm start
 
 > Note: as with all the skills in the app, if you want to access more advanced or specific content at any time, **feel free to use the *Skill Map* tab** to jump to the workouts most relevant for you.
 
+
 ---
+
 ## Practice
 
 Which of the following is not a bundler for react?
@@ -73,7 +69,9 @@ Which of the following is not a bundler for react?
 * webpack
 * browserify
 
+
 ---
+
 ## Revision
 
 Which tool will automatically set-up the development environment for a `React` **SPA**?
@@ -85,7 +83,9 @@ Which tool will automatically set-up the development environment for a `React` *
 * browserify
 * babel-preset-react
 
+
 ---
+
 ## Footnotes
 
 [1:bundler]
@@ -99,5 +99,3 @@ A bundler flattens your module hierarchy into a single file, effectively reducin
 
 [4:ES.Next]
 `ES.Next` is a dynamic name that represents whatever the next version of ECMAScript is at the time of writing.
- 
- 

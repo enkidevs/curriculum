@@ -1,22 +1,17 @@
 ---
 author: alexjmackey
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-  - new
-  - workout
-
 links:
-  - '[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number){website}'
-
+  - >-
+    [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number){website}
 ---
+
 # Number Extensions (Part 1)
 
+
 ---
+
 ## Content
 
 The `Number` class benefits from many methods saving you from writing your own potentially error prone-implementation. 
@@ -79,7 +74,9 @@ Number.isNaN(5); // false
 Number.isNaN(NaN); // true
 ```
 
+
 ---
+
 ## Practice
 
 What is the output of the following two calls?
@@ -97,7 +94,9 @@ Number.isNaN(enki);
 * false, false
 * true, true
 
+
 ---
+
 ## Revision
 
 Complete the missing calls with methods such that all the statements are true:
@@ -115,4 +114,3 @@ Number.isInteger(9.81)
 * true, true, false
 * false, true, true
 * true, false, true
-

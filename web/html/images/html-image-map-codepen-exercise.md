@@ -39,4 +39,3 @@ In this exercise, you have to create an image and an image map.
 The image map will have 3 shapes(all circle).
 
 More info on codepen.
- 

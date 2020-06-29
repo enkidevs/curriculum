@@ -1,31 +1,17 @@
 ---
 author: rosielowther
-
-levels:
-  - basic
-  - advanced
-  - medium
-
 type: normal
-
 category: feature
-
-standards:
-  javascript.functions.1: 10
-
 tags:
   - introduction
   - workout
-
-aspects:
-  - introduction
-  - workout
-
-
 ---
+
 # Functions return undefined by default
 
+
 ---
+
 ## Content
 
 JavaScript is a **dynamic** programming language which means that it is not necessary to define the return type of a function.
@@ -50,7 +36,9 @@ doSomething(3) // undefined
 
 ```
 
+
 ---
+
 ## Practice
 
 Fill in the gaps such that the `naturalHalf` function, given an input number, will return `undefined` for every odd number and the number's half for each even number:
@@ -74,7 +62,9 @@ function naturalHalf(number) {
 * /
 * number
 
+
 ---
+
 ## Revision
 
 Fill in the output of the following `foo` calls:
@@ -99,4 +89,3 @@ foo(3) === foo(1); // = ???
 * null
 * false
 * NaN
- 

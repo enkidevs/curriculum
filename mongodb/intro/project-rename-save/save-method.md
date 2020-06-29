@@ -1,21 +1,14 @@
 ---
 author: Stefan-Stojanovic
-
-levels:
-  - beginner
-  
-aspects:
-  - introduction
-    
 type: normal
-
 category: must-know
-
 ---
 
 # The save() command
 
+
 ---
+
 ## Content
 
 The mongodb `save()` method can be used to either update/replace an existing document or insert a new one. The syntax is:
@@ -29,6 +22,7 @@ If we specify an existing `_id` field for the `save()` method, it will work like
 ### Replacing a document
 
 Let's say we have a document where some information is wrong:
+
 ```javascript
 {
   "_id": ObjectId(
@@ -41,6 +35,7 @@ Let's say we have a document where some information is wrong:
 ```
 
 To replace it with a new document with the corrected information, we can do so like this:
+
 ```javascript
 db.pokemon.save({
   "_id": ObjectId(
@@ -53,6 +48,7 @@ db.pokemon.save({
 ```
 
 Output:
+
 ```javascript
 WriteResult({
   "nMatched": 1,
@@ -68,6 +64,7 @@ The `nModified: 1` means that a single document was modified.
 ### Adding a new document with an `_id` field
 
 To add a new document to an existing collection, we can add an `_id` field whose value doesn't match any document, like so:
+
 ```javascript
 db.pokemon.save({
   "_id": 777,
@@ -78,6 +75,7 @@ db.pokemon.save({
 ```
 
 Output:
+
 ```javascript
 WriteResult({
   "nMatched": 0,
@@ -96,6 +94,7 @@ The `"_id": 777` is the `_id` we specified in our save method.
 
 Last but not least, we can add a new document to the collection without specifying an `_id` field. If a document is added this way, a new `ObjectID` is created by default.
 Example:
+
 ```javascript
 db.pokemon.save({
   "name": "Unknown",
@@ -104,11 +103,13 @@ db.pokemon.save({
 ```
 
 Output:
+
 ```javascript
 WriteResult({ "nInserted": 1 })
 ```
 
 How the document looks:
+
 ```javascript
 { 
   "_id": 
@@ -118,7 +119,9 @@ How the document looks:
 }
 ```
 
+
 ---
+
 ## Practice
 
 Use the `save()` method to insert a new document that has 17 for its `_id` and is named `"new document"`:
@@ -146,7 +149,6 @@ Use the `save()` method to insert a new document without the `_id` field:
 ???   
 ```
 
-
 * `"_id"`
 * `17`
 * `"name"`
@@ -156,7 +158,9 @@ Use the `save()` method to insert a new document without the `_id` field:
 * `db.pokemon.save({ "name": "NoName" })`
 * `db.pokemon.save({ "_id":false, "name": "NoName" })`
 
+
 ---
+
 ## Revision
 
 What is the MongoDB `save()` method used for?

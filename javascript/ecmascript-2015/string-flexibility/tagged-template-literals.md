@@ -1,47 +1,25 @@
 ---
 author: lizTheDeveloper
-
-levels:
-
-  - medium
-
-  - advanced
-
 type: normal
-
 category: feature
-
 inAlgoPool: false
-
 tags:
-
   - new
-
   - workout
-
   - introduction
-
   - strings
-
   - es6
-
-
 links:
-
-  - '[Template Literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals){website}'
-
-
-aspects:
-  - new
-  - workout
-  - introduction
-
-
+  - >-
+    [Template
+    Literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals){website}
 ---
 
 # Template Strings
 
+
 ---
+
 ## Content
 
 ES6 introduced a new feature called template strings that make it easier to work with strings by adding string interpolation and multi-line strings:
@@ -88,7 +66,9 @@ and I would like to purchase :
 4 Oranges.
 ```
 
+
 ---
+
 ## Practice
 
 Complete the following code snippet to assemble a template string that says "Beam me up Scotty!"
@@ -112,7 +92,9 @@ let line = `??? me up ???!`;
 * `$(what)`
 * `#(what)`
 
+
 ---
+
 ## Revision
 
 Complete the following code snippet to assemble a template string that says `"Stay Hungry Stay Foolish"`.
@@ -135,5 +117,3 @@ let line = `Stay ??? Stay ???`;
 * `%s`
 * `$(attr2)`
 * `#(attr2)`
-
- 

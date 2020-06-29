@@ -75,4 +75,3 @@ A *closure* is created when a function is ???.
 * created
 * called
 * nested
- 

@@ -1,37 +1,19 @@
 ---
 author: mihaiberq
-
-levels:
-
-  - beginner
-
-  - basic
-
-  - medium
-
-  - advanced
-
 type: normal
-
 category: must-know
-
-aspects:
-
-  - deep
-
-  - workout
-
 links:
-
-  - '[Step-by-step, interactive Dijkstra`s algorithm application](https://www-m9.ma.tum.de/graph-algorithms/spp-dijkstra/index_en.html){website}'
-
+  - >-
+    [Step-by-step, interactive Dijkstra`s algorithm
+    application](https://www-m9.ma.tum.de/graph-algorithms/spp-dijkstra/index_en.html){website}
 parent: levenshtein-distance
-
 ---
 
 # Dijkstra's Algorithm
 
+
 ---
+
 ## Content
 
 **Dijkstra's algorithm** is an algorithm for finding the shortest paths between nodes in a *weighted graph*[1].
@@ -43,16 +25,18 @@ Usual implementations of this algorithm compute and store the minimum cost from 
 *Dijkstra's algorithm* could be used to find a way to connect flights to reach a specific place.
 
 The algorithm works like this:
-- Assign an *initial node*.
-- For every node, assign `infinity` as the *reference distance* to the initial node[2].
-- Keep track of the unmarked nodes with a *tracking data structure* and mark the *initial node* as current.
-- For the current node, consider all of its unvisited neighbors and calculate their *relative distance*. Compare the new distance with the old one (using `infinity` as the initial, reference value): if the new value is smaller, *update* the distance, otherwise keep the old value.
-- Mark the current node as *visited*, to avoid an infinite loop.
-- If the destination node has been checked[3] or if the smallest distance between the two is infinity[4], stop the algorithm.
-- Else, select the unvisited neighbor of the current node with the *smallest tentative distance*, set it as *current node*, and go back to **4th** step.
+
+* Assign an *initial node*.
+* For every node, assign `infinity` as the *reference distance* to the initial node[2].
+* Keep track of the unmarked nodes with a *tracking data structure* and mark the *initial node* as current.
+* For the current node, consider all of its unvisited neighbors and calculate their *relative distance*. Compare the new distance with the old one (using `infinity` as the initial, reference value): if the new value is smaller, *update* the distance, otherwise keep the old value.
+* Mark the current node as *visited*, to avoid an infinite loop.
+* If the destination node has been checked[3] or if the smallest distance between the two is infinity[4], stop the algorithm.
+* Else, select the unvisited neighbor of the current node with the *smallest tentative distance*, set it as *current node*, and go back to **4th** step.
 
 The pseudocode is:
-```
+
+```plain-text
 function Dijkstra(Graph, source)
   vSet[]
   dist[source]←0
@@ -81,7 +65,9 @@ If the implementation *does not* prioritize which node to visit next (or is used
 
 Swipe to the next insight to see a step by step iteration of the algorithm.
 
+
 ---
+
 ## Revision
 
 What does Dijkstra's algorithm compute?
@@ -92,10 +78,14 @@ What does Dijkstra's algorithm compute?
 * The number of connected components in a graph.
 * The negative cycles in an weighted graph.
 
+
 ---
+
 ## Footnotes
+
 [1:Weighted graph]
 A graph in which every edge has numerical values (weight or cost) assigned to it.
+
 ```plain-text
          A   -   B
       3/     2

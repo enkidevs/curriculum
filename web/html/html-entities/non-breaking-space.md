@@ -1,26 +1,15 @@
 ---
-
 author: Stefan-Stojanovic
-
-levels:
-  - beginner
-  - basic
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-  - workout
-  - deep
-
-links:
-
+links: null
 ---
+
 # The Non-breaking Space
 
+
 ---
+
 ## Content
 
 In HTML, the non-breaking space is a character entity which can:
@@ -31,18 +20,23 @@ In HTML, the non-breaking space is a character entity which can:
 To insert a non-breaking space you would use either the HTML entity *name* or the HTML entity *number* :
 
 HTML Entity Number
+
 ```html
 &#160;
 ```
+
 HTML Entity Name
+
 ```html
 &nbsp;
 ```
+
 **Prevent Line Break with Non-Breaking Space**
 
 A common use for the non-breaking space is putting it before any numeric (or alphabetic reference) to prevent awkward breaks.
 
 WRONG:
+
 ```html
 Under Security Law §
 1893 purchases can be made. ¶
@@ -50,6 +44,7 @@ Under Security Law §
 ```
 
 CORRECT:
+
 ```html
 Under Security Law
 § 1893 purchases can be made.
@@ -58,10 +53,10 @@ Under Security Law
 
 [View CodePen](https://codepen.io/enkidevs/pen/YjNpVa)
 
-
 By default, two images placed together in a webpage will visually touch. When a single space should be used to separate them, a non-breaking space can be used like this:
 
-Without &nbsp:
+Without  :
+
 ```html
 <img src="rhino.png"/>
 <img src="elephant.png"/>
@@ -71,7 +66,8 @@ Result:
 
 ![nbsp-without-rhino-elephant](https://img.enkipro.com/457a1d9fabeb7df7ed59a0167ec59995.png)
 
-With &nbsp:
+With  :
+
 ```html
 <img src="rhino.png"/>
   &nbsp;
@@ -114,6 +110,7 @@ If you have a table with an empty cell within your web page, you should insert t
 
 
 ---
+
 ## Practice
 
 Which statement is true regarding a non-breaking space:
@@ -125,7 +122,9 @@ Which statement is true regarding a non-breaking space:
 * Long strings of them are good ways of creating gaps of space.
 * They are easier to read than a space character.
 
+
 ---
+
 ## Revision
 
 What HTML character entity is used to prevent the browser from breaking the line between certain words or web page elements?
@@ -139,12 +138,15 @@ What HTML character entity is used to prevent the browser from breaking the line
 * `&space`
 * `&gap`
 
+
 ---
+
 ## Quiz
 
 ### How much do you know about displaying images?
 
-What does the "&nbsp;" within this line of code do?
+
+What does the " " within this line of code do?
 
 ```html
 <img src="image1.png" alt="">

@@ -1,22 +1,18 @@
 ---
 author: nene
-
 type: normal
-
 category: tip
-
-aspects:
-  - new
-  - workout
-  - deep
-
 links:
-  - '[Official Documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Collator){documentation}'
-
+  - >-
+    [Official
+    Documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Collator){documentation}
 ---
+
 # Internationalization & Localization
 
+
 ---
+
 ## Content
 
 `Collator` is an object that provides locale-specific string comparisons. It's aware of Unicode.
@@ -42,7 +38,9 @@ console.log(list.sort(i10nSV.compare));
 // [ "a", "z", "ä" ]
 ```
 
+
 ---
+
 ## Practice
 
 Create a `Collator` based on *German* language:
@@ -59,7 +57,9 @@ let i10nDE = new ???.???("de");
 * String
 * Compare
 
+
 ---
+
 ## Revision
 
 Which method can you use to compare the ordering of two characters in a specific language, using the `Collator` class?

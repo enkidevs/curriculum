@@ -54,4 +54,3 @@ Which DNS record type returns an IPv4 address?
 * MX
 * CNAME
 * None of these
- 

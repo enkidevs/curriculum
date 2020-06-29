@@ -1,24 +1,19 @@
 ---
 author: emmab
-
 tags:
   - introduction
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-
 links:
-  - '[Tuples](https://docs.python.org/3.5/tutorial/datastructures.html#tuples-and-sequences){website}'
-
+  - >-
+    [Tuples](https://docs.python.org/3.5/tutorial/datastructures.html#tuples-and-sequences){website}
 ---
 
 # The `tuple`
 
+
 ---
+
 ## Content
 
 Tuples are another **sequential** and **immutable** data type.
@@ -43,7 +38,9 @@ my_first_tuple[0] = 'First'
 
 Tuples are mostly used when we need to store values of multiple different types, such as for database fields or CSV column names.
 
+
 ---
+
 ## Practice
 
 Extract the element `'pie'` from the tuple:
@@ -62,6 +59,7 @@ print(???[???])
 
 
 ---
+
 ## Revision
 
 Extract the element `'Enki'` from the tuple:

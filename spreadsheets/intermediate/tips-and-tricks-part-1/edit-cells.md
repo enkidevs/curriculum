@@ -1,19 +1,14 @@
 ---
 author: Stefan-Stojanovic
-
-aspects:
-  - introduction
-  - workout
-
 type: normal
-
 category: how to
-
 ---
 
 # Editing cells
 
+
 ---
+
 ## Content
 
 Editing an empty cell is as simple as clicking on it and typing.
@@ -28,12 +23,13 @@ As you can see above, when we click on the cell we can see its content in the `f
 
 There are 3 ways to edit a cell without replacing all of its content:
 
-- Double click the cell.
-- Select the cell and press the `F2` shortcut to open the `formula bar`.
-- Select the cell and navigate to the `formula bar`.
+* Double click the cell.
+* Select the cell and press the `F2` shortcut to open the `formula bar`.
+* Select the cell and navigate to the `formula bar`.
 
 
 ---
+
 ## Practice
 
 What happens if you click once on a populated cell and start writing?
@@ -43,7 +39,9 @@ What happens if you click once on a populated cell and start writing?
 * The content of the cell is replaced with what you write
 * What you write is added to the end of the content of the cell
 
+
 ---
+
 ## Footnotes
 
 [1:Formula bar]

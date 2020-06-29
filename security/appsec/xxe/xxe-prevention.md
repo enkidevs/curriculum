@@ -84,4 +84,3 @@ xmlparser.parse(untrustedXML)
 * xmlparser.set("doctype", "myDocType")
 * xmlparser.parse(untrustedXML)
 * untrustedXML = request.body
- 

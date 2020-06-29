@@ -1,38 +1,25 @@
 ---
 author: WebReflection
-
-levels:
-
-  - basic
-
-  - advanced
-
-  - medium
-
 type: fillTheGap
-
 category: must-know
-aspects:
-  - introduction
-  - new
-  - workout
 links:
-
-  - '[MDN - Destructuring](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment){documentation}'
-
-standards:
-  javascript.destructuring.0: 1000
-  javascript.destructuring.1: 1000
+  - >-
+    [MDN -
+    Destructuring](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment){documentation}
 ---
 
 # Destructuring assignments
 
+
 ---
+
 ## Content
 
 What will be shown on the console?
 
+
 ---
+
 ## Game Content
 
 ```javascript

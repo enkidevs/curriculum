@@ -48,4 +48,3 @@ In the context of Bitcoin, what is the name of the variable used to solve the ch
 * Hash
 * Backlink
 * Rock
- 

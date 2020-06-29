@@ -1,24 +1,15 @@
 ---
 author: Stefan-Stojanovic
-
-levels:
-  - beginner
-  - basic
-
 type: normal
-
 category: must-know
-
-aspects:
-  - workout
-  - deep
-  - obscura
-
-links:
-
+links: null
 ---
+
 # The `formnovalidate` & `novalidate` Attributes
+
+
 ---
+
 ## Content
 
 The HTML `novalidate` form input attribute is used to specify that the input should not be validated when submitted.
@@ -41,7 +32,9 @@ Example:
 
 [View CodePen](https://codepen.io/enkidevs/pen/xzmmKy)
 
+
 ---
+
 ## Practice
 
 Complete the code by adding the appropriate input form attributes to disable the validation within the form element and in the submit button.
@@ -62,7 +55,9 @@ Complete the code by adding the appropriate input form attributes to disable the
 * form-data
 * datavalidate
 
+
 ---
+
 ## Revision
 
 Complete the code by adding the appropriate input form attributes to disable the validation within the form element and in the submit button.
@@ -76,6 +71,7 @@ Complete the code by adding the appropriate input form attributes to disable the
  <input type="submit" ??? >
 </form>
 ```
+
 * novalidate
 * formnovalidate
 * validate
@@ -83,9 +79,11 @@ Complete the code by adding the appropriate input form attributes to disable the
 
 
 ---
+
 ## Quiz
 
 ### How much do you know about HTML form input attributes?
+
 
 Which statement is not true regarding the `novalidate` attribute?
 

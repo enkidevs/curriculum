@@ -61,4 +61,3 @@ What platform released a standardized token format?
 * Yes
 * Bitcoin
 * Litecoin
- 

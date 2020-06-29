@@ -40,4 +40,3 @@ What can you **NOT** do using spreadsheets?
 * Calculate numerical data.
 * Create graphs and charts.
 * Create pivot tables.
- 

@@ -1,22 +1,17 @@
 ---
 author: alexjmackey
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-  - new
-  - workout
-
 links:
-  - '[Proxy](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy){documentation}'
-
+  - >-
+    [Proxy](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy){documentation}
 ---
+
 # Using Proxies
 
+
 ---
+
 ## Content
 
 Proxies allow you to intercept many different operations and methods:
@@ -95,7 +90,9 @@ Some potential usages:
 * Extending constructors
 * As a shim/fallback for older browsers in the future
 
+
 ---
+
 ## Practice
 
 Fill in the gaps such that log statements hold true:
@@ -126,7 +123,9 @@ console.log(proxy.enki)
 * new Proxy
 * get()
 
+
 ---
+
 ## Revision
 
 Fill in the gaps of the following snippet such that, using a Proxy, the proprieties of `pObj` cannot be deleted via `delete` keyword:
@@ -156,4 +155,3 @@ console.log(pObj)
 * proxy
 * function
 * function*
- 

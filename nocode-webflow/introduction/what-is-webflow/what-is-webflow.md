@@ -1,21 +1,14 @@
 ---
 author: Stefan-Stojanovic
-
-levels:
-  - beginner
-
-aspects:
-  - introduction
-
 type: normal
-
 category: must-know
-
 ---
 
 # What's Webflow?
 
+
 ---
+
 ## Content
 
 Webflow is a very powerful and unique **responsive website design tool**. You won't need to know how to write code (or how websites are made) to create a fully functional website.
@@ -30,7 +23,9 @@ This way of creating websites significantly reduces the time for the `idea → d
 
 On top of creating websites, Webflow provides hosting and shop services (like payments).
 
+
 ---
+
 ## Practice
 
 Webflow is ???.

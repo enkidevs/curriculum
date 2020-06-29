@@ -41,4 +41,3 @@ docker push enki/nginx:latest
 ## Footnotes
 
 [1: nginx][The official Nginx Docker image called `nginx` can be found on DockerHub](<https://hub.docker.com/_/nginx>)
- 

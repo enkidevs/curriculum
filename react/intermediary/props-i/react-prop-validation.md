@@ -1,35 +1,20 @@
 ---
 author: catalin
-
-levels:
-
-  - beginner
-
-  - basic
-
-  - medium
-
-  - advanced
-
 type: normal
-
 category: best practice
-
 links:
-
-  - '[Type checking with PropTypes](https://facebook.github.io/react/docs/typechecking-with-proptypes.html#react.proptypes){website}'
+  - >-
+    [Type checking with
+    PropTypes](https://facebook.github.io/react/docs/typechecking-with-proptypes.html#react.proptypes){website}
   - '[PropTypes library](https://www.npmjs.com/package/prop-types){website}'
-
 parent: destructuring-arguments
-
-aspects:
-  - introduction
-
 ---
 
 # `props` Validation
 
+
 ---
+
 ## Content
 
 `JavaScript` being a loosely typed language you can experience runtime errors when you expect data of one type but receive another. *React* helps us in this by providing a feature called `propTypes`.
@@ -93,7 +78,9 @@ Welcome.propTypes = {
 
 Note that `propTypes` are only checked in development mode due to performance reasons.
 
+
 ---
+
 ## Practice
 
 Complete the missing validation such that the first prop is a function and the second an object:
@@ -106,7 +93,6 @@ Test.propTypes = {
 };
 ```
 
-
 * `PropTypes`
 * `func`
 * `object`
@@ -118,7 +104,9 @@ Test.propTypes = {
 * `Props`
 * `Primitives`
 
+
 ---
+
 ## Revision
 
 Complete the missing validation such that the first prop is a function and the second an object:
@@ -131,7 +119,6 @@ Test.propTypes = {
 };
 ```
 
-
 * `PropTypes`
 * `func`
 * `object`
@@ -142,7 +129,3 @@ Test.propTypes = {
 * `method`
 * `Props`
 * `Primitives`
-
-
- 
- 

@@ -1,25 +1,20 @@
 ---
 author: Stefan-Stojanovic
-
-levels:
-  - beginner
-  - basic
-
 type: normal
-
 category: must-know
+---
 
-aspects:
-  - introduction
-  
----
 # Comments
+
+
 ---
+
 ## Content
 
 In HTML, you can add notes that will not render within the web page and are useful for yourself and other developers via a comment tag.
 
 Example:
+
 ```html
 <!-- HTML Comment Goes Here -->
 ```
@@ -31,6 +26,7 @@ Comments are never visible within the website and are only visible in the source
 Also, comments can be on a single line or span multiple rows.
 
 Example:
+
 ```html
 <!-- Single line comment -->
 
@@ -44,7 +40,9 @@ Example:
 -->
 ```
 
+
 ---
+
 ## Practice
 
 In regards to HTML comments, which of the following is true?:
@@ -57,7 +55,9 @@ In regards to HTML comments, which of the following is true?:
 * The comment is placed within `/* xxx */`.
 * HTML does not support comments.
 
+
 ---
+
 ## Revision
 
 Which option is NOT true: "HTML comments using this code `<!-- stuff here -->`, can..."
@@ -70,12 +70,16 @@ Which option is NOT true: "HTML comments using this code `<!-- stuff here -->`, 
 * be used to debug by hiding blocks of HTML code.
 * visually break up long pages of code into sections.
 
+
 ---
+
 ## Quiz
 
 ### How much do you know about HTML comments?
 
+
 What is happening to this heading text?
+
 ```html
 <!--<h1>Heading</h1>-->
 ```
@@ -86,4 +90,3 @@ What is happening to this heading text?
 * It is displayed larger than normal.
 * It is displayed as a Heading 1 in the web page.
 * It is removed from the HTML code.
- 

@@ -210,4 +210,3 @@ Which of these HTML list elements is best to use to create a glossary?
 * ordered lists
 * unordered lists
 * list items
- 

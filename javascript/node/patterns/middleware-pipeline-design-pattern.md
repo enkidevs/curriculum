@@ -98,4 +98,3 @@ fs.createReadStream('raw.txt')
 * singleton
 * prototype
 * waterfall
- 

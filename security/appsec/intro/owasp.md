@@ -68,4 +68,3 @@ OWASP is:
 * An open source community of common security issues and techniques
 * A hacking group
 * A virus affecting wi-fi enabled microwaves
- 

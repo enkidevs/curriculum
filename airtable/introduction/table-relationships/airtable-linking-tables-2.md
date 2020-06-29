@@ -1,18 +1,14 @@
 ---
 author: kapnobatai136
-
 category: must-know
-
-aspects:
-  - introduction
-
 type: normal
-
 ---
 
 # Linking Tables 2
 
+
 ---
+
 ## Content
 
 Working with the same base related to movies, you now want to keep record of all the tickets sold to the movies. To achieve this, you'll create a new table from a linked field.

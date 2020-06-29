@@ -53,4 +53,3 @@ What is the level of anonymity of most wallets?
 * Similar to one of the coin
 * Anonymous
 * Public
- 

@@ -2,18 +2,21 @@
 author: kapnobatai136
 type: normal
 category: must-know
-aspects:
-  - introduction
 links:
   - '[ts-node NPM package](https://www.npmjs.com/package/ts-node){website}'
-  - '[Try out the hello.ts example](https://repl.it/@enkicontent/TypeScriptHelloWorld){website}'
-  - '[Zero-config CLI for TypeScript development](https://github.com/jaredpalmer/tsdx){website}'
-
+  - >-
+    [Try out the hello.ts
+    example](https://repl.it/@enkicontent/TypeScriptHelloWorld){website}
+  - >-
+    [Zero-config CLI for TypeScript
+    development](https://github.com/jaredpalmer/tsdx){website}
 ---
 
 # Hello TypeScript
 
+
 ---
+
 ## Content
 
 Let's get started writing some TypeScript code:
@@ -48,7 +51,9 @@ To compile TypeScript to JavaScript and run the generated JavaScript as a single
 ts-node hello.ts
 ```
 
+
 ---
+
 ## Practice
 
 To **compile** a TypeScript file called `enki.ts` into a JavaScript file called `enki.js`, you have to run the following command:
@@ -62,7 +67,9 @@ To **compile** a TypeScript file called `enki.ts` into a JavaScript file called 
 * ts
 * typescript
 
+
 ---
+
 ## Revision
 
 To **run** a TypeScript file called `enki.ts`, you can use the following command:

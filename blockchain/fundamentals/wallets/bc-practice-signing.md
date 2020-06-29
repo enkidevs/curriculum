@@ -18,4 +18,3 @@ links:
 ## Exercise
 
 Follow the link below and fiddle around with the message signing and verification processes.
- 

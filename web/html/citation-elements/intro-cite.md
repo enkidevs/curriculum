@@ -1,41 +1,33 @@
 ---
 author: Stefan-Stojanovic
-
-levels:
-  - beginner
-  - basic
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-  - workout
-  - deep
-
 links:
-  - '[HTML <cite> Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/cite){documentation}'
-
+  - >-
+    [HTML <cite>
+    Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/cite){documentation}
 ---
+
 # The `<cite>` Element
 
+
 ---
+
 ## Content
 
 The HTML `<cite>` element is used to describe a reference of a cited **creative work**. This element needs to contain either the title or the URL of the cited work.
 
 What falls under creative work:
 
-- Any online content
-- Any book
-- Any computer program
-- Any original writing
-- Any exhibition
-- Any video
-- Any legal writings
-- Any original artwork
-- Any research paper
+* Any online content
+* Any book
+* Any computer program
+* Any original writing
+* Any exhibition
+* Any video
+* Any legal writings
+* Any original artwork
+* Any research paper
 
 ```html
 <p>
@@ -52,7 +44,9 @@ The cited URL under the `<cite>` element will, by default, display in <i>italic<
 
 [View CodePen](https://codepen.io/enkidevs/pen/xzyKBz)
 
+
 ---
+
 ## Practice
 
 Which statement about the `<cite>` element is not correct?
@@ -68,6 +62,7 @@ Which statement about the `<cite>` element is not correct?
 
 
 ---
+
 ## Revision
 
 What HTML element is best to use in this example?
@@ -97,10 +92,13 @@ tag = ???
 * `<movie>`
 * `<title>`
 
+
 ---
+
 ## Quiz
 
 ### How much do you know about semantic HTML elements?
+
 
 Which HTML element is used to reference the title of a body of work (like a book, song, movie, painting, etc.)?
 

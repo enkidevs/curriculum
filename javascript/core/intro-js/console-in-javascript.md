@@ -1,30 +1,26 @@
 ---
 author: rosielowther
-
 type: normal
-
 category: must-know
-
 tags:
   - introduction
-
 links:
-
-  - '[MDN Documentation](https://developer.mozilla.org/en/docs/Web/API/Console/log){documentation}'
-
-aspects:
-  - introduction
-
+  - >-
+    [MDN
+    Documentation](https://developer.mozilla.org/en/docs/Web/API/Console/log){documentation}
 ---
 
 # `console.*` in JavaScript
 
+
 ---
+
 ## Content
 
 The `console.*` methods output information to a console.
 
 For example, `console.log` can print out a message:
+
 ```js
 console.log("This is my message");
 // This is my message
@@ -40,16 +36,19 @@ console.log("Username: " + username);
 A few other useful console methods include:
 
 Sending a warning to the console.
+
 ```js
 console.warn("Resource not changed")
 ```
 
 Sending an error message to the console.
+
 ```js
 console.error("File not found!")
 ```
 
 Viewing the current stack trace.
+
 ```js
 console.trace()
 ```
@@ -64,7 +63,9 @@ In addition to this, `console.*` can be used to pipe information to `stdout` in 
 
 > Note: as with all the skills in the app, if you want to access more advanced or specific content at any time, **feel free to use the *Skill Map* tab** to jump to the workouts most relevant for you.
 
+
 ---
+
 ## Practice
 
 Which of the following is the correct method for outputting information to the console? ???
@@ -74,10 +75,13 @@ Which of the following is the correct method for outputting information to the c
 * `console.print();`
 * `console.println();`
 
+
 ---
+
 ## Revision
 
 Log a message in the `console`:
+
 ```javascript
 ???.???("my message");
 ```

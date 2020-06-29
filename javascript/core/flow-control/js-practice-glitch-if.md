@@ -1,40 +1,25 @@
 ---
 author: lizTheDeveloper
-
-levels:
-
-  - beginner
-
-  - basic
-
-
 tags:
-
   - introduction
-  
-aspects:
-  - introduction
-
 type: exercise
-
 linkType: glitch
-link: https://glitch.com/edit/#!/enki-javascripting-9
-
-
-standards:
-  javascript.javascript-syntax.2: 1000
-  javascript.control-flow.1: 1000
-
-
+link: 'https://glitch.com/edit/#!/enki-javascripting-9'
 links:
-  - '[If statements in JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else){documentation}'
-  - '[Javascript Control Flow](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Control_flow_and_error_handling){walkthrough}'
+  - >-
+    [If statements in
+    JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else){documentation}
+  - >-
+    [Javascript Control
+    Flow](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Control_flow_and_error_handling){walkthrough}
 ---
+
 # JavaScript If Statements
+
+
 ---
 
 ## Exercise
-
 
 In the file named `answer.js`, declare a variable named `fruit`.
 

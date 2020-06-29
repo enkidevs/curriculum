@@ -1,21 +1,16 @@
 ---
 author: catalin
-
 type: normal
-
 category: hack
-
-aspects:
-  - introduction
-  - workout
-  
 links:
   - '[davidwalsh.name](https://davidwalsh.name/merge-arrays-javascript){website}'
-
 ---
+
 # How to merge two arrays
 
+
 ---
+
 ## Content
 
 One approach that we can use to merge two arrays in JavaScript, is to loop through the first array and add each of its elements to the second array:
@@ -54,7 +49,6 @@ let array3 = array1.concat(array2);
 
 The notable difference when using `concat` is that, instead of merging one array into another, it generates a new array out of the two merged arrays.
 
-
 Note that, unlike other languages, JavaScript does not support using `+` to concatenate arrays. The output of such an operation would be a string:
 
 ```javascript
@@ -62,7 +56,9 @@ console.log([1, 2] + [3, 4])
 // 1,23,4
 ```
 
+
 ---
+
 ## Practice
 
 Modify `array1` such that it contains `array2`'s contents in order.
@@ -77,10 +73,12 @@ array1.???(???array2)
 * push
 * ...
 * merge
-* +
+* *
 * concat
 
+
 ---
+
 ## Revision
 
 What is the value of `a` at the end of the following snippet?
@@ -100,10 +98,13 @@ console.log(a);
 * [[3, 1, 4], [2, 7, 1]]
 * 2, 7, 1
 
+
 ---
+
 ## Quiz
 
 ### what is the result of the following addition?
+
 
 ```javascript
 console.log([3, 14] + [2, 71])
@@ -115,5 +116,3 @@ console.log([3, 14] + [2, 71])
 * 3,14,2,71
 * [3,14,2,71]
 * [5, 85]
- 
- 

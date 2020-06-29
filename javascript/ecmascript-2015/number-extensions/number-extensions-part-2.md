@@ -1,27 +1,18 @@
 ---
 author: alexjmackey
-
-levels:
-  - beginner
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-  - new
-  - workout
-
 inAlgoPool: false
-
 links:
-  - '[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number){website}'
-
+  - >-
+    [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number){website}
 ---
+
 # Number Extensions (Part 2)
 
+
 ---
+
 ## Content
 
 ### Number.EPSILON
@@ -52,7 +43,9 @@ Number.MIN_SAFE_INTEGER; //-9007199254740991
 Number.MAX_SAFE_INTEGER; //9007199254740991
 ```
 
+
 ---
+
 ## Practice
 
 Fill in the gaps with the `Number` constants' names:
@@ -82,7 +75,9 @@ Number.???
 * MIN_IEEE_INTEGER
 * MAX_IEEE_INTEGER
 
+
 ---
+
 ## Revision
 
 How do you check if a number can be represented in IEEE-754 format?

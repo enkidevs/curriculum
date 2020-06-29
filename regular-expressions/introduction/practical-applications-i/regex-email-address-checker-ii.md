@@ -1,33 +1,28 @@
 ---
 author: emmab
-
 tags:
   - introduction
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-  - workout
-
 links:
   - '[Email Address Regex](http://emailregex.com/){website}'
-  - '[Stackoverflow Email Address Checker](https://stackoverflow.com/questions/201323/how-to-validate-an-email-address-using-a-regular-expression/201378#201378){website}'
-
+  - >-
+    [Stackoverflow Email Address
+    Checker](https://stackoverflow.com/questions/201323/how-to-validate-an-email-address-using-a-regular-expression/201378#201378){website}
 ---
 
 # Email Address Checker II
 
+
 ---
+
 ## Content
 
 There are so many different ways that we could write our email address checker. 
 
 Here's another way that allows an optional domain name extension, like `co.uk`, but which also works for `.com`:
 
-```
+```plain-text
 /^[a-zA-Z0-9.!#$%&’*+/=?^_{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/
 ```
 
@@ -49,31 +44,30 @@ Take a look [here](http://emailregex.com/) and [here](https://stackoverflow.com/
 
 
 ---
+
 ## Practice
 
 Which part of the following regex pattern matches each part of the email address?
 
 `tacos@enki.com` ✅
 
-```
-/??? ??? ??? ???/
-```
+    /??? ??? ??? ???/
 
 * `(tacos)`
 * `@`
 * `[a-z]+`
 * `(?:\.[a-z]+)*`
 
+
 ---
+
 ## Revision
 
 Which part of the following regex pattern matches each part of the email address?
 
 `we_love_tacos@enki.com` ✅
 
-```
-/??? ??? ??? ???/
-```
+    /??? ??? ??? ???/
 
 * `[a-z_]+`
 * `@`

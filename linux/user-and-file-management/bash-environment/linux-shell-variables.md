@@ -1,23 +1,18 @@
 ---
 author: kapnobatai136
-
-aspects:
-  - introduction
-
 type: normal
-
 category: must-know
-
 tags:
   - introduction
   - linux
   - variables
-
 ---
 
 # Variables
 
+
 ---
+
 ## Content
 
 Think of a *variable* as a box. 
@@ -50,7 +45,9 @@ echo best_app
 # best_app
 ```
 
+
 ---
+
 ## Practice
 
 Create a variable named `good_dog` that stores `"Artemis"`, and then print it:
@@ -66,7 +63,9 @@ echo ???
 * $good_dog
 * $Artemis
 
+
 ---
+
 ## Revision
 
 Which of these variable declarations will throw an error?

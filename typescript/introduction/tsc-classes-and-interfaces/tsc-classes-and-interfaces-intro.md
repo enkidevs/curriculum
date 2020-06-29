@@ -2,17 +2,17 @@
 author: nem035
 type: normal
 category: must-know
-aspects:
-  - deep
-  - workout
 links:
-  - '[Play with interfaces and classes](https://repl.it/@enkicontent/TypeScriptDragonsFlyButNotFish){website}'
-
+  - >-
+    [Play with interfaces and
+    classes](https://repl.it/@enkicontent/TypeScriptDragonsFlyButNotFish){website}
 ---
 
 # Classes and Interfaces
 
+
 ---
+
 ## Content
 
 Interfaces can be used with classes as their **behavioral contract**.
@@ -87,6 +87,7 @@ nemo.fly() // fish can't fly :)
 
 
 ---
+
 ## Practice
 
 Fill in the gaps such that the code contains no type errors:
@@ -117,7 +118,9 @@ e.category;
 * create
 * instantiate
 
+
 ---
+
 ## Revision
 
 Will this code run without errors?

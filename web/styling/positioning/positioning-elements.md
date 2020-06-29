@@ -96,4 +96,3 @@ For which value of `position` you cannot use box offsets?
 * Static
 * Relative
 * Absolute
- 

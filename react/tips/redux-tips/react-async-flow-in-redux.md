@@ -1,30 +1,25 @@
 ---
 author: catalin
-
-levels:
-  - advanced
-  - medium
-
 type: normal
-
 category: how to
-
 links:
-  - '[Async actions](http://redux.js.org/docs/advanced/AsyncActions.html){website}'
-  - '[Why do we need middleware for async flow in Redux](http://stackoverflow.com/questions/34570758/why-do-we-need-middleware-for-async-flow-in-redux){website}'
+  - >-
+    [Async
+    actions](http://redux.js.org/docs/advanced/AsyncActions.html){website}
+  - >-
+    [Why do we need middleware for async flow in
+    Redux](http://stackoverflow.com/questions/34570758/why-do-we-need-middleware-for-async-flow-in-redux){website}
   - '[Redux thunk](https://github.com/reduxjs/redux-thunk){website}'
-
 notes: >-
   This insight should be given right before or after the specific Middleware
   insight. ( 56a2137805a87a0600cfa409 )
-
-aspects:
-  - deep
-
 ---
+
 # Async flow in Redux
 
+
 ---
+
 ## Content
 
 The default **Redux** store only supports synchronous data flow. However, with the help of `middleware`s, asynchronous data flow is also possible.
@@ -94,7 +89,9 @@ function conditional_async() {
 
 In this example, we get the current `state` of our app, and if the `counter` is less that 51 we dispatch the `increase()` action defined before. If the `counter` is higher than or equal to 51, then we do nothing.
 
+
 ---
+
 ## Practice
 
 Which of the following packages do you think does not provide support for async flow in your **React** application?
@@ -105,7 +102,9 @@ Which of the following packages do you think does not provide support for async 
 * redux-thunk
 * redux-promise
 
+
 ---
+
 ## Revision
 
 Does the default Redux store support asynchronous data flow?
@@ -116,4 +115,3 @@ Does the default Redux store support asynchronous data flow?
 * yes
 * only if used with React
 * only with ES6
-

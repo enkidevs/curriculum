@@ -1,25 +1,23 @@
 ---
 author: emmab
-
 tags:
   - introduction
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-
 links:
-  - '[Learn Regex](https://www.freecodecamp.org/news/learn-regular-expressions-with-this-free-course-37511963d278/){website}'
-  - '[Regex Use Cases](https://digitalfortress.tech/tricks/top-15-commonly-used-regex/){website}'
-
+  - >-
+    [Learn
+    Regex](https://www.freecodecamp.org/news/learn-regular-expressions-with-this-free-course-37511963d278/){website}
+  - >-
+    [Regex Use
+    Cases](https://digitalfortress.tech/tricks/top-15-commonly-used-regex/){website}
 ---
 
 # Why Learn Regex II
 
+
 ---
+
 ## Content
 
 So now we know that *anyone can use regex.* But what exactly are the main benefits?
@@ -34,6 +32,7 @@ Using regex to match patterns is *extremely flexible*. Methods to *find, extract
 
 
 ---
+
 ## Practice
 
 Regex can be used to ???  usernames.
@@ -43,7 +42,9 @@ Regex can be used to ???  usernames.
 * store
 * create
 
+
 ---
+
 ## Revision
 
 Regex can be used to ??? the domain of an email address.

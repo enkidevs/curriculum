@@ -1,35 +1,27 @@
 ---
 author: Ricardo
-
-levels:
-  - basic
-  - medium
-
-aspects:
-  - obscura
-
 type: normal
-
 category: tip
-
 tags:
   - generators
   - iterators
   - performance
-
-
 links:
-
-  - '[www.jeffknupp.com](https://www.jeffknupp.com/blog/2013/04/07/improve-your-python-yield-and-generators-explained/){website}'
-  - '[Python official documentation](https://www.python-course.eu/python3_generators.php){website}'
-  - '[A blog post talking about generators](http://book.pythontips.com/en/latest/generators.html){website}'
-
-
+  - >-
+    [www.jeffknupp.com](https://www.jeffknupp.com/blog/2013/04/07/improve-your-python-yield-and-generators-explained/){website}
+  - >-
+    [Python official
+    documentation](https://www.python-course.eu/python3_generators.php){website}
+  - >-
+    [A blog post talking about
+    generators](http://book.pythontips.com/en/latest/generators.html){website}
 ---
 
 # Benefits of using generators
 
+
 ---
+
 ## Content
 
 Generators are functions which behave like iterators, but can have better performance characteristics. These include:   
@@ -40,7 +32,9 @@ Generators are functions which behave like iterators, but can have better perfor
 
 However, the set of generated values can only be used once.
 
+
 ---
+
 ## Practice
 
 What will the output of the following code snippet be?
@@ -70,12 +64,10 @@ print(next(temp))
 
 
 ---
+
 ## Revision
 
 Because generators create values on demand, this results in ??? memory consumption.
 
-
 * lower
 * higher
-
- 

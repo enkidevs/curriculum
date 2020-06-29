@@ -31,4 +31,3 @@ How do you visually represent data in spreadsheets?
 * Using graphs or charts.
 * Using images.
 * Using gifs.
- 

@@ -39,4 +39,3 @@ Documents in a MongoDB collection always have to have the same structure.
 
 * False
 * True
- 

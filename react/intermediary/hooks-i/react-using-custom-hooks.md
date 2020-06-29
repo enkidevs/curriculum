@@ -1,19 +1,14 @@
 ---
 author: kapnobatai136
-
 type: normal
-
 category: how to
-
-aspects:
-  - workout
-  - deep
-
 ---
 
 # Using custom hooks
 
+
 ---
+
 ## Content
 
 Now that we know how to write our own custom hooks, let's see how to integrate them with components. Let's say that we have two components that make use of the same piece of code. We start off by creating our custom hook:
@@ -55,7 +50,9 @@ function User(props) {
 
 Notice how we followed the rules by only calling hooks at the top-level of the function.
 
+
 ---
+
 ## Practice
 
 Where can you call custom hooks inside a component?
@@ -66,7 +63,9 @@ Where can you call custom hooks inside a component?
 * Anywhere.
 * Only inside a `useEffect()` statement.
 
+
 ---
+
 ## Revision
 
 Are custom hooks a reliable method for re-using logic?

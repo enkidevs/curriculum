@@ -1,24 +1,21 @@
 ---
 author: alexjmackey
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-  - new
-  - workout
-  - deep
-
 links:
-  - '[Symbols in Depth](https://ponyfoo.com/articles/es6-symbols-in-depth){website}'
-  - '[MDN Documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol){documentation}'
-
+  - >-
+    [Symbols in
+    Depth](https://ponyfoo.com/articles/es6-symbols-in-depth){website}
+  - >-
+    [MDN
+    Documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol){documentation}
 ---
+
 # Symbol
 
+
 ---
+
 ## Content
 
 ES6 introduced a new primitive type - `Symbol`.
@@ -63,7 +60,9 @@ This probably is not what you would expect but remember `Symbol`s are always uni
 
 If you want to be able to access the same symbol using a key, we can use the `Symbol` registry which we will discuss next.
 
+
 ---
+
 ## Practice
 
 What will be the output of the following statements ?
@@ -92,7 +91,9 @@ console.log(sym1 === sym2);
 * "number"
 * "primitive"
 
+
 ---
+
 ## Revision
 
 How do you create a `Symbol`?
@@ -117,4 +118,3 @@ const sym = Symbol.new("enki");
 * a
 * b
 * d
- 

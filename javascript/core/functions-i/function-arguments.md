@@ -1,29 +1,17 @@
 ---
 author: alexjmackey
-
-levels:
-  - beginner
-
 type: normal
-
 category: must-know
-
 inAlgoPool: false
-
 tags:
   - introduction
-
-
-aspects:
-  - introduction
-  - workout
-
-
 ---
 
 # Function Arguments
 
+
 ---
+
 ## Content
 
 When we pass primitive values (such as numbers and strings) into a function, we are actually passing in a copy of each of those values instead of the originals. This behavior is called **pass by value**. If we were to manipulate one of those values, the changes will not be reflected on the original value outside of the function.
@@ -50,21 +38,25 @@ changeObj(obj);
 console.log(obj.name); // Apple
 ```
 
+
 ---
+
 ## Practice
 
 In JavaScript, objects are passed into a function as a ???.
-
 
 * reference
 * value
 * string
 * json
 
+
 ---
+
 ## Revision
 
 What will the following snippet output?
+
 ```js
 function changeProp(obj){
   obj.name = "John";
@@ -80,4 +72,3 @@ console.log(per.name);
 * Alex
 * undefined
 * null
-

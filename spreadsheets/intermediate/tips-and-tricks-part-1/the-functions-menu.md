@@ -1,19 +1,14 @@
 ---
 author: Stefan-Stojanovic
-
-aspects:
-  - introduction
-  - workout
-
 type: normal
-
 category: how to
-
 ---
 
 # The `functions` menu
 
+
 ---
+
 ## Content
 
 Instead of typing the equals sign and the function name every time you want to add a new function, you can just select one from the `functions` button.

@@ -2,19 +2,23 @@
 author: kapnobatai136
 type: normal
 category: must-know
-aspects:
-  - introduction
-  - workout
 links:
-  - '[Any Type](https://www.typescriptlang.org/docs/handbook/basic-types.html#any){documentation}'
-  - '[Void Type](https://www.typescriptlang.org/docs/handbook/basic-types.html#void){documentation}'
-  - '[Null & Undefined](https://www.typescriptlang.org/docs/handbook/basic-types.html#null-and-undefined){documentation}'
-
+  - >-
+    [Any
+    Type](https://www.typescriptlang.org/docs/handbook/basic-types.html#any){documentation}
+  - >-
+    [Void
+    Type](https://www.typescriptlang.org/docs/handbook/basic-types.html#void){documentation}
+  - >-
+    [Null &
+    Undefined](https://www.typescriptlang.org/docs/handbook/basic-types.html#null-and-undefined){documentation}
 ---
 
 # Any, Void, Null, Undefined
 
+
 ---
+
 ## Content
 
 ### Any
@@ -53,7 +57,9 @@ let zilch: undefined = undefined;
 let isEqualToNull: null = null;
 ```
 
+
 ---
+
 ## Practice
 
 Will this code produce an error?
@@ -71,7 +77,9 @@ cheers();
 * No
 * Yes
 
+
 ---
+
 ## Revision
 
 Using the `any` type is usually not useful because it defeats the purpose of type-checking since it allows all values.
@@ -81,7 +89,9 @@ Using the `any` type is usually not useful because it defeats the purpose of typ
 * true
 * false
 
+
 ---
+
 ## Footnotes
 
 [1:Undefined vs Null]

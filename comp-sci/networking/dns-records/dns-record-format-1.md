@@ -1,27 +1,19 @@
 ---
 author: amgando
-
-levels:
-  - medium
-
-aspects:
-  - introduction
-  - workout
-
 type: normal
 category: feature
-
-standards:
-  comp-sci.dns.6: 10
-
 links:
-
   - '[RFC 1035](https://tools.ietf.org/html/rfc1035#page-12){documentation}'
-  - '[DNS Sections Primer](https://www2.cs.duke.edu/courses/fall16/compsci356/DNS/DNS-primer.pdf){article}'
+  - >-
+    [DNS Sections
+    Primer](https://www2.cs.duke.edu/courses/fall16/compsci356/DNS/DNS-primer.pdf){article}
+---
+
+# DNS Record Format
+
 
 ---
-# DNS Record Format
----
+
 ## Content
 
 DNS messages have 5 sections:
@@ -32,7 +24,9 @@ DNS messages have 5 sections:
 * Authority, which contains a resource record suggesting a better source of authority.
 * Additional Information, which contains extra details that might help the individual making the query, but which are not strictly necessary to answer the question.
 
+
 ---
+
 ## Practice
 
 Which of the 5 DNS sections are not strictly necessary for DNS to work?
@@ -45,7 +39,9 @@ Which of the 5 DNS sections are not strictly necessary for DNS to work?
 * Authority
 * Headers
 
+
 ---
+
 ## Revision
 
 Which section of a DNS message contains metadata about the DNS message itself?
@@ -57,4 +53,3 @@ Which section of a DNS message contains metadata about the DNS message itself?
 * answers
 * authority
 * additional information
- 

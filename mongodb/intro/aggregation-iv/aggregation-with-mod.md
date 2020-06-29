@@ -1,28 +1,20 @@
 ---
 author: Stefan-Stojanovic
-
-levels:
-  - beginner
-  - basic
-  
-aspects:
-  - introduction
-  - new
-
 type: normal
-
 category: how to
-
 ---
 
 # `$mod`
 
+
 ---
+
 ## Content
 
 The aggregation `$mod` operator is used to calculate the `modulus` (remainder) when dividing 2 numbers.
 
 Syntax:
+
 ```javascript
 { $mod: 
   [ 
@@ -45,7 +37,9 @@ db.pokemon.aggregate([
   }
 ]);
 ```
+
 Output:
+
 ```javascript
 {   
   "_id": ObjectId(
@@ -63,7 +57,9 @@ Output:
 
 In the example above, we used the `$mod` to calculate how many spells each pokémon has to cast to evolve into a better version of itself.
 
+
 ---
+
 ## Practice
 
 What is the `$mod` aggregation operator used for?

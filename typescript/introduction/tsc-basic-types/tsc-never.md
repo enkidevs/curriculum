@@ -2,17 +2,17 @@
 author: kapnobatai136
 type: normal
 category: must-know
-aspects:
-  - introduction
-  - workout
 links:
-  - '[Never Type](https://www.typescriptlang.org/docs/handbook/basic-types.html#never){documentation}'
-
+  - >-
+    [Never
+    Type](https://www.typescriptlang.org/docs/handbook/basic-types.html#never){documentation}
 ---
 
 # Never
 
+
 ---
+
 ## Content
 
 The type `never` is used to represent a value that **never** occurs.
@@ -47,7 +47,9 @@ function impossibleValue(value) {
 }
 ```
 
+
 ---
+
 ## Practice
 
 The `never` type is used for values that ???.
@@ -57,7 +59,9 @@ The `never` type is used for values that ???.
 * are falsy
 * never return
 
+
 ---
+
 ## Revision
 
 What is the return type of `enki`?

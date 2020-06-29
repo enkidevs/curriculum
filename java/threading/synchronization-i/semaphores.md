@@ -1,25 +1,14 @@
 ---
 author: nickdaminov
-
-levels:
-
-  - medium
-
 type: normal
-
 category: pattern
-
-aspects:
-
-  - workout
-
-  - deep
-
 ---
 
 # Semaphores
 
+
 ---
+
 ## Content
 
 Semaphores are very similar to locks, the only difference is that they allow multiple threads/processes to enter the *critical section*[1].
@@ -59,7 +48,9 @@ public class Semaphore {
 }
 ```
 
+
 ---
+
 ## Practice
 
 What is the key difference between a lock and a semaphore?
@@ -70,7 +61,9 @@ What is the key difference between a lock and a semaphore?
 * Semaphore can be accessed across processes whereas lock is only accessible across threads
 * Semaphore holds a flag value which signalizes when an execution of a thread is finished
 
+
 ---
+
 ## Revision
 
 What is the key difference between a lock and a semaphore?
@@ -81,8 +74,10 @@ What is the key difference between a lock and a semaphore?
 * Semaphore can be accessed across processes whereas lock is only accessible across threads
 * Semaphore holds a flag value which signalizes when an execution of a thread is finished
 
+
 ---
+
 ## Footnotes
+
 [1:Critical Section]
 Section of a code which can only be accessed by a certain number of threads/processes (usually no more than one).
- 

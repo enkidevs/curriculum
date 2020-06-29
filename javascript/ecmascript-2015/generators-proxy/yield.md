@@ -1,21 +1,17 @@
 ---
 author: alexjmackey
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-  - workout
-
 links:
-  - '[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/yield#Examples){website}'
-
+  - >-
+    [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/yield#Examples){website}
 ---
+
 # yield
 
+
 ---
+
 ## Content
 
 We can actually make our number example even more succinct by using `yield*`:
@@ -49,7 +45,9 @@ it.next(); // {value: 4, done: false}
 it.next(); // {value: 5, done: false}
 ```
 
+
 ---
+
 ## Practice
 
 Fill in the missing gaps such that the `next()` calls' output stand true:
@@ -83,7 +81,9 @@ x.next()
 * await
 * Promise.all
 
+
 ---
+
 ## Revision
 
 Fill in the missing gaps such that the `next()` calls' output stand true:
@@ -123,4 +123,3 @@ x.next()
 * function
 * gen2
 * return*
- 

@@ -1,26 +1,22 @@
 ---
 author: kapnobatai136
-
 category: feature
-
-aspects:
-  - workout
-  - deep
-
 type: normal
-
 ---
 
 # Update Dynamically 2
 
+
 ---
+
 ## Content
 
 In this case, you want to set the step such that every time the zap runs:
-- if you have access to the base (the search step)
-  - meaning that if the value found in the `Has Access` column is `Yes`
-- your number of access days will be updated to 7 (the update step)
-  - the corresponding cell in the `# of days` column will be updated to `7`
+
+* if you have access to the base (the search step)
+  * meaning that if the value found in the `Has Access` column is `Yes`
+* your number of access days will be updated to 7 (the update step)
+  * the corresponding cell in the `# of days` column will be updated to `7`
 
 Create the search step first as this needs to be completed before the update.
 
@@ -32,7 +28,9 @@ As you can see, all it needs to do is look in the `Has Access` column for a `Yes
 
 Because of how to search step was created (starting from the update step), the `Row` and `Custom Value for Row ID` fields are already completed. All that is left to do is set the `# of days` to `7` (or any other number that you wish).
 
+
 ---
+
 ## Practice
 
 Which of the following is not a possible option in Zapier?
@@ -43,7 +41,9 @@ Which of the following is not a possible option in Zapier?
 * Search for data.
 * Update data.
 
+
 ---
+
 ## Revision
 
 To dynamically change data for every iteration of the zap, you need to add a ??? step.

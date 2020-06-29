@@ -40,4 +40,3 @@ In order to do this properly, you will need to satisfy the following conditions:
 * *The `daily_price` field should default to `0`*
 
 After that is done, the seed script should run properly.
- 

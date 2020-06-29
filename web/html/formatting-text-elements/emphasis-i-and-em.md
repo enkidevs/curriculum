@@ -1,40 +1,31 @@
 ---
 author: Stefan-Stojanovic
-
-levels:
-  - beginner
-  - basic
-
 type: normal
-
 category: must-know
-
 stub: true
-
 tags:
   - introduction
-
-aspects:
-  - introduction
-
-links:
-
+links: null
 ---
+
 # Italic & Emphasis
+
+
 ---
+
 ## Content
 
 The HTML `<i>` and `<em>` elements appear very similar since they both have the same default CSS styling of `font-style: italic`. But they both have different purposes.
 
 The `<i>` element, which stands for **Italic**, is used set a part of a text in a different tone. These parts of text may include:
 
-  - Foreign language phrases
-  - Fictional characters's thoughts
-  - Technical terms
-  - A Thought
-  - A ship/plane name
-  - Scientific names
-  - Etc..
+* Foreign language phrases
+* Fictional characters's thoughts
+* Technical terms
+* A Thought
+* A ship/plane name
+* Scientific names
+* Etc..
 
 ```html
 <p>
@@ -92,6 +83,7 @@ This is good for expressing a greater degree of emphasis in a sentence. Also, by
 Additionally, the `<em>` and `<i>` elements can be used together.
 
 EM & I Example:
+
 ```html
 <p>
   The
@@ -105,12 +97,12 @@ EM & I Example:
   name for a pirate ship.
 </p>
 ```
+
 EM & I Result:
 
 ![element-em-and-i](https://img.enkipro.com/546f603fa4b9c2cacb6c1bab2ebff09d.png)
 
 [View CodePen](https://codepen.io/enkidevs/pen/djNYYw)
-
 
 ### Using with Cite
 
@@ -138,7 +130,9 @@ If you add the name of the movie where *Black Pearl* is from, you would do so wi
 
 [View CodePen](https://codepen.io/enkidevs/pen/GBrpoV)
 
+
 ---
+
 ## Practice
 
 Write the code to properly express emphasis in this sentence:
@@ -162,7 +156,9 @@ Mark the false statement about the `<em>` element.
 * `em > em` in CSS will style nested `<em>` elements.
 * `<em>`s and nested `<em>`s will display the exact same by default.
 
+
 ---
+
 ## Revision
 
 When text is being read by a person (or software) to add emphasis to the pronunciation, use: ???
@@ -175,10 +171,13 @@ When emphasis is needed for a foreign word, a fictional character's thoughts, or
 * `<b>`
 * `<strong>`
 
+
 ---
+
 ## Quiz
 
 ### How much do you know about HTML text?
+
 
 Write the code to properly express emphasis in this sentence:
 

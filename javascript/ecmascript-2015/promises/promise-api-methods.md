@@ -1,28 +1,19 @@
 ---
 author: alexjmackey
-
-levels:
-  - medium
-  - advanced
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-  - workout
-
 inAlgoPool: false
-
 links:
-
-  - '[MDN - Promises](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Promise){website}'
-
+  - >-
+    [MDN -
+    Promises](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Promise){website}
 ---
+
 # Promise API Methods
 
+
 ---
+
 ## Content
 
 The promise API supplies a number of methods for working with multiple promises.
@@ -59,7 +50,9 @@ var p1 = Promise.reject(new Error("fail"));
 var p2 = Promise.resolve();
 ```
 
+
 ---
+
 ## Practice
 
 Given the following code snippet, what do you think will be the output of each method call?
@@ -96,7 +89,9 @@ Promise.race([p1, p2, p3]).then(res =>
 * ['c', 'b', 'a']
 * ['c', 'a', 'b']
 
+
 ---
+
 ## Revision
 
 Which static `Promise` method will resolve after all promises in the array supplied as input resolve?
@@ -115,4 +110,3 @@ Which static `Promise` method will resolve when the first promise in the array s
 * Promise.vector
 * Promise.first
 * Promise.reject
- 

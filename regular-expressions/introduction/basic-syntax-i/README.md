@@ -1,7 +1,5 @@
 name: Basic Syntax I
-
-description: Explore basic regex syntax - letters, quantifiers and wildcards.
-
+description: 'Explore basic regex syntax - letters, quantifiers and wildcards.'
 insights:
   - regex-basics
   - regex-quantifiers-i
@@ -9,3 +7,5 @@ insights:
   - regex-wildcards-i
   - regex-wildcards-ii
   - regex-escaping-characters
+aspects:
+  - introduction

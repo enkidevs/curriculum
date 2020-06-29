@@ -1,43 +1,21 @@
 ---
 author: Dral
-
-levels:
-
-  - advanced
-
 type: normal
-
 category: how to
-
-standards:
-
-  javascript.async.2: 10
-
 tags:
-
   - promises
-
   - functional programming
-
   - async
-
   - introduction
-
-  - workout
-
-  - deep
-
-aspects:
   - workout
   - deep
-  - obscura
-
-
 ---
 
 # Transform values into promises
 
+
 ---
+
 ## Content
 
 To keep your API consistent, or prototype for testing, it's often useful to return a `Promise` that resolves to a value directly.
@@ -62,7 +40,9 @@ return Promise.reject(
 )
 ```
 
+
 ---
+
 ## Practice
 
 Create the following promise to represent an error:
@@ -79,7 +59,9 @@ return Promise.???(
 * `create`
 * `exception`
 
+
 ---
+
 ## Revision
 
 Complete the shortcut notation for **Promises** in **ES6**:
@@ -87,7 +69,6 @@ Complete the shortcut notation for **Promises** in **ES6**:
 ```javascript
 return ???.???('my value');
 ```
-
 
 * `Promise`
 * `resolve`
@@ -97,9 +78,13 @@ return ???.???('my value');
 * `return`
 * `prom`
 
+
 ---
-## Quiz 
+
+## Quiz
+
 ### In what order will these console.log() statements occur?
+
 
 In what order will these `console.log()` statements occur?
 
@@ -117,15 +102,9 @@ element.addEventListener('click', () => {
 })
 ```
 
-
  ???
 
 * Listener 1; Microtask 1; Listener 2; Microtask 2;
 * Listener 1; Listener 2; Microtask 1; Microtask 2;
 * Microtask 1; Listener 1; Microtask 2; Listener 2;
 * Microtask 2; Listener 2; Microtask 1; Listener 1;
- 
- 
- 
- 
- 

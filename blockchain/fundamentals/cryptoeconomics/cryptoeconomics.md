@@ -43,4 +43,3 @@ What are the means through which malevolent behavior is prevented?
 * economic punishments
 * economic incentives
 * cryptographic algorithms
- 

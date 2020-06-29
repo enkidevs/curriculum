@@ -49,4 +49,3 @@ What is the level of anonymity provided by the Bitcoin network?
 * pseudoanonymity
 * complete anonymity
 * no anonymity
- 

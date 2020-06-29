@@ -1,18 +1,14 @@
 ---
 author: kapnobatai136
-
 category: must-know
-
-aspects:
-  - introduction
-
 type: normal
-
 ---
 
 # Sorting Data
 
+
 ---
+
 ## Content
 
 Yet another useful feature that Airtable has is **sorting data**. Similar to filters, you can create new views in which certain fields are sorted, or you can apply a sorting rule to an existing view.
@@ -29,7 +25,9 @@ Start off by creating a filter that says `Where Lead is Catalin`. Now, sort the 
 
 As a last step, you can rename the view by either right clicking on `Grid view` or by clicking the `...` button (the far right button on the toolbar). We renamed this view `Catalin's view`. 
 
+
 ---
+
 ## Practice
 
 Sorting and filtering can be used for both ??? and ???.

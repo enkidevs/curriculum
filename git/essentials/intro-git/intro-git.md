@@ -1,18 +1,14 @@
 ---
 author: kapnobatai136
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-
 ---
 
 # What's Git?
 
+
 ---
+
 ## Content
 
 If you're not already familiar with **Git**, it is the de facto standard of version control.

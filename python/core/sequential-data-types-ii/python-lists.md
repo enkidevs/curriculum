@@ -1,21 +1,16 @@
 ---
 author: emmab
-
 tags:
   - introduction
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-
 ---
 
 # Lists
 
+
 ---
+
 ## Content
 
 Lists are another **sequential data type** that act as containers for objects. 
@@ -48,7 +43,9 @@ We can also use our `index` and `count` methods that we learnt about back in the
 
 Let's discover some more `list` methods next!
 
+
 ---
+
 ## Practice
 
 Complete the code snippet to add a value to the `list`:
@@ -63,7 +60,9 @@ new_list.???(5)
 * `push`
 * `index`
 
+
 ---
+
 ## Revision
 
 Complete the code snippet to return item at index `0` in the `list`:

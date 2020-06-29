@@ -1,27 +1,18 @@
 ---
 author: Stefan-Stojanovic
-
-levels:
-  - beginner
-  - basic
-
 type: normal
-
 category: must-know
-
 stub: true
-
 tags:
   - deep
-
-aspects:
-  - introduction
-
-links:
-
+links: null
 ---
+
 # Intro `<abbr>`
+
+
 ---
+
 ## Content
 
 The HTML `<abbr>`, or the **Abbreviation** element, is used to represent an abbreviation. The element has a `title` attribute which can provide a full description of the abbreviation and nothing else.
@@ -51,7 +42,9 @@ The `<abbr>` element can also be styled with appropriate CSS properties.
 
 [View CodePen](https://codepen.io/enkidevs/pen/rKQEEK)
 
+
 ---
+
 ## Practice
 
 Write the code that provides a full description of the abbreviation for search engines and visually impaired software.
@@ -65,7 +58,9 @@ Write the code that provides a full description of the abbreviation for search e
 * "HyperText Markup Language"
 * desc
 
+
 ---
+
 ## Revision
 
 Which HTML element is used with abbreviations to provide a full description for search engines and visually impaired software?
@@ -79,10 +74,17 @@ Which HTML element is used with abbreviations to provide a full description for 
 * acro
 * desc
 
+
 ---
+
 ## Quiz
 
-### How much do you know about the `<abbr>` element?
+### How much do you know about the 
+
+`<abbr>`
+
+ element?
+
 
 Mark the false statement regarding the `<abbr>` element:
 

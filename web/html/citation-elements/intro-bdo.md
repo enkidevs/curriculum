@@ -1,35 +1,29 @@
 ---
 author: Stefan-Stojanovic
-
-levels:
-  - beginner
-  - basic
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-  - workout
-  - deep
-  - obscura
-
 links:
-  - '[HTML <bdo> Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/bdo){documentation}'
+  - >-
+    [HTML <bdo>
+    Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/bdo){documentation}
+---
+
+# The `<bdo>` Element
+
 
 ---
-# The `<bdo>` Element
----
+
 ## Content
 
 The HTML `<bdo>`, or the **Bidirectional Text Override** element, is used to override the current directionality of text. This means that you can have text written in one direction, render and display in the opposite direction.
 
 This element can have only one attribute, `dir`, with only 2 two possible values:
- - `ltr` sets the text direction to Left-to-Right.
- - `rtl` sets the text direction to Right-to-Left.
+
+* `ltr` sets the text direction to Left-to-Right.
+* `rtl` sets the text direction to Right-to-Left.
 
 Example with one word:
+
 ```html
 <p>
   Play
@@ -38,11 +32,13 @@ Example with one word:
   <bdo dir="rtl">Play</bdo>
 </p>
 ```
+
 Single Word Result:
 
 ![bdo-play](https://img.enkipro.com/da3b981509e8c795f16933d9e872a778.png)
 
 Example with a sentence:
+
 ```html
 <p>
   The sun is shining.
@@ -53,6 +49,7 @@ Example with a sentence:
   </bdo>
 </p>
 ```
+
 Sentence Result:
 
 ![bdo-sun](https://img.enkipro.com/20500383239799793b6f04b204512c10.png)
@@ -63,7 +60,9 @@ Using this element is very useful for content presented in multiple languages. F
 
 **Note:** It's also interesting that when text in English is written Right-To-Left in a web page, and the text is copied and pasted elsewhere by a user, that text will be displayed in regular Left-To-Right. This is because the text only appears Right-To-Left because of the HTML code, and without it, the text will display as written.
 
+
 ---
+
 ## Practice
 
 Write the code to display the word "backwards" backwards.
@@ -80,7 +79,9 @@ Write the code to display the word "backwards" backwards.
 * /mld
 * /lang
 
+
 ---
+
 ## Revision
 
 Which HTML element is used to change the direction of specific sections of text within a multi-language document - for such languages as Arabic and Hebrew?
@@ -94,10 +95,13 @@ Which HTML element is used to change the direction of specific sections of text 
 * `<mld>`
 * `<lang>`
 
+
 ---
+
 ## Quiz
 
 ### How much do you know about typography effects in HTML?
+
 
 What does the `<bdo>` element do in this code?
 

@@ -28,4 +28,3 @@ Using the flexbox display option will ???.
 
 * allow you to change how the children are displayed
 * provide you with a predefined way of displaying the children elements
- 

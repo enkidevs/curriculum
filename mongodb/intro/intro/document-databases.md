@@ -41,4 +41,3 @@ Which are the 4 types of NoSQL databases:
 * Column, Graph, Table, Key-Value
 * Table, Graph, Circle, Spreadsheet
 * Spreadsheet, Table, Key-Value, Index
- 

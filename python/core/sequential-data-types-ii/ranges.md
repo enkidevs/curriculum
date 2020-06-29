@@ -1,24 +1,19 @@
 ---
 author: emmab
-
 tags:
   - introduction
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
 ---
 
 # Ranges
+
 
 ---
 
 ## Content
 
-We can use Python's `range()` function to generate a `list` that contains the _specified items of the range._
+We can use Python's `range()` function to generate a `list` that contains the *specified items of the range.*
 
 The syntax looks like this:
 
@@ -40,7 +35,7 @@ list(range(1, 10))
 # [1, 2, 3, 4, 5, 6, 7, 8, 9]
 ```
 
-The first argument here is where the range starts, and second argument is where it ends. This second argument is _not inclusive_.
+The first argument here is where the range starts, and second argument is where it ends. This second argument is *not inclusive*.
 
 > Notice how the range function doesn't automatically generate the `list`. When using Python 3 we must always pass our range to the `list` method first.
 
@@ -53,6 +48,7 @@ list(range(1, 10, 2))
 list(range(1, 10, 3))
 # [1, 4, 7]
 ```
+
 
 ---
 
@@ -71,6 +67,7 @@ print(teenagers)
 * `range(13, 19)`
 * `range(12, 20)`
 * `range(12, 19)`
+
 
 ---
 

@@ -1,23 +1,21 @@
 ---
 author: alexjmackey
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-  - new
-  - workout
-
 links:
-  - '[Iteration Protocols](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Iteration_protocols){documentation}'
-  - '[Iterators in Depth](https://ponyfoo.com/articles/es6-iterators-in-depth){website}'
-
+  - >-
+    [Iteration
+    Protocols](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Iteration_protocols){documentation}
+  - >-
+    [Iterators in
+    Depth](https://ponyfoo.com/articles/es6-iterators-in-depth){website}
 ---
+
 # Introducing Iterators
 
+
 ---
+
 ## Content
 
 An iterator is a special type of object that returns items from a sequence one at a time and remembers its position within the sequence.
@@ -64,7 +62,9 @@ it.next(); //Object {value: 4}
 it.next(); //Object {value: 5}
 ```
 
+
 ---
+
 ## Practice
 
 Which of the following statements is false about iterators?
@@ -76,7 +76,9 @@ Which of the following statements is false about iterators?
 * Iterators can be manually implemented
 * Iterators remember the position while iterating
 
+
 ---
+
 ## Revision
 
 What method do iterators canonically make use of to advance the iteration?
@@ -88,4 +90,3 @@ What method do iterators canonically make use of to advance the iteration?
 * iterator.get()
 * iterator.advance()
 * iterator.step()
- 

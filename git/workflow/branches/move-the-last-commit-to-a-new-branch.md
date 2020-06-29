@@ -58,4 +58,3 @@ A quick hack to revert the changes made to the current branch and move them to a
 * creating a new branch and resetting HEAD on master
 * deleting the current branch and switching to the master
 * resetting the last commit and moving to a new branch
- 

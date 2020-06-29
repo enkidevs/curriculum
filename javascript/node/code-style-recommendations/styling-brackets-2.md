@@ -1,29 +1,24 @@
 ---
 author: mihaiberq
-
 type: normal
-
 category: tip
-
-standards:
-  javascript.identify-common-design-patterns.7: 10
-
 tags:
   - introduction
-
-
-aspects:
-  - introduction
-
 links:
-  - '[MDN - ASI](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Lexical_grammar#Automatic_semicolon_insertion
-){documentation}'
-  - '[MDN - Block](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/block){documentation}'
-
+  - >-
+    [MDN -
+    ASI](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Lexical_grammar#Automatic_semicolon_insertion
+    ){documentation}
+  - >-
+    [MDN -
+    Block](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/block){documentation}
 ---
+
 # Styling Brackets Continued
 
+
 ---
+
 ## Content
 
 Although flexible, the location of brackets sometimes isn't up for debate. Let's take a look at an example:
@@ -77,7 +72,9 @@ function wrong() {
 
 Check out the Read More links for more details on ASI and don't forget to write your `;`.
 
+
 ---
+
 ## Practice
 
 In order for the brackets placement to be less prone to errors and consistent throughout the project, it is recommended that you use style ??? in your code:
@@ -112,23 +109,27 @@ function C()
 * B
 * C
 
+
 ---
+
 ## Revision
 
 What is the name of the JavaScript language feature that can cause problems in certain situations if we forget to put a `;`?
 
 ???
 
-
 * Automatic semicolon insertion
 * Scoping semicolon
 * Automatic semicolon placement
 * Returning object semicolon
 
+
 ---
-## Quiz 
+
+## Quiz
 
 ### What will the following snippet output?
+
 
 ```javascript
 function pi() {
@@ -147,7 +148,9 @@ console.log(pi())
 * SyntaxError
 * [object Object]
 
+
 ---
+
 ## Footnotes
 
 [1: Lexical Grammar] JavaScript has a set of rules of how it needs to be written such that it is valid. This set of rules is called a [Lexical Grammar](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Lexical_grammar). One consequence of these rules is that we have to be careful in some situations to not forget to put a `;`. The statements affected by ASI are: `var`, `do`-`while`, `continue`, `break`, `return`, `throw`.

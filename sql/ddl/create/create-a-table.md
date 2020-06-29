@@ -119,4 +119,3 @@ Each object in a table holds an attribute (*data type*) that specifies the type 
 This type is used for columns which will store a string of characters (can be letters, digits and so on).
 [3:INTEGER]
 An integer represents a whole number or a number which is not a fraction.
- 

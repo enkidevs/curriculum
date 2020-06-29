@@ -1,33 +1,12 @@
 ---
 author: tuwidc
-
-levels:
-
-  - basic
-
-  - advanced
-
-  - medium
-
-aspects:
-  - workout
-
 type: normal
-
 category: feature
-
 tags:
-
   - file
-
   - filetype
-
   - terminal
-
   - linux
-
-
-
 notes: >-
 
   `file` tests each argument in an attempt to classify it. There are three sets
@@ -35,12 +14,13 @@ notes: >-
   tests.
 
   The first test that succeeds causes the file type to be printed.
-
 ---
 
 # Identify files using the `file` command
 
+
 ---
+
 ## Content
 
 Quickly identify the type of a file using the `file` command:
@@ -58,10 +38,13 @@ messaggi.zip: Zip archive data, at least
  v1.0 to extract
 ```
 
+
 ---
+
 ## Revision
 
 A valid output of the `file` command is:
+
 ```bash
 file script.py
 ???
@@ -70,7 +53,3 @@ file script.py
 * `script.py: ASCII text`
 * `-rw-rw-r-- 1 owner group 2048 19 Nov 2014 script.py
 * `# script.py content`
-
- 
- 
- 

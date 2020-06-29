@@ -1,18 +1,14 @@
 ---
 author: Stefan-Stojanovic
-
-aspects:
-  - introduction
-
 type: normal
-
 category: how to
-
 ---
 
 # What are logical functions
 
+
 ---
+
 ## Content
 
 Logical functions are used to get logical results. I.e. results that evaluate to `TRUE` or `FALSE` based on a condition. 

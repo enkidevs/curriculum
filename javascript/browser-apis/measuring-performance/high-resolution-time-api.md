@@ -1,35 +1,20 @@
 ---
 author: rosielowther
-
-levels:
-  - basic
-  - advanced
-  - medium
-  - beginner
-
 type: normal
-
 category: feature
-
-standards:
-  javascript.browser-tooling.0: 10
-  javascript.browser-tooling.2: 10
-
-aspects:
-  - new
-  - workout
-  - deep
-  - obscura
-
 links:
-  - '[www.sitepoint.com](http://www.sitepoint.com/10-html5-apis-worth-looking/ ){website}'
-  - '[developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/API/Performance/now){website}'
-
-
+  - >-
+    [www.sitepoint.com](http://www.sitepoint.com/10-html5-apis-worth-looking/
+    ){website}
+  - >-
+    [developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/API/Performance/now){website}
 ---
+
 # High Resolution Time API
 
+
 ---
+
 ## Content
 
 The High Resolution Time API allows you to perform precise timing measurements.
@@ -54,7 +39,9 @@ console.log("do something took " +
 
 The API could also be used for precise timing in game, animation or audio logic.
 
+
 ---
+
 ## Practice
 
 Which method call of the High Resolution Time API returns the current time?
@@ -77,7 +64,9 @@ The measurement is ??? exact than the one accessible via `Date.now()`
 * second
 * day
 
+
 ---
+
 ## Revision
 
 What is the correct call of the High Resolution Time API that returns the current time in milliseconds, with microseconds precision?
@@ -88,4 +77,3 @@ What is the correct call of the High Resolution Time API that returns the curren
 * resolution.start()
 * highres.run()
 * resolution.time()
- 

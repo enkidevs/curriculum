@@ -33,4 +33,3 @@ In this exercise, you have to create a simple table with 2 columns and 5 rows.
 Next,  you have to set the top and bottom rows as the header and footer.
 
 More info and an example on codepen.
- 

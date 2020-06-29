@@ -1,27 +1,24 @@
 ---
 author: nickdaminov
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-
 links:
-  - '[More Query Languages](https://en.wikipedia.org/wiki/Query_language){website}'
-
+  - >-
+    [More Query
+    Languages](https://en.wikipedia.org/wiki/Query_language){website}
 ---
 
 # What is SQL?
 
+
 ---
+
 ## Content
 
 **SQL** stands for **Structured Query Language**. 
 
 It's a query language[1] - a type of language that lets you interact[2] with a database. 
- 
+
 You use *queries* to do so. Here's an example: 
 
 ```sql
@@ -32,7 +29,9 @@ The query above returns all the rows and columns from the `users` table.
 
 Next let's go over why SQL is such an important skill to learn!
 
+
 ---
+
 ## Practice
 
 Which of the queries below give you all the rows and columns from the `items` table?
@@ -44,7 +43,9 @@ Which of the queries below give you all the rows and columns from the `items` ta
 * SELECT EVERYTHING FROM items;
 * SELECT * from users;
 
+
 ---
+
 ## Revision
 
 How do you select all the rows and columns from the `products` table?
@@ -56,7 +57,9 @@ How do you select all the rows and columns from the `products` table?
 * SELECT EVERYTHING FROM products;
 * SELECT * FROM items;
 
+
 ---
+
 ## Footnotes
 
 [1:Query Language]
@@ -67,6 +70,6 @@ However, SQL can only interact with a database and doesn't have the capability a
 [2:Database interactions]
 Aside from getting data from it, interacting with a database can include other manipulations like:
 
-- inserting data, 
-- updating data, and 
-- creating tables.
+* inserting data, 
+* updating data, and 
+* creating tables.

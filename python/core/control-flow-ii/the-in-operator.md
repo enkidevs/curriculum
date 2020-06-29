@@ -1,25 +1,23 @@
 ---
 author: emmab
-
 tags:
   - introduction
-
 type: normal
-
 category: tip
-
-aspects:
-  - introduction
-
 links:
-  - '[Use cases](http://kracekumar.com/post/22512660850/python-in-operator-use-cases){website}'
-  - '[Sequence types](https://docs.python.org/3/library/stdtypes.html#sequence-types-list-tuple-range){website}'
-
+  - >-
+    [Use
+    cases](http://kracekumar.com/post/22512660850/python-in-operator-use-cases){website}
+  - >-
+    [Sequence
+    types](https://docs.python.org/3/library/stdtypes.html#sequence-types-list-tuple-range){website}
 ---
 
 # The `in` operator
 
+
 ---
+
 ## Content
 
 Python's `in` operator is an example of a *membership operator*[1]. 
@@ -44,7 +42,9 @@ else:
 
 When the `in` keyword is used on a string, Python will check for any sequence of matching substrings.
 
+
 ---
+
 ## Practice
 
 Complete the following code snippet to print `'True'` if `letter` is in `my_string`, and `'False'` otherwise:
@@ -65,11 +65,12 @@ else:
 * `is`
 * `find`
 
+
 ---
+
 ## Revision
 
 The `in` operator evaluates to ??? if it finds the specified value in the ???.
-
 
 * `True`
 * sequence
@@ -77,7 +78,9 @@ The `in` operator evaluates to ??? if it finds the specified value in the ???.
 * `false`
 * condition
 
+
 ---
+
 ## Footnotes
 
 [1:Membership operator]

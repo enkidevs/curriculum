@@ -36,4 +36,3 @@ public class Animal{
 ```
 
 In the above example, the constructor is private to guarantee that instances of `Animal` can only be created using the `getInstance()` factory method.
- 

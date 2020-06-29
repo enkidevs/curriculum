@@ -1,18 +1,14 @@
 ---
 author: alexjmackey
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-
 ---
 
 # Declaring Functions
 
+
 ---
+
 ## Content
 
 JavaScript supports many different ways of declaring functions.
@@ -44,7 +40,9 @@ add(1,2); // undefined
 
 Note that there are some more complex cases where a function will not return *undefined* when no return is specified.
 
+
 ---
+
 ## Practice
 
 What would the following snippet print?
@@ -64,7 +62,9 @@ console.log(mult(2,3));
 * `6`
 * `error`
 
+
 ---
+
 ## Revision
 
 What would the following snippet print?
@@ -82,4 +82,3 @@ console.log(add(2,3));
 * `5`
 * `false`
 * `error`
- 

@@ -56,4 +56,3 @@ A virtual machine allows us to emulate ???.
 * software
 * cpu
 * applications
- 

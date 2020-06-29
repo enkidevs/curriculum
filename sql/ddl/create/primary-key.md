@@ -102,4 +102,3 @@ Create a table named `billboard_songs` with the `id`, `name`, and `position` col
 * MAKE TABLE
 * FOREIGN KEY
 * NOT ZERO
- 

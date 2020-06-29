@@ -1,22 +1,16 @@
 ---
 author: kapnobatai136
-
 category: feature
-
-aspects:
-  - introduction
-  - deep
-
 type: normal
-
 links:
   - '[Task History](https://zapier.com/app/history){website}'
-
 ---
 
 # What Is the Task History?
 
+
 ---
+
 ## Content
 
 Although the zaps that we have shown you didn't seem to encounter any problems (in part because we didn't test them 🤭), that is not always the case. For example, the data you receive might not fit your filter, or you might not receive any data at all.

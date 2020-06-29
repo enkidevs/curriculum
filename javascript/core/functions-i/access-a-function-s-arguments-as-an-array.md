@@ -1,26 +1,20 @@
 ---
 author: Bruno
-
 type: normal
-
 category: how to
-
 tags:
   - introduction
-
 links:
-  - '[The Arguments Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/arguments){documentation}'
-
-aspects:
-  - introduction
-  - workout
-
-
+  - >-
+    [The Arguments
+    Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/arguments){documentation}
 ---
 
 # Access a function's `arguments` as an array
 
+
 ---
+
 ## Content
 
 The [arguments](https://enki.com/glossary/general/parameter-vs-argument) of a function can be accessed with the `arguments` keyword.
@@ -54,7 +48,9 @@ sortedArgs(3, 1, 2)
 // [1, 2, 3]
 ```
 
+
 ---
+
 ## Practice
 
 The following `returnArgs` function should return an array containing the arguments with which it is called. Complete the missing gaps such that it works as intended:
@@ -74,7 +70,9 @@ function returnArgs() {
 * array
 * new Array
 
+
 ---
+
 ## Revision
 
 Turn the arguments of a method into a sorted array:

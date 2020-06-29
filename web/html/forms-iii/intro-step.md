@@ -1,24 +1,15 @@
 ---
 author: Stefan-Stojanovic
-
-levels:
-  - beginner
-  - basic
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-  - workout
-  - deep
-
-links:
-
+links: null
 ---
+
 # Intro `<step>`
+
+
 ---
+
 ## Content
 
 The HTML input form `step` attribute is used to specify a *legal* number interval for the `<input>` element.
@@ -26,6 +17,7 @@ The HTML input form `step` attribute is used to specify a *legal* number interva
 For instance, if you set `step="4"`, the legal numbers could be -4, 0, 4, 8, etc.
 
 Example:
+
 ```html
 <form
   action="/action.php">
@@ -46,7 +38,9 @@ The `step` attribute is easy to assign with the `number` input and works with an
 
 If you want to accept any value regardless of how many decimal places, you can set the `step` value as `any`.
 
+
 ---
+
 ## Practice
 
 Which statement is NOT true regarding step attributes within forms?
@@ -59,7 +53,9 @@ Which statement is NOT true regarding step attributes within forms?
 * Can be used with min & max to create range of legal values.
 * Works with these input types: number, date, & time.
 
+
 ---
+
 ## Revision
 
 Which form attribute allows a number to be entered in a specified interval, such as (-5, 0, 5, 10, etc)?
@@ -82,10 +78,13 @@ Which form attribute allows a number to be entered in a specified interval, such
 * `space`
 * `span`
 
+
 ---
+
 ## Quiz
 
 ### How much do you know about restricted numbers in HTML form fields?
+
 
 Which values would be accepted by this input field?
 

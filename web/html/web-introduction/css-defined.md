@@ -1,20 +1,14 @@
 ---
 author: Stefan-Stojanovic
-
-levels:
-  - beginner
-  - basic
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-
 ---
+
 # CSS Defined
+
+
 ---
+
 ## Content
 
 `CSS` or **Cascading Style Sheets** is a `stylesheet` language used to describe the presentation of an HTML, XML, or XHTML document. It's used to provide styling for text, images, & links.
@@ -23,6 +17,7 @@ In short, CSS is used to create responsive layouts, animations, styling text, an
 
 
 ---
+
 ## Practice
 
 ???, which stands for ??? is a `stylesheet` language used to describe the presentation of an HTML, XML, or XHTML document. It's used to provide styling for text, images, & links.
@@ -32,7 +27,9 @@ In short, CSS is used to create responsive layouts, animations, styling text, an
 * cs
 * Cascading Sheets
 
+
 ---
+
 ## Revision
 
 What does CSS provide on a web page?
@@ -44,10 +41,13 @@ What does CSS provide on a web page?
 * interactivity: links, animations, and forms
 * hosting: organization of code for live web pages
 
+
 ---
+
 ## Quiz
 
 ### How well do you know the basics of CSS?
+
 
 What does CSS provide to a web page?
 
@@ -57,4 +57,3 @@ What does CSS provide to a web page?
 * Content such as text, images, & links.
 * Interactive elements of the page
 * Web hosting
- 

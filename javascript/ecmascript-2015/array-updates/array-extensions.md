@@ -1,20 +1,17 @@
 ---
 author: alexjmackey
-
 type: normal
-
 category: must-know
-
 links:
-  - '[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/values){website}'
-
-aspects:
-  - workout
-
+  - >-
+    [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/values){website}
 ---
+
 # Array Extensions
 
+
 ---
+
 ## Content
 
 In ES2015, the array type was updated to conform to the shape of an **iterator**. This gave arrays 3 additional methods:
@@ -45,7 +42,9 @@ keysAndValues.next();
 // {value: undefined, done: true}
 ```
 
+
 ---
+
 ## Practice
 
 What will the following code do?
@@ -64,7 +63,9 @@ console.log(enki[enkiIterator.next().value])
 * raise an error
 * log undefined
 
+
 ---
+
 ## Revision
 
 Fill in the gaps such that an iterator will be created from the given array and the code won't raise any errors. The last gap should be completed with the right output of the expression above:

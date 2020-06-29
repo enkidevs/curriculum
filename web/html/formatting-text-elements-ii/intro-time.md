@@ -1,28 +1,21 @@
 ---
 author: Stefan-Stojanovic
-
-levels:
-  - beginner
-  - basic
-
 type: normal
-
 category: must-know
-
 stub: true
-
 tags:
   - deep
-
-aspects:
-  - introduction
-
 links:
-  - '[HTML <time> Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/time){documentation}'
+  - >-
+    [HTML <time>
+    Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/time){documentation}
+---
+
+# Intro `<time>`
+
 
 ---
-# Intro `<time>`
----
+
 ## Content
 
 The HTML `<time>` element is used to represent a specific period of time. This element has a machine-readable `datetime` attribute that indicates the time and or date of the `<time>` element. The `datetime` attribute has to be in a specific format.
@@ -46,52 +39,61 @@ Full Period in time format: `PTDHMS`
 * M    -  Minutes
 * S    -  Seconds
 
-
 ### Examples of formats:
 
 Year:
-  - 2018
-  - 0018
+
+* 2018
+* 0018
 
 Month:
-  - 2018-06
+
+* 2018-06
 
 Date:
-  - 2018-06-01
+
+* 2018-06-01
 
 Yearless Date:
-  - 06-01
+
+* 06-01
 
 Week string:
-  - 2018-W5
+
+* 2018-W5
 
 Time:
-  - 15:33
-  - 15:33:12
-  - 15:33:12:551
+
+* 15:33
+* 15:33:12
+* 15:33:12:551
 
 Local date and time:
-  - 2018-06-01T15:33:12:551
+
+* 2018-06-01T15:33:12:551
 
 Global Date and time:
-  - 2018-06-01T15:33:12:551z
-  - 2018-06-01 15:33:12:551z
-  - 2018-06-01 15:33:12:551-0400(04:00 is UTC-4)
-  - 2018-06-01 15:33:12:551+03:00(04:00 is UTC+3)
+
+* 2018-06-01T15:33:12:551z
+* 2018-06-01 15:33:12:551z
+* 2018-06-01 15:33:12:551-0400(04:00 is UTC-4)
+* 2018-06-01 15:33:12:551+03:00(04:00 is UTC+3)
 
 Duration:
-  - P5D = duration of 5 days
-  - P1H12M = durationn of 1 hour and 12 minutes
 
+* P5D = duration of 5 days
+* P1H12M = durationn of 1 hour and 12 minutes
 
 Since the `datetime` attribute is machine-readable, this can help user agents add events to the user's calendar like in these examples:
 
 Example:
+
 ```html
 <p> The class starts at
   <time> 08:00</time>
 </p>
 ```
+
 Result:
 
 ![element-time-1](https://img.enkipro.com/5c7f2e3b34d43cb42042e0b722cff81f.png)
@@ -99,6 +101,7 @@ Result:
 [View CodePen](https://codepen.io/enkidevs/pen/qyROGe)
 
 Another Example:
+
 ```html
 <p>
 Date of birth:
@@ -108,6 +111,7 @@ Date of birth:
   </time>
 </p>
 ```
+
 Result:
 
 ![element-time-2](https://img.enkipro.com/522c250380d236a6eba0cbe53555d171.png)
@@ -115,6 +119,7 @@ Result:
 [View CodePen](https://codepen.io/enkidevs/pen/oMBbvN)
 
 Example with datetime:
+
 ```html
 <p>
   WW2 ended
@@ -122,13 +127,16 @@ Example with datetime:
   September 2, 1945</time>.
 </p>
 ```
+
 Result:
 
 ![element-time-3](https://img.enkipro.com/2da767e543dbe16abb35d97344d23339.png)
 
 [View CodePen](https://codepen.io/enkidevs/pen/MBJKgB)
 
+
 ---
+
 ## Practice
 
 Write the code to properly declare the date:
@@ -144,7 +152,9 @@ Write the code to properly declare the date:
 * /date
 * /datetime
 
+
 ---
+
 ## Revision
 
 What HTML element is used to make dates & times machine-readable?
@@ -172,9 +182,15 @@ When using the `<time>` element, what attribute is used to declare the machine-r
 
 
 ---
+
 ## Quiz
 
-### How much do you know about the `<time>` element?
+### How much do you know about the 
+
+`<time>`
+
+ element?
+
 
 Match the appropriate datetime attributes:
 

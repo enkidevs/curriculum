@@ -1,32 +1,18 @@
 ---
 author: tommarshall
-
-levels:
-
-  - basic
-
-  - advanced
-
-  - medium
-
 type: normal
-
 category: tip
-
-aspects:
-  - workout
-  - deep
-
 links:
-
-  - '[Article on @extend](http://sass-lang.com/documentation/file.SASS_REFERENCE.html#extend){website}'
-
-
+  - >-
+    [Article on
+    @extend](http://sass-lang.com/documentation/file.SASS_REFERENCE.html#extend){website}
 ---
 
 # Sass Extend/Inheritance
 
+
 ---
+
 ## Content
 
 The `@extend` feature of *Sass* is one of its most useful features. Using `@extend` allows you to share a set of CSS properties between different selectors.
@@ -44,7 +30,9 @@ The `@extend` feature of *Sass* is one of its most useful features. Using `@exte
   border-color: green;
 }
 ```
+
 The code in CSS that this generates:
+
 ```css
 .message, .success {
   border: 1px solid #6699ff;
@@ -57,7 +45,9 @@ The code in CSS that this generates:
 }
 ```
 
+
 ---
+
 ## Revision
 
 Which is the correct way to use Sass @extend to extend the class *properties*? ???

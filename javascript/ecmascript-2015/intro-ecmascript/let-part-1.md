@@ -1,20 +1,18 @@
 ---
 author: alexjmackey
-
 type: normal
-
 category: tip
-
-aspects:
-  - introduction
-
 links:
-  - '[MDN Documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let){documentation}'
-
+  - >-
+    [MDN
+    Documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let){documentation}
 ---
+
 # Let (Part 1)
 
+
 ---
+
 ## Content
 
 `let` declares a variable and is used in a similar method to `var`.
@@ -47,7 +45,9 @@ console.log(window.notGlobal);
 // undefined
 ```
 
+
 ---
+
 ## Practice
 
 Fill in the missing gaps with the output of the log statements:
@@ -68,7 +68,9 @@ console.log(year)
 * error
 * year
 
+
 ---
+
 ## Revision
 
 What is the output of the log statement (considering it's run in a browser):

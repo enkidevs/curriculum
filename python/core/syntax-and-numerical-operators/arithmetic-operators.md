@@ -1,24 +1,20 @@
 ---
 author: emmab
-
 tags:
   - introduction
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-
 links:
-  - '[Python division](http://stackoverflow.com/questions/2958684/python-division){website}'
-
+  - >-
+    [Python
+    division](http://stackoverflow.com/questions/2958684/python-division){website}
 ---
 
 # Arithmetic Operators
 
+
 ---
+
 ## Content
 
 Similar to other programming languages, Python uses standard arithmetic operators.
@@ -52,7 +48,9 @@ If you want to perform floor division to return an `int`, use the `//` operator:
 
 When using the `//` operator, you only return the whole number part of the division. Any digits after the decimal point will be removed.
 
+
 ---
+
 ## Practice
 
 Choose the correct result of the following expression:
@@ -70,7 +68,9 @@ Choose the correct result of the following expression:
 * `4.0`
 * `TypeError`
 
+
 ---
+
 ## Revision
 
 What are the outputs to the following lines of code?
@@ -81,7 +81,6 @@ What are the outputs to the following lines of code?
 >>> 5 * 5.15 
 # ???
 ```
-
 
 * `4`
 * `25.75`

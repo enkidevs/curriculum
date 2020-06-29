@@ -56,4 +56,3 @@ while `origin` as ??? .
 * default remote repository name
 * new branches’ default name
 * local folder name
- 

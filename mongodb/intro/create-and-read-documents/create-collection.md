@@ -1,22 +1,14 @@
 ---
 author: Stefan-Stojanovic
-
-levels:
-    - beginner
-
-aspects:
-    - introduction
-    - workout
-
 type: normal
-
 category: must-know
-
 ---
 
 # Create a collection
 
+
 ---
+
 ## Content
 
 To create a collection in MongoDB, you need to use the `db.createCollection(name, options)` method.
@@ -39,7 +31,9 @@ show collections
 // pokemon
 ```
 
+
 ---
+
 ## Practice
 
 Create a new collection named `pokemon` in MongoDB.
@@ -56,7 +50,9 @@ Create a new collection named `pokemon` in MongoDB.
 * `database`
 * `collection("pokemon")`
 
+
 ---
+
 ## Revision
 
 Display all collections in a MongoDB database.
@@ -69,6 +65,3 @@ Display all collections in a MongoDB database.
 * `display collections`
 * `db.show.collections`
 * `show collections.all`
-
-
-

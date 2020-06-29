@@ -1,18 +1,14 @@
 ---
 author: kapnobatai136
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-
 ---
 
 # What you'll get out of this course
 
+
 ---
+
 ## Content
 
 Okay, so we've convinced you to dive in and learn **Git**. 

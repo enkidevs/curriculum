@@ -1,29 +1,18 @@
 ---
 author: alexjmackey
-
-levels:
-  - medium
-  - advanced
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-  - new
-  - workout
-  - deep
-
 inAlgoPool: false
-
 links:
-  - '[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol){website}'
-
+  - >-
+    [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol){website}
 ---
+
 # Symbol Special Properties
 
+
 ---
+
 ## Content
 
 Symbols behave differently to other primitives such as strings and numbers.
@@ -72,7 +61,9 @@ You can retrieve symbols with `getOwnPropertySymbols`:
 Object.getOwnPropertySymbols(obj);
 ```
 
+
 ---
+
 ## Practice
 
 Consider the following object:
@@ -108,7 +99,9 @@ Which of the following code snippets will return the symbol key when called?
 * 1, 2, 3 and 4
 * 2, 3 and 4
 
+
 ---
+
 ## Revision
 
 What will be returned by the following call?
@@ -128,4 +121,3 @@ console.log(
 * ['Symbol()']
 * ['Symbol(enki)']
 * ['Symbol()', 'Symbol(enki)']
- 

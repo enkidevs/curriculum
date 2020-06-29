@@ -1,18 +1,14 @@
 ---
 author: kapnobatai136
-
 category: must-know
-
-aspects:
-  - introduction
-
 type: normal
-
 ---
 
 # Get started with Airtable
 
+
 ---
+
 ## Content
 
 Airtable is a web app, so the only requirements to get started are an internet connection and an account!
@@ -23,7 +19,9 @@ Airtable offers several subscription options, including a free one. Check out th
 
 For most of this course we'll use the free plan.
 
+
 ---
+
 ## Practice
 
 To use Airtable, you need ???.

@@ -1,21 +1,18 @@
 ---
 author: SebaRaba
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-
 links:
-  - '[More Information About I/O](https://www.tutorialspoint.com/python/python_files_io.htm){website}'
-
+  - >-
+    [More Information About
+    I/O](https://www.tutorialspoint.com/python/python_files_io.htm){website}
 ---
 
 # I/O Functions
 
+
 ---
+
 ## Content
 
 `I/O` (input/output) stands for the communication between a **data processing system** such as a computer, or any device, and the **outside world**.
@@ -39,6 +36,7 @@ This is a print statement.
 For managing user input, **Python 3** provides a built-in function called `input()`. When using this **function** the program is **paused** and **waits** until the user finishes his input. You can also pass an **optional** string parameter to this function which will prompt the user with the given message.
 
 Consider the following scenario:
+
 ```python
 # user input will be assigned to `str`
 str = input('Please enter your input: ')
@@ -77,7 +75,9 @@ How old are you? 21
 21 <class 'int'>
 ```
 
+
 ---
+
 ## Practice
 
 What will be the type of the `age` variable?
@@ -97,7 +97,9 @@ How old are you? 23
 * <class 'list'>
 * <class 'tuple'>
 
+
 ---
+
 ## Revision
 
 Suppose we want to add `10` to somebody's age. Fill the gaps accordingly:
@@ -106,7 +108,6 @@ Suppose we want to add `10` to somebody's age. Fill the gaps accordingly:
 your_age = ???(input('How old are you?'))
 ???(your_age + 10)
 ```
-
 
 * `int`
 * `print`
@@ -120,10 +121,14 @@ your_age = ???(input('How old are you?'))
 * `in()`
 * `string()`
 
+
 ---
+
 ## Footnotes
+
 [1: print]
 In Python 2 we had the `print` statement, later in Python 3 that statement was replaced by the function `print()`
+
 ```py
 # Python 2
 print 'Hello'

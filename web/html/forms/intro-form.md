@@ -100,12 +100,12 @@ Interactive elements like textfields, radio buttons, and check boxes, must be pl
 
 ## Quiz
 
-### How much do you about 
+### How much do you about
+
 
 `<form>`
 
  elements?
-
 
 Which form element is used to collect user data?
 
@@ -117,4 +117,3 @@ Which form element is used to collect user data?
 * `<data>`
 * `<fieldset>`
 * `<collect>`
- 

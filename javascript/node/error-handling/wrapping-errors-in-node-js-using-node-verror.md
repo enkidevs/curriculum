@@ -1,21 +1,16 @@
 ---
 author: rosielowther
-
 type: normal
-
 category: feature
-
 links:
   - '[node-verror](https://github.com/davepacheco/node-verror){documentation}'
-
-aspects:
-  - introduction
-  - workout
-
 ---
+
 # Wrapping Errors in Node.Js Using `node-verror`
 
+
 ---
+
 ## Content
 
 The module `node-verror` can be used to produce useful error messages in Node.js. It has two classes `VError` and `WError`.
@@ -59,19 +54,23 @@ let err3 = new WError(
 console.error(err3.message);
 // 'request failed'
 ```
+
 To see the whole message (as well as the class associated with each error) use `console.error(err3.toString());`.
 
+
 ---
+
 ## Practice
 
 ??? is used to combine errors. ??? is used to wrap errors.
-
 
 * `VError`
 * `WError`
 * `Error`
 
+
 ---
+
 ## Revision
 
 What two classes does the `node-verror` provide?
@@ -82,5 +81,3 @@ What two classes does the `node-verror` provide?
 * `VError` and `Error`
 * `WError` and `Error`
 * `VError` and `WrapError`
-
- 

@@ -50,4 +50,3 @@ What flag can be used such that fast-forward merge is not used even if its possi
 * `-n-ff`
 * `ff-n`
 * `--twm`
- 

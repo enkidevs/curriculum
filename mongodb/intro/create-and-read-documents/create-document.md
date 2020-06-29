@@ -1,22 +1,14 @@
 ---
 author: Stefan-Stojanovic
-
-levels:
-  - beginner
-
-aspects:
-  - introduction
-  - workout
-
 type: normal
-
 category: must-know
-
 ---
 
 # Create a document
 
+
 ---
+
 ## Content
 
 ### Add Single Document
@@ -75,7 +67,9 @@ Output:
 }
 ```
 
+
 ---
+
 ## Practice
 
 Method used to add a single document: ???
@@ -89,7 +83,9 @@ Method used to add multiple documents: ???
 * `insertDocument()`
 * `insertDocuments()`
 
+
 ---
+
 ## Revision
 
 Complete the following code to add 3 documents to the `pokemon` database.
@@ -124,10 +120,13 @@ db.pokemon.???([
 * `_name`
 * `_type`
 
+
 ---
+
 ## Quiz
 
 ### Do you know how to create a new document in MongoDB?
+
 
 Choose the correct code that creates a new document in the `pokemon` collection.
 

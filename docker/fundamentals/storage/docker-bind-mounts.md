@@ -57,4 +57,3 @@ docker container run \
 * /data
 * -b
 * --bind
- 

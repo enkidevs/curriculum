@@ -1,18 +1,14 @@
 ---
 author: pawel
-
 type: normal
-
 category: tip
-
-aspects: 
-  - introduction
-
 ---
 
 # Prefix and Postfix of Increment Operators
 
+
 ---
+
 ## Content
 
 Java supports 2 forms of shorter incrementation[1] of variables:
@@ -53,7 +49,9 @@ Here, the value of `i` is incremented **before** it is assigned to `j`. This mea
 
 We've only talked about incrementing, but the same applies to decrementing (`--`).
 
+
 ---
+
 ## Practice
 
 How would you rewrite this code using shorthand notation?
@@ -70,7 +68,9 @@ int j = i;
 * `int j = i++`
 * `int j = i + 1`
 
+
 ---
+
 ## Revision
 
 What's the value of `b` at the end of the snippet?
@@ -87,10 +87,13 @@ System.out.print(b);
 * 2
 * null
 
+
 ---
-## Quiz 
+
+## Quiz
 
 ### what is the difference between prefix and postfix increment operators?
+
 
 What is the output?
 
@@ -108,7 +111,9 @@ System.out.println(b + " and " + c);
 * 2 and 1
 * 0 and 1
 
+
 ---
+
 ## Footnotes
 
 [1:Increment and Decrement]

@@ -1,18 +1,15 @@
 ---
 author: Stefan-Stojanovic
-
-aspects:
-  - introduction
-
 type: normal
-
 category: must-know
-
-links:
-
+links: null
 ---
+
 # Querying An Array With The $all Operator
+
+
 ---
+
 ## Content
 
 Now that we know how to query an array for a single value, let's increase the value count and add additional query operators for a more precise query.
@@ -24,6 +21,7 @@ db.pokedex.find({
   spells: ["Seed Bomb", "Bite", "Hydro-Pump"]
 });
 ```
+
 The above method searches for any documents that contain the `spells` field and looks only for the documents that have "Seed Bomb" as the first value, "Bite" as the second and "Hydro-Pump" as the third value. Giving us the output:
 
 ```javascript
@@ -49,6 +47,7 @@ db.pokedex.find({
 ```
 
 Output:
+
 ```javascript
 {
   _id: ObjectId("5d9d8a6a0b24990f19398209"),
@@ -67,6 +66,7 @@ Output:
 ```
 
 **Note:** The below two methods give the exact same result.(Any documents with a `spells` array containing the "Bite" value)
+
 ```javascript
 // Method 1
 db.pokedex.find({
@@ -80,7 +80,9 @@ db.pokedex.find({
   spells: "Bite" 
 })
 ```
+
 Output:
+
 ```javascript
 {
   _id: ObjectId("5d9d8a6a0b24990f19398209"),
@@ -104,7 +106,9 @@ Output:
   spells: ["Bite"]
 }
 ```
+
 However, the method below:
+
 ```javascript
 db.pokedex.find({
   spells: {
@@ -112,9 +116,12 @@ db.pokedex.find({
   }
 })
 ```
+
 is invalid and gives an error.
 
+
 ---
+
 ## Practice
 
 Find all documents in the `pokedex` collection that have "Poison" and "Growth" values in any order in their `spells` array.
@@ -136,10 +143,12 @@ db.pokedex.find({
 
 
 ---
+
 ## Footnotes
 
 [1:Previous Documents]
 Here are the documents used in the previous insight:
+
 ```javascript
 // Previous Documents
 {

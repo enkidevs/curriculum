@@ -109,12 +109,12 @@ Which line of code opens the linked page in the existing browser window?
 
 ## Quiz
 
-### How much do you know about the HTML 
+### How much do you know about the HTML
+
 
 `target=""`
 
  attribute?
-
 
 Why is it rare to use this code:
 `<a href="http://enki.com" target="_self">`
@@ -188,4 +188,3 @@ framename represents the name of a frame in the page, so it can be valid and ope
 %
 
 ```
- 

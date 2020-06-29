@@ -1,21 +1,16 @@
 ---
 author: emmab
-
 tags:
   - introduction
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-
 ---
 
 # Quantifiers I
 
+
 ---
+
 ## Content
 
 Quantifiers allow us to build patterns that have additional characters without explicitly writing those characters.
@@ -26,25 +21,27 @@ The second optional number inside the curly brackets determines the maximum numb
 
 Let's have a look at some examples!
 
-```
+```plain-text
 /abc{3}/
 ```
- 
+
 `ab` followed by exactly three `c`'s
 
-```
+```plain-text
 /abc{3,}/
-```   
-    
+```
+
 `ab` followed by three or more `c`'s
 
-```
+```plain-text
 /abc{3,6}/
 ```
-    
+
 `ab` followed by three, four, five or six `c`'s
 
+
 ---
+
 ## Practice
 
 Which of these regexes would NOT match this text?
@@ -59,8 +56,8 @@ abcc
 * `/abc{2}/`
 
 
-
 ---
+
 ## Revision
 
 Which of these regexes would NOT match this text?

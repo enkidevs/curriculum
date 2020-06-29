@@ -1,22 +1,14 @@
 ---
 author: Stefan-Stojanovic
-
-levels:
-  - beginner
-
-aspects:
-  - introduction
-  - workout
-
 type: normal
-
 category: must-know
-
 ---
 
 # Delete documents
 
+
 ---
+
 ## Content
 
 ### Delete a Single Document
@@ -86,15 +78,19 @@ Output:
 }
 ```
 
+
 ---
+
 ## Practice
 
 Delete the first document in the `pokemon` table of type `"Fire"`.
+
 ```javascript
 ???.pokemon.???({
   ???: ???
 })
 ```
+
 Delete all documents within the `pokemon` collection: 
 
 ```js
@@ -112,7 +108,9 @@ Delete all documents within the `pokemon` collection:
 * `deleteMany`
 * `FIRE`
 
+
 ---
+
 ## Revision
 
 Delete a single document within the `pokemon` collection with the name `"Abraxas"`:

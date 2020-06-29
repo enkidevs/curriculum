@@ -1,20 +1,14 @@
 ---
 author: Stefan-Stojanovic
-
-levels:
-  - beginner
-  - basic
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-
 ---
+
 # HTML/CSS Introduction
+
+
 ---
+
 ## Content
 
 **CSS** and **HTML** are the core languages used for creating web pages and web-based applications. **HTML** was invented in 1989, while **CSS** was invented in 1996.
@@ -35,7 +29,9 @@ When creating a website, all of your unique HTML and CSS files for the same webs
     contact.css
 ```
 
+
 ---
+
 ## Practice
 
 What does HTML stand for?
@@ -70,7 +66,9 @@ S: ???
 * script
 * server
 
+
 ---
+
 ## Revision
 
 What does HTML stand for?
@@ -90,10 +88,13 @@ What does CSS stand for?
 * Custom ScriptStyles
 * Cascading ServerStyles
 
+
 ---
+
 ## Quiz
 
 ### Do you know what HTML & CSS stands for?
+
 
 What do HTML and CSS stand for?
 

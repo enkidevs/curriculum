@@ -1,28 +1,21 @@
 ---
 author: Stefan-Stojanovic
-
-levels:
-  - beginner
-  - basic
-
 type: normal
-
 category: must-know
-
-aspects:
-  - deep
-  - workout
-    
-links:
-
+links: null
 ---
+
 # The `<meter>` Element
+
+
 ---
+
 ## Content
 
 The HTML `<meter>` element is used to represent a scalar value with a known range, or a fractional value. Most commonly used for displaying disk usage, blood pressure, a final grade score(90/100), or relevance of a search query result.
 
 Example grade results:
+
 ```html
 <p>
   Physics test result:
@@ -39,15 +32,17 @@ Meter Result:
 [View CodePen](https://codepen.io/enkidevs/pen/xzmxxP)
 
 The `<meter>` element has 7 element-specific attributes:
-  1. `form`
-  2. `low`
-  3. `high`
-  4. `max`
-  5. `min`
-  6. `optimum`
-  7. `value`
+
+1. `form`
+2. `low`
+3. `high`
+4. `max`
+5. `min`
+6. `optimum`
+7. `value`
 
 Example of element-specific attributes:
+
 ```html
 <meter
   value="0.5"
@@ -57,7 +52,9 @@ Example of element-specific attributes:
 </meter>
 ```
 
+
 ---
+
 ## Practice
 
 Create a meter element that displays data between 0 and 20 with a value of 15.
@@ -79,7 +76,9 @@ Create a meter element that displays data between 0 and 20 with a value of 15.
 * minimum
 * number
 
+
 ---
+
 ## Revision
 
 What HTML element would be a good example of displaying the disk usage of your computer, where there is a known range that is measured and then shared with the user in a visual way?
@@ -93,10 +92,17 @@ What HTML element would be a good example of displaying the disk usage of your c
 * base
 * image map
 
+
 ---
+
 ## Quiz
 
-### How much do you know about the `<meter>` element?
+### How much do you know about the 
+
+`<meter>`
+
+ element?
+
 
 If you need to display the value as a percentage, what would you use?
 

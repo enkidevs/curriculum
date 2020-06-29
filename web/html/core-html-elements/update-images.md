@@ -1,20 +1,14 @@
 ---
 author: Stefan-Stojanovic
-
-levels:
-  - beginner
-  - basic
-
 type: normal
-
 category: must-know
+---
 
-aspects:
-  - introduction
-  
----
 # Images
+
+
 ---
+
 ## Content
 
 In order to display an image in a webpage, the `<img>` element is used to tell the web page where to find the image and how to display it within the page.
@@ -22,6 +16,7 @@ In order to display an image in a webpage, the `<img>` element is used to tell t
 ![baby-elephant](https://img.enkipro.com/b79c0aacddcb4ab21ca44fb790a40675.png)
 
 Insert Image: 
+
 ```html
 <img
   src="elephant.png"
@@ -51,7 +46,9 @@ Without setting these sizes, the image will simply display at its original size.
 
 The main reason it is important to set the image size is because those attributes will reserve space on the page for the images. Without the attributes, the browser won't know how much space to leave the image until it starts loading it - which can cause a jumpy loading effect as the web page downloads.
 
+
 ---
+
 ## Practice
 
 Write the code to insert an image:
@@ -71,7 +68,9 @@ Write the code to insert an image:
 * `photo`
 * `images/logo.img`
 
+
 ---
+
 ## Revision
 
 Which line of code will place an image into the HTML page?
@@ -100,10 +99,17 @@ If an image does not have an assigned height and width using HTML or CSS, how wi
 * .png
 * Will resize by default to 100px wide.
 
+
 ---
+
 ## Quiz
 
-### How much do you know about HTML `<img>` element?
+### How much do you know about HTML 
+
+`<img>`
+
+ element?
+
 
 Why is assigning height & width attributes to an image size more useful than setting the image size in CSS?
 
@@ -113,4 +119,3 @@ Why is assigning height & width attributes to an image size more useful than set
 * Using HTML height & width attributes is always better than using CSS sizing.
 * When the image size needs to override the CSS size setting.
 * When the height and width is different than the default image size.
- 

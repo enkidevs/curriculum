@@ -1,22 +1,15 @@
 ---
-author: 'shoutmatt'
-
-levels:
-  - beginner
-  - basic
-
+author: shoutmatt
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-
-links:
-
+links: null
 ---
+
 # Image Links
+
+
 ---
+
 ## Content
 
 In order to add a link onto an image, simply place the link `<a> </a>` element around any image element `<img>`:
@@ -44,7 +37,9 @@ Actually, anything added within a link element in HTML5 will be linked - this in
 
 ![link-text-and-image](https://img.enkipro.com/0cd818e0c946a0f6ffd79981cc02bd4a.png)
 
+
 ---
+
 ## Practice
 
 Create a linked image:
@@ -70,7 +65,9 @@ Create a linked image:
 * `_blank`
 * `link`
 
+
 ---
+
 ## Revision
 
 What is the correct HTML for creating a linked image?
@@ -84,10 +81,13 @@ What is the correct HTML for creating a linked image?
 * `<img src="icon.svg"><a>http://enkipro.com</a></img>`
 * `<a link="http://enkipro.com"><img src="icon.svg" alt="Click Here"></a>`
 
+
 ---
+
 ## Quiz
 
 ### How much do you know about links and images?
+
 
 Which is a true statement?
 
@@ -103,4 +103,3 @@ Which is a true statement?
 * The text and images will not link to the site this way.
 * The text and images will link, but this is not valid HTML.
 * Only the paragraph will be linked to the site.
- 

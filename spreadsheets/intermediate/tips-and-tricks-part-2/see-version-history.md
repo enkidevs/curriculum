@@ -1,19 +1,14 @@
 ---
 author: Stefan-Stojanovic
-
-aspects:
-  - introduction
-  - workout
-
 type: normal
-
 category: how to
-
 ---
 
 # Version History
 
+
 ---
+
 ## Content
 
 Spreadsheets allow users to save and create different versions of their work.
@@ -52,6 +47,7 @@ To restore to a previous version, select the version you like and click the gree
 
 
 ---
+
 ## Practice
 
 How do you manually save a version of your spreadsheet?
@@ -66,7 +62,9 @@ How do you manually save a version of your spreadsheet?
 * Edit
 * History
 
+
 ---
+
 ## Revision
 
 How do you load a previously saved version of your spreadsheet?

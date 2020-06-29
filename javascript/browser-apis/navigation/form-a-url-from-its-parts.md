@@ -1,46 +1,25 @@
 ---
 author: pawel
-
-levels:
-
-  - basic
-
-  - advanced
-
-  - medium
-
 type: normal
-
 category: how to
-
 tags:
-
   - url
-
-aspects:
-  - introduction
-  - workout
-  - obscura
-
-standards:
-  javascript.browser-apis-browser.1: 10
-  comp-sci.identify-network-protocols.9: 10
-  comp-sci.identify-network-protocols.10: 10
-
 ---
 
 # Form a `URL` from its parts
 
+
 ---
+
 ## Content
 
 It is possible to access the current `URL` in parts, so for a website such as:
 
-_http://example.com/data/index.html_
+*<http://example.com/data/index.html>*
 
-- window.location.protocol = `http:`
-- window.location.host = `example.com`
-- window.location.pathname = `data/index.html`
+* window.location.protocol = `http:`
+* window.location.host = `example.com`
+* window.location.pathname = `data/index.html`
 
 From this, we can construct the full `URL` path:
 
@@ -50,7 +29,9 @@ var newURL = window.location.protocol +
  "/" + window.location.pathname;
 ```
 
+
 ---
+
 ## Practice
 
 Construct the full URL path by completing the JS code snippet below:
@@ -61,24 +42,26 @@ var newURL = ???+
          + ???;
 ```
 
-
 * `window.location.protocol`
 * `window.location.host`
 * `window.location.pathname`
 
+
 ---
+
 ## Revision
 
 Consider the following url:
-```
+
+```plain-text
 http://example.com/data/index.html
 ```
 
 Get the host of the url:
+
 ```javascript
 window.???.???;
 ```
-
 
 * `location`
 * `host`
@@ -87,4 +70,3 @@ window.???.???;
 * `url`
 * `protocol`
 * `pathname`
- 

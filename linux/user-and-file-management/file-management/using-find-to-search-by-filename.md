@@ -1,40 +1,21 @@
 ---
 author: jfarmer
-
-levels:
-
-  - basic
-
-  - beginner
-
 type: normal
-
 category: must-know
-
 inAlgoPool: false
-
 tags:
-
   - introduction
-
   - workout
-
-
 links:
-
-  - '[www.tecmint.com](http://www.tecmint.com/35-practical-examples-of-linux-find-command/){website}'
-
-
-aspects:
-  - introduction
-  - workout
-
-
+  - >-
+    [www.tecmint.com](http://www.tecmint.com/35-practical-examples-of-linux-find-command/){website}
 ---
 
 # Using `find` To Search By Filename
 
+
 ---
+
 ## Content
 
 The `find` command is used to search for files on your computer.  One of the most common uses is to search for a file based on its filename, although it can do much more than that.
@@ -71,10 +52,13 @@ Thus, in the first example, it's slightly more correct to search for mp3 files w
 find . -type f -name "*.mp3"
 ```
 
+
 ---
+
 ## Practice
 
 Search in the home directory for files that contain happy in their title: 
+
 ```bash
 ??? ??? -type
   ??? ??? ???
@@ -88,19 +72,16 @@ Search in the home directory for files that contain happy in their title:
 * `"happy"`
 * `d`
 
+
 ---
+
 ## Revision
 
 To look for directories with `find` you need
 
 ??? flag.
 
-
 * -type d
 * -type f
 * dir
 * -dir
-
- 
- 
- 

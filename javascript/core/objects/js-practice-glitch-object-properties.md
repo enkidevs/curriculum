@@ -33,4 +33,3 @@ Use `console.log()` to print the `types` property of the `food` object to the te
 
 Click `Show` to check to see if your program is correct.
 Be sure to Remix the project, and turn that in as your solution.
- 

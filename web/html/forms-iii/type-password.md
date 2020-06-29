@@ -1,29 +1,21 @@
 ---
 author: Stefan-Stojanovic
-
-levels:
-  - beginner
-  - basic
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-  - workout
-  - deep
-
-links:
-
+links: null
 ---
+
 # HTML `password` type input
+
+
 ---
+
 ## Content
 
 The HTML input form `type="password"` attribute is used to display each character either as an asterisk, or a circle. This attribute is very similar to the `type="text"` attribute, but hides each character entered.
 
 Example:
+
 ```html
 <form
   action="/action.php">
@@ -47,7 +39,9 @@ Example:
 
 Where the Username field accepts text as normal, the Password field hides the characters typed by displaying them as bullets (•••)
 
+
 ---
+
 ## Practice
 
 Which statement is true about the "type=password" attribute:
@@ -59,7 +53,9 @@ Which statement is true about the "type=password" attribute:
 * Each input character does not appear.
 * Must use `width` to adjust input text size vs `font-size`.
 
+
 ---
+
 ## Revision
 
 When sensitive data is input into a text field that should display as `*` in place of characters, which form attribute is used?
@@ -72,10 +68,13 @@ When sensitive data is input into a text field that should display as `*` in pla
 * secret
 * astrisk
 
+
 ---
+
 ## Quiz
 
 ### How much do you know about HTML input form attributes?
+
 
 Mark which statement is true about the "type=password" attribute:
 

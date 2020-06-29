@@ -1,45 +1,25 @@
 ---
 author: tuwidc
-
-levels:
-
-  - basic
-
-  - advanced
-
-  - medium
-
-aspects:
-  - obscura
-
 type: normal
-
 category: caveats
-
 tags:
-
   - linux
-
   - locale
-
   - dpkg
-
   - locales
-
   - terminal
-
-
-
-
 ---
 
 # Fixing `locale` issues in Debian systems
 
+
 ---
+
 ## Content
 
 In the occurrence of `locale` issues such as:
-```
+
+```plain-text
 locale: Cannot set LC_CTYPE  ...
 locale: Cannot set LC_MESSAGES ..
 locale: Cannot set LC_ALL ..
@@ -58,12 +38,14 @@ LC_ALL=
 ```
 
 Then, generate the missing `locale` and reconfigure `locale`s accordingly:
+
 ```bash
 sudo locale-gen "en_US.UTF-8"
 Generating locales...
   en_US.UTF-8... done
 Generation complete.
 ```
+
 ```bash
 sudo dpkg-reconfigure locales
 Generating locales...
@@ -71,10 +53,13 @@ Generating locales...
 Generation complete.
 ```
 
+
 ---
+
 ## Practice
 
 To generate missing `locale` values and reconfigure the existing ones you can run:
+
 ```bash
 ??? 'en_US.UTF-8'
 ??? ???
@@ -87,10 +72,13 @@ To generate missing `locale` values and reconfigure the existing ones you can ru
 * `gen`
 * `reconfigure`
 
+
 ---
+
 ## Revision
 
 To generate missing `locales`  values, you could run:
+
 ```bash
 ??? 'pt-BR.UTF-8' 
 # Portuguese-Brazil
@@ -99,7 +87,3 @@ To generate missing `locales`  values, you could run:
 * `locale-gen`
 * `gen`
 * `locales`
-
- 
- 
- 

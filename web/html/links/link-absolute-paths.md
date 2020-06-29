@@ -113,4 +113,3 @@ What is required within absolute paths for images or page links?
 * File and folder names within the current website organization.
 * Forward slashes (/) separating folders.
 * Nothing is required within absolute paths.
- 

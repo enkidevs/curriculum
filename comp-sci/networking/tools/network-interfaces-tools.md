@@ -127,4 +127,3 @@ Instead of using the `up/down` flags, specialized equivalent commands are availa
 ifup eth0
 ifdown eth0
 ```
- 

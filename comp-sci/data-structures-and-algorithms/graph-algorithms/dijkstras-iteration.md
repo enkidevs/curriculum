@@ -1,29 +1,15 @@
 ---
 author: mihaiberq
-
-levels:
-  - beginner
-  - basic
-  - medium
-  - advanced
-
 type: normal
-
 category: must-know
-
-aspects:
-
-  - deep
-
-  - workout
-
 parent: dijkstras-algorithm
-
 ---
 
 # Dijkstra's Algorithm Iteration
 
+
 ---
+
 ## Content
 
 Consider the following undirected, weighted graph, for which **A** is the initial node:
@@ -41,24 +27,29 @@ If you prioritize the current smallest distance for the next node to be visited,
 ![iter2](https://img.enkipro.com/30c7a2795cb6d2f1ff134bc4238df3bd.png)
 
 The distance from **C** to **D** is 3. This means that the distance between **A** and **D**(through C) is:
+
 ```plain-text
 AD = AC + CD = 3+5 = 8
 which is smaller than the old one
 AD = 20
 ```
+
 So, we update the current distance. There are 3 more nodes to visit (*D*, *E* and *B*, in this order), but we'll jump straight to the final state as the process repeats itself:
 
 ![final](https://img.enkipro.com/7c604771a4d9e2c54e5b364342e40ff8.png)
 
 In the end, we are left with:
-```
+
+```plain-text
 AB = 10
 AC = 5
 AD = 8
 AE = 10
 ```
 
+
 ---
+
 ## Revision
 
 One of the initial steps in applying Dijkstra's algorithm is
@@ -70,7 +61,10 @@ One of the initial steps in applying Dijkstra's algorithm is
 * calculating the final distances between nodes.
 * marking all nodes as visited.
 
+
 ---
+
 ## Footnotes
+
 [1:Paths]
 If there is a path between A and C and one between C and, say, X, it means that there is also a path between A and X.

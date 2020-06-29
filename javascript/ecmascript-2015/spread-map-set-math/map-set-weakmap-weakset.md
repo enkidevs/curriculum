@@ -1,42 +1,34 @@
 ---
 author: gregbenner
-
-levels:
-
-  - basic
-
-  - advanced
-
-  - medium
-
 type: fillTheGap
-
 category: tip
-
-aspects:
-  - introduction
-  - workout
-
 links:
-
-  - '[MDN - Map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map){website}'
-
-  - '[MDN - Set](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set){website}'
-
-  - '[MDN - Weakmap](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakMap){website}'
-
-  - '[MDN - Weakset](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakSet){website}'
-
+  - >-
+    [MDN -
+    Map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map){website}
+  - >-
+    [MDN -
+    Set](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set){website}
+  - >-
+    [MDN -
+    Weakmap](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakMap){website}
+  - >-
+    [MDN -
+    Weakset](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakSet){website}
 ---
 
 # map, set, weakmap, weakset
 
+
 ---
+
 ## Content
 
 How confident are you about using JavaScript ES6 data structures?
 
+
 ---
+
 ## Game Content
 
 ```javascript

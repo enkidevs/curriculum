@@ -1,30 +1,21 @@
 ---
 author: Mathieu
-
-levels:
-
-  - basic
-
-  - beginner
-
 type: normal
-
 category: how to
-
-aspects:
-  - workout
-  - deep
-
 links:
-
-  - '[Horizontally Centering a <div>](http://stackoverflow.com/questions/618097/how-do-you-easily-horizontally-center-a-div-using-css){website}'
-  - '[47 CSS Tips & Tricks](http://www.instantshift.com/2010/03/15/47-css-tips-tricks-to-take-your-site-to-the-next-level/){website}'
-  
+  - >-
+    [Horizontally Centering a
+    <div>](http://stackoverflow.com/questions/618097/how-do-you-easily-horizontally-center-a-div-using-css){website}
+  - >-
+    [47 CSS Tips &
+    Tricks](http://www.instantshift.com/2010/03/15/47-css-tips-tricks-to-take-your-site-to-the-next-level/){website}
 ---
 
 # Horizontal centering with `margin: 0 auto;`
 
+
 ---
+
 ## Content
 
 To horizontally center **block elements** of a known width:
@@ -40,7 +31,9 @@ The 2 value shorthand notation of `margin` targets `top/bottom-margins` and `lef
 
 The element also has a known width, so the browser can calculate the container's unused width. The `auto` value tells the browser to equally distantiate the block element from the left and the right margin, which effectively centers it horizontally.
 
+
 ---
+
 ## Revision
 
 What does the following piece of CSS code do? ???

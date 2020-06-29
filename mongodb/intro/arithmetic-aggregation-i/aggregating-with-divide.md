@@ -1,21 +1,14 @@
 ---
 author: Stefan-Stojanovic
-
-levels:
-  - beginner
-  
-aspects:
-  - new
-
 type: normal
-
 category: how to
-
 ---
 
 # Aggregating With `$divide`
 
+
 ---
+
 ## Content
 
 Division is performed in MongoDB by using the `$divide` operator. The syntax looks like this:
@@ -35,6 +28,7 @@ Using the same documents as in the previous insights[1], we can use the `$divide
 **Note:** The expressions are calculated like so `<expression1>` / `<expression2>`.
 
 Example:
+
 ```javascript
 db.pokemon.aggregate([
   {
@@ -49,6 +43,7 @@ db.pokemon.aggregate([
 ```
 
 Output:
+
 ```javascript
 { 
   "_id": ObjectId(
@@ -68,7 +63,9 @@ Output:
 
 **Note:** Just like with the `$add`, `$subtract` and `$multiply` operators, the expressions do not have to be existing fields, they can also be any literals.
 
+
 ---
+
 ## Practice
 
 What operator would you use in MongoDB to perform division?
@@ -80,7 +77,9 @@ What operator would you use in MongoDB to perform division?
 * `$slice`
 * `$partition`
 
+
 ---
+
 ## Revision
 
 Which of these are not valid arithmetic operator?
@@ -93,11 +92,14 @@ Which of these are not valid arithmetic operator?
 * `$subtract`
 * `$add`
 
+
 ---
+
 ## Footnotes
 
 [1:Previous Documents]
 Here are the documents used in the previous insight:
+
 ```javascript
 { 
   "Name": "Pikachu",

@@ -1,22 +1,16 @@
 ---
 author: emmab
-
 tags:
   - introduction
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-
-
 ---
 
 # Intro to Sequential Data Types
 
+
 ---
+
 ## Content
 
 There are several different *sequential* data types in Python. These are ones that are *ordered in a defined sequence.*
@@ -58,7 +52,9 @@ text[13] = '.'
 # TypeError: 'str' object does not support item assignment
 ```
 
+
 ---
+
 ## Practice
 
 What's the correct output for the following?
@@ -75,7 +71,9 @@ print(text[1])
 * `'!'`
 * `'s'`
 
+
 ---
+
 ## Revision
 
 What's the correct output for the following?
@@ -91,4 +89,3 @@ print(text[O])
 * `'s'`
 * `'!'`
 * `'t'`
-

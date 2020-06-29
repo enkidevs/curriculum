@@ -46,4 +46,3 @@ Blockchain-based projects, as any other start-ups, are more likely to fail than 
 
 * False
 * True
- 

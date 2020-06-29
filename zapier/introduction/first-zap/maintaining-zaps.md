@@ -1,14 +1,7 @@
 ---
 author: kapnobatai136
-
 category: must-know
-
-aspects:
-  - introduction
-  - workout
-
 type: normal
-
 links:
   - '[Your Integrations](https://zapier.com/app/zaps){website}'
   - '[Dashboard](https://zapier.com/app/dashboard){website}'
@@ -16,7 +9,9 @@ links:
 
 # Maintaining Zaps
 
+
 ---
+
 ## Content
 
 At some point in the future you might want to edit or remove a zap previously created.
@@ -26,6 +21,7 @@ First, to see all your zaps, you can head on to the [My Zaps](https://zapier.com
 ![my-zaps](https://img.enkipro.com/b3efcfca0bb63fb446eb2fdd0633a73d.png)
 
 In here you can:
+
 * find your created zaps
 * turn them on and off
 * organize your zaps in folders
@@ -36,7 +32,9 @@ You can also go to your [dashboard](https://zapier.com/app/dashboard) where Zapi
 
 ![my-dashboard](https://img.enkipro.com/e0492707d785d96fcbe02fd9af1a620b.png)
 
+
 ---
+
 ## Practice
 
 In the [My Zaps](https://zapier.com/app/zaps) section, you **can't**:
@@ -48,7 +46,9 @@ In the [My Zaps](https://zapier.com/app/zaps) section, you **can't**:
 * turn zaps on and off
 * organize zaps
 
+
 ---
+
 ## Revision
 
 In the [dashboard](https://zapier.com/app/dashboard) you **can**:

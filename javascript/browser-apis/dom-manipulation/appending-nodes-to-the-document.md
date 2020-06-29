@@ -1,21 +1,21 @@
 ---
 author: elliehoward
-
-aspects:
-  - introduction
-  - workout
-
 type: normal
-
 category: must-know
-
 links:
-  - '[MDN - appendChild](https://developer.mozilla.org/en-US/docs/Web/API/Node/appendChild){documentation}'
-  - '[Youtube - DOM Nodes - Beau teaches JavaScript](https://www.youtube.com/watch?v=BWVoPxob5DU){video}'
+  - >-
+    [MDN -
+    appendChild](https://developer.mozilla.org/en-US/docs/Web/API/Node/appendChild){documentation}
+  - >-
+    [Youtube - DOM Nodes - Beau teaches
+    JavaScript](https://www.youtube.com/watch?v=BWVoPxob5DU){video}
 ---
+
 # Appending Nodes to Document
 
+
 ---
+
 ## Content
 
 Once you have created an element you need to add it to the HTML document, or it won't show up anywhere. The `appendChild` method adds an element to a parent element. You must select the desired parent element with one of the various methods available.
@@ -45,7 +45,9 @@ let heading = initializeElement(
 container.appendChild(heading);
 ```
 
+
 ---
+
 ## Practice
 
 After creating an element, which method is used to add the element to the HTML document?
@@ -58,7 +60,9 @@ After creating an element, which method is used to add the element to the HTML d
 * `createTextNode`
 * `appendNode`
 
+
 ---
+
 ## Revision
 
 Fill in the blanks to add the new element to the HTML document.
@@ -75,4 +79,3 @@ container.???(paragraph);
 * `appendChild`
 * `appendNode`
 * `appendElement`
- 

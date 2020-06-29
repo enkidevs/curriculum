@@ -28,4 +28,3 @@ links:
 ## Exercise
 
 Practice using JavaScript Objects on Code Wars
- 

@@ -1,23 +1,18 @@
 ---
 author: emmab
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-  - workout
-
 links:
-  - '[The `del` statement](https://docs.python.org/3.5/tutorial/datastructures.html#the-del-statement){website}'
-
-
+  - >-
+    [The `del`
+    statement](https://docs.python.org/3.5/tutorial/datastructures.html#the-del-statement){website}
 ---
 
 # The `del` operator for lists
 
+
 ---
+
 ## Content
 
 Python has a `del` operator which is useful to delete entire objects. It can also be used to delete items in a `list`.
@@ -43,6 +38,7 @@ del a[0:2]
 print(a)
 # [3, 4]
 ```
+
 Note that even though three elements are specified (*0, 1, 2*), the last one is not deleted. 
 
 We can also use `del` to delete the items inside a `list`, or the whole object itself:
@@ -59,7 +55,9 @@ print(a)
 # NameError: name 'a' is not defined
 ```
 
+
 ---
+
 ## Practice
 
 What’s the output of the following code snippet:
@@ -78,7 +76,9 @@ print(e)
 * [7, 11, 15, 19]
 * [7, 15, 19]
 
+
 ---
+
 ## Revision
 
 Fill in the code snippet so that it will delete the second number in the list:
@@ -94,4 +94,3 @@ list = [1, 2, 3, 4, 5]
 * 2
 * 3
 * remove
-

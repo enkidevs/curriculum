@@ -1,25 +1,21 @@
 ---
 author: emmab
-
 tags:
   - introduction
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-
 links:
-  - '[Regex Modifiers](https://www.regular-expressions.info/refmodifiers.html){website}'
+  - >-
+    [Regex
+    Modifiers](https://www.regular-expressions.info/refmodifiers.html){website}
   - '[Regex in Ruby](https://ruby-doc.org/core-2.7.1/Regexp.html){website}'
-
 ---
 
 # Modifiers
 
+
 ---
+
 ## Content
 
 Modifiers change the *whole nature of our regex pattern*. 
@@ -45,13 +41,15 @@ A regex expression with an `m` modifier would allow the pattern to check across 
 ```plain-text
 start of a line
 another line
-```       
+```
 
 > 💡 When using Ruby, the anchors `^` and `$` always match on all lines. There is no way to turn this option off. This is actually quite a nice way to do things as there are separate anchors for the beginning and end of strings: `\A`, `\Z` and `\z`.
 
 There are many more modifiers which you can read about [here](https://www.regular-expressions.info/refmodifiers.html).
 
+
 ---
+
 ## Practice
 
 How would you make the following regex pattern match all four abbreviations?
@@ -67,7 +65,9 @@ How would you make the following regex pattern match all four abbreviations?
 * `$`
 * `m`
 
+
 ---
+
 ## Revision
 
 How would you make the following regex pattern match all four abbreviations?

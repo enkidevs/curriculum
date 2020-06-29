@@ -100,4 +100,3 @@ Consider the `generation` table. How would you delete the `region_id` column:
 * ALTER TABLE generation DROP COLUMN region_id;
 * ALTER TABLE generation DROP region_id;
 * ALTER generation DROP COLUMN region_id;
- 

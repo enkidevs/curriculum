@@ -1,22 +1,14 @@
 ---
 author: Stefan-Stojanovic
-
-levels:
-  - beginner
-
-aspects:
-  - introduction
-  - workout
-
 type: normal
-
 category: must-know
-
 ---
 
 # The Navigator
 
+
 ---
+
 ## Content
 
 The `Navigator` panel is one of the most important panels on Webflow.

@@ -58,4 +58,3 @@ Which of the following is not a block element?
 * `<form>`
 * `<li>`
 * `<p>`
- 

@@ -1,30 +1,18 @@
 ---
 author: rosielowther
-
-levels:
-
-  - advanced
-
 type: normal
-
 category: feature
-
-aspects:
-  
-  - introduction
-  - obscura
-  
-
 links:
-
-  - '[Working With Dates In Git](https://alexpeattie.com/blog/working-with-dates-in-git){website}'
-
-
+  - >-
+    [Working With Dates In
+    Git](https://alexpeattie.com/blog/working-with-dates-in-git){website}
 ---
 
 # Dates in git
 
+
 ---
+
 ## Content
 
 Git has a very flexible date format.
@@ -35,26 +23,34 @@ Git can handle every division of time between seconds and years, timezones and m
 
 **Date examples**
 
-
 To see the commits since the 1st Jan 2016:
+
 ```bash
 git log --since="01/01/2016"
 ```
+
 To compare the repository between two different dates:
+
 ```bash
 git diff master@{"yesterday"} 
   master@{"2 weeks 2 days ago"}
 ```
+
 To revert to an old version of a repository:
+
 ```bash
 git revert master@{"last Tuesday"}
 ```
+
 Note: these commands use the **committer** date not the **author** date. The committer date refers to the time the work was last applied.
 
+
 ---
+
 ## Practice
 
 To retrieve all the logs starting from last week until yesterday, you would run:
+
 ```bash
 git ??? --since=??? 
      ???="yesterday"
@@ -66,14 +62,12 @@ git ??? --since=???
 * `until`
 * `logs`
 
+
 ---
+
 ## Revision
 
 `git` ??? understand relative dates like `"yesterday"` and `"1month6days ago"`.
 
 * can
 * can’t
-
- 
- 
- 

@@ -79,4 +79,3 @@ Complete the following code snippet to select 2 random items from a list/tuple d
 * `select`
 * `choose`
 * `randomise`
- 

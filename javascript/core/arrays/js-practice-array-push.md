@@ -29,4 +29,3 @@ links:
 ## Exercise
 
 Practice using the JavaScript Array methods `push()`, `pop()`, `shift()` and `unshift()`
- 

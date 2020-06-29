@@ -92,4 +92,3 @@ Can Volumes increase the size of the container?
 * Yes
 * Yes, if the container shares a volume with another container
 * Yes, but only during the build process
- 

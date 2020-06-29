@@ -55,4 +55,3 @@ For most cryptocurrencies, solo mining stops being profitable after the first fe
 * a mining tree
 * a congregation
 * a mine
- 

@@ -1,31 +1,17 @@
 ---
 author: pawel
-
-levels:
-
-  - basic
-
 type: normal
-
 category: must-know
-
-aspects:
-
-  - deep
-
-  - obscura
-
 links:
-
   - '[www.grauw.nl](http://www.grauw.nl/blog/entry/510){website}'
-
 notes: ''
-
 ---
 
 # Short-circuit evaluation
 
+
 ---
+
 ## Content
 
 Short-circuit evaluation is the way programming languages evaluate some boolean operations, where second argument is evaluated only if first argument is not sufficient to determine the outcome of the expression.
@@ -39,13 +25,14 @@ if (check != false && calc(b)) {
 }
 ```
 
+
 ---
+
 ## Revision
 
 Which of the following does short-circulation not prevent? 
 
 ???
-
 
 * Exceptions being thrown
 * Expensive calculations

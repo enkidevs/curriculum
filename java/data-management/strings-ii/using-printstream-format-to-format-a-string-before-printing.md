@@ -1,33 +1,20 @@
 ---
 author: adamMontgomerie
-
-levels:
-
-  - basic
-
 type: normal
-
 category: how to
-
-aspects:
-
-  - introduction
-
 tags:
-
   - strings
-
   - formatting
-
 links:
-
-  - '[docs.oracle.com](https://docs.oracle.com/javase/tutorial/java/data/numberformat.html){website}'
-
+  - >-
+    [docs.oracle.com](https://docs.oracle.com/javase/tutorial/java/data/numberformat.html){website}
 ---
 
 # Using `Printstream.format` to format a string before printing
 
+
 ---
+
 ## Content
 
 ```java
@@ -48,7 +35,9 @@ The position in the string which a variable will be printed at is marked by a fo
 
 The letter following `%` indicates the type of variable which is being displayed; `d` is for decimal integers, `s` for strings and `f` for floats.
 
+
 ---
+
 ## Practice
 
 Complete the code snippet, printing the `int` decimal provided:
@@ -67,7 +56,9 @@ System.out.???("The value"+
 * `%x`
 * `printFormat`
 
+
 ---
+
 ## Revision
 
 Using `System.out.format` , what specifier is used to print `float` s?

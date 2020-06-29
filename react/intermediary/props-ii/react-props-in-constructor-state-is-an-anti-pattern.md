@@ -1,24 +1,15 @@
 ---
 author: tommarshall
-
-levels:
-  - basic
-  - advanced
-  - medium
-
 type: normal
-
 category: tip
-
 parent: custom-proptype-s-to-be-required
-
-aspects:
-  - deep
-
 ---
+
 # Props in constructor's state
 
+
 ---
+
 ## Content
 
 Passing down props from the parent to generate state in the `constructor` can lead to duplication of *source of truth*, where the real data is located. This is considered an "anti-pattern".
@@ -62,7 +53,9 @@ ReactDOM.render(
 );
 ```
 
+
 ---
+
 ## Practice
 
 Which of the following two components do you think employs the best practice for passing props?
@@ -100,7 +93,9 @@ class B extends React.Component {
 * both
 * neither
 
+
 ---
+
 ## Revision
 
 What do you think about generating state from props in `this.state` in the constructor?

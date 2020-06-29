@@ -1,27 +1,18 @@
 ---
 author: lizTheDeveloper
-
-levels:
-  - beginner
-  - basic
-  - medium
-
 type: normal
-
 category: must-know
-
 links:
-  - '[SQL Tutorial: SELECT](http://www.sql-tutorial.com/sql-select-sql-tutorial/){website}'
-
-aspects:
-  - introduction
-  - workout
-
+  - >-
+    [SQL Tutorial:
+    SELECT](http://www.sql-tutorial.com/sql-select-sql-tutorial/){website}
 ---
 
 # SELECT with AS
 
+
 ---
+
 ## Content
 
 Let's learn about renaming columns in your results!
@@ -52,7 +43,7 @@ Note that *aliases* exist only for the duration or purpose of the query and do n
 Here is the result of our query:
 
 | id | Health Points | attack |
-|----|---------------|--------|
+| -- | ------------- | ------ |
 | 10 | 45            | 30     |
 | 11 | 50            | 20     |
 | 12 | 60            | 45     |
@@ -62,20 +53,21 @@ Here is the result of our query:
 
 Remember, the information is not deleted from the database. You're simply **querying** the database, but doing so in a way where you only receive the information contained in the specified columns.
 
+
 ---
+
 ## Practice
 
 Complete the following query to get the `id` and `pw` columns from the `move` table where:
+
 1. `accuracy` is more than 100;
 2. `pw` is renamed to 'Power'.
-
 
 ```sql
 SELECT id, pw ???
 FROM move
 ???;
 ```
-
 
 * AS 'Power'
 * `WHERE accuracy > 100`
@@ -84,20 +76,21 @@ FROM move
 * `WHEN accuracy > 100`
 * `IF accuracy > 100`
 
+
 ---
+
 ## Revision
 
 Complete the following query to get the `id` and `str` columns from the `move` table where:
+
 1. `accuracy` is not greater than 10;
 2. the `str` column is renamed 'Strength'.
-
 
 ```sql
 SELECT id, str ???
 FROM move
 ???;
 ```
-
 
 * AS 'Strength'
 * `WHERE accuracy <= 10`
@@ -107,13 +100,18 @@ FROM move
 * `WHERE accuracy > 10`
 * `IF accuracy > 10`
 
+
 ---
-## Quiz 
+
+## Quiz
+
 ### What statement gets columns and rows from tables?
+
+
 Given a table called `ability` from our pokemon database:
 
 | id  | is_main_series | generation_id | name         |
-|-----|----------------|---------------|--------------|
+| --- | -------------- | ------------- | ------------ |
 | 1   | t              | 3             | stench       |
 | 2   | f              | 3             | drizzle      |
 | 3   | t              | 3             | speed-boost  |

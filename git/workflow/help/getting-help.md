@@ -75,4 +75,3 @@ git clone ???
 * `help`
 * `--man`
 * `--info`
- 

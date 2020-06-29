@@ -1,19 +1,14 @@
 ---
 author: jordanfish
-
 type: normal
-
 category: caveats
-
-aspects:
-  - introduction
-  - workout
-  - obscura
-
 ---
+
 # Counting the Months From Zero
 
+
 ---
+
 ## Content
 
 The months of the year in a date object begin counting from zero.
@@ -40,7 +35,9 @@ console.log(date);
 // date = Thur Jan 21 2016 00:00:00
 ```
 
+
 ---
+
 ## Practice
 
 Fill in the missing gaps to create a date on the 15 December 2019
@@ -64,7 +61,9 @@ console.log(date)
 * D
 * DateTime
 
+
 ---
+
 ## Revision
 
 What will the following code snippet print?
@@ -82,9 +81,13 @@ console.log(date);
 * Jan
 * Dec
 
+
 ---
+
 ## Quiz
+
 ### how does JavaScript's Date object work?
+
 
 ```javascript
 console.log(new Date(2016, 5, 31));
@@ -96,4 +99,3 @@ console.log(new Date(2016, 5, 31));
 * June 31 2016
 * May 31 2016
 * June 1 2016
- 

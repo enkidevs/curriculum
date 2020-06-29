@@ -1,29 +1,21 @@
 ---
 author: Stefan-Stojanovic
-
-levels:
-  - beginner
-  - basic
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-  - workout
-  - deep
-
-links:
-
+links: null
 ---
+
 # `<pre>` - Preformatted Text
+
+
 ---
+
 ## Content
 
 The HTML `<pre>`, or the **Pre-formatted Text** element, is used to display text exactly as it is within the HTML file. This means that text and all the spaces within the `<pre>` element will all be displayed in the space exactly. This is useful since HTML typically ignores multiple spaces.
 
 Example:
+
 ```html
 <pre>.enki-highlight {
   color: #F46C43;
@@ -64,7 +56,9 @@ Since all spaces within the `<pre>` element are used, pay attention to adding an
 </pre>
 ```
 
+
 ---
+
 ## Practice
 
 Which is true about the `<pre>` element?
@@ -77,7 +71,9 @@ Which is true about the `<pre>` element?
 * represents sample output
 * whitespace is removed
 
+
 ---
+
 ## Revision
 
 What HTML element is used to display the text exactly as it is laid out within the element?
@@ -92,10 +88,13 @@ What HTML element is used to display the text exactly as it is laid out within t
 * `<standard>`
 * `<output>`
 
+
 ---
+
 ## Quiz
 
 ### How much do you know about text formatting with HTML elements?
+
 
 Which HTML element is best used for "???" to properly display this code within a webpage:
 

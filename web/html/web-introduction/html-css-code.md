@@ -1,20 +1,14 @@
 ---
 author: Stefan-Stojanovic
-
-levels:
-  - beginner
-  - basic
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-
 ---
+
 # HTML/CSS Code
+
+
 ---
+
 ## Content
 
 **CSS** and **HTML** are the core languages used for creating web pages and web-based applications.
@@ -26,6 +20,7 @@ aspects:
 **CSS** is made of selectors followed by a declaration block; `selector {declaration block}`.
 
 HTML example:
+
 ```html
 <h2>
   This is a heading
@@ -36,6 +31,7 @@ HTML example:
 ```
 
 CSS example:
+
 ```css
 p { color: red; }
 h2 { font-size: 24px; }
@@ -46,6 +42,7 @@ In the **CSS** example above, we set the **HTML** `<p>` elements content to the 
 
 
 ---
+
 ## Practice
 
 Identify the following code languages:
@@ -56,7 +53,9 @@ Identify the following code languages:
 * HTML
 * CSS
 
+
 ---
+
 ## Revision
 
 Which is HTML code and which is CSS code?
@@ -67,10 +66,13 @@ CSS: ???
 * `<p>I'm a style.</p>`
 * `p { font-size: 16px; }`
 
+
 ---
+
 ## Quiz
 
 ### How well can you identify HTML and CSS?
+
 
 What lines of code are HTML?
 
@@ -89,4 +91,3 @@ What lines of code are HTML?
 * 4
 * 1
 * none
- 

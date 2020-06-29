@@ -1,33 +1,21 @@
 ---
 author: rosielowther
-
-levels:
-
-  - basic
-
-  - advanced
-
-  - medium
-
 type: fillTheGap
-
 category: must-know
-
-aspects:
-  - introduction
-  - new
-  - workout
-
 ---
 
 # Stringing it all together!
 
+
 ---
+
 ## Content
 
 Do you know how to manipulate Strings in ES6?
 
+
 ---
+
 ## Game Content
 
 ```javascript

@@ -1,27 +1,19 @@
 ---
 author: adamMontgomerie
-
 type: normal
-
 category: tip
-
-aspects:
-  - obscura
-
-
 links:
-
-  - '[learnxinyminutes.com](http://learnxinyminutes.com/docs/javascript/){website}'
-  - '[developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence){website}'
-
-
-
-
+  - >-
+    [learnxinyminutes.com](http://learnxinyminutes.com/docs/javascript/){website}
+  - >-
+    [developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence){website}
 ---
 
 # Infix operators are left-associative
 
+
 ---
+
 ## Content
 
 Operator associativity determines the order in which operators of the same type are evaluated.
@@ -44,7 +36,9 @@ These parentheses can be safely omitted without affecting the outcome of the equ
 let x = a - (b - c);
 ```
 
+
 ---
+
 ## Practice
 
 What does the following JS code output? ???
@@ -58,7 +52,6 @@ let x = a - (-b * c);
 console.log(x);
 ```
 
-
 * 68
 * -28
 * 192
@@ -67,13 +60,13 @@ console.log(x);
 * -68
 * -192
 
+
 ---
+
 ## Revision
 
 The processing of operations starts with the ??? operator if no parentheses are used.
 
-
 * left-most
 * right-most
 * middle
- 

@@ -49,4 +49,3 @@ Even though Javascript is function scoped, the variable in ??? is block scoped.
 * the catch clause
 * the try clause
 * a for loop
- 

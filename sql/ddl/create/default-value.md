@@ -78,4 +78,3 @@ INSERT INTO cars (id, year) VALUES
 * DEFAULT
 * Suzuki Swift
 * 1997
- 

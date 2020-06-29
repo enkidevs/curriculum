@@ -2,17 +2,20 @@
 author: kapnobatai136
 type: normal
 category: must-know
-aspects:
-  - introduction
 links:
-  - '[Play with classes](https://repl.it/@enkicontent/TypeScriptPlayWithClasses){website}'
-  - '[Class Type](https://www.typescriptlang.org/docs/handbook/classes.html){documentation}'
-
+  - >-
+    [Play with
+    classes](https://repl.it/@enkicontent/TypeScriptPlayWithClasses){website}
+  - >-
+    [Class
+    Type](https://www.typescriptlang.org/docs/handbook/classes.html){documentation}
 ---
 
 # Introduction to Classes
 
+
 ---
+
 ## Content
 
 Classes represent the building blocks of the style of programming called *object-oriented programming*, or OOP[1].
@@ -65,7 +68,9 @@ The benefit of classes is that they allow us to define data and behaviors in one
 
 In the example above, we used the `Animal` class to create a `zebra` but we could've also created a `tiger` or an `eagle`.
 
+
 ---
+
 ## Practice
 
 Create the `"London"` instance of the `City` class:
@@ -86,7 +91,9 @@ let london = ??? ???('London')
 * New
 * city
 
+
 ---
+
 ## Revision
 
 Create the `"Miami"` instance of the `City` class:
@@ -112,7 +119,9 @@ let miami = ??? ???('Miami')
 * New
 * city
 
+
 ---
+
 ## Footnotes
 
 [1:Object-oriented programming]

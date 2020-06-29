@@ -44,4 +44,3 @@ Which of the following statements describes Ethereum Classic?
 * Ethereum network post DAO hard-fork
 * Ethereum network with a PoS consensus algorithm
 * A sham Ethereum network
- 

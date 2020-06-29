@@ -1,21 +1,14 @@
 ---
 author: Stefan-Stojanovic
-
-levels:
-  - beginner
-  - basic
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-  - obscura
-
 ---
+
 # .html vs .htm
+
+
 ---
+
 ## Content
 
 `.html` and `.htm` are both file extensions for HTML.
@@ -26,7 +19,9 @@ There was no 3 character limitation for early Mac users, so they often used the 
 
 Today, limiting extensions to 3 characters is no longer necessary on any operating system. 
 
+
 ---
+
 ## Practice
 
 When was the “.html” extension considered acceptable over “.htm”?
@@ -38,15 +33,16 @@ When was the “.html” extension considered acceptable over “.htm”?
 * When the `.htm.` extension became deprecated.
 * It was never considered acceptable.
 
+
 ---
+
 ## Revision
 
 When was the “.htm” extension used?
 
 ???
 
- * When early DOS limited all extensions to 3 characters.
- * It was never used.
- * It is still mandatory on MAC OS
- * When only 3 letter extensions existed.
- 
+* When early DOS limited all extensions to 3 characters.
+* It was never used.
+* It is still mandatory on MAC OS
+* When only 3 letter extensions existed.

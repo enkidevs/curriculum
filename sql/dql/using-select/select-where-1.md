@@ -1,30 +1,24 @@
 ---
 author: claremarie
-
-levels:
-  - basic
-  - beginner
-
 type: normal
-
 category: must-know
-
 links:
-  - '[SQL Tutorial: WHERE](http://www.sql-tutorial.com/sql-where-sql-tutorial/){website}'
-
-aspects:
-  - introduction
-
+  - >-
+    [SQL Tutorial:
+    WHERE](http://www.sql-tutorial.com/sql-where-sql-tutorial/){website}
 ---
 
 # WHERE (1)
 
+
 ---
+
 ## Content
 
 Aside from columns, you might also want to restrict the number of records (rows) returned. 
 
 Introducing: the `WHERE` keyword! Here it is in action:
+
 ```sql
 SELECT column_1, column_2,... 
 FROM table_name
@@ -35,7 +29,9 @@ When added to a SQL `SELECT` statement, `WHERE` allows us to select rows in a ta
 
 The conditional statement that follows `WHERE` is evaluated for each row. If it's evaluated as true, the row will be included in the query result.
 
+
 ---
+
 ## Practice
 
 The `WHERE` keyword is used to select ??? based on conditions.
@@ -44,7 +40,9 @@ The `WHERE` keyword is used to select ??? based on conditions.
 * columns
 * tables
 
+
 ---
+
 ## Revision
 
 Which query will return the `language_id` for the move named `Headbutt`?

@@ -1,26 +1,21 @@
 ---
 author: Stefan-Stojanovic
-
-levels:
-  - beginner
-  - basic
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-  - workout
-
 links:
-  - '[HTML <checkbox> Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/checkbox){documentation}'
-  - '[StackOverflow: Multiple Checkboxes](https://stackoverflow.com/questions/18745456/handle-multiple-checkboxes-with-a-single-serverside-variable){discussion}'
-
-
+  - >-
+    [HTML <checkbox>
+    Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/checkbox){documentation}
+  - >-
+    [StackOverflow: Multiple
+    Checkboxes](https://stackoverflow.com/questions/18745456/handle-multiple-checkboxes-with-a-single-serverside-variable){discussion}
 ---
+
 # Checkbox Groups
+
+
 ---
+
 ## Content
 
 The HTML input forms of type `checkbox` are square boxes that can be ticked or checked to be activated. They allow you to either select none, a single or more values at once.
@@ -28,6 +23,7 @@ The HTML input forms of type `checkbox` are square boxes that can be ticked or c
 **Note:** A similar input form type is `radio`. This input type is also clickable, however, unlike with checkboxes, if multiple options are present, the radio buttons can have only one option checked at a time.
 
 Example with multiple checkboxes:
+
 ```html
 <form>
   <legend>
@@ -114,6 +110,7 @@ When this data is submitted and sent to the server, it can be captured as an arr
 Furthermore, you can add a `checked` attribute to make a checkbox checked by default. Additionally, if the answers you provided are not enough, you can add an `other` checkbox with a `textfield` for the user to type an answer themselves.
 
 Example:
+
 ```html
 <form>
  <div>
@@ -150,6 +147,7 @@ Along with the `checked` and `unchecked` state, checkboxes have a third state ca
 
 
 ---
+
 ## Practice
 
 Checkboxes have three possible states, these are `checked`, `unchecked` and:
@@ -162,35 +160,37 @@ Checkboxes have three possible states, these are `checked`, `unchecked` and:
 * `intermidiate`
 * There is no third state
 
+
 ---
+
 ## Revision
 
 Create a checkbox group with two checkboxes and larger clickable area
 
-
- ```html
+```html
 <tagA>
-  <legend>
-    Choose favorite meal
-  </legend>
-    <div>
-     <tagB
-        type="tagC" id="soup"
-        name="meal" value="soup" tagD>
-     <tagE
-        for="soup">Soup
-     </tagE>
-    </div>
-    <div>
-     <tagB
-        type="tagC" id="burgers"
-        name="meal" value="burgers">
-     <tagE
-        for="burgers">Burgers
-     </tagE>
-    </div
+ <legend>
+   Choose favorite meal
+ </legend>
+   <div>
+    <tagB
+       type="tagC" id="soup"
+       name="meal" value="soup" tagD>
+    <tagE
+       for="soup">Soup
+    </tagE>
+   </div>
+   <div>
+    <tagB
+       type="tagC" id="burgers"
+       name="meal" value="burgers">
+    <tagE
+       for="burgers">Burgers
+    </tagE>
+   </div
 </tagA>
 ```
+
 tagA: ???
 tagB: ???
 tagC: ???
@@ -207,10 +207,13 @@ tagE: ???
 * userInput
 * checkedbox
 
+
 ---
+
 ## Quiz
 
 ### How much do you know about checkboxes?
+
 
 How are checkboxes styled?
 

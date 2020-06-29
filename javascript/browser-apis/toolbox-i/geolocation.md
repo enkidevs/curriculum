@@ -1,33 +1,16 @@
 ---
 author: tommarshall
-
-levels:
-  - basic
-  - advanced
-  - medium
-
 type: normal
-
 category: feature
-
-aspects:
-  - introduction
-  - new
-  - workout
-  - deep
-
-
-standards:
-  javascript.browser-apis-browser.0: 10
-  javascript.browser-apis-device.1: 10
-
 links:
   - '[www.sitepoint.com](http://www.sitepoint.com/html5-geolocation/){website}'
-
 ---
+
 # Geolocation
 
+
 ---
+
 ## Content
 
 The Geolocation API provides location information such as the latitude and longitude coordinates.
@@ -59,7 +42,9 @@ navigator.geolocation.watchPosition(
   });
 ```
 
+
 ---
+
 ## Practice
 
 Fill in the gaps in the following code snippet. Using the geolocation API exposed by the browser and assuming you have all the permissions needed, get the current device position and log the latitude and longitude.
@@ -88,7 +73,9 @@ navigator.???.???(
 * watchPosition
 * getLocation
 
+
 ---
+
 ## Revision
 
 Fill in the missing bits of the following snippet such that, using the Geolocation API, you listen on the position changes of the device:
@@ -109,4 +96,3 @@ navigator.???.???(
 * watch
 * listen
 * onChange
- 

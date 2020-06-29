@@ -1,28 +1,23 @@
 ---
 author: Dral
-
 type: normal
-
 category: best practice
-
 tags:
   - introduction
   - workout
   - functional-programming
   - arrays
-
-aspects:
-  - introduction
-  - workout
-
 links:
-  - '[MDN Filter](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter){documentation}'
-
+  - >-
+    [MDN
+    Filter](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter){documentation}
 ---
 
 # Filtering Items out of an Array
 
+
 ---
+
 ## Content
 
 A common pattern to filter items from an array is the following:
@@ -74,7 +69,9 @@ console.log(even);
 
 > Note: you can use any type of array, you are not limited to a number array.
 
+
 ---
+
 ## Practice
 
 `.filter`  can be used instead of ???.
@@ -83,7 +80,9 @@ console.log(even);
 * if
 * for and alert
 
+
 ---
+
 ## Revision
 
 Complete the following snippet such that the `div3` variable will contain all numbers divisible by 3:
@@ -115,7 +114,9 @@ let div3 = numbers.???(
 * !== 0
 * separate
 
+
 ---
+
 ## Footnotes
 
 [1:Syntax]
@@ -132,8 +133,9 @@ let newArray = arr.filter(
 ```
 
 The `callback` function can take three arguments:
-- `element` (mandatory)
-- `index` (optional, it represents the index of the current element being processed)
-- `array` (optional, it represents the array on which you call `filter()`)
+
+* `element` (mandatory)
+* `index` (optional, it represents the index of the current element being processed)
+* `array` (optional, it represents the array on which you call `filter()`)
 
 Here, `thisArg` is also an optional parameter, and it represents that value that is used as `this` when executing the `callback` function.

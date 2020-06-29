@@ -1,37 +1,30 @@
 ---
 author: Stefan-Stojanovic
-
-levels:
-  - beginner
-  - basic
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-  - workout
-  - deep
-
-links:
-
+links: null
 ---
+
 # The `placeholder` Attribute
+
+
 ---
+
 ## Content
 
 The HTML input form attribute `placeholder` is used to display a short hint that describes the expected value for the selected input field. It is displayed in the input field until the user enters a value.
 
 The placeholder attribute works for several input types:
- - `email`
- - `password`
- - `search`
- - `tel`
- - `text`
- - `URL`
+
+* `email`
+* `password`
+* `search`
+* `tel`
+* `text`
+* `URL`
 
 Example:
+
 ```html
 <form
   action="/action.php">
@@ -48,7 +41,9 @@ Example:
 
 [View CodePen](https://codepen.io/enkidevs/pen/LrMJqV)
 
+
 ---
+
 ## Practice
 
 Which statement is true regarding placeholder?
@@ -60,7 +55,9 @@ Which statement is true regarding placeholder?
 * Numbers are not accepted as a placeholder.
 * Does not work with the following input types: url, tel, & password
 
+
 ---
+
 ## Revision
 
 Which form attribute shares a short hint that describes the expected value of an input field and will be overwritten by their input?

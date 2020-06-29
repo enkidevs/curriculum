@@ -1,33 +1,26 @@
 ---
 author: mihaiberq
-
-levels:
-  - beginner
-
 type: normal
-
 category: tip
-
-aspects:
-  - introduction
-  - workout
-
 inAlgoPool: false
-
 links:
   - '[Scrimba CSS the Box Model](https://scrimba.com/p/pWvwCg/cnm3RSZ){website}'
-  - '[MDN Docs on the Box Model](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Introduction_to_the_CSS_box_model){documentation}'
-
+  - >-
+    [MDN Docs on the Box
+    Model](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Introduction_to_the_CSS_box_model){documentation}
 ---
 
 # The *Box Model*
 
+
 ---
+
 ## Content
 
 According to the **box model**, every element on the page is a rectangular box that may have `width`, `height`, `margin`, `padding` or `border`.
 
 The dimensions of such a box are calculated by summing the values of the above mentioned properties. To better understand the formula, consider this example:
+
 ```css
 div{
   width: 600px;
@@ -44,7 +37,9 @@ The total width of the whole element will be **20+4+10+600+10+4+20=668p**, which
 
 It is important to mention that some elements *do not accept* top and bottom margin and padding. We will talk about these in more detail in a future workout.
 
+
 ---
+
 ## Revision
 
 Which is the inside-out order for the *box model* components?
@@ -56,9 +51,13 @@ Which is the inside-out order for the *box model* components?
 * Padding/Content/Border/Margin
 * Content/Padding/Margin/Border
 
+
 ---
+
 ## Quiz
+
 ### are you familiar with the box model?
+
 
 What’s the correct outside-in order of the elements contained by the Box Model?
 

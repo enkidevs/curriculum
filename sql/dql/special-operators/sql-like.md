@@ -1,31 +1,32 @@
 ---
 author: stefkn
-
 type: normal
-
 category: must-know
-
 links:
-  - '[SQL Tutorial: WHERE](http://www.sql-tutorial.com/sql-where-sql-tutorial/){website}'
-  - '[Like Predicate](https://en.wikibooks.org/wiki/Structured_Query_Language/Like_Predicate){website}'
-  - '[The IN Keyword](https://en.wikibooks.org/wiki/Structured_Query_Language/Quantified_Comparison#IN){website}'
-
-aspects:
-  - workout
-
+  - >-
+    [SQL Tutorial:
+    WHERE](http://www.sql-tutorial.com/sql-where-sql-tutorial/){website}
+  - >-
+    [Like
+    Predicate](https://en.wikibooks.org/wiki/Structured_Query_Language/Like_Predicate){website}
+  - >-
+    [The IN
+    Keyword](https://en.wikibooks.org/wiki/Structured_Query_Language/Quantified_Comparison#IN){website}
 ---
 
 # LIKE
 
+
 ---
+
 ## Content
 
 Using this table[1], let's take a look at how `LIKE` works.
 
 The `LIKE` statement accepts a pattern string, where wildcard characters are used to denote an acceptable pattern[2].
 
- - `%` is a **wildcard**. This means it counts for a string of any characters of any length, including nothing.
- - `_` represents only one character.
+* `%` is a **wildcard**. This means it counts for a string of any characters of any length, including nothing.
+* `_` represents only one character.
 
 Therefore, `%le` denotes any string that ends in `'le'`. `_le` denotes any string with only one character before `'le'`. 
 
@@ -40,11 +41,13 @@ WHERE name LIKE '%le';
 The result of this statement is the two rows of the Pokémon whose names end in `'le'`: Squirtle and Wartortle.
 
 | name      | total | hp | attack | defense |
-|-----------|-------|----|--------|---------|
+| --------- | ----- | -- | ------ | ------- |
 | Squirtle  | 314   | 44 | 48     | 65      |
 | Wartortle | 405   | 59 | 63     | 80      |
 
+
 ---
+
 ## Practice
 
 Select all the columns from the `pokemon` table, keeping only the rows where the name ends with the string `'saur'`.
@@ -64,7 +67,9 @@ FROM pokemon
 * 'saur'
 * 'saur%'
 
+
 ---
+
 ## Revision
 
 Write a query that will retrieve all the Toy Story movies from the database, using the `LIKE` keyword.
@@ -80,13 +85,18 @@ WHERE name ??? 'Toy Story???';
 * %
 * _
 
+
 ---
-## Quiz 
+
+## Quiz
+
 ### Do you know how to match a pattern in SQL?
+
+
 Consider the `location` table from our pokemon database:
 
 | id  | region_id | name          |
-|-----|-----------|---------------|
+| --- | --------- | ------------- |
 | 1   | 4         | canalave-city |
 | 2   | 1         | eterna-city   |
 | 3   | 3         | pastoria-city |
@@ -101,8 +111,11 @@ Choose the query that will get all the location records based in regions 1, 2. A
 * SELECT * FROM location WHERE BETWEEN 1 AND 2 AND name='%city';
 * SELECT * FROM location WHERE region_id < 3 AND name LIKE '_city';
 
+
 ---
+
 ## Footnotes
+
 [1:Table]
 | name       | total | hp | attack | defense |
 |------------|-------|----|--------|---------|

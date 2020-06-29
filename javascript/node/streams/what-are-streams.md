@@ -60,4 +60,3 @@ Streams are ??? allowing data to be read from a source and for data to be piped 
 
 [1:unix pipes]
 A `pipe` is a form of redirection that is used in **Linux** and other **Unix**-like operating systems to send the *output* of one program to another program for further processing (as *input*).
- 

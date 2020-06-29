@@ -1,48 +1,34 @@
 ---
 author: gregbenner
-
-levels:
-
-  - basic
-
-  - advanced
-
-  - medium
-
 type: fillTheGap
-
 category: must-know
-
-aspects:
-  - introduction
-  - workout
-
 tags:
-
   - promise
-
   - async
-
   - functional programming
-
 links:
-
-  - '[MDN - Promises](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Promise){website}'
-
-  - '[MDN - Generators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator){website}'
-
+  - >-
+    [MDN -
+    Promises](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Promise){website}
+  - >-
+    [MDN -
+    Generators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator){website}
 ---
 
 # Generators and Promises
 
+
 ---
+
 ## Content
 
 Some of the most exiting features of ES6 are generators and promises.
 
 Can you fill in the gaps in the following code snippets such that they make sense?
 
+
 ---
+
 ## Game Content
 
 ```javascript

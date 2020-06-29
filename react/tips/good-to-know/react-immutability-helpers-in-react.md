@@ -1,23 +1,19 @@
 ---
 author: catalin
-
 type: normal
-
 category: feature
-
 links:
-  - '[Immutability Helper](https://github.com/kolodny/immutability-helper){website}'
-
+  - >-
+    [Immutability
+    Helper](https://github.com/kolodny/immutability-helper){website}
 parent: custom-proptype-s-to-be-required
-
-aspects:
-  - deep
-
 ---
 
 # Immutability helpers in React
 
+
 ---
+
 ## Content
 
 When opting in for an immutable style of data management, a significant speedup can be achieved by implementing a `shouldComponentUpdate()` lifecycle method. To do this, you would need a method that aids with comparing *versions* of your component's `state`.
@@ -67,7 +63,9 @@ var newObj = update(obj, {
 
 Other commands worth mentioning are `{ $unshift: array }` and `{ $splice: array of arrays }`, but you can see all the available methods in the Resources section of this insight.
 
+
 ---
+
 ## Practice
 
 Given:
@@ -88,7 +86,6 @@ var newObj = ???(myData, {
 });
 ```
 
-
 * `update`
 * `$`
 * `push`
@@ -99,7 +96,9 @@ var newObj = ???(myData, {
 * `{`
 * `}`
 
+
 ---
+
 ## Revision
 
 Given:
@@ -120,7 +119,6 @@ var newObj = ???(myData, {
 });
 ```
 
-
 * `update`
 * `$`
 * `push`
@@ -131,7 +129,9 @@ var newObj = ???(myData, {
 * `{`
 * `}`
 
+
 ---
+
 ## Footnotes
 
 [1:Deep Copies]

@@ -1,62 +1,58 @@
 ---
 author: mihaiberq
-
-levels:
-    - beginner
-    - basic
-
 type: fillTheGap
-
 category: must-know
-
-aspects:
-
-  - workout
-  
 parent: what-is-git
-
 ---
 
 # Git-erminology
 
+
 ---
+
 ## Content
 
 Think you know the right git terminology used for the following concepts?
+
 
 ---
 
 ## Game Content
 
-```
+```plain-text
 Each team member has a copy containing the
 full history of the project.
 ```
+
 * Distributed Version Control
 * Centralized Version Control
 * Local Version Control
-%exp
-Centralized Version Control refers to a single, complete copy of the repository on a server, while Local Version Control means saving all file versions on the same machine.
-%
+  %exp
+  Centralized Version Control refers to a single, complete copy of the repository on a server, while Local Version Control means saving all file versions on the same machine.
+  %
 
 ---
-```
+
+```plain-text
 A single server keeps all the versions of
 the files, but users can checkout only
 the latest version.
 ```
+
 * Centralized Version Control
 * Distributed Version Control
 * Local Version Control
-%exp
-Users of Distributed Version Control can access the whole history of the project and Local Version Control stores files locally.
-%
+  %exp
+  Users of Distributed Version Control can access the whole history of the project and Local Version Control stores files locally.
+  %
 
 ---
-```
+
+```plain-text
 The most widely used Distributed Version
 Control System.
 ```
+
 * git
 * SVN
 * GitHub
@@ -66,10 +62,12 @@ Google Trends places `git` as the VCS with the most searches, accounting for 70%
 %
 
 ---
-```
+
+```plain-text
 The git folder containing the changes
 history.
 ```
+
 * Repository
 * Main
 * Src
@@ -79,9 +77,11 @@ The official name for a folder containing the git-specific files is `repository`
 %
 
 ---
-```
+
+```plain-text
 A tracked file, stored in the repository.
 ```
+
 * Committed file
 * Checkout file
 * Staged file
@@ -91,9 +91,11 @@ If a file is in the repository, it means that it has been `committed`.
 %
 
 ---
-```
+
+```plain-text
 A tracked file, ready to be committed.
 ```
+
 * Staged file
 * Committed file
 * Checkout file
@@ -103,9 +105,11 @@ In order for a file to be `committed`, it has to be watched by git (`tracked`) a
 %
 
 ---
-```
+
+```plain-text
 A file that git knows it is there.
 ```
+
 * Tracked file
 * Committed file
 * Staged file
@@ -115,9 +119,11 @@ A file for which git calculates content differences is called a `tracked` file.
 %
 
 ---
-```
+
+```plain-text
 A file git doesn't know anything about.
 ```
+
 * Untracked file
 * Tracked file
 * Committed file
@@ -127,9 +133,11 @@ A new file in the local repository which is yet to be watched by git is called a
 %
 
 ---
-```
+
+```plain-text
 A pointer to a specific base commit.
 ```
+
 * Branch
 * Tree
 * Repository
@@ -139,9 +147,11 @@ Branching is a moment in time (commit history) when the main tree is split into 
 %
 
 ---
-```
+
+```plain-text
 A copy of the repository as a whole.
 ```
+
 * Clone
 * Branch
 * Commit
@@ -149,4 +159,3 @@ A copy of the repository as a whole.
 %exp
 The action of downloading the code from a git repository is called `cloning`.
 %
- 

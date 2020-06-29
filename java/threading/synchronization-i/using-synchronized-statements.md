@@ -1,43 +1,22 @@
 ---
 author: adamMontgomerie
-
-levels:
-
-  - basic
-
-  - advanced
-
-  - medium
-
 type: normal
-
 category: tip
-
-aspects:
-
-  - workout
-
-  - deep
-
 tags:
-
   - multithreading
-
   - threads
-
   - synchronization
-
   - locks
-
 links:
-
-  - '[docs.oracle.com](https://docs.oracle.com/javase/tutorial/essential/concurrency/locksync.html){website}'
-
+  - >-
+    [docs.oracle.com](https://docs.oracle.com/javase/tutorial/essential/concurrency/locksync.html){website}
 ---
 
 # Using `synchronized` statements
 
+
 ---
+
 ## Content
 
 `synchronized` statements can be used to avoid memory inconsistency errors and thread interference in multi-threaded programs.
@@ -73,7 +52,9 @@ public class Example {
 }
 ```
 
+
 ---
+
 ## Practice
 
 When should you use the `synchronized` keyword?
@@ -86,7 +67,9 @@ When should you use the `synchronized` keyword?
 * Never.
 * Every time you use multiple threads.
 
+
 ---
+
 ## Revision
 
 When should you use the `synchronized` keyword?

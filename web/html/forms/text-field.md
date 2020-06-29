@@ -100,12 +100,12 @@ Which line creates a HTML form’s input text field?
 
 ## Quiz
 
-### How much do you know about the HTML input 
+### How much do you know about the HTML input
+
 
 `type="text"`
 
 ?
-
 
 What does the required attribute do in this code?
 
@@ -133,4 +133,3 @@ What does the required attribute do in this code?
 * Standard when creating any input type
 * makes the text turn blue
 * Makes the user type only text as input, no numbers allowed
- 

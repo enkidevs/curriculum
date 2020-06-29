@@ -1,35 +1,20 @@
 ---
 author: adamMontgomerie
-
-levels:
-
-  - medium
-
 type: normal
-
 category: must-know
-
-aspects:
-
-  - workout
-
-  - deep
-
 tags:
-
   - junit
-
   - testing
-
 links:
-
-  - '[junit.sourceforge.net](http://junit.sourceforge.net/javadoc/org/junit/Assert.html){website}'
-
+  - >-
+    [junit.sourceforge.net](http://junit.sourceforge.net/javadoc/org/junit/Assert.html){website}
 ---
 
 # Writing JUnit tests using `Assert`
 
+
 ---
+
 ## Content
 
 Making assertions allows us to check that our methods produce the correct outputs and that objects are in the states we expect them to be at run time.
@@ -58,7 +43,9 @@ public void exampleTest() {
 
 In this example, `assertTrue` will fail because `isEven` will return `false` for a value of 3. Because this assertion has failed, `exampleTest()` will fail, regardless of any additional tests within the method.
 
+
 ---
+
 ## Practice
 
 To test for a for a `boolean` value, what assertion method should be used?
@@ -71,7 +58,9 @@ To test for a for a `boolean` value, what assertion method should be used?
 * `assertEquals`
 * `assertBoolean`
 
+
 ---
+
 ## Revision
 
 Assert if the two arrays are equal:

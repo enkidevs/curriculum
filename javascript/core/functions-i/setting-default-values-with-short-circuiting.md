@@ -1,27 +1,23 @@
 ---
 author: pawel
-
 type: normal
-
 category: pattern
-
 tags:
   - short-circuiting
-
-
-aspects:
-  - introduction
-  - workout
-
 links:
-  - '[MDN - Nullish Coalescing Operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Nullish_coalescing_operator){documentation}'
-  - '[MDN - Falsy](https://developer.mozilla.org/en-US/docs/Glossary/Falsy){documentation}'
-
+  - >-
+    [MDN - Nullish Coalescing
+    Operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Nullish_coalescing_operator){documentation}
+  - >-
+    [MDN -
+    Falsy](https://developer.mozilla.org/en-US/docs/Glossary/Falsy){documentation}
 ---
 
 # Setting default values with "short circuiting"
 
+
 ---
+
 ## Content
 
 "Short circuiting" returns the value of the second operand based on the value of the first.
@@ -64,10 +60,13 @@ function title(t) {
 }
 ```
 
+
 ---
+
 ## Practice
 
 "Short circuit" the following code:
+
 ```javascript
 function shortCir(name){
   return ??? ??? 'John Doe';
@@ -79,7 +78,9 @@ function shortCir(name){
 * &&
 * ==
 
+
 ---
+
 ## Revision
 
 Complete the following code to return a *valid* String as `name` or a default value if `name` is `undefined`:
@@ -94,11 +95,14 @@ function getDefault(name ??? 'John Doe'){
 * ||
 * &&
 * ==
- 
+
+
 ---
+
 ## Quiz
 
 ### Fallback when null or undefined
+
 
 Complete the following code to return a *valid* String as `name` or a default value if `name` is `undefined` or `null`:
 
@@ -112,4 +116,3 @@ function getDefault(name){
 * ||
 * &&
 * ==
- 

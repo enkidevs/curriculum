@@ -1,24 +1,21 @@
 ---
 author: elliehoward
-
-aspects:
-
-  - introduction
-
-  - workout
-
 type: normal
-
 category: must-know
-
 links:
+  - >-
+    [Document.getElementById()](https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById){documentation}
+  - >-
+    [Document.getElementsByClassName()](https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementsByClassName){documentation}
+  - >-
+    [Document.getElementsByTagName()](https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementsByTagName){documentation}
+---
 
-  - '[Document.getElementById()](https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById){documentation}'
-  - '[Document.getElementsByClassName()](https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementsByClassName){documentation}'
-  - '[Document.getElementsByTagName()](https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementsByTagName){documentation}'
----
 # Modify Elements
+
+
 ---
+
 ## Content
 
 Elements, once found, can be modified. You can modify any attribute of the element, as well as the style of the element. 
@@ -64,7 +61,9 @@ for (var i = 0; i < blueTags.length; i++) {
 }
 ```
 
+
 ---
+
 ## Practice
 
 Change the content of each paragraph tag to say `"My content was changed!"`:
@@ -99,7 +98,9 @@ Change the content of each paragraph tag to say `"My content was changed!"`:
 * `i`
 * `getElementsByClassName`
 
+
 ---
+
 ## Revision
 
 Change each element with the classname `"red"` to have a red text color.
@@ -138,4 +139,3 @@ Change each element with the classname `"red"` to have a red text color.
 * `getElementsByClassName`
 * `getElementsByTagName`
 * `getElementById`
- 

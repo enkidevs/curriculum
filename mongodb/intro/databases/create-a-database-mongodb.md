@@ -103,4 +103,3 @@ How do you list all databases in MongoDB?
 * `dbs`
 * `list dbs`
 * `db.showAll`
- 

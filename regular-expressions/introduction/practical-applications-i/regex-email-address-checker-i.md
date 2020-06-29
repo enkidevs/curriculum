@@ -1,22 +1,16 @@
 ---
 author: emmab
-
 tags:
   - introduction
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-  - workout
-
 ---
 
 # Email Address Checker I
 
+
 ---
+
 ## Content
 
 How many times have you seen the message *“Invalid email format”* in your sign-up form?
@@ -27,7 +21,7 @@ That being said, if for some reason you don't have access to this field, regex c
 
 Let's start off with a basic expression to check that the overall structure of the text is in the form `x@y.z`.
 
-```
+```plain-text
 /.+@.+\..+/
 ```
 
@@ -39,7 +33,7 @@ As you can see, this very basic pattern validates even invalid email addresses �
 
 Let's try a stricter example:
 
-```
+```plain-text
 /[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,6}/i
 ```
 
@@ -51,12 +45,14 @@ Let's try a stricter example:
 
 We can also add an `i` modifier to the end of our regex to make sure that the pattern is case insensitive 🙌.
 
+
 ---
+
 ## Practice
 
 Using the regex below, we could match the email address `we_love_code@enki.com`.
 
-```
+```plain-text
 /[a-z]+@[a-z]+\.[a-z]{2,6}/i
 ```
 
@@ -67,11 +63,12 @@ Using the regex below, we could match the email address `we_love_code@enki.com`.
 
 
 ---
+
 ## Revision
 
 Using the regex below, we could match the email address `we_love_code@enki.com`.
 
-```
+```plain-text
 /[a-z_]+@[a-z]+\.[a-z]{2,6}/i
 ```
 
@@ -80,7 +77,9 @@ Using the regex below, we could match the email address `we_love_code@enki.com`.
 * True
 * False
 
+
 ---
+
 ## Footnotes
 
 [1:if statements]

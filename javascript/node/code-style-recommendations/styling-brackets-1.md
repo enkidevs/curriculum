@@ -1,29 +1,24 @@
 ---
 author: mihaiberq
-
 type: normal
-
 category: tip
-
-standards:
-  javascript.identify-common-design-patterns.7: 10
-
 tags:
   - introduction
-
-
-aspects:
-  - introduction
-
 links:
-  - '[MDN - ASI](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Lexical_grammar#Automatic_semicolon_insertion
-){documentation}'
-  - '[MDN - Block](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/block){documentation}'
-
+  - >-
+    [MDN -
+    ASI](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Lexical_grammar#Automatic_semicolon_insertion
+    ){documentation}
+  - >-
+    [MDN -
+    Block](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/block){documentation}
 ---
+
 # Styling Brackets
 
+
 ---
+
 ## Content
 
 The style of the code shouldn't influence its performance in any way. The guidelines for what is the "right" style are primarily subjective. Commonly, developers would disagree on using `camelCase` versus `kebab_case` naming conventions, tabs versus spaces, or different positions of braces. 
@@ -67,7 +62,9 @@ console.log(
 
 No matter how we place the brackets around a block, the behavior of the code inside is unaffected.
 
+
 ---
+
 ## Practice
 
 Which of the following is a valid function definition?

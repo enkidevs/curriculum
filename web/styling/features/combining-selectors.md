@@ -88,4 +88,3 @@ ul + h {
 * Only the first header after each unordered list will use the Arial Narrow font.
 * The header before and header after each unordered list will use the Arial Narrow font.
 * All headers will use the Arial Narrow font.
- 

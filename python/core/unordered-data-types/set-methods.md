@@ -1,36 +1,30 @@
 ---
 author: emmab
-
 tags:
   - introduction
   - workout
-
 type: normal
-
-aspects:
-  - introduction
-  - workout
-
 category: must-know
-
 links:
-- '[More About Sets](http://www.python-course.eu/python3_sets_frozensets.php){website}'
-
-
+  - >-
+    [More About
+    Sets](http://www.python-course.eu/python3_sets_frozensets.php){website}
 ---
 
 # `set` methods
 
+
 ---
+
 ## Content
 
 Even though elements stored in a `set` are **immutable** the set itself is **mutable**.
 
 We can add additional items to a `set` using the following methods:
- 
-- `add()` -> adds one single item to the `set`
 
-- `update()` -> adds multiple items to the `set`
+* `add()` -> adds one single item to the `set`
+
+* `update()` -> adds multiple items to the `set`
 
 ```python
 my_set = {'dog', 'cat', 'rabbit'}
@@ -50,9 +44,9 @@ As you can see, *duplicate* values aren't added to `my_set`. Also note how the *
 
 To remove items, we can use:
 
-- `discard()` -> removes an item if it exists and does nothing if it does not
+* `discard()` -> removes an item if it exists and does nothing if it does not
 
-- `remove()` -> removes an item if it exists, but raises an error if it does not exist.
+* `remove()` -> removes an item if it exists, but raises an error if it does not exist.
 
 ```python
 my_set.remove('dog')
@@ -62,26 +56,28 @@ print(my_set)
 # {'rabbit', 'parrot', 'cat', 'horse'}
 ```
 
+
 ---
+
 ## Practice
 
 Which of the following are both valid `set` methods?
 
 ???
 
-
 * `update()` and `add()`
 * `update()` and `insert()`
 * `insert()` and `add()`
 * `index()` and `update()`
 
+
 ---
+
 ## Revision
 
 What happens when you use `remove()` on an item that doesn't exist in a `set`?
 
 ???
-
 
 * An error will be thrown.
 * Nothing.

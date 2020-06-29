@@ -74,12 +74,12 @@ Which HTML element is used to define the container for an external app or plugin
 
 ## Quiz
 
-### How much do you know about the HTML 
+### How much do you know about the HTML
+
 
 `<embed>`
 
  element?
-
 
 The `<embed>` element is new in which version of HTML?
 
@@ -87,4 +87,3 @@ The `<embed>` element is new in which version of HTML?
 * HTML4
 * XHTML
 * DHTML
- 

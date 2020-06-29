@@ -1,39 +1,32 @@
 ---
 author: Stefan-Stojanovic
-
-levels:
-  - beginner
-  - basic
-
 type: normal
-
 category: must-know
-
-aspects:
-  - deep
-  - workout
-  
-links:
-
+links: null
 ---
+
 # More `<meter>` Attributes
 
+
 ---
+
 ## Content
 
 We've previously discussed the `value`, `low` and `high` attributes for the `<meter>` element. Let's now take a look at the rest.
 
-- The `min` attribute is used to set the lower bound of the range. If specified, the value of the `min` attribute has to be lower than the value of the `max` attribute. On the other hand, if the `min` attribute is not specified, the minimum value is set to `0`.
+* The `min` attribute is used to set the lower bound of the range. If specified, the value of the `min` attribute has to be lower than the value of the `max` attribute. On the other hand, if the `min` attribute is not specified, the minimum value is set to `0`.
 
-- The `max` attribute is used to set the upper bound of the range. If specified, the value of the `max` attribute has to be greater than the value of the `min` attribute. On the other hand, if the `max` attribute is not specified, the maximum value is set to `1`.
+* The `max` attribute is used to set the upper bound of the range. If specified, the value of the `max` attribute has to be greater than the value of the `min` attribute. On the other hand, if the `max` attribute is not specified, the maximum value is set to `1`.
 
-- The `optimum` attribute is used to specify the optimum value. This value has to be between the `min` and `max` attribute values. If the `optimum` value is used together with the `low` and `high` attribute, then the value of the `optimum` attribute is considered the most preferable value for that range. Also, if the value of the `optimum` attribute is between `min` and `low`, then the `min`, or the lower attribute, is the preferred value. On the other hand, if the value of the `optimum` attribute is between `high` and `max`, then the `max`, or the higher attribute, is the preferred value.
+* The `optimum` attribute is used to specify the optimum value. This value has to be between the `min` and `max` attribute values. If the `optimum` value is used together with the `low` and `high` attribute, then the value of the `optimum` attribute is considered the most preferable value for that range. Also, if the value of the `optimum` attribute is between `min` and `low`, then the `min`, or the lower attribute, is the preferred value. On the other hand, if the value of the `optimum` attribute is between `high` and `max`, then the `max`, or the higher attribute, is the preferred value.
 
-- The `form` attribute is used to associate the `<meter>` element with the `<form>` element which has ownership over it. This is only necessary if the `<meter>` element is not a direct descendant of the `<form>` element who's using it.
+* The `form` attribute is used to associate the `<meter>` element with the `<form>` element which has ownership over it. This is only necessary if the `<meter>` element is not a direct descendant of the `<form>` element who's using it.
 
 **Note: Each attribute value(from the 7 attributes previously mentioned) has to be a valid floating point number.**
 
+
 ---
+
 ## Practice
 
 Match the answers with the corresponding text:
@@ -63,6 +56,7 @@ Current value: ???
 
 
 ---
+
 ## Revision
 
 Which of these is not a valid `<meter>` element attribute?
@@ -76,10 +70,17 @@ Which of these is not a valid `<meter>` element attribute?
 * `max`
 * `form`
 
+
 ---
+
 ## Quiz
 
-### How much do you know about the `<meter>` element?
+### How much do you know about the 
+
+`<meter>`
+
+ element?
+
 
 If you need to display the value as a percentage, what would you use?
 

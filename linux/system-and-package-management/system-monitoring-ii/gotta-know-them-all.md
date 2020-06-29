@@ -1,33 +1,21 @@
 ---
 author: catalin
-
-levels:
-
-  - basic
-
-  - advanced
-
-  - medium
-
-  - beginner
-
-aspects:
-  - workout
-
 type: fillTheGap
-
 category: must-know
-
 ---
 
 # Gotta know them all
 
+
 ---
+
 ## Content
 
 Can you guess which commands fits best the description or scenario given?
 
+
 ---
+
 ## Game Content
 
 ```bash

@@ -80,4 +80,3 @@ When using custom fonts with `@font-face`, `sans-serif` is considered to be the
 * italic font
 * next font
 * inline font
- 

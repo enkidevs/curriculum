@@ -74,4 +74,3 @@ test
 * `master` is checked out
 * `test` is merged with `master`
 * `master` has modified files
- 

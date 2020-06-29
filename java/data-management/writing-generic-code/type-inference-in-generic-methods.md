@@ -1,29 +1,18 @@
 ---
 author: nickdaminov
-
-levels:
-
-  - medium
-
 type: normal
-
 category: feature
-
-aspects:
-
-  - workout
-
-  - deep
-
 links:
-
-  - '[More on Type Inference for Methods](https://docs.oracle.com/javase/tutorial/java/generics/genTypeInference.html){website}'
-
+  - >-
+    [More on Type Inference for
+    Methods](https://docs.oracle.com/javase/tutorial/java/generics/genTypeInference.html){website}
 ---
 
 # Type Inference in Generic Methods
 
+
 ---
+
 ## Content
 
 Type inference is a feature of generic methods which allows you to call them as if they were ordinary methods i.e. without specifying the type in between `<>`. For example:
@@ -54,7 +43,9 @@ boolean bool2 = compare
 
 Type inference means that there is no need to specify type parameters when calling a function as compiler will do it for you.
 
+
 ---
+
 ## Revision
 
 What does type inference do?
@@ -64,4 +55,3 @@ What does type inference do?
 * It allows you to omit specifying type parameters upon calling a method
 * It allows you to call an abstract method if it has a 'default' return value
 * It allows you to change then return type of a method depending on the input
- 

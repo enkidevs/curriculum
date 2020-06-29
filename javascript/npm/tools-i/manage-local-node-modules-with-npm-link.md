@@ -1,36 +1,20 @@
 ---
 author: catalin
-
-levels:
-  - basic
-  - advanced
-  - medium
-
 type: normal
-
 category: feature
-
-standards:
-  javascript.npm-tasks-and-modules-manager.0: 10
-
 tags:
   - workout
   - introduction
-
 links:
   - '[docs.npmjs.com](https://docs.npmjs.com/cli/link){website}'
-
 parent: check-data-about-a-package
-
-aspects:
-  - workout
-  - introduction
-
-
 ---
+
 # Manage local node modules with `npm link`
 
+
 ---
+
 ## Content
 
 A modular Node.js application often implies the usage of certain local modules.
@@ -70,7 +54,9 @@ cd app/
 npm link moduleTwo
 ```
 
+
 ---
+
 ## Practice
 
 Which of the following statements is false about `npm link`?
@@ -82,7 +68,9 @@ Which of the following statements is false about `npm link`?
 * allows easier local development when working with multiple libraries
 * allows you to use a local library without reinstalling it after each time
 
+
 ---
+
 ## Revision
 
 Consider your main application relies on an external library `myLibrary` you have access to. The latter one requires some modifications too, but it would be to menial to reinstall it with each change.
@@ -99,5 +87,3 @@ npm ???
 * --local:myLibrary
 * --use-local=myLibrary
 * --local=myLibrary
- 
- 

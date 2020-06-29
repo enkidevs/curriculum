@@ -1,19 +1,14 @@
 ---
 author: Stefan-Stojanovic
-
-aspects:
-  - introduction
-  - workout
-
 type: normal
-
 category: how to
-
 ---
 
 # Find and select functions faster
 
+
 ---
+
 ## Content
 
 When adding a function to a cell, you don't need to type the full name of the function to select it.

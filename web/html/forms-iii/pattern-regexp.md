@@ -1,38 +1,31 @@
 ---
 author: Stefan-Stojanovic
-
-levels:
-  - beginner
-  - basic
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-  - workout
-  - deep
-
-links:
-
+links: null
 ---
+
 # The `pattern` Attribute
+
+
 ---
+
 ## Content
 
 The HTML input form attribute `pattern` is used to specify a regular expression where the `<input>` elements value is checked against.
 
 The pattern attribute works for several input types:
- - `date`
- - `email`
- - `password`
- - `search`
- - `tel`
- - `text`
- - `URL`
+
+* `date`
+* `email`
+* `password`
+* `search`
+* `tel`
+* `text`
+* `URL`
 
 Example:
+
 ```html
 <form
   action="/action.php">
@@ -77,7 +70,9 @@ Another popular example, where a more complicated pattern is used to force the u
 
 In the example above, the user has to have at least one lowercase letter, one uppercase letter, one number, and a minimum of 8 characters and a maximum of 20 characters.
 
+
 ---
+
 ## Practice
 
 Mark the string that would NOT pass this pattern:
@@ -99,6 +94,7 @@ Mark the string that would NOT pass this pattern:
 
 
 ---
+
 ## Revision
 
 Which form attribute is used to only allow a value that follows a unique expression?
@@ -120,10 +116,13 @@ Which form attribute is used to only allow a value that follows a unique express
 * `compare`
 * `limitation`
 
+
 ---
+
 ## Quiz
 
 ### How much do you know about forms and accepting certain data?
+
 
 When you look at the title, which regular expression do you think should be set as the pattern?
 

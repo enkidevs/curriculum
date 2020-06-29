@@ -1,32 +1,26 @@
 ---
 author: mihaiberq
-
 type: normal
-
 category: how to
-
 tags:
   - introduction
   - workout
   - deep
-
-aspects:
-  - introduction
-  - workout
-  - deep
-
 ---
 
 # Handling Blobs in SQL
 
+
 ---
+
 ## Content
 
 There are four *BLOB* types in MySQL:
-- `tinyblob`: 1 + 2^8 bytes (0.256 KB)
-- `blob`: 2 + 2^16 bytes (65.5 KB)
-- `mediumblob`: 3 + 2^24 bytes (16.7 MB)
-- `longblob`: 4 + 2^32 bytes (4.2 GB)
+
+* `tinyblob`: 1 + 2^8 bytes (0.256 KB)
+* `blob`: 2 + 2^16 bytes (65.5 KB)
+* `mediumblob`: 3 + 2^24 bytes (16.7 MB)
+* `longblob`: 4 + 2^32 bytes (4.2 GB)
 
 In MySQL, `blob` is similar to `varbinary(n)` and can be used interchangeably. To create the table:
 
@@ -49,7 +43,9 @@ INSERT INTO sprite
 VALUES('0xBYTESOFPIKACHUSPRITE');
 ```
 
+
 ---
+
 ## Practice
 
 In a MySQL database, store a BLOB by loading the contents of a file:
@@ -67,7 +63,9 @@ VALUES(???(???));
 * `LOAD`
 * `'0xTHISISMYIMAGE'`
 
+
 ---
+
 ## Revision
 
 In a MySQL database, store a BLOB as a binary string:

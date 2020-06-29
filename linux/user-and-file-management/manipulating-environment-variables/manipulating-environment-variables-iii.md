@@ -1,24 +1,16 @@
 ---
 author: jfarmer
-
-aspects:
-  - introduction
-  - workout
-
 type: normal
-
 category: must-know
-
 tags:
   - introduction
-
-
-
 ---
 
 # Understanding `PATH`
 
+
 ---
+
 ## Content
 
 Understanding the `PATH` environment variable and how to manipulate it is one of the most important things a beginner can master.  
@@ -36,7 +28,9 @@ echo $PATH
 
 > 💡 The fact that `:`'s are used to delimit the directories here is a matter of *convention*.  Other parts of the system assume the list is `:`-delimited, but if in the 1970s we had settled on `,` or `;` instead, we would still be using that today.
 
+
 ---
+
 ## Practice
 
 The `PATH` environment variable is used by your shell to look for ???.
@@ -46,7 +40,9 @@ The `PATH` environment variable is used by your shell to look for ???.
 * paths
 * code
 
+
 ---
+
 ## Revision
 
 Which of these is used to delimit directories in the `PATH` variable?

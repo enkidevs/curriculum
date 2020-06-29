@@ -48,4 +48,3 @@ Columns are layout elements used for organizing content side by side ???.
 
 * horizontally
 * vertically
- 

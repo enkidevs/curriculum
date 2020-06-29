@@ -1,25 +1,21 @@
 ---
 author: amgando
-
-levels:
-  - medium
-
-aspects:
-  - workout
-
 type: normal
 category: feature
-standards:
-  comp-sci.dns.1: 10
-
 links:
-
-  - '[Responsibilities of a DNS Registrar](https://www.icann.org/resources/pages/responsibilities-2014-03-14-en){documentation}'
-  - '[Registry, Registrar, Registrant](https://www.godaddy.com/help/what-is-the-difference-between-a-registry-registrar-and-registrant-8039){website}'
-
+  - >-
+    [Responsibilities of a DNS
+    Registrar](https://www.icann.org/resources/pages/responsibilities-2014-03-14-en){documentation}
+  - >-
+    [Registry, Registrar,
+    Registrant](https://www.godaddy.com/help/what-is-the-difference-between-a-registry-registrar-and-registrant-8039){website}
 ---
+
 # DNS Hierarchy
+
+
 ---
+
 ## Content
 
 One of the most important intermediaries between the owners (and prospective owners) of domain names and the DNS hierarchy is a registrar. There are many DNS registrars world wide and their responsibility is to make a customers authoritative DNS servers available in the global DNS system. Registrars also facilitate the purchase of domain names.
@@ -38,7 +34,9 @@ Registrars also coordinate with the groups that manage TLD servers. Recall that 
 
 While it is not strictly the responsibility of a registrar to operate any authoritative name servers, many registrars including Namecheap and GoDaddy maintain authoritative name servers on behalf of their customers.
 
+
 ---
+
 ## Practice
 
 When you register your domain name with a DNS registrar, which of the following best describes the service provided by the registrar?
@@ -49,10 +47,13 @@ When you register your domain name with a DNS registrar, which of the following 
 * The registrar creates an A record for your web server and inserts it into their authoritative servers.
 * The registrar creates an NS record and an A record for your web server and inserts them into the appropriate TLD servers.
 * The registrar creates an NS and an A record for your authoritative name server and inserts them into all of the root DNS servers.
+
+
 ---
+
 ## Revision
 
-A registrar inserts an NS and an A record for a customer's ___ into the proper ___ server in order to make a domain available through DNS. This single action is ___ to make the customers web service available through DNS.
+A registrar inserts an NS and an A record for a customer's *** into the proper *** server in order to make a domain available through DNS. This single action is ___ to make the customers web service available through DNS.
 
 ???
 
@@ -61,4 +62,3 @@ A registrar inserts an NS and an A record for a customer's ___ into the proper _
 * insufficient
 * root server
 * sufficient
- 

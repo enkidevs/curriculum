@@ -2,17 +2,17 @@
 author: nem035
 type: normal
 category: must-know
-aspects:
-  - introduction
-  - workout
 links:
-  - '[Play with Type Aliasing](https://repl.it/@enkicontent/TypeScriptPlayWithTypeAliasing){website}'
-
+  - >-
+    [Play with Type
+    Aliasing](https://repl.it/@enkicontent/TypeScriptPlayWithTypeAliasing){website}
 ---
 
 # Introduction to Type Aliases
 
+
 ---
+
 ## Content
 
 Type aliases are used to create a new name for an existing type.
@@ -81,7 +81,9 @@ let morgan: NameAndFactTuple = [
 ];
 ```
 
+
 ---
+
 ## Practice
 
 Create an alias named `nothing` to the `void` type:
@@ -102,11 +104,12 @@ function logTSFact(): nothing {
 * is
 * ==
 
+
 ---
+
 ## Revision
 
 Type aliases are created using the ??? keyword.
-
 
 ???
 

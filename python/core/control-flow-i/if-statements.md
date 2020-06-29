@@ -1,21 +1,16 @@
 ---
 author: emmab
-
 tags:
   - introduction
-
 type: normal
-
-aspects:
-  - introduction
-
 category: must-know
-
 ---
 
 # `if...else` statements
 
+
 ---
+
 ## Content
 
 Control flow is the *order* in which individual statements or functions are executed. Control flow statements give *choices* that result in *different outcomes*.
@@ -62,7 +57,9 @@ Comparison operators include:
 
 Note that a single `=` is used for assigning values to variables, not for comparison.
 
+
 ---
+
 ## Practice
 
 What does the following code snippet print?
@@ -81,7 +78,9 @@ else:
 * small
 * SyntaxError
 
+
 ---
+
 ## Revision
 
 What does the following code snippet print?

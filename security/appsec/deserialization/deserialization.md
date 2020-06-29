@@ -58,4 +58,3 @@ Which attack vectors does deserialization expose?
 * Payload Bombs and Billion Laughs
 * Data Injection and Malicious Code Execution
 * Denial of Service and Resource Consumption
- 

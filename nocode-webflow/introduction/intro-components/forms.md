@@ -1,23 +1,14 @@
 ---
 author: Stefan-Stojanovic
-
-levels:
-  - beginner
-
-aspects:
-  - introduction
-  - workout
-  - deep
-
 type: normal
-
 category: how to
-
 ---
 
 # Forms
 
+
 ---
+
 ## Content
 
 Components are elements with pre-designed functions.
@@ -52,7 +43,9 @@ Double-clicking will give you the green highlighted settings. To view, all setti
 
 ![settings](https://img.enkipro.com/69232c018a7cae1a8c9cb1311fa5f464.png)
 
+
 ---
+
 ## Practice
 
 You can add form elements ???.

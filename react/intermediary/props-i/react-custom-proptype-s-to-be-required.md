@@ -1,28 +1,19 @@
 ---
 author: catalin
-
-levels:
-  - beginner
-  - basic
-  - advanced
-  - medium
-
 type: normal
-
 category: how to
-
 links:
-  - '[Custom PropType validation with React](http://www.ian-thomas.net/custom-proptype-validation-with-react/){website}'
-
+  - >-
+    [Custom PropType validation with
+    React](http://www.ian-thomas.net/custom-proptype-validation-with-react/){website}
 parent: custom-validations-for-props
-
-aspects:
-  - deep
-
 ---
+
 # Require custom `propTypes` validators
 
+
 ---
+
 ## Content
 
 There is a way of creating your own `propTypes` validator function that can also be suffixed with `.isRequired`. This is done by using chained validators and the `bind()` function.
@@ -78,7 +69,9 @@ Now we can use it like:
 text: lengthChecker.isRequired,
 ```
 
+
 ---
+
 ## Practice
 
 Consider you need to implement a custom `propTypes` validator. What would your code do if the validator is used like: `myValidator.isRequired`, but no prop is passed to it?
@@ -90,7 +83,9 @@ Consider you need to implement a custom `propTypes` validator. What would your c
 * show a warning
 * don't allow the component to render again
 
+
 ---
+
 ## Revision
 
 Is there a way to make a custom `propTypes` validator function implementing the `.isRequired` behavior of normal `propTypes` ?
@@ -103,8 +98,11 @@ Is there a way to make a custom `propTypes` validator function implementing the 
 * Only in `ES5` and `ES6`
 * Only with an external package
 
+
 ---
+
 ## Footnotes
+
 [1:code]
 
 ```jsx
@@ -125,4 +123,3 @@ function textLengthChecker(
   return null;
 }
 ```
-

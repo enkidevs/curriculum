@@ -1,35 +1,37 @@
 ---
 author: SebaRaba
-
 type: normal
-
 category: how to
-
-aspects:
-  - introduction
-
 links:
-  - '[Reading and Writing Files](http://www.pythonforbeginners.com/files/reading-and-writing-files-in-python){website}'
-  - '[Official Documentation](https://docs.python.org/3/tutorial/inputoutput.html#methods-of-file-objects){documentation}'
-
+  - >-
+    [Reading and Writing
+    Files](http://www.pythonforbeginners.com/files/reading-and-writing-files-in-python){website}
+  - >-
+    [Official
+    Documentation](https://docs.python.org/3/tutorial/inputoutput.html#methods-of-file-objects){documentation}
 ---
 
 # Reading From Files
 
+
 ---
+
 ## Content
 
 After opening a **file object**, we have three **operations** available in **Python** for reading files:
-- `read()`
-- `readline()`
-- `readlines()`
+
+* `read()`
+* `readline()`
+* `readlines()`
 
 Suppose we have a file named `test.txt` with the following text inside:
+
 ```plain-text
 Hello!
 My name is Steve.
 Where is my food?
 ```
+
 We can read the entire file with `read()`:
 
 ```python
@@ -76,17 +78,19 @@ print(file.readlines())
 
 However, there's a workaround to this - the `seek()` function which allows you to read the same file multiple times. More on this in the next insights!
 
+
 ---
+
 ## Practice
 
 Suppose we have a file containing 5 lines. How do we read the first 2 of them?
+
 ```python
 file = ???('my_file.txt', 'r')
 
 print(file.???())
 print(???.readline())
 ```
-
 
 * `open`
 * `readline`
@@ -97,16 +101,18 @@ print(???.readline())
 * `write`
 * `seek`
 
+
 ---
+
 ## Revision
 
 Suppose we want to read all lines from a file and return them as a string. Fill the gaps accordingly:
+
 ```py
 file = open('test.txt', '???')
 
 print(file.???())
 ```
-
 
 * `r`
 * `readlines`

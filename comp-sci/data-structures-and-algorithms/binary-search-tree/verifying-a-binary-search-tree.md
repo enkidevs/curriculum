@@ -1,37 +1,19 @@
 ---
 author: jfarmer
-
-levels:
-
-  - beginner
-
-  - basic
-
-  - medium
-
-  - advanced
-
 type: normal
-
 category: how to
-
-aspects:
-
-  - deep
-
-  - workout
-
 links:
-
-  - '[Validating a BST](http://stackoverflow.com/questions/499995/how-do-you-validate-a-binary-search-tree){website}'
-
+  - >-
+    [Validating a
+    BST](http://stackoverflow.com/questions/499995/how-do-you-validate-a-binary-search-tree){website}
 parent: the-binary-search-tree-data-structure
-
 ---
 
 # Verifying A Binary Search Tree
 
+
 ---
+
 ## Content
 
 Sometimes we might have a binary tree and want to verify whether it is organized as a binary search tree.  The naive algorithm — traverse the tree, checking at every node whether the node contains a value larger than the value at the left child and smaller than the value on the right child — does not always work. Consider the following tree:
@@ -69,11 +51,14 @@ We should pass in the smallest-possible value for `minKey` and the largest-possi
 
 **Note:** What those values are depends on the type of information being stored in the BST and the specific language in which the BST is being implemented. If we were to implement the BST in C and store integers, then we might pass in the `INT_MIN` and `INT_MAX` constants as initial values. If we were to implement it in JavaScript and store numerical values, then we might pass in `-Infinity` and `Infinity` as initial values.
 
+
 ---
+
 ## Practice
 
 Is the following a *binary search tree*?
-```
+
+```plain-text
           15
         /    \
        10    18
@@ -86,7 +71,9 @@ Is the following a *binary search tree*?
 * No
 * Yes
 
+
 ---
+
 ## Revision
 
 A node in a binary search tree has to be

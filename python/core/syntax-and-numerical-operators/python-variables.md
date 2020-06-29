@@ -1,24 +1,20 @@
 ---
 author: emmab
-
 tags:
   - introduction
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-
 links:
-- '[Python Naming Conventions](https://www.python.org/dev/peps/pep-0008/#prescriptive-naming-conventions){documentation}'
-
+  - >-
+    [Python Naming
+    Conventions](https://www.python.org/dev/peps/pep-0008/#prescriptive-naming-conventions){documentation}
 ---
 
 # Variables
 
+
 ---
+
 ## Content
 
 Python uses variables to store data in memory. Think of variables as *containers that hold data* which can be changed later in the program.
@@ -47,7 +43,9 @@ this_is_a_long_variable_name
 
 While `c = 10` is valid, writing `count = 10` would make more sense. It is easier to figure out what the variable represents when you revisit your code and for other programmers on your team.
 
+
 ---
+
 ## Practice
 
 Complete the following code to print 'Python' to the screen:
@@ -58,13 +56,16 @@ print(language)
 
 # Python
 ```
+
 * language
 * =
 * 'Python'
 * 'python'
 * Python
 
+
 ---
+
 ## Revision
 
 A variable is a ??? for ???.
@@ -74,7 +75,9 @@ A variable is a ??? for ???.
 * function
 * values
 
+
 ---
+
 ## Footnotes
 
 [1:Snake case]	

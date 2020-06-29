@@ -1,22 +1,18 @@
 ---
 author: alexjmackey
-
 type: normal
-
 category: feature
-
-aspects:
-  - introduction
-  - new
-  - workout
-
 links:
-  - '[Destructuring Assignment](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment){documentation}'
-
+  - >-
+    [Destructuring
+    Assignment](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment){documentation}
 ---
+
 # Destructuring (Part 2)
 
+
 ---
+
 ## Content
 
 Destructuring can also be used to work with objects.
@@ -48,7 +44,9 @@ let {x = 1, y = 200} = {x: 100};
 // x = 100, y = 200
 ```
 
+
 ---
+
 ## Practice
 
 What will be the value of `a` at the end of the code execution?
@@ -70,7 +68,9 @@ const {a: b, c = 'a'} = obj
 * null
 * 'a'
 
+
 ---
+
 ## Revision
 
 Complete the destructuring assignment such that the log statements are correct:

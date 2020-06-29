@@ -30,4 +30,3 @@ This also means that a dictionary contains only the values we explicitly stored 
 Since each value in a dictionary corresponds to a particular key, these databases allow us to perform very fast lookups and operations on any value uniquely identifiable by its key.
 
 Some popular key-value databases are **Oracle NoSQL Database**, **Redis**, **Google Cloud Datastore**, **Hbase**, and more.
- 

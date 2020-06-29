@@ -59,4 +59,3 @@ How do you create an element from a template?
 
 * dashboard -> new project -> select desired template
 * my account -> new project -> select desired template
- 

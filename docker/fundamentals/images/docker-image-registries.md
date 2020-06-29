@@ -93,4 +93,3 @@ The default registry for Docker images is called ???
 * DockerStash
 * DockerImages
 * DockerPictures
- 

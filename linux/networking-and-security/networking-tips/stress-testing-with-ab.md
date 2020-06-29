@@ -1,42 +1,22 @@
 ---
 author: tuwidc
-
-levels:
-
-  - advanced
-
-  - medium
-
-aspects:
-  - deep
-
 type: normal
-
 category: how to
-
 tags:
-
   - apache2
-
   - benchmark
-
   - webservers
-
   - terminal
-
   - ab
-
   - apachebench
-
-
-
 notes: ''
-
 ---
 
 # Stress testing with `ab`
 
+
 ---
+
 ## Content
 
 ApacheBench (or `ab` tool) is a tool for benchmarking and regression testing of web servers.
@@ -57,7 +37,9 @@ ab -n 1000 -c 10 -k \
 
 `-H` appends an extra header to the request. The argument should be a valid header line.
 
+
 ---
+
 ## Revision
 
 A tool for testing how many connections your server is capable of serving is ???.
@@ -66,7 +48,3 @@ A tool for testing how many connections your server is capable of serving is ???
 * `netstat`
 * `w`
 * `ss`
-
- 
- 
- 

@@ -1,27 +1,15 @@
 ---
 author: mihaiberq
-
-levels:
-
-  - beginner
-
 type: normal
-
 category: must-know
-
-aspects:
-
-  - introduction
-
-  - workout
-
 parent: the-graph-data-structure
-
 ---
 
 # More Components of a Graph
 
+
 ---
+
 ## Content
 
 A graph is **connected** if between every vertex in the graph, there is a *path* (here's an example[1]). Below you can see a graph that isn't connected (you cannot get from *A* to *B*, for example):
@@ -46,10 +34,11 @@ If the graph is connected as well, it is called a **tree**. A **spanning tree** 
 
 ![spanningtree](https://img.enkipro.com/48d9282e1686cda71848ec61545ed099.png)
 
-
 Note: The notion of **tree** here is not related to the one of the *Tree Data Type* since it *does not need* to have a root.
 
+
 ---
+
 ## Practice
 
 Can a graph be a tree if it has more than one connected component?
@@ -59,7 +48,9 @@ Can a graph be a tree if it has more than one connected component?
 * No
 * Yes
 
+
 ---
+
 ## Revision
 
 A subgraph of a graph is *spanning* if it contains
@@ -72,8 +63,10 @@ A subgraph of a graph is *spanning* if it contains
 * only the directed edges
 
 
-----
+---
+
 ## Footnote
+
 [1: Graph]
 The graph discussed in the previous insight
 

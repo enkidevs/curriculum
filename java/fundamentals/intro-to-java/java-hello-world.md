@@ -1,22 +1,19 @@
 ---
 author: mihaiberq
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-
 links:
-  - '[Get started with Java](https://docs.oracle.com/javase/tutorial/getStarted/cupojava/index.html){website}'
+  - >-
+    [Get started with
+    Java](https://docs.oracle.com/javase/tutorial/getStarted/cupojava/index.html){website}
   - '[Playground](https://repl.it/@enkicontent/HelloJavaPlayground){website}'
-
 ---
 
 # Hello Java!
 
+
 ---
+
 ## Content
 
 Now that you know a little bit about Java, it's time to show you how to build your first app. 
@@ -24,6 +21,7 @@ Now that you know a little bit about Java, it's time to show you how to build yo
 There are a couple of choices when it comes to where to write Java code: simple text editors (Atom, Sublime, Emacs, Vim) or IDEs[1] (IntelliJ, Eclipse). You can download all of them for free.
 
 Probably the most used first code snippet for any language is the `hello world` one. Here it is:
+
 ```java
 // HelloJava.java
 public class HelloJava {
@@ -40,7 +38,9 @@ As it is hard to represent the whole environment on a phone, we will assume that
 
 > We've included a playground in the **Learn More** section. Go wild, run the code, replace things and see what happens!
 
+
 ---
+
 ## Practice
 
 How would you display "I'm learning Java!"?
@@ -59,6 +59,7 @@ public class Main {
 
 
 ---
+
 ## Revision
 
 What's the name of the mandatory main **Java** function for a program to run?
@@ -71,8 +72,11 @@ What's the name of the mandatory main **Java** function for a program to run?
 * `debug`
 * `prod`
 
+
 ---
+
 ## Footnotes
+
 [1:IDE]
 IDEs, or Integrated Development Environments, are applications much like text editors but with extra available features: as they are specific to a certain language, they come with autocomplete functionalities, syntax checker, class definitions and specifications (IntelliJ excels at this), and debugging, building and compiling tools.
 

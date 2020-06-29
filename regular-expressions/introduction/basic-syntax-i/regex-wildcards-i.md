@@ -1,32 +1,28 @@
 ---
 author: emmab
-
 tags:
   - introduction
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-
 links:
   - '[The Dot Wildcard](https://www.regular-expressions.info/dot.html){website}'
-  - '[Regex Metacharacters](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions/Character_Classes){website}'
-
+  - >-
+    [Regex
+    Metacharacters](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions/Character_Classes){website}
 ---
 
 # Wildcards I
 
+
 ---
+
 ## Content
 
 Wildcards can be used to add flexibility when you don't want to specify characters. 
 
 > In regex, the dot (`.`) wildcard can be used to stand in for nearly *any* character[1] which is why it's the most powerful wildcard.
 
-```
+```plain-text
 /abc.*/
 ```
 
@@ -38,7 +34,7 @@ Using the above pattern, we'd be able to match the following texts because they 
 
 > 💡 If we want to match only *word characters*, like letters, numbers and underscores, then we can use `\w`.
 
-```
+```plain-text
 /\w/
 ```
 
@@ -54,7 +50,6 @@ If we want to match the entire string then we can use `/\w+/` or `/\w*/`.
 
 `abc`!`f`@`g`£`jf`$`h`%^
 
-
 > 💡 Using \W does the opposite of \w and would match all *non-word characters*.
 
 Similarly, we can use `/\W+/` or `/\W*/` to match an entire string:
@@ -64,7 +59,9 @@ abc ❌
 
 Note, the backslash is necessary syntax here. While some symbols are directly interpreted like special characters (e.g. `'.'`, `'?'` etc.), some only work like special characters if preceeded by a backslash. 
 
+
 ---
+
 ## Practice
 
 Which regex pattern would match the full string?
@@ -80,6 +77,7 @@ Which regex pattern would match the full string?
 
 
 ---
+
 ## Revision
 
 Which regex pattern would match the full string?
@@ -93,7 +91,9 @@ Which regex pattern would match the full string?
 * `//w+/`
 * `//W+/`
 
+
 ---
+
 ## Footnotes
 
 [1:Dot Wildcard]

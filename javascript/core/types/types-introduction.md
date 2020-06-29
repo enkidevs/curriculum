@@ -83,4 +83,3 @@ Can you change a variable's type in JavaScript?
 * yes
 * no
 * only if you declare it again
- 

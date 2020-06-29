@@ -1,25 +1,21 @@
 ---
 author: Stefan-Stojanovic
-
-levels:
-  - beginner
-  - basic
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-  - workout
-
 links:
-  - '[HTML <option> Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/option){documentation}'
-  - '[HTML <select> Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/select){documentation}'
+  - >-
+    [HTML <option>
+    Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/option){documentation}
+  - >-
+    [HTML <select>
+    Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/select){documentation}
+---
+
+# DropDown List
+
 
 ---
-# DropDown List
----
+
 ## Content
 
 In HTML, the dropdown list is created with the `<select>` and `<option>` elements combined.
@@ -27,6 +23,7 @@ In HTML, the dropdown list is created with the `<select>` and `<option>` element
 The `<select>` element is used to create a control with a menu of options/items in which each item is represented with the `<option>` element. The value in the first option will display within the drop-down first.
 
 Example:
+
 ```html
 <form>
 <select name="apples">
@@ -49,6 +46,7 @@ Example:
 
 In the example above, we have a dropdown menu with 3 possible options.
 You can also set another option item to display pre-selected first, with the `selected` attribute:
+
 ```html
 <form>
 <select name="apples">
@@ -69,7 +67,9 @@ You can also set another option item to display pre-selected first, with the `se
 
 [View CodePen](https://codepen.io/enkidevs/pen/RBKGJg)
 
+
 ---
+
 ## Practice
 
 Write the form code that creates an item of a dropdown.
@@ -94,7 +94,9 @@ Write the form code that creates an item of a dropdown.
 * item
 * /item
 
+
 ---
+
 ## Revision
 
 Which line of code creates form’s dropdown list with a single item?
@@ -106,10 +108,13 @@ Which line of code creates form’s dropdown list with a single item?
 * `<dropdown><option value="item1">DropDown Item #1</option></dropdown>`
 * `<select><dropdown value="item1">DropDown Item #1</dropdown></select>`
 
+
 ---
+
 ## Quiz
 
 ### How much do you know about dropdowns?
+
 
 When a form’s drop-down has an option other than the first item that needs to display by default, what attribute is used?
 

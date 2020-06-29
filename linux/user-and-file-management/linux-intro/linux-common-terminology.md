@@ -1,24 +1,18 @@
 ---
 author: kapnobatai136
-
-aspects:
-  - introduction
-
 type: normal
-
 category: must-know
-
 tags:
   - introduction
   - linux
-
 ---
 
 # Common Terminology
 
----
-## Content
 
+---
+
+## Content
 
 Let's go over a few terms that you'll see a lot in this course.
 
@@ -32,7 +26,9 @@ The **package manager** removes the tedious process of installing or uninstallin
 
 > 💡 As with all the skills in the app, if you want to access more advanced or specific content at any time, **feel free to use the *Skill Map* tab** to jump to the workouts most relevant for you.
 
+
 ---
+
 ## Practice
 
 The **root user** is also called the ???.
@@ -42,7 +38,9 @@ The **root user** is also called the ???.
 * super
 * best-user
 
+
 ---
+
 ## Revision
 
 Commands are typed into the ??? and processed by the ???.
@@ -52,7 +50,9 @@ Commands are typed into the ??? and processed by the ???.
 * package manager
 * superuser manager
 
+
 ---
+
 ## Footnotes
 
 [1:Bash]

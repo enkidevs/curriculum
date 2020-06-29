@@ -72,4 +72,3 @@ stream.???(data);
 * write
 * input
 * print
- 

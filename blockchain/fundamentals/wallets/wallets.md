@@ -56,4 +56,3 @@ What do you need to obtain an address' balance for a particular cryptocoin?
 * The private key and a blockchain connection.
 * The public key.
 * The public/private key pair.
- 

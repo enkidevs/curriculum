@@ -1,32 +1,16 @@
 ---
 author: Bruno
-
-levels:
-
-  - basic
-
-  - advanced
-
-  - medium
-
 type: normal
-
 category: pattern
-
-standards:
-  javascript.write-expressions.0: 10
-  javascript.evaluate-expressions.5: 10
-  javascript.data-types-structures.6: 10
-
 links:
-
   - '[stackoverflow](http://stackoverflow.com/questions/21255138){discussion}'
-
 ---
 
 # Use the `apply` function to get the `min` or `max` of an array
 
+
 ---
+
 ## Content
 
 Common idiom:
@@ -54,10 +38,13 @@ Math.max.apply(Math,[1,3,2])    // 3
 The first argument provided to `.apply` is the "context". The value of this context does not matter in this case, but it is common practice when using `.apply`
 to provide the relevant class as context.
 
+
 ---
+
 ## Practice
 
 What is the return value of the following line?
+
 ```javascript
 Math.max.apply(null, [5,8,2]);
 // ???
@@ -68,10 +55,13 @@ Math.max.apply(null, [5,8,2]);
 * `-Infinity`
 * `5`
 
+
 ---
+
 ## Revision
 
 What is the return value of the following line?
+
 ```javascript
 Math.max.apply(null, [5,8,2]);
 // ???
@@ -81,4 +71,3 @@ Math.max.apply(null, [5,8,2]);
 * `NaN`
 * `-Infinity`
 * `5`
- 

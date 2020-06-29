@@ -22,4 +22,3 @@ links:
 In this exercise, you will embed an audio to a webpage.
 
 The link to the audio as well as the example of the finished exercise are provided on codepen.
- 

@@ -1,19 +1,14 @@
 ---
 author: kapnobatai136
-
 type: normal
-
 category: how to
-
-aspects:
-  - workout
-  - deep
-
 ---
 
 # One or many state variables
 
+
 ---
+
 ## Content
 
 When using class components, your state would usually be nested and you'd only have to call `setState()` once. With hooks, you would usually set the state as a singular value `useState('Enki')` but you can also use objects. For example, let's define a state that records the position of a character as well as the size of the screen:
@@ -55,7 +50,9 @@ function Char() {
 }
 ```
 
+
 ---
+
 ## Practice
 
 Can you have a nested state when using function components?
@@ -69,7 +66,9 @@ Compared to class components, when updating the state in a function component we
 * No.
 * merge
 
+
 ---
+
 ## Revision
 
 Which of the following is considered to be the correct way of updating state in a function component?

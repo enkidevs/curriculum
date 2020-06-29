@@ -1,33 +1,14 @@
 ---
 author: Mathieu
-
-levels:
-
-  - basic
-
-  - advanced
-
-  - medium
-
 type: fillTheGap
-
 category: tip
-
-standards:
-  javascript.es6-extensions-standard-library.2: 10
-
-aspects:
-
-  - introduction
-  - new
-  - workout
-  - deep
-
 ---
 
 # Ecmascript Time Travel
 
+
 ---
+
 ## Content
 
 Hello, traveler.
@@ -36,7 +17,9 @@ You will attempt to accurately fill the gaps in the code snippets to recreate ES
 
 Best of luck. We will be watching you.
 
+
 ---
+
 ## Game Content
 
 ```javascript

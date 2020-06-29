@@ -2,19 +2,26 @@
 author: kapnobatai136
 type: normal
 category: must-know
-aspects:
-  - introduction
 links:
-  - '[TypeScript is one of the most loved languages](https://insights.stackoverflow.com/survey/2019#most-loved-dreaded-and-wanted){website}'
-  - '[TypeScript is getting more popular every year](https://2019.stateofjs.com/javascript-flavors/typescript/){website}'
-  - '[Use TypeScript in VSCode](https://code.visualstudio.com/Docs/languages/typescript){documentation}'
-  - '[What is the difference between statically typed and dynamically typed languages?](https://stackoverflow.com/questions/1517582/what-is-the-difference-between-statically-typed-and-dynamically-typed-languages){discussion}'
-
+  - >-
+    [TypeScript is one of the most loved
+    languages](https://insights.stackoverflow.com/survey/2019#most-loved-dreaded-and-wanted){website}
+  - >-
+    [TypeScript is getting more popular every
+    year](https://2019.stateofjs.com/javascript-flavors/typescript/){website}
+  - >-
+    [Use TypeScript in
+    VSCode](https://code.visualstudio.com/Docs/languages/typescript){documentation}
+  - >-
+    [What is the difference between statically typed and dynamically typed
+    languages?](https://stackoverflow.com/questions/1517582/what-is-the-difference-between-statically-typed-and-dynamically-typed-languages){discussion}
 ---
 
 # Why TypeScript?
 
+
 ---
+
 ## Content
 
 The main feature, as its name suggests, is that it allows the use of *types*.
@@ -39,7 +46,9 @@ Your editor can integrate with TypeScript and display any problems in the code a
 
 Since TypeScript is a standalone layer on top of JavaScript, it allows us to continuously use the latest JavaScript features, even before they become fully supported in JavaScript[2].
 
+
 ---
+
 ## Practice
 
 TypeScript requires your code to run and produce an output before it can check for types.
@@ -49,7 +58,9 @@ TypeScript requires your code to run and produce an output before it can check f
 * False
 * True
 
+
 ---
+
 ## Revision
 
 TypeScript compares types based on ???
@@ -59,8 +70,11 @@ TypeScript compares types based on ???
 * name
 * age
 
+
 ---
+
 ## Footnotes
+
 [1: JavaScript has Dynamic Types]
 Unlike TypeScript, the types in JavaScript are dynamically determined later, when the JavaScript program runs. This means that we can't know if we have type errors until we run the code.
 

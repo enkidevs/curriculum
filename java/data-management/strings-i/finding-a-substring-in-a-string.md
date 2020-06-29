@@ -1,33 +1,19 @@
 ---
 author: adamMontgomerie
-
-levels:
-
-  - basic
-
-  - beginner
-
 type: normal
-
 category: tip
-
-aspects: 
-
-  - introduction
-
 tags:
-
   - strings
-
 links:
-
-  - '[docs.oracle.com](https://docs.oracle.com/javase/tutorial/java/data/manipstrings.html){website}'
-
+  - >-
+    [docs.oracle.com](https://docs.oracle.com/javase/tutorial/java/data/manipstrings.html){website}
 ---
 
 # Finding a substring in a string
 
+
 ---
+
 ## Content
 
 In order to confirm if a string contains a specific substring, we can simply use the `contains` method in the `String` class.

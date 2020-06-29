@@ -52,4 +52,3 @@ git ??? a456bd7
 * `cherry-pick`
 * `pick`
 * `merge`
- 

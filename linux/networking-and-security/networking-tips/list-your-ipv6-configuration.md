@@ -1,57 +1,46 @@
 ---
 author: tuwidc
-
-levels:
-
-  - basic
-
-aspects:
-  - obscura
-
 type: normal
-
 category: how to
-
 tags:
-
   - linux
-
   - ipv6
-
   - ifconfig
-
   - ip
-
-
-
-
 ---
 
 # List your IPv6 configuration
 
+
 ---
+
 ## Content
 
 To see the IPv6 configuration on a linux server using the `ip` tool:
+
 ```bash
 ip -6 addr show dev <interface>
 ip -6 addr show dev eth0
 ```
+
 Or, using the `ifconfig` tool:
+
 ```bash
 ifconfig <interface> |grep "inet6"
 ifconfig eth0 |grep "inet6"
 ```
 
+
 ---
+
 ## Practice
 
 List **IPv6** configuration via `ifconfig`:
+
 ```bash
 ??? <interface> |
     ??? ???
 ```
-
 
 * `ifconfig`
 * `grep`
@@ -61,10 +50,13 @@ List **IPv6** configuration via `ifconfig`:
 * `ipv6`
 * `"ipv6"`
 
+
 ---
+
 ## Revision
 
 Check the IPv6 configuration of an interface using `ip` command:
+
 ```bash
 ip  ??? ???
     show ??? ???
@@ -74,7 +66,3 @@ ip  ??? ???
 * `addr`
 * `dev`
 * `interface_name`
-
- 
- 
- 

@@ -1,31 +1,21 @@
 ---
 author: adamMontgomerie
-
-levels:
-  - basic
-  - advanced
-  - medium
-
 type: normal
-
 category: tip
-
-aspects:
-  - introduction
-  - obscura
-
 tags:
   - loops
   - arrays
-
 links:
-  - '[Copy an Array](http://www.javapractices.com/topic/TopicAction.do?Id=3){website}'
-
+  - >-
+    [Copy an
+    Array](http://www.javapractices.com/topic/TopicAction.do?Id=3){website}
 ---
 
 # Copying an Array
 
+
 ---
+
 ## Content
 
 To copy the contents of an array, you can use the `Arrays.copyOf()` method. It can be found in the `java.util.Arrays` class, and the syntax is:
@@ -87,13 +77,16 @@ System.arraycopy(
 ```
 
 The arguments you must pass are (in this order):
+
 1. the array that you want copied
 2. the index where to start copying from
 3. the new array in which the data will be copied
 4. the index where to start copying to
 5. the number of elements to be copied
 
+
 ---
+
 ## Practice
 
 Copy the `fruits` array using the `java.util.Arrays` class:

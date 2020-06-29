@@ -1,29 +1,21 @@
 ---
 author: Stefan-Stojanovic
-
-levels:
-  - beginner
-  - basic
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-  - workout
-  - deep
-
-links:
-
+links: null
 ---
+
 # Display Code in HTML
+
+
 ---
+
 ## Content
 
 The HTML `<code>` element is used to display a fragment of a computer code.
 
 Example:
+
 ```html
 <p>
   The function
@@ -47,20 +39,24 @@ The default font style for the `<code>` element for most browsers is the monospa
 
 [View CodePen](https://codepen.io/enkidevs/pen/mKzKxa)
 
+
 ---
+
 ## Practice
 
 What content is best to style when using the `<code>` element?
 
 ???
 
- * All 4
- * HTML elements
- * CSS Rules
- * filenames
- * JS scripts
+* All 4
+* HTML elements
+* CSS Rules
+* filenames
+* JS scripts
+
 
 ---
+
 ## Revision
 
 Which of these elements is used to style the contents as computer code?
@@ -72,12 +68,20 @@ Which of these elements is used to style the contents as computer code?
 * <codeBlock>
 * <styleCode>
 
+
 ---
+
 ## Quiz
 
-### How much do you know about the `<code>` element?
+### How much do you know about the 
 
-What will be the effect of wrapping this text in the _code_ element?
+`<code>`
+
+ element?
+
+
+What will be the effect of wrapping this text in the *code* element?
+
 ```html
 <code>
   var x = 5;

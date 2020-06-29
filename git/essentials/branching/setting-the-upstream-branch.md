@@ -57,4 +57,3 @@ is used to set the current branch to follow the remote branch *newFeature*.
 * tracking
 * single
 * false
- 

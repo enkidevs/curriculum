@@ -51,4 +51,3 @@ When multithreading, what type of variable should be used to prevent synchroniza
 * class variables
 * instance variables
 * threading variables
- 

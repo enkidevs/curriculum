@@ -1,39 +1,32 @@
 ---
 author: Stefan-Stojanovic
-
-levels:
-  - beginner
-  - basic
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-  - workout
-  - deep
-
-links:
-
+links: null
 ---
+
 # The `<min>` And `<max>` Elements
+
+
 ---
+
 ## Content
 
 The HTML input form `min` and `max` attributes are used to set the minimum and maximum values that can be set. When the user submits the data, an error box will open helping the user spot their mistake.
 
 This works for several input types:
- - date
- - datetime
- - datetime-local
- - month
- - number
- - range
- - time
- - week
+
+* date
+* datetime
+* datetime-local
+* month
+* number
+* range
+* time
+* week
 
 Example:
+
 ```html
 <form
   action="/action.php">
@@ -62,7 +55,9 @@ Example:
 
 **Note:** When setting the `min` value, it cannot be greater than the max value, and vice-versa.
 
+
 ---
+
 ## Practice
 
 Which statement is NOT true regarding min and max attributes within forms?
@@ -74,7 +69,9 @@ Which statement is NOT true regarding min and max attributes within forms?
 * `<input max="number">` specifies the maximum number allowed.
 * `min` & `max` attributes work with datetime, month, range, number, week, time and datetime-local.
 
+
 ---
+
 ## Revision
 
 Which form attributes are used within an input to set low and high values?
@@ -97,16 +94,19 @@ Which form attributes are used within an input to set low and high values?
 * minimum
 * maximum
 
+
 ---
+
 ## Quiz
 
 ### How much do you know about HTML input form attributes?
+
 
 Which statement is not true regarding the min and max attributes?
 
 ???
 
- * When setting the min value it can be greater than the max value, and vice-versa.
- * When setting the min value it cannot be greater than the max value, and vice-versa.
- * `<input min="date">` specifies the minimum date allowed.
- * `<input max="number">` specifies the maximum number allowed.
+* When setting the min value it can be greater than the max value, and vice-versa.
+* When setting the min value it cannot be greater than the max value, and vice-versa.
+* `<input min="date">` specifies the minimum date allowed.
+* `<input max="number">` specifies the maximum number allowed.

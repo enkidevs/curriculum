@@ -34,4 +34,3 @@ Spreadsheets can be used to ???, analyze or perform calculations with data.
 
 * record
 * upload
- 

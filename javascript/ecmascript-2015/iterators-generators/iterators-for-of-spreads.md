@@ -1,35 +1,25 @@
 ---
 author: gregbenner
-
-levels:
-
-  - advanced
-
-  - medium
-
 type: fillTheGap
-
 category: must-know
-
-aspects:
-  - introduction
-  - workout
-
 links:
-
-  - '[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment#Array_destructuring){website}'
-
+  - >-
+    [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment#Array_destructuring){website}
 ---
 
 # iterators, for of, ...spreads
 
+
 ---
+
 ## Content
 
 Freshen up you knowledge on `iterators`, `for of` loops and the `spread operator` with this exercise.
 The goal is to fill in the gaps with either the output of the snippet or the missing bit that won't throw any errors.
 
+
 ---
+
 ## Game Content
 
 ```javascript

@@ -66,4 +66,3 @@ In total, you will need to:
 * *Submit the result as your Answer*
 
 Good luck! :rocket:
- 

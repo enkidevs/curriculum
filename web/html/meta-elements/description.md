@@ -1,26 +1,20 @@
 ---
 author: Stefan-Stojanovic
-
-levels:
-  - beginner
-  - basic
-
 type: normal
-
 category: must-know
+---
 
-aspects:
-  - introduction
-  - workout
-  
----
 # The `description` Attribute
+
+
 ---
+
 ## Content
 
 The HTML meta `description` attribute is used to add a short summary of the content of the web page.
 
 Example:
+
 ```html
 <meta
   name="description"
@@ -31,7 +25,9 @@ The description meta tag is useful for search engines and browsers for different
 
 Whereas some search engines use descriptions as information to review and see if they should display that web page to the user.
 
+
 ---
+
 ## Practice
 
 Complete the code that provides info for search engines to review and display within the results:
@@ -47,7 +43,9 @@ Complete the code that provides info for search engines to review and display wi
 * type
 * info
 
+
 ---
+
 ## Revision
 
 Which line of code shares info about the website for search engines?
@@ -60,10 +58,13 @@ Which line of code shares info about the website for search engines?
 * `<desc meta="description" content="Info here.">`
 * `<meta name="description" info="Info here.">`
 
+
 ---
+
 ## Quiz
 
 ### What makes a good meta description?
+
 
 Choose the best option from these:
 
@@ -73,4 +74,3 @@ Choose the best option from these:
 * `<meta name="description" content="puppy dogs rescue local shelters adoption">`
 * `<meta name="description" content="http://www.puppyrescue.com">`
 * `<meta name="description" content="Austin, Texas">`
- 

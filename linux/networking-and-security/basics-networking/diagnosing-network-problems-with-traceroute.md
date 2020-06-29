@@ -1,30 +1,15 @@
 ---
 author: jfarmer
-
-levels:
-
-  - basic
-
-  - beginner
-
-aspects:
-  - introduction
-  - workout
-
 type: normal
-
 category: must-know
-
 inAlgoPool: false
-
-
-
-
 ---
 
 # Diagnosing Network Problems With `traceroute`
 
+
 ---
+
 ## Content
 
 When you request data over the internet, the traffic doesn't flow directly between your machine and the machine you're requesting data from.  Rather, the traffic makes a sequence of "hops" between many machines along the way.  The specific route the traffic takes can vary from request to request.  The failure of any link in this chain might cause your internet connection to appear slow or unreliable.
@@ -74,7 +59,9 @@ If a particular website or service is slow you can use `traceroute` to determine
 
 If the "bad hop" is internal to your network you know that it's a problem with your own network.  If it's between your computer and your ISP you know it's a problem with your internet connection or possibly your ISP itself.  If it's between some farther-out hops then it might be a problem with the *destination*'s network (e.g., the site in question is actually down).
 
+
 ---
+
 ## Practice
 
 If there is a *bad hop* right at the beginning, the most likely to blame is 
@@ -86,7 +73,9 @@ If there is a *bad hop* right at the beginning, the most likely to blame is
 * destination’s server
 * destination’s ISP
 
+
 ---
+
 ## Revision
 
 If a particular connection is slow, you can check the *hops* of the packets between your machine and the destination’s machine using 
@@ -97,7 +86,3 @@ If a particular connection is slow, you can check the *hops* of the packets betw
 * netstat
 * ls
 * packetroute
-
- 
- 
- 

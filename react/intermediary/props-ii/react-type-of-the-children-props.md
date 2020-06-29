@@ -1,28 +1,19 @@
 ---
 author: tommarshall
-
-levels:
-  - basic
-  - advanced
-  - medium
-
 type: normal
-
 category: tip
-
 links:
-  - '[Children in JSX](https://facebook.github.io/react/docs/jsx-in-depth.html#children-in-jsx){website}'
-
+  - >-
+    [Children in
+    JSX](https://facebook.github.io/react/docs/jsx-in-depth.html#children-in-jsx){website}
 parent: custom-proptype-s-to-be-required
-
-aspects:
-  - deep
-  - workout
-
 ---
+
 # Type of the Children props
 
+
 ---
+
 ## Content
 
 Generally, a components children, `this.props.children`, would be an array of components.
@@ -63,7 +54,9 @@ ReactDOM.render(
 // false
 ```
 
+
 ---
+
 ## Practice
 
 Consider the following react component:
@@ -107,7 +100,9 @@ ReactDOM.render(
 * null
 * undefined
 
+
 ---
+
 ## Revision
 
 Consider there is a single child in your component. What will `this.props.children` return?
@@ -118,4 +113,3 @@ Consider there is a single child in your component. What will `this.props.childr
 * an array with just the children in it
 * an array of possible children
 * an array with the children and the parent component
-

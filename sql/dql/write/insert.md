@@ -121,4 +121,3 @@ INSERT INTO water_pokemon
 * VALS
 * INTRODUCE
 * age, attack, defense
- 

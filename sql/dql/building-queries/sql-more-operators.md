@@ -1,35 +1,31 @@
 ---
 author: stefkn
-
 type: normal
-
 category: must-know
-
 links:
-  - '[SQL Tutorial: WHERE](http://www.sql-tutorial.com/sql-where-sql-tutorial/){website}'
-
-aspects:
-  - introduction
-  - workout
-
+  - >-
+    [SQL Tutorial:
+    WHERE](http://www.sql-tutorial.com/sql-where-sql-tutorial/){website}
 ---
 
 # More Operators
 
+
 ---
+
 ## Content
 
 ### `AND`, `OR`, `NOT`
 
 Aside from `AND`, we can also use logical operators like `OR` and `NOT`. 
 
-- `OR` returns records for which any of two (or more) conditions are true 
-- `NOT` negates a condition 
+* `OR` returns records for which any of two (or more) conditions are true 
+* `NOT` negates a condition 
 
 Let's look at an example with the `pokemon` table:
 
 | id | name    | total | hp | attack | defense |
-|----|---------|-------|----|--------|---------|
+| -- | ------- | ----- | -- | ------ | ------- |
 | 50 | Diglett | 265   | 10 | 55     | 25      |
 | 51 | Dugtrio | 425   | 35 | 100    | 50      |
 | 52 | Meowth  | 290   | 40 | 45     | 35      |
@@ -47,12 +43,13 @@ WHERE name = 'Meowth'
 This shows the rows where the `name` is an exact match of either `'Meowth'` or `'Golduck'`. The resulting set looks like this:
 
 | id | name    | total | hp | attack | defense |
-|----|---------|-------|----|--------|---------|
+| -- | ------- | ----- | -- | ------ | ------- |
 | 52 | Meowth  | 290   | 40 | 45     | 35      |
 | 55 | Golduck | 500   | 80 | 82     | 78      |
 
 
 ---
+
 ## Practice
 
 Select all the columns from the `pokemon` table, keeping only the rows where the name equals either `'bulbasaur'`, `'ivysaur'` or `'venusaur'`.
@@ -76,15 +73,20 @@ FROM pokemon
 * `'bulbasaur'`
 * `'venusaur'`
 
+
 ---
-## Quiz 
+
+## Quiz
+
 ### Can you select rows between two values in SQL?
+
+
 Consider the `move_name` table:
 
 | id  | language_id | move_id | name       |
-|-----|-------------|---------|------------|
-| 1   | 1           | 1       | はたく     |
-| 2   | 3           | 1       | 막치기     |
+| --- | ----------- | ------- | ---------- |
+| 1   | 1           | 1       | はたく        |
+| 2   | 3           | 1       | 막치기        |
 | 3   | 5           | 1       | Écras'Face |
 | 4   | 6           | 1       | Pfund      |
 | 5   | 7           | 1       | Destructor |

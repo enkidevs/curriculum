@@ -1,29 +1,18 @@
 ---
 author: nickdaminov
-
-levels:
-
-  - medium
-
 type: normal
-
 category: pattern
-
-aspects:
-
-  - workout
-
-  - deep
-
 links:
-
-  - '[More on Monitors](https://stackoverflow.com/questions/7335950/semaphore-vs-monitors-whats-the-difference){website}'
-
+  - >-
+    [More on
+    Monitors](https://stackoverflow.com/questions/7335950/semaphore-vs-monitors-whats-the-difference){website}
 ---
 
 # Monitors
 
+
 ---
+
 ## Content
 
 Unlike the two previous patters **monitors** are higher class synchronization mechanisms. **Monitor** functionality can be accessed by multiple threads.
@@ -54,7 +43,9 @@ class MonitorExample {
 }
 ```
 
+
 ---
+
 ## Practice
 
 What is the highest class synchronization pattern?
@@ -66,7 +57,9 @@ What is the highest class synchronization pattern?
 * Mutex
 * Semaphore
 
+
 ---
+
 ## Revision
 
 What is a monitor?
@@ -82,4 +75,3 @@ What is the key concept of a monitor?
 * To provide more fancy output unlike punchcards and LEDs
 * A pattern that allows multiple threads to use certain functionality at a single time
 * A piece of hardware used to display information from a computer to the user
- 

@@ -1,22 +1,17 @@
 ---
 author: rosielowther
-
 type: normal
-
 category: best practice
-
 links:
-
-  - '[developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/eval){website}'
-
-aspects:
-  - obscura
-  - workout
+  - >-
+    [developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/eval){website}
 ---
 
 # Using `eval`
 
+
 ---
+
 ## Content
 
 `eval` evaluates the string passed to it as Javascript code:
@@ -35,7 +30,9 @@ Third party code can access the scope in which `eval()` was called and this can 
 
 This is why `eval` is sometimes refered to as "evil".
 
+
 ---
+
 ## Practice
 
 What does the following JS code return when ran? ???
@@ -51,7 +48,9 @@ let b = eval(str);
 * `undefined`
 * `NaN`
 
+
 ---
+
 ## Revision
 
 Executing javascript code passed in as a string is done with the function ???
@@ -60,5 +59,3 @@ Executing javascript code passed in as a string is done with the function ???
 * evil()
 * evaluate()
 * (string).toJS()
-
- 

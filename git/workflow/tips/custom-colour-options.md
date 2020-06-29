@@ -56,4 +56,3 @@ A customisable `color.` option is ??? .
 * interactive.
 * git.
 * sources.
- 

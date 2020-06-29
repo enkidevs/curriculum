@@ -1,19 +1,14 @@
 ---
 author: Stefan-Stojanovic
-
-aspects:
-  - introduction
-  - workout
-
 type: normal
-
 category: must-know
-
 ---
 
 # Data Validation Example
 
+
 ---
+
 ## Content
 
 Now that you know what data validation is, let's take a look at an example.

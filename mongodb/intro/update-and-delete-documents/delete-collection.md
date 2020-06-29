@@ -1,22 +1,14 @@
 ---
 author: Stefan-Stojanovic
-
-levels:
-  - beginner
-
-aspects:
-  - introduction
-  - workout
-
 type: normal
-
 category: must-know
-
 ---
 
 # Delete a collection
 
+
 ---
+
 ## Content
 
 To delete a collection in MongoDB, you need to use the `db.mycollection.drop()` method.
@@ -41,7 +33,9 @@ db.Pokemon.drop()
 
 **Note:** The only possible output for the `drop()` method is `true` or `false`, indicating if the deletion was successful or not.
 
+
 ---
+
 ## Practice
 
 In MongoDB, the names of collections are ???. This means that the `enki` collection is ??? as the `Enki` collection.
@@ -51,7 +45,9 @@ In MongoDB, the names of collections are ???. This means that the `enki` collect
 * case-insensitive
 * the same
 
+
 ---
+
 ## Revision
 
 Delete the collection named `Pokemon` from the current database:

@@ -1,30 +1,15 @@
 ---
 author: jfarmer
-
-levels:
-
-  - basic
-
-  - beginner
-
-aspects:
-  - introduction
-  - workout
-
 type: normal
-
 category: must-know
-
 inAlgoPool: false
-
-
-
-
 ---
 
 # Selecting Portions of A Line Using `cut`
 
+
 ---
+
 ## Content
 
 The `cut` command allows us to "cut out" specified portions of each line of a file.  You can either pass the name of a file to `cut` directly or pass it output from another program via the `|` operator.
@@ -76,16 +61,21 @@ user2:/home/user2
 
 The fields in `/etc/passwd` are `:`-delimited with the first field containing the username and the second sixth field containing the user's home directory.
 
+
 ---
+
 ## Practice
 
 Consider `enki.txt` file:
-```
+
+```plain-text
 Linux/Data Manipulation/cut command
 Javascript/Core/Prototype
 Java/Fundamentals/Inheritance
 ```
+
 Print the *subtopic* name using `cut` :
+
 ```bash
 cut ??? ??? ???
 ```
@@ -96,7 +86,9 @@ cut ??? ??? ???
 * `-d" "`
 * `-f1`
 
+
 ---
+
 ## Revision
 
 The flag used to specify the delimiter of the `cut` command is ???.
@@ -105,7 +97,3 @@ The flag used to specify the delimiter of the `cut` command is ???.
 * -f
 * -a
 * -F
-
- 
- 
- 

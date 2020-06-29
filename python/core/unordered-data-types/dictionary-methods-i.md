@@ -1,22 +1,18 @@
 ---
 author: emmab
-
 type: normal
-
-aspects:
-  - introduction
-  - workout
-
 category: feature
-
 links:
-  - '[Dictionary methods](https://www.programiz.com/python-programming/dictionary){website}'
-
+  - >-
+    [Dictionary
+    methods](https://www.programiz.com/python-programming/dictionary){website}
 ---
 
 # Dictionary Methods I
 
+
 ---
+
 ## Content
 
 Python has tons of built-in methods for dictionaries. Let's explore some of the most commonly used!
@@ -33,7 +29,7 @@ square_numbers = {
 }
 ```
 
-- `clear()` removes all items from the dictionary
+* `clear()` removes all items from the dictionary
 
 ```python
 square_numbers.clear()
@@ -42,7 +38,7 @@ print(square_numbers)
 # {}
 ```
 
-- `copy()` returns a **shallow copy**[1] of the dictionary
+* `copy()` returns a **shallow copy**[1] of the dictionary
 
 ```python
 new = square_numbers.copy()
@@ -51,7 +47,7 @@ print(new)
 # {1: 1, 2: 4, 3: 9, 4: 16, 5: 25}
 ```
 
-- `items()` returns a `list` of the dictionary items expressed as tuples `(key, value)`
+* `items()` returns a `list` of the dictionary items expressed as tuples `(key, value)`
 
 ```python
 square_numbers.items()
@@ -59,7 +55,9 @@ square_numbers.items()
 # dict_items([(1, 1), (2, 4), (3, 9), (4, 16), (5, 25)])
 ```
 
+
 ---
+
 ## Practice
 
 Complete the following code snippet to make a duplicate of the variable `my_house` called `new_house`:
@@ -78,6 +76,7 @@ new_house = ???.???
 
 
 ---
+
 ## Revision
 
 What's the correct method to return the contents of a dictionary as a `list` of `tuples`?
@@ -94,7 +93,9 @@ english_to_french.???
 * `keys()`
 * `reduce()`
 
+
 ---
+
 ## Footnotes
 
 [1:Shallow Copy]

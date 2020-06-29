@@ -1,30 +1,26 @@
 ---
 author: catalin
-
 type: normal
-
 category: feature
-
-aspects:
-  - introduction
-  - workout
-
 links:
-  - '[timedelta Objects](https://docs.python.org/3.5/library/datetime.html#timedelta-objects){website}'
+  - >-
+    [timedelta
+    Objects](https://docs.python.org/3.5/library/datetime.html#timedelta-objects){website}
   - '[Playground](https://repl.it/@enkicontent/PythonTimedelta){website}'
-
 parent: datetime-object
-
 ---
 
 # Date arithmetics with `timedelta`
 
+
 ---
+
 ## Content
 
 Another useful class provided by `datetime` is called `timedelta`. With this object you can calculate past or future dates along with differences between times.
 
 This object will store a **difference** in time, a delta. Although internally the values are stored only in *days*, *seconds* and *microseconds*, its constructor can accept any argument related to time:
+
 ```python
 from datetime import timedelta
 
@@ -38,6 +34,7 @@ print(minute) # 0:01:00
 ```
 
 You can use standard arithmetic operators to calculate new dates as follows:
+
 ```python
 from datetime 
 import datetime, timedelta
@@ -58,7 +55,9 @@ print(day_after_tomorrow)
 
 > 💡 Check out the *Learn More* section for a playground link where you'll be able to test out this example.
 
+
 ---
+
 ## Practice
 
 Complete the following code snippet such that variable `x` will hold a date exactly 2 weeks from today:
@@ -89,10 +88,13 @@ x = today ??? delta ???
 * `time`
 * `delta`
 
+
 ---
+
 ## Revision
 
 Calculate the value of `yesterday`:
+
 ```python
 from datetime 
 import datetime, timedelta

@@ -2,18 +2,20 @@
 author: nem035
 type: normal
 category: must-know
-aspects:
-  - introduction
-  - workout
 links:
-  - '[Practice Lessons from this Insight](https://repl.it/@enkicontent/TypeScriptFunctionsIntro){website}'
-  - '[Functions in TS](https://www.typescriptlang.org/docs/handbook/functions.html){documentation}'
-
+  - >-
+    [Practice Lessons from this
+    Insight](https://repl.it/@enkicontent/TypeScriptFunctionsIntro){website}
+  - >-
+    [Functions in
+    TS](https://www.typescriptlang.org/docs/handbook/functions.html){documentation}
 ---
 
 # Types in Functions
 
+
 ---
+
 ## Content
 
 We can attach a type to a parameter of a function by adding a `:` and a type after its name:
@@ -74,7 +76,9 @@ function hello(name: string): string {
 }
 ```
 
+
 ---
+
 ## Practice
 
 Which line do you think will compile without errors?
@@ -102,7 +106,9 @@ getLessonsLearned(100);
 * A
 * B
 
+
 ---
+
 ## Revision
 
 Will this code compile without errors?

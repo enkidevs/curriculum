@@ -1,21 +1,16 @@
 ---
 author: emmab
-
 tags:
   - introduction
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-
 ---
 
 # Execution Order of Operators
 
+
 ---
+
 ## Content
 
 When using more than one operator in Python, it's crucial to understand the *order* they'll be executed in.
@@ -33,7 +28,7 @@ What will be the result of the following expression?
 Here is the order of execution for Python's operators (highest to lowest):
 
 | Operator            | Name                                              |
-|---------------------|---------------------------------------------------|
+| ------------------- | ------------------------------------------------- |
 | `()`                | Parenthesis                                       |
 | `**`                | Exponent                                          |
 | `*`, `/`, `//`, `%` | Multiplication, division, floor division, modulus |
@@ -41,6 +36,7 @@ Here is the order of execution for Python's operators (highest to lowest):
 
 
 ---
+
 ## Practice
 
 What’s the output of the following code:
@@ -48,6 +44,7 @@ What’s the output of the following code:
 ```bash
 2 + 7 * 2 // 8
 ```
+
 ???
 
 * `3`
@@ -55,7 +52,9 @@ What’s the output of the following code:
 * `2.0`
 * `1`
 
+
 ---
+
 ## Revision
 
 What’s the output of the following code:
@@ -63,6 +62,7 @@ What’s the output of the following code:
 ```bash
 4 + 3 * 9 // 6
 ```
+
 ???
 
 * `8`

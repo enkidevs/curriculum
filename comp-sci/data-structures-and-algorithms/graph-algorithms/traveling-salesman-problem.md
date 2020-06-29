@@ -1,37 +1,19 @@
 ---
 author: mihaiberq
-
-levels:
-
-  - beginner
-
-  - basic
-
-  - medium
-
-  - advanced
-
 type: normal
-
 category: must-know
-
-aspects:
-
-  - deep
-
-  - obscura
-
 links:
-
-  - '[Shortcuts for TSP](https://www.wired.com/2013/01/traveling-salesman-problem/){website}'
-
+  - >-
+    [Shortcuts for
+    TSP](https://www.wired.com/2013/01/traveling-salesman-problem/){website}
 parent: bellman-ford-iteration
-
 ---
 
 # Traveling Salesman Problem
 
+
 ---
+
 ## Content
 
 We will now take a break from plain algorithms to discuss the *Traveling Salesman Problem*, also known as *TSP*. Mainly a mathematical problem, it is worth mentioning here because of its applicability.
@@ -57,38 +39,44 @@ However, this is an example where the greedy approach doesn't work properly:
 ![tsp2](https://img.enkipro.com/14a2481834a3d1e4f7195fda1d832f47.png)
 
 With the solutions:
-```
+
+```plain-text
 greedy: 1+1+1+30=33
 best: 1+5+1+8=15
 ```
 
 Even though there are multiple ways of solving the problem, none that yields the optimal solution in every case has been found. This is the reason why the *Traveling Salesman Problem* is one of the most computationally expensive problems[3] to solve.
 
+
 ---
+
 ## Practice
 
 TSP can be seen as a/an
 
 ???
 
-
 * optimization problem
 * reduction problem
 * recursive problem
 * greedy problem
 
+
 ---
+
 ## Revision
 
 In the TSP, a greedy approach ??? yields the optimal solution.
-
 
 * sometimes
 * never
 * always
 
+
 ---
+
 ## Footnotes
+
 [1: (n-1)!]
 Why are there `(n-1)!` permutations to check and not `n!`?
 
@@ -101,4 +89,3 @@ The total number can be halved by not counting reversed routes. For example: [A,
 `Non-deterministic polynomial-time(NP)` problems are a class of problems that cannot be solved in polynomial-time.
 
 `NP-hard` class, of which TSP is a member of, is regarded as containing problems at least as hard as the problems in NP.
-

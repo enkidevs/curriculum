@@ -31,4 +31,3 @@ links:
 In this exercise, you have to create a text area with 2 buttons.
 
 Example of the finished exercise is on codepen.
- 

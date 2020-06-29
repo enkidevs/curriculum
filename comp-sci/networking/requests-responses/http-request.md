@@ -1,20 +1,15 @@
 ---
 author: SebaRaba
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-
 parent: https
-
 ---
 
 # The HTTP request
 
+
 ---
+
 ## Content
 
 Whenever a web browser fetches a file from a **web server**, it is using the `HTTP` protocol. `HTTP` is a *request/response* protocol: your machine sends a request to the server, which, in turn returns a response.
@@ -51,20 +46,21 @@ The *HTTP version* is self explanatory: it announces the protocol understood by 
 ### Request header
 
 There are multiple fields that can go into the header of a request. Some of them are:
-- **User-Agent**: specifies details about your web browser and your OS
-- **Accept**: states what resource format will be accepted (`text/plain` for documents, `text/html` for web pages, `audio/*` for any type of audio file etc.)
-- **Accept-Language**: specifies the type of language the website should be in, in case there are multiple available options
-- **Referer**(sic!): specifies what page the request originated from (the misspelled word is part of the official terminology).
-- **Content-Type**: tells the server what type of files can be added to the response
+
+* **User-Agent**: specifies details about your web browser and your OS
+* **Accept**: states what resource format will be accepted (`text/plain` for documents, `text/html` for web pages, `audio/*` for any type of audio file etc.)
+* **Accept-Language**: specifies the type of language the website should be in, in case there are multiple available options
+* **Referer**(sic!): specifies what page the request originated from (the misspelled word is part of the official terminology).
+* **Content-Type**: tells the server what type of files can be added to the response
+
 
 ---
+
 ## Practice
 
 The usual syntax of a request line is:
-```
-??? ??? ??? ???
-```
 
+    ??? ??? ??? ???
 
 * Method
 * URI
@@ -73,13 +69,14 @@ The usual syntax of a request line is:
 * CTRLF
 * Host
 
+
 ---
+
 ## Revision
 
 The request header field that delivers information about your browser and operating system is
 
 ???
-
 
 * User-Agent
 * Accept
@@ -87,7 +84,9 @@ The request header field that delivers information about your browser and operat
 * Browser
 * User
 
+
 ---
+
 ## Footnotes
 
 [1: Relative vs Absolute URL]
@@ -100,6 +99,6 @@ http://www.myAwsomeWebsite.com/contact
 
 While the relative one (which requires the `Host` field) is:
 
-```
+```plain-text
 /contact
 ```

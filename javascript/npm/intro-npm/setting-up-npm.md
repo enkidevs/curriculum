@@ -1,30 +1,17 @@
 ---
 author: mihaiberq
-
-levels:
-  - beginner
-
 type: normal
-
 category: must-know
-
 parent: why-use-npm
-
-standards:
-  javascript.npm-tasks-and-modules-manager.0: 10
-  javascript.node-developer-environment.2: 10
-
 tags:
   - introduction
-
-aspects:
-  - introduction
-
-
 ---
+
 # Setting up npm
 
+
 ---
+
 ## Content
 
 Now that you have chosen to use **npm**, the next step is to install it: *npm* is included with *Node.js*.
@@ -58,7 +45,9 @@ var express = require('express');
 var app = express();
 ```
 
+
 ---
+
 ## Practice
 
 How would you update npm to the latest version? Place the flag at the end of the command.
@@ -76,7 +65,9 @@ npm ??? ??? ???
 * remove
 * --latest
 
+
 ---
+
 ## Revision
 
 Install the *react* package locally:
@@ -91,6 +82,3 @@ Install the *react* package locally:
 * -l
 * -g
 * node
- 
- 
- 

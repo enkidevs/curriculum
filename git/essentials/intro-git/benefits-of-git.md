@@ -1,21 +1,16 @@
 ---
 author: kapnobatai136
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-
 links:
   - '[Why Git](https://www.atlassian.com/git/tutorials/why-git){website}'
-
 ---
 
 # Benefits of Git
 
+
 ---
+
 ## Content
 
 Let's talk a bit about what **Git** brings to the table.
@@ -32,7 +27,9 @@ Let's talk a bit about what **Git** brings to the table.
 
 > 💡 Check the Learn More section for more info on how Git can benefit different work roles.
 
+
 ---
+
 ## Practice
 
 Git is only useful for developers.
@@ -42,7 +39,9 @@ Git is only useful for developers.
 * False.
 * True.
 
+
 ---
+
 ## Footnotes
 
 [1:Clone]

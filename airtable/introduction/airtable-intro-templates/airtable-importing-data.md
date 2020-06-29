@@ -1,24 +1,21 @@
 ---
 author: kapnobatai136
-
 category: must-know
-
-aspects:
-  - introduction
-
 type: normal
-
 ---
 
 # Importing Data
 
+
 ---
+
 ## Content
 
 In Airtable, there are three ways of creating a base:
-- From a template
-- From a spreadsheet
-- From scratch
+
+* From a template
+* From a spreadsheet
+* From scratch
 
 We've already discussed templates. Now let's take a look at importing data via spreadsheets. 
 
@@ -29,11 +26,14 @@ Assuming you don't want to manually insert all the records, click on the `Add a 
 ![importing-data](https://img.enkipro.com/3bae585fd8588d316740db39095dce9a.gif)
 
 In the example, we chose to upload a `.csv` file from our own computer. Some other upload options include:
-- copy/pasting table data (e.g. from Excel or Google Sheets)
-- uploading a `.csv` file from a URL
-- uploading a `.csv` file from product like Google Drive and Dropbox
+
+* copy/pasting table data (e.g. from Excel or Google Sheets)
+* uploading a `.csv` file from a URL
+* uploading a `.csv` file from product like Google Drive and Dropbox
+
 
 ---
+
 ## Practice
 
 Which of the following **is not** a viable option of importing data into Airtable?
@@ -45,7 +45,9 @@ Which of the following **is not** a viable option of importing data into Airtabl
 * Paste your table data.
 * Import a `.csv` file from a storage option.
 
+
 ---
+
 ## Footnotes
 
 [1:CSV]

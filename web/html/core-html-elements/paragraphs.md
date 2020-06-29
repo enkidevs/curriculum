@@ -1,22 +1,15 @@
 ---
 author: Stefan-Stojanovic
-
-levels:
-  - beginner
-  - basic
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-
-links:
-
+links: null
 ---
+
 # Paragraphs
+
+
 ---
+
 ## Content
 
 In HTML, the `<p>` tag defines the start of a paragraph and the `</p>` defines the end.
@@ -40,7 +33,9 @@ The defaults of paragraphs:
 * The font family is Times New Roman.
 * There is a margin of space around the top and bottom of each paragraph that is typically 1em.
 
+
 ---
+
 ## Practice
 
 Which HTML tags create a paragraph of text?
@@ -53,7 +48,9 @@ Which HTML tags create a paragraph of text?
 * `</p>Text Here</p>`
 * `<paragraph>Text Here</paragraph>`
 
+
 ---
+
 ## Revision
 
 The `<p>` tag is used in HTML to do what?
@@ -67,10 +64,13 @@ The `<p>` tag is used in HTML to do what?
 * Represents pixel
 * Adds portal
 
+
 ---
+
 ## Quiz
 
 ### How much do you know about HTML paragraphs?
+
 
 What is the default HTML text size of a paragraph in a browser?
 

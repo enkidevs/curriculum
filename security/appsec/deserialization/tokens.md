@@ -53,4 +53,3 @@ What is the best way to handle persisting user state between stateless requests?
 * Pass an integrity-verified token to the user that represents user state stored elsewhere
 * Store user state in an integrity-verified token
 * Encrypt user state end-to-end
- 

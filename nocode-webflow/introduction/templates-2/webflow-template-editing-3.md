@@ -1,18 +1,14 @@
 ---
 author: kapnobatai136
-
 category: must-know
-
-aspects:
-  - introduction
-
 type: normal
-
 ---
 
 # Editing Templates 2
 
+
 ---
+
 ## Content
 
 Using the same project, let's open the designer[1]. Instead of having individual images with descriptions for each of your projects, you now want to have a slider.
@@ -29,7 +25,9 @@ Now, go into the `Add Elements`[2] section and find the `Components` category. Y
 
 When you're done positioning, you can change the style of elements or components by pressing the `S` button on your keyboard.
 
+
 ---
+
 ## Practice
 
 In the designer, you can ??? new elements/components or ??? previously existing ones.
@@ -38,7 +36,9 @@ In the designer, you can ??? new elements/components or ??? previously existing 
 * delete
 * merge
 
+
 ---
+
 ## Footnotes
 
 [1:Designer]

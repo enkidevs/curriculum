@@ -73,4 +73,3 @@ git ??? ???
 * `--pretty`
 * `oneline`
 * `singleline`
- 

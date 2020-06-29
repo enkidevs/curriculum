@@ -1,33 +1,19 @@
 ---
 author: jfarmer
-
-levels:
-
-  - basic
-
-  - beginner
-
-aspects:
-  - introduction
-  - workout
-
 type: normal
-
 category: tip
-
 inAlgoPool: false
-
-
 links:
-
-  - '[Kill signals](http://tldp.org/LDP/Bash-Beginners-Guide/html/sect_12_01.html){website}'
-
-
+  - >-
+    [Kill
+    signals](http://tldp.org/LDP/Bash-Beginners-Guide/html/sect_12_01.html){website}
 ---
 
 # Stopping Processes With `kill` And `killall`
 
+
 ---
+
 ## Content
 
 Oftentimes we want to kill a process that is consuming too many resources or has otherwise become unresponsive.  The two most common tools for this are `kill` and `killall`.
@@ -62,21 +48,24 @@ The `kill -9` or `killall -9` commands are *very* aggressive, roughly equivalent
 
 As a best practice, always try `kill PID` before trying `kill -9 PID`.
 
+
 ---
+
 ## Practice
 
 Match with the correct argument:
-```
-kill ???
-killall ???
-```
+
+    kill ???
+    killall ???
 
 * `processID`
 * `processname`
 * `taskID`
 * `username`
 
+
 ---
+
 ## Revision
 
 Force killing a process is done by attaching a 
@@ -87,7 +76,3 @@ Force killing a process is done by attaching a
 * -2
 * -3
 * -7
-
- 
- 
- 

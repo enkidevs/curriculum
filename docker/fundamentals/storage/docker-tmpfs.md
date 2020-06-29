@@ -47,4 +47,3 @@ The *tmpfs* mount is a storage option in Docker where data is persisted ??? and 
 * Linux
 * forever
 * Windows
- 

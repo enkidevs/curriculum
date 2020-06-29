@@ -1,33 +1,19 @@
 ---
 author: jfarmer
-
-levels:
-
-  - basic
-
-  - beginner
-
-aspects:
-  - introduction
-  - workout
-
 type: normal
-
 category: must-know
-
 inAlgoPool: false
-
-
 links:
-
-  - '[More use cases](http://www.thegeekstuff.com/2012/04/curl-examples/){website}'
-
-
+  - >-
+    [More use
+    cases](http://www.thegeekstuff.com/2012/04/curl-examples/){website}
 ---
 
 # Using `curl` To Make HTTP Requests
 
+
 ---
+
 ## Content
 
 Virtually every Unix system comes with the `curl` command pre-installed.  `curl` allows us to simulate any HTTP request, although most commonly it's used to download files and webpages from the command-line.
@@ -59,22 +45,20 @@ curl -o song.mp3 http://foo.com/bar.mp3
 
 Both of these will result in `curl` downloading `bar.mp3` and writing it to the `song.mp3` file in the current directory.
 
+
 ---
+
 ## Revision
 
 Complete the following command line snippet to download the picture:
+
 ```bash
 ??? ??? ???
   https://catpictures.com/cat1.jpg
 ```
-
 
 * `curl`
 * `-o`
 * `cat.jpg`
 * `-O`
 * `-d`
-
- 
- 
- 

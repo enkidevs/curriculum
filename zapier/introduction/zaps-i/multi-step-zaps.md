@@ -1,19 +1,14 @@
 ---
 author: kapnobatai136
-
 category: must-know
-
-aspects:
-  - introduction
-  - workout
-
 type: normal
-
 ---
 
 # Multi-Step Zaps
 
+
 ---
+
 ## Content
 
 We have previously mentioned that zaps are not limited to only two steps. Let's take the zap that we have previously created, and add another step.
@@ -30,7 +25,9 @@ Success! You have added another step to your zap. All that is left to do is turn
 
 Note: To create multi-step zaps, you need to have a paid plan.
 
+
 ---
+
 ## Practice
 
 Zapier can have ??? steps.
@@ -38,7 +35,9 @@ Zapier can have ??? steps.
 * an unlimited number of
 * only two
 
+
 ---
+
 ## Revision
 
 How many steps is Zapier **limited to**?
@@ -50,7 +49,9 @@ How many steps is Zapier **limited to**?
 * 2
 * 10
 
+
 ---
+
 ## Footnotes
 
 [1:Filters]

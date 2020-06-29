@@ -1,28 +1,20 @@
 ---
 author: Stefan-Stojanovic
-
-levels:
-  - basic
-
-aspects:
-  - deep
-  - workout
-
 type: normal
-
 category: how to
-
 ---
 
 # `$in` & `$or`
 
+
 ---
+
 ## Content
 
 Let's say we want to get all documents with their type equal to either `"Grass"` **or** `"Electric"`. We can do so by using the `$or` logical operator, or the `$in` comparison operator.
 
-- `$or` is a logical operator used to match one or more values from at least two expressions.
-- `$in` is a comparison operator used to match any values specified inside the given array like `$in: []`.
+* `$or` is a logical operator used to match one or more values from at least two expressions.
+* `$in` is a comparison operator used to match any values specified inside the given array like `$in: []`.
 
 In our case, since we’re looking at different values for the same field (the `type` field), the `$in` operator is better suited since it is less verbose. Nevertheless, here are both examples:
 
@@ -83,7 +75,9 @@ Output is the same for both examples:
 
 Next to the `$or` and `$in` operators, there are a number of different operators that will be discussed later on.
 
+
 ---
+
 ## Practice
 
 Find all the documents (pokémon) within the `pokemon` collection that have a `type` that's either `"Water"` or `"Fire"`.
@@ -103,7 +97,9 @@ db.pokemon.???({
 * `search`
 * `$or`
 
+
 ---
+
 ## Revision
 
 Find all the documents within the `pokemon` collection that have a `type` that's either `"Water"` or `"Fire"`.

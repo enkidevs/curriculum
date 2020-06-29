@@ -58,4 +58,3 @@ Which subset of this URL can be mapped to an IP address using DNS?
 * /conways-editor/conways-editor.html
 * https://
 * www.tebs-game-of-life
- 

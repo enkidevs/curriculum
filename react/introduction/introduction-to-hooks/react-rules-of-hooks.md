@@ -1,26 +1,16 @@
 ---
 author: kapnobatai136
-  
-aspects:
-
-  - new
-
-  - workout
-
-  - deep
-
 type: normal
-
 category: how to
-
 links:
   - '[Rules of hooks](https://reactjs.org/docs/hooks-rules.html){documentation}'
-
 ---
 
 # Rules of hooks
 
+
 ---
+
 ## Content
 
 You have learned how to use the `useState()` and `useEffect()` hooks, but until now we have only called these methods once. An important feature of hooks is that you can have multiple `useState()` and `useEffect()` in the same function component. Here's an example:
@@ -65,7 +55,9 @@ To help developers follow these rules more easily, the React team has created an
 npm i eslint-plugin-react-hooks --save-dev
 ```
 
+
 ---
+
 ## Practice
 
 How many times can you call hooks in React?
@@ -83,7 +75,9 @@ Can you call hooks inside JavaScript functions that aren't components?
 * yes
 * maybe
 
+
 ---
+
 ## Revision
 
 In which of the following can you call React hooks?
@@ -103,7 +97,9 @@ Can you have more than one hook in a component?
 * maybe
 * yes, but only two hooks per component
 
+
 ---
+
 ## Footnotes
 
 [1:NPM]

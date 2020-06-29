@@ -94,4 +94,3 @@ var style = {
 * msTransition
 * ms-transition
 * webkit-transition
- 

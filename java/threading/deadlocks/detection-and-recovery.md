@@ -37,4 +37,3 @@ What is the key to resolving a deadlock once it occurred?
 * Break the cycle of process-resource dependency
 * Kill all processes in the system
 * Roll the system back to a boot state
- 

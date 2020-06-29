@@ -1,18 +1,14 @@
 ---
 author: kapnobatai136
-
 category: must-know
-
-aspects:
-  - introduction
-
 type: normal
-
 ---
 
 # Editing Template Data
 
+
 ---
+
 ## Content
 
 Without going into too much detail, let's see how you'd go about editing the imported template.
@@ -31,7 +27,9 @@ Here's how we changed some of the settings mentioned above:
 
 The same process can be applied to tables and columns, and in this way you can fully customize the template to fit your requirements.
 
+
 ---
+
 ## Practice
 
 Imported templates ??? be edited.

@@ -1,22 +1,17 @@
 ---
 author: mihaiberq
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-
 tags:
   - java
   - introduction
-
 ---
 
 # What is Java?
 
+
 ---
+
 ## Content
 
 **Java** is a programming language that follows the *Object-oriented programming paradigm*[1] (also known as OOP).
@@ -27,7 +22,9 @@ The fact that it's still one of the most-used languages over 25 years later show
 
 Java is a **secure[2], and portable language[3]**. We'll discuss what this means very soon!
 
+
 ---
+
 ## Practice
 
 What type of programming language is **Java** considered to be?
@@ -39,7 +36,9 @@ What type of programming language is **Java** considered to be?
 * quantum
 * esoteric
 
+
 ---
+
 ## Footnotes
 
 [1:Object-oriented programming]

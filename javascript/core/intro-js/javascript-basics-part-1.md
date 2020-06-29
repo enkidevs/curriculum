@@ -1,17 +1,14 @@
 ---
 author: nem035
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-
 ---
+
 # JavaScript Basics - Part 1
 
+
 ---
+
 ## Content
 
 Like most programming languages, JavaScript has a number of syntax rules that it must adhere to.
@@ -64,7 +61,9 @@ Omitting a semicolon in certain situations can cause problems. JavaScript has a 
 
 This can sometimes lead to unexpected results[2]. Thus, it's usually recommended to insert the `;` yourself, or use a tool such as [Prettier](https://prettier.io) to do it for you.
 
+
 ---
+
 ## Practice
 
 Which snippet will throw an error?
@@ -94,7 +93,9 @@ answer = 'life';
 * Option C
 * None of these
 
+
 ---
+
 ## Revision
 
 Are semicolons required in JavaScript?
@@ -105,13 +106,14 @@ Are semicolons required in JavaScript?
 * Yes
 * Sometimes
 
- 
+
 ---
+
 ## Footnotes
 
 [1: ECMAScript]
 ECMAScript is the specification defining the rules of JavaScript, based on which the features of the language are implemented.
- 
+
 [2: ASI]
 JavaScript ASI will sometimes assume a statement ends where it might not be intended.
 

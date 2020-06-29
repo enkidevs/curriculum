@@ -32,4 +32,3 @@ Padding is used to move components ??? from the border.
 
 * away
 * closer to
- 

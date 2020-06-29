@@ -50,4 +50,3 @@ What is the most effective defense against serialization attack vectors?
 * Deserialization
 * Encryption
 * Nonces
- 

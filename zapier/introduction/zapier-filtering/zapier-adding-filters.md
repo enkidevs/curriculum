@@ -1,27 +1,21 @@
 ---
 author: kapnobatai136
-
 category: how to
-
-aspects:
-  - introduction
-  - workout
-  - deep
-
 type: normal
-
 ---
 
 # Adding Filters
 
+
 ---
+
 ## Content
 
 In this insight, we'll take a close look at how we can add filters using more than one check.
 
 In the previous lessons, we used as an example a filter step which ensures that we react only to spreadsheet row changes where their `Has Access?` column is `Yes`.
 
-To extend this example, say that we want to react only to _the first 3 rows of the spreadsheet_, or to rows where the last name is `Wick` (you've seen what he can do when he is upset).
+To extend this example, say that we want to react only to *the first 3 rows of the spreadsheet*, or to rows where the last name is `Wick` (you've seen what he can do when he is upset).
 
 For this, our logic would look something like this:
 
@@ -43,7 +37,9 @@ Notice how only `AND` can be linked (e.g. `check 1 AND check 2 AND ...`), with t
 
 Your zap is now ready, and you will only be notified if the data passes the checks.
 
+
 ---
+
 ## Practice
 
 The limit of checks a filter can have in Zapier is ???.
@@ -53,7 +49,9 @@ The limit of checks a filter can have in Zapier is ???.
 * 4
 * 6
 
+
 ---
+
 ## Revision
 
 Is this type of check possible with `Filter by Zapier`?

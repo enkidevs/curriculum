@@ -1,22 +1,11 @@
 ---
 author: catalin
-
-levels:
-
-  - beginner
-
 type: normal
-
 category: feature
-
-aspects:
-  - workout
-  - deep
 links:
-
-  - '[docs.python.org](https://docs.python.org/3.5/library/stdtypes.html#additional-methods-on-integer-types){website}'
+  - >-
+    [docs.python.org](https://docs.python.org/3.5/library/stdtypes.html#additional-methods-on-integer-types){website}
   - '[en.wikipedia.org](https://en.wikipedia.org/wiki/Endianness){website}'
-
 notes: |
   This line of output from a snippet in the insight:
 
@@ -25,20 +14,19 @@ notes: |
   is incorrect. It should be:
 
   11 # 1024 in binary is 10000000000
+---
 
-standards:
-  python.data-structures-uses.3: 10
+# Converting `int` s to binary data
+
 
 ---
 
-# Converting `int`s to binary data
-
----
 ## Content
 
 The **built-in** `int` types provide several methods for data manipulation at a binary level. Conventionally, for integer values representation, **bytes** (groups of 8 bits) are used.
 
 For example, you can get the bits required to store a specific number with `bit_length()`
+
 ```python
 >>> n = 1024
 >>> n.bit_length()
@@ -47,19 +35,22 @@ For example, you can get the bits required to store a specific number with `bit_
 ```
 
 Additionally, we can distinguish the following couple of methods:
-- `.to_bytes(length, byteorder, *, signed=False)`[1] which return an array of **bytes** representing the integer value called on
-- `.from_bytes(bytes, byteorder, *, signed=False)` which does the opposite - converts an array of bytes to an integer value
+
+* `.to_bytes(length, byteorder, *, signed=False)`[1] which return an array of **bytes** representing the integer value called on
+* `.from_bytes(bytes, byteorder, *, signed=False)` which does the opposite - converts an array of bytes to an integer value
 
 In both syntaxes defined above `byteorder` stands for the **byte order** or **endianness**[2], accepting the values `"big"` or `"little"`.
 
 The `signed` argument (`False` by default) determines whether **two’s complement** is used to represent the integer. Keep in mind that having `signed` equal to `False` and calling `.to_bytes()` on a *negative* number will result in a `OverflowError`.
 
 Note that you can round up a floating point numbers using the following expression:
-```
+
+```plain-text
 rounded_up = -(-numerator // denominator)
 ```
 
 Here's the former function in action:
+
 ```python
 # converting 2048 with big endian
 >>> (2048).to_bytes(2, byteorder='big')
@@ -77,6 +68,7 @@ b'\xe7'
 ```
 
 Similarly, the `.from_bytes()` method works in reverse:
+
 ```python
 # converting to 2048, big endian
 >>> int.from_bytes(b'\x08\x00',
@@ -94,16 +86,18 @@ Similarly, the `.from_bytes()` method works in reverse:
 516
 ```
 
+
 ---
+
 ## Practice
 
 Fill the following snippet such that it will first convert `1024` to bytes and then perform the reverse operation.
+
 ```python
 >>> int.???(
 (1024).???((1024).???, byteorder='big'),
 ???="big")
 ```
-
 
 * `from_bytes`
 * `to_bytes`
@@ -117,10 +111,13 @@ Fill the following snippet such that it will first convert `1024` to bytes and t
 * `length`
 * `bytes`
 
+
 ---
+
 ## Revision
 
 Complete the following snippet with missing `int` methods used for byte conversion:
+
 ```python
 >>> (16).???(1, ???='big')
 b'\x10'
@@ -129,7 +126,6 @@ b'\x10'
 1024
 
 ```
-
 
 * `to_bytes`
 * `byteorder`
@@ -144,8 +140,11 @@ b'\x10'
 * `to_byte_array`
 * `orderbyte`
 
+
 ---
+
 ## Footnotes
+
 [1:length]
 When specified, the integer value will be represented in `length` bytes. If these aren't enough, an `OverflowError` will be thrown.
 

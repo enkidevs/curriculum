@@ -1,34 +1,22 @@
 ---
 author: catalin
-
-levels:
-  - basic
-  - beginner
-
 type: normal
-
 category: feature
-
 links:
-  - '[www.marcusoft.net](http://www.marcusoft.net/2015/08/npm-scripting-configs-and-arguments.html#passing-through-command-line-argument){website}'
-
+  - >-
+    [www.marcusoft.net](http://www.marcusoft.net/2015/08/npm-scripting-configs-and-arguments.html#passing-through-command-line-argument){website}
 parent: check-data-about-a-package
-
 tags:
   - introduction
   - workout
   - deep
-
-aspects:
-  - introduction
-  - workout
-  - deep
-
-
 ---
+
 # Passing through command line arguments in npm scripts
 
+
 ---
+
 ## Content
 
 `npm` package manager provides a feature that lets users pass in command line arguments using the `--` characters. Note that there is a blank space after the two dashes.
@@ -53,7 +41,9 @@ Alternatively you can provide `--` when calling a script directly:
 npm run someCommand -- --arg=value
 ```
 
+
 ---
+
 ## Practice
 
 Consider an npm script called `doSomething`. Run it via npm, passing 'enki' as an argument to it:
@@ -71,7 +61,9 @@ Consider an npm script called `doSomething`. Run it via npm, passing 'enki' as a
 * runWithArgs
 * process.argv[0]
 
+
 ---
+
 ## Revision
 
 How would you pass to the following npm script call a "test" argument?
@@ -86,6 +78,3 @@ npm run myScript ??? ???
 * argvs
 * arg
 * process.argv[0]
- 
- 
- 

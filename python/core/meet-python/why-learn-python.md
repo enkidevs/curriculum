@@ -1,28 +1,23 @@
 ---
 author: emmab
-
-levels:
-  - beginner
-
 tags:
   - introduction
-
 type: normal
-
 category: tip
-
-aspects:
-  - introduction
-
-links: 
-- '[Why Learn Python](https://medium.com/datadriveninvestor/5-reasons-why-i-learned-python-and-why-you-should-learn-it-as-well-917f781aea05){website}'
-- '[Python OOP](https://www.programiz.com/python-programming/object-oriented-programming){website}'
-
+links:
+  - >-
+    [Why Learn
+    Python](https://medium.com/datadriveninvestor/5-reasons-why-i-learned-python-and-why-you-should-learn-it-as-well-917f781aea05){website}
+  - >-
+    [Python
+    OOP](https://www.programiz.com/python-programming/object-oriented-programming){website}
 ---
 
 # Why learn Python?
 
+
 ---
+
 ## Content
 
 Python is seen as the number one language to learn. Here are a few reasons why:
@@ -47,7 +42,9 @@ You can use Python to build whatever you want to build, from a scraper to an e-c
 
 Check out the *Learn More link* to dig into more reasons to learn Python.
 
+
 ---
+
 ## Practice
 
 It typically requires ??? code to write the same task in Python than in C++.
@@ -56,7 +53,9 @@ It typically requires ??? code to write the same task in Python than in C++.
 * more
 * about the same
 
+
 ---
+
 ## Revision
 
 How much Python code is usually required to write the same task compared to C++ code? ???
@@ -66,7 +65,9 @@ How much Python code is usually required to write the same task compared to C++ 
 * `3–5 times less`
 * `Roughly equal`
 
+
 ---
+
 ## Footnotes
 
 [1:Object-oriented programming]

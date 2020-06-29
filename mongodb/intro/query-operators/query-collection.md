@@ -1,22 +1,14 @@
 ---
 author: Stefan-Stojanovic
-
-levels:
-  - basic
-
-aspects:
-  - deep
-  - workout
-
 type: normal
-
 category: how to
-
 ---
 
 # Querying a Collection
 
+
 ---
+
 ## Content
 
 To perform queries means to search through a database or collection and return a result matching a specified condition.
@@ -110,7 +102,9 @@ Output:
 
 The above search returns only the documents that have `type` equal to `"Grass"` and `secondType` equal to `"Normal"`.
 
+
 ---
+
 ## Practice
 
 Fill in the blanks to create a simple query that finds all `"Mud"` type pokémon in the `pokemon` collection.

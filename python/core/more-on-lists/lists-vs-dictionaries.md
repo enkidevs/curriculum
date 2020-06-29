@@ -1,22 +1,18 @@
 ---
 author: SebaRaba
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-  - workout
-
 links:
-  - '[More information here](https://monjurulhabib.wordpress.com/2016/09/22/python-when-to-use-list-vs-tuple-vs-dictionary-vs-set-theory/){website}'
-
+  - >-
+    [More information
+    here](https://monjurulhabib.wordpress.com/2016/09/22/python-when-to-use-list-vs-tuple-vs-dictionary-vs-set-theory/){website}
 ---
 
 # Lists vs Dictionaries
 
+
 ---
+
 ## Content
 
 The **list** is the most versatile data structure available in **Python**.
@@ -26,6 +22,7 @@ One big difference between **lists** and **dictionaries** is that we can store s
 **Dictionaries** represent unordered sequences of elements. Moreover, we can state that dictionaries are the **Python** implementation of an abstract data type called **associative array**. Associative arrays consist - like dictionaries - of **(key, value) pairs**, such that each possible **key** appears at most **once** in the collection. The **values** of a dictionary can be any Python data type.
 
 Consider the following example:
+
 ```py
 my_list = [
   'list', 
@@ -69,7 +66,9 @@ print(
 # Second
 ```
 
+
 ---
+
 ## Practice
 
 What complexity is required for a lookup on a list?
@@ -80,7 +79,9 @@ What complexity is required for a lookup on a list?
 * `O(1)`
 * `O(n^2)`
 
+
 ---
+
 ## Revision
 
 Consider the following example:

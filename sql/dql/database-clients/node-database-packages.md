@@ -1,47 +1,36 @@
 ---
 author: nickdaminov
-
-levels:
-  - basic
-  - medium
-
 type: normal
-
 category: feature
-
 inAlgoPool: false
-
-standards:
-  sql.connect-client.0: 10
-  sql.connect-client.1: 10
-
 tags:
   - node
   - javascript
   - implementation
   - database packages
-
 links:
-  - '[Node database packages](https://www.npmjs.com/browse/keyword/database){website}'
+  - >-
+    [Node database
+    packages](https://www.npmjs.com/browse/keyword/database){website}
   - '[pg node package](https://www.npmjs.com/package/pg){website}'
   - '[pg video tutorial](https://www.youtube.com/watch?v=hzixG7gFTxY){website}'
-
-aspects:
-  - workout
-
 ---
 
 # Node Database Packages
 
+
 ---
+
 ## Content
 
 Node is another popular platform and it uses JavaScript. As there are lots of packages available for it we will take a look at some of the database packages:
- - mongoose (for MongoDB)
- - sqlite3
- - pg (for postgres)
+
+* mongoose (for MongoDB)
+* sqlite3
+* pg (for postgres)
 
 We will create a node app and use a `pg` package in order to connect to a *Pokemon* database and output the results to the console:
+
 ```js
 // require the correct package
 const pg = require("pg");
@@ -88,14 +77,15 @@ The result of the following code should be similar to:
   anonymous { id: '10', name: 'yellow' } ]
 ```
 
+
 ---
+
 ## Practice
 
 Considering `var conString ="pg://ashketchum:iwannabetheverybest@aws-us-east-1-portal.29.dblayer.com:23336/pokemon";`, form a connection string:
 
 ???://???:???
 @???:???/???
-
 
 * pg
 * username
@@ -104,7 +94,9 @@ Considering `var conString ="pg://ashketchum:iwannabetheverybest@aws-us-east-1-p
 * port
 * databaseName
 
+
 ---
+
 ## Revision
 
 What package is used in order to connect to a Postgres database in nodeJS?
@@ -114,5 +106,3 @@ What package is used in order to connect to a Postgres database in nodeJS?
 * pg
 * mongoose
 * sqlite3
- 
- 

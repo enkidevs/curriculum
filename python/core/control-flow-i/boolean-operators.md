@@ -1,21 +1,16 @@
 ---
 author: emmab
-
 tags:
   - introduction
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-
 ---
 
 # Boolean Operators
 
+
 ---
+
 ## Content
 
 There are two keywords in Python that allow us to write more complex boolean conditions.
@@ -43,9 +38,8 @@ if str == 'boolean' or num > 2:
 
 When using the `or` operator, *at least one of the conditions* must evaluate to `True`.
 
-
 | Multiple conditions       | Result  |
-|---------------------------|---------|
+| ------------------------- | ------- |
 | `True and True`           | `True`  |
 | `True and False`          | `False` |
 | `True and True and False` | `False` |
@@ -53,7 +47,9 @@ When using the `or` operator, *at least one of the conditions* must evaluate to 
 | `False or False`          | `False` |
 | `False or False or True`  | `True`  |
 
+
 ---
+
 ## Practice
 
 Complete the code snippet so that both conditions must evaluate to `True` for the word `'yes'` to be printed:
@@ -75,7 +71,9 @@ else:
 * `both`
 * `plus`
 
+
 ---
+
 ## Revision
 
 Complete the code snippet so that at least one of the conditions must evaluate to `True` for the word `'yes'` to be printed:

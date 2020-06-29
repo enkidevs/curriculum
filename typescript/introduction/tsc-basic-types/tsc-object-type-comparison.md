@@ -2,18 +2,20 @@
 author: nem035
 type: normal
 category: must-know
-aspects:
-  - introduction
-  - workout
 links:
-  - '[object Type](https://www.typescriptlang.org/docs/handbook/basic-types.html#object){documentation}'
-  - '[Play with object types](https://repl.it/@enkicontent/TypeScriptPlayWithObjectTypes){website}'
-
+  - >-
+    [object
+    Type](https://www.typescriptlang.org/docs/handbook/basic-types.html#object){documentation}
+  - >-
+    [Play with object
+    types](https://repl.it/@enkicontent/TypeScriptPlayWithObjectTypes){website}
 ---
 
 # `{}` vs `object` vs `Object`
 
+
 ---
+
 ## Content
 
 TypeScript has 3 ways to represent an object with slightly different behaviors.
@@ -87,7 +89,9 @@ let n: Object = null; // error
 let u: Object = undefined; // error
 ```
 
+
 ---
+
 ## Practice
 
 Which statement will throw an error?
@@ -113,7 +117,9 @@ const c: { enki: string } = {
 * a
 * c
 
+
 ---
+
 ## Revision
 
 Which statement will throw an error?
@@ -135,18 +141,21 @@ const d: Object = { enki: true };
 * c
 * d
 
+
 ---
+
 ## Footnotes
 
 [1:Primitive Values]
 The following types are considered to be primitive:
-- `number`
-- `string`
-- `boolean`
-- `bigint`
-- `symbol`
-- `null`
-- `undefined`
+
+* `number`
+* `string`
+* `boolean`
+* `bigint`
+* `symbol`
+* `null`
+* `undefined`
 
 [2:Most JS values are Objects]
 All built-in values besides `null` and `undefined` are a form of object in JavaScript.

@@ -52,4 +52,3 @@ Which of the following practices reduces the chances (ever so slightly) of being
 * Using the same service repeatedly
 * Using an online exchange
 * Combining multiple outputs into inputs for the same transaction
- 

@@ -1,25 +1,21 @@
 ---
 author: kapnobatai136
-
-aspects:
-  - introduction
-
 type: normal
-
 category: must-know
-
 tags:
   - introduction
   - linux
-
 links:
-  - '[Stack Overflow Survey 2019](https://insights.stackoverflow.com/survey/2019#technology-_-platforms){website}'
-
+  - >-
+    [Stack Overflow Survey
+    2019](https://insights.stackoverflow.com/survey/2019#technology-_-platforms){website}
 ---
 
 # Why Use Linux?
 
+
 ---
+
 ## Content
 
 There are many reasons to choose Linux over other operating systems. Let's start with the fact that **it's completely free to use**.
@@ -31,13 +27,16 @@ As the code is publicly available, it's somewhat easy to extend a Linux distro a
 > 💡Fun fact: the most popular OS for mobile phones, Android, is a modified version of Linux  
 
 Here are a few more reasons to use Linux:
-- It *works with any hardware* (from low-end to high-end)
-- It's *secure* (continuously reviewed by experts)
-- It's *fully customizable* (you can change anything you want!)
+
+* It *works with any hardware* (from low-end to high-end)
+* It's *secure* (continuously reviewed by experts)
+* It's *fully customizable* (you can change anything you want!)
 
 For these reasons, Linux is the most popular platform used by developers (according to Stack Overflow; see the Learn More link).
 
+
 ---
+
 ## Practice
 
 Linux is an ???-??? operating system.
@@ -48,7 +47,9 @@ Linux is an ???-??? operating system.
 * code
 * no
 
+
 ---
+
 ## Footnotes
 
 [1:Open-Source]

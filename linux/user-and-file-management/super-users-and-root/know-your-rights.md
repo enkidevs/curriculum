@@ -1,30 +1,21 @@
 ---
 author: mihaiberq
-
-levels:
-
-  - basic
-
-  - advanced
-
-  - medium
-
-aspects:
-  - workout
-
 type: fillTheGap
-
 category: tip
 ---
 
 # Know your rights!
 
+
 ---
+
 ## Content
 
 Learn the Linux permissions as octal-letters pairs!
 
+
 ---
+
 ## Game Content
 
 ```bash

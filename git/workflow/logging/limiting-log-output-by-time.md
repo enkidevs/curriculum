@@ -62,4 +62,3 @@ git ??? ???
 * `--pretty`
 * `--since`
 * `"yesterday"`
- 

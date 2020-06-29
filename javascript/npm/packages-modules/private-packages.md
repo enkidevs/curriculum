@@ -1,40 +1,22 @@
 ---
 author: mihaiberq
-
-levels:
-  - beginner
-  - basic
-  - medium
-  - advanced
-
 type: normal
-
 category: feature
-
-standards:
-  javascript.npm-publish.1: 10
-  javascript.npm-tasks-and-modules-manager.0: 10
-
 tags:
   - workout
   - deep
   - new
-
 links:
-  - '[docs.npmjs.com](https://docs.npmjs.com/getting-started/scoped-packages){website}'
-
+  - >-
+    [docs.npmjs.com](https://docs.npmjs.com/getting-started/scoped-packages){website}
 parent: packages-vs-modules
-
-aspects:
-  - workout
-  - deep
-  - new
-
-
 ---
+
 # Scoped packages
 
+
 ---
+
 ## Content
 
 Since *npm* started supporting scoping, multiple packages can have the same name while they are under a different **scope** (that acts like a namespace).
@@ -79,7 +61,9 @@ var scopedPackage =
   require('@myscope/somePackage');
 ```
 
+
 ---
+
 ## Practice
 
 How would you initialize an npm project within the `@enki` scope?
@@ -98,7 +82,9 @@ How would you initialize an npm project within the `@enki` scope?
 * -s
 * node
 
+
 ---
+
 ## Revision
 
 A scoped package's name is preceded by ???.
@@ -107,6 +93,3 @@ A scoped package's name is preceded by ???.
 * scope/
 * @/
 * nothing
- 
- 
- 

@@ -1,37 +1,20 @@
 ---
 author: adamMontgomerie
-
-levels:
-
-  - basic
-
-  - advanced
-
-  - medium
-
 type: normal
-
 category: tip
-
-aspects:
-
-  - introduction
-
 tags:
-
   - rounding
-
   - floating-point-numbers
-
 links:
-
-  - '[www.javapractices.com](http://www.javapractices.com/topic/TopicAction.do?Id=213){website}'
-
+  - >-
+    [www.javapractices.com](http://www.javapractices.com/topic/TopicAction.do?Id=213){website}
 ---
 
 # Avoid floating-point when calculating exact quantities such as money
 
+
 ---
+
 ## Content
 
 Beware of `float` and `double` when attempting to calculate or represent exact quantities such as money. This is because of the risk of rounding errors.

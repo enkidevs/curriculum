@@ -1,25 +1,18 @@
 ---
 author: mihaiberq
-
-levels:
-
-  - beginner
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-
 links:
-  - '[Creating Hyperlinks](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Creating_hyperlinks){documentation}'
-
+  - >-
+    [Creating
+    Hyperlinks](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Creating_hyperlinks){documentation}
 ---
 
 # Hyperlinks
 
+
 ---
+
 ## Content
 
 **Hyperlinks**, or links as they are commonly called, represent the way to click either text or images to tell the browser to move to another web page. Links can also open certain files, open user's email program, or even jump to different locations of a web page.
@@ -50,10 +43,13 @@ When links are used with text, such as headings and paragraphs, the text links u
 * link text is blue by default. (`color: #0000EE;`)
 * link text has a text decoration with an underline. (`text-decoration: underline;`)
 
+
 ---
+
 ## Practice
 
 Complete the following snippet in order for it to be valid:
+
 ```html
 <??? ???="http://mywebsite.com">
   My website
@@ -69,6 +65,7 @@ Complete the following snippet in order for it to be valid:
 
 
 ---
+
 ## Revision
 
 The tag denoting a hyperlink is ???.

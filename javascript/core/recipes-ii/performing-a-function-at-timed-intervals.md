@@ -1,46 +1,20 @@
 ---
 author: pawel
-
-levels:
-
-  - basic
-
-  - beginner
-
 type: normal
-
 category: how to
-
-standards:
-
-  javascript.async.0: 10
-
 tags:
-
   - workout
-
   - introduction
-
   - deep
-
   - timed-intervals
-
   - fundamental
-
-
-
-
-aspects:
-  - workout
-  - introduction
-  - deep
-
-
 ---
 
 # Performing a function at timed intervals
 
+
 ---
+
 ## Content
 
 To perform functions at regular intervals using `setInterval`:
@@ -53,6 +27,7 @@ var loop =
 window.setInterval(myFunction, 1000);
 
 ```
+
 The first argument of `setInterval` is a function we want to run periodically, the second argument is the time in milliseconds.
 
 To clear the interval:
@@ -61,10 +36,13 @@ To clear the interval:
 clearInterval(loop);
 ```
 
+
 ---
+
 ## Practice
 
 Make `hi` run every 2 seconds:
+
 ```javascript
 function hi(){
   alert("Hi!");
@@ -79,10 +57,13 @@ var loop = ???
 * 200
 * function
 
+
 ---
+
 ## Revision
 
 Make `hi` run every 2 seconds:
+
 ```javascript
 function hi(){
   alert("Hi!");
@@ -96,5 +77,3 @@ var loop = ???
 * 2000
 * 200
 * function
-
- 

@@ -1,39 +1,21 @@
 ---
 author: adamMontgomerie
-
-levels:
-
-  - basic
-
-  - medium
-
-  - beginner
-
 type: normal
-
 category: feature
-
-aspects:
-
-  - introduction
-
 tags:
-
   - strings
-
   - formatting
-
   - numbers
-
 links:
-
-  - '[docs.oracle.com](https://docs.oracle.com/javase/tutorial/java/data/numberformat.html){website}'
-
+  - >-
+    [docs.oracle.com](https://docs.oracle.com/javase/tutorial/java/data/numberformat.html){website}
 ---
 
 # Use `DecimalFormat` class to format numbers
 
+
 ---
+
 ## Content
 
 The `DecimalFormat` class can be used to specify custom formats for numbers.
@@ -53,7 +35,9 @@ In the `commaFormat` example, we have specified that there should be a comma aft
 
 The `zeroFormat` example shows adding leading zeroes.
 
+
 ---
+
 ## Practice
 
 What will be the value of `enki`  string after the code snippet is ran?
@@ -71,7 +55,9 @@ String enki = myFormat.format(33);
 * `33000`
 * `00330`
 
+
 ---
+
 ## Revision
 
 What argument/s must be passed to the `DecimalFormat`  constructor to achieve the the String `13, 33, 44` from the number `133344` ?

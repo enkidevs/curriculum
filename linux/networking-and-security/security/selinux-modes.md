@@ -1,24 +1,14 @@
 ---
 author: catalin
-
-levels:
-
-  - advanced
-
-  - medium
-
-aspects:
-  - deep
-
 type: normal
-
 category: feature
+---
+
+# **SELinux** modes
+
 
 ---
 
-# **SELinux**  modes
-
----
 ## Content
 
 There is a default security mechanism provided in the kernel called **Security-Enhanced Linux**.
@@ -26,9 +16,10 @@ There is a default security mechanism provided in the kernel called **Security-E
 SELinux controls what processes, activities and users are allowed to access the system and limits the potential harm done by any of those if they are compromised.  
 
 This compulsory access mechanism provides three basic modes that dictate how it affects the system:
-- `enforcing` : enables *SELinux* policies on the system.
-- `permissive` : limits *SELinux* actions to logging and warning, but disables all other policies.
-- `disabled`
+
+* `enforcing` : enables *SELinux* policies on the system.
+* `permissive` : limits *SELinux* actions to logging and warning, but disables all other policies.
+* `disabled`
 
 Check the current status of **SELinux**:
 
@@ -46,14 +37,16 @@ If it is `disabled` you can easily turn it on as it is recommended:
 setenforce enforcing
 ```
 
+
 ---
+
 ## Practice
 
 How do you change **SELinux** settings to only *warn* and *log* :
+
 ```bash
 ??? ???
 ```
-
 
 * `setenforce`
 * `permissive`
@@ -63,10 +56,12 @@ How do you change **SELinux** settings to only *warn* and *log* :
 * `logging`
 * `set-enforce`
 
+
 ---
+
 ## Revision
 
-_SELinux_ is a
+*SELinux* is a
 
 ???
 
@@ -74,6 +69,3 @@ _SELinux_ is a
 * terminal browser
 * Linux distribution
 * hacker group
- 
- 
- 

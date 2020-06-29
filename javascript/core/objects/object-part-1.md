@@ -109,4 +109,3 @@ let person = {
 * `let person.age = 40;`
 * `person[age] = 40;`
 * `person.addNewProperty(age, 40);`
- 

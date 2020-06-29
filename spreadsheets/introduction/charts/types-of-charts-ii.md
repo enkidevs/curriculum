@@ -34,4 +34,3 @@ Using the same chart data, we're going to add a revenue column:
 And create a combo `Line-Column` chart.
 
 ![combo](https://img.enkipro.com/fe0640054333ac430a4c161d10971736.png)
- 

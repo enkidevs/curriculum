@@ -1,20 +1,14 @@
 ---
 author: kapnobatai136
-
 type: normal
-
 category: must-know
-
-aspects:
-  - new
-  - workout
-  - deep
-
 ---
 
 # Custom hooks
 
+
 ---
+
 ## Content
 
 In a previous workout, we have learned how to use the `useState()` and `useEffect()` hooks. Although these provide a lot of functionality, you might encounter some special use cases where these two might just not be enough. In this case, React allows you to create your own custom hooks.
@@ -46,7 +40,9 @@ Notice how the custom hook is named `useReminders(date)`. A common convention is
 
 With custom hooks there is no specific signature, and you decide what arguments it takes and what it returns (or if it returns anything).
 
+
 ---
+
 ## Practice
 
 True or False?
@@ -63,7 +59,9 @@ When writing a new custom hook, its name should usually start with ???.
 * "set"
 * "custom"
 
+
 ---
+
 ## Revision
 
 Which of the following functions is a custom hook and which is a React component?
@@ -88,7 +86,9 @@ B: ???
 * custom hook
 * React component
 
+
 ---
+
 ## Footnotes
 
 [1: Custom hooks]

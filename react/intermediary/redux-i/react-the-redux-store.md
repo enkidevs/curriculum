@@ -1,26 +1,14 @@
 ---
 author: catalin
-
-levels:
-
-  - basic
-
-  - medium
-
-  - advanced
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-
 ---
 
 # The Redux store
 
+
 ---
+
 ## Content
 
 The **Redux** store is simply an object with few *methods* that holds the whole *state tree* of your application. The only way to change this state is by `dispatching` an action to the store.
@@ -76,7 +64,9 @@ The current **reducer** function can be changed:
 store.replaceReducer(newReducer);
 ```
 
+
 ---
+
 ## Practice
 
 Create a Redux store and get the current state of the application:
@@ -96,7 +86,9 @@ store.???();
 * `currentState`
 * `retState`
 
+
 ---
+
 ## Revision
 
 What method is used to send an action to the store and to change the state?
@@ -107,5 +99,3 @@ What method is used to send an action to the store and to change the state?
 * `getState()`
 * `subscribe()`
 * `replaceReducer()`
-
-

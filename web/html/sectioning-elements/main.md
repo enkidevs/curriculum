@@ -1,26 +1,21 @@
 ---
 author: Stefan-Stojanovic
-
-levels:
-  - beginner
-  - basic
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-  - workout
-  - deep
-
 links:
-  - '[MDN: <main> Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/main){documentation}'
-  - '[W3S: <main> Element](https://www.w3schools.com/tags/tag_main.asp){documentation}'
+  - >-
+    [MDN: <main>
+    Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/main){documentation}
+  - >-
+    [W3S: <main>
+    Element](https://www.w3schools.com/tags/tag_main.asp){documentation}
+---
+
+# The `<main>` Element
+
 
 ---
-# The `<main>` Element
----
+
 ## Content
 
 The HTML `<main>` element is used to specify the main content of a web page, document or an application and there should **only be one per web page**.
@@ -30,13 +25,15 @@ The HTML `<main>` element is used to specify the main content of a web page, doc
 It usually consists of content that is directly related to the central topic, or the central functionality of an application.
 
 Also, the `<main>` element should not contain content that is repeated throughout the whole website, or across multiple documents, such as:
- - copyright information
- - navigational links
- - search forms
- - sidebars
- - site logo
+
+* copyright information
+* navigational links
+* search forms
+* sidebars
+* site logo
 
 Example of the main content of a page, in this case, a page describing vehicles:
+
 ```html
 <header>
   <img src="logo.svg" alt="Company Logo">
@@ -103,21 +100,23 @@ As you can see in the example above, we have added `<article>` within our `<main
 
 
 ---
+
 ## Practice
 
 Which HTML container element should only be used once within a page layout?
 
 ???
 
- * `<main>`
- * `<nav>`
- * `<head>`
- * `<footer>`
- * `<one>`
- * `<solo>`
+* `<main>`
+* `<nav>`
+* `<head>`
+* `<footer>`
+* `<one>`
+* `<solo>`
 
 
 ---
+
 ## Revision
 
 Can a webpage contain more than one `<main>` container?
@@ -130,16 +129,22 @@ Can a webpage contain more than one `<main>` container?
 
 
 ---
+
 ## Quiz
 
-### How much do you know about the HTML `<main>` element?
+### How much do you know about the HTML 
+
+`<main>`
+
+ element?
+
 
 Select which of the following items should be contained within a `<main>` container?
 
 ???
 
- * body content
- * webpage logo
- * navigation links
- * copyright information
- * search forms
+* body content
+* webpage logo
+* navigation links
+* copyright information
+* search forms

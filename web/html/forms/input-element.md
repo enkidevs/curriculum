@@ -110,4 +110,3 @@ Create a text field to collect a user's name in a form:
 * user_name
 * name
 * null
- 

@@ -1,30 +1,15 @@
 ---
 author: jfarmer
-
-levels:
-
-  - basic
-
-  - beginner
-
-aspects:
-  - introduction
-  - workout
-
 type: normal
-
 category: must-know
-
 inAlgoPool: false
-
-
-
-
 ---
 
 # Viewing Resource Usage With `top`
 
+
 ---
+
 ## Content
 
 Whereas `ps` will display a snapshot of the currently-running processes, the `top` command will give a continuous, sortable display.  `top` is often used to see which processes are consuming the most CPU or memory.
@@ -46,7 +31,9 @@ You can read `man top` to learn about all the ways to configure the display.  On
 4. Type `>` to move the sorted column one to the right
 5. Type `q` to quit
 
+
 ---
+
 ## Practice
 
 In contrast to `ps` , `top` displays processes
@@ -59,7 +46,9 @@ In contrast to `ps` , `top` displays processes
 * of all users
 * only owned by the current user
 
+
 ---
+
 ## Revision
 
 To display the processes running in real time, you would use

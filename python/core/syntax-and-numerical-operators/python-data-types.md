@@ -1,36 +1,31 @@
 ---
 author: emmab
-
 tags:
   - introduction
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-
 links:
-  - '[Pythonic](https://stackoverflow.com/questions/25011078/what-does-pythonic-mean){website}'
-
+  - >-
+    [Pythonic](https://stackoverflow.com/questions/25011078/what-does-pythonic-mean){website}
 ---
 
 # Fundamental Data types
 
+
 ---
+
 ## Content
 
 Everything in Python has a data type, or *class*[1]. The ones you need to know about now are:
 
-- **Integers** - any whole number. Integers belong to the `int` class:
+* **Integers** - any whole number. Integers belong to the `int` class:
 
 ```bash
 >>> type(12)
 # <class 'int'>
 ```
 
-- **Floats** - any decimal number. Floats belong to the `float` class:
+* **Floats** - any decimal number. Floats belong to the `float` class:
 
 ```bash
 >>> type(12.0)
@@ -39,7 +34,7 @@ Everything in Python has a data type, or *class*[1]. The ones you need to know a
 
 For all you mathematicians out there, there's one more numerical data type to be aware of: `complex`[2]. For everyone else, you don't need to worry about these 😅!
 
-- **Strings** - any character wrapped in single or double quotes (`''` or `""`). Strings belong to the `str` class:
+* **Strings** - any character wrapped in single or double quotes (`''` or `""`). Strings belong to the `str` class:
 
 ```bash
 >>> type('12')
@@ -58,14 +53,16 @@ Though it's more pythonic[3] to use single quotes until you need double quotes.
 > We can use Python's built-in `type()` function, passing an argument in parenthesis, to see the data type, or *class*, of our argument.
 
 Other Python data types that you'll soon learn about are:
-- **Boolean**
-- **Set**
-- **Dictionary**
-- **List**
-- **Tuple**
+
+* **Boolean**
+* **Set**
+* **Dictionary**
+* **List**
+* **Tuple**
 
 
 ---
+
 ## Practice
 
 What class does the following return?
@@ -74,24 +71,30 @@ What class does the following return?
 >>> type('Learning Python')
 # <class '???'>
 ```
+
 * str
 * string
 * text
 * data
 
+
 ---
+
 ## Revision
 
 ```python
 >>> type('3.0')
 # <class '???'>
 ```
+
 * str
 * string
 * float
 * int
 
+
 ---
+
 ## Footnotes
 
 [1:Classes]

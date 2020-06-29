@@ -1,39 +1,21 @@
 ---
 author: catalin
-
-levels:
-  - basic
-  - advanced
-  - medium
-
 type: normal
-
 category: feature
-
-standards:
-  javascript.use-open-source-javascript-packages.0: 10
-  javascript.npm-publish.0: 10
-
 tags:
   - workout
   - deep
-
 parent: check-data-about-a-package
-
 links:
-  - '[docs.npmjs.com](https://docs.npmjs.com/files/package.json#optionaldependencies){website}'
-
-
-aspects:
-  - workout
-  - deep
-
-
+  - >-
+    [docs.npmjs.com](https://docs.npmjs.com/files/package.json#optionaldependencies){website}
 ---
 
 # `optionalDependencies` in npm
 
+
 ---
+
 ## Content
 
 `optionalDependencies` object in `package.json` file can be used to specify dependencies that are not **necessarily needed**.
@@ -51,6 +33,7 @@ If `npm` can't find or fails to install the dependency, the installation of your
 ```
 
 Keep in mind that is still the user's responsibility to handle the lack of the dependency:
+
 ```javascript
 try {
   var enki = require('enki');
@@ -68,7 +51,9 @@ if (enki) {
 
 It is better to put a dependency name just in one place as `optionalDependencies` will override entries with the same name in `dependencies`.
 
+
 ---
+
 ## Practice
 
 If *npm* cannot find or fails to install the dependency the installation of the module continues, however what is required from the user? ???
@@ -77,7 +62,9 @@ If *npm* cannot find or fails to install the dependency the installation of the 
 * A printed error statement.
 * An alternative way for the module to run without said dependency.
 
+
 ---
+
 ## Revision
 
 In what object of `package.json` can dispensable dependencies be specified?
@@ -88,4 +75,3 @@ In what object of `package.json` can dispensable dependencies be specified?
 * peerDependencies
 * devDependenceis
 * dependencies
- 

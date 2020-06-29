@@ -1,29 +1,20 @@
 ---
 author: danadelberg
-
 type: normal
-
 category: tip
-
-aspects:
-  - workout
-  - deep
-
-
 links:
-
-  - '[developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial){website}'
-
-
+  - >-
+    [developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial){website}
 ---
 
 # Drawing with HTML5 `Canvas` API
 
+
 ---
+
 ## Content
 
 With the `Canvas` object it is possible to draw simple shapes and graphics directly in the browser.
-
 
 ```html
 <!-- make a canvas element -->
@@ -43,7 +34,9 @@ context.fillStyle = "red";
 context.fillRect(20,20,100,200)
 ```
 
+
 ---
+
 ## Practice
 
 Create a 2d blue rectangle using `Canvas`:
@@ -67,7 +60,9 @@ context.???(20,20,100,200)
 * `drawRectangle`
 * `document`
 
+
 ---
+
 ## Revision
 
 Create a 2d blue rectangle using `Canvas`:
@@ -90,4 +85,3 @@ context.???(20,20,100,200)
 * `rectangle`
 * `drawRectangle`
 * `document`
- 

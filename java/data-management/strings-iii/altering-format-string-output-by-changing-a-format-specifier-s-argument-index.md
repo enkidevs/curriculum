@@ -1,29 +1,21 @@
 ---
 author: adamMontgomerie
-
-levels:
-  - basic
-
 type: normal
-
 category: tip
-
-aspects:
-  - introduction
-
 tags:
   - strings
-
 links:
-  - '[Class Formatter](http://docs.oracle.com/javase/7/docs/api/java/util/Formatter.html){website}'
-
+  - >-
+    [Class
+    Formatter](http://docs.oracle.com/javase/7/docs/api/java/util/Formatter.html){website}
 notes: 'Gamified insight. Static Workout. '
-
 ---
 
 # Altering format string output by changing a format specifier's `argument_index`
 
+
 ---
+
 ## Content
 
 A format string is a string which can include one or more format specifiers.
@@ -56,7 +48,9 @@ String result = String.format(
 
 Here, `%2$s` will be replaced with **the second** string argument, and `%1$s` will be replaced with **the first** string argument. So, in this example, `%2$s` will be the `hippo` string, and `%1$s` will be the `hungry` string. The output of the method will be `"hippo hungry"`.
 
+
 ---
+
 ## Revision
 
 What will be the value of `result`?

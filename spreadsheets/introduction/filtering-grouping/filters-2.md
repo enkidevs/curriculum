@@ -1,19 +1,14 @@
 ---
 author: Stefan-Stojanovic
-
-aspects:
-  - workout
-  - deep
-
 type: normal
-
 category: must-know
-
 ---
 
 # Filters Example
 
+
 ---
+
 ## Content
 
 Now that we know how to create a filter, let's add a filter that only displays people who are older than `40`, in `ascending` order.

@@ -1,30 +1,18 @@
 ---
 author: SebaRaba
-
-levels:
-
-  - beginner
-
 type: normal
-
 category: must-know
-aspects:
-  - introduction
-  - workout
-standards:
-  python.modules.0: 10
-
-
 links:
-
-  - '[More about import](https://www.digitalocean.com/community/tutorials/how-to-import-modules-in-python-3){website}'
-
-
+  - >-
+    [More about
+    import](https://www.digitalocean.com/community/tutorials/how-to-import-modules-in-python-3){website}
 ---
 
 # The import statement
 
+
 ---
+
 ## Content
 
 You can use any Python source file as a **module** by executing an `import` statement in some *other Python source file*.
@@ -52,10 +40,11 @@ print(result)
 # This will be the output: 7
 ```
 
-
 Note that a module is imported just **once**, regardless of the times it's used as argument for the `import` statement.
 
+
 ---
+
 ## Practice
 
 We have defined the `counter` module that's supposed to `increment` its state with every function call.
@@ -82,7 +71,6 @@ counter.increment() # 2
 
 ```
 
-
 * `def`
 * `increment():`
 * `import`
@@ -94,10 +82,13 @@ counter.increment() # 2
 * `print`
 * `counter;`
 
+
 ---
+
 ## Revision
 
 Fill in the gaps such that the defined module is successfully imported and run:
+
 ```python
 # subtractor.py
 
@@ -115,7 +106,6 @@ subtractor.???(10, 2)
 # 10 - 2 is: 8
 ```
 
-
 * `import`
 * `subtractor`
 * `subtract`
@@ -124,10 +114,14 @@ subtractor.???(10, 2)
 * `print`
 * `subtract()`
 
+
 ---
+
 ## Footnotes
+
 [1:adder]
 Consider the previously defined module in `my_adder.py`:
+
 ```python
 def add(a, b):
   sum = a + b

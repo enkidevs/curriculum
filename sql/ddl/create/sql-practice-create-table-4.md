@@ -69,4 +69,3 @@ In total, you will need to:
 * *run the provided query*
 * *which item is the most requested?*
 * *Enter the ID of the most requested item in the answer field*
- 

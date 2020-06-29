@@ -59,4 +59,3 @@ What does `this` refer to inside of a callback registered to listen to an event 
 * global
 * event
 * window
- 

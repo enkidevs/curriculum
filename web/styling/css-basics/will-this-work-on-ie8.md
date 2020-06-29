@@ -1,38 +1,27 @@
 ---
 author: jordanfish
-
-levels:
-
-  - basic
-
-  - advanced
-
-  - medium
-
 type: tetris
-
 category: feature
-
-aspects:
-  - introduction
-  - workout
-  - deep
-
 ---
 
 # Will this work on IE8?
 
+
 ---
+
 ## Content
 
 Will the falling bits of `HTML`, `JavaScript` and `CSS` work on world-famous, popular web browser Internet Explorer 8?
 
 Let's find out.
 
+
 ---
+
 ## Game Content
 
 no way...:it works!
+
 ```true
 position:fixed;
 %exp

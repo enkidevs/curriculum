@@ -1,23 +1,14 @@
 ---
 author: Stefan-Stojanovic
-
-levels:
-  - beginner
-  - basic
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-  - workout
-  - deep
-
 ---
+
 # Alt with images
 
+
 ---
+
 ## Content
 
 The alt attribute exists for a few reasons: 
@@ -44,7 +35,9 @@ Every image needs the alt tag to pass validation, but when the image is only for
   alt="">
 ```
 
+
 ---
+
 ## Practice
 
 Is an empty alt attribute considered appropriate?
@@ -60,7 +53,9 @@ Is an empty alt attribute considered appropriate?
 * No, as the image will not display properly.
 * Yes, it is always appropriate.
 
+
 ---
+
 ## Revision
 
 Which statement about alt attributes is false?

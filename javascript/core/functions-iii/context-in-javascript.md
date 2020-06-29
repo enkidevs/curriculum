@@ -1,41 +1,19 @@
 ---
 author: rosielowther
-
-levels:
-
-  - basic
-
-  - advanced
-
-  - medium
-
 type: normal
-
 category: must-know
-
-standards:
-
-  javascript.execution-context.4: 10
-
-  javascript.execution-context.3: 10
-
-aspects:
-  - deep
-  - introduction
-  - workout
-
-
 links:
-
-  - '[developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/API/Window){website}'
-  - '[ryanmorr.com](http://ryanmorr.com/understanding-scope-and-context-in-javascript/){website}'
-
-
+  - >-
+    [developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/API/Window){website}
+  - >-
+    [ryanmorr.com](http://ryanmorr.com/understanding-scope-and-context-in-javascript/){website}
 ---
 
 # Context in JavaScript
 
+
 ---
+
 ## Content
 
 In JavaScript `this` represents the **context** of a function. The code currently executing belongs to the object that `this` references.
@@ -50,11 +28,12 @@ If you create a `new` instance of an object to call a function, `this` is set to
 
 You can use `bind()` to avoid confusion by specifying the `this` to use when calling a function.
 
+
 ---
+
 ## Practice
 
 What will the context default to when executing a function in strict mode? ???
-
 
 * undefined
 * this
@@ -63,13 +42,14 @@ What will the context default to when executing a function in strict mode? ???
 * bind
 * new
 
+
 ---
+
 ## Revision
 
 What represent the **context** of a function in Javascript?
 
 ???
-
 
 * this
 * undefined
@@ -78,5 +58,3 @@ What represent the **context** of a function in Javascript?
 * history
 * bind
 * new
-
- 

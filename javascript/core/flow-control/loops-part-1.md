@@ -1,22 +1,17 @@
 ---
 author: alexjmackey
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-
-links: 
+links:
   - '[For Loops](https://youtu.be/24Wpg6njlYI){video}'
   - '[While / Do While loops](https://youtu.be/v9zgD8wjtbw){video}'
-
 ---
 
 # Loops - Part 1
 
+
 ---
+
 ## Content
 
 JavaScript supports the standard loop constructs you may have seen in other languages:
@@ -90,7 +85,9 @@ do {
 } while (i < 10);
 ```
 
+
 ---
+
 ## Practice
 
 Complete the syntax of the following `do/while` loop such that `i` will be `10` at the end of it:
@@ -110,7 +107,9 @@ let i = 0;
 * `9`
 * `for`
 
+
 ---
+
 ## Revision
 
 Complete the following `for` loop such that it's syntactically correct and runs 10 iterations:
@@ -127,4 +126,3 @@ Complete the following `for` loop such that it's syntactically correct and runs 
 * `while`
 * `do`
 * `i--`
- 

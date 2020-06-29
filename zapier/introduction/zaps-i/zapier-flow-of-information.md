@@ -1,19 +1,14 @@
 ---
 author: kapnobatai136
-
 category: must-know
-
-aspects:
-  - introduction
-  - workout
-
 type: normal
-
 ---
 
 # Flow of Information
 
+
 ---
+
 ## Content
 
 When we were working with templates in the previous examples, you might've noticed that between the Google Sheets and Slack integration (or **steps**), there was a small `+` icon available.
@@ -32,7 +27,9 @@ Think of Zapier as being really polite and respectful of the queue. It can't sen
 
 In layman terms, information in Zapier flows from **top to bottom**.
 
+
 ---
+
 ## Practice
 
 How does information flow in Zapier?
@@ -44,7 +41,9 @@ How does information flow in Zapier?
 * From left to right.
 * From right to left.
 
+
 ---
+
 ## Revision
 
 What should be the order of the following steps in a zap?

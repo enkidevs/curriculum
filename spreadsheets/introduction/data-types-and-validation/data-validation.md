@@ -1,19 +1,14 @@
 ---
 author: Stefan-Stojanovic
-
-aspects:
-  - introduction
-  - workout
-
 type: normal
-
 category: must-know
-
 ---
 
 # Data Validation
 
+
 ---
+
 ## Content
 
 With spreadsheets, you might want to limit the type of data that can be inserted in a cell. This can be achieved by using data validation.
@@ -42,7 +37,9 @@ To remove a data validation, all you have to do is right-click the cell you want
 
 ![how-to-remove-gif](https://img.enkipro.com/5942bfe502242b44c2253ac4f6de6b19.gif)
 
+
 ---
+
 ## Practice
 
 `Data Validation` is ???

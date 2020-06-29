@@ -1,23 +1,21 @@
 ---
 author: alexjmackey
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-  - new
-  - workout
-
 links:
-  - '[Spread and Butter in Depth](https://ponyfoo.com/articles/es6-spread-and-butter-in-depth){website}'
-  - '[Spread Operator](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Operators/Spread_operator){documentation}'
-
+  - >-
+    [Spread and Butter in
+    Depth](https://ponyfoo.com/articles/es6-spread-and-butter-in-depth){website}
+  - >-
+    [Spread
+    Operator](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Operators/Spread_operator){documentation}
 ---
+
 # Spread (Part 2)
 
+
 ---
+
 ## Content
 
 The spread syntax is particularly useful when working with arrays and we can use it to (shallow) copy[1] an array (previously you would probably have used `slice` to accomplish this):
@@ -41,7 +39,9 @@ original.push(...copyOfOriginal);
 // [1, 2, 3, 1, 2, 3]
 ```
 
+
 ---
+
 ## Practice
 
 Fill in the gaps such that the array is properly filled in:
@@ -71,7 +71,9 @@ console.log(final)
 * final
 * ...final
 
+
 ---
+
 ## Revision
 
 What is the value of the `final` array:
@@ -90,8 +92,10 @@ console.log(final);
 * [4, 3, 6, 2, 3, 6, 2, 3, 6, 2]
 * [3, 6, 2, 3, 6, 2, 4, 3, 6, 2]
 * [3, 6, 2, 2, 3, 6, 2, 4, 6, 2]
- 
+
+
 ---
+
 ## Footnotes
 
 [1: Shallow Copy]

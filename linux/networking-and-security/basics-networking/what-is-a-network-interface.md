@@ -1,33 +1,19 @@
 ---
 author: jfarmer
-
-levels:
-
-  - basic
-
-  - beginner
-
-aspects:
-  - introduction
-  - workout
-
 type: normal
-
 category: must-know
-
 inAlgoPool: false
-
-
 links:
-
-  - '[Network devices](https://help.ubuntu.com/lts/serverguide/network-configuration.html){website}'
-
-
+  - >-
+    [Network
+    devices](https://help.ubuntu.com/lts/serverguide/network-configuration.html){website}
 ---
 
 # What Is A Network Interface?
 
+
 ---
+
 ## Content
 
 Every Linux system has a number of *network interfaces*, each of which corresponds to either a physical or virtual networking device.  For example, if your computer has both an Ethernet card and a Wifi card will have then there will be one network interface for each (by default).
@@ -55,7 +41,9 @@ TX bytes:7125692666 (7.1 GB)
 
 The `eth0` interface corresponds to a physical Ethernet connection.  We can see that the associated connection is active, connected to the internet, and has been assigned an IP address of `73.14.187.124`.  The output includes some high-level network activity statistics: `RX` means corresponds to "received" and `TX` corresponds to "transmitted", i.e., download traffic vs. upload traffic.
 
+
 ---
+
 ## Practice
 
 What interface corresponds to the physical connection?
@@ -66,7 +54,9 @@ What interface corresponds to the physical connection?
 * enp0s3
 * lo
 
+
 ---
+
 ## Revision
 
 What do `RX` and `TX` stand for in `ifconfig` ‘s output? 
@@ -76,7 +66,3 @@ What do `RX` and `TX` stand for in `ifconfig` ‘s output?
 * Received/Transmitted
 * Read/Transmitted
 * Read/Translated
-
- 
- 
- 

@@ -1,31 +1,19 @@
 ---
 author: tommarshall
-
-levels:
-  - basic
-  - advanced
-  - medium
-
 type: normal
-
 category: feature
-
-aspects:
-  - introduction
-  - workout
-  - deep
-
-standards:
-  javascript.browser-store-data.6: 10
-
 links:
-  - '[developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/API/FileReader/readAsArrayBuffer){website}'
-  - '[developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Typed_arrays){website}'
-
+  - >-
+    [developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/API/FileReader/readAsArrayBuffer){website}
+  - >-
+    [developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Typed_arrays){website}
 ---
+
 # FileReader.readAsArrayBuffer()
 
+
 ---
+
 ## Content
 
 The `readAsArrayBuffer()` method will read a *file* or *blob* object and produce an *ArrayBuffer*.
@@ -50,7 +38,9 @@ reader.onload = function(e) {
 reader.readAsArrayBuffer(file);
 ```
 
+
 ---
+
 ## Practice
 
 Complete the following code snippet such that the `file` object is read as an array buffer?
@@ -68,7 +58,9 @@ reader.???(file);
 * interpret
 * readAsArray
 
+
 ---
+
 ## Revision
 
 Which method of the `FileReader` class can be used to read data as an array buffer?
@@ -83,4 +75,3 @@ reader.???()
 * readTypedArray
 * readArray
 * readBuffer
- 

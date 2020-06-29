@@ -60,4 +60,3 @@ There are two ways to persist data beyond the lifetime of a Docker container. Th
 * call-mount
 * file-mount
 * data-mount
- 

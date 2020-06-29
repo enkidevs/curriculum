@@ -1,27 +1,18 @@
 ---
 author: alexjmackey
-
-levels:
-  - beginner
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-  - workout
-
 inAlgoPool: false
-
 links:
-  - '[ponyfoo.com](https://ponyfoo.com/articles/es6-math-additions-in-depth){website}'
-
-
+  - >-
+    [ponyfoo.com](https://ponyfoo.com/articles/es6-math-additions-in-depth){website}
 ---
+
 # Math Extensions
 
+
 ---
+
 ## Content
 
 Since its creation, the `Math` object has been expanded to provide a great deal of functionality. Although many of the additions have very specific use cases, for this insight we will take a look at those that you are more likely to use in every day development.
@@ -52,7 +43,9 @@ Math.sign(1); //1
 Math.sign(-1); //-1
 ```
 
+
 ---
+
 ## Practice
 
 What will the following function calls return?
@@ -79,7 +72,9 @@ console.log(Math.trunc(4.522));
 * -2
 * -22
 
+
 ---
+
 ## Revision
 
 What `Math` method can be used to find the cubic root of a number?
@@ -90,4 +85,3 @@ What `Math` method can be used to find the cubic root of a number?
 * cubicRoot
 * cbRoot
 * cubicrt
- 
