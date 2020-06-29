@@ -11,9 +11,6 @@ type: normal
 
 category: tip
 
-aspects:
-
-  - introduction
 
 notes: Hope it's not too basic
 

@@ -11,14 +11,6 @@ type: normal
 
 category: best practice
 
-aspects:
-
-  - workout
-
-  - deep
-
-  - obscura
-
 tags:
 
   - raw-type

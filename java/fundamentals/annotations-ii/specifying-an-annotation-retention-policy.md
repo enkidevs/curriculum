@@ -13,12 +13,6 @@ type: normal
 
 category: feature
 
-aspects:
-
-  - deep
-
-  - obscura
-
 tags:
 
   - annotations

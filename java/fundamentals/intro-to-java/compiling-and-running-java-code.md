@@ -5,9 +5,6 @@ type: normal
 
 category: must-know
 
-aspects:
-  - introduction
-
 links:
   - '[JDK](https://openjdk.java.net/install/){documentation}'
 

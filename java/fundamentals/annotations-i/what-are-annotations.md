@@ -9,10 +9,6 @@ type: normal
 
 category: feature
 
-aspects:
-
-  - introduction
-
 links:
 
   - '[Official Annotation Description](https://docs.oracle.com/javase/tutorial/java/annotations/index.html){website}'

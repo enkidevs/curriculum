@@ -11,14 +11,6 @@ type: normal
 
 category: feature
 
-aspects:
-
-  - deep
-
-  - obscura
-
-  - new
-
 tags:
 
   - fact

@@ -13,9 +13,6 @@ type: normal
 
 category: tip
 
-aspects:
-
-  - introduction
 
 tags:
 

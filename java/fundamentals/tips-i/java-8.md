@@ -15,11 +15,6 @@ type: tetris
 
 category: tip
 
-aspects:
-
-  - introduction
-
-  - new
 
 ---
 

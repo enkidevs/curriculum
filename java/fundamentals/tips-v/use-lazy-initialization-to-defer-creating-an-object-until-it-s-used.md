@@ -13,12 +13,6 @@ type: normal
 
 category: tip
 
-aspects:
-
-  - workout
-
-  - obscura
-
 tags:
 
   - lazy-initialization

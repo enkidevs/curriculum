@@ -11,10 +11,6 @@ type: normal
 
 category: tip
 
-aspects:
-
-  - introduction
-
 links:
 
   - '[stackoverflow.com](http://stackoverflow.com/questions/1906445/what-is-the-difference-between-jdk-and-jre){website}'

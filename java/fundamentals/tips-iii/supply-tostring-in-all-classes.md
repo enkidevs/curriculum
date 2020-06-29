@@ -9,12 +9,6 @@ type: normal
 
 category: best practice
 
-aspects:
-
-  - workout
-
-  - deep
-
 links:
 
   - '[stackoverflow.com](http://stackoverflow.com/questions/3615721/how-to-use-the-tostring-method-in-java){website}'

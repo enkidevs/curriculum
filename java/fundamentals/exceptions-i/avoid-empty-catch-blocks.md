@@ -13,10 +13,6 @@ type: normal
 
 category: tip
 
-aspects:
-
-  - obscura
-
 tags:
 
   - exceptions

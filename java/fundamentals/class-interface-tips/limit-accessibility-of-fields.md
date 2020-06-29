@@ -11,10 +11,6 @@ type: normal
 
 category: best practice
 
-aspects:
-
-  - introduction
-
 links:
 
   - '[www.securecoding.cert.org](https://www.securecoding.cert.org/confluence/display/java/OBJ01-J.+Limit+accessibility+of+fields){website}'

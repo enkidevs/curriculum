@@ -11,9 +11,6 @@ type: normal
 
 category: caveats
 
-aspects:
-
-  - introduction
 
 tags:
 

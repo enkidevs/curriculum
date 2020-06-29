@@ -13,12 +13,6 @@ type: normal
 
 category: tip
 
-aspects:
-
-  - workout
-
-  - deep
-
 links:
 
   - '[stackoverflow.com](http://stackoverflow.com/questions/2575429/interface-as-a-method-parameter-in-java){website}'
@@ -72,3 +66,4 @@ Which of the following is an example of a method that takes an interface as argu
 * Arrays.sort()
 * UserDefinedFileAttributeView.read() 
 * List.add()
+

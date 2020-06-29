@@ -9,10 +9,6 @@ type: normal
 
 category: must-know
 
-aspects:
-
-  - introduction
-
 links:
 
   - '[Coupling and Cohesion](https://stackoverflow.com/questions/3085285/cohesion-coupling){website}'
@@ -128,3 +124,4 @@ Which of the following definitions describes `coupling` the best?
 * The degree of independence inside modules
 * The alternative use of private and public variables
 * Inheritance dependencies
+

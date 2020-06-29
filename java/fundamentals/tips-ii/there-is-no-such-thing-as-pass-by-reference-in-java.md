@@ -11,12 +11,6 @@ type: normal
 
 category: caveats
 
-aspects:
-
-  - deep
-
-  - obscura 
-
 tags:
 
   - pass-by-value

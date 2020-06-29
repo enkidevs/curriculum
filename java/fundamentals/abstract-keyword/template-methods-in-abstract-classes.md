@@ -13,9 +13,6 @@ type: normal
 
 category: how to
 
-aspects:
-
-  - introduction
 
 tags:
 

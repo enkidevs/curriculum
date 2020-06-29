@@ -5,9 +5,6 @@ type: normal
 
 category: tip
 
-aspects: 
-  - introduction
-
 ---
 
 # Prefix and Postfix of Increment Operators

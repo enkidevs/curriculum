@@ -11,11 +11,6 @@ type: normal
 
 category: feature
 
-aspects:
-
-  - introduction
-  - workout
-
 tags:
 
   - java
