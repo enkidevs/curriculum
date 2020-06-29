@@ -9,10 +9,6 @@ type: normal
 
 category: must-know
 
-aspects:
-
-  - introduction
-
 tags:
 
   - nested-classes

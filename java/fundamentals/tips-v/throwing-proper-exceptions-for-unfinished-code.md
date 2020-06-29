@@ -13,12 +13,6 @@ type: normal
 
 category: best practice
 
-aspects:
-
-  - introduction
-
-  - obscura
-
 links:
 
   - '[www.javalobby.org](http://www.javalobby.org/){website}'

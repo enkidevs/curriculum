@@ -11,12 +11,6 @@ type: normal
 
 category: tip
 
-aspects:
-
-  - introduction
-
-  - obscura
-
 tags:
 
   - final

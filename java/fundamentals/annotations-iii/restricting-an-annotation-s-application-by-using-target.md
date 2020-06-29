@@ -11,14 +11,6 @@ type: normal
 
 category: feature
 
-aspects: 
-
-  - introduction
-
-  - workout
-
-  - obscura
-
 tags:
 
   - annotations

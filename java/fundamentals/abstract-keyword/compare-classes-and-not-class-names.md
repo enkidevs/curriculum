@@ -9,12 +9,6 @@ type: normal
 
 category: caveats
 
-aspects:
-
-  - deep
-
-  - obscura
-
 links:
 
   - '[www.securecoding.cert.org](https://www.securecoding.cert.org/confluence/display/java/OBJ09-J.+Compare+classes+and+not+class+names){website}'

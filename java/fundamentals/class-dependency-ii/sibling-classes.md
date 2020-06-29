@@ -9,13 +9,6 @@ type: normal
 
 category: caveats
 
-aspects:
-
-  - workout
-
-  - deep
-
-  - obscura
 
 tags:
 

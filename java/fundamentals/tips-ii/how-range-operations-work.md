@@ -5,8 +5,6 @@ type: normal
 
 category: must-know
 
-aspects:
-  - introduction
 
 notes: 'https://insights.enki.com/#/contrib/others/55c83ba83f06ab320051aa8a?search=kha'
 

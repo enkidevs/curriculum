@@ -5,9 +5,6 @@ type: normal
 
 category: feature
 
-aspects: 
-  - introduction
-
 links:
   - '[Who is using Java?](https://www.quora.com/Why-is-Java-so-important){website}'
   - '[Java Roadmap](https://www.oracle.com/java/technologies/java-se-support-roadmap.html){website}'

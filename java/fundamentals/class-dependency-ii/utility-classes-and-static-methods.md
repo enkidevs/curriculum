@@ -9,10 +9,6 @@ type: normal
 
 category: pattern
 
-aspects:
-
-  - obscura
-
 tags:
 
   - static

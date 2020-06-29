@@ -13,10 +13,6 @@ type: normal
 
 category: caveats
 
-aspects:
-
-  - obscura
-
 links:
 
   - '[www.securecoding.cert.org](https://www.securecoding.cert.org/confluence/display/java/ERR02-J.+Prevent+exceptions+while+logging+data){website}'

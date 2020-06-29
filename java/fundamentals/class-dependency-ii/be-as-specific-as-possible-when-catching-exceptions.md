@@ -13,11 +13,6 @@ type: normal
 
 category: best practice
 
-aspects:
-
-  - introduction
-  
-  - obscura
 
 tags:
 

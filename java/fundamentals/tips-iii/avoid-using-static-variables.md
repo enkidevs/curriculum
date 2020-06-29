@@ -13,14 +13,6 @@ type: normal
 
 category: tip
 
-aspects:
-
-  - workout
-
-  - deep
-
-  - obscura
-
 links:
 
   - '[stackoverflow.com](http://stackoverflow.com/questions/7026507/why-are-static-variables-considered-evil?rq=1){website}'

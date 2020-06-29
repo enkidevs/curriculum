@@ -9,12 +9,6 @@ type: normal
 
 category: must-know
 
-aspects:
-
-  - deep
-
-  - obscura
-
 links:
 
   - '[www.grauw.nl](http://www.grauw.nl/blog/entry/510){website}'

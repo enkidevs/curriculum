@@ -11,12 +11,6 @@ type: normal
 
 category: tip
 
-aspects:
-
-  - deep
-
-  - obscura
-
 links:
 
   - '[www.excelsior-usa.com](http://www.excelsior-usa.com/articles/java-obfuscators.html){website}'

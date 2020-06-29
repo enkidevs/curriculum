@@ -13,12 +13,6 @@ type: normal
 
 category: caveats
 
-aspects:
-
-  - introduction
-
-  - obscura
-
 tags:
 
   - java-common-practises

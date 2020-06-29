@@ -9,11 +9,6 @@ type: normal
 
 category: tip
 
-aspects:
-
-  - workout
-
-  - deep
 
 tags:
 

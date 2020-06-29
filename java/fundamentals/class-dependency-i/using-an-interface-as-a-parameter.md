@@ -13,12 +13,6 @@ type: normal
 
 category: tip
 
-aspects:
-
-  - workout
-
-  - deep
-
 links:
 
   - '[stackoverflow.com](http://stackoverflow.com/questions/2575429/interface-as-a-method-parameter-in-java){website}'

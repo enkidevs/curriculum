@@ -13,10 +13,6 @@ type: normal
 
 category: feature
 
-aspects:
-
-	- workout
-
 tags:
 
   - time

@@ -5,9 +5,6 @@ type: normal
 
 category: must-know
 
-aspects:
-  - introduction
-
 links:
   - '[Get started with Java](https://docs.oracle.com/javase/tutorial/getStarted/cupojava/index.html){website}'
   - '[Playground](https://repl.it/@enkicontent/HelloJavaPlayground){website}'

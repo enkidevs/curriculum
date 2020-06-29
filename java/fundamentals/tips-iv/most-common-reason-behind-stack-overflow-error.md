@@ -13,10 +13,6 @@ type: normal
 
 category: tip
 
-aspects:
-
-  - deep
-
 links:
 
   - '[blog.thilinamb.com](http://blog.thilinamb.com/2008/12/how-to-increase-java-stack-size.html){website}'

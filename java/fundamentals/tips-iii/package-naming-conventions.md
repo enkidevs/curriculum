@@ -15,10 +15,6 @@ tags:
 
   - packages
 
-aspects:
-
-  - introduction
-
 links:
 
   - '[docs.oracle.com](https://docs.oracle.com/javase/tutorial/java/package/namingpkgs.html){website}'

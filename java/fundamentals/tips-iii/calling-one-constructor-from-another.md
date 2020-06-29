@@ -11,11 +11,6 @@ type: normal
 
 category: tip
 
-aspects:
-
-  - deep
-
-  - obscura
 
 notes: For experts as it's quite unusual to see it and might confuse beginners?
 

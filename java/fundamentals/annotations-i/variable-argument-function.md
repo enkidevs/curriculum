@@ -9,12 +9,6 @@ type: normal
 
 category: must-know
 
-aspects:
-
-  - introduction
-
-  - workout
-
 links:
 
   - '[More on VarArgs](https://stackoverflow.com/questions/7607353/how-to-create-java-method-that-accepts-variable-number-of-arguments){website}'

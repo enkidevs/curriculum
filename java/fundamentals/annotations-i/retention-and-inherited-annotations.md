@@ -9,11 +9,6 @@ type: normal
 
 category: pattern
 
-aspects:
-
-  - deep
-
-  - obscura
 
 links:
 

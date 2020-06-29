@@ -9,10 +9,6 @@ type: normal
 
 category: must-know
 
-aspects:
-
-  - introduction
-
 links:
 
   - '[Coupling and Cohesion](https://stackoverflow.com/questions/3085285/cohesion-coupling){website}'

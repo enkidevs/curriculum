@@ -15,10 +15,6 @@ tags:
 
   - factory-method
 
-aspects:
-
-  - introduction
-
 links:
 
   - '[www.javapractices.com](http://www.javapractices.com/topic/TopicAction.do?Id=40){website}'
