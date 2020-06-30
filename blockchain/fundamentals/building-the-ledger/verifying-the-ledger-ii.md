@@ -25,13 +25,13 @@ By keeping track of a second balance, the bank knows for sure you won't be able 
 
 In a decentralized environment, it takes a while for transaction confirmations to move between nodes. Consider this scenario: Alice is living in the UK and buys something for 10 tokens from Bob. The transaction is valid by itself and is broadcasted from the UK:
 
-```bash
+```plain-text
 Alice pays Bob 10 coins
 ```
 
 Because it takes a while for the transaction to be added to a block and then to reach the nodes in Australia, Alice could also broadcast another transaction from a server in Australia that said:
 
-```bash
+```plain-text
 Alice pays Alice1 10 coins
 ```
 
