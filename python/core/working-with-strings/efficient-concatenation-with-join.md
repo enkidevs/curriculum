@@ -24,7 +24,7 @@ Let's see a few examples of how to update strings more efficiently and prevent u
 
 For instance, a naive approach to combining a list of strings into a single string would be to use a loop and string concatenation[1]:
 
-```plain-text
+```python
 s = ""
 for substring in list:
   s += substring
@@ -32,13 +32,13 @@ for substring in list:
 
 The above code is actually a common mistake when building large strings[2]. Instead, use:
 
-```plain-text
+```python
 s = "".join(list)
 ```
 
 Similarly, in some more complex examples, if you are doing:
 
-```plain-text
+```python
 s = ""
 for x in list:
   s += some_function(x)
@@ -46,7 +46,7 @@ for x in list:
 
 A better and faster way is:
 
-```plain-text
+```python
 slist = [some_function(elt) \
   for elt in somelist]
 s = "".join(slist)
@@ -79,7 +79,7 @@ a = ???.???
 
 What will the following code snippet output:
 
-```plain-text
+```python
 
 l = ["E","n","k","i"]
 
@@ -103,7 +103,7 @@ In computer programming, string concatenation represents the operation or proces
 [2:Efficient Concatenation]
 To understand why iteratively creating a string with `+=` is inefficient, let's take a look at this example:
 
-```plain-text
+```py
 x = 'en'
 x += 'ki' # 'enki' 
 x += 'enki' # 'enkienki'
@@ -115,4 +115,3 @@ When concatenating a small number of strings this wouldn't pose much of a proble
 On the other hand, the `join()` method uses some internal tricks to find out the memory that needs to be allocated ahead of time and copies each substring to the new buffer. This means that each string is copied only once, making the operation ideally efficient. Concatenating `N` strings using `join()` leads to `N` concatenations, which is what one would expect.
 
 Check out this [Stack Overflow thread](https://stackoverflow.com/a/39312172) for more information.
- 

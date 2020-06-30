@@ -38,7 +38,7 @@ Next, you can use the optional `start="value"` attribute to specify from which n
 
 Example:
 
-```plain-text
+```html
 <p>After completing sections 1-9, do:</p>
 <ol start="10">
   <li>Buy Cake</li>
@@ -59,7 +59,7 @@ The `reversed` attribute is of type boolean and is used to specify that the item
 
 Example:
 
-```plain-text
+```html
 <ol start="5" reversed>
   <li>Item A</li>
   <li>Item B</li>
@@ -75,7 +75,7 @@ Result:
 
 Furthermore, you can modify the numbering of each individual list item by adding the `value` attribute. This is a tricky example where there are three items in this list, which is then reversed - which should order them as iii, ii, and i. But then on the second list item, the value was changed to 5(or v in this case), which then makes the third item of the list `4(iv)` counting down from the number above it. This may seem tricky, but hopefully it demostrates the control you have over the content.
 
-```plain-text
+```html
 <ol type="i" reversed>
   <li>Coffee</li>
   <li value="5">Tea</li>
@@ -96,7 +96,7 @@ Result:
 
 Complete the HTML code to create a numbered list that starts at 10.
 
-```plain-text
+```html
 <p>After the other 9 steps, do this:</p>
 
 <A B>
@@ -138,7 +138,7 @@ List items will start numbering from 50: ???
 
 What does this code create? Choose the appropriate option.
 
-```plain-text
+```html
 <ol start="5" reversed>
   <li>Item A</li>
   <li>Item B</li>
@@ -150,7 +150,7 @@ What does this code create? Choose the appropriate option.
 
 Option 1
 
-```plain-text
+```html
 5. Item A
 4. Item B
 3. Item C
@@ -158,7 +158,7 @@ Option 1
 
 Option 2
 
-```plain-text
+```html
 5. Item C
 6. Item B
 7. Item A
@@ -166,7 +166,7 @@ Option 2
 
 Option 3
 
-```plain-text
+```html
 3. Item A
 4. Item B
 5. Item C
@@ -174,7 +174,7 @@ Option 3
 
 Option 4
 
-```plain-text
+```html
 3. Item C
 4. Item B
 5. Item A
@@ -195,7 +195,7 @@ Option 4
 
 Choose the appropriate option:
 
-```plain-text
+```html
 <ol type="i" reversed>
   <li>Coffee</li>
   <li value="5">Tea</li>
@@ -205,7 +205,7 @@ Choose the appropriate option:
 
 A)
 
-```plain-text
+```html
 iii. Milk
 v. Tea
 iv. Coffee
@@ -213,7 +213,7 @@ iv. Coffee
 
 B)
 
-```plain-text
+```html
 iii. Coffee
 v. Tea
 iv. Milk
@@ -221,7 +221,7 @@ iv. Milk
 
 C)
 
-```plain-text
+```html
 3. Coffee
 5. Tea
 4. Milk
@@ -229,7 +229,7 @@ C)
 
 D)
 
-```plain-text
+```html
 3. Coffee
 2. 5
 1. Milk
@@ -241,4 +241,3 @@ D)
 - Option A
 - Option C
 - Option D
- 

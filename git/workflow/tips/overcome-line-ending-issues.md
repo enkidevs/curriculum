@@ -21,13 +21,13 @@ To make sure the files in the team's shared repository have LF endings and to pr
 
 On Windows:
 
-```plain-text
+```bash
 git config --global core.autocrlf true
 ```
 
 On Mac and Linux:
 
-```plain-text
+```bash
 git config --global core.autocrlf input
 ```
 
@@ -61,4 +61,3 @@ Linux/Mac   ???
 - input
 - start
 - -true
- 

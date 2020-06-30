@@ -19,7 +19,7 @@ A **package**[1] is a hierarchical file directory structure that defines a *sing
 
 Consider a file `available_rooms.py` in a directory called **Hotel**:
 
-```plain-text
+```python
 # available_rooms.py
 
 def available(rooms):
@@ -28,7 +28,7 @@ def available(rooms):
 
 Then, a file `total_rooms.py` in the *same* directory:
 
-```plain-text
+```python
 # total_rooms.py
 
 def all_rooms(total):
@@ -39,7 +39,7 @@ Lastly, you need to have a file named `__init__.py` in your **Hotel** directory.
 
 Now that we have these files defined in our **Hotel package**, we can use them in our script by importing this package:
 
-```plain-text
+```python
 # rooms_update.py
 
 from Hotel 
@@ -111,4 +111,3 @@ def foo(x):
 
 [1:Python packages]
 Speaking about Python versions that are older than Python **3.3**: each **package** is a **directory** that **must** contain a special file called: `__init__.py`. This **file** indicates that the directory it contains is a **Python package**. The `__init__.py` file is usually empty, but can be used to **export** selected portions of the package under more convenient name.
- 

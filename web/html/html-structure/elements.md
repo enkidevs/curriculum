@@ -22,7 +22,7 @@ Some common elements:
 
 Example:
 
-```plain-text
+```html
 <h1>
   Large heading is wrapped by h1 tags.
 </h1>
@@ -32,7 +32,7 @@ It is also very common for HTML elements to be nested. This is common even for t
 
 Example:
 
-```plain-text
+```html
 <p>
   Check out this
   <a href="http://www.enkipro.com">
@@ -56,7 +56,7 @@ The break element `<br>` is one of those elements. It can be placed anywhere and
 
 What elements are used in this code?
 
-```plain-text
+```html
 <p>
   Check out this
     <a href="http://www.enkipro.com">
@@ -102,4 +102,3 @@ Identify which element is not a valid HTML element?
 - `<p>`
 - `<a>`
 - `<img>`
- 

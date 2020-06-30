@@ -14,7 +14,7 @@ links: null
 
 In HTML, the `<p>` tag defines the start of a paragraph and the `</p>` defines the end.
 
-```plain-text
+```html
 <p>
   This is a paragraph.
 </p>
@@ -82,4 +82,3 @@ What is the default HTML text size of a paragraph in a browser?
 - 4 em
 - 12 pixels
 - 14 pixels
- 

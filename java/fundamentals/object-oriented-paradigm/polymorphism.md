@@ -18,7 +18,7 @@ In other words, it is the ability of an object to take different forms.
 
 To demonstrate a polymorphic feature, let `FamilyCar` extend the `Car` class. Because a `FamilyCar` object might have the same `noDoors` as a normal car, but more seats, it makes sense to include this field:
 
-```plain-text
+```java
 public FamilyCar extends Car {
   int noSeats;
 
@@ -36,7 +36,7 @@ public FamilyCar extends Car {
 
 At the same time, we can have a `SportsCar`. For this particular class, it would help to know if the engine is turbo charged or not:
 
-```plain-text
+```java
 public SportsCar extends Car {
   boolean turboCharged;
 
@@ -59,7 +59,7 @@ In both cases, a new field has been added on top of the existing ones and `start
 
 Here is a test program that creates three `Car` objects:
 
-```plain-text
+```java
 public class TestCar {
   public static void main(String[] args) {
     Car car, fCar, sCar;
@@ -78,7 +78,7 @@ public class TestCar {
 
 With the output:
 
-```plain-text
+```bash
 The car starts!
 The 7 seat car starts!
 The turbocharged car starts!
@@ -125,7 +125,7 @@ Polymorphism refers to the ability of an object to ???
 ### What will this output?
 
 
-```plain-text
+```java
 class Main {
   private final String name;
 
@@ -157,4 +157,3 @@ class Main {
 - Stinky
 - Error: name() has private access
 - Error: cannot find symbol name()
- 

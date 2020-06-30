@@ -21,7 +21,7 @@ Many Webkit browsers still use the `-webkit-prefixed` version of animations, key
 
 Until they fully adopt the standard version, it's good practice to include both versions (`unprefixed` & `webkit`) in your code:
 
-```plain-text
+```css
 div {
   -webkit-animation-duration: 2s;
   animation-duration: 2s;
@@ -42,4 +42,3 @@ What's the tool called which calculates which prefixes are required and which ar
 - `Autoprefixer`
 - `Prefixer`
 - `Webkitprefixer`
- 

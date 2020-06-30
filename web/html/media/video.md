@@ -23,7 +23,7 @@ links:
 
 The `<video>` tag was introduced in HTML5 and is used to embed videos on a web page or document.
 
-```plain-text
+```html
 <video src="/video/time-lapse.mp4"
    width="525" height="360" controls>
   <p>
@@ -97,7 +97,7 @@ Which HTML element is used to insert a movie clip or video stream into the docum
 
 If the browser doesn't support the `<video>` element, what happens?
 
-```plain-text
+```html
 <video src="/video/time-lapse.mp4"
    controls width="360" height="212" >
    <img src="video.png" alt="">
@@ -110,4 +110,3 @@ If the browser doesn't support the `<video>` element, what happens?
 - Nothing displays on the page any content around it will take it's place.
 - Nothing displays on the page, but the video size is taken up preventing any other content from taking its space.
 - The video controls will appear, but the video will never load.
- 

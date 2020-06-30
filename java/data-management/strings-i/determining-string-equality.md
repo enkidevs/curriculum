@@ -24,7 +24,7 @@ In order to check whether two strings have the same value, use the `.equals()` m
 
 Given two strings `string1` and `string2`:
 
-```plain-text
+```java
 //two identical strings
 String string1 = new String("Enki");
 String string2 = new String("Enki");
@@ -32,7 +32,7 @@ String string2 = new String("Enki");
 
 The following code will return `false` because the `==` operator is comparing whether the two strings occupy the same memory location; not their values.
 
-```plain-text
+```java
 if(string1 == string2){
   return true;
 }
@@ -43,10 +43,9 @@ return false;
 
 If we want to compare the values of the strings, we should use `.equals`. This code will return `true`:
 
-```plain-text
+```java
 if(string1.equals(string2)){
   return true
 }
 return false;
 ```
- 

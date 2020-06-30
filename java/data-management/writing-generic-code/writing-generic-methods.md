@@ -19,7 +19,7 @@ links:
 
 In this example method:
 
-```plain-text
+```java
 public void printArray(
   int[] input) {
   for (int value: input) {
@@ -32,7 +32,7 @@ Imagine that we also want similar methods that deal with arrays of **Strings**, 
 
 To avoid writing the same method over & over again with different types, we can instead write a generic method like this:
 
-```plain-text
+```java
 public <E> void printArray(
   E[] input) {
   for (E element: input) {
@@ -46,4 +46,3 @@ Notice that we have replaced references to a specific type `int` with `E`; our g
 Also notice the `<E>` before the method's return type (in this case `void`); this is the method's type parameter, and is necessary for defining a generic method.
 
 We can now use this method to print all of our project's arrays.
- 

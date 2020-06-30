@@ -18,7 +18,7 @@ links:
 
 When we create a new Promise we supply a function that has two arguments. These two arguments are mapped to special promise `resolve` and `reject` functions. The below code creates a new promise.
 
-```plain-text
+```javascript
 let p = new Promise((resolve, reject) => {
   // we call resolve() on success
   // we call reject() on fail
@@ -33,7 +33,7 @@ Let's pretend we want to call an external service to get a value, and on success
 
 Note: Instead of actually calling an external service we will use the `setTimeout` method to delay the return 2 seconds simulating making a remote call.
 
-```plain-text
+```javascript
 let p = new Promise((resolve, reject) => {
   setTimeout(() => {
     resolve("enki");
@@ -52,7 +52,7 @@ It is important to note that you cannot cancel a promise once it's being process
 
 Note that the code in the function body runs immediately. It is only the call to `resolve` or `reject` that is actually async:
 
-```plain-text
+```javascript
 let p = new Promise((resolve, reject) => {
   console.log("I run immediately!");
   resolve("I run later");
@@ -118,4 +118,3 @@ const p = new Promise(
 - throw
 - catch
 - then
- 

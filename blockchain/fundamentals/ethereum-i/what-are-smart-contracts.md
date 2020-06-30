@@ -17,7 +17,7 @@ It’s worth stating that smart contracts are not Ethereum-specific: the concept
 
 Here's an example of a Solidity smart contract. We'll cover in-depth what each keyword means later on:
 
-```plain-text
+```javascript
 pragma solidity ^0.4.23;
              	
 contract MyAwesomeToken {
@@ -76,4 +76,3 @@ What is the difference between a smart contract and code filles written in other
 - Smart contracts are more secure
 - Other code files compile faster
 - There is no difference other than syntax
- 

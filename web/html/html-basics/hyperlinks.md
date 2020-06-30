@@ -19,7 +19,7 @@ links:
 
 Links are defined by the `<a>` tag. Every link must have the `href` attribute, which takes a path of where to go navigate the web page to. In this example, the "contact.html" would be in the same folder as the existing webpage:
 
-```plain-text
+```html
 <a href="contact.html">
     Contact
 </a>
@@ -27,7 +27,7 @@ Links are defined by the `<a>` tag. Every link must have the `href` attribute, w
 
 When links navigate to web pages on other web servers, it is required to use the "http://" protocol, then the domain name, any folder structure, and then the file. In this example, the web page is on another web server, then looking on the enki.com domain, then within the samples folder, and then linking to the page.html web page.
 
-```plain-text
+```html
 <p>I am a <a
 href="http://enki.com/samples/page.html">
     link to Enki.com
@@ -74,4 +74,3 @@ The tag denoting a hyperlink is ???.
 - `<p>`
 - `<body>`
 - `<div>`
- 

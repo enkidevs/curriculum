@@ -15,7 +15,7 @@ links:
 
 To make list items look like a real, comma-separated list:
 
-```plain-text
+```css
 ul > li:not(:last-child)::after {
   content: ",";
 }
@@ -50,7 +50,7 @@ ul > ??? :not(???)
 
 What does the following CSS code do?
 
-```plain-text
+```css
 ul > li:not(:last-child)::after {
    content: "//";
 }
@@ -61,4 +61,3 @@ ul > li:not(:last-child)::after {
 - Adds // after each item in the list except for after the final item.
 - Changes the list so it's just a list of forward slashes.
 - Changes the content of the last child to //.
- 

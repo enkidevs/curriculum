@@ -15,7 +15,7 @@ category: must-know
 
 The Boolean type has two options: `true` or `false` (these are specified as lower case):
 
-```plain-text
+```javascript
 let isCold = true;
 let isHot = false;
 ```
@@ -24,14 +24,14 @@ let isHot = false;
 
 JavaScript supports both whole and decimal numbers all using the same number type:
 
-```plain-text
+```javascript
 let numberOfMonths = 12;
 let temperature = 17.2;
 ```
 
 You can perform simple maths calculations using the following operators:
 
-```plain-text
+```javascript
 1 + 2; // add
 9 / 3; // divide
 1 * 5; // multiply
@@ -41,7 +41,7 @@ You can perform simple maths calculations using the following operators:
 
 More math functionality is available via the `Math` object e.g.
 
-```plain-text
+```javascript
 Math.round(5.7); // 6
 ```
 
@@ -84,4 +84,3 @@ Which of the following statements is considered true?
 - Boolean type has three options
 - You need the `Math` object to add numbers
 - Boolean types use **Upper case**
- 

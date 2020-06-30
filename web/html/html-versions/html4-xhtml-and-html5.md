@@ -27,7 +27,7 @@ The `doctype` declaration also differs for each version.
 
 HTML5 has 1 Doctype declaration:
 
-```plain-text
+```html
 <!DOCTYPE html>
 ```
 
@@ -39,7 +39,7 @@ HTML4 and XHTML each have 3 types of Doctype declarations:
 
 HTML4 Frameset:
 
-```plain-text
+```html
 <!DOCTYPE HTML PUBLIC
  "-//W3C//DTD HTML 4.01 Frameset//EN"
  "http://www.w3.org/TR/html4/frameset.dtd">
@@ -47,7 +47,7 @@ HTML4 Frameset:
 
 HTML4 Strict:
 
-```plain-text
+```html
 <!DOCTYPE HTML PUBLIC
   "-//W3C//DTD HTML 4.01//EN"
   "http://www.w3.org/TR/html4/strict.dtd">
@@ -55,7 +55,7 @@ HTML4 Strict:
 
 HTML4 Transitional:
 
-```plain-text
+```html
 <!DOCTYPE HTML PUBLIC
   "-//W3C//DTD HTML 4.01 Transitional//EN"
   "http://www.w3.org/TR/html4/loose.dtd">
@@ -63,7 +63,7 @@ HTML4 Transitional:
 
 XHTML Frameset:
 
-```plain-text
+```html
 <!DOCTYPE html PUBLIC
   "-//W3C//DTD XHTML 1.0 Frameset//EN"
   "http://www.w3.org/TR/xhtml1/DTD
@@ -72,7 +72,7 @@ XHTML Frameset:
 
 XHTML Strict:
 
-```plain-text
+```html
 <!DOCTYPE html PUBLIC
   "-//W3C//DTD XHTML 1.0 Strict//EN"
   "http://www.w3.org/TR/xhtml1/DTD
@@ -139,4 +139,3 @@ When referring to deprecated HTML tags, what does that mean?
 - HTML elements that are best used with certain features.
 - HTML elements that will never be obsolete.
 - HTML elements that are not appreciated enough.
- 

@@ -23,7 +23,7 @@ The Battery API could be used to provide a low power mode of your application or
 
 To monitor changes to the battery level:
 
-```plain-text
+```javascript
 navigator.getBattery()
     .then(function(battery) {
       LogBatteryLevel();
@@ -90,4 +90,3 @@ Using the battery API, fill in the missing gaps of the following code snippet su
 - now
 - run
 - start
- 

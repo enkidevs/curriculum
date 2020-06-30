@@ -21,7 +21,7 @@ parent: check-data-about-a-package
 
 `npm` has great support for semanting versioning because it uses wildcards and expressions for versions of dependencies listed in the `package.json` file:
 
-```plain-text
+```json
 {  //other props
    "dependencies": {
       "module-a": "2.3.x",
@@ -34,7 +34,7 @@ However, **unexpected failure** can occur when running `npm install` over time d
 
 The command:
 
-```plain-text
+```bash
 npm shrinkwrap
 ```
 
@@ -77,4 +77,3 @@ What command do you need to run as to generate a snapshot of the current depende
 - dependencies
 - package.json
 - npm-shrinkwrap
- 

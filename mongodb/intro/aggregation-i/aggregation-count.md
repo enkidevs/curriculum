@@ -17,7 +17,7 @@ The `$count` aggregation stage is used to count the number of documents that ent
 
 Syntax:
 
-```plain-text
+```javascript
 {
   $count: "<string>"
 }
@@ -25,7 +25,7 @@ Syntax:
 
 The `<string>` is the name of the field where the output will be displayed. The string cannot start with a `$`, contain a `.` or be empty.
 
-```plain-text
+```javascript
 // Ok:
 {$count: "totalNumber"}
 {$count: "a"}
@@ -40,7 +40,7 @@ The `<string>` is the name of the field where the output will be displayed. The 
 
 We will use the same example as in the previous insight, only this time we will add the `$count` stage.
 
-```plain-text
+```javascript
 db.pokemon.aggregate([
   { $match: { power: { $lte: 200 } } },
   { $count: "numOfWeakPokemon" }
@@ -49,7 +49,7 @@ db.pokemon.aggregate([
 
 Output:
 
-```plain-text
+```javascript
 {
   "numOfWeakPokemon": 3
 }
@@ -59,7 +59,7 @@ In the previous example, our aggregation returned a document that displayed all 
 
 If we were to only use the `$count` stage, it would count the total number of documents located inside the collection.
 
-```plain-text
+```javascript
 db.pokemon.aggregate({
   $count: "numOfPokemon"
 })
@@ -67,7 +67,7 @@ db.pokemon.aggregate({
 
 Output:
 
-```plain-text
+```javascript
 {
   "numOfPokemon": 500
 }
@@ -127,4 +127,3 @@ db.students.???([
 - `STUDENTS`
 - `name`
 - `studentId`
- 

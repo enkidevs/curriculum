@@ -22,7 +22,7 @@ If you have the version number, or the target release, apt-get allows you to mak
 
 Use either:
 
-```plain-text
+```bash
 apt-get install <pkg-name>=<pkg-version>
 # apt-get install firefox='45.0.*'
 Selected version '45.0.2+build1-0ubuntu1'
@@ -33,19 +33,19 @@ The following packages will be DOWNGRADED:
 
 Or:
 
-```plain-text
+```bash
 apt-get -t=<release> install <pkg-name>
 ```
 
 You can list all available versions with:
 
-```plain-text
+```bash
 apt-cache showpkg <package-name> 
 ```
 
 In addition, you can 'hold' a package at the current version and prevent automatic updates using:
 
-```plain-text
+```bash
 apt-mark hold <package-name> 
 ```
 
@@ -66,4 +66,3 @@ You can downgrade a package on Debian systems using:
 - `desired_package_version`
 - `apt-mark`
 - `current_packate_version`
- 

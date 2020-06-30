@@ -15,7 +15,7 @@ tags:
 
 Try not to be system-dependent with file paths, e.g.:
 
-```plain-text
+```java
 String dataFilepathName =
     "data" + "/" + "data.txt";
 
@@ -23,7 +23,7 @@ String dataFilepathName =
 
 or:
 
-```plain-text
+```java
 String dataFilepathName =
     "data" + "\\" + "data.txt";
 ```
@@ -48,4 +48,3 @@ Which of these methods returns the system’s default path to a specific file se
 - `File.pathSeparator` 
 - `File.defaultSeparator` 
 - `System.separator`
- 

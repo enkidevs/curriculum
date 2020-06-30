@@ -19,7 +19,7 @@ MySQL has only one data type for JSON values: `JSON`.
 
 Creating a table and inserting values into it is similar to PostgreSQL syntax:
 
-```plain-text
+```sql
 CREATE TABLE poke_json(
   id serial PRIMARY KEY,
   pokemon JSON
@@ -44,7 +44,7 @@ VALUES('{
 
 MySQL's equivalent of `@>` is `->`:
 
-```plain-text
+```sql
 SELECT *
 FROM poke_json
 WHERE pokemon->"$.types[0]" = "poison";
@@ -94,4 +94,3 @@ MySQL's operator for JSON parsing is
 - `==`
 - `JSON_VALUE`
 - `$`
- 

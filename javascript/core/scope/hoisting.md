@@ -17,7 +17,7 @@ notes: ''
 
 Think fast, what does this snippet print?
 
-```plain-text
+```javascript
 var a = 1;
 function go() {
   console.log(a);
@@ -36,7 +36,7 @@ This default behaviour moves all variable declarations to the top of the current
 
 This is how the snippet is actually executed, in order:
 
-```plain-text
+```javascript
 var a;
 a = 1;
 function go() {
@@ -56,7 +56,7 @@ In this case, `a` is redeclared and reset to `undefined` before it is logged.
 
 What will the following functions print? ???
 
-```plain-text
+```javascript
 var e = 1;
 function run() {
   console.log(e);
@@ -98,4 +98,3 @@ go();
 - `undefined`
 - `1`
 - `2`
- 

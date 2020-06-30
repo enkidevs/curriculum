@@ -27,7 +27,7 @@ An array represents an ordered collection of values.
 
 In TypeScript, there are two ways to define an array:
 
-```plain-text
+```ts
 // by putting the [] after the type
 // here we define an array of numbers
 let primes: number[] = [2, 3, 5, 7];
@@ -45,7 +45,7 @@ let powerRangerColors: Array<string> = [
 
 Note that arrays can only hold values of the type that you specify.
 
-```plain-text
+```ts
 let nums: number[] = [1, 2, 3];
 nums.push("enki");
 // error: Argument of type '"enki"' is not assignable to parameter of type 'number'
@@ -53,7 +53,7 @@ nums.push("enki");
 
 An empty array belongs to any array type:
 
-```plain-text
+```ts
 // all valid
 let nums: number[] = [];
 let words: string[] = [];
@@ -65,7 +65,7 @@ let bools: boolean[] = [];
 
 Tuple is like an array, but it can only take in a fixed number of elements with individual types:
 
-```plain-text
+```ts
 // myTyple has a number at the first position
 // and a boolean at the second position
 let numAndBoolTuple: [number, boolean] = [
@@ -76,7 +76,7 @@ let numAndBoolTuple: [number, boolean] = [
 
 The order of the types must be exact:
 
-```plain-text
+```ts
 // this is an error because we're storing
 // the types in the wrong order
 let numAndBoolTuple: [number, boolean] = [
@@ -87,7 +87,7 @@ let numAndBoolTuple: [number, boolean] = [
 
 Tuples and arrays can be combined to build a `Map`:
 
-```plain-text
+```ts
 // powerRangers is an array of tuples
 // where each tuple is a string pair
 // representing the color and name
@@ -119,7 +119,7 @@ console.log(
 
 Which of the following is **not a valid way** of creating an array:
 
-```plain-text
+```ts
 let a: number[] = [1, 2];
 
 let b: Array<number> = [1, 2];
@@ -140,7 +140,7 @@ let c: []number = [1, 2];
 
 Which of the following statements **will not throw** an error:
 
-```plain-text
+```ts
 let aTuple: [string, boolean];
 
 // a
@@ -158,4 +158,3 @@ aTuple = [false, 'false'];
 - a
 - b
 - c
- 

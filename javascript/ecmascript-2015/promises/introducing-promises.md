@@ -34,7 +34,7 @@ At the same time, with Promises we can write code that behaves like we already h
 
 Creating a Promise returns immediately:
 
-```plain-text
+```js
 var promise = new Promise(function(
   resolve,
   reject
@@ -48,7 +48,7 @@ And we can use that promise anytime and anywhere later to resolve it to a value.
 
 Getting a value from a promise is fully decoupled from what we do with that value:
 
-```plain-text
+```js
 promise.then(function(value) {
   // here we have the value
 }, function(error) { 
@@ -60,7 +60,7 @@ promise.then(function(value) {
 
 When we perform an async operation that involves a callback, we have to immediately provide that callback. We cannot decide to handle this operation differently in another place or read the async value multiple times etc.
 
-```plain-text
+```js
 getThing(() => {
 
 });
@@ -93,4 +93,3 @@ What problem do Promises try to solve?
 - asynchronous calls stopping thread execution
 - lack of any kind of support for asynchronous operation
 - too many libraries doing the same thing
- 

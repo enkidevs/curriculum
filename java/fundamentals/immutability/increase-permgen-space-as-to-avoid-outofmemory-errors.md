@@ -27,14 +27,14 @@ An app requires an increased `permGen` space when :
 
 When encountering the `OutOfMemoryError: permGen space` error, the permanent generation memory can be increased:
 
-```plain-text
+```java
 java -XX:PermSize=256M
 //increases initial PermGem space to 256 MB
 ```
 
 A maximum `permGen` size can also be defined:
 
-```plain-text
+```java
 java -XX:MaxPermSize=512m
 //increases maximum PermGem space to 512 MB
 ```
@@ -58,4 +58,3 @@ Before Java 8, you could’ve increased `permGen` memory space to 256M with:
 - `java PermSize=256M` 
 - `PermSize=256M` 
 - `java :PermSize=256M`
- 

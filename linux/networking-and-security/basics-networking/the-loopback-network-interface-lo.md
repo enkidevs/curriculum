@@ -14,7 +14,7 @@ inAlgoPool: false
 
 If you run the `ifconfig` command you'll see an interface designated `lo` that doesn't appear to correspond to any physical device:
 
-```plain-text
+```shell
 ifconfig
 lo        
 Link encap:Local Loopback  
@@ -63,4 +63,3 @@ Loopback interface always refers to the
 - ISP address
 - router’s address
 - destination’s address
- 

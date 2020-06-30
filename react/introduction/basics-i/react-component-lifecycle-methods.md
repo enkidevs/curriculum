@@ -28,7 +28,7 @@ We can split them into three broader categories by the *type of event* that will
 - `constructor(props)` 
   - the first method called in the lifecycle, **before mounting**. It's most commonly used to set the initial `state` and to `bind` methods. If used, it must include `super(props)` as the first call[1]:
 
-```plain-text
+```jsx
 constructor(props) {
   super(props);
   this.state = {
@@ -123,7 +123,7 @@ What method is the first being called in the **component lifecycle**?
 [1: Why do we write super(props)]
 In JavaScript classes, the constructor is commonly used to setup the initial data of the class.
 
-```plain-text
+```js
 class Enki {
   constructor(name) {
     this.greeting = `Hello from ${name} 👋`;
@@ -133,7 +133,7 @@ class Enki {
 
 Classes can also extend behavior from other classes.
 
-```plain-text
+```js
 class Example extends Enki {
   constructor() {
     this.type = 'explanation';
@@ -148,7 +148,7 @@ new Example().type;
 
 For the `Example` class to have the greeting properly setup in the `Enki` class, it needs to somehow send the `name` to the `Enki` class to run its constructor and initialize the `greeting`. This is achieved with the `super` keyword.
 
-```plain-text
+```js
 class Example extends Enki {
   constructor() {
     // pass name to Enki's constructor
@@ -166,4 +166,3 @@ new Example().type;
 In React, we have to call `super(props)` in a class component to tell `React.Component` to run its setup, such as initializing `props`.
 
 For more info, [check out this article](https://overreacted.io/why-do-we-write-super-props/).
- 

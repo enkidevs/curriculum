@@ -15,7 +15,7 @@ When using HTML input form attributes, if your input is of type `image` you can 
 
 Example:
 
-```plain-text
+```html
 <form
   action="/page.php">
   Full name:
@@ -90,4 +90,3 @@ Identify which statement is true regarding the use of height and width with inpu
 - The height attribute is used with `<input type="image">` and `<input type="button">`.
 - The width attribute is used with `<input type="image">` and `<input type="button">`.
 - You can only set the attributes height and width with CSS.
- 

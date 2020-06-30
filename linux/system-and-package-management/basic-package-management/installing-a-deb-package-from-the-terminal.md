@@ -22,14 +22,14 @@ tags:
 
 To install a `deb` package:
 
-```plain-text
+```bash
 sudo dpkg -i DEB_PACKAGE
 # ex: sudo dpkg -i debpack_3.1.deb
 ```
 
 If `dpkg` reports an error due to dependency problems, run: 
 
-```plain-text
+```bash
 sudo apt-get install -f
 ```
 
@@ -37,7 +37,7 @@ This will download the missing dependencies. If that reports an error, dependenc
 
 To remove the package:
 
-```plain-text
+```bash
 sudo dpkg -r PACKAGE_NAME
 # ex: sudo dpkg -r debpack
 ```
@@ -75,4 +75,3 @@ The usual syntax for installing a `deb` package is:
 - `Deb_package_name`
 - `install`
 - `apt-get`
- 

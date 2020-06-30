@@ -20,21 +20,21 @@ tags:
 
 You can strip the text directly from a html file/content by using lynx
 
-```plain-text
+```bash
 lynx -dump -stdin < file.html
 ```
 
-```plain-text
+```bash
 cat file.html | lynx -dump -stdin
 ```
 
-```plain-text
+```bash
 curl site | lynx -dump -stdin
 ```
 
 For a HTML file:
 
-```plain-text
+```html
 <!DOCTYPE HTML>
 <html><body>
 <p>This is a link<a
@@ -45,7 +45,7 @@ For a HTML file:
 
 The output will look like:
 
-```plain-text
+```bash
   [1] This is a link to enki.
 
 References
@@ -91,4 +91,3 @@ cat index.html |
 - `-stdin`
 - `dump`
 - `-stdout`
- 

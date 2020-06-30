@@ -19,7 +19,7 @@ Another option is to use **reflection**. Reflection can be used for observing an
 
 Say your class is similar to `User` in that it has a private method that you want to test:
 
-```plain-text
+```java
 class User {
   String name;
 
@@ -36,7 +36,7 @@ class User {
 
 To target the private method, you need to match its arguments signature. For this, we instantiate an array of `Class`es, with its first and only item a `String` class (because our method only accepts a string as input):
 
-```plain-text
+```java
 import java.lang.reflect.Method;
 
 Class[] arg = new Class[1];
@@ -53,7 +53,7 @@ Method toTest = User
 
 Because it is a private method, we need to make it accessible before invoking it:
 
-```plain-text
+```java
 toTest.setAccessible(true);
 toTest.invoke(
   john,
@@ -63,7 +63,7 @@ toTest.invoke(
 
 A requirement of this code is that **it must include** error handling. Both code blocks above need to be wrapped in a `try/catch` with the following catches:
 
-```plain-text
+```java
 import java.lang.reflect.InvocationTargetException;
 // this import is required for error handling
 
@@ -107,4 +107,3 @@ The least intrusive method of unit testing private methods and fields is to
 - use reflection to gain access to the private methods
 - refactor the class
 - define an inner testing class
- 

@@ -26,7 +26,7 @@ TypeScript has 3 ways to represent an object with slightly different behaviors.
 
 The type `{}` is used to represent an object with a specific shape.
 
-```plain-text
+```ts
 let empty: {} = {};
 
 const Enki: {
@@ -40,7 +40,7 @@ const Enki: {
 
 Assigning values that aren't part of the shape will cause errors:
 
-```plain-text
+```ts
 empty.name = 'oops';
 // error: Property 'name' does not exist on type '{}'
 Enki.age = 5;
@@ -51,7 +51,7 @@ Enki.age = 5;
 
 The type `object` is used to represent any non-primitive[1] value (any collection of values):
 
-```plain-text
+```ts
 // an object is an "object"
 let obj: object = { enki: true };
 // an array is an "object"
@@ -76,7 +76,7 @@ Usually by *"object"* we mean a collection of named values (e.g. map, set, array
 
 However, the `Object` type can be used to represent any type that is considered to contain a value[2]:
 
-```plain-text
+```ts
 // almost anything is an "Object"
 let num: Object = 3;
 let bool: Object = false;
@@ -96,7 +96,7 @@ let u: Object = undefined; // error
 
 Which statement will throw an error?
 
-```plain-text
+```ts
 const a: Object = {
   enki: 'fun'
 };
@@ -124,7 +124,7 @@ const c: { enki: string } = {
 
 Which statement will throw an error?
 
-```plain-text
+```ts
 const a: Object = 5;
 
 const b: object = 5;
@@ -162,7 +162,7 @@ All built-in values besides `null` and `undefined` are a form of object in JavaS
 
 A quick test to verify if something is an object is to try and access a property on it and see if it errors.
 
-```plain-text
+```js
 // use anything as x
 x = // anything
 // if this throws, then
@@ -172,7 +172,7 @@ x = // anything
 
 For example, these values are all objects:
 
-```plain-text
+```js
 (3).enki // undefined
 ('enki').enki // undefined
 ({ enki: 1 }).enki // 1
@@ -180,8 +180,7 @@ For example, these values are all objects:
 
 Only these throw an error:
 
-```plain-text
+```js
 (undefined).enki // Uncaught TypeError: Cannot read property 'property' of undefined
 (null).enki // Uncaught TypeError: Cannot read property 'property' of null
 ```
- 

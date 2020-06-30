@@ -25,7 +25,7 @@ Meta-annotations are annotations which apply to other annotations. The `@Retenti
 
 For example:
 
-```plain-text
+```java
 @Retention(RetentionPolicy.RUNTIME)
 @interface Introduction {
   String name();
@@ -34,4 +34,3 @@ For example:
 ```
 
 This annotation will be available at runtime.
- 

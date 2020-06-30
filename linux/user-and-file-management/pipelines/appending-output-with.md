@@ -17,7 +17,7 @@ tags:
 
 Using `>` to redirect the output of a command to a file will cause the entire contents of the file to be overwritten.  Consider this example, which will write the directory contents of your home directory to a file named `homedir_contents.txt`:
 
-```plain-text
+```shell
 ls -l ~ > homedir_contents.txt
 ```
 
@@ -27,7 +27,7 @@ In some cases, we want to append any output to the contents of an existing file 
 
 Consider the following extended example (`cat` will print the contents of a file to standard out):
 
-```plain-text
+```shell
 cat file1.txt
 cat: file1.txt: No such file or directory
 echo "Apple" > file1.txt
@@ -64,4 +64,3 @@ Note that for appending purposes the use of the `cat` command is recommended.
 - appends stdout stream to a file
 - creates a new folder
 - deletes a file
- 

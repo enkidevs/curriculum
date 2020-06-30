@@ -19,13 +19,13 @@ In the same way that you can interactively stage changes, you can interactively 
 
 For a single file:
 
-```plain-text
+```bash
 git reset --patch experiment.md
 ```
 
 For the whole repository:
 
-```plain-text
+```bash
 git reset --patch
 ```
 
@@ -53,7 +53,7 @@ The hunk above contained the first 2 line changes in the *README* file. You will
 
 What does this command do?
 
-```plain-text
+```bash
 git reset --patch enki.md
 ```
 
@@ -77,4 +77,3 @@ git reset ??? ???
 - `--patch`
 - `enki.md`
 - `-patch`
- 

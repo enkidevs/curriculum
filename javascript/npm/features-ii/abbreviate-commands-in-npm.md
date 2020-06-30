@@ -18,7 +18,7 @@ tags:
 
 Useful abbreviations:
 
-```plain-text
+```bash
 npm i myPackage
 # same as npm install myPackage
 npm r myPackage / npm rm myPackage
@@ -67,4 +67,3 @@ What's the equivalent abbreviated command of `npm link`?
 - npm l
 - npm k
 - npm n
- 

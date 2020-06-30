@@ -22,14 +22,14 @@ When using many ssh connections it is very convenient to alias them.
 
 Instead of:
 
-```plain-text
+```bash
 ssh -i ~/.ssh/custom_id_rsa \
 root@213.133.109.135 -p 31415
 ```
 
 Start by editing this file:
 
-```plain-text
+```bash
 nano .ssh/config
 ```
 
@@ -45,7 +45,7 @@ Port 31415
 
 After that, you can ssh by alias:
 
-```plain-text
+```bash
 ssh lisa
 ```
 
@@ -56,7 +56,7 @@ ssh lisa
 
 Alias the following connection:
 
-```plain-text
+```bash
 ssh -i ~/.ssh/id_rsa
      root@123.12.255.19 -p 256
 ```
@@ -88,4 +88,3 @@ You can alias *ssh connections* by editing the ??? file .
 - .ssh/connections
 - .ssh/servers
 - .ssh/alias
- 

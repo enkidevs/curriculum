@@ -22,7 +22,7 @@ links:
 
 **Locks** are the most simple structure to implement. Their key idea is that only one thread can enter the *critical section*[1].
 
-```plain-text
+```java
 public class Lock{
 
   private boolean locked = false;
@@ -81,4 +81,3 @@ What is the difference between a lock and a mutex?
 
 [1:Critical Section]
 Section of a code which can only be accessed by a certain number of threads/processes (usually no more than one).
- 

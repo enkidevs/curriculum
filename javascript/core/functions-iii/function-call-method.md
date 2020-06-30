@@ -24,7 +24,7 @@ If `currObj` is not supplied, the `currObj` is set to the global object.
 
 Creating a function to call returning a string of the object and arguments:
 
-```plain-text
+```javascript
 function callObject(arg1, arg2) {
   var str;
   str += "Object: " + this + ". ";
@@ -38,7 +38,7 @@ function callObject(arg1, arg2) {
 
 Calling the function using the call method:
 
-```plain-text
+```javascript
 callObject.call(2, 4, 6);
 ```
 
@@ -67,7 +67,7 @@ If `currObj` is not supplied, what is it set to by default? ???
 
 What is the object and the arguments of the function?
 
-```plain-text
+```javascript
 callObject.call(null, 4, 2);
 ```
 
@@ -77,4 +77,3 @@ callObject.call(null, 4, 2);
 - Object: 4, Arguments 2
 - Object: 4, Arguments: null, 2
 - This gives an error
- 

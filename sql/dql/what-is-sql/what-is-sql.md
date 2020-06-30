@@ -21,7 +21,7 @@ It's a query language[1] - a type of language that lets you interact[2] with a d
 
 You use *queries* to do so. Here's an example: 
 
-```plain-text
+```sql
 SELECT * FROM users;
 ```
 
@@ -73,4 +73,3 @@ Aside from getting data from it, interacting with a database can include other m
 - inserting data, 
 - updating data, and 
 - creating tables.
- 

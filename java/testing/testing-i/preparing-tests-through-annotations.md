@@ -17,7 +17,7 @@ As you may have noticed in previous insights, we've used the `@BeforeEach` annot
 
 `@BeforeEach` and `@AfterEach` methods are executed for every test. This is the initial example:
 
-```plain-text
+```java
 public class UserTest {
   private User mike;
 
@@ -63,4 +63,3 @@ In JUnit 5, what method will be called only once, before all tests are done?
 - `@AfterAll`
 - `@AfterClass`
 - `@Test`
- 

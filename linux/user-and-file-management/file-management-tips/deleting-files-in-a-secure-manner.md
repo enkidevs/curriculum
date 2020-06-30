@@ -27,7 +27,7 @@ You can delete files in a relatively secure way using `shred`.
 
 Fast shredding:
 
-```plain-text
+```bash
 sudo shred -vzn 0 /dir/file
 ```
 
@@ -35,7 +35,7 @@ The above will overwrite the *file* with 0s in a single iteration.
 
 Secure shredding:
 
-```plain-text
+```bash
 sudo shred -vzn 3 /dir/file
 ```
 
@@ -85,4 +85,3 @@ To delete files in a secure manner you can use
 
 [1:Gutmann Method]
 An algorithm for secure deletion of files. It involves overwriting to-be-deleted data with 35 patterns of bits so it cannot be recovered.
- 

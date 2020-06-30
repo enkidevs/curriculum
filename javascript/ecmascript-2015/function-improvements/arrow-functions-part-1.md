@@ -21,25 +21,25 @@ links:
 
 **Arrow functions** (called lambda or "fat arrow" functions in some other languages) provide a shorthand syntax to declare function expression.
 
-```plain-text
+```js
 (parameters) => {};
 ```
 
 The parenthesis are optional if there is a single parameter:
 
-```plain-text
+```js
 parameter => {};
 ```
 
 The braces are optional if the returned expression is one line:
 
-```plain-text
+```js
 parameter => expression;
 ```
 
 Below we use arrow function syntax to declare a function that accepts two parameters (x and y) and will add them together:
 
-```plain-text
+```js
 let add = (x, y) => {
   return x + y;
 };
@@ -48,7 +48,7 @@ add(2, 4); //6
 
 Because the returned expression is one line, this syntax is also valid:
 
-```plain-text
+```js
 let add = (x, y) => x + y;
 
 add(2, 4); //6
@@ -101,4 +101,3 @@ integers.filter(???);
 - `n => n % 2 !== 0`
 - `{n} => {n % 2 != 0}`
 - `n => [return n % 2 === 0]`
- 

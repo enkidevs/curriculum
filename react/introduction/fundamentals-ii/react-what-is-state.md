@@ -24,7 +24,7 @@ You can think of `state` as private data only accessible from within the compone
 
 Consider the component:
 
-```plain-text
+```jsx
 class Hello extends React.Component {
   render() {
     return <p>{this.state.text}</p>;
@@ -36,7 +36,7 @@ This will throw an error, however, because `this.state` is `null` at the moment.
 
 To set the **initial state**, by giving `text` a value, you can make use of `constructor()`. This method is a special function that gets executed when the component is created (creating an instance of the `React.Component` class). We'll look at these in depth in the future workouts.
 
-```plain-text
+```jsx
 class Hello extends React.Component {
   constructor(props) {
     // props aren't used now
@@ -54,7 +54,7 @@ The `state` value should only be changed through the `this.setState()`[1] method
 
 Note that `state` shouldn't be changed until the component was successfully mounted[2].
 
-```plain-text
+```jsx
 class Hello extends React.Component {
   constructor(props) {
     // ...set initial state
@@ -115,4 +115,3 @@ If you try to change the `state` before the component was mounted, React will di
 
 [3:Memory Leaks]
 This is mostly due to how JavaScript works, rather than React. In JS, closures can live past the lifetime of a function, and since an interval callback needs to be kept alive by the browser to get executed, it can accidentally keep other references via its closure. Thus, memory isn't cleaned up, no matter if the React component is there or not. Here's [an article](https://reliablejavascript.com/2017/11/05/how-timer-intervals-can-leak-memory/) that provides a more in-depth reading.
- 

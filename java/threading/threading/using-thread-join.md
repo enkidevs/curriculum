@@ -24,7 +24,7 @@ On the other hand, the `join()` method is not static and is specific to every th
 
 An example of using `join()`:
 
-```plain-text
+```java
 class Add extends Thread {
   public int result;
   public void run() {
@@ -93,7 +93,7 @@ What method waits until a thread has finished executing?
 
 Consider the following snippet:
 
-```plain-text
+```java
 Thread t1 = new Thread();
 Thread t2 = new Thread();
 t1.start();
@@ -111,4 +111,3 @@ The `t1.join()` method call will? ???
 - immediately start t2
 - pause t1 until t2 dies
 - speed up t1
- 

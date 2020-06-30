@@ -17,7 +17,7 @@ This is because the `<!DOCTYPE html>` declaration is used to tell the browser wh
 
 For HTML5 the declaration is typed as:
 
-```plain-text
+```html
 <!DOCTYPE html>
 ```
 
@@ -36,4 +36,3 @@ What declaration is always first in an HTML web page?
 - `<body>`
 - `<html>`
 - `<!HTML document>`
- 

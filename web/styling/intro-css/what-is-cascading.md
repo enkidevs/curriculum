@@ -24,7 +24,7 @@ Style blocks *cascade* from the top of the style sheet to the bottom, like a wat
 
 Here's an example:
 
-```plain-text
+```css
 p {
   color: red;
   font-weight: bold;
@@ -40,7 +40,7 @@ Because the selector that sets their color to `green` comes after the selector t
 
 The same cascading property works for declaring different values in the same selector:
 
-```plain-text
+```css
 /* paragraphs will be green */
 p {
   color: red;
@@ -57,7 +57,7 @@ CSS doesn't always behave like this, however. There is a property of selectors, 
 
 What is the final `background-color` of the `<p>` elements?
 
-```plain-text
+```css
 p {
  background-color: blue;
  background-color: red;
@@ -87,4 +87,3 @@ Where should a style block be located in the CSS file for it to be applied last?
 - Middle of the file.
 - Top of the file.
 - Doesn't matter.
- 

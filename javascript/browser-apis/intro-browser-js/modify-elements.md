@@ -22,7 +22,7 @@ Elements, once found, can be modified. You can modify any attribute of the eleme
 
 Here's an example that finds all of the paragraphs with the class `"blue"`. There are no style rules associated with that CSS class, so let's change the style of each element.
 
-```plain-text
+```html
 <html>
   <body>
     <p>Hello World!</p>
@@ -51,7 +51,7 @@ Here's an example that finds all of the paragraphs with the class `"blue"`. Ther
 
 We can also change the content of the tag to say `"This is blue"` rather than `"This should be blue"`.
 
-```plain-text
+```javascript
 let blueTags = document.getElementsByClassName(
   'blue'
 );
@@ -139,4 +139,3 @@ Change each element with the classname `"red"` to have a red text color.
 - `getElementsByClassName`
 - `getElementsByTagName`
 - `getElementById`
- 

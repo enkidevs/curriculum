@@ -22,20 +22,20 @@ Each code unit can be used to represent a code point in the `[U+0000, U+FFFF]` r
 
 Since ES6 the notation has been simplified:
 
-```plain-text
+```js
 \\ represents U+1F332 (EVERGREEN TREE)
 "\u{1F332}"=="🌲"=="\uD83C\uDF32"
 ```
 
 Having multiple code units per code point means that `.length` is not reliable:
 
-```plain-text
+```js
 "🌲🌲🌲".length; // length is 6
 ```
 
 However, the string iterator can be used to loop over code **points** rather than code **units**:
 
-```plain-text
+```js
 for (let codePoint of "🌲✈❤") {
   console.log(codePoint);
 }
@@ -46,7 +46,7 @@ for (let codePoint of "🌲✈❤") {
 
 Use `.codePointAt` to get the base-10 numeric representation of a code point at a given position in a string (indexed by code unit).
 
-```plain-text
+```js
 for (let codePoint of "🌲✈❤") {
   console.log(codePoint.codePointAt(0));
 }
@@ -88,4 +88,3 @@ How are Javascript strings represented?
 - UTF-8
 - UTF-32
 - US-ASCII
- 

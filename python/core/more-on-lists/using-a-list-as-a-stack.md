@@ -19,7 +19,7 @@ The stack abstract data structure is widely used in computer science. This colle
 
 Even though python does not provide a special stack data structure, lists can easily be used in the scope.
 
-```plain-text
+```python
 stack = [1,2,3]
 # adds 4 at the end
 stack.append(4)
@@ -76,4 +76,3 @@ print(stack)
 - `14`
 - `15`
 - There’s no output...
- 

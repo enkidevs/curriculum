@@ -17,7 +17,7 @@ The available options in the `<select>` list are created with the `<option>` tag
 
 Example:
 
-```plain-text
+```html
 <form>
   <select>
     <option value="apple">Apples</option>
@@ -50,7 +50,7 @@ This is done by adding an `<optgroup>` attribute, like so:
 
 Example:
 
-```plain-text
+```html
 <select>
   <optgroup label="Fav Fruit">
     <option value="apple">Apples</option>
@@ -78,7 +78,7 @@ Example:
 
 Which form attribute is used to define items of a drop-down list within a `select` element?
 
-```plain-text
+```html
 <select>
   <__ value="apple">Apples</__>
   <__ value="banana">Bananas</__>
@@ -100,7 +100,7 @@ Which form attribute is used to define items of a drop-down list within a `selec
 
 Which form attribute is used to define groups of related option of a drop-down list within a select element?
 
-```plain-text
+```html
 <select>
  <__ label="Fav Fruit">
    <option
@@ -133,12 +133,12 @@ Which form attribute is used to define groups of related option of a drop-down l
 
 ## Quiz
 
-### How much do you know about the html 
+### How much do you know about the html
+
 
 `select`
 
  element?
-
 
 Which statement is true regarding drop-down lists in HTML?
 
@@ -148,4 +148,3 @@ Which statement is true regarding drop-down lists in HTML?
 - The `<option>` element is used to create drop-down lists.
 - The `<optgroup>` element is used to create drop-down lists.
 - The `<list>` element is used to create drop-down lists.
- 

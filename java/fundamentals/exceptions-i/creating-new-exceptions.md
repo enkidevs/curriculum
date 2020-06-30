@@ -22,7 +22,7 @@ Creating your own exceptions allows you to differentiate exceptions thrown by yo
 
 To create an exception, simply create a new `Class` which extends `Exception`. For example:
 
-```plain-text
+```java
 public class NewException
   extends Exception {
   public NewException(String message) {
@@ -33,4 +33,3 @@ public class NewException
 ```
 
 New exceptions should only be created when necessary, as there is a variety of standard exceptions which can be used instead.
- 

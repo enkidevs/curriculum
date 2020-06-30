@@ -19,7 +19,7 @@ links:
 
 However, a variable declared using `let` has the critical difference that the variable **exists only in block scope**. A block-scope is any code wrapped in between `{}`.
 
-```plain-text
+```javascript
 function test() {
   if (1 == 1) {
     // variable company only
@@ -35,7 +35,7 @@ function test() {
 
 When `let` is used outside of a function it also will not create a global variable, contrary to `var`s behavior:
 
-```plain-text
+```javascript
 var global = 'enki';
 console.log(window.global);
 // enki
@@ -84,4 +84,3 @@ console.log(window.enki)
 - undefined
 - enki
 - error
- 

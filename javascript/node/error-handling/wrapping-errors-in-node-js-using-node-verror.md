@@ -19,7 +19,7 @@ The module `node-verror` can be used to produce useful error messages in Node.js
 
 `VError` is used to **combine errors**. It is possible to nest errors so that each layer in the stack annotates the error:
 
-```plain-text
+```javascript
 let VError = require("verror");
 let err1 = new Error("file not found.");
 let err2 = new VError(
@@ -36,7 +36,7 @@ console.error(err3.message);
 
 This gives the message:
 
-```plain-text
+```bash
 request failed: failed to open "eg.txt":
 file not found
 ```
@@ -45,7 +45,7 @@ file not found
 
 To avoid giving detail about the error at every layer in stack, use `WError` to **wrap errors**.  For example the code above could be changed to:
 
-```plain-text
+```javascript
 //... same as above
 let err3 = new WError(
   err2,
@@ -81,4 +81,3 @@ What two classes does the `node-verror` provide?
 - `VError` and `Error`
 - `WError` and `Error`
 - `VError` and `WrapError`
- 

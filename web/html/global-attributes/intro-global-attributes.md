@@ -30,7 +30,7 @@ The `class` attribute is used to give CSS and/or JavaScript access to an element
 
 For instance, lets say we have this HTML:
 
-```plain-text
+```html
 <p class="demo">
   Some text
 </p>
@@ -38,7 +38,7 @@ For instance, lets say we have this HTML:
 
 and we have this CSS:
 
-```plain-text
+```css
 .demo {
   background-color: black;
   color: white;
@@ -49,7 +49,7 @@ This means that any HTML element with a `class="demo"` attribute will be white a
 
 Another example(same CSS):
 
-```plain-text
+```html
 <h1 class="demo">
   Some header text
 </h1>
@@ -61,7 +61,7 @@ The `style` attribute contains CSS declarations and is used to style an element 
 
 Example:
 
-```plain-text
+```html
 <p style="color:green"> 
   This is green
 </p>
@@ -77,7 +77,7 @@ The `title` attribute is used to provide useful information about the element it
 
 Example tooltip upon hovering over a picture:
 
-```plain-text
+```html
 <img 
   src="http://enki.com/enki-logo.svg"
   title="Enki logo">
@@ -119,4 +119,3 @@ Unique identifier: ???
 - modify
 - description
 - declaration
- 

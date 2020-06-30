@@ -19,7 +19,7 @@ To make things more simple and to save time, you can set up an **alias** for git
 
 For example:
 
-```plain-text
+```bash
 git config --global alias.br branch
 git config --global alias.cm commit
 ```
@@ -28,7 +28,7 @@ You can now just type `git cm` when you commit a file.
 
 You can also create your own **commands** with aliases. A common example is to view your last commit:
 
-```plain-text
+```bash
 git config --global 
     alias.last 'log -1 HEAD'
 git last
@@ -71,4 +71,3 @@ git ???
 - `alias.ta`
 - `tag`
 - `--global`
- 

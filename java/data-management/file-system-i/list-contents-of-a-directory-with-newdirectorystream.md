@@ -20,7 +20,7 @@ links:
 
 ## Content
 
-```plain-text
+```java
 Path dir = Paths.get("home/dir");
 DirectoryStream<Path> stream =
   Files.newDirectoryStream(dir);
@@ -53,4 +53,3 @@ Path dir = Paths.("path/dir");
 - `newDirectoryStream(dir)` 
 - `newDirectoryStream()` 
 - `File`
- 

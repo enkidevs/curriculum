@@ -43,7 +43,7 @@ The `move` value indicates that the content dropped will be moved to this locati
 
 The `hidden` attribute is used set some element and its content as no longer valid/relevant and therefore hidden. This attribute should never be used on elements you want to show to the users.
 
-```plain-text
+```html
 <h3 hidden>
   content invisible to the user
   <h3>
@@ -78,4 +78,3 @@ Which 2 atributes use the same Drag and Drop APi?
 - `hidden` and `draggable`
 - `contenteditable` and `hidden`
 - `dropzone` and `contenteditable`
- 

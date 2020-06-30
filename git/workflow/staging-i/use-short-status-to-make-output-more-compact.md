@@ -19,7 +19,7 @@ You can use the option `-s` or `--short` to get a simplified status output.
 
 For example:
 
-```plain-text
+```bash
 git status --short
   M README
 M   LICENSE
@@ -40,7 +40,7 @@ A   CONTRIBUTING
 
 What does this tell us about the file `enki.md`?
 
-```plain-text
+```bash
 git status --short
 M  enki.md
  M hello.md
@@ -68,4 +68,3 @@ git status ???
 - `--compact`
 - `-v`
 - `--long`
- 

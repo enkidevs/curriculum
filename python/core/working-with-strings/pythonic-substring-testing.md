@@ -16,7 +16,7 @@ tags:
 
 Perform a substring test in a pythonic fashion using the `in` operator:
 
-```plain-text
+```python
 string = 'Hello world'
 if 'Hello' in string:
   print 'Substring!'
@@ -24,7 +24,7 @@ if 'Hello' in string:
 
 Instead of:
 
-```plain-text
+```python
 string = 'Hello world'
 if string.find('Hello') != -1:
   print 'Success!'
@@ -67,4 +67,3 @@ What keyword can be used in Python for substring testing?
 - `is`
 - `matches`
 - `yield`
- 

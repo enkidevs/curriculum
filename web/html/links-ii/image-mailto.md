@@ -21,7 +21,7 @@ Although links typically navigate to other pages, using the anchor `mailto:` att
 
 Creating a link to open the user's default email program:
 
-```plain-text
+```html
 <a
   href="mailto:heya@enki.com">
   Email me here
@@ -36,7 +36,7 @@ The subject area of the email can also be auto loaded.
 
 Example:
 
-```plain-text
+```html
 <a
   href="mailto:heya@enki.com?
         subject=Sign%20me%20up!">
@@ -105,4 +105,3 @@ Email Me
 - mail:
 - address:
 - email:
- 

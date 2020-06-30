@@ -21,19 +21,19 @@ The `deque` class in the `collections` module makes it easy to create deques or 
 
 Import the module:
 
-```plain-text
+```python
 from collections import deque
 ```
 
 Instantiate `deque`:
 
-```plain-text
+```python
 d = deque()
 ```
 
 Append to **right** and **left**:
 
-```plain-text
+```python
 d.append("b")
 d.appendleft("a")
 print(d)
@@ -42,7 +42,7 @@ print(d)
 
 In the same fashion, elements can be deleted (popped) :
 
-```plain-text
+```python
 d.pop()
 d.popleft()
 print(d)
@@ -51,7 +51,7 @@ print(d)
 
 Starting from Python `3.1` you can limit the maximum numbers of elements in a `deque` passing the `maxlen` argument to the constructor. If the limit is exceeded, items from the opposite end will be `popped` as new ones are appended to this end:
 
-```plain-text
+```python
 d = deque(maxlen=3)
 deque([], maxlen=3)
 for i in range(4):
@@ -105,4 +105,3 @@ a.???("e")
 - `append`
 - `append.left`
 - `append.start`
- 

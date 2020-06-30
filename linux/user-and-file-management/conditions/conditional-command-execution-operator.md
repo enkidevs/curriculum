@@ -17,7 +17,7 @@ Use the `&&` operator to execute two consecutive commands in order.
 
 The second command will only be executed if the first one is successful.
 
-```plain-text
+```bash
 mkdir newFolder && cd newFolder
 ```
 
@@ -33,4 +33,3 @@ The above creates *newFolder* and cd into it.
 - succeeds
 - fails
 - is not found
- 

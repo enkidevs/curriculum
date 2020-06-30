@@ -22,7 +22,7 @@ links:
 
 Given:
 
-```plain-text
+```css
 a {
   color: green;
 }
@@ -33,7 +33,7 @@ a.office {
 
 Instead of:
 
-```plain-text
+```css
 a:hover {
   border: 1px solid green;
 }
@@ -44,7 +44,7 @@ a.office:hover {
 
 Use:
 
-```plain-text
+```css
 a:hover {
   border: 1px solid currentColor;
 }
@@ -60,4 +60,3 @@ What does the `currentColor` property in CSS do? ???
 - Reuse's the calculated value of the element's colour property.
 - Sets colour equal to the most used colour in the stylesheet.
 - Sets colour equal to the least used colour in the stylesheet.
- 

@@ -32,7 +32,7 @@ The `@Target` declaration takes the form of `@Target(ElementType.<ELEMENT_TYPE>)
 
 For example:
 
-```plain-text
+```java
 @Target(ElementType.CONSTRUCTOR) 
 ```
 
@@ -74,4 +74,3 @@ Complete the standard definition of a restricted annotation using `@Target` :
 - `Constructor` 
 - `Element` 
 - `ElementName`
- 

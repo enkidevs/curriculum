@@ -18,7 +18,7 @@ As to prevent the loss of data in some cases, you will want to warn the user bef
 
 The following snippet will add a warning message if the button is pressed:
 
-```plain-text
+```javascript
 window.onbeforeunload = function() {
   alert("Your work will be lost.");
 };
@@ -69,4 +69,3 @@ Fill the missing event listener such that it will be automatically triggered whe
 - dom
 - global
 - events
- 

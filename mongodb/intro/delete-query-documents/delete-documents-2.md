@@ -13,7 +13,7 @@ category: how to
 
 The `remove()` method can be used to delete a single, multiple or all documents at once based on the specified criteria. The syntax is:
 
-```plain-text
+```javascript
 db.collection.remove(
   <query>,
   <justOne>
@@ -22,13 +22,13 @@ db.collection.remove(
 
 To delete all documents from a collection, you would use:
 
-```plain-text
+```javascript
 db.pokemon.remove({})
 ```
 
 To delete documents based on criteria:
 
-```plain-text
+```javascript
 db.pokemon.remove({ 
 	power: { $eq: 40 } 
 })
@@ -36,7 +36,7 @@ db.pokemon.remove({
 
 Output:
 
-```plain-text
+```javascript
 WriteResult({ "nRemoved": 11 })
 ```
 
@@ -52,7 +52,7 @@ When using `remove()` to delete a single document, it works the same way as the 
 
 Example:
 
-```plain-text
+```javascript
 db.pokemon.remove( 
 	{ "type": "Fire" },
 	true 
@@ -61,7 +61,7 @@ db.pokemon.remove(
 
 Output:
 
-```plain-text
+```javascript
 WriteResult({ "nRemoved": 1 })
 ```
 
@@ -107,4 +107,3 @@ Which one is not a valid remove method in MongoDB?
 - `remove()`
 - `deleteOne()`
 - `deleteMany()`
- 

@@ -22,7 +22,7 @@ The next two ways of writing CSS code do not require an external `.css` file - b
 
 CSS code can be written inside a `<style>` tag, in the `head` part of the HTML document:
 
-```plain-text
+```html
 <head>
   <style>
     p{
@@ -45,7 +45,7 @@ As you can see, it abides by the same declaration rules as they would normally a
 
 Every HTML element can accept a `style` attribute. As the styling is specific to the element, *no selector* is needed. Therefore, the code would be the one *inside* the curly brackets in a `.css` file:
 
-```plain-text
+```html
 <div style="background: green;
       font-size:30px;"></div>
 ```
@@ -66,4 +66,3 @@ The CSS code with the highest rendering priority is
 - inline CSS
 - internal CSS
 - external CSS
- 

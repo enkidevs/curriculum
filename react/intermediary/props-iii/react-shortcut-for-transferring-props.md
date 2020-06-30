@@ -22,7 +22,7 @@ This can be often used because a common type of **React** element is the one tha
 
 Having the following component:
 
-```plain-text
+```jsx
 class EnkiLink extends React.Component {
   render() {
     return (
@@ -36,7 +36,7 @@ class EnkiLink extends React.Component {
 
 We can directly pass a *HTML attribute*:
 
-```plain-text
+```jsx
 ReactDOM.render(
   <EnkiLink href="www.enki.com">
     Click here!
@@ -91,4 +91,3 @@ class Sample extends React.Component{
 - {...}
 - {...props}
 - ...props
- 

@@ -24,7 +24,7 @@ Using buffered streams can make a program more efficient. Data is written to or 
 
 A buffered stream can be created by passing an unbuffered stream object to a buffered stream constructor. For example:
 
-```plain-text
+```java
 input = new BufferedReader(
   new FileReader("in.txt")
 );
@@ -45,4 +45,3 @@ Why is it more efficient to write to a file using a buffer?
 - The buffer reduces the number of disk accesses required to write the data.
 - The buffer increases the number of disk accesses required to write the data.
 - The stream closes itself after it finished writing.
- 

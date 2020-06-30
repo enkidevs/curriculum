@@ -21,7 +21,7 @@ You can use `format` to specify your own log layout using some useful options (s
 
 For example:
 
-```plain-text
+```bash
 git log --pretty=format:"%h - %an: %s"
 ab92a5c - C Mustard: Edit app name
 bb65c8d - C Mustard: Add README
@@ -33,7 +33,7 @@ You can use the option `oneline` to print each commit on a single line.
 
 You can use `short`, `full` and `fuller` to determine how much information is shown.
 
-```plain-text
+```bash
 git log --pretty=oneline
 ```
 
@@ -73,4 +73,3 @@ git ??? ???
 - `--pretty`
 - `oneline`
 - `singleline`
- 

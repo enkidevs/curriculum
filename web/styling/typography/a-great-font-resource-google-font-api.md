@@ -25,7 +25,7 @@ Steps:
 
 2) Pick your font and add the stylesheet link to your HTML
 
-```plain-text
+```html
 <head>
 ...
 
@@ -38,7 +38,7 @@ sheet' type='text/css'>
 
 3) Add the font-family to your element in CSS:
 
-```plain-text
+```css
 h1 {
 font-family: 'Font name', Arial;
 font-weight: 300; /*if available
@@ -61,4 +61,3 @@ Once you've chosen a font, add the ??? to your HTML and the ??? to your element 
 - Google font database
 - Google font API
 - font description
- 

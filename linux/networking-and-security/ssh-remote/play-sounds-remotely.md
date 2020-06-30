@@ -18,7 +18,7 @@ However, you must have the permission to do that. This is by default `true` on m
 
 The command is:
 
-```plain-text
+```bash
 ssh user@enki 'mpg321 -' < my_sound.mp3
 ```
 
@@ -39,4 +39,3 @@ You can decode `.mp3` in terminal with
 - music
 - mplay
 - sound
- 

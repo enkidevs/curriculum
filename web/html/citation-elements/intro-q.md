@@ -21,7 +21,7 @@ Most browsers display the `<q>` element by placing quotation marks around the co
 
 Example:
 
-```plain-text
+```html
 <p>
   <cite>
     Carrie Bradshaw
@@ -47,7 +47,7 @@ Quote Result:
 
 Which statements about the `<q>` element is not correct?
 
-```plain-text
+```html
 <p>
   <cite>
     Carrie Bradshaw
@@ -74,7 +74,7 @@ Which statements about the `<q>` element is not correct?
 
 What is the most appropriate HTML element to use here?
 
-```plain-text
+```html
 <p> As
   <cite>Ron Burgundy</cite>
   shouted
@@ -111,4 +111,3 @@ Which HTML element is best to indicate short quotations?
 - `<quote>`
 - `<blockquote>`
 - `<cite>`
- 

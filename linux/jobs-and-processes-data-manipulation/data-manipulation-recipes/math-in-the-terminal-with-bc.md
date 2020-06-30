@@ -17,7 +17,7 @@ However, you can use the `bc` (basic calculator) to implement portable calculati
 
 Note the difference when using `bc`:
 
-```plain-text
+```bash
 echo 10+3
 10+3
 echo 10+3 | bc
@@ -26,21 +26,21 @@ echo 10+3 | bc
 
 Multiple operations are supported:
 
-```plain-text
+```bash
 echo "(4-3)^20-44" | bc
 -43
 ```
 
 You can convert bases with `obase`:
 
-```plain-text
+```bash
 echo "obase=16; 2^8-1"|bc
 FF
 ```
 
 You can also specify the number of digits displayed with `scale`:
 
-```plain-text
+```bash
 echo "scale=5; 100/70"|bc
 1.42857
 ```
@@ -80,4 +80,3 @@ echo '(4-2)^3*2` | ???
 - `math`
 - `grep`
 - `bo`
- 

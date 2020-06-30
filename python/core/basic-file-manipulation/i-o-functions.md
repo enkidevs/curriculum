@@ -23,7 +23,7 @@ The most **basic output** function in **Python** is `print()`[1]. The arguments 
 
 The syntax simply is:
 
-```plain-text
+```py
 print('This is a print statement.')
 ```
 
@@ -37,7 +37,7 @@ For managing user input, **Python 3** provides a built-in function called `input
 
 Consider the following scenario:
 
-```plain-text
+```python
 # user input will be assigned to `str`
 str = input('Please enter your input: ')
 # program will wait here for user input
@@ -63,7 +63,7 @@ If this **raw input** has to be transformed into another **data type** needed by
 
 In the following example, we will use a **casting function** to find out the age of the user by converting the inputted string to an `int`:
 
-```plain-text
+```python
 age = int(input('How old are you? '))
 print(age, type(age))
 ```
@@ -82,7 +82,7 @@ How old are you? 21
 
 What will be the type of the `age` variable?
 
-```plain-text
+```py
 age = input('How old are you? ')
 print(age, type(age))
 ```
@@ -129,7 +129,7 @@ your_age = ???(input('How old are you?'))
 [1: print]
 In Python 2 we had the `print` statement, later in Python 3 that statement was replaced by the function `print()`
 
-```plain-text
+```py
 # Python 2
 print 'Hello'
 # Python 3
@@ -138,4 +138,3 @@ print('Hello')
 
 [2: stdout]
 Standard streams are preconnected communication channels between a computer program and its environment when it begins execution. There are 3 main connections standard input (`stdin`), standard output (`stdout`) and standard error (`stderr`).
- 

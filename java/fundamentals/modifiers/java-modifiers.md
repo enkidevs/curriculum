@@ -19,7 +19,7 @@ links:
 
 In the previous insights, there were some words used that were not explained, such as:
 
-```plain-text
+```java
 public class ...{
 //or
   public void start();
@@ -77,4 +77,3 @@ Which of the following modifiers makes a variable class specific, not instance s
 - private
 - public
 - final
- 

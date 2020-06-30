@@ -19,14 +19,14 @@ In JavaScript, when you declare variables using `var` they are always executed f
 
 For example, if you have the following code:
 
-```plain-text
+```javascript
 x = 1;
 var x;
 ```
 
 This is actually executed as:
 
-```plain-text
+```javascript
 var x;
 x = 1;
 ```
@@ -35,7 +35,7 @@ This process is called **hoisting**.
 
 In practice, hoisting will rarely impact you but you should be aware it exists because problems could happen:
 
-```plain-text
+```js
 var x = 5;
 
 function foo() {
@@ -69,4 +69,3 @@ What does **hoisting** mean?
 - Variable declarations must come before method declarations
 - A general rule for special programs called **linters**
 - Variable declarations can have different names
- 

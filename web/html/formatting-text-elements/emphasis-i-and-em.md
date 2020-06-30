@@ -27,7 +27,7 @@ The `<i>` element, which stands for **Italic**, is used set a part of a text in 
 - Scientific names
 - Etc..
 
-```plain-text
+```html
 <p>
   In French
   <i class="french">
@@ -49,7 +49,7 @@ The `<em>`, or the **Emphasis** element, is used to *stress emphasis* on a piece
 
 Notice how the `<em>` element helps share how this example text should be read:
 
-```plain-text
+```html
 <p>
   This is <em>no doubt</em> the
   best steak I've ever had!
@@ -62,7 +62,7 @@ Notice how the `<em>` element helps share how this example text should be read:
 
 Furthermore, the `<em>` element is a little different from the `<i>` element in that it can be nested with itself.
 
-```plain-text
+```html
 <p>
   He shouted,
   "<em>
@@ -84,7 +84,7 @@ Additionally, the `<em>` and `<i>` elements can be used together.
 
 EM & I Example:
 
-```plain-text
+```html
 <p>
   The
   <i>
@@ -108,7 +108,7 @@ EM & I Result:
 
 If you add the name of the movie where *Black Pearl* is from, you would do so with the `<cite>` element.
 
-```plain-text
+```html
 <p>
   The
   <i>
@@ -191,4 +191,3 @@ Write the code to properly express emphasis in this sentence:
 - /em
 - strong
 - /strong
- 

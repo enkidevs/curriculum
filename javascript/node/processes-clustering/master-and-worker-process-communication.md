@@ -20,7 +20,7 @@ An event listener for the message event must be set up in both the master and it
 
 To listen for messages in the *master* from a *worker*:
 
-```plain-text
+```javascript
 worker.on('message', function(message) {
     console.log(message);
 });
@@ -28,7 +28,7 @@ worker.on('message', function(message) {
 
 To listen for messages in a *worker* from the *master*:
 
-```plain-text
+```javascript
 process.on('message', function(message) {
     console.log(message);
 });
@@ -37,7 +37,7 @@ process.on('message', function(message) {
 Messages can be sent as strings or serializable objects.
 To send a message from the *master* to a *worker*:
 
-```plain-text
+```javascript
 worker.send('From master to worker...');
 // or
 worker.send({data: [1, 2, 3]});
@@ -45,7 +45,7 @@ worker.send({data: [1, 2, 3]});
 
 To send a message from a *worker* to a *master*:
 
-```plain-text
+```javascript
 process.send('From worker to master..., \
              with ID num: ' + process.pid);
 ```
@@ -88,4 +88,3 @@ The following code snippet should send a string message from the **master** proc
 - on
 - master
 - process
- 

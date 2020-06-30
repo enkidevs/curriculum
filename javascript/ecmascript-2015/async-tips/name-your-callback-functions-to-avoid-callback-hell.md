@@ -15,7 +15,7 @@ links:
 
 Instead of:
 
-```plain-text
+```javascript
 setTimeout(function(){
   console.log('greeting 1');
   setTimeout(function(){
@@ -26,7 +26,7 @@ setTimeout(function(){
 
 Prefer:
 
-```plain-text
+```javascript
 function greeting1() {
   console.log('greeting 1');
   setTimeout(greeting2, 1000);
@@ -64,7 +64,7 @@ Which of the following pieces of code is the better piece of code, in terms of r
 
 ???
 
-```plain-text
+```javascript
 // Option 1
 setTimeout(function() {
    console.log('Hey!');
@@ -86,4 +86,3 @@ setTimeout(Hey, 1000);
 
 - Option 2
 - Option 1
- 

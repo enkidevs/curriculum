@@ -24,7 +24,7 @@ The key to this feature is the **Git** command `git stash`.
 
 If you have some modified files, you can check on them with `git status`:
 
-```plain-text
+```bash
 git status
 # ...
 # Changes to be committed:
@@ -34,7 +34,7 @@ git status
 
 To stash your changes:
 
-```plain-text
+```bash
 git stash
 # Saved working directory and index state
 # HEAD is not at e0bb942 ...
@@ -42,7 +42,7 @@ git stash
 
 Checking again, the working directory is clean:
 
-```plain-text
+```bash
 git status
 # On branch master
 # You branch is up-to-date with
@@ -51,7 +51,7 @@ git status
 
 You can see all your stashed changes:
 
-```plain-text
+```bash
 git stash list
 # stash@{0}: WIP on master: 049d078 ...
 # stash@{1}: WIP on master: 21d80a5 ...
@@ -59,25 +59,25 @@ git stash list
 
 To apply the latest stashed changes[2]:
 
-```plain-text
+```bash
 git stash apply
 ```
 
 To apply a specific stashed set of changes, you must specify its name:
 
-```plain-text
+```bash
 git stash apply stash@{2}
 ```
 
 You can also remove from the stash stack:
 
-```plain-text
+```bash
 git stash drop stash@{0}
 ```
 
 To both *apply* and *drop* the stash, the `pop` command can be used:
 
-```plain-text
+```bash
 git stash pop
 ```
 
@@ -134,9 +134,8 @@ Commits in the **stash** are counted from index `0`; more recent commits, with a
 [2:apply]
 **Git** will update (modifying) the files uncommitted or unstaged when the stash was saved. Keep in mind that the staged files are not re-staged. To do that you must use the `--index` flag:
 
-```plain-text
+```bash
 git stash --index
 ```
 
 The `apply` and `pop` can be used within **any** branch.  In this way you can move changes to another branch
- 

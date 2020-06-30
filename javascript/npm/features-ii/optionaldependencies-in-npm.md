@@ -22,7 +22,7 @@ links:
 
 If `npm` can't find or fails to install the dependency, the installation of your whole module will continue.
 
-```plain-text
+```javascript
 //package.json
 { //other props
   "optionalDependencies": {
@@ -34,7 +34,7 @@ If `npm` can't find or fails to install the dependency, the installation of your
 
 Keep in mind that is still the user's responsibility to handle the lack of the dependency:
 
-```plain-text
+```javascript
 try {
   var enki = require('enki');
   var enkiVer =
@@ -75,4 +75,3 @@ In what object of `package.json` can dispensable dependencies be specified?
 - peerDependencies
 - devDependenceis
 - dependencies
- 

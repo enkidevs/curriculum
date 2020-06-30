@@ -18,7 +18,7 @@ When specified, the `formnovalidate` attribute overrides the `novalidate` attrib
 
 Example:
 
-```plain-text
+```html
 <form
  action="/action_page.php" novalidate >
  E-mail:
@@ -91,4 +91,3 @@ Which statement is not true regarding the `novalidate` attribute?
 - The HTML `novalidate` form input attribute is used to specify that the input should not be validated when submitted.
 - When specified, the `formnovalidate` attribute overrides the `novalidate` attribute.
 - It can be used with the `type"submit"` and `type"image"` attributes.
- 

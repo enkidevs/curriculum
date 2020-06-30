@@ -20,7 +20,7 @@ To change your own password, simply run `passwd` without any additional argument
 
 To change another user's password, supply a username to the `passwd` command.  You *do* need `root` permission to change another user's password, so it's necessary to use `sudo`, like so:
 
-```plain-text
+```shell
 sudo passwd jesse
 ```
 
@@ -75,4 +75,3 @@ Which of the following is most likely to cause a lot of problems?
 - Forcing expiry and renewal dates for root user's password
 - Using `sudo passwd` to change someone's password
 - Using `sudo passwd` to change your own password
- 

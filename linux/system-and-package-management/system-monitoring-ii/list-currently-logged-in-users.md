@@ -25,7 +25,7 @@ It is possible to check if other people are working on a server or machine you a
 
 To do this, use the `w` command:
 
-```plain-text
+```bash
 w
 ```
 
@@ -33,13 +33,13 @@ Running this will output a list of users currently working on the machine as wel
 
 To find information about a specific user just add its name as an argument:
 
-```plain-text
+```bash
 w enki
 ```
 
 On *Linux* you can also use the `-s` flag[1] to **short**-print the output such that some columns are dropped[2]:
 
-```plain-text
+```bash
 w -s
 19:34:06 up 67 days, 21:26,  2 users,
           load average: 0.09, 0.13, 0.13
@@ -99,4 +99,3 @@ Other flags can be used as well:
 
 [2:Additional Information]
 Other columns printed by `w` command include `JCPU` and `PCPU` time.
- 

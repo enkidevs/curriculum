@@ -27,7 +27,7 @@ Similarly, use the `::after` selector to add and style content after the last ch
 
 Consider the following HTML code:
 
-```plain-text
+```html
   <p>First</p>
   <p>Second</p>
   <p>Third</p>
@@ -35,7 +35,7 @@ Consider the following HTML code:
 
 And the following CSS snippet:
 
-```plain-text
+```css
   p::before{
     content: '#';
     color: red;
@@ -78,7 +78,7 @@ Which CSS property is mandatory to display `::before` and `::after` pseudo-eleme
 
 Using the `::before` and `::after` selectors, what does the following CSS code do?
 
-```plain-text
+```css
 div::before {
    content: 'Hello!';
    color: white;
@@ -94,4 +94,3 @@ div::after {
 - Adds a white Hello! before every div element with a black Goodbye! after.
 - Adds a white Hello! after every div element with a black Goodbye! before.
 - It does nothing, improper CSS.
- 

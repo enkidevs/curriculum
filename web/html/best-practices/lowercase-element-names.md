@@ -15,7 +15,7 @@ In HTML5 it is not mandatory to write in lowercase. However, it is encouraged.
 
 This is because being consistent in writing lowercase makes your code more readable and easier for most developers to spot mistakes in the code.
 
-```plain-text
+```html
 <div>
   <h1>Lowercase</h1>
   <h2>Which is better?!?</h2>
@@ -26,7 +26,7 @@ This is because being consistent in writing lowercase makes your code more reada
 
 or 
 
-```plain-text
+```html
 <DIV>
   <H1>Lowercase</H1>
   <H2>Which is better?!?</H2>
@@ -50,4 +50,3 @@ For what reason is HTML encouraged to be written in lowercase?
 - Code doesn't work in Uppercase letters.
 - Lowercase letters take up less space.
 - It is not just encouraged, it is also mandatory.
- 

@@ -17,19 +17,19 @@ Use `git clean` to remove untracked files from your local repository.
 
 To delete untracked files in the current directory:
 
-```plain-text
+```bash
 git clean -f
 ```
 
 To remove untracked directories:
 
-```plain-text
+```bash
 git clean -f -d
 ```
 
 You also can clean the working directory interactively by using the `-i` flag:
 
-```plain-text
+```bash
 git clean -f -i
 ```
 
@@ -68,4 +68,3 @@ git ??? -f ???
 - `-m`
 - `rm`
 - `delete`
- 

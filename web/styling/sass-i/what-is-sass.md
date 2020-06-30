@@ -20,7 +20,7 @@ A preprocessor is a program that takes an input and produces an output to be use
 
 The `sass-convert` command line utility allows fast conversion between the two syntaxes:
 
-```plain-text
+```bash
 # Sass to SCSS
 sass-convert main.sass main.scss
 # SCSS to Sass
@@ -31,7 +31,7 @@ In the following insights, we will be using the *SCSS* syntax.
 
 To see the difference between *Sass*, *SCSS* and the resulting *CSS* code, consider the following example:
 
-```plain-text
+```html
 <div>
   <h2>Title</h2>
   <p>Hello Sass!</p>
@@ -40,7 +40,7 @@ To see the difference between *Sass*, *SCSS* and the resulting *CSS* code, consi
 
 With the *.sass* file:
 
-```plain-text
+```css
 $blue: #0022ff
 $size: 34px
 
@@ -57,7 +57,7 @@ div
 
 The equivalent *.scss* syntax:
 
-```plain-text
+```css
 $blue: #0022ff;
 $size: 34px;
 
@@ -78,7 +78,7 @@ div {
 
 And, finally, the compiled *.css* file:
 
-```plain-text
+```css
 div {
   background-color: #0022ff;
 }
@@ -123,4 +123,3 @@ is a valid ??? file.
 - Sass
 - _
 - preprocessed
- 

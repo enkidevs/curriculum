@@ -18,7 +18,7 @@ Instances are individual objects of a specific *Class*. For example, we might ha
 
 **Instance** objects are created by instantiation:
 
-```plain-text
+```python
 class Coordinate:
   def __init__(self, x, y):
     self.x = x
@@ -40,7 +40,7 @@ Instance objects only understand **attribute references** as operations:
 
 Data attributes act like local variables and *don't need to* be defined in the class namespace. They spring into existence at the first assignment.
 
-```plain-text
+```python
 c1.quadrant = "first"
 print(c1.quadrant)
 # "first"
@@ -52,7 +52,7 @@ Theoretically, all attributes of a class that are function objects define corres
 
 So if `Coordinate.dist` is a function object, then `c1.dist` (`c1` being an instance of `Coordinate` class) is an instance method. Please note the difference between **function** and **method**.
 
-```plain-text
+```python
 c1.dist(c2) # 5.0
             # (instance method)
 Coordinate.dist(c1,c2) # 5.0
@@ -66,7 +66,7 @@ Coordinate.dist(c1,c2) # 5.0
 
 Consider the following class:
 
-```plain-text
+```python
 class Enki:
   def printEnki(self):
     print('Hello, Enki')
@@ -106,4 +106,3 @@ max.age = 3
 
 - Yes
 - No
- 

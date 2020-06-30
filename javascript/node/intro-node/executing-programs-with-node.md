@@ -19,21 +19,21 @@ parent: the-repl-terminal
 
 The Node.js interpreter can be used to execute JavaScript files and programs in the terminal. First, create a JavaScript file:
 
-```plain-text
+```javascript
 /* main.js */
 console.log('Node.js with Enki!');
 ```
 
 To run any JavaScript program using Node use the following generic command:
 
-```plain-text
+```bash
 node filename.js
 # filename.js will be ran
 ```
 
 In this case, to run the *main.js* file the following command would be used:
 
-```plain-text
+```bash
 node main.js
 # that outputs:
 Node.js with Enki!
@@ -46,7 +46,7 @@ Node.js with Enki!
 
 Consider the file `enki.js`:
 
-```plain-text
+```javascript
 // enki.js
 console.log('Hello, Enki!')
 ```
@@ -87,4 +87,3 @@ How would you run the code existing within `main.js`
 - javascript
 - java
 - nodeJS
- 

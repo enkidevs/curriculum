@@ -16,7 +16,7 @@ links:
 
 Returning references to `mutable private class` members allows for the opportunity to **corrupt** the internal state of a class *maliciously* or *accidentally*.
 
-```plain-text
+```java
 class MutableClass {
   private Date d;
 
@@ -34,7 +34,7 @@ class MutableClass {
 
 A safer alternative is to simulate the `clone()` behavior and create a new copy of the object to return:
 
-```plain-text
+```java
 public Date getDate() {
   Date newD = new Date(d.getTime());
   return newD;
@@ -83,7 +83,7 @@ Which of the following is a way of preventing mutable private fields from being 
 
 What does this code print?
 
-```plain-text
+```java
 class MutableClass {
   private int[] array;
 
@@ -118,4 +118,3 @@ public class Main {
 - 1 and 1
 - 2 and 1
 - error: array has private access
- 

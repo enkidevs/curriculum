@@ -25,7 +25,7 @@ The JUnit `@Test` annotation is used to indicate that a method should be called 
 
 When the test is expected to throw an exception, we can indicate this by adding `expected = <exception>.class` after `@Test`, where <exception> is the name of the expected exception.
 
-```plain-text
+```java
 //fail if IOException is not thrown
 @Test(expected = IOException.class)
 ```
@@ -34,7 +34,7 @@ When the test is expected to throw an exception, we can indicate this by adding 
 
 When a test needs to complete within a specific time period, we can add a parameter to `@Test` to fail if the test takes too long. The value in the parameter is measured in milliseconds.
 
-```plain-text
+```java
 //timeout after 500ms
 @Test(timeout = 500)
 ```
@@ -76,4 +76,3 @@ What two parameters can be used with the `@Test` annotation?
 - `size`
 - `time`
 - `error`
- 

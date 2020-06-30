@@ -15,7 +15,7 @@ The HTML meta `description` attribute is used to add a short summary of the cont
 
 Example:
 
-```plain-text
+```html
 <meta
   name="description"
   content="Short summary here">
@@ -74,4 +74,3 @@ Choose the best option from these:
 - `<meta name="description" content="puppy dogs rescue local shelters adoption">`
 - `<meta name="description" content="http://www.puppyrescue.com">`
 - `<meta name="description" content="Austin, Texas">`
- 

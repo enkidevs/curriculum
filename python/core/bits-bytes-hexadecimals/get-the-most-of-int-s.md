@@ -27,7 +27,7 @@ The **built-in** `int` types provide several methods for data manipulation at a 
 
 For example, you can get the bits required to store a specific number with `bit_length()`
 
-```plain-text
+```python
 >>> n = 1024
 >>> n.bit_length()
 11
@@ -51,7 +51,7 @@ rounded_up = -(-numerator // denominator)
 
 Here's the former function in action:
 
-```plain-text
+```python
 # converting 2048 with big endian
 >>> (2048).to_bytes(2, byteorder='big')
 b'\x08\x00'
@@ -69,7 +69,7 @@ b'\xe7'
 
 Similarly, the `.from_bytes()` method works in reverse:
 
-```plain-text
+```python
 # converting to 2048, big endian
 >>> int.from_bytes(b'\x08\x00',
       byteorder="big")
@@ -154,4 +154,3 @@ When specified, the integer value will be represented in `length` bytes. If thes
 In **big-endian**, you store the *most* significant `bit` in the **smallest** address, while in **little-endian** you store the *least* significant one.
 
 If you wish to learn more about this subject, bookmark this insight and check its "Learn more" links section.
- 

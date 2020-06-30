@@ -19,7 +19,7 @@ You can use any Python source file as a **module** by executing an `import` stat
 
 Importing is achieved through the provided `import` statement whose syntax looks like:
 
-```plain-text
+```py
 import module1[, module2[, ... moduleN]
 
 # note that [] refers to optional arguments
@@ -29,7 +29,7 @@ When the *interpreter* encounters an `import` statement, it **imports** that spe
 
 We will `import` and use a *method* exposed by the `my_adder` module[1] we defined in the previous insight:
 
-```plain-text
+```python
 # we need to import the module first
 import my_adder
 
@@ -89,7 +89,7 @@ counter.increment() # 2
 
 Fill in the gaps such that the defined module is successfully imported and run:
 
-```plain-text
+```python
 # subtractor.py
 
 def subtract(a, b):
@@ -122,10 +122,9 @@ subtractor.???(10, 2)
 [1:adder]
 Consider the previously defined module in `my_adder.py`:
 
-```plain-text
+```python
 def add(a, b):
   sum = a + b
   print("The sum is: ", sum)
   return sum
 ```
- 

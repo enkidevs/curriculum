@@ -27,7 +27,7 @@ One example of a **lifecycle hook** is the `constructor(props)`, which is common
 
 Suppose you want to log a message after a component was mounted[2] (after being `render`ed). For this, you can use the `componentDidMount()` method:
 
-```plain-text
+```jsx
 class Spawn extends React.Component {
   componentDidMount() {
     console.log("I have spawned");
@@ -42,7 +42,7 @@ This component can be **mounted** dynamically multiple times in an application, 
 
 If you want to mark the **un-mounting**, you can use the `componentWillUnmount()`:
 
-```plain-text
+```jsx
 // ...
   componentWillUnmount() {
     console.log('I will despawn');
@@ -95,7 +95,7 @@ A `constructor()` in a JavaScript class is used to setup the initial data for an
 
 For example, here's how we create an instance of a flying `Bird`:
 
-```plain-text
+```js
 class Bird {
   constructor() {
     this.flies = true;
@@ -110,7 +110,7 @@ When working with classes that inherit from other classes, `i.e. class Child ext
 
 For example, this is how we can create a flying `Dove`:
 
-```plain-text
+```js
 class Dove extends Bird {
   constructor() {
     super(); // <-- call the constructor of Bird to setup flying
@@ -127,4 +127,3 @@ This is the same reason why in React components we call `super(props)`: because 
 
 **Mounting** refers to the initial insertion of a **React** `component` into the **DOM**.
 Similarly, **unmounting** happens when the `component` is removed from the **DOM**.
- 

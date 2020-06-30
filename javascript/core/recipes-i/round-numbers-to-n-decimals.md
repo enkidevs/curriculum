@@ -18,14 +18,14 @@ Two methods that can be useful in rounding numbers.
 
 Use `toFixed`:
 
-```plain-text
+```javascript
 let num = 2.44534;
 console.log(num.toFixed(3)); // 2.445
 ```
 
 Use `toPrecision`:
 
-```plain-text
+```javascript
 let num = 444.3245;
 console.log(num.toPrecision(5)); //444.32
 ```
@@ -67,4 +67,3 @@ console.log(pi.???(2));
 
 - `toFixed`
 - `toPrecision`
- 

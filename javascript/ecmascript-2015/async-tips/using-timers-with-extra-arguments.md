@@ -32,7 +32,7 @@ const uid = setTimeout(
 
 These methods allow authors to schedule timer-based callbacks.
 
-```plain-text
+```javascript
 function chrono(start) {
   // same start value is passed each time
   // the scheduled interval runs
@@ -94,4 +94,3 @@ let t = setInterval(
 - `10 then 11 then 12`
 - `NaN`
 - `11 then 12 then 13`
- 

@@ -22,7 +22,7 @@ The difference between *interfaces* and *classes* is that, while a class has to 
 
 For example, this is a class:
 
-```plain-text
+```java
 public class Car {
   private String model;
 
@@ -34,7 +34,7 @@ public class Car {
 
 This is an interface:
 
-```plain-text
+```java
 public interface Car {
   public void start();
   public void stop(int speed);
@@ -43,7 +43,7 @@ public interface Car {
 
 ...and a class implementing it:
 
-```plain-text
+```java
 public class FamilyCar implements Car {
   private String model;
 
@@ -72,7 +72,7 @@ An *interface* ensures the classes implementing it *provide* the methods for the
 
 Because an interface comes only with a model, a single class can implement as many interfaces as needed, unlike being able to extend a single class.
 
-```plain-text
+```java
 public class AmphibiousCar implements
                     Car, Boat {
   public void start() {
@@ -90,7 +90,7 @@ Even though both `Car` and `Boat` interfaces would have the `start()` method, it
 
 Which of the following lines of code is not valid?
 
-```plain-text
+```java
 1. public class FamilyCar extends Car {}
 2. public class FamilyCar implements Car {}
 3. public class AmphibiousCar implements
@@ -127,4 +127,3 @@ public class FamilyCar implements Car {
 - `//nothing`
 - `class`
 - `System.out.println("The car starts!");
- 

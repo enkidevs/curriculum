@@ -23,7 +23,7 @@ The generic name for methods returning the value of private fields is **getters*
 
 We can make changes to the `Car` class to achieve encapsulation:
 
-```plain-text
+```java
 public class Car{
   private String model;
   private int noDoors;
@@ -49,7 +49,7 @@ public class Car{
 
 The variables can then be accessed like so:
 
-```plain-text
+```java
 public class Test{
   public static void main(String[] args){
     Car car = new Car("NormalCar",4);
@@ -69,7 +69,7 @@ EncapCar 3
 
 This way of working with data has its benefits as you can decide whether or not a new value fits the model:
 
-```plain-text
+```java
 public void setNoDoors(int newNoDoors){
  if(newNoDoors > 7){
    System.out.println("Invalid number"
@@ -103,4 +103,3 @@ Methods that return or change the value of a class' variables are called ???.
 - returners and changers
 - getters and changers
 - returners and setters
- 

@@ -23,7 +23,7 @@ The `is` operator will evaluate to `True` if the variables on either side of it 
 
 For example:
 
-```plain-text
+```python
 a_string = 'python'
 another_string = a_string
 
@@ -33,7 +33,7 @@ another_string is a_string
 
 Whereas:
 
-```plain-text
+```python
 x = 'any string'
 y = 'any string'
 
@@ -68,7 +68,7 @@ The `is` operator is used to match ??? instead of values.
 
 What does the following code snippet return:
 
-```plain-text
+```python
 pizza = 'yummy'
 pasta = 'yummy'
 
@@ -81,4 +81,3 @@ pizza is pasta
 - `True`
 - `Error`
 - `false`
- 

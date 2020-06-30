@@ -22,7 +22,7 @@ Although performing both types of operations on the same data may compile, it of
 
 Example of a non-compliant code:
 
-```plain-text
+```java
 int a = 7;
 a += (a << 3) + 3; //left shift
 //^ adding 8a + 3 to a 
@@ -31,21 +31,21 @@ a += (a << 3) + 3; //left shift
 
 A better implementation would be:
 
-```plain-text
+```java
 int a = 7;
 a = 9 * a + 3;
 ```
 
 Similarly a right shift operation might be used instead of division in a misguided attempt to optimize performance:
 
-```plain-text
+```java
 int a = -20;
 a >>= 2;     // a = -5
 ```
 
 But perhaps a better implementation is:
 
-```plain-text
+```java
 int a = -20;
 a /= 4;     // a = -5
 ```
@@ -65,4 +65,3 @@ What is the arithmetic equivalent of `a >> 3`  ?
 - 4a
 - 3a
 - a/3
- 

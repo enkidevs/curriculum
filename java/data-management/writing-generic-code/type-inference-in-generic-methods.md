@@ -17,7 +17,7 @@ links:
 
 Type inference is a feature of generic methods which allows you to call them as if they were ordinary methods i.e. without specifying the type in between `<>`. For example:
 
-```plain-text
+```java
 public <E> boolean oneBiggerThanTwo(
   E one, E two) {
   //in this case we will have to use
@@ -31,7 +31,7 @@ public <E> boolean oneBiggerThanTwo(
 
 Then we can call it by:
 
-```plain-text
+```java
 boolean bool1 = <Integer>compare
                 (Integer.valueOf(13),
                 Integer.valueOf(37));
@@ -55,4 +55,3 @@ What does type inference do?
 - It allows you to omit specifying type parameters upon calling a method
 - It allows you to call an abstract method if it has a 'default' return value
 - It allows you to change then return type of a method depending on the input
- 

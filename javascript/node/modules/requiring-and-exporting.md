@@ -21,7 +21,7 @@ parent: what-are-node-modules
 
 To load, cache and use a module you must `require` it into your **Node** application. The keyword `require` is used for loading modules and its return value is normally assigned to a variable, for example:
 
-```plain-text
+```javascript
 var module = require('./example.js');
 ```
 
@@ -29,7 +29,7 @@ var module = require('./example.js');
 
 Take *sampleModule.js*:
 
-```plain-text
+```javascript
 module.exports = “Required and exported!”;
 ```
 
@@ -37,14 +37,14 @@ Note: `exports`  could have been used instead of `module.exports` to the same ef
 
 Importing *sampleModule.js* into a new JavaScript file *main.js*:
 
-```plain-text
+```javascript
 var test = require(‘./sampleModule.js’);
 console.log(test);
 ```
 
 Running *main.js* from a REPL terminal returns the following:
 
-```plain-text
+```bash
 node main.js
 Required and exported!
 ```
@@ -75,4 +75,3 @@ var mod = ???('./module.js');
 - require
 - export
 - load
- 

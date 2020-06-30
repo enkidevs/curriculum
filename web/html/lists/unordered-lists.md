@@ -22,7 +22,7 @@ links:
 
 The HTML `<ul>`, or the **Unordered List** element is used to represent an unordered list of items.
 
-```plain-text
+```html
 <ul>
   <li>Item x</li>
   <li>Item x</li>
@@ -53,7 +53,7 @@ Additionally, the `<ul>` element can be nested with itself any number of times. 
 
 Example of a nested lists:
 
-```plain-text
+```html
 <ul>
   <li>Item A</li>
   <li>Item B
@@ -94,7 +94,7 @@ The `<ul>` element is best used for:
 
 Complete the HTML code to create a bulleted list.
 
-```plain-text
+```html
 <A>
   <B>Apples</B>
   <B>Oranges</B>
@@ -121,7 +121,7 @@ B: ???
 
 What does this code create?
 
-```plain-text
+```html
 <ul>
   <li>Item</li>
   <li>Item</li>
@@ -154,4 +154,3 @@ Which statement about unordered lists is not true?
 - By default, each list item displays with a black disc.
 - Typically, each line is indented with 40px of padding-left.
 - They display as block elements.
- 

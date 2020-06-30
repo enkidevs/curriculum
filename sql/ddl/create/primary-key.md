@@ -26,7 +26,7 @@ A `PRIMARY KEY` is a field or a combination of fields that is used to uniquely d
 
 Let's start by creating a simple table `students` with 2 columns, `id` and `name`. We want to identify each `student` by their `id`, meaning that we will define this column as a `PRIMARY KEY`. To do this, you would have to write:
 
-```plain-text
+```sql
 CREATE TABLE students (
   id INT PRIMARY KEY,
   name VARCHAR
@@ -37,7 +37,7 @@ Defining a column as a `PRIMARY KEY` implies that you cannot insert `NULL` value
 
 To ensure that a column can't take any `NULL` values you can use the `NOT NULL` constraint when defining your table. Here is an example:
 
-```plain-text
+```sql
 CREATE TABLE your_table(
   id INT NOT NULL
 );
@@ -45,7 +45,7 @@ CREATE TABLE your_table(
 
 Let's see what happens when we insert the following values in the `students` table:
 
-```plain-text
+```sql
 INSERT INTO students values
 (NULL, 'Andrei'), 
 -- Fails because PRIMARY KEY columns
@@ -102,4 +102,3 @@ Create a table named `billboard_songs` with the `id`, `name`, and `position` col
 - MAKE TABLE
 - FOREIGN KEY
 - NOT ZERO
- 

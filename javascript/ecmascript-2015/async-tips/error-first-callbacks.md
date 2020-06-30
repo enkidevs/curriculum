@@ -22,7 +22,7 @@ Error-first callbacks have an error as the **first argument** of the callback fu
 
 For example for the callback:
 
-```plain-text
+```javascript
 function pay(order, cardNo, callback){
   if (exists(cardNo)) {
     // ... take money from card
@@ -35,7 +35,7 @@ function pay(order, cardNo, callback){
 
 An example of a suitable caller would be:
 
-```plain-text
+```javascript
 pay(myOrder, myCard,
   function (errorMsg, paidMsg) {
     if (errorMsg) {
@@ -84,4 +84,3 @@ Which statement is true about *error-first callbacks*:
 - First argument of the callback function is an error.
 - First argument of the main function is an error
 - Errors are checked before the actual call
- 

@@ -15,7 +15,7 @@ links:
 
 These three lines of **CSS** will select every element on the page and give them a slightly darker background color with the help of the `*` selector.
 
-```plain-text
+```css
 * {
   background-color: rgba(0,0,0,0.1);
 }
@@ -51,7 +51,7 @@ Which selector is used to select every element of a page so styles can be applie
 
 What does the following CSS code do?
 
-```plain-text
+```css
 div * {
    font-family: "Arial Narrow";
 }
@@ -80,4 +80,3 @@ div * {
 - `-`
 - `<>`
 - `html`
- 

@@ -18,7 +18,7 @@ To use `PriorityQueue` data type we need to import it from `queue` module.
 
 It uses the sort method `sort` in order to decide what to retrieve from it first (your object must have a way of comparing its instances):
 
-```plain-text
+```python
 import queue
 
 class Enki(object):
@@ -41,7 +41,7 @@ Having defined the `__lt__` method[1], our `PriorityQueue` knows now how to sort
 
 If we want to reverse the sorting order (greatest priority first), we would have to replace the `<` operator inside the `__lt__` function:
 
-```plain-text
+```python
 class Enki(object):
     def __init__(self, priority):
        self.priority = priority
@@ -100,7 +100,7 @@ temp.put(Order(1000))
 
 Which of the following instantiates a new priority queue:
 
-```plain-text
+```python
 # Queue 1
 q = new queue.PriorityQueue()
 
@@ -124,4 +124,3 @@ q = queue.PriorityQueue()
 
 [1: Less than]
 The `__lt__` (less than) method is used to override the functionality of the `<` (less than) operator when comparing `Enki` objects. As it is the case in most languages, `a < b` is the shorthand notation of calling `a.__lt__(b)`.
- 

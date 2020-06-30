@@ -13,7 +13,7 @@ category: tip
 
 - `string.Template`
 
-```plain-text
+```python
 import string
 t = string.Template("Hello $name")
 print(t.substitute(name='Ted'))
@@ -24,7 +24,7 @@ print(t.substitute(name='Ted'))
 
 - `percent-style`
 
-```plain-text
+```python
 t = "Hello %(name)s"
 print(t % dict(name='Ted'))
 # Hello Ted
@@ -34,7 +34,7 @@ General form: `f % v`, where `f` is the template string and `v` specifies the va
 
 - `curly-bracket`
 
-```plain-text
+```python
 t = "Hello {name}"
 print(t.format(name='Ted'))
 # Hello Ted
@@ -48,7 +48,7 @@ Format strings contain “replacement fields” surrounded by curly braces `{}`.
 
 It is the easiest way to format strings and is done like so:
 
-```plain-text
+```python
 name="Ted"
 print(f'Hello {name}')
 # Hello Ted
@@ -103,4 +103,3 @@ print(my_string
 - `{time}`
 - `substitute`
 - `sub`
- 

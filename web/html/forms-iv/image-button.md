@@ -19,7 +19,7 @@ The HTML input form of type `image` is used to create a submit button with a gra
 
 Example:
 
-```plain-text
+```html
 <form
   action="/page.php">
   Full name:
@@ -85,4 +85,3 @@ Which attribute is not a valid image button attribute for overriding default for
 - formnovalidate
 - formtarget
 - formenctype
- 

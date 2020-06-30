@@ -26,13 +26,13 @@ Here is how we do it using apt/aptitude.
 
 You can hold a package using:
 
-```plain-text
+```bash
 sudo apt-mark hold package_name
 ```
 
 and remove the hold with:
 
-```plain-text
+```bash
 sudo apt-mark un-hold package_name
 ```
 
@@ -40,13 +40,13 @@ sudo apt-mark un-hold package_name
 
 You can hold a package using:
 
-```plain-text
+```bash
 sudo aptitude hold package_name
 ```
 
 and remove the hold with:
 
-```plain-text
+```bash
 sudo aptitude unhold package_name
 ```
 
@@ -65,4 +65,3 @@ Using `aptitude`, prevent the `enki` package from updating:
 - hold
 - apt-get
 - stop
- 

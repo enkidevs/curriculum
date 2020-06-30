@@ -19,7 +19,7 @@ Python's self explanatory module called `unicodedata` provides the user with acc
 
 Lookup a character by name with `lookup`:
 
-```plain-text
+```python
 >>> import unicodedata
 >>> unicodedata.lookup\
 ... ('RIGHT SQUARE BRACKET')
@@ -29,14 +29,14 @@ Lookup a character by name with `lookup`:
 
 Get a character's name with `name`:
 
-```plain-text
+```python
 >>> unicodedata.name(u'~')
 'TILDE'
 ```
 
 Get the category of a character:
 
-```plain-text
+```python
 >>> unicodedata.category(u'X')
 'Lu'
 # L = letter, u = uppercase
@@ -44,7 +44,7 @@ Get the category of a character:
 
 To get the version of the **Unicode Database** currently used:
 
-```plain-text
+```python
 >>> unicodedata.unidata_version
 '8.0.0'
 ```
@@ -84,4 +84,3 @@ Get the name of a character specified:
 - `name`
 - `lookup`
 - `category`
- 

@@ -15,7 +15,7 @@ There's a distinction to be made regarding *functions* and *methods*. In Python,
 
 What's special about these methods is the fact that to define them, they are passed a `self` parameter as the first argument. As stated above, they are part of an object (which includes classes):
 
-```plain-text
+```python
 # define a decorator
 def get_fahrenheit(method):
   # as this decorator potentially targets
@@ -41,7 +41,7 @@ print(temp.get_temp())
 
 We got it now working for methods. But what if we are looking to decorate methods, as well as standalone functions? We can extend this syntax and use the generic `*args`[1] and `**kwargs`[2] arguments to ensure that we handle any number of arguments required:
 
-```plain-text
+```python
 def get_fahrenheit(method):
   # exepect any number of args/named args
   def wrapper(*args, **kwargs):
@@ -72,7 +72,7 @@ print(temp.get_temp(3, extra2 = 1))
 
 When defining a decorator, the most general syntax you can use is:
 
-```plain-text
+```python
 # A
 def deco(func):
   def wrapper(*args, **kwargs):
@@ -105,7 +105,7 @@ def deco(func):
 
 In case of a decorator that targets `methods`, which is a valid declaration?
 
-```plain-text
+```python
 # A
 def deco(method):
   def wrapper():
@@ -140,7 +140,7 @@ def deco(self):
 ### what is the output of the following snippet?
 
 
-```plain-text
+```python
 def foo(a,b,*args,**kwargs):
   print(a, b, args, kwargs)
 x = {'ten': 10}
@@ -162,7 +162,7 @@ foo(1, 2, enki='wow', **x)
 [1: &#42;args]
 The asterisk symbol (`*`) allows you to pass multiple arguments at once through a list or tuple:
 
-```plain-text
+```python
 def func(x, y, z):
   print(x,y,z)
 mylist = [1, 2, 3]
@@ -183,7 +183,7 @@ Outputs:
 [2: &#42;&#42;kwargs]
 The double asterisk symbol (`**`) allows you to pass multiple named arguments at once through a dictionary:
 
-```plain-text
+```python
 def func(x, y, z):
   print(x,y,z)
 mydict = {"x":1, "y":2, "z":3}
@@ -200,7 +200,7 @@ Outputs:
 
 N.B. while this outputs:
 
-```plain-text
+```python
 mydict = {"z":2, "y":1, "x":3}
 func(**mydict)
 # 3 1 2
@@ -208,8 +208,7 @@ func(**mydict)
 
 A dictionary like this will raise an error:
 
-```plain-text
+```python
 mydict = {"a":1, "b":2,"c":3}
 # TypeError: unexpected keyword argument c
 ```
- 

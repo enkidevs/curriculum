@@ -22,7 +22,7 @@ links:
 
 The declaration of these structures is:
 
-```plain-text
+```java
 // Fixed size array declaration, type int
 int[] array = new int[3 ];
 
@@ -74,4 +74,3 @@ Which data structure is of a fixed length?
 
 [1:Boxing & Unboxing]
 Because primitive types (e.g. `int`) do not derive from `Object`, they have to be converted (or boxed) into their non-primitive respective types. For example, `int` would be boxed into `Integer`. This process of boxing and unboxing adds an additional layer of indirection, and thus provides a performance penalty.
- 

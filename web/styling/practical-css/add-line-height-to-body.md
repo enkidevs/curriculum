@@ -18,7 +18,7 @@ links:
 
 Rather than adding `line-height` to each element:
 
-```plain-text
+```css
 p {
   line-height: 1;
 }
@@ -36,7 +36,7 @@ h2 {
 
 Add it to `body` directly:
 
-```plain-text
+```css
 body {
   line-height: 1;
 }
@@ -49,7 +49,7 @@ body {
 
 What does the following piece of code do?
 
-```plain-text
+```css
 body {
    font-family: "Arial Narrow";
 }
@@ -61,4 +61,3 @@ body {
 - Sets the font family to Arial Narrow for all elements outside the body.
 - Sets the font family to Arial Narrow for the first element in the body,
 - It does nothing.
- 

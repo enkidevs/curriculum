@@ -23,7 +23,7 @@ Prototypes are objects with properties that other objects inherit. Therefore, an
 
 As a result, the object that inherits from the prototype object is essentially a subclass of the prototype.
 
-```plain-text
+```javascript
 function Animal(name) {
   this.name = name;
   this.feline = true;
@@ -88,4 +88,3 @@ An object in JavaScript that can be inherited from is called ???.
 - prototype
 - variable
 - function
- 

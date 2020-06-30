@@ -20,7 +20,7 @@ links:
 
 The `max` function returns the largest item in an iterable object, or, the largest of two or more parameters given to it. The general syntax follows the form:
 
-```plain-text
+```python
 max(iterable, *iterables [,key, default])
 # or
 max(arg1, arg2, *args [, key])
@@ -35,7 +35,7 @@ where `*iterables` and `*args` denotes zero or more iterable objects and additio
 
 Now let's look at the second form,
 
-```plain-text
+```python
 max(arg1, arg2, *args [, key])
 ```
 
@@ -45,7 +45,7 @@ max(arg1, arg2, *args [, key])
 
 In the case that there are more than one maximal items in the given input, `max` returns the first one encountered. Consider the following code examples:
 
-```plain-text
+```python
 # using max(arg1, arg2, *args)
 max(1, 1, 1, 5, 2)
 # result = 5
@@ -58,7 +58,7 @@ max(num)
 
 Using the key argument, however, we can use `max` in more interesting and useful ways. For example, we can specify the key to be a custom or built-in function, such as one that checks the size of objects, `len`.
 
-```plain-text
+```python
 num1 = [1200, 110000, 90, 9012]
 num2 = [12, 12, 12, 30, 30, 90]
 print(max(num1, num2, key=len))
@@ -100,7 +100,7 @@ print(???(queue1,
 
 What is the result of executing the following code snippet in Python 3?
 
-```plain-text
+```python
 list3 = [1, 2, 'abc', 'xyz', 3, 4, 'zzz']
 print(max(list3))
 ```
@@ -119,4 +119,3 @@ print(max(list3))
 
 [1:Key]
 *This is exactly the same as the way keys are used in other built-in functions such as `sort` etc. For more information see the lesson on the `sorted` and `sort` functions.*
- 

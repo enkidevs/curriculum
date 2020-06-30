@@ -25,7 +25,7 @@ The placeholder attribute works for several input types:
 
 Example:
 
-```plain-text
+```html
 <form
   action="/action.php">
   <input
@@ -73,4 +73,3 @@ Which form attribute shares a short hint that describes the expected value of an
 - sample
 - tip
 - note
- 

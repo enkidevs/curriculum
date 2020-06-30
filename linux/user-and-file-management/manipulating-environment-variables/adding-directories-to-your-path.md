@@ -21,13 +21,13 @@ tags:
 
 To do this, edit the `.bashrc` file in the home directory and append the following line (chaining the existing `PATH` at the end):
 
-```plain-text
+```bash
 export PATH=/path/to/dir:$PATH
 ```
 
 You can open `.bashrc` in terminal by running:
 
-```plain-text
+```bash
 nano ~/.bashrc
 # ~/ being the implicit path for
 # your home folder
@@ -35,7 +35,7 @@ nano ~/.bashrc
 
 For example, to add the directory `/usr/sbin`, the following would be used:
 
-```plain-text
+```bash
 PATH="/usr/sbin:$PATH"
 ```
 
@@ -43,13 +43,13 @@ Source your `.bashrc` or logout/login (or restart the terminal) for the changes 
 
 Sourcing executes the file that it was given as a parameter. To source your `.bashrc`, simply type:
 
-```plain-text
+```bash
 source ~/.bashrc
 ```
 
 This is the same as running:
 
-```plain-text
+```bash
 . ~/.bashrc
 ```
 
@@ -99,4 +99,3 @@ When is the `~/.bashrc` file run?
 - Once every boot
 - Once for every user login
 - Every thirty minutes
- 

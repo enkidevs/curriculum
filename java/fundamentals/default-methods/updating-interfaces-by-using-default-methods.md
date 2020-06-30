@@ -19,7 +19,7 @@ links:
 
 Take the following interface:
 
-```plain-text
+```java
 public interface Cooking {
   public void fry();
   public void boil();
@@ -31,7 +31,7 @@ To add new functionality, simply adding a new method to `Cooking` called `microw
 
 To avoid this, give `microwave()` a default implementation:
 
-```plain-text
+```java
 public interface Cooking {
   public void fry();
   public void boil();
@@ -84,4 +84,3 @@ Which type of method declared in an interface requires some kind of implementati
 - None.
 - All.
 - Non-default methods.
- 

@@ -24,14 +24,14 @@ To give a specific user `root` access, you need to add the user to the `root` pe
 
 If you want to create a new user:
 
-```plain-text
+```bash
 adduser newUser
 passwd newUser
 ```
 
 To add newUser to the *root* group, run:
 
-```plain-text
+```bash
 adduser newUser root
 # or
 usermod -aG root newUser
@@ -39,7 +39,7 @@ usermod -aG root newUser
 
 Or to give it root privileges manually:
 
-```plain-text
+```bash
 visudo
 # and add the following line under
 newUser ALL=(ALL:ALL)  ALL
@@ -66,4 +66,3 @@ usermod ??? ??? enkiUser
 - `root`
 - `-ag`
 - `admin`
- 

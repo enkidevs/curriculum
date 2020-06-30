@@ -19,7 +19,7 @@ The spread operator automatically assigns (or spreads out) the contents of an ex
 
 For example let’s say we have an array with 3 values we want to pass to a function accepting three arguments:
 
-```plain-text
+```javascript
 var test = [1,2,3];
 function func(x, y, z){
 ...
@@ -28,19 +28,19 @@ function func(x, y, z){
 
 We could of course call the function with values from the array as follows:
 
-```plain-text
+```javascript
 func(test[0],test[1],test[2]);
 ```
 
 However we can use the spread operator to assign (or spread out) these values to the x, y and z parameters without explicitly defining where they should be assigned:
 
-```plain-text
+```javascript
 func(...test); //x=1, y=2, z=3
 ```
 
 The spread operator can even be applied multiple times so if we had a function with 6 arguments we can use the spread operator twice if we wanted to reuse the input variables:
 
-```plain-text
+```javascript
 function someFunc(x, y, z, a, b, c){
 ...
 }
@@ -57,7 +57,7 @@ This saves some tedious and potentially error prone assignment code.
 
 Consider the function:
 
-```plain-text
+```javascript
 function compute(a, b, c, d) {
   return a + b * c + d;
 }
@@ -65,7 +65,7 @@ function compute(a, b, c, d) {
 
 If you have two arrays:
 
-```plain-text
+```javascript
 const arr1 = [2, 5]
 const arr2 = [10, 30]
 ```
@@ -118,4 +118,3 @@ console.log(??? ???)
 - addNumbers(arr1)
 - arr2
 - arr1
- 

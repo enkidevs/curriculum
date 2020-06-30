@@ -26,7 +26,7 @@ Everything in Java is *pass-by-value*. This means:
 
 > `Person p` is a **pointer** to a Person object and not a stand-alone Person object.
 
-```plain-text
+```java
 public class JavaIsPassByValue {
 
   public static void changeName 
@@ -105,4 +105,3 @@ System.out.println(p.getName());
 - `Tom` 
 - `Cat` 
 - `Jordan`
- 

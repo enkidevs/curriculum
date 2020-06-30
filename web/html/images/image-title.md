@@ -15,7 +15,7 @@ The `title` attribute can be added to any HTML element, but is most often used w
 
 Example:
 
-```plain-text
+```html
 <img src="logo.svg"
   title="Enki: Official Logo">
 ```
@@ -74,4 +74,3 @@ When the cursor is over the image, what code will add a visual tooltip?
 - text
 - alt
 - src
- 

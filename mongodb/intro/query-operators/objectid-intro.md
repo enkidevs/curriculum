@@ -25,7 +25,7 @@ An `ObjectId` is a value made up of 12-byte of type BSON. These 12-byte values a
 
 Here is an example of an `ObjectId` value:
 
-```plain-text
+```js
 x = ObjectId("507f1f77bcf86cd799439011");
 ```
 
@@ -35,7 +35,7 @@ To understand why `ObjectId`s are better, let's start off by taking a look at an
 
 Example documents:
 
-```plain-text
+```javascript
 { 
   "_id": ObjectId(
     "5d9b400f6fc68ecf1965c726"
@@ -49,7 +49,7 @@ Besides being auto-generated and maintained by Mongo, `ObjectId`s also contain t
 
 To do so, we need to use the `getTimestamp()` method after the `ObjectId` in our MongoDB shell and the output will give us the exact time Mark was employed in an `ISODate` format.
 
-```plain-text
+```javascript
 ObjectId(
   "5d9b400f6fc68ecf1965c726"
 ).getTimestamp();
@@ -57,7 +57,7 @@ ObjectId(
 
 Output:
 
-```plain-text
+```javascript
 ISODate("2019-10-07T13:39:27Z")
 ```
 
@@ -82,4 +82,3 @@ What is an `ObjectId`?
 - An `ObjectId` is a 12-byte BSON type value that stores unique information about the document it was generated for.
 - An `ObjectId` is an object used to hold all the ids.
 - add a manually inputted value for the `_id` field that you can easily remember for later use
- 

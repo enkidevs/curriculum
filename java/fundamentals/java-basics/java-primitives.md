@@ -14,7 +14,7 @@ inAlgoPool: false
 
 In Java, **primitives** are the most basic data types. To be able to use a variable, it must be declared first, like this:
 
-```plain-text
+```java
 int myIntVariable = 3;
 ```
 
@@ -32,7 +32,7 @@ By type of data held, some of the other existing primitives are:
 
 When initialized, if they aren't given any values, each primitive type will default to:
 
-```plain-text
+```java
 int myInt; // default: 0
 long myLong; // default: 0L
 float myFloat; // default: 0.00f
@@ -43,7 +43,7 @@ boolean myBoolean; // default: false
 
 For Java to make the distinction between values of different type, a suffix is needed: `L` for `long`, `f` for `float` and `d` for double. They should be declared as:
 
-```plain-text
+```java
 long myLong = 37512L;
 double myDouble = 3.75d;
 float myFloat = 3.75f;
@@ -64,4 +64,3 @@ The default type of `5.30` is ???
 - float
 - int
 - long
- 

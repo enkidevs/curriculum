@@ -26,7 +26,7 @@ A common reason behind this is a faulty recursion algorithm (the function calls 
 
 If a program requires an extended stack (not because of a flaw in the logic), you can use the following command to change the default stack size:
 
-```plain-text
+```java
 java -Xss:512k MyApplication
 // increases stack to 512Kb
 ```
@@ -34,4 +34,3 @@ java -Xss:512k MyApplication
 Default stack sizes of java threads differ depending upon whether you are using IA32 and X64 from `64` to `512 KB`.
 
 For JVM internal threads (i.e. GC, code generation thread) a special "system" stack of size `256 KB` is used.
- 

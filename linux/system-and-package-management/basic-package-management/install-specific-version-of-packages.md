@@ -24,7 +24,7 @@ Often it's necessary to install a specific version of a package. To do so, a com
 
 This will be displayed when we run:
 
-```plain-text
+```bash
 # debian
 apt-cache showpkg <package_name>
 Package: firefox
@@ -44,7 +44,7 @@ This will output different versions that our sources provide.
 
 To install the specific version simply run:
 
-```plain-text
+```bash
 # debian
 apt-get install <package_name>=<version>
 # rpm
@@ -53,7 +53,7 @@ yum install <package_name>-<version>
 
 For example:
 
-```plain-text
+```bash
 apt-get install firefox=46.0
 ```
 
@@ -67,4 +67,3 @@ apt-get install firefox=46.0
 - Debian
 - RPM
 - BSD
- 

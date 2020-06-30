@@ -23,14 +23,14 @@ links:
 
 Tag commands for future reference:
 
-```plain-text
+```bash
 some_command
    -some_flag some_path #useful
 ```
 
 Then it is possible to search your bash history using `Ctrl+R`:
 
-```plain-text
+```shell
 some_command 
     -some_flag some_path #useful
 bck-i-search: useful
@@ -38,7 +38,7 @@ bck-i-search: useful
 
 Although `#useful` is just a comment in bash, you are not limited to this word. You can also just search for commands that you've used recently. Therefore, creative use of tags can save you time.
 
-```plain-text
+```shell
 some_command
     -some_flag some_path #useful
 bck-i-search: some_command
@@ -64,4 +64,3 @@ To reverse search for a tagged command you have to press ???.
 
 [1:Command History]
 Check out [this thread](https://unix.stackexchange.com/a/163406) to find out how you can further customize your shell or how `HISTFILESIZE` and `HISTSIZE` work under the hood.
- 

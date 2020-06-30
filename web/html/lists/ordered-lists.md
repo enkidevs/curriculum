@@ -22,7 +22,7 @@ links:
 
 The HTML `<ol>`, or the **Ordered List** element is used to represent an ordered list of items.
 
-```plain-text
+```html
 <ol>
   <li>Do this first.</li>
   <li>This second.</li>
@@ -56,7 +56,7 @@ The `type` attribute is used to specify a numbering type for the entire list:
 
 Example with uppercase Roman numerals type:
 
-```plain-text
+```html
 <ol type="I">
   <li>First</li>
   <li>Second</li>
@@ -87,7 +87,7 @@ Ordered lists are best used for:
 
 Complete the HTML code to create a numbered list.
 
-```plain-text
+```html
 <A>
   <B>Buy Jam</B>
   <B>Open Jam</B>
@@ -114,7 +114,7 @@ B: ???
 
 What does this code create?
 
-```plain-text
+```html
 <ol>
   <li>Item</li>
   <li>Item</li>
@@ -147,4 +147,3 @@ What is NOT a good example of an ordered list?
 - Steps for cooking in a recipe
 - Directions to the Apple store
 - Sequence to launch a rocket
- 

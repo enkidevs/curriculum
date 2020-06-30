@@ -17,7 +17,7 @@ links:
 
 In Python, *classes* are also *objects*. Just like any other object, they must be an instance of something: in this case, a **metaclass**. You can find out the base metaclass of a class through:
 
-```plain-text
+```python
 class Enki:
   pass
 print(type(Enki))
@@ -26,14 +26,14 @@ print(type(Enki))
 
 The default metaclass is `type` (not to be confused with the function `type()` that we've just used, which returns the class of an object):
 
-```plain-text
+```python
 print(type(print))
 # <class 'builtin_function_or_method'>
 ```
 
 You can check if `Enki` is truly an **instance** of class `type` through:
 
-```plain-text
+```python
 # metaclass, not the function
 print(isinstance(Enki, type))
 # True
@@ -44,14 +44,14 @@ print(isinstance(enki, Enki))
 
 Metaclasses are defined like normal classes, using `type` as the base class:
 
-```plain-text
+```python
 class Meta(type):
   pass
 ```
 
 However, the `metaclass` keyword argument has to be passed in order to change a class' default `type` metaclass:
 
-```plain-text
+```python
 class Enki(metaclass=Meta):
   pass
 print(type(Enki))
@@ -103,4 +103,3 @@ What is the default metaclass of newly defined classes?
 - `type()`
 - `class`
 - `meta()`
- 

@@ -23,7 +23,7 @@ For the `.apply` method, we have to pass in an array of arguments, but for the `
 
 **Example**
 
-```plain-text
+```javascript
 function.call(obj, 1, 2, 3);
 function.apply(obj, [1, 2, 3]);
 ```
@@ -51,4 +51,3 @@ function.???(obj, 1, 2, 3);
 
 - `call`
 - `apply`
- 

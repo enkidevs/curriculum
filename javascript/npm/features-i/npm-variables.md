@@ -18,7 +18,7 @@ tags:
 
 Another feature of npm is allowing the user to set values which would be seen as *environmental variables* in *scripts*. All re-used values should be declared inside the *config* object:
 
-```plain-text
+```javascript
 "config": {
   "js_dev": "backend/js/",
   "js_prod": "prod/backend/js/",
@@ -37,7 +37,7 @@ The downside of it is that the reference can get quite verbose, as you have to a
 
 You can locally override an existing config by running:
 
-```plain-text
+```bash
 npm config set
     packageName:js_dev js/backend/
 ```
@@ -46,14 +46,14 @@ This would add an entry in the *~/.npmrc* file (`packageName:js_dev=js/backend/`
 
 It is a good idea to include default values as it ensures the scripts can be run without modification. Take *port* for example, in a *server.js* file you could retrieve it by:
 
-```plain-text
+```javascript
 http.createServer(...).listen(
   process.env.npm_package_config_port);
 ```
 
 The same principle as above applies if users want to change the default port:
 
-```plain-text
+```bash
 npm config set packageName:port 80
 ```
 
@@ -89,4 +89,3 @@ npm ??? ??? ??? newValue
 - packageName:property
 - property
 - -s
- 

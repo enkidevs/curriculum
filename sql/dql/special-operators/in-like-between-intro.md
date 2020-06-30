@@ -47,7 +47,7 @@ Let's consider the following `pokemon` table:
 
 The `IN` condition allows you to easily test if a value inside a column matches any one specific item in a list of values.
 
-```plain-text
+```sql
 SELECT *
 FROM pokemon
 WHERE name IN ('Charmander',
@@ -82,4 +82,3 @@ FROM pokemon
 - SUCH THAT
 - IS ONE OF
 - ['Groudon', 'Snorlax', 'Wailord']
- 

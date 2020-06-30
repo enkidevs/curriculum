@@ -27,7 +27,7 @@ Before hooks, many React components would eventually grow to contain many unrela
 
 Now, let's take a look at the following code:
 
-```plain-text
+```jsx
 class BookStatus extends React.Component {
   constructor(props) {
     super(props);
@@ -74,7 +74,7 @@ class BookStatus extends React.Component {
 
 What the above component does is count the number of available books and handle their status. Notice how the `componentDidMount()` and `componentWillUnmount()` methods contain unrelated logic. Now, if we would've used function components, the code would've looked something like this:
 
-```plain-text
+```jsx
 function BookStatus() {
   const [count, setCount] = useState(0);
   const [isAvailable, setIsAvailable] = useState(null);
@@ -136,4 +136,3 @@ function Revision() {
 - `setState`
 - `this.useState`
 - `this.setState`
- 

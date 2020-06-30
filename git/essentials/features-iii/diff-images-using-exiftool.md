@@ -26,7 +26,7 @@ Add this to your `.gitattributes` file:
 
 Configure git to use `exif`:
 
-```plain-text
+```bash
 git config diff.exif.textconv exiftool
 ```
 
@@ -62,4 +62,3 @@ Note that `exiftool` may not be present on your machine. You can install it with
 - extract metadata
 - extract pixels
 - extract color codes
- 

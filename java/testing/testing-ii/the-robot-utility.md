@@ -18,7 +18,7 @@ links:
 
 `Java.awt.Robot` is a class used to mimic the human behavior, taking control over the mouse and keyboard. For example:
 
-```plain-text
+```java
 Robot myRobot = new Robot();
 // Moving the mouse:
 
@@ -42,7 +42,7 @@ Note that `Robot` class won't just generate the events, but actually perform the
 
 Some platforms will require special privileges so make sure you use `Robot` in a try-catch block:
 
-```plain-text
+```java
 try {
  // use myRobot...
 } catch(AWTException awe) {
@@ -85,4 +85,3 @@ myRobot.???(0,0);
 - `moveMouse`
 - `mousePress`
 - `mouseRelease`
- 

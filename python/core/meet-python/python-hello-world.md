@@ -17,13 +17,13 @@ Let's write our first Python program, and print `Hello World!` to our screen!
 
 To do this, in the Python interpreter, use Python's print function as follows:
 
-```plain-text
+```python
 print('Hello World!')
 ```
 
 The output displayed in the shell is:
 
-```plain-text
+```python
 # Hello World!
 ```
 
@@ -62,4 +62,3 @@ Complete the code snippet with the correct function to write `'Python with Enki!
 - `write`
 - `sys.out`
 - `writeln`
- 

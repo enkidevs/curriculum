@@ -32,7 +32,7 @@ The HTML DOM can be accessed by JavaScript through an object called `document`.
 
 In the DOM, all HTML elements are objects. Each object has properties and methods for interacting with the element. For example, you can use the getElementById method with the `innerHTML` property to change the content of a paragraph tag with `id="message"`.
 
-```plain-text
+```html
 <html>
 <body>
 
@@ -105,4 +105,3 @@ Select the element with the id "time" and change it's content to "Future"
 - `document.getElementById('time').innerHTML = "Future"`
 - `document.getElement('time').HTML = "Future"`
 - `DOM.getElementById('time').content = "Future"`
- 

@@ -17,7 +17,7 @@ notes: ''
 Sibling classes cannot be assigned to each other, even with an explicit cast. 
 Because of that property, code below would cause a compile error.
 
-```plain-text
+```java
 class Parent {}
 class Child1 extends Parent {}
 class Child2 extends Parent {}
@@ -30,4 +30,3 @@ c1 = c2; // Compile error
 ```
 
 To avoid such problems you can explicitly cast given class, however `ClassCastException` will be thrown at run-time.
- 

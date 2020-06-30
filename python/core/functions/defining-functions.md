@@ -19,7 +19,7 @@ Functions allow you to split up your code into relevant blocks, and they allow c
 
 Functions in Python use Python's standard block syntax:
 
-```plain-text
+```python
 block-head:
     block line 1
     block line 2
@@ -27,7 +27,7 @@ block-head:
 
 Functions in Python are defined using the `def` keyword, and as explained above follow Python's block syntax, in the example below a function called `new_function` is defined with a simple print method inside:
 
-```plain-text
+```python
 def new_function():
     print('Function defined!')
 ```
@@ -39,7 +39,7 @@ def new_function():
 
 Which of the following syntaxes is correct for defining Python functions:
 
-```plain-text
+```python
 def function1():
     # function code…
 
@@ -73,4 +73,3 @@ What keyword is used to define a new function?
 - `def`
 - `new`
 - `func`
- 

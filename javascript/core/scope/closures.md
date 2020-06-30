@@ -21,7 +21,7 @@ When functions are nested, a closure gives the inner function access to the oute
 
 For example, you can return the inner function `bar()` from the outer function `foo()` and `bar` will still maintain access to the local variables and arguments of the outer function `foo()`:
 
-```plain-text
+```js
 function foo(val) {
   let code = "coding is";
   
@@ -39,7 +39,7 @@ bar(); // "coding is fun"
 
 Which is the same as:
 
-```plain-text
+```js
 foo("fun")(); // "coding is fun"
 ```
 
@@ -52,7 +52,7 @@ Closures allow us to emulate "private" variables using nested functions, by hidd
 
 This code ??? run:
 
-```plain-text
+```javascript
 function foo() {
   let localVariable = "lVar";
   return function bar() {
@@ -75,4 +75,3 @@ A *closure* is created when a function is ???.
 - created
 - called
 - nested
- 

@@ -13,7 +13,7 @@ category: how to
 
 Similarly to addition, subtraction can be achieved by using the `$subtract` operator. The syntax is:
 
-```plain-text
+```javascript
 { 
   $subtract:  
   [ 
@@ -29,7 +29,7 @@ Now, using the same documents as in the previous insight[1], we can use the `$su
 
 Example:
 
-```plain-text
+```javascript
 db.pokemon.aggregate([
   {
     $project: {
@@ -44,7 +44,7 @@ db.pokemon.aggregate([
 
 Output:
 
-```plain-text
+```javascript
 { 
   "_id": ObjectId(
     "5d9d8c330b24990f19398214"
@@ -83,7 +83,7 @@ To subtract one expression from another you have to use the ??? operator which c
 [1:Previous Documents]
 Here are the documents that we have previously used:
 
-```plain-text
+```javascript
 { 
   "Name": "Pikachu",
   "Basic": 101,
@@ -97,4 +97,3 @@ Here are the documents that we have previously used:
   "Ultimate": 667 
 }
 ```
- 

@@ -23,14 +23,14 @@ To prevent the access, we can set the user's shell to `nologin`.
 
 First, obtain the path of *nologin*:
 
-```plain-text
+```bash
 which nologin
 /bin/nologin
 ```
 
 Then set user's shell to *nologin* as root :
 
-```plain-text
+```bash
 sudo chsh <guestUser> -s /bin/nologin
 ```
 
@@ -38,7 +38,7 @@ sudo chsh <guestUser> -s /bin/nologin
 
 To give the access back, restore the login shell to `bash`:
 
-```plain-text
+```bash
 sudo chsh <guestUser> -s /bin/bash 
 ```
 
@@ -77,4 +77,3 @@ sudo ??? Tom
 - `/bin/bash`
 - `cshs`
 - `/bin/login`
- 

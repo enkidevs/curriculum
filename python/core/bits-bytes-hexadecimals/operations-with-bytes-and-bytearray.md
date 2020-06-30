@@ -20,7 +20,7 @@ Both `bytes` and `bytearray` support **common** special operations not only with
 
 Arguments should not be strings, but conversions:
 
-```plain-text
+```python
 a = bytes(b"abc") # bytes object
 b = a.replace("a", "f")  # will raise error
 b = a.replace(b"a", b"f") # will work
@@ -32,7 +32,7 @@ Most of the following methods have been introduced in Python's version 3.1 or mo
 
 You can `count` the occurrences of a subsequence:
 
-```plain-text
+```python
 a = bytearray(b"ababab")
 print(a.count(b"a"))
 # output: 3
@@ -40,7 +40,7 @@ print(a.count(b"a"))
 
 You can check if all bytes in the sequence are **ASCII alphanumeric** characters:
 
-```plain-text
+```python
 >>> (b'abc').isalnum()
 True
 >>> (b'abc?').isalnum()
@@ -49,14 +49,14 @@ False
 
 You can create **copy** of the bytes, zero-filled to a specified width. This is useful in generating formatted report columns:
 
-```plain-text
+```python
 >>> (b"37").zfill(6)
 b'000037'
 ```
 
 You can `strip` a `bytes` object to remove leading or trailing bytes from a specified sequence given as argument:
 
-```plain-text
+```python
 >>> (b'www.enki.com').strip(b'wcom.')
 b'enki'
 ```
@@ -94,4 +94,3 @@ True
 - `isalphanum`
 - `isalpnum`
 - `isnum`
- 

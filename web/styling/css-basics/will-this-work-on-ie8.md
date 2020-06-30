@@ -22,7 +22,7 @@ Let's find out.
 
 no way...:it works!
 
-```plain-text
+```true
 position:fixed;
 %exp
 `position` property specifies the type of positioning method used. IE supports this property since version 8.
@@ -53,7 +53,7 @@ box-sizing: border-box;
 %
 ```
 
-```plain-text
+```false
 touch-action: auto;
 %exp
 `touch-action` specifies whether a given region can be manipulated by the user via a touchscreen. `auto` enables browser handling of all panning(scrolling) and zooming gestures. The first version of IE to support this property is IE10.
@@ -105,4 +105,3 @@ resize: both;
 The `resize` property controls if and how an element can be resized by the user by clicking and dragging the bottom right corner of the element. This property isn't compatible with any version of IE.
 %
 ```
- 

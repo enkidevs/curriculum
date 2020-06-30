@@ -20,7 +20,7 @@ links:
 
 An `abstract` method is a method that is declared without an implementation.
 
-```plain-text
+```java
 abstract int calculate(int a);
 ```
 
@@ -28,7 +28,7 @@ Rather than being defined with braces `{}`, the method is left without an implem
 
 A class which contains `abstract` methods must itself be declared as `abstract`. An `abstract` class cannot be instantiated, but it can be extended. Subclasses of an `abstract` class usually provide implementations of `abstract` methods. For example:
 
-```plain-text
+```java
 abstract class SuperClass {
   abstract int calculate(int a);
 }
@@ -82,4 +82,3 @@ abstract float optionC(float e) {
 - Option A
 - Option B
 - Option C
- 

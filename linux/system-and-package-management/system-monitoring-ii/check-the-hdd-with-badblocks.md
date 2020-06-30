@@ -22,13 +22,13 @@ tags:
 
 It can be used to generate a file that can then feed to `fsck`.
 
-```plain-text
+```bash
 badblocks -v /dev/hda1 > bad_blocks
 ```
 
 This generates a `bad_blocks` file. Input `bad_blocks` into `fsck` with:
 
-```plain-text
+```bash
 fsck -t ext3 -l bad_blocks /dev/hda1
 ```
 
@@ -61,4 +61,3 @@ You can check your hard drive for bad sectors with
 - fsck
 - usermod
 - hostname
- 

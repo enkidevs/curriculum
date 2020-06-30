@@ -26,7 +26,7 @@ Examples of inline elements include `<span>`, `<a>`, `<label>`, `<input>`, `<img
 
 Example of useless CSS:
 
-```plain-text
+```css
 span {
   height: 20px; /* no effect! */
   top: 20px; /* no effect! */
@@ -62,4 +62,3 @@ Which of the following elements is not inline?
 - `<span>`
 - `<input>`
 - `<img>`
- 

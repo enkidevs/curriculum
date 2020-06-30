@@ -22,7 +22,7 @@ A common task in any programming language is to concatenate and format strings.
 
 You have probably found yourself writing like this many times:
 
-```plain-text
+```javascript
 let greeting = "Hi " + name;
 ```
 
@@ -30,7 +30,7 @@ Template Literals provide a more succinct and readable form allowing us to speci
 
 Note how the string itself is also enclosed with the *backtick* characters instead of `'` or `"`:
 
-```plain-text
+```javascript
 let name = "Enki";
 let greeting = `Hello ${name}`;
 // "Hello Enki"
@@ -38,7 +38,7 @@ let greeting = `Hello ${name}`;
 
 We can also use template literals to spread our declaration across multiple lines:
 
-```plain-text
+```javascript
 let name = "User";
 let greeting = `Hello ${name}
 Line1
@@ -53,7 +53,7 @@ Line2"
 
 We can even use expressions within the placeholders:
 
-```plain-text
+```javascript
 let x = 1;
 let y = 2;
 let test = `Hello ${x + y}`;
@@ -62,7 +62,7 @@ let test = `Hello ${x + y}`;
 
 Note that if for some reason you wanted to use a backtick in your expression this can be done by escaping it with a backslash e.g.
 
-```plain-text
+```javascript
 let greeting = `hello \``;
 ```
 
@@ -121,4 +121,3 @@ console.log(str)
 - dayNumber
 - ${year}
 - {dayNumber}
- 

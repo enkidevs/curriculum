@@ -19,19 +19,19 @@ You might find yourself having made a wrong commit. For this scenario, **Git** p
 
 Basic syntax for reverting:
 
-```plain-text
+```bash
 git revert <commit>
 ```
 
 This generates a new commit with all the changes introduced in `<commit>` afterwards applying it to the current branch. Suppose this is your most recent commit:
 
-```plain-text
+```bash
 git commit -m "might be buggy"
 ```
 
 You can revert the last commit in the branch with:
 
-```plain-text
+```bash
 git revert HEAD
 ```
 
@@ -76,4 +76,3 @@ What command is used to get rid of a commit by undoing the changes introduced by
 - `git restart`
 - `git clean`
 - `git commit`
- 

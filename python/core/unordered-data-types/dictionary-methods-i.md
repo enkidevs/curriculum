@@ -19,7 +19,7 @@ Python has tons of built-in methods for dictionaries. Let's explore some of the 
 
 Consider the following dictionary:
 
-```plain-text
+```python
 square_numbers = {
   1: 1,
   2: 4,
@@ -31,7 +31,7 @@ square_numbers = {
 
 - `clear()` removes all items from the dictionary
 
-```plain-text
+```python
 square_numbers.clear()
 
 print(square_numbers)
@@ -40,7 +40,7 @@ print(square_numbers)
 
 - `copy()` returns a **shallow copy**[1] of the dictionary
 
-```plain-text
+```python
 new = square_numbers.copy()
 
 print(new)
@@ -49,7 +49,7 @@ print(new)
 
 - `items()` returns a `list` of the dictionary items expressed as tuples `(key, value)`
 
-```plain-text
+```python
 square_numbers.items()
 
 # dict_items([(1, 1), (2, 4), (3, 9), (4, 16), (5, 25)])
@@ -100,4 +100,3 @@ english_to_french.???
 
 [1:Shallow Copy]
 Shallow copies duplicate the minimum amount necessary. Let's say we have a collection named `a`. If we were to make a **shallow copy** of it (named `b`), we would say that `b` represents a copy of `a`s structure, but not `a`s elements.
- 

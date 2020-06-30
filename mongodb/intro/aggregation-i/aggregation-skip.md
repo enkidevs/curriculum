@@ -20,13 +20,13 @@ The `$limit` stage limits the number of documents you want to enter into the agg
 
 Syntax:
 
-```plain-text
+```javascript
 { $skip: <positive integer> }
 ```
 
 For instance, let's say we have a `pokemon` collection with 10 pokémon and want to aggregate only the last 2. We can do that like so:
 
-```plain-text
+```javascript
 db.pokemon.aggregate({
   // skip the first 8 pokemon
   $skip: 8 
@@ -35,7 +35,7 @@ db.pokemon.aggregate({
 
 Output:
 
-```plain-text
+```javascript
 {
   "_id": ObjectId(
     "5d9d8bde0b24990f19398212"
@@ -56,7 +56,7 @@ Output:
 
 The `$skip` pipeline stage can also be used with `$limit`, `$count` and/or `$match`.
 
-```plain-text
+```javascript
 db.pokemon.aggregate([
   { $skip: 8 },
   { $limit: 1 }
@@ -65,7 +65,7 @@ db.pokemon.aggregate([
 
 Output:
 
-```plain-text
+```javascript
 {
   "_id": ObjectId(
     "5d9d8bde0b24990f19398212"
@@ -91,7 +91,7 @@ Which of the 2 examples below is a valid `$skip` stage?
 
 ???
 
-```plain-text
+```js
 // A
 { $skip: 9.9 }
 // B
@@ -125,4 +125,3 @@ db.games.???(
 - `58`
 - `100`
 - `document`
- 

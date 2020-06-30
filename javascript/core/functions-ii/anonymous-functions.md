@@ -19,7 +19,7 @@ links:
 
 If you use a **function expression** to define a function, you can omit the function's name. The syntax is:
 
-```plain-text
+```javascript
 function [name]([p1[, p2[, ...,]]]) {
    statements
 }
@@ -27,7 +27,7 @@ function [name]([p1[, p2[, ...,]]]) {
 
 An example of an **anonymous** function:
 
-```plain-text
+```javascript
 var square = function(x) {
    return x * x;
 };
@@ -73,4 +73,3 @@ var cube = ???(x) {
 - let
 - name
 - {}
- 

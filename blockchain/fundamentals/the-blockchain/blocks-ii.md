@@ -21,7 +21,7 @@ They are one-way functions: the compression algorithm is fairly simple and alway
 
 Consider the following examples:
 
-```plain-text
+```bash
 string: Enki is great!
 SHA3-256: 8b9580615ff7c00180ceae471033b8ced0
   092ea79540db552e6f559af40d53fa
@@ -58,4 +58,3 @@ Identify a property of the above function:
 - Reductor function
 - Bijective function
 - Reversible function
- 

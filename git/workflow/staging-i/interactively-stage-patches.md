@@ -17,7 +17,7 @@ links:
 
 To partially stage a file:
 
-```plain-text
+```bash
 git add -p
 # or
 git add --patch
@@ -49,4 +49,3 @@ Complete the following code snippet to partially stage a file:
 - -p
 - -patch
 - stage
- 

@@ -17,7 +17,7 @@ links:
 
 As symbols are always unique they are great for library authors to defining values without fear of overwriting anything existing e.g.
 
-```plain-text
+```javascript
 var companyKey = Symbol();
 var obj = {}
 window[companyKey] = "Enki";
@@ -25,13 +25,13 @@ window[companyKey] = "Enki";
 
 They can also be used as a kind of constant within an application:
 
-```plain-text
+```javascript
 const highDiscountLevel = Symbol();
 ```
 
 This is better than just defining a const string as there would be nothing to stop a developer doing the following:
 
-```plain-text
+```javascript
 const highDiscountLevel = "high";
 
 //uh oh 2 consts
@@ -67,4 +67,3 @@ Which of the following is true about Symbols?
 - Symbols can be overwritten
 - Symbols can't be used by libraries
 - Symbols are unique and mutable
- 

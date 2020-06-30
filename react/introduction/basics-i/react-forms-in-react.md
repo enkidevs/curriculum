@@ -22,7 +22,7 @@ A controlled component means having the component's `state` as **single source o
 
 Consider the following `render`ing of a component:
 
-```plain-text
+```jsx
 // set initial state in constructor
 constructor(props) {
   super(props);
@@ -41,7 +41,7 @@ The displayed `value` of the element will always be `this.state.in`. The `onChan
 
 To keep the displayed value in sync with the user input the `setState()` method is used:
 
-```plain-text
+```jsx
 handle(e) {
   this.setState({
     in: e.target.value,
@@ -55,28 +55,28 @@ With consistency in mind, *form elements* in **React** work a little differently
 
 - for `<textarea />` the text is specified with `value` attribute instead of having it as a child:
 
-```plain-text
+```html
 <!-- standard HTML -->
 <textarea>
   Text goes here
 </textarea>
 ```
 
-```plain-text
+```jsx
 // React
 <textarea value='Text goes here' />
 ```
 
 - for `<select />`, instead of using `selected` attribute on an `<option />` to specify the default selection, you can specify the `<option />`'s `value` in the root `<select />`:
 
-```plain-text
+```html
 <!-- standard HTML -->
 <select>
   <option selected value='a'>A</option>
 </select>
 ```
 
-```plain-text
+```jsx
 // React
 <select value='a'>
   <option value='a'>A</option>
@@ -155,4 +155,3 @@ A component ???.
 DOM events for input elements have a specific shape and contain specific data (e.g. `Event.target()`). You can find a [comprehensive list](https://developer.mozilla.org/en-US/docs/Web/API/Event) of event properties in the Mozilla documentation.
 
 React mimics this feature with synthetic events. The React documentation holds a [list of supported events](https://reactjs.org/docs/events.html#supported-events).
- 

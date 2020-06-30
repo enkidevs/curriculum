@@ -19,7 +19,7 @@ links:
 
 The operation will be performed on the red, blue and green components respectively.
 
-```plain-text
+```css
 p {
   color: #080200 + #010501;
 }
@@ -27,7 +27,7 @@ p {
 
 Would be computed as:
 
-```plain-text
+```css
 08 + 01 = 09
 02 + 05 = 07
 00 + 01 = 01
@@ -35,7 +35,7 @@ Would be computed as:
 
 And then compiled to:
 
-```plain-text
+```css
 p {
   color: #090701
 }
@@ -43,7 +43,7 @@ p {
 
 Colours with an alpha channel must have the same alpha value for color arithmetic to work. The arithmetic operation does not affect the alpha value.
 
-```plain-text
+```css
 p {
   color: rgba(255, 0, 100, 0.75) +
          rgba(0, 255, 0, 0.75);
@@ -52,7 +52,7 @@ p {
 
 Compiles to:
 
-```plain-text
+```css
 p {
   color: rgba(255, 255, 100, 0.75); }
 ```
@@ -85,7 +85,7 @@ p {
 
 What's the result of the following operation?
 
-```plain-text
+```css
 p {
   color: #001000 + #000034;
 }
@@ -102,4 +102,3 @@ p {
 - `#001034`
 - `#341000`
 - `#000034`
- 

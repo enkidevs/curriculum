@@ -25,27 +25,27 @@ A clear example would be like installing the latest `node.js` build or installin
 
 On the command line you can add a PPA using the `add-apt-repository` utility, e.g.:
 
-```plain-text
+```bash
 add-apt-repository ppa:gwibber-daily/ppa
 ```
 
 If you get an error that the add-apt-repository command could not be found, on Ubuntu 12.04 and earlier, install the python-software-properties package:
 
-```plain-text
+```bash
 apt-get install
    python-software-properties
 ```
 
 On Ubuntu 14.04 and later:
 
-```plain-text
+```bash
 apt-get install 
   software-properties-common
 ```
 
 You can remove a ppa by doing
 
-```plain-text
+```bash
 ppa-purge ppa:<lp-name>/<ppa-name>
 ```
 
@@ -69,4 +69,3 @@ ppa-purge ppa:<lp-name>/<ppa-name>
 
 [1:Acronym]
 Personal Package Archive
- 

@@ -24,7 +24,7 @@ When referencing files from the command line, you can use wildcard characters li
 
 The `*` wildcard means "any number of characters including none".  For example, if you wanted to move every file ending with `.mp3` from the current directory to the `~/music` directory, you could run the following command:
 
-```plain-text
+```shell
 mv *.mp3 ~/music
 ```
 
@@ -40,7 +40,7 @@ You can also match specific characters by using the `[...]` wild card.  For exam
 
 Be careful when using `*` as a misplaced space or other character can wreak havoc.  Notice the space between `*` and `.mp3`:
 
-```plain-text
+```shell
 mv * .mp3 ~/music
 ```
 
@@ -57,7 +57,7 @@ What kind of file would the following expression match?
 
 ???
 
-```plain-text
+```bash
 mv ??*.[mM]p3
 ```
 
@@ -79,4 +79,3 @@ The `?` wildcard matches
 - any character
 - any capital letter
 - one or more characters
- 

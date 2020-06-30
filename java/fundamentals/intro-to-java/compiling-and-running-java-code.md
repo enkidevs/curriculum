@@ -27,7 +27,7 @@ Let's take a look at the previous `HelloJava.java` example[3]. To run it, you'll
 
 1. Compile it to bytecode:
 
-```plain-text
+```bash
 javac HelloWorld.java
 ```
 
@@ -35,7 +35,7 @@ javac HelloWorld.java
 
 2. Run the resulting bytecode
 
-```plain-text
+```bash
 java HelloWorld
 Hello World!
 ```
@@ -84,7 +84,7 @@ Unlike Java code, a JVM has to be platform specific as it provides a link betwee
 [3:Previous Example]
 Here's how the previous example looked like:
 
-```plain-text
+```java
 // HelloJava.java
 public class HelloJava {
   public static void main(String[] args) {
@@ -93,4 +93,3 @@ public class HelloJava {
 }
 // Hello Java!
 ```
- 

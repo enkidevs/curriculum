@@ -21,7 +21,7 @@ links:
 
 Even the simplest of web pages must contain at least one block of text. Usually, these fields are semantically delimited by the `<h>` and `<p>` tags.
 
-```plain-text
+```html
   <h1>Page title</h1>
   <h3>Subtitle</h3>
   <h6>The smallest of the headings</h6>
@@ -43,7 +43,7 @@ The visual difference between *headings* and *paragraph* are:
 
 Each of these elements occupy a whole line, and the spacing above and below them is constant, even when nested. This behavior is specific for **block elements**, which both headings and paragraphs display as. Here, you can see the whole line and spacing of nested paragraphs:
 
-```plain-text
+```html
  <p>Main paragraph.
    <p>Nested paragraph.</p>
    <p>A second nested paragraph.</p>
@@ -84,4 +84,3 @@ All headings are ??? by default.
 - italic
 - bigger than paragraphs
 - smaller than paragraphs
- 

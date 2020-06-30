@@ -23,9 +23,8 @@ Buffered streams typically only call the native output API once the buffer is fu
 
 This can be done by calling the `flush` method which is included in all output stream classes:
 
-```plain-text
+```java
 outStream.flush();
 ```
 
 However, it is not always necessary to manually flush a buffer. For example, the `close` method automatically flushes the buffer before closing the stream.
- 

@@ -24,7 +24,7 @@ Technically, the doctype declaration isn't an HTML element, but a specific direc
 
 The doctype declaration for HTML5 is:
 
-```plain-text
+```html
 <!DOCTYPE html>
 ```
 
@@ -76,4 +76,3 @@ What is required on the first line of every HTML5 document?
 - Link to the CSS document
 - Opening `<html>` element
 - Opening `<head>` element
- 

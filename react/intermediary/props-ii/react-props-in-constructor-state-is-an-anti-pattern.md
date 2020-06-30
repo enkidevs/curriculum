@@ -16,7 +16,7 @@ Passing down props from the parent to generate state in the `constructor` can le
 
 An example of a duplication of source of truth:
 
-```plain-text
+```javascript
 class Duplication extends React.Component {
   constructor(props) {
     super(props);
@@ -36,7 +36,7 @@ This is bad due to `this.state` being invoked when the component is first create
 
 Computing values on-the-fly ensures that values don't get out of sync later and cause maintenance issues.
 
-```plain-text
+```javascript
 class OnTheFly extends React.Component {
   render() {
     return (
@@ -60,7 +60,7 @@ ReactDOM.render(
 
 Which of the following two components do you think employs the best practice for passing props?
 
-```plain-text
+```javascript
 class A extends React.Component {
   constructor(props) {
     super(props);
@@ -106,4 +106,3 @@ What do you think about generating state from props in `this.state` in the const
 - it's a good practice
 - can cause application crashes
 - it's useful when working with many props
- 

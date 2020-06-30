@@ -19,7 +19,7 @@ We can distinguish at least two types of errors in Python: **syntax errors** and
 
 **Syntax errors**, also known as **parse errors**, are the most common problem beginner programmers encounter. In their case, the parser displays a little **arrow** pointing to the first character where the error was detected:
 
-```plain-text
+```python
 def func():
 value = 5
 return value
@@ -33,7 +33,7 @@ return value
 
 Indentation in Python is very important. We want the **variable** to be assigned and returned in the **function body**. As the error states, we need to properly indent the code:
 
-```plain-text
+```python
 def func():
     value = 5
     return value
@@ -41,7 +41,7 @@ def func():
 
 However, even if the code is *syntactically correct*, we can still encounter errors when executing the program. Errors detected while executing the program are called **exceptions**. There are types of exceptions which cause the program to stop executing and types of exceptions which can be handled.
 
-```plain-text
+```python
 number = 10 + (10/0)
 
 # Traceback (most recent call last):
@@ -63,7 +63,7 @@ The **message body** displays:
 
 Based on its description, what's the error the parser is most likely to throw?
 
-```plain-text
+```python
 def sum():
   return 1 + '10'
 ```
@@ -89,4 +89,3 @@ Which of the following is an alternative name for compile time errors?
 - `bugs`
 - `errors`
 - `parse errors`
- 

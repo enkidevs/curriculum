@@ -19,7 +19,7 @@ tags:
 
 To set up password-free authentication start by generating a pair of keys:
 
-```plain-text
+```bash
 ssh-keygen -t rsa
 
 Generating public/private rsa key pair.
@@ -30,13 +30,13 @@ Enter passphrase (empty for no passphrase):
 
 After you choose a path and a password, you can see the generated key by running:
 
-```plain-text
+```bash
 cat ~/.ssh/id_rsa.pub
 ```
 
 All is left to do is to copy your key to the server:
 
-```plain-text
+```bash
 cat ~/.ssh/id_rsa.pub |
   ssh user@hostname 'cat >>
       ~/.ssh/authorized_keys &&
@@ -50,13 +50,13 @@ The permission part is necessary, otherwise the server won't recognize your key 
 
 You will then be able to log in without introducing a password:
 
-```plain-text
+```bash
 ssh user@hostname
 ```
 
 Some distributions may have the `ssh-copy-id` utility that makes the process easier:
 
-```plain-text
+```bash
 ssh-copy-id user@hostname
 ```
 
@@ -94,4 +94,3 @@ The file on the server in which to add your ssh key to set up password-less auth
 - `~/.ssh/authorized_keys`
 - `~/ssh/authorized_keys`
 - `~/ssh/keys`
- 

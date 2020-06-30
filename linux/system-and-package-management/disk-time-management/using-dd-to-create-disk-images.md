@@ -19,7 +19,7 @@ The `dd` command is a versatile tool for copying and converting files.  Most com
 
 A common use case for `dd` is creating a disk image file from a physical disk, e.g., a CD-ROM.  Let's say your CD/DVD drive is `/dev/cdrom`.  The following `dd` command will create an image (ISO file) of the CD:
 
-```plain-text
+```shell
 dd if=/dev/cdrom of=~/my_cd.iso
 ```
 
@@ -45,4 +45,3 @@ You can create an image of disks by running:
 - `-of`
 - `-if`
 - `cp`
- 

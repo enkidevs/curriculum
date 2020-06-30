@@ -31,7 +31,7 @@ Node is another popular platform and it uses JavaScript. As there are lots of pa
 
 We will create a node app and use a `pg` package in order to connect to a *Pokemon* database and output the results to the console:
 
-```plain-text
+```js
 // require the correct package
 const pg = require("pg");
 // use a correct connection string
@@ -64,7 +64,7 @@ client.connect((err)=> {
 
 The result of the following code should be similar to:
 
-```plain-text
+```js
 [ anonymous { id: '1', name: 'black' },
   anonymous { id: '2', name: 'blue' },
   anonymous { id: '3', name: 'brown' },
@@ -106,4 +106,3 @@ What package is used in order to connect to a Postgres database in nodeJS?
 - pg
 - mongoose
 - sqlite3
- 

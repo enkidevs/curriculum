@@ -21,27 +21,27 @@ Declaring a variable in JavaScript can be done in 3 ways.
 
 The first is using the `let` keyword:
 
-```plain-text
+```javascript
 let firstName = "Enki";
 ```
 
 Which allows us to also change what the variable points to, if needed:
 
-```plain-text
+```javascript
 let firstName = "Enki";
 firstName = "Changed"; // this works
 ```
 
 We can also declare a variable using `const`, but in this case we cannot change what it points to:
 
-```plain-text
+```javascript
 const firstName = "Enki";
 firstName = "Changed"; // Error!
 ```
 
 The final (and the oldest) way of declaring a variable in JavaScript is using `var`:
 
-```plain-text
+```javascript
 var firstName = "Enki";
 firstName = "Changed"; // this works
 ```
@@ -52,7 +52,7 @@ We'll learn more about the differences between `let`, `const`, and `var` later o
 
 Statements in JavaScript end in a `;`. Based on the ECMAScript[1] rules however, adding a `;` isn't actually required (although it is common practice):
 
-```plain-text
+```javascript
 let firstName = "Enki";
 //                    ^
 ```
@@ -68,19 +68,19 @@ This can sometimes lead to unexpected results[2]. Thus, it's usually recommended
 
 Which snippet will throw an error?
 
-```plain-text
+```js
 // Option A
 let answer = 42;
 answer = 'life';
 ```
 
-```plain-text
+```js
 // Option B
 const answer = 42;
 answer = 'life';
 ```
 
-```plain-text
+```js
 // Option C
 var answer = 42;
 answer = 'life';
@@ -119,7 +119,7 @@ JavaScript ASI will sometimes assume a statement ends where it might not be inte
 
 For example, the code bellow:
 
-```plain-text
+```js
 x 
 ++ 
 y
@@ -127,15 +127,14 @@ y
 
 is understod as:
 
-```plain-text
+```js
 x;
 ++y;
 ```
 
 and not as:
 
-```plain-text
+```js
 x++;
 y
 ```
- 

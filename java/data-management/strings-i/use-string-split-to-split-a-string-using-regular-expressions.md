@@ -19,7 +19,7 @@ links:
 
 `split` takes a regular expression and splits the string around occurrences of this expression into an array of strings.
 
-```plain-text
+```java
 String s = "I ate 6 pancakes, 4
   digestives, 2 boxes of cherries, then
   I went to bed";
@@ -31,7 +31,7 @@ In the example above, the original string will be split each time a `,` is encou
 
 Splitting on `,`:
 
-```plain-text
+```java
 [ "I ate 6 pancakes",
   "4 digestives",
   "2 boxes of cherries",
@@ -41,7 +41,7 @@ Splitting on `,`:
 
 Splitting on `\d`:
 
-```plain-text
+```java
 [ "I ate",
   "pancakes,",
   "digestives and",
@@ -61,7 +61,7 @@ Java’s split method ignores any trailing empty Strings.
 
 What's the value of `l`?
 
-```plain-text
+```java
   int l = "Hi-there-are-you-alright---".split("-").length +
       "---Hi-there-are-you-alright".split("-").length;
 ```
@@ -72,4 +72,3 @@ What's the value of `l`?
 - 10
 - 16
 - 12
- 

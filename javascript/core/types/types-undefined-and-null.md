@@ -19,7 +19,7 @@ In JavaScript, there are two ways to check if two values are equal.
 
 Using `==` to compare two values will first force the values to have the same type before comparing them:
 
-```plain-text
+```js
 // a number 2
 let x = 2; 
 
@@ -39,7 +39,7 @@ console.log(
 
 Using `===` will require us to match both the type and the value:
 
-```plain-text
+```js
 // a number 2
 let x = 2; 
 
@@ -60,7 +60,7 @@ console.log(
 
 A variable has a value of `undefined` when it is created but not set to a value. The type of `undefined` is `"undefined"`:
 
-```plain-text
+```js
 let company;
 company === undefined; // true
 typeof company; // "undefined"
@@ -68,7 +68,7 @@ typeof company; // "undefined"
 
 Note that if the `typeof` operator is used on a variable that has never been defined it will also return `undefined`:
 
-```plain-text
+```js
 typeof randomName; // undefined
 ```
 
@@ -78,7 +78,7 @@ The way to think of `undefined` is as the default value assigned to anything wit
 
 `null` is used to represent a deliberate absence of a value:
 
-```plain-text
+```js
 let myNullValue = null;
 ```
 
@@ -86,7 +86,7 @@ Unlike `undefined`, which JavaScript automatically assigns as the value wherever
 
 If you compare `null` and `undefined` you will find they are equal when using `==`:
 
-```plain-text
+```js
 null  == undefined // true
 ```
 
@@ -121,4 +121,3 @@ undefined == null
 
 - true
 - false
- 

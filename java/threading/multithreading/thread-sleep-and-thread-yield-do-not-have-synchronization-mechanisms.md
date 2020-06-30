@@ -20,7 +20,7 @@ Before a `Thread.sleep` or `Thread.yield` call the Java compiler will not flush 
 
 In the following code snippet, `this.done` is assumed to behave like a **non-volatile** `boolean` field.
 
-```plain-text
+```java
 while (!this.done)
     Thread.sleep(1000);
 ```
@@ -31,7 +31,7 @@ The loop will continue endlessly, even though we assume that the value of `this.
 
 You can avoid this scenario by using the `volatile` keyword:
 
-```plain-text
+```java
 volatile boolean done;
 ```
 
@@ -52,4 +52,3 @@ Take the following code snippet, the loop will run and loop endlessly, despite t
 - `static`
 - `finished`
 - `checker`
- 

@@ -21,7 +21,7 @@ Making assertions allows us to check that our methods produce the correct output
 
 The `Assert` class contains many methods allowing us to assert different things. For example, we can assert that two arrays are equal:
 
-```plain-text
+```java
 String[] arrayA = {"a", "b", "c"};
 String[] arrayB = {"a", "b", "c"};
 assertArrayEquals(arrayA, arrayB);
@@ -29,7 +29,7 @@ assertArrayEquals(arrayA, arrayB);
 
 This assertion will pass because `arrayA` and `arrayB` are equal. In JUnit, if one assertion in a test fails, then that test method counts as having failed.
 
-```plain-text
+```java
 private boolean isEven(int number) {
   if(number % 2 == 0) return true;
   else return false;
@@ -74,4 +74,3 @@ String[] b = {"a", "b", "c"};
 - `assertArrayEquals`
 - `assert`
 - `assertTest`
- 

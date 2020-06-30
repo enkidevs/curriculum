@@ -20,7 +20,7 @@ In our case, since we’re looking at different values for the same field (the `
 
 Using the `$or` operator:
 
-```plain-text
+```javascript
 db.pokemon.find({
   $or: [
     { type: "Electric" },
@@ -31,7 +31,7 @@ db.pokemon.find({
 
 Using the `$in` operator:
 
-```plain-text
+```javascript
 db.pokemon.find({
   type: {
     $in: ["Grass", "Electric"]
@@ -41,7 +41,7 @@ db.pokemon.find({
 
 Output is the same for both examples:
 
-```plain-text
+```javascript
 {
   "_id": ObjectId(
     "5d9d8c330b24990f19398214"
@@ -110,4 +110,3 @@ Find all the documents within the `pokemon` collection that have a `type` that's
 - `db.Pokemon.find({ type: [ "Water","Fire" ] })`
 - `db.pokemon.find({ $in: [ "Water","Fire" ] })`
 - `db.pokemon.find({ $or: { type: ["Water","Fire"] } })`
- 

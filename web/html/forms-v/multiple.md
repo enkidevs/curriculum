@@ -16,7 +16,7 @@ When setting HTML input form attributes, you can set the `multiple` attribute to
 
 Example:
 
-```plain-text
+```html
 <form
    action="/action_page.php">
   Select images:
@@ -85,4 +85,3 @@ Which statement is not true regarding the `multiple` input form attribute?
 - When present, more than one value can be added in the `<input>` element.
 - Works with email input type, separated by commas.
 - Works with file input type, by holding down CTRL or SHIFT keys while selecting.
- 

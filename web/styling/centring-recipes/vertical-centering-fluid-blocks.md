@@ -20,7 +20,7 @@ links:
 
 To vertically center blocks of unknown height:
 
-```plain-text
+```css
 .elem {
   position: absolute;
   top: 50%;
@@ -43,7 +43,7 @@ Therefore moving it up by 50% of its height, means the middle of `.elem` will be
 
 What does the following CSS code snippet do? ???
 
-```plain-text
+```css
 #class {
    position: absolute;
    top: 50%;
@@ -55,4 +55,3 @@ What does the following CSS code snippet do? ???
 - Vertically flips a fluid block.
 - Sets a blocks top side to be 50% of the way up the document.
 - Sets the blocks position to absolute and flips it vertically.
- 

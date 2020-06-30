@@ -16,7 +16,7 @@ links:
 
 An **assignment** only creates a "binding" (an association) between a name and a "target" (object of some type). A  **copy** is sometimes necessary so you can change the value of one object without changing the other (when two names are pointing to the same object).
 
-```plain-text
+```python
 # Assignment: bind the name y to
 # the list [1, 2].
 y = [1, 2]
@@ -34,7 +34,7 @@ The copy module has methods to support both shallow and deep copying of objects.
 
 To create a **shallow** copy:
 
-```plain-text
+```python
 from copy import copy
 
 y = [1, 2]
@@ -52,7 +52,7 @@ The **shallow copy** behaves in the following way:
 
 To create a **deep** copy (instead of pointing to the same memory location, the new reference points to a completely different memory where an exact copy of an object is stored):
 
-```plain-text
+```python
 from copy import deepcopy
 #...
 x = deepcopy(y)
@@ -89,4 +89,3 @@ Why should we use `copy/deepcopy` rather than `B = A` in order to set *B* so tha
 
 - `=` doesn't create a copy of an object, it just makes *B* points to the same memory address as *A*, so when *B* is changed, *A* is changed too.
 - Python does not support `B = A` as you can not assign object references.
- 

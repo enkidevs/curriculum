@@ -102,7 +102,7 @@ Add map elements to create clickable areas within a single image.
 
 When using the map element to create clickable areas within a single image, what are the available shapes?
 
-```plain-text
+```html
 <map name="imagemap">
   <area shape="_____"
     coords="" alt="" href="page.htm">
@@ -146,4 +146,3 @@ Place the shape value within the appropriate location to create the proper code.
 - polygon
 - pentagon
 - square
- 

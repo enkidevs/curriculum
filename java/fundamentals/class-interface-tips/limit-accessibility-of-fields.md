@@ -20,7 +20,7 @@ Declaring variables with a `final` type *prevents* changes to the memory address
 
 Consider this:
 
-```plain-text
+```java
 public final Person p = 
      new Person("John");
 
@@ -28,14 +28,14 @@ public final Person p =
 
 While the `final` keyword *won't* allow something like:
 
-```plain-text
+```java
 p = new Person("Jack");
 //this will throw an error
 ```
 
 Changes made to the state of the object are still possible:
 
-```plain-text
+```java
 p.age = 30;
 // p still references Person John
 // which now is also 30 years old
@@ -47,7 +47,7 @@ A `private` field won't be visible to other classes, so a public method called *
 
 This translates into:
 
-```plain-text
+```java
 public class Employee{
   private Person p = 
      new Person("John");
@@ -58,7 +58,7 @@ Which isn't accessible from a second class (e.g. `Company`). In other words, `p`
 
 The getter method looks like this:
 
-```plain-text
+```java
 public class Employee{
   public Person getPerson(){
      return p;
@@ -73,7 +73,7 @@ public class Employee{
 
 Why won’t the following code snippet compile?
 
-```plain-text
+```java
 public class Person {
   private String name;
   public Person(String name){
@@ -104,4 +104,3 @@ If a want an object to be immutable outside of its class, you should declare it 
 - final
 - public
 - static
- 

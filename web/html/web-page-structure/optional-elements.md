@@ -29,7 +29,7 @@ Some optional elements:
 
 Although this isn't a very common practice, Google's HTML styleguide recommends that optional tags be used to help cut down on the file size and improve the scannability of the document. They also recommend that developers not pick some optional tags and omit others as consistency is important in avoiding simple mistakes.
 
-```plain-text
+```html
 <!-- Not recommended by Google -->
 <!DOCTYPE html>
 <html>
@@ -43,7 +43,7 @@ Although this isn't a very common practice, Google's HTML styleguide recommends 
 </html>
 ```
 
-```plain-text
+```html
 <!-- Recommended by Google -->
 <!DOCTYPE html>
 <title>Saving money,
@@ -96,7 +96,7 @@ Which page structure is recommended by Google for HTML5 pages today?
 
 Option 1  
 
-````plain-text
+````html
 <!DOCTYPE html>
 <html>
   <head>
@@ -119,4 +119,3 @@ Option 2
 - Option 1
 - Neither
 - Both
- 

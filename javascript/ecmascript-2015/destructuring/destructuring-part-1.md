@@ -19,7 +19,7 @@ Destructuring provides a succinct and flexible way to assign values from arrays 
 
 This is best illustrated with an example. Destructuring is used below to assign `x` and `y` the values `100` and `200` in just one line of code:
 
-```plain-text
+```javascript
 let x, y;
 [x, y] = [100, 200];
 // x = 100, y = 200
@@ -33,7 +33,7 @@ Let's say we have a function that multiplies two input arguments (x and y) by tw
 
 Destructuring can assign the results of this operation to two variables with just one line of code:
 
-```plain-text
+```javascript
 let x, y;
 
 function dblNumbers(x, y) {
@@ -48,7 +48,7 @@ function dblNumbers(x, y) {
 
 Destructuring can also be used to swap the contents of two variables without having to create another temporary variable:
 
-```plain-text
+```javascript
 let x = 1;
 let y = 2;
 [y, x] = [x, y];
@@ -113,4 +113,3 @@ console.log(b);
 - 0
 - undefined
 - null
- 

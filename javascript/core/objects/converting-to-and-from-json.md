@@ -18,7 +18,7 @@ tags:
 
 Example:
 
-```plain-text
+```javascript
 const ourDog = {
     name: 'Leo',
     'dog years': 14
@@ -32,7 +32,7 @@ To override the default behavior of `JSON.stringify()` you can provide a key `to
 
 Example:
 
-```plain-text
+```javascript
 const ourDog = {
     name: 'Rocky',
     age: 2,
@@ -48,7 +48,7 @@ To convert a JSON string back to JavaScript you can use `JSON.parse()` method.
 
 Example:
 
-```plain-text
+```javascript
 const ourJSON = '{"name":"Roxy","age":2}'
 const dog = JSON.parse(ourJSON);
 console.log(dog.name);
@@ -62,7 +62,7 @@ console.log(dog.name);
 
 What will be printed by this `console.log()`?
 
-```plain-text
+```javascript
 const ourDog = {
     name: 'Leo',
     'dog years': 14
@@ -110,7 +110,7 @@ console.log(cat.name);
 
 What will be returned by the following code?
 
-```plain-text
+```javascript
 const enkiObj = {
     a: 'first',
     b: 'second',
@@ -126,4 +126,3 @@ JSON.stringify(enkiObj);
 - `"{"a":"first","b":"second"}"`
 - `"{"a":"first","b":"second","c":"third"}"`
 - `"{a: "first", b: "second"}"`
- 

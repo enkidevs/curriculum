@@ -22,7 +22,7 @@ All image `<img>` elements are encouraged to use `alt` attributes which specifie
 
 Example:
 
-```plain-text
+```html
 <img src="rainforest.pngrainforest.jpg"
     alt="Beautiful rain forest
          thick with trees">
@@ -38,14 +38,14 @@ Using the `alt` attribute is important for every `img` element for page validati
 
 The `alt` attribute can also be left empty and completely valid as this is helpful for indicating that the image is not a key part of the content:
 
-```plain-text
+```html
 <img src="background-image.png"
       alt="">
 ```
 
 If your `alt` attribute needs to contain acronyms (like "USA"), you would write it as:
 
-```plain-text
+```html
 `<img src="usa-map.jpg"
     alt="United States of America map">`
 ```
@@ -54,7 +54,7 @@ The reason is, you want to prevent screen readers from reading any acronyms as s
 
 If you really must use acronyms you should add a space after each letter:
 
-```plain-text
+```html
 `<img src="usa-map.jpg"
     alt="U S A map">`
 ```
@@ -108,4 +108,3 @@ Hint: The best way helps screen readers read the alt properly as it prevents "IT
 - U.S.A
 - U-S-A
 - "U""S""A"
- 

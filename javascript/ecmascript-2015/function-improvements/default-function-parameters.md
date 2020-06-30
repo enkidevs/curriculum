@@ -19,7 +19,7 @@ links:
 
 As of ES6, Functions can be defined with default values. These values will be used if no argument (or `undefined`) is passed.
 
-```plain-text
+```javascript
 function setColor(element, color = 'pink'){
   element.style.backgroundColor = color;
 }
@@ -76,4 +76,3 @@ console.log(square());
 - error
 - undefined
 - null
- 

@@ -18,7 +18,7 @@ links:
 Let's say we have an array of data and we want to display that data in a list on a webpage.
 Instead of writing out all the HTML elements for each piece of data, we can just use a function to loop through the array and return a list based on the data passed in:
 
-```plain-text
+```javascript
 let teas = [
   'chamomile',
   'green',
@@ -107,7 +107,7 @@ Which function, given an array, will return a list element with a list item elem
 
 Option A:
 
-```plain-text
+```javascript
 function createLI(data){
   let ul = document
     .createElement('ul');
@@ -132,7 +132,7 @@ function createLI(data){
 
 Option B:
 
-```plain-text
+```javascript
 function createLI(data){
   let ul = document
     .makeElement('ul');
@@ -157,7 +157,7 @@ function createLI(data){
 
 Option C:
 
-```plain-text
+```javascript
 function createLI(data){
   let ul = document
     .createElement('ul');
@@ -183,4 +183,3 @@ function createLI(data){
 - A
 - C
 - B
- 

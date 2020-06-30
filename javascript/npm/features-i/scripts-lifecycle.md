@@ -24,7 +24,7 @@ Hooks can be extremely useful both in a production or a development environment.
 
 You could run start watching the files from within a gulp file, either immediately after `npm install` has finished (using the *postinstall* event), or whenever is needed using a custom script:
 
-```plain-text
+```javascript
 scripts: {
   "watch:js": "gulp",
   "postinstall": "watch:js"
@@ -62,4 +62,3 @@ What command does `npm start` run by default?
 - gulp
 - node -v
 - npm install
- 

@@ -20,7 +20,7 @@ Merging is the operation of joining two or more development histories (branches)
 
 For this, **Git** provides the `git merge` command:
 
-```plain-text
+```bash
 git merge [head]
 ```
 
@@ -30,7 +30,7 @@ Even though the algorithms used for the merge depend on the status of the branch
 
 Suppose you are on a branch called `feature` where you committed some work. However, you want to get the feature to the `master` branch; the main branch of development on your project.
 
-```plain-text
+```bash
 # current branch - feature
 git checkout master
 # current branch - master
@@ -42,7 +42,7 @@ However, merging is not always successful because conflicts can arise when both 
 
 You can check what files weren't successfully  merged using the `git status` command:
 
-```plain-text
+```bash
 git status
 # On branch master
 # You have unmerged paths.
@@ -55,7 +55,7 @@ git status
 
 When a merge conflict occurs the `git status` command even provides you directions on how to proceed.
 
-```plain-text
+```bash
 git status
 # On branch master
 # You have unmerged paths.
@@ -65,7 +65,7 @@ git status
 
 In these files you can see the conflict highlighted by the syntax:
 
-```plain-text
+```bash
 <<<<<<< HEAD # master in our case
 # master version here
 =======
@@ -114,4 +114,3 @@ A merge operation will:
 
 [1:conflicts]
 These markings are usually in more than one place in the file; everywhere there exists a conflict.
- 

@@ -23,7 +23,7 @@ A resource is an object that must be closed once the program has finished using 
 
 In JDK 7+, it is possible to specify one or more resources at the beginning of a `try` block. Any specified resources will be closed at the end of the statement. For example:
 
-```plain-text
+```java
 try (FileInputStream inputStream = 
   new FileInputStream("enki.txt")){
   //try something
@@ -33,4 +33,3 @@ try (FileInputStream inputStream =
 In the above example the resource is the `FileInputStream` called `inputStream`. It will be automatically closed at the end of the statement whether or not the `try` block throws an exception.
 
 It is important to note that try-with-resources will only work for resources that implement `AutoClosable`. It is still necessary to use `finally` to close resources without an implementation of `AutoClosable`.
- 

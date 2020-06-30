@@ -24,12 +24,12 @@ By using `text-transform: uppercase`, you don't have to write in uppercase in th
 
 For instance:
 
-```plain-text
+```html
  <div class="bad"> CONTACT US </div>
  <div class="good"> Contact us </div>
 ```
 
-```plain-text
+```css
 .good {
   text-transform: uppercase;
   /* will render text in uppercase */
@@ -66,4 +66,3 @@ What is the key benefit and use case of `text-transform`?
 - It avoids pronunciation errors and preserves styles.
 - It can render text in uppercase.
 - It can render text in lowercase.
- 

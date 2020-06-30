@@ -19,13 +19,13 @@ ES6 expands on existing primitives to fix some long time issues and add useful f
 
 In previous versions of ECMAScript, if you wanted to use Unicode characters one method was to use `String.fromCharCode`:
 
-```plain-text
+```javascript
 String.fromCharCode(65); // A
 ```
 
 However `fromCharCode` doesn’t work with all possible unicode values, but only ranging from `1` to `65535` (`0xFFFF`). A greater number used as input will be truncated automatically.
 
-```plain-text
+```javascript
 String.fromCharCode(0x2014); // —
 String.fromCharCode(0x12014); // -
 // the first 1 is truncated
@@ -33,7 +33,7 @@ String.fromCharCode(0x12014); // -
 
 ES6 introduced a new method, `fromCodePoint`, that can be used to work with all Unicode values up to 21 bits:
 
-```plain-text
+```javascript
 String.fromCodePoint(65); // A
 String.fromCodePoint(65, 66, 67); // ABC
 String.fromCodePoint(0x12014); // 𒀔
@@ -82,4 +82,3 @@ console.log(String.fromCodePoint(90));
 - a
 - 90.0
 - 90
- 

@@ -18,13 +18,13 @@ Virtual hosting represents the method of hosting multiple domain names (with sep
 
 The **Express 4.0** middleware module called `vhost` deals with this, handing off requests to `handle` when the incoming host matches `hostname`. Before using it, the module must be installed:
 
-```plain-text
+```bash
 npm install vhost
 ```
 
 And imported:
 
-```plain-text
+```javascript
 var vhost = require('vhost');
 ```
 
@@ -32,7 +32,7 @@ The constructor has two parameters: `hostname` and `handler`. The former can be 
 
 After the host is matched and the request is sent to the `handler`, the `req.vhost` property will be populated with an object that will have numeric properties corresponding to every wildcard and `hostname`.
 
-```plain-text
+```javascript
 var app = connect();
 app.use(vhost('ex.example.com', exApp));
 //vhost routing to main app for ex
@@ -67,4 +67,3 @@ vhost(???, ???);
 - require
 - connect
 - req.vhost
- 

@@ -22,7 +22,7 @@ links:
 
 Let's take a look at the following components:
 
-```plain-text
+```jsx
 function FollowComponent(props) {
   const showMessage = () => {
     alert("Followed " + props.user);
@@ -65,7 +65,7 @@ The components defined above should have the same functionality right? This stat
 
 A quick fix is to capture the current `props` in the `render()` method:
 
-```plain-text
+```jsx
 class FollowComponent extends React.Component {
   render() {
     // capture the props
@@ -99,7 +99,7 @@ Complete the second code snippet such that it's equivalent to the first:
 
 First:
 
-```plain-text
+```jsx
 class Test extend React.Component {
   render() {
     return <p>{this.props.test}</p>;
@@ -126,4 +126,3 @@ Second:
 - `props.test`
 - `test`
 - `this.props.test`
- 

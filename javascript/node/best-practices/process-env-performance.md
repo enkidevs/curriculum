@@ -20,13 +20,13 @@ Each process is linked to a set of **environmental variables** that your applica
 
 One way of setting *env* variables is through prefixing the `node` command:
 
-```plain-text
+```shell
 PORT=8080 node index.js
 ```
 
 Then we can access our `PORT` variable like:
 
-```plain-text
+```javascript
 // index.js
 console.log(process.env.PORT)
 // 8080
@@ -38,7 +38,7 @@ Having lots of calls to this object, which are expensive, throughout your projec
 
 If your application **doesn't rely** on *live* environmental variables edits there is a simple hack to overcome some performance issues. You can simply replace the live object with a *plain JavaScript* one:
 
-```plain-text
+```javascript
 process.env = JSON.parse(
   JSON.stringify(
     progress.env
@@ -71,11 +71,11 @@ What kind of object is `process.env`?
 
 Which of the followin scenarios do you think would perform better:
 
-```plain-text
+```shell
 COPY="Enki" node index.js
 ```
 
-```plain-text
+```javascript
 // index.js
 
 // A
@@ -97,4 +97,3 @@ for (y = 0; y < 10; y++) {
 - A
 - B
 - same performance
- 

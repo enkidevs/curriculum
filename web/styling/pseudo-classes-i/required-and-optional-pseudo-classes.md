@@ -22,7 +22,7 @@ Especially when creating a form, some fields in it are mandatory for user to com
 
 All modern browsers support the `:required` and `:optional` pseudo classes:
 
-```plain-text
+```css
 :required {
   border: 2px solid red;
 }
@@ -35,7 +35,7 @@ All modern browsers support the `:required` and `:optional` pseudo classes:
 
 An example of a form they can be applied on:
 
-```plain-text
+```html
 <form>
   <label>Name:</label>
   <input type="text"/>
@@ -50,7 +50,7 @@ An example of a form they can be applied on:
 
 `:required` and :`optional` can be chained together with other pseudo class selectors:
 
-```plain-text
+```css
 input:required:focus {
   border: 1px solid pink;
   outline: none;
@@ -67,7 +67,7 @@ input:required:focus {
 
 What does the following CSS code do? ???
 
-```plain-text
+```css
 :required {
    border: 2px solid black;
 }
@@ -81,4 +81,3 @@ What does the following CSS code do? ???
 - Returns an error.
 - Makes the border of all fields solid and black.
 - Makes the border of all fields dotted and blue.
- 

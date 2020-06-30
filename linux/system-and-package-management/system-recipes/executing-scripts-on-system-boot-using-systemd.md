@@ -34,13 +34,13 @@ WantedBy=multi-user.target
 
 The name of the file should be something like `myscript.service`. Then, you have to enable the new service to start on system boot:
 
-```plain-text
+```bash
 systemctl enable myscript.service
 ```
 
 You might also have to set execute permission for the script to work:
 
-```plain-text
+```bash
 chmod 755 myscript.service
 ```
 
@@ -56,4 +56,3 @@ You can execute a script on boot by adding it to the
 - rc.local
 - boot
 - rc.boot
- 

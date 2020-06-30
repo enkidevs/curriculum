@@ -16,7 +16,7 @@ The HTML `<pre>`, or the **Pre-formatted Text** element, is used to display text
 
 Example:
 
-```plain-text
+```html
 <pre>.enki-highlight {
   color: #F46C43;
 }
@@ -39,7 +39,7 @@ Since all spaces within the `<pre>` element are used, pay attention to adding an
 
 **Bad Example:** An extra hard return will display at the top of the code sample in the HTML page:
 
-```plain-text
+```html
 <pre>
  .enki-highlight {
   color: #F46C43;
@@ -49,7 +49,7 @@ Since all spaces within the `<pre>` element are used, pay attention to adding an
 
 **Good Example:** The displayed code is written immediately after the opening tag:
 
-```plain-text
+```html
 <pre>.enki-highlight {
   color: #F46C43;
  }
@@ -108,4 +108,3 @@ Which HTML element is best used for "???" to properly display this code within a
 - `<code>`
 - `<perf>`
 - `<samp>`
- 

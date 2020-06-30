@@ -19,7 +19,7 @@ The concepts of constructors, declaration and expressions are often misused. Her
 
 A function defined with the `function` *constructor* assigned to the variable `multiply`:
 
-```plain-text
+```js
 function multiply(x, y) {
   return x * y;
 }
@@ -48,7 +48,7 @@ let multiply = function mult(x, y) {
 
 What is the following code?
 
-```plain-text
+```javascript
 let multiply = function times(x, y) {
   return x * y;
 };
@@ -67,7 +67,7 @@ let multiply = function times(x, y) {
 
 What is the following?
 
-```plain-text
+```javascript
 let multiply = function(x, y) {
   return x * y;
 }
@@ -80,4 +80,3 @@ let multiply = function(x, y) {
 - function expression of a `function` named `mult`
 - all
 - none
- 

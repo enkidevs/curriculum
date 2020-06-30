@@ -15,7 +15,7 @@ Wrapper classes (Integer, Byte, Character...) are great but slow. Primitive type
 
 E.g:
 
-```plain-text
+```java
 int myAge = 15;
 int hisAge = 15;
 
@@ -36,7 +36,7 @@ The first comparison is faster than the second, as the first just compares value
 
 What comparison is considered to be more efficient?
 
-```plain-text
+```java
 // 1
 int x = 4;
 int y = 4;
@@ -64,4 +64,3 @@ What are considered more efficient?
 
 - `primitive types`
 - `wrapper classes`
- 

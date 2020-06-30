@@ -22,7 +22,7 @@ TypeScript can be installed with a single NPM command:
 
 > 💻 Before you can install TypeScript, you must have Node.js and NPM installed.
 
-```plain-text
+```bash
 npm install -g typescript
 ```
 
@@ -32,7 +32,7 @@ This will make TypeScript a global CLI command[1] which you can start using in y
 
 Since any valid JavaScript is also TypeScript (and types are optional), to convert a JavaScript file to TypeScript, we can just replace `.js` with `.ts`[2]:
 
-```plain-text
+```ts
 // enki.ts
 let name = 'Enki';
 
@@ -43,13 +43,13 @@ The conversion back from TypeScript to JavaScript has an extra step called *comp
 
 This step is done with the TypeScript Compiler:
 
-```plain-text
+```bash
 tsc enki.ts
 ```
 
 Above will compile a TypeScript file `enki.ts` into a JavaScript file `enki.js`:
 
-```plain-text
+```js
 // enki.js
 let name = 'Enki';
 
@@ -99,13 +99,13 @@ That being said, changing `.js` to `.ts` will sometimes point out type errors bu
 
 One example of such type error would be changing a number to a string:
 
-```plain-text
+```js
 // enki.js
 let num = 5;
 num = 'enki'; // ok in JS
 ```
 
-```plain-text
+```ts
 // enki.ts
 let num = 5;
 num = 'enki'; // error in TS
@@ -117,4 +117,3 @@ They can change the code to adjust it to what TypeScript expects or tell TypeScr
 
 [3: Compilation]
 Compilation is the process of translating computer code written in one programming language into another language
- 

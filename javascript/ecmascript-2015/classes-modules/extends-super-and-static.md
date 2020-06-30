@@ -28,7 +28,7 @@ The below example creates a new class called `Engineer` that inherits from `Pers
 
 Our Engineer class also has a method called greet that will call the parent classes sayHello method:
 
-```plain-text
+```javascript
 class Engineer extends Person {
   constructor(name, age) {
     super(name);
@@ -47,7 +47,7 @@ var e = new Engineer("alex", 35);
 
 The static keyword creates a method on the class type itself and is often used for utility methods as allows them to be called without instantiating the class:
 
-```plain-text
+```javascript
 class UtilityMethods {
   static log() {
     console.log("hello enki");
@@ -59,7 +59,7 @@ UtilityMethods.log();
 
 Note if you instantiate a class with static methods then you cannot call static methods on the instantiated class:
 
-```plain-text
+```javascript
 var a = new UtilityMethods();
 a.log(); //error
 ```
@@ -71,7 +71,7 @@ a.log(); //error
 
 Given the class:
 
-```plain-text
+```javascript
 class Utils {
   static NotFound404() {
     return new Error({
@@ -84,7 +84,7 @@ class Utils {
 
 Which of the following method calls do you think is correct?
 
-```plain-text
+```javascript
 throw Utils.NotFound404() //1
 throw (new Utils()).NotFound404() // 2
 throw new Utils().NotFound404() // 3
@@ -105,7 +105,7 @@ throw Utils().NotFound404() // 4
 
 Consider the following class:
 
-```plain-text
+```javascript
 class Animal {
   constructor(name) {
     this.name = name;
@@ -143,4 +143,3 @@ Fill in the next snippet such that the `Dog` class is a child of the `Animal` cl
 - super()
 - parent
 - childOf
- 

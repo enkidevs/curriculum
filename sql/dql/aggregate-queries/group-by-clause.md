@@ -30,7 +30,7 @@ In our Pokemon db, we have a table called `move_name` with the following columns
 
 `GROUP BY` will help us count how many `move_names` there are for each language:
 
-```plain-text
+```sql
 SELECT COUNT(name), language_id
 FROM move_name
 GROUP BY language_id;
@@ -122,4 +122,3 @@ Output:
 - SUM
 - ORDER BY
 - GROUP
- 

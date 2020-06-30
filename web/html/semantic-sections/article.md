@@ -26,7 +26,7 @@ The `<article>` element can contain:
 
 Example:
 
-```plain-text
+```html
 <article>
   <h1>Facebook</h1>
   <p>
@@ -93,4 +93,3 @@ Which HTML container would be best when used on its own in a feed reader?
 - `<news>`
 - `<aside>`
 - `<forum>`
- 

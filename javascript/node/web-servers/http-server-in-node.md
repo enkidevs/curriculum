@@ -17,7 +17,7 @@ links:
 
 Create a `http` server with Node:
 
-```plain-text
+```javascript
 let http = require("http");
 
 http
@@ -32,7 +32,7 @@ Going to `http://localhost:8000`, the text specified in the program should appea
 
 To do this the `http` module is needed:
 
-```plain-text
+```javascript
 let http = require('http');
 ```
 
@@ -89,4 +89,3 @@ http
 - on
 - localhost
 - require
- 

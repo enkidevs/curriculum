@@ -22,19 +22,19 @@ With the introduction of **Express 4.0**, the separate module `body-parser` was 
 
 Being in a separate module, `body-parser` must be installed:
 
-```plain-text
+```bash
 npm install body-parser
 ```
 
 Then imported:
 
-```plain-text
+```javascript
 var bodyParser = require('body-parser');
 ```
 
 `body-parser` will parse the data depending on the format that is specified:
 
-```plain-text
+```javascript
 // parse application/json
 app.use(bodyParser.json());
 // parse application/x-www-form-urlencoded
@@ -45,7 +45,7 @@ app.use(bodyParser.urlencoded({
 
 The most common way to use `body-parser` with `express` is to add it specifically to the routes:
 
-```plain-text
+```javascript
 var jsonParser = bodyParser.json()
 // POST /myRoute gets JSON bodies
 app.post('/myRoute', jsonParser,
@@ -93,4 +93,3 @@ app.???(bodyParser.???());
 - app
 - urlencoded
 - jsonParser
- 

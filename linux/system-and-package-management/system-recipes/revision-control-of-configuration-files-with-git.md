@@ -22,7 +22,7 @@ and `git` is a great tool for this.
 
 Create a repository on your git server and initialize it locally:
 
-```plain-text
+```bash
 cd path/to/config/file/
 git init
 git add config_file.conf
@@ -34,7 +34,7 @@ git push -u origin master
 
 Then create a little bash file:
 
-```plain-text
+```bash
 #!/bin/bash
 DDDD = `date +%Y_%m_%d`
 cd /path_to_git_repo
@@ -68,4 +68,3 @@ You can upload your important configuration files to *git* using
 - auto-commit scripts
 - auto-pull scripts
 - history
- 

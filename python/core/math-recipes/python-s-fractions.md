@@ -20,13 +20,13 @@ Support for rational number arithmetic can be achieved using Python's  `fraction
 
 Import the module:
 
-```plain-text
+```python
 import fractions
 ```
 
 The `Fraction` constructor can take either a pair of integers, a rational number or a string:
 
-```plain-text
+```python
 a = fractions.Fraction(16,-10)
 print(a) # -8/5
 b = fractions.Fraction('3/7')
@@ -37,7 +37,7 @@ The `Fraction` class inherits all operations available in the abstract `numbers.
 
 In addition, the `fractions` module provides a way to calculate the greatest common divisor of two integers:
 
-```plain-text
+```python
 print(fractions.gcd(25,75))
 #  25
 ```
@@ -80,4 +80,3 @@ To calculate the greatest common divisor of ints in Python 3.5, what method from
 - `greatest_common_divisor`
 - `cmath`
 - `g`
- 

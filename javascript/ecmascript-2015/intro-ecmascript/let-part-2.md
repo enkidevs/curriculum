@@ -21,7 +21,7 @@ It solves an issue you may have come across before when attempting to add event 
 
 The code below looks like it will output `0 1 2 3 4` to the console but will actually output `5 5 5 5 5`.
 
-```plain-text
+```javascript
 function example() {
   var funcs=[];
 
@@ -46,7 +46,7 @@ Variable `i` ends up being `5` at the end of the loop, so we end up logging this
 
 Now let's change the loop declare `i` using the `let` keyword:
 
-```plain-text
+```javascript
 for (let i = 0; i < 5; i++) {
 ...
 }
@@ -133,7 +133,7 @@ for (func of letFuncs) {
 [1:Block-scope]
 By this we mean that any variable defined with `let` (or `const`) is only accessible in its scope (between the nearest pair of `{}`). This is best shown through an example:
 
-```plain-text
+```js
 if (true) {
   let foo = 1;
 }
@@ -142,4 +142,3 @@ console.log(foo);
 ```
 
 Here, `foo` is only accessible in the `if` scope.
- 

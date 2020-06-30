@@ -19,7 +19,7 @@ You've been using *npm* for some time and you have found out that your favorite 
 
 All you need to publish your package is an installation of node and accounts at GitHub and npm, both of which can be created for free. To avoid entering your details every time you initialize a new *package.json*, you can save your email and name inside the `~/.npmrc` file (a lot like you would do with `git config`):
 
-```plain-text
+```bash
 npm set init.author.name "Mihai Bercu"
 npm set init.author.email "mihai@enki.com"
 ```
@@ -28,7 +28,7 @@ Running `npm login` would then prompt you to enter your credentials and you are 
 
 Decide whether you want your package to be scoped (which makes sense in order to avoid naming conflicts) or not:
 
-```plain-text
+```bash
 npm init --scope=username
 ```
 
@@ -63,4 +63,3 @@ In order to publish your package to the npm repository, you need
 - an npm account
 - an initial package version of `1.0.0`
 - a `README.md` file
- 

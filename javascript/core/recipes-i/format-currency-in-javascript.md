@@ -20,7 +20,7 @@ links:
 
 The function below will ensure numbers are correctly rounded to 2 decimal places and prevent some null errors: 
 
-```plain-text
+```javascript
 function currency(n){
   n = parseFloat(n);
   return isNaN(n) ? false : n.toFixed(2);
@@ -34,7 +34,7 @@ function currency(n){
 
 What does the following code snippet output? ???
 
-```plain-text
+```javascript
 function currency(n) {
    n = parseFloat(n);
    return isNaN(n) ? 
@@ -70,4 +70,3 @@ console.log(currency('1234.567'));
 - 1234.57
 - 1234.56
 - 12
- 

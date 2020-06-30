@@ -21,7 +21,7 @@ Using this statement, you basically specify exactly which **definitions** you wa
 
 Consider the following module:
 
-```plain-text
+```python
 # my_functions.py
 
 def hello(what):
@@ -35,7 +35,7 @@ def quad(x):
 
 To access exposed methods of it we could do the following:
 
-```plain-text
+```python
 import my_functions
 
 my_functions.cube(3) # 27
@@ -44,7 +44,7 @@ my_functions.hello('Seba') # Hello, Seba
 
 Instead, we can achieve the same using the `from ... import` statement:
 
-```plain-text
+```python
 from my_functions import cube, hello
 
 cube(3) # 27
@@ -55,7 +55,7 @@ The main advantage of the `from...import` statement is that it exempts you from 
 
 Note there is one more possible construction available, known as **wildcard imports** - `from..import *`:
 
-```plain-text
+```python
 from module_name import *
 ```
 
@@ -63,7 +63,7 @@ This simply means, from `module_name` import every item. Keep in mind that wildc
 
 You can also rename the item imported to whatever you want using the `as` keyword:
 
-```plain-text
+```python
 from my_functions import quad as q
 q(3) # 81
 ```
@@ -134,4 +134,3 @@ calculate_volume(radius, height)
 - `__name__`
 - `cylinder:`
 - `def`
- 

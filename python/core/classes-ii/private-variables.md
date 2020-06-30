@@ -20,7 +20,7 @@ The convention is to put two underscores (`__`) at the beginning of the "private
 
 Consider the `Enki` class:
 
-```plain-text
+```python
 class Enki:
     def __init__(self):
         self.__private = 3.14
@@ -33,14 +33,14 @@ enki = Enki() # prints 3.14
 
 However, if we try to access `__private` variable, an error is thrown:
 
-```plain-text
+```python
 print(enki.__private)
 # AttributeError .. no __private attribute
 ```
 
 It is possible to access it through `_classname__varname`, but it's not recommended to access variables in this way, because it is an implementation detail and may break in the future.
 
-```plain-text
+```python
 print(enki._Enki__private)
 # prints 3.14
 ```
@@ -95,7 +95,7 @@ Complete the following line such that the `private` variable is considered priva
 
 We've defined a pythonic private variable in this class. Is it really private?  
 
-```plain-text
+```python
 class Secret:
     def __init__(self):
         self.__supersecret = "the earth is not flat"
@@ -108,4 +108,3 @@ topsecret = Secret()
 - No, you can access the private variable via 'topsecret.**Secret.**supersecret'
 - No, you can access the private variable via 'topsecret._private__supersecret'
 - Yup, your secret is safe forever!
- 

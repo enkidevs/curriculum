@@ -21,7 +21,7 @@ The `<footer>` element should contain some information about its containing elem
 
 Using `<footer>` for contact information:
 
-```plain-text
+```html
 <footer>
   <p>
     Author: Jane Doe
@@ -77,12 +77,12 @@ Which container is best to organize the bottom of a web page or content section?
 
 ## Quiz
 
-### How much do you know about the 
+### How much do you know about the
+
 
 `<footer>`
 
  HTML element?
-
 
 The HTML `<footer>` element should NOT contain what?
 
@@ -94,4 +94,3 @@ The HTML `<footer>` element should NOT contain what?
 - links to related pages
 - link back to top of page
 - sitemap
- 

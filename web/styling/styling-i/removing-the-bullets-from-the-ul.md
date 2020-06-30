@@ -18,7 +18,7 @@ links:
 
 Once you have created your unordered list (`ul`) in HTML, simply add the `list-style-type` property and set it to *none* in your stylesheet.
 
-```plain-text
+```css
 ul {
     list-style-type: none;
 }
@@ -47,7 +47,7 @@ Which CSS property is used to determine the type of bullet points for an unorder
 
 What does the following CSS code do?
 
-```plain-text
+```css
 ul {
    list-style-type: square;
 }
@@ -58,4 +58,3 @@ ul {
 - Tells the list to use squares instead of bullet points.
 - Removes the bullet points from the unordered list.
 - Sets the unordered list to format text into the shape of a square.
- 

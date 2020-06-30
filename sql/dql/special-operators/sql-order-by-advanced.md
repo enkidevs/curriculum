@@ -20,7 +20,7 @@ What if you wanted your results to be ordered by multiple columns, each being so
 
 Using the same `employees` table from the last insight[1], let's return the `last_name` and `first_name`, with the `last_name` sorted alphabetically (ascending), and the `first_name` the other way round. This is how we'd do it:
 
-```plain-text
+```sql
 SELECT last_name, first_name
 FROM employees
 ORDER BY last_name ASC, first_name DESC;
@@ -139,4 +139,3 @@ Here is the table we have used previously:
 | 4   | Esta       | Warrier   | [ewarrier3@berkeley.edu](mailto:ewarrier3@berkeley.edu)  |
 | 5   | Immanuel   | Kippen    | [ikippen4@biglobe.ne.jp](mailto:ikippen4@biglobe.ne.jp)  |
 | 6   | Regina     | Pantone   | [regone@stratos.org](mailto:regone@stratos.org)      |
- 

@@ -21,7 +21,7 @@ There are 6 headings in HTML5 ranging from `<h1>` to `<h6>`. `<h1>` being the la
 
 Example:
 
-```plain-text
+```html
 <h1>Heading 1</h1>
 <h2>Heading 2</h2>
 <h3>Heading 3</h3>
@@ -98,4 +98,3 @@ Which text heading is the same size as a paragraph by default?
 - h2
 - h1
 - none
- 

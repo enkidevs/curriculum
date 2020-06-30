@@ -13,7 +13,7 @@ category: must-know
 
 In JavaScript, `NaN` means **Not-A-Number** and is the result when math functions fail or when a function expecting a number is given a different type:
 
-```plain-text
+```js
 // dividing by zero
 // gives "not a number"
 let x = 0 / 0;
@@ -25,13 +25,13 @@ It is a special value of type `"number"` to represent an invalid number.
 
 One notable property of `NaN` is that it is never equal to itself:
 
-```plain-text
+```js
 NaN === NaN // false
 ```
 
 The main way to check if a value is `NaN` is by using the `isNaN` function:
 
-```plain-text
+```js
 Number.isNaN(NaN); // true
 Number.isNaN(2); // false
 ```
@@ -43,7 +43,7 @@ Number.isNaN(2); // false
 
 The following code outputs ???
 
-```plain-text
+```javascript
 function foo(num){
   return num / 2;
 }
@@ -71,4 +71,3 @@ console.log(x);
 - `NaN`
 - `undefined`
 - `null`
- 

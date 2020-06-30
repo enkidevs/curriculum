@@ -24,7 +24,7 @@ This element can have only one attribute, `dir`, with only 2 two possible values
 
 Example with one word:
 
-```plain-text
+```html
 <p>
   Play
 </p>
@@ -39,7 +39,7 @@ Single Word Result:
 
 Example with a sentence:
 
-```plain-text
+```html
 <p>
   The sun is shining.
 </p>
@@ -115,4 +115,3 @@ What does the `<bdo>` element do in this code?
 - displays the letters flipped.
 - helps search engines understand the directory of text.
 - doesn't do anything without CSS styles.
- 

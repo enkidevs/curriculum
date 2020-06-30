@@ -21,7 +21,7 @@ The `MAX` clause returns the biggest value in a given column.
 
 Using `MIN` function[1]:
 
-```plain-text
+```sql
 SELECT MIN(experience) FROM
 (SELECT experience
   FROM experience
@@ -37,7 +37,7 @@ Output:
 
 Using `MAX` function:
 
-```plain-text
+```sql
 SELECT MAX(experience) FROM
 (SELECT experience
   FROM experience
@@ -115,7 +115,7 @@ We will use the same segment of `experience` table for all aggregate functions:
 | 3   | 3     | 33         | 1              |
 | ... | ...   | ...        | ...            |
 
-```plain-text
+```sql
 SELECT experience
 FROM experience
 LIMIT 5;
@@ -130,4 +130,3 @@ Output:
 | 33         |
 | 80         |
 | 156        |
- 

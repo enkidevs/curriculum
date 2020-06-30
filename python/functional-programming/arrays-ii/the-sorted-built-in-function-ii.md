@@ -23,7 +23,7 @@ links:
 
 Now, let's look at using keys together with the `sorted` method. Defining keys allows us to tell Python exactly what to compare to achieve the sort if we don't want Python to simply compare the two elements as they are. Below, we define a custom class of `Order`s, where each `Order` has a name and a number. We populate a list of orders and then define a function that returns the order number from a given order. We use this function as the key. This allows `sorted` to sort the list of orders by their number.
 
-```plain-text
+```python
 class Order(object):
   def __init__(self, name, number):
     self.name = name
@@ -94,4 +94,3 @@ print(sorted(???, ???))
 *On December 3, 2008, Python moved from version 2 to version 3, which caused a lot of debate and discussion. This was because the aim of the update was to rectify certain fundamental design flaws in the original language; many of the changes made it impossible to maintain compatibility with version 2. From their documentation (PEP 3000): "A general goal is to reduce feature duplication by removing old ways of doing things".
 
 Today, Python 3 is widely recommended and used, and still very similar for most cases, except in some niche scenarios. See PEP 3000 in the Learn More section for further information.*
- 

@@ -19,7 +19,7 @@ HTML elements typically consist of a start and end tag, with content between the
 
 Example:
 
-```plain-text
+```html
 <p>Content goes here</p>
 ```
 
@@ -31,7 +31,7 @@ In this example, the `<p>` is the starting tag of a paragraph, the `</p>` is the
 
 In HTML5 there are no strict rules for some closing tags - such as, the closing paragraph tag isn't necessary. As you can see in this example, this paragraph works without any closing `</p>` tag:
 
-```plain-text
+```html
 <p>Content goes here
 ```
 
@@ -41,7 +41,7 @@ Also, certain tags in HTML5 do not have to have an open tag either, like the `<b
 
 In HTML5, this is still a bit unusual today, but valid and currently encouraged by Google:
 
-```plain-text
+```html
 <!-- Not recommended by Google-->
 <!DOCTYPE html>
 <html>
@@ -72,4 +72,3 @@ Which statement is incorrect about opening and closing  HTML5 elements?
 - Although HTML5 isn’t strict about using open and close tags, using them certainly does makes the document easier to inspect.
 - Certain elements like `<body>` or `<head>` don't require the use of either of the tags, however, it helps with readability.
 - HTML elements have to have a closing tag to be displayed properly.
- 

@@ -18,7 +18,7 @@ This can be done by securely copying the file on the server first (`scp`) , yet 
 
 The `enki.sh` script can be run directly on the remote machine with the following command:
 
-```plain-text
+```bash
 ssh user@enki 'bash -s' < enki.sh
 ```
 
@@ -42,4 +42,3 @@ Run a local script on a remote machine:
 - `|`
 - `cp`
 - `user`
- 

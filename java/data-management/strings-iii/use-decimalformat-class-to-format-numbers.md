@@ -20,7 +20,7 @@ links:
 
 The `DecimalFormat` class can be used to specify custom formats for numbers.
 
-```plain-text
+```java
 DecimalFormat commaFormat =
   new DecimalFormat("###,###");
 DecimalFormat zeroFormat =
@@ -68,4 +68,3 @@ What argument/s must be passed to the `DecimalFormat`  constructor to achieve th
 - `"##",  "##", "##"`
 - `"dd, dd, dd"`
 - `"dd",  "dd", "dd"`
- 

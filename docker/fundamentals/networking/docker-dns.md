@@ -32,7 +32,7 @@ Within Docker, a DNS for friendly names is built-in (if we use custom networks).
 
 Here's how we would create a network between two containers and have them talk to each other:
 
-```plain-text
+```bash
 # create a network
 # and name it my_web_app
 docker network create my_web_app
@@ -60,7 +60,7 @@ docker container exec \
 
 Here's an example of the output:
 
-```plain-text
+```bash
 PING webserver2 (172.20.0.3): 56 data bytes
 64 bytes from 172.20.0.3: seq=0 ttl=64 time=0.093 ms
 64 bytes from 172.20.0.3: seq=1 ttl=64 time=0.117 ms
@@ -92,4 +92,3 @@ The suggested practice in Docker is for us to always create our own networks bec
 
 - true
 - false
- 

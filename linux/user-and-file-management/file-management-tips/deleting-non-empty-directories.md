@@ -21,14 +21,14 @@ tags:
 
 Upon receiving the error:
 
-```plain-text
+```bash
 Failed to remove 'folder':
   Directory not empty
 ```
 
 Use:
 
-```plain-text
+```bash
 rm -r folder
 ```
 
@@ -36,7 +36,7 @@ This will delete all files and folders contained in the `folder` directory as we
 
 Add `sudo` at the beginning of the command in the case of a user lacking permissions to delete the folder:
 
-```plain-text
+```bash
 sudo rm -r folderName
 ```
 
@@ -44,7 +44,7 @@ It is good practice to avoid using `-f(--force)` while deleting a directory.
 
 If you are using absolute paths **take extra care** to not accidentally delete something important:
 
-```plain-text
+```bash
 rm -r /folder1/ folder2/folder3
 #             ^^^
 ```
@@ -92,4 +92,3 @@ Recursively force remove `old_folder` :
 - `-rf`
 - `-rv`
 - `-rm`
- 

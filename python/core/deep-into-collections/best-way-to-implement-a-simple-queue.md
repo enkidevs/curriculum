@@ -24,7 +24,7 @@ However, this approach will prove inefficient because *inserts* and *pops* from 
 
 It's recommended to implement **queues** using the `collections.deque` module as it was designed with fast appends and pops from both ends.
 
-```plain-text
+```python
 from collections import deque
 queue = deque(["a", "b", "c"])
 queue.append("d")
@@ -74,4 +74,3 @@ print(queue)
 - `append("e")`
 - `pop-left()`
 - `append-left("e")`
- 

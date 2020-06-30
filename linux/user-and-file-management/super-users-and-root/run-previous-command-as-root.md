@@ -21,7 +21,7 @@ Without including `sudo` before a command, sometimes a 'permission denied' messa
 
 Upon entering the following: 
 
-```plain-text
+```bash
 rm -r private_file
 ```
 
@@ -29,7 +29,7 @@ You won't have the permission to execute this unless you're logged in with eleva
 
 What `sudo !!` does is it runs the previous command as `root`. Meaning it now becomes :
 
-```plain-text
+```bash
 sudo rm -r private_file
 ```
 
@@ -49,4 +49,3 @@ adduser newUser
 - `!!`
 - `sudo adduser newUser`
 - `adduser newUser`
- 

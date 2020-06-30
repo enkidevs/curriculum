@@ -20,7 +20,7 @@ Over commented *configuration* files can be difficult to read and manage.
 
 Backup the original and clean the comments with a function added to the login script:
 
-```plain-text
+```shell
 function clean_file {
 sed -i.bak "/^\s*[#;]/d;/^$/d" $1
 } 
@@ -36,7 +36,7 @@ A shell script accepts comments starting with `#` or `;` . Therefore, this scrip
 
 **Usage:**
 
-```plain-text
+```shell
 sudo clean_file /etc/ntp/conf
 ```
 
@@ -53,4 +53,3 @@ A script to delete comments and empty lines from configuration files would use t
 - clr
 - del
 - cd
- 

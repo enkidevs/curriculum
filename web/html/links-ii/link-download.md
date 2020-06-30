@@ -21,7 +21,7 @@ When links connect to web files or images, the page will navigate to that conten
 
 Example of a non-web download link:
 
-```plain-text
+```html
 <a href="enki.zip">
 Download Zip
 </a>
@@ -35,7 +35,7 @@ When web files and images are meant to be downloaded by the user, then the downl
 
 Example of a web download link:
 
-```plain-text
+```html
 <a
   href="summary.html"
   download="Today's%20Summary">
@@ -108,4 +108,3 @@ If the actual filename is “file-32467E34.doc” and we want the user to downlo
 - `<a href="file-32467E34.doc" rename="Enki%20Report.doc"></a>`
 - `<a href="file-32467E34.doc" doc="Enki%20Report.doc"></a>`
 - `<a href="Enki Report.doc" src="file-32467E34.doc"></a>`
- 

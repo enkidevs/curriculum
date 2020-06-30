@@ -15,7 +15,7 @@ The aggregation `$group` stage is used to group documents by a specified express
 
 The syntax for `$group` is:
 
-```plain-text
+```javascript
 {
   $group: {
     _id: expression,
@@ -37,7 +37,7 @@ Here are some accumulators you can use:
 
 For instance, let's say we want to group all pokémon in the `pokemon` collection by their `type`. We can do so like this:
 
-```plain-text
+```javascript
 db.pokemon.aggregate([
   {
     $group: {
@@ -49,7 +49,7 @@ db.pokemon.aggregate([
 
 Output:
 
-```plain-text
+```javascript
 { "_id": "Bug" }
 { "_id": "Psychic" }
 { "_id": "Normal" }
@@ -66,7 +66,7 @@ Output:
 
 Now we know which `type`s of pokémon we have, however, we don't know how many documents each type has. We can count it by adding a comma after the `_id: "$type"` and adding `count: { $sum: 1 }`.
 
-```plain-text
+```javascript
 db.pokemon.aggregate([
   {
     $group: {
@@ -79,7 +79,7 @@ db.pokemon.aggregate([
 
 Output:
 
-```plain-text
+```javascript
 { "_id": "Bug", "count": 41 }
 { "_id": "Psychic", "count": 22 }
 { "_id": "Normal", "count": 208 }
@@ -140,4 +140,3 @@ db.students.???([
 - `2`
 - `group`
 - `find`
- 

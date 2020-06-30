@@ -21,25 +21,25 @@ Most Docker CLI commands consists of 3 parts.
 
 They start with the command `docker`, followed by a subcommand which is usually a name of a Docker Object such as `image`, then followed by a command for an action to perform on that object.
 
-```plain-text
+```bash
 docker <object> <action>
 ```
 
 For example, to list all containers, we can do:
 
-```plain-text
+```bash
 docker container ls
 ```
 
 Likewise, to remove an image named `nginx`, we can do:
 
-```plain-text
+```bash
 docker image rm nginx
 ```
 
 In fact, `docker` has many commands that are generic across Docker Objects (containers, images, etc.) and can be applied to any of them.
 
-```plain-text
+```bash
 # list all objects
 docker <OBJECT> ls
 
@@ -57,7 +57,7 @@ To list available commands and other helpful information for `docker` itself or 
 
 For example:
 
-```plain-text
+```bash
 docker attach --help
 ```
 
@@ -115,4 +115,3 @@ To fetch the logs for a Docker container named `webserver`, we'd run:
 [1: daemon]
 A daemon is a computer program that runs in the background (outside of direct user control) and performs a specified operation at predefined times or in response to certain events. It is usually used for performing automated, administrative tasks for the operating system or an application. For example, `syslogd` is the daemon that implements the system logging facility on Linux, and `sshd` is a daemon that serves incoming SSH connections.
 Traditionally, the name of a daemon process ends with the letter `d`, to make it more distinguishable from other processes.
- 

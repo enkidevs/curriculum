@@ -24,13 +24,13 @@ links:
 
 To create an item in the current domain's local storage, pass in the item key and the item value:
 
-```plain-text
+```javascript
 localStorage.setItem('country', 'England');
 ```
 
 Retrieving data from local storage:
 
-```plain-text
+```javascript
 var localData = localStorage.getItem(
   "country"
 );
@@ -39,13 +39,13 @@ console.log(localData); // prints 'England'
 
 To remove an item from the `localStorage` use the `.removeItem()` method, and as a value pass the item's key:
 
-```plain-text
+```js
 localStorage.removeItem('country');
 ```
 
 To remove all the items from the `localStorage`, you can use the `.clear()` method:
 
-```plain-text
+```javascript
 localStorage.clear();
 ```
 
@@ -96,4 +96,3 @@ Create a `localStorage` item with key `awesome` and value `enki`:
 - `clear`
 - `getItem`
 - `newItem`
- 

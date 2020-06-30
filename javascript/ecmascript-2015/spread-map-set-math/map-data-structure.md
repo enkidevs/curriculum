@@ -21,7 +21,7 @@ Map is a new type of key/value object.
 
 It is common to use an object to store a set of keys and values:
 
-```plain-text
+```javascript
 var obj = {
    firstName: "John",
    lastName: "Smith"
@@ -34,7 +34,7 @@ Maps allow keys and values to be other objects (yes even DOM elements!) and you 
 
 Let's create a map and assign keys and values:
 
-```plain-text
+```javascript
 var map = new Map();
 var str = "A",
     func = function (x) {return x*2};
@@ -45,25 +45,25 @@ map.set(func, "b");
 
 We can then use the keys to retrieve values:
 
-```plain-text
+```javascript
 map.get(func); //b
 ```
 
 We can test if a value is stored in a map using the has operator
 
-```plain-text
+```javascript
 map.has(str); //true
 ```
 
 To delete an entry use the delete method:
 
-```plain-text
+```javascript
 map.delete(str);
 ```
 
 And the map can be emptied using clear:
 
-```plain-text
+```javascript
 map.clear();
 ```
 
@@ -129,4 +129,3 @@ console.log(myMap)
 - empty()
 - set()
 - add()
- 

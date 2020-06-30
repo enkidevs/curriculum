@@ -19,7 +19,7 @@ links:
 
 For example, to fetch and merge the branch `master` with the current branch:
 
-```plain-text
+```bash
 git pull origin
 ```
 
@@ -70,7 +70,7 @@ git ??? origin
 
 What option related to fetching is `-a` shorthand for in the following command?
 
-```plain-text
+```bash
 git pull -a
 ```
 
@@ -80,4 +80,3 @@ git pull -a
 - --amend
 - --all
 - --autostash
- 

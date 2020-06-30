@@ -17,7 +17,7 @@ Conditional comments are conditional statements used only by Internet Explorer v
 
 Any code within this condition will be completely hidden by older versions of IE, referred to as "downlevel hidden":
 
-```plain-text
+```html
 <!--[if expression]>
   HTML goes here
 <![endif]-->
@@ -25,7 +25,7 @@ Any code within this condition will be completely hidden by older versions of IE
 
 Any code within this condition will only run in older versions of IE, referred to as "downlevel revealed":
 
-```plain-text
+```html
 <![if expression]>
   HTML goes here
 <![endif]>
@@ -33,7 +33,7 @@ Any code within this condition will only run in older versions of IE, referred t
 
 If certain code is meant to display on non-IE browsers and on some versions of IE, then both conditional comments and HTML comments can be written in a unique way like this:
 
-```plain-text
+```html
 <!--[if expression]><!-->
   HTML goes here
 <!--<![endif]-->
@@ -66,4 +66,3 @@ Conditional comments only work in Internet Explorer, versions prior to IE10. Whi
 - versions 1 through 9.
 - versions 7 through 9.
 - versions 8 and 9.
- 

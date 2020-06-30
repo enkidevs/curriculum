@@ -13,7 +13,7 @@ category: must-know
 
 To rename a collection in MongoDB, we need to use the `renameCollection()`method. The syntax is:
 
-```plain-text
+```javascript
 db.collection_name.renameCollection(
   "<string>"
 )
@@ -21,7 +21,7 @@ db.collection_name.renameCollection(
 
 Let's say we decided to rename a collection called "Pokemon" to "cartoonCharacters". We can do it like so:
 
-```plain-text
+```javascript
 db.Pokemon.renameCollection(
   "cartoonCharacters"
 )
@@ -29,13 +29,13 @@ db.Pokemon.renameCollection(
 
 Output:
 
-```plain-text
+```javascript
 { "ok": 1 }
 ```
 
 **Note:** To avoid any errors, do not try to rename a collection while there is a query running on that collection. Also, capitalization matters. If you have many collections, make sure you don't misspell the collection name.
 
-```plain-text
+```javascript
 db.pokemon
 // is not the same as
 db.Pokemon
@@ -54,4 +54,3 @@ Which code successfully changes the name of the collection `Pokemon` to `pokemon
 - `db.Pokemon.renameCollection("Pokemon")`
 - `db.Pokemon.rename("POKEMON")`
 - `db.Pokemon.renameCollectionTo("pokemon")`
- 

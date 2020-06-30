@@ -20,13 +20,13 @@ Python's `decimal` module provides implementation of fixed and floating point ar
 
 Import the module:
 
-```plain-text
+```python
 import decimal
 ```
 
 The constructor can take integers, strings or tuples as arguments:
 
-```plain-text
+```python
 d1 = decimal.Decimal(5) # 5
 d2 = decimal.Decimal('3.14') # 3.14
 t = (1, (1, 1), -4)
@@ -36,7 +36,7 @@ d3 = decimal.Decimal(t) # -0.0011
 
 They support basic arithmetic operations:
 
-```plain-text
+```python
 print(d1/d2)
 # 1.592356687898089171974522293
 
@@ -44,14 +44,14 @@ print(d1/d2)
 
 Also, logarithms:
 
-```plain-text
+```python
 print(d2.log10())
 # 0.4969296480732149319752200246
 ```
 
 To override the default behaviour settings of the decimal module, the context must be modified:
 
-```plain-text
+```python
 print(decimal.getcontext())
 # Context(prec=28, rounding= ...)
 decimal.getcontext().prec = 2
@@ -94,4 +94,3 @@ a = ???.???(“6.42”)
 - `d`
 - `dec`
 - `Object`
- 

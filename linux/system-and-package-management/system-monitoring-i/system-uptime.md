@@ -18,7 +18,7 @@ In Linux, the `uptime` standard command shows information regarding how long you
 
 Run uptime:
 
-```plain-text
+```bash
 uptime
 12:59  up  2:26, 2 users, \
  load averages: 1.19 2.45 4.34
@@ -31,13 +31,13 @@ uptime
 
 To display just the uptime:
 
-```plain-text
+```bash
 uptime -p
 ```
 
 Display last time the system restarted:
 
-```plain-text
+```bash
 uptime -s
 ```
 
@@ -56,4 +56,3 @@ Check for how long your system is running:
 - `whoami`
 - `who am i`
 - `stats`
- 

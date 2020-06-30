@@ -15,7 +15,7 @@ tags:
 
 In Java `enum` is a type whose fields consist of a fixed set of constants. You should use enum types any time you need to represent a fixed set of constants, e.g. days of the week, cards in a deck or menu item options. 
 
-```plain-text
+```java
 public enum Day {
   Sunday, Monday, Tuesday, Wednesday
   Thursday, Friday, Saturday
@@ -64,4 +64,3 @@ public ??? MyEnum {
 - `e` 
 - `list` 
 - `array`
- 

@@ -15,7 +15,7 @@ links:
 
 Use `flexbox` to center anything vertically:
 
-```plain-text
+```css
 html, body {
   height: 100%;
   margin: 0;
@@ -48,4 +48,3 @@ You can vertically-center elements inside a flex container with:
 - `justify-content`
 - `vertical-center`
 - `flex-center`
- 

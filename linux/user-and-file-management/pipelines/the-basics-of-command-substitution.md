@@ -27,14 +27,14 @@ For example, let's say we want to check the permissions on the `curl` executable
 
 We might *happen* to know that `curl` is located at `/usr/bin/curl` or we can use `which` to get the full path to the executeable:
 
-```plain-text
+```shell
 which curl
 /usr/bin/curl
 ```
 
 Now we can run `ls -l /usr/bin/curl`:
 
-```plain-text
+```shell
 ls -l /usr/bin/curl
 -rwxr-xr-x  1 root  wheel  172016
 Dec  2  2015 /usr/bin/curl*
@@ -42,7 +42,7 @@ Dec  2  2015 /usr/bin/curl*
 
 We can capture the output of `which curl` and pass it to `ls -l` directly using `$(...)`, like so:
 
-```plain-text
+```shell
 ls -l $(which curl)
 -rwxr-xr-x  1 root  wheel  172016
 Dec  2  2015 /usr/bin/curl*
@@ -54,7 +54,7 @@ The output of the command inside `$(...)` (here `which curl`) is passed to `ls -
 
 It's common to see backticks `` `...` `` instead of `$(...)`.  The two are equivalent, with the former existing for backwards compatibility with older shells.
 
-```plain-text
+```shell
 ls -l `which curl`
 -rwxr-xr-x  1 root  wheel  172016
 Dec  2  2015 /usr/bin/curl*
@@ -99,4 +99,3 @@ If you want to use the output of a program as a command line argument, you would
 - >
 - |
 - > >
- 

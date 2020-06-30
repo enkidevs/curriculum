@@ -42,7 +42,7 @@ Methods are seen as functions called on *objects* -- and there is a clear distin
 
 Considering the following class and its instantiation:
 
-```plain-text
+```python
 class Enki:
     def f(self):
         return "Python"
@@ -53,14 +53,14 @@ enki = Enki()
 
 **Calling** a method is straightforward:
 
-```plain-text
+```python
 enki.f() # this will return 'Python'
 print(enki.f()) # prints 'Python'
 ```
 
 However, you are allowed to store the method body in another variable, without having to call the method right away:
 
-```plain-text
+```python
 ef = enki.f # note the lack of parenthesis
 ef() # returns 'Python'
 print(ef()) # prints 'Python'
@@ -112,4 +112,3 @@ x = test.???
 - `new`
 - `def`
 - `get`
- 

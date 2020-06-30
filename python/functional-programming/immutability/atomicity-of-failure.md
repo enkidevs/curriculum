@@ -22,7 +22,7 @@ In this case, it is the object user's duty to properly think of all the possible
 
 Take a look at this simple class, `MutableShoppingBasket`, representing a user's basket on some online store. It holds an integer keeping track of the number of items, and it can increment (increase by one) or decrement (decrease by one) that integer. In the constructor we make sure that it is not possible to create a shopping basket with less than zero items.
 
-```plain-text
+```python
 class MutableShoppingBasket:
   def __init__(self, itemcount):
     if itemcount < 0:
@@ -43,7 +43,7 @@ class MutableShoppingBasket:
 
 Can you see how this constraint could be broken? Let's do it:
 
-```plain-text
+```python
 b = MutableShoppingBasket(1)
 print(b)
 # Shopping Basket with 1 items.
@@ -57,7 +57,7 @@ print(b)
 
 This specific `MutableShoppingBasket` is now in a broken state and ready to cause undefined behaviour in other parts of the program and our site. What if we used it in an immutable fashion?
 
-```plain-text
+```python
 b = MutableShoppingBasket(1)
 print(b)
 # Shopping Basket with 1 items.
@@ -84,7 +84,7 @@ What is the code snippet below an example of?
 
 (Remember that the `Connection` class defaults to the last HTTP method used if one is not specified in `request()`. See the footnotes in the insight for more information.)
 
-```plain-text
+```python
 conn = Connection(
   http.client.HTTPConnection(
               "httpbin.org", 80))
@@ -113,4 +113,3 @@ In what kind of data structures are immutable objects ideal to be used as keys?
 - Integers
 - Arrays
 - Strings
- 

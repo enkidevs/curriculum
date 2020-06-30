@@ -88,7 +88,7 @@ Since the `datetime` attribute is machine-readable, this can help user agents ad
 
 Example:
 
-```plain-text
+```html
 <p> The class starts at
   <time> 08:00</time>
 </p>
@@ -102,7 +102,7 @@ Result:
 
 Another Example:
 
-```plain-text
+```html
 <p>
 Date of birth:
 <time 1993-12-06 18:12:24>
@@ -120,7 +120,7 @@ Result:
 
 Example with datetime:
 
-```plain-text
+```html
 <p>
   WW2 ended
   <time datetime="1945-09-02">
@@ -185,12 +185,12 @@ When using the `<time>` element, what attribute is used to declare the machine-r
 
 ## Quiz
 
-### How much do you know about the 
+### How much do you know about the
+
 
 `<time>`
 
  element?
-
 
 Match the appropriate datetime attributes:
 
@@ -204,4 +204,3 @@ Three-Day Event: `<time datetime="???">`
 - 12-25-1975T06:00
 - 3D
 - D3
- 

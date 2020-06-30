@@ -21,7 +21,7 @@ This element is used for adding short phrases or comments, short blocks of text,
 
 Example:
 
-```plain-text
+```html
 <p>Enki is an educational
 technology company.</p>
 <hr>
@@ -40,7 +40,7 @@ and our <a href="#">Privacy Policy
 
 By default, the font-size is generally set to .8em smaller than the existing text, which is also often 1 font size smaller. In this example the "Test" text will display at the same size:
 
-```plain-text
+```html
 <h1><small>Test</small></h1>
 <h2>Test</h2>
 ```
@@ -91,7 +91,7 @@ What HTML element is used to make the text font size one size smaller?
 
 What does the `<small>` element set the selected text to?
 
-```plain-text
+```html
 <p>
     Some actors change their names,
     like Tom Cruise
@@ -104,4 +104,3 @@ What does the `<small>` element set the selected text to?
 - smaller and half a character above line of text.
 - to the smallest display size.
 - to the font-size of 10px.
- 

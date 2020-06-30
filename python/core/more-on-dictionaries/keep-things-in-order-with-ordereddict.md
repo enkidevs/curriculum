@@ -31,13 +31,13 @@ Another class of the `collections` module is the `OrderedDict`, a subclass of `d
 
 Import `OrderedDict`:
 
-```plain-text
+```python
 from collections import OrderedDict
 ```
 
 While iteration over a regular `dict` produces the values in arbitrary order,
 
-```plain-text
+```python
 a = dict()
 a['e'] = 'E'
 a['n'] = 'N'
@@ -51,7 +51,7 @@ for k, v in a.items():
 
 the `OrderedDict` will keep track of the order:
 
-```plain-text
+```python
 b = OrderedDict()
 b['e'] = 'E'
 b['n'] = 'N'
@@ -103,4 +103,3 @@ for k, v in e.???():
 - `odict`
 - `dictionary`
 - `holds`
- 

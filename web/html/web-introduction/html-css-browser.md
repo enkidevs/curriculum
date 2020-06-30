@@ -21,7 +21,7 @@ Let's say we have 2 files:
 
 HTML file:
 
-```plain-text
+```html
 <p>
   This is a paragraph
 </p>
@@ -29,7 +29,7 @@ HTML file:
 
 CSS file:
 
-```plain-text
+```css
 p { color: green; }
 ```
 
@@ -94,4 +94,3 @@ How do `.css` files appear in a browser when viewed alone without a `.html` file
 - A document error occurs and nothing displays properly.
 - File opens, but no content of any sort displayed.
 - The CSS file doesn't display anything without the HTML.
- 

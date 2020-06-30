@@ -28,7 +28,7 @@ It evaluates to `True` if it finds the specified value, and `False` if it doesn'
 
 Here's an example of the `in` operator searching for a string pattern inside a longer string:
 
-```plain-text
+```python
 string = 'Python'
 sentence = "Python's the best language to learn!"
 
@@ -85,4 +85,3 @@ The `in` operator evaluates to ??? if it finds the specified value in the ???.
 
 [1:Membership operator]
 Membership operators are used to test if a sequence is present in an object, such as a string.
- 

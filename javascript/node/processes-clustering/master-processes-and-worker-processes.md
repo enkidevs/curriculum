@@ -16,13 +16,13 @@ category: tip
 
 The *Cluster* module allows you to identify the master process as follows:
 
-```plain-text
+```javascript
 if(cluster.isMaster) { ... }
 ```
 
 The master process is the process which a user initiates, there is only one master process. The master  process then initiates worker processes using the `fork()` method as follows:
 
-```plain-text
+```javascript
 cluster.fork();
 ```
 
@@ -39,7 +39,7 @@ In the master this can be obtained using the command `cluster.workers`. In a wor
 
 What does the following line of code do? ???
 
-```plain-text
+```javascript
 if (cluster.isMaster) { ... }
 ```
 
@@ -60,4 +60,3 @@ Which method is used by the master process to initiate new worker processes? ???
 - master.new();
 - cluster.process();
 - master.process();
- 

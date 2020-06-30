@@ -26,13 +26,13 @@ If we pass three lists into a `zip` function, it returns an iterator of tuples. 
 
 The syntax of `zip` is of the form:
 
-```plain-text
+```python
 zip(zero_or_more_iterable)
 ```
 
 where `zero_or_more_iterable` denotes zero or more iterable objects. To illustrate how zip works consider the code example below, where we input three lists of strings into `zip`.
 
-```plain-text
+```python
 a = ['a1', 'a2', 'a3', 'a4', 'a5']
 b = ['b1', 'b2', 'b3', 'b4', 'b5']
 c = ['c1', 'c2', 'c3', 'c4', 'c5']
@@ -49,13 +49,13 @@ print(zip(a, b, c))
 
 The star operator `*` can be used with `zip` to do the opposite action—to unzip a list. This action takes an iterator of tuples and returns a tuple for each field in the tuples[2]. Unzipping has the syntax:
 
-```plain-text
+```python
 zip(*zippedList)
 ```
 
 where `(*zippedList)` denotes the one input zipped list of tuples preceded by the `*` operator. Below is an illustration of unzipping:
 
-```plain-text
+```python
 a = ['a1', 'a2', 'a3', 'a4', 'a5']
 b = ['b1', 'b2', 'b3', 'b4', 'b5']
 c = ['c1', 'c2', 'c3', 'c4', 'c5']
@@ -75,7 +75,7 @@ print(z)
 
 Note that when unzipping, Python returns **tuples** instead of **lists**:
 
-```plain-text
+```py
 type(x)
 # result:
 # <type 'tuple'>
@@ -155,4 +155,3 @@ print(zip(dates, values))
 
 [2:Uneven length = loss of information]
 *Obviously, any information discarded in the initial `zip` step because of input iterables being of uneven length is not recovered when we unzip the result again; the information has already been discarded at the `zip` step.*
- 

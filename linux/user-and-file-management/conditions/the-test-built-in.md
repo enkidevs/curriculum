@@ -19,7 +19,7 @@ Previously, you've seen the `&&` and `||` operators that have different results 
 
 The syntax is as follows:
 
-```plain-text
+```bash
 test expression
 # or
 [ expression ]
@@ -29,7 +29,7 @@ While the first option should work in most shells, the second one doesn't work i
 
 The command returns **0** if the `expression` evaluates to *false* and **1** otherwise. The `[` **command** must take `]` as its last argument. For example, here are some simple tests you can perform:
 
-```plain-text
+```bash
 test 1 -lt 2 && echo true || echo false
 # true
 ```
@@ -46,7 +46,7 @@ test 1 -lt 2 && echo true || echo false
 
 Another example:
 
-```plain-text
+```bash
 [ 1 \< 2 ] && [ "abc" = "abc" ]; echo $?
 # 1
 ```
@@ -91,4 +91,3 @@ The equivalent syntax for the `test <expr>` command is
 - `(( <expr> ))`
 - `$(<expr>)`
 - `!<expr>`
- 

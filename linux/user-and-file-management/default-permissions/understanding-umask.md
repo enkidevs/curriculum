@@ -28,7 +28,7 @@ The default permission for new **files** is 666 (rw-rw-rw-), which gets masked b
 
 Masking is equivalent to turning off permission bits - if the permission does not already exist[2], the `umask` will end up doing nothing. For example, creating a new file while the `umask` is set to *111* does not change permissions:
 
-```plain-text
+```bash
 rw-rw-rw-
 # masking x bit still yields
 rw-rw-rw-
@@ -36,7 +36,7 @@ rw-rw-rw-
 
 However, this is not the case for a `umask` value of *333*, in which both *w* and *x* bits are switched off:
 
-```plain-text
+```bash
 rw-rw-rw-
 # masking w and x bits
 r--r--r--
@@ -44,7 +44,7 @@ r--r--r--
 
 You can check the current `umask` value with:
 
-```plain-text
+```bash
 umask
 0022
 # these would be the permissions
@@ -61,7 +61,7 @@ drwxr-xr-x 2 user group 4096 ./
 
 To change the umask of current session to `077`, run:
 
-```plain-text
+```bash
 umask 077
 # or
 umask u+rwx,g-rwx,o-rwx
@@ -135,4 +135,3 @@ The 3 rightmost digits represent the permissions granted to the user, user's gro
 
 [2:Files]
 In case of files, for which the x (or execute) permission is turned off by default.
- 

@@ -22,13 +22,13 @@ notes: ''
 
 We can get a detailed information of the services that are running on our host by issuing:
 
-```plain-text
+```bash
 ss -tulpn
 ```
 
 This gives us the service list specified by the port they're using (tcp or udp) and also the process that is using that specific port:
 
-```plain-text
+```bash
 ss -tulpn
 Netid        tcp
 State 	   Listen
@@ -68,4 +68,3 @@ You can get the process ID of services that are Listening to TCP ports by issuin
 - `-ulp`
 - `-tl`
 - `netstat`
- 

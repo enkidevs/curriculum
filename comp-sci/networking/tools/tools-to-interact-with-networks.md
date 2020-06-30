@@ -63,4 +63,3 @@ Which of the following tools can be used to echo a packet to remote host?
 A routing table is a set of rules, often viewed in table format, that is used to determine where data packets traveling over an Internet Protocol (`IP`) network will be directed.
 
 All IP-enabled devices, including routers and switches, use routing tables.
- 

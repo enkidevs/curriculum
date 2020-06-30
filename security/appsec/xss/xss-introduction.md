@@ -23,7 +23,7 @@ A malicious user embeds HTML/JavaScript in a form (such as a search bar or comme
 
 Take for example the mockup form I've create below...
 
-```plain-text
+```javascript
 Add a Comment Below:
 ===
 Hi, great site. Too bad I hacked it!
@@ -74,4 +74,3 @@ Hi, great site. Too bad I hacked it!
 - global
 - blink
 - h1
- 

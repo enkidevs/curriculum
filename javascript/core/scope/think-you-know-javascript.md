@@ -20,7 +20,7 @@ It's a quick test for real understanding of JavaScript core beyond closures and 
 
 ## Game Content
 
-```plain-text
+```javascript
 if (!("a" in window)) {
   var a = 1;
 }
@@ -37,7 +37,7 @@ In this case `a` is out of scope, as it is initialized inside the if statement. 
 
 ---
 
-```plain-text
+```javascript
 var a = 1,
   b = function a(x) {
     x && a(--x);
@@ -56,7 +56,7 @@ Therefore, the initial assignment remains the same. The right answer is `1`.
 
 ---
 
-```plain-text
+```javascript
 function a(x) { return x * 2; }
 var a;
 alert(a);
@@ -72,7 +72,7 @@ There are two things to consider here. In general, if a name has already been de
 
 ---
 
-```plain-text
+```javascript
 function b(x, y, a) {
   arguments[2] = 10;
   alert(a);
@@ -90,7 +90,7 @@ The function accepts 3 arguments, which can be accessed through the function-sco
 
 ---
 
-```plain-text
+```javascript
 function a() {
   alert(this);
 }
@@ -104,4 +104,3 @@ a.call(null);
 %exp
 The `this` keyword always refers to the owner of the function. In this case, we define the function `a` in a page, which is contained inside the JavaScript's global object, `window`. For reference, if you were to console log `this` inside a button's `click` function, the button would be logged.
 %
- 

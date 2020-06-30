@@ -43,7 +43,7 @@ This includes some things you might not expect such as:
 
 All boolean operations in JavaScript, before doing what's intended, will first convert a value to its corresponding boolean value, based on its "truthyness".
 
-```plain-text
+```javascript
 // first, convert x to a boolean
 // then, decide where to go in the if/else flow
 if (x) {
@@ -74,4 +74,3 @@ An empty string is ???.
 - falsy
 - truthy
 - neither falsy nor truthy
- 

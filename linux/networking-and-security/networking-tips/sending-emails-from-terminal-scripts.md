@@ -26,7 +26,7 @@ Firstly, acquire the packages needed:
 
 Then, you can issue it with the following syntax: 
 
-```plain-text
+```bash
 sendemail -f fromuser@gmail.com \
  -t touser@domain.com \
  -u "subject" -m "message" \
@@ -34,4 +34,3 @@ sendemail -f fromuser@gmail.com \
  -o tls=yes -xu gmailaccount \
  -xp gmailpassword 
 ```
- 

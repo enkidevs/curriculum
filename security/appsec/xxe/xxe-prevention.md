@@ -20,7 +20,7 @@ links:
 
 The general guidance from OWASP in order to prevent XXE attacks is to disable DTDs entirely:
 
-```plain-text
+```python
 include xmlparser
 
 untrustedXML = request.body
@@ -84,4 +84,3 @@ xmlparser.parse(untrustedXML)
 - xmlparser.set("doctype", "myDocType")
 - xmlparser.parse(untrustedXML)
 - untrustedXML = request.body
- 

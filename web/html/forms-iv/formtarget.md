@@ -17,7 +17,7 @@ If the `formtarget` attribute is specified, it overrides the `target` attribute.
 
 Here is an example of the `formtarget` attribute set to open in a different window after it is submitted:
 
-```plain-text
+```html
 <form
   action="file.php">
   Name:
@@ -87,4 +87,3 @@ Which input form attribute, with values such as “_blank” and “framename”
 - _target
 - frame
 - frameset
- 

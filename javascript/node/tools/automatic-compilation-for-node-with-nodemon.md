@@ -19,14 +19,14 @@ When a change occurs the server is automatically restarted.
 
 Install **nodemon** with **npm** in to the *bin* path:
 
-```plain-text
+```bash
 npm install -g nodemon
 
 ```
 
 Run your application with **nodemon**:
 
-```plain-text
+```bash
 nodemon myapp.js
 ```
 
@@ -36,7 +36,7 @@ In order to enable debugging just use the `--debug` flag.
 
 **Nodemon** also supports **CoffeeScript**:
 
-```plain-text
+```bash
 nodemon myapp.coffee
 
 ```
@@ -72,4 +72,3 @@ Which flag must be used to enable debugging?
 - -debug
 - debugging
 - --debugger
- 

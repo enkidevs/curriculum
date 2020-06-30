@@ -18,13 +18,13 @@ Express JavaScript is a tiny and flexible Node.js framework, providing robust fe
 
 Express can be installed globally using the `npm` package manager:
 
-```plain-text
+```bash
 npm install express --save
 ```
 
 Import and use express in your Node.js app:
 
-```plain-text
+```javascript
 let express = require('express');
 let app = express();
 ```
@@ -33,7 +33,7 @@ An express application makes use of **callback** functions with `request` and `r
 
 Using the `get` method, routing can be easily achieved:
 
-```plain-text
+```javascript
 app.get("/", function (request, response) {
   // your code
 });
@@ -76,4 +76,3 @@ app.???('/', function(???, response) {
 - run
 - reg
 - express
- 

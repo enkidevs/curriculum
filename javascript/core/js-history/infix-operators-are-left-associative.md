@@ -20,19 +20,19 @@ Operator associativity determines the order in which operators of the same type 
 
 Operations are processed from the left-hand side of an equation:
 
-```plain-text
+```js
 let x = a - b - c;
 ```
 
 The example is evaluated in the following way:
 
-```plain-text
+```js
 let x = (a - b) - c;
 ```
 
 These parentheses can be safely omitted without affecting the outcome of the equation. However, if you wish to evaluate the right-hand side of the equation first, then parentheses must be used:
 
-```plain-text
+```js
 let x = a - (b - c);
 ```
 
@@ -43,7 +43,7 @@ let x = a - (b - c);
 
 What does the following JS code output? ???
 
-```plain-text
+```javascript
 let a = 20;
 let b = 4;
 let c = 12;
@@ -70,4 +70,3 @@ The processing of operations starts with the ??? operator if no parentheses are 
 - left-most
 - right-most
 - middle
- 

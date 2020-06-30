@@ -17,14 +17,14 @@ Another useful **Python** module is `sched` and it's used for general purpose ev
 
 Import the module:
 
-```plain-text
+```python
 import sched
 import time # we will use this
 ```
 
 Every operation is done with the help of a `scheduler` class that needs two time functions. The first one to determine the current time and the second to wait for a specific period of time. (e.g. `time.time` and `time.sleep`)
 
-```plain-text
+```python
 s = sched.scheduler(time.time, time.sleep)
 
 ```
@@ -33,7 +33,7 @@ Since **Python 3.3** the `scheduler` class is safe for multi-threading.
 
 We can schedule a task with `enter`:
 
-```plain-text
+```python
 s.enter(2, 1, print, argument=('first',))
 s.enter(3, 1, print, argument=('second',))
 # first arg is delay, second is priority
@@ -43,7 +43,7 @@ s.enter(3, 1, print, argument=('second',))
 
 Then we run our scheduler:
 
-```plain-text
+```python
 s.run()
 ```
 
@@ -82,7 +82,7 @@ sc.run()
 
 What is the priority ??? and what is the delay ??? of the following scheduler:
 
-```plain-text
+```python
 
 sched.enter(3,2,print,argument=('second',))
 ```
@@ -91,4 +91,3 @@ sched.enter(3,2,print,argument=('second',))
 - 3
 - second
 - first
- 

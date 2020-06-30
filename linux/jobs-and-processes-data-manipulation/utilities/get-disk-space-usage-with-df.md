@@ -19,7 +19,7 @@ tags:
 
 The `df` (disk free) command provides the `-h` flag as an option to display sizes in human readable formats. 
 
-```plain-text
+```bash
 df -h
 Filesystem  Size  Used Avail Use% Mounted on
 /dev/sda1   107G   94G  7.6G  93% /
@@ -40,4 +40,3 @@ You can get the free disk status with ???.
 - `du`
 - `touch`
 - `dd`
- 

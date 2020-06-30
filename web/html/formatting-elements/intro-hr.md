@@ -18,7 +18,7 @@ The HTML `<hr>`, or the **Thematic Break** element, is used to create a thematic
 
 Thematic Break Example:
 
-```plain-text
+```html
 <h3>Enki App</h3>
 <p>
   Enki provides daily workouts.
@@ -41,7 +41,7 @@ Furthermore, the `<hr>` element provides important semantic meaning, such as a c
 
 By default, the `<hr>` element is represented with the following CSS properties:
 
-```plain-text
+```css
 hr {
     display: block;
     margin-top: 0.5em;
@@ -104,4 +104,3 @@ What HTML element is used to define a thematic change in the web page content?
 - body
 - section
 - small
- 

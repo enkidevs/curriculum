@@ -20,7 +20,7 @@ links:
 Using the `try/catch` block you can catch an exception then figure out what type of error occurred in your code.
 For example:
 
-```plain-text
+```javascript
 try {
 	eval('5 + / 3'); }
 catch(e) {
@@ -90,4 +90,3 @@ try {
 - `try`
 - `syntax`
 - `Error`
- 

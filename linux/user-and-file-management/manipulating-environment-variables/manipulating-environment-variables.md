@@ -20,7 +20,7 @@ Shell and environment variables are slightly different.
 
 You can define a new shell variable using the `=` operator:
 
-```plain-text
+```shell
 drink="water"
 echo $drink
 # water
@@ -32,7 +32,7 @@ They are commonly used in scripts to make calculations and to store intermediate
 
 Shell variables can be converted into environment variables with the `export` command:
 
-```plain-text
+```shell
 # export DRINK shell variable
 # into the environment
 export DRINK="water"
@@ -73,4 +73,3 @@ Match the variable with the text:
 
 - HOME
 - home
- 

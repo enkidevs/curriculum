@@ -27,7 +27,7 @@ There are a few ways of doing this:
 
 Now that it's open, go ahead and type:
 
-```plain-text
+```bash
 echo "Enki is cool!"
 ```
 
@@ -66,7 +66,7 @@ Complete the code so that `"I'm getting good at Linux!` is printed:
 
 Will the following command print `"I'm cool!"`?
 
-```plain-text
+```bash
 echo I'm cool!
 ```
 
@@ -74,4 +74,3 @@ echo I'm cool!
 
 - No.
 - Yes.
- 

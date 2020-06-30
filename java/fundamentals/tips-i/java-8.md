@@ -20,7 +20,7 @@ With the introduction of Java 8, numerous classes and interfaces have been added
 
 not java 8: java 8
 
-```plain-text
+```false
 NavigableMap
 %exp
 In **Java**, `NavigableMap` is an *interface* which enables 'Map' data structures to make use of methods that return the closest matches for given search targets. It was introduced in *Java 6*.
@@ -90,7 +90,7 @@ A **thread-safe** variant of **ArrayList** in which all mutative operations (add
 
 ```
 
-```plain-text
+```true
 StampedLock
 %exp
 A **capability-based** lock with three modes for controlling **read/write** access. It was introduced with **Java 8**.
@@ -141,4 +141,3 @@ This class is used to wrap **IOExceptions** with an **unchecked exception**. **J
 %
 
 ```
- 

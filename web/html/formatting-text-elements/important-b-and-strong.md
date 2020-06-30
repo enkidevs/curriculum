@@ -27,7 +27,7 @@ The `<b>` element was also formerly known as the **Boldface** element.
 
 Example:
 
-```plain-text
+```html
 <p>
   <strong>Warning</strong>:
   The latest
@@ -45,7 +45,7 @@ The HTML `<strong>` and `<b>` elements appear similar since they both have the s
 
 Example:
 
-```plain-text
+```html
 <strong>
   Attention!
 </strong>
@@ -136,4 +136,3 @@ Write the code to properly express extra importance to key words :
 - /cite
 - i
 - /i
- 

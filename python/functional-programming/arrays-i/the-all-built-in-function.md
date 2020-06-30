@@ -17,13 +17,13 @@ links:
 
 The `all` function takes an iterable object and returns `True` if all the elements in the iterable object evaluate to `True`, or if the object is empty. It takes the form:
 
-```plain-text
+```python
 all(iterable)
 ```
 
 In practice, `all` checks if `bool(element) == True` for each element in the iterable object. For most primitive types this will evaluate to True, so:
 
-```plain-text
+```python
 list3 = [1, 2, 'abc', 'xyz', 3, 4, 'zzz']
 print(all(list3))
 # result = True
@@ -33,7 +33,7 @@ It is important to keep in mind the usual caveats when using boolean evaluation 
 
 As an example, consider the following:
 
-```plain-text
+```python
 print(all([" ", 'abc']))
 # Result = True
 print(all(["", 'abc']))
@@ -47,7 +47,7 @@ print(all(["", 'abc']))
 
 What is the result of the execution of the following code snippet?
 
-```plain-text
+```python
 print(all([" ", 'abc', 12, 145]))
 ```
 
@@ -64,7 +64,7 @@ print(all([" ", 'abc', 12, 145]))
 
 What is the result of the execution of the following code snippet?
 
-```plain-text
+```python
 print(all([" ", 'abc', 12, 145, '']))
 ```
 
@@ -81,4 +81,3 @@ print(all([" ", 'abc', 12, 145, '']))
 
 [1:Python Truthiness]
 *Using the `bool` built in function, we can check the truthiness of any object in Python. The truthiness rules can be examined at length in the second link in the Learn More section. As a general rule, nonempty objects are True and empty ones are False. For integers, 0 is False, anything else is True. Truthiness can be a useful shortcut when performing operations on these types.*
- 

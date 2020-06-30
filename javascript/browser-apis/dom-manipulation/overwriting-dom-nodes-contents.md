@@ -20,7 +20,7 @@ links:
 
 Elements have a property called `innerHTML` that gets or sets the HTML contained within the element. Setting the `innerHTML` of an element overwrites the contents of an element, including nested elements. Consider the following example:
 
-```plain-text
+```HTML
 <body>
   <h1>Hello world</h1>
   <p>This is HTML</p>
@@ -29,7 +29,7 @@ Elements have a property called `innerHTML` that gets or sets the HTML contained
 
 The body tag has a couple of elements within it. If we set the `innerHTML` of the body tag then these elements will be overwritten by the new content.
 
-```plain-text
+```javascript
 document
   .body
   .innerHTML = 'Hello world'
@@ -37,7 +37,7 @@ document
 
 The DOM now looks like this:
 
-```plain-text
+```HTML
 <body>
   Hello world
 </body>
@@ -85,7 +85,7 @@ Which code example will result in overwriting the contents of the body?
 
 Option A:
 
-```plain-text
+```HTML
 <body>
   <h1>Hello world</h1>
   <p>This is HTML</p>
@@ -99,7 +99,7 @@ document
 
 Option B:
 
-```plain-text
+```HTML
 <body>
   <h1>Hello world</h1>
   <p>This is HTML</p>
@@ -113,7 +113,7 @@ document
 
 Option C:
 
-```plain-text
+```HTML
 <body>
   <h1>Hello world</h1>
   <p>This is HTML</p>
@@ -127,4 +127,3 @@ document
 - A
 - B
 - C
- 

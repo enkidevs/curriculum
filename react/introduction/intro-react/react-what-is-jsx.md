@@ -21,7 +21,7 @@ parent: what-is-react
 
 **JSX** is syntactic sugar that brings an `HTML`-like syntax to **JavaScript**. Here is what it looks like:
 
-```plain-text
+```jsx
 const el = <h2>Enki!</h2>;
 ```
 
@@ -31,13 +31,13 @@ A **JSX** expression is evaluated to a **React** `element`, which is short-hand 
 
 **JSX** expressions are transformed (compiled) into standard JS objects. For example, the following **JSX** code:
 
-```plain-text
+```jsx
 const el = <h2>Enki!</h2>;
 ```
 
 will be *compiled* to[1]:
 
-```plain-text
+```jsx
 const el = React.createElement(
   "h2",
   null,
@@ -47,7 +47,7 @@ const el = React.createElement(
 
 **JSX** allows you to embed JS expressions within it by wrapping them with `{ }` curly brackets:
 
-```plain-text
+```jsx
 const x = "Hey there!";
 
 const el = <h2>{x}</h2>;
@@ -74,7 +74,7 @@ It’s important to know that, since JSX isn’t a language that is understood i
 
 What will the following **JSX** expression compile to?
 
-```plain-text
+```jsx
 const el = <p>I love JSX</p>;
 ```
 
@@ -116,7 +116,7 @@ JSX expressions after compilation are transformed into ???.
 [1:Compilation Object]
 After performing some checks to make sure you’re providing valid data, the `React.createElement()` method creates an object like this:
 
-```plain-text
+```jsx
 const el = {
   type: 'h2',
   props: {
@@ -129,4 +129,3 @@ This shape isn't important when developing with React and you shouldn't worry ab
 
 [2:Babel]
 Babel is an open-source JavaScript compiler that is used to convert new ECMAScript code into a backwards compatible version of JavaScript that can run on older engines.
- 

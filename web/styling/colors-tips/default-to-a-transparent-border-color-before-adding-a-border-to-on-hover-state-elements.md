@@ -18,7 +18,7 @@ By using a transparent border as a default, then changing the `border-color` on 
 
 Instead of:
 
-```plain-text
+```css
 button:hover {
   border: 2px solid black;
 }
@@ -26,7 +26,7 @@ button:hover {
 
 Use this:
 
-```plain-text
+```css
 button {
   border: 2px solid transparent;
 }
@@ -47,7 +47,7 @@ The second example applies the same black border on `:hover` without pushing out
 
 What does the following code do? ???
 
-```plain-text
+```css
 label {
    border: 2px dotted transparent;
 }
@@ -61,4 +61,3 @@ label:hover {
 - Makes the border transparent instead of block when the label is hovered over.
 - Makes the label solid instead of transparent when hovered over.
 - Makes the label disappear when hovered over.
- 

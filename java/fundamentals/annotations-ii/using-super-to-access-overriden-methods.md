@@ -20,7 +20,7 @@ When a subclass declares a method with a signature that is the same as a method 
 
 However, we can still access this overridden method by using the `super` keyword.
 
-```plain-text
+```java
 public class SuperClass {
   public void method() {
     System.out.println("superclass");
@@ -35,7 +35,7 @@ public class SubClass extends SuperClass {
 
 `SubClass.method()` overrides `SuperClass.method()`. If we still wish to access `SuperClass.method()` from `SubClass` then we can use `super` like this:
 
-```plain-text
+```java
 public class SubClass extends SuperClass {
   public void method() {
     System.out.println("subclass");
@@ -47,4 +47,3 @@ public class SubClass extends SuperClass {
 ```
 
 Calling `super.method()` allows us to use `SuperClass`' `method()`.
- 

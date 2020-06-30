@@ -20,7 +20,7 @@ tags:
 
 To change the timezone on your Debian based system you can issue the following and an interactive menu will appear in the terminal:
 
-```plain-text
+```bash
 sudo dpkg-reconfigure tzdata
 ```
 
@@ -59,4 +59,3 @@ sudo ??? ???
 - `tzdata`
 - `dpkg`
 - `reconfigure`
- 

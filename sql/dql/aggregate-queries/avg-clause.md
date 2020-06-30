@@ -22,7 +22,7 @@ links:
 
 Using `AVG` function[1] to get the average of only the first five rows:
 
-```plain-text
+```sql
 SELECT AVG(experience) as Result
 FROM experience
 LIMIT 5;
@@ -104,7 +104,7 @@ We will use the same segment of `experience` table for all aggregate functions:
 | 2  | 2     | 10         | 1              |
 | 3  | 3     | 33         | 1              |
 
-```plain-text
+```sql
 SELECT experience
 FROM experience
 LIMIT 5;
@@ -119,4 +119,3 @@ Output:
 | 33         |
 | 80         |
 | 156        |
- 

@@ -22,7 +22,7 @@ The `kill` command expects to be given a process ID (or PID), which can be found
 
 Consider the following output from `ps`:
 
-```plain-text
+```shell
 ps
   PID TTY           TIME CMD
 20735 ttys000    0:00.10 -bash
@@ -78,4 +78,3 @@ Force killing a process is done by attaching a
 - -2
 - -3
 - -7
- 

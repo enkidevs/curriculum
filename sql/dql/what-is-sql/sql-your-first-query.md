@@ -18,7 +18,7 @@ links:
 
 Remember the first piece of SQL code we showed you earlier?
 
-```plain-text
+```sql
 SELECT * FROM users;
 ```
 
@@ -47,4 +47,3 @@ Complete the following code to retrieve **all** the data from the `fruits` table
 - GET
 - RETRIEVE
 - EXTRACT
- 

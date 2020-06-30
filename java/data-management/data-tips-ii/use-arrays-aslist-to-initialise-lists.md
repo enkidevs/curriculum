@@ -20,7 +20,7 @@ links:
 
 Lists can be initialised concisely using `Arrays.asList()`. For example this:
 
-```plain-text
+```java
 List<String> animals = new ArrayList<>();
 animals.add("cat");
 animals.add("dog");
@@ -30,7 +30,7 @@ animals.add("sea turtle");
 
 can instead be written like this:
 
-```plain-text
+```java
 List<String> animals = Arrays.asList(
 "cat", "dog", "sea turtle");
 
@@ -77,4 +77,3 @@ List<String> myList =
 - `List` 
 - `asArray` 
 - `asArrayList`
- 

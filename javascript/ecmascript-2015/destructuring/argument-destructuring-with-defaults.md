@@ -19,7 +19,7 @@ Tip: when using a destructuring-hash pattern in a function signature, try and us
 
 Good:
 
-```plain-text
+```javascript
 
 function x({ a, b } = {}) {
 
@@ -28,7 +28,7 @@ function x({ a, b } = {}) {
 
 Bad:
 
-```plain-text
+```javascript
 function x({ a, b }) {
 
 }
@@ -45,7 +45,7 @@ Which of these code snippets will ensure this function doesn't throw an error?
 
 A)
 
-```plain-text
+```javascript
 function x({ a, b }) {
 
 }
@@ -53,7 +53,7 @@ function x({ a, b }) {
 
 B)
 
-```plain-text
+```javascript
 function x({ a, b } = {}) {
 
 }
@@ -63,4 +63,3 @@ function x({ a, b } = {}) {
 
 - B
 - A
- 

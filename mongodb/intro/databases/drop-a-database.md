@@ -21,7 +21,7 @@ Last time, we created two similarly named databases: `Pokemon` and `pokemon`. Le
 
 To do that, first, we need to switch to that database with the `use` command:
 
-```plain-text
+```javascript
 use Pokemon
 
 // switched to db Pokemon
@@ -31,7 +31,7 @@ use Pokemon
 
 When we are sure we are on the correct database, we can use the `db.dropDatabase()` command to delete the current database:
 
-```plain-text
+```javascript
 db.dropDatabase()
 // { "dropped": "Pokemon", "ok": 1 }
 ```
@@ -66,4 +66,3 @@ To delete a database named `pokemon`, you have to use the ??? command followed b
 - `delete`
 - `db.dropDatabase(pokemon)`
 - `db.delete(pokemon)`
- 

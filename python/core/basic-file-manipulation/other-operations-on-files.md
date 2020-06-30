@@ -32,7 +32,7 @@ In **Python**, the `tell()` function returns the current position in the **file*
 
 Let's see how `tell()` and `seek()` work in practice, considering a dummy `file.txt`[1]:
 
-```plain-text
+```python
 
 file = open('file.txt','r+')
 text = file.read(7)
@@ -60,7 +60,7 @@ Apart from other uses, `os` module helps with **file processing operations**. Tw
 
 As `os` is a **module**, we need to **import** it to be able to use the operations it provides:
 
-```plain-text
+```python
 import os
 
 os.rename('file.txt','new_file.txt');
@@ -102,4 +102,3 @@ Which method returns the current position of the file pointer within a **file ob
 - `seek()`
 - `open()`
 - `readline()`
- 

@@ -17,7 +17,7 @@ links:
 
 To stage a file interactively, use the `-i` or `--interactive` option:
 
-```plain-text
+```bash
 git add -i
      staged     unstaged path
   1: unchanged    +0/-1 README
@@ -32,7 +32,7 @@ This will open an interactive shell. It will show your staged and unstaged files
 
 To stage a file type `2` and hit **Enter**:
 
-```plain-text
+```bash
 What now > 2
 staged     unstaged path
 1: unchanged    +0/-1 README
@@ -86,4 +86,3 @@ git add ???
 - `-i`
 - `i`
 - `-shell`
- 

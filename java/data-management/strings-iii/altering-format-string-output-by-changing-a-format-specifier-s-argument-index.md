@@ -20,7 +20,7 @@ notes: 'Gamified insight. Static Workout. '
 
 A format string is a string which can include one or more format specifiers.
 
-```plain-text
+```java
 String hungry = "hungry";
 String hippo = "hippo";
 String result = String.format(
@@ -37,7 +37,7 @@ To modify the order that the arguments appear in the format string, specify an a
 
 Argument indexes take the form of a non-negative integer followed by `$`, where the integer specifies the position of the argument in the argument list.
 
-```plain-text
+```java
 String hungry = "hungry";
 String hippo = "hippo";
 String result = String.format(
@@ -71,4 +71,3 @@ result = String.format(
 - `aaa`
 - `cab`
 - `bac`
- 

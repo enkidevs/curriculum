@@ -26,7 +26,7 @@ Some of these are:
 
 Syntax:
 
-```plain-text
+```javascript
 { $first: <expression> }
 ```
 
@@ -44,7 +44,7 @@ By first we mean the first document entered in the database for the selected gro
 
 Example:
 
-```plain-text
+```javascript
 db.pokemon.aggregate([
   {
     $group: {
@@ -58,7 +58,7 @@ db.pokemon.aggregate([
 
 Output:
 
-```plain-text
+```javascript
 { "_id": "Bug", "nameOfFirst": "Caterpie" }
 { "_id": "Electric", "nameOfFirst": "Pikachu" }
 { "_id": "Fairy", "nameOfFirst": "Togepi" }
@@ -98,4 +98,3 @@ db.pokemon.aggregate([
 - `$first`
 - `$Type`
 - `$Group`
- 

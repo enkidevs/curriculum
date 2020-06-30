@@ -19,20 +19,20 @@ links:
 
 You've got this generic function:
 
-```plain-text
+```python
 def say_hello(name):
   return "Hello, {0}!".format(name)
 ```
 
 Say you need to wrap the output of the function in *heading tags*, like this:
 
-```plain-text
+```html
 <h2>Hello, Mike!</h2>
 ```
 
 You could always define another function that makes use of `say_hello`:
 
-```plain-text
+```python
 def hello_heading(name):
   return "<h2>{0}</h2>"
     .format(say_hello(name))
@@ -40,7 +40,7 @@ def hello_heading(name):
 
 Which is perfectly acceptable, but you'd be giving away the opportunity of making your code extensible. What if you are going to need a `say_goodbye` function, formatted in the same way? You'd have to create two more functions:
 
-```plain-text
+```python
 def say_goodbye(name):
   return "Goodbye, {0}!".format(name)
 def goodbye_heading(name):
@@ -50,7 +50,7 @@ def goodbye_heading(name):
 
 This is not ideal, since all you had done, for each function, was to **decorate** (enhance, manipulate or extend) their output. What if you could write a function that wraps any function's output in `<h2>` tags?
 
-```plain-text
+```python
 def h2_decorate(string_function):
   def func_wrapper(name):
     return "<h2>{0}</h2>"
@@ -60,7 +60,7 @@ def h2_decorate(string_function):
 
 There you have it! Your decorator returns a new function that wouldn't care about the underlying structure of the passed function - it would just wrap everything up:
 
-```plain-text
+```python
 hello_wrapper = h2_decorate(say_hello)
 goodbye_wrapper = h2_decorate(say_goodbye)
 print(hello_wrapper("Mike"))
@@ -94,7 +94,7 @@ The number of similar looking functions that can be decorated using the same dec
 
 Which of the following examples represent a decorator?
 
-```plain-text
+```python
 def say_hello(name):
   return "Hello, {0}!".format(name)
 # A
@@ -115,4 +115,3 @@ def hello_heading(func):
 - A
 - both
 - neither
- 

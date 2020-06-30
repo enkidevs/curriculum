@@ -22,7 +22,7 @@ Take into consideration that this practice is definitely to be avoided because i
 
 React named the prop which is used to pass this data as `dangerouslySetInnerHTML`. A key is used to specify the text with `__html`:
 
-```plain-text
+```jsx
 dangerouslySetInnerHTML: {
   __html: "<p>My HTML text </p>";
 }
@@ -30,7 +30,7 @@ dangerouslySetInnerHTML: {
 
 The recommended way of using `dangerouslySetInnerHTML` when needed is by creating an object containing only the key `__html` and your *sanitized*[2] data as the value.
 
-```plain-text
+```jsx
 function createMarkup() {
   return { __html: "<p>My HTML text </p>" };
 }
@@ -38,7 +38,7 @@ function createMarkup() {
 
 The next step is to pass the `createMarkup()` function as a value for your `dangerouslySetInnerHTML` prop:
 
-```plain-text
+```jsx
 <div
   dangerouslySetInnerHTML={createMarkup()}
 />
@@ -48,7 +48,7 @@ This method will prevent incorrect rendering.
 
 Let's say that you mistakenly write the following code:
 
-```plain-text
+```jsx
 <div
   dangerouslySetInnerHTML={getUsername()}
 />
@@ -58,7 +58,7 @@ Fortunately, this will not render because `getUsername()` would return a string,
 
 You still have to be careful. The following code can also leak sensitive data:
 
-```plain-text
+```jsx
 {/*
 we still have to sanitize HTML
 within getMarkup 
@@ -120,4 +120,3 @@ Cross-Site Scripting (or XSS) is a type of attack in which malicious scripts are
 
 [2: Sanitization]
 The process of HTML sanitization represents examining your HTML document and creating a new document such that you only preserve tags that are designated as "safe" or desired. This process can help protect against cross-site scripting (XSS) attacks by sanitizing any HTML code submitted by a user.
- 

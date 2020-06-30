@@ -23,7 +23,7 @@ Python's `struct` module has routines for converting between binary and text dat
 
 Import the module:
 
-```plain-text
+```python
 import struct
 ```
 
@@ -31,7 +31,7 @@ This module uses certain format characters such as `I` = unassigned int (in **C*
 
 Get a `bytes` object containing some values:
 
-```plain-text
+```python
 >>> struct.pack('hhl', 3,13,42)
 b'\x03\x00\r\x00*\x00\x00\x00'
 #hhl = short,short,long
@@ -39,7 +39,7 @@ b'\x03\x00\r\x00*\x00\x00\x00'
 
 To unpack the buffer:
 
-```plain-text
+```python
 >>> struct.unpack('hhl',\
 ... b'\x03\x00\r\x00*\x00\x00\x00')
 (3, 13, 42)
@@ -48,7 +48,7 @@ To unpack the buffer:
 
 Return the size of the struct:
 
-```plain-text
+```python
 >>> struct.calcsize('hhl')
 8
 ```
@@ -90,4 +90,3 @@ b'\x03\x00\r\x00*\x00\x00\x00'
 - `struct`
 - `bytes`
 - `calcsize`
- 

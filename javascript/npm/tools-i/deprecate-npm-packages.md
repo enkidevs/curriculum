@@ -20,7 +20,7 @@ parent: check-data-about-a-package
 
 Using the simple `npm deprecate` command you can deprecate versions of published packages. This only works if you are the **owner** of the specified package.
 
-```plain-text
+```bash
 npm deprecate jQuery "This is deprecated"
 ```
 
@@ -28,7 +28,7 @@ Keep in mind that a message must be also specified after the package name/versio
 
 Version ranges can also be specified:
 
-```plain-text
+```bash
 npm deprecate jQuery@"<0.1.2" "Bug fixed"
 ```
 
@@ -36,7 +36,7 @@ This will deprecate every version that is smaller than `0.1.2` of the specified 
 
 Packages can also be un-deprecated by specifying an empty string as the message:
 
-```plain-text
+```bash
 npm deprecate jQuery@"<0.1.2" ""
 ```
 
@@ -75,4 +75,3 @@ npm ??? enki ???
 - un-deprecate
 - "un-deprecated Enki
 - "any message"
- 

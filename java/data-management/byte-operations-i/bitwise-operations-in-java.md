@@ -24,7 +24,7 @@ links:
 
 This is very similar to how correlated logical operators work but on all bits throughout the length of the binary data:
 
-```plain-text
+```java
 public class Main{
   public static void main(String args[]) {
     int a = 1; // 0001 in binary
@@ -63,4 +63,3 @@ What does *OR* operation returns if the input bits are `1` and `0`?
 
 - `0`
 - `1`
- 

@@ -27,7 +27,7 @@ On the other hand, `this` in any regular function is a special construct that ig
 
 Let's take a look at how this `Counter()` constructor is being defined: 
 
-```plain-text
+```js
 window.counter = 0;
 
 function Counter() {
@@ -50,7 +50,7 @@ let count = new Counter();
 
 Now, if we were to log the `count` instance, we would get:
 
-```plain-text
+```js
 // after 1 second
 console.log(count);
 // Object { counter: -1}
@@ -119,7 +119,7 @@ let count = new Counter();
 
 [1: Example]
 
-```plain-text
+```js
 function Counter() {
   // We wrote `Counter` in such
   // a way that it expects `this`
@@ -167,4 +167,3 @@ function Counter() {
 // calling `Counter` with `new`
 let count = new Counter();
 ```
- 

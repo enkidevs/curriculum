@@ -22,13 +22,13 @@ notes: >-
 
 Since **React 0.14** it is possible to define components as an arrow function:
 
-```plain-text
+```jsx
 let comp = ({enki}) => <h1>{enki}</h1>;
 ```
 
 Yet, a type for the arguments can still be specified using `propTypes`:
 
-```plain-text
+```jsx
 comp.propTypes = {
   enki: PropTypes.string
 };
@@ -41,7 +41,7 @@ comp.propTypes = {
 
 Consider the following component defined as a function:
 
-```plain-text
+```javascript
 let enki = ({enki}) => <h1>{enki}</h1>;
 ```
 
@@ -68,7 +68,7 @@ Complete the code snippet to enforce **prop validation**:
 
 Consider the following component defined as a function:
 
-```plain-text
+```javascript
 let enki = ({enki}) => <h1>{enki}</h1>;
 ```
 
@@ -87,4 +87,3 @@ Complete the code snippet to enforce **prop validation**:
 - `React`
 - `ReactDOM`
 - `props`
- 

@@ -13,7 +13,7 @@ category: must-know
 
 Previously, you have learned how the `useEffect()` hook works, and how to apply it. Let's take a look at the following example:
 
-```plain-text
+```js
 function Enki() {
   // ...
   useEffect(() => {
@@ -28,7 +28,7 @@ function Enki() {
 
 By default, `useEffect()` is ran after the first and after every subsequent render. Sometimes, this might cause performance problems. In class components, this could've been solved by comparing `prevProps` and `prevState` with the `props` and `state` inside `componentDidUpdate()`:
 
-```plain-text
+```js
 class Enki extends React.Component {
   // ...
   componentDidUpdate(prevProps, prevState) {
@@ -49,7 +49,7 @@ class Enki extends React.Component {
 
 Because this functionality was commonly used, it was built into the `useEffect()` hook. Now, when using function components, you can skip effects if certain values haven't changed between re-renders. The code above can be re-written like so:
 
-```plain-text
+```js
 function Enki() {
   // ...
   useEffect(() => {
@@ -95,7 +95,7 @@ function Test() {
 
 How would you reproduce the following code using function components?
 
-```plain-text
+```js
 class Revision extends React.Component {
   constructor(props) {
     super(props);
@@ -148,7 +148,7 @@ function C() {
 [1: Object.is]
 Sometimes it is really difficult to find out if two values are actually the same value. When thinking of JavaScript, two objects are considered to have the same value if they have the same reference. This can be done through the `Object.is()` function, which is not the same as using the `==` operator (this applies coercion to both sides), or using the `===` operator (this treats `-0` and `+0` as being the same, also treats `Number.NaN` is not equal to `NaN`). Let's take a look at some examples:
 
-```plain-text
+```js
 Object.is('foo', 'foo'); // true
 Object.is('foo', 'bar'); // false
 Object.is([], []); // false
@@ -157,4 +157,3 @@ var bar = { a: 1 };
 Object.is(foo, foo); // true
 Object.is(foo, bar); // false
 ```
- 

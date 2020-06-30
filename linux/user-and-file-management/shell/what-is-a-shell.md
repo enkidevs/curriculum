@@ -28,7 +28,7 @@ On Unix-based operating systems like Linux, most command shells descend from `sh
 
 The "classic" `bash` prompt looks like this:
 
-```plain-text
+```shell
 jesse@dewey data $
 ```
 
@@ -61,4 +61,3 @@ Which of the following is the most common *shell*?
 
 [1:Command Shell]
 When someone refers to the Linux "command shell" or "command line interface" without any clarification, they're almost always referring to `bash`.
- 

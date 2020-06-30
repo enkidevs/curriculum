@@ -20,7 +20,7 @@ When you pass in a parameter it is assigned to the result of the `yield` stateme
 
 We could, for example, use this functionality to reset our number sequence when 0 is passed in:
 
-```plain-text
+```javascript
 function* getGenerator() {
   let currentNumber = 1;
 
@@ -42,7 +42,7 @@ There is also a gotcha to watch out for when passing values to generators.
 
 This is best implemented with an example - the below function simply logs to the console any values passed in:
 
-```plain-text
+```javascript
 function* getGenerator() {
   while (true) {
     console.log(yield);
@@ -52,7 +52,7 @@ function* getGenerator() {
 
 However, the first value we pass in will be ignored!
 
-```plain-text
+```javascript
 let g = getGenerator();
 g.next("a"); //ignored
 g.next("b"); // b
@@ -62,7 +62,7 @@ This is because the first time we get our generator we are at the beginning of t
 
 The solution is to simply call the generators next method once:
 
-```plain-text
+```javascript
 let g = getGenerator();
 g.next();
 g.next("a") // a
@@ -116,4 +116,3 @@ What happens when you pass a value to the `next` call of a generator?
 - nothing
 - it instantly returns an object of the form `{value: input, done: false}`
 - it will throw an error
- 

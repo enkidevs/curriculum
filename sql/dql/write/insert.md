@@ -15,7 +15,7 @@ parent: union
 
 The `INSERT` operation allows new entries to be added to the table. The base syntax is as follows:
 
-```plain-text
+```sql
 INSERT INTO table
 VALUES (value1, value2, value3 ...);
 ```
@@ -28,7 +28,7 @@ Let's take a look at the following schema for the `items` table:
 
 To insert a new record in the `items` table, you would use:
 
-```plain-text
+```sql
 INSERT INTO items
 VALUES (1230, 2500, 50, 33, DEFAULT,
   'bug-ball');
@@ -40,7 +40,7 @@ The `DEFAULT` keyword here means that there shouldn't be any special value for t
 
 To insert into specific columns, you can use the following syntax:
 
-```plain-text
+```sql
 INSERT INTO items (id, fling_power,
   item_category_id, name)
 VALUES (1230, 50, 33, 'bug-ball');
@@ -50,7 +50,7 @@ This would effectively skip the `cost` and `item_fling_effect_id` value. If the 
 
 Multiple insertion are done by adding multiple parentheses:
 
-```plain-text
+```sql
 INSERT INTO items (id, fling_power,
   item_category_id, name) VALUES
 (1230, 50, 33, 'bug-ball'),
@@ -59,7 +59,7 @@ INSERT INTO items (id, fling_power,
 
 You can also insert the results of a whole query:
 
-```plain-text
+```sql
 INSERT INTO costless_items
 SELECT * FROM items
 WHERE items.cost <= 0;
@@ -74,7 +74,7 @@ Note that for this to work, the number and type of selected columns must correla
 
 Which syntax can be used to insert values in non-consecutive columns?
 
-```plain-text
+```sql
 /* Syntax A */
 INSERT INTO table
 SELECT * FROM
@@ -121,4 +121,3 @@ INSERT INTO water_pokemon
 - VALS
 - INTRODUCE
 - age, attack, defense
- 

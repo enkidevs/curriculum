@@ -17,7 +17,7 @@ links:
 
 We begin by importing the *doctest* module and defining a function:
 
-```plain-text
+```python
 # doctest_mock.py
 import doctest
 
@@ -27,7 +27,7 @@ def multiply(a, b):
 
 Then, define the tests inside the function's docstring[1]:
 
-```plain-text
+```python
 # doctest_mock.py
 import doctest
 
@@ -57,13 +57,13 @@ Text documentation (`"Test for numbers:"`, `"Test for chars:"`) isn't taken into
 
 Running **doctests** without any flag won't generate any output if the *tests pass*. If the flag `-v` is passed as an argument, a **detailed log** will be printed:
 
-```plain-text
+```bash
 python doctest_mock.py -v
 ```
 
 The output:
 
-```plain-text
+```python
 Trying:
     multiply(3, 3)
 Expecting:
@@ -131,4 +131,3 @@ How does `doctest` find a new test case in the documentation?
 [1: docstring]
 An object's docstring is defined by including a string constant (documentation) as the first
 statement in the object's definition.
- 

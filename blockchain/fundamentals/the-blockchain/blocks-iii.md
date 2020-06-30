@@ -19,7 +19,7 @@ If any piece of data can be represented as an unique string of fixed length, wha
 
 We would then be able to give a somewhat formal representation of what is hashed:
 
-```plain-text
+```bash
 // '|' = concatenation of strings
 ref(n) = H(header(n) | content(n)
   | ref(n-1))
@@ -45,4 +45,3 @@ Identify the input to the hash function that yields the address of a new, generi
 - Previous block's reference and current's content and header
 - Genesis block's reference and previous' reference
 - Account transactions and the reference to the previous block
- 

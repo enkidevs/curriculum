@@ -25,7 +25,7 @@ To allow a user to run `cron` you need to add its username to `cron.allow`.
 
 You can also disable all users from using `cron` by adding `ALL` to the former file:
 
-```plain-text
+```bash
 echo ALL >>/etc/cron.deny
 ```
 
@@ -65,4 +65,3 @@ You can deny users access to *cronjobs* by adding them to
 - /etc/cron.allow
 - /crontab/deny
 - /cron/.deny
- 

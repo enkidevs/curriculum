@@ -16,7 +16,7 @@ Python's `break` statement is used to terminate the current loop, either a for o
 
 For example:
 
-```plain-text
+```python
 x = 5
 while (x > 0):
     print(x)
@@ -29,7 +29,7 @@ print("Broken away!")
 
 This gives the following output:
 
-```plain-text
+```python
 5
 4
 3
@@ -40,7 +40,7 @@ Python's `continue` statement is used to skip the current code block, and to res
 
 For example, it can be used to print only odd numbers:
 
-```plain-text
+```python
 for x in range(0, 10):
   if (x % 2 == 0):
     continue
@@ -49,7 +49,7 @@ for x in range(0, 10):
 
 This gives the following output:
 
-```plain-text
+```python
 1
 3
 5
@@ -82,4 +82,3 @@ Which keyword is used to terminate the current loop, then resuming code executio
 - `break`
 - `continue`
 - `next`
- 

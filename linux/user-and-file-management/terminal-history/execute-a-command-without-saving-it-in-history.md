@@ -25,7 +25,7 @@ This is useful for passwords (those long mysql connections) on the command-line.
 
 For example:
 
-```plain-text
+```bash
 echo 1
 1
 echo 2
@@ -54,4 +54,3 @@ at the beginning of a command will make `history` not record it.
 - @
 - !
 - ?
- 

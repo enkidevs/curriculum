@@ -18,7 +18,7 @@ Alongside absolute values, CSS allows the use of relative ones: *percentages*, *
 
 **Percentages** are represented using `%` notation. A percentage depends on the size of the container or parent element:
 
-```plain-text
+```css
 #rect{
  width: 20%;
  height: 100px;
@@ -29,7 +29,7 @@ The rectangle above will have `100px height` on every device, but its width will
 
 **Em** is a bit trickier. `1em` is equal to the element's **font size**:
 
-```plain-text
+```css
 div{
   font-size: 16px;
   height: 10em;
@@ -40,7 +40,7 @@ In this case, `1em` equals `16px`. Hence, the `div` above is *160px* in height.
 
 Consider another example:
 
-```plain-text
+```html
 <head>
   <style>
   .container{
@@ -66,7 +66,7 @@ If no ancestor has a *font size* defined, the browser would use its default valu
 
 The last relative values are **vw(viewport-width)** and **vh(viewport-height)**. The viewport represents the browser windows size (windows object). If the window is `2000x1000` and:
 
-```plain-text
+```css
 p {
   font-size: 2vh;
 }
@@ -83,7 +83,7 @@ Relative values are a great way of making pages responsive.
 
 For the following CSS code:
 
-```plain-text
+```css
 .container{
   font-size: 20px;
   width: 500px;
@@ -93,7 +93,7 @@ For the following CSS code:
 
 And HTML:
 
-```plain-text
+```html
 <div class="container">
   <div></div>
 </div>
@@ -121,4 +121,3 @@ In CSS, `width: 10%` is equal to
 - 100px
 - 10% of parent's font-size
 - 10% of body's width
- 

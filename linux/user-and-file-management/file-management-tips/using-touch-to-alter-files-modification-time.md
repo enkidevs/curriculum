@@ -21,7 +21,7 @@ tags:
 
 You can change the modification time of a file using the touch command:
 
-```plain-text
+```bash
 touch filename
 ```
 
@@ -29,13 +29,13 @@ By default, this will set the file's modification time to the current time. Howe
 
 For example, to set a file as being modified two hours before the present:
 
-```plain-text
+```bash
 touch -d "2 hours ago" filename
 ```
 
 If you want to modify the file relative to its existing modification time instead:
 
-```plain-text
+```bash
 touch -d "$(date -r file) - 2 hours" file
 ```
 
@@ -72,4 +72,3 @@ You can alter the modification or the access time of a file using the
 - touch
 - alter
 - set
- 

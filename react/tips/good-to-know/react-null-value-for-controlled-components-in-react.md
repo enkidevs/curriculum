@@ -19,7 +19,7 @@ When using HTML, the form elements (`<input>`, `<textarea>`, `<select>`) maintai
 
 To define a controlled component, you have to use a prop called `value` which, as the name suggests, reflects the value the form will have when rendered.
 
-```plain-text
+```jsx
 class Enki extends React.Component {
   render() {
     return <input value="hello" />;
@@ -29,7 +29,7 @@ class Enki extends React.Component {
 
 If for some reason you want to make your component uncontrolled, all you would have to do is assign `null` or `undefined` to the `value` prop.
 
-```plain-text
+```jsx
 // ...
     return <input value={null} />;
 // ...
@@ -48,7 +48,7 @@ Is this a controlled or uncontrolled <input>?
 
 ???
 
-```plain-text
+```jsx
 ReactDOM.render(
   <input value="Enki!" />,
   node
@@ -76,4 +76,3 @@ ReactDOM.render(
 - `uncontrolled`
 - `0`
 - `NaN`
- 

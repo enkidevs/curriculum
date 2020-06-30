@@ -25,7 +25,7 @@ It is preferred to use asynchronous method over synchronous method as the former
 
 Write data to file:
 
-```plain-text
+```javascript
 fs.writeFile(file, data[,options], callback)
 ```
 
@@ -33,7 +33,7 @@ fs.writeFile(file, data[,options], callback)
 
 Read data from file:
 
-```plain-text
+```javascript
 fs.readFile(file[, options], callback)
 ```
 
@@ -91,4 +91,3 @@ In this module, which method is meant to read from files asynchronously?
 - readFileAsync
 - read
 - fileRead
- 

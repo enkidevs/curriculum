@@ -18,7 +18,7 @@ If you choose not to put the charset in the first line you need to place it with
 
 Example:
 
-```plain-text
+```html
 <meta
   charset="UTF-8">
 ```
@@ -83,4 +83,3 @@ The `<meta charset="utf-8">` will best help the browser understand which line of
 - `<p><sup>1 tsp.</sup> sugar<p>`
 - `<h3>The total cost was $24.50</h3>`
 - `<p>Bunt cake takes 3 c. flour<p>`
- 

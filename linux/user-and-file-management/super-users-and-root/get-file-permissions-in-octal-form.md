@@ -22,7 +22,7 @@ parent: understanding-umask
 
 Use the `stat` command to get a file's permissions in octal form:
 
-```plain-text
+```bash
 stat -c "%a %n" file
 ```
 
@@ -36,14 +36,14 @@ From the man page of `stat`:
 
 Examples for files:
 
-```plain-text
+```bash
 stat -c "%a %n" .ssh/id_rsa 
 600 .ssh/id_rsa
 ```
 
 Folders:
 
-```plain-text
+```bash
 stat -c "%a %n" /var/www
 755 /var/www/
 ```
@@ -64,4 +64,3 @@ stat ??? ??? ???
 - `filename`
 - `”%c %n”`
 - `-oc`
- 

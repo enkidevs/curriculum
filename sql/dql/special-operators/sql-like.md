@@ -32,7 +32,7 @@ Therefore, `%le` denotes any string that ends in `'le'`. `_le` denotes any strin
 
 They can be chained together into complex patterns like `___taco%` which denotes any string containing the substring `'taco'` at its 4th position, and with any number of characters after.
 
-```plain-text
+```sql
 SELECT *
 FROM pokemon
 WHERE name LIKE '%le';
@@ -133,4 +133,3 @@ Choose the query that will get all the location records based in regions 1, 2. A
 
 [2:RDBMS Implementations]
 Note: some databases may have a different implementation of the specific wildcard characters.
- 

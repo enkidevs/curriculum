@@ -33,7 +33,7 @@ On **Windows**, the closest equivalent of `ifconfig` command is `ipconfig`, whic
 
 To view all (active and inactive) network interfaces with their details the `-a` flag must be used:
 
-```plain-text
+```bash
 ifconfig -a
 lo0: ... (loopback)
 en0: ... (physical net. conn.)
@@ -46,7 +46,7 @@ Keep in mind that in **OS X** the `-a` flag is implied, while on **Linux** runni
 
 To show only *inactive* connections:
 
-```plain-text
+```bash
 ifconfig -u
 ```
 
@@ -129,4 +129,3 @@ Instead of using the `up/down` flags, specialized equivalent commands are availa
 ifup eth0
 ifdown eth0
 ```
- 

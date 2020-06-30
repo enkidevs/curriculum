@@ -24,7 +24,7 @@ The iterator protocol defines that we should also return a boolean property call
 
 You can think of the iterator contract as having the following structure:
 
-```plain-text
+```javascript
 Iterator {
   next() : {value, done};
 }
@@ -32,7 +32,7 @@ Iterator {
 
 Let’s modify our return statement to use this:
 
-```plain-text
+```javascript
 //code omitted
 return {
   next: function() {
@@ -85,4 +85,3 @@ Which of the following is not part of the iteration protocol?
 - a method to get all the items at once (getAll)
 - a method to advance the iteration (next)
 - a way of telling when the iteration is done (done)
- 

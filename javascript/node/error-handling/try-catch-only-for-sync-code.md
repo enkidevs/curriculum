@@ -24,7 +24,7 @@ However, most errors from within **asynchronous** APIs behave differently (mostl
 
 For example, `JSON.parse` method happens **synchronously**. We can handle its errors with a `try-catch` block:
 
-```plain-text
+```javascript
 function readJSON(filePath, callback) {  
   fs.readFile(filePath, (err, data) => {
     var parsedJson;
@@ -54,7 +54,7 @@ function readJSON(filePath, callback) {
 
 Which of the following is the correct declaration of a `try-catch` block? ???
 
-```plain-text
+```javascript
 // Option A
 try (
    // code
@@ -93,4 +93,3 @@ How must errors happen as to handle them with a `try-catch` block?
 
 - synchronously
 - asynchronously
- 

@@ -22,7 +22,7 @@ In Java 7+, it is possible to use a string as a selector in a `switch` statement
 
 For example:
 
-```plain-text
+```java
 String colorString;
 switch(color) {
   case "red": colorString = "red";
@@ -48,4 +48,3 @@ String comparisons in switch statements ??? case sensitive.
 
 - are
 - aren't
- 

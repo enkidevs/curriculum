@@ -23,7 +23,7 @@ Do note that the value in `arguments` is a *pseudo-array* (an object with a leng
 
 Before applying `Array` methods, `arguments` needs to be converted to an actual `Array`, as follows:
 
-```plain-text
+```javascript
 function sortedArgs() {
   // `arguments` is a pseudo-array
   console.log(Array.isArray(arguments));
@@ -41,7 +41,7 @@ function sortedArgs() {
 
 Example of use:
 
-```plain-text
+```javascript
 sortedArgs(3, 1, 2)
 // false
 // true
@@ -92,4 +92,3 @@ function myArray() {
 - splice
 - args
 - argvs
- 

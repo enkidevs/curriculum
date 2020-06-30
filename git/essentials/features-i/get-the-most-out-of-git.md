@@ -17,7 +17,7 @@ links:
 
 When you are working you often want to see what has changed. Using the `git diff` command you can see how the working tree (current local state of the files) is different from the `HEAD` (last commit on your branch)[1]:
 
-```plain-text
+```bash
 git diff
 # ...
 # - Old line
@@ -27,7 +27,7 @@ git diff
 
 If you want to see the latest commits on all branches simply use[2]:
 
-```plain-text
+```bash
 git branch -v
 # *master 23f2g2e fixed bugs
 # feature 249enki implemented share
@@ -35,7 +35,7 @@ git branch -v
 
 If you don't want to merge or rebase two branches in their entirety, but just want to apply one or more commits from one branch to another, you can use the `git cherry-pick` command:
 
-```plain-text
+```bash
 # say you need to apply a commit on master
 git checkout master
 # specify the commit id after the command
@@ -82,17 +82,16 @@ git ??? ???
 [1: diff command]
 Instead of seeing the differences for all the files, you can specify a file the command will target:
 
-```plain-text
+```bash
 git diff thisFile.txt
 ```
 
 To see the difference between two branches you can use the following syntax:
 
-```plain-text
+```bash
 git diff <source_branch> <target_branch>
 ```
 
 [2: branch command]
 
 The `*`(asterisk) marks the branch you are currently on.
- 

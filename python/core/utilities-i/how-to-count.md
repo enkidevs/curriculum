@@ -20,13 +20,13 @@ Python's `collection` module provides the `Counter` class - a container used for
 
 Import `Counter`:
 
-```plain-text
+```python
 from collections import Counter
 ```
 
 The constructor has no mandatory argument, but can take any sequence, dictionary  or even keyword arguments:
 
-```plain-text
+```python
 b = Counter(a=5, b=2)
 a = Counter()
 
@@ -34,7 +34,7 @@ a = Counter()
 
 A counter can be updated with the `update` method:
 
-```plain-text
+```python
 a.update("abaaaba")
 # note that a and b are equal now
 print(b)
@@ -46,14 +46,14 @@ print(a)
 
 You can get the occurrences of a value in the counter:
 
-```plain-text
+```python
 print(a['a'])
 # output: 5
 ```
 
 You can also add or subtract two `Counters`:
 
-```plain-text
+```python
 print(a + b)
 # Counter({'a': 10, 'b': 4})
 print(a - b)
@@ -99,4 +99,3 @@ e.???(“enki”)
 - `new_counter`
 - `add`
 - `add_counter`
- 

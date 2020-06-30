@@ -22,7 +22,7 @@ The validator used is `PropTypes.element`.
 
 Suppose we have the following scenario:
 
-```plain-text
+```jsx
 import PropTypes from 'prop-types';
 
 class NewComponent extends React.Component {
@@ -38,7 +38,7 @@ class NewComponent extends React.Component {
 
 To make sure `this.props.children` is **exactly** a single element we suffix the validation with `isRequired`:
 
-```plain-text
+```jsx
 propTypes: {
   children: PropTypes.element.isRequired,
 }
@@ -46,7 +46,7 @@ propTypes: {
 
 To throw an error if anything but exactly 1 element is passed as `children`, we suffix the `PropTypes` validation with `isRequired`:
 
-```plain-text
+```js
 NewComponent.propTypes = {
   children: PropTypes.element.isRequired
 };
@@ -89,4 +89,3 @@ children: PropTypes.???.???,
 - `mandatory`
 - `one`
 - `any`
- 

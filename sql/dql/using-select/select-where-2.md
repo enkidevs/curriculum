@@ -38,7 +38,7 @@ Here's another `pokemon` table:
 
 Let's look up all the info on the `"Caterpie"` Pokemon:
 
-```plain-text
+```sql
 SELECT *
 FROM pokemon
 WHERE name = 'Caterpie';
@@ -52,7 +52,7 @@ Which results in:
 
 No prizes for guessing the query which gives the `name` and `hp` of all pokemon with `attack` greater than or equal to 30:
 
-```plain-text
+```sql
 SELECT name, hp
 FROM pokemon
 WHERE attack >= 30;
@@ -98,7 +98,7 @@ FROM move
 
 Which of the following queries will extract the `email` and `phone_number` columns, where the `first_name` is `'Andrei'`?
 
-```plain-text
+```sql
 # 1
 SELECT * FROM employees
 WHERE name IS 'Andrei';
@@ -127,4 +127,3 @@ WHERE name = Andrei;
 
 [1:Integer]
 An integer is nothing more than a whole number. For example, `1`, `12345`, and `-999` are all integers.
- 

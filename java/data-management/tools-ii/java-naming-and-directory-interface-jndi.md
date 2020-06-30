@@ -26,7 +26,7 @@ The **API** provides:
 
 In the simplest case, an initial `context` must be created using the specific implementation:
 
-```plain-text
+```java
 Hashtable env = new Hashtable();
 env.put(Context.INITIAL_CONTEXT_FACTORY, 
     "com.sun.jndi.fscontext.
@@ -36,7 +36,7 @@ Context ctx = new InitialContext(env);
 
 A context is then used to look up previously bound names in that `context`:
 
-```plain-text
+```java
 MyClass myClass = (MyClass)  
 ctx.lookup("com.mydomain.MyClass");
 
@@ -55,4 +55,3 @@ JNDI API has access to ???
 - multiple naming and directory services.
 - network statistics.
 - classes bytecode.
- 

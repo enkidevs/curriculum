@@ -18,13 +18,13 @@ Now that you have chosen to use **npm**, the next step is to install it: *npm* i
 
 As npm gets updated more often than node, you can update it to its most recent version like follows:
 
-```plain-text
+```bash
 npm install npm@latest -g
 ```
 
 This syntax will be used when installing individual packages:
 
-```plain-text
+```bash
 npm install package-name@version (-g)
 # or
 npm i package-name@version (-g)
@@ -34,13 +34,13 @@ When you install a package globally, by appending the `-g` flag to the command ,
 
 The safest way to install packages is in the project folder, or locally. For example, to check whether the installation was successful, look for the *express* folder inside the *node_modules* directory:
 
-```plain-text
+```bash
 npm install express
 ```
 
 If the version of the package is not specified, npm will install its latest version by default. Once the package is inside the *node_modules* directory, you can require it in your project:
 
-```plain-text
+```javascript
 var express = require('express');
 var app = express();
 ```
@@ -82,4 +82,3 @@ Install the *react* package locally:
 - -l
 - -g
 - node
- 

@@ -27,7 +27,7 @@ This property can only be used for elements which aren't in the normal stack. Fo
 
 Elements with a higher `z-index` value will appear on top of elements with a lower `z-index` value.
 
-```plain-text
+```css
 img {
   position: absolute;
   z-index: -1;
@@ -49,7 +49,7 @@ In the above example, the image will appear to be under the `div` element if the
 
 Which of the following elements will be displayed on top?
 
-```plain-text
+```css
 #A {
  position: absolute;
  z-index: 10;
@@ -84,4 +84,3 @@ To use the `z-index` to specify the stack order of overlapping elements, which o
 - `position: absolute;`
 - `position: fixed;`
 - `position: relative`
- 

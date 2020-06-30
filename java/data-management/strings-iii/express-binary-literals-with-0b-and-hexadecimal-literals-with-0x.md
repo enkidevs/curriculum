@@ -20,15 +20,14 @@ links:
 
 Binary values can be expressed using the `0b` or `0B` prefix.
 
-```plain-text
+```java
 int binary = 0b0101110101;
 ```
 
 In the same way, hexadecimal values can be expressed by adding the prefix `0x` or `0X`.
 
-```plain-text
+```java
 int hex = 0x5A;
 ```
 
 It is worth noting that in older versions of Java (pre-JDK 7), only the hexadecimal prefix is valid.
- 

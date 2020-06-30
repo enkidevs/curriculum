@@ -25,7 +25,7 @@ One way to achieve this could be to create an array of prices and then use the a
 
 Varargs are arguments which can accept a variable number of values as a comma separated list. For example:
 
-```plain-text
+```java
 public int calculate(int... price) {
   int sum = 0;
   for (int item : price) {
@@ -37,8 +37,7 @@ public int calculate(int... price) {
 
 Here, the price parameter can accept any number of `int`s. This is indicated by the ellipses notation `...`. The `calculate` method can be called like this:
 
-```plain-text
+```java
 int total1 = calculate(2, 54);
 int total2 = calculate(5, 10, 27, 19);
 ```
- 

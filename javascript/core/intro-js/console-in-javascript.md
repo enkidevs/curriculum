@@ -21,14 +21,14 @@ The `console.*` methods output information to a console.
 
 For example, `console.log` can print out a message:
 
-```plain-text
+```js
 console.log("This is my message");
 // This is my message
 ```
 
 More commonly it is used to show the current value of a variable when debugging. In this example we are logging the value of a variable called username:
 
-```plain-text
+```js
 console.log("Username: " + username);
 // Username: enkilondon
 ```
@@ -37,19 +37,19 @@ A few other useful console methods include:
 
 Sending a warning to the console.
 
-```plain-text
+```js
 console.warn("Resource not changed")
 ```
 
 Sending an error message to the console.
 
-```plain-text
+```js
 console.error("File not found!")
 ```
 
 Viewing the current stack trace.
 
-```plain-text
+```js
 console.trace()
 ```
 
@@ -93,4 +93,3 @@ Log a message in the `console`:
 - `output`
 - `show`
 - `warn`
- 

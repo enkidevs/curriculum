@@ -23,7 +23,7 @@ Sometimes it is appropriate to disable a test or set of tests. Perhaps the featu
 
 In *JUnit 4*, use the `@Ignore` annotation:
 
-```plain-text
+```java
 @Ignore
 @Test
 public void exampleTest() { ... }
@@ -31,7 +31,6 @@ public void exampleTest() { ... }
 
 `@Ignore` can also take an optional parameter. This can be used to display a message explaining why the test is being ignored. For example:
 
-```plain-text
+```java
 @Ignore("Not yet implemeneted")
 ```
- 

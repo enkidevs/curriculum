@@ -29,7 +29,7 @@ Arrays have a number of prototype methods for performing search operations.
 
 `includes` returns a boolean indicating whether an array contains a specific value or not:
 
-```plain-text
+```javascript
 var people = ["john", "bob"];
 people.includes("john"); //true
 ```
@@ -41,7 +41,7 @@ people.includes("john"); //true
 
 If no elements match then *undefined* will be returned:
 
-```plain-text
+```javascript
 var people = [
   { name: "Alex", age: 36 },
   { name: "John", age: 20 },
@@ -105,4 +105,3 @@ ints.fill(ints.???(???))
 - `findIndex`
 - `includes`
 - `e => e / 2 === 0 && e / 3 === 0`
- 

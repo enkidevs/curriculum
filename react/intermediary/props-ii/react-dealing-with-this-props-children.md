@@ -20,7 +20,7 @@ Now, let's see how you can use the `React.Children` methods in your code.
 
 We'll start by creating a component that counts the total number of children:
 
-```plain-text
+```jsx
 class CountChildren extends React.Component{
   render() {
     return (
@@ -45,7 +45,7 @@ ReactDOM.render(
 
 If you wanted to return only the first 5 children, you could use:
 
-```plain-text
+```jsx
 class LimitChildren extends React.Component{
   render() {
     return React.Children.map(
@@ -58,4 +58,3 @@ class LimitChildren extends React.Component{
   }
 }
 ```
- 

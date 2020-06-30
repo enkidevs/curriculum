@@ -25,14 +25,14 @@ The `queue` module provides thread safe `queue` data structures. As a consequenc
 
 First we need the modules imported:
 
-```plain-text
+```python
 from queue import Queue
 from threading import Thread
 ```
 
 Define the worker function:
 
-```plain-text
+```python
 def enki(q): # queue will be our arg
   while True:
     print(q.get())
@@ -43,7 +43,7 @@ def enki(q): # queue will be our arg
 
 Create the threads and the ` queue`:
 
-```plain-text
+```python
 q = Queue() # queue is created
 num_threads = 5 # we will have 5 threads
 # threads are created
@@ -55,7 +55,7 @@ for i in range(num_threads):
 
 Make the threads work on the same queue:
 
-```plain-text
+```python
 for x in range(50):
   q.put(x)
 # this will only print the numbers 0 - 49
@@ -99,4 +99,3 @@ Which methods tells the queue that an operation has finished? ???
 - `task.done()`
 - `task-done()`
 - `taskdone()`
- 

@@ -26,7 +26,7 @@ In order to rename a file we can use `java.io.File.renameTo()` function. This me
 
 Example:
 
-```plain-text
+```java
 import java.io.File;
 
 public class Main {
@@ -87,4 +87,3 @@ Can the `File.renameTo()` method be used to move a file to another directory?
 - Yes, it can move the file to any directory in the system
 - Yes, but only if this directory is a part of `src` folder
 - No, it can only rename the file
- 

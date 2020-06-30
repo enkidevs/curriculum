@@ -22,13 +22,13 @@ This stage can be used for:
 
 The syntax for `$project` is:
 
-```plain-text
+```javascript
 { $project: { <specification(s)> } }
 ```
 
 The `<specification(s)>` can be:
 
-```plain-text
+```javascript
 // to include
 field: 1 or true
 // to exclude
@@ -44,7 +44,7 @@ The `_id` field is included in the output of the aggregation by default. To excl
 
 For instance, let's say we wanted to aggregate the `pokemon` collection and want to only pass the `secondType` field through the next stage. We can do so like this:
 
-```plain-text
+```javascript
 db.pokemon.aggregate([
   { $project: { secondType: 1 } }
 ])
@@ -52,7 +52,7 @@ db.pokemon.aggregate([
 
 Output:
 
-```plain-text
+```javascript
 {
   "_id": ObjectId(
     "5d9d8ce00b24990f19398218"
@@ -70,7 +70,7 @@ Output:
 
 As you can see above, our aggregation was supposed to only aggregate documents which contain the specified field(`secondType`). However, since the `_id` field is included by default we have to add `_id: 0` to exclude it.
 
-```plain-text
+```javascript
 db.pokemon.aggregate([
   { $project: { _id: 0, secondType: 1 } }
 ])
@@ -78,7 +78,7 @@ db.pokemon.aggregate([
 
 Output:
 
-```plain-text
+```javascript
 { "secondType": "Poison" }
 { "secondType": "Fire" }
 // ...
@@ -126,4 +126,3 @@ db.pokemon.???([
 - `-1`
 - `$match`
 - `$group`
- 

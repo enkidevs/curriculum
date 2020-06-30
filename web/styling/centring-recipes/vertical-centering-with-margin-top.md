@@ -20,7 +20,7 @@ links:
 
 To vertically center block elements of known height:
 
-```plain-text
+```css
 .vertical-center {
   position: absolute;
   top: 50%;
@@ -42,7 +42,7 @@ You can check out the evolution here:
 
 What does the following CSS code snippet do? ???
 
-```plain-text
+```css
 #class {
    position: absolute;
    top: 50%;
@@ -55,4 +55,3 @@ What does the following CSS code snippet do? ???
 - Vertically centres a block element with unknown height.
 - Horizontally centres a block element with a known height.
 - Horizontally centres a block element with unknown height.
- 

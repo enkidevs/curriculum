@@ -18,7 +18,7 @@ You can use either an HTML entity *name* or an HTML entity *number*
 
 HTML Entity Number:
 
-```plain-text
+```html
 &#60; tag &#62;
 ```
 
@@ -28,7 +28,7 @@ Result:
 
 HTML Entity Name:
 
-```plain-text
+```html
 &lt; tag &gt;
 ```
 
@@ -38,7 +38,7 @@ Result:
 
 Example:
 
-```plain-text
+```html
 <p>5 &gt; 3 </p>
 
 ```
@@ -92,4 +92,3 @@ What will be displayed in this line of code:
 - `<p> 1 < 3 &lt;/p&gt;`
 - `&lt;p&gt; 1 < 3 &lt;/p&gt;`
 - `<p> 1 < 3 </p>`
- 

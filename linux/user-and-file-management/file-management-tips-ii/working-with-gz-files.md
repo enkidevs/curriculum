@@ -20,14 +20,14 @@ Commonly, files for Linux will be compressed with `gzip`, a file format designed
 
 To extract a `.gz` file, you can use the following commands interchangeably.
 
-```plain-text
+```bash
 gzip -d file.gz 
 gunzip file.gz
 ```
 
 The `-d` flag stands for decompress. To compress a file, omit the flag.
 
-```plain-text
+```bash
 gzip file
 ```
 
@@ -58,4 +58,3 @@ Complete the command to decompress `update.gz` :
 - `-d`
 - `-r`
 - `unzip`
- 

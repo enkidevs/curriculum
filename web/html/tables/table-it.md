@@ -35,7 +35,7 @@ For `<table>` and `<tr>`, which attributes are valid, and not deprecated?
 
 Deprecated Attributes: Valid Attributes
 
-```plain-text
+```false
 
 align
 %exp
@@ -69,7 +69,7 @@ This is a deprecated attribute
 
 ```
 
-```plain-text
+```true
 rowspan
 %exp
 rowspan is a valid `td` attribute used to indicate how many rows will the `td` element span.
@@ -100,4 +100,3 @@ headers
 headers is a valid global attribute
 %
 ```
- 

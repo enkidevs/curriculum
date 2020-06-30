@@ -20,7 +20,7 @@ links:
 
 To vertically center a single line of text within a containing block of fixed height, set the line-height of the text to be the same as the height of the containing block.
 
-```plain-text
+```css
 .vertical-center {
   height: 35px;
   line-height: 35px;
@@ -40,7 +40,7 @@ The first line is centered, but the second one will be displayed `35px` below, b
 
 In the following example, what is the distance between the first and the second line, if the text spreads on two lines?
 
-```plain-text
+```css
 .vertical-center-text{
   height: 50px;
   line-height: 50px;
@@ -59,7 +59,7 @@ In the following example, what is the distance between the first and the second 
 
 Which of the following CSS code snippets will vertically centre a line of text?
 
-```plain-text
+```css
 /* Option a */
 .vertical-center {
    centre: true;
@@ -84,4 +84,3 @@ Which of the following CSS code snippets will vertically centre a line of text?
 - b
 - a
 - c
- 

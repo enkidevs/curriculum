@@ -19,7 +19,7 @@ Since a list comprehension can take any **expression** as its initial expression
 
 These are often useful, but are often used to work with matrices.
 
-```plain-text
+```python
 matrix = [[1, 2, 3], [4, 5, 6], \
 [7, 8, 9]]
 
@@ -27,7 +27,7 @@ matrix = [[1, 2, 3], [4, 5, 6], \
 
 Say we want to create another matrix with values equal to the squares of each element in the original matrix:
 
-```plain-text
+```python
 matrix2 = [[x**2 for x in row] for \
 row in matrix]
 #matrix2 = [[1, 4, 9], [16, 25, 36],\
@@ -36,7 +36,7 @@ row in matrix]
 
 A more advanced list comprehension with two for clauses and two if clauses:
 
-```plain-text
+```python
 lc = [ (x, y) for x in \
 range(10) if x % 2 == 0 \
 for y in range(20) if \
@@ -81,7 +81,7 @@ l = [??? for x in range(10)\
 
 What will the output of the following snippet be?
 
-```plain-text
+```python
 
 l = [(x, y) for x in range(10) if x % 2 /
     for y in range(10) if y % 2 == 0]
@@ -94,4 +94,3 @@ print(l[2])
 - (1,2)
 - (1,3)
 - (1,6)
- 

@@ -22,7 +22,7 @@ For example, another approach for **conditional rendering** is using *in-line* `
 
 Consider the following component:
 
-```plain-text
+```jsx
 function Welcome(props) {
   const isRaining = props.isRaining;
   return (
@@ -42,7 +42,7 @@ The reason this approach works is that in JS the `true && exp` expression will e
 
 Sometimes you might want to **prevent** a component from rendering. This is also simply achievable by `return`ing `null` instead of the normal output:
 
-```plain-text
+```jsx
 function Maybe(props) {
   if (props.not) {
     return null;
@@ -96,7 +96,7 @@ ReactDOM.render(
 
 What will be rendered in the following scenario?
 
-```plain-text
+```jsx
 function Exercise(props) {
   const x = props.x;
   if (props.not) {
@@ -122,4 +122,3 @@ ReactDOM.render(
 - No
 - Error raised
 - Null
- 

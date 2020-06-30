@@ -20,13 +20,13 @@ HyperText Markup Language, more often just referred to as **HTML**, is the stand
 
 To denote the end of most HTML elements, a closing tag is used. It has an extra forward slash before the name of the element:
 
-```plain-text
+```html
 <element>Content</element>
 ```
 
 HTML *elements* are the foundation on which the page is built. To specify that the following code is HTML, an `<html>` tag should open and close the document:
 
-```plain-text
+```html
 <html>
  <!-- more code here -->
 </html>
@@ -39,7 +39,7 @@ Paragraphs: `<p>`, images: `<img>`, and hyperlinks: `<a>` are also important sem
 
 To give them meaning, however, they must be enclosed in a `<body>` element, which establishes what part of the HTML document the browser has to represent:
 
-```plain-text
+```html
 <body>
   <h1> Title </h1>
   <h3> Subtitle </h3>
@@ -52,7 +52,7 @@ To give them meaning, however, they must be enclosed in a `<body>` element, whic
 
 The part of the HTML that is not *displayed* in the web page itself, but helps the browser decide *how* to display the content is called **head**. It usually contains information such as the title of the web page displayed in the browser's tab and links to the CSS document that contains the styles used in this page:
 
-```plain-text
+```html
 <html>
 <head>
   <title>Page Tab Title</title>
@@ -88,4 +88,3 @@ The two main components of a HTML document are ???.
 - `<heading>` and `<body>`
 - `<p>` and `<a>`
 - `<h>` and `<body>`
- 

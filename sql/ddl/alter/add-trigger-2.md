@@ -25,7 +25,7 @@ In the previous insight we showed you two arguments, `RESTRICT` and `NO ACTION`,
 
 Using the `CASCADE` argument means that when a row in the parent table is deleted or updated, all the matching rows in the child tables are deleted or updated as well. Here is an example syntax:
 
-```plain-text
+```sql
 ...
   ON UPDATE CASCADE
   ON DELETE CASCADE,
@@ -36,7 +36,7 @@ Using the `CASCADE` argument means that when a row in the parent table is delete
 
 Using the `SET NULL` argument means that when there is a change in the parent table (update or delete) the corresponding records in the child tables are set to have a `NULL` value. Here is what it would look in practice:
 
-```plain-text
+```sql
 ...
   ON UPDATE SET NULL
   ON DELETE SET NULL,
@@ -47,7 +47,7 @@ Using the `SET NULL` argument means that when there is a change in the parent ta
 
 The `SET DEFAULT` argument is very similar to `SET NULL`, but instead of storing a `NULL` value, the RDBMS changes the corresponding records in the child tables to their default values.
 
-```plain-text
+```sql
 ...
   ON UPDATE SET DEFAULT
   ON DELETE SET DEFAULT,
@@ -115,4 +115,3 @@ CREATE TABLE region (
 - ON INSERT
 - IF UPDATE
 - IF DELETE
- 

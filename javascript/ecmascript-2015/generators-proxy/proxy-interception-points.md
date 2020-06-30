@@ -33,7 +33,7 @@ Of course, you only need to specify those you want to intercept otherwise the de
 
 Here is an example of intercepting delete calls:
 
-```plain-text
+```javascript
 let handler = {
   deleteProperty(target, key) {
     console.log("ignoring delete");
@@ -55,7 +55,7 @@ This allows you to later deny access to the proxy by calling the revoke method.
 
 First, we use `Proxy.revocable` to obtain a revocable proxy:
 
-```plain-text
+```javascript
 let rev = Proxy.revocable(
   {},
   {
@@ -71,7 +71,7 @@ p.a; // accessed a
 
 Then we can deny access to the proxy by calling the revoke method:
 
-```plain-text
+```javascript
 p.revoke();
 p.a;
 // TypeError: p.revoke is not a function
@@ -155,4 +155,3 @@ console.log(pObj)
 - proxy
 - function
 - function*
- 

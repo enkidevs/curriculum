@@ -26,33 +26,33 @@ parent: using-ppas
 
 Using the `--remove` flag:
 
-```plain-text
+```bash
 add-apt-repository --remove ppa:name/ppa
 ```
 
 Or, as a safer alternative, you can install `ppa-purge`:
 
-```plain-text
+```bash
 apt-get install ppa-purge
 ```
 
 And then remove the PPA while gracefully downgrading packages it provided to packages provided by official repositories:
 
-```plain-text
+```bash
 ppa-purge ppa_name
 ```
 
 This will remove the PPA but it will not uninstall packages that were installed through it. If you want to remove them, you should use 
 `apt`:
 
-```plain-text
+```bash
 apt-get purge package_name
 ```
 
 You can also remove PPAs by deleting the .list files from `/etc/apt/sources.list.d` directory and then updating the repositories 
 by: 
 
-```plain-text
+```bash
 apt-get update
 ```
 
@@ -86,4 +86,3 @@ To delete a package installed from a *PPA*, you could run:
 - `PPA_name`
 - `delete`
 - `ppa-purge`
- 

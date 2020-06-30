@@ -17,7 +17,7 @@ notes: 'https://insights.enki.com/#/contrib/others/55f038e0f457f33b0062114c?sear
 
 `ReadWriteLock` interface was introduced because `synchronized` blocks would not grant the ability to have more than one thread in a critical situation, for example where multiple threads are trying to edit some data, and others to simply read it.
 
-```plain-text
+```java
 ReadWriteLock lock = new
    ReentrantReadWriteLock();
 ```
@@ -26,7 +26,7 @@ These locks specify which threads block everyone else (writers) and which ones w
 
 **Java8** introduced a new type of locks, `StampedLock`. In contrast to `ReadWriteLock` the locking methods of a `StampedLock` return a stamp represented by a `long` value.
 
-```plain-text
+```java
 StampedLock lock = new StampedLock();
 
 ```
@@ -63,4 +63,3 @@ lock.???;
 - `readLock()`
 - `lockReading()`
 - `lockWriting()`
- 

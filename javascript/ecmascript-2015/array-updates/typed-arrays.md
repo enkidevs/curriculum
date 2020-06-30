@@ -26,19 +26,19 @@ That's when the view comes in - it provides a data type, starting offset, and nu
 
 Create a chunk of data 16 bytes long:
 
-```plain-text
+```javascript
 let buffer = new ArrayBuffer(16);
 ```
 
 Create a view that treats the data as 32-bit signed integers:
 
-```plain-text
+```javascript
 let int32View = new Int32Array(buffer);
 ```
 
 Now the typed array is indexed and accessible:
 
-```plain-text
+```javascript
 for (let i = 0; i < int32View.length; i++) {
   int32View[i] = i * 2;
 }
@@ -77,4 +77,3 @@ What are **Typed Arrays** made of ?
 - views and streams
 - arrays and buffers
 - iterators and arrays
- 

@@ -19,7 +19,7 @@ The HTML `<samp>`, or the **Sample Output** element, is used to represent a samp
 
 Example:
 
-```plain-text
+```html
 <p>This is the crazy error I got:</p>
 <p><samp>Keyboard not found<br>
 Press F1 to continue</samp></p>
@@ -86,4 +86,3 @@ TAG = ???
 - pre
 - out
 - output
- 

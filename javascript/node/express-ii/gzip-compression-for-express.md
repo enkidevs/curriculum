@@ -22,13 +22,13 @@ Browsers that don't support *gzip compression* will receive the original files (
 
 Apply *gzip compression* for **Express 3.0**:
 
-```plain-text
+```javascript
 app.use(express.compress());
 ```
 
 Apply *gzip compression* for **Express 4.0**:
 
-```plain-text
+```javascript
 var compress = require('compression');
 app.use(compress());
 ```
@@ -75,4 +75,3 @@ app.???(express.???());
 - require
 - var
 - apply
- 

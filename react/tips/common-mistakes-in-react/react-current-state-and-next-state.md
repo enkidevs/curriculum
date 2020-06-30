@@ -13,7 +13,7 @@ category: tip
 
 We have previously discussed how the `setState()` update call can sometimes be asynchronous. For this reason, the value of `this.state` might not always hold the most up to date value:
 
-```plain-text
+```js
 increaseAge = age => {
   this.setState({
     // this.state.age might be stale
@@ -24,7 +24,7 @@ increaseAge = age => {
 
 This code generates new state based on its current value, which might contain old data. To reliably update the state based on its latest value you should use the function form of `setState`:
 
-```plain-text
+```js
 increaseAge = () => {
   this.setState(state => ({
     age: state.age + 1
@@ -38,7 +38,7 @@ Note: the function also receives the latest `props`, as its second argument.
 
 If using function components, the same logic applies to the `useState` hook:
 
-```plain-text
+```js
 const increaseAge = () => {
   setAge(age => age + 1);
 };
@@ -51,7 +51,7 @@ const increaseAge = () => {
 
 Which function would **always** update the state to the expected value?
 
-```plain-text
+```js
 A = count => {
   this.setState({
     count: this.state.count + 1
@@ -100,4 +100,3 @@ function Person() {
 - `setState`
 - `updateAge`
 - `useProps`
- 

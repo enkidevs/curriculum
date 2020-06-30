@@ -15,7 +15,7 @@ The aggregation `$limit` stage is used to limit the number of documents you want
 
 Syntax:
 
-```plain-text
+```javascript
 { $limit: <positive integer> }
 ```
 
@@ -23,13 +23,13 @@ The `<positive integer>` has to be a whole number.
 
 For instance, let's say we have a `pokemon` collection with 500 pokémon and we want to aggregate only the first 3. We can do that like this:
 
-```plain-text
+```javascript
 db.pokemon.aggregate({ $limit: 3 })
 ```
 
 Output:
 
-```plain-text
+```javascript
 {
   "_id": ObjectId(
     "5d9d8c330b24990f19398214"
@@ -58,7 +58,7 @@ Output:
 
 The `$limit` pipeline stage can also be used with `$match` and `$count`. Let's say we want to count the number of pokémon in the `pokemon` collection that have an age greater than 17. The `pokemon` collection has 500 pokémon, but we are only interested in the first 100.
 
-```plain-text
+```javascript
 db.pokemon.aggregate([
   { $limit: 100 },
   { $match: { age: { $gt: 17 } } },
@@ -68,7 +68,7 @@ db.pokemon.aggregate([
 
 Output:
 
-```plain-text
+```javascript
 {
   "first100": 57
 }
@@ -93,7 +93,7 @@ Which of the 2 examples below is a valid `$limit` stage?
 
 ???
 
-```plain-text
+```javascript
 // A
 { $limit: 5 }
 // B
@@ -136,4 +136,3 @@ db.shoes.???([
 - `%limit`
 - `accumulate`
 - `find`
- 

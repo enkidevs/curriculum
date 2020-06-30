@@ -22,7 +22,7 @@ Java 8 comes with a new `Optional` type, a new container type that wraps a singl
 
 Create an `Optional`:
 
-```plain-text
+```java
 Optional<String> 
    myName = Optional.ofNullable( null );
 
@@ -30,7 +30,7 @@ Optional<String>
 
 Check if the instance is not null with `isPresent()` method:
 
-```plain-text
+```java
 System.out.println( "Name is set? " 
    + fullName.isPresent() ); 
 //output: False
@@ -39,7 +39,7 @@ System.out.println( "Name is set? "
 
 The `orElseGet()` method will provide a default value in case `Optional` is null.
 
-```plain-text
+```java
 System.out.println( "Name: " 
    + myName.orElseGet( () -> "[none]" ) )
 //output: Name: [none]
@@ -48,7 +48,7 @@ System.out.println( "Name: "
 
 The `map()` method transforms the current `Optional`’s value and returns the new `Optional` instance. The `orElse()` method  accepts a default value if the `optional` is null.
 
-```plain-text
+```java
 System.out.println( myName.map( s ->
     "Hey " + s + "!" ).
     orElse( "Hey Stranger!" ) );
@@ -93,4 +93,3 @@ Create an empty `Optional` of type `String`:
 - `string` 
 - `EmptyOptional` 
 - `null`
- 

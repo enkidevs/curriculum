@@ -19,13 +19,13 @@ tags:
 
 The `alias` tool is a way to simplify things by giving them a new "false name".
 
-```plain-text
+```bash
 alias short_word="Command"
 ```
 
 You can use an alias instead of longer commands, adding them on your `.bashrc` file to make them permanent.
 
-```plain-text
+```bash
 alias ll="ls –l"
 ```
 
@@ -33,20 +33,20 @@ In this example, typing `ll` will now return ‘long listing format’.
 
 Quick exit with alias:
 
-```plain-text
+```bash
 alias x="exit"
 ```
 
 Other examples:
 
-```plain-text
+```bash
 alias rm="rm -iv"
 alias nbrc="nano ~/.bashrc"
 ```
 
 Now, to open *~/.bashrc* in nano text editor:
 
-```plain-text
+```bash
 nbrc
 ```
 
@@ -60,7 +60,7 @@ alias top10=
 
 To save the aliases for future use, you have to add the command to the end of `~/.bashrc` file and then execute it:
 
-```plain-text
+```bash
 # using the alias created earlier
 nbrc
 # add a new aliased command to the end
@@ -109,7 +109,7 @@ is used to give a “false name” to other commands.
 
 Consider the following command and its output:
 
-```plain-text
+```bash
 ll
 total 40
 drwxr-xr-x  4 enki enki 4096 Nov 16 12:37 Comp. Sci.
@@ -126,4 +126,3 @@ Which of the following statements is true?
 - ll is another implementation of ls
 - ll is an extension to ls that accepts additional flags
 - ll is Ubuntu's version of ls
- 

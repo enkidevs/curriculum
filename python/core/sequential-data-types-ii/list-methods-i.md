@@ -17,13 +17,13 @@ links:
 
 Python has many built-in `list` methods. Here are some of the most handy ones to know about!
 
-```plain-text
+```python
 number_list = [1, 2, 3, 4, 5]
 ```
 
 - The `extend()` method extends one list with the contents of another list:
 
-```plain-text
+```python
 more_numbers = [6, 7]
 
 number_list.extend(more_numbers)
@@ -34,7 +34,7 @@ print(number_list)
 
 - The `reverse()` method reverses the items in a list:
 
-```plain-text
+```python
 number_list.reverse()
 
 print(number_list)
@@ -43,7 +43,7 @@ print(number_list)
 
 - The `remove()` method deletes specific items:
 
-```plain-text
+```python
 number_list.remove(7)
 # will remove only the first occurrence of the `item`
 
@@ -53,7 +53,7 @@ print(number_list)
 
 - The `pop()` method can be used to remove the last item, or to remove an item at a given *index*:
 
-```plain-text
+```python
 number_list.pop()
 # 1
 
@@ -91,7 +91,7 @@ negative = [-1, -2, -3, -4]
 
 Which of the following would NOT work to remove the element at index `3`:
 
-```plain-text
+```python
 pancake = ['eggs', 'flour', 'milk', 'butter']
 ```
 
@@ -101,4 +101,3 @@ pancake = ['eggs', 'flour', 'milk', 'butter']
 - `pancake.remove('butter')`
 - `pancake.pop()`
 - `pancake.pop(3)`
- 

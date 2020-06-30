@@ -27,7 +27,7 @@ The difference between **class** and **instance** variables:
 
 Suppose we have the class definition:
 
-```plain-text
+```python
 class Enki:
     class_var = 'python'  # class var
 
@@ -37,7 +37,7 @@ class Enki:
 
 The difference between the types of variables can be easily seen:
 
-```plain-text
+```python
 old = Enki('0.2.3')
 new = Enki('0.2.41')
 print(old.class_var) # 'python'
@@ -64,4 +64,3 @@ class Test:
 
 - `class`
 - `instance`
- 

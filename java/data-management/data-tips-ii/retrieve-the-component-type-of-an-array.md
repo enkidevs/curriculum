@@ -24,7 +24,7 @@ The method returns `null` if the object on which this method is called does not 
 
 First, since every array is an object, `getClass()` method is called to get the Class object associated with the array. Then the `getComponentType()` retrieves the type of the elements as follows:
 
-```plain-text
+```java
 public class ElementsTypeInArray {
 
   public static void main(String[] args){
@@ -53,7 +53,7 @@ public class ElementsTypeInArray {
 
 What will be returned by the following code snippet?
 
-```plain-text
+```java
 int[] array = {1, 2, 3}
 Class arrayClass = array.getClass();
 return arrayClass.getComponentType(); 
@@ -80,4 +80,3 @@ What method is used to get the type of an array?
 - `getType()` 
 - `getClass()` 
 - `getArrayType()`
- 

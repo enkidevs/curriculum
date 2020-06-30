@@ -13,7 +13,7 @@ category: how to
 
 When using class components, your state would usually be nested and you'd only have to call `setState()` once. With hooks, you would usually set the state as a singular value `useState('Enki')` but you can also use objects. For example, let's define a state that records the position of a character as well as the size of the screen:
 
-```plain-text
+```js
 function Char() {
   const [pos, setPos] = useState({ x: 0, y: 0, width: 100, height: 100 });
   // ...
@@ -22,7 +22,7 @@ function Char() {
 
 Although nesting state is useful in some cases, let's see what happens when we want to change the `pos` state. Assuming that the screen size does not change, we only want to modify the `x` and `y` values. In a class component, `this.setState` merges the updated fields into the object, but in a function component we have to manually do the merge:
 
-```plain-text
+```js
 function Char() {
   // ...
   useEffect(() => {
@@ -43,7 +43,7 @@ When updating the state in a function component, we are effectively replacing th
 
 It is considered good practice to group state variables based on values that tend to change together. In our case, we would group the position into a state variable and the dimension into another one:
 
-```plain-text
+```js
 function Char() {
   const [pos, setPos] = useState({ x: 0, y: 0 });
   const [size, setSize] = useState({ width: 100, height: 100 });
@@ -73,7 +73,7 @@ Compared to class components, when updating the state in a function component we
 
 Which of the following is considered to be the correct way of updating state in a function component?
 
-```plain-text
+```js
 function Foo() {
   const [state, setState] = useState({ a: 0, b: 0, c: 'foobar' });
 
@@ -94,4 +94,3 @@ function Foo() {
 - B
 - A
 - C
- 

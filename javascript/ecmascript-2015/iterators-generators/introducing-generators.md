@@ -20,7 +20,7 @@ ES6 introduced an easier way of working with iterators called **generators**. Mo
 
 Let's rewrite our simple example that iterates through 1 to 5 to use a generator function. To indicate that a function is a generator function we add an asterisk or star (`*`) after the function keyword. The positioning of this is not important so it can be next to the function keyword in the middle or next to the name.
 
-```plain-text
+```js
 //all of these are fine
 function * gen () {
 
@@ -39,7 +39,7 @@ Generator functions are very special as they maintain their execution context be
 
 The below example shows one way to implement our 1-5 iterator as a generator:
 
-```plain-text
+```javascript
 function* getGenerator() {
   var currentNumber = 1;
   while (currentNumber < 6) {
@@ -100,4 +100,3 @@ Can generator functions maintain their execution context between method calls?
 - No, because the memory needed would be to big
 - No, because of the JavaScript memory model
 - Only if the calls are done one after the other
- 

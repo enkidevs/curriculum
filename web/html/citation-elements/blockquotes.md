@@ -19,7 +19,7 @@ The HTML `<blockquote>` element or the **Block Quotation** element is used to en
 
 Example:
 
-```plain-text
+```html
 <blockquote>
  Every revolutionary idea seems to
  evoke three stages of reaction.<br>
@@ -35,7 +35,7 @@ Example:
 
 Blockquotes can be used with the citation element `<cite>` to share the source, but it is important that there is also visible attribution as well.
 
-```plain-text
+```html
 <blockquote cite="http://brainyquote.com/
 quotes/arthur_c_clarke_408582">
 Every revolutionary idea seems to
@@ -58,7 +58,7 @@ quotes/arthur_c_clarke_408582">
 If you wish to add a short quote to your web page or document, you should use the `<q>` or the **Quotation element**.
 Example:
 
-```plain-text
+```html
 <q>I have a dream!</q>
 - Martin Luther King
 ```
@@ -74,7 +74,7 @@ Example:
 
 Which statement about the `<blockquote>` element is correct?
 
-```plain-text
+```html
 <blockquote>
   The best thing about a boolean
   is even if you are wrong,
@@ -120,4 +120,3 @@ Which HTML element is used to create a section that is quoted from another sourc
 - `<q>`
 - `<quote>`
 - `<cite>`
- 

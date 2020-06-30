@@ -21,7 +21,7 @@ The `WeakHashMap` functions identically to the `HashMap` with one important exce
 
 Creating a `WeakHashMap`:
 
-```plain-text
+```java
 HashMap map = new WeakHashMap();
 ```
 
@@ -29,7 +29,7 @@ You can use `WeakHashMap` to save resource by keeping a reference to something b
 
 You can test this with a forced garbage collection : 
 
-```plain-text
+```java
 System.gc();
 ```
 
@@ -70,4 +70,3 @@ System.???();
 - `mapInstance` 
 - `collect` 
 - `garbagecollect`
- 

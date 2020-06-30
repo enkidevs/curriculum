@@ -20,7 +20,7 @@ links:
 
 The **dictionary**, `dict`, is Python's main *mapping type*. Mapping objects are ones that contain *key-value pairs*. 
 
-```plain-text
+```python
 my_dict = {'name': 'Jack', 'age': 26}
 ```
 
@@ -36,7 +36,7 @@ Two important differences are:
 
 To access items from a `dict` using keys:
 
-```plain-text
+```python
 my_dict['name']
 # Jack
 my_dict['age']
@@ -45,7 +45,7 @@ my_dict['age']
 
 The `update()` method merges the keys and values from one dictionary into another and overwrites values if the same key exists:
 
-```plain-text
+```python
 preferences = {'fruit': 'apple', 'car': 'Tesla'}
 more_preferences = {'fruit': 'pear', 'animal': 'dog'}
 
@@ -84,7 +84,7 @@ animals???
 
 How would you access the value of `maths`?
 
-```plain-text
+```python
 grades = {'biology': 82.1, 'maths': 79.8, 'economics': 65.4}
 ```
 
@@ -94,4 +94,3 @@ grades = {'biology': 82.1, 'maths': 79.8, 'economics': 65.4}
 - `grades[79.8]`
 - `grades('maths')`
 - `grades(79.8)`
- 

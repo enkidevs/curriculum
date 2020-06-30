@@ -19,7 +19,7 @@ All `queue` objects (`Queue` , `LifoQueue` and `PriorityQueue`) provide a pletho
 
 Imagine we have the sample `Queue` with a limit of 3 elements:
 
-```plain-text
+```python
 import queue
 
 q = queue.Queue(3)
@@ -31,7 +31,7 @@ q.put(3)
 
 Get the approximate size of the `queue`:
 
-```plain-text
+```python
 print(q.qsize())
 # output: 3
 
@@ -39,7 +39,7 @@ print(q.qsize())
 
 Check if a `queue` is empty or full:
 
-```plain-text
+```python
 print(q.empty())
 # output: False
 print(q.full())
@@ -49,7 +49,7 @@ print(q.full())
 
 When you want to `put`  an element in the queue but it's full, you can make the method call block for some number of seconds until there is a free slot:
 
-```plain-text
+```python
 q.put(4, block=True,timeout=None)
 
 ```
@@ -90,4 +90,3 @@ q = ???.???(5)
 - `new`
 - `instance`
 - `create`
- 

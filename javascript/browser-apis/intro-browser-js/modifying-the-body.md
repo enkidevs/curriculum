@@ -25,7 +25,7 @@ To reference the body element with the DOM you simply use `document.body` rather
 
 If you change the content of the body it will overwrite all elements inside the body.
 
-```plain-text
+```html
 <html>
 <body>
 <h1>
@@ -54,7 +54,7 @@ In the example above, the `h1` element and the two paragraph elements would be o
 
 You can also do cool things like change the background color of the page by setting attributes on the body element:
 
-```plain-text
+```html
 <html>
 <body>
 
@@ -99,4 +99,3 @@ What happens when you changes the innerHTML of the body tag?
 - You overwrite all elements inside the body tag with the new content.
 - The content is appended to the existing content of the body tag.
 - A syntax error is thrown.
- 

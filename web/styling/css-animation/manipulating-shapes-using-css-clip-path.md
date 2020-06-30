@@ -21,7 +21,7 @@ links:
 You can use functions that are applied to `shape-outside` to `clip-path`, ie, `inset()`, `polygon()`, `ellipse()`.
 Below is an example of `clip-path` in action:
 
-```plain-text
+```css
 #element {
   width: 300px;
   height: 150px;
@@ -59,7 +59,7 @@ Which two properties have to be combined in order for you to be able to wrap tex
 
 What shape does the following piece of code make? ???
 
-```plain-text
+```css
 div {
   width: 200px;
   height: 200px;
@@ -73,4 +73,3 @@ div {
 - A hexagon.
 - A square.
 - An octagon.
- 

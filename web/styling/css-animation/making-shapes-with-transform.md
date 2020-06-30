@@ -21,7 +21,7 @@ links:
 
 Applying the `transform` property on a regular square can create a diamond, for example:
 
-```plain-text
+```css
 #diamond {
   transform: rotate(45deg);
 }
@@ -31,7 +31,7 @@ The default rotation point is the center of the element. `transform-origin` can 
 
 The center of a 2D shape is:
 
-```plain-text
+```css
 transform-origin: 50% 50%;
 /* or */
 transform-origin: center center;
@@ -41,7 +41,7 @@ transform-origin: 250px 10em;
 
 Other values :
 
-```plain-text
+```css
 transform-origin: top left;
 transform-origin: right bottom;
 transform-origin: left center;
@@ -71,4 +71,3 @@ What are the missing values required to transform a diamond into a square?
 - `-45%`
 - `90deg`
 - `center`
- 

@@ -26,7 +26,7 @@ Here's an example of how we can use this to upload an image file from your compu
 
 > The trick in the code below is that `Image` element source property `src` supports base64 encoded values
 
-```plain-text
+```html
 <!-- create a file selection input -->
 <!-- when a file is selected, onFileSelected is called -->
 <input 
@@ -40,7 +40,7 @@ Here's an example of how we can use this to upload an image file from your compu
 
 And the JavaScript:
 
-```plain-text
+```javascript
 function onFileSelected() {
   let file = document.getElementById(
     "image-input"
@@ -88,4 +88,3 @@ The URL returned by the `readAsDataURL` function is
 - a base64 encoded string
 - an SVG's code
 - a link to file's location
- 

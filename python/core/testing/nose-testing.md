@@ -19,7 +19,7 @@ links:
 
 **Nose** and **pytest** have a similar syntax up to the point where you get into advanced features such as *fixtures*, *plugins* or *assert mechanisms*. This is why we'll use the same test we defined for `multiply` method in the **pytest** insight:
 
-```plain-text
+```python
 # multiply_nose.py
 
 def multiply(a, b):
@@ -34,13 +34,13 @@ def test_two():
 
 For this example we'll **run** the test with `-v` (verbose) flag:
 
-```plain-text
+```bash
 nosetests -v multiply.py
 ```
 
 The following **output** will be produced:
 
-```plain-text
+```bash
 multiply_nose.test_one ... ok
 multiply_nose.test_two ... FAIL
 
@@ -97,4 +97,3 @@ In terms of basic syntax, `nose` and `pytest` are
 - similar
 - small differences
 - not at all alike
- 

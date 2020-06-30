@@ -35,7 +35,7 @@ This table should contain the following columns, used for storing these values:
 
 When you have created the table, append these INSERT statements to the left-hand panel:
 
-```plain-text
+```sql
 INSERT INTO items (id, name, url)
 VALUES (0, "Pokeball", "http://placehold.it/200/200");
 
@@ -59,4 +59,3 @@ In total, you will need to:
 - *add the seed data*
 - `SELECT count(name) from items;`
 - *provide the result of the above query in the answer field*
- 

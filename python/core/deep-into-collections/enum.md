@@ -19,7 +19,7 @@ While there was no default `Enum` implementation before *Python 3.4*, you could'
 
 This is how to create an enum:
 
-```plain-text
+```python
 from enum import Enum
 
 class Shade(Enum):
@@ -31,7 +31,7 @@ class Shade(Enum):
 
 Even though mixing the values defeats the purpose of having a list of constants you can use, it shows that you can have it both ways. You can then access the values contained through:
 
-```plain-text
+```python
 # associated value
 print(Shade(4))
 print(Shade('cream'))
@@ -59,7 +59,7 @@ print(Shade.fuchsia.value)
 
 It is much easier now to paint a flower without having to think about the actual shade:
 
-```plain-text
+```python
 class Flower:
   ...
 
@@ -74,7 +74,7 @@ print(lily.stem.value)
 
 `Enum`s are also **iterable** and **hashable**:
 
-```plain-text
+```python
 for shade in Shade:
   print(shade)
 
@@ -128,4 +128,3 @@ print(Car['bmw'])
 - An error, strings and ints cannot be mixed
 - 1
 - bmw
- 

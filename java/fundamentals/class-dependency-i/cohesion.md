@@ -19,7 +19,7 @@ When talking about coupling, we've mentioned **separation of concerns**. Each cl
 
 That's not always enough though. We could introduce a new variable, `stock`, into the `Item` class, that represents the number of items of that type left in the `Store`:
 
-```plain-text
+```java
 public class Item {
   public String name;
   public float price;
@@ -50,4 +50,3 @@ Out of the following, which are the two characteristics of good code?
 - tight coupling and low cohesion
 - loose coupling and low cohesion
 - tight coupling and high cohesion
- 

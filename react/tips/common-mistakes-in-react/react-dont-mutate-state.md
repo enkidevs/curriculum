@@ -15,7 +15,7 @@ Now that you know how to start using React, it is time to learn about some of th
 
 One of the most common mistakes one can make when using React is trying to directly modify the `state`. In a previous workout we have discussed how the `state` is considered immutable, and some methods of updating arrays or objects were presented. Consider the following example:
 
-```plain-text
+```js
 function User() {
   // define the state
   const [name, setName] = useState('user');
@@ -38,7 +38,7 @@ Suppose we click the button returned from `<User />`. Although this code might s
 
 To circumvent this when using function components, use the setter method returned by `useState()`:
 
-```plain-text
+```jsx
 function User() {
   // ...
 
@@ -67,4 +67,3 @@ Which of the following represents a good reason to mutate `state`?
 - To write less code.
 - To increase your app's performance.
 - To have easier access to nested values.
- 

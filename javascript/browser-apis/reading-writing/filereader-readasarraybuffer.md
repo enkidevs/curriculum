@@ -24,13 +24,13 @@ ArrayBuffers can be used to work with raw data containing complex types, convert
 
 Declaring a new File Reader instance.
 
-```plain-text
+```javascript
 var reader = new FileReader();
 ```
 
 Reading data as an array buffer and assign it to an array of 8 bit unsigned integers.
 
-```plain-text
+```javascript
 reader.onload = function(e) {
   var chars  =
     new Uint8Array(reader.result);
@@ -75,4 +75,3 @@ reader.???()
 - readTypedArray
 - readArray
 - readBuffer
- 

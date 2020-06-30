@@ -23,7 +23,7 @@ To force an `ntp`[1] time update from the terminal, use the `ntpd` command.
 
 This will synchronize the time based on the smallest error between the current time and the server's time:
 
-```plain-text
+```bash
 sudo ntpd -gq server1 server2
 ```
 
@@ -57,4 +57,3 @@ Sync the system time with the  `0.uk.pool.ntp.org`  server :
 
 [1:NTP]
 Network Time Protocol
- 

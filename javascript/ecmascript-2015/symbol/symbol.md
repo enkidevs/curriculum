@@ -26,7 +26,7 @@ But how do you work with symbols?
 
 The following code creates a symbol:
 
-```plain-text
+```javascript
 var sym = Symbol();
 ```
 
@@ -34,7 +34,7 @@ Be sure not to use the new operator when creating a symbol otherwise you will ge
 
 During creation you can also set a description for the symbol which is useful mainly for debugging purposes:
 
-```plain-text
+```javascript
 let sym = Symbol("Enki");
 console.log(sym);
 // Symbol(Enki)
@@ -44,13 +44,13 @@ Note that supplying a description when creating a symbol does not add the symbol
 
 The `typeof` method, of course, returns `"symbol"`:
 
-```plain-text
+```javascript
 typeof Symbol(); // "symbol"
 ```
 
 When you create a symbol, it is unique even if there are other symbols with the same description:
 
-```plain-text
+```javascript
 let sym1 = Symbol("Enki");
 let sym2 = Symbol("Enki");
 sym1 === sym2; // false
@@ -98,7 +98,7 @@ console.log(sym1 === sym2);
 
 How do you create a `Symbol`?
 
-```plain-text
+```javascript
 // a
 const sym = new Symbol("enki");
 
@@ -118,4 +118,3 @@ const sym = Symbol.new("enki");
 - a
 - b
 - d
- 

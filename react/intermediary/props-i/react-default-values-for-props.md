@@ -20,7 +20,7 @@ parent: validate-for-required-props
 
 The value assignment is done via the `defaultProps` special property of your component:
 
-```plain-text
+```jsx
 function MyComponent(props) {
   return <p>{props.text}</p>;
 }
@@ -79,4 +79,3 @@ Comp.??? = {
 - `"xyz"`
 - `default`
 - `getDefaultProps`
- 

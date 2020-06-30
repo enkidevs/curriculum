@@ -30,7 +30,7 @@ Even though a `set` can't contain mutable objects, a set itself is in fact **mut
 
 This can be seen from the existence of methods such as `add` which mutates the `set`:
 
-```plain-text
+```python
 >>> s = set("Enk")
 >>> s.add('i')
 >>> s
@@ -39,7 +39,7 @@ This can be seen from the existence of methods such as `add` which mutates the `
 
 Python provides a way of creating an **immutable** set - the type is called `frozenset`:
 
-```plain-text
+```python
 >>> s = frozenset("Enk")
 >>> s.add('i')
 # Traceback (most recent call last):
@@ -58,7 +58,7 @@ Frozensets can be used when you know that the elements you are going to put into
 
 Will the following snippet work?
 
-```plain-text
+```python
 s = frozenset('Frozen')
 s.add('set')
 ```
@@ -79,4 +79,3 @@ When are `frozenset` s used in Python? ???
 - When no further elements will be added to the set.
 - When there will be lots of added elements in the set.
 - When the set will contain no elements.
- 

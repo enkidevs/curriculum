@@ -26,7 +26,7 @@ To get warnings about whitespace when you use `git diff`, add the following to y
 
 Alternatively, execute the command to do exactly the same:
 
-```plain-text
+```bash
 git config --global 
              core.whitespace warn
 ```
@@ -56,7 +56,7 @@ git ??? ???
 
 ## Revision
 
-```plain-text
+```bash
 git config --global 
            core.whitespace warn
 ```
@@ -65,4 +65,3 @@ Would ??? .
 
 - highlight the whitespace issues
 - automatically fix whitespace issues
- 

@@ -15,7 +15,7 @@ category: must-know
 
 To add a document in MongoDB, you need to use the `db.mycollection.insertOne()` method.
 
-```plain-text
+```javascript
 db.pokemon.insertOne({
   _id: 1,
   name: "Pikachu",
@@ -25,7 +25,7 @@ db.pokemon.insertOne({
 
 Output:
 
-```plain-text
+```javascript
 {
   "acknowledged": true,
   "insertedId": 1
@@ -38,7 +38,7 @@ Output:
 
 To add multiple documents to the `pokemon` database, you need to pass an array of pokémon (documents) to the `db.pokemon.insertMany()` method.
 
-```plain-text
+```javascript
 db.pokemon.insertMany([
   {
     _id: 2,
@@ -60,7 +60,7 @@ db.pokemon.insertMany([
 
 Output:
 
-```plain-text
+```javascript
 {
   "acknowledged": true,
   "insertedIds": [ 2, 3, 4 ]
@@ -136,4 +136,3 @@ Choose the correct code that creates a new document in the `pokemon` collection.
 - `db.Pokemon.insertOne( {_id:13, name:"Psyduck", type:"water"} )`
 - `db.pokemon.insertDocument( {_id:13, name:"Psyduck", type:"water"} )`
 - `db.Pokemon.insertDocument( {_id:13, name:"Psyduck", type:"water"} )`
- 

@@ -15,7 +15,7 @@ The `$last` operator behaves the same as the `$first` operator except that it lo
 
 Example:
 
-```plain-text
+```javascript
 db.pokemon.aggregate([
   {
     $group: {
@@ -29,7 +29,7 @@ db.pokemon.aggregate([
 
 Output:
 
-```plain-text
+```javascript
 { "_id": "Bug", "nameOfLast": "Caterpie" }
 { "_id": "Electric", "nameOfLast": "Magneton" }
 { "_id": "Fairy", "nameOfLast": "Togepi" }
@@ -86,4 +86,3 @@ Which of these is not a valid accumulator for the `$group` stage?
 - `$max`
 - `$push`
 - `$sum`
- 

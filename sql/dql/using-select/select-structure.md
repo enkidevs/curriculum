@@ -29,7 +29,7 @@ Consider the following table, `pokemon`:
 
 To return all the data in this table, you'd use:
 
-```plain-text
+```sql
 SELECT *
 FROM pokemon;
 ```
@@ -45,7 +45,7 @@ The returned table will contain all of the *columns* and all of the *rows* from 
 
 Note: all the SQL keywords like `SELECT` and `FROM` **are case insensitive**, so the code below also works.
 
-```plain-text
+```sql
 select *
 from pokemon;
 ```
@@ -80,4 +80,3 @@ Which of these symbols is used to denote "all columns" in SQL?
 - `?`
 - `%`
 - `#`
- 

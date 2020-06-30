@@ -19,7 +19,7 @@ Highlighted text area colors can be easily change with the `::selection` pseudo 
 
 Apply `::selection` on a paragraph:
 
-```plain-text
+```css
 p::selection {
   background: black;
   color: white;
@@ -28,7 +28,7 @@ p::selection {
 
 Gecko is the only engine requiring the prefix, so adding an other rule is required to support all browsers :
 
-```plain-text
+```css
 p::-moz-selection {
   background: black;
   color: white;
@@ -62,4 +62,3 @@ Which pseudo element is used to select a text area, for example if you wanted to
 - `:select`
 - `::selector`
 - `:selector`
- 

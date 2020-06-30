@@ -17,7 +17,7 @@ Another useful Python module  crafted for comparing sequences (even files and te
 
 Import the module:
 
-```plain-text
+```python
 import difflib
 ```
 
@@ -25,7 +25,7 @@ import difflib
 
 To see the differences between two text strings (`text_A` and `text_B`) the `Differ`'s `compare` function can be used:
 
-```plain-text
+```python
 text_A = """abcde \n fgh"""
 text_B = """abcde \n ijk"""
 d = difflib.Differ()
@@ -36,7 +36,7 @@ print('\n'.join(diff))
 
 This will print the whole text once again with differences highlighted by line with either `-` or `+` signs:
 
-```plain-text
+```python
 # abcde are the same for both
 # -f / -g / -h
 # +i / +j / +k
@@ -46,7 +46,7 @@ The same result is achieved with `difflib.ndiff`.
 
 To show only the differences and some context:
 
-```plain-text
+```python
 diff = difflib.unified_diff(text_A, text_B)
 print('\n'.join(diff))
 ```
@@ -90,4 +90,3 @@ What class from `difflib` with a `compare` method can be used to see differences
 - `SequenceMatcher`
 - `ndiff`
 - `HtmlDiff`
- 

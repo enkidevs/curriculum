@@ -25,13 +25,13 @@ The Python `calendar` module defines the `Calendar` class. This is used for vari
 
 Import the module:
 
-```plain-text
+```python
 import calendar
 ```
 
 Print the current month:
 
-```plain-text
+```python
 import calendar
 year = 2016
 month = 1
@@ -57,13 +57,13 @@ The output will look like this:
 
 Set the first day of the week as Sunday:
 
-```plain-text
+```python
 calendar.setfirstweekday(calendar.SUNDAY)
 ```
 
 To print a whole year's calendar:
 
-```plain-text
+```python
 print(calendar.calendar(2016))
 ```
 
@@ -105,4 +105,3 @@ print(calendar.???(2016))
 - `year`
 - `currentYear`
 - `annum`
- 

@@ -17,7 +17,7 @@ links:
 
 We return to the `HelloWorld` example for this part:
 
-```plain-text
+```java
 public class HelloWorld {
    public static void main() {
       System.out.println("Hello World!");
@@ -35,7 +35,7 @@ The syntax of the example function is:
 
 The next snippet shows the general declaration of a method:
 
-```plain-text
+```java
 modifier returnType name(parameters){
    // method body
 }
@@ -49,7 +49,7 @@ A `void` function is a method that doesn't return anything. In our case, it prin
 
 Another example of a function that takes a name as a parameter and prints it to the console:
 
-```plain-text
+```java
 public class Example {
   public static void heyName(String name) {
     System.out.println("Hey, " +
@@ -68,7 +68,7 @@ public class Example {
 
 Instead of `void`, we could use a concrete type to denote that our function will return a specific result. For example, we could use an `int` to denote returning the result of integer multiplication or a `String` to denote returning the result of string concatenation. In general, we’re allowed to return any type available in Java (primitive or non-primitive).
 
-```plain-text
+```java
 public class NonVoidExample {
 
   public static int sum(
@@ -113,4 +113,3 @@ public ??? test() {
 - `int`
 - `empty`
 - `static`
- 

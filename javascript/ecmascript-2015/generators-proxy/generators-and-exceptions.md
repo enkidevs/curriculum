@@ -25,7 +25,7 @@ This means that error handling occurs as you would expect.
 
 The example below will catch and log out any exceptions:
 
-```plain-text
+```javascript
 function* getGenerator() {
   while(true) {
     try {
@@ -46,7 +46,7 @@ We can use generators **throw** method to create an exception.
 
 The exception occurs at the point where the generator is paused from the previous yield statement.
 
-```plain-text
+```javascript
 g.throw("bad error");
 ```
 
@@ -96,4 +96,3 @@ What syntax should be used to catch errors within generators?
 - gen.catch()
 - gen.throw()
 - if/else
- 

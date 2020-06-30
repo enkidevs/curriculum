@@ -30,7 +30,7 @@ about the specified network interface:
 
 You can check this utility directly by using:
 
-```plain-text
+```bash
 slurm -i <interface_name>
 # for example:
 slurm -i eth0
@@ -73,4 +73,3 @@ Errors on Transmission: 0
 - energy drink
 - measurement tool for cpu usage
 - measurement tool for users access to a server
- 

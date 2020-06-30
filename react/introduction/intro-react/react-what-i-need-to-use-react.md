@@ -20,7 +20,7 @@ Being a truly flexible library, you can not only create applications from scratc
 
 To install **React** you can use a *package manager* such as `yarn` or `npm`:
 
-```plain-text
+```bash
 # yarn
 yarn add react react-dom
 # npm
@@ -40,7 +40,7 @@ Using the `Babel` compiler will allow you to write your application with both `E
 
 To create a **Single page application** you can use the officially supported package called `create-react-app`:
 
-```plain-text
+```bash
 npm i -g create-react-app
 create-react-app myAppName
 ```
@@ -49,7 +49,7 @@ This will automatically create a *static application* with no backend logic or d
 
 To run your `create-react-app` app just:
 
-```plain-text
+```bash
 cd myAppName
 npm start
 ```
@@ -99,4 +99,3 @@ A bundler flattens your module hierarchy into a single file, effectively reducin
 
 [4:ES.Next]
 `ES.Next` is a dynamic name that represents whatever the next version of ECMAScript is at the time of writing.
- 

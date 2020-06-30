@@ -49,7 +49,7 @@ exist for all the popular editors.
 
 Is the following syntax in accordance with PEP8 rules?
 
-```plain-text
+```python
 def func():
   new_element = 0
   new_string  = 's'
@@ -70,7 +70,7 @@ Which of the following is allowed in the PEP8 styling guidelines?
 
 ???
 
-```plain-text
+```python
 # Option A
 one = 1
 two = 2
@@ -84,4 +84,3 @@ three = 3
 
 - `Option A`
 - `Option B`
- 
