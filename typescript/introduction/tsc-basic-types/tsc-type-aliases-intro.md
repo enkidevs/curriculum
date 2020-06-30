@@ -2,22 +2,22 @@
 author: nem035
 type: normal
 category: must-know
-aspects:
-  - introduction
-  - workout
 links:
-  - '[Play with Type Aliasing](https://repl.it/@enkicontent/TypeScriptPlayWithTypeAliasing){website}'
-
+  - >-
+    [Play with Type
+    Aliasing](https://repl.it/@enkicontent/TypeScriptPlayWithTypeAliasing){website}
 ---
 
 # Introduction to Type Aliases
 
+
 ---
+
 ## Content
 
 Type aliases are used to create a new name for an existing type.
 
-```ts
+```plain-text
 // alias string type as Language
 type Language = string;
 
@@ -33,7 +33,7 @@ let fun: Fun = true;
 
 This is mainly useful when we want to provide a name for a type that is used in more than one place.
 
-```ts
+```plain-text
 // create an alias for the
 // "number" type
 // called "radius"
@@ -64,7 +64,7 @@ console.log(area({ r: 11 }));
 
 Any type can be aliased:
 
-```ts
+```plain-text
 type NameAndFactTuple = [
   string,
   string
@@ -81,7 +81,9 @@ let morgan: NameAndFactTuple = [
 ];
 ```
 
+
 ---
+
 ## Practice
 
 Create an alias named `nothing` to the `void` type:
@@ -96,21 +98,23 @@ function logTSFact(): nothing {
 }
 ```
 
-* type
-* =
-* alias
-* is
-* ==
+- type
+- =
+- alias
+- is
+- ==
+
 
 ---
+
 ## Revision
 
 Type aliases are created using the ??? keyword.
 
-
 ???
 
-* type
-* alias
-* name
-* typeAlias
+- type
+- alias
+- name
+- typeAlias
+ 

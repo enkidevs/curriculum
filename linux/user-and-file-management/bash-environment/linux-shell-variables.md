@@ -1,23 +1,18 @@
 ---
 author: kapnobatai136
-
-aspects:
-  - introduction
-
 type: normal
-
 category: must-know
-
 tags:
   - introduction
   - linux
   - variables
-
 ---
 
 # Variables
 
+
 ---
+
 ## Content
 
 Think of a *variable* as a box. 
@@ -26,7 +21,7 @@ They are used to store information. To make them easily identifiable, you put a 
 
 Let's try creating a variable now:
 
-```bash
+```plain-text
 best_app="Enki"
 ```
 
@@ -38,19 +33,21 @@ We've taken the `"Enki"` information, and stored it in our `best_app` box:
 
 To print this variable, you'd type:
 
-```bash
+```plain-text
 echo $best_app
 # Enki
 ```
 
 > 💡 You need to prefix a `$` sign to the variable name to get its value
 
-```bash
+```plain-text
 echo best_app
 # best_app
 ```
 
+
 ---
+
 ## Practice
 
 Create a variable named `good_dog` that stores `"Artemis"`, and then print it:
@@ -61,17 +58,19 @@ echo ???
 # Artemis
 ```
 
-* good_dog
-* Artemis
-* $good_dog
-* $Artemis
+- good_dog
+- Artemis
+- $good_dog
+- $Artemis
+
 
 ---
+
 ## Revision
 
 Which of these variable declarations will throw an error?
 
-```bash
+```plain-text
 a="foobar"
 
 b = foobar
@@ -81,6 +80,7 @@ c=foobar
 
 ???
 
-* b
-* a
-* c
+- b
+- a
+- c
+ 

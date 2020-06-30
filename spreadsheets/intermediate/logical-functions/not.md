@@ -1,19 +1,14 @@
 ---
 author: Stefan-Stojanovic
-
-aspects:
-  - introduction
-  - workout
-
 type: normal
-
 category: how to
-
 ---
 
 # NOT
 
+
 ---
+
 ## Content
 
 The `NOT` function returns the opposite of a logical value, `TRUE` returns `FALSE` and vice versa.
@@ -21,7 +16,6 @@ The `NOT` function returns the opposite of a logical value, `TRUE` returns `FALS
 Example:
 
 ![not-example](https://img.enkipro.com/87509733e9b2cb066922d98c8925477e.png)
-
 
 As you can see in the first image, our `NOT` function evaluates to `FALSE` because its arguments evaluate to `TRUE`. 
 
@@ -43,20 +37,23 @@ An empty cell returns `TRUE`:
 
 ![empty](https://img.enkipro.com/b62c350762df4368dc9cf5c3f8fd1805.png)
 
+
 ---
+
 ## Practice
 
 `NOT` is a ??? function that ???
 
-* logical
-* returns the opposite of a logical value
-* returns the opposite of a statistical value
-* statistical
+- logical
+- returns the opposite of a logical value
+- returns the opposite of a statistical value
+- statistical
+
 
 ---
+
 ## Footnotes
 
 [1:0 is false]
 All positive and negative numbers except 0 logically evaluate to `TRUE`, 0 evaluates to `FALSE`.
- 
  

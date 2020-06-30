@@ -1,39 +1,32 @@
 ---
 author: mihaiberq
-
-levels:
-
-  - beginner
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-
 links:
-
   - '[First Web Page](http://info.cern.ch/hypertext/WWW/TheProject.html){website}'
-  - '[HTML Concept And Syntax](https://developer.mozilla.org/en-US/docs/Glossary/HTML){documentation}'
-
-
+  - >-
+    [HTML Concept And
+    Syntax](https://developer.mozilla.org/en-US/docs/Glossary/HTML){documentation}
 ---
 
 # HyperText Markup Language
 
+
 ---
+
 ## Content
 
 HyperText Markup Language, more often just referred to as **HTML**, is the standard markup language used to create websites. HTML describes the structure of a web page semantically and uses elements that are made up of **tags**. Tags are easy to recognize as they use *less than* (<) and *greater than* (>) signs.
 
 To denote the end of most HTML elements, a closing tag is used. It has an extra forward slash before the name of the element:
-```html
+
+```plain-text
 <element>Content</element>
 ```
 
 HTML *elements* are the foundation on which the page is built. To specify that the following code is HTML, an `<html>` tag should open and close the document:
-```html
+
+```plain-text
 <html>
  <!-- more code here -->
 </html>
@@ -46,7 +39,7 @@ Paragraphs: `<p>`, images: `<img>`, and hyperlinks: `<a>` are also important sem
 
 To give them meaning, however, they must be enclosed in a `<body>` element, which establishes what part of the HTML document the browser has to represent:
 
-```html
+```plain-text
 <body>
   <h1> Title </h1>
   <h3> Subtitle </h3>
@@ -59,7 +52,7 @@ To give them meaning, however, they must be enclosed in a `<body>` element, whic
 
 The part of the HTML that is not *displayed* in the web page itself, but helps the browser decide *how* to display the content is called **head**. It usually contains information such as the title of the web page displayed in the browser's tab and links to the CSS document that contains the styles used in this page:
 
-```html
+```plain-text
 <html>
 <head>
   <title>Page Tab Title</title>
@@ -72,25 +65,27 @@ The part of the HTML that is not *displayed* in the web page itself, but helps t
 </html>
 ```
 
+
 ---
+
 ## Practice
 
 The two main components of a HTML document are ???.
 
+- `<head>` and `<body>`
+- `<heading>` and `<body>`
+- `<p>` and  `<a>`
+- `<h>` and `<body>`
 
-* `<head>` and `<body>`
-* `<heading>` and `<body>`
-* `<p>` and  `<a>`
-* `<h>` and `<body>`
 
 ---
+
 ## Revision
 
 The two main components of a HTML document are ???.
 
-
-* `<head>` and `<body>`
-* `<heading>` and `<body>`
-* `<p>` and `<a>`
-* `<h>` and `<body>`
+- `<head>` and `<body>`
+- `<heading>` and `<body>`
+- `<p>` and `<a>`
+- `<h>` and `<body>`
  

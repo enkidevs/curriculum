@@ -1,38 +1,26 @@
 ---
 author: catalin
-
-levels:
-
-  - basic
-
-  - beginner
-
 type: normal
-
 category: feature
-
-
 links:
-
-  - '[React Children](https://facebook.github.io/react/docs/top-level-api.html#reactchildren){website}'
-
+  - >-
+    [React
+    Children](https://facebook.github.io/react/docs/top-level-api.html#reactchildren){website}
 parent: custom-proptype-s-to-be-required
-
-aspects:
-  - deep
-
 ---
 
 # Dealing with `this.props.children`
 
+
 ---
+
 ## Content
 
 Now, let's see how you can use the `React.Children` methods in your code. 
 
 We'll start by creating a component that counts the total number of children:
 
-```jsx
+```plain-text
 class CountChildren extends React.Component{
   render() {
     return (
@@ -57,7 +45,7 @@ ReactDOM.render(
 
 If you wanted to return only the first 5 children, you could use:
 
-```jsx
+```plain-text
 class LimitChildren extends React.Component{
   render() {
     return React.Children.map(
@@ -70,3 +58,4 @@ class LimitChildren extends React.Component{
   }
 }
 ```
+ 

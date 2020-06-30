@@ -32,8 +32,8 @@ How do you create a new project?
 
 ???
 
-* `Dashboard -> + New Project -> Blank Site`.
-* `Dashboard -> + New Project -> Empty`.
-* `Account -> + New Project -> Blank Site`.
-* `Account -> + New Project -> Empty`.
+- `Dashboard -> + New Project -> Blank Site`.
+- `Dashboard -> + New Project -> Empty`.
+- `Account -> + New Project -> Blank Site`.
+- `Account -> + New Project -> Empty`.
  

@@ -1,23 +1,15 @@
 ---
 author: tommarshall
-
-levels:
-  - beginner
-
-aspects:
-  - introduction
-
 type: normal
-
 category: tip
-
 inAlgoPool: false
-
 ---
 
 # `Lambda` Functions
 
+
 ---
+
 ## Content
 
 Python has two tools for building functions, `def` and `lambda`.
@@ -28,20 +20,20 @@ Lambda, when used correctly, makes writing code easier and the end result more l
 
 For example, a normal function using `def`:
 
-```python
+```plain-text
 def square(x):
     return x * x
 ```
 
 The same function but defined with `lambda`:
 
-```python
+```plain-text
 square = lambda x: x * x
 ```
 
 To define an anonymous function, we declare the lambda function exactly where it is to be used.
 
-```python
+```plain-text
 filter(lambda x: x % 3 == 0, foo)
 ```
 
@@ -49,7 +41,9 @@ In this case, we are passing the lambda function `x % 3 == 0` to `filter()` to b
 
 Note: Lambda should only be used when a function will be used in one location in your code, and won't be used again after that. In all other cases, it is better to use `def` to avoid unnecessary confusion.
 
+
 ---
+
 ## Practice
 
 Filter the following list such that all elements are > 0. Use lambda functions:
@@ -60,34 +54,36 @@ l = [-1,-2,3,-4,5,6]
 
 new = filter(??? x: ???, ???)
 ```
-* lambda
-* x > 0
-* l
-* x < 0
-* map
-* list
+
+- lambda
+- x > 0
+- l
+- x < 0
+- map
+- list
 
 
 ---
+
 ## Revision
 
 Complete the bottom code snippet to define the following function but with lambda:
 
-```python
+```plain-text
 def square(x):
     return x * x
 ```
+
 With lambda:
+
 ```python
 square = ??? ???: x * x
 ```
 
-
-* `lambda`
-* `x`
-* `def`
-* `new`
-* `instance`
-* `function`
-
+- `lambda`
+- `x`
+- `def`
+- `new`
+- `instance`
+- `function`
  

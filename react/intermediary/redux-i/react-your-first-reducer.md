@@ -1,27 +1,19 @@
 ---
 author: kapnobatai136
-
-levels:
-  - advanced
-  - medium
-  - basic
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-
 ---
+
 # Your first reducer
 
+
 ---
+
 ## Content
 
 In a previous insight we have created a reducer that looked something like this:
 
-```jsx
+```plain-text
 // App.js
 function reducer(state, action) {
   return state;
@@ -30,7 +22,7 @@ function reducer(state, action) {
 
 Let's try and develop this reducer to make it fit with our `<Counter />` component. The first step consists of setting our initial `state`, and passing that to our reducer:
 
-```jsx
+```plain-text
 // App.js
 const initialState = {
   count: 0
@@ -46,7 +38,7 @@ function reducer(
 
 You might be wondering what an `action` is, and the answer to that is: a plain object that has a property called `type` and (optionally) other properties specific to that action type:
 
-```jsx
+```plain-text
 {
   type: "add an item",
   item: "banana"
@@ -55,7 +47,7 @@ You might be wondering what an `action` is, and the answer to that is: a plain o
 
 For our component, we will want to increase, decrease or reset the counter. To do this, we would write our reducer such that it inspects the `type` of an action received and returns the new updated state for a particular action:
 
-```jsx
+```plain-text
 //App.js
 function reducer(
   state = initialState,
@@ -84,7 +76,7 @@ Note that you should always return the `state`, even if it was unchanged. Return
 
 Now that we have created our reducer, we need to `dispatch` the actions so that the `state` is changed. We will do this in the main body of our `<Counter />` component:
 
-```jsx
+```plain-text
 // Counter.js
 class Counter extends React.Component {
   // ...
@@ -111,6 +103,7 @@ The last step is connecting the handler functions `increase`, `decrease`, and `r
 
 
 ---
+
 ## Practice
 
 Complete the following code to dispatch the `add` action:
@@ -125,16 +118,18 @@ class MyApp extends React.Component {
 }
 ```
 
-* this
-* props
-* dispatch
-* type
-* that
-* state
-* action
-* send
+- this
+- props
+- dispatch
+- type
+- that
+- state
+- action
+- send
+
 
 ---
+
 ## Revision
 
 Complete the following code to dispatch the `add` action:
@@ -149,11 +144,12 @@ class MyApp extends React.Component {
 }
 ```
 
-* this
-* props
-* dispatch
-* type
-* that
-* state
-* action
-* send
+- this
+- props
+- dispatch
+- type
+- that
+- state
+- action
+- send
+ 

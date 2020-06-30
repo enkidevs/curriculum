@@ -1,34 +1,27 @@
 ---
 author: alexjmackey
-
-levels:
-  - beginner
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-  - workout
-
 inAlgoPool: false
-
 links:
   - '[ponyfoo.com](https://ponyfoo.com/articles/es6-maps-in-depth){website}'
-  - '[MDN - Map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map){website}'
-
+  - >-
+    [MDN -
+    Map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map){website}
 ---
+
 # Map (data structure)
 
+
 ---
+
 ## Content
 
 Map is a new type of key/value object.
 
 It is common to use an object to store a set of keys and values:
 
-```javascript
+```plain-text
 var obj = {
    firstName: "John",
    lastName: "Smith"
@@ -41,7 +34,7 @@ Maps allow keys and values to be other objects (yes even DOM elements!) and you 
 
 Let's create a map and assign keys and values:
 
-```javascript
+```plain-text
 var map = new Map();
 var str = "A",
     func = function (x) {return x*2};
@@ -52,29 +45,31 @@ map.set(func, "b");
 
 We can then use the keys to retrieve values:
 
-```javascript
+```plain-text
 map.get(func); //b
 ```
 
 We can test if a value is stored in a map using the has operator
 
-```javascript
+```plain-text
 map.has(str); //true
 ```
 
 To delete an entry use the delete method:
 
-```javascript
+```plain-text
 map.delete(str);
 ```
 
 And the map can be emptied using clear:
 
-```javascript
+```plain-text
 map.clear();
 ```
 
+
 ---
+
 ## Practice
 
 Complete the missing method calls in the following snippets such that the logs hold:
@@ -90,17 +85,19 @@ console.log(myMap.???(4))
 // true
 ```
 
-* set
-* get
-* has
-* add
-* push
-* contains
-* contain
-* delete
-* clear
+- set
+- get
+- has
+- add
+- push
+- contains
+- contain
+- delete
+- clear
+
 
 ---
+
 ## Revision
 
 Complete the missing method calls in the following snippets such that the logs hold:
@@ -121,15 +118,15 @@ console.log(myMap)
 
 ```
 
-* set
-* 4
-* has
-* clear()
-* delete()
-* add
-* push
-* contains
-* empty()
-* set()
-* add()
+- set
+- 4
+- has
+- clear()
+- delete()
+- add
+- push
+- contains
+- empty()
+- set()
+- add()
  

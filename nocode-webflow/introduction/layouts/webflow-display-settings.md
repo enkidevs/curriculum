@@ -21,25 +21,25 @@ Hovering over each option will reveal its name and a short description.
 
 ### Block
 
-* usually the default settings
-* starts on a new line **and** pushes other elements down on another new line
-* takes up full width (unless explicitly set)
+- usually the default settings
+- starts on a new line **and** pushes other elements down on another new line
+- takes up full width (unless explicitly set)
 
 ### Inline-block
 
-* block elements that can be stacked side by side
-* allows specific width, height, padding, and margin to be applied
+- block elements that can be stacked side by side
+- allows specific width, height, padding, and margin to be applied
 
 ### Inline
 
-* default style for text inside elements
-* you can change margins and paddings
-* you **can't** change width or height
+- default style for text inside elements
+- you can change margins and paddings
+- you **can't** change width or height
 
 ### None
 
-* hides the element completely
-* elements won't be rendered by the browser
+- hides the element completely
+- elements won't be rendered by the browser
 
 
 ---
@@ -53,6 +53,6 @@ block  ???
 inline ???
 ```
 
-* starts on a new line and pushes other elements on new lines
-* allows stacking on the same line but can't change width and height
+- starts on a new line and pushes other elements on new lines
+- allows stacking on the same line but can't change width and height
  

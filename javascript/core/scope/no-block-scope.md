@@ -22,7 +22,7 @@ When JavaScript tries to figure out what value a particular variable contains, i
 
 Let's look at an example:
 
-```javascript
+```plain-text
 let a = 1;
 
 function one() {
@@ -42,7 +42,7 @@ In the code above, the function `one` contains no definition of `a` within its o
 
 Furthermore, any block of code, i.e. code between `{}`, creates a scope.
 
-```javascript
+```plain-text
 let a = 1;
 
 function foo() {
@@ -59,7 +59,7 @@ In this example, `foo` will alert the global value of `a`, which is `1`. The `a`
 
 There's one gotcha. Using `var` is an exception to the rule, as any variable declared with `var` is always available in the function scope, no matter if it's in a different block of scope as well.
 
-```javascript
+```plain-text
 var a = 1;
 
 function foo() {
@@ -81,7 +81,7 @@ Despite `a` being defined within the scope of the `if` block, the `foo` function
 
 What will the following snippet do?
 
-```javascript
+```plain-text
 let x = 1;
 (function bar() {
  if (true) {
@@ -93,10 +93,10 @@ let x = 1;
 
 ???
 
-* log 1
-* log 2
-* raise an error
-* can't be compiled
+- log 1
+- log 2
+- raise an error
+- can't be compiled
 
 
 ---
@@ -116,9 +116,9 @@ function bar() {
 bar()
 ```
 
-* 0
-* 1
-* 2
-* 3
-* undefined
+- 0
+- 1
+- 2
+- 3
+- undefined
  

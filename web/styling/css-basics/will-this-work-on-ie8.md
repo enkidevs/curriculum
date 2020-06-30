@@ -1,39 +1,28 @@
 ---
 author: jordanfish
-
-levels:
-
-  - basic
-
-  - advanced
-
-  - medium
-
 type: tetris
-
 category: feature
-
-aspects:
-  - introduction
-  - workout
-  - deep
-
 ---
 
 # Will this work on IE8?
 
+
 ---
+
 ## Content
 
 Will the falling bits of `HTML`, `JavaScript` and `CSS` work on world-famous, popular web browser Internet Explorer 8?
 
 Let's find out.
 
+
 ---
+
 ## Game Content
 
 no way...:it works!
-```true
+
+```plain-text
 position:fixed;
 %exp
 `position` property specifies the type of positioning method used. IE supports this property since version 8.
@@ -64,7 +53,7 @@ box-sizing: border-box;
 %
 ```
 
-```false
+```plain-text
 touch-action: auto;
 %exp
 `touch-action` specifies whether a given region can be manipulated by the user via a touchscreen. `auto` enables browser handling of all panning(scrolling) and zooming gestures. The first version of IE to support this property is IE10.
@@ -116,3 +105,4 @@ resize: both;
 The `resize` property controls if and how an element can be resized by the user by clicking and dragging the bottom right corner of the element. This property isn't compatible with any version of IE.
 %
 ```
+ 

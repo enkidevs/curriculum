@@ -1,30 +1,25 @@
 ---
 author: Stefan-Stojanovic
-
-levels:
-  - beginner
-  - basic
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-  - workout
-
 links:
-  - '[HTML Radio Button](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/radio){documentation}'
+  - >-
+    [HTML Radio
+    Button](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/radio){documentation}
+---
+
+# Default Values for Radio Buttons
+
 
 ---
-# Default Values for Radio Buttons
----
+
 ## Content
 
 If you want your form with radio buttons to have a default value, you should add the `checked` attribute.
 
 Same example with `checked` added:
-```html
+
+```plain-text
 <form>
  <p>
    Please select your gender:
@@ -65,7 +60,9 @@ Furthermore, you can also have as many radio groups as you require per web page 
 
 You can also style your radio groups with CSS. For instance, you can modify the colors of the radio buttons, add a fade-out effect when one button is selected, etc.
 
+
 ---
+
 ## Practice
 
 Write the form code that creates a radio button with the button already selected.
@@ -75,9 +72,11 @@ Write the form code that creates a radio button with the button already selected
      name="topic"
      value="item" ???>
 ```
-* input
-* type
-* radio
-* checked
-* name
-* value
+
+- input
+- type
+- radio
+- checked
+- name
+- value
+ 

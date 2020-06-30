@@ -25,11 +25,11 @@ The effective performance of a network is defined by the combination of differen
 
 However, there are some standard and relevant measurements applicable to any network:
 
-* `bandwidth` - maximum rate at which information can be transferred
-* `throughput` - actual rate at which information is transferred
-* `latency` - delay between sending a request and receiving a response
-* `jitter` - time difference in packet inter-arrival time (we'll get back to this in the following insights)
-* `error rate` - number of corrupted bits
+- `bandwidth` - maximum rate at which information can be transferred
+- `throughput` - actual rate at which information is transferred
+- `latency` - delay between sending a request and receiving a response
+- `jitter` - time difference in packet inter-arrival time (we'll get back to this in the following insights)
+- `error rate` - number of corrupted bits
 
 Another important metric is `packet loss`, measuring what percentage of packets is lost while transferring data over a network.
 
@@ -46,10 +46,10 @@ Measuring which of the following has no sense on **TCP** connections?
 
 ???
 
-* `packet loss`
-* `jitter`
-* `latency`
-* `bandwidth`
+- `packet loss`
+- `jitter`
+- `latency`
+- `bandwidth`
 
 
 ---
@@ -60,11 +60,11 @@ Which of the following metrics define maximum rate that information can be trans
 
 ???
 
-* `bandwidth`
-* `jitter`
-* `error rate`
-* `latency`
-* `throughput`
+- `bandwidth`
+- `jitter`
+- `error rate`
+- `latency`
+- `throughput`
 
 
 ---

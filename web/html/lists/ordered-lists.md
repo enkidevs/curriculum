@@ -22,7 +22,7 @@ links:
 
 The HTML `<ol>`, or the **Ordered List** element is used to represent an ordered list of items.
 
-```html
+```plain-text
 <ol>
   <li>Do this first.</li>
   <li>This second.</li>
@@ -40,23 +40,23 @@ The items within the `<ol>` elements list are represented with the `<li>` elemen
 
 The `<ol>` element has 3 attributes:
 
-* `type`
-* `reversed`
-* `start`
+- `type`
+- `reversed`
+- `start`
 
 **Type**
 
 The `type` attribute is used to specify a numbering type for the entire list:
 
-* `a` specifies lowercase letters
-* `A` specifies uppercase letters
-* `i` specifies lowercase Roman numerals
-* `I` specifies uppercase Roman numerals
-* `1` specifies numbers(this is the default value)
+- `a` specifies lowercase letters
+- `A` specifies uppercase letters
+- `i` specifies lowercase Roman numerals
+- `I` specifies uppercase Roman numerals
+- `1` specifies numbers(this is the default value)
 
 Example with uppercase Roman numerals type:
 
-```html
+```plain-text
 <ol type="I">
   <li>First</li>
   <li>Second</li>
@@ -75,10 +75,10 @@ Additionally, the `<ol>` element can be nested within itself any number of times
 **Best Uses:**
 Ordered lists are best used for:
 
-* Steps for cooking in a recipe
-* Directions to the Apple store
-* Instruction manual
-* Other lists which have a meaningful/necessary order
+- Steps for cooking in a recipe
+- Directions to the Apple store
+- Instruction manual
+- Other lists which have a meaningful/necessary order
 
 
 ---
@@ -87,7 +87,7 @@ Ordered lists are best used for:
 
 Complete the HTML code to create a numbered list.
 
-```html
+```plain-text
 <A>
   <B>Buy Jam</B>
   <B>Open Jam</B>
@@ -98,14 +98,14 @@ Complete the HTML code to create a numbered list.
 A: ???
 B: ???
 
-* `ol`
-* `li`
-* `nl`
-* `ul`
-* `num`
-* `order`
-* `list`
-* `numlist`
+- `ol`
+- `li`
+- `nl`
+- `ul`
+- `num`
+- `order`
+- `list`
+- `numlist`
 
 
 ---
@@ -114,7 +114,7 @@ B: ???
 
 What does this code create?
 
-```html
+```plain-text
 <ol>
   <li>Item</li>
   <li>Item</li>
@@ -124,12 +124,12 @@ What does this code create?
 
 ???
 
-* ordered list
-* unordered list
-* open list
-* list item
-* organic list
-* online list
+- ordered list
+- unordered list
+- open list
+- list item
+- organic list
+- online list
 
 
 ---
@@ -143,8 +143,8 @@ What is NOT a good example of an ordered list?
 
 ???
 
-* Items to purchase at a grocery store
-* Steps for cooking in a recipe
-* Directions to the Apple store
-* Sequence to launch a rocket
+- Items to purchase at a grocery store
+- Steps for cooking in a recipe
+- Directions to the Apple store
+- Sequence to launch a rocket
  

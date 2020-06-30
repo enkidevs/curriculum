@@ -30,12 +30,12 @@ In addition, getting to know how the *tools of the trade* work will give you a b
 
 Some of the most known and used networking utilities include:
 
-* `ping` - tests the availability of remote hosts by echoing a packet to the destination
-* `traceroute` - provides information about the path of a packet towards a destination
-* `ipconfig/ifconfig` - configures network interfaces
-* `nslookup` - looks up IP addresses linked to a domain
-* `netstat` - provides statistics about networks
-* `route` - shows and manipulates the **IP Routing Table**[1]
+- `ping` - tests the availability of remote hosts by echoing a packet to the destination
+- `traceroute` - provides information about the path of a packet towards a destination
+- `ipconfig/ifconfig` - configures network interfaces
+- `nslookup` - looks up IP addresses linked to a domain
+- `netstat` - provides statistics about networks
+- `route` - shows and manipulates the **IP Routing Table**[1]
 
 
 ---
@@ -48,11 +48,11 @@ Which of the following tools can be used to echo a packet to remote host?
 ??? google.com
 ```
 
-* `ping`
-* `ipconfig`
-* `nslookup`
-* `netstat`
-* `route`
+- `ping`
+- `ipconfig`
+- `nslookup`
+- `netstat`
+- `route`
 
 
 ---

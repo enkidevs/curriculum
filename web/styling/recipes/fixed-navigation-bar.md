@@ -16,7 +16,7 @@ tags:
 
 To make a navigation bar stay fixed on top of the page when a user scrolls:
 
-```css
+```plain-text
 .fixed-nav-bar {
   position: fixed;
   top: 0;
@@ -43,10 +43,10 @@ Which of the following properties will “glue” an element to its place?
 
 ???
 
-* position: fixed;
-* z-index: 9999;
-* position: relative;
-* left:0px;
+- position: fixed;
+- z-index: 9999;
+- position: relative;
+- left:0px;
 
 
 ---
@@ -67,12 +67,12 @@ For a navigation bar to stay permanently at the bottom of a page when a user scr
 }
 ```
 
-* `fixed`
-* `bottom`
-* `0`
-* `stay`
-* `permanent`
-* `top`
-* `100`
-* `50`
+- `fixed`
+- `bottom`
+- `0`
+- `stay`
+- `permanent`
+- `top`
+- `100`
+- `50`
  

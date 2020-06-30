@@ -28,6 +28,6 @@ To apply margins, open the style editor (using the `S` key), and find the spacin
 
 Margins are used to ???.
 
-* separate the block from outside elements
-* separate the content from the block's border
+- separate the block from outside elements
+- separate the content from the block's border
  

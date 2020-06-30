@@ -31,7 +31,7 @@ We can also remove the network interface completely with `--network none`, which
 
 To create a network and hook it up to your container:
 
-```bash
+```plain-text
 # Create a network name enki
 docker network create enki
 
@@ -42,7 +42,7 @@ docker network connect enki world
 
 To display information about the network:
 
-```bash
+```plain-text
 # Displays detailed information
 # on the enki network
 docker network inspect enki
@@ -50,7 +50,7 @@ docker network inspect enki
 
 The above command would output something like this:
 
-```json
+```plain-text
 [
   {
     "Name": "enki",
@@ -93,7 +93,7 @@ The above command would output something like this:
 
 To see which networks you created:
 
-```bash
+```plain-text
 # Lists all the networks created by the user
 docker network ls
 ```
@@ -117,10 +117,10 @@ r6kesov18daq        ingress             overlay             swarm
 
 The default network in Docker is called ???
 
-* bridge
-* train
-* host
-* NAT
+- bridge
+- train
+- host
+- NAT
 
 
 ---
@@ -133,7 +133,7 @@ The default network in Docker is called ???
 docker network ??? ??? ???
 ```
 
-* connect
-* world
-* enki
+- connect
+- world
+- enki
  

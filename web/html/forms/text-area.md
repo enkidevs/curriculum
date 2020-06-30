@@ -19,7 +19,7 @@ The HTML `<textarea>` element is used to represent a multi-line input text area.
 
 Simple example:
 
-```html
+```plain-text
 <textarea
   name="textbox">
 </textarea>
@@ -31,18 +31,18 @@ Simple example:
 
 The `<textarea>` element has many attributes. Some of the more common are:
 
-* `autocomplete` enables autocomplete for text area
-* `autofocus` sets focus on text area upon page load
-* `cols`
-* `maxlength`
-* `minlength`
-* `readonly`
-* `placeholder`
-* `rows`
+- `autocomplete` enables autocomplete for text area
+- `autofocus` sets focus on text area upon page load
+- `cols`
+- `maxlength`
+- `minlength`
+- `readonly`
+- `placeholder`
+- `rows`
 
 Example with attributes:
 
-```html
+```plain-text
 <textarea
    name="textarea" rows="10"
    cols="30"
@@ -63,17 +63,19 @@ In the example above, `rows="10"` specifies the number of visible text lines for
 
 Write the form code that creates a multi-line input for text.
 
-    <??? 
-      ???="???">
-    <???>
+```plain-text
+<??? 
+  ???="???">
+<???>
+```
 
-* textarea
-* name
-* textbox
-* /textarea
-* form
-* input
-* /input
+- textarea
+- name
+- textbox
+- /textarea
+- form
+- input
+- /input
 
 
 ---
@@ -84,10 +86,10 @@ Which element creates a multi-line input field that is 10 lines of text in heigh
 
 ???
 
-* ` <textarea name="message" rows="10" cols="30"></textarea>`
-* ` <textarea name="message" rows="30" cols="10"></textarea>`
-* ` <input type="textarea" name="message" rows="10" cols="30">`
-* ` <input name="message" rows="10" cols="30"></input>`
+- ` <textarea name="message" rows="10" cols="30"></textarea>`
+- ` <textarea name="message" rows="30" cols="10"></textarea>`
+- ` <input type="textarea" name="message" rows="10" cols="30">`
+- ` <input name="message" rows="10" cols="30"></input>`
 
 
 ---
@@ -104,10 +106,10 @@ In this code, how are rows and columns measured?
 Rows: ???
 Columns: ???
 
-* Lines of Text
-* Average character width
-* able Column
-* Table Row
-* Unicode code points
-* Number of characters
+- Lines of Text
+- Average character width
+- able Column
+- Table Row
+- Unicode code points
+- Number of characters
  

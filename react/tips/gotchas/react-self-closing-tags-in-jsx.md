@@ -18,14 +18,14 @@ parent: custom-proptype-s-to-be-required
 
 Normal tags:
 
-```javascript
+```plain-text
 <MyComponent>
 </MyComponent>
 ```
 
 Self-closed tag:
 
-```javascript
+```plain-text
 <MyComponent />
 ```
 
@@ -40,7 +40,7 @@ Which of the following tags is a self closing tag?
 
 ???
 
-```jsx
+```plain-text
 // Option A
 <div>
 </div>
@@ -49,9 +49,9 @@ Which of the following tags is a self closing tag?
 <tag/>
 ```
 
-* Option B
-* Option A
-* Neither of them..
+- Option B
+- Option A
+- Neither of them..
 
 
 ---
@@ -62,7 +62,7 @@ Does **JSX** support self closing tags?
 
 ???
 
-* `yes`
-* `no`
-* `depends`
+- `yes`
+- `no`
+- `depends`
  

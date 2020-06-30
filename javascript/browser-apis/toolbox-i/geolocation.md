@@ -1,33 +1,16 @@
 ---
 author: tommarshall
-
-levels:
-  - basic
-  - advanced
-  - medium
-
 type: normal
-
 category: feature
-
-aspects:
-  - introduction
-  - new
-  - workout
-  - deep
-
-
-standards:
-  javascript.browser-apis-browser.0: 10
-  javascript.browser-apis-device.1: 10
-
 links:
   - '[www.sitepoint.com](http://www.sitepoint.com/html5-geolocation/){website}'
-
 ---
+
 # Geolocation
 
+
 ---
+
 ## Content
 
 The Geolocation API provides location information such as the latitude and longitude coordinates.
@@ -38,7 +21,7 @@ Note that for privacy reasons the user must grant the API permission.
 
 To obtain the devices current position use the **getCurrentPosition** API:
 
-```javascript
+```plain-text
 navigator.geolocation
   .getCurrentPosition(
   function(pos) {
@@ -50,7 +33,7 @@ navigator.geolocation
 
 If you want to be informed automatically when the devices position changes you can use the **geolocation.watchPosition** API.
 
-```javascript
+```plain-text
 navigator.geolocation.watchPosition(
   function(pos) {
      var lat = pos.coords.latitude,
@@ -59,7 +42,9 @@ navigator.geolocation.watchPosition(
   });
 ```
 
+
 ---
+
 ## Practice
 
 Fill in the gaps in the following code snippet. Using the geolocation API exposed by the browser and assuming you have all the permissions needed, get the current device position and log the latitude and longitude.
@@ -74,21 +59,23 @@ navigator.???.???(
 );
 ```
 
-* geolocation
-* getCurrentPosition
-* coords
-* latitude
-* pos.coords
-* longitude
-* pos.latitude
-* pos.longitude
-* geoLocation
-* getPosition
-* coordiate
-* watchPosition
-* getLocation
+- geolocation
+- getCurrentPosition
+- coords
+- latitude
+- pos.coords
+- longitude
+- pos.latitude
+- pos.longitude
+- geoLocation
+- getPosition
+- coordiate
+- watchPosition
+- getLocation
+
 
 ---
+
 ## Revision
 
 Fill in the missing bits of the following snippet such that, using the Geolocation API, you listen on the position changes of the device:
@@ -100,13 +87,13 @@ navigator.???.???(
 });
 ```
 
-* geolocation
-* watchPosition
-* device
-* permission
-* position
-* detect
-* watch
-* listen
-* onChange
+- geolocation
+- watchPosition
+- device
+- permission
+- position
+- detect
+- watch
+- listen
+- onChange
  

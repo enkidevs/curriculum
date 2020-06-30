@@ -1,19 +1,14 @@
 ---
 author: kapnobatai136
-
 category: feature
-
-aspects:
-  - introduction
-  - workout
-
 type: normal
-
 ---
 
 # Step Names
 
+
 ---
+
 ## Content
 
 When working with big zaps, or when you have an entire team working on the same zap, steps can get quite confusing when left with their default names.
@@ -30,21 +25,26 @@ On top of this, you can also add a description and a timezone (so that all time 
 
 ![gif-of-adding-description](https://img.enkipro.com/c0ba5cadfea1d330b2712baf50fe9013.gif)
 
+
 ---
+
 ## Practice
 
 Other than renaming your zap, you can ???.
 
-* add a description
-* add a background image
-* add a sound for completion
+- add a description
+- add a background image
+- add a sound for completion
+
 
 ---
+
 ## Revision
 
 Is it possible to add a timezone to your zap?
 
 ???
 
-* Yes.
-* No.
+- Yes.
+- No.
+ 

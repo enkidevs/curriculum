@@ -29,17 +29,17 @@ links:
 
 Follow these simple rules for mitigating XSS vulnerability. **Bookmark this insight to receive links that have examples.**
 
-* Never Insert Untrusted Data Except in Allowed Locations
-* HTML Escape Before Inserting Untrusted Data into HTML Element Content
-* Attribute Escape Before Inserting Untrusted Data into HTML Common Attributes
-* JavaScript Escape Before Inserting Untrusted Data into JavaScript Data Values
-* CSS Escape And Strictly Validate Before Inserting Untrusted Data into HTML Style Property Values
-* URL Escape Before Inserting Untrusted Data into HTML URL Parameter Values
-* Sanitize HTML Markup with a Library Designed for the Job
-* Prevent DOM-based XSS
-* Use HTTPOnly cookie flag
-* Implement Content Security Policy
-* Use an Auto-Escaping Template System
+- Never Insert Untrusted Data Except in Allowed Locations
+- HTML Escape Before Inserting Untrusted Data into HTML Element Content
+- Attribute Escape Before Inserting Untrusted Data into HTML Common Attributes
+- JavaScript Escape Before Inserting Untrusted Data into JavaScript Data Values
+- CSS Escape And Strictly Validate Before Inserting Untrusted Data into HTML Style Property Values
+- URL Escape Before Inserting Untrusted Data into HTML URL Parameter Values
+- Sanitize HTML Markup with a Library Designed for the Job
+- Prevent DOM-based XSS
+- Use HTTPOnly cookie flag
+- Implement Content Security Policy
+- Use an Auto-Escaping Template System
 
 
 ---
@@ -49,10 +49,10 @@ Follow these simple rules for mitigating XSS vulnerability. **Bookmark this insi
 What is the best way to prevent XSS attacks?
 ???
 
-* Escape untrusted data before doing anything with it
-* Prevent free-form entry fields
-* Only allow traffic from trusted locations
-* Only store data on the client
+- Escape untrusted data before doing anything with it
+- Prevent free-form entry fields
+- Only allow traffic from trusted locations
+- Only store data on the client
 
 
 ---
@@ -63,7 +63,7 @@ How should you escape your user input?
 
 ???
 
-* Using a library designed for the job
-* Write custom validation for my specific use case
-* Use IP filtering rules to determine which input to escape
+- Using a library designed for the job
+- Write custom validation for my specific use case
+- Use IP filtering rules to determine which input to escape
  

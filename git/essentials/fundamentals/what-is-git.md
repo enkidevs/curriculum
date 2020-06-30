@@ -33,9 +33,9 @@ What is **Git**'s versioning based on?
 
 ???
 
-* Content of the file
-* Name of the file
-* Both
+- Content of the file
+- Name of the file
+- Both
 
 
 ---
@@ -46,10 +46,10 @@ What type of VCS is Git?
 
 ???
 
-* DVCS
-* CVCS
-* LVCS
-* Mix of CVCS and LVCS
+- DVCS
+- CVCS
+- LVCS
+- Mix of CVCS and LVCS
 
 
 ---

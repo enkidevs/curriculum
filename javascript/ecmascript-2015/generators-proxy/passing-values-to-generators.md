@@ -1,21 +1,17 @@
 ---
 author: alexjmackey
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-  - workout
-
 links:
-  - '[Generators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator){documentation}'
-
+  - >-
+    [Generators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator){documentation}
 ---
+
 # Passing Values to Generators
 
+
 ---
+
 ## Content
 
 Generator's `next` method also accepts a parameter.
@@ -24,7 +20,7 @@ When you pass in a parameter it is assigned to the result of the `yield` stateme
 
 We could, for example, use this functionality to reset our number sequence when 0 is passed in:
 
-```javascript
+```plain-text
 function* getGenerator() {
   let currentNumber = 1;
 
@@ -46,7 +42,7 @@ There is also a gotcha to watch out for when passing values to generators.
 
 This is best implemented with an example - the below function simply logs to the console any values passed in:
 
-```javascript
+```plain-text
 function* getGenerator() {
   while (true) {
     console.log(yield);
@@ -56,7 +52,7 @@ function* getGenerator() {
 
 However, the first value we pass in will be ignored!
 
-```javascript
+```plain-text
 let g = getGenerator();
 g.next("a"); //ignored
 g.next("b"); // b
@@ -66,14 +62,16 @@ This is because the first time we get our generator we are at the beginning of t
 
 The solution is to simply call the generators next method once:
 
-```javascript
+```plain-text
 let g = getGenerator();
 g.next();
 g.next("a") // a
 g.next("b") // b
 ```
 
+
 ---
+
 ## Practice
 
 Fill in the missing output of the following code snippet:
@@ -98,22 +96,24 @@ z.next(3);
 // { value: ???, done: false}
 ```
 
-* 2
-* 4
-* 3
-* undefined
-* 5
-* null
+- 2
+- 4
+- 3
+- undefined
+- 5
+- null
+
 
 ---
+
 ## Revision
 
 What happens when you pass a value to the `next` call of a generator?
 
 ???
 
-* it is assigned to the result of the `yield` statement
-* nothing
-* it instantly returns an object of the form `{value: input, done: false}`
-* it will throw an error
+- it is assigned to the result of the `yield` statement
+- nothing
+- it instantly returns an object of the form `{value: input, done: false}`
+- it will throw an error
  

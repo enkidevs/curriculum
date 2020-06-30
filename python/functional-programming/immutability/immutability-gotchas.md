@@ -1,26 +1,18 @@
 ---
 author: stefkn
-
-levels:
-  - beginner
-  - basic
-  - medium
-
-aspects:
-  - workout
-
 type: normal
-
 category: must-know
-
 links:
-  - '[Common Gotchas](http://docs.python-guide.org/en/latest/writing/gotchas/){website}'
-
+  - >-
+    [Common
+    Gotchas](http://docs.python-guide.org/en/latest/writing/gotchas/){website}
 ---
 
 # Immutability Gotchas!
 
+
 ---
+
 ## Content
 
 For the final insight, let's examine some of the most common slip-ups we could make related to immutability. While at first glance some of these errors can seem difficult to understand, if we examine them from the point of view of the underlying mechanisms of the language it will be clear to see how they work. Being able to grasp these subtleties of the language will be valuable in helping us write code that performs basic functions correctly on the first try, helping to decrease the time we need to spend hunting for bugs.
@@ -29,7 +21,7 @@ For the final insight, let's examine some of the most common slip-ups we could m
 
 If you want to define an optional argument to a method in Python, you can define a default argument to fall back on if the argument is not supplied. The syntax to do this is:
 
-```python
+```plain-text
 def your_method(self, optional="default"):
     do_some_stuff(self)
     # and more stuff here...
@@ -37,7 +29,7 @@ def your_method(self, optional="default"):
 
 What has this got to do with immutability? Let's create our own method with optional arguments. Let's make a utility method which adds a given object into a supplied collection object. The collection can be optional; *if a collection is not supplied we'll create a new one.* You might have thought of something like this:
 
-```python
+```plain-text
 def add_to(object, collection=[]):
   collection.append(object)
   return collection
@@ -45,7 +37,7 @@ def add_to(object, collection=[]):
 
 Simple, right? Let's run it:
 
-```python
+```plain-text
 >>> list = [1, 2, 3]
 >>> add_to(4, list)
 # [1, 2, 3, 4]
@@ -53,7 +45,7 @@ Simple, right? Let's run it:
 
 Awesome! It works. Let's make sure the default argument also works if we don't provide a container.
 
-```python
+```plain-text
 >>> add_to(1)
 # [ 1]
 >>> add_to("testing")
@@ -66,7 +58,7 @@ In Python, the arguments are evaluated at the time the function is defined, not 
 
 A better idea would be to use an immutable object as a default and run a check to see if it's there in the body of the method, like so:
 
-```python
+```plain-text
 def add_to(object, collection=None):
   if collection is None:
     collection = []
@@ -74,25 +66,28 @@ def add_to(object, collection=None):
   return collection
 ```
 
+
 ---
+
 ## Practice
 
 How can we prevent a function we define with a mutable default argument from using that same default argument object each time?
 
 ???
 
+- Replace the default with an immutable object and check in the function body if it's still there, and if so, create the container.
+- Replace the default with an immutable container.
+- Replace the default with an immutable container and check in the function if it's empty, and if so, create the container.
+- Use a lambda function.
 
-* Replace the default with an immutable object and check in the function body if it's still there, and if so, create the container.
-* Replace the default with an immutable container.
-* Replace the default with an immutable container and check in the function if it's empty, and if so, create the container.
-* Use a lambda function.
 
 ---
+
 ## Revision
 
 What is the result of executing the following code?
 
-```python
+```plain-text
 def add_to(object, collection=[]):
   collection.append(object)
   print(collection)
@@ -105,18 +100,21 @@ add_to("string")
 
 ???
 
+- `[1], [1, 2.5], [1, 2.5, 'string']`
+- `[1], [2.5], ['string']`
+- `[1], [1], [1]`
+- `[1], [2.5, 1], ['string', 2.5, 1]`
+- `TypeError`
 
-* `[1], [1, 2.5], [1, 2.5, 'string']`
-* `[1], [2.5], ['string']`
-* `[1], [1], [1]`
-* `[1], [2.5, 1], ['string', 2.5, 1]`
-* `TypeError`
 
 ---
-## Quiz 
+
+## Quiz
+
 ### what is the last line printed?
 
-```python
+
+```plain-text
 def foo(x, k = []):
     k.append(x)
     print(k)
@@ -127,8 +125,8 @@ foo(3)
 
  ???
 
-* [1, 3]
-* [1]
-* [4, 5, 2]
-* [1, 2, 3]
+- [1, 3]
+- [1]
+- [4, 5, 2]
+- [1, 2, 3]
  

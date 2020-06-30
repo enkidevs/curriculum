@@ -23,7 +23,7 @@ Let's look at an example to see how this can translate into practice. Picture a 
 
 Normally, we'd *listen to* uncaught error events like this:
 
-```js
+```plain-text
 process.on('uncaughtException', (err) => {
   console.error('There was an uncaught error', err)
   closeDBConnection();
@@ -35,7 +35,7 @@ Now, let's say the application throws 5 unexpected exceptions at the same time. 
 
 To **listen to events just once** you would call `process.once` instead:
 
-```js
+```plain-text
 process.once('uncaughtException', (err) => {
   console.error('There was an uncaught error', err)
   closeDBConnection();
@@ -54,9 +54,9 @@ Which method is used to add a one-time listener function to an event emitter?
 
 ???
 
-* .once
-* .first
-* .instance
+- .once
+- .first
+- .instance
 
 
 ---
@@ -73,9 +73,9 @@ test.???('uncaughtException', (err) => {
 });
 ```
 
-* once
-* on
-* catch
-* one
-* onOnce
+- once
+- on
+- catch
+- one
+- onOnce
  

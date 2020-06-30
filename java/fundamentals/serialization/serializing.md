@@ -19,12 +19,12 @@ links:
 
 In order for the object to be serializable two conditions must be held:
 
-* It has to implement `java.io.Serializable` interface
-* Fields of an objects must be serializable, otherwise they must be marked as `transient`[1]
+- It has to implement `java.io.Serializable` interface
+- Fields of an objects must be serializable, otherwise they must be marked as `transient`[1]
 
 For example, let's say we want to store a copy of `Car` object on a local machine:
 
-```java
+```plain-text
 import java.io.*;
 public class carSerialization {
   public static void main(String [] args) {
@@ -57,7 +57,7 @@ It is important to use `try` and `catch` blocks as in this case we might get a f
 **Advanced Section:**
 In order to use serialization with generics both of the generic types should be serializable:
 
-```java
+```plain-text
 class Pair<L extends Serializable,
            R extends Serializable>
            implements Serializable
@@ -70,7 +70,7 @@ class Pair<L extends Serializable,
 
 Consider the following:
 
-```java
+```plain-text
 class Engine { //not serializable
     private int numberOfCilinders;
     private int volumeInLitres;
@@ -94,13 +94,13 @@ What could be done to Car in order to avoid the above problem?
 
 ???
 
-* No, Car has a non serializable field
-* Engine should be marked as `transient`
-* Yes, Car is serializable
-* No, Car doesn't implement the necessary interface
-* No, Car doesn't inherit form a serializable class
-* Engine should be marked as `public`
-* Car should implement `clonable` interface
+- No, Car has a non serializable field
+- Engine should be marked as `transient`
+- Yes, Car is serializable
+- No, Car doesn't implement the necessary interface
+- No, Car doesn't inherit form a serializable class
+- Engine should be marked as `public`
+- Car should implement `clonable` interface
 
 
 ---
@@ -119,12 +119,12 @@ What is the conventional extension of a file that the information about the clas
 
 ???
 
-* serializable
-* `transient`
-* `.ser`
-* clonable
-* `.txt`
-* `public`
+- serializable
+- `transient`
+- `.ser`
+- clonable
+- `.txt`
+- `public`
 
 
 ---

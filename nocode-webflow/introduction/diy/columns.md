@@ -46,6 +46,6 @@ Here is an example of a column elements elements that contains one list and thre
 
 Columns are layout elements used for organizing content side by side ???.
 
-* horizontally
-* vertically
+- horizontally
+- vertically
  

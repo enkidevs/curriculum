@@ -1,64 +1,44 @@
 ---
 author: tommarshall
-
-levels:
-
-  - basic
-
-  - advanced
-
-  - medium
-
 type: normal
-
 category: must-know
-
-standards:
-  javascript.browser-tooling.0: 10
-  javascript.dom.3: 10
-
-aspects:
-  - new
-  - workout
-  - deep
-  - obscura
-
 links:
-
-  - '[developer.mozilla.org](https://developer.mozilla.org/en/docs/Web/API/ProgressEvent){website}'
-
-
+  - >-
+    [developer.mozilla.org](https://developer.mozilla.org/en/docs/Web/API/ProgressEvent){website}
 ---
 
 # ProgressEvent
 
+
 ---
+
 ## Content
 
 The *`ProgressEvent`* interface is used to represent events which measure the progress of underlying processes taking place in the API. For example, an HTTP request or loading an underlying resource such as *<img>*.
 
 *ProgressEvent Properties:*
-```javascript
+
+```plain-text
 ProgressEvent.lengthComputable;
 ```
+
 Is a boolean flag returning whether the progress made on the work to be completed is measurable.
 
-```javascript
+```plain-text
 ProgressEvent.loaded;
 ```
 
 Is an unsigned long showing the amount of work already done by the underlying process.
 
-```javascript
+```plain-text
 ProgressEvent.total;
 ```
 
 Is an unsigned long showing the amount of work the underlying process is currently performing.
 
-
-
 A usage example, measuring the progress of an *`XMLHttpRequest`*.
-```javascript
+
+```plain-text
 // progress on transfers - server to client
 function updateProgress (oEvent) {
   if (oEvent.lengthComputable) {
@@ -72,19 +52,22 @@ function updateProgress (oEvent) {
 }
 ```
 
+
 ---
+
 ## Practice
 
 Which following property of `ProgressEvent` shows the amount of work already done by the underlying process?
 
 ???
 
+- `ProgressEvent.loaded;`
+- `ProgressEvent.lengthComputable;`
+- `ProgressEvent.total;`
 
-* `ProgressEvent.loaded;`
-* `ProgressEvent.lengthComputable;`
-* `ProgressEvent.total;`
 
 ---
+
 ## Revision
 
 Which following property of `ProgressEvent` returns a boolean?
@@ -97,8 +80,7 @@ Which following property of `ProgressEvent` returns a boolean?
 
 ???
 
-
-* `2`
-* `1`
-* `3`
+- `2`
+- `1`
+- `3`
  

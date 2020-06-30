@@ -31,8 +31,8 @@ Consider the `requests` table we defined. We know that this table will be very c
 
 In order to check your results:
 
-* add the index,
-* build the schema,
-* run the provided query,
-* and provide the `Index_type` displayed in the result in the answer field.
+- add the index,
+- build the schema,
+- run the provided query,
+- and provide the `Index_type` displayed in the result in the answer field.
  

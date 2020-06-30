@@ -2,26 +2,30 @@
 author: kapnobatai136
 type: normal
 category: must-know
-aspects:
-  - introduction
-  - workout
 links:
-  - '[Any Type](https://www.typescriptlang.org/docs/handbook/basic-types.html#any){documentation}'
-  - '[Void Type](https://www.typescriptlang.org/docs/handbook/basic-types.html#void){documentation}'
-  - '[Null & Undefined](https://www.typescriptlang.org/docs/handbook/basic-types.html#null-and-undefined){documentation}'
-
+  - >-
+    [Any
+    Type](https://www.typescriptlang.org/docs/handbook/basic-types.html#any){documentation}
+  - >-
+    [Void
+    Type](https://www.typescriptlang.org/docs/handbook/basic-types.html#void){documentation}
+  - >-
+    [Null &
+    Undefined](https://www.typescriptlang.org/docs/handbook/basic-types.html#null-and-undefined){documentation}
 ---
 
 # Any, Void, Null, Undefined
 
+
 ---
+
 ## Content
 
 ### Any
 
 If we want to opt-out of type checking, we can use the `any` type:
 
-```ts
+```plain-text
 let anythingReally: any = 1;
 anythingReally = 'one';
 anythingReally = [true, false];
@@ -37,7 +41,7 @@ anythingReally = [true, false];
 
 This is usually useful when you want to protect yourself from accidentaly returning a value:
 
-```ts
+```plain-text
 function enki(): void {
   return 'enki'
   // error: Type '"enki"' is not assignable to type 'void'
@@ -48,17 +52,19 @@ function enki(): void {
 
 Are used to represent lack of value and both have their own types[1]:
 
-```ts
+```plain-text
 let zilch: undefined = undefined;
 let isEqualToNull: null = null;
 ```
 
+
 ---
+
 ## Practice
 
 Will this code produce an error?
 
-```ts
+```plain-text
 function cheers(): any {
   return null;
 }
@@ -68,33 +74,37 @@ cheers();
 
 ???
 
-* No
-* Yes
+- No
+- Yes
+
 
 ---
+
 ## Revision
 
 Using the `any` type is usually not useful because it defeats the purpose of type-checking since it allows all values.
 
 ???
 
-* true
-* false
+- true
+- false
+
 
 ---
+
 ## Footnotes
 
 [1:Undefined vs Null]
 `undefined` is the default value used when no value is assigned.
 
-```ts
+```plain-text
 let a;
 console.log(a); // undefined
 ```
 
 `null` is the default value used when we want to represent "no value".
 
-```ts
+```plain-text
 // we decided for some reason
 // that "a" doesn't have a value
 // and is thus marked as null
@@ -106,3 +116,4 @@ For example, if we are expecting to get the phone number from a user and they do
 The reason `null` is more sensible than `undefined` in this case is because `null` means that we determined that a value is missing.
 
 When a value is `undefined` we cannot know if it's `undefined` because we set it as such or because it never had a value in the first place.
+ 

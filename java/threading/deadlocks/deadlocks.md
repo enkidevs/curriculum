@@ -56,9 +56,9 @@ What lines in `Thread2` should we swap to avoid a *deadlock* situation?
 
 ???
 
-* lines 2 & 1
-* lines 4 & 5
-* lines 3 & 2
+- lines 2 & 1
+- lines 4 & 5
+- lines 3 & 2
 
 
 ---
@@ -69,7 +69,7 @@ What is a *deadlock*?
 
 ???
 
-* A situation in which processes fail to acquire resources due to mutual exclusion
-* A situation in which a process does not free it's resources after execution
-* A situation when all resources are acquired by the processes
+- A situation in which processes fail to acquire resources due to mutual exclusion
+- A situation in which a process does not free it's resources after execution
+- A situation when all resources are acquired by the processes
  

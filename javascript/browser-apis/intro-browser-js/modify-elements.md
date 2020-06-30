@@ -1,31 +1,28 @@
 ---
 author: elliehoward
-
-aspects:
-
-  - introduction
-
-  - workout
-
 type: normal
-
 category: must-know
-
 links:
+  - >-
+    [Document.getElementById()](https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById){documentation}
+  - >-
+    [Document.getElementsByClassName()](https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementsByClassName){documentation}
+  - >-
+    [Document.getElementsByTagName()](https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementsByTagName){documentation}
+---
 
-  - '[Document.getElementById()](https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById){documentation}'
-  - '[Document.getElementsByClassName()](https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementsByClassName){documentation}'
-  - '[Document.getElementsByTagName()](https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementsByTagName){documentation}'
----
 # Modify Elements
+
+
 ---
+
 ## Content
 
 Elements, once found, can be modified. You can modify any attribute of the element, as well as the style of the element. 
 
 Here's an example that finds all of the paragraphs with the class `"blue"`. There are no style rules associated with that CSS class, so let's change the style of each element.
 
-```html
+```plain-text
 <html>
   <body>
     <p>Hello World!</p>
@@ -54,7 +51,7 @@ Here's an example that finds all of the paragraphs with the class `"blue"`. Ther
 
 We can also change the content of the tag to say `"This is blue"` rather than `"This should be blue"`.
 
-```javascript
+```plain-text
 let blueTags = document.getElementsByClassName(
   'blue'
 );
@@ -64,7 +61,9 @@ for (var i = 0; i < blueTags.length; i++) {
 }
 ```
 
+
 ---
+
 ## Practice
 
 Change the content of each paragraph tag to say `"My content was changed!"`:
@@ -91,15 +90,17 @@ Change the content of each paragraph tag to say `"My content was changed!"`:
 </html>
 ```
 
-* `getElementsByTagName`
-* `"p"`
-* `paragraphTags`
-* `innerHTML`
-* `document`
-* `i`
-* `getElementsByClassName`
+- `getElementsByTagName`
+- `"p"`
+- `paragraphTags`
+- `innerHTML`
+- `document`
+- `i`
+- `getElementsByClassName`
+
 
 ---
+
 ## Revision
 
 Change each element with the classname `"red"` to have a red text color.
@@ -135,7 +136,7 @@ Change each element with the classname `"red"` to have a red text color.
 </script>
 ```
 
-* `getElementsByClassName`
-* `getElementsByTagName`
-* `getElementById`
+- `getElementsByClassName`
+- `getElementsByTagName`
+- `getElementById`
  

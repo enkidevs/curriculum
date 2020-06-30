@@ -24,14 +24,14 @@ However, public **collaboration** is not the single use case for this workflow. 
 
  To add a feature or an improvement to an existing codebase:
 
-* clone the repository
-* check out the `HEAD` of the development branch - usually `master` or `develop`.
-* make your changes and  `commit` them
-* `push` the branch to **GitHub**
-* generate a **pull request** with the development target branch[1]
-* work with the team to review the pull request (if changes are needed, more `commit`s can be made)
-* when the project owner is ready to accept your proposed changes it can be merged
-* this closes the pull request 
+- clone the repository
+- check out the `HEAD` of the development branch - usually `master` or `develop`.
+- make your changes and  `commit` them
+- `push` the branch to **GitHub**
+- generate a **pull request** with the development target branch[1]
+- work with the team to review the pull request (if changes are needed, more `commit`s can be made)
+- when the project owner is ready to accept your proposed changes it can be merged
+- this closes the pull request 
 
 
 ---
@@ -42,8 +42,8 @@ Is the concept of **pull requests** only used in *GitHub*?
 
 ???
 
-* `no`
-* `yes`
+- `no`
+- `yes`
 
 
 ---

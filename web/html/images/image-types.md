@@ -15,13 +15,13 @@ When using images in your web page or document, whether it's for a logo, product
 
 Image formats are divided into 2 categories, with some examples being:
 
-* **Raster images**
-  * JPG/JPEG
-  * GIF
-  * PNG
+- **Raster images**
+  - JPG/JPEG
+  - GIF
+  - PNG
 
-* **Vector images**
-  * SVG
+- **Vector images**
+  - SVG
 
 **Raster images**
 
@@ -35,8 +35,8 @@ Raster images consist of a two-dimensional grid of pixels. They do not scale wel
 
 There are two categories of PNG images that help keep file sizes down depending on the number of colors available.
 
-* PNG 8: limited with a maximum of 256 colors.
-* PNG 24: limited with a maximum of 16 million colors
+- PNG 8: limited with a maximum of 256 colors.
+- PNG 24: limited with a maximum of 16 million colors
 
 **Vector images**
 
@@ -62,15 +62,15 @@ Graphics that are created in the SVG format are defined by?
 
 ???
 
-* raster
-* vector
-* XML
-* compound
-* stereo
-* CSS
-* HTML
-* SVX
-* Graphical data
+- raster
+- vector
+- XML
+- compound
+- stereo
+- CSS
+- HTML
+- SVX
+- Graphical data
 
 
 ---
@@ -85,12 +85,12 @@ Can SVG images be directly inserted into an HTML page as code without linked to 
 
 ???
 
-* No, all images can be animated using CSS.
-* Yes
-* No images can be animated using CSS.
-* Yes, but the web page will not validate.
-* Yes, but not without numerous limitations.
-* No
+- No, all images can be animated using CSS.
+- Yes
+- No images can be animated using CSS.
+- Yes, but the web page will not validate.
+- Yes, but not without numerous limitations.
+- No
 
 
 ---
@@ -102,9 +102,9 @@ Can SVG images be directly inserted into an HTML page as code without linked to 
 
 If you don’t need transparency or animation for a photograph, which image format should you use?
 
-* JPG
-* PNG
-* GIF
-* SVG
-* PDF
+- JPG
+- PNG
+- GIF
+- SVG
+- PDF
  

@@ -17,20 +17,20 @@ Using the basic **bisection algorithm**, Python's `bisect` module provides a mor
 
 Import the module:
 
-```python
+```plain-text
 import bisect
 ```
 
 Suppose we have the list:
 
-```python
+```plain-text
 a = [3, 4, 5, 6, 10, 20, 30]
 
 ```
 
 We can now add elements with the `insort` method which will put the new element to the left of any existing equal elements in the list:
 
-```python
+```plain-text
 bisect.insort(a, 8)
 bisect.insort(a, 9)
 bisect.insort(a, 35)
@@ -39,7 +39,7 @@ bisect.insort(a, 35)
 
 Now to see the result:
 
-```python
+```plain-text
 print(a)
 # [3, 4, 5, 6, 8, 9, 10, 20, 30, 35]
 
@@ -47,7 +47,7 @@ print(a)
 
 To find the **insertion point** of an element without inserting it use `bisect`, in case if there are identical elements in the list it returns the position after them i.e. the right most position:
 
-```python
+```plain-text
 print(bisect.bisect(a, 11))
 # 7
 ```
@@ -65,9 +65,9 @@ a = [0, 1, 2, 2, 2, 3]
 
 What will the output of `print(bisect.bisect(a, 2))` be? ???
 
-* 5
-* 2
-* 4
+- 5
+- 2
+- 4
 
 
 ---
@@ -78,7 +78,7 @@ What will the output of `print(bisect.bisect(a, 2))` be? ???
 `insort`: ???  
 `bisect`: ???  
 
-* inserts a new element into an ordered list
-* returns the position where to insert a new element in a sorted list
-* sorts and returns an unsorted list
+- inserts a new element into an ordered list
+- returns the position where to insert a new element in a sorted list
+- sorts and returns an unsorted list
  

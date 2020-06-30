@@ -1,24 +1,15 @@
 ---
 author: Stefan-Stojanovic
-
-levels:
-  - beginner
-  - basic
-
 type: normal
-
 category: must-know
-
-aspects:
-  - workout
-  - deep
-  - obscura
-
-links:
-
+links: null
 ---
+
 # The `formmethod` Attribute
+
+
 ---
+
 ## Content
 
 In HTML the `formmethod` form input attribute is used to specify which HTTP method will be used when sending the form-data.
@@ -26,8 +17,9 @@ In HTML the `formmethod` form input attribute is used to specify which HTTP meth
 If the `formmethod` attribute is specified it will override the `method` attribute. It can be used with `type="submit"` and `type="image"` attributes.
 
 There are two possible values for the `formmethod` attribute.
- - `method="get"`
- - `method="post"`
+
+- `method="get"`
+- `method="post"`
 
 The `method="get"` appends form data to the URL when submitted.
 The method is useful for when the user wants to bookmark the result.
@@ -36,7 +28,8 @@ It is not good to use the `method="get"` for password sensitive information. If 
 The `method="post"` does not append to the URL, but rather sends the form data as an HTTP post transaction.
 
 Example:
-```html
+
+```plain-text
 <form
   action="/action.php"
    method="get">
@@ -55,12 +48,14 @@ Example:
 
 [View CodePen](https://codepen.io/enkidevs/pen/QxzJXd)
 
+
 ---
+
 ## Practice
 
 Match the possible values with their description related to the method attribute.
 
-```html
+```plain-text
 <form
   action="file1.php" method="get">
 </form>
@@ -72,31 +67,36 @@ Match the possible values with their description related to the method attribute
 get : ???
 post : ???
 
+- Form data is appended to the URL when submitted.
+- Form data is not appended to the URL.
 
-* Form data is appended to the URL when submitted.
-* Form data is not appended to the URL.
 
 ---
+
 ## Revision
 
 Which input form attribute specifies the HTTP method to use when the form is submitted?
 
 ???
 
-* method
-* http
-* submit
-* data
-* get/post
+- method
+- http
+- submit
+- data
+- get/post
+
 
 ---
+
 ## Quiz
 
 ### How much do you know about HTML input form attributes?
 
+
 Which statement is not true regarding the `formmethod` attribute?
 
-* It can only be used with the `type="submit"` attribute
-* It can be used with `type"submit"` and `type"image"` attributes.
-* The `method="get"` appends form data to the URL when submitted.
-* The `method="post"` does not append to the URL, but rather sends the form data as an HTTP post transaction.
+- It can only be used with the `type="submit"` attribute
+- It can be used with `type"submit"` and `type"image"` attributes.
+- The `method="get"` appends form data to the URL when submitted.
+- The `method="post"` does not append to the URL, but rather sends the form data as an HTTP post transaction.
+ 

@@ -35,7 +35,7 @@ For `<table>` and `<tr>`, which attributes are valid, and not deprecated?
 
 Deprecated Attributes: Valid Attributes
 
-```false
+```plain-text
 
 align
 %exp
@@ -69,7 +69,7 @@ This is a deprecated attribute
 
 ```
 
-```true
+```plain-text
 rowspan
 %exp
 rowspan is a valid `td` attribute used to indicate how many rows will the `td` element span.

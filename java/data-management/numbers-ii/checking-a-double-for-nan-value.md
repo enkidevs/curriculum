@@ -1,30 +1,19 @@
 ---
 author: tommarshall
-
-levels:
-
-  - basic
-
-  - beginner
-
 type: normal
-
 category: how to
-
-aspects:
-
-  - introduction 
-  
 ---
 
 # Checking a double for `NaN` value
 
+
 ---
+
 ## Content
 
 Comparisons of numbers with `NaN` values throw up errors due to the semantics of `NaN`.
 
-```java
+```plain-text
 double x = 0.0;  
 // NaN is returned when ans = infinity
 double ans = Math.cos(1/x); 
@@ -34,3 +23,4 @@ if (Double.isNaN(ans)) {
 ```
 
 The `isNaN()` method above is used to check whether the value is equal to `NaN`.
+ 

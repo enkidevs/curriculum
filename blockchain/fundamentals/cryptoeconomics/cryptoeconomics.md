@@ -27,9 +27,9 @@ What are the means through which long term holding of properties are encouraged?
 
 ???
 
-* economic incentives
-* economic punishments
-* cryptographic algorithms
+- economic incentives
+- economic punishments
+- cryptographic algorithms
 
 
 ---
@@ -40,7 +40,7 @@ What are the means through which malevolent behavior is prevented?
 
 ???
 
-* economic punishments
-* economic incentives
-* cryptographic algorithms
+- economic punishments
+- economic incentives
+- cryptographic algorithms
  

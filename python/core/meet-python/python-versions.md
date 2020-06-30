@@ -1,28 +1,21 @@
 ---
 author: emmab
-
 tags:
   - introduction
-
-levels:
-  - beginner
-
 type: normal
-
-aspects:
-  - introduction
-
 category: must-know
-
 links:
-- '[Python 3 Vs Python 2](https://learntocodewith.me/programming/python/python-2-vs-python-3/){website}'
-- '[Goodbye Python 2](https://www.python.org/doc/sunset-python-2/){website}'
-
+  - >-
+    [Python 3 Vs Python
+    2](https://learntocodewith.me/programming/python/python-2-vs-python-3/){website}
+  - '[Goodbye Python 2](https://www.python.org/doc/sunset-python-2/){website}'
 ---
 
 # Python Versions
 
+
 ---
+
 ## Content
 
 You'll be learning **Python 3** for this course as it's the latest and best version.
@@ -31,13 +24,13 @@ Python 3 is easier for beginners to understand, and is being updated frequently 
 
 In the latest version of Python, text is printed as follows:
 
-```python
+```plain-text
 print('Python 3')
 ```
 
 In older versions, text is printed like this:
 
-```python
+```plain-text
 print 'Python 2'
 ```
 
@@ -47,7 +40,9 @@ Some programmers still use versions of Python 2, with 2.7 being the last major r
 
 Since the start of 2020 Python HQ are no longer working on improvements to Python 2 and have advised everyone to switch over to Python 3.
 
+
 ---
+
 ## Practice
 
 Complete the following code using Python 3:
@@ -56,14 +51,16 @@ Complete the following code using Python 3:
 print???'Learning Python!'???
 ```
 
-* (
-* )
-* {
-* }
-* [
-* ]
+- (
+- )
+- {
+- }
+- [
+- ]
+
 
 ---
+
 ## Revision
 
 Which of the following code snippets is Python 3 code, and which is Python 2?
@@ -71,7 +68,8 @@ Which of the following code snippets is Python 3 code, and which is Python 2?
 Python 3: ???
 Python 2: ???
 
-* `print('Hello world!')`
-* `print 'Hello world!'`
-* `write 'Hello world!'`
-* `write('Hello world!')`
+- `print('Hello world!')`
+- `print 'Hello world!'`
+- `write 'Hello world!'`
+- `write('Hello world!')`
+ 

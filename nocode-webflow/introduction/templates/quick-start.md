@@ -24,6 +24,6 @@ They allow for a very quick start at making a new website, with the benefit of b
 
 Templates are ???.
 
-* a great way to quickly start a new project on Webflow
-* not recommended for new users because they take a lot of time to load
+- a great way to quickly start a new project on Webflow
+- not recommended for new users because they take a lot of time to load
  

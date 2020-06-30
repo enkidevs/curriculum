@@ -1,38 +1,34 @@
 ---
 author: rosielowther
-
 type: normal
-
 category: must-know
-
 tags:
   - introduction
-
 links:
-
-  - '[MDN Documentation](https://developer.mozilla.org/en/docs/Web/API/Console/log){documentation}'
-
-aspects:
-  - introduction
-
+  - >-
+    [MDN
+    Documentation](https://developer.mozilla.org/en/docs/Web/API/Console/log){documentation}
 ---
 
 # `console.*` in JavaScript
 
+
 ---
+
 ## Content
 
 The `console.*` methods output information to a console.
 
 For example, `console.log` can print out a message:
-```js
+
+```plain-text
 console.log("This is my message");
 // This is my message
 ```
 
 More commonly it is used to show the current value of a variable when debugging. In this example we are logging the value of a variable called username:
 
-```js
+```plain-text
 console.log("Username: " + username);
 // Username: enkilondon
 ```
@@ -40,17 +36,20 @@ console.log("Username: " + username);
 A few other useful console methods include:
 
 Sending a warning to the console.
-```js
+
+```plain-text
 console.warn("Resource not changed")
 ```
 
 Sending an error message to the console.
-```js
+
+```plain-text
 console.error("File not found!")
 ```
 
 Viewing the current stack trace.
-```js
+
+```plain-text
 console.trace()
 ```
 
@@ -64,28 +63,34 @@ In addition to this, `console.*` can be used to pipe information to `stdout` in 
 
 > Note: as with all the skills in the app, if you want to access more advanced or specific content at any time, **feel free to use the *Skill Map* tab** to jump to the workouts most relevant for you.
 
+
 ---
+
 ## Practice
 
 Which of the following is the correct method for outputting information to the console? ???
 
-* `console.log();`
-* `console.write();`
-* `console.print();`
-* `console.println();`
+- `console.log();`
+- `console.write();`
+- `console.print();`
+- `console.println();`
+
 
 ---
+
 ## Revision
 
 Log a message in the `console`:
+
 ```javascript
 ???.???("my message");
 ```
 
-* `console`
-* `log`
-* `print`
-* `system`
-* `output`
-* `show`
-* `warn`
+- `console`
+- `log`
+- `print`
+- `system`
+- `output`
+- `show`
+- `warn`
+ 

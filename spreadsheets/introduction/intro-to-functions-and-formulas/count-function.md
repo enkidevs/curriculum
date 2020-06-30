@@ -1,19 +1,14 @@
 ---
 author: Stefan-Stojanovic
-
-aspects:
-  - deep
-  - workout
-
 type: normal
-
 category: how to
-
 ---
 
 # The `COUNT` Function
 
+
 ---
+
 ## Content
 
 The `COUNT` function is used to count numerical data.
@@ -26,14 +21,17 @@ Notice how a cell has `0` as a value, and two other cells contain text data.
 
 In cell `C18`, we have entered the following formula `COUNT(C6:C17)`. You would normally expect the cell to display `12` (the total number of cells). This is not the case because the `COUNT` function only takes into account numerical data, and it excludes `0`s.
 
+
 ---
+
 ## Practice
 
 Create a function that will count how many numerical values are present from the cell `C7` to `C32`.
 
 ???
 
-* `=COUNT(C7:C32)`
-* `=COUNT(C7-C32)`
-* `COUNT(C7:C32)`
-* `COUNT(C7-C32)`
+- `=COUNT(C7:C32)`
+- `=COUNT(C7-C32)`
+- `COUNT(C7:C32)`
+- `COUNT(C7-C32)`
+ 

@@ -1,47 +1,34 @@
 ---
 author: catalin
-
-levels:
-  - basic
-  - advanced
-  - medium
-
 type: normal
-
 category: how to
-
-standards:
-  javascript.express-server.4: 10
-
 links:
   - '[github.com](https://github.com/expressjs/morgan){website}'
-
 parent: easy-way-to-deliver-html-pages-with-express
-
-aspects:
-  - introduction
-
 ---
+
 # Log with `morgan` in **Express**
 
+
 ---
+
 ## Content
 
 To use the new **HTTP** logger (called `morgan`) from **Express 4.0** you need to install:
 
-```bash
+```plain-text
 npm install morgan
 ```
 
 And import it:
 
-```javascript
+```plain-text
 var morgan = require('morgan');
 ```
 
 When creating a new `morgan` logger middleware a `format` must be specified, followed by desired `options` (which are optional) :
 
-```javascript
+```plain-text
 app.use(morgan('tiny'));
 ```
 
@@ -54,7 +41,7 @@ Options worth mentioning are:
 
 To only log error responses:
 
-```javascript
+```plain-text
 morgan('combined', {
   skip: function (req, res) {
     return res.statusCode < 400 }
@@ -63,7 +50,9 @@ morgan('combined', {
 
 Custom `token`s can be also defined using `morgan.token` function.
 
+
 ---
+
 ## Practice
 
 Which are the two parameters allowed in the `morgan` constructor?
@@ -75,15 +64,17 @@ const morgan = require('morgan')
 app.use(morgan(???, ???))
 ```
 
-* format
-* options
-* name
-* string
-* etc
-* expressVersion
-* version
+- format
+- options
+- name
+- string
+- etc
+- expressVersion
+- version
+
 
 ---
+
 ## Revision
 
 Use `morgan` logger in express with `tiny` format:
@@ -92,12 +83,12 @@ Use `morgan` logger in express with `tiny` format:
 app.???(???('tiny'));
 ```
 
-* use
-* morgan
-* skip
-* immediate
-* express
-* install
-* make
-* logger
-
+- use
+- morgan
+- skip
+- immediate
+- express
+- install
+- make
+- logger
+ 

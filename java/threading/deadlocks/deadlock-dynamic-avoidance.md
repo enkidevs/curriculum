@@ -23,9 +23,9 @@ If the above acquirement leads to a safe state, the resource is granted, otherwi
 
 In order for a *Banker's Algorithm* to work the system needs to know (we also assume that after a process gets all the necessary units if executes and returns them):
 
-* How much of each resource each process could possibly request.
-* How much of each resource each process is currently holding.
-* How much of each resource the system currently has available.
+- How much of each resource each process could possibly request.
+- How much of each resource each process is currently holding.
+- How much of each resource the system currently has available.
 
 Consider the following setup:
 
@@ -76,10 +76,10 @@ Free : 3k
 
 ???
 
-* A will not run
-* B will not run
-* C will not run
-* D will not run
+- A will not run
+- B will not run
+- C will not run
+- D will not run
 
 
 ---
@@ -90,7 +90,7 @@ How does dynamic avoidance work?
 
 ???
 
-* Calculating whether it will be safe to grant a resource to a process on every iteration
-* Calculating the overall load an the capacity of the system
-* Ensuring that the will always be more resources that the processes
+- Calculating whether it will be safe to grant a resource to a process on every iteration
+- Calculating the overall load an the capacity of the system
+- Ensuring that the will always be more resources that the processes
  

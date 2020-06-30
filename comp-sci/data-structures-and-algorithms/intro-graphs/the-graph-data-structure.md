@@ -1,25 +1,18 @@
 ---
 author: mihaiberq
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-  - workout
-
 links:
   - '[Graph Theory](https://en.wikipedia.org/wiki/Graph_theory){website}'
   - '[Graph Theory Overview](https://www.youtube.com/watch?v=82zlRaRUsaY){video}'
-
 parent: the-queue-data-structure
-
 ---
 
 # The Graph Data Structure
 
+
 ---
+
 ## Content
 
 **Graphs** are a way of representing relationships between pairs of objects. They consist of objects (called *nodes* or *vertices*) and the pairwise connections between them (called *edges*).
@@ -50,23 +43,27 @@ A graph containing both parallel edges and a self loop is represented below:
 
 We call **simple graph** one that does *not contain self-loops or multiple edges*. The first two graphs are simple.
 
+
 ---
+
 ## Practice
 
 A graph that represents flight routes between cities should be ???.
 
+- directed
+- undirected
 
-* directed
-* undirected
 
 ---
+
 ## Revision
 
 What's the name for an edge in a graph that connects a node with itself?
 
 ???
 
-* self-loop
-* simple edge
-* circular edge
-* self-connection
+- self-loop
+- simple edge
+- circular edge
+- self-connection
+ 

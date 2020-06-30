@@ -1,53 +1,37 @@
 ---
 author: Bruno
-
-levels:
-
-  - basic
-
-  - advanced
-
-  - medium
-
 type: tetris
-
 category: must-know
-
-standards:
-  javascript.javascript-syntax.2: 1000
-  javascript.evaluate-expressions.3: 1000
-  javascript.evaluate-expressions.5: 1000
-  javascript.evaluate-expressions.4: 1000
-  javascript.evaluate-expressions.10: 1000
-
 tags:
   - introduction
   - workout
-
-aspects:
-  - introduction
-  - workout
-
 ---
 
 # You can't handle the truth!
 
+
 ---
+
 ## Content
 
 A value `v` is called *truthy* if it converts to `true` when used in an `if` clause.
 
 This mean that
-```
+
+```plain-text
 if (v) { console.log('yes'); }
 ```
+
 will print `yes` if and only if `v` is truthy.
 
+
 ---
+
 ## Game Content
 
 Falsy:Truthy
-```true
+
+```plain-text
 true
 %exp
 True will always be evaluated as true by the if condition so the result is yes.
@@ -105,7 +89,7 @@ Any object will be evaluated to truthy.
 
 ```
 
-```false
+```plain-text
 false
 %exp
 False is false no matter what.

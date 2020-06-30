@@ -29,14 +29,14 @@ The `dig` tool can also be installed on **Windows**. By bookmarking this insight
 
 You can use `dig`, short for *Domain Information Groper*, to:
 
-* perform **DNS** lookups
-* find host addresses, IP addresses, mail exchanges etc.
-* verify ISP DNS server or internet connectivity
-* verify spam/blacklist records
+- perform **DNS** lookups
+- find host addresses, IP addresses, mail exchanges etc.
+- verify ISP DNS server or internet connectivity
+- verify spam/blacklist records
 
 To make a simple **DNS lookup** you can:
 
-```bash
+```plain-text
 nslookup enki.com
 
 ...
@@ -50,7 +50,7 @@ Address: 54.192.197.88
 
 You can see what `IP` addresses are mapped to the queried domain. `Non-authoritative` answers mean that those answers don't come from the domain we queried for (`enki.com`), but from another sources such as your ISP.
 
-```bash
+```plain-text
 dig enki.com
 ...
 ;; QUESTION SECTION:
@@ -64,8 +64,8 @@ enki.com. 59 IN A 54.192.197.152
 
 Pretty straight-forward:
 
-* `QUESTION SECTION` shows details about our query (useful for more complicated ones)
-* `ANSWER SECTIONS` shows us the mapped IP addresses
+- `QUESTION SECTION` shows details about our query (useful for more complicated ones)
+- `ANSWER SECTIONS` shows us the mapped IP addresses
 
 
 ---
@@ -78,7 +78,7 @@ How would you find the IP address behind the enki.com DNS?
 ???
 ```
 
-* `nslookup enki.com`
-* `nslookup enki`
-* `nslookup 52.85.178.44`
+- `nslookup enki.com`
+- `nslookup enki`
+- `nslookup 52.85.178.44`
  

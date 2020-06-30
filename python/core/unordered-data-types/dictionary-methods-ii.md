@@ -1,29 +1,23 @@
 ---
 author: emmab
-
 type: normal
-
-aspects:
-  - introduction
-  - workout
-
 category: feature
-
 links:
-  - '[Dictionary methods](https://www.programiz.com/python-programming/dictionary){website}'
-
-
+  - >-
+    [Dictionary
+    methods](https://www.programiz.com/python-programming/dictionary){website}
 ---
 
 # Dictionary Methods II
 
----
-## Content
 
+---
+
+## Content
 
 - `keys()` and `values()` return lists of dictionary keys and values:
 
-```python
+```plain-text
 square_numbers.keys()
 
 # dict_keys([1, 2, 3, 4, 5])
@@ -35,7 +29,7 @@ square_numbers.values()
 
 - `pop()` removes the item at the given (`key`) and returns its value:
 
-```python
+```plain-text
 square_numbers.pop(1)
 
 # 1
@@ -46,7 +40,7 @@ print(square_numbers)
 
 - `popitem()` removes an **arbitrary item** from the dictionary, and returns it
 
-```python
+```plain-text
 square_numbers.popitem()
 
 # (5, 25)
@@ -57,14 +51,16 @@ print(square_numbers)
 
 - `fromkeys()` return a new **dictionary** with keys provided in the first argument, and values from the second argument:
 
-```python
+```plain-text
 square_numbers = {}.fromkeys([1,2,3], 0)
 
 print(square_numbers)
 # {1: 0, 2: 0, 3: 0}
 ```
 
+
 ---
+
 ## Practice
 
 Suppose we want to create a dictionary using the `fromkeys` method. Fill in the gaps accordingly:
@@ -77,16 +73,18 @@ print(new_dictionary)
 # {1: 0, 2: 0, 3: 0, 4: 0, 5: 0}
 ```
 
-* `{}`
-* `fromkeys`
-* `0`
-* `1`
-* `fromKeys`
-* `values`
-* `popitem`
-* `clear`
+- `{}`
+- `fromkeys`
+- `0`
+- `1`
+- `fromKeys`
+- `values`
+- `popitem`
+- `clear`
+
 
 ---
+
 ## Revision
 
 Return all of the keys from the dictionary:
@@ -97,7 +95,8 @@ num_dict = {1: 1, 2: 4, 3: 9, 4: 16, 5: 25}
 ???
 ```
 
-* `num_dict.keys()`
-* `keys(num_dict)`
-* `num_dict_keys()`
-* `keys_num_dict()`
+- `num_dict.keys()`
+- `keys(num_dict)`
+- `num_dict_keys()`
+- `keys_num_dict()`
+ 

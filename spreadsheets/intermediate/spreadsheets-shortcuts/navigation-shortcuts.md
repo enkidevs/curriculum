@@ -1,18 +1,14 @@
 ---
 author: Stefan-Stojanovic
-
-aspects:
-  - introduction
-
 type: normal
-
 category: how to
-
 ---
 
 # Navigation shortcuts
 
+
 ---
+
 ## Content
 
 ### `Left, Right, Up and Down Arrows`
@@ -23,7 +19,7 @@ Navigate between cells in any direction.
 
 Switch to the first cell on the right of the active/selected cell.
 
-### `Shift + Tab`: 
+### `Shift + Tab`:
 
 Switch to the first cell on the left of the active/selected cell. 
 
@@ -66,3 +62,4 @@ Open hyperlink. It only works if there is a hyperlink in the selected cell.
 ### `Alt + Shift + X` - `Option + Shift + X`
 
 Open the `Explore` feature.
+ 

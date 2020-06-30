@@ -2,24 +2,27 @@
 author: nem035
 type: normal
 category: must-know
-aspects:
-  - introduction
 links:
-  - '[Play with interfaces](https://repl.it/@enkicontent/TypeScriptPlayWithInterfaces){website}'
-  - '[Interface Type](https://www.typescriptlang.org/docs/handbook/interfaces.html){documentation}'
-
+  - >-
+    [Play with
+    interfaces](https://repl.it/@enkicontent/TypeScriptPlayWithInterfaces){website}
+  - >-
+    [Interface
+    Type](https://www.typescriptlang.org/docs/handbook/interfaces.html){documentation}
 ---
 
 # Introduction to Interfaces
 
+
 ---
+
 ## Content
 
 The `interface` type is used to define a shape of an object.
 
 > 💡 Unlike a class, an interface is a virtual structure that only exists for type-checking purposes.
 
-```ts
+```plain-text
 // define what the shape of
 // the Book object
 // should look like
@@ -48,7 +51,7 @@ Their purpose is to declare a type for specific object shapes.
 
 We can use interfaces to declare object properties as optional or read only:
 
-```ts
+```plain-text
 interface PaymentTransaction {
   // an optional comment
   comment?: string;
@@ -68,7 +71,9 @@ payment.value = 0;
 // error: Cannot assign to 'value' because it is a read-only property.
 ```
 
+
 ---
+
 ## Practice
 
 Fill in the blanks such that `reader` satisfies the `BookReader` interface:
@@ -90,19 +95,21 @@ let reader??? = {
 };
 ```
 
-* Array<Book>
-* : BookReader
-* satisfy BookReader
-* []Book
-* = BookReader
-* Array<string>
+- Array<Book>
+- : BookReader
+- satisfy BookReader
+- []Book
+- = BookReader
+- Array<string>
+
 
 ---
+
 ## Revision
 
 Will the following code cause a type error?
 
-```ts
+```plain-text
 interface Enki {
   note?: string,
 }
@@ -112,5 +119,6 @@ let e: Enki = {};
 
 ???
 
-* No
-* Yes
+- No
+- Yes
+ 

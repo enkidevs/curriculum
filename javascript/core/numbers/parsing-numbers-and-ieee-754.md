@@ -21,14 +21,14 @@ If you want to convert string input to a number type you can use the *parseInt* 
 
 *parseInt* accepts 2 arguments:
 
-* Value to be converted
-* Radix or base of the number system to use 
+- Value to be converted
+- Radix or base of the number system to use 
 
 The Radix or base defaults to 10 on later browsers but it is probably still best to specify as this is not the case on older browsers.
 
 *parseFloat* accepts just one argument:
 
-* Value to be converted
+- Value to be converted
 
 The below example shows how to use *parseInt* and *parseFloat*:
 
@@ -67,9 +67,9 @@ console.log(parseInt("abc",10));
 
 ```
 
-* `NaN`
-* `Error`
-* `10`
+- `NaN`
+- `Error`
+- `10`
 
 
 ---
@@ -78,10 +78,12 @@ console.log(parseInt("abc",10));
 
 What method would you use to parse the following string so that it doesn't return `NaN`:
 
-    ???("0.2", 10);
+```plain-text
+???("0.2", 10);
+```
 
-* `parseFloat`
-* `parseInt`
-* `parseString`
-* `parseDouble`
+- `parseFloat`
+- `parseInt`
+- `parseString`
+- `parseDouble`
  

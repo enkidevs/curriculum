@@ -38,10 +38,10 @@ What does a cryptocurrency wallet contain?
 
 ???
 
-* A list of public and private key pairs
-* A list of account ID and balance pairs
-* A QR code
-* A list of coin IDs
+- A list of public and private key pairs
+- A list of account ID and balance pairs
+- A QR code
+- A list of coin IDs
 
 
 ---
@@ -52,8 +52,8 @@ What do you need to obtain an address' balance for a particular cryptocoin?
 
 ???
 
-* The public key and a blockchain connection.
-* The private key and a blockchain connection.
-* The public key.
-* The public/private key pair.
+- The public key and a blockchain connection.
+- The private key and a blockchain connection.
+- The public key.
+- The public/private key pair.
  

@@ -43,15 +43,15 @@ In order to improve application security, we'll make use of many automated tools
 
 In order to develop applications that cannot be scanned for vulnerabilities, you should periodically ??? your ??? using ???.
 
-* scan
-* application
-* an automated tool
-* attack
-* sniff
-* crack
-* coworker's email
-* a password cracker
-* a packet sniffer
+- scan
+- application
+- an automated tool
+- attack
+- sniff
+- crack
+- coworker's email
+- a password cracker
+- a packet sniffer
 
 
 ---
@@ -61,16 +61,16 @@ In order to develop applications that cannot be scanned for vulnerabilities, you
 [1:Hacker Types]
 There are three types of hackers:
 
-* black-hat are looking for exploits for malicious reasons and without permision
-* white-hat are looking for exploits for good reasons and with permision
-* grey-hat are looking for exploits for good reasons but without permision
+- black-hat are looking for exploits for malicious reasons and without permision
+- white-hat are looking for exploits for good reasons and with permision
+- grey-hat are looking for exploits for good reasons but without permision
 
 [2:Common Tools]
 Here's a list of the most common tools used in application security:
 
-* [Metasploit](https://www.metasploit.com/) - an automated vulnerability scanner
-* [Wireshark](https://www.wireshark.org/) / [Snort](https://www.snort.org/) - packet sniffers / network monitors
-* [John The Ripper](https://www.openwall.com/john/) - a password cracker
-* [Aircrack-NG](https://www.aircrack-ng.org/) - password / wifi cracker
-* [Ettercap](https://www.ettercap-project.org/) - Man in the middle attacker
+- [Metasploit](https://www.metasploit.com/) - an automated vulnerability scanner
+- [Wireshark](https://www.wireshark.org/) / [Snort](https://www.snort.org/) - packet sniffers / network monitors
+- [John The Ripper](https://www.openwall.com/john/) - a password cracker
+- [Aircrack-NG](https://www.aircrack-ng.org/) - password / wifi cracker
+- [Ettercap](https://www.ettercap-project.org/) - Man in the middle attacker
  

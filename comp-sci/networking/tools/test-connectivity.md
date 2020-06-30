@@ -20,7 +20,7 @@ Possibly the simplest way to test the **connectivity** between your machine and 
 
 This tool will send (echo) one or more **ICMP packets**[1] to the specified destination and will print simple statistics (e.g. latency) about the connection as soon as it gets a response.
 
-```bash
+```plain-text
 ping enki.com
 PING enki.com (54.192.197.152): ...
 64 bytes from ... time=7.124 ms
@@ -33,15 +33,15 @@ These will give you information about every **network node** you packet needs to
 
 The way `traceroute` / `tracepath` works is:
 
-* a packet is sent towards a **destination**
-* at each Internet router (node), a reply is sent back to the **source** with the response time
-* this is repeated until the packet reaches its **destination**
+- a packet is sent towards a **destination**
+- at each Internet router (node), a reply is sent back to the **source** with the response time
+- this is repeated until the packet reaches its **destination**
 
 Basically, the two utilities achieve the same thing, the only difference being that `traceroute` manipulates **raw** packages, bypassing security mechanisms.
 
 Running `traceroute`:
 
-```bash
+```plain-text
 traceroute enki.com
 traceroute  to enki.com (52.85.178.249),
    30 hops max, 60 byte packets
@@ -54,10 +54,10 @@ traceroute  to enki.com (52.85.178.249),
 
 Varying from distribution to distribution, the output of `traceroute` usually contains:
 
-* **hop_number**: refers to the number of intermediate devices through which data must be sent through
-* **host_name** : result of a reverse DNS lookup (determining the domain name associated with an IP address)
-* **IP_address**: IP address for this network hop
-* **round trip time** (RTT): time it took the packet to reach the node and come back
+- **hop_number**: refers to the number of intermediate devices through which data must be sent through
+- **host_name** : result of a reverse DNS lookup (determining the domain name associated with an IP address)
+- **IP_address**: IP address for this network hop
+- **round trip time** (RTT): time it took the packet to reach the node and come back
 
 Note that `traceroute` might send multiple probes(packets) for each hop, displaying the RTT for each one of them.
 
@@ -73,10 +73,10 @@ Which of the following commands will check connectivity between you and a remote
 
 ???
 
-* ping
-* tracert
-* tracepath
-* traceroute
+- ping
+- tracert
+- tracepath
+- traceroute
 
 
 ---

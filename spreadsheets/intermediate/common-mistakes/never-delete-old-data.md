@@ -1,19 +1,14 @@
 ---
 author: Stefan-Stojanovic
-
-aspects:
-  - introduction
-  - workout
-
 type: normal
-
 category: how to
-
 ---
 
 # Never destroy old data
 
+
 ---
+
 ## Content
 
 Sometimes, when you have a complex spreadsheet, you don't want to spend time creating it again so you overwrite the old cell data with the new data. 
@@ -29,3 +24,4 @@ You can avoid this problem in two ways:
 > 💡 You can check how to create a template in our `templates` workout.
 
 2. Select the whole sheet, copy it, and paste it in a new sheet, where you can make your changes.
+ 

@@ -1,19 +1,14 @@
 ---
 author: Stefan-Stojanovic
-
-aspects:
-  - workout
-  - deep
-
 type: normal
-
 category: must-know
-
 ---
 
 # What Are Filters
 
+
 ---
+
 ## Content
 
 Filters are used to **temporarily hide a portion of the data in your spreadsheet**. This allows you to deliberately expose or analyze only a specific (unfiltered) part of your data.
@@ -42,14 +37,17 @@ To apply a filter only to a specific range of cells, instead of selecting the co
 
 ![specific-range-filter](https://img.enkipro.com/ce62af66247d6d80e4838b7e1c321e6d.gif)
 
+
 ---
+
 ## Practice
 
 What are filters used to do?
 
 ???
 
-* Hide a portion of the data in a spreadsheet.
-* Add different colors to your cells.
-* Filter between different sheets of data.
-* Clean up functions.
+- Hide a portion of the data in a spreadsheet.
+- Add different colors to your cells.
+- Filter between different sheets of data.
+- Clean up functions.
+ 

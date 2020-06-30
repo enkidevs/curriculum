@@ -21,7 +21,7 @@ Singleton pattern is a design pattern involving a class which can be instantiate
 
 To be effective, it must provide a way to access its only instance globally.
 
-```java
+```plain-text
 public class ClassicSingleton {
   private static ClassicSingleton
       instance = null;

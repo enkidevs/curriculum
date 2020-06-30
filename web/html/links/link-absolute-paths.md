@@ -21,7 +21,7 @@ When wanting to link a file or a picture from your website to another website, i
 
 Example link:
 
-```html
+```plain-text
 <a
   href="http://www.google.com">
   Google
@@ -34,7 +34,7 @@ Example link:
 
 Example image:
 
-```html
+```plain-text
 <img
   src="http://www.apple.com/logo.svg"
   alt="Apple logo">
@@ -46,9 +46,9 @@ An absolute path is a full URL to an internet domain and then the appropriate fi
 
 Example of absolute paths:
 
-* `http://www.adobe.com`
-* `http://www.apple.com/images/logo.svg`
-* `http://www.enkipro.com/help/articles/how-do-i-set-up-a-webpage.html`
+- `http://www.adobe.com`
+- `http://www.apple.com/images/logo.svg`
+- `http://www.enkipro.com/help/articles/how-do-i-set-up-a-webpage.html`
 
 **Note: For the absolute path link to work, you have to provide the domain name of the website, including the `http:// `.**
 
@@ -67,15 +67,15 @@ What is the biggest downfall to using absolute paths?
 
 ???
 
-* `http://www.enkipro.com/help/articles/how-do-i-set-up-a-webpage.html`
-* You don’t have control over files on other domains and if they are moved, your links will break.
-* `contact.html`
-* `../services.html`
-* `travel/fiji/group-photo.html`
-* The paths tend to be longer and add to the filesize of a web page.
-* Those paths have lower search engine visibility.
-* For downloadable files, absolute paths will not work.
-* Relative paths will load the link faster.
+- `http://www.enkipro.com/help/articles/how-do-i-set-up-a-webpage.html`
+- You don’t have control over files on other domains and if they are moved, your links will break.
+- `contact.html`
+- `../services.html`
+- `travel/fiji/group-photo.html`
+- The paths tend to be longer and add to the filesize of a web page.
+- Those paths have lower search engine visibility.
+- For downloadable files, absolute paths will not work.
+- Relative paths will load the link faster.
 
 
 ---
@@ -90,12 +90,12 @@ Only absolute paths can be used when linking to images/files of another website.
 
 ???
 
-* absolute paths
-* True
-* relative paths
-* filename paths
-* directory path
-* False
+- absolute paths
+- True
+- relative paths
+- filename paths
+- directory path
+- False
 
 
 ---
@@ -109,8 +109,8 @@ What is required within absolute paths for images or page links?
 
 ???
 
-* The domain name of the website, including http://
-* File and folder names within the current website organization.
-* Forward slashes (/) separating folders.
-* Nothing is required within absolute paths.
+- The domain name of the website, including http://
+- File and folder names within the current website organization.
+- Forward slashes (/) separating folders.
+- Nothing is required within absolute paths.
  

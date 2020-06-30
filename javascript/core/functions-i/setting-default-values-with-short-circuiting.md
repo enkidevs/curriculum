@@ -1,34 +1,30 @@
 ---
 author: pawel
-
 type: normal
-
 category: pattern
-
 tags:
   - short-circuiting
-
-
-aspects:
-  - introduction
-  - workout
-
 links:
-  - '[MDN - Nullish Coalescing Operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Nullish_coalescing_operator){documentation}'
-  - '[MDN - Falsy](https://developer.mozilla.org/en-US/docs/Glossary/Falsy){documentation}'
-
+  - >-
+    [MDN - Nullish Coalescing
+    Operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Nullish_coalescing_operator){documentation}
+  - >-
+    [MDN -
+    Falsy](https://developer.mozilla.org/en-US/docs/Glossary/Falsy){documentation}
 ---
 
 # Setting default values with "short circuiting"
 
+
 ---
+
 ## Content
 
 "Short circuiting" returns the value of the second operand based on the value of the first.
 
 Instead of setting default values as below:
 
-```javascript
+```plain-text
 function title(t) {
  if (!t) {
    t = "Untitled";
@@ -38,7 +34,7 @@ function title(t) {
 
 We can use:
 
-```javascript
+```plain-text
 function title(t) {
   t = t || "Untitled";
 }
@@ -50,7 +46,7 @@ Sometimes this isn't desired. If an empty title is allowed, we would (incorrectl
 
 A better approach would be to use default parameters to use the default value only if the provided one is `undefined`.
 
-```javascript
+```plain-text
 function title(t = "Untitled") {
   
 }
@@ -58,28 +54,33 @@ function title(t = "Untitled") {
 
 If we wanted additional safety against both `undefined` and `null` (but allow all other values), we'd use the nullish coalescing operator `??`:
 
-```javascript
+```plain-text
 function title(t) {
   t = t ?? "Untitled";
 }
 ```
 
+
 ---
+
 ## Practice
 
 "Short circuit" the following code:
+
 ```javascript
 function shortCir(name){
   return ??? ??? 'John Doe';
 }
 ```
 
-* name
-* ||
-* &&
-* ==
+- name
+- ||
+- &&
+- ==
+
 
 ---
+
 ## Revision
 
 Complete the following code to return a *valid* String as `name` or a default value if `name` is `undefined`:
@@ -90,15 +91,18 @@ function getDefault(name ??? 'John Doe'){
 }
 ```
 
-* =
-* ||
-* &&
-* ==
- 
+- =
+- ||
+- &&
+- ==
+
+
 ---
+
 ## Quiz
 
 ### Fallback when null or undefined
+
 
 Complete the following code to return a *valid* String as `name` or a default value if `name` is `undefined` or `null`:
 
@@ -108,8 +112,8 @@ function getDefault(name){
 }
 ```
 
-* ??
-* ||
-* &&
-* ==
+- ??
+- ||
+- &&
+- ==
  

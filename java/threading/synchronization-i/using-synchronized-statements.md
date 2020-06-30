@@ -1,43 +1,22 @@
 ---
 author: adamMontgomerie
-
-levels:
-
-  - basic
-
-  - advanced
-
-  - medium
-
 type: normal
-
 category: tip
-
-aspects:
-
-  - workout
-
-  - deep
-
 tags:
-
   - multithreading
-
   - threads
-
   - synchronization
-
   - locks
-
 links:
-
-  - '[docs.oracle.com](https://docs.oracle.com/javase/tutorial/essential/concurrency/locksync.html){website}'
-
+  - >-
+    [docs.oracle.com](https://docs.oracle.com/javase/tutorial/essential/concurrency/locksync.html){website}
 ---
 
 # Using `synchronized` statements
 
+
 ---
+
 ## Content
 
 `synchronized` statements can be used to avoid memory inconsistency errors and thread interference in multi-threaded programs.
@@ -46,7 +25,7 @@ When a thread executes code within a `synchronized` statement, the object passed
 
 When writing a `synchronized` block, the object providing the lock must be specified after the `synchronized` keyword:
 
-```java
+```plain-text
 public class Example {
   private int sum;
   public void addToSum(int value) {
@@ -61,7 +40,7 @@ In this example the object providing the lock is `this`, which is the instance o
 
 You can lock instances of other classes as well:
 
-```java
+```plain-text
 public class Example {
   private MyObject mo;
 
@@ -73,28 +52,33 @@ public class Example {
 }
 ```
 
+
 ---
+
 ## Practice
 
 When should you use the `synchronized` keyword?
 
 ???
 
-* More than one thread try to modify the same instance of an object.
-* A single thread tries to modify the instance of an object.
-* More than one thread try to modify different instances of an object.
-* Never.
-* Every time you use multiple threads.
+- More than one thread try to modify the same instance of an object.
+- A single thread tries to modify the instance of an object.
+- More than one thread try to modify different instances of an object.
+- Never.
+- Every time you use multiple threads.
+
 
 ---
+
 ## Revision
 
 When should you use the `synchronized` keyword?
 
 ???
 
-* More than one thread try to modify the same instance of an object.
-* A single thread tries to modify the instance of an object.
-* More than one thread try to modify different instances of an object.
-* Never.
-* Every time you use multiple threads.
+- More than one thread try to modify the same instance of an object.
+- A single thread tries to modify the instance of an object.
+- More than one thread try to modify different instances of an object.
+- Never.
+- Every time you use multiple threads.
+ 

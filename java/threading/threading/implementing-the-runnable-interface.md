@@ -25,7 +25,7 @@ One way of creating a thread is to implement a `Runnable` interface which implie
 
 The most simple example would be:
 
-```java
+```plain-text
 public class CustomRunnable implements
                               Runnable{
   //we have to implement `run()` function
@@ -44,7 +44,7 @@ In order to create a thread out of a runnable object we must pass it to the inst
 
 Then in the `main` function:
 
-```java
+```plain-text
 public class Main {
   public static void main(String[] args) {
     //Initialize the runnable
@@ -105,14 +105,14 @@ What is the best practice for `Overriding` the `start()` function?
 
 ???
 
-* `run()`
-* `start()`
-* No
-* Yes
-* Not overriding it at all
-* Override it with the intended functionality of a thread
-* It does not matter
-* `create()`
+- `run()`
+- `start()`
+- No
+- Yes
+- Not overriding it at all
+- Override it with the intended functionality of a thread
+- It does not matter
+- `create()`
 
 
 ---
@@ -123,6 +123,6 @@ When implementing a `runnable` interface do we create a thread?
 
 ???
 
-* No, we create a runnable object that has to be passed to an instance of a Thread
-* Yes, we can call `start()` on it straight away as it is a runnable thread.
+- No, we create a runnable object that has to be passed to an instance of a Thread
+- Yes, we can call `start()` on it straight away as it is a runnable thread.
  

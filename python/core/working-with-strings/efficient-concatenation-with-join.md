@@ -1,37 +1,17 @@
 ---
 author: Aaron7Sun
-
-levels:
-
-  - basic
-
-  - advanced
-
-  - medium
-
 type: normal
-
 category: tip
-aspects:
-  - introduction
-  - workout
-
-standards:
-  python.standard-library-data.3: 10
-
 tags:
-
   - speed-up-code
-
-
-
 notes: ''
-
 ---
 
 # Efficient concatenation with `join()`
 
+
 ---
+
 ## Content
 
 With strings being immutable in Python, there are certain advantages and disadvantages to consider.
@@ -43,7 +23,8 @@ One disadvantage is that if you want to amend any part of an existing string, yo
 Let's see a few examples of how to update strings more efficiently and prevent unnecessary memory usage.
 
 For instance, a naive approach to combining a list of strings into a single string would be to use a loop and string concatenation[1]:
-```python
+
+```plain-text
 s = ""
 for substring in list:
   s += substring
@@ -51,26 +32,29 @@ for substring in list:
 
 The above code is actually a common mistake when building large strings[2]. Instead, use:
 
-```python
+```plain-text
 s = "".join(list)
 ```
 
 Similarly, in some more complex examples, if you are doing:
 
-```python
+```plain-text
 s = ""
 for x in list:
   s += some_function(x)
 ```
+
 A better and faster way is:
 
-```python
+```plain-text
 slist = [some_function(elt) \
   for elt in somelist]
 s = "".join(slist)
 ```
 
+
 ---
+
 ## Practice
 
 Fill in the following code snippet such that it will concatenate all strings in the list:
@@ -82,18 +66,20 @@ a = ???.???
 
 ```
 
-* ""
-* join(a)
-* concatenate(a)
-* list
-* a
+- ""
+- join(a)
+- concatenate(a)
+- list
+- a
+
 
 ---
+
 ## Revision
 
 What will the following code snippet output:
 
-```python
+```plain-text
 
 l = ["E","n","k","i"]
 
@@ -102,11 +88,13 @@ l = "".join(l)
 
 ???
 
-* Enki
-* E n k i
-* E,n,k,i
+- Enki
+- E n k i
+- E,n,k,i
+
 
 ---
+
 ## Footnotes
 
 [1:String Concatenation]
@@ -114,7 +102,8 @@ In computer programming, string concatenation represents the operation or proces
 
 [2:Efficient Concatenation]
 To understand why iteratively creating a string with `+=` is inefficient, let's take a look at this example:
-```py
+
+```plain-text
 x = 'en'
 x += 'ki' # 'enki' 
 x += 'enki' # 'enkienki'
@@ -126,3 +115,4 @@ When concatenating a small number of strings this wouldn't pose much of a proble
 On the other hand, the `join()` method uses some internal tricks to find out the memory that needs to be allocated ahead of time and copies each substring to the new buffer. This means that each string is copied only once, making the operation ideally efficient. Concatenating `N` strings using `join()` leads to `N` concatenations, which is what one would expect.
 
 Check out this [Stack Overflow thread](https://stackoverflow.com/a/39312172) for more information.
+ 

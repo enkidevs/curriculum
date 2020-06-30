@@ -16,7 +16,7 @@ The usage of the `false` keyword in **JSX** and implicitly **React** is worth me
 
 First of all, `false` is widely used to specify that a **React** element has no child:
 
-```jsx
+```plain-text
 ReactDOM.render(
   <div>{false}</div>, 
   myNode
@@ -25,7 +25,7 @@ ReactDOM.render(
 
 Additional care must be taken when specifying the `id` of an element with the value `false` as it will be rendered as a string:
 
-```jsx
+```plain-text
 ReactDOM.render(
   <div id={false} />, 
   myNode
@@ -36,7 +36,7 @@ This will be rendered as `id="false"`.
 
 This will also happen when `false` will be set as value for an `input`:
 
-```jsx
+```plain-text
 ReactDOM.render(
   <input value={false} />,
   myNode
@@ -52,16 +52,16 @@ What does the following code snippet do?
 
 ???
 
-```javascript
+```plain-text
 ReactDOM.render(
   <div>{false}</div>, 
   aNode
 );
 ```
 
-* Specifies that the React element has no child.
-* Renders the div element false.
-* Renders there to be no div element.
+- Specifies that the React element has no child.
+- Renders the div element false.
+- Renders there to be no div element.
 
 
 ---
@@ -70,7 +70,7 @@ ReactDOM.render(
 
 How will the `id` in the following code snippet be rendered as?
 
-```jsx
+```plain-text
 ReactDOM.render(
   <div id={false} />, 
   myNode
@@ -79,10 +79,12 @@ ReactDOM.render(
 
 Result:
 
-    id=???
+```plain-text
+id=???
+```
 
-* `"false"`
-* `'false'`
-* `false`
-* `undefined`
+- `"false"`
+- `'false'`
+- `false`
+- `undefined`
  

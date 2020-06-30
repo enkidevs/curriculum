@@ -27,7 +27,7 @@ The principle suggests avoiding duplications or copying and pasting blocks of co
 
 For example:
 
-```java
+```plain-text
 public class University {
   public void addStudent() {
     // Code for adding a student
@@ -42,7 +42,7 @@ public class University {
 
 A better implementation would be:
 
-```java
+```plain-text
 public class University {
   public void addStudent() {
     // Code for adding a student

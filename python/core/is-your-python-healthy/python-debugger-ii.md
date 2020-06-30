@@ -1,32 +1,23 @@
 ---
 author: SebaRaba
-
-levels:
-  - beginner
-  - basic
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-  - workout
-  - deep
-
 links:
-  - '[Python debugger](https://www.digitalocean.com/community/tutorials/how-to-use-the-python-debugger){website}'
-
-
+  - >-
+    [Python
+    debugger](https://www.digitalocean.com/community/tutorials/how-to-use-the-python-debugger){website}
 ---
 
 # Python Debugger Methods
 
+
 ---
+
 ## Content
 
 Considering the **source code** exemplified in the previous insight[1], lets see how `list()` works:
-```python
+
+```plain-text
 (Pdb) list
 1  -> num_list = [1, 2]
 2     chars = ['a', 'b']
@@ -46,7 +37,7 @@ The current line is indicated by the `->` character. This command is provided wi
 
 The `step` command will **iterate** through the loops showing exactly what the **loop** is doing. The difference between `step` and `next` is that `step` will stop within a called function, while `next` executes called functions to only stop at the next line of the current function.
 
-```shell
+```plain-text
 (Pdb) step
 > /Users/seba/debug.py(5)<module>()
 -> def nested_loop():
@@ -66,7 +57,7 @@ The `step` command will **iterate** through the loops showing exactly what the *
 
 On the other hand, `next` command executes the next **statement**, without showing everything that happened to evaluate the call.
 
-```shell
+```plain-text
 (Pdb) next
 > /Users/seba/debug.py(5)<module>()
 -> def nested_loop():
@@ -90,37 +81,41 @@ b
 
 Finally, whenever you want to leave `pdb` console, type `quit` or `exit`.
 
----
-## Practice
 
+---
+
+## Practice
 
 The `???` command will **iterate** through the loops showing exactly what the **loop** is doing.
 The `???` command executes **statements**, without showing everything that happened to evaluate the call.
 The `???` command has **optional arguments** that must be two `int` values that define the range of lines the user wants.
 
+- step
+- next
+- list()
 
-* step
-* next
-* list()
 
 ---
+
 ## Revision
 
 When debugging a python file with `pdb`, which command will show the step-by-step process?
 
 ???
 
-* `step`
-* `next`
-* `go`
+- `step`
+- `next`
+- `go`
+
 
 ---
+
 ## Footnotes
 
 [1:Source Code]
 Previously, we had this code:
 
-```python
+```plain-text
 # Program name: debug.py
 
 number_list = [1, 2]  
@@ -138,7 +133,7 @@ if __name_ == '__main__':
 
 And we ran the debugger using:
 
-```bash
+```plain-text
 python3 -m pdb debug.py
 
 #Console output:
@@ -147,5 +142,4 @@ python3 -m pdb debug.py
 -> num_list = [1, 2]
 (Pdb)
 ```
- 
  

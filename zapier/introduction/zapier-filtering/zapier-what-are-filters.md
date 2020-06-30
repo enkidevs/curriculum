@@ -1,20 +1,14 @@
 ---
 author: kapnobatai136
-
 category: feature
-
-aspects:
-  - introduction
-  - workout
-  - deep
-
 type: normal
-
 ---
 
 # What Are Filters?
 
+
 ---
+
 ## Content
 
 Filters represent a very important part of Zapier because they allow you to control which data goes forward in the flow. Basically, if the received information does not fit a certain check (defined by you), then the flow won't continue.
@@ -29,19 +23,24 @@ Going back to the zap we have created, for step 2 (the filter step), let's see w
 
 In the following insights we'll learn how to add more checks, their types, and how powerful they are.
 
+
 ---
+
 ## Practice
 
 To add a filter in Zapier means to ???.
 
-* add a new step
-* add a new action
-* add a new zap
+- add a new step
+- add a new action
+- add a new zap
+
 
 ---
+
 ## Revision
 
 Filtering is done with ???.
 
-* the Filter by Zapier step
-* a separate filter application
+- the Filter by Zapier step
+- a separate filter application
+ 

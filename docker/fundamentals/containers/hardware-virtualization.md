@@ -40,10 +40,10 @@ Virtualization provides an abstraction on top of hardware that allowed developme
 
 Virtualization allows us to abstract away the hardware. This enables us to use ??? physical machines for running and deploying our software.
 
-* fewer
-* more
-* cheap
-* fast
+- fewer
+- more
+- cheap
+- fast
 
 
 ---
@@ -52,8 +52,8 @@ Virtualization allows us to abstract away the hardware. This enables us to use ?
 
 A virtual machine allows us to emulate ???.
 
-* hardware
-* software
-* cpu
-* applications
+- hardware
+- software
+- cpu
+- applications
  

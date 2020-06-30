@@ -16,8 +16,8 @@ Both `bandwidth`  and `throughput` are metrics used to describe the performance 
 
 However, there is a big difference between the two:
 
-* `bandwidth` refers to the **maximum** theoretic amount of data (number of packets) that can be sent on the channel, regardless of practical considerations
-* `throughput` refers to the **actual** amount of data that travels through the segment successfully
+- `bandwidth` refers to the **maximum** theoretic amount of data (number of packets) that can be sent on the channel, regardless of practical considerations
+- `throughput` refers to the **actual** amount of data that travels through the segment successfully
 
 This distinction can be better exemplified by an example.
 
@@ -38,10 +38,10 @@ Which of the following metric refers to the **maximum theoretical** speed data c
 
 ???
 
-* `bandwidth`
-* `throughput`
-* `jitter`
-* `lag`
+- `bandwidth`
+- `throughput`
+- `jitter`
+- `lag`
 
 
 ---
@@ -52,10 +52,10 @@ Which of the following metric refers to the **actual** speed data can move over 
 
 ???
 
-* `throughput`
-* `jitter`
-* `latency`
-* `bandwidth`
+- `throughput`
+- `jitter`
+- `latency`
+- `bandwidth`
 
 
 ---

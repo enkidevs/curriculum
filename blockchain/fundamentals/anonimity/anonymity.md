@@ -33,9 +33,9 @@ What is privacy?
 
 ???
 
-* The condition in which the real identity of the person is unknown.
-* The condition in which the actions of a person are kept secret.
-* The condition in which both the identity and actions of a person are kept secret.
+- The condition in which the real identity of the person is unknown.
+- The condition in which the actions of a person are kept secret.
+- The condition in which both the identity and actions of a person are kept secret.
 
 
 ---
@@ -46,7 +46,7 @@ What is the level of anonymity provided by the Bitcoin network?
 
 ???
 
-* pseudoanonymity
-* complete anonymity
-* no anonymity
+- pseudoanonymity
+- complete anonymity
+- no anonymity
  

@@ -30,7 +30,7 @@ Keep in mind that processing and decoding time of the `packet` is not taken into
 
 To calculate **RTT**, one can use the `ping` command line utility, available on most systems, including **Windows**:
 
-```bash
+```plain-text
 ping enki.com
 ```
 
@@ -59,11 +59,11 @@ We can talk about **round-trip time** only in:
 
 ???
 
-* packet-switched networks
-* complex networks
-* UDP networks
-* simple networks
-* networks with a firewall
+- packet-switched networks
+- complex networks
+- UDP networks
+- simple networks
+- networks with a firewall
 
 
 ---
@@ -74,10 +74,10 @@ In the context of computer networks, **RTT** stands for:
 
 ???
 
-* round-trip time
-* routed-through-tunnel
-* real-time trip
-* ready trip time
+- round-trip time
+- routed-through-tunnel
+- real-time trip
+- ready trip time
 
 
 ---
@@ -95,8 +95,8 @@ Both are in a *cause-and-effect* relationship, each one affecting how the other 
 [3:Factors]
 There are some factors that directly influence the network latency:
 
-* *connection type* : for example satellite connections are slower than cable connections
-* *distance* : the farther away you are from the server, the more time it takes for information to get to you
+- *connection type* : for example satellite connections are slower than cable connections
+- *distance* : the farther away you are from the server, the more time it takes for information to get to you
 
 [4:Congestion]
 **Congestion** goes hand in hand with **bandwidth**. The smaller your bandwidth is, the more likely are you to experience congestion with low latency.
