@@ -40,6 +40,9 @@ Types of change:
 
 ## June 30th 2020
 
+### Changed
+- [JavaScript - Arrays - Improve last code block example, add resource link](https://github.com/enkidevs/curriculum/pull/2201)
+
 ### Fixed
 - [Linux - The `head` And `tail` Commands - Remove redundant word](https://github.com/enkidevs/curriculum/pull/2217)
 - [Linux - Selecting Portions of A Line Using `cut` - Remove redundant word](https://github.com/enkidevs/curriculum/pull/2216/)
@@ -52,9 +55,6 @@ Types of change:
 - [Linux - Multiple IP Addresses with aliasing - Change address to plural](https://github.com/enkidevs/curriculum/pull/2208)
 
 ## June 25th 2020
-
-### Changed
-- [JavaScript - Arrays - Improve last code block example, add resource link](https://github.com/enkidevs/curriculum/pull/2201)
 
 ### Fixed
 - [Regex - Modfiers - Add missing code tags](https://github.com/enkidevs/curriculum/pull/2206)
