@@ -1,37 +1,21 @@
 ---
 author: kld14
-
-levels:
-
-  - basic
-
-  - beginner
-
 type: normal
-
 category: caveats
-
-aspects:
-
-  - introduction
-
 tags:
-
   - switch
-
   - break
-
   - mistake
-
 ---
 
 # Common mistake in switch statements
 
+
 ---
+
 ## Content
 
 One common mistake is not including the `break` keyword in a switch statement.
-
 
 Control flow of the switch statement continues until it hits a break.
 
@@ -50,12 +34,14 @@ switch (num) {
 }
 
 ```
+
  For example, assuming `num` is `0`, it prints:
 
-```
+```plain-text
 zero
 one
 ```
+
 If the intended output were to be just zero on its own, then a `break` will need to be added after each case, as shown below. Upon executing the `break` keyword (in this context), the Java will branch off to the end of the switch statement.
 
 ```java
@@ -74,12 +60,16 @@ switch (num) {
 }
 
 ```
+
 Including the break in the last case is not strictly necessary.
 
+
 ---
+
 ## Practice
 
 What would this snippet output, if `num=1` ?
+
 ```java
 switch (num) {
   case 0: 
@@ -96,16 +86,19 @@ switch (num) {
 ???
 ```
 
-* `123`
-* `0123`
-* `1`
-* `12`
-* `01`
+- `123`
+- `0123`
+- `1`
+- `12`
+- `01`
+
 
 ---
+
 ## Revision
 
 What would this snippet output, if `num=2` ?
+
 ```java
 switch (num) {
   case 0: 
@@ -121,15 +114,19 @@ switch (num) {
 ???
 ```
 
-* `23`
-* `0123`
-* `1`
-* `12`
-* `3`
+- `23`
+- `0123`
+- `1`
+- `12`
+- `3`
+
 
 ---
-## Quiz 
+
+## Quiz
+
 ### what will be the output of the following switch statement?
+
 
 What's the output for `x=1`?
 
@@ -151,7 +148,7 @@ switch(x) {
 
  ???
 
-* 12
-* 1
-* 121
-* 10
+- 12
+- 1
+- 121
+- 10

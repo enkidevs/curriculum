@@ -1,19 +1,14 @@
 ---
 author: Stefan-Stojanovic
-
-aspects:
-  - introduction
-  - workout
-
 type: normal
-
 category: how to
-
 ---
 
 # Cells (Find and Replace)
 
+
 ---
+
 ## Content
 
 Cells are essentially where all of your data goes. This means that finding and replacing mistakes should be easy.
@@ -31,7 +26,9 @@ Another quick way of accessing `Find and replace` is by using a keyboard shortcu
 The `Search` tab has a drop-down menu with four checkboxes. In here you can select to search `All sheets`, `This sheet` or a `Specific range` of cells.
 
 The 4 different checkboxes do the following:
+
 - `Match case` is used to specifically match the upper or lowercase of the value being searched for. For example, searching for `"ABC"` with this box checked will not find `"abc"`.
 - `Match entire cell contents` is used to find exactly what was inputted. For instance, searching for a cell with `100` won't find any cell that contains `1000`.
 - `Search using regular expressions` is used for searching with regular expressions (will be discussed later on)
 - `Also search within formulas` is used to search inside formulas (will be discussed in the `Formulas` mission)
+ 

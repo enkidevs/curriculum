@@ -38,6 +38,19 @@ Types of change:
 - `Archived` for content that is no longer necessary and has been archived.
 - `Fixed` for any minor fixes (e.g. add a missing comma, adding a code block tag, fixing a report).
 
+## June 30th 2020
+
+### Fixed
+- [Linux - The `head` And `tail` Commands - Remove redundant word](https://github.com/enkidevs/curriculum/pull/2217)
+- [Linux - Selecting Portions of A Line Using `cut` - Remove redundant word](https://github.com/enkidevs/curriculum/pull/2216/)
+- [Python - Function Arguments - Fix typo & general formatting](https://github.com/enkidevs/curriculum/pull/2222)
+
+## June 26th 2020
+
+### Fixed
+- [Comp. Sci. - The Array Data Structure - Fix typo in RQ](https://github.com/enkidevs/curriculum/pull/2210)
+- [Linux - Multiple IP Addresses with aliasing - Change address to plural](https://github.com/enkidevs/curriculum/pull/2208)
+
 ## June 25th 2020
 
 ### Changed
@@ -46,6 +59,7 @@ Types of change:
 ### Fixed
 - [Regex - Modfiers - Add missing code tags](https://github.com/enkidevs/curriculum/pull/2206)
 - [Python - Lists vs Dictionaries - Add missing quotes & general formatting](https://github.com/enkidevs/curriculum/pull/2204)
+- [HTML - Optional Elements - Update text in snippets, small grammar improvements, move link to the links section](https://github.com/enkidevs/curriculum/pull/2207)
 
 ## June 24th 2020
 

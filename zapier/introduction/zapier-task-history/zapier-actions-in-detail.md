@@ -1,20 +1,14 @@
 ---
 author: kapnobatai136
-
 category: feature
-
-aspects:
-  - introduction
-  - deep
-  - workout
-
 type: normal
-
 ---
 
 # Task History Advanced
 
+
 ---
+
 ## Content
 
 Looking over items in the task history is undoubtedly useful. Another useful extension of this view is the **detailed view** of each task run.
@@ -32,18 +26,22 @@ From top to bottom we can see that Zapier noticed a change in the spreadsheet, v
 Continuing, we see that we create a new column, verify that the `Has Access?` column says `Yes`, and update the `# of days` column to 7.
 
 Although the zap is working, we have already found some problems:
+
 1. We are checking twice that the `Has Access?` column says `Yes`
 2. For every successful zap, we create a new `# of days` column
 
 It is good practice to check your zaps because you never know how you can improve your workflow even further.
 
+
 ---
+
 ## Practice
 
 Clicking on a zap in the task history will:
 
 ???
 
-* Open a detailed view of said zap.
-* Rename said zap.
-* Will delete zap from the task history.
+- Open a detailed view of said zap.
+- Rename said zap.
+- Will delete zap from the task history.
+ 

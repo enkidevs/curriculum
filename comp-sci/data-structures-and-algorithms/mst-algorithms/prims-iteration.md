@@ -1,36 +1,15 @@
 ---
 author: mihaiberq
-
-levels:
-
-  - beginner
-
-  - basic
-
-  - medium
-
-  - advanced
-
 type: normal
-
 category: must-know
-
-aspects:
-
-  - deep
-
-  - obscura
-
-  - workout
-
-
 parent: prims-algorithm
-
 ---
 
 # Prim's Algorithm Iteration
 
+
 ---
+
 ## Content
 
 Consider the following *weighted, connected graph*:
@@ -57,36 +36,44 @@ Left with two edges that have the same weight to be picked next, the algorithm c
 
 ![final](https://img.enkipro.com/9b43122686b2efeedea6f29d2920e619.png)
 
+
 ---
+
 ## Practice
 
 If the sorted edge container looks like this:
-```
+
+```plain-text
 [(AC, 5), (AB, 5), (CE, 5)]
 ```
+
 And the current nodes in the tree are:
-```
+
+```plain-text
 A, D, C, E
 ```
+
 The next edge to be picked is:
-```
+
+```plain-text
 ???
 ```
 
-* `AB`
-* `AC`
-* `CE`
+- `AB`
+- `AC`
+- `CE`
+
 
 ---
+
 ## Revision
 
 Prim's algorithm uses
 
 ???
 
-* a greedy approach
-* a dynamic approach
-* a divide and conquer approach
-* no particular approach
-
-
+- a greedy approach
+- a dynamic approach
+- a divide and conquer approach
+- no particular approach
+ 

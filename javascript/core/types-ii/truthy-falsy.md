@@ -1,22 +1,18 @@
 ---
 author: alexjmackey
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-  - workout
-
 links:
-  - '[MDN - Falsy](https://developer.mozilla.org/en-US/docs/Glossary/Falsy){documentation}'
-
+  - >-
+    [MDN -
+    Falsy](https://developer.mozilla.org/en-US/docs/Glossary/Falsy){documentation}
 ---
 
 # Truthy Falsy
 
+
 ---
+
 ## Content
 
 All values in JavaScript have a corresponding *boolean* value of either `true` or `false`.
@@ -57,23 +53,24 @@ if (x) {
 }
 ```
 
+
 ---
+
 ## Practice
 
 The value of `0` is ???.
 
+- falsy
+- truthy
+- neither falsy nor truthy.
 
-* falsy
-* truthy
-* neither falsy nor truthy.
 
 ---
+
 ## Revision
 
 An empty string is ???.
 
-
-* falsy
-* truthy
-* neither falsy nor truthy
- 
+- falsy
+- truthy
+- neither falsy nor truthy

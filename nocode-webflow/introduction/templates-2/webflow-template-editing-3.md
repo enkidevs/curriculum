@@ -1,18 +1,14 @@
 ---
 author: kapnobatai136
-
 category: must-know
-
-aspects:
-  - introduction
-
 type: normal
-
 ---
 
 # Editing Templates 2
 
+
 ---
+
 ## Content
 
 Using the same project, let's open the designer[1]. Instead of having individual images with descriptions for each of your projects, you now want to have a slider.
@@ -29,16 +25,20 @@ Now, go into the `Add Elements`[2] section and find the `Components` category. Y
 
 When you're done positioning, you can change the style of elements or components by pressing the `S` button on your keyboard.
 
+
 ---
+
 ## Practice
 
 In the designer, you can ??? new elements/components or ??? previously existing ones.
 
-* add
-* delete
-* merge
+- add
+- delete
+- merge
+
 
 ---
+
 ## Footnotes
 
 [1:Designer]
@@ -46,3 +46,4 @@ You can open the designer from your [dashboard](https://webflow.com/dashboard) b
 
 [2:Add Elements]
 To access this section, either press the `+` button in the top left corner of the page, or press the `A` button on your keyboard.
+ 

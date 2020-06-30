@@ -1,35 +1,25 @@
 ---
 author: gregbenner
-
-levels:
-
-  - advanced
-
-  - medium
-
 type: fillTheGap
-
 category: must-know
-
-aspects:
-  - introduction
-  - workout
-
 links:
-
-  - '[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment#Array_destructuring){website}'
-
+  - >-
+    [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment#Array_destructuring){website}
 ---
 
 # iterators, for of, ...spreads
 
+
 ---
+
 ## Content
 
 Freshen up you knowledge on `iterators`, `for of` loops and the `spread operator` with this exercise.
 The goal is to fill in the gaps with either the output of the snippet or the missing bit that won't throw any errors.
 
+
 ---
+
 ## Game Content
 
 ```javascript
@@ -45,9 +35,9 @@ let noise = onomatopoeia();
 noise.???();
 ```
 
-* next
-* call
-* exec
+- next
+- call
+- exec
 
 %exp
 Here, `onomatopoeia` is a generator function (note the `function*` notation), returning a **Generator** object (assigned to `noise` variable).
@@ -69,9 +59,9 @@ iterator.next();
 
 ```
 
-* { value: "h", done: false }
-* ["h", false]
-* { value: "h", done: true }
+- { value: "h", done: false }
+- ["h", false]
+- { value: "h", done: true }
 
 %exp
 **ES6** spec defines non-string **symbol** property names of objects to describe particular behaviours, `Symbol.iterator` specifically describing how iteration works.
@@ -94,9 +84,9 @@ for (let i of arr) {
 
 ```
 
-* 'dragon', 'wizard', 'monkey'
-* 0, 1, 2
-* 1, 2, 3
+- 'dragon', 'wizard', 'monkey'
+- 0, 1, 2
+- 1, 2, 3
 
 %exp
 A `for...of` statement will loop over the iterable `arr` object, assigning to variable `i` the values in the array, one by one.
@@ -112,9 +102,9 @@ Therefore, `'dragon'`, `'wizard'` and `'monkey'` will be printed one by one.
 console.log(1, ???[2, 3, 4], 5)
 ```
 
-* ...
-* concat
-* map
+- ...
+- concat
+- map
 
 %exp
 We can use the spread operator (`...`) to copy the contents of the `[2, 3, 4]` array between the elements `1` and `5`, resulting in the wanted array.
@@ -130,9 +120,9 @@ let whales = ['Blue Whale', ...fish,
 // whales = ???
 ```
 
-* ['Blue Whale', 'Tuna', 'Trout', 'Orca']
-* ReferenceError '... is not defined'
-* TypeError 'Array has no method ...'
+- ['Blue Whale', 'Tuna', 'Trout', 'Orca']
+- ReferenceError '... is not defined'
+- TypeError 'Array has no method ...'
 
 %exp
 When constructing the `whales` array, we make use of the spread operator (`...`) which will copy the contents of the `fish` array and insert them starting at index `1` (where the operator was used). Sequentially, the `"Orca"` element is appended.

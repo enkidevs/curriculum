@@ -1,33 +1,15 @@
 ---
 author: jfarmer
-
-levels:
-
-  - beginner
-
-  - basic
-
-  - medium
-
-  - advanced
-
 type: normal
-
 category: how to
-
-aspects:
-
-  - deep
-
-  - workout
-
 parent: inserting-data-into-a-heap-with-the-upheap-operation
-
 ---
 
 # Removing Data From a Heap With The `downheap` Operation
 
+
 ---
+
 ## Content
 
 Finding the maximum value in a max-heap (or the minimum value in a min-heap) is easy: it's stored in the root node. However, we also want to be able to remove the maximum.
@@ -59,11 +41,14 @@ Since `6` is less than both `19` and `36`, we would swap `6` with `36`, the larg
 
 In this specific case we are done, but in general we might have to perform multiple such swaps until `6` is in the correct position.
 
+
 ---
+
 ## Practice
 
 Which node should we move into the root position after removing the old one?
-```
+
+```plain-text
        ???
       /   \
     20      38
@@ -71,21 +56,22 @@ Which node should we move into the root position after removing the old one?
   15  16   3   37
 ```
 
-* `38`
-* `37`
-* `3`
-* `15`
-* `16`
+- `38`
+- `37`
+- `3`
+- `15`
+- `16`
+
 
 ---
+
 ## Revision
 
 During `downheap` operation, if both the children of a node have larger keys than the parent's, we swap the parent with
 
 ???.
 
-* the larger of the two children
-* the smaller of the two children
-* none, since it already respects the heap property
-
-
+- the larger of the two children
+- the smaller of the two children
+- none, since it already respects the heap property
+ 

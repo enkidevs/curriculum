@@ -1,22 +1,18 @@
 ---
 author: alexjmackey
-
 type: normal
-
 category: must-know
-
 links:
-  - '[Object-oriented JS](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object-oriented_JS){website}'
-
-aspects:
-  - introduction
-  - workout
-
+  - >-
+    [Object-oriented
+    JS](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object-oriented_JS){website}
 ---
 
 # Object - Part 1
 
+
 ---
+
 ## Content
 
 JavaScript has a particular type called *Object* which is a collection of keys and values.
@@ -67,7 +63,9 @@ person.age = "40";
 person["homeTown"] = "London";
 ```
 
+
 ---
+
 ## Practice
 
 Consider the following object:
@@ -88,10 +86,12 @@ Would the following line print `"model"`?
 console.log(car.test); // ???
 ```
 
-* no
-* yes
+- no
+- yes
+
 
 ---
+
 ## Revision
 
 Which line adds a new property to an object that looks like this:
@@ -105,8 +105,7 @@ let person = {
 ???
 ```
 
-* `person.age = 40;`
-* `let person.age = 40;`
-* `person[age] = 40;`
-* `person.addNewProperty(age, 40);`
- 
+- `person.age = 40;`
+- `let person.age = 40;`
+- `person[age] = 40;`
+- `person.addNewProperty(age, 40);`

@@ -1,23 +1,20 @@
 ---
 author: mihaiberq
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-
 links:
-  - '[Examples of Blockchain Use-Cases](https://medium.com/@matteozago/50-examples-of-how-blockchains-are-taking-over-the-world-4276bf488a4b){website}'
-
+  - >-
+    [Examples of Blockchain
+    Use-Cases](https://medium.com/@matteozago/50-examples-of-how-blockchains-are-taking-over-the-world-4276bf488a4b){website}
 ---
 
 # Why Should You Care?
 
+
 ---
+
 ## Content
-           	
+
 Here are a couple reasons to why blockchain is an important technology:
 
 1. **Secure**
@@ -36,12 +33,14 @@ This small European country started managing its registers, such as national hea
 
 > 💡 Check the Learn More section for more blockchain use-cases.
 
+
 ---
+
 ## Practice
 
 The data in a blockchain is secured using advanced ???.
 
-* cryptography
-* blocks
-* cryogenics
-
+- cryptography
+- blocks
+- cryogenics
+ 

@@ -1,37 +1,21 @@
 ---
 author: adamMontgomerie
-
-levels:
-
-  - basic
-
-  - advanced
-
-  - medium
-
 type: normal
-
 category: tip
-
-aspects:
-
-  - obscura
-
 tags:
-
   - exceptions
-
 links:
-
-  - '[javarevisited.blogspot.co.uk](http://javarevisited.blogspot.co.uk/2013/03/0-exception-handling-best-practices-in-Java-Programming.html){website}'
-  - '[codereview.stackexchange.com](http://codereview.stackexchange.com/questions/11724/is-it-better-practice-to-have-void-method-throw-an-exception-or-to-have-the-meth){website}'
-
-
+  - >-
+    [javarevisited.blogspot.co.uk](http://javarevisited.blogspot.co.uk/2013/03/0-exception-handling-best-practices-in-Java-Programming.html){website}
+  - >-
+    [codereview.stackexchange.com](http://codereview.stackexchange.com/questions/11724/is-it-better-practice-to-have-void-method-throw-an-exception-or-to-have-the-meth){website}
 ---
 
 # Avoid unnecessary exception handling
 
+
 ---
+
 ## Content
 
 Throwing and catching exceptions is costly in terms of performance. Avoiding unnecessary exception handling can speed up your code. 

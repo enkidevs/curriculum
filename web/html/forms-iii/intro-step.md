@@ -1,24 +1,15 @@
 ---
 author: Stefan-Stojanovic
-
-levels:
-  - beginner
-  - basic
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-  - workout
-  - deep
-
-links:
-
+links: null
 ---
+
 # Intro `<step>`
+
+
 ---
+
 ## Content
 
 The HTML input form `step` attribute is used to specify a *legal* number interval for the `<input>` element.
@@ -26,6 +17,7 @@ The HTML input form `step` attribute is used to specify a *legal* number interva
 For instance, if you set `step="4"`, the legal numbers could be -4, 0, 4, 8, etc.
 
 Example:
+
 ```html
 <form
   action="/action.php">
@@ -46,20 +38,24 @@ The `step` attribute is easy to assign with the `number` input and works with an
 
 If you want to accept any value regardless of how many decimal places, you can set the `step` value as `any`.
 
+
 ---
+
 ## Practice
 
 Which statement is NOT true regarding step attributes within forms?
 
 ???
 
-* Can step between both numbers and letters.
-* Works with fractions, like 1/2 written as ".5".
-* Specifies the legal number intervals for an `<input>` element.
-* Can be used with min & max to create range of legal values.
-* Works with these input types: number, date, & time.
+- Can step between both numbers and letters.
+- Works with fractions, like 1/2 written as ".5".
+- Specifies the legal number intervals for an `<input>` element.
+- Can be used with min & max to create range of legal values.
+- Works with these input types: number, date, & time.
+
 
 ---
+
 ## Revision
 
 Which form attribute allows a number to be entered in a specified interval, such as (-5, 0, 5, 10, etc)?
@@ -76,16 +72,19 @@ Which form attribute allows a number to be entered in a specified interval, such
 </form>
 ```
 
-* `step`
-* `range`
-* `gap`
-* `space`
-* `span`
+- `step`
+- `range`
+- `gap`
+- `space`
+- `span`
+
 
 ---
+
 ## Quiz
 
 ### How much do you know about restricted numbers in HTML form fields?
+
 
 Which values would be accepted by this input field?
 
@@ -103,7 +102,7 @@ Which values would be accepted by this input field?
 
 ???
 
-* `-5, 0, 5, 10`
-* `1, 2, 3, 4, 5`
-* `0, 1, 2, 3, 4, 5`
-* `5, 6, 7, 8, 9`
+- `-5, 0, 5, 10`
+- `1, 2, 3, 4, 5`
+- `0, 1, 2, 3, 4, 5`
+- `5, 6, 7, 8, 9`

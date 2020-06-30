@@ -1,20 +1,14 @@
 ---
 author: Stefan-Stojanovic
-
-levels:
-  - beginner
-  - basic
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-
 ---
+
 # HTML/CSS in the Browser
+
+
 ---
+
 ## Content
 
 **HTML** and **CSS** are languages used by browsers to present information to the users.
@@ -53,44 +47,50 @@ However, loading just the **CSS** file will only show the text `p { color: green
 
 > Note: as with all the skills in the app, if you want to access more advanced or specific content at any time, **feel free to use the *Skill Map* tab** to jump to the workouts most relevant for you.
 
+
 ---
+
 ## Practice
 
 An HTML page without CSS in a browser will appear as what?
 
 ???
 
-* Only text, images, and links are displayed.
-* HTML pages open, but no content is displayed.
-* HTML pages are not viewable without CSS.
-* A document error occurs and nothing displays properly.
-* Web page opens without error, but only text is displayed.
+- Only text, images, and links are displayed.
+- HTML pages open, but no content is displayed.
+- HTML pages are not viewable without CSS.
+- A document error occurs and nothing displays properly.
+- Web page opens without error, but only text is displayed.
+
 
 ---
+
 ## Revision
 
 A `.css` page will appear as what when opened in a browser?
 
 ???
 
-* Page appears exactly as it is written in a code editor.
-* Page opens, but no content of any sort displayed.
-* CSS pages are not viewable without HTML.
-* A document error occurs and nothing displays properly.
-* Page opens without error, but styles can't display without HTML.
+- Page appears exactly as it is written in a code editor.
+- Page opens, but no content of any sort displayed.
+- CSS pages are not viewable without HTML.
+- A document error occurs and nothing displays properly.
+- Page opens without error, but styles can't display without HTML.
+
 
 ---
+
 ## Quiz
 
 ### How well do you understand basic web pages?
+
 
 How do `.css` files appear in a browser when viewed alone without a `.html` file?
 
 ???
 
-* File appears exactly as it is written in a code editor.
-* Only text, images, and links are displayed in a browser.
-* A document error occurs and nothing displays properly.
-* File opens, but no content of any sort displayed.
-* The CSS file doesn't display anything without the HTML.
- 
+- File appears exactly as it is written in a code editor.
+- Only text, images, and links are displayed in a browser.
+- A document error occurs and nothing displays properly.
+- File opens, but no content of any sort displayed.
+- The CSS file doesn't display anything without the HTML.

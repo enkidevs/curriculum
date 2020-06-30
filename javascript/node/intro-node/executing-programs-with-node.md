@@ -1,32 +1,20 @@
 ---
 author: tommarshall
-
-levels:
-  - beginner
-
 type: normal
-
 category: must-know
-
-standards:
-  javascript.node-developer-environment.5: 10
-
 tags:
   - introduction
-
 links:
-  - '[nodeguide.com](http://nodeguide.com/beginner.html#the-interactive-node.js-shell){website}'
-
+  - >-
+    [nodeguide.com](http://nodeguide.com/beginner.html#the-interactive-node.js-shell){website}
 parent: the-repl-terminal
-
-aspects:
-  - introduction
-
-
 ---
+
 # Executing programs with Node
 
+
 ---
+
 ## Content
 
 The Node.js interpreter can be used to execute JavaScript files and programs in the terminal. First, create a JavaScript file:
@@ -51,7 +39,9 @@ node main.js
 Node.js with Enki!
 ```
 
+
 ---
+
 ## Practice
 
 Consider the file `enki.js`:
@@ -68,16 +58,18 @@ How would you run from the terminal interface the code in the file, using the No
 # Hello, Enki!
 ```
 
-* node
-* enki.js
-* enki
-* nodejs
-* npm
-* run
-* code
-* enkijs
+- node
+- enki.js
+- enki
+- nodejs
+- npm
+- run
+- code
+- enkijs
+
 
 ---
+
 ## Revision
 
 How would you run the code existing within `main.js`
@@ -87,14 +79,11 @@ How would you run the code existing within `main.js`
 # main.js is ran
 ```
 
-* node
-* run
-* compile
-* code
-* js
-* javascript
-* java
-* nodeJS
- 
- 
- 
+- node
+- run
+- compile
+- code
+- js
+- javascript
+- java
+- nodeJS

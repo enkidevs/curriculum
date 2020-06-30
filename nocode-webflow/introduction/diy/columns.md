@@ -1,22 +1,14 @@
 ---
 author: Stefan-Stojanovic
-
-levels:
-  - beginner
-
-aspects:
-  - introduction
-  - workout
-
 type: normal
-
 category: how to
-
 ---
 
 # Columns
 
+
 ---
+
 ## Content
 
 Columns are layout elements used for organizing content horizontally.
@@ -38,6 +30,7 @@ To edit the number of columns and their sizes, click on the column element and s
 You can edit the sizes of the columns by moving the numbers on the bottom of the `Columns Settings` panel. There are different default size values depending on the number of columns you select, but all are customizable.
 
 Creating a column is the same as adding a new element. There are three ways:
+
 1. Click anywhere on the canvas and left-click a column element from the `Add Elements` panel to add it to the previously clicked position.
 2. Drag and drop a column element from the `Add Elements` panel anywhere on the canvas.
 3. Drag and drop a column element from the `Add Elements` panel to a position in the `Navigator`.
@@ -46,10 +39,13 @@ Here is an example of a column elements elements that contains one list and thre
 
 ![example](https://img.enkipro.com/e9e09576c06a3c58b1ecd4ab945b5bbb.png)
 
+
 ---
+
 ## Practice
 
 Columns are layout elements used for organizing content side by side ???.
 
-* horizontally
-* vertically
+- horizontally
+- vertically
+ 

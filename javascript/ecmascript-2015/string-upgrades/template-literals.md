@@ -1,23 +1,21 @@
 ---
 author: alexjmackey
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-  - new
-  - workout
-
 links:
-  - '[Template Literals in Depth](https://ponyfoo.com/articles/es6-template-strings-in-depth){website}'
-  - '[Template Literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals){documentation}'
-
+  - >-
+    [Template Literals in
+    Depth](https://ponyfoo.com/articles/es6-template-strings-in-depth){website}
+  - >-
+    [Template
+    Literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals){documentation}
 ---
+
 # Template Literals
 
+
 ---
+
 ## Content
 
 A common task in any programming language is to concatenate and format strings.
@@ -68,7 +66,9 @@ Note that if for some reason you wanted to use a backtick in your expression thi
 let greeting = `hello \``;
 ```
 
+
 ---
+
 ## Practice
 
 Fill in the template literal syntax:
@@ -80,15 +80,17 @@ console.log(
 );
 ```
 
-* ${name}
-* {name}
-* $name
-* &{name}
-* %{name}
-* %name
-* &name
+- ${name}
+- {name}
+- $name
+- &{name}
+- %{name}
+- %name
+- &name
+
 
 ---
+
 ## Revision
 
 Complete the gaps such that the log is correct:
@@ -111,11 +113,11 @@ console.log(str)
 // 2018
 ```
 
-* ${
-* dayName
-* }
-* ${dayNumber}
-* year
-* dayNumber
-* ${year}
-* {dayNumber}
+- ${
+- dayName
+- }
+- ${dayNumber}
+- year
+- dayNumber
+- ${year}
+- {dayNumber}

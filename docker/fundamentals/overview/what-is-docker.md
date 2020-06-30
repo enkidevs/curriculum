@@ -1,17 +1,16 @@
 ---
 author: nem035
-aspects:
-  - introduction
-  - workout
 type: normal
 category: must-know
 links:
-- '[Docker](https://www.docker.com/){website}'
-
+  - '[Docker](https://www.docker.com/){website}'
 ---
+
 # What is Docker?
 
+
 ---
+
 ## Content
 
 Docker is a suite of tools designed to make it easier to create, run and deploy applications in a cross-platform way.
@@ -22,7 +21,7 @@ This containerized application can be tested and built on a developer's local ma
 
 The software that was developed and tested is the same software that gets deployed.
 
-> 💡The core idea of Docker comes down to the following concept: “_develop once, run anywhere_”.
+> 💡The core idea of Docker comes down to the following concept: “*develop once, run anywhere*”.
 
 Docker enables separating an application from the infrastructure it will be run on and deployed. 
 
@@ -30,22 +29,27 @@ This allows developers to deliver software much more quickly.
 
 Developers can focus on writing the application code without worrying a lot about the system that it will ultimately be running on.
 
+
 ---
+
 ## Practice
 
 Docker allows us to develop our application ??? and run it ???
 
-* once
-* anywhere
-* quickly
-* always
+- once
+- anywhere
+- quickly
+- always
+
 
 ---
+
 ## Revision
 
 Docker allows us to easily run and deploy our applications using ???.
 
-* containers
-* virtual machines
-* databases
-* networks
+- containers
+- virtual machines
+- databases
+- networks
+ 

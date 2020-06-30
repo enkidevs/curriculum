@@ -1,21 +1,18 @@
 ---
 author: catalin
-
 type: normal
-
 category: how to
-
 links:
-  - '[Managing Child Processes](http://krasimirtsonev.com/blog/article/Nodejs-managing-child-processes-starting-stopping-exec-spawn){website}'
-
-aspects:
-  - workout
-  - deep
-
+  - >-
+    [Managing Child
+    Processes](http://krasimirtsonev.com/blog/article/Nodejs-managing-child-processes-starting-stopping-exec-spawn){website}
 ---
+
 # Manage Child Processes in Node
 
+
 ---
+
 ## Content
 
 **Node** has the ability to externalize *CPU-intensive* processing in order to free the event loop by *spawning* child processes that can communicate seamlessly with their parents.
@@ -62,7 +59,9 @@ child.stdout.on("data", function(data) {
 });
 ```
 
+
 ---
+
 ## Practice
 
 Complete the JS code snippet to create a child process:
@@ -72,23 +71,22 @@ let spawn =
   require('???').???;
 ```
 
+- child_process
+- spawn
+- create-child
+- create
+- new
+- new-process
 
-* child_process
-* spawn
-* create-child
-* create
-* new
-* new-process
 
 ---
+
 ## Revision
 
 What module is required to spawn child processes?
 ???
 
-
-* `child_process`
-* `child_processes`
-* `spawn_process`
-* `child-cpu`
- 
+- `child_process`
+- `child_processes`
+- `spawn_process`
+- `child-cpu`

@@ -1,30 +1,19 @@
 ---
 author: catalin
-
-levels:
-
-  - beginner
-
 type: normal
-
 category: how to
-
-aspects:
-
-  - obscura
-
-
 links:
-
-  - '[Understanding The Github Flow](https://guides.github.com/introduction/flow/){website}'
-
+  - >-
+    [Understanding The Github
+    Flow](https://guides.github.com/introduction/flow/){website}
 parent: git-hub
-
 ---
 
 # General **GitHub** workflow
 
+
 ---
+
 ## Content
 
 **GitHub** enhanced **Git**'s collaboration capability with the `pull request`, providing a *GUI* way to generate a 'patch'.
@@ -44,18 +33,22 @@ However, public **collaboration** is not the single use case for this workflow. 
 - when the project owner is ready to accept your proposed changes it can be merged
 - this closes the pull request 
 
+
 ---
+
 ## Revision
 
 Is the concept of **pull requests** only used in *GitHub*?
 
 ???
 
+- `no`
+- `yes`
 
-* `no`
-* `yes`
 
 ---
+
 ## Footnotes
+
 [1:pull request] This occurs automatically when you are **not** a listed 'contributor' on the repository
  

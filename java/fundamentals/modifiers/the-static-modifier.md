@@ -1,27 +1,15 @@
 ---
 author: mihaiberq
-
-levels:
-
-  - beginner
-
 type: normal
-
 category: must-know
-
-aspects:
-
-  - introduction
-
-  - workout
-
 inAlgoPool: false
-
 ---
 
 # The `static` Modifier
 
+
 ---
+
 ## Content
 
 Both `static` and `final` are non-access modifiers. Therefore, they can be used in conjunction with one another or with access modifiers such as `public` or `private`.
@@ -31,6 +19,7 @@ Variables that are declared `static` exist outside instances of the class, with 
 The same happens for a static method. It can be accessed independently of any class instance. Because of this, static methods **are not allowed** to reference *instance specific* variables.
 
 For example:
+
 ```java
 public class Car{
   private static int piecesSold = 0;
@@ -49,7 +38,9 @@ public class FamilyCar extends Car{
   }
 }
 ```
+
 The above snippet counts how many `Car` objects are instantiated. It also counts the number of subclasses instantiated:
+
 ```java
 Car a = new Car();
 Car b = new FamilyCar();
@@ -59,16 +50,22 @@ a.printSold();b.printSold();c.printSold();
 Car.printSold(); FamilyCar.printSold();
 
 ```
+
 With the output:
+
 ```bash
 3 3 3 3 3
 ```
+
 The last two calls are acceptable because `static` methods are class specific.
 
+
 ---
+
 ## Practice
 
 What would the following snippet print to the console?
+
 ```java
 public class Person {
   public static String lastPerson;
@@ -86,26 +83,32 @@ System.out.println(john.lastPerson);
 // ???
 ```
 
-* Sam
-* John
-* JohnSam
-* SamJohn
+- Sam
+- John
+- JohnSam
+- SamJohn
+
 
 ---
+
 ## Revision
 
 How are static variables also called?
 
 ???
 
-* Class variables.
-* Instance variables.
-* Constants.
-* Class constants.
+- Class variables.
+- Instance variables.
+- Constants.
+- Class constants.
+
 
 ---
-## Quiz 
+
+## Quiz
+
 ### how do class variables work?
+
 
 ```java
 public class Dog {
@@ -130,8 +133,7 @@ System.out.print(d1.getCurrentSum());
 
  ???
 
-* 2 and 5
-* 2 and 3
-* 2 and 2
-* 5 and 5
- 
+- 2 and 5
+- 2 and 3
+- 2 and 2
+- 5 and 5

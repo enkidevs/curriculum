@@ -1,25 +1,17 @@
 ---
 author: jfarmer
-
-aspects:
-  - introduction
-  - workout
-
 type: normal
-
 category: must-know
-
 tags:
   - introduction
-
-
 ---
 
 # Updating & Deleting
 
----
-## Content
 
+---
+
+## Content
 
 ### Modifying an Existing Variable
 
@@ -53,6 +45,7 @@ echo $FOOD
 
 
 ---
+
 ## Practice
 
 Modify, then unset, the variable.
@@ -66,12 +59,14 @@ echo $SOMETHING
 ??? SOMETHING
 ```
 
-* $SOMETHING
-* unset
-* SOMETHING
-* set
+- $SOMETHING
+- unset
+- SOMETHING
+- set
+
 
 ---
+
 ## Revision
 
 Fill in the gaps to get the result:
@@ -83,6 +78,6 @@ echo ???
 # foobar
 ```
 
-* foo
-* a_var
-* $a_var
+- foo
+- a_var
+- $a_var

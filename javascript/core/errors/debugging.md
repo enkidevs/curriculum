@@ -1,20 +1,14 @@
 ---
 author: alexjmackey
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-  - workout
-  - obscura
-
 ---
 
 # Debugging
 
+
 ---
+
 ## Content
 
 One of the most common debugging options is the **browser tools**. 
@@ -43,7 +37,9 @@ A better way is to use the console.log statement to write the variables value ou
 console.log(myVar); 
 ```
 
+
 ---
+
 ## Practice
 
 How can you log variables into the console?
@@ -52,20 +48,22 @@ How can you log variables into the console?
 ???.???(myVar);
 ```
 
-* `console`
-* `log`
-* `alert`
-* `debugger;`
-* `addVar`
+- `console`
+- `log`
+- `alert`
+- `debugger;`
+- `addVar`
+
 
 ---
+
 ## Revision
 
 What statement will make the debugger when it sees it?
 
 ???
 
-* `debugger;`
-* `stop;`
-* `break;`
-* `debug;`
+- `debugger;`
+- `stop;`
+- `break;`
+- `debug;`

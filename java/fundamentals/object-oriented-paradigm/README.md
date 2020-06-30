@@ -8,4 +8,8 @@ insights:
   - inheritance
   - polymorphism
   - java-interfaces
- 
+
+
+aspects:
+  - introduction
+  - workout

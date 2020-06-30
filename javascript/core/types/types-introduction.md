@@ -1,23 +1,16 @@
 ---
 author: alexjmackey
-
-levels:
-  - beginner
-
 type: normal
-
 category: must-know
-
 tags:
   - introduction
-
-aspects:
-  - introduction
-
 ---
+
 # Types - Introduction
 
+
 ---
+
 ## Content
 
 JavaScript has the following primitive types:
@@ -64,26 +57,29 @@ name = 5;
 typeof name; // "number"
 ```
 
+
 ---
+
 ## Practice
 
 Which one of the following is **not** a primitive type:
 
 ???
 
-* RegExp
-* symbol
-* string
-* number
+- RegExp
+- symbol
+- string
+- number
+
 
 ---
+
 ## Revision
 
 Can you change a variable's type in JavaScript?
 
 ???
 
-* yes
-* no
-* only if you declare it again
- 
+- yes
+- no
+- only if you declare it again

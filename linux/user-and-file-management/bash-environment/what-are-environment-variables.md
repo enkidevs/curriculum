@@ -1,25 +1,19 @@
 ---
 author: jfarmer
-
-aspects:
-  - introduction
-
 type: normal
-
 category: must-know
-
 tags:
   - introduction
   - linux
   - environment
   - variables
-
-
 ---
 
 # Environment Variables
 
+
 ---
+
 ## Content
 
 An *environment variable* is a variable that is available to all the processes running in the shell.
@@ -50,7 +44,9 @@ echo $HOME
 # /home/enki
 ```
 
+
 ---
+
 ## Practice
 
 Display a list of all the current environment variables:
@@ -62,21 +58,24 @@ Display a list of all the current environment variables:
 # ...
 ```
 
-* env
-* $env
-* environment
-* $environment
+- env
+- $env
+- environment
+- $environment
+
 
 ---
+
 ## Revision
 
 Print the value of the environmental variable `HOME` : 
+
 ```bash
 ??? ???
 ```
 
-* `echo`
-* `$HOME`
-* `home`
-* `$home`
-* `ls`
+- `echo`
+- `$HOME`
+- `home`
+- `$home`
+- `ls`

@@ -1,22 +1,14 @@
 ---
 author: Stefan-Stojanovic
-
-levels:
-  - beginner
-
-aspects:
-  - deep
-  - workout
-
 type: normal
-
 category: how to
-
 ---
 
 # Sliders
 
+
 ---
+
 ## Content
 
 Sliders can be used to create any number of things, like a slideshow of some pictures or a product. 
@@ -45,18 +37,23 @@ As you can see, Netflix has sliders for each category separated into several mov
 
 
 ---
+
 ## Practice
 
 Sliders are simple ???.
 
-* but powerful components on Webflow
-* and useless components on Webflow
+- but powerful components on Webflow
+- and useless components on Webflow
+
 
 ---
+
 ## Footnotes
 
 [1:Adding elements]
 To add a `Slider` to your webpage:
+
 - Click anywhere on the Canvas and left-click a `Slider` element from the `Add Elements` panel to add it to the previously clicked position.
 - Drag and drop a `Slider` element from the `Add Elements` panel anywhere on the canvas.
 - Drag and drop a `Slider` element from the `Add Elements` panel to a position in the `Navigator`.
+ 

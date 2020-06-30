@@ -1,26 +1,16 @@
 ---
 author: kapnobatai136
- 
-aspects:
-
-  - new
-
-  - workout
-
-  - deep
-
 type: normal
-
 category: how to
-
 links:
   - '[State hooks](https://reactjs.org/docs/hooks-state.html){documentation}'
-
 ---
 
 # State hooks
 
+
 ---
+
 ## Content
 
 Let's start off by looking at how you would usually initialize a state in a class component:
@@ -76,7 +66,9 @@ ReactDOM.render(
 );
 ```
 
+
 ---
+
 ## Practice
 
 Complete the following code that defines the `age` state with a value of 23:
@@ -87,13 +79,15 @@ function Person() {
 }
 ```
 
-* `age`
-* `useState`
-* `23`
-* `this.setState`
-* `setState`
+- `age`
+- `useState`
+- `23`
+- `this.setState`
+- `setState`
+
 
 ---
+
 ## Revision
 
 Complete the following code to define the `count` state and use it in the component's body:
@@ -116,16 +110,18 @@ function Counter() {
 }
 ```
 
-* `count`
-* `useState`
-* `{count}`
-* `setCount`
-* `setState`
-* `this.setState`
-* `this.count`
-* `this.setCount`
+- `count`
+- `useState`
+- `{count}`
+- `setCount`
+- `setState`
+- `this.setState`
+- `this.count`
+- `this.setCount`
+
 
 ---
+
 ## Footnotes
 
 [1:Array destructuring]

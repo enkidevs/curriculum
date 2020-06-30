@@ -9,3 +9,8 @@ insights:
   - short-circuit-evaluation
   - there-is-no-such-thing-as-pass-by-reference-in-java
  
+aspects:
+  - workout
+  - deep
+  - obscura
+  - introduction

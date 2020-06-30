@@ -1,31 +1,18 @@
 ---
 author: tommarshall
-
-levels:
-  - beginner
-  - basic
-  - medium
-  - advanced
-
 type: normal
-
 category: must-know
-
 tags:
   - introduction
   - workout
-
 parent: consuming-events
-
-aspects:
-  - introduction
-  - workout
-
-
 ---
+
 # Listening to events just once
 
+
 ---
+
 ## Content
 
 Events are actions that happen within your JavaScript application and are signalled by the system such that we can *react* to them. This is a frequent technique with multiple applications including handling asynchronous code (e.g. child processes) and processing continuous streams of information (e.g. read a really long file). 
@@ -58,21 +45,26 @@ process.once('uncaughtException', (err) => {
 
 Voilà, this will ensure that we'll react only to the first emitted `uncaughtException` event.
 
+
 ---
+
 ## Practice
 
 Which method is used to add a one-time listener function to an event emitter?
 
 ???
 
-* .once
-* .first
-* .instance
+- .once
+- .first
+- .instance
+
 
 ---
+
 ## Revision
 
 Complete the code snippet to define the callback function to catch an event just once:
+
 ```javascript
 test.???('uncaughtException', (err) => {
   console.error('There was an uncaught error', err)
@@ -81,9 +73,8 @@ test.???('uncaughtException', (err) => {
 });
 ```
 
-* once
-* on
-* catch
-* one
-* onOnce
- 
+- once
+- on
+- catch
+- one
+- onOnce

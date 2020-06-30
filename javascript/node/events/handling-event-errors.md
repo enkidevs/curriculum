@@ -1,38 +1,20 @@
 ---
 author: tommarshall
-
-levels:
-  - beginner
-  - basic
-  - medium
-  - advanced
-
 type: normal
-
 category: must-know
-
-standards:
-  javascript.events-asynchronous-operations.1: 20
-  javascript.identify-common-design-patterns.5: 20
-
 tags:
   - introduction
   - workout
-
 links:
   - '[Node Errors](https://nodejs.org/api/errors.html){website}'
-
 parent: passing-arguments-to-listeners
-
-aspects:
-  - introduction
-  - workout
-
-
 ---
+
 # Handling event errors
 
+
 ---
+
 ## Content
 
 All events are treated equally as all event types are defined by an arbitrary string. When an event emitter[1] emits an event with no attached listeners the event is ignored.
@@ -57,7 +39,9 @@ test.on(‘uncaughtException’, function(err)
 });
 ```
 
+
 ---
+
 ## Practice
 
 ```javascript
@@ -81,27 +65,29 @@ test.on(‘uncaughtException’, function(err)
 What event type is emitted by the `test` event emitter object?
 ???
 
+- uncaughtException
+- eventFailure
+- error
 
-* uncaughtException
-* eventFailure
-* error
 
 ---
+
 ## Revision
 
 What happens when the event emitter emits an event with no attached listeners?
 ???
 
+- Event is ignored.
+- Event is thrown into the event loop.
+- Event causes an error.
 
-* Event is ignored.
-* Event is thrown into the event loop.
-* Event causes an error.
 
 ---
+
 ## Footnotes
+
 [1:Event emitter]
 
 Many objects in Node can **emit** events.
 For example, `fs.readStream` will emit an event when a file is opened.
 All event emitters are instances of the `events.EventEmitter` class.
- 

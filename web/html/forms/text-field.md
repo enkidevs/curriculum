@@ -1,29 +1,24 @@
 ---
 author: Stefan-Stojanovic
-
-levels:
-  - beginner
-  - basic
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-  - workout
-  
 links:
-  - '[HTML <text> Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/text){documentation}'
+  - >-
+    [HTML <text>
+    Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/text){documentation}
+---
+
+# Text Field
+
 
 ---
-# Text Field
----
+
 ## Content
 
 The HTML input element of type `text` is used to create basic single line text fields.
 
 Example:
+
 ```html
 <input type="text">
 ```
@@ -31,6 +26,7 @@ Example:
 These text fields are useful for instance when you need single line inputs like for creating a new account.
 
 Example new account:
+
 ```html
 <form>
   <div>
@@ -64,11 +60,14 @@ Example new account:
 Next, you can control the physical size of your input fields with the `size` attribute. The `size` attribute sets the width of the text field in terms of characters rather than pixels.
 
 Example: 
+
 ```html
 <input type="text" size="10" >
 ```
 
+
 ---
+
 ## Practice
 
 Write the form code that creates a single line input for text.
@@ -77,27 +76,36 @@ Write the form code that creates a single line input for text.
 <??? ???="???">
 ```
 
-* input
-* type
-* text
-* form
+- input
+- type
+- text
+- form
+
 
 ---
+
 ## Revision
 
 Which line creates a HTML form’s input text field?
 
 ???
 
-* `<input type="text">`
-* `<textfield type="input">`
-* `<form input="textfield">`
-* `<textinput type="text">`
+- `<input type="text">`
+- `<textfield type="input">`
+- `<form input="textfield">`
+- `<textinput type="text">`
+
 
 ---
+
 ## Quiz
 
-### How much do you know about the HTML input `type="text"`?
+### How much do you know about the HTML input
+
+
+`type="text"`
+
+?
 
 What does the required attribute do in this code?
 
@@ -121,8 +129,7 @@ What does the required attribute do in this code?
 
 ???
 
-* Makes the form not submittable without a value
-* Standard when creating any input type
-* makes the text turn blue
-* Makes the user type only text as input, no numbers allowed
-
+- Makes the form not submittable without a value
+- Standard when creating any input type
+- makes the text turn blue
+- Makes the user type only text as input, no numbers allowed

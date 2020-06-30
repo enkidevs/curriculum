@@ -1,31 +1,24 @@
 ---
-author: Nick Daminov
-
-levels:
-
-  - medium
-
+author: nickdaminov
 type: normal
-
 category: how to
-
-aspects:
-
-  - workout
-
-  - deep
-
 links:
-
-  - '[More on Runnable Interface](https://docs.oracle.com/javase/7/docs/api/java/lang/Runnable.html){website}'
-  - '[More on the Thread Class](https://docs.oracle.com/javase/7/docs/api/java/lang/Thread.html){website}'
-  - '[More on Overriding `.start()`](http://www.javamadesoeasy.com/2015/03/what-will-happen-if-we-override-start.html){website}'
-
+  - >-
+    [More on Runnable
+    Interface](https://docs.oracle.com/javase/7/docs/api/java/lang/Runnable.html){website}
+  - >-
+    [More on the Thread
+    Class](https://docs.oracle.com/javase/7/docs/api/java/lang/Thread.html){website}
+  - >-
+    [More on Overriding
+    `.start()`](http://www.javamadesoeasy.com/2015/03/what-will-happen-if-we-override-start.html){website}
 ---
 
 # Implementing the Runnable Interface
 
+
 ---
+
 ## Content
 
 One way of creating a thread is to implement a `Runnable` interface which implies that you have to implement `public void run()` function. As we are implementing an interface, we create a `runnable` object and not a `thread` itself. Meaning that the `counter` object in the following example is not a `thread` and doesn't implement a `start()`. Of course we can call `run()` explicitly on two or more instances of the `CustomRunnable` class but then they will not be concurrent and will run in order specified.
@@ -72,7 +65,7 @@ public class Main {
 
 The output of the above program is always different as concurrency is in most cases implemented by the operating system. One example could be like this:
 
-```
+```plain-text
 thread is running : 0
 thread is running : 0
 thread is running : 1
@@ -87,7 +80,9 @@ thread is running : 4
 Finished!
 ```
 
+
 ---
+
 ## Practice
 
 What function holds the functionality of a thread?
@@ -110,21 +105,23 @@ What is the best practice for `Overriding` the `start()` function?
 
 ???
 
-* `run()`
-* `start()`
-* No
-* Yes
-* Not overriding it at all
-* Override it with the intended functionality of a thread
-* It does not matter
-* `create()`
+- `run()`
+- `start()`
+- No
+- Yes
+- Not overriding it at all
+- Override it with the intended functionality of a thread
+- It does not matter
+- `create()`
+
 
 ---
+
 ## Revision
 
 When implementing a `runnable` interface do we create a thread?
 
 ???
 
-* No, we create a runnable object that has to be passed to an instance of a Thread
-* Yes, we can call `start()` on it straight away as it is a runnable thread.
+- No, we create a runnable object that has to be passed to an instance of a Thread
+- Yes, we can call `start()` on it straight away as it is a runnable thread.

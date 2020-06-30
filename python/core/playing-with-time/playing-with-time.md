@@ -1,43 +1,27 @@
 ---
 author: catalin
-
-levels:
-
-  - basic
-
-  - medium
-
 type: normal
-
 category: feature
-
 inAlgoPool: false
-aspects:
-  - introduction
-  - workout
-
 links:
-
-  - '[www.tutorialspoint.com](http://www.tutorialspoint.com/python/python_date_time.htm){website}'
-
-standards:
-  python.native-types-operations.8: 10
-
-
+  - >-
+    [www.tutorialspoint.com](http://www.tutorialspoint.com/python/python_date_time.htm){website}
 notes: >
   Corrected earlier issue with not saving, and updated the insight with my
   changes.
-
 ---
 
 # Playing with `time`
 
+
 ---
+
 ## Content
 
 The `time` module is widely used for time manipulation, representation and conversion.
 
 Keep in mind an `import` is needed:
+
 ```python
 import time
 ```
@@ -74,6 +58,7 @@ print(time.asctime(time_struct))
 ```
 
 Another useful function of this module is `time.sleep(n)` which can be used to make your program sleep for `n` seconds:
+
 ```python
 print("good night")
 time.sleep(5)
@@ -81,7 +66,9 @@ time.sleep(5)
 print("good morning")
 ```
 
+
 ---
+
 ## Practice
 
 The following python script should print the current time in the following format:
@@ -101,18 +88,19 @@ print(formatted)
 
 ```
 
+- `time`
+- `time()`
+- `localtime`
+- `asctime`
+- `sleep`
+- `localTime`
+- `asciitime`
+- `now()`
+- `current()`
 
-* `time`
-* `time()`
-* `localtime`
-* `asctime`
-* `sleep`
-* `localTime`
-* `asciitime`
-* `now()`
-* `current()`
 
 ---
+
 ## Revision
 
 The `time` module provides numerous useful function for time manipulation.
@@ -123,12 +111,11 @@ Supposing all required `import`s are resolved before, complete the following scr
 print(???(???())
 ```
 
-
-* `localtime`
-* `time`
-* `asctime`
-* `sleep`
-* `now`
-* `current`
-* `time_struct`
-* `struct_time`
+- `localtime`
+- `time`
+- `asctime`
+- `sleep`
+- `now`
+- `current`
+- `time_struct`
+- `struct_time`

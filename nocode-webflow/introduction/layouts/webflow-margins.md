@@ -1,19 +1,14 @@
 ---
 author: kapnobatai136
-
 category: feature
-
-aspects:
-  - deep
-  - workout
-
 type: normal
-
 ---
 
 # Margins
 
+
 ---
+
 ## Content
 
 As you might've already noticed, margins are also parts of the spacing group. With margins, you are creating space between the block and everything surrounding it. Basically, you use margins to separate your block from everything outside it.
@@ -26,10 +21,13 @@ To apply margins, open the style editor (using the `S` key), and find the spacin
 
 ![spacing-group](https://img.enkipro.com/3f04159d0b8f2e3995044e6a09d792d9.png)
 
+
 ---
+
 ## Practice
 
 Margins are used to ???.
 
-* separate the block from outside elements
-* separate the content from the block's border
+- separate the block from outside elements
+- separate the content from the block's border
+ 

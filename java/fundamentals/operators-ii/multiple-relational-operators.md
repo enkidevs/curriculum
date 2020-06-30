@@ -1,27 +1,15 @@
 ---
 author: pawel
-
-levels:
-
-  - basic
-
-  - beginner
-
 type: normal
-
 category: tip
-
-aspects:
-
-  - introduction
-
 notes: Hope it's not too basic
-
 ---
 
 # Multiple Relational Operators
 
+
 ---
+
 ## Content
 
 Consider:
@@ -32,7 +20,7 @@ if (-2 <= x <= 2) { doSomething }
 
 Intuitively, it may appear as though this checks whether `x` exists within the range of -2 to 2. However, Java would evaluate the value of first expression:
 
-```
+```plain-text
 -2 <= x
 ```
 

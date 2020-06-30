@@ -1,24 +1,18 @@
 ---
 author: Stefan-Stojanovic
-
-levels:
-  - beginner
-  - basic
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-
 links:
-  - '[HTML Elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements){documentation}'
-
+  - >-
+    [HTML
+    Elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements){documentation}
 ---
+
 # Headings (h1-h6)
 
+
 ---
+
 ## Content
 
 The HTML heading elements are very important when determining the style and structure of text within web pages.
@@ -26,6 +20,7 @@ The HTML heading elements are very important when determining the style and stru
 There are 6 headings in HTML5 ranging from `<h1>` to `<h6>`. `<h1>` being the largest in size by default and most important by search engines. `<h6>` being the smallest and least important of the text headings within a web page.
 
 Example:
+
 ```html
 <h1>Heading 1</h1>
 <h2>Heading 2</h2>
@@ -34,6 +29,7 @@ Example:
 <h5>Heading 5</h5>
 <h6>Heading 6</h6>
 ```
+
 Headings appear like this:
 
 ![heading-sizes](https://img.enkipro.com/dfc6e88808b6a70ddb2c6e74f7132faa.png)
@@ -54,44 +50,51 @@ By default, the `<h4>` heading is the same size as `<p>`, which is 16px.
 
 Don't skip heading sequences, like using `h1` and then an `h3`. You'll only want to use `h3` if you have both `h1` & `h2` on the page.
 
+
 ---
+
 ## Practice
 
 Which of these is not true about headings:
 
 ???
 
-* Headings are more important for page style than search engine ranking.
-* There are 6 heading sizes ranging from `<h1>` to `<h6>`
-* By default, `<h4>` is the same size as a paragraph `<p>`.
-* Every web page should have at least one `<h1>`.
+- Headings are more important for page style than search engine ranking.
+- There are 6 heading sizes ranging from `<h1>` to `<h6>`
+- By default, `<h4>` is the same size as a paragraph `<p>`.
+- Every web page should have at least one `<h1>`.
+
 
 ---
+
 ## Revision
 
 Which is the largest text heading?
 
 ???
 
-* h1
-* h6
-* h10
-* heading
-* head
+- h1
+- h6
+- h10
+- heading
+- head
+
 
 ---
+
 ## Quiz
 
 ### How much do you know about HTML headings?
+
 
 Which text heading is the same size as a paragraph by default?
 
 ???
 
-* h4
-* h6
-* h5
-* h3
-* h2
-* h1
-* none
+- h4
+- h6
+- h5
+- h3
+- h2
+- h1
+- none

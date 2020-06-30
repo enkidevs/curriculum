@@ -1,26 +1,21 @@
 ---
 author: emmab
-
 tags:
   - introduction
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-
 ---
 
 # Wildcards II
 
+
 ---
+
 ## Content
 
 Going back to our previous example - if we wanted to find all names beginning with `'Fre'` then we could write our regex pattern as:
 
-```
+```plain-text
 /Fre\w*/
 ```
 
@@ -38,7 +33,7 @@ Here are a few more wildcards that can be used when you want to be more specific
 
 We could use the following regex pattern to match these three strings:
 
-```
+```plain-text
 /\s+abc/
 
 ' abc' ✅
@@ -53,12 +48,12 @@ We could use the following regex pattern to match these three strings:
 
 We could match just the numbers in the following strings by using this regex:
 
-```
+```plain-text
 /\d/
 ```
 
 | Text             | Match |
-|------------------|-------|
+| ---------------- | ----- |
 | abc`123`xyz      | ✅     |
 | define = "`456`" | ✅     |
 | var g = `789`;   | ✅     |
@@ -66,7 +61,9 @@ We could match just the numbers in the following strings by using this regex:
 
 In this case, `/\d/` will match 1, 2 and 3 individually. If we want to match 123 then we could use `/\d+/` or `/\d*/`.
 
+
 ---
+
 ## Practice
 
 Which regex pattern would match any non-digits in the following text?
@@ -75,12 +72,14 @@ Which regex pattern would match any non-digits in the following text?
 
 ???
 
-* `/\D/`
-* `/\d/`
-* `/\S/`
-* `/\s/`
+- `/\D/`
+- `/\d/`
+- `/\S/`
+- `/\s/`
+
 
 ---
+
 ## Revision
 
 Which regex pattern would match any non-whitespace characters in the following text?
@@ -89,7 +88,8 @@ Which regex pattern would match any non-whitespace characters in the following t
 
 ???
 
-* `/\S/`
-* `/\d/`
-* `/\D/`
-* `/\s/`
+- `/\S/`
+- `/\d/`
+- `/\D/`
+- `/\s/`
+ 

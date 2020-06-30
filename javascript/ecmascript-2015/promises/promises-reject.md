@@ -1,27 +1,19 @@
 ---
 author: alexjmackey
-
-levels:
-  - medium
-  - advanced
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-  - workout
-
 inAlgoPool: false
-
 links:
-  - '[MDN - Promises](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Promise){website}'
-
+  - >-
+    [MDN -
+    Promises](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Promise){website}
 ---
+
 # Promises - Reject
 
+
 ---
+
 ## Content
 
 When using promises we can indicate something has failed by using the `reject` function instead of `resolve`.
@@ -69,18 +61,22 @@ function(error){
 }); //enki
 ```
 
+
 ---
+
 ## Practice
 
 What is the second argument the `.then` method can take?
 
 ???
 
-* a function that is triggered if there is an error in the promise
-* a number, which represents in `ms` how long the `.then` should wait before executing
-* a number, which represents in `ms` how long the `.then` should wait before returning 
+- a function that is triggered if there is an error in the promise
+- a number, which represents in `ms` how long the `.then` should wait before executing
+- a number, which represents in `ms` how long the `.then` should wait before returning 
+
 
 ---
+
 ## Revision
 
 Fill in the following Promise definition:
@@ -100,12 +96,11 @@ const p = new ???(
   })
 ```
 
-* Promise
-* then
-* catch
-* next
-* await
-* try
-* resolve
-* reject
- 
+- Promise
+- then
+- catch
+- next
+- await
+- try
+- resolve
+- reject

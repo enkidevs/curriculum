@@ -1,53 +1,38 @@
 ---
 author: catalin
-
-levels:
-
-  - basic
-
-  - medium
-
 type: normal
-
 category: feature
-
-aspects:
-
-  - deep
-
-  - obscura
-
-  - new
-
 links:
-
-  - '[www.javacodegeeks.com](http://www.javacodegeeks.com/2013/04/arrays-sort-versus-arrays-parallelsort.html){website}'
-
+  - >-
+    [www.javacodegeeks.com](http://www.javacodegeeks.com/2013/04/arrays-sort-versus-arrays-parallelsort.html){website}
 notes: 'https://insights.enki.com/insight/55c839baae32453400962645'
+---
+
+# Using `Arrays.parallelSort`
+
 
 ---
 
-# Using `Arrays.parallelSort` 
-
----
 ## Content
 
 Amongst the new Java8 features includes new methods in the `java.util.Arrays` class.
 
 Basic syntax for sorting into ascending numerical order:
+
 ```java
 Arrays.parallelSort(myArray);
-``` 
+```
 
 To sort a range:
+
 ```java
 Arrays.parallelSort(myArray, int fromIndex,
  int toIndex);
 ```
+
 `parallelSort` uses the Fork/Join framework introduced in Java 7 to assign the sorting tasks to multiple threads available in the thread pool.
 
 It implements a parallel sort-merge algorithm that recursively breaks the array into 4 pieces, sorts them and merges them.
-
 
 In comparison with the previous `sort()` method, `parallelSort` efficiency increases directly proportional with the number of elements in the array. 
 
@@ -61,29 +46,33 @@ In comparison with the previous `sort()` method, `parallelSort` efficiency incre
 
 For small arrays (up to around 2000 elements) `sort()` remains the best choice.
 
+
 ---
+
 ## Practice
 
 Sort the given array in parallel from indexes `6` to `100`:
-```
+
+```plain-text
 ???.???(
       myArray, 6, 100
      );
 ```
 
-* `Arrays` 
-* `parallelSort` 
-* `Array` 
-* `sort()` 
-* `Sorting`
+- `Arrays` 
+- `parallelSort` 
+- `Array` 
+- `sort()` 
+- `Sorting`
+
 
 ---
+
 ## Revision
 
 When sorting a small array (up to `2000` elements), what methods is considered more efficient?
 
 `???`
 
-
-* `sort()` 
-* `parallelSort()`
+- `sort()` 
+- `parallelSort()`

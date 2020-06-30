@@ -1,40 +1,25 @@
 ---
 author: catalin
-
-levels:
-
-  - beginner
-
-  - basic
-
-  - medium
-
-  - advanced
-
 type: normal
-
 category: how to
-
-
 links:
-
-  - '[JSX spread attributes](https://gist.github.com/sebmarkbage/07bbe37bc42b6d4aef81){website}'
-
+  - >-
+    [JSX spread
+    attributes](https://gist.github.com/sebmarkbage/07bbe37bc42b6d4aef81){website}
 parent: the-ref-callback-attribute
-
-aspects:
-  - deep
-
 ---
 
 # JSX Spread attributes
 
+
 ---
+
 ## Content
 
 Props can be passed to **React** components through **JSX** with the help of the **ES6** spread operator (`...`).
 
 Suppose we want the following component with `name` and `content` props:
+
 ```jsx
 const component = (
   <Component
@@ -43,7 +28,9 @@ const component = (
   />
 );
 ```
+
 `name` and `content` can be bundled inside an object.
+
 ```jsx
 const props = {
   name: 'enki',
@@ -51,7 +38,9 @@ const props = {
 };
 
 ```
+
 Subsequently, the object can be reused:
+
 ```jsx
 const component = <Component {...props} />;
 const enki = <Component {...props} />;
@@ -60,6 +49,7 @@ const enki = <Component {...props} />;
 Note the usage of the spread operator when passing the props: `{...props}`.
 
 Props can also be overwritten:
+
 ```jsx
 const enki = (
   <Component
@@ -72,6 +62,7 @@ const enki = (
 Now the value of `enki.props.content` will be `"other value"`.
 
 The spread operator is also useful for passing in all the props of a component to its children.
+
 ```jsx
 function Component(props) {
   return <ChildComponent {...props} />;
@@ -80,10 +71,13 @@ function Component(props) {
 
 Now ChildComponent has access to the same props as Component.
 
+
 ---
+
 ## Practice
 
 What will the value of `test.props.x` and `test.props.y` in the following snippet?
+
 ```jsx
 function Test(props) {
   return (
@@ -106,17 +100,19 @@ const test = <Test {...props}
 // test.props.y = ???
 ```
 
+- `'cat'`
+- `'dog'`
+- `error`
+- `'dogcat'`
+- `'catdog'`
 
-* `'cat'`
-* `'dog'`
-* `error`
-* `'dogcat'`
-* `'catdog'`
 
 ---
+
 ## Revision
 
 What will the value of `test.props.x` in the following snippet?
+
 ```jsx
 function Enki(props) {
   return <p>{props.x}</p>;
@@ -133,12 +129,9 @@ const test = <Test {...props}
 // test.props.x = ???
 ```
 
-
-* `'fish'`
-* `'capybara'`
-* `'komodo dragon'`
-* `error`
-* `'fishcapybara'`
-* `'fishkomodo dragon'`
-
-
+- `'fish'`
+- `'capybara'`
+- `'komodo dragon'`
+- `error`
+- `'fishcapybara'`
+- `'fishkomodo dragon'`

@@ -1,31 +1,18 @@
 ---
 author: alexjmackey
-
-levels:
-  - beginner
-
 type: normal
-
 category: feature
-
-aspects:
-
-  - introduction
-  - new
-  - workout
-
 inAlgoPool: false
-
 links:
-  - '[MDN](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment){website}'
-
-standards:
-  javascript.destructuring.0: 10
-
+  - >-
+    [MDN](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment){website}
 ---
+
 # Destructuring (Part 3)
 
+
 ---
+
 ## Content
 
 Destructuring is very useful when working with arrays.
@@ -56,7 +43,9 @@ Below we will ignore the second (200) value:
 [x, , z] = [100, 200, 300];
 ```
 
+
 ---
+
 ## Practice
 
 Fill in the gaps such that the variables will have the commented value:
@@ -72,16 +61,18 @@ console.log(z)
 // z == 15
 ```
 
-* x,
-* ,
-* z
-* x
-* y
-* ,y
-* y,
-* ,x
+- x,
+- ,
+- z
+- x
+- y
+- ,y
+- y,
+- ,x
+
 
 ---
+
 ## Revision
 
 What will be the value of `x`, `y` and `z`?
@@ -94,15 +85,15 @@ let x, y, z;
 // z = ???
 ```
 
-* 10
-* undefined
-* 30
-* 20
-* [20]
-* [10, 30]
-* [10, 20]
-* [20, 30]
-* [10, 20, 30]
-* null
-* [10]
-* [30]
+- 10
+- undefined
+- 30
+- 20
+- [20]
+- [10, 30]
+- [10, 20]
+- [20, 30]
+- [10, 20, 30]
+- null
+- [10]
+- [30]

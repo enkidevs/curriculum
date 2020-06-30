@@ -1,36 +1,26 @@
 ---
 author: mihaiberq
-
-levels:
-
-  - beginner
-
 type: normal
-
 category: must-know
-
-aspects:
-
-  - introduction
-
-
 links:
-
-  - '[What is a data structure?](http://www.bbc.co.uk/education/guides/z4tf9j6/revision/1){website}'
-
-
+  - >-
+    [What is a data
+    structure?](http://www.bbc.co.uk/education/guides/z4tf9j6/revision/1){website}
 ---
 
 # What is a Data Structure?
 
+
 ---
+
 ## Content
 
 A **data structure** is a particular pattern for organizing information in order to make interacting with that information in the ways we want less expensive.
 
 If this is unclear, let's fall back to an example: *clothes in a wardrobe*. Usually, there are two types of people:
--  Those who fold their clothes and **take their time** arranging them into the wardrobe, making it much **easier to pick** one out.
--  Those who **throw their clothes** into a pile and **deal with finding** a specific piece of clothing when they need it.
+
+- Those who fold their clothes and **take their time** arranging them into the wardrobe, making it much **easier to pick** one out.
+- Those who **throw their clothes** into a pile and **deal with finding** a specific piece of clothing when they need it.
 
 Both ways work to find your clothes! The first one requires more work up-front, but less when you need to wear something. The second one takes less time when it comes to storing them, but makes the *operation* of finding clothes in the morning more challenging.
 
@@ -44,16 +34,17 @@ We might describe the respective *pattern* of information in these two lists as 
 
 Later on, you will be able to distinguish what data structure each example represents and how to use it efficiently.
 
+
 ---
+
 ## Revision
 
 What is a data structure?
 
 ???
 
-* A pattern for organizing information.
-* A pattern for sorting information.
-* A pattern for inserting information.
-* An array of information.
-
-
+- A pattern for organizing information.
+- A pattern for sorting information.
+- A pattern for inserting information.
+- An array of information.
+ 

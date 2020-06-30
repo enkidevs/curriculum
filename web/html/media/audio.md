@@ -1,31 +1,27 @@
 ---
 author: Stefan-Stojanovic
-
-levels:
-  - beginner
-  - basic
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-  - workout
-  - deep
-
 links:
-  - '[MDN: <audio> Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio){documentation}'
-  - '[W3S: <audio> Element](https://www.w3schools.com/html/html5_audio.asp){documentation}'
+  - >-
+    [MDN: <audio>
+    Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio){documentation}
+  - >-
+    [W3S: <audio>
+    Element](https://www.w3schools.com/html/html5_audio.asp){documentation}
+---
+
+# The `<audio>` Element
+
 
 ---
-# The `<audio>` Element
----
+
 ## Content
 
 Since HTML5, the `<audio>` tag is used to embed audio on a web page or document.
 
 Like so:
+
 ```html
 <audio src="audio.mp3" controls>
   <p>
@@ -44,10 +40,10 @@ The paragraph in the example above is to provide fallback content for user's tha
 
 Adding the `controls` attribute allows the browser to offer controls to the user for play/pause playback, increase/decrease volume buttons, and audio playback.
 
-
 You can also add more songs via the `<source>` element.
 
 Example 1:
+
 ```html
 <audio controls>
   <source src="one_song.mp3"
@@ -59,6 +55,7 @@ Example 1:
 ```
 
 Example 2:
+
 ```html
 <audio controls>
   <source src="some_song.mp3"
@@ -82,9 +79,11 @@ Adding more file formats is good for when a browser can't play a particular file
 
 
 ---
+
 ## Practice
 
 Add an audio player with controls for a single song:
+
 ```html
 <??? ???=??? ???>
   <p>
@@ -95,35 +94,40 @@ Add an audio player with controls for a single song:
 <???>
 ```
 
-* `audio`
-* `src`
-* `"/happy.mp3"`
-* `controls`
-* `/audio`
-* `href`
-* `alt`
+- `audio`
+- `src`
+- `"/happy.mp3"`
+- `controls`
+- `/audio`
+- `href`
+- `alt`
+
 
 ---
+
 ## Revision
 
 Which HTML element is used to insert an audio file into the document?
 
 ???
 
-* `<audio>`
-* `<mp3>`
-* `<sound>`
-* `<music>`
-* `<itunes>`
+- `<audio>`
+- `<mp3>`
+- `<sound>`
+- `<music>`
+- `<itunes>`
+
 
 ---
+
 ## Quiz
 
 ### How much do you know about the HTML audio element?
 
+
 When you want to provide fallback content for user's that do not have browsers that support HTML5 audio, what do you need to do?
 
-* Add any content between the start and end `<audio>` tags.
-* CSS can be used to notify the user.
-* Any browser, regardless of the version, can play HTML5 audio.
-* Use the attribute "fallback" to provide the appropriate message.
+- Add any content between the start and end `<audio>` tags.
+- CSS can be used to notify the user.
+- Any browser, regardless of the version, can play HTML5 audio.
+- Use the attribute "fallback" to provide the appropriate message.

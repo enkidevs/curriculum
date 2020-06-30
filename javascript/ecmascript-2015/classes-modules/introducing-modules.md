@@ -1,24 +1,21 @@
 ---
 author: alexjmackey
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-  - new 
-  - workout
-
 links:
-  - '[MDN - Import](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import){website}'
-  - '[MDN - Export](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/export){website}'
-
+  - >-
+    [MDN -
+    Import](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import){website}
+  - >-
+    [MDN -
+    Export](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/export){website}
 ---
 
 # Introducing Modules
 
+
 ---
+
 ## Content
 
 A major issue in ECMAScript is lack of a good way to divide up and reuse code.
@@ -63,7 +60,9 @@ We now want to use this functionality in another file so we use the keyword **im
 
 Finally we use this functionality with the call `mathFuncs.double`.
 
+
 ---
+
 ## Practice
 
 How do you expose a method from a module?
@@ -76,14 +75,16 @@ How do you expose a method from a module?
 }
 ```
 
-* export
-* exports
-* module.exports
-* exports.
-* expose
-* import
+- export
+- exports
+- module.exports
+- exports.
+- expose
+- import
+
 
 ---
+
 ## Revision
 
 Fill in the missing keywords for importing and renaming a module at the same time:
@@ -93,13 +94,12 @@ Fill in the missing keywords for importing and renaming a module at the same tim
   moduleRename ??? 'path';
 ```
 
-* import
-* as
-* from
-* new
-* require
-* like
-* imports
-* export
-* exports
- 
+- import
+- as
+- from
+- new
+- require
+- like
+- imports
+- export
+- exports

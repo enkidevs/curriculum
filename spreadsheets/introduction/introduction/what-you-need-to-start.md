@@ -1,23 +1,20 @@
 ---
 author: Stefan-Stojanovic
-
-aspects:
-  - introduction
-
 type: normal
-
 category: must-know
-
 links:
   - '[Google Sheets](https://docs.google.com/spreadsheets/){website}'
   - '[Microsoft Excel](https://products.office.com/en-gb/excel){website}'
-  - '[Spreadsheet Tools](https://en.wikipedia.org/wiki/Spreadsheet#Web_based_spreadsheets){website}'
-
+  - >-
+    [Spreadsheet
+    Tools](https://en.wikipedia.org/wiki/Spreadsheet#Web_based_spreadsheets){website}
 ---
 
 # Spreadsheet Tool Options
 
+
 ---
+
 ## Content
 
 There are many available options for spreadsheet tools.
@@ -29,3 +26,4 @@ The most accessible one is [Google Sheets](https://docs.google.com/spreadsheets/
 There are [other spreadsheet tools available](https://en.wikipedia.org/wiki/Spreadsheet#Web_based_spreadsheets), with functionality similar to Google Sheets and Excel. 
 
 For most of this topic, we'll be using Google Sheets.
+ 

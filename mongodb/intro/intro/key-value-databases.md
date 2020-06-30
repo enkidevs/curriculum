@@ -1,23 +1,15 @@
 ---
 author: Stefan-Stojanovic
-
-levels:
-  - beginner
-
-aspects:
-  - obscura
-  - introduction
-
 type: normal
-
 category: must-know
-
 links:
-  - '[Analysis of the NoSQL Landscape](http://blog.knuthaugen.no/2010/03/the-nosql-landscape.html){website}'
-
+  - >-
+    [Analysis of the NoSQL
+    Landscape](http://blog.knuthaugen.no/2010/03/the-nosql-landscape.html){website}
 ---
 
 # Types Of NoSQL Databases
+
 
 ---
 
@@ -38,3 +30,4 @@ This also means that a dictionary contains only the values we explicitly stored 
 Since each value in a dictionary corresponds to a particular key, these databases allow us to perform very fast lookups and operations on any value uniquely identifiable by its key.
 
 Some popular key-value databases are **Oracle NoSQL Database**, **Redis**, **Google Cloud Datastore**, **Hbase**, and more.
+ 

@@ -1,26 +1,19 @@
 ---
 author: jfarmer
-
-aspects:
-  - introduction
-  - workout
-
 type: normal
-
 category: must-know
-
 tags:
   - introduction
   - shell
   - environment
   - variables
-
-
 ---
 
 # Shell vs Environment
 
+
 ---
+
 ## Content
 
 Shell and environment variables are slightly different.
@@ -49,7 +42,9 @@ echo $DRINK
 
 > ⚠ When exporting a variable into the environment, be careful not to overwrite another important environment variable with the same name. 
 
+
 ---
+
 ## Practice
 
 Complete the code to create a new environment variable:
@@ -58,13 +53,15 @@ Complete the code to create a new environment variable:
 ??? ???="Enki"
 ```
 
-* export
-* NEW_USER
-* $NEW_USER
-* new_user
-* create
+- export
+- NEW_USER
+- $NEW_USER
+- new_user
+- create
+
 
 ---
+
 ## Revision
 
 Match the variable with the text:
@@ -74,5 +71,5 @@ Match the variable with the text:
 ??? - Shell
 ```
 
-* HOME
-* home
+- HOME
+- home

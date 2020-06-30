@@ -1,19 +1,14 @@
 ---
 author: Stefan-Stojanovic
-
-aspects:
-  - introduction
-  - workout
-
 type: normal
-
 category: must-know
-
 ---
 
 # Workbooks
 
+
 ---
+
 ## Content
 
 Most of you will be familiar with lots of the content in this workout. If you skim through, we've **boldened** the most interesting stuff!
@@ -33,3 +28,4 @@ In summary, the process is `File > New > Blank Workbook/Spreadsheet`
 ![how-to-create-a-new-workbook](https://img.enkipro.com/f4d152ba9b4359b3517a3528fb1bdbf8.png)
 
 The maximum worksheets a workbook can have depends on the tool you are using and the memory of your computer.
+ 

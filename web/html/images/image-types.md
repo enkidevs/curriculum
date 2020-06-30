@@ -1,34 +1,28 @@
 ---
 author: Stefan-Stojanovic
-
-levels:
-  - beginner
-  - basic
-
 type: normal
-
 category: must-know
+---
 
-aspects:
-  - introduction
-  - workout
----
 # Image Types
+
+
 ---
+
 ## Content
 
 When using images in your web page or document, whether it's for a logo, product photographs, etc, it is important to know which web image formats to use.
 
 Image formats are divided into 2 categories, with some examples being:
+
 - **Raster images**
   - JPG/JPEG
   - GIF
   - PNG
 
 - **Vector images**
-   - SVG
-   
-   
+  - SVG
+
 **Raster images**
 
 Raster images consist of a two-dimensional grid of pixels. They do not scale well. If you enlarge or zoom in on a raster image, the quality will decline, and it will look pixelated. Using these images are necessary for creating photographs or other information-dense images. Each raster format compresses the image differently resulting in smaller file sizes.
@@ -40,8 +34,9 @@ Raster images consist of a two-dimensional grid of pixels. They do not scale wel
 **PNG:** The key factor is that no data is lost during compression making it perfect when working with images that need re-editing and re-exporting. They also support transparency and animation.
 
 There are two categories of PNG images that help keep file sizes down depending on the number of colors available.
-  - PNG 8: limited with a maximum of 256 colors.
-  - PNG 24: limited with a maximum of 16 million colors
+
+- PNG 8: limited with a maximum of 256 colors.
+- PNG 24: limited with a maximum of 16 million colors
 
 **Vector images**
 
@@ -53,7 +48,9 @@ Although we have only presented four image types, there are [many more](https://
 
 **Note: All image formats are animatable by CSS**
 
+
 ---
+
 ## Practice
 
 Match the image format with the most accurate description.
@@ -65,17 +62,19 @@ Graphics that are created in the SVG format are defined by?
 
 ???
 
-* raster
-* vector
-* XML
-* compound
-* stereo
-* CSS
-* HTML
-* SVX
-* Graphical data
+- raster
+- vector
+- XML
+- compound
+- stereo
+- CSS
+- HTML
+- SVX
+- Graphical data
+
 
 ---
+
 ## Revision
 
 Are GIF images the only image format that can be animated using CSS on a web page?
@@ -86,23 +85,26 @@ Can SVG images be directly inserted into an HTML page as code without linked to 
 
 ???
 
-* No, all images can be animated using CSS.
-* Yes
-* No images can be animated using CSS.
-* Yes, but the web page will not validate.
-* Yes, but not without numerous limitations.
-* No
+- No, all images can be animated using CSS.
+- Yes
+- No images can be animated using CSS.
+- Yes, but the web page will not validate.
+- Yes, but not without numerous limitations.
+- No
+
 
 ---
+
 ## Quiz
 
 ### How much do you know about HTML image types?
 
+
 If you don’t need transparency or animation for a photograph, which image format should you use?
 
-* JPG
-* PNG
-* GIF
-* SVG
-* PDF
+- JPG
+- PNG
+- GIF
+- SVG
+- PDF
  
