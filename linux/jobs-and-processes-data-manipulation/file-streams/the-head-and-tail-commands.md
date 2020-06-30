@@ -12,7 +12,7 @@ inAlgoPool: false
 
 ## Content
 
-`head` and `tail` are two commands that allow you to select and display the first few lines or last few lines lines from a file or output stream, respectively.  By default both will select 10 lines, but using the `-n` option you can specify a different amount.
+`head` and `tail` are two commands that allow you to select and display the first few lines or last few lines from a file or output stream, respectively.  By default both will select 10 lines, but using the `-n` option you can specify a different amount.
 
 For example, you can use `tail` to select the last 5 lines from a log file, like so:
 
