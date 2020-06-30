@@ -1,11 +1,13 @@
 ---
 author: alexjmackey
+
 type: normal
+
 category: must-know
+
 ---
 
 # Arrays
-
 
 ---
 
@@ -93,7 +95,6 @@ for (let item of myArray) {
 // 3
 ```
 
-
 ---
 
 ## Practice
@@ -119,7 +120,6 @@ console.log(lastVal);
 - `.getLast`
 - `.tail`
 
-
 ---
 
 ## Revision
@@ -138,7 +138,6 @@ let elem = ???.???;
 - `getLast()`
 - `last`
 - `push()`
-
 
 ---
 
