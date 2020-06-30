@@ -40,6 +40,9 @@ Types of change:
 
 ## June 30th 2020
 
+### Changed
+- [JavaScript - Arrays - Improve last code block example, add resource link](https://github.com/enkidevs/curriculum/pull/2201)
+
 ### Fixed
 - [Linux - The `head` And `tail` Commands - Remove redundant word](https://github.com/enkidevs/curriculum/pull/2217)
 - [Linux - Selecting Portions of A Line Using `cut` - Remove redundant word](https://github.com/enkidevs/curriculum/pull/2216/)

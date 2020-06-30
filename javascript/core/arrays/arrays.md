@@ -1,11 +1,13 @@
 ---
 author: alexjmackey
+
 type: normal
+
 category: must-know
+
 ---
 
 # Arrays
-
 
 ---
 
@@ -79,36 +81,19 @@ console.log(pos);
 // 1
 ```
 
-You can iterate over the array items with *forEach*:
-
-```js
-let myArray = [1, 2, 3];
-
-myArray.forEach(
-  function (item, index, array) {
-    console.log(item, index);
-  }
-);
-
-// 1, 0
-// 2, 1
-// 3, 2
-```
-
-Or using `for..of`:
+You can iterate over the array items with a `for..of` loop:
 
 ```js
 let myArray = [1, 2, 3];
 
 for (let item of myArray) {
-  console.log(item, index);
+  console.log(item);
 }
 
 // 1
 // 2
 // 3
 ```
-
 
 ---
 
@@ -135,7 +120,6 @@ console.log(lastVal);
 - `.getLast`
 - `.tail`
 
-
 ---
 
 ## Revision
@@ -154,7 +138,6 @@ let elem = ???.???;
 - `getLast()`
 - `last`
 - `push()`
-
 
 ---
 
