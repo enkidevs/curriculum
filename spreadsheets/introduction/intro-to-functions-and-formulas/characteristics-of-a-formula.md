@@ -20,7 +20,7 @@ For instance, `=(B3+7*2)/C4` is a valid formula that references values from `B3`
 However, if `B3` (or `C4`) was not a number, we would get this error: `#VALUE!`.
 Hovering over this gives us this explanation:
 
-```text
+```plain-text
 Error
 Function ADD parameter 1 expects number values. But 'z' is a text and cannot be coerced to a number.
 ```

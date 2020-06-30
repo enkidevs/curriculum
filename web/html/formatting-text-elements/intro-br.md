@@ -74,7 +74,7 @@ Select the statement that is false about the `<br>` element.
 
 The goal is to display text like this:
 
-```htmlhtml
+```plain-text
 Apple
 1 Infinite Loop
 Cupertino, CA

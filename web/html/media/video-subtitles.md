@@ -31,7 +31,7 @@ Subtitles can be added to the videos via the `<track>` element like this:
 
 The WebVTT (.vtt), which stands for “Web Video Text Track” file can look like this below and are often created using software programs vs typing all of that out by hand. As you can see, the time stamp states the starting and ending of the subtitle. There are also tags in this case like `<v>`, `<c>`, and `<i>` which allow for unique CSS styling, which can be found in the CodePen Example:
 
-```WEBVTT
+```plain-text
 
 1
 00:00:01.300 --> 00:02.300
