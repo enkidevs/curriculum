@@ -23,7 +23,7 @@ A Bitcoin block contains a list of **transactions** between network participants
 
 A Bitcoin transaction looks something like this:
 
-```bash
+```plain-text
 Satoshi Nakamoto sends 10 bitcoins
 to Hal Finney
 ```

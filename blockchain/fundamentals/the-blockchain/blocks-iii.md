@@ -19,7 +19,7 @@ If any piece of data can be represented as an unique string of fixed length, wha
 
 We would then be able to give a somewhat formal representation of what is hashed:
 
-```bash
+```plain-text
 // '|' = concatenation of strings
 ref(n) = H(header(n) | content(n)
   | ref(n-1))
