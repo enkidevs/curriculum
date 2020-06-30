@@ -16,41 +16,41 @@ Strings are bits of text either defined with 'single' or "double" quotations. Py
 
 First we'll declare a string for method testing purposes:
 
-```plain-text
+```python
 testString = 'operations'
 ```
 
 The method `len` prints the length of a string:
 
-```plain-text
+```python
 print(len(testString))
 # 10
 ```
 
 The `index` method returns the location of the first occurence of a specified character:
 
-```plain-text
+```python
 print(testString.index("r"))
 # 3
 ```
 
 The `count` method returns the number of occurrences of a specified character:
 
-```plain-text
+```python
 print(testString.count("o"))
 # 2
 ```
 
 The following examples prints a `slice` of a string. It starts at index 2 and finishes at index 7, hence making it easier to do maths inside brackets.
 
-```plain-text
+```python
 print(testString[2:8])
 # eratio
 ```
 
 To split a string into two or more strings use the `split` method as follows:
 
-```plain-text
+```python
 testString = 'string operations'
 words = testString.split(" ")
 print(words)
@@ -91,4 +91,3 @@ words = testString.???(' ')
 - `split`
 - `divide`
 - `new`
- 

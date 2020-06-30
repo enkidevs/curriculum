@@ -40,7 +40,7 @@ Create a table called `requests`. This table should contain the following column
 
 After you've created that table, add this to your seed data
 
-```plain-text
+```sql
 INSERT INTO requests (id, user_id, user_item_id, date_from, date_until, accepted)
 VALUES (0, 3, 2, "2017-12-02", "2017-12-15", 1);
 
@@ -69,4 +69,3 @@ In total, you will need to:
 - *run the provided query*
 - *which item is the most requested?*
 - *Enter the ID of the most requested item in the answer field*
- 

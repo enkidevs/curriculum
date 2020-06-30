@@ -19,7 +19,7 @@ The **Python debugger** comes as a module called `pdb`, which is part of the **s
 
 We will consider a program with two **global variables**, a function that creates a **nested loop** and the `if __name__ == '__main__'` statement that calls the nested loop:
 
-```plain-text
+```python
 # Program name: debug.py
 
 number_list = [1, 2]  
@@ -37,7 +37,7 @@ if __name__ == '__main__':
 
 Running the **debugger** from the command line causes it to load your **source file** and stop the execution before the first statement it finds:
 
-```plain-text
+```bash
 python3 -m pdb debug.py
 
 #Console output:
@@ -67,7 +67,7 @@ We will take a look at how these work in the following insight.
 
 What is the error this snippet will throw?
 
-```plain-text
+```py
 name = input('What\'s your name?\n')
 def interaction()
   print(name)
@@ -82,4 +82,3 @@ def interaction()
 - ZeroDivisionError: division by 0
 - The code will run with no errors
 - EOFError
- 

@@ -26,7 +26,7 @@ That means the `width` and `height` specified for the element are not its final 
 
 The next possible value is `padding-box`. As the name states, the new limit is set to enclose the `padding` as well. In this case, the `content` will be shrunk to make room for the padding:
 
-```plain-text
+```css
 /* the final width of the box will be 500px
   leaving only 440px for the content */
 div{
@@ -39,7 +39,7 @@ div{
 
 The last value is `border-box`. In this case, any `border` or `padding` property is included within the `width` and `height` of the element. In other words, only `margin` will increase its size.
 
-```plain-text
+```css
 /* only 500-2*30-2*5= 430px width left
  for the content */
 div{
@@ -83,4 +83,3 @@ box-sizing: ???;
 - `padding-box`
 - `content-box`
 - `margin-box`
- 

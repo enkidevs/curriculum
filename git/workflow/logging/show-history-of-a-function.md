@@ -15,7 +15,7 @@ The line log search tool (`-L`) shows the history of a function or line of code.
 
 For example:
 
-```plain-text
+```bash
 git log -L :myFunction:myFile.js
 ```
 
@@ -54,4 +54,3 @@ The history of changes made to a function can be seen using the ??? option of `g
 - `-l`
 - `-history`
 - `--L`
- 

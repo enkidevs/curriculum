@@ -18,14 +18,14 @@ tags:
 
 To see the IPv6 configuration on a linux server using the `ip` tool:
 
-```plain-text
+```bash
 ip -6 addr show dev <interface>
 ip -6 addr show dev eth0
 ```
 
 Or, using the `ifconfig` tool:
 
-```plain-text
+```bash
 ifconfig <interface> |grep "inet6"
 ifconfig eth0 |grep "inet6"
 ```
@@ -66,4 +66,3 @@ ip  ??? ???
 - `addr`
 - `dev`
 - `interface_name`
- 

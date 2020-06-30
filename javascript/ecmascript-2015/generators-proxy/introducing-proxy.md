@@ -21,7 +21,7 @@ To illustrate proxy usage we will create a logger proxy to log any calls made to
 
 First we will create a handler to perform this logic:
 
-```plain-text
+```javascript
 let loggerHandler = {
   get: function(obj, prop) {
     console.info(prop + " was accessed");
@@ -32,31 +32,31 @@ let loggerHandler = {
 
 Next we'll create an object to use with this:
 
-```plain-text
+```javascript
 let x = { someProp: "enki" };
 ```
 
 Then we will wrap our object with a Proxy and pass in the logger handler:
 
-```plain-text
+```javascript
 let p = new Proxy(x, loggerHandler);
 ```
 
 If we access property on obj itself it will work as per normal:
 
-```plain-text
+```javascript
 x.someProp; // enki
 ```
 
 ..so we need to be sure to access the obj via the proxy wrapper:
 
-```plain-text
+```javascript
 p.someProp // someProp was accessed
 ```
 
 Proxies can also be used to intercept set calls. Maybe for example we want to validate a value passed in without changing the underlying code:
 
-```plain-text
+```javascript
 let setWrapper = {
   set: function(obj, prop, value) {
     if (prop === "company") {
@@ -131,4 +131,3 @@ console.log(proxy.number);
 - prop
 - Proxy
 - Enki
- 

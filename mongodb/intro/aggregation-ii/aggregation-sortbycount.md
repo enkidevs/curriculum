@@ -17,13 +17,13 @@ The `$sortByCount` aggregation stage is used to group documents by a specified e
 
 Syntax:
 
-```plain-text
+```javascript
 { $sortByCount: <expression> }
 ```
 
 Let's say we have a `pokemon` collection with `500` pokémon. Each pokémon has an `_id`, `name`, `type` and `power` field. However, there are some pokémon that also have a `secondType` field. We want to count and sort all pokémon by their `secondType` field. To achieve this you would write:
 
-```plain-text
+```javascript
 db.pokemon.aggregate({
   $sortByCount: "$secondType"
 })
@@ -31,7 +31,7 @@ db.pokemon.aggregate({
 
 Output:
 
-```plain-text
+```javascript
 { "_id": null, "count": 344 }
 { "_id": "Flying", "count": 41 }
 { "_id": "Poison", "count": 36 }
@@ -88,4 +88,3 @@ db.students.???([
 - `STUDENTS`
 - `name`
 - `studentId`
- 

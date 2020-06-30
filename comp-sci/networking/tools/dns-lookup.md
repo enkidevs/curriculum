@@ -36,7 +36,7 @@ You can use `dig`, short for *Domain Information Groper*, to:
 
 To make a simple **DNS lookup** you can:
 
-```plain-text
+```bash
 nslookup enki.com
 
 ...
@@ -50,7 +50,7 @@ Address: 54.192.197.88
 
 You can see what `IP` addresses are mapped to the queried domain. `Non-authoritative` answers mean that those answers don't come from the domain we queried for (`enki.com`), but from another sources such as your ISP.
 
-```plain-text
+```bash
 dig enki.com
 ...
 ;; QUESTION SECTION:
@@ -81,4 +81,3 @@ How would you find the IP address behind the enki.com DNS?
 - `nslookup enki.com`
 - `nslookup enki`
 - `nslookup 52.85.178.44`
- 

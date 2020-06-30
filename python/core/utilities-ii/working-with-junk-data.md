@@ -19,7 +19,7 @@ The `SequenceMatcher` class inside `difflib` has its constructor's first argumen
 
 For the sake of the argument we will work with this class' function called `find_longest_match` that will search for the largest match between two sequences[1]:
 
-```plain-text
+```python
 from difflib import SequenceMatcher
 
 s = SequenceMatcher(None, \
@@ -43,7 +43,7 @@ See how in the first scenario we searched for the longest match between the two 
 
 But if we treat white spaces as **Junk** the output will be different:
 
-```plain-text
+```python
 s = SequenceMatcher(lambda x: x == " ",
                     " abcd", "abcd abcd")
 print(s.find_longest_match(0, 5, 0, 9))
@@ -94,4 +94,3 @@ What module contains the SequenceMatcher class?
 
 [1:Notation]
 We will refer to the first sequence as `a` and to the second sequence as `b`.
- 

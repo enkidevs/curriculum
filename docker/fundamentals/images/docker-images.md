@@ -37,7 +37,7 @@ It's important to note that image layers are cached and can be reused between va
 
 This is indicated by the `"Layer already exists"` message in the console output when pushing or pulling the image from a registry:
 
-```plain-text
+```bash
 docker image pull enki:example
 a82b6c66a6d4: Layer already exists
 1941ca4a7a84: Layer already exists
@@ -51,7 +51,7 @@ We can use the `docker history <IMAGE_ID>` command to show the layers of changes
 
 For example:
 
-```plain-text
+```bash
 docker history nginx
 ```
 
@@ -109,4 +109,3 @@ In cryptography, SHA (Secure Hash Algorithm) is a cryptographic hash function wh
 
 [2: copy-on-write]
 "Copy on write" means that everyone has a single shared copy of the same data until it's written, and then a copy is made. This allows an efficient sharing of resources such that new data is only created during modification.
- 

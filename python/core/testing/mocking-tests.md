@@ -26,7 +26,7 @@ Benefits of **mocking**:
 
 We will define a class that implements one method that returns the product of two numbers. Since this is a simple example, we are using `time.sleep(10)` to simulate a long running process :
 
-```plain-text
+```python
 class Calculator:
     def multiply(self, a, b):
         time.sleep(10)
@@ -96,4 +96,3 @@ Mock objects are
 
 [1: patch decorator]
 It makes it easy to mock classes or objects in a module under test. The object you specify will be replaced with a mock (or other object) during the test and restored when the test ends.
- 

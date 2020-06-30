@@ -18,7 +18,7 @@ links:
 
 The `@Deprecated` annotation can be used to indicate elements which should no longer be used. Any program that uses an element which is marked as `@Deprecated` will produce a compiler warning.
 
-```plain-text
+```java
 @Deprecated
 public void oldMethod() {
   ...
@@ -39,7 +39,7 @@ We can keep `oldMethod()` and indicate to programmers that it should not be used
 
 Which of the two methods will raise a warning saying it is deprecated and should not be used?
 
-```plain-text
+```java
 public void one() {};
 @Deprecated
 public void two() {};
@@ -63,4 +63,3 @@ Using a `@Deprecated` function will rise a ???.
 - compiler error
 - run-time error
 - run-time warning
- 

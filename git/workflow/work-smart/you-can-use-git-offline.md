@@ -17,7 +17,7 @@ You can continue to make commits when you are offline and wait until you have a 
 
 For example, this is all ok offline: 
 
-```plain-text
+```bash
 # make a new commit
 git commit -m 'New button'
 
@@ -55,4 +55,3 @@ Some of the commands that run just fine while `git` is offline are
 - commit, log, checkout
 - commit, log, push
 - pull, push, status
- 

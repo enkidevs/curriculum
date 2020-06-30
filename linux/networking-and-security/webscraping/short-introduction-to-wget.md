@@ -15,7 +15,7 @@ category: tip
 
 It's really easy and straightforward to download a file specified by a **URL**:
 
-```plain-text
+```bash
 wget http://localhost/myfile.tar.gz
 ```
 
@@ -23,7 +23,7 @@ A limitation of `wget` is that when a page uses **HTTP** protocols and not **FTP
 
 `wget` is most often used to mirror a website:
 
-```plain-text
+```bash
 wget --mirror -p --html-extension \
 --convert-links http://localhost
 ```
@@ -40,4 +40,3 @@ An alternative to `cURL` is ??? .
 - Wget
 - which
 - dl
- 

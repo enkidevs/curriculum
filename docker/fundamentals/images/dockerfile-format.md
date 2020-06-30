@@ -26,7 +26,7 @@ Instructions in a Dockerfile are executed in order, top-down.
 
 The format of a Dockerfile is the following:
 
-```plain-text
+```Dockerfile
 # Comment
 INSTRUCTION arguments
 ```
@@ -35,7 +35,7 @@ Dockerfile instructions are UPPERCASE by convention to more easily distinguish t
 
 Here's an example of a Dockerfile:
 
-```plain-text
+```Dockerfile
 # Use the node image as the base image
 FROM node
 
@@ -67,7 +67,7 @@ CMD ["echo", "Docker", "is", "cool"]
 
 To build an image from a Dockerfile within the `enki` directory, we would do:
 
-```plain-text
+```bash
 docker build enki
 ```
 
@@ -108,4 +108,3 @@ Removing intermediate container 3c8e7b309484
  ---> 8c40e5b0c9b9
 Successfully built 8c40e5b0c9b9
 ```
- 

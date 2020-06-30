@@ -20,7 +20,7 @@ links:
 
 To horizontally center **block elements** of a known width:
 
-```plain-text
+```css
 #horizontal-center {
   width: 960px;
   margin: 0 auto;
@@ -38,7 +38,7 @@ The element also has a known width, so the browser can calculate the container's
 
 What does the following piece of CSS code do? ???
 
-```plain-text
+```css
 #class {
    width: 960px;
    margin: 0 auto;
@@ -49,4 +49,3 @@ What does the following piece of CSS code do? ???
 - Gets rid of the margin.
 - Vertically centres a block element with a known width.
 - Horizontally centres a block element with an unknown width.
- 

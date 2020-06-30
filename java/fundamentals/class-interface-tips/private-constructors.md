@@ -25,7 +25,7 @@ One case where this is appropriate is when a class has only static members. Crea
 
 Another use for private constructors is when  a class provides a method which returns an instance of itself. An example of this type of method is a Factory method[1].
 
-```plain-text
+```java
 public class Game {
   //factory method
   public static Game getInstance() {
@@ -48,4 +48,3 @@ In this example, the constructor is private, so the only way to create an instan
 A factory method replaces the standard constructor, dealing with object creation without having to specify the exact class of the object that will be created. 
 
 More information on this pattern can be found in the links appended at the bottom of the insight.
- 

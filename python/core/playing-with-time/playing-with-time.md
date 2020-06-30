@@ -22,13 +22,13 @@ The `time` module is widely used for time manipulation, representation and conve
 
 Keep in mind an `import` is needed:
 
-```plain-text
+```python
 import time
 ```
 
 The `time.time()` function returns the **current time** in **seconds** since "the Unix Epoch" (i.e. 12:00am January 1 1970).
 
-```plain-text
+```python
 cur_time = time.time()
 print("Seconds since Unix Epoch: ",
                           cur_time)
@@ -39,7 +39,7 @@ print("Seconds since Unix Epoch: ",
 
 This time expressed in seconds can be *parsed* with the help of `time.localtime` which will return a tuple with all time-relevant information:
 
-```plain-text
+```python
 time_struct = time.localtime(cur_time)
 print(time_struct)
 
@@ -51,7 +51,7 @@ print(time_struct)
 
 If you want a more readable output, you can use `time.asctime` which can take the `time.struct_time` tuple as argument:
 
-```plain-text
+```python
 print(time.asctime(time_struct))
 
 # Fri Jun 23 15:27:36 2017
@@ -59,7 +59,7 @@ print(time.asctime(time_struct))
 
 Another useful function of this module is `time.sleep(n)` which can be used to make your program sleep for `n` seconds:
 
-```plain-text
+```python
 print("good night")
 time.sleep(5)
 # pauses for 5 seconds
@@ -119,4 +119,3 @@ print(???(???())
 - `current`
 - `time_struct`
 - `struct_time`
- 

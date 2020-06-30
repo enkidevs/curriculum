@@ -17,7 +17,7 @@ The new class *inherits* all the methods and attributes from the *parent* class,
 
 Consider the following class:
 
-```plain-text
+```python
 class Shape:
   def __init__(self, x, y):
     self.x = x
@@ -29,7 +29,7 @@ class Shape:
 
 To inherit the `Shape` class into the class `Square`, pass `Shape` as a parameter to `Square` like follows:
 
-```plain-text
+```python
 class Square(Shape):
   def __init__(self, x):
     self.x = x
@@ -41,7 +41,7 @@ class Square(Shape):
 
 We can now create new methods, as well as use old ones:
 
-```plain-text
+```python
 sq = Square(3)
 print(sq.getPerimeter())
 # 12
@@ -51,7 +51,7 @@ print(sq.getArea())
 
 To check the inheritance:
 
-```plain-text
+```python
 print(isinstance(sq, Square))
 # True
 print(isinstance(sq, Shape))
@@ -81,7 +81,7 @@ The concept of *inheritance* refers to a child class receiving parent's class
 
 Pick the right class inheritance syntax:
 
-```plain-text
+```python
 class Person:
   ...
 # A
@@ -135,4 +135,3 @@ print(sq.color)
 - square red
 - AttributeError: 'super' object has no attribute '**getattr**'
 - AttributeError: 'super' object has no attribute '**setattr**'
- 

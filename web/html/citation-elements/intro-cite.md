@@ -29,7 +29,7 @@ What falls under creative work:
 - Any original artwork
 - Any research paper
 
-```plain-text
+```html
 <p>
   More information about Enki here
   <cite>
@@ -67,7 +67,7 @@ Which statement about the `<cite>` element is not correct?
 
 What HTML element is best to use in this example?
 
-```plain-text
+```html
 <p>
 The 1939 movie
 <tag>The Wizard of Oz</tag>
@@ -106,4 +106,3 @@ Which HTML element is used to reference the title of a body of work (like a book
 - `<quote>`
 - `<blockquote>`
 - `<q>`
- 

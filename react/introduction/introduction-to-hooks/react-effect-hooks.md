@@ -15,7 +15,7 @@ links:
 
 Effect hooks allow you to perform side effects in function components. Some examples of side effects include setting up a subscription, manually changing the DOM or data fetching. Let's use the same `<Enki />` component that was created in the previous insight:
 
-```plain-text
+```jsx
 import React, {
   useState,
   useEffect
@@ -42,7 +42,7 @@ When using class components, a common pattern for side effects is to define them
 
 Here is how our example would look like if we used class components:
 
-```plain-text
+```jsx
 class Enki extends React.Component {
   constructor(props) {
     super(props);
@@ -118,4 +118,3 @@ function Revision() {
 
 [1:Template literals]
 Template literals (formerly known as *template strings*) are a way of using multi-line strings together with string interpolation features. What this basically means is that it allows us to call the `name` state inside a string by appending the `$` sign before the `{name}` syntax. Template literals are defined using back ticks `` `string text` ``.
- 

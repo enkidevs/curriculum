@@ -26,7 +26,7 @@ You can think of a component as a definition representing one or more UI element
 
 Here's an example of a React component:
 
-```plain-text
+```jsx
 function App() {
   return (
     <div>
@@ -53,4 +53,3 @@ This component will display:
 Don't worry too much about components now as we will talk more about them in the following workouts.
 
 For now, it’s enough to understand that components in React represent definitions of UI elements.
- 

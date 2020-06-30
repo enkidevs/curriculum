@@ -15,7 +15,7 @@ The **Redux** store is simply an object with few *methods* that holds the whole 
 
 Although we have connected our component in the previous insight, we still need to create our main reducer:
 
-```plain-text
+```js
 // App.js
 function reducer(state, action) {
   return state;
@@ -26,7 +26,7 @@ The reducer works like any `reduce` function in JavaScript. You pass it a functi
 
 Now, to create your store you need to pass your main reducer to the `createStore` function:
 
-```plain-text
+```js
 // App.js
 import { createStore } from "redux";
 
@@ -39,14 +39,14 @@ const store = createStore(reducer);
 
 To get the current *state tree* of the application:
 
-```plain-text
+```js
 // App.js
 store.getState();
 ```
 
 To change the *state*, providing an action:
 
-```plain-text
+```javascript
 store.dispatch(myAction());
 ```
 
@@ -54,13 +54,13 @@ The `action` object must have a `type` that designates the type of the action wa
 
 Add a change listener that is called whenever an action is dispatched , and parts of the *state tree* may have changed:
 
-```plain-text
+```javascript
 store.subscribe(listener);
 ```
 
 The current **reducer** function can be changed:
 
-```plain-text
+```javascript
 store.replaceReducer(newReducer);
 ```
 
@@ -99,4 +99,3 @@ What method is used to send an action to the store and to change the state?
 - `getState()`
 - `subscribe()`
 - `replaceReducer()`
- 

@@ -21,7 +21,7 @@ According to the **box model**, every element on the page is a rectangular box t
 
 The dimensions of such a box are calculated by summing the values of the above mentioned properties. To better understand the formula, consider this example:
 
-```plain-text
+```css
 div{
   width: 600px;
   height: 200px;
@@ -67,4 +67,3 @@ What’s the correct outside-in order of the elements contained by the Box Model
 - Border/Margin/Padding/Content
 - Margin/Padding/Border/Content
 - Content/Border/Margin/Padding
- 

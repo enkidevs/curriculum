@@ -20,7 +20,7 @@ To display the ampersand symbol, you can use either the HTML entity *number* or 
 
 HTML Entity Number:
 
-```plain-text
+```html
 &#38;
 ```
 
@@ -30,7 +30,7 @@ Result:
 
 HTML Entity Name:
 
-```plain-text
+```html
 &amp;
 ```
 
@@ -40,7 +40,7 @@ Result:
 
 Example:
 
-```plain-text
+```html
 <p>Get AT&amp;T free first 3 months!</p>
 ```
 
@@ -101,4 +101,3 @@ If you have a webpage called “black&white”, what character entity is best to
 - `%20`
 - `&and`
 - `%a2`
- 

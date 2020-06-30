@@ -21,7 +21,7 @@ On top of supporting all CSS3 @-rules, Sass has it's own specific @-rules, known
 
 `@import` takes a filename to import, it's default is to look for a *.sass* file to import.
 
-```plain-text
+```css
 // both import the same file
 @import "file.sass";       
 @import "file";
@@ -29,13 +29,13 @@ On top of supporting all CSS3 @-rules, Sass has it's own specific @-rules, known
 
 `@debug` prints the value of a *SassScript* expression to the output stream. It's used for debugging Sass files which include complicated SassScript code.
 
-```plain-text
+```css
 @debug 6px + 12px;
 ```
 
 This would output:
 
-```plain-text
+```css
 Line 1 DEBUG: 18px
 ```
 
@@ -66,7 +66,7 @@ Line 1 DEBUG: 42px
 
 Which of the following lines of SassScript code *wouldn't* produce the following output?
 
-```plain-text
+```css
 Line 1 DEBUG: 80%
 ```
 
@@ -75,4 +75,3 @@ Line 1 DEBUG: 80%
 - `@debug percentage(200px / 120px);`
 - `@debug abs(80);`
 - `@debug round(80.42);`
- 

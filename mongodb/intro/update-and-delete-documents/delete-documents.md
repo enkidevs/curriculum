@@ -17,7 +17,7 @@ To delete a single document you should use the `db.mycollection.deleteOne()` met
 
 Let's say we want to delete a pokémon named `Snorlax` from the `pokemon` collection. We can do so like this:
 
-```plain-text
+```javascript
 db.pokemon.deleteOne({
   name: "Snorlax"
 });
@@ -25,7 +25,7 @@ db.pokemon.deleteOne({
 
 Output:
 
-```plain-text
+```javascript
 {
   "acknowledged": true,
   "deletedCount": 1
@@ -34,7 +34,7 @@ Output:
 
 If we wanted to delete a pokémon of type `"Grass"` where there are more than one of them, we could attempt to do so like:
 
-```plain-text
+```javascript
 db.pokemon.deleteOne({
   type: "Grass"
 });
@@ -48,7 +48,7 @@ To delete multiple documents within the `pokemon` collection, we need to use the
 
 For instance, here we delete all pokémon of type `"Grass"`:
 
-```plain-text
+```javascript
 db.pokemon.deleteMany({
   type: "Grass"
 });
@@ -56,7 +56,7 @@ db.pokemon.deleteMany({
 
 Output:
 
-```plain-text
+```javascript
 {
   "acknowledged": true,
   "deletedCount": 5
@@ -65,13 +65,13 @@ Output:
 
 Furthermore, you can also delete all documents within a collection by using the `db.pokemon.deleteMany()` method with no parameters.
 
-```plain-text
+```javascript
 db.pokemon.deleteMany()
 ```
 
 Output:
 
-```plain-text
+```javascript
 {
   "acknowledged": true,
   "deletedCount": 12
@@ -144,4 +144,3 @@ Delete all documents within the `pokemon` collection:
 - `db.pokemon.deleteMany()`
 - `db.pokemon.delete()`
 - `db.pokemon.deleteAll()`
- 

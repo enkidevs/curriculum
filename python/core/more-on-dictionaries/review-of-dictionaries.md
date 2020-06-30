@@ -38,7 +38,7 @@ print(weather['Barcelona'])
 
 Another way of accessing elements in a dictionary is using one of the following built-in functions:
 
-```plain-text
+```python
 
 # 1. dict.keys()
 print(weather.keys())
@@ -58,7 +58,7 @@ print(weather.items())'
 
 We can update a dictionary by updating an existing entry, adding a new entry or deleting an existing one:
 
-```plain-text
+```python
 
 # Updating an existing entry:
 weather['London'] = 30
@@ -137,4 +137,3 @@ print(marks.keys())
 - dict_keys(['David', 'Amber', 'Steve', 'John', 'Amy'])
 - dict_keys(['Steve', 'John', 'Amy'])
 - dict_keys(['Amber', 'David', 'John'])
- 

@@ -17,7 +17,7 @@ One of the benefits of piping is that you can use it over networks and it does w
 
 You can copy files over the network in an instant. This archives the files into a `tar` file, compresses it (`tar.gz`) and then copies it to the server:
 
-```plain-text
+```bash
 tar cfz - folder |
   ssh user@enki 'tar xfz destdir'
 ```
@@ -31,7 +31,7 @@ Flags:
 
 You can use `-C` flag to specify a location in which the file to be extracted:
 
-```plain-text
+```bash
 tar xfzC arch /folder1/folder2
 ```
 
@@ -39,7 +39,7 @@ tar xfzC arch /folder1/folder2
 
 You can also create an image of your local data with:
 
-```plain-text
+```bash
 dd if=/folder/data |
   ssh user@enki 'dd of=data.iso'
 ```
@@ -62,4 +62,3 @@ Can you pipe data through an SSH connection?
 
 - Yes
 - No
- 

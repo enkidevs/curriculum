@@ -17,7 +17,7 @@ links:
 
 When it comes to variables, one special characteristic of Python stands out: **every data type is an object**. Every *int*, every *string*, every *function*, every user-defined *class* is an object. Consider this example:
 
-```plain-text
+```python
 def mem_loc(var):
   print(hex(id(var)))
 a = 1
@@ -34,7 +34,7 @@ In Python, basic types are usually *immutable*. This means you can't change thei
 
 It then comes down to the variables' name: what do they represent? In this case, the `=` operator is better described by **"binding"** than *"assignment"*. In other words, both `a` and `b` reference the same object (as seen above with regard to their memory addresses). Incrementing either of them means binding their name to a new value:
 
-```plain-text
+```python
 a = a + 1
 b = 3
 print(a)
@@ -77,7 +77,7 @@ print(mem_location(c))
 
 Which of the following statements is true regarding the snippet below?
 
-```plain-text
+```python
 a = 3
 b = 3
 ```
@@ -116,4 +116,3 @@ b = 3
 - True and True
 - False and True
 - False and False
- 

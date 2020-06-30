@@ -19,7 +19,7 @@ If you want your form with radio buttons to have a default value, you should add
 
 Same example with `checked` added:
 
-```plain-text
+```html
 <form>
  <p>
    Please select your gender:
@@ -79,4 +79,3 @@ Write the form code that creates a radio button with the button already selected
 - checked
 - name
 - value
- 

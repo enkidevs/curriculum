@@ -21,7 +21,7 @@ Destructuring is very useful when working with arrays.
 
 We can use destructuring to easily copy an array when combining it with the spread operator:
 
-```plain-text
+```javascript
 var myArray;
 [...myArray] = [1, 2, 3];
 // myArray=[1,2,3]
@@ -29,7 +29,7 @@ var myArray;
 
 If the source object to use for destructuring contains more values than you need you don’t necessarily have to use all of them either:
 
-```plain-text
+```javascript
 var myArray = [1, 2, 3, 4];
 var [x, y, z] = myArray;
 //x=1, y=2, z=3;
@@ -39,7 +39,7 @@ If you don’t want to assign all values from the source object simply leave the
 
 Below we will ignore the second (200) value:
 
-```plain-text
+```javascript
 [x, , z] = [100, 200, 300];
 ```
 
@@ -97,4 +97,3 @@ let x, y, z;
 - null
 - [10]
 - [30]
- 

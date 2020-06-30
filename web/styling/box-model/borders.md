@@ -19,7 +19,7 @@ links:
 
 Borders occupy the space between margin and padding, providing an outline of the element. For a `border` to be displayed, it requires 3 properties: `width`, `style` and `color`. Those properties can be declared individually:
 
-```plain-text
+```css
 div{
   border-width: 4px;
   border-style: solid;
@@ -29,7 +29,7 @@ div{
 
 Or using the shorthand notation, that respects the same order:
 
-```plain-text
+```css
 div{
   border: 4px solid red;
 }
@@ -39,7 +39,7 @@ Borders can have different styles, of which the most common is `solid`. Others a
 
 You can also set borders for sides individually:
 
-```plain-text
+```css
 div{
   border-left: 4px dashed red;
   border-top: 2px double blue;
@@ -54,7 +54,7 @@ div{
 
 In the shorthand declaration, where is the style of the border located?
 
-```plain-text
+```css
 border: 1 2 3;
 ```
 
@@ -71,7 +71,7 @@ border: 1 2 3;
 
 In the shorthand declaration, where is the color of the border located?
 
-```plain-text
+```css
 border: 1 2 3;
 ```
 
@@ -80,4 +80,3 @@ border: 1 2 3;
 - 3
 - 1
 - 2
- 

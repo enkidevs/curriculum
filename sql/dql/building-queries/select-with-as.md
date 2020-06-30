@@ -19,7 +19,7 @@ Let's learn about renaming columns in your results!
 
 Let's say you've written this query:
 
-```plain-text
+```sql
 SELECT name, total, hp
 FROM pokemon;
 ```
@@ -30,7 +30,7 @@ You can create an *alias* for the `hp` column that reads `'Health Points'`.
 
 It's represented by the `AS` keyword, and in the query it looks like this:
 
-```plain-text
+```sql
 SELECT 
   id, 
   hp AS 'Health Points', 
@@ -126,4 +126,3 @@ Choose the query that will get all the entries from this table:
 - DISPLAY [all] FROM ability;
 - SELECT [all] FROM ability;
 - FIND * FROM ability;
- 

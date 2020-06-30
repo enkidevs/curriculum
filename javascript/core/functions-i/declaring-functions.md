@@ -15,7 +15,7 @@ JavaScript supports many different ways of declaring functions.
 
 The most common is the *function declaration*:
 
-```plain-text
+```js
 // function to add 2 parameters
 function add(x, y){
   return x + y;
@@ -30,7 +30,7 @@ In the above example, we specified that we would return the function argument x 
 
 If we did not specify a return value in the above example, then the function would return *undefined* e.g.
 
-```plain-text
+```js
 function add(x, y){
   x + y;
 }
@@ -82,4 +82,3 @@ console.log(add(2,3));
 - `5`
 - `false`
 - `error`
- 

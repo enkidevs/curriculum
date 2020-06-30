@@ -22,7 +22,7 @@ This insight will explain the ones you are more likely to use.
 
 Determines whether a number is finite (finite means that it could be measured or have a value).
 
-```plain-text
+```javascript
 Number.isFinite(Infinity); // false
 Number.isFinite(100); // true
 ```
@@ -31,7 +31,7 @@ Number.isFinite(100); // true
 
 Determines if a number is an integer or not.
 
-```plain-text
+```javascript
 Number.isInteger(1); // true
 Number.isInteger(0.1); // false
 ```
@@ -46,14 +46,14 @@ However, `NaN` doesn't work this way because `NaN == NaN` is `false`.
 
 Historically, this required us to use the global `isNaN` method to verify if a value is `NaN`.
 
-```plain-text
+```js
 isNaN(5);   // false
 isNaN(NaN); // true
 ```
 
 `isNaN` comes with one problem though - it will convert the given value to a number before checking equality to `NaN`. This can lead to unexpecting behavior:
 
-```plain-text
+```js
 // wait...what?? 😱
 isNaN('enki'); // true
 isNaN([1, 2, 3]); // true
@@ -64,7 +64,7 @@ That is the issue `Number.isNaN` is designed to address.
 
 `Number.isNaN()` will only attempt to compare a value to `NaN` if the value is a number. Any other type will return `false`, even if they are literally "not a number".
 
-```plain-text
+```javascript
 // ok, that's much better ✅
 Number.isNaN('enki'); // false
 Number.isNaN([1, 2, 3]); // false
@@ -114,4 +114,3 @@ Number.isInteger(9.81)
 - true, true, false
 - false, true, true
 - true, false, true
- 

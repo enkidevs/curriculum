@@ -37,7 +37,7 @@ To gain a better understanding of this concept let's look at an example. We want
 - `full_name` with `VARCHAR` type[2]
 - `age` with `INTEGER` type[3]
 
-```plain-text
+```sql
 CREATE TABLE employees(
   full_name VARCHAR,
   age INTEGER
@@ -46,7 +46,7 @@ CREATE TABLE employees(
 
 Note that if the name is not unique, an error is usually thrown. To suppress the error and skip creating a duplicate table, you can utilize the `IF NOT EXISTS` clause which is used as such:
 
-```plain-text
+```sql
 CREATE TABLE IF NOT EXISTS table_name (
   ...
 );
@@ -54,7 +54,7 @@ CREATE TABLE IF NOT EXISTS table_name (
 
 To delete a table from a database, you can use the `DROP TABLE` command followed by the name of the table you want deleted. Keep in mind that the table and **all** the information inside it will be deleted. Here is how you would delete the `employees` table:
 
-```plain-text
+```sql
 DROP TABLE employees;
 ```
 
@@ -119,4 +119,3 @@ Each object in a table holds an attribute (*data type*) that specifies the type 
 This type is used for columns which will store a string of characters (can be letters, digits and so on).
 [3:INTEGER]
 An integer represents a whole number or a number which is not a fraction.
- 

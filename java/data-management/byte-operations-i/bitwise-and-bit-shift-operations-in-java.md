@@ -18,11 +18,10 @@ notes: ''
 
 The Java programming language provides operators that perform bitwise and bit shift operations on integral types. Using those substantially improves performance.
 
-```plain-text
+```java
 a = 300 * 4 // standard multiplication
 a = 300 << 2 // bit shifting
 
 b = 300 / 4 // standard division
 b = 300 >> 2 // bit shifting.
 ```
- 

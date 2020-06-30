@@ -33,7 +33,7 @@ The content of the `<address>` element should include the name of the person, pe
 
 Address Example:
 
-```plain-text
+```html
 <address>
   Authors Email:
   <a href="http://www.web.com/contact">
@@ -83,4 +83,3 @@ Which HTML element is used to contain contact information for its nearest `<arti
 - `<info>`
 - `<postal>`
 - `<authorship>`
- 

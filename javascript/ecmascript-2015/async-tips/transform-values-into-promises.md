@@ -20,7 +20,7 @@ tags:
 
 To keep your API consistent, or prototype for testing, it's often useful to return a `Promise` that resolves to a value directly.
 
-```plain-text
+```javascript
 return new Promise(resolve => {
   resolve('my value')
 })
@@ -28,13 +28,13 @@ return new Promise(resolve => {
 
 `Promises` in `ES6` have a shortcut for this common pattern:
 
-```plain-text
+```javascript
 return Promise.resolve('my value')
 ```
 
 Or to create a `Promise` representing an error:
 
-```plain-text
+```javascript
 return Promise.reject(
   new Error('Boo! :o')
 )
@@ -88,7 +88,7 @@ return ???.???('my value');
 
 In what order will these `console.log()` statements occur?
 
-```plain-text
+```javascript
 const element = document.body;
 
 element.addEventListener('click', () => {
@@ -108,4 +108,3 @@ element.addEventListener('click', () => {
 - Listener 1; Listener 2; Microtask 1; Microtask 2;
 - Microtask 1; Listener 1; Microtask 2; Listener 2;
 - Microtask 2; Listener 2; Microtask 1; Listener 1;
- 

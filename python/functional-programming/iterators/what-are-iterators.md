@@ -23,7 +23,7 @@ Any object with the `__next__()` method implemented to return some values counts
 
 Here are some examples of iterators, taken from the `itertools` module. Every function in this module returns an iterator, and we'll be exploring it in further detail in a later insight.
 
-```plain-text
+```python
 from itertools import counter
 newCounter = count(start=42)
 print(next(newCounter)) # result: 42
@@ -60,4 +60,3 @@ Which method is called to retrieve a value from an iterator?
 - `__getitem__()`
 - `__iter__()`
 - `__child__()`
- 

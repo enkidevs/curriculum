@@ -27,7 +27,7 @@ Python does not have special syntax for method overriding.
 
 To *override* a parent method, the child class should define a method with the **exact** same name and parameters as its parent's.
 
-```plain-text
+```python
 class Animal:
     def identify(self):
         print("I am an animal")
@@ -44,7 +44,7 @@ bird.identify()
 
 To add some behavior to a method but also use the parent method behavior, use `super()`:
 
-```plain-text
+```python
 # No changes made to the class Animal
 # Change class Bird to:
 class Bird(Animal):
@@ -106,4 +106,3 @@ Complete the missing gaps such that the output of running it will match the give
 - `child`
 - `super`
 - `hello()`
- 

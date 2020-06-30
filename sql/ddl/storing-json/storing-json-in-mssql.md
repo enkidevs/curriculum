@@ -17,7 +17,7 @@ tags:
 
 SQL Server, or Microsoft SQL, has no default JSON data type but provides functional support to query the JSON objects stored as strings:
 
-```plain-text
+```sql
 CREATE TABLE poke_json(
   id bigint NOT NULL PRIMARY KEY,
   pokemon nvarchar(MAX)
@@ -42,7 +42,7 @@ VALUES('{
 
 Creating tables and inserting values are mostly the same. Querying, on the other hand, is done differently:
 
-```plain-text
+```sql
 SELECT id, JSON_VALUE(pokemon, '$.name')
 AS name
 FROM poke_json
@@ -92,4 +92,3 @@ Microsoft SQL's command that parses JSON fields is
 - `PARSE_JSON(column,field)`
 - `(column)@>(field)`
 - `(column)->(field)`
- 

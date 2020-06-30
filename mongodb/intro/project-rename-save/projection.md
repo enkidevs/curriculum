@@ -17,7 +17,7 @@ When using the `find()` method, all documents matching the specified criteria ar
 
 Example:
 
-```plain-text
+```javascript
 db.pokemon.find({
   type: "Electric"
 })
@@ -25,7 +25,7 @@ db.pokemon.find({
 
 Output:
 
-```plain-text
+```javascript
 { 
 	"_id": ObjectId(
     "5d9d8c330b24990f19398214"
@@ -68,7 +68,7 @@ Let's say we only wanted to display a particular field that matched our query. T
 
 *Projection* is used on a query to specify which fields will be displayed and which won't upon executing the query. The syntax is:
 
-```plain-text
+```javascript
 db.collection_name.find(
 	{query},
 	{projection}
@@ -79,7 +79,7 @@ db.collection_name.find(
 
 Using the same query as above, we are going to add *projection* to only display the `_id` and `name` fields of all documents whose `type` is `Electric`.
 
-```plain-text
+```javascript
 db.pokemon.find(
   { type: "Electric" },
   { _id: 1, name: 1 }
@@ -88,7 +88,7 @@ db.pokemon.find(
 
 Output:
 
-```plain-text
+```javascript
 {
 	"_id": ObjectId(
 		"5d9d8c330b24990f19398214"
@@ -107,7 +107,7 @@ Output:
 
 Using the same query as above, we are going to add *projection* to omit the `_id`, `name` and `spells` fields and display all other fields for all documents whose `type` is `Electric`.
 
-```plain-text
+```javascript
 db.pokemon.find(
   { type: "Electric" },
   { _id: 0, name: 0, spells: 0 }
@@ -116,7 +116,7 @@ db.pokemon.find(
 
 Output:
 
-```plain-text
+```javascript
 { "type": "Electric", "power": 231 }
 { "type": "Electric", "power": 453 }
 ```
@@ -154,4 +154,3 @@ db.pokemon.find(
 - `1`
 - `water`
 - `0`
- 

@@ -17,13 +17,13 @@ links:
 
 There is a shorthand to checkout the previous branch:
 
-```plain-text
+```bash
 git checkout -
 ```
 
 This is the same as:
 
-```plain-text
+```bash
 git checkout @{-1}
 ```
 
@@ -37,7 +37,7 @@ This is similar to the *nix `cd -` command.
 
 What does the next command do?
 
-```plain-text
+```bash
 git checkout -
 ```
 
@@ -46,4 +46,3 @@ git checkout -
 - Switches to the last branch.
 - Deletes the current branch.
 - Deletes the last branch.
- 

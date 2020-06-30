@@ -21,13 +21,13 @@ The `npm version` command, when ran in a package directory, will bump the versio
 
 As an argument, the new version can be specified with a valid **semver** string:
 
-```plain-text
+```bash
 npm version 1.2.3
 ```
 
 Instead of specifying the whole version, a specific **semver** argument can be specified which will increment the field by 1:
 
-```plain-text
+```bash
 # assume current version is 1.2.3
 npm version major
 # new version will be 2.2.3
@@ -40,19 +40,19 @@ npm version patch
 
 `from-git` can be passed as an argument which will read the latest git tag and use it as the latest npm version:
 
-```plain-text
+```bash
 npm version from-git
 ```
 
 Used inside a **git repository**, a version commit and tag will also be created. To avoid this use:
 
-```plain-text
+```bash
 npm --no-git-tag-version version
 ```
 
 Using the `-m` or `--message` config flag, the specified message will become the commit message. `%s` is replaced by the resulting version number:
 
-```plain-text
+```bash
 npm version patch -m "New version is %s"
 ```
 
@@ -89,4 +89,3 @@ npm version ???
 - minor
 - major
 - patch
- 

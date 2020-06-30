@@ -18,7 +18,7 @@ links:
 
 An `enum` is used to define a set of named constants.
 
-```plain-text
+```ts
 // numerical enum
 enum GameLevel {
   A = 1,
@@ -34,7 +34,7 @@ console.log(firstLevel);
 
 If we omit the values, the enum will assign values from `0` onwards:
 
-```plain-text
+```ts
 // numerical enum
 enum GameLevel {
   A, // auto-assigned to 0
@@ -50,7 +50,7 @@ console.log(firstLevel);
 
 You can also set the starting value from which to start the value sequence:
 
-```plain-text
+```ts
 enum WeirdLevel {
   A = 1,
   B, // auto-assigned to 2
@@ -111,4 +111,3 @@ console.log(enki);
 - b
 - b = 14
 - b = 11
- 

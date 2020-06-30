@@ -20,7 +20,7 @@ The `modprobe` program is used for automatic kernel module loading. This is the 
 
 Inside the `usb-storage.conf` file you must add a line that specified the installation of `usb-storage`:
 
-```plain-text
+```bash
 echo "install usb-storage /bin/true" >>
   /etc/modprobe.d/usb-storage.conf
 ```
@@ -62,4 +62,3 @@ echo "install ??? /bin/true"
 - `usb-disable`
 - `no-usb`
 - `usb-security`
- 

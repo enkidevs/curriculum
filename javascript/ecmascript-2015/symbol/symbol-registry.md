@@ -17,7 +17,7 @@ links:
 
 As we saw earlier even if you create two symbols with the same description/key JavaScript considers them unique.
 
-```plain-text
+```javascript
 var sym1 = Symbol("Enki");
 var sym2 = Symbol("Enki");
 sym1 === sym2; //false
@@ -29,7 +29,7 @@ If you want to refer to symbols via a keys use the **Symbol.for** method to work
 
 **Symbol.for** will create a symbol if it does not exist already and return the same symbol if it has already been defined.
 
-```plain-text
+```javascript
 let sym1 = Symbol.for('Enki');
 let sym2 = Symbol.for('Enki');
 sym1 === sym2; //true
@@ -41,7 +41,7 @@ The Symbol registry is even maintained across **realms** such as iframes and ser
 
 You can use the **Symbol.keyFor** method to pass in a symbol and return the description associated with the symbol when it was first created:
 
-```plain-text
+```javascript
 Symbol.keyFor(sym1); //"Enki"
 ```
 
@@ -100,4 +100,3 @@ console.log(Symbol.keyFor(sym1))
 - register
 - new
 - error
- 

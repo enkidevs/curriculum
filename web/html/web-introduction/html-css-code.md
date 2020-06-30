@@ -21,7 +21,7 @@ category: must-know
 
 HTML example:
 
-```plain-text
+```html
 <h2>
   This is a heading
 </h2>
@@ -32,7 +32,7 @@ HTML example:
 
 CSS example:
 
-```plain-text
+```css
 p { color: red; }
 h2 { font-size: 24px; }
 ```
@@ -91,4 +91,3 @@ What lines of code are HTML?
 - 4
 - 1
 - none
- 

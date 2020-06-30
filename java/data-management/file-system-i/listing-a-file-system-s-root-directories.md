@@ -26,7 +26,7 @@ The `getRootDirectories()` method of `FileSystem`  can be used to acquire a list
 
 An object of type `Iterable` is returned, so the directories can be iterated over in the following way:
 
-```plain-text
+```java
 FileSystem sys = FileSystems.getDefault();
 Iterable<Path> d = sys.getRootDirectories();
 for (Path name: d) {
@@ -53,4 +53,3 @@ Iterable<Path> myDir = ???
 - FileSystem
 - System
 - FileSystemUtils
- 

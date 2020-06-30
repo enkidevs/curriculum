@@ -19,7 +19,7 @@ The double dot syntax specifies all commits that you can reach from one branch b
 
 For example to see the commits on `test` that are not on `master`:
 
-```plain-text
+```bash
 git log master..test
 de23f12 Add new game style
 fe67de1 Edit game list
@@ -27,7 +27,7 @@ fe67de1 Edit game list
 
 You can use this to see what you're going to push to a remote:
 
-```plain-text
+```bash
 git log origin/master..HEAD
 ```
 
@@ -57,7 +57,7 @@ git ???
 
 ## Revision
 
-```plain-text
+```bash
 git log origin/master..HEAD
 ```
 
@@ -68,4 +68,3 @@ shows ??? that are on the ??? branch, but not on ??? .
 - master
 - main
 - snippets
- 

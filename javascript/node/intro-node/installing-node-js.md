@@ -21,7 +21,7 @@ To setup a local environment to use Node.js both a text editor and the Node.js b
 
 The latest version of Node is available to download from the Node website, once this has been downloaded and extracted, Node can be tested to ensure it’s working by running `node` from your terminal or command prompt:
 
-```plain-text
+```bash
 node
 >
 ```
@@ -51,4 +51,3 @@ What command is required to start Node?
 - node
 - run
 - start
- 

@@ -21,7 +21,7 @@ This produces a filtered **log output** containing only the commits made by that
 
 For example:
 
-```plain-text
+```bash
 git log --pretty=format:"%h: %s" 
   --author=enki 
 bc15f3c: Fix scrolling bug
@@ -62,4 +62,3 @@ git ??? ???="C Mustard"
 - `--pretty`
 - `format`
 - `--name`
- 

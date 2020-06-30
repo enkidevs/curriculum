@@ -19,7 +19,7 @@ Because data is passed between **producer** and **consumer** threads safely and 
 
 Basic usage of **FIFO** and **LIFO**  `queues`:
 
-```plain-text
+```python
 import queue
 #FIFO
 fq = queue.Queue()
@@ -51,7 +51,7 @@ or
 
 To specify the maximum numbers of elements in the `queue` just pass the number as a constructor argument:
 
-```plain-text
+```python
 # max 4 elements
 fq = queue.Queue(4)
 ```
@@ -102,4 +102,3 @@ lq = queue.???()
 - `FifoQueue`
 - `lifoqueue`
 - `fifoqueue`
- 

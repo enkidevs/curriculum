@@ -24,20 +24,20 @@ The syntax is similar to the one used for **set comprehension** - using curly br
 
 Take the list:
 
-```plain-text
+```python
 num_list = [1, 2, 3, 4, 5]
 ```
 
 To get a dict with its keys equal to the numbers in the list, and the corresponding values being the cubes of the keys:
 
-```plain-text
+```python
 cube_dict = {x: x ** 3 for x in num_list}
 
 ```
 
 Now if we print cube_dict, we get:
 
-```plain-text
+```python
 for k, v in cube_dict.items():
     print(k, v)
 # output
@@ -50,7 +50,7 @@ for k, v in cube_dict.items():
 
 If we want to initialize the counters to zero in a dict to count frequencies of lower case letters in some input:
 
-```plain-text
+```python
 lcase_freqs = { chr(c): 0 \
 for c in range(ord('a'), \
 ord('z') + 1) }
@@ -73,4 +73,3 @@ print(lfk)
 'y', 'z']
 
 ```
- 

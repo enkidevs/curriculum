@@ -22,7 +22,7 @@ Cellpadding refers to the space between the cell content and the cell wall, whil
 
 To control the "cellpadding" in CSS, apply `padding` on table cells, for example:
 
-```plain-text
+```css
 td {
   padding: 10px;
 }
@@ -30,7 +30,7 @@ td {
 
 To control the "cellspacing" in CSS, apply `border-spacing` and `border-collapse` to the table, for example:
 
-```plain-text
+```css
 table {
   border-spacing: 10px;
   border-collapse: separate;
@@ -67,7 +67,7 @@ Apply a cellpadding of 15px to a table:
 
 What does the following CSS code snippet do?
 
-```plain-text
+```css
 table {
    padding: 8px;
    border-spacing: 6px;
@@ -81,4 +81,3 @@ table {
 - Alters the table.
 - Adds a border to the table without padding.
 - Adds a border to the table with padding.
- 

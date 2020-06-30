@@ -18,7 +18,7 @@ The `private` modifier is the most restrictive one. It should be used as it help
 
 If the variables are private, getters and setters are required to access them. These are functions that help move data from one class to another:
 
-```plain-text
+```java
 public class Car{
   private String model;
   private int noDoors;
@@ -41,7 +41,7 @@ Again, classes and interfaces cannot be *protected*. Because it applies to inher
 
 Consider this example:
 
-```plain-text
+```java
 public class Car{
   protected void start(){
     //implementation
@@ -95,4 +95,3 @@ A ??? field can only be accessed by the subclasses.
 - private
 - public
 - static
- 

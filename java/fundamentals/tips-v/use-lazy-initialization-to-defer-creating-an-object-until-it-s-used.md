@@ -19,7 +19,7 @@ links:
 
 If the creation of an object is expensive or if the object is needed only under some specific condition, *lazy initialization* can be used to optimize performance.
 
-```plain-text
+```java
 public class Carpenter {
   // Declaring the object
   private myTools myHammer;
@@ -38,4 +38,3 @@ This has several advantages, such as:
 
 1. Avoiding the initialization of a component in an application up front, thus helping the app to launch much quicker.
 2. While working with low memory resources and computing power such as in embedded systems, one needs to be resource conscious.
- 

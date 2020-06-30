@@ -21,7 +21,7 @@ links:
 
 Let's get started writing some TypeScript code:
 
-```plain-text
+```ts
 // hello.ts
 function hello(name: string) {
   console.log(`Hello ${name}!`)
@@ -32,7 +32,7 @@ hello('Andrei');
 
 When running `tsc hello.ts` in the shell, TypeScript code is converted (compiled) into JavaScript and a new file `hello.js` is created:
 
-```plain-text
+```js
 // hello.js
 function hello(name) {
   console.log(`Hello ${name}!`);
@@ -44,7 +44,7 @@ Once you have the JavaScript code, you can run it wherever JavaScript can run (a
 
 To compile TypeScript to JavaScript and run the generated JavaScript as a single step, we can use the `ts-node` NPM package:
 
-```plain-text
+```sh
 # convert hello.ts from
 # Typescript to JavaScript
 # and run the created JavaScript
@@ -82,4 +82,3 @@ To **run** a TypeScript file called `enki.ts`, you can use the following command
 - ts
 - typescript
 - tsc
- 

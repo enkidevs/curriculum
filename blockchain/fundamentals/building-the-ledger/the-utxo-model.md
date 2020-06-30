@@ -17,7 +17,7 @@ Any transaction requires an UTXO as input and outputs another UTXO. The only tra
 
 One important aspect of UTXO model is that every unspent output must be fully consumed in case even the smallest amount of bitcoins is accessed. Consider the following example:
 
-```plain-text
+```bash
 # Block 1
 The network gives Alice 50 bitcoins
 # Block 2
@@ -55,4 +55,3 @@ What is a change address transaction?
 - A transaction fully consuming an UTXO
 - A transaction send to someone else
 - A transaction between account of the same person
- 

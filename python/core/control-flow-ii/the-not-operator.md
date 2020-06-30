@@ -17,12 +17,12 @@ Python's `not` operator returns the opposite of whatever condition is given to i
 
 For example:
 
-```plain-text
+```python
 not True
 # False
 ```
 
-```plain-text
+```python
 x = 5
 y = 10
 
@@ -60,7 +60,7 @@ sentence = 'we know about numbers, strings and booleans'
 
 What does the following code snippet return:
 
-```plain-text
+```python
 True == (not True)
 ```
 
@@ -70,4 +70,3 @@ True == (not True)
 - `True`
 - `Error`
 - `false`
- 

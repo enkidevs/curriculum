@@ -29,7 +29,7 @@ Some of the possible filters are:
 - `hue-rotate()`
 - `opacity()`
 
-```plain-text
+```css
 filter: sepia(1.0)
         hue-rotate(120deg);
 ```
@@ -56,4 +56,3 @@ filter: sepia(1.0)
 - `hue`
 - `hue-diff`
 - `hue-change`
- 

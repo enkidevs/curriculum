@@ -25,20 +25,20 @@ Git can handle every division of time between seconds and years, timezones and m
 
 To see the commits since the 1st Jan 2016:
 
-```plain-text
+```bash
 git log --since="01/01/2016"
 ```
 
 To compare the repository between two different dates:
 
-```plain-text
+```bash
 git diff master@{"yesterday"} 
   master@{"2 weeks 2 days ago"}
 ```
 
 To revert to an old version of a repository:
 
-```plain-text
+```bash
 git revert master@{"last Tuesday"}
 ```
 
@@ -71,4 +71,3 @@ git ??? --since=???
 
 - can
 - can’t
- 

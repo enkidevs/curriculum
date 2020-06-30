@@ -19,7 +19,7 @@ links:
 
 Utility classes defines set of methods that perform common, often re-used functions. They do not depend on the state of any object, therefore should usually be declared as `static`.
 
-```plain-text
+```java
 public class Utility {
   private Utility() {
   }
@@ -47,4 +47,3 @@ Utility classes define sets of methods that perform common methods which are oft
 - `static` 
 - `void` 
 - `private`
- 

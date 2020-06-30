@@ -26,7 +26,7 @@ As stated in the second insight, selectors are a way of targeting particular HTM
 
 *Selectors* range from the simplest:
 
-```plain-text
+```css
 /* type selector */
 p {}
 /* class selector */
@@ -37,7 +37,7 @@ a.outer-links {}
 
 To the most complex:
 
-```plain-text
+```css
 div p.main:first-line span.my-span {}
 ```
 
@@ -47,7 +47,7 @@ These selectors behave as patterns used to target specific **HTML elements**. St
 
 They are the most generic selectors, which target elements by their type: to select all `<div>` elements in the HTML document, `div` selector is needed:
 
-```plain-text
+```css
 div {}
 p {}
 body{}
@@ -55,7 +55,7 @@ body{}
 
 And the HTML:
 
-```plain-text
+```html
 <body>
   <div></div>
   <p></p>
@@ -66,13 +66,13 @@ The type selector doesn't require HTML elements to have any attributes, unlike t
 
 Consider the following stylesheet:
 
-```plain-text
+```css
 p { font-size: 20px; }
 ```
 
 When applied to an HTML page such as:
 
-```plain-text
+```html
 <body>
   <p>Hello, Enki</p>
 </body>
@@ -92,4 +92,3 @@ The `div` selector targets
 - all `div` elements
 - all `div` elements within a class
 - all elements with class `div`
- 

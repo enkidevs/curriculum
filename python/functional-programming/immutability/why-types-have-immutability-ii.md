@@ -31,7 +31,7 @@ In the next insight we will consider avoiding identity mutation and atomicity of
 
 What is the code snippet below an example of?
 
-```plain-text
+```python
 class Connection(object):
   ...
   def post(self):
@@ -51,4 +51,3 @@ class Connection(object):
 - Temporal coupling
 - Atomicity of failure
 - Identity mutation
- 

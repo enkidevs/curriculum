@@ -24,7 +24,7 @@ Within every `<html>` element are two primary elements:
 
 Example:
 
-```plain-text
+```html
 <!DOCTYPE html>
 <html lang="en-GB">
   <head>...</head>
@@ -38,7 +38,7 @@ The `<html>` element is easily modifiable with CSS by using either the `html` or
 
 For instance, by adding the CSS:
 
-```plain-text
+```css
 :root {
     background: #ff0000;
 }
@@ -106,4 +106,3 @@ Using a `:root` selector in CSS will target which HTML element?
 - `<main>`
 - `<root>`
 - every HTML element
- 

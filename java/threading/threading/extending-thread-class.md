@@ -19,7 +19,7 @@ The easier way of creating a thread is by extending the `Thread` class since we 
 
 Simply:
 
-```plain-text
+```java
 public class ThisIsThread
            extends Thread {
   @Override
@@ -35,7 +35,7 @@ public class ThisIsThread
 
 Then in the `main` function:
 
-```plain-text
+```java
 public class Main {
   public static void main(String[] args) {
     //instantiating a new thread
@@ -87,4 +87,3 @@ When we create an object which extends `Thread` do we need to pass this object t
 
 - No, as it is a thread itself
 - Yes, as it is only a runnable object
- 

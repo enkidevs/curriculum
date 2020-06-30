@@ -23,7 +23,7 @@ When we call a function, a new space in memory is allocated to hold all of the v
 
 Generators allow us to make functions which essentially keep these variables from being destroyed after returning a value, and allow the execution to be paused and resumed where the function left off. Generators basically provide *resumable functions*. For example:
 
-```plain-text
+```python
 def generate_ints(N):
   for i in range(N):
       yield i
@@ -35,7 +35,7 @@ Another interesting feature of functional programming with Python is **Comprehen
 
 A comprehension is an expression where the same flow control keywords used in loops and conditionals are used, but put in a different order to focus on data instead of the manipulation procedure. For example:
 
-```plain-text
+```python
 # without comprehension
 for element in list:
   if condition1(element) and
@@ -95,4 +95,3 @@ Iterators are objects which return one value at a time from a collection of valu
 
 [2:Third Party Libraries]
 `pyrsistent` is a collection of a number of useful persistent data structures, AKA immutable data structures. `toolz` provides a set of utility functions for iterators, functions and dictionaries. `hypothesis` is a library which allows simple and powerful property-based testing. `more-itertools` is exactly what it says; the library provides additional building blocks, recipes and routines above the standard `itertools`.
- 

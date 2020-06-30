@@ -25,7 +25,7 @@ However, accessing individual file attributes in this way is expensive. If many 
 
 `readAttributes` reads a file's attributes as a bulk operation:
 
-```plain-text
+```java
 BasicFileAttributes att =
   Files.readAttributes(
     path, 
@@ -57,4 +57,3 @@ BasicFileAttributes attrs = ???
 - `File` 
 - `getAttributes` 
 - `read`
- 

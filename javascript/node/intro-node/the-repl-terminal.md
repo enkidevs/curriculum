@@ -28,7 +28,7 @@ A key benefit of using Node's REPL terminal is that it helps iron out any irregu
 
 The REPL terminal can be used for simple expressions as follows:
 
-```plain-text
+```bash
 node
 > 4 + 2 * 9 - 6
 16
@@ -36,7 +36,7 @@ node
 
 Variables can also be used in the terminal, if the `var` keyword is used then the value is stored but not printed, whereas if the *var* keyword isn’t used the value is both stored and printed.
 
-```plain-text
+```bash
 > x = 5
 5
 > var y = 7
@@ -52,7 +52,7 @@ undefined
 
 What does the following print?
 
-```plain-text
+```bash
 node
 > 3 + 7 * 3 - 4
 ```
@@ -75,4 +75,3 @@ What does REPL stand for?
 - Read, Eval, Print, Loop
 - Read, Equal, Process, Loop
 - Reiterate, Else, Print, Loop
- 

@@ -28,7 +28,7 @@ Some additional flags :
 
 You can also use `makepasswd` : 
 
-```plain-text
+```bash
 makepasswd -count X -minchars Y
 ```
 
@@ -36,7 +36,7 @@ Just replace `X` with the number of passwords required and `Y` with the minimum 
 
 Another use could be : 
 
-```plain-text
+```bash
 makepasswd -string 1234567890 -chars 4
 ```
 
@@ -55,4 +55,3 @@ Out of the following, the tool that is *not* helpful if you want to generate pas
 - `apg`
 - `pwgen`
 - `makepasswd`
- 

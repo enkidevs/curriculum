@@ -20,7 +20,7 @@ The `@media` rule is a way to communicate with the designated device and can be 
 
 `@media` rule works like a function. In the brackets we specify the media feature we are going to use  and in the following curly brackets we input the CSS code.
 
-```plain-text
+```css
 .exampleclass{
   text-align: center;
 }
@@ -41,7 +41,7 @@ In the example above the elements encapsulated in the `exampleclass` class will 
 
 On which devices will the images be bigger?
 
-```plain-text
+```css
 img {
   height: 200px;
   width: 250px;
@@ -86,4 +86,3 @@ Complete the following code snippet to align text to the centre if the device is
 - `@device`
 - `600pix`
 - `750px`
- 

@@ -50,7 +50,7 @@ Step through your code using these debug commands:
 
 When running the following code snippet in the debugger, which line of code will the debugger break at? ???
 
-```plain-text
+```javascript
 for(var i=0; i<10; i++) {      // line 0
    debugger;                   // line 1
    console.log("hello " + i);  // line 2
@@ -79,4 +79,3 @@ How can you run `enki` app in *debug* mode?
 - debug
 - debugger
 - npm
- 

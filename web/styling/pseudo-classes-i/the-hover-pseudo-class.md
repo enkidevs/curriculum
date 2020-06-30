@@ -22,7 +22,7 @@ One of the most versatile and used pseudo-classes is `:hover`. Whenever an eleme
 
 In the previous insight, the example was:
 
-```plain-text
+```css
 a:hover {
   color: yellow;
 }
@@ -66,4 +66,3 @@ In which of the following cases, will the `:hover` pseudo-class most likely work
 - 2
 - 4
 - None
- 

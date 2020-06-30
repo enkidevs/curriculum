@@ -20,11 +20,11 @@ tags:
 
 It is possible to browse websites from the terminal using `lynx`.
 
-```plain-text
+```bash
 lynx https://google.com
 ```
 
-```plain-text
+```ssh
         Search Images Maps Play YouTube
             News Gmail Drive More »
 	Google
@@ -55,4 +55,3 @@ You can browse websites from the terminal using the
 - lynx package
 - browse package
 - firefox package
- 

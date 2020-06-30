@@ -22,7 +22,7 @@ You can wrap pieces of text around shapes using `shape-outside`. As of `CSS3`, t
 
 Example:
 
-```plain-text
+```css
 #element {
   float: left;
   shape-outside: circle(50%);
@@ -64,4 +64,3 @@ For the `shape-outside` property to work, which property must have been applied 
 - `sticky`
 - `absolute`
 - `relative`
- 

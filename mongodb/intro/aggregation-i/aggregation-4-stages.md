@@ -15,7 +15,7 @@ Now, we'll use all 4 stages learned in this workout.
 
 We are going to aggregate the first `50` pokémon starting from number 301. We want to count how many have a `power` level greater than `400` and store the result in a field named `"result"`.
 
-```plain-text
+```javascript
 db.pokemon.aggregate([
   { $skip: 300 },
   { $limit: 50 },
@@ -26,7 +26,7 @@ db.pokemon.aggregate([
 
 Output:
 
-```plain-text
+```javascript
 {
   "result": 2
 }
@@ -41,7 +41,7 @@ Note that the order of the aggregation stages matters. In this example, the proc
 
 Now, consider this example:
 
-```plain-text
+```js
 db.pokemon.aggregate([
   { $limit: 50 },
   { $skip: 300 },
@@ -68,7 +68,7 @@ Because we first limit the number of documents to 50, we then try to skip more d
 
 Knowing that the `pokemon` collection has a total of 10 documents, choose the query that produces the correct output:
 
-```plain-text
+```js
 // A
 db.pokemon.aggregate([
   {
@@ -113,4 +113,3 @@ db.pokemon.aggregate([
 - A
 - D
 - C
- 

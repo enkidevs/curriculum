@@ -24,7 +24,7 @@ Flex items are displayed in the same order as they appear in the source document
 
 HTML:
 
-```plain-text
+```html
 <ul class="flex-container">
   <li class="flex-item">1</li>
   <li class="flex-item">2</li>
@@ -37,7 +37,7 @@ HTML:
 
 CSS:
 
-```plain-text
+```css
 .flex-item:nth-of-type(1) {order: 3;}
 .flex-item:nth-of-type(2) {order: 4;}
 .flex-item:nth-of-type(3) {order: 1;}
@@ -57,7 +57,7 @@ Altered order: 3.5.1.2.4
 
 If `order` accepts negative values,  for the same 5 list items, with the following ordering, which one do you think will be the first displayed?
 
-```plain-text
+```css
 .flex-item:nth-of-type(1) {order: 3;}
 .flex-item:nth-of-type(2) {order: -1;}
 .flex-item:nth-of-type(3) {order: 1;}
@@ -80,7 +80,7 @@ If `order` accepts negative values,  for the same 5 list items, with the followi
 
 Take 6 boxes originally ordered 1, 2, 3, 4, 5 and 6. What order are the boxes after the following piece of CSS code?
 
-```plain-text
+```css
 .flex-item:nth-of-type(1) { order: 2; }
 .flex-item:nth-of-type(2) { order: 4; }
 .flex-item:nth-of-type(3) { order: 6; }
@@ -97,4 +97,3 @@ Take 6 boxes originally ordered 1, 2, 3, 4, 5 and 6. What order are the boxes af
 - 2
 - 5
 - 3
- 

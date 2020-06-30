@@ -17,7 +17,7 @@ tags:
 
 You'll often want to modify an existing variable by appending or prepending data. To do this, you can reference an environment variable inside a string:
 
-```plain-text
+```bash
 export FOOD="waffles"
 echo $FOOD
 # waffles
@@ -31,7 +31,7 @@ echo $FOOD
 
 To unset or clear an environment variable use `unset`:
 
-```plain-text
+```bash
 export FOOD="waffles"
 echo $FOOD
 # waffles
@@ -81,4 +81,3 @@ echo ???
 - foo
 - a_var
 - $a_var
- 

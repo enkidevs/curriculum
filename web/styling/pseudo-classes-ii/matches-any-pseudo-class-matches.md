@@ -19,7 +19,7 @@ links:
 
 The `:matches` pseudo-class allows the application of rules to groups of selectors.
 
-```plain-text
+```css
 p:matches(.alert,.error,.warn){
     color:red;
 }
@@ -56,7 +56,7 @@ p???(s1, s2, s3){
 
 What does the following CSS code snippet do?
 
-```plain-text
+```css
 p:matches(s1, s2, s3) {
    font-family: "Arial Narrow";
    background-color: red;
@@ -69,4 +69,3 @@ p:matches(s1, s2, s3) {
 - Sets the font family and background colour for all elements not matching s1, s2 and s3.
 - Sets the font family and background colour for all elements.
 - Does nothing.
- 

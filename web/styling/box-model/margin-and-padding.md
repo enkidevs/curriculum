@@ -31,7 +31,7 @@ The `margin` property sets the amount of space that surrounds an element, outsid
 
 Like `border`, margins can be set individually:
 
-```plain-text
+```css
 div{
   margin-top:20px;
   margin-left: 10px;
@@ -41,7 +41,7 @@ div{
 
 Or using the shorthand notation:
 
-```plain-text
+```css
 div{
 /* same value for top and bottom
    and left and right */
@@ -56,7 +56,7 @@ div{
 
 The `padding` property sets the space between the `content` and the `border`, in case of the element having a border. The property is used to provide spacing inside an element:
 
-```plain-text
+```css
 div{
   padding: 10px;
 }
@@ -70,7 +70,7 @@ On the first line, neither of the rectangles have margin or padding. On the seco
 
 Just like margins, you can set individual padding:
 
-```plain-text
+```css
 div{
   padding-top: 30px;
   padding-right: 15px;
@@ -89,7 +89,7 @@ div.special{
 
 In the `padding` shorthand declaration, which value is the `padding-left`?
 
-```plain-text
+```css
 padding: 10px 0px 13px 5px;
 ```
 
@@ -111,4 +111,3 @@ The ??? property expands the borders of the element, while ??? property pushes i
 - margin
 - border
 - box
- 

@@ -68,4 +68,3 @@ history.???([data],
 - `modURL`
 - `changeRoute`
 - `push`
- 

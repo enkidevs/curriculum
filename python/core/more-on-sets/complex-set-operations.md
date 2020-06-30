@@ -16,7 +16,7 @@ Python has a number of further complex operations which can be carried out on `s
 
 `y.issubset(x)` will return true if y is a subset of x. Instead of writing `issubset` you can use the abbreviation `<=`, for example:
 
-```plain-text
+```python
 x = {"a", "b", "c", "d"}
 y = {"a", "c"}
 
@@ -32,7 +32,7 @@ y <= x
 
 `x.issuperset(y)` returns true if x is a superset to y. Instead of writing `issuperset` you can use the abbreviation `>=`, for example:
 
-```plain-text
+```python
 x = {"a", "b", "c", "d"}
 y = {"a", "c"}
 
@@ -84,4 +84,3 @@ x.issubset(y)
 - `x <= y`
 - `x == y`
 - `y > x`
- 

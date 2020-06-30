@@ -25,7 +25,7 @@ enki
 
 The `sort` command will sort lines alphabetically and output the result:
 
-```plain-text
+```bash
 sort enki.txt
 # are 
 # enki 
@@ -34,7 +34,7 @@ sort enki.txt
 
 Using the `-o` we can specify an output file:
 
-```plain-text
+```bash
 sort -o enki_sorted.txt enki.txt
 cat enki_sorted.txt
 # are
@@ -44,7 +44,7 @@ cat enki_sorted.txt
 
 To sort in reverse use the the `-r` flag:
 
-```plain-text
+```bash
 sort -r enki.txt
 # we
 # enki
@@ -88,4 +88,3 @@ Check if the `enki` file is sorted:
 - `-r`
 - `awk`
 - `nl`
- 

@@ -13,7 +13,7 @@ category: how to
 
 Multiplication is achieved in Mongo by using the `$multiply` operator. The syntax looks like this:
 
-```plain-text
+```javascript
 { 
   $multiply:  
   [ 
@@ -26,7 +26,7 @@ Multiplication is achieved in Mongo by using the `$multiply` operator. The synta
 
 Let's say we have a `pokemon` collection where each pokémon has a base `power` field and an `age` field. Here are some example documents:
 
-```plain-text
+```javascript
 { 
   "Name": "Pikachu",
   "Power": 823,
@@ -41,7 +41,7 @@ Let's say we have a `pokemon` collection where each pokémon has a base `power` 
 
 To get the actual power of each pokémon, we need to calculate the product of the `power` and `age` fields (the power of each pokémon increases with its age). Using the `$multiply` operator, we would write:
 
-```plain-text
+```javascript
 db.pokemon.aggregate([
   {
     $project: {
@@ -56,7 +56,7 @@ db.pokemon.aggregate([
 
 Output:
 
-```plain-text
+```javascript
 { 
   "_id": ObjectId(
     "5d9d8c330b24990f19398214"
@@ -90,4 +90,3 @@ In MongoDB, you would use the ??? operator to perform multiplication.
 - `$pow`
 - `$times`
 - `$*`
- 

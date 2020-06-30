@@ -28,7 +28,7 @@ Consequently, some Windows applications will not show the line breaks in Unix-fo
 
 To convert from DOS newline to Unix:
 
-```plain-text
+```bash
 sed 's/.$//' dos_file > unix_file
 # assumes that all lines end with CR/LF
 sed 's/^M$//' dos_file > unix_file
@@ -37,7 +37,7 @@ sed 's/^M$//' dos_file > unix_file
 
 To convert from Unix to DOS:
 
-```plain-text
+```bash
 sed 's/$'"/`echo \\\r`/" unix_file
                  > dos_file # bash
 sed "s/$/`echo -e \\\r`/" unix_file
@@ -48,7 +48,7 @@ sed 's/$/\r/' unix_file > dos_file
 
 Some distributions have access to `dos2unix` and `unix2dos` commands which simplify the job:
 
-```plain-text
+```bash
 dos2unix DOSfile UNIXfile
 unix2dos UNIXfile DOSfile
 ```
@@ -92,4 +92,3 @@ Converting Unix files to DOS or the other way around can be done on *all systems
 CR+LF = `/r/n`
 [2:Acronym]
 LF = `\n`
- 

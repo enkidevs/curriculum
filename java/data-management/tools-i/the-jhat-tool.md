@@ -22,7 +22,7 @@ Memory leaks often happen due to objects kept alive because of some reference in
 
 Basic syntax:
 
-```plain-text
+```java
 jhat example.hprof
 
 ```
@@ -31,13 +31,13 @@ jhat example.hprof
 
 To allow `jhat` to use more memory:
 
-```plain-text
+```java
 jhat -J-mx1024 example.hprof 
 ```
 
 To change webserver port:
 
-```plain-text
+```java
 jhat -port 8080 example.hprof 
 ```
 
@@ -73,4 +73,3 @@ jhat ??? enki.hprof
 - `-J-mx1024`
 - `-mx1024`
 - `-m1024`
- 

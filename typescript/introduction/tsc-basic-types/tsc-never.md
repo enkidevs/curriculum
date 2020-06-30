@@ -19,7 +19,7 @@ The type `never` is used to represent a value that **never** occurs.
 
 Let's take a look at a few examples:
 
-```plain-text
+```ts
 // the return type of a function
 // that never returns is "never"
 function neverEnd(): never {
@@ -78,4 +78,3 @@ function enki(message: string): ??? {
 - `undefined`
 - `null`
 - `void`
- 

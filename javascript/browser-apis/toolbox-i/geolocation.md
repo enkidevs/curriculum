@@ -21,7 +21,7 @@ Note that for privacy reasons the user must grant the API permission.
 
 To obtain the devices current position use the **getCurrentPosition** API:
 
-```plain-text
+```javascript
 navigator.geolocation
   .getCurrentPosition(
   function(pos) {
@@ -33,7 +33,7 @@ navigator.geolocation
 
 If you want to be informed automatically when the devices position changes you can use the **geolocation.watchPosition** API.
 
-```plain-text
+```javascript
 navigator.geolocation.watchPosition(
   function(pos) {
      var lat = pos.coords.latitude,
@@ -96,4 +96,3 @@ navigator.???.???(
 - watch
 - listen
 - onChange
- 

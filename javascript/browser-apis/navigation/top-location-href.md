@@ -31,7 +31,7 @@ It is useful when dealing with pages that have multiple `iframes` (e.g. map). In
 
 Assuming that the current window has no parent, what would the following check return? ???
 
-```plain-text
+```javascript
 window === window.top
 ```
 
@@ -54,4 +54,3 @@ window === window.top // ???
 - `true`
 - `false`
 - `error`
- 

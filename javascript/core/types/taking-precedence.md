@@ -22,7 +22,7 @@ How well do you know how JavaScript handles precedence?
 
 ## Game Content
 
-```plain-text
+```javascript
 1 + 2 + "3" + 4
 ```
 
@@ -36,7 +36,7 @@ The expression is read from left to right: integer addition is done first 1+2 = 
 
 ---
 
-```plain-text
+```javascript
 2 - 2 - 2
 ```
 
@@ -50,7 +50,7 @@ Nothing uncommon here: the computation is done from **left to right**.
 
 ---
 
-```plain-text
+```javascript
 2 * 3 + 4
 ```
 
@@ -66,7 +66,7 @@ The multiplication operation (`*`) has higher priority than addition (`+`).
 
 ---
 
-```plain-text
+```javascript
 {5:1}[2+3]
 ```
 
@@ -80,7 +80,7 @@ There's a syntax error in this code snippet. `[2+3]` will be evaluated first, fo
 
 ---
 
-```plain-text
+```javascript
 var a = 1
 a++
 ```
@@ -95,7 +95,7 @@ There are two ways to increment a number: `a++` and `++a`. The first one, return
 
 ---
 
-```plain-text
+```javascript
 ({5:1})[2+3]
 ```
 
@@ -111,7 +111,7 @@ Therefore, `[2+3]` will get the value of the entry at key `5` - which is `1`.
 
 ---
 
-```plain-text
+```javascript
 var a = 1
 var b = 1
 a+++b
@@ -128,7 +128,7 @@ b
 
 ---
 
-```plain-text
+```javascript
 var a = 1
 var b = 1
 a+++b
@@ -145,7 +145,7 @@ a
 
 ---
 
-```plain-text
+```javascript
 var a = 1
 var b = 1
 a++-++b
@@ -163,7 +163,7 @@ The result of the subtraction is: `1 - 2 = -1`.
 
 ---
 
-```plain-text
+```javascript
 false && true || true
 ```
 
@@ -177,7 +177,7 @@ false && true || true
 
 ---
 
-```plain-text
+```javascript
 true || true && false
 ```
 
@@ -191,7 +191,7 @@ A "short-circuit" evaluation rule is found here. As the logical expression is of
 
 ---
 
-```plain-text
+```javascript
 0 * 1 ? 2 : 3
 ```
 
@@ -207,7 +207,7 @@ JavaScript evaluates `0` to `false`, hence the result is `3`.
 
 ---
 
-```plain-text
+```javascript
 var a = 1; a += 3 * 2 ; a
 ```
 
@@ -221,7 +221,7 @@ The `a += 3 * 2` expression is converted to `a = 1 + (3 * 2)` => `a = 7`.
 
 ---
 
-```plain-text
+```javascript
 var a = -1;
 a += 1 && a *= 2
 ```
@@ -237,7 +237,7 @@ Following this, the second assignment will have an **invalid** left-hand operand
 
 ---
 
-```plain-text
+```javascript
 var a = -1;
 a += 1 && (a *= 2)
 ```
@@ -253,7 +253,7 @@ Last, but not least, `-2` is added to the initial value of `a`, resulting in `-3
 
 ---
 
-```plain-text
+```javascript
 0 == 1 >= 2
 ```
 
@@ -266,4 +266,3 @@ The expression can be converted to `0 == (1 >= 2)` as `>=` has higher priority t
 
 `0 == (1 >=2)` => `0 == false` => `false` (as `0` is falsy)
 %
- 

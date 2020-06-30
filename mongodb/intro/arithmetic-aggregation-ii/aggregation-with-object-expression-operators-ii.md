@@ -17,7 +17,7 @@ The outputted array has 2 fields, `k` and `v`, for each key-value pair of the or
 
 For instance, let's say we have this document within our `pokemon` collection:
 
-```plain-text
+```javascript
 {
   "_id": ObjectId(
     "5d9d8c330b24990f19398214"
@@ -34,7 +34,7 @@ For instance, let's say we have this document within our `pokemon` collection:
 
 Example aggregation where we only include the object(`spells`):
 
-```plain-text
+```javascript
 db.pokemon.aggregate([
   {
     $project: {
@@ -47,7 +47,7 @@ db.pokemon.aggregate([
 
 Output:
 
-```plain-text
+```javascript
 {
    "_id": ObjectId(
     "5d9d8c330b24990f19398214"
@@ -115,4 +115,3 @@ Which of these operators are Object expression operators?
 - `$fromObjectToAnArray`
 - `$arrayToObjects` and `$mergeArrays`
 - `$objectToArray` and `$arrayToObject`
- 

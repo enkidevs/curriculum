@@ -19,7 +19,7 @@ Apart from set operations such as union and intersection, Python's `set` has oth
 
 Add an element to a `set` (note: sets only accept **immutable** elements):
 
-```plain-text
+```python
 >>> enki = set("Enk")
 >>> enki.add('i')
 >>> enki
@@ -29,7 +29,7 @@ Add an element to a `set` (note: sets only accept **immutable** elements):
 
 Clear a `set`:
 
-```plain-text
+```python
 >>> enki.clear()
 >>> enki
 set()
@@ -37,7 +37,7 @@ set()
 
 Create a **shallow copy** of a set:
 
-```plain-text
+```python
 >>> enki = set("Enki")
 >>> enki_backup = enki.copy()
 >>> enki_backup
@@ -46,14 +46,14 @@ Create a **shallow copy** of a set:
 
 You can **remove** and **return** a random element from the `set`:
 
-```plain-text
+```python
 >>> enki.pop()
 'E'
 ```
 
 To remove from your `set` all elements from another set (`x = x - y`):
 
-```plain-text
+```python
 >>> s = set("12")
 >>> s2 = set ("23")
 >>> s.difference_update(s2)
@@ -103,4 +103,3 @@ enki.???()
 - `empty`
 - `delete`
 - `list`
- 

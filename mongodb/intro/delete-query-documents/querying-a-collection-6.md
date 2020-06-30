@@ -15,7 +15,7 @@ As the name suggests, the `findOneAndReplace()` method makes use of a constrain 
 
 This is best explained through an example. Let's say that we want to replace a document that is no longer viable. We can do so like this:
 
-```plain-text
+```javascript
 db.pokemon.findOneAndReplace(
   { power: { $eq: 350 } },
   {
@@ -31,7 +31,7 @@ db.pokemon.findOneAndReplace(
 
 Output:
 
-```plain-text
+```javascript
 { 
   "_id": ObjectId(
     "5d9d8dcb0b24990f1939821f"
@@ -50,7 +50,7 @@ Output:
 
 By default, our query returns the original document (the one that will be replaced). If you wanted to return the new document, you'd have to add `returnNewDocument: true` in your query.
 
-```plain-text
+```javascript
 db.pokemon.findOneAndReplace(
   { power: { $eq: 350 } },
   {
@@ -67,7 +67,7 @@ db.pokemon.findOneAndReplace(
 
 Output:
 
-```plain-text
+```javascript
 {
 	"_id": ObjectId(
     "5d9d8e800b24990f19398223"
@@ -121,4 +121,3 @@ Which of these is not a valid MongoDb query method?
 - `db.collection_name.insertMany()`
 - `db.collection_name.insertOne()`
 - `db.collection_name.insert()`
- 

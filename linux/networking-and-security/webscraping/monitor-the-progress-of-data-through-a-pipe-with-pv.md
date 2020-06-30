@@ -22,7 +22,7 @@ tags:
 
 Use `pv` to watch the progress and speed of a `cp`:
 
-```plain-text
+```bash
 pv my_big_file > backup/my_big_file
 ```
 
@@ -32,7 +32,7 @@ Files copied this way will have the same permissions as if you'd created them yo
 
 In this example, `pv` outputs the file to `stdout*`, which you redirect to a file using the `>` operator. Simultaneously, it prints information about the progress to the terminal.
 
-```plain-text
+```bash
 pv my_big_file > backup/my_big_file
  138MB 0:00:01 [73.3MB/s] [========>] 100% 
 ```
@@ -49,4 +49,3 @@ The progress and speed of copying a file can be measured using the ??? command.
 - `pv`
 - `cp`
 - `ls`
- 

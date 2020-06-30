@@ -19,7 +19,7 @@ The **mutable** counterpart of the `bytes` object is the `bytearray` object.
 
 Create a `bytearray` object:
 
-```plain-text
+```python
 # empty bytearray
 b = bytearray()
 # zero-filled of length 2
@@ -30,7 +30,7 @@ b = bytearray(range(3))
 
 Just like with the `bytes` object, you can create a `bytearray` object from a **hexadecimal** string:
 
-```plain-text
+```python
 >>> bytearray.fromhex('2ef0f1f2')
 bytearray(b'.\xf0\xf1\xf2')
 
@@ -38,7 +38,7 @@ bytearray(b'.\xf0\xf1\xf2')
 
 To convert a `bytearray` to a **hexadecimal** string:
 
-```plain-text
+```python
 >>> bytearray(b'\xf0\xf1\xf2').hex()
 'f0f1f2'
 
@@ -83,4 +83,3 @@ Convert the bytearray object into a hexadecimal string:
 - `tohex`
 - `byte`
 - `array`
- 

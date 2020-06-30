@@ -28,7 +28,7 @@ This is a file with a single long line
 
 Fold the text:
 
-```plain-text
+```bash
 fold enki.txt
 ```
 
@@ -36,7 +36,7 @@ This won't have any result because the default **width** is `80`.
 
 Using the `-w` flag you can change it:
 
-```plain-text
+```bash
 fold -w11 enki.txt
 This is a f
 ile with a
@@ -82,4 +82,3 @@ Use the `fold` command to line-break the content of `enki.txt` every 20 characte
 - `-w=20`
 - `--width`
 - `enki.txt`
- 

@@ -20,7 +20,7 @@ links:
 
 You can make shapes by defining the properties of the `border`, as seen below:
 
-```plain-text
+```css
 #triangle {
   width: 0;
   height: 0;
@@ -49,7 +49,7 @@ For the following image, these are the borders that are not transparent:
 
 What shape would the following CSS produce? ???
 
-```plain-text
+```css
 #shape {
    width: 0;
    height: 0;
@@ -64,4 +64,3 @@ What shape would the following CSS produce? ???
 - A square.
 - A circle.
 - A rectangle.
- 

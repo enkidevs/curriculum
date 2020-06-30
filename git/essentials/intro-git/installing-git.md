@@ -30,13 +30,13 @@ Depending on your Linux distribution and package management tool you can install
 
 - using `yum` on Fedora/Red Hat:
 
-```plain-text
+```bash
 sudo yum install git
 ```
 
 - using `apt` on Debian:
 
-```plain-text
+```bash
 sudo apt-get install git
 ```
 
@@ -63,4 +63,3 @@ Git is only available on Mac OS X.
 
 - False.
 - True.
- 

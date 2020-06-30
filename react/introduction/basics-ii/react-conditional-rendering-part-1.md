@@ -22,7 +22,7 @@ Exploiting the power of pure JS, **React** allows conditional rendering with `if
 
 Consider the following two function components:
 
-```plain-text
+```jsx
 function Sunny(props) {
   return <p>Enjoy the weather</p>;
 }
@@ -34,7 +34,7 @@ function Rainy(props) {
 
 You might want to render either `<Sunny />` or `<Rainy />` in different scenarios. Furthermore, you might use a `props.isRaining` deciding which component should be rendered:
 
-```plain-text
+```jsx
 function Message(props) {
   const isRaining = props.isRaining;
   if (isRaining) {
@@ -46,7 +46,7 @@ function Message(props) {
 
 In addition, such `element`s can be stored using **variables**. This is particularly useful when conditional `render`ing parts of the `component`:
 
-```plain-text
+```jsx
 class Message extends React.component {
   render() {
     const isRaining = this.props.isRaining;
@@ -128,20 +128,20 @@ The **conditional** or **ternary** operator is the only `JS` operator taking 3 o
 
 Consider the generic syntax:
 
-```plain-text
+```javascript
 condition ? expression1 : expression2
 ```
 
 This operator is generally used as a shortcut for an `if-else` statement:
 
-```plain-text
+```js
 const x = 5 > 2 ? 'yes' : 'no';
 // x = 'yes'
 ```
 
 The snippet above is equivalent to:
 
-```plain-text
+```js
 const x = '';
 if (5 > 2) {
   x = 'yes';
@@ -149,4 +149,3 @@ if (5 > 2) {
   x = 'no';
 }
 ```
- 

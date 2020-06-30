@@ -22,7 +22,7 @@ The returned value is boolean:
 - `true` if there is a match
 - `false` if there is no match.
 
-```plain-text
+```javascript
 let str = 'I learned a new tip with Enki';
 
 let containsEnki = /Enki/i;
@@ -39,7 +39,7 @@ containsAtSchool.test(str); // false
 
 What does the following code snippet return? ???
 
-```plain-text
+```javascript
 let str = 'Practicing my RegExp with Enki!';
 
 let containsRegExp = /Regular Expressions/i;
@@ -74,4 +74,3 @@ Matching a string with a RegEx is done with:
 
 [1:RegEx]
 RegEx is short for regular expression, and it represent a sequence of characters that define a search pattern. For example, this pattern `/ /g` will match with all the spaces in a string. For more information about RegEx check out [their documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions).
- 

@@ -22,7 +22,7 @@ Another set of pseudo-classes that can be applied only to elements that have (an
 
 `:in-range` and `:out-of-range` match if values contained in the `<input>` field are inside the range limits (specified by the `min` and `max` attributes) and outside, respectively. They can be used to provide feedback to the user without the use of `JavaScript`:
 
-```plain-text
+```html
 <form>
   <label>How old are you?</label>
   <input type="number" min="1" max="120">
@@ -31,7 +31,7 @@ Another set of pseudo-classes that can be applied only to elements that have (an
 
 And the CSS:
 
-```plain-text
+```css
 input:in-range {
   background-color: green;
 }
@@ -69,4 +69,3 @@ For either `:in-range` and `:out-of-range` pseudo-classes to match, the element 
 - `min`, `max` or both attributes
 - `range` attribute
 - the type of input
- 

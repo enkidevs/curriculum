@@ -18,7 +18,7 @@ parent: custom-proptype-s-to-be-required
 
 It is possible to obtain a performance boost in React when using an automatic form of shallow comparison. For class components this is done by extending `React.PureComponent`:
 
-```plain-text
+```jsx
 class MyComp extends React.PureComponent {
   render() {
     return (
@@ -77,4 +77,3 @@ A ??? can be achieved with `React.PureComponent` when used on a React component 
 - clean
 - raw
 - successful render
- 

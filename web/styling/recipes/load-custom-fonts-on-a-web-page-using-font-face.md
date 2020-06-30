@@ -22,7 +22,7 @@ Custom fonts are hosted server-side and downloaded then displayed using CSS.
 
 Example:
 
-```plain-text
+```css
 @font-face {
 font-family: 'MyCustomFont';
 src: /* Firefox, Chrome, Opera, Edge*/
@@ -36,7 +36,7 @@ src: /* Firefox, Chrome, Opera, Edge*/
 
 Style elements using:
 
-```plain-text
+```css
 a {
  font-family: 'MyCustomFont', sans-serif;
 }
@@ -65,7 +65,7 @@ Which of the following font format is supported by most browsers?
 
 Consider the following snippet:
 
-```plain-text
+```css
 p {
    font-family: 'enkiFont',
        sans-serif;
@@ -80,4 +80,3 @@ When using custom fonts with `@font-face`, `sans-serif` is considered to be the
 - italic font
 - next font
 - inline font
- 

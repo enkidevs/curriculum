@@ -56,7 +56,7 @@ Here `action = iptables` refers to `/etc/fail2ban/action.d/iptables.conf` that's
 
 To stop/start fail2ban service:
 
-```plain-text
+```bash
 /etc/init.d/fail2ban stop
 /etc/init.d/fail2ban start
 ```
@@ -73,4 +73,3 @@ The `fail2ban` service looks through logs and bans IPs that
 - had too many failed log in attempts
 - made too many requests
 - were inactive for too long
- 

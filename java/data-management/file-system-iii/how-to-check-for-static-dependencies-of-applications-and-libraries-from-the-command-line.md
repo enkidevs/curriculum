@@ -22,7 +22,7 @@ Introduced with JDK 8, the `jdeps` command shows the package-level or class-leve
 
 Basic syntax:
 
-```plain-text
+```java
 jdeps myApplication.jar 
 
 ```
@@ -31,13 +31,13 @@ The input class can be a path name to a `.class` file, a directory, a `JAR` file
 
 Prints all class-level dependencies:
 
-```plain-text
+```java
 jdeps -v myApplication.jar
 ```
 
 Write the output in `.dot` files :
 
-```plain-text
+```java
 jdeps -v myApplication.jar 
 -dotoutput LOCATION
 
@@ -80,4 +80,3 @@ Print all class-level dependencies of `enki.jar` application:
 - `-d` 
 - `jdb` 
 - `deps`
- 

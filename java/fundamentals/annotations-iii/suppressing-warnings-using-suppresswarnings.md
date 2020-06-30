@@ -20,7 +20,7 @@ links:
 
 It is occasionally appropriate to suppress a compiler warning. For example, if some legacy code needs to be integrated with a new system, and a deprecated method needs to be used to achieve this, we can use `@SuppressWarnings`: 
 
-```plain-text
+```java
 @SuppressWarnings("deprecation")
 public void method() {
   deprecatedMethod();
@@ -64,4 +64,3 @@ What annotation is used to suppress warnings?
 - `IgnoreWarnings` 
 - `IgnoreWarning` 
 - `CompilerDeprecate`
- 

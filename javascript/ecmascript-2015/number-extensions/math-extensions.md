@@ -21,7 +21,7 @@ Since its creation, the `Math` object has been expanded to provide a great deal 
 
 `Math.trunc` will drop any numbers after the decimal point whether the number is positive or negative.
 
-```plain-text
+```javascript
 Math.trunc(1.2343); //1
 Math.trunc(-3242.34); //-3242
 ```
@@ -30,7 +30,7 @@ Math.trunc(-3242.34); //-3242
 
 `Math.cbrt` returns the cube root of a number:
 
-```plain-text
+```javascript
 Math.cbrt(27); //3
 ```
 
@@ -38,7 +38,7 @@ Math.cbrt(27); //3
 
 `Math.sign` returns a value that represents whether a number is positive (1), negative (-1), positive zero (0), negative zero (-0) and NaN:
 
-```plain-text
+```javascript
 Math.sign(1); //1
 Math.sign(-1); //-1
 ```
@@ -85,4 +85,3 @@ What `Math` method can be used to find the cubic root of a number?
 - cubicRoot
 - cbRoot
 - cubicrt
- 

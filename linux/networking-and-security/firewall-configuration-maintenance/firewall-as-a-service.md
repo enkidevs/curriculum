@@ -22,7 +22,7 @@ notes: ''
 
 On BSD and RPM[1] system, the firewall is configured as a service. Therefore, you can switch it on and off using commands that target services and daemons:
 
-```plain-text
+```bash
 # for OpenBSD
 rcctl disable pf
 rcctl enable pf
@@ -40,20 +40,20 @@ On Debian systems, `iptables` is not a service. That means, in order to turn it 
 
 This can be addressed by installing:
 
-```plain-text
+```bash
 sudo apt-get install iptables-persistent
 ```
 
 You can then stop and start as a service:
 
-```plain-text
+```bash
 sudo service iptables-persistent stop
 sudo service iptables-persistent start
 ```
 
 And save your settings on the fly:
 
-```plain-text
+```bash
 sudo service
   iptables-persistent save
 ```
@@ -94,4 +94,3 @@ The package that allows you to treat `iptables` like a service on Debian systems
 [1: RHEL7]
 
 It's worth noting that Red Hat Enterprise Linux 7 (RHEL7) moved on to `firewalld` to manage the firewall, but it still fallbacks to `iptables`.
- 

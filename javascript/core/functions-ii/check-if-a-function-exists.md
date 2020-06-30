@@ -18,7 +18,7 @@ There are certain scenarios where scripts are shared between different parts of 
 
 Check if a `function` exists beforehand:
 
-```plain-text
+```javascript
 if (typeof myFunction === "function") { 
     // safe to use the function
     myFunction();
@@ -55,4 +55,3 @@ if(??? myFunction === ???){
 - function
 - !
 - undefined
- 

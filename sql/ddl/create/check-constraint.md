@@ -18,7 +18,7 @@ links: null
 
 Column checks are used to ensure that values entered in a column meet a defined criterion. To best explain this, let's say you want to create a table of eligible voters in which you store an identification column `id`, the name of the person as `name` and their `age`. To be eligible to vote you must be 18 or older, and to simplify data entering and ensure that no human errors are made, you can set up a column check. Let's look at how this table is created:
 
-```plain-text
+```sql
 CREATE TABLE voters (
   id INTEGER PRIMARY KEY,
   name VARCHAR,
@@ -30,7 +30,7 @@ Now, if you were to insert a record which had a value for the `age` column less 
 
 What if you wanted to constrain the value of two columns at the same time? This is possible by creating a table check constraint. Let's say that for some reason you also want only names that start with `'T'`. In this case, your table definition would look like:
 
-```plain-text
+```sql
 CREATE TABLE voters (
   id INTEGER PRIMARY KEY,
   name VARCHAR,
@@ -42,7 +42,7 @@ CREATE TABLE voters (
 
 Now let's try inserting some values in our table:
 
-```plain-text
+```sql
 INSERT INTO voters VALUES 
 (1, 'Abraham Lincoln', 56);
 -- Fails because the name starts with 'A'
@@ -108,4 +108,3 @@ CREATE TABLE voters_b (
 - VERIFY
 - verify_name
 - IS
- 

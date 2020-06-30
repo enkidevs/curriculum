@@ -27,7 +27,7 @@ This works for several input types:
 
 Example:
 
-```plain-text
+```html
 <form
   action="/action.php">
    Enter a date before 2000-01-01:
@@ -110,4 +110,3 @@ Which statement is not true regarding the min and max attributes?
 - When setting the min value it cannot be greater than the max value, and vice-versa.
 - `<input min="date">` specifies the minimum date allowed.
 - `<input max="number">` specifies the maximum number allowed.
- 

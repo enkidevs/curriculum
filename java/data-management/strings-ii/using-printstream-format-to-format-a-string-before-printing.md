@@ -17,7 +17,7 @@ links:
 
 ## Content
 
-```plain-text
+```java
 int i = 500;
 float f = 2.36;
 String s = "Java";
@@ -70,4 +70,3 @@ Using `System.out.format` , what specifier is used to print `float` s?
 - `%float`
 - `%decimal`
 - `%s`
- 

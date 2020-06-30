@@ -19,7 +19,7 @@ When you type the name of a program at the shell prompt, your shell will use the
 
 This is what the `which` command is for.  Given the name of a program, `which` will return the full path to the executable.  It looks like this:
 
-```plain-text
+```shell
 which ls
 /bin/ls
 
@@ -75,4 +75,3 @@ Which built-in command returns the path to an executable?
 - type ls
 - path ls
 - ll ls
- 

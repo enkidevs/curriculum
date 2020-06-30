@@ -26,7 +26,7 @@ In the following example, the `closed` field is `volatile`. This means that if a
 
 Without declaring `closed` as `volatile`, there is no guarantee that the thread would see the change in value as the compiler will only read the field `closed` once and will reuse the cached value for every execution of the loop. The loop will continue endlessly, even though we assume that the value of `closed` is changed by another running thread.
 
-```plain-text
+```java
 volatile boolean closed;
 public void close() {
   closed = true;
@@ -55,4 +55,3 @@ Take the following code snippet, the loop will run and loop endlessly, despite t
 - `static`
 - `finished`
 - `checker`
- 

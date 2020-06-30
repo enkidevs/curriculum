@@ -26,7 +26,7 @@ These properties also have values to specify how the formatting is done. Apart f
 
 Syntax:
 
-```plain-text
+```css
 <style type="text/css">
 @media print
 table {page-break-inside: avoid}
@@ -48,4 +48,3 @@ Which of the following is not a CSS page break? ???
 - `page-break-before`
 - `page-break-after`
 - `page-break-inside`
- 

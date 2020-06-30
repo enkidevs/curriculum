@@ -19,7 +19,7 @@ The HTML `<kbd>`, or the **Keyboard Input** element, is used to represent user i
 
 Example:
 
-```plain-text
+```html
 <p>
   On a Mac, use the keys:
   <kbd>⌘cmd</kbd> + <kbd>⇧shift</kbd> + 
@@ -74,12 +74,12 @@ What HTML element wraps around keyboard names to display the text differently th
 
 ## Quiz
 
-### Can you answer this question about 
+### Can you answer this question about
+
 
 `<kbd>`
 
  elements?
-
 
 What does the tag `<kbd>` do here?
 
@@ -89,4 +89,3 @@ What does the tag `<kbd>` do here?
 - Produces block element representing user input.
 - Produces pre-formatted text representing user input.
 - Produces sample output representing user input.
- 

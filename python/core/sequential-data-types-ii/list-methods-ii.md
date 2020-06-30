@@ -19,7 +19,7 @@ So we know about `append`, `extend`, `reverse`, `remove` and `pop`.  There are j
 
 - The `sort()` method sorts a `list` in ascending order, either alphabetically or numerically:
 
-```plain-text
+```python
 number_list = [6, 5, 3, 2]
 
 number_list.sort()
@@ -35,7 +35,7 @@ print(letters)
 
 - The `insert()` method *inserts an element at a given index*:
 
-```plain-text
+```python
 number_list.insert(4, 6)
 
 print(number_list)
@@ -84,4 +84,3 @@ list.???(???)
 - `list.insert(3, tres)`
 - `list.append(2, 'tres')`
 - `list.extend(2, 'tres)'`
- 

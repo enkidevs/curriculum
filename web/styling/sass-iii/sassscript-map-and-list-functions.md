@@ -21,7 +21,7 @@ All list functions work for maps too, maps are seen as a list of pairs.
 
 *Remember*, the first item is index 1 in SassScript, not 0. A few examples of the functions for both maps and lists:
 
-```plain-text
+```css
 // returns the length of a list or map
 length(6px 8px 10px) => 3
 length(loc1: val1, loc2: val2) => 2
@@ -47,4 +47,3 @@ What's the first item index in **SassScript**?
 
 - `1`
 - `0`
- 

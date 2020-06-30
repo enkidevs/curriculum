@@ -26,7 +26,7 @@ There are two other **optional** clauses available:
 
 Let's see what the syntax looks like:
 
-```plain-text
+```python
 try:
   #Exception-prone code
 except ExceptionI:
@@ -48,7 +48,7 @@ Useful information about the syntax:
 - One `try` statement can have multiple `except` clauses.
 - A generic `except` clause, which would handle any **exception**, can be defined:
 
-```plain-text
+```python
 except Exception as e:
   print(e)
 ```
@@ -57,7 +57,7 @@ except Exception as e:
 
 Suppose we want to **write** some data to a file that was opened in `r` mode:
 
-```plain-text
+```python
 try:
   fh = open("testfile", "r")
   fh.write("I want to write this!")
@@ -110,7 +110,7 @@ What are the two optional clauses of the `try-except` statement?
 
 // Here is an exception-handling block. Let's say a StopIteration is raised. How is it executed?
 
-```plain-text
+```python
 try:
     # Exception-prone code here...
     # Raise StopIteration!
@@ -128,4 +128,3 @@ finally:
 - It will do A, B and D
 - It will do A, B, C and D
 - It will do B and D
- 

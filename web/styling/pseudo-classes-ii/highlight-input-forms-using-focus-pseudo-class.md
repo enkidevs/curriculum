@@ -23,7 +23,7 @@ Responsiveness can make the forms more user-friendly and easier to read.
 
 The `:focus` pseudo-class allows us to target the form element that is clicked on. This means we can change how the input is displayed to better inform the user on what to input.  
 
-```plain-text
+```css
 input:focus{
   background-color: red;
 }
@@ -31,7 +31,7 @@ input:focus{
 
 Pseudo-classes can be combined with classes, or other selectors, to specify different elements:
 
-```plain-text
+```css
 .name:focus{
   background-color: red;
 }
@@ -60,7 +60,7 @@ What does the `:focus` pseudo class allow?
 
 What does the following CSS code do?
 
-```plain-text
+```css
 name:focus {
    background-color: red;
 }
@@ -74,4 +74,3 @@ dob:focus {
 - Sets the background colour of the name input to red, and of the date of birth input to green.
 - Sets the background colour of the name input to red and the rest of the page to green.
 - Sets the background colour of the date of birth input to green and the rest of the page to red.
- 

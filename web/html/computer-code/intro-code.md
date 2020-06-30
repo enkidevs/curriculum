@@ -16,7 +16,7 @@ The HTML `<code>` element is used to display a fragment of a computer code.
 
 Example:
 
-```plain-text
+```html
 <p>
   The function
   <code>
@@ -73,16 +73,16 @@ Which of these elements is used to style the contents as computer code?
 
 ## Quiz
 
-### How much do you know about the 
+### How much do you know about the
+
 
 `<code>`
 
  element?
 
-
 What will be the effect of wrapping this text in the *code* element?
 
-```plain-text
+```html
 <code>
   var x = 5;
   y = x == 10
@@ -93,4 +93,3 @@ What will be the effect of wrapping this text in the *code* element?
 - Only the text "var x = 5;" will be displayed within the page because the other line has no semicolon.
 - All text within `<code>`, will display in arial font.
 - All text within `<code>` will display with syntax highlighting associated with the coding language.
- 

@@ -22,7 +22,7 @@ Lambda expressions are one of the most significant additions that enable you to 
 
 Example of a lambda:
 
-```plain-text
+```java
 class LambdaTest {
 public static void main(String[] args) {
      // Anonymous Runnable
@@ -76,4 +76,3 @@ What token is specific to Lambda expressions?
 - `<-` 
 - `()` 
 - `=>`
- 

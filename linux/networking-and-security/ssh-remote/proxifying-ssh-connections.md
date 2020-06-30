@@ -20,13 +20,13 @@ notes: ''
 
 Since connection to a server is usually achieved by:
 
-```plain-text
+```bash
 ssh user@box
 ```
 
 An interesting feature of the ssh client is neglected:
 
-```plain-text
+```bash
 ssh user@box 'ls -la /tmp'
 total 4
 drwxrwxrwt  4 root root   80 Jun ...
@@ -39,7 +39,7 @@ This executes the command on the remote server and gets the output directly from
 
 This allows a user to log in to a remote host using another host as below:
 
-```plain-text
+```bash
 ssh -t hostB 'ssh hostC'
 ```
 
@@ -64,4 +64,3 @@ If you are using a middle server to connect to a third, what username will appea
 - the middle server’s username
 - your username
 - the third server’s username
- 

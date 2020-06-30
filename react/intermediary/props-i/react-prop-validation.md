@@ -23,13 +23,13 @@ This helps you in validating if the data (`props`) received in components is val
 
 To access the validators, you must first install the `prop-types` library which can be done using the NPM package manager:
 
-```plain-text
+```shell
 npm install --save prop-types
 ```
 
 Now, all validators are available through `PropTypes` and should be specified as part of your *React* component, on the property `propTypes`:
 
-```plain-text
+```jsx
 import React from "react";
 import PropTypes from "prop-types";
 
@@ -54,7 +54,7 @@ The validations above state that the specified `props` should be **JS** primitiv
 
 However, they can be required by appending `.isRequired` to the type:
 
-```plain-text
+```jsx
 MyComponent.propTypes = {
   myFunc: PropTypes.func.isRequired
 };
@@ -62,7 +62,7 @@ MyComponent.propTypes = {
 
 Now, let's create a component and verify that the `name` prop is a string:
 
-```plain-text
+```jsx
 class Welcome extends React.Component {
   render() {
     return (
@@ -129,4 +129,3 @@ Test.propTypes = {
 - `method`
 - `Props`
 - `Primitives`
- 

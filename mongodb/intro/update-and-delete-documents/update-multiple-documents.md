@@ -15,13 +15,13 @@ The  `updateMany()` method is used to update multiple documents. This method has
 
 Let's say we have a `pokemon` collection with 2 pokémon of `type` `"Fire"`.
 
-```plain-text
+```javascript
 db.pokemon.find({ type: "Fire" })
 ```
 
 Output:
 
-```plain-text
+```javascript
 {
   "_id": 3,
   "name": "Charmander",
@@ -36,7 +36,7 @@ Output:
 
 If we wanted to change their `type` to `"Flame"`, we can do that like so:
 
-```plain-text
+```javascript
 db.pokemon.updateMany(
   { type: "Fire" },
   { $set: { type: "Flame" } }
@@ -45,7 +45,7 @@ db.pokemon.updateMany(
 
 Output:
 
-```plain-text
+```javascript
 {
   "acknowledged": true,
   "matchedCount": 2,
@@ -55,13 +55,13 @@ Output:
 
 Now, if we check the `pokemon` collection for pokémon that have `"type": "Flame"` we would get:
 
-```plain-text
+```javascript
 db.pokemon.find({ type: "Flame" })
 ```
 
 Output:
 
-```plain-text
+```javascript
 {
   "_id": 3,
   "name": "Charmander",
@@ -119,4 +119,3 @@ db.pokemon.???(
 - `updateCollection`
 - `mud`
 - `dirt`
- 

@@ -20,7 +20,7 @@ Hyperlinks are more commonly called just 'links' in HTML. They are very useful f
 
 The hyperlink is defined with the `<a>` tag:
 
-```plain-text
+```html
 <a
   href="URL">This is linked text.
 </a>
@@ -28,7 +28,7 @@ The hyperlink is defined with the `<a>` tag:
 
 or
 
-```plain-text
+```html
 <a
   href="https://www.enki.com/">
   Visit Enki's 5-minute workouts!
@@ -53,7 +53,7 @@ By default, links open within the existing tab or window. The linked page can be
 
 Opening the link in a new tab is written like this:
 
-```plain-text
+```html
 <a
   href="https://www.enki.com/"
   target="_blank">
@@ -63,14 +63,14 @@ Opening the link in a new tab is written like this:
 
 During the web page development process, if web pages aren't created yet or you don't want to link them yet while still creating the linked object, `placeholder` links can be used. These provide the same interactivity as real links in that they can be clicked, but they do not open any new pages.
 
-```plain-text
+```html
 <a href="#">This link is interactive,
  but doesn't work yet.</a>
 ```
 
 It is also common to add links to images. To link images, the same tags are used, but wrap around an image element like this:
 
-```plain-text
+```html
 <a href="https://enki.com/"
    target="_blank">
   <img src ="logo.svg"
@@ -111,7 +111,7 @@ Create linked text that opens a webpage in a new window:
 
 When will the cursor change to a pointer with the following code?
 
-```plain-text
+```html
 <main>
   <a
     href="http://www.enkipro.com">
@@ -160,4 +160,3 @@ Which line of code will link text to open a new window?
 - `<link href="http://enki.com" open="new">Link to Enki</link>`
 - `<a src="http://enki.com" window="_new">Link to Enki</a>`
 - `<a href="http://enki.com" target="_new">Link to Enki</a>`
- 

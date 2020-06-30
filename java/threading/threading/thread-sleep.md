@@ -27,7 +27,7 @@ Sometimes you might want to put a thread to `sleep` (i.e. stop its execution for
 
 An example of using `sleep()`:
 
-```plain-text
+```java
 public class SleepingThread {
   public static void main(String args[])
     throws InterruptedException {
@@ -68,4 +68,3 @@ What method stops executing for a specified time and continues running afterward
 - join()
 - wait()
 - combine()
- 

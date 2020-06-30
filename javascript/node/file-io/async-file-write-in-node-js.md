@@ -21,7 +21,7 @@ The File System (FS) module provides file I/O. You can use `fs.writeFile` to **a
 
 The syntax is:
 
-```plain-text
+```javascript
 fs.writeFile(file, data[, options],
   callback)
 ```
@@ -31,7 +31,7 @@ The `options` parameter can be a string representing the `encoding` (eg: `utf8`)
 
 For example:
 
-```plain-text
+```javascript
 fs.writeFile('msg.txt',
   'Hello enki',
   function (err) {
@@ -98,4 +98,3 @@ const fs = require('fs')
 - enki.txt
 - FileSystem
 - writeFileAsync
- 

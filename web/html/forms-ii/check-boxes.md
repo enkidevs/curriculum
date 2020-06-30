@@ -17,7 +17,7 @@ links:
 
 The HTML `checkbox` type of input forms are square boxes that can be ticked or checked to be activated. They allow you to either select none, a single value, or more multiple values at once.
 
-```plain-text
+```html
 <form>
     <input type="checkbox"
       id="box1"
@@ -44,7 +44,7 @@ The HTML `checkbox` type of input forms are square boxes that can be ticked or c
 
 Example with one checkbox:
 
-```plain-text
+```html
 <form>
   <div>
     <input type="checkbox"
@@ -104,4 +104,3 @@ Which line creates an HTML form’s checkbox?
 - `<input type="check">`
 - `<form input="check">`
 - `<form input="checkbox">`
- 

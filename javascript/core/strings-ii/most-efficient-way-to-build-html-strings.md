@@ -15,7 +15,7 @@ On modern browsers, building **HTML** strings with `.join()` is less efficient t
 
 So, adding the values to an array and then joining them at the end:
 
-```plain-text
+```javascript
 let html = [];
 for (let i = 0; i < 100; i++) {
   html.push('<p>', i, '</p>');
@@ -25,7 +25,7 @@ html = html.join('');
 
 Runs slower than the straightforward method of building `HTML` strings using `+=`:
 
-```plain-text
+```javascript
 let html = '';
 for(let i = 0; i < 100; i++) {
   html += '<p>' + i + '</p>'
@@ -67,7 +67,7 @@ console.log(squares);
 
 What's the more efficient way to build `HTML` strings in modern browsers?
 
-```plain-text
+```bash
 1) + (plus operator)
 2) join()
 3) concat()
@@ -78,4 +78,3 @@ What's the more efficient way to build `HTML` strings in modern browsers?
 - 1
 - 2
 - 3
- 

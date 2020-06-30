@@ -20,14 +20,14 @@ Everything in Python has a data type, or *class*[1]. The ones you need to know a
 
 - **Integers** - any whole number. Integers belong to the `int` class:
 
-```plain-text
+```bash
 >>> type(12)
 # <class 'int'>
 ```
 
 - **Floats** - any decimal number. Floats belong to the `float` class:
 
-```plain-text
+```bash
 >>> type(12.0)
 # <class 'float'>
 ```
@@ -36,14 +36,14 @@ For all you mathematicians out there, there's one more numerical data type to be
 
 - **Strings** - any character wrapped in single or double quotes (`''` or `""`). Strings belong to the `str` class:
 
-```plain-text
+```bash
 >>> type('12')
 # <class 'str'>
 ```
 
 By using single quotes you can *embed* double quotes and vice-versa:
 
-```plain-text
+```python
 single = 'I can use "these"'
 double = "I can use 'these'"
 ```
@@ -103,7 +103,7 @@ A class is a code template where objects are created. For example, we may have a
 [2:Complex Numbers]
 Complex numbers come in the form `a + b*j`, where `a` is a real number, `b` is an imaginary number and `j` represents `√−1`.
 
-```plain-text
+```python
 complex_value = 3 + 5j
 type(complex_value)
 # <type 'complex'>
@@ -113,4 +113,3 @@ type(complex_value)
 Pythonic is an adjective used to describe code that is clear, concise and maintainable.
 
 Pythonic means code that doesn't just get the syntax right but that follows the conventions of the Python community and uses the language in the way it's intended to be used.
- 

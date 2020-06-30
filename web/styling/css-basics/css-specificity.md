@@ -46,7 +46,7 @@ For each basic selector that is part of a more complex selector, we increment th
 
 For example, consider the following selector that aims to style a heading, nested inside a div of class *my-class*, which is another div's child:
 
-```plain-text
+```css
 div div.my-class h2{}
 ```
 
@@ -82,7 +82,7 @@ In the above example, *selector2*'s styling is applied in case they target the s
 ### which of the following selectors has the highest specificity?
 
 
-```plain-text
+```css
 #nav .selected > p:hover {} /* 1 */
 #footer #note {} /* 2 */
 div div ul li div div img {} /* 3 */
@@ -94,4 +94,3 @@ div div ul li div div img {} /* 3 */
 - 1
 - 3
 - both 1 and 2
- 

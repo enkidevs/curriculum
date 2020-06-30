@@ -17,14 +17,14 @@ Control flow is the *order* in which individual statements or functions are exec
 
 > The `if...else` statement is used in Python for this decision making.
 
-```plain-text
+```python
 if <condition>:
   <execute this code>
 ```
 
 The program will only execute the code *if the condition has been met*.
 
-```plain-text
+```python
 num = 3
 if num > 0:
     print(num, " is a positive number")
@@ -34,7 +34,7 @@ The code above will print `'3 is a positive number'`.
 
 The `if` statement can be extended to include a *catch-all*, `else`, that will be executed if the condition is not met.
 
-```plain-text
+```python
 num = -1
 if num >= 0:
     print("Positive or Zero")
@@ -66,7 +66,7 @@ What does the following code snippet print?
 
 ???
 
-```plain-text
+```python
 x = 3
 if (x < 3):
     print ('small')
@@ -87,7 +87,7 @@ What does the following code snippet print?
 
 ???
 
-```plain-text
+```python
 x = 8
 if (x == 8):
     print ('true')
@@ -100,4 +100,3 @@ else:
 - false
 - True
 - False
- 

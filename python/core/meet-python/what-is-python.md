@@ -21,7 +21,7 @@ That means it's designed to be easy to read, using English keywords and simple s
 
 For example, here's how you might check whether a number is greater than another number:
 
-```plain-text
+```python
 my_age = 23
 legal_age = 21
 if my_age > legal_age:
@@ -65,4 +65,3 @@ Python is both a ??? and general-purpose programming language.
 
 [1:Syntax]
 The syntax is the set of rules that define how a program will be written and interpreted. It covers the symbols, indentation and keywords of the language. All programming languages use different syntax.
- 

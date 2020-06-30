@@ -21,7 +21,7 @@ For example, using special styles when the selector is hovered over. To implemen
 
 The `&` is replaced by the parent selector as it appears in the CSS.
 
-```plain-text
+```css
 p {
   font-weight: bold;
   &:hover { text-decoration: underline; }
@@ -31,7 +31,7 @@ p {
 
 The above sass code example would generate the following CSS code:
 
-```plain-text
+```css
 p {
   font-weight: bold;
 }
@@ -56,4 +56,3 @@ When referencing parent selectors, what symbol is used and what happens to this 
 - +, nothing, it remains there alongside the parent selector.
 - !, it's replaced by the referenced parent selector.
 - !, nothing, it remains there alongside the parent selector.
- 

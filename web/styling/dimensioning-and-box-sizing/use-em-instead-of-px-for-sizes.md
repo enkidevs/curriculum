@@ -22,7 +22,7 @@ links:
 
 With `px` :
 
-```plain-text
+```css
 .bodytext p {
     font-size:14px;
 }
@@ -33,7 +33,7 @@ With `px` :
 
 Or, using `em` :
 
-```plain-text
+```css
 .bodytext p {
     font-size:0.875em; /* 16x.875=14 */
 }
@@ -51,7 +51,7 @@ Another advantage of `em` relates to a browser's support for custom font sizes (
 
 You have the following code snippet:
 
-```plain-text
+```css
 body{
   font-size: 16px;
 }
@@ -86,4 +86,3 @@ Set the font-size of `.smallparagraph`  to 8px in a responsive way:
 - look
 - different
 - changing
- 

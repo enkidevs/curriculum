@@ -29,7 +29,7 @@ This way, they're displayed in columns so that when they get too small, the colu
 
 To do this, make use of media queries.
 
-```plain-text
+```css
 /* For small devices (e.g. smartphones) */
 img {
   max-width: 100%;
@@ -78,4 +78,3 @@ img {
 - `tablet`
 - `screen-size`
 - `@resize`
- 

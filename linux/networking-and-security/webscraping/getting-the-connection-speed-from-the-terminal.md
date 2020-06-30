@@ -22,7 +22,7 @@ links:
 To get your internet speed from the terminal there is a tool called `speedtest-cli`
 and we can set it up as below:
 
-```plain-text
+```bash
 pip install speedtest-cli
 ```
 
@@ -30,7 +30,7 @@ pip install speedtest-cli
 
 We should get something like this:
 
-```plain-text
+```bash
 speedtest-cli
 Retrieving speedtest.net configuration..
 Retrieving speedtest.net server list...
@@ -56,4 +56,3 @@ A tool to test your internet connection using the terminal is
 - internetspeed-cli
 - internetTest-cli
 - testspeed-cli
- 

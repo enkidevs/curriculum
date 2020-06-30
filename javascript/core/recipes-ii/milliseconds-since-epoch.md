@@ -65,4 +65,3 @@ var time = Date.???;
 - now();
 - getMillis();
 - getMilliseconds();
- 

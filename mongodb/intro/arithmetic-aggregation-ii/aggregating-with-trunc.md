@@ -13,7 +13,7 @@ category: feature
 
 In a previous insight, we used the `$divide` operator to calculate the `initialPower` for each pokémon. The output was:
 
-```plain-text
+```javascript
 { 
   "_id": ObjectId(
     "5d9d8c330b24990f19398214"
@@ -32,7 +32,7 @@ In a previous insight, we used the `$divide` operator to calculate the `initialP
 
 Notice how the values for `"initialPower"` have many numbers after the decimal point. When presenting your numbers, you might want to make them more readable. One way to do this in MongoDB is to use the `$trunc` operator. This operator is used to truncate to a whole number or to a desired decimal place, and it has the following syntax:
 
-```plain-text
+```javascript
 {
   $trunc: [<number>, <place>];
 }
@@ -40,7 +40,7 @@ Notice how the values for `"initialPower"` have many numbers after the decimal p
 
 Now, let's say we have saved these `key: value` pairs with the `insert()` method. We want to truncate them to a value with only one decimal. To do this we would write:
 
-```plain-text
+```javascript
 db.pokemon.aggregate([
   {
     $project: {
@@ -54,7 +54,7 @@ db.pokemon.aggregate([
 
 Output:
 
-```plain-text
+```javascript
 {
   "_id": ObjectId(
     "5d9d8c3f0b24990f19398215"
@@ -75,7 +75,7 @@ If we wanted to truncate without any decimal points, we would write it as `$trun
 
 Output:
 
-```plain-text
+```javascript
 {   
   "_id": ObjectId(
     "5d9d8c3f0b24990f19398215"
@@ -127,4 +127,3 @@ db.pokemon.aggregate([
 - `"$initialPower"`
 - `$truncate `
 - `"$initialPower", 2"`
- 

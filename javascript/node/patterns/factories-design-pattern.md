@@ -24,7 +24,7 @@ Factories will create objects for you so *you don't have to*.
 
 Basic factories pattern:
 
-```plain-text
+```javascript
 //enki.js
 function Enki (args) {
   this.args = args;
@@ -104,4 +104,3 @@ Which of the following statements about the factory design pattern do you consid
 - factories begin to be useful when working with complex constructors
 - specific methods will create objects instead of the constructor
 - factory methods will call the constructor themselves
- 

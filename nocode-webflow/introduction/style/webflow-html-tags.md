@@ -19,7 +19,7 @@ All elements have tags, however, not all can be edited through their elements ta
 
 The elements that can be edited without creating a class are:
 
-```plain-text
+```html
 Body (all pages)
 H1 Heading
 H2 Heading
@@ -88,4 +88,3 @@ Which color are HTML tags in Webflow?
 - Green
 - Blue
 - Red
- 

@@ -19,7 +19,7 @@ Cherry-picking is a method to apply a single, specific commit from another branc
 
 For example:
 
-```plain-text
+```bash
 git checkout master
 git cherry-pick a456bd7
 # merge commit a456bd7 (from another branch)
@@ -52,4 +52,3 @@ git ??? a456bd7
 - `cherry-pick`
 - `pick`
 - `merge`
- 

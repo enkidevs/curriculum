@@ -22,14 +22,14 @@ Suppose we have a basic *validator function* for length check. [1]
 
 The *validator function* that will be used will be called `lengthChecker`:
 
-```plain-text
+```jsx
 let lengthChecker = createChainableChecker(
   textLengthChecker);
 ```
 
 The `createChainableChecker` should look like:
 
-```plain-text
+```jsx
 function createChainableChecker(validate) {
   function checkType(
     isRequired,
@@ -65,7 +65,7 @@ function createChainableChecker(validate) {
 
 Now we can use it like:
 
-```plain-text
+```jsx
 text: lengthChecker.isRequired,
 ```
 
@@ -105,7 +105,7 @@ Is there a way to make a custom `propTypes` validator function implementing the 
 
 [1:code]
 
-```plain-text
+```jsx
 function textLengthChecker(
   props,
   propName,
@@ -123,4 +123,3 @@ function textLengthChecker(
   return null;
 }
 ```
- 

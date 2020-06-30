@@ -15,20 +15,20 @@ Classes are *templates* which can be used to create objects. They *encapsulate* 
 
 Classes also use Python's block structure and are defined using the `class` keyword:
 
-```plain-text
+```python
 class Employee:
    count = 0
 ```
 
 You can then create (instantiate) a class object using the syntax:
 
-```plain-text
+```python
 empty_empl = Employee()
 ```
 
 However, our blueprint of the *Employee* class is empty. The newly instantiated object can't do anything. We can define a first method, `__init__`: it's called the *initialization method* and it's called when you create a new instance of the class:
 
-```plain-text
+```python
 class Employee:
   count = 0
   def __init__(self, name):
@@ -39,13 +39,13 @@ class Employee:
 
 We can now pass some information when creating a new Employee:
 
-```plain-text
+```python
 basic_employee = Employee("John Doe")
 ```
 
 Once the `__init__` method has been taken care of, other methods can be defined normally. However, the first argument of those functions must always be `self` (a circular reference to the created object):
 
-```plain-text
+```python
 class Employee:
   # the code above
   def print_idnum(self):
@@ -62,7 +62,7 @@ Note: When calling methods, you do not need to pass `self` as a parameter, Pytho
 
 Which of the following is **not** a correct definition of a new class?
 
-```plain-text
+```python
 # A
 class Car:
   def __init__(self, model):
@@ -91,7 +91,7 @@ class Car:
 
 Pick the correct syntax for instantiating a class:
 
-```plain-text
+```python
 # A
 empl = Employee("John")
 
@@ -108,4 +108,3 @@ new empl = Employee("John")
 - B
 - C
 - neither
- 

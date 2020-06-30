@@ -29,7 +29,7 @@ links:
 
 Although whenever we create a custom class, we need to implement `hashCode()` method in order to be able to store it in a *HashMap*, a lot of commonly used classes are provided with implementation of this method. For example, if we take `String` class:
 
-```plain-text
+```java
 String s = "Enki";
 System.out.println(s);
 //Enki
@@ -49,4 +49,3 @@ What is hashing?
 - Concept of encoding an arbitrary data into a fixed size number in a unique way.
 - Concept of rewriting methods in a subclass if they already exist in a parent class.
 - Specific order of inheritance from multiple classes.
- 

@@ -21,7 +21,7 @@ All login attempts in Debian systems are logged to `/var/log/auth.log`. For dist
 
 Failed log-in attempts for Debian:
 
-```plain-text
+```bash
 grep sshd.\*Failed /var/log/auth.log 
 ```
 
@@ -35,7 +35,7 @@ sshd[5768]: Failed password for root from
 
 Failed connections that do not attempt login (for example, port scans):
 
-```plain-text
+```bash
 grep sshd.*Did /var/log/auth.log
 ```
 
@@ -49,7 +49,7 @@ sshd[1919]: Did not receive identification
 
 For **other systems**:
 
-```plain-text
+```bash
 journalctl _COMM=sshd 
 ```
 
@@ -66,4 +66,3 @@ journalctl _COMM=sshd
 - packets received
 - packets sent
 - passwords used to log in
- 

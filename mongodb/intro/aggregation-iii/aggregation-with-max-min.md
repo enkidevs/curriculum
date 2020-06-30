@@ -15,7 +15,7 @@ category: how to
 
 Syntax:
 
-```plain-text
+```javascript
 { $max: <expression> }
 ```
 
@@ -29,7 +29,7 @@ We can use the `$group` stage to group them by their `type`, and then use the `$
 
 Example:
 
-```plain-text
+```javascript
 db.pokemon.aggregate([
   {
     $group: {
@@ -42,7 +42,7 @@ db.pokemon.aggregate([
 
 Output:
 
-```plain-text
+```javascript
 { "_id": "Unknown", "highestPower": null }
 { "_id": "Bug", "highestPower": 120 }
 { "_id": "Psychic", "highestPower": 800 }
@@ -64,7 +64,7 @@ The `$min` operator behaves the same as the `$max` operator except that it looks
 
 Example:
 
-```plain-text
+```javascript
 db.pokemon.aggregate([
   {
     $group: {
@@ -77,7 +77,7 @@ db.pokemon.aggregate([
 
 Output:
 
-```plain-text
+```javascript
 { "_id": "Unknown", "lowestPower": null }
 { "_id": "Bug", "lowestPower": 120 }
 { "_id": "Psychic", "lowestPower": 400 }
@@ -93,7 +93,7 @@ Output:
 
 Example with both operators:
 
-```plain-text
+```javascript
 db.pokemon.aggregate([
   {
     $group: {
@@ -107,7 +107,7 @@ db.pokemon.aggregate([
 
 Output:
 
-```plain-text
+```javascript
 // ...
 {   
   "_id": "Water",
@@ -145,4 +145,3 @@ db.pokemon.aggregate([
 - `$minimum`
 - `$maximum`
 - `power`
- 

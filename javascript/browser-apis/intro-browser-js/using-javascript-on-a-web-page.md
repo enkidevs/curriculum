@@ -18,7 +18,7 @@ There are a number of ways to use JavaScript on a web page.
 
 One way is inline with the **script** tag:
 
-```plain-text
+```html
 <script>
   console.log("hello");
 </script>
@@ -26,7 +26,7 @@ One way is inline with the **script** tag:
 
 Another, on HTML elements directly:
 
-```plain-text
+```html
 <input
   type="button"
   value="test"
@@ -39,13 +39,13 @@ The common approach is to separate our JavaScript code in another file.
 
 We can put our code in a file called *hello.js* (note we remove the script tags when we put JavaScript in another file):
 
-```plain-text
+```javascript
 console.log("hello");
 ```
 
 This script can then be referenced with the src attribute of the script tag:
 
-```plain-text
+```html
 <script 
   src="hello.js">
 </script>
@@ -53,7 +53,7 @@ This script can then be referenced with the src attribute of the script tag:
 
 We can even reference scripts hosted on another server – it's common to do this when working with third party libraries:
 
-```plain-text
+```html
 <script 
   src="http://www.enki.com/hello.js">
 </script>
@@ -100,4 +100,3 @@ Complete the missing HTML tags to make the JavaScript code run directly on the w
 - `/>`
 - `<script`
 - `src=`
- 

@@ -27,7 +27,7 @@ Launching an OS process from within your code can have unexpected results or res
 
 `destroyForcibly()` terminates a process with a much higher degree of success than before. As a use-case you can check if a `process` didn't finish on time, terminate it and move forward:
 
-```plain-text
+```java
 if (process.wait(MY_TIMEOUT, 
  TimeUnit.MILLISECONDS)){ /*success!*/ }
 else { process.destroyForcibly(); }
@@ -36,7 +36,7 @@ else { process.destroyForcibly(); }
 
 `isAlive()` tells if a process launched by your code is still alive. You can make sure that before your code is done, you're not leaving any processes behind. 
 
-```plain-text
+```java
 for (Process p : processes) {
  if (p.isAlive()) { 
 p.destroyForcibly();}}
@@ -68,4 +68,3 @@ In Java8  several methods have been added to the `???` class in order to make ea
 - `OS` 
 - `ExternalProcess` 
 - `Interaction`
- 

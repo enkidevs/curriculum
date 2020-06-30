@@ -17,7 +17,7 @@ The `$ceil` operator is used to return the smallest whole number (integer) that 
 
 Syntax:
 
-```plain-text
+```javascript
 { $ceil: <number> }
 ```
 
@@ -25,7 +25,7 @@ For instance, let's say we grouped and summed all documents within our database 
 
 Example document:
 
-```plain-text
+```javascript
 { "_id": "Psychic", "sumOfPowers": 1203.141 }
 { "_id": "Normal", "sumOfPowers": 121.973 }
 { "_id": "Water", "sumOfPowers": 1466.5 }
@@ -33,7 +33,7 @@ Example document:
 
 Example aggregation:
 
-```plain-text
+```javascript
 db.pokemon.aggregate([
   {
     $project: {
@@ -47,7 +47,7 @@ db.pokemon.aggregate([
 
 Output:
 
-```plain-text
+```javascript
 { "_id": "Psychic", "sumOfPowers": 1204 }
 { "_id": "Normal", "sumOfPowers": 122 }
 { "_id": "Water", "sumOfPowers": 1467 }
@@ -61,7 +61,7 @@ The `$floor` aggregation operator has the same syntax as `$ceil`.
 
 Syntax:
 
-```plain-text
+```javascript
 { $floor: <number> }
 ```
 
@@ -69,7 +69,7 @@ They also behave very similarly, the only difference being that the `$ceil` oper
 
 Example on the same document as above:
 
-```plain-text
+```javascript
 db.pokemon.aggregate([
   {
     $project: {
@@ -83,7 +83,7 @@ db.pokemon.aggregate([
 
 Output:
 
-```plain-text
+```javascript
 { "_id": "Psychic", "sumOfPowers": 1203 }
 { "_id": "Normal", "sumOfPowers": 121 }
 { "_id": "Water", "sumOfPowers": 1466 }
@@ -102,4 +102,3 @@ What is the difference between the `$floor` and `$ceil` aggregation operators?
 - The `$ceil` operator rounds down, whereas the `$floor` operator rounds up.
 - There is no difference.
 - The `$floor` operator can only be used on an array of values, whereas the `$ceil` operator can only be used on an integer.
- 

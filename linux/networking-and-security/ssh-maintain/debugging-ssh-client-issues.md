@@ -18,7 +18,7 @@ notes: code blocks width is weird
 
 To see more detailed information when connecting to a host via ssh for debugging purposes, add the `-v` flag (for verbosity):   
 
-```plain-text
+```bash
 ssh -v user@host.corp.com
 ```
 
@@ -60,4 +60,3 @@ pkalg ssh-rsa blen 279
 debug1: Authentication succeeded (publickey)
 
 ```
- 

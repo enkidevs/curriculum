@@ -20,7 +20,7 @@ parent: custom-proptype-s-to-be-required
 
 `map` creates a new collection of children by invoking a function on every immediate child:
 
-```plain-text
+```js
 React.Children.map(
   children, 
   functionToCallOnEachChild
@@ -31,7 +31,7 @@ Keep in mind that if `children` is an array it will be traversed. Also, `functio
 
 `forEach` works similarly to `map`, where it also iterates on each child but this time it ignores the returned value of its callback and doesn't create a new collection:
 
-```plain-text
+```js
 React.Children.forEach(
   children, 
   functionToCallOnEachChild
@@ -40,7 +40,7 @@ React.Children.forEach(
 
 Return the total number of components in `children`:
 
-```plain-text
+```js
 React.Children.count(
   children
 )
@@ -50,7 +50,7 @@ Note: this method will not calculate the count of nested components, even if the
 
 Verifies that children has only one child (a React element) and returns it. Otherwise this method throws an error:
 
-```plain-text
+```js
 React.Children.only(
   children
 )
@@ -58,7 +58,7 @@ React.Children.only(
 
 Manipulate a collection of `children` by converting it into an array:
 
-```plain-text
+```js
 React.Children.toArray(
   children
 )
@@ -95,4 +95,3 @@ What method is used to invoke a function `fn` on every immediate child, but not 
 - `map`
 - `count`
 - `only`
- 

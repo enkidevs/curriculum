@@ -24,7 +24,7 @@ The fix consists of either switching Windows to UTC or Mac/Linux to local. The p
 
 Therefore, to make Linux use *local* time, edit `rcS` file, containing variables that affect the behaviour of boot scripts:
 
-```plain-text
+```bash
 sudo nano /etc/default/rcS
 ```
 
@@ -70,4 +70,3 @@ Most of the Unix/Linux operating systems use ??? as the basis for local time.
 
 [1:UTC]
 Coordinated Universal Time, ranging from UTC-12 to UTC+12.
- 

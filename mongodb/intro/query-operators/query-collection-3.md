@@ -29,7 +29,7 @@ Let's say we have a `pokemon` collection where each pokémon has a `power` field
 
 Now, we want to look through the `pokemon` collection and find all the pokémon that have their `power` level greater than `250`. We can do so like this:
 
-```plain-text
+```javascript
 db.pokemon.find({ 
   power: { 
     $gt: 250 
@@ -39,7 +39,7 @@ db.pokemon.find({
 
 Output:
 
-```plain-text
+```javascript
 {
   "_id" : ObjectId(
     "5d9d8a6a0b24990f19398209"
@@ -81,7 +81,7 @@ Output:
 
 The other 3 operators, `$lt`, `$lte` and `$gte`, are used in the exact same way as the `$gt` operator.
 
-```plain-text
+```javascript
 db.pokemon.find({ 
   power: { 
     $gte: 250 
@@ -103,7 +103,7 @@ db.pokemon.find({
 
 You can also use a combination of the above operators to create more precise queries. For instance, to find all pokémon that are `1` or less years old and have power greater than `350`:
 
-```plain-text
+```javascript
 db.pokemon.find({
   power: { $gt: 350 },
   age: { $lte: 1 }
@@ -112,7 +112,7 @@ db.pokemon.find({
 
 Output:
 
-```plain-text
+```javascript
 // ...
 {
   "_id": ObjectId(
@@ -182,4 +182,3 @@ db.pokemon.???({
 
 [1:Categorical and discrete data]
 By categorical data we mean variables that represent a characteristic, and that might not have a logical order. By discrete data we mean variables that are countable, and that can be bounded by a range of values.
- 

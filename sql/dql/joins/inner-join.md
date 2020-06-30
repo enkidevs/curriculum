@@ -41,7 +41,7 @@ And for the `ability_effect_text`:
 
 To match the abilities that can be found in both tables, use the following `INNER JOIN` command:
 
-```plain-text
+```sql
 SELECT ability.name,
   ability_effect_text.effect
 FROM ability
@@ -129,4 +129,3 @@ Select the query that will get the name, height and width of all pokemon that ar
 
 [1: Ability]
 A Pokémon's ability is an aura that is passively active and provides benefits to the Pokemon and, sometimes, its party.
- 

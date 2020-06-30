@@ -24,7 +24,7 @@ There are four *BLOB* types in MySQL:
 
 In MySQL, `blob` is similar to `varbinary(n)` and can be used interchangeably. To create the table:
 
-```plain-text
+```sql
 CREATE TABLE sprite(
   id serial PRIMARY KEY,
   pokemon longblob
@@ -33,7 +33,7 @@ CREATE TABLE sprite(
 
 And to insert values:
 
-```plain-text
+```sql
 INSERT INTO sprite
 VALUES(LOAD_FILE('pikachu.png'));
 
@@ -80,4 +80,3 @@ VALUES(???);
 - `'0xTHISISMYIMAGE'`
 - `0xTHISISMYIMAGE`
 - `LOAD_FILE('pikachu.jpg')`
- 

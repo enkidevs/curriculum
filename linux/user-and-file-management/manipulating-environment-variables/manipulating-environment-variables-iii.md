@@ -21,7 +21,7 @@ The contents of `PATH` tell your shell where to look for executables.  It is the
 
 The `PATH` variable itself contains a `:`-delimited list of directories:
 
-```plain-text
+```bash
 echo $PATH
 # /usr/local/bin:/usr/bin:/bin
 ```
@@ -53,4 +53,3 @@ Which of these is used to delimit directories in the `PATH` variable?
 - ;
 - ,
 - .
- 

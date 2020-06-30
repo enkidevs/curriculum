@@ -20,7 +20,7 @@ If permission is provided then the promise returned is resolved with the `MediaS
 
 Standard syntax:
 
-```plain-text
+```javascript
 navigator.mediaDevices
   .getUserMedia(constraints)
   .then(function (mediaStream) {
@@ -33,7 +33,7 @@ navigator.mediaDevices
 
 A full example getting and returning the `MediaStream` object, using the promise:
 
-```plain-text
+```javascript
 let p = navigator.mediaDevices.getUserMedia(
   { audio: true, video: true }
 );
@@ -41,7 +41,7 @@ let p = navigator.mediaDevices.getUserMedia(
 
 You can do something with the video here:
 
-```plain-text
+```javascript
 p.then(function (mediaStream) {
   let video = document.querySelector(
     "video"
@@ -57,7 +57,7 @@ p.then(function (mediaStream) {
 
 You always check for errors at the end:
 
-```plain-text
+```javascript
 p.catch(function(err) {
   console.log(err.name);
 });
@@ -96,4 +96,3 @@ promise returned and resolved with? ???
 - A permission object.
 - A promise object.
 - Constraints for the media device.
- 

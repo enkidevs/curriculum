@@ -24,7 +24,7 @@ links:
 
 For example, if all items have flex-grow set to 1, every child will set to an equal size inside the container. If you were to give one of the children a value of 2, that child would take up twice as much space as the others.
 
-```plain-text
+```html
 <ul class="flex-container">
   <li class="flex-item">1</li>
   <li class="flex-item">2</li>
@@ -36,7 +36,7 @@ For example, if all items have flex-grow set to 1, every child will set to an eq
 
 ---
 
-```plain-text
+```css
 .flex-item:nth-of-type(1) { flex-grow: 1; }
 .flex-item:nth-of-type(2) { flex-grow: 1; }
 .flex-item:nth-of-type(3) { flex-grow: 2; }
@@ -81,4 +81,3 @@ What does `flex-grow` accept and what does it serve as?
 - A value, which serves as a factor.
 - A string, which serves as a description.
 - A unit, which serves as a multiple.
- 

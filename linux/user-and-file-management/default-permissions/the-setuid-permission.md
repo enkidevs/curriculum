@@ -23,7 +23,7 @@ When set-user identification (`setuid`) permission is set on an executable file,
 
 This special permission allows a user to access files and directories that are normally only available to the owner. For example, the `setuid` permission on the `passwd` command makes it possible for a user to change its password, assuming the permissions of the root:
 
-```plain-text
+```bash
 ll /usr/bin/passwd
  -rwsr-xr-x 1 root /usr/bin/passwd*
 ```
@@ -32,7 +32,7 @@ The `s` in the permissions shows that special permissions is set.
 
 We can set this special permissions with:
 
-```plain-text
+```bash
 chmod +s file
 ```
 
@@ -65,4 +65,3 @@ Set the `setuid` attribute for a file:
 - `file_name`
 - `+g`
 - `setuid`
- 

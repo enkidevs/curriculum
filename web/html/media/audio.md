@@ -22,7 +22,7 @@ Since HTML5, the `<audio>` tag is used to embed audio on a web page or document.
 
 Like so:
 
-```plain-text
+```html
 <audio src="audio.mp3" controls>
   <p>
     You're seeing this because
@@ -44,7 +44,7 @@ You can also add more songs via the `<source>` element.
 
 Example 1:
 
-```plain-text
+```html
 <audio controls>
   <source src="one_song.mp3"
     type="audio/mpeg">
@@ -56,7 +56,7 @@ Example 1:
 
 Example 2:
 
-```plain-text
+```html
 <audio controls>
   <source src="some_song.mp3"
     type="audio/mpeg">
@@ -131,4 +131,3 @@ When you want to provide fallback content for user's that do not have browsers t
 - CSS can be used to notify the user.
 - Any browser, regardless of the version, can play HTML5 audio.
 - Use the attribute "fallback" to provide the appropriate message.
- 

@@ -29,7 +29,7 @@ The `yield` statement tells the interpreter to store local variables and record 
 
 Consider this generator:
 
-```plain-text
+```python
 def test_generator():
     yield 1
     yield 2
@@ -41,7 +41,7 @@ g = test_generator()
 
 We can now iterate over `g` using the `next()` function:
 
-```plain-text
+```python
 print(next(g)) # 1
 print(next(g)) # 2
 print(next(g)) # 3
@@ -61,4 +61,3 @@ What statement is specific to generators instead of `return` ?
 - `for`
 - `await`
 - `return`
- 

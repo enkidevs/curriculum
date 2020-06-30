@@ -15,7 +15,7 @@ links:
 
 Let's start off by looking at how you would usually initialize a state in a class component:
 
-```plain-text
+```js
 class Enki extends React.Component(
   constructor(props) {
     super(props);
@@ -28,7 +28,7 @@ class Enki extends React.Component(
 
 But what if you wanted to use function components? In a function component you can't assign or read `this.state`. This is where hooks come in:
 
-```plain-text
+```js
 import React, { useState } from "react";
 
 function Enki() {
@@ -44,13 +44,13 @@ The only argument you pass to the `useState()` hook is the **initial state**, an
 
 The `useState()` hook returns a pair of values that corresponds to the current state and a function used to update it. It makes use of array destructuring[1], and for this reason you call:
 
-```plain-text
+```js
 const [name, setName] = useState("Enki");
 ```
 
 Now that you have defined the `name` state you can use it anywhere in your component:
 
-```plain-text
+```jsx
 import React, { useState } from "react";
 import ReactDOM from "react-dom";
 
@@ -126,4 +126,3 @@ function Counter() {
 
 [1:Array destructuring]
 In JavaScript, the destructuring assignment syntax allows you to unpack values from arrays (or properties from objects) into distinct variables. In our case, the `useState()` returns and array with the current value of the state as element `[0]`, and a function that modifies the state as element `[1]`. We use array destructuring to assign the elements names because it is a bit confusing referring to them by their index.
- 

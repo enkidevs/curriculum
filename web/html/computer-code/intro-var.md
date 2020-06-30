@@ -19,7 +19,7 @@ The HTML `<var>`, or the **Variable** element, is used to represent a name of a 
 
 Example:
 
-```plain-text
+```html
 <p><var>X</var> = 10<br>
  <var>Y</var> = 2
 <p>As you can see:
@@ -92,4 +92,3 @@ tag=???
 - pre
 - math
 - output
- 

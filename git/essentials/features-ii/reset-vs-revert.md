@@ -19,7 +19,7 @@ One of the most useful commands to undo *uncommitted* changes made to files is *
 
 The principle behind them is fairly straight forward: you have to go back to a point in time when your project actually worked. Consider the following situation: 
 
-```plain-text
+```bash
 git add .
 git status
 On branch feature
@@ -33,7 +33,7 @@ Changes to be committed:
 
 You discovered an ugly bug right before committing and are looking to go back to the moment in time right before you started writing code. To do that, issue:
 
-```plain-text
+```bash
 git reset --hard HEAD
 ```
 
@@ -41,20 +41,20 @@ This will reset everything to the last commit, **deleting any record** of the ch
 
 In case of multiple commits:
 
-```plain-text
+```bash
 # A, B, C are commits' SHA1
 ... - A - B - C
 ```
 
 Reseting to `A` instead of `HEAD` means losing any record of commits `B` and `C`. To move the `HEAD` to `A` but keep `B` and `C` as staged and ready to commit, use the `--soft` flag:
 
-```plain-text
+```bash
 git reset --soft A
 ```
 
 `git revert`, on the other hand, doesn't meddle with the history. All it does is to create a new commit **undoing the changes** of the specified commit. If commit `B` added the `b.txt` file:
 
-```plain-text
+```bash
 git revert B
 # Revert "add b.txt"
 # This reverts commit B
@@ -63,7 +63,7 @@ git revert B
 
 This history will now look like this, where `D` is the revert commit:
 
-```plain-text
+```bash
 ... - A - B - C - D
 ```
 
@@ -97,4 +97,3 @@ git ???
 - `reset --soft HEAD`
 - `reset HEAD`
 - `reset`
- 

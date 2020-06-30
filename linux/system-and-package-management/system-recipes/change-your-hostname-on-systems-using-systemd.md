@@ -27,7 +27,7 @@ The `hostnamectl` command is part of the `systemd-services` package.
 
 As well as setting the static hostname, it can set the "pretty" hostname[1], which is not used in Ubuntu. 
 
-```plain-text
+```bash
 hostnamectl set-hostname 
                     new_hostname
 ```
@@ -76,4 +76,3 @@ Even if you use `hostnamectl` to change the hostname, you should manually edit t
 
 [1:Pretty Hostname]
 The pretty hostname is a free-form UTF8 host name for presentation to the user. (e.g. *Charlie's Laptop*)
- 

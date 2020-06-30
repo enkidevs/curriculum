@@ -24,7 +24,7 @@ The `%` operator formats a set of variables enclosed in a tuple, which is a fixe
 
 For instance, say you have some variables. This is how you would print them:
 
-```plain-text
+```python
 app = 'Enki'
 workout_number = 3
 print('Learning Python with %s, workout number %d.' % (app, workout_number))
@@ -35,7 +35,7 @@ Although useful when working with a low number of variables, you can see how rea
 
 Since Python 2.6, a new method of string formatting has been introduced. You can now call the `str.format()` method on any string. The functionality is similar, but instead of `%s`, `%d`, or `%f`, you now have to use curly brackets `{}`.
 
-```plain-text
+```py
 app = 'Enki'
 workout_number = 3
 a_string = 'Learning Python with {}, workout number {}.'.format(app, workout_number)
@@ -47,7 +47,7 @@ print(a_string)
 
 As you can see, the `format` method takes in the replacements as arguments, and returns the formatted string. Another useful feature of this method is that you can decide which argument is replaced, by using indexes:
 
-```plain-text
+```py
 app = 'Enki'
 workout_number = 3
 another_string = 'Learning Python with {1}, workout number {0}.'.format(app, workout_number)
@@ -92,4 +92,3 @@ When you want to use two or more argument specifiers, what must you use in order
 - A tuple
 - A function
 - A string
- 

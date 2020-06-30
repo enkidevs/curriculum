@@ -21,7 +21,7 @@ links:
 
 Use right/left/top/bottom to specify which border of the element you want to apply the style to.
 
-```plain-text
+```css
 p.right {
   border-right-style: dotted;
 }
@@ -29,7 +29,7 @@ p.right {
 
 Using `border-style` will change all four borders around the element.
 
-```plain-text
+```css
 p.all {
   border-style: dashed;
 }
@@ -47,4 +47,3 @@ Which of the following is not a `border-style`? ???
 - `ridge`
 - `double`
 - `dashed`
- 

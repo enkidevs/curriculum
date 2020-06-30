@@ -13,7 +13,7 @@ category: must-know
 
 The mongodb `save()` method can be used to either update/replace an existing document or insert a new one. The syntax is:
 
-```plain-text
+```javascript
 db.collection.save(<document>)
 ```
 
@@ -23,7 +23,7 @@ If we specify an existing `_id` field for the `save()` method, it will work like
 
 Let's say we have a document where some information is wrong:
 
-```plain-text
+```javascript
 {
   "_id": ObjectId(
     "5d9d8b8c0b24990f1939820f"
@@ -36,7 +36,7 @@ Let's say we have a document where some information is wrong:
 
 To replace it with a new document with the corrected information, we can do so like this:
 
-```plain-text
+```javascript
 db.pokemon.save({
   "_id": ObjectId(
     "5d9d8b8c0b24990f1939820f"
@@ -49,7 +49,7 @@ db.pokemon.save({
 
 Output:
 
-```plain-text
+```javascript
 WriteResult({
   "nMatched": 1,
   "nUpserted": 0,
@@ -65,7 +65,7 @@ The `nModified: 1` means that a single document was modified.
 
 To add a new document to an existing collection, we can add an `_id` field whose value doesn't match any document, like so:
 
-```plain-text
+```javascript
 db.pokemon.save({
   "_id": 777,
   "name": "RandomPokemon",
@@ -76,7 +76,7 @@ db.pokemon.save({
 
 Output:
 
-```plain-text
+```javascript
 WriteResult({
   "nMatched": 0,
   "nUpserted": 1,
@@ -95,7 +95,7 @@ The `"_id": 777` is the `_id` we specified in our save method.
 Last but not least, we can add a new document to the collection without specifying an `_id` field. If a document is added this way, a new `ObjectID` is created by default.
 Example:
 
-```plain-text
+```javascript
 db.pokemon.save({
   "name": "Unknown",
   "type": "Unknown"
@@ -104,13 +104,13 @@ db.pokemon.save({
 
 Output:
 
-```plain-text
+```javascript
 WriteResult({ "nInserted": 1 })
 ```
 
 How the document looks:
 
-```plain-text
+```javascript
 { 
   "_id": 
     ObjectId("5d68a9beb63e7f6619512670"),
@@ -171,4 +171,3 @@ What is the MongoDB `save()` method used for?
 - `Only to save a new document.`
 - `Only to update.`
 - `To save a new copy of the specified collection.`
- 

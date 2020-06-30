@@ -27,14 +27,14 @@ If not altered every command executed on a linux system is stored in the `.bash_
 That file is in the home directory of the user executing the command.
 If we need to clear our current history we do:
 
-```plain-text
+```bash
 cat /dev/null > ~/.bash_history
 history -c
 ```
 
 To clear another user's file we do the same:
 
-```plain-text
+```bash
 cat /dev/null >
 /home/otherUser/.bash_history
 ```
@@ -76,4 +76,3 @@ To clear the current user’s history you can run:
 - `-history`
 - `echo`
 - `-d`
- 

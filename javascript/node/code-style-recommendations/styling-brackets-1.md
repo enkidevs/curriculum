@@ -25,7 +25,7 @@ The style of the code shouldn't influence its performance in any way. The guidel
 
 For a function or block (`if`/`else`, `switch`, etc) in JavaScript, brackets are used to denote the body:
 
-```plain-text
+```javascript
 function echo() {
   const status = 'right';
   return status;
@@ -69,7 +69,7 @@ No matter how we place the brackets around a block, the behavior of the code ins
 
 Which of the following is a valid function definition?
 
-```plain-text
+```js
 function A() {
   // ...
 }
@@ -85,4 +85,3 @@ function B()
 - Both
 - A
 - B
- 

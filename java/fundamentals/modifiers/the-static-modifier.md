@@ -20,7 +20,7 @@ The same happens for a static method. It can be accessed independently of any cl
 
 For example:
 
-```plain-text
+```java
 public class Car{
   private static int piecesSold = 0;
   public Car(){
@@ -41,7 +41,7 @@ public class FamilyCar extends Car{
 
 The above snippet counts how many `Car` objects are instantiated. It also counts the number of subclasses instantiated:
 
-```plain-text
+```java
 Car a = new Car();
 Car b = new FamilyCar();
 FamilyCar c = new FamilyCar();
@@ -53,7 +53,7 @@ Car.printSold(); FamilyCar.printSold();
 
 With the output:
 
-```plain-text
+```bash
 3 3 3 3 3
 ```
 
@@ -110,7 +110,7 @@ How are static variables also called?
 ### how do class variables work?
 
 
-```plain-text
+```java
 public class Dog {
   String name;
   int age;
@@ -137,4 +137,3 @@ System.out.print(d1.getCurrentSum());
 - 2 and 3
 - 2 and 2
 - 5 and 5
- 

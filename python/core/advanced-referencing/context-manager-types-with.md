@@ -25,7 +25,7 @@ The **context manager** type is a Python feature to help work with unmanaged res
 
 The use of the `with` statement (on objects that support it, such as built-in or custom context managers) is used to ensure resources are **cleaned up** after use.
 
-```plain-text
+```python
 >>> with open('a.txt', 'w') as f:
 ...     f.write('a line')
 ...
@@ -44,7 +44,7 @@ True
 
 To implement a custom **context manager**, two methods must be implemented:
 
-```plain-text
+```python
 class my_context_manager:
   def __enter__(self):
       # set up things
@@ -104,4 +104,3 @@ What functionality does `with` carry in a `with context as name` block in Python
 - It ensures that context object exists and if doesn't the compiler will throw an error.
 - `try/catch`
 - `exceptions`
- 

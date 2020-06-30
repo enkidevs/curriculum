@@ -19,7 +19,7 @@ The HTML form input type `range` is used to specify any numeric value between tw
 
 Example:
 
-```plain-text
+```html
 <input
   type="range"
   min="1"
@@ -52,7 +52,7 @@ Example:
 
 Breaking down the example:
 
-```plain-text
+```html
 <input
   type="range"
   min="1"
@@ -68,7 +68,7 @@ With this block of HTML code, we have set the input to type `range`. The initial
 - If the values of min and max are not specified, the default value of min is 0 and the default value of max is 100.
 - You can also set negative numbers, such as: `min=-5` and `max=5`
 
-```plain-text
+```html
 <script>
  var slider =
   document.getElementById("myRange");
@@ -90,7 +90,7 @@ Additionally, you can edit your sliders by adding hash marks. This is done with 
 
 Example:
 
-```plain-text
+```html
 <input
   type="range"
   list="tickmarks">
@@ -112,7 +112,7 @@ In the example above, we defined a slider with 5 hash marks, at 0, 25, 50, 75 an
 
 Example:
 
-```plain-text
+```html
 <input
   type="range"
   list="tickmarks">
@@ -175,4 +175,3 @@ Which form input type defines a slider control?
 - controls
 - slider
 - drag
- 

@@ -34,7 +34,7 @@ The common log files contain:
 
 You can also check kernel messages log by running `dmesg` as root:
 
-```plain-text
+```bash
 sudo dmesg
 ...
 [0.052269] Mountpoint-cache hash table 
@@ -60,4 +60,3 @@ You can check kernel messages log by issuing
 - dboot
 - log
 - kmesg
- 

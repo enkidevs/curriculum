@@ -24,7 +24,7 @@ The `<select>` element is used to create a control with a menu of options/items 
 
 Example:
 
-```plain-text
+```html
 <form>
 <select name="apples">
  <option
@@ -47,7 +47,7 @@ Example:
 In the example above, we have a dropdown menu with 3 possible options.
 You can also set another option item to display pre-selected first, with the `selected` attribute:
 
-```plain-text
+```html
 <form>
 <select name="apples">
  <option
@@ -132,4 +132,3 @@ When a form’s drop-down has an option other than the first item that needs to 
 - preselected
 - default
 - select
- 

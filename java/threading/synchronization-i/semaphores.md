@@ -15,7 +15,7 @@ Semaphores are very similar to locks, the only difference is that they allow mul
 
 The following code is an example of a basic *semaphore* class. It keeps track of how many threads have acquired the semaphore and only allows new threads to acquire it if the limit is not reached.
 
-```plain-text
+```java
 public class Semaphore {
   private int threadsEntered = 0;
   private int limit = 0;
@@ -81,4 +81,3 @@ What is the key difference between a lock and a semaphore?
 
 [1:Critical Section]
 Section of a code which can only be accessed by a certain number of threads/processes (usually no more than one).
- 

@@ -24,7 +24,7 @@ In particular the `npm run` and `npm start` commands let you set required **flag
 
 For instance:
 
-```plain-text
+```javascript
 env NODE_PATH=./ node myProject/index.js
 ```
 
@@ -32,7 +32,7 @@ The script will add the specified directory to the `require()` function's module
 
 Suppose your application relies on the `env NODE_PATH ./` trick, but also on other flags, a starting script can be easily defined:
 
-```plain-text
+```json
 {
   "scripts": {
     "start": "env NODE_PATH=./ node
@@ -91,4 +91,3 @@ In `package.json`, define a script that runs `node index.js`. Add to it the `--h
 - --har
 - -h
 - "abc"
- 

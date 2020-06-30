@@ -27,7 +27,7 @@ On Linux and other Unix-based operating systems, common environment variables in
 
 Use the `env` command to see a list of all current environment variables:
 
-```plain-text
+```shell
 env
 USER=jesse
 HOME=/home/jesse
@@ -37,14 +37,14 @@ EDITOR=vim
 
 Here the `USER` environment variable has a value of `jesse` while the `HOME` environment variable has a value of `/home/jesse`.  You can use the `echo` command to display the value of a single environment variable:
 
-```plain-text
+```shell
 echo $HOME
 /home/jesse
 ```
 
 When referencing the value of a given environment variable you must prefix the name with a `$`.  Compare `echo $HOME` to the following:
 
-```plain-text
+```shell
 echo HOME
 HOME
 ```
@@ -67,4 +67,3 @@ How would you list all environment variables’ values?
 - `$ALL`
 - `vars`
 - `$VARS`
- 

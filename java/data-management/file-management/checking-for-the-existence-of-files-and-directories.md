@@ -22,7 +22,7 @@ When performing operations on files, it is useful to be able to check whether ex
 
 We can check that a file or directory exists by using the `exists` method:
 
-```plain-text
+```java
 File f = new File("path/to/file");
 if(f.exists()) {
   ...
@@ -33,7 +33,7 @@ However, `exists` returns `true` for both files and directories. This can cause 
 
 To solve this, `isFile` and `isDirectory` can be used to check specifically for files and directories respectively:
 
-```plain-text
+```java
 File f = new File("path/to/file");
 if(f.isFile()) {
   ...
@@ -75,7 +75,7 @@ How would you check if the file exists?
 
 What should be checked here such that the below code won't throw errors?
 
-```plain-text
+```java
 public static void main(String[] args) {
   String fileName = "home/path/to/file";
   Stream<String> stream = Files.lines(Paths.get(fileName));
@@ -89,4 +89,3 @@ public static void main(String[] args) {
 - If the stream is empty
 - If variable 'line' is a string
 - If 'stream.filter()' function exists
- 

@@ -17,7 +17,7 @@ tags:
 
 **JSON**, or JavaScript Object Notation, is a string that has a semantic value. A JSON object looks like this:
 
-```plain-text
+```json
 {
 	"id": 1,
 	"name": "Bulbasaur",
@@ -48,7 +48,7 @@ A common requirement that tables include is that JSON fields must use `UTF-8` en
 
 Which of the following JSON objects is valid?
 
-```plain-text
+```json
 {
   'id': 'A',
   'name': 'John',
@@ -96,4 +96,3 @@ While storing JSON data is possible in most relational databases, the ones that 
 
 [1:NoSQL]
 Because of JSON's versatility and popularity of JavaScript, a new type of database had been created to better match the needs of developers. They are called NoSQL (non-SQL or non-relational) databases.
- 

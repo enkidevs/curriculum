@@ -19,13 +19,13 @@ The "Reuse Recorded Resolution" tool (`rerere`) permits git to remember how you 
 
 To turn on `rerere`:
 
-```plain-text
+```bash
 git config --global rerere.enabled true
 ```
 
 To see what `rerere` will remember as the resolution:
 
-```plain-text
+```bash
 git rerere diff
 -- - a/hello.js
 +++ b/hello.js
@@ -71,4 +71,3 @@ rerere(“Reuse Recorded Resolution”) ??? the way you ??? a ??? conflict and a
 - merging
 - shares
 - pulling
- 

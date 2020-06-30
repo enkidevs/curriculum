@@ -23,7 +23,7 @@ This will produce a list of commits that have the keyword in their commit messag
 
 For example:
 
-```plain-text
+```bash
 git log --pretty=format:"%h: %s" 
   --grep=README
 4310c3a: Altered README content
@@ -54,7 +54,7 @@ git ??? ???
 
 What does this code do?
 
-```plain-text
+```bash
 git log --pretty=oneline --grep=enki
  
 ```
@@ -64,4 +64,3 @@ git log --pretty=oneline --grep=enki
 - Shows the commit messages with 'enki'.
 - Shows the commits by author 'enki'.
 - Shows the commits in 'enki' repository.
- 

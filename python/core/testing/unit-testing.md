@@ -21,7 +21,7 @@ A **unit** is the smallest testable part of a program. **Unit testing** ensures 
 
 Consider the following example:
 
-```plain-text
+```python
 import unittest
 
 class SimplisticTest(unittest.TestCase):
@@ -56,7 +56,7 @@ Two additional methods are worth mentioning: `setUp()` and `tearDown()`, which a
 
 In order to **run a test**, we need to fire up a terminal and type in the following command:
 
-```plain-text
+```bash
 python -m unittest simple_test.py
 ```
 
@@ -78,7 +78,7 @@ The full stop displayed above the dashes ('-') indicates how many test have **pa
 
 For more detailed test results, use the `-v` flag with the command:
 
-```plain-text
+```bash
 python -m unittest simple_test.py -v
 ```
 
@@ -119,4 +119,3 @@ OK
 - a condition is met
 - an expected result is met
 - a specific exception is raised
- 

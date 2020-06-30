@@ -32,7 +32,7 @@ typeof new Array() // "object"
 
 What does the following return? ???
 
-```plain-text
+```javascript
 typeof new Date();
 ```
 
@@ -52,4 +52,3 @@ typeof new Date();
 - null
 - var
 - Array()
- 

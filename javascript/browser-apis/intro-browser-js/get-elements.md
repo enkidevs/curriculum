@@ -24,7 +24,7 @@ links:
 There are a number of ways to select a tag or group of tags on an HTML document using the DOM.
 One of the methods we have seen before, `getElementById`. Here's an example of selecting a tag with the `id` of `'message'`:
 
-```plain-text
+```html
 <html>
 <body>
 
@@ -43,7 +43,7 @@ var message = document
 
 Another way to select tags is by tag name with the method `getElementsByTagName`. This will return an array of paragraph tags, even if there is only one.
 
-```plain-text
+```html
 <html>
 <body>
 
@@ -60,7 +60,7 @@ var paragraphs = document
 
 If you have a group of elements that you want to be able to group and select together you can give them all the same class name and use the `getElementsByClassName` method. This method also returns an array of tags that match the class name, similar to `getElementsByTagName`. For example we have a few tags we will eventually want to turn blue, lets give them a class of blue and select them by that class name:
 
-```plain-text
+```html
 <html>
 <body>
 
@@ -155,4 +155,3 @@ All about coffee
 - `document.getElementsByTagName('p');`
 - `document.getElementsByName('p');`
 - `document.getElementsByTagName('paragraph');`
- 

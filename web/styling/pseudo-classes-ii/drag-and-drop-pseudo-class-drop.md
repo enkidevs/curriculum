@@ -22,7 +22,7 @@ links:
 
 The `:drop` selector allows styling of the drop zone (the place where the element is supposed to be dropped), during the time when the user is dragging (or carrying) the element to be dropped.
 
-```plain-text
+```css
 .spot {
   background: #ccc;
 }
@@ -42,7 +42,7 @@ The above CSS will apply a neutral gray background color to the .spot element wh
 
 What will the following CSS code do whilst dragging and not dragging? ???
 
-```plain-text
+```css
 .bg {
    background-color: white;
 }
@@ -56,4 +56,3 @@ What will the following CSS code do whilst dragging and not dragging? ???
 - Whilst dragging, the background colour is white. Whilst not dragging, the background colour is red.
 - The background colour is always red.
 - The background colour is always white.
- 

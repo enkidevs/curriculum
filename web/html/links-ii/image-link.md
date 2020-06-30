@@ -14,7 +14,7 @@ links: null
 
 In order to add a link onto an image, simply place the link `<a> </a>` element around any image element `<img>`:
 
-```plain-text
+```html
 <a href="http://enki.com">
   <img
     src="icon.png"
@@ -25,7 +25,7 @@ In order to add a link onto an image, simply place the link `<a> </a>` element a
 
 Actually, anything added within a link element in HTML5 will be linked - this includes any blocks of text, any number of images, etc. But just because anything can be linked, doesn't mean it all should. Best practices typically encourage all elements to be individually linked. But, linking both an image and text would be written like this: 
 
-```plain-text
+```html
 <a href="http://enki.com">
   <img
     src="icon.svg"
@@ -91,7 +91,7 @@ What is the correct HTML for creating a linked image?
 
 Which is a true statement?
 
-```plain-text
+```html
 <a href="http://www.site.com">
   <p>These are my favorite places:</p>
   <img src="mountain.jpg" alt="Snowy Mountain">
@@ -103,4 +103,3 @@ Which is a true statement?
 - The text and images will not link to the site this way.
 - The text and images will link, but this is not valid HTML.
 - Only the paragraph will be linked to the site.
- 

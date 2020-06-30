@@ -20,7 +20,7 @@ links:
 
 It is very common to return an object from a function with a property the same name as a source value declared elsewhere e.g.
 
-```plain-text
+```javascript
 function test() {
   let name = "Enki";
 
@@ -32,7 +32,7 @@ function test() {
 
 JavaScript provides a convenient shortcut to do this that allows you to drop the property name if you want it to be the same as the source variable:
 
-```plain-text
+```javascript
 function test() {
   let name = "enki";
 
@@ -46,7 +46,7 @@ test(); // { name: "enki" }
 
 **Note:** an exception will be thrown at run time if you specify a value that doesn’t exist in your return object.
 
-```plain-text
+```js
 function test() {
   let name = "enki";
 
@@ -109,4 +109,3 @@ function foo() {
 - this.prop
 - 'value'
 - prop: 'value'
- 

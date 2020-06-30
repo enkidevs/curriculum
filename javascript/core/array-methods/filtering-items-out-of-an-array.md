@@ -22,7 +22,7 @@ links:
 
 A common pattern to filter items from an array is the following:
 
-```plain-text
+```js
 let persons = [...];
 let activated = [];
 for (let person of persons) {
@@ -34,7 +34,7 @@ for (let person of persons) {
 
 However, using the `Array.prototype.filter` method is generally more concise and readable. With `filter()`, you **create a new array** whose elements must pass a test. Here's the simplified syntax[1]:
 
-```plain-text
+```js
 let newArray = arr.filter(
   function callback(element) {
     // if callback returns true
@@ -45,7 +45,7 @@ let newArray = arr.filter(
 
 You pass a callback function which is applied to every element, and if the result of `callback` is truthy then the element gets added to `newArray`. Let's take a look at an example:
 
-```plain-text
+```js
 let numbers = [
   1,
   2,
@@ -122,7 +122,7 @@ let div3 = numbers.???(
 [1:Syntax]
 We've provided you with the simplified syntax (without any optional arguments), but here is the full one:
 
-```plain-text
+```js
 let newArray = arr.filter(
   callback(element, index, array) {
     // if callback returns true
@@ -139,4 +139,3 @@ The `callback` function can take three arguments:
 - `array` (optional, it represents the array on which you call `filter()`)
 
 Here, `thisArg` is also an optional parameter, and it represents that value that is used as `this` when executing the `callback` function.
- 

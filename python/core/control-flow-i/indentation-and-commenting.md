@@ -21,7 +21,7 @@ Python is one of the very few programming languages that *relies on the use of i
 
 For example:
 
-```plain-text
+```python
 if True:
     print('Will print this.')
 else:
@@ -38,7 +38,7 @@ What about this one?
 
 If we were to rewrite the above snippet as:
 
-```plain-text
+```python
 if True:
     print('Will print this.')
 else:
@@ -56,7 +56,7 @@ The indentation determines whether the last call to `print` belongs to the `else
 
 As a side note, indentation doesn't matter for *commented out* lines. To comment out lines of code in Python, just use the hash symbol, `#`. For example:
 
-```plain-text
+```python
 # print('This line is commented out.')
 print("This line isn't commented out!")
 ```
@@ -68,7 +68,7 @@ print("This line isn't commented out!")
 
 What will this code print?
 
-```plain-text
+```python
 if True:
    print('this is true')
 else:
@@ -100,4 +100,3 @@ Which of the following is a valid Python comment?
 - `Comment C`
 - `Comment B`
 - `Comment A`
- 

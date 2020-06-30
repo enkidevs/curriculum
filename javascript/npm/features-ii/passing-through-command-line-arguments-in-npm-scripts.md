@@ -23,7 +23,7 @@ tags:
 
 For example, if we have the following scripts:
 
-```plain-text
+```json
 "scripts" {
   // other scripts
   "start:test" : "npm start -- 4000",
@@ -37,7 +37,7 @@ To access these arguments the `process.argv` array can be used. In our case `pro
 
 Alternatively you can provide `--` when calling a script directly:
 
-```plain-text
+```bash
 npm run someCommand -- --arg=value
 ```
 
@@ -55,7 +55,9 @@ Consider an npm script called `doSomething`. Run it via npm, passing 'enki' as a
 - npm
 - run
 - doSomething
-- --
+
+---
+
 - "enki"
 - add
 - runWithArgs
@@ -72,10 +74,10 @@ How would you pass to the following npm script call a "test" argument?
 npm run myScript ??? ???
 ```
 
-- --
+---
+
 - "test"
 - add
 - argvs
 - arg
 - process.argv[0]
- 

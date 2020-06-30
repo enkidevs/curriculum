@@ -71,7 +71,7 @@ Which one of the following improves **React**'s performance the most?
 [2:VDOM]
 The Virtual DOM (or VDOM) is a programming concept in which a "virtual" representation of the DOM is kept in memory. It is synced with the "real" DOM by using a library, which in React's case is the `ReactDOM` library. The Virtual DOM provides increased performance because it reduces the need for expensive interactions with the actual DOM. Most data changes in React stay in the virtual, in-memory DOM and only propagate to the actual DOM if necessary.
 
-```plain-text
+```jsx
 <div className="first" />
 
 <div className="second"/>
@@ -85,4 +85,3 @@ This means that you write your code such that it describes what you want to do, 
 [4:UWP]
 
 **Universal Windows Platform** (UWP), is a platform-homogeneous application architecture created by *Microsoft* intended to help the development of universal applications that can run on multiple types of devices (*PC* and *Mobile*).
- 

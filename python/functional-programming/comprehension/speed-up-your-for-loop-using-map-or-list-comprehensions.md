@@ -23,7 +23,7 @@ Example:
 
 If you need to lowercase all the input strings:
 
-```plain-text
+```python
 lowerList = []
 for word in inputList:
     lowerList.append(word.lower())
@@ -31,13 +31,13 @@ for word in inputList:
 
 Instead, you can use `map()` to push the loop into compiled C code:
 
-```plain-text
+```python
 lowerList = map(str.lower(), inputList)
 ```
 
 Also, in Python 2.0 or above, there are list comprehensions. List comprehension are the "pythonic" way to approach this situation. `map()` is more often used in JavaScript. We recommend usage of list comprehension:
 
-```plain-text
+```python
 lowerList = [word.lower() \
          for word in inputList]
 ```
@@ -76,4 +76,3 @@ What are the two methods that improve list iteration performance in python?
 - sort, map
 - arrange, map
 - list comprehension, sort
- 

@@ -13,7 +13,7 @@ category: caveats
 
 The months of the year in a date object begin counting from zero.
 
-```plain-text
+```javascript
 let date = new Date(2015, 1, 21);
 console.log(date);
 ```
@@ -22,14 +22,14 @@ The date will not be the 21st of January, but instead this date object represent
 
 To print the 21st of January, use month `0`:
 
-```plain-text
+```javascript
 let date = new Date(2015, 0, 21);
 console.log(date);
 ```
 
 Similarly, using the 12th month of 2015 in a date object will print January of 2016:
 
-```plain-text
+```javascript
 let date = new Date(2015, 12, 21);
 console.log(date);
 // date = Thur Jan 21 2016 00:00:00
@@ -89,7 +89,7 @@ console.log(date);
 ### how does JavaScript's Date object work?
 
 
-```plain-text
+```javascript
 console.log(new Date(2016, 5, 31));
 ```
 
@@ -99,4 +99,3 @@ console.log(new Date(2016, 5, 31));
 - June 31 2016
 - May 31 2016
 - June 1 2016
- 

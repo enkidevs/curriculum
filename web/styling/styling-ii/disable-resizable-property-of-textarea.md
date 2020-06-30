@@ -17,7 +17,7 @@ tags:
 
 To disable the resizing behavior of `textarea` elements, do the following:
 
-```plain-text
+```css
 textarea {
     resize: none;
 }
@@ -25,7 +25,7 @@ textarea {
 
 To disable some `textarea` elements, do the following:
 
-```plain-text
+```css
 /*
 note the textarea with the name, foo,
 is  what will be disabled
@@ -37,7 +37,7 @@ textarea[name=foo] {
 
 Note this only works when the overflow property is something other than visible, ie:
 
-```plain-text
+```css
 overflow: scroll;
 ```
 
@@ -67,4 +67,3 @@ When disabling the resizing behavior of `textarea` elements, `overflow` property
 - visible
 - resize
 - none
- 

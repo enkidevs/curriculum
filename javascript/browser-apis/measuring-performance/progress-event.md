@@ -18,19 +18,19 @@ The *`ProgressEvent`* interface is used to represent events which measure the pr
 
 *ProgressEvent Properties:*
 
-```plain-text
+```javascript
 ProgressEvent.lengthComputable;
 ```
 
 Is a boolean flag returning whether the progress made on the work to be completed is measurable.
 
-```plain-text
+```javascript
 ProgressEvent.loaded;
 ```
 
 Is an unsigned long showing the amount of work already done by the underlying process.
 
-```plain-text
+```javascript
 ProgressEvent.total;
 ```
 
@@ -38,7 +38,7 @@ Is an unsigned long showing the amount of work the underlying process is current
 
 A usage example, measuring the progress of an *`XMLHttpRequest`*.
 
-```plain-text
+```javascript
 // progress on transfers - server to client
 function updateProgress (oEvent) {
   if (oEvent.lengthComputable) {
@@ -83,4 +83,3 @@ Which following property of `ProgressEvent` returns a boolean?
 - `2`
 - `1`
 - `3`
- 

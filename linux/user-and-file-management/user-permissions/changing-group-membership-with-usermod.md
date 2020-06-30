@@ -17,7 +17,7 @@ tags:
 
 We can use the `usermod` command to add a user to a specific group.  It works like so:
 
-```plain-text
+```shell
 sudo usermod -a -G new-group jesse
 ```
 
@@ -25,7 +25,7 @@ This would add the user `jesse` to the group `new-group`.  The `-a` option means
 
 *Removing* a user from a group is trickier.  If it's available, the `gpasswd` command can be used, like so to remove `jesse` from `new-group`:
 
-```plain-text
+```shell
 sudo gpasswd -d jesse new-group
 ```
 
@@ -67,4 +67,3 @@ sudo ??? ???
 - `john`
 - `-aG`
 - `chmod`
- 

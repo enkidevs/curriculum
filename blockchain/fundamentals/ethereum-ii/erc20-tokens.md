@@ -15,7 +15,7 @@ category: must-know
 
 The basic ERC20 interface (that describes no implementation) looks like this[1]:
 
-```plain-text
+```javascript
 contract ERC20BasicInterface {
   function totalSupply() public
 	  view returns (uint256);
@@ -30,7 +30,7 @@ contract ERC20BasicInterface {
 
 And it was extended to include[2]:
 
-```plain-text
+```javascript
 contract ERC20Interface
 	is ERC20BasicInterface {
   function allowance(address owner,
@@ -95,4 +95,3 @@ Does the ERC20 standard define the actual implementation of the `balanceOf` func
 
 - False
 - True
- 

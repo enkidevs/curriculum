@@ -19,19 +19,19 @@ The following git commands all have the same effect: set up a local branch `shar
 
 Full version:
 
-```plain-text
+```bash
 git checkout -b sharefix origin/sharefix
 ```
 
 `--track` shorthand:
 
-```plain-text
+```bash
 git checkout --track origin/sharefix
 ```
 
 Automatic:
 
-```plain-text
+```bash
 git checkout sharefix
 ```
 
@@ -70,4 +70,3 @@ git ??? --???
 - `track`
 - `follow`
 - `branch`
- 

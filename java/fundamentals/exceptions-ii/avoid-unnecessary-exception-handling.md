@@ -24,7 +24,7 @@ Another disadvantage of overusing exception handling is that frequent use of `tr
 
 In some cases, it may be more appropriate to return a `boolean` value to indicate the result of an operation rather than trying to catch an exception. This can result in more efficient and cleaner looking code.
 
-```plain-text
+```java
 public void method() {
   validator(p);
 }
@@ -40,7 +40,7 @@ private void validator(Object p)
 
 Rather than using `throw` and `catch` like in the above example, we could change the validation method to return `boolean` like this:
 
-```plain-text
+```java
 public void method() {
   if(!isValid(p)) 
     throw new Exception();
@@ -50,4 +50,3 @@ private boolean isValid(Object p) {
   return //true/false
 }
 ```
- 

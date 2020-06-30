@@ -23,7 +23,7 @@ Remote repositories are fundamental to the **Git** workflow for teams who need t
 
 You can see the remote repositories with your project by calling `git remote`:
 
-```plain-text
+```bash
 git remote
 # origin
 ```
@@ -32,7 +32,7 @@ Keep in mind that `origin` is the default name **Git** gives to the server you c
 
 Using the `-v` flag, you can also see the `URL`s associated with the remotes[1]:
 
-```plain-text
+```bash
 git remote -v
 # origin https://github.com/user/rep (fetch)
 # origin https://github.com/user/rep (push)
@@ -40,7 +40,7 @@ git remote -v
 
 You can add new remotes with the `git remote add` command:
 
-```plain-text
+```bash
 # git remote add <shortname> <url>
 git remote add xy \
     https://github.com/us/repo
@@ -92,4 +92,3 @@ Using the `-v` flag will show the `URL`s used when both reading (merge or fetch)
 
 - `fetch`: reading
 - `push`: writing
- 

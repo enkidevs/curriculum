@@ -15,7 +15,7 @@ In the previous insights, we have used a positive integer when truncating or rou
 
 In this case, instead of truncating to the right of the decimal, we are truncating to the left of the decimal. So, if we were to write this command:
 
-```plain-text
+```javascript
 // Aggregation
 db.pokemon.aggregate([
   {
@@ -34,7 +34,7 @@ db.pokemon.aggregate([
 
 We'd get the following documents as output:
 
-```plain-text
+```js
 {   
   "_id": ObjectId(
     "5d9d8c3f0b24990f19398215"
@@ -78,7 +78,7 @@ Match the explanation with the operator.
 [1:Previous Documents]
 Here are the documents we used in the previous insights:
 
-```plain-text
+```javascript
 { 
   "_id": ObjectId(
     "5d9d8c330b24990f19398214"
@@ -94,4 +94,3 @@ Here are the documents we used in the previous insights:
   "initialPower": 50.80769230769231 
 }
 ```
- 

@@ -13,7 +13,7 @@ category: how to
 
 The `$sort` aggregation stage is used to sort all the documents you want to enter into the aggregation pipeline. The syntax looks like this:
 
-```plain-text
+```javascript
 {
   $sort:
   { field1: sort order,
@@ -32,7 +32,7 @@ The `sort order` is the order of the documents. The possible values for `sort or
 
 For instance, this command:
 
-```plain-text
+```javascript
 db.pokemon.aggregate({
   $sort: { name: 1 }
 })
@@ -40,7 +40,7 @@ db.pokemon.aggregate({
 
 Would sort all pokémon by name in ascending order. On the other hand, this command:
 
-```plain-text
+```javascript
 db.pokemon.aggregate({
   $sort: { age: -1 }
 })
@@ -50,7 +50,7 @@ Would sort them by age in descending order.
 
 The `$sort` pipeline stage can also be used with `skip`, `$limit`,and/or `$match` stages. We can also use it with `$count`, but there is no purpose since the result is counted and outputted as a number.
 
-```plain-text
+```javascript
 db.pokemon.aggregate([
   { $skip: 130 },
   { $limit: 22 },
@@ -61,7 +61,7 @@ db.pokemon.aggregate([
 
 Output:
 
-```plain-text
+```javascript
 {
   "_id": ObjectId(
     "5d9d8e800b24990f19398223"
@@ -120,4 +120,3 @@ db.???.aggregate({
 - `Pokemon`
 - `-1`
 - `0`
- 

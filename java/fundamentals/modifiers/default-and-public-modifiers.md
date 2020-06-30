@@ -16,7 +16,7 @@ The **default** case is the one in which no keyword is present. A variable with 
 
 This is what we have used until now:
 
-```plain-text
+```java
 String model;
 
 void start(){...}
@@ -28,7 +28,7 @@ Because of the class inheritance, all `public` methods and variables are inherit
 
 Every declaration of a class so far had the `public` keyword in it:
 
-```plain-text
+```java
 public class Car{
   public Car(...){}
  ...
@@ -42,7 +42,7 @@ public class FamilyCar{
 
 A testing class could access the public fields and methods like this:
 
-```plain-text
+```java
 public class Car{
   public String model;
   public void start(){...}
@@ -59,7 +59,7 @@ public class TestClass{
 
 One of the methods that should always be public is the `main()` method:
 
-```plain-text
+```java
 public static void main(String[] args){}
 ```
 
@@ -93,4 +93,3 @@ Which is the *default* keyword modifier?
 - public
 - protected
 - modifier
- 

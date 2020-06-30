@@ -17,7 +17,7 @@ Your first question might be: why would I need custom hooks? Well, whenever you 
 
 A custom hook is an ordinary JavaScript function that can call other hooks (such as `useState()` and `useEffect()`).
 
-```plain-text
+```js
 import React, {
   useState,
   useEffect
@@ -66,7 +66,7 @@ When writing a new custom hook, its name should usually start with ???.
 
 Which of the following functions is a custom hook and which is a React component?
 
-```plain-text
+```jsx
 function A(argument) {
   const [data, setData] = useState([]);
   // ...
@@ -96,4 +96,3 @@ Because both components and hooks are functions, this functionality can be appli
 
 [2: Naming convention]
 Although it is common practice to name custom hooks starting with "use", you can still use any name you want (this is not recommended by the creators of React). Just remember to always call hooks at the top-level, and only call hooks from React functions. Keep in mind that if you don't follow this convention, there is no way to automatically check for violations of rules of hooks.
- 

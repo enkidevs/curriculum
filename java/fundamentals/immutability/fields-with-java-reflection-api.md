@@ -19,7 +19,7 @@ As a part of the **Reflection API**, the `java.lang.reflect.Field` class represe
 
 Getting a specific field:
 
-```plain-text
+```java
 Field intField =  
 myObj.getClass().getField("x");
 
@@ -27,7 +27,7 @@ myObj.getClass().getField("x");
 
 You can iterate through fields. By default, you are not allowed to access **non-public** fields, yet calling the `setAccessible` method will grant access:
 
-```plain-text
+```java
 Field[] fields = 
   myObj.getClass().getDeclaredFields();
 for (Field field : fields) 
@@ -36,7 +36,7 @@ for (Field field : fields)
 
 You can get the name, type or the value of a field:
 
-```plain-text
+```java
 field.getName();
 field.getType();
 field.get(myObj);
@@ -44,7 +44,7 @@ field.get(myObj);
 
 Setting a field value:
 
-```plain-text
+```java
 intField.setInt(myObj, intValue);
 
 ```
@@ -52,7 +52,7 @@ intField.setInt(myObj, intValue);
 An interesting usage of the `Field` class is getting and modifying fields' annotations at runtime.
 Get annotations from a class:
 
-```plain-text
+```java
 field.getDeclaredAnnotations(); 
 ```
 
@@ -89,4 +89,3 @@ Field intField =
 - `field` 
 - `setField` 
 - `find`
- 

@@ -19,7 +19,7 @@ For example, you may need to port forward from the *remote connection's port 900
 
 To prevent a disconnection, use the `-N` flag:
 
-```plain-text
+```shell
 ssh -N -L 9001:localhost:6000
           user@remotehost
 ```
@@ -37,4 +37,3 @@ If you are looking for a port forwarding on a machine without an interactive she
 - -n
 - -C
 - -p
- 

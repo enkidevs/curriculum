@@ -20,7 +20,7 @@ parent: custom-proptype-s-to-be-required
 
 How to use:
 
-```plain-text
+```jsx
 React.cloneElement(
   element,
   [props],
@@ -32,7 +32,7 @@ A new element[1] will be returned using the provided element as the starting poi
 
 Keep in mind that using:
 
-```plain-text
+```jsx
 React.cloneElement(
   child,
   { ref: "newRef" },
@@ -44,7 +44,7 @@ will override the `ref`.
 
 A good example consists of adding `prop`s to the elements that are passed as children to one of your components.
 
-```plain-text
+```jsx
 class Enki extends React.Component {
   render() {
     const newProp = "Enki";
@@ -142,10 +142,9 @@ React.???(
 [1: element]
 The React element represents the building block of any React application. Although one might confuse elements with components, they are not the same. An element is used to describe what you want to see on the screen. Here's an example:
 
-```plain-text
+```jsx
 const element = <h1>Enki is cool!</h1>;
 ```
 
 [2: shallow merge]
 A merge of two objects in JavaScript produces a new object by combining their properties. Properties that only exists in one of the two objects are just copied into the result. If a property exists in both, the value of that property from the second object will overwrite the value of the first. A"shallow" merge means that we only compare/merge top-level properties. Merging all levels of properties between two objects is called a *deep merge*.
- 

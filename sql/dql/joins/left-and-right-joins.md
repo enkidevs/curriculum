@@ -28,7 +28,7 @@ In case of a `LEFT JOIN`, if the joined field has no match in the second table, 
 
 A `LEFT JOIN` is performed like this:
 
-```plain-text
+```sql
 SELECT move.id, move.name,
   type.id, type.name AS type_name
 FROM move
@@ -48,7 +48,7 @@ The first row of the 640 rows result:
 
 The equivalent `RIGHT OUTER JOIN`:
 
-```plain-text
+```sql
 SELECT move.id, move.name,
   type.id, type.name AS type_name
 FROM move
@@ -161,4 +161,3 @@ id  | game_index | region_id
 - SELECT location.id,location_area.game_index,location.region_id FROM location FULL OUTER JOIN location_area ON location.id = location_area.id;
 - SELECT location.id,location_area.game_index,location.region_id FROM location INNER JOIN location_area ON location.id = location_area.id;
 - SELECT location.id,location_area.game_index,location.region_id FROM location RIGHT JOIN location_area ON location.id = location_area.id;
- 

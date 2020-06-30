@@ -34,7 +34,7 @@ Also, the `<main>` element should not contain content that is repeated throughou
 
 Example of the main content of a page, in this case, a page describing vehicles:
 
-```plain-text
+```html
 <header>
   <img src="logo.svg" alt="Company Logo">
 </header>
@@ -132,12 +132,12 @@ Can a webpage contain more than one `<main>` container?
 
 ## Quiz
 
-### How much do you know about the HTML 
+### How much do you know about the HTML
+
 
 `<main>`
 
  element?
-
 
 Select which of the following items should be contained within a `<main>` container?
 
@@ -148,4 +148,3 @@ Select which of the following items should be contained within a `<main>` contai
 - navigation links
 - copyright information
 - search forms
- 

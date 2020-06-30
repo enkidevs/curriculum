@@ -21,7 +21,7 @@ Let's say you type a command like `echo` in the terminal.  How does `bash` know 
 
 Assuming the contents of `PATH` are:
 
-```plain-text
+```bash
 echo $PATH
 # /usr/local/bin:/usr/bin:/bin
 ```
@@ -47,7 +47,7 @@ If `bash` reaches the end of the list without finding a valid executable it will
 
 If the `PATH` variable looks like this:
 
-```plain-text
+```bash
 echo $PATH
 # /usr/bin:/bin:/local/binaries
 ```
@@ -88,7 +88,7 @@ The `command not found` error is thrown if the executable couldn’t be found ??
 
 Suppose your $PATH value is:
 
-```plain-text
+```bash
 echo $PATH
 # /bin:/usr/bin:~/Desktop/rm-ext:~/atom
 ```
@@ -102,4 +102,3 @@ for an executable if no match was found in `/bin`?
 - none, as /bin is already the last one
 - ~/atom
 - ~/Desktop/rm-ext
- 

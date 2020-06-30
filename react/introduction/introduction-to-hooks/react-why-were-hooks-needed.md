@@ -24,7 +24,7 @@ In React, there is no built-in way to "attach" reusable behavior to a component 
 
 A `render prop` is a function that a component uses to know what to render[1].
 
-```plain-text
+```jsx
 <MyComponent
   render={person => (
     <p>Hello {person.name}</p>
@@ -34,7 +34,7 @@ A `render prop` is a function that a component uses to know what to render[1].
 
 A higher-order component is a function that takes a component and returns a new component that includes the reusable behavior:
 
-```plain-text
+```js
 const EnhancedComponent = higherOrderComponent(
   WrappedComponent
 );
@@ -80,11 +80,10 @@ Which of the following represents a method of "attaching" reusable behavior to a
 [1:render props]
 Another version of the "render props" pattern is to pass a function as `children`:
 
-```plain-text
+```jsx
 <MyComponent>
   {person => (
     <p>Hello {person.name}</p>
   )}
 </MyComponent>
 ```
- 

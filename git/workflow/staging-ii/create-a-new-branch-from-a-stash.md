@@ -18,7 +18,7 @@ parent: stashing-changes
 
 If you want to test out a stash before you apply it to its original branch, you can use the `branch` option:
 
-```plain-text
+```bash
 git stash branch testing
 ```
 
@@ -46,7 +46,7 @@ git ??? ??? ???
 
 ## Revision
 
-```plain-text
+```bash
 git stash branch newBranch
 ```
 
@@ -56,4 +56,3 @@ Applies the ??? changes to a new ??? before merging them into the old one.
 - branch
 - commit
 - merged
- 

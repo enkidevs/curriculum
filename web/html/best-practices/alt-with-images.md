@@ -19,7 +19,7 @@ The alt attribute exists for a few reasons:
 
 Example:
 
-```plain-text
+```html
 <img src="waterfall.jpg"
   alt="Niagara Falls during Sunset">
 ```
@@ -30,7 +30,7 @@ If the "waterfall.jpg" image doesn't load properly, it will display a broken ima
 
 Every image needs the alt tag to pass validation, but when the image is only for decoration, then the description can be left empty like this:
 
-```plain-text
+```html
 <img src="background-texture.jpg"
   alt="">
 ```
@@ -42,7 +42,7 @@ Every image needs the alt tag to pass validation, but when the image is only for
 
 Is an empty alt attribute considered appropriate?
 
-```plain-text
+```html
 <img src="image.png" alt="">
 ```
 
@@ -67,4 +67,3 @@ Which statement about alt attributes is false?
 - It is used to provide information to the user if they cannot view the image.
 - Empty alt attributes are appropriate when the image is purely decorative.
 - Screen readers can use alt text to help users that are visually impaired.
- 

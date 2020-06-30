@@ -21,25 +21,25 @@ The `Math` class has been enhanced with the release of **Java 8**, adding a new 
 
 Adding two numbers:
 
-```plain-text
+```java
 Math.addExact(a,b);
 ```
 
 Multiplying two numbers:
 
-```plain-text
+```java
 Math.multiplyExact(a,b);
 ```
 
 Incrementing a number:
 
-```plain-text
+```java
 Math.incrementExact(a);
 ```
 
  If an *overflow* or *underflow* occurs, then the methods will throw an `ArithmeticException` exception:
 
-```plain-text
+```java
 System.out.println(100000 * 100000);
 //output : 1410065408 (Incorrect result)
 System.out.println(
@@ -75,4 +75,3 @@ What method can be used from the `Math` class such that numerical overflows and 
 - `incrementExact` 
 - `add` 
 - `exactAdd`
- 

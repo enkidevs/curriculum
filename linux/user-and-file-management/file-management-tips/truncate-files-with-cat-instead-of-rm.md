@@ -23,14 +23,14 @@ notes: ''
 
 Since `cat` enables us to preserve file ownership and permissions it is preferable to truncate files with:
 
-```plain-text
+```bash
 cat /dev/null > file
 # deletes the contents of the file
 ```
 
 Rather than:
 
-```plain-text
+```bash
 sudo rm file && touch file
 # removes the file and creates
 # a new one
@@ -54,4 +54,3 @@ Delete the *contents* of `old_log_file` :
 - `old_log_file`
 - `touch`
 - `rm`
- 

@@ -16,7 +16,7 @@ An **object** is the representation of a blueprint. Basically, an *object* is cr
 
 This is how the `Car` constructor looks like:
 
-```plain-text
+```java
 public Car(String newModel, String
      newNoPlate, String newColor,
                   int newNoDoors) {
@@ -29,7 +29,7 @@ public Car(String newModel, String
 
 And this is how you create a `Car` object:
 
-```plain-text
+```java
 Car myCar = new Car("AwsomeCar",
             "RA-325F1", "red", 2);
 ```
@@ -42,7 +42,7 @@ There are three steps for creating a new object:
 
 To start a `Car`, you have to call the `start()` method. To start the `myCar` object, the method must be called on it:
 
-```plain-text
+```java
 myCar.start();
 ```
 
@@ -50,7 +50,7 @@ This ensures only `myCar` starts, and not the other `Car` object that exists in 
 
 In case we want to check what model `myCar` is, we can access its fields like this:
 
-```plain-text
+```java
 System.out.println(myCar.model);
 
 // AwsomeCar
@@ -82,4 +82,3 @@ The `initalization` part of creating an object refers to
 - the constructor method being called
 - the `new` keyword being used
 - the variable being declared
- 

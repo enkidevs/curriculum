@@ -17,7 +17,7 @@ links:
 
 Considering the **source code** exemplified in the previous insight[1], lets see how `list()` works:
 
-```plain-text
+```python
 (Pdb) list
 1  -> num_list = [1, 2]
 2     chars = ['a', 'b']
@@ -37,7 +37,7 @@ The current line is indicated by the `->` character. This command is provided wi
 
 The `step` command will **iterate** through the loops showing exactly what the **loop** is doing. The difference between `step` and `next` is that `step` will stop within a called function, while `next` executes called functions to only stop at the next line of the current function.
 
-```plain-text
+```shell
 (Pdb) step
 > /Users/seba/debug.py(5)<module>()
 -> def nested_loop():
@@ -57,7 +57,7 @@ The `step` command will **iterate** through the loops showing exactly what the *
 
 On the other hand, `next` command executes the next **statement**, without showing everything that happened to evaluate the call.
 
-```plain-text
+```shell
 (Pdb) next
 > /Users/seba/debug.py(5)<module>()
 -> def nested_loop():
@@ -115,7 +115,7 @@ When debugging a python file with `pdb`, which command will show the step-by-ste
 [1:Source Code]
 Previously, we had this code:
 
-```plain-text
+```python
 # Program name: debug.py
 
 number_list = [1, 2]  
@@ -133,7 +133,7 @@ if __name_ == '__main__':
 
 And we ran the debugger using:
 
-```plain-text
+```bash
 python3 -m pdb debug.py
 
 #Console output:
@@ -142,4 +142,3 @@ python3 -m pdb debug.py
 -> num_list = [1, 2]
 (Pdb)
 ```
- 

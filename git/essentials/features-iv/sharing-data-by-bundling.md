@@ -21,20 +21,20 @@ The `bundle` command creates a binary file which you can email or physically tra
 
 To create a file `myBundle` from your repository:
 
-```plain-text
+```bash
 git bundle create myBundle HEAD master
 ```
 
 To access the commits on another computer:
 
-```plain-text
+```bash
 git clone myBundle bundled_repo
 git cd bundled_repo
 ```
 
 To be safe, you can verify that the commit is valid before cloning:
 
-```plain-text
+```bash
 git bundle verify ../myBundle
 ```
 
@@ -71,4 +71,3 @@ git ??? ??? ../newBundle
 - `verify`
 - `-b`
 - `--verify`
- 

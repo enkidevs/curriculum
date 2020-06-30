@@ -13,7 +13,7 @@ category: tip
 
 Let's start this insight by taking a look at an example:
 
-```plain-text
+```jsx
 function Person() {
   // We initiate the state with null
   const [info, setInfo] = useState(null);
@@ -42,7 +42,7 @@ Normally, you would expect this function to work without a problem. This is a co
 
 1. Properly defining the initial state:
 
-```plain-text
+```jsx
 function Person() {
   // we expect the info state
   // to be an object
@@ -68,7 +68,7 @@ function Person() {
 
 2. Use a loading flag while waiting for the API call:
 
-```plain-text
+```js
 function Person() {
   const [info, setInfo] = useState(null);
   const [isLoading, setIsLoading] = useState(info === null);
@@ -104,7 +104,7 @@ function Person() {
 
 What will be the `state` of the `<Test>` component?
 
-```plain-text
+```jsx
 function Test() {
   const [state, setState] = useState(0);
 
@@ -122,4 +122,3 @@ function Test() {
 - `1`
 - `null`
 - `undefined`
- 

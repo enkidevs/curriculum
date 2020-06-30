@@ -22,7 +22,7 @@ They are more human readable and allow the user to clearly differentiate between
 
 To add a tag to your package:
 
-```plain-text
+```bash
 npm dist-tag add <pkg>@<version> [<tag>]
 ```
 
@@ -30,20 +30,20 @@ This will tag the version of the package with the `<tag>`, or the `--tag` config
 
 You can also remove a tag:
 
-```plain-text
+```bash
 npm dist-tag rm <pkg> <tag>
 
 ```
 
 To list all the tags for a package:
 
-```plain-text
+```bash
 npm dist-tag ls [<pkg>]
 ```
 
 These tags can be used on installing packages:
 
-```plain-text
+```bash
 npm dist-tag add enki stable
 npm install enki@stable
 ```
@@ -86,4 +86,3 @@ npm ??? ??? [<pkg>]
 - --tag
 - add
 - tags
- 

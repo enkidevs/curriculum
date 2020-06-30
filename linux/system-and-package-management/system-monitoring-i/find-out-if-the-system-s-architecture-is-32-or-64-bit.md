@@ -20,7 +20,7 @@ tags:
 
 The easiest way to do it is executing:
 
-```plain-text
+```bash
 uname -m
 ```
 
@@ -28,7 +28,7 @@ This will output `x86_64` or `i386/i586/i686`.
 
 You can use `-a` flag for an extended output:
 
-```plain-text
+```bash
 uname -a
 ```
 
@@ -84,4 +84,3 @@ To find out your system’s arhitecture you would run :
 
 [1:32-bit of Context]
 i386 means you are running a 32-bit kernel supporting codes compatible with the Intel 80386 processor - which is from 1985. The same principle applies for every other `iXXX` output, all being 32-bit.
- 

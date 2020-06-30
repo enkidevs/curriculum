@@ -23,7 +23,7 @@ The shebang (`#!`) at the head of a script tells your system that this file is a
 
 In order for these to work, the script must have *execute* permissions.[1]
 
-```plain-text
+```python
 #!/bin/sh
 #!/bin/bash
 #!/usr/bin/perl
@@ -34,21 +34,21 @@ In order for these to work, the script must have *execute* permissions.[1]
 
 Depending on the situation, we might need to run a script with a different version :
 
-```plain-text
+```python
 #!/usr/bin/python 
 #!/usr/bin/python3
 ```
 
 Or :
 
-```plain-text
+```perl
 #!/usr/bin/perl
 #!/usr/bin/perl -w
 ```
 
 To ensure the script is run using the first interpreter in `PATH` use `/usr/bin/env`:
 
-```plain-text
+```python
 #!/usr/bin/env python
 #!/usr/bin/env node
 ```
@@ -93,4 +93,3 @@ should be used for that particular file.
 
 [1:Directory permision]
 The `+x` bit for a directory allows the user to `cd` into it and access its inner files.
- 

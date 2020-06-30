@@ -23,7 +23,7 @@ The `$elemMatch` is used to specify special conditions and is used on more advan
 
 Let's say we have these 4 documents in our `pokedex` database:
 
-```plain-text
+```js
 {
   _id: ObjectId("5d9d8a6a0b24990f19398209"),
   name: "Bulbasaur",
@@ -57,7 +57,7 @@ Let's say we have these 4 documents in our `pokedex` database:
 We can use the `$size` operator to find these documents based on the size of their `spells` array.
 Example 1:
 
-```plain-text
+```js
 db.pokedex.find({
   spells: {
     $size: 2
@@ -67,7 +67,7 @@ db.pokedex.find({
 
 Output:
 
-```plain-text
+```js
 {
   _id: ObjectId("5df389d397b15a75df3a23197b15a71714c75931714c7592"),
   name: "Golbat:",
@@ -79,7 +79,7 @@ Output:
 
 Example 2:
 
-```plain-text
+```js
 db.pokedex.find({
   spells: {
     $size: 3
@@ -89,7 +89,7 @@ db.pokedex.find({
 
 Output:
 
-```plain-text
+```js
 {
   _id: ObjectId("5d9d8a6a0b24990f19398209"),
   name: "Bulbasaur",
@@ -130,4 +130,3 @@ db.pokedex???({
 - `$arraySize`
 - `$length`
 - `.search`
- 

@@ -21,7 +21,7 @@ Destructuring can also be used to work with objects.
 
 Sometimes when using destructuring you will want to specify where values should be assigned - this can be done as follows:
 
-```plain-text
+```javascript
 let source =
 {company: "Enki", topic: "js"};
 
@@ -39,7 +39,7 @@ Below the default value of `200` will be used for variable `y` as the source obj
 
 Note how `x`'s default is overwritten as the `x` property exists:
 
-```plain-text
+```javascript
 let {x = 1, y = 200} = {x: 100};
 // x = 100, y = 200
 ```
@@ -102,4 +102,3 @@ console.log(bar)
 - : foo
 - : bar
 - : 20
- 

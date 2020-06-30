@@ -15,7 +15,7 @@ If you need to randomly select an item from a list:
 
 1) Naive approach 1:
 
-```plain-text
+```python
 import random
 items = ['here', 'to', 'one', 'strings']
 rand_item =
@@ -26,7 +26,7 @@ Use `randrange` (or `randint`) to generate a pseudo-random integer from the rang
 
 2) Naive approach 2:
 
-```plain-text
+```python
 rand_items =
 [items[random.randrange(len(items))]
               for item in range(4)]
@@ -36,13 +36,13 @@ Use `random.randrange` to generate indexes inside a list comprehension.
 
 3) Pythonic approach:
 
-```plain-text
+```python
 rand_item = random.choice(items)
 ```
 
 `random.sample` can also select n items:
 
-```plain-text
+```python
 rand_items = random.sample(items, n)
 ```
 
@@ -83,4 +83,3 @@ rand_items = ???.???(items, 2)
 - `select`
 - `choose`
 - `randomise`
- 

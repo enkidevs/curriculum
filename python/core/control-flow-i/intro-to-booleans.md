@@ -19,7 +19,7 @@ Python uses *booleans* to evaluate conditions.
 
 Using a comparison operator to check whether a condition has been met, such as `x > 2`, returns a boolean value.
 
-```plain-text
+```python
 x = 3
 
 x > 2
@@ -28,7 +28,7 @@ x > 2
 
 This means that once an `if` statement condition evaluates to `True`, the indented code block will run.
 
-```plain-text
+```python
 hungry = 'very'
 
 if hungry == 'very':
@@ -41,7 +41,7 @@ Here, `'Get some food!'` is printed because the condition above evaluates to `Tr
 
 > Note: Python booleans must be *capitalized*, and they belong to the `bool` class.
 
-```plain-text
+```python
 >>> type(True)
 # <class 'bool'>
 ```
@@ -53,7 +53,7 @@ Here, `'Get some food!'` is printed because the condition above evaluates to `Tr
 
 What would the following conditional statement evaluate to?
 
-```plain-text
+```python
 x = 21
 
 x >= 21
@@ -82,4 +82,3 @@ type(False)
 - `boolean`
 - `Boolean`
 - `Bool`
- 

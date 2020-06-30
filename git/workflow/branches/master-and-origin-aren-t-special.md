@@ -15,7 +15,7 @@ category: must-know
 
 If you start to track an existing project:
 
-```plain-text
+```bash
 git init
 ```
 
@@ -23,7 +23,7 @@ The default name for the branch is `master`.
 
 If you clone a remote repository:
 
-```plain-text
+```bash
 git clone https://git.enki.com
 ```
 
@@ -56,4 +56,3 @@ while `origin` as ??? .
 - default remote repository name
 - new branches’ default name
 - local folder name
- 

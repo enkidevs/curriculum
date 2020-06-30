@@ -21,7 +21,7 @@ If the `formaction` attribute is specified, it will override the forms `action` 
 
 Example:
 
-```plain-text
+```html
 <form action="page1.php"
     method="get">
   Name: <input type="text"
@@ -90,12 +90,12 @@ Which input form attribute is used with the submit button when multiple buttons 
 
 ## Quiz
 
-### How much do you know about the 
+### How much do you know about the
+
 
 `formaction`
 
  html input form attribute?
-
 
 Which statement regarding the formaction attribute is true?
 
@@ -103,4 +103,3 @@ Which statement regarding the formaction attribute is true?
 - The `formaction` attribute doesn't work when the `action` attribute is present
 - The `formaction` doesn't work with images.
 - The `formaction` doesn't work with buttons.
- 

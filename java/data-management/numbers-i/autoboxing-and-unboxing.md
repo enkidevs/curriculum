@@ -19,7 +19,7 @@ notes: 'https://insights.enki.com/#/contrib/others/55c833563f06ab320051aa89?sear
 
 `Autoboxing` represents automatic conversion of *primitive type*  to the object of their corresponding *wrapper* classes.
 
-```plain-text
+```java
 // the conversion is automatic
 Integer num1 = 3;
 Double num2 = 2.3;
@@ -66,7 +66,7 @@ What is the wrapper class of primitive `int` ?
 ### What will be printed by the following code snippet?
 
 
-```plain-text
+```java
   int x = 5;
   Integer X = new Integer(5);
   Integer Y = new Integer(5);
@@ -84,4 +84,3 @@ What is the wrapper class of primitive `int` ?
 - “integer5”
 - “int5integer5”
 - Nothing
- 

@@ -18,13 +18,13 @@ links:
 
 Before dragging and dropping, an elements attribute must be set so it's allowed to be dragged, and the *`ondragstart`* global event handler must be added.
 
-```plain-text
+```html
 <div draggable="true"
  ondragstart="dragstart_handler(event);">
 </div>
 ```
 
-```plain-text
+```javascript
 function dragstart_handler(ev) {
   console.log("Start dragging...");
   ev.dataTransfer.setData("text/plain",
@@ -68,4 +68,3 @@ What global event handler must be added to an element so that it can be dragged 
 - `dragstart_handler`
 - `dataTransfer`
 - `dragAndDrop`
- 

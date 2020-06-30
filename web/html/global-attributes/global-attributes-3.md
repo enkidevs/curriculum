@@ -39,7 +39,7 @@ The `dir` attribute is used to set the direction of text and has 3 possible valu
 The `lang` attribute is used to define the language of the element.
 Example:
 
-```plain-text
+```html
 <p lang="es">
   ¿Cómo estás?
 </p>
@@ -62,7 +62,7 @@ The `"no"` value says the content should not be translated.
 **Note:** The attribute does not immediately translate the element but rather specifies if it should or should not translate when the user translates the page.
 Example:
 
-```plain-text
+```html
 <p translate="no">
   Contents of this paragraph
   won't translate.
@@ -90,4 +90,3 @@ Attribute used for autocapitalization: ???
 - translatetext
 - direction
 - capitalize
- 

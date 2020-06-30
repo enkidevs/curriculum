@@ -13,7 +13,7 @@ category: must-know
 
 When needing to do a lot of comparisons for a single value, instead of using many `if..else` statements, code can be made more readable by using the `switch` statement:
 
-```plain-text
+```js
 // this code
 if (a === "5") {
   // ...
@@ -71,4 +71,3 @@ Complete the basic syntax of the following `switch` statement:
 - `if`
 - `else`
 - `if else`
- 

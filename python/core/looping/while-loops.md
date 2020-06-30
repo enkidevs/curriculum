@@ -16,7 +16,7 @@ Python's `while` loops repeatedly loop and execute some code *while* a boolean s
 
 The standard `while` loop syntax is:
 
-```plain-text
+```python
 while condition:
     doSomething()
 ```
@@ -25,7 +25,7 @@ While the condition evaluates to *true*, the code inside the loop is executed. A
 
 For example:
 
-```plain-text
+```python
 counter = 0
 while counter < 5:
     print(counter)
@@ -34,7 +34,7 @@ while counter < 5:
 
 Gives the following output:
 
-```plain-text
+```python
 0
 1
 2
@@ -70,7 +70,7 @@ while x < ???:
 
 What’s the output of the following code snippet:
 
-```plain-text
+```python
 x = 0
 while x < 5:
      x += 1
@@ -83,4 +83,3 @@ while x < 5:
 - `0 1 2 3 4`
 - `1 2 3 4`
 - `0 1 2 3 4 5`
- 

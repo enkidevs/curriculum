@@ -19,7 +19,7 @@ Iterators are very practically useful. In many cases, they can achieve the same 
 
 Consider reading and printing the contents of a simple text file:
 
-```plain-text
+```python
 file = open('somefile', r)
 
 while True:
@@ -32,7 +32,7 @@ while True:
 
 With iterators this entire process can be encapsulated as:
 
-```plain-text
+```python
 file = open('somefile', r)
 
 for line in file:
@@ -43,7 +43,7 @@ In this example, notice how the `file` object is actually an iterator and implem
 
 Any time you'd like to access items from an iterable collection sequentially but don't want to use a for-loop, an iterator can come in handy. Just write your code to gracefully handle the `StopIteration` exception:  
 
-```plain-text
+```python
 list = ['a', 'b', 'c', 'd']
 it = iter(list)
 try:
@@ -55,7 +55,7 @@ except StopIteration:
 
 You can even create your own custom class/container and implement the iterator methods yourself, creating your own custom iterators from that class. Just define an `__iter__()` method that delegates the iteration to whatever data structure is held inside your custom class:
 
-```plain-text
+```python
 class Thing:
   def __init__(self, val):
     self._value = val
@@ -78,7 +78,7 @@ for x in thing:
 
 Iterators can also perform some pretty complex tasks, especially those from `itertools`. For example, you can iterate over all possible permutations of a string using the `itertools` method `itertools.permutations()`
 
-```plain-text
+```python
 import itertools
 list = ['a', 'b', 'c', 'd']
 for x in itertools.permutations(list):
@@ -94,7 +94,7 @@ for x in itertools.permutations(list):
 
 Or iterate in reverse using the `reversed()` method:
 
-```plain-text
+```python
 list = ['a', 'b', 'c', 'd']
 for x in reversed(list):
   print(x)
@@ -142,4 +142,3 @@ What method must a custom class implement to be able to support creating iterato
 
 [1:I/O Operations]
 It's generally recommended to close files as soon as you've extracted the data you need to a separate data structure to avoid the possibility of concurrent access errors, or issues with other processes (whether they be OS or third party) wanting to access the same file at the same time. It also happens to be more efficient as the mode-bit change and context switch required to execute the system call to read from storage causes some overhead.
- 

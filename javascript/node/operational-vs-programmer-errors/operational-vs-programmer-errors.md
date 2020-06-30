@@ -33,7 +33,7 @@ To make the distinction between the two types is the first step in being able to
 
 Note: You might have also heard of "exceptions". An exception is a "thrown error":
 
-```plain-text
+```javascript
 if(err){
   throw new Error('exception here');  
 }
@@ -48,7 +48,7 @@ callback(new Error('error here'));
 
 Can you identify type of error most likely depicted in the following snippet?
 
-```plain-text
+```javascript
 import http from 'http';
 ...
 // create the request header
@@ -85,4 +85,3 @@ A programmer error is
 - a problem with the server configuration
 - a problem on the client
 - an unhandled exception
- 

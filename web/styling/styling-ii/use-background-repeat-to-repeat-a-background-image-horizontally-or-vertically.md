@@ -22,7 +22,7 @@ links:
 
 The background image will repeat in both directions by default. Use `repeat-x`  to repeat the image horizontally and `repeat-y` to repeat it vertically.
 
-```plain-text
+```css
 body {
   background-image: url('image.jpg');
   background-repeat: repeat-x;
@@ -60,7 +60,7 @@ body {
 
 What will the following CSS code do?
 
-```plain-text
+```css
 body {
    background-image: url('picture.jpg');
    background-repeat: repeat-y;
@@ -72,4 +72,3 @@ body {
 - Repeats the background image vertically.
 - Repeats the background image both horizontally and vertically.
 - Stops the background image from repeating.
- 

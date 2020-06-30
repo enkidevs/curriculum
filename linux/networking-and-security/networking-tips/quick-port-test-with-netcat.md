@@ -20,13 +20,13 @@ To be sure that we can communicate with a service sometimes the very first thing
 
 To do this quickly we can issue the `nc` command
 
-```plain-text
+```bash
 nc -vz localhost.localdomain 25
 ```
 
 If it fails, the output looks like this:
 
-```plain-text
+```bash
 nc: Connect to localhost.localdomain
     port 25 (tcp) failed: Connection
                           refused
@@ -41,7 +41,7 @@ Connection to localhost.localdomain
 
 Furthermore, to issue commands to a specific service through it we write after we get connected:
 
-```plain-text
+```bash
 nc google.al 80
 ```
 
@@ -78,4 +78,3 @@ You can test if a server’s *port 20* is open by issuing:
 - `server_address`
 - `-v`
 - `your_ip`
- 

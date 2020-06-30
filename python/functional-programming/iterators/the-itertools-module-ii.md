@@ -22,7 +22,7 @@ The `itertools` module provides a host of useful methods for working with iterab
 
 Let's start with `chain()`. This method allows us to "glue" the end of one sequence to the start of another, chaining them together. This can be done for multiple sequences at a time. Take a look at this example:
 
-```plain-text
+```python
 import itertools;
 
 letters = ['a', 'b', 'c', 'd']
@@ -37,7 +37,7 @@ print(
 
 Next, `filterfalse` iterates through a collection of elements, and, given a boolean expression to evaluate with the each element, returns a collection which only contains the elements where the expression evaluated to false.
 
-```plain-text
+```python
 numbers = [1, 2, 3, 4, 5, 6, 7, 8]
 
 print(
@@ -50,7 +50,7 @@ print(
 
 Finally, `compress()`, which takes two collections, a and b, and returns only the elements in a where the corresponding element in b evaluates to true.
 
-```plain-text
+```python
 numbers = [1, 2, 3, 4, 5, 6, 7, 8]
 boolean = [1, 0, 1, 0, 1, 0, 1, 0]
 
@@ -114,7 +114,7 @@ print(
 
 What is the result of the following code execution?
 
-```plain-text
+```python
 import itertools;
 
 names = ['Tom', 'Sadiq', 'Lars',
@@ -135,4 +135,3 @@ print(
 - `['Tom', 'Sadiq', 'Lars', 'Lee', 'Jean', 'Tom']`
 - `['Sadiq', 'Jean', 'Sadiq', 'Jean', 'Sadiq', 'Jean']`
 - `<itertools.islice object at 0x????????>`
- 

@@ -16,7 +16,7 @@ Now that we know how to query an array for a single value, let's increase the va
 
 Querying the same database as before [1].
 
-```plain-text
+```js
 db.pokedex.find({
   spells: ["Seed Bomb", "Bite", "Hydro-Pump"]
 });
@@ -24,7 +24,7 @@ db.pokedex.find({
 
 The above method searches for any documents that contain the `spells` field and looks only for the documents that have "Seed Bomb" as the first value, "Bite" as the second and "Hydro-Pump" as the third value. Giving us the output:
 
-```plain-text
+```javascript
 {
   _id: ObjectId("5d9d8a6a0b24990f19398209"),
   name: "Bulbasaur",
@@ -38,7 +38,7 @@ If we wanted to search which array contains the above 3 values, regardless of th
 
 **Note:** The `$all` operator behaves similarly to the `$and` operator (discussed in the `Querying Operators` workout).
 
-```plain-text
+```javascript
 db.pokedex.find({
   spells: {
     $all: ["Seed Bomb", "Bite", "Hydro-Pump"]
@@ -48,7 +48,7 @@ db.pokedex.find({
 
 Output:
 
-```plain-text
+```javascript
 {
   _id: ObjectId("5d9d8a6a0b24990f19398209"),
   name: "Bulbasaur",
@@ -67,7 +67,7 @@ Output:
 
 **Note:** The below two methods give the exact same result.(Any documents with a `spells` array containing the "Bite" value)
 
-```plain-text
+```javascript
 // Method 1
 db.pokedex.find({
   spells: {
@@ -83,7 +83,7 @@ db.pokedex.find({
 
 Output:
 
-```plain-text
+```javascript
 {
   _id: ObjectId("5d9d8a6a0b24990f19398209"),
   name: "Bulbasaur",
@@ -109,7 +109,7 @@ Output:
 
 However, the method below:
 
-```plain-text
+```javascript
 db.pokedex.find({
   spells: {
     $all: "Bite"
@@ -149,7 +149,7 @@ db.pokedex.find({
 [1:Previous Documents]
 Here are the documents used in the previous insight:
 
-```plain-text
+```javascript
 // Previous Documents
 {
   _id: ObjectId("5d9d8a6a0b24990f19398209"),
@@ -173,4 +173,3 @@ Here are the documents used in the previous insight:
   spells: ["Bite"]
 }
 ```
- 

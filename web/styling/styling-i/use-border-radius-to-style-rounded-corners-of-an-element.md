@@ -20,7 +20,7 @@ links:
 
 Use two length or percentage values to define the horizontal and vertical radii of a quarter ellipse separately.
 
-```plain-text
+```css
 div {
   border: 3px solid red;
   border-radius: 15px 10px;
@@ -46,7 +46,7 @@ To obtain a circle, use `border-radius: 50%`.
 
 Consider the snippet:
 
-```plain-text
+```css
 #element {
    border-radius: 22px 15px;
 }
@@ -60,4 +60,3 @@ The first number in the two-values syntax of the `border-radius` will shape
 - top-left and bottom-left corners
 - top-right and bottom-left corners
 - top-right and bottom-right corners
- 

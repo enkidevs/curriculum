@@ -18,19 +18,19 @@ By choosing to implement sessions in **Express** with the help of cookies, a `se
 
 With the introduction of **Express 4.0**, `cookie-session` is a separate module that must be installed:
 
-```plain-text
+```bash
 npm install cookie-session
 ```
 
 Then imported:
 
-```plain-text
+```javascript
 var cookieSess = require('cookie-session');
 ```
 
 Initialize cookie sessions:
 
-```plain-text
+```javascript
 app.use(cookieSess({
 name: 'session', keys:['key1','key2']
 //other options
@@ -43,7 +43,7 @@ In order to sign and verify cookie values `keys` can be used or a `secret` that 
 
 `req.session` represents the session for the given request.
 
-```plain-text
+```javascript
 req.session.isChanged
 // returns true if session has been changed
 req.session.isNew
@@ -89,4 +89,3 @@ var cookieSess = ???('???');
 - session
 - import
 - cookie-express
- 

@@ -28,7 +28,7 @@ The order of the declaration of dynamic pseudo-classes is important in order for
 
 The following is a common order used for links (`<a>` elements):
 
-```plain-text
+```css
 a:link {  /* unvisited link */
   color: black;
 }
@@ -74,4 +74,3 @@ What is the common order of pseudo-classes used for links?
 - ps:visited {
 - ps:hover {
 - ps:active {
- 

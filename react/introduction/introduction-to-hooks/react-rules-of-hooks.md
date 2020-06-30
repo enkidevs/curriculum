@@ -15,7 +15,7 @@ links:
 
 You have learned how to use the `useState()` and `useEffect()` hooks, but until now we have only called these methods once. An important feature of hooks is that you can have multiple `useState()` and `useEffect()` in the same function component. Here's an example:
 
-```plain-text
+```jsx
 function App() {
   const [foo, setFoo] = useState("First");
 
@@ -51,7 +51,7 @@ Hooks were designed to work when called either inside React function components 
 
 To help developers follow these rules more easily, the React team has created an ESLint plugin called `eslint-plugin-react-hooks`. A quick way to add it to your project is to install it from NPM[1]:
 
-```plain-text
+```shell
 npm i eslint-plugin-react-hooks --save-dev
 ```
 
@@ -104,4 +104,3 @@ Can you have more than one hook in a component?
 
 [1:NPM]
 NPM (short for Node Package Manager) is on online repository used for the publishing of open-source Node.js projects. At the same time, it also provides a command-line utility for interacting with this repository, which helps with package installation, version management, and dependency management.
- 

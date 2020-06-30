@@ -15,7 +15,7 @@ tags:
 
 If you started the shutdown either via the terminal or from the GUI and then realised that you didn’t really want to do that, you can use:
 
-```plain-text
+```bash
 shutdown -c
 ```
 
@@ -23,7 +23,7 @@ However, note that if the shutdown has already started, it may be too late to ca
 
 Another command to try is :
 
-```plain-text
+```bash
 pkill shutdown
 ```
 
@@ -39,4 +39,3 @@ In order to cancel a shutdown command you can use `shutdown -c` or
 - pkill shutdown
 - kill shutdown
 - shutdown -pkill
- 

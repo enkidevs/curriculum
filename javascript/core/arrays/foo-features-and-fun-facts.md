@@ -19,7 +19,7 @@ Do you know what is the **output** of the following code snippets?
 
 ## Game Content
 
-```plain-text
+```javascript
 var foo = function foo() {
   console.log(foo === foo);  
 };
@@ -36,7 +36,7 @@ This is true because we are comparing two of the same thing. When we refer to `f
 
 ---
 
-```plain-text
+```javascript
 function aaa() {
   return
     {
@@ -54,7 +54,7 @@ console.log(typeof aaa());
 %exp
 This is an exercise in JavaScript's automatic semicolon insertion. While this code looks correct, JavaScript inserts semicolons where it thinks the user has missed them. Once JS has done this, the function changes into:
 
-```plain-text
+```javascript
 function aaa() {
     return;
     {
@@ -69,7 +69,7 @@ Which does not return the object as you would expect, and results in the type of
 
 ---
 
-```plain-text
+```javascript
 Number("1") - 1 == 0;
 ```
 
@@ -83,7 +83,7 @@ This is true because we are casting a string to a number, and then taking away t
 
 ---
 
-```plain-text
+```javascript
 (true + false) > 2 + true;
 ```
 
@@ -97,7 +97,7 @@ Booleans can be operands to the `+` operator in JavaScript. JS evaluates this by
 
 ---
 
-```plain-text
+```javascript
 function bar() {
   return foo;
   foo = 10;
@@ -119,7 +119,7 @@ Considering the placement of the return, it is easy to make the mistake of think
 
 ---
 
-```plain-text
+```javascript
 "1" - - "1";
 ```
 
@@ -133,7 +133,7 @@ This is an example of two strings being cast as numbers and then subtracted. The
 
 ---
 
-```plain-text
+```javascript
 [] + [] + 'foo'.split('');
 ```
 
@@ -147,7 +147,7 @@ Two arrays added together equal the empty string. This is because arrays are obj
 
 ---
 
-```plain-text
+```javascript
 new Array(5).toString();
 ```
 
@@ -161,7 +161,7 @@ This simply creates a new array with five empty items. The string representation
 
 ---
 
-```plain-text
+```javascript
 var myArr = ['foo', 'bar', 'baz'];
 myArr.length = 0;
 myArr.push('bin');
@@ -175,4 +175,3 @@ console.log(myArr);
 %exp
 Setting the length of an array to anything lower than its current length truncates it. When we set the length to 0, this effectively erases all its contents. Therefore, when we push `'bin'` on to the array, it is the sole element in it and the result is `['bin']`.
 %
- 

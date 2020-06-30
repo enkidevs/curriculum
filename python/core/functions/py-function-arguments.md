@@ -1,16 +1,15 @@
 ---
 author: SebaRaba
-
 type: normal
-
 category: must-know
-
 links:
-  - '[More about arguments](https://www.tutorialspoint.com/python/python_functions.htm){website}'
-
+  - >-
+    [More about
+    arguments](https://www.tutorialspoint.com/python/python_functions.htm){website}
 ---
 
 # Function arguments
+
 
 ---
 
@@ -26,7 +25,7 @@ Functions can be called using any of the following types of arguments (also call
 
 Consider the following example:
 
-```py
+```python
 def print_info(name, age, gender):
   print('Name: ', name)
   print('Age: ', age)
@@ -126,12 +125,14 @@ SyntaxError: non-default argument
 follows default argument
 ```
 
+
 ---
+
 ## Practice
 
 Will the following snippet throw any errors?
 
-```py
+```python
 def foo(name, salary = 1500, department):
   print('Name: ',  name)
   print('Salary: ', salary)
@@ -149,7 +150,9 @@ foo(name, department)
 - No, it won't.
 - Yes, but only for some input.
 
+
 ---
+
 ## Revision
 
 Fill the gaps such that the code will run with no errors.

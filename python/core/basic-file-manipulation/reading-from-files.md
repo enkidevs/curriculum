@@ -34,7 +34,7 @@ Where is my food?
 
 We can read the entire file with `read()`:
 
-```plain-text
+```python
 file = open('test.txt', 'r')
 print(file.read())
 
@@ -47,7 +47,7 @@ print(file.read())
 
 Instead of **reading** the whole **file** at once, you could read it one line at a time with the help of the `readline()` file object method. A line is defined as all characters until the **end of line character** (`\n`). In the output, a newline (`\n`) is left at the end of each string, with the only exception being the last line:
 
-```plain-text
+```py
 file = open('test.txt', 'r')
 
 print(file.readline())
@@ -62,7 +62,7 @@ print(file.readline())
 
 Last but not least, `readlines()` reads all lines from a file and returns them as a **list**:
 
-```plain-text
+```py
 file = open('test.txt', 'r')
 
 print(file.readlines())
@@ -122,4 +122,3 @@ print(file.???())
 - `read`
 - `open`
 - `write`
- 

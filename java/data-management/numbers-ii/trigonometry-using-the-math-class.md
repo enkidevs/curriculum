@@ -19,18 +19,17 @@ links:
 
 The `Math` class contains various methods for performing trigonometric functions. For example, it is possible to convert a value in degrees to radians:
 
-```plain-text
+```java
 double degrees = 45;
 double radians = Math.toRadians(degrees);
 ```
 
 Then find the sine of this value:
 
-```plain-text
+```java
 System.out.format(
   "The sine of %.1f degrees is %.4f%n",
   degrees, 
   Math.sin(radians)
 );
 ```
- 

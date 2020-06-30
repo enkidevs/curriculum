@@ -24,7 +24,7 @@ Instead, you can explicitly set the upstream branch by using the `-u` or `--set-
 
 For example, to set the current branch to track the remote branch `scrollFix`:
 
-```plain-text
+```bash
 git branch -u origin/scrollFix
 ```
 
@@ -57,4 +57,3 @@ is used to set the current branch to follow the remote branch *newFeature*.
 - tracking
 - single
 - false
- 

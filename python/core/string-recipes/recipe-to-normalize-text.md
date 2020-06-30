@@ -16,7 +16,7 @@ parent: unicode-character-database-at-your-hands
 
 Using the `unicodedata` Python module it's  easy to normalize any **unicode** data strings (remove accents etc):
 
-```plain-text
+```python
 import unicodedata
 
 data = u'ïnvéntìvé'
@@ -29,7 +29,7 @@ print(normal)
 
 The output will be:
 
-```plain-text
+```python
 b'inventive'
 ```
 
@@ -73,4 +73,3 @@ What module has the `normalize` method used to normalise unicode data strings?
 - `unicode`
 - `normal`
 - `normalize`
- 

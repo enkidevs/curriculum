@@ -13,7 +13,7 @@ category: must-know
 
 To use a class, you must create an instance of a class. Take the following class:
 
-```plain-text
+```python
 class Employee:
   count = 0
   def __init__(self, name):
@@ -27,7 +27,7 @@ class Employee:
 
 To create an instance of the class:
 
-```plain-text
+```python
 john = Employee("John")
 emily = Employee("Emily")
 ```
@@ -36,7 +36,7 @@ When creating an instance of a class, the `__init__` function is called and this
 
 Any instance of the class can then access the class methods:
 
-```plain-text
+```python
 john.print_idnum()
 # John is employee no. 1
 emily.print_idnum()
@@ -77,7 +77,7 @@ steve = ???(???)
 
 The most specific syntagm used to define the `count` variable below is:
 
-```plain-text
+```python
 class Car:
   count = 0
   def __init__(self):
@@ -90,4 +90,3 @@ class Car:
 - instance attribute
 - class variable
 - instance variable
- 

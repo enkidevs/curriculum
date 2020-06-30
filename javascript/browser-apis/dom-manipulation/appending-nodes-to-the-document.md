@@ -22,7 +22,7 @@ Once you have created an element you need to add it to the HTML document, or it 
 
 In this example we will use the `getElementById` to select the parent, then our `initializeElement` function to create a heading and then use `appendChild` to add it to the document:
 
-```plain-text
+```javascript
 let container = document.getElementById(
   "container"
 );
@@ -79,4 +79,3 @@ container.???(paragraph);
 - `appendChild`
 - `appendNode`
 - `appendElement`
- 

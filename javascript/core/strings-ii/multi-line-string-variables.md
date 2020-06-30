@@ -22,7 +22,7 @@ links:
 
 For readability, it may be preferable to write strings over multiple lines:
 
-```plain-text
+```javascript
 let stringOfHTML = "<div>
   This is a bad example.
 </div>";
@@ -32,7 +32,7 @@ However, this will cause an error.
 
 To preserve both readability and functionality, use string concatenation:
 
-```plain-text
+```javascript
 let stringOfHTML = '<div>' +
   '  This is a better example.' +
 '</div>';
@@ -40,7 +40,7 @@ let stringOfHTML = '<div>' +
 
 Or, since ES2015, it is possible to use backticks (`` ` ``), in this form:
 
-```plain-text
+```javascript
 let stringOfHTML = `This is a 
 multi-line
 string in ES6!`;
@@ -53,11 +53,11 @@ string in ES6!`;
 
 Which characters are used to enclose a multi-line string?
 
-```plain-text
+```js
 "" // A
 ```
 
-```plain-text
+```js
 `` // B
 ```
 
@@ -76,4 +76,3 @@ The new standard for multi-lined string is using ??? .
 - backticks
 - single quotes
 - double quote
- 

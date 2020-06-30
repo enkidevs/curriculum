@@ -24,7 +24,7 @@ links:
 
 ES6 introduced a new feature called template strings that make it easier to work with strings by adding string interpolation and multi-line strings:
 
-```plain-text
+```js
 // string interpolation
 // is a fancy word for
 // variable substitution
@@ -35,7 +35,7 @@ console.log(`Hello ${company}!`);
 
 Template literals are denoted by the `` ` `` character, rather than `''` or `""`. When you use template strings, you can have multiline strings:
 
-```plain-text
+```js
 let aMultilineString = `
 Hello
 I am a multiline string
@@ -44,7 +44,7 @@ I am a multiline string
 
 Beyond variables, template literals actually allow us to interpolate *any* JavaScript expression, for example `${5 + 5}`. The expression will be cast to a string, then replaced inside the template string.
 
-```plain-text
+```js
 let item = "Oranges";
 let itemPrice = 2.5;
 let money = 10;
@@ -59,7 +59,7 @@ console.log(compositeString);
 
 The above would output:
 
-```plain-text
+```js
 Hi,
 I have 10 dollars,
 and I would like to purchase :
@@ -117,4 +117,3 @@ let line = `Stay ??? Stay ???`;
 - `%s`
 - `$(attr2)`
 - `#(attr2)`
- 

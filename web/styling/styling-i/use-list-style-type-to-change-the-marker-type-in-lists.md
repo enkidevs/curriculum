@@ -23,7 +23,7 @@ links:
 
 This property will allow you to change the marker of items in an unordered list to different shapes.
 
-```plain-text
+```css
 ul.a {
   list-style-type: square;
 }
@@ -31,7 +31,7 @@ ul.a {
 
 Use `list-style-image` to change the marker to an image of your choice.
 
-```plain-text
+```css
 ul.b {
   list-style-image: url('image.jpg');
 }
@@ -39,7 +39,7 @@ ul.b {
 
 For ordered lists, the marker can be changed to different formats of numbering.
 
-```plain-text
+```css
 ol.c {
   list-style-type: lower-roman;
 }
@@ -76,7 +76,7 @@ ul.specialList {
 
 What does the following CSS code snippet do?
 
-```plain-text
+```css
 ul.a {
    list-style-image: url("list-pic.jpg");
 }
@@ -92,4 +92,3 @@ ol.b {
 - Sets the unordered list marker to roman numerals and the ordered list to an image.
 - This does nothing...
 - Sets the first element of the unordered lists marker to an image and the first element of the ordered lists marker to roman numerals.
- 

@@ -15,7 +15,7 @@ In HTML, many elements allow for extra attributes, which allow for additional in
 
 Example:
 
-```plain-text
+```html
 <img src="enki_logo.png">
 ```
 
@@ -31,7 +31,7 @@ The name/value pair refers in this case to 'src' and the value
 
 What are the two attributes in the following snippet? ???
 
-```plain-text
+```html
 <p>
   This is a
   <a
@@ -82,4 +82,3 @@ HTML attributes usually come in what format?
 - styles like: font-size
 - values like: color="red"
 - measurements like: pixels
- 

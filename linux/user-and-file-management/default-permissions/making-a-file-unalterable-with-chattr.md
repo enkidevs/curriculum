@@ -20,7 +20,7 @@ tags:
 
 You can make a file unalterable so that it cannot be changed or deleted even by root:
 
-```plain-text
+```bash
 sudo chattr +i /path/to/file
 ```
 
@@ -28,19 +28,19 @@ After that the file becomes *untouchable*.
 
 To make it alterable again, remove the attribute using `-i` flag:
 
-```plain-text
+```bash
 sudo chattr -i /path/to/file
 ```
 
 Use the `-R` flag to unlock a directory.
 
-```plain-text
+```bash
 sudo chattr -R -i directory/
 ```
 
 The Mac equivalent is:
 
-```plain-text
+```bash
 # to "lock" the file
 chflags uchg /path/to/file
 # to "unlock"
@@ -63,4 +63,3 @@ sudo ??? ??? enki
 - `-R`
 - `-Ri`
 - `-i`
- 

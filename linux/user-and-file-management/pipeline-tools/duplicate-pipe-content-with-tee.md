@@ -21,7 +21,7 @@ One straightforward and useful example is that `tee` can be used to write to mul
 
 The command to achieve this is:
 
-```plain-text
+```bash
 ps | tee fileone filetwo filethree
 ```
 
@@ -29,7 +29,7 @@ The output of the `ps` command is now inside three different files.
 
 To append data to files, the `-a` flag must be used:
 
-```plain-text
+```bash
 ps | tee -a fileone filetwo 
           filethree
 ```
@@ -73,4 +73,3 @@ Print the output of `ls` command in two files:
 - `>>`
 - `>`
 - `<`
- 

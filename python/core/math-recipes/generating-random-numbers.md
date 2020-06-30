@@ -19,20 +19,20 @@ The Python `random` module provides random (pseudo-random) number generators bas
 
 Import the module:
 
-```plain-text
+```python
 import random
 ```
 
 Generate a random number (`0 <= x < 1.0`):
 
-```plain-text
+```python
 print(random.random())
 # 0.9104148523071307
 ```
 
 Generate a random number in a specified range:
 
-```plain-text
+```python
 print(random.uniform(1,50))
 # 2.3772939038992495
 
@@ -40,14 +40,14 @@ print(random.uniform(1,50))
 
 Generate a random integer from a range:
 
-```plain-text
+```python
 print(random.randint(1,50))
 # 32
 ```
 
 Generate a random integer from a range, but with a `step` (of the lower bound):
 
-```plain-text
+```python
 print(random.randrange(0, 101, 5))
 print(random.randrange(0, 101, 5))
 # 50
@@ -57,7 +57,7 @@ print(random.randrange(0, 101, 5))
 
 Pick a random element from a sequence:
 
-```plain-text
+```python
 t = (4, 5, 6, 10, 23)
 print(random.choice(t))
 # 23
@@ -98,4 +98,3 @@ print(random.???())
 - `new`
 - `get`
 - `new_random`
- 

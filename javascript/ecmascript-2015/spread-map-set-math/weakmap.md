@@ -18,7 +18,7 @@ Like a map, a `WeakMap` is also a collection of key value pairs. Additionally, k
 
 The syntax is:
 
-```plain-text
+```js
 new WeakMap([iterable]);
 ```
 
@@ -62,4 +62,3 @@ Are `WeakMap`s enumerable?
 
 - `yes`
 - `no`
- 

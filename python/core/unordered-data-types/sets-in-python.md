@@ -29,13 +29,13 @@ So we know about sequential data types like `strings`, `tuples` and `lists`. The
 
 > Sets are defined by values separated by commas, inside curly brackets `{}`.
 
-```plain-text
+```python
 set = {'clubs', 'hearts', 'spades', 'diamonds'}
 ```
 
 We can create a `set` by placing all items inside `{}`, separated by commas, OR by using the built-in `set()` function:
 
-```plain-text
+```python
 my_set = {1, "Hello", (1, 2, 3)}
 
 # OR
@@ -67,4 +67,3 @@ Sets are an ??? data type. Items inside a set cannot be ???, though the whole se
 - `updated`
 - `unique`
 - `indexed`
- 

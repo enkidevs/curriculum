@@ -20,7 +20,7 @@ links:
 
 The `UserPrincipalLookupService` can be used to lookup a user name defined as a string and store it as a `UserPrincipal` object:
 
-```plain-text
+```java
 UserPrincipal owner =
   file.getFileSystem()
   .getUserPrincipalLookupService()
@@ -29,7 +29,7 @@ UserPrincipal owner =
 
 Once a `UserPrincipal` object has been acquired, it can be used to set the owner of a file by calling the `Files.setOwner` method:
 
-```plain-text
+```java
 Path file = Paths.get("home/file.txt");
 Files.setOwner(file, owner);
 ```
@@ -53,4 +53,3 @@ UserPrincipal owner =
 - lookupPrincipalByName("tom")
 - lookupPrincipalByName()
 - getUserPrincipalLookupService("tom")
- 

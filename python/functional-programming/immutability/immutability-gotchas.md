@@ -21,7 +21,7 @@ For the final insight, let's examine some of the most common slip-ups we could m
 
 If you want to define an optional argument to a method in Python, you can define a default argument to fall back on if the argument is not supplied. The syntax to do this is:
 
-```plain-text
+```python
 def your_method(self, optional="default"):
     do_some_stuff(self)
     # and more stuff here...
@@ -29,7 +29,7 @@ def your_method(self, optional="default"):
 
 What has this got to do with immutability? Let's create our own method with optional arguments. Let's make a utility method which adds a given object into a supplied collection object. The collection can be optional; *if a collection is not supplied we'll create a new one.* You might have thought of something like this:
 
-```plain-text
+```python
 def add_to(object, collection=[]):
   collection.append(object)
   return collection
@@ -37,7 +37,7 @@ def add_to(object, collection=[]):
 
 Simple, right? Let's run it:
 
-```plain-text
+```python
 >>> list = [1, 2, 3]
 >>> add_to(4, list)
 # [1, 2, 3, 4]
@@ -45,7 +45,7 @@ Simple, right? Let's run it:
 
 Awesome! It works. Let's make sure the default argument also works if we don't provide a container.
 
-```plain-text
+```python
 >>> add_to(1)
 # [ 1]
 >>> add_to("testing")
@@ -58,7 +58,7 @@ In Python, the arguments are evaluated at the time the function is defined, not 
 
 A better idea would be to use an immutable object as a default and run a check to see if it's there in the body of the method, like so:
 
-```plain-text
+```python
 def add_to(object, collection=None):
   if collection is None:
     collection = []
@@ -87,7 +87,7 @@ How can we prevent a function we define with a mutable default argument from usi
 
 What is the result of executing the following code?
 
-```plain-text
+```python
 def add_to(object, collection=[]):
   collection.append(object)
   print(collection)
@@ -114,7 +114,7 @@ add_to("string")
 ### what is the last line printed?
 
 
-```plain-text
+```python
 def foo(x, k = []):
     k.append(x)
     print(k)
@@ -129,4 +129,3 @@ foo(3)
 - [1]
 - [4, 5, 2]
 - [1, 2, 3]
- 

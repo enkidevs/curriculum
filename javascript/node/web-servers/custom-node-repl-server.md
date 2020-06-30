@@ -18,7 +18,7 @@ links:
 **Node** allows users to created their own *Read-Eval-Print-Loop*s (**REPL**).
 Basic usage:
 
-```plain-text
+```javascript
 repl.start(prompt, stream);
 
 ```
@@ -29,7 +29,7 @@ repl.start(prompt, stream);
 
 **REPL** exposed with `net` module - available with `telnet` :
 
-```plain-text
+```javascript
 var net = require("net"),
     repl = require("repl");
 
@@ -41,7 +41,7 @@ socket);
 
 Listen to `exit` event:
 
-```plain-text
+```javascript
 replServer.on('exit', function () {
   console.log('Got "exit" event !');
   process.exit();
@@ -50,7 +50,7 @@ replServer.on('exit', function () {
 
 Custom commands can also be defined:
 
-```plain-text
+```javascript
 replServer.defineCommand(keyword, cmd)
 ```
 
@@ -91,4 +91,3 @@ replServer.???(???, function() {
 - 'exit'
 - 'close'
 - 'end'
- 

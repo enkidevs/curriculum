@@ -16,7 +16,7 @@ tags:
 
 To remove the natural underline feature that comes with `a` elements:
 
-```plain-text
+```css
 a {
     text-decoration: none;
 }
@@ -24,13 +24,13 @@ a {
 
 To underline a `span`:
 
-```plain-text
+```html
 <span class="underline"> Span </span>
 ```
 
 Use:
 
-```plain-text
+```css
 span.underline {
   text-decoration: underline;
 }
@@ -63,7 +63,7 @@ a {
 
 What does the following CSS code do?
 
-```plain-text
+```css
 a {
    text-decoration: none;
 }
@@ -74,4 +74,3 @@ a {
 - Removes the natural underline feature on all <a> elements.
 - Reverts and changes made to the text in all <a> elements, such as different colors.
 - Adds the natural underline feature to all <a> elements.
- 

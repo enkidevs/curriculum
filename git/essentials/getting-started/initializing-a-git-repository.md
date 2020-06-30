@@ -21,15 +21,15 @@ There are two primary ways to include a project under **Git** control:
 1. Bring an existing project/directory on your machine under control of **Git**
 2. Import a **Git** repository from another server by *cloning* it
 
- From within a project's directory:
+   From within a project's directory:
 
-```plain-text
+```bash
 cd myAwesomeProject
 ```
 
 You can simply:
 
-```plain-text
+```bash
 git init 
 ```
 
@@ -63,4 +63,3 @@ What command is used to initialize **Git** for a project?
 - `git new`
 - `git initalize`
 - `git initalise`
- 

@@ -18,7 +18,7 @@ JavaScript supports the standard loop constructs you may have seen in other lang
 
 ### `for` loop
 
-```plain-text
+```javascript
 // print values from 0 to 9
 for (let i = 0; i < 10; i++) {
   console.log(i);
@@ -29,7 +29,7 @@ for (let i = 0; i < 10; i++) {
 
 We can also count backwards from 9 to 0:
 
-```plain-text
+```javascript
 // print values from 9 to 0
 for (let i = 9; i >= 0; i--) {
   console.log(i);
@@ -42,7 +42,7 @@ for (let i = 9; i >= 0; i--) {
 
 The `while` loop continues to run as long as its condition is true:
 
-```plain-text
+```js
 let i = 0;
 
 // print values from 0 to 9
@@ -56,7 +56,7 @@ while (i < 10) {
 
 **Note:** the loop will never run if the expression is never true:
 
-```plain-text
+```javascript
 let i = 10;
 
 // this loop will never run because i = 10
@@ -73,7 +73,7 @@ while (i < 10) {
 
 `do..while` loops are similar to `while` loops but have the important difference that they will always run at least once before the condition is checked:
 
-```plain-text
+```javascript
 let i = 10;
 
 // runs once
@@ -126,4 +126,3 @@ Complete the following `for` loop such that it's syntactically correct and runs 
 - `while`
 - `do`
 - `i--`
- 

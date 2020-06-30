@@ -18,31 +18,31 @@ links:
 
 To only stash files that are not staged:
 
-```plain-text
+```bash
 git stash --keep-index
 ```
 
 To stash untracked files as well as tracked:
 
-```plain-text
+```bash
 git stash -u
 ```
 
 To interactively stash the changes:
 
-```plain-text
+```bash
 git stash --patch
 ```
 
 To clean up your working directory but not delete the changes permanently:
 
-```plain-text
+```bash
 git stash --all
 ```
 
 Finally, there is an optional `message` argument to give a description of the stash:
 
-```plain-text
+```bash
 git stash save new feature
 git stash list
 stash@{0}: On master: new feature
@@ -73,4 +73,3 @@ interactively ???
 - description
 - branch
 - message
- 

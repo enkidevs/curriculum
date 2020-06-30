@@ -39,7 +39,7 @@ However, the set of generated values can only be used once.
 
 What will the output of the following code snippet be?
 
-```plain-text
+```python
 
 def my_gen(number):
   number -= 1
@@ -71,4 +71,3 @@ Because generators create values on demand, this results in ??? memory consumpti
 
 - lower
 - higher
- 

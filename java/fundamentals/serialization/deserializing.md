@@ -17,7 +17,7 @@ links:
 
 Following from the previous insight, lets now deserialize our Car object:
 
-```plain-text
+```java
 import java.io.*;
 public class carDeserialization {
   public static void main(String [] args) {
@@ -68,7 +68,7 @@ It is especially important to use `try` and `catch` blocks when deserializing an
 
 Consider the following:
 
-```plain-text
+```java
 class Engine {
     private int numberOfCilinders;
     private int volumeInLitres;
@@ -108,4 +108,3 @@ What is the correct order of deserializing a file?
 - create an empty object
 - open a suitable to read as an input stream file
 - deserialize the file (i.e. fill our empty object with information)
- 

@@ -36,7 +36,7 @@ After installation of the *Psycopg* package we can run python by typing `python`
 
 Now let's connect to a database:
 
-```plain-text
+```python
 # Import the library
 >>> import psycopg2
 # Connect to the database
@@ -50,7 +50,7 @@ Now let's connect to a database:
 
 In order to execute a query we must use the cursor class:
 
-```plain-text
+```python
 # Creating a cursor instance
 >>> cur = conn.cursor()                    
 # Execute a command
@@ -63,7 +63,7 @@ This will list all the colors in an array of pairs.
 
 As `cur` is now a Python list object we can iterate through the query result simply by:
 
-```plain-text
+```python
 >>> for row in cur:
 ...   print (row)
 ...
@@ -71,7 +71,7 @@ As `cur` is now a Python list object we can iterate through the query result sim
 
 Which should print:
 
-```plain-text
+```python
 (1, 'black')
 (2, 'blue')
 (3, 'brown')
@@ -111,4 +111,3 @@ How can you connect to a database with Python?
 
 - By using dedicated libraries
 - Python provides an inbuilt db functionality
- 

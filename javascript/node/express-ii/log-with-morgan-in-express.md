@@ -16,19 +16,19 @@ parent: easy-way-to-deliver-html-pages-with-express
 
 To use the new **HTTP** logger (called `morgan`) from **Express 4.0** you need to install:
 
-```plain-text
+```bash
 npm install morgan
 ```
 
 And import it:
 
-```plain-text
+```javascript
 var morgan = require('morgan');
 ```
 
 When creating a new `morgan` logger middleware a `format` must be specified, followed by desired `options` (which are optional) :
 
-```plain-text
+```javascript
 app.use(morgan('tiny'));
 ```
 
@@ -41,7 +41,7 @@ Options worth mentioning are:
 
 To only log error responses:
 
-```plain-text
+```javascript
 morgan('combined', {
   skip: function (req, res) {
     return res.statusCode < 400 }
@@ -91,4 +91,3 @@ app.???(???('tiny'));
 - install
 - make
 - logger
- 

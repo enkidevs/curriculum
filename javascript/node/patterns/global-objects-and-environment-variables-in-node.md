@@ -23,14 +23,14 @@ links:
 Get the directory of the current running script
 (in `User/MyUser/Desktop`):
 
-```plain-text
+```javascript
 console.log(__dirname);
 // will log User/MyUser/Desktop
 ```
 
 Get the path of the code being executed:
 
-```plain-text
+```javascript
 console.log(__filename);
 // will log User/MyUser/Desktop/script.js
 ```
@@ -39,7 +39,7 @@ This object is not necessarily global, but is local to each module.
 
 Get command line arguments:
 
-```plain-text
+```javascript
 console.log(process.argv);
 ```
 
@@ -47,13 +47,13 @@ Here `process` is a global object, `process.argv` will generate an array contain
 
 Get the user environment:
 
-```plain-text
+```javascript
 console.log(process.env);
 ```
 
 Get current platform:
 
-```plain-text
+```javascript
 console.log(process.platform);
 ```
 
@@ -94,4 +94,3 @@ console.log(???.???);
 - args
 - node
 - console
- 

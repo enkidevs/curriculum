@@ -36,7 +36,7 @@ The `$ne` operator is used to find documents that don't match the value of the s
 
 For instance:
 
-```plain-text
+```javascript
 db.pokemon.find({
   secondType: { $ne: "Rock" }
 })
@@ -46,7 +46,7 @@ The query above would display all documents whose `secondType` is not `"Rock"`, 
 
 The `$eq` operator is used to only find documents that match the value of the specified field. For instance:
 
-```plain-text
+```javascript
 db.pokemon.find({
   type: { $eq: "Fire" }
 })
@@ -54,7 +54,7 @@ db.pokemon.find({
 
 This query finds only pokémon whose `type` is `"Fire"`. This is exactly the same as:
 
-```plain-text
+```javascript
 db.pokemon.find({
   type: "Fire"
 })
@@ -62,7 +62,7 @@ db.pokemon.find({
 
 The `$nin` operator, which operates similarly to the `$ne` operator, is used to find all documents whose fields don't match the values in the specified array and the documents that don't have the specified field.
 
-```plain-text
+```javascript
 db.pokemon.find({
   secondType: {
     $nin: ["Grass", "Fire"]
@@ -72,7 +72,7 @@ db.pokemon.find({
 
 Output:
 
-```plain-text
+```javascript
 {
   "_id": ObjectId(
     "5d9d8ce90b24990f19398219"
@@ -164,4 +164,3 @@ Less than a value: ???
 - `$lte`
 - `$gt`
 - `$lt`
- 

@@ -13,7 +13,7 @@ category: how to
 
 Syntax:
 
-```plain-text
+```javascript
 { $push: <expression> }
 ```
 
@@ -23,7 +23,7 @@ For instance, let's say we have a `pokemon` collection where each pokémon has a
 
 Example where there are only 3 types of pokémon:
 
-```plain-text
+```javascript
 db.pokemon.aggregate([
   {
     $group: {
@@ -38,7 +38,7 @@ db.pokemon.aggregate([
 
 Output:
 
-```plain-text
+```javascript
 
 { "_id": "Psychic",
  "namesPerGroup": 
@@ -95,4 +95,3 @@ db.pokemon.aggregate([
 - `array`
 - `push`
 - `type`
- 

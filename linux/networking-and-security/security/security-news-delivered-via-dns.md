@@ -22,13 +22,13 @@ The public service `istheinternetonfire.com` provides the latest short security 
 
 View on the terminal using:
 
-```plain-text
+```bash
 dig +short -t txt istheinternetonfire.com
 ```
 
 A sample output of such news:
 
-```plain-text
+```bash
 "Make ImageMagick Great Again!
 CVE-2016-3714:RCE in ImageMagick 
 https://imagetragick.com/"
@@ -47,4 +47,3 @@ You can get security news via DNS from
 - google.com/security
 - facebook.com/security
 - twitter.com/security/api
- 

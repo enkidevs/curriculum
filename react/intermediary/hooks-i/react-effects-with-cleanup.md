@@ -20,7 +20,7 @@ In class components, this functionality would be split into three lifecycle meth
 
 When using function components, the hooks were designed such that adding and removing a subscription is kept together. The idea behind is that if you return a function for your `useEffect()` hook, React will run it at cleanup. Let's take a look at an example:
 
-```plain-text
+```js
 function Enki() {
   const [isAvailable, setIsAvailable] = useState(null);
 
@@ -53,7 +53,7 @@ Now, we know that the `cleanup()` function is ran when the component unmounts an
 
 The cleanup function does not have to be named `cleanup()`, and it doesn't have to be a standard JavaScript function. You can name it anything you want, and you can also return arrow functions:
 
-```plain-text
+```js
   useEffect(() => {
     // ...
     return randomName() {
@@ -97,4 +97,3 @@ How should the cleanup function of an `useEffect()` hook be named?
 - It should be named `cleanup()`.
 - You can only use arrow functions.
 - It should be named `clean()`.
- 

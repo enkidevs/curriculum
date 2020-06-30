@@ -32,7 +32,7 @@ notes: >-
 
 The `Comparable` interface imposes *natural ordering* on the objects of each class that implements it. It has one method, `compareTo`, which is referred to as its natural comparison method and also used to sort.
 
-```plain-text
+```java
 public class MyClass 
   implements Comparable<MyClass> {
     protected int order;
@@ -57,4 +57,3 @@ It is strongly recommended, but not strictly required that
 `(x.compareTo(y) == 0) == (x.equals(y))`
 
 Generally speaking, any class that implements the Comparable interface and violates this condition should clearly indicate this fact.
- 

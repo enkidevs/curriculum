@@ -23,7 +23,7 @@ This example watches for changes to the user's connection.
 
 Declaring the connection and type.
 
-```plain-text
+```javascript
 let connection =
   navigator.connection ||
   navigator.mozConnection ||
@@ -33,7 +33,7 @@ let type = connection.effectiveType;
 
 Listener for a change to the user's connection.
 
-```plain-text
+```javascript
 connection.addEventListener(
   "typechange",
   updateConnectionStatus
@@ -42,7 +42,7 @@ connection.addEventListener(
 
 Function to output for any change to the user's connection if called by the listener.
 
-```plain-text
+```javascript
 function updateConnectionStatus() {
   console.log(
     "Connection type is changed \
@@ -98,4 +98,3 @@ connection.addEventListener(
 - `change`
 - `update`
 - `statusChange`
- 

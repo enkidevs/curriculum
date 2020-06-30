@@ -83,4 +83,3 @@ A process’ nice value of 15 represents a
 - high
 - default
 - medium
- 

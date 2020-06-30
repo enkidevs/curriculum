@@ -19,7 +19,7 @@ The `+` operation is used in *SassScript* for the concatenation of strings.
 
 Take note of the quotation marks in these examples:
 
-```plain-text
+```css
 p {
   font-family: "sans-" + serif;
   font-family: Times + " New Roman";
@@ -28,7 +28,7 @@ p {
 
 Compiles to:
 
-```plain-text
+```css
 p {
   font-family: "sans-serif";
   font-family: Times New Roman;
@@ -39,7 +39,7 @@ When concatenating, if the first string has quote marks, the concatenated string
 
 Within a text string, *`#{} style interpolation`* can be used to place dynamic values into a string:
 
-```plain-text
+```css
 p:before {
   content: "Dynamic value insertion:
             #{10 + 10}!";
@@ -48,7 +48,7 @@ p:before {
 
 Compiles to:
 
-```plain-text
+```css
 p:before {
   content: "Dynamic value insertion: 20!";
  }
@@ -79,7 +79,7 @@ p:before {
 
 What do the two following CSS lines of code compile to? Please answer in the order of the question.
 
-```plain-text
+```css
 h1 {
    string: Hey + "everyone!";
    content: "From " + Enki!;
@@ -94,4 +94,3 @@ h1 {
 - `content: From Enki!;`
 - `string: Hey "everyone!";`
 - `content: "From "Enki!;`
- 

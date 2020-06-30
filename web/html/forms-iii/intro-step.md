@@ -18,7 +18,7 @@ For instance, if you set `step="4"`, the legal numbers could be -4, 0, 4, 8, etc
 
 Example:
 
-```plain-text
+```html
 <form
   action="/action.php">
   <input
@@ -88,7 +88,7 @@ Which form attribute allows a number to be entered in a specified interval, such
 
 Which values would be accepted by this input field?
 
-```plain-text
+```html
 <form
   action="file.php">
  <input
@@ -106,4 +106,3 @@ Which values would be accepted by this input field?
 - `1, 2, 3, 4, 5`
 - `0, 1, 2, 3, 4, 5`
 - `5, 6, 7, 8, 9`
- 

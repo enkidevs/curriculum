@@ -13,7 +13,7 @@ category: must-know
 
 We've talked a bit about how *referencing* works in Python and how assigning two names to a *mutable data type* can cause some unexpected troubles. Now, it's time to focus on what happens if *no variable* references that data type anymore:
 
-```plain-text
+```python
 m = [1, 2]
 n = m
 m = [ 205 ]
@@ -22,7 +22,7 @@ n = [ 3 ]
 
 The first two lines of code can be represented like this (an oversimplified link):
 
-```plain-text
+```bash
 # physical memory
        [1, 2]
       /      \
@@ -34,7 +34,7 @@ The first two lines of code can be represented like this (an oversimplified link
 
 The next two lines yield something different:
 
-```plain-text
+```bash
 # physical memory
 [ 205 ]    [1, 2]    [ 3 ]
    |                   |
@@ -88,4 +88,3 @@ In Python, the garbage collector is run by
 CPython is the default implementation of the Python's language, written in C and the one most of you are probably using nonetheless (as long as you run your Python REPL with the `python` command).
 
 Other implementations, like `Jython`, `IronPython` and `PyPy`, are made to take advantage of other existing virtual machines (Java Virtual Machine, or *.NET*'s Common Language Runtime) by compiling the Python code into code runnable by those machines (bytecode for Java and *Intermediate Language* for .NET)
- 

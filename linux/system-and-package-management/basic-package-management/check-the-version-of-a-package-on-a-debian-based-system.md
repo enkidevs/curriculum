@@ -21,11 +21,11 @@ notes: ''
 
 You can check the version of a package installed in a deb based system with the `dpkg` command:
 
-```plain-text
+```bash
 dpkg --list <package>
 ```
 
-```plain-text
+```bash
 dpkg --list python
     Name      Version        Description
 ii  python    2.7.3-0ubuntu2 interact..
@@ -87,4 +87,3 @@ You can check the status of installed packages on a Debian system by issuing:
 - `installed`
 - `apt-get`
 - `list`
- 

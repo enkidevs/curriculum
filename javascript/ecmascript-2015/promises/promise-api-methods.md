@@ -24,7 +24,7 @@ Accepts an array of promises and waits until all have completed. This is very us
 
 If any of the supplied promises are rejected then the reject method is called immediately:
 
-```plain-text
+```javascript
 Promise.all([p1, p2, p3]).then(values => {
   console.log(values);
   //[3, 1337, "foo"]
@@ -35,7 +35,7 @@ Promise.all([p1, p2, p3]).then(values => {
 
 Takes an array of promises and resolves when any supplied promises resolve successfully – you could use this for example to call different vendors services and just make use of the first result returned:
 
-```plain-text
+```javascript
 Promise.race([p1, p2, p3]).then(values => {
   console.log("completed");
 });
@@ -45,7 +45,7 @@ Promise.race([p1, p2, p3]).then(values => {
 
 Creates immediately rejected or resolved promises which could be useful for testing scenarios for example:
 
-```plain-text
+```javascript
 var p1 = Promise.reject(new Error("fail"));
 var p2 = Promise.resolve();
 ```
@@ -110,4 +110,3 @@ Which static `Promise` method will resolve when the first promise in the array s
 - Promise.vector
 - Promise.first
 - Promise.reject
- 

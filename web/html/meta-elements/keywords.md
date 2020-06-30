@@ -17,7 +17,7 @@ It is useful to know since the `keyword` attribute comes up often with new devel
 
 How you write keyword meta tag:
 
-```plain-text
+```html
  <meta
   name="keywords"
   content="HTML,XHTML, 
@@ -68,4 +68,3 @@ What is the least influential tag for search engines in a web page?
 - Description
 - Headings
 - Paragraphs
- 

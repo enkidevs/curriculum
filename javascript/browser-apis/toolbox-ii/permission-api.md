@@ -20,7 +20,7 @@ You can check the status of a permission using `permissions.query()`. The status
 
 For example:
 
-```plain-text
+```js
 // Check for Geolocation API permissions.
 // Pass permission's name into method
 // as 'permissionDescriptor' object.
@@ -70,4 +70,3 @@ Which of the following is a valid service for checking Permissions API browser c
 - NPM
 - GitHub
 - DockerHub
- 

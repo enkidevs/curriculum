@@ -21,7 +21,7 @@ The main feature **pytest** comes with is its `assert` function. In contrast wit
 
 Note that for pytest to run the assertion function, it has to start with `test_`. Consider the following module:
 
-```plain-text
+```python
 # multiply_pytest.py
 def multiply(a, b):
     return a * b
@@ -33,13 +33,13 @@ def test_two():
 
 The test can be run issuing the following command[1]:
 
-```plain-text
+```bash
 pytest multiply_pytest.py
 ```
 
 With the following output:
 
-```plain-text
+```bash
 ===== test session starts =====
 platform linux2 -- Python 3.5.2+,
   pytest-3.1.3, py-1.4.34, pluggy-0.4.0
@@ -105,7 +105,6 @@ For `pytest` to collect an assertion function, its name has
 [1: CLI]
 You have to install `pytest` through Python's package manager, `pip`:
 
-```plain-text
+```bash
 pip install --user pytest
 ```
- 

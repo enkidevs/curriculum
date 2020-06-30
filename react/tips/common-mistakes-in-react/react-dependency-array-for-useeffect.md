@@ -17,7 +17,7 @@ links:
 
 One important feature of the `useEffect()` hook is represented by its dependency array. When included, the `useEffect` hook only runs when one or more of its dependencies change, which can result in a performance increase by reducing the number of re-renders. Let's take a look at an example:
 
-```plain-text
+```js
 function App() {
   const [name, setName] = useState("");
   useEffect(() => {
@@ -30,7 +30,7 @@ Now, React will only re-run the hook function if the current value of `name` is 
 
 Let's take a look at another example:
 
-```plain-text
+```js
 function App() {
   const features = ["feature1", "feature2"];
 
@@ -74,7 +74,7 @@ Why would you use a dependency array in your `useEffect()` hook call?
 [1: Object.is]
 Sometimes it is really difficult to find out if two values are actually the same value. When thinking of JavaScript, two objects are considered to have the same value if they have the same reference. This can be done through the `Object.is()` function, which is not the same as using the `==` operator (this applies coercion to both sides), or using the `===` operator (this treats `-0` and `+0` as being the same, also treats `Number.NaN` is not equal to `NaN`). Let's take a look at some examples:
 
-```plain-text
+```js
 Object.is('foo', 'foo'); // true
 Object.is('foo', 'bar'); // false
 Object.is([], []); // false
@@ -84,4 +84,3 @@ var bar = { a: 1 };
 Object.is(foo, foo); // true
 Object.is(foo, bar); // false
 ```
- 

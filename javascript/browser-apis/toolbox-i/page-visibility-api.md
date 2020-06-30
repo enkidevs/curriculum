@@ -34,7 +34,7 @@ Possible property values for `visibleState` are:
 
 Detecting visibility changes:
 
-```plain-text
+```javascript
 document
 .addEventListener("visibilitychange",
 function(){
@@ -77,4 +77,3 @@ document.???("???", function() {
 - `newListener`
 - `change`
 - `detectvisibility`
- 

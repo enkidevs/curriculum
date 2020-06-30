@@ -20,7 +20,7 @@ notes: ''
 
 Here is a one liner tip for you:
 
-```plain-text
+```bash
 awk '!(count[$0]++)' file_to_filter
 
 ```
@@ -33,7 +33,7 @@ The first time a line is met, awk prints it because `!0` is the equivalent of `t
 
 Or if you don't mind sorting your lines:
 
-```plain-text
+```bash
 sort file_to_filter | uniq
 ```
 
@@ -79,4 +79,3 @@ Sorting the lines of a file in order to get rid of the duplicates can be done us
 - `uniq`
 - `unique`
 - `sed`
- 

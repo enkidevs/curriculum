@@ -23,14 +23,14 @@ To support subsequent modification of those modules and to not need to go throug
 
 The whole linking process consists of two steps, the first being declaring a module as a global link. This is done by running :
 
-```plain-text
+```bash
 npm link
 # must be run in the root module folder
 ```
 
 Secondly, to install the linked modules in the target app using the following command:
 
-```plain-text
+```bash
 npm link myImportedModule
 ```
 
@@ -44,7 +44,7 @@ app/
 
 To solve this steps must be taken:
 
-```plain-text
+```bash
 cd modules/moduleOne
 npm link
 cd modules/moduleTwo
@@ -87,4 +87,3 @@ npm ???
 - --local:myLibrary
 - --use-local=myLibrary
 - --local=myLibrary
- 

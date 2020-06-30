@@ -29,7 +29,7 @@ The API can represent time with up to microsecond precision and is much more acc
 
 You can use the High Resolution Time API to measure the **performance** of your code:
 
-```plain-text
+```javascript
 var start = performance.now();
 // do something
 var end = performance.now();
@@ -77,4 +77,3 @@ What is the correct call of the High Resolution Time API that returns the curren
 - resolution.start()
 - highres.run()
 - resolution.time()
- 

@@ -20,7 +20,7 @@ Possibly the simplest way to test the **connectivity** between your machine and 
 
 This tool will send (echo) one or more **ICMP packets**[1] to the specified destination and will print simple statistics (e.g. latency) about the connection as soon as it gets a response.
 
-```plain-text
+```bash
 ping enki.com
 PING enki.com (54.192.197.152): ...
 64 bytes from ... time=7.124 ms
@@ -41,7 +41,7 @@ Basically, the two utilities achieve the same thing, the only difference being t
 
 Running `traceroute`:
 
-```plain-text
+```bash
 traceroute enki.com
 traceroute  to enki.com (52.85.178.249),
    30 hops max, 60 byte packets
@@ -86,4 +86,3 @@ Which of the following commands will check connectivity between you and a remote
 [1:ICMP]
 **The Internet Control Message Protocol** (`ICMP`) is the mechanism used to give feedback about network problems that are preventing packet delivery.
 ICMP packets are specialized packets used for informational and debugging purposes.
- 

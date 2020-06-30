@@ -23,7 +23,7 @@ In **React** you'll work mainly with a more flexible concept, components, which 
 
 To define an element, you can:
 
-```plain-text
+```jsx
 // create an object representing
 // a React element
 const element = React.createElement(
@@ -42,13 +42,13 @@ The way elements are rendered is with help from the **React DOM**[1], under the 
 
 Suppose in your **HTML** you have the `div`:
 
-```plain-text
+```html
 <div id="root"></div>
 ```
 
 Now, on your webpage, you can display the `<p>` element (declared above) as a child of the `"root"` div, using `ReactDOM.render()` :
 
-```plain-text
+```jsx
 ReactDOM.render(
   element,
   document.getElementById("root")
@@ -112,4 +112,3 @@ npm install --save react-dom
 
 `ReactDOM` uses a `root` **node** as an entry point into the **DOM**.
 Application only built with **React** will have just one `root` node, but when you integrate **React** into an existing app, you can have multiple `root`s.
- 

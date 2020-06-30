@@ -23,7 +23,7 @@ One big difference between **lists** and **dictionaries** is that we can store s
 
 Consider the following example:
 
-```plain-text
+```py
 my_list = [
   'list', 
   'second', 
@@ -42,7 +42,7 @@ Because elements stored in **lists** can be accessed using **indices**, the retr
 
 Let's see an example:
 
-```plain-text
+```py
 # Printing elements of a list
 print(
   my_list[0], 
@@ -113,4 +113,3 @@ We want to access value `5` from the dictionary using one of the list's elements
 - 2
 - getItem
 - 0
- 

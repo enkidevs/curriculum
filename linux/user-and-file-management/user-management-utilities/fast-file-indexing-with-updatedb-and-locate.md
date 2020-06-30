@@ -23,13 +23,13 @@ The `updatedb` command is used to index the files in your file system and `locat
 
 Create the index with sudo:
 
-```plain-text
+```bash
 sudo updatedb
 ```
 
 Locate the file `squid.conf` using the index:
 
-```plain-text
+```bash
 locate squid.conf 
 ```
 
@@ -37,13 +37,13 @@ To keep this database updated it is advisable to add a directive on the root's c
 
 First, issue:
 
-```plain-text
+```bash
 crontab -e
 ```
 
 and add this at the end:
 
-```plain-text
+```bash
 0 5 * * * updatedb
 ```
 
@@ -51,13 +51,13 @@ The `updatedb` and `locate` commands are provided by the `mlocate` package. You 
 
 In Debian based systems:
 
-```plain-text
+```bash
 sudo apt-get install mlocate
 ```
 
 or Red-Hat based systems:
 
-```plain-text
+```bash
 yum install mlocate
 ```
 
@@ -74,4 +74,3 @@ pair, provided by the `mlocate` package, is used to search for files efficiently
 - searchdb/locate
 - search/locate
 - indexdb/findb
- 

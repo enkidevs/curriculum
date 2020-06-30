@@ -31,7 +31,7 @@ Although you are able to change the data type of a column, the new definition mu
 
 The syntax for changing a data type looks like this:
 
-```plain-text
+```sql
 ALTER TABLE table_name
 ALTER COLUMN column_name
 SET DATA TYPE new_data_type;
@@ -41,7 +41,7 @@ SET DATA TYPE new_data_type;
 
 You can use the `ALTER TABLE` statement to either set or drop default values for your desired columns. The syntax for adding a new default values is:
 
-```plain-text
+```sql
 ALTER TABLE table_name
 ALTER COLUMN column_name
 SET DEFAULT value;
@@ -51,7 +51,7 @@ Keep in mind that the `value` must have the same data type as the column.
 
 If you wanted to remove the default value from one of your columns, you would use:
 
-```plain-text
+```sql
 ALTER TABLE table_name
 ALTER COLUMN column_name
 DROP DEFAULT;
@@ -61,7 +61,7 @@ DROP DEFAULT;
 
 The `NOT NULL` clause can also be altered for any of your columns, and the syntax is very similar to the one used for default value. To add a `NOT NULL` clause, you would use:
 
-```plain-text
+```sql
 ALTER TABLE table_name
 ALTER COLUMN column_name
 SET NOT NULL;
@@ -69,7 +69,7 @@ SET NOT NULL;
 
 And if you wanted to remove the `NOT NULL` clause, you would use:
 
-```plain-text
+```sql
 ALTER TABLE table_name
 ALTER COLUMN column_name
 DROP NOT NULL;
@@ -148,4 +148,3 @@ ALTER ??? name
 - REMOVE
 - NOT ZERO
 - DROP DEFAULT
- 

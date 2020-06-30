@@ -17,13 +17,13 @@ Lists are another **sequential data type** that act as containers for objects.
 
 Lists are also separated by commas, and *must be wrapped in square brackets*, `[ ]`.
 
-```plain-text
+```python
 my_first_list = ['apples', 'oranges']
 ```
 
 > Lists are **mutable**, so items *can be modified*.
 
-```plain-text
+```python
 my_first_list[0] = 'bananas'
 
 print(my_first_list)
@@ -32,7 +32,7 @@ print(my_first_list)
 
 To add to a list you can use the `append()` method, passing whatever you want added as an argument in parentheses:
 
-```plain-text
+```python
 my_first_list.append('pears')
 
 print(my_first_list)
@@ -79,4 +79,3 @@ new_list???
 - `view`
 - `append`
 - `(0)`
- 

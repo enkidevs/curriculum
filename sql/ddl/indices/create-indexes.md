@@ -43,7 +43,7 @@ Note that a table with a clustered index on it is called *clustered table* and o
 
 If we want to create a *non-clustered* index:
 
-```plain-text
+```sql
 CREATE INDEX index_name
 ON table_name (column1, column2, ...)
 ```
@@ -52,7 +52,7 @@ This would create an index called `index_name` on the table called `table_name` 
 
 If we want to create a *clustered* index:
 
-```plain-text
+```sql
 CREATE UNIQUE INDEX index_name
 ON table_name (col1 DESC, col2 ASC, ...)
 ```
@@ -124,7 +124,7 @@ Consider the `version` table. Suppose no primary key was defined for it. We need
 
 Given a table called `ability` from our pokemon database:
 
-```plain-text
+```bash
 id   | is_main_series | generation_id |      name      
 =====|================|===============|===============
    1 | t              |             3 | stench
@@ -150,4 +150,3 @@ It doesn't have a `PRIMARY KEY` set so far. Create an index to define `ability`'
 
 [1:Indices]
 Reasonable people differ when they refer to the plural of Index. Some people use Indices, some use Indexes.
- 

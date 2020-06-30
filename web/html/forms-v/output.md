@@ -29,7 +29,7 @@ The `name` attribute, which has a value of `name`, specifies the name of this el
 
 Example:
 
-```plain-text
+```html
 <form
   oninput="result.value=parseInt(a.value)
     +parseInt(b.value)">
@@ -90,12 +90,12 @@ Which HTML element is used to display form values, such as the result of a calcu
 
 ## Quiz
 
-### How much do you know about the 
+### How much do you know about the
+
 
 `output`
 
  HTML element?
-
 
 Which attribute does not go with the `output` element?
 
@@ -103,4 +103,3 @@ Which attribute does not go with the `output` element?
 - form
 - name
 - for
- 

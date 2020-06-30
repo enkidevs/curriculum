@@ -19,7 +19,7 @@ links:
 
 In Flexbox, `column-reverse` enables users to arrange elements vertically in reverse order.
 
-```plain-text
+```html
 <div class="parent">
   <div class="child-1">Child 1</div>
   <div class="child-2">Child 2</div>
@@ -31,7 +31,7 @@ In Flexbox, `column-reverse` enables users to arrange elements vertically in rev
 
 ---
 
-```plain-text
+```css
 .parent{
   width:100%;
   display:flex;
@@ -51,14 +51,14 @@ The four child boxes inside class parent will be displayed **vertically** on top
 
 Which of the following elements will be displayed first?
 
-```plain-text
+```html
 <div class="foobar">
   <p>Child 1</p>
   <p>Child 2</p>
 </div>
 ```
 
-```plain-text
+```css
 .foobar {
   display: flex;
   flex-direction: column-reverse;
@@ -83,4 +83,3 @@ When using Flexbox, how does `column-reverse` allow users to arrange elements?
 - Vertically in normal order.
 - Horizontally in reverse order.
 - Horizontally in normal order.
- 

@@ -22,7 +22,7 @@ Sometimes it may be appropriate to write a generic method, however it will not b
 
 To solve this, use bounded type parameters to restrict generic methods from accepting arguments of a particular kind.
 
-```plain-text
+```java
 public <T extends Shape>
   void drawAll(List<T> shapes) {
     for (Shape s: shapes) {
@@ -57,4 +57,3 @@ public <???>
 - `int`
 - `E`
 - `List<Dog>`
- 

@@ -22,7 +22,7 @@ Another way of ensuring mutual exclusion without using synchronization patters o
 
 Example:
 
-```plain-text
+```java
 class Counter {
   //create a new integer
   //variable with value of 0
@@ -57,4 +57,3 @@ What is a thread safe way of accessing and updating variables without using lock
 - atomic variables
 - electronic variables
 - instant variables
- 

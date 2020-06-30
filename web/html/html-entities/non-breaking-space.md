@@ -21,13 +21,13 @@ To insert a non-breaking space you would use either the HTML entity *name* or th
 
 HTML Entity Number
 
-```plain-text
+```html
 &#160;
 ```
 
 HTML Entity Name
 
-```plain-text
+```html
 &nbsp;
 ```
 
@@ -37,7 +37,7 @@ A common use for the non-breaking space is putting it before any numeric (or alp
 
 WRONG:
 
-```plain-text
+```html
 Under Security Law §
 1893 purchases can be made. ¶
 23 of the contract provides details.
@@ -45,7 +45,7 @@ Under Security Law §
 
 CORRECT:
 
-```plain-text
+```html
 Under Security Law
 § 1893 purchases can be made.
 ¶ 23 of the contract provides details.
@@ -57,7 +57,7 @@ By default, two images placed together in a webpage will visually touch. When a 
 
 Without  :
 
-```plain-text
+```html
 <img src="rhino.png"/>
 <img src="elephant.png"/>
 ```
@@ -68,7 +68,7 @@ Result:
 
 With  :
 
-```plain-text
+```html
 <img src="rhino.png"/>
   &nbsp;
 <img src="elephant.png"/>
@@ -82,7 +82,7 @@ Result:
 
 If you have a table with an empty cell within your web page, you should insert the non-breaking space HTML coding in the empty cell to prevent the cell from collapsing in older browsers. Adding may not be necessary in modern browsers, but adding `&nbsp;` into the cell can help developers know the cell is empty on purpose and it's content wasn't deleted by accident.
 
-```plain-text
+```html
 <table>
   <tr>
     <td>&nbsp;</td>
@@ -148,7 +148,7 @@ What HTML character entity is used to prevent the browser from breaking the line
 
 What does the " " within this line of code do?
 
-```plain-text
+```html
 <img src="image1.png" alt="">
 &nbsp;
 <img src="image2.png" alt="">
@@ -158,4 +158,3 @@ What does the " " within this line of code do?
 - Prevents the images from starting on new line like word wrap.
 - Removes any space between the images.
 - Useful when pulling image files from a database.
- 

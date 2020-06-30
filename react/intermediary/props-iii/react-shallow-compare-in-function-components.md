@@ -18,7 +18,7 @@ parent: custom-proptype-s-to-be-required
 
 If you want to use function components, the same performance boost can be achieved by wrapping the component in a call to `React.memo`. What this does is that React will skip rendering the component and re-use the last rendered result if there is no change in `prop`s or `state`. As it was the case with `PureComponent`s, only a shallow comparison is completed.
 
-```plain-text
+```jsx
 const FnComp = React.memo(function FnComp(
   props
 ) {
@@ -28,7 +28,7 @@ const FnComp = React.memo(function FnComp(
 
 You can provide a custom comparison function as the second argument to have more control over the comparison.
 
-```plain-text
+```javascript
 function MemoComponent(props) {
   /* return using props */
 }
@@ -87,4 +87,3 @@ A ??? can be achieved with `React.Memo` when used on a React component that is ?
 - clean
 - raw
 - successful render
- 

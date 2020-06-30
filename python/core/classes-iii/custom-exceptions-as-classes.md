@@ -16,7 +16,7 @@ links:
 
 On top of the built-in exceptions, you can also define custom ones, by extending the `Exception` class:
 
-```plain-text
+```python
 class BaseError(Exception):
   """Base class for other exceptions"""
   pass
@@ -30,7 +30,7 @@ class PassNoUpperCase(BaseError):
 
 We can raise any of these exceptions using the `raise` statement:
 
-```plain-text
+```python
 inputs = ['smallP', 'nouppercase',
  'PerfectlyFine']
 
@@ -57,7 +57,7 @@ for i in inputs:
 
 **Unhandled exceptions** will print an error message with the exception's class name. Suppose we remove the last `except PassNoUpperCase` clause; the following message will be printed:
 
-```plain-text
+```python
 ...
 raise PassNoUpperCase
 __main__.PassNoUpperCase
@@ -95,4 +95,3 @@ Python's `Exception` class is a ??? class.
 - `child`
 - `static`
 - `private`
- 

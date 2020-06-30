@@ -17,7 +17,7 @@ links: null
 
 The `<br>`, or the **Line Break** element, is used to create a line break in a webpage or document. Line breaks can be very useful for writing poems or an address.
 
-```plain-text
+```html
 Some Text<br>Some Text<br>bla bla
 ```
 
@@ -36,7 +36,7 @@ Historical, in XHTML the line breaks are written as `<br />` which is important 
 
 Address Example:
 
-```plain-text
+```html
 <p>
 Apple<br>
 1 Infinite Loop<br>
@@ -74,7 +74,7 @@ Select the statement that is false about the `<br>` element.
 
 The goal is to display text like this:
 
-```plain-text
+```htmlhtml
 Apple
 1 Infinite Loop
 Cupertino, CA
@@ -83,7 +83,7 @@ Cupertino, CA
 
 So what must happen to this address to display as separate lines of text within a single paragraph?
 
-```plain-text
+```html
 <p>Apple
 1 Infinite Loop
 Cupertino, CA
@@ -108,7 +108,7 @@ Cupertino, CA
 
 In an address, what are the preferred method(s) of changing the size of the gaps of space between the lines of text here?
 
-```plain-text
+```html
 <p>Apple<br>
 1 Infinite Loop<br>
 Cupertino, CA<br>
@@ -121,4 +121,3 @@ Cupertino, CA<br>
 - set line break's height and paragraph's height
 - set paragraph's margins and line break's margins.
 - add additional `<br>` and `<p>` elements
- 

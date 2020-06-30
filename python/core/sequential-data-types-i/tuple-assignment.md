@@ -22,7 +22,7 @@ links:
 
 We can use **tuple assignment**[1] as a simple way to switch two variables:
 
-```plain-text
+```python
 a, b = 'hard', 'working' 
 a, b = b, a
 
@@ -32,7 +32,7 @@ print(a, b)
 
 Tuple assignment also means that items within two tuples can be assigned to each other:
 
-```plain-text
+```python
 flash = ('Barry', 'Allen' , 27)
 (first_name, last_name, age) = flash
 
@@ -45,7 +45,7 @@ print(age)
 
 In case two tuples don't match in length we can use the `*` operator to ensure that every item is reassigned to another:
 
-```plain-text
+```python
 a, *b, c = (1, 2, 3, 4, 5)
 
 print(b)
@@ -101,4 +101,3 @@ print(x, y)
 
 [1:Tuple Assignment]
 This is where we can assign multiple sequential values to other values in one line.
- 

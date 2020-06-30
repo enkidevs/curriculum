@@ -30,19 +30,19 @@ MINUTE HOUR DATE MONTH WEEKDAY COMMAND
 
 To list the current cron jobs, use `-l` : 
 
-```plain-text
+```bash
 crontab -l
 ```
 
 To check another user's crontab, use `-u user` with the `-l` flag:
 
-```plain-text
+```bash
 crontab -u username -l
 ```
 
 To edit the crontab, use `-e`:
 
-```plain-text
+```bash
 crontab -e
 ```
 
@@ -124,4 +124,3 @@ MIN ??? DATE ??? ???
 `/5 ? * * *` means it will execute every 5 minutes in the hour the Cron has started, every day of every month (i.e. if Cron starts at 10, the command will be changed automatically to `/5 10 * * *`).
 [6:Sunday]
 `Sun` can be both `0` and `7`. *0-6* means Sunday to Saturday, while *1-7* means Monday to Sunday.The same is true for months. The notation depends on the distribution.
- 

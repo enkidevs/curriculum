@@ -22,7 +22,7 @@ Convert `String` to `Date`:
 
 - The `parse()` method can be called to get the desired `Date`:
 
-```plain-text
+```java
 String dateString = "16-03-1991";
 Date date = new SimpleDateFormat(
   "dd-MM-yyyy").parse(dateString);
@@ -30,7 +30,7 @@ Date date = new SimpleDateFormat(
 
 - The default *timezone* is the OS's *timezone*. You can change this :
 
-```plain-text
+```java
 SimpleDateFormat.setTimeZone(timeZoneObj);
 ```
 
@@ -40,7 +40,7 @@ Convert `Date` to `String`:
 
 - The `format()` will return the desired `String` :
 
-```plain-text
+```java
 Date date = Calendar.getInstance().
    getTime();        
 String string = new SimpleDateFormat
@@ -91,4 +91,3 @@ String convert =
 - `getDay`
 - `parse`
 - `thread`
- 

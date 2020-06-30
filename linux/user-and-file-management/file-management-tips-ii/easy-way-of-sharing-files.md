@@ -19,7 +19,7 @@ It can be downloaded at: `www.home.unix-ag.org/ simon/woof.html`.
 
 To share a file:
 
-```plain-text
+```bash
 ./woof /directory/file
 
 ```
@@ -28,7 +28,7 @@ This will give you a **URL** that can be typed in a browser and the download wil
 
 You can also share directories:
 
-```plain-text
+```bash
 ./woof -z /directory/
 ```
 
@@ -36,7 +36,7 @@ This will compress the directory into a **gzipped** tarball.
 
 You can also share `woof` itself:
 
-```plain-text
+```bash
 ./woof -s
 ```
 
@@ -51,4 +51,3 @@ A quick way of sharing files is using ??? utility.
 - mv
 - ssh
 - share
- 

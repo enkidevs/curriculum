@@ -22,7 +22,7 @@ PostgreSQL's native *BLOB* type is `bytea` (1GB per entry). It came two support 
 
 There's no choice between the two when defining the column, only when data is inserted:
 
-```plain-text
+```sql
 CREATE TABLE sprite(
   id bigserial PRIMARY KEY,
   pokemon bytea
@@ -76,4 +76,3 @@ In a PostgreSQL database, insert a hex string into a `bytea` field:
 - `encode`
 - `FROM`
 - `hex`
- 

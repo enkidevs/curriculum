@@ -15,7 +15,7 @@ Since HTML5, using quotes around attributes is optional.
 
 Example:
 
-```plain-text
+```html
 <a href="#" class="btn">
   Click Me
 </a>
@@ -44,7 +44,7 @@ There are times when putting quotations is necessary, like when an attribute con
 
 Example:
 
-```plain-text
+```html
 <a href="#" class="btn large">
   Click Me
 </a>
@@ -60,7 +60,7 @@ Result:
 
 In the example above, it is easy to see the buttons do not display the same. This is because the code on the unquoted attributes will only recognize the class 'btn' and not know what to do with the second class 'large', interpreting the code like this:
 
-```plain-text
+```html
 <a href="#" class="btn" large="">
   Click Me
 </a>
@@ -70,7 +70,7 @@ It also doesn't matter which quotations you use, single or double:
 
 Example:
 
-```plain-text
+```html
 <a href="#" class="btn">
   Click Me
 </a>
@@ -127,4 +127,3 @@ Which statement about quoting attributes is correct in HTML5?
 - Quoting attribute values is mandatory
 - Attribute values can only work with single quotation
 - Attribute values are harder to read with quotation
- 

@@ -31,7 +31,7 @@ The main reason for this structure is so you can access package-scoped classes. 
 
 Consider this example of the `User` file:
 
-```plain-text
+```java
 package com.enki.users;
 import java.time.LocalDate;
 import java.time.Period;
@@ -49,7 +49,7 @@ public class User {
 
 To write a basic test for the `getAge()` method:
 
-```plain-text
+```java
 package com.enki.users;
 
 import org.junit.Assert.*;
@@ -76,7 +76,7 @@ public class UserTest {
 
 To run the test, you have to create another class that will act as the **runner**:
 
-```plain-text
+```java
 package com.enki.users;
 
 import org.junit.runner.JUnitCore;
@@ -102,7 +102,7 @@ public class TestRunner {
 
 You can then run the tests from the command line:
 
-```plain-text
+```bash
 javac UserTest.java TestRunner.java
 java TestRunner
 ```
@@ -130,4 +130,3 @@ Setting up a test runner is seen as a type of ??? testing.
 - manual
 - unit
 - application
- 

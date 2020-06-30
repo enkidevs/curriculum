@@ -19,13 +19,13 @@ Amongst the new Java8 features includes new methods in the `java.util.Arrays` cl
 
 Basic syntax for sorting into ascending numerical order:
 
-```plain-text
+```java
 Arrays.parallelSort(myArray);
 ```
 
 To sort a range:
 
-```plain-text
+```java
 Arrays.parallelSort(myArray, int fromIndex,
  int toIndex);
 ```
@@ -36,7 +36,7 @@ It implements a parallel sort-merge algorithm that recursively breaks the array 
 
 In comparison with the previous `sort()` method, `parallelSort` efficiency increases directly proportional with the number of elements in the array. 
 
-```plain-text
+```java
       Elements  | Serial | Parallel
           602   |  0.001 |  0.004        
          2492   |  0.007 |  0.007        
@@ -76,4 +76,3 @@ When sorting a small array (up to `2000` elements), what methods is considered m
 
 - `sort()` 
 - `parallelSort()`
- 

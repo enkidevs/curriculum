@@ -20,7 +20,7 @@ links:
 
 This is a method in CSS to make text in a web page unselectable.
 
-```plain-text
+```css
 .noselect {
   user-select: none;
 }
@@ -28,13 +28,13 @@ This is a method in CSS to make text in a web page unselectable.
 
 Once the class is assigned to a paragraph like below, the text will no longer be selectable.
 
-```plain-text
+```html
 <p>
   Selectable text.
 </p>
 ```
 
-```plain-text
+```html
 <p class="noselect">
   Unselectable text.
 </p>
@@ -64,7 +64,7 @@ Complete the method which can be used to make text in a web page unselectable:
 
 What does the following CSS code do?
 
-```plain-text
+```css
 .noselect {
    user-select: none;
 }
@@ -80,4 +80,3 @@ What does the following CSS code do?
 - It makes the contents of <p> able to be selected.
 - It changes the colour of <p>'s contents.
 - It automatically highlights the contents of <p>.
- 

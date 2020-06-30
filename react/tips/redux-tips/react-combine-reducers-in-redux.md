@@ -21,7 +21,7 @@ This function will transform an object with different reducer functions as param
 
 Call the function:
 
-```plain-text
+```js
 combineReducers({
   firstReducer: myFirstReducer,
   secondReducer: mySecondReducer
@@ -30,7 +30,7 @@ combineReducers({
 
 The keys define the shape of the **state object**.
 
-```plain-text
+```javascript
 {
   firstReducer, secondReducer;
 }
@@ -38,7 +38,7 @@ The keys define the shape of the **state object**.
 
 The common practice is to be consistent with name such as that reducers have the same name as the slices they manage. Therefore, **ES6** shorthand notation can be used:
 
-```plain-text
+```javascript
 combineReducers({
   firstReducer,
   secondReducer
@@ -47,7 +47,7 @@ combineReducers({
 
 This is equivalent to:
 
-```plain-text
+```javascript
 combineReducer({
   firstReducer: firstReducer,
   secondReducer: secondReducer
@@ -56,7 +56,7 @@ combineReducer({
 
 Consider we have the following reducers:
 
-```plain-text
+```js
 // Products.js
 export default function products(
   state = [],
@@ -92,7 +92,7 @@ export default function counter(
 
 We can combine our `products` and `counter` reducers like so:
 
-```plain-text
+```js
 // App.js
 import { combineReducers } from "redux";
 import products from "./Products";
@@ -159,4 +159,3 @@ What special method is used to combine different reduction functions with the sc
 - `combine()`
 - `createStore()`
 - `addReducer()`
- 

@@ -29,7 +29,7 @@ The order is consistent across all browsers except **IE<9** which skips second `
 
 Add a listener to these events:
 
-```plain-text
+```javascript
 myVar.addEventListener('click',
 myClickFunction);
 myVar.addEventListener('dblclick',
@@ -75,4 +75,3 @@ myVar.???(???,
 - `addClickListener`
 - `false`
 - `contextmenu`
- 

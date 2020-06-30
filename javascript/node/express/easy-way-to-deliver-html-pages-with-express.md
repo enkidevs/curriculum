@@ -17,7 +17,7 @@ Displaying basic **HTML** pages can be achieved in many ways using **Node**'s co
 
 The `serve-static` module will be used to deliver the page:
 
-```plain-text
+```javascript
 let express = require("express");
 let serveStatic = require("serve-static");
 
@@ -26,7 +26,7 @@ let app = express();
 
 Display `index.html`:
 
-```plain-text
+```javascript
 app.use(
   serveStatic("public/", {
     index: ["index.html", `index.htm`]
@@ -37,7 +37,7 @@ app.listen(3000);
 
 Multiple roots:
 
-```plain-text
+```javascript
 app.use(serveStatic(__dirname + "/first"));
 app.use(serveStatic(__dirname + "/second"));
 ```
@@ -78,4 +78,3 @@ What express module can be used to easily deliver HTML pages?
 - easy-html
 - static-express
 - node-html
- 

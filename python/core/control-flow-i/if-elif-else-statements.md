@@ -19,7 +19,7 @@ We can add another `if` into our `if...else` statement!
 
 In terms of syntax, this is written as `elif`. It's shorthand for `else if`.
 
-```plain-text
+```python
 if condition:
     print('do something')
 elif condition:
@@ -32,7 +32,7 @@ If the condition for `if` has not been met, the program will check the `elif`. I
 
 The `else` code is only executed if none of the other conditions have been met.
 
-```plain-text
+```python
 num = 0
 if num > 0:
     print('Positive number')
@@ -79,7 +79,7 @@ if days_coding == 7:
 
 What does the following code snippet print?
 
-```plain-text
+```python
 x = 8
 
 if (x == 8):
@@ -95,4 +95,3 @@ else:
 - false
 - True
 - False
- 

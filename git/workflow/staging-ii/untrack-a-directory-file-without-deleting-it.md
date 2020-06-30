@@ -19,14 +19,14 @@ To delete a file from your project in git you use `git rm`.
 
 However, if you only want to remove the file from the index but not the working directory, use instead:
 
-```plain-text
+```bash
 git rm --cached myFile
 # untrack myFile
 ```
 
 You can do the same for a directory:
 
-```plain-text
+```bash
 git rm --cached -r myDirectory
 # untrack myDirectory
 ```
@@ -64,4 +64,3 @@ git rm ??? enki.html
 - `-d`
 - `-m`
 - `--index`
- 

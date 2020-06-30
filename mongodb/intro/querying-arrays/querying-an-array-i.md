@@ -16,7 +16,7 @@ Querying an array in a `mongodb` database is similar to querying without an arra
 
 Let's say we wanted to find which document in our `pokedex` collection contains a "Bite" value in their `spells` array, regardless of their position in the array or the size of the array. We would need to use this method:
 
-```plain-text
+```js
 db.pokedex.find( { spells: "Bite" } )
 ```
 
@@ -26,7 +26,7 @@ Adding `{ spells: "Bite" }` makes our query look for any document with the `spel
 
 Which gives us this output:
 
-```plain-text
+```js
 {
   _id: ObjectId("5d9d8a6a0b24990f19398209"),
   name: "Bulbasaur",
@@ -70,4 +70,3 @@ db.pokedex???(
 - `Hydro-Pump`
 - `.search`
 - `Spells`
- 

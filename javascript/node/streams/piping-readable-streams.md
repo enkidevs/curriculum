@@ -18,7 +18,7 @@ parent: readable-streams
 
 Piping allows for data to be read from a source, and passed onto a destination without your application having to manage the flow of the data.
 
-```plain-text
+```javascript
 let fs = require("fs");
 
 let rStream = fs.createReadStream(
@@ -83,4 +83,3 @@ Which function is used for piping data from a source to a destination?
 - `copy()`
 - `source()`
 - `move()`
- 

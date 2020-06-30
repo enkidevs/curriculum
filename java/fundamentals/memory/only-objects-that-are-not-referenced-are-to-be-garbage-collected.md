@@ -20,21 +20,21 @@ For garbage collection to work on a specific object, any other objects that act 
 
 For example:
 
-```plain-text
+```java
 Document doc = readXmlDocument();
 
 ```
 
 Here a `Document` object was created by reading an `XML` from memory.
 
-```plain-text
+```java
 Node child = 
    doc.getDocumentElement().getFirstChild();
 ```
 
 A `Node` object was created by getting the first child element from the `DOM document`.
 
-```plain-text
+```java
 doc.removeNode(child);
 doc = null;
 ```
@@ -42,4 +42,3 @@ doc = null;
 At the end of the code snippet one might think the `DOM document` will be garbage-collected. This is not the case!
 
 A `DOM Node` object always belongs to a `DOM Document`. Even when removed from the document the node object retains a reference to its owning document. As long as we keep that child object, neither the document nor any of the nodes it refers to will be removed.
- 

@@ -41,14 +41,14 @@ In the function above, the `.end()` method will `write` the specified content to
 
 To create the server a new HTTP server object needs to be created with a port number passed to it for it to listen on. First create the server via `createServer`:
 
-```plain-text
+```javascript
 var server = http.createServer
                   (requestHandler);
 ```
 
 Then assign a port to the server object using `listen`:
 
-```plain-text
+```javascript
 server.listen(8000, function() {
 
   console.log(‘Server listening here:
@@ -94,4 +94,3 @@ var server = http.???(requestHandler);
 - createServer
 - httpServer
 - createHTTP
- 

@@ -14,7 +14,7 @@ category: how to
 JDK provides the static `delete` method to delete files and directories.
 Basic syntax:
 
-```plain-text
+```java
 File.delete(path);
 
 ```
@@ -44,4 +44,3 @@ File.???;
 - `rm(path)` 
 - `remove(path)` 
 - `drop(path)`
- 

@@ -21,7 +21,7 @@ The idea is to work on a fix or an experiment separately from the `master` branc
 
 For example, you could work on solving an issue:
 
-```plain-text
+```bash
 git checkout -b iss14
 # checkout as a new branch "iss14"
 # fix the issue
@@ -29,7 +29,7 @@ git checkout -b iss14
 
 Once you have solved the problem you can merge it into the master branch:
 
-```plain-text
+```bash
 git checkout master
 git merge iss14
 # merge the fix
@@ -37,7 +37,7 @@ git merge iss14
 
 Then you can delete the topic branch:
 
-```plain-text
+```bash
 git branch -d iss14
 ```
 
@@ -67,4 +67,3 @@ A way of keeping the master branch clean and safely experimenting is by using ??
 - branches 
 - merges
 - IDEs
- 

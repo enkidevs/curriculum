@@ -23,7 +23,7 @@ Using `synchronized` methods to access an object's fields is a way to prevent th
 
 For example:
 
-```plain-text
+```java
 private int x = 0;
 public synchronized void getX() {
   return x;
@@ -32,7 +32,7 @@ public synchronized void getX() {
 
 However, fields that are declared as `final` can be safely accessed using methods that are not `synchronized`:
 
-```plain-text
+```java
 private final int x = 0;
 public void getX() {
   return x;
@@ -40,4 +40,3 @@ public void getX() {
 ```
 
 This is is because a `final` field cannot be changed once it has been set; so there is no chance of introducing a memory consistency error.
- 

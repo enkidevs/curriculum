@@ -19,7 +19,7 @@ links:
 
 An `Iterator` can be used to iterate over a collection using either a `for` loop or a `while` loop.
 
-```plain-text
+```java
 List<String> fruit = Arrays.asList(
 "apple", "orange", "dragon fruit");
 
@@ -77,4 +77,3 @@ An `iterator` can be used to :
 - `append strings`
 - `iterate a class`
 - `iterate a method`
- 

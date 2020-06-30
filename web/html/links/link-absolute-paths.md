@@ -21,7 +21,7 @@ When wanting to link a file or a picture from your website to another website, i
 
 Example link:
 
-```plain-text
+```html
 <a
   href="http://www.google.com">
   Google
@@ -34,7 +34,7 @@ Example link:
 
 Example image:
 
-```plain-text
+```html
 <img
   src="http://www.apple.com/logo.svg"
   alt="Apple logo">
@@ -113,4 +113,3 @@ What is required within absolute paths for images or page links?
 - File and folder names within the current website organization.
 - Forward slashes (/) separating folders.
 - Nothing is required within absolute paths.
- 

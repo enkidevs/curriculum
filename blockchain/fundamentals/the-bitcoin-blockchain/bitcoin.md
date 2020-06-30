@@ -23,7 +23,7 @@ A Bitcoin block contains a list of **transactions** between network participants
 
 A Bitcoin transaction looks something like this:
 
-```plain-text
+```bash
 Satoshi Nakamoto sends 10 bitcoins
 to Hal Finney
 ```
@@ -68,4 +68,3 @@ What is the transaction model used by the Bitcoin blockchain?
 - Account model
 - A combination of UTXO and account models
 - A simple transaction
- 

@@ -22,13 +22,13 @@ An iterator is a special type of object that returns items from a sequence one a
 
 A sequence can be anything but for simplicity let's imagine we have an array of numbers from 1 to 5:
 
-```plain-text
+```javascript
 [1, 2, 3, 4, 5];
 ```
 
 Whilst we could easily write a loop to iterate through these numbers let's write a function to return an iterator to do this.
 
-```plain-text
+```javascript
 function getIterator(){
  let num = [1,2,3,4,5];
  let nextIndex = 0;
@@ -53,7 +53,7 @@ We then return an object with a next method that will retrieve a value at the cu
 
 We can use this iterator as follows:
 
-```plain-text
+```javascript
 let it = getIterator();
 it.next(); //Object {value: 1}
 it.next(); //Object {value: 2}
@@ -90,4 +90,3 @@ What method do iterators canonically make use of to advance the iteration?
 - iterator.get()
 - iterator.advance()
 - iterator.step()
- 

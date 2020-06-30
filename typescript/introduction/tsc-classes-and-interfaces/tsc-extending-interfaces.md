@@ -20,7 +20,7 @@ links:
 
 Interfaces can be combined by extending one another.
 
-```plain-text
+```ts
 interface Skill {
   name: string;
 }
@@ -52,7 +52,7 @@ This allows you to combine information from one interface into another and organ
 
 In fact, more than one interface can be extended:
 
-```plain-text
+```ts
 interface Skill {
   name: string;
 }
@@ -131,4 +131,3 @@ An interface can only extend one other interface.
 
 - False
 - True
- 

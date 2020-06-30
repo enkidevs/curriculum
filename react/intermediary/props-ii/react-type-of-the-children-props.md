@@ -22,7 +22,7 @@ When there is a single child, `this.props.children` will be the the single child
 
 The example shows both with and without an array allocation:
 
-```plain-text
+```jsx
 class Wrapper extends React.Component {
   componentDidMount() {
     console.log(
@@ -61,7 +61,7 @@ ReactDOM.render(
 
 Consider the following react component:
 
-```plain-text
+```jsx
 class Enki extends React.Component {
   componentDidMount() {
     console.log(this.props.children);
@@ -113,4 +113,3 @@ Consider there is a single child in your component. What will `this.props.childr
 - an array with just the children in it
 - an array of possible children
 - an array with the children and the parent component
- 

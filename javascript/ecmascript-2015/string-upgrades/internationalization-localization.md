@@ -19,7 +19,7 @@ links:
 
 To sort through a list of letters in two different languages:
 
-```plain-text
+```javascript
 let list = [ "ä", "a", "z" ];
 let i10nDE = new Intl.Collator("de");
 let i10nSV = new Intl.Collator("sv");
@@ -27,7 +27,7 @@ let i10nSV = new Intl.Collator("sv");
 
 In German, `ä` sorts with `a`. In Swedish, `ä` sorts after `z`.
 
-```plain-text
+```javascript
 i10nDE.compare("ä", "z") === -1;
 i10nSV.compare("ä", "z") === +1;
 
@@ -80,4 +80,3 @@ console.log(
 - sign
 - after
 - before
- 

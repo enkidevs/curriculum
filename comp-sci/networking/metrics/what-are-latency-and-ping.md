@@ -30,7 +30,7 @@ Keep in mind that processing and decoding time of the `packet` is not taken into
 
 To calculate **RTT**, one can use the `ping` command line utility, available on most systems, including **Windows**:
 
-```plain-text
+```bash
 ping enki.com
 ```
 
@@ -102,4 +102,3 @@ There are some factors that directly influence the network latency:
 **Congestion** goes hand in hand with **bandwidth**. The smaller your bandwidth is, the more likely are you to experience congestion with low latency.
 
 All the information gets to you fast enough, but it does not have enough space on the bandwidth to get through and will slow down.
- 

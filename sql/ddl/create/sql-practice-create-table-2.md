@@ -38,7 +38,7 @@ This table should have the following columns, which will store the following val
 
 Once you've created your table, append these INSERT statements to the left-hand panel:
 
-```plain-text
+```sql
 INSERT INTO users (id, name, facebook_id, email, email_verified)
 VALUES (0, "John Goose", 33248712993, "john.goose@example.com", 0);
 
@@ -66,4 +66,3 @@ In total, you will need to:
 - *Submit the result as your Answer*
 
 Good luck! :rocket:
- 

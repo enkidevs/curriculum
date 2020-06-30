@@ -13,7 +13,7 @@ category: how to
 
 To explore your project's history, **Git** provides a logging tool as the `git log` command:
 
-```plain-text
+```bash
 git log
 # shows current branch commit history
 ```
@@ -24,38 +24,38 @@ The **Git** `log` command supports a plethora of filters, making the search thro
 
 If you want to see a specific numbers of commits, use the `-n` flag followed by a number:
 
-```plain-text
+```bash
 git log -n 4
 # shows 4 commits
 ```
 
 To display each commit on just one line, you can use this flag:
 
-```plain-text
+```bash
 git log --oneline
 ```
 
 Additional stats such as files changed or number of lines added can be displayed with the `--stat` flag:
 
-```plain-text
+```bash
 git log --stat
 ```
 
 You can also filter the commits by their author (Regular Expressions work here):
 
-```plain-text
+```bash
 git log --author="myUserName"
 ```
 
 To search through the commit messages, use the `--grep` flag with either the search string or a regular expression:
 
-```plain-text
+```bash
 git log --grep="\S+@\S+"
 ```
 
 You can also specify search ranges with the following syntax:
 
-```plain-text
+```bash
 git log <since>..<until>
 ```
 
@@ -99,4 +99,3 @@ git log ???
 - `-o`
 - `--pretty`
 - `-n`
- 

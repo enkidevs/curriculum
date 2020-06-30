@@ -24,7 +24,7 @@ Here are the numeric data types and what types they can be converted to:
 
 Here is an example of a safe, checked conversion narrowing an `int` to a `byte`:
 
-```plain-text
+```java
 public static void convert(int i) {
   // check i's value
   if ((i < Byte.MIN_VALUE) ||
@@ -49,7 +49,7 @@ public static void convert(int i) {
 
 What is the output of the following snippet?
 
-```plain-text
+```java
 public class Main {
   public static void main(String[] args) {
       char x = 'a';
@@ -66,4 +66,3 @@ public class Main {
 - aa
 - true
 - false
- 

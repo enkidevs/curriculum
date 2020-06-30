@@ -23,7 +23,7 @@ The first argument `fn.call()` accepts is the alternative *this* context and any
 
 The code below defines a *discount* of *10* that will be retrieved within *getDiscount* via a call to `this.discount`:
 
-```plain-text
+```javascript
 var discountCalc= {
     discount: 10,
     getDiscount: function(input){
@@ -68,4 +68,3 @@ Using the .???() method will change the ??? context of a JavaScript function cal
 - `this`
 - `context`
 - `scope`
- 

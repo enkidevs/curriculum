@@ -30,7 +30,7 @@ We've talked about *selectors* and *specificity* using almost the same CSS prope
 
 Each of these CSS declarations specifies the same thing: that every `div` tag should have a white background by default.
 
-```plain-text
+```css
 .div-hex {
 /* hexadecimal value */
 background-color: #ffffff;
@@ -50,7 +50,7 @@ Keeping this in mind, it should be easier to understand how *hex* values work: t
 
 Here is the representation of some basic colors:
 
-```plain-text
+```javascript
 /* black */
 #000000   rgb(0,0,0)   black
 
@@ -72,7 +72,7 @@ Like colors, there are different types of values for *lengths*. The most popular
 
 Each pixel is a unit of absolute length. That means they are the same size on all devices: a `16px` font-size should have the same apparent dimension on a printed sheet of paper, on a computer screen or on a mobile screen.
 
-```plain-text
+```css
 p {
   font-size: 16px;
 }
@@ -91,4 +91,3 @@ If *purple* is the combination of *red* and *blue*, which of the following is no
 - #ff00ff
 - rgb(255,0,255)
 - purple
- 

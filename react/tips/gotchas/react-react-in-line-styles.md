@@ -21,7 +21,7 @@ The object name represents the name of the style and should be written in *camel
 
 Here is how you can create the style object:
 
-```plain-text
+```jsx
 var divStyle = {
   color: "white",
   webkitTransition: "all",
@@ -33,7 +33,7 @@ All style keys are *camelCased* to provide consistency, yet vendor prefixes shou
 
 Now that you have your object, here is how to apply the style:
 
-```plain-text
+```jsx
 ReactDOM.render(
   <div style={divStyle}>Hello World!</div>,
   myNode
@@ -49,7 +49,7 @@ The style object can also be created from `state` or `props` of a component!
 
 Consider the following style object:
 
-```plain-text
+```javascript
 var pStyle = {
   fontSize: 15,
   color: 'black'
@@ -94,4 +94,3 @@ var style = {
 - msTransition
 - ms-transition
 - webkit-transition
- 

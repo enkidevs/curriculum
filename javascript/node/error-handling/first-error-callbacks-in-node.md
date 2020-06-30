@@ -21,7 +21,7 @@ The `"error-first"` callback (also "errorback" or "err-back") has become the sta
 
 The parameters of an error-first callback functions should look like:
 
-```plain-text
+```javascript
 function(err, data)
 ```
 
@@ -29,7 +29,7 @@ The first argument is an error object. If the response is successful `err` will 
 
 Implementing an "error-first" callback:
 
-```plain-text
+```javascript
 fs.readFile('/text.txt',
  function(err, data) {
    if (err) {
@@ -43,7 +43,7 @@ fs.readFile('/text.txt',
 
 Note that the errors can be more specific:
 
-```plain-text
+```javascript
 // ...
 function(err, data) {
   if (err.fileNotFound) {
@@ -98,4 +98,3 @@ function(???, ???) {
 - `fileNotFound`
 - `log`
 - `null`
- 

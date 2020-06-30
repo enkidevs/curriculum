@@ -19,7 +19,7 @@ links:
 
 Python uses the exponent operator, `**`, to multiply a number *to the power* of another.
 
-```plain-text
+```bash
 >>> 2 ** 4
 # 16
 ```
@@ -28,7 +28,7 @@ This code executes 2 to the power of 4.
 
 Here are some other examples:
 
-```plain-text
+```bash
 >>> -3 ** 4
 # -81
 >>> 2 ** -2
@@ -39,7 +39,7 @@ Note how the `**` operator is executed before the `-` in the first example, so t
 
 Python uses the modulus operator, `%`, to return the *remainder of a division*.
 
-```plain-text
+```bash
 >>> 14 % 3
 # 2
 ```
@@ -69,7 +69,7 @@ Complete the following code snippet to execute 3 to the power of 4:
 
 What does the following code snippet return:
 
-```plain-text
+```bash
 11 % 4
 ```
 
@@ -80,4 +80,3 @@ What does the following code snippet return:
 - `7`
 - `2.5`
 - `4.66`
- 

@@ -6,7 +6,7 @@ links:
   - >-
     [docs.python.org](https://docs.python.org/3.5/library/collections.html#chainmap-examples-and-recipes){website}
 parent: get-more-with-collections
-notes: >+
+notes: >
   Issues found:
 
 
@@ -46,7 +46,6 @@ notes: >+
   Can also mention in brief that Named tuple instances do not have per-instance
   dictionaries, so they are lightweight and require no more memory than regular
   tuples.
-
 ---
 
 # Enhance your `tuple` s
@@ -62,13 +61,13 @@ Instead, the `collections` module provides an enhanced version of a tuple, `name
 
 Import `namedtuple`:
 
-```plain-text
+```python
 from collections import namedtuple
 ```
 
 Create a `namedtuple` object:
 
-```plain-text
+```python
 point = namedtuple('point', 'x y z')
 A = point(x=3, y=5, z=6)
 print(A)
@@ -77,21 +76,21 @@ print(A)
 
 Access a specific member:
 
-```plain-text
+```python
 print(A.x)
 # 3
 ```
 
 Because `namedtuple`s are **backwards compatible** with normal `tuple`s, member access can be also done with indexes:
 
-```plain-text
+```python
 print(A[0])
 # 3
 ```
 
 To convert a `namedtuple` to a `dict` (Actually a `OrderedDict`):
 
-```plain-text
+```python
 print(A._asdict())
 #OrderedDict([('x', 3), ('y', 5), ('z', 6)])
 ```
@@ -142,4 +141,3 @@ print(q)
 - `named_tuple`
 - `new_named_tuple`
 - `tuple_instance`
- 

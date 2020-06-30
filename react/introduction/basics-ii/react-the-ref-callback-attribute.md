@@ -26,7 +26,7 @@ However, using a `ref` you can access components and invoke elements' methods di
 
 When attributed to an **HTML** `element`, the `ref` callback will take the underlying **DOM** element as input:
 
-```plain-text
+```jsx
 render() {
   return (
     <div>
@@ -44,7 +44,7 @@ In the `ref` callback function above, `in` (input) will be:
 
 The referenced element is now accessible via `this.myInput`:
 
-```plain-text
+```jsx
 someMethod() {
   // call raw DOM API method focus()
   this.myInput.focus();
@@ -114,4 +114,3 @@ someMethod() {
 - `this.in`
 - `this.refs.in`
 - `in`
- 

@@ -20,16 +20,15 @@ In JDK 7+, it is possible to place underscores '_' inside numeric literals in or
 
 One example use of this is to break a long series of digits such as a phone number into several sub-sections, by for example, separating the area code:
 
-```plain-text
+```java
 int phoneNumber = 1234567890;
 int phoneNumber = 12345_67890;
 ```
 
 This can also be used break very large integer values to make them more readable; using underscores instead of commas. So 1,000,000,000 would become:
 
-```plain-text
+```java
 int billion = 1_000_000_000;
 ```
 
 Note that underscores must be placed in between digits; values that begin or end with an underscore are invalid.
- 

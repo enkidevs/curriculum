@@ -33,7 +33,7 @@ ES6 introduces classes and inheritance to JavaScript with the addition of `class
 
 We can create a `class` in JavaScript with the following syntax:
 
-```plain-text
+```javascript
 class Person {
 }
 
@@ -46,7 +46,7 @@ Often you will want the user to supply initialization arguments to the class –
 
 JavaScript `class`es can have only a single constructor:
 
-```plain-text
+```javascript
 class Person {
   constructor(name) {
     this.name = name;
@@ -113,4 +113,3 @@ class Sphere() {
 - this.volume
 - const volume
 - let volume
- 

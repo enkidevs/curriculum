@@ -24,7 +24,7 @@ The blame command is a Git feature, designed to help you determine who made chan
 
 In this screen shot the blame command shows who and when changes were made in this file:
 
-```plain-text
+```bash
 git blame ./com/mypackage/login/Login.java
  566a0863 (joe 2011-07-12 09:43:39 +0100 1)
  package com.mypackage.login;
@@ -66,4 +66,3 @@ Complete the command to see the changes made to a file and by whom:
 - changes made to a file and by whom
 - active developers for the repository
 - nothing
- 

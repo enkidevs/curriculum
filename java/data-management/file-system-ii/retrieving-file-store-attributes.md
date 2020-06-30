@@ -23,7 +23,7 @@ The `Files.getFileStore(Path)` method can be used to retrieve the file store for
 
 For example, we can find out the total space, used space and currently available space in the file store:
 
-```plain-text
+```java
 /*file is a Path object specifying the file
 location*/
 FileStore store = Files.getFileStore(file);
@@ -50,4 +50,3 @@ Which class has a method that returns the `FileStore` of a file (`getFileStore(p
 - FileStore
 - Storage
 - FileMetaData
- 

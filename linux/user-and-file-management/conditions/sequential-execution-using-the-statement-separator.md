@@ -15,7 +15,7 @@ tags:
 
 The `;` separator makes it possible to specify several commands all at once, the shell executing them sequentially: 
 
-```plain-text
+```bash
 date ; uname ; clear
 Fri 11 May 12:21:23 BST 2016
 Linux
@@ -49,4 +49,3 @@ You can sequentially run commands using the ??? statement separator.
 - ’’
 - &
 - &&
- 

@@ -13,7 +13,7 @@ category: how to
 
 Syntax:
 
-```plain-text
+```javascript
 { $sum: <expression> }
 ```
 
@@ -23,7 +23,7 @@ For instance, let's say each pokémon also has a `power` field in our `pokemon` 
 
 Example:
 
-```plain-text
+```javascript
 db.pokemon.aggregate([
   {
     $group: {
@@ -38,7 +38,7 @@ db.pokemon.aggregate([
 
 Output:
 
-```plain-text
+```javascript
 { "_id": "Psychic", "sumOfPowers": 1200 }
 { "_id": "Normal", "sumOfPowers": 121 }
 { "_id": "Water", "sumOfPowers": 1466 }
@@ -88,4 +88,3 @@ What is the `$sum` operator used for in the `$group` aggregation stage?
 - it is used to calculate the sum of all values of all groups and output a single value field.
 - Used to calculate the total number of fields within each group.
 - Used to calculate the total number of field in the collection.
- 

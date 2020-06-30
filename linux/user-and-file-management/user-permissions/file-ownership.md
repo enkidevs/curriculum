@@ -21,7 +21,7 @@ On Linux, every file and directory is given both a user owner and a group owner.
 
 Here is some example output:
 
-```plain-text
+```bash
 ls -ld /var/log
 drwxrwxr-x 10 root syslog
     4096 Jun 13 06:25 /var/log
@@ -56,4 +56,3 @@ You can use `???` to see which user or group owns a specific *file*.
 - `ls -a`
 - `ls -o`
 - `ls -d`
- 

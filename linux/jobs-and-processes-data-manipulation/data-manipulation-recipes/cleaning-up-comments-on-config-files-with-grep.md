@@ -23,7 +23,7 @@ The `grep` command is most commonly used to search plain-text data sets for line
 
 In the example below, we use grep to remove the *comment lines* from a *configuration* file.
 
-```plain-text
+```bash
 grep -v -e '^#'
       -e '^$' squid.conf
 ```
@@ -32,7 +32,7 @@ The `-e` flag enables us to do regex matching and the `-v` inverts the match.
 
 To use special symbols as comment delimiters, escape them with single quotes:
 
-```plain-text
+```bash
 grep -v -e '^#' -e '^$'
       -e ';' squid.conf
 ```
@@ -68,4 +68,3 @@ What flag can be used with the `grep` command to enable regex matching?
 - `-v`
 - `-r`
 - `-m`
- 

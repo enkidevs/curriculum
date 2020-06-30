@@ -17,7 +17,7 @@ links:
 
 To indicate what type a download link is (such as a `doc` or a `pdf`) via an image, use the **CSS** `content` property.
 
-```plain-text
+```css
 [href$=".pdf"]::after{
 content: url("myImgUrl.png");
 }
@@ -41,4 +41,3 @@ A CSS selector that targets links which resolve to a *pdf* file is:
 - `a.pdf`
 - `[href="pdf"]`
 - `a[after=".pdf"]`
- 

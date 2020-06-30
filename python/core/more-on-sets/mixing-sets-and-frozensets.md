@@ -13,7 +13,7 @@ category: how to
 
 To perform *in-place set operations*[1], you can stick the `_update` keyword to the end of the set-specific methods call:
 
-```plain-text
+```python
 x = set('abc')
 y = set('cbd')
 x.difference_update(y)
@@ -31,7 +31,7 @@ Notice that there's no `union_update()`, as the `update()` method already has th
 
 Moreover, set operations performed through methods, not operators (`^`, `|` etc.), accept any iterable as argument:
 
-```plain-text
+```python
 x = set('abc')
 print(x.union('bd'))
 # {'b', 'c', 'd', 'a'}
@@ -48,7 +48,7 @@ Unless you perform in-place operations, the same applies for *frozensets*.
 
 Also, binary operations that mix sets and frozensets will return the type of the first operand:
 
-```plain-text
+```python
 x = set('abc')
 y = frozenset('cbd')
 s = x | y
@@ -70,7 +70,7 @@ fs.clear()
 
 Which of the following operations would raise errors?
 
-```plain-text
+```python
 x = set('Kba')
 y = frozenset('bSs')
 x.union_update(y) # 1
@@ -115,4 +115,3 @@ print(c.pop())
 
 [1: In-place operations]
 Instead of returning a new set containing the result with both operands remaining the same, *in-place operations* assign to the left hand operand the value of the result.
- 

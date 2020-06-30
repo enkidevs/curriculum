@@ -25,7 +25,7 @@ When using the synchronous form any exceptions are immediately thrown. It is onl
 
 Use `fs.writeFileSync`  to **write data to a file**:
 
-```plain-text
+```javascript
 const fs = require('fs')
 
 fs.writeFileSync(file, data[, options])
@@ -33,13 +33,13 @@ fs.writeFileSync(file, data[, options])
 
 This is the same syntax as `fs.writeFile` but it is synchronous and returns undefined rather than a callback function.
 
-```plain-text
+```javascript
 fs.readFileSync(file[, options])
 ```
 
 Use `fs.readFileSync` to **return the contents of a file**:
 
-```plain-text
+```javascript
 // suppose file.txt
 const fileContent =
   fs.readFileSync('./file.txt')
@@ -89,4 +89,3 @@ fs.???(file, data)
 - write
 - writeFileAsync
 - writeFile
- 

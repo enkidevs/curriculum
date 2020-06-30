@@ -22,7 +22,7 @@ Python comes pre-installed on most operating systems. It can also be downloaded 
 
 Once installed, you can type `python3`, `python` or `python -i` to run the **Python interpreter**[1] from the shell[2]:
 
-```plain-text
+```bash
 python3
 # Python 3.7.6
 # (default, Dec 30 2019, 19:38:28)
@@ -39,7 +39,7 @@ It is the ideal place for testing out small pieces of code or calculations.
 
 For example:
 
-```plain-text
+```bash
 python3
 >>> 3 * 4
 # 12
@@ -54,7 +54,7 @@ We recommend [Visual Studio Code](https://code.visualstudio.com/Download) for be
 
 Once you're using a text editor you can save files using a `.py` extension and then open them from the shell by running:
 
-```plain-text
+```bash
 python3 myPythonFile.py
 ```
 
@@ -100,4 +100,3 @@ To use it, you launch the Python interpreter with `python3`, `python` or `python
 
 [2:Shell]
 The shell, also known as the command line, is a program which processes shell scripts, like Bash. Shell scripts allow you to manipulate and navigate between files, execute programs, and print text. The shell is run through the terminal.
- 

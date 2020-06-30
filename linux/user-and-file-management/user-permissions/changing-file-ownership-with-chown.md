@@ -21,19 +21,19 @@ The `chown` command allows us to change the both the user and group ownership of
 
 To change the user who owns a specific file run the following (`jesse` is just an example username):
 
-```plain-text
+```shell
 sudo chown jesse /path/to/some/file
 ```
 
 To change both user and group run the following (again, `new-group` is an example group name):
 
-```plain-text
+```shell
 sudo chown jesse:new-group /path/to/some/file
 ```
 
 To change only the group run:
 
-```plain-text
+```shell
 sudo chown :new-group /path/to/some/file
 ```
 
@@ -45,7 +45,7 @@ It's sometimes necessary to change the user/group who owns every file and subdir
 
 It would look something like this:
 
-```plain-text
+```shell
 sudo chown -R jesse:new-group /some/directory
 ```
 
@@ -91,4 +91,3 @@ Change the group for the `enki.txt` file:
 You can use the `chgrp` command to change the **group ownership**. This is the same as writing `sudo chown :new-group ./file`.
 
 For more information check the *Learn More* section for the command's documentation.
- 

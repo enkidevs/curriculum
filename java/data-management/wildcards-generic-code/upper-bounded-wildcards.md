@@ -23,7 +23,7 @@ Upper bounded wildcards can be used to make a variable less restrictive. For exa
 
 To solve this, we can use the wildcard `?` in place of a specific type. However, we do not want to accept *any* type; only ones that are subclasses of `Number`. To do this we can add an upper bound to the wildcard like this: `List<? extends Number>`:
 
-```plain-text
+```java
 public void method(
   List<? extends Number> list) {
   for (Number elem : list) {
@@ -33,4 +33,3 @@ public void method(
 ```
 
 This method will now be able to accept lists of any type that is a subclass of `Number`.
- 

@@ -139,4 +139,3 @@ console.log(rest);
 Here `rest` is assigned the last two values in the array.
 Finally, they will be printed.
 %
- 

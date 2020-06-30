@@ -20,7 +20,7 @@ tags:
 
 Scripts can be specified inside *package.json*:
 
-```plain-text
+```javascript
 {
   "name": "enki",
   // ...
@@ -32,14 +32,14 @@ Scripts can be specified inside *package.json*:
 
 And invoked using:
 
-```plain-text
+```bash
 npm run myScript
 firstScript
 ```
 
 Why is this great? Say you are using CSS preprocessors like *LESS* or *SASS* and you have to compile them into *CSS* files. All you have to do is specify `less` as a *devDependency* and include this script:
 
-```plain-text
+```json
 "scripts": {
   "build-less": `lessc app/less/main.less
       prod/css/main.css`
@@ -48,7 +48,7 @@ Why is this great? Say you are using CSS preprocessors like *LESS* or *SASS* and
 
 Running:
 
-```plain-text
+```bash
 npm run build-less
 ```
 
@@ -56,7 +56,7 @@ Will produce the *.css* file.
 
 Another cool thing about scripting is that you can combine multiple sub-scripts into a single one like so:
 
-```plain-text
+```json
 "scripts": {
   "build-less":`lessc app/less/main.less
       prod/css/main.css`,
@@ -108,7 +108,7 @@ One called `test` which will run `jest` and another called `test:ci` which will 
 
 Given the following is in your `package.json`, execute the script called `dailyStats`
 
-```plain-text
+```javascript
 {
   "name": "enki",
   // ...
@@ -125,4 +125,3 @@ Given the following is in your `package.json`, execute the script called `dailyS
 - dailyStats
 - script
 - exec
- 

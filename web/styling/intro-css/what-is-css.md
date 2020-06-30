@@ -22,7 +22,7 @@ links:
 
 **CSS**, also known as **Cascading Style Sheets**, is a styling language that can be applied to HTML, XML or SVG documents. Here's an example:
 
-```plain-text
+```css
 p {
   color: orange;
 }
@@ -69,4 +69,3 @@ What does *CSS* stand for?
 - Cross Site Scripting
 - Customer Service Site
 - Computer Styling Sheets
- 
