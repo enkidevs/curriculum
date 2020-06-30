@@ -51,9 +51,9 @@ required positional argument: 'gender'
 If we used all three parameters in the right order the output would be as follows:
 
 ```plain-text
-Name:  Doris
-Age:  20
-Gender:  female
+Name: Doris
+Age: 20
+Gender: female
 ```
 
 If we were to use *keyword arguments*, we could place them in a different order from the one they were defined. This is possible because the function caller identifies arguments using the parameter name.
