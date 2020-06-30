@@ -65,7 +65,7 @@ math.gamma(realNr)
 
 Trigonometric functions:
 
-```pyton
+```python
 math.sin(x)
 math.atan(x)
 ```
