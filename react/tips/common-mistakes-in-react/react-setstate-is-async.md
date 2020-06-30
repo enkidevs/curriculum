@@ -13,7 +13,7 @@ category: tip
 
 More often than not, we are eager with accessing a new state value after setting it. Because a new value is set on the next available render, the state might not reflect your latest update. Let's take a look at an example:
 
-```plain-text
+```js
 handleChange = age => {
   this.setState({ age });
   this.props.callback(this.state.age);
@@ -22,7 +22,7 @@ handleChange = age => {
 
 In the `handleChange` function, when we call `this.props.callback(this.state.count)` we are getting the old state value, not the new one we set through `this.setState({ count })` (because the state hasn't yet updated between the two lines of code). This issue can be fixed by using an optional second argument of the `setState` method, a callback function that is called after the state is updated:
 
-```plain-text
+```js
 handleChange = age => {
   this.setState({ age }, () => {
     this.props.callback(this.state.age);
@@ -32,7 +32,7 @@ handleChange = age => {
 
 If using function components together with hooks, you would use:
 
-```plain-text
+```jsx
 const [age, setAge] = useState(0);
 
 useEffect(() => {
@@ -97,4 +97,3 @@ const handleChange = value => {
 - `state.age`
 - `[callback, age]`
 - `callback(state.age)`
- 

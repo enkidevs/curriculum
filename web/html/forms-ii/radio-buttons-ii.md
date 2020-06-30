@@ -19,7 +19,7 @@ When creating radio buttons, each button within the same radio group is given th
 
 Example:
 
-```plain-text
+```html
 <form>
  <p>
    Please select your gender:
@@ -104,12 +104,12 @@ Which line creates an HTML form’s radio buttons?
 
 ## Quiz
 
-### Test your knowledge on input 
+### Test your knowledge on input
+
 
 `type="radio"`
 
  buttons?
-
 
 Which statement is true?
 
@@ -117,4 +117,3 @@ Which statement is true?
 - Radio buttons within one radio group can have many options selected at a time.
 - You can have multiple radio button groups with the same `name` in a webpage.
 - Radio buttons can't work without applying CSS to them
- 

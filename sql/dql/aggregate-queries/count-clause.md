@@ -22,7 +22,7 @@ The `COUNT` clause returns the total number of entries in a given column.
 
 Using `COUNT` function[1]:
 
-```plain-text
+```sql
 SELECT COUNT(experience) AS count
 FROM experience
 LIMIT 5;
@@ -112,7 +112,7 @@ We will use the same segment of `experience` table for all aggregate functions:
 | 3   | 3     | 33         | 1              |
 | ... | ...   | ...        | ...            |
 
-```plain-text
+```sql
 SELECT experience
 FROM experience
 LIMIT 5;
@@ -127,4 +127,3 @@ Output:
 | 33         |
 | 80         |
 | 156        |
- 

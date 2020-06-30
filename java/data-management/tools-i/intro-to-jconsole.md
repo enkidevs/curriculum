@@ -24,7 +24,7 @@ It can also be useful for tuning and heap sizing as it lets dynamically change s
 
 Starting `JConsole` if the JDK is in the system path:
 
-```plain-text
+```java
 jconsole
 
 ```
@@ -34,13 +34,13 @@ Output includes, over time, heap memory usage, number of threads, number of clas
 
 Starting `JConsole` on a specific application:
 
-```plain-text
+```java
 jconsole PID
 ```
 
 Setting up Remote Monitoring:
 
-```plain-text
+```java
 jconsole hostname:port
 ```
 
@@ -72,7 +72,7 @@ jconsole ???:???
 
 What does the following piece of code do?
 
-```plain-text
+```bash
 jconsole PID
 ```
 
@@ -81,4 +81,3 @@ jconsole PID
 - Starts JConsole on a specific application
 - Starts JConsole at a specific time
 - Starts JConsole on a private port
- 

@@ -22,7 +22,7 @@ Use the shorthand `background` property to declare gradients.
 
 The most common type of  gradient is `linear-gradient()`. Declare the direction of the gradient (you can even use degrees) followed by the color stops. For example:
 
-```plain-text
+```css
 div.gradient {
   /* webkit browser */
   background: -webkit-linear-gradient(right,
@@ -56,7 +56,7 @@ Which is the most common type of gradient?
 
 What does the following CSS code snippet do? ???
 
-```plain-text
+```css
 span.gradient {
    background: linear-gradient(to left, red,
                                white);
@@ -67,4 +67,3 @@ span.gradient {
 - Transitions the gradient from red to white, starting from left to right.
 - Transitions the gradient from white to red, starting from right to left.
 - Transitions the gradient from white to red, starting from left to right.
- 

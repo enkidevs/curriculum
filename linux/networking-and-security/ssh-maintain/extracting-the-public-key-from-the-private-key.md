@@ -19,7 +19,7 @@ tags:
 
 The `-y` option of the `ssh-keygen` tool outputs the public key:
 
-```plain-text
+```bash
 ssh-keygen -y -f ~/.ssh/id_rsa \ 
 > ~/.ssh/id_rsa.pub
 ```
@@ -30,7 +30,7 @@ The output is *redirected* to the public key file, `~/.ssh/id_rsa.pub`.
 
 A truncated example of a public key:
 
-```plain-text
+```bash
 ssh-rsa AAAA..../VqDjtS5 user@pc
 ```
 
@@ -55,4 +55,3 @@ Extract the *public key* from your *private ssh key*:
 - `~/.ssh/id_rsa.pub`
 - `-p`
 - `cat`
- 

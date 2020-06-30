@@ -21,7 +21,7 @@ By default, all parameters in a function are considered required.
 
 To declare an optional parameter, we can use the `?` after the parameter name:
 
-```plain-text
+```ts
 function hello(
   name: string,
   emoji?: string // optional
@@ -39,7 +39,7 @@ The reason we get `"Enki undefined"` above is because we didn't pass anything as
 
 One way to protect against this is to manually give `emoji` some default value if it doesn't exist[2]:
 
-```plain-text
+```ts
 function hello(
   name: string,
   emoji?: string
@@ -60,7 +60,7 @@ hello("Enki");
 
 Since setting the default value is a common operation, TypeScript gives us a built-in way to do it:
 
-```plain-text
+```ts
 function hello(
   name: string,
   emoji: string = "💚"
@@ -84,7 +84,7 @@ hello("Enki");
 
 What will be logged for `A` and `B`?
 
-```plain-text
+```ts
 function enki1(username?: string) {
   console.log(username); // A
 }
@@ -118,7 +118,7 @@ B = ???
 
 Will this code compile with type errors?
 
-```plain-text
+```ts
 function enki(age?: number = 5): string {
   return `Enki is ${age} years old`;
 }
@@ -139,7 +139,7 @@ enki()
 [1: Undefined Value]
 Any value in TypeScript that isn't defined gets the value `undefined`.
 
-```plain-text
+```ts
 // variable without a value is undefined
 let variable;
 
@@ -158,7 +158,7 @@ This means that, when converted to a boolean, a value will become either `true` 
 
 The values that convert to `false` are:
 
-```plain-text
+```ts
 false
 0
 -0
@@ -174,4 +174,3 @@ To check if a value is *falsy* we can negate it with the `!` operator (which con
 In other words, `!x` will become `true` for any of the above values.
 
 This is a common pattern to verify that a value is not empty.
- 

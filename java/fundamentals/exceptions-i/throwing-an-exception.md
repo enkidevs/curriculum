@@ -24,7 +24,7 @@ There are two types of `exception`:
 
 `Exception`s have to be handled and they can also be thrown. You can handle an `exception` inside a `try/catch` block :  
 
-```plain-text
+```java
 try {
   //perform an action
 } catch (IOException e) {
@@ -34,13 +34,13 @@ try {
 
 To throw an exception:
 
-```plain-text
+```java
 throw new Exception();
 ```
 
 Methods can also throw an `exception`:
 
-```plain-text
+```java
 public void myMethod() throws IOException {
 }
 ```
@@ -48,4 +48,3 @@ public void myMethod() throws IOException {
 An `exception` should be thrown when a fundamental assumption of the current code block is found to be false. 
 
 For example, a methods that counts the number of elements from a `List` should `throw` an `exception` if the given parameter is not a `List`.
- 

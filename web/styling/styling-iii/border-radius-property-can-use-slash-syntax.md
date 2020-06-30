@@ -17,7 +17,7 @@ links:
 
 ## Content
 
-```plain-text
+```css
 .box {
 /* top-left, top-right, bottom-right
    bottom-left */
@@ -56,4 +56,3 @@ What syntax can be used with the `border-radius` property for setting the horizo
 - slash syntax (/)
 - equal syntax (=)
 - double slash syntax (//)
- 

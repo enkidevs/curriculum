@@ -28,7 +28,7 @@ locale: Cannot set LC_ALL ..
 
 It is possible to first run `locale` to list which `locale`s are currently defined for the user:
 
-```plain-text
+```bash
 locale
 LANG=C
 LANGUAGE=
@@ -39,14 +39,14 @@ LC_ALL=
 
 Then, generate the missing `locale` and reconfigure `locale`s accordingly:
 
-```plain-text
+```bash
 sudo locale-gen "en_US.UTF-8"
 Generating locales...
   en_US.UTF-8... done
 Generation complete.
 ```
 
-```plain-text
+```bash
 sudo dpkg-reconfigure locales
 Generating locales...
   en_US.UTF-8... up-to-date
@@ -87,4 +87,3 @@ To generate missing `locales`  values, you could run:
 - `locale-gen`
 - `gen`
 - `locales`
- 

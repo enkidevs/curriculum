@@ -20,7 +20,7 @@ Since NaN is unordered and numerical comparison operators (`<`, `==`, etc.) retu
 
 Example of attempting a direct comparison with NaN:
 
-```plain-text
+```java
 double x = 0.0;
 double ans = Math.tan(1/x);
 // Here ans becomes NaN
@@ -34,7 +34,7 @@ if (ans == Double.NaN) {
 
 Instead, the `Double.isNaN()` method should be used in this case:
 
-```plain-text
+```java
 double x = 0.0;
 double ans = Math.tan(1/x);
 
@@ -70,7 +70,7 @@ double x = 13.0/0;
 
 What value will `x` have here?
 
-```plain-text
+```java
 double x = Math.tan(1/0.0);
 ```
 
@@ -90,7 +90,7 @@ double x = Math.tan(1/0.0);
 ### is NaN equal to NaN?
 
 
-```plain-text
+```java
 // What will the following snippet print?
 double x = Double.NaN;
 if(x == Double.NaN) { System.out.print(x); }
@@ -103,4 +103,3 @@ System.out.print("false");
 - NaNfalse
 - Double.NaNfalse
 - NaN
- 

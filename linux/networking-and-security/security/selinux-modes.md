@@ -23,7 +23,7 @@ This compulsory access mechanism provides three basic modes that dictate how it 
 
 Check the current status of **SELinux**:
 
-```plain-text
+```bash
 sestatus
 
 getenforce
@@ -33,7 +33,7 @@ system-config-selinux
 
 If it is `disabled` you can easily turn it on as it is recommended:
 
-```plain-text
+```bash
 setenforce enforcing
 ```
 
@@ -69,4 +69,3 @@ How do you change **SELinux** settings to only *warn* and *log* :
 - terminal browser
 - Linux distribution
 - hacker group
- 

@@ -17,13 +17,13 @@ links:
 
 The `reversed` built-in allows us to create an iterator for an iterable sequence of objects which iterates through the collection in reverse order. For `reversed` to work, the object passed to it as an argument must implement the `__reversed__()` method or otherwise support the `__len__()` and `__getitem__()`[1] methods with integer arguments. `reversed` takes the syntax:
 
-```plain-text
+```python
 reversed(seq)
 ```
 
 Where `seq` is an iterable sequence such as a tuple, list, string or range. This returns an iterator which accesses the elements in the sequence in the reverse order. For example, we may use `reversed` to reverse the order of characters in a string.
 
-```plain-text
+```python
 ourString = 'enki'
 print(list(reversed(ourString)))
 # Result: ['i', 'k', 'n', 'e']
@@ -82,4 +82,3 @@ print(list(reversed(c)))
 
 [1:`__len__ and __getitem__`]
 *Supporting these two methods is called supporting sequence protocol in Python. These two methods allow Python to find the total length of the given sequence and access elements arbitrarily inside the sequence. Knowing the total size of the sequence allows Python to access the element at the end of the list and move backwards toward the beginning of the sequence.*
- 

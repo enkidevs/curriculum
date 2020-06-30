@@ -29,7 +29,7 @@ commit body (72 chars)
 
 Then you set this template to be the default commit editor message using `commit.template`:
 
-```plain-text
+```bash
 git config --global 
   commit.template ~/.template.txt
 ```
@@ -71,4 +71,3 @@ git ??? --global
 - `template`
 - `-co`
 - `-m`
- 

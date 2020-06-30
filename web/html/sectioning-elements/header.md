@@ -23,7 +23,7 @@ You can also have multiple `<header>` elements on your web page, one for the pri
 
 This example showcases two headers within a web page:
 
-```plain-text
+```html
 <header>
   <h1>Logo</h1>
 </header>
@@ -92,12 +92,12 @@ Which container is best to organize the top of a web page or content section?
 
 ## Quiz
 
-### Anwer a quick question about the 
+### Anwer a quick question about the
+
 
 `<header>`
 
  element!
-
 
 The HTML `<header>` element cannot what?
 
@@ -109,4 +109,3 @@ The HTML `<header>` element cannot what?
 - hold a graphical logo
 - display authorship information
 - have multiple `<header>` elements within the same doc.
- 

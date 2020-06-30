@@ -26,7 +26,7 @@ Example:
 
 HTML:
 
-```plain-text
+```html
 <p></p>
 <p> </p>
 
@@ -34,7 +34,7 @@ HTML:
 
 CSS:
 
-```plain-text
+```css
 p:blank {
   outline: solid 1px red;
 }
@@ -54,7 +54,7 @@ The `:empty` pseudo-class will select only the first element, because it’s com
 
 Which pseudo-class would select the following element?
 
-```plain-text
+```html
 <p> </p>
 ```
 
@@ -71,7 +71,7 @@ Which pseudo-class would select the following element?
 
 Which lines of HTML code would a *:blank* pseudo class apply to?
 
-```plain-text
+```html
 1 <p>Pseudo classes!</p>
 2 <p></p>
 3 <p>:empty and :blank</p>
@@ -87,4 +87,3 @@ Which lines of HTML code would a *:blank* pseudo class apply to?
 - 4th and 5th
 - 2nd and 5th
 - 1st and 3rd
- 

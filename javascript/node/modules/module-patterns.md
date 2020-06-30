@@ -27,7 +27,7 @@ Other module patterns are:
 
 Exporting an anonymous function:
 
-```plain-text
+```javascript
 // module.js
 module.exports = function() {
 
@@ -42,7 +42,7 @@ func();
 
 Named functions can be exported in a similar way, however notice differences when defining the function and requiring the module:
 
-```plain-text
+```javascript
 // module.js
 exports.foo = function() {
 
@@ -91,4 +91,3 @@ foo();
 - )
 - ).module
 - ).exports
- 

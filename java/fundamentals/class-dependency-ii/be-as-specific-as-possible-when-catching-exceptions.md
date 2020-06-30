@@ -18,7 +18,7 @@ links:
 
 When specifying the type of exception to catch, it is generally preferable to be as specific as possible. For example:
 
-```plain-text
+```java
 try {
   //open and read a file
 } catch (Exception e) {
@@ -30,7 +30,7 @@ This code will catch any kind of exception that is thrown. However, this is not 
 
 Instead, we can use more specific catch blocks:
 
-```plain-text
+```java
 try {
   //open and read a file
 } catch (FileNotFoundException e) {
@@ -52,4 +52,3 @@ When handling exceptions, being more specific means:
 - Catching a particular exception.
 - Catching the generic exception.
 - Having multiple `try` blocks.
- 

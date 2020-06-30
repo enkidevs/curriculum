@@ -17,7 +17,7 @@ Using them is considered to be a good practice as you won't end up losing import
 
 To achieve this functionality by default, the following aliases can be added to `~/.bashrc` or to `/etc/profile`:
 
-```plain-text
+```bash
 alias cp='cp -i'
 alias mv='mv -i'
 alias rm='rm -i'
@@ -46,4 +46,3 @@ The `rm` (i.e., remove) command is used to delete files and directories.
 The `mv` (i.e., move) command is used to move or rename files.
 [3:copy]
 The `cp` (i.e., copy) command is used to make copies of files and directories.
- 

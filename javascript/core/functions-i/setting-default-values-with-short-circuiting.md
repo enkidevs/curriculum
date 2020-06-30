@@ -24,7 +24,7 @@ links:
 
 Instead of setting default values as below:
 
-```plain-text
+```javascript
 function title(t) {
  if (!t) {
    t = "Untitled";
@@ -34,7 +34,7 @@ function title(t) {
 
 We can use:
 
-```plain-text
+```javascript
 function title(t) {
   t = t || "Untitled";
 }
@@ -46,7 +46,7 @@ Sometimes this isn't desired. If an empty title is allowed, we would (incorrectl
 
 A better approach would be to use default parameters to use the default value only if the provided one is `undefined`.
 
-```plain-text
+```javascript
 function title(t = "Untitled") {
   
 }
@@ -54,7 +54,7 @@ function title(t = "Untitled") {
 
 If we wanted additional safety against both `undefined` and `null` (but allow all other values), we'd use the nullish coalescing operator `??`:
 
-```plain-text
+```javascript
 function title(t) {
   t = t ?? "Untitled";
 }
@@ -116,4 +116,3 @@ function getDefault(name){
 - ||
 - &&
 - ==
- 

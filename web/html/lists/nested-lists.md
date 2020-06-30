@@ -27,7 +27,7 @@ The two most common lists in HTML are:
 
 **Ordered List:**
 
-```plain-text
+```html
 <ol>
   <li>Do this first.</li>
   <li>This second.</li>
@@ -41,7 +41,7 @@ The two most common lists in HTML are:
 
 **Unordered List:**
 
-```plain-text
+```html
 <ul>
   <li>Sleeping Bag</li>
   <li>Flashlight</li>
@@ -61,7 +61,7 @@ When nested, each list section displays starting from either 1 or whatever the `
 
 Example of a nested `<ol>` list:
 
-```plain-text
+```html
 <ol>
   <li>Item A</li>
   <li>Item B
@@ -87,7 +87,7 @@ Example of a nested `<ol>` list:
 
 This is an example of an unordered list within an ordered list:
 
-```plain-text
+```html
 <p> Instructions </p>
 <ol>
   <li>Gather Ingredients:</li>
@@ -116,7 +116,7 @@ In the example above, the ordered list element `<ol>` is used as the main list b
 
 Complete the HTML code to create an unordered list within an ordered list.
 
-```plain-text
+```html
 <A>
   <B>Gather Ingredients:</B>
     <C>
@@ -148,7 +148,7 @@ C: ???
 
 Which code block will create this nested list?
 
-```plain-text
+```html
 1. Gather Ingredients:
   * 1 1/4 cup Nutella
   * 2 large eggs
@@ -159,7 +159,7 @@ Which code block will create this nested list?
 
 Option #1:
 
-```plain-text
+```html
 <ol>
   <li>Gather Ingredients:</li>
     <ul>
@@ -174,7 +174,7 @@ Option #1:
 
 Option #2:
 
-```plain-text
+```html
 <ol>
   <li>Gather Ingredients:</li>
   <li>
@@ -204,7 +204,7 @@ Option #2:
 
 What does this code create?
 
-```plain-text
+```html
 <ol>
   <li>Gather Ingredients:</li>
     <ul>
@@ -223,4 +223,3 @@ What does this code create?
 - 6 items within a numbered list
 - numbered list within a bulleted list
 - ungrouped list within an organic list
- 

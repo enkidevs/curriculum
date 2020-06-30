@@ -23,7 +23,7 @@ For example:
 
 You have a couple of Sass files, `_reset.scss` and `base.scss`. We want to import `_reset.scss` into `base.scss`.
 
-```plain-text
+```css
 // _reset.scss
 html,
 body,
@@ -57,4 +57,3 @@ When using *@import* in Sass the file you're importing is taken and ???.
 - creates a new instance of the file.
 - creates a new copy of the file.
 - combined with the file you're importing into, in a new file.
- 

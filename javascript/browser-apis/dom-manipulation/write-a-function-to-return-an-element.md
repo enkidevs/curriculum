@@ -13,7 +13,7 @@ category: must-know
 
 Let's say we need to create elements quite often within our code. In that case, we should write a function that creates and returns an element:
 
-```plain-text
+```javascript
 function initializeElement() {
   let heading = document.createElement(
     'h1'
@@ -24,7 +24,7 @@ function initializeElement() {
 
 We can make our functions more useful by adding some parameters that can change the text inside, or even the type of the element itself:
 
-```plain-text
+```javascript
 function initializeElement(element, text) {
   let newElement = document.createElement(
     element
@@ -70,7 +70,7 @@ Which of the following will return an element?
 
 Option A:
 
-```plain-text
+```javascript
 function initializeElement() {
   let paragraph = document
     .create('p')
@@ -80,7 +80,7 @@ function initializeElement() {
 
 Option B:
 
-```plain-text
+```javascript
 function initializeElement() {
   var paragraph = document
     .createElement('p')
@@ -90,7 +90,7 @@ function initializeElement() {
 
 Option C:
 
-```plain-text
+```javascript
 function initializeElement() {
   let paragraph = document
     .createElement('p')
@@ -101,4 +101,3 @@ function initializeElement() {
 - C
 - B
 - A
- 

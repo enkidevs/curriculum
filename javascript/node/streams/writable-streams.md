@@ -20,7 +20,7 @@ parent: chaining-readable-streams
 
 The `write()`  method is used to write data to a writable stream. Take the following example:
 
-```plain-text
+```javascript
 var fs = require(‘fs’);
 var rstream = fs.createReadStream
                         (‘file.txt’);
@@ -72,4 +72,3 @@ stream.???(data);
 - write
 - input
 - print
- 

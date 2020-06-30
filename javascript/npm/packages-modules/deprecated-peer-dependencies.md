@@ -24,14 +24,14 @@ By now, the question of what happens if one package depends on another package m
 
 The answer lies within the npm version you are using. There's a quick way to find that out:
 
-```plain-text
+```bash
 npm -v
 # 3.10.3
 ```
 
 npm 2 used to handle the problem quite intuitively. If PackageA depended on PackageB, `npm install PackageA` would build the following folder tree:
 
-```plain-text
+```bash
 ~/app
  |- PackageA
     |- PackageB
@@ -41,7 +41,7 @@ Straight forward, but not quite what you might had been looking for. You could `
 
 If *PackageA* had the following *package.json* file, which would tell npm to bundle PackageA and PackageB installations (much like node has to be installed for npm to work):
 
-```plain-text
+```javascript
 {
   //props
   "peerDependencies": {
@@ -52,7 +52,7 @@ If *PackageA* had the following *package.json* file, which would tell npm to bun
 
 The tree would have the following structure:
 
-```plain-text
+```bash
 npm install PackageA
 ~/app
  |- PackageA
@@ -95,4 +95,3 @@ Add a peer dependency called `enki` to your package using npm3+:
 - dependencies
 - enki:peer
 - devDependencies
- 

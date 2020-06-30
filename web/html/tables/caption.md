@@ -26,7 +26,7 @@ When used, `<caption>` element must to be the **first** element within the `<tab
 
 Example:
 
-```plain-text
+```html
 <table>
   <caption>Employee List</caption>
   <tr>
@@ -56,7 +56,7 @@ Example:
 
 Code the following table.
 
-```plain-text
+```html
 <tag1>
   <tag2>Employee List</tag2>
   <tag3>
@@ -116,4 +116,3 @@ If the `<caption>` of an HTML table is placed under the table's data, where must
 - Anywhere within the table
 - Before the table element
 - After the table element
- 

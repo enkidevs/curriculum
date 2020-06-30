@@ -21,7 +21,7 @@ links:
 
 The basic usage of the `nth-child` pseudo-class is to select a single child of the targeted element, like so:
 
-```plain-text
+```css
 ul:nth-child(3){
   color: orangered;
 }
@@ -29,7 +29,7 @@ ul:nth-child(3){
 
 Or, to select more children:
 
-```plain-text
+```css
 ul:nth-child(3), ul:nth-child(5){
   color: orangered;
 }
@@ -39,7 +39,7 @@ Would change the color of the 3rd and 5th children. But this can get very messy 
 
 However, `nth-child` accepts *expressions* between the parentheses:
 
-```plain-text
+```css
 ul:nth-child(3n+2){
   color: orangered;
 }
@@ -47,7 +47,7 @@ ul:nth-child(3n+2){
 
 The counter for n starts at *0* and ends when it hits the total number of direct children of the element. For the **3n+2** expression, the values table for 6 children is:
 
-```plain-text
+```bash
 3×0+2 = 2nd child
 3×1+2 = 5th child
 3×2+2 = 8th child
@@ -62,7 +62,7 @@ To select all the children from the fifth one to the end of the list, the expres
 
 Negative values of *n* can be used to select children from the bottom up. For example, to select items *1 through 5* and change their color:
 
-```plain-text
+```bash
 # -n+5
 -(0) + 5 = 5th
 -(1) + 5 = 4th
@@ -74,7 +74,7 @@ Negative values of *n* can be used to select children from the bottom up. For ex
 
 This is 6 items list:
 
-```plain-text
+```html
 <ul>
   <li>First list item</li>
   <li>Second list item</li>
@@ -87,7 +87,7 @@ This is 6 items list:
 
 And the CSS:
 
-```plain-text
+```css
 li {
   color: white;
 }
@@ -106,7 +106,7 @@ li:nth-child(-n+5) {
 
 Which items would the following CSS code select? ???
 
-```plain-text
+```css
 li:nth-child(-n+7) {
    display: block;
 }
@@ -116,4 +116,3 @@ li:nth-child(-n+7) {
 - Items 0 through 7.
 - Items 1 through 6
 - Items -1 through 7.
- 

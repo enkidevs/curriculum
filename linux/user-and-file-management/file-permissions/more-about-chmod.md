@@ -30,7 +30,7 @@ These digits are then combined to denote permissions for the owner, groups, and 
 
 Some commonly used permissions examples for executable files:
 
-```plain-text
+```sh
 # all three have no restrictions
 chmod 777 filename
 
@@ -40,7 +40,7 @@ chmod 700 filename
 
 For general files:
 
-```plain-text
+```sh
 # all users can read/write the file
 chmod 666 filename
 
@@ -66,4 +66,3 @@ Add *read/execute* permissions for *user* and *other* for enki.txt:
 - `ug`
 - `a`
 - `-`
- 

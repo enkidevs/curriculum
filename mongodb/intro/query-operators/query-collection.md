@@ -17,7 +17,7 @@ In MongoDB, we have *query operators* that can be used to specify different cond
 
 For instance, let's say we have a `pokemon` collection with more than 200 pokémon documents. We know that each pokémon has an `_id`, `type`, `name` and `secondType` field, and we want to display all the pokémon that have the type `"Grass"`. We can do that like so:
 
-```plain-text
+```javascript
 db.pokemon.find({
   type: "Grass"
 });
@@ -25,7 +25,7 @@ db.pokemon.find({
 
 Output:
 
-```plain-text
+```javascript
 {
   "_id" : ObjectId(
     "5d9d8a6a0b24990f19398209"
@@ -63,7 +63,7 @@ Output:
 
 If we wanted to display all the pokémon of type `"Grass"` whose `secondType` equals `"Normal"`, we would do:
 
-```plain-text
+```javascript
 db.pokemon.find({
   type: "Grass",
   secondType: "Normal"
@@ -72,7 +72,7 @@ db.pokemon.find({
 
 Output:
 
-```plain-text
+```javascript
 {
   "_id": ObjectId(
     "5d9d926c0b24990f19398228"
@@ -121,4 +121,3 @@ db.???.find({
 - Pokemon
 - TYPE
 - Mud
- 

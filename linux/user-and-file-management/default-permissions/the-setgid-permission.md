@@ -20,26 +20,26 @@ When `setgid` permission is applied to a directory, files that were created in t
 
 To set the `setgid` bit on a file:
 
-```plain-text
+```bash
 chmod g+s enkiscript
 
 ```
 
 Remove the `setgid` bit:
 
-```plain-text
+```bash
 chmod g-s enkiscript
 ```
 
 To remove both `setuid` and `setgid` with octal alternative:
 
-```plain-text
+```bash
 chmod 0777 enkiscript
 ```
 
 Find all files with `setgid`:
 
-```plain-text
+```bash
 find / -type f -perm /2000 -exec stat
     -c "%A %a %n" {} \;
 ```
@@ -76,4 +76,3 @@ How do you apply `setgid` bit to a file?
 - `u+s`
 - `a-s`
 - `perm`
- 

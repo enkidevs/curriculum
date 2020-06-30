@@ -20,7 +20,7 @@ Python features a built-in `bytes` type for manipulating binary data, which repr
 
 Create a **zero-filled** bytes object of specified `length`:
 
-```plain-text
+```python
 >>> c = bytes(2)
 >>> c
 b'\x00\x00'
@@ -28,7 +28,7 @@ b'\x00\x00'
 
 Create a bytes object from a iterable of integers:
 
-```plain-text
+```python
 >>> c = bytes(range(4))
 >>> c
 b'\x00\x01\x02\x03'
@@ -36,7 +36,7 @@ b'\x00\x01\x02\x03'
 
 Create a bytes object from a **hexadecimal** string:
 
-```plain-text
+```python
 >>> bytes.fromhex('2Ef0 F1f2')
 b'.\xf0\xf1\xf2'
 
@@ -44,7 +44,7 @@ b'.\xf0\xf1\xf2'
 
 Convert a `bytes` object to a hexadecimal string:
 
-```plain-text
+```python
 >>> (b'\xf0\xf1\xf2').hex()
 'f0f1f2'
 ```
@@ -78,4 +78,3 @@ Bytes are ??? sequences of single bits.
 
 - `immutable`
 - `mutable`
- 

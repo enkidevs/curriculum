@@ -15,20 +15,20 @@ links:
 
 Using the following array:
 
-```plain-text
+```js
 let stack = [];
 ```
 
 We can `push` items to the stack:
 
-```plain-text
+```js
 stack.push(1);
 stack.push(2);
 ```
 
 Then, try using `stack.pop()`:
 
-```plain-text
+```js
 console.log(stack.pop())
 // 2
 console.log(stack.pop())
@@ -74,4 +74,3 @@ s.??? ; // s = [1,2,4]
 - push(4)
 - pop(2)
 - pop(4)
- 

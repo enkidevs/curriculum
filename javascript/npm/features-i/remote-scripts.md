@@ -22,7 +22,7 @@ Let's say we have both a shell script (`.sh`) and a Makefile that accomplish dif
 
 For example:
 
-```plain-text
+```javascript
 "scripts": {
   "backend": "cd backend && make",
   "deploy:complex": "./deploy.sh"
@@ -31,7 +31,7 @@ For example:
 
 You can then use `npm run` to run both. In case of the Makefile, the target can also be specified:
 
-```plain-text
+```bash
 npm run backend dev
 ```
 
@@ -100,4 +100,3 @@ The syntax to add an `external_script.sh` to *package.json* is:
 - ./external_script.sh
 - script
 - external_script.js
- 

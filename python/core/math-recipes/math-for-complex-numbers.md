@@ -20,7 +20,7 @@ Its methods can take any type of number as arguments, but also any object that h
 
 Import the module:
 
-```plain-text
+```python
 import cmath
 # create a complex number
 # (module not required)
@@ -30,7 +30,7 @@ z = 3 + 4j
 
 Imaginary and real parts of complex numbers:
 
-```plain-text
+```python
 # complex number
 # z == z.real + z.imag*1j
 print(z.real) # 3.0
@@ -40,7 +40,7 @@ print(z.imag) # 4.0
 
 Get the phase of a number:
 
-```plain-text
+```python
 # equiv to
 # math.atan2(x.imag, x.real)
 print(cmath.phase(z))
@@ -49,7 +49,7 @@ print(cmath.phase(z))
 
 Get polar representation:
 
-```plain-text
+```python
 # equiv to (abs(x), phase(x))
 print(cmath.polar(z))
 # (5.0, 0.9272952180016122)
@@ -57,7 +57,7 @@ print(cmath.polar(z))
 
 Other functions from the `math` module are available for complex numbers too:
 
-```plain-text
+```python
 print(cmath.log(z))
 # (1.6094379124341003+0.9272952180016122j)
 print(cmath.cos(z))
@@ -101,4 +101,3 @@ z = ???(2, 4)
 - `c`
 - `math`
 - `create`
- 

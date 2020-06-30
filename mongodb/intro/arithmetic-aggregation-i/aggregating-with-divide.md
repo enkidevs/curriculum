@@ -13,7 +13,7 @@ category: how to
 
 Division is performed in MongoDB by using the `$divide` operator. The syntax looks like this:
 
-```plain-text
+```javascript
 { 
   $divide:  
   [ 
@@ -29,7 +29,7 @@ Using the same documents as in the previous insights[1], we can use the `$divide
 
 Example:
 
-```plain-text
+```javascript
 db.pokemon.aggregate([
   {
     $project: {
@@ -44,7 +44,7 @@ db.pokemon.aggregate([
 
 Output:
 
-```plain-text
+```javascript
 { 
   "_id": ObjectId(
     "5d9d8c330b24990f19398214"
@@ -100,7 +100,7 @@ Which of these are not valid arithmetic operator?
 [1:Previous Documents]
 Here are the documents used in the previous insight:
 
-```plain-text
+```javascript
 { 
   "Name": "Pikachu",
   "Power": 823,
@@ -112,4 +112,3 @@ Here are the documents used in the previous insight:
   "Age": 26
 }
 ```
- 

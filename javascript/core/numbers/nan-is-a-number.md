@@ -13,7 +13,7 @@ category: caveats
 
 When using the `typeof` operator with `NaN`, an interesting result is observed:
 
-```plain-text
+```javascript
 var x = typeof NaN;
 console.log(x);
 // 'number'
@@ -21,7 +21,7 @@ console.log(x);
 
 To distinguish `NaN` from other numbers, use `Number.isNaN`:
 
-```plain-text
+```javascript
 Number.isNaN(5) // false
 Number.isNaN(true) // false
 Number.isNaN('') // false
@@ -32,7 +32,7 @@ Number.isNaN(Number.NaN) // true
 
 Beware that using `=== NaN` instead of `isNaN` would not work because `NaN` is not equal to itself:
 
-```plain-text
+```javascript
 1 === NaN  // false
 NaN === NaN // false
 Infinity === NaN // false
@@ -66,7 +66,7 @@ var z = NaN
 
 The following code snippet outputs ???
 
-```plain-text
+```javascript
 console.log(typeof NaN);
 ```
 
@@ -85,7 +85,7 @@ console.log(typeof NaN);
 
 What is the output of this line?
 
-```plain-text
+```javascript
 console.log(typeof(NaN));
 ```
 
@@ -95,4 +95,3 @@ console.log(typeof(NaN));
 - object
 - function
 - undefined
- 

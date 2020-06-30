@@ -24,21 +24,21 @@ The syntax difference between the two is that set comprehension requires using *
 
 Imagine we have the following list:
 
-```plain-text
+```python
 my_list = [1, 2, 3, 4, 5, 6, 7, 8]
 
 ```
 
 And we need a set containing only even numbers in the list. This can be easily achieved with **set comprehension**:
 
-```plain-text
+```python
 even_set = {x for x in my_list if x%2 == 0}
 
 ```
 
 We can now check the result:
 
-```plain-text
+```python
 print(even_set)
 # {8, 2, 4, 6}
 
@@ -46,7 +46,7 @@ print(even_set)
 
 Note that the above operation would work even if my_list contained some duplicate values, e.g:
 
-```plain-text
+```python
 my_list = [1, 2, 3, 4, 5, 6, 7, 8, 8, 7, 6]
 ```
 
@@ -80,7 +80,7 @@ new_set = {x ??? x % 2 == 0 else/
 
 What will the `odd_set` look like after we run the following code snippet?
 
-```plain-text
+```python
 
 l = [1,3,3,2,4,5,5,8,9]
 odd_set = {x for x in l if x % 2}
@@ -92,4 +92,3 @@ odd_set = {x for x in l if x % 2}
 - {1,3,5,9}
 - {1,2,3,4,5,8,9}
 - {2,4,8}
- 

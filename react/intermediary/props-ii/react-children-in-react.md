@@ -25,7 +25,7 @@ This special `prop` is passed to a `component` automatically.
 
 It can be used to access the `children` of any parent component from within it.
 
-```plain-text
+```jsx
 <Wrapper>
   <A />
   <B />
@@ -41,7 +41,7 @@ You can make use of `props.children` to dynamically render `component`s and `ele
 
 Consider the following component:
 
-```plain-text
+```jsx
 class Wrapper extends React.Component{
   render() {
     return (
@@ -55,7 +55,7 @@ class Wrapper extends React.Component{
 
 Our component will render nothing but the enclosed `<div>` in the following scenario:
 
-```plain-text
+```jsx
 ReactDOM.render(
   <Wrapper></Wrapper>,
   document.getElementById("root")
@@ -64,7 +64,7 @@ ReactDOM.render(
 
 However, when passing some `children`, we can see them rendered within that `<div>`:
 
-```plain-text
+```jsx
 ReactDOM.render(
   <Wrapper>
     <h1>Hello</h1>
@@ -83,7 +83,7 @@ The `React.Children` class provides a bunch of methods useful for iterating and 
 
 What will be rendered within the `div` with `id="main"`?
 
-```plain-text
+```jsx
 function Exercise(props) {
   return (
     <div id="main">{props.children}</div>
@@ -119,4 +119,3 @@ What is the minimum number of elements `props.children` can hold?
 - `zero`
 - `one`
 - `at least two`
- 

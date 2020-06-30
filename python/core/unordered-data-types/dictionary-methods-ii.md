@@ -17,7 +17,7 @@ links:
 
 - `keys()` and `values()` return lists of dictionary keys and values:
 
-```plain-text
+```python
 square_numbers.keys()
 
 # dict_keys([1, 2, 3, 4, 5])
@@ -29,7 +29,7 @@ square_numbers.values()
 
 - `pop()` removes the item at the given (`key`) and returns its value:
 
-```plain-text
+```python
 square_numbers.pop(1)
 
 # 1
@@ -40,7 +40,7 @@ print(square_numbers)
 
 - `popitem()` removes an **arbitrary item** from the dictionary, and returns it
 
-```plain-text
+```python
 square_numbers.popitem()
 
 # (5, 25)
@@ -51,7 +51,7 @@ print(square_numbers)
 
 - `fromkeys()` return a new **dictionary** with keys provided in the first argument, and values from the second argument:
 
-```plain-text
+```python
 square_numbers = {}.fromkeys([1,2,3], 0)
 
 print(square_numbers)
@@ -99,4 +99,3 @@ num_dict = {1: 1, 2: 4, 3: 9, 4: 16, 5: 25}
 - `keys(num_dict)`
 - `num_dict_keys()`
 - `keys_num_dict()`
- 

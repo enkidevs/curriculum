@@ -18,7 +18,7 @@ To implement weak references to objects in Python, one can use the `ref` or the 
 
 The difference is that proxies can be used without calling the `ref` first to access the object, acting just like the referenced object.
 
-```plain-text
+```python
 import weakref
 
 class Enki(object):
@@ -67,4 +67,3 @@ What’s the difference between using `ref` and `proxy` from `weakref`?
 
 - Ref must be dereferenced in order to access the object while Proxies don't have to be.
 - Ref can be used without calling the proxy first to access the object.
- 

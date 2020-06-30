@@ -21,7 +21,7 @@ The router in **Express** acts like a mini express application that doesn't brin
 
 Creating a simple route:
 
-```plain-text
+```javascript
 app.get('/simple', function(req, res) {
   res.send('Simple route accessed!');
 });
@@ -29,7 +29,7 @@ app.get('/simple', function(req, res) {
 
 Creating multiple routes:
 
-```plain-text
+```javascript
 var router = express.Router();
 router.get('/', function(req, res) {
     res.send('first page');
@@ -42,13 +42,13 @@ router.get('/enki', function(req, res) {
 
 Applying the routes:
 
-```plain-text
+```javascript
 app.use('/', router);
 ```
 
 `router.use()` is used to define middleware:
 
-```plain-text
+```javascript
 router.use(function(req,res,next) {
   console.log(req.method, req.url);
   next();
@@ -98,4 +98,3 @@ app.???('/simple', function(req, res) {
 - req
 - app
 - router
- 

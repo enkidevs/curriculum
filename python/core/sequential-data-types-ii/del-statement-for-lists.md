@@ -21,7 +21,7 @@ It differs from the `pop()` method because items won't be returned when removing
 
 To delete an item at a given *index*:
 
-```plain-text
+```python
 a = [0, 1, 2, 3]
 del a[0]
 
@@ -31,7 +31,7 @@ print(a)
 
 It can also be used to delete a range of items within a `list`:
 
-```plain-text
+```python
 a = [1, 2, 3, 4]
 del a[0:2]
 
@@ -43,7 +43,7 @@ Note that even though three elements are specified (*0, 1, 2*), the last one is 
 
 We can also use `del` to delete the items inside a `list`, or the whole object itself:
 
-```plain-text
+```python
 del a[:]
 
 print(a)
@@ -94,4 +94,3 @@ list = [1, 2, 3, 4, 5]
 - 2
 - 3
 - remove
- 

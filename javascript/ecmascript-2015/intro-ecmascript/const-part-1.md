@@ -26,20 +26,20 @@ will receive an error.
 
 To declare a constant variable assignment, use the *`const`* keyword:
 
-```plain-text
+```javascript
 const year = 2016;
 ```
 
 Once a `const` is declared any attempts to reassign the value will cause an error:
 
-```plain-text
+```javascript
 year = 2017; // error
 year = "future"; // error
 ```
 
 Before we move on with this insight, we need to take a look at what scope means in JavaScript. Scope is the accessibility of variables, functions, and objects in some particular part of your code during runtime. In other words, scope determines the visibility of variables and other resources in areas of your code. Here is a simple example that should clear any confusion:
 
-```plain-text
+```js
 function foo() {
   var x = "declared inside function";
   // x can only be used in foo
@@ -52,7 +52,7 @@ console.log(x);
 
 Now that you understand what scope is, it is important to know that `const`s cannot exist in the same scope. For example, if we had already declared a `const` variable called `year`, we cannot declare another one in the same scope, but we are free to do so in any other scope:
 
-```plain-text
+```javascript
 const year = 2015;
 console.log(year);
 // 2015
@@ -81,7 +81,7 @@ if (1 == 1) {
 
 Consider the assignment:
 
-```plain-text
+```javascript
 const enki = 42;
 ```
 
@@ -115,7 +115,7 @@ Is the following code valid? Why?
 
 ???
 
-```plain-text
+```javascript
 const enki = 'enki';
 
 if (true) {
@@ -127,4 +127,3 @@ if (true) {
 - yes, because the value is changed
 - no, because you can't redeclare a variable
 - no, because the `if` block doesn't have it's own scope
- 

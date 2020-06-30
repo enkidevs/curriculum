@@ -27,7 +27,7 @@ The equivalent of the relation between a smartphone whose battery you could remo
 
 The difference between the concepts can be explained better through a code example:
 
-```plain-text
+```java
 // tight coupling
 public class Item {
   public String name;
@@ -62,7 +62,7 @@ In this case, `Checkout` has to know that `Cart` has an array of `Item`s. Moreov
 
 A better approach would be to designate each class to manipulate the data themselves and retrieve the result through methods:
 
-```plain-text
+```java
 // loose coupling
 public class Item {
   public String name;
@@ -124,4 +124,3 @@ Which of the following definitions describes `coupling` the best?
 - The degree of independence inside modules
 - The alternative use of private and public variables
 - Inheritance dependencies
- 

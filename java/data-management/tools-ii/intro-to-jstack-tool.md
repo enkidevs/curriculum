@@ -24,13 +24,13 @@ A stack trace of all threads can be useful in diagnosing a number of issues such
 
 Basic syntax:
 
-```plain-text
+```java
 jstack PID
 ```
 
 Print a detailed dump:
 
-```plain-text
+```java
 jstack -l PID
 ```
 
@@ -66,4 +66,3 @@ jstack ??? ???
 - `-d`
 - `dump`
 - `VM`
- 

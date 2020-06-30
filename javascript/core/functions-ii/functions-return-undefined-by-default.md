@@ -20,7 +20,7 @@ If the function `return` statement is empty (or missing) the default value is `u
 
 For example:
 
-```plain-text
+```javascript
 function doSomething(num) {
   if (num === 1) {
     return;
@@ -89,4 +89,3 @@ foo(3) === foo(1); // = ???
 - null
 - false
 - NaN
- 

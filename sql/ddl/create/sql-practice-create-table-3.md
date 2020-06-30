@@ -38,7 +38,7 @@ This table should contain the following columns, which should store the followin
 
 After you've created that table, add this to your seed data
 
-```plain-text
+```sql
 INSERT INTO user_items (id, item_id, user_id, daily_price)
 VALUES (0, 0, 1, 5.2);
 
@@ -59,4 +59,3 @@ In total, you will need to:
 - *Build the schema*
 - *Run the provided query*
 - *Submit the result as your Answer*
- 

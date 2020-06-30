@@ -17,7 +17,7 @@ Taking into consideration that binary floating-point format have several *`inacc
 
 For example :
 
-```plain-text
+```javascript
 console.log(.1 + .2);
 
 ```
@@ -26,13 +26,13 @@ will print `0.30000000000000004` instead of `0.3`. This happens because `0.1` is
 
 This proves a nuisance especially at comparisons:
 
-```plain-text
+```javascript
 console.log((.1 + .2) == .3); //false
 ```
 
 It is advised to avoid comparisons between floating point numbers. Instead, consider subtracting the numbers and compare it to an epsilon:
 
-```plain-text
+```javascript
 eql =  Math.abs((.1 + .2) - .3) < .0000001;
 
 ```
@@ -72,7 +72,7 @@ Instead of comparing two floating numbers, the best way to avoid *inaccuracies* 
 
 What will be the value of x?
 
-```plain-text
+```javascript
 var x = 0.2 + 0.1;
 console.log(x);
 ```
@@ -83,4 +83,3 @@ console.log(x);
 - 0.3
 - 0.2999999999999999
 - NaN
- 

@@ -23,7 +23,7 @@ In order to create a new element on a webpage dynamically with JavaScript, we us
 
 Then we can give the element some content. Let's make another tag dynamically and append it to the div tag.
 
-```plain-text
+```JavaScript
 var newDiv = document
   .createElement('div')
 var newTextContent = document
@@ -33,7 +33,7 @@ newDiv.appendChild(newTextContent)
 
 Now we have to add the new div to the DOM in order to see it on the page:
 
-```plain-text
+```html
 <html>
   <body>
     <div id="container">
@@ -87,4 +87,3 @@ Which method on the Document Object is used for making a new element?
 - `createElement`
 - `makeElement`
 - `appendChild`
- 

@@ -25,7 +25,7 @@ notes: >-
 
 Quickly identify the type of a file using the `file` command:
 
-```plain-text
+```bash
 file /bin/bash
 /bin/bash: ELF 64-bit LSB executable,x86-64,
  version 1 (SYSV), dynamically linked
@@ -53,4 +53,3 @@ file script.py
 - `script.py: ASCII text`
 - `-rw-rw-r-- 1 owner group 2048 19 Nov 2014 script.py
 - `# script.py content`
- 

@@ -26,7 +26,7 @@ Python provides the `stringprep` module filled with static methods used for chec
 
 Check if a code is inside table `A.1` (unassigned code points):
 
-```plain-text
+```python
 import stringprep
 
 print(stringprep.in_table_a1('Ș'))
@@ -35,7 +35,7 @@ print(stringprep.in_table_a1('Ș'))
 
 Check if a code point is in table `C.1.1` (ASCII space characters):
 
-```plain-text
+```python
 print(stringprep.in_table_c11(' '))
 # True
 ```
@@ -81,4 +81,3 @@ import stringrep
 - `table_c1_1`
 - `rfc`
 - `rfc3454`
- 

@@ -17,14 +17,14 @@ With the implementation of `nio` package in Java 7, this task can now be complet
 
 To create a new directory:
 
-```plain-text
+```java
 Path newDir = Paths.get("path");
 Files.createDirectory(newDir);
 ```
 
 If you want to set permission as well, you can pass them as an additional argument:
 
-```plain-text
+```java
 Set<PosixFilePermissions> perms
      = PosixFilePermissions
         .fromString("rwxr-xr--");
@@ -50,4 +50,3 @@ Path dir = Paths.get("path");
 - `Path.createDirectory(dir);` 
 - `File.createDirectory(dir);` 
 - `Paths.createDirectory("path");`
- 

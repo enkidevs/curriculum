@@ -23,14 +23,14 @@ The `time` object has attributes for **hours**, **minutes**, **seconds** and **m
 
 Its constructor is of the form:
 
-```plain-text
+```python
 time(hour, minute, second,
               microsecond, tzinfo)
 ```
 
 While all arguments are optional, keep in mind their default value is `0`, so just calling `datetime.time()` will actually create a time object with the earliest possible time representation:
 
-```plain-text
+```python
 from datetime import time
 my_min = time()
 
@@ -43,7 +43,7 @@ time.min == my_min # True
 
 On the other hand, the latest representable time is of the form:
 
-```plain-text
+```python
 my_max = time(23,59,59,999999)
 
 # this is equivalent to
@@ -54,7 +54,7 @@ time.max == my_max # True
 
 The `date` constructor has all its arguments (**year**, **month**, **day**) mandatory. Keep in mind that if they are not in their respective ranges (e.g. `1 <= month <= 12`) an *error* will be thrown.
 
-```plain-text
+```python
 from datetime import date
 a_date = date(2017, 6, 26)
 print(a_date) # 2017-6-26
@@ -62,14 +62,14 @@ print(a_date) # 2017-6-26
 
 You can also easily get the current date via the `.today()` method:
 
-```plain-text
+```python
 current = date.today()
 print(current) # 2017-06-27
 ```
 
 Another way of creating a `date` is from a **timestamp value** (and even from a **proleptic Gregorian ordinal value**[1]):
 
-```plain-text
+```python
 d = date.fromtimestamp(1256953732)
 print(d) # 2009-10-31
 ord = d.toordinal()
@@ -80,7 +80,7 @@ print(ord_date) # 2009-10-31
 
 Both classes support the `.replace()` method which returns new objects replacing the specified value (in the order they are defined in the constructor).
 
-```plain-text
+```python
 
 my_time = time(0,2,20)
 print(my_time) # 00:02:20
@@ -150,4 +150,3 @@ current = ???
 
 [1:Proleptic Gregorian Calendar]
 The proleptic Gregorian calendar is produced by extending the Gregorian calendar backward with negative values to dates preceding its official introduction in **1582**.
- 

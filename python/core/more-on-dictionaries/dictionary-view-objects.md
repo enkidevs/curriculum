@@ -17,7 +17,7 @@ parent: dictionary-standard-mapping-type
 
 An interesting feature python provides for dictionaries are *view objects*  which can be generated using any of the following methods:
 
-```plain-text
+```python
 dict.keys()
 # returns a new view of dictionary's keys
 dict.values()
@@ -31,7 +31,7 @@ The *view objects* are dynamically tied to the parent dictionary. When the paren
 
 The number of entries in a dictionary can be easily obtained using the `len(dictview)` method:
 
-```plain-text
+```python
 >>> a = {'one':1, 'two':2}
 >>> keys = a.keys()
 >>> len(keys)
@@ -41,7 +41,7 @@ The number of entries in a dictionary can be easily obtained using the `len(dict
 One reason for using *view objects* is that iteration over a dictionary is more efficient than using lists for this purpose.
 Dictionary's `iter()` method works on dictionary views, returning an iterator over keys, values or items:
 
-```plain-text
+```python
 iter(keys)
 # iterator over keys is returned
 ```
@@ -49,7 +49,7 @@ iter(keys)
 Also *view objects* provide efficient ways to perform containment tests and set-like operations ( eg. Intersections, Differences, etc. )
 The `in` keyword, which is used for testing collection membership, can be used both on dictionaries and dictionary views:
 
-```plain-text
+```python
 >>> 'one' in keys
 True
 >>> 'three' in keys
@@ -95,4 +95,3 @@ Enki = d.keys()
 - holds
 - consists
 - belongs
- 

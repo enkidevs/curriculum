@@ -21,13 +21,13 @@ links:
 
 Find a list of all python modules installed on a machine by running the following command in a terminal.
 
-```plain-text
+```bash
 pydoc modules
 ```
 
 Or, inside of a python interactive shell:
 
-```plain-text
+```python
 >>> help('modules')
 ```
 
@@ -62,4 +62,3 @@ What command/s can be ran in **a terminal*** in order to see all Python modules 
 - `help('modules')`
 - `both`
 - `neither`
- 

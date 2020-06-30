@@ -22,7 +22,7 @@ The syntax for this is to include between **square brackets** (`[] `) an express
 
 Create a list of squares:
 
-```plain-text
+```python
 squares = [x ** 2 for x in \
 range(6)]
 print(squares)
@@ -32,7 +32,7 @@ print(squares)
 
 Expressions that consist of `tuples` must be parenthesized:
 
-```plain-text
+```python
 nr_square = [(x, x ** 2) \
 for x in range(4)]
 # nr_square [(0, 0), (1, 1),
@@ -41,7 +41,7 @@ for x in range(4)]
 
 Note that `if` clauses are also accepted:
 
-```plain-text
+```python
 a = [x ** 2 for x in range(20) \
 if x % 5 == 0]
 # a = [0, 25, 100, 225]
@@ -54,7 +54,7 @@ if i * i < 50 ]
 
 List comprehensions can contain complex expressions and nested functions:
 
-```plain-text
+```python
 from math import pi
 
 b = [str(round(pi, i)) \
@@ -65,7 +65,7 @@ for i in range(1, 5)]
 
 What makes it more powerful is that even the if clause can contain calls to functions that become part of the overall boolean expression. Simple example:
 
-```plain-text
+```python
 >>> def square(n): return n * n
 ...
 >>> square(5)
@@ -106,7 +106,7 @@ x = [((x+1)/2) ??? x % 2 \
 
 What will the list `x` look like after the following snippet is run?
 
-```plain-text
+```python
 l = [1,2,3,4,5]
 x = [x if x % 2 for x in l]
 ```
@@ -117,4 +117,3 @@ x = [x if x % 2 for x in l]
 - [1,3]
 - [2, 4]
 - [1,2,3,4,5]
- 

@@ -21,7 +21,7 @@ links:
 
 Assigning a `const` to another variable and then changing the source variable will not change the value of the `const`:
 
-```plain-text
+```javascript
 var x = 1;
 const y = x;
 x = 5;
@@ -34,7 +34,7 @@ Additionally, note that modifying a property of an object referenced by a consta
 
 Objects can also be declared as `const`.
 
-```plain-text
+```javascript
 const p = {first: "john", last: "smith"};
 
 //below will cause errors:
@@ -44,7 +44,7 @@ p = {first: "bob", last: "smith"};
 
 It is important to note however that the values of the object can be modified, so the below is valid:
 
-```plain-text
+```javascript
 p.first = "bob"; //valid
 ```
 
@@ -89,7 +89,7 @@ console.log(???)
 
 What will happen when running this code?
 
-```plain-text
+```javascript
 const foo = {
   bar: 'baz'
 }
@@ -112,4 +112,3 @@ console.log(foo.bar)
 [1:`Object.freeze`]
 For more information on *Object.freeze* see (MDN)
 [https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Object/freeze]
- 

@@ -29,7 +29,7 @@ Each module, in order to be recognized by the interpreter, has to have the `.py`
 
 Consider the python file `my_adder.py`. Plainly, this **module**'s name is `my_adder`.
 
-```plain-text
+```python
 # consider module in my_adder.py:
 
 def add(a, b):
@@ -74,4 +74,3 @@ Which of the following options would better describe a module in Python?
 
 [1:modular programming]
 Modular programming is a software design technique that emphasizes separating the functionality of a program into independent, interchangeable modules, such that each contains everything necessary to execute only one aspect of the desired functionality.
- 

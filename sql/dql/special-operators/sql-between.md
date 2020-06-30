@@ -25,7 +25,7 @@ Using the same table as in the previous insight[1], we'll now take a look at the
 
 You can use the `BETWEEN` operator[2] to define a range of acceptable values, like this:
 
-```plain-text
+```sql
 SELECT *
 FROM pokemon
 WHERE attack BETWEEN 60 AND 100;
@@ -123,7 +123,7 @@ Choose the query that will get all the location records that are based in region
 [2: BETWEEN]
 This can be seen as a shortcut for chaining two comparison operators with the `AND` clause:
 
-```plain-text
+```sql
 SELECT * FROM table_name
 WHERE col BETWEEN 1 AND 10;
 -- is the same as
@@ -131,4 +131,3 @@ SELECT * FROM table_name
 WHERE col >= 1 AND
   col <= 10;
 ```
- 

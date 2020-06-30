@@ -18,7 +18,7 @@ Successful logging can be *prevented* by exceptions thrown while logging is in p
 
 This allows potential attackers to *conceal* *security vulnerabilities* by preventing them from being logged.
 
-```plain-text
+```java
 try {
   // ...
 } catch (SecurityException se) {
@@ -32,7 +32,7 @@ This is erroneous, as **firstly**, the error stream can be *closed*, preventing 
 
 Better practice is to use the `java.util.logging.Logger` API to record Exceptions:
 
-```plain-text
+```java
 try {
   // ...
 } catch(SecurityException se) {
@@ -42,4 +42,3 @@ try {
 ```
 
 Only one logger is required for the entire program.
- 

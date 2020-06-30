@@ -16,7 +16,7 @@ descriptions of contents of packets flowing
 through network interface card which match a
 given boolean expression.
 
-```plain-text
+```bash
 sudo tcpdump -i wlan0 -v 'tcp port 80'
 ...
 17:09:13.099292 IP 10.0.2.15.46998 >
@@ -49,4 +49,3 @@ You can use `tcpdump` to listen to traffic passing through a *specific interface
 - -v
 - -e
 - -a
- 

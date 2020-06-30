@@ -27,7 +27,7 @@ In this example there are two animations.
 
 If the first one takes 1 second to complete, a chain can be created by using the aforementioned property on the second animation :
 
-```plain-text
+```css
 @keyframes first {
 	from { left: 0; }
 	to { left: 100px; }
@@ -73,4 +73,3 @@ Which CSS property can be used to chain animations together?
 - `animation-chain`
 - `animation-hold`
 - `animation-pause`
- 

@@ -23,7 +23,7 @@ Avoiding command injection is highly recommended when the **security** factor of
 
 Take the following example:
 
-```plain-text
+```javascript
 child_process.exec('ls', function(err,data){
   console.log(data);
 });
@@ -67,4 +67,3 @@ Which of the following is not true about `child_process.exec`?
 - calls to execute `/bin/sh`
 - it's a bash interpreter
 - its calls can be targeted for command injection
- 

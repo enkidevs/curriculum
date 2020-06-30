@@ -17,7 +17,7 @@ To better understand the difference, you can imagine that, while ERC20 contains 
 
 The list of methods looks similar to that of ERC20 standard:
 
-```plain-text
+```javascript
 contract ERC721 {
   event Transfer(address indexed _from,
 	  address indexed _to, uint256 _tokenId);
@@ -76,4 +76,3 @@ What are usually the types of the main mapping of a ERC721 token?
 - int256
 - balance (uint256)
 - string
- 

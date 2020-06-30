@@ -23,19 +23,19 @@ Normal Python references to objects increment the object's reference count thus 
 
 If a user desires creating **weak references**, the `weakref` module can be used:
 
-```plain-text
+```python
 import weakref
 ```
 
 Consider the sample object:
 
-```plain-text
+```python
 class Enki(object): pass
 ```
 
 To create a weak reference, the `ref` class is used:
 
-```plain-text
+```python
 # object instance
 enki = Enki()
 # weak reference to our object
@@ -45,7 +45,7 @@ r = weakref.ref(enki)
 
 Then, you can call the reference object:
 
-```plain-text
+```python
 print(r)
 # <weakref at 0x01414E40; to 'Enki'...>
 print(r())
@@ -54,7 +54,7 @@ print(r())
 
 If the reference no longer exists, calling it returns `None`:
 
-```plain-text
+```python
 del enki
 print(r())
 # None
@@ -62,7 +62,7 @@ print(r())
 
 To check the existence of the reference:
 
-```plain-text
+```python
 if r is not None:
   # reference exists!
 ```
@@ -120,7 +120,7 @@ r = ???.ref(???)
 ### how would you check a variable for NoneType?
 
 
-```plain-text
+```python
 x = None:
 if ...
   print('x is None')
@@ -132,4 +132,3 @@ if ...
 - if x == None
 - if not x
 - if x is not None
- 

@@ -22,7 +22,7 @@ For example, a `number` represents any numerical value and it can be subtracted 
 
 > 💡 Adding types is optional. If you don't declare any types, TypeScript will try to guess them for you.
 
-```plain-text
+```ts
 // TypeScript determines the type of
 // the variable num to be a number
 // because we give it the value 5
@@ -44,7 +44,7 @@ TypeScript will try to guess as much of the type information as it can in order 
 
 Will this code compile without errors?
 
-```plain-text
+```ts
 let lesson = 'Remember, TS guesses the type';
 let points = 10;
 let result = points * lesson;
@@ -62,7 +62,7 @@ let result = points * lesson;
 
 Will this code compile without errors?
 
-```plain-text
+```ts
 let points = '101';
 let total = points + 2;
 ```
@@ -81,4 +81,3 @@ let total = points + 2;
 The automatic detection of types is called *type inference*.
 
 This means that all values in TypeScript have an implicit type if no type is declared.
- 

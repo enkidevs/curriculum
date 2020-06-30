@@ -37,20 +37,20 @@ deb http://http.debian.net/debian \
 
 Then, update the package list:
 
-```plain-text
+```bash
 apt-get update
 ```
 
 Install a package from the backport using:
 
-```plain-text
+```bash
 apt-get -t jessie-backports
                    install "package"
 ```
 
 Or:
 
-```plain-text
+```bash
 aptitude -t jessie-backports 
                    install "package"
 ```
@@ -77,4 +77,3 @@ The `-t` (`--target-release`) specifies *jessie-backports* as target release.
 
 [1:Syntax]
 `deb` indicates that the archive contains binary packages, next is the repository URL. The *distribution* can be either the release code name(i.e. wheezy-backports) or release class(stable,testing). `main` is a *component* and consists of *DFSG*(Debian Free Software Guidelines)-compilant packages, which are considered being part of the Debian distribution.
- 

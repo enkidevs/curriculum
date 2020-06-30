@@ -19,7 +19,7 @@ tags:
 
 To extract an archive to a directory different from the current directory, use the `-C` flag:
 
-```plain-text
+```bash
 tar -xf archive.tar -C /target/directory
 ```
 
@@ -34,4 +34,3 @@ To extract a tar archive to a different directory than the current one, the ??? 
 - -l
 - -p
 - -L
- 

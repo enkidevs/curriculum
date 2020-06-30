@@ -29,7 +29,7 @@ To create an external CSS document, all you have to do is create new text file w
 
 Within the `<head>` element of the HTML document, add a new `<link>` element pointing to the CSS file, like so:
 
-```plain-text
+```html
 <head>
   <link rel="stylesheet" href="main.css">
 </head>
@@ -37,7 +37,7 @@ Within the `<head>` element of the HTML document, add a new `<link>` element poi
 
 The `href` attribute contains the path to the `.css` file, much like it would work for the `a` element. The above snippet refers to a style sheet located in the same directory as the HTML document. To link a CSS file inside a subdirectory:
 
-```plain-text
+```html
 <link rel="stylesheet"
    href="subdir/main.css">
 ```
@@ -74,4 +74,3 @@ What is the recommended way of applying CSS?
 - External file.
 - Internal CSS.
 - Inline CSS.
- 

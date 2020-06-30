@@ -17,7 +17,7 @@ If you commit to the current branch when instead you wanted to commit to a new b
 
 For example if you made your commit to `master` instead of `test`:
 
-```plain-text
+```bash
 # create new branch from
 # current HEAD
 # but stays on master
@@ -60,4 +60,3 @@ A quick hack to revert the changes made to the current branch and move them to a
 - creating a new branch and resetting HEAD on master
 - deleting the current branch and switching to the master
 - resetting the last commit and moving to a new branch
- 

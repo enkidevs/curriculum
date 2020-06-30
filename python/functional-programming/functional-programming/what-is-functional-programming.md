@@ -19,7 +19,7 @@ In computer science, *functional programming* is a **paradigm**[1] that is based
 
 The easiest way to define a **pure function** in Python is using a *lambda operator*. Consider the following example:
 
-```plain-text
+```py
 cube_func = lambda x: x**3
 print(cube_func(2))
 
@@ -28,7 +28,7 @@ print(cube_func(2))
 
 This is a way to define functions in a one-line fashion. Functions defined with the *lambda operator* can be called *anonymous functions* as well. Consider the following example:
 
-```plain-text
+```py
 foo = [1, 2, 3, 4, 5, 6]
 print(list(filter(
       lambda x: x % 2 == 0,foo))
@@ -44,7 +44,7 @@ Another interesting feature is that functions are considered *first-class citize
 
 Consider the following examples:
 
-```plain-text
+```py
 # Basic function defined to be
 # the return value of another one:
 def square(x): return x ** 2
@@ -95,7 +95,7 @@ result = ???(sum(2, 3),4)
 
 Can you predict the output?
 
-```plain-text
+```py
 foo = list(range(1,10))
 
 result = list(
@@ -120,4 +120,3 @@ print(result)
 
 [1: paradigm]
 A programming paradigm is a "style" of doing something. Basically they define a way to classify programming languages based on their features.
- 

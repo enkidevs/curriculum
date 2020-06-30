@@ -18,7 +18,7 @@ The HTML meta `robot` attribute is used to define the behavior that robots, or c
 
 Example:
 
-```plain-text
+```html
 <meta
   name="robots"
   content="noindex, nofollow'>
@@ -101,4 +101,3 @@ What is the default value of the robots meta tag?
 - `<meta name="robots" content="noindex, follow">`
 - `<meta name="robots" content="index, nofollow">`
 - `<meta name="robots" content="noindex, nofollow">`
- 

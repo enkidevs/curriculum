@@ -15,19 +15,19 @@ tags:
 
 Another utility that is used for user management is `usermod`. Its syntax is:
 
-```plain-text
+```bash
 usermod [options] [username]
 ```
 
 Expire a user at a defined date (**YYYY-MM-DD**):
 
-```plain-text
+```bash
 usermod --expiredate 2016-04-01 newuser
 ```
 
 Add a user to supplementary groups:
 
-```plain-text
+```bash
 usermod --append --groups newgroup \
     newuser
 usermod -aG newgroup,enkigroup newuser
@@ -35,32 +35,32 @@ usermod -aG newgroup,enkigroup newuser
 
 Change default home directory:
 
-```plain-text
+```bash
 usermod --home /path/to/dir newuser
 ```
 
 Change default shell:
 
-```plain-text
+```bash
 usermod --shell /path/to/sh newuser
 ```
 
 Display the groups an user is member of:
 
-```plain-text
+```bash
 groups newuser
 id newuser
 ```
 
 Disable account with password lock:
 
-```plain-text
+```bash
 usermod --lock newuser
 ```
 
 Unlock an account with password unlock:
 
-```plain-text
+```bash
 usermod --unlock newuser
 ```
 
@@ -103,4 +103,3 @@ Change a user's home directory without moving the files:
 - `-dm`
 - `--move-home`
 - `chmod`
- 

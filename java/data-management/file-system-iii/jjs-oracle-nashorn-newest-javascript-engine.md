@@ -21,7 +21,7 @@ With the introduction of *Java 8*, the *JDK* will be shipped with a new *JavaScr
 
 The `jjs` tool can be run from the terminal and accepts *JavaScript* files as argument:
 
-```plain-text
+```shell
 jjs MyFile.js
 ```
 
@@ -29,7 +29,7 @@ While **Oracle Nashorn** runs *ECMA*-compliant *JavaScript*, it is important to 
 
 In order to get a list of all jjs commands:
 
-```plain-text
+```shell
 jjs -help
 ```
 
@@ -71,4 +71,3 @@ What tool shipped with Java 8 should be used to run `.js` files?
 - `javaScript` 
 - `jss` 
 - `jdb`
- 

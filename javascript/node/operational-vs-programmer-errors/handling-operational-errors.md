@@ -24,7 +24,7 @@ For most operational errors, the message will most likely point to what is left 
 
 While we're at it, let's focus on the difference between asynchronous and synchronous functions. Consider the following snippet:
 
-```plain-text
+```javascript
 import fs from 'fs';
 
 function readAndParseFile(path,
@@ -54,7 +54,7 @@ A stricter approach with regard to handling anything that requires non-standardi
 
 Can you identify what will be the stack trace of the following snippet?
 
-```plain-text
+```javascript
 const throw_example = () => {
   return new Promise((resolve, reject) => {
     setTimeout(() => {
@@ -100,4 +100,3 @@ For correctness and consistency, when writing an asynchronous function, errors r
 - returned
 - thrown
 - discarded
- 

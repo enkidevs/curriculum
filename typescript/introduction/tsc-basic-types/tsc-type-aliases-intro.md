@@ -17,7 +17,7 @@ links:
 
 Type aliases are used to create a new name for an existing type.
 
-```plain-text
+```ts
 // alias string type as Language
 type Language = string;
 
@@ -33,7 +33,7 @@ let fun: Fun = true;
 
 This is mainly useful when we want to provide a name for a type that is used in more than one place.
 
-```plain-text
+```ts
 // create an alias for the
 // "number" type
 // called "radius"
@@ -64,7 +64,7 @@ console.log(area({ r: 11 }));
 
 Any type can be aliased:
 
-```plain-text
+```ts
 type NameAndFactTuple = [
   string,
   string
@@ -117,4 +117,3 @@ Type aliases are created using the ??? keyword.
 - alias
 - name
 - typeAlias
- 

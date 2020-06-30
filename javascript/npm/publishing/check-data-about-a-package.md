@@ -20,13 +20,13 @@ parent: how-to-publish-your-own-packages
 
 You can get details about your package or other packages using:
 
-```plain-text
+```bash
 npm view npm
 ```
 
 The *latest version* of the package is targeted by default. However, older versions can be specified as well:
 
-```plain-text
+```bash
 npm view npm@4.0.0
 ```
 
@@ -34,7 +34,7 @@ The output of the command contains an exhaustive list of contributors, maintaine
 
 Any particular field can be retrieved by extending the initial command with the field's name:
 
-```plain-text
+```bash
 npm view npm contributors
 # or
 npm view npm homepage
@@ -42,7 +42,7 @@ npm view npm homepage
 
 The output of the *npm view* command is structured like a *JavaScript* object, so you could get nested data as such:
 
-```plain-text
+```bash
 npm view npm repository
 {type: 'git',
 url: 'git+https://github.com/npm/npm.git'}
@@ -88,4 +88,3 @@ Complete the command to retrieve the contributors to the *npm* package:
 - contributors
 - @contributors
 - ls
- 

@@ -16,7 +16,7 @@ links: null
 
 Anchor links are still defined by the typical link `<a>` tag, but rather than only linking to a file, they link to an `id` tag on the webpage. In this example, the link is navigating down to the `id` with the value `contact`, which is usually written in HTML like this:
 
-```plain-text
+```html
 <a href="#contact">
     Contact
 </a>
@@ -33,7 +33,7 @@ One common trick by developers is to use this anchor tag as a placeholder for li
 
 Placeholder links are written like this and look and act like links without navigating anywhere:
 
-```plain-text
+```html
 This is a
 <a href="#">placeholder link</a>.
 ```
@@ -83,4 +83,3 @@ What denotes an anchor link?
 - `%`
 - `@`
 - `a:`
- 

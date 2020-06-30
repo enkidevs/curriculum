@@ -31,7 +31,7 @@ will print `yes` if and only if `v` is truthy.
 
 Falsy:Truthy
 
-```plain-text
+```true
 true
 %exp
 True will always be evaluated as true by the if condition so the result is yes.
@@ -89,7 +89,7 @@ Any object will be evaluated to truthy.
 
 ```
 
-```plain-text
+```false
 false
 %exp
 False is false no matter what.
@@ -141,4 +141,3 @@ This expression is undefined in JavaScript, so it will evaluate to false.
 %
 
 ```
- 

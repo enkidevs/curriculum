@@ -23,13 +23,13 @@ If any thread is in sleeping or waiting state , it will handle `interrupt()` imm
 
 Interrupt a `Thread`:
 
-```plain-text
+```java
 myThread.interrupt();
 ```
 
 Test whether the current `Thread` has been interrupted and throw an exception:
 
-```plain-text
+```java
 //interrupted() is a static method
 if (Thread.interrupted()) {
     throw new InterruptedException();
@@ -38,13 +38,13 @@ if (Thread.interrupted()) {
 
 Tests whether a `Thread` object has been interrupted:
 
-```plain-text
+```java
 myThread.isInterrupted();
 ```
 
 Handle `interrupt()` signals:
 
-```plain-text
+```java
 try {  
   Thread.sleep(1000);
 } catch (InterruptedException e) {}
@@ -87,4 +87,3 @@ if (Thread.???()) {
 - `ThreadException`
 - `prevented`
 - `PreventedException`
- 

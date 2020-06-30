@@ -20,7 +20,7 @@ It would be annoying if any website could create notifications so the user must 
 
 To check if the user has granted permission check the *Notification.permission* property:
 
-```plain-text
+```javascript
 if (Notification.permission === "granted")
 {
 ...
@@ -29,7 +29,7 @@ if (Notification.permission === "granted")
 
 To request permission to display notifications use *Notification.requestPermission()*:
 
-```plain-text
+```javascript
 Notification.requestPermission(
 function (permission) {
    if (permission === "granted") {
@@ -40,14 +40,14 @@ function (permission) {
 
 Once permission is granted you can create notifications:
 
-```plain-text
+```javascript
 var notification =
   new Notification("Hello");
 ```
 
 The notification can be further customised by passing in options to set an icon or body text:
 
-```plain-text
+```javascript
 var options = {
     icon: anImage,
     body: someText
@@ -102,4 +102,3 @@ Which method exposed by the Notifications API can be used to ask for user permis
 - access
 - grantAccess
 - Notif
- 

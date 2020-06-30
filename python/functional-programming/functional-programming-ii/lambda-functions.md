@@ -20,20 +20,20 @@ Lambda, when used correctly, makes writing code easier and the end result more l
 
 For example, a normal function using `def`:
 
-```plain-text
+```python
 def square(x):
     return x * x
 ```
 
 The same function but defined with `lambda`:
 
-```plain-text
+```python
 square = lambda x: x * x
 ```
 
 To define an anonymous function, we declare the lambda function exactly where it is to be used.
 
-```plain-text
+```python
 filter(lambda x: x % 3 == 0, foo)
 ```
 
@@ -69,7 +69,7 @@ new = filter(??? x: ???, ???)
 
 Complete the bottom code snippet to define the following function but with lambda:
 
-```plain-text
+```python
 def square(x):
     return x * x
 ```
@@ -86,4 +86,3 @@ square = ??? ???: x * x
 - `new`
 - `instance`
 - `function`
- 

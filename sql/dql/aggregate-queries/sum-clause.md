@@ -27,7 +27,7 @@ Below we will see some examples based on a hypothetical database containing impo
 | 3   | 3     | 33         | 1              |
 | ... | ...   | ...        | ...            |
 
-```plain-text
+```sql
 SELECT experience
 FROM experience_table
 LIMIT 5;
@@ -45,7 +45,7 @@ Output:
 
 We can use the `SUM` function to quickly add up all the totals above[2]:
 
-```plain-text
+```sql
 SELECT SUM(experience) FROM
 (SELECT experience
   FROM experience_table
@@ -121,4 +121,3 @@ We need to use nested queries to be able to `SELECT SUM()` only on the first 5 e
 In this particular case we say: Compute the `SUM` on the experience column, taking into account only the 5 entries of the table. `AS` must be specified when using nested queries.
 
 Check out this [great resource](https://www.tutorialspoint.com/sql/sql-sub-queries.html) if you want to find out more about nested queries.
- 

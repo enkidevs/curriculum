@@ -26,7 +26,7 @@ The API records the time at key points in the page load process and stores each 
 
 For example you can measure the total page load time experienced by the user:
 
-```plain-text
+```js
 window.addEventListener(
   "load",
   function () {
@@ -48,7 +48,7 @@ The API also shows how a user navigated on a particular page. The `type` propert
 
 You can access this information by:
 
-```plain-text
+```js
 let navigation =
   window.performance.navigation;
 let navType = navigation.type;
@@ -90,4 +90,3 @@ Navigation API stores events as a property of which object?
 - `timing.loadEventEnd`
 - `timing.navigationStart`
 - `window.performance.navigation`
- 

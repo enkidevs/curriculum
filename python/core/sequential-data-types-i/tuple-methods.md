@@ -17,7 +17,7 @@ The `index()` method can be used on a `tuple` to *search for an item and return 
 
 For example:
 
-```plain-text
+```python
 vowels = ('a', 'e', 'i', 'o', 'u')
 
 vowels.index('e')
@@ -28,7 +28,7 @@ vowels.index('e')
 
 Note, if the same element is present more than once, the first/smallest position is returned.
 
-```plain-text
+```python
 vowels = ('a', 'e', 'i', 'i', 'o', 'u')
 
 vowels.index('i')
@@ -37,7 +37,7 @@ vowels.index('i')
 
 The `count()` method returns the number of occurrences of an item in a tuple.
 
-```plain-text
+```python
 vowels.count('i')
 # 2
 ```
@@ -83,4 +83,3 @@ animals.???(???)
 - `index`
 - `'0'`
 - `2`
- 

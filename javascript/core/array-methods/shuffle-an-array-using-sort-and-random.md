@@ -18,13 +18,13 @@ links:
 
 Given the array:
 
-```plain-text
+```javascript
 let array = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 ```
 
 You could sort it randomly using `Array.prototype.sort()`[1]:
 
-```plain-text
+```javascript
 array.sort((a, b) => {
   return Math.random() - 0.5
 });
@@ -80,7 +80,7 @@ arr.???((???) => {
 
 The following code will ???
 
-```plain-text
+```javascript
 let arr = [1, 2, 3, 4, 5, 6, 7];
 arr.sort(() => {
   return Math.random() - 0.5;
@@ -99,7 +99,7 @@ arr.sort(() => {
 [1:Array.prototype.sort()]
 This method, when used on its own, converts the elements of the given array into strings, and sorts them by comparing their sequences of UTF-16 code units value:
 
-```plain-text
+```js
 let days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'];
 days.sort();
 console.log(days);
@@ -113,7 +113,7 @@ You can also pass a function as an argument. The function can take `(a, b)` as i
 - `> 0`, then `b` comes before `a`
 - `< 0`, then `a` comes before `b` 
 
-```plain-text
+```js
 let numbers = [1, 2, 3, 4, 5];
 numbers.sort((a, b) => {
   return b - a;
@@ -122,4 +122,3 @@ console.log(numbers);
 // Output:
 // [5, 4, 3, 2, 1]
 ```
- 

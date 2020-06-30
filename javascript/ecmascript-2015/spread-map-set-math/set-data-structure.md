@@ -17,7 +17,7 @@ links:
 
 Set is a data structure that only stores unique values.
 
-```plain-text
+```javascript
 var mySet = new Set();
 mySet.add(1);
 mySet.add(1);
@@ -27,7 +27,7 @@ mySet.size; //size still 1
 
 We can test if a set already has a value by using the has method:
 
-```plain-text
+```javascript
 mySet.has(1); //true
 ```
 
@@ -84,4 +84,3 @@ What method is used to check if an element is contained in the same data structu
 - contain
 - isIn
 - push
- 

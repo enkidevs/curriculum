@@ -23,7 +23,7 @@ links:
 
 Although flexible, the location of brackets sometimes isn't up for debate. Let's take a look at an example:
 
-```plain-text
+```javascript
 function right() {
   return {
     status: 'right',
@@ -40,7 +40,7 @@ function wrong() {
 
 At the first glance, both functions seem to return the same object containing the property `status`. However, the output is as follows:
 
-```plain-text
+```javascript
 console.log(right().status);
 // right
 
@@ -58,7 +58,7 @@ In the code above, when JavaScript notices a new line after a `return` statement
 
 The code above is seen by JavaScript like this:
 
-```plain-text
+```javascript
 function wrong() {
   return; // equivalent to return undefined;
   //    ^ this semi colon is inserted for us
@@ -79,7 +79,7 @@ Check out the Read More links for more details on ASI and don't forget to write 
 
 In order for the brackets placement to be less prone to errors and consistent throughout the project, it is recommended that you use style ??? in your code:
 
-```plain-text
+```javascript
 // style A
 function A() {
   return {
@@ -131,7 +131,7 @@ What is the name of the JavaScript language feature that can cause problems in c
 ### What will the following snippet output?
 
 
-```plain-text
+```javascript
 function pi() {
   return
   {
@@ -154,4 +154,3 @@ console.log(pi())
 ## Footnotes
 
 [1: Lexical Grammar] JavaScript has a set of rules of how it needs to be written such that it is valid. This set of rules is called a [Lexical Grammar](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Lexical_grammar). One consequence of these rules is that we have to be careful in some situations to not forget to put a `;`. The statements affected by ASI are: `var`, `do`-`while`, `continue`, `break`, `return`, `throw`.
- 

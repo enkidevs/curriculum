@@ -15,7 +15,7 @@ links:
 
 Like most programming languages JavaScript has a number of flow control statements including the standard `if` and `if..else`.
 
-```plain-text
+```js
 let isEnkiCoder = true;
 
 if (isEnkiCoder) {
@@ -37,7 +37,7 @@ if (coding === "fun") {
 
 The output of the code above is:
 
-```plain-text
+```sh
 if statement is cool
 ```
 
@@ -45,7 +45,7 @@ if statement is cool
 
 We can test multiple conditions using `if..else`. Going top to bottom, the first `if` check that is found to be `true` will be executed. If none of them are `true` then the final `else` condition is executed (if it exists):
 
-```plain-text
+```js
 const codingSkill = "learning";
 
 if (codingSkill === "beginner") {
@@ -59,7 +59,7 @@ if (codingSkill === "beginner") {
 
 The output of the code above is:
 
-```plain-text
+```sh
 "still figuring it out"
 ```
 
@@ -88,4 +88,3 @@ if (condition <= 0) {
 - `switch`
 - `case`
 - `==`
- 

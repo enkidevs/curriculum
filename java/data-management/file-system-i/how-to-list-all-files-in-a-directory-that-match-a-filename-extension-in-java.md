@@ -13,7 +13,7 @@ category: how to
 
 Often we want to create a list of all files in a given directory that match a specific filename pattern, or more specifically, match the same filename extension. An elegant solution to this problem is presented below:
 
-```plain-text
+```java
 Collection getConfigFiles(String dirName)
 {
   File dir = new File(dirName);
@@ -46,4 +46,3 @@ FileUtils.listFiles("~/Desktop", new
 - `WildcardDirectoryFilter("*")` 
 - `TrueFilter.ALL` 
 - `WildcardFileFilter("enki")`
- 

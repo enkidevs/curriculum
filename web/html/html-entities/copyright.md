@@ -18,7 +18,7 @@ To display the Copyright symbol, you can use either the HTML entity *number* or 
 
 HTML Entity Number:
 
-```plain-text
+```html
 &#169;
 ```
 
@@ -28,7 +28,7 @@ Result:
 
 HTML Entity Name:
 
-```plain-text
+```html
 &copy;
 ```
 
@@ -38,7 +38,7 @@ Result:
 
 Example:
 
-```plain-text
+```html
 <p>Copyright &copy;</p>
 ```
 
@@ -95,4 +95,3 @@ What does © display in this line of code?
 - `symbol`
 - `&copy;`
 - Copyright [current year]
- 

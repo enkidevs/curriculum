@@ -23,7 +23,7 @@ There are many ways to use the `chmod` command, so make sure to read `man chmod`
 
 Start with these three examples:
 
-```plain-text
+```shell
 # Make ~/waffles.txt user writable
 chmod u+w ~/waffles.txt
 
@@ -40,7 +40,7 @@ If instead we used `u-w` or `u-r`, we would *remove* the writable (or readable) 
 
 Here we can better see how the changes are reflected in `ls` output:
 
-```plain-text
+```shell
 ls -l waffles.txt
 -rw-r--r-- 1 jesse admin
     0 Jun 13 08:45 waffles.txt
@@ -104,7 +104,7 @@ Suppose you have a sh file named `script.sh`.
 What of the following commands is the most
 likely to successfully run the script?
 
-```plain-text
+```bash
 ./script.sh
 bash: permission denied: ./script.sh
 ```
@@ -115,4 +115,3 @@ bash: permission denied: ./script.sh
 - sudo ./script.sh
 - rm ./script.sh
 - echo "#!/bin/sh" > script.sh && ./script.sh
- 

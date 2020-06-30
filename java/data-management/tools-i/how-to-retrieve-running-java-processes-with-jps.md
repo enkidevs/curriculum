@@ -21,7 +21,7 @@ The Java Virtual Machine has a `jps` tool used in order to list all the running 
 
 Basic syntax / lists all java processes:
 
-```plain-text
+```java
 jps
 
 8815 Jps
@@ -29,7 +29,7 @@ jps
 
 Long listing:
 
-```plain-text
+```java
 jps -l
 
 8848 sun.tools.jps.Jps
@@ -37,7 +37,7 @@ jps -l
 
 Listing arguments:
 
-```plain-text
+```java
 jps -m
 
 8909 Jps -m
@@ -48,7 +48,7 @@ When running several Java Web Start applications on a system, they tend to look 
 
 To display Java VM parameters: `jps -v`
 
-```plain-text
+```java
 jps -v
 
 8994 Jps -Dapplication.home=/usr/lib/jvm/
@@ -93,4 +93,3 @@ Long list all Java processes using `jps`:
 - `jps list`
 - `jps -list`
 - `jps -long`
- 

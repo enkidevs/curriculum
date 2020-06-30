@@ -16,7 +16,7 @@ tags:
 
 The HTML meta `author` attribute is used to provide information about who the author of the web page is.
 
-```plain-text
+```html
 <meta
   name="author"
   content="John Doe">
@@ -79,4 +79,3 @@ What is the least influential tag for search engines in a web page?
 - Description
 - Headings
 - Paragraphs
- 

@@ -20,7 +20,7 @@ links:
 
 Before JUnit 4, test classes needed to be written by extending the `TestCase` class, like this:
 
-```plain-text
+```java
 import junit.framework.TestCase;
 public class NewTestClass extends TestCase {
   public void newTest() {
@@ -31,7 +31,7 @@ public class NewTestClass extends TestCase {
 
 In JUnit 4+, it is possible to instead define tests by using `@Test`:
 
-```plain-text
+```java
 import org.junit.*;
 public class NewTestClass {
   @Test
@@ -43,7 +43,7 @@ public class NewTestClass {
 
 One advantage of this notation is that it can be extended to test for exceptions that are expected to be thrown. For example:
 
-```plain-text
+```java
 @Test(expected =
   FileNotFoundException.class)
 ```
@@ -81,4 +81,3 @@ Instead of extending `TestCase` , since JUnit 4 you can use:
 - `Test`
 - `@TestCase`
 - `@Testing`
- 

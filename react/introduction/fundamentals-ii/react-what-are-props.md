@@ -26,7 +26,7 @@ An important aspect of the `props` object is that it is **immutable**. That mean
 
 Consider the component:
 
-```plain-text
+```jsx
 class Greeting extends React.Component {
   render() {
     return (
@@ -43,7 +43,7 @@ Note that if the value of your `return` extends over multiple lines it must be e
 
 Here is how to pass `props` to an element:
 
-```plain-text
+```jsx
 const el = (
   <Greeting name="John" />;
 );
@@ -53,7 +53,7 @@ Now, when `render`ed, `el` will display `"Enki greets John"`.
 
 You can also define **default props** in the following manner:
 
-```plain-text
+```jsx
 class Greeting extends React.Component {
   //...
 }
@@ -64,7 +64,7 @@ Greeting.defaultProps = {
 
 This allows us to create a `Greeting` element without specifying the `name`:
 
-```plain-text
+```jsx
 const el = (
   <Greeting  />;
 );
@@ -148,7 +148,7 @@ ReactDOM.render(
 [1:Return & parentheses]
 Although not necessary, it is highly recommended to use parentheses to wrap your JSX code that goes over multiple lines. Let's look at an example:
 
-```plain-text
+```jsx
 // this is perfectly valid syntax
 // but it is hard to read
 let el = <ul>
@@ -177,4 +177,3 @@ let el = (
   </ul>
 )
 ```
- 

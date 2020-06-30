@@ -23,13 +23,13 @@ In this workout, we will only discuss the aggregation pipeline.
 
 The syntax for aggregating a collection is: 
 
-```plain-text
+```js
 db.collection.aggregate(pipeline, options)
 ```
 
 The syntax for aggregating a database is:
 
-```plain-text
+```js
 db.aggregate(pipeline, options)
 ```
 
@@ -39,7 +39,7 @@ The aggregation pipeline is where all the documents from a collection and/or a d
 
 For instance, let's say we have a collection named `pokemon` with 500 pokémon where each one has a `power` field. Now, we want to find and display the pokémon whose `power` is smaller than or equal to 200. We can do so like this:
 
-```plain-text
+```javascript
 db.pokemon.aggregate([
   { $match: { power: { $lte: 200 } } }
 ])
@@ -47,7 +47,7 @@ db.pokemon.aggregate([
 
 Output:
 
-```plain-text
+```javascript
 {
   "_id": ObjectId(
     "5d9d8b8c0b24990f1939820f"
@@ -115,4 +115,3 @@ db.pokemon.???([
 - `$filter`
 - `$gt`
 - `match`
- 

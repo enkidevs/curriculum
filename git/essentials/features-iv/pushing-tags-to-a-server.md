@@ -22,13 +22,13 @@ You have to push a tag that you want to share by running `git push remote [tagna
 
 For example:
 
-```plain-text
+```bash
 git push origin v1.1.0
 ```
 
 You can use the `--tags` option to push all of your tags to the remote server that are not already there.
 
-```plain-text
+```bash
 git push origin --tags
 ```
 
@@ -57,7 +57,7 @@ git ??? ??? ???
 
 What does this command do?
 
-```plain-text
+```bash
 git push enki v1.2
  
 ```
@@ -67,4 +67,3 @@ git push enki v1.2
 - Pushes tag `v1.2` to the remote `enki`
 - Pushes tag `enki` to the remote `v1.2`
 - Pushes tag ` enki v1.2` to `origin`
- 

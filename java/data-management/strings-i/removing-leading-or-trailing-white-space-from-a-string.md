@@ -21,11 +21,10 @@ Sometimes strings will contain unnecessary white space at the beginning or end. 
 
 For example:
 
-```plain-text
+```java
 String original = "    Enki    ";
 String trimmed = original.trim();
 System.out.println(trimmed);
 ```
 
 The output printed by the example above will be: `Enki`.
- 

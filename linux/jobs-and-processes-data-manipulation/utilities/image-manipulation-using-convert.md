@@ -22,14 +22,14 @@ links:
 
 `convert`[1] can be used to change image formats as well as resize, crop, rotate and many other options. Its basic structure is:
 
-```plain-text
+```bash
 convert [in-opts] in-file [out-opts]
       out-file
 ```
 
 For example:
 
-```plain-text
+```bash
 convert Dog.png -resize x250 -rotate 90
   -quality 90% -charcoal 5 newDog.jpg
 ```
@@ -67,4 +67,3 @@ Part of the `imagemagick` suite of tools.
 Resizing both width and height requires 250x250, while resizing the width requires only 250.
 [3:Range]
 The strength range depends on the effect type.
- 

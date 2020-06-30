@@ -19,7 +19,7 @@ The `<input>` element is the most basic, and flexible form element. Interactive 
 
 Here's an example of a raw text field:
 
-```plain-text
+```html
 <form>
  First Name:
  <input
@@ -37,7 +37,7 @@ Here's an example of a raw text field:
 
 Example radio buttons:
 
-```plain-text
+```html
 <form>
   <input
     type="radio"
@@ -63,7 +63,7 @@ Example radio buttons:
 
 Example submit:
 
-```plain-text
+```html
 <form>
  Full name:<br>
  <input
@@ -110,4 +110,3 @@ Create a text field to collect a user's name in a form:
 - user_name
 - name
 - null
- 

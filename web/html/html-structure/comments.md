@@ -15,7 +15,7 @@ In HTML, you can add notes that will not render within the web page and are usef
 
 Example:
 
-```plain-text
+```html
 <!-- HTML Comment Goes Here -->
 ```
 
@@ -27,7 +27,7 @@ Also, comments can be on a single line or span multiple rows.
 
 Example:
 
-```plain-text
+```html
 <!-- Single line comment -->
 
 <!--
@@ -80,7 +80,7 @@ Which option is NOT true: "HTML comments using this code `<!-- stuff here -->`, 
 
 What is happening to this heading text?
 
-```plain-text
+```html
 <!--<h1>Heading</h1>-->
 ```
 
@@ -90,4 +90,3 @@ What is happening to this heading text?
 - It is displayed larger than normal.
 - It is displayed as a Heading 1 in the web page.
 - It is removed from the HTML code.
- 

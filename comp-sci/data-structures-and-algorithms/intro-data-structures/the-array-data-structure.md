@@ -30,54 +30,54 @@ A *dynamic* bookshelf would resize itself as soon as there is no more room for a
 
 Here's how you can construct an array in a few languages:
 
-```plain-text
+```java
 // Java
 int[] myArray = { 1, 2, 3 };
 ```
 
-```plain-text
+```cpp
 // C++
 int myArray[] = { 1, 2, 3 };
 ```
 
-```plain-text
+```py
 # Python
 from array import array
 myArray = array('i', [1, 2, 3])
 ```
 
-```plain-text
+```js
 // JavaScript
 let myArray = [1, 2, 'enki'];
 ```
 
 Or, you can declare empty arrays of size 3 using:
 
-```plain-text
+```java
 // Java
 int[] myArray = new int[3];
 ```
 
-```plain-text
+```c++
 // C++
 int myArray[3];
 ```
 
-```plain-text
+```js
 // JavaScript
 let myArray = new Array(3);
 ```
 
 The advantage of an array is that you have immediate access to its elements. All you have to do is specify the index of the element you are looking for:
 
-```plain-text
+```js
 // works for most languages
 x = myArray[0];
 ```
 
 Swap the order to assign a value to the cell:
 
-```plain-text
+```js
 myArray[0] = x;
 ```
 
@@ -108,4 +108,3 @@ An array that has its size declared up-front is called
 - dynamic
 - indexed
 - associative
- 

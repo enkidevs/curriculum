@@ -23,7 +23,7 @@ Sometimes we need to add ulterior constraints to the table we define. The `ALTER
 
 If we want to ensure that all values in one or more columns are different, we'd use the `UNIQUE` keyword like this:
 
-```plain-text
+```sql
 ALTER TABLE table_name
 ADD CONSTRAINT constraint_name
 UNIQUE (column1, column2, ...)
@@ -31,7 +31,7 @@ UNIQUE (column1, column2, ...)
 
 If we want to limit the value range that can be stored in a column:
 
-```plain-text
+```sql
 ALTER TABLE table_name
 ADD CONSTRAINT constraint_name
 CHECK (CONDITION)
@@ -39,7 +39,7 @@ CHECK (CONDITION)
 
 If we want to add a `PRIMARY KEY` constraint:
 
-```plain-text
+```sql
 ALTER TABLE table_name
 ADD CONSTRAINT constraint_name
 PRIMARY KEY (column1, column2, ...)
@@ -47,7 +47,7 @@ PRIMARY KEY (column1, column2, ...)
 
 If we want to add a `FOREIGN KEY` constraint:
 
-```plain-text
+```sql
 ALTER TABLE table_name
 ADD CONSTRAINT constraint_name
 FOREIGN KEY (column_name) 
@@ -56,7 +56,7 @@ REFERENCES table_name(column_name);
 
 You can also remove any of your constraints by using the following syntax:
 
-```plain-text
+```sql
 ALTER TABLE table_name
 DROP CONSTRAINT constraint_name;
 ```
@@ -122,4 +122,3 @@ ADD ???
 - CONSTRAINT check_constraint CHECK (version_group_id <= 10);
 - PRIMARY KEY (version_group_id > 10);
 - CONSTRAINT check_constraint UNIQUE (version_group_id <= 10);
- 

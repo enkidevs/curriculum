@@ -22,7 +22,7 @@ In HTML you can use the `<embed>` element to embed an external application or a 
 
 Example:
 
-```plain-text
+```html
 <embed type="video/quicktime"
     src="dancing_stick-man.mov"
       width="360" height="360">
@@ -87,4 +87,3 @@ The `<embed>` element is new in which version of HTML?
 - HTML4
 - XHTML
 - DHTML
- 

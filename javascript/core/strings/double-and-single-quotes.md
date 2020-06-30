@@ -18,7 +18,7 @@ There are different types of values you can store in variables. One such type is
 
 To create a string add either single or double quotes around the text. Generally, double and single quotes are handled the same way.
 
-```plain-text
+```js
 let str1 = 'I\'m a string.';
 let str2 = "I'm a string.";
 ```
@@ -49,4 +49,3 @@ JSON standard requires every string to be ??? quoted.
 
 - double
 - single
- 

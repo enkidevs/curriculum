@@ -21,7 +21,7 @@ In order to be iterable an object must implement the iterable protocol which mea
 
 Let's try using the iterator we defined previously in a `for..of` loop:
 
-```plain-text
+```javascript
 let it = getIterator();
 for (let i of it) {
   console.log(i);
@@ -34,7 +34,7 @@ This error occurs as we didn't conform to the iterable protocol so JavaScript do
 
 Let's fix this now by returning an object with a property marked with `[Symbol.iterator]`:
 
-```plain-text
+```javascript
 function getIterator() {
   let num = [1, 2, 3, 4, 5];
   let nextIndex = 0;
@@ -63,7 +63,7 @@ function getIterator() {
 
 Our iterator will now function as expected. We could even use it with the spread operator:
 
-```plain-text
+```javascript
 let it = getIterator();
 console.log([...it]); // [1, 2, 3, 4, 5]
 ```
@@ -98,7 +98,7 @@ for (const y of x) {
 
 Can a JavaScript object, exposing a `next` that return `{value, done}` be iterated with the `for..of` syntax? Why?
 
-```plain-text
+```javascript
 
 const obj = {
   next: () => {
@@ -119,4 +119,3 @@ for (const y of obj) {
 - Yes, because it has the `next` function exposed
 - No, because `done` must be at least one time `false`
 - Yes, because all objects are iterable by default
- 

@@ -27,13 +27,13 @@ This can be done by installing `pv` and putting it between input / output pipes.
 
 To install:
 
-```plain-text
+```bash
 sudo apt-get install pv
 ```
 
 Example:
 
-```plain-text
+```bash
 dd if=/dev/urandom | pv | dd of=/dev/null
 ```
 
@@ -47,7 +47,7 @@ You could specify the approximate size with the `--size` if you want a time esti
 
 You can also use it to output to stdout:
 
-```plain-text
+```bash
 pv /home/user/bigfile.iso | md5sum
 ```
 
@@ -64,7 +64,6 @@ Using `pv` can prove extremely useful when working with big files or processes t
 
 For example you can keep track how fast a file is transferred with `nc` command:
 
-```plain-text
+```bash
 pv myFile | nc -w 1 example.com 3000
 ```
- 

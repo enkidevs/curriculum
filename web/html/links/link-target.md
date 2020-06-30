@@ -18,7 +18,7 @@ Typically, a link will open another page within it's own window. This is because
 
 Typical link:
 
-```plain-text
+```html
 <a
   href="https://www.enki.com/">
   Links opens within existing window.
@@ -27,7 +27,7 @@ Typical link:
 
 Link with default value displayed:
 
-```plain-text
+```html
 <a
   href="https://www.enki.com/"
   target="_self">
@@ -47,7 +47,7 @@ The other values for the target are `target="value"`:
 
 Example of opening the link in a different tab:
 
-```plain-text
+```html
 <a
   href="https://www.enki.com/"
   target="_blank">
@@ -137,7 +137,7 @@ Play the game determining if the target values for links are valid or fake.
 
 Valid Target Values:Fake Target Values
 
-```plain-text
+```false
 
 _new
 %exp
@@ -160,7 +160,7 @@ This is a fake target value.
 %
 ```
 
-```plain-text
+```true
 
 _blank
 %exp
@@ -188,4 +188,3 @@ framename represents the name of a frame in the page, so it can be valid and ope
 %
 
 ```
- 

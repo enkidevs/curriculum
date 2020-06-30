@@ -21,7 +21,7 @@ A string can be converted from lower case to upper case or vice versa by using t
 
 To make uppercase:
 
-```plain-text
+```java
 String lowerEnki = "enki";
 System.out.println(lowerEnki.toUpper());
 //output: "ENKI"
@@ -29,9 +29,8 @@ System.out.println(lowerEnki.toUpper());
 
 Or, to make lowercase:
 
-```plain-text
+```java
 String upperEnki = "ENKI";
 System.out.println(upperEnki.toLower());
 //output: "enki"
 ```
- 

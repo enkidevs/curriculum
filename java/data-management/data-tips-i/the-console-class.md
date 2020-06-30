@@ -21,7 +21,7 @@ The `Java.io.Console` class provides methods to access the character-based conso
 
 To read a line as a `String`:
 
-```plain-text
+```java
 Console console = System.console();
 String myString = console.readLine();
 
@@ -29,7 +29,7 @@ String myString = console.readLine();
 
 To read a password as an array of `char`s:
 
-```plain-text
+```java
 Console console = System.console();
 char[] pw = console.readPassword();
 
@@ -50,4 +50,3 @@ If you would want to read a password as input from the user, you could use ??? c
 - Scanner
 - BufferedReader
 - Input
- 

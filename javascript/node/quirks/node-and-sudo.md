@@ -19,7 +19,7 @@ notes: >-
 
 ## Content
 
-```plain-text
+```bash
 sudo node myapp.js
 ```
 
@@ -31,7 +31,7 @@ The most usual workaround for this is to set up a **HTTP server** / **proxy** to
 
 Another workaround in Linux is to use the `libcap2-bin` package:
 
-```plain-text
+```bash
 sudo apt-get install libcap2-bin
 sudo setcap cap_net_bind_service=+ep
 /path/to/node
@@ -62,4 +62,3 @@ Is running **Node** with `sudo` considered a safe practice?
 
 - no
 - yes
- 

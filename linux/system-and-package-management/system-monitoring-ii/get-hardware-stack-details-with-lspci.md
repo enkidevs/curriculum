@@ -27,19 +27,19 @@ It has varying levels of verbosity, acquire additional information using `-v` an
 
 Graphics:
 
-```plain-text
+```bash
 lspci -nnk | grep VGA -A1
 ```
 
 Audio:
 
-```plain-text
+```bash
 lspci -v | grep -A7 -i "audio"
 ```
 
 Networking:
 
-```plain-text
+```bash
 lspci -nnk | grep net -A2
 ```
 
@@ -87,4 +87,3 @@ How would you retrieve information on audio hardware?
 
 [1:OS specific]
 Some of the Linux distributions might not have `lspci` installed by default. If that is the case, you have to install `pciutils` package.
- 

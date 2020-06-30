@@ -21,7 +21,7 @@ A `Blob` has two components, the blob **parts** and **type**.
 
 Creating a `Blob` is done through the constructor:
 
-```plain-text
+```js
 new Blob(parts, options);
 ```
 
@@ -32,7 +32,7 @@ The `parts` argument is an *array of values*, while `options` is an *optional ob
 
 Now, let's create a `Blob`:
 
-```plain-text
+```javascript
 let blob = new Blob(
   ["<html>...</html>"],
   { type: 'text/html' }
@@ -54,7 +54,7 @@ For example, a `Blob` could represent a temporary file, which can then be linked
 
 Which of these is the correct way of creating a `Blob`?
 
-```plain-text
+```js
 let a = new Blob(
   "<img src='#' >",
   { type: 'text/html' }
@@ -135,4 +135,3 @@ This option is used to choose whether you want to transform end-of-line characte
 `Blob`s can be used as an URL for links, images (or other elements) to show its contents.
 
 Also, you can download or upload `Blob` objects, with the type becoming `Content-Type`.
- 

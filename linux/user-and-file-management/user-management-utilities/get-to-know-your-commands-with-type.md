@@ -24,28 +24,28 @@ Subsequently, you can find different *types* of commands[1].
 
 Find an **alias**:
 
-```plain-text
+```bash
 type ls
 ls is aliased to `ls --color=auto'
 ```
 
 Find a **file**:
 
-```plain-text
+```bash
 type rm
 rm is /bin/rm
 ```
 
 Find a **builtin**:
 
-```plain-text
+```bash
 type cd
 cd is a shell builtin
 ```
 
 Find a **function**:
 
-```plain-text
+```bash
 type psgrep
 psgrep is a function
 psgrep () 
@@ -60,7 +60,7 @@ psgrep ()
 
 You can also check the type of `type`:
 
-```plain-text
+```bash
 type type
 type is a shell builtin
 ```
@@ -86,4 +86,3 @@ alongside another command to find out its alias, functions, builtins and keyword
 
 [1:info]
 `type` can find whether the targeted command is an *alias*, a *keyword*, a *function*, a *builtin* or a *file*.
- 

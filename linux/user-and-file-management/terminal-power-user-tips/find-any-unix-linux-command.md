@@ -26,7 +26,7 @@ Each manual page has a short description available within it and `apropos` searc
 
 How to search all the user related administrative commands:
 
-```plain-text
+```bash
 apropos "user*"
 ```
 
@@ -76,4 +76,3 @@ install-sgmlcatalog (8) - maintain
 - commands’ description
 - users
 - servers
- 

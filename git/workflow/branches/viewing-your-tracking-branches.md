@@ -20,7 +20,7 @@ You can view your tracking branches by using the `-vv` option.
 
 For example:
 
-```plain-text
+```bash
 git branch -vv
   master    2bcd45a [origin/master]
    introduce new game
@@ -39,7 +39,7 @@ Note: the information displayed relates to the last time you connected to the se
 
 After running :
 
-```plain-text
+```bash
 git branch -vv
   master  2bcd45a [origin/master]
   Bug resolved
@@ -74,4 +74,3 @@ git ??? ???
 - `-vv`
 - `--vv`
 - `-branch`
- 

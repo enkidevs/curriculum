@@ -20,7 +20,7 @@ This function is used to transform a **generator function** into a **coroutine f
 
 This coroutine is both a **generator iterator** and an ` awaitable`  **coroutine object**.
 
-```plain-text
+```python
 import types
 
 def my_gen():
@@ -32,7 +32,7 @@ my_coroutine_obj = types.coroutine(my_gen)
 
 The new coroutine object is still **iterable**:
 
-```plain-text
+```python
 for element in my_coroutine_obj:
   print(element)
 
@@ -80,4 +80,3 @@ What function from the `types` module can be used to transform a generator into 
 - `generator`
 - `await`
 - `gen_to_co`
- 

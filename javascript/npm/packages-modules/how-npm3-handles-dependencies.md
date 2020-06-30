@@ -20,7 +20,7 @@ The main reason why a change to the installation pattern was needed is because o
 
 *npm3* tries to fix it by flat installing the same version of PackageA other packages are using. For example, PackageB and PackageC depend on versions 1.0.0 and 1.1.0, respectively, of PackageA. For the following *package.json*:
 
-```plain-text
+```javascript
 // project
 dependencies {
   "PackageB": "2.3.2",
@@ -38,7 +38,7 @@ dependencies {
 
 The *node_modules* directory tree looks like this:
 
-```plain-text
+```bash
 /node_modules
 |- PackageB@2.3.2
 |- PackageA@1.0.0
@@ -50,7 +50,7 @@ As you can see, multiple versions of the same package cannot be installed inside
 
 What do you think would happen with the project's *node_modules* structure if the *package.json* order of dependencies changes?
 
-```plain-text
+```javascript
 // project
 dependencies {
   "PackageC": "0.1.1",
@@ -60,7 +60,7 @@ dependencies {
 
 The structure will also change:
 
-```plain-text
+```bash
 /node_modules
 |- PackageC@0.1.1
 |- PackageA@1.1.0
@@ -93,4 +93,3 @@ Flat installing dependencies of dependencies is a feature of ???.
 - npm3
 - npm2
 - npm1
- 

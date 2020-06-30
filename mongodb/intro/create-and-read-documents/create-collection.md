@@ -15,7 +15,7 @@ To create a collection in MongoDB, you need to use the `db.createCollection(name
 
 **Note:** When creating a collection, you only have to specify the `name` parameter. The `options` parameter is not required and will be explained in a later workout.
 
-```plain-text
+```javascript
 db.createCollection("pokemon")
 
 // { "ok": 1 }
@@ -25,7 +25,7 @@ db.createCollection("pokemon")
 
 To list all collections within a database, you need to use the `show collections` command:
 
-```plain-text
+```javascript
 show collections
 
 // pokemon
@@ -65,4 +65,3 @@ Display all collections in a MongoDB database.
 - `display collections`
 - `db.show.collections`
 - `show collections.all`
- 

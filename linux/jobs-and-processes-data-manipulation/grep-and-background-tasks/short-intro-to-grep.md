@@ -19,31 +19,31 @@ notes: ''
 
 The basic usage of the `grep` command is to search for a specific string in a specified file like:
 
-```plain-text
+```bash
 grep "some_string" some_file
 ```
 
 To search for `"require"` inside all the files with the `.js` extension in a dir, we issue it with a `*` as:
 
-```plain-text
+```bash
 grep "require" *.js
 ```
 
 The match is case-sensitive by default. Use the `-i` flag to make it case-insensitive: 
 
-```plain-text
+```bash
 grep -i "http_access" squid.conf 
 ```
 
 To do a recursive search (in current directory and all subdirectories) use the `-r` flag: 
 
-```plain-text
+```bash
 grep -r "require" .
 ```
 
 To get the match count, use the `-c` flag:
 
-```plain-text
+```bash
 grep -c "session opened "
                        /var/log/auth.log
 ```
@@ -80,4 +80,3 @@ What do each of the following flags represent?
 - script
 - copies
 - deletes
- 

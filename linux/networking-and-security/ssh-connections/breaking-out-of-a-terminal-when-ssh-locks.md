@@ -25,7 +25,7 @@ Instead, use the escape sequences. To kill the current session hit `↵` and wri
 
 More of these escape sequences can be listed with `↵` and `~?`:
 
-```plain-text
+```shell
 Supported escape sequences:
   ~.  - terminate session
   ~B  - send a BREAK to the remote system
@@ -50,4 +50,3 @@ to kill the current session. (↵ being the Enter Key).
 - ↵  ~.
 - ↵ ~#
 - ↵ ~R
- 

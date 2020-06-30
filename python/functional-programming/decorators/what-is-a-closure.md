@@ -18,7 +18,7 @@ notes: 'prerequisites: scoping'
 
 A **higher-order function**, or *closure*, is a persistent scope which makes the variable be accessible even after the code execution has moved past that block:   
 
-```plain-text
+```python
 def outer_function():
   scoped = "Hey!"
   def inner_function():
@@ -58,7 +58,7 @@ Alongside the function definition, a closure contains the function's
 
 In which of the following snippets there's no closure present?
 
-```plain-text
+```python
 # A
 def foo():
   myname = "John"
@@ -91,4 +91,3 @@ def foo():
 
 [1: Higher-Order Function]
 A higher-order function is somewhat similar to a *time capsule*. You put together a bunch of stuff relevant for a moment in time (code block), store it and open it whenever you feel like reminiscing those times (using that particular block/function).
- 

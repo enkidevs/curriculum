@@ -20,7 +20,7 @@ Props can be passed to **React** components through **JSX** with the help of the
 
 Suppose we want the following component with `name` and `content` props:
 
-```plain-text
+```jsx
 const component = (
   <Component
     name="enki"
@@ -31,7 +31,7 @@ const component = (
 
 `name` and `content` can be bundled inside an object.
 
-```plain-text
+```jsx
 const props = {
   name: 'enki',
   content: 'cool content',
@@ -41,7 +41,7 @@ const props = {
 
 Subsequently, the object can be reused:
 
-```plain-text
+```jsx
 const component = <Component {...props} />;
 const enki = <Component {...props} />;
 ```
@@ -50,7 +50,7 @@ Note the usage of the spread operator when passing the props: `{...props}`.
 
 Props can also be overwritten:
 
-```plain-text
+```jsx
 const enki = (
   <Component
     {...props}
@@ -63,7 +63,7 @@ Now the value of `enki.props.content` will be `"other value"`.
 
 The spread operator is also useful for passing in all the props of a component to its children.
 
-```plain-text
+```jsx
 function Component(props) {
   return <ChildComponent {...props} />;
 }
@@ -135,4 +135,3 @@ const test = <Test {...props}
 - `error`
 - `'fishcapybara'`
 - `'fishkomodo dragon'`
- 

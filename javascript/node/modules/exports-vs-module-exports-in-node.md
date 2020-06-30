@@ -19,7 +19,7 @@ links:
 
 Exporting a module in **Node** can be done in different ways. The most common is using the `exports` object:
 
-```plain-text
+```javascript
 //what is exported (other.js)
 exports.say = function() {
     console.log('Hello from Enki!');
@@ -32,7 +32,7 @@ sample.say(); // 'Hello from Enki!'
 
 However, `exports` is just a helper for `module.exports`. The latter is ultimately returned by your module when called. `exports` only collects properties and attaches them to `module.exports` if and only if it doesn't have something on it already.
 
-```plain-text
+```javascript
 module.exports = 'Oops!';
 exports.say = function() {
   console.log('Hello from Enki!'); }
@@ -41,7 +41,7 @@ exports.say = function() {
 If we import it the same way as above, this will result in a `TypeError` because `module.exports` already had something in it.
 Export an array with `module.exports`:
 
-```plain-text
+```javascript
 module.exports = [ 'A', 'B', 'C'];
 
 var sample = require('./other.js');
@@ -55,7 +55,7 @@ console.log(sample[2]); // 'C'
 
 What is the output of the following JavaScript code? ???
 
-```plain-text
+```javascript
 module.exports = ['a', 'k', 'K', 'y', 'a'];
 
 var test = require('./other.js');
@@ -85,4 +85,3 @@ console.log(test[1]);
 - module.imports
 - module
 - imports
- 

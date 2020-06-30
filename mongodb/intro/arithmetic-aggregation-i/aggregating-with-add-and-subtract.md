@@ -17,7 +17,7 @@ Using the same documents from the previous insights[1], let's calculate how stro
 
 The query we would use is:
 
-```plain-text
+```javascript
 db.pokemon.aggregate([
   {
     $project: {
@@ -35,7 +35,7 @@ db.pokemon.aggregate([
 
 Which would output:
 
-```plain-text
+```javascript
 { 
   "_id": ObjectId(
     "5d9d8c330b24990f19398214"
@@ -54,7 +54,7 @@ Which would output:
 
 **Note:** When adding or subtracting, the expressions don't always have to be fields. We can also use literals. Here's an example in which we subtract 7 from the `"Basic" power`:
 
-```plain-text
+```javascript
 db.pokemon.aggregate([
   {
     $project: {
@@ -93,7 +93,7 @@ The addition and subtraction operations in MongoDB can use ??? together with fie
 [1:Previous Documents]
 Here are the documents that we have previously used:
 
-```plain-text
+```javascript
 { 
   "Name": "Pikachu",
   "Basic": 101,
@@ -107,4 +107,3 @@ Here are the documents that we have previously used:
   "Ultimate": 667 
 }
 ```
- 

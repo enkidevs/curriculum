@@ -22,7 +22,7 @@ The autocomplete attribute can work for a name, search, email, URL, password, co
 
 Example:
 
-```plain-text
+```html
 <form action="/credit_card.php"
   autocomplete="on">
    Full name: <input type="text"
@@ -91,4 +91,3 @@ Which statement is false regarding autocomplete?
 - Can automatically complete fields based on the user's history
 - The default value is "on"
 - Autocomplete works with passwords, usernames, e-mail, search and more.
- 

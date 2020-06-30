@@ -25,7 +25,7 @@ The difference is that an element with `position: sticky` behaves like `position
 
 By simply adding `position: sticky` (vendor prefixed), we can tell an element to be `position: relative` until the user scrolls the item (or its parent) to be 15px from the top:
 
-```plain-text
+```css
 .sticky {
     position: sticky;
     top: 15px;
@@ -43,4 +43,3 @@ Which of the following browsers *does not* support `position: sticky`? ???
 - Firefox
 - Safari
 - iOS Safari
- 

@@ -18,7 +18,7 @@ links:
 
 In Java, a **class** is a blueprint after which things with similar characteristics can be modeled. An example of a class is: 
 
-```plain-text
+```java
 public class Car {
   String model;
   String noPlate;
@@ -44,7 +44,7 @@ The matrix which transforms the blueprint into *something* is called a **constru
 
 A constructor method should look like this:
 
-```plain-text
+```java
 public class Car {
 
   // fields
@@ -77,4 +77,3 @@ The method that creates a new object is called
 - instantiator
 - class
 - newObject
- 

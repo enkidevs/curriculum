@@ -35,7 +35,7 @@ Let's suppose we want the `name` and `level` of all the pokemon that are not nam
 
 We'd write:
 
-```plain-text
+```sql
 SELECT name, level
 FROM pokemon
 WHERE 
@@ -112,7 +112,7 @@ Consider the `ability` table and the following query:
 | 4   | t              | 3             | battle-armor |
 | ... | ...            | ...           | ...          |
 
-```plain-text
+```sql
 SELECT *
 FROM ability
 ```
@@ -141,4 +141,3 @@ These operators allow computers to take decisions based on multiple conditions. 
 ```plain-text
 x > 5 AND x < 10
 ```
- 

@@ -22,7 +22,7 @@ The `DISTINCT` keyword enables users to filter the duplicates that result after 
 
 We will give some examples based on a database we have set up:
 
-```plain-text
+```sql
 SELECT COUNT(ability_id)
 FROM ability_name;
 ```
@@ -37,7 +37,7 @@ First, we count how many ability ids are there in the `ability_name` table.
 
 If we would like to see how many of them are `DISTINCT`:
 
-```plain-text
+```sql
 SELECT COUNT(DISTINCT ability_id)
 FROM ability_name;
 ```
@@ -55,7 +55,7 @@ Output:
 
 We know that the table `pokedex_name` has a field called `name` with 42 entries. We would like to see how many of these are distinct values. Which query do you think will have the desired output?
 
-```plain-text
+```sql
 -- A
 DISTINCT SELECT COUNT(name) 
 FROM pokedex_name;
@@ -107,4 +107,3 @@ FROM ???
 - `ORDER`
 - `EMPLOYEES`
 - `*`
- 

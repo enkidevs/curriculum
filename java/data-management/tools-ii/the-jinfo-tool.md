@@ -22,13 +22,13 @@ Previously available on other platforms, it was only included on Windows with th
 
 Basic syntax:
 
-```plain-text
+```java
 jinfo PID
 ```
 
 With the `-flag` option, `jinfo` can also dynamically set, unset, or change the value of certain Java VM flags for the specified Java process:
 
-```plain-text
+```java
 jinfo -flag ThreadStackSize PID
 
 //output : -XX:ThreadStackSize=0
@@ -36,13 +36,13 @@ jinfo -flag ThreadStackSize PID
 
 Print JavaSystem properties as name, value pairs:
 
-```plain-text
+```java
 jinfo -sysprops PID
 ```
 
  If the given process is running on a 64-bit VM, you may need to specify the -J-d64 option:
 
-```plain-text
+```java
 jinfo -J-d64 -sysprops PID
 ```
 
@@ -82,4 +82,3 @@ jinfo ??? PID
 - `-systprops`
 - `sysprops`
 - `props`
- 

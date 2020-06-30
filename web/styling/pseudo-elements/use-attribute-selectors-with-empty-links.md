@@ -18,7 +18,7 @@ links:
 
 Display links when the `<a>` element has no text value but the `href` attribute has an external link:
 
-```plain-text
+```css
 a[href^="http"]:empty::before {
   content: attr(href);
 }
@@ -26,13 +26,13 @@ a[href^="http"]:empty::before {
 
 The above code targets:
 
-```plain-text
+```html
 <a href="http://anysite.com"></a>
 ```
 
 And it effectively copies the value of `<a>`'s `href` attribute as the content of the `::before` pseudo element. The element will look like this:
 
-```plain-text
+```html
 <a href="http://anysite.com">
 http://anysite.com
 </a>
@@ -57,4 +57,3 @@ a[???="http"]:empty::before {
 - `link`
 - `display`
 - `disp^`
- 

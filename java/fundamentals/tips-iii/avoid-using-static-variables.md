@@ -22,7 +22,7 @@ Even though `static` variables will be of help in certain scenarios (such as cou
 
 Use static as a counter:
 
-```plain-text
+```java
     static int counter = 0;
     public void increment() { counter++;}
 
@@ -32,7 +32,7 @@ First of all, they break the object **encapsulation** rule. `Static` fields are 
 
 `Static` variables have a lifetime that matches the entire run-time of the program, being bad for memory management. This state has to be handed specially by implementations, complicating **GC**. 
 
-```plain-text
+```java
 public class MyObject{
  static String TEXT = "Enki";
 }
@@ -45,4 +45,3 @@ To ensure a single copy of a value, a **singleton** pattern is better practice.
 In addition, `static` variables are bad for **security**, **re-entrancy** and **concurrency**.
 
 Keep in mind though that `static` constants are not considered a bad practice.
- 

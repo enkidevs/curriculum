@@ -23,7 +23,7 @@ The four standard operators are `+`, `-`, `*` and `/`. These allow us to add, su
 
 Here they are in use:
 
-```plain-text
+```bash
 >>> 210 + 32
 # 242
 
@@ -41,7 +41,7 @@ In Python 3, using the division operator `/` will always return a `float`. And w
 
 If you want to perform floor division to return an `int`, use the `//` operator:
 
-```plain-text
+```bash
 >>> 62 // 9
 # 6
 ```
@@ -89,4 +89,3 @@ What are the outputs to the following lines of code?
 - `3`
 - `25`
 - `26`
- 

@@ -26,7 +26,7 @@ This method is particularly useful as it sets the opacity for a single element a
 
 To do so use the rgba declaration:
 
-```plain-text
+```css
 background-color: rgba(15,255,30,0.5);
 ```
 
@@ -41,7 +41,7 @@ In the example above, the alpha level is 0.5, hence indicating 50% opacity.
 
 For `rgba()` colour values, what do the four values stand for, in order? ???
 
-```plain-text
+```css
 /* For example */
 color: rgba(12, 255, 40, 0.3);
 ```
@@ -50,4 +50,3 @@ color: rgba(12, 255, 40, 0.3);
 - Red, Blue, Green, Alpha
 - Green, Blue, Red, Alpha
 - Blue, Red, Green, Alpha
- 

@@ -20,7 +20,7 @@ These must be either set being larger and behind the element or smaller and insi
 
 Keep in mind that the element with multiple borders needs its own border and a non-static position.
 
-```plain-text
+```css
 .elem {
   position: relative;
   border: 5px solid #00ff00;
@@ -29,7 +29,7 @@ Keep in mind that the element with multiple borders needs its own border and a n
 
 Add the second border:
 
-```plain-text
+```css
 .elem::after {
   content: '';
   position: absolute;
@@ -72,4 +72,3 @@ Which two pseudo elements can be used to add more borders to an element?
 - :post and :pre
 - :after and :previous
 - :post and :before
- 

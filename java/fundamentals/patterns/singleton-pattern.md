@@ -21,7 +21,7 @@ Singleton pattern is a design pattern involving a class which can be instantiate
 
 To be effective, it must provide a way to access its only instance globally.
 
-```plain-text
+```java
 public class ClassicSingleton {
   private static ClassicSingleton
       instance = null;
@@ -42,4 +42,3 @@ the method cannot be accessed other class*/
 This version of the Singleton class is not the most efficient one, however it is thread-safe and it will do the job most of the time.
 
 A reason to use a Singleton class is to log other classes in the application. Because a logger is heavily accessed, it makes sense to have a single instance to track the output.
- 

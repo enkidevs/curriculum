@@ -22,7 +22,7 @@ In PostgreSQL, there are two possible ways of storing JSON objects:
 
 In practice, it is recommended to use `jsonb`:
 
-```plain-text
+```sql
 CREATE TABLE poke_json(
   id bigserial PRIMARY KEY,
   pokemon jsonb
@@ -31,7 +31,7 @@ CREATE TABLE poke_json(
 
 Inserting new JSON values is done through strings:
 
-```plain-text
+```sql
 INSERT INTO poke_json
 VALUES('{
 	"id": 1,
@@ -51,7 +51,7 @@ VALUES('{
 
 And querying object properties is done using `@>` operator:
 
-```plain-text
+```sql
 SELECT *
 FROM poke_json WHERE
 pokemon @> '{"types": ["poison", "grass"]}';
@@ -99,4 +99,3 @@ PostgreSQL's operator for JSON parsing is
 - `->>`
 - `@`
 - `JSON_VALUE`
- 

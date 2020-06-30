@@ -22,7 +22,7 @@ You should be aware that JavaScript has a complex set of rules that contain a fe
 
 For example:
 
-```plain-text
+```javascript
 false == "0" //true
 false == "" //true
 ```
@@ -31,7 +31,7 @@ false == "" //true
 
 Null is also one to beware of as behaves strangely:
 
-```plain-text
+```javascript
 null == false
 //false
 ```
@@ -70,4 +70,3 @@ null == false
 
 - false
 - true
- 

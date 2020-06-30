@@ -19,7 +19,7 @@ When your *Node.js* app is compiled with **openssl crypto** support, `npm` packa
 
 Since version `0.2.9` of npm, **sha1 hashes** get generated for all packages as they're published:
 
-```plain-text
+```bash
 npm publish myProject
 ```
 
@@ -57,4 +57,3 @@ To ensure the security of published modules, **sha1 hashes** are generated autom
 - when the folder is accessed
 - When it is uploaded
 - When it is compiled
- 

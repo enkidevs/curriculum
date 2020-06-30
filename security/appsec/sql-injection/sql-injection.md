@@ -31,7 +31,7 @@ These examples from OWASP show SQL Injection attacks:
 **Scenario #1**: An application uses untrusted data in the
 construction of the following vulnerable SQL call:
 
-```plain-text
+```java
 String query = "SELECT *
 FROM accounts
 WHEREcustID='" +
@@ -96,4 +96,3 @@ request.getParameter("id") +
 
 - Yes
 - No
- 

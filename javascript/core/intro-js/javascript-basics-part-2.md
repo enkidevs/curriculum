@@ -17,7 +17,7 @@ Here are a couple more rules.
 
 Everything in JavaScript is case sensitive.
 
-```plain-text
+```js
 let password;
 // Is not the same as
 let pasSword;
@@ -35,7 +35,7 @@ When naming any function, property or variable, the first character must be a le
 
 After the first character, you are free to use numbers, letters, dollar signs or underscores.
 
-```plain-text
+```javascript
 let name = "Enki"; // valid
 let $taxRate = 8.25; // valid
 let _id = 23; // valid
@@ -48,19 +48,19 @@ Comments can be created in 2 ways in JavaScript.
 
 As a single line comment:
 
-```plain-text
+```js
 // I am a single line comment
 ```
 
 You can also add single line comments to the same line as other code:
 
-```plain-text
+```javascript
 let company="enki"; // define company
 ```
 
 Or if you have more text you can use a block comment:
 
-```plain-text
+```javascript
 /*
 I am a block comment
 */
@@ -102,7 +102,7 @@ let 777jackpot = "jackpot";
 ### which of the following is a valid comment?
 
 
-```plain-text
+```javascript
 (1. // first comment
 (2. <!-- second comment
 (3. /* third comment */
@@ -114,4 +114,3 @@ let 777jackpot = "jackpot";
 - 1
 - 1 & 3
 - 2
- 

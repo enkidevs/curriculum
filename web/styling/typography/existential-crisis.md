@@ -22,7 +22,7 @@ Categorize the falling properties based on whether or not they are existing, leg
 
 it doesn't exist:it's real
 
-```plain-text
+```false
 font-face
 %exp
 CSS supports a property called `@font-face`, but here the @ is missing so the property is invalid.
@@ -81,7 +81,7 @@ This is not a CSS property.
 %
 ```
 
-```plain-text
+```true
 background-attachment
 %exp
 This property specifies how to move the background relative to the viewport.
@@ -235,4 +235,3 @@ The `z-index` property in CSS controls the vertical stacking order of elements t
 %
 
 ```
- 

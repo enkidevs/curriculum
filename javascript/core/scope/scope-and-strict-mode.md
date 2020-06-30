@@ -23,7 +23,7 @@ In **non-strict mode**, a variable not found in a **local** scope will be create
 
 For example, the variable `baz` is undeclared in the scope of the function `bar()` so will be created in the global scope:
 
-```plain-text
+```javascript
 function bar(foo){
     foo = "hello"; // local scope
     baz = "world"; // global scope
@@ -47,7 +47,7 @@ It is recommended that you use strict mode for your code to prevent **variable l
 
 Assuming the scopes specified in the comments, does the snippet use **non-strict** or **strict** mode?
 
-```plain-text
+```javascript
 function bar(foo){
     foo = "hello"; // local scope
     baz = "world"; // global scope
@@ -69,4 +69,3 @@ Non-strict mode allows the automate creation of a variable in ??? scope, while *
 - global
 - local
 - strict
- 

@@ -22,7 +22,7 @@ links:
 
 Method chaining allows multiple methods to be called one after the other on the same object.
 
-```plain-text
+```javascript
 var foo = new Bar();
 foo.setFirst('Fizz').setLast('Buzz');
 // Two functions, called with one line
@@ -30,7 +30,7 @@ foo.setFirst('Fizz').setLast('Buzz');
 
 Method chaining is typically enabled by implementing methods that return `this` (the object itself):
 
-```plain-text
+```javascript
 var Bar = function() {
   this.first = 'Not';
   this.last = 'FizzBuzz';
@@ -114,4 +114,3 @@ How is method chaining typically enabled?
 - Implementing methods that return `this`
 - No need for implementation
 - Updating the object to allow this
- 

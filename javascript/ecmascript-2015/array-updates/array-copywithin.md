@@ -25,27 +25,27 @@ links:
 
 Look at the following array:
 
-```plain-text
+```javascript
 var alphabet = ["a","b","c","d","e"];
 ```
 
 To copy the first two characters into the 2nd index we could use **Array.copyWithin** as follows:
 
-```plain-text
+```javascript
 alphabet.copyWithin(2,0,2);
 // ["a","b","a","b","e"]
 ```
 
 Using the default values for the last two arguments, we could shorten the above to:
 
-```plain-text
+```javascript
 alphabet.copyWithin(2)
 // ["a","b","a","b","c"]
 ```
 
 **Array.copyWithin** also supports negative indexes:
 
-```plain-text
+```javascript
 alphabet.copyWithin(-2)
 // ["a","b","c","a","b"]
 ```
@@ -97,4 +97,3 @@ ints.copyWithin(???,???,???)
 - 8
 - 9
 - 0
- 

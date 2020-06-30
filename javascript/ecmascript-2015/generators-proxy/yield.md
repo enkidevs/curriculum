@@ -16,7 +16,7 @@ links:
 
 We can actually make our number example even more succinct by using `yield*`:
 
-```plain-text
+```javascript
 function* genShort() {
   yield* [1, 2, 3, 4, 5];
 }
@@ -26,7 +26,7 @@ When we use `yield*` it iterates over values supplied to the expression (in this
 
 `yield*` could also be used to split work between two generators:
 
-```plain-text
+```javascript
 function* gen1() {
   yield 1;
   yield* gen2();
@@ -123,4 +123,3 @@ x.next()
 - function
 - gen2
 - return*
- 

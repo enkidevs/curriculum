@@ -19,7 +19,7 @@ git keeps a 'reflog' for a few months. This is a record of where your HEAD and b
 
 To view the reflog:
 
-```plain-text
+```bash
 git reflog
 6342de7 HEAD@{0}: commit: Fix typo
 2cd56ed HEAD@{1}: rebase -i (squash):
@@ -28,13 +28,13 @@ git reflog
 
 To see the nth previous value of HEAD:
 
-```plain-text
+```bash
 git show HEAD@{n}
 ```
 
 To see the tip of `master` at a point in history:
 
-```plain-text
+```bash
 git show master@{2.months.ago}
 ```
 
@@ -70,4 +70,3 @@ git ??? ???@{6}
 - `log`
 - `reflog`
 - `branch`
- 

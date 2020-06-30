@@ -15,7 +15,7 @@ The `findOneAndDelete()` method can be used to search through a collection and d
 
 For instance, the query below searches for the first pokémon (document) whose `power` is greater than `1000` and deletes it:
 
-```plain-text
+```javascript
 db.pokemon.findOneAndDelete({
   power: { $gt: 1000 }
 })
@@ -23,7 +23,7 @@ db.pokemon.findOneAndDelete({
 
 Output:
 
-```plain-text
+```javascript
 {
 	"_id": ObjectId(
     "5d9d9ba30b24990f1939822a"
@@ -56,4 +56,3 @@ db.pokemon.???({
 - `findOneAndUpdate`
 - `$is`
 - `$set`
- 

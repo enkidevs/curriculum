@@ -31,7 +31,7 @@ In order to support all browsers, it is useful to provide two different types of
 Using the `<audio>` tag, multiple
 songs can be added via the `<source>` element which will accomodate the approprate file needed for that browser.
 
-```plain-text
+```html
 <audio controls>
   <source src="some_song.mp3"
     type="audio/mpeg">
@@ -92,4 +92,3 @@ How many audio files are useful to add to a single `<audio>` element in order to
 - 3
 - 4
 - 5+
- 

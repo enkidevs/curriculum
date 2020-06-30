@@ -22,25 +22,25 @@ notes: >-
 
 To print the heap configuration of a running Process:
 
-```plain-text
+```java
 jmap -heap PID
 ```
 
 To print the heap histogram for a running Process:
 
-```plain-text
+```java
 jmap -histo PID
 ```
 
 To list all loaded shared objects:
 
-```plain-text
+```java
 jmap PID
 ```
 
 You can also `dump` the heap information into a `.bin` file:
 
-```plain-text
+```java
 jmap -dump:file=myFile.bin PID
 ```
 
@@ -83,4 +83,3 @@ jmap ??? ???
 - `-histogram`
 - `process`
 - `processID`
- 

@@ -32,7 +32,7 @@ Corporation key
 
 If you trust the source's key fingerprint, copy the string after `BADSIG` and use it to run the following:
 
-```plain-text
+```bash
 sudo apt-key adv --recv-keys \ 
   --keyserver keyserver.ubuntu.com \
  54422A4B98AB5139
@@ -52,4 +52,3 @@ The installation operation should now succeed.
 - the signatures are incorrect
 - there is not enough space on the disk
 - the login credentials are wrong
- 

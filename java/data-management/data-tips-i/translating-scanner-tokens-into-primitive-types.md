@@ -26,14 +26,14 @@ The `Scanner` class can be used to break an input into tokens separated by delim
 
 Delimiters are string *patterns* and are set in the following way:
 
-```plain-text
+```java
 Scanner s = new Scanner(input);
 s.useDelimiter(pattern);
 ```
 
 If we need to read a file containing a set of integers, and calculate the total, we can use `Scanner`'s `nextInt` method:
 
-```plain-text
+```java
 int sum = 0;
 //create a new instance of Scanner
 Scanner s = new Scanner(
@@ -84,4 +84,3 @@ Which method of the *Scanner* class returns the next double value read?
 - hasNextDouble()
 - getDouble()
 - parseDouble()
- 

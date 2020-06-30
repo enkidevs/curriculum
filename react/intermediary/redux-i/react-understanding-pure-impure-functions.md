@@ -21,7 +21,7 @@ As **Redux** is based on the general concept of the *single immutable state tree
 
 Example of a pure function:
 
-```plain-text
+```javascript
 function doublePure(x) {
   // do not change the object x.
   // instead return a new object
@@ -36,7 +36,7 @@ On the contrary, **impure** functions don't have a predictable behavior as they 
 
 Example:
 
-```plain-text
+```javascript
 function doubleImpure(x) {
   // change the object x.
   // this mutation affects the object
@@ -49,7 +49,7 @@ function doubleImpure(x) {
 
 Another good example of **pure** versus **impure**  functions is this:
 
-```plain-text
+```js
 function increasePure(x) {
   // for the same number x, 
   // we always get 2 * x
@@ -73,7 +73,7 @@ The **pure** function provides a predictable and consistent output for the same 
 
 Consider these functions:
 
-```plain-text
+```javascript
 function a(x) {
   return x * x;
 }
@@ -103,4 +103,3 @@ What type of functions should be used in **Redux** as to preserve the **single i
 
 - pure
 - impure
- 

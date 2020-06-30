@@ -23,13 +23,13 @@ A relative path is used to point to a file or the location of the file you want 
 
 Example of linking a logo located within the same directory as the web page:
 
-```plain-text
+```html
 <img src="logo.svg">
 ```
 
 Example of linking a logo located within the `images` folder:
 
-```plain-text
+```html
 <img src="images/logo.svg">
 ```
 
@@ -125,7 +125,7 @@ Determining if the path is a relative or absolute path.
 
 Relative:Absolute
 
-```plain-text
+```false
 index.html
 %exp
 index.html is a relative path as it doesn't link to the full web path using http://webdomain.com/filename.
@@ -157,7 +157,7 @@ travel/fiji/group-photo.html is a relative path as it doesn't link to the full w
 %
 ```
 
-```plain-text
+```true
 
 http://www.adobe.com
 %exp
@@ -179,4 +179,3 @@ http://www.enkipro.com/help/articles/how-do-i-set-up-a-webpage.html
 http://www.enkipro.com/help/articles/how-do-i-set-up-a-webpage.html is an absolute path as it links using a full web URL.
 %
 ```
- 

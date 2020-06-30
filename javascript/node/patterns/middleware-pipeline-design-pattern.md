@@ -21,7 +21,7 @@ links:
 
 The **middleware** or **pipeline** concept is used everywhere in Node.js. They represent a series of processing units connected subsequently: **the output of one unit is the input for the next one**.
 
-```plain-text
+```javascript
 function(/*input/output */, next) {
   next(/* err and/or output */)
 };
@@ -29,7 +29,7 @@ function(/*input/output */, next) {
 
 **Koa** framework does it like this:
 
-```plain-text
+```javascript
 app.use = function(fn) {
   this.middleware.push(fn);
   return this;
@@ -38,7 +38,7 @@ app.use = function(fn) {
 
 This concept is usually implemented through `async.waterfall` or `async.auto`:
 
-```plain-text
+```javascript
 async.waterfall([
   function(callback) {
     callback(...);
@@ -51,7 +51,7 @@ async.waterfall([
 
 Famous Node.js streams also use the concept of pipelining:
 
-```plain-text
+```javascript
 fs.createReadStream("file.gz")
   .pipe(zlib.createGunzip())
   .pipe(through(function write(data) {
@@ -83,7 +83,7 @@ the ??? of one unit is the ??? for the next one.
 
 Which design pattern can you observe in the following snippet which archives `raw.txt`?
 
-```plain-text
+```javascript
 fs.createReadStream('raw.txt')
   .pipe(zlib.createGzip())
   .pipe(fs.createWriteStream('raw.gz'))
@@ -98,4 +98,3 @@ fs.createReadStream('raw.txt')
 - singleton
 - prototype
 - waterfall
- 

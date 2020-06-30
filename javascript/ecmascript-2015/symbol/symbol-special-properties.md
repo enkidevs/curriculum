@@ -19,7 +19,7 @@ Symbols behave differently to other primitives such as strings and numbers.
 
 Lets imagine for this section we declare the following object:
 
-```plain-text
+```javascript
 var obj = {};
 obj["company"] = "Enki";
 obj[Symbol()] = "You won't see me";
@@ -27,7 +27,7 @@ obj[Symbol()] = "You won't see me";
 
 You will find symbols are ignored in `for..in` loops:
 
-```plain-text
+```javascript
 for (var i in obj) {
   console.log(i);
 }
@@ -36,28 +36,28 @@ for (var i in obj) {
 
 Symbols do not show up in `Object.keys`:
 
-```plain-text
+```javascript
 Object.keys(obj);
 //["company"]
 ```
 
 Symbols are not returned from a call to `getOwnPropertyNames`:
 
-```plain-text
+```javascript
 Object.getOwnPropertyNames(obj);
 //["company"]
 ```
 
 `JSON.stringify` ignores symbols:
 
-```plain-text
+```javascript
 JSON.stringify(obj);
 //"{"company":"enki"}"
 ```
 
 You can retrieve symbols with `getOwnPropertySymbols`:
 
-```plain-text
+```javascript
 Object.getOwnPropertySymbols(obj);
 ```
 
@@ -68,7 +68,7 @@ Object.getOwnPropertySymbols(obj);
 
 Consider the following object:
 
-```plain-text
+```javascript
 const obj = {};
 obj[Symbol("enki")] = "hello";
 ```
@@ -121,4 +121,3 @@ console.log(
 - ['Symbol()']
 - ['Symbol(enki)']
 - ['Symbol()', 'Symbol(enki)']
- 

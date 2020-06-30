@@ -21,7 +21,7 @@ It is sometimes useful to be able to throw an exception in response to an except
 
 A new chained exception can be created by using the following syntax:
 
-```plain-text
+```java
 try {
   //code which might throw an exception
 }
@@ -34,4 +34,3 @@ catch(Exception e) {
 ```
 
 The new `Exception` object takes two parameters; the first is a message to be displayed, and the second is the `Throwable` object which caused the exception.
- 

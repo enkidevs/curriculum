@@ -25,7 +25,7 @@ data from/to a specific host. This can mean the *firewall* needs to be 'disabled
 
 On Debian systems, we can issue the following commands as root:
 
-```plain-text
+```bash
 iptables -F
 iptables -X
 iptables -t nat -F
@@ -62,4 +62,3 @@ On a Debian system, to stop the firewall you have to ??? the rules.
 - stop
 - target
 - add
- 

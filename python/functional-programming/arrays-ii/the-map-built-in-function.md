@@ -25,14 +25,14 @@ The `map` function is built in to the Python language. Together with the other b
 
 `map` applies a given function—`function_here` in the case below—iteratively to all items in a given `input_list`[1]. The basic syntax looks like this:
 
-```plain-text
+```python
 map(function_here, input_list,
   optional_another_input_list, ...)
 ```
 
 `map` allows us to avoid imperative programming[2] style which often results in more easily legible code. For example, let's say we have a list of point scores in a game, and we want to add 2 to every score. In the imperative programming style, we would do something like this:
 
-```plain-text
+```python
 scores = [1, 0, 4, 5]
 newscores = []
 for i in scores:
@@ -41,7 +41,7 @@ for i in scores:
 
 In the functional programming style[3], we can achieve the same functionality by using `map` on the original list, achieving three lines of functionality in one line:
 
-```plain-text
+```python
 scores = [1, 0, 4, 5]
 newscores = list(map(lambda x: x+2, scores))
 ```
@@ -80,7 +80,7 @@ promises = ???(???, ???)
 
 We are using the map function on two lists of integers at the same time. What is the output from the following code snippet?
 
-```plain-text
+```python
 scores = [1, 0, 4, 5]
 scores2 = [1, 1, 1, 1]
 newscores = map(
@@ -110,4 +110,3 @@ An easy rule of thumb is that imperative programming specifies **how** (what ste
 
 [3:Functional Programming]
 As explained in the above footnote, functional programming is a type of declarative language, which focus on **what** is to be computed. Functional programming eschews the idea of state from imperative programming and instead reduces a program down into functions applied on immutable data (data that cannot be directly modified). Notice how in the code example, we use `map` to apply our lambda function to each element in the list, but the items in the original list itself are **not** modified. We take each output from the lambda function and create a new copy of the original list with our new answers. This is the essence of *immutability*, one of the most important concepts of functional languages.
- 

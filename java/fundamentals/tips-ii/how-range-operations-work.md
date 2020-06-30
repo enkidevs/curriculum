@@ -19,7 +19,7 @@ You can use the `substring()` method to extract a part of a string. The result w
 
 The syntax is:
 
-```plain-text
+```java
 String.substring(
   int startIndex,
   int endIndex
@@ -28,7 +28,7 @@ String.substring(
 
 Let's take a look at an example:
 
-```plain-text
+```java
 "Enki".substring(0, 2);
 ```
 
@@ -36,7 +36,7 @@ The result will be `"En"`. This is because the method starts at the value of `st
 
 There are many more methods that need specifying a range, and all of them use this rule.
 
-```plain-text
+```java
 List<Integer> myList = new ArrayList<Integer>();
 for (int i = 0; i <= 4; i++) {
   myList.add(i);
@@ -74,7 +74,7 @@ What would be the return value of the following method:
 
 When calling the following function:
 
-```plain-text
+```java
 "test".substring(1,3)
 ```
 
@@ -82,4 +82,3 @@ The output will ??? the character with index 3.
 
 - `exclude` 
 - `include`
- 

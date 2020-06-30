@@ -16,7 +16,7 @@ links:
 
 `eval` evaluates the string passed to it as Javascript code:
 
-```plain-text
+```js
 let str = "if(a){1+2;} else{1+3;}";
 let a = true;
 let b = eval(str);  // returns 3
@@ -37,7 +37,7 @@ This is why `eval` is sometimes refered to as "evil".
 
 What does the following JS code return when ran? ???
 
-```plain-text
+```javascript
 let str = "if(flag){2*8;} else{-2*8;}";
 let flag = false;
 let b = eval(str);
@@ -59,4 +59,3 @@ Executing javascript code passed in as a string is done with the function ???
 - evil()
 - evaluate()
 - (string).toJS()
- 

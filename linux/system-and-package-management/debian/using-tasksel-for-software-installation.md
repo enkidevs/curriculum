@@ -23,7 +23,7 @@ It groups some packages by tasks and offers the user an easy way to install the 
 
 The option `--list-tasks` lists on screen the tasks (packages) that would be displayed in the `tasksel` text user interface.
 
-```plain-text
+```bash
 sudo tasksel --list-tasks
 ```
 
@@ -45,7 +45,7 @@ u virt-host	Virtual Machine host
 You can issue the `tasksel` command directly and check the services that you need to be installed, or use the caret (`^`)
 with `apt-get`:
 
-```plain-text
+```bash
 sudo apt-get install 
                 openssh-server^
 ```
@@ -66,4 +66,3 @@ To list all the packages that would be displayed in the `tasksel` UI, you would 
 - `—list-tasks`
 - `-lt`
 - `taskel`
- 

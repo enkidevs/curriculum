@@ -20,14 +20,14 @@ If you want to determine what sort of traffic is being blocked, a way of doing s
 
 Start by creating a new chain:
 
-```plain-text
+```bash
 # the `-N` flag creates a chain
 iptables -N LOGDROP
 ```
 
 Set the logging burst and the syslog prefix:
 
-```plain-text
+```bash
 iptables -A LOGDROP -m limit \
 --limit 60/min -j LOG  \
 --log-prefix "IPTables-Dropped: " 
@@ -35,19 +35,19 @@ iptables -A LOGDROP -m limit \
 
 Set the last action to `DROP`:
 
-```plain-text
+```bash
 iptables -A LOGDROP -j DROP
 ```
 
 Instead of dropping in the usual way: 
 
-```plain-text
+```bash
 iptables -A INPUT -j DROP
 ```
 
 Use:
 
-```plain-text
+```bash
 iptables -A INPUT -j LOGDROP
 ```
 
@@ -69,4 +69,3 @@ The action flow to log dropped packets is:
 - `Set the number of logged packets`
 - `Set the last action of the chain to DROP`
 - `Use the new chain as target`
- 

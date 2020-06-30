@@ -18,7 +18,7 @@ If ever in need, you can easily access the manual pages (**manpage**) of **Git**
 
 There are three ways to access the manpage for a command:
 
-```plain-text
+```bash
 git help <verb>
 git <verb> --help
 man git-<verb>
@@ -28,7 +28,7 @@ Note how in the last command, using the `man` command, the syntax enforced is `g
 
 For example to get the manpage of the `clone` command you can run:
 
-```plain-text
+```bash
 git help clone
 git clone --help
 man git-clone
@@ -75,4 +75,3 @@ git clone ???
 - `help`
 - `--man`
 - `--info`
- 

@@ -23,7 +23,7 @@ links:
 
 `sorted` is Python's built-in function for creating a new sorted list from an iterable object. It is distinct from the `sort` built-in function in that `sort` modifies a list 'in-place', i.e. without creating a new list. The `sorted` function takes the general form:
 
-```plain-text
+```python
 sorted(iterable [, key] [, reverse])
 ```
 
@@ -35,25 +35,25 @@ Where:
 
 The simplest use of sorted is in the ordering of numbers. Consider the code below:
 
-```plain-text
+```python
 sorted([5, 2, 3, 1, 4])
 ```
 
 returns a numerically-sorted list:
 
-```plain-text
+```python
 [1, 2, 3, 4, 5]
 ```
 
 The optional `reverse` argument can be given:
 
-```plain-text
+```python
 sorted([5, 2, 3, 1, 4], reverse=True)
 ```
 
 this returns the reversed numerically-sorted list:
 
-```plain-text
+```python
 [5, 4, 3, 2, 1]
 ```
 
@@ -61,7 +61,7 @@ Behind the scenes, Python calls a derivative of merge-sort on the list (*Timsort
 
 `sorted` can also be used on strings, where Python lexicographically orders individual characters by comparing the Unicode code point number.
 
-```plain-text
+```python
 pyString = ',.()-.12345ABCDabcd='
 print(sorted(pyString))
 # result:
@@ -78,7 +78,7 @@ print(sorted(pyString))
 
 What is the result of the execution of the following code snippet?
 
-```plain-text
+```python
 print(sorted([4, 0, 2, 3, 1, 5]))
 ```
 
@@ -96,7 +96,7 @@ print(sorted([4, 0, 2, 3, 1, 5]))
 
 What is the result of the execution of the following code snippet?
 
-```plain-text
+```python
 print(sorted([0, 2, 3, 1,
 'a', 'b', 'A', 'B']))
 ```
@@ -114,4 +114,3 @@ print(sorted([0, 2, 3, 1,
 
 [1:Timsort]
 *Technically, the sort algorithm in Python since version 2.3 has been Timsort, named after creator Tim Peters. It is derived from a hybrid approach of merge sort and insertion sort. Timsort finds subsequences of the data that are already sorted and uses the information found there to sort the rest of the list more effectively. For more information, see the Wikipedia page in the Learn More section titled 'Timsort'.*
- 

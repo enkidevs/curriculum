@@ -22,7 +22,7 @@ You can *pause* and *play* CSS animation by changing its `animation-play-state` 
 
 Setting it to *paused* stops your animation in place, until you change `animation-play-state` to running, for example on hover.
 
-```plain-text
+```css
 .animating_thing {
     animation: spin 10s linear infinite;
     animation-play-state: paused;
@@ -64,4 +64,3 @@ What are the two states which can pause or play CSS animations?
 - Start and stop.
 - Paused and playing.
 - Running and stop.
- 

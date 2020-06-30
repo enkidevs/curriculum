@@ -22,7 +22,7 @@ To distinguish them from pseudo-classes, **pseudo-elements** should be preceded 
 
 The syntax is as follows:
 
-```plain-text
+```css
 selector::pseudo-element {
   property: value;
 }
@@ -68,4 +68,3 @@ Ideally, what should precede all pseudo-elements declaration?
 - `:`
 - `-`
 - `;`
- 

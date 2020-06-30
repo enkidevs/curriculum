@@ -21,7 +21,7 @@ Are the following functions' upper bound (Big-Oh) true?
 
 false:true
 
-```plain-text
+```true
 10^15 * n = O(n)
 %exp
 `10^15` is a constant. There is `10^15 + 1` which is greater than that and can act as the constant after which `O(n)` is also greater.
@@ -60,7 +60,7 @@ The linear function `n` is greater than the constant `6`.
 %
 ```
 
-```plain-text
+```false
 n^2 = O(n log n)
 %exp
 `n^2` is greater than `n log n`, so the Big-O cannot be its upper bound.
@@ -86,4 +86,3 @@ n^1000 = O(n)
 The function is equal to `n^3 log n`, which is bigger than `n^2 log n`.
 %
 ```
- 

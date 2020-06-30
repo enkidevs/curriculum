@@ -23,7 +23,7 @@ The `FULL JOIN`, or `FULL OUTER JOIN`, is a type of join that combines the funct
 
 If we are to fall back to the previous example of *moves* and *types*, the output won't be different:
 
-```plain-text
+```sql
 SELECT move.id, move.name,
   type.id, type.name AS type_name
 FROM move
@@ -136,4 +136,3 @@ id  | game_index | region_id
 - SELECT location.id,location_area.game_index,location.region_id FROM location INNER JOIN location_area ON location.id = location_area.id;
 - SELECT location.id,location_area.game_index,location.region_id FROM location LEFT JOIN location_area ON location.id = location_area.id;
 - SELECT location.id,location_area.game_index,location.region_id FROM location RIGHT JOIN location_area ON location.id = location_area.id;
- 

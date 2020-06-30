@@ -20,7 +20,7 @@ links:
 
 Set `animation-play-state: paused;` and `animation-delay` to different negative times to help with animation debugging:
 
-```plain-text
+```css
 .animated {
   animation: move 3s linear
              infinite
@@ -64,7 +64,7 @@ Pause the animation at second 4:
 
 Which of the following lines of code is the line using an animation delay to help with debugging:
 
-```plain-text
+```css
 animation-play-state: wait;
 animation-play-state: freeze;
 animation-play-state: paused;
@@ -75,4 +75,3 @@ animation-play-state: paused;
 - Line 3
 - Line 2
 - Line 1
- 

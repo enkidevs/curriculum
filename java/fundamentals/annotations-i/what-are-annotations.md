@@ -31,7 +31,7 @@ Java provides you with some predefined annotations which is pretty much all that
 
 Example:
 
-```plain-text
+```java
 @interface EnkiAnnotation {
    String author() default "Enki";
    String date();
@@ -80,4 +80,3 @@ What is an annotation?
 
 - Metadata about a piece of code which can be understood by a compiler or JVM
 - It is an interface which has to be implemented in order to
- 

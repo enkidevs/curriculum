@@ -21,7 +21,7 @@ If one type of string is used in a Sass document, that string type will be used 
 
 *SassScript* has a number of string functions:
 
-```plain-text
+```css
 // to remove quotations
 unquote("Enki") => Enki
 // returns the string length
@@ -32,7 +32,7 @@ to-upper-case("upper") => UPPER
 
 Unlike in some languages, the first character in a string is number 1, not 0.
 
-```plain-text
+```css
 str-insert("Eni", "k", 3) => "Enki"
 str-insert("SassScript is ", "fun", 15)
 => "SassScript is fun"
@@ -71,4 +71,3 @@ str-insert("eki", "n", ???)
 - `3`
 - `4`
 - `0`
- 

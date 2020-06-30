@@ -19,7 +19,7 @@ On iOS, when you touch and hold a touch target such as a link, the browser displ
 
 You can use `-webkit-touch-callout` to disable the callout:
 
-```plain-text
+```css
 -webkit-touch-callout: none;
 
 ```
@@ -47,4 +47,3 @@ And which browser is this only compatible with? ???
 - Chrome
 - Internet Explorer
 - Firefox
- 

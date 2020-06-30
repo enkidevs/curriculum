@@ -24,7 +24,7 @@ Checked exceptions are exceptions which a program should be able to anticipate a
 
 For Example: 
 
-```plain-text
+```java
 Scanner scanner = new Scanner(System.in);
 System.out.print("Enter a file name: ");
 System.out.flush();
@@ -39,7 +39,7 @@ try {
 
 Unchecked exceptions are usually caused by errors in a program's logic. These exceptions are not expected to be caught and the program is not expected to recover from them. The origin of the error should be eliminated. For Example:
 
-```plain-text
+```java
 for (int i = 0; i < arr.length; i++) {
  doSomethingTo(arr[i+1])
  // when i reaches arr.length-1
@@ -47,4 +47,3 @@ for (int i = 0; i < arr.length; i++) {
  // will be thrown.
 }
 ```
- 

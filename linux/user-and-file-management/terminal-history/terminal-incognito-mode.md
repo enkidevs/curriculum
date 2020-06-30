@@ -21,25 +21,25 @@ tags:
 
 To temporarily disable command logging in the terminal, use:
 
-```plain-text
+```bash
 set +o history 
 ```
 
 Or, alternatively:
 
-```plain-text
+```bash
 shopt -uo history 
 ```
 
 To enable command logging once more, run:
 
-```plain-text
+```bash
 set -o history 
 ```
 
 Alternatively:
 
-```plain-text
+```bash
 shopt -so history 
 ```
 
@@ -75,4 +75,3 @@ set -o history
 
 - enables
 - disables
- 

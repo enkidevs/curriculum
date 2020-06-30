@@ -18,13 +18,13 @@ The **Express 4.0** `errorhandler` module is designed as a **development only** 
 
 Installing the API:
 
-```plain-text
+```bash
 npm install errorhandler
 ```
 
 Importing the API:
 
-```plain-text
+```javascript
 var errorHandler = require('errorhandler');
 ```
 
@@ -32,7 +32,7 @@ Whenever an object is provided to **Express** as an error, the `errorhandler` mo
 
 The constructor can, but is not obliged, to take `log` as an argument. This can take the values `true`, `false` or a function that will handle the errors.
 
-```plain-text
+```javascript
 app.use(errorhandler({
   log: errorNotification});
 function errorNotification(err,str,req) {
@@ -75,4 +75,3 @@ app.use(???({
 - log
 - require
 - errorHandler
- 

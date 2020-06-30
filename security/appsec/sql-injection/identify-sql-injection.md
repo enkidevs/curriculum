@@ -21,7 +21,7 @@ links:
 
 Use this query (you may have to modify it to suit your data model) to test for basic SQL injection problems on any input:
 
-```plain-text
+```sql
 SELECT * FROM Users
 WHERE Username='1'
 OR '1' = '1'
@@ -72,4 +72,3 @@ Input: ???
 - OR '1' = '1'
 - SELECT * FROM Orders
 - ; SELECT * FROM Orders;
- 

@@ -19,7 +19,7 @@ One common mistake is not including the `break` keyword in a switch statement.
 
 Control flow of the switch statement continues until it hits a break.
 
-```plain-text
+```java
 switch (num) {
   case 0: 
     System.out.println("zero");
@@ -44,7 +44,7 @@ one
 
 If the intended output were to be just zero on its own, then a `break` will need to be added after each case, as shown below. Upon executing the `break` keyword (in this context), the Java will branch off to the end of the switch statement.
 
-```plain-text
+```java
 switch (num) {
   case 0: 
     System.out.println("zero");
@@ -130,7 +130,7 @@ switch (num) {
 
 What's the output for `x=1`?
 
-```plain-text
+```java
 switch(x) {
   case 0: 
     System.out.print(0);
@@ -152,4 +152,3 @@ switch(x) {
 - 1
 - 121
 - 10
- 

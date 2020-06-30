@@ -15,7 +15,7 @@ Next to summing values with the `$sum` accumulator, there are many more accumula
 
 One good example is using the `$avg` accumulator to calculate averages. For instance, let's say we want to group all pokémon by their `type` and calculate the average `power` for all pokémon of each `type`. We can do so like this:
 
-```plain-text
+```javascript
 db.pokemon.aggregate([
   {
     $group: {
@@ -30,7 +30,7 @@ db.pokemon.aggregate([
 
 Output:
 
-```plain-text
+```javascript
 { "_id": "Bug", "averagePower": 120 }
 { "_id": "Psychic", "averagePower": 600 }
 { "_id": "Normal", "averagePower": 60.5 }
@@ -45,7 +45,7 @@ Output:
 
 Next, we can use the `$min` and `$max` accumulators to calculate the lowest and highest power level for each `type` of pokémon. We will save the weakest in a field called `w`, and the strongest in a field called `s`.
 
-```plain-text
+```javascript
 db.pokemon.aggregate([
   {
     $group: {
@@ -59,7 +59,7 @@ db.pokemon.aggregate([
 
 Output:
 
-```plain-text
+```javascript
 { "_id": "Bug", "w": 15, "s": 120 }
 { "_id": "Psychic", "w": 401, "s": 800}
 { "_id": "Normal", "w": 35, "s": 86 }
@@ -78,7 +78,7 @@ For instance, we can set the `_id` as `null` and calculate the sum of all powers
 
 Sum:
 
-```plain-text
+```javascript
 db.pokemon.aggregate([
   {
     $group: {
@@ -91,7 +91,7 @@ db.pokemon.aggregate([
 
 Output:
 
-```plain-text
+```javascript
 { 
   "_id": null,
   "totalPower": 878921
@@ -100,7 +100,7 @@ Output:
 
 Average:
 
-```plain-text
+```javascript
 db.pokemon.aggregate([
   {
     $group: {
@@ -113,7 +113,7 @@ db.pokemon.aggregate([
 
 Output:
 
-```plain-text
+```javascript
 { 
   "_id": null, 
   "averagePower": 391.7016
@@ -122,7 +122,7 @@ Output:
 
 Min and max:
 
-```plain-text
+```javascript
 db.pokemon.aggregate([
   {
     $group: {
@@ -136,7 +136,7 @@ db.pokemon.aggregate([
 
 Output:
 
-```plain-text
+```javascript
 { 
   "_id": null, 
   "youngest": 1, 
@@ -212,4 +212,3 @@ db.games.???([
 - `accumulate`
 - `find`
 - `$project`
- 

@@ -28,7 +28,7 @@ links:
 
 For example:
 
-```plain-text
+```css
 h1 {
   color: /* initial or inherit */; }
 body {
@@ -75,4 +75,3 @@ In a HTML document, what does the pseudo-class `:root` refer to?
 - `<body> element`
 - `<root> element`
 - `highest-level <div> element`
- 

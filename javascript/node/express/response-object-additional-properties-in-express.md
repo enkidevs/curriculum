@@ -20,7 +20,7 @@ This object is usually passed to a callback (therefore it can take any name) and
 
 Send a response to the client:
 
-```plain-text
+```javascript
 res.send(body);
 res.send(status,body);
 //default content type is "text/html"
@@ -28,27 +28,27 @@ res.send(status,body);
 
 Send **JSON** to the client:
 
-```plain-text
+```javascript
 res.json(json);
 res.json(status, json);
 ```
 
 Send different content depending on the Accept request header:
 
-```plain-text
+```javascript
 res.format({'text/plain': 'hey',
   'text/html': '<b>hey</b>'});
 ```
 
 Using `res.locals` one can get an object containing the default context for rendering views.  Rendering a view using the configured templating engine can be done using:
 
-```plain-text
+```javascript
 res.render(view,[locals],callback);
 ```
 
 If middleware support is present, client cookies can be set/cleared:
 
-```plain-text
+```javascript
 res.cookie(name,value,[options]);
 res.clearCookie(name,[options]);
 ```
@@ -108,4 +108,3 @@ res.???(???);
 - cookie
 - toJSON
 - sendJSON
- 

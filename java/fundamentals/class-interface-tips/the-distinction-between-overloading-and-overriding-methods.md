@@ -24,7 +24,7 @@ In Java, methods can be both overloaded and overridden.
 
 - Overloading refers to creating two or more methods with the same names but a different number or type of parameters. For example:
 
-```plain-text
+```java
 void addPerson(String name, int age){}
 void addPerson(String name){} 
 
@@ -32,7 +32,7 @@ void addPerson(String name){}
 
 - Overriding refers to redefining a method that has been inherited from a superclass. The new method should have the same name, return type, as well as the same number and type of parameters. However definition of the method will be different. For example:
 
-```plain-text
+```java
 public class Parent{
   int method(int parameter){
     return parameter * 2;
@@ -69,7 +69,7 @@ What’s the name of the process where a method is redefined after being taken f
 
 What is the following code snippet an example of?
 
-```plain-text
+```java
 void newField(String name);
 void newField(String name, String country);
 ```
@@ -80,4 +80,3 @@ void newField(String name, String country);
 - Overriding
 - Overcomplicating
 - Overwriting
- 

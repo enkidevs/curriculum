@@ -23,7 +23,7 @@ This will cause `cron` to call a script that is not executable and thus fail.
 
 By running:
 
-```plain-text
+```bash
 chmod +x /path/to/script
 ```
 
@@ -57,4 +57,3 @@ If the user doesn’t have execute rights for a file, `cron` may
 - fail to run the scripts
 - set the rights automatically
 - still execute them
- 

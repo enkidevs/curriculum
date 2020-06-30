@@ -19,13 +19,13 @@ links:
 
 To list all sockets status (TCP + UDP), all you have to issue is:
 
-```plain-text
+```bash
 ss
 ```
 
 To list TCP (`-t`), UDP (`-u`) or Unix (`-x`) port connections:
 
-```plain-text
+```bash
 # TCP and UDP ports
 ss -tu
 State     Recv-Q Send-Q Local Address:Port
@@ -38,14 +38,14 @@ CLOSE-WAIT 1      0     192.168.100.5:47352
 
 Or you can use the query flag (`-A` or `--query=`):
 
-```plain-text
+```bash
 ss -A tcp
 ss --query=tcp
 ```
 
 By default, the above commands won't display ports that are **Listening**. To include them, add the `-a` (`--all`) flag:
 
-```plain-text
+```bash
 ss -at
 State   Recv-Q Send-Q Local Address:Port
                       Peer Address:Port
@@ -57,7 +57,7 @@ ESTAB   0      0      192.168.100.5:48088
 
 To print out socket statistics:
 
-```plain-text
+```bash
 ss -s
 Total: 1188 (kernel 0)
 TCP:   21 (estab 13, closed 0, orphaned 0,
@@ -74,7 +74,7 @@ FRAG	      0         0         0
 
 Show the apps connected to the Internet:
 
-```plain-text
+```bash
 ss -p
 Netid State RecvQ SendQ Local Address:Port
                         Peer Address:Port
@@ -110,4 +110,3 @@ The explicit number of TCP connections is part of
 - ip
 - ifconfig
 - ports
- 

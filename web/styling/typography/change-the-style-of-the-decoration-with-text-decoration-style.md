@@ -21,7 +21,7 @@ links:
 
 ## Content
 
-```plain-text
+```css
 a {
     // Draws a single line - Default
   text-decoration-style: solid;
@@ -54,4 +54,3 @@ Which of the following is *not* a `text-decoration-style` property? ???
 - double
 - wavy
 - dashed
- 

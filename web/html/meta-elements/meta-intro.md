@@ -19,7 +19,7 @@ Data within the `<meta>` element will never be displayed on a webpage. However, 
 
 Here's an example of how metadata is written within an HTML webpage.
 
-```plain-text
+```html
 <head>
  <meta
    charset="UTF-8">
@@ -89,4 +89,3 @@ Can you name three types of the most common meta tags?
 - Follow, Advertise and Keyword
 - Facebook, Twitter and Google
 - Title, Keyword and Advertise
- 

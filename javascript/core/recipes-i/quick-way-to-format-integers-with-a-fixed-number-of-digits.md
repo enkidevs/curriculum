@@ -19,7 +19,7 @@ links:
 
 If we are required to format a number with a particular amount of digits, for example:
 
-```plain-text
+```html
 0001
 0002
 0102
@@ -44,14 +44,14 @@ Pay attention though, as `slice()` will throw an error if called by a *number*, 
 
 ## Practice
 
-```plain-text
+```javascript
 console.log(("0044742323412")
   .slice(-3));
 ```
 
 Outputs ??? , while
 
-```plain-text
+```javascript
 console.log((32410000).slice(-5));
 ```
 
@@ -67,7 +67,7 @@ outputs ??? .
 
 ## Revision
 
-```plain-text
+```javascript
 console.log(("123").slice(-4));
 ```
 
@@ -76,4 +76,3 @@ console.log(("123").slice(-4));
 - 123
 - 0123
 - 0001
- 

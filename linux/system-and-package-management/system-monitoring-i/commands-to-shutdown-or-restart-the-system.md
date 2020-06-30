@@ -18,7 +18,7 @@ tags:
 
 To shutdown:
 
-```plain-text
+```bash
 sudo shutdown -h now 
 sudo halt
 sudo poweroff
@@ -27,7 +27,7 @@ sudo init 0
 
 To restart:
 
-```plain-text
+```bash
 sudo reboot
 sudo shutdown -r now
 sudo init 6
@@ -64,4 +64,3 @@ command shuts down the system.
 - `sudo reboot`
 - `sudo init 6`
 - `sudo shutdown -r now`
- 

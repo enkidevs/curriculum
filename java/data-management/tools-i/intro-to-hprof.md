@@ -21,19 +21,19 @@ The `HPROF` tool is capable of presenting CPU usage, heap allocation statistics,
 
 Run with `HPROF` :
 
-```plain-text
+```java
 java -agentlib:hprof MyClass
 ```
 
 Obtain heap allocation profile:
 
-```plain-text
+```java
 java -agentlib:hprof=heap=sites MyClass 
 ```
 
 Collect *CPU* usage information (from the compiler) :
 
-```plain-text
+```java
 javac -agentlib:hprof=cpu=samples 
 MyClass.java
 ```
@@ -78,4 +78,3 @@ java ???:hprof=???
 - `allocation`
 - `-a-l`
 - `-hprof`
- 

@@ -21,7 +21,7 @@ notes: ''
 
 `dd` in conjunction with any stream-processing CPU-intensive program can also be used as a simple CPU benchmark! You can run this out of the box as follows:
 
-```plain-text
+```bash
 dd if=/dev/zero bs=1M count=1024 | md5sum
 ```
 
@@ -29,7 +29,7 @@ In this case the `md5sum` program was used, which calculates the MD5 hash of dat
 
 In effect, `dd` here fetches 1 GB of zeroes from the Linux kernel, feeds that to `md5sum`, and then prints how fast in `MB/sec` that was processed. So for example on a modern 3.6 GHz AMD Phenom II CPU:
 
-```plain-text
+```bash
 dd if=/dev/zero bs=1M count=1024 | md5sum
 1024+0 records in
 1024+0 records out
@@ -54,4 +54,3 @@ As a hack for bench-testing the computer’s CPU you can use:
 - `md5sum`
 - `db`
 - `md5s`
- 

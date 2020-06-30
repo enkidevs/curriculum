@@ -22,7 +22,7 @@ notes: ''
 
 In Linux, the `dd` command can be used for simple I/O performance measurements as follows: 
 
-```plain-text
+```bash
 dd if=/dev/zero of=~/testfile \
           bs=1G count=1 oflag=direct
 ```
@@ -73,4 +73,3 @@ What command should be run with the following options to obtain an I/O performan
 The file system cache (*buffed cache*) stores in memory recently used blocks of data to speed up the future access (the same principle applies to the RAM memory, which the buffer cache may borrow to store more data).
 
 When you are copying a large file, the copied data will end up in the cache as well, occupying it unnecessary and dropping older blocks. This slows the system because all other applications that had their blocks stored in cache have to reread them from memory.
- 

@@ -23,7 +23,7 @@ You should stick to this rule so that other people contributing to the project d
 
 If someone does rebase shared commits, you can run:
 
-```plain-text
+```bash
 git pull --rebase
 ```
 
@@ -55,4 +55,3 @@ The best practice is to only `rebase` commits that exist in your ??? ???.
 - local
 - repository
 - remote
- 

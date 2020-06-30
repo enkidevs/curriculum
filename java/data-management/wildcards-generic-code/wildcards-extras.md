@@ -20,7 +20,7 @@ links:
 
 Suppose we have class `A` and class `B` which `extends A`. Then consider:
 
-```plain-text
+```java
 B b = new B();
 
 //this line works just fine
@@ -34,7 +34,7 @@ List<A> listOfA = listOfB;
 
 The point being that although `b` is a subtype of `a`, `List<B>` is not an subtype of `List<A>`. Instead they are both subtypes of `List<?>`.
 
-```plain-text
+```java
 List<? extends Integer> intList
                       = new ArrayList<>();
 //This code will pass
@@ -64,4 +64,3 @@ Considering the `B` is a subtype of `A`, is `List<B>` a subtype of `List<A>`?
 - `<? super Object>`
 - Yes
 - In this case we can not tell
- 

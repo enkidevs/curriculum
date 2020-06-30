@@ -23,7 +23,7 @@ Variables inside of classes are known as *attributes* of the class.
 
 Functions inside any object type are known as *methods* (the case for class functions as well).
 
-```plain-text
+```python
 # a data structure
 class Employee:
     # an attribute
@@ -58,4 +58,3 @@ Functions without an enclosing class are called ???
 - methods
 - attributes
 - objects
- 

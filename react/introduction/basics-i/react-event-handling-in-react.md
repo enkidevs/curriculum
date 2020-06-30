@@ -18,7 +18,7 @@ parent: forms-in-react
 
 Adding **event handlers** in **React** is done by providing a listener to the element when initially `render`ed (and **not** by calling `addEventListener` like with regular DOM):
 
-```plain-text
+```jsx
 class Click extends React.Component {
   render() {
     return (
@@ -32,7 +32,7 @@ class Click extends React.Component {
 
 A common practice when using **ES6 classes** is to have event listeners as separate methods in the class:
 
-```plain-text
+```jsx
 // within Click component:
 myListener(e) {
   console.log('button clicked');
@@ -54,7 +54,7 @@ If we call a function as a standalone function, i.e. `say()`, `this` will be `un
 
 Since we're passing `myListener` into a `button` as the `onClick` function, the `button` will internally call it as a regular function, i.e. `onClick()`, making the `this` be `undefined` and causing an error. By binding `this` to always point to our class instance, we can avoid this problem.
 
-```plain-text
+```jsx
 class Click extends React.Component {
   constructor(props) {
     super(props);
@@ -67,7 +67,7 @@ class Click extends React.Component {
 
 Another approach is to `bind` the function directly:
 
-```plain-text
+```jsx
 render() {
   return (
     <button onClick={
@@ -166,7 +166,7 @@ npm install --save-dev
 
 Then you can define the handler function which will be automatically `bind`ed like:
 
-```plain-text
+```jsx
 myListener = (e) => {
   console.log('button clicked');
   console.log(this.props.test);
@@ -179,7 +179,7 @@ This is fine except in the case when the handler is passed as a `prop` to lower 
 
 Keep in mind this is considered a **bad practice**:
 
-```plain-text
+```jsx
 // ...
 return (
   <button onClick={(e) =>
@@ -188,4 +188,3 @@ return (
   </button>
 );
 ```
- 

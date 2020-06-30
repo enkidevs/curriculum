@@ -20,7 +20,7 @@ links:
 
 Using the `::first-line` and `::first-letter` pseudo elements that have been  introduced in CSS1, a nice typographic effect like a drop cap can be achieved.
 
-```plain-text
+```css
 p::first-letter {
     font-size: 20px;
 }
@@ -30,7 +30,7 @@ This will only work if the  first letter is not preceded by another pseudo-eleme
 
 If there are multiple targeted elements in a row, each first letter will be affected. In order to avoid this `::first-child` or `::first-of-type` pseudo-elements can be used:
 
-```plain-text
+```css
 p::first-child::first-letter {
     font-size: 20px;
 }
@@ -38,7 +38,7 @@ p::first-child::first-letter {
 
 The first line of a text can also be enhanced:
 
-```plain-text
+```css
 p::first-line {
   font-size: 15px;
 }
@@ -79,4 +79,3 @@ The `::first-letter` pseudo-element won't have the expected result if the target
 - has a `::before` pseudo-element set
 - has an `::after` pseudo-element set
 - is not a paragraph
- 

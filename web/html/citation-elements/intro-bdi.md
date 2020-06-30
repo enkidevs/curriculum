@@ -24,7 +24,7 @@ For instance, you can use this on a text that is in English (written left-right)
 
 If you don't use the `<bdi>` element when working with alphanumeric numbers and Arabic text can you see how the code doesn't display as you would expect?:
 
-```plain-text
+```html
 <p>
   User: ماثيو
   428 points.
@@ -39,7 +39,7 @@ In order to display the numbers properly with, for instance, Arabic, here is how
 
 Example:
 
-```plain-text
+```html
 <p>
   User:
   <bdi>ماثيو</bdi>
@@ -98,7 +98,7 @@ Which HTML element is used to isolate a span of text that might be formatted in 
 
 Without the `<bdi>` element, what would happen to the Arabic username and the points?
 
-```plain-text
+```html
 <p>
   User: <bdi>ماثيو</bdi> 428 points.
 </p>
@@ -108,4 +108,3 @@ Without the `<bdi>` element, what would happen to the Arabic username and the po
 - The name will not display at all.
 - The name will display in front of the points.
 - Nothing without CSS styles added.
- 

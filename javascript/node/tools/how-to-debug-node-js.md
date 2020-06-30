@@ -27,7 +27,7 @@ There are many options when debugging Node applications.
 Debug by putting a `debugger` statement in your code.
 Run by:
 
-```plain-text
+```bash
 node debug app.js
 ```
 
@@ -36,7 +36,7 @@ node debug app.js
 More sophisticated debugging can be done using **Node Inspector**, which allows debugging via an interface inside of a browser.
 Run by:
 
-```plain-text
+```bash
 npm install -g node-inspector
 node-debug app.js
 ```
@@ -45,7 +45,7 @@ node-debug app.js
 
 **Iron Node** also has sophisticated debugging for Linux, Windows and OS X.
 
-```plain-text
+```bash
 npm install iron-node -g;
 iron-node app.js
 ```
@@ -80,4 +80,3 @@ Start node with its built-in debugger:
 - debugger
 - node-debug
 - iron-node
- 

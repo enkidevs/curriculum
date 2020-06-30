@@ -19,7 +19,7 @@ The HTML input element of type `text` is used to create basic single line text f
 
 Example:
 
-```plain-text
+```html
 <input type="text">
 ```
 
@@ -27,7 +27,7 @@ These text fields are useful for instance when you need single line inputs like 
 
 Example new account:
 
-```plain-text
+```html
 <form>
   <div>
     <label
@@ -61,7 +61,7 @@ Next, you can control the physical size of your input fields with the `size` att
 
 Example: 
 
-```plain-text
+```html
 <input type="text" size="10" >
 ```
 
@@ -109,7 +109,7 @@ Which line creates a HTML form’s input text field?
 
 What does the required attribute do in this code?
 
-```plain-text
+```html
 <form>
   <div>
     <label
@@ -133,4 +133,3 @@ What does the required attribute do in this code?
 - Standard when creating any input type
 - makes the text turn blue
 - Makes the user type only text as input, no numbers allowed
- 

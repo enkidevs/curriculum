@@ -20,7 +20,7 @@ In addition to Python's built-in data structures (such as tuples, dicts, and lis
 
 Import the module:
 
-```plain-text
+```python
 import collections
 ```
 
@@ -57,4 +57,3 @@ Which collections class is used for defining a meaning for every position in a t
 - `namedtuple`
 - `definetuple`
 - `definitiontuple`
- 

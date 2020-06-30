@@ -26,7 +26,7 @@ The pattern attribute works for several input types:
 
 Example:
 
-```plain-text
+```html
 <form
   action="/action.php">
   Enter 5 Digit Zip Code:
@@ -49,7 +49,7 @@ You can also create different patterns using this technique. For instance, if yo
 
 Another popular example, where a more complicated pattern is used to force the user to make a more complicated password:
 
-```plain-text
+```html
 <form
   action="/action.php">
   Password:
@@ -77,7 +77,7 @@ In the example above, the user has to have at least one lowercase letter, one up
 
 Mark the string that would NOT pass this pattern:
 
-```plain-text
+```html
 <input
   type="text" name="test"
   pattern="[a-zA-Z0-9]{0,10}"
@@ -144,4 +144,3 @@ When you look at the title, which regular expression do you think should be set 
 - `[A-Za-z0-9_]{1-15}`
 - `[a-zA-Z0-9_]{15}`
 - `[A-Z-a-z-0-9_]{1-15}`
- 

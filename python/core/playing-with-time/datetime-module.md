@@ -24,7 +24,7 @@ They represent specific points in time that aren't open to interpretation.
 
 The `datetime` module itself exports the constants:
 
-```plain-text
+```python
 datetime.MINYEAR # 1
 # smallest year of date/datetime objects
 datetime.MAXYEAR # 9999
@@ -33,7 +33,7 @@ datetime.MAXYEAR # 9999
 
 Keep in mind that in the `datetime` **module** there is also a `datetime` **class** and they shouldn't be confused.
 
-```plain-text
+```python
 # printing the current date and time
 # with datetime class
 
@@ -76,4 +76,3 @@ print(???.???)
 - `date`
 - `time`
 - `max_year`
- 

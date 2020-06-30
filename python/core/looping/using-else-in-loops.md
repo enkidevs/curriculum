@@ -18,7 +18,7 @@ They are implemented so that once a `for` or a `while` loop condition evaluates 
 
 For example, an `else` statement integrated into a `while` loop:
 
-```plain-text
+```python
 x = 0
 while (x < 3):
     print(x)
@@ -29,7 +29,7 @@ else:
 
 Gives the following output:
 
-```plain-text
+```python
 0
 1
 2
@@ -38,7 +38,7 @@ Gives the following output:
 
 Also, an `else` statement integrated into a `for` loop in a similar example:
 
-```plain-text
+```python
 for x in range(0, 5):
     print(x)
 else:
@@ -47,7 +47,7 @@ else:
 
 Gives the following output:
 
-```plain-text
+```python
 0
 1
 2
@@ -58,7 +58,7 @@ Gives the following output:
 
 If loops exit because of a `break` clause, the `else` clause will be skipped:
 
-```plain-text
+```python
 for i in range(0, 2):
     if i == 1:
         print("a")
@@ -70,7 +70,7 @@ else:
 
 With the output:
 
-```plain-text
+```python
 b
 a
 ```
@@ -120,7 +120,7 @@ An `else` statement is used in loops when the loops ??? is evaluated to ???.
 ### what will the following code snippet print?
 
 
-```plain-text
+```python
 for i in [1, 2]:
     if i == 1:
         print("a")
@@ -136,4 +136,3 @@ else:
 - a a
 - b a
 - a c
- 

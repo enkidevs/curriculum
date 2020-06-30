@@ -17,7 +17,7 @@ links:
 
 You can use the `-N` flag to show that you are going to track a file in the future:
 
-```plain-text
+```bash
 git add -N file.txt
 ```
 
@@ -56,4 +56,3 @@ git add ???
 - `-A`
 - `-a`
 - `-m`
- 

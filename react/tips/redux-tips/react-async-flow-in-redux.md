@@ -34,13 +34,13 @@ There are two ways of adding capabilities to Redux, whether that is handling asy
 
 To use `redux-thunk`, you must first install the library. Here's how to do that using the NPM package manager:
 
-```plain-text
+```shell
 npm install redux-thunk
 ```
 
 The next step consists of enabling Redux Thunk, which is done by calling `applyMiddleware(thunk)` when creating the store:
 
-```plain-text
+```js
 import {
   createStore,
   applyMiddleware
@@ -55,7 +55,7 @@ const store = createStore(
 
 Now that we have enabled Redux Thunk, we can use it to create async functions. Here is an example:
 
-```plain-text
+```js
 function increase() {
   return {
     type: "increase_counter"
@@ -73,7 +73,7 @@ function increase_async() {
 
 In the above example, the `increase_async` function will dispatch our `increase` action after waiting one second. It is also possible to create functions that dispatch after a certain condition has been fulfilled:
 
-```plain-text
+```js
 function conditional_async() {
   return (dispatch, getState) => {
     const { counter } = getState();
@@ -115,4 +115,3 @@ Does the default Redux store support asynchronous data flow?
 - yes
 - only if used with React
 - only with ES6
- 

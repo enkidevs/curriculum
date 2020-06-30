@@ -29,7 +29,7 @@ A `string` is a data type that represents a sequence of characters.
 
 For a value to be a string, it must be enclosed in single (`'`) or double (`"`) quotation marks or back-ticks `` ` ``.
 
-```plain-text
+```ts
 let brand: string = 'Samsung';
 brand = "Apple";
 brand = `Enki`;
@@ -39,7 +39,7 @@ brand = `Enki`;
 
 As you might've already guessed, the `number` type is used to store any numerical value[1]:
 
-```plain-text
+```ts
 let meaningOfLife: number = 42;
 let pi: number = 3.14;
 ```
@@ -48,7 +48,7 @@ let pi: number = 3.14;
 
 The boolean type can only take two values, `true` or `false`:
 
-```plain-text
+```ts
 let isTrue: boolean = true;
 let isFalse: boolean = false;
 ```
@@ -91,11 +91,10 @@ let c: ??? = 123.4;
 [1: Numerical Values in TypeScript]
 TypeScript numerical values can be integers, decimals, hexadecimals, binary literals or octal literals.
 
-```plain-text
+```ts
 let integer: number = 42;
 let decimal: number = 3.14;
 let hexadecimal: number = 0xf010;
 let binary: number = 0b1111000000010000;
 let octal: number = 0o170020;
 ```
- 

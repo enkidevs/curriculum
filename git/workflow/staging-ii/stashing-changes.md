@@ -18,7 +18,7 @@ notes: ''
 
 If you want to switch branches but aren't ready to commit the work on your current branch, you can stash the changes on the stack:
 
-```plain-text
+```bash
 git stash
 Saved working directory and index state
 "WIP on master: bc43f10 Edit index.html"
@@ -28,7 +28,7 @@ Your working directory will now be clean and you can switch branches.
 
 To view current list of stashes:
 
-```plain-text
+```bash
 git stash list
 stash@{0}: WIP on master: bc43f10 
  Edit index.html
@@ -38,7 +38,7 @@ stash@{1}: WIP on master: c26ded3
 
 To apply a stash:
 
-```plain-text
+```bash
 git stash apply stash@{1}
 ```
 
@@ -46,13 +46,13 @@ You don't have to apply the stash to the same branch you made it on. git will ge
 
 To remove a stash from the stack:
 
-```plain-text
+```bash
 git stash drop stash@{0}
 ```
 
 You can apply the stash and remove it from the list in one command:
 
-```plain-text
+```bash
 git stash pop
 ```
 
@@ -87,4 +87,3 @@ git stash ???
 - `pop`
 - `apply`
 - `list`
- 

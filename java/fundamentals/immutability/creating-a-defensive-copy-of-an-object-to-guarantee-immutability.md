@@ -20,7 +20,7 @@ In order for an object to be immutable, it should not be possible to change its 
 
 This example shows a constructor for the class 'Person'. `dateOfBirth` is a field which is an object of type `Date`. `Date` is mutable, so it is possible for its value to be changed from outside of the Person class. This means that 'Person' is not immutable.
 
-```plain-text
+```java
 public Person(String name, int age, 
   Date dateOfBirth) {
   this.name = name;
@@ -31,10 +31,9 @@ public Person(String name, int age,
 
 In order to make 'Person' immutable we need to use a defensive copy.
 
-```plain-text
+```java
 this.dateOfBirth = 
   new Date(dateOfBirth.getTime());
 ```
 
 Rather than assigning the existing `dateOfBirth` object to our new 'Person' object, we create a copy of that object inside the class.
- 

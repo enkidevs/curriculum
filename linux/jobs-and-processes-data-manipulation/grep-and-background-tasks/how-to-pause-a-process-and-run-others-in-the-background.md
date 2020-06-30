@@ -21,7 +21,7 @@ links:
 CTRL+Z  # pauses an application
 ```
 
-```plain-text
+```bash
 fg # returns you to the
    # most recent application
 
@@ -31,7 +31,7 @@ bg # sends a paused process
 
 Let's say you've opened a file in `nano` (terminal text editor) like this :
 
-```plain-text
+```bash
 nano abc.txt
 ```
 
@@ -41,7 +41,7 @@ All you really have to do is press `Ctrl-Z` which will force the foreground appl
 
 If you have more than one paused process, you can list them with:
 
-```plain-text
+```bash
 jobs
 [1]+   Stopped     nano abc.txt
 #^jobID
@@ -49,25 +49,25 @@ jobs
 
 This will return the process ID that you can use to bring it back to the foreground:
 
-```plain-text
+```bash
 fg %jobID
 ```
 
 Or make it run in the background:
 
-```plain-text
+```bash
 bg %jobID
 ```
 
 Or kill it:
 
-```plain-text
+```bash
 kill processID
 ```
 
 The difference between *job IDs* and *process IDs* is that jobs are specific to a shell. Therefore, the job ID and process ID for the same process might differ:
 
-```plain-text
+```bash
 jobs -l
 [1]+  3720  Stopped   nano abc.txt 
 #     ^processID
@@ -105,4 +105,3 @@ Bringing the most recently paused process to the front is done by running
 - `bg`
 - `pop`
 - `start -fg`
- 

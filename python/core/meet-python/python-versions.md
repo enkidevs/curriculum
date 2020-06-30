@@ -24,13 +24,13 @@ Python 3 is easier for beginners to understand, and is being updated frequently 
 
 In the latest version of Python, text is printed as follows:
 
-```plain-text
+```python
 print('Python 3')
 ```
 
 In older versions, text is printed like this:
 
-```plain-text
+```python
 print 'Python 2'
 ```
 
@@ -72,4 +72,3 @@ Python 2: ???
 - `print 'Hello world!'`
 - `write 'Hello world!'`
 - `write('Hello world!')`
- 

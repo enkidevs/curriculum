@@ -21,7 +21,7 @@ You can use this to tell the browser that it can break a line in a place the bro
 
 Let's say you have this link:
 
-```plain-text
+```html
 <p>
   http://www.enkipro.com/path/filename.html
 </p>
@@ -54,7 +54,7 @@ Example with a `<wbr>` element between `Llanfairpwllgwyngyllgogerychwyrn` and `d
 
 Mark the true statement regarding the `<wbr>` element.
 
-```plain-text
+```html
 <p>
   http://www.enkipro.com/
   <wbr>path/filename.html
@@ -94,16 +94,16 @@ Which HTML element represents a line breaking opportunity?
 
 ## Quiz
 
-### How much do you know about the 
+### How much do you know about the
+
 
 `<wbr>`
 
  element?
 
-
 Mark the following statements that are true regarding the `<wbr>` element.
 
-```plain-text
+```html
 <p>
   http://www.enkipro.com/
   <wbr>path/filename.html
@@ -116,4 +116,3 @@ Mark the following statements that are true regarding the `<wbr>` element.
 - browser will only add line-break at `<wbr>` when necessary.
 - a line break is forced in a long string at the `<wbr>`.
 - `<wbr>` adds additional information within URL paths.
- 

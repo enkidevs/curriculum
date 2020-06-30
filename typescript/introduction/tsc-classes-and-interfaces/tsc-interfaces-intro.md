@@ -22,7 +22,7 @@ The `interface` type is used to define a shape of an object.
 
 > 💡 Unlike a class, an interface is a virtual structure that only exists for type-checking purposes.
 
-```plain-text
+```ts
 // define what the shape of
 // the Book object
 // should look like
@@ -51,7 +51,7 @@ Their purpose is to declare a type for specific object shapes.
 
 We can use interfaces to declare object properties as optional or read only:
 
-```plain-text
+```ts
 interface PaymentTransaction {
   // an optional comment
   comment?: string;
@@ -109,7 +109,7 @@ let reader??? = {
 
 Will the following code cause a type error?
 
-```plain-text
+```ts
 interface Enki {
   note?: string,
 }
@@ -121,4 +121,3 @@ let e: Enki = {};
 
 - No
 - Yes
- 

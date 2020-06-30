@@ -25,7 +25,7 @@ The best way to manage locally installed packages is through the **package.json*
 
 The syntax to specify dependencies inside *package.json* is:
 
-```plain-text
+```javascript
 "dependencies" : {
   "name": "package-name",
 //version should be declared as x.x.x
@@ -39,7 +39,7 @@ The syntax to specify dependencies inside *package.json* is:
 
 To create the *package.json* file, run:
 
-```plain-text
+```bash
 npm init -y
 ```
 
@@ -95,4 +95,3 @@ The *package.json* file serves as
 - a list of dependencies
 - a list of scripts to be run
 - a short description of your project
- 

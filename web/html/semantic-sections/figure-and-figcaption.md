@@ -27,7 +27,7 @@ The `<figure>` element is usually an image, code snippet, diagram, illustration,
 
 Example with a poem:
 
-```plain-text
+```html
 <figure>
  <p>
    Old cave, hidden door,<br>
@@ -51,7 +51,7 @@ Example with a poem:
 
 Match the code with the tags to properly define a caption for the photo.
 
-```plain-text
+```html
 <tag1>
   <img src="waterfall.jpg"
   alt="Seljalandsfoss waterfall
@@ -98,7 +98,8 @@ Use ??? when the content is required and the position is important in the contex
 
 ## Quiz
 
-### How much do you know about 
+### How much do you know about
+
 
 `<figure>`
 
@@ -112,7 +113,6 @@ Use ??? when the content is required and the position is important in the contex
 
 ?
 
-
 What HTML element best defines a caption or legend for a figure?
 
 - `<figcaption>`
@@ -120,4 +120,3 @@ What HTML element best defines a caption or legend for a figure?
 - `<legend>`
 - `<fig>`
 - `<figtitle>`
- 

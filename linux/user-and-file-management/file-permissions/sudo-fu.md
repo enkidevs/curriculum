@@ -22,7 +22,7 @@ Assume all default or conventional unix directories have default set of permissi
 
 sudo:no sudo
 
-```plain-text
+```true
 
 ls /usr
 %exp
@@ -81,7 +81,7 @@ Shutdown sets a time when the pc should be shut down. It is specified that the c
 
 ```
 
-```plain-text
+```false
 passwd someguy
 %exp
 This command enables the logged on user to change others users passwords. Only sudoers can do it.
@@ -138,4 +138,3 @@ In order to remove everything from /usr/bin directory you need to have sudo acce
 %
 
 ```
- 

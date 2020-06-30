@@ -21,7 +21,7 @@ The `less` command is a "pager", which allows you to scroll and search through s
 
 A simple example:
 
-```plain-text
+```shell
 ps aux | less
 ```
 
@@ -82,4 +82,3 @@ Is `more` `less` or `less` `more`?
 - Both are true
 - more is less
 - Neither
- 

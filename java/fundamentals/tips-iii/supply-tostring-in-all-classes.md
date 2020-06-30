@@ -22,7 +22,7 @@ By default, it will return the `class` name followed by the `@` character and th
 
 `@Override` this method in order to provide any relevant debugging or printing information:
 
-```plain-text
+```java
 //user defined MyObject
  @Override
     public String toString() {
@@ -33,7 +33,7 @@ By default, it will return the `class` name followed by the `@` character and th
 
 The *PrintStream* method `println()` will invoke the `toString()` method, directly printing the relevant information.
 
-```plain-text
+```java
 System.out.println(new MyObject());
 ```
 
@@ -66,4 +66,3 @@ What does the `toString()` method return by default?
 - The first field value.
 - Every field:value pair.
 - Every field:value pair and a list of methods.
- 

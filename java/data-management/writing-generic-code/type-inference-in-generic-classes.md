@@ -20,7 +20,7 @@ links:
 
 Using generic classes in Java can sometimes result in verbose syntax, for example:
 
-```plain-text
+```java
 Map<Integer, List<String>> hashMap = 
   new HashMap<Integer, List<String>>();
 ```
@@ -33,4 +33,3 @@ Map<Integer, List<String>> hashMap =
 ```
 
 We now only have to state the type arguments once. The compiler will be able to infer from this assignment statement that the type of the `new HashMap<>()` should be `<Integer, List<String>>`.
- 

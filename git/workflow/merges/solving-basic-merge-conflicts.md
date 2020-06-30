@@ -15,7 +15,7 @@ Merge conflicts occur when the same part of the code has been modified in both b
 
 For example, if the same line of `README.md` is edited in `fix` and `master`:
 
-```plain-text
+```bash
 git merge fix
 # conflict with README.md
 # merge failed
@@ -23,7 +23,7 @@ git merge fix
 
 The file impacted will have conflict-resolution markers (`<<<<<<<` and `>>>>>>>`) added to it by git, showing the conflicting lines (separated by `=======`). Opening `README.md` in a text editor:
 
-```plain-text
+```bash
 To contact us email:
 <<<<<<< HEAD
 hello@enki.com
@@ -79,4 +79,3 @@ git ???
 - `rm`
 - `branch`
 - `commit`
- 

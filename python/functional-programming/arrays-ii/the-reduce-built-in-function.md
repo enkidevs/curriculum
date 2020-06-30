@@ -37,7 +37,7 @@ would effectively calculate:
 
 The general syntax for the `reduce` function is of the form:
 
-```plain-text
+```python
 reduce(function, iterable[, initializer])
 ```
 
@@ -102,7 +102,7 @@ print(???(???, ???))
 
 What is calculated as a result of the following code execution?
 
-```plain-text
+```python
 numbers = [100, 2, 2, 5]
 print(reduce(lambda x, y: x / y, numbers))
 ```
@@ -121,4 +121,3 @@ print(reduce(lambda x, y: x / y, numbers))
 
 [1:Functional Programming]
 *The style of programming that eschews imperative loops such as for loops is called functional programming. For more information about functional programming and Python, see the related workout, since the topic is too broad to cover in one lesson.*
- 

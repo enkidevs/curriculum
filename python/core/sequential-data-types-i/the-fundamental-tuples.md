@@ -22,13 +22,13 @@ They're used to *group any number of items*, regardless of their type, into a *s
 
 > A tuple is created by separating items with commas, and are often wrapped in optional parentheses `()` to make them stand out.
 
-```plain-text
+```python
 my_first_tuple = ('first', 1, '1', 1.0)
 ```
 
 Again, we can extract elements from tuples using the index operator, and items cannot be reassigned:
 
-```plain-text
+```python
 print(my_first_tuple[3])
 # 1.0
 
@@ -76,4 +76,3 @@ print(???[???])
 - `my_tuple.search`
 - `3`
 - `1`
- 

@@ -15,7 +15,7 @@ To delete a collection in MongoDB, you need to use the `db.mycollection.drop()` 
 
 It's usually a good practice to first list all of the collections to make sure you don't delete the wrong one.
 
-```plain-text
+```javascript
 show collections
 
 // pokemon
@@ -26,7 +26,7 @@ Unlike most SQL implementations, the collection names are case-sensitive in Mong
 
 Here's how we can delete the 2nd collection called `Pokemon`:
 
-```plain-text
+```javascript
 db.Pokemon.drop()
 // true
 ```
@@ -62,4 +62,3 @@ Delete the collection named `Pokemon` from the current database:
 - `pokemon`
 - `deleteCollection()`
 - `database`
- 

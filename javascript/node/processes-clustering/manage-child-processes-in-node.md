@@ -19,13 +19,13 @@ links:
 
 The `child_process` module is required for any operation of this sort:
 
-```plain-text
+```javascript
 let child = require('child_process');
 ```
 
 The `exec(command, callback)` can be used to to run **UNIX** commands:
 
-```plain-text
+```javascript
 child.exec("ls", function(
   err,
   stdout,
@@ -40,7 +40,7 @@ child.exec("ls", function(
 
 This method does not provide any means of communicating with the parent and gives a buffered output. The `spawn()` method is an improved version of the first:
 
-```plain-text
+```javascript
 let spawn = require("child_process").spawn;
 
 // Create a child process
@@ -53,7 +53,7 @@ let child = spawn("tail", [
 
 Listeners to `stdout` and `stderr` streams can be added:
 
-```plain-text
+```javascript
 child.stdout.on("data", function(data) {
   console.log(data);
 });
@@ -90,4 +90,3 @@ What module is required to spawn child processes?
 - `child_processes`
 - `spawn_process`
 - `child-cpu`
- 

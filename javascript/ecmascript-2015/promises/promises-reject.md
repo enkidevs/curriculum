@@ -20,7 +20,7 @@ When using promises we can indicate something has failed by using the `reject` f
 
 Let's try this with our previous example:
 
-```plain-text
+```javascript
 let p = new Promise((resolve, reject) => {
   setTimeout(() => {
     reject("enki");
@@ -35,7 +35,7 @@ Uh oh - note how the `then` method was not called and how we now have an uncaugh
 
 But don't worry as we can use the `catch` handler to define logic to be called when errors occur:
 
-```plain-text
+```javascript
 var p = new Promise((resolve, reject) => {
   setTimeout(() => {
     reject("enki");
@@ -54,7 +54,7 @@ The `then` method we used actually takes two arguments like promise - a function
 
 Both are optional so you can pass in a null value if you just want to specify something to be called on rejection:
 
-```plain-text
+```javascript
 .then(null,
 function(error){
  console.log(error);
@@ -104,4 +104,3 @@ const p = new ???(
 - try
 - resolve
 - reject
- 

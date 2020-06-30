@@ -20,7 +20,7 @@ links:
 
 To horizontally center blocks of unknown width:
 
-```plain-text
+```css
 #horizontal-center {
   position: absolute;
   left: 50%;
@@ -41,7 +41,7 @@ You can check out the evolution here:
 
 What does the following CSS code do? ???
 
-```plain-text
+```css
 #class {
    position: absolute;
    left: 50%;
@@ -53,4 +53,3 @@ What does the following CSS code do? ???
 - Horizontally flips a block with an unknown width.
 - Sets a blocks left side to be 50% across the document.
 - Sets the blocks position to absolute and flips it horizontally.
- 

@@ -20,7 +20,7 @@ links:
 
 In Python we're able to chain operators. This means that we can use more than one at a time, like this:
 
-```plain-text
+```python
 x = 10
 
 1 < x < 15
@@ -29,7 +29,7 @@ x = 10
 
 Chaining operators is equivalent to:
 
-```plain-text
+```python
 x = 10
 
 1 < x  and x < 15
@@ -77,7 +77,7 @@ a = 9
 
 How would we use chain comparison operators to express this conditional statement?
 
-```plain-text
+```python
 if x >= y and x <= y:
     ...
 ```
@@ -86,4 +86,3 @@ if x >= y and x <= y:
 - `if y <= and x <= z:`
 - `if (y <= and x <= z):`
 - `if y >= x <= z:`
- 

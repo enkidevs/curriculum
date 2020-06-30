@@ -22,7 +22,7 @@ The HTML inputs of type `submit` and `reset` are rendered as buttons with `onCli
 
 Example submit:
 
-```plain-text
+```html
 <input
   type="submit"
   value="Submit">
@@ -32,7 +32,7 @@ Example submit:
 
 Example reset:
 
-```plain-text
+```html
 <input
   type="reset"
   value="Reset data">
@@ -48,7 +48,7 @@ The `type="submit"` button is used to submit a form.
 
 Example submit and reset with one text field:
 
-```plain-text
+```html
 <form>
     <label
       for="name">Name:
@@ -73,7 +73,7 @@ Furthermore, you can add shortcuts both to the `submit` and `reset` buttons via 
 
 Previous example with shortcuts added:
 
-```plain-text
+```html
 <form>
     <label
       for="name">Name:
@@ -148,7 +148,7 @@ Write the form code that creates a submit button.
 
 If values are not assigned to reset and submit buttons stating what text the buttons should display, what happens?
 
-```plain-text
+```html
 <input type="submit">
 <input type="reset">
 ```
@@ -157,4 +157,3 @@ If values are not assigned to reset and submit buttons stating what text the but
 - Nothing is added to the HTML page.
 - They display as buttons without text.
 - The page breaks
- 

@@ -24,13 +24,13 @@ The *worker* class has many built in functions which can be used to obtain infor
 
 Each new *worker* is given a unique *workers* *ID*, while the worker is alive, the ID number is the key that indexes it in `cluster.wokers`. To get the ID number:
 
-```plain-text
+```javascript
 worker.id();
 ```
 
 To check if a *worker* is connected to its master via its *IPC* channel. The function returns *true* if connected, and *false* if disconnected.
 
-```plain-text
+```javascript
 if (worker.isConnected()) {
   process.send('Worker connected!');
 }
@@ -75,4 +75,3 @@ if (worker.???()) {
 - worker
 - isIPC
 - send
- 

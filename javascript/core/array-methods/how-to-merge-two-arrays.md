@@ -15,7 +15,7 @@ links:
 
 One approach that we can use to merge two arrays in JavaScript, is to loop through the first array and add each of its elements to the second array:
 
-```plain-text
+```js
 let array1 = [1, 2, 3];
 let array2 = [4, 5, 6];
 
@@ -29,7 +29,7 @@ console.log(array2);
 
 We can also use the spread operator, i.e. `...`, to do the same with less code:
 
-```plain-text
+```js
 let array1 = [1, 2, 3];
 let array2 = [4, 5, 6];
 
@@ -41,7 +41,7 @@ console.log(array2);
 
 Arrays also have a method that can be used to merge them:
 
-```plain-text
+```js
 let array1 = [1, 2, 3];
 let array2 = [4, 5, 6];
 let array3 = array1.concat(array2);
@@ -51,7 +51,7 @@ The notable difference when using `concat` is that, instead of merging one array
 
 Note that, unlike other languages, JavaScript does not support using `+` to concatenate arrays. The output of such an operation would be a string:
 
-```plain-text
+```javascript
 console.log([1, 2] + [3, 4])
 // 1,23,4
 ```
@@ -83,7 +83,7 @@ array1.???(???array2)
 
 What is the value of `a` at the end of the following snippet?
 
-```plain-text
+```javascript
 let a = [3, 1, 4]
 let b = [2, 7, 1]
 a.concat(b);
@@ -106,7 +106,7 @@ console.log(a);
 ### what is the result of the following addition?
 
 
-```plain-text
+```javascript
 console.log([3, 14] + [2, 71])
 ```
 
@@ -116,4 +116,3 @@ console.log([3, 14] + [2, 71])
 - 3,14,2,71
 - [3,14,2,71]
 - [5, 85]
- 

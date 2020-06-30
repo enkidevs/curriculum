@@ -19,7 +19,7 @@ links:
 
 These include:
 
-```plain-text
+```css
 // turning a number into a percentage
 percentage(0.74) => 74%
 percentage(100px / 80px) => 125%
@@ -67,7 +67,7 @@ abs(-2px); /* ??? */
 
 What do the following number functions return? Answer in order of the question.
 
-```plain-text
+```css
 percentage(120px / 80px);
 abs(-1px);
 random(2);
@@ -84,4 +84,3 @@ random(2);
 - 0px
 - random value : `0 <= x <= 2`
 - random value : `x < 2`
- 

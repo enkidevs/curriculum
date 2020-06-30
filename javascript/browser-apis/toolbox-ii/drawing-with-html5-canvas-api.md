@@ -16,14 +16,14 @@ links:
 
 With the `Canvas` object it is possible to draw simple shapes and graphics directly in the browser.
 
-```plain-text
+```html
 <!-- make a canvas element -->
 <canvas id='canvas'></canvas>
 ```
 
 `Canvas` supports drawing lines, rectangles, and more esoteric shapes, in addition to supporting images and animations.
 
-```plain-text
+```javascript
 let canvas =
     document.getElementById("canvas");
 // get the 2d context to draw in 2d
@@ -85,4 +85,3 @@ context.???(20,20,100,200)
 - `rectangle`
 - `drawRectangle`
 - `document`
- 

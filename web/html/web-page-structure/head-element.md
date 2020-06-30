@@ -34,7 +34,7 @@ Example of metadata:
 
 Simple example:
 
-```plain-text
+```html
 <html>
   <head>
     <meta charset="utf-8">
@@ -52,7 +52,7 @@ The `<head>` element can also contain a page description for search engines or l
 
 Larger example:
 
-```plain-text
+```html
 <html>
   <head>
   
@@ -112,12 +112,12 @@ The `<head>` of web pages can contain all but one of these, which one?
 
 ## Quiz
 
-### How much do you know about the 
+### How much do you know about the
+
 
 `<head>`
 
  HTML element?
-
 
 What order is recommended for adding CSS & JS in the `<head>` of an HTML page?
 
@@ -127,4 +127,3 @@ What order is recommended for adding CSS & JS in the `<head>` of an HTML page?
 - JS first, then CSS
 - CSS only, JS can't be.
 - JS only, CSS can't be.
- 

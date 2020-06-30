@@ -15,7 +15,7 @@ The aggregation `$mod` operator is used to calculate the `modulus` (remainder) w
 
 Syntax:
 
-```plain-text
+```javascript
 { $mod: 
   [ 
     <expression1>, 
@@ -26,7 +26,7 @@ Syntax:
 
 For instance, let's say we have a `pokemon` database where each pokémon has a `power` and `age` field. Each pokemon can evolve into a greater and stronger one. The way they evolve is by casting a specific number of spells, which is determined by the remainder of `power` divided by `age`.
 
-```plain-text
+```javascript
 db.pokemon.aggregate([
   {
     $project: {
@@ -40,7 +40,7 @@ db.pokemon.aggregate([
 
 Output:
 
-```plain-text
+```javascript
 {   
   "_id": ObjectId(
     "5d9d8c330b24990f19398214"
@@ -70,4 +70,3 @@ What is the `$mod` aggregation operator used for?
 - To divide 2 numbers.
 - To calculate the sum of 2 numbers.
 - To multiply 2 numbers.
- 

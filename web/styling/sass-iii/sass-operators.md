@@ -21,7 +21,7 @@ links:
 
 Operators will only work for numbers with compatible units. For example:
 
-```plain-text
+```css
 h1 {
   // compatibility error
   font-size: 3px + 8em;
@@ -34,7 +34,7 @@ h1 {
 
 Using variables along with plain CSS with numeric operators:
 
-```plain-text
+```css
 p {
   $font-size: 12px;
   $line-height: 30px;
@@ -44,7 +44,7 @@ p {
 
 Would generate this CSS:
 
-```plain-text
+```css
 p {
   font: 12px/30px;
 }
@@ -93,4 +93,3 @@ p {
 - `font-size`
 - `line-height`
 - `\`
- 

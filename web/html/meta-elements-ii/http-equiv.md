@@ -17,7 +17,7 @@ The value of `http-equiv` is defined inside the `content` attribute.
 
 Example 1: The document will refresh every 30 seconds.
 
-```plain-text
+```html
 <head>
   <meta
     http-equiv="refresh"
@@ -27,7 +27,7 @@ Example 1: The document will refresh every 30 seconds.
 
 Example 2: The document will automatically redirect users from one webpage to another after 30 seconds.
 
-```plain-text
+```html
 <head>
   <meta
     http-equiv="refresh"
@@ -38,7 +38,7 @@ Example 2: The document will automatically redirect users from one webpage to an
 
 **Note:** The better option is using JS:
 
-```plain-text
+```html
 <script>
   window.location =
   "http://new-website.com";
@@ -60,7 +60,7 @@ The `content-security-policy` allows authors to define a content policy for the 
 
 Before HTML5 you would use the `http-equiv="content-type` attribute to specify the character set of an HTML document. Like so:
 
-```plain-text
+```html
 <meta
   http-equiv="content-type"
   content="text/html;
@@ -115,16 +115,16 @@ Which line of code automatically redirect users from one webpage to another afte
 
 ## Quiz
 
-### How much do you know about the HTML meta 
+### How much do you know about the HTML meta
+
 
 `http-equiv`
 
  attribute?
 
-
 The easiest way to redirect a web page to another is using a meta redirect tag in the `<head>`, but is it the best way?
 
-```plain-text
+```html
 <meta
   http-equiv="refresh"
   content="0;
@@ -137,4 +137,3 @@ The easiest way to redirect a web page to another is using a meta redirect tag i
 - Yes
 - There is an error in the sample code.
 - This way doesn't work at all.
- 

@@ -88,4 +88,3 @@ What's the syntax of an **IIFE** ?
 - `)`
 - `name`
 - `call`
- 

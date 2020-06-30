@@ -23,7 +23,7 @@ Since bind mounts are host-specific, they cannot be part of a Dockerfile and hav
 
 Similarly to volumes, a bind mount is created with the `-v` flag, but with bind-mounts we pass in a full path instead of a name.
 
-```plain-text
+```bash
 docker container run \
   -v ~/enki/local_path:/path/container mysql
 ```
@@ -57,4 +57,3 @@ docker container run \
 - /data
 - -b
 - --bind
- 

@@ -20,13 +20,13 @@ links:
 
 An alternative to using an if/else statement is the use of the ternary operator, whose syntax appears below.
 
-```plain-text
+```java
 result = testCondition ? value1 : value2;
 ```
 
 Below are two equivalent statements.
 
-```plain-text
+```java
 int x;
 if (y > 3) {
   x = 1;
@@ -35,7 +35,7 @@ if (y > 3) {
 }
 ```
 
-```plain-text
+```java
 int x = y > 3 ? 1 : 0;
 ```
 
@@ -46,7 +46,7 @@ int x = y > 3 ? 1 : 0;
 
 Which of the following is equivalent to the if statement below:
 
-```plain-text
+```java
 int count;
 if (flag > 5) {
   count = 2;
@@ -90,7 +90,7 @@ int num = x > 2 ??? 2 ??? 0
 ### Which single boolean should be negated for the output to be true?
 
 
-```plain-text
+```java
 
 System.out.println(true?false:true==true?false:true);
                     1     2    3          4
@@ -102,4 +102,3 @@ System.out.println(true?false:true==true?false:true);
 - 1
 - 3
 - 4
- 

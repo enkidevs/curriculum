@@ -15,7 +15,7 @@ tags:
 
 The `OR` operator (`||`) allows you to execute the second command *if and only if* the first command fails.
 
-```plain-text
+```bash
 cd ~/
 mkdir newFolder
 mkdir newFolder || cd newFolder
@@ -23,7 +23,7 @@ mkdir newFolder || cd newFolder
 
 For example, if you try to run `mkdir newFolder` when the folder already exists, the command fails and the next one is executed:
 
-```plain-text
+```bash
 mkdir: cannot create directory 'newFolder':
                         File exists
 user@pc:~/newFolder # cd'd into it
@@ -36,7 +36,7 @@ user@pc:~/newFolder # cd'd into it
 
 Consider:
 
-```plain-text
+```bash
 rm enki || echo 'fail'
 ```
 
@@ -47,4 +47,3 @@ rm enki || echo 'fail'
 - the first command fails
 - the first command succeeds
 - "enki" is already installed
- 

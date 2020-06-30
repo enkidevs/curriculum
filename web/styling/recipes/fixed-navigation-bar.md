@@ -16,7 +16,7 @@ tags:
 
 To make a navigation bar stay fixed on top of the page when a user scrolls:
 
-```plain-text
+```css
 .fixed-nav-bar {
   position: fixed;
   top: 0;
@@ -75,4 +75,3 @@ For a navigation bar to stay permanently at the bottom of a page when a user scr
 - `top`
 - `100`
 - `50`
- 

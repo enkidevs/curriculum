@@ -22,7 +22,7 @@ Width percentage is intuitively calculated based on the width of the container.
 
 However, percentages on properties like `padding-top` and `margin-top` are also calculated based on the *width* of the container, rather than the height.
 
-```plain-text
+```css
 div {
   height: 100px;
   width:  400px;
@@ -68,4 +68,3 @@ Percentages on properties such as *padding-top* and *margin-top* are calculated 
 - height of the container.
 - perimeter of the container.
 - area of the container.
- 

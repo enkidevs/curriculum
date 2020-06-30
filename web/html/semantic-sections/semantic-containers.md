@@ -117,7 +117,7 @@ Play the game determining if the HTML elements are the new HTML5 that HTML4 didn
 
 HTML4:HTML5
 
-```plain-text
+```false
 <div>
 %exp
 Although <div> is a HTML5 container, it was also the primary block element commonly used in layouts in HTML4.
@@ -154,7 +154,7 @@ Although <form> is a HTML5 container, it was also commonly used in HTML4.
 %
 ```
 
-```plain-text
+```true
 
 <header>
 %exp
@@ -192,4 +192,3 @@ Although <form> is a HTML5 container, it was also commonly used in HTML4.
 %
 
 ```
- 

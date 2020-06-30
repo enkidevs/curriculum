@@ -16,7 +16,7 @@ tags:
 
 When we pass primitive values (such as numbers and strings) into a function, we are actually passing in a copy of each of those values instead of the originals. This behavior is called **pass by value**. If we were to manipulate one of those values, the changes will not be reflected on the original value outside of the function.
 
-```plain-text
+```js
 function changeVal(x) {
   x = 1000;
 }
@@ -28,7 +28,7 @@ console.log(x); // still 5
 
 When we pass non-primitive values (such as objects and arrays) into a function, we are not passing in a copy and instead are passing in the actual value. This behavior is called **pass by reference**, where the "reference" means "direct link to the value". If we were to manipulate one of those values, we will also end up changing original value outside of the function. 
 
-```plain-text
+```js
 function changeObj(x) {
   x.name = "Apple";
 }
@@ -72,4 +72,3 @@ console.log(per.name);
 - Alex
 - undefined
 - null
- 

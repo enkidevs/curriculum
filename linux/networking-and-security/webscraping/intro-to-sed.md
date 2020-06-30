@@ -20,7 +20,7 @@ notes: ''
 
 `sed` (short for "stream editor") is a Unix utility command that parses and transforms text using a simple, compact language. 
 
-```plain-text
+```bash
 sed 's/cat/dog/' old_file > 
              new_file
 ```
@@ -29,35 +29,35 @@ Will replace the first of occurrence of "cat" (in each line) by "dog".
 
 To replace the 5 first occurrences of "cat": 
 
-```plain-text
+```bash
 sed 's/cat/dog/5' old_file > 
              new_file
 ```
 
 To replace all of the occurrences:
 
-```plain-text
+```bash
 sed 's/cat/dog/g' old_file >
              new_file
 ```
 
 We can also refine the condition to substitute "cat" with "dog" **only** in the lines which contain "dragon":
 
-```plain-text
+```bash
 sed '/dragon/s/cat/dog/g' 
          old_file > new_file
 ```
 
 Or to substitute "cat" with "dog" **except** in the lines which contain "dragon":
 
-```plain-text
+```bash
 sed '/dragon/!s/cat/dog/g'
          old_file > new_file
 ```
 
 To delete blank lines:
 
-```plain-text
+```bash
 sed '/^$/d' old_file > new_file
 ```
 
@@ -92,4 +92,3 @@ To replace all the occurrences of a word, you would most likely use the
 - `all` flag
 - `l` flag
 - `0` flag
- 

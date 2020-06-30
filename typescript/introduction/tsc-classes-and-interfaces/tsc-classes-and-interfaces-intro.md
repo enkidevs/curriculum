@@ -19,7 +19,7 @@ Interfaces can be used with classes as their **behavioral contract**.
 
 For example, for a `Bird` and a `Dragon` to become flyers, they must implement the `Flyer` contract.
 
-```plain-text
+```ts
 interface Flyer {
   // all flyers must have a name
   // that is of type string
@@ -70,7 +70,7 @@ jabberwocky.fly();
 
 On the other hand, flying in water is a little tough:
 
-```plain-text
+```ts
 class Fish {
 //        ^ doesn't implement Flyer
   name: string;
@@ -125,7 +125,7 @@ e.category;
 
 Will this code run without errors?
 
-```plain-text
+```ts
 interface MadeOfPotion {
   ingredients: Array<string>;
 }
@@ -149,4 +149,3 @@ const o = new Obelix();
 
 - Yes
 - No
- 

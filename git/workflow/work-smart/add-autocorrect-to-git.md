@@ -17,7 +17,7 @@ links:
 
 If you want git to correct typos you can set `help.autocorrect`:
 
-```plain-text
+```bash
 git config --global help.autocorrect 30
 ```
 
@@ -25,7 +25,7 @@ You set `help.autocorrect` to an integer representing the time you have to chang
 
 For example:
 
-```plain-text
+```bash
 git comit
 WARNING: You called a git command
 named 'comit', which does not exist.
@@ -36,7 +36,7 @@ in 3 seconds automatically...
 
 If you want to stop the autocorrect you need to set `help.autocorrect` back to `0`:
 
-```plain-text
+```bash
 git config --global help.autocorrect 0
 ```
 
@@ -56,4 +56,3 @@ git config --global
 - `autocorrect`
 - `git`
 - `-ac`
- 

@@ -23,7 +23,7 @@ links:
 
 Import the cluster module:
 
-```plain-text
+```javascript
 var cluster = require('cluster');
 
 ```
@@ -31,13 +31,13 @@ var cluster = require('cluster');
 As a cluster module executes the same **Node** process multiple times, you need to find what portion of the code is executed by the children or master.
 Identify the master process:
 
-```plain-text
+```javascript
 if(cluster.isMaster) { ... };
 ```
 
 You can then initiate the master process, as this will initiate other worker processes:
 
-```plain-text
+```javascript
 cluster.fork();
 ```
 
@@ -78,4 +78,3 @@ if(cluster.???){
 - master
 - notChild
 - child
- 

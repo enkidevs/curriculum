@@ -19,7 +19,7 @@ A relative URL contains only enough information to reach the resource relative t
 
 To create relative URL you can use code similar to the one below:
 
-```plain-text
+```java
 URL myURL = 
     new URL("http://example.com/pages/");
 URL page1 = new URL(myURL, "page1.html");
@@ -28,9 +28,8 @@ URL page2 = new URL(myURL, "page2.html");
 
 The general form of this constructor is:
 
-```plain-text
+```java
 URL(URL baseURL, String relativeURL)
 ```
 
 The first argument is a URL object that specifies the base of the new URL. The second argument is a String that specifies the rest of the resource name relative to the base.
- 

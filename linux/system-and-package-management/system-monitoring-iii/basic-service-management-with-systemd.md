@@ -22,7 +22,7 @@ In Ubuntu `upstart` will be deprecated in favor of `systemd`. Here is what you c
 
 For each service unit, this command displays its full name followed by a note whether the unit has been loaded, its high-level and low-level unit activation state, and a short description[1]:
 
-```plain-text
+```bash
 systemctl list-units --type service
                                --all
 
@@ -30,43 +30,43 @@ systemctl list-units --type service
 
 Use the following to start a service. Does not persist after reboot:
 
-```plain-text
+```bash
 systemctl start SERVICE.service
 ```
 
 Use this to stop a service. Does not persist after reboot:
 
-```plain-text
+```bash
 systemctl stop SERVICE.service
 ```
 
 Use the following to restart a service:
 
-```plain-text
+```bash
 systemctl restart SERVICE.service
 ```
 
 If the service supports it, this will reload the config files related to it without interrupting any process that is using the service:
 
-```plain-text
+```bash
 systemctl reload SERVICE.service
 ```
 
 The next command shows the status of a service and whether or not a service is currently running:
 
-```plain-text
+```bash
 systemctl status SERVICE.service
 ```
 
 To start a service on boot, use:
 
-```plain-text
+```bash
 systemctl enable SERVICE.service
 ```
 
 And to stop it from starting on boot:
 
-```plain-text
+```bash
 systemctl disable SERVICE.service
 ```
 
@@ -94,4 +94,3 @@ Service-specific actions (enable, stop, restart, reload) can be triggered by
 ```plain-text
 UNIT
 ```
- 

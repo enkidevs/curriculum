@@ -19,7 +19,7 @@ links:
 
 Import the module:
 
-```plain-text
+```python
 import re
 ```
 
@@ -29,7 +29,7 @@ For example the `ab?` re will match either `a`  or ` ab` while `ab*` will match 
 
 The most common use of the `re` module is to search texts for specified patterns.
 
-```plain-text
+```python
 text = 'Enki is cool'
 if re.search('Enki', text):
     print("Found it!")
@@ -38,7 +38,7 @@ if re.search('Enki', text):
 
 To find start and end indexes of your match:
 
-```plain-text
+```python
 text = 'Enki is cool'
 matched_text = re.search('Enki', text)
 print(matched_text.start())
@@ -83,4 +83,3 @@ Which Python module provides text matching patterns using regular expressions?
 - `regex`
 - `matchpat`
 - `RegEx`
- 

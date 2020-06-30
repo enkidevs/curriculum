@@ -19,7 +19,7 @@ If you want to see a visual representation of your branching and merging, you ca
 
 Combined with `--pretty` it produces a nicer output:
 
-```plain-text
+```bash
 git log --pretty=format:"%h %s" --graph
 * fe341a0 Change game colours 
 *  5e3ee11 Merge branch master
@@ -45,4 +45,3 @@ git ??? ???
 - `--graph`
 - `-graph`
 - `--log`
- 

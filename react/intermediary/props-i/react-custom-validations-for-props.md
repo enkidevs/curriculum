@@ -20,7 +20,7 @@ parent: enhanced-prop-validation
 
 The standard arguments[1] for a validator function are
 
-```plain-text
+```jsx
 function(props, propName, componentName) {
   //check here
 }
@@ -30,7 +30,7 @@ Suppose we want to check if the `text` prop is a `string` and has fewer than 200
 
 First things first, we need a function to check this:
 
-```plain-text
+```jsx
 function lengthCheck(
   props,
   propName,
@@ -51,7 +51,7 @@ function lengthCheck(
 
 Now the function can be used inside `propTypes`:
 
-```plain-text
+```jsx
 MyComponent.propTypes = {
   text: lengthCheck,
 };
@@ -108,4 +108,3 @@ function (???, ???, ???) {
 
 [1:Arguments]
 `location` can also be used as the last argument.
- 

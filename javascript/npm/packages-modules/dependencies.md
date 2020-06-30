@@ -38,7 +38,7 @@ In a project that uses the latest minor *express 4* release in production and *j
 
 Another way to specify each dependency is using the command line:
 
-```plain-text
+```bash
 # dependencies
 npm install express@^4.0.0 --save
 # devDependencies
@@ -49,7 +49,7 @@ Both will install the specified versions of *express* and *jest* and also add th
 
 You can list all the existing dependencies of your project with:
 
-```plain-text
+```bash
 npm list
 ~/project
 |__ express@4.14.0
@@ -89,4 +89,3 @@ Install and add *gulp* to the list of dev dependencies from the command line:
 - --save-dev
 - --save
 - node
- 

@@ -21,7 +21,7 @@ A great example is `FlashCanvas`, implementation of the HTML5 Canvas API using a
 
 Another example could be polyfilling `String.prototype.startsWith()` with the following snippet:
 
-```plain-text
+```javascript
 if (!String.prototype.startsWith) {
   String.prototype.startsWith = 
    function(searchString, position) {
@@ -56,4 +56,3 @@ A polyfill is a downloadable code that provides
 - support for older browsers
 - new features
 - all HTML tags
- 

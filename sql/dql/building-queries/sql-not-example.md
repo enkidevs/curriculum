@@ -21,7 +21,7 @@ In a previous insight we used the `<>` comparison operator to check if the `name
 
 The same can be achieved using `!=` or by coupling a comparison operator (`=`) and a logical operation (`NOT`):
 
-```plain-text
+```sql
 SELECT *
 FROM pokemon
 WHERE NOT name = 'Charmander';
@@ -33,7 +33,7 @@ Using the same pokemon table[1], this query would return all our records (rows) 
 
 You can also use parentheses to construct complex expressions, like this:
 
-```plain-text
+```sql
 SELECT *
 FROM pokemon
 WHERE
@@ -150,4 +150,3 @@ Choose the query that will get all move names with id between 3 and 6. Also, inc
 - SELECT * FROM move_name WHERE move_id BETWEEN 3 AND 6 AND language_id IN (5,9);
 - SELECT name FROM move_name WHERE move_id >= 3 AND move_id <= 6 AND language_id >= 5 OR language_id <= 9;
 - SELECT name FROM move_name WHERE move_id IN (3,6) AND language_id >= 5 AND language_id <= 9;
- 

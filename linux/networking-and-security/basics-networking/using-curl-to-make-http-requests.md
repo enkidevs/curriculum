@@ -20,7 +20,7 @@ Virtually every Unix system comes with the `curl` command pre-installed.  `curl`
 
 Here's a quick example:
 
-```plain-text
+```shell
 curl http://google.com
 <HTML><HEAD>
 <TITLE>301 Moved</TITLE></HEAD><BODY>
@@ -38,7 +38,7 @@ If we ask `curl` to fetch something other than text it will still try to print o
 
 There are two main ways to save the output from curl: using `>` redirection or using the `-o` option.
 
-```plain-text
+```shell
 curl http://foo.com/bar.mp3 > song.mp3
 curl -o song.mp3 http://foo.com/bar.mp3
 ```
@@ -62,4 +62,3 @@ Complete the following command line snippet to download the picture:
 - `cat.jpg`
 - `-O`
 - `-d`
- 

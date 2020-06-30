@@ -22,7 +22,7 @@ You can also use an SSH tunnel between your computer and your Unix/BSD/Linux ser
 
 For example, to connect to a specific server and port through `ssh`, run:
 
-```plain-text
+```bash
 ssh -L yourport:host:hostport \
      username@ssh_server
 ```
@@ -31,7 +31,7 @@ The port is then made available and we can connect to it as `127.0.0.1:yourport`
 
 Bonus example to connect to an external IRC server:
 
-```plain-text
+```bash
 ssh -L 8888:irc.freenode.net:6667 \
     myuser@my_ssh_host.net
 ```
@@ -83,4 +83,3 @@ Complete the following code snippet such that a connection to a specific server 
 - `--tunnel`
 - `-t`
 - `-l`
- 

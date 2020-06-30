@@ -20,7 +20,7 @@ If you mistakenly stage a file and want to 'undo' this operation, you can use `g
 
 For example:
 
-```plain-text
+```bash
 git add *
 # mistakenly staged all files
 git reset HEAD README.txt
@@ -36,7 +36,7 @@ You can use `git status` for prompts on unstaging.
 
 What do these commands do?
 
-```plain-text
+```bash
 git add enki.md games.md
 git reset 
 ```
@@ -62,4 +62,3 @@ git ??? HEAD index.html
 - `reset`
 - `remove`
 - `amend`
- 

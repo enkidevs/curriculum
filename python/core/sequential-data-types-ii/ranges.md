@@ -17,7 +17,7 @@ We can use Python's `range()` function to generate a `list` that contains the *s
 
 The syntax looks like this:
 
-```plain-text
+```python
 range(10)
 # range(0, 10)
 
@@ -27,7 +27,7 @@ list(range(10))
 
 If we want to specify where the range should start then we can add another argument:
 
-```plain-text
+```python
 range(1, 10)
 # range(1, 10)
 
@@ -41,7 +41,7 @@ The first argument here is where the range starts, and second argument is where 
 
 If we add a third argument into our `range()` function then we can add steps, which specify the incrementation:
 
-```plain-text
+```python
 list(range(1, 10, 2))
 # [1, 3, 5, 7, 9]
 
@@ -86,4 +86,3 @@ print(opening_hours)
 - `range(9, 17)`
 - `range(8, 17)`
 - `range(8, 18)`
- 

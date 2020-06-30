@@ -16,7 +16,7 @@ The HTML `oninput` event occurs immediately after the value of an element has ch
 
 Here's an `oninput` event that will execute a JavaScript function after the user puts in a value:
 
-```plain-text
+```html
 <input
   type="text"
   oninput="jsFunction()">
@@ -75,4 +75,3 @@ Which event occurs immediately after the value of an element has changed.
 - onoutput
 - script
 - function
- 

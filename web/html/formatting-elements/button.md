@@ -22,7 +22,7 @@ The HTML `<button>` element may seem similar to a link `<a>` with a little more 
 
 The default `<button>` element looks like this:
 
-```plain-text
+```html
 <form action="/" method="post">
   <button>Submit</button>
 </form>
@@ -34,7 +34,7 @@ The default `<button>` element looks like this:
 
 In this case, both the button and the input look and behave the same.
 
-```plain-text
+```html
 <form action="/" method="post">
   <button>Submit</button>
   <input type="submit">
@@ -45,7 +45,7 @@ In this case, both the button and the input look and behave the same.
 
 The `<button>` element has a slight edge over the `<input>` as both images and text can be placed within it like this:
 
-```plain-text
+```html
 <button>
   <img src="submit-icon.svg" alt="">
   Submit
@@ -125,4 +125,3 @@ If a button is outside of a form, what must be used to assign an action to it?
 - `<input type="submit" value="Button">`
 - `<input type="button" value="Submit">`
 - `<input type="button" value="Submit">`
- 

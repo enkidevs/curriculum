@@ -20,7 +20,7 @@ notes: This can be also placed in the react subtopic
 
 React bindings are not provided by default in Redux, so `react-redux` must be installed:
 
-```plain-text
+```bash
 npm install --save react-redux
 ```
 
@@ -28,7 +28,7 @@ The general paradigm is that only top level components (e.g. route handlers) sho
 
 Let's say that you have a `<Counter />` component found in `Counter.js`. The first step in using Redux is making the `store` available to your app. This is done by wrapping the main component (usually found in `App.js`) with the `<Provider />` API, which is provided by React-Redux.
 
-```plain-text
+```jsx
 // App.js
 import React from "react";
 import ReactDOM from "react-dom";
@@ -97,4 +97,3 @@ const App = () => (
 - {state}
 - Reducer
 - /Reducer
- 

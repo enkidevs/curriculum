@@ -15,7 +15,7 @@ Extending the example in the previous insight, we could end up in a situation in
 
 We've seen that the assignment only won't work:
 
-```plain-text
+```python
 m = [1 ]
 n = m
 n.append(2)
@@ -25,7 +25,7 @@ print(m)
 
 Python *3.3* introduced a new list method to achieve a **shallow copy**:
 
-```plain-text
+```python
 m = [1 ]
 n = m.copy()
 n.append(2)
@@ -37,7 +37,7 @@ print(n)
 
 A shallow copy is a first-layer only copy of the container: any reference to a mutable object contained is kept.
 
-```plain-text
+```python
 m = [1, []]
 n = m.copy()
 n.append(2)
@@ -50,7 +50,7 @@ print(m)
 
 An all levels copy is called a **deep copy**. We can use the `deepcopy()` method inside the `copy` module to do that:
 
-```plain-text
+```python
 import copy
 
 m = [1, []]
@@ -65,7 +65,7 @@ print(m)
 
 It's worth noting the overhead time it takes to make a deepcopy:
 
-```plain-text
+```python
 import copy
 import timeit
 k = []
@@ -85,7 +85,7 @@ print('k deepcopy:',
 
 They all ran for the default `1000000` number of times:
 
-```plain-text
+```bash
 l copy: 0.3196120499924291
 k copy: 0.22795158099324908
 l deepcopy: 41.75681215700751
@@ -128,4 +128,3 @@ A `deepcopy` means
 - making a copy in memory of the first layer of the data structure
 - making a copy of the data structure's reference
 - allocating some memory to a data structure
- 

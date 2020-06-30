@@ -22,7 +22,7 @@ The `Locale` class can be used to represent different regions, languages and scr
 
 For example, in France, a comma is used in place of a decimal point in floating-point numbers. `Locale` can be used to achieve this in the following way:
 
-```plain-text
+```java
 System.out.format(
   "%f", 3.14
 );
@@ -33,4 +33,3 @@ System.out.format(
 );
 //output: 3,14
 ```
- 

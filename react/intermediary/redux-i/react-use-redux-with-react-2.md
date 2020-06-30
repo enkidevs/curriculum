@@ -18,7 +18,7 @@ notes: This can be also placed in the react subtopic
 
 Now, looking in `Counter.js`, we must connect the component to our `store`:
 
-```plain-text
+```jsx
 // Counter.js
 import React from "react";
 import { connect } from "react-redux";
@@ -93,4 +93,3 @@ function ???(state) {
 - `props`
 - `props`
 - `mapPropsToState`
- 

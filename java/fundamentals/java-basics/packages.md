@@ -22,7 +22,7 @@ Packages are also used to organize classes providing similar functionality.
 
 In a Java file, you can specify it belongs to a package with `package` keyword, at the beginning of the said file:
 
-```plain-text
+```java
 package java.lang;
 ```
 
@@ -32,13 +32,13 @@ New packages can also be created whenever needed, in case of large projects. Sin
 
 In order to use a package's classes outside of that package, it has to be imported:
 
-```plain-text
+```java
 import java.io.*;
 ```
 
 The `*` wildcard refers to every class in that package. To import a single, specific class, you can specify its name:
 
-```plain-text
+```java
 import java.io.File;
 ```
 
@@ -80,4 +80,3 @@ Complete the following snippet to include every class in the Java I/O package:
 - `all`
 - `IO`
 - `package`
- 

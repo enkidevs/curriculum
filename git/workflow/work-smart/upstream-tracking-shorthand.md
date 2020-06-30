@@ -19,14 +19,14 @@ You can reference an upstream tracked branch with the `@{upstream}` or `@{u}` sh
 
 For example:
 
-```plain-text
+```bash
 git checkout master
 git merge origin/master
 ```
 
 can be replaced by:
 
-```plain-text
+```bash
 git checkout master
 git merge @{u}
 ```
@@ -38,7 +38,7 @@ git merge @{u}
 
 `@{u}` refers to ??? in the following snippet:
 
-```plain-text
+```bash
 git checkout myBranch
 git merge @{u}
 #upstream equivalent of myBranch
@@ -60,4 +60,3 @@ git merge @{u}
 - upstream tracked branch
 - downstream tracked branch
 - master branch
- 

@@ -19,13 +19,13 @@ links:
 
 To launch the shell, run the Sass command-line with either the `--interactive` or  `-i` option.
 
-```plain-text
+```css
 sass -i
 ```
 
 Then at the prompt enter your chosen SassScript expressions and have them evaluated with the results printed to the terminal.
 
-```plain-text
+```css
 >> "Enki insights are best..!"
 "Enki insights are best..!"
 >> 7px + 2px - 4px
@@ -74,4 +74,3 @@ How can you launch *SassScript* interactive shell?
 - `--shell`
 - `-c`
 - `--cli`
- 

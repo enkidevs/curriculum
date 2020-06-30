@@ -21,7 +21,7 @@ links:
 
 It is possible to catch multiple types of exception within a single `catch` block. For example:
 
-```plain-text
+```java
 try {
   ...
 } catch (IOException e) {
@@ -35,7 +35,7 @@ If we want to do the same thing whether we catch an `IOException` or an `SQLExce
 
 In JDK 7+ we can condense the code into a single catch block using `|`:
 
-```plain-text
+```java
 try {
   ...
 }
@@ -43,4 +43,3 @@ catch(IOException | SQLException e) {
   //do something
 }
 ```
- 

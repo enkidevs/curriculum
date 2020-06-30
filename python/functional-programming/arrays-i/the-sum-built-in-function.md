@@ -17,13 +17,13 @@ links:
 
 `sum` allows us to find the total of a iterable collection of numbers. It takes the general form:
 
-```plain-text
+```python
 sum(iterable [, start])
 ```
 
 Where `start` is an optional argument which lets us specify what value the sum should start from; by default it is 0. The elements in `iterable` are usually numbers, and `sum` will throw type errors if they are not compatible with the operand `+` which is used on all members of the `iterable` object to total them up. There are a number of ways to achieve the same result as a `sum` operation, but sum will usually be the most efficient and legible way to go about the task.[1]
 
-```plain-text
+```python
 numbers = [1, 4, 2.5, 2.5]
 print(sum(numbers))
 # result is 10.0
@@ -40,7 +40,7 @@ print(sum(numbers, 10))
 
 What is the output of the following sum operation?
 
-```plain-text
+```python
 letters = ['a', 'b', 'c']
 print(sum(letters))
 ```
@@ -79,4 +79,3 @@ print(bill1 if ??? > ??? else bill2)
 
 [1:Alternatives to `sum`]
 *An example of a rare case where an alternative method is superior to `sum` is when adding floating point values. When precision is important, it is better to use `math.fsum()` which deliberately avoids loss of precision. For more information, see the Python Docs in the Learn More section.*
- 

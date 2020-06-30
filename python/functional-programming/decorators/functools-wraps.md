@@ -15,7 +15,7 @@ As useful as decorators can be, they prove hard to debug. One important reason f
 
 For example, for the code below:
 
-```plain-text
+```python
 def h2_decorate(string_function):
   def func_wrapper(name):
     return "<h2>{0}</h2>" \
@@ -31,7 +31,7 @@ print(say_hello.__name__)
 
 Outputs:
 
-```plain-text
+```python
 func_wrapper
 # instead of expected
 say_hello
@@ -39,7 +39,7 @@ say_hello
 
 This is, most of time, not helpful, even though it makes sense. However, `functools` module provides an useful *decorator*, `wraps`, that acts as a middleware between the two functions and which transfers the metadata. Considering the same `say_hello` function:
 
-```plain-text
+```python
 from functools import wraps
 
 def h2_decorate(string_function):
@@ -99,4 +99,3 @@ The `wraps` function of `functools` module works like any other
 
 [1: Docstring]
 Python docstrings are a way of documenting code. The docstring for an object should be the first statement of that object, after the definition. They are recognized by the Python compiler and can be accessed via `__doc__` property of the object.
- 

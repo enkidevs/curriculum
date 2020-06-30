@@ -19,14 +19,14 @@ Immutability is a concept from object-oriented and functional programming. An **
 
 For example, if we were to create a list of names in a **mutable** fashion, and wanted to add another name, we would do something like this:
 
-```plain-text
+```python
 list = ['John', 'Laura', 'Vithu']
 list.append('Sam')
 ```
 
 If our list was **immutable** this would not be possible, since this approach necessitates the modification of our list after its creation. Instead we would need to take an approach like so:
 
-```plain-text
+```python
 names = ['John', 'Laura', 'Vithu']
 newnames = names + ['Sam']
 
@@ -93,7 +93,7 @@ How would we get the effect of adding another element to an immutable list?
 ### which of the following snippets prints False?
 
 
-```plain-text
+```python
 # A
 print('hello' is 'hell' + 'o')
 # B
@@ -125,4 +125,3 @@ As a result of these techniques, immutability does not necessarily mean that the
 
 [2:Weakly Mutable]
 There are differing levels of immutability: **weak** and **strong**. An object is said to be **strongly immutable** if the entire object cannot be modified after creation. An object is said to be **weakly immutable** if the object contains some fields which *are* able to be modified after creation. I.E., the majority of the object would likely be immutable for the benefits that provides, but for convenience some data is still able to be modified after creation.
- 

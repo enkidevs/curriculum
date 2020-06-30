@@ -19,7 +19,7 @@ links:
 
 Since ES6 you can use **binary** and **octal** notation as well as hexadecimal:
 
-```plain-text
+```javascript
 0x1 // hex '1'
 0xff // hex '255'
 0b1 // bin '1'
@@ -30,7 +30,7 @@ Since ES6 you can use **binary** and **octal** notation as well as hexadecimal:
 
 You can use the method `.toString(radix)` to convert numbers to hex/bin/oct:
 
-```plain-text
+```javascript
 (255).toString(16); // 'ff' in hex
 (1).toString(2); // '1' in bin
 (10).toString(8); // '12' in oct
@@ -69,4 +69,3 @@ What method can be used to convert numbers to hex/bin/oct ?
 - convert
 - parse
 - rebase
- 

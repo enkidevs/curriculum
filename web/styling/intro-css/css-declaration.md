@@ -23,7 +23,7 @@ A CSS file is made up of *selectors* (a way of pointing to the HTML elements to 
 
 The syntax for a CSS *declaration* is:
 
-```plain-text
+```css
 background-color: red
 ```
 
@@ -31,7 +31,7 @@ The property we are looking to change is `background-color`. The `:` separates t
 
 Every *declaration* has to be located inside a *block*:
 
-```plain-text
+```css
 {
   background-color: red
 }
@@ -39,7 +39,7 @@ Every *declaration* has to be located inside a *block*:
 
 Multiple declaration can be grouped inside a block. In this case, semicolons, `;` are required after each declaration:
 
-```plain-text
+```css
 {
   background-color: red;
   text-decoration: underline;
@@ -48,7 +48,7 @@ Multiple declaration can be grouped inside a block. In this case, semicolons, `;
 
 The above snippets made some changes, but CSS doesn't know which elements they are referring to. *Selectors* are used to specify those elements:
 
-```plain-text
+```css
 p{
   background-color: red;
   text-decoration: underline;
@@ -98,4 +98,3 @@ Complete the following snippet with the general syntax for a CSS declaration:
 - `=`
 - `background-decoration`
 - `red`
- 

@@ -15,14 +15,14 @@ Arrays are an essential concept in JavaScript and are used frequently.
 
 Here's how we can declare an array:
 
-```plain-text
+```js
 let myArray = [1, 2, 3];
 let anotherArray = ["a", "b", "c"];
 ```
 
 Array's are *zero based/indexed* which means that if we want to retrieve the first value, we have to use `0` as the index value:
 
-```plain-text
+```js
 let myArray = [1, 2, 3];
 
 console.log(myArray[0]);
@@ -31,7 +31,7 @@ console.log(myArray[0]);
 
 We can retrieve the last value of an array by using the `length` property and subtracting 1 from it:
 
-```plain-text
+```js
 let myArray = [1, 2, 3];
 
 let lastVal = myArray[myArray.length - 1];
@@ -41,7 +41,7 @@ console.log(lastVal);
 
 Values can be added to the array using the `push` method:
 
-```plain-text
+```js
 let myArray = [1, 2, 3];
 
 myArray.push(4);
@@ -59,7 +59,7 @@ console.log(myArray);
 
 The last item can be returned and removed using `pop`:
 
-```plain-text
+```js
 let myArray = [1, 2, 3];
 
 let lastItem = myArray.pop();
@@ -71,7 +71,7 @@ console.log(myArray);
 
 You can find the position of any item using the `indexOf` method:
 
-```plain-text
+```js
 let myArray = [1, 2, 3];
 
 let pos = myArray.indexOf(2);
@@ -81,7 +81,7 @@ console.log(pos);
 
 You can iterate over the array items with *forEach*:
 
-```plain-text
+```js
 let myArray = [1, 2, 3];
 
 myArray.forEach(
@@ -97,7 +97,7 @@ myArray.forEach(
 
 Or using `for..of`:
 
-```plain-text
+```js
 let myArray = [1, 2, 3];
 
 for (let item of myArray) {
@@ -163,7 +163,7 @@ let elem = ???.???;
 ### what is the length of the array below?
 
 
-```plain-text
+```js
 let arr = [,,,]
 console.log(arr.length)
 ```
@@ -174,4 +174,3 @@ console.log(arr.length)
 - 4
 - 0
 - 1
- 

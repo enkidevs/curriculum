@@ -15,7 +15,7 @@ We can use the `$match` aggregation stage to only match documents of a certain `
 
 Let's say we want to count and sort documents by their `secondType`, but we are only interested in documents where the `type` is `"Water"`. We can do so like this:
 
-```plain-text
+```javascript
 db.pokemon.aggregate([
   {
     $match: { type: "Water" }
@@ -28,7 +28,7 @@ db.pokemon.aggregate([
 
 Output:
 
-```plain-text
+```javascript
 { "_id": "Poison", "count": 3 }
 { "_id": null, "count": 45 }
 ```
@@ -40,7 +40,7 @@ What this output means is that:
 
 You are not limited to using only the `$match` stage. Another good example is to count and sort documents where the `power` is greater than or equal to 300.
 
-```plain-text
+```javascript
 db.pokemon.aggregate([
   {
     $match: { power: { $gte: 300 } }
@@ -53,7 +53,7 @@ db.pokemon.aggregate([
 
 Output:
 
-```plain-text
+```javascript
 { "_id": "Fighting", "count": 3 }
 { "_id": "Fire", "count": 23 }
 { "_id": null, "count": 91 }
@@ -92,4 +92,3 @@ db.students.???([
 - `STUDENTS`
 - `name`
 - `studentId`
- 

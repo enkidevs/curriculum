@@ -19,13 +19,13 @@ The `readAsText()` method is used to read text files. It takes two parameters, t
 
 Creating a new instance of File Reader.
 
-```plain-text
+```javascript
 let reader = new FileReader();
 ```
 
 Reading the text file.
 
-```plain-text
+```javascript
 reader.onload = function(e) {
   let text = reader.result;
 };
@@ -78,4 +78,3 @@ reader.onload = function(e) {
 - `readText`
 - `readFile`
 - `file`
- 

@@ -17,7 +17,7 @@ For instance, let's say we have a `pokemon` collection where each pokémon has t
 
 Example document:
 
-```plain-text
+```javascript
 {
   "_id": ObjectId(
     "5d9d8e1e0b24990f19398221"
@@ -39,7 +39,7 @@ Example document:
 }
 ```
 
-```plain-text
+```javascript
 db.pokemon.aggregate([
   {
     $project: {
@@ -54,7 +54,7 @@ db.pokemon.aggregate([
 
 Output:
 
-```plain-text
+```javascript
 {
   "name": "Omanyte",
   "type": "Rock",
@@ -70,7 +70,7 @@ Furthermore, we can use the `$project` stage to add a new array field to a docum
 
 Document:
 
-```plain-text
+```javascript
 {
   "_id": ObjectId(
     "5d9d8b8c0b24990f1939820f"
@@ -84,7 +84,7 @@ Document:
 }
 ```
 
-```plain-text
+```javascript
 db.pokemon.aggregate([
   {
     $project: {
@@ -102,7 +102,7 @@ db.pokemon.aggregate([
 
 Output:
 
-```plain-text
+```javascript
 {
   "_id": ObjectId(
     "5d9d8b8c0b24990f1939820f"
@@ -125,7 +125,7 @@ Output:
 
 Let's say we have a `pokemon` collection where each pokémon has a `name`, `_id`, `type`, `power` and an `abilities` array field:
 
-```plain-text
+```javascript
 {
   "_id": ObjectId(
     "5d9d8ba70b24990f19398210"
@@ -207,4 +207,3 @@ db.???.???([
 - `SIZES`
 - `%project`
 - `%sizes`
- 

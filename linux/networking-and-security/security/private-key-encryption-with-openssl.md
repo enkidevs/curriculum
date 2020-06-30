@@ -19,21 +19,21 @@ This means that if you want to send someone data in an encrypted fashion, you wo
 
 Generate your public/private key[1]:
 
-```plain-text
+```bash
 openssl genrsa -out 
          private.pem 2048
 ```
 
 To extract the public key as `public.pem`:
 
-```plain-text
+```bash
 openssl rsa -in private.pem 
 -out public.pem -outform PEM -pubout
 ```
 
 Encrypt a file (`enki.txt`):
 
-```plain-text
+```bash
 openssl rsautl -encrypt -inkey 
 public.pem -pubin -in enki.txt 
        -out file.ssl
@@ -41,7 +41,7 @@ public.pem -pubin -in enki.txt
 
 Decrypt with the **private** key:
 
-```plain-text
+```bash
 openssl rsautl -decrypt -inkey 
 private.pem -in file.ssl 
        -out decrypted.txt
@@ -90,4 +90,3 @@ openssl ??? ??? ???
 ## Footnotes
 
 [1:explanation] This creates a key file called private.pem that uses `2048` bits. This file actually has both the private and public keys.
- 

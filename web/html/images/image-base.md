@@ -21,7 +21,7 @@ The `<base>` element cannot be empty, it must contain either the `target` attrib
 
 All links in the web page or document are set to open in the same tab:
 
-```plain-text
+```html
 <head>
    <base
       target="_self">
@@ -30,7 +30,7 @@ All links in the web page or document are set to open in the same tab:
 
 All links in the web page or document will lead to the `https://www.enki.com` link:
 
-```plain-text
+```html
 <head>
    <base
     href="https://www.enki.com">
@@ -39,7 +39,7 @@ All links in the web page or document will lead to the `https://www.enki.com` li
 
 All links in the web page or document will lead to the `https://www.enki.com` link, and open in a new tab:
 
-```plain-text
+```html
 <head>
    <base href="https://www.enki.com"
       target="_blank">
@@ -114,4 +114,3 @@ Complete the code if a `<base>` URL is assigned and an image is used within an O
 - `<link target="_blank">`
 - `<a target="_blank">`
 - `<* target="_blank">`
- 

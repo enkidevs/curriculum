@@ -21,7 +21,7 @@ You can limit this output to a specific time period by using `--since/--after` a
 
 For example, to show commits in the past month:
 
-```plain-text
+```bash
 git log --since="last month"
 ```
 
@@ -62,4 +62,3 @@ git ??? ???
 - `--pretty`
 - `--since`
 - `"yesterday"`
- 

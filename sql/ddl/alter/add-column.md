@@ -24,7 +24,7 @@ The `ALTER TABLE` command lets you modify table constraints and column definitio
 
 For example, to add a new column to a certain table, you can use:
 
-```plain-text
+```sql
 ALTER TABLE table_name
 ADD column_name datatype;
 ```
@@ -33,14 +33,14 @@ You must always specify the column name and its data type, with some other optio
 
 Here's how you would add a new column that only takes `INTEGERS` with a default value of 1, and makes them required (commonly known as not being `NULL`):
 
-```plain-text
+```sql
 ALTER TABLE pets
 ADD age INTEGER NOT NULL DEFAULT 1;
 ```
 
 Now, let's say you want to add a column `hash`, which you know is going to be unique. You also want it to be set as a `PRIMARY KEY` and make sure that only records starting with `'36hya'` are inserted. To do this, you would use the following code:
 
-```plain-text
+```sql
 ALTER TABLE transactions
 ADD hash VARCHAR PRIMARY KEY 
 CHECK (hash LIKE '36hya%');
@@ -48,7 +48,7 @@ CHECK (hash LIKE '36hya%');
 
 If you ever get bored of one of your columns, you can use the following statement to delete it:
 
-```plain-text
+```sql
 ALTER TABLE cool_table
 DROP COLUMN boring_column;
 ```
@@ -100,4 +100,3 @@ Consider the `generation` table. How would you delete the `region_id` column:
 - ALTER TABLE generation DROP COLUMN region_id;
 - ALTER TABLE generation DROP region_id;
 - ALTER generation DROP COLUMN region_id;
- 

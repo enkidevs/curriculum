@@ -13,7 +13,7 @@ category: feature
 
 You documents might contains objects instead of numbers or strings. In the aggregation stage, you can use the `$mergeObjects` operator to combine multiple documents and output them as a single document. The syntax looks like this:
 
-```plain-text
+```javascript
 { $mergeObjects: <object> }
 ```
 
@@ -23,7 +23,7 @@ This operator ignores any `null` values, and, if all values are `null`, the aggr
 
 Let's say we have the following documents in our database:
 
-```plain-text
+```javascript
 {
   "_id": ObjectId(
     "5d9d8c330b24990f19398214"
@@ -78,7 +78,7 @@ We can use the `$mergeObjects` operator within the `$group` aggregation stage to
 
 Example aggregation:
 
-```plain-text
+```javascript
 db.pokemon.aggregate([
   {
     $group: {
@@ -93,7 +93,7 @@ db.pokemon.aggregate([
 
 Output document:
 
-```plain-text
+```javascript
 {
   _id: "Water",
   groupedSpells: {
@@ -118,7 +118,7 @@ In the example above, the outputted document was grouped by the `type` field, an
 
 However, if for instance we had fields with the same name in both objects, like the documents below:
 
-```plain-text
+```javascript
 {
   "_id": ObjectId(
     "5d9d8bc20b24990f19398211"
@@ -147,7 +147,7 @@ However, if for instance we had fields with the same name in both objects, like 
 
 And we run the same aggregation, our output would look like this:
 
-```plain-text
+```javascript
 {
  _id: "Water",
  groupedSpells: {
@@ -172,4 +172,3 @@ What is the `$mergeObjects` aggregation operator used for?
 - To merge documents together and sort the object fields.
 - To merge objects and output all values from each object separated by a comma.
 - To merge and count all objects.
- 

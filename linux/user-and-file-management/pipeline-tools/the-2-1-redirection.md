@@ -34,7 +34,7 @@ So the construct becomes `2>&1`.
 
 This can be useful when you want to pipe the output through a *filtering function*:
 
-```plain-text
+```bash
 ls -ld ~ /tnt 2>&1 |
         sed '/[nN]o/d'
 # this will print
@@ -50,7 +50,7 @@ drwxr-xr-x 18 osboxes osboxes 4096
 
 There's also the shorthand notation that combines the stream merging with the output redirection:
 
-```plain-text
+```bash
 ./script.sh > /dev/null 2>&1
 # same as
 ./script.sh &> /dev/null
@@ -101,4 +101,3 @@ Which of the following commands will suppress both stdout and stderr?
 - ./script.sh > /dev/null 1>&0
 - ./script.sh 2>&1 > /dev/null
 - ./script.sh 2>&0 > /dev/null
- 

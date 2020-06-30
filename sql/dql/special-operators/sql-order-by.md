@@ -31,7 +31,7 @@ Let's look at the following `employees` table:
 
 Let's say we want to sort our results alphabetically by their `last_name`. You'd use the following syntax: 
 
-```plain-text
+```sql
 SELECT last_name, first_name
 FROM employees
 ORDER BY last_name;
@@ -125,4 +125,3 @@ This table shows how much experience you need to gain in order to get to level 1
 - SELECT * FROM experience WHERE level=100 ORDER BY growth_rate_id DESC;
 - SELECT * FROM experience WHERE level=100 DESC ORDER BY experience;
 - SELECT * FROM experience WHERE level=100 ORDER DESC BY experience;
- 

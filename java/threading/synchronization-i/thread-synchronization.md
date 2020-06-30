@@ -24,7 +24,7 @@ links:
 
 - In order to synchronize on a method `synchronized` is written before the return type of a method. In the example below, `printSeq` is a synchronized method which means that if two or more thread instances call it they will have to wait until the previous thread finishes executing it.
 
-```plain-text
+```java
 class synchExample {
   public synchronized void printSeq(int n){
     for(int i = 0; i < 5; i++) {
@@ -44,7 +44,7 @@ class synchExample {
 
 - Synchronization on an object has the following pattern:
 
-```plain-text
+```java
 synchronized (<object reference>) {
   //do something
 }
@@ -80,4 +80,3 @@ What key word provides inbuilt Java synchronization?
 - `parallel`
 - `sequenced`
 - `ordered`
- 

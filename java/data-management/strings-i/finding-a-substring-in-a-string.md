@@ -20,7 +20,7 @@ In order to confirm if a string contains a specific substring, we can simply use
 
 The `contains` method takes a `CharSequence` as an input. `CharSequence` is an interface which is implemented by `String`, so it will also accept strings as inputs.
 
-```plain-text
+```java
 String s = "Hello, this is dog.";
 bool dog = s.contains("dog");
 //dog: true
@@ -28,11 +28,10 @@ bool dog = s.contains("dog");
 
 If simply confirming that a substring is present is not enough, and we also need to find *where* it is in the string, we can use the `indexOf` or `lastIndexOf` methods:
 
-```plain-text
+```java
 String s = "This dog is my dog";
 int indexFirst = s.indexOf("dog");
 //indexFirst: 5
 int indexLast = s.lastIndexOf("dog");
 //indexLast: 15
 ```
- 

@@ -19,7 +19,7 @@ links:
 
 Use `clearfix` to make an element automatically clear its child elements, so there would be no need for additional markup :
 
-```plain-text
+```css
 .clearfix:after {
   content: "";
   clear: both;
@@ -34,7 +34,7 @@ Here is an example, where the left child has `float:left` property, and the righ
 
 All you have to do is add `clearfix` class to the container and the floating element:
 
-```plain-text
+```html
 <div class="clearfix">
    <div style="float: left;"
    class="clearfix">Sidebar</div>
@@ -65,7 +65,7 @@ What does `clear` property do?
 
 What does the following CSS code do, when you have a floated image inside an element smaller than said image?
 
-```plain-text
+```css
 .clearfix {
    overflow: auto;
 }
@@ -77,4 +77,3 @@ What does the following CSS code do, when you have a floated image inside an ele
 - Alters the images size so it fits inside the element.
 - Hides the element.
 - Hides the image.
- 

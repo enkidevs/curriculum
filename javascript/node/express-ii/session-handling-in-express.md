@@ -18,13 +18,13 @@ parent: easy-way-to-deliver-html-pages-with-express
 
 Prior to handling sessions in **Express 4.0**, the `express-session` middleware must be installed:
 
-```plain-text
+```bash
 npm install express-session
 ```
 
 `Session` can be accessed through the `request` object:
 
-```plain-text
+```javascript
 var sess;
 app.get('/', function(req,res) {
   sess = req.session;
@@ -34,14 +34,14 @@ app.get('/', function(req,res) {
 
 Creating session variables:
 
-```plain-text
+```javascript
 sess.id = "100";
 sess.myVar = "myValue";
 ```
 
 Destroying sessions:
 
-```plain-text
+```javascript
 req.session.destroy(function(err){
 });
 
@@ -93,4 +93,3 @@ app.get('/', function(req,res) {
 - sess
 - mySession
 - request
- 

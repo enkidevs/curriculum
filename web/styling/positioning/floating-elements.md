@@ -21,7 +21,7 @@ Another way to position elements on page is with `floats`. This property allows 
 
 One use-case is floating an image to the side of a block of text, as the text will surround the image:
 
-```plain-text
+```css
 #imageleft{
   float: left;
   width: 150px;
@@ -41,7 +41,7 @@ p{
 
 It can also be used to align elements to the side of the last one:
 
-```plain-text
+```css
 .elem{
   width: 120px;
   height: 100px;
@@ -58,7 +58,7 @@ It can also be used to align elements to the side of the last one:
 
 And the HTML:
 
-```plain-text
+```html
 <div class="elem leftelem">Left</div>
 <div class="elem leftelem">Left</div>
 <div class="elem leftelem">Left</div>
@@ -76,7 +76,7 @@ To push all right floating elements on the next line, we have to use a property 
 
 Because we want the first right element to start on a new line, we have to `clear` floating elements to the left of it:
 
-```plain-text
+```css
 #first-right-elem{
   clear:left;
 }
@@ -97,4 +97,3 @@ Text ??? a floated element.
 - pushes
 - overlaps
 - underlaps
- 

@@ -19,7 +19,7 @@ tags:
 
 To perform functions at regular intervals using `setInterval`:
 
-```plain-text
+```javascript
 function myFunction() {
  //doSomething();
 }
@@ -32,7 +32,7 @@ The first argument of `setInterval` is a function we want to run periodically, t
 
 To clear the interval:
 
-```plain-text
+```javascript
 clearInterval(loop);
 ```
 
@@ -77,4 +77,3 @@ var loop = ???
 - 2000
 - 200
 - function
- 

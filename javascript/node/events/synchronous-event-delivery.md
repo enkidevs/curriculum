@@ -21,7 +21,7 @@ parent: listening-to-events-just-once
 
 Node is asynchronous, however as no I/O is involved in emitting events, the delivery of events is treated synchronously. Therefore:
 
-```plain-text
+```javascript
 var EventEmitter = require(‘events’)
                         .EventEmitter;
 var emitter = new EventEmitter();
@@ -45,7 +45,7 @@ console.log(‘post hi’);
 
 Gives the following output:
 
-```plain-text
+```bash
 pre hi
 hi
 hi again
@@ -67,4 +67,3 @@ How is the delivery of events treated in Node?
 - asynchronously
 - instantly
 - random
- 

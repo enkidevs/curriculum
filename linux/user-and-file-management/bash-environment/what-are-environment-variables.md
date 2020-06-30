@@ -30,7 +30,7 @@ As an example, the `HOME` environment variable holds the current user's home dir
 
 Use the `env` command to see a list of all current environment variables:
 
-```plain-text
+```bash
 env
 # USER=enki
 # HOME=/home/enki
@@ -39,7 +39,7 @@ env
 
 If you know the name of the variable you're looking for, use the `echo` command to display it:
 
-```plain-text
+```shell
 echo $HOME
 # /home/enki
 ```
@@ -79,4 +79,3 @@ Print the value of the environmental variable `HOME` :
 - `home`
 - `$home`
 - `ls`
- 

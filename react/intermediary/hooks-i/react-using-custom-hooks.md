@@ -13,7 +13,7 @@ category: how to
 
 Now that we know how to write our own custom hooks, let's see how to integrate them with components. Let's say that we have two components that make use of the same piece of code. We start off by creating our custom hook:
 
-```plain-text
+```js
 function useCode(arg) {
   const [data, setData] = useState([]);
 
@@ -28,7 +28,7 @@ function useCode(arg) {
 
 Now that we have created the custom hook, we can simply use it anywhere inside our components:
 
-```plain-text
+```js
 function Enki() {
   const code = useCode('some value');
 
@@ -76,4 +76,3 @@ Are custom hooks a reliable method for re-using logic?
 - No.
 - Only if written in a certain way.
 - Only if used together with Redux.
- 

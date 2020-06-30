@@ -24,25 +24,25 @@ notes: ''
 
 We can get a list of all the installed packages on a Debian / Ubuntu server by issuing:
 
-```plain-text
+```bash
 sudo dpkg --get-selections
 ```
 
 On RPM systems:
 
-```plain-text
+```bash
 yum list installed
 ```
 
 On BSD systems:
 
-```plain-text
+```bash
 pkg_version
 ```
 
 It is good practice to save this file as it can be useful when migrating, so we pipe it into a file:
 
-```plain-text
+```bash
 dpkg --get-selections > ~/package_list
  # yum list installed
  # pkg_version
@@ -50,7 +50,7 @@ dpkg --get-selections > ~/package_list
 
 To search for a specific package run:
 
-```plain-text
+```bash
 dpkg --get-selections | grep <package>
 yum list installed "package_name"
 ```
@@ -87,4 +87,3 @@ pkg_version
 - `Debian`
 - `RedHat/Fedora`
 - `BSD`
- 

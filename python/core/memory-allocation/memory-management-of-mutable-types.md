@@ -13,7 +13,7 @@ category: must-know
 
 You also have access to *mutable types*: lists, dictionaries, classes and their instances etc. Consider the following code snippets that use the same `mem_loc()` function defined in the previous insight:
 
-```plain-text
+```python
 m = n = []
 print(mem_loc(m))
 # 0x7f074768c108
@@ -23,7 +23,7 @@ print(mem_loc(n))
 
 Versus:
 
-```plain-text
+```python
 l = []
 k = []
 print(mem_loc(l))
@@ -41,7 +41,7 @@ m = n
 
 In the second snippet, `l` references a list, while `k` references another. Appending elements to them reveals something interesting:
 
-```plain-text
+```python
 m.append(1)
 print(m)
 # m == [1 ]
@@ -60,7 +60,7 @@ print(k)
 
 What if we decide to check the memory addresses of `m[0 ]` (== 1) and `l[0 ]` (== 1). Remember that their hexadecimal addresses differ by *0x40*:
 
-```plain-text
+```python
 print(mem_loc(m[0]))
 # 0x55a7b5df7080
 print(mem_loc(l[0]))
@@ -69,7 +69,7 @@ print(mem_loc(l[0]))
 
 This gets even better:
 
-```plain-text
+```python
 new_a = 1
 print(mem_loc(new_a))
 # 0x55a7b5df7080
@@ -116,4 +116,3 @@ print(a)
 - `5`
 - `[]`
 - `a`
- 

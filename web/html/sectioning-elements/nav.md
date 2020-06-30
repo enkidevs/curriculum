@@ -22,7 +22,7 @@ The HTML `<nav>` element is used to group the navigation of the page, such as pr
 
 Example:
 
-```plain-text
+```html
 <nav>
   <a href="index.html">Home</a>
   <a href="about.html">About</a>
@@ -90,4 +90,3 @@ Which container is best to organize the buttons that link the primary pages of t
 - `<navigation>`
 - `<header>`
 - `<div>`
- 

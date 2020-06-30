@@ -27,7 +27,7 @@ A `<span>` is often used to group a small chunk of content inside a line of text
 
 Check out this code:
 
-```plain-text
+```html
 <div>
   <p>A paragraph inside a div.</p>
   <p>An <span>important</span> paragraph
@@ -45,7 +45,7 @@ One difference between `<div>` and `<span>` elements is that you are able to sta
 
 When using CSS to style `<div>` and `<span>` elements, ids and classes are often assigned to them in order to uniquely style them. So, it is common to see them written like this where the `<div>` has certain styles assigned to it and the `<span>` changes the style of the text within that paragraph.   
 
-```plain-text
+```html
 <div id="callout">
   <p>This is 
    <span class="highlight">
@@ -65,4 +65,3 @@ Spans are seen as ??? elements.
 - stylistic
 - structural
 - not
- 

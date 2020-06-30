@@ -24,7 +24,7 @@ The HTML input forms of type `checkbox` are square boxes that can be ticked or c
 
 Example with multiple checkboxes:
 
-```plain-text
+```html
 <form>
   <legend>
     Choose favorite music genre/s
@@ -111,7 +111,7 @@ Furthermore, you can add a `checked` attribute to make a checkbox checked by def
 
 Example:
 
-```plain-text
+```html
 <form>
  <div>
     <input
@@ -167,7 +167,7 @@ Checkboxes have three possible states, these are `checked`, `unchecked` and:
 
 Create a checkbox group with two checkboxes and larger clickable area
 
-```plain-text
+```html
 <tagA>
  <legend>
    Choose favorite meal
@@ -223,4 +223,3 @@ How are checkboxes styled?
 - Can't be styled
 - With proper HTML
 - Using the `style` menu each browser provides for HTML editting
- 

@@ -19,7 +19,7 @@ Another pattern which is common for the object oriented development is *Facade*.
 
 Suppose you have a system that can currently create and draw 2D points and lines and then there is a user that desires to be able to draw various shapes. One solution would be give him the current system so that the user would have to draw all the desired shapes manually using lines and points. Another would be to create a *facade* class that would allow user to declare shapes and output them on the screen by calling a single method which hides all the complexity of implementation.
 
-```plain-text
+```java
 public class Circle extends Shape {
   //Implements circle shape
 }
@@ -59,4 +59,3 @@ What is the *Facade* pattern?
 - It is a wrapper around the system that provides the end user with a clean desired functionality.
 - It describes the whole inheritance structure of the program.
 - It describes how a group of interfaces acting together.
- 

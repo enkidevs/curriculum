@@ -24,7 +24,7 @@ To help you, **Git** provides the `git config` tool, making it easier to change 
 
 To list all current settings:
 
-```plain-text
+```bash
 git config --list
 user.name=John Doe
 user.email=johndoe@example.com
@@ -35,7 +35,7 @@ color.branch=auto
 
 To see a specific setting:
 
-```plain-text
+```bash
 git config user.name
 John Doe
 
@@ -43,7 +43,7 @@ John Doe
 
 To change your identity[1]:
 
-```plain-text
+```bash
 git config --global user.name "Enki"
 git config --global user.email i@enki.me
 
@@ -51,7 +51,7 @@ git config --global user.email i@enki.me
 
 **Git** will sometimes ask for user input by invoking the system's default text editor. To change what editor is used by **Git**:
 
-```plain-text
+```bash
 git config --global core.editor vim
 ```
 
@@ -101,4 +101,3 @@ What `Git` command is used to change various configuration options?
 
 [1:global]
 The `--global` flag applies changes to all projects. It's possible to change variables for specific projects by running the command without the flag.
- 

@@ -20,21 +20,21 @@ links:
 
 The standard Python `for` loop syntax is:
 
-```plain-text
+```python
 for iterating_num in sequence:
     doSomething()
 ```
 
 An example `for` loop:
 
-```plain-text
+```python
 for letter in 'Enki':
     print('Letter: ', letter)
 ```
 
 Gives output:
 
-```plain-text
+```python
 Letter:  E
 Letter:  n
 Letter:  k
@@ -43,7 +43,7 @@ Letter:  i
 
 In the following example, `x` acts as the loop variable and is incremented with each loop:
 
-```plain-text
+```python
 nums = [1, 2, 3]
 
 for x in nums:
@@ -52,7 +52,7 @@ for x in nums:
 
 Gives output:
 
-```plain-text
+```python
 1
 2
 3
@@ -96,4 +96,3 @@ for letter in 'Python':
 - `letter`
 - `null`
 - `error`
- 

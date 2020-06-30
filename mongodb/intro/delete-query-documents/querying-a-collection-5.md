@@ -15,7 +15,7 @@ Thus far we learned to use `insertOne()` and `insertMany()` to create document(s
 
 The `findOneAndUpdate()` method has the following signature:
 
-```plain-text
+```js
 findOneAndUpdate(
   filter, 
   update, 
@@ -27,7 +27,7 @@ Similarly to `updateOne()`, this method allows us to search through collection f
 
 For instance, the query below searches for the first pokémon of `type: "Water"` and increases its `power` by 15:
 
-```plain-text
+```javascript
 db.pokemon.findOneAndUpdate(
   { type: "Water" },
   { $inc: { power: 15 } }
@@ -36,7 +36,7 @@ db.pokemon.findOneAndUpdate(
 
 Output:
 
-```plain-text
+```javascript
 {
   "_id": ObjectId(
     "5d9d8bc20b24990f19398211"
@@ -57,7 +57,7 @@ Output:
 
 In the above example, we added 15 to the `power` field. This time let's decrease the `power` by 14:
 
-```plain-text
+```javascript
 db.pokemon.findOneAndUpdate(
   { type: "Water" },
   { $inc: { power: -14 } },
@@ -67,7 +67,7 @@ db.pokemon.findOneAndUpdate(
 
 Output:
 
-```plain-text
+```javascript
 {
   "_id": ObjectId(
     "5d9d8bc20b24990f19398211"
@@ -126,4 +126,3 @@ Upserting represents inserting a document in our collection if it does not alrea
 
 [2:Atomicity]
 By an atomic transaction we mean that in a series of database operations, either **all operations occur**, or **nothing occurs**. Basically, we are more interested in the transaction to occur, rather than the content of the transaction.
- 

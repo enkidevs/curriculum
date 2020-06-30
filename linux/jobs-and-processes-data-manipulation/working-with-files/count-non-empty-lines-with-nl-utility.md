@@ -19,7 +19,7 @@ tags:
 
 If you ever need to add numbering alongside a file then `nl` is the tool for you:
 
-```plain-text
+```bash
 echo 'line 1
 > line 2
 >
@@ -34,7 +34,7 @@ The difference between `nl` and `cat -n` is that `cat -n` will count empty lines
 
 To count empty lines with `nl` add:
 
-```plain-text
+```bash
 echo 'line 1
 > line 2
 >
@@ -62,4 +62,3 @@ cat enki.txt | ???
 - `n1`
 - `echo`
 - `num`
- 

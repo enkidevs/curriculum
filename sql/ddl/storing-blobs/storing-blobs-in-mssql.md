@@ -19,7 +19,7 @@ Similar to MySQL, MSSQL uses `varbinary(n)` to store raw bytes. The maximum numb
 
 Creating a table is easy:
 
-```plain-text
+```sql
 CREATE TABLE sprite(
   id bigint NOT NULL PRIMARY KEY,
   pokemon varbinary(MAX)
@@ -28,7 +28,7 @@ CREATE TABLE sprite(
 
 However, data insertion is done quite differently:
 
-```plain-text
+```sql
 INSERT INTO sprite
 VALUES((SELECT *
 FROM OPENROWSET (BULK 'pikachu.png',
@@ -77,4 +77,3 @@ FROM OPENROWSET(??? 'pikachu.jpg',
 - `BULK`
 - `SINGLE_BLOB`
 - `AS`
- 

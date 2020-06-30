@@ -23,7 +23,7 @@ links:
 
 Default values in function parameters and object destructuring work as expected when given `undefined`.
 
-```plain-text
+```js
 function foo(a = 1) {
   return a;
 }
@@ -38,7 +38,7 @@ const { a = 1 } = { a: undefined };
 
 This is however not the case for `null`.
 
-```plain-text
+```js
 function foo(a = 1) {
   return a;
 }
@@ -93,7 +93,7 @@ const { a = 1 } = { a: null };
 ### Can you handle optional arguments?
 
 
-```plain-text
+```javascript
 // given:
 function foo(x = 3) {
   return x + 4;
@@ -108,4 +108,3 @@ foo(null);
 - null
 - 7
 - NaN
- 

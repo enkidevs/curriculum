@@ -34,7 +34,7 @@ A module always exists in its own file. You cannot put two modules in one file.
 
 We will first create a file called `mathFuncs.js` and add the following code to it:
 
-```plain-text
+```javascript
 // mathFuncs.js
 
 export function double(x) {
@@ -44,7 +44,7 @@ export function double(x) {
 
 Next when we want to use this code we tell JavaScript we want to import it:
 
-```plain-text
+```javascript
 import * as mathFuncs from 'mathFuncs';
 console.log(mathFuncs.double(4)); 
 // 8
@@ -103,4 +103,3 @@ Fill in the missing keywords for importing and renaming a module at the same tim
 - imports
 - export
 - exports
- 

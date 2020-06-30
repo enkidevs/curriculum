@@ -38,14 +38,14 @@ Consider the following tables:
 
 As with `PRIMARY KEY`s, `FOREIGN KEY`s can be defined when creating a table or added at a later time. In this insight you will learn how to define a `FOREIGN KEY` when creating your table. For the `employees` and `departments` table, we know that the `department_id` and the `id` columns contain identical values. We would then like to create a reference between these tables. This would be done as such:
 
-```plain-text
+```sql
 CREATE TABLE departments (
   id INT PRIMARY KEY,
   name VARCHAR
 );
 ```
 
-```plain-text
+```sql
 CREATE TABLE employees (
   id INT,
   name VARCHAR,
@@ -142,4 +142,3 @@ Consider you have the table `servers` which has a column `id` defined as a `PRIM
 
 [1:UNIQUE Constraint]
 The `UNIQUE` constraint is very similar to `PRIMARY KEY` but it has two small differences. The first is that a column defined as `UNIQUE` can hold `NULL` values, and because the expression `NULL = NULL` doesn't evaluate to `true` (it evaluates to `unknown`) the column can hold multiple `NULL` values. The second difference is that there can only be one column defined as `PRIMARY KEY`, but there can be many columns defined as `UNIQUE`.
- 

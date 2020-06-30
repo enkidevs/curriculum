@@ -25,7 +25,7 @@ links:
 
 The `small-caps` keyword forces the use of small capital letters for lower case characters. Some fonts might not support this.
 
-```plain-text
+```css
 p.smallcaps {
   font-variant: small-caps;
 }
@@ -33,7 +33,7 @@ p.smallcaps {
 
 For example, if the property is applied on the following html code:
 
-```plain-text
+```html
 <p class="smallcaps"> Hello World </p>
 ```
 
@@ -53,4 +53,3 @@ What must the font-variant property be set to transform the text to small caps?
 - `small-caps`
 - `smallcaps`
 - `small_caps`
- 

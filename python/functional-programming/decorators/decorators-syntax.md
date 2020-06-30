@@ -13,7 +13,7 @@ category: feature
 
 Now that you are familiar with the concept of decorators, we can talk about ways you'll see them in practice. With regard to syntax, Python specific decorator's symbol is `@`. Looking at the previous example:  
 
-```plain-text
+```python
 def say_hello(name):
   return "Hello, {0}!".format(name)
 def h2_decorate(string_function):
@@ -26,7 +26,7 @@ hello_wrapper = h2_decorate(say_hello)
 
 We can shorten the code and get rid of the variable assignment by introducing the `@` notation:
 
-```plain-text
+```python
 def h2_decorate(string_function):
   def func_wrapper(name):
     return "<h2>{0}</h2>"
@@ -43,7 +43,7 @@ print(say_hello("Mike"))
 
 As you can see, the function is decorated, without the need of an explicit `h2_decorate` binding. This shorthand notation is also useful in case of multiple decorators being used (`div_decorate` wraps a string in `div` tags):
 
-```plain-text
+```python
 # variable assignment
 def say_hello(name):
   return "Hello, {0}!".format(name)
@@ -61,7 +61,7 @@ print(say_hello("Mike"))
 
 Both approaches will result in:
 
-```plain-text
+```html
 <div><h2>Hello, Mike!</h2></div>
 ```
 
@@ -71,7 +71,7 @@ In our case, all the decorators do is wrap a string in tags. This example is sim
 
 However, this syntax requires an additional enclosing function, as the **decorator** itself should only receive the function to be decorated as its sole parameter:
 
-```plain-text
+```python
 def tags_wrapper(tag):
   def func_decorator(string_function):
     def name_wrapper(name):
@@ -102,7 +102,7 @@ print(say_goodbye("Mike"))
 
 Which of the following is `not` a potential valid way of decorating the function `foo`?
 
-```plain-text
+```python
 # A
 foo = decorator(foo)
 # B
@@ -136,7 +136,7 @@ def foo():
 
 Which of the following is `not` a potential valid way of decorating the function `foo`?
 
-```plain-text
+```python
 # A
 @decorator
 def foo():
@@ -160,4 +160,3 @@ def decorator():
 - A
 - B
 - they are all valid
- 

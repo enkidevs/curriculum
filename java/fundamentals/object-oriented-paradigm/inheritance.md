@@ -20,7 +20,7 @@ Let's take the `Car` class as example. While it is a generic type, in an app we 
 
 If, for a family car, the number of seats would be important as well, the  `FamilyCar` class declaration would look like this:
 
-```plain-text
+```java
 public FamilyCar extends Car {
   /* implicit fields obtained by extension
      String model;
@@ -51,7 +51,7 @@ The `super()` method has to be the *first statement* in the constructor, or othe
 
 The `SportsCar` class would look almost the same, but here it makes sense to know if the engine is turbocharged or not:
 
-```plain-text
+```java
 public SportsCar extends Car {
 
   boolean turboCharged;
@@ -67,7 +67,7 @@ public SportsCar extends Car {
 
 We can then declare variables as such:
 
-```plain-text
+```java
 Car car = new Car("genericCar","5332V",
        "grey",4);
 FamilyCar fCar = new FamilyCar("familyCar",
@@ -78,7 +78,7 @@ SportsCar sCar = new SportsCar("sportsCar",
 
 Because of inheritance, we would be able to call the `start()` method for all objects, even though we haven't explicitly declared them:
 
-```plain-text
+```java
 car.start();
 fCar.start();
 sCar.start();
@@ -94,7 +94,7 @@ The car starts!
 
 Or access their inherited fields:
 
-```plain-text
+```java
 System.out.println(fCar.noDoors);
 System.out.println(sCar.noDoors);
 
@@ -104,7 +104,7 @@ System.out.println(sCar.noDoors);
 
 **Keep in mind** that whenever you expect a *superclass*, a *subclass* is valid input as well:
 
-```plain-text
+```java
 void test(Car car){
   car.start();
 }
@@ -142,4 +142,3 @@ What method should the child class call to use the parent's constructor?
 - parent()
 - extends()
 - build()
- 

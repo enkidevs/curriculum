@@ -26,7 +26,7 @@ links:
 
 Class selectors are more specific than *type selectors* because they select a smaller group of elements rather than all of one type. In the style sheet, they are always invoked with a period before the name of the class:
 
-```plain-text
+```css
 .my-div{}
 .main-content{}
 .cities {}
@@ -34,7 +34,7 @@ Class selectors are more specific than *type selectors* because they select a sm
 
 And the HTML:
 
-```plain-text
+```html
 <div class="my-div"></div>
 <div class="main-content cities">
                        </div>
@@ -48,14 +48,14 @@ An element can have multiple classes, as you can see above. The `<div>` with `ma
 
 ID selectors have the most priority out of the three, as they target one unique element at a time. In the style sheet, they are always invoked with a hashtag before the id:
 
-```plain-text
+```css
 #my-div{}
 #title{}
 ```
 
 And the HTML:
 
-```plain-text
+```html
 <div id="my-div"></div>
 <h2 id="title"></h2>
 ```
@@ -88,4 +88,3 @@ In CSS, the syntax for targeting elements within a certain class is:
 - `.class`
 - `#class`
 - `class`
- 

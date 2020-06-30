@@ -20,7 +20,7 @@ Even though *reactive* data flow always ensures that the latest props are sent t
 
 To create a reference, you must call `React.createRef()` in the `constructor()` method, followed by attaching said reference to a React element using the `ref` attribute.
 
-```plain-text
+```jsx
 class EnkiComponent extends React.Component{
   constructor(props) {
     super(props);
@@ -34,7 +34,7 @@ class EnkiComponent extends React.Component{
 
 Now, the node reference becomes accessible by calling the `.current` method:
 
-```plain-text
+```jsx
 const nodeReference = this.myRef.current;
 ```
 
@@ -45,7 +45,7 @@ Depending on the type of node it is applied to, the `current` value of `ref` dif
 
 Although function components can't have `ref` as their attribute (because they don't have instances), it is possible to use `ref` inside a function component if they are used on a class component or DOM element:
 
-```plain-text
+```jsx
 function EnkiComponent(props) {
   // myRef has to be declared here
   // so it can be referenced
@@ -117,4 +117,3 @@ class Enki extends React.Component {
 - createRef
 - reference
 - that
- 

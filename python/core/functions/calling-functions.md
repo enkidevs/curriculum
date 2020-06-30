@@ -16,7 +16,7 @@ To call a function in Python, you write the function's name followed by some bra
 
 For example:
 
-```plain-text
+```python
 # To define
 def new_func():
     print ('Function time!')
@@ -36,7 +36,7 @@ A parameter in Python is a variable which can be passed into functions so that m
 
 In this example, variable `x` is passed into the function as a parameter:
 
-```plain-text
+```python
 def func(x):
     ans = x * x
     print(ans)
@@ -44,7 +44,7 @@ def func(x):
 
 So to call this function, you must pass a parameter into your function call as follows:
 
-```plain-text
+```python
 num = 5
 func(num)
 ```
@@ -100,4 +100,3 @@ num = 5
 - `obj`
 - `var`
 - `function`
- 

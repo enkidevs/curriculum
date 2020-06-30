@@ -31,7 +31,7 @@ We can also remove the network interface completely with `--network none`, which
 
 To create a network and hook it up to your container:
 
-```plain-text
+```bash
 # Create a network name enki
 docker network create enki
 
@@ -42,7 +42,7 @@ docker network connect enki world
 
 To display information about the network:
 
-```plain-text
+```bash
 # Displays detailed information
 # on the enki network
 docker network inspect enki
@@ -50,7 +50,7 @@ docker network inspect enki
 
 The above command would output something like this:
 
-```plain-text
+```json
 [
   {
     "Name": "enki",
@@ -93,7 +93,7 @@ The above command would output something like this:
 
 To see which networks you created:
 
-```plain-text
+```bash
 # Lists all the networks created by the user
 docker network ls
 ```
@@ -136,4 +136,3 @@ docker network ??? ??? ???
 - connect
 - world
 - enki
- 

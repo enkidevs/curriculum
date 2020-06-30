@@ -33,7 +33,7 @@ The `/etc/group` file contains a list of every group on the system.  Run `cat /e
 
 You can use the `groups` command to see which groups a specific user belongs to.  For example:
 
-```plain-text
+```shell
 groups jesse
 jesse : admin www-data rvm
 ```
@@ -56,4 +56,3 @@ You can see the groups a user is in by issuing:
 - `group`
 - `ls -g`
 - `-groups`
- 

@@ -17,7 +17,7 @@ links:
 
 The **CSS** `transform` property lets you modify the coordinate space of the CSS visual formatting model. Using it, elements can be translated, rotated, scaled, and skewed.
 
-```plain-text
+```css
 img {
   transform: scaleX(-1);
 }
@@ -71,7 +71,7 @@ img {
 
 How does the following line affect an image?
 
-```plain-text
+```css
 img { transform: scaleX(-1); }
 ```
 
@@ -81,4 +81,3 @@ img { transform: scaleX(-1); }
 - It vertically flips the image
 - It rotates the image 180 degrees
 - The image will look just the same
- 

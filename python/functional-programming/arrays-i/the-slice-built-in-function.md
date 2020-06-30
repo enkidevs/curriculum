@@ -17,7 +17,7 @@ links:
 
 The `slice` built-in is a constructor which creates a *slice object* representing the set of indices specified by a given range. It can be used to get substrings, subtuples and sublists from their respective sequence objects. The general syntax is of the form:
 
-```plain-text
+```python
 slice(stop)
 # or
 slice(start, stop, step)
@@ -31,7 +31,7 @@ Where the arguments are all integers. Passing only one integer argument causes i
 
 Consider the following example, where we use `slice` to extract a substring from a string.
 
-```plain-text
+```python
 ourString = 'learning-python'
 
 sObject = slice(8)
@@ -46,7 +46,7 @@ print(ourString[sObject])
 
 We can also use **negative numbers** as arguments to `slice`, which creates a slice with the elements in the reverse order, i.e. index -1 would be the last element in the sequence, -2 would be the second-last, etc.[1]
 
-```plain-text
+```python
 ourString = 'learning-python'
 sObject = slice(-1, -7, -1)
 print(ourString[sObject])
@@ -55,7 +55,7 @@ print(ourString[sObject])
 
 This concept can be extended to work on tuples, lists, strings etc. in an analogous fashion. Here is an example of extracting sublists and subtuples:
 
-```plain-text
+```python
 eList = ['E', 'N', 'K', 'I']
 eTuple = ('E', 'N', 'K', 'I')
 
@@ -120,7 +120,7 @@ print(nList[sObject])
 
 What will be printed by the following snippet?
 
-```plain-text
+```python
 a = 'enki'
 print(a[::-1])
 ```
@@ -139,4 +139,3 @@ print(a[::-1])
 
 [1:Negative Numbers]
 *Notice how when negative numbers are given as arguments to `slice` its behavior can be made to be analogous to the `reversed` built-in function. Depending on the context, one function may be more suitable than the other in terms of efficiency, legibility or modularity.*
- 

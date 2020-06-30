@@ -17,13 +17,13 @@ If you have committed or pushed your code anywhere, then in most cases it is not
 
 To check the reflog:
 
-```plain-text
+```bash
 git reflog
 ```
 
 If the lost commit is there, you can retrieve it using its checksum:
 
-```plain-text
+```bash
 git branch myBranch ca3df45
 ```
 
@@ -31,7 +31,7 @@ Then you can merge this into your current branch.
 
 To search for orphan commits[1]:
 
-```plain-text
+```bash
 git fsck --full
 ```
 
@@ -78,4 +78,3 @@ git ??? ???
 
 [1:orphan commits]
 Orphan commits are just commits that get lost in various scenarios. One such example would be running `git reset --hard HEAD^`.
- 

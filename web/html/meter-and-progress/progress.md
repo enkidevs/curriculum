@@ -16,7 +16,7 @@ The HTML `<progress>`, or the **Progress Indicator** element, is used to display
 
 Example:
 
-```plain-text
+```html
 <progress
   value="25"
   max="100">
@@ -91,4 +91,3 @@ Check out this '[meter](https://www.dropbox.com/s/azi3gl1th52zwrs/Screen%20Shot%
 - `<progress value="0.6" max="1"></progress>`
 - `<bar value="0.6" max="1"></bar>`
 - `<bar value="60" max="100"></bar>`
- 

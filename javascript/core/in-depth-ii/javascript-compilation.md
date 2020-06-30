@@ -93,4 +93,3 @@ function foo(){ // foo is in global
 - foo
 - fee
 - local
- 

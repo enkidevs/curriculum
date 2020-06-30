@@ -19,7 +19,7 @@ To specify a range of commits that can be reached by different branches you can 
 
 These are equivalent:
 
-```plain-text
+```bash
 git log master..tests
 git log ^master tests
 git log tests --not master
@@ -29,7 +29,7 @@ git log tests --not master
 
 Triple dots are used to show commits that are in one branch but not in both:
 
-```plain-text
+```bash
 git log master...tests
 # shows all commits that aren't
 # shared history
@@ -40,7 +40,7 @@ git log master...tests
 
 ## Practice
 
-```plain-text
+```bash
 git log master...myBranch
 ```
 
@@ -58,7 +58,7 @@ Would print commits that
 
 ## Revision
 
-```plain-text
+```bash
 git log ^master myBranch
 ```
 
@@ -80,7 +80,7 @@ Is equivalent to
 
 Consider the following git history
 
-```plain-text
+```bash
 *--*--*--A--*--*--*--B--*
 ```
 
@@ -92,4 +92,3 @@ Which of the following commands should be used to log all commits between A and 
 - git log A..B
 - git log A…B
 - git log ^A B
- 

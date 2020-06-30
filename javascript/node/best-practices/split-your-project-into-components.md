@@ -69,7 +69,7 @@ Can you point out the main reason for breaking up big projects into microservice
 ### Can you identify a property of microservices?
 
 
-```plain-text
+```javascript
 Which of the following properties defines microservices?
 ```
 
@@ -79,4 +79,3 @@ Which of the following properties defines microservices?
 - Tight coupling
 - Anonymity
 - Low computational power
- 

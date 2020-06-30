@@ -21,7 +21,7 @@ They are used to store information. To make them easily identifiable, you put a 
 
 Let's try creating a variable now:
 
-```plain-text
+```bash
 best_app="Enki"
 ```
 
@@ -33,14 +33,14 @@ We've taken the `"Enki"` information, and stored it in our `best_app` box:
 
 To print this variable, you'd type:
 
-```plain-text
+```bash
 echo $best_app
 # Enki
 ```
 
 > 💡 You need to prefix a `$` sign to the variable name to get its value
 
-```plain-text
+```bash
 echo best_app
 # best_app
 ```
@@ -70,7 +70,7 @@ echo ???
 
 Which of these variable declarations will throw an error?
 
-```plain-text
+```bash
 a="foobar"
 
 b = foobar
@@ -83,4 +83,3 @@ c=foobar
 - b
 - a
 - c
- 

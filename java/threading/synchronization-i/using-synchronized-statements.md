@@ -25,7 +25,7 @@ When a thread executes code within a `synchronized` statement, the object passed
 
 When writing a `synchronized` block, the object providing the lock must be specified after the `synchronized` keyword:
 
-```plain-text
+```java
 public class Example {
   private int sum;
   public void addToSum(int value) {
@@ -40,7 +40,7 @@ In this example the object providing the lock is `this`, which is the instance o
 
 You can lock instances of other classes as well:
 
-```plain-text
+```java
 public class Example {
   private MyObject mo;
 
@@ -81,4 +81,3 @@ When should you use the `synchronized` keyword?
 - More than one thread try to modify different instances of an object.
 - Never.
 - Every time you use multiple threads.
- 

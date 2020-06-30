@@ -15,7 +15,7 @@ Every function in JavaScript is also an object.
 
 This means we can assign a function to a variable which can then be used to execute the function. Function used as a value like this is called a *function expression*.
 
-```plain-text
+```js
 let add = function enki(x, y){
   return x + y;
 };
@@ -29,7 +29,7 @@ This means that we can also pass function as arguments into other functions (the
 
 Consider this example: if we were creating a calculator, we could pass different calculation expressions into the `calc` function and avoid repeating the console logging code:
 
-```plain-text
+```js
 function calc(expression){
   console.log(expression(2, 1));
 }
@@ -50,7 +50,7 @@ We don’t even need to give our functions a name.
 
 A function without a name is called an anonymous function:
 
-```plain-text
+```js
 let add = function (x, y){
   return x + y;
 }
@@ -102,4 +102,3 @@ console.log(x(1, 2, 3));
 - `get`
 - `fn`
 - `()`
- 

@@ -19,7 +19,7 @@ Similar to the `int` data type, `float`s also have several additional methods us
 
 For example, you can directly check if the float number is actually an integer with `is_integer()`:
 
-```plain-text
+```python
 >>> (5.9).is_integer()
 False
 >>> (-9.0).is_integer()
@@ -28,7 +28,7 @@ True
 
 Integer values might be preferred over floats in some cases and you can convert a `float` to a tuple matching a fraction with integer values:
 
-```plain-text
+```python
 >>> (-5.5).as_integer_ratio()
 (-11,2)
 # -11 / 2 == -5.5
@@ -36,7 +36,7 @@ Integer values might be preferred over floats in some cases and you can convert 
 
 As `float`s' numbers representation in binary is not really human-friendly and tends to be lengthier with precision, the **hexadecimal** format is preferred. Such hexadecimal representations have the form:
 
-```plain-text
+```python
 [sign]['0x']int['.' fraction]['p' exponent]
 # e.g 0x1.8000000000000p+0 -> 1.5
 # 1.5 in decimal is 1.8 in hex
@@ -47,7 +47,7 @@ As `float`s' numbers representation in binary is not really human-friendly and t
 
 To convert a float number to a **hex** string you can use the `hex()` function.
 
-```plain-text
+```python
 >>> (3.14).hex()
 '0x1.91eb851eb851fp+1'
 
@@ -57,7 +57,7 @@ To convert a float number to a **hex** string you can use the `hex()` function.
 
 The reverse can be achieved with the `fromhex()` class method:
 
-```plain-text
+```python
 >>> float.fromhex('0x1.91eb851eb851fp+1')
 3.14
 
@@ -115,4 +115,3 @@ How would you convert `2.71` to its **hexadecimal** representation?
 - `to_hex`
 - `fromhex`
 - `int`
- 

@@ -36,7 +36,7 @@ In **Java**, Oracle does not provide database connection APIs with the JDK, mean
 
 Now after downloading the correct `.jar` file and adding it to our project, we can connect to our database:
 
-```plain-text
+```java
 import java.sql.*;
 
 public class Main {
@@ -144,4 +144,3 @@ What is a database driver?
 
 - It is a library in a certain language and it is specific to a certain DBMS
 - It is Java specific library which allows the user to connect to the MySQL database
- 

@@ -18,7 +18,7 @@ A common pattern in **React** is for a component to return multiple elements.
 
 Fragments let you group a list of children without adding extra nodes to the **DOM**.
 
-```plain-text
+```javascript
 render() {
   return (
     <React.Fragment>
@@ -34,7 +34,7 @@ Now, each child will be rendered without the need of a **div** or another compon
 
 You can also use `empty tags` as a shorter syntax. This is equivalent to the above:
 
-```plain-text
+```javascript
 render() {
   return (
     <>
@@ -48,7 +48,7 @@ render() {
 
 Fragments declared with explicit `React.Fragment` syntax may have keys. This is useful for mapping a collection to an array of fragments.
 
-```plain-text
+```javascript
 function Enki(props) {
   return (
     <dl>
@@ -109,4 +109,3 @@ What is a shorter syntax for the `React.Fragment` tag?
 - `<Frag>`
 - `<F>`
 - `<R.F>`
- 

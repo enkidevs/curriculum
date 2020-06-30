@@ -18,7 +18,7 @@ notes: |
 
 `String` objects are **immutable**. That means they can not be changed after being created. 
 
-```plain-text
+```java
 String str="Good";
 str=str+" Morning";
 ```
@@ -37,7 +37,7 @@ The main additional functionality provided by StringBuilder over String are the 
 
 You can replicate the code snippet above:
 
-```plain-text
+```java
 StringBuffer str= 
 new StringBuffer("Good");
   str.append("Morning");
@@ -47,4 +47,3 @@ new StringBuffer("Good");
 
 - `append` attaches the parameter to the end of the string.
 - `insert` inserts the parameter at the specified index.
- 

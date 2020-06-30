@@ -24,7 +24,7 @@ It provides a more powerful and flexible interface than `XMLHttpRequest`.
 
 Example of fetch response handling:
 
-```plain-text
+```javascript
 var myHeaders = new Headers();
 
 var myOptions = { method: 'GET',
@@ -65,4 +65,3 @@ Which interface for fetching resources supports promises natively?
 
 - `fetch`
 - `XMLHttpRequest`
- 

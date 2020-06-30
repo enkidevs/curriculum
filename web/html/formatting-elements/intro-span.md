@@ -21,7 +21,7 @@ The HTML `<span>` element is used to style inline HTML elements, meaning that it
 
 Example:
 
-```plain-text
+```html
 <p>Normal text here.
   <span>
     Text within span here.
@@ -32,7 +32,7 @@ Example:
 
 The above example with HTML alone does pretty much nothing, whereas this example styles the text green based on the properties assigned to the class brand:
 
-```plain-text
+```html
 <p>Normal text here.
   <span class="brand-color">
   Text within span here.
@@ -97,4 +97,3 @@ What is the best HTML element to use to group elements for styling purposes?
 - inline-block
 - li
 - p
- 

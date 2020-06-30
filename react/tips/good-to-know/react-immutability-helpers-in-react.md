@@ -20,7 +20,7 @@ When opting in for an immutable style of data management, a significant speedup 
 
 Let's take a look at the following example of mutating data:
 
-```plain-text
+```javascript
 myData.x.y.z = 10;
 // or...
 myData.a.b.push(13);
@@ -30,13 +30,13 @@ Given the fact that **JavaScript** wasn't designed for dealing with immutable da
 
 This new library can be installed using the NPM package manager:
 
-```plain-text
+```shell
 npm install immutability-helper --save
 ```
 
 Now, with the help of the immutability helper we would write:
 
-```plain-text
+```javascript
 import update from "immutability-helper";
 
 const newData = update(myData, {
@@ -53,7 +53,7 @@ In terms of notation, keys that are preceded by a `$` are called **commands** (`
 
 Here is how you would perform a shallow merge using the `update()` method:
 
-```plain-text
+```javascript
 var obj = { a: 5, b: 3 };
 var newObj = update(obj, {
   $merge: { b: 6, c: 7 }
@@ -70,7 +70,7 @@ Other commands worth mentioning are `{ $unshift: array }` and `{ $splice: array 
 
 Given:
 
-```plain-text
+```javascript
 myData.x.y = 3;
 myData.a.b.push(4);
 ```
@@ -103,7 +103,7 @@ var newObj = ???(myData, {
 
 Given:
 
-```plain-text
+```javascript
 myData.x.y = 3;
 myData.a.b.push(4);
 ```
@@ -136,4 +136,3 @@ var newObj = ???(myData, {
 
 [1:Deep Copies]
 There is another method to make this comparison possible, but it requires a lot of writing and provides many opportunities for bugs to appear. The process would consist of creating a new copy of your data, changing the parts that need to be changed, and finally comparing the old copy and the new copy using triple-equals.
- 

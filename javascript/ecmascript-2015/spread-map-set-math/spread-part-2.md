@@ -20,21 +20,21 @@ links:
 
 The spread syntax is particularly useful when working with arrays and we can use it to (shallow) copy[1] an array (previously you would probably have used `slice` to accomplish this):
 
-```plain-text
+```javascript
 let original = [1, 2, 3];
 let copyOfOriginal = [...original];
 ```
 
 We can even copy the original array into the middle of a new array: 
 
-```plain-text
+```javascript
 let another = [0, ...original, 4, 5, 6];
 // [0, 1, 2, 3, 4, 5, 6]
 ```
 
 Or add an existing array to the end:
 
-```plain-text
+```javascript
 original.push(...copyOfOriginal);
 // [1, 2, 3, 1, 2, 3]
 ```
@@ -101,7 +101,7 @@ console.log(final);
 [1: Shallow Copy]
 A shallow copy of a collection is a copy of the collection structure, not the elements within it. With a shallow copy, two collections now share the individual elements.
 
-```plain-text
+```js
 const arr = [ { name: 'Enki' }, { name: 'Example' } ];
 const copy = [...arr];
 // copy is now a different collection from arr
@@ -110,4 +110,3 @@ console.log(copy === arr); // false
 console.log(copy[0] === arr[0]); // true
 console.log(copy[1] === arr[1]); // true
 ```
- 

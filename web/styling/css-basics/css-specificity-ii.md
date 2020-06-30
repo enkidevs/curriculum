@@ -23,13 +23,13 @@ links:
 
 Looking at the example from the previous insight, say we decide to give the heading the id of *title*:
 
-```plain-text
+```css
 div div.my-class #title{}
 ```
 
 And use two selectors to target the title of the page:
 
-```plain-text
+```css
 div div.my-class #title{
   font-size: 30px;
 }
@@ -50,7 +50,7 @@ The font size is *30*.
 
 As discussed earlier, inline CSS has the highest inherited specificity:
 
-```plain-text
+```html
 <div>
   <div class="my-class">
     <h2 id="title"
@@ -76,7 +76,7 @@ There are three other factors that influence the specificity of a selector. Howe
 - pseudo-classes increment the middle value as well: `li:nth-of-type(2n)` (targets list items with an even index) has `0-1-1` specificity.
 - the `!important` keyword added to the end of a CSS declaration:
 
-```plain-text
+```css
 /* `1-0-1-0-0` specificity. */
 #title{
   font-size: 60px !important;
@@ -90,7 +90,7 @@ There are three other factors that influence the specificity of a selector. Howe
 
 What is the specificity of the following CSS code snippet?
 
-```plain-text
+```css
 p#myParagraph .class1 div.class2 {}
 ```
 
@@ -108,7 +108,7 @@ p#myParagraph .class1 div.class2 {}
 
 What is the specificity of the following CSS code snippet?
 
-```plain-text
+```css
 #div.selected a{}
 ```
 
@@ -129,7 +129,7 @@ What is the specificity of the following CSS code snippet?
 ### which of the following selectors has the highest specificity?
 
 
-```plain-text
+```css
 #nav .selected > p:hover {} /* 1 */
 #footer #note {} /* 2 */
 div div ul li div div img {} /* 3 */
@@ -141,4 +141,3 @@ div div ul li div div img {} /* 3 */
 - 1
 - 3
 - both 1 and 2
- 

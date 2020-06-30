@@ -21,13 +21,13 @@ The difference between **Python's** implementation and the textbook one is that 
 
 Import the module:
 
-```plain-text
+```python
 import heapq
 ```
 
 Transform a `list` to a `heap`:
 
-```plain-text
+```python
 a = [8, 4, 5, 12, 9, 7]
 heapq.heapify(a)
 
@@ -35,7 +35,7 @@ heapq.heapify(a)
 
 Pop (and return) the smallest item:
 
-```plain-text
+```python
 print(heapq.heappop(a)) # 4
 print(a)
 # [5, 8, 7, 12, 9]
@@ -43,7 +43,7 @@ print(a)
 
 Replace the smallest element with another:
 
-```plain-text
+```python
 heapq.heapreplace(a, 999)
 print(a)
 # [7, 8, 999, 12, 9]
@@ -97,4 +97,3 @@ heapq.heapreplace(h, 100)
 - 304
 - 320
 - the following snippet won't wor
- 

@@ -21,7 +21,7 @@ The HTML `<section>` element is used to represent a standalone section. Usually,
 
 Example:
 
-```plain-text
+```html
 <section>
   <h1>Page name</h1>
   <p>Related info to page</p>
@@ -82,4 +82,3 @@ Which HTML container element should be used only when the contents would be info
 - `<record>`
 
 <!--As blogposts and comments are often syndicated (by being pulled into other blogs or being linked via twitter, reddit etc) they should be articles. Cite: http://html5doctor.com/the-section-element/ -->
- 

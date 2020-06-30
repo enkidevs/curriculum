@@ -19,7 +19,7 @@ Method shorthand allows us to remove the function key word and colon making code
 
 For example, prior to ES6, you would have written something similar to the below:
 
-```plain-text
+```javascript
 return {
    func: function func() {
    ...
@@ -29,7 +29,7 @@ return {
 
 This can now become:
 
-```plain-text
+```javascript
 return {
     func() {
     ...
@@ -88,4 +88,3 @@ return {
 - function func()
 - func()
 - () =>
- 

@@ -22,7 +22,7 @@ A Dockerfile must start with a `FROM` instruction which initializes a new build 
 
 `FROM` may only be preceded by one or more `ARG` instructions, which represent externally passed build arguments into the image building process.
 
-```plain-text
+```bash
 docker build . \
   --build-arg EXAMPLE="this is an"
 ```
@@ -64,4 +64,3 @@ The result of each Dockerfile instruction is cached and dependent on the cached 
 
 - true
 - false
- 

@@ -14,7 +14,7 @@ links: null
 
 In the previous insight, we showed you how to search for a specific element within an array regardless of its position in the array and the number of values in that array.
 
-```plain-text
+```js
 db.pokedex.find( { spells: "Bite" } )
 ```
 
@@ -24,7 +24,7 @@ Using the same example from the previous insight, let's say we wanted to find wh
 
 To do this, all we have to do is add `[]` around our `"Bite"` value, like so:
 
-```plain-text
+```js
 // Search for an array containing the "Bite" value
 db.pokedex.find( { spells: "Bite" } )
 
@@ -40,7 +40,7 @@ The second one searches for the document whose `spells` array only has the value
 
 Output of 2nd example:
 
-```plain-text
+```javascript
 {
   _id: ObjectId("5df389d397b15a71714c7592"),
   name: "Zubat:",
@@ -78,7 +78,7 @@ db.pokedex???(
 [1:Previous Documents]
 Here are the documents used in the previous insight:
 
-```plain-text
+```javascript
 // Previous Documents
 {
   _id: ObjectId("5d9d8a6a0b24990f19398209"),
@@ -102,4 +102,3 @@ Here are the documents used in the previous insight:
   spells: ["Bite"]
 }
 ```
- 

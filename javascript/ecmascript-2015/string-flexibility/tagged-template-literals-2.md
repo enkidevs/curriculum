@@ -22,7 +22,7 @@ links:
 
 For more advanced templating you can use **Tagged Template Literals**, which allow you to define a function that does multiple processing steps in order to produce a string. Our template becomes a function, rather than a simple string, allowing us to abstract the templating process.
 
-```plain-text
+```javascript
 let price = 5;
 
 function currency(strings, priceValue){
@@ -50,7 +50,7 @@ The `priceValue` parameter receives the value passed in to the first template li
 
 Subsequent values appear as additional arguments, a best practice is to use the **rest** operator to map values to an array rather than define each argument:
 
-```plain-text
+```javascript
 function price(strings, ...substitution){
  ...
 }
@@ -63,13 +63,13 @@ function price(strings, ...substitution){
 
 Consider the following tagged template function call:
 
-```plain-text
+```javascript
 myTag`Number ${2} is`
 ```
 
 And it's definition:
 
-```plain-text
+```javascript
 function myTag(strings, ...substitutions) {
   ...
 }
@@ -102,7 +102,7 @@ console.log(substitutions)
 
 Given the following function:
 
-```plain-text
+```javascript
 function processNumber(strings, value) {
   let ret = strings[0] + value;
   if (value % 2 === 0) {
@@ -131,4 +131,3 @@ console.log(
 - processNumber()
 - this.processNumber(
 - String.template(processNumber
- 

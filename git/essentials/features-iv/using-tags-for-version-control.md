@@ -19,7 +19,7 @@ In git you can tag a certain point in history as being important. You can use th
 
 You can create an **annotated** tag by:
 
-```plain-text
+```bash
 git tag -a v1.0.1 -m "Version 1.0.1"
 ```
 
@@ -27,19 +27,19 @@ Annotated tags contain useful information: the current commit checksum, your nam
 
 You can also create a **lightweight** tag which acts just as a pointer to the current commit:
 
-```plain-text
+```bash
 git tag v1.0.l
 ```
 
 You can add a tag to an **older** commit by specifying part of its commit checksum, for example:
 
-```plain-text
+```bash
 git tag -a v.1.0.0 4682c32
 ```
 
 You can list all the tags you have made in **alphabetical** order:
 
-```plain-text
+```bash
 git tag
 v0.1
 v0.9
@@ -48,7 +48,7 @@ v1.5
 
 If your project has hundreds of tags, you can also search for **specific** tags, for example those of version `v1.0`:
 
-```plain-text
+```bash
 git tag -l "v1.0*"
 v1.0.0
 v1.0.1
@@ -89,4 +89,3 @@ git tag ??? ???
 - `v2*`
 - `2`
 - `-m`
- 

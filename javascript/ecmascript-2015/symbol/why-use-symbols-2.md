@@ -21,7 +21,7 @@ Probably the primary use of symbols is to introduce changes into ECMAScript. We 
 
 Don't worry too much about what the below code does just understand we are using a special built-in (referred to as well known) symbol to access the iterator functionality:
 
-```plain-text
+```javascript
 let p = ["alex", "bill", "john"];
 let it = p[Symbol.iterator]();
 it.next().value; //alex
@@ -32,7 +32,7 @@ JavaScript contains many "well known symbols" that could not be accessed prior t
 
 Note that you won’t find any built-in symbols in the symbol registry either:
 
-```plain-text
+```javascript
 Symbol.keyFor(Symbol.iterator);
 //undefined
 ```
@@ -83,4 +83,3 @@ console.log(Symbol.keyFor(Symbol.iterator));
 - "Iterator"
 - "iterate"
 - "internalIterator"
- 

@@ -21,7 +21,7 @@ Use an `uncaughtException` listener to prevent a program crashing due to an unha
 
 For example:
 
-```plain-text
+```javascript
 process.on('uncaughtException',
   function(err) {
      console.log('exception: ' + err);
@@ -79,4 +79,3 @@ process.???('???',
 - any
 - undefinedState
 - listen
- 

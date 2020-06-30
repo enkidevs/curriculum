@@ -23,7 +23,7 @@ links:
 
 Together with the other built-in functions `map`[1] and `reduce`, `filter` allows us to take a functional approach to programming in Python. As the name might suggest, `filter` takes a function and an iterable object and returns only the elements in the iterable object for which the given function returns `true`[2]. `filter` takes the general form:
 
-```plain-text
+```python
 filter(function, iterable)
 ```
 
@@ -33,7 +33,7 @@ It is important to remember that `filter` evaluates a boolean value, so it inter
 
 For example, consider the following code fragment:
 
-```plain-text
+```python
 prices = (1.29, 1.99, 2.30, 2.99, 1.80)
 
 def less_than_two(element):
@@ -46,7 +46,7 @@ Perhaps we are trying to refine the result of some search on a price-comparison 
 
 Finally, we apply `filter` on the two and receive back only those prices less than two, since these elements were the only ones to return `True` when passed to the `less_than_two` function. The result is:
 
-```plain-text
+```python
 (1.29, 1.99, 1.8)
 ```
 
@@ -92,7 +92,7 @@ print(filter(special_function, customers))
 
 What is the printed result of the following code execution?
 
-```plain-text
+```python
 numbers = [-3, -2, -1, 0, 1, 2, 3]
 def mystery_function(element):
   return element < 0
@@ -115,4 +115,3 @@ print(filter(mystery_function, numbers))
 
 [2:true]
 *There is also a complementary function `itertools.filterfalse()` which only returns elements of the iterable object if the function returns false on them. Alternatively, you could negate the return value of the function passed to `filter` to achieve the same result.*
- 

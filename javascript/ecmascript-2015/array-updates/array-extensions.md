@@ -24,7 +24,7 @@ If you haven't used an iterator before, you can think of it as a collection that
 
 The below code uses the `entries` method to get an iterator and then logs the *keys* and *values*:
 
-```plain-text
+```javascript
 let arr = ["a", "b", "c"];
 
 let keysAndValues = arr.entries();
@@ -101,4 +101,3 @@ console.log(???.value)
 - 2
 - 3
 - 0
- 

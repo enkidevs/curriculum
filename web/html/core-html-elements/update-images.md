@@ -17,7 +17,7 @@ In order to display an image in a webpage, the `<img>` element is used to tell t
 
 Insert Image: 
 
-```plain-text
+```html
 <img
   src="elephant.png"
   alt="Cute baby elephant"
@@ -28,7 +28,7 @@ The `src` attribute specifies the URL path to the image. In the example above, t
 
 If the `elephant.png` image was in a subdirectory called `images`, then the path would look like this: 
 
-```plain-text
+```html
 <img src="images/elephant.png">
 ```
 
@@ -104,12 +104,12 @@ If an image does not have an assigned height and width using HTML or CSS, how wi
 
 ## Quiz
 
-### How much do you know about HTML 
+### How much do you know about HTML
+
 
 `<img>`
 
  element?
-
 
 Why is assigning height & width attributes to an image size more useful than setting the image size in CSS?
 
@@ -119,4 +119,3 @@ Why is assigning height & width attributes to an image size more useful than set
 - Using HTML height & width attributes is always better than using CSS sizing.
 - When the image size needs to override the CSS size setting.
 - When the height and width is different than the default image size.
- 

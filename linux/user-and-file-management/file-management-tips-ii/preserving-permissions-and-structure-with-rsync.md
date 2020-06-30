@@ -20,7 +20,7 @@ tags:
 
 To recursively copy from a remote system to your local system preserving permissions and structure you can use `rsync`. It works best for syncing the same files repeatedly over time:
 
-```plain-text
+```bash
 rsync -a -v -e ssh server:/source/
                            /dest/
 ```
@@ -47,4 +47,3 @@ Keep in mind that here we assume that we are using key based authentication and 
 - need constant syncing
 - have to be downloaded only once
 - are system independent
- 

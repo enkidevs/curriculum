@@ -19,7 +19,7 @@ parent: use-box-sizing-to-define-an-element-s-width-and-height-properties
 
 Say you want to set `box-sizing` `border-box` to every element in the page:
 
-```plain-text
+```css
 * {
   box-sizing: border-box;
 }
@@ -29,7 +29,7 @@ However, you have some `div`s with `img`s inside them you are not looking to res
 
 One way around it would be to change the property value for those images:
 
-```plain-text
+```css
 .customdiv, .customdiv::before,
 .customdiv::after,.customdiv *,
 .customdiv *::before,
@@ -42,7 +42,7 @@ However, this is an example bad practice because the `box-sizing` is set by your
 
 A better way of doing it is by letting  `box-sizing` be inherited from the parent component:
 
-```plain-text
+```css
 html {
   box-sizing: border-box;
 }
@@ -74,4 +74,3 @@ p {
 - `inherits`
 - `extend`
 - `extends`
- 

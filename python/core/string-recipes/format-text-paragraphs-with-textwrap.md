@@ -21,14 +21,14 @@ Python's `textwrap` module is useful for rearranging text, e.g. wrapping and fil
 
 Import the module:
 
-```plain-text
+```python
 import textwrap
 ```
 
 Wrap the text in the string *"parallel"*, so that all lines are a maximum
 of `x` characters long:
 
-```plain-text
+```python
 # When x = 2
 textwrap.wrap("parallel", width=2)
 # Output:
@@ -44,7 +44,7 @@ Returns a list of lines (without trailing newlines).
 
 If we would like to include trailing newlines (`\n`) after a each string of a certain `width` we can either use the following syntax:
 
-```plain-text
+```python
 '\n'.join(textwrap.wrap('text', width=2))
 # Output:
 # 'te\nxt'
@@ -52,7 +52,7 @@ If we would like to include trailing newlines (`\n`) after a each string of a ce
 
 Or we can use the `fill` method implemented in `textwrap` module:
 
-```plain-text
+```python
 textwrap.fill("text", width=2)
 # Output:
 # 'te\nxt'
@@ -60,13 +60,13 @@ textwrap.fill("text", width=2)
 
 Fill a text:
 
-```plain-text
+```python
 textwrap.fill(text, width=55)
 ```
 
 Collapse and truncate a text to `width` :
 
-```plain-text
+```python
 print(textwrap.shorten
 ("Hello world!", width=12))
 print(textwrap.shorten
@@ -115,4 +115,3 @@ textwrap.???(text, ???=30)
 - `fill`
 - `length`
 - `max`
- 

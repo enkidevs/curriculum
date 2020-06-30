@@ -15,7 +15,7 @@ When working with databases, you're bound to encounter a case in which you need 
 
 Let's start off with one of the simples arithmetic operations, addition. In MongoDB, you have to use the `$add` operator whenever you want to add two or more expressions. The syntax looks like this:
 
-```plain-text
+```javascript
 { 
   $add:  
   [ 
@@ -28,7 +28,7 @@ Let's start off with one of the simples arithmetic operations, addition. In Mong
 
 Let's say we have a `pokemon` collection where each pokémon has 3 power fields: `"Basic"` ,`"Strong"` and `"Ultimate"`. Each field has its own power "level" (number). Here are two example documents:
 
-```plain-text
+```javascript
 { 
   "Name": "Pikachu",
   "Basic": 101,
@@ -45,7 +45,7 @@ Let's say we have a `pokemon` collection where each pokémon has 3 power fields:
 
 We can use the `$add` operator to calculate the total strength of all 3 powers:
 
-```plain-text
+```javascript
 db.pokemon.aggregate([
   {
     $project: {
@@ -64,7 +64,7 @@ db.pokemon.aggregate([
 
 Output:
 
-```plain-text
+```javascript
 { 
   "_id": ObjectId(
     "5d9d8c330b24990f19398214"
@@ -96,4 +96,3 @@ In MongoDB, we can use the ??? operator to perform addition. The minimum number 
 - `$sum`
 - 3
 - 1
- 

@@ -21,7 +21,7 @@ Template methods are methods in an abstract base class which define the general 
 
 Using Template methods is a good way to eliminate code repetition. Rather than writing code which performs similar operations multiple times, a general abstract solution can be created, and then the differences can be implemented in several subclasses.
 
-```plain-text
+```java
 public abstract class BaseClass {
   /*template method defines the general
   steps*/
@@ -90,4 +90,3 @@ public class SmallerClass
 - `@Implement`
 - `@Create`
 - `@Extends`
- 

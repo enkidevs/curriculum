@@ -24,7 +24,7 @@ Volumes can be created using the `VOLUME` command in the Dockerfile, or by using
 
 To use the `-v` flag to mount the `enki-volume` on the path `~/enki` within the filesystem of a container created from an `nginx` image, we would run:
 
-```plain-text
+```bash
 docker run -v enki-volume:/~/enki nginx
 #             ^^^^^^^^^^^:^^^^^^^^^^^^^
 #  volume on host : volume on container
@@ -34,7 +34,7 @@ However, the recommended approach is to use the `--mount` which is more verbose 
 
 Here's how we would run the same command as above using the `--mount` flag:
 
-```plain-text
+```bash
 docker run --mount \
   source=enki-volume,target=/~/enki nginx
 ```
@@ -47,7 +47,7 @@ If you mount a non-empty volume at the same place, the contents will be obscured
 
 The direct way to create a volume is to use the `create` cli command.
 
-```plain-text
+```bash
 docker volume create enki-volume
 ```
 
@@ -92,4 +92,3 @@ Can Volumes increase the size of the container?
 - Yes
 - Yes, if the container shares a volume with another container
 - Yes, but only during the build process
- 

@@ -25,7 +25,7 @@ This Linux based firewall is controlled by the program (binary) called iptables 
 
 We can check the status of our iptables firewall by doing:
 
-```plain-text
+```bash
 sudo iptables -L -n -v
 ```
 
@@ -33,7 +33,7 @@ where `-L` list rules, `-v` displays detailed information. We speed up the listi
 
 If we see something like this:
 
-```plain-text
+```bash
 Chain INPUT
 (policy ACCEPT 0 packets, 0 bytes)
  pkts bytes target     
@@ -86,4 +86,3 @@ You can list the active firewall rules by running:
 - `iftables`
 - `-n`
 - `-l`
- 

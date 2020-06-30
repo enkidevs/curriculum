@@ -23,7 +23,7 @@ It is possible to access the current `URL` in parts, so for a website such as:
 
 From this, we can construct the full `URL` path:
 
-```plain-text
+```javascript
 var newURL = window.location.protocol +
 "//" + window.location.host +
  "/" + window.location.pathname;
@@ -70,4 +70,3 @@ window.???.???;
 - `url`
 - `protocol`
 - `pathname`
- 

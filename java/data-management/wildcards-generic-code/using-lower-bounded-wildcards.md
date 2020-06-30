@@ -21,7 +21,7 @@ links:
 
 Lower bounded wildcards can be used to make a variable less restrictive. For example, the following method will only accept collections of type `List<Integer>`:
 
-```plain-text
+```java
 public void method(List<Integer> list) {
   ...
 }
@@ -29,7 +29,7 @@ public void method(List<Integer> list) {
 
 Using a lower bounded wildcard `?`, we can modify the method to accept any `List` which contains `Integer` or any class which is a superclass of `Integer`:
 
-```plain-text
+```java
 public void method(
   List<? super Integer> list) {
   ...
@@ -37,4 +37,3 @@ public void method(
 ```
 
 This method will now accept `List`s of supertypes of `Integer`, such as `Number` and `Object`.
- 

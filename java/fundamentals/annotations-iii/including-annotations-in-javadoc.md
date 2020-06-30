@@ -23,7 +23,7 @@ By default, annotations are not included in Javadoc generated documentation. How
 
 For example:
 
-```plain-text
+```java
 @Documented
 @Introduction {
   String authorName();
@@ -59,4 +59,3 @@ By default, annotations ??? included in JavaDoc.
 
 - `are not` 
 - `are`
- 

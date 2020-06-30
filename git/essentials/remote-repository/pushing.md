@@ -20,13 +20,13 @@ links:
 
 The basic syntax of the `git push` command is:
 
-```plain-text
+```bash
 git push [remote-name] [branch-name]
 ```
 
 If you want to push all your local commits to the `origin` server on the `master` branch (both automatically named) you can use:
 
-```plain-text
+```bash
 git push origin master
 ```
 
@@ -34,7 +34,7 @@ You can also run `git push` without arguments to push to the upstream of your cu
 
 If, for example, you are on `feature` branch and you want to set it's upstream you need to use the `--set-upstream` flag:
 
-```plain-text
+```bash
 git push --set-upstream origin feature
 ```
 
@@ -82,4 +82,3 @@ git ??? ??? ???
 - `origin`
 - `master`
 - `pull`
- 

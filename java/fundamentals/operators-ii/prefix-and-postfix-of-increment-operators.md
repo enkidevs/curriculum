@@ -13,7 +13,7 @@ category: tip
 
 Java supports 2 forms of shorter incrementation[1] of variables:
 
-```plain-text
+```java
 int i = 3;
 System.out.println(i++); 
 // 4
@@ -23,7 +23,7 @@ System.out.println(++i);
 
 Let's first look at the postfix incrementation (`i++`): 
 
-```plain-text
+```java
 int i = 3;
 int j = i++;
 System.out.println(i);
@@ -36,7 +36,7 @@ In this case, the value of `i` is incremented **after** it is assigned to `j`. S
 
 Prefixing the increment operator (`++i`) has a slightly different behaviour.
 
-```plain-text
+```java
 int i = 3;
 int j = ++i;
 System.out.println(i);
@@ -56,7 +56,7 @@ We've only talked about incrementing, but the same applies to decrementing (`--`
 
 How would you rewrite this code using shorthand notation?
 
-```plain-text
+```java
 int i = 0;
 i = i + 1;
 int j = i;
@@ -97,7 +97,7 @@ System.out.print(b);
 
 What is the output?
 
-```plain-text
+```java
 int a = 0;
 int b = a++;
 int c = ++b;
@@ -118,4 +118,3 @@ System.out.println(b + " and " + c);
 
 [1:Increment and Decrement]
 In computer science, incrementing means **increasing** the value by 1. On the same note, decrementing means **decreasing** the value by 1.
- 

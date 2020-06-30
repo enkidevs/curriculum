@@ -15,7 +15,7 @@ tags:
 
 The double tilde `~~` is a quick way to truncate a value to an integer. For example:
 
-```plain-text
+```javascript
 console.log( ~~12.34 ); // 12
 console.log( ~~"56.78" ); // 56
 console.log( ~~-2.6 ); // -2
@@ -73,4 +73,3 @@ console.log( ~~"Sunny" ); // ???
 - 0
 - NaN
 - ”56”
- 

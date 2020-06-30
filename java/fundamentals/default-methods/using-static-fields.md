@@ -22,7 +22,7 @@ This could be useful for values that will stay the same for all objects of the s
 
 Another use could be to keep count of something across all instances of a class. For example:
 
-```plain-text
+```java
 public class Countable {
   private static int count;
   public Countable() {
@@ -41,7 +41,7 @@ The `count` field is `static`, so only one instance of it exists across all inst
 
 What does the following code snippet do? 
 
-```plain-text
+```java
 public class Enki {
   private static int x;
   public Enki() {
@@ -70,4 +70,3 @@ This means that a static field holds ??? for every instance created.
 - functions
 - a different value
 - a related value
- 

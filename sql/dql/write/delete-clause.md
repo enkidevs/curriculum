@@ -38,7 +38,7 @@ Consider the `egg_group` table:
 
 Suppose we want to delete the first value from the table:
 
-```plain-text
+```sql
 DELETE FROM egg_group
 WHERE id = 1;
 ```
@@ -64,7 +64,7 @@ Then, our table becomes:
 
 You can also use subqueries when constraining the rows you want deleted. Here is an example of how to delete your records from the `egg_group` table if the pokemon is a `'fire'` type:
 
-```plain-text
+```sql
 DELETE FROM egg_group
 WHERE id IN
   (SELECT egg_id
@@ -75,7 +75,7 @@ WHERE id IN
 
 If we wanted to delete all the data in this table:
 
-```plain-text
+```sql
 DELETE FROM egg_group;
 ```
 
@@ -135,4 +135,3 @@ We want to delete the 15th element of the `egg_group` table:
 - DELETE FROM egg_group WHERE id= 15;
 - UPDATE egg_group DELETE WHERE id=15;
 - DELETE FROM egg_group;
- 

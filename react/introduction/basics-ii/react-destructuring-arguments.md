@@ -23,7 +23,7 @@ The **destructuring assignment** syntax, introduced in `ES6`, is used to extract
 
 Basic assignment:
 
-```plain-text
+```jsx
 const obj = {x: 13, y: 42};
 const {x, y} = obj;
 
@@ -33,7 +33,7 @@ console.log(y); //42
 
 Using this, you can easily extract `props` from a **function component**:
 
-```plain-text
+```jsx
 function Display({text}) {
   return <p>{text}</p>;
 }
@@ -45,7 +45,7 @@ function Display(props) {
 
 Additionally, you can use the **JSX spread attributes** to forward **DOM** `props` to your component:
 
-```plain-text
+```jsx
 function Display({text, ...props}) {
   return <p {...props}>{text}</p>;
 }
@@ -99,4 +99,3 @@ Complete the following function component such that:
 - `text`
 - `this.props.text`
 - `props.text`
- 
