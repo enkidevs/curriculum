@@ -111,10 +111,10 @@ From Wikipedia:
 An XXE attack affects what components of an application?
 ???
 
-* XML Processors
-* HTTP Endpoints
-* Network Firewall
-* HTML DOM
+- XML Processors
+- HTTP Endpoints
+- Network Firewall
+- HTML DOM
 
 
 ---
@@ -124,8 +124,8 @@ An XXE attack affects what components of an application?
 An XXE attack comes from exploiting what?
 ???
 
-* External Entities
-* Unvalidated Input
-* Untested Code
-* Malformed Requests
+- External Entities
+- Unvalidated Input
+- Untested Code
+- Malformed Requests
  

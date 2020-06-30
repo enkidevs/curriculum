@@ -25,7 +25,7 @@ There are a couple of ways to create objects in JavaScript.
 
 Probably the most common is with the object initializer:
 
-```js
+```plain-text
 let person = {
   firstName: "john",
   lastName: "smith"
@@ -40,7 +40,7 @@ These properties are generally accessed via dot notation.
 
 We can access our `person` object's name with the dot syntax:
 
-```js
+```plain-text
 console.log(person.firstName); // "john"
 ```
 
@@ -48,14 +48,14 @@ We can also access properties using the array syntax.
 
 This can be very useful, especially when you do not know the name of the property you want to dynamically change at runtime .
 
-```js
+```plain-text
 let propName = "firstName";
 console.log(person[propName]);
 ```
 
 We can even add properties anytime we want to our objects:
 
-```js
+```plain-text
 // using dot notation
 person.age = "40";
 
@@ -70,7 +70,7 @@ person["homeTown"] = "London";
 
 Consider the following object:
 
-```js
+```plain-text
 let car = {
   model: "AwsomeCar",
   color: "blue",
@@ -86,8 +86,8 @@ Would the following line print `"model"`?
 console.log(car.test); // ???
 ```
 
-* no
-* yes
+- no
+- yes
 
 
 ---
@@ -105,8 +105,8 @@ let person = {
 ???
 ```
 
-* `person.age = 40;`
-* `let person.age = 40;`
-* `person[age] = 40;`
-* `person.addNewProperty(age, 40);`
+- `person.age = 40;`
+- `let person.age = 40;`
+- `person[age] = 40;`
+- `person.addNewProperty(age, 40);`
  

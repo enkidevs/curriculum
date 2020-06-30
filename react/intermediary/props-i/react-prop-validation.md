@@ -1,35 +1,20 @@
 ---
 author: catalin
-
-levels:
-
-  - beginner
-
-  - basic
-
-  - medium
-
-  - advanced
-
 type: normal
-
 category: best practice
-
 links:
-
-  - '[Type checking with PropTypes](https://facebook.github.io/react/docs/typechecking-with-proptypes.html#react.proptypes){website}'
+  - >-
+    [Type checking with
+    PropTypes](https://facebook.github.io/react/docs/typechecking-with-proptypes.html#react.proptypes){website}
   - '[PropTypes library](https://www.npmjs.com/package/prop-types){website}'
-
 parent: destructuring-arguments
-
-aspects:
-  - introduction
-
 ---
 
 # `props` Validation
 
+
 ---
+
 ## Content
 
 `JavaScript` being a loosely typed language you can experience runtime errors when you expect data of one type but receive another. *React* helps us in this by providing a feature called `propTypes`.
@@ -38,13 +23,13 @@ This helps you in validating if the data (`props`) received in components is val
 
 To access the validators, you must first install the `prop-types` library which can be done using the NPM package manager:
 
-```shell
+```plain-text
 npm install --save prop-types
 ```
 
 Now, all validators are available through `PropTypes` and should be specified as part of your *React* component, on the property `propTypes`:
 
-```jsx
+```plain-text
 import React from "react";
 import PropTypes from "prop-types";
 
@@ -69,7 +54,7 @@ The validations above state that the specified `props` should be **JS** primitiv
 
 However, they can be required by appending `.isRequired` to the type:
 
-```jsx
+```plain-text
 MyComponent.propTypes = {
   myFunc: PropTypes.func.isRequired
 };
@@ -77,7 +62,7 @@ MyComponent.propTypes = {
 
 Now, let's create a component and verify that the `name` prop is a string:
 
-```jsx
+```plain-text
 class Welcome extends React.Component {
   render() {
     return (
@@ -93,7 +78,9 @@ Welcome.propTypes = {
 
 Note that `propTypes` are only checked in development mode due to performance reasons.
 
+
 ---
+
 ## Practice
 
 Complete the missing validation such that the first prop is a function and the second an object:
@@ -106,19 +93,20 @@ Test.propTypes = {
 };
 ```
 
+- `PropTypes`
+- `func`
+- `object`
+- `function`
+- `obj`
+- `node`
+- `element`
+- `method`
+- `Props`
+- `Primitives`
 
-* `PropTypes`
-* `func`
-* `object`
-* `function`
-* `obj`
-* `node`
-* `element`
-* `method`
-* `Props`
-* `Primitives`
 
 ---
+
 ## Revision
 
 Complete the missing validation such that the first prop is a function and the second an object:
@@ -131,18 +119,14 @@ Test.propTypes = {
 };
 ```
 
-
-* `PropTypes`
-* `func`
-* `object`
-* `function`
-* `obj`
-* `node`
-* `element`
-* `method`
-* `Props`
-* `Primitives`
-
-
- 
+- `PropTypes`
+- `func`
+- `object`
+- `function`
+- `obj`
+- `node`
+- `element`
+- `method`
+- `Props`
+- `Primitives`
  

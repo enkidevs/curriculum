@@ -17,7 +17,7 @@ A readable stream reads data from a source. A source could be a file on a system
 
 The most efficient way of reading data from a stream is to add a *listener* to the *data* event and attach a callback. When data is available to be read, the (readable) stream will emit a data event causing the callback to run, for example:
 
-```javascript
+```plain-text
 let fs = require("fs");
 let rstream = fs.createReadStream(
   "file.txt"
@@ -33,7 +33,7 @@ Calling `fs.createReadStream` creates a readable stream, this stream then begins
 
 A callback also needs to be added for when the stream has reached the end of the data:
 
-```javascript
+```plain-text
 rstream.on("end", function () {
   console.log(data);
 });
@@ -41,7 +41,7 @@ rstream.on("end", function () {
 
 Encoding can be set on the stream like follows:
 
-```javascript
+```plain-text
 rstream.setEncoding(‘utf8’);
 ```
 
@@ -54,9 +54,9 @@ Which of the following Node modules needs to be required prior to a readable str
 
 ???
 
-* File system
-* http
-* readStream
+- File system
+- http
+- readStream
 
 
 ---
@@ -69,7 +69,7 @@ What method is called to create a static readable stream?
 let stream = fs.???('file.txt');
 ```
 
-* createReadStream
-* staticReadableStream
-* readableStream
+- createReadStream
+- staticReadableStream
+- readableStream
  

@@ -8,4 +8,8 @@ insights:
   - the-distinction-between-checked-and-unchecked-exceptions
   - using-super-to-access-overriden-methods
   - specifying-an-annotation-retention-policy
- 
+
+aspects:
+  - deep
+  - obscura
+  - introduction

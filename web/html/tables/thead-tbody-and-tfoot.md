@@ -28,9 +28,9 @@ links:
 
 The HTML `<thead>`, `<tbody>` and `<tfoot>` elements are used in conjunction with the `<table>` element to section the table into 3 parts.
 
-* `<thead>`: is used to group `<tr>` elements as the header of an HTML table.
-* `<tbody>`: is used to group `<tr>` elements as the body of an HTML table.
-* `<tfoot>`: is used to group `<tr>` elements as the footer of an HTML table.
+- `<thead>`: is used to group `<tr>` elements as the header of an HTML table.
+- `<tbody>`: is used to group `<tr>` elements as the body of an HTML table.
+- `<tfoot>`: is used to group `<tr>` elements as the footer of an HTML table.
 
 There are 2 key benefits(both mentioned above) of using these elements:
 
@@ -72,14 +72,14 @@ Match the HTML elements with their descriptions:
 ???: used for adding a footer to a table.
 ???: used for grouping table rows.
 
-* `thead`
-* `tfoot`
-* `tbody`
-* `title`
-* `caption`
-* `head`
-* `footer`
-* `main`
+- `thead`
+- `tfoot`
+- `tbody`
+- `title`
+- `caption`
+- `head`
+- `footer`
+- `main`
 
 
 ---
@@ -90,9 +90,9 @@ The `<thead>`, `<tbody>`, and `<tfoot>` elements have no default visual effects 
 
 ???
 
-* True
-* False
-* Depends on the table created.
+- True
+- False
+- Depends on the table created.
 
 
 ---
@@ -106,8 +106,8 @@ Which of the following is a key benefit of using `<thead>`, `<tbody>`, and `<tfo
 
 ???
 
-* the table body can scroll independently of the header and footer.
-* alternative colors can be styled to rows/columns differently.
-* best for search engines to determine the type of data.
-* allows for easier nesting of table organization.
+- the table body can scroll independently of the header and footer.
+- alternative colors can be styled to rows/columns differently.
+- best for search engines to determine the type of data.
+- allows for easier nesting of table organization.
  

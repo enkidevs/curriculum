@@ -18,7 +18,7 @@ notes: >-
 
 When multi threading read/writes operations with 64 bit values, you need to take into consideration that `long` and `double` values are not atomic[1]. That means that a single write or read is treated as two separate operations: one to each `32 bit` half.
 
-```java
+```plain-text
 class SampleLong { 
   private long i = 0; // OR double  
   void assignValue(long j) {
@@ -36,7 +36,7 @@ Imagine a scenario when a thread repeatedly calls the `assignValue` method and a
 
 We've previously said that making the field `volatile` **will not guarantee its atomicity**. This is true, especially in the case of operations that require more than one read or write (like with `long` or `double` variables).
 
-```java
+```plain-text
 private volatile long i = 0;
 ```
 

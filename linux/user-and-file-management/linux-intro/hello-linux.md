@@ -1,26 +1,24 @@
 ---
 author: kapnobatai136
-
-aspects:
-  - introduction
-
 type: normal
-
 category: must-know
-
 tags:
   - introduction
   - linux
-
 links:
-  - '[Install Ubuntu](https://ubuntu.com/tutorials/tutorial-install-ubuntu-desktop#1-overview){website}'
-  - '[Try Ubuntu](https://ubuntu.com/tutorials/try-ubuntu-before-you-install#1-getting-started){website}'
-
+  - >-
+    [Install
+    Ubuntu](https://ubuntu.com/tutorials/tutorial-install-ubuntu-desktop#1-overview){website}
+  - >-
+    [Try
+    Ubuntu](https://ubuntu.com/tutorials/try-ubuntu-before-you-install#1-getting-started){website}
 ---
 
 # Hello Linux
 
+
 ---
+
 ## Content
 
 All this talk, and we still haven't shown you how to use Linux 😅.
@@ -39,16 +37,20 @@ A **command** is just a piece of text that you type into the **terminal**. Think
 
 The main part of the terminal that reads the commands and executes them is called a **shell**.
 
+
 ---
+
 ## Practice
 
 In Linux, you type commands in the ???.
 
-* terminal
-* text editor app
-* search bar
+- terminal
+- text editor app
+- search bar
+
 
 ---
+
 ## Footnotes
 
 [1:Terminal]
@@ -56,4 +58,5 @@ Similarly to how you can use a mouse to tell the computer to open a file, you ca
 
 From opening files to increasing the computer volume, there's a terminal command for anything the computer can do.
 
-The term "terminal" originates from the first computers, which had a physical terminal that was used to communicate. 
+The term "terminal" originates from the first computers, which had a physical terminal that was used to communicate.
+ 

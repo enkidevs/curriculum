@@ -15,12 +15,12 @@ tags:
 
 JavaScript has the following primitive types:
 
-* `undefined`
-* `null`
-* `boolean`
-* `number`
-* `string`
-* `symbol`
+- `undefined`
+- `null`
+- `boolean`
+- `number`
+- `string`
+- `symbol`
 
 The main non-primitive type is `Object`.
 
@@ -30,7 +30,7 @@ There are also a few special types - `Array`, `Date`, `RegExp` - that are types 
 
 You can check the type of a value by using the `typeof` operator e.g.
 
-```javascript
+```plain-text
 let company = "enki";
 typeof company; // "string"
 ```
@@ -39,7 +39,7 @@ typeof company; // "string"
 
 Unlike some other languages you do not need to tell JavaScript what type a variable is when declaring it:
 
-```javascript
+```plain-text
 // because we assign a string
 let name = "john smith";
 
@@ -49,7 +49,7 @@ typeof name; // "string"
 
 Javascript's typing is dynamic which means you can also change a variable's type at any time:
 
-```javascript
+```plain-text
 let name = "john smith";
 
 // change string to number
@@ -66,10 +66,10 @@ Which one of the following is **not** a primitive type:
 
 ???
 
-* RegExp
-* symbol
-* string
-* number
+- RegExp
+- symbol
+- string
+- number
 
 
 ---
@@ -80,7 +80,7 @@ Can you change a variable's type in JavaScript?
 
 ???
 
-* yes
-* no
-* only if you declare it again
+- yes
+- no
+- only if you declare it again
  

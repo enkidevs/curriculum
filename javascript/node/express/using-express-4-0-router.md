@@ -21,7 +21,7 @@ The router in **Express** acts like a mini express application that doesn't brin
 
 Creating a simple route:
 
-```javascript
+```plain-text
 app.get('/simple', function(req, res) {
   res.send('Simple route accessed!');
 });
@@ -29,7 +29,7 @@ app.get('/simple', function(req, res) {
 
 Creating multiple routes:
 
-```javascript
+```plain-text
 var router = express.Router();
 router.get('/', function(req, res) {
     res.send('first page');
@@ -42,13 +42,13 @@ router.get('/enki', function(req, res) {
 
 Applying the routes:
 
-```javascript
+```plain-text
 app.use('/', router);
 ```
 
 `router.use()` is used to define middleware:
 
-```javascript
+```plain-text
 router.use(function(req,res,next) {
   console.log(req.method, req.url);
   next();
@@ -63,19 +63,21 @@ router.use(function(req,res,next) {
 
 Complete the below code snippet:
 
-    ???.use(
-      function(req, res, ???) {
-        console.log(req.method, req.url);
-        ???;
-    });
+```plain-text
+???.use(
+  function(req, res, ???) {
+    console.log(req.method, req.url);
+    ???;
+});
+```
 
-* router
-* next
-* next()
-* callback()
-* done()`
-* env
-* app
+- router
+- next
+- next()
+- callback()
+- done()`
+- env
+- app
 
 
 ---
@@ -89,11 +91,11 @@ app.???('/simple', function(req, res) {
   ???.???('Simple route accessed!');
 ```
 
-* get
-* res
-* send
-* use
-* req
-* app
-* router
+- get
+- res
+- send
+- use
+- req
+- app
+- router
  

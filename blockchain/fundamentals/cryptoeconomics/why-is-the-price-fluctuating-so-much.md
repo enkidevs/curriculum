@@ -30,9 +30,9 @@ What is the main driver of a cryptocoin price?
 
 ???
 
-* Traded volume
-* Circulating supply
-* Market cap
+- Traded volume
+- Circulating supply
+- Market cap
 
 
 ---
@@ -43,8 +43,8 @@ What is the metric that describes how valuable a is cryptocurrency?
 
 ???
 
-* Market cap
-* Circulating supply
-* Node investment
-* Volume
+- Market cap
+- Circulating supply
+- Node investment
+- Volume
  

@@ -1,28 +1,19 @@
 ---
 author: catalin
-
-levels:
-  - beginner
-  - basic
-  - advanced
-  - medium
-
 type: normal
-
 category: how to
-
 links:
-  - '[Custom PropType validation with React](http://www.ian-thomas.net/custom-proptype-validation-with-react/){website}'
-
+  - >-
+    [Custom PropType validation with
+    React](http://www.ian-thomas.net/custom-proptype-validation-with-react/){website}
 parent: custom-validations-for-props
-
-aspects:
-  - deep
-
 ---
+
 # Require custom `propTypes` validators
 
+
 ---
+
 ## Content
 
 There is a way of creating your own `propTypes` validator function that can also be suffixed with `.isRequired`. This is done by using chained validators and the `bind()` function.
@@ -31,14 +22,14 @@ Suppose we have a basic *validator function* for length check. [1]
 
 The *validator function* that will be used will be called `lengthChecker`:
 
-```jsx
+```plain-text
 let lengthChecker = createChainableChecker(
   textLengthChecker);
 ```
 
 The `createChainableChecker` should look like:
 
-```jsx
+```plain-text
 function createChainableChecker(validate) {
   function checkType(
     isRequired,
@@ -74,40 +65,47 @@ function createChainableChecker(validate) {
 
 Now we can use it like:
 
-```jsx
+```plain-text
 text: lengthChecker.isRequired,
 ```
 
+
 ---
+
 ## Practice
 
 Consider you need to implement a custom `propTypes` validator. What would your code do if the validator is used like: `myValidator.isRequired`, but no prop is passed to it?
 
 ???
 
-* throw an error
-* send a notification to the user
-* show a warning
-* don't allow the component to render again
+- throw an error
+- send a notification to the user
+- show a warning
+- don't allow the component to render again
+
 
 ---
+
 ## Revision
 
 Is there a way to make a custom `propTypes` validator function implementing the `.isRequired` behavior of normal `propTypes` ?
 
 ???
 
-* Yes
-* No
-* Only in `ES6`
-* Only in `ES5` and `ES6`
-* Only with an external package
+- Yes
+- No
+- Only in `ES6`
+- Only in `ES5` and `ES6`
+- Only with an external package
+
 
 ---
+
 ## Footnotes
+
 [1:code]
 
-```jsx
+```plain-text
 function textLengthChecker(
   props,
   propName,
@@ -125,4 +123,4 @@ function textLengthChecker(
   return null;
 }
 ```
-
+ 

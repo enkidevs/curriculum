@@ -1,27 +1,21 @@
 ---
 author: Stefan-Stojanovic
-
-levels:
-  - beginner
-  
-aspects:
-  - new
-
 type: normal
-
 category: how to
-
 ---
 
 # `$max` & `$min`
 
+
 ---
+
 ## Content
 
 ### `$max`
 
 Syntax:
-```javascript
+
+```plain-text
 { $max: <expression> }
 ```
 
@@ -34,7 +28,8 @@ All pokémon have one of the possible types: Water, Fire, Rock, Normal, etc. How
 We can use the `$group` stage to group them by their `type`, and then use the `$max` operator to determine which `type` of pokémon has the highest `power`.
 
 Example:
-```javascript
+
+```plain-text
 db.pokemon.aggregate([
   {
     $group: {
@@ -44,8 +39,10 @@ db.pokemon.aggregate([
   }
 ]);
 ```
+
 Output:
-```javascript
+
+```plain-text
 { "_id": "Unknown", "highestPower": null }
 { "_id": "Bug", "highestPower": 120 }
 { "_id": "Psychic", "highestPower": 800 }
@@ -58,6 +55,7 @@ Output:
 { "_id": "Fairy", "highestPower": 0 }
 { "_id": "Water", "highestPower": 667 }
 ```
+
 **Note:** If one of the documents (pokémon) in our database doesn't have a value for the field, the `$max` operator returns `null`.
 
 ### `$min`
@@ -65,7 +63,8 @@ Output:
 The `$min` operator behaves the same as the `$max` operator except that it looks for the lowest (minimum) value instead of the highest (maximum) value.
 
 Example:
-```javascript
+
+```plain-text
 db.pokemon.aggregate([
   {
     $group: {
@@ -77,7 +76,8 @@ db.pokemon.aggregate([
 ```
 
 Output:
-```javascript
+
+```plain-text
 { "_id": "Unknown", "lowestPower": null }
 { "_id": "Bug", "lowestPower": 120 }
 { "_id": "Psychic", "lowestPower": 400 }
@@ -92,7 +92,8 @@ Output:
 ```
 
 Example with both operators:
-```javascript
+
+```plain-text
 db.pokemon.aggregate([
   {
     $group: {
@@ -105,7 +106,8 @@ db.pokemon.aggregate([
 ```
 
 Output:
-```javascript
+
+```plain-text
 // ...
 {   
   "_id": "Water",
@@ -115,7 +117,9 @@ Output:
 // ...
 ```
 
+
 ---
+
 ## Practice
 
 Fill in the missing code to group all documents in the `pokemon` collection by their `type`, and find the min and max power level of each type and output them in fields called `lowestPower` and `highestPower`.
@@ -132,12 +136,13 @@ db.pokemon.aggregate([
 ]);
 ```
 
-* `$group`
-* `$type`
-* `lowestPower`
-* `$min`
-* `highestPower`
-* `$power`
-* `$minimum`
-* `$maximum`
-* `power`
+- `$group`
+- `$type`
+- `lowestPower`
+- `$min`
+- `highestPower`
+- `$power`
+- `$minimum`
+- `$maximum`
+- `power`
+ 

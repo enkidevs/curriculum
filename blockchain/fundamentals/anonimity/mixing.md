@@ -30,10 +30,10 @@ Why would a bitcoin holder use a mixer?
 
 ???
 
-* To reduce the chance of being tracked
-* To gamble
-* To meet other holders
-* The network demands so
+- To reduce the chance of being tracked
+- To gamble
+- To meet other holders
+- The network demands so
 
 
 ---
@@ -44,8 +44,8 @@ Why would a bitcoin holder use a mixer?
 
 ???
 
-* To reduce the chance of being tracked
-* To gamble
-* To meet other holders
-* The network demands so
+- To reduce the chance of being tracked
+- To gamble
+- To meet other holders
+- The network demands so
  

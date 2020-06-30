@@ -28,7 +28,7 @@ Docker established containers as a generalized way to package applications into 
 
 A container can be created through the Docker CLI using the `docker container create` command:
 
-```bash
+```plain-text
 # create a container from an `nginx` image
 docker container create nginx
 
@@ -39,7 +39,7 @@ docker container create --name enki nginx
 
 To start or stop the container, we can do the following:
 
-```bash
+```plain-text
 # start the enki container
 docker container start enki
 
@@ -51,7 +51,7 @@ In fact, creating and starting containers happens so frequently in Docker that w
 
 In essence: `docker run = docker container create + docker container start`
 
-```bash
+```plain-text
 # create and start a container
 # give it the name `enki`,
 # expose port 80 from within the container
@@ -73,15 +73,15 @@ Run a container (from the `mongo` image) with the name `db` and expose the port 
 docker run -p ???:??? --name ??? -it ???
 ```
 
-* 3000
-* 27017
-* db
-* mongo
-* mongodb
-* docker
-* container
-* 80
-* 8080
+- 3000
+- 27017
+- db
+- mongo
+- mongodb
+- docker
+- container
+- 80
+- 8080
 
 
 ---
@@ -90,8 +90,8 @@ docker run -p ???:??? --name ??? -it ???
 
 To create and start a container in a single command, we use ???:
 
-* `docker run`
-* `docker go`
-* `docker container create+start`
-* `docker begin`
+- `docker run`
+- `docker go`
+- `docker container create+start`
+- `docker begin`
  

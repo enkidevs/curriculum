@@ -31,14 +31,14 @@ The purpose of this table is to connect which users own which items, so we'll be
 
 This table should contain the following columns, which should store the following values:  
 
-* `id`, a unique value to identify a user's relationship with items
-* `item_id`, for example:  "1", "2", this will refer to IDs in the `items` table
-* `user_id`, for example: "1", "2", this will refer to IDs in the `users` table
-* `daily_price`, for example: 10.43, 11
+- `id`, a unique value to identify a user's relationship with items
+- `item_id`, for example:  "1", "2", this will refer to IDs in the `items` table
+- `user_id`, for example: "1", "2", this will refer to IDs in the `users` table
+- `daily_price`, for example: 10.43, 11
 
 After you've created that table, add this to your seed data
 
-```sql
+```plain-text
 INSERT INTO user_items (id, item_id, user_id, daily_price)
 VALUES (0, 0, 1, 5.2);
 
@@ -54,9 +54,9 @@ VALUES (3, 3, 1, 94);
 
 In total, you will need to:
 
-* *Create the table*
-* *Add the seed data*
-* *Build the schema*
-* *Run the provided query*
-* *Submit the result as your Answer*
+- *Create the table*
+- *Add the seed data*
+- *Build the schema*
+- *Run the provided query*
+- *Submit the result as your Answer*
  

@@ -15,7 +15,7 @@ The built-in `zip` function can be used to zip lists together.
 
 `zip` returns a list of tuples, where the *nth* tuple contains the *nth* item from each of the lists passed into the function.
 
-```python
+```plain-text
 letters = ['a', 'b', 'c']
 numbers = [1, 2, 3]
 squares = [1, 4, 9]
@@ -26,7 +26,7 @@ zipped_list = zip(letters, numbers, squares)
 
 It is possible to also use this as the iterator of a `for` loop, pulling out all three values at once.
 
-```python
+```plain-text
 for letter, number, squares in zipped_list
 ```
 
@@ -45,11 +45,11 @@ temp = ???(???)
 
 ```
 
-* zip
-* a,b
-* a
-* b
-* concatenate
+- zip
+- a,b
+- a
+- b
+- concatenate
 
 
 ---
@@ -66,7 +66,7 @@ tuple = ???(letters, values)
 tuple = [('a', 1), ('b', 2), ('c', 3)]
 ```
 
-* `zip`
-* `button`
-* `combine`
+- `zip`
+- `button`
+- `combine`
  

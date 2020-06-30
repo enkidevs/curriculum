@@ -1,25 +1,20 @@
 ---
 author: emmab
-
 tags:
   - introduction
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-  - workout
-
 links:
-  - '[Special Operators](https://www.regular-expressions.info/refadv.html){website}'
-
+  - >-
+    [Special
+    Operators](https://www.regular-expressions.info/refadv.html){website}
 ---
 
 # Passwords using Positive Lookaheads
 
+
 ---
+
 ## Content
 
 Password validation works best when we use a regex operator called a **positive lookahead**. 
@@ -38,7 +33,7 @@ Positive lookaheads start with `/(?=)/`. For example:
 
 If we add these positive lookaheads into our password validator, our regex pattern will look like this:
 
-```
+```plain-text
 /(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*\W).{8,}/
 ```
 
@@ -51,31 +46,35 @@ There are two more things we can add to make it fully watertight.
 
 Our password validator in one line of regex 🎉:
 
-```
+```plain-text
 /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*\W).{8,}$/
 ```
 
 
 ---
+
 ## Practice
 
 What's the correct syntax for a positive lookahead to check that a password must have at least one word character, regardless of capitalization?
 
 ???
 
-* `/(?=.*\w)/`
-* `/(?=.*\W)/`
-* `/(?=.*[a-zA-Z])/`
-* `/(?=.*\S)/`
+- `/(?=.*\w)/`
+- `/(?=.*\W)/`
+- `/(?=.*[a-zA-Z])/`
+- `/(?=.*\S)/`
+
 
 ---
+
 ## Revision
 
 What's the correct syntax for a positive lookahead to check that a password must have at least one upper case letter?
 
 ???
 
-* `/(?=.*[A-Z])/`
-* `/(?=.*\W)/`
-* `/(?=.*[A-Z]{1})/`
-* `/(?=.*\S)/`
+- `/(?=.*[A-Z])/`
+- `/(?=.*\W)/`
+- `/(?=.*[A-Z]{1})/`
+- `/(?=.*\S)/`
+ 

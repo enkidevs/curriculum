@@ -36,10 +36,10 @@ Developers can focus on writing the application code without worrying a lot abou
 
 Docker allows us to develop our application ??? and run it ???
 
-* once
-* anywhere
-* quickly
-* always
+- once
+- anywhere
+- quickly
+- always
 
 
 ---
@@ -48,8 +48,8 @@ Docker allows us to develop our application ??? and run it ???
 
 Docker allows us to easily run and deploy our applications using ???.
 
-* containers
-* virtual machines
-* databases
-* networks
+- containers
+- virtual machines
+- databases
+- networks
  

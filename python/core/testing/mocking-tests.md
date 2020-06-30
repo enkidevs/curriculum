@@ -21,12 +21,12 @@ Basically,mocking is creating **mock objects** that simulate the behavior of **r
 
 Benefits of **mocking**:
 
-* Increased speed - E.g. if you have a very **resource intensive function**, a mock of that function would cut down on unnecessary resource usage during testing, therefore reducing test *run time*.
-* Avoiding undesired side effects during testing - E.g. **errors** triggered by one of the **dependencies** the object we are currently testing has.
+- Increased speed - E.g. if you have a very **resource intensive function**, a mock of that function would cut down on unnecessary resource usage during testing, therefore reducing test *run time*.
+- Avoiding undesired side effects during testing - E.g. **errors** triggered by one of the **dependencies** the object we are currently testing has.
 
 We will define a class that implements one method that returns the product of two numbers. Since this is a simple example, we are using `time.sleep(10)` to simulate a long running process :
 
-```python
+```plain-text
 class Calculator:
     def multiply(self, a, b):
         time.sleep(10)
@@ -72,9 +72,9 @@ What are the advantages of using mocks in testing?
 
 ???
 
-* Increased speed and side effects avoidance.
-* Simple syntax and increased speed.
-* Side effects avoidance and simple syntax.
+- Increased speed and side effects avoidance.
+- Simple syntax and increased speed.
+- Side effects avoidance and simple syntax.
 
 
 ---
@@ -85,9 +85,9 @@ Mock objects are
 
 ???
 
-* fake objects that simulate real objects' behavior
-* object instances that appeared in the code
-* any basic object
+- fake objects that simulate real objects' behavior
+- object instances that appeared in the code
+- any basic object
 
 
 ---

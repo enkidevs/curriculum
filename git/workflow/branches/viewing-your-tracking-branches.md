@@ -20,7 +20,7 @@ You can view your tracking branches by using the `-vv` option.
 
 For example:
 
-```bash
+```plain-text
 git branch -vv
   master    2bcd45a [origin/master]
    introduce new game
@@ -39,7 +39,7 @@ Note: the information displayed relates to the last time you connected to the se
 
 After running :
 
-```bash
+```plain-text
 git branch -vv
   master  2bcd45a [origin/master]
   Bug resolved
@@ -54,10 +54,10 @@ It can be said that:
 
 `newFeature` is ???.
 
-* up-to-date
-* ahead of the remote branch by 2 commits
-* behind of the remote branch by 2 commits
-* untracked
+- up-to-date
+- ahead of the remote branch by 2 commits
+- behind of the remote branch by 2 commits
+- untracked
 
 
 ---
@@ -70,8 +70,8 @@ To see the status of your tracked branches in relation with their upstream count
 git ??? ???
 ```
 
-* `branch`
-* `-vv`
-* `--vv`
-* `-branch`
+- `branch`
+- `-vv`
+- `--vv`
+- `-branch`
  

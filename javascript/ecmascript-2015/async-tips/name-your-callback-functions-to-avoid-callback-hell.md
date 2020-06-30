@@ -1,36 +1,21 @@
 ---
 author: Bruno
-
-levels:
-  - beginner
-
 type: normal
-
 category: best practice
-
-standards:
-  javascript.async.0: 10
-  javascript.functions.3: 10
-  javascript.control-flow.5: 10
-
-aspects:
-  - workout
-  - deep
-  - obscura
-
-
 links:
   - '[callbackhell.com](http://callbackhell.com/){blog}'
-
 ---
+
 # Name your callback functions to avoid **callback hell**
 
+
 ---
+
 ## Content
 
 Instead of:
 
-```javascript
+```plain-text
 setTimeout(function(){
   console.log('greeting 1');
   setTimeout(function(){
@@ -41,7 +26,7 @@ setTimeout(function(){
 
 Prefer:
 
-```javascript
+```plain-text
 function greeting1() {
   console.log('greeting 1');
   setTimeout(greeting2, 1000);
@@ -56,26 +41,30 @@ This makes code easier to read and, when exceptions happen, stack traces that re
 
 This  also allows you to keep your code shallow which makes it more intuitive for editing and refactoring later.
 
+
 ---
+
 ## Practice
 
 Which of the following statements about naming your callback functions do you consider false?
 
 ???
 
-* they can minimise the memory used by your application
-* they make your code more readable
-* they can help you avoid callback hell
-* they can make your code more intuitive
+- they can minimise the memory used by your application
+- they make your code more readable
+- they can help you avoid callback hell
+- they can make your code more intuitive
+
 
 ---
+
 ## Revision
 
 Which of the following pieces of code is the better piece of code, in terms of readabilty?
 
 ???
 
-```javascript
+```plain-text
 // Option 1
 setTimeout(function() {
    console.log('Hey!');
@@ -95,6 +84,6 @@ function Hey_again() {
 setTimeout(Hey, 1000);
 ```
 
-* Option 2
-* Option 1
+- Option 2
+- Option 1
  

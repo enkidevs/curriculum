@@ -27,11 +27,11 @@ Which of the following actions NEVER require a DNS lookup?
 
 ???
 
-* The terminal command `ping 1.1.1.1`
-* Hitting enter in your browsers URL bar.
-* Sending an email.
-* Making an HTTP request to a web API in a programming language.
-* Using the `curl` command to make an HTTP request from the terminal.
+- The terminal command `ping 1.1.1.1`
+- Hitting enter in your browsers URL bar.
+- Sending an email.
+- Making an HTTP request to a web API in a programming language.
+- Using the `curl` command to make an HTTP request from the terminal.
 
 
 ---
@@ -42,8 +42,8 @@ When is a DNS lookup required?
 
 ???
 
-* Every time an HTTP request is made.
-* Every time an IP address is used.
-* Every time a new computer comes online.
-* Every time a domain name is used but an IP address is needed.
+- Every time an HTTP request is made.
+- Every time an IP address is used.
+- Every time a new computer comes online.
+- Every time a domain name is used but an IP address is needed.
  

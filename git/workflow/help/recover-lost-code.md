@@ -17,13 +17,13 @@ If you have committed or pushed your code anywhere, then in most cases it is not
 
 To check the reflog:
 
-```bash
+```plain-text
 git reflog
 ```
 
 If the lost commit is there, you can retrieve it using its checksum:
 
-```bash
+```plain-text
 git branch myBranch ca3df45
 ```
 
@@ -31,7 +31,7 @@ Then you can merge this into your current branch.
 
 To search for orphan commits[1]:
 
-```bash
+```plain-text
 git fsck --full
 ```
 
@@ -48,12 +48,12 @@ Create a `newBranch` that has the `ba23fe1` commit as the starting point:
 git ??? ??? ba23fe1
 ```
 
-* `branch`
-* `newBranch`
-* `temp`
-* `log`
-* `reflog`
-* `master`
+- `branch`
+- `newBranch`
+- `temp`
+- `log`
+- `reflog`
+- `master`
 
 
 ---
@@ -66,10 +66,10 @@ Check the reflog :
 git ??? ???
 ```
 
-* `reflog`
-* `-g`
-* `-m`
-* `-l`
+- `reflog`
+- `-g`
+- `-m`
+- `-l`
 
 
 ---

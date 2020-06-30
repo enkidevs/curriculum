@@ -18,7 +18,7 @@ Typically, a link will open another page within it's own window. This is because
 
 Typical link:
 
-```html
+```plain-text
 <a
   href="https://www.enki.com/">
   Links opens within existing window.
@@ -27,7 +27,7 @@ Typical link:
 
 Link with default value displayed:
 
-```html
+```plain-text
 <a
   href="https://www.enki.com/"
   target="_self">
@@ -39,15 +39,15 @@ Link with default value displayed:
 
 The other values for the target are `target="value"`:
 
-* _self     = (Default) Opens the link in the same tab
-* _blank    = Opens the link in a new tab
-* _top      = Opens the link in the full body of the window
-* _parent   = Opens the link in the parent frame
-* framename = Opens the link in a named frame
+- _self     = (Default) Opens the link in the same tab
+- _blank    = Opens the link in a new tab
+- _top      = Opens the link in the full body of the window
+- _parent   = Opens the link in the parent frame
+- framename = Opens the link in a named frame
 
 Example of opening the link in a different tab:
 
-```html
+```plain-text
 <a
   href="https://www.enki.com/"
   target="_blank">
@@ -80,15 +80,15 @@ Which of these is not a valid target value?
 </a>
 ```
 
-* `a`
-* `href`
-* `target`
-* `_blank`
-* `/a`
-* `_new`
-* `_parent`
-* `_self`
-* `_top`
+- `a`
+- `href`
+- `target`
+- `_blank`
+- `/a`
+- `_new`
+- `_parent`
+- `_self`
+- `_top`
 
 
 ---
@@ -99,32 +99,32 @@ Which line of code opens the linked page in the existing browser window?
 
 ???
 
-* `<a href="http://enki.com">`
-* `<a href="http://enki.com" target="_blank">`
-* `<a href="http://enki.com" target="_same">`
-* `<a href="http://enki.com" target="tab">`
+- `<a href="http://enki.com">`
+- `<a href="http://enki.com" target="_blank">`
+- `<a href="http://enki.com" target="_same">`
+- `<a href="http://enki.com" target="tab">`
 
 
 ---
 
 ## Quiz
 
-### How much do you know about the HTML 
+### How much do you know about the HTML
+
 
 `target=""`
 
  attribute?
-
 
 Why is it rare to use this code:
 `<a href="http://enki.com" target="_self">`
 
 ???
 
-* `_self` is only needed to open within the same tab when overriding conflicting code.
-* It isn't common to allow users to download your entire webpage.
-* The `target="self"` is typically used to download files like PDFs.
-* Everyone already knows about Enki!
+- `_self` is only needed to open within the same tab when overriding conflicting code.
+- It isn't common to allow users to download your entire webpage.
+- The `target="self"` is typically used to download files like PDFs.
+- Everyone already knows about Enki!
 
 
 ---
@@ -137,7 +137,7 @@ Play the game determining if the target values for links are valid or fake.
 
 Valid Target Values:Fake Target Values
 
-```false
+```plain-text
 
 _new
 %exp
@@ -160,7 +160,7 @@ This is a fake target value.
 %
 ```
 
-```true
+```plain-text
 
 _blank
 %exp

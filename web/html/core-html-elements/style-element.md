@@ -1,23 +1,15 @@
 ---
 author: Stefan-Stojanovic
-
-levels:
-  - beginner
-  - basic
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-
 links:
-  - '[HTML <style> Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/style){documentation}'
-
+  - >-
+    [HTML <style>
+    Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/style){documentation}
 ---
 
 # The `<style>` Element
+
 
 ---
 
@@ -25,7 +17,7 @@ links:
 
 The HTML `style` element is used to style the content of an html document. These styles are loaded with the HTML page and work even if external CSS fails to load for some reason. The `style` tag is often used to load **Critical CSS**[1]
 
-```html
+```plain-text
 <head>
   <style>
     p {
@@ -49,7 +41,7 @@ The code above colors **all** the paragraphs in color red, as you can see in the
 
 The`style` attribute can be used to add style per element.
 
-```html
+```plain-text
 <p style="color: red">
   Color of this text is red.
 </p>
@@ -69,7 +61,7 @@ We can use the `style` element and attribute together to provide styles to all e
 
 Same output:
 
-```html
+```plain-text
 <head>
   <style>
     p {
@@ -89,14 +81,16 @@ Output
 
 ![image-output](https://img.enkipro.com/f65a564d1bf8a82e3c68c971afbf38ab.png)
 
-
 The `style` element also has 4 attributes which are all optional and will be discussed in the Style course:
+
 - type
 - media
 - nonce
 - title
 
+
 ---
+
 ## Practice
 
 Finish styling all paragraph elements within the document to have text color as `gray`:
@@ -113,25 +107,28 @@ Finish styling all paragraph elements within the document to have text color as 
 </p>
 ```
 
-* `<style>`
-* `p`
-* `color`
-* `gray`
-* `</style>`
-* `<paragraph>`
-* `</paragraph>`
+- `<style>`
+- `p`
+- `color`
+- `gray`
+- `</style>`
+- `<paragraph>`
+- `</paragraph>`
+
 
 ---
+
 ## Revision
 
 What is the `<style>` element used for?
 
 ???
 
-* to style the content of an html document.
-* only to color the text of a paragraph element.
-* to resize the document to a specific size.
-* to include important information about the author of the document
+- to style the content of an html document.
+- only to color the text of a paragraph element.
+- to resize the document to a specific size.
+- to include important information about the author of the document
+
 
 ---
 
@@ -139,3 +136,4 @@ What is the `<style>` element used for?
 
 [1:Critical CSS]
 The critical CSS is used to style the above-the-fold content of your website. Above-the-fold content is what users see when your website first loads, which can include navigation and other elements. For this reason, it’s very important to properly style and render this part of the website as quickly as possible.
+ 

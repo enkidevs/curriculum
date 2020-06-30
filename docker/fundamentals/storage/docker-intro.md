@@ -46,8 +46,8 @@ When a Docker container is destroyed, all of its data is still available.
 
 ???
 
-* false
-* true
+- false
+- true
 
 
 ---
@@ -56,8 +56,8 @@ When a Docker container is destroyed, all of its data is still available.
 
 There are two ways to persist data beyond the lifetime of a Docker container. The first one is to use a volume and the second one is to use a ???.
 
-* bind-mount
-* call-mount
-* file-mount
-* data-mount
+- bind-mount
+- call-mount
+- file-mount
+- data-mount
  

@@ -20,7 +20,7 @@ links:
 
 Subtitles can be added to the videos via the `<track>` element like this:
 
-```html
+```plain-text
 <video src="video/tina.mp4">
   <track src="video/subtitles.vtt"
   kind="subtitles"
@@ -31,7 +31,7 @@ Subtitles can be added to the videos via the `<track>` element like this:
 
 The WebVTT (.vtt), which stands for “Web Video Text Track” file can look like this below and are often created using software programs vs typing all of that out by hand. As you can see, the time stamp states the starting and ending of the subtitle. There are also tags in this case like `<v>`, `<c>`, and `<i>` which allow for unique CSS styling, which can be found in the CodePen Example:
 
-```WEBVTT
+```plain-text
 
 1
 00:00:01.300 --> 00:02.300
@@ -59,7 +59,7 @@ All WebVTT files start with the line **WebVTT**.
 
 In the case you have videos that support multiple languages, you can provide them like this and in this case the English track was also set as the `default`:
 
-```html
+```plain-text
 <video src="video/short.mp4">
    <track label="English"
    kind="subtitles"
@@ -88,11 +88,11 @@ What HTML element is used to connect subtitles to a video?
 
 ???
 
-* `<track>`
-* `<captions>`
-* `<subtitles>`
-* `<scrlang>`
-* `<vtt>`
+- `<track>`
+- `<captions>`
+- `<subtitles>`
+- `<scrlang>`
+- `<vtt>`
 
 
 ---
@@ -102,10 +102,10 @@ What HTML element is used to connect subtitles to a video?
 When working with multiple files that provide the subtitles in various languages with a web video, how is one of them given greater priority that the others.
 ???
 
-* Add the `default` attribrute to one of them.
-* The first file assigned in the `<track`>.
-* The last file assigned in the `<track`>.
-* Subtitles are always off and must be selected by the user.
+- Add the `default` attribrute to one of them.
+- The first file assigned in the `<track`>.
+- The last file assigned in the `<track`>.
+- Subtitles are always off and must be selected by the user.
 
 
 ---
@@ -117,8 +117,8 @@ When working with multiple files that provide the subtitles in various languages
 
 For files that contain subtitles that can be used with web videos, what file format do they use?
 
-* .vtt
-* .sub
-* .txt
-* .track
+- .vtt
+- .sub
+- .txt
+- .track
  

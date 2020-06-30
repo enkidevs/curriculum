@@ -27,7 +27,7 @@ Sometimes you might want to put a thread to `sleep` (i.e. stop its execution for
 
 An example of using `sleep()`:
 
-```java
+```plain-text
 public class SleepingThread {
   public static void main(String args[])
     throws InterruptedException {
@@ -50,10 +50,10 @@ What does `sleep()` method do?
 
 ???
 
-* It pauses the execution of a thread for a certain time
-* It waits until a thread finished executing
-* It pauses all the threads in a queue
-* It frees all the resources that the current thread is holding
+- It pauses the execution of a thread for a certain time
+- It waits until a thread finished executing
+- It pauses all the threads in a queue
+- It frees all the resources that the current thread is holding
 
 
 ---
@@ -64,8 +64,8 @@ What method stops executing for a specified time and continues running afterward
 
 ???
 
-* sleep()
-* join()
-* wait()
-* combine()
+- sleep()
+- join()
+- wait()
+- combine()
  

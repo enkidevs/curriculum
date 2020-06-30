@@ -25,20 +25,20 @@ Additional configuration  arguments specified with flags are `registry`, `scope`
 
 The first, `registry` indicates the **base URL** of the npm package registry:
 
-```bash
+```plain-text
 npm adduser --registry=http://myreg.com
 ```
 
 If `scope` is specified, the registry will only be used for packages with that scope:
 
-```bash
+```plain-text
 npm adduser --registry=http://myreg.com
     --scope=@myScope
 ```
 
 The `always-auth` is by default set to `false`, but if specified, all requests to the given registry should include authorization information as an authorization header:
 
-```bash
+```plain-text
 npm adduser --registry=http:myreg.com
     --always-auth
 ```
@@ -54,10 +54,10 @@ For what command is `npm login` an alias?
 
 ???
 
-* npm adduser
-* npm signup
-* npm signin
-* npm add
+- npm adduser
+- npm signup
+- npm signin
+- npm add
 
 
 ---
@@ -68,8 +68,8 @@ For what command is `npm login` an alias?
 
 ???
 
-* npm adduser
-* npm signup
-* npm signin
-* npm add
+- npm adduser
+- npm signup
+- npm signin
+- npm add
  

@@ -1,43 +1,30 @@
 ---
 author: catalin
-
-levels:
-  - beginner
-
 type: normal
-
 category: how to
-
-standards:
-  javascript.express-server.0: 10
-  javascript.express-server.1: 10
-
 links:
   - '[expressjs.com](http://expressjs.com/en/starter/installing.html){website}'
-
 notes: This can used as the first insight on Express subtopic
-
-aspects:
-  - introduction
-  - workout
-
 ---
+
 # Basic web server with Express
 
+
 ---
+
 ## Content
 
 Express JavaScript is a tiny and flexible Node.js framework, providing robust features for **middleware implementation**,  **routing** and **dynamic rendering** of HTML pages.
 
 Express can be installed globally using the `npm` package manager:
 
-```bash
+```plain-text
 npm install express --save
 ```
 
 Import and use express in your Node.js app:
 
-```javascript
+```plain-text
 let express = require('express');
 let app = express();
 ```
@@ -46,13 +33,15 @@ An express application makes use of **callback** functions with `request` and `r
 
 Using the `get` method, routing can be easily achieved:
 
-```javascript
+```plain-text
 app.get("/", function (request, response) {
   // your code
 });
 ```
 
+
 ---
+
 ## Practice
 
 Import and use `express` in your **Node.js** app:
@@ -62,27 +51,29 @@ let express = require('???');
 let app = ???;
 ```
 
+- express
+- express()
+- get
+- use
+- request
 
-* express
-* express()
-* get
-* use
-* request
 
 ---
+
 ## Revision
 
 Complete the following snippet using routing with express:
+
 ```javascript
 app.???('/', function(???, response) {
   // code
 });
 ```
 
-* get
-* request
-* server
-* run
-* reg
-* express
-
+- get
+- request
+- server
+- run
+- reg
+- express
+ 

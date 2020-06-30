@@ -1,34 +1,29 @@
 ---
 author: emmab
-
 tags:
   - introduction
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-
 ---
 
 # Lists
 
+
 ---
+
 ## Content
 
 Lists are another **sequential data type** that act as containers for objects. 
 
 Lists are also separated by commas, and *must be wrapped in square brackets*, `[ ]`.
 
-```python
+```plain-text
 my_first_list = ['apples', 'oranges']
 ```
 
 > Lists are **mutable**, so items *can be modified*.
 
-```python
+```plain-text
 my_first_list[0] = 'bananas'
 
 print(my_first_list)
@@ -37,7 +32,7 @@ print(my_first_list)
 
 To add to a list you can use the `append()` method, passing whatever you want added as an argument in parentheses:
 
-```python
+```plain-text
 my_first_list.append('pears')
 
 print(my_first_list)
@@ -48,7 +43,9 @@ We can also use our `index` and `count` methods that we learnt about back in the
 
 Let's discover some more `list` methods next!
 
+
 ---
+
 ## Practice
 
 Complete the code snippet to add a value to the `list`:
@@ -58,12 +55,14 @@ new_list = []
 new_list.???(5)
 ```
 
-* `append`
-* `add`
-* `push`
-* `index`
+- `append`
+- `add`
+- `push`
+- `index`
+
 
 ---
+
 ## Revision
 
 Complete the code snippet to return item at index `0` in the `list`:
@@ -75,8 +74,9 @@ new_list.append(2)
 new_list???
 ```
 
-* `[0]`
-* `{0}`
-* `view`
-* `append`
-* `(0)`
+- `[0]`
+- `{0}`
+- `view`
+- `append`
+- `(0)`
+ 

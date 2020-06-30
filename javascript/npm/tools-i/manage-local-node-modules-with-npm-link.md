@@ -1,36 +1,20 @@
 ---
 author: catalin
-
-levels:
-  - basic
-  - advanced
-  - medium
-
 type: normal
-
 category: feature
-
-standards:
-  javascript.npm-tasks-and-modules-manager.0: 10
-
 tags:
   - workout
   - introduction
-
 links:
   - '[docs.npmjs.com](https://docs.npmjs.com/cli/link){website}'
-
 parent: check-data-about-a-package
-
-aspects:
-  - workout
-  - introduction
-
-
 ---
+
 # Manage local node modules with `npm link`
 
+
 ---
+
 ## Content
 
 A modular Node.js application often implies the usage of certain local modules.
@@ -39,14 +23,14 @@ To support subsequent modification of those modules and to not need to go throug
 
 The whole linking process consists of two steps, the first being declaring a module as a global link. This is done by running :
 
-```bash
+```plain-text
 npm link
 # must be run in the root module folder
 ```
 
 Secondly, to install the linked modules in the target app using the following command:
 
-```bash
+```plain-text
 npm link myImportedModule
 ```
 
@@ -60,7 +44,7 @@ app/
 
 To solve this steps must be taken:
 
-```bash
+```plain-text
 cd modules/moduleOne
 npm link
 cd modules/moduleTwo
@@ -70,19 +54,23 @@ cd app/
 npm link moduleTwo
 ```
 
+
 ---
+
 ## Practice
 
 Which of the following statements is false about `npm link`?
 
 ???
 
-* uses the online npm registry to link global packages
-* creates a symbolic link between packages
-* allows easier local development when working with multiple libraries
-* allows you to use a local library without reinstalling it after each time
+- uses the online npm registry to link global packages
+- creates a symbolic link between packages
+- allows easier local development when working with multiple libraries
+- allows you to use a local library without reinstalling it after each time
+
 
 ---
+
 ## Revision
 
 Consider your main application relies on an external library `myLibrary` you have access to. The latter one requires some modifications too, but it would be to menial to reinstall it with each change.
@@ -93,11 +81,10 @@ Which npm command can you use to make you application use your local version of 
 npm ???
 ```
 
-* link myLibrary
-* link
-* --use-local:myLibrary
-* --local:myLibrary
-* --use-local=myLibrary
-* --local=myLibrary
- 
+- link myLibrary
+- link
+- --use-local:myLibrary
+- --local:myLibrary
+- --use-local=myLibrary
+- --local=myLibrary
  

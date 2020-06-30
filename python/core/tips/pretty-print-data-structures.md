@@ -18,13 +18,13 @@ notes: ''
 
 Import the module:
 
-```python
+```plain-text
 import pprint
 ```
 
 You can use the `pprint()` function to print your data structure.
 
-```python
+```plain-text
 # data = our data structure
 pprint.pprint(data)
 
@@ -32,7 +32,7 @@ pprint.pprint(data)
 
 The module also provides a way of formatting data structures into strings for other purposes (e.g. logging):
 
-```python
+```plain-text
 data = []
 for x in range(4):
   data.append((x, {0: 0, 1: 1}))
@@ -42,7 +42,7 @@ print(pprint.pformat(data, width=19))
 
 Instead of a single line our output will be:
 
-```python
+```plain-text
 [(0, {0: 0, 1: 1}),
  (1, {0: 0, 1: 1}),
  (2, {0: 0, 1: 1}),
@@ -51,7 +51,7 @@ Instead of a single line our output will be:
 
 You can even check if an object is **readable**:
 
-```python
+```plain-text
 print(pprint.isreadable(data))
 # True
 ```
@@ -73,11 +73,11 @@ array = [(x, {y: y * y for y in range(4)})
 print(pprint.???(???, width=19))
 ```
 
-* pprint
-* pformat
-* array
-* print
-* data
+- pprint
+- pformat
+- array
+- print
+- data
 
 
 ---
@@ -86,7 +86,7 @@ print(pprint.???(???, width=19))
 
 What library provides pretty printing of data structures in *Python*? ???
 
-* `pprint`
-* `draw`
-* `superdraw`
+- `pprint`
+- `draw`
+- `superdraw`
  

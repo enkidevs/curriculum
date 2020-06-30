@@ -21,25 +21,25 @@ Most Docker CLI commands consists of 3 parts.
 
 They start with the command `docker`, followed by a subcommand which is usually a name of a Docker Object such as `image`, then followed by a command for an action to perform on that object.
 
-```bash
+```plain-text
 docker <object> <action>
 ```
 
 For example, to list all containers, we can do:
 
-```bash
+```plain-text
 docker container ls
 ```
 
 Likewise, to remove an image named `nginx`, we can do:
 
-```bash
+```plain-text
 docker image rm nginx
 ```
 
 In fact, `docker` has many commands that are generic across Docker Objects (containers, images, etc.) and can be applied to any of them.
 
-```bash
+```plain-text
 # list all objects
 docker <OBJECT> ls
 
@@ -57,7 +57,7 @@ To list available commands and other helpful information for `docker` itself or 
 
 For example:
 
-```bash
+```plain-text
 docker attach --help
 ```
 
@@ -88,10 +88,10 @@ To inspect a Docker `nginx` image, we'd run the command:
 
 ???
 
-* `docker image inspect nginx`
-* `docker inspect image nginx`
-* `docker image nginx inspect`
-* `docker inspect nginx image`
+- `docker image inspect nginx`
+- `docker inspect image nginx`
+- `docker image nginx inspect`
+- `docker inspect nginx image`
 
 
 ---
@@ -102,10 +102,10 @@ To fetch the logs for a Docker container named `webserver`, we'd run:
 
 ???
 
-* `docker container logs webserver`
-* `docker logs container webserver`
-* `docker show logs webserver`
-* `docker webserver container-logs`
+- `docker container logs webserver`
+- `docker logs container webserver`
+- `docker show logs webserver`
+- `docker webserver container-logs`
 
 
 ---

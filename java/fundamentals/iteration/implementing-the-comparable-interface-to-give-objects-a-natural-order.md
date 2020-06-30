@@ -32,7 +32,7 @@ notes: >-
 
 The `Comparable` interface imposes *natural ordering* on the objects of each class that implements it. It has one method, `compareTo`, which is referred to as its natural comparison method and also used to sort.
 
-```java
+```plain-text
 public class MyClass 
   implements Comparable<MyClass> {
     protected int order;
@@ -48,9 +48,9 @@ public class MyClass
 
 `compareTo` method should return:
 
-* a negative number - when the current is smaller than the comparison object
-* a positive number - when the current is greater than the comparison object
-* zero - both objects are equal in terms of their natural order.
+- a negative number - when the current is smaller than the comparison object
+- a positive number - when the current is greater than the comparison object
+- zero - both objects are equal in terms of their natural order.
 
 It is strongly recommended, but not strictly required that 
 

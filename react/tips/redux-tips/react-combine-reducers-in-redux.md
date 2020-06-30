@@ -1,29 +1,18 @@
 ---
 author: catalin
-
-levels:
-
-  - basic
-
-  - beginner
-
 type: normal
-
 category: how to
-
-
 links:
-
-  - '[Combine Reducers](http://rackt.org/redux/docs/api/combineReducers.html){website}'
-
-aspects:
-  - deep
-
+  - >-
+    [Combine
+    Reducers](http://rackt.org/redux/docs/api/combineReducers.html){website}
 ---
 
 # Combine reducers in Redux
 
+
 ---
+
 ## Content
 
 When applications become more complex, the *reduction function* can and should be split into separate functions, managing different parts of the **state** as to keep the code logic tidy and scalable. This is done by using the special method `combineReducers()`.
@@ -31,7 +20,8 @@ When applications become more complex, the *reduction function* can and should b
 This function will transform an object with different reducer functions as parameters into a single reducer function that can be passed to `createStore()`.
 
 Call the function:
-```js
+
+```plain-text
 combineReducers({
   firstReducer: myFirstReducer,
   secondReducer: mySecondReducer
@@ -40,7 +30,7 @@ combineReducers({
 
 The keys define the shape of the **state object**.
 
-```javascript
+```plain-text
 {
   firstReducer, secondReducer;
 }
@@ -48,7 +38,7 @@ The keys define the shape of the **state object**.
 
 The common practice is to be consistent with name such as that reducers have the same name as the slices they manage. Therefore, **ES6** shorthand notation can be used:
 
-```javascript
+```plain-text
 combineReducers({
   firstReducer,
   secondReducer
@@ -57,7 +47,7 @@ combineReducers({
 
 This is equivalent to:
 
-```javascript
+```plain-text
 combineReducer({
   firstReducer: firstReducer,
   secondReducer: secondReducer
@@ -66,7 +56,7 @@ combineReducer({
 
 Consider we have the following reducers:
 
-```js
+```plain-text
 // Products.js
 export default function products(
   state = [],
@@ -102,7 +92,7 @@ export default function counter(
 
 We can combine our `products` and `counter` reducers like so:
 
-```js
+```plain-text
 // App.js
 import { combineReducers } from "redux";
 import products from "./Products";
@@ -143,27 +133,30 @@ console.log(store.getState());
 // }
 ```
 
+
 ---
+
 ## Practice
 
 Once the `combineReducers()` function has transformed an object with different reducer functions into a single reducer function, where is it then passed to? 
 
 ???
 
-* `createStore()`
-* `createReducer()`
-* `createObject()`
+- `createStore()`
+- `createReducer()`
+- `createObject()`
+
 
 ---
+
 ## Revision
 
 What special method is used to combine different reduction functions with the scope of keeping your code scalable?
 
 ???
 
-* `combineReducers()`
-* `combine()`
-* `createStore()`
-* `addReducer()`
-
-
+- `combineReducers()`
+- `combine()`
+- `createStore()`
+- `addReducer()`
+ 

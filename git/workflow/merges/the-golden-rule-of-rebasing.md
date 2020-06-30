@@ -23,7 +23,7 @@ You should stick to this rule so that other people contributing to the project d
 
 If someone does rebase shared commits, you can run:
 
-```bash
+```plain-text
 git pull --rebase
 ```
 
@@ -40,10 +40,10 @@ How would you make git to recreate a history of commits if someone rebased share
 git ??? ???
 ```
 
-* `pull`
-* `--rebase`
-* `rebase`
-* `commit`
+- `pull`
+- `--rebase`
+- `rebase`
+- `commit`
 
 
 ---
@@ -52,7 +52,7 @@ git ??? ???
 
 The best practice is to only `rebase` commits that exist in your ??? ???.
 
-* local
-* repository
-* remote
+- local
+- repository
+- remote
  

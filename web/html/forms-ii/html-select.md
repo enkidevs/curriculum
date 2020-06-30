@@ -1,30 +1,23 @@
 ---
 author: Stefan-Stojanovic
-
-levels:
-  - beginner
-  - basic
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-  - workout
-
-links:
-
+links: null
 ---
+
 # The `<select>` Element
+
+
 ---
+
 ## Content
 
 In HTML the `<select>` element is used to create drop-down lists.
 The available options in the `<select>` list are created with the `<option>` tag.
 
 Example:
-```html
+
+```plain-text
 <form>
   <select>
     <option value="apple">Apples</option>
@@ -43,19 +36,21 @@ Example:
 You can also add several other attributes to your drop-down list.
 
 Some of these are:
- - autofocus
- - disabled
- - multiple
- - name
- - required
- - size
+
+- autofocus
+- disabled
+- multiple
+- name
+- required
+- size
 
 It is also possible to define groups of related options from a drop-down list within a `select` element.
 
 This is done by adding an `<optgroup>` attribute, like so:
 
 Example:
-```html
+
+```plain-text
 <select>
   <optgroup label="Fav Fruit">
     <option value="apple">Apples</option>
@@ -76,29 +71,36 @@ Example:
 
 [View CodePen](https://codepen.io/enkidevs/pen/NBdRBB)
 
+
 ---
+
 ## Practice
 
 Which form attribute is used to define items of a drop-down list within a `select` element?
-```html
+
+```plain-text
 <select>
   <__ value="apple">Apples</__>
   <__ value="banana">Bananas</__>
   <__ value="orange">Oranges</__>
 </select>
 ```
+
 ???
 
-* `option`
-* `optgroup`
-* `selectitem`
-* `menuitem`
+- `option`
+- `optgroup`
+- `selectitem`
+- `menuitem`
+
 
 ---
+
 ## Revision
 
 Which form attribute is used to define groups of related option of a drop-down list within a select element?
-```html
+
+```plain-text
 <select>
  <__ label="Fav Fruit">
    <option
@@ -118,22 +120,32 @@ Which form attribute is used to define groups of related option of a drop-down l
  </__>
 </select>
 ```
+
 ???
 
-* `optgroup`
-* `option`
-* `selectitem`
-* `menuitem`
+- `optgroup`
+- `option`
+- `selectitem`
+- `menuitem`
+
+
 ---
+
 ## Quiz
 
-### How much do you know about the html `select` element?
+### How much do you know about the html 
+
+`select`
+
+ element?
+
 
 Which statement is true regarding drop-down lists in HTML?
 
 ???
 
- * The `<select>` element is used to create drop-down lists.
- * The `<option>` element is used to create drop-down lists.
- * The `<optgroup>` element is used to create drop-down lists.
- * The `<list>` element is used to create drop-down lists.
+- The `<select>` element is used to create drop-down lists.
+- The `<option>` element is used to create drop-down lists.
+- The `<optgroup>` element is used to create drop-down lists.
+- The `<list>` element is used to create drop-down lists.
+ 

@@ -1,40 +1,22 @@
 ---
 author: jfarmer
-
-levels:
-
-  - basic
-
-  - beginner
-
 type: normal
-
 category: must-know
-
 inAlgoPool: false
-
 tags:
-
   - introduction
-
   - workout
-
-
 links:
-
-  - '[More substitutions](http://www.tldp.org/LDP/abs/html/commandsub.html){website}'
-
-
-aspects:
-  - introduction
-  - workout
-
-
+  - >-
+    [More
+    substitutions](http://www.tldp.org/LDP/abs/html/commandsub.html){website}
 ---
 
 # The Basics of Command Substitution
 
+
 ---
+
 ## Content
 
 Using `|`, we can glue the standard output of one program to the standard input of another program.  Using `>` we can redirect standard output to a file.  However, there are times when we want to store whatever the program sends to standard output into a shell variable or use it as a command line argument for another program.
@@ -45,14 +27,14 @@ For example, let's say we want to check the permissions on the `curl` executable
 
 We might *happen* to know that `curl` is located at `/usr/bin/curl` or we can use `which` to get the full path to the executeable:
 
-```shell
+```plain-text
 which curl
 /usr/bin/curl
 ```
 
 Now we can run `ls -l /usr/bin/curl`:
 
-```shell
+```plain-text
 ls -l /usr/bin/curl
 -rwxr-xr-x  1 root  wheel  172016
 Dec  2  2015 /usr/bin/curl*
@@ -60,7 +42,7 @@ Dec  2  2015 /usr/bin/curl*
 
 We can capture the output of `which curl` and pass it to `ls -l` directly using `$(...)`, like so:
 
-```shell
+```plain-text
 ls -l $(which curl)
 -rwxr-xr-x  1 root  wheel  172016
 Dec  2  2015 /usr/bin/curl*
@@ -72,45 +54,49 @@ The output of the command inside `$(...)` (here `which curl`) is passed to `ls -
 
 It's common to see backticks `` `...` `` instead of `$(...)`.  The two are equivalent, with the former existing for backwards compatibility with older shells.
 
-```shell
+```plain-text
 ls -l `which curl`
 -rwxr-xr-x  1 root  wheel  172016
 Dec  2  2015 /usr/bin/curl*
 ```
 
+
 ---
+
 ## Practice
 
 You have the following file `websites.txt`:
-```
+
+```plain-text
 google.com
 twitter.com
 enki.com
 ```
+
 Use substitution to pass the content of the file to `curl`:
+
 ```bash
 ??? ???(???)
 ```
 
-* `curl`
-* `$`
-* `cat websites.txt`
-* `''`
-* `<`
-* `websites.txt`
+- `curl`
+- `$`
+- `cat websites.txt`
+- `''`
+- `<`
+- `websites.txt`
+
 
 ---
+
 ## Revision
 
 If you want to use the output of a program as a command line argument, you would have to use
 
 ???.
 
-* $(...) or `...`
-* >
-* |
-* >>
-
- 
- 
+- $(...) or `...`
+- >
+- |
+- > >
  

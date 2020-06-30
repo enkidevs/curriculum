@@ -21,7 +21,7 @@ The at-rule (`@`) informs CSS with instructions on how to behave.
 
 The regular form for `@` is:
 
-```css
+```plain-text
 @[KEYWORD] (RULE);
 ```
 
@@ -29,7 +29,7 @@ Regular @keywords include: `charset`, `import`, and `namespace`.
 
 The nested form for `@` is:
 
-```css
+```plain-text
 @[KEYWORD] {
 /* Nested Statements */
 };
@@ -39,7 +39,7 @@ Nested `@keywords` include: `document`, `font-face`, `keyframes`, `media`, `page
 
 These are useful when you want to check if the browser supports a property:
 
-```css
+```plain-text
 @supports (image-rendering and
     -moz-crisp-edges) {
  /* CSS code if supported*/
@@ -50,7 +50,7 @@ image-rendering:
 
 Or you want different image scaling depending on screen size:
 
-```css
+```plain-text
 @media screen and (max-width:720px){
   .thumbnail{
     width: 10vh;
@@ -73,7 +73,7 @@ Or you want different image scaling depending on screen size:
 
 Which of the following is the regular form for an @ rule? ???
 
-* `@[KEYWORD] (RULE);`
-* `@[KEYWORD];`
-* `@[KEYWORD-RULE];`
+- `@[KEYWORD] (RULE);`
+- `@[KEYWORD];`
+- `@[KEYWORD-RULE];`
  

@@ -1,34 +1,26 @@
 ---
 author: Stefan-Stojanovic
-
-levels:
-  - beginner
-  - basic
-
 type: normal
-
 category: must-know
-
-aspects:
-  - deep
-  - workout
-  
-links:
-
+links: null
 ---
+
 # `<meter>` Attributes
+
+
 ---
+
 ## Content
 
 `<meter>` elements have a number of useful attributes.
 
-* `value`
-* `low`
-* `high`
-* `min`
-* `max`
-* `optimum`
-* `form`
+- `value`
+- `low`
+- `high`
+- `min`
+- `max`
+- `optimum`
+- `form`
 
 ![meter-element](https://img.enkipro.com/989f5dcc47b587ffca1ed32a7b50c45b.png)
 
@@ -42,23 +34,31 @@ links:
 
 
 ---
+
 ## Practice
 
 Which of these is not a valid `<meter>` element attribute?
 
 ???
 
-* `medium`
-* `high`
-* `low`
-* `min`
-* `max`
-* `form`
+- `medium`
+- `high`
+- `low`
+- `min`
+- `max`
+- `form`
+
 
 ---
+
 ## Quiz
 
-### How much do you know about the `<meter>` element?
+### How much do you know about the 
+
+`<meter>`
+
+ element?
+
 
 If you need to display the value as a percentage, what would you use?
 
@@ -71,7 +71,8 @@ If you need to display the value as a percentage, what would you use?
 </meter>
 ```
 
-* 0.5, 0, 1
-* 50%, 0, 100
-* 0.5, 0, 100
-* 50%, 0, 1
+- 0.5, 0, 1
+- 50%, 0, 100
+- 0.5, 0, 100
+- 50%, 0, 1
+ 

@@ -1,24 +1,14 @@
 ---
 author: Stefan-Stojanovic
-
-levels:
-  - beginner
-  - basic
-
-aspects:
-  - introduction
-  - new
-  - workout
-
 type: normal
-
 category: how to
-
 ---
 
 # Aggregation $project Part 2
 
+
 ---
+
 ## Content
 
 The `$project` stage can also be used to include or exclude specified fields within an array.
@@ -26,7 +16,8 @@ The `$project` stage can also be used to include or exclude specified fields wit
 For instance, let's say we have a `pokemon` collection where each pokémon has the `_id`, `name`, `type`, `power` fields and an `ability` array field. In the array there are 3 fields: `"Basic"`, `"Strong"` and `"Ultimate"`. We can use the `$project` stage to only include the `name`, `type` and `"Ultimate"` `ability` in the aggregation.
 
 Example document:
-```javascript
+
+```plain-text
 {
   "_id": ObjectId(
     "5d9d8e1e0b24990f19398221"
@@ -47,7 +38,8 @@ Example document:
   ]
 }
 ```
-```javascript
+
+```plain-text
 db.pokemon.aggregate([
   {
     $project: {
@@ -59,8 +51,10 @@ db.pokemon.aggregate([
   }
 ])
 ```
+
 Output:
-```javascript
+
+```plain-text
 {
   "name": "Omanyte",
   "type": "Rock",
@@ -75,7 +69,8 @@ Output:
 Furthermore, we can use the `$project` stage to add a new array field to a document. For instance, let's say we have a document where there are 5 different abilities in fields called `ability1`, `ability2` ...`ability5`. We can use the `$project` stage to combine all 5 abilities and return them as an `ability` array.
 
 Document:
-```javascript
+
+```plain-text
 {
   "_id": ObjectId(
     "5d9d8b8c0b24990f1939820f"
@@ -88,7 +83,8 @@ Document:
   "ability5": "Shock"
 }
 ```
-```javascript
+
+```plain-text
 db.pokemon.aggregate([
   {
     $project: {
@@ -103,8 +99,10 @@ db.pokemon.aggregate([
   }
 ])
 ```
+
 Output:
-```javascript
+
+```plain-text
 {
   "_id": ObjectId(
     "5d9d8b8c0b24990f1939820f"
@@ -119,12 +117,15 @@ Output:
   ]
 }
 ```
+
+
 ---
+
 ## Practice
 
 Let's say we have a `pokemon` collection where each pokémon has a `name`, `_id`, `type`, `power` and an `abilities` array field:
 
-```javascript
+```plain-text
 {
   "_id": ObjectId(
     "5d9d8ba70b24990f19398210"
@@ -161,19 +162,21 @@ db.pokemon.???([
 ])
 ```
 
-* `aggregate`
-* `$project`
-* `0`
-* `name`
-* `1`
-* `abilities`
-* `Ultimate`
-* `find`
-* `locate`
-* `ultimate`
-* `%project`
+- `aggregate`
+- `$project`
+- `0`
+- `name`
+- `1`
+- `abilities`
+- `Ultimate`
+- `find`
+- `locate`
+- `ultimate`
+- `%project`
+
 
 ---
+
 ## Revision
 
 Let's say we have a `shoes` collection with `5000` shoes of all sizes. Each shoe has 5 sizes saved in fields called `size1`, `size2`...`size5`. Create an aggregation that will combine all 5 shoe sizes in a new array called `sizes`.
@@ -194,13 +197,14 @@ db.???.???([
 ])
 ```
 
-* `shoes`
-* `aggregate`
-* `$project`
-* `sizes`
-* `SHOES`
-* `find`
-* `$group`
-* `SIZES`
-* `%project`
-* `%sizes`
+- `shoes`
+- `aggregate`
+- `$project`
+- `sizes`
+- `SHOES`
+- `find`
+- `$group`
+- `SIZES`
+- `%project`
+- `%sizes`
+ 

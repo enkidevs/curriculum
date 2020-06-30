@@ -1,23 +1,16 @@
 ---
 author: tommarshall
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-  - workout
-  - deep
-
 links:
   - '[Blob](http://www.javascripture.com/Blob){website}'
-
 ---
 
 # Blobs
 
+
 ---
+
 ## Content
 
 A binary large object, or *blob*, represents a file-like object of immutable[1] raw data. It represents data that isn't in JavaScript's standard format[2]. You use `FileReader` to read data from a blob.
@@ -28,17 +21,18 @@ A `Blob` has two components, the blob **parts** and **type**.
 
 Creating a `Blob` is done through the constructor:
 
-```js
+```plain-text
 new Blob(parts, options);
 ```
 
 The `parts` argument is an *array of values*, while `options` is an *optional object*. In the `options` you can specify:
+
 - `type` (usually a MIME-type[3] like `image/png`)
 - `endings`[4]
 
 Now, let's create a `Blob`:
 
-```javascript
+```plain-text
 let blob = new Blob(
   ["<html>...</html>"],
   { type: 'text/html' }
@@ -53,12 +47,14 @@ Although blobs aren't particularly useful on their own, their redeeming feature 
 
 For example, a `Blob` could represent a temporary file, which can then be linked to and treated as being a file on a web server.
 
+
 ---
+
 ## Practice
 
 Which of these is the correct way of creating a `Blob`?
 
-```js
+```plain-text
 let a = new Blob(
   "<img src='#' >",
   { type: 'text/html' }
@@ -76,11 +72,13 @@ let c = Blob(
 
 ???
 
-* b
-* a
-* c
+- b
+- a
+- c
+
 
 ---
+
 ## Revision
 
 Complete the definition of the `Blob` constructor.
@@ -95,16 +93,18 @@ new ???(
 );
 ```
 
-* Blob
-* ["parts"]
-* type
-* endings
-* blob
-* "parts"
-* mimeType
-* newLines
+- Blob
+- ["parts"]
+- type
+- endings
+- blob
+- "parts"
+- mimeType
+- newLines
+
 
 ---
+
 ## Footnotes
 
 [1:Immutable Data]
@@ -127,6 +127,7 @@ Media (or MIME) types are a two-part identifier for file formats and format cont
 
 [4:Endings]
 This option is used to choose whether you want to transform end-of-line characters in the `Blob` to correspond to current Operating System newlines (e.g. `\r\n` or `\r`). It can take two values:
+
 - `transparent` (which means do nothing)
 - `native` ( which means transform)
 
@@ -134,3 +135,4 @@ This option is used to choose whether you want to transform end-of-line characte
 `Blob`s can be used as an URL for links, images (or other elements) to show its contents.
 
 Also, you can download or upload `Blob` objects, with the type becoming `Content-Type`.
+ 

@@ -1,24 +1,19 @@
 ---
 author: jfarmer
-
-aspects:
-  - introduction
-
 type: normal
-
 category: must-know
-
 tags:
   - introduction
   - linux
   - environment
   - variables
-
 ---
 
 # Common Environment Variables
 
+
 ---
+
 ## Content
 
 On Linux (and other Unix-based operating systems), common environment variables include:
@@ -33,16 +28,20 @@ On Linux (and other Unix-based operating systems), common environment variables 
 
 - `LANG`, which specifies the user's language, e.g., a value of `pt_BR` signifies that the user prefers Brazillian Portuguese.
 
+
 ---
+
 ## Revision
 
 Print the value of the environmental variable `LANG` : 
+
 ```bash
 ??? ???
 ```
 
-* `echo`
-* `$LANG`
-* `lang`
-* `$lang`
-* `ls`
+- `echo`
+- `$LANG`
+- `lang`
+- `$lang`
+- `ls`
+ 

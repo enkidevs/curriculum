@@ -22,7 +22,7 @@ The HTML inputs of type `submit` and `reset` are rendered as buttons with `onCli
 
 Example submit:
 
-```html
+```plain-text
 <input
   type="submit"
   value="Submit">
@@ -32,7 +32,7 @@ Example submit:
 
 Example reset:
 
-```html
+```plain-text
 <input
   type="reset"
   value="Reset data">
@@ -48,7 +48,7 @@ The `type="submit"` button is used to submit a form.
 
 Example submit and reset with one text field:
 
-```html
+```plain-text
 <form>
     <label
       for="name">Name:
@@ -73,7 +73,7 @@ Furthermore, you can add shortcuts both to the `submit` and `reset` buttons via 
 
 Previous example with shortcuts added:
 
-```html
+```plain-text
 <form>
     <label
       for="name">Name:
@@ -111,16 +111,16 @@ Which line of code defines the button that sends the data when clicked?
 
 ???
 
-* input
-* type
-* reset
-* value
-* `<input type="submit" value="Send">`
-* send
-* data
-* `<submit value="Send">`
-* `<input submit="Send">`
-* `<input value="submit" type="Send">`
+- input
+- type
+- reset
+- value
+- `<input type="submit" value="Send">`
+- send
+- data
+- `<submit value="Send">`
+- `<input submit="Send">`
+- `<input value="submit" type="Send">`
 
 
 ---
@@ -131,12 +131,12 @@ Write the form code that creates a submit button.
 
 `<??? ???="???" ???="Send">`
 
-* input
-* type
-* submit
-* value
-* send
-* data
+- input
+- type
+- submit
+- value
+- send
+- data
 
 
 ---
@@ -148,13 +148,13 @@ Write the form code that creates a submit button.
 
 If values are not assigned to reset and submit buttons stating what text the buttons should display, what happens?
 
-```html
+```plain-text
 <input type="submit">
 <input type="reset">
 ```
 
-* "Submit" & "Reset" text is added by default.
-* Nothing is added to the HTML page.
-* They display as buttons without text.
-* The page breaks
+- "Submit" & "Reset" text is added by default.
+- Nothing is added to the HTML page.
+- They display as buttons without text.
+- The page breaks
  

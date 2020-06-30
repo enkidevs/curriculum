@@ -18,7 +18,7 @@ Nested functions can often be used to construct new functions based on parameter
 
 For example:
 
-```python
+```plain-text
 def out_func(num):
     def in_func(num):
         return num + 1
@@ -30,13 +30,13 @@ The `in_func` function is nested within the `out_func` function and is inaccessi
 
 If you try to call `in_func`, you receive the following error due to it being out of the global scope:
 
-```bash
+```plain-text
 NameError: name 'in_func' is not defined
 ```
 
 When calling `out_func`, this is the output:
 
-```python
+```plain-text
 out_func(5)
 # (5, 6)
 ```
@@ -50,7 +50,7 @@ This shows that the outer function is called with the parameter, that parameter 
 
 What’s the output to the following function call:
 
-```python
+```plain-text
 def outer(num):
     def inner(num):
         return num - 2
@@ -62,10 +62,10 @@ outer(3)
 
 ???
 
-* `(3, 1)`
-* `(5, 3)`
-* `(3, 3,`
-* `(1, 3)`
+- `(3, 1)`
+- `(5, 3)`
+- `(3, 3,`
+- `(1, 3)`
 
 
 ---
@@ -74,9 +74,9 @@ outer(3)
 
 A function is nested when it’s defined inside the ??? of another function.
 
-* scope
-* parentheses
-* enclosing class
+- scope
+- parentheses
+- enclosing class
 
 
 ---
@@ -88,7 +88,7 @@ A function is nested when it’s defined inside the ??? of another function.
 
 We've defined a nested function here. What will the following code output?  
 
-```python
+```plain-text
 def some_function(num):
     def nested_func(num):
         return num + 1
@@ -105,8 +105,8 @@ def some_new_function(num):
 some_new_function(1)
 ```
 
-* NameError: global name 'nested_func' is not defined
-* NameError: global name 'nested_func_new' is not defined
-* AttributeError: 'super' object has no attribute '**getattr**'
-* 1 NameError: global name 'nested_func' is not defined
+- NameError: global name 'nested_func' is not defined
+- NameError: global name 'nested_func_new' is not defined
+- AttributeError: 'super' object has no attribute '**getattr**'
+- 1 NameError: global name 'nested_func' is not defined
  

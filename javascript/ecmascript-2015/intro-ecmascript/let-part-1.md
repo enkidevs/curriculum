@@ -1,27 +1,25 @@
 ---
 author: alexjmackey
-
 type: normal
-
 category: tip
-
-aspects:
-  - introduction
-
 links:
-  - '[MDN Documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let){documentation}'
-
+  - >-
+    [MDN
+    Documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let){documentation}
 ---
+
 # Let (Part 1)
 
+
 ---
+
 ## Content
 
 `let` declares a variable and is used in a similar method to `var`.
 
 However, a variable declared using `let` has the critical difference that the variable **exists only in block scope**. A block-scope is any code wrapped in between `{}`.
 
-```javascript
+```plain-text
 function test() {
   if (1 == 1) {
     // variable company only
@@ -37,7 +35,7 @@ function test() {
 
 When `let` is used outside of a function it also will not create a global variable, contrary to `var`s behavior:
 
-```javascript
+```plain-text
 var global = 'enki';
 console.log(window.global);
 // enki
@@ -47,7 +45,9 @@ console.log(window.notGlobal);
 // undefined
 ```
 
+
 ---
+
 ## Practice
 
 Fill in the missing gaps with the output of the log statements:
@@ -63,12 +63,14 @@ console.log(year)
 // ???
 ```
 
-* 2018
-* 2017
-* error
-* year
+- 2018
+- 2017
+- error
+- year
+
 
 ---
+
 ## Revision
 
 What is the output of the log statement (considering it's run in a browser):
@@ -79,6 +81,7 @@ console.log(window.enki)
 // ???
 ```
 
-* undefined
-* enki
-* error
+- undefined
+- enki
+- error
+ 

@@ -21,7 +21,7 @@ In a basic rebase, you 'replay' the changes made on one branch onto the other.
 
 For example, to rebase the changes committed to `scrollFix` onto `master`:
 
-```bash
+```plain-text
 git checkout scrollFix
 git rebase master
 ```
@@ -30,7 +30,7 @@ This works by 'rewinding' `scrollFix` to the commit shared by the two branches a
 
 You can then get `master` to point at the final commit:
 
-```bash
+```plain-text
 git checkout master
 git merge scrollFix
 ```
@@ -45,10 +45,10 @@ Now if you look at the history, it will seem like all the changes happened in se
 `git rebase master`
 restores the current branch to the last ??? shared by the two branches, then ??? the changes made on top of master into the current branch.
 
-* commit
-* merges
-* checkout
-* deletes
+- commit
+- merges
+- checkout
+- deletes
 
 
 ---
@@ -63,9 +63,9 @@ git checkout scrollFix
 ??? ??? master
 ```
 
-* `git`
-* `rebase`
-* `rewind`
-* `redo`
-* `checkout`
+- `git`
+- `rebase`
+- `rewind`
+- `redo`
+- `checkout`
  

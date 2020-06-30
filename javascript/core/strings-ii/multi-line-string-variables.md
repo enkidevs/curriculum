@@ -1,44 +1,38 @@
 ---
 author: jordanfish
-
 type: normal
-
 category: how to
-
 tags:
   - strings
   - html
   - introduction
   - workout
-
-
 links:
-  - '[Creating Multi-line String Variables](http://stackoverflow.com/questions/805107/creating-multiline-strings-in-javascript/6247331#6247331){discussion}'
-
-aspects:
-  - introduction
-  - workout
-
+  - >-
+    [Creating Multi-line String
+    Variables](http://stackoverflow.com/questions/805107/creating-multiline-strings-in-javascript/6247331#6247331){discussion}
 ---
 
 # Multi-Line String Variables
 
+
 ---
+
 ## Content
 
 For readability, it may be preferable to write strings over multiple lines:
 
-```javascript
+```plain-text
 let stringOfHTML = "<div>
   This is a bad example.
 </div>";
 ```
-However, this will cause an error. 
 
+However, this will cause an error. 
 
 To preserve both readability and functionality, use string concatenation:
 
-```javascript
+```plain-text
 let stringOfHTML = '<div>' +
   '  This is a better example.' +
 '</div>';
@@ -46,38 +40,40 @@ let stringOfHTML = '<div>' +
 
 Or, since ES2015, it is possible to use backticks (`` ` ``), in this form:
 
-```javascript
+```plain-text
 let stringOfHTML = `This is a 
 multi-line
 string in ES6!`;
 ```
 
+
 ---
+
 ## Practice
 
 Which characters are used to enclose a multi-line string?
 
-```js
+```plain-text
 "" // A
 ```
 
-```js
+```plain-text
 `` // B
 ```
 
 ???
 
-* B
-* A
+- B
+- A
+
 
 ---
+
 ## Revision
 
 The new standard for multi-lined string is using ??? .
 
-
-* backticks
-* single quotes
-* double quote
-
+- backticks
+- single quotes
+- double quote
  

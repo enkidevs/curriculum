@@ -18,15 +18,15 @@ links:
 
 Functions can be called using any of the following types of arguments (also called parameters):
 
-* Required arguments
-* Keyword arguments
-* Default arguments
+- Required arguments
+- Keyword arguments
+- Default arguments
 
 *Required arguments* take into account the *positional order* in which the parameters were defined. The *number of arguments* is also significant. If these two restrictions are violated, then the function throws a *syntax error*.
 
 Consider the following example:
 
-```python
+```py
 def print_info(name, age, gender):
   print('Name: ', name)
   print('Age: ', age)
@@ -131,7 +131,7 @@ follows default argument
 
 Will the following snippet throw any errors?
 
-```python
+```py
 def foo(name, salary = 1500, department):
   print('Name: ',  name)
   print('Salary: ', salary)

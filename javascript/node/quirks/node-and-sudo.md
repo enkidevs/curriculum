@@ -19,7 +19,7 @@ notes: >-
 
 ## Content
 
-```bash
+```plain-text
 sudo node myapp.js
 ```
 
@@ -31,7 +31,7 @@ The most usual workaround for this is to set up a **HTTP server** / **proxy** to
 
 Another workaround in Linux is to use the `libcap2-bin` package:
 
-```bash
+```plain-text
 sudo apt-get install libcap2-bin
 sudo setcap cap_net_bind_service=+ep
 /path/to/node
@@ -46,10 +46,10 @@ Should you give your node process permissions to your whole system?
 
 ???
 
-* no
-* yes
-* only if you need port `80` for http
-* only if you need port `443` for http
+- no
+- yes
+- only if you need port `80` for http
+- only if you need port `443` for http
 
 
 ---
@@ -60,6 +60,6 @@ Is running **Node** with `sudo` considered a safe practice?
 
 ???
 
-* no
-* yes
+- no
+- yes
  

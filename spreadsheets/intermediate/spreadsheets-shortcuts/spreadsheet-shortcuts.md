@@ -1,18 +1,14 @@
 ---
 author: Stefan-Stojanovic
-
-aspects:
-  - introduction
-
 type: normal
-
 category: how to
-
 ---
 
 # Spreadsheet shortcuts
 
+
 ---
+
 ## Content
 
 In this workout, we will go over the best shortcuts that you can use later. Feel free to bookmark the ones you find most useful!
@@ -20,6 +16,7 @@ In this workout, we will go over the best shortcuts that you can use later. Feel
 This workout will serve as a "Cheatsheet" you can use when working with spreadsheets.
 
 The shortcuts are structured like this:
+
 ```plain-text
 Windows shortcuts - macOS shortcuts
 
@@ -29,3 +26,4 @@ Image (If applicable)
 
 If we give only one shortcut version that means it's the same shortcut on both operating systems.
 ```
+ 

@@ -1,19 +1,14 @@
 ---
 author: Stefan-Stojanovic
-
-aspects:
-  - introduction
-  - workout
-
 type: normal
-
 category: how to
-
 ---
 
 # Order of operations
 
+
 ---
+
 ## Content
 
 Here's one thing useful application from that Math class a long time ago!
@@ -37,6 +32,7 @@ So, an expression like this one:
 ```plain-text
 3 + 5 ^ (5 - 3) * 4 / 2
 ```
+
 Would be calculated like this:
 
 ```plain-text
@@ -58,13 +54,16 @@ Example in spreadsheets:
 
 To remember it more easily you can assign letters in the PEMDAS acronym to spell out a sentence. A common one is "Please Excuse My Dear Aunt Sally". 
 
+
 ---
+
 ## Practice
 
 What operation comes after exponents, and before subtraction?
 
 ???
 
-* Multiplication
-* Parentheses
-* No operations do
+- Multiplication
+- Parentheses
+- No operations do
+ 

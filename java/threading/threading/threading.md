@@ -26,17 +26,17 @@ Every thread in *Java* is created and controlled by the `java.lang.Thread` class
 
 Advantages of Multithreading:
 
-* better use of system resources
-* parallelized tasks
-* enhanced performance on multi-processor machines
+- better use of system resources
+- parallelized tasks
+- enhanced performance on multi-processor machines
 
 Disadvantages of Multithreading:
 
-* increased complexity
-* synchronization of shared resources (objects, data)
-* difficult to debug, result is sometimes unpredictable
-* potential deadlocks
-* "starvation": some threads may not be served
+- increased complexity
+- synchronization of shared resources (objects, data)
+- difficult to debug, result is sometimes unpredictable
+- potential deadlocks
+- "starvation": some threads may not be served
 
 
 ---
@@ -45,9 +45,9 @@ Disadvantages of Multithreading:
 
 The concept of threading is: ???
 
-* splitting a single process into multiple tasks
-* ensuring that the current process gets the most resources out of the system
-* making a process run on a single core in order to free up resources
+- splitting a single process into multiple tasks
+- ensuring that the current process gets the most resources out of the system
+- making a process run on a single core in order to free up resources
 
 
 ---
@@ -56,7 +56,7 @@ The concept of threading is: ???
 
 The concept of threading is: ???
 
-* splitting a single process into multiple tasks
-* ensuring that the current process gets the most resources out of the system
-* making a process run on a single core in order to free up resources
+- splitting a single process into multiple tasks
+- ensuring that the current process gets the most resources out of the system
+- making a process run on a single core in order to free up resources
  

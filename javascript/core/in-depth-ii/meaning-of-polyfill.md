@@ -1,39 +1,18 @@
 ---
 author: pawel
-
-levels:
-
-  - basic
-
-  - advanced
-
-  - medium
-
 type: normal
-
 category: tip
-
 tags:
-
   - deep
-
   - workout
-
   - polyfill
-
-
-
-
-aspects:
-  - deep
-  - workout
-
-
 ---
 
 # Meaning of polyfill
 
+
 ---
+
 ## Content
 
 Polyfill (or polyfiller) is downloadable code which provides facilities that are not built into a web browser. It implements technology that a developer expects the browser to provide natively, providing a more uniform API landscape. 
@@ -42,7 +21,7 @@ A great example is `FlashCanvas`, implementation of the HTML5 Canvas API using a
 
 Another example could be polyfilling `String.prototype.startsWith()` with the following snippet:
 
-```javascript
+```plain-text
 if (!String.prototype.startsWith) {
   String.prototype.startsWith = 
    function(searchString, position) {
@@ -54,26 +33,27 @@ if (!String.prototype.startsWith) {
 
 ```
 
+
 ---
+
 ## Practice
 
 A polyfill provides... ???
 
+- technology that a developer expects the browser to provide natively.
+- new features.
+- all HTML tags.
 
-* technology that a developer expects the browser to provide natively.
-* new features.
-* all HTML tags.
 
 ---
+
 ## Revision
 
 A polyfill is a downloadable code that provides 
 
 ??? .
 
-
-* support for older browsers
-* new features
-* all HTML tags
-
+- support for older browsers
+- new features
+- all HTML tags
  

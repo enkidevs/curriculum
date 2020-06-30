@@ -1,24 +1,15 @@
 ---
 author: Stefan-Stojanovic
-
-levels:
-  - beginner
-
-aspects:
-  - deep
-  - workout
-
 type: normal
-
 category: how to
-
 ---
 
 # Symbols
 
----
-## Content
 
+---
+
+## Content
 
 Symbols are instances of an element that can be reused at any time. Symbols are usually made for recurring elements like a `Navbar` or `Footer` elements.
 
@@ -42,10 +33,13 @@ Here is an example of how changing one symbol propagates to other identical symb
 
 ![example-gif](https://img.enkipro.com/f6eec6f636d18afe9d05896edb756ac7.gif)
 
+
 ---
+
 ## Practice
 
 Symbols are ???
 
-* instances of an element that can be reused any time.
-* reserved special characters used for creating buttons.
+- instances of an element that can be reused any time.
+- reserved special characters used for creating buttons.
+ 

@@ -1,21 +1,18 @@
 ---
 author: SebaRaba
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-
 links:
-  - '[More Information About I/O](https://www.tutorialspoint.com/python/python_files_io.htm){website}'
-
+  - >-
+    [More Information About
+    I/O](https://www.tutorialspoint.com/python/python_files_io.htm){website}
 ---
 
 # I/O Functions
 
+
 ---
+
 ## Content
 
 `I/O` (input/output) stands for the communication between a **data processing system** such as a computer, or any device, and the **outside world**.
@@ -26,7 +23,7 @@ The most **basic output** function in **Python** is `print()`[1]. The arguments 
 
 The syntax simply is:
 
-```py
+```plain-text
 print('This is a print statement.')
 ```
 
@@ -39,7 +36,8 @@ This is a print statement.
 For managing user input, **Python 3** provides a built-in function called `input()`. When using this **function** the program is **paused** and **waits** until the user finishes his input. You can also pass an **optional** string parameter to this function which will prompt the user with the given message.
 
 Consider the following scenario:
-```python
+
+```plain-text
 # user input will be assigned to `str`
 str = input('Please enter your input: ')
 # program will wait here for user input
@@ -65,7 +63,7 @@ If this **raw input** has to be transformed into another **data type** needed by
 
 In the following example, we will use a **casting function** to find out the age of the user by converting the inputted string to an `int`:
 
-```python
+```plain-text
 age = int(input('How old are you? '))
 print(age, type(age))
 ```
@@ -77,12 +75,14 @@ How old are you? 21
 21 <class 'int'>
 ```
 
+
 ---
+
 ## Practice
 
 What will be the type of the `age` variable?
 
-```py
+```plain-text
 age = input('How old are you? ')
 print(age, type(age))
 ```
@@ -92,12 +92,14 @@ How old are you? 23
 23 ???
 ```
 
-* <class `str`>
-* <class 'int'>
-* <class 'list'>
-* <class 'tuple'>
+- <class `str`>
+- <class 'int'>
+- <class 'list'>
+- <class 'tuple'>
+
 
 ---
+
 ## Revision
 
 Suppose we want to add `10` to somebody's age. Fill the gaps accordingly:
@@ -107,24 +109,27 @@ your_age = ???(input('How old are you?'))
 ???(your_age + 10)
 ```
 
+- `int`
+- `print`
+- `int()`
+- `print()`
+- `eval`
+- `cast`
+- `in`
+- `eval()`
+- `cast()`
+- `in()`
+- `string()`
 
-* `int`
-* `print`
-* `int()`
-* `print()`
-* `eval`
-* `cast`
-* `in`
-* `eval()`
-* `cast()`
-* `in()`
-* `string()`
 
 ---
+
 ## Footnotes
+
 [1: print]
 In Python 2 we had the `print` statement, later in Python 3 that statement was replaced by the function `print()`
-```py
+
+```plain-text
 # Python 2
 print 'Hello'
 # Python 3
@@ -133,3 +138,4 @@ print('Hello')
 
 [2: stdout]
 Standard streams are preconnected communication channels between a computer program and its environment when it begins execution. There are 3 main connections standard input (`stdin`), standard output (`stdout`) and standard error (`stderr`).
+ 

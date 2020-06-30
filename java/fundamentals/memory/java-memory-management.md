@@ -28,10 +28,10 @@ On what algorithm is Garbage Collection based?
 
 `???`
 
-* `Mark-and-Sweep` 
-* `Breath-first` 
-* `Depth-first` 
-* `Dijkstra`
+- `Mark-and-Sweep` 
+- `Breath-first` 
+- `Depth-first` 
+- `Dijkstra`
 
 
 ---
@@ -42,8 +42,8 @@ On what is Java’s memory management based?
 
 `???`
 
-* `Garbage Collection` 
-* `Mark-and-Sweep` 
-* `Manually nullifying references` 
-* `Breadth first algorithm`
+- `Garbage Collection` 
+- `Mark-and-Sweep` 
+- `Manually nullifying references` 
+- `Breadth first algorithm`
  

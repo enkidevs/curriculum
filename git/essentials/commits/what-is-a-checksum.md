@@ -38,7 +38,7 @@ In most places you can use a shorter version which is a 7-character hex string: 
 
 Git *hashing* is based on the ??? of a file or directory structure .
 
-* content
-* name
-* date of creation
+- content
+- name
+- date of creation
  

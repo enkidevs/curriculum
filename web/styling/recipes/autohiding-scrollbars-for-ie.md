@@ -18,7 +18,7 @@ links:
 Note this only works in **Edge** and **IE 10/11** .
 Instead of always showing a scrollbar, you can make it only show when needed :
 
-```css
+```plain-text
 html {
   -ms-overflow-style:
     ms-autohiding-scrollbar;
@@ -38,9 +38,9 @@ html {
 }
 ```
 
-* `ms-autohiding-scrollbar`
-* `-ms-autohiding-scrollbar`
-* `autohide-scrollbar`
-* `show-hover-scrollbar`
-* `autohiding-scrollbar-style`
+- `ms-autohiding-scrollbar`
+- `-ms-autohiding-scrollbar`
+- `autohide-scrollbar`
+- `show-hover-scrollbar`
+- `autohiding-scrollbar-style`
  

@@ -52,8 +52,8 @@ Which sentence about containers is not true?
 
 ???
 
-* Containers can be nested 
-* Containers cannot be nested
-* Containers are used to group a bunch of elements together for easier positioning, styling, text editing and more.
-* By default all elements in a container are centered relative to the window they're being viewed on.
+- Containers can be nested 
+- Containers cannot be nested
+- Containers are used to group a bunch of elements together for easier positioning, styling, text editing and more.
+- By default all elements in a container are centered relative to the window they're being viewed on.
  

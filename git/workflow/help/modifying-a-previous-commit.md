@@ -21,19 +21,19 @@ No problem, **Git** provides an easy way to update your last commit: the `--amen
 
 Suppose you staged some changes and then committed them:
 
-```bash
+```plain-text
 git commit -m "my commit"
 ```
 
 If you forgot to add some changes, you can stage them normally:
 
-```bash
+```plain-text
 git add path/to/my/new/file.txt
 ```
 
 Now, to update your last commit just run:
 
-```bash
+```plain-text
 git commit --amend -m "my updated commit"
 ```
 
@@ -43,7 +43,7 @@ Keep in mind that updating a commit will trigger a change in its `ID` as well. E
 
 To get a file to the state it was when you last committed you can also use the following command:
 
-```bash
+```plain-text
 git checkout -- file.txt
 ```
 
@@ -60,9 +60,9 @@ What flag is used to modify your last commit ?
 git commit ???
 ```
 
-* `--amend`
-* `--undo`
-* `--update`
-* `-m`
-* `-a`
+- `--amend`
+- `--undo`
+- `--update`
+- `-m`
+- `-a`
  

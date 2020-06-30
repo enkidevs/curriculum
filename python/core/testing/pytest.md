@@ -21,7 +21,7 @@ The main feature **pytest** comes with is its `assert` function. In contrast wit
 
 Note that for pytest to run the assertion function, it has to start with `test_`. Consider the following module:
 
-```python
+```plain-text
 # multiply_pytest.py
 def multiply(a, b):
     return a * b
@@ -33,13 +33,13 @@ def test_two():
 
 The test can be run issuing the following command[1]:
 
-```bash
+```plain-text
 pytest multiply_pytest.py
 ```
 
 With the following output:
 
-```bash
+```plain-text
 ===== test session starts =====
 platform linux2 -- Python 3.5.2+,
   pytest-3.1.3, py-1.4.34, pluggy-0.4.0
@@ -62,10 +62,10 @@ multiply_pytest.py:6: AssertionError
 
 The **output** is split into two main parts. The first half contains information about:
 
-* the **environment** we are using;
-* the path to the **file** we currently test;
-* the number of **tests** collected from that file;
-* the label: `F` if tests fail, or `P` if they pass.
+- the **environment** we are using;
+- the path to the **file** we currently test;
+- the number of **tests** collected from that file;
+- the label: `F` if tests fail, or `P` if they pass.
 
 If any **test** fails, then pytest will generate the second part. This part shows the line that causes each **test case** to fail, marked by the `>` sign. Furthermore, it gives a detailed explanation of the **assertion** and finally it states what type of **error** was encountered.
 
@@ -78,10 +78,10 @@ If any **test** fails, then pytest will generate the second part. This part show
 
 ???
 
-* `assert`
-* `assertTrue()`
-* `assert()`
-* `assertEqual`
+- `assert`
+- `assertTrue()`
+- `assert()`
+- `assertEqual`
 
 
 ---
@@ -92,10 +92,10 @@ For `pytest` to collect an assertion function, its name has
 
 ???
 
-* to start with `test_`
-* to end in `_test`
-* to contain `assert`
-* either one of these
+- to start with `test_`
+- to end in `_test`
+- to contain `assert`
+- either one of these
 
 
 ---
@@ -105,7 +105,7 @@ For `pytest` to collect an assertion function, its name has
 [1: CLI]
 You have to install `pytest` through Python's package manager, `pip`:
 
-```bash
+```plain-text
 pip install --user pytest
 ```
  

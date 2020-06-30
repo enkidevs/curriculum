@@ -1,43 +1,17 @@
 ---
 author: tommarshall
-
-levels:
-
-  - basic
-
-  - advanced
-
-  - medium
-
 type: normal
-
 category: must-know
-
-standards:
-
-  javascript.functions.1: 10
-
-  javascript.execution-context.1: 10
-
 tags:
-
   - introduction
-
   - workout
-
-
-
-aspects:
-  - deep
-  - workout
-
-
-
 ---
 
 # Function call method
 
+
 ---
+
 ## Content
 
 The `call` method allows changing the this object of a function from the original context to the context of the new object specified by `thisObj`. 
@@ -50,7 +24,7 @@ If `currObj` is not supplied, the `currObj` is set to the global object.
 
 Creating a function to call returning a string of the object and arguments:
 
-```javascript
+```plain-text
 function callObject(arg1, arg2) {
   var str;
   str += "Object: " + this + ". ";
@@ -64,39 +38,43 @@ function callObject(arg1, arg2) {
 
 Calling the function using the call method:
 
-```javascript
+```plain-text
 callObject.call(2, 4, 6);
 ```
 
 The current object would be changed to 2, and the string generated and returned would be:
 
-```
+```plain-text
 str = "Object: 2. Arguments: 4 6 "
 ```
 
+
 ---
+
 ## Practice
 
 If `currObj` is not supplied, what is it set to by default? ???
 
-* The global object.
-* Equal to null.
-* The previous object.
-* The boolean false.
+- The global object.
+- Equal to null.
+- The previous object.
+- The boolean false.
+
 
 ---
+
 ## Revision
 
 What is the object and the arguments of the function?
-```javascript
+
+```plain-text
 callObject.call(null, 4, 2);
 ```
+
 ???
 
-
-* Object: null, Arguments: 4,2
-* Object: 4, Arguments 2
-* Object: 4, Arguments: null, 2
-* This gives an error
-
+- Object: null, Arguments: 4,2
+- Object: 4, Arguments 2
+- Object: 4, Arguments: null, 2
+- This gives an error
  

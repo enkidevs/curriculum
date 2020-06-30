@@ -1,17 +1,14 @@
 ---
 author: nem035
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-
 ---
+
 # JavaScript Basics - Part 1
 
+
 ---
+
 ## Content
 
 Like most programming languages, JavaScript has a number of syntax rules that it must adhere to.
@@ -24,27 +21,27 @@ Declaring a variable in JavaScript can be done in 3 ways.
 
 The first is using the `let` keyword:
 
-```javascript
+```plain-text
 let firstName = "Enki";
 ```
 
 Which allows us to also change what the variable points to, if needed:
 
-```javascript
+```plain-text
 let firstName = "Enki";
 firstName = "Changed"; // this works
 ```
 
 We can also declare a variable using `const`, but in this case we cannot change what it points to:
 
-```javascript
+```plain-text
 const firstName = "Enki";
 firstName = "Changed"; // Error!
 ```
 
 The final (and the oldest) way of declaring a variable in JavaScript is using `var`:
 
-```javascript
+```plain-text
 var firstName = "Enki";
 firstName = "Changed"; // this works
 ```
@@ -55,7 +52,7 @@ We'll learn more about the differences between `let`, `const`, and `var` later o
 
 Statements in JavaScript end in a `;`. Based on the ECMAScript[1] rules however, adding a `;` isn't actually required (although it is common practice):
 
-```javascript
+```plain-text
 let firstName = "Enki";
 //                    ^
 ```
@@ -64,24 +61,26 @@ Omitting a semicolon in certain situations can cause problems. JavaScript has a 
 
 This can sometimes lead to unexpected results[2]. Thus, it's usually recommended to insert the `;` yourself, or use a tool such as [Prettier](https://prettier.io) to do it for you.
 
+
 ---
+
 ## Practice
 
 Which snippet will throw an error?
 
-```js
+```plain-text
 // Option A
 let answer = 42;
 answer = 'life';
 ```
 
-```js
+```plain-text
 // Option B
 const answer = 42;
 answer = 'life';
 ```
 
-```js
+```plain-text
 // Option C
 var answer = 42;
 answer = 'life';
@@ -89,35 +88,38 @@ answer = 'life';
 
 ???
 
-* Option B
-* Option A
-* Option C
-* None of these
+- Option B
+- Option A
+- Option C
+- None of these
+
 
 ---
+
 ## Revision
 
 Are semicolons required in JavaScript?
 
 ???
 
-* No
-* Yes
-* Sometimes
+- No
+- Yes
+- Sometimes
 
- 
+
 ---
+
 ## Footnotes
 
 [1: ECMAScript]
 ECMAScript is the specification defining the rules of JavaScript, based on which the features of the language are implemented.
- 
+
 [2: ASI]
 JavaScript ASI will sometimes assume a statement ends where it might not be intended.
 
 For example, the code bellow:
 
-```js
+```plain-text
 x 
 ++ 
 y
@@ -125,14 +127,15 @@ y
 
 is understod as:
 
-```js
+```plain-text
 x;
 ++y;
 ```
 
 and not as:
 
-```js
+```plain-text
 x++;
 y
 ```
+ 
