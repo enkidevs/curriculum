@@ -30,7 +30,7 @@ This CodePen will provide all the necessary code - it's a decent chunk compared 
 
 **Note:**
 
-* If your video plays OK on your local computer, but doesn't play on the web server you should add the video types needed on the .htaccess file in your directory where the video is.
+- If your video plays OK on your local computer, but doesn't play on the web server you should add the video types needed on the .htaccess file in your directory where the video is.
 
 Create a file in your main web folder with the filename `.htaccess`. Then, add this text to the document:
 
@@ -49,10 +49,10 @@ Finish the sentence:
 
 In order for videos to be supported on all major web browsers you should use the `???` format.
 
-* .mp4 or .webm
-* h.246 or codec
-* .mp3 or .oog
-* flash or .mp3
+- .mp4 or .webm
+- h.246 or codec
+- .mp3 or .oog
+- flash or .mp3
 
 
 ---
@@ -66,9 +66,9 @@ If your video plays OK on your local computer, but doesn't play on the web serve
 
 ???
 
-* .htaccess file adding video types needs to be added to server.
-* Hosting videos on your server will not be possible.
-* The video will be viewable by others, just not you.
-* The video file needs to be converted properly to be posted online.
-* Close the browser, reopen it, and test the video again.
+- .htaccess file adding video types needs to be added to server.
+- Hosting videos on your server will not be possible.
+- The video will be viewable by others, just not you.
+- The video file needs to be converted properly to be posted online.
+- Close the browser, reopen it, and test the video again.
  

@@ -20,7 +20,7 @@ parent: custom-proptype-s-to-be-required
 
 Due to this, `if-else` statements won't work inside **JSX** as they would translate as the following:
 
-```jsx
+```plain-text
 <div id={if (condition){'msg'}}> Hello</div>
 // will translate into:
 React.createElement("div",
@@ -29,7 +29,7 @@ React.createElement("div",
 
 Instead, ternary expressions can be used:
 
-```jsx
+```plain-text
 <div id={condition ? "msg" : null}>
   Hello
 </div>;
@@ -37,7 +37,7 @@ Instead, ternary expressions can be used:
 
 If ternary expressions are too convoluted, an `if-else` statement can be used outside the **JSX** to determine what components to use.
 
-```jsx
+```plain-text
 var loginButton;
 if (loggedIn) {
   loginButton = <LogoutButton />;
@@ -55,7 +55,7 @@ return (
 
 Another alternative is that *immediately-invoked function expressions* can be used in-line inside **JSX**:
 
-```jsx
+```plain-text
 <p>
   {(() => {
     switch (this.state.someState) {
@@ -79,10 +79,10 @@ Can you use switch statements in JSX?
 
 ???
 
-* only wrapped in an IIFE
-* yes
-* no
-* only for strings
+- only wrapped in an IIFE
+- yes
+- no
+- only for strings
 
 
 ---
@@ -99,15 +99,15 @@ How would you write `if (condition) return 'x' else return 'y'` using ternary ex
 />
 ```
 
-* condition
-* ?
-* 'x'
-* :
-* 'y'
-* x
-* y
-* if
-* else
-* switch
-* () =>
+- condition
+- ?
+- 'x'
+- :
+- 'y'
+- x
+- y
+- if
+- else
+- switch
+- () =>
  

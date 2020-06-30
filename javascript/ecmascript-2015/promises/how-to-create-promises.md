@@ -1,32 +1,24 @@
 ---
 author: alexjmackey
-
-levels:
-  - medium
-  - advanced
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-  - workout
-
 inAlgoPool: false
-
 links:
-  - '[MDN - Promises](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Promise){website}'
-
+  - >-
+    [MDN -
+    Promises](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Promise){website}
 ---
+
 # How To Create Promises
 
+
 ---
+
 ## Content
 
 When we create a new Promise we supply a function that has two arguments. These two arguments are mapped to special promise `resolve` and `reject` functions. The below code creates a new promise.
 
-```javascript
+```plain-text
 let p = new Promise((resolve, reject) => {
   // we call resolve() on success
   // we call reject() on fail
@@ -41,7 +33,7 @@ Let's pretend we want to call an external service to get a value, and on success
 
 Note: Instead of actually calling an external service we will use the `setTimeout` method to delay the return 2 seconds simulating making a remote call.
 
-```javascript
+```plain-text
 let p = new Promise((resolve, reject) => {
   setTimeout(() => {
     resolve("enki");
@@ -60,7 +52,7 @@ It is important to note that you cannot cancel a promise once it's being process
 
 Note that the code in the function body runs immediately. It is only the call to `resolve` or `reject` that is actually async:
 
-```javascript
+```plain-text
 let p = new Promise((resolve, reject) => {
   console.log("I run immediately!");
   resolve("I run later");
@@ -69,7 +61,9 @@ let p = new Promise((resolve, reject) => {
 
 Next let's look at how to handle errors.
 
+
 ---
+
 ## Practice
 
 Complete the missing words in the code such that the commented scenario stands true:
@@ -92,17 +86,19 @@ p.???(res => {
 // log '...from Enki!'
 ```
 
-* Promise
-* resolve
-* then
-* fulfill
-* reject
-* wait
-* try
-* promise
-* after
+- Promise
+- resolve
+- then
+- fulfill
+- reject
+- wait
+- try
+- promise
+- after
+
 
 ---
+
 ## Revision
 
 Promises take as input a function with two arguments. How are they usually called?
@@ -115,11 +111,11 @@ const p = new Promise(
 )
 ```
 
-* resolve
-* reject
-* return
-* error
-* throw
-* catch
-* then
+- resolve
+- reject
+- return
+- error
+- throw
+- catch
+- then
  

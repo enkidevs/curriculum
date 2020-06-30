@@ -16,7 +16,7 @@ The **default** case is the one in which no keyword is present. A variable with 
 
 This is what we have used until now:
 
-```java
+```plain-text
 String model;
 
 void start(){...}
@@ -28,7 +28,7 @@ Because of the class inheritance, all `public` methods and variables are inherit
 
 Every declaration of a class so far had the `public` keyword in it:
 
-```java
+```plain-text
 public class Car{
   public Car(...){}
  ...
@@ -42,7 +42,7 @@ public class FamilyCar{
 
 A testing class could access the public fields and methods like this:
 
-```java
+```plain-text
 public class Car{
   public String model;
   public void start(){...}
@@ -59,7 +59,7 @@ public class TestClass{
 
 One of the methods that should always be public is the `main()` method:
 
-```java
+```plain-text
 public static void main(String[] args){}
 ```
 
@@ -74,10 +74,10 @@ What do you have to do to use a public class from another package?
 
 ???
 
-* Import that package.
-* Nothing.
-* Extend the class.
-* Write a getter.
+- Import that package.
+- Nothing.
+- Extend the class.
+- Write a getter.
 
 
 ---
@@ -88,9 +88,9 @@ Which is the *default* keyword modifier?
 
 ???
 
-* no keyword
-* default
-* public
-* protected
-* modifier
+- no keyword
+- default
+- public
+- protected
+- modifier
  

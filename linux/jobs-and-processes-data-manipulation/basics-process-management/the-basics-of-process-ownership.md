@@ -1,29 +1,15 @@
 ---
 author: jfarmer
-
-levels:
-
-  - basic
-
-  - beginner
-
-aspects:
-  - introduction
-
 type: normal
-
 category: must-know
-
 inAlgoPool: false
-
-
-
-
 ---
 
 # The Basics of Process Ownership
 
+
 ---
+
 ## Content
 
 Every process is "owned" by a specific user.  A process owned by a user has permission to do anything that user would be able to do were they logged in directly.
@@ -36,15 +22,16 @@ Thus, when you log in the `login` command will fork a new process to run your sh
 
 By default only `root` processes can change ownership in this way.
 
+
 ---
+
 ## Revision
 
 Other than the owner of the process, who else has access to it? 
 
 ???
 
-* The root
-* No one else
-* All other users
-
+- The root
+- No one else
+- All other users
  

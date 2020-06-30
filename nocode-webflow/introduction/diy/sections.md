@@ -27,9 +27,9 @@ Looking at the image above, we have two sections. One for the stuffed animals co
 
 There are several ways of adding a new section:
 
-* Click anywhere on the canvas and left-click a section element from the `Add Elements` panel to add it to the previously clicked position.
-* Drag and drop a section element from the `Add Elements` panel anywhere on the canvas.
-* Drag and drop a section element from the `Add Elements` panel to a position in the `Navigator`.
+- Click anywhere on the canvas and left-click a section element from the `Add Elements` panel to add it to the previously clicked position.
+- Drag and drop a section element from the `Add Elements` panel anywhere on the canvas.
+- Drag and drop a section element from the `Add Elements` panel to a position in the `Navigator`.
 
 Example with drag and drop:
 
@@ -44,10 +44,10 @@ Which of the following can't be used to add sections?
 
 ???
 
-* The dashboard.
-* The navigator.
-* The canvas.
-* The element panel.
+- The dashboard.
+- The navigator.
+- The canvas.
+- The element panel.
 
 
 ---
@@ -58,8 +58,8 @@ Which of these is not the correct way of adding a section element?
 
 ???
 
-* Right-click a position you want to add a section element on the canvas to open a menu and select `insert -> Add Elements -> Section element`.
-* Click anywhere on the canvas and left-click a section element from the `Add Elements` panel to add it to the previously clicked position.
-* Drag and drop a section element from the `Add Elements` panel to a position in the `Navigator`.
-* Drag and drop a section element from the `Add Elements` panel anywhere on the canvas.
+- Right-click a position you want to add a section element on the canvas to open a menu and select `insert -> Add Elements -> Section element`.
+- Click anywhere on the canvas and left-click a section element from the `Add Elements` panel to add it to the previously clicked position.
+- Drag and drop a section element from the `Add Elements` panel to a position in the `Navigator`.
+- Drag and drop a section element from the `Add Elements` panel anywhere on the canvas.
  

@@ -1,32 +1,19 @@
 ---
 author: kapnobatai136
-
-levels:
-
-  - basic
-  
-  - medium
-  
-aspects:
-
-  - workout
-
-  - deep
-
 type: normal
-
 category: tip
-
 ---
 
 # Value types and the initial state
 
+
 ---
+
 ## Content
 
 Let's start this insight by taking a look at an example:
 
-```jsx
+```plain-text
 function Person() {
   // We initiate the state with null
   const [info, setInfo] = useState(null);
@@ -54,7 +41,8 @@ function Person() {
 Normally, you would expect this function to work without a problem. This is a common mistake because while the data is being fetched though the `useEffect()` hook, the component is rendered with the initial state (remember, hooks run at the end of render). In our case, the initial state is `null` but we try to read a property off it as if it was an object. We are effectively trying to access `null.name` and `null.age`, which do not exist. Here are two possible ways of overcoming this issue:
 
 1. Properly defining the initial state:
-```jsx
+
+```plain-text
 function Person() {
   // we expect the info state
   // to be an object
@@ -79,7 +67,8 @@ function Person() {
 ```
 
 2. Use a loading flag while waiting for the API call:
-```js
+
+```plain-text
 function Person() {
   const [info, setInfo] = useState(null);
   const [isLoading, setIsLoading] = useState(info === null);
@@ -108,12 +97,14 @@ function Person() {
 }
 ```
 
+
 ---
+
 ## Practice
 
 What will be the `state` of the `<Test>` component?
 
-```jsx
+```plain-text
 function Test() {
   const [state, setState] = useState(0);
 
@@ -127,7 +118,8 @@ function Test() {
 
 ???
 
-* `0`
-* `1`
-* `null`
-* `undefined`
+- `0`
+- `1`
+- `null`
+- `undefined`
+ 

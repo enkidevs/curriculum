@@ -9,3 +9,5 @@ insights:
   - java-hello-world
   - compiling-and-running-java-code
  
+aspects:
+  - introduction

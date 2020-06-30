@@ -19,13 +19,13 @@ The "Reuse Recorded Resolution" tool (`rerere`) permits git to remember how you 
 
 To turn on `rerere`:
 
-```bash
+```plain-text
 git config --global rerere.enabled true
 ```
 
 To see what `rerere` will remember as the resolution:
 
-```bash
+```plain-text
 git rerere diff
 -- - a/hello.js
 +++ b/hello.js
@@ -52,12 +52,12 @@ Practice: The command to enable the *Reuse Recorded Resolution* tool is:
   ???.??? ???
 ```
 
-* `git`
-* `config`
-* `--global`
-* `rerere`
-* `enabled`
-* `true`
+- `git`
+- `config`
+- `--global`
+- `rerere`
+- `enabled`
+- `true`
 
 
 ---
@@ -66,9 +66,9 @@ Practice: The command to enable the *Reuse Recorded Resolution* tool is:
 
 rerere(“Reuse Recorded Resolution”) ??? the way you ??? a ??? conflict and automatically resolves it for you.
 
-* saves
-* solved
-* merging
-* shares
-* pulling
+- saves
+- solved
+- merging
+- shares
+- pulling
  

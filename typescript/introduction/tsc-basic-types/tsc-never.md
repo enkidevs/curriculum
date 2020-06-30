@@ -2,24 +2,24 @@
 author: kapnobatai136
 type: normal
 category: must-know
-aspects:
-  - introduction
-  - workout
 links:
-  - '[Never Type](https://www.typescriptlang.org/docs/handbook/basic-types.html#never){documentation}'
-
+  - >-
+    [Never
+    Type](https://www.typescriptlang.org/docs/handbook/basic-types.html#never){documentation}
 ---
 
 # Never
 
+
 ---
+
 ## Content
 
 The type `never` is used to represent a value that **never** occurs.
 
 Let's take a look at a few examples:
 
-```ts
+```plain-text
 // the return type of a function
 // that never returns is "never"
 function neverEnd(): never {
@@ -47,17 +47,21 @@ function impossibleValue(value) {
 }
 ```
 
+
 ---
+
 ## Practice
 
 The `never` type is used for values that ???.
 
-* never occur
-* are undefined
-* are falsy
-* never return
+- never occur
+- are undefined
+- are falsy
+- never return
+
 
 ---
+
 ## Revision
 
 What is the return type of `enki`?
@@ -70,7 +74,8 @@ function enki(message: string): ??? {
 
 ???
 
-* `never`
-* `undefined`
-* `null`
-* `void`
+- `never`
+- `undefined`
+- `null`
+- `void`
+ 

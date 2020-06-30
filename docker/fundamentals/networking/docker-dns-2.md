@@ -21,7 +21,7 @@ For Docker in particular, this is useful in production to get around the fact th
 
 We can use an `nslookup` within our container to see a list of aliased containers for a particular DNS name.
 
-```bash
+```plain-text
 # create a new virtual network
 # (with default bridge driver)
 # and name it `enki`

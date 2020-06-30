@@ -19,7 +19,7 @@ All elements have tags, however, not all can be edited through their elements ta
 
 The elements that can be edited without creating a class are:
 
-```html
+```plain-text
 Body (all pages)
 H1 Heading
 H2 Heading
@@ -55,9 +55,9 @@ In the image above, we have selected the `Body` element in the `Navigator`, then
 
 In the `Selector`, there are 3 possible colors:
 
-* `Tags` labeled pink
-* `classes` labeled blue
-* `states` labeled green.
+- `Tags` labeled pink
+- `classes` labeled blue
+- `states` labeled green.
 
 As you can see in the image we have a blue `Body` and a pink `Body (All Pages)`. The blue one is a class and only corresponds to the selected page's body, whereas the pink one is a tag and corresponds to all body elements within our webpage.
 
@@ -84,8 +84,8 @@ Which color are HTML tags in Webflow?
 
 ???
 
-* Pink
-* Green
-* Blue
-* Red
+- Pink
+- Green
+- Blue
+- Red
  

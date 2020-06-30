@@ -1,33 +1,21 @@
 ---
 author: catalin
-
-levels:
-
-  - basic
-
-  - medium
-
-  - advanced
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-
 ---
 
 # The Redux store
 
+
 ---
+
 ## Content
 
 The **Redux** store is simply an object with few *methods* that holds the whole *state tree* of your application. The only way to change this state is by `dispatching` an action to the store.
 
 Although we have connected our component in the previous insight, we still need to create our main reducer:
 
-```js
+```plain-text
 // App.js
 function reducer(state, action) {
   return state;
@@ -38,7 +26,7 @@ The reducer works like any `reduce` function in JavaScript. You pass it a functi
 
 Now, to create your store you need to pass your main reducer to the `createStore` function:
 
-```js
+```plain-text
 // App.js
 import { createStore } from "redux";
 
@@ -51,14 +39,14 @@ const store = createStore(reducer);
 
 To get the current *state tree* of the application:
 
-```js
+```plain-text
 // App.js
 store.getState();
 ```
 
 To change the *state*, providing an action:
 
-```javascript
+```plain-text
 store.dispatch(myAction());
 ```
 
@@ -66,17 +54,19 @@ The `action` object must have a `type` that designates the type of the action wa
 
 Add a change listener that is called whenever an action is dispatched , and parts of the *state tree* may have changed:
 
-```javascript
+```plain-text
 store.subscribe(listener);
 ```
 
 The current **reducer** function can be changed:
 
-```javascript
+```plain-text
 store.replaceReducer(newReducer);
 ```
 
+
 ---
+
 ## Practice
 
 Create a Redux store and get the current state of the application:
@@ -88,24 +78,25 @@ let store =
 store.???();
 ```
 
-* `createStore`
-* `getState`
-* `newStore`
-* `store`
-* `state`
-* `currentState`
-* `retState`
+- `createStore`
+- `getState`
+- `newStore`
+- `store`
+- `state`
+- `currentState`
+- `retState`
+
 
 ---
+
 ## Revision
 
 What method is used to send an action to the store and to change the state?
 ???
 
-* `dispatch()`
-* `createStore()`
-* `getState()`
-* `subscribe()`
-* `replaceReducer()`
-
-
+- `dispatch()`
+- `createStore()`
+- `getState()`
+- `subscribe()`
+- `replaceReducer()`
+ 

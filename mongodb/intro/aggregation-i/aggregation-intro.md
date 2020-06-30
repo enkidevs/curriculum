@@ -1,41 +1,35 @@
 ---
 author: Stefan-Stojanovic
-
-levels:
-  - beginner
-  - basic
-
-aspects:
-  - introduction
-  - new
-
 type: normal
-
 category: must-know
-
 ---
 
 # What Is Aggregation?
 
+
 ---
+
 ## Content
 
 Aggregations are operations that look through a database or collection, process the data in various ways and return a computed result as a single document. How the result is computed depends on which operators and stages are used in the aggregation.
 
 There are three ways to perform aggregations in MongoDB:
-  - Aggregation pipeline
-  - Map-reduce function
-  - Single-purpose aggregation methods
+
+- Aggregation pipeline
+- Map-reduce function
+- Single-purpose aggregation methods
 
 In this workout, we will only discuss the aggregation pipeline.
 
 The syntax for aggregating a collection is: 
-```js
+
+```plain-text
 db.collection.aggregate(pipeline, options)
 ```
 
 The syntax for aggregating a database is:
-```js
+
+```plain-text
 db.aggregate(pipeline, options)
 ```
 
@@ -45,13 +39,15 @@ The aggregation pipeline is where all the documents from a collection and/or a d
 
 For instance, let's say we have a collection named `pokemon` with 500 pokémon where each one has a `power` field. Now, we want to find and display the pokémon whose `power` is smaller than or equal to 200. We can do so like this:
 
-```javascript
+```plain-text
 db.pokemon.aggregate([
   { $match: { power: { $lte: 200 } } }
 ])
 ```
+
 Output:
-```javascript
+
+```plain-text
 {
   "_id": ObjectId(
     "5d9d8b8c0b24990f1939820f"
@@ -83,7 +79,9 @@ The `$match` pipeline stage is used to filter through a database or collection a
 
 The `$match` pipeline stage is similar to the `find()` querying method, but it can be used inside the `aggregate()` method. 
 
+
 ---
+
 ## Practice
 
 Which aggregation pipeline stage is used to filter through and only aggregate fields matching a specified value?
@@ -92,12 +90,14 @@ Which aggregation pipeline stage is used to filter through and only aggregate fi
 ???
 ```
 
-* `$match`
-* `$count`
-* `$select`
-* `$only`
+- `$match`
+- `$count`
+- `$select`
+- `$only`
+
 
 ---
+
 ## Revision
 
 Aggregate the `pokemon` collection and only match pokémon whose power level is greater than or equal to `101`.
@@ -108,10 +108,11 @@ db.pokemon.???([
 ])
 ```
 
-* `aggregate`
-* `$match`
-* `$gte`
-* `$lte`
-* `$filter`
-* `$gt`
-* `match`
+- `aggregate`
+- `$match`
+- `$gte`
+- `$lte`
+- `$filter`
+- `$gt`
+- `match`
+ 

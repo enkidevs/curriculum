@@ -21,7 +21,7 @@ For example, the branch `master` could be for stable code and `develop` for test
 
 You could create a fix to a new issue on the topic branch `iss14`. You could merge this with `develop` and test its stability:
 
-```bash
+```plain-text
 git checkout develop
 git merge iss14
 # merge into develop
@@ -39,7 +39,7 @@ This can be helpful for large, complex projects.
 
 For complex projects, the best practice is to work on ??? .
 
-* auxiliary branches        
-* master branch
-* a single other branch
+- auxiliary branches        
+- master branch
+- a single other branch
  

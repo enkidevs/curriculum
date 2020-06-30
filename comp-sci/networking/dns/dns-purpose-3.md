@@ -18,8 +18,8 @@ links:
 
 Only some sections of a URL or email address are recognized by DNS. Take these two examples:
 
-* `bill@dollaDollaBills.com`
-* `https://www.google.com/search`
+- `bill@dollaDollaBills.com`
+- `https://www.google.com/search`
 
 Both of these have *more* information than DNS is responsible for. In the first of these two examples, `bill@dollaDollaBills.com`, only the portion after the `@` symbol is relevant to DNS. DNS needs to know the IP address of `dollaDollaBills.com`, but DNS doesn't care about bill -- that is the SMTP (email) servers responsibility.
 
@@ -36,11 +36,11 @@ Which of the following values can be mapped to an IP address using DNS?
 
 ???
 
-* [www.tebs-lab.com](http://www.tebs-lab.com)
-* [someone_special@gmail.com](mailto:someone_special@gmail.com)
-* <https://tebs-game-of-life.com/conways-editor/conways-editor.html>
-* .gov
-* www.facebook
+- [www.tebs-lab.com](http://www.tebs-lab.com)
+- [someone_special@gmail.com](mailto:someone_special@gmail.com)
+- <https://tebs-game-of-life.com/conways-editor/conways-editor.html>
+- .gov
+- www.facebook
 
 
 ---
@@ -53,9 +53,9 @@ Which subset of this URL can be mapped to an IP address using DNS?
 
 ???
 
-* [www.tebs-game-of-life.com](http://www.tebs-game-of-life.com)
-* <https://www.tebs-game-of-life.com/conways-editor/conways-editor.html>
-* /conways-editor/conways-editor.html
-* https://
-* www.tebs-game-of-life
+- [www.tebs-game-of-life.com](http://www.tebs-game-of-life.com)
+- <https://www.tebs-game-of-life.com/conways-editor/conways-editor.html>
+- /conways-editor/conways-editor.html
+- https://
+- www.tebs-game-of-life
  

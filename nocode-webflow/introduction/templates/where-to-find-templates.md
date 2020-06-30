@@ -30,7 +30,7 @@ The number of templates located on Webflow is constantly increasing over time gi
 
 Webflow provides ??? templates.
 
-* both premium and free
-* only premium
-* only free
+- both premium and free
+- only premium
+- only free
  

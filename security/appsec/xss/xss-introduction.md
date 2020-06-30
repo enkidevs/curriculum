@@ -23,7 +23,7 @@ A malicious user embeds HTML/JavaScript in a form (such as a search bar or comme
 
 Take for example the mockup form I've create below...
 
-```javascript
+```plain-text
 Add a Comment Below:
 ===
 Hi, great site. Too bad I hacked it!
@@ -46,10 +46,10 @@ This method can be used to steal cookies-- a chunk of data used in authenticatin
 
 Cross Site Scripting can be used to steal ???-- a chunk of data used in authenticating a user.
 
-* cookies
-* usernames
-* passwords
-* cupcakes
+- cookies
+- usernames
+- passwords
+- cupcakes
 
 
 ---
@@ -69,9 +69,9 @@ Hi, great site. Too bad I hacked it!
 [SEND]
 ```
 
-* script
-* window
-* global
-* blink
-* h1
+- script
+- window
+- global
+- blink
+- h1
  

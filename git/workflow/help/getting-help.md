@@ -18,7 +18,7 @@ If ever in need, you can easily access the manual pages (**manpage**) of **Git**
 
 There are three ways to access the manpage for a command:
 
-```bash
+```plain-text
 git help <verb>
 git <verb> --help
 man git-<verb>
@@ -28,7 +28,7 @@ Note how in the last command, using the `man` command, the syntax enforced is `g
 
 For example to get the manpage of the `clone` command you can run:
 
-```bash
+```plain-text
 git help clone
 git clone --help
 man git-clone
@@ -53,11 +53,11 @@ Complete the command such that it will show you the *manpage* of `git branch` co
 ??? ???-???
 ```
 
-* `man`
-* `git`
-* `branch`
-* `help`
-* `--help`
+- `man`
+- `git`
+- `branch`
+- `help`
+- `--help`
 
 
 ---
@@ -70,9 +70,9 @@ What flag can you use after a git command to show its documentation?
 git clone ???
 ```
 
-* `--help`
-* `--manpage`
-* `help`
-* `--man`
-* `--info`
+- `--help`
+- `--manpage`
+- `help`
+- `--man`
+- `--info`
  

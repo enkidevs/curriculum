@@ -17,14 +17,14 @@ links:
 
 In addition to **Git**'s distributed version control and source code management capabilities, **GitHub** provides:
 
-* access control (repositories can be either `public` or `private`)
-* bug tracking
-* feature requests
-* task management
-* wiki pages for all projects
-* kanban boards
-* statistics
-* static website hosting etc.
+- access control (repositories can be either `public` or `private`)
+- bug tracking
+- feature requests
+- task management
+- wiki pages for all projects
+- kanban boards
+- statistics
+- static website hosting etc.
 
 Because projects uploaded to **GitHub** are not required to meet the **Open Source Definition**, users are advised to choose the license of every project individually to meet their specific needs.
 
@@ -37,9 +37,9 @@ Founded in `2007` and continuously improving, **GitHub** is the most notable pla
 
 What is GitHub ? ???
 
-* an online hosting service
-* a version control service
-* a git clone
+- an online hosting service
+- a version control service
+- a git clone
 
 
 ---
@@ -48,8 +48,8 @@ What is GitHub ? ???
 
 GitHub is just ??? Git repositories.
 
-* a hosting solution for
-* an alternative to
-* another name for
-* a newer implementation for
+- a hosting solution for
+- an alternative to
+- another name for
+- a newer implementation for
  

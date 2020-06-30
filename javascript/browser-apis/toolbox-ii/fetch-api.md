@@ -1,36 +1,17 @@
 ---
 author: tommarshall
-
-levels:
-
-  - basic
-
-  - advanced
-
-  - medium
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-  - new
-  - workout
-
-standards:
-  javascript.browser-connect-to-remote-hosts.3: 10
-
 links:
-
-  - '[developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch){website}'
-
-
+  - >-
+    [developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch){website}
 ---
 
 # Fetch API
 
+
 ---
+
 ## Content
 
 The *Fetch API* provides an interface to fetch resources from across a network.
@@ -42,7 +23,8 @@ The `fetch()` method is used for making requests and fetching resources. It take
 It provides a more powerful and flexible interface than `XMLHttpRequest`.
 
 Example of fetch response handling:
-```javascript
+
+```plain-text
 var myHeaders = new Headers();
 
 var myOptions = { method: 'GET',
@@ -61,22 +43,26 @@ fetch('/the/url', myOptions)
   });
 ```
 
+
 ---
+
 ## Practice
 
 What is the required argument the `fetch()` takes? ???
 
-* The path to the resource you want to fetch.
-* The network name.
-* An int value stating the number of files to fetch.
+- The path to the resource you want to fetch.
+- The network name.
+- An int value stating the number of files to fetch.
+
 
 ---
+
 ## Revision
 
 Which interface for fetching resources supports promises natively?
 
 ???
 
-* `fetch`
-* `XMLHttpRequest`
+- `fetch`
+- `XMLHttpRequest`
  

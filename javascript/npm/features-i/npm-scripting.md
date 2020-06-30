@@ -1,44 +1,26 @@
 ---
 author: mihaiberq
-
-levels:
-  - beginner
-  - basic
-  - medium
-  - advanced
-
 type: normal
-
 category: how to
-
 parent: how-npm3-handles-dependencies
-
-standards:
-  javascript.npm-tasks-and-modules-manager.0: 30
-  javascript.npm-tasks-and-modules-manager.3: 30
-
 tags:
   - introduction
   - workout
   - deep
-
-aspects:
-  - introduction
-  - workout
-  - deep
-
-
 ---
+
 # Npm Scripting
 
+
 ---
+
 ## Content
 
 `npm` is a lot more than just a package manager for Node. It supports scripting using the `run-script` (or the abbreviated `run`) option.
 
 Scripts can be specified inside *package.json*:
 
-```javascript
+```plain-text
 {
   "name": "enki",
   // ...
@@ -50,14 +32,14 @@ Scripts can be specified inside *package.json*:
 
 And invoked using:
 
-```bash
+```plain-text
 npm run myScript
 firstScript
 ```
 
 Why is this great? Say you are using CSS preprocessors like *LESS* or *SASS* and you have to compile them into *CSS* files. All you have to do is specify `less` as a *devDependency* and include this script:
 
-```json
+```plain-text
 "scripts": {
   "build-less": `lessc app/less/main.less
       prod/css/main.css`
@@ -66,7 +48,7 @@ Why is this great? Say you are using CSS preprocessors like *LESS* or *SASS* and
 
 Running:
 
-```bash
+```plain-text
 npm run build-less
 ```
 
@@ -74,7 +56,7 @@ Will produce the *.css* file.
 
 Another cool thing about scripting is that you can combine multiple sub-scripts into a single one like so:
 
-```json
+```plain-text
 "scripts": {
   "build-less":`lessc app/less/main.less
       prod/css/main.css`,
@@ -87,7 +69,9 @@ Another cool thing about scripting is that you can combine multiple sub-scripts 
 
 This will speed up the process as two subshells will be invoked to resolve each build command (asynchronously) because of the `&` token.
 
+
 ---
+
 ## Practice
 
 Fill in the following `package.json` file such that it has 2 scripts:
@@ -103,26 +87,28 @@ One called `test` which will run `jest` and another called `test:ci` which will 
 }
 ```
 
-* scripts
-* test
-* jest
-* test:ci
-* npm run test
-* -- runInBand
-* script
-* node-scripts
-* testing
-* test --
-* runInBand
-* run test
-* npm
+- scripts
+- test
+- jest
+- test:ci
+- npm run test
+- -- runInBand
+- script
+- node-scripts
+- testing
+- test --
+- runInBand
+- run test
+- npm
+
 
 ---
+
 ## Revision
 
-
 Given the following is in your `package.json`, execute the script called `dailyStats`
-```javascript
+
+```plain-text
 {
   "name": "enki",
   // ...
@@ -134,11 +120,9 @@ Given the following is in your `package.json`, execute the script called `dailyS
 
 ??? ??? ???
 
-* npm
-* run
-* dailyStats
-* script
-* exec
- 
- 
+- npm
+- run
+- dailyStats
+- script
+- exec
  

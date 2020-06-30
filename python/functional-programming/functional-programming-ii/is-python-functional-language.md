@@ -1,27 +1,18 @@
 ---
 author: stefkn
-
-levels:
-  - beginner
-  - basic
-  - medium
-
-aspects:
-  - obscura
-
 type: normal
-
 category: must-know
-
 links:
-  - '[Is Python a functional language?](https://www.quora.com/Is-Python-a-functional-language){website}'
-
-
+  - >-
+    [Is Python a functional
+    language?](https://www.quora.com/Is-Python-a-functional-language){website}
 ---
 
 # Is Python a Functional Language?
 
+
 ---
+
 ## Content
 
 Previously, we've made references to different programming languages. Some we've referred to as *pure* functional languages, such as Haskell. This begs the question: *"Is Python a functional language?"*
@@ -30,19 +21,24 @@ In short: **No**. Python is not considered a functional programming language. Th
 
 Python was not originally designed to support functional programming, and these changes were added around 1993, two years or so after its release.[1] However, over the years more support and demand for functional programming abilities have meant that the Python `functools` module is moderately popular and well-used, especially as an easy introduction to functional programming concepts.
 
+
 ---
+
 ## Practice
 
 Is Python considered a functional language?
 
 ???
 
-* No
-* Yes
-* Sometimes
+- No
+- Yes
+- Sometimes
+
 
 ---
+
 ## Footnotes
+
 [1:How Python got Functional]
 Python only acquired the functional methods `reduce()` `filter()` and `map()` (allegedly) after a Lisp hacker who missed them from that language submitted working patches. Additionally, Guido van van Rossum, the creator of Python also known as the BDFL (Benevolent Dictator For Life) once called for their removal from Python 3 in 2005. While the foundations may have been rocky, the `functools` module is well-used and presents an easy way for anyone new to functional programming concepts to introduce themselves to the idea before jumping to more functionally-focused languages such as Haskell.
  

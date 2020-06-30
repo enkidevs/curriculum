@@ -1,32 +1,30 @@
 ---
 author: Stefan-Stojanovic
-
-aspects:
-  - introduction
-
 type: normal
-
 category: must-know
-
-links:
-
+links: null
 ---
+
 # Querying An Array With The $all Operator
+
+
 ---
+
 ## Content
 
 Now that we know how to query an array for a single value, let's increase the value count and add additional query operators for a more precise query.
 
 Querying the same database as before [1].
 
-```js
+```plain-text
 db.pokedex.find({
   spells: ["Seed Bomb", "Bite", "Hydro-Pump"]
 });
 ```
+
 The above method searches for any documents that contain the `spells` field and looks only for the documents that have "Seed Bomb" as the first value, "Bite" as the second and "Hydro-Pump" as the third value. Giving us the output:
 
-```javascript
+```plain-text
 {
   _id: ObjectId("5d9d8a6a0b24990f19398209"),
   name: "Bulbasaur",
@@ -40,7 +38,7 @@ If we wanted to search which array contains the above 3 values, regardless of th
 
 **Note:** The `$all` operator behaves similarly to the `$and` operator (discussed in the `Querying Operators` workout).
 
-```javascript
+```plain-text
 db.pokedex.find({
   spells: {
     $all: ["Seed Bomb", "Bite", "Hydro-Pump"]
@@ -49,7 +47,8 @@ db.pokedex.find({
 ```
 
 Output:
-```javascript
+
+```plain-text
 {
   _id: ObjectId("5d9d8a6a0b24990f19398209"),
   name: "Bulbasaur",
@@ -67,7 +66,8 @@ Output:
 ```
 
 **Note:** The below two methods give the exact same result.(Any documents with a `spells` array containing the "Bite" value)
-```javascript
+
+```plain-text
 // Method 1
 db.pokedex.find({
   spells: {
@@ -80,8 +80,10 @@ db.pokedex.find({
   spells: "Bite" 
 })
 ```
+
 Output:
-```javascript
+
+```plain-text
 {
   _id: ObjectId("5d9d8a6a0b24990f19398209"),
   name: "Bulbasaur",
@@ -104,17 +106,22 @@ Output:
   spells: ["Bite"]
 }
 ```
+
 However, the method below:
-```javascript
+
+```plain-text
 db.pokedex.find({
   spells: {
     $all: "Bite"
   }
 })
 ```
+
 is invalid and gives an error.
 
+
 ---
+
 ## Practice
 
 Find all documents in the `pokedex` collection that have "Poison" and "Growth" values in any order in their `spells` array.
@@ -127,20 +134,22 @@ db.pokedex.find({
 })
 ```
 
-* `spells`
-* `$all`
-* `["Poison", "Growth"]`
-* `"Poison", "Growth"`
-* `.search`
-* `Spells`
+- `spells`
+- `$all`
+- `["Poison", "Growth"]`
+- `"Poison", "Growth"`
+- `.search`
+- `Spells`
 
 
 ---
+
 ## Footnotes
 
 [1:Previous Documents]
 Here are the documents used in the previous insight:
-```javascript
+
+```plain-text
 // Previous Documents
 {
   _id: ObjectId("5d9d8a6a0b24990f19398209"),
@@ -164,3 +173,4 @@ Here are the documents used in the previous insight:
   spells: ["Bite"]
 }
 ```
+ 

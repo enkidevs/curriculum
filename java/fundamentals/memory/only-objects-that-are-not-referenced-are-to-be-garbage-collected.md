@@ -20,21 +20,21 @@ For garbage collection to work on a specific object, any other objects that act 
 
 For example:
 
-```java
+```plain-text
 Document doc = readXmlDocument();
 
 ```
 
 Here a `Document` object was created by reading an `XML` from memory.
 
-```java
+```plain-text
 Node child = 
    doc.getDocumentElement().getFirstChild();
 ```
 
 A `Node` object was created by getting the first child element from the `DOM document`.
 
-```java
+```plain-text
 doc.removeNode(child);
 doc = null;
 ```

@@ -37,7 +37,7 @@ It's important to note that image layers are cached and can be reused between va
 
 This is indicated by the `"Layer already exists"` message in the console output when pushing or pulling the image from a registry:
 
-```bash
+```plain-text
 docker image pull enki:example
 a82b6c66a6d4: Layer already exists
 1941ca4a7a84: Layer already exists
@@ -51,7 +51,7 @@ We can use the `docker history <IMAGE_ID>` command to show the layers of changes
 
 For example:
 
-```bash
+```plain-text
 docker history nginx
 ```
 
@@ -82,10 +82,10 @@ Images are built using a special configuration file (commonly) named Dockerfile 
 
 Docker images are composed of ???
 
-* layers
-* containers
-* pixels
-* fragments
+- layers
+- containers
+- pixels
+- fragments
 
 
 ---
@@ -96,8 +96,8 @@ A Docker image can be modified.
 
 ???
 
-* false
-* true
+- false
+- true
 
 
 ---

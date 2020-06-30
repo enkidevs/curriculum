@@ -22,7 +22,7 @@ All image `<img>` elements are encouraged to use `alt` attributes which specifie
 
 Example:
 
-```html
+```plain-text
 <img src="rainforest.pngrainforest.jpg"
     alt="Beautiful rain forest
          thick with trees">
@@ -38,14 +38,14 @@ Using the `alt` attribute is important for every `img` element for page validati
 
 The `alt` attribute can also be left empty and completely valid as this is helpful for indicating that the image is not a key part of the content:
 
-```html
+```plain-text
 <img src="background-image.png"
       alt="">
 ```
 
 If your `alt` attribute needs to contain acronyms (like "USA"), you would write it as:
 
-```html
+```plain-text
 `<img src="usa-map.jpg"
     alt="United States of America map">`
 ```
@@ -54,7 +54,7 @@ The reason is, you want to prevent screen readers from reading any acronyms as s
 
 If you really must use acronyms you should add a space after each letter:
 
-```html
+```plain-text
 `<img src="usa-map.jpg"
     alt="U S A map">`
 ```
@@ -68,10 +68,10 @@ What is a best way to treat alt tags for images that are used in the interface a
 
 ???
 
-* Use an empty alt attribute.
-* Write the description only in lowercase.
-* Write the description only in uppercase.
-* Don't use an alt attribute.
+- Use an empty alt attribute.
+- Write the description only in lowercase.
+- Write the description only in uppercase.
+- Don't use an alt attribute.
 
 
 ---
@@ -82,11 +82,11 @@ Which description(s) of using image alt attributes is not true:
 
 ???
 
-* Image will not display properly without an alt.
-* Required on every image for page validation.
-* Important to help support screen readers.
-* Useful for webpage viewer when image path is broken.
-* Linked image descriptions should be of the destination and not the image itself.
+- Image will not display properly without an alt.
+- Required on every image for page validation.
+- Important to help support screen readers.
+- Useful for webpage viewer when image path is broken.
+- Linked image descriptions should be of the destination and not the image itself.
 
 
 ---
@@ -102,10 +102,10 @@ Hint: The best way helps screen readers read the alt properly as it prevents "IT
 
 ???
 
-* U S A
-* USA
-* usa
-* U.S.A
-* U-S-A
-* "U""S""A"
+- U S A
+- USA
+- usa
+- U.S.A
+- U-S-A
+- "U""S""A"
  

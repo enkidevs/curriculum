@@ -1,24 +1,19 @@
 ---
 author: kapnobatai136
-
 type: normal
-
 category: must-know
-
-aspects:
-  - workout
-  - deep
-
 ---
 
 # Dependency array for the `useEffect()` hook
 
+
 ---
+
 ## Content
 
 Previously, you have learned how the `useEffect()` hook works, and how to apply it. Let's take a look at the following example:
 
-```js
+```plain-text
 function Enki() {
   // ...
   useEffect(() => {
@@ -33,7 +28,7 @@ function Enki() {
 
 By default, `useEffect()` is ran after the first and after every subsequent render. Sometimes, this might cause performance problems. In class components, this could've been solved by comparing `prevProps` and `prevState` with the `props` and `state` inside `componentDidUpdate()`:
 
-```js
+```plain-text
 class Enki extends React.Component {
   // ...
   componentDidUpdate(prevProps, prevState) {
@@ -54,7 +49,7 @@ class Enki extends React.Component {
 
 Because this functionality was commonly used, it was built into the `useEffect()` hook. Now, when using function components, you can skip effects if certain values haven't changed between re-renders. The code above can be re-written like so:
 
-```js
+```plain-text
 function Enki() {
   // ...
   useEffect(() => {
@@ -69,7 +64,9 @@ Now, after every render, React will compare the previous value of `item.count` w
 
 It is important to include all the values from the component's scope (`state` and `prop`s) that *change over time* and that *are used by the effect*. Otherwise, your code will compare stale values and result in undesired consequences (too many or not enough effect calls).
 
+
 ---
+
 ## Practice
 
 Complete the following code such that the effect is ran only when the `name` state changes:
@@ -84,19 +81,21 @@ function Test() {
 }
 ```
 
-* `useEffect`
-* `[name]`
-* `useState`
-* `[setName]`
-* `[name, setName]`
-* `[]`
+- `useEffect`
+- `[name]`
+- `useState`
+- `[setName]`
+- `[name, setName]`
+- `[]`
+
 
 ---
+
 ## Revision
 
 How would you reproduce the following code using function components?
 
-```js
+```plain-text
 class Revision extends React.Component {
   constructor(props) {
     super(props);
@@ -137,17 +136,19 @@ function C() {
 
 ???
 
-* A
-* B
-* C
+- A
+- B
+- C
+
 
 ---
+
 ## Footnotes
 
 [1: Object.is]
 Sometimes it is really difficult to find out if two values are actually the same value. When thinking of JavaScript, two objects are considered to have the same value if they have the same reference. This can be done through the `Object.is()` function, which is not the same as using the `==` operator (this applies coercion to both sides), or using the `===` operator (this treats `-0` and `+0` as being the same, also treats `Number.NaN` is not equal to `NaN`). Let's take a look at some examples:
 
-```js
+```plain-text
 Object.is('foo', 'foo'); // true
 Object.is('foo', 'bar'); // false
 Object.is([], []); // false
@@ -156,3 +157,4 @@ var bar = { a: 1 };
 Object.is(foo, foo); // true
 Object.is(foo, bar); // false
 ```
+ 

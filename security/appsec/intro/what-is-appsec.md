@@ -36,9 +36,9 @@ If you thought that AppSec isn't for you, maybe this will change your mind.
 
 AppSec typically involves fixing or ??? security vulnerabilitities.
 
-* preventing
-* propagating
-* protesting
+- preventing
+- propagating
+- protesting
 
 
 ---
@@ -50,9 +50,9 @@ The field of application security includes many different individuals working to
 
 Some examples include:
 
-* security researchers
-* bug bounty hunters
-* open-source reviewers
-* algorithm developers
-* engineers who are vigilant against common security flaws
+- security researchers
+- bug bounty hunters
+- open-source reviewers
+- algorithm developers
+- engineers who are vigilant against common security flaws
  

@@ -1,35 +1,17 @@
 ---
 author: catalin
-
-levels:
-
-  - basic
-
-  - medium
-
 type: normal
-
 category: how to
-aspects:
-  - introduction
-  - workout
-  - deep
-standards:
-  python.use-iteration-protocol.1: 10
-  python.native-types-operations.4: 10
-  python.use-comprehensions.0: 1000
-  python.use-comprehensions.2: 3000
-
 links:
-
-  - '[docs.python.org](https://docs.python.org/3.5/tutorial/datastructures.html#list-comprehensions){website}'
-
-
+  - >-
+    [docs.python.org](https://docs.python.org/3.5/tutorial/datastructures.html#list-comprehensions){website}
 ---
 
 # List comprehension
 
+
 ---
+
 ## Content
 
 **List comprehensions** are a concise way of creating lists, in a somewhat declarative style.
@@ -39,7 +21,8 @@ One common application is to create new lists whose items are the result of oper
 The syntax for this is to include between **square brackets** (`[] `) an expression followed by at least one `for` clause.
 
 Create a list of squares:
-```python
+
+```plain-text
 squares = [x ** 2 for x in \
 range(6)]
 print(squares)
@@ -48,14 +31,17 @@ print(squares)
 ```
 
 Expressions that consist of `tuples` must be parenthesized:
-```python
+
+```plain-text
 nr_square = [(x, x ** 2) \
 for x in range(4)]
 # nr_square [(0, 0), (1, 1),
 # (2, 4), (3, 9)]
 ```
+
 Note that `if` clauses are also accepted:
-```python
+
+```plain-text
 a = [x ** 2 for x in range(20) \
 if x % 5 == 0]
 # a = [0, 25, 100, 225]
@@ -65,9 +51,10 @@ if i * i < 50 ]
 # b = [0, 1, 2, 3, 4, 5, 6, 7]
 
 ```
+
 List comprehensions can contain complex expressions and nested functions:
 
-```python
+```plain-text
 from math import pi
 
 b = [str(round(pi, i)) \
@@ -78,7 +65,7 @@ for i in range(1, 5)]
 
 What makes it more powerful is that even the if clause can contain calls to functions that become part of the overall boolean expression. Simple example:
 
-```python
+```plain-text
 >>> def square(n): return n * n
 ...
 >>> square(5)
@@ -92,7 +79,9 @@ if square(i) < 50 ]
 
 ```
 
+
 ---
+
 ## Practice
 
 Use list comprehension to add one and divide by two [(x + 1) / 2] for all elements [x] that are not even:
@@ -103,26 +92,29 @@ x = [((x+1)/2) ??? x % 2 \
     ??? x ??? x in ???]
 ```
 
-* if
-* else
-* for
-* l
-* x
-* while
+- if
+- else
+- for
+- l
+- x
+- while
+
 
 ---
+
 ## Revision
 
 What will the list `x` look like after the following snippet is run?
 
-```python
+```plain-text
 l = [1,2,3,4,5]
 x = [x if x % 2 for x in l]
 ```
 
 ???
 
-* [1,3,5]
-* [1,3]
-* [2, 4]
-* [1,2,3,4,5]
+- [1,3,5]
+- [1,3]
+- [2, 4]
+- [1,2,3,4,5]
+ 

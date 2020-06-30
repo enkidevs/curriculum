@@ -1,18 +1,14 @@
 ---
 author: Stefan-Stojanovic
-
-aspects:
-  - introduction
-
 type: normal
-
 category: how to
-
 ---
 
 # Formating & Editing Shortcuts II
 
+
 ---
+
 ## Content
 
 `Ctrl + Shift + E` - `⌘ + Shift + E`
@@ -94,3 +90,4 @@ Format cell/s as an exponent.
 `Ctrl + /` - `⌘ + /`
 
 Clear all formatting from the selected cell/s.
+ 

@@ -1,37 +1,32 @@
 ---
 author: kapnobatai136
-
-levels:
-  - beginner
-
 type: normal
-
 category: must-know
-
 links:
-  - '[React Getting Started](https://facebook.github.io/react/docs/getting-started.html){website}'
-
+  - >-
+    [React Getting
+    Started](https://facebook.github.io/react/docs/getting-started.html){website}
 parent: why-use-react
-
-aspects:
-  - introduction
-
 ---
 
 # Intro Components
 
+
 ---
+
 ## Content
 
 One of the main concepts and the building block of React is the component.
 
 You can think of a component as a definition representing one or more UI elements. For example, a component can represent:
+
 - a header with an image
 - a list of links
 - a button
 
 Here's an example of a React component:
-```jsx
+
+```plain-text
 function App() {
   return (
     <div>
@@ -58,3 +53,4 @@ This component will display:
 Don't worry too much about components now as we will talk more about them in the following workouts.
 
 For now, it’s enough to understand that components in React represent definitions of UI elements.
+ 

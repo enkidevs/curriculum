@@ -1,17 +1,7 @@
 ---
 author: catalin
-
-levels:
-  - basic
-  - medium
-
-aspects:
-  - introduction
-
 type: normal
-
 category: must-know
-
 notes: >-
   Should always be the first insight presented within this topic?
 
@@ -22,11 +12,13 @@ notes: >-
   the more common way to use a generator is either to handle the exception via
   try/except, or to call it in a for loop, in which case the for statement
   handles the StopIteration and uses it to terminate the loop.
-
 ---
+
 # What are generators
 
+
 ---
+
 ## Content
 
 Generators are special **functions** that implement or generate **iterators**. 
@@ -36,7 +28,8 @@ Generators look like normal functions, but instead of the **return statement** t
 The `yield` statement tells the interpreter to store local variables and record the current position in the generator, so when another call is made to the generator, it **will resume from that saved location** and with the previous values of local variables intact.
 
 Consider this generator:
-```python
+
+```plain-text
 def test_generator():
     yield 1
     yield 2
@@ -45,25 +38,27 @@ def test_generator():
 g = test_generator()
 
 ```
+
 We can now iterate over `g` using the `next()` function:
-```python
+
+```plain-text
 print(next(g)) # 1
 print(next(g)) # 2
 print(next(g)) # 3
 print(next(g)) # StopIteration error
 ```
 
+
 ---
+
 ## Revision
 
 What statement is specific to generators instead of `return` ?
 
 ???
 
-
-* `yield`
-* `for`
-* `await`
-* `return`
-
+- `yield`
+- `for`
+- `await`
+- `return`
  

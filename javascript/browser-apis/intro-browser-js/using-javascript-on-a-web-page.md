@@ -1,26 +1,15 @@
 ---
 author: nem035
-
-levels:
-  - beginner
-
 type: normal
-
 category: must-know
-
 inAlgoPool: false
-
-standards:
-  javascript.javascript-syntax.2: 10
-
-aspects:
-  - introduction
-
-
 ---
+
 # Using JavaScript on a web page
 
+
 ---
+
 ## Content
 
 JavaScript is an interpreted language and needs a *host environment* such as a web browser to run (or in Node’s case, Google’s *v8 engine*).
@@ -29,7 +18,7 @@ There are a number of ways to use JavaScript on a web page.
 
 One way is inline with the **script** tag:
 
-```html
+```plain-text
 <script>
   console.log("hello");
 </script>
@@ -37,7 +26,7 @@ One way is inline with the **script** tag:
 
 Another, on HTML elements directly:
 
-```html
+```plain-text
 <input
   type="button"
   value="test"
@@ -50,13 +39,13 @@ The common approach is to separate our JavaScript code in another file.
 
 We can put our code in a file called *hello.js* (note we remove the script tags when we put JavaScript in another file):
 
-```javascript
+```plain-text
 console.log("hello");
 ```
 
 This script can then be referenced with the src attribute of the script tag:
 
-```html
+```plain-text
 <script 
   src="hello.js">
 </script>
@@ -64,13 +53,15 @@ This script can then be referenced with the src attribute of the script tag:
 
 We can even reference scripts hosted on another server – it's common to do this when working with third party libraries:
 
-```html
+```plain-text
 <script 
   src="http://www.enki.com/hello.js">
 </script>
 ```
 
+
 ---
+
 ## Practice
 
 Complete the missing gaps in the following HTML snippet, such that the JavaScript code contained by an `enki.js` file will be run via a script tag:
@@ -81,16 +72,18 @@ Complete the missing gaps in the following HTML snippet, such that the JavaScrip
 ???
 ```
 
-* `<script`
-* `src`
-* `enki.js`
-* `>`
-* `</script>`
-* `/>`
-* `<script />`
-* `<script>`
+- `<script`
+- `src`
+- `enki.js`
+- `>`
+- `</script>`
+- `/>`
+- `<script />`
+- `<script>`
+
 
 ---
+
 ## Revision
 
 Complete the missing HTML tags to make the JavaScript code run directly on the web page.
@@ -101,10 +94,10 @@ Complete the missing HTML tags to make the JavaScript code run directly on the w
 ???
 ```
 
-* `<script>`
-* `</script>`
-* `<script/>`
-* `/>`
-* `<script`
-* `src=`
+- `<script>`
+- `</script>`
+- `<script/>`
+- `/>`
+- `<script`
+- `src=`
  

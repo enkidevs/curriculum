@@ -23,7 +23,7 @@ Since bind mounts are host-specific, they cannot be part of a Dockerfile and hav
 
 Similarly to volumes, a bind mount is created with the `-v` flag, but with bind-mounts we pass in a full path instead of a name.
 
-```bash
+```plain-text
 docker container run \
   -v ~/enki/local_path:/path/container mysql
 ```
@@ -35,10 +35,10 @@ docker container run \
 
 A bind mount is ???.
 
-* a file or directory on the host machine directly mounted onto a file path within a container
-* a hard-drive on the host machine that is virtually mounted into a container
-* an IP address and a port bound from the host machine to the container
-* an ftp connection mounted onto a file path within a container
+- a file or directory on the host machine directly mounted onto a file path within a container
+- a hard-drive on the host machine that is virtually mounted into a container
+- an IP address and a port bound from the host machine to the container
+- an ftp connection mounted onto a file path within a container
 
 
 ---
@@ -52,9 +52,9 @@ docker container run \
   ??? ???:??? nginx
 ```
 
-* -v
-* ~/local/data
-* /data
-* -b
-* --bind
+- -v
+- ~/local/data
+- /data
+- -b
+- --bind
  

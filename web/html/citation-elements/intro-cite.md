@@ -1,26 +1,18 @@
 ---
 author: Stefan-Stojanovic
-
-levels:
-  - beginner
-  - basic
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-  - workout
-  - deep
-
 links:
-  - '[HTML <cite> Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/cite){documentation}'
-
+  - >-
+    [HTML <cite>
+    Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/cite){documentation}
 ---
+
 # The `<cite>` Element
 
+
 ---
+
 ## Content
 
 The HTML `<cite>` element is used to describe a reference of a cited **creative work**. This element needs to contain either the title or the URL of the cited work.
@@ -37,7 +29,7 @@ What falls under creative work:
 - Any original artwork
 - Any research paper
 
-```html
+```plain-text
 <p>
   More information about Enki here
   <cite>
@@ -52,27 +44,30 @@ The cited URL under the `<cite>` element will, by default, display in <i>italic<
 
 [View CodePen](https://codepen.io/enkidevs/pen/xzyKBz)
 
+
 ---
+
 ## Practice
 
 Which statement about the `<cite>` element is not correct?
 
 ???
 
-* displays as a block element
-* used for indicating a citation
-* default font style is italic
-* works such as book, essay, poem, & script
-* works such as movie, play, song, & TV show.
-* displays as an inline element
+- displays as a block element
+- used for indicating a citation
+- default font style is italic
+- works such as book, essay, poem, & script
+- works such as movie, play, song, & TV show.
+- displays as an inline element
 
 
 ---
+
 ## Revision
 
 What HTML element is best to use in this example?
 
-```html
+```plain-text
 <p>
 The 1939 movie
 <tag>The Wizard of Oz</tag>
@@ -90,21 +85,25 @@ and Technicolor.
 
 tag = ???
 
-* `<cite>`
-* `<quote>`
-* `<blockquote>`
-* `<q>`
-* `<movie>`
-* `<title>`
+- `<cite>`
+- `<quote>`
+- `<blockquote>`
+- `<q>`
+- `<movie>`
+- `<title>`
+
 
 ---
+
 ## Quiz
 
 ### How much do you know about semantic HTML elements?
 
+
 Which HTML element is used to reference the title of a body of work (like a book, song, movie, painting, etc.)?
 
-* `<cite>`
-* `<quote>`
-* `<blockquote>`
-* `<q>`
+- `<cite>`
+- `<quote>`
+- `<blockquote>`
+- `<q>`
+ 

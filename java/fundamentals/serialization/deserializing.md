@@ -17,7 +17,7 @@ links:
 
 Following from the previous insight, lets now deserialize our Car object:
 
-```java
+```plain-text
 import java.io.*;
 public class carDeserialization {
   public static void main(String [] args) {
@@ -53,13 +53,13 @@ So `bmw.model` is `"BMW 840Ci"` and `bmw.topSpeed` is 320.
 
 It is especially important to use `try` and `catch` blocks when deserializing an object as we
 
-* Might fail upon loading `bmw.ser` file
-* JVM might not find byte code for the `Car` class
+- Might fail upon loading `bmw.ser` file
+- JVM might not find byte code for the `Car` class
 
 **NOTE:**
 
-* `in.readObject()` was casted to `Car`
-* If the object had a `transient` field then upon deserialization, the new field will be assigned with default values such as: `null` for an *object*, `0` for an *int*, `false` for a *Boolean*, etc.
+- `in.readObject()` was casted to `Car`
+- If the object had a `transient` field then upon deserialization, the new field will be assigned with default values such as: `null` for an *object*, `0` for an *int*, `false` for a *Boolean*, etc.
 
 
 ---
@@ -68,7 +68,7 @@ It is especially important to use `try` and `catch` blocks when deserializing an
 
 Consider the following:
 
-```java
+```plain-text
 class Engine {
     private int numberOfCilinders;
     private int volumeInLitres;
@@ -88,9 +88,9 @@ Suppose we receive a `.ser` file which stores information about some `Car` objec
 
 ???
 
-* It will be `null`
-* Deserialing an object with `transient` filed will cause a program termination
-* It will be a random address value
+- It will be `null`
+- Deserialing an object with `transient` filed will cause a program termination
+- It will be a random address value
 
 
 ---
@@ -105,7 +105,7 @@ What is the correct order of deserializing a file?
 
 3. ???
 
-* create an empty object
-* open a suitable to read as an input stream file
-* deserialize the file (i.e. fill our empty object with information)
+- create an empty object
+- open a suitable to read as an input stream file
+- deserialize the file (i.e. fill our empty object with information)
  

@@ -1,33 +1,26 @@
 ---
 author: jfarmer
-
-aspects:
-  - introduction
-  - workout
-
 type: normal
-
 category: must-know
-
 tags:
   - introduction
   - shell
   - environment
   - variables
-
-
 ---
 
 # Shell vs Environment
 
+
 ---
+
 ## Content
 
 Shell and environment variables are slightly different.
 
 You can define a new shell variable using the `=` operator:
 
-```shell
+```plain-text
 drink="water"
 echo $drink
 # water
@@ -39,7 +32,7 @@ They are commonly used in scripts to make calculations and to store intermediate
 
 Shell variables can be converted into environment variables with the `export` command:
 
-```shell
+```plain-text
 # export DRINK shell variable
 # into the environment
 export DRINK="water"
@@ -49,7 +42,9 @@ echo $DRINK
 
 > ⚠ When exporting a variable into the environment, be careful not to overwrite another important environment variable with the same name. 
 
+
 ---
+
 ## Practice
 
 Complete the code to create a new environment variable:
@@ -58,13 +53,15 @@ Complete the code to create a new environment variable:
 ??? ???="Enki"
 ```
 
-* export
-* NEW_USER
-* $NEW_USER
-* new_user
-* create
+- export
+- NEW_USER
+- $NEW_USER
+- new_user
+- create
+
 
 ---
+
 ## Revision
 
 Match the variable with the text:
@@ -74,5 +71,6 @@ Match the variable with the text:
 ??? - Shell
 ```
 
-* HOME
-* home
+- HOME
+- home
+ 

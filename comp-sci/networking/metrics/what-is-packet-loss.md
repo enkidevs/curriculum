@@ -24,10 +24,10 @@ They can be lost on their way or, more often, intentionally dropped. The latter 
 
 The causes of packet loss vary, yet the most common ones are:
 
-* `link congestion`  - network devices intentionally drop packets
-* `device performance` - hardware devices can't physically keep up[1]
-* `software issues` on network devices that can go undetected[2]
-* `faulty hardware or cabling`
+- `link congestion`  - network devices intentionally drop packets
+- `device performance` - hardware devices can't physically keep up[1]
+- `software issues` on network devices that can go undetected[2]
+- `faulty hardware or cabling`
 
 **Packet loss** is a common and normal[3] thing, but at an acceptable rate. For example, for **VoIP**, traffic losses between `5%` and `10%` will significantly affect the quality, while for video and audio streaming `1%` is *good* and `2.5%` is *acceptable*.
 
@@ -38,15 +38,15 @@ The causes of packet loss vary, yet the most common ones are:
 
 ### *Packet loss*
 
- is measured
 
+ is measured
 
 ???
 
-* as a percentage
-* in milliseconds
-* in seconds
-* as a number of packets
+- as a percentage
+- in milliseconds
+- in seconds
+- as a number of packets
 
 
 ---

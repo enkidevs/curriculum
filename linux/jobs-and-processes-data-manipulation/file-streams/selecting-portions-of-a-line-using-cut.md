@@ -1,30 +1,15 @@
 ---
 author: jfarmer
-
-levels:
-
-  - basic
-
-  - beginner
-
-aspects:
-  - introduction
-  - workout
-
 type: normal
-
 category: must-know
-
 inAlgoPool: false
-
-
-
-
 ---
 
 # Selecting Portions of A Line Using `cut`
 
+
 ---
+
 ## Content
 
 The `cut` command allows us to "cut out" specified portions of each line of a file.  You can either pass the name of a file to `cut` directly or pass it output from another program via the `|` operator.
@@ -35,7 +20,7 @@ Here are some basic examples.
 
 The `-c` option tells `cut` to select specific *characters* from its input.  Take a look:
 
-```shell
+```plain-text
 echo "one:two:three" | cut -c2
 n
 echo "one:two:three" | cut -c1-5
@@ -50,7 +35,7 @@ one:t
 
 We can cut out specific columns or fields, too.  Take a look:
 
-```bash
+```plain-text
 echo "one:two:three" | cut -d":" -f1
 one
 echo "one:two:three" | cut -d":" -f2
@@ -67,7 +52,7 @@ One can use `-f` without `-d`, although by default `cut` will assume that the in
 
 The `/etc/passwd` file contains information about every user on the system, including usernames and home directories.  The format is very standard.  The following example will print out all the users alone with their home directories on the system:
 
-```shell
+```plain-text
 cut -d":" -f1,6 /etc/passwd
 user1:/home/user1
 user2:/home/user2
@@ -76,36 +61,40 @@ user2:/home/user2
 
 The fields in `/etc/passwd` are `:`-delimited with the first field containing the username and the sixth field containing the user's home directory.
 
+
 ---
+
 ## Practice
 
 Consider `enki.txt` file:
-```
+
+```plain-text
 Linux/Data Manipulation/cut command
 Javascript/Core/Prototype
 Java/Fundamentals/Inheritance
 ```
+
 Print the *subtopic* name using `cut` :
+
 ```bash
 cut ??? ??? ???
 ```
 
-* `-d"/"`
-* `-f2`
-* `enki.txt`
-* `-d" "`
-* `-f1`
+- `-d"/"`
+- `-f2`
+- `enki.txt`
+- `-d" "`
+- `-f1`
+
 
 ---
+
 ## Revision
 
 The flag used to specify the delimiter of the `cut` command is ???.
 
-* -d
-* -f
-* -a
-* -F
-
- 
- 
+- -d
+- -f
+- -a
+- -F
  

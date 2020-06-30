@@ -27,8 +27,8 @@ This whole ordeal ended up costing them **1 million dollars**. Ouch!
 
 There are many reasons for making your app secure, and here are a few of them:
 
-* **reputation** (users don't trust an app that is known for its security problems)
-* **keep the data safe** (in case of a data breach, you can incur penalties according to legislation in multiple countries)
-* **your own information can be used against you** (proprietary information leaking out, blackmailing, and others)
-* **Google rankings** (you get less points if you don't follow security best practices which translates to less traffic)
+- **reputation** (users don't trust an app that is known for its security problems)
+- **keep the data safe** (in case of a data breach, you can incur penalties according to legislation in multiple countries)
+- **your own information can be used against you** (proprietary information leaking out, blackmailing, and others)
+- **Google rankings** (you get less points if you don't follow security best practices which translates to less traffic)
  

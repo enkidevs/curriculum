@@ -23,7 +23,7 @@ In **React** you'll work mainly with a more flexible concept, components, which 
 
 To define an element, you can:
 
-```jsx
+```plain-text
 // create an object representing
 // a React element
 const element = React.createElement(
@@ -42,13 +42,13 @@ The way elements are rendered is with help from the **React DOM**[1], under the 
 
 Suppose in your **HTML** you have the `div`:
 
-```html
+```plain-text
 <div id="root"></div>
 ```
 
 Now, on your webpage, you can display the `<p>` element (declared above) as a child of the `"root"` div, using `ReactDOM.render()` :
 
-```jsx
+```plain-text
 ReactDOM.render(
   element,
   document.getElementById("root")
@@ -71,13 +71,13 @@ const element = <h2>Enki<h2>;
 );
 ```
 
-* `ReactDOM`
-* `element`
-* `root`
-* `react-dom`
-* `Enki`
-* `div`
-* `id`
+- `ReactDOM`
+- `element`
+- `root`
+- `react-dom`
+- `Enki`
+- `div`
+- `id`
 
 
 ---
@@ -88,11 +88,11 @@ const element = <h2>Enki<h2>;
 
 ???
 
-* immutable
-* mutable
-* **DOM** elements
-* components
-* classes
+- immutable
+- mutable
+- **DOM** elements
+- components
+- classes
 
 
 ---

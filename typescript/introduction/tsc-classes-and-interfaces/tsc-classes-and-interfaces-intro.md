@@ -2,24 +2,24 @@
 author: nem035
 type: normal
 category: must-know
-aspects:
-  - deep
-  - workout
 links:
-  - '[Play with interfaces and classes](https://repl.it/@enkicontent/TypeScriptDragonsFlyButNotFish){website}'
-
+  - >-
+    [Play with interfaces and
+    classes](https://repl.it/@enkicontent/TypeScriptDragonsFlyButNotFish){website}
 ---
 
 # Classes and Interfaces
 
+
 ---
+
 ## Content
 
 Interfaces can be used with classes as their **behavioral contract**.
 
 For example, for a `Bird` and a `Dragon` to become flyers, they must implement the `Flyer` contract.
 
-```ts
+```plain-text
 interface Flyer {
   // all flyers must have a name
   // that is of type string
@@ -70,7 +70,7 @@ jabberwocky.fly();
 
 On the other hand, flying in water is a little tough:
 
-```ts
+```plain-text
 class Fish {
 //        ^ doesn't implement Flyer
   name: string;
@@ -87,6 +87,7 @@ nemo.fly() // fish can't fly :)
 
 
 ---
+
 ## Practice
 
 Fill in the gaps such that the code contains no type errors:
@@ -106,23 +107,25 @@ const e = ??? EnkiApp();
 e.category;
 ```
 
-* interface
-* class
-* implements
-* string = 'Education'
-* new
-* string
-* shape
-* definedBy
-* create
-* instantiate
+- interface
+- class
+- implements
+- string = 'Education'
+- new
+- string
+- shape
+- definedBy
+- create
+- instantiate
+
 
 ---
+
 ## Revision
 
 Will this code run without errors?
 
-```ts
+```plain-text
 interface MadeOfPotion {
   ingredients: Array<string>;
 }
@@ -144,5 +147,6 @@ const o = new Obelix();
 
 ???
 
-* Yes
-* No
+- Yes
+- No
+ 

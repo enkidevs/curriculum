@@ -19,7 +19,7 @@ You may have references to old remote branches in your local repository.
 
 Use `--prune` to remove references to branches that have been deleted from the remote server:
 
-```bash
+```plain-text
 git fetch origin --prune
 ```
 
@@ -36,23 +36,23 @@ Remove references to deleted branches:
 git ??? origin ???
 ```
 
-* `fetch`
-* `--prune`
-* `prune`
-* `--fetch`
+- `fetch`
+- `--prune`
+- `prune`
+- `--fetch`
 
 
 ---
 
 ## Revision
 
-```bash
+```plain-text
 git fetch origin --prune
 ```
 
 Removes references to ??? branches.
 
-* deleted
-* merged
-* existing
+- deleted
+- merged
+- existing
  

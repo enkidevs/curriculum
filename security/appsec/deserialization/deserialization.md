@@ -28,8 +28,8 @@ Deserialization vulnerabilities mostly come from unsanitized input, thus reitera
 
 Deserialization vulnerability exposes two main vectors of attack:
 
-* Allowing the contents of a serialized object affect behavior or application logic that is recorded or executed on the server
-* Data tampering, where client-side logic is thwarted by modifying calls to the server
+- Allowing the contents of a serialized object affect behavior or application logic that is recorded or executed on the server
+- Data tampering, where client-side logic is thwarted by modifying calls to the server
 
 Bookmark this insight to receive a link to the OWASP guides on detecting and preventing deserialization vulnerability.
 
@@ -41,9 +41,9 @@ Bookmark this insight to receive a link to the OWASP guides on detecting and pre
 What's the best way to prevent a deserialization attack?
 ???
 
-* Sanitize your inputs
-* Use XML instead of JSON
-* Don't accept any inputs
+- Sanitize your inputs
+- Use XML instead of JSON
+- Don't accept any inputs
 
 
 ---
@@ -54,8 +54,8 @@ Which attack vectors does deserialization expose?
 
 ???
 
-* Data Tampering and Logic Tampering
-* Payload Bombs and Billion Laughs
-* Data Injection and Malicious Code Execution
-* Denial of Service and Resource Consumption
+- Data Tampering and Logic Tampering
+- Payload Bombs and Billion Laughs
+- Data Injection and Malicious Code Execution
+- Denial of Service and Resource Consumption
  

@@ -32,10 +32,10 @@ What was the outcome of the theDAO hack with regard to Ethereum?
 
 ???
 
-* Funds were returned through a hard-forked
-* The address was black-listed through a soft-forked
-* No funds were returned, but the address was black-listed
-* ICOs are now illegal
+- Funds were returned through a hard-forked
+- The address was black-listed through a soft-forked
+- No funds were returned, but the address was black-listed
+- ICOs are now illegal
 
 
 ---
@@ -46,8 +46,8 @@ If coins are found to be stolen, identify what should be done to revert the thef
 
 ???
 
-* hard fork
-* soft fork
-* ban the thief's address
-* transactions cannot be reverted
+- hard fork
+- soft fork
+- ban the thief's address
+- transactions cannot be reverted
  

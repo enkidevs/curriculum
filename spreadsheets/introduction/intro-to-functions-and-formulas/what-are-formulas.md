@@ -1,19 +1,14 @@
 ---
 author: Stefan-Stojanovic
-
-aspects:
-  - deep
-  - workout
-
 type: normal
-
 category: how to
-
 ---
 
 # What are Formulas?
 
+
 ---
+
 ## Content
 
 Formulas are the building blocks of spreadsheets. They are used to **transform the values of a cell**.
@@ -36,7 +31,9 @@ Now, every time you update the data in one of the cells found in the formula (`B
 
 ![simple-formula](https://img.enkipro.com/f6ce7842765f9a189f6f75e187ab1ce6.png)
 
+
 ---
+
 ## Practice
 
 Consider the following spreadsheet:
@@ -47,7 +44,8 @@ What will the formula `= B2 + B4` output?
 
 ???
 
-* 51
-* 83
-* 125
-* 23
+- 51
+- 83
+- 125
+- 23
+ 

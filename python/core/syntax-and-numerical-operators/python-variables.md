@@ -1,45 +1,41 @@
 ---
 author: emmab
-
 tags:
   - introduction
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-
 links:
-- '[Python Naming Conventions](https://www.python.org/dev/peps/pep-0008/#prescriptive-naming-conventions){documentation}'
-
+  - >-
+    [Python Naming
+    Conventions](https://www.python.org/dev/peps/pep-0008/#prescriptive-naming-conventions){documentation}
 ---
 
 # Variables
 
+
 ---
+
 ## Content
 
 Python uses variables to store data in memory. Think of variables as *containers that hold data* which can be changed later in the program.
 
 For example:
 
-```python
+```plain-text
 number = 10
 number = 100
 ```
 
 Initially the value of `number` was `10`. Later it was changed to `100`.
 
-```python
+```plain-text
 print(number)
 # 100
 ```
 
 Python is a case-sensitive language and variable names should use snake case[1], like so:
 
-```python
+```plain-text
 this_is_a_long_variable_name
 ```
 
@@ -47,7 +43,9 @@ this_is_a_long_variable_name
 
 While `c = 10` is valid, writing `count = 10` would make more sense. It is easier to figure out what the variable represents when you revisit your code and for other programmers on your team.
 
+
 ---
+
 ## Practice
 
 Complete the following code to print 'Python' to the screen:
@@ -58,24 +56,30 @@ print(language)
 
 # Python
 ```
-* language
-* =
-* 'Python'
-* 'python'
-* Python
+
+- language
+- =
+- 'Python'
+- 'python'
+- Python
+
 
 ---
+
 ## Revision
 
 A variable is a ??? for ???.
 
-* container
-* data
-* function
-* values
+- container
+- data
+- function
+- values
+
 
 ---
+
 ## Footnotes
 
 [1:Snake case]	
 Snake case is a writing convention where words are separated by underscores. It typically uses all lower case letters.
+ 

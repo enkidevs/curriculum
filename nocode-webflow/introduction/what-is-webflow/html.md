@@ -1,22 +1,14 @@
 ---
 author: Stefan-Stojanovic
-
-levels:
-  - beginner
-
-aspects:
-  - introduction
-  - workout
-
 type: normal
-
 category: how to
-
 ---
 
 # Hypertext Markup Language
 
+
 ---
+
 ## Content
 
 `HTML`, or **Hypertext Markup Language**, is an essential building block of every web page.
@@ -33,11 +25,14 @@ With Webflow, you don't need to write the code to create different elements. You
 
 To learn more about `HTML`, check out our `Web -> HTML` course.
 
+
 ---
+
 ## Practice
 
 HTML is used to ???.
 
-* create the structure of a website
-* create animations
-* create interactions within the content
+- create the structure of a website
+- create animations
+- create interactions within the content
+ 

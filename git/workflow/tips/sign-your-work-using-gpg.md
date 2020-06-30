@@ -18,26 +18,26 @@ links:
 
 First generate a key using GPG:
 
-```bash
+```plain-text
 gpg --gen-key
 ```
 
 Then configure git to use your key:
 
-```bash
+```plain-text
 git config --global 
   user.signingkey 0A45226A
 ```
 
 To sign a tag use `-s`:
 
-```bash
+```plain-text
 git tag -s v1.0 -m 'Version 1.0'
 ```
 
 To sign a commit or merge use `-S`:
 
-```bash
+```plain-text
 git commit -a -S -m 'Add key'
 ```
 
@@ -62,23 +62,23 @@ git commit ??? ???
                “commit signed”
 ```
 
-* `user.signingkey`
-* `-S`
-* `-m`
-* `-s`
+- `user.signingkey`
+- `-S`
+- `-m`
+- `-s`
 
 
 ---
 
 ## Revision
 
-```bash
+```plain-text
 gpg --gen-key
 ```
 
 Generates a ??? used to sign ??? .
 
-* key
-* commits
-* password
+- key
+- commits
+- password
  

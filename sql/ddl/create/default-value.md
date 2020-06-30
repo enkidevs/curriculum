@@ -20,7 +20,7 @@ When creating a table you can also set a default value for your columns. This va
 
 The `DEFAULT` clause affects `INSERT` commands that do not specify a value for the column in question. Let's start off by defining a simple table named `dogs` that only takes the `name` and `weight` columns.
 
-```sql
+```plain-text
 CREATE TABLE dogs (
   name VARCHAR,
   weight INTEGER DEFAULT 0
@@ -29,7 +29,7 @@ CREATE TABLE dogs (
 
 Now let's see what happens when we insert the following records in the table:
 
-```sql
+```plain-text
 INSERT INTO dogs (name) VALUES 
 ('Oscar');
 INSERT INTO dogs (name, weight) VALUES 
@@ -52,7 +52,7 @@ Notice that if we omit the `weight` column when using an `INSERT` command, the R
 
 What will the following code output?
 
-```sql
+```plain-text
 CREATE TABLE cars (
   id INTEGER,
   name VARCHAR DEFAULT 'unknown',
@@ -70,12 +70,12 @@ INSERT INTO cars (id, year) VALUES
 | 1   | Suzuki Swift | 1997 |
 | ??? | ???          | ???  |
 
-* 1
-* unknown
-* 2004
-* 2
-* unidentified
-* DEFAULT
-* Suzuki Swift
-* 1997
+- 1
+- unknown
+- 2004
+- 2
+- unidentified
+- DEFAULT
+- Suzuki Swift
+- 1997
  

@@ -1,28 +1,19 @@
 ---
 author: Stefan-Stojanovic
-
-levels:
-  - beginner
-  - basic
-  
-aspects:
-  - introduction
-  - new
-
 type: normal
-
 category: how to
-
 ---
 
 # Aggregating With `$subtract`
 
+
 ---
+
 ## Content
 
 Similarly to addition, subtraction can be achieved by using the `$subtract` operator. The syntax is:
 
-```javascript
+```plain-text
 { 
   $subtract:  
   [ 
@@ -37,7 +28,8 @@ Now, using the same documents as in the previous insight[1], we can use the `$su
 **Note:** The expressions are calculated like so: `<expression1>` - `<expression2>`.
 
 Example:
-```javascript
+
+```plain-text
 db.pokemon.aggregate([
   {
     $project: {
@@ -51,7 +43,8 @@ db.pokemon.aggregate([
 ```
 
 Output:
-```javascript
+
+```plain-text
 { 
   "_id": ObjectId(
     "5d9d8c330b24990f19398214"
@@ -68,24 +61,29 @@ Output:
 }
 ```
 
+
 ---
+
 ## Practice
 
 To subtract one expression from another you have to use the ??? operator which can only take ??? expression(s).
 
-* `$subtract`
-* 2
-* `$add`
-* 1
-* 3
-* `$deduct`
+- `$subtract`
+- 2
+- `$add`
+- 1
+- 3
+- `$deduct`
+
 
 ---
+
 ## Footnotes
 
 [1:Previous Documents]
 Here are the documents that we have previously used:
-```javascript
+
+```plain-text
 { 
   "Name": "Pikachu",
   "Basic": 101,
@@ -99,3 +97,4 @@ Here are the documents that we have previously used:
   "Ultimate": 667 
 }
 ```
+ 

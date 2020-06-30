@@ -1,25 +1,18 @@
 ---
 author: Stefan-Stojanovic
-
-levels:
-  - beginner
-  - basic
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-  - workout
-  - deep
-
 links:
-  - '[HTML <aside> Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/aside){documentation}'
+  - >-
+    [HTML <aside>
+    Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/aside){documentation}
+---
+
+# The `<aside>` Element
+
 
 ---
-# The `<aside>` Element
----
+
 ## Content
 
 The HTML `<aside>` element is a container element used to represent a section of a page that consists of content that is tangentially related to the content around the `<aside>` element. This content is held separate from the page content and frequently presented as sidebars or call-out boxes.
@@ -27,7 +20,8 @@ The HTML `<aside>` element is a container element used to represent a section of
 The `<aside>` element can contain a sidebar, pull quotes, advertising, groups of navigational `<nav>` elements and more.
 
 Example:
-```html
+
+```plain-text
 <p>
   My family and I visited
   the Louvre this summer.
@@ -41,20 +35,24 @@ Example:
 </aside>
 ```
 
+
 ---
+
 ## Practice
 
 What content would be well placed within an aside?
 
 ???
 
-* all 4 of these choices
-* pull quotes
-* sidebar
-* advertising
-* groups of `<nav>` elements
+- all 4 of these choices
+- pull quotes
+- sidebar
+- advertising
+- groups of `<nav>` elements
+
 
 ---
+
 ## Revision
 
 Which HTML container element represents a section of a page that consists of content that is tangentially related to the content around the aside element, and which could be considered separate from that content?
@@ -65,24 +63,27 @@ An `<aside>` should usually contain a navigation list on either the left- or rig
 
 ???
 
-* `<aside>`
-* False
-* `<article>`
-* `<section>`
-* `<comment>`
-* `<news>`
-* `<record>`
-* `<forum>`
-* True
+- `<aside>`
+- False
+- `<article>`
+- `<section>`
+- `<comment>`
+- `<news>`
+- `<record>`
+- `<forum>`
+- True
+
 
 ---
+
 ## Quiz
 
 ### How much do you know about HTML container elements?
 
+
 What container element would best be used here?
 
-```html
+```plain-text
 <p>
   My family and I visited
   the Louvre this summer.
@@ -98,9 +99,9 @@ What container element would best be used here?
 
 TAG: ???
 
-* `<aside>`
-* `<main>`
-* `<block>`
-* `<article>`
-* `<section>`
+- `<aside>`
+- `<main>`
+- `<block>`
+- `<article>`
+- `<section>`
  

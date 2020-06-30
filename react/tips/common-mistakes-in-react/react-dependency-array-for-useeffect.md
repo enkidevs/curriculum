@@ -1,29 +1,23 @@
 ---
 author: kapnobatai136
-  
-aspects:
-
-  - workout
-
-  - deep
-
 type: normal
-
 category: tip
-
 links:
-  - '[Use deep compare effect](https://github.com/kentcdodds/use-deep-compare-effect){website}'
-
+  - >-
+    [Use deep compare
+    effect](https://github.com/kentcdodds/use-deep-compare-effect){website}
 ---
 
 # Dependency array for useEffect
 
+
 ---
+
 ## Content
 
 One important feature of the `useEffect()` hook is represented by its dependency array. When included, the `useEffect` hook only runs when one or more of its dependencies change, which can result in a performance increase by reducing the number of re-renders. Let's take a look at an example:
 
-```js
+```plain-text
 function App() {
   const [name, setName] = useState("");
   useEffect(() => {
@@ -36,7 +30,7 @@ Now, React will only re-run the hook function if the current value of `name` is 
 
 Let's take a look at another example:
 
-```js
+```plain-text
 function App() {
   const features = ["feature1", "feature2"];
 
@@ -58,25 +52,29 @@ Note that this is not an issue when using primitive values, such as strings or n
 
 There are multiple options of dealing with this issue which we will discuss in the next insight. 
 
+
 ---
+
 ## Practice
 
 Why would you use a dependency array in your `useEffect()` hook call?
 
 ???
 
-* To reduce the number of re-renders.
-* To increase the number of re-renders.
-* To save the `state` value at a certain point in time.
-* To have access to multiple versions of the `state`.
+- To reduce the number of re-renders.
+- To increase the number of re-renders.
+- To save the `state` value at a certain point in time.
+- To have access to multiple versions of the `state`.
+
 
 ---
+
 ## Footnotes
 
 [1: Object.is]
 Sometimes it is really difficult to find out if two values are actually the same value. When thinking of JavaScript, two objects are considered to have the same value if they have the same reference. This can be done through the `Object.is()` function, which is not the same as using the `==` operator (this applies coercion to both sides), or using the `===` operator (this treats `-0` and `+0` as being the same, also treats `Number.NaN` is not equal to `NaN`). Let's take a look at some examples:
 
-```js
+```plain-text
 Object.is('foo', 'foo'); // true
 Object.is('foo', 'bar'); // false
 Object.is([], []); // false
@@ -86,3 +84,4 @@ var bar = { a: 1 };
 Object.is(foo, foo); // true
 Object.is(foo, bar); // false
 ```
+ 

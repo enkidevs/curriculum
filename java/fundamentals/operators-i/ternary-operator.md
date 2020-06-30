@@ -1,49 +1,32 @@
 ---
 author: kld14
-
-levels:
-
-  - basic
-
-  - beginner
-
 type: normal
-
 category: feature
-
-aspects:
-
-  - introduction
-  - workout
-
 tags:
-
   - java
-
   - ternary
-
   - conditional
-
-
 links:
-
-  - '[alvinalexander.com](http://alvinalexander.com/java/edu/pj/pj010018){website}'
-
-
+  - >-
+    [alvinalexander.com](http://alvinalexander.com/java/edu/pj/pj010018){website}
 ---
 
 # Ternary operator
 
+
 ---
+
 ## Content
 
 An alternative to using an if/else statement is the use of the ternary operator, whose syntax appears below.
-```java
+
+```plain-text
 result = testCondition ? value1 : value2;
 ```
+
 Below are two equivalent statements.
 
-```java
+```plain-text
 int x;
 if (y > 3) {
   x = 1;
@@ -51,15 +34,19 @@ if (y > 3) {
   x = 0;
 }
 ```
-```java
+
+```plain-text
 int x = y > 3 ? 1 : 0;
 ```
 
+
 ---
+
 ## Practice
 
 Which of the following is equivalent to the if statement below:
-```java
+
+```plain-text
 int count;
 if (flag > 5) {
   count = 2;
@@ -67,36 +54,43 @@ if (flag > 5) {
   count = 5;
 }
 ```
+
 ???
 
-* int count = flag > 5 ? 2:5;
-* int flag = count > 5 ? 5:2;
-* int count = flag > 5 ? 5:2;
-* int x = y > 5 ? 5/2;
-* int count = flag > 5 ? 5/2;
+- int count = flag > 5 ? 2:5;
+- int flag = count > 5 ? 5:2;
+- int count = flag > 5 ? 5:2;
+- int x = y > 5 ? 5/2;
+- int count = flag > 5 ? 5/2;
+
 
 ---
+
 ## Revision
 
 Complete the following ternary operator syntax with the correct symbols:
+
 ```java
 int num = x > 2 ??? 2 ??? 0
 ```
 
+- `?`
+- `:`
+- `>`
+- `<`
+- `/`
+- `//`
+- `+`
 
-* `?`
-* `:`
-* `>`
-* `<`
-* `/`
-* `//`
-* `+`
 
 ---
-## Quiz 
+
+## Quiz
+
 ### Which single boolean should be negated for the output to be true?
 
-```java
+
+```plain-text
 
 System.out.println(true?false:true==true?false:true);
                     1     2    3          4
@@ -104,7 +98,8 @@ System.out.println(true?false:true==true?false:true);
 
  ???
 
-* 2
-* 1
-* 3
-* 4
+- 2
+- 1
+- 3
+- 4
+ 

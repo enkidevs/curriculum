@@ -1,26 +1,20 @@
 ---
 author: Bruno
-
 type: normal
-
 category: how to
-
 tags:
   - introduction
-
 links:
-  - '[The Arguments Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/arguments){documentation}'
-
-aspects:
-  - introduction
-  - workout
-
-
+  - >-
+    [The Arguments
+    Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/arguments){documentation}
 ---
 
 # Access a function's `arguments` as an array
 
+
 ---
+
 ## Content
 
 The [arguments](https://enki.com/glossary/general/parameter-vs-argument) of a function can be accessed with the `arguments` keyword.
@@ -29,7 +23,7 @@ Do note that the value in `arguments` is a *pseudo-array* (an object with a leng
 
 Before applying `Array` methods, `arguments` needs to be converted to an actual `Array`, as follows:
 
-```javascript
+```plain-text
 function sortedArgs() {
   // `arguments` is a pseudo-array
   console.log(Array.isArray(arguments));
@@ -47,14 +41,16 @@ function sortedArgs() {
 
 Example of use:
 
-```javascript
+```plain-text
 sortedArgs(3, 1, 2)
 // false
 // true
 // [1, 2, 3]
 ```
 
+
 ---
+
 ## Practice
 
 The following `returnArgs` function should return an array containing the arguments with which it is called. Complete the missing gaps such that it works as intended:
@@ -65,16 +61,18 @@ function returnArgs() {
 }
 ```
 
-* Array
-* from
-* arguments
-* argv
-* args
-* argvs
-* array
-* new Array
+- Array
+- from
+- arguments
+- argv
+- args
+- argvs
+- array
+- new Array
+
 
 ---
+
 ## Revision
 
 Turn the arguments of a method into a sorted array:
@@ -86,11 +84,12 @@ function myArray() {
 }
 ```
 
-* Array
-* from
-* arguments
-* sort
-* slice
-* splice
-* args
-* argvs
+- Array
+- from
+- arguments
+- sort
+- slice
+- splice
+- args
+- argvs
+ 

@@ -33,10 +33,10 @@ Any Docker container can run on any server that has the Docker daemon installed,
 
 The Docker daemon and Docker CLI use ??? to communicate.
 
-* Docker REST API
-* Docker SOAP API
-* Docker channels
-* Docker Objects
+- Docker REST API
+- Docker SOAP API
+- Docker channels
+- Docker Objects
 
 
 ---
@@ -45,8 +45,8 @@ The Docker daemon and Docker CLI use ??? to communicate.
 
 The two main parts of the Docker architecture are the ???
 
-* CLI and daemon
-* daemon and container
-* Object and namespaces
-* Container and Hub
+- CLI and daemon
+- daemon and container
+- Object and namespaces
+- Container and Hub
  

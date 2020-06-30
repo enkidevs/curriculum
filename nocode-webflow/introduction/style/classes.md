@@ -50,10 +50,10 @@ Which statement about classes is not true?
 
 ???
 
-* Classes are used to define the hierarchy of an element.
-* Classes can be duplicated, renamed and deleted.
-* Classes can be applied to any element.
-* Classes retain all styling information.
+- Classes are used to define the hierarchy of an element.
+- Classes can be duplicated, renamed and deleted.
+- Classes can be applied to any element.
+- Classes retain all styling information.
 
 
 ---

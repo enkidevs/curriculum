@@ -19,11 +19,11 @@ The HTML `<form>` element is used to represent a section of a document that cont
 
 The `<form>` element has many attributes, some of them:
 
-* action
-* autocomplete
-* method
-* name
-* novalidate
+- action
+- autocomplete
+- method
+- name
+- novalidate
 
 Brief explanation:
 
@@ -31,8 +31,8 @@ The `action` form attribute used to specify where to send the data.
 
 There are two methods used to send the data:
 
-* The `GET` method is used to send the form data encoded within the URL.
-* The `POST` method is used to encode the data within the message body of the HTTP request.
+- The `GET` method is used to send the form data encoded within the URL.
+- The `POST` method is used to encode the data within the message body of the HTTP request.
 
 The `autocomplete` attribute is used to indicate whether the values for the `input` elements will be automatically completed by the browser and is on by default.
 
@@ -42,7 +42,7 @@ The `novalidate` is of type boolean, and when specified indicated that the form 
 
 Basic Form Example:
 
-```html
+```plain-text
 <form action="" method="POST">
   <label
     for="age">Age:
@@ -72,12 +72,12 @@ Match the definitions with the proper terms:
 ??? : Method used to send the form data encoded within the URL.
 ??? : Method used to encode the data within the message body of the HTTP request.
 
-* action
-* get
-* post
-* path
-* input
-* catch
+- action
+- get
+- post
+- path
+- input
+- catch
 
 
 ---
@@ -88,33 +88,33 @@ Interactive elements like textfields, radio buttons, and check boxes, must be pl
 
 ???
 
-* `<form>`
-* `<input>`
-* `<field>`
-* `<embed>`
-* `<data>`
-* `<fieldset>`
+- `<form>`
+- `<input>`
+- `<field>`
+- `<embed>`
+- `<data>`
+- `<fieldset>`
 
 
 ---
 
 ## Quiz
 
-### How much do you about 
+### How much do you about
+
 
 `<form>`
 
  elements?
 
-
 Which form element is used to collect user data?
 
 ???
 
-* `<input>`
-* `<field>`
-* `<embed>`
-* `<data>`
-* `<fieldset>`
-* `<collect>`
+- `<input>`
+- `<field>`
+- `<embed>`
+- `<data>`
+- `<fieldset>`
+- `<collect>`
  

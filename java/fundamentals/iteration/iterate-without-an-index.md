@@ -22,7 +22,7 @@ Traditional for-loops use an explicit loop index, which can, for example, lead t
 
 For-each loops avoid this problem as they do not have an explicit index.
 
-```java
+```plain-text
 List<String> colors = Arrays.asList(
 "red", "blue", "green");
 

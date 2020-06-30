@@ -1,30 +1,26 @@
 ---
 author: emmab
-
 tags:
   - introduction
   - workout
-
 type: normal
-
-aspects:
-  - introduction
-
 category: must-know
-
 links:
-  - '[Mapping Types](https://docs.python.org/3.5/library/stdtypes.html#mapping-types-dict){website}'
-
+  - >-
+    [Mapping
+    Types](https://docs.python.org/3.5/library/stdtypes.html#mapping-types-dict){website}
 ---
 
 # The `Dictionary`
 
+
 ---
+
 ## Content
 
 The **dictionary**, `dict`, is Python's main *mapping type*. Mapping objects are ones that contain *key-value pairs*. 
 
-```python
+```plain-text
 my_dict = {'name': 'Jack', 'age': 26}
 ```
 
@@ -38,10 +34,9 @@ Two important differences are:
 
 - each key can only point to a *single value*. Keys must be unique.
 
-
 To access items from a `dict` using keys:
 
-```python
+```plain-text
 my_dict['name']
 # Jack
 my_dict['age']
@@ -50,7 +45,7 @@ my_dict['age']
 
 The `update()` method merges the keys and values from one dictionary into another and overwrites values if the same key exists:
 
-```python
+```plain-text
 preferences = {'fruit': 'apple', 'car': 'Tesla'}
 more_preferences = {'fruit': 'pear', 'animal': 'dog'}
 
@@ -62,7 +57,9 @@ print(preferences)
 
 > Remember - be careful when using `update()`, as a dictionary can't have multiple entries with the same key.
 
+
 ---
+
 ## Practice
 
 Fill in the following snippet so that it will return the value of `dog`:
@@ -75,24 +72,26 @@ animals???
 # pug
 ```
 
-* ['dog']
-* ['pug']
-* ('dog')
-* {'pug'}
+- ['dog']
+- ['pug']
+- ('dog')
+- {'pug'}
+
 
 ---
+
 ## Revision
 
 How would you access the value of `maths`?
 
-```python
+```plain-text
 grades = {'biology': 82.1, 'maths': 79.8, 'economics': 65.4}
 ```
 
 ???
 
-* `grades['maths']`
-* `grades[79.8]`
-* `grades('maths')`
-* `grades(79.8)`
-
+- `grades['maths']`
+- `grades[79.8]`
+- `grades('maths')`
+- `grades(79.8)`
+ 

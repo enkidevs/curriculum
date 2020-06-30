@@ -1,32 +1,18 @@
 ---
 author: catalin
-
-levels:
-
-  - basic
-
-  - advanced
-
-  - medium
-
 type: normal
-
 category: hack
-
-aspects:
-  - workout
-  - deep
-
 links:
-
-  - '[Multiple Borders](https://css-tricks.com/snippets/css/multiple-borders/){article}'
-
-
+  - >-
+    [Multiple
+    Borders](https://css-tricks.com/snippets/css/multiple-borders/){article}
 ---
 
 # Multiple borders with pseudo elements
 
+
 ---
+
 ## Content
 
 `::after` and `::before` pseudo-elements can be used to add more borders to an element.
@@ -34,15 +20,16 @@ These must be either set being larger and behind the element or smaller and insi
 
 Keep in mind that the element with multiple borders needs its own border and a non-static position.
 
-```css
+```plain-text
 .elem {
   position: relative;
   border: 5px solid #00ff00;
 }
 ```
+
 Add the second border:
 
-```css
+```plain-text
 .elem::after {
   content: '';
   position: absolute;
@@ -59,27 +46,30 @@ Add the second border:
 
 `z-index: -1` will keep the border behind the content preserving,for example, selectability of text and clickability of links.
 
+
 ---
+
 ## Practice
 
 Which pseudo-elements can be used to add extra borders to an element?
 
 ???
 
+- ::after and ::before
+- ::pre and ::post
+- ::prior and ::since
 
-* ::after and ::before
-* ::pre and ::post
-* ::prior and ::since
 
 ---
+
 ## Revision
 
 Which two pseudo elements can be used to add more borders to an element?
 
 ???
 
-
-* :after and :before
-* :post and :pre
-* :after and :previous
-* :post and :before
+- :after and :before
+- :post and :pre
+- :after and :previous
+- :post and :before
+ 

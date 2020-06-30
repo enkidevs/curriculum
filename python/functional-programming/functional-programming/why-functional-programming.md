@@ -1,29 +1,21 @@
 ---
 author: stefkn
-
-levels:
-  - beginner
-  - basic
-  - medium
-
-aspects:
-  - introduction
-  - obscura
-
 type: normal
-
 category: must-know
-
 links:
-  - '[Advantages Of Functional Programming](http://wiki.c2.com/?AdvantagesOfFunctionalProgramming){website}'
-  - '[Functional Programming HOWTO](https://docs.python.org/2/howto/functional.html){website}'
-
-
+  - >-
+    [Advantages Of Functional
+    Programming](http://wiki.c2.com/?AdvantagesOfFunctionalProgramming){website}
+  - >-
+    [Functional Programming
+    HOWTO](https://docs.python.org/2/howto/functional.html){website}
 ---
 
 # Why Functional Programming?
 
+
 ---
+
 ## Content
 
 In the next several insights, we'll go a little deeper into the concept of functional programming by analyzing the benefits and drawbacks it can provide. Most of these points are applicable to functional programming in general and not specifically to functional programming within Python.
@@ -36,32 +28,35 @@ One sure-fire way of making your programs more easy to reason about (and to avoi
 
 Pure functions are functions which abide by a strict set of three rules:
 
- - **Given the same input, they will always return the same output.** (They will never return something different for the same input based on something else, such as the time or the weather or how it feels on that day).
- - **They produce no side effects.** (They will not change some other external object (a state object), the change can only be in the new returned value).
- - **They rely on no external mutable state.** (They are standalone units which work entirely independently of any external state. This is linked to the first point).
+- **Given the same input, they will always return the same output.** (They will never return something different for the same input based on something else, such as the time or the weather or how it feels on that day).
+- **They produce no side effects.** (They will not change some other external object (a state object), the change can only be in the new returned value).
+- **They rely on no external mutable state.** (They are standalone units which work entirely independently of any external state. This is linked to the first point).
+
 
 ---
+
 ## Practice
 
 Which of the below is a main concept of functional programming?
 
 ???
 
+- Using pure functions
+- Using mutable data
+- Using lambda functions
+- Avoiding explicit dependencies
 
-* Using pure functions
-* Using mutable data
-* Using lambda functions
-* Avoiding explicit dependencies
 
 ---
+
 ## Revision
 
 Which of the following statements about pure functions is true?
 
 ???
 
-
-* Given the same input, they will always return the same output
-* They are easier to code than normal functions
-* They can use system calls
-* They are faster
+- Given the same input, they will always return the same output
+- They are easier to code than normal functions
+- They can use system calls
+- They are faster
+ 

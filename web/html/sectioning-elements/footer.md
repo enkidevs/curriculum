@@ -1,24 +1,18 @@
 ---
 author: Stefan-Stojanovic
-
-levels:
-  - beginner
-  - basic
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-  - workout
-
 links:
-  - '[HTML <footer> Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/footer){documentation}'
+  - >-
+    [HTML <footer>
+    Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/footer){documentation}
+---
+
+# The `<footer>` Element
+
 
 ---
-# The `<footer>` Element
----
+
 ## Content
 
 The HTML `<footer>` element is used to represent a footer for a whole document, or even footers of a grouping of related content as it is possible to have multiple `<footer>` elements.
@@ -26,7 +20,8 @@ The HTML `<footer>` element is used to represent a footer for a whole document, 
 The `<footer>` element should contain some information about its containing element. That can be the author, some copyright information, a link to the terms of use, contact info, link back to the top of the page, a link to related documents, a sitemap, etc.
 
 Using `<footer>` for contact information:
-```html
+
+```plain-text
 <footer>
   <p>
     Author: Jane Doe
@@ -47,44 +42,56 @@ The `<footer>` container doesn't have any visual style without CSS. The CSS in t
 
 [View CodePen](https://codepen.io/enkidevs/pen/PaXVmR)
 
+
 ---
+
 ## Practice
 
 The `<footer>` element is encouraged to contain which of the following?
 
 ???
 
-* copyright or contact information, links to related or to the top of the page and sitemap
-* additional `<footer>` elements and to be added within `<header>` element.
-* display one or more heading (h1-h6) elements be used only once in a page for validation.
-* hold a graphical logo or an image, passwords and/or other sensitive data
+- copyright or contact information, links to related or to the top of the page and sitemap
+- additional `<footer>` elements and to be added within `<header>` element.
+- display one or more heading (h1-h6) elements be used only once in a page for validation.
+- hold a graphical logo or an image, passwords and/or other sensitive data
+
 
 ---
+
 ## Revision
 
 Which container is best to organize the bottom of a web page or content section?
 
 ???
 
- * `<footer>`
- * `<foot>`
- * `<bottom>`
- * `<section>`
- * `<main>`
- * `<nav>`
+- `<footer>`
+- `<foot>`
+- `<bottom>`
+- `<section>`
+- `<main>`
+- `<nav>`
+
 
 ---
+
 ## Quiz
 
-### How much do you know about the `<footer>` HTML element?
+### How much do you know about the 
+
+`<footer>`
+
+ HTML element?
+
 
 The HTML `<footer>` element should NOT contain what?
 
 ???
 
-* crucial information
-* copyright information
-* contact information
-* links to related pages
-* link back to top of page
-* sitemap
+- crucial information
+- copyright information
+- contact information
+- links to related pages
+- link back to top of page
+- sitemap
+ 

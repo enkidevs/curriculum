@@ -1,31 +1,23 @@
 ---
 author: jfarmer
-
-aspects:
-  - introduction
-  - workout
-
 type: normal
-
 category: must-know
-
 tags:
   - introduction
-
-
 ---
 
 # Updating & Deleting
 
----
-## Content
 
+---
+
+## Content
 
 ### Modifying an Existing Variable
 
 You'll often want to modify an existing variable by appending or prepending data. To do this, you can reference an environment variable inside a string:
 
-```bash
+```plain-text
 export FOOD="waffles"
 echo $FOOD
 # waffles
@@ -39,7 +31,7 @@ echo $FOOD
 
 To unset or clear an environment variable use `unset`:
 
-```bash
+```plain-text
 export FOOD="waffles"
 echo $FOOD
 # waffles
@@ -53,6 +45,7 @@ echo $FOOD
 
 
 ---
+
 ## Practice
 
 Modify, then unset, the variable.
@@ -66,12 +59,14 @@ echo $SOMETHING
 ??? SOMETHING
 ```
 
-* $SOMETHING
-* unset
-* SOMETHING
-* set
+- $SOMETHING
+- unset
+- SOMETHING
+- set
+
 
 ---
+
 ## Revision
 
 Fill in the gaps to get the result:
@@ -83,6 +78,7 @@ echo ???
 # foobar
 ```
 
-* foo
-* a_var
-* $a_var
+- foo
+- a_var
+- $a_var
+ 

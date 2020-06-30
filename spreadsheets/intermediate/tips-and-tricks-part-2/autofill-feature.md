@@ -1,19 +1,14 @@
 ---
 author: Stefan-Stojanovic
-
-aspects:
-  - introduction
-  - workout
-
 type: normal
-
 category: how to
+---
+
+# `Autofill`
+
 
 ---
 
-# `Autofill` 
-
----
 ## Content
 
 The `Autofill` feature is one of spreadsheets' many powerful features.
@@ -45,3 +40,4 @@ However, when we use functions it operates a bit differently.
 ![autofill-functions](https://img.enkipro.com/f7f1323e1e9d3c8afe7bea590027d758.gif)
 
 As you can see, copying functions with `Autofill` doesn't just copy the same cells that the original function had, it also changes the range of cells to fit the accompanying functions accordingly.
+ 

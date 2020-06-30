@@ -17,7 +17,7 @@ For example, we can have a list representing names and a second one representing
 
 The `zip()` method can bind two lists together such that they become a single one made of tuples:
 
-```python
+```plain-text
 names = ['John', 'G', 'Arron', 'Jack']
 age = [18, 21, 40, 32]
 
@@ -27,7 +27,7 @@ print(list(zip(names, age)))
 
 But also *unzip* them when used together with `*` ( the spread operator ).
 
-```python
+```plain-text
 names = ['John', 'G', 'Arron', 'Jack']
 age = [18, 21, 40, 32]
 
@@ -52,13 +52,13 @@ zipped = ???(???, ???)
 heights, names=zip(???(zipped))
 ```
 
-* `zip`
-* heights
-* names
-* `*sorted`
-* `sorted`
-* age
-* `list`
+- `zip`
+- heights
+- names
+- `*sorted`
+- `sorted`
+- age
+- `list`
 
 
 ---
@@ -67,21 +67,21 @@ heights, names=zip(???(zipped))
 
 Consider the following two lists:
 
-```python
+```plain-text
 cities = ['NY', 'London', 'Rome', 'Paris']
 temps = [17, 12, 21, 16]
 ```
 
 Choose the correct order of the second list after the following script is run:
 
-```python
+```plain-text
 zipped = zip(cities, temps)
 cities, temps = zip(*sorted(zipped))
 ```
 
 ???
 
-* [12, 17, 16, 21]
-* [12, 16, 17, 21]
-* [12, 16, 21, 16]
+- [12, 17, 16, 21]
+- [12, 16, 17, 21]
+- [12, 16, 21, 16]
  

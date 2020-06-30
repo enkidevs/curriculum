@@ -15,7 +15,7 @@ Merge conflicts occur when the same part of the code has been modified in both b
 
 For example, if the same line of `README.md` is edited in `fix` and `master`:
 
-```bash
+```plain-text
 git merge fix
 # conflict with README.md
 # merge failed
@@ -23,7 +23,7 @@ git merge fix
 
 The file impacted will have conflict-resolution markers (`<<<<<<<` and `>>>>>>>`) added to it by git, showing the conflicting lines (separated by `=======`). Opening `README.md` in a text editor:
 
-```bash
+```plain-text
 To contact us email:
 <<<<<<< HEAD
 hello@enki.com
@@ -58,10 +58,10 @@ console.log(b);
 git ??? testing.js
 ```
 
-* `merge`
-* `add`
-* `rm`
-* `commit`
+- `merge`
+- `add`
+- `rm`
+- `commit`
 
 
 ---
@@ -74,9 +74,9 @@ How do you mark a merge conflict as resolved?
 git ???
 ```
 
-* `add`
-* `merge`
-* `rm`
-* `branch`
-* `commit`
+- `add`
+- `merge`
+- `rm`
+- `branch`
+- `commit`
  

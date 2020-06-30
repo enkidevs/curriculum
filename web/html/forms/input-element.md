@@ -19,7 +19,7 @@ The `<input>` element is the most basic, and flexible form element. Interactive 
 
 Here's an example of a raw text field:
 
-```html
+```plain-text
 <form>
  First Name:
  <input
@@ -37,7 +37,7 @@ Here's an example of a raw text field:
 
 Example radio buttons:
 
-```html
+```plain-text
 <form>
   <input
     type="radio"
@@ -63,7 +63,7 @@ Example radio buttons:
 
 Example submit:
 
-```html
+```plain-text
 <form>
  Full name:<br>
  <input
@@ -90,10 +90,10 @@ Which input type creates a HTML form’s input text field?
 
 `<input type="???">`
 
-* text
-* string
-* default
-* _blank
+- text
+- string
+- default
+- _blank
 
 
 ---
@@ -104,10 +104,10 @@ Create a text field to collect a user's name in a form:
 
 `<input type="???" name="user_name">`
 
-* text
-* number
-* field
-* user_name
-* name
-* null
+- text
+- number
+- field
+- user_name
+- name
+- null
  

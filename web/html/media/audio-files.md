@@ -31,7 +31,7 @@ In order to support all browsers, it is useful to provide two different types of
 Using the `<audio>` tag, multiple
 songs can be added via the `<source>` element which will accomodate the approprate file needed for that browser.
 
-```html
+```plain-text
 <audio controls>
   <source src="some_song.mp3"
     type="audio/mpeg">
@@ -54,12 +54,12 @@ Finish the sentence:
 
 In order for audio files today to be supported on all major web browsers you should use either the `???` or `???` format.
 
-* .mp3/.m4a
-* .ogg
-* .mp4
-* .wav
-* .tunes
-* flash
+- .mp3/.m4a
+- .ogg
+- .mp4
+- .wav
+- .tunes
+- flash
 
 
 ---
@@ -70,10 +70,10 @@ When you want to provide fallback content for users that do not have browsers th
 
 ???
 
-* Add any content between the start and end `<audio>` tags.
-* CSS can be used to notify the user.
-* Any browser, regardless of the version, can play HTML5 audio.
-* Use the attribute "fallback" to provide the appropriate message.
+- Add any content between the start and end `<audio>` tags.
+- CSS can be used to notify the user.
+- Any browser, regardless of the version, can play HTML5 audio.
+- Use the attribute "fallback" to provide the appropriate message.
 
 
 ---
@@ -87,9 +87,9 @@ How many audio files are useful to add to a single `<audio>` element in order to
 
 ???
 
-* 2
-* 1
-* 3
-* 4
-* 5+
+- 2
+- 1
+- 3
+- 4
+- 5+
  

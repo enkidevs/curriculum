@@ -1,23 +1,18 @@
 ---
 author: tommarshall
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-  - new
-  - workout
-  
 links:
-  - '[Network Information API](http://code.tutsplus.com/tutorials/html5-network-information-api--cms-21598){website}'
-
+  - >-
+    [Network Information
+    API](http://code.tutsplus.com/tutorials/html5-network-information-api--cms-21598){website}
 ---
 
 # Network Information API
 
+
 ---
+
 ## Content
 
 The *Network Information API* provides information about the system's connection. It's used to choose either high definition or low definition content for a user, dependent on their connection.
@@ -28,7 +23,7 @@ This example watches for changes to the user's connection.
 
 Declaring the connection and type.
 
-```javascript
+```plain-text
 let connection =
   navigator.connection ||
   navigator.mozConnection ||
@@ -38,7 +33,7 @@ let type = connection.effectiveType;
 
 Listener for a change to the user's connection.
 
-```javascript
+```plain-text
 connection.addEventListener(
   "typechange",
   updateConnectionStatus
@@ -47,7 +42,7 @@ connection.addEventListener(
 
 Function to output for any change to the user's connection if called by the listener.
 
-```javascript
+```plain-text
 function updateConnectionStatus() {
   console.log(
     "Connection type is changed \
@@ -59,7 +54,9 @@ function updateConnectionStatus() {
 }
 ```
 
+
 ---
+
 ## Practice
 
 Declare the connection and type:
@@ -72,15 +69,17 @@ let connection =
 let type = connection.???;
 ```
 
-* `navigator`
-* `mozConnection`
-* `effectiveType`
-* `connection`
-* `kind`
-* `statusConnection`
-* `eventConnection`
+- `navigator`
+- `mozConnection`
+- `effectiveType`
+- `connection`
+- `kind`
+- `statusConnection`
+- `eventConnection`
+
 
 ---
+
 ## Revision
 
 Listen for a change in the user's connection:
@@ -94,9 +93,9 @@ connection.addEventListener(
 );
 ```
 
-* `typechange`
-* `type`
-* `change`
-* `update`
-* `statusChange`
+- `typechange`
+- `type`
+- `change`
+- `update`
+- `statusChange`
  

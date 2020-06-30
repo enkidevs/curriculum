@@ -37,10 +37,10 @@ What is one example of how you can build in an integrity check to a token passed
 What is one example of a server that can handle session storage?
 ???
 
-* JSON Web Tokens
-* Memcached
-* Apache
-* XML DTDs
+- JSON Web Tokens
+- Memcached
+- Apache
+- XML DTDs
 
 
 ---
@@ -50,7 +50,7 @@ What is one example of a server that can handle session storage?
 What is the best way to handle persisting user state between stateless requests?
 ???
 
-* Pass an integrity-verified token to the user that represents user state stored elsewhere
-* Store user state in an integrity-verified token
-* Encrypt user state end-to-end
+- Pass an integrity-verified token to the user that represents user state stored elsewhere
+- Store user state in an integrity-verified token
+- Encrypt user state end-to-end
  

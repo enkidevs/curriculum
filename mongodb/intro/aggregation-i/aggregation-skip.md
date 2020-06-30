@@ -1,25 +1,17 @@
 ---
 author: Stefan-Stojanovic
-
-levels:
-  - beginner
-
-aspects:
-  - new
-  - workout
-
 type: normal
-
 category: how to
-
 links:
-  - '[official-documentation](https://docs.mongodb.com/manual/reference/operator/aggregation/skip/){documentation}'
-
+  - >-
+    [official-documentation](https://docs.mongodb.com/manual/reference/operator/aggregation/skip/){documentation}
 ---
 
 # Aggregation $skip
 
+
 ---
+
 ## Content
 
 A similar aggregation pipeline stage to `$limit` is the `$skip` stage.
@@ -27,19 +19,23 @@ A similar aggregation pipeline stage to `$limit` is the `$skip` stage.
 The `$limit` stage limits the number of documents you want to enter into the aggregation pipeline starting from the first, whereas the `$skip` stage skips the specified number of documents starting from the first and processes all the rest.
 
 Syntax:
-```javascript
+
+```plain-text
 { $skip: <positive integer> }
 ```
 
 For instance, let's say we have a `pokemon` collection with 10 pokémon and want to aggregate only the last 2. We can do that like so:
-```javascript
+
+```plain-text
 db.pokemon.aggregate({
   // skip the first 8 pokemon
   $skip: 8 
 });
 ```
+
 Output:
-```javascript
+
+```plain-text
 {
   "_id": ObjectId(
     "5d9d8bde0b24990f19398212"
@@ -60,14 +56,16 @@ Output:
 
 The `$skip` pipeline stage can also be used with `$limit`, `$count` and/or `$match`.
 
-```javascript
+```plain-text
 db.pokemon.aggregate([
   { $skip: 8 },
   { $limit: 1 }
 ])
 ```
+
 Output:
-```javascript
+
+```plain-text
 {
   "_id": ObjectId(
     "5d9d8bde0b24990f19398212"
@@ -80,7 +78,9 @@ Output:
 
 In the above example, we skipped the first 8 pokémon and aggregated only 1 after that.
 
+
 ---
+
 ## Practice
 
 What is the `$skip` aggregation stage used for?
@@ -91,19 +91,21 @@ Which of the 2 examples below is a valid `$skip` stage?
 
 ???
 
-```js
+```plain-text
 // A
 { $skip: 9.9 }
 // B
 { $skip: 99 }
 ```
 
-* To skip a specified number of documents to be aggregated starting from the first
-* `B`
-* To skip the number of stages the documents will go through
-* `A`
+- To skip a specified number of documents to be aggregated starting from the first
+- `B`
+- To skip the number of stages the documents will go through
+- `A`
+
 
 ---
+
 ## Revision
 
 Let's say we have a collection named `games` with 100 documents. Display the 55th and 56th game using aggregation.
@@ -115,11 +117,12 @@ db.games.???(
 )
 ```
 
-* `aggregate`
-* `$skip`
-* `$limit`
-* `2`
-* `GAMES`
-* `58`
-* `100`
-* `document`
+- `aggregate`
+- `$skip`
+- `$limit`
+- `2`
+- `GAMES`
+- `58`
+- `100`
+- `document`
+ 

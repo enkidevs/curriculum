@@ -1,47 +1,28 @@
 ---
 author: jfarmer
-
-levels:
-
-  - basic
-
-  - beginner
-
 type: normal
-
 category: must-know
-
 inAlgoPool: false
-
 tags:
-
   - introduction
-
   - workout
-
-
 links:
-
-  - '[www.tecmint.com](http://www.tecmint.com/35-practical-examples-of-linux-find-command/){website}'
-
-
-aspects:
-  - introduction
-  - workout
-
-
+  - >-
+    [www.tecmint.com](http://www.tecmint.com/35-practical-examples-of-linux-find-command/){website}
 ---
 
 # Using `find` To Search By Filename
 
+
 ---
+
 ## Content
 
 The `find` command is used to search for files on your computer.  One of the most common uses is to search for a file based on its filename, although it can do much more than that.
 
 Here's a quick example that will print out the names of every mp3 file in the current directory:
 
-```shell
+```plain-text
 find . -name "*.mp3"
 ./music/Some Album/Cool Song 1.mp3
 ./music/Some Album/Cool Song 2.mp3
@@ -59,7 +40,7 @@ Sometimes you only want to search for files and not directories, or vice versa. 
 
 This will find all files (but not directories) whose name contains the string "user":
 
-```shell
+```plain-text
 find . -type f -name "*user*"
 ```
 
@@ -67,40 +48,41 @@ If we instead wanted to find only directories, we would pass `-type d` to `find`
 
 Thus, in the first example, it's slightly more correct to search for mp3 files with the following, since it's possible (though unlikely) for a directory to end with ".mp3"s:
 
-```shell
+```plain-text
 find . -type f -name "*.mp3"
 ```
 
+
 ---
+
 ## Practice
 
 Search in the home directory for files that contain happy in their title: 
+
 ```bash
 ??? ??? -type
   ??? ??? ???
 ```
 
-* `find`
-* `~/`
-* `f`
-* `-name`
-* `"*happy*"`
-* `"happy"`
-* `d`
+- `find`
+- `~/`
+- `f`
+- `-name`
+- `"*happy*"`
+- `"happy"`
+- `d`
+
 
 ---
+
 ## Revision
 
 To look for directories with `find` you need
 
 ??? flag.
 
-
-* -type d
-* -type f
-* dir
-* -dir
-
- 
- 
+- -type d
+- -type f
+- dir
+- -dir
  

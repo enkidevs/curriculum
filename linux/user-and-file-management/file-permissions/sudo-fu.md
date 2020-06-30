@@ -1,37 +1,28 @@
 ---
 author: Arseny
-
-levels:
-
-  - basic
-
-  - advanced
-
-  - medium
-
-aspects:
-  - workout
-
 type: tetris
-
 category: tip
+---
+
+# Sudo-fu
+
 
 ---
 
-# Sudo-fu 
-
----
 ## Content
 
 Does the command need to be run under root user, or can the command be run with regular user permissions?
 
 Assume all default or conventional unix directories have default set of permissions.
 
+
 ---
+
 ## Game Content
 
 sudo:no sudo
-```true
+
+```plain-text
 
 ls /usr
 %exp
@@ -90,7 +81,7 @@ Shutdown sets a time when the pc should be shut down. It is specified that the c
 
 ```
 
-```false
+```plain-text
 passwd someguy
 %exp
 This command enables the logged on user to change others users passwords. Only sudoers can do it.

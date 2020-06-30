@@ -33,8 +33,8 @@ To publish a project while it's open, go to the top right corner of the current 
 
 This will give you 2 options:
 
-* publish on their domain.
-* publish on your own custom domain.
+- publish on their domain.
+- publish on your own custom domain.
 
 ![publishing-options](https://img.enkipro.com/06eff9969f7b05c6bf01bf1f31e26e11.png)
 
@@ -57,6 +57,6 @@ How do you create an element from a template?
 
 ???
 
-* dashboard -> new project -> select desired template
-* my account -> new project -> select desired template
+- dashboard -> new project -> select desired template
+- my account -> new project -> select desired template
  

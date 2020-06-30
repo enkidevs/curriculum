@@ -23,12 +23,12 @@ The `<col>` element has one element-specific attribute: `span`, and is used to s
 
 You can edit the `<col>` element by using the appropriate CSS properties, for instance:
 
-* `width`
-* `text-align`
+- `width`
+- `text-align`
 
 Example with both elements:
 
-```html
+```plain-text
 <table>
  <colgroup>
   <col span="2"
@@ -60,7 +60,7 @@ In the example above, the `<colgroup>` element is used to create a group of 3 `<
 
 Write the code to create the following table:
 
-```html
+```plain-text
 <table>
  <tag1>
   <tag2 span="2"
@@ -88,15 +88,15 @@ When using the `<colgroup>` element, which statements is not true?
 
 ???
 
-* `colgroup`
-* `col`
-* must be placed before any `<caption>` elements
-* `colstyle`
-* `colspan`
-* `column`
-* must be used as a child of a `<table>` element.
-* must be placed after any `<caption>` elements
-* must be placed before any `<thead>`, `<tbody>`, `<tfoot>`, & `<tr>` elements.
+- `colgroup`
+- `col`
+- must be placed before any `<caption>` elements
+- `colstyle`
+- `colspan`
+- `column`
+- must be used as a child of a `<table>` element.
+- must be placed after any `<caption>` elements
+- must be placed before any `<thead>`, `<tbody>`, `<tfoot>`, & `<tr>` elements.
 
 
 ---
@@ -107,11 +107,11 @@ Which HTML element is useful for applying styles to entire columns, rather than 
 
 ???
 
-* `<colgroup>`
-* `<rowgroup>`
-* `<col>`
-* `<colstyle>`
-* `<colspan>`
+- `<colgroup>`
+- `<rowgroup>`
+- `<col>`
+- `<colstyle>`
+- `<colspan>`
 
 
 ---
@@ -125,10 +125,10 @@ What self-closing element can be used within `<colgroup>` to define unique style
 
 ???
 
-* `<col>`
-* `<column>`
-* `<style>`
-* `<colspan>`
-* `<template>`
-* `<colstyle>`
+- `<col>`
+- `<column>`
+- `<style>`
+- `<colspan>`
+- `<template>`
+- `<colstyle>`
  

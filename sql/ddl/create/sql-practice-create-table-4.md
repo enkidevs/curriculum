@@ -31,16 +31,16 @@ links:
 
 Create a table called `requests`. This table should contain the following columns, which should store the following values:
 
-* `id`, a unique value to identify a request
-* `user_id`, the ID of the requestor, for example: "1", "2",
-* `user_item_id`, The ID of the user_item being requested, for example:  "1", "2",
-* `date_from`, for example: "12-02-2017",
-* `date_until`, for example: "12-02-2017",
-* `accepted`, for example: "true" or "false"
+- `id`, a unique value to identify a request
+- `user_id`, the ID of the requestor, for example: "1", "2",
+- `user_item_id`, The ID of the user_item being requested, for example:  "1", "2",
+- `date_from`, for example: "12-02-2017",
+- `date_until`, for example: "12-02-2017",
+- `accepted`, for example: "true" or "false"
 
 After you've created that table, add this to your seed data
 
-```sql
+```plain-text
 INSERT INTO requests (id, user_id, user_item_id, date_from, date_until, accepted)
 VALUES (0, 3, 2, "2017-12-02", "2017-12-15", 1);
 
@@ -62,11 +62,11 @@ VALUES (5, 1, 3, "2018-01-06", "2018-01-15", 1);
 
 In total, you will need to:
 
-* *create the table*
-* *add the seed data*
-* *build the schema*
-* `SELECT COUNT(user_item_id), user_item_id FROM requests GROUP BY user_item_id`
-* *run the provided query*
-* *which item is the most requested?*
-* *Enter the ID of the most requested item in the answer field*
+- *create the table*
+- *add the seed data*
+- *build the schema*
+- `SELECT COUNT(user_item_id), user_item_id FROM requests GROUP BY user_item_id`
+- *run the provided query*
+- *which item is the most requested?*
+- *Enter the ID of the most requested item in the answer field*
  

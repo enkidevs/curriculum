@@ -1,35 +1,21 @@
 ---
 author: catalin
-
-levels:
-  - basic
-  - advanced
-  - medium
-
 type: normal
-
 category: best practice
-
-standards:
-  javascript.identify-common-design-patterns.3: 10
-
 tags:
   - introduction
   - workout
-
 links:
   - '[nodejs.org](https://nodejs.org/api/errors.html){website}'
-  - '[blog.risingstack.com](https://blog.risingstack.com/node-js-best-practices/){website}'
-
-aspects:
-  - introduction
-  - workout
-
-
+  - >-
+    [blog.risingstack.com](https://blog.risingstack.com/node-js-best-practices/){website}
 ---
+
 # `try-catch` only for **sync** code
 
+
 ---
+
 ## Content
 
 All *JavaScript* errors are handled as exceptions that will **instantly** generate and `throw` and error. To handle them, `try-catch` constructor is used.
@@ -37,7 +23,8 @@ All *JavaScript* errors are handled as exceptions that will **instantly** genera
 However, most errors from within **asynchronous** APIs behave differently (mostly with callbacks or `EventEmitters`) so they can't be handled with `try-catch`.
 
 For example, `JSON.parse` method happens **synchronously**. We can handle its errors with a `try-catch` block:
-```javascript
+
+```plain-text
 function readJSON(filePath, callback) {  
   fs.readFile(filePath, (err, data) => {
     var parsedJson;
@@ -60,12 +47,14 @@ function readJSON(filePath, callback) {
 
 ```
 
+
 ---
+
 ## Practice
 
 Which of the following is the correct declaration of a `try-catch` block? ???
 
-```javascript
+```plain-text
 // Option A
 try (
    // code
@@ -89,18 +78,19 @@ try {
 
 ```
 
-* Option C
-* Option A
-* Option B
+- Option C
+- Option A
+- Option B
+
 
 ---
+
 ## Revision
 
 How must errors happen as to handle them with a `try-catch` block?
 
 ???
 
-* synchronously
-* asynchronously
-
+- synchronously
+- asynchronously
  

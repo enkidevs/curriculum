@@ -26,11 +26,11 @@ You should include any properties that are useful for the person who will read i
 
 For example:
 
-* `localHostname` the local DNS hostname
-* `localIp` the local IP address
-* `localPort`the local TCP port
-* `propertyName` an object property name, or an argument name
-* `propertyValue` an object property value
+- `localHostname` the local DNS hostname
+- `localIp` the local IP address
+- `localPort`the local TCP port
+- `propertyName` an object property name, or an argument name
+- `propertyValue` an object property value
 
 
 ---
@@ -41,10 +41,10 @@ When handling errors in Node, which class is it best practice to use?
 
 ???
 
-* Error
-* node-error
-* Node-error
-* nodeerror
+- Error
+- node-error
+- Node-error
+- nodeerror
 
 
 ---
@@ -55,8 +55,8 @@ Which one would be a conventional property name for error handling?
 
 ???
 
-* localHostname
-* host
-* name
-* localName
+- localHostname
+- host
+- name
+- localName
  

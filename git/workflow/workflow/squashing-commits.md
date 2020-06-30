@@ -19,7 +19,7 @@ If you contribute to an open source project, e.g., by submitting a pull request 
 
 You should **squash** your commits together. For example, if you have three commits:
 
-```bash
+```plain-text
 git reset HEAD~3
 git add .
 git commit -am "Fix bug #14"
@@ -39,7 +39,7 @@ Squashing commits means
 
 ??? .
 
-* combining them into one big commit
-* deleting them
-* commiting them
+- combining them into one big commit
+- deleting them
+- commiting them
  

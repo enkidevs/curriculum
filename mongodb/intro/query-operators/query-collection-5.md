@@ -1,27 +1,20 @@
 ---
 author: Stefan-Stojanovic
-
-levels:
-  - beginner
-
-aspects:
-  - introduction
-  - workout
-
 type: normal
-
 category: how to
-
 ---
 
 # Querying a Collection Using $ne, $eq, and $nin
 
+
 ---
+
 ## Content
 
 So far, we discussed how to query using one or a combination of these operators:
 
 Comparison:
+
 - `$gt`
 - `$gte`
 - `$lt`
@@ -29,6 +22,7 @@ Comparison:
 - `$in`
 
 Logical:
+
 - `$or`
 - `$and`
 
@@ -41,29 +35,34 @@ Now, we are going to discuss the last 3 comparison operators:
 The `$ne` operator is used to find documents that don't match the value of the specified field. The query would also display documents which don't have the specified field.
 
 For instance:
-```javascript
+
+```plain-text
 db.pokemon.find({
   secondType: { $ne: "Rock" }
 })
 ```
+
 The query above would display all documents whose `secondType` is not `"Rock"`, and also documents that don't even have a `secondType` field.
 
 The `$eq` operator is used to only find documents that match the value of the specified field. For instance:
-```javascript
+
+```plain-text
 db.pokemon.find({
   type: { $eq: "Fire" }
 })
 ```
 
 This query finds only pokémon whose `type` is `"Fire"`. This is exactly the same as:
-```javascript
+
+```plain-text
 db.pokemon.find({
   type: "Fire"
 })
 ```
 
 The `$nin` operator, which operates similarly to the `$ne` operator, is used to find all documents whose fields don't match the values in the specified array and the documents that don't have the specified field.
-```javascript
+
+```plain-text
 db.pokemon.find({
   secondType: {
     $nin: ["Grass", "Fire"]
@@ -72,7 +71,8 @@ db.pokemon.find({
 ```
 
 Output:
-```javascript
+
+```plain-text
 {
   "_id": ObjectId(
     "5d9d8ce90b24990f19398219"
@@ -93,12 +93,15 @@ Output:
 // ...
 ```
 
+
 ---
+
 ## Practice
 
 Complete each query.
 
 Find all pokémon whose `age` is exactly `41`:
+
 ```javascript
 db.pokemon.find({
   ???: { ???: 41 }
@@ -106,6 +109,7 @@ db.pokemon.find({
 ```
 
 Find all pokémon that don't have a `type` of either `Mud` or `Flying`:
+
 ```javascript
 db.pokemon.find({
   ???: {
@@ -115,23 +119,26 @@ db.pokemon.find({
 ```
 
 Find all pokémon whose `power` does not equal `500`:
+
 ```javascript
 db.pokemon.find({
   ???: { ???: 500 }
 })
 ```
 
-* `age`
-* `$eq`
-* `type`
-* `$nin`
-* `power`
-* `$ne`
-* `$and`
-* `$en`
-* `$qe`
+- `age`
+- `$eq`
+- `type`
+- `$nin`
+- `power`
+- `$ne`
+- `$and`
+- `$en`
+- `$qe`
+
 
 ---
+
 ## Revision
 
 Match the query operator with its explanation:
@@ -150,10 +157,11 @@ Greater than a value: ???
 
 Less than a value: ???
 
-* `$ne`
-* `$eq`
-* `$nin`
-* `$gte`
-* `$lte`
-* `$gt`
-* `$lt`
+- `$ne`
+- `$eq`
+- `$nin`
+- `$gte`
+- `$lte`
+- `$gt`
+- `$lt`
+ 

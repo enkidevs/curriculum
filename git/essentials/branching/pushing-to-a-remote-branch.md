@@ -19,13 +19,13 @@ If you want to share a branch, you have to push it to the remote.
 
 To do this, you run `git push <remote> <branch>`. For example, to push a fix:
 
-```bash
+```plain-text
 git push origin scrollFix
 ```
 
 If you want to push a local branch into a remote branch but call it by a different name, you can use this format:
 
-```bash
+```plain-text
 git push origin scrollFix:uiFix
 ```
 
@@ -40,12 +40,12 @@ Share a branch `test` with the remote `origin` :
 git ??? ??? ???
 ```
 
-* `push`
-* `origin`
-* `test`
-* `master`
-* `branch`
-* `commit`
+- `push`
+- `origin`
+- `test`
+- `master`
+- `branch`
+- `commit`
 
 
 ---
@@ -59,7 +59,7 @@ git push origin
          ???:???
 ```
 
-* `test`
-* `fix`
-* `rename`
+- `test`
+- `fix`
+- `rename`
  

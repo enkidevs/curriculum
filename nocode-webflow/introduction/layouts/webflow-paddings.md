@@ -30,6 +30,6 @@ Now, you can change the padding for each side by either clicking on the number, 
 
 Padding is used to move components ??? from the border.
 
-* away
-* closer to
+- away
+- closer to
  

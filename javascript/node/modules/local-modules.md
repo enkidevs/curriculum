@@ -25,7 +25,7 @@ Local modules must be **in their own separate JavaScript file**.
 
 Consider the following example of a local module, found in the `news.js` file:
 
-```javascript
+```plain-text
 // news.js
 
 const news = {
@@ -42,7 +42,7 @@ module.exports = news
 
 A local module has to be required into an application in the same way a core module does. The only difference is that the path to the module must be specified in `main.js`:
 
-```javascript
+```plain-text
 // main.js
 
 const newsModule = require(`./news.js`);
@@ -52,7 +52,7 @@ const newsModule = require(`./news.js`);
 
 The local module object can now be called with one of its functions:
 
-```javascript
+```plain-text
 // main.js
 const newsModule = require(`./news.js`);
 
@@ -61,7 +61,7 @@ newsModule.good("We're working on Node!");
 
 To run the module:
 
-```bash
+```plain-text
 node main.js
 # Good news! We're working on Node!
 ```
@@ -73,7 +73,7 @@ node main.js
 
 Consider the following local node module:
 
-```javascript
+```plain-text
 // myModule.js
 
 module.exports = {
@@ -95,14 +95,14 @@ const myModule = ???('./myModule.js')
 ???.???
 ```
 
-* require
-* myModule
-* hello()
-* hello
-* req
-* import
-* myFile
-* myLocalModule
+- require
+- myModule
+- hello()
+- hello
+- req
+- import
+- myFile
+- myLocalModule
 
 
 ---
@@ -113,6 +113,6 @@ Which of the following module types must have its path specified when requiring 
 
 ???
 
-* local
-* core
+- local
+- core
  
