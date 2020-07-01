@@ -27,7 +27,7 @@ The `gulp-mocha` plugin allows you to run *mocha* tests via *gulp*.
 
 To install *gulp-mocha*:
 ```bash
-$ npm install gulp-mocha
+npm install gulp-mocha
 ```
 
 In *gulpfile.js* add the following modules:
@@ -68,3 +68,5 @@ describe('boolean tests', function() {
   });
 });
 ```
+ 
+ 

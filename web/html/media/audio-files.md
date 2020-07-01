@@ -1,26 +1,21 @@
 ---
 author: Stefan-Stojanovic
-
-levels:
-  - beginner
-  - basic
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-  - workout
-  - deep
-
 links:
-  - '[MDN: <audio> Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio){documentation}'
-  - '[W3S: <audio> Element](https://www.w3schools.com/html/html5_audio.asp){documentation}'
+  - >-
+    [MDN: <audio>
+    Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio){documentation}
+  - >-
+    [W3S: <audio>
+    Element](https://www.w3schools.com/html/html5_audio.asp){documentation}
+---
+
+# Audio Files
+
 
 ---
-# Audio Files
----
+
 ## Content
 
 In order to support all browsers, it is useful to provide two different types of audio within your `<audio>` players: mp3/m4a & ogg
@@ -52,43 +47,48 @@ songs can be added via the `<source>` element which will accomodate the appropra
 
 
 ---
+
 ## Practice
 
 Finish the sentence:
 
 In order for audio files today to be supported on all major web browsers you should use either the `???` or `???` format.
 
-* .mp3/.m4a
-* .ogg
-* .mp4
-* .wav
-* .tunes
-* flash
+- .mp3/.m4a
+- .ogg
+- .mp4
+- .wav
+- .tunes
+- flash
 
 
 ---
+
 ## Revision
 
 When you want to provide fallback content for users that do not have browsers that support HTML5 audio, what do you need to do?
 
 ???
 
-* Add any content between the start and end `<audio>` tags.
-* CSS can be used to notify the user.
-* Any browser, regardless of the version, can play HTML5 audio.
-* Use the attribute "fallback" to provide the appropriate message.
+- Add any content between the start and end `<audio>` tags.
+- CSS can be used to notify the user.
+- Any browser, regardless of the version, can play HTML5 audio.
+- Use the attribute "fallback" to provide the appropriate message.
+
 
 ---
+
 ## Quiz
 
 ### How much do you know about the HTML audio element?
+
 
 How many audio files are useful to add to a single `<audio>` element in order to be supported on all major web browsers today?
 
 ???
 
-* 2
-* 1
-* 3
-* 4
-* 5+
+- 2
+- 1
+- 3
+- 4
+- 5+

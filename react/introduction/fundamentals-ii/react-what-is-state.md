@@ -1,22 +1,21 @@
 ---
 author: catalin
-
 type: normal
-
 category: must-know
-
 links:
-  - '[State and the lifecycle](https://facebook.github.io/react/docs/state-and-lifecycle.html){website}'
-  - '[React state](https://medium.com/react-tutorials/react-state-14a6d4f736f5#.8vf5a6ngz){website}'
-
-aspects:
-  - introduction
-
+  - >-
+    [State and the
+    lifecycle](https://facebook.github.io/react/docs/state-and-lifecycle.html){website}
+  - >-
+    [React
+    state](https://medium.com/react-tutorials/react-state-14a6d4f736f5#.8vf5a6ngz){website}
 ---
 
 # What is state?
 
+
 ---
+
 ## Content
 
 Just like `props`, **React** components' `state` can change their behavior or how they render.
@@ -73,7 +72,9 @@ The snippet above will update the `state` one second after construction. Specifi
 
 Note that we are setting the `state` here inside a `setTimeout` call. This might not be recommended (depending on your application) due to the posibility of creating memory leaks[3].
 
+
 ---
+
 ## Practice
 
 How do you change the value of `this.state.a` ?
@@ -82,26 +83,28 @@ How do you change the value of `this.state.a` ?
 ???
 ```
 
+- `this.setState({a: 'A'})`
+- `this.state.a = 'A'`
+- `this.setState({state: {a: 'A'}})`
+- `constructor(state) {super({a: 'A'})}`
 
-* `this.setState({a: 'A'})`
-* `this.state.a = 'A'`
-* `this.setState({state: {a: 'A'}})`
-* `constructor(state) {super({a: 'A'})}`
 
 ---
+
 ## Revision
 
 Where should **initial state** be set in a component class?
 
 ???
 
+- in `constructor(props)`
+- in `render()`
+- in `this.setState(initialState)`
+- anywhere in the component
 
-* in `constructor(props)`
-* in `render()`
-* in `this.setState(initialState)`
-* anywhere in the component
 
 ---
+
 ## Footnotes
 
 [1:Immutable State]

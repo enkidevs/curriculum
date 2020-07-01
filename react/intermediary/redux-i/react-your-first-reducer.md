@@ -1,22 +1,14 @@
 ---
 author: kapnobatai136
-
-levels:
-  - advanced
-  - medium
-  - basic
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-
 ---
+
 # Your first reducer
 
+
 ---
+
 ## Content
 
 In a previous insight we have created a reducer that looked something like this:
@@ -111,6 +103,7 @@ The last step is connecting the handler functions `increase`, `decrease`, and `r
 
 
 ---
+
 ## Practice
 
 Complete the following code to dispatch the `add` action:
@@ -125,16 +118,18 @@ class MyApp extends React.Component {
 }
 ```
 
-* this
-* props
-* dispatch
-* type
-* that
-* state
-* action
-* send
+- this
+- props
+- dispatch
+- type
+- that
+- state
+- action
+- send
+
 
 ---
+
 ## Revision
 
 Complete the following code to dispatch the `add` action:
@@ -149,11 +144,11 @@ class MyApp extends React.Component {
 }
 ```
 
-* this
-* props
-* dispatch
-* type
-* that
-* state
-* action
-* send
+- this
+- props
+- dispatch
+- type
+- that
+- state
+- action
+- send

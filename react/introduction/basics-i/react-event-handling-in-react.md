@@ -1,38 +1,23 @@
 ---
 author: catalin
-
-levels:
-
-  - beginner
-
-  - basic
-
-  - medium
-
-  - advanced
-
 type: normal
-
 category: must-know
-
-
 links:
-
-  - '[Handling events](https://facebook.github.io/react/docs/handling-events.html){website}'
-
+  - >-
+    [Handling
+    events](https://facebook.github.io/react/docs/handling-events.html){website}
 parent: forms-in-react
-
-aspects:
-  - deep
-
 ---
 
 # Event handling in React
 
+
 ---
+
 ## Content
 
 Adding **event handlers** in **React** is done by providing a listener to the element when initially `render`ed (and **not** by calling `addEventListener` like with regular DOM):
+
 ```jsx
 class Click extends React.Component {
   render() {
@@ -46,6 +31,7 @@ class Click extends React.Component {
 ```
 
 A common practice when using **ES6 classes** is to have event listeners as separate methods in the class:
+
 ```jsx
 // within Click component:
 myListener(e) {
@@ -67,6 +53,7 @@ If we call a function as a method on an object, i.e. `person.say()`, `this` will
 If we call a function as a standalone function, i.e. `say()`, `this` will be `undefined`. 
 
 Since we're passing `myListener` into a `button` as the `onClick` function, the `button` will internally call it as a regular function, i.e. `onClick()`, making the `this` be `undefined` and causing an error. By binding `this` to always point to our class instance, we can avoid this problem.
+
 ```jsx
 class Click extends React.Component {
   constructor(props) {
@@ -79,6 +66,7 @@ class Click extends React.Component {
 ```
 
 Another approach is to `bind` the function directly:
+
 ```jsx
 render() {
   return (
@@ -94,10 +82,13 @@ Although possible, it is advised against `bind`ing functions inside `render()` a
 
 A similar effect can be achieved using either the **property initializer syntax**[2] or an **arrow function**[3] in the callback.
 
+
 ---
+
 ## Practice
 
 Complete the `constructor` of the following **React Component** so that you can use `this` keyword in `myHandler()`:
+
 ```jsx
 class Practice extends React.Component {
   constructor(props) {
@@ -112,20 +103,22 @@ class Practice extends React.Component {
 }
 ```
 
+- `myHandler`
+- `this.myHandler`
+- `bind`
+- `this`
+- `myHandler()`
+- `this.myHandler()`
+- `bind()`
+- `bind(this)`
 
-* `myHandler`
-* `this.myHandler`
-* `bind`
-* `this`
-* `myHandler()`
-* `this.myHandler()`
-* `bind()`
-* `bind(this)`
 
 ---
+
 ## Revision
 
 Add `clickCallback` as an event handler for the defined `<button>` in the following component:
+
 ```jsx
 class Click extends React.Component {
   clickCallback() {
@@ -142,21 +135,22 @@ class Click extends React.Component {
 
 ```
 
+- `onClick`
+- `this.clickCallback`
+- `clickCallback`
+- `onMousePressed`
+- `onclicked`
+- `onclick`
+- `this.clickCallback()`
 
-* `onClick`
-* `this.clickCallback`
-* `clickCallback`
-* `onMousePressed`
-* `onclicked`
-* `onclick`
-* `this.clickCallback()`
 
 ---
+
 ## Footnotes
+
 [1:synthetic events]
 The `SyntheticEvent` is a cross-browser wrapper used by **React** whose instances are passed to event handling function.
 It has exactly the same interface as the browser's native `event`.
-
 
 [2:property initializer syntax]
 This is an **experimental** *Stage 2* feature which is already set up when creating an app with `create-react-app`.
@@ -164,11 +158,14 @@ This is an **experimental** *Stage 2* feature which is already set up when creat
 Note that there is no guarantee this will be adopted as a standard.
 
 To use it the following `Babel` plugin must be installed:
-```
+
+```plain-text
 npm install --save-dev
  babel-plugin-transform-class-properties
 ```
+
 Then you can define the handler function which will be automatically `bind`ed like:
+
 ```jsx
 myListener = (e) => {
   console.log('button clicked');
@@ -181,6 +178,7 @@ Using the **arrow function** approach it will create a different *callback* ever
 This is fine except in the case when the handler is passed as a `prop` to lower `component`s as they might do extra re-rendering.
 
 Keep in mind this is considered a **bad practice**:
+
 ```jsx
 // ...
 return (
@@ -190,4 +188,3 @@ return (
   </button>
 );
 ```
-

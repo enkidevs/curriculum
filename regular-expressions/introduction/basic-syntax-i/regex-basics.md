@@ -1,26 +1,21 @@
 ---
 author: emmab
-
 tags:
   - introduction
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-
 ---
 
 # Regex basics
 
+
 ---
+
 ## Content
 
 Very basic regex patterns can be *identical to the content* of the text we want to test:
 
-```
+```plain-text
 text = 'Fred'
 
 /fred/ ❌ 
@@ -42,24 +37,29 @@ We could use `/Fre/` as our regex pattern to match the following:
 
 In order to match the whole name, we'd have to use quantifiers and wildcards - more about those next!
 
+
 ---
+
 ## Practice
 
 How could we match items in a shopping list that include the word 'apple'?
 
 ???
 
-* `/apple/`
-* `/a/`
-* `/🍏/`
-* `/Apple/`
+- `/apple/`
+- `/a/`
+- `/🍏/`
+- `/Apple/`
+
 
 ---
+
 ## Revision
 
 When writing regex patterns, capitalization matters.
 
 ???
 
-* True
-* False
+- True
+- False
+ 

@@ -1,23 +1,14 @@
 ---
 author: Stefan-Stojanovic
-
-levels:
-  - beginner
-  - basic
-  
-aspects:
-  - introduction
-  - new
-
 type: normal
-
 category: feature
-
 ---
 
 # Aggregation With Object Expression Operators II
 
+
 ---
+
 ## Content
 
 The `$objectToArray` object expression operator is used to convert a document/object to an array.
@@ -25,6 +16,7 @@ The `$objectToArray` object expression operator is used to convert a document/ob
 The outputted array has 2 fields, `k` and `v`, for each key-value pair of the original document, and is considered a document.
 
 For instance, let's say we have this document within our `pokemon` collection:
+
 ```javascript
 {
   "_id": ObjectId(
@@ -41,6 +33,7 @@ For instance, let's say we have this document within our `pokemon` collection:
 ```
 
 Example aggregation where we only include the object(`spells`):
+
 ```javascript
 db.pokemon.aggregate([
   {
@@ -53,6 +46,7 @@ db.pokemon.aggregate([
 ```
 
 Output:
+
 ```javascript
 {
    "_id": ObjectId(
@@ -69,7 +63,9 @@ As you can see in the example above, the object was transformed into an array. E
 
 **Note:** We used the same name `"spells"` to store the converted object. You can use a different name.
 
+
 ---
+
 ## Practice
 
 Fill in the gaps below to transform the document into an array and output the converted object into an array with the same name. Project the aggregation's result together with the `power` field.
@@ -100,20 +96,22 @@ db.pokemon.aggregate([
 ]);
 ```
 
-* `power`
-* `spells`
-* `$objectToArray`
-* `$documentToArray`
-* `$combineObjects`
+- `power`
+- `spells`
+- `$objectToArray`
+- `$documentToArray`
+- `$combineObjects`
+
 
 ---
+
 ## Revision
 
 Which of these operators are Object expression operators?
 
 ???
 
-* `$objectToArray` and `$mergeObjects`
-* `$fromObjectToAnArray`
-* `$arrayToObjects` and `$mergeArrays`
-* `$objectToArray` and `$arrayToObject`
+- `$objectToArray` and `$mergeObjects`
+- `$fromObjectToAnArray`
+- `$arrayToObjects` and `$mergeArrays`
+- `$objectToArray` and `$arrayToObject`

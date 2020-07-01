@@ -1,22 +1,18 @@
 ---
 author: emmab
-
 type: normal
-
 category: how to
-
-aspects:
-  - introduction
-  - workout
-
 links:
-  - '[Python List Methods](https://www.programiz.com/python-programming/methods/list){website}'
-
+  - >-
+    [Python List
+    Methods](https://www.programiz.com/python-programming/methods/list){website}
 ---
 
 # List Methods I
 
+
 ---
+
 ## Content
 
 Python has many built-in `list` methods. Here are some of the most handy ones to know about!
@@ -68,7 +64,9 @@ print(number_list)
 # [6, 5, 3, 2]
 ```
 
+
 ---
+
 ## Practice
 
 Extend `positive` with `negative`:
@@ -80,14 +78,15 @@ negative = [-1, -2, -3, -4]
 ???.???(???)
 ```
 
-* positive
-* extend
-* negative
-* concatenate
-* append
+- positive
+- extend
+- negative
+- concatenate
+- append
 
 
 ---
+
 ## Revision
 
 Which of the following would NOT work to remove the element at index `3`:
@@ -98,7 +97,7 @@ pancake = ['eggs', 'flour', 'milk', 'butter']
 
 ???
 
-* `pancake.remove(3)`
-* `pancake.remove('butter')`
-* `pancake.pop()`
-* `pancake.pop(3)`
+- `pancake.remove(3)`
+- `pancake.remove('butter')`
+- `pancake.pop()`
+- `pancake.pop(3)`

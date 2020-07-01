@@ -1,24 +1,18 @@
 ---
 author: Stefan-Stojanovic
-
-levels:
-  - beginner
-  - basic
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-  - workout
-
 links:
-  - '[HTML <checkbox> Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/checkbox){documentation}'
+  - >-
+    [HTML <checkbox>
+    Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/checkbox){documentation}
+---
+
+# Check Boxes
+
 
 ---
-# Check Boxes
----
+
 ## Content
 
 The HTML `checkbox` type of input forms are square boxes that can be ticked or checked to be activated. They allow you to either select none, a single value, or more multiple values at once.
@@ -49,6 +43,7 @@ The HTML `checkbox` type of input forms are square boxes that can be ticked or c
 **Note:** A similar input form type is `radio`. This input type is also clickable, however, unlike with checkboxes, if multiple options are present, the radio buttons can have only one option checked at a time.
 
 Example with one checkbox:
+
 ```html
 <form>
   <div>
@@ -79,7 +74,9 @@ If no checkbox is ticked/checked upon form submission, the name/value pair is `v
 
 If the `value` attribute is obmitted, then the default value for the checkbox would be `on` and upon submission, the name/value pair would be `report=on`.
 
+
 ---
+
 ## Practice
 
 Write the form code that creates a checkbox.
@@ -88,20 +85,22 @@ Write the form code that creates a checkbox.
 <??? ???="???">
 ```
 
-* input
-* type
-* checkbox
-* check
-* select
+- input
+- type
+- checkbox
+- check
+- select
+
 
 ---
+
 ## Revision
 
 Which line creates an HTML form’s checkbox?
 
 ???
 
-* `<input type="checkbox">`
-* `<input type="check">`
-* `<form input="check">`
-* `<form input="checkbox">`
+- `<input type="checkbox">`
+- `<input type="check">`
+- `<form input="check">`
+- `<form input="checkbox">`

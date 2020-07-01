@@ -1,25 +1,14 @@
 ---
 author: tommarshall
-
-levels:
-
-  - basic
-
-  - beginner
-
 type: normal
-
 category: how to
-
-aspects:
-
-  - introduction 
-  
 ---
 
 # Checking a double for `NaN` value
 
+
 ---
+
 ## Content
 
 Comparisons of numbers with `NaN` values throw up errors due to the semantics of `NaN`.

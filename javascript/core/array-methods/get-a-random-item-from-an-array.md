@@ -1,19 +1,14 @@
 ---
 author: AlexYancey
-
 type: normal
-
 category: how to
-
-aspects:
-  - introduction
-  - workout
-
 ---
 
 # Get a Random Item From an Array
 
+
 ---
+
 ## Content
 
 Given the array:
@@ -37,7 +32,9 @@ Now, print out the result.
 console.log("Let's get " + food[randIndex]);
 ```
 
+
 ---
+
 ## Practice
 
 How would you select a fruit at random from the array `fruits`?
@@ -59,11 +56,13 @@ console.log(
 
 ```
 
-* `floor`
-* `ceil`
-* `wall`
+- `floor`
+- `ceil`
+- `wall`
+
 
 ---
+
 ## Revision
 
 How would you select a fruit at random from the array `fruits`?
@@ -80,12 +79,13 @@ console.log(
 );
 ```
 
+- `floor`
+- `ceil`
+- `wall`
 
-* `floor`
-* `ceil`
-* `wall`
- 
+
 ---
+
 ## Footnotes
 
 [1:Explanation]

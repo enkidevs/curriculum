@@ -1,41 +1,22 @@
 ---
 author: lizTheDeveloper
-
-levels:
-
-  - beginner
-
-  - basic
-
 type: normal
-
 category: feature
-
-aspects:
-  - introduction
-  - new
-  - workout
-
 inAlgoPool: false
-
 tags:
-
   - es6
-
   - workout
-
   - functions
-
-
 links:
-
-  - '[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions){website}'
-
+  - >-
+    [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions){website}
 ---
 
 # Arrow Functions (Part 1)
 
+
 ---
+
 ## Content
 
 **Arrow functions** (called lambda or "fat arrow" functions in some other languages) provide a shorthand syntax to declare function expression.
@@ -73,10 +54,13 @@ let add = (x, y) => x + y;
 add(2, 4); //6
 ```
 
+
 ---
+
 ## Practice
 
 Write a function that will take the array `planets` and output `[5, 6, 5, 7]`:
+
 ```js
 let foo = () => {
   let planets = [
@@ -92,12 +76,14 @@ let foo = () => {
 };
 ```
 
-* `planet`
-* `planet.length`
-* `return planet.length`
-* `{planet}`
+- `planet`
+- `planet.length`
+- `return planet.length`
+- `{planet}`
+
 
 ---
+
 ## Revision
 
 Filter out all of the odd numbers,
@@ -110,11 +96,8 @@ let integers = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 integers.filter(???);
 ```
 
-
-* `(n) => {return n % 2 == 0}`
-* `n => {n % 2 === 0}`
-* `n => n % 2 !== 0`
-* `{n} => {n % 2 != 0}`
-* `n => [return n % 2 === 0]`
-
- 
+- `(n) => {return n % 2 == 0}`
+- `n => {n % 2 === 0}`
+- `n => n % 2 !== 0`
+- `{n} => {n % 2 != 0}`
+- `n => [return n % 2 === 0]`

@@ -1,29 +1,22 @@
 ---
 author: alexjmackey
-
-levels:
-  - medium
-  - advanced
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-  - new
-  - workout
-
 inAlgoPool: false
-
 links:
-  - '[MDN - Import](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import){website}'
-  - '[MDN - Export](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/export){website}'
-
+  - >-
+    [MDN -
+    Import](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import){website}
+  - >-
+    [MDN -
+    Export](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/export){website}
 ---
+
 # Multiple Functions in Single Module
 
+
 ---
+
 ## Content
 
 A module always exists in one file but within this file we can declare multiple functions.
@@ -80,7 +73,9 @@ if (condition) {
 }
 ```
 
+
 ---
+
 ## Practice
 
 The first snippet below represents the module file that should export two functions. The second represents the file in which the module functions are imported.
@@ -117,22 +112,24 @@ console.log(subtractTwo(5, 3))
 // 2
 ```
 
-* export
-* { add
-* subtract }
-* import
-* as
-* as subtractTwo
-* from
-* add
-* subtract
-* modules.exports
-* {
-* }
-* require
-* path
+- export
+- { add
+- subtract }
+- import
+- as
+- as subtractTwo
+- from
+- add
+- subtract
+- modules.exports
+- {
+- }
+- require
+- path
+
 
 ---
+
 ## Revision
 
 Fill in the gaps such that the `log` file is exported properly and can be imported as shown:
@@ -153,19 +150,18 @@ Main file:
   ??? 'logger'
 ```
 
-* export
-* default
-* import
-* as
-* from
-* require
-* exports
-* exposes
-* default export
-* module.exports
-* export.log
-* name
-* path
-* get
-* rename
- 
+- export
+- default
+- import
+- as
+- from
+- require
+- exports
+- exposes
+- default export
+- module.exports
+- export.log
+- name
+- path
+- get
+- rename

@@ -26,13 +26,13 @@ In the basic git process, your file can be in one of three states: **modified**,
 First you **modify** a file (e.g. `hello.txt`) in your working directory. 
 
 Then you **stage** the file, which adds a 'snapshot' of it to your staging area:
-```
-$ git add hello.txt
+```bash
+git add hello.txt
 ```
 
 Finally you **commit**, which stores all the staged files in your git repository (a local database):
-```
-$ git commit -m 'Edit hello.txt'
+```bash
+git commit -m 'Edit hello.txt'
 ```
 This means the changes you made to `hello.txt` are now saved as a snapshot in the repository.
 
@@ -40,10 +40,10 @@ This means the changes you made to `hello.txt` are now saved as a snapshot in th
 ## Practice
 
 Go through the basic commit process:
-```
+```bash
 # enki.md modified
-$ git ??? enki.md
-$ git ??? ??? 'Changed enki.md'
+git ??? enki.md
+git ??? ??? 'Changed enki.md'
 ```
 
 * add
@@ -57,17 +57,17 @@ $ git ??? ??? 'Changed enki.md'
 ## Revision
 
 In the basic committing process, what are the three states a file can be found in?
-```
-$ git status
+```bash
+git status
 working directory clean
 
-$ touch README.md
+touch README.md
 # README.md is ???
 
-$ git add README.md
+git add README.md
 # README.md is ???
 
-$ git commit -m 'Readme'
+git commit -m 'Readme'
 # README.md is ???
 ```
 
@@ -76,4 +76,6 @@ $ git commit -m 'Readme'
 * committed
 * shared
 * saved
+ 
+ 
  

@@ -1,18 +1,14 @@
 ---
 author: kapnobatai136
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-
 ---
 
 # What you'll get out of this course
 
+
 ---
+
 ## Content
 
 Okay, so we've convinced you to dive in and learn **Git**. 
@@ -26,3 +22,4 @@ Here's what you'll be able to do if you finish this course:
 5. Know all the tips, tricks, and more!
 
 > 💡 To see in detail what we have in store for you, go to the *Skill Map* tab for a full list of workouts.
+ 

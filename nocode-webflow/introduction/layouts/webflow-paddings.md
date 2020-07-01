@@ -1,19 +1,14 @@
 ---
 author: kapnobatai136
-
 category: feature
-
-aspects:
-  - deep
-  - workout
-
 type: normal
-
 ---
 
 # Paddings
 
+
 ---
+
 ## Content
 
 When styling your components or elements, you might have to change the padding. 
@@ -28,10 +23,13 @@ To change the padding of an element, go into the style tab and find the `Spacing
 
 Now, you can change the padding for each side by either clicking on the number, or by clicking and dragging.
 
+
 ---
+
 ## Practice
 
 Padding is used to move components ??? from the border.
 
-* away
-* closer to
+- away
+- closer to
+ 

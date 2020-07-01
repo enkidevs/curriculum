@@ -1,24 +1,18 @@
 ---
 author: kapnobatai136
-  
-aspects:
-
-  - workout
-
-  - deep
-
 type: normal
-
 category: tip
-
 links:
-  - '[Use deep compare effect](https://github.com/kentcdodds/use-deep-compare-effect){website}'
-
+  - >-
+    [Use deep compare
+    effect](https://github.com/kentcdodds/use-deep-compare-effect){website}
 ---
 
 # Dependency array for useEffect
 
+
 ---
+
 ## Content
 
 One important feature of the `useEffect()` hook is represented by its dependency array. When included, the `useEffect` hook only runs when one or more of its dependencies change, which can result in a performance increase by reducing the number of re-renders. Let's take a look at an example:
@@ -58,19 +52,23 @@ Note that this is not an issue when using primitive values, such as strings or n
 
 There are multiple options of dealing with this issue which we will discuss in the next insight. 
 
+
 ---
+
 ## Practice
 
 Why would you use a dependency array in your `useEffect()` hook call?
 
 ???
 
-* To reduce the number of re-renders.
-* To increase the number of re-renders.
-* To save the `state` value at a certain point in time.
-* To have access to multiple versions of the `state`.
+- To reduce the number of re-renders.
+- To increase the number of re-renders.
+- To save the `state` value at a certain point in time.
+- To have access to multiple versions of the `state`.
+
 
 ---
+
 ## Footnotes
 
 [1: Object.is]

@@ -2,19 +2,20 @@
 author: kapnobatai136
 type: normal
 category: must-know
-aspects:
-  - introduction
 links:
   - '[What is a Compiler?](https://en.wikipedia.org/wiki/Compiler){website}'
   - '[The TypeScript Compiler](https://www.npmjs.com/package/typescript){website}'
-  - '[Moving to TypeScript files](https://www.typescriptlang.org/docs/handbook/migrating-from-javascript.html#moving-to-typescript-files){documentation}'
+  - >-
+    [Moving to TypeScript
+    files](https://www.typescriptlang.org/docs/handbook/migrating-from-javascript.html#moving-to-typescript-files){documentation}
   - '[Download Node.js](https://nodejs.org/en/download/){website}'
-
 ---
 
 # Get Started with TypeScript
 
+
 ---
+
 ## Content
 
 TypeScript can be installed with a single NPM command:
@@ -59,27 +60,33 @@ Here's an image to summarize the conversion in both directions:
 
 ![typescript-to-and-from-javascript](https://img.enkipro.com/e481e032bf000bb9622aae28b2bc1e9f.png)
 
+
 ---
+
 ## Practice
 
 The technical term for converting TypeScript into JavaScript is called ???.
 
-* compilation
-* conversion
-* transformation
-* manipulation
+- compilation
+- conversion
+- transformation
+- manipulation
+
 
 ---
+
 ## Revision
 
 To convert a JavaScript file `enki.js` to TypeScript, we can change the file name to `enki.ts`.
 
 ???
 
-* true
-* false
+- true
+- false
+
 
 ---
+
 ## Footnotes
 
 [1: A global NPM package]

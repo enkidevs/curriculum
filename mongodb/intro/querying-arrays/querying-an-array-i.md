@@ -1,18 +1,15 @@
 ---
 author: Stefan-Stojanovic
-
-aspects:
-  - introduction
-
 type: normal
-
 category: must-know
-
-links:
-
+links: null
 ---
+
 # Querying an array
+
+
 ---
+
 ## Content
 
 Querying an array in a `mongodb` database is similar to querying without an array. You need to use the `.find()` method.
@@ -25,7 +22,7 @@ db.pokedex.find( { spells: "Bite" } )
 
 The `db.pokedex.find()` method searches all the documents in the `pokedex` collection. 
 
-Adding ` { spells: "Bite" } ` makes our query look for any document with the `spells` array, and searches through that `spells` array for a `"Bite"` value.
+Adding `{ spells: "Bite" }` makes our query look for any document with the `spells` array, and searches through that `spells` array for a `"Bite"` value.
 
 Which gives us this output:
 
@@ -55,7 +52,9 @@ Which gives us this output:
 
 There are numerous other ways we can use the `.find()` method to query an array which we will cover in the next few insights.
 
+
 ---
+
 ## Practice
 
 Find all documents in the `pokedex` collection that have a `"Hydro-Pump"` value in the `spells` array.
@@ -66,8 +65,8 @@ db.pokedex???(
 )
 ```
 
-* `.find`
-* `spells`
-* `Hydro-Pump`
-* `.search`
-* `Spells`
+- `.find`
+- `spells`
+- `Hydro-Pump`
+- `.search`
+- `Spells`

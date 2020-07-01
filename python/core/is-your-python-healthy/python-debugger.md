@@ -1,32 +1,24 @@
 ---
 author: SebaRaba
-
-levels:
-  - beginner
-  - basic
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-  - workout
-  - deep
-
 links:
-  - '[Python debugger](https://www.digitalocean.com/community/tutorials/how-to-use-the-python-debugger){website}'
-
+  - >-
+    [Python
+    debugger](https://www.digitalocean.com/community/tutorials/how-to-use-the-python-debugger){website}
 ---
 
 # Python Debugger
 
+
 ---
+
 ## Content
 
 The **Python debugger** comes as a module called `pdb`, which is part of the **standard Python** distribution.
 
 We will consider a program with two **global variables**, a function that creates a **nested loop** and the `if __name__ == '__main__'` statement that calls the nested loop:
+
 ```python
 # Program name: debug.py
 
@@ -46,7 +38,7 @@ if __name__ == '__main__':
 Running the **debugger** from the command line causes it to load your **source file** and stop the execution before the first statement it finds:
 
 ```bash
-$ python3 -m pdb debug.py
+python3 -m pdb debug.py
 
 #Console output:
 
@@ -56,20 +48,25 @@ $ python3 -m pdb debug.py
 ```
 
 In the **output**:
+
 - the first line contains the current **module name** with a **directory path** and the index of the line on which the first statement is found (`1` in our case).
 - the second line shows the actual **statement** before which the **debugger** stopped.
 
 As the **debugger** is an interactive tool, it provides three commands for navigating the **source code**:
+
 - `list`
 - `step`
 - `next`
 
 We will take a look at how these work in the following insight.
 
+
 ---
+
 ## Practice
 
 What is the error this snippet will throw?
+
 ```py
 name = input('What\'s your name?\n')
 def interaction()
@@ -81,8 +78,7 @@ def interaction()
 
 ???
 
-
-* SyntaxError: invalid syntax
-* ZeroDivisionError: division by 0
-* The code will run with no errors
-* EOFError
+- SyntaxError: invalid syntax
+- ZeroDivisionError: division by 0
+- The code will run with no errors
+- EOFError

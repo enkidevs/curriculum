@@ -1,21 +1,18 @@
 ---
 author: emmab
-
 type: normal
-
-aspects:
-  - introduction
-
 category: must-know
-
 links:
-  - '[Comment Conventions](https://www.python.org/dev/peps/pep-0008/#comments){website}'
-
+  - >-
+    [Comment
+    Conventions](https://www.python.org/dev/peps/pep-0008/#comments){website}
 ---
 
 # Indentation and Commenting
 
+
 ---
+
 ## Content
 
 Python is one of the very few programming languages that *relies on the use of indentation* (tabs) to work.
@@ -64,7 +61,9 @@ As a side note, indentation doesn't matter for *commented out* lines. To comment
 print("This line isn't commented out!")
 ```
 
+
 ---
+
 ## Practice
 
 What will this code print?
@@ -78,12 +77,14 @@ else:
 
 ???
 
-* `this is true`
-* `True`
-* `False
-* `this is false`
+- `this is true`
+- `True`
+- `False
+- `this is false`
+
 
 ---
+
 ## Revision
 
 Which of the following is a valid Python comment?
@@ -96,6 +97,6 @@ Which of the following is a valid Python comment?
 
 ???
 
-* `Comment C`
-* `Comment B`
-* `Comment A`
+- `Comment C`
+- `Comment B`
+- `Comment A`

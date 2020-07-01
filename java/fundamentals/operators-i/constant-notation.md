@@ -1,35 +1,18 @@
 ---
 author: Demonus
-
-levels:
-
-  - basic
-
-  - beginner
-
 type: normal
-
 category: tip
-
-aspects:
-
-  - introduction
-
-  - obscura
-
 tags:
-
   - final
-
   - constant
-
   - java
-
 ---
 
 # Constant notation
 
+
 ---
+
 ## Content
 
 When creating constants (variables with only one value), it is good practice to write them in full-capital letters.  

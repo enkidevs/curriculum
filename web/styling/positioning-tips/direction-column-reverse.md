@@ -1,39 +1,23 @@
 ---
 author: Billiexu
-
-levels:
-
-  - advanced
-
-  - medium
-
 type: normal
-
 category: feature
-
-aspects:
-  - workout
-  - deep
-
 tags:
-
   - flexbox
-
-
 links:
+  - >-
+    [Flexbox
+    Fundamentals](https://egghead.io/lessons/misc-flexbox-fundamentals){website}
+---
 
-  - '[Flexbox Fundamentals](https://egghead.io/lessons/misc-flexbox-fundamentals){website}'
+# `direction` : `column-reverse`
 
 
 ---
 
-# `direction`: `column-reverse`
-
----
 ## Content
 
 In Flexbox, `column-reverse` enables users to arrange elements vertically in reverse order.
-
 
 ```html
 <div class="parent">
@@ -44,8 +28,8 @@ In Flexbox, `column-reverse` enables users to arrange elements vertically in rev
 </div>
 
 ```
-___
 
+---
 
 ```css
 .parent{
@@ -55,11 +39,14 @@ ___
 }
 
 ```
+
 The four child boxes inside class parent will be displayed **vertically** on top of one another in reverse order, starting from the bottom of the parent element:
 
 ![566ed55387abab0c00bccab0.svg](https://img.enkipro.com/c9bd35fa50bf1db13c2a2b28764e8e7a.png)
 
+
 ---
+
 ## Practice
 
 Which of the following elements will be displayed first?
@@ -80,17 +67,19 @@ Which of the following elements will be displayed first?
 
 ???
 
-* Child 2
-* Child 1
+- Child 2
+- Child 1
+
 
 ---
+
 ## Revision
 
 When using Flexbox, how does `column-reverse` allow users to arrange elements?
 
  ???
 
-* Vertically in reverse order.
-* Vertically in normal order.
-* Horizontally in reverse order.
-* Horizontally in normal order.
+- Vertically in reverse order.
+- Vertically in normal order.
+- Horizontally in reverse order.
+- Horizontally in normal order.

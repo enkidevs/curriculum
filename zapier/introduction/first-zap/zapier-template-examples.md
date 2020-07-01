@@ -1,22 +1,16 @@
 ---
 author: kapnobatai136
-
 category: how to
-
-aspects:
-  - introduction
-  - workout
-
 type: normal
-
 links:
   - '[Explore Integrations](https://zapier.com/apps/integrations/){website}'
-
 ---
 
 # Some Integrations
 
+
 ---
+
 ## Content
 
 Intuitively, for any zap, you'll need to figure out which apps will be connected. Let's say that your stack includes **Mailchimp**, **Trello** and **Typeform**.
@@ -28,14 +22,18 @@ For this insight, let's go ahead and select our entire stack:
 ![gif-of-selecting-stack](https://img.enkipro.com/1685a73c736c0d01738c24ccdf30c806.gif)
 
 Depending on your application, you can either:
-* find your perfect integration
-* start using a template and adapt it to your requirements
-* create your own zap from scratch.
+
+- find your perfect integration
+- start using a template and adapt it to your requirements
+- create your own zap from scratch.
+
 
 ---
+
 ## Practice
 
 In Zapier, if you don't find a template for your applications, you can ???.
 
-* create your own zap
-* give up
+- create your own zap
+- give up
+ 

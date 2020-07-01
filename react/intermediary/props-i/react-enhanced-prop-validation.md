@@ -1,35 +1,20 @@
 ---
 author: catalin
-
-levels:
-
-  - beginner
-
-  - basic
-
-  - medium
-
-  - advanced
-
 type: normal
-
 category: how to
-
 links:
-
-  - '[Type checking with PropTypes](https://facebook.github.io/react/docs/typechecking-with-proptypes.html#react.proptypes){website}'
+  - >-
+    [Type checking with
+    PropTypes](https://facebook.github.io/react/docs/typechecking-with-proptypes.html#react.proptypes){website}
   - '[PropTypes Library](https://www.npmjs.com/package/prop-types){website}'
-
 parent: default-values-for-props
-
-aspects:
-  - deep
-
 ---
 
 # Enhanced `props` Validation
 
+
 ---
+
 ## Content
 
 In addition to standard *prop validations* for *JavaScript* primitives there are other types available through `PropTypes`.
@@ -105,7 +90,9 @@ Validate for a value with any data type:
 myRequiredValue: PropTypes.any.isRequired
 ```
 
+
 ---
+
 ## Practice
 
 Validate if `myProp` is an instance of the `Enki` class:
@@ -120,16 +107,18 @@ Test.propTypes = {
 };
 ```
 
-* `PropTypes`
-* `instanceOf`
-* `Enki`
-* `enki`
-* `ObjectOf`
-* `PropType`
-* `propType`
-* `oneOf`
+- `PropTypes`
+- `instanceOf`
+- `Enki`
+- `enki`
+- `ObjectOf`
+- `PropType`
+- `propType`
+- `oneOf`
+
 
 ---
+
 ## Revision
 
 Validate if `myProp` is an instance of the `Enki` class:
@@ -144,11 +133,11 @@ Test.propTypes = {
 };
 ```
 
-* `PropTypes`
-* `instanceOf`
-* `Enki`
-* `enki`
-* `ObjectOf`
-* `PropType`
-* `propType`
-* `oneOf`
+- `PropTypes`
+- `instanceOf`
+- `Enki`
+- `enki`
+- `ObjectOf`
+- `PropType`
+- `propType`
+- `oneOf`

@@ -1,22 +1,18 @@
 ---
 author: alexjmackey
-
 type: normal
-
 category: feature
-
-aspects:
-  - introduction
-  - new
-  - workout
-
 links:
-  - '[Destructuring Assignment](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment){documentation}'
-
+  - >-
+    [Destructuring
+    Assignment](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment){documentation}
 ---
+
 # Destructuring (Part 1)
 
+
 ---
+
 ## Content
 
 Destructuring provides a succinct and flexible way to assign values from arrays or objects.
@@ -59,7 +55,9 @@ let y = 2;
 // x = 2, y = 1
 ```
 
+
 ---
+
 ## Practice
 
 Swap `a` and `b` using destructuring:
@@ -73,18 +71,20 @@ console.log(a) // bar
 console.log(b) // foo
 ```
 
-* , b
-* [b, a]
-* [, a]
-* a
-* b
-* , a
-* [a]
-* [b]
-* [a, b]
-* ,
+- , b
+- [b, a]
+- [, a]
+- a
+- b
+- , a
+- [a]
+- [b]
+- [a, b]
+- ,
+
 
 ---
+
 ## Revision
 
 What will be the output of the following statements:
@@ -103,13 +103,13 @@ console.log(b);
 // ???
 ```
 
-* 9
-* 16
-* error
-* [9, 16]
-* [16, 25]
-* [9, 25]
-* 25
-* 0
-* undefined
-* null
+- 9
+- 16
+- error
+- [9, 16]
+- [16, 25]
+- [9, 25]
+- 25
+- 0
+- undefined
+- null

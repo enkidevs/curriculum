@@ -1,19 +1,14 @@
 ---
 author: Stefan-Stojanovic
-
-aspects:
-  - introduction
-  - workout
-
 type: normal
-
 category: how to
-
 ---
 
 # Always check function names
 
+
 ---
+
 ## Content
 
 Spreadsheets have numerous functions you can use. Some of these functions have similar usage but different names and vice versa.
@@ -39,3 +34,4 @@ Example of `=COUNT()` vs `=COUNTA()`:
 ![count-vs-counta](https://img.enkipro.com/9739a8a9b55ab0f71d4e7f7274b24e15.png)
 
 As you can see in the example above, not checking your function names can give incorrect outputs which could yield problems.
+ 

@@ -1,8 +1,5 @@
 ---
 author: nem035
-aspects:
-  - workout
-  - deep
 type: normal
 category: must-know
 links:
@@ -11,7 +8,9 @@ links:
 
 # Networks
 
+
 ---
+
 ## Content
 
 When we start a container, in the background we are connecting to a particular Docker network.
@@ -101,7 +100,7 @@ docker network ls
 
 The command above would output something like this:
 
-```
+```plain-text
 NETWORK ID          NAME                DRIVER              SCOPE
 1886960bdfd6        bridge              bridge              local
 72eaae34f722        docker_gwbridge     bridge              local
@@ -111,17 +110,21 @@ r6kesov18daq        ingress             overlay             swarm
 39c716c01a9f        none                null                local
 ```
 
+
 ---
+
 ## Practice
 
 The default network in Docker is called ???
 
-* bridge
-* train
-* host
-* NAT
+- bridge
+- train
+- host
+- NAT
+
 
 ---
+
 ## Revision
 
 ```bash
@@ -130,6 +133,6 @@ The default network in Docker is called ???
 docker network ??? ??? ???
 ```
 
-* connect
-* world
-* enki
+- connect
+- world
+- enki

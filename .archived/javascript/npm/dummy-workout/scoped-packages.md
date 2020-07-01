@@ -27,7 +27,7 @@ The naming convention for scopes is the same as with package names: **url-safe c
 
 This syntax must be used when trying to `install` a package or specify a package in *package.json*:
 ```bash
-$ npm install @myscope/mypackagename
+npm install @myscope/mypackagename
 ```
 ```json
 //package.json
@@ -43,7 +43,7 @@ To initialise a scoped package, the scope must be specified in the package name:
 ```
 `--scope` flag for `npm init` also works:
 ```bash
-$ npm init -scope=myscope
+npm init -scope=myscope
 ```
 To use a scoped package you need to `require` it using the scoped name:
 ```js
@@ -61,3 +61,5 @@ A scoped package's name is preceded by ???.
 * scope/
 * @/
 * nothing
+ 
+ 

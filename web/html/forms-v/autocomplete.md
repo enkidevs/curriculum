@@ -1,24 +1,15 @@
 ---
 author: Stefan-Stojanovic
-
-levels:
-  - beginner
-  - basic
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-  - workout
-  - deep
-
-links:
-
+links: null
 ---
+
 # The `autocomplete` Attribute
+
+
 ---
+
 ## Content
 
 The HTML input form `autocomplete` attribute is used to enable the browsers autofill option.
@@ -30,6 +21,7 @@ When this option is on, the browser can autofill the value you want to type, as 
 The autocomplete attribute can work for a name, search, email, URL, password, color, address and other input fields.
 
 Example:
+
 ```html
 <form action="/credit_card.php"
   autocomplete="on">
@@ -56,39 +48,46 @@ Also, a credit card used on one website can autocomplete on a different website 
 
 The default value for autocomplete is `on`. 
 
+
 ---
+
 ## Practice
 
 Which statement is true regarding autocomplete?
 
 ???
 
-* Can automatically complete fields based on the user's history
-* The data is stored on the webpage.
-* Items like credit card numbers should not be auto-completed.
+- Can automatically complete fields based on the user's history
+- The data is stored on the webpage.
+- Items like credit card numbers should not be auto-completed.
+
 
 ---
+
 ## Revision
 
 Which input form attribute is used to store input field data and re-populate within similar fields on other websites.
 
 ???
 
-* autocomplete
-* data
-* cookies
-* sessionStorage
-* objects
-* storage
+- autocomplete
+- data
+- cookies
+- sessionStorage
+- objects
+- storage
+
 
 ---
+
 ## Quiz
 
 ### How much do you know about HTML input form attributes?
 
+
 Which statement is false regarding autocomplete?
 
-* Items like credit card numbers should not be auto-completed.
-* Can automatically complete fields based on the user's history
-* The default value is "on"
-* Autocomplete works with passwords, usernames, e-mail, search and more.
+- Items like credit card numbers should not be auto-completed.
+- Can automatically complete fields based on the user's history
+- The default value is "on"
+- Autocomplete works with passwords, usernames, e-mail, search and more.

@@ -1,43 +1,22 @@
 ---
 author: adamMontgomerie
-
-levels:
-
-  - basic
-
-  - advanced
-
-  - medium
-
 type: normal
-
 category: tip
-
-aspects:
-
-  - workout
-
-  - deep
-
 tags:
-
   - multithreading
-
   - threads
-
   - synchronization
-
   - final
-
 links:
-
-  - '[docs.oracle.com](https://docs.oracle.com/javase/tutorial/essential/concurrency/syncmeth.html){website}'
-
+  - >-
+    [docs.oracle.com](https://docs.oracle.com/javase/tutorial/essential/concurrency/syncmeth.html){website}
 ---
 
 # `final` fields do not need to be read through `synchronized` methods
 
+
 ---
+
 ## Content
 
 Using `synchronized` methods to access an object's fields is a way to prevent thread interference and memory consistency errors.

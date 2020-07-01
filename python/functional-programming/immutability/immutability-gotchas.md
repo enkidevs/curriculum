@@ -1,26 +1,18 @@
 ---
 author: stefkn
-
-levels:
-  - beginner
-  - basic
-  - medium
-
-aspects:
-  - workout
-
 type: normal
-
 category: must-know
-
 links:
-  - '[Common Gotchas](http://docs.python-guide.org/en/latest/writing/gotchas/){website}'
-
+  - >-
+    [Common
+    Gotchas](http://docs.python-guide.org/en/latest/writing/gotchas/){website}
 ---
 
 # Immutability Gotchas!
 
+
 ---
+
 ## Content
 
 For the final insight, let's examine some of the most common slip-ups we could make related to immutability. While at first glance some of these errors can seem difficult to understand, if we examine them from the point of view of the underlying mechanisms of the language it will be clear to see how they work. Being able to grasp these subtleties of the language will be valuable in helping us write code that performs basic functions correctly on the first try, helping to decrease the time we need to spend hunting for bugs.
@@ -74,20 +66,23 @@ def add_to(object, collection=None):
   return collection
 ```
 
+
 ---
+
 ## Practice
 
 How can we prevent a function we define with a mutable default argument from using that same default argument object each time?
 
 ???
 
+- Replace the default with an immutable object and check in the function body if it's still there, and if so, create the container.
+- Replace the default with an immutable container.
+- Replace the default with an immutable container and check in the function if it's empty, and if so, create the container.
+- Use a lambda function.
 
-* Replace the default with an immutable object and check in the function body if it's still there, and if so, create the container.
-* Replace the default with an immutable container.
-* Replace the default with an immutable container and check in the function if it's empty, and if so, create the container.
-* Use a lambda function.
 
 ---
+
 ## Revision
 
 What is the result of executing the following code?
@@ -105,16 +100,19 @@ add_to("string")
 
 ???
 
+- `[1], [1, 2.5], [1, 2.5, 'string']`
+- `[1], [2.5], ['string']`
+- `[1], [1], [1]`
+- `[1], [2.5, 1], ['string', 2.5, 1]`
+- `TypeError`
 
-* `[1], [1, 2.5], [1, 2.5, 'string']`
-* `[1], [2.5], ['string']`
-* `[1], [1], [1]`
-* `[1], [2.5, 1], ['string', 2.5, 1]`
-* `TypeError`
 
 ---
-## Quiz 
+
+## Quiz
+
 ### what is the last line printed?
+
 
 ```python
 def foo(x, k = []):
@@ -127,8 +125,7 @@ foo(3)
 
  ???
 
-* [1, 3]
-* [1]
-* [4, 5, 2]
-* [1, 2, 3]
- 
+- [1, 3]
+- [1]
+- [4, 5, 2]
+- [1, 2, 3]

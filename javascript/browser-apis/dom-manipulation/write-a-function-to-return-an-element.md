@@ -1,21 +1,15 @@
 ---
 author: elliehoward
-
-aspects:
-
-  - introduction
-
-  - workout
-
 type: normal
-
 category: must-know
-
 ---
+
 # Write a Function to Return an Element
----
-## Content
 
+
+---
+
+## Content
 
 Let's say we need to create elements quite often within our code. In that case, we should write a function that creates and returns an element:
 
@@ -27,6 +21,7 @@ function initializeElement() {
   return heading;
 }
 ```
+
 We can make our functions more useful by adding some parameters that can change the text inside, or even the type of the element itself:
 
 ```javascript
@@ -41,9 +36,12 @@ function initializeElement(element, text) {
 }
 initializeElement('h1', 'hello world');
 ```
+
 In the example above, we create an `h1` element that says `'hello world'`.
 
+
 ---
+
 ## Practice
 
 Fill in the blanks to create a function that returns an element.
@@ -55,20 +53,23 @@ function initializeElement() {
 }
 ```
 
-* `createElement`
-* `paragraph`
-* `makeElement`
-* `document`
-* `function`
-* `element`
+- `createElement`
+- `paragraph`
+- `makeElement`
+- `document`
+- `function`
+- `element`
+
 
 ---
+
 ## Revision
 
 Which of the following will return an element?
 ???
 
 Option A:
+
 ```javascript
 function initializeElement() {
   let paragraph = document
@@ -76,7 +77,9 @@ function initializeElement() {
   return paragraph;
 }
 ```
+
 Option B:
+
 ```javascript
 function initializeElement() {
   var paragraph = document
@@ -84,7 +87,9 @@ function initializeElement() {
   return element;
 }
 ```
+
 Option C:
+
 ```javascript
 function initializeElement() {
   let paragraph = document
@@ -93,7 +98,6 @@ function initializeElement() {
 }
 ```
 
-* C
-* B
-* A
- 
+- C
+- B
+- A

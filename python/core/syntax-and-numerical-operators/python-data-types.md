@@ -1,24 +1,19 @@
 ---
 author: emmab
-
 tags:
   - introduction
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-
 links:
-  - '[Pythonic](https://stackoverflow.com/questions/25011078/what-does-pythonic-mean){website}'
-
+  - >-
+    [Pythonic](https://stackoverflow.com/questions/25011078/what-does-pythonic-mean){website}
 ---
 
 # Fundamental Data types
 
+
 ---
+
 ## Content
 
 Everything in Python has a data type, or *class*[1]. The ones you need to know about now are:
@@ -58,6 +53,7 @@ Though it's more pythonic[3] to use single quotes until you need double quotes.
 > We can use Python's built-in `type()` function, passing an argument in parenthesis, to see the data type, or *class*, of our argument.
 
 Other Python data types that you'll soon learn about are:
+
 - **Boolean**
 - **Set**
 - **Dictionary**
@@ -66,6 +62,7 @@ Other Python data types that you'll soon learn about are:
 
 
 ---
+
 ## Practice
 
 What class does the following return?
@@ -74,24 +71,30 @@ What class does the following return?
 >>> type('Learning Python')
 # <class '???'>
 ```
-* str
-* string
-* text
-* data
+
+- str
+- string
+- text
+- data
+
 
 ---
+
 ## Revision
 
 ```python
 >>> type('3.0')
 # <class '???'>
 ```
-* str
-* string
-* float
-* int
+
+- str
+- string
+- float
+- int
+
 
 ---
+
 ## Footnotes
 
 [1:Classes]

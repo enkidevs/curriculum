@@ -1,49 +1,24 @@
 ---
 author: lizTheDeveloper
-
-levels:
-
-  - basic
-
-  - medium
-
 type: normal
-
 category: feature
-
 inAlgoPool: false
-
 tags:
-
   - introduction
-
   - workout
-
   - new
-
   - arrays
-
   - es6
-
-
 links:
-
-  - '[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/copyWithin){website}'
-
-standards:
-  javascript.es6-extensions-standard-library.1: 10
-
-aspects:
-  - introduction
-  - workout
-  - new
-
-
+  - >-
+    [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/copyWithin){website}
 ---
 
 # Array.copyWithin
 
+
 ---
+
 ## Content
 
 **Array.copyWithin(targetArray, [start, [end]])** shallow copies part of an array into the same array without modifying the original array's size.
@@ -75,7 +50,9 @@ alphabet.copyWithin(-2)
 // ["a","b","c","a","b"]
 ```
 
+
 ---
+
 ## Practice
 
 Complete the code example to create an array that looks like this:
@@ -86,18 +63,20 @@ let ints = ['1','2','3','4','5','6','7'];
 ints.copyWithin(???,???,???)
 ```
 
-* 1
-* 6
-* 7
-* 8
-* 5
-* 2
-* 3
-* 4
-* 9
-* 0
+- 1
+- 6
+- 7
+- 8
+- 5
+- 2
+- 3
+- 4
+- 9
+- 0
+
 
 ---
+
 ## Revision
 
 Complete the code example to create an array that looks like this:
@@ -108,13 +87,13 @@ let ints = ['1','2','3','4','5','6'];
 ints.copyWithin(???,???,???)
 ```
 
-* 1
-* 2
-* 3
-* 4
-* 5
-* 6
-* 7
-* 8
-* 9
-* 0
+- 1
+- 2
+- 3
+- 4
+- 5
+- 6
+- 7
+- 8
+- 9
+- 0

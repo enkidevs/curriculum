@@ -1,21 +1,16 @@
 ---
 author: emmab
-
 tags:
   - introduction
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-
 ---
 
 # Tuple methods
 
+
 ---
+
 ## Content
 
 The `index()` method can be used on a `tuple` to *search for an item and return its index*.
@@ -47,7 +42,9 @@ vowels.count('i')
 # 2
 ```
 
+
 ---
+
 ## Practice
 
 How could you find the index for `'George'` in the following `tuple`:
@@ -59,14 +56,16 @@ beatles.???(???)
 # 2
 ```
 
-* `index`
-* `'George'`
-* `find`
-* `2`
-* `'John'`
-* `count`
+- `index`
+- `'George'`
+- `find`
+- `2`
+- `'John'`
+- `count`
+
 
 ---
+
 ## Revision
 
 How could you count the number of dogs in the following tuple:
@@ -78,9 +77,9 @@ animals.???(???)
 # 2
 ```
 
-* `count`
-* `'dog'`
-* `'Dog'`
-* `index`
-* `'0'`
-* `2`
+- `count`
+- `'dog'`
+- `'Dog'`
+- `index`
+- `'0'`
+- `2`

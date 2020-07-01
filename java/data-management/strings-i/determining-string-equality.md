@@ -1,34 +1,18 @@
 ---
 author: adamMontgomerie
-
-levels:
-
-  - basic
-
-  - advanced
-
-  - medium
-
 type: normal
-
 category: tip
-
-aspects:
-
-  - introduction
-
 tags:
-
   - strings
-
 links:
-
-  - '[www.javapractices.com](http://www.javapractices.com/topic/TopicAction.do?Id=18){website}'
-  - '[www.stackoverflow.com](https://stackoverflow.com/a/3801355/8030012){website}'
-
+  - >-
+    [www.javapractices.com](http://www.javapractices.com/topic/TopicAction.do?Id=18){website}
+  - >-
+    [www.stackoverflow.com](https://stackoverflow.com/a/3801355/8030012){website}
 ---
 
 # Determining string equality
+
 
 ---
 

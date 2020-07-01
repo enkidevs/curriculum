@@ -1,24 +1,18 @@
 ---
 author: kapnobatai136
-  
-aspects:
-
-  - workout
-
-  - deep
-
 type: normal
-
 category: tip
-
 links:
-  - '[Use deep compare effect](https://github.com/kentcdodds/use-deep-compare-effect){website}'
-
+  - >-
+    [Use deep compare
+    effect](https://github.com/kentcdodds/use-deep-compare-effect){website}
 ---
 
 # Dependency array for useEffect (Part 2)
 
+
 ---
+
 ## Content
 
 Using the `useEffect()` hook with a dependency array might lead to some unexpected bugs. This is due to how the comparison is made. Instead of the value being compared, React compares the references[1]. In this insight, we'll take a look at how to avoid any issues. 
@@ -54,19 +48,23 @@ function App() {
 
 The third and last option consists of using a deep compare hook that tracks the dependency references and their contents. We will not cover this option in this insight, but make sure to check out the resources for a link to a popular custom hook that handles this use-case.
 
+
 ---
+
 ## Practice
 
 Why would you use a dependency array in your `useEffect()` hook call?
 
 ???
 
-* To reduce the number of re-renders.
-* To increase the number of re-renders.
-* To save the `state` value at a certain point in time.
-* To have access to multiple versions of the `state`.
+- To reduce the number of re-renders.
+- To increase the number of re-renders.
+- To save the `state` value at a certain point in time.
+- To have access to multiple versions of the `state`.
+
 
 ---
+
 ## Footnotes
 
 [1:Comparing Values]

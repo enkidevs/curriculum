@@ -1,21 +1,14 @@
 ---
 author: Stefan-Stojanovic
-
-levels:
-  - beginner
-
-aspects:
-  - workout
-
 type: normal
-
 category: how to
-
 ---
 
 # Querying a Collection Using Ranges Continued
 
+
 ---
+
 ## Content
 
 We are are going to discuss how to define a range between two values using a combination of the 4 previously explained operators.
@@ -30,6 +23,7 @@ db.pokemon.find({
 ```
 
 Which will output the following:
+
 ```javascript
 {
   "_id": ObjectId(
@@ -69,6 +63,7 @@ db.pokemon.find({
 Now, we are displaying the pokémon (documents) within the specified range.
 
 Output of the above example:
+
 ```javascript
 {
   "_id" : ObjectId(
@@ -112,7 +107,9 @@ db.pokemon.find({
 });
 ```
 
+
 ---
+
 ## Practice
 
 Which of the following represents the correct way of selecting documents that fit within a defined range:
@@ -135,11 +132,13 @@ db.collection.find({
 
 ???
 
-* B
-* A
-* C
+- B
+- A
+- C
+
 
 ---
+
 ## Revision
 
 Create a query to find all documents within the `pokemon` collection whose `age` falls in the range 23-31 (including the bounds).
@@ -150,11 +149,11 @@ db.pokemon.???({
 });
 ```
 
-* `find`
-* `age`
-* `$gte`
-* `$lte`
-* `$gt`
-* `$lt`
-* `aggregate`
-* `accumulate`
+- `find`
+- `age`
+- `$gte`
+- `$lte`
+- `$gt`
+- `$lt`
+- `aggregate`
+- `accumulate`

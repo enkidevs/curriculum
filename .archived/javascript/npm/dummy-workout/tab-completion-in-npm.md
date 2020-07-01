@@ -29,14 +29,14 @@ links:
 **Tab-completion** can help you speed up typing commands in any command-line environments. You can also enable tab completion for `npm` commands as well as scripts defined in the `package.json` file.
 
 ```bash
-$ npm completion >> tabCompletion.sh
+npm completion >> tabCompletion.sh
 ```
 This will create a `.sh` file that enables tab completion for the `package.json` file in the current directory.
 You need to load this file into the current *shell*.
 
 Instead of creating a separate file, the tab completion script can be sent to `~/.bashrc` or `~/.zshrc` files to enable tab completion for every new terminal window:
 ```bash
-$ npm completion >> ~/.bashrc
+npm completion >> ~/.bashrc
 ```
 
 ---
@@ -45,7 +45,7 @@ $ npm completion >> ~/.bashrc
 How do you create a `.sh` file that enables tab completion in the current directory?
 
 ```
-$ npm ??? ??? tabCompletion.sh
+npm ??? ??? tabCompletion.sh
 ```
 
 * completion
@@ -61,7 +61,7 @@ $ npm ??? ??? tabCompletion.sh
 How do you create a `.sh` file that enables tab completion in the current directory?
 
 ```
-$ npm ??? ??? tabCompletion.sh
+npm ??? ??? tabCompletion.sh
 ```
 
 * completion
@@ -70,3 +70,5 @@ $ npm ??? ??? tabCompletion.sh
 * tab
 * tab-completion
 * &&
+ 
+ 

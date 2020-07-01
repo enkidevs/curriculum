@@ -1,20 +1,15 @@
 ---
 author: catalin
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-
 notes: 'https://insights.enki.com/#/contrib/others/55c83ba83f06ab320051aa8a?search=kha'
-
 ---
 
 # How Range Operations Work
 
+
 ---
+
 ## Content
 
 A range can refer to an arbitrary, ordered sequence of values within a list-like container. The boundaries of a range are often represented by indexes.
@@ -30,6 +25,7 @@ String.substring(
   int endIndex
 );
 ```
+
 Let's take a look at an example:
 
 ```java
@@ -53,29 +49,36 @@ System.out.println(newList);
 // [0, 1, 2]
 ```
 
+
 ---
+
 ## Practice
 
 What would be the return value of the following method:
+
 ```java
 "beautiful".substring(4, 6);
 // ???
 ```
 
-* `ti` 
-* `ut` 
-* `if` 
-* `be` 
-* `ul`
+- `ti` 
+- `ut` 
+- `if` 
+- `be` 
+- `ul`
+
 
 ---
+
 ## Revision
 
 When calling the following function:
+
 ```java
 "test".substring(1,3)
 ```
+
 The output will ??? the character with index 3.
 
-* `exclude` 
-* `include`
+- `exclude` 
+- `include`

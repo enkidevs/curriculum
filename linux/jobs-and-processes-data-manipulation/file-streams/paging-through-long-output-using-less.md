@@ -1,34 +1,20 @@
 ---
 author: jfarmer
-
-levels:
-
-  - basic
-
-  - beginner
-
-aspects:
-  - introduction
-  - workout
-
 type: normal
-
 category: must-know
-
 inAlgoPool: false
-
-
 links:
-
-  - '[Pagers comparison](http://unix.stackexchange.com/questions/81129/what-are-the-differences-between-most-more-and-less){website}'
+  - >-
+    [Pagers
+    comparison](http://unix.stackexchange.com/questions/81129/what-are-the-differences-between-most-more-and-less){website}
   - '[man less](http://man7.org/linux/man-pages/man1/less.1.html){documentation}'
-
-
 ---
 
 # Paging Through Long Output Using `less`
 
+
 ---
+
 ## Content
 
 The `less` command is a "pager", which allows you to scroll and search through streams of output that are too long for a single page.
@@ -36,7 +22,7 @@ The `less` command is a "pager", which allows you to scroll and search through s
 A simple example:
 
 ```shell
-$ ps aux | less
+ps aux | less
 ```
 
 `ps aux` will print detailed information about the currently running processes and likely take up several screens worth of text.  By piping its output to `less` we can scroll through the output more easily.
@@ -50,6 +36,7 @@ To exit `less` press the `q` key.
 `less` is also capable of searching through the output. To search, press the `/` key to enter "search mode", type the keyword or pattern you want to search for, and hit the enter key. `less` will take you to the first **forward** match. If you want to go backwards, type `?` followed by the pattern, and `less` will find the **backward** match.
 
 To navigate the matches:
+
 - for the next forward match
   - press `n`
   - type `/` and press enter
@@ -65,29 +52,33 @@ In the same way that `bash` (the Bourne Again Shell) is a play on its predecesso
 
 Run `man less` to read `less`'s manual (aka "manpage"), or take a look at the resources.
 
+
 ---
+
 ## Revision
 
 A pager utility that allows you to scroll and search through a stream of output, alternative to `more`,  is
 
 ???.
 
-* less
-* grep
-* awk
-* cut
+- less
+- grep
+- awk
+- cut
+
 
 ---
-## Quiz 
+
+## Quiz
+
 ### are you familiar with Linux pagers?
+
 
 Is `more` `less` or `less` `more`?
 
-
 ???
 
-* less is more
-* Both are true
-* more is less
-* Neither
- 
+- less is more
+- Both are true
+- more is less
+- Neither

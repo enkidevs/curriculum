@@ -1,36 +1,18 @@
 ---
 author: mihaiberq
-
-levels:
-  - beginner
-  - basic
-  - medium
-  - advanced
-
 type: normal
-
 category: how to
-
 parent: prepare-your-module-for-publishing
-
-standards:
-  javascript.npm-publish.7: 10
-  javascript.npm-publish.8: 10
-  javascript.npm-tasks-and-modules-manager.1: 10
-
 tags:
   - introduction
   - workout
-
-aspects:
-  - introduction
-  - workout
-
-
 ---
+
 # Tests
 
+
 ---
+
 ## Content
 
 The easiest way to ensure that changes or additions to your module don't break any existing features is to thoroughly **test** them.
@@ -50,9 +32,9 @@ In your `package.json` you can specify which **script** should be run when `test
 This will provide a shortcut for you, invokable by running:
 
 ```bash
-$ npm test
+npm test
 # instead of
-$ npm run test
+npm run test
 ```
 
 One of the most straightforward ways to test your code is *linting*. A linter checks for errors in your code syntax and helps ensure you follow coding best-practices. Some examples include missing parenthesis, semi-colons, unnecessary keywords or the use of quotes.
@@ -60,7 +42,7 @@ One of the most straightforward ways to test your code is *linting*. A linter ch
 A JavaScript linter is JSLint:
 
 ```bash
-$ npm install jslint
+npm install jslint
 ```
 
 To lint your entire project, add this to the *test* event:
@@ -76,22 +58,26 @@ To lint your entire project, add this to the *test* event:
 
 The options are limitless when it comes to what to test and which tools to use. However, for any package maintainer, as well as package users, tests provides assurance that the module provides the functionality it is supposed.
 
+
 ---
+
 ## Practice
 
 If you have a `test` script defined in your `package.json`, what will be the easiest way to invoke it?
 
 ```bash
-$ ???
+???
 ```
 
-* npm test
-* npm run test
-* jest all
-* test
-* test .
+- npm test
+- npm run test
+- jest all
+- test
+- test .
+
 
 ---
+
 ## Revision
 
 Complete the following *package.json* file with code that would make `npm run test` lint *index.js* file:
@@ -105,16 +91,17 @@ Complete the following *package.json* file with code that would make `npm run te
 }
 ```
 
+- "scripts"
+- "test"
+- index.js
+- scripts
+- test
+- script
 
-* "scripts"
-* "test"
-* index.js
-* scripts
-* test
-* script
 
 ---
+
 ## Footnotes
+
 [1:TDD]
 This approach of writing code is called "Test-Driven Development".
- 

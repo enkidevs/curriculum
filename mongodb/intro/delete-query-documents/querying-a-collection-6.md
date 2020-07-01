@@ -1,22 +1,14 @@
 ---
 author: Stefan-Stojanovic
-
-levels:
-  - beginner
-  
-aspects:
-  - workout
-  - deep
-
 type: normal
-
 category: how to
-
 ---
 
 # Querying with `findOneAndReplace()`
 
+
 ---
+
 ## Content
 
 As the name suggests, the `findOneAndReplace()` method makes use of a constrain to find a document, and replaces it with a newly specified document.
@@ -38,6 +30,7 @@ db.pokemon.findOneAndReplace(
 ```
 
 Output:
+
 ```javascript
 { 
   "_id": ObjectId(
@@ -73,6 +66,7 @@ db.pokemon.findOneAndReplace(
 ```
 
 Output:
+
 ```javascript
 {
 	"_id": ObjectId(
@@ -84,10 +78,13 @@ Output:
 }
 ```
 
+
 ---
+
 ## Practice
 
 Fill in the blanks to find the first document with a `type` of `"Water"` and replace it with the document listed below:
+
 ```javascript
 db.pokemon.???(
   { "type": ???},
@@ -103,22 +100,24 @@ Which command has to be added to our queries to display the updated/replaced doc
 
 ???
 
-* `findOneAndReplace`
-* `"Water"`
-* `{ returnNewDocument: true }`
-* `{ returnNew: true }`
-* `update`
-* `replace`
-* `$dec`
+- `findOneAndReplace`
+- `"Water"`
+- `{ returnNewDocument: true }`
+- `{ returnNew: true }`
+- `update`
+- `replace`
+- `$dec`
+
 
 ---
+
 ## Revision
 
 Which of these is not a valid MongoDb query method?
 
 ???
 
-* `db.collection_name.insertMultiple()`
-* `db.collection_name.insertMany()`
-* `db.collection_name.insertOne()`
-* `db.collection_name.insert()`
+- `db.collection_name.insertMultiple()`
+- `db.collection_name.insertMany()`
+- `db.collection_name.insertOne()`
+- `db.collection_name.insert()`

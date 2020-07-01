@@ -1,21 +1,16 @@
 ---
 author: emmab
-
 tags:
   - introduction
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-
 ---
 
 # Hello World!
 
+
 ---
+
 ## Content
 
 Let's write our first Python program, and print `Hello World!` to our screen!
@@ -36,6 +31,7 @@ In this program, we've used Python's built-in `print` function. Soon you'll lear
 
 > Note: as with all the skills in the app, if you want to access more advanced or specific content at any time, **feel free to use the *Skill Map* tab** to jump to the workouts most relevant for you.
 
+
 ---
 
 ## Practice
@@ -46,21 +42,23 @@ Let's practice using Python! Which statement will display `'Enki'`?
 ???
 ```
 
-* `print('Enki')`
-* `: 'Enki'`
-* `puts 'Enki'`
-* `console.log('Enki')`
+- `print('Enki')`
+- `: 'Enki'`
+- `puts 'Enki'`
+- `console.log('Enki')`
+
 
 ---
+
 ## Revision
 
 Complete the code snippet with the correct function to write `'Python with Enki!'` to the shell:
 
-```
+```plain-text
 ???('Python with Enki!')
 ```
 
-* `print`
-* `write`
-* `sys.out`
-* `writeln`
+- `print`
+- `write`
+- `sys.out`
+- `writeln`

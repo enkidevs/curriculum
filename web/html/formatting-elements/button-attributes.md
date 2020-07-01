@@ -1,33 +1,27 @@
 ---
 author: Stefan-Stojanovic
-
-levels:
-  - beginner
-  - basic
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-  - workout
-  
 links:
-  - '[HTML <button> Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button){documentation}'
+  - >-
+    [HTML <button>
+    Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button){documentation}
+---
+
+# `<button>` attributes
+
 
 ---
-# `<button>` attributes
----
+
 ## Content
 
 `<button>` elements have a number of useful attributes.
 
-* `value`
-* `disabled`
-* `form`
-* `name`
-* `type`
+- `value`
+- `disabled`
+- `form`
+- `name`
+- `type`
 
 ![button-simple](https://img.enkipro.com/34850e7186f600675efdce8a5ddd2f84.png)
 
@@ -48,9 +42,10 @@ links:
 ### type
 
 `type` is used to indicate the type of the button. There are 3 possible values:
-  - `submit`
-  - `reset`
-  - `button`
+
+- `submit`
+- `reset`
+- `button`
 
 The `type="submit"` is used to submit the forms data to the server. This value is also the default button type if no other value is set for `type`.
 
@@ -64,6 +59,7 @@ The `type="button"` has no initial/default behavior. This is used when you want 
 
 
 ---
+
 ## Practice
 
 Match answers with questions:
@@ -72,14 +68,15 @@ Button resets form values: ???
 Button sends form data: ???
 Turn off button: ???
 
+- `type="reset"`
+- `type="submit"`
+- `disabled`
+- `name`
+- `setfocus`
 
-* `type="reset"`
-* `type="submit"`
-* `disabled`
-* `name`
-* `setfocus`
 
 ---
+
 ## Revision
 
 Match the question with the correct answer:
@@ -92,20 +89,21 @@ Turn off button: ???
 Set the initial value: ???
 Set name: ???
 
-* `type="reset"`
-* `type="submit"`
-* `autofocus`
-* `autocomplete`
-* `disabled`
-* `value`
-* `name
-* `_blank`
-* `_newtab`
-* `method`
-* `novalidate`
-* `submit`
-* `reset`
-* `initialvalue`
-* `string`
-* `send`
-* `off`
+- `type="reset"`
+- `type="submit"`
+- `autofocus`
+- `autocomplete`
+- `disabled`
+- `value`
+- `name
+- `_blank`
+- `_newtab`
+- `method`
+- `novalidate`
+- `submit`
+- `reset`
+- `initialvalue`
+- `string`
+- `send`
+- `off`
+ 

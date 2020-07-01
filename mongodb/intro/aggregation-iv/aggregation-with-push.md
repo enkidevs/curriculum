@@ -1,26 +1,18 @@
 ---
 author: Stefan-Stojanovic
-
-levels:
-  - beginner
-  - basic
-  
-aspects:
-  - introduction
-  - new
-
 type: normal
-
 category: how to
-
 ---
 
 # `$push`
 
+
 ---
+
 ## Content
 
 Syntax:
+
 ```javascript
 { $push: <expression> }
 ```
@@ -30,6 +22,7 @@ The `$push` operator is used with the `$group` stage to return an array of value
 For instance, let's say we have a `pokemon` collection where each pokémon has a `type` and `name` field. We can use the `$push` operator to push the `name` field of each pokemon within the same group (`type`) and output an array of names for each `type`.
 
 Example where there are only 3 types of pokémon:
+
 ```javascript
 db.pokemon.aggregate([
   {
@@ -42,7 +35,9 @@ db.pokemon.aggregate([
   }
 ]);
 ```
+
 Output:
+
 ```javascript
 
 { "_id": "Psychic",
@@ -74,6 +69,7 @@ In the above example, we used the `$group` stage to group documents by their `ty
 
 
 ---
+
 ## Practice
 
 Fill in the missing code to group all documents in the `pokemon` database by their `type` and push the names of each pokémon from the same `type` into a single array per `type`. Name the resulting array `"namesPerGroup"`.
@@ -91,11 +87,11 @@ db.pokemon.aggregate([
 ]);
 ```
 
-* `$group`
-* `$type`
-* `namesPerGroup`
-* `$push`
-* `Names per group`
-* `array`
-* `push`
-* `type`
+- `$group`
+- `$type`
+- `namesPerGroup`
+- `$push`
+- `Names per group`
+- `array`
+- `push`
+- `type`
