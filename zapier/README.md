@@ -4,6 +4,6 @@ description: Automate tasks by connecting applications. No code involved!
 
 color: FF4A00
 
-icon: https://img.enkipro.com/9e5bc8b6cfc201ea40b1650e6b687615.png
+icon: https://img.enkipro.com/17406ff0e7a5d059c66a99b294063187.png
 
 language: General

@@ -2,7 +2,7 @@ name: Blockchain
 
 language: bash
 
-icon: https://img.enkipro.com/c3076dbeb3fbdea7b980c75b7f87f7fc.png
+icon: https://img.enkipro.com/45addf1d0019ca954578779995d48f90.png
 
 color: BE56A9
 
