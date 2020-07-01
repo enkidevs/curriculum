@@ -2,7 +2,7 @@ name: Java
 
 description: A battle tested language used in over 8 billion devices.
 
-icon: https://img.enkipro.com/95a487d8d78e8e67a2ba47739623e5ee.png
+icon: https://img.enkipro.com/36fe92a5b9efa588eeb8202613668c7d.png
 
 color: C15757
 
