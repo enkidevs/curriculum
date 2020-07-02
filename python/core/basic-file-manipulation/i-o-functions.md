@@ -1,15 +1,18 @@
 ---
 author: SebaRaba
+
 type: normal
+
 category: must-know
+
 links:
   - >-
     [More Information About
     I/O](https://www.tutorialspoint.com/python/python_files_io.htm){website}
+
 ---
 
 # I/O Functions
-
 
 ---
 
@@ -75,7 +78,6 @@ How old are you? 21
 21 <class 'int'>
 ```
 
-
 ---
 
 ## Practice
@@ -92,7 +94,7 @@ How old are you? 23
 23 ???
 ```
 
-- <class `str`>
+- <class 'str'>
 - <class 'int'>
 - <class 'list'>
 - <class 'tuple'>
