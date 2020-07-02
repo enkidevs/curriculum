@@ -7,3 +7,6 @@ insights:
   - importhtml
   - importfeed
   - importxml
+  
+aspects:
+  - workout
