@@ -8,3 +8,6 @@ insights:
   - concatenate
   - unique
   - date-time-functions
+  
+aspects:
+  - workout
