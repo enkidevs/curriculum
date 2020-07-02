@@ -8,3 +8,6 @@ insights:
   - conditional-formatting-features
   - conditional-formatting-features-ii
   - conditional-formatting-examples
+  
+aspects:
+  - workout
