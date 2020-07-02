@@ -31,19 +31,24 @@ Here, we can customize our chart with different styling, change the axis, modify
 
 In the `Chart style` tab we can modify the lines of our chart and make them smooth.
 
-
 ![smooth](https://img.enkipro.com/ad72c00958bc80dbd6ad5b24958bbeaf.gif)
 
 This tab also allows us to maximize the chart, change the background color, fonts, border color, and plot null values.
 
 In the `Charts & axis titles` we can modify the title and subtitle of the chart, change their font type, size, color, and format.
 
-
 We have made the title bold and added a subtitle:
 
 ![change-title](https://img.enkipro.com/a6e2ab6b7cff75d3dca79abb4e3467dd.png)
 
-Next we have the `Series` tab. Here we can edit how the data is shown on the chart, how thick the lines will be, show plot points, add different formating and visual representation per data point, show errors, and more.
+Next we have the `Series` tab. Here we can:
+- edit how the data is shown
+- how thick the lines will be
+- show plot points
+- add different formating 
+- add visual representation per data point
+- show errors
+- and more.
 
 ![series](https://img.enkipro.com/090c3c6dcb063477a22f83f19e398bce.png)
 
