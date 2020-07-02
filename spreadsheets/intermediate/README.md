@@ -9,3 +9,8 @@ sections:
     - common-mistakes
     - spreadsheets-shortcuts
     - logical-functions
+    - more-functions-and-formulas
+    - parser-functions
+    - math-functions
+    - importing-data-ii
+    - conditional-formatting
