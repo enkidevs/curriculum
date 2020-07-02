@@ -15,7 +15,7 @@ category: how to
 ---
 ## Content
 
-Many times when you already have a chart created you will want to add more data to it without creating a new chart.
+"You might want to add data to your chart after it has been created.
 
 To do this you need to open the `Chart editor` and click on the `Select data range` button.
 
@@ -35,7 +35,7 @@ Go to the `Chart editor` and under the `Series` tab add the new data.
 
 ![add-data](https://img.enkipro.com/4eead76d50845348387de7a0539efcb5.gif)
 
-You can also add data from a different sheet. The process is completely the same. 
+You can also add data from a different sheet. The process is exactly the same. 
 
 After you click on the `Add another range` button you can navigate to any sheet in your spreadsheet and select the data you want to import. The data range will start with the name of the sheet before the cells to identify from which sheet the cells are coming from.
 
