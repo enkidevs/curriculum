@@ -29,7 +29,7 @@ Pie charts do not show changes over time or similar data, they are used to show 
 
 Line charts are best used to display a change over time. You could check if your company's profit is going up or down based on 2 or more entries.
 
-This chart shows a growth/decline in profit over a 3 year period:
+This chart shows changes in profit over a three year period:
 
 ![profit](https://img.enkipro.com/2cb1875d9992cb9b48d7d7c073fcf343.png)
 
@@ -57,7 +57,7 @@ Here you can select the chart you want.
 
 ![charts](https://img.enkipro.com/39a2fa3687c64a35f737d3c650297a6d.gif)
 
-By selecting one of the charts, the chart is instantly updated:
+When the new type is selected, the chart is instantly updated:
 
 ![update-charts](https://img.enkipro.com/d4c85e725ef4e7d49b0309cae383fe37.gif)
 
