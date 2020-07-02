@@ -16,9 +16,6 @@ category: how to
 ---
 ## Content
 
----
-## Practice
-
 The `=CONCATENATE()` function is used to combine data from 2 or more cells into one cell.
 
 Syntax:

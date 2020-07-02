@@ -36,8 +36,3 @@ Next you have the min, middle and max values. Here you can create a 3 color rule
 Each of the 3 points have a `Percent`, `Percentile` and `Number` conditions.
 
 The `minpoint` has a `Min value`, the `maxpoint` a `Max value` and the `midpoint` a `none` condition.
-
-
-
----
-## Practice

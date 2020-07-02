@@ -16,9 +16,6 @@ category: how to
 ---
 ## Content
 
----
-## Practice
-
 The `=CONCAT()` function is used to combine two values. 
 
 Syntax:

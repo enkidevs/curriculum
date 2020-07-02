@@ -16,9 +16,6 @@ category: how to
 ---
 ## Content
 
----
-## Practice
-
 There are several date and time functions in Spreadsheets.
  - TIME()
  - NOW()

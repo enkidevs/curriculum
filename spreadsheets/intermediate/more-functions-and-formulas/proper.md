@@ -16,9 +16,6 @@ category: how to
 ---
 ## Content
 
----
-## Practice
-
 The `=PROPER()` function is used to re-format text.
 
 Syntax:

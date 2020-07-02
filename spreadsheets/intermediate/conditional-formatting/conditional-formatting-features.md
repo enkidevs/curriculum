@@ -48,6 +48,3 @@ Next, you have the `formatting style` tab. Here you can make the text bold, ital
 Last, you can add a new rule.
 
 > You can have as many rules as you want in your spreadsheet.
-
----
-## Practice
