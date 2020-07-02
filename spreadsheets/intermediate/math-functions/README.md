@@ -8,3 +8,6 @@ insights:
   - ceiling-function
   - power-function
   - countunique-function
+  
+aspects:
+  - workout
