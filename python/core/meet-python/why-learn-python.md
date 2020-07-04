@@ -28,7 +28,7 @@ This makes it an *ideal language for beginners to learn*. And it acts as a stepp
 
 Python is also concise.
 
-For the same task, Python requires *3-5* times less code than Java, and up to *10* times less code than C++.
+For some simple tasks, Python requires *3-5* times less code than Java, and up to *10* times less code than C++.
 
 2. It's a **powerful language for data science**
 
@@ -58,12 +58,12 @@ It typically requires ??? code to write the same task in Python than in C++.
 
 ## Revision
 
-How much Python code is usually required to write the same task compared to C++ code? ???
+Python is the preferred language for ???.
 
-- `Up to 10 times less`
-- `Up to 5 times less`
-- `3–5 times less`
-- `Roughly equal`
+- data science
+- making games
+- web design
+- APIs
 
 
 ---
