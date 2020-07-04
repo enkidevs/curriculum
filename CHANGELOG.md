@@ -38,6 +38,12 @@ Types of change:
 - `Archived` for content that is no longer necessary and has been archived.
 - `Fixed` for any minor fixes (e.g. add a missing comma, adding a code block tag, fixing a report).
 
+## July 4th 2020
+
+### Changed
+- [Python - Why Learn Python - Improve revision question](https://github.com/enkidevs/curriculum/compare/amend-python-rq)
+
+
 ## July 2nd 2020
 
 ### Fixed
