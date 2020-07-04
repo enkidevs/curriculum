@@ -10,7 +10,8 @@ category: must-know
 
 links:
 
-	- '[Data Analysis vs Data Science](https://insidebigdata.com/2017/06/03/difference-data-science-data-analytics/){website}'
+  - '[Data Analysis vs Data Science](https://insidebigdata.com/2017/06/03/difference-data-science-data-analytics/){website}'
+  - '[Basic Statistics](https://towardsdatascience.com/basic-statistics-you-need-to-know-for-data-science-1fdd290f59b5){website}'
 
 ---
 
