@@ -12,12 +12,14 @@ category: must-know
 ---
 ## Content
 
-In real life, you can split entities into different types. All items of that type have some common characteristics. For example, you could think of *species* as being different types. Although not all animals belonging to a species are the same, they still have many characteristics in common.
+In real life, you can split entities into different types. All items of that type have some common characteristics. 
+
+For example, you could think of *species* as being different types. Although not all animals belonging to a species are the same, they still have many characteristics in common.
 
 Just as in real life, everything in programming has a data type. The most common ones are:
-- numerical
-- text-based
-- lists
+- number
+- text
+- list
 
 There are many more types, but you'll start learning them as you dive into a specific programming language. 
 

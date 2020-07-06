@@ -12,7 +12,7 @@ category: must-know
 ---
 ## Content
 
-Now, knowing that `0` means do nothing, we'll want the robot to take an action if any button between `1 - 9` is pressed:
+Now, knowing that `0` means "do nothing", we'll want the robot to take an action if any button between `1 - 9` is pressed:
 
 ```plain-text
 IF (input == 0) THEN
@@ -21,9 +21,9 @@ ELSE
   Make a grilled cheese.
 ```
 
-You have now chained two conditions. If the `input` is anything else than 0, then the robot will start making a grilled cheese sandwich.
+You have now chained two conditions. If the `input` is anything other than 0, then the robot will start making a grilled cheese sandwich.
 
-The next step is creating different *paths*:
+The next step is to create different *paths*:
 - `0` for doing nothing
 - `1` for white bread
 - `2` for whole wheat bread
@@ -35,14 +35,14 @@ IF (input == 0) THEN
 ELSE IF (input == 1) THEN
   Use white bread.
 ELSE IF (input == 2) THEN
-  Use whole wheat bread.
+  Use whole-wheat bread.
 ELSE IF (input == 3) THEN
   Use rye bread.
 ```
 
 You can chain multiple conditions using `ELSE IF`. If the `input` is `3` then the robot will use white bread, **and it won't even check the other conditions** because that one evaluated to `true`.
 
-> 💡 The final `ELSE` clause is option whether you chain conditions or use only one.
+> 💡 The final `ELSE` clause is optional.
 
 ---
 ## Practice
@@ -68,28 +68,12 @@ hungry = ???
 Complete the following condition chain:
 
 ```plain-text
-??? condition 1 THEN
+??? condition_1 THEN
   do something
-??? condition 2 THEN
+??? condition_2 THEN
   do something
 ???
-  do somethingIF (input == 0) THEN
-  Do nothing.
-ELSE IF (
-  input >= 1 AND 
-  input <= 3
-  ) THEN
-    ...
-ELSE IF (
-  input >= 4 AND 
-  input <= 6
-  ) THEN
-    ...
-ELSE IF (
-  input >= 7 AND 
-  input <= 9
-  ) THEN
-    ...
+  do something
 ```
 
 * IF

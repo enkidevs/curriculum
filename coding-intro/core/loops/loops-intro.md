@@ -38,7 +38,7 @@ Function make sandwiches
 Endfunction
 ```
 
-> 💡 You can leave comments in your code to explain why you have chosen a certain solution. In [pseudocode](https://www.enki.com/glossary/programming/pseudocode), comments are left using `//`, but each programming language has its own way of defining comments.
+> 💡 You can leave comments in your code to explain why you have chosen a certain solution. In [pseudocode](https://www.enki.com/glossary/general/pseudocode), comments are left using `//`, but each programming language has its own way of defining comments.
 
 When using a low number of repetitions, you wouldn't have any problems repeating the code, but the higher the number the harder and more tedious it gets. 
 

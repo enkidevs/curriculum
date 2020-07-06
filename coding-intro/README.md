@@ -1,6 +1,6 @@
-name: Programming
+name: Coding Intro
 
-description: Everything you need to know before you start programming.
+description: Everything you need to know before you start coding.
 
 color: 5F4B8B
 

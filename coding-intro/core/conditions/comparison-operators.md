@@ -4,7 +4,6 @@ author: kapnobatai136
 type: normal
 
 category: must-know
-
 ---
 
 # Comparison Operators
@@ -19,15 +18,13 @@ IF (input == 0) THEN
   Direct robot to do nothing.
 ```
 
-Wait, double equal signs? What's that? It's called a boolean condition and it can only have **two results**: `true` or `false`.
-
-The `==` sign means nothing more than **is equal to**. We are comparing the value of `input` with `0`, which is `true`.
+Wait, double equal signs? What's that? It's called an equality operator and it can only have **two results**: `true` or `false`.
 
 > 💡 Don't mix up `=` and `==`! 
 
-A single equal sign (`=`) is used for **assigning values**(i.e. putting values in a bucket). A double equal sign (`==`) is used for **comparing values** (i.e. comparing the values between two buckets).
+The `==` sign means nothing more than **is equal to**. If `A == B` is `true` that means the value of `A` and value of `B` are equal. If `A == B` is `false`, then their values are different.
 
-The `true` and `false` values are not strings. They actually belong to the **boolean** data type and it's what makes conditions possible. 
+On the other hand, a single equal sign (`=`) is used for **assigning values** (i.e. putting values in a box).
 
 You are not limited to the equality operator. Here is a table of the most commonly used **comparison operators**:
 

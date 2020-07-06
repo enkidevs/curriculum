@@ -12,9 +12,9 @@ category: must-know
 ---
 ## Content
 
-More often than not, a computer program will have many lines of text (think thousands). 
+More often than not, a computer program will have many lines of text (likely thousands). 
 
-Imagine you are maintaining one such program and you realise that there is a problem with it. In order to find it, you'd have to go through all those lines.
+Imagine you are maintaining a program like this and you realize that there is a problem with it. To find it, you'd have to go through all those lines.
 
 One way you can better organize your code is by grouping functionality together.
 
@@ -22,21 +22,21 @@ One way you can better organize your code is by grouping functionality together.
 
 Let's take a look at an example. It's Saturday afternoon, and you're ready for a grilled cheese sandwich 🧀. Here is the recipe[1].
 
-You just remembered that you have a robot sitting in your garage, so why not teach it how to make your gilled cheese sandwich?
+You just remembered that you have a robot sitting in your garage, so why not teach it how to make your grilled cheese sandwich?
 
 First, you'll have to create *functions* from the instructions. Starting with the first batch:
 
 ```plain-text
-Function prepare ingredients
-  Input: cheese, grater, bowl, bread.
-  Direct the robot to prepare the bowl and grater.
-  Direct the robot to grate cheese in the bowl.
-  Direct the robot to slide the bread.
-  Output: a bowl with cheese, sliced bread.
-Endfunction
+FUNCTION prepare_ingredients
+  INPUT: cheese, grater, bowl, bread.
+  Instruct the robot to prepare the bowl and grater.
+  Instruct the robot to grate cheese in the bowl.
+  Instruct the robot to slide the bread.
+  OUTPUT: a bowl with cheese, sliced bread.
+ENDFUNCTION
 ```
 
-The items in the `Input` row are usually called arguments. They represent data that will be available and used in the function.
+The items in the `Input` row are usually called parameters. **A parameter** is a variable inputted in the function. The value of a parameter is called **an argument**.
 
 ---
 ## Practice
@@ -51,21 +51,21 @@ Complete the following function so that the robot will slice the bread:
 ???
 ```
 
-* Function
-* Input
-* Output
-* Endfunction
+* FUNCTION
+* INPUT
+* OUTPUT
+* ENDFUNCTION
 
 ---
 ## Revision
 
-The **arguments** are written in what field:
+The **parameters** are written in what field:
 
 ???
 
-* Input
-* Output
-* Function
+* INPUT
+* OUTPUT
+* FUNCTION
 
 ---
 ## Footnotes

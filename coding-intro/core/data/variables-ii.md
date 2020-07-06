@@ -12,19 +12,21 @@ category: must-know
 ---
 ## Content
 
-Now that you know how boxes work, variables will be a piece of cake 😅. You store information in them, and give them *labels* (or names).
+Now that you know how boxes work, variables are easy 😅. You store information in them, and give them *labels* (or names).
 
 Let's create a variable. We have the `"Enki"` data, and want to store it in our box labeled `best_app`:
 
 ![variable-mental-model](https://img.enkipro.com/fa537341f3027f1cea7b76ecc3398e9d.png)
 
-> Don't worry about the quotation marks around `Enki` for now. We'll explain them in the following insights.
+> Don't worry about the quotation marks around `Enki` for now. We'll explain them in the insights coming up.
 
-When programming, this would usually be done by using the `=` sign:
+When programming, this would usually be done with the `=` sign:
 
 ```
 best_app = "Enki"
 ```
+
+> 💡 In computer science there are multiple naming conventions that you can choose from. For example, `best_app` makes use of **snake case**. Other examples are **kebab case** (`best-app`) and **camel case** (`bestApp`).
 
 ---
 ## Practice
