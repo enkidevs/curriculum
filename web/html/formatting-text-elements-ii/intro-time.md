@@ -1,18 +1,23 @@
 ---
 author: Stefan-Stojanovic
+
 type: normal
+
 category: must-know
+
 stub: true
+
 tags:
   - deep
+
 links:
   - >-
     [HTML <time>
     Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/time){documentation}
+
 ---
 
 # Intro `<time>`
-
 
 ---
 
@@ -82,7 +87,7 @@ Global Date and time:
 Duration:
 
 - P5D = duration of 5 days
-- P1H12M = durationn of 1 hour and 12 minutes
+- P1H12M = duration of 1 hour and 12 minutes
 
 Since the `datetime` attribute is machine-readable, this can help user agents add events to the user's calendar like in these examples:
 
@@ -105,7 +110,7 @@ Another Example:
 ```html
 <p>
 Date of birth:
-<time 1993-12-06 18:12:24>
+<time datetime="1993-12-06 18:12:24">
   December 6, 1993
   at 18:12:24
   </time>
@@ -141,7 +146,13 @@ Result:
 
 Write the code to properly declare the date:
 
-`<p>`WW2 ended <??? ???="???">September 2, 1945<???>.`</p>`
+```html
+<p>WW2 ended 
+  <??? ???="???">
+    September 2, 1945
+  <???>.
+</p>
+```
 
 - time
 - datetime
@@ -151,7 +162,6 @@ Write the code to properly declare the date:
 - 02-09-1945
 - /date
 - /datetime
-
 
 ---
 
