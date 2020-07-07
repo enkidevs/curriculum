@@ -1,18 +1,18 @@
-# #DIV/0!
+# #NAME?
 
-The `#DIV/0!` appears when you try to divide by 0 or an empty cell. 
-
-This error will also appear in functions that convert text to `0` before returning the result.
+The `#NAME?` error appears when text in the formula is not recognized.
 
 To fix this, hover over the function with the error to see which parameter of the function produces the error. 
 
-Then edit the cell/s that are empty or have a `0`.
+Then edit the cell/s or function and/or remove any unrecognized values.
 
-Example:
-`A2/B3` where `A2=30` and `B3` is an empty cell.
+Example unrecognized value:
+`=IF("Stefan" = Stefan, True)`
 
-The above function would produce the `#DIV/0!` error because we are trying to divide by `0`.
+The above function would produce the `#NAME?` error because we are using an incorrect text input.
 
-The error message would be: `Function DIVIDE parameter 2 cannot be zero.`
+The error message would be: `Unknown range name: 'STEFAN'.`
 
-Changing the value `B3` to a number would fix this error.
+Changing the value `Stefan` to `"Stefan"` would fix the error. 
+
+![unknown-range-error](https://img.enkipro.com/3f4c6708779053981dcf303eea08ce7c.gif)
