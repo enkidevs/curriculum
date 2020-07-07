@@ -1,14 +1,15 @@
-# #N/A!
+# #REF!
 
-The `#N/A!` error appears when the value is unavailable.
+The `#REF!` error appears when you have an invalid cell reference.
 
-The error can also occur when:
-- A formula or a function cannot find the referenced data
-- You don't use the correct number of arguments for a function or formula. 
+There are 2 invalid cell reference errors
 
-To fix this, hover over the function with the error to see which parameter of the function produces the error. 
+1. Circular dependency
 
-Then edit the cell/s or formula depending on what the error message says.
+This error occurs when you add the cell that contains the formula in your range of cells.
 
-Example error message:
-`Wrong number of arguments to IF. Expected between 2 and 3 arguments, but got 1 arguments.`
+To fix this, exclude the function cell from the range.
+
+![exclude-function-from-range](https://img.enkipro.com/e28a2108f806ad0dca4ed7ee8a2da3a7.gif)
+
+2. Another case when this error occurs is when you delete a cell, column, row, or sheet that is referenced in a formula. Upon deletion, the formula returns the `#REF!` error.
