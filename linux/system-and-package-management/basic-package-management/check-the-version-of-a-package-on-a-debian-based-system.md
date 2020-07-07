@@ -31,7 +31,7 @@ dpkg --list python
 ii  python    2.7.3-0ubuntu2 interact..
 ```
 
-The first column represents the *status* of the package. It is made up of 3 letters, the third one being used in case of an error.
+The first column represents the *status* of the package. It is made up of 3 characters, the third one being used in case of an error.
 
 The first one refers to the *desired* state of the package, or how is supposed to be. In this case, `i` means the package is marked for installation. Other options are:
 
@@ -54,7 +54,7 @@ w: trig-aWait from another package
 t: Trig-pend (has beed triggered)
 ```
 
-The only option for third letter is `r` and means it needs reinstallation (reinst-required).
+The only option for third character is `r` and means it needs reinstallation (reinst-required).
 
 
 ---
