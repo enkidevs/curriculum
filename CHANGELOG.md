@@ -38,10 +38,20 @@ Types of change:
 - `Archived` for content that is no longer necessary and has been archived.
 - `Fixed` for any minor fixes (e.g. add a missing comma, adding a code block tag, fixing a report).
 
-## July 2nd 2020
+## July 7th 2020
 
 ### Changed
 - [Security - OSI Intro - Improve the entire workout](https://github.com/enkidevs/curriculum/pull/2229)
+
+## July 6th 2020
+
+### Fixed
+- [Web - Intro `<time>` - Fix typo & add missing tag](https://github.com/enkidevs/curriculum/pull/2234)
+
+## July 2nd 2020
+
+### Fixed
+- [Python - I/O Functions - Change backticks to singe quotes in PQ answer](https://github.com/enkidevs/curriculum/pull/2230)
 
 ## June 30th 2020
 
