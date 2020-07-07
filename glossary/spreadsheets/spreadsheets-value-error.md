@@ -1,15 +1,13 @@
-# #REF!
+# #VALUE!
 
-The `#REF!` error appears when you have an invalid cell reference.
+The `#VALUE!` error appears when you try to use the wrong type of operand or function argument.
 
-There are 2 invalid cell reference errors
+For instance, trying to sum text values would yield this error.
 
-1. Circular dependency
+Or comparing a string to a number.
 
-This error occurs when you add the cell that contains the formula in your range of cells.
+To fix this, hover over the function with the error to see which parameter of the function produces the error. 
 
-To fix this, exclude the function cell from the range.
+Then edit the cell/s depending on what the function inputs should be.
 
-![exclude-function-from-range](https://img.enkipro.com/e28a2108f806ad0dca4ed7ee8a2da3a7.gif)
-
-2. Another case when this error occurs is when you delete a cell, column, row, or sheet that is referenced in a formula. Upon deletion, the formula returns the `#REF!` error.
+![value-error](https://img.enkipro.com/ba6615f415e9ef795df6e0bdbf6cc1ee.gif)
