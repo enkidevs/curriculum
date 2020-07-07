@@ -1,14 +1,18 @@
-# #N/A!
+# #DIV/0!
 
-The `#N/A!` error appears when the value is unavailable.
+The `#DIV/0!` appears when you try to divide by 0 or an empty cell. 
 
-The error can also occur when:
-- A formula or a function cannot find the referenced data
-- You don't use the correct number of arguments for a function or formula. 
+This error will also appear in functions that convert text to `0` before returning the result.
 
 To fix this, hover over the function with the error to see which parameter of the function produces the error. 
 
-Then edit the cell/s or formula depending on what the error message says.
+Then edit the cell/s that are empty or have a `0`.
 
-Example error message:
-`Wrong number of arguments to IF. Expected between 2 and 3 arguments, but got 1 arguments.`
+Example:
+`A2/B3` where `A2=30` and `B3` is an empty cell.
+
+The above function would produce the `#DIV/0!` error because we are trying to divide by `0`.
+
+The error message would be: `Function DIVIDE parameter 2 cannot be zero.`
+
+Changing the value `B3` to a number would fix this error.
