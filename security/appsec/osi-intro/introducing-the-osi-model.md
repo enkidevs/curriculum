@@ -38,7 +38,7 @@ The following workouts will go into detail about the responsibilities of each la
 
 ## Practice
 
-The OSI model is a ??? for various ??? configurations.
+The OSI model is a ??? standard for various ??? configurations.
 
 - flexible
 - network

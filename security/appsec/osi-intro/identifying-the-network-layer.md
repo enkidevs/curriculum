@@ -35,6 +35,7 @@ Some functions of the **Network Layer** include:
 - message forwarding
   - due to the nature of how networks are partitioned, gateways (or routers) must be used to forward packets between them 
 
+
 ---
 
 ## Practice
