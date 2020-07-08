@@ -38,6 +38,12 @@ Types of change:
 - `Archived` for content that is no longer necessary and has been archived.
 - `Fixed` for any minor fixes (e.g. add a missing comma, adding a code block tag, fixing a report).
 
+## July 8th 2020
+
+### Fixed
+- [Linux - Check the version of a package on a Debian based system - Make terminology more consistent](https://github.com/enkidevs/curriculum/pull/2236)
+- [Linux - Practical `cron` - Fix cron expression](https://github.com/enkidevs/curriculum/pull/2235)
+
 ## July 7th 2020
 
 ### Changed
