@@ -1,5 +1,7 @@
-name: css-animation
-description: Description of the workout goes here
+name: CSS Animation
+
+description: Creating and manipulating shapes with CSS.
+
 insights:
   - making-shapes-with-transform
   - pause-and-play-css-animations
@@ -7,8 +9,7 @@ insights:
   - manipulating-shapes-using-css-clip-path
   - manipulating-shapes-using-css-shape-outside
   - animations-in-webkit-browsers
+
 aspects:
-  - introduction
   - workout
   - deep
- 

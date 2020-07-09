@@ -41,6 +41,11 @@ Types of change:
 ## July 9th 2020
 
 ### Fixed
+- [Java - Iterators - Fix workout name & description](https://github.com/enkidevs/curriculum/pull/2242)
+- [Java - Class Interface Tips - Fix workout name & description](https://github.com/enkidevs/curriculum/pull/2242)
+- [JavaScript - Express II - Fix workout name & description](https://github.com/enkidevs/curriculum/pull/2242)
+- [Web - CSS Animation - Fix workout name & description](https://github.com/enkidevs/curriculum/pull/2242)
+- [Linux - Data Manipulation Recipes - Fix workout name & description](https://github.com/enkidevs/curriculum/pull/2242)
 - [Web - The `autofocus` Attribute - Fix error in example](https://github.com/enkidevs/curriculum/pull/2241)
 - [Web - The `autocomplete` Attribute - Fix error in example](https://github.com/enkidevs/curriculum/pull/2239)
 
