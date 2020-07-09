@@ -41,6 +41,7 @@ Types of change:
 ## July 9th 2020
 
 ### Fixed
+- [Web - The `autofocus` Attribute - Fix error in example](https://github.com/enkidevs/curriculum/pull/2241)
 - [Web - The `autocomplete` Attribute - Fix error in example](https://github.com/enkidevs/curriculum/pull/2239)
 
 ## July 8th 2020
