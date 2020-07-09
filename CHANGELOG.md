@@ -41,6 +41,7 @@ Types of change:
 ## July 9th 2020
 
 ### Fixed
+- [Security - Introducing the OSI model - Remove a note & fix grammar](https://github.com/enkidevs/curriculum/pull/2243)
 - [Java - Iterators - Fix workout name & description](https://github.com/enkidevs/curriculum/pull/2242)
 - [Java - Class Interface Tips - Fix workout name & description](https://github.com/enkidevs/curriculum/pull/2242)
 - [JavaScript - Express II - Fix workout name & description](https://github.com/enkidevs/curriculum/pull/2242)
