@@ -1,12 +1,15 @@
 ---
 author: Stefan-Stojanovic
+
 type: normal
+
 category: must-know
+
 links: null
+
 ---
 
 # The `autocomplete` Attribute
-
 
 ---
 
@@ -14,7 +17,9 @@ links: null
 
 The HTML input form `autocomplete` attribute is used to enable the browsers autofill option.
 
-`autocomplete="on"`
+```html
+autocomplete="on"
+```
 
 When this option is on, the browser can autofill the value you want to type, as you type it. The browser should then display the option `autofill` or similar text with values based on an earlier input.
 
@@ -29,9 +34,9 @@ Example:
     name="fullname"><br>
    Card number: <input type="number"
     name="ccnumber"><br>
-   Exparation date: <input type="month"
+   Expiration date: <input type="month"
     name="ccdate"><br>
-   CV: <input type"number"
+   CV: <input type="number"
     name="cvnumber"
     autocomplete="off"><br>
    <input type="submit">
@@ -48,7 +53,6 @@ Also, a credit card used on one website can autocomplete on a different website 
 
 The default value for autocomplete is `on`. 
 
-
 ---
 
 ## Practice
@@ -60,7 +64,6 @@ Which statement is true regarding autocomplete?
 - Can automatically complete fields based on the user's history
 - The data is stored on the webpage.
 - Items like credit card numbers should not be auto-completed.
-
 
 ---
 
@@ -76,7 +79,6 @@ Which input form attribute is used to store input field data and re-populate wit
 - sessionStorage
 - objects
 - storage
-
 
 ---
 
