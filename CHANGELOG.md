@@ -38,6 +38,11 @@ Types of change:
 - `Archived` for content that is no longer necessary and has been archived.
 - `Fixed` for any minor fixes (e.g. add a missing comma, adding a code block tag, fixing a report).
 
+## July 9th 2020
+
+### Fixed
+- [Web - The `autocomplete` Attribute - Fix error in example](https://github.com/enkidevs/curriculum/pull/2239)
+
 ## July 8th 2020
 
 ### Fixed
