@@ -48,7 +48,6 @@ Data analysis is about extracting ??? from ???.
 - numbers
 - pop tarts
 - algorithms
-- storms
 
 ---
 ## Revision
