@@ -9,9 +9,8 @@ type: normal
 category: must-know
 
 links:
-
-	- '[Advanced Google Analytics](https://analytics.google.com/analytics/academy/course/7/unit/1/lesson/1){website}'
-	- '[Google Analytics Top Tips](https://neilpatel.com/blog/google-analytics-tips/){website}'
+  - '[Advanced Google Analytics](https://analytics.google.com/analytics/academy/course/7/unit/1/lesson/1){website}'
+  - '[Google Analytics Top Tips](https://neilpatel.com/blog/google-analytics-tips/){website}'
 
 ---
 # Advanced Google Analytics

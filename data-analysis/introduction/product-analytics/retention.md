@@ -9,8 +9,7 @@ type: normal
 category: must-know
 
 links:
-
-	- '[Customer Retention Metrics](https://blog.hubspot.com/service/customer-retention-metrics){website}'
+  - '[Customer Retention Metrics](https://blog.hubspot.com/service/customer-retention-metrics){website}'
 
 
 ---

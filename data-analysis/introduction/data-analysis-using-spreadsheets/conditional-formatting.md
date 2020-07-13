@@ -9,8 +9,7 @@ type: normal
 category: must-know
 
 links:
-
-	- '[Conditional Formatting Tricks](https://spreadsheeto.com/conditional-formatting/){website}'
+  - '[Conditional Formatting Tricks](https://spreadsheeto.com/conditional-formatting/){website}'
 
 ---
 # Conditional Formatting

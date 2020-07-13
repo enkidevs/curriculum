@@ -9,7 +9,7 @@ type: normal
 category: must-know
 
 links:
-	- '[Marketing Analytics Examples](https://www.mentionlytics.com/blog/5-real-world-examples-of-how-brands-are-using-big-data-analytics/){website}'
+  - '[Marketing Analytics Examples](https://www.mentionlytics.com/blog/5-real-world-examples-of-how-brands-are-using-big-data-analytics/){website}'
 
 ---
 #  Intro to Marketing Analytics

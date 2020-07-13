@@ -9,8 +9,7 @@ type: normal
 category: must-know
 
 links:
-
-	- '[Tell Compelling Stories](https://cloud.google.com/blog/products/g-suite/tell-compelling-stories-with-your-data-using-google-sheets){website}'
+  - '[Tell Compelling Stories](https://cloud.google.com/blog/products/g-suite/tell-compelling-stories-with-your-data-using-google-sheets){website}'
 
 
 ---

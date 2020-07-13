@@ -9,7 +9,7 @@ type: normal
 category: must-know
 
 links:
-	- '[Statistical Significance](https://mixpanel.com/topics/statistical-significance/){website}'
+  - '[Statistical Significance](https://mixpanel.com/topics/statistical-significance/){website}'
 
 ---
 

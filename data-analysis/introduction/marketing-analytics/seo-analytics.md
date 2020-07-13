@@ -9,8 +9,7 @@ type: normal
 category: must-know
 
 links: 
-
-	- '[SEO tools](https://moz.com/blog/best-free-seo-tools){website}'
+  - '[SEO tools](https://moz.com/blog/best-free-seo-tools){website}'
 
 ---
 #  SEO Analytics

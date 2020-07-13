@@ -9,8 +9,7 @@ type: normal
 category: must-know
 
 links:
-
-	- '[Tableau](https://www.tableau.com/en-gb){website}'
+  - '[Tableau](https://www.tableau.com/en-gb){website}'
 
 ---
 # Make your results stand out

@@ -9,8 +9,7 @@ type: normal
 category: must-know
 
 links:
-
-	- '[Tableau Tutorial](https://help.tableau.com/current/guides/get-started-tutorial/en-us/get-started-tutorial-home.htm){website}'
+  - '[Tableau Tutorial](https://help.tableau.com/current/guides/get-started-tutorial/en-us/get-started-tutorial-home.htm){website}'
 
 ---
 # Tableau Desktop UI

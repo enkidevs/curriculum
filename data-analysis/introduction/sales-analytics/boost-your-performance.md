@@ -10,7 +10,7 @@ category: must-know
 
 links:
   - '[Sales Metrics](https://blog.hubspot.com/sales/sales-metrics){website}'
-	- '[Sales Analytics Dashboards](https://www.tableau.com/learn/articles/sales-dashboards-examples-and-templates){website}'
+  - '[Sales Analytics Dashboards](https://www.tableau.com/learn/articles/sales-dashboards-examples-and-templates){website}'
 
 ---
 # Boost your performance

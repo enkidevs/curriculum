@@ -9,8 +9,7 @@ type: normal
 category: must-know
 
 links:
-
-	- '[Types of Join](https://www.dofactory.com/sql/join){website}'
+  - '[Types of Join](https://www.dofactory.com/sql/join){website}'
 
 ---
 # Joins

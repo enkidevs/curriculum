@@ -9,8 +9,7 @@ type: normal
 category: must-know
 
 links:
-
-	- '[The Mode Notebook](https://mode.com/help/articles/notebook/){website}'
+  - '[The Mode Notebook](https://mode.com/help/articles/notebook/){website}'
 
 ---
 # Mode for Data Analysts

@@ -9,8 +9,7 @@ type: normal
 category: must-know
 
 links:
-
-	- '[Google Analytics for Beginners](https://analytics.google.com/analytics/academy/course/6){website}'
+  - '[Google Analytics for Beginners](https://analytics.google.com/analytics/academy/course/6){website}'
 
 ---
 # How to use Google Analytics

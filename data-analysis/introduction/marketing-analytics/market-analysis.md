@@ -9,9 +9,8 @@ type: normal
 category: must-know
 
 links:
-
-	- '[Competitor Analysis](https://realbusiness.co.uk/6-top-tips-for-carrying-out-a-thorough-competitor-analysis/){website}'
-	- '[Total Addressable Market](https://blog.zoominfo.com/how-to-calculate-total-addressable-market/#:~:text=To%20calculate%20your%20market%20size,your%20company%20service%20or%20product.){website}'
+  - '[Competitor Analysis](https://realbusiness.co.uk/6-top-tips-for-carrying-out-a-thorough-competitor-analysis/){website}'
+  - '[Total Addressable Market](https://blog.zoominfo.com/how-to-calculate-total-addressable-market/#:~:text=To%20calculate%20your%20market%20size,your%20company%20service%20or%20product.){website}'
 
 ---
 # Market Analysis

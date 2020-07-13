@@ -9,8 +9,7 @@ type: normal
 category: must-know
 
 links:
-
-	- '[Python for Data Analysis](https://www.simplilearn.com/why-python-is-essential-for-data-analysis-article){website}'
+  - '[Python for Data Analysis](https://www.simplilearn.com/why-python-is-essential-for-data-analysis-article){website}'
 
 
 ---

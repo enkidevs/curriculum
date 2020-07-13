@@ -9,9 +9,8 @@ type: normal
 category: must-know
 
 links:
-
-	- '[Looker Training](https://training.looker.com/looker-for-data-consumers){website}'
-	- '[UX Tips](https://looker.com/blog/dashboard-ux-ui){website}'
+  - '[Looker Training](https://training.looker.com/looker-for-data-consumers){website}'
+  - '[UX Tips](https://looker.com/blog/dashboard-ux-ui){website}'
 
 ---
 # How to use Looker

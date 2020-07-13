@@ -8,9 +8,9 @@ type: normal
 
 category: must-know
 
-links: 
-	- '[Setting Sales Goals](https://www.pipedrive.com/en/blog/setting-sales-goals){website}'
-	- '[Sales Metrics](https://www.propellercrm.com/blog/sales-metrics){website}'
+links:
+  - '[Setting Sales Goals](https://www.pipedrive.com/en/blog/setting-sales-goals){website}'
+  - '[Sales Metrics](https://www.propellercrm.com/blog/sales-metrics){website}'
 
 ---
 

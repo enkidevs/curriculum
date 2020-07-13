@@ -9,8 +9,7 @@ type: normal
 category: must-know
 
 links:
-
-	- '[Organize Your Spreadsheets](https://towardsdatascience.com/organize-your-spreadsheets-for-data-analysis-and-visualization-b1985a31523a){website}'
+  - '[Organize Your Spreadsheets](https://towardsdatascience.com/organize-your-spreadsheets-for-data-analysis-and-visualization-b1985a31523a){website}'
 
 
 ---

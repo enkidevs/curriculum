@@ -9,8 +9,7 @@ type: normal
 category: must-know
 
 links:
-
-	- '[Tableau Dashboard Tips](https://www.tableau.com/en-gb/about/blog/2017/10/7-tips-and-tricks-dashboard-experts-76821-0){website}'
+  - '[Tableau Dashboard Tips](https://www.tableau.com/en-gb/about/blog/2017/10/7-tips-and-tricks-dashboard-experts-76821-0){website}'
 
 ---
 # Dashboards and Stories

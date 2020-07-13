@@ -8,9 +8,8 @@ type: normal
 
 category: must-know
 
-links: 
-
-	- '[Best Sales Tools](https://www.intercom.com/blog/sales-tools/){website}'
+links:
+  - '[Best Sales Tools](https://www.intercom.com/blog/sales-tools/){website}'
 
 ---
 # Sales Analysis Tools 

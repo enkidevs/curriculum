@@ -9,8 +9,7 @@ type: normal
 category: must-know
 
 links:
-
-	- '[Mode vs Tableau vs Looker](https://www.stephenlevin.co/advanced-analytics-part-3-data-visualization/){website}'
+  - '[Mode vs Tableau vs Looker](https://www.stephenlevin.co/advanced-analytics-part-3-data-visualization/){website}'
 
 
 ---

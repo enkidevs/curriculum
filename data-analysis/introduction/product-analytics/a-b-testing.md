@@ -9,10 +9,9 @@ type: normal
 category: must-know
 
 links:
-
-	- '[A/B Testing](https://en.wikipedia.org/wiki/A/B_testing){website}'
-	- '[How to A/B Test](https://blog.hubspot.com/marketing/how-to-do-a-b-testing){website}'
-	- '[A/B Testing Kit](https://offers.hubspot.com/ab-testing-kit){website}'
+  - '[A/B Testing](https://en.wikipedia.org/wiki/A/B_testing){website}'
+  - '[How to A/B Test](https://blog.hubspot.com/marketing/how-to-do-a-b-testing){website}'
+  - '[A/B Testing Kit](https://offers.hubspot.com/ab-testing-kit){website}'
 
 ---
 # A/B Testing

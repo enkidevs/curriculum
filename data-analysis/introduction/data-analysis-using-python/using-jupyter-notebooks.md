@@ -9,8 +9,7 @@ type: normal
 category: must-know
 
 links:
-
-	- '[Install Jupyter Notebooks](https://jupyter.readthedocs.io/en/latest/install.html){website}'
+  - '[Install Jupyter Notebooks](https://jupyter.readthedocs.io/en/latest/install.html){website}'
 
 
 ---

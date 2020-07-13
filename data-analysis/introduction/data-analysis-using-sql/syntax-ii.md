@@ -9,8 +9,7 @@ type: normal
 category: must-know
 
 links:
-
-	- '[WHERE Clause](https://www.geeksforgeeks.org/sql-where-clause/){website}'
+  - '[WHERE Clause](https://www.geeksforgeeks.org/sql-where-clause/){website}'
 
 ---
 # SQL Syntax II

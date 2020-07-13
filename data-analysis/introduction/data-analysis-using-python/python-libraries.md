@@ -9,9 +9,9 @@ type: normal
 category: must-know
 
 links:
-	- '[Install NumPy](https://numpy.org/install/){website}'
-	- '[Install Pandas](https://pandas.pydata.org/pandas-docs/stable/getting_started/install.html){website}'
-	- '[Install Matplotib](https://matplotlib.org/users/installing.html){website}'
+  - '[Install NumPy](https://numpy.org/install/){website}'
+  - '[Install Pandas](https://pandas.pydata.org/pandas-docs/stable/getting_started/install.html){website}'
+  - '[Install Matplotib](https://matplotlib.org/users/installing.html){website}'
 
 
 ---

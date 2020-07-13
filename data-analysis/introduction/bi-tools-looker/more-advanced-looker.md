@@ -9,8 +9,7 @@ type: normal
 category: must-know
 
 links:
-
-	- '[LookML](https://training.looker.com/looker-development-foundations/334816){website}'
+  - '[LookML](https://training.looker.com/looker-development-foundations/334816){website}'
 
 ---
 # More Advanced Looker

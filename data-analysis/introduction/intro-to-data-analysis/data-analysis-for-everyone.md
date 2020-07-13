@@ -10,7 +10,7 @@ category: must-know
 
 links:
   - '[Data Analysis Improves Society](https://www.masterstudies.com/article/four-ways-data-analysis-can-improve-society/){website}'
-	- '[The Best Stats You've Ever Seen](https://www.youtube.com/watch?v=usdJgEwMinM){video}'
+  - '[The Best Stats You've Ever Seen](https://www.youtube.com/watch?v=usdJgEwMinM){video}'
 
 ---
 

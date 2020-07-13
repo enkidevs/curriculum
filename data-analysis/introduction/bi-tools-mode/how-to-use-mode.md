@@ -9,8 +9,7 @@ type: normal
 category: must-know
 
 links:
-
-	- '[Mode Guide](https://mode.com/help/articles/getting-started-with-mode/#visualize-results){website}'
+  - '[Mode Guide](https://mode.com/help/articles/getting-started-with-mode/#visualize-results){website}'
 
 
 ---

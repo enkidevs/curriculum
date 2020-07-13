@@ -9,9 +9,8 @@ type: normal
 category: must-know
 
 links:
-
-	- '[Data Visualization Best Practices](https://mode.com/analytics-dispatch/data-visualization-best-practices/){website}'
-	- '[Mode Gallery](https://mode.com/example-gallery){website}'
+  - '[Data Visualization Best Practices](https://mode.com/analytics-dispatch/data-visualization-best-practices/){website}'
+  - '[Mode Gallery](https://mode.com/example-gallery){website}'
 
 ---
 # Mode Customizations

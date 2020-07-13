@@ -9,8 +9,7 @@ type: normal
 category: must-know
 
 links:
-
-	- '[Engagement for Growth](https://blog.popcornmetrics.com/5-user-engagement-metrics-for-growth/){website}'
+  - '[Engagement for Growth](https://blog.popcornmetrics.com/5-user-engagement-metrics-for-growth/){website}'
 
 ---
 # Tracking Engagement

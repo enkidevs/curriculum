@@ -9,8 +9,7 @@ type: normal
 category: must-know
 
 links:
-
-	- '[Looker vs Tableau](https://www.quora.com/To-anyone-that-has-used-Looker-how-would-you-compare-it-to-Tableau-in-terms-of-price-capabilities){website}
+  - '[Looker vs Tableau](https://www.quora.com/To-anyone-that-has-used-Looker-how-would-you-compare-it-to-Tableau-in-terms-of-price-capabilities){website}
 
 ---
 # Intro to Looker
