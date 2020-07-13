@@ -9,7 +9,7 @@ type: normal
 category: must-know
 
 links:
-	- '[Walmart & Pop-Tarts](https://www.nytimes.com/2004/11/14/business/yourmoney/what-walmart-knows-about-customers-habits.html){website}'
+  - '[Walmart & Pop-Tarts](https://www.nytimes.com/2004/11/14/business/yourmoney/what-walmart-knows-about-customers-habits.html){website}'
 
 ---
 # What is Data Analysis?
