@@ -22,7 +22,7 @@ Performing SQL queries is much **faster** than importing data into a spreadsheet
 
 Also, even if you only know some basic SQL then you already have a **solid toolkit** for data analysis.
 
-Think of SQL as pivot tables on steriods. 💪
+Think of SQL as pivot tables on steroids. 💪
 
 It enables you to extract, aggregate and filter your data directly from the database.
 

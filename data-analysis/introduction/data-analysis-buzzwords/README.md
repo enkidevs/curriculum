@@ -1,8 +1,9 @@
-name: Data Analysis Terminology
-description: Understand the key mathematical and statistical concepts.
+name: Data Analysis Buzzwords
+description: Understand some of the biggest buzzwords in the data industry.
 insights:
-  - basic-terminology-i
-  - basic-terminology-ii
-  - more-terminology
+  - big-data
+  - key-metrics
+  - relative-vs-absolute-metrics
+  - north-star-metric
 aspects:
   - introduction
