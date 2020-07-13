@@ -12,7 +12,7 @@ links:
   - '[Pandas Functions](https://pandas.pydata.org/pandas-docs/stable/reference/general_functions.html){website}'
 
 ---
-# Pandas Functions
+# Pandas Functions I
 
 ---
 ## Content

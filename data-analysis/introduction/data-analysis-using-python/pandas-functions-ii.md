@@ -13,9 +13,14 @@ links:
 
 
 ---
+# Pandas Functions I
+
+---
 ## Content
 
-# Filtering
+---
+
+### Filtering
 
 We can filter **columns** by column name:
 
@@ -43,7 +48,7 @@ products_data['price'] < 10
 
 Check out the **Learn More** link to discover the many useful ways you can filter data using the pandas library!
 
-# Data Manipulation
+### Data Manipulation
 
 We can show how many nulls are found in each column with `isnull()`:
 

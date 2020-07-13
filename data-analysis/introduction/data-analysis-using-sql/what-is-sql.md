@@ -9,6 +9,9 @@ type: normal
 category: must-know
 
 ---
+# What is SQL?
+
+---
 ## Content
 
 If you have access to your company's database, or to a cloned/follower database, then it's worth learning some basic SQL. 

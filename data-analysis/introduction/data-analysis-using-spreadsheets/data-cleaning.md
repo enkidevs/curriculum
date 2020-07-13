@@ -36,7 +36,7 @@ If your raw data has already been tampered with and you can't download it again,
 - Each cell must contain only one dimension or measure
 - Each column must have a unique name
 
-# More Tips 
+### More Tips 
 
 Make sure each column has the correct **data type** - i.e. currency as Currency, dates as Date/Time.
 
