@@ -73,6 +73,7 @@ What is a “dimension” in Google Analytics?
 * A comparison of data between two date ranges.
 * A report that offers information about your audience.
 
+---
 ## Footnotes
 
 [1:Bounce Rate]
