@@ -1,15 +1,18 @@
 ---
 author: stefkn
+
 type: normal
+
 category: must-know
+
 links:
   - >-
     [SQL Tutorial:
     WHERE](http://www.sql-tutorial.com/sql-where-sql-tutorial/){website}
+
 ---
 
 # More Operators
-
 
 ---
 
@@ -52,27 +55,23 @@ This shows the rows where the `name` is an exact match of either `'Meowth'` or `
 
 ## Practice
 
-Select all the columns from the `pokemon` table, keeping only the rows where the name equals either `'bulbasaur'`, `'ivysaur'` or `'venusaur'`.
+Select all the columns from the `pokemon` table, keeping only the rows where the name equals either `'bulbasaur'` or `'ivysaur'`.
 
 ```sql
 SELECT *
 FROM pokemon
 ??? ???
-???
 ???;
 ```
 
 - `WHERE`
 - `name = 'bulbasaur' OR`
-- `name = 'ivysaur' OR`
-- `name = 'venusaur'`
+- `name = 'ivysaur'`
 - `name IS`
 - `OR`
 - `name IN`
 - `'ivysaur'`
 - `'bulbasaur'`
-- `'venusaur'`
-
 
 ---
 
