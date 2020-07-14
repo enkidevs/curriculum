@@ -1,12 +1,15 @@
 ---
 author: Stefan-Stojanovic
+
 type: normal
+
 category: must-know
+
 links: null
+
 ---
 
 # The `autofocus` Attribute
-
 
 ---
 
@@ -24,7 +27,7 @@ Example:
     name="ccnumber">
   Exparation date: <input type="month"
     name="ccdate">
-  CV: <input type"number"
+  CV: <input type="number"
     name="cvnumber">
   <input type="submit">
 </form>
@@ -36,8 +39,7 @@ Example:
 
 In the example above, the first text field has the autofocus set, so when the page loads, the text box will be selected by default and the user can start entering text right away without having to click the textfield.
 
-You can assign `autofocus` as either `autofocus`, `autofocus=""` or `autofocus="autofocus"`. All three options work the same in HTML5 however,  if you're using XHTML `autofocus` is required to be written as `autofocus="autofocus"`.
-
+You can assign `autofocus` as either `autofocus`, `autofocus=""` or `autofocus="autofocus"`. All three options work the same in HTML5. However, if you're using XHTML `autofocus` is required to be written as `autofocus="autofocus"`.
 
 ---
 
@@ -51,7 +53,6 @@ Which statement isn't true regarding autofocus?
 - Automatically sets focus to assigned control when the page loads.
 - User can start using assigned control without having to select it first.
 - Can be assiged as: `autofocus` or `autofocus="autofocus"`
-
 
 ---
 
@@ -67,7 +68,6 @@ Which input form attribute sets a selected input as active when the page loads?
 - active
 - focus
 - auto
-
 
 ---
 

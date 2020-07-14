@@ -1,15 +1,18 @@
 ---
 author: Stefan-Stojanovic
+
 type: normal
+
 category: must-know
+
 links:
   - >-
     [HTML <textarea>
     Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea){documentation}
+
 ---
 
 # Text Area
-
 
 ---
 
@@ -31,8 +34,8 @@ Simple example:
 
 The `<textarea>` element has many attributes. Some of the more common are:
 
-- `autocomplete` enables autocomplete for text area
-- `autofocus` sets focus on text area upon page load
+- `autocomplete` enables autocomplete for `textarea`
+- `autofocus` sets focus on `textarea` upon page load
 - `cols`
 - `maxlength`
 - `minlength`
@@ -56,15 +59,14 @@ Example with attributes:
 
 In the example above, `rows="10"` specifies the number of visible text lines for the control,  `cols="30"` specifies the average characters width and the `placeholder` attribute presents a hint which disappears after the user types something and reappears if there is no input.
 
-
 ---
 
 ## Practice
 
-Write the form code that creates a multi-line input for text.
+Write the form code that creates a multi-line input for text named `textbox`.
 
-```plain-text
-<??? 
+```html
+<???
   ???="???">
 <???>
 ```
@@ -86,10 +88,10 @@ Which element creates a multi-line input field that is 10 lines of text in heigh
 
 ???
 
-- ` <textarea name="message" rows="10" cols="30"></textarea>`
-- ` <textarea name="message" rows="30" cols="10"></textarea>`
-- ` <input type="textarea" name="message" rows="10" cols="30">`
-- ` <input name="message" rows="10" cols="30"></input>`
+- `<textarea name="message" rows="10" cols="50"></textarea>`
+- `<textarea name="message" rows="30" cols="10"></textarea>`
+- `<input type="textarea" name="message" rows="10" cols="30">`
+- `<input name="message" rows="10" cols="30"></input>`
 
 
 ---

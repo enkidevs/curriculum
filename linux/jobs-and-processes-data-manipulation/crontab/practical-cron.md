@@ -58,7 +58,7 @@ Some common used *special characters* are:
 For example, to set a cron job that executes at 9:00, 9:15, 18:00, 18:15, of every Monday and Friday in January and August:
 
 ```plain-text
-00,15 09,18 Jan,Aug * 1,5
+00,15 09,18 * Jan,Aug 1,5
             /root/check_cache.sh
 ```
 

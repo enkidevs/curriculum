@@ -38,6 +38,41 @@ Types of change:
 - `Archived` for content that is no longer necessary and has been archived.
 - `Fixed` for any minor fixes (e.g. add a missing comma, adding a code block tag, fixing a report).
 
+## July 14th 2020
+
+### Fixed
+- [Web - Image Height & Width - Improve PQ & RQ, general formatting](https://github.com/enkidevs/curriculum/pull/2247)
+- [Web - Text Area - Improved PQ text to be specific](https://github.com/enkidevs/curriculum/pull/2246)
+- [SQL - More Operators - Update PQ to accept only one sequence of correct answers](https://github.com/enkidevs/curriculum/pull/2245)
+
+## July 9th 2020
+
+### Fixed
+- [Security - Introducing the OSI model - Remove a note & fix grammar](https://github.com/enkidevs/curriculum/pull/2243)
+- [Java - Iterators - Fix workout name & description](https://github.com/enkidevs/curriculum/pull/2242)
+- [Java - Class Interface Tips - Fix workout name & description](https://github.com/enkidevs/curriculum/pull/2242)
+- [JavaScript - Express II - Fix workout name & description](https://github.com/enkidevs/curriculum/pull/2242)
+- [Web - CSS Animation - Fix workout name & description](https://github.com/enkidevs/curriculum/pull/2242)
+- [Linux - Data Manipulation Recipes - Fix workout name & description](https://github.com/enkidevs/curriculum/pull/2242)
+- [Web - The `autofocus` Attribute - Fix error in example](https://github.com/enkidevs/curriculum/pull/2241)
+- [Web - The `autocomplete` Attribute - Fix error in example](https://github.com/enkidevs/curriculum/pull/2239)
+
+## July 8th 2020
+
+### Fixed
+- [Linux - Check the version of a package on a Debian based system - Make terminology more consistent](https://github.com/enkidevs/curriculum/pull/2236)
+- [Linux - Practical `cron` - Fix cron expression](https://github.com/enkidevs/curriculum/pull/2235)
+
+## July 7th 2020
+
+### Changed
+- [Security - OSI Intro - Improve the entire workout](https://github.com/enkidevs/curriculum/pull/2229)
+
+## July 6th 2020
+
+### Fixed
+- [Web - Intro `<time>` - Fix typo & add missing tag](https://github.com/enkidevs/curriculum/pull/2234)
+
 ## July 2nd 2020
 
 ### Fixed

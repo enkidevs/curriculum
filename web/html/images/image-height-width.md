@@ -1,15 +1,18 @@
 ---
 author: Stefan-Stojanovic
+
 type: normal
+
 category: must-know
+
 links:
   - >-
     [HTML <img>
     Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img){documentation}
+
 ---
 
 # Image Height & Width
-
 
 ---
 
@@ -25,7 +28,11 @@ Example:
     width="140">
 ```
 
-Browsers render your page faster and more cleanly (aka the browser will reserve appropriate space for the image, even before the image is loaded preventing loading images from forcing changes in the page layout during loading) when the height and width are used, but in order for these images to be responsive, their height and width will be overridden using CSS.
+When using the `height` and `width` attributes, the browser will render your page faster and more cleanly.
+
+This is because the browser will reserve appropriate space for the image even before the image is loaded, preventing loading images from forcing changes in the page layout during loading.
+
+To make the images responsive, their height and width can be overridden using CSS.
 
 ```html
 <img src="logo.svg"
@@ -35,13 +42,12 @@ Browsers render your page faster and more cleanly (aka the browser will reserve 
 
 ```css
 img {
-    width: 100%;
-    height: auto;
+  width: 100%;
+  height: auto;
 }
 ```
 
 [View CodePen](https://codepen.io/enkidevs/pen/GBRLYE)
-
 
 ---
 
@@ -49,7 +55,13 @@ img {
 
 Fill in the appropriate attributes/values for creating an image in HTML with dimensions 300x200.
 
-`<??? ???="image.svg" height="200" ???="300">`
+```html
+<???
+  ???="image.svg" 
+  height="200" 
+  ???="300"
+>
+```
 
 - img
 - src
@@ -59,22 +71,28 @@ Fill in the appropriate attributes/values for creating an image in HTML with dim
 - tall
 - wide
 
-
 ---
 
 ## Revision
 
-What are the appropriate attributes for setting the image size in HTML? (Please provide the two words/answers alphabetically in order.)
+Create an image in HTML that is `300px` tall and `150px` wide. 
 
-`<img src="image.svg" ___="200" ___="200">`
+```html
+<???
+  ???="image.svg"
+  ???="300"
+  ???="150"
+>
+```
 
+- img
+- src
 - height
 - width
 - length
 - size
 - tall
 - wide
-
 
 ---
 
