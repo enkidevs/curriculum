@@ -41,6 +41,7 @@ Types of change:
 ## July 14th 2020
 
 ### Fixed
+- [Web - Text Area - Improved PQ text to be specific](https://github.com/enkidevs/curriculum/pull/2246)
 - [SQL - More Operators - Update PQ to accept only one sequence of correct answers](https://github.com/enkidevs/curriculum/pull/2245)
 
 ## July 9th 2020
