@@ -1,18 +1,22 @@
 ---
 author: emmab
+
 tags:
   - introduction
   - workout
+
 type: normal
+
 category: must-know
+
 links:
   - >-
     [Mapping
     Types](https://docs.python.org/3.5/library/stdtypes.html#mapping-types-dict){website}
+
 ---
 
 # The `Dictionary`
-
 
 ---
 
@@ -21,7 +25,10 @@ links:
 The **dictionary**, `dict`, is Python's main *mapping type*. Mapping objects are ones that contain *key-value pairs*. 
 
 ```python
-my_dict = {'name': 'Jack', 'age': 26}
+my_dict = {
+    'name': 'Jack', 
+    'age': 26
+}
 ```
 
 In the example above, `'name'` and `'Jack'` are a *key-value pair*. `'name'` acts as the *key*, and `'Jack'` as the *value*.
@@ -46,17 +53,26 @@ my_dict['age']
 The `update()` method merges the keys and values from one dictionary into another and overwrites values if the same key exists:
 
 ```python
-preferences = {'fruit': 'apple', 'car': 'Tesla'}
-more_preferences = {'fruit': 'pear', 'animal': 'dog'}
+preferences = {
+    'fruit': 'apple', 
+    'car': 'Tesla'
+}
+more_preferences = {
+    'fruit': 'pear',
+    'animal': 'dog'
+}
 
 preferences.update(more_preferences)
 
 print(preferences)
-# {'fruit': 'pear', 'car': 'Tesla', 'animal': 'dog'}
+# {
+#   'fruit': 'pear', 
+#   'car': 'Tesla', 
+#   'animal': 'dog'
+# }
 ```
 
 > Remember - be careful when using `update()`, as a dictionary can't have multiple entries with the same key.
-
 
 ---
 
@@ -66,7 +82,10 @@ Fill in the following snippet so that it will return the value of `dog`:
 
 ```python
 
-animals = {'cat': 'persian', 'dog': 'pug'}
+animals = {
+    'cat': 'persian', 
+    'dog': 'pug'
+}
 
 animals???
 # pug
@@ -85,7 +104,11 @@ animals???
 How would you access the value of `maths`?
 
 ```python
-grades = {'biology': 82.1, 'maths': 79.8, 'economics': 65.4}
+grades = {
+    'biology': 82.1,
+    'maths': 79.8,
+    'economics': 65.4
+}
 ```
 
 ???
