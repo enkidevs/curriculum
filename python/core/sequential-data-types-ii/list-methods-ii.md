@@ -1,15 +1,18 @@
 ---
 author: emmab
+
 type: normal
+
 category: must-know
+
 links:
   - >-
     [Python List
-    Methods](https://www.programiz.com/python-programming/methods/listl){website}
+    Methods](https://www.programiz.com/python-programming/methods/list){website}
+
 ---
 
 # List Methods II
-
 
 ---
 
@@ -43,7 +46,6 @@ print(number_list)
 ```
 
 The syntax for this requires that the `index` is given as the *first argument*, and the `item` to insert as the *second argument*.
-
 
 ---
 
