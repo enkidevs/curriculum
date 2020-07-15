@@ -1,14 +1,17 @@
 ---
 author: Ricardo
+
 type: normal
+
 category: tip
+
 tags:
   - substring
   - in
+
 ---
 
 # Pythonic substring testing
-
 
 ---
 
@@ -19,7 +22,7 @@ Perform a substring test in a pythonic fashion using the `in` operator:
 ```python
 string = 'Hello world'
 if 'Hello' in string:
-  print 'Substring!'
+  print('Substring!')
 ```
 
 Instead of:
@@ -27,10 +30,8 @@ Instead of:
 ```python
 string = 'Hello world'
 if string.find('Hello') != -1:
-  print 'Success!'
-
+  print('Success!')
 ```
-
 
 ---
 
@@ -38,11 +39,11 @@ if string.find('Hello') != -1:
 
 Complete the following code snippet such that it makes sense:
 
-```plain-text
+```py
 string = “Hey there”
 ??? ‘Hey’ ??? string:
-  print “found it”
-#found it
+  print("found it")
+# found it
 ```
 
 - `if`

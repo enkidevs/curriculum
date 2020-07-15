@@ -44,6 +44,7 @@ Types of change:
 - [Python - Special Queue Methods - Add correct defition for `get` method and fix definition of `put` method](https://github.com/enkidevs/curriculum/pull/2249)
 
 ### Fixed
+- [Python - Substring Testing - Change `print` syntax to python3](https://github.com/enkidevs/curriculum/pull/2256)
 - [JavaScript - Loops - Part 2 - Fix error in example](https://github.com/enkidevs/curriculum/pull/2255)
 - [Docker - Container vs VM - Fix resource link](https://github.com/enkidevs/curriculum/pull/2254)
 - [Python - The Dictionary - General formatting](https://github.com/enkidevs/curriculum/pull/2251)
