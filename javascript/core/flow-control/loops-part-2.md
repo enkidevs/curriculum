@@ -1,13 +1,16 @@
 ---
 author: alexjmackey
+
 type: normal
+
 category: must-know
+
 links:
   - '[for in / for of loops](https://youtu.be/a3KHBqH7njs){video}'
+
 ---
 
 # Loops - Part 2
-
 
 ---
 
@@ -64,11 +67,10 @@ for (let i in arr) {
 }
 // 10 20 30 newFunc
 
-for (let i of iterable) {
+for (let i of arr) {
    console.log(i);
 }
 // 10 20 30
-
 ```
 
 ### `break` & `continue`
@@ -93,11 +95,9 @@ do {
 
   console.log(i);
   
-} while (i<10);
+} while (i < 10);
 // 1 3 4
-
 ```
-
 
 ---
 
