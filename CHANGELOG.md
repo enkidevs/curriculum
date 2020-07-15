@@ -41,6 +41,7 @@ Types of change:
 ## July 15th 2020
 
 ### Fixed
+- [Python - `while` loops - Change increment syntax to be more clear for beginners](https://github.com/enkidevs/curriculum/pull/2250)
 - [Python - List Methods II - Fix resrouce link](https://github.com/enkidevs/curriculum/pull/2248)
 
 ## July 14th 2020
