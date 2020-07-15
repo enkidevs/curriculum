@@ -48,7 +48,7 @@ print(q.full())
 # output: True
 ```
 
-When you want to `put` an element in the queue but it's full, you can make the method call block for some number of seconds until there is a free slot:
+When you want to `put` an element in the queue but it's full, you can make the method call wait for some number of seconds until there is a free slot. This is done via the `block` argument:
 
 ```python
 q.put(4, block=True, timeout=None)
@@ -56,7 +56,7 @@ q.put(4, block=True, timeout=None)
 
 With `block=True` and `timeout=None` it **blocks** the queue until there is a free slot. 
 
-If `block=True` and `timeout` is a positive number it **blocks** at most timeout seconds and raises the `Full` exception **if no free slot was available within that time**.
+If `block=True` and `timeout` is a positive number, it **blocks** for a maximum of `timeout` seconds and raises the `Full` exception **if no free slot was available within that time**.
 
 If `block=False`, it puts an item in the queue **if there is a free slot available**. Otherwise, it raises the `Full` exception. In this case, `timeout` is ignored.
 
