@@ -38,6 +38,11 @@ Types of change:
 - `Archived` for content that is no longer necessary and has been archived.
 - `Fixed` for any minor fixes (e.g. add a missing comma, adding a code block tag, fixing a report).
 
+## July 15th 2020
+
+### Fixed
+- [Python - List Methods II - Fix resrouce link](https://github.com/enkidevs/curriculum/pull/2248)
+
 ## July 14th 2020
 
 ### Fixed
