@@ -1,12 +1,13 @@
 ---
 author: tommarshall
+
 type: normal
+
 category: must-know
-inAlgoPool: false
+
 ---
 
 # `while` loops
-
 
 ---
 
@@ -42,12 +43,11 @@ Gives the following output:
 4
 ```
 
-
 ---
 
 ## Practice
 
-Print the  all numbers in 0..10 *inclusive*:
+Print the all numbers between 0 and 10 *inclusive*:
 
 ```python
 x = 0
@@ -58,10 +58,10 @@ while x < ???:
 
 - 11
 - print(x)
-- x += 1
+- x = x + 1
 - 10
 - x++
-- x+1
+- x + 1
 
 
 ---
@@ -73,8 +73,8 @@ What’s the output of the following code snippet:
 ```python
 x = 0
 while x < 5:
-     x += 1
-     print(x)
+    x = x + 1
+    print(x)
 ```
 
 ???
