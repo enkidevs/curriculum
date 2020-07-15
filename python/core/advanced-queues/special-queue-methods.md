@@ -1,15 +1,19 @@
 ---
 author: catalin
+
 type: normal
+
 category: feature
+
 links:
   - >-
     [docs.python.org](https://docs.python.org/3.5/library/queue.html#queue-objects){website}
+
 parent: a-thread-safe-queue
+
 ---
 
 # Special `queue` methods
-
 
 ---
 
@@ -26,7 +30,6 @@ q = queue.Queue(3)
 q.put(1)
 q.put(2)
 q.put(3)
-
 ```
 
 Get the approximate size of the `queue`:
@@ -34,7 +37,6 @@ Get the approximate size of the `queue`:
 ```python
 print(q.qsize())
 # output: 3
-
 ```
 
 Check if a `queue` is empty or full:
@@ -44,20 +46,28 @@ print(q.empty())
 # output: False
 print(q.full())
 # output: True
-
 ```
 
-When you want to `put`  an element in the queue but it's full, you can make the method call block for some number of seconds until there is a free slot:
+When you want to `put` an element in the queue but it's full, you can make the method call block for some number of seconds until there is a free slot:
 
 ```python
-q.put(4, block=True,timeout=None)
-
+q.put(4, block=True, timeout=None)
 ```
 
-With `timeout=None` it **blocks** the queue until there is a free slot. If `timeout` is a number it will raise  an `Empty` exception if no free slot was available in that time.
+With `block=True` and `timeout=None` it **blocks** the queue until there is a free slot. 
 
-The same syntax and logic applies to the `get()` method too.
+If `block=True` and `timeout` is a positive number it **blocks** at most timeout seconds and raises the `Full` exception **if no free slot was available within that time**.
 
+If `block=False`, it puts an item in the queue **if there is a free slot available**. Otherwise, it raises the `Full` exception. In this case, `timeout` is ignored.
+
+You can use the `get` method to **remove and return** an element from the queue:
+
+```py
+print(q.get(1))
+# 1
+```
+
+The `get` method can also use the `block` and `timeout` attributed. It behaves similarly with the `put` method, but instead of the `Full` exception it will raise an `Empty` exception. 
 
 ---
 
@@ -65,7 +75,7 @@ The same syntax and logic applies to the `get()` method too.
 
 Check if queue `e` is full:
 
-```plain-text
+```py
 print(e.???())
 ```
 
@@ -81,7 +91,7 @@ print(e.???())
 
 Create a queue of maximum 5 elements:
 
-```plain-text
+```py
 q = ???.???(5)
 ```
 
