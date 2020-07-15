@@ -41,6 +41,7 @@ Types of change:
 ## July 15th 2020
 
 ### Fixed
+- [Python - `for` loops - Update loop definition](https://github.com/enkidevs/curriculum/pull/2253)
 - [Python - The Dictionary - General formatting](https://github.com/enkidevs/curriculum/pull/2251)
 - [Python - `while` loops - Change increment syntax to be more clear for beginners](https://github.com/enkidevs/curriculum/pull/2250)
 - [Python - List Methods II - Fix resrouce link](https://github.com/enkidevs/curriculum/pull/2248)
