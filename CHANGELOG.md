@@ -40,6 +40,9 @@ Types of change:
 
 ## July 15th 2020
 
+### Changed
+- [Python - Special Queue Methods - Add correct defition for `get` method and fix definition of `put` method](https://github.com/enkidevs/curriculum/pull/2249)
+
 ### Fixed
 - [Python - `for` loops - Update loop definition](https://github.com/enkidevs/curriculum/pull/2253)
 - [Python - The Dictionary - General formatting](https://github.com/enkidevs/curriculum/pull/2251)
