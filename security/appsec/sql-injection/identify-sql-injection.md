@@ -1,7 +1,10 @@
 ---
 author: lizTheDeveloper
+
 type: normal
+
 category: how to
+
 links:
   - >-
     [Testing for SQL Injection (OTG-INPVAL-005)
@@ -9,11 +12,10 @@ links:
   - >-
     [Testing for ORM Injection (OTG-INPVAL-007)
     ](https://www.owasp.org/index.php/Testing_for_ORM_Injection_(OTG-INPVAL-007)){website}
-  - '[link to a discussion](https://enki.com){website}'
+
 ---
 
 # Identify SQL Injection
-
 
 ---
 
@@ -37,22 +39,22 @@ Orders.find_all
 order_date = '#{@params['order_date']}'"
 ```
 
-
 ---
 
 ## Practice
 
 Modify the query to pass in SQL to get all users:
 
-```plain-text
-SELECT * FROM Users WHERE Username='???'
+```sql
+SELECT * 
+FROM Users 
+WHERE Username='???'
 ```
 
 - 1' OR '1' = '1
 - ;SELECT * FROM Users;
 - --; SELECT * FROM Users;
 - OR '1' = '1'
-
 
 ---
 
