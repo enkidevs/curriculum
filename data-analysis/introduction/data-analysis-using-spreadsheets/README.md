@@ -1,4 +1,4 @@
-name: Data Analysis using Spreadsheets
+name: Spreadsheets
 description: Understand the power of spreadsheets for Data Analysis.
 insights:
   - intro-to-spreadsheets

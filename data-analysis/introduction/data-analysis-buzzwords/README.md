@@ -1,4 +1,4 @@
-name: Data Analysis Buzzwords
+name: Buzzwords
 description: Understand some of the biggest buzzwords in the data industry.
 insights:
   - big-data

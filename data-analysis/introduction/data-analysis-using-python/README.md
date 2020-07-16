@@ -1,4 +1,4 @@
-name: Data Analysis using Python
+name: Python
 description: Understand the power of Python for Data Analysis.
 insights:
   - intro-to-python-for-data-analysis

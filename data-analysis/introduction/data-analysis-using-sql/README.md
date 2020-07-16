@@ -1,4 +1,4 @@
-name: Data Analysis using SQL
+name: SQL
 description: Understand the power of SQL for Data Analysis.
 insights:
   - da-what-is-sql
