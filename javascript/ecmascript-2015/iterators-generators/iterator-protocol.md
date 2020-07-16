@@ -1,16 +1,17 @@
 ---
 author: alexjmackey
+
 type: normal
+
 category: must-know
-inAlgoPool: false
+
 links:
   - >-
-    [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Iteration_protocols){website}
-  - '[link to learn more](https://enki.com){website}'
+    [Iteration protocols](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Iteration_protocols){website}
+
 ---
 
 # Iterator Protocol
-
 
 ---
 
@@ -37,7 +38,7 @@ Let’s modify our return statement to use this:
 return {
   next: function() {
     if (nextIndex < num.length) {
-      var valueToReturn = num[nextIndex];
+      let valueToReturn = num[nextIndex];
       nextIndex++;
       return {
         value: valueToReturn,
@@ -49,7 +50,6 @@ return {
   }
 };
 ```
-
 
 ---
 

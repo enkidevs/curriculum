@@ -41,6 +41,10 @@ Types of change:
 ## July 16th 2020
 
 ### Fixed
+- [JavaScript - Iterator protocol - Remove default link](https://github.com/enkidevs/curriculum/pull/2262)
+- [Security - Broken access control - Remove default link](https://github.com/enkidevs/curriculum/pull/2262)
+- [Security - Mitigate deserialization - Remove default link](https://github.com/enkidevs/curriculum/pull/2262)
+- [Security - Identify SQL Injection - Remove default link](https://github.com/enkidevs/curriculum/pull/2262)
 - [Blockchain - Cyptoeconomics - Remove mentions of bookmark feature, general formatting & updating resource links](https://github.com/enkidevs/curriculum/pull/2261)
 - [Comp Sci - A request example - Remove mentions of bookmark feature, general formatting & updating resource links](https://github.com/enkidevs/curriculum/pull/2261)
 - [Comp Sci - DNS lookup - Remove mentions of bookmark feature, general formatting & updating resource links](https://github.com/enkidevs/curriculum/pull/2261)

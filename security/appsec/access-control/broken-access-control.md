@@ -1,14 +1,16 @@
 ---
 author: lizTheDeveloper
+
 type: normal
+
 category: pattern
+
 links:
-  - '[link to official documentation](https://enki.com){website}'
   - '[HTTP Status Codes (cats)](https://http.cat/){website}'
+
 ---
 
 # Broken Access Control
-
 
 ---
 
@@ -36,7 +38,6 @@ If the user who is logged in is not an administrator, and yet visiting that URL 
 
 The HTTP Status Code you should receive depends on what's wrong with the credential. When attempting to access a URL with a credential that is not on the list of authorized credentials, you want **401 Not Authorized**. Servers occasionally return a **403 Forbidden** or a **402 Payment Required** when users access a resource that is locked for a reason. Sometimes, servers return a **404 Not Found**, which is like denying the existence of the URL in the first place.
 
-
 ---
 
 ## Practice
@@ -49,7 +50,6 @@ When a user accesses a URL they should not be able to access, return the HTTP st
 - 204
 - 404
 
-
 ---
 
 ## Revision
@@ -61,4 +61,3 @@ If a user should not even know about a URL if they don't have the proper credent
 - 401
 - 200
 - 500
- 
