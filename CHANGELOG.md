@@ -41,6 +41,7 @@ Types of change:
 ## July 16th 2020
 
 ### Fixed
+- [Linux - What is a network interface - Fix resource link](https://github.com/enkidevs/curriculum/pull/2260)
 - [Security - Deserialization - Fix resource links](https://github.com/enkidevs/curriculum/pull/2259)
 - [Security - Mitigating SQL Injection Attacks - Fixed resource links](https://github.com/enkidevs/curriculum/pull/2258)
 - [Security - XXE Security - Fix resource link](https://github.com/enkidevs/curriculum/pull/2257)
