@@ -25,7 +25,7 @@ We can think of a function as divide into 3 parts.
 
 > 💡 The outputing of a result from a function is also called **returning** a result.
 
-Here's how you can write the `multiplyTwoNumbers` function using our own [made-up]() language:
+Here's how you can write the `multiplyTwoNumbers` function using our own [made-up](https://www.enki.com/glossary/coding-intro/made-up) language:
 
 ```plain-text
 FUNCTION multiplyTwoNumbers
@@ -74,15 +74,3 @@ The data given to the function is called an ??? and the result the function prod
 - stuff
 - signal
 - hardware
-
----
-## Footnotes
-[1: This is a Made Up Language]
-
-We're using a made-up programming language on purpose. 
-
-> This is also called [pseudo-code](https://enki.com/glossary/general/pseudocode).
-
-The point is to demonstrate the basic concepts that all languages share before diving into specifics of any particular language.
-
-Once you understand what functions, inputs, loops etc are, you can pick up any programming language more easily!
