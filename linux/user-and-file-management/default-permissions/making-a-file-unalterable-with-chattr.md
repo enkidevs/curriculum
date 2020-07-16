@@ -1,14 +1,7 @@
 ---
 author: tuwidc
-
-aspects:
-  - obscura
-  - workout
-
 type: normal
-
 category: how to
-
 tags:
   - linux
   - chattr
@@ -16,12 +9,13 @@ tags:
   - terminal
   - obscura
   - workout
-
 ---
 
 # Making a file unalterable with `chattr`
 
+
 ---
+
 ## Content
 
 You can make a file unalterable so that it cannot be changed or deleted even by root:
@@ -53,7 +47,9 @@ chflags uchg /path/to/file
 chflags nouchg /path/to/file
 ```
 
+
 ---
+
 ## Revision
 
 Make `enki` *file* unalterable:
@@ -62,10 +58,8 @@ Make `enki` *file* unalterable:
 sudo ??? ??? enki
 ```
 
-* `chattr`
-* `+i`
-* `-R`
-* `-Ri`
-* `-i`
- 
- 
+- `chattr`
+- `+i`
+- `-R`
+- `-Ri`
+- `-i`

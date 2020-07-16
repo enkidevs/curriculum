@@ -1,18 +1,14 @@
 ---
 author: Stefan-Stojanovic
-
-aspects:
-  - introduction
-
 type: normal
-
 category: how to
-
 ---
 
 # Common action shortcuts
 
+
 ---
+
 ## Content
 
 These shortcuts are for common actions like copying, pasting, selecting, finding, replacing, etc.
@@ -74,3 +70,4 @@ Select the whole row of the currently selected cell.
 ### `Ctrl + A`/`Ctrl + Shift + Space` - `⌘ + A` / `⌘ + Shift + Space`
 
 Select the whole sheet.
+ 

@@ -1,28 +1,22 @@
 ---
 author: alexjmackey
-
-levels:
-  - medium
-  - advanced
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-  - workout
-
 inAlgoPool: false
-
 links:
-  - '[MDN - Generators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator){website}'
-  - '[MDN - Exception Handling](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator/throw){website}'
-
+  - >-
+    [MDN -
+    Generators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator){website}
+  - >-
+    [MDN - Exception
+    Handling](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator/throw){website}
 ---
+
 # Generators and Exceptions
 
+
 ---
+
 ## Content
 
 All code inside a generator despite appearances works synchronously.
@@ -56,7 +50,9 @@ The exception occurs at the point where the generator is paused from the previou
 g.throw("bad error");
 ```
 
+
 ---
+
 ## Practice
 
 What will be the output of the following generator calls?
@@ -80,22 +76,23 @@ g.throw('abc')
 // ???
 ```
 
-* Error
-* { value: 'enki', done: false}
-* nothing
-* Error('abc')
-* abc
+- Error
+- { value: 'enki', done: false}
+- nothing
+- Error('abc')
+- abc
+
 
 ---
+
 ## Revision
 
 What syntax should be used to catch errors within generators?
 
 ???
 
-* try/catch
-* throw new Error
-* gen.catch()
-* gen.throw()
-* if/else
- 
+- try/catch
+- throw new Error
+- gen.catch()
+- gen.throw()
+- if/else

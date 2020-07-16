@@ -1,47 +1,25 @@
 ---
 author: priyankinirmal
-
-levels:
-
-  - basic
-
-  - advanced
-
-  - medium
-
 type: normal
-
 category: feature
-
-aspects:
-  - introduction
-  - workout
-  - deep
-
 tags:
-
   - css
-
   - box-sizing
-
   - width
-
   - height
-
   - border-box
-
-
 links:
-
   - '[Box Sizing](https://css-tricks.com/box-sizing/){website}'
-  - '[MDN Docs on Box Sizing](https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing){documentation}'
-
-
+  - >-
+    [MDN Docs on Box
+    Sizing](https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing){documentation}
 ---
 
 # Use `box-sizing` to define an element's `width` and `height` properties
 
+
 ---
+
 ## Content
 
 The default value for `box-sizing` is `content-box`. This setting indicates only the content is included in the total `width` and `height` properties.
@@ -54,26 +32,31 @@ Both squares are initially defined as `250×250`. Because of the different `box-
 
 ![HtmlToSvg.svg](https://img.enkipro.com/8019f434044c14af7e6fe2988d9849af.png)
 
+
 ---
+
 ## Practice
 
 Which properties default value is `content-box` ?
 
 ???
 
-* `box-sizing`
-* `padding-box`
-* `border-box`
+- `box-sizing`
+- `padding-box`
+- `border-box`
+
 
 ---
+
 ## Revision
 
 What's the default value for `box-sizing`?
 
 ???
 
-* `content-box`
-* `0`
-* `undefined`
-* `padding-box`
-* `border-box`
+- `content-box`
+- `0`
+- `undefined`
+- `padding-box`
+- `border-box`
+ 

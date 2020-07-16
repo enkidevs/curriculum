@@ -1,47 +1,23 @@
 ---
 author: AlexBroadbent
-
-levels:
-
-  - basic
-
-  - medium
-
-  - beginner
-
 type: normal
-
 category: tip
-
-aspects: 
-
-  - introduction
-
-  - workout
-
 tags:
-
   - java
-
   - equals
-
   - comparison
-
   - beginner
-
   - simple
-
-
-
 notes: >-
   Formatting of the second paragraph may need some tweaking, just to make the
   code sections a bit tidier.
-
 ---
 
 # Equals operation on different data types
 
+
 ---
+
 ## Content
 
 When comparing objects of different type, use either the `==` comparator or the `.equals()` method.
@@ -55,6 +31,7 @@ boolean b3 = (b1 == b2); // false
 ```
 
 Whereas non-primitive objects inherit or define the equals method, so the format is then `object1.equals(object2)`. For example:
+
 ```java
 String s1 = "Hello";
 String s2 = "World";
@@ -62,6 +39,7 @@ boolean b1 = s1.equals(s2); // false
 ```
 
 The `==` expression can be used on objects to compare the reference of the object. 
+
 ```java
 Object o1 = new String("Hello World!");
 Object o2 = o1;

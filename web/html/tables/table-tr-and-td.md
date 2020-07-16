@@ -1,33 +1,29 @@
 ---
 author: Stefan-Stojanovic
-
-levels:
-  - beginner
-  - basic
-
 type: normal
-
 category: must-know
-
 tags:
   - workout
   - introduction
-
-aspects:
-  - introduction
-  - workout
-
-
 links:
   - '[CodePen: Table without Style](https://codepen.io/enkidevs/pen/JBXWLL){code}'
   - '[CodePen: Table with Style](https://codepen.io/enkidevs/pen/JBXWbr){code}'
-  - '[HTML <table> Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table){documentation}'
-  - '[HTML <tr> Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tr){documentation}'
-  - '[HTML <td> Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/td){documentation}'
+  - >-
+    [HTML <table>
+    Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table){documentation}
+  - >-
+    [HTML <tr>
+    Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tr){documentation}
+  - >-
+    [HTML <td>
+    Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/td){documentation}
+---
+
+# The `<table>` , `<tr>` , & `<td>` Elements
+
 
 ---
-# The `<table>`, `<tr>`, & `<td>` Elements
----
+
 ## Content
 
 The HTML table is used to represent information in a table made of columns and rows.
@@ -35,6 +31,7 @@ The HTML table is used to represent information in a table made of columns and r
 When creating a table in HTML the `<table>` element is used to create the entire table, the `<tr>`(Table Row) element is used to create the tables rows and the `<td>` (Table Data) element is used to create table data.
 
 Example of a simple table:
+
 ```html
 <table>
   <tr>
@@ -62,14 +59,15 @@ Tables themselves in HTML without CSS can appear a little messy and confusing co
 
 Styling tables can take a little practice, as seen in the example above, and often use more specific selectors. Such as, in order to prevent the last column or bottom row from having styles that may look strange, properties on these rows (or cells) can be reset using the psudo class `:last-child` like this.
 
-
 ```css
 tr:last-child {
   border-bottom: none;
 }
 ```
 
+
 ---
+
 ## Practice
 
 Arrange the HTML tags to properly create this table:
@@ -93,17 +91,19 @@ tag1 = ???
 tag2 = ???
 tag3 = ???
 
-* table
-* tr
-* td
-* tc
-* th
-* row
-* col
-* colspan
-* rowspan
+- table
+- tr
+- td
+- tc
+- th
+- row
+- col
+- colspan
+- rowspan
+
 
 ---
+
 ## Revision
 
 Match the HTML element with its description:
@@ -112,17 +112,20 @@ Match the HTML element with its description:
 ??? = defines the table row
 ??? = defines the table data
 
-* `<table>`
-* `<tr>`
-* `<td>`
-* `<et>`
-* `<row>`
-* `<col>`
+- `<table>`
+- `<tr>`
+- `<td>`
+- `<et>`
+- `<row>`
+- `<col>`
+
 
 ---
+
 ## Quiz
 
 ### How much do you know about HTML tables?
+
 
 What is the output of this table?
 Choose the appropriate option; A,B,C or D:
@@ -141,29 +144,37 @@ Choose the appropriate option; A,B,C or D:
   </tr>
 </table>
 ```
+
 A
+
 ```html
 Pencil 1.99 295
 Pen    2.49 423
 ```
+
 B
+
 ```html
 Pen    2.49 423
 Pencil 1.99 295
 ```
+
 C
+
 ```html
 Pencil 1.99295
 Pen    2.49423
 ```
+
 D
+
 ```html
 Pencil 2.99 495 Pen 1.49 223
 ```
 
 ???
 
-* Option A
-* Option B
-* Option C
-* Option D
+- Option A
+- Option B
+- Option C
+- Option D

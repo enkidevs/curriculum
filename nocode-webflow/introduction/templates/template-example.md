@@ -1,22 +1,14 @@
 ---
 author: Stefan-Stojanovic
-
-levels:
-  - beginner
-
-aspects:
-  - introduction
-  - workout
-
 type: normal
-
 category: how to
-
 ---
 
 # Using Templates
 
+
 ---
+
 ## Content
 
 To create a project from a template, go to your [dashboard](https://webflow.com/dashboard) and create a new project.
@@ -40,6 +32,7 @@ Now that we have a new project from a template, we can customize it as much as w
 To publish a project while it's open, go to the top right corner of the current working project and click the `Publish Project` button.
 
 This will give you 2 options:
+
 - publish on their domain.
 - publish on your own custom domain.
 
@@ -55,12 +48,15 @@ As you can see in the image above, the yellow highlighted square is the link to 
 
 Underneath the option we selected, we can see the time it took to publish the webpage and we can also decide to unpublish the webpage anytime we want to.
 
+
 ---
+
 ## Practice
 
 How do you create an element from a template?
 
 ???
 
-* dashboard -> new project -> select desired template
-* my account -> new project -> select desired template
+- dashboard -> new project -> select desired template
+- my account -> new project -> select desired template
+ 

@@ -1,27 +1,20 @@
 ---
 author: jfarmer
-
 type: normal
-
 category: must-know
-
 tags:
   - introduction
   - workout
-
-aspects:
-  - introduction
-  - workout
-
 links:
   - '[chown](https://www.man7.org/linux/man-pages/man1/chown.1.html){website}'
   - '[chgrp](https://man7.org/linux/man-pages/man1/chgrp.1.html){website}'
-
 ---
 
 # Changing File Ownership With `chown`
 
+
 ---
+
 ## Content
 
 The `chown` command allows us to change the both the user and group ownership of files and directories. The user running this command must have root access.
@@ -58,33 +51,39 @@ sudo chown -R jesse:new-group /some/directory
 
 > ❗ This command would not just change the owner of the `/some/directory` directory, but every file and subdirectory therein.
 
+
 ---
+
 ## Practice
 
 To change the owner of a file using `chown` you need to ???.
 
-* have root access
-* be the owner of the file
-* have read permissions for the file
+- have root access
+- be the owner of the file
+- have read permissions for the file
+
 
 ---
+
 ## Revision
 
 Change the group for the `enki.txt` file:
 
-```
+```plain-text
 ??? ??? 
   ??? ???
 ```
 
-* `sudo`
-* `chown`
-* `:new-group`
-* `./enki.txt`
-* `new-group`
-* `chmod`
+- `sudo`
+- `chown`
+- `:new-group`
+- `./enki.txt`
+- `new-group`
+- `chmod`
+
 
 ---
+
 ## Footnotes
 
 [1:Change Group]

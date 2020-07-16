@@ -1,28 +1,16 @@
 ---
 author: catalin
-
-levels:
-
-  - basic
-
 type: normal
-
 category: feature
-
-aspects:
-
-  - workout
-
-  - deep
-
 links:
-
-  - '[www.developer.com](http://www.developer.com/java/other/article.php/2212401/Introduction-to-the-Java-Robot-Class-in-Java.htm){website}'
-  - '[www.java-tips.org](http://www.java-tips.org/java-se-tips-100019/21-java-awt/1758-how-to-use-robot-class-in-java.html){website}'
-
+  - >-
+    [www.developer.com](http://www.developer.com/java/other/article.php/2212401/Introduction-to-the-Java-Robot-Class-in-Java.htm){website}
+  - >-
+    [www.java-tips.org](http://www.java-tips.org/java-se-tips-100019/21-java-awt/1758-how-to-use-robot-class-in-java.html){website}
 ---
 
 # The Robot Utility
+
 
 ---
 
@@ -62,6 +50,7 @@ try {
 }
 ```
 
+
 ---
 
 ## Practice
@@ -74,11 +63,12 @@ robot.???(
     InputEvent.???);
 ```
 
-* `mousePress`
-* `BUTTON1_MASK`
-* `BUTTON2_MASK`
-* `mouseRelease`
-* `keyPress`
+- `mousePress`
+- `BUTTON1_MASK`
+- `BUTTON2_MASK`
+- `mouseRelease`
+- `keyPress`
+
 
 ---
 
@@ -91,7 +81,7 @@ Robot myRobot = new Robot();
 myRobot.???(0,0);
 ```
 
-* `mouseMove`
-* `moveMouse`
-* `mousePress`
-* `mouseRelease`
+- `mouseMove`
+- `moveMouse`
+- `mousePress`
+- `mouseRelease`

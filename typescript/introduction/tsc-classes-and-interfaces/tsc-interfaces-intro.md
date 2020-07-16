@@ -2,17 +2,20 @@
 author: nem035
 type: normal
 category: must-know
-aspects:
-  - introduction
 links:
-  - '[Play with interfaces](https://repl.it/@enkicontent/TypeScriptPlayWithInterfaces){website}'
-  - '[Interface Type](https://www.typescriptlang.org/docs/handbook/interfaces.html){documentation}'
-
+  - >-
+    [Play with
+    interfaces](https://repl.it/@enkicontent/TypeScriptPlayWithInterfaces){website}
+  - >-
+    [Interface
+    Type](https://www.typescriptlang.org/docs/handbook/interfaces.html){documentation}
 ---
 
 # Introduction to Interfaces
 
+
 ---
+
 ## Content
 
 The `interface` type is used to define a shape of an object.
@@ -68,7 +71,9 @@ payment.value = 0;
 // error: Cannot assign to 'value' because it is a read-only property.
 ```
 
+
 ---
+
 ## Practice
 
 Fill in the blanks such that `reader` satisfies the `BookReader` interface:
@@ -90,14 +95,16 @@ let reader??? = {
 };
 ```
 
-* Array<Book>
-* : BookReader
-* satisfy BookReader
-* []Book
-* = BookReader
-* Array<string>
+- Array<Book>
+- : BookReader
+- satisfy BookReader
+- []Book
+- = BookReader
+- Array<string>
+
 
 ---
+
 ## Revision
 
 Will the following code cause a type error?
@@ -112,5 +119,5 @@ let e: Enki = {};
 
 ???
 
-* No
-* Yes
+- No
+- Yes

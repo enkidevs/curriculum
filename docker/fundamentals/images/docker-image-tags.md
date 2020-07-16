@@ -1,17 +1,18 @@
 ---
 author: nem035
-aspects:
-  - introduction
-  - workout
 type: normal
 category: must-know
 links:
-- '[Quick introduction to Docker tags](https://www.freecodecamp.org/news/an-introduction-to-docker-tags-9b5395636c2a/){article}'
+  - >-
+    [Quick introduction to Docker
+    tags](https://www.freecodecamp.org/news/an-introduction-to-docker-tags-9b5395636c2a/){article}
 ---
 
 # Image Tags
 
+
 ---
+
 ## Content
 
 A docker image tag is a similar concept to git tags. It is a pointer to a specific image commit (id) that serves to identify the image in a meaningful way.
@@ -34,8 +35,9 @@ docker image \
 docker push enki/nginx:latest
 ```
 
+
 ---
+
 ## Footnotes
 
-[1: nginx]
-[The official Nginx Docker image called `nginx` can be found on DockerHub](https://hub.docker.com/_/nginx)
+[1: nginx][The official Nginx Docker image called `nginx` can be found on DockerHub](<https://hub.docker.com/_/nginx>)

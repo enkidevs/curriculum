@@ -1,39 +1,21 @@
 ---
 author: mihaiberq
-
-levels:
-
-  - beginner
-
-  - basic
-
 type: normal
-
 category: must-know
-
-standards:
-  sql.choose-sql-datatype.1: 10
-
 tags:
-
   - introduction
-
   - workout
-
 links:
-
-  - '[ANSI Standard Data Types](https://en.wikibooks.org/wiki/Structured_Query_Language/Data_Types){website}'
-
-aspects:
-  - introduction
-  - workout
-
-
+  - >-
+    [ANSI Standard Data
+    Types](https://en.wikibooks.org/wiki/Structured_Query_Language/Data_Types){website}
 ---
 
 # SQL String Data Types
 
+
 ---
+
 ## Content
 
 In terms of *string data types*, there are fewer options that can be used with the three main types being:
@@ -62,19 +44,23 @@ If you are aware of a maximum length for those strings, use `VARCHAR(n)` instead
 
 In the occasion where you need to store strings larger that the upper limit of `VARCHAR`, the `CLOB` data type must be used. This type has different names depending on the implementation, but the functionality is similar.
 
+
 ---
+
 ## Practice
 
 Which of the following string data types are padded to match its maximum size?
 
 ???
 
-* `CHAR(n)`
-* `VARCHAR(n)`
-* `CLOB`
-* `TEXT`
+- `CHAR(n)`
+- `VARCHAR(n)`
+- `CLOB`
+- `TEXT`
+
 
 ---
+
 ## Revision
 
 Create a table that contains a fixed width column and a variable one, such that minimal space is used to store the table in memory:
@@ -87,14 +73,16 @@ Create a table that contains a fixed width column and a variable one, such that 
 );
 ```
 
-* `CREATE`
-* `TABLE`
-* `VARCHAR(70)`
-* `CHAR(2)`
-* `CHAR(70)`
-* `VARCHAR(2)`
+- `CREATE`
+- `TABLE`
+- `VARCHAR(70)`
+- `CHAR(2)`
+- `CHAR(70)`
+- `VARCHAR(2)`
+
 
 ---
+
 ## Footnotes
 
 [1:Maximum Values]

@@ -1,20 +1,18 @@
 ---
 author: alexjmackey
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-
 links:
-  - '[MDN Documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let){website}'
-
+  - >-
+    [MDN
+    Documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let){website}
 ---
+
 # Let (Part 2)
 
+
 ---
+
 ## Content
 
 `let` is particularly useful when used with loops and inner functions.
@@ -57,7 +55,9 @@ for (let i = 0; i < 5; i++) {
 
 Because `let` is block-scoped[1], it will get separately re-created during each iteration of the `for` loop and not be available globally. The code will now run as expected as each loop iteration refers to a different instance of `i`.
 
+
 ---
+
 ## Practice
 
 What is the output of the following snippet?
@@ -78,11 +78,13 @@ for (func of letFuncs) {
 
 ```
 
-* [0, 1, 2]
-* [1, 2, 3]
-* [3, 3, 3]
+- [0, 1, 2]
+- [1, 2, 3]
+- [3, 3, 3]
+
 
 ---
+
 ## Revision
 
 What is the output of the two log statements?
@@ -117,13 +119,15 @@ for (func of letFuncs) {
 // ???
 ```
 
-* [3, 3, 3]
-* [0, 1, 2]
-* [4, 4, 4]
-* [2, 2, 2]
-* [1, 2, 3]
+- [3, 3, 3]
+- [0, 1, 2]
+- [4, 4, 4]
+- [2, 2, 2]
+- [1, 2, 3]
+
 
 ---
+
 ## Footnotes
 
 [1:Block-scope]

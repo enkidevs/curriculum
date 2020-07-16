@@ -1,29 +1,17 @@
 ---
 author: catalin
-
-levels:
-  - basic
-  - beginner
-
 type: normal
-
 category: must-know
-
-standards:
-  javascript.express-server.4: 10
-
 links:
   - '[github.com](https://github.com/expressjs/compression){website}'
-
 parent: easy-way-to-deliver-html-pages-with-express
-
-aspects:
-  - introduction
-
 ---
+
 # GZIP compression for **Express**
 
+
 ---
+
 ## Content
 
 Using **Gzip** compression middleware in **Express** is a must when talking about loading speed optimization for websites/webapps. This practice can reduce more than 70% size of the packets on a certain website.
@@ -47,7 +35,9 @@ app.use(compress());
 
 Please be a good citizen and apply gzip compression on your app.
 
+
 ---
+
 ## Practice
 
 How would you enable GZIP compression for express 4.0?
@@ -60,16 +50,18 @@ const express = require(???)
 app.???(???)
 ```
 
-* 'compression'
-* 'express'
-* use
-* compress()
-* compress
-* 'compress'
-* enable
-* allow
+- 'compression'
+- 'express'
+- use
+- compress()
+- compress
+- 'compress'
+- enable
+- allow
+
 
 ---
+
 ## Revision
 
 Apply *gzip compression* for **Express 3.0**:
@@ -78,9 +70,8 @@ Apply *gzip compression* for **Express 3.0**:
 app.???(express.???());
 ```
 
-* use
-* compress
-* require
-* var
-* apply
-
+- use
+- compress
+- require
+- var
+- apply

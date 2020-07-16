@@ -2,19 +2,23 @@
 author: kapnobatai136
 type: normal
 category: must-know
-aspects:
-  - introduction
-  - workout
 links:
-  - '[Try out the code from this Insight](https://repl.it/@enkicontent/TypeScriptArraysAndTuples){website}'
-  - '[Array Type](https://www.typescriptlang.org/docs/handbook/basic-types.html#array){documentation}'
-  - '[Tuple Type](https://www.typescriptlang.org/docs/handbook/basic-types.html#tuple){documentation}'
-
+  - >-
+    [Try out the code from this
+    Insight](https://repl.it/@enkicontent/TypeScriptArraysAndTuples){website}
+  - >-
+    [Array
+    Type](https://www.typescriptlang.org/docs/handbook/basic-types.html#array){documentation}
+  - >-
+    [Tuple
+    Type](https://www.typescriptlang.org/docs/handbook/basic-types.html#tuple){documentation}
 ---
 
 # Array & Tuple
 
+
 ---
+
 ## Content
 
 ### Array
@@ -56,7 +60,6 @@ let words: string[] = [];
 let bools: boolean[] = [];
 // ...
 ```
-
 
 ### Tuple
 
@@ -109,7 +112,9 @@ console.log(
 );
 ```
 
+
 ---
+
 ## Practice
 
 Which of the following is **not a valid way** of creating an array:
@@ -124,11 +129,13 @@ let c: []number = [1, 2];
 
 ???
 
-* c
-* a
-* b
+- c
+- a
+- b
+
 
 ---
+
 ## Revision
 
 Which of the following statements **will not throw** an error:
@@ -148,6 +155,6 @@ aTuple = [false, 'false'];
 
 ???
 
-* a
-* b
-* c
+- a
+- b
+- c

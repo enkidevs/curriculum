@@ -1,24 +1,18 @@
 ---
 author: emmab
-
 tags:
   - introduction
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-
 links:
   - '[Regex Wiki](https://en.wikipedia.org/wiki/Regular_expression){website}'
-
 ---
 
 # What are Regular Expressions?
 
+
 ---
+
 ## Content
 
 **Regular expressions** (regex or regexp for short) are *patterns of letters, numbers and non-alphanumeric characters.* 
@@ -41,30 +35,37 @@ Instead of searching for one exact date, you can search for any text that matche
 
 
 ---
+
 ## Practice
 
 Regex can be used to check whether some text matches a certain ???.
 
-* pattern
-* order
-* variable
-* data type
+- pattern
+- order
+- variable
+- data type
+
 
 ---
+
 ## Revision
 
 Along with letters and numbers, which of the these are valid in regex?
 
 ???
 
-* special characters
-* binary data
-* JPG
-* CSV
+- special characters
+- binary data
+- JPG
+- CSV
+
 
 ---
+
 ## Footnotes
+
 [1:Wildcards]
 A wildcard character is a kind of placeholder represented by a single character, such as an asterisk `*` or percentage sign `%`. Wildcards can be interpreted as *multiple characters or an empty string*. 
 
 Wildcards are often used in file searches so that the full name doesn't need to be typed out. They're also commonly used in SQL to match zero or more characters.
+ 

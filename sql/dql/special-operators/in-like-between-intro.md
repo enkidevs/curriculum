@@ -1,28 +1,30 @@
 ---
 author: stefkn
-
 type: normal
-
 category: must-know
-
 links:
-  - '[SQL Tutorial: WHERE](http://www.sql-tutorial.com/sql-where-sql-tutorial/){website}'
-  - '[Like Predicate](https://en.wikibooks.org/wiki/Structured_Query_Language/Like_Predicate){website}'
-  - '[The IN Keyword](https://en.wikibooks.org/wiki/Structured_Query_Language/Quantified_Comparison#IN){website}'
-
-aspects:
-  - workout
-
+  - >-
+    [SQL Tutorial:
+    WHERE](http://www.sql-tutorial.com/sql-where-sql-tutorial/){website}
+  - >-
+    [Like
+    Predicate](https://en.wikibooks.org/wiki/Structured_Query_Language/Like_Predicate){website}
+  - >-
+    [The IN
+    Keyword](https://en.wikibooks.org/wiki/Structured_Query_Language/Quantified_Comparison#IN){website}
 ---
 
 # IN, LIKE, BETWEEN
 
+
 ---
+
 ## Content
 
 SQL provides a bunch of special operators to help you write complex querying conditions.
 
 In the next few insights, we'll take a look at:
+
 - the `IN` operator. It defines a list of values, and the attribute must be one of them
 - the `LIKE` operator. It's used to define a *pattern* that the given attribute should conform to
 - the `BETWEEN` operator. It defines a range of values, and the attribute must be within that range
@@ -30,7 +32,7 @@ In the next few insights, we'll take a look at:
 Let's consider the following `pokemon` table:
 
 | name       | total | hp | attack | defense |
-|------------|-------|----|--------|---------|
+| ---------- | ----- | -- | ------ | ------- |
 | Bulbasaur  | 318   | 45 | 49     | 49      |
 | Ivysaur    | 405   | 60 | 62     | 63      |
 | Venusaur   | 525   | 80 | 82     | 83      |
@@ -55,13 +57,14 @@ WHERE name IN ('Charmander',
 In this case, we'll only get the rows of the three starter Pokemon: Charmander, Squirtle and Bulbasaur.
 
 | name       | total | hp | attack | defense |
-|------------|-------|----|--------|---------|
+| ---------- | ----- | -- | ------ | ------- |
 | Bulbasaur  | 318   | 45 | 49     | 49      |
 | Charmander | 309   | 39 | 52     | 43      |
 | Squirtle   | 314   | 44 | 48     | 65      |
 
 
 ---
+
 ## Practice
 
 Select all the columns from the `pokemon` table, keeping only the rows where the name is one of: `'Groudon'`, `'Snorlax'` or `'Wailord'`.
@@ -72,10 +75,10 @@ FROM pokemon
 ??? ??? ??? ???;
 ```
 
-* WHERE
-* name
-* IN
-* ('Groudon', 'Snorlax', 'Wailord')
-* SUCH THAT
-* IS ONE OF
-* ['Groudon', 'Snorlax', 'Wailord']
+- WHERE
+- name
+- IN
+- ('Groudon', 'Snorlax', 'Wailord')
+- SUCH THAT
+- IS ONE OF
+- ['Groudon', 'Snorlax', 'Wailord']

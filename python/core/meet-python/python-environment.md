@@ -1,28 +1,21 @@
 ---
 author: emmab
-
 tags:
   - introduction
-
-levels:
-  - beginner
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-
 links:
-- '[Download Python](https://www.python.org/downloads/){website}'
-- '[Best Text Editors](https://www.programiz.com/python-programming/ide){website}'
-
+  - '[Download Python](https://www.python.org/downloads/){website}'
+  - >-
+    [Best Text
+    Editors](https://www.programiz.com/python-programming/ide){website}
 ---
 
 # Python Environment
 
+
 ---
+
 ## Content
 
 Python comes pre-installed on most operating systems. It can also be downloaded online for free.
@@ -65,7 +58,9 @@ Once you're using a text editor you can save files using a `.py` extension and t
 python3 myPythonFile.py
 ```
 
+
 ---
+
 ## Practice
 
 How can you start the interactive Python interpreter?
@@ -74,24 +69,26 @@ How can you start the interactive Python interpreter?
 ???
 ```
 
-* `python`
-* `py`
-* `-interactive_mode`
-* `pythoni`
+- `python`
+- `py`
+- `-interactive_mode`
+- `pythoni`
 
 
 ---
+
 ## Revision
 
 The Python-specific file extension is ???.
 
+- `.py`
+- `.pyt`
+- `.pip`
+- `.python`
 
-* `.py`
-* `.pyt`
-* `.pip`
-* `.python`
 
 ---
+
 ## Footnotes
 
 [1:Python Interpreter]
@@ -103,5 +100,3 @@ To use it, you launch the Python interpreter with `python3`, `python` or `python
 
 [2:Shell]
 The shell, also known as the command line, is a program which processes shell scripts, like Bash. Shell scripts allow you to manipulate and navigate between files, execute programs, and print text. The shell is run through the terminal.
- 
- 

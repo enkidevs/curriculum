@@ -1,22 +1,18 @@
 ---
 author: alexjmackey
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-  - new
-  - workout
-
 links:
-  - '[Iteration Protocols](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Iteration_protocols){documentation}'
-
+  - >-
+    [Iteration
+    Protocols](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Iteration_protocols){documentation}
 ---
+
 # Iterables
 
+
 ---
+
 ## Content
 
 JavaScript has a number of built in objects that are defined as iterables such as arrays, strings, maps and sets. When an object is iterable it defines how it will work with language features such as `for..of` loops.
@@ -72,7 +68,9 @@ let it = getIterator();
 console.log([...it]); // [1, 2, 3, 4, 5]
 ```
 
+
 ---
+
 ## Practice
 
 What property does an object in JavaScript need to have in order to be used in a `for..of` syntax:
@@ -86,14 +84,16 @@ for (const y of x) {
 }
 ```
 
-* Symbol.iterator
-* Symbol()
-* Iterator
-* it
-* @@it
-* Symbol.match
+- Symbol.iterator
+- Symbol()
+- Iterator
+- it
+- @@it
+- Symbol.match
+
 
 ---
+
 ## Revision
 
 Can a JavaScript object, exposing a `next` that return `{value, done}` be iterated with the `for..of` syntax? Why?
@@ -115,8 +115,7 @@ for (const y of obj) {
 
 ???
 
-* No, because it has no iteration protocol implemented via `Symbol.iterator`
-* Yes, because it has the `next` function exposed
-* No, because `done` must be at least one time `false`
-* Yes, because all objects are iterable by default
- 
+- No, because it has no iteration protocol implemented via `Symbol.iterator`
+- Yes, because it has the `next` function exposed
+- No, because `done` must be at least one time `false`
+- Yes, because all objects are iterable by default

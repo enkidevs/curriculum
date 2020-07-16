@@ -1,26 +1,18 @@
 ---
 author: Stefan-Stojanovic
-
-levels:
-  - beginner
-  - basic
-  
-aspects:
-  - introduction
-  - new
-
 type: normal
-
 category: feature
-
 ---
 
 # Aggregating with `$trunc`
 
+
 ---
+
 ## Content
 
 In a previous insight, we used the `$divide` operator to calculate the `initialPower` for each pokémon. The output was:
+
 ```javascript
 { 
   "_id": ObjectId(
@@ -61,6 +53,7 @@ db.pokemon.aggregate([
 ```
 
 Output:
+
 ```javascript
 {
   "_id": ObjectId(
@@ -81,6 +74,7 @@ Output:
 If we wanted to truncate without any decimal points, we would write it as `$trunc: ["$initialPower"]`  or `$trunc: ["$initialPower", 0]`.
 
 Output:
+
 ```javascript
 {   
   "_id": ObjectId(
@@ -98,17 +92,21 @@ Output:
 
 Similarly, if we wanted to truncate to any different decimal point, we would just add the corresponding number in the aggregation.
 
+
 ---
+
 ## Practice
 
 To truncate numbers in MongoDB you have to use the ??? operator.
 
-* `$trunc`
-* `$reduce`
-* `$truncate`
-* `$makeSmaller`
+- `$trunc`
+- `$reduce`
+- `$truncate`
+- `$makeSmaller`
+
 
 ---
+
 ## Revision
 
 Fill in the missing code to successfully truncate the `initialPower` field to 0 decimal points.
@@ -125,7 +123,7 @@ db.pokemon.aggregate([
 ]);
 ```
 
-* `$trunc`
-* `"$initialPower"`
-* `$truncate `
-* `"$initialPower", 2"`
+- `$trunc`
+- `"$initialPower"`
+- `$truncate `
+- `"$initialPower", 2"`

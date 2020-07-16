@@ -1,25 +1,18 @@
 ---
 author: Stefan-Stojanovic
-
-levels:
-  - beginner
-  - basic
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-  - workout
-  - deep
-
 links:
-  - '[HTML <q> Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/q){documentation}'
+  - >-
+    [HTML <q>
+    Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/q){documentation}
+---
+
+# Intro `<q>`
+
 
 ---
-# Intro `<q>`
----
+
 ## Content
 
 The HTML `<q>`, or the **Inline Quotation** element, is used for indicating short quotations. This element is displayed as an inline element and is typically used for short quotations that don't require paragraph breaks. On the other hand, if you need a larger quotation, you should use the `<blockquote>` element.
@@ -27,6 +20,7 @@ The HTML `<q>`, or the **Inline Quotation** element, is used for indicating shor
 Most browsers display the `<q>` element by placing quotation marks around the content.
 
 Example:
+
 ```html
 <p>
   <cite>
@@ -46,7 +40,9 @@ Quote Result:
 
 [View CodePen](https://codepen.io/enkidevs/pen/gKBYJO)
 
+
 ---
+
 ## Practice
 
 Which statements about the `<q>` element is not correct?
@@ -66,13 +62,14 @@ Which statements about the `<q>` element is not correct?
 
 ???
 
-* used when quotation spans multiple lines
-* used for indicating short quotations
-* quotation marks usually added around text by browsers
-* displays as an inline element
+- used when quotation spans multiple lines
+- used for indicating short quotations
+- quotation marks usually added around text by browsers
+- displays as an inline element
 
 
 ---
+
 ## Revision
 
 What is the most appropriate HTML element to use here?
@@ -92,22 +89,25 @@ What is the most appropriate HTML element to use here?
 
 tag = ???
 
-* q
-* quote
-* blockquote
-* quot
-* mark
-* cite
-* sq
+- q
+- quote
+- blockquote
+- quot
+- mark
+- cite
+- sq
+
 
 ---
+
 ## Quiz
 
 ### How much do you know about semantic HTML?
 
+
 Which HTML element is best to indicate short quotations?
 
-* `<q>`
-* `<quote>`
-* `<blockquote>`
-* `<cite>`
+- `<q>`
+- `<quote>`
+- `<blockquote>`
+- `<cite>`

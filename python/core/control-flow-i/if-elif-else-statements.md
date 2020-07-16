@@ -1,21 +1,16 @@
 ---
 author: emmab
-
 tags:
   - introduction
-
 type: normal
-
-aspects:
-  - introduction
-
 category: must-know
-
 ---
 
 # `if...elif...else` statements
 
+
 ---
+
 ## Content
 
 What if we want to change the behavior of our program based on multiple conditions?
@@ -51,7 +46,9 @@ If we assign the value 0 to `num`, our program above will print `'Zero'`.
 
 > There is no limit to how many `elif` statements you can write.
 
+
 ---
+
 ## Practice
 
 Complete the following `if` statement to return `'You're at the start of a great journey!'`.
@@ -67,15 +64,17 @@ if days_coding == 7:
     print("You're at the start of a great journey!")
 ```
 
-* `elif`
-* `>`
-* `else`
-* `=`
-* `if`
-* `<`
-* `>=`
+- `elif`
+- `>`
+- `else`
+- `=`
+- `if`
+- `<`
+- `>=`
+
 
 ---
+
 ## Revision
 
 What does the following code snippet print?
@@ -91,8 +90,8 @@ else:
 
 ???
 
-* true
-* SyntaxError
-* false
-* True
-* False
+- true
+- SyntaxError
+- false
+- True
+- False

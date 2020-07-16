@@ -1,37 +1,17 @@
 ---
 author: Aaron7Sun
-
-levels:
-
-  - basic
-
-  - advanced
-
-  - medium
-
 type: normal
-
 category: tip
-aspects:
-  - introduction
-  - workout
-
-standards:
-  python.standard-library-data.3: 10
-
 tags:
-
   - speed-up-code
-
-
-
 notes: ''
-
 ---
 
 # Efficient concatenation with `join()`
 
+
 ---
+
 ## Content
 
 With strings being immutable in Python, there are certain advantages and disadvantages to consider.
@@ -43,6 +23,7 @@ One disadvantage is that if you want to amend any part of an existing string, yo
 Let's see a few examples of how to update strings more efficiently and prevent unnecessary memory usage.
 
 For instance, a naive approach to combining a list of strings into a single string would be to use a loop and string concatenation[1]:
+
 ```python
 s = ""
 for substring in list:
@@ -62,6 +43,7 @@ s = ""
 for x in list:
   s += some_function(x)
 ```
+
 A better and faster way is:
 
 ```python
@@ -70,7 +52,9 @@ slist = [some_function(elt) \
 s = "".join(slist)
 ```
 
+
 ---
+
 ## Practice
 
 Fill in the following code snippet such that it will concatenate all strings in the list:
@@ -82,13 +66,15 @@ a = ???.???
 
 ```
 
-* ""
-* join(a)
-* concatenate(a)
-* list
-* a
+- ""
+- join(a)
+- concatenate(a)
+- list
+- a
+
 
 ---
+
 ## Revision
 
 What will the following code snippet output:
@@ -102,11 +88,13 @@ l = "".join(l)
 
 ???
 
-* Enki
-* E n k i
-* E,n,k,i
+- Enki
+- E n k i
+- E,n,k,i
+
 
 ---
+
 ## Footnotes
 
 [1:String Concatenation]
@@ -114,6 +102,7 @@ In computer programming, string concatenation represents the operation or proces
 
 [2:Efficient Concatenation]
 To understand why iteratively creating a string with `+=` is inefficient, let's take a look at this example:
+
 ```py
 x = 'en'
 x += 'ki' # 'enki' 

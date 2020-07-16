@@ -1,22 +1,14 @@
 ---
 author: Stefan-Stojanovic
-
-levels:
-  - beginner
-
-aspects:
-  - deep
-  - workout
-
 type: normal
-
 category: how to
-
 ---
 
 # States Example
 
+
 ---
+
 ## Content
 
 Let's say we have this simple form:
@@ -44,3 +36,4 @@ Let's say that you also wanted to change the color of the button when it is pres
 Now our button will change its color when it is pressed.
 
 ![same-button-with-pressed](https://img.enkipro.com/93cce6c2d20e262ac04951cf3ea92c26.gif)
+ 

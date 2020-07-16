@@ -1,25 +1,19 @@
 ---
 author: catalin
-
-levels:
-  - beginner
-
 type: normal
-
 category: must-know
-
 links:
-  - '[Getting Started](https://facebook.github.io/react/docs/getting-started.html){website}'
-
+  - >-
+    [Getting
+    Started](https://facebook.github.io/react/docs/getting-started.html){website}
 parent: why-use-react
-
-aspects:
-  - introduction
-
 ---
+
 # React Dependencies
 
+
 ---
+
 ## Content
 
 Being a truly flexible library, you can not only create applications from scratch with **React** but also gradually include it into your codebase.
@@ -62,30 +56,36 @@ npm start
 
 > Note: as with all the skills in the app, if you want to access more advanced or specific content at any time, **feel free to use the *Skill Map* tab** to jump to the workouts most relevant for you.
 
+
 ---
+
 ## Practice
 
 Which of the following is not a bundler for react?
 
 ???
 
-* jsx
-* webpack
-* browserify
+- jsx
+- webpack
+- browserify
+
 
 ---
+
 ## Revision
 
 Which tool will automatically set-up the development environment for a `React` **SPA**?
 
 ???
 
-* create-react-app
-* react-dom
-* browserify
-* babel-preset-react
+- create-react-app
+- react-dom
+- browserify
+- babel-preset-react
+
 
 ---
+
 ## Footnotes
 
 [1:bundler]
@@ -99,5 +99,3 @@ A bundler flattens your module hierarchy into a single file, effectively reducin
 
 [4:ES.Next]
 `ES.Next` is a dynamic name that represents whatever the next version of ECMAScript is at the time of writing.
- 
- 

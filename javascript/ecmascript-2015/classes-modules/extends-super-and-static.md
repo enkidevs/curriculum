@@ -1,30 +1,25 @@
 ---
 author: alexjmackey
-
-levels:
-  - medium
-  - advanced
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-  - new
-  - workout
-
 inAlgoPool: false
-
 links:
-  - '[MDN - Extends](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/extends){website}'
-  - '[MDN - Super](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/super){website}'
-  - '[MDN - Static](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/static){website}'
-
+  - >-
+    [MDN -
+    Extends](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/extends){website}
+  - >-
+    [MDN -
+    Super](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/super){website}
+  - >-
+    [MDN -
+    Static](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/static){website}
 ---
+
 # Extends, Super and Static
 
+
 ---
+
 ## Content
 
 The **extends** keyword allows you to inherit from another class and the **super** keyword allows us to access functionality on the parent.
@@ -69,7 +64,9 @@ var a = new UtilityMethods();
 a.log(); //error
 ```
 
+
 ---
+
 ## Practice
 
 Given the class:
@@ -96,12 +93,14 @@ throw Utils().NotFound404() // 4
 
 ???
 
-* 1
-* 2
-* 3
-* 4
+- 1
+- 2
+- 3
+- 4
+
 
 ---
+
 ## Revision
 
 Consider the following class:
@@ -128,20 +127,19 @@ Fill in the next snippet such that the `Dog` class is a child of the `Animal` cl
 }
 ```
 
-* class
-* Dog
-* extends
-* Animal
-* constructor
-* super
-* static
-* bark()
-* barks
-* bark(name)
-* bark:
-* extend
-* Bark
-* super()
-* parent
-* childOf
- 
+- class
+- Dog
+- extends
+- Animal
+- constructor
+- super
+- static
+- bark()
+- barks
+- bark(name)
+- bark:
+- extend
+- Bark
+- super()
+- parent
+- childOf

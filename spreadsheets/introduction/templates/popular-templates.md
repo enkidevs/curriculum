@@ -1,18 +1,14 @@
 ---
 author: Stefan-Stojanovic
-
-aspects:
-  - introduction
-
 type: normal
-
 category: tip
+---
+
+# Popular Templates
+
 
 ---
 
-# Popular Templates 
-
----
 ## Content
 
 If you want to get started quickly, you can always use one of the templates that are available in Google Sheets.
@@ -38,3 +34,4 @@ Using this template can save you a couple of hours when creating something like 
 ![expense-report](https://img.enkipro.com/b044b1cdc8417da698391ee776c55067.png)
 
 This template already has predefined areas and formulas that calculate everything instantly. All you have to do is input the numbers and send the document.
+ 

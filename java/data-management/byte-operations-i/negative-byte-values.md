@@ -1,25 +1,18 @@
 ---
 author: pawel
-
 type: normal
-
 category: tip
-
-aspects:
-  - introduction
-  - obscura
-
 tags:
   - byte
   - binary-convertion
-
 notes: 'Gamified Insight, static workout'
-
 ---
 
 # Negative `byte` values
 
+
 ---
+
 ## Content
 
 In Java, the `byte` type is signed. There are 256 values of the `byte` type ranging from -128 to 127.

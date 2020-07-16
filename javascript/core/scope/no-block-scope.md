@@ -1,24 +1,19 @@
 ---
 author: adamMontgomerie
-
 type: normal
-
 category: tip
-
 links:
-  - '[learnxinyminutes.com](http://learnxinyminutes.com/docs/javascript/){website}'
-  - '[stackoverflow.com](http://stackoverflow.com/questions/500431/what-is-the-scope-of-variables-in-javascript){website}'
-
-aspects:
-  - workout
-  - deep
-  - obscura
-
-
+  - >-
+    [learnxinyminutes.com](http://learnxinyminutes.com/docs/javascript/){website}
+  - >-
+    [stackoverflow.com](http://stackoverflow.com/questions/500431/what-is-the-scope-of-variables-in-javascript){website}
 ---
+
 # Function vs Block Scope
 
+
 ---
+
 ## Content
 
 In JavaScript, every function creates a scope. Following this logic, nested functions will create nested scopes. 
@@ -79,7 +74,9 @@ foo();
 
 Despite `a` being defined within the scope of the `if` block, the `foo` function will alert `3`, because `var` essentially doesn't respect block-scope (it's always available in the entirety of the function).
 
+
 ---
+
 ## Practice
 
 What will the following snippet do?
@@ -96,12 +93,14 @@ let x = 1;
 
 ???
 
-* log 1
-* log 2
-* raise an error
-* can't be compiled
+- log 1
+- log 2
+- raise an error
+- can't be compiled
+
 
 ---
+
 ## Revision
 
 What's the output of the `alert()` method?
@@ -117,9 +116,8 @@ function bar() {
 bar()
 ```
 
-* 0
-* 1
-* 2
-* 3
-* undefined
- 
+- 0
+- 1
+- 2
+- 3
+- undefined

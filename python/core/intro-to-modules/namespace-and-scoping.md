@@ -1,30 +1,18 @@
 ---
 author: SebaRaba
-
-levels:
-
-  - beginner
-
 type: normal
-
 category: must-know
-aspects:
-  - introduction
-  - workout
-standards:
-  python.functions.3: 10
-
-
 links:
-
-  - '[More on namespace](https://www.programiz.com/python-programming/namespace){website}'
-
-
+  - >-
+    [More on
+    namespace](https://www.programiz.com/python-programming/namespace){website}
 ---
 
 # Namespace and scoping
 
+
 ---
+
 ## Content
 
 As briefly mentioned before, the **namespace** is the *mapping* between available objects and their referencing names.
@@ -52,10 +40,12 @@ In computer programming, the **scope** of a **name binding** is the region of a 
 
 The **scope** defines on which hierarchy level should the interpreter search for a particular variable name. It uses the **LEGB** rule, which stands for:
 
-```
+```plain-text
 LOCAL->ENCLOSED->GLOBAL->BUILT IN
 ```
+
 Where the **arrows** should denote the search order:
+
 - *Local* can be inside a function or a class
 - *Enclosed* can be inside the *enclosed* function
 - *Global* refers to the **uppermost** level of the executing script
@@ -77,19 +67,21 @@ r = 'A global variable'
 f()
 print(r) # print() is built-in
 ```
+
 The following output will be generated:
 
-```
+```plain-text
 A local variable
 An enclosed variable
 A global variable
 ```
 
+
 ---
+
 ## Practice
 
 Consider the following snippet. In what scope do you think `z` is in?
-
 
 ```python
 def foo(x):
@@ -97,15 +89,17 @@ def foo(x):
 
 z = foo(4)
 ```
+
 ???
 
+- Global
+- Enclosed
+- Local
+- Built-in
 
-* Global
-* Enclosed
-* Local
-* Built-in
 
 ---
+
 ## Revision
 
 Is the variable `a` still in scope when it is printed?
@@ -118,9 +112,9 @@ def foo():
 b = foo()
 print(a)
 ```
+
 ???
 
-
-* No
-* Yes
-* It can't be determined.
+- No
+- Yes
+- It can't be determined.

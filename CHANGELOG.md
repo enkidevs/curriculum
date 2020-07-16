@@ -38,6 +38,102 @@ Types of change:
 - `Archived` for content that is no longer necessary and has been archived.
 - `Fixed` for any minor fixes (e.g. add a missing comma, adding a code block tag, fixing a report).
 
+## July 16th 2020
+
+### Fixed
+- [JavaScript - Iterator protocol - Remove default link](https://github.com/enkidevs/curriculum/pull/2262)
+- [Security - Broken access control - Remove default link](https://github.com/enkidevs/curriculum/pull/2262)
+- [Security - Mitigate deserialization - Remove default link](https://github.com/enkidevs/curriculum/pull/2262)
+- [Security - Identify SQL Injection - Remove default link](https://github.com/enkidevs/curriculum/pull/2262)
+- [Blockchain - Cyptoeconomics - Remove mentions of bookmark feature, general formatting & updating resource links](https://github.com/enkidevs/curriculum/pull/2261)
+- [Comp Sci - A request example - Remove mentions of bookmark feature, general formatting & updating resource links](https://github.com/enkidevs/curriculum/pull/2261)
+- [Comp Sci - DNS lookup - Remove mentions of bookmark feature, general formatting & updating resource links](https://github.com/enkidevs/curriculum/pull/2261)
+- [Python - Get the most of ints - Remove mentions of bookmark feature, general formatting & updating resource links](https://github.com/enkidevs/curriculum/pull/2261)
+- [Security - Scan dependencies - Remove mentions of bookmark feature, general formatting & updating resource links](https://github.com/enkidevs/curriculum/pull/2261)
+- [Security - Identify deserialization - Remove mentions of bookmark feature, general formatting & updating resource links](https://github.com/enkidevs/curriculum/pull/2261)
+- [Security - Tokens - Remove mentions of bookmark feature, general formatting & updating resource links](https://github.com/enkidevs/curriculum/pull/2261)
+- [Security - Check defaults - Remove mentions of bookmark feature, general formatting & updating resource links](https://github.com/enkidevs/curriculum/pull/2261)
+- [Security - Cloud security configuration - Remove mentions of bookmark feature, general formatting & updating resource links](https://github.com/enkidevs/curriculum/pull/2261)
+- [Security - Use automated scanners - Remove mentions of bookmark feature, general formatting & updating resource links](https://github.com/enkidevs/curriculum/pull/2261)
+- [Security - Detect XSS - Remove mentions of bookmark feature, general formatting & updating resource links](https://github.com/enkidevs/curriculum/pull/2261)
+- [Security - Mitigate XSS - Remove mentions of bookmark feature, general formatting & updating resource links](https://github.com/enkidevs/curriculum/pull/2261)
+- [Security - Detect XXE - Remove mentions of bookmark feature, general formatting & updating resource links](https://github.com/enkidevs/curriculum/pull/2261)
+- [Security - XXE prevention - Remove mentions of bookmark feature, general formatting & updating resource links](https://github.com/enkidevs/curriculum/pull/2261)
+- [Web - Form method - Remove mentions of bookmark feature, general formatting & updating resource links](https://github.com/enkidevs/curriculum/pull/2261)
+- [Linux - What is a network interface - Fix resource link](https://github.com/enkidevs/curriculum/pull/2260)
+- [Security - Deserialization - Fix resource links](https://github.com/enkidevs/curriculum/pull/2259)
+- [Security - Mitigating SQL Injection Attacks - Fixed resource links](https://github.com/enkidevs/curriculum/pull/2258)
+- [Security - XXE Security - Fix resource link](https://github.com/enkidevs/curriculum/pull/2257)
+
+## July 15th 2020
+
+### Changed
+- [Python - Special Queue Methods - Add correct defition for `get` method and fix definition of `put` method](https://github.com/enkidevs/curriculum/pull/2249)
+
+### Fixed
+- [Python - Substring Testing - Change `print` syntax to python3](https://github.com/enkidevs/curriculum/pull/2256)
+- [JavaScript - Loops - Part 2 - Fix error in example](https://github.com/enkidevs/curriculum/pull/2255)
+- [Docker - Container vs VM - Fix resource link](https://github.com/enkidevs/curriculum/pull/2254)
+- [Python - The Dictionary - General formatting](https://github.com/enkidevs/curriculum/pull/2251)
+- [Python - `while` loops - Change increment syntax to be more clear for beginners](https://github.com/enkidevs/curriculum/pull/2250)
+- [Python - List Methods II - Fix resrouce link](https://github.com/enkidevs/curriculum/pull/2248)
+
+## July 14th 2020
+
+### Fixed
+- [Web - Image Height & Width - Improve PQ & RQ, general formatting](https://github.com/enkidevs/curriculum/pull/2247)
+- [Web - Text Area - Improved PQ text to be specific](https://github.com/enkidevs/curriculum/pull/2246)
+- [SQL - More Operators - Update PQ to accept only one sequence of correct answers](https://github.com/enkidevs/curriculum/pull/2245)
+
+## July 9th 2020
+
+### Fixed
+- [Security - Introducing the OSI model - Remove a note & fix grammar](https://github.com/enkidevs/curriculum/pull/2243)
+- [Java - Iterators - Fix workout name & description](https://github.com/enkidevs/curriculum/pull/2242)
+- [Java - Class Interface Tips - Fix workout name & description](https://github.com/enkidevs/curriculum/pull/2242)
+- [JavaScript - Express II - Fix workout name & description](https://github.com/enkidevs/curriculum/pull/2242)
+- [Web - CSS Animation - Fix workout name & description](https://github.com/enkidevs/curriculum/pull/2242)
+- [Linux - Data Manipulation Recipes - Fix workout name & description](https://github.com/enkidevs/curriculum/pull/2242)
+- [Web - The `autofocus` Attribute - Fix error in example](https://github.com/enkidevs/curriculum/pull/2241)
+- [Web - The `autocomplete` Attribute - Fix error in example](https://github.com/enkidevs/curriculum/pull/2239)
+
+## July 8th 2020
+
+### Fixed
+- [Linux - Check the version of a package on a Debian based system - Make terminology more consistent](https://github.com/enkidevs/curriculum/pull/2236)
+- [Linux - Practical `cron` - Fix cron expression](https://github.com/enkidevs/curriculum/pull/2235)
+
+## July 7th 2020
+
+### Changed
+- [Security - OSI Intro - Improve the entire workout](https://github.com/enkidevs/curriculum/pull/2229)
+
+## July 6th 2020
+
+### Fixed
+- [Web - Intro `<time>` - Fix typo & add missing tag](https://github.com/enkidevs/curriculum/pull/2234)
+
+## July 2nd 2020
+
+### Fixed
+- [Python - I/O Functions - Change backticks to singe quotes in PQ answer](https://github.com/enkidevs/curriculum/pull/2230)
+
+## June 30th 2020
+
+### Changed
+- [JavaScript - Arrays - Improve last code block example, add resource link](https://github.com/enkidevs/curriculum/pull/2201)
+
+### Fixed
+- [Linux - The `head` And `tail` Commands - Remove redundant word](https://github.com/enkidevs/curriculum/pull/2217)
+- [Linux - Selecting Portions of A Line Using `cut` - Remove redundant word](https://github.com/enkidevs/curriculum/pull/2216/)
+- [Python - Function Arguments - Fix typo & general formatting](https://github.com/enkidevs/curriculum/pull/2222)
+
+## June 26th 2020
+
+### Fixed
+- [Comp. Sci. - The Array Data Structure - Fix typo in RQ](https://github.com/enkidevs/curriculum/pull/2210)
+- [Linux - Multiple IP Addresses with aliasing - Change address to plural](https://github.com/enkidevs/curriculum/pull/2208)
+
 ## June 25th 2020
 
 ### Fixed

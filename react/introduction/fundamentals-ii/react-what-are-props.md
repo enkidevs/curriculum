@@ -1,22 +1,21 @@
 ---
 author: catalin
-
 type: normal
-
 category: must-know
-
 links:
-  - '[Components and props](https://facebook.github.io/react/docs/components-and-props.html){website}'
-  - '[Props overview](https://www.tutorialspoint.com/reactjs/reactjs_props_overview.htm){website}'
-
-aspects:
-  - introduction
-
+  - >-
+    [Components and
+    props](https://facebook.github.io/react/docs/components-and-props.html){website}
+  - >-
+    [Props
+    overview](https://www.tutorialspoint.com/reactjs/reactjs_props_overview.htm){website}
 ---
 
 # What are props?
 
+
 ---
+
 ## Content
 
 Components can take input in a similar way to a function, via `props`.
@@ -26,6 +25,7 @@ Components can take input in a similar way to a function, via `props`.
 An important aspect of the `props` object is that it is **immutable**. That means `props` cannot and should not be changed within a component, but rather only from its *parent*(s). We will elaborate more on this later.
 
 Consider the component:
+
 ```jsx
 class Greeting extends React.Component {
   render() {
@@ -63,6 +63,7 @@ Greeting.defaultProps = {
 ```
 
 This allows us to create a `Greeting` element without specifying the `name`:
+
 ```jsx
 const el = (
   <Greeting  />;
@@ -71,10 +72,13 @@ const el = (
 
 If we `render` it now, we will see `"Enki greets User"`;
 
+
 ---
+
 ## Practice
 
 Complete the missing gaps so that the `render`ed output is `"Enki"`:
+
 ```jsx
 class Enki extends React.Component {
   render() {
@@ -95,18 +99,19 @@ ReactDOM.render(
 
 ```
 
+- `defaultProps`
+- `myValue`
+- `Enki`
+- `element`
+- `default`
+- `props`
+- `Enki myValue="Enki"`
+- `class`
+- `createElement`
 
-* `defaultProps`
-* `myValue`
-* `Enki`
-* `element`
-* `default`
-* `props`
-* `Enki myValue="Enki"`
-* `class`
-* `createElement`
 
 ---
+
 ## Revision
 
 Complete the missing gaps so that the `render`ed element under `root` reads `"Enki"`:
@@ -127,16 +132,17 @@ ReactDOM.render(
 );
 ```
 
+- `props`
+- `myValue`
+- `Enki`
+- `defaultProps`
+- `element`
+- `default`
+- `class`
 
-* `props`
-* `myValue`
-* `Enki`
-* `defaultProps`
-* `element`
-* `default`
-* `class`
 
 ---
+
 ## Footnotes
 
 [1:Return & parentheses]

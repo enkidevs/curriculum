@@ -2,18 +2,18 @@
 author: kapnobatai136
 type: normal
 category: must-know
-aspects:
-  - introduction
-  - workout
 links:
-  - '[Try out the code example](https://repl.it/@enkicontent/TypeScriptIntroToTypes){website}'
+  - >-
+    [Try out the code
+    example](https://repl.it/@enkicontent/TypeScriptIntroToTypes){website}
   - '[Type Inference](https://en.wikipedia.org/wiki/Type_inference){website}'
-
 ---
 
 # Introduction to Types
 
+
 ---
+
 ## Content
 
 A type in TypeScript is defined by its structure and the operations that can be performed on it.
@@ -37,7 +37,9 @@ let nono = str - 3;
 
 TypeScript will try to guess as much of the type information as it can in order to provide safety without getting in the way[1].
 
+
 ---
+
 ## Practice
 
 Will this code compile without errors?
@@ -50,10 +52,12 @@ let result = points * lesson;
 
 ???
 
-* No
-* Yes
+- No
+- Yes
+
 
 ---
+
 ## Revision
 
 Will this code compile without errors?
@@ -65,12 +69,14 @@ let total = points + 2;
 
 ???
 
-* No
-* Yes
+- No
+- Yes
 
 
 ---
+
 ## Footnotes
+
 [1: Type Inference]
 The automatic detection of types is called *type inference*.
 

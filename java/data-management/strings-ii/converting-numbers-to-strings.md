@@ -1,35 +1,20 @@
 ---
 author: adamMontgomerie
-
-levels:
-
-  - basic
-
-  - beginner
-
 type: normal
-
 category: tip
-
-aspects:
-
-  - introduction
-
 tags:
-
   - numbers
-
   - strings
-
 links:
-
-  - '[docs.oracle.com](https://docs.oracle.com/javase/tutorial/java/data/converting.html){website}'
-
+  - >-
+    [docs.oracle.com](https://docs.oracle.com/javase/tutorial/java/data/converting.html){website}
 ---
 
 # Converting numbers to strings
 
+
 ---
+
 ## Content
 
 One way to convert a number to a string is to create an empty string and append a number to the end of it:

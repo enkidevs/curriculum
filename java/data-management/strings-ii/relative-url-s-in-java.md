@@ -1,35 +1,18 @@
 ---
 author: pawel
-
-levels:
-
-  - basic
-
-  - advanced
-
-  - medium
-
 type: normal
-
 category: tip
-
-aspects:
-
-  - introduction
-
 tags:
-
   - http
-
   - www
-
   - url
-
 ---
 
 # Relative URL's in Java
 
+
 ---
+
 ## Content
 
 A relative URL contains only enough information to reach the resource relative to (or in the context of) another URL.

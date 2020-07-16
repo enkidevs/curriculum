@@ -1,19 +1,14 @@
 ---
 author: mihaiberq
-
 type: normal
-
 category: tip
-
-aspects:
-  - workout
-  - deep
-  
 ---
 
 # Testing Private Methods and Fields
 
+
 ---
+
 ## Content
 
 Times may come when you will have to test **private** methods. As using *inner classes* to write tests is *not advisable* (as tests would likely end up in production), three other methods are to be considered.
@@ -87,24 +82,28 @@ try {
 
 The last option would be to **refactor** said class. Maybe the class to be tested does too much and some functionality can be moved inside another class. This, again, is a matter of *software design*.
 
+
 ---
+
 ## Practice
 
 JUnit can test private methods by itself.
 
 ???
 
-* False
-* True
+- False
+- True
+
 
 ---
+
 ## Revision
 
 The least intrusive method of unit testing private methods and fields is to
 
 ???
 
-* test the contract between the classes
-* use reflection to gain access to the private methods
-* refactor the class
-* define an inner testing class
+- test the contract between the classes
+- use reflection to gain access to the private methods
+- refactor the class
+- define an inner testing class

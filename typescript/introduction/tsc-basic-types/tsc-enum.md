@@ -2,18 +2,18 @@
 author: kapnobatai136
 type: normal
 category: must-know
-aspects:
-  - introduction
-  - workout
 links:
-  - '[Enum Type](typescriptlang.org/docs/handbook/basic-types.html#enum){documentation}'
+  - >-
+    [Enum
+    Type](typescriptlang.org/docs/handbook/basic-types.html#enum){documentation}
   - '[Try Out Enums](https://repl.it/@enkicontent/TypeScriptEnums){website}'
-
 ---
 
 # Enum
 
+
 ---
+
 ## Content
 
 An `enum` is used to define a set of named constants.
@@ -64,7 +64,9 @@ console.log(idk);
 // 2
 ```
 
+
 ---
+
 ## Practice
 
 What will be the value logged in the console?
@@ -81,12 +83,14 @@ console.log(enki);
 // ???
 ```
 
-* 11
-* 1
-* 3
-* 2
+- 11
+- 1
+- 3
+- 2
+
 
 ---
+
 ## Revision
 
 Complete the code block:
@@ -103,7 +107,7 @@ console.log(enki);
 // 13
 ```
 
-* b = 12
-* b
-* b = 14
-* b = 11
+- b = 12
+- b
+- b = 14
+- b = 11

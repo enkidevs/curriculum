@@ -5,15 +5,12 @@ type: normal
 
 category: must-know
 
-aspects:
-  - introduction
-  - workout
-
 ---
 
 # Arrays
 
 ---
+
 ## Content
 
 Arrays are an essential concept in JavaScript and are used frequently.
@@ -84,29 +81,13 @@ console.log(pos);
 // 1
 ```
 
-You can iterate over the array items with *forEach*:
-
-```js
-let myArray = [1, 2, 3];
-
-myArray.forEach(
-  function (item, index, array) {
-    console.log(item, index);
-  }
-);
-
-// 1, 0
-// 2, 1
-// 3, 2
-```
-
-Or using `for..of`:
+You can iterate over the array items with a `for..of` loop:
 
 ```js
 let myArray = [1, 2, 3];
 
 for (let item of myArray) {
-  console.log(item, index);
+  console.log(item);
 }
 
 // 1
@@ -115,9 +96,11 @@ for (let item of myArray) {
 ```
 
 ---
+
 ## Practice
 
 How would you get the last value in the `myArray` array?
+
 ```js
 let myArray = [1, 2, 3];
 let arrayLength = myArray.???;
@@ -126,18 +109,19 @@ console.log(lastVal);
 // 3
 ```
 
-* `length`
-* `myArray`
-* `arrayLength`
-* `- 1`
-* `+ 0`
-* `+ 1`
-* `array`
-* `[0]`
-* `.getLast`
-* `.tail`
+- `length`
+- `myArray`
+- `arrayLength`
+- `- 1`
+- `+ 0`
+- `+ 1`
+- `array`
+- `[0]`
+- `.getLast`
+- `.tail`
 
 ---
+
 ## Revision
 
 Fill in the gaps such that you remove the last element of `enkiArray` and save it in the `elem` variable in a single line of code:
@@ -147,18 +131,20 @@ let enkiArray = [1, 2, 3];
 let elem = ???.???;
 ```
 
-
-* `enkiArray`
-* `pop()`
-* `[2]`
-* `unshift()`
-* `getLast()`
-* `last`
-* `push()`
+- `enkiArray`
+- `pop()`
+- `[2]`
+- `unshift()`
+- `getLast()`
+- `last`
+- `push()`
 
 ---
+
 ## Quiz
+
 ### what is the length of the array below?
+
 
 ```js
 let arr = [,,,]
@@ -167,7 +153,7 @@ console.log(arr.length)
 
  ???
 
-* 3
-* 4
-* 0
-* 1
+- 3
+- 4
+- 0
+- 1

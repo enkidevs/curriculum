@@ -1,46 +1,32 @@
 ---
 author: SebaRaba
-
-levels:
-  - beginner
-  - basic
-  - medium
-
 tags:
   - introduction
   - workout
-
 type: exercise
-
 linkType: sqlfiddle
-
-link: http://sqlfiddle.com/#!9/cfc870/1
-
+link: 'http://sqlfiddle.com/#!9/cfc870/1'
 answer: 2
-
-standards:
-  sql.define-tables.0: 1000
-  sql.define-tables.1: 1000
-  sql.define-tables.4: 1000
-  sql.choose-sql-datatype.1: 1000
-  sql.choose-sql-datatype.2: 1000
-  sql.define-columns.0: 6000
-
 links:
-  - '[MySQL define tables documentation](https://dev.mysql.com/doc/refman/5.7/en/creating-tables.html){documentation}'
-  - '[explainer on how to create tables](https://www.w3schools.com/sql/sql_create_table.asp){website}'
-  - '[explainer on sql dates](https://www.w3schools.com/sql/sql_dates.asp){website}'
-  - '[video tutorial on creating tables](https://youtu.be/EaRj0S3K32Y?t=58s){video}'
+  - >-
+    [MySQL define tables
+    documentation](https://dev.mysql.com/doc/refman/5.7/en/creating-tables.html){documentation}
+  - >-
+    [explainer on how to create
+    tables](https://www.w3schools.com/sql/sql_create_table.asp){website}
+  - >-
+    [explainer on sql
+    dates](https://www.w3schools.com/sql/sql_dates.asp){website}
+  - >-
+    [video tutorial on creating
+    tables](https://youtu.be/EaRj0S3K32Y?t=58s){video}
+---
 
-aspects:
-  - introduction
-  - workout
+# SQL Practice Create Join Table
 
 
 ---
-# SQL Practice Create Join Table
 
----        
 ## Exercise
 
 Create a table called `requests`. This table should contain the following columns, which should store the following values:
@@ -75,6 +61,7 @@ VALUES (5, 1, 3, "2018-01-06", "2018-01-15", 1);
 ```
 
 In total, you will need to:
+
 - *create the table*
 - *add the seed data*
 - *build the schema*
@@ -82,5 +69,3 @@ In total, you will need to:
 - *run the provided query*
 - *which item is the most requested?*
 - *Enter the ID of the most requested item in the answer field*
- 
- 

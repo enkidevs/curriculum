@@ -1,24 +1,18 @@
 ---
 author: emmab
-
 tags:
   - introduction
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-
 links:
   - '[What is Python?](https://www.python.org/doc/essays/blurb/){website}'
-
 ---
 
 # Python Intro
 
+
 ---
+
 ## Content
 
 Python is a popular *high-level* programming language.
@@ -40,27 +34,33 @@ Python is also a *general-purpose* programming language. That means it can be us
 
 You can use it to build websites, web apps and desktop apps. But it's also used in scientific computing, artificial intelligence, and data analysis!
 
+
 ---
+
 ## Practice
 
 Python is closer to ??? language and further away from ??? language.
 
-* human
-* machine
-* alien
-* automated
+- human
+- machine
+- alien
+- automated
+
 
 ---
+
 ## Revision
 
 Python is both a ??? and general-purpose programming language.
 
-* high-level
-* niche
-* low-level
-* domain-specific
+- high-level
+- niche
+- low-level
+- domain-specific
+
 
 ---
+
 ## Footnotes
 
 [1:Syntax]

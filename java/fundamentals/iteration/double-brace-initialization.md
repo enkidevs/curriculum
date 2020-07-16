@@ -1,29 +1,16 @@
 ---
 author: abhavk
-
-levels:
-
-  - basic
-
 type: normal
-
 category: how to
-
-aspects:
-
-  - deep
-
-  - obscura
-
 links:
-
   - '[www.c2.com](http://www.c2.com/cgi/wiki?DoubleBraceInitialization){website}'
-
 ---
 
 # Double Brace Initialization
 
+
 ---
+
 ## Content
 
 Instead of having to always initialize a set, list or map to contain elements by manually initializing a set and adding elements to it (for example to pass to a function), Java provides a way to do it all in one go. It's called Double Brace Initialization. For example the following code:
@@ -49,24 +36,28 @@ someFunction(new HashSet<String>() {{
 }});
 ```
 
+
 ---
+
 ## Practice
 
 Complete the following code snippet using double brace initialization to create an anonymous class derived from the initial specified class:
+
 ```java
 new ArrayList<String>() ???
       ???("Enki!");
 }};
 ```
 
+- `{{` 
+- `add` 
+- `((` 
+- `{(` 
+- `push`
 
-* `{{` 
-* `add` 
-* `((` 
-* `{(` 
-* `push`
 
 ---
+
 ## Revision
 
 Which of the following Java code snippets uses Double Brace Initialization properly to create a new HashSet? 
@@ -88,8 +79,9 @@ newSet(new HashSet<String>() {{
   add("Revising!");
 }});
 ```
+
 ???
 
-* Option C
-* Option A
-* Option B
+- Option C
+- Option A
+- Option B

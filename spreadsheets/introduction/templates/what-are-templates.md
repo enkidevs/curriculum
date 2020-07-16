@@ -1,18 +1,14 @@
 ---
 author: Stefan-Stojanovic
-
-aspects:
-  - introduction
-
 type: normal
-
 category: must-know
-
 ---
 
 # What's a Template?
 
+
 ---
+
 ## Content
 
 A template is a pre-designed sheet with predefined formulas and formatting. Templates are very useful because they save a lot of time. 
@@ -32,3 +28,4 @@ This will open a new tab called "Template gallery" where you can choose the temp
 > 💡 Both Microsoft Excel and Google Sheets have many powerful templates users can use. However, if you do not like what they offer you can always find many more online.
 
 For instance, [this website](https://www.goskills.com/Excel/Articles/Free-Excel-templates) has seven different categories with numerous templates in each that you can download for free.
+ 
