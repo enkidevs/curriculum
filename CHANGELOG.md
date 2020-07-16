@@ -41,6 +41,7 @@ Types of change:
 ## July 16th 2020
 
 ### Fixed
+- [Security - Mitigating SQL Injection Attacks - Fixed resource links](https://github.com/enkidevs/curriculum/pull/2258)
 - [Security - XXE Security - Fix resource link](https://github.com/enkidevs/curriculum/pull/2257)
 
 ## July 15th 2020
