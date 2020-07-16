@@ -1,22 +1,25 @@
 ---
 author: lizTheDeveloper
+
 type: normal
+
 category: how to
+
 links:
   - >-
     [Injection Prevention Cheat
-    Sheet](https://www.owasp.org/index.php/Injection_Prevention_Cheat_Sheet){website}
+    Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Injection_Prevention_Cheat_Sheet.html){website}
   - >-
     [SQL Injection Prevention Cheat
-    Sheet](https://www.owasp.org/index.php/SQL_Injection_Prevention_Cheat_Sheet){website}
+    Sheet](https://cheatsheetseries.owasp.org/cheatsheets/SQL_Injection_Prevention_Cheat_Sheet.html){website}
   - >-
     [Query Parameterization Cheat
-    Sheet](https://www.owasp.org/index.php/Query_Parameterization_Cheat_Sheet){website}
+    Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Query_Parameterization_Cheat_Sheet.html){website}
   - '[Bobby Tables](http://bobby-tables.com/){website}'
+
 ---
 
 # Mitigate SQL Injection Attacks
-
 
 ---
 
@@ -31,9 +34,6 @@ A few other steps you can take:
 - Always escape and sanitize inputs
 - Log SQL Injection attempts to detect hostile IPs
 
-Bookmark this insight for links to SQL Injection Cheat Sheets that will help you detect and mitigate SQL Injection risks.
-
-
 ---
 
 ## Practice
@@ -47,7 +47,6 @@ What step *might not* help you mitigate SQL injection attacks?
 - Always escape and sanitize inputs
 - Log SQL Injection attempts to detect hostile IPs
 
-
 ---
 
 ## Revision
@@ -60,4 +59,3 @@ What step *might not* help you mitigate SQL injection attacks?
 - Evaluate your ORM for SQL Injection vulnerability reports
 - Always escape and sanitize inputs
 - Log SQL Injection attempts to detect hostile IPs
- 
