@@ -1,18 +1,18 @@
 ---
 author: lizTheDeveloper
+
 type: normal
+
 category: how to
+
 links:
   - >-
     [OWASP XXE
-    Prevention](https://www.owasp.org/index.php/XML_External_Entity_(XXE)_Prevention_Cheat_Sheet){website}
-  - >-
-    [Apache XML Processor Specification - Disallow Doctype
-    Declarations](http://apache.org/xml/features/disallow-doctype-decl){website}
+    Prevention](https://cheatsheetseries.owasp.org/cheatsheets/XML_External_Entity_Prevention_Cheat_Sheet.html){website}
+
 ---
 
 # XXE Prevention
-
 
 ---
 
@@ -33,9 +33,6 @@ xmlparser.parse(untrustedXML)
 ```
 
 `set` being an imaginary method that disallows doctype declarations within this set of parsed XML, and sets schemas. Instead of client-side doctypes and schemas, manually set the doctype and schema with server-side definitions on XML received from untrusted sources. Check your library's documentation for a similar feature or upgrade to a library that has this feature.
-
-Bookmark this insight to receive links to OWASPs recommended upgrade paths and compliant XML libraries.
-
 
 ---
 
@@ -60,7 +57,6 @@ xmlparser.parse(???)
 - "disable"
 - parse
 - "secure"
-
 
 ---
 
