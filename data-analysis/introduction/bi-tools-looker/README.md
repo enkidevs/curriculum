@@ -1,4 +1,4 @@
-name: Looker
+name: BI Tools - Looker
 description: Looker tips and best practices.
 insights:
   - intro-to-looker

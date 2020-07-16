@@ -1,4 +1,4 @@
-name: Mode
+name: BI Tools - Mode
 description: Mode tips and best practices.
 insights:
   - intro-to-mode
