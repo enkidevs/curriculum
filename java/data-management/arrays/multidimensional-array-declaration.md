@@ -1,25 +1,14 @@
 ---
 author: kld14
-
-levels:
-
-  - basic
-
-  - beginner
-
 type: normal
-
 category: how to
-
-aspects:
-
-  - introduction
-
 ---
 
 # Multidimensional array declaration
 
+
 ---
+
 ## Content
 
 The following code declares a 2D array - an array of 10 
@@ -37,6 +26,7 @@ int array[][][] = new int[10][7][3];
 ```
 
 In a similar manner, arrays of higher dimensions can be declared (although the Java VM specification limits this number to 255). The leftmost pair of square brackets indicates the outermost array. For example:
+
 ```java
 int array[][] = new int[10][7];
 for (int i = 0;i < array.length;i++) {
@@ -46,32 +36,35 @@ for (int i = 0;i < array.length;i++) {
 }
 ```
 
+
 ---
+
 ## Practice
 
 Declare an array of 8 arrays, each of length 4:
+
 ```java
 int array[][]=new int[???][???]
 ```
 
+- `8` 
+- `4` 
+- `2` 
+- `[]` 
+- `null`
 
-* `8` 
-* `4` 
-* `2` 
-* `[]` 
-* `null`
 
 ---
+
 ## Revision
 
 Java VM specification sets the maximum number of dimensions an array can have to:
 
 `???`
 
-
-* `255` 
-* `256` 
-* `254` 
-* `101` 
-* `27` 
-* `100`
+- `255` 
+- `256` 
+- `254` 
+- `101` 
+- `27` 
+- `100`

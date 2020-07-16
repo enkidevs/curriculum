@@ -1,30 +1,25 @@
 ---
 author: Stefan-Stojanovic
-
-levels:
-  - beginner
-
-aspects:
-  - deep
-  - workout
-
 type: normal
-
 category: how to
-
 links:
-  - '[Official Documentation](https://docs.mongodb.com/manual/reference/operator/query-comparison/){documentation}'
+  - >-
+    [Official
+    Documentation](https://docs.mongodb.com/manual/reference/operator/query-comparison/){documentation}
 ---
 
 # Querying a Collection Using Ranges
 
+
 ---
+
 ## Content
 
 In the previous insight we learned how we can query categorical data[1] using the `$or` and `$in` operators.
 In this insight we introduce operators that help us query discrete data by specifying value ranges.
 
 These operators are:
+
 - `$lt` means less than the specified value (`<` is the mathematical counterpart)
 - `$lte` means less than or equal to the specified value (`<=` is the mathematical counterpart)
 - `$gt` means greater than the specified value (`>` is the mathematical counterpart)
@@ -116,6 +111,7 @@ db.pokemon.find({
 ```
 
 Output:
+
 ```javascript
 // ...
 {
@@ -141,7 +137,9 @@ Output:
 
 **Note**: If we wanted the query above to find only the documents where one of the values is true, we would have to add the `$or` logical operator.
 
+
 ---
+
 ## Practice
 
 Match the operator with the description:
@@ -151,12 +149,14 @@ Match the operator with the description:
 `$gt` : ???
 `$gte`: ???
 
-* Less than
-* Less than or equal to
-* Greater than
-* Greater than or equal to
+- Less than
+- Less than or equal to
+- Greater than
+- Greater than or equal to
+
 
 ---
+
 ## Revision
 
 Create a query to find all documents within the `pokemon` collection whose `age` falls in the range 23-31, including the bounds.
@@ -167,15 +167,17 @@ db.pokemon.???({
 });
 ```
 
-* `find`
-* `age`
-* `$gte`
-* `$lte`
-* `$lt`
-* `$gt`
-* `%and`
+- `find`
+- `age`
+- `$gte`
+- `$lte`
+- `$lt`
+- `$gt`
+- `%and`
+
 
 ---
+
 ## Footnotes
 
 [1:Categorical and discrete data]

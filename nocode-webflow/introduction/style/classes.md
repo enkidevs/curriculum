@@ -1,22 +1,14 @@
 ---
 author: Stefan-Stojanovic
-
-levels:
-  - beginner
-
-aspects:
-  - deep
-  - workout
-
 type: normal
-
 category: how to
-
 ---
 
 # Classes
 
+
 ---
+
 ## Content
 
 Classes are used when we want to apply the same styles to different elements without having to style every element from scratch[1].
@@ -49,22 +41,27 @@ To edit a class name, duplicate or delete it, select the class you want to edit 
 
 **Note:** If only one element has a particular class and you accidentally removed the class from the element, you don't have to worry. Just start typing the name of the class and the class will be shown in the "Existing classes" section.
 
+
 ---
+
 ## Practice
 
 Which statement about classes is not true?
 
 ???
 
-* Classes are used to define the hierarchy of an element.
-* Classes can be duplicated, renamed and deleted.
-* Classes can be applied to any element.
-* Classes retain all styling information.
+- Classes are used to define the hierarchy of an element.
+- Classes can be duplicated, renamed and deleted.
+- Classes can be applied to any element.
+- Classes retain all styling information.
+
 
 ---
+
 ## Footnotes
 
 [1:Example]
 For instance, imagine your web page has over 300 paragraphs. Between the 300 paragraphs, you want to have 3 different stylings per 100 paragraphs. Imagine having to edit every single paragraph to get the desired effect. That would be very time consuming and that's where classes come in.
 
 You can create a class and edit that class, then just apply it to any paragraph you want and that paragraph will have the styling of that class. This way, if you have 100 paragraphs, you only need to edit one of them and apply the class to the rest and save hours of tedious work.
+ 

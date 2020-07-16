@@ -1,27 +1,19 @@
 ---
 author: kapnobatai136
-  
-aspects:
-
-  - new
-
-  - workout
-
-  - deep
-
 type: normal
-
 category: must-know
-
 links:
   - '[Render props](https://reactjs.org/docs/render-props.html){documentation}'
-  - '[Higher order components](https://reactjs.org/docs/higher-order-components.html){documentation}'
-
+  - >-
+    [Higher order
+    components](https://reactjs.org/docs/higher-order-components.html){documentation}
 ---
 
 # Why were hooks needed?
 
+
 ---
+
 ## Content
 
 Hooks allow you to use state or other useful features without using class components.
@@ -52,32 +44,39 @@ Although you can use these patterns to create reusable behavior, most of the tim
 
 To solve this issue, the React team created hooks.
 
+
 ---
+
 ## Practice
 
 Which of the following does not represent a method of "attaching" reusable behavior to a component?
 
 ???
 
-* pure components
-* render props
-* hooks
-* higher-order components
+- pure components
+- render props
+- hooks
+- higher-order components
+
 
 ---
+
 ## Revision
 
 Which of the following represents a method of "attaching" reusable behavior to a component?
 
 ???
 
-* hooks
-* pure components
-* nested functions
-* class components
+- hooks
+- pure components
+- nested functions
+- class components
+
 
 ---
+
 ## Footnotes
+
 [1:render props]
 Another version of the "render props" pattern is to pass a function as `children`:
 

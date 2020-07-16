@@ -1,41 +1,23 @@
 ---
 author: adamMontgomerie
-
-levels:
-
-  - basic
-
-  - medium
-
 type: normal
-
 category: feature
-
-aspects:
-
-  - introduction
-
 tags:
-
   - directories
-
   - file-io
-
   - file-system
-
   - iterators
-
   - root-directory
-
 links:
-
-  - '[docs.oracle.com](https://docs.oracle.com/javase/tutorial/essential/io/dirs.html){website}'
-
+  - >-
+    [docs.oracle.com](https://docs.oracle.com/javase/tutorial/essential/io/dirs.html){website}
 ---
 
 # Listing a file system's root directories
 
+
 ---
+
 ## Content
 
 Using the **static** `FileSystems` class, you can get the default `FileSystem` (note the missing `s`) through the `getDefault()` method.
@@ -43,6 +25,7 @@ Using the **static** `FileSystems` class, you can get the default `FileSystem` (
 The `getRootDirectories()` method of `FileSystem`  can be used to acquire a list of root directories on a file system.
 
 An object of type `Iterable` is returned, so the directories can be iterated over in the following way:
+
 ```java
 FileSystem sys = FileSystems.getDefault();
 Iterable<Path> d = sys.getRootDirectories();
@@ -53,7 +36,9 @@ for (Path name: d) {
 
 This is available from Java 1.7.
 
+
 ---
+
 ## Revision
 
 Complete the code snippet bellow with the missing class such that the code works. 
@@ -64,7 +49,7 @@ Iterable<Path> myDir = ???
 
 ```
 
-* FileSystems
-* FileSystem
-* System
-* FileSystemUtils
+- FileSystems
+- FileSystem
+- System
+- FileSystemUtils

@@ -1,35 +1,19 @@
 ---
 author: adamMontgomerie
-
-levels:
-
-  - basic
-
-  - advanced
-
-  - medium
-
 type: normal
-
 category: tip
-
-aspects:
-
-  - introduction
-
 tags:
-
   - generics
-
 links:
-
-  - '[docs.oracle.com](https://docs.oracle.com/javase/tutorial/java/generics/types.html){website}'
-
+  - >-
+    [docs.oracle.com](https://docs.oracle.com/javase/tutorial/java/generics/types.html){website}
 ---
 
 # Writing generic classes
 
+
 ---
+
 ## Content
 
 The following class can accept and return any type of object. It cannot, however, accept primitive types.

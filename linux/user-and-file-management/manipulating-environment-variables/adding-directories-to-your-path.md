@@ -1,14 +1,7 @@
 ---
 author: tuwidc
-
-aspects:
-  - introduction
-  - workout
-
 type: normal
-
 category: must-know
-
 tags:
   - path
   - linux
@@ -17,12 +10,13 @@ tags:
   - bashrc
   - export
   - introduction
-
 ---
 
 # Adding Directories to `PATH`
 
+
 ---
+
 ## Content
 
 To do this, edit the `.bashrc` file in the home directory and append the following line (chaining the existing `PATH` at the end):
@@ -59,7 +53,9 @@ This is the same as running:
 . ~/.bashrc
 ```
 
+
 ---
+
 ## Practice
 
 What should be added to `.bashrc` to prepend `/fun/enki`  to `PATH`?
@@ -70,23 +66,28 @@ What should be added to `.bashrc` to prepend `/fun/enki`  to `PATH`?
 ??? ~/.bashrc
 ```
 
-* `"/fun/enki:$PATH"`
-* `source`
-* `"/fun/enki:PATH"`
-* `/fun/enki:$PATH`
-* `reload`
+- `"/fun/enki:$PATH"`
+- `source`
+- `"/fun/enki:PATH"`
+- `/fun/enki:$PATH`
+- `reload`
+
 
 ---
+
 ## Revision
 
 In order to add a new directory to `PATH`, you have to modify the ??? file.
 
-* .bashrc
-* .bashsrc
-* .bashpath
+- .bashrc
+- .bashsrc
+- .bashpath
+
 
 ---
-## Quiz 
+
+## Quiz
+
 ### when is the ~/.bashrc file run?
 
 
@@ -94,7 +95,7 @@ When is the `~/.bashrc` file run?
 
 ???
 
-* Whenever a new terminal is opened
-* Once every boot
-* Once for every user login
-* Every thirty minutes
+- Whenever a new terminal is opened
+- Once every boot
+- Once for every user login
+- Every thirty minutes

@@ -1,19 +1,14 @@
 ---
 author: Stefan-Stojanovic
-
-aspects:
-  - introduction
-  - workout
-
 type: normal
-
 category: how to
-
 ---
 
 # Never experiment on your original sheet
 
+
 ---
+
 ## Content
 
 We all love to experiment on already built spreadsheets. However, this can cause unwanted results.
@@ -40,13 +35,17 @@ In the drop-down menu there are several options:
 
 All 3 options do the same thing and are recommended when you want to experiment with your sheet.
 
+
 ---
+
 ## Practice
+
 ---
 
 Which of the following is considered best practice?
 
 When testing you should ???.
 
-* create a duplicate in case you need the original again.
-* overwrite the original since you don't need it right then.
+- create a duplicate in case you need the original again.
+- overwrite the original since you don't need it right then.
+ 

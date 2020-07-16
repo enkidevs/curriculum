@@ -1,39 +1,22 @@
 ---
 author: catalin
-
-levels:
-  - advanced
-  - medium
-
 type: normal
-
 category: best practice
-
-
-standards:
-  javascript.node-standard-library-os.5: 20
-
 tags:
   - workout
   - deep
   - obscura
-
 notes: Im trying to make a Node workout based on security tips. This is one of them.
-
-
 links:
-  - '[blog.liftsecurity.io](https://blog.liftsecurity.io/2014/08/19/Avoid-Command-Injection-Node.js){website}'
-
-aspects:
-  - workout
-  - deep
-  - obscura
-
-
+  - >-
+    [blog.liftsecurity.io](https://blog.liftsecurity.io/2014/08/19/Avoid-Command-Injection-Node.js){website}
 ---
+
 # Avoid command injection
 
+
 ---
+
 ## Content
 
 Avoiding command injection is highly recommended when the **security** factor of your Node application is taken into consideration.
@@ -52,7 +35,9 @@ When the user input is passed to the method - can be either *a backtick*  or `$(
 
 The simple way to avoid this threat is by using `child_process.execFile` or `child_process.spawn`.
 
+
 ---
+
 ## Practice
 
 Which method is considered to be safer to use in the following case to retrieve a list of files chosen by a user?
@@ -65,19 +50,20 @@ child_process.???('ls', ['-l'
 });
 ```
 
-* spawn
-* execFiles
-* exec
+- spawn
+- execFiles
+- exec
+
 
 ---
+
 ## Revision
 
 Which of the following is not true about `child_process.exec`?
 
 ???
 
-* is literally the same as `child_process.spawn`
-* calls to execute `/bin/sh`
-* it's a bash interpreter
-* its calls can be targeted for command injection
- 
+- is literally the same as `child_process.spawn`
+- calls to execute `/bin/sh`
+- it's a bash interpreter
+- its calls can be targeted for command injection

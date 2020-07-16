@@ -1,24 +1,17 @@
 ---
 author: tommarshall
-
 type: normal
-
 category: feature
-
-aspects:
-  - introduction
-  - workout
-  - deep
-
 links:
-  - '[FileReader.readAsDataURL()](https://developer.mozilla.org/en-US/docs/Web/API/FileReader/readAsDataURL){website}'
-
-
+  - >-
+    [FileReader.readAsDataURL()](https://developer.mozilla.org/en-US/docs/Web/API/FileReader/readAsDataURL){website}
 ---
 
 # FileReader.readAsDataURL()
 
+
 ---
+
 ## Content
 
 The `FileReader` is a global object that provides multiple methods to read the contents of a file stored on the user's computer.
@@ -69,28 +62,29 @@ function onFileSelected() {
 }
 ```
 
+
 ---
+
 ## Practice
 
 Which `FileReader`'s function is called after `readAsDataURL()` is completed?
 
 ???
 
+- `onload`
+- `onend`
+- `oncomplete`
+- `readAsDataURL`
 
-* `onload`
-* `onend`
-* `oncomplete`
-* `readAsDataURL`
 
 ---
+
 ## Revision
 
 The URL returned by the `readAsDataURL` function is
 
 ???
 
-
-* a base64 encoded string
-* an SVG's code
-* a link to file's location
- 
+- a base64 encoded string
+- an SVG's code
+- a link to file's location

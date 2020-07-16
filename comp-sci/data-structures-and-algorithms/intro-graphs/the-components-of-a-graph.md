@@ -1,27 +1,15 @@
 ---
 author: mihaiberq
-
-levels:
-
-  - beginner
-
 type: normal
-
 category: must-know
-
-aspects:
-
-  - introduction
-
-  - workout
-
 parent: the-graph-data-structure
-
 ---
 
 # The Components of a Graph
 
+
 ---
+
 ## Content
 
 In a graph, a **path** is a sequence of vertices and edges , such that between two vertices in the path, there is an edge. In a *directed graph*, a **directed path** is a path such that all edges are directed and traversed along their direction. The path below is `[E, C, A, F]`:
@@ -36,11 +24,13 @@ A *path* is **simple** if it contains each edge and vertex at most *once*. If a 
 
 Given an edge between two vertices *u* and *v*, we could say that *u* **reaches** *v* and *v* is **reachable** from *u*. In case of an undirected edge, the converse is also true: *v* **reaches** *u* and *u* is **reachable** from *v*.
 
+
 ---
+
 ## Practice
 
 If the path starts and ends with the same vertex, having more than one edge, it is called a ???.
 
-
-* Cycle
-* Simple Cycle
+- Cycle
+- Simple Cycle
+ 

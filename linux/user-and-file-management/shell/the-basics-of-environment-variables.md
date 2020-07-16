@@ -1,28 +1,14 @@
 ---
 author: jfarmer
-
-levels:
-
-  - basic
-
-  - beginner
-
-aspects:
-  - introduction
-  - workout
-
 type: normal
-
 category: must-know
-
-
-
-
 ---
 
 # The Basics of Environment Variables
 
+
 ---
+
 ## Content
 
 An *environment variable* is a dynamic, named variable that can affect the way processes behave on a computer.  For example, a process might look up the `HOME` environment variable to determine the current user's home directory.
@@ -58,7 +44,6 @@ echo $HOME
 
 When referencing the value of a given environment variable you must prefix the name with a `$`.  Compare `echo $HOME` to the following:
 
-
 ```shell
 echo HOME
 HOME
@@ -66,20 +51,19 @@ HOME
 
 As you can see, `echo $HOME` displays the value of the `HOME` environment variable whereas `echo HOME` displays the literal string "HOME".
 
+
 ---
+
 ## Revision
 
 How would you list all environment variables’ values?
-```
+
+```plain-text
 ???
 ```
 
-* `env`
-* `$PATH`
-* `$ALL`
-* `vars`
-* `$VARS`
-
- 
- 
- 
+- `env`
+- `$PATH`
+- `$ALL`
+- `vars`
+- `$VARS`

@@ -1,47 +1,28 @@
 ---
 author: adamMontgomerie
-
-levels:
-
-  - medium
-
 type: normal
-
 category: must-know
-
-aspects:
-
-  - introduction
-
-  - workout
-
-  - obscura
-
 tags:
-
   - annotations
-
   - meta-annotations
-
   - javadoc
-
   - documentation
-
-
 links:
-
-  - '[docs.oracle.com](https://docs.oracle.com/javase/tutorial/java/annotations/predefined.html){website}'
-
+  - >-
+    [docs.oracle.com](https://docs.oracle.com/javase/tutorial/java/annotations/predefined.html){website}
 ---
 
 # Including annotations in Javadoc
 
+
 ---
+
 ## Content
 
 By default, annotations are not included in Javadoc generated documentation. However, one can specify that an annotation should be included in Javadoc by using the `@Documented` meta-annotation.
 
 For example:
+
 ```java
 @Documented
 @Introduction {
@@ -50,7 +31,9 @@ For example:
 }
 ```
 
+
 ---
+
 ## Practice
 
 Suppose the following annotation. Complete the snippet so it will be included in the JavaDoc.
@@ -62,17 +45,17 @@ Suppose the following annotation. Complete the snippet so it will be included in
 }
 ```
 
+- `Documented` 
+- `Document` 
+- `JavaDoc` 
+- `Javadoc`
 
-* `Documented` 
-* `Document` 
-* `JavaDoc` 
-* `Javadoc`
 
 ---
+
 ## Revision
 
 By default, annotations ??? included in JavaDoc.
 
-
-* `are not` 
-* `are`
+- `are not` 
+- `are`

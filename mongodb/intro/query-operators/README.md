@@ -1,7 +1,7 @@
 name: Query Operators
-
-description: Learn how to perform basic queries using the $in, $or, $lt, $gt, $lte, $gte and $and operators
-
+description: >-
+  Learn how to perform basic queries using the $in, $or, $lt, $gt, $lte, $gte
+  and $and operators
 insights:
   - objectid-intro
   - query-collection
@@ -9,3 +9,8 @@ insights:
   - query-collection-3
   - query-collection-4
   - query-collection-5
+aspects:
+  - introduction
+  - deep
+  - workout
+ 

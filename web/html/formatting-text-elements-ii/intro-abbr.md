@@ -1,27 +1,18 @@
 ---
 author: Stefan-Stojanovic
-
-levels:
-  - beginner
-  - basic
-
 type: normal
-
 category: must-know
-
 stub: true
-
 tags:
   - deep
-
-aspects:
-  - introduction
-
-links:
-
+links: null
 ---
+
 # Intro `<abbr>`
+
+
 ---
+
 ## Content
 
 The HTML `<abbr>`, or the **Abbreviation** element, is used to represent an abbreviation. The element has a `title` attribute which can provide a full description of the abbreviation and nothing else.
@@ -51,46 +42,57 @@ The `<abbr>` element can also be styled with appropriate CSS properties.
 
 [View CodePen](https://codepen.io/enkidevs/pen/rKQEEK)
 
+
 ---
+
 ## Practice
 
 Write the code that provides a full description of the abbreviation for search engines and visually impaired software.
 
 `<p>`Learn all about <??? ???=???>HTML</???> using Enki.`</p>`
 
-* abbr
-* title
-* "HyperText Markup Language"
-* /abbr
-* "HyperText Markup Language"
-* desc
+- abbr
+- title
+- "HyperText Markup Language"
+- /abbr
+- "HyperText Markup Language"
+- desc
+
 
 ---
+
 ## Revision
 
 Which HTML element is used with abbreviations to provide a full description for search engines and visually impaired software?
 
 ???
 
-* abbr
-* acronym
-* abbrev
-* abbreviate
-* acro
-* desc
+- abbr
+- acronym
+- abbrev
+- abbreviate
+- acro
+- desc
+
 
 ---
+
 ## Quiz
 
-### How much do you know about the `<abbr>` element?
+### How much do you know about the
+
+
+`<abbr>`
+
+ element?
 
 Mark the false statement regarding the `<abbr>` element:
 
 ??
 
-* Displayed as a block element by default.
-* Represents an abbreviation
-* Optionally provides a full description of the content.
-* Some browsers present the description as a tooltip.
-* Displayed as an inline element by default.
-* Some browsers add a dotted underline to the content of the element.
+- Displayed as a block element by default.
+- Represents an abbreviation
+- Optionally provides a full description of the content.
+- Some browsers present the description as a tooltip.
+- Displayed as an inline element by default.
+- Some browsers add a dotted underline to the content of the element.

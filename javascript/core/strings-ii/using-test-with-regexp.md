@@ -1,27 +1,24 @@
 ---
 author: fsites
-
 type: normal
-
 category: feature
-
 links:
-  - '[Official Documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/test){documentation}'
-
-aspects:
-  - introduction
-  - workout
-
+  - >-
+    [Official
+    Documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/test){documentation}
 ---
 
 # Using `.test()` With RegExp
 
+
 ---
+
 ## Content
 
 The `.test()` method takes a string and checks it against a RegEx[1]. 
 
 The returned value is boolean: 
+
 - `true` if there is a match
 - `false` if there is no match.
 
@@ -35,7 +32,9 @@ let containsAtSchool = /At School/i;
 containsAtSchool.test(str); // false
 ```
 
+
 ---
+
 ## Practice
 
 What does the following code snippet return? ???
@@ -50,24 +49,27 @@ let containsEnki = /Enki/i;
 containsEnki.test(str);
 ```
 
-* False, True
-* True, False
-* True, True
-* False, False
+- False, True
+- True, False
+- True, True
+- False, False
+
 
 ---
+
 ## Revision
 
 Matching a string with a RegEx is done with: 
 
 ???
 
+- `regex.test(string)`
+- `regex.match(string)`
+- `regex.check(string)`
 
-* `regex.test(string)`
-* `regex.match(string)`
-* `regex.check(string)`
 
 ---
+
 ## Footnotes
 
 [1:RegEx]

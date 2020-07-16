@@ -1,28 +1,18 @@
 ---
 author: stefkn
-
-levels:
-  - beginner
-  - basic
-  - medium
-
-aspects:
-  - introduction
-  - obscura
-
 type: normal
-
 category: must-know
-
 links:
-  - '[Immutability - Wikipedia](https://en.wikipedia.org/wiki/Immutable_object){website}'
-
-
+  - >-
+    [Immutability -
+    Wikipedia](https://en.wikipedia.org/wiki/Immutable_object){website}
 ---
 
 # What Is Immutability?
 
+
 ---
+
 ## Content
 
 Immutability is a concept from object-oriented and functional programming. An **immutable object** is usually defined as an object that cannot be modified after its creation, I.E. it stays the exactly the same throughout its entire life cycle. This is the opposite of a **mutable object**, where modifications after creation are permitted.
@@ -59,7 +49,9 @@ Second, immutable objects are easier to reason about through their life cycle, s
 
 There are some situations where **mutable** objects might be more suited, such as when we're trying to model real-world objects in a way that is intuitive at the level of the code. Since our perception of the *real world* is based on mutable objects (when I make a change to some physical object, I still think of it as the same object, just with the change applied, not a new object) it is often simpler in such cases to use *mutable* objects, or at least *weakly immutable*.[2]
 
+
 ---
+
 ## Practice
 
 What is the difference between mutability, strong immutability and weak immutability? (Check the footnotes!)
@@ -74,28 +66,32 @@ What is the difference between mutability, strong immutability and weak immutabi
 
 ???
 
+- 3
+- 1
+- 4
+- 2
 
-* 3
-* 1
-* 4
-* 2
 
 ---
+
 ## Revision
 
 How would we get the effect of adding another element to an immutable list?
 
 ???
 
+- Create a copy of the list with the new element added during creation.
+- Not possible.
+- use the `.append()` method on the list.
+- use the `+` operator.
 
-* Create a copy of the list with the new element added during creation.
-* Not possible.
-* use the `.append()` method on the list.
-* use the `+` operator.
 
 ---
-## Quiz 
+
+## Quiz
+
 ### which of the following snippets prints False?
+
 
 ```python
 # A
@@ -112,13 +108,16 @@ print(s1 == s2 + 'o')
 
  ???
 
-* B
-* C
-* A
-* Neither
+- B
+- C
+- A
+- Neither
+
 
 ---
+
 ## Footnotes
+
 [1:Waste of Resources?]
 Just because an object is immutable does not mean the object stored in the computer's *memory* is un-rewritable. Depending on implementation, immutable copies of objects will not actually copy the original object in memory and replicate it elsewhere. Instead, the compiler might just copy the *reference*, a 'signpost' to a location in memory where the original object lies, and record only the modification made along with the reference. Some languages even use a feature called *interning*, where references to objects are always used in the place of equal copies, which results in substantial speedup for operations such as equality comparison between objects.
 
@@ -126,4 +125,3 @@ As a result of these techniques, immutability does not necessarily mean that the
 
 [2:Weakly Mutable]
 There are differing levels of immutability: **weak** and **strong**. An object is said to be **strongly immutable** if the entire object cannot be modified after creation. An object is said to be **weakly immutable** if the object contains some fields which *are* able to be modified after creation. I.E., the majority of the object would likely be immutable for the benefits that provides, but for convenience some data is still able to be modified after creation.
- 

@@ -1,19 +1,17 @@
 ---
 author: nem035
-aspects:
-  - introduction
-  - workout
 type: normal
 category: must-know
 links:
-- '[What is Docker Engine?](https://docs.docker.com/engine/){documentation}'
-- '[Installing Docker](https://docs.docker.com/install/){documentation}'
-
+  - '[What is Docker Engine?](https://docs.docker.com/engine/){documentation}'
+  - '[Installing Docker](https://docs.docker.com/install/){documentation}'
 ---
 
 # Docker Engine
 
+
 ---
+
 ## Content
 
 Docker uses a client-server architecture consisting of 2 parts.
@@ -28,22 +26,27 @@ The Docker platform also has public registries (Docker Hub and Docker Cloud) tha
 
 Any Docker container can run on any server that has the Docker daemon installed, regardless of the underlying operating system.
 
+
 ---
+
 ## Practice
 
 The Docker daemon and Docker CLI use ??? to communicate.
 
-* Docker REST API
-* Docker SOAP API
-* Docker channels
-* Docker Objects
+- Docker REST API
+- Docker SOAP API
+- Docker channels
+- Docker Objects
+
 
 ---
+
 ## Revision
 
 The two main parts of the Docker architecture are the ???
 
-* CLI and daemon
-* daemon and container
-* Object and namespaces
-* Container and Hub
+- CLI and daemon
+- daemon and container
+- Object and namespaces
+- Container and Hub
+ 

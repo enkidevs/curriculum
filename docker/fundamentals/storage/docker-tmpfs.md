@@ -1,18 +1,16 @@
 ---
 author: nem035
-aspects:
-  - workout
-  - deep
-  - obscura
 type: normal
 category: feature
 links:
-- '[Use tmpfs mounts](https://docs.docker.com/storage/tmpfs/){documentation}'
+  - '[Use tmpfs mounts](https://docs.docker.com/storage/tmpfs/){documentation}'
 ---
 
 # Tmpfs
 
+
 ---
+
 ## Content
 
 If we are running Docker on Linux, besides bind-mounts and volumes, we can use a third type of storage mechanism called a *tmpfs* mount.
@@ -38,12 +36,14 @@ docker run \
   --mount type=tmpfs,destination=~/enki nginx
 ```
 
+
 ---
+
 ## Practice
 
 The *tmpfs* mount is a storage option in Docker where data is persisted ??? and is available only on ???.
 
-* temporary
-* Linux
-* forever
-* Windows
+- temporary
+- Linux
+- forever
+- Windows

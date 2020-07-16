@@ -1,19 +1,14 @@
 ---
 author: alexjmackey
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-  - workout
-  - obscura
-
 ---
+
 # Types - Boolean and Number
 
+
 ---
+
 ## Content
 
 ### Boolean
@@ -50,7 +45,9 @@ More math functionality is available via the `Math` object e.g.
 Math.round(5.7); // 6
 ```
 
+
 ---
+
 ## Practice
 
 On the first line declare a **boolean variable** named `a` that's `true`.
@@ -61,28 +58,29 @@ let ??? = ???
 ??? ??? = ???
 ```
 
-* `a`
-* `true`
-* `const`
-* `b`
-* `3.14`
-* `"3.14"`
-* `True`
-* `"true"`
-* `number`
-* `boolean`
-* `'3.14'`
-* `'true'`
+- `a`
+- `true`
+- `const`
+- `b`
+- `3.14`
+- `"3.14"`
+- `True`
+- `"true"`
+- `number`
+- `boolean`
+- `'3.14'`
+- `'true'`
+
 
 ---
+
 ## Revision
 
 Which of the following statements is considered true?
 
 ???
 
-* The number type in JavaScript support both whole and decimal numbers
-* Boolean type has three options
-* You need the `Math` object to add numbers
-* Boolean types use **Upper case**
- 
+- The number type in JavaScript support both whole and decimal numbers
+- Boolean type has three options
+- You need the `Math` object to add numbers
+- Boolean types use **Upper case**

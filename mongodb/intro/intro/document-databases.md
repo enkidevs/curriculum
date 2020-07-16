@@ -1,23 +1,15 @@
 ---
 author: Stefan-Stojanovic
-
-levels:
-  - beginner
-
-aspects:
-  - obscura
-  - introduction
-
 type: normal
-
 category: must-know
-
 links:
-  - '[Analysis of the NoSQL Landscape](http://blog.knuthaugen.no/2010/03/the-nosql-landscape.html){website}'
-
+  - >-
+    [Analysis of the NoSQL
+    Landscape](http://blog.knuthaugen.no/2010/03/the-nosql-landscape.html){website}
 ---
 
 # Document databases
+
 
 ---
 
@@ -36,14 +28,17 @@ An index in a Document database allows us to have one or more additional keys li
 
 Some popular `document` databases are **MongoDB**, **CouchDB**, **RaptorDB**, **CloudKit**, etc.
 
+
 ---
+
 ## Practice
 
 Which are the 4 types of NoSQL databases:
 
 ???
 
-* Column, Graph, Document, Key-Value
-* Column, Graph, Table, Key-Value
-* Table, Graph, Circle, Spreadsheet
-* Spreadsheet, Table, Key-Value, Index
+- Column, Graph, Document, Key-Value
+- Column, Graph, Table, Key-Value
+- Table, Graph, Circle, Spreadsheet
+- Spreadsheet, Table, Key-Value, Index
+ 

@@ -1,32 +1,21 @@
 ---
 author: catalin
-
-levels:
-
-  - basic
-
-  - advanced
-
-  - medium
-
 type: normal
-
 category: best practice
-
-
 links:
-
-  - '[Avoiding array mutations](https://egghead.io/lessons/javascript-redux-avoiding-array-mutations-with-concat-slice-and-spread){website}'
-  - '[Immutability helper](https://github.com/kolodny/immutability-helper){website}'
-
-aspects:
-  - deep
-
+  - >-
+    [Avoiding array
+    mutations](https://egghead.io/lessons/javascript-redux-avoiding-array-mutations-with-concat-slice-and-spread){website}
+  - >-
+    [Immutability
+    helper](https://github.com/kolodny/immutability-helper){website}
 ---
 
 # Avoid array mutations
 
+
 ---
+
 ## Content
 
 There are different ways of creating a **pure** function needed in **Redux** for generating a new array of items. These types of functions are necessary for `reducers` because Redux takes a given state, passes it to each `reducer`, and finally it expects a new object if there are any changes. If we mutate the old state in a `reducer`, both the old state and the new state point to the same object, resulting in Redux thinking that there has been no change.
@@ -116,7 +105,9 @@ function updateItemInArray(array, action) {
 
 The last option is to use an immutability helper, like the `immutability-helper` library that was explained in a previous workout.
 
+
 ---
+
 ## Practice
 
 Append `enki` to `myArray` using the spread operator in a **pure** fashion:
@@ -125,14 +116,15 @@ Append `enki` to `myArray` using the spread operator in a **pure** fashion:
 return [???myArray, ???];
 ```
 
+- `...`
+- `enki`
+- `concat`
+- `splice`
+- `slice`
 
-* `...`
-* `enki`
-* `concat`
-* `splice`
-* `slice`
 
 ---
+
 ## Revision
 
 Append `enki` to `myArray` using the spread operator in a **pure** fashion:
@@ -141,11 +133,8 @@ Append `enki` to `myArray` using the spread operator in a **pure** fashion:
 return [???myArray, ???];
 ```
 
-
-* `...`
-* `enki`
-* `concat`
-* `splice`
-* `slice`
-
-
+- `...`
+- `enki`
+- `concat`
+- `splice`
+- `slice`

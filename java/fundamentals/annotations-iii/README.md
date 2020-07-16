@@ -8,4 +8,10 @@ insights:
   - restricting-an-annotation-s-application-by-using-target
   - suppressing-warnings-using-suppresswarnings
   - using-the-deprecated-annotation
- 
+
+aspects:
+  - deep
+  - obscura
+  - new
+  - introduction
+  - workout

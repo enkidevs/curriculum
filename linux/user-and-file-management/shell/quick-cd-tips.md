@@ -1,33 +1,25 @@
 ---
 author: tuwidc
-
-levels:
-  - basic
-  - advanced
-  - medium
-  - beginner
-
-aspects:
-  - workout
-
 type: normal
-
 category: hack
-
 tags:
   - sudo
   - cd
   - terminal
-
 links:
-  - '[The Directory Stack](https://www.gnu.org/software/bash/manual/html_node/The-Directory-Stack.html){documentation}'
-  - '[Directory Stack Builtins](https://www.gnu.org/software/bash/manual/html_node/Directory-Stack-Builtins.html#Directory-Stack-Builtins){documentation}'
-
+  - >-
+    [The Directory
+    Stack](https://www.gnu.org/software/bash/manual/html_node/The-Directory-Stack.html){documentation}
+  - >-
+    [Directory Stack
+    Builtins](https://www.gnu.org/software/bash/manual/html_node/Directory-Stack-Builtins.html#Directory-Stack-Builtins){documentation}
 ---
 
 # Quick `cd` Tips
 
+
 ---
+
 ## Content
 
 The `pushd` command saves the current working directory in memory so it can be returned to at any time. You can think of it as an evolution of `cd`, because `pushd` stores the history of your visited folders.
@@ -104,24 +96,26 @@ Or, to undo the last change of directory and go back to last visited path:
 cd -
 ```
 
+
 ---
+
 ## Practice
 
 Directories saved by `pushd` can be seen using ???.
 
-* dirs
-* cd -
-* topd
-* dirs -c
+- dirs
+- cd -
+- topd
+- dirs -c
+
 
 ---
+
 ## Revision
 
 `pushd` ,`popd`  and `dirs` are shell built-ins which allow you to manipulate the ???.
 
-* directory stack
-* switch
-* directory queue
-* memory
- 
- 
+- directory stack
+- switch
+- directory queue
+- memory

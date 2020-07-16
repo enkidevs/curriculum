@@ -1,18 +1,14 @@
 ---
 author: Stefan-Stojanovic
-
-aspects:
-  - introduction
-
 type: normal
-
 category: how to
-
 ---
 
 # Formatting & Editing Shortcuts I
 
+
 ---
+
 ## Content
 
 ### `F2` - `Fn + F2`
@@ -23,11 +19,11 @@ Edit the currently selected cell.
 
 Pressing "Enter" whilst editing a cell will end the editing process and switch to the cell under it.
 
-### `Alt + Enter` - ` Control + Option + Enter` 
+### `Alt + Enter` - ` Control + Option + Enter`
 
 Create a new line within the currently active cell.
 
-### `Ctrl + B` - `⌘ + B` 
+### `Ctrl + B` - `⌘ + B`
 
 Make all the content of the selected cell/s bold.
 
@@ -60,3 +56,4 @@ Toggle display formula/values.
 Pressing F4 on any cell would populate that cell with the content of the last edited cell
 
 ![f4-example](https://img.enkipro.com/2f5c1a92db8d9c1bf4caf9fda0b3e553.gif)
+ 

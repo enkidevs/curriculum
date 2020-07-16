@@ -1,34 +1,20 @@
 ---
 author: rosielowther
-
-levels:
-  - basic
-  - beginner
-
 type: normal
-
 category: must-know
-
-standards:
-  javascript.functions.4: 10
-  javascript.functions.8: 10
-
 tags:
   - introduction
   - workout
-
 links:
-  - '[developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions){website}'
-
-aspects:
-  - introduction
-  - workout
-
-
+  - >-
+    [developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions){website}
 ---
+
 # Anonymous functions
 
+
 ---
+
 ## Content
 
 If you use a **function expression** to define a function, you can omit the function's name. The syntax is:
@@ -55,19 +41,23 @@ The downsides to anonymous function expressions are:
 
 Note: you must name a function defined by a **function declaration**.
 
+
 ---
+
 ## Practice
 
 Is the `name` field used in a **function expression** for defining functions mandatory?
 
 ???
 
-* no
-* yes
-* only on browsers
-* only in older JavaScript versions
+- no
+- yes
+- only on browsers
+- only in older JavaScript versions
+
 
 ---
+
 ## Revision
 
 Complete the following anonymous function:
@@ -79,8 +69,7 @@ var cube = ???(x) {
 };
 ```
 
-* function
-* let
-* name
-* {}
- 
+- function
+- let
+- name
+- {}

@@ -1,30 +1,18 @@
 ---
 author: stefkn
-
-levels:
-  - beginner
-  - basic
-  - medium
-
-aspects:
-  - introduction
-  - obscura
-
 type: normal
-
 category: must-know
-
-
 links:
-
-  - '[Functional Programming in Python](http://www.oreilly.com/programming/free/files/functional-programming-python.pdf){website}'
-
-
+  - >-
+    [Functional Programming in
+    Python](http://www.oreilly.com/programming/free/files/functional-programming-python.pdf){website}
 ---
 
 # Functional Particularities of Python
 
+
 ---
+
 ## Content
 
 In this insight we'll explore some of the paradigms of functional programming as applied to Python, specifically.
@@ -67,39 +55,43 @@ As you can clearly see, our code instantly becomes much more legible and compreh
 
 Finally, Python is also lucky to have an avid user base which is constantly providing new third-party libraries to extend Python's usability as a functional language. Although we can't cover them in detail in order to keep the insight short, some highlights include `pyrsistent`, `toolz`, `hypothesis` and `more_itertools`.[2]
 
+
 ---
+
 ## Practice
 
 What keyword makes a function a generator?
 
 ???
 
+- `yield`
+- `return`
+- `break`
+- `gen`
+- `__next__`
 
-* `yield`
-* `return`
-* `break`
-* `gen`
-* `__next__`
 
 ---
+
 ## Revision
 
 What are some of the key functional features of Python?
 
 ???
 
+- Generators & Comprehensions
+- Pure Functions & High-Level
+- Interpreted & Object-Oriented
+- Immutability & Extensibility
+- Generators & Dynamic Typing
 
-* Generators & Comprehensions
-* Pure Functions & High-Level
-* Interpreted & Object-Oriented
-* Immutability & Extensibility
-* Generators & Dynamic Typing
 
 ---
+
 ## Footnotes
+
 [1:Iterators]
 Iterators are objects which return one value at a time from a collection of values. For example, an iterator traversing a list will return one element of the list at a time until it reaches the end of the list and throws a `StopIteration` exception. For more information, see the related insights relating to Python iteration.
 
 [2:Third Party Libraries]
 `pyrsistent` is a collection of a number of useful persistent data structures, AKA immutable data structures. `toolz` provides a set of utility functions for iterators, functions and dictionaries. `hypothesis` is a library which allows simple and powerful property-based testing. `more-itertools` is exactly what it says; the library provides additional building blocks, recipes and routines above the standard `itertools`.
- 

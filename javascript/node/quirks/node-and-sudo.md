@@ -1,38 +1,22 @@
 ---
 author: catalin
-
-levels:
-  - advanced
-  - medium
-
 type: normal
-
 category: caveats
-
-
-standards:
-  javascript.node-standard-library-os.5: 20
-
 tags:
   - introduction
   - workout
   - obscura
   - deep
-
-
-notes: This insights is also based on security - should be on a security workout I guess.
-
-aspects:
-  - introduction
-  - workout
-  - obscura
-  - deep
-
-
+notes: >-
+  This insights is also based on security - should be on a security workout I
+  guess.
 ---
+
 # Node and `sudo`
 
+
 ---
+
 ## Content
 
 ```bash
@@ -53,27 +37,28 @@ sudo setcap cap_net_bind_service=+ep
 /path/to/node
 ```
 
+
 ---
+
 ## Practice
 
 Should you give your node process permissions to your whole system?
 
 ???
 
-* no
-* yes
-* only if you need port `80` for http
-* only if you need port `443` for http
+- no
+- yes
+- only if you need port `80` for http
+- only if you need port `443` for http
+
 
 ---
+
 ## Revision
 
 Is running **Node** with `sudo` considered a safe practice?
 
 ???
 
-* no
-* yes
- 
- 
- 
+- no
+- yes

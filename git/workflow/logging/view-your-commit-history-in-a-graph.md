@@ -1,34 +1,18 @@
 ---
 author: rosielowther
-
-levels:
-
-  - basic
-
-  - advanced
-
-  - medium
-
 type: normal
-
 category: feature
-
-aspects:
-
-  - workout
-  - deep
-
-
 links:
-
-  - '[Git Basics](http://git-scm.com/book/en/v2/Git-Basics-Viewing-the-Commit-History){documentation}'
-
-
+  - >-
+    [Git
+    Basics](http://git-scm.com/book/en/v2/Git-Basics-Viewing-the-Commit-History){documentation}
 ---
 
 # View your commit history in a graph
 
+
 ---
+
 ## Content
 
 If you want to see a visual representation of your branching and merging, you can use the `--graph` option of `git log`.
@@ -46,19 +30,18 @@ git log --pretty=format:"%h %s" --graph
 * ab56e1c Update README
 ```
 
+
 ---
+
 ## Revision
 
 To see a visual representation of the project’s branching, you would use:
+
 ```bash
 git ??? ???
 ```
 
-* `log`
-* `--graph`
-* `-graph`
-* `--log`
-
- 
- 
- 
+- `log`
+- `--graph`
+- `-graph`
+- `--log`

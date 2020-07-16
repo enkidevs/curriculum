@@ -1,19 +1,14 @@
 ---
 author: Stefan-Stojanovic
-
-aspects:
-  - introduction
-  - workout
-
 type: normal
-
 category: how to
-
 ---
 
 # Find and select functions faster
 
+
 ---
+
 ## Content
 
 When adding a function to a cell, you don't need to type the full name of the function to select it.
@@ -27,3 +22,4 @@ Example:
 ![find-and-select-functions](https://img.enkipro.com/f9ff3d081bd5673e91c715a0dd8db19e.gif)
 
 > 💡 Even though functions are all uppercase, when finding/selecting one, you don't need to use uppercase letters.
+ 

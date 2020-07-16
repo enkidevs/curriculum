@@ -1,22 +1,14 @@
 ---
 author: Stefan-Stojanovic
-
-levels:
-  - beginner
-
-aspects:
-  - introduction
-  - workout
-
 type: normal
-
 category: must-know
-
 ---
 
 # Create a document
 
+
 ---
+
 ## Content
 
 ### Add Single Document
@@ -75,21 +67,25 @@ Output:
 }
 ```
 
+
 ---
+
 ## Practice
 
 Method used to add a single document: ???
 
 Method used to add multiple documents: ???
 
-* `insertOne()`
-* `insertMany()`
-* `insertSingle()`
-* `insertMultiple()`
-* `insertDocument()`
-* `insertDocuments()`
+- `insertOne()`
+- `insertMany()`
+- `insertSingle()`
+- `insertMultiple()`
+- `insertDocument()`
+- `insertDocuments()`
+
 
 ---
+
 ## Revision
 
 Complete the following code to add 3 documents to the `pokemon` database.
@@ -114,26 +110,29 @@ db.pokemon.???([
 ])
 ```
 
-* `insertMany`
-* `_id`
-* `name`
-* `type`
-* `insertOne`
-* `1`
-* `id`
-* `_name`
-* `_type`
+- `insertMany`
+- `_id`
+- `name`
+- `type`
+- `insertOne`
+- `1`
+- `id`
+- `_name`
+- `_type`
+
 
 ---
+
 ## Quiz
 
 ### Do you know how to create a new document in MongoDB?
+
 
 Choose the correct code that creates a new document in the `pokemon` collection.
 
 ???
 
-* `db.pokemon.insertOne( {_id:13, name:"Psyduck", type:"water"} )`
-* `db.Pokemon.insertOne( {_id:13, name:"Psyduck", type:"water"} )`
-* `db.pokemon.insertDocument( {_id:13, name:"Psyduck", type:"water"} )`
-* `db.Pokemon.insertDocument( {_id:13, name:"Psyduck", type:"water"} )`
+- `db.pokemon.insertOne( {_id:13, name:"Psyduck", type:"water"} )`
+- `db.Pokemon.insertOne( {_id:13, name:"Psyduck", type:"water"} )`
+- `db.pokemon.insertDocument( {_id:13, name:"Psyduck", type:"water"} )`
+- `db.Pokemon.insertDocument( {_id:13, name:"Psyduck", type:"water"} )`

@@ -1,35 +1,19 @@
 ---
 author: catalin
-
-levels:
-
-  - beginner
-
-  - basic
-
-  - medium
-
-  - advanced
-
 type: normal
-
 category: how to
-
-
 links:
-
-  - '[Conditional rendering](https://facebook.github.io/react/docs/conditional-rendering.html){website}'
-
+  - >-
+    [Conditional
+    rendering](https://facebook.github.io/react/docs/conditional-rendering.html){website}
 parent: conditional-rendering-part-1
-
-aspects:
-  - introduction
-
 ---
 
 # Conditional Rendering (Part 2)
 
+
 ---
+
 ## Content
 
 Using **React** with **JSX** gives you more power and convenience when writing code by letting you *embed JS* expressions in **curly braces** (`{expression}`).
@@ -37,6 +21,7 @@ Using **React** with **JSX** gives you more power and convenience when writing c
 For example, another approach for **conditional rendering** is using *in-line* `if` with help from the **AND** (`&&`)/ **OR** (`||`) logical operator.
 
 Consider the following component:
+
 ```jsx
 function Welcome(props) {
   const isRaining = props.isRaining;
@@ -56,6 +41,7 @@ Regardless of the `isRaining` prop's value, the `<h2>Welcome</h2>` is shown. If 
 The reason this approach works is that in JS the `true && exp` expression will evaluate to `exp`, while `false && exp` will evaluate to `false`.
 
 Sometimes you might want to **prevent** a component from rendering. This is also simply achievable by `return`ing `null` instead of the normal output:
+
 ```jsx
 function Maybe(props) {
   if (props.not) {
@@ -67,10 +53,13 @@ function Maybe(props) {
 
 Keep in mind that when returning `null` during `render`, this won't affect the call on **lifecycle methods** such as `componentDidUpdate`.
 
+
 ---
+
 ## Practice
 
 Complete the following component such that it will render `"Hello, World"`:
+
 ```jsx
 function A(props) {
   const y = props.y;
@@ -90,21 +79,23 @@ ReactDOM.render(
 );
 ```
 
+- `!props.x`
+- `&&`
+- `</div>`
+- `props.x`
+- `x`
+- `!x`
+- `||`
+- `</h2>`
+- `<div>`
 
-* `!props.x`
-* `&&`
-* `</div>`
-* `props.x`
-* `x`
-* `!x`
-* `||`
-* `</h2>`
-* `<div>`
 
 ---
+
 ## Revision
 
 What will be rendered in the following scenario?
+
 ```jsx
 function Exercise(props) {
   const x = props.x;
@@ -127,10 +118,7 @@ ReactDOM.render(
 
 ???
 
-
-* Yes
-* No
-* Error raised
-* Null
-
-
+- Yes
+- No
+- Error raised
+- Null

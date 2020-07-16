@@ -1,28 +1,20 @@
 ---
 author: Stefan-Stojanovic
-
-levels:
-  - beginner
-  - basic
-  
-aspects:
-  - introduction
-  - new
-
 type: normal
-
 category: how to
-
 ---
 
 # `$last`
 
+
 ---
+
 ## Content
 
 The `$last` operator behaves the same as the `$first` operator except that it looks for the last document instead of the first.
 
 Example:
+
 ```javascript
 db.pokemon.aggregate([
   {
@@ -34,7 +26,9 @@ db.pokemon.aggregate([
   { $sort: { _id: 1 } }
 ]);
 ```
+
 Output:
+
 ```javascript
 { "_id": "Bug", "nameOfLast": "Caterpie" }
 { "_id": "Electric", "nameOfLast": "Magneton" }
@@ -50,7 +44,9 @@ Output:
 
 **Note** If our grouping has only one document, `$first` and `$last` would give out the same output.
 
+
 ---
+
 ## Practice
 
 Fill in the code to find the `name` of the last document for each `type` group of pokémon, sort them by their `type` and output them in a field called "nameOfLast".
@@ -67,24 +63,26 @@ db.pokemon.aggregate([
 ]);
 ```
 
-* `$group`
-* `$type`
-* `nameOfLast `
-* `$first`
-* `$Type`
-* `$Group`
+- `$group`
+- `$type`
+- `nameOfLast `
+- `$first`
+- `$Type`
+- `$Group`
+
 
 ---
+
 ## Revision
 
 Which of these is not a valid accumulator for the `$group` stage?
 
 ???
 
-* `$medium`
-* `$first`
-* `$last`
-* `$min` 
-* `$max`
-* `$push`
-* `$sum`
+- `$medium`
+- `$first`
+- `$last`
+- `$min` 
+- `$max`
+- `$push`
+- `$sum`

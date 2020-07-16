@@ -1,24 +1,20 @@
 ---
 author: emmab
-
 tags:
   - introduction
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-
-links: 
-  - '[Operator Precedence](https://docs.python.org/3/reference/expressions.html#operator-precedence){documentation}'
-
+links:
+  - >-
+    [Operator
+    Precedence](https://docs.python.org/3/reference/expressions.html#operator-precedence){documentation}
 ---
 
 # Complex Operators
 
+
 ---
+
 ## Content
 
 Python uses the exponent operator, `**`, to multiply a number *to the power* of another.
@@ -50,7 +46,9 @@ Python uses the modulus operator, `%`, to return the *remainder of a division*.
 
 14 divided by 3 equals 4 remainder 2. The modulus operator returns this remainder 2.
 
+
 ---
+
 ## Practice
 
 Complete the following code snippet to execute 3 to the power of 4:
@@ -58,13 +56,15 @@ Complete the following code snippet to execute 3 to the power of 4:
 ```bash
 3 ??? 4
 ```
- 
-* `**`
-* `*`
-* ` ***`
-* `^`
+
+- `**`
+- `*`
+- ` ***`
+- `^`
+
 
 ---
+
 ## Revision
 
 What does the following code snippet return:
@@ -75,8 +75,8 @@ What does the following code snippet return:
 
 ???
 
-* `3`
-* `2`
-* `7`
-* `2.5`
-* `4.66`
+- `3`
+- `2`
+- `7`
+- `2.5`
+- `4.66`

@@ -1,25 +1,18 @@
 ---
 author: mihaiberq
-
-levels:
-
-  - beginner
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-
 links:
-  - '[HTML <img> Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img){documentation}'
-  
+  - >-
+    [HTML <img>
+    Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img){documentation}
 ---
 
 # Images
 
+
 ---
+
 ## Content
 
 **Image** elements display pictures that are stored online. Image elements are unique because they are *self-enclosing elements*, which means that do not have a separate closing tag and are written as a single tag like this:
@@ -27,6 +20,7 @@ links:
 ```html
 <img src="logo.png" />
 ```
+
 The image tag will appear in a webpage like this:  
 
 ![image-logo-enki](https://img.enkipro.com/0d7d7f3eddad7f5d27b006d0408081ed.png)
@@ -38,11 +32,13 @@ An image element receives its content using the source attribute, written as `sr
 ```
 
 For images located inside other folders:
+
 ```html
 <img src="images/logo.png" />
 ```
 
 For images located on other websites:
+
 ```html
 <img
   src="http://website.com/logo.png"/>
@@ -64,16 +60,18 @@ Another important attribute is `alt`, which provides a text description in the b
        majestic." />
 ```
 
+
 ---
+
 ## Revision
 
 Complete the following snippet such that it contains valid code:
+
 ```html
 <img ???="images/puppy.jpg"/>
 ```
 
-* src
-* href
-* link
-* source
- 
+- src
+- href
+- link
+- source

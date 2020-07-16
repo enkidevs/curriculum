@@ -1,26 +1,18 @@
 ---
 author: Stefan-Stojanovic
-
-levels:
-  - beginner
-  
-aspects:
-  - workout
-  - deep
-
-
 type: normal
-
 category: how to
-
 ---
 
 # Delete documents with `remove()`
 
+
 ---
+
 ## Content
 
 The `remove()` method can be used to delete a single, multiple or all documents at once based on the specified criteria. The syntax is:
+
 ```javascript
 db.collection.remove(
   <query>,
@@ -29,11 +21,13 @@ db.collection.remove(
 ```
 
 To delete all documents from a collection, you would use:
+
 ```javascript
 db.pokemon.remove({})
 ```
 
 To delete documents based on criteria:
+
 ```javascript
 db.pokemon.remove({ 
 	power: { $eq: 40 } 
@@ -41,6 +35,7 @@ db.pokemon.remove({
 ```
 
 Output:
+
 ```javascript
 WriteResult({ "nRemoved": 11 })
 ```
@@ -56,21 +51,27 @@ When using `remove()` to delete a single document, it works the same way as the 
 **Note:** The `justOne` parameter is false by default.
 
 Example:
+
 ```javascript
 db.pokemon.remove( 
 	{ "type": "Fire" },
 	true 
 )
 ```
+
 Output:
+
 ```javascript
 WriteResult({ "nRemoved": 1 })
 ```
 
+
 ---
+
 ## Practice
 
 Delete all documents in the `pokemon` collection whose `type` equals `"Water"`.
+
 ```javascript
 db.pokemon.???( 
 	{ "???": "Water" } 
@@ -78,29 +79,31 @@ db.pokemon.???(
 ```
 
 Remove all documents within the `pokemon` collection.
+
 ```javascript
 ???.???.remove(???)
 ```
 
-* `remove`
-* `type`
-* `db`
-* `pokemon`
-* `{}`
-* `all`
-* `[]`
-* `deleteAll`
-* `delete`
+- `remove`
+- `type`
+- `db`
+- `pokemon`
+- `{}`
+- `all`
+- `[]`
+- `deleteAll`
+- `delete`
+
 
 ---
+
 ## Revision
 
 Which one is not a valid remove method in MongoDB?
 
 ???
 
-* `removeAll()`
-* `remove()`
-* `deleteOne()`
-* `deleteMany()`
-
+- `removeAll()`
+- `remove()`
+- `deleteOne()`
+- `deleteMany()`

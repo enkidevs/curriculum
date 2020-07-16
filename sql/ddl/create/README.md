@@ -1,7 +1,5 @@
 name: Create
-
 description: Create Databases and add entities to your databases
-
 insights:
   - create-a-database
   - create-a-table
@@ -9,7 +7,6 @@ insights:
   - foreign-key
   - check-constraint
   - default-value
-
 exercises:
   - sql-practice-create-table
   - sql-practice-create-table-2
@@ -19,5 +16,7 @@ exercises:
   - sql-practice-define-relationships-2
   - sql-practice-define-relationships-3
   - sql-practice-define-relationships-4
- 
+aspects:
+  - introduction
+  - workout
  

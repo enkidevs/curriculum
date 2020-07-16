@@ -1,25 +1,18 @@
 ---
 author: Stefan-Stojanovic
-
-levels:
-  - beginner
-  - basic
-
 type: normal
-
 category: must-know
-
-aspects:
-  - workout
-  - deep
-  - obscura
-
 links:
-  - '[HTML formaction Attribute](https://www.w3schools.com/tags/att_formaction.asp){documentation}'
+  - >-
+    [HTML formaction
+    Attribute](https://www.w3schools.com/tags/att_formaction.asp){documentation}
+---
+
+# The `formaction` Attribute
+
 
 ---
-# The `formaction` Attribute
----
+
 ## Content
 
 The HTML form input attribute `formaction` is used to specify the form-data when a form is submitted by the input element. This submit has to be either a button or an image.
@@ -27,6 +20,7 @@ The HTML form input attribute `formaction` is used to specify the form-data when
 If the `formaction` attribute is specified, it will override the forms `action` attribute.
 
 Example:
+
 ```html
 <form action="page1.php"
     method="get">
@@ -46,7 +40,9 @@ Example:
 
 [View CodePen](https://codepen.io/enkidevs/pen/MXZzzo)
 
+
 ---
+
 ## Practice
 
 Complete the code so that the second button links properly to the action_page2.php file.
@@ -66,36 +62,44 @@ Complete the code so that the second button links properly to the action_page2.p
 </form>
 ```
 
+- formaction
+- form
+- action
+- submit
+- form-data
+- formpath
 
-* formaction
-* form
-* action
-* submit
-* form-data
-* formpath
 
 ---
+
 ## Revision
 
 Which input form attribute is used with the submit button when multiple buttons are used to help determine the location for the sent data?
 
 ???
 
-* formaction
-* form
-* action
-* submit
-* form-data
-* formpath
+- formaction
+- form
+- action
+- submit
+- form-data
+- formpath
+
 
 ---
+
 ## Quiz
 
-### How much do you know about the `formaction` html input form attribute?
+### How much do you know about the
+
+
+`formaction`
+
+ html input form attribute?
 
 Which statement regarding the formaction attribute is true?
 
-* The `formaction` attribute overriders the forms `action` attribute.
-* The `formaction` attribute doesn't work when the `action` attribute is present
-* The `formaction` doesn't work with images.
-* The `formaction` doesn't work with buttons.
+- The `formaction` attribute overriders the forms `action` attribute.
+- The `formaction` attribute doesn't work when the `action` attribute is present
+- The `formaction` doesn't work with images.
+- The `formaction` doesn't work with buttons.

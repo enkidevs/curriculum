@@ -1,29 +1,18 @@
 ---
 author: mihaiberq
-
-levels:
-
-  - beginner
-
 type: normal
-
 category: must-know
-
-aspects:
-
-  - introduction
-
 inAlgoPool: false
-
 links:
-
-  - '[Encapsulation](https://www.tutorialspoint.com/java/java_encapsulation.htm){website}'
-
+  - >-
+    [Encapsulation](https://www.tutorialspoint.com/java/java_encapsulation.htm){website}
 ---
 
 # Encapsulation
 
+
 ---
+
 ## Content
 
 The third *Object-Oriented Programming* principle is **encapsulation**. It refers to the process of wrapping the data and the methods using that data together. Encapsulation means keeping the *variables* in a class private, and having methods in that particular class for accessing them. 
@@ -33,6 +22,7 @@ In other words, the enclosed object is given the rights to choose for itself wha
 The generic name for methods returning the value of private fields is **getters**, while for the one changing their value is **setters**.
 
 We can make changes to the `Car` class to achieve encapsulation:
+
 ```java
 public class Car{
   private String model;
@@ -56,7 +46,9 @@ public class Car{
     noDoors = newNoDoors;
   }
 ```
+
 The variables can then be accessed like so:
+
 ```java
 public class Test{
   public static void main(String[] args){
@@ -68,11 +60,15 @@ public class Test{
   }
 }
 ```
+
 And the output:
-```
+
+```plain-text
 EncapCar 3
 ```
+
 This way of working with data has its benefits as you can decide whether or not a new value fits the model:
+
 ```java
 public void setNoDoors(int newNoDoors){
  if(newNoDoors > 7){
@@ -84,24 +80,26 @@ public void setNoDoors(int newNoDoors){
 }
 ```
 
+
 ---
+
 ## Practice
 
 To achieve encapsulation, fields in a class should be declared ???.
 
+- private
+- public
+- static
+- final
 
-* private
-* public
-* static
-* final
 
 ---
+
 ## Revision
 
 Methods that return or change the value of a class' variables are called ???.
 
-
-* getters and setters
-* returners and changers
-* getters and changers
-* returners and setters
+- getters and setters
+- returners and changers
+- getters and changers
+- returners and setters

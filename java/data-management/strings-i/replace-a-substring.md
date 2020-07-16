@@ -1,35 +1,19 @@
 ---
 author: adamMontgomerie
-
-levels:
-
-  - basic
-
-  - advanced
-
-  - medium
-
 type: normal
-
 category: tip
-
-aspects:
-
-  - introduction
-
 tags:
-
   - strings
-
 links:
-
-  - '[www.javapractices.com](http://www.javapractices.com/topic/TopicAction.do?Id=80){website}'
-
+  - >-
+    [www.javapractices.com](http://www.javapractices.com/topic/TopicAction.do?Id=80){website}
 ---
 
 # Replace a substring
 
+
 ---
+
 ## Content
 
 `String.replace` can be used to replace a substring with another substring.

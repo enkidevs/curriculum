@@ -1,23 +1,20 @@
 ---
 author: kapnobatai136
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-
 ---
 
 # Why Git?
 
+
 ---
+
 ## Content
 
 Before **Git**, the main type of version control was centralized. 
 
 To make any changes to a project, you had to:
+
 1. Get all previous changes from the central server
 2. Edit the files and make sure they work.
 3. Send all the changes to the central server.
@@ -30,12 +27,15 @@ Git lets you copy (or **clone**) `v2.1`, fix the bug and release `v2.1.1`. All o
 
 ![version-example](https://img.enkipro.com/b0d41daf85cdbbdc89f64f6c0bcc86b1.png)
 
+
 ---
+
 ## Practice
 
 Git is a ??? Version ??? System.
 
-* Distributed
-* Control
-* Dynamic
-* Cloning
+- Distributed
+- Control
+- Dynamic
+- Cloning
+ 

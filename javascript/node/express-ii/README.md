@@ -1,6 +1,6 @@
-name: express-ii
+name: Express II
 
-description: Learn how to handle sessions, gzip compressions, logging and virtual hosting in Express.
+description: Learn how to handle sessions, gzip compressions, logging, and virtual hosting in Express.
 
 insights:
   - session-handling-in-express
@@ -8,4 +8,8 @@ insights:
   - gzip-compression-for-express
   - log-with-morgan-in-express
   - vhost-in-express
- 
+
+aspects:
+  - workout
+  - deep
+

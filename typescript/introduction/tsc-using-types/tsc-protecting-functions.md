@@ -2,17 +2,17 @@
 author: nem035
 type: normal
 category: must-know
-aspects:
-  - introduction
-  - workout
 links:
-  - '[Play with functions and parameters](https://repl.it/@enkicontent/TypeScriptFunctionParameters){website}'
-
+  - >-
+    [Play with functions and
+    parameters](https://repl.it/@enkicontent/TypeScriptFunctionParameters){website}
 ---
 
 # Protecting Functions
 
+
 ---
+
 ## Content
 
 By default, all parameters in a function are considered required.
@@ -77,7 +77,9 @@ hello("Enki");
 
 > 💡 When setting a default value we don't need to use the `?` because the parameter automatically becomes optional.
 
+
 ---
+
 ## Practice
 
 What will be logged for `A` and `B`?
@@ -102,14 +104,16 @@ enki2();
 A = ???
 B = ???
 
-* undefined
-* TS is fun: true
-* null
-* TS is fun: undefined
-* TS is fun: false
-* error
+- undefined
+- TS is fun: true
+- null
+- TS is fun: undefined
+- TS is fun: false
+- error
+
 
 ---
+
 ## Revision
 
 Will this code compile with type errors?
@@ -124,10 +128,12 @@ enki()
 
 ???
 
-* Yes
-* No
+- Yes
+- No
+
 
 ---
+
 ## Footnotes
 
 [1: Undefined Value]

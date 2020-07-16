@@ -1,18 +1,14 @@
 ---
 author: kapnobatai136
-
 category: must-know
-
-aspects:
-  - introduction
-
 type: normal
-
 ---
 
 # Flexbox
 
+
 ---
+
 ## Content
 
 Another important display settings is the flexbox layout.
@@ -23,10 +19,13 @@ Elements that use the flexbox layout will arrange their direct children horizont
 
 This option also allows you to decide when the children will be in the same row, stacked, or any other display options. Hence the flex name.
 
+
 ---
+
 ## Practice
 
 Using the flexbox display option will ???.
 
-* allow you to change how the children are displayed
-* provide you with a predefined way of displaying the children elements
+- allow you to change how the children are displayed
+- provide you with a predefined way of displaying the children elements
+ 

@@ -1,7 +1,7 @@
 name: Intro
-
-description: Learn what a NoSQL database is and why you would choose MongoDB as your database.
-
+description: >-
+  Learn what a NoSQL database is and why you would choose MongoDB as your
+  database.
 insights:
   - what-is-nosql
   - key-value-databases
@@ -9,4 +9,8 @@ insights:
   - graph-databases
   - document-databases
   - why-mongodb
-
+aspects:
+  - obscura
+  - introduction
+  - workout
+ 

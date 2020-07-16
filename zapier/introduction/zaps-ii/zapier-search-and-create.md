@@ -1,18 +1,14 @@
 ---
 author: kapnobatai136
-
 category: must-know
-
-aspects:
-  - introduction
-
 type: normal
-
 ---
 
 # Search and Create
 
+
 ---
+
 ## Content
 
 Depending on the app that you are using, Zapier allows you to create data after doing a search action[1].
@@ -27,30 +23,36 @@ Go ahead and add another Google Sheets step to our zap, right at the end of the 
 
 Every time this step will be activated, a new column named `# of days` will be added after the rightmost column. Other than the column name, no other values are inserted[2].
 
+
 ---
+
 ## Practice
 
 Which of the following **is not an action** belonging to Google Sheets integration? If you need a refresher you can always visit the [app's page](https://zapier.com/apps/google-sheets/integrations) on Zapier.
 
 ???
 
-* Only continue if...
-* Create Spreadsheet Column
-* Create Spreadsheet Row
-* Update Spreadsheet Row
+- Only continue if...
+- Create Spreadsheet Column
+- Create Spreadsheet Row
+- Update Spreadsheet Row
+
 
 ---
+
 ## Revision
 
 Which of the following **is an action** belonging to Twitter. If you need a refresher, you can go to the [app's page](https://zapier.com/apps/twitter).
 
 ???
 
-* Replace File.
-* Create spreadsheet.
-* Create workbook.
+- Replace File.
+- Create spreadsheet.
+- Create workbook.
+
 
 ---
+
 ## Footnotes
 
 [1:Search Action]
@@ -58,3 +60,4 @@ One common action in Zapier is the search and create. When setting up your step,
 
 [2:Create a New Column]
 This step was set up such that every time it is activated a new column is added. This means that you might end up with 10 (or even more) new columns with the same name. Some improvements for this zap will be presented in a subsequent mission.
+ 

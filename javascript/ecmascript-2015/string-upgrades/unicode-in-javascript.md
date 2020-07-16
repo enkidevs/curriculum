@@ -1,38 +1,19 @@
 ---
 author: rosielowther
-
-levels:
-
-  - basic
-
-  - advanced
-
-  - medium
-
 type: normal
-
 category: feature
-
-aspects:
-  - introduction
-  - new
-  - workout
-  - deep
-
-standards:
-  javascript.es6-extensions-standard-library.2: 10
-
 links:
-
-  - '[ponyfoo.com](https://ponyfoo.com/articles/es6-strings-and-unicode-in-depth){website}'
-  - '[www.2ality.com](http://www.2ality.com/2013/09/javascript-unicode.html){website}'
-
-
+  - >-
+    [ponyfoo.com](https://ponyfoo.com/articles/es6-strings-and-unicode-in-depth){website}
+  - >-
+    [www.2ality.com](http://www.2ality.com/2013/09/javascript-unicode.html){website}
 ---
 
 # Unicode in JavaScript
 
+
 ---
+
 ## Content
 
 JavaScript strings are represented using UTF-16 code units. A code unit is a 16-bit value that represents a character from the UTF-16 encoding. On top of that, each Unicode character has an ID (an integer which starts at 0) which is that character's codepoint.
@@ -51,6 +32,7 @@ Having multiple code units per code point means that `.length` is not reliable:
 ```js
 "🌲🌲🌲".length; // length is 6
 ```
+
 However, the string iterator can be used to loop over code **points** rather than code **units**:
 
 ```js
@@ -75,7 +57,9 @@ for (let codePoint of "🌲✈❤") {
 */
 ```
 
+
 ---
+
 ## Practice
 
 What method is used to get the base-10 numeric representation of a code point at a given position in a string?
@@ -86,20 +70,21 @@ for (let codePoint of '🌲🌲') {
 }
 ```
 
-* `codePointAt`
-* `codePoint`
-* `codePointRep`
-* `base10point`
+- `codePointAt`
+- `codePoint`
+- `codePointRep`
+- `base10point`
+
 
 ---
+
 ## Revision
 
 How are Javascript strings represented?
 
 ???
 
-
-* UTF-16
-* UTF-8
-* UTF-32
-* US-ASCII
+- UTF-16
+- UTF-8
+- UTF-32
+- US-ASCII

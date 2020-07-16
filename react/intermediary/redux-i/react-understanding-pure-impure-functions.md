@@ -1,24 +1,18 @@
 ---
 author: catalin
-
-levels:
-  - beginner
-
 type: normal
-
 category: must-know
-
 links:
-  - '[Pure functions in JavaScript](http://www.nicoespeon.com/en/2015/01/pure-functions-javascript/){website}'
-
-aspects:
-  - introduction
-  - workout
-
+  - >-
+    [Pure functions in
+    JavaScript](http://www.nicoespeon.com/en/2015/01/pure-functions-javascript/){website}
 ---
+
 # Understanding **pure/impure** functions
 
+
 ---
+
 ## Content
 
 As **Redux** is based on the general concept of the *single immutable state tree*, **pure** functions should be used as often as possible as not to alter any state, but to always generate new states (especially for the frontend).
@@ -41,6 +35,7 @@ function doublePure(x) {
 On the contrary, **impure** functions don't have a predictable behavior as they might call the network, the database, modify the **DOM** or even alter the value/s passed to them.
 
 Example:
+
 ```javascript
 function doubleImpure(x) {
   // change the object x.
@@ -71,7 +66,9 @@ function increaseImpure(x) {
 
 The **pure** function provides a predictable and consistent output for the same input, while the **impure** function does not.
 
+
 ---
+
 ## Practice
 
 Consider these functions:
@@ -90,18 +87,19 @@ Would you say function `a` is pure or impure? What about function `b`?
 
 ???
 
-* pure, impure
-* impure, pure
-* impure, impure
-* pure, pure
+- pure, impure
+- impure, pure
+- impure, impure
+- pure, pure
+
 
 ---
+
 ## Revision
 
 What type of functions should be used in **Redux** as to preserve the **single immutable state tree**?
 
 ???
 
-* pure
-* impure
-
+- pure
+- impure

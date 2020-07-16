@@ -1,31 +1,18 @@
 ---
 author: SebaRaba
-
-levels:
-
-  - beginner
-
-  - basic
-
 type: normal
-
 category: must-know
-aspects:
-  - introduction
-  - workout 
-standards:
-  python.identify-python-syntax.1: 10
-
 links:
-
-  - '[More about debugging](https://pythonconquerstheuniverse.wordpress.com/2009/09/10/debugging-in-python/){website}'
-
-
+  - >-
+    [More about
+    debugging](https://pythonconquerstheuniverse.wordpress.com/2009/09/10/debugging-in-python/){website}
 ---
 
 # Debugging
 
+
 ---
+
 ## Content
 
 No matter how experienced programmers are, there will always be mistakes in their **code**.
@@ -35,7 +22,8 @@ Debugging means understanding what is going *wrong* with the code. There are man
 Usually, developers start by printing everything for a better understanding: **watching** how **variables**' values change over time.
 
 Consider the following example:
-```
+
+```plain-text
 1 def foo():
 2   return 6
 3 x = foo()
@@ -46,7 +34,8 @@ Consider the following example:
 ```
 
 Let's suppose we wanted `"Welcome!"` to be printed. In this simple case, we have only an `if` statement to check. A **useful trick** for debugging is printing the value of `x` and following the execution of the code:
-```
+
+```plain-text
 1  def foo():
 2    return 6
 3  x = foo()
@@ -63,11 +52,14 @@ Let's suppose we wanted `"Welcome!"` to be printed. In this simple case, we have
 
 Now we know that `x` was initialized with value `6` because of `foo()`. The bug here is that the while condition will always evaluate `True` and the program is stuck in an infinite loop: we can assume that because the second `print` statement is never called.
 
+
 ---
+
 ## Practice
 
 What value will be printed by `print("Line 6:", x)`?
-```
+
+```plain-text
 def counter(x):
   print("Line 2:", x)
   while x > 0:
@@ -77,23 +69,25 @@ def counter(x):
 
 counter(3)
 ```
+
 ???
 
+- 0
+- 3
+- 1
+- 6
+- Nothing, the program is stuck in an infinite loop
 
-* 0
-* 3
-* 1
-* 6
-* Nothing, the program is stuck in an infinite loop
 
 ---
+
 ## Revision
 
 Which of the following is an ad-hoc debugging method?
 
 ???
 
-
-* print()
-* debugging modules
-* Python doesn't support debugging
+- print()
+- debugging modules
+- Python doesn't support debugging
+ 

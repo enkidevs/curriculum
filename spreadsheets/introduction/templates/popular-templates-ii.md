@@ -1,18 +1,14 @@
 ---
 author: Stefan-Stojanovic
-
-aspects:
-  - introduction
-
 type: normal
-
 category: tip
-
 ---
 
 # Popular Templates Continued
 
+
 ---
+
 ## Content
 
 Some other popular templates include the `Gantt Chart` and the `Weekly Time Sheet`.
@@ -32,3 +28,4 @@ A weekly time sheet is a template used for time tracking solutions.
 You can use it to track how many hours were spent working and otherwise. You can use it to calculate how much money was earned based on hours of work. You can track how many hours of work were put in for each project and more.
 
 ![weekly-time-sheet](https://img.enkipro.com/fafdbec1aa54710ad784604b2a1c7aab.png)
+ 

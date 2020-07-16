@@ -1,28 +1,21 @@
 ---
 author: stefkn
-
-levels:
-  - beginner
-  - basic
-  - medium
-
-aspects:
-  - workout
-
 type: normal
-
 category: must-know
-
 links:
-  - '[A gentle introduction to itertools](http://jmduke.com/posts/a-gentle-introduction-to-itertools/){website}'
-  - '[A Demo of APL from 1975](https://www.youtube.com/watch?v=_DTpQ4Kk2wA){website}'
-
-
+  - >-
+    [A gentle introduction to
+    itertools](http://jmduke.com/posts/a-gentle-introduction-to-itertools/){website}
+  - >-
+    [A Demo of APL from
+    1975](https://www.youtube.com/watch?v=_DTpQ4Kk2wA){website}
 ---
 
 # chain(), filterfalse() and compress()
 
+
 ---
+
 ## Content
 
 The `itertools` module provides a host of useful methods for working with iterable objects. Out of these methods, one can distinguish the iterators which terminate on the shortest input sequence, such as `chain()`, `filterfalse()` and `compress()`
@@ -68,7 +61,9 @@ print(
 # Result: [1, 3, 5, 7]
 ```
 
+
 ---
+
 ## Practice
 
 Let's say we have three lists. The first is a list of prices for items on an online shop. The second is a list of proposed discounts, to be subtracted from those prices. Finally, the third list is a list of booleans which indicate which products (assume one product per index) are included in the sale.
@@ -105,15 +100,16 @@ print(
   list(salePrices))
 ```
 
+- `compress`
+- `filterfalse`
+- `cycle`
+- `chain`
+- `izip`
+- `islice`
 
-* `compress`
-* `filterfalse`
-* `cycle`
-* `chain`
-* `izip`
-* `islice`
 
 ---
+
 ## Revision
 
 What is the result of the following code execution?
@@ -135,8 +131,7 @@ print(
 
 ???
 
-
-* `['Tom', 'Lars', 'Lee', 'Tom', 'Lars', 'Lee']`
-* `['Tom', 'Sadiq', 'Lars', 'Lee', 'Jean', 'Tom']`
-* `['Sadiq', 'Jean', 'Sadiq', 'Jean', 'Sadiq', 'Jean']`
-* `<itertools.islice object at 0x????????>`
+- `['Tom', 'Lars', 'Lee', 'Tom', 'Lars', 'Lee']`
+- `['Tom', 'Sadiq', 'Lars', 'Lee', 'Jean', 'Tom']`
+- `['Sadiq', 'Jean', 'Sadiq', 'Jean', 'Sadiq', 'Jean']`
+- `<itertools.islice object at 0x????????>`

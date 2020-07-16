@@ -1,39 +1,24 @@
 ---
 author: catalin
-
-levels:
-
-  - basic
-
-  - medium
-
 type: normal
-
 category: how to
-aspects:
-  - introduction
-  - workout
-  - deep
-standards:
-  python.use-iteration-protocol.1: 10
-  python.native-types-operations.4: 10
-
 links:
-
-  - '[docs.python.org](https://docs.python.org/3.5/tutorial/datastructures.html#nested-list-comprehensions){website}'
-
+  - >-
+    [docs.python.org](https://docs.python.org/3.5/tutorial/datastructures.html#nested-list-comprehensions){website}
 parent: list-comprehension
-
 ---
 
 # Nested lists comprehension
 
+
 ---
+
 ## Content
 
 Since a list comprehension can take any **expression** as its initial expression, it's possible to include another list comprehension at that position, resulting in  a **nested** list comprehension.  
 
 These are often useful, but are often used to work with matrices.
+
 ```python
 matrix = [[1, 2, 3], [4, 5, 6], \
 [7, 8, 9]]
@@ -41,6 +26,7 @@ matrix = [[1, 2, 3], [4, 5, 6], \
 ```
 
 Say we want to create another matrix with values equal to the squares of each element in the original matrix:
+
 ```python
 matrix2 = [[x**2 for x in row] for \
 row in matrix]
@@ -49,6 +35,7 @@ row in matrix]
 ```
 
 A more advanced list comprehension with two for clauses and two if clauses:
+
 ```python
 lc = [ (x, y) for x in \
 range(10) if x % 2 == 0 \
@@ -67,7 +54,9 @@ y % 3 == 0 ]
 
 ```
 
+
 ---
+
 ## Practice
 
 Use nested list comprehension to generate a list of tuples, where the first element must always be odd.
@@ -79,13 +68,15 @@ l = [??? for x in range(10)\
     if ??? for y in ???]
 ```
 
-* (x,y)
-* x % 2
-* range(10)
-* x % 2 == 0
-* range(11)
+- (x,y)
+- x % 2
+- range(10)
+- x % 2 == 0
+- range(11)
+
 
 ---
+
 ## Revision
 
 What will the output of the following snippet be?
@@ -96,9 +87,10 @@ l = [(x, y) for x in range(10) if x % 2 /
     for y in range(10) if y % 2 == 0]
 print(l[2])
 ```
+
 ???
 
-* (1,4)
-* (1,2)
-* (1,3)
-* (1,6)
+- (1,4)
+- (1,2)
+- (1,3)
+- (1,6)

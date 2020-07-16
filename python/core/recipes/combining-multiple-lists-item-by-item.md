@@ -1,33 +1,19 @@
 ---
 author: Aaron7Sun
-
-levels:
-
-  - basic
-
-  - advanced
-
-  - medium
-
 type: normal
-
-standards:
-  python.native-types-operations.4: 10
-aspects:
-  - introduction
-  - workout
 category: tip
-
 ---
 
 # Combining multiple lists, item by item
 
+
 ---
+
 ## Content
 
 The built-in `zip` function can be used to zip lists together.
 
-`zip` returns a list of tuples, where the _nth_ tuple contains the _nth_ item from each of the lists passed into the function.
+`zip` returns a list of tuples, where the *nth* tuple contains the *nth* item from each of the lists passed into the function.
 
 ```python
 letters = ['a', 'b', 'c']
@@ -37,12 +23,16 @@ zipped_list = zip(letters, numbers, squares)
 # zipped_list contains
 # [('a', 1, 1), ('b', 2, 4), ('c', 3, 9)]
 ```
+
 It is possible to also use this as the iterator of a `for` loop, pulling out all three values at once.
+
 ```python
 for letter, number, squares in zipped_list
 ```
 
+
 ---
+
 ## Practice
 
 Combine the following two lists into a list of tuples:
@@ -55,15 +45,15 @@ temp = ???(???)
 
 ```
 
-* zip
-* a,b
-* a
-* b
-* concatenate
-
+- zip
+- a,b
+- a
+- b
+- concatenate
 
 
 ---
+
 ## Revision
 
 How would we get the `tuple` array from putting the `letters` and `values` arrays together?
@@ -76,7 +66,6 @@ tuple = ???(letters, values)
 tuple = [('a', 1), ('b', 2), ('c', 3)]
 ```
 
-
-* `zip`
-* `button`
-* `combine`
+- `zip`
+- `button`
+- `combine`

@@ -1,45 +1,24 @@
 ---
 author: fahimrahman
-
-levels:
-
-  - basic
-
-  - advanced
-
-  - medium
-
 type: normal
-
 category: best practice
-
-aspects: 
-
-  - introduction
-
 tags:
-
   - don't-repeat-yourself
-
   - review
-
   - java
-
   - consistency
-
   - repetition
-
 links:
-
-  - '[www.thejavageek.com](http://www.thejavageek.com/2015/04/10/dont-repeat-yourself-principle/){website}'
-
+  - >-
+    [www.thejavageek.com](http://www.thejavageek.com/2015/04/10/dont-repeat-yourself-principle/){website}
 notes: 'static workout '
-
 ---
 
 # Don't repeat yourself (DRY) principle
 
+
 ---
+
 ## Content
 
 Code written should be made easy to maintain by following the *don’t repeat yourself* principle. 
@@ -47,6 +26,7 @@ Code written should be made easy to maintain by following the *don’t repeat yo
 The principle suggests avoiding duplications or copying and pasting blocks of code from one place to another, by moving similar or repetitive code into reusable units like methods or sometimes an entire class. 
 
 For example:
+
 ```java
 public class University {
   public void addStudent() {
@@ -59,7 +39,9 @@ public class University {
 	}
 }
 ```
+
 A better implementation would be:
+
 ```java
 public class University {
   public void addStudent() {

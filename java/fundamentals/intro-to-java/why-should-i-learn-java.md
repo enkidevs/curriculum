@@ -1,22 +1,21 @@
 ---
 author: mihaiberq
-
 type: normal
-
 category: feature
-
-aspects: 
-  - introduction
-
 links:
-  - '[Who is using Java?](https://www.quora.com/Why-is-Java-so-important){website}'
-  - '[Java Roadmap](https://www.oracle.com/java/technologies/java-se-support-roadmap.html){website}'
-
+  - >-
+    [Who is using
+    Java?](https://www.quora.com/Why-is-Java-so-important){website}
+  - >-
+    [Java
+    Roadmap](https://www.oracle.com/java/technologies/java-se-support-roadmap.html){website}
 ---
 
 # Why Learn Java?
 
+
 ---
+
 ## Content
 
 Here are several reasons to learn Java:
@@ -33,19 +32,24 @@ Here are several reasons to learn Java:
 
 There are many more reasons you should learn Java. The only downside is, as with all other skills, that *it might take some time*.
 
+
 ---
+
 ## Practice
 
 Java has ??? types.
 
-* static
-* dynamic
+- static
+- dynamic
+
 
 ---
+
 ## Revision
 
 Once you create your Java program, you can run it on any machine. The principle is called ???.
 
-* write once, run anywhere
-* compile once, run anywhere
-* build once, run anywhere
+- write once, run anywhere
+- compile once, run anywhere
+- build once, run anywhere
+ 

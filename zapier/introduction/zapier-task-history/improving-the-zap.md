@@ -1,20 +1,14 @@
 ---
 author: kapnobatai136
-
 category: tip
-
-aspects:
-  - introduction
-  - workout
-  - deep
-
 type: normal
-
 ---
 
 # Zap Improvements
 
+
 ---
+
 ## Content
 
 Having identified our problems, it is now time to fix them. Let's begin by moving some of the steps around. Unfortunately, at the time of writing, there is no easy way of doing this. You have to delete and create the step to move it.
@@ -30,3 +24,4 @@ Another problem was that the zap was checking twice that the `Has Access?` colum
 The improved zap should look something like this:
 
 ![final-improved-zap](https://img.enkipro.com/a7ed827bbf46958adfb8b36344ce39db.png)
+ 

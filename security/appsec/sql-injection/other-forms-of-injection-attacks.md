@@ -1,72 +1,65 @@
 ---
 author: lizTheDeveloper
-
-levels:
-
-  - beginner
-
-  - basic
-
-aspects:
-
-  - introduction
-
-  - workout
-
 type: normal
-
 category: pattern
-
-
-standards:
-  security.sql-injection.3: 10
-
 links:
-  - '[Testing for Command Injection (OTG-INPVAL-013)
-  ](https://www.owasp.org/index.php/Testing_for_Command_Injection_(OTG-INPVAL-013))'
-
+  - >-
+    [Testing for Command Injection (OTG-INPVAL-013)
+    ](https://www.owasp.org/index.php/Testing_for_Command_Injection_(OTG-INPVAL-013)){website}
 ---
 
 # Other forms of Injection attacks
 
+
 ---
+
 ## Content
 
 Injection is not a new technique- attackers have been injecting input with malicious data for a long time.
 Consider this URL example:
-```
+
+```plain-text
 http://sensitive/cgi-bin/
   userData.pl?doc=user1.txt
 ```
 
 Now what would happen, if a malicious user were to change it to this:
-```
+
+```plain-text
 http://sensitive/cgi-bin/
   userData.pl?doc=/bin/ls|
 ```
+
 This will execute the command `/bin/ls`.
 
+
 ---
+
 ## Practice
 
 Modify the URL to execute `/bin/ls|`
-```
+
+```plain-text
 http://sensitive/cgi-bin/
 userData.pl?doc=???
 ```
 
-* /bin/ls|
-* ;ls|
-* ;$bash% ls .
+- /bin/ls|
+- ;ls|
+- ;$bash% ls .
+
 
 ---
+
 ## Revision
 
 Modify the URL to execute `;cat /etc/passwd`
-```
+
+```plain-text
 http://sensitive/something.php?dir=???
 ```
 
-* %3Bcat%20/etc/passwd
-* ;cat /etc/passwd
-* ;$bash% cat /etc/passwd
+- %3Bcat%20/etc/passwd
+- ;cat /etc/passwd
+- ;$bash% cat /etc/passwd
+ 

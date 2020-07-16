@@ -1,25 +1,21 @@
 ---
 author: nene
-
-aspects:
-  - introduction
-
 type: normal
-
 category: must-know
-
 ---
 
 # More about `chmod`
 
+
 ---
+
 ## Content
 
 Besides having characters to denote who gets what permissions, `chmod` allows us to use digits as well.
 
 Different digits in `chmod` mean a different set of permissions. The digits we can use and their meaning are shown below:
 
-```
+```plain-text
 0: (000) no permission.
 1: (001) execute permission.
 2: (010) write permission.
@@ -52,20 +48,21 @@ chmod 666 filename
 chmod a+rw filename
 ```
 
+
 ---
+
 ## Practice
 
 Add *read/execute* permissions for *user* and *other* for enki.txt: 
-```
+
+```plain-text
 ??? ??? ?????? enki.txt
 ```
 
-* `chmod`
-* `uo`
-* `+`
-* `rx`
-* `ug`
-* `a`
-* `-`
- 
- 
+- `chmod`
+- `uo`
+- `+`
+- `rx`
+- `ug`
+- `a`
+- `-`
