@@ -2,8 +2,8 @@ name: Coding Intro
 
 description: Everything you need to know before you start coding.
 
-color: 5F4B8B
+color: a28cd1
 
-icon: https://img.enkipro.com/c425f0ed3f805cb615a195059f2f249c.png
+icon: https://img.enkipro.com/6afc0572ae9a4a3afdcbfe7c647ece0a.png
 
 language: General
