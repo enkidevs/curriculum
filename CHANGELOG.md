@@ -41,6 +41,21 @@ Types of change:
 ## July 16th 2020
 
 ### Fixed
+- [Blockchain - Cyptoeconomics - Remove mentions of bookmark feature, general formatting & updating resource links](https://github.com/enkidevs/curriculum/pull/2261)
+- [Comp Sci - A request example - Remove mentions of bookmark feature, general formatting & updating resource links](https://github.com/enkidevs/curriculum/pull/2261)
+- [Comp Sci - DNS lookup - Remove mentions of bookmark feature, general formatting & updating resource links](https://github.com/enkidevs/curriculum/pull/2261)
+- [Python - Get the most of ints - Remove mentions of bookmark feature, general formatting & updating resource links](https://github.com/enkidevs/curriculum/pull/2261)
+- [Security - Scan dependencies - Remove mentions of bookmark feature, general formatting & updating resource links](https://github.com/enkidevs/curriculum/pull/2261)
+- [Security - Identify deserialization - Remove mentions of bookmark feature, general formatting & updating resource links](https://github.com/enkidevs/curriculum/pull/2261)
+- [Security - Tokens - Remove mentions of bookmark feature, general formatting & updating resource links](https://github.com/enkidevs/curriculum/pull/2261)
+- [Security - Check defaults - Remove mentions of bookmark feature, general formatting & updating resource links](https://github.com/enkidevs/curriculum/pull/2261)
+- [Security - Cloud security configuration - Remove mentions of bookmark feature, general formatting & updating resource links](https://github.com/enkidevs/curriculum/pull/2261)
+- [Security - Use automated scanners - Remove mentions of bookmark feature, general formatting & updating resource links](https://github.com/enkidevs/curriculum/pull/2261)
+- [Security - Detect XSS - Remove mentions of bookmark feature, general formatting & updating resource links](https://github.com/enkidevs/curriculum/pull/2261)
+- [Security - Mitigate XSS - Remove mentions of bookmark feature, general formatting & updating resource links](https://github.com/enkidevs/curriculum/pull/2261)
+- [Security - Detect XXE - Remove mentions of bookmark feature, general formatting & updating resource links](https://github.com/enkidevs/curriculum/pull/2261)
+- [Security - XXE prevention - Remove mentions of bookmark feature, general formatting & updating resource links](https://github.com/enkidevs/curriculum/pull/2261)
+- [Web - Form method - Remove mentions of bookmark feature, general formatting & updating resource links](https://github.com/enkidevs/curriculum/pull/2261)
 - [Linux - What is a network interface - Fix resource link](https://github.com/enkidevs/curriculum/pull/2260)
 - [Security - Deserialization - Fix resource links](https://github.com/enkidevs/curriculum/pull/2259)
 - [Security - Mitigating SQL Injection Attacks - Fixed resource links](https://github.com/enkidevs/curriculum/pull/2258)
