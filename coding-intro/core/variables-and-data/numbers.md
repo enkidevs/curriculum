@@ -46,9 +46,9 @@ b = "1"
 c = "one"
 ```
 
-* a
-* b
-* c
+- a
+- b
+- c
 
 ---
 ## Revision
@@ -59,8 +59,8 @@ Create a variable named `age` which stores `33`:
 ??? ??? ???
 ```
 
-* age
-* =
-* 33
-* "age"
-* ==
+- age
+- =
+- 33
+- "age"
+- ==

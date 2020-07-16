@@ -7,6 +7,8 @@ aspects:
 
 insights:
   - functions-intro
-  - function-creation
-  - function-assembly
-  - pf-debugging
+  - first-function
+  - robot-im-hungry
+  - robot-assemble-the-sandwich
+  - robot-grill-me-a-sandwich
+  - robot-food-time

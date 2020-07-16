@@ -12,25 +12,29 @@ category: must-know
 ---
 ## Content
 
-The text type is almost never called *text*. Instead, it is referred to as a **string** because it is a **string/list of characters**[1]. From now on we'll refer to it as a **string**.
+In the land of computers, the text type is almost never called *text*. 
 
-We've already encountered this type before when creating the `best_app` variable. Now, let's make another one:
+Instead, it is referred to as a **string**[1] (meaning a **string of characters**).
+
+We've already seen this type before when creating the `best_app` variable. 
+
+Now, let's make another one:
 
 ```plain-text
 best_user = "You"
 ```
 
-> 💡 Strings **commonly have to be enclosed by quotation marks** (`" "`). In some programming languages, you can also use single quotation marks (`' '`) or backticks (`` ` ` ``).
+> 💡 To help the computer distinguish strings from variable names, we wrap strings in quotes (`" "`). In some programming languages, you can also use single quotes (`' '`) and/or backticks (`` ` ` ``).
 
 ---
 ## Practice
 
-Strings commonly have to be enclosed by ???.
+Strings commonly have to be enclosed with ???.
 
-* quotation marks
-* parentheses
-* square brackets
-* commas
+- quotation marks
+- parentheses
+- square brackets
+- commas
 
 ---
 ## Revision
@@ -41,10 +45,10 @@ Complete the gaps to define a string:
 my_name ??? ???
 ```
 
-* =
-* "Andrei"
-* Andrei
-* ==
+- =
+- "Andrei"
+- Andrei
+- ==
 
 ---
 ## Footnotes

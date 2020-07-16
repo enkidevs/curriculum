@@ -12,16 +12,15 @@ category: must-know
 ---
 ## Content
 
-If you want to learn to code, this course is the best place to start, before digging into your language(s) of choice. 
+If you want to learn to code, this course is the best place to start, before digging later into your language(s) of choice. 
 
-It's not meant to be an in-depth guide, but rather an overview of the core features everyone should know before starting to program.
+We'll cover the core features everyone should know before starting to program. And we'll emphasize a few key themes and tools that'll be useful as you learn.
 
-Coding is nothing more than creating a set of instructions that your computer will follow. This set of instructions is considered a **program**.
+All programming languages have a handful of building blocks. When combined, they can create any program:
+- **variables** - where data is stored
+- **data types** - how to tell what's a number or what's text
+- **functions** - how we can organize commands
+- **conditions** - how to makes yes/no decisions
+- **loops** - how to repeat behavior
 
-You already interact with programs daily. From your phone, personal computer, your car, and your fridge - computer programs are everywhere.
-
-We've come a long way since the 50s (when the first functioning programming languages were created), and these advances make it possible for anyone to learn. Programming is no longer only for scientists.
-
-![Margaret-Hamilton-with-the-code-that-helped-get-humans-on-the-moon](https://img.enkipro.com/2f391bea71138c89b937f6cab4dc3612.jpeg)
-
-> Margaret Hamilton with the code that helped get humans to the moon.
+Every concept, feature, technology, or best practice beyond these basic building blocks were invented to help us mere humans manage the complexity of larger and larger programs.

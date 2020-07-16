@@ -8,5 +8,5 @@ aspects:
 insights:
   - intro-to-coding
   - why-learn-to-code
-  - why-learn-to-code-discussion
   - hello-code
+  - what-is-your-goal

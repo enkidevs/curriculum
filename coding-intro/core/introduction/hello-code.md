@@ -12,19 +12,12 @@ category: must-know
 ---
 ## Content
 
-In this course, we'll teach you the **very basics** of programming.
+For the rest of this course, we'll use our own [made-up](https://enki.com/glossary/coding-intro/made-up) language to paint the picture of how programs behave and what you can do with them.
 
-We'll cover variables, functions (or methods), conditional statements, and loops.
+We'll be using a made-up language on purpose.
 
-> 💡 These concepts are found in most programming languages. They are the required minimum to understand or write software.
+The point of every program we show from now on will be to demonstrate a concept. Don't worry too much about specific commands and focus on the big picture.
 
-We won't cover any language-specific features or advanced concepts.
+Understanding the fundamentals will enable you to pick up any real programming language later on.
 
-For the entirety of this course, we'll use [pseudocode](https://enki.com/glossary/general/pseudocode). This is how you write the bare functionality, without details of a specific language. 
-
-When you finish this course and move on to specific programming languages, you'll be taught that language's [syntax](https://enki.com/glossary/general/syntax).
-
-> 💡 At the end of this course, you'll have several options for your next step. Here are some suggestions:
-> - Python is the default programming language to start with. It's easy to learn, closest to the English language, and powerful.
-> - SQL is a *querying* language and a good option as a stepping stone to learning a programming language. 
-> - If you want to start by making a website, make sure you go through our Web course (which includes HTML and CSS).
+When you finish this course and move on to specific programming languages, you'll be taught that language's [syntax](https://enki.com/glossary/general/syntax) but the concepts will remain the same.

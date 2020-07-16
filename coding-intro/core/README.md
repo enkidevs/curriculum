@@ -7,7 +7,7 @@ core: true
 sections:
   '0':
     - introduction
-    - data
+    - core-concepts
+    - variables-and-data
+    - collections
     - functions
-    - conditions
-    - loops

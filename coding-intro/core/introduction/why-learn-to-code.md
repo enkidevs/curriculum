@@ -12,16 +12,16 @@ category: must-know
 ---
 ## Content
 
-Learning to code isn't only for developers, or those that want to create the next Twitter or Instagram. 
+Learning how code works isn't only for developers - it can help everyone! 
 
-Because our lives are dependent on software, learning how code works can help all professionals.
-
-For example, it could help you:
-- write programs that automate processes and save you time 
+For example, you'll be able to:
+- write programs that automate processes and save you time (and money!)
 - create websites for your products or projects
-- understand how software and computers work, helping to improve your related communication and decision making
-- work more effectively and collaborate with developers better.
+- understand how software works, helping to improve your communication and decision making at work
+- better navigate the modern digital world
+- collaborate with developers better
 
-Not least because of the above, at the end of the day it will help to maximize anyone's earning potential!
+At the end of the day, it will help to maximize your earning potential!
 
-These are just a few examples, but you're not limited to them. Knowing the fundamentals of programming will demystify many parts of how the modern digital world works.
+> How do you think learning to code will help you most? 
+> Leave a comment or view some of the other comments for inspiration before moving on.
