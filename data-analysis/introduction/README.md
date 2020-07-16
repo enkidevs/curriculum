@@ -10,10 +10,12 @@ sections:
     - data-analysis-terminology
     - data-analysis-buzzwords
     - data-analysis-using-spreadsheets
+  '1':
     - google-analytics
     - sales-analytics
     - marketing-analytics
     - product-analytics
+    '2':
     - bi-tools-tableau
     - bi-tools-looker
     - bi-tools-mode

@@ -17,7 +17,7 @@ links:
 ---
 ## Content
 
-**Data analysis** is the method of *discovering useful information* from data. 
+Data analysis is the method of **discovering useful information** from data. 
 
 The process involves collecting, organizing, exploring and drawing conclusions from data.
 
