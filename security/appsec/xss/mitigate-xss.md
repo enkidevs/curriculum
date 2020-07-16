@@ -1,33 +1,35 @@
 ---
 author: lizTheDeveloper
+
 type: normal
+
 category: how to
+
 links:
   - >-
     [OWASP Top
-    Ten](https://www.owasp.org/images/7/72/OWASP_Top_10-2017_%28en%29.pdf.pdf){website}
+    Ten](https://owasp.org/www-project-top-ten/){website}
   - >-
-    [link to deeper dive blog
-    post](https://www.owasp.org/index.php/XSS_(Cross_Site_Scripting)_Prevention_Cheat_Sheet){website}
+    [Cross Site Scripting Prevention Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html){website}
   - >-
     [DOM based XSS Prevention Cheat
-    Sheet](https://www.owasp.org/index.php/DOM_based_XSS_Prevention_Cheat_Sheet){website}
+    Sheet](https://cheatsheetseries.owasp.org/cheatsheets/DOM_based_XSS_Prevention_Cheat_Sheet.html){website}
   - >-
     [XSS Filter Evasion Cheat
     Sheet](https://www.owasp.org/index.php/XSS_Filter_Evasion_Cheat_Sheet){website}
   - >-
     [OWASP Java Encoder
-    Project](https://www.owasp.org/index.php/OWASP_Java_Encoder_Project){website}
+    Project](https://owasp.org/owasp-java-encoder/){website}
+
 ---
 
 # mitigate-xss
-
 
 ---
 
 ## Content
 
-Follow these simple rules for mitigating XSS vulnerability. **Bookmark this insight to receive links that have examples.**
+Follow these simple rules for mitigating XSS vulnerability.
 
 - Never Insert Untrusted Data Except in Allowed Locations
 - HTML Escape Before Inserting Untrusted Data into HTML Element Content
@@ -40,7 +42,6 @@ Follow these simple rules for mitigating XSS vulnerability. **Bookmark this insi
 - Use HTTPOnly cookie flag
 - Implement Content Security Policy
 - Use an Auto-Escaping Template System
-
 
 ---
 
