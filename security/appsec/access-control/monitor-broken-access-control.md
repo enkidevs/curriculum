@@ -1,7 +1,10 @@
 ---
 author: lizTheDeveloper
+
 type: normal
+
 category: best practice
+
 links:
   - >-
     [Event Log
@@ -9,13 +12,10 @@ links:
   - >-
     [Best Practices for audit
     logs](https://www.computerweekly.com/tip/Best-practices-for-audit-log-review-for-IT-security-investigations){website}
-  - >-
-    [OWASP Security Audit Logging
-    Guideline](https://www.owasp.org/index.php/Error_Handling,_Auditing_and_Logging#Logging){website}
+
 ---
 
 # Monitor Broken Access Control
-
 
 ---
 
