@@ -38,6 +38,11 @@ Types of change:
 - `Archived` for content that is no longer necessary and has been archived.
 - `Fixed` for any minor fixes (e.g. add a missing comma, adding a code block tag, fixing a report).
 
+## July 17th 2020
+
+### Fixed
+- [Linux - Change file ownership with `chown` - Remove an extra `the`](https://github.com/enkidevs/curriculum/pull/2263)
+
 ## July 16th 2020
 
 ### Fixed
