@@ -25,7 +25,7 @@ We can think of a function as divide into 3 parts.
 
 > 💡 The outputing of a result from a function is also called **returning** a result.
 
-Here's how you can write the `multiplyTwoNumbers` function using our own [made-up](https://www.enki.com/glossary/coding-intro/made-up) language:
+Here's how you can write the `multiplyTwoNumbers` function using our own [made-up](https://www.enki.com/glossary/coding-intro/pseudocode) language:
 
 ```plain-text
 FUNCTION multiplyTwoNumbers

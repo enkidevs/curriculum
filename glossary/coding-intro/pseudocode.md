@@ -1,4 +1,4 @@
-# Made-up
+# Pseudocode
 
 We're using a made-up programming language on purpose. 
 

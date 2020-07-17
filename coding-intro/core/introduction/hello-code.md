@@ -12,7 +12,7 @@ category: must-know
 ---
 ## Content
 
-For the rest of this course, we'll use our own [made-up](https://enki.com/glossary/coding-intro/made-up) language to paint the picture of how programs behave and what you can do with them.
+For the rest of this course, we'll use our own [made-up](https://enki.com/glossary/coding-intro/pseudocode) language to paint the picture of how programs behave and what you can do with them.
 
 We'll be using a made-up language on purpose.
 
