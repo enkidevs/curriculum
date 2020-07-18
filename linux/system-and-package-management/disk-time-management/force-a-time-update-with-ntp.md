@@ -31,7 +31,7 @@ Requests will be sent to servers provided as arguments, in addition to the ones 
 
 By default, an error is thrown if the time difference between the local time and the server's time is greater than 1000s.
 
-The `-g` flag allows the local time to be set even if the difference exceeds the 1000s threshold. The `-q` flag will close `ntpd` after the time is set, replicating the `ntpdate` behaviour.
+The `-g` flag allows the local time to be set even if the difference exceeds the 1000s threshold. The `-q` flag will close `ntpd` after the time is set, replicating the depricated `ntpdate` behaviour.
 
 
 ---
@@ -45,8 +45,8 @@ Sync the system time with the  `0.uk.pool.ntp.org`  server :
   0.uk.pool.ntp.org
 ```
 
-- `ntpdate`
-- `-u`
+- `ntpd`
+- `-gq`
 - `ntupdate`
 - `-f`
 
