@@ -41,6 +41,7 @@ Types of change:
 ### July 20th 2020
 
 ### Fixed
+- [Comp. Sci. - Inserting Data Into a Binary Search Tree](https://github.com/enkidevs/curriculum/pull/2269)
 - [Web - Nested Lists - Fix images & general formatting](https://github.com/enkidevs/curriculum/pull/2268)
 - [Linux - Incorrect time on dual boot systems - Minor stylistic and grammatical fixes](https://github.com/enkidevs/curriculum/pull/2266)
 - [Linux - Force a time update with ntp - Change deprecated command](https://github.com/enkidevs/curriculum/pull/2265)
