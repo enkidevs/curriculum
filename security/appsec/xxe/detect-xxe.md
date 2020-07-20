@@ -1,21 +1,21 @@
 ---
 author: lizTheDeveloper
+
 type: normal
+
 category: how to
+
 links:
   - >-
     [XXE
-    Processing](https://www.owasp.org/index.php/XML_External_Entity_(XXE)_Processing){website}
-  - >-
-    [Testing for XML
-    Injection](https://www.owasp.org/index.php/Testing_for_XML_Injection_(OTG-INPVAL-008)){website}
+    Processing](https://owasp.org/www-community/vulnerabilities/XML_External_Entity_(XXE)_Processing){website}
   - >-
     [XXE Exploit
     Walkthrough](https://resources.infosecinstitute.com/finding-and-exploiting-xxe-xml-external-entities-injection/#gref){website}
+
 ---
 
 # Detect XXE
-
 
 ---
 
@@ -37,9 +37,6 @@ Using a library that is designed for the task is similar to herd immunity- when 
 
 If you *really absolutely have to build your own* understand that it is a sensitive and large undertaking that puts your customers' data at risk, and should be a thoroughly researched and maintained internal module.
 
-Bookmark this insight to receive step-by-step walkthroughs on how to test for XXE vulnerabilities.
-
-
 ---
 
 ## Practice
@@ -57,7 +54,6 @@ What should you disable to prevent them?
 - Prevent unescaped user input
 - Code Execution
 
-
 ---
 
 ## Revision
@@ -70,4 +66,3 @@ Writing your own custom ??? code can expose user data to ??? attacks.
 - User Input Validation
 - SQL Injection
 - XXR
- 

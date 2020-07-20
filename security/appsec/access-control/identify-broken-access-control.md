@@ -1,18 +1,21 @@
 ---
 author: lizTheDeveloper
+
 type: normal
+
 category: how to
+
 links:
   - >-
     [OWASP Top
-    Ten](https://www.owasp.org/images/7/72/OWASP_Top_10-2017_%28en%29.pdf.pdf){website}
+    Ten](https://owasp.org/www-project-top-ten/){website}
   - '[Burp Suite Scanner](https://portswigger.net/burp){website}'
   - '[Observatory by Mozilla](https://observatory.mozilla.org/){website}'
   - '[Postman](https://www.getpostman.com/){website}'
+
 ---
 
 # Identify Broken Access Control
-
 
 ---
 
@@ -48,7 +51,6 @@ To identify issues in your application:
 
 Burp Suite, and Mozilla have a scanner that can help with this process. Postman can also be configured to use some kinds of authentication tokens to access resources.
 
-
 ---
 
 ## Practice
@@ -60,7 +62,6 @@ What information do I need to know about my application in order to create autom
 - The access control requirements for each resource
 - The contact information for the developer who implemented the initial system
 - The analytics data for each resource
-
 
 ---
 
@@ -75,4 +76,3 @@ What order to these steps go in to identify access control issues in your organi
 - Identify all available resources in your application
 - Determine and document the proper access requirements for that resource
 - Scan your application by visiting that resource with each credential type and report which HTTP status code is reported back.
- 

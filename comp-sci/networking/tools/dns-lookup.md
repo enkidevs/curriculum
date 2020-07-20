@@ -1,19 +1,23 @@
 ---
 author: catalin
+
 type: normal
+
 category: how to
+
 links:
   - >-
-    [blog.thesysadmins.co.uk](https://blog.thesysadmins.co.uk/nslookup-common-usage-examples.html){website}
+    [Nslookup – Common Usage Examples](https://blog.thesysadmins.co.uk/nslookup-common-usage-examples.html){website}
   - >-
-    [help.dyn.com](https://help.dyn.com/how-to-use-binds-dig-tool/#installdigwindows){website}
+    [Install dig (Windows)](https://help.dyn.com/how-to-use-binds-dig-tool/#installdigwindows){website}
   - >-
-    [computer.howstuffworks.com](http://computer.howstuffworks.com/dns.htm){website}
+    [How Domain Name Servers Work](http://computer.howstuffworks.com/dns.htm){website}
+
 parent: network-statistics-tools
+
 ---
 
 # DNS Lookup
-
 
 ---
 
@@ -23,9 +27,9 @@ parent: network-statistics-tools
 
 This is most often desired as human-readable domain names are much more memorable than **IP addresses** - be them static or dynamic.
 
-Traditionally, the **DNS lookup** was done with the help of `nslookup` command. At some point, this was deprecated on Unix systems in favour of the `dig` command. However, *BIND*, the company that maintains and distributes `nslookup`, resurrected it.
+Traditionally, the **DNS lookup** was done with the help of `nslookup` command. At some point, this was deprecated on Unix systems in favor of the `dig` command. However, *BIND*, the company that maintains and distributes `nslookup`, resurrected it.
 
-The `dig` tool can also be installed on **Windows**. By bookmarking this insight you will find detailed installation instructions in the "Curriculum" section.
+The `dig` tool can also be installed on **Windows**.
 
 You can use `dig`, short for *Domain Information Groper*, to:
 
@@ -66,7 +70,6 @@ Pretty straight-forward:
 
 - `QUESTION SECTION` shows details about our query (useful for more complicated ones)
 - `ANSWER SECTIONS` shows us the mapped IP addresses
-
 
 ---
 

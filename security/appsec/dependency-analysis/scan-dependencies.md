@@ -1,7 +1,10 @@
 ---
 author: lizTheDeveloper
+
 type: normal
+
 category: how to
+
 links:
   - >-
     [Dependency Scanner Blog
@@ -15,13 +18,11 @@ links:
   - '[OSS Index](https://ossindex.net/){website}'
   - >-
     [Dependency
-    Check](https://www.owasp.org/index.php/OWASP_Dependency_Check){website}
-  - '[Gemnasium](https://gemnasium.com/){website}'
-  - '[SRC:CLR](https://srcclr.com/?utm_source=enki.com){website}'
+    Check](https://owasp.org/www-project-dependency-check/){website}
+
 ---
 
 # Scan Dependencies
-
 
 ---
 
@@ -32,9 +33,7 @@ There are many scanning tools for source code available on the market, many of t
 ### General
 
 - [OSS Index](https://ossindex.net/) for Java, .NET, C#, JavaScript
-- [Dependency Check](https://www.owasp.org/index.php/OWASP_Dependency_Check) tool from OWASP, supports Java, .NET, JavaScript, Ruby
-- [Gemnasium](https://gemnasium.com/) for Ruby, NPM & Bower, PHP, Python
-- [SRC:CLR](https://srcclr.com/) for many languages, using IDE integration
+- [Dependency Check](https://owasp.org/www-project-dependency-check/) tool from OWASP, supports Java, .NET, JavaScript, Ruby
 
 ### Java
 
@@ -50,8 +49,7 @@ There are many scanning tools for source code available on the market, many of t
 - [Bundler-audit](https://github.com/rubysec/bundler-audit)
 - [Hakiri](https://hakiri.io/)
 
-Bookmark this insight for links to all the resources above. Use the *edit this insight* feature if you have recommendations or see out of date tools.
-
+Use the *edit this insight* feature if you have recommendations or see out of date tools.
 
 ---
 
@@ -66,7 +64,6 @@ Check a Node.js project for vulnerabilities using an automatic dependency analyz
 - security
 - secure
 
-
 ---
 
 ## Revision
@@ -76,4 +73,3 @@ In order to find vulnerabilities in your dependencies you should ???.
 - Use a source-code scanning tool
 - Manually review all the code
 - Hire a penetration testing team
- 

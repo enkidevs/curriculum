@@ -1,23 +1,18 @@
 ---
 author: catalin
+
 type: normal
+
 category: feature
+
 links:
   - >-
     [docs.python.org](https://docs.python.org/3.5/library/stdtypes.html#additional-methods-on-integer-types){website}
   - '[en.wikipedia.org](https://en.wikipedia.org/wiki/Endianness){website}'
-notes: |
-  This line of output from a snippet in the insight:
 
-  11 # 555 in binary is 10000000000
-
-  is incorrect. It should be:
-
-  11 # 1024 in binary is 10000000000
 ---
 
 # Converting `int` s to binary data
-
 
 ---
 
@@ -86,7 +81,6 @@ Similarly, the `.from_bytes()` method works in reverse:
 516
 ```
 
-
 ---
 
 ## Practice
@@ -111,7 +105,6 @@ Fill the following snippet such that it will first convert `1024` to bytes and t
 - `length`
 - `bytes`
 
-
 ---
 
 ## Revision
@@ -124,7 +117,6 @@ b'\x10'
 
 >>> ???.???([0, 4], byteorder="little")
 1024
-
 ```
 
 - `to_bytes`
@@ -140,7 +132,6 @@ b'\x10'
 - `to_byte_array`
 - `orderbyte`
 
-
 ---
 
 ## Footnotes
@@ -152,5 +143,3 @@ When specified, the integer value will be represented in `length` bytes. If thes
 **Big-endian** and **little-endian** are terms that describe the order in which a sequence of bytes are stored in computer memory.
 
 In **big-endian**, you store the *most* significant `bit` in the **smallest** address, while in **little-endian** you store the *least* significant one.
-
-If you wish to learn more about this subject, bookmark this insight and check its "Learn more" links section.
