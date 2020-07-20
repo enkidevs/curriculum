@@ -41,6 +41,7 @@ Types of change:
 ### July 20th 2020
 
 ### Fixed
+- [Web - Nested Lists - Fix images & general formatting](https://github.com/enkidevs/curriculum/pull/2268)
 - [Linux - Incorrect time on dual boot systems - Minor stylistic and grammatical fixes](https://github.com/enkidevs/curriculum/pull/2266)
 - [Linux - Force a time update with ntp - Change deprecated command](https://github.com/enkidevs/curriculum/pull/2265)
 
