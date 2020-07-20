@@ -12,9 +12,9 @@ category: must-know
 ---
 ## Content
 
-Dictionaries are assocciative collections that represent **key/value pairs**.
+Dictionaries are associative collections that represent **key/value pairs**.
 
-The name is inspired from our everyday language dictionaries, which are collections of word/definition pairs.
+The name is inspired by our everyday language dictionaries, which are collections of word/definition pairs.
 
 One way to write a dictionary is using curly braces (`{ }`):
 

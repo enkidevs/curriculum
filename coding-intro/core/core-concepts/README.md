@@ -1,6 +1,6 @@
 name: Core Concepts
 
-description: The building blocks of programming.
+description: The building blocks of coding.
 
 aspects:
   - introduction

@@ -7,7 +7,7 @@ category: must-know
 
 ---
 
-# Let's use a Variable
+# Let's Use a Variable
 
 ---
 ## Content

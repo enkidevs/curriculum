@@ -26,7 +26,7 @@ ENDFUNCTION
 
 Whew! That's a lot of code! 
 
-Computers are 100% literal[2] like that. We have to spell out everything **exactly** for them, otherwise they won't understand what we're asking of them.
+Computers are 100% literal[2] like that. We have to spell out everything **exactly** for them. Otherwise, they won't understand what we're asking of them.
 
 For example, in the code above, take a look at the last two lines of the function body:
 
@@ -116,7 +116,7 @@ Instructions:
 
 [2: 💡 Code Must Be Exact]
 
-In some languages, instructions usually end with a semicollon `;`. 
+In some languages, instructions usually end with a semicolon `;`. 
 
 This means that the instruction:
 

@@ -16,7 +16,7 @@ It's Saturday afternoon, and you're ready for a grilled cheese sandwich 🧀. He
 
 Instead of making the sandwich yourself, you remembered that you have a robot sitting in your garage that can do the job for you.
 
-Let's write some code to tell our robothow to make a sandwich!
+Let's write some code to tell our robot how to make a sandwich!
 
 To get us started, start with the preparation of the ingredients first.
 

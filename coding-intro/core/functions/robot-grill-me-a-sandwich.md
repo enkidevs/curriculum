@@ -18,11 +18,11 @@ Let's do the part 3 of our recipe[1] now, the grilling of the sandwich:
 
 ```plain-text
 FUNCTION grill_sandwich
-	INPUT sandwich, pan, plate
-	INSTRUCT heated_pan = preheat_the_pan(pan)
-	INSTRUCT fried_sandwich = fry_the_sandwich_on_each_side(sandwich, heated_pan, "3min")
-	INSTRUCT sandwich_on_plate = place_sandwich_on_the_plate(fried_sandwich, plate)
-	OUTPUT sandwich_on_plate
+  INPUT sandwich, pan, plate
+  INSTRUCT heated_pan = preheat_the_pan(pan)
+  INSTRUCT fried_sandwich = fry_the_sandwich_on_each_side(sandwich, heated_pan, "3min")
+  INSTRUCT sandwich_on_plate = place_sandwich_on_the_plate(fried_sandwich, plate)
+  OUTPUT sandwich_on_plate
 ENDFUNCTION
 ```
 

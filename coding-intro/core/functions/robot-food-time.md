@@ -12,7 +12,7 @@ category: must-know
 ---
 ## Content
 
-The recipe[1] instruction are complete.
+The recipe[1] instructions are complete.
 
 Now it's time to run the functions we create as commands for the robot.
 
