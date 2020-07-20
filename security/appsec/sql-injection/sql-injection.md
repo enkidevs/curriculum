@@ -5,7 +5,7 @@ category: hack
 links:
   - >-
     [OWASP Top
-    Ten](https://www.owasp.org/images/7/72/OWASP_Top_10-2017_%28en%29.pdf.pdf){website}
+    Ten](https://owasp.org/www-project-top-ten/){website}
   - >-
     [Threat
     Analysis](https://www.owasp.org/index.php/OWASP_Automated_Threats_to_Web_Applications){website}

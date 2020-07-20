@@ -38,6 +38,18 @@ Types of change:
 - `Archived` for content that is no longer necessary and has been archived.
 - `Fixed` for any minor fixes (e.g. add a missing comma, adding a code block tag, fixing a report).
 
+## July 17th 2020
+
+### Fixed
+- [Security - Fix broken access control - Fix OWASP Top Ten link](https://github.com/enkidevs/curriculum/pull/2264)
+- [Security - Identify broken access control - Fix OWASP Top Ten link](https://github.com/enkidevs/curriculum/pull/2264)
+- [Security - Monitor broken access control - Fix OWASP Top Ten link](https://github.com/enkidevs/curriculum/pull/2264)
+- [Security - Establish upgrade process - Fix OWASP Top Ten link](https://github.com/enkidevs/curriculum/pull/2264)
+- [Security - SQL Injection - Fix OWASP Top Ten link](https://github.com/enkidevs/curriculum/pull/2264)
+- [Security - XXS Introduction - Fix OWASP Top Ten link](https://github.com/enkidevs/curriculum/pull/2264)
+- [Security - XXE Introduction - Fix OWASP Top Ten link](https://github.com/enkidevs/curriculum/pull/2264)
+- [Linux - Change file ownership with `chown` - Remove an extra `the`](https://github.com/enkidevs/curriculum/pull/2263)
+
 ## July 16th 2020
 
 ### Fixed

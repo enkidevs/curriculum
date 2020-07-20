@@ -1,7 +1,10 @@
 ---
 author: lizTheDeveloper
+
 type: normal
+
 category: best practice
+
 links:
   - >-
     [OWASP: Using Using Components with Known
@@ -12,10 +15,10 @@ links:
   - >-
     [Vulnerability remediation
     process](https://resources.whitesourcesoftware.com/blog-whitesource/3-essential-steps-for-your-vulnerability-remediation-process){website}
+
 ---
 
 # Establish Upgrade Process
-
 
 ---
 
@@ -35,7 +38,6 @@ In order to determine an upgrade process, and how quickly it should happen:
 3. Apply automatic patches where possible
 4. Schedule the upgrade of vulnerable components with the project lead
 
-
 ---
 
 ## Practice
@@ -54,7 +56,6 @@ What order should these steps be taken in?
 - Apply automatic patches where possible
 - Schedule the upgrade of vulnerable components with the project lead
 
-
 ---
 
 ## Revision
@@ -66,4 +67,3 @@ Automatic upgrades can be applied ??? while upgrades requiring an update of the 
 - in a few minutes
 - years
 - a quarter
- 
