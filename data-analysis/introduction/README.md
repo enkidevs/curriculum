@@ -15,7 +15,7 @@ sections:
     - sales-analytics
     - marketing-analytics
     - product-analytics
-    '2':
+  '2':
     - bi-tools-tableau
     - bi-tools-looker
     - bi-tools-mode
