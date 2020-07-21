@@ -77,3 +77,4 @@ NPS is calculated as the difference between the percentage of *promoters* and *d
 `NPS = Promotors - Detractors`
 
 For instance, if 25% of the surveyed audience are Promoters, while 55% Passives and 20% Detractors, the NPS will be +5.
+
