@@ -71,3 +71,4 @@ We also have our own Spreadsheets course which covers everything in much more de
 * IFAVERAGE
 * AVERAGE
 * AVERAGEWHEN
+ 

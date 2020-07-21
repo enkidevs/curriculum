@@ -80,3 +80,4 @@ What function can be used to calculate the average of filtered data?
 * AVERAGETOTAL
 * AVERAGE
 * AVERAGEIF
+ 

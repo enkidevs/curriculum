@@ -73,3 +73,4 @@ If we start with 1000 customers and we acquire 100 new customers in a week, and 
 - 100%
 - 90% 
 - 5%
+ 

@@ -87,3 +87,4 @@ Here are some examples that closely follow a normal distribution:
 - errors in measurements
 - blood pressure
 - marks on a test
+ 

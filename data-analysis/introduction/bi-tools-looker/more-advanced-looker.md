@@ -73,3 +73,4 @@ Looker uses a model written in LookML to construct SQL queries against a particu
 
 [2:DRY Convention]
 Don't repeat yourself (DRY) is a principle of software development aimed at reducing repetition of code.
+ 

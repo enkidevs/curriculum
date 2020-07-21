@@ -60,3 +60,4 @@ What is a Pivot Table?
 * A table used to calculate financial pivot values.
 * A table containing only black, grey and white formatting.
 * A table containing data that is organized horizontally.
+ 

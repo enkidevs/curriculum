@@ -57,3 +57,4 @@ What type of chart is best for assessing the relationship between two variables?
 * Line graph
 * Scorecard
 * Pie chart
+ 

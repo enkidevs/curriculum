@@ -73,3 +73,4 @@ Customer Aquisition Cost can be measured using the following formula:
 * Number of customers aquired
 * Average revenue per customer
 * Number of years active
+ 

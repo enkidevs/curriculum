@@ -80,3 +80,4 @@ The formula is:
 (Number of deals in your pipeline) x (overall successful close rate percentage %) x (average deal size in $) 
 / (length of sales cycle in days)
 ```
+ 

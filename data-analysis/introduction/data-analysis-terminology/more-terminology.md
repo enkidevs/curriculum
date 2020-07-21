@@ -92,3 +92,4 @@ The most common form of regression analysis is linear regression, in which a res
 SQL, Structured Query Language, is the main language that allows your database servers to store, edit and retrieve the data on it.
 
 SQL statements are used to generate queries to the database. This allows users to manipulate and pull data quickly.
+ 

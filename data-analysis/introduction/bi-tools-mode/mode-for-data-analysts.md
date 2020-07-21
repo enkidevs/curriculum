@@ -59,3 +59,4 @@ Mode's Notebook supports Python 2.7, ??? and R.
 - Ruby
 - JavaScript
 - SQL
+ 

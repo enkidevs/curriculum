@@ -43,3 +43,4 @@ We're dedicating a whole workout to Google Analytics where we'll explore key fea
 
 [1:CRO]
 CRO stands for Conversion Rate Optimization and is an area of marketing that aims to ncrease the percentage of visitors to a website that convert into customers, or more generally, take any desired action on a webpage.
+ 

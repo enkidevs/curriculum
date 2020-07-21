@@ -71,3 +71,4 @@ Complete this basic query to return the color and category of each product in th
 - INSERT
 - GRAB
 - UPDATE
+ 

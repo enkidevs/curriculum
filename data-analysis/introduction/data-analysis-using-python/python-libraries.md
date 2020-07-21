@@ -79,3 +79,4 @@ Use-cases include: data cleaning and transformation, numerical simulation, stati
 A library is a collection of precompiled routines that a program can use.
 
 Libraries are particularly useful for storing frequently used routines because you do not need to explicitly link them to every program that uses them.
+ 

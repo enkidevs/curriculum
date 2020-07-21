@@ -88,3 +88,4 @@ Choosing the correct sample size is important for valid A/B tests. If we're runn
 2. Desired conversion rates (challenger group)
 3. Desired level of statistical significance
 We can use a [sample size calculator](https://www.optimizely.com/uk/sample-size-calculator/) to work out how many recipients or users we need to include in our test.
+ 

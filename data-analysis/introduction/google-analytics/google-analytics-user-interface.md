@@ -68,3 +68,4 @@ Where would you find reports that show you which pages users exit your site from
 
 [1:CPC]
 CPC stands for Cost Per Click and it represents paid search using Google Adwords.
+ 

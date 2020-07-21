@@ -80,3 +80,4 @@ What is a “dimension” in Google Analytics?
 The bounce rate is the percentage of users who left your website after viewing a single page and taking no additional actions.
 
 Companies aim to have as low a bounce rate as possible.
+ 
