@@ -91,3 +91,4 @@ A session begins when a user navigates to a page that includes the GA tracking c
 It will end after 30 minutes if no other hits are recorded. If a user returns to a page after a session ends, a new session will begin.
 
 While sessions time out after thirty minutes of inactivity by default, you can change this setting in your configurations to better align with user behavior on your site. For example, a site with a goal to get users to watch videos may not want sessions to timeout after thirty minutes. They can extend session timeout to the average watch time of the videos on the site.
+ 

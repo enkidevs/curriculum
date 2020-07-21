@@ -35,3 +35,4 @@ These tools are pretty expensive but are extremely user friendly as you can drag
 **Periscope** and **Chartio** are cheaper alternatives and have most of the same functionality as these pro tools.
 
 Comment below if you have any favorite SQL tools that we haven't mentioned! 👇
+ 

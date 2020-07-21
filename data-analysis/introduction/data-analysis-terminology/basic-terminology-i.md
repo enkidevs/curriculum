@@ -78,3 +78,4 @@ Median = ???
 If values increase or decrease together, they are **positively correlated**. If values from one set increase as the other decreases, they are **negatively correlated**. 
 
 There is **no correlation** when a change in one set has nothing to do with a change in the other.
+ 

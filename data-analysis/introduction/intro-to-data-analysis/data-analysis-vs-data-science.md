@@ -72,3 +72,4 @@ Data Analysis focuses more on machine learning and predictive modelling.
 
 [1:Machine Learning]
 A process where a computer uses an algorithm to gain understanding about a set of data, then makes predictions based on its understanding. 
+ 

@@ -52,3 +52,4 @@ Sales targets/goals should be ??? and ???.
 * well-defined
 * double that of previous months
 * vague
+ 

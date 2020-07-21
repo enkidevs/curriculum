@@ -64,3 +64,4 @@ Tableau is a ??? tool rather than a Web Analytics tool.
 [1:BI tool]
 BI stands for Business Intelligence. BI tools allow companies to perform data analysis. You can connect a BI tool with data from a SQL database, a spreadsheet, or cloud apps like Google Analytics and Salesforce.
 
+ 

@@ -85,3 +85,4 @@ Continuous fields can contain an infinite number of values. This can be a range 
 
 Measures are quantitative numerical data. By default, Tableau treats any field containing this kind of data as a measure, for example, sales transactions or profit. Data that is classified as a measure can be aggregated based on a given dimension, for example, total sales (Measure) by region (Dimension).
 
+ 

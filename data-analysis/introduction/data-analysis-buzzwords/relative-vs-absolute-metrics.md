@@ -72,3 +72,4 @@ What type of KPI is the ratio of Daily Active Users to Monthly Active Users?
 Vanity metrics are metrics that make you look good to others but don't help you understand your own performance in a way that informs future strategies. 
 
 They are hollow metrics that look nice on the surface but hold little substance. For example, 10,000 total registered accounts might seem impressive, but that number loses face quickly if there are only 100 active monthly users.
+ 

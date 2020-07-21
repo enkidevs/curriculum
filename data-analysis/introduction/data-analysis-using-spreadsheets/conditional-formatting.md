@@ -59,3 +59,4 @@ Which statement best describes Conditional Formatting?
 * Changing the font color.
 * Adding a preceding dollar sign to numbers.
 * Adding decimal places to numbers.
+ 

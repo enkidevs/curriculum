@@ -44,3 +44,4 @@ Growth hacking is an umbrella term for strategies focused solely on growth. It i
 The goal of growth hacking strategies is to acquire as many users or customers as possible while spending as little as possible.
 
 Many startups use Dave McClure’s “pirate funnel” as a recipe for growth. These are **acquisition**, **activation**, **retention**, **referral**, and **revenue** (AARRR). 
+ 
