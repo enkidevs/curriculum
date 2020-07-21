@@ -38,6 +38,11 @@ Types of change:
 - `Archived` for content that is no longer necessary and has been archived.
 - `Fixed` for any minor fixes (e.g. add a missing comma, adding a code block tag, fixing a report).
 
+## July 21st 2020
+
+### Added
+- [Coding Intro - New topic](https://github.com/enkidevs/curriculum/pull/2188)
+
 ## July 17th 2020
 
 ### Fixed
@@ -173,9 +178,6 @@ Types of change:
 - [MongoDB - Delete a database - Capitalise Pokemon in first code block & minor formatting ](https://github.com/enkidevs/curriculum/pull/2194)
 
 ## June 18th 2020
-
-### Added
-- [Programming Fundamentals - New topic](https://github.com/enkidevs/curriculum/pull/2188)
 
 ### Fixed
 - [Linux - Making a file unalterable with `chattr` - Clean metadata & general formatting](https://github.com/enkidevs/curriculum/pull/2192)
