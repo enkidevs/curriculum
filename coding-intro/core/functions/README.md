@@ -1,6 +1,6 @@
 name: Functions
 
-description: Split your code by functionality.
+description: Create commands for the computer.
 
 aspects:
   - introduction

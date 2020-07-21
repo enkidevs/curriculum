@@ -1,6 +1,6 @@
 name: Core
 
-description: All the information needed to start coding.
+description: Get started with the basics of coding.
 
 core: true
 

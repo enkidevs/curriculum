@@ -1,6 +1,6 @@
 name: Introduction
 
-description: Why you should learn how to code.
+description: Why learn to code?
 
 aspects:
   - introduction

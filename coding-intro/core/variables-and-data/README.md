@@ -1,6 +1,6 @@
 name: Variables & Data
 
-description: Everything you need to know about data.
+description: How computers store information.
 
 aspects:
   - introduction

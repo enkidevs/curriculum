@@ -1,6 +1,6 @@
 name: Collections
 
-description: Groups of data types.
+description: Coding tools for working with data.
 
 aspects:
   - introduction

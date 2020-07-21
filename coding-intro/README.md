@@ -1,6 +1,6 @@
 name: Coding Intro
 
-description: Everything you need to know before you start coding.
+description: Learn the fundamentals behind all computer code. Great if you’re just getting started!
 
 color: a28cd1
 
