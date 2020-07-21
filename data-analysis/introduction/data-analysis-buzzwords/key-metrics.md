@@ -30,7 +30,7 @@ These KPIs help the team to understand whether they're on track for their destin
 
 A good KPI depends on a company's goal. 
 
-![KPI post it](https://images.unsplash.com/photo-1553044020-8c90843adf96?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80)
+![KPI-post-it](https://img.enkipro.com/db688ea6aa03f78dc7f5bc867d73cb99.png)
 
 If a company's goal is to *make more money*, it might want to focus on **sales growth**, **profit margins**, **operating costs** and **average revenue per user (ARPU)**.
 
