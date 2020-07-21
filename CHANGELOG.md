@@ -41,6 +41,7 @@ Types of change:
 ## July 21st 2020
 
 ### Added
+- [Data Analysis - New topic](https://github.com/enkidevs/curriculum/pull/2244)
 - [Coding Intro - New topic](https://github.com/enkidevs/curriculum/pull/2188)
 
 ## July 20th 2020
