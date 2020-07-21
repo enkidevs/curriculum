@@ -43,7 +43,7 @@ Types of change:
 ### Added
 - [Coding Intro - New topic](https://github.com/enkidevs/curriculum/pull/2188)
 
-### July 20th 2020
+## July 20th 2020
 
 ### Fixed
 - [Comp. Sci. - Inserting Data Into a Binary Search Tree](https://github.com/enkidevs/curriculum/pull/2269)
