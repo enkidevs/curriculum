@@ -37,3 +37,4 @@ Design the report layout however you like: pick the charts and tables you want t
 Check out the Mode gallery to see examples — the world is your oyster!
 
 If you're a Mode user, then let us know how you customize your reports by commenting below! 👇
+
