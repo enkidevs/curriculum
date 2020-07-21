@@ -25,7 +25,7 @@ You can generate passwords in the terminal in many ways. Two of them are listed 
 Using `openssl`:
 
 ```shell
-openssl rand 32 -base64
+openssl rand -base64 32
 WkY+q7Z5YmiHTrpV0lwtSApbepky1BNWc1s1E7lFcpY=
 ```
 
