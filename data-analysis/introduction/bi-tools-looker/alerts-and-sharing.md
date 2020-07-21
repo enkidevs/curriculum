@@ -63,3 +63,4 @@ A webhook, often called a reversed API, just sends the data when it’s availabl
 To use a webhook, you register a URL with the company providing the service. That URL is a place within your application that will accept the data and do something with it. 
 
 In some cases, you can tell the provider the situations when you’d like to receive data. Whenever there’s something new, the webhook will send it to your URL.
+
