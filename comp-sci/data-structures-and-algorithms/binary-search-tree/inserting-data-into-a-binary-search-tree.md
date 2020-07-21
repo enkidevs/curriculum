@@ -1,12 +1,15 @@
 ---
 author: jfarmer
+
 type: normal
+
 category: must-know
+
 parent: verifying-a-binary-search-tree
+
 ---
 
 # Inserting Data Into a Binary Search Tree
-
 
 ---
 
@@ -14,7 +17,9 @@ parent: verifying-a-binary-search-tree
 
 To insert a new key into a BST, we traverse between the left and right children according to how the new key compares to the key at each node, and find the first empty leaf node where the new key fits.
 
-The new key is first compared with that of the root.  If its key is less than the root's, it is then compared with the key of the root's left child. If its key is greater, it is compared with the root's right child. This process continues until the new node is compared with a leaf node, and then it is added as this node's child (left or right depending on how the new key compares).
+The new key is first compared with that of the root. If its key is less than the root's, it is then compared with the key of the root's left child. If its key is greater, it is compared with the root's right child. 
+
+This process continues until the new node is compared with a leaf node, and then it is added as this node's child (left or right depending on how the new key compares).
 
 Consider the following BST:
 
@@ -35,7 +40,6 @@ The final result is a BST that looks like this:
 
 You may have noticed that the shape of the BST depends on the order in which the data is inserted. For example, if the data were all inserted in ascending (or descending order), we would wind up with what essentially resembles a sorted linked list[1].
 
-
 ---
 
 ## Practice
@@ -48,15 +52,15 @@ How many checks are required to insert `9` in this BST?
     3    10
   /  \  /  \
  1   4  8   13
-???
 ```
 
+???
+
+- `3`
 - `4`
 - `2`
-- `3`
 - `1`
 - `5`
-
 
 ---
 
@@ -70,15 +74,15 @@ How many checks are required to insert `5` in this BST?
     3    10
   /     /  \
  2     9   20
-???
 ```
 
-- `3`
+???
+
 - `2`
+- `3`
 - `5`
 - `1`
 - `4`
-
 
 ---
 
