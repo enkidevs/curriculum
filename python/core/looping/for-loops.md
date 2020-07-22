@@ -1,16 +1,18 @@
 ---
 author: tommarshall
+
 type: normal
+
 category: must-know
-inAlgoPool: false
+
 links:
   - >-
     [Control flow in
-    Python](https://docs.python.org/2/tutorial/controlflow.html){website}
+    Python](https://docs.python.org/3/tutorial/controlflow.html){website}
+
 ---
 
 # `for` loops
-
 
 ---
 
@@ -32,16 +34,16 @@ for letter in 'Enki':
     print('Letter: ', letter)
 ```
 
-Gives output:
+Gives this output:
 
-```python
+```plain-text
 Letter:  E
 Letter:  n
 Letter:  k
 Letter:  i
 ```
 
-In the following example, `x` acts as the loop variable and is incremented with each loop:
+When writing a loop, Python will assign each value of the list to `x`, one by one in the same order found in the list. 
 
 ```python
 nums = [1, 2, 3]
@@ -50,7 +52,7 @@ for x in nums:
     print(x)
 ```
 
-Gives output:
+Gives this output:
 
 ```python
 1
@@ -58,14 +60,13 @@ Gives output:
 3
 ```
 
-
 ---
 
 ## Practice
 
 What’s the output of the following code snippet:
 
-```plain-text
+```py
 for x in [0, 1, 2, 3, 4, 5]:
     if (x % 2 == 0):
         print(x)
@@ -85,7 +86,7 @@ for x in [0, 1, 2, 3, 4, 5]:
 
 What’s the output of the following code snippet:
 
-```plain-text
+```py
 for letter in 'Python':
     print(letter)
 ```
