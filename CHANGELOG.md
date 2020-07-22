@@ -41,6 +41,8 @@ Types of change:
 ## July 22nd 2020
 
 ### Fixed
+- [JavaScript - How to merge two arrays - Fix the log statements](https://github.com/enkidevs/curriculum/pull/2278)
+- [Linux - Random password generator - Place arguments in correct order](https://github.com/enkidevs/curriculum/pull/2277)
 - [Python - `for` loops - Update loop definition](https://github.com/enkidevs/curriculum/pull/2253)
 
 ## July 21st 2020
