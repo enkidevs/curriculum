@@ -1,13 +1,16 @@
 ---
 author: catalin
+
 type: normal
+
 category: hack
+
 links:
   - '[davidwalsh.name](https://davidwalsh.name/merge-arrays-javascript){website}'
+
 ---
 
 # How to merge two arrays
-
 
 ---
 
@@ -23,7 +26,7 @@ for (let item of array2) {
   array1.push(item);
 }
 
-console.log(array2);
+console.log(array1);
 // 1, 2, 3, 4, 5, 6
 ```
 
@@ -35,7 +38,7 @@ let array2 = [4, 5, 6];
 
 array1.push(...array2);
 
-console.log(array2);
+console.log(array1);
 // 1, 2, 3, 4, 5, 6
 ```
 
@@ -55,7 +58,6 @@ Note that, unlike other languages, JavaScript does not support using `+` to conc
 console.log([1, 2] + [3, 4])
 // 1,23,4
 ```
-
 
 ---
 
