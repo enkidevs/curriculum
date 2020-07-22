@@ -1,16 +1,18 @@
 ---
 author: jfarmer
+
 type: normal
+
 category: must-know
-inAlgoPool: false
+
 links:
   - >-
     [Network
-    devices](https://help.ubuntu.com/lts/serverguide/network-configuration.html){website}
+    devices](https://ubuntu.com/server/docs/network-configuration){website}
+
 ---
 
 # What Is A Network Interface?
-
 
 ---
 
@@ -41,7 +43,6 @@ TX bytes:7125692666 (7.1 GB)
 
 The `eth0` interface corresponds to a physical Ethernet connection.  We can see that the associated connection is active, connected to the internet, and has been assigned an IP address of `73.14.187.124`.  The output includes some high-level network activity statistics: `RX` means corresponds to "received" and `TX` corresponds to "transmitted", i.e., download traffic vs. upload traffic.
 
-
 ---
 
 ## Practice
@@ -53,7 +54,6 @@ What interface corresponds to the physical connection?
 - eth0
 - enp0s3
 - lo
-
 
 ---
 

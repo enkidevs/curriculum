@@ -38,13 +38,73 @@ Types of change:
 - `Archived` for content that is no longer necessary and has been archived.
 - `Fixed` for any minor fixes (e.g. add a missing comma, adding a code block tag, fixing a report).
 
+## July 22nd 2020
+
+### Fixed
+- [Python - `for` loops - Update loop definition](https://github.com/enkidevs/curriculum/pull/2253)
+
+## July 21st 2020
+
+### Added
+- [Data Analysis - New topic](https://github.com/enkidevs/curriculum/pull/2244)
+- [Coding Intro - New topic](https://github.com/enkidevs/curriculum/pull/2188)
+
+## July 20th 2020
+
+### Fixed
+- [Comp. Sci. - Inserting Data Into a Binary Search Tree](https://github.com/enkidevs/curriculum/pull/2269)
+- [Web - Nested Lists - Fix images & general formatting](https://github.com/enkidevs/curriculum/pull/2268)
+- [Linux - Incorrect time on dual boot systems - Minor stylistic and grammatical fixes](https://github.com/enkidevs/curriculum/pull/2266)
+- [Linux - Force a time update with ntp - Change deprecated command](https://github.com/enkidevs/curriculum/pull/2265)
+
+## July 17th 2020
+
+### Fixed
+- [Security - Fix broken access control - Fix OWASP Top Ten link](https://github.com/enkidevs/curriculum/pull/2264)
+- [Security - Identify broken access control - Fix OWASP Top Ten link](https://github.com/enkidevs/curriculum/pull/2264)
+- [Security - Monitor broken access control - Fix OWASP Top Ten link](https://github.com/enkidevs/curriculum/pull/2264)
+- [Security - Establish upgrade process - Fix OWASP Top Ten link](https://github.com/enkidevs/curriculum/pull/2264)
+- [Security - SQL Injection - Fix OWASP Top Ten link](https://github.com/enkidevs/curriculum/pull/2264)
+- [Security - XXS Introduction - Fix OWASP Top Ten link](https://github.com/enkidevs/curriculum/pull/2264)
+- [Security - XXE Introduction - Fix OWASP Top Ten link](https://github.com/enkidevs/curriculum/pull/2264)
+- [Linux - Change file ownership with `chown` - Remove an extra `the`](https://github.com/enkidevs/curriculum/pull/2263)
+
+## July 16th 2020
+
+### Fixed
+- [JavaScript - Iterator protocol - Remove default link](https://github.com/enkidevs/curriculum/pull/2262)
+- [Security - Broken access control - Remove default link](https://github.com/enkidevs/curriculum/pull/2262)
+- [Security - Mitigate deserialization - Remove default link](https://github.com/enkidevs/curriculum/pull/2262)
+- [Security - Identify SQL Injection - Remove default link](https://github.com/enkidevs/curriculum/pull/2262)
+- [Blockchain - Cyptoeconomics - Remove mentions of bookmark feature, general formatting & updating resource links](https://github.com/enkidevs/curriculum/pull/2261)
+- [Comp Sci - A request example - Remove mentions of bookmark feature, general formatting & updating resource links](https://github.com/enkidevs/curriculum/pull/2261)
+- [Comp Sci - DNS lookup - Remove mentions of bookmark feature, general formatting & updating resource links](https://github.com/enkidevs/curriculum/pull/2261)
+- [Python - Get the most of ints - Remove mentions of bookmark feature, general formatting & updating resource links](https://github.com/enkidevs/curriculum/pull/2261)
+- [Security - Scan dependencies - Remove mentions of bookmark feature, general formatting & updating resource links](https://github.com/enkidevs/curriculum/pull/2261)
+- [Security - Identify deserialization - Remove mentions of bookmark feature, general formatting & updating resource links](https://github.com/enkidevs/curriculum/pull/2261)
+- [Security - Tokens - Remove mentions of bookmark feature, general formatting & updating resource links](https://github.com/enkidevs/curriculum/pull/2261)
+- [Security - Check defaults - Remove mentions of bookmark feature, general formatting & updating resource links](https://github.com/enkidevs/curriculum/pull/2261)
+- [Security - Cloud security configuration - Remove mentions of bookmark feature, general formatting & updating resource links](https://github.com/enkidevs/curriculum/pull/2261)
+- [Security - Use automated scanners - Remove mentions of bookmark feature, general formatting & updating resource links](https://github.com/enkidevs/curriculum/pull/2261)
+- [Security - Detect XSS - Remove mentions of bookmark feature, general formatting & updating resource links](https://github.com/enkidevs/curriculum/pull/2261)
+- [Security - Mitigate XSS - Remove mentions of bookmark feature, general formatting & updating resource links](https://github.com/enkidevs/curriculum/pull/2261)
+- [Security - Detect XXE - Remove mentions of bookmark feature, general formatting & updating resource links](https://github.com/enkidevs/curriculum/pull/2261)
+- [Security - XXE prevention - Remove mentions of bookmark feature, general formatting & updating resource links](https://github.com/enkidevs/curriculum/pull/2261)
+- [Web - Form method - Remove mentions of bookmark feature, general formatting & updating resource links](https://github.com/enkidevs/curriculum/pull/2261)
+- [Linux - What is a network interface - Fix resource link](https://github.com/enkidevs/curriculum/pull/2260)
+- [Security - Deserialization - Fix resource links](https://github.com/enkidevs/curriculum/pull/2259)
+- [Security - Mitigating SQL Injection Attacks - Fixed resource links](https://github.com/enkidevs/curriculum/pull/2258)
+- [Security - XXE Security - Fix resource link](https://github.com/enkidevs/curriculum/pull/2257)
+
 ## July 15th 2020
 
 ### Changed
 - [Python - Special Queue Methods - Add correct defition for `get` method and fix definition of `put` method](https://github.com/enkidevs/curriculum/pull/2249)
 
 ### Fixed
-- [Python - `for` loops - Update loop definition](https://github.com/enkidevs/curriculum/pull/2253)
+- [Python - Substring Testing - Change `print` syntax to python3](https://github.com/enkidevs/curriculum/pull/2256)
+- [JavaScript - Loops - Part 2 - Fix error in example](https://github.com/enkidevs/curriculum/pull/2255)
+- [Docker - Container vs VM - Fix resource link](https://github.com/enkidevs/curriculum/pull/2254)
 - [Python - The Dictionary - General formatting](https://github.com/enkidevs/curriculum/pull/2251)
 - [Python - `while` loops - Change increment syntax to be more clear for beginners](https://github.com/enkidevs/curriculum/pull/2250)
 - [Python - List Methods II - Fix resrouce link](https://github.com/enkidevs/curriculum/pull/2248)
@@ -271,3 +331,4 @@ Types of change:
 ### Fixed
 - [Python - Check Available Python Modules - Removed unnecessary `$` and general formatting improvements](https://github.com/enkidevs/curriculum/pull/2127)
 - [Git - What's Git? - Fixed spelling of Linus, creator of Linux](https://github.com/enkidevs/curriculum/pull/2129)
+ 

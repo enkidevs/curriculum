@@ -7,7 +7,7 @@ links:
     [owasp.org](https://www.owasp.org/index.php/Cross-site_Scripting_(XSS)){website}
   - >-
     [OWASP Top
-    Ten](https://www.owasp.org/images/7/72/OWASP_Top_10-2017_%28en%29.pdf.pdf){pdf}
+    Ten](https://owasp.org/www-project-top-ten/){pdf}
 ---
 
 # XSS (Cross-Site Scripting) Introduction

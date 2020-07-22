@@ -1,16 +1,20 @@
 ---
 author: SebaRaba
+
 type: normal
+
 category: must-know
+
 links:
   - >-
     [www.quora.com](https://www.quora.com/What-does-an-HTTP-request-looks-like){website}
   - '[webaim.org](http://webaim.org/blog/user-agent-string-history/){website}'
+
 parent: http-request
+
 ---
 
 # A Request Example
-
 
 ---
 
@@ -54,7 +58,6 @@ The payload contains the data specified by the **client**. In this example, the 
 
 Most modern browsers like **Microsoft Edge** (*F12*), **Mozilla Firefox** (*CTRL/CMD + Shift + J*) or **Chrome** (*CTRL/CMD + Shift + i*) provide a Developer Console accompanied by a *Network* tab where you can take a detailed look on all requests and responses made by your browser.
 
-
 ---
 
 ## Practice
@@ -82,16 +85,14 @@ Within an **HTTP request**, details about the browser are provided by which head
 - `Referer`
 - `Connection`
 
-
 ---
 
 ## Footnotes
 
 [1: User-Agent]
-It might seem strange that the first browser in the `User-Agent` field list is `Mozilla` and not `Chrome`. If you bookmark this insight, you will receive a link to an article explaining the reason why.
+It might seem strange that the first browser in the `User-Agent` field list is `Mozilla` and not `Chrome`.
 
 [2: Relative quality factor]
 If this is the first time you encounter the `q=0.8` notation, you should keep in mind that it is used to declare preference (it can take values between *0* and *1*). In this case, we prefer the more specific `en-GB, en-US` (British or American) English variants, rather than a more general English (`en`).
 
 In case `q` isn't present, the option has a default value of `q=1`, equivalent to the most preferred.
- 

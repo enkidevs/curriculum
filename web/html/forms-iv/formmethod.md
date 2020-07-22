@@ -22,7 +22,7 @@ There are two possible values for the `formmethod` attribute.
 - `method="post"`
 
 The `method="get"` appends form data to the URL when submitted.
-The method is useful for when the user wants to bookmark the result.
+The method is useful when the user wants to bookmark the result.
 It is not good to use the `method="get"` for password sensitive information. If passed with this method, the information will be visible in the browsers address bar.
 
 The `method="post"` does not append to the URL, but rather sends the form data as an HTTP post transaction.
