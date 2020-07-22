@@ -1,21 +1,14 @@
 ---
 author: alexjmackey
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-  - workout
-  - deep
-  - obscura
-
 ---
 
 # Functions Are Objects
 
+
 ---
+
 ## Content
 
 Every function in JavaScript is also an object. 
@@ -65,7 +58,9 @@ let add = function (x, y){
 add(1, 2); // 3
 ```
 
+
 ---
+
 ## Practice
 
 Complete the function expression in the following code snippet such that the code works correctly:
@@ -78,16 +73,17 @@ Complete the function expression in the following code snippet such that the cod
 console.log(add(1, 2, 3)); 
 ```
 
+- `let`
+- `function`
+- `return`
+- `console.log`
+- `get`
+- `fn`
+- `()`
 
-* `let`
-* `function`
-* `return`
-* `console.log`
-* `get`
-* `fn`
-* `()`
 
 ---
+
 ## Revision
 
 Complete the function expression in the following code snippet such that the code works correctly:
@@ -99,13 +95,10 @@ Complete the function expression in the following code snippet such that the cod
 console.log(x(1, 2, 3)); 
 ```
 
-
-* `let`
-* `function`
-* `return`
-* `console.log`
-* `get`
-* `fn`
-* `()`
-
- 
+- `let`
+- `function`
+- `return`
+- `console.log`
+- `get`
+- `fn`
+- `()`

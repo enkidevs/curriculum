@@ -1,45 +1,23 @@
 ---
 author: adamMontgomerie
-
-levels:
-
-  - basic
-
-  - advanced
-
-  - medium
-
 type: normal
-
 category: tip
-
-aspects:
-
-  - workout
-
-  - deep
-
 tags:
-
   - multithreading
-
   - threads
-
   - volatile
-
   - synchronization
-
   - atomic_access
-
 links:
-
-  - '[docs.oracle.com](https://docs.oracle.com/javase/tutorial/essential/concurrency/atomic.html){website}'
-
+  - >-
+    [docs.oracle.com](https://docs.oracle.com/javase/tutorial/essential/concurrency/atomic.html){website}
 ---
 
 # Declaring `volatile` variables
 
+
 ---
+
 ## Content
 
 The `volatile` modifier guarantees that all threads will always see the most up-to-date value of the variable.
@@ -62,7 +40,9 @@ public void run() {
 
 However, `volatile` is not necessarily a replacement for `synchronized` statements as memory inconsistency errors are still possible and `volatile` does not guarantee atomicity.
 
+
 ---
+
 ## Revision
 
 Take the following code snippet, the loop will run and loop endlessly, despite the assumption that the value of `this.done` is changed by another thread. To avoid this scenario, what keyword is used?
@@ -71,7 +51,7 @@ Take the following code snippet, the loop will run and loop endlessly, despite t
 ??? boolean done;
 ```
 
-* `volatile`
-* `static`
-* `finished`
-* `checker`
+- `volatile`
+- `static`
+- `finished`
+- `checker`

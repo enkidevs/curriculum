@@ -5,10 +5,6 @@ type: normal
 
 category: must-know
 
-aspects:
-  - introduction
-  - workout
-
 links:
   - '[for in / for of loops](https://youtu.be/a3KHBqH7njs){video}'
 
@@ -17,6 +13,7 @@ links:
 # Loops - Part 2
 
 ---
+
 ## Content
 
 The `for..in` loop allows you to iterate through an object's keys. Consider the following `firstName` and `lastName` keys:
@@ -70,11 +67,10 @@ for (let i in arr) {
 }
 // 10 20 30 newFunc
 
-for (let i of iterable) {
+for (let i of arr) {
    console.log(i);
 }
 // 10 20 30
-
 ```
 
 ### `break` & `continue`
@@ -99,12 +95,12 @@ do {
 
   console.log(i);
   
-} while (i<10);
+} while (i < 10);
 // 1 3 4
-
 ```
 
 ---
+
 ## Practice
 
 Iterate through the elements of `myArray`:
@@ -117,20 +113,20 @@ let myArray = [1, 2, "3", "item"];
 }
 ```
 
-* `for`
-* `of`
-* `myArray`
-* `Array`
-* `do`
+- `for`
+- `of`
+- `myArray`
+- `Array`
+- `do`
+
 
 ---
+
 ## Revision
 
 To exit a loop, you can use the ??? keyword.
 
-
-* break
-* stop
-* finish
-* end
- 
+- break
+- stop
+- finish
+- end

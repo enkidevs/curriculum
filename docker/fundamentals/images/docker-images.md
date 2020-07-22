@@ -1,15 +1,15 @@
 ---
 author: nem035
-aspects:
-  - introduction
-  - workout
 type: normal
 category: must-know
 links:
-- '[What is the difference between a Docker image and a Container?](https://stackoverflow.com/questions/23735149/what-is-the-difference-between-a-docker-image-and-a-container){discussion}'
+  - >-
+    [What is the difference between a Docker image and a
+    Container?](https://stackoverflow.com/questions/23735149/what-is-the-difference-between-a-docker-image-and-a-container){discussion}
 ---
 
 # Images
+
 
 ---
 
@@ -57,7 +57,7 @@ docker history nginx
 
 would output something like:
 
-```
+```plain-text
 IMAGE               CREATED             CREATED BY                                      SIZE                COMMENT
 3f8a4339aadd        2 days ago          /bin/sh -c #(nop)  CMD ["nginx" "-g" "daem...   0B
 <missing>           2 days ago          /bin/sh -c #(nop)  STOPSIGNAL [SIGTERM]         0B
@@ -75,16 +75,18 @@ An image that doesn't extend any other image is known as the base image.
 
 Images are built using a special configuration file (commonly) named Dockerfile and the `docker build` command.
 
+
 ---
 
 ## Practice
 
 Docker images are composed of ???
 
-* layers
-* containers
-* pixels
-* fragments
+- layers
+- containers
+- pixels
+- fragments
+
 
 ---
 
@@ -94,10 +96,12 @@ A Docker image can be modified.
 
 ???
 
-* false
-* true
+- false
+- true
+
 
 ---
+
 ## Footnotes
 
 [1: SHA]

@@ -1,23 +1,18 @@
 ---
 author: tommarshall
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-  - new
-  - workout
-  
 links:
-  - '[Network Information API](http://code.tutsplus.com/tutorials/html5-network-information-api--cms-21598){website}'
-
+  - >-
+    [Network Information
+    API](http://code.tutsplus.com/tutorials/html5-network-information-api--cms-21598){website}
 ---
 
 # Network Information API
 
+
 ---
+
 ## Content
 
 The *Network Information API* provides information about the system's connection. It's used to choose either high definition or low definition content for a user, dependent on their connection.
@@ -59,7 +54,9 @@ function updateConnectionStatus() {
 }
 ```
 
+
 ---
+
 ## Practice
 
 Declare the connection and type:
@@ -72,15 +69,17 @@ let connection =
 let type = connection.???;
 ```
 
-* `navigator`
-* `mozConnection`
-* `effectiveType`
-* `connection`
-* `kind`
-* `statusConnection`
-* `eventConnection`
+- `navigator`
+- `mozConnection`
+- `effectiveType`
+- `connection`
+- `kind`
+- `statusConnection`
+- `eventConnection`
+
 
 ---
+
 ## Revision
 
 Listen for a change in the user's connection:
@@ -94,9 +93,8 @@ connection.addEventListener(
 );
 ```
 
-* `typechange`
-* `type`
-* `change`
-* `update`
-* `statusChange`
- 
+- `typechange`
+- `type`
+- `change`
+- `update`
+- `statusChange`

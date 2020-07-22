@@ -1,24 +1,21 @@
 ---
 author: catalin
-
 type: normal
-
 category: must-know
-
 links:
-
-  - '[Components and props](https://facebook.github.io/react/docs/components-and-props.html){website}'
-  - '[How are function components different from classes](https://overreacted.io/how-are-function-components-different-from-classes/){website}'
-
-aspects:
-  - introduction
-  - deep
-
+  - >-
+    [Components and
+    props](https://facebook.github.io/react/docs/components-and-props.html){website}
+  - >-
+    [How are function components different from
+    classes](https://overreacted.io/how-are-function-components-different-from-classes/){website}
 ---
 
 # Function components
 
+
 ---
+
 ## Content
 
 **React** components behave just like functions, taking `props` as input and returning **React elements**.
@@ -93,12 +90,15 @@ class FollowComponent extends React.Component {
 
 For more information on the differences between function and class components make sure to check the resources.
 
+
 ---
+
 ## Practice
 
 Complete the second code snippet such that it's equivalent to the first:
 
 First:
+
 ```jsx
 class Test extend React.Component {
   render() {
@@ -108,21 +108,21 @@ class Test extend React.Component {
 ```
 
 Second:
+
 ```jsx
 ??? Test(???) {
   ??? <p>???</p>;
 }
 ```
 
-
-* `function`
-* `props`
-* `return`
-* `{props.test}`
-* `{this.props.test}`
-* `render`
-* `state`
-* `func`
-* `props.test`
-* `test`
-* `this.props.test`
+- `function`
+- `props`
+- `return`
+- `{props.test}`
+- `{this.props.test}`
+- `render`
+- `state`
+- `func`
+- `props.test`
+- `test`
+- `this.props.test`

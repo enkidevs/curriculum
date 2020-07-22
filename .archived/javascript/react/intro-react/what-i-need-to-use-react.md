@@ -28,9 +28,9 @@ To install **React** you can use a *package manager* such as `yarn` or `npm`:
 
 ```bash
 // yarn
-$ yarn add react react-dom
+yarn add react react-dom
 // npm
-$ npm install --save react react-dom
+npm install --save react react-dom
 ```
 
 You can also use a **CDN** (Content Delivery Network). For both the development and production builds (*minified*) check the link appended to the insight.
@@ -47,8 +47,8 @@ Using `Babel` compiler will allow you to write your application with both `ES6`[
 To create a **Single page application** you can use the officially supported package called `create-react-app`:
 
 ```bash
-$ npm i -g create-react-app
-$ create-react-app myAppName
+npm i -g create-react-app
+create-react-app myAppName
 ```
 
 This will automatically create a *static application* with no backend logic or databases. However, this will set-up the development environment including all the modern tools specified above.
@@ -56,8 +56,8 @@ This will automatically create a *static application* with no backend logic or d
 To run your `create-react-app` app just:
 
 ```bash
-$ cd myAppName
-$ npm start
+cd myAppName
+npm start
 ```
 
 ---
@@ -100,3 +100,5 @@ https://babeljs.io/
 [3:ES6]
 **ECMAScript 6** (`ES6`, often referred to as “Harmony”) is the upcoming sixth major release of the `ECMAScript` language specification. `ECMAScript` is the “proper” name for the language known as `JavaScript`.
 
+ 
+ 

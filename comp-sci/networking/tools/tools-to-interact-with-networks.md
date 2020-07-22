@@ -1,38 +1,20 @@
 ---
 author: catalin
-
-levels:
-
-  - beginner
-
-  - basic
-
-  - medium
-
-  - advanced
-
 type: normal
-
 category: must-know
-
-aspects:
-
-  - introduction
-
-  - workout
-
 links:
-
-  - '[www.tecmint.com](http://www.tecmint.com/linux-network-configuration-and-troubleshooting-commands/){website}'
-  - '[slackbook.org](http://slackbook.org/html/basic-network-commands.html){website}'
-
+  - >-
+    [www.tecmint.com](http://www.tecmint.com/linux-network-configuration-and-troubleshooting-commands/){website}
+  - >-
+    [slackbook.org](http://slackbook.org/html/basic-network-commands.html){website}
 parent: differences-between-bandwidth-and-throughput
-
 ---
 
 # Tools to interact with Networks
 
+
 ---
+
 ## Content
 
 We have witnessed an exponential growth in the size of **computer networks** since their introduction, with more and more people joining them every day.
@@ -55,26 +37,29 @@ Some of the most known and used networking utilities include:
 - `netstat` - provides statistics about networks
 - `route` - shows and manipulates the **IP Routing Table**[1]
 
+
 ---
+
 ## Revision
 
 Which of the following tools can be used to echo a packet to remote host?
 
 ```bash
-$ ??? google.com
+??? google.com
 ```
 
+- `ping`
+- `ipconfig`
+- `nslookup`
+- `netstat`
+- `route`
 
-* `ping`
-* `ipconfig`
-* `nslookup`
-* `netstat`
-* `route`
 
 ---
+
 ## Footnotes
+
 [1:IP Routing Table]
 A routing table is a set of rules, often viewed in table format, that is used to determine where data packets traveling over an Internet Protocol (`IP`) network will be directed.
 
 All IP-enabled devices, including routers and switches, use routing tables.
-

@@ -1,18 +1,14 @@
 ---
 author: emmab
-
 type: normal
-
-aspects:
-  - introduction
-
 category: must-know
-
 ---
 
 # Introduction to Booleans
 
+
 ---
+
 ## Content
 
 Beneath the magic of an `if` statement is another Python data type, `bool`, the **boolean**!
@@ -50,7 +46,9 @@ Here, `'Get some food!'` is printed because the condition above evaluates to `Tr
 # <class 'bool'>
 ```
 
+
 ---
+
 ## Practice
 
 What would the following conditional statement evaluate to?
@@ -63,12 +61,14 @@ x >= 21
 
 ???
 
-* `True`
-* `False`
-* `true` 
-* `false`
+- `True`
+- `False`
+- `true` 
+- `false`
+
 
 ---
+
 ## Revision
 
 What class would the following code return?
@@ -78,7 +78,7 @@ type(False)
 # <type '???'>
 ```
 
-* `bool`
-* `boolean`
-* `Boolean`
-* `Bool`
+- `bool`
+- `boolean`
+- `Boolean`
+- `Bool`

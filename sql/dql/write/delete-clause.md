@@ -1,32 +1,17 @@
 ---
 author: SebaRaba
-
-levels:
-  - beginner
-  - basic
-  - medium
-
 type: normal
-
 category: must-know
-
 inAlgoPool: false
-
-standards:
-  sql.write.5: 10
-
-aspects:
-  - introduction
-  - workout
-  
 links:
   - '[More on DELETE](http://www.dofactory.com/sql/delete){website}'
-
 ---
 
 # Delete clause
 
+
 ---
+
 ## Content
 
 The `DELETE` clause lets users delete data from a table. We can specify which rows to delete using the `WHERE` clause, otherwise all records will be deleted.
@@ -34,7 +19,7 @@ The `DELETE` clause lets users delete data from a table. We can specify which ro
 Consider the `egg_group` table:
 
 | id | name          |
-|----|---------------|
+| -- | ------------- |
 | 1  | monster       |
 | 2  | water1        |
 | 3  | bug           |
@@ -61,7 +46,7 @@ WHERE id = 1;
 Then, our table becomes:
 
 | id | name          |
-|----|---------------|
+| -- | ------------- |
 | 2  | water1        |
 | 3  | bug           |
 | 4  | flying        |
@@ -94,13 +79,15 @@ If we wanted to delete all the data in this table:
 DELETE FROM egg_group;
 ```
 
+
 ---
+
 ## Practice
 
 Consider the `egg_group` table. Fill in the gap to delete the first 5 values of it.
 
 | id | name          |
-|----|---------------|
+| -- | ------------- |
 | 1  | monster       |
 | 2  | water1        |
 | 3  | bug           |
@@ -122,18 +109,20 @@ Consider the `egg_group` table. Fill in the gap to delete the first 5 values of 
 WHERE id ??? 1 and 5;
 ```
 
-* DELETE
-* between
-* =
-* UPDATE
+- DELETE
+- between
+- =
+- UPDATE
+
 
 ---
+
 ## Revision
 
 We want to delete the 15th element of the `egg_group` table:
 
 | id  | name    |
-|-----|---------|
+| --- | ------- |
 | 1   | monster |
 | 2   | water1  |
 | 3   | bug     |
@@ -141,9 +130,8 @@ We want to delete the 15th element of the `egg_group` table:
 | 14  | dragon  |
 | 15  | no-eggs |
 
-
 ???
 
-* DELETE FROM egg_group WHERE id= 15;
-* UPDATE egg_group DELETE WHERE id=15;
-* DELETE FROM egg_group;
+- DELETE FROM egg_group WHERE id= 15;
+- UPDATE egg_group DELETE WHERE id=15;
+- DELETE FROM egg_group;

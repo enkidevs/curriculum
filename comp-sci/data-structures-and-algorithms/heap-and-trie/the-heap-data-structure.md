@@ -1,37 +1,19 @@
 ---
 author: jfarmer
-
-levels:
-
-  - beginner
-
-  - basic
-
-  - medium
-
-  - advanced
-
 type: normal
-
 category: must-know
-
-aspects:
-
-  - deep
-
-  - workout
-
 links:
-
-  - '[The heap data structure](https://www.cs.cmu.edu/~adamchik/15-121/lectures/Binary%20Heaps/heaps.html){website}'
-
+  - >-
+    [The heap data
+    structure](https://www.cs.cmu.edu/~adamchik/15-121/lectures/Binary%20Heaps/heaps.html){website}
 parent: balanced-vs-unbalanced-binary-trees
-
 ---
 
 # The Heap Data Structure
 
+
 ---
+
 ## Content
 
 A *heap* is tree-based data structure designed to support a constant-time `find-max` (or `find-min`) operation in addition to efficient insertion of new elements and efficient removal of the maximum (or minimum) element.  They are frequently used to implement priority queues, where the elements are ordered by priority (or some other factor) rather then their insertion order.
@@ -46,35 +28,42 @@ Finding the maximum element is easy — it's the root node — but storing the i
 
 If we were to store the same information in a sorted list we could have constant time `find-max` and constant-time removal[1], but `O(n)`-time insertion.
 
+
 ---
+
 ## Practice
 
 What is the average insertion time in a *binary heap*?
 
 ???
 
-* O(log n)
-* O(n)
-* O(log log n)
-* O(sqrt(n))
+- O(log n)
+- O(n)
+- O(log log n)
+- O(sqrt(n))
+
 
 ---
+
 ## Revision
 
 What operation should a *max heap* support?
 
 ???
 
-* `find-max`
-* `find-min`
-* `sort`
-* `get-min`
+- `find-max`
+- `find-min`
+- `sort`
+- `get-min`
+
 
 ---
+
 ## Footnotes
+
 [1:Constant time removal]
 
 As heaps are data structures for which the minimal or maximal element is prioritized, constant-time removal refers to the removal of this particular element (which we can access in constant-time through the `find-max`/`find-min` functions).
 
 Because of this property, priority queues are often implemented using heaps.
-
+ 

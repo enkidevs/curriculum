@@ -1,22 +1,16 @@
 ---
 author: emmab
-
 tags:
   - introduction
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-  - workout
-
 ---
 
 # Email Address Checker I
 
+
 ---
+
 ## Content
 
 How many times have you seen the message *“Invalid email format”* in your sign-up form?
@@ -25,21 +19,21 @@ That's because the `input` element on an HTML form already performs the validati
 
 That being said, if for some reason you don't have access to this field, regex can help you validate email addresses in a single line of code, instead of having to write several `if` statements[1]. 
 
-Let's start off with a basic expression to check that the overall structure of the string is in the form `'x@y.z'`.
+Let's start off with a basic expression to check that the overall structure of the text is in the form `x@y.z`.
 
-```
+```plain-text
 /.+@.+\..+/
-
-'a@b.c' ✅
-'xxxx@yyyy.zzz' ✅
-'a @ b . c' ✅
 ```
+
+`a@b.c` ✅
+`xxxx@yyyy.zzz` ✅
+`a @ b . c` ✅
 
 As you can see, this very basic pattern validates even invalid email addresses 😢.
 
 Let's try a stricter example:
 
-```
+```plain-text
 /[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,6}/i
 ```
 
@@ -51,33 +45,43 @@ Let's try a stricter example:
 
 We can also add an `i` modifier to the end of our regex to make sure that the pattern is case insensitive 🙌.
 
+
 ---
+
 ## Practice
 
 Using the regex below, we could match the email address `we_love_code@enki.com`.
 
-`/[a-z]+@[a-z]+\.[a-z]{2,6}/i`
+```plain-text
+/[a-z]+@[a-z]+\.[a-z]{2,6}/i
+```
 
 ???
 
-* False
-* True
+- False
+- True
 
 
 ---
+
 ## Revision
 
 Using the regex below, we could match the email address `we_love_code@enki.com`.
 
-`/[a-z_]+@[a-z]+\.[a-z]{2,6}/i`
+```plain-text
+/[a-z_]+@[a-z]+\.[a-z]{2,6}/i
+```
 
 ???
 
-* True
-* False
+- True
+- False
+
 
 ---
+
 ## Footnotes
 
 [1:if statements]
 Conditional statements (or `if` statements) are features of a programming language that perform different actions depending on whether a condition evaluates to true or false.
+ 

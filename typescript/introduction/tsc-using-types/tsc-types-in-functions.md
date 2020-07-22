@@ -2,18 +2,20 @@
 author: nem035
 type: normal
 category: must-know
-aspects:
-  - introduction
-  - workout
 links:
-  - '[Practice Lessons from this Insight](https://repl.it/@enkicontent/TypeScriptFunctionsIntro){website}'
-  - '[Functions in TS](https://www.typescriptlang.org/docs/handbook/functions.html){documentation}'
-
+  - >-
+    [Practice Lessons from this
+    Insight](https://repl.it/@enkicontent/TypeScriptFunctionsIntro){website}
+  - >-
+    [Functions in
+    TS](https://www.typescriptlang.org/docs/handbook/functions.html){documentation}
 ---
 
 # Types in Functions
 
+
 ---
+
 ## Content
 
 We can attach a type to a parameter of a function by adding a `:` and a type after its name:
@@ -35,7 +37,7 @@ hello(123);
 // error: Argument of type 'number' is not assignable to parameter of type 'string'.
 ```
 
-TypeScript will also throw an error if the wrong number of arguments[1] is passed in:
+TypeScript will also throw an error if the wrong number of [arguments](https://enki.com/glossary/general/parameter-vs-argument) is passed in:
 
 ```ts
 function hello(
@@ -74,7 +76,9 @@ function hello(name: string): string {
 }
 ```
 
+
 ---
+
 ## Practice
 
 Which line do you think will compile without errors?
@@ -99,10 +103,12 @@ getLessonsLearned(100);
 
 ???
 
-* A
-* B
+- A
+- B
+
 
 ---
+
 ## Revision
 
 Will this code compile without errors?
@@ -115,13 +121,5 @@ function enki(age: number): string {
 
 ???
 
-* Yes
-* No
-
----
-## Footnotes
-
-[1: Parameter vs Argument]
-A *parameter* is a variable defined by a function to hold one of its input values.
-
-The value that is passed into a function is called an *argument*.
+- Yes
+- No

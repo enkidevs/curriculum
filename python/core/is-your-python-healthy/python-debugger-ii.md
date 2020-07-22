@@ -1,31 +1,22 @@
 ---
 author: SebaRaba
-
-levels:
-  - beginner
-  - basic
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-  - workout
-  - deep
-
 links:
-  - '[Python debugger](https://www.digitalocean.com/community/tutorials/how-to-use-the-python-debugger){website}'
-
-
+  - >-
+    [Python
+    debugger](https://www.digitalocean.com/community/tutorials/how-to-use-the-python-debugger){website}
 ---
 
 # Python Debugger Methods
 
+
 ---
+
 ## Content
 
 Considering the **source code** exemplified in the previous insight[1], lets see how `list()` works:
+
 ```python
 (Pdb) list
 1  -> num_list = [1, 2]
@@ -90,31 +81,35 @@ b
 
 Finally, whenever you want to leave `pdb` console, type `quit` or `exit`.
 
----
-## Practice
 
+---
+
+## Practice
 
 The `???` command will **iterate** through the loops showing exactly what the **loop** is doing.
 The `???` command executes **statements**, without showing everything that happened to evaluate the call.
 The `???` command has **optional arguments** that must be two `int` values that define the range of lines the user wants.
 
+- step
+- next
+- list()
 
-* step
-* next
-* list()
 
 ---
+
 ## Revision
 
 When debugging a python file with `pdb`, which command will show the step-by-step process?
 
 ???
 
-* `step`
-* `next`
-* `go`
+- `step`
+- `next`
+- `go`
+
 
 ---
+
 ## Footnotes
 
 [1:Source Code]
@@ -139,7 +134,7 @@ if __name_ == '__main__':
 And we ran the debugger using:
 
 ```bash
-$ python3 -m pdb debug.py
+python3 -m pdb debug.py
 
 #Console output:
 

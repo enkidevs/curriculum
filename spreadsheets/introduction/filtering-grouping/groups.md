@@ -1,19 +1,14 @@
 ---
 author: Stefan-Stojanovic
-
-aspects:
-  - deep
-  - workout
-
 type: normal
-
 category: how to
-
 ---
 
 # Groups
 
+
 ---
+
 ## Content
 
 Groups are used to more easily **organize data in a spreadsheet**. If you have a large spreadsheet, you can use groups to easily hide and display parts of your sheet. Both rows and columns can be grouped.
@@ -38,14 +33,17 @@ This will give us a checkbox where we can select to either display or hide the g
 
 We can also group the `Professor` and `Student` cells and then nest all 3 in a top-level group. This will allow us to easily hide the whole table or just parts of it.
 
+
 ---
+
 ## Practice
 
 Which sentence is **not** true about groups?
 
 ???
 
-* Groups don't work without filtering first.
-* Groups are used to more easily organize data in a spreadsheet.
-* Groups can be applied to both rows and columns.
-* Groups can be nested.
+- Groups don't work without filtering first.
+- Groups are used to more easily organize data in a spreadsheet.
+- Groups can be applied to both rows and columns.
+- Groups can be nested.
+ 

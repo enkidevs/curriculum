@@ -1,28 +1,23 @@
 ---
 author: emmab
-
-levels:
-  - beginner
-
 tags:
   - introduction
-
 type: normal
-
 category: tip
-
-aspects:
-  - introduction
-
-links: 
-- '[Why Learn Python](https://medium.com/datadriveninvestor/5-reasons-why-i-learned-python-and-why-you-should-learn-it-as-well-917f781aea05){website}'
-- '[Python OOP](https://www.programiz.com/python-programming/object-oriented-programming){website}'
-
+links:
+  - >-
+    [Why Learn
+    Python](https://medium.com/datadriveninvestor/5-reasons-why-i-learned-python-and-why-you-should-learn-it-as-well-917f781aea05){website}
+  - >-
+    [Python
+    OOP](https://www.programiz.com/python-programming/object-oriented-programming){website}
 ---
 
 # Why learn Python?
 
+
 ---
+
 ## Content
 
 Python is seen as the number one language to learn. Here are a few reasons why:
@@ -47,26 +42,32 @@ You can use Python to build whatever you want to build, from a scraper to an e-c
 
 Check out the *Learn More link* to dig into more reasons to learn Python.
 
+
 ---
+
 ## Practice
 
 It typically requires ??? code to write the same task in Python than in C++.
 
-* less
-* more
-* about the same
+- less
+- more
+- about the same
+
 
 ---
+
 ## Revision
 
 How much Python code is usually required to write the same task compared to C++ code? ???
 
-* `Up to 10 times less`
-* `Up to 5 times less`
-* `3–5 times less`
-* `Roughly equal`
+- `Up to 10 times less`
+- `Up to 5 times less`
+- `3–5 times less`
+- `Roughly equal`
+
 
 ---
+
 ## Footnotes
 
 [1:Object-oriented programming]
@@ -75,3 +76,4 @@ All you need to know for now is that **object-oriented programming** (OOP) is a 
 Let's use the common car analogy to better understand OOP. 
 
 Think of the car as the object. The model, color or age of the car are the object's *attributes*. Whether the engine is on, or whether it's moving are *behaviors* and would exist as functions.
+ 

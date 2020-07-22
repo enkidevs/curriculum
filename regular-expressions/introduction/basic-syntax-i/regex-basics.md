@@ -1,27 +1,22 @@
 ---
 author: emmab
-
 tags:
   - introduction
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-
 ---
 
 # Regex basics
 
+
 ---
+
 ## Content
 
-Very basic regex patterns can be *identical to the content* of the string we want to test:
+Very basic regex patterns can be *identical to the content* of the text we want to test:
 
-```
-string = 'Fred'
+```plain-text
+text = 'Fred'
 
 /fred/ ❌ 
 
@@ -36,30 +31,35 @@ Say we want to find all names beginning with `'Fre'` from the following list:
 
 We could use `/Fre/` as our regex pattern to match the following:
 
-'**Fre**d, **Fre**ya, Francis'
+'`Fre`d, `Fre`ya, Francis'
 
-> 💡 This would not match the whole name, just the letters '**Fre**'. 
+> 💡 This would not match the whole name, just the letters 'Fre'. 
 
 In order to match the whole name, we'd have to use quantifiers and wildcards - more about those next!
 
+
 ---
+
 ## Practice
 
 How could we match items in a shopping list that include the word 'apple'?
 
 ???
 
-* `/apple/`
-* `/a/`
-* `/🍏/`
-* `/Apple/`
+- `/apple/`
+- `/a/`
+- `/🍏/`
+- `/Apple/`
+
 
 ---
+
 ## Revision
 
 When writing regex patterns, capitalization matters.
 
 ???
 
-* True
-* False
+- True
+- False
+ 

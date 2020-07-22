@@ -1,34 +1,29 @@
 ---
 author: emmab
-
 tags:
   - introduction
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-
 ---
 
 # Wildcards II
 
+
 ---
+
 ## Content
 
-Going back to our previous example - if we wanted to find all names beginning with `Fre` then we could write our regex pattern as:
+Going back to our previous example - if we wanted to find all names beginning with `'Fre'` then we could write our regex pattern as:
 
-`/Fre\w*/`
-
-This would match the names that start with `Fre`, and then have zero or more word characters. 
-
+```plain-text
+/Fre\w*/
 ```
-'Fred' ✅
-'Freya' ✅
-'Francis' ❌
-```
+
+This would match the names that start with `'Fre'`, and then have zero or more word characters. 
+
+`Fred` ✅
+`Freya` ✅
+Francis ❌
 
 Here are a few more wildcards that can be used when you want to be more specific than using a `.`, `\w` or `\W`!
 
@@ -38,9 +33,9 @@ Here are a few more wildcards that can be used when you want to be more specific
 
 We could use the following regex pattern to match these three strings:
 
-`/\s+abc/`
+```plain-text
+/\s+abc/
 
-```
 ' abc' ✅
 '	abc' ✅
 '    abc' ✅
@@ -53,39 +48,48 @@ We could use the following regex pattern to match these three strings:
 
 We could match just the numbers in the following strings by using this regex:
 
-`/\d+/`
+```plain-text
+/\d/
+```
 
-```
-'abc**123**xyz' ✅
-'define "**456**"' ✅
-'var g = **789**;' ✅
-'abc' ❌
-```
+| Text             | Match |
+| ---------------- | ----- |
+| abc`123`xyz      | ✅     |
+| define = "`456`" | ✅     |
+| var g = `789`;   | ✅     |
+| abc              | ❌     |
+
+In this case, `/\d/` will match 1, 2 and 3 individually. If we want to match 123 then we could use `/\d+/` or `/\d*/`.
+
 
 ---
+
 ## Practice
 
-Which regex pattern would match any non-digits in the following string?
+Which regex pattern would match any non-digits in the following text?
 
-'**abc**123**xyz**'
+`abc`123`xyz`
 
 ???
 
-* `/\D/`
-* `/\d/`
-* `/\S/`
-* `/\s/`
+- `/\D/`
+- `/\d/`
+- `/\S/`
+- `/\s/`
+
 
 ---
+
 ## Revision
 
-Which regex pattern would match any non-whitespace characters in the following string?
+Which regex pattern would match any non-whitespace characters in the following text?
 
-'**green eggs and ham**'
+`green eggs and ham`
 
 ???
 
-* `/\S/`
-* `/\d/`
-* `/\D/`
-* `/\s/`
+- `/\S/`
+- `/\d/`
+- `/\D/`
+- `/\s/`
+ 

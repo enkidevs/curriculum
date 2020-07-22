@@ -1,23 +1,17 @@
 ---
 author: fsites
-
 type: normal
-
 category: best practice
-
 tags:
   - obscura
   - introduction
-
-aspects:
-  - obscura
-  - introduction
-
 ---
 
 # Double & Single Quotes
 
+
 ---
+
 ## Content
 
 There are different types of values you can store in variables. One such type is called string, and it represents a sequence of text. 
@@ -35,23 +29,23 @@ JSON standards *require* strings to be double quoted. For consistency, some deve
 
 However, modern linters often recommend using single quotes in JavaScript, with double quotes reserved for HTML only.
 
+
 ---
+
 ## Practice
 
 JSON standards require strings to be ??? quoted. However some modern linters recommend using ??? quotes only in JavaScript.
 
+- double
+- single
+- no
 
-* double
-* single
-* no
 
 ---
+
 ## Revision
 
 JSON standard requires every string to be ??? quoted.
 
-
-* double
-* single
- 
- 
+- double
+- single

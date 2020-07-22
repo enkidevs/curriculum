@@ -1,31 +1,16 @@
 ---
 author: mihaiberq
-
-levels:
-  - beginner
-  - basic
-  - medium
-
 type: normal
-
 category: must-know
-
 inAlgoPool: false
-
-standards:
-  sql.write.0: 10
-
-aspects:
-  - introduction
-  - workout
-
 parent: union
-
 ---
 
 # INSERT
 
+
 ---
+
 ## Content
 
 The `INSERT` operation allows new entries to be added to the table. The base syntax is as follows:
@@ -82,7 +67,9 @@ WHERE items.cost <= 0;
 
 Note that for this to work, the number and type of selected columns must correlate with either the number and type of columns specified after the `INSERT` keyword or with the number and type of columns found in the table. Any variant of the specific column insertion is applicable to the last query as well.
 
+
 ---
+
 ## Practice
 
 Which syntax can be used to insert values in non-consecutive columns?
@@ -105,11 +92,13 @@ VALUES (value1, 'value2', value3);
 
 ???
 
-* `B`
-* `A`
-* `C`
+- `B`
+- `A`
+- `C`
+
 
 ---
+
 ## Revision
 
 Complete the following query to insert values into a new table called `water_pokemon`:
@@ -122,13 +111,13 @@ INSERT INTO water_pokemon
 ??? ??? FROM pokemon;
 ```
 
-* INSERT
-* INTO
-* VALUES
-* SELECT
-* name, level, hp
-* ADD
-* IN
-* VALS
-* INTRODUCE
-* age, attack, defense
+- INSERT
+- INTO
+- VALUES
+- SELECT
+- name, level, hp
+- ADD
+- IN
+- VALS
+- INTRODUCE
+- age, attack, defense

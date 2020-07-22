@@ -2,19 +2,23 @@
 author: kapnobatai136
 type: normal
 category: must-know
-aspects:
-  - introduction
-  - workout
 links:
-  - '[Number Type](https://www.typescriptlang.org/docs/handbook/basic-types.html#number){documentation}'
-  - '[String Type](https://www.typescriptlang.org/docs/handbook/basic-types.html#string){documentation}'
-  - '[Boolean Type](https://www.typescriptlang.org/docs/handbook/basic-types.html#boolean){documentation}'
-
+  - >-
+    [Number
+    Type](https://www.typescriptlang.org/docs/handbook/basic-types.html#number){documentation}
+  - >-
+    [String
+    Type](https://www.typescriptlang.org/docs/handbook/basic-types.html#string){documentation}
+  - >-
+    [Boolean
+    Type](https://www.typescriptlang.org/docs/handbook/basic-types.html#boolean){documentation}
 ---
 
 # Number, String & Boolean
 
+
 ---
+
 ## Content
 
 We can attach a type to a variable by adding a colon (`:`) and a type after its name.
@@ -49,18 +53,22 @@ let isTrue: boolean = true;
 let isFalse: boolean = false;
 ```
 
+
 ---
+
 ## Practice
 
 Declare a variable `ts` with the type `string` and a value `'is fun'`:
 
 ???
 
-* `let ts: string = 'is fun'`
-* `let ts string = 'is fun'`
-* `let ts: string > 'is fun'`
+- `let ts: string = 'is fun'`
+- `let ts string = 'is fun'`
+- `let ts: string > 'is fun'`
+
 
 ---
+
 ## Revision
 
 Match the types with their values:
@@ -71,11 +79,13 @@ let b: ??? = 'Enki';
 let c: ??? = 123.4;
 ```
 
-* boolean
-* string
-* number
+- boolean
+- string
+- number
+
 
 ---
+
 ## Footnotes
 
 [1: Numerical Values in TypeScript]

@@ -1,21 +1,16 @@
 ---
 author: alexjmackey
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-
 links:
   - '[Comparison Operators & If Else](https://youtu.be/7WkfzokHGqo){video}'
-
 ---
 
 # If Statement
 
+
 ---
+
 ## Content
 
 Like most programming languages JavaScript has a number of flow control statements including the standard `if` and `if..else`.
@@ -68,11 +63,14 @@ The output of the code above is:
 "still figuring it out"
 ```
 
+
 ---
+
 ## Practice
 
 How would you write an `if/else` statement?
-```
+
+```plain-text
 if (condition <= 0) {
   ...
 } ??? ??? (condition > 0) {
@@ -81,12 +79,12 @@ if (condition <= 0) {
 
 ```
 
-* `else`
-* `if`
-* `case`
-* `break`
-* `if else`
-* `else if`
-* `switch`
-* `case`
-* `==`
+- `else`
+- `if`
+- `case`
+- `break`
+- `if else`
+- `else if`
+- `switch`
+- `case`
+- `==`

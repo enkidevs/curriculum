@@ -1,18 +1,18 @@
 ---
 author: nem035
-aspects:
-  - introduction
-  - workout
 type: normal
 category: must-know
 links:
-- '[Docker CLI](https://docs.docker.com/engine/reference/commandline/cli/){documentation}'
-
+  - >-
+    [Docker
+    CLI](https://docs.docker.com/engine/reference/commandline/cli/){documentation}
 ---
 
 # Docker CLI
 
+
 ---
+
 ## Content
 
 Docker comes with a command-line interface (CLI) that uses the Docker REST API to control or interact with the Docker daemon[1]. This gives us a fine-grain control to manipulate containers, images, networks, services and other Docker Objects.
@@ -63,7 +63,7 @@ docker attach --help
 
 would display:
 
-```
+```plain-text
 Usage:  docker attach [OPTIONS] CONTAINER
 
 Attach local standard input, output, and error streams to a running container
@@ -75,35 +75,41 @@ Options:
       --sig-proxy            Proxy all received signals to the process (default true)
 ```
 
-Docker CLI (and Docker in general) has a concept of "_batteries included but removable_".
+Docker CLI (and Docker in general) has a concept of "*batteries included but removable*".
 
 This essentially means that the default configurations in Docker are setup to be easy to use and solve the most common problems but that we can change most of the options under the hood. Defaults work well in many cases, but it's easy to overwrite them when needed.
 
+
 ---
+
 ## Practice
 
 To inspect a Docker `nginx` image, we'd run the command:
 
 ???
 
-* `docker image inspect nginx`
-* `docker inspect image nginx`
-* `docker image nginx inspect`
-* `docker inspect nginx image`
+- `docker image inspect nginx`
+- `docker inspect image nginx`
+- `docker image nginx inspect`
+- `docker inspect nginx image`
+
 
 ---
+
 ## Revision
 
 To fetch the logs for a Docker container named `webserver`, we'd run:
 
 ???
 
-* `docker container logs webserver`
-* `docker logs container webserver`
-* `docker show logs webserver`
-* `docker webserver container-logs`
+- `docker container logs webserver`
+- `docker logs container webserver`
+- `docker show logs webserver`
+- `docker webserver container-logs`
+
 
 ---
+
 ## Footnotes
 
 [1: daemon]

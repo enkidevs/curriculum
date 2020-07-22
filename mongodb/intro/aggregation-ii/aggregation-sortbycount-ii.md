@@ -1,23 +1,14 @@
 ---
 author: Stefan-Stojanovic
-
-levels:
-  - beginner
-
-aspects:
-  - new
-  - deep
-  - workout
-
 type: normal
-
 category: tip
-
 ---
 
 # Aggregating with $sortByCount and $match
 
+
 ---
+
 ## Content
 
 We can use the `$match` aggregation stage to only match documents of a certain `type` followed by sorting by count for documents that match our specified `type`.
@@ -36,16 +27,19 @@ db.pokemon.aggregate([
 ```
 
 Output:
+
 ```javascript
 { "_id": "Poison", "count": 3 }
 { "_id": null, "count": 45 }
 ```
 
 What this output means is that:
+
 - there are 3 pokémon that have `type: "Water"` and `secondType: "Poison"`
 - there are 45 pokémon that have `type: "Water"` and `secondType: null`
 
 You are not limited to using only the `$match` stage. Another good example is to count and sort documents where the `power` is greater than or equal to 300.
+
 ```javascript
 db.pokemon.aggregate([
   {
@@ -58,6 +52,7 @@ db.pokemon.aggregate([
 ```
 
 Output:
+
 ```javascript
 { "_id": "Fighting", "count": 3 }
 { "_id": "Fire", "count": 23 }
@@ -65,16 +60,17 @@ Output:
 ```
 
 What this output means is that:
+
 - there are 3 pokémon that have `secondType: "Fighting"` and a `power` greater than 300
 - there are 23 pokémon that have `secondType: "Fire"` and a `power` greater than 300
 - there are 91 pokémon that don't have a `secondType` (`secondType: null`) and have a `power` greater than 300
 
 
 ---
+
 ## Practice
 
 Let's say we have a collection named `students` with 2000 documents. Each student has a `name`, `studentId` and `averageGrade` field. Count all documents whose `averageGrade` is greater than `90` and sort them in descending order.
-
 
 ```javascript
 db.students.???([
@@ -87,12 +83,12 @@ db.students.???([
 ])
 ```
 
-* `aggregate`
-* `$match`
-* `averageGrade`
-* `$sortByCount`
-* `$count`
-* `$find`
-* `STUDENTS`
-* `name`
-* `studentId`
+- `aggregate`
+- `$match`
+- `averageGrade`
+- `$sortByCount`
+- `$count`
+- `$find`
+- `STUDENTS`
+- `name`
+- `studentId`

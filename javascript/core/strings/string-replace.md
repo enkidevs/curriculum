@@ -1,28 +1,23 @@
 ---
 author: jordanfish
-
 type: normal
-
 category: caveats
-
 tags:
   - strings
   - html
   - introduction
   - workout
-
 links:
-  - '[15 Common JavaScript Gotchas](http://www.standardista.com/javascript/15-common-javascript-gotchas/){website}'
-
-aspects:
-  - introduction
-  - workout
-
+  - >-
+    [15 Common JavaScript
+    Gotchas](http://www.standardista.com/javascript/15-common-javascript-gotchas/){website}
 ---
 
 # `String.replace`
 
+
 ---
+
 ## Content
 
 Using `String.prototype.replace()`, you can create a new string that replaces certain parts based on a pattern.
@@ -63,7 +58,9 @@ console.log(newString);
 
 > When using regular expressions, you can replace more than the first occurence in the string. 
 
+
 ---
+
 ## Practice
 
 Complete the following code snippet to replace **the first** `+` with `-`:
@@ -78,25 +75,28 @@ console.log(s);
 // "x - y + z = w"
 ```
 
-* replace
-* '+'
-* '-'
-* findAndReplace
-* change
-* '='
+- replace
+- '+'
+- '-'
+- findAndReplace
+- change
+- '='
+
 
 ---
+
 ## Revision
 
 String.prototype.??? is used to replace one or more occurrences of a substring with another string.
 
+- replace()
+- map()
+- change()
+- delete()
 
-* replace()
-* map()
-* change()
-* delete()
 
 ---
+
 ## Footnotes
 
 [1:RegEx]

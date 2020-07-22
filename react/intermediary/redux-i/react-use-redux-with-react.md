@@ -1,33 +1,19 @@
 ---
 author: kapnobatai136
-
-levels:
-
-  - basic
-
-  - advanced
-
-  - medium
-
 type: normal
-
 category: must-know
-
-
 links:
-
-  - '[Redux usage with React](https://redux.js.org/basics/usage-with-react){documentation}'
-
+  - >-
+    [Redux usage with
+    React](https://redux.js.org/basics/usage-with-react){documentation}
 notes: This can be also placed in the react subtopic
-
-aspects:
-  - introduction
-
 ---
 
 # Use Redux with React
 
+
 ---
+
 ## Content
 
 *Redux* has no relation to *React*, yet it works well with this framework as UI can be described as functions of *state*, which **Redux** can update in response to actions.
@@ -64,7 +50,9 @@ ReactDOM.render(
 
 Note that you must also pass a `store` attribute to the `<Provider />` wrapper.
 
+
 ---
+
 ## Practice
 
 Complete the following code such that you will make the `store` available for your `<App />`:
@@ -77,16 +65,18 @@ const App = () => (
 );
 ```
 
-* Provider
-* store
-* {store}
-* /Provider
-* state
-* {state}
-* Reducer
-* /Reducer
+- Provider
+- store
+- {store}
+- /Provider
+- state
+- {state}
+- Reducer
+- /Reducer
+
 
 ---
+
 ## Revision
 
 Complete the following code such that you will make the `store` available for your `<App />`:
@@ -99,11 +89,11 @@ const App = () => (
 );
 ```
 
-* Provider
-* store
-* {store}
-* /Provider
-* state
-* {state}
-* Reducer
-* /Reducer
+- Provider
+- store
+- {store}
+- /Provider
+- state
+- {state}
+- Reducer
+- /Reducer

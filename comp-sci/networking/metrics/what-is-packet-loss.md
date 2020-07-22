@@ -1,38 +1,19 @@
 ---
 author: catalin
-
-levels:
-
-  - beginner
-
-  - basic
-
-  - medium
-
-  - advanced
-
 type: normal
-
 category: must-know
-
-aspects:
-
-  - introduction
-
-  - workout
-
 links:
-
   - '[en.wikipedia.org](https://en.wikipedia.org/wiki/Packet_loss){website}'
-  - '[esj.com](https://esj.com/articles/2012/12/13/understanding-packet-loss.aspx){website}'
-
+  - >-
+    [esj.com](https://esj.com/articles/2012/12/13/understanding-packet-loss.aspx){website}
 parent: what-are-latency-and-ping
-
 ---
 
 # How does packet loss happen?
 
+
 ---
+
 ## Content
 
 **Packet loss** is a phenomenon that happens when packets sent across a computer network fail to reach their intended destination.
@@ -42,33 +23,40 @@ They can be lost on their way or, more often, intentionally dropped. The latter 
 **Packet loss** is also used as a relevant metric for the performance of a network, measured as the percentage of packets *lost* with respect to packets *sent*.
 
 The causes of packet loss vary, yet the most common ones are:
- - `link congestion`  - network devices intentionally drop packets
- - `device performance` - hardware devices can't physically keep up[1]
- - `software issues` on network devices that can go undetected[2]
- - `faulty hardware or cabling`
+
+- `link congestion`  - network devices intentionally drop packets
+- `device performance` - hardware devices can't physically keep up[1]
+- `software issues` on network devices that can go undetected[2]
+- `faulty hardware or cabling`
 
 **Packet loss** is a common and normal[3] thing, but at an acceptable rate. For example, for **VoIP**, traffic losses between `5%` and `10%` will significantly affect the quality, while for video and audio streaming `1%` is *good* and `2.5%` is *acceptable*.
 
+
 ---
+
 ## Revision
 
-### *Packet loss* is measured
+### *Packet loss*
+
+
+ is measured
 
 ???
 
+- as a percentage
+- in milliseconds
+- in seconds
+- as a number of packets
 
-* as a percentage
-* in milliseconds
-* in seconds
-* as a number of packets
 
 ---
+
 ## Footnotes
+
 [1:Device performance]
 Routers, Switches, Firewalls are typical devices whose **CPU** or **memory** can be maxed out.
 
 Therefore, they can't allow additional traffic to go through them and will result in **packet loss**.
-
 
 [2:Software issues]
 As software written for *network devices* is not perfect, bugs might occur undetected.
@@ -79,4 +67,4 @@ Therefore, it's highly recommended to always update drivers and such software to
 **TCP** will detect packet loss and will *resend* packets that don't get to their destination to ensure reliable communication and avoid congestion.
 
 However, media streaming, VoIP or video games don't use **TCP**, but **UDP** that doesn't handle packet loss.
-
+ 

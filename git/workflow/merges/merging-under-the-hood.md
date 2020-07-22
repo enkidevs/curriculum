@@ -1,29 +1,18 @@
 ---
 author: catalin
-
-levels:
-
-  - beginner
-
 type: normal
-
 category: must-know
-
-aspects:
-
-  - workout
-  - deep
-
 links:
-
-  - '[Git Merge Tutorial](https://www.atlassian.com/git/tutorials/using-branches/git-merge){website}'
-
-
+  - >-
+    [Git Merge
+    Tutorial](https://www.atlassian.com/git/tutorials/using-branches/git-merge){website}
 ---
 
 # Merging under the hood
 
+
 ---
+
 ## Content
 
 Using the `git merge`, you can combine different development streams (branches).
@@ -48,17 +37,17 @@ Three-way merging is used when fast-forwarding is not applicable - when they div
 
 When both branches modify the same part of the same file, conflicts are explicitly revealed.
 
+
 ---
+
 ## Revision
 
 What flag can be used such that fast-forward merge is not used even if its possible?
 ???
 
-
-* `--no-ff`
-* `-n`
-* `-n-ff`
-* `ff-n`
-* `--twm`
-
+- `--no-ff`
+- `-n`
+- `-n-ff`
+- `ff-n`
+- `--twm`
  

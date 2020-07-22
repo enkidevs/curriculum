@@ -1,21 +1,18 @@
 ---
 author: catalin
-
 type: normal
-
 category: must-know
-
 links:
-  - '[HTTP Server in Node](https://ponyfoo.com/articles/teach-yourself-nodejs-in-10-steps#http-server){website}'
-
-aspects:
-  - introduction
-  - workout
-
+  - >-
+    [HTTP Server in
+    Node](https://ponyfoo.com/articles/teach-yourself-nodejs-in-10-steps#http-server){website}
 ---
+
 # Http Server in **Node**
 
+
 ---
+
 ## Content
 
 Create a `http` server with Node:
@@ -43,7 +40,9 @@ The server was created (`createServer`) with a callback function as an argument.
 
 The port on which it should listen was also specified: `.listen(8000)`.
 
+
 ---
+
 ## Practice
 
 Which method is used to declare a new server and with which arguments?
@@ -58,16 +57,18 @@ http
   .listen(8000);
 ```
 
-* createServer
-* res
-* req
-* newServer
-* declareServer
-* server
-* env
-* arg
+- createServer
+- res
+- req
+- newServer
+- declareServer
+- server
+- env
+- arg
+
 
 ---
+
 ## Revision
 
 Create an `http` server and make it listen to port `8080`:
@@ -82,10 +83,9 @@ http
   .???(8000);
 ```
 
-
-* createServer
-* listen
-* httpServer
-* on
-* localhost
-* require
+- createServer
+- listen
+- httpServer
+- on
+- localhost
+- require

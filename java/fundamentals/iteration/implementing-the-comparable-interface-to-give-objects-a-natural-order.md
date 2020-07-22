@@ -1,39 +1,16 @@
 ---
 author: AlexBroadbent
-
-levels:
-
-  - basic
-
-  - beginner
-
 type: normal
-
 category: tip
-
-aspects:
-
-  - deep
-
-  - obscura
-
 tags:
-
   - java
-
   - comparable
-
   - interface
-
   - class
-
   - sort
-
-
 links:
-
-  - '[docs.oracle.com](https://docs.oracle.com/javase/8/docs/api/java/lang/Comparable.html){website}'
-
+  - >-
+    [docs.oracle.com](https://docs.oracle.com/javase/8/docs/api/java/lang/Comparable.html){website}
 notes: >-
   This may need to be shortened/simplified, this is a large topic but this
   article just kind of skims the surface of what the Comparable interface can
@@ -44,12 +21,13 @@ notes: >-
 
 
   Static workout
-
 ---
 
 # Implementing the `Comparable` interface to give objects a Natural Order
 
+
 ---
+
 ## Content
 
 The `Comparable` interface imposes *natural ordering* on the objects of each class that implements it. It has one method, `compareTo`, which is referred to as its natural comparison method and also used to sort.
@@ -69,6 +47,7 @@ public class MyClass
 ```
 
 `compareTo` method should return:
+
 - a negative number - when the current is smaller than the comparison object
 - a positive number - when the current is greater than the comparison object
 - zero - both objects are equal in terms of their natural order.

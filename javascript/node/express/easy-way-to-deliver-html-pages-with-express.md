@@ -1,21 +1,16 @@
 ---
 author: catalin
-
 type: normal
-
 category: how to
-
 links:
   - '[serve-static](https://github.com/expressjs/serve-static){website}'
-
-aspects:
-  - introduction
-
 ---
 
 # Deliver HTML Pages With Express
 
+
 ---
+
 ## Content
 
 Displaying basic **HTML** pages can be achieved in many ways using **Node**'s core API, yet the easiest way is by using the **Express** framework.
@@ -49,7 +44,9 @@ app.use(serveStatic(__dirname + "/second"));
 
 Files will be firstly looked for in `/first` then in `/second` as a fallback.
 
+
 ---
+
 ## Practice
 
 Require the requisite module used to deliver HTML pages:
@@ -58,24 +55,26 @@ Require the requisite module used to deliver HTML pages:
 let ??? = require('???');
 ```
 
-* serveStatic
-* serve-static
-* expressHTML
-* express-html
-* staticExpress
-* static-express
-* nodeHTML
-* node-html
+- serveStatic
+- serve-static
+- expressHTML
+- express-html
+- staticExpress
+- static-express
+- nodeHTML
+- node-html
+
 
 ---
+
 ## Revision
 
 What express module can be used to easily deliver HTML pages?
 
 ???
 
-* serve-static
-* express-html
-* easy-html
-* static-express
-* node-html
+- serve-static
+- express-html
+- easy-html
+- static-express
+- node-html

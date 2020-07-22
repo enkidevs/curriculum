@@ -1,24 +1,20 @@
 ---
 author: emmab
-
 tags:
   - introduction
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-
 links:
-  - '[is operator](http://stackoverflow.com/questions/13650293/understanding-pythons-is-operator){website}'
-
+  - >-
+    [is
+    operator](http://stackoverflow.com/questions/13650293/understanding-pythons-is-operator){website}
 ---
 
 # The `is` operator
 
+
 ---
+
 ## Content
 
 Python's `is` operator is used to match *instances of variables*.
@@ -53,17 +49,21 @@ x == y
 
 Note that the `==` operator can be used to check whether the *values* are the same.
 
+
 ---
+
 ## Practice
 
 The `is` operator is used to match ??? instead of values.
 
-* instances
-* objects
-* lists
-* classes
+- instances
+- objects
+- lists
+- classes
+
 
 ---
+
 ## Revision
 
 What does the following code snippet return:
@@ -74,9 +74,10 @@ pasta = 'yummy'
 
 pizza is pasta
 ```
+
 ???
 
-* `False`
-* `True`
-* `Error`
-* `false`
+- `False`
+- `True`
+- `Error`
+- `false`

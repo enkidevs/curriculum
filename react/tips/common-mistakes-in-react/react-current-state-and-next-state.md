@@ -1,21 +1,14 @@
 ---
 author: kapnobatai136
-  
-aspects:
-
-  - workout
-
-  - deep
-
 type: normal
-
 category: tip
-
 ---
 
 # Current state and next state
 
+
 ---
+
 ## Content
 
 We have previously discussed how the `setState()` update call can sometimes be asynchronous. For this reason, the value of `this.state` might not always hold the most up to date value:
@@ -51,7 +44,9 @@ const increaseAge = () => {
 };
 ```
 
+
 ---
+
 ## Practice
 
 Which function would **always** update the state to the expected value?
@@ -78,11 +73,13 @@ C = count => {
 
 ???
 
-* B
-* A
-* C
+- B
+- A
+- C
+
 
 ---
+
 ## Revision
 
 Complete the following code:
@@ -97,9 +94,9 @@ function Person() {
 }
 ```
 
-* `useState`
-* `setAge`
-* `age`
-* `setState`
-* `updateAge`
-* `useProps`
+- `useState`
+- `setAge`
+- `age`
+- `setState`
+- `updateAge`
+- `useProps`

@@ -1,10 +1,6 @@
 ---
 author: Stefan-Stojanovic
 
-levels:
-  - beginner
-  - basic
-
 type: normal
 
 category: must-know
@@ -12,24 +8,25 @@ category: must-know
 tags:
   - introduction
 
-aspects:
-  - introduction
-
 links:
-  - '[HTML <ul> Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ul){documentation}'
-  - '[HTML <ol> Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ol){documentation}'
+  - >-
+    [HTML <ul>
+    Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ul){documentation}
+  - >-
+    [HTML <ol>
+    Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ol){documentation}
 
 ---
+
 # Nested Lists
+
 ---
+
 ## Content
 
-The two most common lists in HTML are:
+The two most common lists in HTML are ordered (`<ol>`) and unordered (`<ul>`).
 
-* Ordered Lists: `<ol>`
-* Unordered Lists: `<ul>`
-
-**Ordered List:**
+### Ordered List
 
 ```html
 <ol>
@@ -43,7 +40,7 @@ The two most common lists in HTML are:
 
 [View CodePen](https://codepen.io/enkidevs/pen/VBbZrW)
 
-**Unordered List:**
+### Unordered List
 
 ```html
 <ul>
@@ -53,18 +50,20 @@ The two most common lists in HTML are:
 </ul>
 ```
 
-![list-ul](https://img.enkipro.com/87a289dc50d66e09fce9506b2ff4f676.png)
+![list-ul](https://img.enkipro.com/94d046823ff59ec5885d25c0a58646d9.png)
 
 [View CodePen](https://codepen.io/enkidevs/pen/pZPzdm)
 
-
-**Nested Lists:**
+### Nested Lists
 
 Lists can be nested within other lists. 
 
-When nested, each list section displays starting from either 1 or whatever the `start` attributes value is. Additionally, you can add a different style for each `<ol>` section in the nested list.
+When nested, each list section displays starting from either 1 or whatever the `start` attributes value is.
+
+Additionally, you can add a different style for each `<ol>` section in the nested list.
 
 Example of a nested `<ol>` list:
+
 ```html
 <ol>
   <li>Item A</li>
@@ -79,14 +78,13 @@ Example of a nested `<ol>` list:
 </ol>
 ```
 
-![list-ol-nested](https://img.enkipro.com/26d4d08c20b3a7d7b68386a998bc72cb.png)
+![list-ol-nested](https://img.enkipro.com/1b75cc5b1d33b7b3bdb268a5b7665224.png)
 
 [View CodePen](https://codepen.io/enkidevs/pen/BPRBrO)
 
-**Note:**
-	- The closing `</li>` tag for `Item B` must wrap around the entire nested list.
+> 💡 The closing `</li>` tag for `Item B` must wrap around the entire nested list.
 
-This is an example of an unordered list within an ordered list:
+Here is an example of an unordered list within an ordered list:
 
 ```html
 <p> Instructions </p>
@@ -101,15 +99,19 @@ This is an example of an unordered list within an ordered list:
   <li>Bake 15 mins at 350F</li>
 </ol>
 ```
+
 Result:
 
-![list-nested](https://img.enkipro.com/b8755c181cd9bb24d977267b4e546f43.png)
+![list-nested](https://img.enkipro.com/4ef55bc5393e405fa35339ac22351a45.png)
 
 [View CodePen](https://codepen.io/enkidevs/pen/xJdKpO)
 
-In the example above, the ordered list element `<ol>` is used as the main list because the steps should be followed in a specific order. The unordered list elements don't need to be gathered in any specific order, so this organization of lists makes the most sense.
+In the example above, the ordered list element `<ol>` is used as the main list because the steps should be followed in a specific order. 
+
+The unordered list elements don't need to be gathered in any specific order, so this organization makes the most sense.
 
 ---
+
 ## Practice
 
 Complete the HTML code to create an unordered list within an ordered list.
@@ -131,20 +133,21 @@ A: ???
 B: ???
 C: ???
 
-* `ol`
-* `li`
-* `ul`
-* `dl`
-* `il`
-* `bl`
-* `ll`
+- `ol`
+- `li`
+- `ul`
+- `dl`
+- `il`
+- `bl`
+- `ll`
 
 ---
+
 ## Revision
 
 Which code block will create this nested list?
 
-```html
+```plain-text
 1. Gather Ingredients:
   * 1 1/4 cup Nutella
   * 2 large eggs
@@ -187,10 +190,12 @@ Option #2:
 
 ???
 
-* Option #1
-* Option #2
+- Option #1
+- Option #2
+
 
 ---
+
 ## Quiz
 
 ### How much do you know about nested HTML lists?
@@ -213,7 +218,7 @@ What does this code create?
 
 ???
 
-* bulleted list within a numbered list
-* 6 items within a numbered list
-* numbered list within a bulleted list
-* ungrouped list within an organic list
+- bulleted list within a numbered list
+- 6 items within a numbered list
+- numbered list within a bulleted list
+- ungrouped list within an organic list
