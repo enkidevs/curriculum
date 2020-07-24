@@ -1,6 +1,6 @@
-name: Introduction
+name: Core
 
-description: The fundamentals of Data Analysis, including best tips and tools.
+description: The fundamentals of Data Analysis.
 
 core: true
 
@@ -15,10 +15,3 @@ sections:
     - sales-analytics
     - marketing-analytics
     - product-analytics
-  '2':
-    - bi-tools-tableau
-    - bi-tools-looker
-    - bi-tools-mode
-    - data-analysis-using-sql
-    - data-analysis-using-python
- 
