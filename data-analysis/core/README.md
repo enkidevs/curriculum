@@ -15,3 +15,6 @@ sections:
     - sales-analytics
     - marketing-analytics
     - product-analytics
+
+next:
+  - data-analysis:data-tools
