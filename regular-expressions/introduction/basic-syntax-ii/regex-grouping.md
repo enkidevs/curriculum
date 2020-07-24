@@ -50,7 +50,7 @@ If we wanted to build a regex pattern to match the following three strings:
 We could write:
 
 ```plain-text
-/reg((ular expressions)|ex(p)?)/
+/reg(ular expressions|exp?)/
 ```
 
 This means that the pattern must start with 'reg', it then has either 'ular expressions' *or* 'ex' plus an optional 'p'.
@@ -68,10 +68,10 @@ Which of the following would be a valid match for this regex pattern:
 
 ???
 
-- `/color: red/`
-- `/color:green/`
-- `/color:blue/`
-- `/color: green or red or blue/`
+- `color: red`
+- `color:green`
+- `color:blue`
+- `color: green or red or blue`
 
 
 ---
