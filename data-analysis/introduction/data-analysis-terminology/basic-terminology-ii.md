@@ -44,7 +44,7 @@ For example, given a prediction that it will be 20 degrees fahrenheit at noon to
 
 Complete this equation:
 
-```
+```plain-text
 ??? = √variance 
 ```
 
