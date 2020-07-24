@@ -41,6 +41,7 @@ Types of change:
 ## July 24th 2020
 
 ### Fixed
+- [Data Analysis - Entire topic - Add missing code block tags](https://github.com/enkidevs/curriculum/pull/2281)
 - [Data Analysis - Basic terminology II - Fix typo](https://github.com/enkidevs/curriculum/pull/2279)
 
 ## July 22nd 2020

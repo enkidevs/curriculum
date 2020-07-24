@@ -21,7 +21,7 @@ This metric helps you to understand the costs associated with growing your busin
 
 CAC for a given time period can be calculated using this simple formula:
 
-```
+```plain-text
 (Money + Time Spent) / Number of customers acquired
 ```
 
@@ -30,7 +30,7 @@ This metric tracks the total amount of value a buyer provides over their lifetim
 
 CLV can be calculated by:
 
-```
+```plain-text
 (Annual revenue per customer * Number of active years) - (Customer Acquisition Cost)
 ```
 
@@ -49,7 +49,7 @@ Other key marketing metrics to track are:
 
 Customer Aquisition Cost can be measured using the following formula:
 
-```
+```plain-text
 ??? + Time Spent / ???
 ```
 
@@ -64,7 +64,7 @@ Customer Aquisition Cost can be measured using the following formula:
 
 Customer Aquisition Cost can be measured using the following formula:
 
-```
+```plain-text
 ??? + ??? / ???
 ```
 

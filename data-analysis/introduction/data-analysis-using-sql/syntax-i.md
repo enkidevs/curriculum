@@ -21,7 +21,7 @@ After the word `SELECT` you list the different things that you want to see, sepa
 
 If we had a table in our database called `movies` that contained titles, descriptions, release years and earnings for a list of movies, but we only care about knowing the movie `title` and `description` then our query would be:
 
-```
+```sql
 SELECT title, description 
 FROM movies
 ```
@@ -30,7 +30,7 @@ Executing this query will produce a table that has two columns "title" and "desc
 
 If we want to see the total earnings for all movies then you can use aggregators like `SUM`, `AVG` or `COUNT` to run calculations.
 
-```
+```sql
 SELECT SUM(earnings)
 FROM movies
 ```
@@ -45,7 +45,7 @@ Whenever we write `SELECT` we must specify where we're grabbing the data from an
 
 Complete this basic query to return the name and age of each student in the students table:
 
-```
+```sql
 ??? name, age
 ??? students
 ```
@@ -61,7 +61,7 @@ Complete this basic query to return the name and age of each student in the stud
 
 Complete this basic query to return the color and category of each product in the productss table:
 
-```
+```sql
 ??? color, category
 ??? products
 ```

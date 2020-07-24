@@ -20,7 +20,7 @@ links:
 
 To calculate the **retention rate**, you need to look at two numbers: the number of users at the beginning of the time frame, and the number of those users who are still users of the product at the end of that time frame.
 
-```
+```plain-text
 Retention rate = ( (number of customers at the end - number of newly acquied customers) / number of customers at the start ) * 100
 ```
 
@@ -43,7 +43,7 @@ The aim over time is to move the curve upwards by working to improve user engage
 
 Using the following formula:
 
-```
+```plain-text
 Retention rate = ( (number of customers at the end - number of newly acquied customers) / number of customers at the start ) * 100
 ```
 
@@ -61,7 +61,7 @@ If we start with 500 customers and we acquire 100 new customers in a week, and w
 
 Using the following formula:
 
-```
+```plain-text
 Retention rate = ( (number of customers at the end - number of newly acquied customers) / number of customers at the start ) * 100
 ```
 

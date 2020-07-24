@@ -37,7 +37,7 @@ The `JOIN` clause matches the IDs from the `director_id` column on the `movies` 
 
 Imagine we wanted to find out the years and titles of all movies directed by `Quentin Tarantino`:
 
-```
+```sql
 SELECT year, title
 FROM movies
 JOIN directors ON movies.director_id = directors.id
@@ -63,7 +63,7 @@ In order to be specific about which table you're selecting data from, you can wr
 
 We can rewrite the above query to be more specific:
 
-```
+```sql
 SELECT movies.year, movies.title
 FROM movies
 JOIN directors ON movies.director_id = directors.id
@@ -81,10 +81,11 @@ Imagine that each student belongs to one university.
 
 Complete the following query to join the students table to the universities table:
 
-```
+```sql
 SELECT students.name, universities.name
 FROM students
-??? universities ??? students.university_id ??? universities.id
+??? universities ???
+students.university_id ??? universities.id
 ```
 - JOIN
 - ON
@@ -99,10 +100,11 @@ Imagine that each superpower belongs to one superhero.
 
 Complete the following query to join the superpowers table to the superheroes table:
 
-```
+```sql
 SELECT superpowers.name, superheroes.name
 FROM superpowers
-??? superheroes ??? superpowers.superhero_id ??? superheroes.id
+??? superheroes ???
+superpowers.superhero_id ??? superheroes.id
 ```
 - JOIN
 - ON

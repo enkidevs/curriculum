@@ -23,7 +23,7 @@ That's where we can use our `WHERE` keyword.
 
 Take the following example:
 
-```
+```sql
 SELECT year, title
 FROM movies
 WHERE title = "Pulp Fiction"
@@ -36,11 +36,11 @@ It returns a table with two columns - the `year` and `title` of any movies that 
 | 1994 | Pulp Fiction                  |
 
 
-Currently our `WHERE` filter is pretty strict as the results must match whatever is inside the `" "`. 
+Currently, our `WHERE` filter is pretty strict as the results must match whatever is inside the `" "`. 
 
 Let's look at a less strict example:
 
-```
+```sql
 SELECT year, title
 FROM movies
 WHERE year < 2005
@@ -61,7 +61,7 @@ As you can see, the results are returned in the same order that they're stored i
 
 If we wanted to sort them by year in descending order then we can use the `ORDER` keyword:
 
-```
+```sql
 SELECT year, title
 FROM movies
 WHERE year < 2005
@@ -78,7 +78,7 @@ If you don't include the keywords `DESC` or `ASC` then `ORDER BY` will automatic
 
 Complete the following query to return all students that are born before the year 2000 and have a first name beginning with the letter 'A':
 
-```
+```sql
 SELECT name
 FROM students
 ??? year_of_birth ??? 2000
@@ -97,7 +97,7 @@ FROM students
 
 Complete the following query to return all cities that have a population greater than 1 million and are in Europe:
 
-```
+```sql
 SELECT name
 FROM cities
 ??? population ??? 1000000

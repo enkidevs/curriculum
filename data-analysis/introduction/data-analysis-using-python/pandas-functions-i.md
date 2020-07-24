@@ -43,13 +43,13 @@ products_data.head(10)
 
 The `unique()` function returns the unique values of any column we choose to use. Running this code returns a list of unique product categories:
 
-```
-products_data['category'].unqiue()
+```py
+products_data['category'].unique()
 ```
 
 The `shape` fucntion returns the number of rows and columns as a tuple (number of rows, number of columns).
 
-```
+```py
 products_data.shape
 
 # (891, 12)
@@ -62,7 +62,7 @@ Check out the **Learn More** link to discover some other useful functions like `
 
 How could you quickly check the number of rows and columns in a data set?
 
-```
+```py
 data_set.???
 ```
 
@@ -76,7 +76,7 @@ data_set.???
 
 How can you return the first 5 rows of data?
 
-```
+```py
 data_set.???(???)
 ```
 

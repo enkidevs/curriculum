@@ -33,7 +33,7 @@ It is calculated by dividing the **sum of a list of values** by the **number of 
 
 For example, using the following list of numbers:
 
-```
+```plain-text
 [10, 10, 10, 12]
 ```
 
