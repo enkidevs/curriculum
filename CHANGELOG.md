@@ -44,6 +44,7 @@ Types of change:
 - [Data Analysis - Divide content into courses](https://github.com/enkidevs/curriculum/pull/2282)
 
 ### Fixed
+- [Data Analysis - BI tools - Tableau - Capitalize t in workout name]()
 - [Data Analysis - Entire topic - Add missing code block tags](https://github.com/enkidevs/curriculum/pull/2281)
 - [Data Analysis - Basic terminology II - Fix typo](https://github.com/enkidevs/curriculum/pull/2279)
 
