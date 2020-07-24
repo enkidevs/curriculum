@@ -1,4 +1,4 @@
-name: BI tools - Tableau
+name: BI Tools - Tableau
 description: Tableau tips and best practices.
 insights:
   - intro-to-tableau
