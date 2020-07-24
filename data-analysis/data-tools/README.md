@@ -2,8 +2,6 @@ name: Data Tools
 
 description: Tools that help with data analysis.
 
-core: true
-
 sections:
   '0':
     - bi-tools-tableau
