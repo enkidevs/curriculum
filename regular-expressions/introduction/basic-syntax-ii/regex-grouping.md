@@ -68,10 +68,10 @@ Which of the following would be a valid match for this regex pattern:
 
 ???
 
-- `/color: red/`
-- `/color:green/`
-- `/color:blue/`
-- `/color: green or red or blue/`
+- `color: red`
+- `color:green`
+- `color:blue`
+- `color: green or red or blue`
 
 
 ---
