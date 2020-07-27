@@ -38,6 +38,12 @@ Types of change:
 - `Archived` for content that is no longer necessary and has been archived.
 - `Fixed` for any minor fixes (e.g. add a missing comma, adding a code block tag, fixing a report).
 
+## July 27th 2020
+
+### Fixed
+- [Regex - Regex grouping - Remove `/` from PQ answers](https://github.com/enkidevs/curriculum/pull/2286)
+- [Regex - Regex grouping - Remove unnecessary groups from example](https://github.com/enkidevs/curriculum/pull/2287)
+
 ## July 24th 2020
 
 ### Changed
