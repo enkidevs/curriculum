@@ -41,7 +41,7 @@ Types of change:
 ## July 30th 2020
 
 ### Changed
-- [Data Analysis - Update course descriptions]()
+- [Data Analysis - Update course descriptions](https://github.com/enkidevs/curriculum/pull/2290)
 
 ## July 27th 2020
 
