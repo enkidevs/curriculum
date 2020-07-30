@@ -1,6 +1,6 @@
 name: Core
 
-description: The fundamentals of Data Analysis.
+description: Learn the basics of Data Analysis and why it’s useful.
 
 core: true
 
