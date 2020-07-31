@@ -11,8 +11,8 @@ category: must-know
 links:
   - '[Tell Compelling Stories](https://cloud.google.com/blog/products/g-suite/tell-compelling-stories-with-your-data-using-google-sheets){website}'
 
-
 ---
+
 # Data Visualization
 
 ---
@@ -43,18 +43,22 @@ Once you're happy with your results they should be shared. G Suite lets you give
 
 What type of chart is best for displaying results that are continuous over time?
 
-* Line graph
-* Scorecard
-* Pie chart
-* Scatter plot
+???
+
+- Line graph
+- Scorecard
+- Pie chart
+- Scatter plot
 
 ---
 ## Revision
 
 What type of chart is best for assessing the relationship between two variables?
 
-* Scatter plot
-* Line graph
-* Scorecard
-* Pie chart
+???
+
+- Scatter plot
+- Line graph
+- Scorecard
+- Pie chart
  
