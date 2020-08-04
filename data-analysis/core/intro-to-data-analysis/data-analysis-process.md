@@ -74,7 +74,7 @@ What are the key steps when doing data analysis?
 1. ???
 2. Wrangle
 3. Explore
-4. ??
+4. ???
 5. Communicate
 
 * Question
