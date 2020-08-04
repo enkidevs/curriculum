@@ -4,6 +4,7 @@ description: The building blocks of coding.
 
 aspects:
   - introduction
+  - workout
 
 insights:
   - programs-and-data
