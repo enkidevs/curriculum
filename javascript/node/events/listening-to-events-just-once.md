@@ -1,25 +1,33 @@
 ---
 author: tommarshall
+
 type: normal
+
 category: must-know
+
 tags:
   - introduction
   - workout
+
 parent: consuming-events
+
 ---
 
 # Listening to events just once
-
 
 ---
 
 ## Content
 
-Events are actions that happen within your JavaScript application and are signalled by the system such that we can *react* to them. This is a frequent technique with multiple applications including handling asynchronous code (e.g. child processes) and processing continuous streams of information (e.g. read a really long file). 
+Events are actions that happen within your JavaScript application and are signaled by the system such that we can *react* to them. 
 
-We can choose what events to react to through an event listener. However, there might be cases when reacting to these events every time they happen can cause undesired side effects. In this case, it might be useful to **listen to events just once**.[1] -> footnote about the fact that all such operations are non-idempotent + link to some external resources
+This is a frequent technique with multiple applications including handling asynchronous code (e.g. child processes) and processing continuous streams of information (e.g. read a really long file).
 
-Let's look at an example to see how this can translate into practice. Picture a node application with a database. Whenever our application crashes unexpectedly we want to free up the database resources. Yet, if we run the "fee database resources" operation twice, this can cause undesired errors on the database layer.
+We can choose what events to react to through an event listener. However, there might be cases when reacting to these events every time they happen can cause undesired side effects.
+
+In this case, it might be useful to **listen to events just once**[1].
+
+Let's look at an example to see how this can translate into practice. Picture a node application with a database. Whenever our application crashes unexpectedly we want to free up the database resources. Yet, if we run the "free database resources" operation twice, this can cause undesired errors on the database layer.
 
 Normally, we'd *listen to* uncaught error events like this:
 
@@ -44,7 +52,6 @@ process.once('uncaughtException', (err) => {
 ```
 
 Voilà, this will ensure that we'll react only to the first emitted `uncaughtException` event.
-
 
 ---
 

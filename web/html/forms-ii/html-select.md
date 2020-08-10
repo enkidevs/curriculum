@@ -29,7 +29,7 @@ Example:
 </form>
 ```
 
-![drop-down-select](https://img.enkipro.com/a1f15c923f25db95a3c1f8ed34f41832.png)
+![drop-down-select](https://img.enkipro.com/e2d03c62a2413953de97d68109dbb00a.png)
 
 [View CodePen](https://codepen.io/enkidevs/pen/oMBzMz)
 
@@ -67,7 +67,7 @@ Example:
 </select>
 ```
 
-![drop-down-optgroup](https://img.enkipro.com/ac1efd78e93c3454005516c0d0b63362.png)
+![drop-down-optgroup](https://img.enkipro.com/fa0e4aab3f16618d65c8aac6682b8d30.png)
 
 [View CodePen](https://codepen.io/enkidevs/pen/NBdRBB)
 
