@@ -41,6 +41,7 @@ Types of change:
 ## August 10th 2020
 
 ### Fixed
+- [JavaScript - JavaScript Basics - Part 1 - Change phrasing for a footnote]()
 - [Coding Intro - Programs and Data - Fix typo](https://github.com/enkidevs/curriculum/pull/2296)
 
 ## July 31st 2020
