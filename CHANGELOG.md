@@ -41,6 +41,7 @@ Types of change:
 ## August 10th 2020
 
 ### Fixed
+- [JavaScript - Listening to events just once - Fix typo](https://github.com/enkidevs/curriculum/pull/2301)
 - [JavaScript - Const (Part 2) - Remove extra "the" & general formatting](https://github.com/enkidevs/curriculum/pull/2300)
 - [Coding Intro - Robot, Assemble The Sandwich - Fix typo in function name](https://github.com/enkidevs/curriculum/pull/2299)
 - [JavaScript - JavaScript Basics - Part 1 - Change phrasing for a footnote](https://github.com/enkidevs/curriculum/pull/2297)
