@@ -1,19 +1,22 @@
 ---
 author: alexjmackey
+
 type: normal
+
 category: must-know
-inAlgoPool: false
+
 tags:
   - introduction
   - es6
   - memory
+
 links:
   - >-
     [MDN](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Statements/const){website}
+
 ---
 
 # Const (Part 2)
-
 
 ---
 
@@ -25,31 +28,39 @@ Assigning a `const` to another variable and then changing the source variable wi
 var x = 1;
 const y = x;
 x = 5;
-console.log(y); //still 1
+console.log(y); 
+// still 1
 ```
 
 Additionally, note that modifying a property of an object referenced by a constant will *not* throw an error and the property will be changed.
 
-### const and objects
+### `const` and Objects
 
 Objects can also be declared as `const`.
 
 ```javascript
-const p = {first: "john", last: "smith"};
+const p = {
+  first: "john",
+  last: "smith"
+};
 
-//below will cause errors:
+// the following declarations
+// will result in an error
 p = 5;
-p = {first: "bob", last: "smith"};
+p = {
+  first: "bob", 
+  last: "smith"
+};
 ```
 
-It is important to note however that the values of the object can be modified, so the below is valid:
+It is important to note however that the values of the object can be modified, so the following is valid:
 
 ```javascript
-p.first = "bob"; //valid
+p.first = "bob"; 
+// valid
 ```
 
-If you do not want anyone to be able to modify the the object at all be sure to use `Object.freeze`[1] function.
-
+If you do not want anyone to be able to modify the object at all be sure to use `Object.freeze`[1] function.
 
 ---
 
