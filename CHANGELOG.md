@@ -41,6 +41,7 @@ Types of change:
 ## August 10th 2020
 
 ### Fixed
+- [Data Analysis - Basic Terminology I - Fix typo](https://github.com/enkidevs/curriculum/pull/2298)
 - [Web - The `<select>` Element - Update images](https://github.com/enkidevs/curriculum/pull/2289)
 - [Linux - What is SSH? - Fix typo](https://github.com/enkidevs/curriculum/pull/2303)
 - [SQL - Foreign Key - Update unique constraint footnote](https://github.com/enkidevs/curriculum/pull/2302)

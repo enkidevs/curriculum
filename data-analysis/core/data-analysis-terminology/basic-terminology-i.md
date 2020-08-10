@@ -37,7 +37,7 @@ For example, using the following list of numbers:
 [10, 10, 10, 12]
 ```
 
-The mean would be ( 10 + 10 + 10 + 12 / 4 ) = 10.5
+The mean would be ( 10 + 10 + 10 + 12 ) / 4 = 10.5
 
 ### Median
 
