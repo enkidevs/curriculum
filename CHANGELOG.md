@@ -38,6 +38,27 @@ Types of change:
 - `Archived` for content that is no longer necessary and has been archived.
 - `Fixed` for any minor fixes (e.g. add a missing comma, adding a code block tag, fixing a report).
 
+## August 10th 2020
+
+### Fixed
+- [Linux - What is SSH? - Fix typo](https://github.com/enkidevs/curriculum/pull/2303)
+- [SQL - Foreign Key - Update unique constraint footnote](https://github.com/enkidevs/curriculum/pull/2302)
+- [JavaScript - Listening to events just once - Fix typo](https://github.com/enkidevs/curriculum/pull/2301)
+- [JavaScript - Const (Part 2) - Remove extra "the" & general formatting](https://github.com/enkidevs/curriculum/pull/2300)
+- [Coding Intro - Robot, Assemble The Sandwich - Fix typo in function name](https://github.com/enkidevs/curriculum/pull/2299)
+- [JavaScript - JavaScript Basics - Part 1 - Change phrasing for a footnote](https://github.com/enkidevs/curriculum/pull/2297)
+- [Coding Intro - Programs and Data - Fix typo](https://github.com/enkidevs/curriculum/pull/2296)
+
+## July 31st 2020
+
+### Fixed
+- [Data Analysis - Data Visualization - Fix PQ & RQ](https://github.com/enkidevs/curriculum/pull/2291)
+
+## July 30th 2020
+
+### Changed
+- [Data Analysis - Update course descriptions](https://github.com/enkidevs/curriculum/pull/2290)
+
 ## July 27th 2020
 
 ### Fixed

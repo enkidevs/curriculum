@@ -1,11 +1,13 @@
 ---
 author: nem035
+
 type: normal
+
 category: must-know
+
 ---
 
 # JavaScript Basics - Part 1
-
 
 ---
 
@@ -112,7 +114,7 @@ Are semicolons required in JavaScript?
 ## Footnotes
 
 [1: ECMAScript]
-ECMAScript is the specification defining the rules of JavaScript, based on which the features of the language are implemented.
+ECMAScript is the specification defining the rules of JavaScript. The features of JavaScript are implemented based on these specifications. 
 
 [2: ASI]
 JavaScript ASI will sometimes assume a statement ends where it might not be intended.

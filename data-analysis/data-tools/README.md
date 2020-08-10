@@ -1,6 +1,6 @@
 name: Data Tools
 
-description: Tools that help with data analysis.
+description: Know the essential tools for effective Data Analysis.
 
 sections:
   '0':

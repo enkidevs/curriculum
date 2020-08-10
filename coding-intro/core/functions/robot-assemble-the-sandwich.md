@@ -15,7 +15,7 @@ category: must-know
 Let's continue preparing the sandwich-making instructions for our robot by writing a function to perform the second step of our recipe[1] - building out the sandwich from the ingredients.
 
 ```plain-text
-FUNCTION buil_sandwich
+FUNCTION build_sandwich
   INPUT cheese_bowl, sliced_bread, butter
   INSTRUCT buttered_slices = butter_the_bread(sliced_bread, butter)
   INSTRUCT buttered_slices_with_cheese = add_the_cheese_to_each_slice(cheese_bowl, buttered_bread)
