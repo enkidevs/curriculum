@@ -41,6 +41,7 @@ Types of change:
 ## August 10th 2020
 
 ### Fixed
+- [Web - The `<select>` Element - Update images](https://github.com/enkidevs/curriculum/pull/2289)
 - [Linux - What is SSH? - Fix typo](https://github.com/enkidevs/curriculum/pull/2303)
 - [SQL - Foreign Key - Update unique constraint footnote](https://github.com/enkidevs/curriculum/pull/2302)
 - [JavaScript - Listening to events just once - Fix typo](https://github.com/enkidevs/curriculum/pull/2301)
