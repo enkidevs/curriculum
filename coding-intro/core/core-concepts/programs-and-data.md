@@ -28,7 +28,7 @@ This is where variables come in. They serve as storage containers for data.
 
 ### Data Types
 
-Computers don't know always know the difference between `1` and `one`. Sometimes we have to help them out.
+Computers don't always know the difference between `1` and `one`. Sometimes we have to help them out.
 
 Using data types, we can mark data with a label that helps the program know the kind of value it holds, such as a number, text, etc.
 
