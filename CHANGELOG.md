@@ -41,6 +41,7 @@ Types of change:
 ## August 12th 2020
 
 ### Changed
+- [Web - Update topic colour](https://github.com/enkidevs/curriculum/pull/2305)
 - [SQL - SELECT Structure - Change practice question](https://github.com/enkidevs/curriculum/pull/2304)
 
 ## August 10th 2020
