@@ -41,7 +41,7 @@ Types of change:
 ## August 12th 2020
 
 ### Changed
-- [SQL - SELECT Structure - Change practice question]()
+- [SQL - SELECT Structure - Change practice question](https://github.com/enkidevs/curriculum/pull/2304)
 
 ## August 10th 2020
 
