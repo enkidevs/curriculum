@@ -43,7 +43,7 @@ The query above:
 
 The returned table will contain all of the *columns* and all of the *rows* from the table.
 
-Note: all the SQL keywords like `SELECT` and `FROM` **are case insensitive**, so the code below also works.
+> 💡 All the SQL keywords like `SELECT` and `FROM` **are case insensitive**, so the code below also works.
 
 ```sql
 select *
@@ -57,16 +57,19 @@ The keywords are usually capitalized simply to make the code easier to read.
 
 ## Practice
 
-Which of the following queries do you think will return only the `id` and `name` columns from the `movie_names` table?
+Complete the query to select the `id` and `name` columns from the `pokemon` table:
 
-???
+```sql
+??? id, ??? 
+??? pokemon
+```
 
-- `SELECT id, name FROM movie_names`
-- `SELECT *, id, name FROM movie_names`
-- `SELECT ONLY id, name FROM movie_names`
-- `SELECT id, SELECT name, FROM movie_names`
-- `SELECT id AND name FROM movie_names`
-
+- SELECT
+- name
+- FROM
+- RETURN
+- id
+- pokemon
 
 ---
 
