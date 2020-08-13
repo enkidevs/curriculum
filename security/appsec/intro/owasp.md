@@ -1,12 +1,15 @@
 ---
 author: lizTheDeveloper
+
 type: normal
+
 category: must-know
+
 links:
   - '[OWASP](https://www.owasp.org/){website}'
   - >-
     [IoT
-    Checklist](https://otalliance.org/system/files/files/initiative/documents/enterprise_iot_checklist.pdf){website}
+    Checklist](https://www.internetsociety.org/wp-content/uploads/2019/04/enterprise-iot-security-checklist.pdf){website}
   - '[OWASP Top Ten](https://owasp.org/www-project-top-ten/){website}'
   - >-
     [Common Vulnerabilities and Exposures
@@ -14,10 +17,10 @@ links:
   - >-
     [Cryptography and Security on
     Arxiv](https://arxiv.org/list/cs.CR/recent){website}
+
 ---
 
 # OWASP & Open Source Initiatives
-
 
 ---
 
@@ -41,7 +44,6 @@ In this Security course we'll teach you:
 - How to evaluate source code for vulnerabilities
 - How to identify and protect sensitive data
 - And much more!
-
 
 ---
 
