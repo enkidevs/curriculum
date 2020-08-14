@@ -22,10 +22,10 @@ If there is no constructor explicitly defined in a subclass, the Java compiler w
 If there is no such constructor in the superclass, there will be an error at compile time.
 
 ```java
-public void SuperClass {
+public class SuperClass {
   public SuperClass() {}
 }
-public void SubClass extends SuperClass {
+public class SubClass extends SuperClass {
 }
 ```
 
