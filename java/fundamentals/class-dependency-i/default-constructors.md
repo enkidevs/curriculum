@@ -1,16 +1,21 @@
 ---
 author: adamMontgomerie
+
 type: normal
+
 category: tip
+
 tags:
   - inheritance
   - constructors
+
 links:
   - >-
-    [docs.oracle.com](https://docs.oracle.com/javase/tutorial/java/IandI/super.html){website}
+    [Using the Keyword super](https://docs.oracle.com/javase/tutorial/java/IandI/super.html){website}
+
 ---
 
-# Default constructors
+# Default Constructors
 
 
 ---
@@ -22,10 +27,10 @@ If there is no constructor explicitly defined in a subclass, the Java compiler w
 If there is no such constructor in the superclass, there will be an error at compile time.
 
 ```java
-public void SuperClass {
+public class SuperClass {
   public SuperClass() {}
 }
-public void SubClass extends SuperClass {
+public class SubClass extends SuperClass {
 }
 ```
 
