@@ -1,11 +1,13 @@
 ---
 author: kapnobatai136
+
 type: normal
+
 category: must-know
+
 ---
 
 # Java Virtual Machine
-
 
 ---
 
@@ -27,7 +29,6 @@ Okay so what does this have to do with Java? The process is the following:
 
 ![jvm-mental-model](https://img.enkipro.com/a038da2671b98d52c795730e3a676198.png)
 
-
 ---
 
 ## Practice
@@ -43,7 +44,7 @@ The ??? converts binary code to native code.
 
 ## Revision
 
-Choose the correct order:
+Choose the correct order for converting Java code to native code:
 
 ```plain-text
 1. ???
