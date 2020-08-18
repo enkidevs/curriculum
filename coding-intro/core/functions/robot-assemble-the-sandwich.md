@@ -7,7 +7,7 @@ category: must-know
 
 ---
 
-# Robot, Assemble The Sandwich
+# Robot, Assemble the Sandwich
 
 ---
 ## Content
