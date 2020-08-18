@@ -38,6 +38,12 @@ Types of change:
 - `Archived` for content that is no longer necessary and has been archived.
 - `Fixed` for any minor fixes (e.g. add a missing comma, adding a code block tag, fixing a report).
 
+## August 18th 2020
+
+### Fixed
+- [Java - Java Virtual Machine - Fix revision question](https://github.com/enkidevs/curriculum/pull/2309)
+- [JavaScript - Short-Circuit Evaluation - Fix revision question](https://github.com/enkidevs/curriculum/pull/2309)
+
 ## August 17th 2020
 
 ### Fixed

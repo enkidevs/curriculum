@@ -10,7 +10,7 @@ links:
 
 ---
 
-# Short-circuit evaluation
+# Short-Circuit Evaluation
 
 
 ---
