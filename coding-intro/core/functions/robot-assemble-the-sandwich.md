@@ -7,7 +7,7 @@ category: must-know
 
 ---
 
-# Robot, Assemble The Sandwich
+# Robot, Assemble the Sandwich
 
 ---
 ## Content
@@ -49,7 +49,7 @@ The computer wouldn't know what to do! It doesn't know what `sandwich` variable 
 
 Before continuing, let's practice function creation!
 
-Write a function called `fill_glass` that takes in `glass` and `water`, calls `pour` function to pour the `water` into the `glass` and produces a `glass_of_watter` as the result:
+Write a function called `fill_glass` that takes in `glass` and `water`, calls `pour` function to pour the `water` into the `glass` and produces a `glass_of_water` as the result:
 
 ```plain-text
 ??? ???
@@ -69,7 +69,7 @@ ENDFUNCTION
 ---
 ## Revision
 
-Write a function called `fill_glass` that takes in `glass` and `water`, calls `pour` function to pour the `water` into the `glass` and produces a `glass_of_watter` as the result:
+Write a function called `fill_glass` that takes in `glass` and `water`, calls `pour` function to pour the `water` into the `glass` and produces a `glass_of_water` as the result:
 
 ```plain-text
 ??? ???

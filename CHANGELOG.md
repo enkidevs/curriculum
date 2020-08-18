@@ -41,6 +41,7 @@ Types of change:
 ## August 18th 2020
 
 ### Fixed
+- [Coding Intro - Robot, Assemble The Sandwich - Fix typo](https://github.com/enkidevs/curriculum/pull/2310)
 - [Java - Java Virtual Machine - Fix revision question](https://github.com/enkidevs/curriculum/pull/2309)
 - [JavaScript - Short-Circuit Evaluation - Fix revision question](https://github.com/enkidevs/curriculum/pull/2309)
 
