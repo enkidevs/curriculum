@@ -5,7 +5,7 @@ description: Learn how to calculate averages, minimums, maximums, and others.
 insights:
   - split
   - min-max-average
-  - averageif-ountif
+  - averageif-countif
   - function-examples
 
 aspects:

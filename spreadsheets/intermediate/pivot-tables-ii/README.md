@@ -7,7 +7,7 @@ insights:
   - multiple-calculations
   - group-rules
   - group-rules-continued
-  - multiple-pivot-group-rules
+  - multiple-group-rules
   
 aspects:
   - workout

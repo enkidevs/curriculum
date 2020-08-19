@@ -9,7 +9,7 @@ sections:
     - common-mistakes
     - spreadsheets-shortcuts
     - logical-functions
-    - useful-functions-and-formulas
+    - functions-and-formulas-ii
     - charts-2
     - chart-customization
     - importing-data
