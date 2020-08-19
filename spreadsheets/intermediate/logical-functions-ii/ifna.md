@@ -15,7 +15,7 @@ links:
 ---
 ## Content
 
-The `=IFNA()` function is used to evaluate a value and, if it is a [Name Error](https://www.enki.com/glossary/spreadsheets/name-error), it will return a different specified value.
+The `=IFNA()` function is used to evaluate a value and, if it is a [#N/A error](https://www.enki.com/glossary/spreadsheets/name-error), it will return a different specified value.
 
 The syntax is:
 ```plain-text
@@ -24,9 +24,9 @@ The syntax is:
 
 Both `value` and `value_if_na` are required.
 
-The `value` is what we want to check for an [Name Error](https://www.enki.com/glossary/spreadsheets/na-error).
+The `value` is what we want to check for an [#N/A error](https://www.enki.com/glossary/spreadsheets/name-error).
 
-The `value_if_na` is what we want to return if `value` evaluates to a [Name Error](https://www.enki.com/glossary/spreadsheets/name-error).
+The `value_if_na` is what we want to return if `value` evaluates to a [#N/A error](https://www.enki.com/glossary/spreadsheets/name-error).
 
 ![ifna](https://img.enkipro.com/34288db76b020d1f6f9bf84c76309683.png)
 
