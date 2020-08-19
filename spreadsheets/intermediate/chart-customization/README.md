@@ -1,12 +1,12 @@
-name: Charts II
+name: Chart Customizations
 
-description: Learn how to choose the right charts, change their type, and data.
+description: What is the "Chart Editor" and how to use it.
 
 insights:
-  - example-chart
-  - how-to-chose-the-right-chart
-  - how-to-change-the-charts-type
-  - how-to-change-chart-data
+  - the-chart-editor
+  - series
+  - legend-and-horizontal-axis
+  - vertical-axis-and-gridlines
 
 aspects:
   - workout

@@ -1,4 +1,4 @@
-name: Add-ons
+name: Add-Ons
 
 description: Learn what add-ons are and how you can incorporate them into your spreadsheet.
 

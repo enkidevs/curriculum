@@ -3,7 +3,7 @@ name: Parser Functions
 description: Get familiar with parser functions.
 
 insights:
-  - parser-functions-intro
+  - parser-functions
   - to-date
   - to-dollars
   - to-text

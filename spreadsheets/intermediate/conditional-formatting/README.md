@@ -1,4 +1,4 @@
-name: Conditional formatting
+name: Conditional Formatting
 
 description: Learn what conditional formatting is and how to use it.
 

@@ -22,6 +22,8 @@ In the `Series` tab you can choose:
 
 ![series](https://img.enkipro.com/090c3c6dcb063477a22f83f19e398bce.png)
 
+Using the chart from the previous insight[1].
+
 We are going to leave `Apply to all series` selected. Now, add a `Point size` of `7px` and make the `Point shape` `Diamond` for all series.
 
 Then, we are going to select the `Number Of Employees` from the drop-down menu and tick the `Data labels` checkbox.

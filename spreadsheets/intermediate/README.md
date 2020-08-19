@@ -14,14 +14,14 @@ sections:
     - chart-customization
     - importing-data
     - intro-to-pivot-tables
-    - functions-and-formlas-iii
+    - functions-and-formulas-iii
     - parser-functions
     - math-functions
     - import-functions
     - conditional-formatting
     - logical-functions-ii
     - google-functions
-    - sparkline-functions
+    - sparkline-function
     - comparison-operators-and-functions
     - add-ons
     - pivot-tables-ii

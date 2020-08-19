@@ -5,8 +5,8 @@ description: Learn more about pivot tables and how you can extract data, create 
 insights:
   - how-to-extract-a-table-from-a-pivot-table
   - multiple-calculations
-  - pivot-group-rules
-  - pivot-group-rules-continued
+  - group-rules
+  - group-rules-continued
   - multiple-pivot-group-rules
   
 aspects:
