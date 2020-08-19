@@ -1,4 +1,4 @@
-﻿---
+---
 author: Stefan-Stojanovic
 
 type: normal
@@ -11,7 +11,7 @@ links:
 
 ---
 
-## DETECTLANGUAGE
+# DETECTLANGUAGE
 
 ---
 ## Content
