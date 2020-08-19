@@ -52,7 +52,7 @@ We can use the `docker history <IMAGE_ID>` command to show the layers of changes
 For example:
 
 ```bash
-docker history nginx
+docker history 3f8a4339aadd
 ```
 
 would output something like:
