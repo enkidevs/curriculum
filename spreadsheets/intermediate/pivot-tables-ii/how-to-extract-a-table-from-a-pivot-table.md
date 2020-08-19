@@ -29,7 +29,7 @@ Here we have three different tables extracted from the same source data.
 ![three-extracted-pivot-tables](https://img.enkipro.com/b8981fdeba86cea84c88206d64f77a03.png)
 
 ---
-### Practice
+## Practice
 
 How do you extract a table from a Pivot table?
 
