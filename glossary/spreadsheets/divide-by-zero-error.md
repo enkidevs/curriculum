@@ -1,4 +1,4 @@
-﻿# Divide By Zero Error
+﻿# Divide by Zero Error
 
 The `#DIV/0!` appears when you try to divide by 0 or an empty cell. 
 

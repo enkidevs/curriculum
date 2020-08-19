@@ -7,7 +7,7 @@ category: how to
 
 ---
 
-# Managing Add-ons
+# Managing Add-Ons
 
 ---
 ## Content

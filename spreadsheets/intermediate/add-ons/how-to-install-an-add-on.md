@@ -7,7 +7,7 @@ category: how to
 
 ---
 
-# How To Install An Add-on
+# How to Install an Add-On
 
 ---
 ## Content

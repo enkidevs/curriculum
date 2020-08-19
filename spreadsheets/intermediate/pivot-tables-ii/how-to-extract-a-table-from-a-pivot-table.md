@@ -7,7 +7,7 @@ category: how to
 
 ---
 
-# How To Extract a Table From a Pivot Table
+# How to Extract a Table from a Pivot Table
 
 ---
 ## Content

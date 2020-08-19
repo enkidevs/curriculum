@@ -10,7 +10,7 @@ links:
 
 ---
 
-# What Are Add-ons
+# What Are Add-Ons
 
 ---
 ## Content

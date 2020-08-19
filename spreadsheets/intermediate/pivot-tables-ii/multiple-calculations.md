@@ -7,7 +7,7 @@ category: how to
 
 ---
 
-# Multiple calculations
+# Multiple Calculations
 
 ---
 ## Content

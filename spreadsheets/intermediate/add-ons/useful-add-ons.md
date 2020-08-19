@@ -12,7 +12,7 @@ links:
 
 ---
 
-# Useful Add-ons
+# Useful Add-Ons
 
 ---
 ## Content

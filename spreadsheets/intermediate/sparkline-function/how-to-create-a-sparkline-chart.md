@@ -7,7 +7,7 @@ category: how to
 
 ---
 
-# How To Create A Sparkline Chart?
+# How to Create a Sparkline Chart?
 
 ---
 ## Content

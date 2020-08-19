@@ -11,7 +11,7 @@ links:
 
 ---
 
-# Useful Add-ons Continued
+# Useful Add-Ons Continued
 
 ---
 ## Content
