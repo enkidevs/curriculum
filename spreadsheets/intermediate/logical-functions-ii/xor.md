@@ -6,7 +6,7 @@ type: normal
 category: how to
 
 links:
- - '[XOR](https://support.google.com/docs/answer/9116491){documentation}'
+  - '[XOR](https://support.google.com/docs/answer/9116491){documentation}'
 
 ---
 

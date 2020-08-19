@@ -6,7 +6,7 @@ type: normal
 category: how to
 
 links:
- - '[SWITCH](https://support.google.com/docs/answer/7013690){documentation}'
+  - '[SWITCH](https://support.google.com/docs/answer/7013690){documentation}'
 
 ---
 

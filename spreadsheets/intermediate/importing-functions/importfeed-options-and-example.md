@@ -6,7 +6,7 @@ type: normal
 category: how to
 
 links:
- - '[IMPORTFEED](https://support.google.com/docs/answer/3093337){documentation}'
+  - '[IMPORTFEED](https://support.google.com/docs/answer/3093337){documentation}'
 
 ---
 

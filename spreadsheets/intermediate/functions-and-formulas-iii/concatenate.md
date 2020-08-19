@@ -6,7 +6,7 @@ type: normal
 category: how to
 
 links:
-  -'[CONCATENATE](https://support.google.com/docs/answer/3094123?hl=en){documentation}'
+  - '[CONCATENATE](https://support.google.com/docs/answer/3094123?hl=en){documentation}'
 
 ---
 

@@ -6,7 +6,7 @@ type: normal
 category: how to
 
 links:
- - '[IFNA](https://support.google.com/docs/answer/9365944){documentation}'
+  - '[IFNA](https://support.google.com/docs/answer/9365944){documentation}'
 
 ---
 

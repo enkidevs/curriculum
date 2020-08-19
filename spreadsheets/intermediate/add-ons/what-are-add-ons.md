@@ -6,7 +6,7 @@ type: normal
 category: how to
 
 links:
- - '[G Suite Marketplace](https://gsuite.google.com/marketplace/category/works-with-spreadsheet){marketplace}'
+  - '[G Suite Marketplace](https://gsuite.google.com/marketplace/category/works-with-spreadsheet){marketplace}'
 
 ---
 

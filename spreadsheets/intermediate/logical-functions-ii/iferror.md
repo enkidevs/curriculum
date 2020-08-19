@@ -6,7 +6,7 @@ type: normal
 category: how to
 
 links:
- - '[IFERROR](https://support.google.com/docs/answer/3093304){documentation}'
+  - '[IFERROR](https://support.google.com/docs/answer/3093304){documentation}'
 
 ---
 
