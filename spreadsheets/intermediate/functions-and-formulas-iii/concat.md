@@ -1,4 +1,4 @@
-﻿---
+---
 author: Stefan-Stojanovic
 
 type: normal
@@ -14,9 +14,6 @@ links:
 
 ---
 ## Content
-
----
-## Practice
 
 The `=CONCAT()` function returns the [concatenation](https://www.enki.com/glossary/general/concatenation) of two values.
 
