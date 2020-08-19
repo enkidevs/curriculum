@@ -24,7 +24,7 @@ The syntax is:
 
 Both `value` and `value_if_na` are required.
 
-The `value` is what we want to check for an [`#N/A` error](https://www.enki.com/glossary/spreadsheets/na-error).
+The `value` is what we want to check for an [Name Error](https://www.enki.com/glossary/spreadsheets/na-error).
 
 The `value_if_na` is what we want to return if `value` evaluates to a [Name Error](https://www.enki.com/glossary/spreadsheets/name-error).
 
