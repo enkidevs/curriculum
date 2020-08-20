@@ -25,14 +25,14 @@ These operators can be applied to any type of value.
 
 Each of the 6 comparison operators has an equivalent function in Google Sheets.
 
-|**Operator**|**Function**|**Description**          |
-|------|---------|--------------------------|---|---|
-| `=`  | `EQ()`  | equal                    |   |   |
-| `>`  | `GT()`  | greater than             |   |   |
-| `>=` | `GTE`   | greater than or equal to |   |   |
-| `<`  | `LT()`  | less than                |   |   |
-| `<=` | `LTE()` | less than or equal to    |   |   |
-| `<>` | `NE()`  | not equal to             |   |   |
+|**Operator**|**Function**|**Description**  |
+|------|---------|--------------------------|
+| `=`  | `EQ()`  | equal                    |
+| `>`  | `GT()`  | greater than             |
+| `>=` | `GTE`   | greater than or equal to |
+| `<`  | `LT()`  | less than                |
+| `<=` | `LTE()` | less than or equal to    |
+| `<>` | `NE()`  | not equal to             |
 
 The functions and operators can be used to achieve the same thing. 
 
