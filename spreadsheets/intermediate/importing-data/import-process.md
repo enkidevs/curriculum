@@ -52,7 +52,7 @@ To import a file you should open the `File` tab and click ???.
 ## Revision
 
 
-In Google Spreadsheets, is it possible to import files from your Google Drive?
+In Google Sheets, is it possible to import files from your Google Drive?
 
 ???
 

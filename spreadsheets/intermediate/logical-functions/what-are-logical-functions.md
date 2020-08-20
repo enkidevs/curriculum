@@ -15,7 +15,7 @@ Logical functions are used to get logical results. I.e. results that evaluate to
 
 Logical functions are also sometimes referred to as Boolean functions because they have a boolean result.
 
-There are several logical functions you can use in Spreadsheets.
+There are several logical functions you can use in Google Sheets.
 
 However, in this workout, we will only discuss the highlighted ones.
 

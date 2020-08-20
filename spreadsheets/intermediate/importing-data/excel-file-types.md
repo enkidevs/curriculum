@@ -16,8 +16,6 @@ Before we find out how to import a file, let's see which file types you can impo
 
 These files are commonly created when you save your spreadsheet. They usually start with `.xl` followed by one or two characters. 
 
-> All of the following types can be imported into your spreadsheet.
-
 The default file type when saving a spreadsheet is `.xlsx`. 
 
 > 💡 If you're using a version of Excel that is older than 2007 then the file type would be `.xls`.

@@ -19,11 +19,11 @@ links:
 
 ### Google Analytics
 
-The `Google Analytics` add-on allows you to utilize the Google Analytics API with Spreadsheets.
+The `Google Analytics` add-on allows you to utilize the Google Analytics API with Sheets.
 
 You can create custom calculations, query data from multiples profiles, create dashboards with data visualizations, and more.
 
-The add-on allows you to see who can view the data by utilizing the pre-built sharing features of Spreadsheets.
+The add-on allows you to see who can view the data by utilizing the pre-built sharing features of Sheets.
 
 ### Mail Merge with Attachments
 

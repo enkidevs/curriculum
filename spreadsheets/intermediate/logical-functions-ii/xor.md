@@ -22,7 +22,9 @@ Syntax:
 =XOR(
   logical_expression1, 
   logical_expression2,
-  logical_expression3, ...)
+  logical_expression3,
+   ...
+)
 ```
 
 Only the first logical expression is required, all others are optional.

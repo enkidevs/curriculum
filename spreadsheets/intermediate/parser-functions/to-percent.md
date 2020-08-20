@@ -71,7 +71,7 @@ Fill in the gaps such that the result is `87%`.
 - TO_PERCENT
 - (0.87)
 - (87)
-- TOPERCENT(
+- TOPERCENT
 
 ---
 ## Revision

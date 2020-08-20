@@ -5,18 +5,6 @@ type: normal
 
 category: how to
 
-links:
-  - '[TIME](https://support.google.com/docs/answer/3093056){documentation}'
-  - '[NOW](https://support.google.com/docs/answer/3092981){documentation}'
-  - '[TODAY](https://support.google.com/docs/answer/3092984){documentation}'
-  - '[HOUR](https://support.google.com/docs/answer/3093045){documentation}'
-  - '[MINUTE](https://support.google.com/docs/answer/3093048){documentation}'
-  - '[SECOND](https://support.google.com/docs/answer/3093054){documentation}'
-  - '[YEAR](https://support.google.com/docs/answer/3093061){documentation}'
-  - '[MINUTE](https://support.google.com/docs/answer/3093052){documentation}'
-  - '[WEEKDAY](https://support.google.com/docs/answer/3092985){documentation}'
-  - '[DATE](https://support.google.com/docs/answer/3092969){documentation}'
-
 ---
 
 # Date & Time Functions
@@ -24,7 +12,7 @@ links:
 ---
 ## Content
 
-There are several date and time functions in Spreadsheets.
+There are several date and time functions in Google Sheets.
  - TIME()
  - NOW()
  - TODAY()

@@ -1,11 +1,13 @@
 ---
 author: Stefan-Stojanovic
+
 type: normal
+
 category: how to
+
 ---
 
 # Spreadsheet shortcuts
-
 
 ---
 
@@ -13,7 +15,7 @@ category: how to
 
 In this workout, we will go over the best shortcuts that you can use later. Feel free to bookmark the ones you find most useful!
 
-This workout will serve as a "Cheatsheet" you can use when working with spreadsheets.
+This workout will serve as a "Cheatsheet" you can use when working with Google Sheets.
 
 The shortcuts are structured like this:
 

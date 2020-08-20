@@ -1,17 +1,19 @@
 ---
 author: Stefan-Stojanovic
+
 type: normal
+
 category: how to
+
 ---
 
 # Always check your function range
-
 
 ---
 
 ## Content
 
-Functions in Spreadsheets are a powerful feature, however, it's easy to make mistakes in calculations by not selecting a few necessary cells.
+Functions in spreadsheets are a powerful feature, however, it's easy to make mistakes in calculations by not selecting a few necessary cells.
 
 Luckily, double-clicking a cell with a function in it will highlight all the cells that are used by that function.
 

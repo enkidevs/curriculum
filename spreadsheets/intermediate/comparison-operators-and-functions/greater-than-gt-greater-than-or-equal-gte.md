@@ -44,22 +44,14 @@ Take a look here[3] for more examples on `GTE()`.
 ---
 ## Revision
 
-The `GT()` function and `>` operator are used to check if the ??? value is ??? than the ??? value and output ??? if it is and ??? if it's not.
+The `GT()` function and `>` operator are used to check if the first value is greater than the second value and output ??? if it is and ??? if it's not.
 
-The `GTE()` function and `>=` operator are used to check if the ??? value is ??? than the ??? value and output ??? if it is and ??? if it's not.
+The `GTE()` function and `>=` operator are used to check if the first value is greater than or equal to the second value and output ??? if it is and ??? if it's not.
 
-- first
-- second 
-- larger
 - TRUE
 - FALSE
-- second
-- larger than or equal to
-- first
 - TRUE
 - FALSE
-- smaller
-- smaller than or equal to
 
 ---
 ## Footnotes

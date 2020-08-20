@@ -19,7 +19,7 @@ Let's see how you can populate your pivot table!
 
 Looking at the `Pivot table editor` on the right-hand side[1], you can notice a bunch of options.
 
-Usually, Spreadsheets will analyze the data and create a few suggestions based on that.
+Usually, Sheets will analyze the data and create a few suggestions based on that.
 
 > 💡 If the suggestion fits your requirements, it's best to select it since it will save time.
 

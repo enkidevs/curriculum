@@ -13,7 +13,7 @@ category: how to
 
 Here's one thing useful application from that Math class a long time ago!
 
-In spreadsheets, all calculations follow the `PEMDAS` or `BOMDAS` order of operations.
+In Sheets, all calculations follow the `PEMDAS` or `BOMDAS` order of operations.
 
 `PEMDAS` and `BOMDAS` mean the same thing; the former is American and latter is British.
 
@@ -23,7 +23,7 @@ Parentheses, Exponent, Multiplication, Division, Addition, and Subtraction.
 `BOMDAS` stands for:
 Brackets, Orders, Multiplication, Division, Addition, and Subtraction.
 
-In Spreadsheets, when you calculate any cell or multiple cells, the calculations are done in the order of operation above.
+In Sheets, when you calculate any cell or multiple cells, the calculations are done in the order of operation above.
 
 First, all the parentheses are resolved; next, all exponents; then all the multiplications and divisions (from left to right, whichever comes first); and finally, addition and subtraction (also, left to right).
 

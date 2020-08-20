@@ -40,7 +40,7 @@ Lastly, click `Import data` and you're done 🎉!
 ---
 ## Practice
 
-Which of the following isn't an option when importing a file in Google Spreadsheets?
+Which of the following isn't an option when importing a file in Google Sheets?
 
 ???
 
@@ -51,7 +51,7 @@ Which of the following isn't an option when importing a file in Google Spreadshe
 ---
 ## Revision
 
-Which of the following isn't an option when importing a file in Google Spreadsheets?
+Which of the following isn't an option when importing a file in Google Sheets?
 
 ???
 

@@ -20,13 +20,14 @@ The `=SWITCH()` function is used to check if an expression corresponds to a list
 The syntax is:
 ```plain-text
 =SWITCH(
-expression, 
-case1, 
-value1, 
-case2, 
-value2, 
-..., 
-default)
+  expression, 
+  case1, 
+  value1, 
+  case2, 
+  value2, 
+  ..., 
+  default
+)
 ```
 
 Each case in the list has a value that the expression is checked against.
@@ -53,7 +54,12 @@ If your expression has 50 cells, the switch will return 50 results.
 In which order do you write the `value`, `case`, `default` case, and `expression` in the `SWITCH()` functions?
 
 ```plain-text
-SWITCH(???, ???, ???, ???)
+SWITCH(
+  ???, 
+  ???, 
+  ???, 
+  ???
+)
 ```
 
 - expression

@@ -12,9 +12,7 @@ category: how to
 ---
 ## Content
 
-Conditional formatting can be used to automatically apply different formatting using `if-then` logic.
-
-It achieves this with `rules`. 
+Conditional formatting is achieved through `rules`. 
 
 > 💡 Every rule will correspond to a single `if-then` condition.
 
@@ -26,4 +24,4 @@ Different rules allow you to create different color-coding systems.
 
 These rules are reactive to change. Anytime a cell value is updated you can apply formatting such color the text and/or cell, bold it, underline, and more, to it. 
 
-Spreadsheets come with some default conditions but you can also manually input formulas to create custom conditions yourself.
+Sheets come with some default conditions but you can also manually input formulas to create custom conditions yourself.

@@ -55,7 +55,7 @@ The ??? function is used to insert an image into ???.
 ---
 ## Revision
 
-What is the `IMAGE()` function used for in spreadsheets?
+What is the `IMAGE()` function used for in Google Sheets?
 
 ???
 

@@ -11,7 +11,7 @@ category: how to
 
 ## Content
 
-Spreadsheets have numerous functions you can use. Some of these functions have similar usage but different names and vice versa.
+Google Sheets have numerous functions you can use. Some of these functions have similar usage but different names and vice versa.
 
 For instance, let's say we wanted to use the `COUNT` function to count how many numerical values are in a selected range of cells.
 

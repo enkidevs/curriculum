@@ -12,7 +12,7 @@ category: how to
 ---
 ## Content
 
-To install an add-on you first have to open Spreadsheets and either create a new spreadsheet or open an existing one.
+To install an add-on you first have to open Google Sheets and either create a new spreadsheet or open an existing one.
 
 Next, at the top, you will have an `Add-ons` button.
 

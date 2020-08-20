@@ -23,7 +23,9 @@ The syntax is:
   condition1, 
   value1, 
   condition2,
-  value2, …)
+  value2,
+  …
+)
 ```
 
 Only `condition1` and `value1` are mandatory, all others are optional.
@@ -38,7 +40,7 @@ The `value1` is what you want the function to return if the `condition1` is eval
 
 > 💡 The `condition` and `value` are tied together. For each condition, you should have a value as well.
 
-IF all conditions evaluate to `FALSE`, the function will return a [Name Error](https://www.enki.com/glossary/spreadsheets/name-error).
+IF all conditions evaluate to `FALSE`, the function will return a [ #N/A error](https://www.enki.com/glossary/spreadsheets/name-error).
 
 Here is an example with three conditions where the first two evaluate to `FALSE` and the third evaluates to `TRUE`.
 

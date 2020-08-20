@@ -44,22 +44,14 @@ Take a look here[3] for more examples on `LTE()`.
 ---
 ## Revision
 
-The `LT()` function and `<` operator are used to check if the ??? value is ??? than the ??? value and output ??? if it is and ??? if it's not.
+The `LT()` function and `<` operator are used to check if the first value is smaller than the second value and output ??? if it is and ??? if it's not.
 
-The `LTE()` function and `<=` operator are used to check if the ??? value is ??? than the ??? value and output ??? if it is and ??? if it's not.
+The `LTE()` function and `<=` operator are used to check if the first value is smaller than or equal to the second value and output ??? if it is and ??? if it's not.
 
-- first
-- smaller
-- second
 - TRUE
 - FALSE
-- first
-- smaller than or equal to
-- second
 - TRUE
 - FALSE
-- larger
-- larger than or equal to
 
 ---
 ## Footnotes

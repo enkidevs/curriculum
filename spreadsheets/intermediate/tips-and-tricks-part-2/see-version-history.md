@@ -11,13 +11,13 @@ category: how to
 
 ## Content
 
-Spreadsheets allow users to save and create different versions of their work.
+Google Sheets allow users to save and create different versions of their work.
 
 The versions are autosaved after every few changes, however, you can also manually save versions of your spreadsheets and also give those versions a name.
 
 ### Save a version
 
-To manually save a version of your spreadsheets, go to `File` -> `Version history` -> `Name current version`.
+To manually save a version of your spreadsheet, go to `File` -> `Version history` -> `Name current version`.
 
 ![name-current-version](https://img.enkipro.com/743440eb2a7e5a7c8c5e1f8d2c6c02dd.png)
 

@@ -27,10 +27,10 @@ The `options` are optional. You can select an array or range of settings to cust
 The type of chart is selected in the `options` field.
 
 The possible options for selecting a chart are:
- - =SPARKLINE(data, {"charttype", "line"})
- - =SPARKLINE(data, {"charttype", "column"})
- - =SPARKLINE(data, {"charttype", "bar"})
- - =SPARKLINE(data, {"charttype", "winloss"})
+ - `=SPARKLINE(data, {"charttype", "line"})`
+ - `=SPARKLINE(data, {"charttype", "column"})`
+ - `=SPARKLINE(data, {"charttype", "bar"})`
+ - `=SPARKLINE(data, {"charttype", "winloss"})`
 
 As you can see in the list above, the `options` part should be "two field-wide".
 
