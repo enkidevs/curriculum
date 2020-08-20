@@ -18,7 +18,7 @@ Let's continue preparing the sandwich-making instructions for our robot by writi
 FUNCTION build_sandwich
   INPUT cheese_bowl, sliced_bread, butter
   INSTRUCT buttered_slices = butter_the_bread(sliced_bread, butter)
-  INSTRUCT buttered_slices_with_cheese = add_the_cheese_to_each_slice(cheese_bowl, buttered_bread)
+  INSTRUCT buttered_slices_with_cheese = add_the_cheese_to_each_slice(cheese_bowl, buttered_slices)
   INSTRUCT sandwich = combine_slices(buttered_slices_with_cheese)
   OUTPUT sandwich
 ENDFUNCTION
