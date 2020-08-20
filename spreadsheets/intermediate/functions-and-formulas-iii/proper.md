@@ -40,7 +40,7 @@ How does the `=PROPER()` function re-format text?
 
 - By capitalizing the first letter of every word.
 - By capitalizing the first word of every sentence.
-- By capitalizing the first letter every second word.
+- By capitalizing the first letter of every second word.
 
 ---
 ## Revision

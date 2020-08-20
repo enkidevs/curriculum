@@ -31,7 +31,7 @@ If we had this data set[1], and we wanted to only keep the unique value we would
 UNIQUE(A1:C10)
 ```
 
-And the result is:
+And the result would be:
 
 ![unique-range](https://img.enkipro.com/2b3403e142620d932627f8673a49b354.gif)
 

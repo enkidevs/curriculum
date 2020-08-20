@@ -27,13 +27,11 @@ Both can be used to check if two values are NOT equal to each other and return `
 
 The `NE()` function and `<>` operator are used to compare ??? values and output ??? if they are equal and ??? if they are not.
 
-???
-
-- 2
+- two
 - FALSE
 - TRUE
-- 2 or less
-- 2 or more
+- two or less
+- two or more
 
 ---
 ## Footnotes

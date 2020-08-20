@@ -43,7 +43,7 @@ They can be used to:
 
 The `=TIME()` function converts numbers to time. 
 
-![time](https://img.enkipro.com/0c74a1f41401bd4907a9c44453ee7734.png)
+![time](https://img.enkipro.com/9dcad07cd28e272913b24607613caaa8.png)
 
 The `=NOW()` function gets the current date and time.
 
@@ -69,4 +69,4 @@ The `=MONTH()` function gets the month portion of a given date.
 
 The `=WEEKDAY()` function gets the weekday as a number from `1-7` from a given date. (1 = Sunday, 7 = Saturday)
 
-![year,month,weekday](https://img.enkipro.com/d23f80a22e9865b083339195e60e47b4.png)
+![year,month,weekday](https://img.enkipro.com/2d2e617cf639e99328994821cd8d0a71.png)

@@ -17,9 +17,9 @@ links:
 
 Before creating our first pivot table, we're going to need some data.
 
-> 💡 If you want to try this yourself, check the *Learn More* section for a link to the sample data that we used.
+> 💡 If you want to try this yourself, check the *Learn more* section for a link to the sample data that we used.
 
-After you have your data, click on any cell in the set, click on the `Data` data tab, and select `Pivot table`.
+After you have your data, click on any cell in the set, click on the `Data` tab, and select `Pivot table`.
 
 ![insert-table](https://img.enkipro.com/d91fb106421a2e6b0a2453cea7dd2bab.png)
 

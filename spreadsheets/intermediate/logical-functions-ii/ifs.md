@@ -19,7 +19,11 @@ The `=IFS()` function is used to evaluate multiple conditions and return the val
 
 The syntax is:
 ```plain-text
-=IFS(condition1, value1, condition2, value2, …)
+=IFS(
+  condition1, 
+  value1, 
+  condition2,
+  value2, …)
 ```
 
 Only `condition1` and `value1` are mandatory, all others are optional.

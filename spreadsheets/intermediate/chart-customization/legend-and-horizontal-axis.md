@@ -39,4 +39,5 @@ For now, we'll only change the label formatting to `Bold`.
 
 [1:Previously Used Chart]
 The chart that was previously used:
+
 ![previous-chart](https://img.enkipro.com/227c843860c60bb62288a9546c1d067b.png)

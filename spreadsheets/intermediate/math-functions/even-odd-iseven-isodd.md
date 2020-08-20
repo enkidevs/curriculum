@@ -41,9 +41,9 @@ The =??? function is used to round a number up to the next even integer.
 
 The =??? function is used to check if a number is odd.
 
-- EVEN()
 - ODD()
 - ISEVEN()
+- EVEN()
 - ISODD()
 
 ---

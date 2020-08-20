@@ -49,6 +49,8 @@ We will go into the sub-options for each chart in the next few insights.
 
 Which of the following chart types cannot be created using the `=SPARKLINE()` function?
 
+???
+
 - pie
 - line
 - column
@@ -59,7 +61,6 @@ Which of the following chart types cannot be created using the `=SPARKLINE()` fu
 ## Revision
 
 Sparkline charts can ???.
-
 
 - only be created using a single row or column of data
 - be created with multiple rows and columns of data

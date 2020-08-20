@@ -31,11 +31,11 @@ The next option is the `Separator type`. Your best bet is going with the `Detect
 
 The last option is used to tell spreadsheets to convert text from the updated file into numbers, dates, and formulas.
 
-> 💡 When importing an Excel file type, the only available option is the 
+> 💡 When importing an Excel file type, the only available option is **import location**.
 
 Lastly, click `Import data` and you're done 🎉!
 
-> 💡 Check the *Learn More* section if you want to see how the imported spreadsheet looks like.
+> 💡 Check the *Learn more* section if you want to see how the imported spreadsheet looks like.
 
 ---
 ## Practice

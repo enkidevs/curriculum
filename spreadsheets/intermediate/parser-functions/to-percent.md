@@ -39,7 +39,7 @@ On the same note, values higher than `1` will result in percentages higher than 
 1300%
 ```
 
-Google Spreadsheets doesn't automatically convert values like `0.3` to `30%`. 
+Google Sheets doesn't automatically convert values like `0.3` to `30%`. 
 
 You would either need to use this function (`=TO_PERCENT(0.30)`) or use the `Format as percent` menu button. 
 

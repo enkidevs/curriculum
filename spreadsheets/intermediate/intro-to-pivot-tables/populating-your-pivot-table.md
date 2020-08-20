@@ -78,4 +78,5 @@ In a pivot table, the `Rows` and ??? fields are used to populate it.
 [1:Pivot Table Editor]
 
 Here is how the pivot table editor looked like:
+
 ![pivot-editor](https://img.enkipro.com/a195da10b5b4832c018064ac85dd2a59.png)

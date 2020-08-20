@@ -19,7 +19,7 @@ As we've mentioned, no matter the file type, the import process is the same.
 
 We're going to import a `.csv` file that contains student grades.
 
-> 💡 If you want to try this yourself, check the *Learn More* section for a list of *free* `.csv` files you can import.
+> 💡 If you want to try this yourself, check the *Learn more* section for a list of *free* `.csv` files you can import.
 
 First, create an empty spreadsheet. Then, go to the `File` tab and click `Import`:
 

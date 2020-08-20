@@ -37,7 +37,7 @@ This function is mostly used when you want to convert a number value to a dollar
 Finish the code below to convert the number 9.99 to a dollar value.
 
 ```plain-text
-???9.99???
+=???9.99???
 ```
 
 - TO_DOLLARS(

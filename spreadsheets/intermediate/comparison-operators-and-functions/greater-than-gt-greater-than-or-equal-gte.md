@@ -46,11 +46,7 @@ Take a look here[3] for more examples on `GTE()`.
 
 The `GT()` function and `>` operator are used to check if the ??? value is ??? than the ??? value and output ??? if it is and ??? if it's not.
 
-???
-
 The `GTE()` function and `>=` operator are used to check if the ??? value is ??? than the ??? value and output ??? if it is and ??? if it's not.
-
-???
 
 - first
 - second 

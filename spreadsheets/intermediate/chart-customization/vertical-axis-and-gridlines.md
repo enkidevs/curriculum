@@ -12,7 +12,7 @@ category: how to
 ---
 ## Content
 
-As with the `Horizontal axis`, in the `Vertical axis` tab you can the label and its appearance.
+As with the `Horizontal axis`, in the `Vertical axis` tab you can modify the label and its appearance.
 
 There's more! You can also add a minimum and maximum value for the labels.
 

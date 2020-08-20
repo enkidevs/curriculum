@@ -23,6 +23,6 @@ These can be used for business, productivity, education, and more.
 
 Add-ons can be used for easier collaboration between teams and promote productivity.
 
-To download an add-on, or to see the full list of add-ons supported by Spreadsheets, check the `links` section.
+To download an add-on, or to see the full list of add-ons supported by Spreadsheets, check the "Learn more" section.
 
 The market for add-ons used in Google Sheets is called `G Suite Marketplace`.

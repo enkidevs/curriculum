@@ -7,7 +7,7 @@ category: how to
 
 ---
 
-# Excel File Types
+# Text File Types
 
 ---
 ## Content

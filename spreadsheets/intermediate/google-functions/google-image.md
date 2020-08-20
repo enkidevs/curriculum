@@ -47,11 +47,17 @@ Here is the same image with all of the above options.
 
 The ??? function is used to insert an image into ???.
 
+- =IMAGE()
+- a single cell
+- a single or multiple cells depending on the options
+- =PHOTO()
+
+---
+## Revision
+
 What is the `IMAGE()` function used for in spreadsheets?
 
 ???
 
-- =IMAGE()
-- into a single cell
-- To insert an image into single or multiple cells depending on the options
-- =PHOTO()
+- To insert an image into a single cell
+- To insert an image into a single cell or a group of cells depending on the options

@@ -43,7 +43,7 @@ These nodes are stored like path expressions. They look similar to how tradition
 
 ![tfs](https://img.enkipro.com/c79861aea3dcb932fcca20bb4c1e2ea7.png)
 
-For a list of Xpath functions, check the `links` section.
+For a list of Xpath functions, check the "Learn more" section.
 
 ![importxml](https://img.enkipro.com/d9d13c7c46e4db6639b1a783dd82a9db.gif)
 

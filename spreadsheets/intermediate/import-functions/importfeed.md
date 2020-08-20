@@ -37,11 +37,9 @@ You can either add the URL directly into the function and enclose it in quotatio
 
 ---
 ## Practice
-Wh
-at is the `=IMPORTFEED()` function used for?
 
-???
+The `=IMPORTFEED()` function is used to import an ???
 
-- To import an RSS or ATOM feed.
-- To import an XML document.
-- To import an SQL feed.
+- RSS or ATOM feed.
+- XML document.
+- SQL feed.

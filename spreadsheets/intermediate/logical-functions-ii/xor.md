@@ -19,7 +19,10 @@ The `=XOR()` function returns `TRUE` only if an odd number of arguments evaluate
 
 Syntax:
 ```plain-text
-=XOR(logical_expression1, logical_expression2, ...)
+=XOR(
+  logical_expression1, 
+  logical_expression2,
+  logical_expression3, ...)
 ```
 
 Only the first logical expression is required, all others are optional.

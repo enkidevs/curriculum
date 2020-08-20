@@ -33,7 +33,7 @@ The `base` is the number to be raised to the `exponent` power.
 
 Finish the code to raise `7` to the power of `4`.
 
-```spreadsheet
+```plain-text
 =???(???,???)
 ```
 

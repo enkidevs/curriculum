@@ -7,7 +7,7 @@ category: how to
 
 ---
 
-# What Is Conditional Formating
+# What Is Conditional Formatting
 
 ---
 ## Content

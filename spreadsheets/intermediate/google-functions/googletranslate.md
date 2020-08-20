@@ -23,7 +23,10 @@ The `=GOOGLETRANSLATE()` function is used to translate text from one language to
 The syntax is:
 
 ```plain-text
-=GOOGLETRANSLATE(text, source_language, target_language)
+=GOOGLETRANSLATE(
+  text, 
+  source_language, 
+  target_language)
 ```
 
 The `text` is what we want to translate. It has to be enclosed in quotation marks or reference a cell.
@@ -36,6 +39,6 @@ The `source_language` is a two-letter code used to define the source language. `
 
 The `target_language` is a two-letter code used to define the target language. `pl` for Polish, `da` for Danish, etc.
 
-> 💡 The two-letter codes are ISO language codes. For a full list of ISO language codes check the `Learn More` section.
+> 💡 The two-letter codes are ISO language codes. For a full list of ISO language codes check the "Learn more" section.
 
 ![translate](https://img.enkipro.com/e826ece2fc17fbd38cb038e9abc35f12.png)

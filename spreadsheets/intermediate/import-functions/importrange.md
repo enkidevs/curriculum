@@ -50,7 +50,7 @@ The `range` part is required.
 
 Whether you use just the `range` or both, you have to enclose them in quotation marks.
 
-```spreadsheet
+```plain-text
 =IMPORTRANGE(A1,"Sheet1!A1:D99")
 
 =IMPORTRANGE(A1,"A1:D99")

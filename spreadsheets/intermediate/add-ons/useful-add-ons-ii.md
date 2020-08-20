@@ -26,7 +26,7 @@ You can use it to merge different sets of data automatically via "tags", and opt
 
 You can set the program to automatically generate data when new forms are submitted so you can have a streamlined process.
 
-For more information on `Autocrat` visit the `G Suite Marketplace` or check the links in the "Learn More" section.
+For more information on `Autocrat` visit the `G Suite Marketplace` or check the links in the "Learn more" section.
 
 ### Flubaroo
 
@@ -36,4 +36,4 @@ You can use `Flubaroo` to analyze and grade students much quicker as well as sen
 
 You can view the average and the histogram of scores and more.
 
-For more information on `Flubaroo` visit the `G Suite Marketplace` or check the links in the "Learn More" section.
+For more information on `Flubaroo` visit the `G Suite Marketplace` or check the links in the "Learn more" section.

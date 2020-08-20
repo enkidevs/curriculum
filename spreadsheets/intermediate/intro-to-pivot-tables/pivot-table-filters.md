@@ -33,7 +33,7 @@ Finally, the pivot table will look like this:
 
 ![end-table](https://img.enkipro.com/c9149f996529e023f916ec9f0f9c2dc4.png)
 
-> 💡 If you want to try it out yourself, check the *Learn More* section for a link to the pivot table.
+> 💡 If you want to try it out yourself, check the *Learn more* section for a link to the pivot table.
 
 ---
 ## Practice
