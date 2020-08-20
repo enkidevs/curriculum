@@ -41,6 +41,7 @@ Types of change:
 ## August 20th 2020
 
 ### Fixed
+- [Coding Intro - Robot, Assemble the Sandwich - Fix typo in variable name](https://github.com/enkidevs/curriculum/pull/2315)
 - [Security - Analyze Dependencies - Fix spelling of CVE in content](https://github.com/enkidevs/curriculum/pull/2314)
 - [Regex - Why Learn Regex II - Fix typo in 'manipulate'](https://github.com/enkidevs/curriculum/pull/2313)
 
