@@ -1,4 +1,4 @@
-name: Common mistakes
+name: Common Mistakes
 
 description: Common mistakes to avoid!
 
@@ -7,7 +7,7 @@ insights:
   - never-delete-old-data
   - spreadsheet-pemdas
   - never-experiment-on-originals
-  
+
 aspects:
   - introduction
   - workout

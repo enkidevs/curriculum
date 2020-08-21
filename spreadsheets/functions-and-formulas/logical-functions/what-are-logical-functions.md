@@ -4,7 +4,7 @@ type: normal
 category: how to
 ---
 
-# What are logical functions
+# What Are Logical Functions
 
 
 ---

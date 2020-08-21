@@ -4,7 +4,7 @@ type: normal
 category: how to
 ---
 
-# Using shortcuts to select cells
+# Using Shortcuts to Select Cells
 
 
 ---

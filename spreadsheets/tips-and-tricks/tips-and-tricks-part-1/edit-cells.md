@@ -4,7 +4,7 @@ type: normal
 category: how to
 ---
 
-# Editing cells
+# Editing Cells
 
 
 ---

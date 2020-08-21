@@ -4,7 +4,7 @@ type: normal
 category: how to
 ---
 
-# Always check function names
+# Always Check Function Names
 
 
 ---

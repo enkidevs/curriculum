@@ -7,7 +7,7 @@ category: how to
 
 ---
 
-# Always check your function range
+# Always Check Your Function Range
 
 ---
 

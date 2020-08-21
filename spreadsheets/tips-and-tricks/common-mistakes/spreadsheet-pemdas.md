@@ -4,7 +4,7 @@ type: normal
 category: how to
 ---
 
-# Order of operations
+# Order of Operations
 
 
 ---

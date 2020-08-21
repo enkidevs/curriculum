@@ -4,7 +4,7 @@ type: normal
 category: how to
 ---
 
-# Transfer cells to different locations
+# Transfer Cells to Different Locations
 
 
 ---

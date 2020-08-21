@@ -1,4 +1,4 @@
-name: Spreadsheet shortcuts
+name: Spreadsheet Shortcuts
 
 description: 'List of shortcuts for easier navigation, editing, formatting and more.'
 
@@ -8,7 +8,7 @@ insights:
   - navigation-shortcuts
   - formatting-editing-shortcuts
   - formatting-editing-shortcuts-ii
-  
+
 aspects:
   - introduction
  

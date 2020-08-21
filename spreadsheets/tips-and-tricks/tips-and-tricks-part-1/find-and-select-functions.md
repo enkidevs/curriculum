@@ -4,7 +4,7 @@ type: normal
 category: how to
 ---
 
-# Find and select functions faster
+# Find and Select Functions Faster
 
 
 ---
