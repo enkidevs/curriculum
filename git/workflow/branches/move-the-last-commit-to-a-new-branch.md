@@ -6,7 +6,7 @@ links:
   - '[Git Reset](https://git-scm.com/docs/git-reset){documentation}'
 ---
 
-# Move the last commit to a new branch
+# Move the Last Commit to a New Branch
 
 
 ---
