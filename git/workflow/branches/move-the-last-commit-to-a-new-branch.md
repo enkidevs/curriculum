@@ -6,7 +6,7 @@ links:
   - '[Git Reset](https://git-scm.com/docs/git-reset){documentation}'
 ---
 
-# Move the last commit to a new branch
+# Move the Last Commit to a New Branch
 
 
 ---
@@ -15,48 +15,53 @@ links:
 
 If you commit to the current branch when instead you wanted to commit to a new branch, you can easily correct your mistake.
 
-For example if you made your commit to `master` instead of `test`:
+For example, if you made your commit to `branch1` but wanted instead to commit to `branch2`:
 
 ```bash
-# create new branch from
-# current HEAD
-# but stays on master
-git branch test
+# you're currently on branch1
+# and the last commit was a mistake
+# to reset branch1 to state right
+# before the last commit, do:
+git reset HEAD~
 
-# reset master to before last commit
-git reset --hard HEAD~
-
-# continue on new branch
-git checkout test
+# now you can move those changes
+# onto a new branch
+# first let's create the branch
+git branch branch2
+# then we can move the changes
+git checkout branch2
+# now you can safely commit to
+# the intended branch2
+git add .
+git commit -m 'fixed'
 ```
-
 
 ---
 
 ## Practice
 
-The order in which you would correct the mistake is :
+Run the commands in the correct order such that the last commit from current branch is moved to branch `bug-fix`:
 
 ```plain-text
 ???
 ???
-???
 ```
 
-- `git branch test`
-- `git reset --hard HEAD~`
-- `git checkout test`
-- `git reset --hard HEAD^^`
-
+- `git reset HEAD~`
+- `git branch bug-fix`
+- `git checkout bug-fix`
+- `git add .`
+- `git commit -m 'enki lesson'`
 
 ---
 
 ## Revision
 
-A quick hack to revert the changes made to the current branch and move them to another is
+A quick trick to undo the last commit added to the current branch is
 
 ???
 
-- creating a new branch and resetting HEAD on master
-- deleting the current branch and switching to the master
-- resetting the last commit and moving to a new branch
+- `git reset HEAD~`
+- `git reverse HEAD~`
+- `git reset HEAD-1`
+- `git undo last commit`
