@@ -58,7 +58,7 @@ The `GTE()` function and `>=` operator are used to check if the first value is g
 
 [1:Zero & Empty Cells]
 If we had this table:
-|   | A | B |
+| \ | A | B |
 |---|---|---|
 | 1 | 0 |   |
 

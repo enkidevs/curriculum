@@ -70,7 +70,7 @@ The `UNIQUE()` function returns ???
 
 If you had a table like this one, what would the output of `=UNIQUE(A1:C4)` be?
 
-|   | A  | B | C |
+| \ | A  | B | C |
 |---|----|---|---|
 | 1 | 13 | 1 | 1 |
 | 2 | 22 | 7 | 2 |
@@ -89,7 +89,7 @@ If you had a table like this one, what would the output of `=UNIQUE(A1:C4)` be?
 ## Footnotes
 
 [1:Data Set]
-|    |   A  |    B   |   C  |
+| \  |   A  |    B   |   C  |
 |:--:|:----:|:------:|:----:|
 |  1 |   1  |    2   |   3  |
 |  2 |  10  |   20   |  30  |

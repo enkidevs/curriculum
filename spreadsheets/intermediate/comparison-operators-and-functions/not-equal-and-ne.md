@@ -38,7 +38,7 @@ The `NE()` function and `<>` operator are used to compare ??? values and output 
 
 [1:Zero & Empty Cells]
 If we had this table:
-|   | A | B |
+| \ | A | B |
 |---|---|---|
 | 1 | 0 |   |
 

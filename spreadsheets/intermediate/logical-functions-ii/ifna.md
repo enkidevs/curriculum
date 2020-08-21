@@ -35,7 +35,7 @@ The `value_if_na` is what we want to return if `value` evaluates to a [#N/A erro
 
 Using this table:
 
-|   | A    |
+| \ | A    |
 |---|------|
 | 1 | #N/A |
 

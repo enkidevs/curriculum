@@ -46,7 +46,7 @@ When converting numerical values with `TO_TEXT` the value's formatting is retain
 
 Let's say we have this table:
 
-|   | A          | B  | C   |
+| \ | A          | B  | C   |
 |---|------------|----|-----|
 | 1 | 12/01/2001 | 3$ | 25% |
 
