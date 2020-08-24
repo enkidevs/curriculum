@@ -7,7 +7,7 @@ category: how to
 
 ---
 
-# Spreadsheet shortcuts
+# Spreadsheet Shortcuts
 
 ---
 
