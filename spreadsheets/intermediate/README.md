@@ -4,8 +4,13 @@ description: All professionals will get value from this intermediate course.
 
 sections:
   '0':
-    - tips-and-tricks-part-1
-    - tips-and-tricks-part-2
-    - common-mistakes
-    - spreadsheets-shortcuts
-    - logical-functions
+    - chart-types-and-data
+    - chart-customization
+    - importing-data
+    - intro-to-pivot-tables
+    - conditional-formatting
+    - add-ons
+    - pivot-tables-rules-and-data
+
+next:
+  - spreadsheets:functions-and-formulas

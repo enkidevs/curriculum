@@ -38,6 +38,14 @@ Types of change:
 - `Archived` for content that is no longer necessary and has been archived.
 - `Fixed` for any minor fixes (e.g. add a missing comma, adding a code block tag, fixing a report).
 
+## August 24th 2020
+
+### Changed
+- [Spreadsheets - Intermediate - move workouts into new topics](https://github.com/enkidevs/curriculum/pull/2312)
+
+### Added
+- [Spreadsheets - Functions and Formulas, Tips and Tricks, Glossary Terms - Add 2 New Topics and Glossaries](https://github.com/enkidevs/curriculum/pull/2312)
+
 ## August 21st 2020
 
 ### Fixed
