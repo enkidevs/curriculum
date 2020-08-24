@@ -4,7 +4,7 @@ type: normal
 category: how to
 ---
 
-# Common action shortcuts
+# Common Action Shortcuts
 
 
 ---
