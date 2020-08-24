@@ -1,9 +1,13 @@
 ---
 author: emmab
+
 tags:
   - introduction
+ 
 type: normal
+
 category: must-know
+
 links:
   - >-
     [Learn
@@ -11,10 +15,10 @@ links:
   - >-
     [Regex Use
     Cases](https://digitalfortress.tech/tricks/top-15-commonly-used-regex/){website}
+
 ---
 
 # Why Learn Regex II
-
 
 ---
 
@@ -28,7 +32,7 @@ Regex is a *powerful tool* for validating not just email addresses, but also pho
 
 2. 🔍 It **enhances your search capabilities** 
 
-Using regex to match patterns is *extremely flexible*. Methods to *find, extract or replace* these matches can then be used to further manipuate your data.
+Using regex to match patterns is *extremely flexible*. Methods to *find, extract or replace* these matches can then be used to further manipulate your data.
 
 
 ---

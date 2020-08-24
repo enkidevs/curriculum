@@ -38,6 +38,18 @@ Types of change:
 - `Archived` for content that is no longer necessary and has been archived.
 - `Fixed` for any minor fixes (e.g. add a missing comma, adding a code block tag, fixing a report).
 
+## August 21st 2020
+
+### Fixed
+- [Git - Workflow, Branches - show a more appropriate, less potentially destructive, way of reseting a commit](https://github.com/enkidevs/curriculum/pull/2316)
+
+## August 20th 2020
+
+### Fixed
+- [Coding Intro - Robot, Assemble the Sandwich - Fix typo in variable name](https://github.com/enkidevs/curriculum/pull/2315)
+- [Security - Analyze Dependencies - Fix spelling of CVE in content](https://github.com/enkidevs/curriculum/pull/2314)
+- [Regex - Why Learn Regex II - Fix typo in 'manipulate'](https://github.com/enkidevs/curriculum/pull/2313)
+
 ## August 18th 2020
 
 ### Fixed
