@@ -4,7 +4,7 @@ type: normal
 category: how to
 ---
 
-# Navigation shortcuts
+# Navigation Shortcuts
 
 
 ---
