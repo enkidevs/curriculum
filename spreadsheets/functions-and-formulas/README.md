@@ -1,6 +1,6 @@
 name: Functions & Formulas
 
-description: Get familiar with Sheets functions and formulas.
+description: Get familiar with functions and formulas in Google Sheets.
 
 sections:
   '0':
