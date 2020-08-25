@@ -38,6 +38,11 @@ Types of change:
 - `Archived` for content that is no longer necessary and has been archived.
 - `Fixed` for any minor fixes (e.g. add a missing comma, adding a code block tag, fixing a report).
 
+## August 25th 2020
+
+### Fixed
+- [Python - String Operations - Add a note & update slice explanation](https://github.com/enkidevs/curriculum/pull/2317)
+
 ## August 24th 2020
 
 ### Changed
