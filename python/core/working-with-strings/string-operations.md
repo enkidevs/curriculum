@@ -1,12 +1,13 @@
 ---
 author: tommarshall
+
 type: normal
+
 category: must-know
-inAlgoPool: false
+
 ---
 
 # String Operations
-
 
 ---
 
@@ -34,6 +35,8 @@ print(testString.index("r"))
 # 3
 ```
 
+> 💡 In Python (as well as other programming languages), indexing starts from `0`.
+
 The `count` method returns the number of occurrences of a specified character:
 
 ```python
@@ -41,23 +44,23 @@ print(testString.count("o"))
 # 2
 ```
 
-The following examples prints a `slice` of a string. It starts at index 2 and finishes at index 7, hence making it easier to do maths inside brackets.
+The following examples prints a `slice` of a string.
 
 ```python
 print(testString[2:8])
 # eratio
 ```
 
-To split a string into two or more strings use the `split` method as follows:
+Notice how the result **starts at** index 2 but **finishes at** index 7. This is because the finish index is **non-inclusive**.
+
+To split a string into two or more strings, use the `split` method as follows:
 
 ```python
 testString = 'string operations'
 words = testString.split(" ")
 print(words)
 # ['string', 'operations']
-
 ```
-
 
 ---
 
@@ -74,7 +77,6 @@ print(testString.???('p'))
 - `occur`
 - `num`
 - `show`
-
 
 ---
 
