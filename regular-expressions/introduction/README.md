@@ -9,4 +9,7 @@ sections:
     - intro-to-regular-expressions
     - basic-syntax-i
     - basic-syntax-ii
-    - practical-applications-i
+    - regex-use-cases-i
+    - regex-use-cases-ii
+    - regex-use-cases-iii
+    - regex-and-javascript

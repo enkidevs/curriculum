@@ -1,4 +1,4 @@
-name: Practical Applications II
+name: Regex Use Cases II
 description: Write regular expressions for URLs, ZIP Codes and credit cards.
 insights:
   - url

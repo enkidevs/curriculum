@@ -1,4 +1,4 @@
-name: Practical Applications I
+name: Regex Use Cases I
 description: The cool part - how regex can solve real world problems.
 insights:
   - regex-password-validation
