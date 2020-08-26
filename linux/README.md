@@ -2,7 +2,7 @@ name: Linux
 
 description: If you want full control over your machine, Linux is your friend.
 
-color: A7CBFF
+color: A6CAFF
 
 icon: https://img.enkipro.com/aa17322adae726e2b4ca669adec05264.png
 

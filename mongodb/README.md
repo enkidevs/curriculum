@@ -1,6 +1,6 @@
 name: MongoDB
 
-color: B2FFA7
+color: B1FFA6
 
 description: A NoSQL document-oriented database program.
 
