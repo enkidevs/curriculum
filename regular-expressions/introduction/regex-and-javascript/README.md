@@ -1,4 +1,4 @@
-name: Regex and JavaScript
+name: Regex & JavaScript
 description: Learn how Regex and JavaScript work together.
 insights:
   - the-regexp-object

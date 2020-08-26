@@ -43,6 +43,9 @@ Types of change:
 ### Fixed
 - [Web - Nested Lists - Updated image & codepen for mixed nested lists](https://github.com/enkidevs/curriculum/pull/2318)
 
+### Added
+- [Regex - 3 new workouts](https://github.com/enkidevs/curriculum/pull/2320)
+
 ## August 25th 2020
 
 ### Fixed
