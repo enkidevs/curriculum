@@ -102,7 +102,7 @@ Here is an example of an unordered list within an ordered list:
 
 Result:
 
-![list-nested](https://img.enkipro.com/4ef55bc5393e405fa35339ac22351a45.png)
+![list-nested](https://img.enkipro.com/241430ac2324cde0c4f4b54a010106c7.png)
 
 [View CodePen](https://codepen.io/enkidevs/pen/xJdKpO)
 
