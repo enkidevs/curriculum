@@ -2,8 +2,8 @@ name: Spreadsheets
 
 description: Become an expert in Excel and Google Sheets.
 
-color: 008A47
+color: A6FFD5
 
-icon: https://img.enkipro.com/541db91188eff2a13fc1b809236be91e.png
+icon: https://img.enkipro.com/f91d97d62434853bf629643b94c73d30.png
 
 language: General

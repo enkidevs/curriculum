@@ -2,8 +2,8 @@ name: Airtable
 
 description: Build a database with no code!
 
-color: ebbc00
+color: FFEEA6
 
-icon: https://img.enkipro.com/0e9d7b51d228ecc9ee6f72f056dc98e3.png
+icon: https://img.enkipro.com/7ddba2ce239e8ebe7488d930d22764d8.png
 
 language: General

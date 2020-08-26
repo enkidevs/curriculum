@@ -2,8 +2,8 @@ name: SQL
 
 description: Learn to access data yourself without any help.
 
-color: 008bb9
+color: A6EAFF
 
-icon: https://img.enkipro.com/1bd1f1b0f22d1d62483556a5433731f2.png
+icon: https://img.enkipro.com/27253e961a004095c792f2b2eb50d6a4.png
 
 language: General

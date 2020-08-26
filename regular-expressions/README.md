@@ -2,8 +2,8 @@ name: Regex
 
 description: Match, extract and replace data based on patterns.
 
-icon: https://img.enkipro.com/9fa54d4b792881838a3ddcd91711a378.png
+icon: https://img.enkipro.com/46cd50cec0a1c7cba2dbc1a0d10dacb1.png
 
-color: 20a2eb
+color: A6D9FF
 
 language: General
