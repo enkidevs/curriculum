@@ -1,6 +1,6 @@
 name: The Go Language
 
-color: 69d6e1
+color: a6f7ff
 
 description: This description needs to be updated!!!!
 

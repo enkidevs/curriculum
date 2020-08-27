@@ -4,7 +4,7 @@ description: Learn how to use exported and imported names and how to create and 
 
 insights:
   - exported-names
-  - functions
+  - go-functions
   - functions-ii
   - functions-iii
   - multiple-results

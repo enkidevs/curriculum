@@ -1,6 +1,6 @@
 name: Introduction
 
-description: Learn the powers of **Go**!!
+description: Learn the powers of Go!
 
 core: true
 
@@ -9,7 +9,7 @@ sections:
     - introduction
     - variables-and-initialization
     - data-types-and-constants
-    - operators
+    - go-operators
     - importing-exporting-functions
     - for-loops-and-switch-statements
     - if-statements

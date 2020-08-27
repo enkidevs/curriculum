@@ -1,4 +1,4 @@
-﻿# Open-source
+﻿# Open-Source
 
 When we refer to something as "open-source" it means its original code is publicly available.
 
