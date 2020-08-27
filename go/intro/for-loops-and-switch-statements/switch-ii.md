@@ -66,7 +66,7 @@ This is why we put our case identifiers as numbers.
 The switch starts from `case 1`, checking if the weekday number is equal to the case identifier. If it does, it stops there. Otherwise, it goes to the next.
 
 ---
-## Footnote
+## Footnotes
 
 [1:Previous Example]
 

@@ -57,7 +57,7 @@ Is there a limit on how many `if..else` statements you can stack?
 - Yes
 
 ---
-## Footnote
+## Footnotes
 
 [1:Previous `if..else` statement]
 
