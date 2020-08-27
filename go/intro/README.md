@@ -8,7 +8,7 @@ sections:
   '0':
     - introduction
     - variables-and-initialization
-    - data-tyoes-and-constants
+    - data-types-and-constants
     - operators
     - importing-exporting-functions
     - for-loops-and-switch-statements
