@@ -1,4 +1,4 @@
-name: Introduction
+name: Introduction to Go
 
 description: Learn the powers of Go!
 

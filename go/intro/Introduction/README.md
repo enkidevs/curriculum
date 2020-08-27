@@ -1,6 +1,6 @@
 name: Introduction
 
-description: Learn the basics of GO
+description: Learn the basics of Go.
 
 insights:
   - what-is-go
