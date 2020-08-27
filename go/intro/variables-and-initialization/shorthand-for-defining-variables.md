@@ -5,8 +5,6 @@ type: normal
 
 category: must-know
 
-links:
-
 ---
 
 # Shorthand for Defining Variables
