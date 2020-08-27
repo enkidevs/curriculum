@@ -7,7 +7,7 @@ category: feature
 
 ---
 
-# HTML tags
+# HTML Tags
 
 ---
 ## Content
