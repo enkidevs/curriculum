@@ -5,8 +5,8 @@ description: Learn the basics of GO
 insights:
   - what-is-go
   - why-learn-go
-  - dependencies
-  - packages
+  - go-dependencies
+  - go-packages
   - hello-world
 
 aspects:
