@@ -45,14 +45,12 @@ After you create your file, navigate to the same directory via terminal, and typ
 go build hello.go
 ```
 
-This will create an executable file with the name "hello".
+This will create an executable file with the name `hello`.
 
-To check if the file is functioning correctly, run it by typing "hello" in the terminal whilst in the same directory. The output should be:
+To check if the file is functioning correctly, run it by typing `./hello` in the terminal whilst in the same directory. The output should be:
 ```plain-text
 Hello World!
 ```
-
-> 💡 In case you get an error when executing "hello", it's possible your editor/terminal doesn't have the permission to read the file at its current location. You can bypass this by running `".\hello"`.
 
 ---
 ## Practice

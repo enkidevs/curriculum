@@ -66,7 +66,7 @@ This is why we put our case identifiers as numbers.
 The switch starts from `case 1`, checking if the weekday number is equal to the case identifier. If it does, it stops there. Otherwise, it goes to the next.
 
 ---
-## Footnotes
+## Footnote
 
 [1:Previous Example]
 
@@ -90,6 +90,6 @@ func main() {
 
 [2:Saving functions in variables]
 
-Like in many other languages, in **Go** you can save a function into a variable.
+Like in some other languages, in **Go** you can save a function into a variable.
 
 The `fmt.Println` is a built-in function of the `fmt` package. For easier usage, we can save that imported function into a variable to use the same way.

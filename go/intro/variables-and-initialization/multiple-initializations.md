@@ -23,18 +23,23 @@ var age, name, isAdult int, string, bool = 26, "Stefan", true
 
 // this is correct
 var age, year, something int = 1, 4, 7
-
-// this will initialize the data type `int` for all 3 variables
-// If we were to add "int" to our multiple data type example above it will give an error:
-./prog.go:5:5: cannot use true (type bool) as type int in assignment
-./prog.go:5:34: cannot use "Stefan" (type string) as type int in assignment
-
-// this is because you cannot assign values of one data type to another
 ```
 
+This will initialize the data type `int` for all 3 variables.
+
+If we were to add `int` to our multiple data type example above it will give an error:
+
+```plain-text
+./prog.go:5:5: cannot use true (type bool) as type int in assignment
+./prog.go:5:34: cannot use "Stefan" (type string) as type int in assignment
+```
+
+This is because you cannot assign values of one data type to another.
+
 If we were to print the example above in our program it would look like this:
+
 ```go
-package main
+package main;
 import "fmt"
 
 var age, name, isAdult = 26, "Stefan", true

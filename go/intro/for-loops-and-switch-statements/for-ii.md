@@ -46,7 +46,8 @@ for sum := 0; sum < 3; {
 ```
 
 There is no difference in the outcome between the 3 loops.
-```go
+
+```plain-text
 The value of sum is:  1
 The value of sum is:  2
 The value of sum is:  3

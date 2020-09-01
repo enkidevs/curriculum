@@ -28,7 +28,7 @@ var result float64 = 31.836
 
 We can convert the above value to another value like so:
 ```go
-var newType int = int(result)
+var resultAsInt int = int(result)
 ```
 
 And now, an example program!
@@ -39,15 +39,15 @@ import "fmt"
 var result float64 = 31.836
 
 func main() {
-  var newType int = int(result)
-  fmt.Println(newType)
+  var resultAsInt int = int(result)
+  fmt.Println(resultAsInt)
 }
 
 // Result after print:
 // 31
 ```
 
-This will take the `float64`, convert it to an `int`, and save it in the `newType` value.
+This will take the `float64`, convert it to an `int`, and save it in the `resultAsInt` value.
 
 ---
 ## Practice

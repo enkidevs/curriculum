@@ -17,23 +17,17 @@ links:
 ---
 ## Content
 
-Go is a [statically typed](https://www.enki.com/glossary/general/statically-typed), fast compiled, and [open-source](https://www.enki.com/glossary/general/open-source) language designed by Google.
+Go is a [statically typed](https://www.enki.com/glossary/general/statically-typed), fast [compiled](https://www.enki.com/glossary/general/compilation), and [open-source](https://www.enki.com/glossary/general/open-source) language designed by Google.
 
 > 💡 A common name for Go is **Golang** because of its website [golang.org](https://golang.org). The domain name go.org wasn't available when the language was created.
 
-Developers in Google wanted to make a new language that supports new multicore machines and large codebases.
+**Golang** was created because the developers at Google wanted to make a new language that supports modern multicore machines and large codebases.
 
-They combined several aspects of other programming languages into one. 
+The design of **Golang** aims to have the readability and usability of JavaScript or Python while also having great performance with multiprocessing CPUs and networking.
 
-**Golang** has the readability and usability of JavaScript or Python. It also has great performance with multiprocessing CPUs and networking.
+The Go community says that Go was born out of the need for efficiency, safety, and ease of programming.
 
-The language syntax is similar to C++. 
-
-The goal was to make a language that addresses the limitations of other languages. It takes only the good parts and combines them into one that is both fun to write and can build fast programs.
-
-Go was born out of the need for efficiency, safety, and ease of programming.
-
-The language is part of the C-family[1] and has similar [syntax](https://www.enki.com/glossary/general/syntax) but designed with greater simplicity and safety in mind.
+The language [syntax](https://www.enki.com/glossary/general/syntax) is part of the C-family[1].
 
 It also has a cool mascot, the Gopher!
 

@@ -30,7 +30,7 @@ This is because the package level can only start with reserved keywords like `fu
 
 Here is a full list of the reserved keywords:
 
-[reserved-keyword-list](https://img.enkipro.com/b301e7eef8545782f0ab60beb628d8a9.png)
+![reserved-keyword-list](https://img.enkipro.com/b301e7eef8545782f0ab60beb628d8a9.png)
 
 ---
 

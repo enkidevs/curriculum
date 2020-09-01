@@ -13,18 +13,18 @@ category: must-know
 ## Content
 
 **Go** support several data types. These are categorized into four groups:
-- Basic 
-- Aggregate
-- Reference
-- Interface
+- basic
+- aggregate
+- reference
+- interface
 
 For now, we will only discuss the basic types.
 
 ## Basic data types
 
-- Numbers
-- Strings
-- Booleans
+- numbers
+- strings
+- booleans
 
 The numbers category contains several data types corresponding to different types and sizes.
 
@@ -39,9 +39,9 @@ Float:
 Complex:
 ![complex](https://img.enkipro.com/58cce1108eabefc9c0dde7f25f2e7a40.png)
 
-Strings are nothing more than a sequence of characters **enclosed by quotation marks**. The characters can be anything.
+Strings are a sequence of characters **enclosed by quotation marks** `"lik3 th1s"`. The characters can be anything.
 
-Booleans are the smallest type. They can only take `true` or `false` as a value and are commonly used in decision making.
+Booleans are the smallest type. They can only take `true` or `false` as a value.
 
 ---
 ## Practice

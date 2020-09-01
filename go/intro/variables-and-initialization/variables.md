@@ -12,50 +12,35 @@ category: how to
 ---
 ## Content
 
-To define a variable in **Go**, you need to use the `var` statement.
+To declare a variable in **Go**, you need to use the `var` statement.
 
-There are several ways to do this.
+> To *declare* a variable means to create it.
+
+A variable can have a type, which is the kind of information it can hold, and a value that matches that type.
 
 Example:
 ```go
-// Incorrect
-var name = Stefan
-var name string = Stefan
-var name
-
-// Correct
+// variable with a value
 var name = "Stefan"
-var name string = "Stefan"
+// variable with a type
 var name string
+// variable with both
+var name string = "Stefan"
 ```
 
 You can also declare multiple variables at once:
 
-```Go
+```go
 var name, lastName string
 ```
 
-Variables can be created both at package and function level.
+Variables can be declared both at package and function levels. 
 
-Example:
-```go
-package main
-
-import "fmt"
-// Package level
-var name = "Stefan"
-var age = 26
-
-func main() {
-// Function level
-  var lastName string = "Stojanovic"
-  var birthYear = 1993
-}
-```
+This means you can create variables at the top of the file and inside functions[1].
 
 Variable names have to start either with a `letter` or an underscore `_`. After the first character, the name can also contain numbers and the length of a variable is unlimited.
 
-It is important to note that variables are case sensitive. `name`, `Name`, and `NAME` are 3 different variables.
+> 💡 It is important to note that variables are case sensitive. `name`, `Name`, and `NAME` are 3 different variables.
 
 ---
 ## Practice
@@ -93,3 +78,26 @@ Define a string variable called `name` with the value `"Manuel"`:
 - "Manuel"
 - Manuel
 - Variable
+
+---
+## Footnotes
+
+[1: Places to declare a variable]
+
+A variable in **Go** can be declare both at the package level and the function level.
+
+```go
+package main
+
+import "fmt"
+
+// Package level
+var name = "Stefan"
+var age = 26
+
+func main() {
+	// Function level
+  var lastName string = "Stojanovic"
+  var birthYear = 1993
+}
+```

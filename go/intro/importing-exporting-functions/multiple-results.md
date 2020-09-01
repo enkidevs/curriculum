@@ -36,7 +36,7 @@ Functions can also return no results. A well-known function like that is the `ma
 ---
 ## Practice
 
-Functions in go can return more than 1 result?
+Functions in **Go** can return more than 1 result?
 
 ???
 

@@ -16,17 +16,17 @@ links:
 ---
 ## Content
 
-The Go language is fun to write, quick to pick up, and fast to run.
+Developers use **Go** to build things ranging from banking servers, productivity tools, and even cryptocurrency systems.
+
+Due to its smalls size and efficient architecture, the **Go** language is quick to pick up and fast to run.
 
 ### Ease of programming
 
-Writing code in **Go** is easily readable and understandable by other **Go** programmers.
+**Go** is one of the rare languages where pretty much all programs maintain the same code formatting. This makes collaboration easier because **Go** programs are understandable by other **Go** programmers.
 
-The standard library in Go aims to contain all the core tools needed to be productive.
+The standard library in Go contains core tools that are needed tget started and be productive.
 
-The Go syntax is clear and relatively small in size[1]. 
-
-This means that learning the basics of Go can be done pretty quickly.
+What makes Go quick to learn is that it is relatively small in size[1]. 
 
 > 💡 Fun fact: The creator of Go, Rob Pike, describes the language with a set of poetic proverbs[2].
 
@@ -36,7 +36,7 @@ Go code [compiles](https://www.enki.com/glossary/general/compilation) insanely f
 
 > 💡 Even huge Go programs will compile in seconds.
 
-Modern computers have many powerful features that old languages such as C are hard to adapt to.
+Modern computers have many powerful features, such as multiple CPUs, that old languages such as C are hard to adapt to.
 
 Building programs that can efficiently take advantage of modern computers is a core part of Go.
 
@@ -59,7 +59,6 @@ Which of the following is a feature of Golang?
 
 ???
 
-- Easy to learn and use
 - Fast compilation
 - Efficient use of hardware
 - Consistent standard library

@@ -1,6 +1,6 @@
 name: Introduction to Go
 
-description: Learn the powers of Go!
+description: Learn the basics of Go!
 
 core: true
 

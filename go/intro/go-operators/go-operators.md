@@ -19,12 +19,12 @@ In this workout, we will discuss how you can use different operators in **Go** a
 Operators are symbols used to indicate operations. 
 
 There are six groups of operators you can use:
-- Arithmetic
-- Relational
-- Logical
-- Assignment
-- BitWise
-- Miscellaneous.
+- arithmetic
+- relational
+- logical
+- assignment
+- bit-wise
+- miscellaneous.
 
 They are used to:
 - perform calculations

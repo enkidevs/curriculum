@@ -56,8 +56,6 @@ for i := 0; i < 3; i++ {
 
 We have the **initial** statement, `i := 0`. Then, we have a **condition**, `i < 10`. Next, we have the **post** statement, `i++`. Lastly, we have our code in the curly braces.
 
-Here is a gif of the above for loop.
-
 ---
 ## Practice
 

@@ -30,7 +30,7 @@ package main
 
 A package can import any other package using the `import` statement:
 
-```Go
+```go
 package main
 
 // We can import packages
@@ -55,7 +55,7 @@ import (
 
 > 💡 We'll show you soon how imports work within a simple Go program
 
-Both ways work the same, however, it is common practice to use the Factored import as it's quicker to type and easier to change.
+Both ways work the same, however, it is common practice to use the *factored import* as it's quicker to type and easier to change.
 
 > 💡 Factoring means calling a keyword once on multiple instances. Later we'll show other Go keywords that can also be factored.
 

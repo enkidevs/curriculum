@@ -22,15 +22,15 @@ The code we had in the previous insight[1] can be improved by using more than on
 if x := 1 ; x > 0 {
   fmt.Println(x, " is positive")
 } else if x < 0 {
-    fmt.Println(x, " is negative")
-    } else if x == 0 {
-        fmt.Println(x, " is neither positive nor negative")
-    }
+  fmt.Println(x, " is negative")
+} else if x == 0 {
+  fmt.Println(x, " is neither positive nor negative")
 }
 ```
 
 If we run the program three times with three different values we get these results:
-```go
+
+```plain-text
 0  is neither positive nor negative
 1  is positive
 -1 is negative

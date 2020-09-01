@@ -34,6 +34,7 @@ func posOrNeg(x float64) string {
 ```
 
 If `x` is greater than `0`, the output would be `x is positive`. If x is not greater it would be `x is negative`.
+
 ```go
 fmt.Pringln(posOrNeg(100))
 // x is positive

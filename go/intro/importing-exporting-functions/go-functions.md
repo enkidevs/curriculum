@@ -14,15 +14,17 @@ category: how to
 
 Functions are pieces of code designed for a particular task.
 
-A function in **Go** can take from zero to any number of arguments.
+A function in **Go** can be written with zero or more parameters.
+
+A parameter is the variable that has a name and holds a value given to the function.
 
 Functions are defined with the keyword `func`. The keyword is case sensitive.
 
 Here is an example:
 
 ```go
-// Function with 2 arguments that multiplies
-// the values and returns the result
+// Function with 2 parameters that multiplies
+// their values and returns the result
 func multiply(x int, y int) int {
   return x * y
 }
@@ -30,16 +32,16 @@ func multiply(x int, y int) int {
 
 The `func` keyword states that we are creating a function named `multiply`.
 
-The `(x int, y int)` are two input values that we have given the names `x` and `y` and set the type to `int`.
+The `(x int, y int)` are two parameters that we have given the names `x` and `y` and set the type to `int`.
 
 The last `int`, after the parentheses, specifies what the type of the return will be.
 
 **Notes:** 
-- You can use as many arguments as you want in your function.
+- You can use as many parameters as you want in your function.
 - You can name your function any way you want, but it is best practice to name it according to what it does.
-- Function values can be of any data type.
+- Function parameters can be of any data type.
 
-Since the two arguments are of the same type we can also only write the type at the end like so:
+Since the two parameters are of the same type we can also only write the type at the end of the parameters, like so:
 ```go
 func multiply(x, y int) int {
   return x * y
@@ -49,7 +51,7 @@ func multiply(x, y int) int {
 ---
 ## Practice
 
-Fill in the gaps to create a function with two integer arguments and return their product.
+Fill in the gaps to create a function with two integer parameters and return their product.
 
 ```go
 ??? multiply(???) int {
@@ -71,7 +73,7 @@ fmt.Println(multiply(7,1))
 ---
 ## Revision
 
-How many arguments can functions in **Go** have?
+Can a function in **Go** have zero parameters?
 
 ???
 
@@ -79,8 +81,9 @@ Which keyword defines a function?
 
 ???
 
-- From zero to unlimited
+- Yes
 - func
+- No
 - Minimum 1, maximum 10
 - Func
 - function

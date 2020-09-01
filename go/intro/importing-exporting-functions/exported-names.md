@@ -20,33 +20,56 @@ The difference between **exported** and **imported**:
 
 > ❗ **Exported** names always start with a capital letter.
 
-Here is an example of an exported name versus an imported name:
-
-```go
-// Imported
-import "fmt"
-
-// Exported
-fmt.Println()
-```
-
-The `Println` is an exported function from the `fmt` package.
-
 If a function starts with a lowercase letter it can only be used within the package it was defined at. 
 
-However, if it starts with an uppercase letter, it can be used by any piece of code that imported the package.
+However, if it starts with an uppercase letter, it can be used by any piece of code that imported the package. 
 
-> ❗ It's important to note that if you try to use an exported function with a lowercase starting letter, you will get an error similar to this one:
+This means that any function starting with an uppercase letter is exported.
+
+For example, this is how we can export a function called `Hello` from package `enki`:
 
 ```go
-// Wrongly used Prinln() function
+package enki
 
-fmt.println()
+import "fmt"
 
+// Hello is exported from enki 
+// package because it starts 
+// with an uppercase letter
+func Hello() {
+	fmt.Println("Hello")
+}
+
+// bye is not exported from enki 
+// package because it starts
+// with a lowercase letter
+// Note: we call these functions
+// "unexported"
+func bye() {
+  fmt.Println("Bye")
+}
+```
+
+Now anyone importing the `enki` package can use the `Hello` function:
+
+```go
+package main
+
+import "enki"
+
+func main() {
+	enki.Hello()
+}
+```
+
+But they cannot use the `bye` function!
+
+```go
+// Wrongly used bye() function
+enki.bye()
 // Output error
-
-//./prog.go:9:2: cannot refer to unexported name fmt.println
-//./prog.go:9:2: undefined: fmt.println
+// ./prog.go:8:2: cannot refer to unexported name enki.bye
+// ./prog.go:8:2: undefined: enki.bye
 ```
 
 ---
