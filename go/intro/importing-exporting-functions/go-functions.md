@@ -16,7 +16,7 @@ Functions are pieces of code designed for a particular task.
 
 A function in **Go** can be written with zero or more parameters.
 
-A parameter is the variable that has a name and holds a value given to the function.
+> A parameter is the variable that has a name and holds a value given to the function.
 
 Functions are defined with the keyword `func`. The keyword is case sensitive.
 

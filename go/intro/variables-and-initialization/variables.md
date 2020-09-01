@@ -84,7 +84,7 @@ Define a string variable called `name` with the value `"Manuel"`:
 
 [1: Places to declare a variable]
 
-A variable in **Go** can be declare both at the package level and the function level.
+A variable in **Go** can be declared both at the package level and the function level.
 
 ```go
 package main

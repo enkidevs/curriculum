@@ -60,7 +60,7 @@ Fill in the missing code to save the result of the `sum` function in a variable 
 ```go
 func main() {
   var ???  = ???(47, 36)
-  fmt.???(sum)
+  fmt.???(sumResult)
 }
 ```
 

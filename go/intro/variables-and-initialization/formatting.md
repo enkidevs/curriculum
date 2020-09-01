@@ -29,7 +29,7 @@ or
 go fmt path/to/your/package
 ```
 
-Alternativey, if you are in a **Go** playground, you can use the `Format` button.
+Alternatively, if you are in a **Go** playground, you can use the `Format` button.
 
 ![go-playground-formatting](https://img.enkipro.com/9bf5e016f114b46c7d59e4a223221537.png)
 
@@ -41,11 +41,11 @@ As you can see in the image above, the formatting of **Go** programs has relativ
 
 It is a convention in the **Go** community to format all code the same way. 
 
-This was inspired by large codebases at Google to make it easier for programmers to colaborate without worrying about tiny details like indentation.
+This was inspired by large codebases at Google to make it easier for programmers to collaborate without worrying about tiny details like indentation.
 
-However, because our course is taught on a mobile platform, having these large indentation would make the code blocks too wide, reducing readability.
+However, because our course is taught on a mobile platform, having these large indentations would make the code blocks too wide, reducing readability.
 
-So, for easier readibily, we will use smaller indentations in this course.
+So, for easier readability, we will use smaller indentations in this course.
 
 > ❗ You should always format your code before building it.
 

@@ -68,13 +68,12 @@ Use assignment operators to make the equations true.
 ```go
 var x = 18
 var y = 5
-var z
 
-y ??? y ; y = 25
+y ??? y // y = 25
 
-y ??? x ; y = 7
+y ??? x // y = 7
 
-x ??? y ; x = 25
+x ??? y // x = 25
 ```
 
 - *=
@@ -92,14 +91,15 @@ Use assignment operators to make the equations true.
 ```go
 var x = 18
 var y = 5
-var z
+var z = 0
 
-x ??? y ; x = 18
+x ??? y // x = 13
 
-z ??? y ; z = 7
+z ??? y // z = 5
 
-x ??? z ; x = 2
+x ??? z // x = 2
 ```
+
 - -=
 - =
 - /=

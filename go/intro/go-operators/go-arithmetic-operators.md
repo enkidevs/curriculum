@@ -72,19 +72,19 @@ Use arithmetic operators to make the equations true.
 var x = 30
 var y = 7
 
-x ??? y = 23
+x = x ??? y // x = 23
 
-??? = 8
+??? // y = 8
 
-y ??? x = 37
+y = y ??? x // y = 10
 ```
 
-- -
-- y++
-- +
-- %
-- x--
-- y--
+- `-`
+- `y++`
+- `+`
+- `%`
+- `x--`
+- `y--`
 
 ---
 ## Revision
@@ -94,19 +94,20 @@ Use arithmetic operators to make the equations true.
 ```go
 var x = 30
 var y = 7
+var z = 0
 
-x ??? y = 2
+z = x ??? y // z = 2
 
-??? = 29
+???  // y = 6
 
-y ??? x = 210
+z = y ??? x // z = 180
 
-x ??? y = 4
+z = x ??? y // z = 5
 ```
 
-- %
-- x--
-- *
-- /
-- y--
-- x++
+- `%`
+- `y--`
+- `*`
+- `/`
+- `x--`
+- `x++`

@@ -54,7 +54,7 @@ func main() {
 Create a function called `powerOfThree` that will calculate the power of 3 of an integer and return the result.
 
 ```go
-??? (??????) int {
+??? ??? (???) int {
   ???
 }
 ```
@@ -73,7 +73,7 @@ Create a function called `powerOfThree` that will calculate the power of 3 of an
 
 Create a function called `division` where you divide the first argument by the second argument and return the result.
 ```go
-??? (??????) int {
+??? ??? (???) int {
   ???
 }
 ```

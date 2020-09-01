@@ -24,7 +24,7 @@ Due to its smalls size and efficient architecture, the **Go** language is quick 
 
 **Go** is one of the rare languages where pretty much all programs maintain the same code formatting. This makes collaboration easier because **Go** programs are understandable by other **Go** programmers.
 
-The standard library in Go contains core tools that are needed tget started and be productive.
+The standard library in Go contains core tools that are needed to get started and be productive.
 
 What makes Go quick to learn is that it is relatively small in size[1]. 
 

@@ -17,6 +17,8 @@ Compared to other languages, **Go** only has one kind of loop, the `for` loop.
 A `for` loop allows developers to repeatedly execute the same piece of code.
 
 ```go
+var sum = 0
+
 for i := 0; i < 3; i++ {
     sum += 1
 }
@@ -48,6 +50,8 @@ The **post statement** is executed at the end of every iteration. This is where 
 
 Looking at this for loop below:
 ```go
+var sum = 0
+
 for i := 0; i < 3; i++ {
   sum += 1
   fmt.Println("The value of sum is: ", sum)
@@ -62,6 +66,8 @@ We have the **initial** statement, `i := 0`. Then, we have a **condition**, `i <
 Complete the code to make the for loop iterate 7 times.
 
 ```go
+var sum = 0
+
 ??? ??? ??? ??? {
     sum += 1
     fmt.Println("The value of sum is: ", sum)
