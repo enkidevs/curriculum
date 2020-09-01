@@ -1,6 +1,6 @@
 name: The Go Language
 
-color: a6f7ff
+color: A6EDFF
 
 description: Build simple, reliable, and efficient software.
 
