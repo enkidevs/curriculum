@@ -2,7 +2,7 @@ name: The Go Language
 
 color: a6f7ff
 
-description: Build fast and efficient programs on modern computers
+description: Build simple, reliable, and efficient software.
 
-icon: https://img.enkipro.com/e1eb64fb2d06c13f2693840b5bf180b4.png
+icon: https://img.enkipro.com/99a84079dadf1c871c25b4d98eb16b78.png
 
