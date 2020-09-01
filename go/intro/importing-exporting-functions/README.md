@@ -1,6 +1,6 @@
 name: Importing, Exporting & Functions
 
-description: Learn how to use exported and imported names and how to create and use different functions. 
+description:  Create functions, and how imported or exported names work.
 
 insights:
   - exported-names
@@ -10,5 +10,5 @@ insights:
   - multiple-results
 
 aspects:
-  - new
   - workout
+  - deep

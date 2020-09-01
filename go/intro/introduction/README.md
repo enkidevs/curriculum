@@ -1,6 +1,6 @@
 name: Introduction
 
-description: Learn how Go was made and how to install it on your machine
+description: What is Go and your first program.
 
 insights:
   - what-is-go
@@ -10,6 +10,4 @@ insights:
   - hello-world
 
 aspects:
-  - new
-  - workout
   - introduction

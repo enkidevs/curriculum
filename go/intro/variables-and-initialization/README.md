@@ -10,5 +10,4 @@ insights:
   - shorthand-for-defining-variables
 
 aspects:
-  - new
   - introduction

@@ -1,6 +1,6 @@
-name: Operators in Go
+name: Operators
 
-description: Learn what operators Go has, how you can use them and the order of operations Go follows.
+description: Learn the common operators used in Go.
 
 insights:
   - go-operators
@@ -11,3 +11,4 @@ insights:
 
 aspects:
   - introduction
+  - workout

@@ -10,4 +10,5 @@ insights:
   - if-in-a-function
 
 aspects:
-  - new
+  - workout
+  - deep
