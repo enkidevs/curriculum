@@ -5,6 +5,10 @@ type: normal
 
 category: how to
 
+links:
+ - '[Go fmt](https://blog.golang.org/gofmt){documentation}'
+ - '[Why gofmt is Widely Accepted](https://utcc.utoronto.ca/~cks/space/blog/programming/GoWhyGofmtAccepted){documentation}'
+
 ---
 
 # Formatting
@@ -35,7 +39,9 @@ As you can see in the image above, the formatting of **Go** programs has relativ
 
 > ❗ These indentations should always be done via tabs and never spaces (unless necessary).  
 
-All of **Go** code is formatted the same way. 
+It is a convention in the **Go** community to format all code the same way. 
+
+This was inspired by large codebases at Google to make it easier for programmers to colaborate without worrying about tiny details like indentation.
 
 However, because our course is taught on a mobile platform, having these large indentation would make the code blocks too wide, reducing readability.
 

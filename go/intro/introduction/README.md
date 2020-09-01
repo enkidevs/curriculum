@@ -1,6 +1,6 @@
 name: Introduction
 
-description: Learn the basics of GO
+description: Learn how Go was made and how to install it on your machine
 
 insights:
   - what-is-go
