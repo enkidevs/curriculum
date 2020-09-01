@@ -11,5 +11,5 @@ sections:
     - data-types-and-constants
     - go-operators
     - importing-exporting-functions
-    - for-loops-and-switch-statements
+    - for-and-switch
     - if-statements
