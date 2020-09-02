@@ -1,4 +1,4 @@
-name: Introduction to Go
+name: Introduction
 
 description: Learn the basics of Go!
 
