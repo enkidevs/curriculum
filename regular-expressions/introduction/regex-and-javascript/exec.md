@@ -9,7 +9,7 @@ type: normal
 category: must-know
 
 links:
-	- '[.exec()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/exec){website}'
+  - '[.exec()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/exec){website}'
 
 ---
 
