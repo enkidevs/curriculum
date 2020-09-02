@@ -1,4 +1,4 @@
-name: Basic Syntax I
+name: Quantifiers and Wildcards
 description: 'Explore basic regex syntax - letters, quantifiers and wildcards.'
 insights:
   - regex-basics
