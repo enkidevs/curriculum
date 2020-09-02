@@ -44,6 +44,9 @@ Types of change:
 - [New topic colours & icons](https://github.com/enkidevs/curriculum/pull/2319#)
 - [Regex - 3 new workouts](https://github.com/enkidevs/curriculum/pull/2320)
 
+### Added
+- [Go - 7 workouts - New Go topic with 7 workouts](https://github.com/enkidevs/curriculum/pull/2321)
+
 ### Fixed
 - [Python - Exiting the Interpreter - Update resource link from py2 to py3](https://github.com/enkidevs/curriculum/pull/2322)
 
