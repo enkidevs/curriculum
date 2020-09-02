@@ -43,6 +43,7 @@ Types of change:
 ### Changed
 - [New topic colours & icons](https://github.com/enkidevs/curriculum/pull/2319#)
 - [Regex - 3 new workouts](https://github.com/enkidevs/curriculum/pull/2320)
+- [Go - update descriptions](https://github.com/enkidevs/curriculum/pull/2323)
 
 ### Added
 - [Go - 7 workouts - New Go topic with 7 workouts](https://github.com/enkidevs/curriculum/pull/2321)

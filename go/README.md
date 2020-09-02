@@ -1,4 +1,4 @@
-name: The Go Language
+name: Go
 
 color: A6EDFF
 
