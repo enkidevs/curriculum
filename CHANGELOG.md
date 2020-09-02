@@ -42,15 +42,10 @@ Types of change:
 
 ### Changed
 - [New topic colours & icons](https://github.com/enkidevs/curriculum/pull/2319#)
-- [Amend Regex workout titles](https://github.com/enkidevs/curriculum/pull/2320)
+- [Regex - 3 new workouts](https://github.com/enkidevs/curriculum/pull/2320)
 
 ### Fixed
 - [Python - Exiting the Interpreter - Update resource link from py2 to py3](https://github.com/enkidevs/curriculum/pull/2322)
-
-## August 27th 2020
-
-### Added
-- [Regex - 3 new workouts](https://github.com/enkidevs/curriculum/pull/2320)
 
 ## August 26th 2020
 
