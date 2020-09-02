@@ -3,7 +3,7 @@ description: Write regular expressions for dates, time, HTML tags and Instagram 
 insights:
   - dates
   - time
-  - html-tags
+  - regex-html-tags
   - instagram-username
 aspects:
   - deep

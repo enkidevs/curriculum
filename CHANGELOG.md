@@ -38,10 +38,12 @@ Types of change:
 - `Archived` for content that is no longer necessary and has been archived.
 - `Fixed` for any minor fixes (e.g. add a missing comma, adding a code block tag, fixing a report).
 
-## August 26th
+## August 27th 2020
 
 ### Added
 - [Regex - 3 new workouts](https://github.com/enkidevs/curriculum/pull/2320)
+
+## August 26th 2020
 
 ### Fixed
 - [Web - Nested Lists - Updated image & codepen for mixed nested lists](https://github.com/enkidevs/curriculum/pull/2318)

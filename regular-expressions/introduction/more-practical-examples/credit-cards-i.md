@@ -78,7 +78,7 @@ Imagine that we don't want to include hyphens or spaces in our pattern for Ameri
 ---
 ## Footnotes
 
-[1. Credit Card Networks]
+[1: Credit Card Networks]
 
 A credit card network sets the interchange or “swipe” fees that merchants are charged to accept a credit card transaction. 
 

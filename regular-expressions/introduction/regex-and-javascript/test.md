@@ -9,7 +9,7 @@ type: normal
 category: must-know
 
 links: 
-	- '[.test()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/test){website}'
+  - '[.test()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/test){website}'
 
 ---
 
