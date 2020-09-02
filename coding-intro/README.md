@@ -2,8 +2,8 @@ name: Coding Intro
 
 description: Learn the fundamentals behind all computer code. Great if you’re just getting started!
 
-color: a28cd1
+color: A6BAFF
 
-icon: https://img.enkipro.com/9ab19e6d0545116b18120e84c6187bce.png
+icon: https://img.enkipro.com/044a97a0615eb545853e141afb0a78aa.png
 
 language: General

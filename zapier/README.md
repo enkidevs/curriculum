@@ -2,8 +2,8 @@ name: Zapier
 
 description: Automate tasks by connecting applications. No code involved!
 
-color: FF4A00
+color: FFC0A6
 
-icon: https://img.enkipro.com/17406ff0e7a5d059c66a99b294063187.png
+icon: https://img.enkipro.com/26ef0b521f4b09d91dd51b3c93ee233a.png
 
 language: General

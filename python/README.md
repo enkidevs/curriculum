@@ -2,8 +2,8 @@ name: Python
 
 description: One of the easiest languages to learn. But we go advanced too.
 
-color: 79A551
+color: D2FFA6
 
-icon: https://img.enkipro.com/2cec1024be8b9d18d1e485fab441ce9c.png
+icon: https://img.enkipro.com/1422996b1142be465484e6ee505547be.png
 
 language: py
