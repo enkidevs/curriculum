@@ -2,8 +2,8 @@ name: TypeScript
 
 description: Modern JavaScript with Types
 
-color: 0099ff
+color: A6DBFF
 
-icon: https://img.enkipro.com/01f6a86d2564e78890456970b8c0ad59.png
+icon: https://img.enkipro.com/e5c1ed2c02a71358a70485e2da2f0b90.png
 
 language: TypeScript

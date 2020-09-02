@@ -40,6 +40,9 @@ Types of change:
 
 ## September 2nd 2020
 
+### Changed
+- [New topic colours & icons](https://github.com/enkidevs/curriculum/pull/2319#)
+
 ### Fixed
 - [Python - Exiting the Interpreter - Update resource link from py2 to py3](https://github.com/enkidevs/curriculum/pull/2322)
 
