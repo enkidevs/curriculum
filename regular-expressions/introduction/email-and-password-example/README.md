@@ -1,4 +1,4 @@
-name: Regex Use Cases I
+name: Email and Password Example
 description: The cool part - how regex can solve real world problems.
 insights:
   - regex-password-validation

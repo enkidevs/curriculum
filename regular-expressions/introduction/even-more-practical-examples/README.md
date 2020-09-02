@@ -1,4 +1,4 @@
-name: Regex Use Cases III
+name: Even More Practical Examples
 description: Write regular expressions for dates, time, HTML tags and Instagram usernames.
 insights:
   - dates
