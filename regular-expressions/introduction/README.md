@@ -7,6 +7,9 @@ core: true
 sections:
   '0':
     - intro-to-regular-expressions
-    - basic-syntax-i
-    - basic-syntax-ii
-    - practical-applications-i
+    - quantifiers-and-wildcards
+    - ranges-groups-and-more
+    - email-and-password-example
+    - more-practical-examples
+    - even-more-practical-examples
+    - regex-and-javascript
