@@ -34,8 +34,12 @@ Now, to extend the truncated array returned from the above:
 
 ```javascript
 a.length = 4;
-// a = ["one", "two", undefined,
-//               undefined]
+// a = [
+//   "one", 
+//   "two", 
+//   undefined,
+//   undefined
+// ]
 ```
 
 Finally, to truncate to zero:
