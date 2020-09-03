@@ -7,7 +7,7 @@ tags:
   - obscura
 ---
 
-# Setting the length of an array
+# Setting the Length of an Array
 
 
 ---
