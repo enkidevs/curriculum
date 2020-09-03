@@ -18,13 +18,13 @@ Have you ever wondered what happens if you manually change the length of an arra
 
 Given the array:
 
-```plain-text
+```javascript
 var a = ["one", "two", "three"];
 ```
 
 You can manually set the length of the array to truncate or extend it. To truncate:
 
-```plain-text
+```javascript
 a.length = 2;
 // a = ["one", "two"]
 
@@ -32,7 +32,7 @@ a.length = 2;
 
 Now, to extend the truncated array returned from the above:
 
-```plain-text
+```javascript
 a.length = 4;
 // a = ["one", "two", undefined,
 //               undefined]
@@ -40,7 +40,7 @@ a.length = 4;
 
 Finally, to truncate to zero:
 
-```plain-text
+```javascript
 a.length = 0;
 // a = []
 
