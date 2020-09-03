@@ -38,6 +38,11 @@ Types of change:
 - `Archived` for content that is no longer necessary and has been archived.
 - `Fixed` for any minor fixes (e.g. add a missing comma, adding a code block tag, fixing a report).
 
+## September 3rd 2020
+
+### Fixed
+- [Javascript - Setting The Length Of An Array - Update code identifiers](https://github.com/enkidevs/curriculum/pull/2324)
+
 ## September 2nd 2020
 
 ### Changed
