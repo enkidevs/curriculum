@@ -19,7 +19,7 @@ Have you ever wondered what happens if you manually change the length of an arra
 Given the array:
 
 ```javascript
-var a = ["one", "two", "three"];
+let a = ["one", "two", "three"];
 ```
 
 You can manually set the length of the array to truncate or extend it. To truncate:
