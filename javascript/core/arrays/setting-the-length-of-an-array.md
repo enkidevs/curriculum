@@ -7,7 +7,7 @@ tags:
   - obscura
 ---
 
-# Setting the length of an array
+# Setting the Length of an Array
 
 
 ---
@@ -18,13 +18,13 @@ Have you ever wondered what happens if you manually change the length of an arra
 
 Given the array:
 
-```plain-text
-var a = ["one", "two", "three"];
+```javascript
+let a = ["one", "two", "three"];
 ```
 
 You can manually set the length of the array to truncate or extend it. To truncate:
 
-```plain-text
+```javascript
 a.length = 2;
 // a = ["one", "two"]
 
@@ -32,15 +32,19 @@ a.length = 2;
 
 Now, to extend the truncated array returned from the above:
 
-```plain-text
+```javascript
 a.length = 4;
-// a = ["one", "two", undefined,
-//               undefined]
+// a = [
+//   "one", 
+//   "two", 
+//   undefined,
+//   undefined
+// ]
 ```
 
 Finally, to truncate to zero:
 
-```plain-text
+```javascript
 a.length = 0;
 // a = []
 
@@ -54,9 +58,13 @@ a.length = 0;
 Complete the following snippet:
 
 ```javascript
-var arr = [1,2,3];
-arr.??? = 2; // arr = [1,2]
-arr.length = 4; //arr = ???
+let arr = [1,2,3];
+
+arr.??? = 2; 
+// arr = [1,2]
+
+arr.length = 4; 
+//arr = ???
 ```
 
 - length
@@ -72,9 +80,11 @@ arr.length = 4; //arr = ???
 Complete the following snippet:
 
 ```javascript
-var names = ["John","Mary","Tom"];
+let names = ["John","Mary","Tom"];
+
 names.length = 4;
 // names = ???
+
 names.length = 0;
 // names = ???
 ```
