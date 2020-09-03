@@ -58,9 +58,13 @@ a.length = 0;
 Complete the following snippet:
 
 ```javascript
-var arr = [1,2,3];
-arr.??? = 2; // arr = [1,2]
-arr.length = 4; //arr = ???
+let arr = [1,2,3];
+
+arr.??? = 2; 
+// arr = [1,2]
+
+arr.length = 4; 
+//arr = ???
 ```
 
 - length
@@ -76,9 +80,11 @@ arr.length = 4; //arr = ???
 Complete the following snippet:
 
 ```javascript
-var names = ["John","Mary","Tom"];
+let names = ["John","Mary","Tom"];
+
 names.length = 4;
 // names = ???
+
 names.length = 0;
 // names = ???
 ```
