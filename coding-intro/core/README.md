@@ -11,3 +11,5 @@ sections:
     - variables-and-data
     - collections
     - functions
+    - conditions
+    - loops
