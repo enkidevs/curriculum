@@ -67,9 +67,9 @@ Example 2:
   <source src="some_song.wav"
     type="audio/wav">
     <p>
-     You're seeing this because
-     your browser does not support
-     the <audio> element.
+      You're seeing this because
+      your browser does not support
+      the <audio> element.
     </p>
 </audio>
 ```
