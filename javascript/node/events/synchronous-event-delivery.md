@@ -18,7 +18,7 @@ parent: listening-to-events-just-once
 
 ---
 
-# Event delivery
+# Event Delivery
 
 ---
 
