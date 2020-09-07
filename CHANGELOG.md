@@ -41,6 +41,7 @@ Types of change:
 ## September 7th 2020
 
 ### Fixed
+- [Comp. Sci. - What Is a Protocol - Remove irrelevant resource link](https://github.com/enkidevs/curriculum/pull/2333)
 - [Git - Using Tags For Version Control - Fix typo in version name](https://github.com/enkidevs/curriculum/pull/2332)
 - [JavaScript - Synchronous Event Delivery - Fix output of code](https://github.com/enkidevs/curriculum/pull/2331)
 
