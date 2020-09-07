@@ -1,17 +1,19 @@
 ---
 author: catalin
+
 type: normal
+
 category: must-know
+
 links:
   - >-
-    [www.tutorialspoint.com](https://www.tutorialspoint.com/internet_technologies/internet_protocols.htm){website}
-  - >-
-    [www.comptechdoc.org](http://www.comptechdoc.org/independent/networking/guide/netcategories.html){website}
+    [Transmission Control Protocol](https://www.tutorialspoint.com/internet_technologies/internet_protocols.htm){website}
+
 parent: what-is-a-packet
+
 ---
 
-# What is a protocol?
-
+# What Is a Protocol?
 
 ---
 
