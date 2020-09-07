@@ -47,7 +47,7 @@ console.log('post hi');
 
 Gives the following output:
 
-```bash
+```plain-text
 pre hi
 hi!
 hi again!
