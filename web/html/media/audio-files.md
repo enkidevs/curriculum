@@ -21,17 +21,32 @@ links:
 
 ## Content
 
-In order to support all browsers, it is useful to provide two different types of audio within your `<audio>` players: mp3/m4a & ogg
+Previously, in order to support all browsers, it was useful to provide two different types of audio within your `<audio>` players: mp3/m4a & ogg.
 
-![audio-formats-browser](https://img.enkipro.com/3e463b8c6eca4d637159f063d1837816.png)
+However, that is no longer the case.
+
+![all-audio-format-browsers](https://img.enkipro.com/f969fae6edd7f2063a66bf7cec803c63.png)
+
+All browsers, except Internet Explorer, support these formats:
+- WAV
+- MP3
+- M4A
+- MP4
+- OGG
+- ADTS
+- FLAC
+
+Internet Explorer only supports MP3 and MP4 as of **IE9**.
+
+These three are the most used formats:
 
 **MP3**: The most popular audio format for its small compressed size and great audio.
 
 **M4A**: The newest audio format works with all same browsers as MP3, but should be used moving forward.
 
-**OGG**: Less popular than MP3/M4A, but its open source and widely available and actually has greater compression due to its variable bit rate with the same great audio.
+**OGG**: Less popular than MP3/M4A, but its open-source and widely available and actually has greater compression due to its variable bit rate with the same great audio.
 
-Using the `<audio>` tag, multiple songs can be added via the `<source>` element which will accomodate the appropriate file needed for that browser.
+Using the `<audio>` tag, multiple songs can be added via the `<source>` element which will accommodate the appropriate file needed for that browser.
 
 ```html
 <audio controls>
@@ -51,9 +66,12 @@ Using the `<audio>` tag, multiple songs can be added via the `<source>` element 
 
 ## Practice
 
-Finish the sentence:
+Which of these formats is supported by all browsers (excluding Internet Explorer)?
 
-In order for audio files today to be supported on all major web browsers you should use either the `???` or `???` format.
+??? 
+???
+???
+???
 
 - .mp3/.m4a
 - .ogg
@@ -61,6 +79,7 @@ In order for audio files today to be supported on all major web browsers you sho
 - .wav
 - .tunes
 - flash
+
 
 ---
 
@@ -86,8 +105,8 @@ How many audio files are useful to add to a single `<audio>` element in order to
 
 ???
 
-- 2
 - 1
+- 2
 - 3
 - 4
 - 5+
