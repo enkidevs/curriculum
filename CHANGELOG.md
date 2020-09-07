@@ -42,6 +42,8 @@ Types of change:
 
 ### Fixed
 - [Web - Audio Files - Improve Outdated information, Change Question](https://github.com/enkidevs/curriculum/pull/2335)
+- [Regex - Ranges, Groups, and More - Fix typo](https://github.com/enkidevs/curriculum/pull/2328)
+- [JavaScript - Functions can be declared after use - Fix syntax highlighting](https://github.com/enkidevs/curriculum/pull/2329)
 - [Web - Audio Files - Fix typo in content](https://github.com/enkidevs/curriculum/pull/2334)
 - [Comp. Sci. - What Is a Protocol - Remove irrelevant resource link](https://github.com/enkidevs/curriculum/pull/2333)
 - [Git - Using Tags For Version Control - Fix typo in version name](https://github.com/enkidevs/curriculum/pull/2332)
