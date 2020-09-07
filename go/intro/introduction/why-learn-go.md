@@ -59,10 +59,10 @@ Which of the following is a feature of Golang?
 
 ???
 
+- All of the options
 - Fast compilation
 - Efficient use of hardware
 - Consistent standard library
-- All of the options
 
 ---
 ## Footnotes

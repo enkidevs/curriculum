@@ -38,6 +38,20 @@ Types of change:
 - `Archived` for content that is no longer necessary and has been archived.
 - `Fixed` for any minor fixes (e.g. add a missing comma, adding a code block tag, fixing a report).
 
+## September 7th 2020
+
+### Fixed
+- [JavaScript - Functions can be declared after use - Fix syntax highlighting](https://github.com/enkidevs/curriculum/pull/2329)
+- [Web - Audio Files - Fix typo in content](https://github.com/enkidevs/curriculum/pull/2334)
+- [Comp. Sci. - What Is a Protocol - Remove irrelevant resource link](https://github.com/enkidevs/curriculum/pull/2333)
+- [Git - Using Tags For Version Control - Fix typo in version name](https://github.com/enkidevs/curriculum/pull/2332)
+- [JavaScript - Synchronous Event Delivery - Fix output of code](https://github.com/enkidevs/curriculum/pull/2331)
+
+## September 5th 2020
+
+### Fixed
+- [Go - Why Learn Go - Fix Incorrect Practice Question Answer](https://github.com/enkidevs/curriculum/pull/2330)
+
 ## September 4th 2020
 
 ### Fixed
