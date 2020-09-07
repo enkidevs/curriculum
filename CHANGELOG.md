@@ -41,7 +41,7 @@ Types of change:
 ## September 7th 2020
 
 ### Fixed
-
+- [React - What is state? - Fix content error](https://github.com/enkidevs/curriculum/pull/2336)
 - [Web - Audio Files - Improve Outdated information, Change Question](https://github.com/enkidevs/curriculum/pull/2335)
 - [Regex - Ranges, Groups, and More - Fix typo](https://github.com/enkidevs/curriculum/pull/2328)
 - [JavaScript - Functions can be declared after use - Fix syntax highlighting](https://github.com/enkidevs/curriculum/pull/2329)
