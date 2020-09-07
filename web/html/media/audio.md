@@ -26,8 +26,8 @@ Like so:
 <audio src="audio.mp3" controls>
   <p>
     You're seeing this because
-     your browser does not support
-     the <audio> element.
+    your browser does not support
+    the <audio> element.
   </p>
 </audio>
 ```
@@ -48,9 +48,11 @@ Example 1:
 <audio controls>
   <source src="one_song.mp3"
     type="audio/mpeg">
-     You're seeing this because
-     your browser does not support
-     the <audio> element.
+     <p>
+      You're seeing this because
+      your browser does not support
+      the <audio> element.
+     </p>
 </audio>
 ```
 
@@ -64,9 +66,11 @@ Example 2:
     type="audio/ogg">
   <source src="some_song.wav"
     type="audio/wav">
+    <p>
      You're seeing this because
      your browser does not support
      the <audio> element.
+    </p>
 </audio>
 ```
 
@@ -123,7 +127,6 @@ Which HTML element is used to insert an audio file into the document?
 ## Quiz
 
 ### How much do you know about the HTML audio element?
-
 
 When you want to provide fallback content for user's that do not have browsers that support HTML5 audio, what do you need to do?
 
