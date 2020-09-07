@@ -49,9 +49,9 @@ Example 1:
   <source src="one_song.mp3"
     type="audio/mpeg">
      <p>
-      You're seeing this because
-      your browser does not support
-      the <audio> element.
+       You're seeing this because
+       your browser does not support
+       the <audio> element.
      </p>
 </audio>
 ```
