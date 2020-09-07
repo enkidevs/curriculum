@@ -80,7 +80,7 @@ days = ["Monday", "Tuesday", ...]
 ## Footnotes
 
 [1:Function]
-Here is the `make_a_sandwich` function:
+Here is the `make_a_grill_cheese_sandwich` function:
 ```plain-text
 FUNCTION make_a_grill_cheese_sandwich
   INPUT cheese, grater, bowl, bread, butter, pan, plate
