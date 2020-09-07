@@ -41,6 +41,7 @@ Types of change:
 ## September 7th 2020
 
 ### Fixed
+- [Git - Using Tags For Version Control - Fix typo in version name](https://github.com/enkidevs/curriculum/pull/2332)
 - [JavaScript - Synchronous Event Delivery - Fix output of code](https://github.com/enkidevs/curriculum/pull/2331)
 
 ## September 5th 2020

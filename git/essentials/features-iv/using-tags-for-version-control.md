@@ -1,15 +1,18 @@
 ---
 author: rosielowther
+
 type: normal
+
 category: must-know
+
 links:
   - >-
     [Tagging Official
-    Documentation](http://git-scm.com/book/en/v2/Git-Basics-Tagging){website}
+    Documentation](http://git-scm.com/book/en/v2/Git-Basics-Tagging){documentation}
+
 ---
 
-# Using tags for version control
-
+# Using Tags for Version Control
 
 ---
 
@@ -28,7 +31,7 @@ Annotated tags contain useful information: the current commit checksum, your nam
 You can also create a **lightweight** tag which acts just as a pointer to the current commit:
 
 ```bash
-git tag v1.0.l
+git tag v1.0.1
 ```
 
 You can add a tag to an **older** commit by specifying part of its commit checksum, for example:
