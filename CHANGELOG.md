@@ -41,6 +41,7 @@ Types of change:
 ## September 7th 2020
 
 ### Fixed
+- [Regex - Ranges, Groups, and More - Fix typo](https://github.com/enkidevs/curriculum/pull/2328)
 - [JavaScript - Functions can be declared after use - Fix syntax highlighting](https://github.com/enkidevs/curriculum/pull/2329)
 - [Web - Audio Files - Fix typo in content](https://github.com/enkidevs/curriculum/pull/2334)
 - [Comp. Sci. - What Is a Protocol - Remove irrelevant resource link](https://github.com/enkidevs/curriculum/pull/2333)
