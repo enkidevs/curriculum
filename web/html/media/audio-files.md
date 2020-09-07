@@ -1,7 +1,10 @@
 ---
 author: Stefan-Stojanovic
+
 type: normal
+
 category: must-know
+
 links:
   - >-
     [MDN: <audio>
@@ -9,10 +12,10 @@ links:
   - >-
     [W3S: <audio>
     Element](https://www.w3schools.com/html/html5_audio.asp){documentation}
+
 ---
 
 # Audio Files
-
 
 ---
 
@@ -28,8 +31,7 @@ In order to support all browsers, it is useful to provide two different types of
 
 **OGG**: Less popular than MP3/M4A, but its open source and widely available and actually has greater compression due to its variable bit rate with the same great audio.
 
-Using the `<audio>` tag, multiple
-songs can be added via the `<source>` element which will accomodate the approprate file needed for that browser.
+Using the `<audio>` tag, multiple songs can be added via the `<source>` element which will accomodate the appropriate file needed for that browser.
 
 ```html
 <audio controls>
@@ -44,7 +46,6 @@ songs can be added via the `<source>` element which will accomodate the appropra
 ```
 
 [View CodePen](https://codepen.io/enkidevs/pen/WKjeLW)
-
 
 ---
 
@@ -61,7 +62,6 @@ In order for audio files today to be supported on all major web browsers you sho
 - .tunes
 - flash
 
-
 ---
 
 ## Revision
@@ -74,7 +74,6 @@ When you want to provide fallback content for users that do not have browsers th
 - CSS can be used to notify the user.
 - Any browser, regardless of the version, can play HTML5 audio.
 - Use the attribute "fallback" to provide the appropriate message.
-
 
 ---
 
