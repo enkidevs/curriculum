@@ -18,7 +18,7 @@ You can write code in such a way that you get different outcomes or actions depe
 
 Remember that grilled-cheese-making-robot that we programmed? Let's repurpose it to use different types of bread.
 
-We will create a variable named `input`, and based on its value the robot will make the sandwich with a different type of bread
+Let's create a variable named `input`, and based on its value the robot will make the sandwich with a different type of bread.
 
 ```plain-text
 input = 0

@@ -39,7 +39,7 @@ As a reminder, here is the instruction that led to making a grilled cheese sandw
 INSTRUCT make_a_grill_cheese_sandwich(cheese, grater, bowl, bread, butter, pan, plate)
 ```
 
-To make the sandwich with a different type of bread, we will create a variable named `bread` which stores our type.
+To make the sandwich with a different type of bread, we'll create a variable named `bread` which stores our type.
 
 To make the type change depending on the `input` value we would type:
 

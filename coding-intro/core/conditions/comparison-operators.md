@@ -21,7 +21,7 @@ IF (input == 0) THEN
 
 Wait, double equal signs? What's that? 
 
-It's called an equality operator and it can only have **two results**: `true` or `false`.
+This is called an equality operator and it can only have **two results**: `true` or `false`.
 
 > 💡 Don't mix up `=` and `==`! 
 
@@ -31,7 +31,7 @@ If `A == B` is `true` that means the value of `A` and value of `B` are equal.
 
 If `A == B` is `false`, then their values are different.
 
-On the other hand, a single equal sign (`=`) is used for **assigning values** (i.e. putting values in a box).
+On the other hand, a single equal sign (`=`) is used for **assigning values** (i.e. putting values into a box).
 
 You are not limited to the equality operator. Here is a table of the most commonly used **comparison operators**:
 
@@ -47,7 +47,7 @@ You are not limited to the equality operator. Here is a table of the most common
 ---
 ## Practice
 
-What do you think the robot will do?
+What do you think the robot will do here?
 
 ```plain-text
 hungry = false
