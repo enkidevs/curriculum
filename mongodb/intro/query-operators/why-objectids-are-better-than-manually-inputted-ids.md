@@ -10,7 +10,6 @@ category: must-know
 
 ## Content
 
-### 
 
 To understand why `ObjectId`s are better, let's start off by taking a look at an example document:
 
