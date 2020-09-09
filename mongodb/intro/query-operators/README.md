@@ -4,6 +4,7 @@ description: >-
   and $and operators
 insights:
   - objectid-intro
+  - why-objectids-are-better-than-manually-inputted-ids
   - query-collection
   - query-collection-2
   - query-collection-3
