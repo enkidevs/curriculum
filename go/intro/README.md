@@ -13,3 +13,6 @@ sections:
     - importing-exporting-functions
     - for-and-switch
     - if-statements
+  '1':
+    - extra-types-i
+    - extra-types-ii
