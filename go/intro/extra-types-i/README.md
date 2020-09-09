@@ -10,5 +10,5 @@ insights:
   - pointers
   - structs
   - go-arrays
-  - slices-i
+  - slices
   - slices-ii

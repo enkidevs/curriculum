@@ -16,7 +16,7 @@ Slices can be created with a built-in function called `make`.
 
 The `make` function allocates an array full of zeroes and returns a slice that refers to that array.
 
-> 💡 The `make` function is used to create [dynamically-sized](https://www.enki.com/glossary/general/dynamically-sized.md) arrays.
+> 💡 The `make` function is used to create [dynamically-sized](https://www.enki.com/glossary/general/dynamically-sized) arrays.
 
 ```go
 emptySlice := make([]int, 5)

@@ -15,7 +15,7 @@ category: how to
 ---
 ## Content
 
-Slices are [dynamically-sized](https://www.enki.com/glossary/general/dynamically-sized.md), flexible views of elements in an array.
+Slices are [dynamically-sized](https://www.enki.com/glossary/general/dynamically-sized), flexible views of elements in an array.
 
 Slices are created by selecting a low and high bound separated by a colon.
 
