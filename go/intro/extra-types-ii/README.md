@@ -9,6 +9,6 @@ aspects:
 insights:
   - make-a-slice
   - append-to-a-slice
-  - range
+  - go-range
   - map
   - functions-are-values

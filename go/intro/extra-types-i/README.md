@@ -9,6 +9,6 @@ aspects:
 insights:
   - pointers
   - structs
-  - arrays
+  - go-arrays
   - slices-i
   - slices-ii
