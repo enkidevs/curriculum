@@ -42,6 +42,7 @@ Types of change:
 
 ### Added
 - [Go - Intro - Upload 2 new topics](https://github.com/enkidevs/curriculum/pull/2341)
+- [Coding Intro - Conditions, Loops - New workouts](https://github.com/enkidevs/curriculum/pull/2337)
 
 ## September 9th 2020
 
