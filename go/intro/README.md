@@ -14,5 +14,5 @@ sections:
     - for-and-switch
     - if-statements
   '1':
-    - extra-types-i
-    - extra-types-ii
+    - pointers-structs-arrays-slices
+    - range-map-make

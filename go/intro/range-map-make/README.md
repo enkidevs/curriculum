@@ -1,4 +1,4 @@
-name: Ranges, Slices & Maps.
+name: Ranges, Slices & Maps
 
 description: Introduction to range, map, and make.
 
