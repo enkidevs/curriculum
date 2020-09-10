@@ -45,8 +45,10 @@ Types of change:
 
 ## September 9th 2020
 
-### Fixed
+### Changed
+- [MongoDB - Split Objectid intro insight](https://github.com/enkidevs/curriculum/pull/2339)
 
+### Fixed
 - [JS - Function Constructor vs Function Expression - Add missing example, fix code block identifiers](https://github.com/enkidevs/curriculum/pull/2340)
 
 ## September 7th 2020
