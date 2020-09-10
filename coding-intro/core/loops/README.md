@@ -8,7 +8,7 @@ aspects:
 
 insights:
   - loops-intro
-  - counter-loops
+  - for-loops
   - condition-loops
   - while-do
   - do-while

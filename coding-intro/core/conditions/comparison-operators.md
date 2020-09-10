@@ -53,7 +53,15 @@ What do you think the robot will do here?
 hungry = false
 
 IF (hungry == true) THEN
-  INSTRUCT make_a_grill_cheese_sandwich(cheese, grater, bowl, bread, butter, pan, plate)
+  INSTRUCT make_a_grill_cheese_sandwich(
+    cheese, 
+    grater, 
+    bowl, 
+    bread, 
+    butter, 
+    pan, 
+    plate
+  )
 ```
 
 ???

@@ -18,7 +18,15 @@ Now, knowing that `0` means "do nothing", we'll want the robot to take an action
 IF (input == 0) THEN
   INSTRUCT do_nothing()
 ELSE
-  INSTRUCT make_a_grill_cheese_sandwich(cheese, grater, bowl, bread, butter, pan, plate)
+  INSTRUCT make_a_grill_cheese_sandwich(
+    cheese, 
+    grater, 
+    bowl, 
+    bread, 
+    butter, 
+    pan, 
+    plate
+  )
 ```
 
 > 💡 Functions don't need to always have arguments.
@@ -53,7 +61,15 @@ ELSE IF (input == 2) THEN
 ELSE IF (input == 3) THEN
   INSTRUCT bread = "rye bread"
 
-INSTRUCT make_a_grill_cheese_sandwich(cheese, grater, bowl, bread, butter, pan, plate)
+INSTRUCT make_a_grill_cheese_sandwich(
+  cheese, 
+  grater, 
+  bowl, 
+  bread, 
+  butter, 
+  pan, 
+  plate
+)
 ```
 
 You can chain multiple conditions using `ELSE IF`. If the `input` is `1` then the robot will use white bread, **and it won't even check the other conditions** because that one evaluated to `true`.
@@ -69,7 +85,15 @@ Complete the condition such that you only make a sandwich if you're hungry:
 hungry = ???
 
 ??? (??? == true) THEN
-  INSTRUCT make_a_grill_cheese_sandwich(cheese, grater, bowl, bread, butter, pan, plate)
+  INSTRUCT make_a_grill_cheese_sandwich(
+    cheese, 
+    grater, 
+    bowl, 
+    bread, 
+    butter, 
+    pan, 
+    plate
+  )
 ???
 ```
 

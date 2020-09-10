@@ -30,7 +30,15 @@ WHILE (
   hungry == true OR 
   sandwiches_made <=3
 )
-  INSTRUCT make_a_grill_cheese_sandwich(cheese, grater, bowl, bread, butter, pan, plate)
+  INSTRUCT make_a_grill_cheese_sandwich(
+    cheese, 
+    grater, 
+    bowl, 
+    bread, 
+    butter, 
+    pan, 
+    plate
+  )
   INSTRUCT sandwiches_made = sandwiches_made + 1
 ENDWHILE
 ```
