@@ -20,6 +20,13 @@ The concepts of constructors, declaration and expressions are often misused. Her
 A function defined with the `function` *constructor* assigned to the variable `multiply`:
 
 ```js
+let multiply = new Function(
+  'x', 'y', 'return x*y'
+);
+```
+
+A function declaration of a function named `multiply`:
+```js
 function multiply(x, y) {
   return x * y;
 }
@@ -27,15 +34,15 @@ function multiply(x, y) {
 
 Function *expression* of an anonymous function assigned to the variable `multiply`:
 
-```plain-text
+```js
 let multiply = function(x, y) {
   return x * y;
-}
+};
 ```
 
 Function *expression* of a `function` named `mult` assigned to the variable `multiply`:
 
-```plain-text
+```js
 let multiply = function mult(x, y) {
   return x * y;
 };
