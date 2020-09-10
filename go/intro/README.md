@@ -13,3 +13,6 @@ sections:
     - importing-exporting-functions
     - for-and-switch
     - if-statements
+  '1':
+    - pointers-structs-arrays-slices
+    - range-map-make
