@@ -65,13 +65,8 @@ Would be calculated like this:
 ---
 ## Practice
 
-Which operators follow the right-to-left order of operations.
+The bitwise and ??? operators follow the right-to-left order of operations.
 
-???
-
-???
-
-- Bitwise
 - Assignment
 - Arithmetic
 - Relational
