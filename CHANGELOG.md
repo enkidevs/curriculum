@@ -41,6 +41,7 @@ Types of change:
 ## September 11th 2020
 
 ### Fixed
+- [Go - Assignment Operators - Remove one possible answer from PQ](https://github.com/enkidevs/curriculum/pull/2343)
 - [Go - Operators - Update question to only accept one answer order](https://github.com/enkidevs/curriculum/pull/2342)
 
 ## September 10th 2020
