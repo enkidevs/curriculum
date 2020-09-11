@@ -38,6 +38,11 @@ Types of change:
 - `Archived` for content that is no longer necessary and has been archived.
 - `Fixed` for any minor fixes (e.g. add a missing comma, adding a code block tag, fixing a report).
 
+## September 11th 2020
+
+### Fixed
+- [Go - Operators - Update question to only accept one answer order](https://github.com/enkidevs/curriculum/pull/2342)
+
 ## September 10th 2020
 
 ### Added
