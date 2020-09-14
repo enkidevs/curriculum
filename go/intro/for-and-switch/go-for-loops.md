@@ -63,14 +63,14 @@ We have the **initial** statement, `i := 0`. Then, we have a **condition**, `i <
 ---
 ## Practice
 
-Complete the code to make the for loop iterate 7 times.
+Complete the code to make the for loop iterate 3 times.
 
 ```go
 var sum = 0
 
 ??? ??? ??? ??? {
-    sum += 1
-    fmt.Println("The value of sum is: ", sum)
+  sum += 1
+  fmt.Println("The value of sum is: ", sum)
 }
 ```
 
