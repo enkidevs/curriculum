@@ -1,13 +1,16 @@
 ---
 author: emmab
+
 tags:
   - introduction
+
 type: normal
+
 category: must-know
+
 ---
 
 # Boolean Operators
-
 
 ---
 
@@ -19,9 +22,9 @@ There are two keywords in Python that allow us to write more complex boolean con
 
 ```python
 num = 1
-str = 'boolean'
+str = 'foobar'
 
-if str == 'boolean' and num == 1:
+if str == 'foobar' and num == 1:
     print('Success!')
 # Success!
 ```
@@ -31,7 +34,7 @@ When using the `and` operator, *all conditions* must evaluate to `True` for the 
 2. The `or` operator
 
 ```python
-if str == 'boolean' or num > 2:
+if str == 'foobar' or num > 2:
     print('Success!')
 # Success!
 ```
