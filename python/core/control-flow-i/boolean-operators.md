@@ -70,10 +70,8 @@ else:
 ```
 
 - `and`
-- `or`
 - `both`
 - `plus`
-
 
 ---
 
