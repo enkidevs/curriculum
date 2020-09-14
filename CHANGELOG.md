@@ -41,6 +41,7 @@ Types of change:
 ## September 14th 2020
 
 ### Fixed
+- [Python - Boolean Operators - Change variable value from 'boolean' to 'foobar'](https://github.com/enkidevs/curriculum/pull/2345)
 - [Go - For Loops - Fix practice question](https://github.com/enkidevs/curriculum/pull/2344)
 
 ## September 11th 2020
