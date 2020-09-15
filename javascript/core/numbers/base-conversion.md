@@ -4,15 +4,13 @@ type: normal
 category: how to
 ---
 
-# Base conversion
-
+# Base Conversion
 
 ---
 
 ## Content
 
-Base conversion for numerical values in JavaScript is easily achievable
-with the help of `toString` and `parseInt` functions.
+Base conversion for numerical values in JavaScript is easily achievable with the help of `toString` and `parseInt` functions.
 
 ### toString
 

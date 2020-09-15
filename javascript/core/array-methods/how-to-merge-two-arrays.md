@@ -10,7 +10,7 @@ links:
 
 ---
 
-# How to merge two arrays
+# How to Merge Two Arrays
 
 ---
 
@@ -52,7 +52,7 @@ let array3 = array1.concat(array2);
 
 The notable difference when using `concat` is that, instead of merging one array into another, it generates a new array out of the two merged arrays.
 
-Note that, unlike other languages, JavaScript does not support using `+` to concatenate arrays. The output of such an operation would be a string:
+> 💡 Unlike other languages, JavaScript does not support using `+` to concatenate arrays. The output of such an operation would be a string:
 
 ```javascript
 console.log([1, 2] + [3, 4])

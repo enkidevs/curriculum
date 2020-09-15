@@ -10,8 +10,7 @@ links:
     [stackoverflow.com](http://stackoverflow.com/questions/1986896/what-is-the-difference-between-call-and-apply){website}
 ---
 
-# Difference between **.call** and **.apply** methods
-
+# Difference Between **.call** and **.apply** Methods
 
 ---
 

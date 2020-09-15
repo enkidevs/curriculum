@@ -13,7 +13,7 @@ links:
     Falsy](https://developer.mozilla.org/en-US/docs/Glossary/Falsy){documentation}
 ---
 
-# Setting default values with "short circuiting"
+# Setting Default Values With "Short Circuiting"
 
 
 ---

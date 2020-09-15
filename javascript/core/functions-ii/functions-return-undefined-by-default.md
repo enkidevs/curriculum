@@ -7,8 +7,7 @@ tags:
   - workout
 ---
 
-# Functions return undefined by default
-
+# Functions Return Undefined by Default
 
 ---
 

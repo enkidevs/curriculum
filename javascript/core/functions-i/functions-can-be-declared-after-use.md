@@ -6,7 +6,7 @@ tags:
   - introduction
 ---
 
-# Functions can be declared after use
+# Functions Can Be Declared After Use
 
 
 ---

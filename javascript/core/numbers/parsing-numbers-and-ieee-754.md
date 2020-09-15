@@ -32,7 +32,7 @@ The Radix or base defaults to 10 on later browsers but it is probably still best
 
 The below example shows how to use *parseInt* and *parseFloat*:
 
-```plain-text
+```javascript
 parseInt("10", 10);//base 10, 10
 parseInt("011", 2);//binary, 3
 parseFloat("0.1");// 0.1
@@ -40,7 +40,7 @@ parseFloat("0.1");// 0.1
 
 If we try to parse a value that cannot be converted, then JavaScript will return a special value called NaN (not a number):
 
-```plain-text
+```javascript
 parseInt("abc",10);//NaN
 ```
 
@@ -50,10 +50,9 @@ All numbers in JavaScript are held as *64 bit floating point numbers* using a fo
 
 You should be aware this means you can get issues when performing certain calculations (this also occurs in other languages that use IEEE-754) as certain numbers cannot be represented exactly. For example:
 
-```plain-text
+```javascript
 0.1 + 0.2 = 0.30000000000000004
 ```
-
 
 ---
 
@@ -78,7 +77,7 @@ console.log(parseInt("abc",10));
 
 What method would you use to parse the following string so that it doesn't return `NaN`:
 
-```plain-text
+```javascript
 ???("0.2", 10);
 ```
 

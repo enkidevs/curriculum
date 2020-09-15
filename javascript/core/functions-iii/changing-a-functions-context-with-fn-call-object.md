@@ -10,8 +10,7 @@ links:
     Network](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/call){website}
 ---
 
-# Changing a functions context with `fn.call(object)`
-
+# Changing a Functions Context With `fn.call(Object)`
 
 ---
 
@@ -38,7 +37,7 @@ Imagine we want to supply a bigger discount.
 
 We can use `fn.call` to override discountCalculators *discount* by supplying an alternative *this* context:
 
-```plain-text
+```javascript
 discountCalc
 .getDiscount
 .call({discount: 100},1); //101

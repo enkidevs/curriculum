@@ -27,7 +27,6 @@ You can manually set the length of the array to truncate or extend it. To trunca
 ```javascript
 a.length = 2;
 // a = ["one", "two"]
-
 ```
 
 Now, to extend the truncated array returned from the above:
@@ -47,7 +46,6 @@ Finally, to truncate to zero:
 ```javascript
 a.length = 0;
 // a = []
-
 ```
 
 

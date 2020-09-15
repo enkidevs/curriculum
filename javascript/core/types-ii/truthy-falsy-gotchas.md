@@ -29,7 +29,7 @@ false == "" //true
 
 ### Null
 
-Null is also one to beware of as behaves strangely:
+Null is also one to beware of as it behaves strangely:
 
 ```javascript
 null == false

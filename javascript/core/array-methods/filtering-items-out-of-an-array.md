@@ -13,8 +13,7 @@ links:
     Filter](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter){documentation}
 ---
 
-# Filtering Items out of an Array
-
+# Filtering Items Out of an Array
 
 ---
 
@@ -67,7 +66,7 @@ console.log(even);
 // [2, 4]
 ```
 
-> Note: you can use any type of array, you are not limited to a number array.
+> 💡 You can use any type of array, you are not limited to a number array.
 
 
 ---

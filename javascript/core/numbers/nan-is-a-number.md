@@ -4,7 +4,7 @@ type: normal
 category: caveats
 ---
 
-# `NaN` is a number
+# `NaN` Is a Number
 
 
 ---
