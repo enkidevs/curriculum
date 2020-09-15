@@ -19,27 +19,27 @@ notes: Hope it's not too basics?
 
 Setting the property to `null` or `undefined` only replaces the value associated with given property. It does not remove the key.
 
-```plain-text
+```javascript
 var obj = { one: 1 }
 ```
 
 Setting to `undefined`:
 
-```plain-text
+```javascript
 obj.one = undefined;
 console.log(obj); // { one: undefined }
 ```
 
 Setting to `null`:
 
-```plain-text
+```javascript
 obj.one = null;
 console.log(obj); // { one: null }
 ```
 
 To delete:
 
-```plain-text
+```javascript
 delete obj.one;
 console.log(obj); // { }
 
