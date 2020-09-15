@@ -72,7 +72,7 @@ Consider the following object:
 
 ```js
 let car = {
-  model: "AwsomeCar",
+  model: "AwesomeCar",
   color: "blue",
   noDoors: 4
 };
