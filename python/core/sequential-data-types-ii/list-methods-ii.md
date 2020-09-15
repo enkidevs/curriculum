@@ -70,6 +70,7 @@ keyboard.???()
 
 
 ---
+
 ## Revision
 
 How would you insert the word `'tres'` into the following `list` so that it's at index 2?
