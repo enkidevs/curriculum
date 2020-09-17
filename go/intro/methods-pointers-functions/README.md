@@ -8,7 +8,8 @@ aspects:
 
 insights:
   - methods
-  - methods-continued
+  - methods-ii
   - methods-with-receivers
+  - methods-with-receivers-ii
   - pointers-and-functions
   - value-or-pointer-receiver
