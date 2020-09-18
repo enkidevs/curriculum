@@ -28,11 +28,11 @@ import (
 )
 
 func main() {
-	var name, age, occupation = "Stefan", 26, "Developer"
+  var name, age, occupation = "Stefan", 26, "Developer"
   
-  fmt.Println("Hello, my name is ", name, ". I am ", age, " years old and work as a ", occupation)
+	fmt.Println("Hello, my name is ", name, ". I am ", age, " years old and work as a ", occupation)
 
-	fmt.Print("Hello, my name is ", name, ". I am ", age, " years old and work as a ", occupation)
+  fmt.Print("Hello, my name is ", name, ". I am ", age, " years old and work as a ", occupation)
 	
 }
 ```

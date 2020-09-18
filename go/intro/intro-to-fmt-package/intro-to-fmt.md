@@ -57,7 +57,7 @@ func Sscanf()
 func Sscanln()
 ```
 
-In this workout we will discuss the `Print`, `Println`, `Printf`, and `Sprintf` functions, what they are used for and how they differ from each other.
+For now, we will discuss the `Print`, `Println`, `Printf`, and `Sprintf` functions, what they are used for and how they differ from each other.
 
 ---
 ## Practice

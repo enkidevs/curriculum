@@ -10,7 +10,7 @@ category: how to
 
 ---
 
-# Methods With Receivers
+# Methods With Pointer Receivers
 
 ---
 ## Content

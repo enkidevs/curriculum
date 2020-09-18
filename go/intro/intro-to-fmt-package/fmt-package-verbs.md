@@ -93,19 +93,6 @@ We won't be diving into every verb in this workout, but you can bookmark this in
 ---
 ## Practice
 
-How many groups of verbs exist in the `fmt` package?
-
-???
-
-- 7
-- 11
-- 5
-- 3
-- 6
-
----
-## Revision
-
 Which of these groups is **not** a part of the `fmt` package?
 
 ???
@@ -118,3 +105,16 @@ Which of these groups is **not** a part of the `fmt` package?
 - floating-point & complex constituents
 - boolean
 - integer
+
+---
+## Revision
+
+How many groups of verbs exist in the `fmt` package?
+
+???
+
+- 7
+- 11
+- 5
+- 3
+- 6

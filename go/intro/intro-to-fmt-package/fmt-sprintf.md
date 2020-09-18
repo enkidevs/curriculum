@@ -27,23 +27,22 @@ import (
 
 func main() {
 	var name, age = "Stefan", 26
+	
+  s := fmt.Sprintf("My age in Base 2: %b.\n", age)
 
-	s := fmt.Sprintf("My age in Base 2: %b.\n", age)
-
-	s2 := fmt.Sprintf("My age in Base 8: %o.\n", age)
+  s2 := fmt.Sprintf("My age in Base 8: %o.\n", age)
 
   s3 := fmt.Sprintf("My age in Base 10: %d.\n", age)
 
-	s4 := fmt.Sprintf("My age in Base 16: %x.\n", age)
+  s4 := fmt.Sprintf("My age in Base 16: %x.\n", age)
 
-
-	fmt.Print("Hello, my name is ", name,". This is my age in different bases:\n", s, s2, s3, s4)
+  fmt.Print("Hello, my name is ", name,". This is my age in different bases:\n", s, s2, s3, s4)
 }
 ```
 
 The output is:
 
-```go
+```plain-text
 Hello, my name is Stefan. This is my age in different bases:
 My age in Base 2: 11010.
 My age in Base 8: 32.
