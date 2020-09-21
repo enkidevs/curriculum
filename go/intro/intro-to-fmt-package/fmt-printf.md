@@ -12,7 +12,7 @@ category: how to
 ---
 ## Content
 
-The `fmt.Printf` function is used for formatting a string and outputing to the console.
+The `fmt.Printf` function is used for formatting a string and outputting to the console.
 
 This function operates a bit differently than the `Print` and `Println` ones.
 
@@ -26,7 +26,7 @@ Here is an example:
 package main
 
 import (
-	"fmt"
+  "fmt"
 )
 
 func main() {
@@ -49,16 +49,15 @@ We are also using the same number of verbs. `%s` two times and `%d` once. This i
 
 Unlike the `Println` function, `Printf` does not add a new line character at the end. You would have to add the `\n` escape character manually.
 
-
 ---
 ## Practice
 
-The `Printf` function ??? verbs and ??? a new line at the end.
+The `Printf` function ??? verbs and ??? a new line.
 
 - uses
-- doesn't add
+- doesn't append
 - doesn't use
-- adds
+- appends
 
 ---
 ## Revision
@@ -66,9 +65,9 @@ The `Printf` function ??? verbs and ??? a new line at the end.
 Fill in the code to format and print a string using `Printf`. Add a new line character at the end of the statement.
 
 ```go
-  var name, age = "Joan", 21
+var name, age = "Joan", 21
 
-  fmt.???("My name is ???. I am ??? years old???", ???, ???)
+fmt.???("My name is ???. I am ??? years old???", ???, ???)
 ```
 
 - Printf

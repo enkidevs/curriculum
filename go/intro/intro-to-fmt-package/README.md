@@ -1,6 +1,6 @@
-name: Intro To the fmt Package
+name: Formatted I/O
 
-description: Introduction to functions and verbs in the fmt package.
+description: An introduction to formatted input and output functions.
 
 aspects:
   - deep
@@ -8,7 +8,7 @@ aspects:
 
 insights:
   - intro-to-fmt
-  - fmt-package-verbs
   - fmt-print-vs-println
+  - fmt-package-verbs
   - fmt-printf
   - fmt-sprintf

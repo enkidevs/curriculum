@@ -12,15 +12,13 @@ category: how to
 ---
 ## Content
 
-> In this workout we will discuss several importing options from the `fmt` package that are necessary for future examples.
+The `fmt` package, or the **formatting** package, contains several different functions that format input/output.
 
-The `fmt` package, or the **Formating** package in **Go** contains several different import/output functions.
+They are used for formatting strings in different I/O functions.
 
-They are formatted in different ways.
+This package contains different verbs that are derived from the `C` language but made simpler.
 
-The formats for these functions have different verbs that are derived from the `C` language but made simpler.
-
-There are 7 groups of verbs:
+There are seven groups of verbs with a total of 20 functions[1]:
 - general
 - boolean
 - integer
@@ -29,10 +27,28 @@ There are 7 groups of verbs:
 - slices
 - pointer
 
-The package contains a total of 20 functions.
+Each function is used differently, with some having great similarities.
 
-Each function is used differently with some having great similarities.
+For now, we will discuss the `Print`, `Println`, `Printf`, and `Sprintf` functions, what they are used for, and how they differ from each other.
 
+---
+## Practice
+
+Which of these functions is not a part of the `fmt` package?
+
+???
+
+- Printlnf
+- Println
+- Sprintf
+- Printf
+- Print
+
+
+---
+## Footnotes
+
+[1: Functions]
 These functions are:
 ```go
 func Errorf()
@@ -56,15 +72,3 @@ func Sscan()
 func Sscanf()
 func Sscanln()
 ```
-
-For now, we will discuss the `Print`, `Println`, `Printf`, and `Sprintf` functions, what they are used for and how they differ from each other.
-
----
-## Practice
-
-The `fmt` package contains ??? groups of verbs and ??? I/O functions.
-
-- 7
-- 20
-- 13
-- 28
