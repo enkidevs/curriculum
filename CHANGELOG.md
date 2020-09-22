@@ -41,6 +41,7 @@ Types of change:
 ## September 22nd 2020
 
 ### Fixed
+- [SQL - Handling Blobs in SQL - Fix typo](https://github.com/enkidevs/curriculum/pull/2353)
 - [Python - Creating Classes - Add missing footnote](https://github.com/enkidevs/curriculum/pull/2349)
 - [Go - Logical Operators - Replace | with html char code](https://github.com/enkidevs/curriculum/pull/2350)
 - [Go - Logical Operators - Fix md table](https://github.com/enkidevs/curriculum/pull/2350)
