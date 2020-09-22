@@ -24,11 +24,11 @@ type INTERFACE_NAME interface {
 
 The `type INTERFACE_NAME` defines a type with the `INTERFACE_NAME`.
 
-The `interface` states that it is an interface.
+The `interface` keyword states that it is an interface.
 
 Then, we have some method signatures in between the curly braces.
 
-An interface should provide a method signature that has a `name`, `return type`, and optional `input arguments`.
+An interface should provide a method signature that has a `name`, `return type`, and an optional `input arguments`.
 
 It is up to the `type` to declare the methods and implement them. This means that an interface is implemented when a type implements all of its methods.
 

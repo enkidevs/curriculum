@@ -10,7 +10,7 @@ category: how to
 
 ---
 
-# Methods With Pointer Receivers
+# Methods With Receivers
 
 ---
 ## Content
@@ -68,32 +68,15 @@ func main() {
   s := &Student{"Stefan", "Stojanovic"}
   s.AddAge(", Age: 26")
   fmt.Println(s.WelcomeMessage())
+
+// Dear Stefan Stojanovic, Age: 26, welcome!
 }
 ```
 
 ---
 ## Practice
 
-Finish the code to define a method named `Welcome` with a pointer receiver `Student` of type `string`.
-
-```go
-??? (s ???) ??? ??? {
-  return fmt.Sprintf("Dear %s %s, welcome!", s.FirstName, s.LastName)
-}
-```
-
-- func
-- *Student
-- Welcome()
-- string
-- method
-- Student
-- Welcome
-
----
-## Revision
-
-Define a method called "Hello()" on the given struct with a pointer receiver called `t`.
+Define a method called `Hello()` on the given `struct` with a pointer receiver called `t`.
 
 ```go
 type Person struct {
@@ -108,3 +91,23 @@ func (???) ??? string {
 - Hello()
 - hello()
 - t Person
+
+---
+## Revision
+
+Finish the code to define a method named `Welcome` with a pointer receiver `Colleague` that returns a `string`.
+
+```go
+??? (s ???) ??? ??? {
+  return fmt.Sprintf("Dear %s, happy %sth birthay!", s.FirstName, s.Age)
+}
+```
+
+- func
+- *Colleague
+- Welcome()
+- string
+- method
+- Student
+- Welcome
+

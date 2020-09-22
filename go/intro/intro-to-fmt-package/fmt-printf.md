@@ -41,13 +41,13 @@ The output is:
 Hello, my name is Stefan. I am 26 years old and work as a Developer.
 ```
 
-In the above example, we are using a total of 3 operands. `name`, `age`, and `occupation`. 
+In the above example, we are using a total of three operands: `name`, `age`, and `occupation`. 
 
 We are also using the same number of verbs. `%s` two times and `%d` once. This is because we have two string values and one base 10 number value.
 
-> 💡 You can use as many of the same data types as you want. Just make sure the order of the verbs and the operands at the end of the print is correct.
+> 💡 You can repeat the same verb as many times as you want.. Just make sure the order of the verbs and the operands at the end of the print is correct.
 
-Unlike the `Println` function, `Printf` does not add a new line character at the end. You would have to add the `\n` escape character manually.
+Unlike the `Println` function, `Printf` does not add a new line character at the end. You would have to add the `\n` character manually.
 
 ---
 ## Practice

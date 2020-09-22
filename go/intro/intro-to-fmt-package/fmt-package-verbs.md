@@ -3,7 +3,7 @@ author: Stefan-Stojanovic
 
 type: normal
 
-category: how tot
+category: how to
 
 links:
  - '[The FMT Package](https://golang.org/pkg/fmt/){documentation}'
@@ -25,7 +25,7 @@ Here are definitions for some verbs that we will use:
 
 `%s` is used to represent a string or a slice.
 
-`%v` is used to display a value in its original format"
+`%v` is used to display a value in its original format.
 
 `%T` is used to represent the type of the value. 
 
@@ -66,7 +66,7 @@ Which of these groups is **not** a part of the `fmt` package?
 
 ???
 
-- Double
+- double
 - general
 - slices
 - pointers

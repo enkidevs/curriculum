@@ -62,15 +62,6 @@ func output(i interface{}) {
 }
 ```
 
-The `(%v)` in `Printf` tells the statement to print the `value` for `i`.
-
-The `(T)` tells the statement to print the `Type` for `i`.
-```plain-text
-Numbers
-Strings
-Booleans
-```
-
 ---
 ## Practice
 

@@ -45,7 +45,7 @@ The `ToUpper` function is used to convert all the letters of a string to upperca
 
 > 💡 You cannot declare a method with a receiver whose type is defined in another package. You can only declare it if the type is defined in the same package as the method.
 
-This is why we use `MyString(INPUT_HERE)`. The `MyString` is an "alias" we use to call the functions we do not "own" (ToUpper).
+This is why we use `MyString(INPUT_HERE)`. The `MyString` is an "alias" we use to call the functions we do not "own" (`ToUpper`).
 
 ---
 ## Practice

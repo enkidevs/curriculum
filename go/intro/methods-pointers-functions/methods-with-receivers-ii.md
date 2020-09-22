@@ -15,7 +15,7 @@ category: how to
 ---
 ## Content
 
-The difference between a method with a pointer receiver and a value receiver is that a method with a pointer receiver can modify the value to which the pointer points.
+The difference between a method with a pointer receiver and a value receiver is that the former can modify the value to which the pointer points.
 
 If we didn't have a receiver `*` in our `AddAge`[1] method, the `s.AddAge(", Age: 26")` would do nothing.
 

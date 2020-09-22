@@ -14,9 +14,9 @@ category: how to
 
 The `fmt` package, or the **formatting** package, contains several different functions that format input/output.
 
-They are used for formatting strings in different I/O functions.
-
 This package contains different verbs that are derived from the `C` language but made simpler.
+
+> 💡 We'll explain what verbs are and how to use them soon.
 
 There are seven groups of verbs with a total of 20 functions[1]:
 - general
@@ -32,18 +32,25 @@ Each function is used differently, with some having great similarities.
 For now, we will discuss the `Print`, `Println`, `Printf`, and `Sprintf` functions, what they are used for, and how they differ from each other.
 
 ---
-## Practice
+## Revision
 
-Which of these functions is not a part of the `fmt` package?
+Fill in the code to print the text shown in the output:
 
-???
+```go
+var ocupation = "developer"
 
-- Printlnf
-- Println
-- Sprintf
+fmt.???("I am a Go ???", ???)
+
+// I am a Go developer
+
+```
+
 - Printf
-- Print
-
+- %v
+- occupation
+- Sprintf
+- developer
+- %t
 
 ---
 ## Footnotes

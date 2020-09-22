@@ -52,11 +52,11 @@ My age in Base 16: 1a.
 ```
 
 
-In the above example, we are using the `Sprintf` function multiple times with four different integer verbs. 
+In the above example, we use the `Sprintf` function multiple times with four different integer verbs. 
 
-We are saving each of the functions in variables `s-s4`.
+We save each of the functions in variables `s-s4`.
 
-Next, we are printing all of them in a regular `Print` statement.
+Next, we print all of them in a regular `Print` statement.
 
 ---
 ## Practice
@@ -72,11 +72,11 @@ The `fmt.Sprintf` function formats to a string ???.
 Fill in the code to format a string and save it into the `s` variable. Then print the variable.
 
 ```go
-  var name = "Michael"
+var name = "Michael"
 
-  ??? := fmt.???("My name is ???.\n", name)
+??? := fmt.???("My name is ???.\n", name)
 
-  fmt.Print(???)
+fmt.Print(???)
 }
 ```
 

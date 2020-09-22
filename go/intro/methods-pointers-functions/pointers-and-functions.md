@@ -64,3 +64,13 @@ A function with a receiver can ???.
 
 - take either a value or pointer receiver
 - only take a pointer receiver
+
+---
+## Revision
+
+A function with a pointer argument ??? as the receiver.
+
+A method with a pointer argument ??? as the receiver.
+
+- must take a pointer value
+- can take either a value or pointer
