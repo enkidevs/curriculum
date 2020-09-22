@@ -40,6 +40,9 @@ Types of change:
 
 ## September 22nd 2020
 
+### Added
+- [Go - Three New Workouts - Intro to FMT, Methods and Pointers, and Interfaces](https://github.com/enkidevs/curriculum/pull/2348)
+
 ### Fixed
 - [Spreadsheets - IFNA - Change single quotes to double quotes in PQ](https://github.com/enkidevs/curriculum/pull/2357)
 - [SQL - SUM Clause - Change phrasing of PQ](https://github.com/enkidevs/curriculum/pull/2355)
