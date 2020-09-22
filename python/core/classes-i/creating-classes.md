@@ -1,11 +1,13 @@
 ---
 author: mihaiberq
+
 type: normal
+
 category: must-know
+
 ---
 
 # Creating Classes
-
 
 ---
 
@@ -108,3 +110,12 @@ new empl = Employee("John")
 - B
 - C
 - neither
+
+---
+## Footnotes
+
+[1: Methods]
+
+To explain what methods are, let's take a look at an example.
+
+Think of a car as the object. The model, color or age of the car are the object's attributes. Whether the engine is on, or whether it's moving, are behaviors and would exist as methods.
