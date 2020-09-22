@@ -41,6 +41,7 @@ Types of change:
 ## September 22nd 2020
 
 ### Fixed
+- [Go - Logical Operators - Replace | with html char code](https://github.com/enkidevs/curriculum/pull/2350)
 - [Go - Logical Operators - Fix md table](https://github.com/enkidevs/curriculum/pull/2350)
 
 ## September 15th 2020
