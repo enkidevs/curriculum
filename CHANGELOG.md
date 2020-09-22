@@ -42,6 +42,8 @@ Types of change:
 
 ### Fixed
 - [Python - Creating Classes - Add missing footnote](https://github.com/enkidevs/curriculum/pull/2349)
+- [Go - Logical Operators - Replace | with html char code](https://github.com/enkidevs/curriculum/pull/2350)
+- [Go - Logical Operators - Fix md table](https://github.com/enkidevs/curriculum/pull/2350)
 
 ## September 15th 2020
 
