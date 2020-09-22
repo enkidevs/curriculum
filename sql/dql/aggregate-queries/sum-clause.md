@@ -65,7 +65,7 @@ Output:
 
 ## Practice
 
-Consider the `move_effect_change` table. We want to know the total amount of values contained in the `move_effect` column:
+Consider the `move_effect_change` table. We want to know the sum of all values contained in the `move_effect` column:
 
 | id | move_effect | version_group_id |
 | -- | ----------- | ---------------- |

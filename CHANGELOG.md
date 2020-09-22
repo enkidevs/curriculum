@@ -41,6 +41,7 @@ Types of change:
 ## September 22nd 2020
 
 ### Fixed
+- [SQL - SUM Clause - Change phrasing of PQ](https://github.com/enkidevs/curriculum/pull/2355)
 - [SQL - SUM Clause - Fix link in footnote](https://github.com/enkidevs/curriculum/pull/2355)
 - [SQL - Inner Join - Add missing backtick and comma](https://github.com/enkidevs/curriculum/pull/2354)
 - [SQL - Handling Blobs in SQL - Fix typo](https://github.com/enkidevs/curriculum/pull/2353)
