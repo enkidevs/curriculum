@@ -41,7 +41,7 @@ Types of change:
 ## September 22nd 2020
 
 ### Fixed
-- [Python - Creating Classes - Add missing footnote]()
+- [Python - Creating Classes - Add missing footnote](https://github.com/enkidevs/curriculum/pull/2349)
 
 ## September 15th 2020
 
