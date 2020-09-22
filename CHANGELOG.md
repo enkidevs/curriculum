@@ -41,6 +41,7 @@ Types of change:
 ## September 22nd 2020
 
 ### Fixed
+- [Spreadsheets - IFNA - Change single quotes to double quotes in PQ](https://github.com/enkidevs/curriculum/pull/2357)
 - [SQL - SUM Clause - Change phrasing of PQ](https://github.com/enkidevs/curriculum/pull/2355)
 - [SQL - SUM Clause - Fix link in footnote](https://github.com/enkidevs/curriculum/pull/2355)
 - [SQL - Inner Join - Add missing backtick and comma](https://github.com/enkidevs/curriculum/pull/2354)
