@@ -45,7 +45,7 @@ In the above example, we are using a total of three operands: `name`, `age`, and
 
 We are also using the same number of verbs. `%s` two times and `%d` once. This is because we have two string values and one base 10 number value.
 
-> 💡 You can repeat the same verb as many times as you want.. Just make sure the order of the verbs and the operands at the end of the print is correct.
+> 💡 You can repeat the same verb as many times as you want. Just make sure the order of the verbs and the operands at the end of the print is correct.
 
 Unlike the `Println` function, `Printf` does not add a new line character at the end. You would have to add the `\n` character manually.
 

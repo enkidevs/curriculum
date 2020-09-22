@@ -47,14 +47,12 @@ func main() {
 
 The method receiver appears between the `func` keyword and the method name.
 
-In our example above, the receiver is the `s Student` struct, and `WelcomeMessage`()` is the method's name.
+In our example above, the receiver is the `s Student` struct, and `WelcomeMessage()` is the method's name.
 
 ---
 ## Practice
 
 A method is a ??? with a special receiver argument.
-
-???
 
 - function
 - receiver argument

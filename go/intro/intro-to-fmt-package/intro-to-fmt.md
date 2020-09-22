@@ -32,6 +32,17 @@ Each function is used differently, with some having great similarities.
 For now, we will discuss the `Print`, `Println`, `Printf`, and `Sprintf` functions, what they are used for, and how they differ from each other.
 
 ---
+## Practice
+
+What does `fmt` stand for?
+
+???
+
+- Formatting
+- Financial Market Trends
+- Filtered Multitone
+
+---
 ## Revision
 
 Fill in the code to print the text shown in the output:
