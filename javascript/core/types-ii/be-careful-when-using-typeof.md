@@ -6,7 +6,7 @@ tags:
   - introduction
 ---
 
-# Be careful when using `typeof` .
+# Be Careful When Using `typeof` .
 
 ---
 

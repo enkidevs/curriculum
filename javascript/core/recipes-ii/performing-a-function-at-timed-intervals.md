@@ -10,7 +10,7 @@ tags:
   - fundamental
 ---
 
-# Performing a function at timed intervals
+# Performing a Function at Timed Intervals
 
 
 ---

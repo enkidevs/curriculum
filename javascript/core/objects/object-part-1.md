@@ -41,7 +41,8 @@ These properties are generally accessed via dot notation.
 We can access our `person` object's name with the dot syntax:
 
 ```js
-console.log(person.firstName); // "john"
+console.log(person.firstName);
+// "john"
 ```
 
 We can also access properties using the array syntax.

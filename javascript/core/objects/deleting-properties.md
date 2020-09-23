@@ -10,7 +10,7 @@ links:
 notes: Hope it's not too basics?
 ---
 
-# Deleting properties
+# Deleting Properties
 
 
 ---

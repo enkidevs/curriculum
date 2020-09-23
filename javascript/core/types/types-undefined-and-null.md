@@ -92,7 +92,7 @@ null  == undefined // true
 
 But not equal when using `===`:
 
-```plain-text
+```javascript
 null === undefined // false
 ```
 

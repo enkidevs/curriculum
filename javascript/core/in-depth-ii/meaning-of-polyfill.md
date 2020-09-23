@@ -8,7 +8,7 @@ tags:
   - polyfill
 ---
 
-# Meaning of polyfill
+# Meaning of Polyfill
 
 
 ---

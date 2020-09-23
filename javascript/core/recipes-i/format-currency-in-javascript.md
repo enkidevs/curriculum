@@ -11,7 +11,7 @@ links:
     [css-tricks.com](https://css-tricks.com/snippets/javascript/format-currency/){website}
 ---
 
-# Format currency in JavaScript
+# Format Currency in JavaScript
 
 
 ---

@@ -12,7 +12,7 @@ tags:
   - object
 ---
 
-# Prototype methods
+# Prototype Methods
 
 
 ---

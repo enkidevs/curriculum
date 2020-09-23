@@ -12,7 +12,7 @@ links:
   - '[john-dugan.com](https://john-dugan.com/hoisting-in-javascript/){website}'
 ---
 
-# Scope and strict mode
+# Scope and Strict Mode
 
 
 ---

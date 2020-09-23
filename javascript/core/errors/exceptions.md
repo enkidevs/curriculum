@@ -28,7 +28,7 @@ As a general guideline exceptions should be used for *exceptional* situations su
 
 The below example shows how to use try/catch to handle any errors that occur in *dangerousFunction*:
 
-```plain-text
+```javascript
 try{
  //put code that might fail in try block
  dangerousFunction();
@@ -50,7 +50,7 @@ Let's pretend **dangerousFunction** needs to read a file. We might want to test 
 
 The below code shows how to do this:
 
-```plain-text
+```javascript
 function dangerousFunction(){
  if(!fileExists()){
   throw "file does not exist";
@@ -61,7 +61,7 @@ function dangerousFunction(){
 
 You can create your own exception types which you may do to represent specific situations or hold useful data:
 
-```plain-text
+```javascript
 function BadException(message) {
   this.message = message;
 }
@@ -77,7 +77,7 @@ BadException("something bad");
 
 Complete the following block in the code snippet such that the comments make sense:
 
-```plain-text
+```javascript
 ??? {
    throw "my error";
 } ??? (e) {
@@ -103,7 +103,7 @@ Complete the following block in the code snippet such that the comments make sen
 
 Complete the missing keyword for throwing an exception:
 
-```plain-text
+```javascript
 ??? "my exception"
 ```
 

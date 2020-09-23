@@ -9,7 +9,7 @@ tags:
 parent: no-block-scope
 ---
 
-# `catch` is block scoped
+# `catch` Is Block Scoped
 
 
 ---
@@ -18,7 +18,7 @@ parent: no-block-scope
 
 The `catch` clause of a `try...catch` statement is **block** scoped. This is different to the rest of JavaScript which is **function** scoped.  
 
-```plain-text
+```javascript
 try {
   // ...
 }

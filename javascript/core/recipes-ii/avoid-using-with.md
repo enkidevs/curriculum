@@ -7,7 +7,7 @@ links:
     [developer.mozilla.org](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Statements/with){website}
 ---
 
-# Avoid using `with`
+# Avoid Using `with`
 
 
 ---
@@ -18,7 +18,7 @@ The `with` statement shortens code by making it unnecessary to repeat object ref
 
 For example:
 
-```plain-text
+```javascript
 var a, x;
 
 with (Math) { 
