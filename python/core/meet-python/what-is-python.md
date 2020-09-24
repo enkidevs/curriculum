@@ -24,7 +24,7 @@ For example, here's how you might check whether a number is greater than another
 ```python
 my_age = 23
 legal_age = 21
-if my_age > legal_age:
+if my_age >= legal_age:
     print("You can have a beer!")
 else:
     print("Unlucky.")
