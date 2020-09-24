@@ -38,6 +38,11 @@ Types of change:
 - `Archived` for content that is no longer necessary and has been archived.
 - `Fixed` for any minor fixes (e.g. add a missing comma, adding a code block tag, fixing a report).
 
+## September 24th 2020
+
+### Fixed
+- [Javascript - Core - Update headlines, grammar and code blocks](https://github.com/enkidevs/curriculum/pull/2346)
+
 ## September 22nd 2020
 
 ### Added
