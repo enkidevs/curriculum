@@ -22,12 +22,14 @@ This line tells the program that a field name `myIntVariable` exists, is of type
 
 By type of data held, some of the other existing primitives are:
 
-- Numerical
+Numerical
 - `long`: unlike `int` which can hold values up to 10 digits long, `long` values can be as long as 19 digits.
 - `float` and `double`, which both store floating point numbers.
-- Characters
+
+Characters
 - `char`: stores Unicode characters (or numerical values associated with letters, signs or numbers)
-- Booleans
+
+Booleans
 - `boolean`: accepts `true` or `false` values.
 
 When initialized, if they aren't given any values, each primitive type will default to:
