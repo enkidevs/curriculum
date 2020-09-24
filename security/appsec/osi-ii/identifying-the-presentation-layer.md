@@ -21,7 +21,7 @@ The sixth layer of the OSI model is called the *Presentation Layer*, but is seld
 
 For example, the Presentation Layer would be responsible for converting Windows-specific line endings (**CRLF**) from text files to Unix-specific line endings (**LF**) and vice versa, as needed.
 
-The Presentation Layer is also be responsible for **encryption/decryption** of data from the Application Layer for secure transmission through lower layers.
+The Presentation Layer is also responsible for **encryption/decryption** of data from the Application Layer for secure transmission through lower layers.
 
 **Note:** This process may also span across multiple layers such as Application, Session, Transport, and/or Network layers, depending on the use case.
 
