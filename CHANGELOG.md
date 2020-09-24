@@ -42,6 +42,7 @@ Types of change:
 
 ### Fixed
 - [Javascript - Core - Update headlines, grammar and code blocks](https://github.com/enkidevs/curriculum/pull/2346)
+- [SQL - where-with-and - Update quotation in PQ](https://github.com/enkidevs/curriculum/pull/2358)
 
 ## September 22nd 2020
 
