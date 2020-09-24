@@ -50,6 +50,7 @@ Types of change:
 - [Java - Java Primitives - Separate list headline from list](https://github.com/enkidevs/curriculum/pull/2360)
 - [Python - What is Python - Fix incorrect example](https://github.com/enkidevs/curriculum/pull/2362)
 - [Java - Operators II - Update incorrect output in first example](https://github.com/enkidevs/curriculum/pull/2363)
+- [Security - Identifying the Presentation Layer - Fix grammar in third paragraph](https://github.com/enkidevs/curriculum/pull/2364)
 
 ## September 22nd 2020
 
