@@ -8,6 +8,7 @@ insights:
   - converting-to-and-from-json
 exercises:
   - js-practice-objects
+  
 aspects:
   - introduction
   - workout
