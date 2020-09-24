@@ -16,7 +16,7 @@ Java supports 2 forms of shorter incrementation[1] of variables:
 ```java
 int i = 3;
 System.out.println(i++); 
-// 4
+// 3
 System.out.println(++i); 
 // 5
 ```
