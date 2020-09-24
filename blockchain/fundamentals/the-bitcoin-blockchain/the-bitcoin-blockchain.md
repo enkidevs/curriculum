@@ -17,7 +17,9 @@ Unlike real world currencies, that are issued by a country's central bank to mee
 
 In a sense, they are created from thin air. But the steady rate at which they are created and the feature of having a limited supply make them a desirable asset. The **block reward** in 2009 was 50 bitcoins and it’s been halving ever since, every 210,000 blocks.
 
-A new block is discovered roughly every 10 minutes, so the block reward remains constant for about 4 years. The reward will be 12.5 bitcoins until late June 2020.
+A new block is discovered roughly every 10 minutes, so the block reward remains constant for about 4 years. The reward was 12.5 bitcoins until May 11th 2020.
+
+Currently and until 2024 the reward is halved to 6.25 bitcoins.
 
 So, for the first users to be able to transact bitcoins, they had to mine them first. In the early days, it was still possible to do it on your PC using the CPU. Nowadays, unless you have entire rooms filled with dedicated hardware (ASICs or application-specific integrated circuits), there's almost no chance of finding a block by yourself.
 
