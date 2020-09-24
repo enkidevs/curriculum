@@ -44,6 +44,7 @@ Types of change:
 - [Javascript - Core - Update headlines, grammar and code blocks](https://github.com/enkidevs/curriculum/pull/2346)
 - [SQL - where-with-and - Update quotation in PQ](https://github.com/enkidevs/curriculum/pull/2358)
 - [Blockchain - The Bitcoin Blockchain - Update information](https://github.com/enkidevs/curriculum/pull/2358)
+- [Java - Java Primitives - Separate list headline from list](https://github.com/enkidevs/curriculum/pull/2360)
 
 ## September 22nd 2020
 
