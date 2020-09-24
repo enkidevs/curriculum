@@ -38,6 +38,26 @@ Types of change:
 - `Archived` for content that is no longer necessary and has been archived.
 - `Fixed` for any minor fixes (e.g. add a missing comma, adding a code block tag, fixing a report).
 
+## September 22nd 2020
+
+### Added
+- [Go - Three New Workouts - Intro to FMT, Methods and Pointers, and Interfaces](https://github.com/enkidevs/curriculum/pull/2348)
+
+### Fixed
+- [Spreadsheets - IFNA - Change single quotes to double quotes in PQ](https://github.com/enkidevs/curriculum/pull/2357)
+- [SQL - SUM Clause - Change phrasing of PQ](https://github.com/enkidevs/curriculum/pull/2355)
+- [SQL - SUM Clause - Fix link in footnote](https://github.com/enkidevs/curriculum/pull/2355)
+- [SQL - Inner Join - Add missing backtick and comma](https://github.com/enkidevs/curriculum/pull/2354)
+- [SQL - Handling Blobs in SQL - Fix typo](https://github.com/enkidevs/curriculum/pull/2353)
+- [Python - Creating Classes - Add missing footnote](https://github.com/enkidevs/curriculum/pull/2349)
+- [Go - Logical Operators - Replace | with html char code](https://github.com/enkidevs/curriculum/pull/2350)
+- [Go - Logical Operators - Fix md table](https://github.com/enkidevs/curriculum/pull/2350)
+
+## September 15th 2020
+
+### Fixed
+- [Python - List Methods II - Fix revision question](https://github.com/enkidevs/curriculum/pull/2347)
+
 ## September 14th 2020
 
 ### Fixed

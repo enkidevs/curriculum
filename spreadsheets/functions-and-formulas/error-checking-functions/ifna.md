@@ -42,7 +42,7 @@ Using this table:
 What is the result of this function:
 
 ```plain-text
-=IFNA(A1, 'error')
+=IFNA(A1, "error")
 ```
 
 ???

@@ -16,3 +16,6 @@ sections:
   '1':
     - pointers-structs-arrays-slices
     - range-map-make
+    - intro-to-fmt-package
+    - methods-pointers-functions
+    - interfaces

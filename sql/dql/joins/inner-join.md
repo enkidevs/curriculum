@@ -1,17 +1,22 @@
 ---
 author: mihaiberq
+
 type: normal
+
 category: must-know
+
 tags:
   - introduction
   - workout
+
 links:
-  - '[Inner join](https://en.wikipedia.org/wiki/Join_(SQL)#Inner_join){website}'
+  - '[Inner Join](https://en.wikipedia.org/wiki/Join_(SQL)#Inner_join){website}'
+
 parent: avg-clause
+
 ---
 
 # INNER JOIN
-
 
 ---
 
@@ -66,8 +71,7 @@ An *INNER JOIN* is a type of join that only returns rows for which the joined fi
 
 If there were some abilities without an effect text or some effects not describing an ability, they wouldn't be included in query result.
 
-So, if the `ability` table has `251` records and the `ability_effect_text` has `191` records, the total number of returned rows after the inner join operation will be `191`. This is because there are no matches for the extra `60` records in the `ability table.  
-
+So, if the `ability` table has `251` records and the `ability_effect_text` has `191` records, the total number of returned rows after the inner join operation will be `191`. This is because there are no matches for the extra `60` records in the `ability table`.  
 
 ---
 
@@ -76,7 +80,7 @@ So, if the `ability` table has `251` records and the `ability_effect_text` has `
 Complete the `INNER JOIN` operation on the `item` and `item_effect_text` tables. The matching columns are `id` and `item_id` respectively.
 
 ```sql
-??? item.id, item.name
+??? item.id, item.name,
   item_effect_text.short_effect
 ??? item
 ??? ??? ???

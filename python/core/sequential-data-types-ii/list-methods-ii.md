@@ -78,11 +78,15 @@ How would you insert the word `'tres'` into the following `list` so that it's at
 ```python
 list = ['uno', 'dos', 'cuatro']
 
-list.???(???)
+list.???(???, 'tres')
 # ['uno', 'dos', 'tres', 'cuatro']
 ```
 
-- `list.insert(2, 'tres')`
-- `list.insert(3, tres)`
-- `list.append(2, 'tres')`
-- `list.extend(2, 'tres)'`
+- `insert`
+- `2`
+- `1`
+- `3`
+- `replace`
+- `push`
+- `append`
+- `extend`
