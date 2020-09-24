@@ -10,7 +10,7 @@ links:
   - '[stackoverflow](http://stackoverflow.com/questions/8043026){discussion}'
 ---
 
-# Quick way to format integers with a fixed number of digits.
+# Quick Way to Format Integers With a Fixed Number of Digits.
 
 
 ---
@@ -29,7 +29,7 @@ If we are required to format a number with a particular amount of digits, for ex
 
 We can use `slice()` to achieve the desired result.
 
-```plain-text
+```javascript
 var digits = 4;
 var prefix = "0000";
 var myNum = 16;

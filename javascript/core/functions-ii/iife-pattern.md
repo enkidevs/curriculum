@@ -14,8 +14,7 @@ links:
     [markdalgleish.com](http://markdalgleish.com/2011/03/self-executing-anonymous-functions/){website}
 ---
 
-# IIFE pattern
-
+# IIFE Pattern
 
 ---
 
@@ -25,7 +24,7 @@ The **Immediately Invoked Function Expression pattern** (**IIFE** or "iffy") is 
 
 The syntax is:
 
-```plain-text
+```javascript
 (function(){
     // do something
 }());
@@ -47,7 +46,7 @@ Two possible uses are:
 
 For example:
 
-```plain-text
+```javascript
 (function(global){
   function fun(){
       return "Hello World!";

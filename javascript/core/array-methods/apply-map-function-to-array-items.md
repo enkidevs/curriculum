@@ -9,7 +9,7 @@ tags:
   - deep
 ---
 
-# Apply `map` function to array items
+# Apply `map` Function to Array Items
 
 
 ---
@@ -18,14 +18,14 @@ tags:
 
 Using `.map` will apply a function to every element in the array, and return an array with the results.  
 
-```plain-text
+```javascript
 [1,2,3,4].map(x => x * 2)
 // => [2,4,6,8]
 ```
 
 This is not limited to simple transformations.  Any features of functions can be used within a `mapper function`.
 
-```plain-text
+```javascript
 ['Jake', 'Jack', 'Mike'].map(
   name => `Hello ${name}`
 )

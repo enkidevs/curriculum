@@ -10,7 +10,7 @@ links:
     Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/arguments){documentation}
 ---
 
-# Access a function's `arguments` as an array
+# Access a Function's `arguments` as an Array
 
 
 ---

@@ -18,7 +18,7 @@ A value `v` is called *truthy* if it converts to `true` when used in an `if` cla
 
 This mean that
 
-```plain-text
+```javascript
 if (v) { console.log('yes'); }
 ```
 

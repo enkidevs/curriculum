@@ -4,8 +4,7 @@ type: normal
 category: caveats
 ---
 
-# Inaccuracy of binary floating-point format
-
+# Inaccuracy of Binary Floating-Point Format
 
 ---
 
@@ -15,11 +14,10 @@ category: caveats
 
 Taking into consideration that binary floating-point format have several *`inaccuracies`*, you must be aware of some implications that may break your code.
 
-For example :
+For example:
 
 ```javascript
 console.log(.1 + .2);
-
 ```
 
 will print `0.30000000000000004` instead of `0.3`. This happens because `0.1` is an *`inaccuracy`* - it can not be represented in binary (just the same way we can't represent `1/3` in decimal).
@@ -33,10 +31,8 @@ console.log((.1 + .2) == .3); //false
 It is advised to avoid comparisons between floating point numbers. Instead, consider subtracting the numbers and compare it to an epsilon:
 
 ```javascript
-eql =  Math.abs((.1 + .2) - .3) < .0000001;
-
+eql = Math.abs((.1 + .2) - .3) < .0000001;
 ```
-
 
 ---
 
@@ -44,7 +40,7 @@ eql =  Math.abs((.1 + .2) - .3) < .0000001;
 
 The output of the following snippet is ???
 
-```plain-text
+```javascript
 console.log((1.3 + 2.3) == 3.6);
 ```
 

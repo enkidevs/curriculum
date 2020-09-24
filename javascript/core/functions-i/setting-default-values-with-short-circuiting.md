@@ -13,7 +13,7 @@ links:
     Falsy](https://developer.mozilla.org/en-US/docs/Glossary/Falsy){documentation}
 ---
 
-# Setting default values with "short circuiting"
+# Setting Default Values With "Short Circuiting"
 
 
 ---
@@ -44,7 +44,7 @@ The above will return `"Untitled"` for `t` if the provided value for `t` is fals
 
 Sometimes this isn't desired. If an empty title is allowed, we would (incorrectly) get `"Untitled"` instead (because an empty string `''` is falsy).
 
-A better approach would be to use default parameters to use the default value only if the provided one is `undefined`.
+A better approach would be to use default parameters which use the default value only if the provided one is `undefined`.
 
 ```javascript
 function title(t = "Untitled") {

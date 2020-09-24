@@ -7,7 +7,7 @@ links:
     [stackoverflow.com](http://stackoverflow.com/questions/1484506/random-color-generator-in-javascript){website}
 ---
 
-# Easily generate a random `HEX` color
+# Easily Generate a Random `HEX` Color
 
 
 ---

@@ -7,7 +7,7 @@ tags:
   - workout
 ---
 
-# Function call method
+# Function Call Method
 
 
 ---
@@ -44,7 +44,7 @@ callObject.call(2, 4, 6);
 
 The current object would be changed to 2, and the string generated and returned would be:
 
-```plain-text
+```javascript
 str = "Object: 2. Arguments: 4 6 "
 ```
 

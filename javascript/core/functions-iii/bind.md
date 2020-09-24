@@ -13,7 +13,6 @@ links:
 
 # `.bind()`
 
-
 ---
 
 ## Content
@@ -22,7 +21,7 @@ The `bind()` function creates a new **bound function** with the same function bo
 
 You can use `bind()` to make a function that is always called with a **particular** `this` value:
 
-```plain-text
+```javascript
 bind(thisArg, [p1, [p2, [...]]])
 // returns a new function 
 // that has this equal to thisArg
@@ -30,7 +29,7 @@ bind(thisArg, [p1, [p2, [...]]])
 
 The other parameters are optional and bind the parameters of the function, for example:
 
-```plain-text
+```javascript
 var sum = function(a, b) {
   return a + b;
 };
@@ -38,7 +37,6 @@ var add10 = sum.bind(null, 10);
 // binds a = 10
 console.log(add10(10)); // 20
 ```
-
 
 ---
 

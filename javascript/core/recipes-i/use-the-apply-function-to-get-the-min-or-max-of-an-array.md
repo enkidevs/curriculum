@@ -6,7 +6,7 @@ links:
   - '[stackoverflow](http://stackoverflow.com/questions/21255138){discussion}'
 ---
 
-# Use the `apply` function to get the `min` or `max` of an array
+# Use the `apply` Function to Get the `min` or `max` of an Array
 
 
 ---

@@ -6,7 +6,6 @@ category: must-know
 
 # Functions Are Objects
 
-
 ---
 
 ## Content
@@ -57,7 +56,6 @@ let add = function (x, y){
 
 add(1, 2); // 3
 ```
-
 
 ---
 

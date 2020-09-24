@@ -10,8 +10,7 @@ links:
     [developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions){website}
 ---
 
-# Anonymous functions
-
+# Anonymous Functions
 
 ---
 
@@ -39,7 +38,7 @@ The downsides to anonymous function expressions are:
 - You can't debug easily, especially in minified code.
 - You can lose the clarity gained by naming functions sensibly.
 
-Note: you must name a function defined by a **function declaration**.
+> 💡 You must name a function defined by a **function declaration**.
 
 
 ---

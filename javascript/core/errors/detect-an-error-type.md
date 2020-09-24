@@ -10,7 +10,7 @@ links:
     [davidwalsh.name](https://davidwalsh.name/detect-error-type-javascript){website}
 ---
 
-# Detect an error type
+# Detect an Error Type
 
 
 ---

@@ -8,7 +8,7 @@ tags:
   - obscura
 ---
 
-# JavaScript compilation
+# JavaScript Compilation
 
 
 ---
@@ -25,7 +25,7 @@ JavaScript is **function** scoped.
 
 For example:
 
-```plain-text
+```javascript
 var a = 2; // a is in global
 var b = 3; // b is in global
 function fun(){ // fun is in global

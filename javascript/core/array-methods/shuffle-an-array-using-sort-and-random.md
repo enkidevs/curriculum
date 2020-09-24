@@ -9,7 +9,7 @@ links:
   - '[stackoverflow](http://stackoverflow.com/questions/2450954){discussion}'
 ---
 
-# Shuffle an array using sort and random
+# Shuffle an Array Using Sort and Random
 
 
 ---

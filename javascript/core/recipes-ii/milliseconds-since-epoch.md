@@ -7,7 +7,7 @@ links:
   - '[moment.js](http://momentjs.com/){documentation}'
 ---
 
-# Milliseconds since Epoch
+# Milliseconds Since Epoch
 
 
 ---
@@ -16,14 +16,14 @@ links:
 
 Standard way:
 
-```plain-text
+```javascript
 new Date().getTime()
 // 1259359833574
 ```
 
 Shorter way:
 
-```plain-text
+```javascript
 +new Date()
 // 1259359833574
 ```
@@ -58,7 +58,7 @@ What is missing from the following code snippet for getting the current time in 
 
 Get the current time in milliseconds(since 1 Jan 1970):
 
-```plain-text
+```javascript
 var time = Date.???;
 ```
 

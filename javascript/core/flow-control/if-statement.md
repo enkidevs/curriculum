@@ -70,7 +70,7 @@ The output of the code above is:
 
 How would you write an `if/else` statement?
 
-```plain-text
+```js
 if (condition <= 0) {
   ...
 } ??? ??? (condition > 0) {

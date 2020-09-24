@@ -6,7 +6,7 @@ tags:
   - double-tilde
 ---
 
-# Using the double tilde `~~`
+# Using the Double Tilde `~~`
 
 
 ---
@@ -23,7 +23,7 @@ console.log( ~~-2.6 ); // -2
 
 It never returns `NaN`. If the check fails, it simply returns `0`.
 
-```plain-text
+```javascript
 console.log( ~~"Sunny" ); // 0
 console.log( ~~[] ); // 0
 console.log( ~~null ); // 0
