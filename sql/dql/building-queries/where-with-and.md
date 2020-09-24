@@ -57,12 +57,12 @@ The results looks like this:
 
 ## Practice
 
-Select all the columns and rows from the `pokemon` table where the `level` is less than `10` and `name` is not 'Bugsy'.
+Select all the columns and rows from the `pokemon` table where the `level` is less than `10` and `name` is not `'Bugsy'`.
 
 ```sql
 SELECT * 
 FROM pokemon
-WHERE ??? 10 AND ??? Bugsy;
+WHERE ??? 10 AND ??? 'Bugsy';
 ```
 
 - level <
