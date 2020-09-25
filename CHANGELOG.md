@@ -41,6 +41,7 @@ Types of change:
 ## September 25th 2020
 
 ### Fixed
+- [Python - The `is` operator - Move insight to the Memory Allocation workout](https://github.com/enkidevs/curriculum/pull/2367)
 - [Go - Type Conversion - Add a new line after import statement](https://github.com/enkidevs/curriculum/pull/2365)
 
 ## September 24th 2020
