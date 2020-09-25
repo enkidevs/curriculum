@@ -38,6 +38,11 @@ Types of change:
 - `Archived` for content that is no longer necessary and has been archived.
 - `Fixed` for any minor fixes (e.g. add a missing comma, adding a code block tag, fixing a report).
 
+## September 25th 2020
+
+### Fixed
+- [Go - Type Conversion - Add a new line after import statement](https://github.com/enkidevs/curriculum/pull/2365)
+
 ## September 24th 2020
 
 ### Added

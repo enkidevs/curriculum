@@ -36,6 +36,7 @@ And now, an example program!
 package main
 
 import "fmt"
+
 var result float64 = 31.836
 
 func main() {
