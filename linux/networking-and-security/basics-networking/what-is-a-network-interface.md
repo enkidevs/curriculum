@@ -18,7 +18,7 @@ links:
 
 ## Content
 
-Every Linux system has a number of *network interfaces*, each of which corresponds to either a physical or virtual networking device.  For example, if your computer has both an Ethernet card and a Wifi card will have then there will be one network interface for each (by default).
+Every Linux system has a number of *network interfaces*, each of which corresponds to either a physical or virtual networking device.  For example, if your computer has both an Ethernet card and a Wifi card, then there will be one network interface for each (by default).
 
 The `ifconfig` command will display a list of network interfaces along with their current status and associated information.  Here is some example output (`...` is used in place of some data to ensure the output fits on screen):
 
