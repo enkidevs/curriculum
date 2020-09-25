@@ -31,6 +31,12 @@ For example:
 a_string = 'python'
 another_string = a_string
 
+print(hex(id(a_string)))
+# 0x7f08230518b8
+
+print(hex(id(another_string)))
+# 0x7f08230518b8
+
 another_string is a_string
 # True
 ```
@@ -40,6 +46,12 @@ Whereas:
 ```python
 x = 'any string'
 y = 'any string'
+
+print(hex(id(x)))
+# 0x7f082197b4f0
+
+print(hex(id(y)))
+# 0x7f082197b530
 
 x is y
 # False
@@ -70,8 +82,6 @@ print(hex(id(x)))
 print(hex(id(y)))
 # '0x7faef0fc9dc0'
 ```
-
-We'll take a look at why this happens in the next insight.
 
 ---
 
