@@ -1,15 +1,18 @@
 ---
 author: mihaiberq
+
 type: normal
+
 category: must-know
+
 links:
   - >-
     [Memory management in
     Python](http://deeplearning.net/software/theano/tutorial/python-memory-management.html){website}
+
 ---
 
-# Pointers and References
-
+# Pointers & References
 
 ---
 
@@ -20,8 +23,10 @@ When it comes to variables, one special characteristic of Python stands out: **e
 ```python
 def mem_loc(var):
   print(hex(id(var)))
+
 a = 1
 b = 1
+
 print(mem_loc(a))
 # 0x55a7b5df7080
 print(mem_loc(b))
@@ -37,16 +42,17 @@ It then comes down to the variables' name: what do they represent? In this case,
 ```python
 a = a + 1
 b = 3
+
 print(a)
 # 2
 print(mem_loc(a))
 # 0x55a7b5df70a0
+
 print(b)
 # 3
 print(mem_loc(b))
 # 0x55a7b5df70c0
 ```
-
 
 ---
 
@@ -57,9 +63,11 @@ Consider the following snippet. What do you think the memory location of `c+1` i
 ```python
 def mem_location(var):
   print(hex(id(var)))
+
 c = 10
 print(mem_location(c))
 # 0x55a7b928f0a0
+
 c = c + 1
 print(mem_location(c))
 # ???

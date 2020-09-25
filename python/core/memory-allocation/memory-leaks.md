@@ -1,15 +1,17 @@
 ---
 author: mihaiberq
+
 type: normal
+
 category: must-know
+
 links:
   - >-
-    [chase-seibert.github.io]((Diagnosing memory
-    leaks)[http://chase-seibert.github.io/blog/2013/08/03/diagnosing-memory-leaks-python.html]){website}
+    [Diagnosing Memory “Leaks” in Python](http://chase-seibert.github.io/blog/2013/08/03/diagnosing-memory-leaks-python.html){website}
+
 ---
 
-# Memory leaks
-
+# Memory Leaks
 
 ---
 
@@ -34,7 +36,6 @@ You can usually assume your Python application has a memory leak if its memory u
 
 There's no generic way to deal with memory leaks, it's more case-specific. Usually, once you've found the leak, fixing it is one Google search away.
 
-
 ---
 
 ## Practice
@@ -46,7 +47,6 @@ What is a common sign of a memory leak in your python program?
 - if its memory usage grows steadily over time
 - if you get a compile time error
 - if you get a run time error
-
 
 ---
 
@@ -60,7 +60,6 @@ A memory usually leak occurs when
 - memory usage grows steadily over time
 - there's a key logger
 - system slows down
-
 
 ---
 

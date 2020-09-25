@@ -1,11 +1,13 @@
 ---
 author: mihaiberq
+
 type: normal
+
 category: must-know
+
 ---
 
 # `copy` vs `deepcopy`
-
 
 ---
 
@@ -16,8 +18,9 @@ Extending the example in the previous insight, we could end up in a situation in
 We've seen that the assignment only won't work:
 
 ```python
-m = [1 ]
+m = [1]
 n = m
+
 n.append(2)
 print(m)
 # [1, 2]
@@ -26,11 +29,11 @@ print(m)
 Python *3.3* introduced a new list method to achieve a **shallow copy**:
 
 ```python
-m = [1 ]
+m = [1]
 n = m.copy()
 n.append(2)
 print(m)
-# [1 ]
+# [1]
 print(n)
 # [1, 2]
 ```
@@ -43,9 +46,9 @@ n = m.copy()
 n.append(2)
 n[1 ].append(3) # access the list inside
 print(n)
-# [1, [3 ], 2]
+# [1, [3], 2]
 print(m)
-# [1, [3 ]]
+# [1, [3]]
 ```
 
 An all levels copy is called a **deep copy**. We can use the `deepcopy()` method inside the `copy` module to do that:
@@ -58,7 +61,7 @@ n = copy.deepcopy(m)
 n.append(2)
 n[1].append(3) # access the list inside
 print(n)
-# [1, [3 ], 2]
+# [1, [3], 2]
 print(m)
 # [1, []]
 ```
@@ -68,10 +71,14 @@ It's worth noting the overhead time it takes to make a deepcopy:
 ```python
 import copy
 import timeit
+
 k = []
+
 for i in range(1, 11):
   k.append(list(range(1,i)))
+
 l = list(range(45)) # numbers in k
+
 print('l copy:',
   timeit.timeit(lambda: l.copy()))
 print('k copy:',
@@ -93,7 +100,6 @@ k deepcopy: 61.87346560800506
 ```
 
 You can see how, even for a linear list, the required time for **deepcopy** grows exponentially.
-
 
 ---
 

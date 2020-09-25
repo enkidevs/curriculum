@@ -1,12 +1,15 @@
 name: Memory Allocation
+
 description: On how memory allocation and de-allocation works.
+
 insights:
+  - the-is-operator
   - pointers-and-references-python
   - memory-management-of-mutable-types
   - copy-vs-deepcopy
   - python-garbage-collector
   - memory-leaks
+
 aspects:
   - workout
   - deep
- 

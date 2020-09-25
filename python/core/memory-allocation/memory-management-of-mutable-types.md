@@ -1,11 +1,13 @@
 ---
 author: mihaiberq
+
 type: normal
+
 category: must-know
+
 ---
 
-# Memory Allocation and Mutable Types
-
+# Memory Allocation & Mutable Types
 
 ---
 
@@ -15,6 +17,7 @@ You also have access to *mutable types*: lists, dictionaries, classes and their 
 
 ```python
 m = n = []
+
 print(mem_loc(m))
 # 0x7f074768c108
 print(mem_loc(n))
@@ -26,6 +29,7 @@ Versus:
 ```python
 l = []
 k = []
+
 print(mem_loc(l))
 # 0x7f074768c148
 print(mem_loc(k))
@@ -34,7 +38,7 @@ print(mem_loc(k))
 
 In the first case, both `m` and `n` reference the same list through assignment. The snippet is equivalent to:
 
-```plain-text
+```py
 n = []
 m = n
 ```
@@ -45,12 +49,15 @@ In the second snippet, `l` references a list, while `k` references another. Appe
 m.append(1)
 print(m)
 # m == [1 ]
+
 n.append(2)
 print(n)
 # n == [1, 2]
+
 l.append(1)
 print(l)
 # l == [1 ]
+
 k.append(2)
 print(k)
 # k == [2 ]
@@ -77,7 +84,6 @@ print(mem_loc(new_a))
 
 In other words, `1` exists in memory as the **integer object 1**, at the address `0x55a7b5df7080`.
 
-
 ---
 
 ## Practice
@@ -96,7 +102,6 @@ print(a)
 - `{'key': 'value'}`
 - `{'key': 'value', 'key': 'mutable'}`
 - `{}`
-
 
 ---
 
