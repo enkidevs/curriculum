@@ -3,7 +3,6 @@ description: Explore more advanced control flow.
 insights:
   - chain-comparison-operators
   - the-in-operator
-  - the-is-operator
   - the-not-operator
 exercises:
   - py-practice-in-not
