@@ -45,6 +45,7 @@ Types of change:
 - [Linux - What Is A Network Interface? - Deleted excess words and added a comma](https://github.com/enkidevs/curriculum/pull/2368)
 - [Java - Strings - Update grammar in Printstream.format example](https://github.com/enkidevs/curriculum/pull/2369)
 - [Java - Use Ignore to Disable Junit tests - Fix grammar in last example](https://github.com/enkidevs/curriculum/pull/2370)
+- [Javascript - Consuming Events - Fix typo in content](https://github.com/enkidevs/curriculum/pull/2371)
 
 ## September 25th 2020
 
