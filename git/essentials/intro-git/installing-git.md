@@ -1,16 +1,19 @@
 ---
 author: catalin
+
 type: normal
+
 category: must-know
+
 links:
   - >-
     [Git Official
     Documentation](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git){website}
   - '[GitHub Download](https://desktop.github.com/){website}'
+
 ---
 
 # Installing Git
-
 
 ---
 
@@ -28,16 +31,16 @@ You can install **Git** by running `git` from the terminal, which will prompt yo
 
 Depending on your Linux distribution and package management tool you can install **Git**:
 
-- using `yum` on Fedora/Red Hat:
+- using `dnf` on Fedora/Red Hat[1]:
 
 ```bash
-sudo yum install git
+sudo dnf install git
 ```
 
 - using `apt` on Debian:
 
 ```bash
-sudo apt-get install git
+sudo apt install git
 ```
 
 ### Windows
@@ -52,7 +55,6 @@ Go to the [official website](https://git-scm.com/download/win) which will automa
 
 If you install the *GitHub* client application (repository hosting service), which is available on all leading operating systems, **Git** will also be installed on your machine.
 
-
 ---
 
 ## Revision
@@ -63,3 +65,17 @@ Git is only available on Mac OS X.
 
 - False.
 - True.
+
+---
+
+## Footnotes
+
+[1: dnf]
+
+DNF comes with **Fedora** since version 18, and it completely replaces `yum` with version 22.
+
+If you don't have `dnf`, you can install it using `yum`:
+
+```bash
+yum install dnf
+```
