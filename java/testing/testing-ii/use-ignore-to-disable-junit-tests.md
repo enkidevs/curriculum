@@ -32,5 +32,5 @@ public void exampleTest() { ... }
 `@Ignore` can also take an optional parameter. This can be used to display a message explaining why the test is being ignored. For example:
 
 ```java
-@Ignore("Not yet implemeneted")
+@Ignore("Not yet implemented")
 ```
