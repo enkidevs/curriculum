@@ -41,7 +41,7 @@ Types of change:
 ## September 28th 2020
 
 ### Fixed
-- [Git - Installing Git - Update install methods for Linux]()
+- [Git - Installing Git - Update install methods for Linux](https://github.com/enkidevs/curriculum/pull/2374)
 - [Web - Global Attributes - Add workout to HTML README](https://github.com/enkidevs/curriculum/pull/2373)
 - [Linux - What Is A Network Interface? - Deleted excess words and added a comma](https://github.com/enkidevs/curriculum/pull/2368)
 - [Java - Strings - Update grammar in Printstream.format example](https://github.com/enkidevs/curriculum/pull/2369)
