@@ -32,6 +32,7 @@ sections:
     - forms-iv
     - forms-v
   '3':
+    - global-attributes
     - semantic-sections
     - citation-elements
     - computer-code
