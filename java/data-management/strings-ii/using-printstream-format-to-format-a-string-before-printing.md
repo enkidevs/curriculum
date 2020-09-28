@@ -21,7 +21,7 @@ links:
 int i = 500;
 float f = 2.36;
 String s = "Java";
-//System.out is Prtinstream object
+// System.out is a PrintStream object
 System.out.format(
   "Today, I wrote %d lines
   of %s code in %f hours",
