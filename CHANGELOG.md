@@ -43,6 +43,7 @@ Types of change:
 ### Fixed
 - [Web - Global Attributes - Add workout to HTML README](https://github.com/enkidevs/curriculum/pull/2373)
 - [Linux - What Is A Network Interface? - Deleted excess words and added a comma](https://github.com/enkidevs/curriculum/pull/2368)
+- [Java - Strings - Update grammar in Printstream.format example](https://github.com/enkidevs/curriculum/pull/2369)
 
 ## September 25th 2020
 
