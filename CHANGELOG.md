@@ -41,7 +41,7 @@ Types of change:
 ## September 29th 2020
 
 ### Changed
-- [Python - Hello World! - Add discussion prompt]()
+- [Python - Hello World! - Add discussion prompt](https://github.com/enkidevs/curriculum/pull/2375)
 
 ## September 28th 2020
 
