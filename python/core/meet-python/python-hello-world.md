@@ -1,13 +1,16 @@
 ---
 author: emmab
+
 tags:
   - introduction
+
 type: normal
+
 category: must-know
+
 ---
 
 # Hello World!
-
 
 ---
 
@@ -29,8 +32,10 @@ The output displayed in the shell is:
 
 In this program, we've used Python's built-in `print` function. Soon you'll learn about many more of these built-in functions and how to create your own.
 
-> Note: as with all the skills in the app, if you want to access more advanced or specific content at any time, **feel free to use the *Skill Map* tab** to jump to the workouts most relevant for you.
+> As with all the skills in the app, if you want to access more advanced or specific content at any time, **feel free to use the *Skill Map* tab** to jump to the workouts most relevant for you.
 
+> 💬 Why are you interested in Python?
+> Leave a comment or view some of the other comments for inspiration before moving on.
 
 ---
 

@@ -38,6 +38,11 @@ Types of change:
 - `Archived` for content that is no longer necessary and has been archived.
 - `Fixed` for any minor fixes (e.g. add a missing comma, adding a code block tag, fixing a report).
 
+## September 29th 2020
+
+### Changed
+- [Python - Hello World! - Add discussion prompt](https://github.com/enkidevs/curriculum/pull/2375)
+
 ## September 28th 2020
 
 ### Fixed
