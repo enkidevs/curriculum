@@ -43,6 +43,9 @@ Types of change:
 ### Changed
 - [Python - Hello World! - Add discussion prompt](https://github.com/enkidevs/curriculum/pull/2375)
 
+### Fixed
+- [Python - Hello World! - Add space between notes](https://github.com/enkidevs/curriculum/pull/2376)
+
 ## September 28th 2020
 
 ### Fixed
