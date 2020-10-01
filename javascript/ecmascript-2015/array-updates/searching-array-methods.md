@@ -39,7 +39,7 @@ people.includes("john"); //true
 
 `find` and `findIndex` return the first value or index that satisfies a testing function `f`, which will receive the arguments `element`, `index`, `source`.
 
-If no elements match then *undefined* will be returned:
+If no elements match then `-1` will be returned:
 
 ```javascript
 var people = [
@@ -51,7 +51,7 @@ var people = [
 people.find(function(e, i, src) {
   return e.age >= 18;
 });
-//returns Alex
+//returns { name: 'Alex', age: 36 }
 
 people.findIndex(function(e, i, src) {
   return (
