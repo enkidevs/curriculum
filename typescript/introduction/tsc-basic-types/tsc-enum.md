@@ -3,7 +3,7 @@ author: kapnobatai136
 type: normal
 category: must-know
 links:
-  - '[Enum Type](https://www.typescriptlang.org/#enum){documentation}'
+  - '[Enum Type](https://www.typescriptlang.org/docs/handbook/basic-types.html#enum){documentation}'
   - '[Try Out Enums](https://repl.it/@enkicontent/TypeScriptEnums){website}'
 ---
 
