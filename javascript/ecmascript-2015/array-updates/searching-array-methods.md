@@ -2,7 +2,6 @@
 author: lizTheDeveloper
 type: normal
 category: feature
-inAlgoPool: false
 tags:
   - introduction
   - workout
@@ -11,9 +10,9 @@ tags:
   - es6
 links:
   - >-
-    [ponyfoo.com](https://ponyfoo.com/articles/es6-array-extensions-in-depth){website}
+    [ES6 Array Extensions in Depth](https://ponyfoo.com/articles/es6-array-extensions-in-depth){website}
   - >-
-    [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array){website}
+    [MDN Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array){website}
 ---
 
 # Searching Arrays
@@ -30,7 +29,7 @@ Arrays have a number of prototype methods for performing search operations.
 `includes` returns a boolean indicating whether an array contains a specific value or not:
 
 ```javascript
-var people = ["john", "bob"];
+let people = ["john", "bob"];
 people.includes("john"); //true
 ```
 
@@ -42,7 +41,7 @@ people.includes("john"); //true
 If no elements match then `-1` will be returned:
 
 ```javascript
-var people = [
+let people = [
   { name: "Alex", age: 36 },
   { name: "John", age: 20 },
   { name: "Tait", age: 1 }
@@ -51,7 +50,7 @@ var people = [
 people.find(function(e, i, src) {
   return e.age >= 18;
 });
-//returns { name: 'Alex', age: 36 }
+// returns { name: 'Alex', age: 36 }
 
 people.findIndex(function(e, i, src) {
   return (
