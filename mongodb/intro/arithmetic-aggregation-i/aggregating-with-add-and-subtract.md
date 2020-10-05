@@ -4,7 +4,7 @@ type: normal
 category: how to
 ---
 
-# Aggregating With `$and` and `$subtract`
+# Aggregating With `$add` and `$subtract`
 
 
 ---
