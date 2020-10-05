@@ -70,7 +70,7 @@ if (???.??? === ???)
 ```
 
 - Notification
-- permissions
+- permission
 - "granted"
 - new Notification
 - "Hello from Enki"
