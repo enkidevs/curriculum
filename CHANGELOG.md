@@ -41,7 +41,9 @@ Types of change:
 ## October 5th 2020
 
 ## Fixed
--[Java - Package Naming Conventions - Fix grammar in first sentence](https://github.com/enkidevs/curriculum/pull/2380)
+- [Java - Package Naming Conventions - Fix grammar in first sentence](https://github.com/enkidevs/curriculum/pull/2380)
+- [Javascript - Tsc Enum - Fix broken link](https://github.com/enkidevs/curriculum/pull/2379)
+- [Ecmascript - Searching Array Methods - Update link, change var - let](https://github.com/enkidevs/curriculum/pull/2378)
 
 ## September 29th 2020
 
