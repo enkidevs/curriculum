@@ -41,6 +41,7 @@ Types of change:
 ## October 5th 2020
 
 ### Fixed
+- [Javascript - Notification API - Fix incorrect answer in Practice Question](https://github.com/enkidevs/curriculum/pull/2381)
 - [Javascript - Tsc Enum - Fix broken link](https://github.com/enkidevs/curriculum/pull/2379)
 - [Ecmascript - Searching Array Methods - Update link, change var - let](https://github.com/enkidevs/curriculum/pull/2378)
 

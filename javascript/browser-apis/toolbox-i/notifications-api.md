@@ -4,7 +4,7 @@ type: normal
 category: feature
 links:
   - >-
-    [developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/API/notification){website}
+    [Notification](https://developer.mozilla.org/en-US/docs/Web/API/notification){website}
 ---
 
 # Notifications API
@@ -18,7 +18,7 @@ The Notifications API displays desktop notifications to the user and is a great 
 
 It would be annoying if any website could create notifications so the user must grant the notification API permission.
 
-To check if the user has granted permission check the *Notification.permission* property:
+To check if the user has granted permission check the `Notification.permission` property:
 
 ```javascript
 if (Notification.permission === "granted")
@@ -33,7 +33,7 @@ To request permission to display notifications use *Notification.requestPermissi
 Notification.requestPermission(
 function (permission) {
    if (permission === "granted") {
-   //notification logic
+   // notification logic
   }
 });
 ```
@@ -41,18 +41,18 @@ function (permission) {
 Once permission is granted you can create notifications:
 
 ```javascript
-var notification =
+let notification =
   new Notification("Hello");
 ```
 
 The notification can be further customised by passing in options to set an icon or body text:
 
 ```javascript
-var options = {
+let options = {
     icon: anImage,
     body: someText
 }
-var n = new Notification(title, options);
+let n = new Notification(title, options);
 ```
 
 
@@ -70,7 +70,7 @@ if (???.??? === ???)
 ```
 
 - Notification
-- permissions
+- permission
 - "granted"
 - new Notification
 - "Hello from Enki"
