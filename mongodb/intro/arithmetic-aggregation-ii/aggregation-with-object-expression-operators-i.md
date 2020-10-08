@@ -11,7 +11,7 @@ category: feature
 
 ## Content
 
-You documents might contains objects instead of numbers or strings. In the aggregation stage, you can use the `$mergeObjects` operator to combine multiple documents and output them as a single document. The syntax looks like this:
+Your documents might contains objects instead of numbers or strings. In the aggregation stage, you can use the `$mergeObjects` operator to combine multiple documents and output them as a single document. The syntax looks like this:
 
 ```javascript
 { $mergeObjects: <object> }
@@ -116,7 +116,7 @@ Output document:
 
 In the example above, the outputted document was grouped by the `type` field, and the `spells` object was merged as a single object field. Because our objects had different value-pairs, they were just added to the new object field. 
 
-However, if for instance we had fields with the same name in both objects, like the documents below:
+However, if for instance, we had fields with the same name in both objects, like the documents below:
 
 ```javascript
 {
