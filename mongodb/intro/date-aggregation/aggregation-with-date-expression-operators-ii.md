@@ -84,7 +84,7 @@ Output:
 
 ### $month
 
-The `$month` operator is used to find the month the document was created on. The output goes from `1`-`12`, `1` being January and `12` being December.
+The `$month` operator is used to find the month the document was created on. The output goes from `1` to `12`, with `1` being January and `12` being December.
 
 ```js
 db.pokedex.aggregate([
