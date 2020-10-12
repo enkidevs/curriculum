@@ -1,9 +1,9 @@
 name: Java
 
-description: Classes, objects and coffee — the foundation on which Java was built.
+description: A battle tested language used in over 8 billion devices.
 
-icon: https://img.enkipro.com/95a487d8d78e8e67a2ba47739623e5ee.png
+icon: https://img.enkipro.com/caa70e606a6dff2cec657646abbc096f.png
 
-color: C15757
+color: FFA7A6
 
 language: java

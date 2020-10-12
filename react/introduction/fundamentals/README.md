@@ -1,12 +1,9 @@
-name: Fundamentals of React
-
-description: Building blocks of React, explained.
-
+name: Fundamentals I
+description: 'Elements, components, and how to use them.'
 insights:
   - react-the-react-element
   - react-the-react-component
   - react-using-react-components
-  - react-what-are-props
-  - react-what-is-state
-  - react-function-components
-  - react-data-flow-in-react
+aspects:
+  - introduction
+ 

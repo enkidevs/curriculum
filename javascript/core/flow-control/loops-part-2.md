@@ -1,133 +1,132 @@
 ---
 author: alexjmackey
 
-levels:
-
-  - beginner
-
 type: normal
 
 category: must-know
 
-inAlgoPool: false
-
-standards:
-  javascript.control-flow.0: 10
-  javascript.control-flow.3: 10
-
-tags:
-
-  - introduction
-
-
-aspects:
-  - introduction
-  - workout
-
+links:
+  - '[for in / for of loops](https://youtu.be/a3KHBqH7njs){video}'
 
 ---
 
 # Loops - Part 2
 
 ---
+
 ## Content
 
-*for in* loops allow you to iterate through an objects keys. E.g. the keys below are firstName and lastName:
+The `for..in` loop allows you to iterate through an object's keys. Consider the following `firstName` and `lastName` keys:
 
 ```javascript
-var obj = {
+let obj = {
    firstName: "John",
    lastName: "Smith"
 };
 ```
 
 The keys can be used to get the value:
+
 ```javascript
-for (var i in obj) {
-   console.log(i); //key  
-   console.log(obj[i]); //value
-} //firstName John lastName Smith
+for (let key in obj) {
+   console.log(key, obj[key]);
+}
+
+// "firstName" "John"
+// "lastName" "Smith"
 ```
 
-**For of**
+### `for...of`
 
-*for of* loops are used with iterable objects such as arrays & maps and allow you to easily loop through an iterables values:
+The `for..of` loops are used for looping through iterable objects such as arrays:
 
 ```javascript
-var iterable = [10, 20, 30];
-for (var i of iterable) {
-   console.log(i); //10 20 30
+let arr = [10, 20, 30];
+
+for (let i of arr) {
+   console.log(i); 
+   // 10 20 30
 }
 ```
 
-**Why use for of?**
+### Why use `for..of`?
 
-*for of* loops will only iterate over an objects values and **not** inherited properties like the *for in* loop will.
+`for..of` loops will only iterate over an object's values and **not** its inherited properties like the `for..in` loop will.
 
-For example note how the for in loop below returns newFunc that was added to array's prototype (we'll look at prototype shortly but for now think of it as a way to add functionality):
+Let's see an example. 
+
+Notice how the `for..in` loop below returns `newFunc` that was added to array's prototype (we'll look at prototypes shortly but for now think of it as a way to add functionality):
 
 ```javascript
 Array.prototype.newFunc = function() {};
-var iterable = [10, 20, 30];
 
-for (var i in iterable) {
-   console.log(i); //0 1 2 newFunc
+let arr = [10, 20, 30];
+
+for (let i in arr) {
+   console.log(i); 
 }
+// 10 20 30 newFunc
 
-for (var i of iterable) {
-   console.log(i); //10 20 30
+for (let i of arr) {
+   console.log(i);
 }
-
+// 10 20 30
 ```
 
-**break and continue**
+### `break` & `continue`
 
-The break statement exits out of a loop and continue will go to the next iteration:
+The `break` statement exits out of a loop, while the `continue` statement will skip to the next iteration:
+
 ```javascript
-var i = 0;
+let i = 0;
 do {
   i++;
-  if(i===2){
-    //skip over 2nd iteration
+  
+  if (i === 2){
+    // skip over the 
+    // 2nd iteration
     continue;
   }
-  if(i===5){
-    //exit loop
+  
+  if (i === 5){
+    // exit the loop
     break;
   }
 
-  console.log(i);    
-} while (i<10);
-//1 3 4
-
+  console.log(i);
+  
+} while (i < 10);
+// 1 3 4
 ```
 
 ---
+
 ## Practice
 
-Iterate through the elements of myArray:
-```javascript
-var myArray = [1,2,"3","item"];
+Iterate through the elements of `myArray`:
 
-??? (var i ??? ???){
+```javascript
+let myArray = [1, 2, "3", "item"];
+
+??? (let i ??? ???){
   console.log(i);
 }
 ```
 
-* `for`
-* `of`
-* `myArray`
-* `Array`
-* `do`
+- `for`
+- `of`
+- `myArray`
+- `Array`
+- `do`
+
 
 ---
+
 ## Revision
 
 To exit a loop, you can use the ??? keyword.
 
-
-* break
-* stop
-* finish
-* end
- 
+- break
+- stop
+- finish
+- end

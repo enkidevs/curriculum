@@ -1,27 +1,15 @@
 ---
 author: Stefan-Stojanovic
-
-levels:
-  - beginner
-  - basic
-
 type: normal
-
 category: must-know
-
-standards:
-  web.syntax-html.0: 10
-  web.markup-text.0: 10
-
-aspects:
-  - introduction
-
 links:
-  - '[style element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/style){documentation}'
-
+  - >-
+    [HTML <style>
+    Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/style){documentation}
 ---
 
-# Style element
+# The `<style>` Element
+
 
 ---
 
@@ -93,14 +81,16 @@ Output
 
 ![image-output](https://img.enkipro.com/f65a564d1bf8a82e3c68c971afbf38ab.png)
 
-
 The `style` element also has 4 attributes which are all optional and will be discussed in the Style course:
+
 - type
 - media
 - nonce
 - title
 
+
 ---
+
 ## Practice
 
 Finish styling all paragraph elements within the document to have text color as `gray`:
@@ -117,25 +107,28 @@ Finish styling all paragraph elements within the document to have text color as 
 </p>
 ```
 
-* `<style>`
-* `p`
-* `color`
-* `gray`
-* `</style>`
-* `<paragraph>`
-* `</paragraph>`
+- `<style>`
+- `p`
+- `color`
+- `gray`
+- `</style>`
+- `<paragraph>`
+- `</paragraph>`
+
 
 ---
+
 ## Revision
 
 What is the `<style>` element used for?
 
 ???
 
-* to style the content of an html document.
-* only to color the text of a paragraph element.
-* to resize the document to a specific size.
-* to include important information about the author of the document
+- to style the content of an html document.
+- only to color the text of a paragraph element.
+- to resize the document to a specific size.
+- to include important information about the author of the document
+
 
 ---
 

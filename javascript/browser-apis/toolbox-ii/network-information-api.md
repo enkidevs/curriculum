@@ -1,35 +1,18 @@
 ---
 author: tommarshall
-
-levels:
-
-  - basic
-
-  - advanced
-
-  - medium
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-  - new
-  - workout
-
-standards:
-  javascript.browser-apis-device.2: 10
 links:
-
-  - '[code.tutsplus.com](http://code.tutsplus.com/tutorials/html5-network-information-api--cms-21598){website}'
-
-
+  - >-
+    [Network Information
+    API](http://code.tutsplus.com/tutorials/html5-network-information-api--cms-21598){website}
 ---
 
 # Network Information API
 
+
 ---
+
 ## Content
 
 The *Network Information API* provides information about the system's connection. It's used to choose either high definition or low definition content for a user, dependent on their connection.
@@ -39,60 +22,79 @@ The API has a *`NetworkInformation`* interface and a single property to the Navi
 This example watches for changes to the user's connection.
 
 Declaring the connection and type.
+
 ```javascript
-var connection = navigator.connection ||
-              navigator.mozConnection ||
-              navigator.webkitConnection;
-var type = connection.type;
+let connection =
+  navigator.connection ||
+  navigator.mozConnection ||
+  navigator.webkitConnection;
+let type = connection.effectiveType;
 ```
+
 Listener for a change to the user's connection.
+
 ```javascript
-connection.addEventListener('typechange',
-           updateConnectionStatus);
+connection.addEventListener(
+  "typechange",
+  updateConnectionStatus
+);
 ```
+
 Function to output for any change to the user's connection if called by the listener.
+
 ```javascript
 function updateConnectionStatus() {
-  console.log("Connection type is change \
-  from " + type + " to " + connection.type);
+  console.log(
+    "Connection type is changed \
+  from " +
+      type +
+      " to " +
+      connection.effectiveType
+  );
 }
 ```
 
+
 ---
+
 ## Practice
 
 Declare the connection and type:
 
 ```javascript
-var connection = ???.connection ||
-                 navigator.??? ||
-                 navigator.???;
-var type = connection.type;
+let connection =
+  ???.connection ||
+  navigator.??? ||
+  navigator.webkitConnection;
+let type = connection.???;
 ```
 
+- `navigator`
+- `mozConnection`
+- `effectiveType`
+- `connection`
+- `kind`
+- `statusConnection`
+- `eventConnection`
 
-* `navigator`
-* `mozConnection`
-* `webkitConnection`
-* `connection`
-* `apiConnection`
-* `statusConnection`
-* `eventConnection`
 
 ---
+
 ## Revision
 
-Listen for a change in the user connection:
+Listen for a change in the user's connection:
+
 ```javascript
-// assume connection is initialised
-connection.addEventListener('???',
-  handlingFunction);
+// assume connection was
+// previously initialised
+connection.addEventListener(
+  "???",
+  handlingFunction
+);
 ```
 
-
-* `typechange`
-* `type`
-* `change`
-* `update`
-* `statusChange`
- 
+- `typechange`
+- `type`
+- `change`
+- `update`
+- `statusChange`

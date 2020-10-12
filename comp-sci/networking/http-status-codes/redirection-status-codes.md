@@ -1,31 +1,15 @@
 ---
 author: SebaRaba
-
-levels:
-
-  - beginner
-
-  - basic
-
-  - medium
-
-  - advanced
-
 type: normal
-
 category: must-know
-
-aspects:
-
-  - introduction
-
 parent: successful-status-codes
-
 ---
 
 # Redirection status codes
 
+
 ---
+
 ## Content
 
 **Redirection status codes** notify the client that additional steps are required to complete the request. They always start with `3`.
@@ -39,32 +23,34 @@ If the method of the request is either `GET` or `HEAD`, the redirection **may** 
 Sometimes, it comes in handy to use the cached version of a resource instead of requesting it again (one reason might be to reduce bandwidth usage). The `304` **Not Modified** response indicates just that: the resource hasn't been modified since last requested and the client can use its current version.
 
 Other redirect codes you should take into account when using an external server:
+
 - `302` **Found** contains a temporary new URL for the resource
 - `303` **See Other** in short, it is the `HTTP/1.1` version of the `302` response.
 
+
 ---
+
 ## Practice
 
 Which redirection status code indicates that the resource requested hasn't been modified and a cached version can be used instead?
 
 ???
 
+- `304`
+- `303`
+- `306`
 
-* `304`
-* `303`
-* `306`
 
 ---
+
 ## Revision
 
-The only two methods for which a browser should redirect the user after receiving a `301` __Moved Permanently__ are _GET_ and
+The only two methods for which a browser should redirect the user after receiving a `301` **Moved Permanently** are *GET* and
 
 ???
 
-
-* HEAD
-* POST
-* DELETE
-* GET
-
-
+- HEAD
+- POST
+- DELETE
+- GET
+ 

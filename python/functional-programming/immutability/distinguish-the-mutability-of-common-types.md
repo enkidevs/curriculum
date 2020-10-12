@@ -1,30 +1,18 @@
 ---
 author: stefkn
-
-levels:
-  - beginner
-  - basic
-  - medium
-
-aspects:
-  - introduction
-  - obscura
-
 type: normal
-
 category: must-know
-
-
 links:
-
-  - '[PYTHON OBJECTS: MUTABLE VS. IMMUTABLE](https://codehabitude.com/2013/12/24/python-objects-mutable-vs-immutable/){website}'
-
-
+  - >-
+    [PYTHON OBJECTS: MUTABLE VS.
+    IMMUTABLE](https://codehabitude.com/2013/12/24/python-objects-mutable-vs-immutable/){website}
 ---
 
 # Distinguish the Mutability of Common Types
 
+
 ---
+
 ## Content
 
 Different types, depending on the language, might be mutable or immutable.
@@ -35,30 +23,30 @@ Another good example is the `string` type in Java, which the language treats as 
 
 In Python, the **immutable** types are:
 
- - `int`
- - `float`
- - `decimal`
- - `complex`
- - `bool`
- - `string`
- - `tuple`
- - `range`
- - `frozenset`
- - `bytes`
+- `int`
+- `float`
+- `decimal`
+- `complex`
+- `bool`
+- `string`
+- `tuple`
+- `range`
+- `frozenset`
+- `bytes`
 
 The **mutable** types are:
 
- - `list`
- - `dict`
- - `set`
- - `bytearray`
- - User-defined custom classes (unless specifically made immutable)
+- `list`
+- `dict`
+- `set`
+- `bytearray`
+- User-defined custom classes (unless specifically made immutable)
 
 In summary, collections of objects and custom classes are almost always **mutable**. Scalar (or *base*) data types[1] are usually **immutable**. The only exceptions to these rules are:
 
-  - `tuple`, which is an **immutable** container.
-  - `frozenset`, which is an **immutable** version of `set`.
-  - `bytearray` can be used as a **mutable** alternative to `string`.
+- `tuple`, which is an **immutable** container.
+- `frozenset`, which is an **immutable** version of `set`.
+- `bytearray` can be used as a **mutable** alternative to `string`.
 
 But why is it important to know which types in Python are immutable or mutable? It may seem like a mere technicality, but the data type you use can affect the efficiency of your program dramatically given the correct circumstances.
 
@@ -83,7 +71,9 @@ for line in file:
 
 Since `list` is mutable, it is not discarded and a new copy created at each step. It is a good idea for us to try and keep the mutability of our chosen data types in mind as we write our code to avoid these efficiency pitfalls.
 
+
 ---
+
 ## Practice
 
 Which of the following types are immutable?
@@ -92,29 +82,31 @@ Which of the following types are immutable?
 
 ???
 
+- `tuple`, `complex`, `range`, `frozenset`
+- `tuple`, `complex`, `set`, `range`, `frozenset`
+- `tuple`, `complex`, `set`, `dict`, `range`, `frozenset`
+- `complex`, `range`, `frozenset`
+- `complex`, `range`, `set`, `frozenset`
 
-* `tuple`, `complex`, `range`, `frozenset`
-* `tuple`, `complex`, `set`, `range`, `frozenset`
-* `tuple`, `complex`, `set`, `dict`, `range`, `frozenset`
-* `complex`, `range`, `frozenset`
-* `complex`, `range`, `set`, `frozenset`
 
 ---
+
 ## Revision
 
 What is the default mutability of user-defined custom classes that have not had a mutability type explicitly declared?
 
 ???
 
+- Mutable
+- Strongly Immutable
+- Weakly Immutable
+- Immutable
+- Neither
 
-* Mutable
-* Strongly Immutable
-* Weakly Immutable
-* Immutable
-* Neither
 
 ---
+
 ## Footnotes
+
 [1:Scalar Data Types]
 In programming languages, data types are said to be **scalar** or **base** data types when they hold only one item of data each. This is in contrast to **collections** or **containers** which are the family of data types that have the ability to encapsulate multiple separate items of data, each of which will be of one of the language's scalar types.
- 

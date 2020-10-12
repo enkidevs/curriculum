@@ -1,114 +1,76 @@
 ---
 author: alexjmackey
-
-levels:
-
-  - beginner
-
 type: normal
-
 category: must-know
-
-inAlgoPool: false
-
-standards:
-  javascript.control-flow.0: 10
-  javascript.control-flow.1: 10
-
-tags:
-
-  - introduction
-
-aspects:
-  - introduction
-
-
+links:
+  - '[Comparison Operators & If Else](https://youtu.be/7WkfzokHGqo){video}'
 ---
 
 # If Statement
 
+
 ---
+
 ## Content
 
-Like most programming languages JavaScript has a number of flow control statements including the standard *if*, *if else* and *switch* statements.
+Like most programming languages JavaScript has a number of flow control statements including the standard `if` and `if..else`.
 
-```
-var isNewCustomer=true;
+```js
+let isEnkiCoder = true;
 
-if(isNewCustomer===true){
-   ...
+if (isEnkiCoder) {
+  // this executes
+  // if above check
+  // is equal to true
+  console.log("if statement");
 }
 
-if(invalidLogins > 3){
-   ...
-}
+let coding = "fun";
 
-```
-**If else**
-
-We can test multiple conditions using if else. The first expression that is found to be true will be executed and if none of them are true then the else condition (if it exists):
-
-```
-if(isNewCustomer){
- ..
-}
-else if (isVipCustomer){
-...
-}
-else {
-...
+if (coding === "fun") {
+  // this executes
+  // if above check
+  // is equal to true
+  console.log(" is cool");
 }
 ```
 
-**Switch Statements**
+The output of the code above is:
 
-Code can be more readable using the switch statement if there are many cases for a single value.
-
+```sh
+if statement is cool
 ```
-switch (customerType){
-   case "normal" :
-         ...
-         break;
-   case "vip":
-         ...
-         break;
-   default:
-         ...
+
+### `if..else`
+
+We can test multiple conditions using `if..else`. Going top to bottom, the first `if` check that is found to be `true` will be executed. If none of them are `true` then the final `else` condition is executed (if it exists):
+
+```js
+const codingSkill = "learning";
+
+if (codingSkill === "beginner") {
+  console.log("keep going!");
+} else if (codingSkill === "ninja") {
+  console.log("hello sensei");
+} else {
+  console.log("still figuring it out");
 }
 ```
+
+The output of the code above is:
+
+```sh
+"still figuring it out"
+```
+
 
 ---
+
 ## Practice
 
-Complete the basic syntax of the following `switch` statement:
-```
-??? (checker) {
-   ??? "1" :
-        ...
-        break;
-   case "2" :
-        ...
-        break;
-   ???:
-        ...
-}
-
-```
-
-
-* `switch`
-* `case`
-* `default`
-* `break`
-* `if`
-* `else`
-* `if else`
-
----
-## Revision
-
 How would you write an `if/else` statement?
-```
+
+```js
 if (condition <= 0) {
   ...
 } ??? ??? (condition > 0) {
@@ -117,13 +79,12 @@ if (condition <= 0) {
 
 ```
 
-* `else`
-* `if`
-* `case`
-* `break`
-* `if else`
-* `else if`
-* `switch`
-* `case`
-* `==`
- 
+- `else`
+- `if`
+- `case`
+- `break`
+- `if else`
+- `else if`
+- `switch`
+- `case`
+- `==`

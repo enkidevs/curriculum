@@ -1,45 +1,18 @@
 ---
 author: SebaRaba
-
-levels:
-
-  - beginner
-
-  - basic
-
-  - medium
-
 type: normal
-
 category: must-know
-
 inAlgoPool: false
-
-standards:
-  sql.create-database.0: 10
-
 tags:
-
-  - introduction
-
-  - workout
-
-
-links:
-
-  - '[More about how to create a database](https://www.postgresql.org/docs/9.1/static/app-createdb.html){website}'
-
-
-aspects:
   - introduction
   - workout
-
-
 ---
 
 # Create a Database
 
+
 ---
+
 ## Content
 
 Previously, we have looked at how you can extract information from a database using queries, but there may be a time when you will want to create a new database, add a new table or simply edit the ones that already exist. To create an SQL database, we need to enter the following command:
@@ -62,28 +35,32 @@ On the rare occasion where you might want to delete your database you can use th
 DROP DATABASE my_first_db;
 ```
 
+
 ---
+
 ## Practice
 
 Create a new database called `practice_qw`.
-```
+
+```sql
 ??? ??? ???
 ```
 
+- CREATE
+- DATABASE
+- practice_qw;
+- TABLE
+- DROP
+- practice_qw
 
-* CREATE
-* DATABASE
-* practice_qw;
-* TABLE
-* DROP
-* practice_qw
 
 ---
+
 ## Revision
 
 Complete the following code such that you will create a new database called `my_db`, display all the available databases, and select `my_db` to work on.
 
-```
+```sql
 ??? ??? my_db;
 
 ??? DATABASES;
@@ -91,13 +68,11 @@ Complete the following code such that you will create a new database called `my_
 ??? my_db;
 ```
 
-* CREATE
-* DATABASE
-* SHOW
-* USE
-* MAKE
-* DB
-* SELECT
-* CREATE DB
- 
- 
+- CREATE
+- DATABASE
+- SHOW
+- USE
+- MAKE
+- DB
+- SELECT
+- CREATE DB

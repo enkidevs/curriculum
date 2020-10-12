@@ -1,44 +1,25 @@
 ---
 author: jfarmer
-
-levels:
-
-  - basic
-
-  - beginner
-
 type: normal
-
 category: tip
-
 inAlgoPool: false
-
 tags:
-
-  - introduction
-
-  - workout
-
-
-
-
-aspects:
   - introduction
   - workout
-
-
 ---
 
 # The Directory Tree
 
+
 ---
+
 ## Content
 
 The Linux filesystem is laid out as a "directory tree".  There is a single root directory (denoted `/`), every other directory has a "parent" directory, and every file is contained in a single directory.
 
 Here is a graphical representation:
 
-```text
+```plain-text
 /
  ├── bin
  ├── dev
@@ -65,26 +46,29 @@ So, for example, `/usr/share/..` is a valid directory path and refers to the par
 
 `.` and `..` are most useful when navigating the filesystem from the command line.  For example, `cd ..` will cause the shell to change to the current directory's parent directory.
 
+
 ---
+
 ## Practice
 
-In what directory will you be after issuing `cd .` ? 
+In what directory will you be after issuing `cd .` ?
 
 ???
 
-* In the same directory
-* In the parent directory
-* In the first child directory
+- In the same directory
+- In the parent directory
+- In the first child directory
+
 
 ---
+
 ## Revision
 
-In what directory will you be after issuing `cd ..` ? 
+In what directory will you be after issuing `cd ..` ?
 
 ???
 
-* In the parent directory
-* In the same directory
-* In the first child directory
-
+- In the parent directory
+- In the same directory
+- In the first child directory
  

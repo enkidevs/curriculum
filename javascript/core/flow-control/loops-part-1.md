@@ -1,76 +1,63 @@
 ---
 author: alexjmackey
-
-levels:
-
-  - beginner
-
 type: normal
-
 category: must-know
-
-inAlgoPool: false
-
-standards:
-  javascript.control-flow.0: 10
-  javascript.control-flow.3: 10
-  javascript.control-flow.4: 10
-
-tags:
-
-  - introduction
-
-
-aspects:
-  - introduction
-
-
+links:
+  - '[For Loops](https://youtu.be/24Wpg6njlYI){video}'
+  - '[While / Do While loops](https://youtu.be/v9zgD8wjtbw){video}'
 ---
 
 # Loops - Part 1
 
+
 ---
+
 ## Content
 
-JavaScript supports the standard loop constructs you have probably seen in other languages:
+JavaScript supports the standard loop constructs you may have seen in other languages:
 
-**for Loop**
-
-```javascript
-// 0 to 9:
-for (var i = 0; i < 10; i++) {
-  console.log(i);
-}
-```
-
-We can also count backwards from 9 to 0 by modifying the last parameter:
+### `for` loop
 
 ```javascript
-// 9 to 0
-for (var i = 9; i >-1; i--) {
+// print values from 0 to 9
+for (let i = 0; i < 10; i++) {
   console.log(i);
 }
+
+// 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
 ```
 
-**while Loops**
+We can also count backwards from 9 to 0:
 
-The *while* loop continues to run as long as the expression in brackets is true:
+```javascript
+// print values from 9 to 0
+for (let i = 9; i >= 0; i--) {
+  console.log(i);
+}
+
+// 9, 8, 7, 6, 5, 4, 3, 2, 1, 0
+```
+
+### `while` loop
+
+The `while` loop continues to run as long as its condition is true:
 
 ```js
-// 0 to 9
-var i = 0;
+let i = 0;
 
+// print values from 0 to 9
 while (i < 10) {
   console.log(i);
   i++;
 }
+
+// 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
 ```
 
 **Note:** the loop will never run if the expression is never true:
 
 ```javascript
-// 0 to 9
-var i = 10;
+let i = 10;
 
 // this loop will never run because i = 10
 // and thus the condition i < 10 means
@@ -79,43 +66,50 @@ while (i < 10) {
   console.log(i);
   i++;
 }
+
 ```
 
-**do while**
+### `do..while` loop
 
-*do while* loops are similar to while loops but have the important difference that they will always run at least once before the condition is checked:
+`do..while` loops are similar to `while` loops but have the important difference that they will always run at least once before the condition is checked:
 
 ```javascript
-// 5 to 10
-var i = 5;
+let i = 10;
 
+// runs once
+// because the condition
+// is checked at the end
 do {
   console.log(i);
   i++;
 } while (i < 10);
 ```
 
+
 ---
+
 ## Practice
 
 Complete the syntax of the following `do/while` loop such that `i` will be `10` at the end of it:
 
 ```javascript
-var i = 0;
+let i = 0;
 ??? {
   i++;
 } ??? (i < ???)
 ```
 
-* `do`
-* `while`
-* `10`
-* `if`
-* `else`
-* `9`
-* `for`
+- `do`
+- `while`
+- `10`
+- `if`
+- `else`
+- `9`
+- `for`
+
 
 ---
+
 ## Revision
 
 Complete the following `for` loop such that it's syntactically correct and runs 10 iterations:
@@ -126,10 +120,9 @@ Complete the following `for` loop such that it's syntactically correct and runs 
 }
 ```
 
-* `for`
-* `var`
-* `i++`
-* `while`
-* `do`
-* `i--`
- 
+- `for`
+- `let`
+- `i++`
+- `while`
+- `do`
+- `i--`

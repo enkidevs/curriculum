@@ -1,27 +1,14 @@
 ---
 author: kapnobatai136
-
-levels:
-
-  - basic
-  
-  - medium
-  
-aspects:
-
-  - workout
-
-  - deep
-
 type: normal
-
 category: tip
-
 ---
 
 # Don't mutate state
 
+
 ---
+
 ## Content
 
 Now that you know how to start using React, it is time to learn about some of the most common mistakes and how to avoid them.
@@ -67,14 +54,16 @@ function User() {
 
 Remember, you should **never** mutate state.
 
+
 ---
+
 ## Practice
 
 Which of the following represents a good reason to mutate `state`?
 
 ???
 
-* You should never mutate state.
-* To write less code.
-* To increase your app's performance.
-* To have easier access to nested values.
+- You should never mutate state.
+- To write less code.
+- To increase your app's performance.
+- To have easier access to nested values.

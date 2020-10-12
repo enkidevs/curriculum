@@ -1,21 +1,14 @@
 ---
 author: Stefan-Stojanovic
-
-levels:
-  - beginner
-  
-aspects:
-  - new
-
 type: normal
-
 category: how to
-
 ---
 
 # Aggregating With `$multiply`
 
+
 ---
+
 ## Content
 
 Multiplication is achieved in Mongo by using the `$multiply` operator. The syntax looks like this:
@@ -47,6 +40,7 @@ Let's say we have a `pokemon` collection where each pokémon has a base `power` 
 ```
 
 To get the actual power of each pokémon, we need to calculate the product of the `power` and `age` fields (the power of each pokémon increases with its age). Using the `$multiply` operator, we would write:
+
 ```javascript
 db.pokemon.aggregate([
   {
@@ -61,6 +55,7 @@ db.pokemon.aggregate([
 ```
 
 Output:
+
 ```javascript
 { 
   "_id": ObjectId(
@@ -84,12 +79,14 @@ Although we have only used two expressions in our example, the `$multiply` opera
 
 **Note:** Just like with the `$add` and `$subtract` operators, the expressions do not have to be existing fields, they can also be any literals.
 
+
 ---
+
 ## Practice
 
 In MongoDB, you would use the ??? operator to perform multiplication.
 
-* `$multiply`
-* `$pow`
-* `$times`
-* `$*`
+- `$multiply`
+- `$pow`
+- `$times`
+- `$*`

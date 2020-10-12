@@ -1,30 +1,10 @@
 ---
 author: catalin
-
-levels:
-
-  - basic
-
-  - advanced
-
-  - medium
-
 type: normal
-aspects:
-  - introduction
-  - workout
 category: tip
-
-
-standards:
-  python.object-oriented.2: 10
-
-
 links:
-
-  - '[lgiordani.com](http://lgiordani.com/blog/2014/05/19/method-overriding-in-python/#.Vsx21JyLRhF){website}'
-
-
+  - >-
+    [lgiordani.com](http://lgiordani.com/blog/2014/05/19/method-overriding-in-python/#.Vsx21JyLRhF){website}
 notes: >
   Again, preferably use other names for classes instead of words containing Enki
   all the time. More realistic names would help. E.g. Animal for the parent
@@ -34,12 +14,13 @@ notes: >
 
 
   Made the changes in the insight.
-
 ---
 
 # Method overriding
 
+
 ---
+
 ## Content
 
 Python does not have special syntax for method overriding.
@@ -62,6 +43,7 @@ bird.identify()
 ```
 
 To add some behavior to a method but also use the parent method behavior, use `super()`:
+
 ```python
 # No changes made to the class Animal
 # Change class Bird to:
@@ -79,22 +61,26 @@ I am an animal
 I am a bird
 ```
 
+
 ---
+
 ## Practice
 
 To extend the functionality of a parent's class method, but not override it, you can use the ??? function.
 
+- `super`
+- `yield`
+- `await`
+- `extend`
+- `return`
 
-* `super`
-* `yield`
-* `await`
-* `extend`
-* `return`
 
 ---
+
 ## Revision
 
 Consider the following snippet:
+
 ```python
 class Parent():
   def hello(self):
@@ -108,15 +94,15 @@ child = Child()
 child.hello()
 # I am child
 ```
+
 Complete the missing gaps such that the output of running it will match the given comment.
 
-
-* `Child`
-* `Parent`
-* `hello`
-* `self`
-* `Child()`
-* ` `
-* `child`
-* `super`
-* `hello()`
+- `Child`
+- `Parent`
+- `hello`
+- `self`
+- `Child()`
+- ` `
+- `child`
+- `super`
+- `hello()`

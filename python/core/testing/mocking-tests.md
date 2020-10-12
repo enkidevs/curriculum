@@ -1,33 +1,18 @@
 ---
 author: SebaRaba
-
-levels:
-
-  - beginner
-
-  - basic
-
 type: normal
-
 category: must-know
-aspects:
-  - introduction
-  - workout
-  - deep
-standards:
-  python.testing.1: 10
-  python.testing.5: 10
-
 links:
-
-  - '[More on mocking tests](https://docs.python.org/3/library/unittest.mock.html){website}'
-
-
+  - >-
+    [More on mocking
+    tests](https://docs.python.org/3/library/unittest.mock.html){website}
 ---
 
 # Mocking objects
 
+
 ---
+
 ## Content
 
 **Mocking** is primarily used with **unit testing**. Sometimes, when performing **unittests** on an object, it might have **dependencies** on other complex objects. To isolate the **behavior** of the object you want to **test** you replace the other objects with **mocks** that simulate the behavior of the real objects.
@@ -35,6 +20,7 @@ links:
 Basically,mocking is creating **mock objects** that simulate the behavior of **real objects**.
 
 Benefits of **mocking**:
+
 - Increased speed - E.g. if you have a very **resource intensive function**, a mock of that function would cut down on unnecessary resource usage during testing, therefore reducing test *run time*.
 - Avoiding undesired side effects during testing - E.g. **errors** triggered by one of the **dependencies** the object we are currently testing has.
 
@@ -46,11 +32,12 @@ class Calculator:
         time.sleep(10)
         return a * b
 ```
+
 If we would run a basic **unittest** on this class, it'll take `10` seconds plus the actual testing time to finish the test.
 
 Let's define a **unittest** using a mock example:
 
-```
+```plain-text
 from unittest import TestCase
 from unittest.mock import patch
 
@@ -65,7 +52,7 @@ We are importing the `patch` decorator[1] from `unittest.mock`. It replaces the 
 
 Running this **test case**:
 
-```
+```plain-text
 .
 ____________________
 
@@ -76,31 +63,36 @@ OK
 
 As you can see, the mock function we defined for `multiply` is used during the test. The test finishes almost instantly.
 
+
 ---
+
 ## Practice
 
 What are the advantages of using mocks in testing?
 
 ???
 
+- Increased speed and side effects avoidance.
+- Simple syntax and increased speed.
+- Side effects avoidance and simple syntax.
 
-* Increased speed and side effects avoidance.
-* Simple syntax and increased speed.
-* Side effects avoidance and simple syntax.
 
 ---
+
 ## Revision
 
 Mock objects are
 
 ???
 
+- fake objects that simulate real objects' behavior
+- object instances that appeared in the code
+- any basic object
 
-* fake objects that simulate real objects' behavior
-* object instances that appeared in the code
-* any basic object
 
 ---
+
 ## Footnotes
+
 [1: patch decorator]
 It makes it easy to mock classes or objects in a module under test. The object you specify will be replaced with a mock (or other object) during the test and restored when the test ends.

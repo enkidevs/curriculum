@@ -1,53 +1,37 @@
 ---
-author: tuwi.dc
-
-levels:
-
-  - advanced
-
-  - medium
-
-aspects:
-  - obscura
-
+author: tuwidc
 type: normal
-
 category: best practice
-
 tags:
-
   - linux
-
   - apt
-
   - terminal
-
   - mirror
-
   - ubuntu
-
-
-
-
 ---
 
 # Get `apt` to use a mirror / faster mirror
 
+
 ---
+
 ## Content
 
 `apt-get` now supports a 'mirror' method that will automatically select a good mirror based on your location. 
 
 The format is (in one line):
-```
+
+```plain-text
 deb
 <repo link>
 <distro>
 <selection1,2..n>
 
 ```
+
 Putting the following lines one by one would be:
-```
+
+```plain-text
 deb mirror://mirrors.ubuntu.com/mirrors.txt 
 precise 
 main restricted universe multiverse
@@ -69,15 +53,16 @@ on the top in your `/etc/apt/sources.list` file should be all that is needed to 
 
 Lucid (10.04), Maverick (10.10), Natty (11.04), And Oneiric (11.10) users can replace precise with the appropriate name.
 
+
 ---
+
 ## Revision
 
 You can speed up your download by using 
 
 ??? .
 
-* mirrors
-* shops
-* packages
-
+- mirrors
+- shops
+- packages
  

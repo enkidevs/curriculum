@@ -1,9 +1,9 @@
 name: Linux
 
-description: The operating system with the highest device installation rate. It’s open source and gives the user full control over their machine.
+description: If you want full control over your machine, Linux is your friend.
 
-color: 5783C1
+color: A6CAFF
 
-icon: https://img.enkipro.com/a5c6a16b0d1ef2757fb6edf042212c9c.png
+icon: https://img.enkipro.com/aa17322adae726e2b4ca669adec05264.png
 
 language: bash

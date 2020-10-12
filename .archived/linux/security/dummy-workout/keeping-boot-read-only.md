@@ -25,7 +25,7 @@ Changing it to be **read-only** will decrease the risk of compromise or alterati
 
 To do that, the `/etc/fstab` file must be opened (keep in mind this applies for `ext2` partitions):
 ```
-$ nano /etc/fstab
+nano /etc/fstab
 ```
 
 Append the following line at the end of the file and then *save* it:
@@ -44,3 +44,5 @@ What file would you have to modify to make `/boot` read-only?
 * /etc/boot.conf
 * /boot/conf
 * /boot/fstab
+ 
+ 

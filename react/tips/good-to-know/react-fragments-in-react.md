@@ -1,32 +1,17 @@
 ---
 author: DanielAmorimAraujo
-
-levels:
-
-  - basic
-
-  - advanced
-
-  - medium
-
 type: normal
-
 category: feature
-
 links:
-
   - '[Fragments](https://facebook.github.io/react/docs/fragments.html){website}'
-
 parent: custom-proptype-s-to-be-required
-
-aspects:
-  - deep
-
 ---
 
 # Fragments in **React**
 
+
 ---
+
 ## Content
 
 A common pattern in **React** is for a component to return multiple elements. 
@@ -82,7 +67,9 @@ function Enki(props) {
 
 Note that `key` is the only attribute that can be passed to `Fragment`.
 
+
 ---
+
 ## Practice
 
 Complete the snippet below which maps a collection to an array of fragments:
@@ -102,24 +89,23 @@ function Enki(props) {
 }
 ```
 
+- `map`
+- `key`
+- `Fragment`
+- `React.Fragment`
+- `id`
+- `keys`
 
-* `map`
-* `key`
-* `Fragment`
-* `React.Fragment`
-* `id`
-* `keys`
 
 ---
+
 ## Revision
 
 What is a shorter syntax for the `React.Fragment` tag? 
 
 ???
 
-
-* `<>`
-* `<Frag>`
-* `<F>`
-* `<R.F>`
-
+- `<>`
+- `<Frag>`
+- `<F>`
+- `<R.F>`

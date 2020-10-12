@@ -1,33 +1,19 @@
 ---
 author: kapnobatai136
-
-levels:
-
-  - basic
-
-  - advanced
-
-  - medium
-
 type: normal
-
 category: must-know
-
-
 links:
-
-  - '[Redux usage with React](https://redux.js.org/basics/usage-with-react){documentation}'
-
+  - >-
+    [Redux usage with
+    React](https://redux.js.org/basics/usage-with-react){documentation}
 notes: This can be also placed in the react subtopic
-
-aspects:
-  - introduction
-
 ---
 
 # Use Redux with React (2)
 
+
 ---
+
 ## Content
 
 Now, looking in `Counter.js`, we must connect the component to our `store`:
@@ -66,7 +52,9 @@ The last piece of the puzzle is the `mapStateToProps` function which does exactl
 
 Phew, that was a lot of work, but we have finally managed to connect our component to our store, and we are ready to start using `react-redux`.
 
+
 ---
+
 ## Practice
 
 Connect the `<Counter />` component to the Redux `store`:
@@ -75,14 +63,16 @@ Connect the `<Counter />` component to the Redux `store`:
 export default ??? ??? ???;
 ```
 
-* `connect`
-* `(mapStateToProps)`
-* `(Counter)`
-* `(mapPropsToState)`
-* `(mapProps)`
-* `(mapState)`
+- `connect`
+- `(mapStateToProps)`
+- `(Counter)`
+- `(mapPropsToState)`
+- `(mapProps)`
+- `(mapState)`
+
 
 ---
+
 ## Revision
 
 Finish the following code so that you can connect the component to the Redux `store`:
@@ -96,10 +86,10 @@ function ???(state) {
 }
 ```
 
-* `mapStateToProps`
-* `return`
-* `state`
-* `state`
-* `props`
-* `props`
-* `mapPropsToState`
+- `mapStateToProps`
+- `return`
+- `state`
+- `state`
+- `props`
+- `props`
+- `mapPropsToState`

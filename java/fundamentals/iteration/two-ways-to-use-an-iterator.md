@@ -1,37 +1,20 @@
 ---
 author: adamMontgomerie
-
-levels:
-
-  - basic
-
-  - advanced
-
-  - medium
-
 type: normal
-
 category: feature
-
-aspects:
-
-  - introduction
-
 tags:
-
   - loops
-
   - iterators
-
 links:
-
-  - '[www.javapractices.com](http://www.javapractices.com/topic/TopicAction.do?Id=125){website}'
-
+  - >-
+    [www.javapractices.com](http://www.javapractices.com/topic/TopicAction.do?Id=125){website}
 ---
 
 # Two ways to use an `Iterator`
 
+
 ---
+
 ## Content
 
 An `Iterator` can be used to iterate over a collection using either a `for` loop or a `while` loop.
@@ -51,12 +34,16 @@ for (Iterator<String> fruitIt =
   System.out.println(fruitIt.next());
 }
 ```
+
 Both methods have advantages. The `while` loop is more legibile but the `for` loop reduces the scope of the iterator to the loop itself.
 
+
 ---
+
 ## Practice
 
 Complete the following code such that it iterates over a while loop:
+
 ```java
 List<String> enki = Arrays.asList(
 "enki", "is", "awesome");
@@ -68,24 +55,25 @@ while (enkIt.???()){
 }
 ```
 
-* `iterator`
-* `hasNext`
-* `next`
-* `hasElements`
-* `Iterator`
-* `containsElements`
+- `iterator`
+- `hasNext`
+- `next`
+- `hasElements`
+- `Iterator`
+- `containsElements`
+
 
 ---
+
 ## Revision
 
 An `iterator` can be used to :
 
 ???
 
-
-* `iterate over for and while loops`
-* `see elements of an array`
-* `concatenate strings`
-* `append strings`
-* `iterate a class`
-* `iterate a method`
+- `iterate over for and while loops`
+- `see elements of an array`
+- `concatenate strings`
+- `append strings`
+- `iterate a class`
+- `iterate a method`

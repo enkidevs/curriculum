@@ -1,46 +1,24 @@
 ---
 author: rosielowther
-
-levels:
-
-  - basic
-
-  - advanced
-
-  - medium
-
 type: normal
-
 category: feature
-
-standards:
-  javascript.browser-tooling.0: 10
-  javascript.browser-tooling.2: 10
-
-aspects:
-  - new
-  - workout
-  - deep
-  - obscura
-
-
 links:
-
-  - '[www.sitepoint.com](http://www.sitepoint.com/10-html5-apis-worth-looking/){website}'
-
-
+  - >-
+    [www.sitepoint.com](http://www.sitepoint.com/10-html5-apis-worth-looking/){website}
 ---
 
 # User Timing API
 
+
 ---
+
 ## Content
 
 The User Timing API is used to measure the **performance** of JavaScript code.
 
 The main concepts are '**mark**' (a timestamp) and '**measure**' (the time elapsed between two timestamps).
 
-```
+```plain-text
 // timestamps named 'start' and 'end'
 performance.mark("start");
 // ... do something
@@ -49,37 +27,43 @@ performance.mark("end");
 performance.measure("duration",
                       "start", "end");
 ```
+
 The main benefit of this API is that it has a higher resolution than the Date API and that you don't need to introduce variables when you test your code's performance.
 
+
 ---
+
 ## Practice
 
 Fill the gap to compute the `duration` between `start` and `end` marks:
+
 ```javascript
 performance.???("???",
     "start", "end");
 
 ```
 
-* `measure`
-* `duration`
-* `time`
-* `elapsed`
-* `timing`
+- `measure`
+- `duration`
+- `time`
+- `elapsed`
+- `timing`
+
 
 ---
+
 ## Revision
 
 Fill the gap to compute the `duration` between `start` and `end` marks:
+
 ```javascript
 performance.???("???",
     "start", "end");
 
 ```
 
-* `measure`
-* `duration`
-* `time`
-* `elapsed`
-* `timing`
- 
+- `measure`
+- `duration`
+- `time`
+- `elapsed`
+- `timing`

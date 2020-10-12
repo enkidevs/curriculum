@@ -1,43 +1,22 @@
 ---
 author: lizTheDeveloper
-
-levels:
-
-  - beginner
-
-  - basic
-
 type: normal
-
 category: feature
-
-aspects:
-  - introduction
-  - workout
-  - new
-
-inAlgoPool: false
-
 tags:
-
   - introduction
-
   - es6
-
   - workout
-
   - functions
-
-
 links:
-
-  - '[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions){website}'
-
+  - >-
+    [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions){website}
 ---
 
 # Arrow Functions (Part 2)
 
+
 ---
+
 ## Content
 
 One way that arrow functions (`() => {}`) differ from regular functions (`function(){}`) is that they do not treat `this` specially. 
@@ -87,9 +66,58 @@ At first glance, you would expect the `counter` property to be 0, because each s
 
 This means that in the `countUp()` function, `this` will be the global object which is different from the `this` pointing to the instance of `Counter`.
 
-On the other hand, arrow functions always treat `this` like a variable from the upper scope, no matter how we call them. This leads to the `countDown()` function modifying the `counter` property on the instance of `Counter`.
+On the other hand, arrow functions always treat `this` like a variable from the upper scope, no matter how we call them. This leads to the `countDown()` function modifying the `counter` property on the instance of `Counter`. If you're still unsure on how this works, we've added some comments to the example in this footnote[1].
 
-Here's the code snippet again with the explanations:
+
+---
+
+## Practice
+
+Create a counter that can successfully count up and down:
+
+```js
+function Counter () {
+  this.counter = 0;
+  this.countUp = setInterval(???, 1000)
+  this.countDown = setInterval(???, 1000)
+}
+
+let count = new Counter();
+```
+
+- `() => {this.counter++;}`
+- `() => {this.counter--;}`
+- `function() {this.counter++;}`
+- `function() {this.counter--;}`
+
+
+---
+
+## Revision
+
+Create a counter that can successfully count up and down:
+
+```js
+function Counter () {
+  this.counter = 0;
+  this.countUp = setInterval(???, 1000)
+  this.countDown = setInterval(???, 1000)
+}
+
+let count = new Counter();
+```
+
+- `() => {this.counter++;}`
+- `() => {this.counter--;}`
+- `function() {this.counter++;}`
+- `function() {this.counter--;}`
+
+
+---
+
+## Footnotes
+
+[1: Example]
 
 ```js
 function Counter() {
@@ -139,49 +167,3 @@ function Counter() {
 // calling `Counter` with `new`
 let count = new Counter();
 ```
-
----
-## Practice
-
-Create a counter that can successfully count up and down:
-
-```js
-function Counter () {
-  this.counter = 0;
-  this.countUp = setInterval(???, 1000)
-  this.countDown = setInterval(???, 1000)
-}
-
-let count = new Counter();
-```
-
-
-
-* `() => {this.counter++;}`
-* `() => {this.counter--;}`
-* `function() {this.counter++;}`
-* `function() {this.counter--;}`
-
----
-## Revision
-
-Create a counter that can successfully count up and down:
-
-```js
-function Counter () {
-  this.counter = 0;
-  this.countUp = setInterval(???, 1000)
-  this.countDown = setInterval(???, 1000)
-}
-
-let count = new Counter();
-```
-
-
-
-* `() => {this.counter++;}`
-* `() => {this.counter--;}`
-* `function() {this.counter++;}`
-* `function() {this.counter--;}`
-
- 

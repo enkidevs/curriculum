@@ -1,32 +1,20 @@
 ---
 author: mihaiberq
-
-levels:
-  - beginner
-
 type: normal
-
 category: must-know
-
-standards:
-  javascript.npm-tasks-and-modules-manager.0: 10
-
 tags:
   - introduction
   - workout
-
 links:
-  - '[docs.npmjs.com](https://docs.npmjs.com/getting-started/what-is-npm){website}'
-
-aspects:
-  - introduction
-  - workout
-
-
+  - >-
+    [docs.npmjs.com](https://docs.npmjs.com/getting-started/what-is-npm){website}
 ---
+
 # What is npm?
 
+
 ---
+
 ## Content
 
 **Npm**, or **node package manager**, is a piece of software that facilitates the process of code sharing. Code can be made available as a package and downloaded using npm for use in a project.
@@ -41,26 +29,29 @@ A large application can be built on tens or hundreds of these small packages. Th
 
 You can find all the available packages on the npm website. *Npm*, as the name states, started off as the package manager for the *Node.js* environment, so most of the earlier packages are server-side oriented. Recently, due to its popularity, npm became the go-to package manager for *JavaScript* in general, be it front-end or back-end.
 
+
 ---
+
 ## Practice
 
 The aim of a package is to
 
 ???
 
+- solve specific problems efficiently
+- solve every problem in an application efficiently
+- encapsulate the application
 
-* solve specific problems efficiently
-* solve every problem in an application efficiently
-* encapsulate the application
 
 ---
+
 ## Revision
 
 `npm` stands for
 
 ???
 
-* node package manager
-* new package manager
-* node packet manager
+- node package manager
+- new package manager
+- node packet manager
  

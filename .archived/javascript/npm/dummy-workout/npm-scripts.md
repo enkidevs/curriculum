@@ -26,11 +26,11 @@ links:
 
 Inside the `package.json` file you can specify a `scripts` section which defines commands that can be run, or hook into the life cycle of your package.
 
-Whenever you enter `$ npm run <command>` the script with the `<command>` name will be run.
+Whenever you enter `npm run <command>` the script with the `<command>` name will be run.
 
 Scripts can be useful to avoid having to globally install node packages. Let's say you're using **Mocha**, rather than doing
 ```bash
-$ npm install -g mocha
+npm install -g mocha
 ```
 You can be specify it as a `devDependency` in `package.json`:
 ```json
@@ -47,6 +47,8 @@ Now when you run `npm install` the **Mocha** module will be installed into your 
 ```
 And when you run the script:
 ```bash
-$ npm run test
+npm run test
 ```
 The **PATH** will be appended with your local `node_modules` to leverage locally installed executables.
+ 
+ 

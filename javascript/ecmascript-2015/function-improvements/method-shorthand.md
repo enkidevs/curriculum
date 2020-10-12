@@ -1,27 +1,18 @@
 ---
 author: alexjmackey
-
-levels:
-  - beginner
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-  - new
-  - workout
-
 inAlgoPool: false
-
 links:
-  - '[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Method_definitions){website}'
-
+  - >-
+    [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Method_definitions){website}
 ---
+
 # Method Shorthand
 
+
 ---
+
 ## Content
 
 Method shorthand allows us to remove the function key word and colon making code more succinct.
@@ -46,7 +37,9 @@ return {
 };
 ```
 
+
 ---
+
 ## Practice
 
 Consider the function `sayHi` which is supposed to log the `Hi` message.
@@ -65,16 +58,18 @@ return {
 }
 ```
 
-* sayHi()
-* sayHello
-* ()
-* function
-* sayHi: function()
-* sayHello:
-* function()
-* sayHello: function()
+- sayHi()
+- sayHello
+- ()
+- function
+- sayHi: function()
+- sayHello:
+- function()
+- sayHello: function()
+
 
 ---
+
 ## Revision
 
 Fill in the missing gaps of the following snippet such that it makes use of method shorthand:
@@ -87,10 +82,9 @@ return {
 }
 ```
 
-* func
-* ()
-* func:
-* function func()
-* func()
-* () =>
- 
+- func
+- ()
+- func:
+- function func()
+- func()
+- () =>

@@ -1,33 +1,19 @@
 ---
 author: catalin
-
-levels:
-
-  - basic
-
-  - advanced
-
-  - medium
-
 type: normal
-
 category: must-know
-
-
 links:
-
-  - '[Official Documentation](https://facebook.github.io/react/docs/dom-elements.html#dangerouslysetinnerhtml){website}'
-
+  - >-
+    [Official
+    Documentation](https://facebook.github.io/react/docs/dom-elements.html#dangerouslysetinnerhtml){website}
 parent: custom-proptype-s-to-be-required
-
-aspects:
-  - deep
-
 ---
 
 # Dangerously set `innerHTML`
 
+
 ---
+
 ## Content
 
 React gives you the ability to insert *raw* HTML.
@@ -84,43 +70,49 @@ within getMarkup
 />
 ```
 
+
 ---
+
 ## Practice
 
 Fill the key needed for the `dangerouslySetInnerHTML` prop:
+
 ```javascript
 dangerouslySetInnerHTML: {
   ???: '<p>Enki </p>';
 }
 ```
 
+- `__html`
+- `html`
+- `_html`
+- `value`
+- `id`
+- `text`
 
-* `__html`
-* `html`
-* `_html`
-* `value`
-* `id`
-* `text`
 
 ---
+
 ## Revision
 
 Fill the key needed for the `dangerouslySetInnerHTML` prop:
+
 ```javascript
 dangerouslySetInnerHTML: {
   ???: '<p>Enki </p>';
 }
 ```
 
+- `__html`
+- `html`
+- `_html`
+- `value`
+- `id`
+- `text`
 
-* `__html`
-* `html`
-* `_html`
-* `value`
-* `id`
-* `text`
 
 ---
+
 ## Footnotes
 
 [1: XSS]

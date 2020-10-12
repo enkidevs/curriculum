@@ -8,4 +8,8 @@ insights:
   - constant-notation
   - ternary-operator
   - use-meaningful-names
- 
+
+aspects:
+  - introduction
+  - workout
+  - obscura

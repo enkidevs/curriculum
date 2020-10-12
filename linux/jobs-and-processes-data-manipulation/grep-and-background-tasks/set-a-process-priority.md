@@ -1,45 +1,22 @@
 ---
-author: tuwi.dc
-
-levels:
-
-  - advanced
-
-  - medium
-
-aspects:
-  - introduction
-  - workout
-  - deep
-
+author: tuwidc
 type: normal
-
 category: feature
-
 tags:
-
   - linux
-
   - terminal
-
   - nice
-
   - renice
-
   - PID
-
   - priority
-
   - process
-
-
-
-
 ---
 
 # Set a process priority
 
+
 ---
+
 ## Content
 
 `Nice` is a command in Unix and Linux operating systems that allows for the adjustment of the 'niceness' value of processes. 
@@ -54,49 +31,55 @@ Priorities range from `-20` to `19`.
 
 A nice value of `-20` represents highest priority, while a value of `19` is the lowest priority.
 
-
 To decrease the priority of a running process:
-```
+
+```plain-text
 renice new_priority -p PID_OF_THE_PROCESS
 ```
+
 Like :
-```
+
+```plain-text
 renice 16 -p 13245
 13245: old priority 10, new priority 16
 ```
 
 The same to increase it:
-```
+
+```plain-text
 renice 5 -p 13254
 13254: old priority 16, new priority 5
 ```
 
+
 ---
+
 ## Practice
 
 Set the highest priority for the process with ID `2314` :
-```
-$ ??? ??? ??? 2314
+
+```bash
+??? ??? ??? 2314
 ```
 
-* `renice`
-* `-20`
-* `-p`
-* `19`
-* `nice`
-* `0`
-* `-pr`
+- `renice`
+- `-20`
+- `-p`
+- `19`
+- `nice`
+- `0`
+- `-pr`
+
 
 ---
+
 ## Revision
 
 A process’ nice value of 15 represents a 
 
 ??? priority .
 
-* low
-* high
-* default
-* medium
-
- 
+- low
+- high
+- default
+- medium

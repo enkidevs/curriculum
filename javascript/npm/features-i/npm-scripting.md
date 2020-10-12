@@ -1,37 +1,19 @@
 ---
 author: mihaiberq
-
-levels:
-  - beginner
-  - basic
-  - medium
-  - advanced
-
 type: normal
-
 category: how to
-
 parent: how-npm3-handles-dependencies
-
-standards:
-  javascript.npm-tasks-and-modules-manager.0: 30
-  javascript.npm-tasks-and-modules-manager.3: 30
-
 tags:
   - introduction
   - workout
   - deep
-
-aspects:
-  - introduction
-  - workout
-  - deep
-
-
 ---
+
 # Npm Scripting
 
+
 ---
+
 ## Content
 
 `npm` is a lot more than just a package manager for Node. It supports scripting using the `run-script` (or the abbreviated `run`) option.
@@ -51,7 +33,7 @@ Scripts can be specified inside *package.json*:
 And invoked using:
 
 ```bash
-$ npm run myScript
+npm run myScript
 firstScript
 ```
 
@@ -67,7 +49,7 @@ Why is this great? Say you are using CSS preprocessors like *LESS* or *SASS* and
 Running:
 
 ```bash
-$ npm run build-less
+npm run build-less
 ```
 
 Will produce the *.css* file.
@@ -87,7 +69,9 @@ Another cool thing about scripting is that you can combine multiple sub-scripts 
 
 This will speed up the process as two subshells will be invoked to resolve each build command (asynchronously) because of the `&` token.
 
+
 ---
+
 ## Practice
 
 Fill in the following `package.json` file such that it has 2 scripts:
@@ -103,25 +87,27 @@ One called `test` which will run `jest` and another called `test:ci` which will 
 }
 ```
 
-* scripts
-* test
-* jest
-* test:ci
-* npm run test
-* -- runInBand
-* script
-* node-scripts
-* testing
-* test --
-* runInBand
-* run test
-* npm
+- scripts
+- test
+- jest
+- test:ci
+- npm run test
+- -- runInBand
+- script
+- node-scripts
+- testing
+- test --
+- runInBand
+- run test
+- npm
+
 
 ---
+
 ## Revision
 
-
 Given the following is in your `package.json`, execute the script called `dailyStats`
+
 ```javascript
 {
   "name": "enki",
@@ -134,9 +120,8 @@ Given the following is in your `package.json`, execute the script called `dailyS
 
 ??? ??? ???
 
-* npm
-* run
-* dailyStats
-* script
-* exec
- 
+- npm
+- run
+- dailyStats
+- script
+- exec

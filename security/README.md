@@ -1,9 +1,9 @@
 name: Security
 
-description: Security'; DROP TABLE Topics;
+description: Master security best practices.
 
-color: 16ABB3
+color: A6FBFF
 
-icon: https://img.enkipro.com/4e3b773f760b748134bf8d9a6f46c40b.png
+icon: https://img.enkipro.com/4018c4ae08af6af932acd4e10dfc6b45.png
 
 language: bash

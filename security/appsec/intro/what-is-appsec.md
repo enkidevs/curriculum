@@ -1,58 +1,58 @@
 ---
 author: lizTheDeveloper
-
-levels:
-
-  - beginner
-
-  - basic
-
-aspects:
-
-  - introduction
-
 type: normal
-
 category: must-know
-
-
-standards:
-  security.security-feed.0: 10
-
 links:
-  - '[Hack This Site](https://www.hackthissite.org/)'
-  - '[Holistic Info-Sec for Web Developers](https://f0.holisticinfosecforwebdevelopers.com/index.html)'
-  - '[A list of lists of application security resources](https://github.com/paragonie/awesome-appsec)'
-
+  - >-
+    [Why WebApp Security is
+    Important](https://dyn.com/blog/why-web-application-security-is-important/){website}
+  - >-
+    [Veracode](https://www.veracode.com/state-of-software-security-report){website}
 ---
 
 # What is AppSec?
 
+
 ---
+
 ## Content
 
-AppSec (short for Application security) is simply a set of measures taken to improve the security of an application; often by finding, fixing, and preventing security vulnerabilities. 
+**AppSec** (short for Application security) is simply a set of measures taken to improve the security of an application.
 
-The field of application security includes many different individuals working together to ensure the safety of applications around the world; from security researchers, to bug bounty hunters, to open-source reviewers, to algorithm developers, to the vast legions of engineers who are vigilant against common security flaws. Many organizations work together to share knowledge about how to identify and counteract threats and secure attack vectors.
+This is often done by finding, fixing, and preventing *security vulnerabilities*.
 
-This course aims to introduce you to common security patterns that you can follow in your code, your application design, and your organization - to be more secure, and keep your customers' data safe.
+There have been many data breaches since the beginning of the internet, and they now represent the main reason for governments creating [data protection regulations](https://dyn.com/blog/data-protection-regulations-emerge-as-breaches-persist/).
 
-In order to improve application security, we'll make use of many automated tools to make the process more automatic, and integrate it into your normal developer workflow.
+In 2019, [Veracode](https://www.veracode.com/state-of-software-security-report) reported that **more than 80%** of webapps have **at least one security flaw**.
+
+If you thought that AppSec isn't for you, maybe this will change your mind.
+
+> 💡 Many organizations work together to share knowledge about how to identify and counteract threats and secure attack vectors[1].
+
 
 ---
+
 ## Practice
 
-When working to improve application security, the best way to get started is by learning how to use relevant ???.
+AppSec typically involves fixing or ??? security vulnerabilitities.
 
-* automated tools
-* scripting languages
-* social engineering techniques
+- preventing
+- propagating
+- protesting
+
 
 ---
-## Revision
 
-When working to improve application security, the best way to get started is by learning how to use relevant ???.
+## Footnotes
 
-* automated tools
-* scripting languages
-* social engineering techniques
+[1:AppSec]
+The field of application security includes many different individuals working together to ensure the safety of applications around the world.
+
+Some examples include:
+
+- security researchers
+- bug bounty hunters
+- open-source reviewers
+- algorithm developers
+- engineers who are vigilant against common security flaws
+ 

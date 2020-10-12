@@ -1,33 +1,15 @@
 ---
 author: SebaRaba
-
-levels:
-
-  - beginner
-
-  - basic
-
-  - medium
-
-  - advanced
-
 type: normal
-
 category: must-know
-
-aspects:
-
-  - introduction
-
-  - workout
-
 parent: client-error-status-codes
-
 ---
 
 # Server error status codes
 
+
 ---
+
 ## Content
 
 When processing *HTTP requests*, problems can occur not only on the client side, but also on the server side. In such cases, if possible, **server-error status codes** are returned.
@@ -39,32 +21,34 @@ When encountering an unexpected condition preventing the server from fulfilling 
 When a request containing a method not yet supported by the server is received (for example, using the `PUT` verb in a request sent to a server that expects a specialized `POST` request), the `501` **Not Implemented** status code should be used.
 
 Other server-error status codes are:
+
 - `502` **Bad Gateway** - returned when the server acts as a proxy/gateway and an invalid response is received from the upstream server
 - `503` **Service Unavailable** - server is unable to handle the request due to overloading
 - `504` **Gateway Timeout** - the proxy/gateway server didn't receive a timely response
 
+
 ---
+
 ## Practice
 
 In case of an unexpected factor preventing the server from completing the request, it will return
 
 ???
 
+- `500` **Internal Server Error**
+- `502` **Bad Gateway**
+- `504` **Gateway Timeout**
 
-* `500` **Internal Server Error**
-* `502` **Bad Gateway**
-* `504` **Gateway Timeout**
 
 ---
+
 ## Revision
 
 What status code should the server return if it is unable to process the request due to overloading?
 
 ???
 
-
-* `503` **Service Unavailable**
-* `501` **Not Implemented**
-* `504` **Gateway Timeout**
-
-
+- `503` **Service Unavailable**
+- `501` **Not Implemented**
+- `504` **Gateway Timeout**
+ 

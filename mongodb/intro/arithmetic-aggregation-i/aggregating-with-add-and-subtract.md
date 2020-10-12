@@ -1,23 +1,14 @@
 ---
 author: Stefan-Stojanovic
-
-levels:
-  - beginner
-  - basic
-  
-aspects:
-  - introduction
-  - new
-
 type: normal
-
 category: how to
+---
+
+# Aggregating With `$add` and `$subtract`
+
 
 ---
 
-# Aggregating With `$and` and `$subtract`
-
----
 ## Content
 
 Now that we know how to add and subtract in Mongo, let's see how we can use these operations together. 
@@ -25,6 +16,7 @@ Now that we know how to add and subtract in Mongo, let's see how we can use thes
 Using the same documents from the previous insights[1], let's calculate how stronger the `"Ultimate"` power is compared to the sum of the other two `power`s. 
 
 The query we would use is:
+
 ```javascript
 db.pokemon.aggregate([
   {
@@ -42,6 +34,7 @@ db.pokemon.aggregate([
 ```
 
 Which would output:
+
 ```javascript
 { 
   "_id": ObjectId(
@@ -74,7 +67,9 @@ db.pokemon.aggregate([
 ]);
 ```
 
+
 ---
+
 ## Practice
 
 Can you use the `$add` and `$subtract` operators together in MongoDB?
@@ -83,18 +78,21 @@ Can you use the `$add` and `$subtract` operators together in MongoDB?
 
 The addition and subtraction operations in MongoDB can use ??? together with fields.
 
-* Yes.
-* literals
-* No.
-* Maybe.
-* letters
-* symbols
+- Yes.
+- literals
+- No.
+- Maybe.
+- letters
+- symbols
+
 
 ---
+
 ## Footnotes
 
 [1:Previous Documents]
 Here are the documents that we have previously used:
+
 ```javascript
 { 
   "Name": "Pikachu",

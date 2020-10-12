@@ -7,8 +7,9 @@ core: true
 sections:
   '0':
     - what-is-sql
-    - basic-selects
-    - basic-queries
+    - using-select
+    - building-queries
+    - special-operators
     - write
   '1':
     - aggregate-queries
@@ -22,8 +23,8 @@ standards:
     objectives:
       0: Connect any database client to a database server on a local host
       1: Connect any database client to a database server on a remote host
-      2: Break down connection URIs into their component elements (protocol, hostname, credentials, port, database name, etc)
-      3: Assemble connection URIs from component elements
+      2: Break down connection URLs into their component elements (protocol, hostname, credentials, port, database name, etc)
+      3: Assemble connection URLs from component elements
   read-single-table:
     name: Write queries to read data from single tables
     description: This standard specifically has to do with writing a query to read data from one table.

@@ -1,19 +1,17 @@
 ---
 author: nem035
-aspects:
-  - workout
-  - deep
-  - obscura
 type: normal
 category: caveats
 ---
 
 # More about Docker DNS
 
+
 ---
+
 ## Content
 
-Docker containers can have DNS aliases which behave pretty similar to actual DNS aliases.
+Docker containers can have DNS aliases which behave pretty similarly to actual DNS aliases.
 
 Note: We can use the command `--network-alias` to create a network-scoped alias for a container.
 
@@ -53,16 +51,15 @@ docker container run \
 
 Here's what `nslookup` would output on `alpine`:
 
-```
+```plain-text
 Name:      ikne
 Address 1: 172.19.0.2 example.enki
 ```
 
+
 ---
+
 ## Footnotes
 
-[1: RoundRobin]
-[DNS Round Robin](https://en.wikipedia.org/wiki/Round-robin_DNS)
-is the name of an IP address picking strategy for domain names where a domain name maps to a list of IPs instead of just a single IP. When a request is made to www.example.com, a DNS server would pick an IP address from that list, in a round-about order. Among other things, this allows distributing load across different servers because on different connection attempts clients would receive services from different providers.
-
-
+[1: RoundRobin][DNS Round Robin](<https://en.wikipedia.org/wiki/Round-robin_DNS>)
+is the name of an IP address picking strategy for domain names where a domain name maps to a list of IPs instead of just a single IP. When a request is made to [www.example.com](http://www.example.com), a DNS server would pick an IP address from that list, in a round-about order. Among other things, this allows distributing load across different servers because on different connection attempts clients would receive services from different providers.

@@ -44,7 +44,7 @@ describe('testing cubeplus2', function (){
 ```
 Installing the `contrib-jasmine` plugin:
 ```bash
-$ npm install --save contrib-jasmine
+npm install --save contrib-jasmine
 ```
 Loading the plugins and creating the *jasmine* task to run the spec:  
 ```javaScript
@@ -76,3 +76,5 @@ grunt.???('contrib-jasmine');
 * loadNpmPlugins
 * loadPlugin
 * runPlugin
+ 
+ 

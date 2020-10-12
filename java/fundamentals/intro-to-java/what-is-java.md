@@ -1,45 +1,56 @@
 ---
 author: mihaiberq
-
-levels:
-
-  - beginner
-
 type: normal
-
 category: must-know
-
-aspects:
-
+tags:
+  - java
   - introduction
-
-inAlgoPool: false
-
 ---
 
 # What is Java?
 
+
 ---
+
 ## Content
 
-**Java** is a programming language that follows the *Object-oriented programming paradigm* (also  known as OOP).
+**Java** is a programming language that follows the *Object-oriented programming paradigm*[1] (also known as OOP).
 
-One of the particularities of the language that makes it so widely used is that compiled Java code runs on any machine that supports java, without recompilation. This principle is called *"write once, run anywhere"* (WORA).
+It was first released in 1995 by Sun Microsystems, and has since grown to be one of the most used programming languages.
 
-Java classes are compiled to `bytecode`, which any Java Virtual Machine (*JVM*) can understand.
+The fact that it's still one of the most-used languages over 25 years later shows how durable it is.
 
-In short, Java is trying to be an object-oriented, secure, portable, threaded and dynamic language. We will discuss all these terms in future insights.
+Java is a **secure[2], and portable language[3]**. We'll discuss what this means very soon!
 
-*Note*: You should get comfortable with the acronyms as they will come up regularly in the course of the workouts.
 
 ---
+
 ## Practice
 
-What type of programming language is **Java** considered?
+What type of programming language is **Java** considered to be?
 
 ???
 
-* object-oriented
-* functional
-* quantum
-* esoteric
+- object-oriented
+- functional
+- quantum
+- esoteric
+
+
+---
+
+## Footnotes
+
+[1:Object-oriented programming]
+All you need to know for now is that **object-oriented programming** (OOP) is a *programming paradigm* that works with real-life entities. These entities are called **objects**, and they have *attributes* and *behaviors*. 
+
+Let's use the common car analogy to better understand OOP. 
+
+Think of the car as the object. The model, color or age of the car are the object's *attributes*. Whether the engine is on, or whether it's moving are *behaviors* and would exist as methods.
+
+[2:Secure]
+In Java, some security flaws (stack corruption, buffer overflow) are impossible to exploit. Moreover, the style of coding reduces the chances to introduce a security flaw. 
+
+[3:Portable]
+Once you compile your Java code, it can run on any machine. This concept is called **WORA** (write once, run anywhere) and will be explained in the following insights.
+ 

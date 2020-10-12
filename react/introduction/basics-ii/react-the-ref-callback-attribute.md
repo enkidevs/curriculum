@@ -1,35 +1,19 @@
 ---
 author: catalin
-
-levels:
-
-  - beginner
-
-  - basic
-
-  - medium
-
-  - advanced
-
 type: normal
-
 category: must-know
-
-
 links:
-
-  - '[Refs and the DOM](https://facebook.github.io/react/docs/refs-and-the-dom.html){website}'
-
+  - >-
+    [Refs and the
+    DOM](https://facebook.github.io/react/docs/refs-and-the-dom.html){website}
 parent: conditional-rendering-part-2
-
-aspects:
-  - deep
-
 ---
 
 # The `ref` callback attribute
 
+
 ---
+
 ## Content
 
 The `ref` is a special *attribute* in **React** that is attachable to any `component` or **DOM** `element`.
@@ -41,6 +25,7 @@ They are usually used to access components from outside the normal data flow in 
 However, using a `ref` you can access components and invoke elements' methods directly.
 
 When attributed to an **HTML** `element`, the `ref` callback will take the underlying **DOM** element as input:
+
 ```jsx
 render() {
   return (
@@ -58,6 +43,7 @@ In the `ref` callback function above, `in` (input) will be:
 - `null` when `<input />` is **unmounted**
 
 The referenced element is now accessible via `this.myInput`:
+
 ```jsx
 someMethod() {
   // call raw DOM API method focus()
@@ -71,10 +57,13 @@ Using `ref`s implies an *imperative* approach to a problem, while **React** was 
 
 However, there might be scenarios when they are necessary.
 
+
 ---
+
 ## Practice
 
 Complete the following `render()` function such that, after *mounting*, the `<input />` element can be accessed via `this.myInput`:
+
 ```jsx
 render() {
   return (
@@ -86,21 +75,23 @@ render() {
 }
 ```
 
+- `ref`
+- `myInput`
+- `in`
+- `refs`
+- `input`
+- `<input />`
+- `null`
+- `ref.myInput`
+- `ref.in`
 
-* `ref`
-* `myInput`
-* `in`
-* `refs`
-* `input`
-* `<input />`
-* `null`
-* `ref.myInput`
-* `ref.in`
 
 ---
+
 ## Revision
 
 How would you access the referenced `<input />` element from within `someMethod()` in the example below?
+
 ```jsx
 render() {
   return (
@@ -117,12 +108,9 @@ someMethod() {
 
 ```
 
-
-* `this.i`
-* `this.refs.i`
-* `i`
-* `this.in`
-* `this.refs.in`
-* `in`
-
-
+- `this.i`
+- `this.refs.i`
+- `i`
+- `this.in`
+- `this.refs.in`
+- `in`

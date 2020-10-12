@@ -1,82 +1,66 @@
 ---
-author: tuwi.dc
-
-levels:
-
-  - basic
-
-  - beginner
-
-aspects:
-  - introduction
-  - workout
-
+author: tuwidc
 type: normal
-
 category: must-know
-
 tags:
-
   - shutdown
-
   - linux
-
   - halt
-
   - poweroff
-
-
-
-
 ---
 
 # Commands to shutdown or restart the system
 
+
 ---
+
 ## Content
 
 To shutdown:
-```
-$ sudo shutdown -h now 
-$ sudo halt
-$ sudo poweroff
-$ sudo init 0 
-```
 
+```bash
+sudo shutdown -h now 
+sudo halt
+sudo poweroff
+sudo init 0 
+```
 
 To restart:
-```
-$ sudo reboot
-$ sudo shutdown -r now
-$ sudo init 6
+
+```bash
+sudo reboot
+sudo shutdown -r now
+sudo init 6
 ```
 
+
 ---
+
 ## Practice
 
+```bash
+??? 
 ```
-$ ??? 
-```
+
 command restarts the system.
 
+- `sudo shutdown -r now`
+- `sudo halt`
+- `sudo shutdown -h now`
+- `sudo init 0`
 
-* `sudo shutdown -r now`
-* `sudo halt`
-* `sudo shutdown -h now`
-* `sudo init 0`
 
 ---
+
 ## Revision
 
+```bash
+???
 ```
-$ ???
-```
+
 command shuts down the system.
 
-
-* `sudo shutdown -h now`
-* `sudo reboot`
-* `sudo init 6`
-* `sudo shutdown -r now`
-
- 
+- `sudo shutdown -h now`
+- `sudo reboot`
+- `sudo init 6`
+- `sudo shutdown -r now`

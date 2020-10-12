@@ -7,10 +7,12 @@ core: true
 sections:
   '0':
     - meet-python
-    - console-and-operators
-    - control-structures
-    - fundamental-data-structures
-    - fundamental-data-structures-ii
+    - syntax-and-numerical-operators
+    - control-flow-i
+    - control-flow-ii
+    - sequential-data-types-i
+    - sequential-data-types-ii
+    - unordered-data-types
     - looping
     - functions
     - tips

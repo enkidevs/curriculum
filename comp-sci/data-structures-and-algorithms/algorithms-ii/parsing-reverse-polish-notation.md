@@ -1,35 +1,15 @@
 ---
 author: mihaiberq
-
-levels:
-
-  - beginner
-
-  - basic
-
-  - medium
-
-  - advanced
-
 type: normal
-
 category: how to
-
-aspects:
-
-  - deep
-
-  - workout
-
-  - obscura
-
 parent: reverse-polish-notation
-
 ---
 
 # Parsing Reverse Polish Notation
 
+
 ---
+
 ## Content
 
 Postfix notation is used in *stack-based* languages and *pipeline-based* systems, like Unix pipelines.
@@ -37,6 +17,7 @@ Postfix notation is used in *stack-based* languages and *pipeline-based* systems
 For calculators, an advantage of using this notation comes from the fact that fewer operations are required to analyse an expression, since there is no need to take parentheses into consideration.
 
 The algorithm to calculate a RPN expression is as follows:
+
 - Starting with the left-most token, while there is input left:
   - Read the next token.
   - If the token is a value, push it onto the stack.
@@ -45,7 +26,8 @@ The algorithm to calculate a RPN expression is as follows:
 - Else, return the *value*.
 
 `2 5 + 3 ×` would be evaluated as:
-```
+
+```plain-text
 Stack = []
 2 - operand: push(2); Stack = [2]
 5 - operand: push(5); Stack = [2,5]
@@ -60,29 +42,32 @@ Stack = []
 // return 21
 ```
 
+
 ---
+
 ## Practice
 
 What values would be left in the stack after the evaluation of `10 5 * 2 + 3 3`?
 
 ???
 
-* [52,3,3]
-* [55,3]
-* [55]
-* [58]
-* [23,3]
+- [52,3,3]
+- [55,3]
+- [55]
+- [58]
+- [23,3]
+
 
 ---
+
 ## Revision
 
 What are the contents of the stack after evaluating a `valid` postfix expression?
 
 ???
 
-* A single value.
-* Two values.
-* A single operator.
-* The stack is empty.
-
-
+- A single value.
+- Two values.
+- A single operator.
+- The stack is empty.
+ 

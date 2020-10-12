@@ -1,31 +1,19 @@
 ---
 author: kapnobatai136
-
-levels:
-
-  - basic
-
-  - beginner
-
 type: normal
-
 category: feature
-
-
 links:
-
-  - '[React Children](https://facebook.github.io/react/docs/top-level-api.html#reactchildren){website}'
-
+  - >-
+    [React
+    Children](https://facebook.github.io/react/docs/top-level-api.html#reactchildren){website}
 parent: custom-proptype-s-to-be-required
-
-aspects:
-  - deep
-
 ---
 
 # `React.Children` methods
 
+
 ---
+
 ## Content
 
 **React** provides the user with the useful class `React.Children` which provides various utilities for dealing with the opaque data structure `this.props.children`.
@@ -76,32 +64,34 @@ React.Children.toArray(
 )
 ```
 
-This returns returns the children as a flat array, with keys assigned to each child. Note that this method will change the keys of all the elements in the children array, even if they had a key before.
+This returns the children as a flat array, with keys assigned to each child. Note that this method will change the keys of all the elements in the children array, even if they had a key before.
+
 
 ---
+
 ## Practice
 
 What method is used to invoke a function on every immediate child within children, and returns an array? 
 
 ???
 
-* `map`
-* `forEach`
-* `fn`
-* `count`
-* `only`
-* `toArray`
+- `map`
+- `forEach`
+- `fn`
+- `count`
+- `only`
+- `toArray`
+
 
 ---
+
 ## Revision
 
 What method is used to invoke a function `fn` on every immediate child, but not to return an array?
 
 ???
 
-* `forEach`
-* `map`
-* `count`
-* `only`
-
-
+- `forEach`
+- `map`
+- `count`
+- `only`

@@ -1,34 +1,20 @@
 ---
 author: adamMontgomerie
-
-levels:
-
-  - basic
-
 type: normal
-
 category: pattern
-
-aspects:
-
-  - obscura
-
 tags:
-
   - static
-
   - utility-class
-
-
 links:
-
-  - '[javarevisited.blogspot.jp](http://javarevisited.blogspot.jp/2011/11/static-keyword-method-variable-java.html){website}'
-
+  - >-
+    [javarevisited.blogspot.jp](http://javarevisited.blogspot.jp/2011/11/static-keyword-method-variable-java.html){website}
 ---
 
 # Utility classes and `static` methods
 
+
 ---
+
 ## Content
 
 Utility classes defines set of methods that perform common, often re-used functions. They do not depend on the state of any object, therefore should usually be declared as `static`.
@@ -49,14 +35,15 @@ In the example above, the `multiply` method is `static` and therefore we don't n
 
 In order to prevent a caller from instantiating `Utility` constructor is made private.
 
+
 ---
+
 ## Revision
 
 Utility classes define sets of methods that perform common methods which are often re-used. How should they be declared as ? 
 
 ???
 
-
-* `static` 
-* `void` 
-* `private`
+- `static` 
+- `void` 
+- `private`

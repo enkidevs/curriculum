@@ -1,93 +1,76 @@
 ---
 author: adamMontgomerie
-
-levels:
-
-  - basic
-
-  - advanced
-
-  - medium
-
 type: normal
-
 category: feature
-
-standards:
-
-  javascript.functions.5: 10
-
-tags:
-
-  - workout
-
-  - hoisting
-
-  - deep
-
-  - variables
-
-  - obscura
-
-
 links:
+  - >-
+    [Variable
+    Hoisting](http://stackoverflow.com/questions/3725546/variable-hoisting){website}
+---
 
-  - '[stackoverflow.com](http://stackoverflow.com/questions/3725546/variable-hoisting){website}'
-
-
-aspects:
-  - workout
-  - deep
-  - obscura
+# Hoisting Applies Only to Variable Declarations
 
 
 ---
 
-# Hoisting applies only to variable declarations, not initializations
-
----
 ## Content
 
-Variable declarations are moved to the top of the current scope, either the current function or script. This means that variables can be used before they are declared.
-```
+Variable declarations using `var` are moved to the top of the function scope (or global scope if outside of a function). One consequence of this is that variables can be used before they are declared.
+
+```js
 x = 5;
-alert(x);
+alert(x); // 5
 var x;
 ```
+
 `5` will be alerted despite `var x` not being declared until after the alert. 
 
-However, variable initializations are not hoisted:
-```
-alert(x)
+Note that it's only the declarations but not initializations that are hoisted:
+
+```js
+alert(x); // undefined
 var x = 5;
 ```
-This alert will produce `undefined` because, although `var x` is hoisted to the beginning of the script, `x` is not initialized to the value of `5` until after the alert.
+
+This alert will produce `undefined` because, although the declaration `var x` is hoisted to the top, `x` is not initialized to the value of `5` until after the alert.
+
+The code above can be thought of as behaving like this:
+
+```js
+var x; // hoisted declaration
+alert(x); // undefined
+x = 5; // initialization
+```
+
 
 ---
+
 ## Practice
 
 The following code will output ???
+
 ```javascript
 s = "enki";
 console.log(s);
 var s;
 ```
 
-* enki
-* undefined
-* nothing
+- enki
+- undefined
+- nothing
+
 
 ---
+
 ## Revision
 
 The following code outputs ???
+
 ```javascript
 console.log(v);
 var v = "enki";
 ```
 
-* undefined
-* enki
-* nothing
-
- 
+- undefined
+- enki
+- nothing

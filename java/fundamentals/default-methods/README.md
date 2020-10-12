@@ -9,4 +9,9 @@ insights:
   - using-static-fields
   - using-inner-classes
   - an-interface-s-methods-do-not-need-to-be-declared-as-public
- 
+
+aspects:
+  - workout
+  - deep
+  - obscura
+  - introduction

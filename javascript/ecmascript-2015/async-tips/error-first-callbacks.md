@@ -1,35 +1,21 @@
 ---
 author: rosielowther
-
-levels:
-  - basic
-  - beginner
-
 type: normal
-
 category: feature
-
-standards:
-  javascript.async.0: 10
-  javascript.identify-common-design-patterns.3: 10
-
 tags:
   - introduction
   - workout
   - deep
-
-aspects:
-  - obscura
-  - workout
-  - deep
-  
 links:
-  - '[ruben.verborgh.org](http://ruben.verborgh.org/blog/2012/12/31/asynchronous-error-handling-in-javascript/){website}'
-
+  - >-
+    [ruben.verborgh.org](http://ruben.verborgh.org/blog/2012/12/31/asynchronous-error-handling-in-javascript/){website}
 ---
+
 # Error-first Callbacks
 
+
 ---
+
 ## Content
 
 Error-first callbacks have an error as the **first argument** of the callback function. If this value is **non-null** then an error has occurred.
@@ -62,7 +48,9 @@ pay(myOrder, myCard,
 
 This pattern is commonly used in Node.js applications.
 
+
 ---
+
 ## Practice
 
 Fill in the missing gaps in the following function definition such that it can be used as an **error-first** callback function:
@@ -76,26 +64,23 @@ function myCallback(error, result) {
 }
 ```
 
-* error
-* result
-* err
-* return
-* this
-* Error
-* throw new Error(error)
+- error
+- result
+- err
+- return
+- this
+- Error
+- throw new Error(error)
+
 
 ---
+
 ## Revision
 
 Which statement is true about *error-first callbacks*:
 
 ???
 
-* First argument of the callback function is an error.
-* First argument of the main function is an error
-* Errors are checked before the actual call
- 
- 
- 
- 
- 
+- First argument of the callback function is an error.
+- First argument of the main function is an error
+- Errors are checked before the actual call

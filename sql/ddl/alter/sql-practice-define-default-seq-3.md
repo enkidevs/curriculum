@@ -1,45 +1,30 @@
 ---
 author: SebaRaba
-
-levels:
-  - beginner
-  - basic
-  - medium
-
 tags:
   - introduction
   - workout
   - deep
-
 type: exercise
-
 linkType: sqlfiddle
-
-link: http://sqlfiddle.com/#!9/3d4c1
-
+link: 'http://sqlfiddle.com/#!9/3d4c1'
 answer: 1
-
-standards:
-  sql.define-sequences-or-default-values.0: 1000
-  sql.define-sequences-or-default-values.1: 1000
-
-
 links:
-  - '[MySQL modify columns documentation](https://dev.mysql.com/doc/refman/5.7/en/example-auto-increment.html){documentation}'
-  - '[blog post on MySQL define tables](https://www.tutorialspoint.com/mysql/mysql-using-sequences.htm){website}'
-  - '[video tutorial on aggregate functions](https://www.youtube.com/watch?v=5KqFoTswr-M){video}'
-
-aspects:
-  - introduction
-  - workout
-  - deep
-
-
+  - >-
+    [MySQL modify columns
+    documentation](https://dev.mysql.com/doc/refman/5.7/en/example-auto-increment.html){documentation}
+  - >-
+    [blog post on MySQL define
+    tables](https://www.tutorialspoint.com/mysql/mysql-using-sequences.htm){website}
+  - >-
+    [video tutorial on aggregate
+    functions](https://www.youtube.com/watch?v=5KqFoTswr-M){video}
 ---
 
 # SQL Practice Sequences
 
----        
+
+---
+
 ## Exercise
 
 We want to create a new database for our products. We have a lot of products to import- around 10,000 of them. They all already have IDs from our old database, that start at 0. We'll have other associated data that references those IDs as well.

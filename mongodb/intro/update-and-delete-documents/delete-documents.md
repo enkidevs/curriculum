@@ -1,22 +1,14 @@
 ---
 author: Stefan-Stojanovic
-
-levels:
-  - beginner
-
-aspects:
-  - introduction
-  - workout
-
 type: normal
-
 category: must-know
-
 ---
 
 # Delete documents
 
+
 ---
+
 ## Content
 
 ### Delete a Single Document
@@ -86,33 +78,39 @@ Output:
 }
 ```
 
+
 ---
+
 ## Practice
 
 Delete the first document in the `pokemon` table of type `"Fire"`.
+
 ```javascript
 ???.pokemon.???({
   ???: ???
 })
 ```
+
 Delete all documents within the `pokemon` collection: 
 
 ```js
 ???
 ```
 
-* `db`
-* `deleteOne`
-* `type`
-* `"Fire"`
-* `db.pokemon.deleteMany()`
-* `db.pokemon.delete({})`
-* `db.pokemon.deleteAll()`
-* `database`
-* `deleteMany`
-* `FIRE`
+- `db`
+- `deleteOne`
+- `type`
+- `"Fire"`
+- `db.pokemon.deleteMany()`
+- `db.pokemon.delete({})`
+- `db.pokemon.deleteAll()`
+- `database`
+- `deleteMany`
+- `FIRE`
+
 
 ---
+
 ## Revision
 
 Delete a single document within the `pokemon` collection with the name `"Abraxas"`:
@@ -137,12 +135,12 @@ Delete all documents within the `pokemon` collection:
 ???
 ```
 
-* `deleteOne`
-* `name`
-* `"Abraxas"`
-* `deleteMany`
-* `type`
-* `"Ghost"`
-* `db.pokemon.deleteMany()`
-* `db.pokemon.delete()`
-* `db.pokemon.deleteAll()`
+- `deleteOne`
+- `name`
+- `"Abraxas"`
+- `deleteMany`
+- `type`
+- `"Ghost"`
+- `db.pokemon.deleteMany()`
+- `db.pokemon.delete()`
+- `db.pokemon.deleteAll()`

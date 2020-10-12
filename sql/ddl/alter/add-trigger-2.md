@@ -1,41 +1,22 @@
 ---
 author: kapnobatai136
-
-levels:
-
-  - beginner
-
-  - basic
-
 type: normal
-
 category: must-know
-
 inAlgoPool: false
-
-standards:
-  sql.define-tables.2: 10
-
 tags:
-
   - workout
-
   - deep
-
 links:
-
-  - '[More on CREATE TRIGGER](https://www.codeproject.com/Articles/25600/Triggers-SQL-Server){website}'
-
-aspects:
-  - workout
-  - deep
-
-
+  - >-
+    [More on CREATE
+    TRIGGER](https://www.codeproject.com/Articles/25600/Triggers-SQL-Server){website}
 ---
 
 # Add Trigger (2)
 
+
 ---
+
 ## Content
 
 In the previous insight we showed you two arguments, `RESTRICT` and `NO ACTION`, which are used to restrict deleting records that have a matching row in the child tables. It's also possible to create triggers that modify the data in a table using arguments such as `CASCADE`, `SET NULL`, and `SET DEFAULT`.
@@ -73,7 +54,9 @@ The `SET DEFAULT` argument is very similar to `SET NULL`, but instead of storing
 ...
 ```
 
+
 ---
+
 ## Practice
 
 Create trigger such that each time we update something to the `region` table under the `name` column, it will insert the same entry to our `region_backup` table on the `name_backup` column:
@@ -89,19 +72,20 @@ CREATE TABLE region_backup (
 );
 ```
 
+- CONSTRAINT
+- FOREIGN KEY
+- REFERENCES
+- ON UPDATE
+- CASCADE
+- ON DELETE
+- RESTRICT
+- NO ACTION
+- SET DEFAULT
+- SET NULL
 
-* CONSTRAINT
-* FOREIGN KEY
-* REFERENCES
-* ON UPDATE
-* CASCADE
-* ON DELETE
-* RESTRICT
-* NO ACTION
-* SET DEFAULT
-* SET NULL
 
 ---
+
 ## Revision
 
 Complete the following syntax such that the *trigger* named `cstr_2` does the following:
@@ -114,20 +98,20 @@ CREATE TABLE region (
   ...
   ??? cstr_2
   ??? (id)
-  ??? pokemons(region_id)
+  ??? pokemon(region_id)
   ON UPDATE ???
   ON DELETE ???,
   ...
 );
 ```
 
-* CONSTRAINT
-* FOREIGN KEY
-* REFERENCES
-* CASCADE
-* SET DEFAULT
-* PRIMARY KEY
-* RELATES
-* ON INSERT
-* IF UPDATE
-* IF DELETE
+- CONSTRAINT
+- FOREIGN KEY
+- REFERENCES
+- CASCADE
+- SET DEFAULT
+- PRIMARY KEY
+- RELATES
+- ON INSERT
+- IF UPDATE
+- IF DELETE

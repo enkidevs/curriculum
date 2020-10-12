@@ -1,30 +1,17 @@
 ---
 author: catalin
-
-levels:
-  - basic
-  - advanced
-  - medium
-
 type: normal
-
 category: how to
-
-standards:
-  javascript.express-server.4: 10
-
 links:
   - '[github.com](https://github.com/expressjs/morgan){website}'
-
 parent: easy-way-to-deliver-html-pages-with-express
-
-aspects:
-  - introduction
-
 ---
+
 # Log with `morgan` in **Express**
 
+
 ---
+
 ## Content
 
 To use the new **HTTP** logger (called `morgan`) from **Express 4.0** you need to install:
@@ -63,7 +50,9 @@ morgan('combined', {
 
 Custom `token`s can be also defined using `morgan.token` function.
 
+
 ---
+
 ## Practice
 
 Which are the two parameters allowed in the `morgan` constructor?
@@ -75,15 +64,17 @@ const morgan = require('morgan')
 app.use(morgan(???, ???))
 ```
 
-* format
-* options
-* name
-* string
-* etc
-* expressVersion
-* version
+- format
+- options
+- name
+- string
+- etc
+- expressVersion
+- version
+
 
 ---
+
 ## Revision
 
 Use `morgan` logger in express with `tiny` format:
@@ -92,12 +83,11 @@ Use `morgan` logger in express with `tiny` format:
 app.???(???('tiny'));
 ```
 
-* use
-* morgan
-* skip
-* immediate
-* express
-* install
-* make
-* logger
-
+- use
+- morgan
+- skip
+- immediate
+- express
+- install
+- make
+- logger

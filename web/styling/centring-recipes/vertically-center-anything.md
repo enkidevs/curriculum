@@ -1,34 +1,16 @@
 ---
 author: jordanfish
-
-levels:
-
-  - basic
-
-  - advanced
-
-  - medium
-
 type: normal
-
 category: how to
-
-aspects:
-  - introduction
-  - workout
-  - deep
-  - new
-
 links:
-
-  - '[github.com](https://github.com/AllThingsSmitty/css-protips){website}'
-
-
+  - '[CSS Pro Tips](https://github.com/AllThingsSmitty/css-protips){website}'
 ---
 
 # Vertically-center anything
 
+
 ---
+
 ## Content
 
 Use `flexbox` to center anything vertically:
@@ -47,10 +29,13 @@ body {
 
 There may be some unwanted behaviour in IE11.
 
+
 ---
+
 ## Revision
 
-You can verically-center elements inside a flex container with:
+You can vertically-center elements inside a flex container with:
+
 ```css
 .container{
  display: flex;
@@ -58,8 +43,8 @@ You can verically-center elements inside a flex container with:
 }
 ```
 
-* `align-items`
-* `center`
-* `justify-content`
-* `vertical-center`
-* `flex-center`
+- `align-items`
+- `center`
+- `justify-content`
+- `vertical-center`
+- `flex-center`

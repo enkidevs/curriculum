@@ -1,30 +1,18 @@
 ---
 author: Stefan-Stojanovic
-
-levels:
-  - beginner
-  - basic
-
 type: normal
-
 category: must-know
-
-standards:
-  web.metadata.4: 10
-
-aspects:
-  - introduction
-  - workout
-  - deep
-
 links:
-  - '[MDN docs for HTML](https://developer.mozilla.org/en-US/docs/Web/HTML){website}'
-  - '[MDN docs for HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5){website}'
-  - '[W3 docs for HTML5 vs HTML4](https://www.w3.org/TR/html5-diff/){website}'
+  - >-
+    [HTML
+    Tutorials](https://developer.mozilla.org/en-US/docs/Web/HTML){documentation}
+---
+
+# HTML4, XHTML, & HTML5
+
 
 ---
-# HTML4, XHTML, & HTML5
----
+
 ## Content
 
 HTML, which stands for, **HyperText Markup Language** has had many versions over the years out of which, only a few are still being used today. These are HTML5, HTML4 and XHTML. HTML4 is the oldest HTML version still in use.
@@ -38,16 +26,19 @@ Unlike in HTML, XHTML elements have to be properly nested, always be closed, wri
 The `doctype` declaration also differs for each version.
 
 HTML5 has 1 Doctype declaration:
+
 ```html
 <!DOCTYPE html>
 ```
 
 HTML4 and XHTML each have 3 types of Doctype declarations:
- - Frameset
- - Strict
- - Transitional
+
+- Frameset
+- Strict
+- Transitional
 
 HTML4 Frameset:
+
 ```html
 <!DOCTYPE HTML PUBLIC
  "-//W3C//DTD HTML 4.01 Frameset//EN"
@@ -55,6 +46,7 @@ HTML4 Frameset:
 ```
 
 HTML4 Strict:
+
 ```html
 <!DOCTYPE HTML PUBLIC
   "-//W3C//DTD HTML 4.01//EN"
@@ -62,6 +54,7 @@ HTML4 Strict:
 ```
 
 HTML4 Transitional:
+
 ```html
 <!DOCTYPE HTML PUBLIC
   "-//W3C//DTD HTML 4.01 Transitional//EN"
@@ -69,6 +62,7 @@ HTML4 Transitional:
 ```
 
 XHTML Frameset:
+
 ```html
 <!DOCTYPE html PUBLIC
   "-//W3C//DTD XHTML 1.0 Frameset//EN"
@@ -77,6 +71,7 @@ XHTML Frameset:
 ```
 
 XHTML Strict:
+
 ```html
 <!DOCTYPE html PUBLIC
   "-//W3C//DTD XHTML 1.0 Strict//EN"
@@ -85,7 +80,8 @@ XHTML Strict:
 ```
 
 XHTML Transitional:
-```
+
+```plain-text
 <!DOCTYPE html PUBLIC
  "-//W3C//DTD XHTML 1.0 Transitional//EN"
   "http://www.w3.org/TR/xhtml1/DTD
@@ -94,15 +90,9 @@ XHTML Transitional:
 
 A lot of elements from HTML4 were deprecated and made obsolete in HTML5. Deprecated means that even though these elements can be used to style how HTML is displayed, it's better to use CSS instead. Some of these deprecate HTML elements are `<basefont>`, `<center>`, `<font>` and `<strike>` and these were all used to style typography. 
 
-Additionally, HTML5 has none of the presentational attributes which were used in HTML4. This is because handling those functionalities is much better with CSS.
-
-Also, HTML5 has many new features that HTML4 doesn't have. Some of these are:
-  - audio and video for multimedia content
-  - track to provide text tracks for the video element
-  - embed for plugin content
-  - new geolocation features
 
 ---
+
 ## Practice
 
 Which version of HTML is the oldest still in use today?
@@ -121,42 +111,31 @@ Which of these HTML elements was not removed in HTML5?
 
 ???
 
-* HTML4
-* eXtensible Hypertext Markup Language
-* all tags, once opened, must be closed in XHTML, but not in HTML4
-* `<form>`
-* HTML2
-* HTML3
-* eXtensible Hypertext Markup Library
-* all tags, once opened, must be closed in HTML4, but not in XHTML
-* all elements must be written in uppercase in XHTML, but not in HTML4
-* `<font>`
-* `<strike>`
+- HTML4
+- eXtensible Hypertext Markup Language
+- all tags, once opened, must be closed in XHTML, but not in HTML4
+- `<form>`
+- HTML2
+- HTML3
+- eXtensible Hypertext Markup Library
+- all tags, once opened, must be closed in HTML4, but not in XHTML
+- all elements must be written in uppercase in XHTML, but not in HTML4
+- `<font>`
+- `<strike>`
 
 
 ---
-## Revision
 
-Is this statement true?: HTML5 supports approx. 50% of the presentational attributes that were in HTML4?
-
-???
-
-* No because there are no presentational attributes from HTML4 that are supported in HTML5.
-* No, because all presentational attributes from HTML4 are supported in HTML5.
-* Yes.
-* No, because presentational attributes only existed in HTML1.
-
----
 ## Quiz
 
 ### Test your HTML knowledge.
+
 
 When referring to deprecated HTML tags, what does that mean?
 
 ???
 
-* HTML elements which are no longer supported and are replaced with better and more functional CSS alternatives.
-* HTML elements that are best used with certain features.
-* HTML elements that will never be obsolete.
-* HTML elements that are not appreciated enough.
- 
+- HTML elements which are no longer supported and are replaced with better and more functional CSS alternatives.
+- HTML elements that are best used with certain features.
+- HTML elements that will never be obsolete.
+- HTML elements that are not appreciated enough.

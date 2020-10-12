@@ -1,29 +1,18 @@
 ---
 author: catalin
-
-levels:
-
-  - basic
-
-  - beginner
-
 type: normal
-
 category: how to
-
-
 links:
-
-  - '[Combine Reducers](http://rackt.org/redux/docs/api/combineReducers.html){website}'
-
-aspects:
-  - deep
-
+  - >-
+    [Combine
+    Reducers](http://rackt.org/redux/docs/api/combineReducers.html){website}
 ---
 
 # Combine reducers in Redux
 
+
 ---
+
 ## Content
 
 When applications become more complex, the *reduction function* can and should be split into separate functions, managing different parts of the **state** as to keep the code logic tidy and scalable. This is done by using the special method `combineReducers()`.
@@ -31,6 +20,7 @@ When applications become more complex, the *reduction function* can and should b
 This function will transform an object with different reducer functions as parameters into a single reducer function that can be passed to `createStore()`.
 
 Call the function:
+
 ```js
 combineReducers({
   firstReducer: myFirstReducer,
@@ -143,27 +133,29 @@ console.log(store.getState());
 // }
 ```
 
+
 ---
+
 ## Practice
 
 Once the `combineReducers()` function has transformed an object with different reducer functions into a single reducer function, where is it then passed to? 
 
 ???
 
-* `createStore()`
-* `createReducer()`
-* `createObject()`
+- `createStore()`
+- `createReducer()`
+- `createObject()`
+
 
 ---
+
 ## Revision
 
 What special method is used to combine different reduction functions with the scope of keeping your code scalable?
 
 ???
 
-* `combineReducers()`
-* `combine()`
-* `createStore()`
-* `addReducer()`
-
-
+- `combineReducers()`
+- `combine()`
+- `createStore()`
+- `addReducer()`

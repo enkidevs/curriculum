@@ -1,30 +1,17 @@
 ---
 author: hyousaf
-
-levels:
-
-  - basic
-
-  - beginner
-
 type: normal
-
 category: tip
-
-aspects:
-
-  - introduction
-
 links:
-
-  - '[stackoverflow.com](http://stackoverflow.com/questions/1906445/what-is-the-difference-between-jdk-and-jre){website}'
-
-
+  - >-
+    [stackoverflow.com](http://stackoverflow.com/questions/1906445/what-is-the-difference-between-jdk-and-jre){website}
 ---
 
 # Difference between JRE and JDK?
 
+
 ---
+
 ## Content
 
 `JRE`: *Java Runtime Environment*. It is the Java Virtual Machine where your Java programs run on. It also includes browser plugins for Applet execution. 
@@ -34,3 +21,4 @@ links:
 If you only care about running Java programs on your browser or computer, you will only install JRE.
 
 On the other hand, if you are planning to do some Java programming, you will also need JDK.
+ 

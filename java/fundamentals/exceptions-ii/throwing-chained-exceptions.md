@@ -1,44 +1,23 @@
 ---
 author: adamMontgomerie
-
-levels:
-
-  - basic
-
-  - advanced
-
-  - medium
-
 type: normal
-
 category: tip
-
-aspects:
-
-  - deep
-
-  - obscura
-
 tags:
-
   - exceptions
-
   - chained-exceptions
-
-
 links:
-
-  - '[docs.oracle.com](https://docs.oracle.com/javase/tutorial/essential/exceptions/chained.html){website}'
-
-
+  - >-
+    [docs.oracle.com](https://docs.oracle.com/javase/tutorial/essential/exceptions/chained.html){website}
 ---
 
 # Throwing chained `exceptions`
 
+
 ---
+
 ## Content
 
-It is sometimes useful to be able to throw an exception in response to an exception; this is called _chaining exceptions_.
+It is sometimes useful to be able to throw an exception in response to an exception; this is called *chaining exceptions*.
 
 A new chained exception can be created by using the following syntax:
 

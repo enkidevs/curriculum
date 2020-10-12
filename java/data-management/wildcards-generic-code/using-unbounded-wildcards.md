@@ -1,43 +1,22 @@
 ---
 author: adamMontgomerie
-
-levels:
-
-  - basic
-
-  - advanced
-
-  - medium
-
 type: normal
-
 category: tip
-
-aspects:
-
-  - workout
-
-  - deep
-
 tags:
-
   - generics
-
   - generic-methods
-
   - wildcards
-
   - unbounded-wildcards
-
 links:
-
-  - '[docs.oracle.com](https://docs.oracle.com/javase/tutorial/java/generics/unboundedWildcards.html){website}'
-
+  - >-
+    [docs.oracle.com](https://docs.oracle.com/javase/tutorial/java/generics/unboundedWildcards.html){website}
 ---
 
 # Using unbounded wildcards
 
+
 ---
+
 ## Content
 
 Using unbounded wildcards can allow a method to accept a collection with any type. For example, `List<?>` used as a parameter means that the method can take a `List` containing any type as a parameter.

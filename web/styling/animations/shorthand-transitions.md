@@ -1,28 +1,18 @@
 ---
 author: nene
-
-levels:
-
-  - basic
-
-  - medium
-
 type: normal
-
 category: feature
-
 links:
-  - '[MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Transitions){documentation}'
-
-aspects:
-  - workout
-  - deep
-
+  - >-
+    [MDN Docs on
+    CSS-transitions](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Transitions){documentation}
 ---
 
 # Shorthand Transitions
 
+
 ---
+
 ## Content
 
 Declaring each transition property individually can be intensive, especially using `vendor prefixes`.
@@ -30,7 +20,6 @@ Declaring each transition property individually can be intensive, especially usi
 Instead, try the shorthand property `transition` that supports all the different values.
 
 Using only this alone it is possible to set every transition value in order of `transition-property`, `transition-duration`, `transition-timing-function`, and lastly `transition-delay`.
-
 
 ```css
 .box {
@@ -48,7 +37,9 @@ For setting many transitions at once, set every individual group of transition v
 
 [Codepen example](http://codepen.io/mihaiberq/pen/RGAjpK)
 
+
 ---
+
 ## Revision
 
 Which of the following examples are using the CSS `transition` property with the transition values in the correct order? ???
@@ -64,7 +55,6 @@ transition: .2s linear background;
 transition: linear background .2s;
 ```
 
-
-* Option A
-* Option B
-* Option C
+- Option A
+- Option B
+- Option C

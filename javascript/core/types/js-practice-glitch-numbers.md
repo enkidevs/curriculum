@@ -1,43 +1,25 @@
 ---
 author: lizTheDeveloper
-
-
-levels:
-
-  - beginner
-
-  - basic
-
-
 tags:
-
   - introduction
-
-
 type: exercise
-
-
-aspects:
-  - workout
-
-
 linkType: glitch
-link: https://glitch.com/edit/#!/remix/enki-javascripting-6
-
-
-standards:
-  javascript.javascript-syntax.1: 1000
-  javascript.javascript-syntax.2: 1000
-  javascript.write-expressions.0: 1000
-  javascript.evaluate-expressions.0: 1000
-
-
+link: 'https://glitch.com/edit/#!/remix/enki-javascripting-6'
 links:
-  - '[Numbers in JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number){documentation}'
-  - '[Strings in JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String){documentation}'
-  - '[Walkthough on Variables in JavaScript](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Variables){walkthrough}'
+  - >-
+    [Numbers in
+    JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number){documentation}
+  - >-
+    [Strings in
+    JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String){documentation}
+  - >-
+    [Walkthough on Variables in
+    JavaScript](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Variables){walkthrough}
 ---
+
 # JavaScript Variables
+
+
 ---
 
 ## Exercise

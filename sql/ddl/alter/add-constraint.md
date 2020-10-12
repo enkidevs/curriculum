@@ -1,52 +1,27 @@
 ---
 author: SebaRaba
-
-levels:
-
-  - beginner
-
-  - basic
-
-  - medium
-
-  - advanced
-
 type: normal
-
 category: must-know
-
 inAlgoPool: false
-
-standards:
-  sql.define-relationships.0: 10
-
 tags:
-
   - workout
-
   - deep
-
-
 links:
-
-  - '[More on ADD CONSTRAINT](https://www.tutorialspoint.com/sql/sql-alter-command.htm){website}'
-
-
-aspects:
-  - workout
-  - deep
-
-
+  - >-
+    [More on ADD
+    CONSTRAINT](https://www.tutorialspoint.com/sql/sql-alter-command.htm){website}
 ---
 
 # Add Constraint
 
+
 ---
+
 ## Content
 
 Sometimes we need to add ulterior constraints to the table we define. The `ALTER TABLE` statement enables us to do this. There are several types of constraints we can add. 
 
-If we want to ensure that all values in one or more columns are different we'd use the `UNIQUE` keyword like this:
+If we want to ensure that all values in one or more columns are different, we'd use the `UNIQUE` keyword like this:
 
 ```sql
 ALTER TABLE table_name
@@ -86,13 +61,15 @@ ALTER TABLE table_name
 DROP CONSTRAINT constraint_name;
 ```
 
+
 ---
+
 ## Practice
 
-Consider the `generation` table. We want to add a new constraint called "PK-constraints" in which we state that we want `region_id` and `name` columns to be primary keys:
+Consider the `generation` table. We want to add a new constraint called `PK-constraints` in which we state that we want `region_id` and `name` columns to be primary keys:
 
 | id | region_id | name           |
-|----|-----------|----------------|
+| -- | --------- | -------------- |
 | 1  | 1         | generation-i   |
 | 2  | 2         | generation-ii  |
 | 3  | 3         | generation-iii |
@@ -106,22 +83,23 @@ ADD ??? PK-constraints
 ??? (region_id, name)
 ```
 
+- generation
+- CONSTRAINT
+- PRIMARY KEY
+- KEY
+- gender, gender
+- name
+- COLUMN
 
-* generation
-* CONSTRAINT
-* PRIMARY KEY
-* KEY
-* gender, gender
-* name
-* COLUMN
 
 ---
+
 ## Revision
 
 Consider the `version` table. We want to add a `CHECK` constraint to `version_group_id` column. Any of its entries should not be bigger than 10:
 
 | id | version_group_id | name       |
-|----|------------------|------------|
+| -- | ---------------- | ---------- |
 | .. | ..               | ..         |
 | 7  | 5                | ruby       |
 | 8  | 5                | sapphire   |
@@ -136,10 +114,11 @@ Consider the `version` table. We want to add a `CHECK` constraint to `version_gr
 | 17 | 11               | black      |
 | 18 | 11               | white      |
 
-  ???
+```sql
+ALTER TABLE version
+ADD ???
+```
 
-* ALTER TABLE version ADD CONSTRAINT check_constraint CHECK (version_group_id <= 10);
-* ALTER TABLE version ADD PRIMARY KEY (version_group_id > 10);
-* ALTER TABLE version ADD CONSTRAINT check_constraint UNIQUE (version_group_id <= 10);
- 
- 
+- CONSTRAINT check_constraint CHECK (version_group_id <= 10);
+- PRIMARY KEY (version_group_id > 10);
+- CONSTRAINT check_constraint UNIQUE (version_group_id <= 10);

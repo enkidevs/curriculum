@@ -9,3 +9,9 @@ insights:
   - throwing-chained-exceptions
   - use-standard-exceptions-when-possible
  
+
+aspects:
+  - obscura
+  - introduction
+  - workout
+  - deep

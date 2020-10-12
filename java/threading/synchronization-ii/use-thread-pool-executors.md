@@ -1,40 +1,22 @@
 ---
 author: adamMontgomerie
-
-levels:
-
-  - basic
-
-  - advanced
-
-  - medium
-
 type: normal
-
 category: feature
-
-aspects:
-
-  - workout
-
-  - deep
-
 tags:
-
   - multithreading
-
   - server-side
-
 links:
-
-  - '[javarevisited.blogspot.co.uk](http://javarevisited.blogspot.co.uk/2015/05/top-10-java-multithreading-and.html){website}'
-  - '[javarevisited.blogspot.sg](http://javarevisited.blogspot.sg/2013/07/how-to-create-thread-pools-in-java-executors-framework-example-tutorial.html){website}'
-
+  - >-
+    [javarevisited.blogspot.co.uk](http://javarevisited.blogspot.co.uk/2015/05/top-10-java-multithreading-and.html){website}
+  - >-
+    [javarevisited.blogspot.sg](http://javarevisited.blogspot.sg/2013/07/how-to-create-thread-pools-in-java-executors-framework-example-tutorial.html){website}
 ---
 
 # Use thread pool executors
 
+
 ---
+
 ## Content
 
 Creating threads is expensive. Rather than creating and discarding a new thread every time we need to process a request, we can use the Java Executor Framework.
@@ -65,13 +47,15 @@ final class Task implements Runnable{
 
 This can improve server response time; as we do not have to wait for a thread to be created before we can process a request.
 
+
 ---
+
 ## Revision
 
 To avoid creating threads which can be expensive, what framework can be used to process create and discard requests?
 
 ???
 
-* Java Executor Framework
-* Java Thread Manager Framework
-* Java Process Framework
+- Java Executor Framework
+- Java Thread Manager Framework
+- Java Process Framework

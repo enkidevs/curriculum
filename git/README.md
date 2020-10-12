@@ -1,9 +1,9 @@
 name: Git
 
-description: An efficient tool kit made for project collaboration. It has become the de facto standard of version control for teams.
+description: Master the de facto standard of version control for teams.
 
-color: C17B57
+color: FFC3A6
 
-icon: https://img.enkipro.com/1b35fe725554a29a9c83ac2e6818a445.png
+icon: https://img.enkipro.com/6e2f5c02b948273dcecc76768326890b.png
 
 language: bash

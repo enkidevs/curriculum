@@ -1,35 +1,17 @@
 ---
 author: catalin
-
-levels:
-
-  - beginner
-
-  - basic
-
-  - medium
-
-  - advanced
-
 type: normal
-
 category: must-know
-
-
 links:
-
   - '[Forms](https://facebook.github.io/react/docs/forms.html){website}'
-
 parent: rendering-multiple-components
-
-aspects:
-  - deep
-
 ---
 
 # Forms in React
 
+
 ---
+
 ## Content
 
 While standard `HTML` form elements such as `<input />`, `<textarea />` or `<select />` elements behave correctly in **React**, using JS functions to handle updates and submissions is highly advised because it gives us more control.
@@ -39,6 +21,7 @@ While standard `HTML` form elements such as `<input />`, `<textarea />` or `<sel
 A controlled component means having the component's `state` as **single source of truth**.
 
 Consider the following `render`ing of a component:
+
 ```jsx
 // set initial state in constructor
 constructor(props) {
@@ -78,6 +61,7 @@ With consistency in mind, *form elements* in **React** work a little differently
   Text goes here
 </textarea>
 ```
+
 ```jsx
 // React
 <textarea value='Text goes here' />
@@ -91,6 +75,7 @@ With consistency in mind, *form elements* in **React** work a little differently
   <option selected value='a'>A</option>
 </select>
 ```
+
 ```jsx
 // React
 <select value='a'>
@@ -98,10 +83,13 @@ With consistency in mind, *form elements* in **React** work a little differently
 </select>
 ```
 
+
 ---
+
 ## Practice
 
 Complete the following snippet such that the rendered **controlled component** works:
+
 ```jsx
 class Control extends React.Component {
   constructor(props) {
@@ -132,31 +120,34 @@ ReactDOM.render(
 );
 ```
 
-* `setState`
-* `value`
-* `onChange`
-* `e`
-* `handle`
-* `handleChange`
-* `state`
-* `event`
-* `onHandleChange`
-* `selected`
+- `setState`
+- `value`
+- `onChange`
+- `e`
+- `handle`
+- `handleChange`
+- `state`
+- `event`
+- `onHandleChange`
+- `selected`
+
 
 ---
+
 ## Revision
 
 What is a **controlled component**?
 
 A component ???.
 
+- whose `state` is the **single source of truth**
+- using **React**-specific *form elements*
+- without `props`
+- with any *HTML form elements*
 
-* whose `state` is the **single source of truth**
-* using **React**-specific *form elements*
-* without `props`
-* with any *HTML form elements*
 
 ---
+
 ## Footnotes
 
 [1:DOM Events]

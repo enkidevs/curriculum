@@ -33,7 +33,7 @@ These binaries can also be used when defining and writing scripts inside `packag
 As `npm` will add these binaries to the `./node_modules/.bin/` folder, you can list
 files in this folder to see what binaries you can use.
 ```bash
-$ ls ./node_modules/.bin/
+ls ./node_modules/.bin/
 _mocha    jslint    nodemon
 coffee    mocha     tsc
 ```
@@ -43,7 +43,7 @@ coffee    mocha     tsc
 
 List the files in the folder to see what binaries you can use:
 ```
-$ ??? ./???/???/
+??? ./???/???/
 ```
 
 * ls
@@ -59,7 +59,7 @@ $ ??? ./???/???/
 
 List all binaries used for scripting installed through `npm`:
 ```bash
-$ ??? ./node_modules/???/
+??? ./node_modules/???/
 ```
 
 * ls
@@ -68,3 +68,5 @@ $ ??? ./node_modules/???/
 * binaries
 * script
 * print
+ 
+ 

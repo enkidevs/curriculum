@@ -1,38 +1,30 @@
 ---
 author: alexjmackey
-
-levels:
-  - beginner
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-  - new
-  - workout
-
-inAlgoPool: false
-
 links:
-  - '[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number){website}'
-
+  - >-
+    [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number){website}
 ---
+
 # Number Extensions (Part 1)
 
+
 ---
+
 ## Content
 
-The `Number` class benefits from many new methods saving you from writing your own potentially error prone-implementation. Because of the increased number of methods available, this insight will explain the ones you are more likely to use.
+The `Number` class benefits from many methods saving you from writing your own potentially error prone-implementation. 
+
+This insight will explain the ones you are more likely to use.
 
 ### Number.isFinite
 
 Determines whether a number is finite (finite means that it could be measured or have a value).
 
 ```javascript
-Number.isFinite(Infinity); //false
-Number.isFinite(100); //true
+Number.isFinite(Infinity); // false
+Number.isFinite(100); // true
 ```
 
 ### Number.isInteger
@@ -41,34 +33,50 @@ Determines if a number is an integer or not.
 
 ```javascript
 Number.isInteger(1); // true
-Number.isInteger(0.1); //false
+Number.isInteger(0.1); // false
 ```
 
 ### Number.isNaN
 
-Before ES6 it was difficult to test if a value was equal to `NaN` (Not a number). This is because `NaN == NaN` evaluates to false.
+There's an important gotcha about the value `NaN` (Not a Number) that makes it hard to verify. 
 
-Whilst a global `isNaN` function has existed in previous versions, it converts the given value to a number before checking if the given number is equal to `NaN`, making it hard to test if something is really `NaN`:
+Usually, to verify a value we would use an equality check. To check if `x` is `5`, we would check if `x == 5` is `true`.
 
-```javascript
-isNaN("Enki") == true; //true
-```
+However, `NaN` doesn't work this way because `NaN == NaN` is `false`.
 
-`Number.isNaN` allows you to easily test if a number really is `NaN`:
-
-```javascript
-Number.isNaN(1); //false
-Number.isNaN(Number.NaN); //true
-```
-
-One reliable way[1] to check if a given string is a valid number is:
+Historically, this required us to use the global `isNaN` method to verify if a value is `NaN`.
 
 ```js
-const isNum = num =>
-  num !== "" && Number(num) === Number(num);
+isNaN(5);   // false
+isNaN(NaN); // true
 ```
 
+`isNaN` comes with one problem though - it will convert the given value to a number before checking equality to `NaN`. This can lead to unexpecting behavior:
+
+```js
+// wait...what?? 😱
+isNaN('enki'); // true
+isNaN([1, 2, 3]); // true
+isNaN(() => 'oops'); // true
+```
+
+That is the issue `Number.isNaN` is designed to address. 
+
+`Number.isNaN()` will only attempt to compare a value to `NaN` if the value is a number. Any other type will return `false`, even if they are literally "not a number".
+
+```javascript
+// ok, that's much better ✅
+Number.isNaN('enki'); // false
+Number.isNaN([1, 2, 3]); // false
+Number.isNaN(() => 'oops'); // false
+Number.isNaN(5); // false
+
+Number.isNaN(NaN); // true
+```
+
+
 ---
+
 ## Practice
 
 What is the output of the following two calls?
@@ -81,35 +89,28 @@ Number.isNaN(enki);
 // ???
 ```
 
-* true, false
-* false, true
-* false, false
-* true, true
+- true, false
+- false, true
+- false, false
+- true, true
+
 
 ---
+
 ## Revision
 
 Complete the missing calls with methods such that all the statements are true:
 
 ```javascript
 
-Number.???(5) // true
-???.???(2.71) // false
-Number.???(Number.NaN) // true
+Number.isNaN('enki')
+Number.isFinite(0)
+Number.isInteger(9.81)
+// ???
 ```
 
-* isFinite
-* Number
-* isInteger
-* isNaN
-* isReal
-* String
-* isRatio
-* NaN
-* isNotNaN
- 
----
-## Footnotes
-
-[1: Checking if a value is numerical]
-It is worth noting the fact that `!Number.isNaN(<value>)` and `Number.parseFloat(<value>)` are not reliable ways of checking if a value is numerical or not. This is because `!Number.isNaN("")` evaluates to `true`, and while `Number.parseFloat("")` does evaluate to `NaN`, it fails on input like `"1.1.1"` and results in `1.1` as output.
+- false, true, false
+- false, false, false
+- true, true, false
+- false, true, true
+- true, false, true

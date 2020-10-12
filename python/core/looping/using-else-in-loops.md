@@ -1,27 +1,15 @@
 ---
 author: tommarshall
-
-levels:
-
-  - beginner
-
 type: normal
-
 category: must-know
-
 inAlgoPool: false
-aspects:
-  - introduction
-
-standards:
-  python.control-structures.0: 10
-  python.use-iteration-protocol.0: 10
-
 ---
 
 # Using `else` in loops
 
+
 ---
+
 ## Content
 
 Unlike other programming languages such as C, Python allows the use of `else` statements with loops.
@@ -29,6 +17,7 @@ Unlike other programming languages such as C, Python allows the use of `else` st
 They are implemented so that once a `for` or a `while` loop condition evaluates to false, the `else` is executed. In other words, the `else` statement is called **once** when the loops exit naturally.
 
 For example, an `else` statement integrated into a `while` loop:
+
 ```python
 x = 0
 while (x < 3):
@@ -37,6 +26,7 @@ while (x < 3):
 else:
     print(x, "is too big!")
 ```
+
 Gives the following output:
 
 ```python
@@ -54,7 +44,9 @@ for x in range(0, 5):
 else:
     print(x, "is range's upper limit")
 ```
+
 Gives the following output:
+
 ```python
 0
 1
@@ -65,6 +57,7 @@ Gives the following output:
 ```
 
 If loops exit because of a `break` clause, the `else` clause will be skipped:
+
 ```python
 for i in range(0, 2):
     if i == 1:
@@ -74,16 +67,20 @@ for i in range(0, 2):
 else:
     print("c")
 ```
+
 With the output:
+
 ```python
 b
 a
 ```
 
+
 ---
+
 ## Practice
 
-Fill in the following snippet such that it will return *"Computation Done"* when the while terminates:
+Fill in the following snippet such that it will print `"Computation Done"` when the while loop terminates:
 
 ```python
 x = 0
@@ -94,29 +91,34 @@ while x ??? 3:
     ???("Computation Done")
 ```
 
-* `<`
-* else
-* print
-* `>`
-* if
-* elif
+- `<`
+- else
+- print
+- `>`
+- if
+- elif
 
 
 ---
+
 ## Revision
 
 An `else` statement is used in loops when the loops ??? is evaluated to ???.
 
-* condition
-* false
-* null
-* true
-* statement
-* parameter
+- condition
+- false
+- null
+- true
+- statement
+- parameter
+
 
 ---
+
 ## Quiz
+
 ### what will the following code snippet print?
+
 
 ```python
 for i in [1, 2]:
@@ -130,7 +132,7 @@ else:
 
  ???
 
-* a
-* a a
-* b a
-* a c
+- a
+- a a
+- b a
+- a c

@@ -1,38 +1,20 @@
 ---
 author: jfarmer
-
-levels:
-
-  - beginner
-
-  - basic
-
-  - medium
-
-  - advanced
-
 type: normal
-
 category: how to
-
-aspects:
-
-  - deep
-
-  - workout
-
 parent: the-heap-data-structure
-
 ---
 
 # Inserting Data Into a Heap With The `upheap` Operation
 
+
 ---
+
 ## Content
 
 How do we insert information into a heap efficiently? Consider the following (binary) max-heap:
 
-![upheap1](https://img.enkipro.com/5bb8ebd40ba2ff3e8088cd3d2c7eeab1.png)
+![upheap1](https://img.enkipro.com/5b33803aab36347394dd05d8c1af8aa3.png)
 
 Remember, that we need to maintain two properties of the tree to ensure we have a heap:
 
@@ -43,7 +25,7 @@ To respect property (1), we will insert the new data in the correct spot.  To re
 
 Let's say we want to insert the key `120`.  We would start by inserting it in the next available spot, like so:
 
-![upheap2](https://img.enkipro.com/8acfb09a786c780a23833ac13f29f306.png)
+![upheap2](https://img.enkipro.com/0980ef3705a44971cd1dc0b08aa8737c.png)
 
 But now the tree no longer satisfies the property (2) — the heap property — since `120` is greater than `19`.  To ensure that we respect the heap property, we compare `120` to its parent and swap the two if `120` is greater.  We continue doing this until `120` is in the root position or is less than its parent node.
 
@@ -51,19 +33,22 @@ This operation is sometimes called the `shift-up` or `upheap` operation.  Here's
 
 Since `120` is greater than `19`, we would swap the two:
 
-![upheap3](https://img.enkipro.com/559201c0277b263dab3b966c2a822cc5.png)
+![upheap3](https://img.enkipro.com/7c58cf45092b84206cd31840b25d9a5b.png)
 
 However, `120` is still greater than `100`, so we must swap those two keys as well:
 
-![upheap4](https://img.enkipro.com/05f36b4209d198152d4e75b5275ad194.png)
+![upheap4](https://img.enkipro.com/9aaa289e8d3a5e0bf0206e9add5a90d7.png)
 
 The tree is now a heap again!
 
+
 ---
+
 ## Practice
 
 Where will the next node be inserted in the heap?
-```
+
+```plain-text
         50
       /    \
     20      45
@@ -73,25 +58,30 @@ Where will the next node be inserted in the heap?
 ???
 ```
 
-* `C`
-* `A`
-* `B`
-* `D`
+- `C`
+- `A`
+- `B`
+- `D`
+
 
 ---
+
 ## Revision
 
 In a `max-heap`, during upheap operation, the child swaps places with its parent if its value
 
 ???.
 
-* is larger than the parent's
-* is smaller than the parent's
-* is equal to the parent's
-* is the smallest in the whole heap
+- is larger than the parent's
+- is smaller than the parent's
+- is equal to the parent's
+- is the smallest in the whole heap
+
 
 ---
+
 ## Footnotes
+
 [1: Complete heap]
 Complete means that every level of the underlying binary tree structure is filled, except possibly the last level.
-
+ 

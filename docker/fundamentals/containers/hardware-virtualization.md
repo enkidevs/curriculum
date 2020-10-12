@@ -1,17 +1,20 @@
 ---
 author: nem035
-aspects:
-  - introduction
 category: must-know
 type: normal
 links:
-  - '[Virtualization](https://en.wikipedia.org/wiki/Virtualization){documentation}'
-  - '[Reasons to start using a VM](https://www.makeuseof.com/tag/reasons-start-using-virtual-machine/){article}'
+  - >-
+    [Virtualization](https://en.wikipedia.org/wiki/Virtualization){documentation}
+  - >-
+    [Reasons to start using a
+    VM](https://www.makeuseof.com/tag/reasons-start-using-virtual-machine/){article}
 ---
 
 # Virtualization
 
+
 ---
+
 ## Content
 
 Historically, software applications were limited to running only on specific physical devices. This meant that there was an unavoidable hardware requirement during development as well as during deployment of software.
@@ -30,22 +33,27 @@ We could even run multiple VMs on the same physical device, each with a differen
 
 Virtualization provides an abstraction on top of hardware that allowed development, execution, and deployment of software in a hardware-agnostic manner.
 
+
 ---
+
 ## Practice
 
 Virtualization allows us to abstract away the hardware. This enables us to use ??? physical machines for running and deploying our software.
 
-* fewer
-* more
-* cheap
-* fast
+- fewer
+- more
+- cheap
+- fast
+
 
 ---
+
 ## Revision
 
 A virtual machine allows us to emulate ???.
 
-* hardware
-* software
-* cpu
-* applications
+- hardware
+- software
+- cpu
+- applications
+ 

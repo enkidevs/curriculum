@@ -1,31 +1,17 @@
 ---
 author: Russiee
-
-levels:
-
-  - basic
-
-  - advanced
-
-  - medium
-
 type: normal
-
 category: caveats
-
-aspects:
-
-  - obscura
-
 links:
-
-  - '[www.securecoding.cert.org](https://www.securecoding.cert.org/confluence/display/java/ERR02-J.+Prevent+exceptions+while+logging+data){website}'
-
+  - >-
+    [www.securecoding.cert.org](https://www.securecoding.cert.org/confluence/display/java/ERR02-J.+Prevent+exceptions+while+logging+data){website}
 ---
 
 # Prevent `exceptions` while logging Data
 
+
 ---
+
 ## Content
 
 Successful logging can be *prevented* by exceptions thrown while logging is in progress!

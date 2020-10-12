@@ -1,33 +1,15 @@
 ---
 author: jfarmer
-
-levels:
-
-  - beginner
-
-  - basic
-
-  - medium
-
-  - advanced
-
 type: normal
-
 category: must-know
-
-aspects:
-
-  - deep
-
-  - workout
-
 parent: removing-data-from-a-heap-with-the-downheap-operation
-
 ---
 
 # How Do Binary Heaps Enable O(log(n)) Insertion and Removal?
 
+
 ---
+
 ## Content
 
 For a binary max-heap (or min-heap), why do the insert and find-max (or find-min, respectively) operations only take O(log n) time?
@@ -40,18 +22,18 @@ There are three key factors:
 
 Together, these imply that we will perform O(log n) swaps when inserting a new key or removing the maximum key.
 
+
 ---
+
 ## Revision
 
 For insertion to take O(log n) time, the underlying structure used to implement a heap is a
 
 ???.
 
-
-* complete binary tree
-* binary tree
-* complete graph
-* stack
-* tree
-
-
+- complete binary tree
+- binary tree
+- complete graph
+- stack
+- tree
+ 

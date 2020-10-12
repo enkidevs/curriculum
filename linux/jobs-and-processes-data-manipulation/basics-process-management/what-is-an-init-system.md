@@ -1,30 +1,15 @@
 ---
 author: jfarmer
-
-levels:
-
-  - basic
-
-  - beginner
-
-aspects:
-  - introduction
-  - workout
-
 type: normal
-
 category: must-know
-
 inAlgoPool: false
-
-
-
-
 ---
 
 # What Is An "Init System"?
 
+
 ---
+
 ## Content
 
 The last thing the kernel does in its initialization process is start the "init system", typically by running the `/sbin/init` command.  There are many different init systems, but they all have similar responsibilities:
@@ -44,28 +29,31 @@ There are therefore two things to keep in mind when reading about the Linux init
 
 For example, systemd became the default init system on Ubuntu in v15.04 (released in 2015).
 
+
 ---
+
 ## Practice
 
 Which of the following summarizes the best feature of an `init system`? 
 
 ???
 
-* It gets all the non-kernel programs and services running.
-* It gets all the kernel services running.
-* It initializes the user interface.
-* It checks for kernel errors.
+- It gets all the non-kernel programs and services running.
+- It gets all the kernel services running.
+- It initializes the user interface.
+- It checks for kernel errors.
+
 
 ---
+
 ## Revision
 
 What is the most commonly used `init system` for Linux distributions? 
 
 ???
 
-* systemd
-* system V init
-* gentoo
-* launchd
-
+- systemd
+- system V init
+- gentoo
+- launchd
  

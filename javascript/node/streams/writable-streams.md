@@ -1,41 +1,21 @@
 ---
 author: tommarshall
-
-levels:
-  - beginner
-  - basic
-  - medium
-  - advanced
-
 type: normal
-
-standards:
-  javascript.read-and-write-streams.1: 20
-  javascript.node-standard-library-os.0: 20
-  javascript.events-asynchronous-operations.1: 20
-
 tags:
   - introduction
   - workout
   - deep
-
 category: must-know
-
 links:
   - '[Writable Streams](https://gist.github.com/joyrexus/10026630){website}'
-
 parent: chaining-readable-streams
-
-aspects:
-  - introduction
-  - workout
-  - deep
-
-
 ---
+
 # Writable Streams
 
+
 ---
+
 ## Content
 
 The `write()`  method is used to write data to a writable stream. Take the following example:
@@ -58,7 +38,9 @@ The above example initiates both a readable stream and a writable stream. A call
 
 The `write()` method returns a boolean value acting as an indicator to whether the write operation was successful. If the write was successful and more data can now be written then `true`  is returned. If the write operation was unsuccessful then `false` is returned.
 
+
 ---
+
 ## Practice
 
 Complete the code snippet to write data to the writable stream:
@@ -69,14 +51,16 @@ rstream.on('???', function(data) {
 });
 ```
 
-* data
-* write
-* input
-* event
-* callback
-* print
+- data
+- write
+- input
+- event
+- callback
+- print
+
 
 ---
+
 ## Revision
 
 Which method is used when writing data to a writable stream?
@@ -85,7 +69,6 @@ Which method is used when writing data to a writable stream?
 stream.???(data);
 ```
 
-* write
-* input
-* print
- 
+- write
+- input
+- print

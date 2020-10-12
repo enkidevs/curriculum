@@ -1,27 +1,24 @@
 ---
-author: Tyler Bettilyon
-
-levels:
-  - medium
-
-aspects:
-  - workout
-
+author: amgando
 type: normal
 category: must-know
-
-standards:
-  comp-sci.dns.1: 10
-
 links:
-
-  - '[Geographic Implications of DNS Distribution](https://www.cisco.com/c/en/us/about/press/internet-protocol-journal/back-issues/table-contents-35/101-dns-infrastructure.html){article}'
-  - '[IANA Root Server List](https://www.iana.org/domains/root/servers){documentation}'
-  - '[List of top level domains](https://www.icann.org/resources/pages/tlds-2012-02-25-en){documentation}'
-
+  - >-
+    [Geographic Implications of DNS
+    Distribution](https://www.cisco.com/c/en/us/about/press/internet-protocol-journal/back-issues/table-contents-35/101-dns-infrastructure.html){article}
+  - >-
+    [IANA Root Server
+    List](https://www.iana.org/domains/root/servers){documentation}
+  - >-
+    [List of top level
+    domains](https://www.icann.org/resources/pages/tlds-2012-02-25-en){documentation}
 ---
+
 # DNS Hierarchy
+
+
 ---
+
 ## Content
 
 DNS is a decentralized system with some centralized components.
@@ -34,27 +31,32 @@ Finally, authoritative server are operated by organizations or individuals who o
 
 Although this system is distributed worldwide for convenience, it is possible to query any of them specifically regardless of your geographic location.
 
+
 ---
+
 ## Practice
 
 Which of the following statements about DNS is false?
 
 ???
 
-* Users in different geographic locations are restricted to using the closest root, TLD, and authoritative servers.
-* DNS servers are distributed world wide.
-* All of the DNS root servers are subject to oversight by the IANA.
-* TLD servers are managed by regional authorities who are selected by the IANA.
-* Management of authoritative servers is left to the owner of a particular domain.
+- Users in different geographic locations are restricted to using the closest root, TLD, and authoritative servers.
+- DNS servers are distributed world wide.
+- All of the DNS root servers are subject to oversight by the IANA.
+- TLD servers are managed by regional authorities who are selected by the IANA.
+- Management of authoritative servers is left to the owner of a particular domain.
+
 
 ---
+
 ## Revision
 
 Which of the following server types are considered the source of truth for all of the A and AAAA records for websites like Google, Facebook, and other non-DNS web services?
 
 ???
 
-* Authoritative servers
-* Root servers
-* TLD servers
-* DNS resolvers
+- Authoritative servers
+- Root servers
+- TLD servers
+- DNS resolvers
+ 

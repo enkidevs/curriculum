@@ -1,133 +1,102 @@
 ---
 author: alexjmackey
-
-levels:
-
-  - beginner
-
 type: normal
-
 category: must-know
-
-inAlgoPool: false
-
-standards:
-
-  javascript.functions.4: 10
-
-  javascript.functions.8: 10
-
-tags:
-
-  - introduction
-
-  - workout
-
-  - deep
-
-  - obscura
-
-
-
-
-aspects:
-  - introduction
-  - workout
-  - deep
-  - obscura
-
-
 ---
 
 # Functions Are Objects
 
 ---
+
 ## Content
 
 Every function in JavaScript is also an object. 
 
-This means we can assign a function to a variable which can be used to execute the function - this is called a *function expression*:
+This means we can assign a function to a variable which can then be used to execute the function. Function used as a value like this is called a *function expression*.
 
-```
-var x = function myFunc(x,y){
-	return x+y;
+```js
+let add = function enki(x, y){
+  return x + y;
 };
 
-x(1,2);//3
+add(1, 2); // 3
 ```
 
-But why do this? 
+In fact, we can think of functions as invocable (executable) objects.
 
-One reason is to pass functions into other functions. 
+This means that we can also pass function as arguments into other functions (the passed in functions are usually called "callbacks").
 
-A somewhat contrived example would be if we were creating a calculator we could pass different calculation expressions into the *calc* function and avoid repeating the console logging code:
+Consider this example: if we were creating a calculator, we could pass different calculation expressions into the `calc` function and avoid repeating the console logging code:
 
-```
+```js
 function calc(expression){
-   console.log(expression(2,1));
+  console.log(expression(2, 1));
 }
 
-var add = function(x, y){
-   return x + y;
+let add = function a(x, y){
+  return x + y;
 }
 
-var subtract = function(x, y){
-   return x - y;
+let subtract = function s(x, y){
+  return x - y;
 }
 
-calc(add);//3
-calc(subtract);//1
+calc(add); // 3
+calc(subtract); // 1
 ```
 
 We don’t even need to give our functions a name. 
 
-This is called an anonymous function:
+A function without a name is called an anonymous function:
 
-```
-var x = function(x, y){
-	return x + y;
+```js
+let add = function (x, y){
+  return x + y;
 }
-x(1,2);
+
+add(1, 2); // 3
 ```
 
 ---
+
 ## Practice
 
-Complete the function expression in the following code snippet such that it makes sense:
-```
-??? x = ??? add(x, y, z){
-    ??? x + y + z;
+Complete the function expression in the following code snippet such that the code works correctly:
+
+```js
+??? add = ??? a(x, y, z){
+  ??? x + y + z;
 }
-console.log(x(1, 2, 3)); 
+
+console.log(add(1, 2, 3)); 
 ```
 
+- `let`
+- `function`
+- `return`
+- `console.log`
+- `get`
+- `fn`
+- `()`
 
-* `var`
-* `function`
-* `return`
-* `console.log`
-* `get`
-* `fn`
-* `()`
 
 ---
+
 ## Revision
 
-Complete the function expression in the following code snippet such that it makes sense:
-```
+Complete the function expression in the following code snippet such that the code works correctly:
+
+```js
 ??? x = ??? add(x, y, z){
-    ??? x + y + z;
+  ??? x + y + z;
 }
 console.log(x(1, 2, 3)); 
 ```
 
-
-* `var`
-* `function`
-* `return`
-* `console.log`
-* `get`
-* `fn`
-* `()`
-
- 
+- `let`
+- `function`
+- `return`
+- `console.log`
+- `get`
+- `fn`
+- `()`

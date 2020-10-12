@@ -1,38 +1,21 @@
 ---
 author: catalin
-
-levels:
-  - basic
-  - advanced
-  - medium
-
 type: normal
-
 category: feature
-
-standards:
-  javascript.npm-tasks-and-modules-manager.0: 10
-
 tags:
   - workout
   - deep
   - new
-
 links:
   - '[docs.npmjs.com](https://docs.npmjs.com/cli/cache){website}'
-
 parent: check-data-about-a-package
-
-aspects:
-  - workout
-  - deep
-  - new
-
-
 ---
+
 # Manipulate npm packages cache
 
+
 ---
+
 ## Content
 
 The `npm cache` utility is used to **add**, **list** or **clear** the npm cache folder.
@@ -42,21 +25,21 @@ This proves useful as a drop-in **faster** replacement for build scripts that ru
 The `npm cache add` command adds a package to the local cache. The primary intention of this command is to be used internally by `npm`, but it also provides a way of explicitly adding data to the local installation cache.
 
 ```bash
-$ npm cache add myFolder
-$ npm cache add myTarballUrl
-$ npm cache add myPackage@myVersion
+npm cache add myFolder
+npm cache add myTarballUrl
+npm cache add myPackage@myVersion
 ```
 
 To show data in the cache, `ls` can be used:
 
 ```bash
-$ npm cache ls [myPath]
+npm cache ls [myPath]
 ```
 
 To clear data from the cache:
 
 ```bash
-$ npm cache clean [myPath]
+npm cache clean [myPath]
 ```
 
 If no argument is provided, the entire cache will be deleted.
@@ -64,43 +47,46 @@ If no argument is provided, the entire cache will be deleted.
 `npm` stores data in the directory specified by:
 
 ```bash
-$ npm config get cache
+npm config get cache
 ```
 
+
 ---
+
 ## Practice
 
 How can you clear your npm cache?
 
 ```bash
-$ ??? ??? ???
+??? ??? ???
 ```
 
-* npm
-* cache
-* clean
-* clear
-* get
-* config
-* cache-clean
+- npm
+- cache
+- clean
+- clear
+- get
+- config
+- cache-clean
+
 
 ---
+
 ## Revision
 
 How can you get the path to your npm cache?
 
 ```bash
-$ ??? ??? ??? ???
+??? ??? ??? ???
 ```
 
-* npm
-* config
-* get
-* cache
-* path
-* local
-* pathTo
-* isAt
-* getPath
-* ls
- 
+- npm
+- config
+- get
+- cache
+- path
+- local
+- pathTo
+- isAt
+- getPath
+- ls

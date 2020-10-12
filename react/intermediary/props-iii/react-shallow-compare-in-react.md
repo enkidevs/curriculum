@@ -1,33 +1,19 @@
 ---
 author: kapnobatai136
-
-levels:
-
-  - basic
-
-  - advanced
-
-  - medium
-
 type: normal
-
 category: feature
-
-
 links:
-
-  - '[Pure Components](https://facebook.github.io/react/docs/react-api.html#reactpurecomponent){website}'
-
+  - >-
+    [Pure
+    Components](https://facebook.github.io/react/docs/react-api.html#reactpurecomponent){website}
 parent: custom-proptype-s-to-be-required
-
-aspects:
-  - deep
-
 ---
 
 # Shallow compare in React
 
+
 ---
+
 ## Content
 
 It is possible to obtain a performance boost in React when using an automatic form of shallow comparison. For class components this is done by extending `React.PureComponent`:
@@ -54,7 +40,9 @@ Note that `PureComponent` only shallowly compares the objects, meaning if the **
 
 Another important aspect is that you should make sure all the child components are also `Pure`. If the children are regular components, then the entire component tree will re-render, but if the children are pure components then only the modified child will re-render.
 
+
 ---
+
 ## Practice
 
 Complete the following code to define a pure component:
@@ -67,23 +55,25 @@ Complete the following code to define a pure component:
 }
 ```
 
-* class
-* extends
-* PureComponent
-* Component
-* Pure
-* React
-* function
-* export
+- class
+- extends
+- PureComponent
+- Component
+- Pure
+- React
+- function
+- export
+
 
 ---
+
 ## Revision
 
 A ??? can be achieved with `React.PureComponent` when used on a React component that is ???.
 
-* performance boost
-* pure
-* successful check
-* clean
-* raw
-* successful render
+- performance boost
+- pure
+- successful check
+- clean
+- raw
+- successful render

@@ -1,80 +1,67 @@
 ---
-author: tommarshall
-
-levels:
-
-  - beginner
-
+author: emmab
 tags:
-
   - introduction
-
 type: normal
-
 category: must-know
-
-inAlgoPool: false
-aspects:
-  - introduction
 links:
+  - '[What is Python?](https://www.python.org/doc/essays/blurb/){website}'
+---
 
-  - '[Install Python](https://www.python.org/downloads/){website}'
+# Python Intro
+
 
 ---
 
-# What is Python?
-
----
 ## Content
 
-Python is a *high-level*, *interpreted*, *interactive* and *object-oriented* programming language.
+Python is a popular *high-level* programming language.
 
-That means it's designed to be easily readable, using English keywords and straightforward syntax. For example, here's how you could log text to the shell with Python:
+That means it's designed to be easy to read, using English keywords and simple syntax[1].
+
+For example, here's how you might check whether a number is greater than another number:
 
 ```python
-print ('Learning Python with Enki!')
-```
-Python is processed at runtime by the *interpreter*, which means that Python programs don't need to be compiled pre-execution. This makes them simple to change, and easy to get started. You can run this interpreter in _interactive mode_ like this:
-
-```bash
-python -i
-```
-
-UNIX-based operating systems even come with Python pre-installed, meaning you can probably run it from a shell with this command:
-
-```bash
-python my_program.py
+my_age = 23
+legal_age = 21
+if my_age >= legal_age:
+    print("You can have a beer!")
+else:
+    print("Unlucky.")
 ```
 
-If not, you can download it [here](https://www.python.org/downloads/).
+Python is also a *general-purpose* programming language. That means it can be used for *just about anything*. 
+
+You can use it to build websites, web apps and desktop apps. But it's also used in scientific computing, artificial intelligence, and data analysis!
+
 
 ---
+
 ## Practice
 
-How would we run a Python script called `my_script.py` from a shell?
+Python is closer to ??? language and further away from ??? language.
 
-```bash
-???
-```
+- human
+- machine
+- alien
+- automated
 
-* `python my_script.py`
-* `py my_script.py`
-* `pycompile my_script.py >> my_script.pyc`
-* `python --run`
-* `python`
 
 ---
+
 ## Revision
 
-How can you start the interactive Python interpreter?
-```
-??? ???
-```
+Python is both a ??? and general-purpose programming language.
 
-* `python`
-* `-i`
-* `py`
-* `-interactive_mode`
-* `go`
-* `interact`
-* `interactivepython`
+- high-level
+- niche
+- low-level
+- domain-specific
+
+
+---
+
+## Footnotes
+
+[1:Syntax]
+The syntax is the set of rules that define how a program will be written and interpreted. It covers the symbols, indentation and keywords of the language. All programming languages use different syntax.

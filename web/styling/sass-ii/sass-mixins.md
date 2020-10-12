@@ -1,32 +1,18 @@
 ---
 author: tommarshall
-
-levels:
-
-  - basic
-
-  - advanced
-
-  - medium
-
 type: normal
-
 category: must-know
-
-aspects:
-  - workout
-  - deep
-
 links:
-
-  - '[sass-lang.com](http://sass-lang.com/documentation/file.SASS_REFERENCE.html#sassscript){website}'
-
-
+  - >-
+    [Structure of a
+    Stylesheet](http://sass-lang.com/documentation/file.SASS_REFERENCE.html#sassscript){website}
 ---
 
 # Sass Mixins
 
+
 ---
+
 ## Content
 
 A *mixin* is used to allow you to create groups of CSS declarations which you can then reuse throughout your website. A good use for a mixin is for vendor prefixes.
@@ -42,7 +28,9 @@ A *mixin* is used to allow you to create groups of CSS declarations which you ca
 }
 .box { @include border-radius(10px); }
 ```
+
 Generating your CSS would produce this:
+
 ```css
 .box {
   -webkit-border-radius: 10px;
@@ -52,11 +40,13 @@ Generating your CSS would produce this:
 }
 ```
 
+
 ---
+
 ## Revision
 
 What's the main advantage of Sass Mixins taking arguments? ???
 
-* Large combinations of styles with only a few mixins.
-* Flexible values.
-* Mixins can be reused throughout a site.
+- Large combinations of styles with only a few mixins.
+- Flexible values.
+- Mixins can be reused throughout a site.

@@ -1,43 +1,21 @@
 ---
 author: priyankinirmal
-
-levels:
-
-  - basic
-
-  - advanced
-
-  - medium
-
 type: normal
-
 category: feature
-
-aspects:
-  - workout
-  - deep
-
 tags:
-
   - css
-
   - gradient
-
   - linear-gradient
-
   - background
-
-
 links:
-
-  - '[css-tricks.com](https://css-tricks.com/css3-gradients/){website}'
-
-
+  - '[CSS Gradients](https://css-tricks.com/css3-gradients/){article}'
 ---
 
 # Declaring linear gradients using the `background` property
 
+
 ---
+
 ## Content
 
 Use the shorthand `background` property to declare gradients.
@@ -54,22 +32,26 @@ div.gradient {
   blue, green);
 }
 ```
+
 This gradient will transition from blue to green from left to right.
 
+
 ---
+
 ## Practice
 
 Which is the most common type of gradient?
 ???
 
+- `linear-gradient`
+- `square-gradient`
+- `perpendicular-gradient`
+- `bi-linear-gradient`
+- `radial-gradient`
 
-* `linear-gradient`
-* `square-gradient`
-* `perpendicular-gradient`
-* `bi-linear-gradient`
-* `radial-gradient`
 
 ---
+
 ## Revision
 
 What does the following CSS code snippet do? ???
@@ -81,7 +63,7 @@ span.gradient {
 }
 ```
 
-* Transitions the gradient from red to white, starting from right to left.
-* Transitions the gradient from red to white, starting from left to right.
-* Transitions the gradient from white to red, starting from right to left.
-* Transitions the gradient from white to red, starting from left to right.
+- Transitions the gradient from red to white, starting from right to left.
+- Transitions the gradient from red to white, starting from left to right.
+- Transitions the gradient from white to red, starting from right to left.
+- Transitions the gradient from white to red, starting from left to right.

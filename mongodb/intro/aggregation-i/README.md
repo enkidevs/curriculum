@@ -1,7 +1,5 @@
 name: Aggregation I
-
-description: Learn what aggregation is and how to use the aggregation pipeline 
-
+description: Learn what aggregation is and how to use the aggregation pipeline
 insights:
   - aggregation-intro
   - aggregation-count
@@ -9,3 +7,8 @@ insights:
   - aggregation-skip
   - aggregation-4-stages
   - aggregation-sort
+aspects:
+  - new
+  - workout
+  - introduction
+ 

@@ -1,35 +1,18 @@
 ---
 author: catalin
-
-levels:
-  - basic
-  - advanced
-  - medium
-
 type: normal
-
 category: feature
-
 parent: check-data-about-a-package
-
-standards:
-  javascript.use-open-source-javascript-packages.2: 10
-  javascript.npm-publish.0: 10
-  javascript.npm-publish.2: 10
-
 tags:
   - workout
   - deep
-
-aspects:
-  - workout
-  - deep
-
-
 ---
+
 # `npm` verifies `sha1` hashes of packages
 
+
 ---
+
 ## Content
 
 When your *Node.js* app is compiled with **openssl crypto** support, `npm` package manager  provides automatic  **checksumming** support.
@@ -46,28 +29,31 @@ In case an error occurs during downloading, or if something gets corrupted in tr
 
 Checksumming in `npm` is completely silent and provides another layer of security for all packages.
 
+
 ---
+
 ## Practice
 
 What will happen when downloading a corrupted npm package?
 
 ???
 
-* npm will refuse and stop the installation
-* npm will continue
-* npm will continue, but will show warnings
-* npm will crash your system
+- npm will refuse and stop the installation
+- npm will continue
+- npm will continue, but will show warnings
+- npm will crash your system
+
 
 ---
+
 ## Revision
 
 To ensure the security of published modules, **sha1 hashes** are generated automatically when for your NodeJS project. When are these hashes created?
 
 ???
 
-* on publish
-* when you run it
-* when the folder is accessed
-* When it is uploaded
-* When it is compiled
- 
+- on publish
+- when you run it
+- when the folder is accessed
+- When it is uploaded
+- When it is compiled

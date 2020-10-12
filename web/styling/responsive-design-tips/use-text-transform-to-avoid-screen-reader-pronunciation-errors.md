@@ -1,34 +1,21 @@
 ---
 author: Mathieu
-
-levels:
-
-  - basic
-
-  - advanced
-
-  - medium
-
 type: normal
-
 category: best practice
-
-aspects:
-  - introduction
-  - workout
-
 links:
-
-  - '[24ways.org](http://24ways.org/2007/css-for-accessibility){website}'
-
-notes: >-
-  http://www.instantshift.com/2010/03/15/47-css-tips-tricks-to-take-your-site-to-the-next-level/
-
+  - >-
+    [CSS for
+    Accesibility](http://24ways.org/2007/css-for-accessibility){article}
+  - >-
+    [47 CSS Tips &
+    Tricks](http://www.instantshift.com/2010/03/15/47-css-tips-tricks-to-take-your-site-to-the-next-level/){article}
 ---
 
 # Use `text-transform` to avoid screen-reader pronunciation errors
 
+
 ---
+
 ## Content
 
 A screen-reader handling CONTACT US (in uppercase) would be read out "Contact U S", which is not correct.
@@ -41,6 +28,7 @@ For instance:
  <div class="bad"> CONTACT US </div>
  <div class="good"> Contact us </div>
 ```
+
 ```css
 .good {
   text-transform: uppercase;
@@ -48,28 +36,33 @@ For instance:
 }
 ```
 
+
 ---
+
 ## Practice
 
 Display the following paragraph as uppercase:
+
 ```css
 p.upper{
   ???: uppercase;
 }
 ```
 
-* `text-transform`
-* `text-style`
-* `text-decoration`
-* `font-style`
+- `text-transform`
+- `text-style`
+- `text-decoration`
+- `font-style`
+
 
 ---
+
 ## Revision
 
 What is the key benefit and use case of `text-transform`?
 
  ???
 
-* It avoids pronunciation errors and preserves styles.
-* It can render text in uppercase.
-* It can render text in lowercase.
+- It avoids pronunciation errors and preserves styles.
+- It can render text in uppercase.
+- It can render text in lowercase.

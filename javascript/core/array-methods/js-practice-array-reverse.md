@@ -1,36 +1,25 @@
 ---
 author: milesflo
-
-levels:
-
-  - beginner
-
-  - basic
-
 type: exercise
-
-link: http://www.codewars.com/kata/572df796914b5ba27c000c90
+link: 'http://www.codewars.com/kata/572df796914b5ba27c000c90'
 linkType: codewars
-standards:
-
-  javascript.standard-library.4: 1000
-  javascript.write-expressions.0: 1000
-  javascript.data-types-structures.6: 1000
-
-aspects:
-  - introduction
-  - workout
-  
 links:
-
-  - '[MDN - Array class](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)'
-  - '[MDN - Array.reverse](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reverse)'
-  - '[MDN - Array.sort](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort)'
+  - >-
+    [MDN - Array
+    class](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array){website}
+  - >-
+    [MDN -
+    Array.reverse](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reverse){website}
+  - >-
+    [MDN -
+    Array.sort](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort){website}
 ---
 
 # JS Practice Array `reverse` and `sort`
 
+
 ---
+
 ## Exercise
 
 Practice using the JavaScript Array methods `reverse()` and `sort()`

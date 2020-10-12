@@ -1,69 +1,80 @@
 ---
 author: pawel
-
-levels:
-
-  - basic
-
-  - advanced
-
-  - medium
-
 type: normal
-
 category: tip
+---
 
-aspects: 
+# Prefix and Postfix of Increment Operators
 
-  - introduction
-
-notes: ''
 
 ---
 
-# Prefix and postfix of increment operators
-
----
 ## Content
 
-Java supports 2 forms of shorter incrementation of variables:
+Java supports 2 forms of shorter incrementation[1] of variables:
 
 ```java
 int i = 3;
-int j = 10
-System.out.println(++i); // Prints 4
-System.out.println(j++); // Prints 10
+System.out.println(i++); 
+// 3
+System.out.println(++i); 
+// 5
 ```
-The prefix form performs the increment or decrement operation and then returns the value of the operation, while postfix form returns the current value of the expression and only then performs the increment or decrement operation on that value.
 
-Be careful if you decide to use both as mixing them can be confusing:
+Let's first look at the postfix incrementation (`i++`): 
+
 ```java
-int a = 0;
-int b = a++;
-// b == 0, a == 1
-int c = ++b;
-// c == 1, b == 1
+int i = 3;
+int j = i++;
+System.out.println(i);
+// 4
+System.out.println(j);
+// 3
 ```
+
+In this case, the value of `i` is incremented **after** it is assigned to `j`. So, `j` will be assigned the value of `3`, followed by incrementing the value of `i`.
+
+Prefixing the increment operator (`++i`) has a slightly different behaviour.
+
+```java
+int i = 3;
+int j = ++i;
+System.out.println(i);
+// 4
+System.out.println(j);
+// 4
+```
+
+Here, the value of `i` is incremented **before** it is assigned to `j`. This means that first we set the value of `i` to `4`, followed by setting the value of `j` to `4`.
+
+We've only talked about incrementing, but the same applies to decrementing (`--`).
+
 
 ---
+
 ## Practice
 
-Which shorthand notation is equivalent to the snippet below, given `i = 0`?
+How would you rewrite this code using shorthand notation?
+
 ```java
 int i = 0;
 i = i + 1;
 int j = i;
 ```
+
 ???
 
-* `int j = ++i`
-* `int j = i++`
-* `int j = i + 1`
+- `int j = ++i`
+- `int j = i++`
+- `int j = i + 1`
+
 
 ---
+
 ## Revision
 
 What's the value of `b` at the end of the snippet?
+
 ```java
 int a = 0;
 int b = a++;
@@ -71,15 +82,18 @@ System.out.print(b);
 // ???
 ```
 
-* 0
-* 1
-* 2
-* null
+- 0
+- 1
+- 2
+- null
+
 
 ---
-## Quiz 
+
+## Quiz
 
 ### what is the difference between prefix and postfix increment operators?
+
 
 What is the output?
 
@@ -92,7 +106,15 @@ System.out.println(b + " and " + c);
 
  ???
 
-* 1 and 1
-* 1 and 2
-* 2 and 1
-* 0 and 1
+- 1 and 1
+- 1 and 2
+- 2 and 1
+- 0 and 1
+
+
+---
+
+## Footnotes
+
+[1:Increment and Decrement]
+In computer science, incrementing means **increasing** the value by 1. On the same note, decrementing means **decreasing** the value by 1.

@@ -26,7 +26,7 @@ Do you know what **hook** should be used for each of the following scenarios?
 ---
 ## Game Content
 
-```text
+```plain-text
 Check if the commit message is properly
 formatted.
 ```
@@ -41,7 +41,7 @@ formatted.
 
 ---
 
-```text
+```plain-text
 Check if the new code is properly
 documented.
 ```
@@ -56,7 +56,7 @@ The check should be done before registering the *commit message*, because the yo
 
 ---
 
-```text
+```plain-text
 Check for code styling.
 ```
 
@@ -70,7 +70,7 @@ If the code styling is not right, the commit object shouldn't be valid. Therefor
 
 ---
 
-```text
+```plain-text
 Prevent pushing if the last commit's log
 message starts with "work in progress".
 ```
@@ -85,7 +85,7 @@ This hook shouldn't restrict committing with that message, only pushing to the r
 
 ---
 
-```text
+```plain-text
 Notify other contributors after a commit
 has gone through.
 ```
@@ -100,7 +100,7 @@ If the commit went through, it means the `pre-commit` hook had already passed. E
 
 ---
 
-```text
+```plain-text
 Rebuild files after switching branches.
 ```
 
@@ -114,7 +114,7 @@ If the `git checkout newFeature` command is successful, you could rebuild the pr
 
 ---
 
-```text
+```plain-text
 Rejecting commits from entering the remote
 repository, after the client push.
 ```
@@ -129,7 +129,7 @@ repository, after the client push.
 
 ---
 
-```text
+```plain-text
 Check if the message of an updated commit
 has the right format.
 ```

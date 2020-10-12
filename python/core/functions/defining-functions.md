@@ -1,32 +1,18 @@
 ---
 author: tommarshall
-
-levels:
-
-  - beginner
-
 type: normal
-
 category: must-know
-
 inAlgoPool: false
-
-aspects:
-  - introduction
-standards:
-  python.functions.0: 10
-  python.identify-python-syntax.2: 10
-
 links:
-
-  - '[anh.cs.luc.edu](http://anh.cs.luc.edu/python/hands-on/3.1/handsonHtml/functions.html){website}'
-
-
+  - >-
+    [anh.cs.luc.edu](http://anh.cs.luc.edu/python/hands-on/3.1/handsonHtml/functions.html){website}
 ---
 
 # Defining Functions
 
+
 ---
+
 ## Content
 
 Functions allow you to split up your code into relevant blocks, and they allow code to be ordered and to be more readable.
@@ -46,7 +32,9 @@ def new_function():
     print('Function defined!')
 ```
 
+
 ---
+
 ## Practice
 
 Which of the following syntaxes is correct for defining Python functions:
@@ -66,21 +54,22 @@ def function 3(
 def function 4()
     # function code…
 ```
+
 ???
 
+- `Function 1`
+- `Function 2`
+- `Function 3`
+- `Function 4`
 
-* `Function 1`
-* `Function 2`
-* `Function 3`
-* `Function 4`
 
 ---
+
 ## Revision
 
 What keyword is used to define a new function?
 ???
 
-
-* `def`
-* `new`
-* `func`
+- `def`
+- `new`
+- `func`

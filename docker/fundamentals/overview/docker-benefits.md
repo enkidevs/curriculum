@@ -1,17 +1,18 @@
 ---
 author: nem035
-aspects:
-  - introduction
-  - workout
 type: normal
 category: tip
 links:
-  - '[How Docker containers help save money](https://www.channelfutures.com/open-source/how-docker-containers-help-save-money){article}'
+  - >-
+    [How Docker containers help save
+    money](https://www.channelfutures.com/open-source/how-docker-containers-help-save-money){article}
 ---
 
 # Docker Benefits
 
+
 ---
+
 ## Content
 
 There are at least 3 core benefits of using Docker to build and deploy your software.
@@ -39,3 +40,6 @@ Docker does not care which technology (or which version of a particular technolo
 Instead of polluting your system with a bunch of services that you may not use, Docker allows you to granularly and quickly install only the exact dependencies you need for a particular task.
 
 Docker empowers you to pick whatever technology is best for your project.
+
+> Note: as with all the skills in the app, if you want to access more advanced or specific content at any time, **feel free to use the *Skill Map* tab** to jump to the workouts most relevant for you.
+ 

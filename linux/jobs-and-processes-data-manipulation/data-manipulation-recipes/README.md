@@ -1,6 +1,6 @@
-name: data-manipulation-recipes
+name: Data Manipulation Recipes
 
-description: Description of the workout goes here
+description: Patterns that help with file management.
 
 insights:
   - clean-configuration-files
@@ -8,4 +8,7 @@ insights:
   - how-to-analyse-a-server-s-log-files
   - math-in-the-terminal-with-bc
   - using-lynx-to-convert-html-to-text
- 
+
+aspects:
+  - workout
+  - obscura

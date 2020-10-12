@@ -1,23 +1,14 @@
 ---
 author: Stefan-Stojanovic
-
-levels:
-  - beginner
-  - basic
-  
-aspects:
-  - introduction
-  - new
-
 type: normal
-
 category: feature
-
 ---
 
 # Aggregating With `$round`
 
+
 ---
+
 ## Content
 
 In case you don't want to truncate your values, Mongo let's you round them using the `$round` operator. The syntax looks like this:
@@ -47,6 +38,7 @@ db.pokemon.aggregate([
 ```
 
 Output:
+
 ```javascript
 {   
   "_id": ObjectId(
@@ -67,6 +59,7 @@ Output:
 If we wanted to round with any decimal point, we would write it as `$round: ["$initialPower", NUMBER_HERE]` 
 
 Example with `$round: ["$initialPower", 2]`:
+
 ```javascript
 {   
   "_id": ObjectId(
@@ -84,20 +77,24 @@ Example with `$round: ["$initialPower", 2]`:
 
 
 ---
+
 ## Practice
 
 To round numerical values in Mongo you have to use the ??? operator.
 
-* `$round`
-* `$trunc`
-* `$rounding`
-* `$truncating`
+- `$round`
+- `$trunc`
+- `$rounding`
+- `$truncating`
+
 
 ---
+
 ## Footnotes
 
 [1:Previous Documents]
 Here are the documents we used in the previous insights:
+
 ```javascript
 { 
   "_id": ObjectId(

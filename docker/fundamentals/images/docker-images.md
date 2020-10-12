@@ -1,15 +1,15 @@
 ---
 author: nem035
-aspects:
-  - introduction
-  - workout
 type: normal
 category: must-know
 links:
-- '[What is the difference between a Docker image and a Container?](https://stackoverflow.com/questions/23735149/what-is-the-difference-between-a-docker-image-and-a-container){discussion}'
+  - >-
+    [What is the difference between a Docker image and a
+    Container?](https://stackoverflow.com/questions/23735149/what-is-the-difference-between-a-docker-image-and-a-container){discussion}
 ---
 
 # Images
+
 
 ---
 
@@ -25,13 +25,13 @@ The image ID is based on the SHA[1] of the docker hub image.
 
 A Docker image is *immutable*; it only contains read-only layers, meaning that once an image is created it is never modified.
 
-Images can be composed from each other to minimize data repetition. This also means that if we need to modify an image, the only way is to extend it and add our changes on top.
+Images can be composed from each other to minimize data repetition. This also means that the only way to modify an image is to extend it and add the changes on top. 
 
 To make them space-efficient, images are designed to be composed of layers of other images, allowing a minimal amount of data to be sent when transferring images over the network.
 
 Every image starts with a blank layer known as *scratch*. Any change that happens after creates a new image layer. This means that image layers are read-only.
 
-It should be noted that running containers include a writable layer (the container layer) on top of the read-only layers of the image. Runtime changes, including any writes and updates to data and files, are saved in that container layer. Thus, multiple concurrent running containers that share the same underlying image may have container layers that differ substantially (they don't interfere).
+It should be noted that running containers include a writable layer (the container layer) on top of the read-only layers of the image. Runtime changes, including any writes and updates to data and files, are saved in this container layer. Thus, multiple concurrent running containers that share the same underlying image may have container layers that differ substantially (they don't interfere).
 
 It's important to note that image layers are cached and can be reused between various images, saving storage.
 
@@ -45,19 +45,19 @@ a2ae92ffcd29: Layer already exists
 example: digest: sha256:xxx size: 948
 ```
 
-When we run a container and change a file within an image, a copy-on-write[2] happens. That file is extracted from the image and stored in the container layer. Any layers that were unchanged are just reused. In this manner, the container contains all of its files and the files that differ from the image we used to create the container.
+When we run a container and change a file within an image, a copy-on-write[2] happens. This file is extracted from the image and stored in the container layer. Any layers that were unchanged are just reused. In this manner, the container contains all of its files and the files that differ from the image that was used to create the container.
 
 We can use the `docker history <IMAGE_ID>` command to show the layers of changes made on an image and their sizes.
 
 For example:
 
 ```bash
-docker history nginx
+docker history 3f8a4339aadd
 ```
 
 would output something like:
 
-```
+```plain-text
 IMAGE               CREATED             CREATED BY                                      SIZE                COMMENT
 3f8a4339aadd        2 days ago          /bin/sh -c #(nop)  CMD ["nginx" "-g" "daem...   0B
 <missing>           2 days ago          /bin/sh -c #(nop)  STOPSIGNAL [SIGTERM]         0B
@@ -75,16 +75,18 @@ An image that doesn't extend any other image is known as the base image.
 
 Images are built using a special configuration file (commonly) named Dockerfile and the `docker build` command.
 
+
 ---
 
 ## Practice
 
 Docker images are composed of ???
 
-* layers
-* containers
-* pixels
-* fragments
+- layers
+- containers
+- pixels
+- fragments
+
 
 ---
 
@@ -94,10 +96,12 @@ A Docker image can be modified.
 
 ???
 
-* false
-* true
+- false
+- true
+
 
 ---
+
 ## Footnotes
 
 [1: SHA]

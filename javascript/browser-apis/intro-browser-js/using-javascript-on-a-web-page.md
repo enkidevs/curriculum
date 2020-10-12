@@ -1,26 +1,15 @@
 ---
 author: nem035
-
-levels:
-  - beginner
-
 type: normal
-
 category: must-know
-
 inAlgoPool: false
-
-standards:
-  javascript.javascript-syntax.2: 10
-
-aspects:
-  - introduction
-
-
 ---
+
 # Using JavaScript on a web page
 
+
 ---
+
 ## Content
 
 JavaScript is an interpreted language and needs a *host environment* such as a web browser to run (or in Node’s case, Google’s *v8 engine*).
@@ -44,9 +33,9 @@ Another, on HTML elements directly:
   onclick="alert('hello');">
 ```
 
-Whilst these are valid approaches, both of them lead to HTML which is hard to maintain.
+While these are valid approaches, both of them lead to HTML which is hard to maintain.
 
-Common approach is to separate our JavaScript code in another file.
+The common approach is to separate our JavaScript code in another file.
 
 We can put our code in a file called *hello.js* (note we remove the script tags when we put JavaScript in another file):
 
@@ -70,10 +59,12 @@ We can even reference scripts hosted on another server – it's common to do thi
 </script>
 ```
 
+
 ---
+
 ## Practice
 
-Complete the missing gaps in the following HTML snippet such that JavaScript code contained by an `enki.js` file will be ran via a script tag:
+Complete the missing gaps in the following HTML snippet, such that the JavaScript code contained by an `enki.js` file will be run via a script tag:
 
 ```html
 ??? 
@@ -81,16 +72,18 @@ Complete the missing gaps in the following HTML snippet such that JavaScript cod
 ???
 ```
 
-* `<script`
-* `src`
-* `enki.js`
-* `>`
-* `</script>`
-* `/>`
-* `<script />`
-* `<script>`
+- `<script`
+- `src`
+- `enki.js`
+- `>`
+- `</script>`
+- `/>`
+- `<script />`
+- `<script>`
+
 
 ---
+
 ## Revision
 
 Complete the missing HTML tags to make the JavaScript code run directly on the web page.
@@ -101,10 +94,9 @@ Complete the missing HTML tags to make the JavaScript code run directly on the w
 ???
 ```
 
-* `<script>`
-* `</script>`
-* `<script/>`
-* `/>`
-* `<script`
-* `src=`
- 
+- `<script>`
+- `</script>`
+- `<script/>`
+- `/>`
+- `<script`
+- `src=`

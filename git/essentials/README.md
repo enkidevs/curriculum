@@ -6,6 +6,7 @@ core: true
 
 sections:
   '0':
+    - intro-git
     - getting-started
     - commits
     - fundamentals
@@ -16,6 +17,7 @@ sections:
     - features-i
     - features-ii
     - features-iii
+    - features-iv
 
 next:
   - git:workflow

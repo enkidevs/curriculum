@@ -9,3 +9,8 @@ insights:
   - use-locale-class-for-internationalisation
   - most-common-reason-behind-stack-overflow-error
  
+aspects:
+  - deep
+  - obscura
+  - workout
+  - introduction

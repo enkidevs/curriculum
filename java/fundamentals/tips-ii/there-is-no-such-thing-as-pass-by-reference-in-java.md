@@ -1,46 +1,30 @@
 ---
 author: fahimrahman
-
-levels:
-
-  - advanced
-
-  - medium
-
 type: normal
-
 category: caveats
-
-aspects:
-
-  - deep
-
-  - obscura 
-
 tags:
-
   - pass-by-value
-
   - java
-
 links:
-
-  - '[A more in-depth explanation](http://javadude.com/articles/passbyvalue.htm){website}'
-
+  - >-
+    [A more in-depth
+    explanation](http://javadude.com/articles/passbyvalue.htm){website}
 ---
 
 # There is no such thing as *pass-by-reference* in Java
 
+
 ---
+
 ## Content
 
 Everything in Java is *pass-by-value*. This means:
 
-* When primitive type variables (`int`, `boolean`, `char`, etc.) are used as arguments in methods, the value contained in it is passed or is simply *copied*, but the variable retains its value even after the method invocation.
+- When primitive type variables (`int`, `boolean`, `char`, etc.) are used as arguments in methods, the value contained in it is passed or is simply *copied*, but the variable retains its value even after the method invocation.
 
-* When objects (`String`, `Object`, etc.) are used as method arguments, a reference value that *points* to the object is passed. In other words, *object references are passed by value*.
+- When objects (`String`, `Object`, etc.) are used as method arguments, a reference value that *points* to the object is passed. In other words, *object references are passed by value*.
 
->`Person p` is a **pointer** to a Person object and not a stand-alone Person object.
+> `Person p` is a **pointer** to a Person object and not a stand-alone Person object.
 
 ```java
 public class JavaIsPassByValue {
@@ -74,10 +58,13 @@ Andrew
 */
 ```
 
+
 ---
+
 ## Practice
 
 What will this snippet output?
+
 ```java
 public void foo(Person per){
   per.setName("Tom");
@@ -90,15 +77,18 @@ System.out.println(p.getName());
 //???
 ```
 
-* `Tom` 
-* `John` 
-* `Mike` 
-* `Anna`
+- `Tom` 
+- `John` 
+- `Mike` 
+- `Anna`
+
 
 ---
+
 ## Revision
 
 What will this snippet output?
+
 ```java
 public void foo(Person per){
   per.setName("Mike");
@@ -111,7 +101,7 @@ System.out.println(p.getName());
 //???
 ```
 
-* `Mike` 
-* `Tom` 
-* `Cat` 
-* `Jordan`
+- `Mike` 
+- `Tom` 
+- `Cat` 
+- `Jordan`

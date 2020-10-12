@@ -15,10 +15,13 @@ sections:
     - aggregation-i
     - aggregation-ii
   '2':
-    - crud
+    - delete-query-documents
+    - project-rename-save
     - arithmetic-aggregation-i
     - arithmetic-aggregation-ii
     - aggregation-iii
+    - aggregation-iv
+    - querying-arrays
 standards:
   shell:
     name: Use the MongoDB interactive JavaScript Shell

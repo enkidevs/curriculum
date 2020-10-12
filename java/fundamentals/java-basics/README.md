@@ -9,3 +9,7 @@ insights:
   - functions
   - packages
  
+
+aspects:
+  - introduction
+  - workout

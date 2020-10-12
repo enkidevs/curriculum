@@ -1,32 +1,18 @@
 ---
 author: tommarshall
-
-levels:
-
-  - basic
-
-  - advanced
-
-  - medium
-
 type: normal
-
 category: tip
-
-aspects:
-  - workout
-  - deep
-
 links:
-
-  - '[thesassway.com](http://thesassway.com/intermediate/referencing-parent-selectors-using-ampersand){website}'
-
-
+  - >-
+    [Referencing Parent
+    Selectors](http://thesassway.com/intermediate/referencing-parent-selectors-using-ampersand){website}
 ---
 
 # Referencing Parent Selectors
 
+
 ---
+
 ## Content
 
 It can often be useful to use a nested rule's parent selector in more ways than just the default.
@@ -42,7 +28,9 @@ p {
   body.firefox & { font-weight: normal; }
 }
 ```
+
 The above sass code example would generate the following CSS code:
+
 ```css
 p {
   font-weight: bold;
@@ -55,15 +43,16 @@ body.firefox p {
 }
 ```
 
+
 ---
+
 ## Revision
 
 When referencing parent selectors, what symbol is used and what happens to this symbol upon compilation from Sass to CSS? ???
 
-
-* &, it's replaced by the referenced parent selector.
-* &, nothing, it remains there alongside the parent selector.
-* +, it's replaced by the referenced parent selector.
-* +, nothing, it remains there alongside the parent selector.
-* !, it's replaced by the referenced parent selector.
-* !, nothing, it remains there alongside the parent selector.
+- &, it's replaced by the referenced parent selector.
+- &, nothing, it remains there alongside the parent selector.
+- +, it's replaced by the referenced parent selector.
+- +, nothing, it remains there alongside the parent selector.
+- !, it's replaced by the referenced parent selector.
+- !, nothing, it remains there alongside the parent selector.

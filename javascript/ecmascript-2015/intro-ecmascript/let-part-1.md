@@ -1,63 +1,53 @@
 ---
 author: alexjmackey
-
-levels:
-  - beginner
-
 type: normal
-
 category: tip
-
-aspects:
-  - introduction
-
-standards:
-  javascript.new-declaration-keywords.0: 10
-
-inAlgoPool: false
-
 links:
-  - '[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let){website}'
-
+  - >-
+    [MDN
+    Documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let){documentation}
 ---
+
 # Let (Part 1)
 
+
 ---
+
 ## Content
 
-*let* declares a variable and is used in a similar method to *var*.
+`let` declares a variable and is used in a similar method to `var`.
 
-However, a variable declared using let has the critical difference that the variable **exists only in block scope**.
-
-This means you can do things like this:
+However, a variable declared using `let` has the critical difference that the variable **exists only in block scope**. A block-scope is any code wrapped in between `{}`.
 
 ```javascript
-function test(){
-   //scope
-   let company="Enki";
+function test() {
+  if (1 == 1) {
+    // variable company only
+    // exists within the
+    // scope of the if
+    let company = "Enki";
+    console.log(company); // "Enki"
+  }
 
-   if (1 == 1){
-      //another scope
-      let company = "Apple";
-      console.log(company); //Apple
-   }
-   console.log(company); //Enki
+  console.log(company); // Error!
 }
 ```
 
-When *let* is used outside a function it also will not create a global variable, contrary to `var`s behavior:
+When `let` is used outside of a function it also will not create a global variable, contrary to `var`s behavior:
 
 ```javascript
 var global = 'enki';
 console.log(window.global);
 // enki
 
-let notGlobal="Enki";
+let notGlobal = "Enki";
 console.log(window.notGlobal);
 // undefined
 ```
 
+
 ---
+
 ## Practice
 
 Fill in the missing gaps with the output of the log statements:
@@ -73,12 +63,14 @@ console.log(year)
 // ???
 ```
 
-* 2018
-* 2017
-* error
-* year
+- 2018
+- 2017
+- error
+- year
+
 
 ---
+
 ## Revision
 
 What is the output of the log statement (considering it's run in a browser):
@@ -89,6 +81,6 @@ console.log(window.enki)
 // ???
 ```
 
-* undefined
-* enki
-* error
+- undefined
+- enki
+- error

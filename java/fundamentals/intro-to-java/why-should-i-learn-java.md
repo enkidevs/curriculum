@@ -1,59 +1,55 @@
 ---
 author: mihaiberq
-
-levels:
-
-  - beginner
-
 type: normal
-
 category: feature
-
-aspects: 
-
-  - introduction
-
-inAlgoPool: false
-
-
 links:
+  - >-
+    [Who is using
+    Java?](https://www.quora.com/Why-is-Java-so-important){website}
+  - >-
+    [Java
+    Roadmap](https://www.oracle.com/java/technologies/java-se-support-roadmap.html){website}
+---
 
-  - '[Who is using Java?](https://www.quora.com/Why-is-Java-so-important){website}'
+# Why Learn Java?
+
 
 ---
 
-# Why Should I Learn Java?
-
----
 ## Content
 
-*Java* is one of the most used programming languages in the world, with millions of developers. It runs on PCs, mobile phones and even Blu-ray players. 
+Here are several reasons to learn Java:
 
-One of the reasons to learn Java is because the basic concepts are relatively *easy to understand*. And until you get confident enough, there is really no need to care too much for things like memory management or garbage collection, as the JVM (Java Virtual Machine) takes care of them for you.
+1. It's one of the most used programming languages in the world (with millions of developers).
 
-Java is also *static typed*. That means the code cannot be built before solving the errors, which saves time in the long run. Even though the stricter environment doesn't necessarily mean a better one, it allows beginners to stick to less overwhelming rules.
+2. The **basic concepts are relatively easy to understand**.
+
+3. It's **statically typed**, meaning that **the code can't be built before solving the errors**. Even though the stricter environment doesn't necessarily mean a better one, it allows developers to catch bugs early on.
+
+4. Once you create your program, you can run it on any machine. This principle is called **"write once, run anywhere"**(WORA). We'll explain this in the next insight.
+
+5. It has continued support, with the roadmap being available publicly.
 
 There are many more reasons you should learn Java. The only downside is, as with all other skills, that *it might take some time*.
 
+
 ---
+
 ## Practice
 
-Java is a ??? typed language.
+Java has ??? types.
 
+- static
+- dynamic
 
-* static
-* dynamic
 
 ---
+
 ## Revision
 
-Does Java require a lot of changes and configuration of its memory manager or garbage collector?
+Once you create your Java program, you can run it on any machine. The principle is called ???.
 
-???
-
-
-* No
-* Yes
-* Only when you start learning
-
+- write once, run anywhere
+- compile once, run anywhere
+- build once, run anywhere
  

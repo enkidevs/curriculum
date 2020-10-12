@@ -1,57 +1,58 @@
 ---
-author: mihaiberq
-
-levels:
-
-  - basic
+author: kapnobatai136
 
 type: normal
 
 category: must-know
 
-aspects:
+---
 
-  - introduction
-
-inAlgoPool: false
+# Java Virtual Machine
 
 ---
 
-# Java Versions
-
----
 ## Content
 
-A little history for you. Java was first released in 1995. Since then, there have been 9 other major versions, Java 10 being the latest publicly available one.
+We mentioned that once you create your Java application, you can run it on any system. This is thanks to the Java Virtual Machine.
 
-Even though there have been continuous improvements before *Java 5* as well, this version introduced a lot of new features and bug fixes that pushed Java to the top of the most used programming languages.
+First, let's take a look at how your computer processes information. Because it is an electronic device, the language that it speaks is electricity. Information is received in binary numbers (that is `0` and `1`). 
 
-From a couple of hundred classes in *Java 1.0*, Java had grown to three thousand classes in *Java 5*. By *Java 8*, the number grew to be around 4300 classes.
+![byte-mental-model](https://img.enkipro.com/6cfbe063adf1bb14a3c98cf51f5fdae5.png)
 
-Transitioning from one version to another has always left room for problems. Usually backporting (making new features available to older versions) was the most troublesome. Deprecated classes or optimizations made to the existing ones were also reasons for code to break.
+Using a sequence of 8 binary numbers, we can create text. For example, the letter `A` is `01000001`.
 
-One way to avoid this from happening is stopping public support for older versions, which has already happened. As of 2015, *Java 8* is the only publicly supported version.
+Okay so what does this have to do with Java? The process is the following:
 
-*Java 8* ends public support by the year 2023.
+1. Your Java code is compiled to binary numbers.
+2. The new intermediary code is fed to the Java Virtual Machine (JVM)
+3. The JVM then proceeds to identify your operating system and convert the intermediary code to native code
 
-There are 4 new versions of *Java* that were released after *Java 8*. 
-
-*Java 9*, released in September 2017 and *Java 10*, released in March 2018 both had a total of around 6000 classes and are old versions that have stopped public support in 2018. 
-
-*Java 11*, released September 2018 is not the latest version, nevertheless, it will have public support until the year 2022.
-
-As of March 2019, *Java 12* is the latest version of *Java* and the amount of classes has decreased to around 4400 classes.
+![jvm-mental-model](https://img.enkipro.com/a038da2671b98d52c795730e3a676198.png)
 
 ---
 
 ## Practice
 
-Roughly how many classes are in **Java** version 12?
+The ??? converts binary code to native code.
 
-???
+- Java Virtual Machine
+- Java Virtual System
+- Virtual Java Environment
 
-* 4400
-* 10
-* 100
-* 1000
-* 20000
+
+---
+
+## Revision
+
+Choose the correct order for converting Java code to native code:
+
+```plain-text
+1. ???
+2. ???
+3. ???
+```
+
+- Java code is compiled to binary numbers.
+- The binary code is fed to the JVM.
+- The intermediary code is converted to native code.
+ 

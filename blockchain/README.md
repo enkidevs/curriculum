@@ -2,8 +2,8 @@ name: Blockchain
 
 language: bash
 
-icon: https://img.enkipro.com/45addf1d0019ca954578779995d48f90.png
+icon: https://img.enkipro.com/0daafdae84e5cc7e43a1855a3fe48625.png
 
-color: BE56A9
+color: FFA6ED
 
-description: The underlying technology of Bitcoin, the blockchain will be the motor of future distributed networks.
+description: Discover distributed databases, Bitcoin, Ethereum, and more.

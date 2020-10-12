@@ -1,44 +1,31 @@
 ---
 author: mihaiberq
-
-levels:
-
-  - beginner
-
 type: normal
-
 category: must-know
-
-inAlgoPool: false
-
-standards:
-  web.syntax-html.0: 10
-  web.syntax-html.4: 10
-
-aspects:
-  - introduction
-
 links:
-
-  - '[First web page](http://info.cern.ch/hypertext/WWW/TheProject.html){website}'
-  - '[MDN](https://developer.mozilla.org/en-US/docs/Glossary/HTML){documentation}'
-
-
+  - '[First Web Page](http://info.cern.ch/hypertext/WWW/TheProject.html){website}'
+  - >-
+    [HTML Concept And
+    Syntax](https://developer.mozilla.org/en-US/docs/Glossary/HTML){documentation}
 ---
 
 # HyperText Markup Language
 
+
 ---
+
 ## Content
 
 HyperText Markup Language, more often just referred to as **HTML**, is the standard markup language used to create websites. HTML describes the structure of a web page semantically and uses elements that are made up of **tags**. Tags are easy to recognize as they use *less than* (<) and *greater than* (>) signs.
 
 To denote the end of most HTML elements, a closing tag is used. It has an extra forward slash before the name of the element:
+
 ```html
 <element>Content</element>
 ```
 
 HTML *elements* are the foundation on which the page is built. To specify that the following code is HTML, an `<html>` tag should open and close the document:
+
 ```html
 <html>
  <!-- more code here -->
@@ -78,27 +65,26 @@ The part of the HTML that is not *displayed* in the web page itself, but helps t
 </html>
 ```
 
-You can bookmark this insight to receive a link to the *first online web page*.
 
 ---
+
 ## Practice
 
 The two main components of a HTML document are ???.
 
+- `<head>` and `<body>`
+- `<heading>` and `<body>`
+- `<p>` and  `<a>`
+- `<h>` and `<body>`
 
-* `<head>` and `<body>`
-* `<heading>` and `<body>`
-* `<p>` and  `<a>`
-* `<h>` and `<body>`
 
 ---
+
 ## Revision
 
 The two main components of a HTML document are ???.
 
-
-* `<head>` and `<body>`
-* `<heading>` and `<body>`
-* `<p>` and `<a>`
-* `<h>` and `<body>`
- 
+- `<head>` and `<body>`
+- `<heading>` and `<body>`
+- `<p>` and `<a>`
+- `<h>` and `<body>`

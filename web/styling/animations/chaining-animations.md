@@ -1,34 +1,24 @@
 ---
 author: nene
-
-levels:
-  - basic
-  - advanced
-  - medium
-
 type: normal
-
 category: how to
-
 tags:
   - chain
   - animations
-
-aspects:
-  - workout
-  - deep
-
 links:
-
-  - '[www.tutorialspark.com](http://www.tutorialspark.com/css3/CSS3_Animation_Keyframes.php){website}'
-  - '[MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/@keyframes){documentation}'
-
-
+  - >-
+    [Article on Animation And
+    Keyframes](http://www.tutorialspark.com/css3/CSS3_Animation_Keyframes.php){article}
+  - >-
+    [MDN Docs on
+    @keyframes](https://developer.mozilla.org/en-US/docs/Web/CSS/@keyframes){documentation}
 ---
 
 # Chaining animations
 
+
 ---
+
 ## Content
 
 It's possible to achieve this by using the `animation-delay` property; it delays the execution of an animation by a specified amount of time.
@@ -56,27 +46,30 @@ If the first one takes 1 second to complete, a chain can be created by using the
 }
 ```
 
+
 ---
+
 ## Practice
 
 What property is used to chain animations?
 
 ???
 
-* animation-delay
-* animation-chained
-* delay
-* animation-chain
+- animation-delay
+- animation-chained
+- delay
+- animation-chain
+
 
 ---
+
 ## Revision
 
 Which CSS property can be used to chain animations together?
 
 ???
 
-
-* `animation-delay`
-* `animation-chain`
-* `animation-hold`
-* `animation-pause`
+- `animation-delay`
+- `animation-chain`
+- `animation-hold`
+- `animation-pause`

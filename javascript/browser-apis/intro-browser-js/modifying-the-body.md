@@ -1,36 +1,21 @@
 ---
 author: elliehoward
-
-levels:
-
-  - beginner
-
-  - basic
-
-  - medium
-
-
-aspects:
-
-  - introduction
-
-  - workout
-
-
 type: normal
-
 category: must-know
-
-standards:
-  javascript.dom.2: 10
-
 links:
+  - >-
+    [MDN -
+    document.body](https://developer.mozilla.org/en-US/docs/Web/API/Document/body){website}
+  - >-
+    [W3 Schools - HTML DOM body
+    Property](https://www.w3schools.com/jsref/prop_doc_body.asp){website}
+---
 
-  - '[MDN - document.body](https://developer.mozilla.org/en-US/docs/Web/API/Document/body)'
-  - '[W3 Schools - HTML DOM body Property](https://www.w3schools.com/jsref/prop_doc_body.asp)'
----
 # Modifying the Body
+
+
 ---
+
 ## Content
 
 To reference the body element with the DOM you simply use `document.body` rather than selecting the body element with `getElementsByTagName` method. For example, this is how to store a reference to the body in a variable:  
@@ -62,11 +47,13 @@ document
 </body>
 </html>
 ```
+
 In the example above, the `h1` element and the two paragraph elements would be overwritten with the word "Changed!"
 
 ## Modifying the body
 
 You can also do cool things like change the background color of the page by setting attributes on the body element:
+
 ```html
 <html>
 <body>
@@ -84,28 +71,31 @@ document
 </html>
 ```
 
+
 ---
+
 ## Practice
 
 Store a reference to the body element in a variable:
 
 `var bodyElement = ???.???`
 
-* `document`
-* `body`
-* `getElementById`
-* `getElementsByTagName`
-* `DOM`
-* `element`
-* `innerHTML`
+- `document`
+- `body`
+- `getElementById`
+- `getElementsByTagName`
+- `DOM`
+- `element`
+- `innerHTML`
+
 
 ---
+
 ## Revision
 
 What happens when you changes the innerHTML of the body tag?
 ???
 
-* You overwrite all elements inside the body tag with the new content.
-* The content is appended to the existing content of the body tag.
-* A syntax error is thrown.
- 
+- You overwrite all elements inside the body tag with the new content.
+- The content is appended to the existing content of the body tag.
+- A syntax error is thrown.

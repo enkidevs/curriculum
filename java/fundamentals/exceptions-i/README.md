@@ -9,3 +9,6 @@ insights:
   - throwing-an-exception
   - the-distinction-between-checked-and-unchecked-exceptions
  
+aspects:
+  - introduction
+  - obscura

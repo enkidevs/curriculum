@@ -1,48 +1,23 @@
 ---
-author: tuwi.dc
-
-levels:
-
-  - basic
-
-  - advanced
-
-  - medium
-
+author: tuwidc
 type: normal
-
 category: how to
-
 tags:
-
   - linux
-
   - apropos
-
   - search
-
   - command
-
   - terminal
-
   - find
-
-  - 
-
+  - null
   - workout
-
-
-
-
-aspects:
-  - workout
-
-
 ---
 
 # Find any Unix / Linux command
 
+
 ---
+
 ## Content
 
 It's possible to perform keyword searches under linux using the `apropos` command.
@@ -50,22 +25,28 @@ It's possible to perform keyword searches under linux using the `apropos` comman
 Each manual page has a short description available within it and `apropos` searches the descriptions for instances of the keyword.
 
 How to search all the user related administrative commands:
+
+```bash
+apropos "user*"
 ```
-$ apropos "user*"
-```
+
 Outputs:
-```
+
+```plain-text
 addgroup - add a user/group to the system
 adduser  - add a user/group to the system
 ...
 ```
 
+
 ---
+
 ## Practice
 
 Complete the following snippet to obtain the output :
-```
-$ ??? ???
+
+```plain-text
+??? ???
 ...
 foomatic-kitload (8) - installs a data kit
           into the foomatic database.
@@ -77,22 +58,21 @@ install-sgmlcatalog (8) - maintain
  ...
 ```
 
-* `apropos`
-* `"install*"`
-* `"to"`
-* `"user"`
-* `apropo`
+- `apropos`
+- `"install*"`
+- `"to"`
+- `"user"`
+- `apropo`
+
 
 ---
+
 ## Revision
 
 `apropos`  allows you to search through
 
 ??? .
 
-
-* commands’ description
-* users
-* servers
-
- 
+- commands’ description
+- users
+- servers

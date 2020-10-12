@@ -1,29 +1,21 @@
 ---
 author: Stefan-Stojanovic
-
-levels:
-  - beginner
-  - basic
-
 type: normal
-
 category: must-know
-
-standards:
-  web.embed-media.1: 10
-
-aspects:
-  - introduction
-  - workout
-  - deep
-
 links:
-  - '[a walkthrough](https://www.quackit.com/html_5/tags/html_video_tag.cfm){website}'
-  - '[Documentation on MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video){documentation}'
+  - >-
+    [Walkthrough for
+    <video>](https://www.quackit.com/html_5/tags/html_video_tag.cfm){article}
+  - >-
+    [HTML <video>
+    Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video){documentation}
+---
+
+# Video Subtitles
+
 
 ---
-# Video Subtitles
----
+
 ## Content
 
 Subtitles can be added to the videos via the `<track>` element like this:
@@ -39,7 +31,7 @@ Subtitles can be added to the videos via the `<track>` element like this:
 
 The WebVTT (.vtt), which stands for “Web Video Text Track” file can look like this below and are often created using software programs vs typing all of that out by hand. As you can see, the time stamp states the starting and ending of the subtitle. There are also tags in this case like `<v>`, `<c>`, and `<i>` which allow for unique CSS styling, which can be found in the CodePen Example:
 
-```WEBVTT
+```plain-text
 
 1
 00:00:01.300 --> 00:02.300
@@ -87,40 +79,45 @@ In the case you have videos that support multiple languages, you can provide the
 </video>
 ```
 
+
 ---
+
 ## Practice
 
 What HTML element is used to connect subtitles to a video?
 
 ???
 
-* `<track>`
-* `<captions>`
-* `<subtitles>`
-* `<scrlang>`
-* `<vtt>`
+- `<track>`
+- `<captions>`
+- `<subtitles>`
+- `<scrlang>`
+- `<vtt>`
 
 
 ---
+
 ## Revision
 
 When working with multiple files that provide the subtitles in various languages with a web video, how is one of them given greater priority that the others.
 ???
 
-* Add the `default` attribrute to one of them.
-* The first file assigned in the `<track`>.
-* The last file assigned in the `<track`>.
-* Subtitles are always off and must be selected by the user.
+- Add the `default` attribrute to one of them.
+- The first file assigned in the `<track`>.
+- The last file assigned in the `<track`>.
+- Subtitles are always off and must be selected by the user.
 
 
 ---
+
 ## Quiz
 
 ### How much do you know about web videos?
 
+
 For files that contain subtitles that can be used with web videos, what file format do they use?
 
-* .vtt
-* .sub
-* .txt
-* .track
+- .vtt
+- .sub
+- .txt
+- .track

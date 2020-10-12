@@ -1,34 +1,22 @@
 ---
 author: catalin
-
-levels:
-
-  - basic
-
 type: normal
-
 category: must-know
-aspects:
-  - introduction
-  - workout
-
-standards:
-  python.native-types-operations.6: 10
-
 links:
-
-  - '[docs.python.org](https://docs.python.org/3.5/library/stdtypes.html#dictionary-view-objects){website}'
-
+  - >-
+    [docs.python.org](https://docs.python.org/3.5/library/stdtypes.html#dictionary-view-objects){website}
 parent: dictionary-standard-mapping-type
-
 ---
 
 # `Dictionary` view objects
 
+
 ---
+
 ## Content
 
 An interesting feature python provides for dictionaries are *view objects*  which can be generated using any of the following methods:
+
 ```python
 dict.keys()
 # returns a new view of dictionary's keys
@@ -38,10 +26,11 @@ dict.items()
 # returns a new view of dictionary's items
 # items are (key, value) pairs
 ```
+
 The *view objects* are dynamically tied to the parent dictionary. When the parent dictionary is changed these changes are visible in the view objects too.
 
-
 The number of entries in a dictionary can be easily obtained using the `len(dictview)` method:
+
 ```python
 >>> a = {'one':1, 'two':2}
 >>> keys = a.keys()
@@ -51,6 +40,7 @@ The number of entries in a dictionary can be easily obtained using the `len(dict
 
 One reason for using *view objects* is that iteration over a dictionary is more efficient than using lists for this purpose.
 Dictionary's `iter()` method works on dictionary views, returning an iterator over keys, values or items:
+
 ```python
 iter(keys)
 # iterator over keys is returned
@@ -67,7 +57,9 @@ False
 
 ```
 
+
 ---
+
 ## Practice
 
 Complete the code snippet to return the number of entries in the dictionary:
@@ -78,13 +70,15 @@ Complete the code snippet to return the number of entries in the dictionary:
 >>> len(keys)
 ```
 
-* keys
-* d
-* keys()
-* length
-* size
+- keys
+- d
+- keys()
+- length
+- size
+
 
 ---
+
 ## Revision
 
 Which keyword is used for testing collection memberships?
@@ -96,8 +90,8 @@ Enki = d.keys()
 >>> true
 ```
 
-* in
-* has
-* holds
-* consists
-* belongs
+- in
+- has
+- holds
+- consists
+- belongs

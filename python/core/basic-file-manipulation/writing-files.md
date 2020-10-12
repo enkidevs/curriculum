@@ -1,43 +1,35 @@
 ---
 author: SebaRaba
-
-levels:
-
-  - beginner
-
 type: normal
-
 category: how to
-aspects:
-  - introduction
-standards:
-  python.standard-library-operating-system.0: 10
-
 links:
-
-  - '[More about writing to files](https://www.digitalocean.com/community/tutorials/how-to-handle-plain-text-files-in-python-3){website}'
-
-
+  - >-
+    [More about writing to
+    files](https://www.digitalocean.com/community/tutorials/how-to-handle-plain-text-files-in-python-3){website}
 ---
 
 # Writing to files
 
+
 ---
+
 ## Content
 
 **Remember** how `open()` works:
+
 - if we open an already existing file in mode `w` (writing), it will be overwritten
 - if the file doesn't exist, it will be created
 
 Let's start by creating a **file** at the given **path**. Note that we use mode `w+` to open the file as later we'll need to **read** some lines from it:
-```
+
+```plain-text
 path = '/usr/seba/new_file.txt'
 text = open(path, 'w+')
 ```
 
 Writing to the **file** can easily be done via the `write()` function. A single **string** may be passed as as **argument**, which will be written to the **file**. You can **split** the **string** into multiple lines by adding `\n` character where necessary.
 
-```
+```plain-text
 in = 'This is one line\n
       This is the second one.'
 text.write(in)
@@ -53,15 +45,18 @@ We used `seek()` function within this example. This function moves the **file po
 
 Remember that all **files** must be **closed** to preserve **resources** after finishing working with them. To do this, simply `close()` the file object:
 
-```
+```plain-text
 text.close()
 ```
 
+
 ---
+
 ## Practice
 
 What will the output look like?
-```
+
+```plain-text
 file = open('name.txt', 'w+')
 
 file.write("John")
@@ -71,19 +66,22 @@ print(file.readline())
 
 file.close()
 ```
+
 ???
 
+- Nothing will be generated
+- JohnChris
+- Chris
+- John
 
-* Nothing will be generated
-* JohnChris
-* Chris
-* John
 
 ---
+
 ## Revision
 
 Suppose we want to read the content of a file and copy it into another. Fill the gaps:
-```
+
+```plain-text
 file = open('name.txt', '???')
 file.write("John")
 file.write("Chris")
@@ -96,12 +94,12 @@ file.close()
 new_file.close()
 ```
 
-
-* `w+`
-* `0`
-* `write`
-* `read`
-* `seek`
-* `a`
-* `r`
-* `1`
+- `w+`
+- `0`
+- `write`
+- `read`
+- `seek`
+- `a`
+- `r`
+- `1`
+ 

@@ -1,23 +1,22 @@
 ---
 author: nem035
-aspects:
-  - introduction
-  - workout
 type: normal
 category: must-know
 links:
-- '[Docker Registry](https://docs.docker.com/registry/){documentation}'
-- '[Docker Hub](https://hub.docker.com/){website}'
+  - '[Docker Registry](https://docs.docker.com/registry/){documentation}'
+  - '[Docker Hub](https://hub.docker.com/){website}'
 ---
 
 # Image Registries
 
+
 ---
+
 ## Content
 
-A Docker image registry stores Docker images. We can think of a Docker image registry being to Docker images what Github is to code repositories.
+A Docker image registry stores Docker images. We can think of a Docker image registry being to Docker images as Github is to code repositories.
 
-By default, Docker is configured to look for images in its own registry called Docker Hub, but users could also run their own private registry.
+By default, Docker is configured to look for images in its own registry called Docker Hub, but users can also run their own private registry.
 
 Docker Hub is public and allows anybody to store publicly available images.
 
@@ -31,7 +30,7 @@ docker pull nginx
 
 The command above would output something like:
 
-```
+```plain-text
 Using default tag: latest
 latest: Pulling from library/nginx
 1ab2bdfe9778: Pull complete
@@ -73,20 +72,24 @@ docker tag ubuntu:16.04 localhost:1234/ubuntu
 docker push localhost:1234/ubuntu
 ```
 
+
 ---
+
 ## Practice
 
 Images stored on DockerHub are ???
 
-* public
-* private
+- public
+- private
+
 
 ---
+
 ## Revision
 
 The default registry for Docker images is called ???
 
-* DockerHub
-* DockerStash
-* DockerImages
-* DockerPictures
+- DockerHub
+- DockerStash
+- DockerImages
+- DockerPictures

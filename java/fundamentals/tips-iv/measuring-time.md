@@ -1,35 +1,21 @@
 ---
 author: vish1891
-
-levels:
-
-  - basic
-
 type: normal
-
 category: how to
-
-aspects:
-
-  - introduction
-
 tags:
-
   - nanoTime()
-
   - currentTimeMillis()
-
   - time
-
 links:
-
-  - '[tutorials.jenkov.com](http://tutorials.jenkov.com/java-date-time/time-measurement.html){website}'
-
+  - >-
+    [tutorials.jenkov.com](http://tutorials.jenkov.com/java-date-time/time-measurement.html){website}
 ---
 
 # Measuring time
 
+
 ---
+
 ## Content
 
 Many applications require a very precise time measurement. 
@@ -50,14 +36,16 @@ long estimatedTime
   = System.nanoTime() - startTime;
 ```
 
+
 ---
+
 ## Revision
 
 Which method is more precise than `currentTimeMillis()` when calculating absolute timing?
 
 ???
 
-* nanoTime()
-* nanoMillis()
-* currentNanoMillis()
-* timeMillis()
+- nanoTime()
+- nanoMillis()
+- currentNanoMillis()
+- timeMillis()

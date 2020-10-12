@@ -1,34 +1,23 @@
 ---
 author: jordanfish
-
-levels:
-
-  - basic
-
-  - advanced
-
-  - medium
-
 type: bugSpot
-
 category: tip
-
-aspects:
-  - introduction
-  - workout
-
 ---
 
 # CSSplat
 
+
 ---
+
 ## Content
 
 Someone has written some terrible CSS.
 
 Can you spot his mistakes?
 
+
 ---
+
 ## Game Content
 
 sub, sup {
@@ -206,6 +195,7 @@ The correct name of the value for setting the current color is `currentColor`;
 %
 
 ---
+
 .field .input-field {
   color: #FFF;
   font-size: 16px;
@@ -333,3 +323,4 @@ The latter will also transform all letters of the text to uppercase, but will al
 %exp
 When specifying multiple values for a CSS property such as `font` you must separate them by a whitespace and not a comma (`,`).
 %
+ 

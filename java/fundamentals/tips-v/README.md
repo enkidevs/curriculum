@@ -8,4 +8,10 @@ insights:
   - prevent-exceptions-while-logging-data
   - throwing-proper-exceptions-for-unfinished-code
   - generating-a-compact-java-code
- 
+
+aspects:
+  - deep
+  - obscura
+  - new
+  - workout
+  - introduction

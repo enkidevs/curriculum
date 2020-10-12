@@ -1,35 +1,19 @@
 ---
 author: pawel
-
-levels:
-
-  - basic
-
-  - medium
-
 type: normal
-
 category: must-know
-
-aspects:
-
-  - introduction
-
 tags:
-
   - bitwise
-
 links:
-
   - '[en.wikipedia.org](https://en.wikipedia.org/wiki/Bitwise_operation){website}'
-
 notes: ''
-
 ---
 
 # Bitwise and Bit Shift operations in Java
 
+
 ---
+
 ## Content
 
 The Java programming language provides operators that perform bitwise and bit shift operations on integral types. Using those substantially improves performance.

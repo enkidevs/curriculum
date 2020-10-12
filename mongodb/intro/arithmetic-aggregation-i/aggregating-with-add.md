@@ -1,23 +1,14 @@
 ---
 author: Stefan-Stojanovic
-
-levels:
-  - beginner
-  - basic
-  
-aspects:
-  - introduction
-  - new
-
 type: normal
-
 category: how to
-
 ---
 
 # Aggregating With `$add`
 
+
 ---
+
 ## Content
 
 When working with databases, you're bound to encounter a case in which you need to add, subtract or perform any other arithmetic operation. MongoDB provides many operators suited for this use case that we will discuss in this workout.
@@ -72,6 +63,7 @@ db.pokemon.aggregate([
 ```
 
 Output:
+
 ```javascript
 { 
   "_id": ObjectId(
@@ -91,14 +83,16 @@ Output:
 
 In the example above, we have used the project stage to only display the `Name` field, along with a new field called `totalPowerStrength` where the added values will be stored and displayed.
 
+
 ---
+
 ## Practice
 
 In MongoDB, we can use the ??? operator to perform addition. The minimum number of expressions that can be used is ???.
 
-* `$add`
-* 2
-* `$addition`
-* `$sum`
-* 3
-* 1
+- `$add`
+- 2
+- `$addition`
+- `$sum`
+- 3
+- 1

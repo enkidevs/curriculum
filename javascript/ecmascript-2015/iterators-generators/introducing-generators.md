@@ -1,28 +1,19 @@
 ---
 author: alexjmackey
-
-levels:
-  - medium
-  - advanced
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-  - new
-  - workout
-
 inAlgoPool: false
-
 links:
-  - '[MDN - Generators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator){website}'
-
+  - >-
+    [MDN -
+    Generators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator){website}
 ---
+
 # Introducing Generators
 
+
 ---
+
 ## Content
 
 ES6 introduced an easier way of working with iterators called **generators**. Mozilla Developer Documentation defines generators as "a special type of function that works as a factory for iterators".
@@ -66,7 +57,9 @@ gen.next();
 // {value: undefined, done: true}
 ```
 
+
 ---
+
 ## Practice
 
 Fill in the missing gaps of the following generator function:
@@ -83,26 +76,27 @@ gen.???;
 // {value: undefined, done: true}
 ```
 
-* function*
-* yield
-* next()
-* isDone()
-* return
-* done()
-* function
-* () =>
-* class
-* generator
+- function*
+- yield
+- next()
+- isDone()
+- return
+- done()
+- function
+- () =>
+- class
+- generator
+
 
 ---
+
 ## Revision
 
 Can generator functions maintain their execution context between method calls?
 
 ???
 
-* Yes
-* No, because the memory needed would be to big
-* No, because of the JavaScript memory model
-* Only if the calls are done one after the other
- 
+- Yes
+- No, because the memory needed would be to big
+- No, because of the JavaScript memory model
+- Only if the calls are done one after the other

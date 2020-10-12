@@ -1,40 +1,25 @@
 ---
 author: SebaRaba
-
-levels:
-
-  - beginner
-
-  - basic
-
-  - medium
-
-  - advanced
-
 type: normal
-
 category: must-know
-
-aspects:
-
-  - introduction
-
 links:
-
-  - '[www.w3.org](https://www.w3.org/Protocols/rfc2616/rfc2616-sec6.html#sec6.2){website}'
-  - '[developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status){website}'
-
+  - >-
+    [www.w3.org](https://www.w3.org/Protocols/rfc2616/rfc2616-sec6.html#sec6.2){website}
+  - >-
+    [developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status){website}
 parent: a-request-example
-
 ---
 
 # The HTTP response
 
+
 ---
+
 ## Content
 
 After receiving and interpreting a request, the **server** sends back a response to the **client**. The usual response syntax is:
-```text
+
+```plain-text
 Status-Line
 (general-header or
   request-header or
@@ -44,7 +29,8 @@ Message-Body
 ```
 
 The `Status-Line` contains:
-```text
+
+```plain-text
 HTTP-Version Status-Code Code-Description
 CRLF
 ```
@@ -61,6 +47,7 @@ The *code description* is there to explain what exactly the status code means.
 ### Response headers
 
 The response headers are fairly limited compared to request headers:
+
 - **Age**: it indicates an estimation, in seconds, of the age of a cached resource being requested since it was last synchronized from the origin web server
 - **ETag**: it represents an identifier for a specific version of a resource, which prevents useless cache updates in case the resource hasn't changed
 - **Cache-Control**: a general header (available for both requests and responses, but with some differences), that states if the response can be cached, how it should be cached and for how long the cached version is considered *fresh*
@@ -70,36 +57,41 @@ The response headers are fairly limited compared to request headers:
 - **WWW-Authenticate**: indicates the authentication scheme to be used
 - **Access-Control-Allow-Origin**: this state what domains can access a resource in a cross-site[1] manner (`*` means *any* domain)
 
+
 ---
+
 ## Practice
 
 A resource's specific cached version identifier can be found in the
 
 ??? header field.
 
+- ETag
+- Age
+- Location
+- Cache-Control
 
-* ETag
-* Age
-* Location
-* Cache-Control
 
 ---
+
 ## Revision
 
 The first line in an HTTP response is usually called
 
 ???
 
+- Status Line
+- Request Line
+- Response Line
+- Response Header
 
-* Status Line
-* Request Line
-* Response Line
-* Response Header
 
 ---
+
 ## Footnotes
+
 [1:Cross-site requests]
 A resource makes a cross-origin HTTP request when it requests a resource from a different domain, or port than the one which the first resource itself serves. You might find this process abbreviated as CORS (cross-origin resource sharing).
 
 The **Access-Control-Allow-Origin** mechanism indicates which domains are allowed to be requested from.
-
+ 

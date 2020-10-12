@@ -1,41 +1,31 @@
 ---
 author: SebaRaba
-
-levels:
-
-  - beginner
-
-  - basic
-
 type: normal
-
 category: how to
-aspects:
-  - introduction
-standards:
-  python.standard-library-operating-system.0: 10
-
 links:
-
-  - '[More about open() function](https://www.tutorialspoint.com/python3/python_files_io.htm){website}'
-
-
+  - >-
+    [More about open()
+    function](https://www.tutorialspoint.com/python3/python_files_io.htm){website}
 ---
 
 # How to open a file object
 
+
 ---
+
 ## Content
 
 **Reading** from and **writing** to files in **Python 3** can easily be done using the `open()` function. This will create a `file` object, which can be used to call other support **methods** associated with it.
 
 Consider the following syntax:
 
-```
+```plain-text
 obj = open(f_name, [access_mode],
                       [buffering])
 ```
+
 Here's the disambiguation of its arguments:
+
 - `f_name`: string value that contains the name of the file
 - `access_mode`: it determines the mode in which the file has to be opened: `read`, `write`, `append`
 - `buffering`: there are two important values `0` (means no buffering) or `1` (means line buffering[1] is performed). If the value is greater than `1` then that will be considered the buffer's size
@@ -59,7 +49,8 @@ Note that every `file` *object* has the following attributes:
 - `file.name`: returns the name of the **file**
 
 Consider the following example:
-```
+
+```plain-text
 # Open file.txt and print file name
 
 obj = open("doc.txt","w")
@@ -71,10 +62,13 @@ print("The file mode is: ", obj.mode)
 # this means write
 ```
 
+
 ---
+
 ## Practice
 
 Suppose we want to append something to a file and print its content. Fill the gaps accordingly:
+
 ```python
 file = open('practice.py', '???')
 file.write('Append this')
@@ -82,26 +76,27 @@ file.???(0)
 print(file.???())
 ```
 
+- `a+`
+- `seek`
+- `read`
+- `a`
+- `write`
+- `append`
+- `w`
 
-* `a+`
-* `seek`
-* `read`
-* `a`
-* `write`
-* `append`
-* `w`
 
 ---
+
 ## Revision
 
 Suppose we want to open a file and write something to it. Fill the gaps accordingly:
+
 ```python
 file = open('practice.txt', '???')
 file.???('this is my new file')
 ```
 
-
-* `w`
-* `write`
-* `r`
-* `read`
+- `w`
+- `write`
+- `r`
+- `read`

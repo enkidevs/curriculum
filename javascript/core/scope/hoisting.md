@@ -1,44 +1,22 @@
 ---
 author: AlexYancey
-
-levels:
-
-  - basic
-
-  - medium
-
-  - beginner
-
 type: normal
-
 category: feature
-
-standards:
-  javascript.functions.5: 10
-
 tags:
-
   - introduction
-
   - workout
-
-
-
 notes: ''
-
-aspects:
-  - introduction
-  - workout
-
-
 ---
 
 # Hoisting
 
+
 ---
+
 ## Content
 
 Think fast, what does this snippet print?
+
 ```javascript
 var a = 1;
 function go() {
@@ -68,9 +46,12 @@ function go() {
 }
 go();
 ```
+
 In this case, `a` is redeclared and reset to `undefined` before it is logged.
 
+
 ---
+
 ## Practice
 
 What will the following functions print? ???
@@ -91,17 +72,19 @@ function calc() {
 calc();
 ```
 
+- `run: undefined, calc: 1`
+- `run: 1, calc: 1`
+- `run: 4, calc: 1`
+- `run: 4, calc: 4`
+- `run: undefined, calc: undefined`
 
-* `run: undefined, calc: 1`
-* `run: 1, calc: 1`
-* `run: 4, calc: 1`
-* `run: 4, calc: 4`
-* `run: undefined, calc: undefined`
 
 ---
+
 ## Revision
 
 What will this print
+
 ```javascript
 var a = 1;
 function go() {
@@ -112,7 +95,6 @@ go();
 // ???
 ```
 
-* `undefined`
-* `1`
-* `2`
- 
+- `undefined`
+- `1`
+- `2`

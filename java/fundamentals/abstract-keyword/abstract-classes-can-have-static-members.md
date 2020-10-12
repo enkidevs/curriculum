@@ -1,38 +1,20 @@
 ---
 author: adamMontgomerie
-
-levels:
-
-  - basic
-
-  - advanced
-
-  - medium
-
 type: normal
-
 category: tip
-
-aspects:
-
-  - introduction
-
 tags:
-
   - abstract
-
   - static
-
-
 links:
-
-  - '[docs.oracle.com](https://docs.oracle.com/javase/tutorial/java/IandI/abstract.html){website}'
-
+  - >-
+    [docs.oracle.com](https://docs.oracle.com/javase/tutorial/java/IandI/abstract.html){website}
 ---
 
 # `abstract` classes can have `static` members
 
+
 ---
+
 ## Content
 
 An `abstract` class cannot be instantiated, so any instance methods that have been implemented cannot be called. 
@@ -47,8 +29,11 @@ abstract class AClass {
   }
 }
 ```
+
 The `abstract` class above contains a `static` method. It can be called like this:
+
 ```java
 int x = AClass.staticMethod(2);
 ```
+
 An `abstract` class can also have `static` fields.

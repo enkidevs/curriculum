@@ -1,32 +1,19 @@
 ---
 author: catalin
-
-levels:
-
-  - beginner
-
 type: normal
-
 category: must-know
-
-aspects:
-
-  - deep
-
-  - workout
-
 links:
-
-  - '[www.bleepingcomputer.com](https://www.bleepingcomputer.com/tutorials/tcp-and-udp-ports-explained/){website}'
+  - >-
+    [www.bleepingcomputer.com](https://www.bleepingcomputer.com/tutorials/tcp-and-udp-ports-explained/){website}
   - '[www.diffen.com](http://www.diffen.com/difference/TCP_vs_UDP){website}'
-
 parent: what-is-a-port
-
 ---
 
 # What are TCP and UDP?
 
+
 ---
+
 ## Content
 
 Both `TCP` and `UDP` are protocols that deal with sending chunks of data (packets) over a network.
@@ -47,7 +34,7 @@ After both computers are aware that the transfer is over (there are no packets m
 
 As a consequence, `TCP` transfers are **slower**, but error correction is ensured.
 
-Common protocols that work on top of `TCP` are: **HTTP**, **HTTPS**[1], **FTM**, **SMTP** and **Telnet**. We will get back to these in the following insights.
+Common protocols that work on top of `TCP` are: **HTTP**, **HTTPS**[1], **FTP**, **SMTP** and **Telnet**. We will get back to these in the following insights.
 
 #### UDP
 
@@ -59,32 +46,37 @@ The simplicity of `UDP` reduces the overhead[2] of other protocols and can be ad
 
 Protocols such as **DHCP** and **VOIP** work on top of `UDP`.
 
+
 ---
+
 ## Practice
 
 Which of the following protocols ensures error-correction of **packets**?
 
 ???
 
+- `TCP`
+- `UDP`
+- `IP`
 
-* `TCP`
-* `UDP`
-* `IP`
 
 ---
+
 ## Revision
 
 Which of the following protocols prioritizes **speed** over **reliability** ?
 
 ???
 
+- `UDP`
+- `TCP`
+- `IP`
 
-* `UDP`
-* `TCP`
-* `IP`
 
 ---
+
 ## Footnotes
+
 [1:protocol naming convention]
 Protocol acronyms that end with an `s` usually refer to the **secure** (encrypted, authenticated, etc.) version of some protocol.
 
@@ -92,4 +84,4 @@ For example, `HTTPS` refers to the secure extension of `HTTP`.
 
 [2:overhead]
 Overhead, in Computer Science, means any form of excess or indirect computation, time, memory, bandwidth or other resources required to complete a specific task.
-
+ 

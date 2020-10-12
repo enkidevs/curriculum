@@ -1,32 +1,19 @@
 ---
 author: DanielAmorimAraujo
-
-levels:
-
-  - basic
-
-  - advanced
-
-  - medium
-
 type: normal
-
 category: feature
-
-
-links:  
-  - '[React.memo Official Documentation](https://facebook.github.io/react/docs/react-api.html#reactmemo){website}'
-
+links:
+  - >-
+    [React.memo Official
+    Documentation](https://facebook.github.io/react/docs/react-api.html#reactmemo){website}
 parent: custom-proptype-s-to-be-required
-
-aspects:
-  - deep
-
 ---
 
 # Shallow compare in function components
 
+
 ---
+
 ## Content
 
 If you want to use function components, the same performance boost can be achieved by wrapping the component in a call to `React.memo`. What this does is that React will skip rendering the component and re-use the last rendered result if there is no change in `prop`s or `state`. As it was the case with `PureComponent`s, only a shallow comparison is completed.
@@ -58,7 +45,9 @@ const Component = React.memo(
 );
 ```
 
+
 ---
+
 ## Practice
 
 Complete the code so that **EnkiComp** only re-renders if **areEqual** returns false
@@ -76,23 +65,25 @@ const Enki = React.???(
 );
 ```
 
-* `memo`
-* `EnkiComp`
-* `areEqual`
-* `PureComponent`
-* `Memo`
-* `Enki`
-* `React.PureComponent`
-* `React.memo`
+- `memo`
+- `EnkiComp`
+- `areEqual`
+- `PureComponent`
+- `Memo`
+- `Enki`
+- `React.PureComponent`
+- `React.memo`
+
 
 ---
+
 ## Revision
 
 A ??? can be achieved with `React.Memo` when used on a React component that is ???.
 
-* performance boost
-* pure
-* successful check
-* clean
-* raw
-* successful render
+- performance boost
+- pure
+- successful check
+- clean
+- raw
+- successful render

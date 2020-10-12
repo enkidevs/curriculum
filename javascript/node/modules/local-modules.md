@@ -1,115 +1,117 @@
 ---
 author: tommarshall
-
-levels:
-  - beginner
-  - basic
-  - medium
-  - advanced
-
 type: normal
-
 category: must-know
-
-
-standards:
-  javascript.use-modules.0: 10
-  javascript.use-modules.1: 10
-
 tags:
   - introduction
   - workout
-
 links:
-  - '[Local Modules](http://www.tutorialsteacher.com/nodejs/nodejs-local-modules){website}'
-
+  - >-
+    [Local
+    Modules](http://www.tutorialsteacher.com/nodejs/nodejs-local-modules){website}
 parent: the-http-module-for-servers
-
-aspects:
-  - introduction
-  - workout
-
-
 ---
+
 # Local Modules
 
+
 ---
+
 ## Content
 
 In Node.js a local module is a module created locally to your application. A local module can include different functionalities of the application across different files and folders.
 
-Local modules must be in their own separate JavaScript file.
-Consider the following example of a local module (filename `news.js`):
+Local modules must be **in their own separate JavaScript file**.
+
+Consider the following example of a local module, found in the `news.js` file:
 
 ```javascript
-var news = {
-  good: function(good) {
+// news.js
+
+const news = {
+  good: (good) => {
     console.log('Good news! ' + good);
   },
-  bad: function(bad) {
+  bad: (bad) => {
     console.log('Bad news... ' + bad);
   }
 };
-module.export = news
+
+module.exports = news
 ```
 
-A local module has to be required into an application in the same way a core module does, the only difference being that the path to the module must be specified as follows in `main.js`:
+A local module has to be required into an application in the same way a core module does. The only difference is that the path to the module must be specified in `main.js`:
 
 ```javascript
-var newsModule = require(`./news.js`);
+// main.js
+
+const newsModule = require(`./news.js`);
 ```
+
+> 💡 In this case both `news.js` and `main.js` are found in the same folder. If your modules are in separate folders, you should specify the path to file (e.g. `/path-to-file/news.js`).
 
 The local module object can now be called with one of its functions:
+
 ```javascript
-newsModule.good('We're working on Node!');
+// main.js
+const newsModule = require(`./news.js`);
+
+newsModule.good("We're working on Node!");
 ```
+
 To run the module:
+
 ```bash
-$ node main.js
+node main.js
 # Good news! We're working on Node!
 ```
 
+
 ---
+
 ## Practice
 
 Consider the following local node module:
 
 ```javascript
 // myModule.js
+
 module.exports = {
-  hello: function() {
-    console.log('Hello from Enki')
+  hello: () => {
+    console.log('Hello from Enki');
   }
 }
 ```
 
 How would you import and use it in your application?
 
+Running `node main.js` into the console should log `"Hello from Enki"`.
+
 ```javascript
 // main.js
-var myModule = ???('./myModule.js')
+
+const myModule = ???('./myModule.js')
 
 ???.???
 ```
 
-Running `$ node myModule` should log "Hello from Enki".
+- require
+- myModule
+- hello()
+- hello
+- req
+- import
+- myFile
+- myLocalModule
 
-* require
-* myModule
-* hello()
-* hello
-* req
-* import
-* myFile
-* myLocalModule
 
 ---
+
 ## Revision
 
 Which of the following module types must have its path specified when requiring it?
 
 ???
 
-* local
-* core
- 
+- local
+- core

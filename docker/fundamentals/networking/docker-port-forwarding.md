@@ -1,17 +1,18 @@
 ---
 author: nem035
-aspects:
-  - deep
-  - workout
 type: normal
 category: caveats
 links:
-  - '[Binding Docker Ports](https://runnable.com/docker/binding-docker-ports){article}'
+  - >-
+    [Binding Docker
+    Ports](https://runnable.com/docker/binding-docker-ports){article}
 ---
 
 # Port Forwarding
 
+
 ---
+
 ## Content
 
 By default, a container is not accessible to the outside world.
@@ -46,7 +47,7 @@ docker port mongo
 
 Above would output something like this:
 
-```
+```plain-text
 27017/tcp -> 0.0.0.0:27017
 ```
 
@@ -58,11 +59,13 @@ docker port mongo 27017
 
 Above would output something like this:
 
-```
+```plain-text
 0.0.0.0:27017
 ```
 
+
 ---
+
 ## Practice
 
 If we instantiate a container from an image created with this Dockerfile:
@@ -85,10 +88,12 @@ Will the container be accessible via port `9090` on the host it's running on?
 
 ???
 
-* No
-* Yes
+- No
+- Yes
+
 
 ---
+
 ## Revision
 
 List all port mappings for the container `enki`:
@@ -97,7 +102,7 @@ List all port mappings for the container `enki`:
 docker ??? enki
 ```
 
-* `port`
-* `list`
-* `port-list`
-* `list-port`
+- `port`
+- `list`
+- `port-list`
+- `list-port`

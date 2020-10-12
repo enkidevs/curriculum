@@ -25,7 +25,7 @@ links:
 
 Running the simple command:
 ```bash
-$ npm dedupe
+npm dedupe
 // npm ddp also works
 ```
 `npm` will search the local package tree and will attempt to move dependencies further up the tree as to simplify the overall structure. 
@@ -50,3 +50,5 @@ myPackage
 ```  
 
 Keep in mind that this command will only transform the dependency tree, yet it will never install additional modules.
+ 
+ 

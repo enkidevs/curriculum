@@ -1,33 +1,21 @@
 ---
 author: adamMontgomerie
-
-levels:
-
-  - basic
-
 type: normal
-
 category: tip
-
-aspects:
-
-  - introduction
-
 tags:
-
   - strings
-
 links:
-
-  - '[docs.oracle.com](http://docs.oracle.com/javase/7/docs/api/java/util/Formatter.html){website}'
-
+  - >-
+    [Class
+    Formatter](http://docs.oracle.com/javase/7/docs/api/java/util/Formatter.html){website}
 notes: 'Gamified insight. Static Workout. '
-
 ---
 
 # Altering format string output by changing a format specifier's `argument_index`
 
+
 ---
+
 ## Content
 
 A format string is a string which can include one or more format specifiers.
@@ -35,40 +23,51 @@ A format string is a string which can include one or more format specifiers.
 ```java
 String hungry = "hungry";
 String hippo = "hippo";
-String s = String.format(
+String result = String.format(
   "%s %s",
   hungry,
   hippo);
 ```
 
-Here, `"%s %s"` is a format string, and `%s` is a format specifier. The value of `s` is `"hungry hippo"`.
+Here, `"%s %s"` is a format string, and `%s` is a format specifier. The `%s` specifier will be replaced with the first string given as an argument.
 
-Modify the order that the arguments appear in the format string by specifying an argument index in the format specifiers.
+In this example, `result` will be formatted to `"hungry hippo"`.
+
+To modify the order that the arguments appear in the format string, specify an argument index in the format specifiers.
 
 Argument indexes take the form of a non-negative integer followed by `$`, where the integer specifies the position of the argument in the argument list.
 
 ```java
-String s = String.format(
+String hungry = "hungry";
+String hippo = "hippo";
+String result = String.format(
   "%2$s %1$s",
   hungry, 
   hippo);
 ```
 
-The output of the example above will be `"hippo hungry"` because we have specified that argument 2 (`%2$s`) will come before argument 1 (`%1$s`).
+Here, `%2$s` will be replaced with **the second** string argument, and `%1$s` will be replaced with **the first** string argument. So, in this example, `%2$s` will be the `hippo` string, and `%1$s` will be the `hungry` string. The output of the method will be `"hippo hungry"`.
+
 
 ---
+
 ## Revision
 
-What is the value of `s` ?
+What will be the value of `result`?
 
 ```java
-s = String.Format("%2$s %3$s %1$s",
-                   "a","b","c");
-// s = ???
+result = String.format(
+  "%2$s %3$s %1$s",
+  "a",
+  "b",
+  "c"
+);
+
+// result = ???
 ```
 
-* `bca`
-* `abc`
-* `aaa`
-* `cab`
-* `bac`
+- `bca`
+- `abc`
+- `aaa`
+- `cab`
+- `bac`

@@ -1,39 +1,23 @@
 ---
 author: SebaRaba
-
-levels:
-
-  - beginner
-
-  - basic
-
-  - medium
-
-  - advanced
-
 type: normal
-
 category: must-know
-
-aspects:
-
-  - deep
-
 links:
-
-  - '[www.tutorialspoint.com](https://www.tutorialspoint.com/http/http_responses.htm){website}'
-
+  - >-
+    [www.tutorialspoint.com](https://www.tutorialspoint.com/http/http_responses.htm){website}
 parent: http-response
-
 ---
 
 # A Response Example
 
+
 ---
+
 ## Content
 
 Assuming that the dummy password is correct, the server's response to the previous login request looks like this:
-```text
+
+```plain-text
 HTTP/1.1 200 OK
 Access-Control-Allow-Origin: *
 Content-Encoding: gzip
@@ -62,32 +46,33 @@ As you probably noticed, the request was successful, its **header** containing:
 
 In addition, the **payload** or **message body** can also present in this response. In this scenario, a `JSON` object was returned by the *server*, containing various user information.
 
+
 ---
+
 ## Practice
 
 Which of the following **HTTP response** header fields contains a identifier used for cached resources?
 
 ???
 
+- `ETag`
+- `Content-Encoding`
+- `Tag`
+- `*`
+- `Cache-Version`
+- `Cached-Version`
 
-* `ETag`
-* `Content-Encoding`
-* `Tag`
-* `*`
-* `Cache-Version`
-* `Cached-Version`
 
 ---
+
 ## Revision
 
 Which of the following **HTTP response** header fields specifies the format of the payload?
 
 ???
 
-
-* `Content-Type`
-* `Content-Encoding`
-* `Content-Length`
-* `Content-Format`
-
-
+- `Content-Type`
+- `Content-Encoding`
+- `Content-Length`
+- `Content-Format`
+ 

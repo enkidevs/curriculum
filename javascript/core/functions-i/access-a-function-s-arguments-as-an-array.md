@@ -1,94 +1,94 @@
 ---
 author: Bruno
-
-levels:
-  - beginner
-
 type: normal
-
 category: how to
-
-standards:
-  javascript.functions.1: 10
-
 tags:
   - introduction
-
 links:
-  - '[developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/arguments){documentation}'
+  - >-
+    [The Arguments
+    Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/arguments){documentation}
+---
 
-aspects:
-  - introduction
-  - workout
+# Access a Function's `arguments` as an Array
 
 
 ---
-# Access a function's `arguments` as an array
 
----
 ## Content
 
-The arguments of a function can be accessed with the `arguments` keyword, but `arguments` only returns a *pseudo-array*.
+The [arguments](https://enki.com/glossary/general/parameter-vs-argument) of a function can be accessed with the `arguments` keyword.
 
-Before applying Array methods, `arguments` needs to be converted to an actual Array, as follows:
+Do note that the value in `arguments` is a *pseudo-array* (an object with a length) that doesn't have all of the functionality of the JavaScript `Array` object.
+
+Before applying `Array` methods, `arguments` needs to be converted to an actual `Array`, as follows:
 
 ```javascript
 function sortedArgs() {
-  // pseudo-array of arguments
-  var a = arguments
-  // turn a into a proper Array:
-  a = Array.prototype.slice.call(a)
-  // we can now use Array methods:
-  return a.sort();
+  // `arguments` is a pseudo-array
+  console.log(Array.isArray(arguments));
+  // false
+
+  // to create an array from the arguments
+  // use the Array.from() prototype method
+  let argList = Array.from(arguments);
+  console.log(Array.isArray(argList));
+  // true
+
+  return argList.sort();
 }
 ```
 
 Example of use:
 
 ```javascript
-sortedArgs(3,1,2)
-// [1,2,3]
+sortedArgs(3, 1, 2)
+// false
+// true
+// [1, 2, 3]
 ```
 
+
 ---
+
 ## Practice
 
 The following `returnArgs` function should return an array containing the arguments with which it is called. Complete the missing gaps such that it works as intended:
 
 ```javascript
-
 function returnArgs() {
-  return ???.prototype
-    .slice.call(???)
+  return ???.???(???);
 }
 ```
 
-* Array
-* arguments
-* argv
-* args
-* argvs
-* array
-* new Array
+- Array
+- from
+- arguments
+- argv
+- args
+- argvs
+- array
+- new Array
+
 
 ---
+
 ## Revision
 
-Turn the arguments of a method into a array:
+Turn the arguments of a method into a sorted array:
 
 ```javascript
 function myArray() {
-  var a = ???;
-  a = Array.prototype.???.call(a);
-  return a;
+  let argList = ???.???(???);
+  return argList.???();
 }
 ```
 
-* arguments
-* slice
-* splice
-* argv
-* args
-* sort
-* toArray
- 
+- Array
+- from
+- arguments
+- sort
+- slice
+- splice
+- args
+- argvs

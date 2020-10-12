@@ -1,34 +1,23 @@
 ---
 author: lizTheDeveloper
-
-levels:
-  - medium
-  - advanced
-
 type: normal
-
 category: feature
-
 inAlgoPool: false
-
 tags:
   - workout
   - es6
   - deep
   - strings
-
 links:
-  - '[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals){website}'
-
-aspects:
-  - workout
-  - deep
-
-
+  - >-
+    [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals){website}
 ---
+
 # Tagged Template Literals
 
+
 ---
+
 ## Content
 
 For more advanced templating you can use **Tagged Template Literals**, which allow you to define a function that does multiple processing steps in order to produce a string. Our template becomes a function, rather than a simple string, allowing us to abstract the templating process.
@@ -67,7 +56,9 @@ function price(strings, ...substitution){
 }
 ```
 
+
 ---
+
 ## Practice
 
 Consider the following tagged template function call:
@@ -93,18 +84,20 @@ console.log(substitutions)
 // ???
 ```
 
-* ['Number ', ' is']
-* [2]
-* 2
-* 'Number'
-* 'is'
-* ['Number', 'is']
-* [['Number', 'is'], 2]
-* [0, 2]
-* ['Number', 'is', 2]
-* ['Number ', ' is', 2]
+- ['Number ', ' is']
+- [2]
+- 2
+- 'Number'
+- 'is'
+- ['Number', 'is']
+- [['Number', 'is'], 2]
+- [0, 2]
+- ['Number', 'is', 2]
+- ['Number ', ' is', 2]
+
 
 ---
+
 ## Revision
 
 Given the following function:
@@ -126,17 +119,15 @@ How would you call the the tagged template function such that the log statement 
 ```javascript
 const number = 2;
 console.log(
- ???`Number ${number}???
+  ???`Number ???{???}`
 )
 // Number 2 is even
 ```
 
-* processNumber
-* `
-* `)
-* processNumber(
-* processNumber()
-* this.processNumber(
-* String.template(processNumber
-* `))
- 
+- processNumber
+- $
+- number
+- processNumber(
+- processNumber()
+- this.processNumber(
+- String.template(processNumber

@@ -1,61 +1,50 @@
 ---
 author: alexjmackey
-
-levels:
-  - medium
-  - advanced
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-  - new
-  - workout
-
-inAlgoPool: false
-
 links:
-  - '[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy){website}'
-
+  - >-
+    [Proxy](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy){documentation}
 ---
+
 # Using Proxies
 
+
 ---
+
 ## Content
 
 Proxies allow you to intercept many different operations and methods:
 
-* new operator
-* getPrototypeOf
-* setPrototypeOf
-* isExtensible
-* preventExtensions
-* getOwnPropertyDescriptor
-* in operator
-* delete
-* defineProperty
-* enumerate
-* ownKeys
-* apply
+- new operator
+- getPrototypeOf
+- setPrototypeOf
+- isExtensible
+- preventExtensions
+- getOwnPropertyDescriptor
+- in operator
+- delete
+- defineProperty
+- enumerate
+- ownKeys
+- apply
 
-Of course you only need to specify those you want to intercept otherwise the default behavior will occur.
+Of course, you only need to specify those you want to intercept otherwise the default behavior will occur.
 
 Here is an example of intercepting delete calls:
 
 ```javascript
-var handler = {
+let handler = {
   deleteProperty(target, key) {
     console.log("ignoring delete");
     return true;
   }
 };
 
-var obj = { x: "y" };
-var proxy = new Proxy(obj, handler);
-delete proxy.x; //ignoring delete
-console.log(obj.x); //y
+let obj = { x: "y" };
+let proxy = new Proxy(obj, handler);
+delete proxy.x; // ignoring delete
+console.log(obj.x); // y
 ```
 
 ### Revocable Proxy
@@ -64,10 +53,10 @@ There is a special type of proxy called a **revocable proxy**.
 
 This allows you to later deny access to the proxy by calling the revoke method.
 
-First we use `Proxy.revocable` to obtain a revocable proxy:
+First, we use `Proxy.revocable` to obtain a revocable proxy:
 
 ```javascript
-var rev = Proxy.revocable(
+let rev = Proxy.revocable(
   {},
   {
     get: function(target, name) {
@@ -76,7 +65,7 @@ var rev = Proxy.revocable(
   }
 );
 
-var p = rev.proxy;
+let p = rev.proxy;
 p.a; // accessed a
 ```
 
@@ -85,8 +74,7 @@ Then we can deny access to the proxy by calling the revoke method:
 ```javascript
 p.revoke();
 p.a;
-// VM181:1 Uncaught TypeError:
-// p.revoke is not a function(...)
+// TypeError: p.revoke is not a function
 ```
 
 ### Potential Usages
@@ -95,14 +83,16 @@ Proxies have a number of potential usages and we will probably see library and f
 
 Some potential usages:
 
-* Block access to values
-* Return different values
-* Stop people setting certain values
-* Validation & logging
-* Extending constructors
-* As a shim/fallback for older browsers in the future
+- Block access to values
+- Return different values
+- Stop people setting certain values
+- Validation & logging
+- Extending constructors
+- As a shim/fallback for older browsers in the future
+
 
 ---
+
 ## Practice
 
 Fill in the gaps such that log statements hold true:
@@ -121,19 +111,21 @@ console.log(proxy.enki)
 // TypeError
 ```
 
-* Proxy
-* revocable
-* get
-* proxy
-* rev
-* revoke
-* throw
-* catch
-* try
-* new Proxy
-* get()
+- Proxy
+- revocable
+- get
+- proxy
+- rev
+- revoke
+- throw
+- catch
+- try
+- new Proxy
+- get()
+
 
 ---
+
 ## Revision
 
 Fill in the gaps of the following snippet such that, using a Proxy, the proprieties of `pObj` cannot be deleted via `delete` keyword:
@@ -152,15 +144,14 @@ console.log(pObj)
 // { enki: 42 }
 ```
 
-* deleteProperty
-* Proxy
-* obj
-* proxyFn
-* enki
-* 42
-* delete
-* deleteOwnProperty
-* proxy
-* function
-* function*
- 
+- deleteProperty
+- Proxy
+- obj
+- proxyFn
+- enki
+- 42
+- delete
+- deleteOwnProperty
+- proxy
+- function
+- function*

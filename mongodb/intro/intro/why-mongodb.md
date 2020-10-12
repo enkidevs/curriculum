@@ -1,25 +1,16 @@
 ---
 author: Stefan-Stojanovic
-
-levels:
-  - beginner
-
-aspects:
-  - introduction
-  - workout
-
 type: normal
-
 category: must-know
-
 links:
   - '[Official MongoDB Website](https://www.mongodb.com){website}'
-
 ---
 
 # Why MongoDB?
 
+
 ---
+
 ## Content
 
 MongoDB is a free, open-source, document-based database that stores documents in BSON (Binary JSON) format, grouped in *collections*.
@@ -35,12 +26,17 @@ Notable properties:
 - High availability using replica sets with two or more copies of the data where each replica set may act as the primary replica at any time.
 - Support for multi-document `ACID` transactions
 
+> Note: as with all the skills in the app, if you want to access more advanced or specific content at any time, **feel free to use the *Skill Map* tab** to jump to the workouts most relevant for you.
+
+
 ---
+
 ## Practice
 
 Documents in a MongoDB collection always have to have the same structure.
 
 ???
 
-* False
-* True
+- False
+- True
+ 

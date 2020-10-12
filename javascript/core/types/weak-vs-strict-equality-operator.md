@@ -1,113 +1,107 @@
 ---
 author: pawel
-
-levels:
-
-  - basic
-
 type: normal
-
 category: must-know
-
-standards:
-  javascript.evaluate-expressions.5: 10
-  javascript.evaluate-expressions.4: 10
-  javascript.javascript-syntax.2: 10
-  javascript.evaluate-expressions.3: 10
-  javascript.evaluate-expressions.10: 10
-
 tags:
-
   - introduction
-
-
 links:
-
-  - '[developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Comparison_Operators){website}'
-
-
-aspects:
-  - introduction
-  - workout
-  - obscura
-
+  - >-
+    [Comparison
+    Operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Comparison_Operators){website}
 ---
 
 # Weak vs Strict equality operator
 
+
 ---
+
 ## Content
 
 JavaScript supports two forms of equality.
 
-*Weak Typing*
+### Weak Typing
 
 The operator `==` coerces (converts) types before comparing the terms:
 
+```js
+0 == "" // true
+5 == "5" // true
+false == "0" // true
+"enki" == "enki" // true
 ```
-""  ==  "0"    // false
-0   ==  ""     // true
-false == "0"   // true
-" \t\r\n" == 0   // true
-```
-Using `==` is generally considered bad practice as it often leads to difficult-to-locate bugs due to unintuitive conversion rules.
 
-*Strict Typing*
+Using `==` is generally considered bad practice as it often leads to difficult-to-locate bugs due to unexpected type conversions.
 
-The strict equality operator is expressed as `===`. It works as `==`, but without type coercion:
+> 💡 The **weak equality operator** (`==`) is also refered to as **loose** or **abstract**.
+
+### Strict Typing
+
+The strict equality operator `===` works as `==`, but without type coercion:
+
+```js
+0 === "" // false
+5 === "5" // false
+false === "0" // false
+"enki" === "enki" // true
 ```
-""  ===  "0"    // false
-0   ===  ""     // false
-false === "0"   // false
-" \t\r\n" === 0   // false
-```
-Note: ` \t\r\n` are special characters that you might see in strings. All of them are whitespace, under one form or another. `\t` represents a tab (multiple space characters), while `\r` - carriage return -  and `\n` - line feed - are new line characters (they are not exactly the same and are even used together - CRLF).
+
 
 ---
+
 ## Practice
 
-What is the output of the following code?
+Match the type name with the operator:
 
-```javascript
-console.log("" == "0")
-console.log("" === "0")
-console.log(" \t\r\n" == 0)
-// ???
+```plain-text
+==  - ???
+=== - ???
 ```
 
+Fill in the gaps with the correct equality operator to get the output:
 
-* `false false true`
-* `false true false`
-* `true false true`
-* `true false false`
-* `true true true`
-* `false true true`
+```js
+"19" ??? 19
+// true
+
+"nk" ??? "nk"
+// true
+```
+
+- Weak Equality Operator
+- Strict Equality Operator
+- ==
+- ===
+- Reference Equality Operator
+
 
 ---
+
 ## Revision
 
 What will the following code output?
 
 ```javascript
-console.log(0 == "");
-console.log("\n" == 0);
+console.log("" == 0);
+// ???
+console.log("" == " ");
 // ???
 ```
 
-* `true true`
-* `true false`
-* `false true`
-* `false false`
+- true
+- false
+
 
 ---
+
 ## Quiz
+
 ### how familiar are you with weak equality?
+
 
 // What will this evaluate to?
 "\t\r\n\ " == 0
 
-* true
-* false
-* SyntaxError
-* String
- 
+- true
+- false
+- SyntaxError
+- String

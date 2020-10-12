@@ -1,21 +1,14 @@
 ---
 author: Stefan-Stojanovic
-
-levels:
-  - beginner
-
-aspects:
-  - introduction
-
 type: normal
-
 category: how to
-
 ---
 
 # Updating a document
 
+
 ---
+
 ## Content
 
 In MongoDB, we can use the `updateOne()` method to update a single document, and the `updateMany()` method to update multiple documents at once.
@@ -95,7 +88,9 @@ Output:
 }
 ```
 
+
 ---
+
 ## Practice
 
 How would you change the `name` of a pokémon from "Tyran" to "Tyranitar"?
@@ -107,16 +102,18 @@ db.pokemon.???(
 );
 ```
 
-* `updateOne`
-* `name`
-* `"Tyran"`
-* `$set`
-* `$update`
-* `Name`
-* `$change`
-* `updateSingle`
+- `updateOne`
+- `name`
+- `"Tyran"`
+- `$set`
+- `$update`
+- `Name`
+- `$change`
+- `updateSingle`
+
 
 ---
+
 ## Revision
 
 Finish the code below to change the `type` of the misspelled "Firee" pokémon in the `pokemon` collection to be of `type` "Fire".
@@ -128,10 +125,10 @@ db.pokemon.???(
 );
 ```
 
-* `updateOne`
-* `"Firee"`
-* `$set`
-* `"Fire"`
-* `$arrange`
-* `updateCollection`
-* `fire`
+- `updateOne`
+- `"Firee"`
+- `$set`
+- `"Fire"`
+- `$arrange`
+- `updateCollection`
+- `fire`

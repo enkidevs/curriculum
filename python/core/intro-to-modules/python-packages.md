@@ -1,30 +1,18 @@
 ---
 author: SebaRaba
-
-levels:
-
-  - beginner
-
 type: normal
-
 category: must-know
-aspects:
-  - introduction
-  - workout
-standards:
-  python.modules.0: 10
-  python.modules.2: 10
-
 links:
-
-  - '[More about packages](https://code.tutsplus.com/tutorials/how-to-use-python-packages--cms-26000){website}'
-
-
+  - >-
+    [More about
+    packages](https://code.tutsplus.com/tutorials/how-to-use-python-packages--cms-26000){website}
 ---
 
 # Python packages
 
+
 ---
+
 ## Content
 
 A **package**[1] is a hierarchical file directory structure that defines a *single* Python application environment. Packages consist of modules and subpackages.
@@ -37,6 +25,7 @@ Consider a file `available_rooms.py` in a directory called **Hotel**:
 def available(rooms):
   print(rooms, ' rooms are available.')
 ```
+
 Then, a file `total_rooms.py` in the *same* directory:
 
 ```python
@@ -64,7 +53,7 @@ total_rooms.all_rooms(25)
 
 Note that the script `rooms_update.py` should be located in the main directory of your application. Here is how the file structure looks like:
 
-```
+```plain-text
 my_app/
   rooms_update.py
   Hotel/
@@ -73,10 +62,13 @@ my_app/
     total_rooms.py
 ```
 
+
 ---
+
 ## Practice
 
 Complete the missing code such that the `Hotel` package is imported and used properly:
+
 ```python
 ??? Hotel ??? total_rooms
 
@@ -85,17 +77,19 @@ def foo(x):
   return capacity
 ```
 
+- `from`
+- `import`
+- `total_rooms`
+- `as`
+- `all_rooms`
 
-* `from`
-* `import`
-* `total_rooms`
-* `as`
-* `all_rooms`
 
 ---
+
 ## Revision
 
 Say the `Hotel` package exposes the `available_rooms()` method. Complete the following code snippet such that only that function will be imported:
+
 ```python
 ??? Hotel import ???
 
@@ -103,15 +97,17 @@ def foo(x):
   return ???.available(x)
 ```
 
+- `from`
+- `available_rooms`
+- `available_rooms`
+- `Hotel.available_rooms(x)`
+- `total_rooms`
+- `all_rooms`
 
-* `from`
-* `available_rooms`
-* `available_rooms`
-* `Hotel.available_rooms(x)`
-* `total_rooms`
-* `all_rooms`
 
 ---
+
 ## Footnotes
+
 [1:Python packages]
 Speaking about Python versions that are older than Python **3.3**: each **package** is a **directory** that **must** contain a special file called: `__init__.py`. This **file** indicates that the directory it contains is a **Python package**. The `__init__.py` file is usually empty, but can be used to **export** selected portions of the package under more convenient name.

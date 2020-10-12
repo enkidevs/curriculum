@@ -1,31 +1,20 @@
 ---
 author: Stefan-Stojanovic
-
-levels:
-  - beginner
-  - basic
-
 type: normal
-
 category: must-know
+---
 
-standards:
-  web.html-forms.2: 10
-  web.embed-media.0: 10
+# The `height` & `width` Attributes
 
-aspects:
-  - introduction
-  - workout
-  - obscura
 
 ---
-# Height & width
----
+
 ## Content
 
 When using HTML input form attributes, if your input is of type `image` you can set it's height and width properties. These properties are set in Pixels(px)
 
 Example:
+
 ```html
 <form
   action="/page.php">
@@ -44,19 +33,23 @@ It is very important to set both the height and width in HTML to reserve space w
 
 Also, you can edit the height and width properties using CSS rules.
 
+
 ---
+
 ## Practice
 
 Which statements are not true regarding height & width attributes within forms?
 
 ???
 
-* CSS cannot assign height & width attributes within forms.
-* Important to add to reserve space during page load.
-* The height attribute is used only with `<input type="image">`.
-* The measurements are in pixels.
+- CSS cannot assign height & width attributes within forms.
+- Important to add to reserve space during page load.
+- The height attribute is used only with `<input type="image">`.
+- The measurements are in pixels.
+
 
 ---
+
 ## Revision
 
 Complete the code by adding the appropriate input form attributes to assign the size of the submit button (20 pixels wide by 30 pixels tall).
@@ -74,24 +67,26 @@ Complete the code by adding the appropriate input form attributes to assign the 
 </form>
 ```
 
-* width
-* height
-* wide
-* tall
-* vert
-* hor
+- width
+- height
+- wide
+- tall
+- vert
+- hor
+
 
 ---
+
 ## Quiz
 
 ### How much do you know about HTML input form attributes?
+
 
 Identify which statement is true regarding the use of height and width with input form attributes?
 
 ???
 
- * Both the height and width attribute are used only with `<input type="image">`.
- * The height attribute is used with `<input type="image">` and `<input type="button">`.
- * The width attribute is used with `<input type="image">` and `<input type="button">`.
- * You can only set the attributes height and width with CSS.
- 
+- Both the height and width attribute are used only with `<input type="image">`.
+- The height attribute is used with `<input type="image">` and `<input type="button">`.
+- The width attribute is used with `<input type="image">` and `<input type="button">`.
+- You can only set the attributes height and width with CSS.

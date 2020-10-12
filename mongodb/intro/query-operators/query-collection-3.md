@@ -1,75 +1,44 @@
 ---
 author: Stefan-Stojanovic
-
-levels:
-  - beginner
-
-aspects:
-  - new
-  - workout
-
 type: normal
-
 category: how to
+links:
+  - >-
+    [Official
+    Documentation](https://docs.mongodb.com/manual/reference/operator/query-comparison/){documentation}
+---
+
+# Querying a Collection Using Ranges
+
 
 ---
 
-# Querying a Collection Using Ranges Continued
-
----
 ## Content
 
-We are are going to discuss how to define a range between two values using a combination of the 4 previously explained operators.
+In the previous insight we learned how we can query categorical data[1] using the `$or` and `$in` operators.
+In this insight we introduce operators that help us query discrete data by specifying value ranges.
 
-Let's say we want to find all the pokémon whose `power` ranges between 250 and 350. Initially, you would be tempted to write this:
+These operators are:
+
+- `$lt` means less than the specified value (`<` is the mathematical counterpart)
+- `$lte` means less than or equal to the specified value (`<=` is the mathematical counterpart)
+- `$gt` means greater than the specified value (`>` is the mathematical counterpart)
+- `$gte` means greater than or equal to the specified value (`>=` is the mathematical counterpart)
+
+Let's say we have a `pokemon` collection where each pokémon has a `power` field which specifies their strength.
+
+Now, we want to look through the `pokemon` collection and find all the pokémon that have their `power` level greater than `250`. We can do so like this:
 
 ```javascript
-db.pokemon.find({
-  power: { $gt: 250 },
-  power: { $lt: 350 }
+db.pokemon.find({ 
+  power: { 
+    $gt: 250 
+  } 
 });
 ```
 
-Which will output the following:
-```javascript
-{
-  "_id": ObjectId(
-    "5d9d8c330b24990f19398214"
-  ),
-  "name": "Pikachu",
-  "type": "Electric",
-  "power": 231
-}
-{
-  "_id" : ObjectId(
-    "5d9d8a6a0b24990f19398209"
-  ),
-  "name": "Bulbasaur",
-  "type": "Grass",
-  "power": 311
-}
-{
-  "_id": ObjectId(
-    "5d9d8b8c0b24990f1939820f"
-  ),
-  "name": "Charmander",
-  "type": "Flame",
-  "power": 199
-}
-// ...
-```
+Output:
 
-Notice how all the results have their `power` lower than 350 but some of the results do not have their `power` greater than 250. This is because we are overwriting the `power: { $gt: 250 }` query with the `power: { $lt: 350 }` query. The correct way of writing is:
-
-```js
-db.pokemon.find({
-  power: {$gt: 250, $lt: 350}
-});
-```
-
-Now, we are displaying the pokémon (documents) within the specified range.
-
-Output of the above example:
 ```javascript
 {
   "_id" : ObjectId(
@@ -77,6 +46,7 @@ Output of the above example:
   ),
   "name": "Bulbasaur",
   "type": "Grass",
+  "secondType": "Poison",
   "power": 311
 }
 {
@@ -85,6 +55,7 @@ Output of the above example:
   ),
   "name": "Ivysaur:",
   "type": "Grass",
+  "secondType": "Poison",
   "power": 335
 }
 {
@@ -96,66 +67,118 @@ Output of the above example:
   "secondType": "Poison",
   "power": 333
 }
+{
+  "_id": ObjectId(
+    "5d9d8e640b24990f19398222"
+  ),
+  "name": "Moltres",
+  "type": "Fire",
+  "secondType": "Flying",
+  "power": 404
+}
 // ...
 ```
 
-**Note**: The order of the operators does not matter (`$lt`, `$lte`, `$gt` and `$gte`). This means the two examples below would give the exact same output:
+The other 3 operators, `$lt`, `$lte` and `$gte`, are used in the exact same way as the `$gt` operator.
 
 ```javascript
-// Example 1:
-db.pokemon.find({
-  { power: { $gte: 250, $lte: 350 } }
+db.pokemon.find({ 
+  power: { 
+    $gte: 250 
+  } 
 });
 
-// Example 2:
-db.pokemon.find({
-  { power: { $lte: 350, $gte: 250 } }
+db.pokemon.find({ 
+  power: { 
+    $lt: 250 
+  } 
+});
+
+db.pokemon.find({ 
+  power: { 
+    $lte: 250 
+  } 
 });
 ```
 
+You can also use a combination of the above operators to create more precise queries. For instance, to find all pokémon that are `1` or less years old and have power greater than `350`:
+
+```javascript
+db.pokemon.find({
+  power: { $gt: 350 },
+  age: { $lte: 1 }
+});
+```
+
+Output:
+
+```javascript
+// ...
+{
+  "_id": ObjectId(
+    "5d9d8e640b24990f19398222"
+  ),
+  "name": "Moltres",
+  "type": "Fire",
+  "secondType": "Flying",
+  "power": 404
+}
+{
+  "_id": ObjectId(
+    "5d9d8e9a0b24990f19398224"
+  ),
+  "name": "Mew",
+  "type": "Psychic",
+  "age": 1,
+  "power": 404
+}
+// ...
+```
+
+**Note**: If we wanted the query above to find only the documents where one of the values is true, we would have to add the `$or` logical operator.
+
+
 ---
+
 ## Practice
 
-Which of the following represents the correct way of selecting documents that fit within a defined range:
+Match the operator with the description:
 
-```js
-// A
-db.collection.find({
-  field: {$lt: 100},
-  field: {$gt: 1}
-});
-// B
-db.collection.find({
-  field: {$lt: 100, $gt: 1}
-});
-// C
-db.collection.find({
-  field: { {$lt: 100}, {$gt: 1} }
-});
-```
+`$lt` : ???
+`$lte`: ???
+`$gt` : ???
+`$gte`: ???
 
-???
+- Less than
+- Less than or equal to
+- Greater than
+- Greater than or equal to
 
-* B
-* A
-* C
 
 ---
+
 ## Revision
 
-Create a query to find all documents within the `pokemon` collection whose `age` falls in the range 23-31 (including the bounds).
+Create a query to find all documents within the `pokemon` collection whose `age` falls in the range 23-31, including the bounds.
 
 ```javascript
-db.pokemon.???({
-  ???: { ???: 23, ???: 31}
+db.pokemon.???({ 
+  ???: { ???: 23, ???: 31 }
 });
 ```
 
-* `find`
-* `age`
-* `$gte`
-* `$lte`
-* `$gt`
-* `$lt`
-* `aggregate`
-* `accumulate`
+- `find`
+- `age`
+- `$gte`
+- `$lte`
+- `$lt`
+- `$gt`
+- `%and`
+
+
+---
+
+## Footnotes
+
+[1:Categorical and discrete data]
+By categorical data we mean variables that represent a characteristic, and that might not have a logical order. By discrete data we mean variables that are countable, and that can be bounded by a range of values.

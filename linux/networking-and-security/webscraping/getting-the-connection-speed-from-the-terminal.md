@@ -1,56 +1,37 @@
 ---
-author: tuwi.dc
-
-levels:
-
-  - basic
-
-  - medium
-
-  - beginner
-
-aspects:
-  - obscura
-
+author: tuwidc
 type: normal
-
 category: hack
-
 tags:
-
   - linux
-
   - terminal
-
   - speedtest
-
   - wget
-
   - speed
-
-
 links:
-
   - '[github.com](https://github.com/sivel/speedtest-cli){website}'
-
-
 ---
 
 # Getting the connection speed from the terminal
 
+
 ---
+
 ## Content
 
 To get your internet speed from the terminal there is a tool called `speedtest-cli`
 and we can set it up as below:
+
+```bash
+pip install speedtest-cli
 ```
-$ pip install speedtest-cli
-```
+
 `pip` is part of the `python-pip` package and it requires a valid Python install to use it.
 
 We should get something like this:
-```
-$ speedtest-cli
+
+```bash
+speedtest-cli
 Retrieving speedtest.net configuration..
 Retrieving speedtest.net server list...
 Testing from Comcast Cable (x.x.x.x)...
@@ -62,16 +43,16 @@ Testing upload speed..................
 Upload: 5.18 Mbit/s
 ```
 
+
 ---
+
 ## Revision
 
 A tool to test your internet connection using the terminal is 
 
 ???.
 
-* speedtest-cli
-* internetspeed-cli
-* internetTest-cli
-* testspeed-cli
-
- 
+- speedtest-cli
+- internetspeed-cli
+- internetTest-cli
+- testspeed-cli

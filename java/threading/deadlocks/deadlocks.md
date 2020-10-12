@@ -1,38 +1,31 @@
 ---
-author: Nick Daminov
-
-levels:
-
-  - medium
-
+author: nickdaminov
 type: normal
-
 category: must-know
-
-aspects:
-
-  - workout
-
-  - deep
-
 links:
-
-  - '[Dining philosophers problem](https://en.wikipedia.org/wiki/Dining_philosophers_problem){website}'
-  - '[Deadlock examples](https://stackoverflow.com/questions/34512/what-is-a-deadlock){website}'
-  - '[More on Deadlock conditions](http://wikieducator.org/Necessary_conditions_for_deadlock){website}'
-
+  - >-
+    [Dining philosophers
+    problem](https://en.wikipedia.org/wiki/Dining_philosophers_problem){website}
+  - >-
+    [Deadlock
+    examples](https://stackoverflow.com/questions/34512/what-is-a-deadlock){website}
+  - >-
+    [More on Deadlock
+    conditions](http://wikieducator.org/Necessary_conditions_for_deadlock){website}
 ---
 
 # Deadlocks
 
+
 ---
+
 ## Content
 
 **Deadlock** is a situation in which two or more processes/threads are accessing same resources in a mutually exclusive fashion.
 
 A simple example:
 
-```
+```plain-text
 Thread1:
 1: acquire(lock1);//takes locks
 2: acquire(lock2);
@@ -41,7 +34,7 @@ Thread1:
 5: release(lock1);
 ```
 
-```
+```plain-text
 Thread2:
 1: acquire(lock2);//takes locks
 2: acquire(lock1);
@@ -54,24 +47,29 @@ If we consider a situation in which `Thread1` acquires `lock1` and then `Thread2
 
 **Deadlock** is not limited to two threads only, for example *dining philosophers* problem.
 
+
 ---
+
 ## Practice
 
 What lines in `Thread2` should we swap to avoid a *deadlock* situation?
 
 ???
 
-* lines 2 & 1
-* lines 4 & 5
-* lines 3 & 2
+- lines 2 & 1
+- lines 4 & 5
+- lines 3 & 2
+
 
 ---
+
 ## Revision
 
 What is a *deadlock*?
 
 ???
 
-* A situation in which processes fail to acquire resources due to mutual exclusion
-* A situation in which a process does not free it's resources after execution
-* A situation when all resources are acquired by the processes
+- A situation in which processes fail to acquire resources due to mutual exclusion
+- A situation in which a process does not free it's resources after execution
+- A situation when all resources are acquired by the processes
+ 

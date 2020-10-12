@@ -1,39 +1,19 @@
 ---
 author: mihaiberq
-
-levels:
-
-  - beginner
-
-  - basic
-
-  - medium
-
-  - advanced
-
 type: normal
-
 category: must-know
-
-aspects:
-
-  - deep
-
-  - obscura
-
-  - workout
-
 links:
-
-  - '[Step-by-step, interactive Kruskal`s algorithm application](https://www-m9.ma.tum.de/graph-algorithms/mst-kruskal/index_en.html){website}'
-
+  - >-
+    [Step-by-step, interactive Kruskal`s algorithm
+    application](https://www-m9.ma.tum.de/graph-algorithms/mst-kruskal/index_en.html){website}
 parent: traveling-salesman-problem
-
 ---
 
 # Kruskal's Algorithm
 
+
 ---
+
 ## Content
 
 **Kruskal's algorithm** is an algorithm that finds a *minimum spanning tree*[1] in a *weighted graph*[2]. The applications of minimum spanning trees are numerous: any type of network design (electrical, roads), data cluster analysis, process control, etc.
@@ -51,7 +31,8 @@ Having these two data structures, the algorithm comes down to extracting the *ch
 The algorithm terminates when the forest becomes a spanning tree of the graph.
 
 The *pseudocode* looks like this:
-```text
+
+```plain-text
 Kruskal(SortedEdges[])
   Vertices[] // map of edge's weights
     // between two nodes
@@ -62,25 +43,31 @@ Kruskal(SortedEdges[])
 
   return Vertices
 ```
+
 The function `sameConnectedComponent(v1, v2)` checks whether or not there already is a path between the two nodes. Why do we have to check that?[4]
 
 *Kruskal's algorithm* can be shown to run in *O(|E|×|log E|)* time, which is equivalent to *O(|E|×|logV|)*, where *E* and *V* are the number of edges and the number of vertices, respectively.
 
 Swipe to the next insight to see an iteration of the algorithm.
 
+
 ---
+
 ## Revision
 
 Kruskal's algorithm is used for finding
 
 ???.
 
-* the minimum spanning tree in a weighted graph
-* distances between the nodes in a weighted graph
-* the number of negative cycles in a weighted graph
+- the minimum spanning tree in a weighted graph
+- distances between the nodes in a weighted graph
+- the number of negative cycles in a weighted graph
+
 
 ---
+
 ## Footnotes
+
 [1:Minimum spanning tree]
 A **spanning tree** is a connected subgraph of the initial graph G, which contains all of the nodes in G and doesn't have any cycles. The spanning tree is **minimum** if its spanning properties are satisfied using the cheapest edges in the graph.
 
@@ -92,11 +79,12 @@ As the algorithm is using a greedy approach (sorted list of edges), we also know
 [3: Trees and cycles]
 A cycle is defined as a closed sequence of vertices (path): the start node and the end node are the same.
 By definition, for a graph to be considered a tree it must:
-  - be acyclic (have no cycles)
-  - be connected
+
+- be acyclic (have no cycles)
+- be connected
 
 If the chosen edge creates a cycle, the data structure won't be a tree anymore.
 
 [4: Hint]
 If they are part of the same component, it means those nodes will already appear in the final spanning tree.
-
+ 

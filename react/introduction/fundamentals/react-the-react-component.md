@@ -1,35 +1,18 @@
 ---
 author: catalin
-
-levels:
-
-  - beginner
-
-  - basic
-
-  - medium
-
-  - advanced
-
 type: normal
-
 category: must-know
-
-
 links:
-
-  - '[Components and props](https://facebook.github.io/react/docs/components-and-props.html){website}'
-
-parent: the-react-element
-
-aspects:
-  - introduction
-
+  - >-
+    [Components and
+    props](https://facebook.github.io/react/docs/components-and-props.html){website}
 ---
 
 # The React Component
 
+
 ---
+
 ## Content
 
 In **React**, a component represents a fundamental *unit of logic* you can work with to build re-usable and independent `UI` blocks. These blocks can be anything you see in a UI: a button, a header with an image, a list of links, etc.
@@ -62,7 +45,9 @@ The differences between function and class components will be discussed at the e
 
 Note: Component names should start with a capital letter such that you can differentiate them from **DOM tags**.
 
+
 ---
+
 ## Practice
 
 Complete the missing gaps such that `<MyComponent>` is defined using class syntax:
@@ -75,13 +60,15 @@ class MyComponent extends React.??? {
 }
 ```
 
-* `Component`
-* `render`
-* `return`
-* `Enki`
-* `createElement`
+- `Component`
+- `render`
+- `return`
+- `Enki`
+- `createElement`
+
 
 ---
+
 ## Revision
 
 Complete the missing gaps such that `MyComponent` is defined using class syntax:
@@ -94,16 +81,19 @@ Complete the missing gaps such that `MyComponent` is defined using class syntax:
 }
 ```
 
-* `class`
-* `extends`
-* `Component`
-* `render`
-* `return`
-* `Enki`
-* `createElement`
+- `class`
+- `extends`
+- `Component`
+- `render`
+- `return`
+- `Enki`
+- `createElement`
+
 
 ---
+
 ## Footnotes
+
 [1:ES6 alternative]
 
 If you use **React** with legacy (pre-ES6) syntax you can create components with the `createReactClass` helper from the `create-react-class` module:

@@ -1,51 +1,31 @@
 ---
 author: alexjmackey
-
-levels:
-
-  - beginner
-
 type: normal
-
 category: must-know
-
-inAlgoPool: false
-
-standards:
-
-  javascript.evaluate-expressions.10: 10
-
-  javascript.evaluate-expressions.2: 10
-
-tags:
-
-  - introduction
-
-aspects:
-  - introduction
-
-
 ---
 
 # Types - String
 
+
 ---
+
 ## Content
 
-You can declare a string value in JavaScript using either single or double quotes - JavaScript will accept either:
-```
-var company = "Enki";
-var company = 'Enki';
-```
-
-You can connect, usually called concat, two strings together with the '+' operator:
+The primary way to declare a string value in JavaScript is to use quotes. Using single or double works the same:
 
 ```javascript
-var longText = "abc" + "def" + "ghi";
-//longText is equal to "abcdefghi"
+let company1 = "Enki";
+let company2 = 'Enki';
 ```
 
-You can also use the backslash character to continue writing text on multiple lines (make sure nothing is after the backslash).
+You can connect, usually called "concat", two strings together with the '+' operator:
+
+```javascript
+let longText = "abc" + "def" + "ghi";
+// longText is equal to "abcdefghi"
+```
+
+You can also use the backslash character to continue writing text on multiple lines:
 
 ```javascript
 var longerText = "abc\
@@ -54,7 +34,8 @@ ghi";
 ```
 
 There are also special characters that can be used by preceding the character with a backslash. Here are some common ones:
-```
+
+```javascript
 \’ single quote
 \" double quote
 \\ backslash
@@ -63,38 +44,40 @@ There are also special characters that can be used by preceding the character wi
 \t tab
 ```
 
+
 ---
+
 ## Practice
 
-What special character is used to add a `new line` to strings?
+What special character is used to add a `new line` to strings denoted with quotes?
 
 ```javascript
-var myString = 'this will ???
+let myString = 'this will ???
        be displayed on two lines';
 ```
 
+- `\n`
+- `+`
+- `"`
+- `\`
+- `\r`
+- `\t`
 
-* `\n`
-* `+`
-* `"`
-* `\`
-* `\r`
-* `\t`
 
 ---
+
 ## Revision
 
-Which one of the following is correct ?
+Which one of the following is correct?
+
 ```javascript
-var company = "Enki";
-var company = 'Enki';
+let company1 = "Enki";
+let company2 = 'Enki';
 ```
 
 ???
 
-
-* both
-* first
-* second
-* none
- 
+- both
+- first
+- second
+- none

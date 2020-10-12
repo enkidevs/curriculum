@@ -3,6 +3,7 @@ core: true
 description: The basics of any blockchain.
 sections:
   '0':
+    - intro-blockchain
     - the-blockchain
     - the-bitcoin-blockchain
     - building-the-ledger
@@ -76,3 +77,6 @@ standards:
       6: Compare and contrast different consensus algorithms
       7: Identify and describe the incentivizing plan
       8: Identify and describe common attacks against the blockchain
+
+
+

@@ -1,22 +1,14 @@
 ---
 author: Stefan-Stojanovic
-
-levels:
-  - beginner
-
-aspects:
-  - new
-  - workout
-
 type: normal
-
 category: how to
-
 ---
 
 # Aggregation $count
 
+
 ---
+
 ## Content
 
 In the previous insight, we learned how to aggregate using the `$match` aggregation pipeline stage. Now, we are going to discuss the `$count` aggregation stage.
@@ -24,6 +16,7 @@ In the previous insight, we learned how to aggregate using the `$match` aggregat
 The `$count` aggregation stage is used to count the number of documents that entered the specified stage.
 
 Syntax:
+
 ```javascript
 {
   $count: "<string>"
@@ -53,7 +46,9 @@ db.pokemon.aggregate([
   { $count: "numOfWeakPokemon" }
 ])
 ```
+
 Output:
+
 ```javascript
 {
   "numOfWeakPokemon": 3
@@ -69,14 +64,18 @@ db.pokemon.aggregate({
   $count: "numOfPokemon"
 })
 ```
+
 Output:
+
 ```javascript
 {
   "numOfPokemon": 500
 }
 ```
 
+
 ---
+
 ## Practice
 
 What is the `$count` aggregation stage used for?
@@ -89,15 +88,17 @@ Which string can be used as the name of the output field for the `$count` aggreg
 ???
 ```
 
-* To count the number of remaining documents in the aggregation pipeline
-* `{ $count: "totalNumber" }`
-* To sort documents based on the specified number
-* To count the number of aggregation stages each document passes through
-* `{ $count: "$totalNumber" }`
-* `{ $count: "" }`
-* `{ $count: "total.Number" }`
+- To count the number of remaining documents in the aggregation pipeline
+- `{ $count: "totalNumber" }`
+- To sort documents based on the specified number
+- To count the number of aggregation stages each document passes through
+- `{ $count: "$totalNumber" }`
+- `{ $count: "" }`
+- `{ $count: "total.Number" }`
+
 
 ---
+
 ## Revision
 
 Let's say we have a collection named `students` with 2000 documents. Each student has a `name`, `studentId` and `averageGrade` field.
@@ -117,12 +118,12 @@ db.students.???([
 // }
 ```
 
-* `aggregate`
-* `$match`
-* `averageGrade`
-* `$gte`
-* `$count`
-* `$find`
-* `STUDENTS`
-* `name`
-* `studentId`
+- `aggregate`
+- `$match`
+- `averageGrade`
+- `$gte`
+- `$count`
+- `$find`
+- `STUDENTS`
+- `name`
+- `studentId`

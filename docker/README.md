@@ -1,9 +1,9 @@
 name: Docker
 
-description: Docker is a tool that makes it easier to create, deploy, and run applications anywhere in a unified manner
+description: Learn how to create, deploy, and run applications anywhere.
 
-color: 4FA1D0
+color: A6DEFF
 
-icon: https://img.enkipro.com/84d4c9f4d92d2003359d4608d30ba8cd.png
+icon: https://img.enkipro.com/34b03de37bb8e223594b54e6c26babab.png
 
 language: bash

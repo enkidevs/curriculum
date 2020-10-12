@@ -33,8 +33,8 @@ links:
 If you don't want to keep the changes that you've made to a file, you can use `git checkout` to revert to the previous version of the file.
 
 For example:
-```
-$ git checkout -- MYFILE.md
+```bash
+git checkout -- MYFILE.md
 ```
 It is not recommended that you use this command unless you are 100% certain. The deleted changes can't be recovered.
 
@@ -54,10 +54,12 @@ Why isn't reverting a file to its old version good practice?
 ## Revision
 
 Revert `README.md` to its previous version :
-```
-$ git ??? -- README.md
+```bash
+git ??? -- README.md
 ```
 * checkout
 * revert
 * remove
+ 
+ 
  

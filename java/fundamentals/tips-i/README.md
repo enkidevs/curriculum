@@ -9,4 +9,7 @@ insights:
   - follow-existing-project-naming-conventions
 
 game: java-8
- 
+
+aspects:
+  - introduction
+  - obscura

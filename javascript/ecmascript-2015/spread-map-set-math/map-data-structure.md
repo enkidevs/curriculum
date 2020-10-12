@@ -1,27 +1,20 @@
 ---
 author: alexjmackey
-
-levels:
-  - beginner
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-  - workout
-
 inAlgoPool: false
-
 links:
   - '[ponyfoo.com](https://ponyfoo.com/articles/es6-maps-in-depth){website}'
-  - '[MDN - Map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map){website}'
-
+  - >-
+    [MDN -
+    Map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map){website}
 ---
+
 # Map (data structure)
 
+
 ---
+
 ## Content
 
 Map is a new type of key/value object.
@@ -74,7 +67,9 @@ And the map can be emptied using clear:
 map.clear();
 ```
 
+
 ---
+
 ## Practice
 
 Complete the missing method calls in the following snippets such that the logs hold:
@@ -90,17 +85,19 @@ console.log(myMap.???(4))
 // true
 ```
 
-* set
-* get
-* has
-* add
-* push
-* contains
-* contain
-* delete
-* clear
+- set
+- get
+- has
+- add
+- push
+- contains
+- contain
+- delete
+- clear
+
 
 ---
+
 ## Revision
 
 Complete the missing method calls in the following snippets such that the logs hold:
@@ -121,15 +118,14 @@ console.log(myMap)
 
 ```
 
-* set
-* 4
-* has
-* clear()
-* delete()
-* add
-* push
-* contains
-* empty()
-* set()
-* add()
- 
+- set
+- 4
+- has
+- clear()
+- delete()
+- add
+- push
+- contains
+- empty()
+- set()
+- add()

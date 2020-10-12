@@ -9,3 +9,8 @@ insights:
   - calling-one-constructor-from-another
   - avoid-using-static-variables
  
+aspects:
+  - introduction
+  - obscura
+  - workout
+  - deep

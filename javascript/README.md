@@ -1,9 +1,9 @@
 name: JavaScript
 
-description: The engine of today’s internet, adding functionality from websites and servers to mobile apps.
+description: The engine of today's internet. We include Node.js, NPM and more.
 
-icon: https://img.enkipro.com/1047cb60feda7a0db727dac157f4db0f.png
+icon: https://img.enkipro.com/ffb20aa0ebccafc5f626018bccd5ebde.png
 
-color: C1A957
+color: FFE4A6
 
 language: js

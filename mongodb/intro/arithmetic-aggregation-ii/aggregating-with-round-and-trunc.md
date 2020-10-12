@@ -1,23 +1,14 @@
 ---
 author: Stefan-Stojanovic
-
-levels:
-  - beginner
-  - basic
-  
-aspects:
-  - introduction
-  - new
-
 type: normal
-
 category: feature
-
 ---
 
 # Aggregating With `$round` and `$trunc`
 
+
 ---
+
 ## Content
 
 In the previous insights, we have used a positive integer when truncating or rounding: `$trunc: ["field", 1]`. Using the same documents[1], we will now truncate using a negative number for the decimal place `$trunc: ["field", -1]`. 
@@ -42,6 +33,7 @@ db.pokemon.aggregate([
 ```
 
 We'd get the following documents as output:
+
 ```js
 {   
   "_id": ObjectId(
@@ -63,7 +55,9 @@ If we used `-3` as our decimal place (which is equal to the number of digits to 
 
 **Note:** The negative input works the same for both `$trunc` and `$round`.
 
+
 ---
+
 ## Practice
 
 Match the explanation with the operator.
@@ -71,16 +65,19 @@ Match the explanation with the operator.
 `$round` - ???
 `$trunc` - ???
 
-* is an arithmetic operator used to round a positive or negative number up or down to the desired decimal point.
-* is an arithmetic operator used to truncate a positive or negative number to the desired decimal point.
-* is an arithmetic operator only used for rounding positive integers. 
-* is an arithmetic operator only used to truncate a positive integer.
+- is an arithmetic operator used to round a positive or negative number up or down to the desired decimal point.
+- is an arithmetic operator used to truncate a positive or negative number to the desired decimal point.
+- is an arithmetic operator only used for rounding positive integers. 
+- is an arithmetic operator only used to truncate a positive integer.
+
 
 ---
+
 ## Footnotes
 
 [1:Previous Documents]
 Here are the documents we used in the previous insights:
+
 ```javascript
 { 
   "_id": ObjectId(

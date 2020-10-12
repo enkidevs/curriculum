@@ -1,22 +1,14 @@
 ---
 author: Stefan-Stojanovic
-
-levels:
-  - beginner
-  - basic
-
-aspects:
-  - introduction
-
 type: normal
-
 category: must-know
-
 ---
 
 # What is NoSQL
 
+
 ---
+
 ## Content
 
 `NoSQL`, or **Not only SQL**, is a common term to describe any database that strays away from the traditional relational database model.
@@ -40,33 +32,40 @@ The notable aspects that most NoSQL databases share are:
 
 NoSQL databases increase the amount of potential data storage options a business can use, allowing companies to use more-specialized technologies for certain kinds of data. This idea is commonly known as *polyglot persistence*.
 
+
 ---
+
 ## Practice
 
 When querying any NoSQL database, we are always guaranteed to get accurate and up-to-date information:
 
 ???
 
-* False
-* True
+- False
+- True
+
 
 ---
+
 ## Revision
 
 In a typical NoSQL database, the structure (shape) of the data that can be stored is not enforced.
 
 ???
 
-* True
-* False
+- True
+- False
+
 
 ---
+
 ## Footnotes
 
 [1:ACID transaction]
 An `ACID` transaction should be *atomic*, *consistent*, *isolated*, *durable*:
+
 - Atomic: although composed of multiple smaller tasks, a transaction succeeds or fails as a single "unit".
 - Consistent: a transaction can only bring the database from one valid state to another, based on the database rules
 - Isolation: execution of each transaction should be isolated. The effects of an incomplete transaction should not even be visible to other transactions.
 - Durable: once a transaction has reached a final state, it will remain committed even in the case of a system failure.
-
+ 

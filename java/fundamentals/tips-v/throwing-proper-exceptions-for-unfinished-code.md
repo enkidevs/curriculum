@@ -1,33 +1,16 @@
 ---
 author: hyousaf
-
-levels:
-
-  - basic
-
-  - advanced
-
-  - medium
-
 type: normal
-
 category: best practice
-
-aspects:
-
-  - introduction
-
-  - obscura
-
 links:
-
   - '[www.javalobby.org](http://www.javalobby.org/){website}'
-
 ---
 
 # Throwing proper exceptions for unfinished code
 
+
 ---
+
 ## Content
 
 If you haven't completed a library or class, its often better to add an `UnsupportedOperationException` with a good description. 
@@ -38,6 +21,7 @@ public DataEval<T> evalData(T data) {
        "Compare lib Incomplete");
 }
 ```
+
 This will
 
 a) throw an exception when its called, notifying the user what's happened

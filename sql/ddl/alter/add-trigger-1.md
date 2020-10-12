@@ -1,41 +1,22 @@
 ---
 author: SebaRaba
-
-levels:
-
-  - beginner
-
-  - basic
-
 type: normal
-
 category: must-know
-
 inAlgoPool: false
-
-standards:
-  sql.define-tables.2: 10
-
 tags:
-
   - workout
-
   - deep
-
 links:
-
-  - '[More on CREATE TRIGGER](https://www.codeproject.com/Articles/25600/Triggers-SQL-Server){website}'
-
-aspects:
-  - workout
-  - deep
-
-
+  - >-
+    [More on CREATE
+    TRIGGER](https://www.codeproject.com/Articles/25600/Triggers-SQL-Server){website}
 ---
 
 # Add Trigger (1)
 
+
 ---
+
 ## Content
 
 *Triggers* are defined to let the computer know it has to run a certain set of actions when an event happens. Usually this event means executing `UPDATE`, `INSERT` and `DELETE` statements. Basically it's a database object that is bound to a table and executes automatically. 
@@ -81,30 +62,32 @@ The `NO ACTION` argument is similar to `RESTRICT` in that it prohibits changing 
 ...
 ```
 
+
 ---
+
 ## Practice
 
-Complete the following syntax such that the *trigger* named 'integrity' prohibits deleting a record from the `pokemons` table if there are any matching records in the `region` table.
+Complete the following syntax such that the *trigger* named `'integrity'` prohibits deleting a record from the `pokemon` table if there are any matching records in the `region` table.
 
 ```sql
 CREATE TABLE region (
   ...
   ??? integrity
   ??? (id)
-  ??? pokemons(region_id)
+  ??? pokemon(region_id)
   ??? RESTRICT
   ??? RESTRICT,
   ...
 );
 ```
 
-* CONSTRAINT
-* FOREIGN KEY
-* REFERENCES
-* ON UPDATE
-* ON DELETE
-* PRIMARY KEY
-* RELATES
-* ON INSERT
-* IF UPDATE
-* IF DELETE
+- CONSTRAINT
+- FOREIGN KEY
+- REFERENCES
+- ON UPDATE
+- ON DELETE
+- PRIMARY KEY
+- RELATES
+- ON INSERT
+- IF UPDATE
+- IF DELETE

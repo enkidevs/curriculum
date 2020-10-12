@@ -1,19 +1,14 @@
 ---
 author: kapnobatai136
-
 type: normal
-
 category: must-know
-
-aspects:
-  - workout
-  - deep
-
 ---
 
 # Dependency array for the `useEffect()` hook
 
+
 ---
+
 ## Content
 
 Previously, you have learned how the `useEffect()` hook works, and how to apply it. Let's take a look at the following example:
@@ -69,7 +64,9 @@ Now, after every render, React will compare the previous value of `item.count` w
 
 It is important to include all the values from the component's scope (`state` and `prop`s) that *change over time* and that *are used by the effect*. Otherwise, your code will compare stale values and result in undesired consequences (too many or not enough effect calls).
 
+
 ---
+
 ## Practice
 
 Complete the following code such that the effect is ran only when the `name` state changes:
@@ -84,14 +81,16 @@ function Test() {
 }
 ```
 
-* `useEffect`
-* `[name]`
-* `useState`
-* `[setName]`
-* `[name, setName]`
-* `[]`
+- `useEffect`
+- `[name]`
+- `useState`
+- `[setName]`
+- `[name, setName]`
+- `[]`
+
 
 ---
+
 ## Revision
 
 How would you reproduce the following code using function components?
@@ -137,11 +136,13 @@ function C() {
 
 ???
 
-* A
-* B
-* C
+- A
+- B
+- C
+
 
 ---
+
 ## Footnotes
 
 [1: Object.is]
