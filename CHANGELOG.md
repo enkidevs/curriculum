@@ -41,7 +41,7 @@ Types of change:
 ## October 12th 2020
 
 ### Fixed
-- [React - What Are Hooks? - Fix typo in code block & minor improvements]()
+- [React - What Are Hooks? - Fix typo in code block & minor improvements](https://github.com/enkidevs/curriculum/pull/2384)
 
 ## October 8th 2020
 
