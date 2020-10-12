@@ -11,7 +11,7 @@ category: how to
 
 ---
 
-# Aggregation With $hour, $minute, $second and $millisecond
+# Aggregation With `$hour`, `$minute`, `$second` and `$millisecond`
 
 ---
 ## Content
@@ -20,7 +20,7 @@ For the document used in aggregation, make sure to check the Previous Document[1
 
 ### $hour
 
-The `$hour` date operator is used to extract the exact hour the document was created on. The output goes from 0-23.
+The `$hour` date operator is used to extract the exact hour the document was created on. The output goes from 0 to 23.
 
 Example:
 ```js
