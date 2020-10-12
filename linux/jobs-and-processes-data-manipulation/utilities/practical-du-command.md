@@ -12,6 +12,9 @@ tags:
   - terminal
   - size
 
+links:
+  - '[`du` Manpage](https://www.commandlinux.com/man-page/man1/du.1.html){documentation}'
+
 ---
 
 # Practical `du` Command
