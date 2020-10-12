@@ -45,7 +45,7 @@ Let's say we have this pokémon document.
 }
 ```
 
-We can copy the ObjectId: `ObjectId("5d9d8a6a0b24990f19398209")` and add the `.getTimestamp()` method after it in our `mongodb` shell and hit enter.
+We can copy the `ObjectId`: `ObjectId("5d9d8a6a0b24990f19398209")` and add the `.getTimestamp()` method after it in our `mongodb` shell and hit enter.
 
 This will output the date part from the `ObjectId` in an ISODate format.
 
