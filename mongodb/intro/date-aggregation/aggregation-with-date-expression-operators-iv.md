@@ -117,7 +117,7 @@ The ??? operator is used to extract the exact day of the week the document was c
 ## Footnotes
 
 [1:Previous Document]
-Here is the document used in the previous insight:
+Document used in the previous insight:
 ```javascript
 // Document with the ISODate
 { 
