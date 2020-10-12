@@ -41,6 +41,7 @@ Types of change:
 ## October 12th 2020
 
 ### Fixed
+- [Linux - Practical `du` Command - Explain the -s flag and other improvements]()
 - [Python - Error Handling - Move `fh.close` line to the finally clause](https://github.com/enkidevs/curriculum/pull/2385)
 - [React - What Are Hooks? - Fix typo in code block & minor improvements](https://github.com/enkidevs/curriculum/pull/2384)
 
