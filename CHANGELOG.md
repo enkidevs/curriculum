@@ -40,6 +40,9 @@ Types of change:
 
 ## October 12th 2020
 
+### Added
+- [MongoDB - Date Aggregation Operators - Add New Workout](https://github.com/enkidevs/curriculum/pull/1585)
+
 ### Fixed
 - [Linux - Practical `du` Command - Explain the -s flag and other improvements](https://github.com/enkidevs/curriculum/pull/2386)
 - [Python - Error Handling - Move `fh.close` line to the finally clause](https://github.com/enkidevs/curriculum/pull/2385)
@@ -48,7 +51,7 @@ Types of change:
 ## October 8th 2020
 
 ### Fixed
--[MongoDB - Aggregation with Object Expression 1 - Fix Grammer](https://github.com/enkidevs/curriculum/pull/2383)
+- [MongoDB - Aggregation with Object Expression 1 - Fix Grammer](https://github.com/enkidevs/curriculum/pull/2383)
 
 ## October 6th 2020
 
