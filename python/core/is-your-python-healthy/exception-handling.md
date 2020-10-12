@@ -1,15 +1,17 @@
 ---
 author: SebaRaba
+
 type: normal
+
 category: must-know
+
 links:
   - >-
-    [more about exception
-    handling](https://docs.python.org/3/tutorial/errors.html){website}
+    [Errors and Exceptions](https://docs.python.org/3/tutorial/errors.html){website}
+
 ---
 
 # Exception Handling
-
 
 ---
 
@@ -28,22 +30,22 @@ Let's see what the syntax looks like:
 
 ```python
 try:
-  #Exception-prone code
+  # Exception-prone code
 except ExceptionI:
-  #If ExceptionI is thrown,
-  #then execute this block.
+  # If ExceptionI is thrown,
+  # then execute this block.
 except ExceptionII:
-  #If ExceptionII is thrown,
-  #then execute this block.
+  # If ExceptionII is thrown,
+  # then execute this block.
 else:
-   #If there is no exception,
-   #then execute this block.
+   # If there is no exception,
+   # then execute this block.
 finally:
-   #Execute this snippet
-   #no matter what
+   # Execute this snippet
+   # no matter what
 ```
 
-Useful information about the syntax:
+Here's some useful information about the syntax:
 
 - One `try` statement can have multiple `except` clauses.
 - A generic `except` clause, which would handle any **exception**, can be defined:
@@ -65,16 +67,15 @@ except IOError:
   print("Error: can't write to the file")
 else:
   print("Content was written to the file")
-  fh.close()
 finally:
- print("Got here!")
+  print("Got here!")
+  fh.close()
 
 # Error: can't write to the file
 # Got here!
 ```
 
-This time, the program didn't stop.
-
+Because we introduced error handling, the program didn't stop when it encountered the `IOError`. 
 
 ---
 
@@ -88,7 +89,6 @@ Can we define a single except clause that will catch all types of exceptions?
 - no
 - depends on the exception
 
-
 ---
 
 ## Revision
@@ -99,7 +99,6 @@ What are the two optional clauses of the `try-except` statement?
 - `else` and `finally`
 - `if` and `return`
 - `elif` and `break`
-
 
 ---
 
