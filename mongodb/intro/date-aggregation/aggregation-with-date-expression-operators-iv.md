@@ -11,7 +11,7 @@ category: how to
 
 ---
 
-# Aggregation With $dayOfYear, $week and $dayOfWeek
+# Aggregation With `$dayOfYear`, `$week` and `$dayOfWeek`
 
 ---
 ## Content
