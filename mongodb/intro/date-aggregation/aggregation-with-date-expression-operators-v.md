@@ -9,7 +9,7 @@ type: normal
 category: must-know
 
 links:
-- '(Date Operators){https://docs.mongodb.com/manual/reference/operator/aggregation/#date-expression-operators}[documentation]'
+- '[Date Operators](https://docs.mongodb.com/manual/reference/operator/aggregation/#date-expression-operators){documentation}'
 
 ---
 # Aggregation With All Date Operators
