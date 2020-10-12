@@ -107,7 +107,7 @@ db.pokemon.aggregate([
 ## Footnotes
 
 [1:Previous Document]
-Here is the document used in the previous insight:
+Document used in the previous insight:
 ```javascript
 // Document with the ISODate
 { 
