@@ -1,13 +1,15 @@
 ---
 author: mihaiberq
+
 type: normal
+
 category: must-know
-inAlgoPool: false
+
 parent: union
+
 ---
 
 # INSERT
-
 
 ---
 
@@ -25,6 +27,7 @@ Without specifying any column names, the insertion is done in the order in which
 Let's take a look at the following schema for the `items` table:
 
 | id | cost | fling_power | item_category_id | item_fling_effect_id | name |
+|----|------|-------------|------------------|----------------------|------|
 
 To insert a new record in the `items` table, you would use:
 
@@ -67,7 +70,6 @@ WHERE items.cost <= 0;
 
 Note that for this to work, the number and type of selected columns must correlate with either the number and type of columns specified after the `INSERT` keyword or with the number and type of columns found in the table. Any variant of the specific column insertion is applicable to the last query as well.
 
-
 ---
 
 ## Practice
@@ -95,7 +97,6 @@ VALUES (value1, 'value2', value3);
 - `B`
 - `A`
 - `C`
-
 
 ---
 

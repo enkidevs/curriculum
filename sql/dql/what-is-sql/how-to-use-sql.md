@@ -19,10 +19,11 @@ In terms of setup, there isn't a universal program or app that you install. Diff
 
 As you make progress, some of the Learn More links will show you how to connect to the different databases.
 
-> Note: over time, quite a few *flavors*[1], of SQL were created. But the American National Standards Institute (ANSI) has adopted SQL as a standard since 1986. 
+> Over time, quite a few *flavors*[1], of SQL were created. 
 
-> This means that any code written in ANSI should work with any flavor. So for the rest of this course, we'll teach you the ANSI Standard SQL. 
+The American National Standards Institute (ANSI) has adopted SQL as a standard since 1986. 
 
+This means that any code written in ANSI should work with any flavor. So for the rest of this course, we'll teach you the ANSI Standard SQL. 
 
 ---
 
@@ -37,6 +38,16 @@ What is the acronym of the company that maintains the SQL standard?
 - ASIN
 - AINS
 
+---
+
+## Revision
+
+ANSI stands for American National ??? ???.
+
+- Standards
+- Institute
+- SQL
+- Instrumentation
 
 ---
 
@@ -51,4 +62,3 @@ From the ANSI standard, a handful of branches blossomed. Here are the most popul
 - Microsoft SQL
 
 Each of these extensions can include additional functionality, but any code written with the ANSI Standard in mind should also work.
- 
