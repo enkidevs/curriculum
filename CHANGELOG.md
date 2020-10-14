@@ -38,6 +38,11 @@ Types of change:
 - `Archived` for content that is no longer necessary and has been archived.
 - `Fixed` for any minor fixes (e.g. add a missing comma, adding a code block tag, fixing a report).
 
+## October 14th 2020
+
+### Fixed
+- [Python - Complex Set Operations - Minor formatting improvements](https://github.com/enkidevs/curriculum/pull/2387)
+
 ## October 12th 2020
 
 ### Fixed
