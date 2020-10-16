@@ -1,4 +1,4 @@
-name: Data Definition Language
+name: Defining Data
 
 description: Create and modify SQL databases of your own
 
