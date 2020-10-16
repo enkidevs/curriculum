@@ -44,7 +44,7 @@ var name string = "Stefan"
 var isAdult bool = true
 ```
 
-If you are initializing a variable, for instance with a string (i.e. "Stefan"), you do not need to add the keyword `string` because **Go** can guess the type based on the value. 
+If you are initializing a variable, for instance with a string (i.e. "Stefan"), you do not need to add the keyword `string` because **Go** can infer the type based on the value. 
 
 This is true for any type. As long as the value is initialized, there is no need for the data type to be present.
 
