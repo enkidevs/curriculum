@@ -1,29 +1,62 @@
 ---
 author: adamMontgomerie
+
 type: normal
+
 category: tip
+
 tags:
   - stack
   - heap
   - memory
+
 links:
   - >-
-    [javarevisited.blogspot.jp](http://javarevisited.blogspot.jp/2013/01/difference-between-stack-and-heap-java.html){website}
+    [Difference Between Stack and Heap](http://javarevisited.blogspot.jp/2013/01/difference-between-stack-and-heap-java.html){website}
+
 ---
 
-# Distinction between stack and heap memory
-
+# Distinction Between Stack and Heap Memory
 
 ---
 
 ## Content
 
-Stack and heap memory are both types of memory, but have different purposes and uses within a program:
+**Stack** and **heap** are both types of memory, but have different purposes and uses within a program.
 
-- Stack memory is used to store local variables and method calls, while heap memory is used to store objects.
+**Heap memory** is used to store objects and **JRE** classes. 
 
-- Each thread has its own stack, and variables stored in a stack are only visible to that stack's owner. Heap memory is shared among all threads.
+**Stack memory** is used to store local variables, method calls, and references to the objects stored in **heap memory**.
 
-- A `java.lang.
-  StackOverFlowError` will be thrown if there is no available stack memory left. `java.lang.OutOfMemoryError: Java Heap Space` will be thrown if there is a lack of heap space.
- 
+Each thread has its own stack, and variables stored in a stack are only visible to that stack's owner. 
+
+Heap memory is shared among all threads.
+
+If there is no available stack memory left, then a `java.lang.StackOverFlowError` error will be thrown.
+
+If there is a lack of heap space, then a `java.lang.OutOfMemoryError: Java Heap Space` error will be thrown.
+
+---
+
+## Practice
+
+Stack memory is used to store ???, ???, and ???.
+
+Heap memory is used to store ???.
+
+- local variables
+- method calls
+- references to objects stored in heap memory
+- objects
+- global variables
+
+---
+
+## Revision
+
+Which of the following errors is thrown where is no available stack memory left?
+
+???
+
+- `java.lang.StackOverFlowError`
+- `java.lang.OutOfMemoryError: Java Heap Space`

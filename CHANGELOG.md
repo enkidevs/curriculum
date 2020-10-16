@@ -40,6 +40,9 @@ Types of change:
 
 ## October 16th 2020
 
+### Changed
+- [Java - Memory - Archive one insight + other updates to the entire workout](https://github.com/enkidevs/curriculum/pull/2390)
+
 ### Fixed
 - [SQL - Minor formatting changes](https://github.com/enkidevs/curriculum/pull/2388)
 
