@@ -24,7 +24,9 @@ links:
 
 **Stack** and **heap** are both types of memory, but have different purposes and uses within a program.
 
-**Stack memory** is used to store local variables and method calls, while **heap memory** is used to store objects.
+**Heap memory** is used to store objects and **JRE** classes. 
+
+**Stack memory** is used to store local variables, method calls, and references to the objects stored in **heap memory**.
 
 Each thread has its own stack, and variables stored in a stack are only visible to that stack's owner. 
 
@@ -38,12 +40,13 @@ If there is a lack of heap space, then a `java.lang.OutOfMemoryError: Java Heap 
 
 ## Practice
 
-Stack memory is used to store ??? and ???.
+Stack memory is used to store ???, ???, and ???.
 
 Heap memory is used to store ???.
 
 - local variables
 - method calls
+- references to objects stored in heap memory
 - objects
 - global variables
 
