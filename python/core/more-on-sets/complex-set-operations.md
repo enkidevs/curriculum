@@ -1,12 +1,13 @@
 ---
 author: tommarshall
+
 type: normal
+
 category: must-know
-inAlgoPool: false
+
 ---
 
 # Complex `set` operations
-
 
 ---
 
@@ -14,7 +15,7 @@ inAlgoPool: false
 
 Python has a number of further complex operations which can be carried out on `sets`.
 
-`y.issubset(x)` will return true if y is a subset of x. Instead of writing `issubset` you can use the abbreviation `<=`, for example:
+`y.issubset(x)` will return `True` if `y` is a subset of `x`. Instead of writing `issubset`, you can use the abbreviation `<=`, for example:
 
 ```python
 x = {"a", "b", "c", "d"}
@@ -30,7 +31,7 @@ y <= x
 # True
 ```
 
-`x.issuperset(y)` returns true if x is a superset to y. Instead of writing `issuperset` you can use the abbreviation `>=`, for example:
+`x.issuperset(y)` returns `True` if `x` is a superset to `y`. Instead of writing `issuperset`, you can use the abbreviation `>=`, for example:
 
 ```python
 x = {"a", "b", "c", "d"}
@@ -43,7 +44,6 @@ x >= y
 # True
 ```
 
-
 ---
 
 ## Practice
@@ -51,7 +51,6 @@ x >= y
 Complete the following code snippet such that it will have the desired output (marked in the comment):
 
 ```python
-
 x = {'user1', 'user2', 'user3'}
 y = {'user3'}
 z = {'user4'}
@@ -64,7 +63,6 @@ x.???(???)
 - y
 - z
 - issubset
-
 
 ---
 

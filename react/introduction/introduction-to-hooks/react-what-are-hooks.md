@@ -1,31 +1,38 @@
 ---
 author: kapnobatai136
+
 type: normal
+
 category: must-know
+
 links:
   - >-
     [Introduction to
     Hooks](https://reactjs.org/docs/hooks-intro.html){documentation}
+
 ---
 
-# What are hooks?
-
+# What Are Hooks?
 
 ---
 
 ## Content
 
-Hooks represent a way of using state with your function components. They are the great for reusing stateful logic and enable you to use more of React's features without having to use classes.
+Hooks represent a way of using `state` with your function components. 
 
-There are three main types of hooks:
+They are great for reusing stateful logic and enable you to use more of React's features without having to use classes.
+
+The three main types of hooks are:
 
 - State Hooks
 - Effect Hooks
 - Custom Hooks
 
-Before hooks, many React components would eventually grow to contain many unrelated groupings of stateful logic and side effects. A component could perform some data fetching in the `componentDidMount` or `componentDidUpdate` lifecycle methods, while the `componentDidMount` could also contain some event listeners. Hooks allow us to separate these unrelated parts by encapsulating related logic into functions.
+Before hooks, many React components would eventually grow to contain many unrelated groupings of stateful logic and side effects. A component could perform some data fetching in the `componentDidMount` or `componentDidUpdate` lifecycle methods, while the `componentDidMount` could also contain some event listeners. 
 
-Now, let's take a look at the following code:
+> 💡 Hooks allow us to separate these unrelated parts by encapsulating related logic into functions.
+
+Now, let's take a look at an example:
 
 ```jsx
 class BookStatus extends React.Component {
@@ -35,8 +42,8 @@ class BookStatus extends React.Component {
       count: 0,
       isAvailable: null
     };
-    this.handleStatus 
-      = this.handleStatus.bind(
+    this.handleStatusChange
+      = this.handleStatusChange.bind(
         this
       );
   }
@@ -72,7 +79,9 @@ class BookStatus extends React.Component {
 }
 ```
 
-What the above component does is count the number of available books and handle their status. Notice how the `componentDidMount()` and `componentWillUnmount()` methods contain unrelated logic. Now, if we would've used function components, the code would've looked something like this:
+The `BookStatus` component counts the number of available books and handles their status. Notice how the `componentDidMount()` and `componentWillUnmount()` methods contain unrelated logic. 
+
+With function components, the code would look like this:
 
 ```jsx
 function BookStatus() {
@@ -99,8 +108,9 @@ function BookStatus() {
 }
 ```
 
-Both components have the same functionality, but you can already see the differences. When using hooks, we can group related stateful logic and side effects together, effectively separating said group from unrelated code.
+Both components have the same functionality, but you can already see the differences. 
 
+When using hooks, we can group related stateful logic and side effects together, effectively separating said group from unrelated code.
 
 ---
 
@@ -114,7 +124,6 @@ Which of the following does not represent a React hook?
 - state hook
 - effect hook
 - custom hook
-
 
 ---
 

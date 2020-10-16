@@ -38,10 +38,21 @@ Types of change:
 - `Archived` for content that is no longer necessary and has been archived.
 - `Fixed` for any minor fixes (e.g. add a missing comma, adding a code block tag, fixing a report).
 
+## October 14th 2020
+
+### Fixed
+- [Python - Complex Set Operations - Minor formatting improvements](https://github.com/enkidevs/curriculum/pull/2387)
+
+## October 12th 2020
+
+### Fixed
+- [Linux - Practical `du` Command - Explain the -s flag and other improvements](https://github.com/enkidevs/curriculum/pull/2386)
+- [Python - Error Handling - Move `fh.close` line to the finally clause](https://github.com/enkidevs/curriculum/pull/2385)
+- [React - What Are Hooks? - Fix typo in code block & minor improvements](https://github.com/enkidevs/curriculum/pull/2384)
+
 ## October 8th 2020
 
 ### Fixed
-
 -[MongoDB - Aggregation with Object Expression 1 - Fix Grammer](https://github.com/enkidevs/curriculum/pull/2383)
 
 ## October 6th 2020
