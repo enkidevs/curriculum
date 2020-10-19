@@ -153,4 +153,4 @@ Next, we have three 'one-liners' with no block scope.
 
 The `Employee` class can access both methods because they are in its block scope. (Shown with indentation.) 
 
-The first thing that is not a part of the class is the `emp = Employee()` instantiation.
+The first code that is not a part of the class is the `emp = Employee()` instantiation.
