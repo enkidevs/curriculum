@@ -56,7 +56,7 @@ Box 3 will take up twice as much space as the others:
 Complete the snippet to make `.grow` elements to take three times as much space as the other elements in the flex container:
 
 ```css
-.flexGrow{
+.grow{
   ??? : ???;
 }
 ```
