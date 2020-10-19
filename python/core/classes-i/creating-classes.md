@@ -15,20 +15,22 @@ category: must-know
 
 Classes are *templates* which can be used to create objects. They *encapsulate* variables and methods[1] into a single entity, defining a general behavior for that entity (object) to follow.
 
-Classes also use Python's block structure and are defined using the `class` keyword:
+Classes are defined with the `class` keyword and use Python's block structure[2]:
 
 ```python
 class Employee:
    count = 0
 ```
 
-You can then create (instantiate) a class object using the syntax:
+To create a class is also called to "instantiate" and is done like so:
 
 ```python
 empty_empl = Employee()
 ```
 
-However, our blueprint of the *Employee* class is empty. The newly instantiated object can't do anything. We can define a first method, `__init__`: it's called the *initialization method* and it's called when you create a new instance of the class:
+However, what we just created is an empty *Employee* class. The newly instantiated object can't do anything. It needs a method.
+
+To define a method, for instance, the `__init__` method, we would have to do something like this:
 
 ```python
 class Employee:
@@ -39,13 +41,16 @@ class Employee:
     self.idnum = Employee.count
 ```
 
-We can now pass some information when creating a new Employee:
+The `__init__` method is the *initialization method* and it's called when you create a new instance of the class.
+
+
+Now that we have the initialization method we can pass some information when creating a new Employee:
 
 ```python
 basic_employee = Employee("John Doe")
 ```
 
-Once the `__init__` method has been taken care of, other methods can be defined normally. However, the first argument of those functions must always be `self` (a circular reference to the created object):
+Once the `__init__` method has been taken care of, other methods can be defined normally. However, the first argument of those methods must always be `self` (a circular reference to the created object):
 
 ```python
 class Employee:
@@ -55,7 +60,7 @@ class Employee:
       .format(self.name, self.idnum))
 ```
 
-Note: When calling methods, you do not need to pass `self` as a parameter, Python does that for you automatically.
+> 💡 On the other hand, when calling methods, you do not need to pass `self` as a parameter, Python does that for you automatically.
 
 
 ---
@@ -119,3 +124,33 @@ new empl = Employee("John")
 To explain what methods are, let's take a look at an example.
 
 Think of a car as the object. The model, color or age of the car are the object's attributes. Whether the engine is on, or whether it's moving, are behaviors and would exist as methods.
+
+[2: Block Structure]
+A block structure in python is determined with indentation.
+
+Take this piece of code for instance:
+```python
+class Employee:
+    company = 'Enki'
+
+    def __init__(self):
+        print('Hello Enki')
+ 
+    def message(self):
+        print('Welcome to Enki')
+ 
+emp = Employee() # Created an Instance
+
+print('My company is:', emp.company)
+emp.message()
+```
+
+In the "class Employee" block scope, we have the `def __init__` and `def message` methods.
+
+Each of the two methods has its block scope with only a `print` statement within.
+
+Next, we have three 'one-liners' with no block scope. 
+
+The `Employee` class can access both methods because they are in its block scope. (Shown with indentation.) 
+
+The first thing that is not a part of the class is the `emp = Employee()` instantiation.
