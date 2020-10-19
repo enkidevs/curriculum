@@ -26,8 +26,9 @@ Without specifying any column names, the insertion is done in the order in which
 
 Let's take a look at the following schema for the `items` table:
 
+```sql
 | id | cost | fling_power | item_category_id | item_fling_effect_id | name |
-|----|------|-------------|------------------|----------------------|------|
+```
 
 To insert a new record in the `items` table, you would use:
 
