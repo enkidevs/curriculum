@@ -49,13 +49,13 @@ The `<abbr>` element can also be styled with appropriate CSS properties.
 
 Write the code that provides a full description of the abbreviation for search engines and visually impaired software.
 
-`<p>`Learn all about <??? ???=???>HTML</???> using Enki.`</p>`
+`<p>`Learn all about <??? ???=???>HTML<???> using Enki.`</p>`
 
 - abbr
 - title
 - "HyperText Markup Language"
 - /abbr
-- "HyperText Markup Language"
+- "HTML"
 - desc
 
 
