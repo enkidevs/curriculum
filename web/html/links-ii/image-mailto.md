@@ -154,6 +154,12 @@ Email Me
 
 [1:%20 instead of space in a URL]
 
-The reason for replacing spaces with `%20` is because URLs have strict syntactic rules. URLs can't have spaces, so the ASCII character for space should be inserted instead. The `%` character, followed by two hexadecimal digits, is used to replace unsafe characters from a URL. The ASCII character for space is `20`. Making `%20` the replacement character for space.
+The reason for replacing spaces with `%20` is because URLs have strict syntactic rules. 
+
+URLs can't have spaces, so the ASCII character for space should be inserted instead. 
+
+The `%` character, followed by two hexadecimal digits, is used to replace unsafe characters from a URL. 
+
+The ASCII character for space is `20`, making `%20` the replacement character for space.
 
 This applies to the `body` part of the e-mail as well. Most of the time, spaces will work, but to make sure they work 100% of the time, replace spaces with `%20`.
