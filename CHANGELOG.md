@@ -41,7 +41,7 @@ Types of change:
 ## October 20th 2020
 
 ### Added
-- [Linux - The Basics of Command Substitution - Added footnote and resource link for the `curl` command]()
+- [Linux - The Basics of Command Substitution - Added footnote and resource link for the `curl` command](https://github.com/enkidevs/curriculum/pull/2395)
 
 ## October 16th 2020
 
