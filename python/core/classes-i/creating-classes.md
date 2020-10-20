@@ -131,17 +131,17 @@ Block structures in Python are determined by their indentation.
 Take this piece of code for instance:
 ```python
 class Employee:
-    company = 'Enki'
+  company = 'Enki'
 
-    def __init__(self):
-        print('Hello Enki')
+  def __init__(self):
+    print('Hello Enki')
  
-    def message(self):
-        print('Welcome to Enki')
+  def message(self):
+    print('Welcome to Enki')
  
 emp = Employee() # Created an Instance
 
-print('My company is:', emp.company)
+print('My company is: ', emp.company)
 emp.message()
 ```
 
