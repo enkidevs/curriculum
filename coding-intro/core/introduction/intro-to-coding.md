@@ -20,7 +20,7 @@ All programming languages have a handful of building blocks. When combined, they
 - **variables** - where data is stored
 - **data types** - how to tell what's a number or what's text
 - **functions** - how we can organize commands
-- **conditions** - how to makes yes/no decisions
+- **conditions** - how to make yes/no decisions
 - **loops** - how to repeat behavior
 
 Every concept, feature, technology, or best practice beyond these basic building blocks were invented to help us mere humans manage the complexity of larger and larger programs.
