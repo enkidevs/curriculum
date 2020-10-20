@@ -35,7 +35,7 @@ To create a link to open the user's default email program:
 
 Header fields are added by writing their name followed by an equal sign and the field's value.
 
-> 💡 When adding the subject and/or the body, rather than using spaces between words it is recommended to write `%20`[1] in place of each space. 
+> 💡 When adding the subject and/or the body, rather than using spaces between words it is recommended to write `%20` in place of each space. This is because URLs have strict syntactic rules[1].
 
 The order of the attributes does not matter. However, when using more than one attribute is important to separate each of them with a `&` (and) sign. The main e-mail is always separated with a `?` from the other field values.
 
