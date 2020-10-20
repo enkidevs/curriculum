@@ -22,7 +22,7 @@ class Employee:
    count = 0
 ```
 
-To create a class is also called to "instantiate" and is done like so:
+To create a class (also called to "instantiate") is done like so:
 
 ```python
 empty_empl = Employee()
