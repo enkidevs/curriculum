@@ -16,7 +16,9 @@ links:
 
 ## Content
 
-Although links typically navigate to other pages, using the anchor `mailto:` attribute in the path will open the user's default email program on their computer. The link will also auto-load the assigned email address making it easy for user's to quickly send an email.
+Although links typically navigate to other pages, using the anchor `mailto:` attribute in the path will open the user's default email program on their computer. 
+
+The link will also auto-load the assigned email address making it easy for user's to quickly send an email.
 
 To create a link to open the user's default email program:
 
@@ -155,4 +157,3 @@ Email Me
 The reason for replacing spaces with `%20` is because URLs have strict syntactic rules. URLs can't have spaces, so the ASCII character for space should be inserted instead. The `%` character, followed by two hexadecimal digits, is used to replace unsafe characters from a URL. The ASCII character for space is `20`. Making `%20` the replacement character for space.
 
 This applies to the `body` part of the e-mail as well. Most of the time, spaces will work, but to make sure they work 100% of the time, replace spaces with `%20`.
-
