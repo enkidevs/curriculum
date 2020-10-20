@@ -23,7 +23,7 @@ Different digits in `chmod` mean a different set of permissions. The digits we c
 4: (100) read permission.
 5: (101) read and execute permissions.
 6: (110) read and write permissions.
-7: (111) read, write, and execute permissions.
+7: (111) read, write and execute permissions.
 ```
 
 These digits are then combined to denote permissions for the owner, groups, and other.
@@ -38,6 +38,16 @@ chmod 777 filename
 chmod 700 filename
 ```
 
+The three `7`'s and `700` are three separate numbers in decimal.
+
+In the binary format they would look like this:
+```sh
+777 = 111 111 111
+700 = 111 000 000
+```
+
+> 💡 `777` means the owner, the groups, and other can read, write and execute permissions. While the `700` means only the owner has all three permissions while the groups and other have none.
+
 For general files:
 
 ```sh
@@ -48,6 +58,11 @@ chmod 666 filename
 chmod a+rw filename
 ```
 
+The `666` means the owner, the groups and others have read and write permissions, and no one has execute permissions.
+
+```sh
+666 = 110 110 110
+```
 
 ---
 
