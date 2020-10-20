@@ -152,7 +152,7 @@ Email Me
 ---
 ## Footnotes
 
-[1:%20 instead of space in a URL]
+[1:URL Syntactic Rules]
 
 The reason for replacing spaces with `%20` is because URLs have strict syntactic rules. 
 
