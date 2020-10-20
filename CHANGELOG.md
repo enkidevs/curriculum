@@ -44,7 +44,7 @@ Types of change:
 - [Linux - The Basics of Command Substitution - Added footnote and resource link for the `curl` command](https://github.com/enkidevs/curriculum/pull/2395)
 
 ### Fixed
-- [Coding Intro - Intro to Coding - Fix typo]()
+- [Coding Intro - Intro to Coding - Fix typo](https://github.com/enkidevs/curriculum/pull/2396)
 
 ## October 16th 2020
 
