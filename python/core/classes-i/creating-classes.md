@@ -44,7 +44,7 @@ class Employee:
 The `__init__` method is the *initialization method* and it's called when you create a new instance of the class.
 
 
-Now that we have the initialization method we can pass some information when creating a new Employee:
+Now that we have the initialization method we can pass some information when creating a new `Employee`:
 
 ```python
 basic_employee = Employee("John Doe")
