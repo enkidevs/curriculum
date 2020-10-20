@@ -31,7 +31,7 @@ To create a link to open the user's default email program:
 
 [View CodePen](https://codepen.io/enkidevs/pen/ejvqXx)
 
-`mailto:` has 4 attributes; cc, bcc, subject, and body.
+`mailto:` can have four *header fields*: `cc`, `bcc`, `subject`, and `body`.
 
 Attributes are added by writing their name followed by an equal sign and the attribute's value.
 
