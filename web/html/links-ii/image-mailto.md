@@ -33,7 +33,7 @@ To create a link to open the user's default email program:
 
 `mailto:` can have four *header fields*: `cc`, `bcc`, `subject`, and `body`.
 
-Attributes are added by writing their name followed by an equal sign and the attribute's value.
+Header fields are added by writing their name followed by an equal sign and the field's value.
 
 > 💡 When adding the subject and/or the body, rather than using spaces between words it is recommended to write `%20`[1] in place of each space. 
 
