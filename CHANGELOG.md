@@ -45,6 +45,7 @@ Types of change:
 
 ### Fixed
 - [Coding Intro - Intro to Coding - Fix typo](https://github.com/enkidevs/curriculum/pull/2396)
+- [HTML - Links - Update mailto insight with new information](https://github.com/enkidevs/curriculum/pull/2397)
 
 ## October 16th 2020
 
