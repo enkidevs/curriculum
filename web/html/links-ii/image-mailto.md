@@ -146,7 +146,7 @@ Email Me
 - address:
 - email:
 
-### Footnotes
+## Footnotes
 
 [1:%20 instead of space in a URL]
 
