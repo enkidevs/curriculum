@@ -28,7 +28,7 @@ To create a class (also called to "instantiate") is done like so:
 empty_empl = Employee()
 ```
 
-However, what we just created is an empty *Employee* class. The newly instantiated object can't do anything. It needs a method.
+However, what we just created is an empty `Employee` class. The newly instantiated object can't do anything. It needs a method.
 
 To define a method, for instance, the `__init__` method, we would have to do something like this:
 
