@@ -126,7 +126,7 @@ To explain what methods are, let's take a look at an example.
 Think of a car as the object. The model, color or age of the car are the object's attributes. Whether the engine is on, or whether it's moving, are behaviors and would exist as methods.
 
 [2: Block Structure]
-A block structure in python is determined with indentation.
+Block structures in Python are determined by their indentation.
 
 Take this piece of code for instance:
 ```python
