@@ -30,7 +30,7 @@ empty_empl = Employee()
 
 However, what we just created is an empty `Employee` class. The newly instantiated object can't do anything. It needs a method.
 
-To define a method, for instance, the `__init__` method, we would have to do something like this:
+To define a method (e.g. the `__init__` method) we would have to do something like this:
 
 ```python
 class Employee:
