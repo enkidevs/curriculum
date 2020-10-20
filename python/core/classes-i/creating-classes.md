@@ -145,7 +145,7 @@ print('My company is: ', emp.company)
 emp.message()
 ```
 
-In the "class Employee" block scope, we have the `def __init__` and `def message` methods.
+In the block scope of the `Employee` class, we have the `__init__` and `message` methods.
 
 Each of the two methods has its block scope with only a `print` statement within.
 
