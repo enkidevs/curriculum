@@ -38,6 +38,11 @@ Types of change:
 - `Archived` for content that is no longer necessary and has been archived.
 - `Fixed` for any minor fixes (e.g. add a missing comma, adding a code block tag, fixing a report).
 
+## October 20th 2020
+
+### Added
+- [Linux - The Basics of Command Substitution - Added footnote and resource link for the `curl` command](https://github.com/enkidevs/curriculum/pull/2395)
+
 ## October 16th 2020
 
 ### Changed
