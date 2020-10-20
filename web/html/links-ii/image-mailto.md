@@ -12,14 +12,13 @@ links:
 
 # Mailto:
 
-
 ---
 
 ## Content
 
 Although links typically navigate to other pages, using the anchor `mailto:` attribute in the path will open the user's default email program on their computer. The link will also auto-load the assigned email address making it easy for user's to quickly send an email.
 
-Creating a link to open the user's default email program:
+To create a link to open the user's default email program:
 
 ```html
 <a
