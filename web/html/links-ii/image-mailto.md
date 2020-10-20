@@ -98,7 +98,7 @@ Create a text link that opens the user's default email program.
 - a
 - href
 - mailto:
-- heya@enkipro.com
+- `heya@enkipro.com`
 - /a
 - src
 - mail:
