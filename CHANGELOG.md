@@ -40,6 +40,19 @@ Types of change:
 
 ## WIP
 
+### Added
+
+### Changed
+
+### Archived
+
+### Fixed
+
+## October 21st 2020
+
+### Fixed
+- [SQL - AVG Clause - Update column name to "Result" & other general improvements]()
+
 ## October 20th 2020
 
 ### Added

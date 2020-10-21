@@ -1,18 +1,21 @@
 ---
 author: SebaRaba
+
 type: normal
+
 category: must-know
-inAlgoPool: false
+
 tags:
   - workout
+
 links:
   - >-
     [More on AVG
     clause](https://docs.microsoft.com/en-us/sql/t-sql/functions/aggregate-functions-transact-sql){documentation}
+
 ---
 
-# AVG clause
-
+# AVG Clause
 
 ---
 
@@ -20,7 +23,33 @@ links:
 
 `AVG` returns the average numerical value of a given column.
 
-Using `AVG` function[1] to get the average of only the first five rows:
+Using the following segment of the `experience` **table**:
+
+| id | level | experience | growth_rate_id |
+| -- | ----- | ---------- | -------------- |
+| 1  | 1     | 0          | 1              |
+| 2  | 2     | 10         | 1              |
+| 3  | 3     | 33         | 1              |
+
+Let's see what the first five values of the `experience` **column** look like:
+
+```sql
+SELECT experience
+FROM experience
+LIMIT 5;
+```
+
+Output:
+
+| experience |
+| ---------- |
+| 0          |
+| 10         |
+| 33         |
+| 80         |
+| 156        |
+
+Using the `AVG` function, you can find the average of the first five values:
 
 ```sql
 SELECT AVG(experience) as Result
@@ -30,16 +59,15 @@ LIMIT 5;
 
 Output:
 
-| avg    |
-| ------ |
+| Result |
+|--------|
 | 55.800 |
-
 
 ---
 
 ## Practice
 
-Consider the following table of items. This table has a field called `cost`, indicating how much each item costs. We would like to know an average cost for all items in the table. Fill the gaps accordingly:
+Consider the following table `item`. 
 
 | id | cost | name        |
 | -- | ---- | ----------- |
@@ -47,11 +75,9 @@ Consider the following table of items. This table has a field called `cost`, ind
 | 2  | 1200 | ultra-ball  |
 | 3  | 600  | great-ball  |
 | 4  | 200  | poke-ball   |
-
-```sql
-SELECT ???(???)
-??? item
-```
+| avg    |
+| ------ |
+| 55.800 |
 
 - AVG
 - cost
@@ -89,33 +115,3 @@ Output:
 - second_move
 - SUM
 - first_move
-
-
----
-
-## Footnotes
-
-[1:Pokemon Db]
-We will use the same segment of `experience` table for all aggregate functions:
-
-| id | level | experience | growth_rate_id |
-| -- | ----- | ---------- | -------------- |
-| 1  | 1     | 0          | 1              |
-| 2  | 2     | 10         | 1              |
-| 3  | 3     | 33         | 1              |
-
-```sql
-SELECT experience
-FROM experience
-LIMIT 5;
-```
-
-Output:
-
-| experience |
-| ---------- |
-| 0          |
-| 10         |
-| 33         |
-| 80         |
-| 156        |
