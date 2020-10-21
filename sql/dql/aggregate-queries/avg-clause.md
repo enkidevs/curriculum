@@ -75,9 +75,13 @@ Consider the following table `item`.
 | 2  | 1200 | ultra-ball  |
 | 3  | 600  | great-ball  |
 | 4  | 200  | poke-ball   |
-| avg    |
-| ------ |
-| 55.800 |
+
+This table has a field called `cost`, indicating how much each item costs. We would like to know an average cost for all items in the table. Fill the gaps accordingly:
+
+```sql
+SELECT ???(???)
+??? item
+```
 
 - AVG
 - cost
