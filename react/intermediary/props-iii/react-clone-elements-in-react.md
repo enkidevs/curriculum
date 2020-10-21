@@ -1,16 +1,20 @@
 ---
 author: catalin
+
 type: normal
+
 category: how to
+
 links:
   - >-
     [cloneElement()
-    documentation](https://facebook.github.io/react/docs/top-level-api.html#cloneelement){website}
+    Documentation](https://facebook.github.io/react/docs/top-level-api.html#cloneelement){website}
+
 parent: custom-proptype-s-to-be-required
+
 ---
 
 # Clone Elements in React
-
 
 ---
 
@@ -18,7 +22,7 @@ parent: custom-proptype-s-to-be-required
 
 **React** provides different ways to clone elements. The `React.cloneElement` method can clone an element whilst keeping the `key` and `ref` of the original one.
 
-How to use:
+This is the syntax:
 
 ```jsx
 React.cloneElement(
@@ -28,9 +32,11 @@ React.cloneElement(
 );
 ```
 
-A new element[1] will be returned using the provided element as the starting point. The old `prop`s will be merged in shallowly[2] with the new specified ones. Furthermore, new `children` will replace old ones.
+A new element[1] will be returned using the provided element as the starting point. The old `prop`s will be merged in shallowly[2] with the new specified ones. 
 
-Keep in mind that using:
+Furthermore, new `children` will replace old ones.
+
+Keep in mind that using the following will override the `ref`:
 
 ```jsx
 React.cloneElement(
@@ -39,8 +45,6 @@ React.cloneElement(
   null
 );
 ```
-
-will override the `ref`.
 
 A good example consists of adding `prop`s to the elements that are passed as children to one of your components.
 
@@ -69,8 +73,8 @@ class EnkiChild extends React.Component {
   render() {
     return (
       <h1>
-        Hello {name}, and welcome to
-        {newProp}!
+        Hello {this.props.name}, and welcome to
+        {this.props.newProp}!
       </h1>
     );
   }
@@ -88,12 +92,11 @@ ReactDOM.render(
 // Hello Stefan, and welcome to Enki!
 ```
 
-
 ---
 
 ## Practice
 
-Complete the code snippet below to clone an element and override the ref:
+Complete the code snippet below to clone an element and override the `ref`:
 
 ```javascript
 React.???(
@@ -110,7 +113,6 @@ React.???(
 - `key`
 - `obj`
 - `env`
-
 
 ---
 
@@ -134,17 +136,26 @@ React.???(
 - `obj`
 - `env`
 
-
 ---
 
 ## Footnotes
 
-[1: element]
-The React element represents the building block of any React application. Although one might confuse elements with components, they are not the same. An element is used to describe what you want to see on the screen. Here's an example:
+[1: Element]
+The React element represents the building block of any React application. 
+
+Although one might confuse elements with components, they are not the same. 
+
+An element is used to describe what you want to see on the screen. Here's an example:
 
 ```jsx
 const element = <h1>Enki is cool!</h1>;
 ```
 
-[2: shallow merge]
-A merge of two objects in JavaScript produces a new object by combining their properties. Properties that only exists in one of the two objects are just copied into the result. If a property exists in both, the value of that property from the second object will overwrite the value of the first. A"shallow" merge means that we only compare/merge top-level properties. Merging all levels of properties between two objects is called a *deep merge*.
+[2: Shallow Merge]
+A merge of two objects in JavaScript produces a new object by combining their properties. 
+
+Properties that only exists in one of the two objects are just copied into the result. 
+
+If a property exists in both, the value of that property from the second object will overwrite the value of the first. 
+
+A "shallow" merge means that we only compare/merge top-level properties. Merging all levels of properties between two objects is called a *deep merge*.
