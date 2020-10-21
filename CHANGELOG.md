@@ -51,7 +51,7 @@ Types of change:
 ## October 21st 2020
 
 ### Fixed
-- [SQL - AVG Clause - Update column name to "Result" & other general improvements]()
+- [SQL - AVG Clause - Update column name to "Result" & other general improvements](https://github.com/enkidevs/curriculum/pull/2400)
 
 ## October 20th 2020
 
