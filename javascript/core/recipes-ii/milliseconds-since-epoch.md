@@ -4,7 +4,8 @@ type: normal
 category: tip
 links:
   - '[2ality.com](http://www.2ality.com/2014/02/time-values.html){blog}'
-  - '[moment.js](http://momentjs.com/){documentation}'
+  - '[Luxon](https://moment.github.io/luxon/){documentation}'
+  - '[Date-fns](https://date-fns.org/){documentation}'
 ---
 
 # Milliseconds Since Epoch
@@ -28,10 +29,11 @@ Shorter way:
 // 1259359833574
 ```
 
-The above is using the `+` shortcut to convert the date object to a  number.
+The above is using the `+` shortcut to convert the date object to a number.
 
-For more powerful date manipulation,
-try `moment.js`.
+For more powerful date manipulation, try `date-fn` or `Luxon`. 
+
+> 💡 The links for `date-fn` and `Luxon` will be in the "Learn more" section.
 
 
 ---
