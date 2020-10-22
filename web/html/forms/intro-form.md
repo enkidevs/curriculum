@@ -15,7 +15,7 @@ links:
 
 ## Content
 
-The HTML `<form>` element is used to represent a section of a document that contains interactive controls for a user to input information, like input text fields, checkboxes, and radio buttons. This element can automatically create a request to send to a web server, if the right attributes are specified.
+The HTML `<form>` element is used to represent a section of a document that contains interactive controls for a user to input information. These can be input text fields, checkboxes, and radio buttons. This element can automatically create a request to send to a web server, if the right attributes are specified.
 
 The `<form>` element has many attributes, some of them:
 
@@ -27,7 +27,7 @@ The `<form>` element has many attributes, some of them:
 
 Brief explanation:
 
-The `action` form attribute used to specify where to send the data.
+The `action` form attribute is used to specify where to send the data.
 
 There are two methods used to send the data:
 
