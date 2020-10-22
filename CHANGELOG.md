@@ -55,6 +55,7 @@ Types of change:
 - [Python - Creating Classes in Classes - Add Information and Improve Readibility](https://github.com/enkidevs/curriculum/pull/2393)
 - [Javascript - Milliseconds Since Epoch - Add more information](https://github.com/enkidevs/curriculum/pull/2402)
 - [HTML - Intro Form - Add missing words](https://github.com/enkidevs/curriculum/pull/2404)
+- [Python - Use Struct To Work With Binary Data - Fix Misspelling](https://github.com/enkidevs/curriculum/pull/2405)
 
 ## October 21st 2020
 
