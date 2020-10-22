@@ -48,6 +48,12 @@ Types of change:
 
 ### Fixed
 
+## October 22nd 2020
+
+### Fixed
+
+- [Python - Creating Classes in Classes - Add Information and Improve Readibility](https://github.com/enkidevs/curriculum/pull/2393)
+
 ## October 21st 2020
 
 ### Fixed
