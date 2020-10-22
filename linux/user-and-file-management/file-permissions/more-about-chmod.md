@@ -44,7 +44,7 @@ To understand the permissions number `700`, let's first view it in binary:
 700 = 111 000 000
 ```
 
-Now we can reference the table above and see that `111 000 000` means that the owner has read, write and execute permissions while the groups and other have none.
+Now we can reference the table above and see that `111 000 000` means that the owner has read, write and execute permissions while the groups and other users have none.
 
 Here're a few more examples of commonly used permissions:
 
