@@ -37,7 +37,7 @@ For more powerful date manipulation, try `date-fn` or `Luxon`.
 
 > 💡 The links for `date-fn` and `Luxon` will be in the "Learn more" section.
 
-Also, another powerful tool is the `Intl` object. It has a `DateTimeFormat()` constructor used for date and time formatting.
+Another powerful tool is the `Intl` global object. It has a `DateTimeFormat()` constructor used for date and time formatting.
 
 This constructor creates a new date-time object. It is used for language-sensitive date and time formatting. 
 
