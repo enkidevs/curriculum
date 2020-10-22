@@ -54,6 +54,7 @@ Types of change:
 - [Linux - More On chmod - Add clarification for chmod options and Improve Readability](https://github.com/enkidevs/curriculum/pull/2398)
 - [Python - Creating Classes in Classes - Add Information and Improve Readibility](https://github.com/enkidevs/curriculum/pull/2393)
 - [Javascript - Milliseconds Since Epoch - Add more information](https://github.com/enkidevs/curriculum/pull/2402)
+- [HTML - Intro Form - Add missing words](https://github.com/enkidevs/curriculum/pull/2404)
 
 ## October 21st 2020
 
