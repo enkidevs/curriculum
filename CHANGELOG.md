@@ -51,7 +51,7 @@ Types of change:
 ## October 22nd 2020
 
 ### Fixed
-
+- [Linux - More On chmod - Add clarification for chmod options and Improve Readability](https://github.com/enkidevs/curriculum/pull/2398)
 - [Python - Creating Classes in Classes - Add Information and Improve Readibility](https://github.com/enkidevs/curriculum/pull/2393)
 - [Javascript - Milliseconds Since Epoch - Add more information](https://github.com/enkidevs/curriculum/pull/2402)
 
