@@ -38,6 +38,31 @@ Types of change:
 - `Archived` for content that is no longer necessary and has been archived.
 - `Fixed` for any minor fixes (e.g. add a missing comma, adding a code block tag, fixing a report).
 
+## WIP
+
+### Added
+
+### Changed
+
+### Archived
+
+### Fixed
+
+## October 21st 2020
+
+### Fixed
+- [React - Clone Elements in React - Fix content error & general improvements](https://github.com/enkidevs/curriculum/pull/2401)
+- [SQL - AVG Clause - Update column name to "Result" & other general improvements](https://github.com/enkidevs/curriculum/pull/2400)
+
+## October 20th 2020
+
+### Added
+- [Linux - The Basics of Command Substitution - Added footnote and resource link for the `curl` command](https://github.com/enkidevs/curriculum/pull/2395)
+
+### Fixed
+- [Coding Intro - Intro to Coding - Fix typo](https://github.com/enkidevs/curriculum/pull/2396)
+- [HTML - Links - Update mailto insight with new information](https://github.com/enkidevs/curriculum/pull/2397)
+
 ## October 16th 2020
 
 ### Changed
