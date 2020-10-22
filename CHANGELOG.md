@@ -53,6 +53,7 @@ Types of change:
 ### Fixed
 
 - [Python - Creating Classes in Classes - Add Information and Improve Readibility](https://github.com/enkidevs/curriculum/pull/2393)
+- [Javascript - Milliseconds Since Epoch - Add more information](https://github.com/enkidevs/curriculum/pull/2402)
 
 ## October 21st 2020
 
