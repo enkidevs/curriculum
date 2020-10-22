@@ -53,6 +53,7 @@ Types of change:
 ### Fixed
 - [Python - Creating Classes in Classes - Add Information and Improve Readability](https://github.com/enkidevs/curriculum/pull/2393)
 - [Linux - More On chmod - Add clarification for chmod options](https://github.com/enkidevs/curriculum/pull/2398)
+- [Linux - More On chmod - Improve Readability](https://github.com/enkidevs/curriculum/pull/2403)
 
 ## October 21st 2020
 
