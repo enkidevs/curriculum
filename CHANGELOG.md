@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## October 23rd 2020
+
+### Fixed
+- [Java - Basic Strings - Improve readability of last example](https://github.com/enkidevs/curriculum/pull/2406)
+
 ## October 22nd 2020
 
 ### Fixed
