@@ -34,7 +34,7 @@ x = 0
 def doit1(i):
     global x
     x = x + i
-list = range(100000)
+num_range = range(100000)
 ```
 case 2:
 ```python
@@ -44,7 +44,7 @@ def doit2(list):
     global x
     for i in list:
         x = x + i
-list = range(100000)
+num_range = range(100000)
 ```
 we can see from the output:
 ```python

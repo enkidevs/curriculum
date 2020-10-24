@@ -84,9 +84,9 @@ print(e)
 Fill in the code snippet so that it will delete the second number in the list:
 
 ```python
-list = [1, 2, 3, 4, 5]
+numbers = [1, 2, 3, 4, 5]
 
-??? list[???]
+??? numbers[???]
 ```
 
 - del

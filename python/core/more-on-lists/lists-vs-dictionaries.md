@@ -31,7 +31,7 @@ my_list = [
   4
 ]
 
-dict = {
+my_dict = {
   'Name': 'Seba',
   'Age': 21,
   'Year': 'Second'
@@ -56,9 +56,9 @@ print(
 
 # Printing elements of a dictionary
 print(
-  dict['Name'], 
+  my_dict['Name'], 
   '\n', 
-  dict['Year']
+  my_dict['Year']
 )
 
 # Output:

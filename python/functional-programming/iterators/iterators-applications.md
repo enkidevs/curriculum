@@ -44,8 +44,8 @@ In this example, notice how the `file` object is actually an iterator and implem
 Any time you'd like to access items from an iterable collection sequentially but don't want to use a for-loop, an iterator can come in handy. Just write your code to gracefully handle the `StopIteration` exception:  
 
 ```python
-list = ['a', 'b', 'c', 'd']
-it = iter(list)
+letters = ['a', 'b', 'c', 'd']
+it = iter(letters)
 try:
   while True:
     line = next(it)
@@ -80,8 +80,8 @@ Iterators can also perform some pretty complex tasks, especially those from `ite
 
 ```python
 import itertools
-list = ['a', 'b', 'c', 'd']
-for x in itertools.permutations(list):
+letters = ['a', 'b', 'c', 'd']
+for x in itertools.permutations(letters):
   print(x)
 # Result: ('a', 'b', 'c', 'd')
 # ('a', 'b', 'd', 'c')
@@ -95,8 +95,8 @@ for x in itertools.permutations(list):
 Or iterate in reverse using the `reversed()` method:
 
 ```python
-list = ['a', 'b', 'c', 'd']
-for x in reversed(list):
+letters = ['a', 'b', 'c', 'd']
+for x in reversed(letters):
   print(x)
 # Result: d c b a
 ```
@@ -109,8 +109,8 @@ for x in reversed(list):
 `next()` can actually be given a second argument, other than the iterator object from which to get the next element. Calling `next(iterator, None)` causes *reaching the end of the collection to not trigger a StopIteration exception and instead just return a* `None` *object.* We can define anything to be returned in this case. How could we use this in our 'instead of a for loop' example?
 
 ```python
-list = ['a', 'b', 'c', 'd']
-it = iter(list)
+letters = ['a', 'b', 'c', 'd']
+it = iter(letters)
 while True:
   line = next(it, None)
   ???

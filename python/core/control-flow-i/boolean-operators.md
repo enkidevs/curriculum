@@ -22,9 +22,9 @@ There are two keywords in Python that allow us to write more complex boolean con
 
 ```python
 num = 1
-str = 'foobar'
+string = 'foobar'
 
-if str == 'foobar' and num == 1:
+if string == 'foobar' and num == 1:
     print('Success!')
 # Success!
 ```
@@ -34,7 +34,7 @@ When using the `and` operator, *all conditions* must evaluate to `True` for the 
 2. The `or` operator
 
 ```python
-if str == 'foobar' or num > 2:
+if string == 'foobar' or num > 2:
     print('Success!')
 # Success!
 ```
@@ -59,9 +59,9 @@ Complete the code snippet so that both conditions must evaluate to `True` for th
 
 ```python
 x = 6
-str = 'python'
+string = 'python'
 
-if x == 6 ??? str == 'python':
+if x == 6 ??? string == 'python':
     print ('yes')
 else:
     print('no')
@@ -81,9 +81,9 @@ Complete the code snippet so that at least one of the conditions must evaluate t
 
 ```python
 x = 6
-str = 'python'
+string = 'python'
 
-if x == 6 ??? str == 'java':
+if x == 6 ??? string == 'java':
     print ('yes')
 else:
     print('no')

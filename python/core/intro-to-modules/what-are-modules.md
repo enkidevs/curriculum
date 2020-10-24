@@ -33,9 +33,9 @@ Consider the python file `my_adder.py`. Plainly, this **module**'s name is `my_a
 # consider module in my_adder.py:
 
 def add(a, b):
-  sum = a + b
-  print("The sum is: ", sum)
-  return sum
+  result = a + b
+  print("The sum is: ", result)
+  return result
 ```
 
 Note that within each module, its name is dynamically available through the global variable `__name__`.

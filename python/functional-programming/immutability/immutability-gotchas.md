@@ -38,8 +38,8 @@ def add_to(object, collection=[]):
 Simple, right? Let's run it:
 
 ```python
->>> list = [1, 2, 3]
->>> add_to(4, list)
+>>> numbers = [1, 2, 3]
+>>> add_to(4, numbers)
 # [1, 2, 3, 4]
 ```
 

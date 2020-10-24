@@ -42,14 +42,14 @@ Consider the following scenario:
 
 ```python
 # user input will be assigned to `str`
-str = input('Please enter your input: ')
+string = input('Please enter your input: ')
 # program will wait here for user input
 
 # print the user input
-print("The input is: ", str)
+print("The input is: ", string)
 
-# print the type of `str`
-print(type(str))
+# print the type of `string`
+print(type(string))
 ```
 
 The `stdout` will look like:

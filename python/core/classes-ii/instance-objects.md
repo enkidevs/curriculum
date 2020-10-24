@@ -98,8 +98,8 @@ Is the following snippet valid?
 ```plain-text
 class Dog:
   pass
-max = Dog()
-max.age = 3
+sam = Dog()
+sam.age = 3
 ```
 
 ???

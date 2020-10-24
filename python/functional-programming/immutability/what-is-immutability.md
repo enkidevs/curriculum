@@ -20,8 +20,8 @@ Immutability is a concept from object-oriented and functional programming. An **
 For example, if we were to create a list of names in a **mutable** fashion, and wanted to add another name, we would do something like this:
 
 ```python
-list = ['John', 'Laura', 'Vithu']
-list.append('Sam')
+names = ['John', 'Laura', 'Vithu']
+names.append('Sam')
 ```
 
 If our list was **immutable** this would not be possible, since this approach necessitates the modification of our list after its creation. Instead we would need to take an approach like so:

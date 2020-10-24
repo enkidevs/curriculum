@@ -30,7 +30,7 @@ So we know about sequential data types like `strings`, `tuples` and `lists`. The
 > Sets are defined by values separated by commas, inside curly brackets `{}`.
 
 ```python
-set = {'clubs', 'hearts', 'spades', 'diamonds'}
+my_set = {'clubs', 'hearts', 'spades', 'diamonds'}
 ```
 
 We can create a `set` by placing all items inside `{}`, separated by commas, OR by using the built-in `set()` function:

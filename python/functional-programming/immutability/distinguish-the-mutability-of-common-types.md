@@ -63,10 +63,10 @@ In this case, while the code will execute and perform the functionality correctl
 With the knowledge of which data types are mutable, you can choose a better data type to carry out the above operation, increasing efficiency for this case:
 
 ```python
-list = [] # List is mutable!
+new_list = [] # List is mutable!
 for line in file:
-    list.append(str(line))
-"".join(list)
+    new_list.append(str(line))
+"".join(new_list)
 ```
 
 Since `list` is mutable, it is not discarded and a new copy created at each step. It is a good idea for us to try and keep the mutability of our chosen data types in mind as we write our code to avoid these efficiency pitfalls.

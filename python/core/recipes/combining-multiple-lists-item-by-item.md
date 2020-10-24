@@ -56,14 +56,14 @@ temp = ???(???)
 
 ## Revision
 
-How would we get the `tuple` array from putting the `letters` and `values` arrays together?
+How would we get a list of `tuple`s from putting the `letters` and `values` lists together?
 
 ```python
 letters = ['a', 'b', 'c']
 values = [1, 2, 3]
-tuple = ???(letters, values)
+combined = ???(letters, values)
 # so that we get
-tuple = [('a', 1), ('b', 2), ('c', 3)]
+combined = [('a', 1), ('b', 2), ('c', 3)]
 ```
 
 - `zip`

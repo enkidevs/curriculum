@@ -76,9 +76,9 @@ keyboard.???()
 How would you insert the word `'tres'` into the following `list` so that it's at index 2?
 
 ```python
-list = ['uno', 'dos', 'cuatro']
+numbers = ['uno', 'dos', 'cuatro']
 
-list.???(???, 'tres')
+numbers.???(???, 'tres')
 # ['uno', 'dos', 'tres', 'cuatro']
 ```
 

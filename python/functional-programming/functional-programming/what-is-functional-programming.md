@@ -70,10 +70,10 @@ print(result)
 Fill the gaps such that the code will run with no errors:
 
 ```py
-sum = ??? x, y: x + y
+add = ??? x, y: x + y
 multiply = lambda a, b: a * b
 
-result = ???(sum(2, 3),4)
+result = ???(add(2, 3),4)
 ???(result)
 
 # Output: ???
@@ -98,10 +98,7 @@ Can you predict the output?
 ```py
 foo = list(range(1,10))
 
-result = list(
-       filter(
-       lambda x: x / 2 == 1 ,foo
-       ))
+result = list(filter(lambda x: x / 2 == 1, foo))
 
 print(result)
 

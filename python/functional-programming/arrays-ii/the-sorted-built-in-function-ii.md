@@ -32,15 +32,15 @@ class Order(object):
     return '({}, {})'.format(self.name,
     self.number)
 
-list = [Order('tom', 22),
-        Order('bob', 55),
-        Order('sam', 60),
-        Order('alice', 10)]
+orders = [Order('tom', 22),
+          Order('bob', 55),
+          Order('sam', 60),
+          Order('alice', 10)]
 
 def getNum(order):
   return order.number
 
-print(sorted(list, key=getNum))
+print(sorted(orders, key=getNum))
 
 # result:
 # [(alice, 10), (tom, 22),
@@ -67,10 +67,12 @@ class Resident(object):
     self.floor = floor
     self.number = number
 
-list = [Resident('John', 1, 12),
+residents = [
+        Resident('John', 1, 12),
         Resident('Cat', 3, 14),
         Resident('Boris', 6, 45),
-        Resident('Bea', 2, 10)]
+        Resident('Bea', 2, 10)
+        ]
 
 def getFloor(resident):
   return ???

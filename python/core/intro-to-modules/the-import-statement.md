@@ -124,7 +124,7 @@ Consider the previously defined module in `my_adder.py`:
 
 ```python
 def add(a, b):
-  sum = a + b
-  print("The sum is: ", sum)
-  return sum
+  result = a + b
+  print("The result is: ", result)
+  return result
 ```

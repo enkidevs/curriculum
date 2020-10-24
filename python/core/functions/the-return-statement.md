@@ -47,7 +47,7 @@ Fill in the following method such that it will return the sum of `x` and `y`:
 def sum():
   x = 5
   y = 7
-  sum = ???
+  result = ???
   ??? ???
 
 ```
