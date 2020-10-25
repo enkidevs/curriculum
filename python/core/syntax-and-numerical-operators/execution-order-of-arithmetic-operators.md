@@ -35,6 +35,7 @@ Here is the order of execution for Python's operators (highest to lowest):
 | `+`, `-`            | Addition, subtraction                             |
 
 Note that, for the same tier in the order, operators are executed left-to-right.
+
 ---
 
 ## Practice
