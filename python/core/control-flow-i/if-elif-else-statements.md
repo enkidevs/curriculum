@@ -82,7 +82,7 @@ What does the following code snippet print?
 ```python
 x = 8
 
-if (x == 8):
+if x == 8:
     print('true')
 else:
     print('false')

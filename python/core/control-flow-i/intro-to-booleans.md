@@ -75,7 +75,7 @@ What class would the following code return?
 
 ```python
 type(False)
-# <type '???'>
+# <class '???'>
 ```
 
 - `bool`

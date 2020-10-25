@@ -8,7 +8,6 @@ category: must-know
 
 # `if...else` statements
 
-
 ---
 
 ## Content
@@ -27,7 +26,7 @@ The program will only execute the code *if the condition has been met*.
 ```python
 num = 3
 if num > 0:
-    print(num, " is a positive number")
+    print(num, "is a positive number")
 ```
 
 The code above will print `'3 is a positive number'`.
@@ -68,7 +67,7 @@ What does the following code snippet print?
 
 ```python
 x = 3
-if (x < 3):
+if x < 3:
     print ('small')
 else:
     print ('big')
@@ -89,7 +88,7 @@ What does the following code snippet print?
 
 ```python
 x = 8
-if (x == 8):
+if x == 8:
     print ('true')
 else:
     print ('false')

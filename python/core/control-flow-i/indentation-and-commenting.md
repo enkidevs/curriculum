@@ -15,7 +15,7 @@ links:
 
 ## Content
 
-Python is one of the very few programming languages that *relies on the use of indentation* (tabs) to work.
+Python is one of the very few programming languages that *relies on the use of indentation* to work.
 
 > Usually, one indentation has *four spaces* in Python.
 
@@ -79,7 +79,7 @@ else:
 
 - `this is true`
 - `True`
-- `False
+- `False`
 - `this is false`
 
 

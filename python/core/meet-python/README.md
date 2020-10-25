@@ -6,6 +6,7 @@ insights:
   - python-versions
   - python-environment
   - python-hello-world
+  - python-print-function
 exercises:
   - py-practice-print-to-console
 aspects:
