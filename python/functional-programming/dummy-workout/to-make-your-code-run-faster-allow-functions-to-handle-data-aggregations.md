@@ -40,21 +40,21 @@ case 2:
 ```python
 import time
 x = 0
-def doit2(list):
+def doit2(lst):
     global x
-    for i in list:
+    for i in lst:
         x = x + i
 num_range = range(100000)
 ```
 we can see from the output:
 ```python
 t = time.time()
-for i in list:
+for i in lst:
     doit1(i)
 print "%.3f" % (time.time()-t)
 # 0.758
 t = time.time()
-doit2(list)
+doit2(lst)
 print "%.3f" % (time.time()-t)
 # 0.204
 ```

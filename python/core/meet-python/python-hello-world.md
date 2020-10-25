@@ -26,8 +26,8 @@ print('Hello World!')
 
 The output displayed in the shell is:
 
-```python
-# Hello World!
+```plain-text
+Hello World!
 ```
 
 In this program, we've used Python's built-in `print` function. Soon you'll learn about many more of these built-in functions and how to create your own.
