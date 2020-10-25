@@ -34,7 +34,7 @@ Here is the order of execution for Python's operators (highest to lowest):
 | `*`, `/`, `//`, `%` | Multiplication, division, floor division, modulus |
 | `+`, `-`            | Addition, subtraction                             |
 
-
+Note that, for the same tier in the order, operators are executed left-to-right.
 ---
 
 ## Practice
@@ -42,7 +42,7 @@ Here is the order of execution for Python's operators (highest to lowest):
 What’s the output of the following code:
 
 ```bash
-2 + 7 * 2 // 8
+>>> 2 + 7 * 2 // 8
 ```
 
 ???
@@ -60,7 +60,7 @@ What’s the output of the following code:
 What’s the output of the following code:
 
 ```bash
-4 + 3 * 9 // 6
+>>> 4 + 3 * 9 // 6
 ```
 
 ???

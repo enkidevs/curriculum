@@ -53,7 +53,7 @@ When using the `//` operator, you only return the whole number part of the divis
 
 ## Practice
 
-Choose the correct result of the following expression:
+Choose the correct results for the following expressions:
 
 ```bash
 >>> 13 // 3 
@@ -73,7 +73,7 @@ Choose the correct result of the following expression:
 
 ## Revision
 
-What are the outputs to the following lines of code?
+What are the results of the following lines of code?
 
 ```bash
 >>> 25 // 6 

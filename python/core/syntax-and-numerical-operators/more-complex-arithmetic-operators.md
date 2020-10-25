@@ -54,7 +54,7 @@ Python uses the modulus operator, `%`, to return the *remainder of a division*.
 Complete the following code snippet to execute 3 to the power of 4:
 
 ```bash
-3 ??? 4
+>>> 3 ??? 4
 ```
 
 - `**`
@@ -70,7 +70,7 @@ Complete the following code snippet to execute 3 to the power of 4:
 What does the following code snippet return:
 
 ```bash
-11 % 4
+>>> 11 % 4
 ```
 
 ???

@@ -16,7 +16,7 @@ links:
 
 ## Content
 
-Everything in Python has a data type, or *class*[1]. The ones you need to know about now are:
+Every piece of data in Python has a data type. In Python these are implemented as *classes*[1]. The ones you need to know about now are:
 
 - **Integers** - any whole number. Integers belong to the `int` class:
 
@@ -98,7 +98,7 @@ What class does the following return?
 ## Footnotes
 
 [1:Classes]
-A class is a code template where objects are created. For example, we may have a Car class which acts as a factory for making unique car objects. These cars will belong to the Car class.
+A class is a code template where objects are created. For example, we may have a Car class which acts as a factory for making car objects. These cars will belong to the Car class. You'll learn how to make your own classes later in the course.
 
 [2:Complex Numbers]
 Complex numbers come in the form `a + b*j`, where `a` is a real number, `b` is an imaginary number and `j` represents `√−1`.
