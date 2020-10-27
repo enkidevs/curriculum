@@ -52,11 +52,11 @@ In case you omit `break`, `switch` will run all the following cases until it enc
 Complete the basic syntax of the following `switch` statement:
 
 ```js
-??? (checker) {
-  case "1":
+switch (checker) {
+  ??? "1":
     // ...
     break;
-  case "2":
+  ??? "2":
     // ...
     break;
   ???:
@@ -64,10 +64,11 @@ Complete the basic syntax of the following `switch` statement:
 }
 ```
 
-- `switch`
+- `case`
+- `case`
 - `default`
 - `case`
 - `break`
-- `if`
-- `else`
-- `if else`
+- `statement`
+- `statement`
+
