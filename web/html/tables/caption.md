@@ -30,8 +30,8 @@ Example:
 <table>
   <caption>Employee List</caption>
   <tr>
-    <td><b>Name</b></td>
-    <td><b>Start Date</b></td>
+    <td><strong>Name</strong></td>
+    <td><strong>Start Date</strong></td>
   </tr>
   <tr>
     <td>Jimmy</td>
@@ -42,6 +42,8 @@ Example:
   </tr>
 </table>
 ```
+
+> 💡 In the example above, the `<strong>` element is used to bring importance to the "Name" and "Starting Date" tags. However, it can be replaced with the `style="font-weight:bold;"` CSS property. 
 
 ![table-caption](https://img.enkipro.com/ec2e595bc8ee7beb5d9882c1ae15022e.png)
 

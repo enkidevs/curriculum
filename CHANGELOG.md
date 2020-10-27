@@ -48,6 +48,17 @@ Types of change:
 
 ### Fixed
 
+
+## October 27th 2020
+
+### Fixed
+- [Javascript - Switch Statements - Update Practice Question](https://github.com/enkidevs/curriculum/pull/2411)
+
+## October 26th 2020
+
+### Fixed
+- [HTML - Caption - Replace Deprecated Tag](https://github.com/enkidevs/curriculum/pull/2409)
+
 ## October 22nd 2020
 
 ### Fixed
