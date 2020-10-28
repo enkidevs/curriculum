@@ -48,6 +48,12 @@ Types of change:
 
 ### Fixed
 
+## October 28th 2020
+
+### Fixed
+- [HTML - Audio Files - Fix broken practice question](https://github.com/enkidevs/curriculum/pull/2413)
+
+
 ## October 27th 2020
 
 ### Fixed
