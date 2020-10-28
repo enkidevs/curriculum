@@ -84,7 +84,7 @@ type Person struct {
 }
 
 func (???) ??? string {
-  return fmt.Sprintf("Dear %s %s, welcome!", s.FirstName, s.LastName)
+  return fmt.Sprintf("Dear %s %s, welcome!", t.FirstName, t.LastName)
 }
 ```
 - t *Person
