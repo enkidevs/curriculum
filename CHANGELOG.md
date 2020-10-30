@@ -53,6 +53,7 @@ Types of change:
 ### Fixed
 - [SQL - JOINs - Update PQ for an insight and other general updates](https://github.com/enkidevs/curriculum/pull/2414)
 - [Java - Data Management Topic - Split workouts into semi-even sections](https://github.com/enkidevs/curriculum/pull/2415)
+- [Go - Methods, Pointers & Functions - Update PQ](https://github.com/enkidevs/curriculum/pull/2412)
 
 ## October 28th 2020
 
