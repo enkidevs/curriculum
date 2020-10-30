@@ -1,25 +1,30 @@
 ---
 author: mihaiberq
+
 type: normal
+
 category: must-know
-inAlgoPool: false
+
 tags:
   - deep
   - workout
+
 links:
   - >-
-    [Full outer
-    join](https://en.wikipedia.org/wiki/Join_(SQL)#Full_outer_join){website}
+    [Full Outer
+    Join](https://en.wikipedia.org/wiki/Join_(SQL)#Full_outer_join){website}
+
 ---
 
 # FULL JOIN
-
 
 ---
 
 ## Content
 
-The `FULL JOIN`, or `FULL OUTER JOIN`, is a type of join that combines the functionality of `RIGHT JOIN` and `LEFT JOIN`. In other words, it returns matching rows, rows that are only in the left-hand table and rows that are only in the right-hand table.
+The `FULL JOIN`, or `FULL OUTER JOIN`, is a type of join that combines the functionality of `RIGHT JOIN` and `LEFT JOIN`. 
+
+In other words it returns matching rows as well as rows that are only in the left-hand table and rows that are only in the right-hand table.
 
 If we are to fall back to the previous example of *moves* and *types*, the output won't be different:
 
@@ -28,7 +33,7 @@ SELECT move.id, move.name,
   type.id, type.name AS type_name
 FROM move
 FULL OUTER JOIN type ON
-move.type_id = type.id;
+  move.type_id = type.id;
 ```
 
 However, if our `type` table had the extra `'wood'` type and there was an extra `'coolest-move-ever'` in the `move` table, both values would get printed, on top of the other 640 rows:
@@ -44,7 +49,6 @@ Here's what a FULL JOIN represents:
 
 ![fulljoin](https://img.enkipro.com/3df8b481080842061546bbcecc23c7a6.png)
 
-
 ---
 
 ## Practice
@@ -55,17 +59,16 @@ Fill in the gaps such that the following snippet becomes a valid `FULL OUTER JOI
 ??? *
 FROM ???
 ??? berry_firmness ???
-berry.berry_firmness_id = berry_firmness.id
-WHERE berry_firmness.id = 2???
+  berry.berry_firmness_id = berry_firmness.id
+WHERE 
+  berry_firmness.id = 2;
 ```
 
 - `SELECT`
 - `berry`
 - `FULL OUTER JOIN`
 - `ON`
-- `;`
 - `*`
-
 
 ---
 
@@ -84,7 +87,6 @@ pokemon_type.type_id = type.id
 - `ON`
 - `LEFT AND RIGHT JOIN`
 - `OUTER JOIN`
-
 
 ---
 
