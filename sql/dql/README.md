@@ -68,4 +68,4 @@ standards:
       6: Use a WHERE clause with the DELETE command to conditionally delete rows of data
 
 next:
-  - sql:ddl
+  - sql:dml
