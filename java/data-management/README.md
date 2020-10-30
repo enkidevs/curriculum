@@ -12,18 +12,18 @@ sections:
     - strings-i
     - strings-ii
     - strings-iii
+  '1':
     - data-tips-i
     - wildcards-generic-code
     - writing-generic-code
-  '1':
     - buffered-streams
     - data-structures-implementation
+  '2':
     - file-system-i
     - file-system-ii
     - data-tips-ii
     - tools-i
     - tools-ii
-  '2':
     - file-system-iii
 
 next:
