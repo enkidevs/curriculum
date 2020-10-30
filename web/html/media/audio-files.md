@@ -66,20 +66,13 @@ Using the `<audio>` tag, multiple songs can be added via the `<source>` element 
 
 ## Practice
 
-Which of these formats is supported by all browsers (excluding Internet Explorer)?
+Which of these formats are not supported by all browsers ?
 
 ??? 
-???
-???
-???
 
-- .mp3/.m4a
-- .ogg
-- .mp4
-- .wav
-- .tunes
-- flash
-
+- .tunes & flash
+- .mp3/.m4a & .ogg
+- .mp4 & .wav
 
 ---
 

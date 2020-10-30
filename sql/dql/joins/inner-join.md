@@ -22,11 +22,13 @@ parent: avg-clause
 
 ## Content
 
-The `JOIN` clauses combine multiple columns from one or more **related tables**, creating a new set of data. Joins are a core part of SQL as their existence promotes data singularity.
+The `JOIN` clauses combine multiple columns from one or more **related tables**, creating a new set of data. 
 
-Take, for example, Pokémons and their abilities[1]. Abilities should have a name and a description. The English names of those abilities can be found in the `ability` table inside the Pokemon DB and their short and long descriptions inside `ability_effect_text`.
+Joins are a core part of SQL as their existence promotes data singularity.
 
-For reference, here are some table entries for the `ability` table:
+Take, for example, Pokémon and their abilities[1]. Abilities should have a name and a description.
+
+The English names of those abilities can be found in the `ability` table (inside the Pokémon DB):
 
 | id | is_main_series | generation_id | name         |
 | -- | -------------- | ------------- | ------------ |
@@ -35,7 +37,8 @@ For reference, here are some table entries for the `ability` table:
 | 3  | True           | 3             | speed-boost  |
 | 4  | True           | 3             | battle-armor |
 
-And for the `ability_effect_text`:
+
+The short and long ability descriptions can be found inside the `ability_effect_text` table (in the same database):
 
 | id | effect                                  | short_effect                            | ability_id | language_id |
 | -- | --------------------------------------- | --------------------------------------- | ---------- | ----------- |
@@ -44,7 +47,15 @@ And for the `ability_effect_text`:
 | 3  | This Pokémon's Speed rises one stage... | Raises Speed one stage after each turn. | 3          | 9           |
 | 4  | Moves cannot score critical hits ...    | Protects against critical hits.         | 4          | 9           |
 
-To match the abilities that can be found in both tables, use the following `INNER JOIN` command:
+> 💡 Did you know you can scroll our tables to see all the columns?
+
+What if we wanted to write a query that shows the `name` of an ability and its description? This is where `JOIN`s come in.
+
+To match records from both tables you need to find a column that has the same values **for both tables**.
+
+In our case, we have the `id` column in the `ability` table and the `ability_id` column in the `ability_effect_text` table.
+
+Knowing that, here is how you do an inner join:
 
 ```sql
 SELECT ability.name,
@@ -71,7 +82,7 @@ An *INNER JOIN* is a type of join that only returns rows for which the joined fi
 
 If there were some abilities without an effect text or some effects not describing an ability, they wouldn't be included in query result.
 
-So, if the `ability` table has `251` records and the `ability_effect_text` has `191` records, the total number of returned rows after the inner join operation will be `191`. This is because there are no matches for the extra `60` records in the `ability table`.  
+So, if the `ability` table has `251` records and the `ability_effect_text` has `191` records, the total number of returned rows after the inner join operation will be `191`. This is because there would be no matches for the extra `60` records in the `ability table`.  
 
 ---
 
@@ -80,7 +91,9 @@ So, if the `ability` table has `251` records and the `ability_effect_text` has `
 Complete the `INNER JOIN` operation on the `item` and `item_effect_text` tables. The matching columns are `id` and `item_id` respectively.
 
 ```sql
-??? item.id, item.name,
+??? 
+  item.id, 
+  item.name,
   item_effect_text.short_effect
 ??? item
 ??? ??? ???
@@ -93,7 +106,6 @@ Complete the `INNER JOIN` operation on the `item` and `item_effect_text` tables.
 - `item_effect_text`
 - `ON`
 - `item.id`
-
 
 ---
 
