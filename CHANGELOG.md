@@ -52,6 +52,7 @@ Types of change:
 
 ### Fixed
 - [SQL - JOINs - Update PQ for an insight and other general updates](https://github.com/enkidevs/curriculum/pull/2414)
+- [Go - Methods, Pointers & Functions - Update PQ](https://github.com/enkidevs/curriculum/pull/2412)
 
 ## October 28th 2020
 
