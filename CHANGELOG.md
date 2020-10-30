@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## October 30th 2020
+
+### Fixed
+- [SQL - JOINs - Update PQ for an insight and other general updates](https://github.com/enkidevs/curriculum/pull/2414)
+
 ## October 28th 2020
 
 ### Fixed
