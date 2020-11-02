@@ -37,11 +37,12 @@ func main() {
 // separate function called positiveOrNegative
 // that does the same thing as the above if-else function
 func positiveOrNegative(x int) string {
-
-	if x:=1 ; x >  0 {
-		return " is positive"
+	if x > 0 {
+		return "is positive"
+	} else if x < 0 {
+		return "is negative"
 	}
-	return " is negative"
+	return "is neither positive nor negative"
 
 }
 ```
