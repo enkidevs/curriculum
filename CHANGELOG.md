@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## November 4th 2020
+
+### Fixed
+- [HTML - Links II - Fix broken PQ & RQ](https://github.com/enkidevs/curriculum/pull/2418)
+
 ## October 30th 2020
 
 ### Fixed
