@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## November 6th 2020
+
+### Fixed
+- [Linux - File Permissions - Fix misleading PQ](https://github.com/enkidevs/curriculum/pull/2419)
+
 ## November 4th 2020
 
 ### Fixed
