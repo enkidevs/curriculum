@@ -35,6 +35,10 @@ There are many scanning tools for source code available on the market, many of t
 - [OSS Index](https://ossindex.net/) for Java, .NET, C#, JavaScript
 - [Dependency Check](https://owasp.org/www-project-dependency-check/) tool from OWASP, supports Java, .NET, JavaScript, Ruby
 
+### Python 
+
+- [Snyk for python](https://snyk.io/)
+
 ### Java
 
 - [Snyk for Maven](https://snyk.io/)
@@ -48,6 +52,10 @@ There are many scanning tools for source code available on the market, many of t
 
 - [Bundler-audit](https://github.com/rubysec/bundler-audit)
 - [Hakiri](https://hakiri.io/)
+
+### Other
+
+- Some version control systems will automatically scan dependencies in public repositories.
 
 Use the *edit this insight* feature if you have recommendations or see out of date tools.
 
