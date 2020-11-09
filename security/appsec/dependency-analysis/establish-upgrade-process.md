@@ -26,7 +26,7 @@ links:
 
 Once you have analyzed source code and identified vulnerable components, those components need to be upgraded. It will take developers time to make these changes, and the priority should be balanced against the need to move the software forward against the risk of compromise.
 
-Sometimes the upgrade path is simple. Sometimes a vulnerable component can be automatically upgraded, which is instant. *If an API change occurs between the current insecure version and the next most secure version, the upgrade path will not be simple.* A good way to visualize it is, find all instances of the use of that library in the source code. For each instance, generate a random number between 1 and 256. Add up all of those numbers - that's how long it may take to update every instance that library in minutes.
+Sometimes the upgrade path is simple. Sometimes a vulnerable component can be automatically upgraded, which is instant. *If an API change occurs between the current insecure version and the next most secure version, the upgrade path will not be simple.* A good way to visualize it is, find all instances of the use of that library in the source code. For each instance, generate a random number between 1 and 256. Add up all of those numbers - that's how long it may take to update every instance of that library in minutes.
 
 Many teams have found success devoting time quarterly to fixing security problems for non-sensitive information. For sensitive information, such as financial data, the upgrade process may be defined by government regulation.
 
