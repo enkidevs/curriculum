@@ -15,7 +15,7 @@ links:
   - '[Snyk](https://snyk.io/docs/snyk-for-java/){website}'
   - '[Bundler-audit](https://github.com/rubysec/bundler-audit){website}'
   - '[Hakiri](https://hakiri.io/){website}'
-  - '[OSS Index](https://ossindex.net/){website}'
+  - '[Sonatype OSS Index](https://ossindex.sonatype.org/){website}'
   - >-
     [Dependency
     Check](https://owasp.org/www-project-dependency-check/){website}
@@ -32,12 +32,12 @@ There are many scanning tools for source code available on the market, many of t
 
 ### General
 
-- [OSS Index](https://ossindex.net/) for Java, .NET, C#, JavaScript
+- [Sonatype OSS Index](https://ossindex.sonatype.org/) for JavaScript, Go, Python, and others[1]
 - [Dependency Check](https://owasp.org/www-project-dependency-check/) tool from OWASP, supports Java, .NET, JavaScript, Ruby
 
 ### Python 
 
-- [Snyk for python](https://snyk.io/)
+- [Snyk for Python](https://snyk.io/)
 
 ### Java
 
@@ -53,9 +53,7 @@ There are many scanning tools for source code available on the market, many of t
 - [Bundler-audit](https://github.com/rubysec/bundler-audit)
 - [Hakiri](https://hakiri.io/)
 
-### Other
-
-- Some version control systems will automatically scan dependencies in public repositories.
+> 💡 Some version control systems will automatically scan dependencies in public repositories. One example is the [Sonatype OSS Index](https://ossindex.sonatype.org/).
 
 Use the *edit this insight* feature if you have recommendations or see out of date tools.
 
@@ -65,7 +63,9 @@ Use the *edit this insight* feature if you have recommendations or see out of da
 
 Check a Node.js project for vulnerabilities using an automatic dependency analyzer:  
 
-`npm ???`   
+```bash
+npm ???
+```   
 
 - audit
 - scan
@@ -81,3 +81,10 @@ In order to find vulnerabilities in your dependencies you should ???.
 - Use a source-code scanning tool
 - Manually review all the code
 - Hire a penetration testing team
+
+---
+
+## Footnotes
+
+[1:Sonatype OSS Index Ecosystems]
+You can check the full list of supported ecosystems on [Sonatype's official website](https://ossindex.sonatype.org/ecosystems).
