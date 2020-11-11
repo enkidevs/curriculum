@@ -44,7 +44,7 @@ Which of the following browsers *does not* support `position: sticky`? ???
 - iOS Safari
 
 ---
-## Footnote
+## Footnotes
 
 [1:position fixed]
 
