@@ -34,7 +34,6 @@ By simply adding `position: sticky` (vendor prefixed), we can tell an element to
 
 
 ---
-
 ## Revision
 
 Which of the following browsers *does not* support `position: sticky`? ???
@@ -43,3 +42,10 @@ Which of the following browsers *does not* support `position: sticky`? ???
 - Firefox
 - Safari
 - iOS Safari
+
+---
+## Footnotes
+
+[1: position fixed]
+
+The `position: fixed` element positions relative to the viewport. This means it will always stay in the same place even if you scroll up/down the page.
