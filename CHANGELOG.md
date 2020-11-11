@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## November 11th 2020
+
+### Fixed
+- [Styling - Position elements with position sticky - Add Footnote For Position Fixed](https://github.com/enkidevs/curriculum/pull/2422)
+
 ## November 6th 2020
 
 ### Fixed
