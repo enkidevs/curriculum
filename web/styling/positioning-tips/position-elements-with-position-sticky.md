@@ -19,7 +19,7 @@ notes: ''
 
 ## Content
 
-`position: sticky` is a new way to position elements and is conceptually similar to `position: fixed`.
+`position: sticky` is a new way to position elements and is conceptually similar to `position: fixed`[1].
 
 The difference is that an element with `position: sticky` behaves like `position: relative` within its parent, until a given offset threshold is met in the viewport.
 
@@ -44,8 +44,8 @@ Which of the following browsers *does not* support `position: sticky`? ???
 - iOS Safari
 
 ---
-## Footnotes
+## Footnote
 
-[1: position fixed]
+[1:position fixed]
 
 The `position: fixed` element positions relative to the viewport. This means it will always stay in the same place even if you scroll up/down the page.
