@@ -39,7 +39,8 @@ func main() {
 func positiveOrNegative(x int) string {
 	if x > 0 {
 		return "is positive"
-	} else if x < 0 {
+	} if x < 0 {
+
 		return "is negative"
 	}
 	return "is neither positive nor negative"
@@ -58,4 +59,3 @@ We can have only one `if` that returns the first value if the condition is `true
 The reason you might want to use the `func` version of the same code is that you can reuse it multiple times without typing new `if-else` statements. 
 
 You can just call the function multiple times with different values!
-
