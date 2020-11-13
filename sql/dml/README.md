@@ -6,6 +6,8 @@ sections:
   '0':
     - intro-dml
     - insert
+    - update
+    - delete
 
 next:
   - sql:ddl

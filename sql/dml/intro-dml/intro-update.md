@@ -31,14 +31,6 @@ Let's see how you can update the `Pineapple` entry to `Grape`.
 Updating is done through, no points for guessing, the `UPDATE` keyword:
 
 ```sql
-UPDATE table_name
-SET column_name = value
-WHERE condition
-```
-
-So, using this syntax, we would write:
-
-```sql
 UPDATE fruits
 SET name = 'Grape'
 WHERE id = 2
@@ -51,7 +43,7 @@ Done 🎉. The `fruits` table now looks like this:
 | 1  | Raspberry |
 | 2  | Grape     |
 
-> 💡 This is a short introduction to the `UPDATE` keyword. We'll explain everything in the following workouts.
+> 💡 This is a short introduction to the `UPDATE` keyword. We'll explain how everything works in the following workouts.
 
 ---
 
@@ -78,5 +70,5 @@ Update the value of the `name` column to `'Artemis'` **if** the `id` is `6`:
 
 - UPDATE
 - SET
-- 'Artemis'
+- "Artemis"
 - WHERE

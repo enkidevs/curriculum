@@ -17,16 +17,7 @@ tags:
 
 ## Content
 
-Adding new data into your table is done using the `INSERT` keyword.
-
-The base syntax is:
-
-```sql
-INSERT INTO table_name VALUES
-(col1_value, col2_value, col3_value, ...);
-```
-
-This might look slightly confusing, so let's go over an example.
+Adding new data into your table is as simple as writing `INSERT INTO table VALUES`.
 
 Consider the following `fruits` table:
 
@@ -49,7 +40,7 @@ Now, return all the values[1] in the `fruits` table and you'll get:
 | 2  | Pineapple |
 
 
-> 💡 This is a short introduction to the `INSERT` keyword. We'll explain everything in the next workout.
+> 💡 This is a short introduction to the `INSERT` keyword. We'll explain how everything works in the next workout.
 
 ---
 
@@ -85,7 +76,8 @@ Insert the following data into the `employees` table:
 ## Footnotes
 
 [1:Select All]
-To return all the values in a table, use the `*` character:
+To return all the values in a table, you can use the `*` character:
+
 ```sql
 SELECT * FROM fruits
 ```

@@ -1,6 +1,6 @@
 name: Introduction
 
-description: What are the main concepts of modification in SQL plus a quick introduction.
+description: An introduction to the main concepts of modification.
 
 aspects:
   - introduction

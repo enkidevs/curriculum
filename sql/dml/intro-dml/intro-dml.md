@@ -31,7 +31,7 @@ Modification includes concepts such as:
 - updating
 - deleting
 
-Let's not waste any time, and see how you can insert data into your tables.
+Let's see how you can insert data into your tables.
 
 ---
 
