@@ -1,16 +1,20 @@
 ---
 author: catalin
+
 type: normal
+
 category: how to
+
 links:
   - >-
     [Requiring Single
     Child](https://facebook.github.io/react/docs/typechecking-with-proptypes.html#requiring-single-child){website}
+
 parent: custom-proptype-s-to-be-required
+
 ---
 
-# Specify a single child
-
+# Specify a Single Child
 
 ---
 
@@ -36,22 +40,13 @@ class NewComponent extends React.Component {
 }
 ```
 
-To make sure `this.props.children` is **exactly** a single element we suffix the validation with `isRequired`:
-
-```jsx
-propTypes: {
-  children: PropTypes.element.isRequired,
-}
-```
-
-To throw an error if anything but exactly 1 element is passed as `children`, we suffix the `PropTypes` validation with `isRequired`:
+To throw an error if anything but exactly one element is passed as `children`, we suffix the `PropTypes` validation with `isRequired`:
 
 ```js
 NewComponent.propTypes = {
   children: PropTypes.element.isRequired
 };
 ```
-
 
 ---
 
