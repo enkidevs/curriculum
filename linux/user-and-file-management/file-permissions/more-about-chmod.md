@@ -62,7 +62,7 @@ Here're a few more examples of commonly used permissions:
 
 ## Practice
 
-Add *read/execute* permissions for *user* and *other* for `enki.txt`: 
+Add *read/execute* permissions for *group* and *other* for `enki.txt`: 
 
 ```plain-text
 ??? ??? enki.txt

@@ -1,21 +1,25 @@
 ---
 author: mihaiberq
+
 type: normal
+
 category: must-know
-inAlgoPool: false
+
 tags:
   - workout
   - deep
+
 ---
 
 # UNION
-
 
 ---
 
 ## Content
 
-The **union** of two or more tables means combining their **type-matching rows**. Unlike the `JOIN` operation, which combines columns (containing all entries from either the left, the right or both tables), the `UNION` operation always retrieves every entry in *both tables*.
+The **union** of two or more tables means combining their **type-matching rows**. 
+
+Unlike the `JOIN` operation, which combines columns (containing all entries from either the left, the right or both tables), the `UNION` operation always retrieves every entry in *both tables*.
 
 However, there are two necessary conditions for a `UNION` to be performed:
 
@@ -97,7 +101,6 @@ And the output:
 
 For tables where data singularity is not always the case, the results might be different. An immediate consequence of this is that `UNION` performs worse, as it must scan the result for duplicates.
 
-
 ---
 
 ## Practice
@@ -121,7 +124,6 @@ WHERE region_name.region_id = 2;
 - `OUTER JOIN`
 - `*`
 
-
 ---
 
 ## Revision
@@ -132,7 +134,6 @@ WHERE region_name.region_id = 2;
 - `UNION`
 - `FULL JOIN`
 - `SELECT UNION`
-
 
 ---
 

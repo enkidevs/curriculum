@@ -89,7 +89,6 @@ Here is an example with all attributes added on the same link:
 
 [View CodePen](https://codepen.io/enkidevs/pen/OwpKGj)
 
-
 ---
 
 ## Practice
@@ -100,7 +99,7 @@ Create a text link that opens the user's default email program.
 <??? ???="??????">
   Email Me
 <???>
-
+```
 - a
 - href
 - mailto:

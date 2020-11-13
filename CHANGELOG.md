@@ -50,6 +50,40 @@ Types of change:
 
 ### Fixed
 
+## November 6th 2020
+
+### Fixed
+- [Linux - File Permissions - Fix misleading PQ](https://github.com/enkidevs/curriculum/pull/2419)
+
+## November 4th 2020
+
+### Fixed
+- [HTML - Links II - Fix broken PQ & RQ](https://github.com/enkidevs/curriculum/pull/2418)
+
+## October 30th 2020
+
+### Fixed
+- [SQL - JOINs - Update PQ for an insight and other general updates](https://github.com/enkidevs/curriculum/pull/2414)
+- [Java - Data Management Topic - Split workouts into semi-even sections](https://github.com/enkidevs/curriculum/pull/2415)
+- [Go - Methods, Pointers & Functions - Update PQ](https://github.com/enkidevs/curriculum/pull/2412)
+
+## October 28th 2020
+
+### Fixed
+- [HTML - Audio Files - Fix broken practice question](https://github.com/enkidevs/curriculum/pull/2413)
+
+
+## October 27th 2020
+
+### Fixed
+- [Javascript - Switch Statements - Update Practice Question](https://github.com/enkidevs/curriculum/pull/2411)
+- [Java - Basic Strings - Improve readability of last example](https://github.com/enkidevs/curriculum/pull/2406)
+
+## October 26th 2020
+
+### Fixed
+- [HTML - Caption - Replace Deprecated Tag](https://github.com/enkidevs/curriculum/pull/2409)
+
 ## October 22nd 2020
 
 ### Fixed
