@@ -10,10 +10,9 @@ sections:
     - using-select
     - building-queries
     - special-operators
-    - subqueries
-    - write
   '1':
     - aggregate-queries
+    - subqueries
     - joins
     - database-clients
 
