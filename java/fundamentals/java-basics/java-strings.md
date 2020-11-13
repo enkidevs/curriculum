@@ -46,15 +46,15 @@ System.out.println("Hello World!");
 You can also concatenate (or add) `String`s. The easiest way to do this is:
 
 ```java
-String concat = "Concatenated" + " string"
-                               + "!";
+String concat = "This " + "string " 
+                + "is " + "concatenated" + "!";
 ```
 
-If we print `concat`, we obtain:
+If we print the `concat` variable, we obtain:
 
 ```java
 System.out.println(concat);
-// Concatenated string!
+// This string is concatenated!
 ```
 
 
@@ -62,7 +62,7 @@ System.out.println(concat);
 
 ## Revision
 
-To concatenate two strings, operator ??? is used.
+To concatenate two strings, the operator ??? is used.
 
 - `+`
 - `++`

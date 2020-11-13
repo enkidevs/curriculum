@@ -11,7 +11,7 @@ category: must-know
 
 ## Content
 
-In HTML the `<meta>` element is used to describe essentially information about your HTML document or web page. It can contain attributes that share more info about the author, keywords, page description, how to encode your document etc.
+In HTML the `<meta>` element is used to describe essential information about your HTML document or web page. It can contain attributes that share more info about the author, keywords, page description, how to encode your document etc.
 
 The `<meta>` element should always be inside the `<head>` element.
 
