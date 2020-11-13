@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## November 13th 2020
+
+### Fixed
+- [React - Specify a Single Child - Remove duplicated paragraph](https://github.com/enkidevs/curriculum/pull/2423)
+
 ## November 6th 2020
 
 ### Fixed
