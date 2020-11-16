@@ -22,6 +22,10 @@ Before diving into this skill, you should make sure you have a strong foundation
 
 > 💡 As with all the skills in the app, if you want to access more advanced or specific content at any time, **feel free to use the *Skill Map* tab** to jump to the workouts most relevant for you.
 
+> 💬 Why are you interested in learning Security?
+> 
+> Leave a comment or view some of the other comments for inspiration before moving on.
+
 
 ---
 
