@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## November 16th 2020
+
+### Fixed
+- [Java - What Is Serialization? - Update PQ to use the same terms as the insight](https://github.com/enkidevs/curriculum/pull/2425)
+
 ## November 13th 2020
 
 ### Fixed
@@ -134,7 +139,7 @@ Types of change:
 ## October 8th 2020
 
 ### Fixed
--[MongoDB - Aggregation with Object Expression 1 - Fix Grammer](https://github.com/enkidevs/curriculum/pull/2383)
+- [MongoDB - Aggregation with Object Expression 1 - Fix Grammer](https://github.com/enkidevs/curriculum/pull/2383)
 
 ## October 6th 2020
 
