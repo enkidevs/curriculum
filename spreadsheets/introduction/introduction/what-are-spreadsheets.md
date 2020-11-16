@@ -23,7 +23,11 @@ Here's an example of a Google Sheets spreadsheet:
 
 A note on how this course is structured. In the first two workouts, we'll go over what you'll get from this course and some terminology. Workout 3 onwards will start to get more practical and exciting!
 
-> As with all the skills in the app, if you want to access more advanced or specific content at any time, **feel free to use the *Skill Map* tab** to jump to whichever workouts are most relevant for you.
+> 💡 As with all the skills in the app, if you want to access more advanced or specific content at any time, **feel free to use the *Skill Map* tab** to jump to the workouts most relevant for you.
+
+> 💬 Why are you interested in learning Spreadsheets?
+> 
+> Leave a comment or view some of the other comments for inspiration before moving on.
 
 
 ---
