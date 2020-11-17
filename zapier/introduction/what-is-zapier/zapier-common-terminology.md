@@ -39,7 +39,11 @@ Now, let's introduce some of the terms that you'll see. Here is a list to help y
 
 Now, you are ready to create your first zap.
 
-> Note: as with all the skills in the app, if you want to access more advanced or specific content at any time, **feel free to use the *Skill Map* tab** to jump to the workouts most relevant for you.
+> 💡 As with all the skills in the app, if you want to access more advanced or specific content at any time, **feel free to use the *Skill Map* tab** to jump to the workouts most relevant for you.
+
+> 💬 Why are you interested in learning Zapier?
+> 
+> Leave a comment or view some of the other comments for inspiration before moving on.
 
 
 ---
