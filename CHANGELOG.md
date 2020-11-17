@@ -51,6 +51,7 @@ Types of change:
 ## November 17th 2020
 
 ### Added
+- [Docker - Docker Benefits - Add discussion question](https://github.com/enkidevs/curriculum/pull/2430)
 - [Git - What You Will Get Out Of Git - Add discussion question](https://github.com/enkidevs/curriculum/pull/2431)
 - [Go - Hello World - Add discussion question](https://github.com/enkidevs/curriculum/pull/2432)
 - [Java - Compiling and Running Java Code - Add discussion question](https://github.com/enkidevs/curriculum/pull/2433)
