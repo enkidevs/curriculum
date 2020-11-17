@@ -51,6 +51,7 @@ Types of change:
 ## November 17th 2020
 
 ### Added
+- [Linux - Linux Common Terminology - Add discussion question](https://github.com/enkidevs/curriculum/pull/2435)
 - [Mongodb - Why Mongodb - Add Discussion insight](https://github.com/enkidevs/curriculum/pull/2436)
 - [Webflow - Css - Add Discussion insight](https://github.com/enkidevs/curriculum/pull/2437)
 - [React - What I Need To Use React - Add Discussion insight](https://github.com/enkidevs/curriculum/pull/2438)
