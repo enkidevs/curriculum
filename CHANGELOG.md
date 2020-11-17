@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## November 17th 2020
+
+### Added
+- [Webflow - Css - Add Discussion insight](https://github.com/enkidevs/curriculum/pull/2437)
+
 ## November 16th 2020
 
 ### Fixed
