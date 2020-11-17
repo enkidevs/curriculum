@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## November 17th 2020
+
+### Added
+- [Spreadsheets - What Are Spreadsheets - Add Discussion insight](https://github.com/enkidevs/curriculum/pull/2441)
+
 ## November 16th 2020
 
 ### Fixed
