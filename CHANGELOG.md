@@ -51,6 +51,7 @@ Types of change:
 ## November 17th 2020
 
 ### Added
+- [SQL - Your First Query - Add Discussion insight](https://github.com/enkidevs/curriculum/pull/2442)
 - [Typescript - Hello Typescript - Add Discussion insight](https://github.com/enkidevs/curriculum/pull/2443)
 - [HTML - HTML CSS Browser - Add Discussion insight](https://github.com/enkidevs/curriculum/pull/2444)
 - [CSS - Class And Id Selectors - Add Discussion insight](https://github.com/enkidevs/curriculum/pull/2445)
