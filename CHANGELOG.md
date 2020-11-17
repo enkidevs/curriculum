@@ -51,6 +51,7 @@ Types of change:
 ## November 17th 2020
 
 ### Added
+- [Go - Hello World - Add discussion question](https://github.com/enkidevs/curriculum/pull/2432)
 - [Java - Compiling and Running Java Code - Add discussion question](https://github.com/enkidevs/curriculum/pull/2433)
 - [Javascript - Console In Javascript - Add discussion question](https://github.com/enkidevs/curriculum/pull/2434)
 - [Linux - Linux Common Terminology - Add discussion question](https://github.com/enkidevs/curriculum/pull/2435)
