@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## November 17th 2020
+
+### Added
+- [React - What I Need To Use React - Add Discussion insight](https://github.com/enkidevs/curriculum/pull/2438)
+
 ## November 16th 2020
 
 ### Fixed
