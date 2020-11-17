@@ -52,6 +52,8 @@ Types of change:
 
 ### Added
 - [HTML - HTML CSS Browser - Add Discussion insight](https://github.com/enkidevs/curriculum/pull/2444)
+- [CSS - Class And Id Selectors - Add Discussion insight](https://github.com/enkidevs/curriculum/pull/2445)
+- [Zapier - Zapier Common Terminology - Add Discussion insight](https://github.com/enkidevs/curriculum/pull/2446)
 
 ## November 16th 2020
 
