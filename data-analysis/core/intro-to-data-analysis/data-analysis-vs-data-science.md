@@ -52,7 +52,6 @@ We're going to jump into some of these skills throughout this course. 💪
 > 
 > Leave a comment or view some of the other comments for inspiration before moving on.
 
-
 ---
 ## Practice
 
