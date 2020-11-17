@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## November 17th 2020
+
+### Added
+- [SQL - Your First Query - Add Discussion insight](https://github.com/enkidevs/curriculum/pull/2442)
+
 ## November 16th 2020
 
 ### Fixed
