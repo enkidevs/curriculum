@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## November 17th 2020
+
+### Added
+- [Comp Sci- The Queue Data Structure - Add discussion question](https://github.com/enkidevs/curriculum/pull/2426)
+
 ## November 16th 2020
 
 ### Fixed
