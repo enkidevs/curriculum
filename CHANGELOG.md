@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## November 17th 2020
+
+### Added
+- [Security - What Else Do You Need To Know - Add Discussion insight](https://github.com/enkidevs/curriculum/pull/2440)
+
 ## November 16th 2020
 
 ### Fixed
