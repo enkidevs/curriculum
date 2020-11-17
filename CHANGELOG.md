@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## November 17th 2020
+
+### Added
+- [Docker - Docker Benefits - Add discussion question](https://github.com/enkidevs/curriculum/pull/2430)
+
 ## November 16th 2020
 
 ### Fixed
