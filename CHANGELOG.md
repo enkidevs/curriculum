@@ -52,6 +52,15 @@ Types of change:
 
 ### Added
 - [Webflow - Css - Add Discussion insight](https://github.com/enkidevs/curriculum/pull/2437)
+- [React - What I Need To Use React - Add Discussion insight](https://github.com/enkidevs/curriculum/pull/2438)
+- [Regex - What Is Regex - Add Discussion insight](https://github.com/enkidevs/curriculum/pull/2439)
+- [Security - What Else Do You Need To Know - Add Discussion insight](https://github.com/enkidevs/curriculum/pull/2440)
+- [Spreadsheets - What Are Spreadsheets - Add Discussion insight](https://github.com/enkidevs/curriculum/pull/2441)
+- [SQL - Your First Query - Add Discussion insight](https://github.com/enkidevs/curriculum/pull/2442)
+- [Typescript - Hello Typescript - Add Discussion insight](https://github.com/enkidevs/curriculum/pull/2443)
+- [HTML - HTML CSS Browser - Add Discussion insight](https://github.com/enkidevs/curriculum/pull/2444)
+- [CSS - Class And Id Selectors - Add Discussion insight](https://github.com/enkidevs/curriculum/pull/2445)
+- [Zapier - Zapier Common Terminology - Add Discussion insight](https://github.com/enkidevs/curriculum/pull/2446)
 
 ## November 16th 2020
 

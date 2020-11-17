@@ -32,6 +32,10 @@ Pretty much all the insights from now on will teach you how to **build more comp
 
 > 💡 As with all the skills in the app, if you want to access more advanced or specific content at any time, **feel free to use the *Skill Map* tab** to jump to the workouts most relevant for you.
 
+> 💬 Why are you interested in learning SQL?
+> 
+> Leave a comment or view some of the other comments for inspiration before moving on.
+
 
 ---
 
