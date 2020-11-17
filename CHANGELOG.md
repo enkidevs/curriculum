@@ -48,6 +48,8 @@ Types of change:
 
 ### Fixed
 
+## November 17th 2020
+
 ### Added
 - [Javascript - Console In Javascript - Add discussion question](https://github.com/enkidevs/curriculum/pull/2434)
 
