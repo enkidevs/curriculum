@@ -51,6 +51,7 @@ Types of change:
 ## November 17th 2020
 
 ### Added
+- [Airtable - Airtable Your First Base- Add discussion question](https://github.com/enkidevs/curriculum/pull/2427)
 - [Blockchain - Blockchain Outcomes - Add discussion question](https://github.com/enkidevs/curriculum/pull/2428)
 - [Data Analysis - Data Analysis vs Data Science - Add discussion question](https://github.com/enkidevs/curriculum/pull/2429)
 - [Docker - Docker Benefits - Add discussion question](https://github.com/enkidevs/curriculum/pull/2430)
