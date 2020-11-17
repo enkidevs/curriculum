@@ -48,6 +48,8 @@ Types of change:
 
 ### Fixed
 
+## November 17th 2020
+
 ### Added
 - [Java - Compiling and Running Java Code - Add discussion question](https://github.com/enkidevs/curriculum/pull/2433)
 
