@@ -51,6 +51,7 @@ Types of change:
 ## November 17th 2020
 
 ### Added
+- [Security - What Else Do You Need To Know - Add Discussion insight](https://github.com/enkidevs/curriculum/pull/2440)
 - [Spreadsheets - What Are Spreadsheets - Add Discussion insight](https://github.com/enkidevs/curriculum/pull/2441)
 - [SQL - Your First Query - Add Discussion insight](https://github.com/enkidevs/curriculum/pull/2442)
 - [Typescript - Hello Typescript - Add Discussion insight](https://github.com/enkidevs/curriculum/pull/2443)
