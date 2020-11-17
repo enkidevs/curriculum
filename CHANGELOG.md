@@ -51,6 +51,7 @@ Types of change:
 ## November 17th 2020
 
 ### Added
+- [Webflow - Css - Add Discussion insight](https://github.com/enkidevs/curriculum/pull/2437)
 - [React - What I Need To Use React - Add Discussion insight](https://github.com/enkidevs/curriculum/pull/2438)
 - [Regex - What Is Regex - Add Discussion insight](https://github.com/enkidevs/curriculum/pull/2439)
 - [Security - What Else Do You Need To Know - Add Discussion insight](https://github.com/enkidevs/curriculum/pull/2440)
