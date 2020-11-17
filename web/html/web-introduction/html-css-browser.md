@@ -45,7 +45,11 @@ However, loading just the **CSS** file will only show the text `p { color: green
 
 ![css-only](https://img.enkipro.com/07fa86950c8cbfb5363c32428ce5b116.png)
 
-> Note: as with all the skills in the app, if you want to access more advanced or specific content at any time, **feel free to use the *Skill Map* tab** to jump to the workouts most relevant for you.
+> 💡 As with all the skills in the app, if you want to access more advanced or specific content at any time, **feel free to use the *Skill Map* tab** to jump to the workouts most relevant for you.
+
+> 💬 Why are you interested in learning HTML?
+> 
+> Leave a comment or view some of the other comments for inspiration before moving on.
 
 
 ---
