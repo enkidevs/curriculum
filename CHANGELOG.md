@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## November 17th 2020
+
+### Added
+- [Airtable - Airtable Your First Base- Add discussion question](https://github.com/enkidevs/curriculum/pull/2427)
+
 ## November 16th 2020
 
 ### Fixed
