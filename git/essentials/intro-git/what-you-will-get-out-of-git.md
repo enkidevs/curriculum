@@ -21,5 +21,8 @@ Here's what you'll be able to do if you finish this course:
 4. Understand how *Git* works behind the scenes, with mental models.
 5. Know all the tips, tricks, and more!
 
-> 💡 To see in detail what we have in store for you, go to the *Skill Map* tab for a full list of workouts.
- 
+> 💡 As with all the skills in the app, if you want to access more advanced or specific content at any time, **feel free to use the *Skill Map* tab** to jump to the workouts most relevant for you.
+
+> 💬 Why are you interested in learning Git?
+> 
+> Leave a comment or view some of the other comments for inspiration before moving on.
