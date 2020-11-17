@@ -51,6 +51,7 @@ Types of change:
 ## November 17th 2020
 
 ### Added
+- [Data Analysis - Data Analysis vs Data Science - Add discussion question](https://github.com/enkidevs/curriculum/pull/2429)
 - [Docker - Docker Benefits - Add discussion question](https://github.com/enkidevs/curriculum/pull/2430)
 - [Git - What You Will Get Out Of Git - Add discussion question](https://github.com/enkidevs/curriculum/pull/2431)
 - [Go - Hello World - Add discussion question](https://github.com/enkidevs/curriculum/pull/2432)
