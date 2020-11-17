@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## November 17th 2020
+
+### Added
+- [Go - Hello World - Add discussion question](https://github.com/enkidevs/curriculum/pull/2432)
+
 ## November 16th 2020
 
 ### Fixed
