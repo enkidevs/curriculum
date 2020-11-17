@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## November 17th 2020
+
+### Added
+- [Linux - Linux Common Terminology - Add discussion question](https://github.com/enkidevs/curriculum/pull/2435)
+
 ## November 16th 2020
 
 ### Fixed
