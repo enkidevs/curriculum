@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## November 17th 2020
+
+### Added
+- [Data Analysis - Data Analysis vs Data Science - Add discussion question](https://github.com/enkidevs/curriculum/pull/2429)
+
 ## November 16th 2020
 
 ### Fixed
