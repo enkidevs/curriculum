@@ -51,6 +51,7 @@ Types of change:
 ## November 17th 2020
 
 ### Added
+- [Javascript - Console In Javascript - Add discussion question](https://github.com/enkidevs/curriculum/pull/2434)
 - [Linux - Linux Common Terminology - Add discussion question](https://github.com/enkidevs/curriculum/pull/2435)
 - [Mongodb - Why Mongodb - Add Discussion insight](https://github.com/enkidevs/curriculum/pull/2436)
 - [Webflow - Css - Add Discussion insight](https://github.com/enkidevs/curriculum/pull/2437)
