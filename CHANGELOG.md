@@ -52,6 +52,11 @@ Types of change:
 
 ### Added
 - [Spreadsheets - What Are Spreadsheets - Add Discussion insight](https://github.com/enkidevs/curriculum/pull/2441)
+- [SQL - Your First Query - Add Discussion insight](https://github.com/enkidevs/curriculum/pull/2442)
+- [Typescript - Hello Typescript - Add Discussion insight](https://github.com/enkidevs/curriculum/pull/2443)
+- [HTML - HTML CSS Browser - Add Discussion insight](https://github.com/enkidevs/curriculum/pull/2444)
+- [CSS - Class And Id Selectors - Add Discussion insight](https://github.com/enkidevs/curriculum/pull/2445)
+- [Zapier - Zapier Common Terminology - Add Discussion insight](https://github.com/enkidevs/curriculum/pull/2446)
 
 ## November 16th 2020
 
