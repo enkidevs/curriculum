@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## November 17th 2020
+
+### Added
+- [Regex - What Is Regex - Add Discussion insight](https://github.com/enkidevs/curriculum/pull/2439)
+
 ## November 16th 2020
 
 ### Fixed
