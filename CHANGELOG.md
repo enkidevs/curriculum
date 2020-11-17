@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## November 17th 2020
+
+### Added
+- [Git - What You Will Get Out Of Git - Add discussion question](https://github.com/enkidevs/curriculum/pull/2431)
+
 ## November 16th 2020
 
 ### Fixed
