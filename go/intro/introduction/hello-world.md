@@ -58,7 +58,6 @@ Hello World!
 > 
 > Leave a comment or view some of the other comments for inspiration before moving on.
 
-
 ---
 ## Practice
 
