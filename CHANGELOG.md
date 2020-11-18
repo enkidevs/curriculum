@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## November 18th 2020
+
+### Fixed
+- [Styling - Position elements with position sticky - Add Footnote For Position Fixed](https://github.com/enkidevs/curriculum/pull/2422)
+
 ## November 17th 2020
 
 ### Added
@@ -81,6 +86,7 @@ Types of change:
 
 ### Fixed
 - [React - Specify a Single Child - Remove duplicated paragraph](https://github.com/enkidevs/curriculum/pull/2423)
+
 
 ## November 6th 2020
 
