@@ -48,4 +48,4 @@ Which of the following browsers *does not* support `position: sticky`? ???
 
 [1:position fixed]
 
-The `position: fixed` element positions relative to the viewport. This means it will always stay in the same place even if you scroll up/down the page.
+The `position: fixed` element positions relative to the viewport. This means it will always stay in the same place even if you scroll up or down the page.
