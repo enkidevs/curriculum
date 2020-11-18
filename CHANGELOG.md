@@ -48,10 +48,45 @@ Types of change:
 
 ### Fixed
 
-## November 11th 2020
+## November 18th 2020
 
 ### Fixed
 - [Styling - Position elements with position sticky - Add Footnote For Position Fixed](https://github.com/enkidevs/curriculum/pull/2422)
+
+## November 17th 2020
+
+### Added
+- [Comp Sci- The Queue Data Structure - Add discussion question](https://github.com/enkidevs/curriculum/pull/2426)- [Airtable - Airtable Your First Base- Add discussion question](https://github.com/enkidevs/curriculum/pull/2427)
+- [Blockchain - Blockchain Outcomes - Add discussion question](https://github.com/enkidevs/curriculum/pull/2428)
+- [Data Analysis - Data Analysis vs Data Science - Add discussion question](https://github.com/enkidevs/curriculum/pull/2429)
+- [Docker - Docker Benefits - Add discussion question](https://github.com/enkidevs/curriculum/pull/2430)
+- [Git - What You Will Get Out Of Git - Add discussion question](https://github.com/enkidevs/curriculum/pull/2431)
+- [Go - Hello World - Add discussion question](https://github.com/enkidevs/curriculum/pull/2432)
+- [Java - Compiling and Running Java Code - Add discussion question](https://github.com/enkidevs/curriculum/pull/2433)
+- [Javascript - Console In Javascript - Add discussion question](https://github.com/enkidevs/curriculum/pull/2434)
+- [Linux - Linux Common Terminology - Add discussion question](https://github.com/enkidevs/curriculum/pull/2435)
+- [Mongodb - Why Mongodb - Add Discussion insight](https://github.com/enkidevs/curriculum/pull/2436)
+- [Webflow - Css - Add Discussion insight](https://github.com/enkidevs/curriculum/pull/2437)
+- [React - What I Need To Use React - Add Discussion insight](https://github.com/enkidevs/curriculum/pull/2438)
+- [Regex - What Is Regex - Add Discussion insight](https://github.com/enkidevs/curriculum/pull/2439)
+- [Security - What Else Do You Need To Know - Add Discussion insight](https://github.com/enkidevs/curriculum/pull/2440)
+- [Spreadsheets - What Are Spreadsheets - Add Discussion insight](https://github.com/enkidevs/curriculum/pull/2441)
+- [SQL - Your First Query - Add Discussion insight](https://github.com/enkidevs/curriculum/pull/2442)
+- [Typescript - Hello Typescript - Add Discussion insight](https://github.com/enkidevs/curriculum/pull/2443)
+- [HTML - HTML CSS Browser - Add Discussion insight](https://github.com/enkidevs/curriculum/pull/2444)
+- [CSS - Class And Id Selectors - Add Discussion insight](https://github.com/enkidevs/curriculum/pull/2445)
+- [Zapier - Zapier Common Terminology - Add Discussion insight](https://github.com/enkidevs/curriculum/pull/2446)
+
+## November 16th 2020
+
+### Fixed
+- [Java - What Is Serialization? - Update PQ to use the same terms as the insight](https://github.com/enkidevs/curriculum/pull/2425)
+
+## November 13th 2020
+
+### Fixed
+- [React - Specify a Single Child - Remove duplicated paragraph](https://github.com/enkidevs/curriculum/pull/2423)
+
 
 ## November 6th 2020
 
@@ -134,7 +169,7 @@ Types of change:
 ## October 8th 2020
 
 ### Fixed
--[MongoDB - Aggregation with Object Expression 1 - Fix Grammer](https://github.com/enkidevs/curriculum/pull/2383)
+- [MongoDB - Aggregation with Object Expression 1 - Fix Grammer](https://github.com/enkidevs/curriculum/pull/2383)
 
 ## October 6th 2020
 
