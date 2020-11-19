@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## November 19th 2020
+
+### Fixed
+- [Regular Expressions - Regex Tools For Testing Regex](https://github.com/enkidevs/curriculum/pull/2448)
+
 ## November 18th 2020
 
 ### Fixed
