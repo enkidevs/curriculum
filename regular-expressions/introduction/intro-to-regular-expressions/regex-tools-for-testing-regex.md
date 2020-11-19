@@ -38,7 +38,7 @@ This is the best site for any mathematicians as it digs a little deeper into the
 
 ## Practice
 
-Once you've learnt some Regex syntax it's recommended to test out your Regex patterns by using ???.
+Once you've learnt some syntax it's recommended to test out your patterns by using ???.
 
 - third-party tools
 - your imagination
@@ -50,10 +50,10 @@ Once you've learnt some Regex syntax it's recommended to test out your Regex pat
 
 ## Revision
 
-Once you've learnt some Regex syntax it's recommended to test out your Regex patterns by using ???.
+Once you've learnt some syntax it's recommended to test out your patterns by using ???.
 
 - customized online tools
 - your colleagues
-- google
+- Google
 - your text editor
  
