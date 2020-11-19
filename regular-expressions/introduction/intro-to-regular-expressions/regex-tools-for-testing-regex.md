@@ -38,7 +38,7 @@ This is the best site for any mathematicians as it digs a little deeper into the
 
 ## Practice
 
-Once you've learnt some syntax it's recommended to test out your patterns by using ???.
+Once you've learned some syntax, it's recommended to test out your patterns by using ???.
 
 - third-party tools
 - your imagination
