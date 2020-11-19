@@ -50,7 +50,7 @@ Once you've learned some syntax, it's recommended to test out your patterns by u
 
 ## Revision
 
-Once you've learnt some syntax it's recommended to test out your patterns by using ???.
+Once you've learned some syntax, it's recommended to test out your patterns by using ???.
 
 - customized online tools
 - your colleagues
