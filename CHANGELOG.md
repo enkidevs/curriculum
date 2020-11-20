@@ -51,6 +51,7 @@ Types of change:
 ## November 20th 2020
 
 ### Fixed
+- [Blockchain - Malicious Nodes - Update replay attacks & conclusion](https://github.com/enkidevs/curriculum/pull/2450)
 - [All Topics - Move question gaps outside of inline code](https://github.com/enkidevs/curriculum/pull/2449)
 
 ## November 19th 2020
