@@ -98,7 +98,7 @@ ReactDOM.render(
 );
 ```
 
-`???`
+???
 
 - `<h1>Main</h1>`
 - `nothing`

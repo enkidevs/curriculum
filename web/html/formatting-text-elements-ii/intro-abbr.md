@@ -49,7 +49,13 @@ The `<abbr>` element can also be styled with appropriate CSS properties.
 
 Write the code that provides a full description of the abbreviation for search engines and visually impaired software.
 
-`<p>`Learn all about <??? ???=???>HTML<???> using Enki.`</p>`
+```html
+<p>
+  Learn all about
+  <??? ???=???>HTML<???>
+  using Enki.
+</p>
+```
 
 - abbr
 - title
@@ -73,7 +79,6 @@ Which HTML element is used with abbreviations to provide a full description for 
 - abbreviate
 - acro
 - desc
-
 
 ---
 

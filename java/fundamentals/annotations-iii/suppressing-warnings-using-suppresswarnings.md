@@ -39,7 +39,8 @@ What annotation should be used to suppress warnings about deprecated methods?
 
 ```java
 @???(
-     "???");
+  "???"
+);
 ```
 
 - `SuppressWarnings` 
@@ -57,7 +58,7 @@ What annotation should be used to suppress warnings about deprecated methods?
 
 What annotation is used to suppress warnings?
 
-`???`
+???
 
 - `SuppressWarnings` 
 - `SuppressWarning` 

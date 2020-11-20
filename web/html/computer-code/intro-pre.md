@@ -98,13 +98,19 @@ What HTML element is used to display the text exactly as it is laid out within t
 
 Which HTML element is best used for "???" to properly display this code within a webpage:
 
-`<???>`
+```html
+???
 .alert {
   color:red;
 }
-`<???>`
+???
+```
 
 - `<pre>`
+- `</pre>`
 - `<code>`
+- `</code>`
 - `<perf>`
+- `</perf>`
 - `<samp>`
+- `</samp>`

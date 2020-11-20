@@ -47,7 +47,7 @@ AddType video/webm .webm
 
 Finish the sentence:
 
-In order for videos to be supported on all major web browsers you should use the `???` format.
+In order for videos to be supported on all major web browsers you should use the ??? format.
 
 - .mp4 or .webm
 - h.246 or codec

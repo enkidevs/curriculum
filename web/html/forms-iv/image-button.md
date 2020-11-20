@@ -45,7 +45,13 @@ In the example above, the input type is set as `image`. The image source is curr
 
 Write the form code that creates an image button.
 
-`<??? ???="???" ???="button.png" alt="Send" >`
+```html
+<??? 
+  ???="???" 
+  ???="button.png" 
+  alt="Send"
+>
+```
 
 - input
 - type

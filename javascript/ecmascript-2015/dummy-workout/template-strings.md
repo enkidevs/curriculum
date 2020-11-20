@@ -29,21 +29,22 @@ links:
 
 String templating lets you evaluate JavaScript expressions inside a string expression when they are wrapped in `${}`.
 
-
 For instance:
 
-```
-var a = 10; 
-var b = 10;
+```js
+let a = 10; 
+let b = 10;
 console.log(`JS: created ${a+b} years ago`);
 //=> JS: created 20 years ago
 ```
 
 Complex expressions (e.g. involving functions) are also supported:
 
-```
-function fn(){return "I am the " + 
-             "result. Rarr";}
+```js
+function fn(){
+  return "I am the " + 
+    "result. Rarr";
+}
 console.log(`foo ${fn()} bar`);
 //=> foo I am the result. Rarr bar.
 ```
@@ -53,7 +54,7 @@ console.log(`foo ${fn()} bar`);
 
 Complete the code snippet using template strings:
 
-```
+```js
 function pr() {
    return "to practice my";
 } 
@@ -71,10 +72,12 @@ console.log('Time ???{???()} Python!');
 ---
 ## Revision
 
-Using string templating print the value of `a`:
+Using string templating, print the value of `a`:
 ```javascript
-var a = 'enki';
-console.log(`cool thing -> ???{???} `);
+let a = 'enki';
+console.log(`
+  cool thing -> ???{???}
+`);
 ```
 
 * $

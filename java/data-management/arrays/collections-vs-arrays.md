@@ -31,11 +31,10 @@ Collections are more feature-rich than arrays so are preferable in most cases. F
 
 Which one of the following has pre-made sorting algorithms?
 
-`???`
+???
 
 - `collections` 
 - `arrays`
-
 
 ---
 
@@ -43,8 +42,7 @@ Which one of the following has pre-made sorting algorithms?
 
 Which one has dynamic size?
 
-`???`
+???
 
 - `collections` 
 - `arrays`
- 

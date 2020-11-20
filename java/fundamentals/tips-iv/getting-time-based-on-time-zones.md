@@ -61,7 +61,7 @@ Time in New York is: 19:18:31
 
 What method can be used to get the timezone of the location where the program is running?
 
-`???`
+???
 
 - `TimeZone.getDefault()` 
 - `TimeZone.getStandard()` 
@@ -75,7 +75,7 @@ What method can be used to get the timezone of the location where the program is
 
 What library can be used to determine the timezone of a specific location, but also figure out daylight saving?
 
-`???`
+???
 
 - `TimeZone` 
 - `GregorianCalendar` 

@@ -47,14 +47,17 @@ git cherry-pick 51241js
 
 ## Practice
 
-To just apply a commit without merging or rebase you can use `git ???`.
+To just apply a commit without merging or rebase you can use:
+
+```bash
+git ???
+```
 
 - `cherry-pick`
 - `diff`
 - `commit --amend`
 - `revert`
 - `add`
-
 
 ---
 
@@ -73,7 +76,6 @@ git ??? ???
 - `commit`
 - `all`
 - `diff`
-
 
 ---
 
