@@ -53,9 +53,11 @@ One of python's simplest directives is the `print` directive. It prints out the 
 ---
 ## Revision
 
-Print the string 'Python 3!' to the console (in Python 3):
+Print the string `'Python 3!'` to the console (using Python 3 syntax):
 
-```??? ??? Python 3! ???```
+```py
+??? ??? Python 3! ???
+```
 
 * `print`
 * `('`

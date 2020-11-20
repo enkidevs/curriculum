@@ -195,17 +195,17 @@ When using the `<time>` element, what attribute is used to declare the machine-r
 
 ## Quiz
 
-### How much do you know about the
-
-
-`<time>`
-
- element?
+### How much do you know about the <time> element?
 
 Match the appropriate datetime attributes:
 
-Dec 25th, 1975 at 6pm: `<time datetime="???">`
-Three-Day Event: `<time datetime="???">`
+```plain-text
+Dec 25th, 1975 at 6pm: 
+<time datetime="???">
+
+Three-Day Event: 
+<time datetime="???">
+```
 
 - 1975-12-25T18:00
 - P3D

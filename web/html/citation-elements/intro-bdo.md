@@ -67,7 +67,15 @@ Using this element is very useful for content presented in multiple languages. F
 
 Write the code to display the word "backwards" backwards.
 
-`<p>`This is such a `<??? ???="???">`backwards`<???>` thing to do!`</p>`
+```html
+<p>
+  This is such a 
+    <??? ???="???">
+      backwards
+    <???> 
+  thing to do!
+</p>
+```
 
 - bdo
 - dir

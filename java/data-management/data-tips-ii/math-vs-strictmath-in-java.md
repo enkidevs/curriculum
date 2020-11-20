@@ -25,7 +25,7 @@ Prefer using `StrictMath` if ensuring portability is essential for your code.
 
 If portability is intended what java class is more reliable?
 
-`???`
+???
 
 - `StrictMath` 
 - `Math`
@@ -37,7 +37,7 @@ If portability is intended what java class is more reliable?
 
 What java class related to mathematics have its function not defined to return the bit-for-bit same results?
 
-`???`
+???
 
 - `Math` 
 - `StrictMath`

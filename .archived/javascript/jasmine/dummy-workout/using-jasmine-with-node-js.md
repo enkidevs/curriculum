@@ -49,7 +49,10 @@ jasmine
 ---
 ## Practice
 
-What file do you customise to get rid of any source or spec files you don't require your Jasmine runner to include? ???
+What file do you customise to get rid of any source or spec files you don't require your Jasmine runner to include? 
+
+???
+
 * spec/support/jasmine.json
 * spec/support/jasmine.txt
 * spec/support/jasmine.htm
@@ -60,7 +63,9 @@ What file do you customise to get rid of any source or spec files you don't requ
 
 How do you install Jasmine globally as to allow the use of the CLI tool?
 
-` npm install ??? ???`
+```bash
+npm install ??? ???
+```
 
 * -g
 * jasmine

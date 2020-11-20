@@ -71,14 +71,13 @@ and I would like to purchase :
 
 ## Practice
 
-Complete the following code snippet to assemble a template string that says "Beam me up Scotty!"
+Complete the following code snippet to assemble a template string that says `"Beam me up Scotty!"`:
 
 ```javascript
 let what = "Beam" ;
 let who = "Scotty";
 
 let line = `??? me up ???!`;
-
 ```
 
 - `${what}`
@@ -104,7 +103,6 @@ let attr = "Hungry" ;
 let attr2 = "Foolish";
 
 let line = `Stay ??? Stay ???`;
-
 ```
 
 - `${attr}`

@@ -71,7 +71,13 @@ Rather than wrapping `<b>` or `<strong>` elements around text that is only meant
 
 Write the code to properly express extra importance on key words in this sentence:
 
-`<p>`<???>Warning<???>: The latest <???>iPhone<???> is expensive.`</p>`
+```html
+<p>
+  <???>Warning<???>: The latest
+  <???>iPhone<???>
+  is expensive.
+</p>
+```
 
 - strong
 - /strong
@@ -81,7 +87,6 @@ Write the code to properly express extra importance on key words in this sentenc
 - /em
 - i
 - /i
-
 
 ---
 

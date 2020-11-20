@@ -28,7 +28,7 @@ alias rm='rm -i'
 
 ## Revision
 
-You can prompt for confirmation when using `rm` and `mv` commands with `???` flag.
+You can prompt for confirmation when using `rm` and `mv` commands with ??? flag.
 
 - `-i`
 - `-I`

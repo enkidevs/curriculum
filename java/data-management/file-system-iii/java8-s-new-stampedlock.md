@@ -38,7 +38,7 @@ Obtaining a read or write lock via `readLock()` or `writeLock()` returns a stamp
 
 ## Practice
 
-The locking methods of a `StampedLock` return a stamp represented by a `???` value.
+The locking methods of a `StampedLock` return a stamp represented by a ??? value.
 
 - `long`
 - `int`
@@ -55,7 +55,8 @@ To stop any reading locks from being obtained, you can use the method:
 
 ```java
 StampedLock lock =
-             new StampedLock();
+  new StampedLock();
+
 lock.???;
 ```
 

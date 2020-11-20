@@ -35,9 +35,9 @@ Instead, focus on the parts of the code which deal with the core operations of y
 
 ## Practice
 
-What should be prioritised when testing?
+What should be prioritized when testing?
 
-`???`
+???
 
 - `code written by multiple developers`
 - `trivial operations like getX()`
@@ -48,9 +48,9 @@ What should be prioritised when testing?
 
 ## Revision
 
-What area of testing should not be prioritised?
+What area of testing should not be prioritized?
 
-`???`
+???
 
 - `external libraries`
 - `code with frequent bugs`

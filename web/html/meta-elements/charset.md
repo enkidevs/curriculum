@@ -32,7 +32,11 @@ For security reasons, authors should not use any encoding that is ASCII-incompat
 
 Write the meta tag for the necessary HTML5 character set.
 
-`<??? ???="???">`
+```html
+<??? 
+  ???="???"
+>
+```
 
 As a best practice, where is the HTML5 character set best placed?
 

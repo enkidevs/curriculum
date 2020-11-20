@@ -60,7 +60,7 @@ int array[][]=new int[???][???]
 
 Java VM specification sets the maximum number of dimensions an array can have to:
 
-`???`
+???
 
 - `255` 
 - `256` 
