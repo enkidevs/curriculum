@@ -35,17 +35,13 @@ An attacker fills the network with nodes whose goal isn't to control the network
 
 ### Replay attacks
 
-This type of attack happens when two forked crypto-currencies allow transactions to be valid across both chains.
+Replay attack isn't specific to blockchains or distributed networks. It refers to a malicious agent intercepting a request that contains identifying information over an insecure network (be it wallet transactions, card payments, logins etc.) and sending it again to the same destination, pretending to be the initial sender.
 
-For example, you stored all you `Coin` in one wallet. After a while, `Coin` split into `Coin1` and `Coin2`.
-
-You create a transaction saying send one `Coin` to an address `X`. You broadcast this to the `Coin1` network and, after confirmation, your transfer is successfull.
-
-In the meantime, someone sees your transaction data and copies it. This time though, they broadcast it to the `Coin2` network. If there is no replay protection, the transaction is considered valid. 
+As such, in the case of wallet transactions, an account can be drained by repeatedly sending copies of same transaction to the nodes.
 
 ### Conclusion
 
-To prevent nodes from trying to interfere with the network, the blockchains rewards (*block reward*) the miners proposing a valid block, that ends up in the blockchain.
+Given the scenarios above, how do you prevent node from "going bad"? Well, positive reinforcement works most of the times: miners/voters (those who secure the network) receive a block reward if the block is valid and acknowledged by enough nodes.
 
 ---
 
