@@ -59,7 +59,7 @@ will be called only once - either *before* all tests are started or *after* they
 ## Practice
 
 Complete the following code snippet with the required annotations:
-```java
+```
 VirtualMachine vm;
 @???
 public void initialise() {
@@ -72,21 +72,21 @@ public void shutDown() {
 }
 ```
 
-- `Before` 
-- `After` 
-- S`etUp` 
-- T`earDown` 
-- `Test`
+*`Before` 
+*`After` 
+*S`etUp` 
+*T`earDown` 
+*`Test`
 
 ---
 ## Revision
 
 What method will be called only once, before all tests are done?
 
-???
+`???`
 
-- `@BeforeClass` 
-- `@BeforeAll` 
-- `@AfterAll` 
-- `@After` 
-- `@Test`
+*`@BeforeClass` 
+*`@BeforeAll` 
+*`@AfterAll` 
+*`@After` 
+*`@Test`

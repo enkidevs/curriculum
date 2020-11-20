@@ -40,20 +40,22 @@ public float intToFloat(int x) {
 ---
 ## Practice
 
-A `float` primitive can be widened to ???.
+A `float` primitive can be widened to:
 
-- `double` 
-- `int` 
-- `short` 
-- `char` 
-- `float`
+`???`
+
+*`double` 
+*`int` 
+*`short` 
+*`char` 
+*`float`
 
 ---
 ## Revision
 
-An `int` primitive can be widened to `int` , ???, `float` and `double`.
+An `int` primitive can be widened to `int` , `???`, `float` and `double`.
 
-- `long` 
-- `short` 
-- `byte` 
-- `char`
+*`long` 
+*`short` 
+*`byte` 
+*`char`

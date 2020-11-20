@@ -108,7 +108,7 @@ ReactDOM.render(
 
 ```
 
-???
+`???`
 
 
 * `<h1>Main</h1>`
@@ -124,6 +124,7 @@ ReactDOM.render(
 What is the minimum number of elements `props.children` can hold?
 
 ???
+
 
 * `zero`
 * `one`
