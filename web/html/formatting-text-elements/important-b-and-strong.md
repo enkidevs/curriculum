@@ -109,7 +109,7 @@ When a text needs to be presented with strong importance, seriousness, or urgenc
 
 ---
 
-## QUIZ
+## Quiz
 
 ### How much do you know about HTML text?
 
