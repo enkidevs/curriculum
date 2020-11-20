@@ -37,7 +37,9 @@ An attacker fills the network with nodes whose goal isn't to control the network
 
 Replay attack isn't specific to blockchains or distributed networks. It refers to a malicious agent intercepting a request that contains identifying information over an insecure network (be it wallet transactions, card payments, logins etc.) and sending it again to the same destination, pretending to be the initial sender.
 
-As such, in the case of wallet transactions, an account can be drained by repeatedly sending copies of same transaction to the nodes.
+In the case of wallet transactions, an account can be drained by repeatedly sending copies of same transaction to the nodes.
+
+As for blockchain, it might be possible to replay transactions on forked networks, where the core code/logic is the same. With no replay protection in place, a transaction broadcasted on the fork can be copy-pasted and broadcasted on the main as well, draining that account.
 
 ### Conclusion
 
