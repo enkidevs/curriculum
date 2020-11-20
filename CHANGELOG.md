@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## November 20th 2020
+
+### Fixed
+- [All Topics - Move question gaps outside of inline code](https://github.com/enkidevs/curriculum/pull/2449)
+
 ## November 19th 2020
 
 ### Fixed
