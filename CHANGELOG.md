@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## November 23rd 2020
+
+### Fixed
+- [React - Async Flow in Redux - Fix code block]()
+
 ## November 20th 2020
 
 ### Fixed
