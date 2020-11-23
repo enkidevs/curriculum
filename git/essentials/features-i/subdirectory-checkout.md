@@ -1,11 +1,13 @@
 ---
 author: Bruno
+
 type: normal
+
 category: tip
+
 ---
 
-# Subdirectory checkout
-
+# Subdirectory Checkout
 
 ---
 
@@ -15,21 +17,23 @@ As of version 1.7, `git` can checkout selected subdirectories, just like `svn`.
 
 Set up:
 
-```plain-text
+```bash
 mkdir <repo> && cd <repo>
 git init
 git remote add –f <name> <url>
 ```
 
+> 💡 Using the `-f` flag means that the command `git fetch <name>` is run immediately after the remote information is set up. 
+
 Enable sparse-checkout:
 
-```plain-text
+```bash
 git config core.sparsecheckout true
 ```
 
 Choose your subdirectories:
 
-```plain-text
+```bash
 echo some/dir/ \
    >> .git/info/sparse-checkout
 echo another/sub/tree \
@@ -38,12 +42,11 @@ echo another/sub/tree \
 
 Checkout:
 
-```plain-text
+```bash
 git pull <remote> <branch>
 ```
 
 Sparse checkout allows the user to choose what files to look at. It does the opposite of `.gitignore`: every file not specified in `.git/info/sparse-checkout` is ignored.
-
 
 ---
 
