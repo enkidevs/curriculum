@@ -6,6 +6,8 @@ type: normal
 category: must-know
 
 links:
+  - >- 
+    [Linked Lists](https://www.youtube.com/watch?v=_jQhALI4ujg){video}
   - >-
     [Linked List Basics](http://cslibrary.stanford.edu/103/LinkedListBasics.pdf){website}
 

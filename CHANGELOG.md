@@ -51,7 +51,7 @@ Types of change:
 ## November 23rd 2020
 
 ### Fixed
-- [Comp. Sci. - The Linked List Data Structure - Update resource link](https://github.com/enkidevs/curriculum/pull/2452)
+- [Comp. Sci. - The Linked List Data Structure - Update resource link & add new link](https://github.com/enkidevs/curriculum/pull/2452)
 - [React - Async Flow in Redux - Fix code block](https://github.com/enkidevs/curriculum/pull/2451)
 
 ## November 20th 2020
