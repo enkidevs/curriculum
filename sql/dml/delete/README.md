@@ -10,4 +10,3 @@ insights:
   - delete-syntax
   - delete-with-care-i
   - delete-with-care-ii
-  - delete-subqueries-intro

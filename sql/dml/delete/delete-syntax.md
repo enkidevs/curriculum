@@ -20,8 +20,10 @@ tags:
 Compared to the `INSERT` and `UPDATE` keywords, `DELETE` has a more plain syntax:
 
 ```sql
-DELETE FROM table_name
-WHERE condition;
+DELETE FROM 
+  table_name
+WHERE 
+  condition;
 ```
 
 All you have to do is tell SQL:
@@ -39,8 +41,10 @@ Take a look at the `favorite_fruits` table:
 It seems that `"Avocado"` has somehow sneaked its way into the table. This is how you would delete it:
 
 ```sql
-DELETE FROM favorite_fruits
-WHERE fruit = "Avocado";
+DELETE FROM 
+  favorite_fruits
+WHERE 
+  fruit = "Avocado";
 ```
 
 > 💬 Can you think of any other way you could delete the `"Avocado"` record? Leave a comment below or view others for inspiration.
@@ -59,8 +63,10 @@ Done, you remove the pesky `"Avocado"` from your table:
 Delete all the `students` that have graduated after `"2020-10-28"`:
 
 ```sql
-??? students
-??? graduation_date > ???;
+??? 
+  students
+??? 
+  graduation_date > ???;
 ```
 
 - DELETE FROM
@@ -70,21 +76,23 @@ Delete all the `students` that have graduated after `"2020-10-28"`:
 - REMOVE
 
 ---
+
 ## Revision
 
-Delete the last five records from the `logs` table using their `id`:
+Delete all the records from `logs` that have a `transaction_id` ending in `a3g`:
 
 ```sql
-??? logs
-??? id IN 
-  (SELECT id
-  FROM logs
-  ??? DESC
-  ???);
+??? 
+  logs
+??? 
+  transaction_id 
+  ??? ???;
 ```
 
 - DELETE FROM
 - WHERE
-- ORDER BY id
-- LIMIT 5
+- LIKE
+- "%a3g"
 - DELETE
+- "a3g%"
+- "a3g_"

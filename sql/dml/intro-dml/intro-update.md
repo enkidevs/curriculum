@@ -17,7 +17,7 @@ tags:
 
 ## Content
 
-After a second thought, you realize that you don't enjoy pineapples that much.
+On second thought, you realize that you don't enjoy pineapples that much.
 
 Using the same `fruits` table:
 
@@ -31,9 +31,12 @@ Let's see how you can update the `Pineapple` entry to `Grape`.
 Updating is done through, no points for guessing, the `UPDATE` keyword:
 
 ```sql
-UPDATE fruits
-SET name = 'Grape'
-WHERE id = 2
+UPDATE 
+  fruits
+SET 
+  name = 'Grape'
+WHERE 
+  id = 2
 ```
 
 Done 🎉. The `fruits` table now looks like this:
@@ -63,9 +66,12 @@ Modifying the value of an existing column is done using the ??? keyword.
 Update the value of the `name` column to `'Artemis'` **if** the `id` is `6`:
 
 ```sql
-??? pets
-??? name = ???
-??? id = 6
+??? 
+  pets
+??? 
+  name = ???
+??? 
+  id = 6
 ```
 
 - UPDATE

@@ -11,17 +11,15 @@ tags:
 
 ---
 
-# Updating Multiple Records
+# Updating With Different Conditions II
 
 ---
 
 ## Content
 
-Just as we can update multiple column values, you can also update multiple records.
+We've talked about how you can update all the records or one of the records in your `UPDATE` command, but what if you want to target multiple records?
 
-This is controlled through the `WHERE` condition.
-
-Instead of choosing a column that would identify a single record, you can write a condition that returns multiple records.
+This is controlled through the `WHERE` condition, which behaves exactly as it does in a `SELECT` query.
 
 Take this `employees` table for example:
 
@@ -39,7 +37,8 @@ You need to update the table to reflect their new `branch` and `branch_id`.
 There are multiple ways in which you can do this. Here is one:
 
 ```sql
-UPDATE employees
+UPDATE 
+  employees
 SET
   branch = "Boulder",
   branch_id = 17
@@ -65,7 +64,8 @@ And this is the resulting table:
 Write a query that moves all the managers' `location` from `"New York"` to `"Washington DC"`:
 
 ```sql
-??? managers
+??? 
+  managers
 ???
   ??? = "Washington DC"
 ???

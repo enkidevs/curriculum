@@ -46,13 +46,13 @@ VALUES
 
 And this is the result:
 
-| id   | product    | quantity |
-|------|------------|----------|
-| 1    | Cucumber   | 20       |
-| 2    | Tomato     | 50       |
-| 5    | Carrot     | 30       |
-| 6    | Strawberry | 15       |
-| NULL | Blueberry  | 5        |
+| id       | product        | quantity |
+|----------|----------------|----------|
+| 1        | Cucumber       | 20       |
+| 2        | Tomato         | 50       |
+| 5        | Carrot         | 30       |
+| **6**    | **Strawberry** | **15**   |
+| **NULL** | **Blueberry**  | **5**    |
 
 > ❗ When inserting data, **if you omit a column**, the inserted value will be `NULL`[2].
 
@@ -69,11 +69,13 @@ VALUES
 ("John", 24);
 ```
 
+```md
 | name     | age | nickname |
 |----------|-----|----------|
 | Samantha | 39  | Sam      |
 | William  | 45  | Bill     |
 | ???      | ??? | ???      |
+```
 
 - John
 - 24

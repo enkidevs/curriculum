@@ -69,11 +69,13 @@ INSERT INTO students VALUES
 (4, 8.7, "Comp Sci", "Adam");
 ```
 
+```md
 | id  | name   | major    | final_grade |
 |-----|--------|----------|-------------|
 | 1   | Chris  | Arts     | 9.3         |
 | 2   | Rachel | Mech Eng | 8.3         |
 | ??? | ???    | ???      | ???         |
+```
 
 - 4
 - 8.7

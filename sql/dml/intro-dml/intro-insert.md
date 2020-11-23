@@ -17,7 +17,12 @@ tags:
 
 ## Content
 
-Adding new data into your table is as simple as writing `INSERT INTO table VALUES`.
+Adding new data into your table is done by writing:
+
+```sql
+INSERT INTO table VALUES 
+("list", "of", "values");
+```
 
 Consider the following `fruits` table:
 
@@ -52,12 +57,14 @@ Adding values to your table is done using the ??? keyword.
 - SELECT
 - FROM
 - ADD
+- UPDATE
+- PUT
 
 ---
 
 ## Revision
 
-Insert the following data into the `employees` table:
+Insert the following row into the `employees` table:
 
 ```sql
 ??? employees ???
@@ -79,5 +86,8 @@ Insert the following data into the `employees` table:
 To return all the values in a table, you can use the `*` character:
 
 ```sql
-SELECT * FROM fruits
+SELECT 
+  *
+FROM 
+  fruits
 ```

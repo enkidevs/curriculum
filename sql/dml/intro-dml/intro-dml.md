@@ -20,13 +20,13 @@ tags:
 Up to now, you've only learned how to query data from a database or table.
 
 SQL has three main parts:
-- querying (**DQL**)
-- modifying (**DML**)
-- defining (**DDL**)
+- Data **Query** Language (**DQL**): this part deals with extracting information from a database
+- Data **Manipulation** Language (**DML**): this part deals with updating information in a database
+- Data **Definition** Language (**DDL**): this part deals with creating databases/tables and changing their schema
 
 In this course, we'll talk about **DML**. 
 
-Modification includes concepts such as:
+Manipulation includes concepts such as:
 - inserting
 - updating
 - deleting
@@ -37,16 +37,16 @@ Let's see how you can insert data into your tables.
 
 ## Practice
 
-SQL made out of three main parts:
-* querying or **D???L**
-* modifying or **D???L**
-* defining or **D???L**
+SQL is made out of three main parts:
+* querying or ???
+* modifying or ???
+* defining or ???
 
-- Q
-- M
-- D
-- S
-- A
+- DQL
+- DML
+- DDL
+- DSL
+- DAL
 
 ---
 

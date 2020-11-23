@@ -54,7 +54,7 @@ Here's how the `inventory` table looks like now:
 |----|----------|----------|
 | 1  | Cucumber | 20       |
 | 2  | Tomato   | 50       |
-| 5  | Carrot   | 30       |
+| 3  | Carrot   | 30       |
 
 ---
 
@@ -67,11 +67,13 @@ INSERT INTO flowers VALUES
 (5, "Rose", "Rosaceae");
 ```
 
+```md
 | id  | name   | family    |
 |-----|--------|-----------|
 | 1   | Lily   | Liliaceae |
 | 2   | Acacia | Fabaceae  |
 | ??? | ???    | ???       |
+```
 
 - 5
 - Rose
@@ -91,12 +93,14 @@ INSERT INTO flowers VALUES
 (NULL, "Dahlia", "Asteraceae", "Asterales")
 ```
 
+```md
 | id  | name   | family    | order    |
 |-----|--------|-----------|----------|
 | 1   | Lily   | Liliaceae | Liliales |
 | 2   | Acacia | Fabaceae  | Fabales  |
 | ??? | ???    | ???       | ???      |
 | ??? | ???    | ???       | ???      |
+```
 
 - 34
 - Buttercup

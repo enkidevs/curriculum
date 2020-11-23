@@ -71,12 +71,14 @@ INSERT INTO pets VALUES
 (4, "Simba", 5);
 ```
 
+```md
 | id  | name | age |
 |-----|------|-----|
 | 1   | Coco | 3   |
 | ... | ...  | ... |
 | ??? | ???  | ??? |
 | ??? | ???  | ??? |
+```
 
 - 5
 - Artemis

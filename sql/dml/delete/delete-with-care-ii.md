@@ -37,8 +37,10 @@ You had a falling out with `"Rigby"` and you want to remove him.
 Since he is from `"London"`, one way you could write your constraint is by matching the `city`:
 
 ```sql
-DELETE FROM friends
-WHERE city = "London";
+DELETE FROM 
+  friends
+WHERE 
+  city = "London";
 ```
 
 In this case, although `"Rigby"` is from `"London"`, so is `"Mordecai"`. Running the command above will delete **both records** from the `friends` table:
@@ -64,14 +66,18 @@ Fill in the table after the command is ran:
 | 4  | Bill    | Atlanta  |
 
 ```sql
-DELETE FROM friends
-WHERE id > 3
+DELETE FROM 
+  friends
+WHERE 
+  id > 3
 ```
 
+```md
 | id  | name | city |
 |-----|------|------|
 | ??? | ???  | ???  |
 | ??? | ???  | ???  |
+```
 
 - 1
 - John

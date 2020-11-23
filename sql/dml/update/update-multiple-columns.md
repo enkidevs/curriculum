@@ -22,22 +22,24 @@ You're not limited to updating only one column's value at a time.
 To update more columns, you would use:
 
 ```sql
-UPDATE table_name
+UPDATE 
+  table_name
 SET 
   column1 = value1,
   column2 = value2,
   column3 = value3
-WHERE condition;
+WHERE 
+  condition;
 ```
 
 > 💡 Each **column-value** pair should be separated by a comma (`,`).
 
 Take a look at the following `managers` table:
 
-| id | name          | branch   | branch_id |
-|----|---------------|----------|-----------|
-| 1  | Sarah Walker  | New York | 13        |
-| 2  | Michael Scott | Scranton | 24        |
+| id | name              | branch   | branch_id |
+|----|-------------------|----------|-----------|
+| 1  | Robert California | New York | 13        |
+| 2  | Michael Scott     | Scranton | 24        |
 
 The manager `"Michael Scott"` was moved to a different branch in `"Boulder"`, which has `17` as `branch_id`.
 
@@ -54,10 +56,10 @@ WHERE
 
 And this is the resulting table:
 
-| id | name          | branch   | branch_id |
-|----|---------------|----------|-----------|
-| 1  | Sarah Walker  | New York | 13        |
-| 2  | Michael Scott | Boulder  | 17        |
+| id | name              | branch   | branch_id |
+|----|-------------------|----------|-----------|
+| 1  | Robert California | New York | 13        |
+| 2  | Michael Scott     | Boulder  | 17        |
 
 ---
 
@@ -66,7 +68,8 @@ And this is the resulting table:
 Update the student's `math_grade` to `9` and `physics_grade` to `8.5`:
 
 ```sql
-??? students
+??? 
+  students
 ???
   ??? = 9,
   ??? = 8.5
@@ -79,14 +82,19 @@ Update the student's `math_grade` to `9` and `physics_grade` to `8.5`:
 - math_grade
 - physics_grade
 - WHERE
+- FILTER
+- grade
+- UPGRADE
+- EQUALS
+- SELECT 
 
 ---
 
 ## Revision
 
-In SQL, it is **not possible** to update more than one column's value at a time.
+In SQL, it is **possible** to update more than one column's value at a time.
 
 ???
 
-- False
 - True
+- False

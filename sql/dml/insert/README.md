@@ -11,4 +11,3 @@ insights:
   - insert-column-order
   - insert-order-matters-i
   - insert-order-matters-ii
-  - insert-subqueries-intro

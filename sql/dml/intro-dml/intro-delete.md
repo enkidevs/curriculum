@@ -19,13 +19,15 @@ tags:
 
 What if you don't like raspberries as well, but you also don't want to replace it with another fruit?
 
-Introducing the `DELETE` keyword. With it you can remove entire records from your table.
+Introducing the `DELETE` keyword. With it, you can remove entire records from your table.
 
 Using the table from the previous insight[1], we would write:
 
 ```sql
-DELETE FROM fruits
-WHERE name = 'Raspberry';
+DELETE FROM 
+  fruits
+WHERE 
+  name = 'Raspberry';
 ```
 
 That's it, no more raspberries:
@@ -40,7 +42,9 @@ That's it, no more raspberries:
 
 ## Practice
 
-Removing records from a table is done using the ??? keyword.
+Removing records from a table is done using which keyword?
+
+???
 
 - DELETE
 - REMOVE
@@ -54,8 +58,10 @@ Removing records from a table is done using the ??? keyword.
 Remove the record that has `3` as `id` from the `managers` table:
 
 ```sql
-??? managers
-??? id = 3;
+??? 
+  managers
+??? 
+  id = 3;
 ```
 
 - DELETE FROM

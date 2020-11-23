@@ -8,7 +8,6 @@ aspects:
 
 insights:
   - update-syntax
-  - update-without-condition
   - update-multiple-columns
-  - update-multiple-records
-  - update-subqueries-intro
+  - update-with-different-conditions-i
+  - update-with-different-conditions-ii

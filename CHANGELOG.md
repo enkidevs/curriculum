@@ -42,7 +42,6 @@ Types of change:
 
 ### Added
 - [SQL - Modifying Data - New course](https://github.com/enkidevs/curriculum/pull/2424)
-- [SQL - Querying Data - Subqueries](https://github.com/enkidevs/curriculum/pull/2424)
 
 ### Changed
 

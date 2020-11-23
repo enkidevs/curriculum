@@ -17,19 +17,28 @@ tags:
 
 ## Content
 
-When deleting records from your table, you should take extra care.
+As with the `UPDATE` command, one of the most important parts of the `DELETE` syntax is the condition.
+
+The `WHERE` in `DELETE` behaves as it would inside a `SELECT` query, and that's why you should take extra care when deleting records from your table.
 
 One mistake you could make is not including the condition.
 
 Using the same `favorite_fruits` table[1] as before, what will happen if we run this command?
 
 ```sql
-DELETE FROM favorite_fruits;
+DELETE FROM 
+  favorite_fruits;
 ```
 
-> 💬 What do you think will happen? Leave a comment below with your answer.
-
 Because we didn't include a constraint, **all of the records** in the `favorite_fruits` table **will be deleted**.
+
+You can achieve the same result by writing:
+
+```sql
+DELETE FROM
+  favorite_fruits
+WHERE TRUE;
+```
 
 ---
 
@@ -38,7 +47,8 @@ Because we didn't include a constraint, **all of the records** in the `favorite_
 Complete the query to delete **all the records** from the `backup_logs` table:
 
 ```sql
-??? ???
+??? 
+  ???
 ```
 
 - DELETE FROM
@@ -55,7 +65,8 @@ Complete the query to delete **all the records** from the `backup_logs` table:
 Which of the following records will be left in the `characters` table after running the following command?
 
 ```sql
-DELETE FROM characters;
+DELETE FROM
+  characters;
 ```
 
 | name    | game              |
