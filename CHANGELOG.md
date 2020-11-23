@@ -51,6 +51,7 @@ Types of change:
 ## November 23rd 2020
 
 ### Fixed
+- [Git - Subdirectory Checkout - Explain the `-f` flag & add code block tags]()
 - [Comp. Sci. - The Linked List Data Structure - Update resource link & add new link](https://github.com/enkidevs/curriculum/pull/2452)
 - [React - Async Flow in Redux - Fix code block](https://github.com/enkidevs/curriculum/pull/2451)
 
