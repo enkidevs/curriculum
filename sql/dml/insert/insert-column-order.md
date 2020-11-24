@@ -60,28 +60,33 @@ And this is the result:
 
 ## Practice
 
-Fill in the table with the inserted values:
+Using this `family` table:
 
-```sql
-INSERT INTO family
-(name, age)
-VALUES
-("John", 24);
-```
-
-```md
 | name     | age | nickname |
 |----------|-----|----------|
 | Samantha | 39  | Sam      |
 | William  | 45  | Bill     |
-| ???      | ??? | ???      |
+
+Complete the `INSERT` command to get this table:
+
+| name     | age | nickname |
+|----------|-----|----------|
+| Samantha | 39  | Sam      |
+| William  | 45  | Bill     |
+| NULL     | 24  | John     |
+
+```sql
+??? family
+???
+VALUES
+???;
 ```
 
-- John
-- 24
-- NULL
-- Bill
-- 29
+- INSERT INTO
+- (nickname, age)
+- ("John", 24)
+- (name, age)
+- (NULL, 24, "John")
 
 ---
 

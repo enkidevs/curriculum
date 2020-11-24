@@ -56,7 +56,7 @@ In this case, although `"Rigby"` is from `"London"`, so is `"Mordecai"`. Running
 
 ## Practice
 
-Fill in the table after the command is ran:
+Using the following `friends` table:
 
 | id | name    | city     |
 |----|---------|----------|
@@ -65,6 +65,8 @@ Fill in the table after the command is ran:
 | 3  | Miranda | New York |
 | 4  | Bill    | Atlanta  |
 
+Which records will remain after we run this command?
+
 ```sql
 DELETE FROM 
   friends
@@ -72,19 +74,12 @@ WHERE
   id > 3
 ```
 
-```md
-| id  | name | city |
-|-----|------|------|
-| ??? | ???  | ???  |
-| ??? | ???  | ???  |
-```
+???
 
-- 1
+- John & Miranda
 - John
-- London
-- 3
-- Miranda
-- New York
+- Sarah & Bill
+- Miranda, Sarah & Bill
 
 ---
 

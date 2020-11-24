@@ -39,7 +39,7 @@ Let's see how you can insert data into your tables.
 
 SQL is made out of three main parts:
 * querying or ???
-* modifying or ???
+* manipulating or ???
 * defining or ???
 
 - DQL

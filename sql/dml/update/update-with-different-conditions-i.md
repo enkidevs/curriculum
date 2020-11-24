@@ -86,35 +86,16 @@ The combination of `id` and `name` in the condition will ensure that you target 
 
 ## Practice
 
-What will the table look like after running the following command?
-
-| id | name  | director      |
-|----|-------|---------------|
-| 1  | Cars  | John Lasseter |
-| 2  | Moana | Ron Clements  |
+You can update all the records in a table by not including a condition or writing:
 
 ```sql
-UPDATE
-  movies
-SET 
-  director = "John"
-WHERE
-  TRUE;
+WHERE ???
 ```
 
-```md
-| id | name  | director |
-|----|-------|----------|
-| 1  | Cars  | ???      |
-| 2  | Moana | ???      |
-```
-
-- John
-- John
-- John Lasseter
-- Ron Clements
-- Ron
-- Ron
+- TRUE
+- ALL
+- UPDATE ALL
+- ALL
 
 ---
 

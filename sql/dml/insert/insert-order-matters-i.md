@@ -63,29 +63,36 @@ The following records will be inserted into the table **in the same order** that
 
 ## Practice
 
-Fill in the table with the inserted values:
+Using this `pets` table:
 
-```sql
-INSERT INTO pets VALUES
-(5, "Artemis", 6),
-(4, "Simba", 5);
-```
-
-```md
 | id  | name | age |
 |-----|------|-----|
 | 1   | Coco | 3   |
 | ... | ...  | ... |
-| ??? | ???  | ??? |
-| ??? | ???  | ??? |
+
+Complete the `INSERT` command to get this result:
+
+| id  | name    | age |
+|-----|---------|-----|
+| 1   | Coco    | 3   |
+| ... | ...     | ... |
+| 5   | Artemis | 6   |
+| 4   | Simba   | 5   |
+
+```sql
+??? ??? VALUES
+(???, "Artemis", ???),
+(4, ???, 5);
 ```
 
+- INSERT INTO
+- pets
 - 5
-- Artemis
 - 6
-- 4
+- "Simba"
 - Simba
-- 5
+- "5"
+- "6"
 
 ---
 

@@ -60,53 +60,70 @@ Here's how the `inventory` table looks like now:
 
 ## Practice
 
-What will the following command insert into the `flowers` table?
+Using the following `flowers` table:
+
+| id | name   | family    |
+|----|--------|-----------|
+| 1  | Lily   | Liliaceae |
+| 2  | Acacia | Fabaceae  |
+
+Complete the command such that the table looks like this:
+
+| id | name   | family    |
+|----|--------|-----------|
+| 1  | Lily   | Liliaceae |
+| 2  | Acacia | Fabaceae  |
+| 5  | Rose   | Rosaceae  |
+
 
 ```sql
-INSERT INTO flowers VALUES
-(5, "Rose", "Rosaceae");
+??? flowers ???
+(???, ???, "Rosaceae");
 ```
 
-```md
-| id  | name   | family    |
-|-----|--------|-----------|
-| 1   | Lily   | Liliaceae |
-| 2   | Acacia | Fabaceae  |
-| ??? | ???    | ???       |
-```
-
+- INSERT INTO
+- VALUES
 - 5
-- Rose
-- Rosaceae
+- "Rose"
 - 3
-- NULL
+- "5"
+- "3"
+- Rose
+- INSERT
+- RECORDS
 
 ---
 
 ## Revision
 
-What will the following command insert into the `flowers` table?
+Using this `flowers` table:
+
+| id | name   | family    | order    |
+|----|--------|-----------|----------|
+| 1  | Lily   | Liliaceae | Liliales |
+| 2  | Acacia | Fabaceae  | Fabales  |
+
+Complete the `INSERT` command such that the table looks like this:
+
+| id   | name      | family     | order        |
+|------|-----------|------------|--------------|
+| 1    | Lily      | Liliaceae  | Liliales     |
+| 2    | Acacia    | Fabaceae   | Fabales      |
+| 34   | Buttercup | NULL       | Ranunculales |
+| NULL | Dahlia    | Asteraceae | Asterales    |
 
 ```sql
-INSERT INTO flowers VALUES
-(34, "Buttercup", NULL, "Ranunculales"),
-(NULL, "Dahlia", "Asteraceae", "Asterales")
+??? flowers ???
+(???, "Buttercup", ???, "Ranunculales"),
+(???, ???, "Asteraceae", ???);
 ```
 
-```md
-| id  | name   | family    | order    |
-|-----|--------|-----------|----------|
-| 1   | Lily   | Liliaceae | Liliales |
-| 2   | Acacia | Fabaceae  | Fabales  |
-| ??? | ???    | ???       | ???      |
-| ??? | ???    | ???       | ???      |
-```
-
+- INSERT INTO
+- VALUES
 - 34
-- Buttercup
 - NULL
-- Ranunculales
 - NULL
-- Dahlia
-- Asteraceae
+- "Dahlia"
+- "Asterales"
+- Dalia
 - Asterales

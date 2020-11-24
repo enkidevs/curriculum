@@ -62,26 +62,38 @@ This is how the table will look like:
 
 ## Practice
 
-What will the table look like after running the following `INSERT` command?
+Using the following `students` table:
+
+| id | name   | major    | final_grade |
+|----|--------|----------|-------------|
+| 1  | Chris  | Arts     | 9.3         |
+| 2  | Rachel | Mech Eng | 8.3         |
+
+Which of the following will insert the values in **the correct order**?
 
 ```sql
+-- A
 INSERT INTO students VALUES
 (4, 8.7, "Comp Sci", "Adam");
+
+-- B
+INSERT INTO students
+(id, major, name, final_grade)
+VALUES
+(4, "Adam", "Comp Sci", 8.7);
+
+-- C
+INSERT INTO students
+(id, major, name, final_grade)
+VALUES
+(4, "Comp Sci", "Adam", 8.7);
 ```
 
-```md
-| id  | name   | major    | final_grade |
-|-----|--------|----------|-------------|
-| 1   | Chris  | Arts     | 9.3         |
-| 2   | Rachel | Mech Eng | 8.3         |
-| ??? | ???    | ???      | ???         |
-```
+???
 
-- 4
-- 8.7
-- Comp Sci
-- Adam
-- 3
+- C
+- A
+- B
 
 ---
 
