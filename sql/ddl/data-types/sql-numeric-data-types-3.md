@@ -66,9 +66,11 @@ Which of the following data types is not a numeric type?
 
 Create the following table:
 
+```md
 | id  | domestic_sales | international_sales | total_sales      | date |
 | --- | -------------- | ------------------- | ---------------- | ---- |
 | INT | FLOAT(2)       | FLOAT(2)            | DOUBLE PRECISION | DATE |
+```
 
 ```sql
 ??? ??? sales(

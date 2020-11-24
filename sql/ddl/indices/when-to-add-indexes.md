@@ -37,6 +37,7 @@ Thus, we should bear in mind the followings while creating Indices:
 
 Consider the following table. We want to create a non-clustered index on the `experience` column:
 
+```md
 | id | level | experience | growth_rate_id |
 | -- | ----- | ---------- | -------------- |
 | 1  | 1     | 0          | 1              |
@@ -50,6 +51,7 @@ Consider the following table. We want to create a non-clustered index on the `ex
 | 9  | 9     | 911        | 1              |
 | 10 | 10    | 1250       | 1              |
 | 11 | 11    | 1663       | 1              |
+```
 
 ```sql
 ??? INDEX exp_index
@@ -70,12 +72,14 @@ Consider the following table. We want to create a non-clustered index on the `ex
 
 Consider the item table:
 
+```md
 | id | cost | name        |
 | -- | ---- | ----------- |
 | 1  | 0    | master-ball |
 | 2  | 1200 | ultra-ball  |
 | 3  | 600  | great-ball  |
 | 4  | 200  | poke-ball   |
+```
 
 ???
 
