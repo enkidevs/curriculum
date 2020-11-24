@@ -86,6 +86,7 @@ DELETE FROM egg_group;
 
 Consider the `egg_group` table. Fill in the gap to delete the first 5 values of it.
 
+```md
 | id | name          |
 | -- | ------------- |
 | 1  | monster       |
@@ -103,6 +104,7 @@ Consider the `egg_group` table. Fill in the gap to delete the first 5 values of 
 | 13 | ditto         |
 | 14 | dragon        |
 | 15 | no-eggs       |
+```
 
 ```sql
 ??? FROM egg_group
@@ -121,6 +123,7 @@ WHERE id ??? 1 and 5;
 
 We want to delete the 15th element of the `egg_group` table:
 
+```md
 | id  | name    |
 | --- | ------- |
 | 1   | monster |
@@ -129,6 +132,7 @@ We want to delete the 15th element of the `egg_group` table:
 | ... | ...     |
 | 14  | dragon  |
 | 15  | no-eggs |
+```
 
 ???
 

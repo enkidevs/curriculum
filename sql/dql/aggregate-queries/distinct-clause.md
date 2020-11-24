@@ -87,14 +87,16 @@ FROM pokedex_name;
 
 Consider the following table and the following query. Fill the gaps such that we will have no duplicates in the resulting table:
 
-|   NAME    | GRADES |
-|===========|========|
+```md
+| NAME      | GRADES |
+|-----------|--------|
 | John      | 56%    |
 | Sebastian | 68%    |
 | Doris     | 56%    |
 | Alice     | 88%    |
 | Stefan    | 68%    |
 | Raul      | 50%    |
+```
 
 ```sql
 SELECT ???

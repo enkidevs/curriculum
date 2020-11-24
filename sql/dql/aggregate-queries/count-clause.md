@@ -41,12 +41,14 @@ No matter how many entries there are in the `experience` table, we limit the out
 
 We have a table `location`. It has data stating the region each location belongs to. How many locations are there in each region? Display the result ordered by regions.
 
+```md
 | id  | region_id | name          |
 | --- | --------- | ------------- |
 | 1   | 4         | canalave-city |
 | 2   | 4         | eterna-city   |
 | 3   | 4         | pastoria-city |
 | ... | ...       | ...           |
+```
 
 ```sql
 SELECT ???(name), ???
@@ -57,6 +59,7 @@ ORDER BY region_id;
 
 Output:
 
+```md
 | count | region_id |
 | ----- | --------- |
 | 90    | 1         |
@@ -65,6 +68,7 @@ Output:
 | 126   | 4         |
 | 121   | 5         |
 | 104   | 6         |
+```
 
 - COUNT
 - region_id
@@ -87,9 +91,11 @@ FROM item;
 
 Output:
 
+```md
 | count |
 | ----- |
 | 746   |
+```
 
 - COUNT
 - name
