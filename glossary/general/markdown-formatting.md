@@ -1,6 +1,6 @@
 # Markdown Formatting
 
-Before you leave your first comment suggestions, it might help to brush-up your markdown formatting.
+Before you leave your first comment answer, it might help to brush-up your markdown formatting.
 
 When submitting an answer in the comment section, you'll want to use something like this:
 
