@@ -69,11 +69,13 @@ DELETE FROM
   characters;
 ```
 
+```md
 | name    | game              |
 |---------|-------------------|
 | Garrosh | World of Warcraft |
 | Kratos  | God of War        |
 | Desmond | Assassins Creed   |
+```
 
 ???
 

@@ -58,12 +58,14 @@ In this case, although `"Rigby"` is from `"London"`, so is `"Mordecai"`. Running
 
 Using the following `friends` table:
 
+```md
 | id | name    | city     |
 |----|---------|----------|
 | 1  | John    | London   |
 | 5  | Sarah   | New York |
 | 3  | Miranda | New York |
 | 4  | Bill    | Atlanta  |
+```
 
 Which records will remain after we run this command?
 

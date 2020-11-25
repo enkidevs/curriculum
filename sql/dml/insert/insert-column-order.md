@@ -62,18 +62,22 @@ And this is the result:
 
 Using this `family` table:
 
+```md
 | name     | age | nickname |
 |----------|-----|----------|
 | Samantha | 39  | Sam      |
 | William  | 45  | Bill     |
+```
 
 Complete the `INSERT` command to get this table:
 
+```md
 | name     | age | nickname |
 |----------|-----|----------|
 | Samantha | 39  | Sam      |
 | William  | 45  | Bill     |
 | NULL     | 24  | John     |
+```
 
 ```sql
 ??? family

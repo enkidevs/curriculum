@@ -62,19 +62,22 @@ Here's how the `inventory` table looks like now:
 
 Using the following `flowers` table:
 
+```md
 | id | name   | family    |
 |----|--------|-----------|
 | 1  | Lily   | Liliaceae |
 | 2  | Acacia | Fabaceae  |
+```
 
 Complete the command such that the table looks like this:
 
+```md
 | id | name   | family    |
 |----|--------|-----------|
 | 1  | Lily   | Liliaceae |
 | 2  | Acacia | Fabaceae  |
 | 5  | Rose   | Rosaceae  |
-
+```
 
 ```sql
 ??? flowers ???
@@ -98,19 +101,23 @@ Complete the command such that the table looks like this:
 
 Using this `flowers` table:
 
+```md
 | id | name   | family    | order    |
 |----|--------|-----------|----------|
 | 1  | Lily   | Liliaceae | Liliales |
 | 2  | Acacia | Fabaceae  | Fabales  |
+```
 
 Complete the `INSERT` command such that the table looks like this:
 
+```md
 | id   | name      | family     | order        |
 |------|-----------|------------|--------------|
 | 1    | Lily      | Liliaceae  | Liliales     |
 | 2    | Acacia    | Fabaceae   | Fabales      |
 | 34   | Buttercup | NULL       | Ranunculales |
 | NULL | Dahlia    | Asteraceae | Asterales    |
+```
 
 ```sql
 ??? flowers ???

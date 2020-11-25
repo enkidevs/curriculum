@@ -64,10 +64,12 @@ This is how the table will look like:
 
 Using the following `students` table:
 
+```md
 | id | name   | major    | final_grade |
 |----|--------|----------|-------------|
 | 1  | Chris  | Arts     | 9.3         |
 | 2  | Rachel | Mech Eng | 8.3         |
+```
 
 Which of the following will insert the values in **the correct order**?
 
@@ -101,10 +103,12 @@ VALUES
 
 Complete the command to insert the values **in the correct order**.
 
+```md
 | name     | country        | country_iso_code |
 |----------|----------------|------------------|
 | London   | United Kingdom | GBR              |
 | New York | United States  | USA              |
+```
 
 ```sql
 INSERT INTO cities

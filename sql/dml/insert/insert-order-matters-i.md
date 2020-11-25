@@ -65,19 +65,23 @@ The following records will be inserted into the table **in the same order** that
 
 Using this `pets` table:
 
+```md
 | id  | name | age |
 |-----|------|-----|
 | 1   | Coco | 3   |
 | ... | ...  | ... |
+```
 
 Complete the `INSERT` command to get this result:
 
+```md
 | id  | name    | age |
 |-----|---------|-----|
 | 1   | Coco    | 3   |
 | ... | ...     | ... |
 | 5   | Artemis | 6   |
 | 4   | Simba   | 5   |
+```
 
 ```sql
 ??? ??? VALUES
