@@ -48,6 +48,12 @@ Types of change:
 
 ### Fixed
 
+## November 25th 2020
+
+### Added
+
+- [Python - Control Flow I - Discussion insight](https://github.com/enkidevs/curriculum/pull/2455)
+
 ## November 23rd 2020
 
 ### Fixed
