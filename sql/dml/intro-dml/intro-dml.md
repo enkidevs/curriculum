@@ -17,7 +17,7 @@ tags:
 
 ## Content
 
-Up to now, you've only learned how to query data from a database or table.
+Up until now, you've just learned how to query data from a database or table.
 
 SQL has three main parts:
 - Data **Query** Language (**DQL**): this part deals with extracting information from a database

@@ -33,7 +33,7 @@ INSERT INTO names VALUES
 (3, "Catalin");
 ```
 
-That's it. All you have to do is separate each entry by a comma. This is the resulting table:
+That's it! All you have to do is separate each entry by a comma. This is the resulting table:
 
 | id | name    |
 |----|---------|
