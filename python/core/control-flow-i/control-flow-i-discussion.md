@@ -16,7 +16,7 @@ category: discussion
 
 ## Content
 
-Now that you learned some Python, it's time to test yourself.
+Now that you learned some Python, it's time to apply it!
 
 How would you write a *notifier* program? It should print a message on a certain day of the week.
 
