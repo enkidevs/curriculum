@@ -41,14 +41,14 @@ if str == 'foobar' or num > 2:
 
 When using the `or` operator, *at least one of the conditions* must evaluate to `True`.
 
-| Multiple conditions       | Result  |
-| ------------------------- | ------- |
-| `True and True`           | `True`  |
-| `True and False`          | `False` |
-| `True and True and False` | `False` |
-| `True or False`           | `True`  |
-| `False or False`          | `False` |
-| `False or False or True`  | `True`  |
+| Multiple conditions     | Result |
+| ------------------------| -------|
+| True and True           | True   |
+| True and False          | False  |
+| True and True and False | False  |
+| True or False           | True   |
+| False or False          | False  |
+| False or False or True  | True   |
 
 
 ---
