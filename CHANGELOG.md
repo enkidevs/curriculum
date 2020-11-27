@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## November 27th 2020
+
+### Fixed
+- [Blockchain - Blocks III - Fix grammar error & minor formatting improvements](https://github.com/enkidevs/curriculum/pull/2457)
+
 ## November 25th 2020
 
 ### Added
