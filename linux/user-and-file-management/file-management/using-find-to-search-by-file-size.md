@@ -44,7 +44,7 @@ find . -size +100M
 
 The `-exec` option tells `find` to execute a particular command for each result, replacing `{}` with the name of the file.
 
-The `\;` denotes the end of the command to be executed.
+The `\;` here means that the `ls -lh` command will be ran **separately** for each of the found files[1].
 
 In this case, we'll call `ls -lh` for each file we find.
 
@@ -72,3 +72,26 @@ Find all the files (in the current directory) of at least 1GB in size :
 - `+1G`
 - `+1GB`
 - `sudo`
+
+---
+
+## Footnotes
+
+[1: exec]
+
+So, in this example:
+
+```shell
+find . -size +100M
+  -exec ls -lh {} \;
+```
+
+Because we used `\;`, for **every file found**, this is what happens:
+- replace `{}` with the file's name
+- run the `ls -lh` command
+
+In this case, the command (`ls -lh`) will be ran for the same number of found files.
+
+You could also use `\+`, which appends all the found file names inside `{}`. Then, it calls `ls -lh` **for all the files** inside `{}`.
+
+In this case, the command (`ls -lh`) will have a total number of invocations less than the number of found files. 
