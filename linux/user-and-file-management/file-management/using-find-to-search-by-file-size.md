@@ -94,4 +94,6 @@ In this case, the command (`ls -lh`) will be ran for the same number of found fi
 
 You could also use `\+`, which appends all the found file names inside `{}`. Then, it calls `ls -lh` **for all the files** inside `{}`.
 
-In this case, the command (`ls -lh`) will have a total number of invocations less than the number of found files. 
+In this case, the command (`ls -lh`) will have a total number of invocations less than the number of found files.
+
+You can read more about this in the [`find`'s manual page](https://man7.org/linux/man-pages/man1/find.1.html#EXPRESSION). You'll find the information regarding `exec` under the `ACTIONS` headline. 
