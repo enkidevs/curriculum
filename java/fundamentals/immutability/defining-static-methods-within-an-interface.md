@@ -69,7 +69,7 @@ public ??? EnkiInterface {
 
 Can `static` methods inside an interface be overridden?
 
-`???`
+???
 
 - `No` 
 - `Yes`

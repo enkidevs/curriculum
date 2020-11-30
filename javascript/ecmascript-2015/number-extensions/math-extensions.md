@@ -79,7 +79,9 @@ console.log(Math.trunc(4.522));
 
 What `Math` method can be used to find the cubic root of a number?
 
-`Math.???`
+```js
+Math.???
+```
 
 - cbrt
 - cubicRoot

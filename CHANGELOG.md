@@ -48,6 +48,41 @@ Types of change:
 
 ### Fixed
 
+## November 30th 2020
+
+### Fixed
+- [Linux - File Management - General workout improvements & add info on the `ls` command](https://github.com/enkidevs/curriculum/pull/2460)
+- [Python - Debugging - Update PQ to be more clear & minor formatting improvements](https://github.com/enkidevs/curriculum/pull/2459)
+
+## November 27th 2020
+
+### Fixed
+- [Blockchain - Blocks III - Fix grammar error & minor formatting improvements](https://github.com/enkidevs/curriculum/pull/2457)
+
+## November 25th 2020
+
+### Added
+
+- [Python - Control Flow I - Discussion insight](https://github.com/enkidevs/curriculum/pull/2455)
+
+## November 23rd 2020
+
+### Fixed
+- [Git - Subdirectory Checkout - Explain the `-f` flag & add code block tags](https://github.com/enkidevs/curriculum/pull/2453)
+- [Comp. Sci. - The Linked List Data Structure - Update resource link & add new link](https://github.com/enkidevs/curriculum/pull/2452)
+- [React - Async Flow in Redux - Fix code block](https://github.com/enkidevs/curriculum/pull/2451)
+
+## November 20th 2020
+
+### Fixed
+- [Blockchain - Malicious Nodes - Update replay attacks & conclusion](https://github.com/enkidevs/curriculum/pull/2450)
+- [All Topics - Move question gaps outside of inline code](https://github.com/enkidevs/curriculum/pull/2449)
+
+## November 19th 2020
+
+### Fixed
+- [Regular Expressions - Regex Tools For Testing Regex](https://github.com/enkidevs/curriculum/pull/2448)
+
 ## November 18th 2020
 
 ### Fixed

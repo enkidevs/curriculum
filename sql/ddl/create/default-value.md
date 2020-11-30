@@ -50,7 +50,7 @@ Notice that if we omit the `weight` column when using an `INSERT` command, the R
 
 ## Practice
 
-What will the following code output?
+What will the following code insert into the `cars` table?
 
 ```sql
 CREATE TABLE cars (
@@ -59,22 +59,12 @@ CREATE TABLE cars (
   year INTEGER
 );
 --
-INSERT INTO cars VALUES
-(1, 'Suzuki Swift', 1997);
 INSERT INTO cars (id, year) VALUES
 (1, 2004);
 ```
 
-| id  | name         | year |
-| --- | ------------ | ---- |
-| 1   | Suzuki Swift | 1997 |
-| ??? | ???          | ???  |
+???
 
-- 1
-- unknown
-- 2004
-- 2
-- unidentified
-- DEFAULT
-- Suzuki Swift
-- 1997
+- (1, 'unknown', 2004)
+- (1, NULL, 2004)
+- (1, DEFAULT, 2004)

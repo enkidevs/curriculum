@@ -70,7 +70,7 @@ Runnable myRunnable = ??? ???
 
 What token is specific to Lambda expressions?
 
-`???`
+???
 
 - `->` 
 - `<-` 

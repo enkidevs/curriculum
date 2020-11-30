@@ -49,7 +49,7 @@ p.destroyForcibly();}}
 
 What method from the `Process` class, introduced in Java8 should be used to terminate a process?
 
-`???`
+???
 
 - `destroyForcibly` 
 - `destroy` 
@@ -62,7 +62,7 @@ What method from the `Process` class, introduced in Java8 should be used to term
 
 ## Revision
 
-In Java8  several methods have been added to the `???` class in order to make easier the management of OS processes.
+In Java8  several methods have been added to the ??? class in order to make easier the management of OS processes.
 
 - `Process` 
 - `OS` 

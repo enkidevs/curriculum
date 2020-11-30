@@ -64,14 +64,16 @@ What will be printed by this `console.log()`?
 
 ```javascript
 const ourDog = {
-    name: 'Leo',
-    'dog years': 14
+  name: 'Leo',
+  'dog years': 14
 }
 
 console.log(JSON.stringify(ourDog));
 ```
 
-prints `'{"???":"???","???":???}'`
+```json
+'{"???":"???","???":???}'
+```
 
 - `name`
 - `Leo`

@@ -74,7 +74,7 @@ return arrayClass.getComponentType();
 
 What method is used to get the type of an array?
 
-`???`
+???
 
 - `getComponentType()` 
 - `getType()` 

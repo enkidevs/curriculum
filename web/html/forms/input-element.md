@@ -88,7 +88,9 @@ As you can see, the `input` element is responsible for many of the form controls
 
 Which input type creates a HTML form’s input text field?
 
-`<input type="???">`
+```html
+<input type="???">
+```
 
 - text
 - string
@@ -102,7 +104,12 @@ Which input type creates a HTML form’s input text field?
 
 Create a text field to collect a user's name in a form:
 
-`<input type="???" name="user_name">`
+```html
+<input 
+  type="???" 
+  name="user_name"
+>
+```
 
 - text
 - number

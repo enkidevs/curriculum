@@ -54,7 +54,7 @@ System.out.println(
 
 What exception will be thrown when an overflow or an underflow occurs using **exact** methods of the `Math` class?
 
-`???`
+???
 
 - `ArithmeticException` 
 - `FileNotFoundException` 
@@ -69,7 +69,7 @@ What exception will be thrown when an overflow or an underflow occurs using **ex
 
 What method can be used from the `Math` class such that numerical overflows and underflows are avoided during addition?
 
-`???`
+???
 
 - `addExact` 
 - `incrementExact` 

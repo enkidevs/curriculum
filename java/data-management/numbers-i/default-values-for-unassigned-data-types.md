@@ -33,7 +33,7 @@ Any object - null
 
 What is the default value of an unassigned `float` data type?
 
-`???`
+???
 
 - `0.0f` 
 - `0` 
@@ -47,7 +47,7 @@ What is the default value of an unassigned `float` data type?
 
 What is the default value of an unassigned `boolean` data type?
 
-`???`
+???
 
 - `false` 
 - `true` 

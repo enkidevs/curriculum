@@ -105,7 +105,12 @@ Nevertheless, even though we provide the access key, there is no way for the use
 
 Write the form code that creates a reset button.
 
-`<??? ???="???" ???="Reset">`
+```html
+<??? 
+  ???="???" 
+  ???="Reset"
+>
+```
 
 Which line of code defines the button that sends the data when clicked?
 
@@ -129,7 +134,12 @@ Which line of code defines the button that sends the data when clicked?
 
 Write the form code that creates a submit button.
 
-`<??? ???="???" ???="Send">`
+```html
+<??? 
+  ???="???" 
+  ???="Send"
+>
+```
 
 - input
 - type

@@ -94,7 +94,13 @@ What HTML character entity is used to insert an ampersand symbol ("&")?
 
 If you have a webpage called “black&white”, what character entity is best to use in the following URL:
 
-`<a href="?page=black???white&action=view">Link to B/W</a>`
+```html
+<a 
+  href="?page=black???white&action=view"
+>
+  Link to B/W
+</a>
+```
 
 - `&amp;`
 - `&`

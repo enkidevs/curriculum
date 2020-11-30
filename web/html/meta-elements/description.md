@@ -32,7 +32,12 @@ Whereas some search engines use descriptions as information to review and see if
 
 Complete the code that provides info for search engines to review and display within the results:
 
-`<??? ???="???" ???="This would be the write-up.">`
+```html
+<??? 
+  ???="???" 
+  ???="This would be the write-up."
+>
+```
 
 - meta
 - name

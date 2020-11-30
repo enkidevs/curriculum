@@ -124,7 +124,13 @@ When the mouse hovers: ???
 
 How is a placeholder link created, where the link works, but it doesn't open a new page?
 
-`<a href="???">Empty href</a>`
+```html
+<a 
+  href="???"
+>
+  Empty href
+</a>
+```
 
 What is the default style of a text link in HTML?
 
