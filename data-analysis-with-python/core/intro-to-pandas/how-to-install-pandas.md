@@ -43,5 +43,5 @@ To use `pandas` you also have to install ???.
 
 - numpy
 - matplotlib
-- plotly
+- pyplot
 - seaborn

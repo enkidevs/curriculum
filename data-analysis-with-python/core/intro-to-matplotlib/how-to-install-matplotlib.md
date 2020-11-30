@@ -39,3 +39,27 @@ import matplotlib as mpl
 This way, we can use the `matplotlib` library through the `mpl` keyword.
 
 > In the future, we will be coming back to the `startup.py` file to modify our imports.
+
+---
+## Practice
+
+Install `matplotlib` through pip.
+```python
+python -m ??? ??? ??? ???
+```
+
+- pip
+- install
+- `-U`
+- matplotlib
+- `-u`
+
+
+---
+## Revision
+
+To use `matplotlib` you first have to ??? and then ???.
+
+- install it
+- import it
+- launch it

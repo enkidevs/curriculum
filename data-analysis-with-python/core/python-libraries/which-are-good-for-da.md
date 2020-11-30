@@ -14,7 +14,7 @@ category: how to
 
 Python has tons of community-driven libraries. These libraries can be used for many different things.
 
-Some can be specific to arrays, others specific to dictionaries, some are good at visualization, others at plotting points, etc.
+Some can help you manipulate arrays and dictionaries while some enable you do do data visualisations. The possibilities are endless.
 
 Here are some famous libraries for data analysis:
 - matplotlib

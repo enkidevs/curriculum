@@ -18,7 +18,7 @@ These precompiled lines of code are often referred to as "modules".
 
 You can import these libraries and use their modules in your code.
 
-For instance, Python comes with a pre-installed "Standard Library".
+For instance, Python comes with a built-in "Standard Library".
 
 This library is very extensive, there are tons of functions. Some of those are:
 - print()
@@ -29,6 +29,8 @@ This library is very extensive, there are tons of functions. Some of those are:
 - and many more.
 
 Functions from the "Standard Library" are always available. However, there are hundreds more that do not fall into this library. 
+
+For instance, some libraries are good with visualization, other with mathematical computations, some are specific to manipulation with arrays, and more.
 
 To use these other functions, we would have to import the libraries which have those functions.
 

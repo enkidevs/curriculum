@@ -12,9 +12,7 @@ category: how to
 ---
 ## Content
 
-> Since we will be using Jupyter Lab in this course, we will show you how to add libraries through there.
-
-There are two ways.
+> Here are two ways you can add libraries in Python.
 
 The easiest, but repetitive one, is to import it in every console/notebook you create.
 

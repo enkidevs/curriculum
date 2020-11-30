@@ -34,7 +34,7 @@ With `pandas` you can also highlight columns and rows in `DataFrame` objects.
 There are many more features that we will use and mention later on.
 
 ---
-## Practice
+## Revision
 
 `pandas` is a fast, powerful, and flexible ???.
 

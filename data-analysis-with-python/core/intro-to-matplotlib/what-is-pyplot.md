@@ -14,6 +14,8 @@ category: how to
 
 `pyplot` is a collection of functions built into `matplotlib` that makes `matplotlib` operate like MATLAB.
 
+> `MATLAB` is a numerical computing environment used for matrix manipulations, algorithm implementation, creating user interfaces, and more.
+
 You can use `pyplot` functions to:
 - create figures
 - plot lines
@@ -21,7 +23,7 @@ You can use `pyplot` functions to:
 - add and decorate labels
 - and more
 
-> `MATLAB` is a numerical computing environment used for matrix manipulations, algorithm implementation, creating user interfaces, and more.
+> We will give different examples in the next insight.
 
 To use `pyplot` we will first have to import it from the `matplotlib` library.
 

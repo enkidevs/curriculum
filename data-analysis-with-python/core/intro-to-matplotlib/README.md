@@ -6,7 +6,7 @@ insights:
   - what-is-matplotlib
   - how-to-install-matplotlib
   - what-is-pyplot
-  - plotting-points-with-pyplot
+  - the-pyplot-function
   - formatting-styles-for-plots
   
 aspects:

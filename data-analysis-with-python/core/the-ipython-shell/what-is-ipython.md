@@ -15,10 +15,14 @@ links:
 ---
 ## Content
 
-IPython is an open-source interactive Python shell. It is an ever-growing project.
+IPython is an open-source interactive Python shell.
 
-It provides several features:
-- Easy to use
+> The `I` in `IPython` stands for `interactive`.
+
+It is an alternative interpreter for Python with additional features. 
+
+Some of these features are:
+- Ease of use
 - Powerful shell (added features to the regular shell)
 - Flexible interpreters
 - Support for Data Visualization
@@ -28,23 +32,21 @@ It provides several features:
 - and more
 
 
-> 💡 For a full list of features, visit the link in the "Learn More" section.
+> 💡 For a full list of features, check out the *Learn More* section.
 
-The way we will use IPython is through the Jupyter lab.
+The way we will use IPython is through Jupyter lab.
 
-> 💡 Fun Fact: The Jupyter lab and the IPython shell are maintained by the same Jupyter developer team
+> 💡 Fun Fact: The Jupyter lab and the IPython shell are maintained by the same Jupyter developer team.
 
 ---
 ## Practice
 
-Which of these is not a feature of IPython?
+IPython is ???.
 
 ???
 
-- Live code sharing
-- Flexible interpreters
-- tab completion
-- Syntax Highlighting
+- an interactive Python shell.
+- different version of the Python programming language
 
 ---
 ## Revision
@@ -55,3 +57,9 @@ Which of these is not a feature of IPython?
 - LPython
 - KPython
 - PythonI
+
+
+### Explanations
+
+1. "Correct. IPython is an interactive Python shell"
+2. "The first letter of the interactive shell has a significant meaning."

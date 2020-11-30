@@ -16,7 +16,7 @@ In the previous insight, we have told you to ignore the left-hand-side for now.
 
 What you saw in that image is the `File Browser`.
 
-Next to the `File Browser`, the left side of Jupyter lab contains 5 more tabs.
+Next to the `File Browser`, the left side of Jupyter lab contains five additional tabs.
 
 From top-to-bottom these six tabs are:
 - File Browser
@@ -55,11 +55,11 @@ The other three buttons on this tab are:
 ---
 ## Practice
 
-To create a new `Launcher` you need to go to:
-
-???
+To create a new `Launcher` you can either go to ??? or ???.
 
 - File -> New Launcher
+- press the `+` button on the `File Browser` tab.
+- press the add button on the `Open Tabs` tab.
 - Open -> Launcher -> New
 
 ---

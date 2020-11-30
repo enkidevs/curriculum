@@ -44,3 +44,14 @@ What is `matplotlib` mainly used for?
 - Visualization
 - Mathematical computation
 - Security analysis
+
+---
+## Revision
+
+What is `matplotlib` mainly used for?
+
+??? 
+
+- Visualization
+- Mathematical computation
+- Security analysis

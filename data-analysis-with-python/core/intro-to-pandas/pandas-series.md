@@ -69,3 +69,21 @@ dtype: int64
 - only strings and integers
 - only dictionaries and integers
 - Lists
+
+---
+## Revision
+
+Create a `Series` from a `numpy` array.
+
+```python
+someArray = np.???([1, 2, 3])
+
+someSeries = pd.???(???)
+```
+
+- array
+- Series
+- someArray
+- series
+- someSeries
+- Array

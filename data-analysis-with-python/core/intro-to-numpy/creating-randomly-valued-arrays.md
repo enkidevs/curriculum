@@ -66,3 +66,13 @@ randomArray = ???.random.randint(
 - size = (3, 5)
 - pd
 - size = (3 - 5)
+
+---
+## Revision
+
+It is possible to generate randomly valued arrays with `numpy`?
+
+???
+
+- True
+- False

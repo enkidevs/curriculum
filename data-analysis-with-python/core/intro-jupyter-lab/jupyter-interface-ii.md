@@ -74,5 +74,4 @@ The ??? tab is used to create a new Launcher, a new folder, navigate, and upload
 - File browser
 - Open tabs
 - Current files
-- View Open Kernels
-- New
+- Running Terminals % Kernels

@@ -26,4 +26,4 @@ New libraries or updates to existing libraries arrive often.
 
 These libraries are the reason Python is great for Data Analysis.
 
-> We will dive into the different libraries Python has to offer in the next few workouts.
+> 💡 We will dive into the different libraries Python has to offer in the next few workouts.

@@ -14,17 +14,17 @@ category: how to
 
 Jupyter lab is an open-source web application that supports over 40 programming languages.
 
-Everything done in Jupyter is done through "Notebooks".
+Mostly everything done in Jupyter is done through notebooks.
 
 These notebooks can be shared with your team, friends, or anyone else you might want to share your data with for comparison, feedback, etc.
 
 The key features of sharing are:
 - Live code sharing
-- Live Visualization
+- Live visualization
 - Narration of text
 
 Other features include:
-- Data cleaning
+- data cleaning
 - numerical simulations
 - statistical modeling
 - data visualizations
@@ -39,7 +39,6 @@ Other features include:
 Everything done in Jupyter Lab is done through ???.
 
 - notebooks
-- pages
 - gifs
 - videos
 
@@ -54,4 +53,3 @@ Which of these is not a key feature of Jupyter Lab?
 - Live code sharing
 - Live Visualization
 - Narration of text
-

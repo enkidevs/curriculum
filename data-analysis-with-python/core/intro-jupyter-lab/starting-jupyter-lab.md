@@ -22,11 +22,13 @@ After opening it, you will be greeted with a screen like this one:
 
 [jupyter-lab-first-start](https://img.enkipro.com/ac3ba36012122827477887b580257f4d.png)
 
-On the left-hand side, you will have some files, you can ignore these for now and look at the right-hand side instead.
+> You may have to copy the file path only the first time. Every next time you open jupyter lab with the `jupyter-lab` command, jupyter will open in your default browser.
 
-On the right-hand side, you will have a Launcher.
+On the left-hand side, you will have some files. You can ignore these for now and look at the right-hand side instead.
 
-The Launcher has these three sections:
+On the right-hand side, you will have the launcher.
+
+The launcher has three sections:
 - Notebook
 - Console
 - Other
@@ -36,14 +38,14 @@ The first section has the option to create a new Python 3 Notebook (which includ
 The second section has the option to only create an interactive IPython console.
 
 The last section has four options:
-- basic Windows terminal
+- basic terminal
 - text file
 - markdown file
 - Show Contextual Help
 
 The first three create different files while the fourth option is used to check the documentation for specific functions.
 
-The Launcher is located in the `File` tab in the `menu` bar.
+The launcher is located in the `File` tab in the `menu` bar.
 
 [launcher](https://img.enkipro.com/47fcfccbeb96065303a01e73d3f9a2b7.png)
 
@@ -57,3 +59,26 @@ What do you use to create a new Notebook in Jupyter?
 - Launcher
 - Starter
 - Beginner
+
+### Explanations
+
+1. Correct. Launcher is used to create a new notebook, console, and more.
+2. Incorrect. There is no `Starter` in Jupyter Lab.
+3. Incorrect. There is no `Beginner` in Jupyter Lab.
+
+---
+## Revision
+
+The ??? is used to create a new notebook, console, terminal, text file, and more in Jupyter Lab.
+
+- Launcher
+- Starter
+- Creator
+- Beginner
+
+### Explanations
+
+1. Correct. Launcher is used to create a new notebook, console, and more.
+2. Incorrect. There is no `Starter` in Jupyter Lab.
+3. Incorrect. There is no `Creator` in Jupyter Lab.
+4. Incorrect. There is no `Beginner` in Jupyter Lab.
