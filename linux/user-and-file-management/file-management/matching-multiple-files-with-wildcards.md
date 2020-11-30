@@ -39,7 +39,7 @@ The `?` wildcard matches any single character.  For example, `???` would match e
 
 ### The `[...]` Wildcard
 
-You can also match specific characters by using the `[...]` wild card.  For example, ***.mp[34]** would match any file that ends with either `.mp3` or `.mp4`.  The wildcard `[CcBb]at` would match `Cat`, `cat`, `Bat`, and `bat`.
+You can also match specific characters by using the `[...]` wild card.  For example, `*.mp[34]` would match any file that ends with either `.mp3` or `.mp4`.  The wildcard `[CcBb]at` would match `Cat`, `cat`, `Bat`, and `bat`.
 
 ### Be Careful With Spaces!
 
