@@ -51,7 +51,7 @@ Types of change:
 ## November 30th 2020
 
 ### Fixed
-- [Linux - File Management - General workout improvements & add info on the `ls` command]()
+- [Linux - File Management - General workout improvements & add info on the `ls` command](https://github.com/enkidevs/curriculum/pull/2460)
 - [Python - Debugging - Update PQ to be more clear & minor formatting improvements](https://github.com/enkidevs/curriculum/pull/2459)
 
 ## November 27th 2020
