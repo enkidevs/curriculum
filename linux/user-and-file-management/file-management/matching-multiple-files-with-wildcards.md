@@ -1,18 +1,21 @@
 ---
 author: jfarmer
+
 type: normal
+
 category: must-know
-inAlgoPool: false
+
 tags:
   - introduction
   - workout
+
 links:
   - >-
-    [www.tldp.org](http://www.tldp.org/LDP/GNU-Linux-Tools-Summary/html/x11655.htm){website}
+    [Wildcards](http://www.tldp.org/LDP/GNU-Linux-Tools-Summary/html/x11655.htm){website}
+
 ---
 
 # Matching Multiple Files With Wildcards
-
 
 ---
 
@@ -22,7 +25,9 @@ When referencing files from the command line, you can use wildcard characters li
 
 ### The `*` Wildcard
 
-The `*` wildcard means "any number of characters including none".  For example, if you wanted to move every file ending with `.mp3` from the current directory to the `~/music` directory, you could run the following command:
+The `*` wildcard means "any number of characters including none".
+
+For example, if you wanted to move every file ending with `.mp3` from the current directory to the `~/music` directory, you could run the following command:
 
 ```shell
 mv *.mp3 ~/music
@@ -44,10 +49,11 @@ Be careful when using `*` as a misplaced space or other character can wreak havo
 mv * .mp3 ~/music
 ```
 
-This would move all files matching `*` and a file named `.mp3` to the `~/music` directory.  But *every* file matches `*`, so you'd be moving every file in the current directory to `~/music`.
+This would move all files matching `*` and a file named `.mp3` to the `~/music` directory.
+
+But *every* file matches `*`, so you'd be moving every file in the current directory to `~/music`.
 
 Likewise, imagine the difference between `rm *.mp3` (which removes every `.mp3` file) and `rm * .mp3` (which inadvertently removes *every* file).
-
 
 ---
 
@@ -71,9 +77,7 @@ mv ??*.[mM]p3
 
 ## Revision
 
-The `?` wildcard matches
-
- ???.
+The `?` wildcard matches ???.
 
 - any single character
 - any character
