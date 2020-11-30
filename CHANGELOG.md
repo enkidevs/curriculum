@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## November 30th 2020
+
+### Fixed
+- [Python - Debugging - Update PQ to be more clear & minor formatting improvements](https://github.com/enkidevs/curriculum/pull/2459)
+
 ## November 27th 2020
 
 ### Fixed
