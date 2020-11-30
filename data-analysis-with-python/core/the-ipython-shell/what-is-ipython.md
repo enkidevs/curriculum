@@ -57,9 +57,3 @@ IPython is ???.
 - LPython
 - KPython
 - PythonI
-
-
-### Explanations
-
-1. "Correct. IPython is an interactive Python shell"
-2. "The first letter of the interactive shell has a significant meaning."

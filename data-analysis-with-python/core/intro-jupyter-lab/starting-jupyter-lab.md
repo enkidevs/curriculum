@@ -60,12 +60,6 @@ What do you use to create a new Notebook in Jupyter?
 - Starter
 - Beginner
 
-### Explanations
-
-1. Correct. Launcher is used to create a new notebook, console, and more.
-2. Incorrect. There is no `Starter` in Jupyter Lab.
-3. Incorrect. There is no `Beginner` in Jupyter Lab.
-
 ---
 ## Revision
 
@@ -75,10 +69,3 @@ The ??? is used to create a new notebook, console, terminal, text file, and more
 - Starter
 - Creator
 - Beginner
-
-### Explanations
-
-1. Correct. Launcher is used to create a new notebook, console, and more.
-2. Incorrect. There is no `Starter` in Jupyter Lab.
-3. Incorrect. There is no `Creator` in Jupyter Lab.
-4. Incorrect. There is no `Beginner` in Jupyter Lab.

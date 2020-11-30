@@ -8,7 +8,7 @@ sections:
   '0':
     - introduction-to-data-analysis-with-python
     - the-ipython-shell
-    - the-jupyter-lab
+    - intro-jupyter-lab
     - python-libraries
     - intro-to-numpy
     - intro-to-pandas
