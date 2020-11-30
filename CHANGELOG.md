@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## November 30th 2020
+
+### Fixed
+- [Python - Boolean Operators - Improve visibility of the markdown table](https://github.com/enkidevs/curriculum/pull/2458)
+
 ## November 27th 2020
 
 ### Fixed
