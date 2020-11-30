@@ -52,6 +52,8 @@ Types of change:
 
 ### Fixed
 - [Python - Boolean Operators - Improve visibility of the markdown table](https://github.com/enkidevs/curriculum/pull/2458)
+- [Linux - File Management - General workout improvements & add info on the `ls` command](https://github.com/enkidevs/curriculum/pull/2460)
+- [Python - Debugging - Update PQ to be more clear & minor formatting improvements](https://github.com/enkidevs/curriculum/pull/2459)
 
 ## November 27th 2020
 
