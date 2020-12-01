@@ -51,6 +51,7 @@ Types of change:
 ## November 30th 2020
 
 ### Fixed
+- [Python - Boolean Operators - Improve visibility of the markdown table](https://github.com/enkidevs/curriculum/pull/2458)
 - [Linux - Using `find` To Search By File Size - Fix description of `\;` in an `exec` command](https://github.com/enkidevs/curriculum/pull/2461)
 - [Linux - File Management - General workout improvements & add info on the `ls` command](https://github.com/enkidevs/curriculum/pull/2460)
 - [Python - Debugging - Update PQ to be more clear & minor formatting improvements](https://github.com/enkidevs/curriculum/pull/2459)
