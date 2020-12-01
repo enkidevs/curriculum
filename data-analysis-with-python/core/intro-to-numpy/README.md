@@ -7,7 +7,8 @@ insights:
   - how-to-install-numpy
   - creating-1d-2d-and-3d-arrays
   - numpy-subpackages
-  - creating-randomly-valued-arrays
+  - numpy-array-vs-python-list
+  - numpy-array-vs-python-list-ii
 
 aspects:
   - introduction
