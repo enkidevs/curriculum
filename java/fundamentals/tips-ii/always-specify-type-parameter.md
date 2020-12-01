@@ -19,14 +19,14 @@ links:
 
 A *parameterized type* would look like:
 
-```plain-text
+```java
 List<String> oceans = Arrays.asList(
    "Pacific", "Atlantic", "Indian");
 ```
 
 Whereas, a *raw type* would look like:
 
-```plain-text
+```java
 List oceans = Arrays.asList(
    "Pacific", "Atlantic", "Indian");
 ```
