@@ -6,7 +6,7 @@ insights:
   - what-is-jupyter-lab
   - how-to-install-jupyter-lab
   - starting-jupyter-lab
-  - jupyter-lab-iterface
+  - jupyter-lab-interface
   - jupyter-lab-interface-ii
 
 aspects:
