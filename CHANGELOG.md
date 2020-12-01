@@ -52,6 +52,7 @@ Types of change:
 
 ### Fixed
 - [Javascript - Closures - Add missing parentheses in the third sentence](https://github.com/enkidevs/curriculum/pull/2462)
+- [Java - Always Specify Type Parameter - Update code block identifier](https://github.com/enkidevs/curriculum/pull/2463)
 
 ## November 30th 2020
 
