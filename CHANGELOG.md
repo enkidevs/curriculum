@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## December 1st 2020
+
+### Fixed
+- [Javascript - Closures - Add missing parentheses in the third sentence](https://github.com/enkidevs/curriculum/pull/2462)
+
 ## November 30th 2020
 
 ### Fixed
