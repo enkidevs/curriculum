@@ -50,7 +50,11 @@ Types of change:
 
 ## December 3rd 2020
 
+### Added
+- [SQL - Modifying Data - New course](https://github.com/enkidevs/curriculum/pull/2424)
+
 ### Fixed
+- [Comp. Sci. - How does packet loss happen? - Fix pq & update link titles](https://github.com/enkidevs/curriculum/pull/2468)
 - [Python - Pointers and References - Replace broken link with 2 valid ones](https://github.com/enkidevs/curriculum/pull/2467)
 
 ### Changed
