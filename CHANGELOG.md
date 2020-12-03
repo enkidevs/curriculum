@@ -41,7 +41,6 @@ Types of change:
 ## WIP
 
 ### Added
-- [SQL - Modifying Data - New course](https://github.com/enkidevs/curriculum/pull/2424)
 
 ### Changed
 
@@ -50,6 +49,9 @@ Types of change:
 ### Fixed
 
 ## December 3rd 2020
+
+### Added
+- [SQL - Modifying Data - New course](https://github.com/enkidevs/curriculum/pull/2424)
 
 ### Fixed
 - [Comp. Sci. - How does packet loss happen? - Fix pq & update link titles](https://github.com/enkidevs/curriculum/pull/2468)
