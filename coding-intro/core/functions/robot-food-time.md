@@ -21,8 +21,8 @@ The final part of the code we're giving the robot is:
 ```plain-text
 FUNCTION make_a_grill_cheese_sandwich
   INPUT cheese, grater, bowl, bread, butter, pan, plate
-  INSTRUCT cheese_bowl, sliced_bread = prepare_ingredients(cheese, grater, bowl, bread)
-  INSTRUCT sandwich = build_sandwich(cheese_bowl, sliced_bread, butter)
+  INSTRUCT prepare_ingredients(cheese, grater, bowl, bread)
+  INSTRUCT build_sandwich(cheese_bowl, sliced_bread, butter)
   INSTRUCT sandwich_on_plate = grill_sandwich(sandwich, pan, plate)
   OUTPUT sandwich_on_plate
 ENDFUNCTION
@@ -53,8 +53,12 @@ Ingredients:
 - cheese
 - bread
 - butter
-- plate
+
+Tools/kitchenware/utensils:
+- grater
 - bowl
+- pan
+- plate
 
 Instructions:
 
