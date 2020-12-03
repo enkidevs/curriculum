@@ -1,5 +1,5 @@
 name: Basics of React
-description: Explore how React works by tackling basic web programming challenges.
+description: Explore how React works by tackling web programming challenges.
 insights:
   - react-the-component-lifecycle
   - react-component-lifecycle-methods

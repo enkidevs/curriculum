@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## December 3rd 2020
+
+### Changed
+- [React - Intro to React - Change readme descriptions](https://github.com/enkidevs/curriculum/pull/2466)
+
 ## December 2nd 2020
 
 ### Fixed
