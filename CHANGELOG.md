@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## December 2nd 2020
+
+### Fixed
+- [Security - The Heap Data Structure - Replace broken link with a valid one](https://github.com/enkidevs/curriculum/pull/2464)
+
 ## December 1st 2020
 
 ### Fixed
