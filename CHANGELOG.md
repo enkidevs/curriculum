@@ -54,7 +54,7 @@ Types of change:
 - [SQL - Modifying Data - New course](https://github.com/enkidevs/curriculum/pull/2424)
 
 ### Fixed
-- [Comp. Sci. - The Array Data Structure - Fix code block tag]()
+- [Comp. Sci. - The Array Data Structure - Fix code block tag](https://github.com/enkidevs/curriculum/pull/2470)
 - [Comp. Sci. - How does packet loss happen? - Fix pq & update link titles](https://github.com/enkidevs/curriculum/pull/2468)
 - [Python - Pointers and References - Replace broken link with 2 valid ones](https://github.com/enkidevs/curriculum/pull/2467)
 
