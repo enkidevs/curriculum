@@ -89,7 +89,7 @@ DELETE FROM
 
 ## Footnotes
 
-[1:`favorite_fruits` Table]
+[1:Favorite Fruits Table]
 Here is how the `favorite_fruits` table looked like where we left off:
 
 | id | fruit      |

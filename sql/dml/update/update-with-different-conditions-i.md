@@ -120,7 +120,7 @@ SET
 
 ## Footnotes
 
-[1: `mammals` Table]
+[1: Mammals Table]
 
 Here is the `mammals` table
 

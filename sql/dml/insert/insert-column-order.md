@@ -106,7 +106,7 @@ If you omit a column when inserting, its value will be replaced by ???.
 
 ## Footnotes
 
-[1:`inventory` Table]
+[1:Inventory Table]
 Here is how the `inventory` table looked like:
 
 | id | product  | quantity |
@@ -122,4 +122,4 @@ When creating a table, you can define default values for your columns.
 
 Then, when you omit a column, the default value will be inserted instead of `NULL`.
 
-Don't worry about default values. We'll go over how they work in the [Defining Data course](#link-to-the-default-values-insight).
+Don't worry about default values. We'll go over how they work in the Defining Data course.

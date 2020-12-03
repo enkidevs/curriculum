@@ -72,7 +72,7 @@ Remove the record that has `3` as `id` from the `managers` table:
 
 ## Footnotes
 
-[1:`fruits` Table]
+[1:Fruits Table]
 Here is how the `fruits` table looked like where we left off:
 
 | id | name      |
