@@ -8,7 +8,9 @@ category: must-know
 links:
   - >-
     [Memory management in
-    Python](http://deeplearning.net/software/theano/tutorial/python-memory-management.html){website}
+    Python](https://realpython.com/python-memory-management/){website}
+  - >-
+    [Python memory management](https://www.geeksforgeeks.org/memory-management-in-python/){website}
 
 ---
 
