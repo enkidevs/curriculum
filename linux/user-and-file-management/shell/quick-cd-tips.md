@@ -36,9 +36,11 @@ pushd projects/
 ~/projects ~
 ```
 
-After calling `pushd`, the directory stack is logged in the shell.
+After calling `pushd` followed by a folder name, the directory stack is logged in the shell and you're switched to that folder.
 
-If you want to add the current directory to the stack, you would call `pushd`:
+> Tilde `~` is a short hand notation for `Users/your-name/`.
+
+If you want to add the current directory to the stack, you would call `pushd` while in that directory:
 
 ```bash
 ~/projects/project_1 pushd
