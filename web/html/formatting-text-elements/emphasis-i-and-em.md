@@ -64,12 +64,12 @@ Furthermore, the `<em>` element is a little different from the `<i>` element in 
 
 ```html
 <p>
-  He shouted,
-  "<em>
+  He shouted, "<em>
     I <em>am</em>
-    a comedian!
-   </em>"
+    a comedian! </em
+  >"
 </p>
+
 ```
 
 ![element-em-embedded](https://img.enkipro.com/a410e16d5de810a07e5fea383600bf25.png)
@@ -87,13 +87,9 @@ EM & I Example:
 ```html
 <p>
   The
-  <i>
-    Black Pearl
-  </i>
+  <i> Black Pearl </i>
   is an
-  <em>
-    amazing
-  </em>
+  <em> amazing </em>
   name for a pirate ship.
 </p>
 ```
@@ -111,17 +107,13 @@ If you add the name of the movie where *Black Pearl* is from, you would do so wi
 ```html
 <p>
   The
-  <i>
-    Black Pearl
-  </i>
+  <i> Black Pearl </i>
   from the movie
   <cite>
     The Pirates of the Caribbean
   </cite>
   is an
-  <em>
-    amazing
-  </em>
+  <em> amazing </em>
   name for a pirate ship.
 </p>
 ```
@@ -137,7 +129,19 @@ If you add the name of the movie where *Black Pearl* is from, you would do so wi
 
 Write the code to properly express emphasis in this sentence:
 
-`<p>`The <???>Black Pearl<???> is an <???>amazing<???> name for a pirate ship.`</p>`
+```html
+<p>
+  The
+  <???>
+  Black Pearl
+  <???>
+  is an
+  <???>
+  amazing
+  <???>
+  name for a pirate ship.
+</p>
+```
 
 Mark the false statement about the `<em>` element.
 
@@ -181,7 +185,19 @@ When emphasis is needed for a foreign word, a fictional character's thoughts, or
 
 Write the code to properly express emphasis in this sentence:
 
-`<p>`The <???>Black Pearl<???> from the movie <???>The Pirates of the Caribbean<???> is an <???>amazing<???> name for a pirate ship.`</p>`
+```html
+<p>
+  The
+  <???>
+  Black Pearl
+  <???>
+  is an
+  <???>
+  amazing
+  <???>
+  name for a pirate ship.
+</p>
+```
 
 - i
 - /i

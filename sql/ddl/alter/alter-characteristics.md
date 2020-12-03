@@ -82,6 +82,7 @@ DROP NOT NULL;
 
 Look at the `region` table below. How would you set 1 as the default value to all entries in the `region_id` column?
 
+```md
 | id | region_id | name           |
 | -- | --------- | -------------- |
 | 1  | 1         | generation-i   |
@@ -90,6 +91,7 @@ Look at the `region` table below. How would you set 1 as the default value to al
 | 4  | 4         | generation-iv  |
 | 5  | 5         | generation-v   |
 | 6  | 6         | generation-vi  |
+```
 
 ```sql
 ??? region
@@ -112,6 +114,7 @@ ALTER ??? ???
 
 We'd like to set the default value `"ruby"` to all entries in the column `name` in the `version` table. We would also like to remove the `NOT NULL` clause to the `id` column.
 
+```md
 | id | version_group_id | name     |
 | -- | ---------------- | -------- |
 | 1  | 1                | red      |
@@ -122,6 +125,7 @@ We'd like to set the default value `"ruby"` to all entries in the column `name` 
 | 6  | 4                | crystal  |
 | 7  | 5                | ruby     |
 | 8  | 5                | sapphire |
+```
 
 Complete the following sql code to reflect these changes:
 

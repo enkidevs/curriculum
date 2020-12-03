@@ -29,7 +29,12 @@ Example:
 
 Add a visual tooltip when the cursor is over the image.
 
-`<??? ???="logo.svg" ???="Tooltip Text Here">`
+```html
+<??? 
+  ???="logo.svg" 
+  ???="Tooltip Text Here"
+>
+```
 
 - img
 - src
@@ -46,7 +51,12 @@ Add a visual tooltip when the cursor is over the image.
 
 What adds a visual tooltip when the cursor is over the image?
 
-`<img src="logo.svg" ???="Tooltip Text Here">`
+```html
+<img 
+  src="logo.svg" 
+  ???="Tooltip Text Here"
+>
+```
 
 - title
 - tooltip
@@ -65,7 +75,12 @@ What adds a visual tooltip when the cursor is over the image?
 
 When the cursor is over the image, what code will add a visual tooltip?
 
-`<img src="logo.svg" ???="Tooltip Text Here">`
+```html
+<img 
+  src="logo.svg" 
+  ???="Tooltip Text Here"
+>
+```
 
 - title
 - tooltip

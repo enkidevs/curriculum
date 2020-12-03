@@ -38,7 +38,11 @@ These are your queue options in different programming languages:
 - `Python`: You can instantiate queues using the `queue` module in python3, or the `Queue` module in python2. The insertion method is called `put`, while the removal one is `get`.
 - `C++`: Queues in C++ are part of the `std::queue` library. In this case, elements can be inserted by using `push` and removed by using `pop`.
 
-> Note: as with all the skills in the app, if you want to access more advanced or specific content at any time, **feel free to use the *Skill Map* tab** to jump to the workouts most relevant for you.
+> 💡 As with all the skills in the app, if you want to access more advanced or specific content at any time, **feel free to use the *Skill Map* tab** to jump to the workouts most relevant for you.
+
+> 💬 Why are you interested in learning Computer Science?
+> 
+> Leave a comment or view some of the other comments for inspiration before moving on.
 
 
 ---

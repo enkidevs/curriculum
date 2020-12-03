@@ -3,14 +3,14 @@ author: jfarmer
 type: normal
 category: must-know
 links:
-  - >-
-    [The heap data
-    structure](https://www.cs.cmu.edu/~adamchik/15-121/lectures/Binary%20Heaps/heaps.html){website}
+  - '[The heap data structure](https://www.geeksforgeeks.org/heap-data-structure/){website}'
+  - '[Binary Heap](https://www.cs.cmu.edu/~rdriley/121/notes/heaps.html#3-binary-heap){website}'
+  
 parent: balanced-vs-unbalanced-binary-trees
+
 ---
 
 # The Heap Data Structure
-
 
 ---
 

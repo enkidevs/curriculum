@@ -77,7 +77,9 @@ What is the root element of an HTML document?
 
 What HTML element is best to assign the document’s primary language?
 
-`<??? lang="en-GB">`
+```html
+<??? lang="en-GB">
+```
 
 - `<html>`
 - `html`

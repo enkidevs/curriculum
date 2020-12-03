@@ -1,7 +1,10 @@
 ---
 author: elliehoward
+
 type: normal
+
 category: must-know
+
 links:
   - >-
     [MDN -
@@ -9,10 +12,10 @@ links:
   - >-
     [W3 Schools - HTML DOM body
     Property](https://www.w3schools.com/jsref/prop_doc_body.asp){website}
+
 ---
 
 # Modifying the Body
-
 
 ---
 
@@ -27,25 +30,17 @@ If you change the content of the body it will overwrite all elements inside the 
 
 ```html
 <html>
-<body>
-<h1>
-  Welcome to my page
-</h1>
-<p>
-  Hello World!
-</p>
-<p>
-  My page has so much content
-</p>
+  <body>
+    <h1>Welcome to my page</h1>
+    <p>Hello World!</p>
+    <p>My page has so much content</p>
 
-<script>
-document
- .body
- .innerHTML = "Changed!";
-</script>
-
-</body>
-</html>
+    <script>
+      document.body.innerHTML =
+        "Changed!";
+    </script>
+  </body>
+</html>;
 ```
 
 In the example above, the `h1` element and the two paragraph elements would be overwritten with the word "Changed!"
@@ -56,21 +51,18 @@ You can also do cool things like change the background color of the page by sett
 
 ```html
 <html>
-<body>
-
-<h1>Hello World!</h1>
-
-<script>
-document
-.body
-.style
-.backgroundColor = "pink";
-</script>
-
-</body>
-</html>
+  <body>
+    <h1>Hello World!</h1>
+    <script>
+      document
+        .body
+        .style
+        .backgroundColor
+          = "pink";
+    </script>
+  </body>
+</html>;
 ```
-
 
 ---
 
@@ -78,7 +70,10 @@ document
 
 Store a reference to the body element in a variable:
 
-`var bodyElement = ???.???`
+```js
+let bodyElement = 
+  ???.???
+```
 
 - `document`
 - `body`
@@ -88,12 +83,12 @@ Store a reference to the body element in a variable:
 - `element`
 - `innerHTML`
 
-
 ---
 
 ## Revision
 
 What happens when you changes the innerHTML of the body tag?
+
 ???
 
 - You overwrite all elements inside the body tag with the new content.

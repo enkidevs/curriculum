@@ -1,21 +1,26 @@
 ---
 author: mihaiberq
+
 type: normal
+
 category: must-know
+
 links:
   - >-
     [Interactive tutorial of how blocks are
     built](https://anders.com/blockchain/){website}
+
 ---
 
 # Hashing Block Data
-
 
 ---
 
 ## Content
 
-If any piece of data can be represented as an unique string of fixed length, what if, to build block N, we are to hash the content of block N-1 and block N-1's reference to block N-2. By including the content, any modification done to it would change the hash. By also including the reference to block N-2, we ensure that every block before cannot be tampered with.
+If any piece of data can be represented as a unique string of fixed length, what if, to build block N, we are to hash the content of block N-1 and block N-1's reference to block N-2.
+
+By including the content, any modification done to it would change the hash. By also including the reference to block N-2, we ensure that every block before cannot be tampered with.
 
 We would then be able to give a somewhat formal representation of what is hashed:
 
@@ -31,8 +36,7 @@ But for now, consider a network that accepts any block that contains the previou
 
 It's worth talking about the **genesis block** or the first block of the blockchain: as there's no previous block, the reference will be equal to `0`.
 
-In the "learn more" section you can find a link to an interactive website that allows you to create and append blocks to a simplified version of the Bitcoin blockchain.
-
+In the *Learn more* section you can find a link to an interactive website that allows you to create and append blocks to a simplified version of the Bitcoin blockchain.
 
 ---
 

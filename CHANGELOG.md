@@ -49,6 +49,102 @@ Types of change:
 
 ### Fixed
 
+## December 3rd 2020
+
+### Fixed
+- [Comp. Sci. - How does packet loss happen? - Fix pq & update link titles](https://github.com/enkidevs/curriculum/pull/2468)
+
+### Changed
+- [React - Intro to React - Change readme descriptions](https://github.com/enkidevs/curriculum/pull/2466)
+
+## December 2nd 2020
+
+### Fixed
+- [Security - The Heap Data Structure - Replace broken link with a valid one](https://github.com/enkidevs/curriculum/pull/2464)
+
+## December 1st 2020
+
+### Fixed
+- [Javascript - Closures - Add missing parentheses in the third sentence](https://github.com/enkidevs/curriculum/pull/2462)
+- [Java - Always Specify Type Parameter - Update code block identifier](https://github.com/enkidevs/curriculum/pull/2463)
+
+## November 30th 2020
+
+### Fixed
+- [Python - Boolean Operators - Improve visibility of the markdown table](https://github.com/enkidevs/curriculum/pull/2458)
+- [Linux - Using `find` To Search By File Size - Fix description of `\;` in an `exec` command](https://github.com/enkidevs/curriculum/pull/2461)
+- [Linux - File Management - General workout improvements & add info on the `ls` command](https://github.com/enkidevs/curriculum/pull/2460)
+- [Python - Debugging - Update PQ to be more clear & minor formatting improvements](https://github.com/enkidevs/curriculum/pull/2459)
+
+## November 27th 2020
+
+### Fixed
+- [Blockchain - Blocks III - Fix grammar error & minor formatting improvements](https://github.com/enkidevs/curriculum/pull/2457)
+
+## November 25th 2020
+
+### Added
+
+- [Python - Control Flow I - Discussion insight](https://github.com/enkidevs/curriculum/pull/2455)
+
+## November 23rd 2020
+
+### Fixed
+- [Git - Subdirectory Checkout - Explain the `-f` flag & add code block tags](https://github.com/enkidevs/curriculum/pull/2453)
+- [Comp. Sci. - The Linked List Data Structure - Update resource link & add new link](https://github.com/enkidevs/curriculum/pull/2452)
+- [React - Async Flow in Redux - Fix code block](https://github.com/enkidevs/curriculum/pull/2451)
+
+## November 20th 2020
+
+### Fixed
+- [Blockchain - Malicious Nodes - Update replay attacks & conclusion](https://github.com/enkidevs/curriculum/pull/2450)
+- [All Topics - Move question gaps outside of inline code](https://github.com/enkidevs/curriculum/pull/2449)
+
+## November 19th 2020
+
+### Fixed
+- [Regular Expressions - Regex Tools For Testing Regex](https://github.com/enkidevs/curriculum/pull/2448)
+
+## November 18th 2020
+
+### Fixed
+- [Styling - Position elements with position sticky - Add Footnote For Position Fixed](https://github.com/enkidevs/curriculum/pull/2422)
+
+## November 17th 2020
+
+### Added
+- [Comp Sci- The Queue Data Structure - Add discussion question](https://github.com/enkidevs/curriculum/pull/2426)- [Airtable - Airtable Your First Base- Add discussion question](https://github.com/enkidevs/curriculum/pull/2427)
+- [Blockchain - Blockchain Outcomes - Add discussion question](https://github.com/enkidevs/curriculum/pull/2428)
+- [Data Analysis - Data Analysis vs Data Science - Add discussion question](https://github.com/enkidevs/curriculum/pull/2429)
+- [Docker - Docker Benefits - Add discussion question](https://github.com/enkidevs/curriculum/pull/2430)
+- [Git - What You Will Get Out Of Git - Add discussion question](https://github.com/enkidevs/curriculum/pull/2431)
+- [Go - Hello World - Add discussion question](https://github.com/enkidevs/curriculum/pull/2432)
+- [Java - Compiling and Running Java Code - Add discussion question](https://github.com/enkidevs/curriculum/pull/2433)
+- [Javascript - Console In Javascript - Add discussion question](https://github.com/enkidevs/curriculum/pull/2434)
+- [Linux - Linux Common Terminology - Add discussion question](https://github.com/enkidevs/curriculum/pull/2435)
+- [Mongodb - Why Mongodb - Add Discussion insight](https://github.com/enkidevs/curriculum/pull/2436)
+- [Webflow - Css - Add Discussion insight](https://github.com/enkidevs/curriculum/pull/2437)
+- [React - What I Need To Use React - Add Discussion insight](https://github.com/enkidevs/curriculum/pull/2438)
+- [Regex - What Is Regex - Add Discussion insight](https://github.com/enkidevs/curriculum/pull/2439)
+- [Security - What Else Do You Need To Know - Add Discussion insight](https://github.com/enkidevs/curriculum/pull/2440)
+- [Spreadsheets - What Are Spreadsheets - Add Discussion insight](https://github.com/enkidevs/curriculum/pull/2441)
+- [SQL - Your First Query - Add Discussion insight](https://github.com/enkidevs/curriculum/pull/2442)
+- [Typescript - Hello Typescript - Add Discussion insight](https://github.com/enkidevs/curriculum/pull/2443)
+- [HTML - HTML CSS Browser - Add Discussion insight](https://github.com/enkidevs/curriculum/pull/2444)
+- [CSS - Class And Id Selectors - Add Discussion insight](https://github.com/enkidevs/curriculum/pull/2445)
+- [Zapier - Zapier Common Terminology - Add Discussion insight](https://github.com/enkidevs/curriculum/pull/2446)
+
+## November 16th 2020
+
+### Fixed
+- [Java - What Is Serialization? - Update PQ to use the same terms as the insight](https://github.com/enkidevs/curriculum/pull/2425)
+
+## November 13th 2020
+
+### Fixed
+- [React - Specify a Single Child - Remove duplicated paragraph](https://github.com/enkidevs/curriculum/pull/2423)
+
+
 ## November 6th 2020
 
 ### Fixed
@@ -130,7 +226,7 @@ Types of change:
 ## October 8th 2020
 
 ### Fixed
--[MongoDB - Aggregation with Object Expression 1 - Fix Grammer](https://github.com/enkidevs/curriculum/pull/2383)
+- [MongoDB - Aggregation with Object Expression 1 - Fix Grammer](https://github.com/enkidevs/curriculum/pull/2383)
 
 ## October 6th 2020
 

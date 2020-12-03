@@ -86,9 +86,9 @@ Finally, whenever you want to leave `pdb` console, type `quit` or `exit`.
 
 ## Practice
 
-The `???` command will **iterate** through the loops showing exactly what the **loop** is doing.
-The `???` command executes **statements**, without showing everything that happened to evaluate the call.
-The `???` command has **optional arguments** that must be two `int` values that define the range of lines the user wants.
+The ??? command will **iterate** through the loops showing exactly what the **loop** is doing.
+The ??? command executes **statements**, without showing everything that happened to evaluate the call.
+The ??? command has **optional arguments** that must be two `int` values that define the range of lines the user wants.
 
 - step
 - next

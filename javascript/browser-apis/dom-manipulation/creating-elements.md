@@ -1,32 +1,38 @@
 ---
 author: elliehoward
+
 type: normal
+
 category: must-know
+
 links:
   - >-
     [MDN -
     createElement](https://developer.mozilla.org/en-US/docs/Web/API/Document/createElement){website}
   - >-
-    [Stackoverflow - How do I create and style a div with
-    JS?](https://stackoverflow.com/questions/6840326/how-can-i-create-and-style-a-div-using-javascript){website}
+    [How do I create and style a div with
+    JS?](https://stackoverflow.com/questions/6840326/how-can-i-create-and-style-a-div-using-javascript){discussion}
+
 ---
 
 # Creating Elements
-
 
 ---
 
 ## Content
 
 In order to create a new element on a webpage dynamically with JavaScript, we use the DOM's method `createElement`:  
-`var newDiv = document.createElement('div')`
+```js
+let newDiv = 
+  document.createElement('div')
+```
 
 Then we can give the element some content. Let's make another tag dynamically and append it to the div tag.
 
-```JavaScript
-var newDiv = document
+```js
+let newDiv = document
   .createElement('div')
-var newTextContent = document
+let newTextContent = document
   .createTextNode('Hello World')
 newDiv.appendChild(newTextContent)
 ```
@@ -41,9 +47,9 @@ Now we have to add the new div to the DOM in order to see it on the page:
     </div>
   </body>
   <script>
-  var newDiv = document
+  let newDiv = document
     .createElement('div')
-  var newTextContent = document
+  let newTextContent = document
     .createTextNode('Hello World')
   newDiv
     .appendChild(newTextContent)
@@ -65,7 +71,8 @@ Now we have to add the new div to the DOM in order to see it on the page:
 Given this code, fill in the blanks to create a new paragraph element:
 
 ```javascript
-var p = document.???(???);
+let p = 
+  document.???(???);
 ```
 
 - `createElement`
@@ -82,7 +89,9 @@ var p = document.???(???);
 
 Which method on the Document Object is used for making a new element?
 
-`document.???`  
+```js
+document.???
+```  
 
 - `createElement`
 - `makeElement`

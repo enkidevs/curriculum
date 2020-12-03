@@ -50,7 +50,7 @@ How would you find out the owners of the `timetable.txt` file?
 
 ## Revision
 
-You can use `???` to see which user or group owns a specific *file*.
+You can use ??? to see which user or group owns a specific *file*.
 
 - `ls -l`
 - `ls -a`

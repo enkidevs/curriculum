@@ -53,10 +53,12 @@ For small arrays (up to around 2000 elements) `sort()` remains the best choice.
 
 Sort the given array in parallel from indexes `6` to `100`:
 
-```plain-text
+```java
 ???.???(
-      myArray, 6, 100
-     );
+  myArray, 
+  6, 
+  100
+);
 ```
 
 - `Arrays` 
@@ -72,7 +74,7 @@ Sort the given array in parallel from indexes `6` to `100`:
 
 When sorting a small array (up to `2000` elements), what methods is considered more efficient?
 
-`???`
+???
 
 - `sort()` 
 - `parallelSort()`

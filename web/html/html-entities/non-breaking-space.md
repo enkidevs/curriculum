@@ -129,7 +129,9 @@ Which statement is true regarding a non-breaking space:
 
 What HTML character entity is used to prevent the browser from breaking the line between certain words or web page elements?
 
-`<p>5???km</p>`
+```html
+<p>5???km</p>
+```
 
 - `&nbsp;`
 - `&ensp;`

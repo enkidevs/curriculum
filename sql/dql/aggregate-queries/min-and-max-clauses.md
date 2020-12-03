@@ -58,12 +58,14 @@ Output:
 
 We have the table `item`. It holds data about each item and its cost. We want to find out the most expensive item:
 
+```md
 | id | cost | name        |
 | -- | ---- | ----------- |
 | 1  | 0    | master-ball |
 | 2  | 1200 | ultra-ball  |
 | 3  | 600  | great-ball  |
 | 4  | 200  | poke-ball   |
+```
 
 ```sql
 SELECT ???(???) FROM ???
@@ -76,18 +78,19 @@ SELECT ???(???) FROM ???
 - MIN
 - FROM
 
-
 ---
 
 ## Revision
 
 Consider the table `move_effect_change`. Choose the query that finds the move with the **lowest** effect:
 
+```md
 | id | move_effect | version_group_id |
 | -- | ----------- | ---------------- |
 | 1  | 8           | 11               |
 | 2  | 18          | 3                |
 | 3  | 29          | 3                |
+```
 
 ```sql
 SELECT ???(???)
@@ -99,7 +102,6 @@ FROM move_effect_change;
 - MAX
 - AVG
 - version_group_id
-
 
 ---
 
