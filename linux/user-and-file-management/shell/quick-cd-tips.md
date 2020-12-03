@@ -13,6 +13,9 @@ links:
   - >-
     [Directory Stack
     Builtins](https://www.gnu.org/software/bash/manual/html_node/Directory-Stack-Builtins.html#Directory-Stack-Builtins){documentation}
+  - >-
+    [pushd-popd vs cd in bash and zsh](https://unix.stackexchange.com/questions/272965/pushd-popd-vs-cd-cd-in-bash-and-zsh){documentation}
+    
 ---
 
 # Quick `cd` Tips
@@ -110,6 +113,7 @@ Or, to undo the last change of directory and go back to the last visited path:
 cd -
 ```
 
+To learn more about the directory stack or to view the differences between `popd` and `pushd` vs `cd` in both `bash` and `zsh`, check out the links in the "Learn More" section.
 
 ---
 
