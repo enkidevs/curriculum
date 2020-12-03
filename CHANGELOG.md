@@ -50,6 +50,9 @@ Types of change:
 
 ## December 3rd 2020
 
+### Fixed
+- [Python - Pointers and References - Replace broken link with 2 valid ones](https://github.com/enkidevs/curriculum/pull/2467)
+
 ### Changed
 - [React - Intro to React - Change readme descriptions](https://github.com/enkidevs/curriculum/pull/2466)
 
