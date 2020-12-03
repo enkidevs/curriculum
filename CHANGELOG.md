@@ -50,6 +50,9 @@ Types of change:
 
 ## December 3rd 2020
 
+### Fixed
+- [Comp. Sci. - How does packet loss happen? - Fix pq & update link titles](https://github.com/enkidevs/curriculum/pull/2468)
+
 ### Changed
 - [React - Intro to React - Change readme descriptions](https://github.com/enkidevs/curriculum/pull/2466)
 
