@@ -46,14 +46,22 @@ If you're stuck or need inspiration, check out our [playground example](https://
 ## Footnotes
 [1: Hints]
 
-The heading should contain a title describing your page.
+> Here are some examples on how you can style your elements:
 
-If you use multiple headings, make sure they are in descending order.
+Chaining css properties together.
 
-The paragraphs, the image, and the link can be on any position.
+```css
+<element style="property1:value1;property2:value2">
+  Some text
+</element> 
+```
 
-You can style each paragraph/heading individually, or you can style them by adding a property at the top of your page.
+Styling multiple elements at once:
 
-The link should have appropriate text explaining what is linked.
-
-You can also add the link in the paragraph.
+```css
+<style>
+element1, element2 {
+ property_name: value
+}
+</style>
+```
