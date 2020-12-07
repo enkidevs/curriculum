@@ -1,9 +1,13 @@
 ---
 author: catalin
+
 type: normal
+
 category: how to
+
 links:
-  - '[docs.python.org](https://docs.python.org/2/library/queue.htmt){website}'
+  - '[queue](https://docs.python.org/3/library/queue.html){documentation}'
+
 ---
 
 # Prioritize your `queue`

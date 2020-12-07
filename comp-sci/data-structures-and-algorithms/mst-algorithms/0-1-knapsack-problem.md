@@ -1,15 +1,18 @@
 ---
 author: mihaiberq
+
 type: normal
+
 category: must-know
+
 links:
   - >-
-    [A more in-depth explanation of the
-    problem](https://www.quora.com/Whats-an-intuitive-explanation-for-the-0-1-knapsack-problem-in-data-structures-and-algorithms){website}
+    [A More in-Depth Explanation of the
+    Problem](https://www.quora.com/Whats-an-intuitive-explanation-for-the-0-1-knapsack-problem-in-data-structures-and-algorithms){website}
+
 ---
 
 # (0-1) Knapsack Problem
-
 
 ---
 

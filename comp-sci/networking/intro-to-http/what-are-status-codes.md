@@ -4,14 +4,12 @@ type: normal
 category: must-know
 links:
   - >-
-    [www.tutorialspoint.com](https://www.tutorialspoint.com/http/http_status_codes.htm){website}
+    [HTTP - Status Codes](https://www.tutorialspoint.com/http/http_status_codes.htm){website}
   - >-
-    [msdn.microsoft.com](https://msdn.microsoft.com/en-us/library/windows/desktop/aa383887){website}
-  - >-
-    [developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status){website}
+    [HTTP Response Status Codes](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status){website}
 ---
 
-# What are status codes?
+# What Are Status Codes?
 
 
 ---

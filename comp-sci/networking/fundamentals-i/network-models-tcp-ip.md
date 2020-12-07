@@ -1,12 +1,16 @@
 ---
 author: SebaRaba
+
 type: normal
+
 category: must-know
+
 links:
   - >-
-    [what-when-how.com](http://what-when-how.com/data-communications-and-networking/network-models-data-communications-and-networking/){website}
+    [Network Models](http://what-when-how.com/data-communications-and-networking/network-models-data-communications-and-networking/){website}
   - >-
-    [www.webopedia.com](http://www.webopedia.com/quick_ref/OSI_Layers.asp){website}
+    [The 7 Layers of the OSI Model](http://www.webopedia.com/quick_ref/OSI_Layers.asp){website}
+
 ---
 
 # Network Models (TCP/IP)

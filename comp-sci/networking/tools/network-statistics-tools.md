@@ -1,12 +1,14 @@
 ---
 author: catalin
+
 type: normal
+
 category: how to
+
 links:
   - >-
-    [www.c-jump.com](http://www.c-jump.com/CIS24/Slides/Networking/html_utils/netstat.html){website}
-  - >-
-    [www.ibm.com](https://www.ibm.com/support/knowledgecenter/en/SSMN28_4.1.1/com.ibm.rm.doc_4.1.1/frp_r_pdg_netstat_command.html){website}
+    [Netstat Tutorial](http://www.c-jump.com/CIS24/Slides/Networking/html_utils/netstat.html){website}
+
 ---
 
 # Network Statistics
