@@ -6,7 +6,6 @@ inAlgoPool: false
 links:
   - >-
     [docs.python.org](https://docs.python.org/3.5/library/datetime.html#datetime-objects){website}
-parent: time-object
 ---
 
 # `datetime` object

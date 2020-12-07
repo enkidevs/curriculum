@@ -2,7 +2,6 @@
 author: rosielowther
 type: normal
 category: feature
-parent: stashing-changes
 links:
   - >-
     [Stashing And

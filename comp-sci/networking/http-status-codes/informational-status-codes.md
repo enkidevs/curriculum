@@ -2,7 +2,6 @@
 author: SebaRaba
 type: normal
 category: must-know
-parent: http-pipelining
 ---
 
 # Informational status codes

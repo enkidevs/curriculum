@@ -6,7 +6,6 @@ links:
   - >-
     [Shortcuts for
     TSP](https://www.wired.com/2013/01/traveling-salesman-problem/){website}
-parent: bellman-ford-iteration
 ---
 
 # Traveling Salesman Problem

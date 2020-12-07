@@ -6,7 +6,6 @@ links:
   - '[www.tutorialspoint.com](https://www.tutorialspoint.com/http/){website}'
   - '[techterms.com](https://techterms.com/definition/http){website}'
   - '[http2.github.io](https://http2.github.io/){website}'
-parent: test-connectivity
 ---
 
 # What is HTTP

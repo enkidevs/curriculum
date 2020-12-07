@@ -6,7 +6,6 @@ links:
   - >-
     [Undoing Things Official
     Documentation](http://git-scm.com/book/en/v2/Git-Basics-Undoing-Things){website}
-parent: the-three-states-in-git
 ---
 
 # How to unstage a staged file

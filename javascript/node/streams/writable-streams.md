@@ -8,7 +8,6 @@ tags:
 category: must-know
 links:
   - '[Writable Streams](https://gist.github.com/joyrexus/10026630){website}'
-parent: chaining-readable-streams
 ---
 
 # Writable Streams

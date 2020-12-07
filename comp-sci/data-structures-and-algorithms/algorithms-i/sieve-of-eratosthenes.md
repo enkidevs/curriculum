@@ -6,7 +6,7 @@ links:
   - >-
     [Sieve of
     Eratosthenes](https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes){website}
-parent: binary-search
+
 ---
 
 # Sieve of Eratosthenes

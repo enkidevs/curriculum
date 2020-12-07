@@ -2,8 +2,6 @@
 author: rosielowther
 type: normal
 category: must-know
-links: null
-parent: check-the-reflog
 ---
 
 # Recover lost code

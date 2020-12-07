@@ -2,7 +2,6 @@
 author: mihaiberq
 type: normal
 category: must-know
-parent: private-packages
 tags:
   - introduction
   - workout

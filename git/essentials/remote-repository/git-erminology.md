@@ -2,7 +2,6 @@
 author: mihaiberq
 type: fillTheGap
 category: must-know
-parent: what-is-git
 ---
 
 # Git-erminology

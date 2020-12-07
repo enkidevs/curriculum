@@ -7,7 +7,6 @@ links:
   - >-
     [SANS
     Institute](https://www.sans.org/reading-room/whitepapers/protocols/applying-osi-layer-network-model-information-security-1309){website}
-parent: securing-the-physical-layer
 ---
 
 # Identifying the Data Link Layer

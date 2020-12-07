@@ -9,7 +9,6 @@ links:
   - >-
     [The component
     lifecycle](https://facebook.github.io/react/docs/react-component.html#the-component-lifecycle){website}
-parent: function-components
 ---
 
 # The component lifecycle

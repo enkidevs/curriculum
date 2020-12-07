@@ -6,7 +6,6 @@ tags:
   - introduction
 links:
   - '[npmjs.com](https://www.npmjs.com/){website}'
-parent: executing-programs-with-node
 ---
 
 # NPM, Node's Package Manager

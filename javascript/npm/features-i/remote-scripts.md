@@ -2,7 +2,6 @@
 author: mihaiberq
 type: normal
 category: feature
-parent: scripts-lifecycle
 tags:
   - introduction
   - workout

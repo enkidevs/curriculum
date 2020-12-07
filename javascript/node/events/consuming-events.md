@@ -9,7 +9,6 @@ links:
   - >-
     [Node
     Events](https://nodesource.com/blog/understanding-the-nodejs-event-loop/){website}
-parent: module-patterns
 ---
 
 # Consuming events

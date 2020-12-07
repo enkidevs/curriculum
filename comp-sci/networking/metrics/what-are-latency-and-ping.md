@@ -8,7 +8,6 @@ links:
   - >-
     [www.websitepulse.com](https://www.websitepulse.com/blog/what-is-ping-test){website}
   - '[en.wikipedia.org](https://en.wikipedia.org/wiki/Ping_){website}'
-parent: important-networking-metrics
 ---
 
 # What are latency and ping?

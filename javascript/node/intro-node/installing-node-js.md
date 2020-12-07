@@ -2,8 +2,6 @@
 author: tommarshall
 type: normal
 category: must-know
-inAlgoPool: false
-parent: what-is-nodejs
 tags:
   - introduction
 links:

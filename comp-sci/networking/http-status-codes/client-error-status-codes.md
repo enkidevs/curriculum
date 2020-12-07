@@ -11,7 +11,6 @@ links:
     [www.tutorialspoint.com](https://www.tutorialspoint.com/http/http_status_codes.htm){website}
   - >-
     [www.w3.org](https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html){website}
-parent: redirection-status-codes
 ---
 
 # Client error status codes

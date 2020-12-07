@@ -5,7 +5,6 @@ category: must-know
 links:
   - '[Git Reset](https://git-scm.com/docs/git-reset){documentation}'
   - '[Git Add](https://git-scm.com/docs/git-add){documentation}'
-parent: interactively-stage-patches
 ---
 
 # Interactively unstage changes

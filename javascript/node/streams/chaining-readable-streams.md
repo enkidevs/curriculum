@@ -9,7 +9,6 @@ tags:
 links:
   - >-
     [Chaining](http://www.naeemrana.com/node-js/node-js-streams-pipe-and-chaining/){website}
-parent: piping-readable-streams
 ---
 
 # Chaining Readable Streams

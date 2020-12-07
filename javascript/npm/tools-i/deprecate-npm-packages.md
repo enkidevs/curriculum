@@ -8,7 +8,6 @@ tags:
   - introduction
 links:
   - '[docs.npmjs.com](https://docs.npmjs.com/cli/deprecate){website}'
-parent: check-data-about-a-package
 ---
 
 # Deprecate npm packages

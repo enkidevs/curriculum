@@ -9,7 +9,6 @@ tags:
   - newline
   - issue
   - trick
-parent: practical-cron
 ---
 
 # `Crontab` newline issue

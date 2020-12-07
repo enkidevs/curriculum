@@ -6,7 +6,6 @@ links:
   - >-
     [Refs and the
     DOM](https://facebook.github.io/react/docs/refs-and-the-dom.html){website}
-parent: custom-proptype-s-to-be-required
 ---
 
 # `React.createRef`

@@ -6,7 +6,6 @@ links:
   - >-
     [Custom PropType validation with
     React](http://www.ian-thomas.net/custom-proptype-validation-with-react/){website}
-parent: custom-validations-for-props
 ---
 
 # Require custom `propTypes` validators

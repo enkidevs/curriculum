@@ -7,7 +7,6 @@ tags:
   - workout
 links:
   - '[The HTTP Module](https://davidwalsh.name/nodejs-http-request){website}'
-parent: requiring-and-exporting
 ---
 
 # The `http` module for servers

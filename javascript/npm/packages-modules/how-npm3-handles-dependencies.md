@@ -2,7 +2,6 @@
 author: mihaiberq
 type: normal
 category: feature
-parent: deprecated-peer-dependencies
 tags:
   - workout
   - deep

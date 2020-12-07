@@ -8,7 +8,6 @@ tags:
   - new
 links:
   - '[docs.npmjs.com](https://docs.npmjs.com/cli/cache){website}'
-parent: check-data-about-a-package
 ---
 
 # Manipulate npm packages cache

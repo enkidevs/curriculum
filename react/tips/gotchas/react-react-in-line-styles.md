@@ -5,7 +5,6 @@ category: must-know
 links:
   - >-
     [Style](https://facebook.github.io/react/docs/dom-elements.html#style){website}
-parent: custom-proptype-s-to-be-required
 ---
 
 # React in-line styles

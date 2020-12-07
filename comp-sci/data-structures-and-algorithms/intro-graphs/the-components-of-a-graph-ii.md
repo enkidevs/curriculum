@@ -2,7 +2,6 @@
 author: mihaiberq
 type: normal
 category: must-know
-parent: the-graph-data-structure
 ---
 
 # More Components of a Graph

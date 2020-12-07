@@ -8,7 +8,6 @@ tags:
   - shebang
   - interpreter
   - workout
-parent: set-file-permissions-for-users
 notes: Approved by Jordan
 ---
 
