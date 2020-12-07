@@ -41,7 +41,7 @@ Types of change:
 ## WIP
 
 ### Added
-- [Coding Intro - Collections - Add a discussion insight]()
+- [Coding Intro - Collections - Add a discussion insight](https://github.com/enkidevs/curriculum/pull/2474)
 
 ### Changed
 
