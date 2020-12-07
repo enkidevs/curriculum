@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## December 7th 2020
+
+### Added
+- [JavaScript - Flow Control - Discussion Insight](https://github.com/enkidevs/curriculum/pull/2472)
+
 ## December 3rd 2020
 
 ### Added
