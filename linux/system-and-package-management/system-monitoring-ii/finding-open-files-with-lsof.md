@@ -10,7 +10,6 @@ tags:
 links:
   - '[inux.die.net](https://linux.die.net/man/8/lsof){website}'
 notes: to review parent
-parent: list-currently-logged-in-users
 ---
 
 # Finding Open Files With `lsof`

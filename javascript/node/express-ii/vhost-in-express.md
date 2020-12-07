@@ -4,7 +4,6 @@ type: normal
 category: how to
 links:
   - '[github.com](https://github.com/expressjs/vhost){website}'
-parent: easy-way-to-deliver-html-pages-with-express
 ---
 
 # `vhost` in **Express**

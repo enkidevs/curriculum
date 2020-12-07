@@ -6,7 +6,6 @@ links:
   - >-
     [Conditional
     rendering](https://facebook.github.io/react/docs/conditional-rendering.html){website}
-parent: event-handling-in-react
 ---
 
 # Conditional rendering (Part 1)

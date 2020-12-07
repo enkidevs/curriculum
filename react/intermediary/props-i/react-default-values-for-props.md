@@ -6,7 +6,6 @@ links:
   - >-
     [Default prop
     values](https://facebook.github.io/react/docs/typechecking-with-proptypes.html#default-prop-values){website}
-parent: validate-for-required-props
 ---
 
 # Default values for props

@@ -5,7 +5,6 @@ category: must-know
 links:
   - >-
     [scotch.io](https://scotch.io/tutorials/learn-to-use-the-new-router-in-expressjs-4){website}
-parent: easy-way-to-deliver-html-pages-with-express
 ---
 
 # Using **Express 4.0** `router`

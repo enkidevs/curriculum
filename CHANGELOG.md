@@ -53,6 +53,8 @@ Types of change:
 ### Added
 - [HTML - Core HTML Elements - Add discussion insight](https://github.com/enkidevs/curriculum/pull/2471)
 
+### Changed
+- [Deprecate the `parent` field from both workouts and insights](https://github.com/enkidevs/curriculum/pull/2473)
 
 ## December 3rd 2020
 

@@ -2,7 +2,7 @@
 author: mihaiberq
 type: normal
 category: how to
-parent: reverse-polish-notation
+
 ---
 
 # Parsing Reverse Polish Notation

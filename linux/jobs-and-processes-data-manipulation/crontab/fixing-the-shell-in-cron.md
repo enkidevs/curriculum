@@ -7,7 +7,6 @@ tags:
   - cron
   - shell
   - null
-parent: practical-cron
 ---
 
 # Fixing the shell in cron

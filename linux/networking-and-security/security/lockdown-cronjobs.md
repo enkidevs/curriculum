@@ -2,7 +2,6 @@
 author: catalin
 type: normal
 category: tip
-parent: practical-cron
 ---
 
 # Lockdown **Cronjobs**

@@ -2,7 +2,6 @@
 author: jfarmer
 type: normal
 category: how to
-parent: the-heap-data-structure
 ---
 
 # Inserting Data Into a Heap With The `upheap` Operation

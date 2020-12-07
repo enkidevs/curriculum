@@ -6,7 +6,6 @@ links:
   - >-
     [www.bleepingcomputer.com](https://www.bleepingcomputer.com/tutorials/tcp-and-udp-ports-explained/){website}
   - '[www.diffen.com](http://www.diffen.com/difference/TCP_vs_UDP){website}'
-parent: what-is-a-port
 ---
 
 # What are TCP and UDP?

@@ -9,7 +9,6 @@ links:
   - >-
     [Node Module
     Patterns](https://darrenderidder.github.io/talks/ModulePatterns/#/5){website}
-parent: local-modules
 ---
 
 # Module patterns

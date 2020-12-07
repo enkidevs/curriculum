@@ -6,7 +6,7 @@ links:
   - >-
     [Exponentiation by
     squaring](https://en.wikipedia.org/wiki/Exponentiation_by_squaring){website}
-parent: binary-expression-tree
+
 ---
 
 # Exponentiation By Squaring

@@ -4,7 +4,6 @@ type: normal
 category: how to
 links:
   - '[github.com](https://github.com/expressjs/morgan){website}'
-parent: easy-way-to-deliver-html-pages-with-express
 ---
 
 # Log with `morgan` in **Express**

@@ -9,7 +9,6 @@ links:
   - >-
     [What is
     React.js](https://www.linkedin.com/pulse/what-reactjs-why-i-recommend-other-javascript-sandip-das){website}
-parent: one-way-data-binding
 ---
 
 # Why use React?

@@ -6,7 +6,6 @@ links:
   - >-
     [Step-by-step, interactive Kruskal`s algorithm
     application](https://www-m9.ma.tum.de/graph-algorithms/mst-prim/index_en.html){website}
-parent: kruskals-iteration
 ---
 
 # Prim's Algorithm

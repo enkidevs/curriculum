@@ -4,7 +4,7 @@ type: normal
 category: must-know
 links:
   - '[Binary Search](http://quiz.geeksforgeeks.org/binary-search/){website}'
-parent: approximation-methods
+
 ---
 
 # Binary Search

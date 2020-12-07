@@ -5,8 +5,6 @@ category: feature
 links:
   - >-
     [docs.python.org](https://docs.python.org/3.5/library/stdtypes.html#bytes-and-bytearray-operations){website}
-parent: bytes-type
-notes: ''
 ---
 
 # Operations with `bytes` and `bytearray`

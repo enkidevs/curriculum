@@ -6,7 +6,6 @@ links:
   - >-
     [Stashing And
     Cleaning](http://git-scm.com/book/en/v2/Git-Tools-Stashing-and-Cleaning){documentation}
-parent: stashing-changes
 ---
 
 # Create a new branch from a stash

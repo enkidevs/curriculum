@@ -6,7 +6,6 @@ links:
   - >-
     [Conditional
     rendering](https://facebook.github.io/react/docs/conditional-rendering.html){website}
-parent: conditional-rendering-part-1
 ---
 
 # Conditional Rendering (Part 2)

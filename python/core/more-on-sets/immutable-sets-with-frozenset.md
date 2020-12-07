@@ -5,7 +5,6 @@ category: must-know
 links:
   - >-
     [docs.python.org](https://docs.python.org/3.5/library/stdtypes.html#set-types-set-frozenset){website}
-parent: working-with-set-s
 notes: >
   By Vasudev:
 

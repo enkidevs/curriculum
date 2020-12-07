@@ -2,7 +2,6 @@
 author: catalin
 type: normal
 category: feature
-parent: check-data-about-a-package
 tags:
   - obscura
 ---

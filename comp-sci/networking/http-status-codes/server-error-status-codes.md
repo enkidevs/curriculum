@@ -2,7 +2,6 @@
 author: SebaRaba
 type: normal
 category: must-know
-parent: client-error-status-codes
 ---
 
 # Server error status codes

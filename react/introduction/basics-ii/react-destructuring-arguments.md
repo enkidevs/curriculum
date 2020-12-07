@@ -9,7 +9,6 @@ links:
   - >-
     [Destructuring objects as function
     parameters](https://simonsmith.io/destructuring-objects-as-function-parameters-in-es6/){website}
-parent: jsx-spread-attributes
 ---
 
 # Destructuring arguments

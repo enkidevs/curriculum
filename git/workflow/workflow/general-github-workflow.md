@@ -6,7 +6,6 @@ links:
   - >-
     [Understanding The Github
     Flow](https://guides.github.com/introduction/flow/){website}
-parent: git-hub
 ---
 
 # General **GitHub** workflow

@@ -22,7 +22,6 @@ links:
   - >-
     [Create Index
     W3Schools](https://www.w3schools.com/sql/sql_create_index.asp){website}
-parent: add-rule
 ---
 
 # Create Indices

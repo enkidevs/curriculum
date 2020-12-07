@@ -4,7 +4,6 @@ type: normal
 category: must-know
 links:
   - '[Tree traversals](https://en.wikipedia.org/wiki/Tree_traversal){website}'
-parent: primality-test
 ---
 
 # Tree Traversals

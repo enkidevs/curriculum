@@ -1,13 +1,14 @@
 ---
 author: SebaRaba
+
 type: normal
+
 category: must-know
+
 links:
   - >-
-    [www.tutorialspoint.com](https://www.tutorialspoint.com/data_communication_computer_network/application_layer_introduction.htm){website}
-  - >-
-    [kb.ctera.com](https://kb.ctera.com/article/how-to-open-a-telnet-session-on-windows-7-or-windows-8-os-16.html){website}
-parent: what-are-tcp-and-udp
+    [DCN - Application Layer Introduction](https://www.tutorialspoint.com/data_communication_computer_network/application_layer_introduction.htm){website}
+
 ---
 
 # Application Layer

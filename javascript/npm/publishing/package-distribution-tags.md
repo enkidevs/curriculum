@@ -2,7 +2,6 @@
 author: catalin
 type: normal
 category: how to
-parent: check-data-about-a-package
 links:
   - '[docs.npmjs.com](https://docs.npmjs.com/cli/dist-tag){website}'
 tags:

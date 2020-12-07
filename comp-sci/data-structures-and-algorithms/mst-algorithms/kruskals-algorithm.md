@@ -6,7 +6,6 @@ links:
   - >-
     [Step-by-step, interactive Kruskal`s algorithm
     application](https://www-m9.ma.tum.de/graph-algorithms/mst-kruskal/index_en.html){website}
-parent: traveling-salesman-problem
 ---
 
 # Kruskal's Algorithm

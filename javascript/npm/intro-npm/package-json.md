@@ -7,7 +7,6 @@ tags:
 links:
   - >-
     [docs.npmjs.com](https://docs.npmjs.com/getting-started/using-a-package.json){website}
-parent: setting-up-npm
 ---
 
 # `package.json`

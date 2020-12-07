@@ -7,7 +7,6 @@ tags:
   - workout
 links:
   - '[Node Errors](https://nodejs.org/api/errors.html){website}'
-parent: passing-arguments-to-listeners
 ---
 
 # Handling event errors

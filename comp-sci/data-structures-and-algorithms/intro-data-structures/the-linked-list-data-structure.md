@@ -11,8 +11,6 @@ links:
   - >-
     [Linked List Basics](http://cslibrary.stanford.edu/103/LinkedListBasics.pdf){website}
 
-parent: the-array-data-structure
-
 ---
 
 # The Linked List Data Structure

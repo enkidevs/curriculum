@@ -5,7 +5,6 @@ category: must-know
 links:
   - '[Graph Theory](https://en.wikipedia.org/wiki/Graph_theory){website}'
   - '[Graph Theory Overview](https://www.youtube.com/watch?v=82zlRaRUsaY){video}'
-parent: the-queue-data-structure
 ---
 
 # The Graph Data Structure

@@ -2,7 +2,6 @@
 author: jfarmer
 type: normal
 category: must-know
-parent: removing-data-from-a-heap-with-the-downheap-operation
 ---
 
 # How Do Binary Heaps Enable O(log(n)) Insertion and Removal?

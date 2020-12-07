@@ -7,7 +7,6 @@ tags:
 links:
   - >-
     [nodeguide.com](http://nodeguide.com/beginner.html#the-interactive-node.js-shell){website}
-parent: the-repl-terminal
 ---
 
 # Executing programs with Node

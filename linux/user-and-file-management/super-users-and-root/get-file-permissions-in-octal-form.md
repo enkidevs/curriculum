@@ -10,7 +10,6 @@ tags:
   - ssh
   - stat
   - introduction
-parent: understanding-umask
 ---
 
 # Get file permissions in octal form

@@ -6,7 +6,6 @@ links:
   - >-
     [Spread
     attributes](https://facebook.github.io/react/docs/jsx-in-depth.html#spread-attributes){website}
-parent: custom-proptype-s-to-be-required
 ---
 
 # Shortcut for transferring props

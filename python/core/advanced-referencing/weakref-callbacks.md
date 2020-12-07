@@ -4,7 +4,6 @@ type: normal
 category: how to
 links:
   - '[pymotw.com](https://pymotw.com/2/weakref/#references){website}'
-parent: implementing-weak-references
 ---
 
 # `weakref` callbacks

@@ -2,7 +2,6 @@
 author: mihaiberq
 type: normal
 category: how to
-parent: creating-a-node-module
 tags:
   - introduction
   - workout
