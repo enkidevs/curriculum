@@ -8,6 +8,10 @@ type: normal
 
 category: discussion
 
+links:
+  - >-
+    [Example](https://repl.it/@enkicontent/JavaScriptFlowControl){website}
+
 ---
 
 # Test Yourself
@@ -29,6 +33,7 @@ It's up to you to choose what animals your farm has and how many of each you hav
 To achieve this, you should use the following concepts:
 - variable creation (`const name = 'Andrei'`)
 - flow control (`if (name === 'Andrei') { ... }`)
+- functions (`function sayHi() { ... }`)
 
 If you're not sure what to do, check out this footnote[1].
 
@@ -53,3 +58,5 @@ Now, using one of the flow control methods that you learned (e.g. `if` or `switc
 Finally, sum all the legs and return the value.
 
 Don't forget to call the function at the end.
+
+> 💡 You can check the *Learn More* section for an example.
