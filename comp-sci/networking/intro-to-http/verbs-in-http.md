@@ -7,7 +7,6 @@ links:
     [www.restapitutorial.com](http://www.restapitutorial.com/lessons/httpmethods.html){website}
   - >-
     [developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods){website}
-parent: what-are-status-codes
 ---
 
 # Verbs in HTTP

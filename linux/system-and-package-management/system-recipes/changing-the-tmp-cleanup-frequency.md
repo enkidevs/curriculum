@@ -8,7 +8,6 @@ tags:
   - tmp
   - temp
   - cleanup
-parent: practical-cron
 ---
 
 # Changing the `/tmp` cleanup frequency

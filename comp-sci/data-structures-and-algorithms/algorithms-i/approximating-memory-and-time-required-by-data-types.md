@@ -9,7 +9,7 @@ links:
   - >-
     [The Big-O
     Notation](https://rob-bell.net/2009/06/a-beginners-guide-to-big-o-notation/){website}
-parent: node-height-and-depth
+
 ---
 
 # Approximating Memory and Time Required by Data Types

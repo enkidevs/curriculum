@@ -2,7 +2,6 @@
 author: jfarmer
 type: normal
 category: how to
-parent: inserting-data-into-a-binary-search-tree
 ---
 
 # Removing Keys From a Binary Search Tree

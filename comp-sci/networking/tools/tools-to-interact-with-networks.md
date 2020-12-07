@@ -7,7 +7,6 @@ links:
     [www.tecmint.com](http://www.tecmint.com/linux-network-configuration-and-troubleshooting-commands/){website}
   - >-
     [slackbook.org](http://slackbook.org/html/basic-network-commands.html){website}
-parent: differences-between-bandwidth-and-throughput
 ---
 
 # Tools to interact with Networks

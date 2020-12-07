@@ -6,7 +6,6 @@ links:
   - >-
     [A more in-depth explanation of the
     problem](https://www.quora.com/Whats-an-intuitive-explanation-for-the-0-1-knapsack-problem-in-data-structures-and-algorithms){website}
-parent: prims-iteration
 ---
 
 # (0-1) Knapsack Problem

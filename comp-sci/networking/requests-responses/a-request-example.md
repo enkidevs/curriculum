@@ -10,8 +10,6 @@ links:
     [www.quora.com](https://www.quora.com/What-does-an-HTTP-request-looks-like){website}
   - '[webaim.org](http://webaim.org/blog/user-agent-string-history/){website}'
 
-parent: http-request
-
 ---
 
 # A Request Example

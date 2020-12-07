@@ -6,7 +6,6 @@ links:
   - >-
     [Putting React custom PropTypes to
     work](http://rjzaworski.com/2015/01/putting-react-custom-proptypes-to-work){website}
-parent: enhanced-prop-validation
 ---
 
 # Custom validator functions for `props`

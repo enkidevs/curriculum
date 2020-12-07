@@ -6,7 +6,7 @@ links:
   - >-
     [Why Is It Safer to Keep the Tree
     Balanced?](http://stackoverflow.com/questions/8015630/definition-of-a-balanced-tree){website}
-parent: removing-keys-from-a-binary-search-tree
+
 ---
 
 # Balanced vs. Unbalanced Binary Trees

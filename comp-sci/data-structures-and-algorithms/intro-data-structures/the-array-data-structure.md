@@ -10,7 +10,6 @@ links:
     [What Is an
     Array?](http://www.bbc.co.uk/education/guides/z4tf9j6/revision/2){website}
 
-parent: what-is-a-data-structure
 ---
 
 # The Array Data Structure

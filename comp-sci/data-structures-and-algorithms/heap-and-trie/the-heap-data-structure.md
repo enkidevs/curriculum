@@ -5,8 +5,6 @@ category: must-know
 links:
   - '[The heap data structure](https://www.geeksforgeeks.org/heap-data-structure/){website}'
   - '[Binary Heap](https://www.cs.cmu.edu/~rdriley/121/notes/heaps.html#3-binary-heap){website}'
-  
-parent: balanced-vs-unbalanced-binary-trees
 
 ---
 

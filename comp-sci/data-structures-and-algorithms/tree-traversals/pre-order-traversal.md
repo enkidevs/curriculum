@@ -2,7 +2,6 @@
 author: mihaiberq
 type: normal
 category: must-know
-parent: depth-first-traversal
 ---
 
 # Pre-order Traversal

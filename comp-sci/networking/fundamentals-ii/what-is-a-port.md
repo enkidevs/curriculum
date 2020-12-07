@@ -5,7 +5,6 @@ category: must-know
 links:
   - >-
     [www.tutorialspoint.com](https://www.tutorialspoint.com/computer_fundamentals/computer_ports.htm){website}
-parent: what-is-an-ip-address
 ---
 
 # What is a port?

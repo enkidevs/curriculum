@@ -7,7 +7,6 @@ links:
     [Type checking with
     PropTypes](https://facebook.github.io/react/docs/typechecking-with-proptypes.html#react.proptypes){website}
   - '[PropTypes Library](https://www.npmjs.com/package/prop-types){website}'
-parent: default-values-for-props
 ---
 
 # Enhanced `props` Validation

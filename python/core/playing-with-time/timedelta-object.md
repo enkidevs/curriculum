@@ -7,7 +7,6 @@ links:
     [timedelta
     Objects](https://docs.python.org/3.5/library/datetime.html#timedelta-objects){website}
   - '[Playground](https://repl.it/@enkicontent/PythonTimedelta){website}'
-parent: datetime-object
 ---
 
 # Date arithmetics with `timedelta`

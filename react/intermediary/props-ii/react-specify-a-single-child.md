@@ -10,7 +10,6 @@ links:
     [Requiring Single
     Child](https://facebook.github.io/react/docs/typechecking-with-proptypes.html#requiring-single-child){website}
 
-parent: custom-proptype-s-to-be-required
 
 ---
 

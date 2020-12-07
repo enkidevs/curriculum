@@ -4,7 +4,6 @@ type: normal
 category: must-know
 links:
   - '[Forms](https://facebook.github.io/react/docs/forms.html){website}'
-parent: rendering-multiple-components
 ---
 
 # Forms in React

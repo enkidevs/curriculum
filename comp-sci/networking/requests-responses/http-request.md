@@ -2,7 +2,6 @@
 author: SebaRaba
 type: normal
 category: must-know
-parent: https
 ---
 
 # The HTTP request

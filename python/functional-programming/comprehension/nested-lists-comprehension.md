@@ -5,7 +5,6 @@ category: how to
 links:
   - >-
     [docs.python.org](https://docs.python.org/3.5/tutorial/datastructures.html#nested-list-comprehensions){website}
-parent: list-comprehension
 ---
 
 # Nested lists comprehension

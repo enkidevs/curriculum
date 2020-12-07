@@ -2,7 +2,6 @@
 author: mihaiberq
 type: fillTheGap
 category: must-know
-parent: the-queue-data-structure
 ---
 
 # What should it be stored in?

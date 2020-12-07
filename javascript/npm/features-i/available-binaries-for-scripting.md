@@ -2,7 +2,6 @@
 author: mihaiberq
 type: normal
 category: how to
-parent: npm-scripting
 tags:
   - introduction
   - workout

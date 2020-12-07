@@ -6,7 +6,6 @@ links:
   - >-
     [www.dummies.com](http://www.dummies.com/programming/networking/cisco/cisco-networking-packets/){website}
   - '[whatismyipaddress.com](http://whatismyipaddress.com/tcp-ip){website}'
-parent: what-is-a-computer-network
 ---
 
 # What is a packet?

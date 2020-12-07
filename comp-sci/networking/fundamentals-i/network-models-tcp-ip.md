@@ -7,7 +7,6 @@ links:
     [what-when-how.com](http://what-when-how.com/data-communications-and-networking/network-models-data-communications-and-networking/){website}
   - >-
     [www.webopedia.com](http://www.webopedia.com/quick_ref/OSI_Layers.asp){website}
-parent: types-of-networks
 ---
 
 # Network Models (TCP/IP)

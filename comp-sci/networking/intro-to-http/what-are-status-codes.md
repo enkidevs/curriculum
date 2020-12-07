@@ -9,7 +9,6 @@ links:
     [msdn.microsoft.com](https://msdn.microsoft.com/en-us/library/windows/desktop/aa383887){website}
   - >-
     [developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status){website}
-parent: what-is-an-url
 ---
 
 # What are status codes?

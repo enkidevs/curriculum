@@ -4,7 +4,6 @@ type: normal
 category: must-know
 links:
   - '[node-tricks.com](http://node-tricks.com/response-object/){website}'
-parent: easy-way-to-deliver-html-pages-with-express
 ---
 
 # response object additional properties in **Express**

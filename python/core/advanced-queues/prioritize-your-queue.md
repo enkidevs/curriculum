@@ -4,7 +4,6 @@ type: normal
 category: how to
 links:
   - '[docs.python.org](https://docs.python.org/2/library/queue.htmt){website}'
-parent: a-thread-safe-queue
 ---
 
 # Prioritize your `queue`

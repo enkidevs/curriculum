@@ -11,8 +11,6 @@ links:
   - >-
     [Understanding Packet Loss](https://esj.com/articles/2012/12/13/understanding-packet-loss.aspx){website}
 
-parent: what-are-latency-and-ping
-
 ---
 
 # How Does Packet Loss Happen?

@@ -7,7 +7,6 @@ links:
     [www.techopedia.com](https://www.techopedia.com/definition/8319/metric-networking){website}
   - >-
     [www.informit.com](http://www.informit.com/articles/article.aspx?p=26129&seqNum=7){website}
-parent: extended-terminologies
 ---
 
 # Important networking metrics

@@ -5,7 +5,6 @@ category: feature
 links:
   - >-
     [docs.python.org](https://docs.python.org/3.5/library/collections.html#chainmap-examples-and-recipes){website}
-parent: get-more-with-collections
 notes: >
   Issues found:
 

@@ -10,7 +10,6 @@ links:
     [cloneElement()
     Documentation](https://facebook.github.io/react/docs/top-level-api.html#cloneelement){website}
 
-parent: custom-proptype-s-to-be-required
 
 ---
 

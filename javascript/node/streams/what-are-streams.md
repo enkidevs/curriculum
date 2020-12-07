@@ -7,7 +7,6 @@ tags:
   - workout
 links:
   - '[Node Streams](https://maxogden.com/node-streams.html){website}'
-parent: handling-event-errors
 ---
 
 # What are Streams?

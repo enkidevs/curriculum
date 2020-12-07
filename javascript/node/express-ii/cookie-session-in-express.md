@@ -4,7 +4,6 @@ type: normal
 category: how to
 links:
   - '[github.com](https://github.com/expressjs/cookie-session){website}'
-parent: easy-way-to-deliver-html-pages-with-express
 ---
 
 # `cookie-session` in **Express**

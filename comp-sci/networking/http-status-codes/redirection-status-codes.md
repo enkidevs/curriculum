@@ -2,7 +2,6 @@
 author: SebaRaba
 type: normal
 category: must-know
-parent: successful-status-codes
 ---
 
 # Redirection status codes

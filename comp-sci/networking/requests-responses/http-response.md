@@ -7,7 +7,6 @@ links:
     [www.w3.org](https://www.w3.org/Protocols/rfc2616/rfc2616-sec6.html#sec6.2){website}
   - >-
     [developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status){website}
-parent: a-request-example
 ---
 
 # The HTTP response

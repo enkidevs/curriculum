@@ -5,7 +5,6 @@ category: how to
 links:
   - >-
     [docs.python.org](https://docs.python.org/3.5/tutorial/datastructures.html#using-lists-as-stacks){website}
-parent: built-in-list-methods
 ---
 
 # Using a `list` as a `stack`

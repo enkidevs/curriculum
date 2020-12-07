@@ -2,7 +2,7 @@
 author: mihaiberq
 type: normal
 category: must-know
-parent: sieve-of-eratosthenes
+
 ---
 
 # Primality Test

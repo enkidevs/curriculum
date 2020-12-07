@@ -6,7 +6,6 @@ links:
   - >-
     [Children in
     JSX](https://facebook.github.io/react/docs/jsx-in-depth.html#children-in-jsx){website}
-parent: custom-proptype-s-to-be-required
 ---
 
 # Type of the Children props

@@ -7,7 +7,6 @@ tags:
 links:
   - >-
     [andrewhfarmer.com](http://andrewhfarmer.com/javascript-frontend-package-managers/){website}
-parent: what-is-npm
 ---
 
 # Why should I use npm?

@@ -2,7 +2,6 @@
 author: catalin
 type: normal
 category: best practice
-parent: custom-proptype-s-to-be-required
 ---
 
 # Using `false` in JSX

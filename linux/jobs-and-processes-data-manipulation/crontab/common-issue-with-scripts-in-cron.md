@@ -7,7 +7,6 @@ tags:
   - cron
   - script
   - executable
-parent: practical-cron
 ---
 
 # Common issue with scripts in `cron`
