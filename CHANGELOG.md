@@ -56,6 +56,9 @@ Types of change:
 ### Changed
 - [Deprecate the `parent` field from both workouts and insights](https://github.com/enkidevs/curriculum/pull/2473)
 
+### Fixed
+- [Python - Dictionary Methods II - Update outdated information on popitem](https://github.com/enkidevs/curriculum/pull/2476)
+
 ## December 3rd 2020
 
 ### Added
