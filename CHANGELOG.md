@@ -48,6 +48,12 @@ Types of change:
 
 ### Fixed
 
+## December 7th 2020
+
+### Added
+- [HTML - Core HTML Elements - Add discussion insight](https://github.com/enkidevs/curriculum/pull/2471)
+
+
 ## December 3rd 2020
 
 ### Added
