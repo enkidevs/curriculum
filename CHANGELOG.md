@@ -41,6 +41,7 @@ Types of change:
 ## WIP
 
 ### Added
+- [Coding Intro - Collections - Add a discussion insight]()
 
 ### Changed
 

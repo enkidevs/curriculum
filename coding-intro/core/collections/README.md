@@ -11,3 +11,4 @@ insights:
   - accessing-list-items
   - coding-intro-dictionaries
   - accessing-dictionary-elements
+  - collections-discussion-insight
