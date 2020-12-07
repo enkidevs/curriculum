@@ -1,5 +1,5 @@
 ---
-author: stefan-stojanovic
+author: Stefan-Stojanovic
 
 tags:
   - discussion
@@ -41,7 +41,7 @@ When you're ready, leave a comment here with your submission. If you don't want 
 > 💡 The above are only some guidelines. If you feel comfortable, you can include more concepts, or make your program more complex.
 
 If you're stuck or need inspiration, check out our [playground example](https://codepen.io/enkidevs/pen/QWKywyy).
-
+ 
 ---
 ## Footnotes
 [1: Hints]
