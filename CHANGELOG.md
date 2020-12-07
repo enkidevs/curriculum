@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+### December 7th 2020
+
+### Changed
+- [Deprecate the `parent` field from both workouts and insights](https://github.com/enkidevs/curriculum/pull/2473)
+
 ## December 3rd 2020
 
 ### Added
