@@ -87,7 +87,7 @@ Abstract Data Type, or ADT, is a definition of a data type (or a data structure)
 
 A book is a good example of an Abstract Data Type. You know it's supposed to have a cover, a title, pages, and content. What you don't know is what those are.
 
-A telephone book is an implementation of the Abstract Data Type, because you now you know how the cover looks like, what the title is, and what the content is as well.
+A telephone book is an implementation of the Abstract Data Type because you know how the cover looks like, what the title is, and what the content is as well.
 
 [2:Linear Data Structure]
 A linear data structure means that its items are lying on the same level and are not hierarchically structured.
