@@ -12,6 +12,7 @@ insights:
   - update-images
   - update-hyperlinks
   - style-element
+  - core-html-elements-discussion-insight
 
 exercises:
   - html-headings-and-paragraphs-codepen-exercise

@@ -61,6 +61,7 @@ Types of change:
 
 ### Added
 - [Comp. Sci. - The Linked List Data Structure - Add a real life example of the abstract data type](https://github.com/enkidevs/curriculum/pull/2475)
+- [HTML - Core HTML Elements - Add discussion insight](https://github.com/enkidevs/curriculum/pull/2471)
 
 ### Changed
 - [Deprecate the `parent` field from both workouts and insights](https://github.com/enkidevs/curriculum/pull/2473)
