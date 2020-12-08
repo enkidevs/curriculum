@@ -24,7 +24,7 @@ It's up to you to choose which type of collection you will create, and what data
 
 Finally, access one of the items in your collection.
 
-As a quick reminder, lists and dictionaries are considered collections.
+> 💡 As a quick reminder, lists and dictionaries are considered collections.
 
 If you're not sure what to do, check out this footnote[1].
 
