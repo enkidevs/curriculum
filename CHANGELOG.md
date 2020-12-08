@@ -50,6 +50,9 @@ Types of change:
 
 ### December 7th 2020
 
+### Added
+- [Comp. Sci. - The Linked List Data Structure - Add a real life example of the abstract data type](https://github.com/enkidevs/curriculum/pull/2475)
+
 ### Changed
 - [Deprecate the `parent` field from both workouts and insights](https://github.com/enkidevs/curriculum/pull/2473)
 
