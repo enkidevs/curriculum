@@ -54,6 +54,7 @@ Types of change:
 - [JavaScript - Flow Control - Discussion Insight](https://github.com/enkidevs/curriculum/pull/2472)
 
 ### Fixed
+- [Linux - Quick cd Tips - Improve readability](https://github.com/enkidevs/curriculum/pull/2465)
 - [Coding Intro - Conditions Intro - Add ending phrase](https://github.com/enkidevs/curriculum/pull/2479)
 - [Coding Intro - Dictionaries - Add more possible answers to the pq](https://github.com/enkidevs/curriculum/pull/2478)
 
@@ -85,11 +86,6 @@ Types of change:
 
 ### Fixed
 - [Security - The Heap Data Structure - Replace broken link with a valid one](https://github.com/enkidevs/curriculum/pull/2464)
-
-## December 3rd 2020
-
-### Fixed
-- [Linux - Quick cd Tips - Improve readability](https://github.com/enkidevs/curriculum/pull/2465)
 
 ## December 1st 2020
 
