@@ -26,7 +26,16 @@ Let's say you are a farmer, and you need someone to count all the legs of your a
 
 You remember that you learned JavaScript with Enki and that you can do this through coding.
 
-How would you write a function that takes as input the number of each animal and returns the total number of legs?
+How would you write a function that takes two inputs, the type of an animal and how many of those animals are at the farm, and returns the total number of legs?
+
+For example, in our Enki farm, we count the number of legs for our cows like this:
+
+```js
+const animal = 'cow';
+const numberOfAnimals = 10;
+
+countLegs(animal, numberOfAnimals); // 40
+```
 
 It's up to you to choose what animals your farm has and how many of each you have.
 
