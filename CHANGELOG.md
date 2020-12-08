@@ -49,15 +49,16 @@ Types of change:
 
 ### Fixed
 
-### December 8th 2020
+## December 8th 2020
 
 ### Added
 - [Comp. Sci. - The Linked List Data Structure - Add a resource link on the Josephus problem](https://github.com/enkidevs/curriculum/pull/2477)
+- [JavaScript - Flow Control - Discussion Insight](https://github.com/enkidevs/curriculum/pull/2472)
 
 ### Fixed
 - [Coding Intro - Dictionaries - Add more possible answers to the pq](https://github.com/enkidevs/curriculum/pull/2478)
 
-### December 7th 2020
+## December 7th 2020
 
 ### Added
 - [Comp. Sci. - The Linked List Data Structure - Add a real life example of the abstract data type](https://github.com/enkidevs/curriculum/pull/2475)
