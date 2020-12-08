@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+### December 8th 2020
+
+### Fixed
+- [Coding Intro - Dictionaries - Add more possible answers to the pq]()
+
 ### December 7th 2020
 
 ### Added
