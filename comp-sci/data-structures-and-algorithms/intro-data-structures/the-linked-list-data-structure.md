@@ -10,6 +10,8 @@ links:
     [Linked Lists](https://www.youtube.com/watch?v=_jQhALI4ujg){video}
   - >-
     [Linked List Basics](http://cslibrary.stanford.edu/103/LinkedListBasics.pdf){website}
+  - >-
+    [The Josephus Problem](https://www.youtube.com/watch?v=uCsD3ZGzMgE){video}
 
 ---
 
@@ -101,4 +103,5 @@ Also known as *Josephus permutation*, it is a *count-out* game. The game starts 
 After the *nth* person is kicked out, the ones left close the circle and start again.
 
 The game ends when there is a single person remaining.
- 
+
+> 💡 Here is a great video that explains [the Josephus Problem](https://www.youtube.com/watch?v=uCsD3ZGzMgE).

@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+### December 8th 2020
+
+### Added
+- [Comp. Sci. - The Linked List Data Structure - Add a resource link on the Josephus problem]()
+
 ### December 7th 2020
 
 ### Added
