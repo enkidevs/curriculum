@@ -9,13 +9,6 @@ tags:
   - introduction
   - workout
 
-links:
-  - >-
-    [Synchronous Event
-    Delivery](https://blog.yld.io/2015/12/15/using-an-event-emitter/#.WI4ybbaLQy4){website}
-
-parent: listening-to-events-just-once
-
 ---
 
 # Event Delivery

@@ -2,7 +2,6 @@
 author: mihaiberq
 type: normal
 category: how to
-parent: how-npm3-handles-dependencies
 tags:
   - introduction
   - workout

@@ -6,7 +6,6 @@ links:
   - >-
     [Validating a
     BST](http://stackoverflow.com/questions/499995/how-do-you-validate-a-binary-search-tree){website}
-parent: the-binary-search-tree-data-structure
 ---
 
 # Verifying A Binary Search Tree

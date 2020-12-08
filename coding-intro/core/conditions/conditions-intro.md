@@ -24,6 +24,8 @@ Let's create a variable named `input`, and based on its value the robot will mak
 input = 0
 ```
 
+In the following insights, we'll use `input` to help our robot make decisions.
+
 ---
 ## Practice
 

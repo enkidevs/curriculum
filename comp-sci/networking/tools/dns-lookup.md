@@ -13,8 +13,6 @@ links:
   - >-
     [How Domain Name Servers Work](http://computer.howstuffworks.com/dns.htm){website}
 
-parent: network-statistics-tools
-
 ---
 
 # DNS Lookup

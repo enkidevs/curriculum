@@ -2,7 +2,6 @@
 author: catalin
 type: normal
 category: how to
-parent: ssh-pipes
 ---
 
 # Run local scripts remotely

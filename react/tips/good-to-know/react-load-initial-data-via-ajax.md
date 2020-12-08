@@ -4,7 +4,6 @@ type: normal
 category: must-know
 links:
   - '[Ajax FAQ](https://facebook.github.io/react/docs/faq-ajax.html){website}'
-parent: custom-proptype-s-to-be-required
 ---
 
 # Load Initial Data via AJAX

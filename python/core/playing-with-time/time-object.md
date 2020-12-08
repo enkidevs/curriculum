@@ -2,7 +2,6 @@
 author: catalin
 type: normal
 category: feature
-parent: datetime-module
 links:
   - >-
     [Time

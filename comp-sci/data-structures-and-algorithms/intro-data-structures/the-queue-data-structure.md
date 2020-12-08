@@ -2,7 +2,6 @@
 author: mihaiberq
 type: normal
 category: must-know
-parent: the-stack-data-structure
 ---
 
 # The Queue Data Structure

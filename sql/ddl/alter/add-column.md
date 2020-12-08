@@ -10,7 +10,6 @@ links:
   - >-
     [More on ALTER
     TABLE](https://www.techonthenet.com/sql_server/tables/alter_table.php){website}
-parent: create-a-table
 ---
 
 # Add Column

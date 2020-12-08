@@ -9,8 +9,6 @@ links:
   - >-
     [Transmission Control Protocol](https://www.tutorialspoint.com/internet_technologies/internet_protocols.htm){website}
 
-parent: what-is-a-packet
-
 ---
 
 # What Is a Protocol?

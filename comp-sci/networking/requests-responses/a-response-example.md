@@ -5,7 +5,6 @@ category: must-know
 links:
   - >-
     [www.tutorialspoint.com](https://www.tutorialspoint.com/http/http_responses.htm){website}
-parent: http-response
 ---
 
 # A Response Example

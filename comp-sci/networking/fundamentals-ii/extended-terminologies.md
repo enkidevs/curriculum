@@ -6,7 +6,6 @@ links:
   - '[blog.ocens.com](http://blog.ocens.com/?p=140){website}'
   - >-
     [www.digitalocean.com](https://www.digitalocean.com/community/tutorials/an-introduction-to-networking-terminology-interfaces-and-protocols){website}
-parent: application-layer
 ---
 
 # Extended terminologies

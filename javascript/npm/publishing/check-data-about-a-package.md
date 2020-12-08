@@ -8,7 +8,6 @@ tags:
   - deep
 links:
   - '[docs.npmjs.com](https://docs.npmjs.com/cli/view){website}'
-parent: how-to-publish-your-own-packages
 ---
 
 # Check the details of a package

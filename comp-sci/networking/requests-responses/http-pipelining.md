@@ -6,7 +6,6 @@ links:
   - '[en.wikipedia.org](https://en.wikipedia.org/wiki/HTTP_pipelining){website}'
   - >-
     [brianbondy.com](https://brianbondy.com/blog/119/what-you-should-know-about-http-pipelining){website}
-parent: a-response-example
 ---
 
 # HTTP pipelining

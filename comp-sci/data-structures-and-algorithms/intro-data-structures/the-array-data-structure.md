@@ -1,12 +1,15 @@
 ---
 author: mihaiberq
+
 type: normal
+
 category: must-know
+
 links:
   - >-
     [What Is an
     Array?](http://www.bbc.co.uk/education/guides/z4tf9j6/revision/2){website}
-parent: what-is-a-data-structure
+
 ---
 
 # The Array Data Structure
@@ -58,7 +61,7 @@ Or, you can declare empty arrays of size 3 using:
 int[] myArray = new int[3];
 ```
 
-```c++
+```cpp
 // C++
 int myArray[3];
 ```
@@ -81,7 +84,6 @@ Swap the order to assign a value to the cell:
 myArray[0] = x;
 ```
 
-
 ---
 
 ## Practice
@@ -94,7 +96,6 @@ To access an element in an array, you would use:
 - promises
 - values
 - data structures
-
 
 ---
 

@@ -13,7 +13,6 @@ links:
   - >-
     [Web Design
     Basics](https://developers.google.com/web/fundamentals/layouts/rwd-fundamentals/use-media-queries?hl=en){website}
-parent: using-media-rule-to-create-cross-platform-responsiveness
 ---
 
 # Responsive images in a layout

@@ -6,7 +6,6 @@ tags:
   - workout
   - deep
   - obscura
-parent: no-block-scope
 ---
 
 # `catch` Is Block Scoped

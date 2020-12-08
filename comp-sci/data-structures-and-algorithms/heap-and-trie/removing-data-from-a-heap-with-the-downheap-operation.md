@@ -2,7 +2,6 @@
 author: jfarmer
 type: normal
 category: how to
-parent: inserting-data-into-a-heap-with-the-upheap-operation
 ---
 
 # Removing Data From a Heap With The `downheap` Operation

@@ -5,7 +5,6 @@ category: feature
 tags:
   - workout
   - deep
-parent: check-data-about-a-package
 links:
   - >-
     [docs.npmjs.com](https://docs.npmjs.com/files/package.json#optionaldependencies){website}

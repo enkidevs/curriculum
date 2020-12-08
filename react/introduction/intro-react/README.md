@@ -1,5 +1,5 @@
 name: Intro to React
-description: 'Learn about the basics of React, and why it''s become such a popular library.'
+description: 'Learn the fundamental concepts of React.'
 insights:
   - react-what-is-react
   - react-what-is-jsx

@@ -4,7 +4,6 @@ type: normal
 category: must-know
 links:
   - '[github.com](https://github.com/expressjs/compression){website}'
-parent: easy-way-to-deliver-html-pages-with-express
 ---
 
 # GZIP compression for **Express**

@@ -7,7 +7,6 @@ tags:
 links:
   - >-
     [tutorialsteacher.com](http://www.tutorialsteacher.com/nodejs/nodejs-console-repl){website}
-parent: installing-node-js
 ---
 
 # The REPL Terminal

@@ -5,7 +5,6 @@ category: tip
 links:
   - >-
     [docs.python.org](https://docs.python.org/3.5/tutorial/classes.html#method-objects){website}
-parent: instance-objects
 notes: >
   Using the word Enki or enki in many places such as for class name, instance
   name, return value (as in this example), is confusing to readers. Use

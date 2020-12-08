@@ -6,7 +6,6 @@ links:
   - >-
     [Pure
     Components](https://facebook.github.io/react/docs/react-api.html#reactpurecomponent){website}
-parent: custom-proptype-s-to-be-required
 ---
 
 # Shallow compare in React

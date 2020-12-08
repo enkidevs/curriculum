@@ -2,7 +2,6 @@
 author: mihaiberq
 type: normal
 category: must-know
-parent: the-tree-data-structure
 ---
 
 # Node Height and Depth

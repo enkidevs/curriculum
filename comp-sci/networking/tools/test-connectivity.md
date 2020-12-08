@@ -6,7 +6,6 @@ links:
   - '[shapeshed.com](https://shapeshed.com/unix-traceroute/){website}'
   - >-
     [www.thegeekstuff.com](http://www.thegeekstuff.com/2009/11/ping-tutorial-13-effective-ping-command-examples){website}
-parent: network-interfaces-tools
 ---
 
 # Testing Internet Connectivity

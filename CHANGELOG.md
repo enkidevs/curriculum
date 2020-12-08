@@ -40,13 +40,51 @@ Types of change:
 
 ## WIP
 
-### Added
-
 ### Changed
 
 ### Archived
 
 ### Fixed
+
+## December 8th 2020
+
+### Added
+- [Coding Intro - Collections - Add a discussion insight](https://github.com/enkidevs/curriculum/pull/2474)
+- [Comp. Sci. - The Linked List Data Structure - Add a resource link on the Josephus problem](https://github.com/enkidevs/curriculum/pull/2477)
+- [JavaScript - Flow Control - Discussion Insight](https://github.com/enkidevs/curriculum/pull/2472)
+
+### Fixed
+- [Coding Intro - Conditions Intro - Add ending phrase](https://github.com/enkidevs/curriculum/pull/2479)
+- [Coding Intro - Dictionaries - Add more possible answers to the pq](https://github.com/enkidevs/curriculum/pull/2478)
+
+## December 7th 2020
+
+### Added
+- [Comp. Sci. - The Linked List Data Structure - Add a real life example of the abstract data type](https://github.com/enkidevs/curriculum/pull/2475)
+
+### Changed
+- [Deprecate the `parent` field from both workouts and insights](https://github.com/enkidevs/curriculum/pull/2473)
+
+### Fixed
+- [Python - Dictionary Methods II - Update outdated information on popitem](https://github.com/enkidevs/curriculum/pull/2476)
+
+## December 3rd 2020
+
+### Added
+- [SQL - Modifying Data - New course](https://github.com/enkidevs/curriculum/pull/2424)
+
+### Fixed
+- [Comp. Sci. - The Array Data Structure - Fix code block tag](https://github.com/enkidevs/curriculum/pull/2470)
+- [Comp. Sci. - How does packet loss happen? - Fix pq & update link titles](https://github.com/enkidevs/curriculum/pull/2468)
+- [Python - Pointers and References - Replace broken link with 2 valid ones](https://github.com/enkidevs/curriculum/pull/2467)
+
+### Changed
+- [React - Intro to React - Change readme descriptions](https://github.com/enkidevs/curriculum/pull/2466)
+
+## December 2nd 2020
+
+### Fixed
+- [Security - The Heap Data Structure - Replace broken link with a valid one](https://github.com/enkidevs/curriculum/pull/2464)
 
 ## December 3rd 2020
 

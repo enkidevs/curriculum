@@ -4,7 +4,6 @@ type: normal
 category: how to
 links:
   - '[gist.github.com](https://gist.github.com/j4mie/557354){website}'
-parent: unicode-character-database-at-your-hands
 ---
 
 # Recipe to normalize text

@@ -12,7 +12,6 @@ tags:
   - ppa-purge
   - install
   - repository
-parent: using-ppas
 ---
 
 # Removing PPAs

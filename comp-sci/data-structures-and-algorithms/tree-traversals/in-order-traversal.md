@@ -2,7 +2,6 @@
 author: mihaiberq
 type: normal
 category: must-know
-parent: pre-order-traversal
 ---
 
 # In-order Traversal

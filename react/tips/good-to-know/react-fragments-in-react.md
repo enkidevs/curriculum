@@ -4,7 +4,6 @@ type: normal
 category: feature
 links:
   - '[Fragments](https://facebook.github.io/react/docs/fragments.html){website}'
-parent: custom-proptype-s-to-be-required
 ---
 
 # Fragments in **React**

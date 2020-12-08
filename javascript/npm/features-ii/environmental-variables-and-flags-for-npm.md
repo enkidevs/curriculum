@@ -2,7 +2,6 @@
 author: catalin
 type: normal
 category: best practice
-parent: check-data-about-a-package
 tags:
   - workout
   - deep

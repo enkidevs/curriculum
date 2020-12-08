@@ -7,7 +7,6 @@ tags:
   - workout
 links:
   - '[Node Modules](http://book.mixu.net/node/ch8.html){website}'
-parent: npm-nodes-package-manager
 ---
 
 # What are Node Modules?
