@@ -6,6 +6,9 @@ links:
   - >-
     [Dictionary
     methods](https://www.programiz.com/python-programming/dictionary){website}
+  - >-
+    [popitem() 
+    Python 3.7](https://docs.python.org/3/library/stdtypes.html#dict.popitem){website}
 ---
 
 # Dictionary Methods II
@@ -38,7 +41,9 @@ print(square_numbers)
 # {2: 4, 3: 9, 4: 16, 5: 25}
 ```
 
-- `popitem()` removes an **arbitrary item** from the dictionary, and returns it
+- `popitem()` removes the last item that was inserted in the dictionary, and returns it.
+
+> For versions prior to Python 3.7, `popitem()` removed an arbitrary item from the dictionary. For more information check out the links in the "Learn More" section.
 
 ```python
 square_numbers.popitem()
