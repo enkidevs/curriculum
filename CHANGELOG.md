@@ -49,6 +49,7 @@ Types of change:
 ## December 8th 2020
 
 ### Added
+- [Styling - Box model - Add a discussion insight](https://github.com/enkidevs/curriculum/pull/2480)
 - [Coding Intro - Collections - Add a discussion insight](https://github.com/enkidevs/curriculum/pull/2474)
 - [Comp. Sci. - The Linked List Data Structure - Add a resource link on the Josephus problem](https://github.com/enkidevs/curriculum/pull/2477)
 - [JavaScript - Flow Control - Discussion Insight](https://github.com/enkidevs/curriculum/pull/2472)
