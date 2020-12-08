@@ -40,9 +40,6 @@ Types of change:
 
 ## WIP
 
-### Added
-- [Coding Intro - Collections - Add a discussion insight](https://github.com/enkidevs/curriculum/pull/2474)
-
 ### Changed
 
 ### Archived
@@ -52,10 +49,12 @@ Types of change:
 ## December 8th 2020
 
 ### Added
+- [Coding Intro - Collections - Add a discussion insight](https://github.com/enkidevs/curriculum/pull/2474)
 - [Comp. Sci. - The Linked List Data Structure - Add a resource link on the Josephus problem](https://github.com/enkidevs/curriculum/pull/2477)
 - [JavaScript - Flow Control - Discussion Insight](https://github.com/enkidevs/curriculum/pull/2472)
 
 ### Fixed
+- [Coding Intro - Conditions Intro - Add ending phrase](https://github.com/enkidevs/curriculum/pull/2479)
 - [Coding Intro - Dictionaries - Add more possible answers to the pq](https://github.com/enkidevs/curriculum/pull/2478)
 
 ## December 7th 2020
