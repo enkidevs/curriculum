@@ -51,7 +51,7 @@ Types of change:
 ### December 8th 2020
 
 ### Fixed
-- [Coding Intro - Dictionaries - Add more possible answers to the pq]()
+- [Coding Intro - Dictionaries - Add more possible answers to the pq](https://github.com/enkidevs/curriculum/pull/2478)
 
 ### December 7th 2020
 
