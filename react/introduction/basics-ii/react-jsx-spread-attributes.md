@@ -6,7 +6,6 @@ links:
   - >-
     [JSX spread
     attributes](https://gist.github.com/sebmarkbage/07bbe37bc42b6d4aef81){website}
-parent: the-ref-callback-attribute
 ---
 
 # JSX Spread attributes

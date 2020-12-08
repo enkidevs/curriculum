@@ -5,7 +5,6 @@ category: feature
 links:
   - >-
     [www.marcusoft.net](http://www.marcusoft.net/2015/08/npm-scripting-configs-and-arguments.html#passing-through-command-line-argument){website}
-parent: check-data-about-a-package
 tags:
   - introduction
   - workout

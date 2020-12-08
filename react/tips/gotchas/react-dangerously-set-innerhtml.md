@@ -6,7 +6,6 @@ links:
   - >-
     [Official
     Documentation](https://facebook.github.io/react/docs/dom-elements.html#dangerouslysetinnerhtml){website}
-parent: custom-proptype-s-to-be-required
 ---
 
 # Dangerously set `innerHTML`

@@ -4,7 +4,6 @@ type: normal
 category: tip
 links:
   - '[pymotw.com](https://pymotw.com/2/weakref/#proxies){website}'
-parent: implementing-weak-references
 ---
 
 # `weakref` proxies

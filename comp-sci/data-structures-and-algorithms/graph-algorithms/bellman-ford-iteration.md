@@ -2,7 +2,6 @@
 author: mihaiberq
 type: normal
 category: must-know
-parent: bellman-ford-algorithm
 ---
 
 # Bellman-Ford Algorithm Iteration

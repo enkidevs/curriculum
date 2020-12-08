@@ -9,7 +9,6 @@ links:
   - >-
     [React
     Children](https://facebook.github.io/react/docs/react-api.html#reactchildren){website}
-parent: custom-proptype-s-to-be-required
 ---
 
 # Children in React

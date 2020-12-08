@@ -6,7 +6,6 @@ links:
   - >-
     [www.computerhope.com](http://www.computerhope.com/unix/uifconfi.htm){website}
   - '[en.wikipedia.org](https://en.wikipedia.org/wiki/Network_interface){website}'
-parent: dns-lookup
 ---
 
 # Network Interfaces

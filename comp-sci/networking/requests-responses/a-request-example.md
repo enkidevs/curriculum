@@ -7,10 +7,9 @@ category: must-know
 
 links:
   - >-
-    [www.quora.com](https://www.quora.com/What-does-an-HTTP-request-looks-like){website}
-  - '[webaim.org](http://webaim.org/blog/user-agent-string-history/){website}'
-
-parent: http-request
+    [What is an "HTTP request"?](https://www.quora.com/What-does-an-HTTP-request-looks-like){website}
+  - >-
+    [History of the Browser User-Agent String](http://webaim.org/blog/user-agent-string-history/){website}
 
 ---
 

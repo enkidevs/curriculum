@@ -9,8 +9,6 @@ tags:
   - introduction
   - workout
 
-parent: consuming-events
-
 ---
 
 # Listening to events just once

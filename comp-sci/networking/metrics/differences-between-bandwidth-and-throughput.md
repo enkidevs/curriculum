@@ -2,7 +2,6 @@
 author: catalin
 type: normal
 category: must-know
-parent: what-is-jitter
 ---
 
 # Differences between bandwidth and throughput

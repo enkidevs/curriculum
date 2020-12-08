@@ -6,7 +6,6 @@ links:
   - >-
     [codeforgeek.com](https://codeforgeek.com/2014/10/express-complete-tutorial-part-4/){website}
   - '[github.com](https://github.com/expressjs/session){website}'
-parent: easy-way-to-deliver-html-pages-with-express
 ---
 
 # Session handling in **Express**

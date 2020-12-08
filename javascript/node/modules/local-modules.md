@@ -9,7 +9,6 @@ links:
   - >-
     [Local
     Modules](http://www.tutorialsteacher.com/nodejs/nodejs-local-modules){website}
-parent: the-http-module-for-servers
 ---
 
 # Local Modules

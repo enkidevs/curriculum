@@ -2,7 +2,6 @@
 author: catalin
 type: normal
 category: best practice
-parent: custom-proptype-s-to-be-required
 ---
 
 # `null` value for Controlled Components in React

@@ -6,7 +6,6 @@ links:
   - >-
     [Lists and
     keys](https://facebook.github.io/react/docs/lists-and-keys.html){website}
-parent: component-lifecycle-methods
 ---
 
 # Rendering multiple components

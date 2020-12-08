@@ -7,7 +7,6 @@ links:
     [docs.oracle.com](https://docs.oracle.com/javase/tutorial/networking/urls/definition.html){website}
   - >-
     [www.computerhope.com](http://www.computerhope.com/jargon/u/url.htm){website}
-parent: what-is-http
 ---
 
 # What is an URL?

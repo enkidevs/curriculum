@@ -6,7 +6,6 @@ links:
   - >-
     [Working With
     Tries](https://medium.com/algorithms/trie-prefix-tree-algorithm-ee7ab3fe3413){website}
-parent: o-logn-operations-for-heaps
 ---
 
 # The Trie Data Structure

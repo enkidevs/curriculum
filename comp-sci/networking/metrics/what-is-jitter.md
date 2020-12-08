@@ -5,7 +5,6 @@ category: must-know
 links:
   - >-
     [www.cisco.com](http://www.cisco.com/c/en/us/support/docs/voice/voice-quality/18902-jitter-packet-voice.html){website}
-parent: what-is-packet-loss
 ---
 
 # What is jitter?

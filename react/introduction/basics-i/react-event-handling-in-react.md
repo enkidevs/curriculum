@@ -6,7 +6,6 @@ links:
   - >-
     [Handling
     events](https://facebook.github.io/react/docs/handling-events.html){website}
-parent: forms-in-react
 ---
 
 # Event handling in React

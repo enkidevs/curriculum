@@ -2,7 +2,6 @@
 author: catalin
 type: normal
 category: how to
-parent: check-data-about-a-package
 tags:
   - workout
   - deep

@@ -9,7 +9,6 @@ tags:
 links:
   - >-
     [nodejs.org](https://nodejs.org/en/blog/npm/managing-node-js-dependencies-with-shrinkwrap/){website}
-parent: check-data-about-a-package
 ---
 
 # Lock down dependency versions by shrinkwrapping

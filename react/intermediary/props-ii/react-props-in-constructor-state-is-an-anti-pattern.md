@@ -2,7 +2,6 @@
 author: tommarshall
 type: normal
 category: tip
-parent: custom-proptype-s-to-be-required
 ---
 
 # Props in constructor's state

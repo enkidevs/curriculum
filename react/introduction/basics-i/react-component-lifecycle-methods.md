@@ -9,7 +9,6 @@ links:
   - >-
     [Lifecycle methods
     diagram](http://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/){website}
-parent: the-component-lifecycle
 ---
 
 # Component lifecycle methods

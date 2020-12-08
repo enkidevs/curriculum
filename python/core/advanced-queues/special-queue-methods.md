@@ -9,8 +9,6 @@ links:
   - >-
     [docs.python.org](https://docs.python.org/3.5/library/queue.html#queue-objects){website}
 
-parent: a-thread-safe-queue
-
 ---
 
 # Special `queue` methods

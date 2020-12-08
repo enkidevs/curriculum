@@ -2,7 +2,7 @@
 author: mihaiberq
 type: normal
 category: must-know
-parent: parsing-reverse-polish-notation
+
 ---
 
 # Binary Expression Tree

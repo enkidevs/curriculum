@@ -6,7 +6,6 @@ links:
   - >-
     [React.memo Official
     Documentation](https://facebook.github.io/react/docs/react-api.html#reactmemo){website}
-parent: custom-proptype-s-to-be-required
 ---
 
 # Shallow compare in function components

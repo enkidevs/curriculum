@@ -4,7 +4,6 @@ type: normal
 category: must-know
 links:
   - '[www.computerhope.com](http://www.computerhope.com/jargon/i/ip.htm){website}'
-parent: network-models
 ---
 
 # What is an IP address?

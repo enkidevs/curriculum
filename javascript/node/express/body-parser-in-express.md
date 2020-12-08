@@ -6,7 +6,6 @@ links:
   - >-
     [medium.com](https://medium.com/@adamzerner/how-bodyparser-works-247897a93b90#.34biejvm1){website}
   - '[github.com](https://github.com/expressjs/body-parser){website}'
-parent: easy-way-to-deliver-html-pages-with-express
 ---
 
 # `body-parser` in **Express**

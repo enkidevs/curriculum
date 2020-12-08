@@ -2,7 +2,6 @@
 author: catalin
 type: normal
 category: how to
-parent: compare-sequences-with-difflib
 ---
 
 # Get the similarity ratio of two sequences

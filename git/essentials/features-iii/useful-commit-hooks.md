@@ -6,7 +6,6 @@ links:
   - >-
     [Git Hooks Official
     Documentation](http://git-scm.com/book/en/v2/Customizing-Git-Git-Hooks){website}
-parent: what-is-a-hook
 ---
 
 # Useful commit hooks

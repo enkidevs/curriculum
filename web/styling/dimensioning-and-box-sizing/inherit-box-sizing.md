@@ -7,7 +7,6 @@ links:
   - >-
     [MDN Docs on Box
     Sizing](https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing){documentation}
-parent: use-box-sizing-to-define-an-element-s-width-and-height-properties
 ---
 
 # Inherit `box-sizing`

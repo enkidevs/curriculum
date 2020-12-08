@@ -6,7 +6,6 @@ links:
   - >-
     [Tracking
     Branches](http://git-scm.com/book/en/v2/Git-Branching-Remote-Branches){documentation}
-parent: managing-branches
 ---
 
 # Viewing your tracking branches

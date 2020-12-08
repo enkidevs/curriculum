@@ -2,7 +2,6 @@
 author: mihaiberq
 type: normal
 category: must-know
-parent: dijkstras-algorithm
 ---
 
 # Dijkstra's Algorithm Iteration

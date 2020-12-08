@@ -9,7 +9,6 @@ links:
   - >-
     [More Control Over Text
     Decoration](https://css-tricks.com/more-control-over-text-decoration/){website}
-parent: underline-feature-on-html-elements
 ---
 
 # Change the color of the decoration with `text-decoration-color`

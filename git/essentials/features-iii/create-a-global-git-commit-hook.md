@@ -6,7 +6,6 @@ links:
   - >-
     [Create A Global Git Commit
     Hook](https://coderwall.com/p/jp7d5q/create-a-global-git-commit-hook){website}
-parent: what-is-a-hook
 ---
 
 # Create a global git commit hook

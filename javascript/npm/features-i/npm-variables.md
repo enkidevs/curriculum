@@ -2,7 +2,6 @@
 author: mihaiberq
 type: normal
 category: feature
-parent: available-binaries-for-scripting
 tags:
   - introduction
   - workout

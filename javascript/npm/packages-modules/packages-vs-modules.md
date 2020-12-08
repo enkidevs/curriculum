@@ -2,7 +2,6 @@
 author: mihaiberq
 type: normal
 category: must-know
-parent: semantic-versioning
 tags:
   - introduction
   - workout

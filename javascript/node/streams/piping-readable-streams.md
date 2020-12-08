@@ -6,7 +6,6 @@ links:
   - >-
     [Piping
     Streams](https://www.sandersdenardi.com/readable-writable-transform-streams-node/){website}
-parent: readable-streams
 ---
 
 # Piping Readable Streams

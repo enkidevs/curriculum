@@ -2,7 +2,7 @@
 author: mihaiberq
 type: tetris
 category: must-know
-parent: primality-test
+
 ---
 
 # Big-Oh, that was the answer!

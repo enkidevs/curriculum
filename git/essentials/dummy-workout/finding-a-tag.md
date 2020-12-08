@@ -1,23 +1,11 @@
 ---
 author: rosielowther
 
-levels:
-  - basic
-  - medium
-
 type: normal
 
 category: must-know
 
-aspects:
-
-  - workout
-  - deep
-
-parent: using-tags-for-version-control
-
 links:
-
   - '[git-scm.com](http://git-scm.com/book/en/v2/Git-Basics-Tagging){website}'
 
 ---

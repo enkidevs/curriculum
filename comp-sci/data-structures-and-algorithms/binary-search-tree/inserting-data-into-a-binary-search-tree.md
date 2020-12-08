@@ -5,8 +5,6 @@ type: normal
 
 category: must-know
 
-parent: verifying-a-binary-search-tree
-
 ---
 
 # Inserting Data Into a Binary Search Tree

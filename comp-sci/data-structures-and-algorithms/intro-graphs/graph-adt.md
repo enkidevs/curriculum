@@ -6,7 +6,6 @@ links:
   - >-
     [Graph
     Representation](http://www.geeksforgeeks.org/graph-and-its-representations/){website}
-parent: the-components-of-a-graph
 ---
 
 # Graph Representation and ADT

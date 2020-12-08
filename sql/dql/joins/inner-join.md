@@ -12,8 +12,6 @@ tags:
 links:
   - '[Inner Join](https://en.wikipedia.org/wiki/Join_(SQL)#Inner_join){website}'
 
-parent: avg-clause
-
 ---
 
 # INNER JOIN

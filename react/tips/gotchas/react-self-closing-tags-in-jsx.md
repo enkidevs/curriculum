@@ -2,7 +2,6 @@
 author: catalin
 type: normal
 category: must-know
-parent: custom-proptype-s-to-be-required
 ---
 
 # Self-closing tags in JSX

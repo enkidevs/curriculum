@@ -6,7 +6,6 @@ links:
   - >-
     [Immutability
     Helper](https://github.com/kolodny/immutability-helper){website}
-parent: custom-proptype-s-to-be-required
 ---
 
 # Immutability helpers in React

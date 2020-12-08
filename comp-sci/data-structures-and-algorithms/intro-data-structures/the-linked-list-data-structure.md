@@ -10,8 +10,8 @@ links:
     [Linked Lists](https://www.youtube.com/watch?v=_jQhALI4ujg){video}
   - >-
     [Linked List Basics](http://cslibrary.stanford.edu/103/LinkedListBasics.pdf){website}
-
-parent: the-array-data-structure
+  - >-
+    [The Josephus Problem](https://www.youtube.com/watch?v=uCsD3ZGzMgE){video}
 
 ---
 
@@ -87,6 +87,10 @@ Which of the following concepts is list-specific?
 [1:Abstract Data Type]
 Abstract Data Type, or ADT, is a definition of a data type (or a data structure) that only mentions what operations are to be performed but not how these operations will be implemented.
 
+A book is a good example of an Abstract Data Type. You know it's supposed to have a cover, a title, pages, and content. What you don't know is what those are.
+
+A telephone book is an implementation of the Abstract Data Type because you know how the cover looks like, what the title is, and what the content is as well.
+
 [2:Linear Data Structure]
 A linear data structure means that its items are lying on the same level and are not hierarchically structured.
 
@@ -99,4 +103,5 @@ Also known as *Josephus permutation*, it is a *count-out* game. The game starts 
 After the *nth* person is kicked out, the ones left close the circle and start again.
 
 The game ends when there is a single person remaining.
- 
+
+> 💡 Here is a great video that explains [the Josephus Problem](https://www.youtube.com/watch?v=uCsD3ZGzMgE).
