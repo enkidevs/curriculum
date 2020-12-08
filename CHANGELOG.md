@@ -50,6 +50,9 @@ Types of change:
 
 ### December 8th 2020
 
+### Added
+- [Comp. Sci. - The Linked List Data Structure - Add a resource link on the Josephus problem](https://github.com/enkidevs/curriculum/pull/2477)
+
 ### Fixed
 - [Coding Intro - Dictionaries - Add more possible answers to the pq](https://github.com/enkidevs/curriculum/pull/2478)
 
