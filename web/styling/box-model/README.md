@@ -6,6 +6,8 @@ insights:
   - margin-and-padding
   - the-box-sizing-property
   - the-display-property
+  - box-model-discussion-insight
+  
 aspects:
   - introduction
   - workout
