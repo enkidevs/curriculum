@@ -5,13 +5,14 @@ category: must-know
 links:
   - >-
     [Why WebApp Security is
-    Important](https://dyn.com/blog/why-web-application-security-is-important/){website}
+    Important](https://www.csoonline.com/article/3315700/what-is-application-security-a-process-and-tools-for-securing-software.html){website}
   - >-
     [Veracode](https://www.veracode.com/state-of-software-security-report){website}
+  - >-
+    [Data Protection Regulations](https://gdpr-info.eu/){documentation}
 ---
 
 # What is AppSec?
-
 
 ---
 
@@ -21,7 +22,7 @@ links:
 
 This is often done by finding, fixing, and preventing *security vulnerabilities*.
 
-There have been many data breaches since the beginning of the internet, and they now represent the main reason for governments creating [data protection regulations](https://dyn.com/blog/data-protection-regulations-emerge-as-breaches-persist/).
+There have been many data breaches since the beginning of the internet, and they now represent the main reason for governments creating **data protection regulations**.
 
 In 2019, [Veracode](https://www.veracode.com/state-of-software-security-report) reported that **more than 80%** of webapps have **at least one security flaw**.
 

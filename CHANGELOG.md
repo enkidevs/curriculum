@@ -56,6 +56,7 @@ Types of change:
 ### Fixed
 - [Coding Intro - Conditions Intro - Add ending phrase](https://github.com/enkidevs/curriculum/pull/2479)
 - [Coding Intro - Dictionaries - Add more possible answers to the pq](https://github.com/enkidevs/curriculum/pull/2478)
+- [Security - Intro - Replace broken links](https://github.com/enkidevs/curriculum/pull/2481)
 
 ## December 7th 2020
 
