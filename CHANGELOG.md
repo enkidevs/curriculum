@@ -46,6 +46,11 @@ Types of change:
 
 ### Fixed
 
+## December 9th 2020
+
+### Fixed
+- [Go - If-Else - Fix broken PQ](https://github.com/enkidevs/curriculum/pull/2482)
+
 ## December 8th 2020
 
 ### Added
