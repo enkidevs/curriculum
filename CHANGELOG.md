@@ -46,6 +46,11 @@ Types of change:
 
 ### Fixed
 
+## December 10th 2020
+
+### Fixed
+- [Glossary - Markdown Formatting - Remove `;` from Python code]()
+
 ## December 8th 2020
 
 ### Added
