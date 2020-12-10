@@ -50,7 +50,7 @@ Each **test case** can make use of the following methods:
 
 - `assertEqual()` to check for an expected result
 - `assertTrue()` or `assertFalse()` to verify a condition
-- `assertRises()` to verify that a specific exception is raised
+- `assertRaises()` to verify that a specific exception is raised
 
 Two additional methods are worth mentioning: `setUp()` and `tearDown()`, which allow us to define **instructions** that will be executed **before** (`setUp()`) and **after** (`tearDown()`) each test method.
 

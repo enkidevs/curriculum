@@ -107,3 +107,4 @@ fmt.Println(seaBird)
 - birdsArray[1:2]
 - birdsArray[0:1]
 - birdsArray[0:2]
+
