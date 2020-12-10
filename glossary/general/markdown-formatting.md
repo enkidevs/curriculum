@@ -7,7 +7,7 @@ Before you leave your first submission, it might help to brush up your markdown.
 When submitting an answer in the comment section, you'll want to use something like this:
 
 ```py
-print("So this is markdown!");
+print("So this is markdown!")
 ```
 
 That is called a code block. To write it, you start with ` ``` ` and end with ` ``` `, just like this:

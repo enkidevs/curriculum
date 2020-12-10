@@ -46,6 +46,11 @@ Types of change:
 
 ### Fixed
 
+## December 10th 2020
+
+### Fixed
+- [Glossary - Markdown Formatting - Remove `;` from Python code](https://github.com/enkidevs/curriculum/pull/2483)
+
 ## December 8th 2020
 
 ### Added
