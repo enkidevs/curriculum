@@ -27,3 +27,4 @@ There are [other spreadsheet tools available](https://en.wikipedia.org/wiki/Spre
 
 For most of this topic, we'll be using Google Sheets.
  
+

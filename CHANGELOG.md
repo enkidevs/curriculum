@@ -49,6 +49,7 @@ Types of change:
 ## December 10th 2020
 
 ### Fixed
+- [Glossary - Retrigger all the glossary entries & insights where they are referenced](https://github.com/enkidevs/curriculum/pull/2485)
 - [Glossary - Markdown Formatting - Remove `;` from Python code](https://github.com/enkidevs/curriculum/pull/2483)
 
 ## December 8th 2020

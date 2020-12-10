@@ -11,4 +11,6 @@ To fix this, hover over the function with the error to see which parameter of th
 Then edit the cell/s or formula depending on what the error message says.
 
 Example error message:
-`Wrong number of arguments to IF. Expected between 2 and 3 arguments, but got one argument.`
+```plain-text
+Wrong number of arguments to IF. Expected between 2 and 3 arguments, but got one argument.
+```
