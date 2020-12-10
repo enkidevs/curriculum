@@ -88,3 +88,4 @@ The URL returned by the `readAsDataURL` function is
 - a base64 encoded string
 - an SVG's code
 - a link to file's location
+

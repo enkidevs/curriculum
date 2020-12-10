@@ -69,3 +69,4 @@ Finally, sum all the legs and return the value.
 Don't forget to call the function at the end.
 
 > 💡 You can check the *Learn More* section for an example.
+
