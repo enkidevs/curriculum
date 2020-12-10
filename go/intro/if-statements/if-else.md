@@ -47,7 +47,7 @@ Complete the code in the `if-else` statement using the shorthand notation. Then,
 ```go
 if ??? ; x > 0 {
   fmt.Println(x, ???)
-} ??? x < 0 {
+} ??? {
   fmt.Println(x, ???)
 }
 ```
