@@ -1,11 +1,13 @@
 ---
 author: rosielowther
+
 type: normal
+
 category: feature
+
 ---
 
-# Specify a commit by its ancestry
-
+# Specify a Commit by Its Ancestry
 
 ---
 
@@ -44,13 +46,9 @@ What is the `~` equivalent of `^^^^`?
 
 ???
 
-- ~4
-- ~3
-- ~2
-- ```plain-text
-
-  ```
-
+- `~4`
+- `~3`
+- `~2`
 
 ---
 
@@ -64,9 +62,9 @@ git show 42ea31d^
 
 Gets the ??? of commit `42ea31d`.
 
-- parent
-- grandparent
-- child
+- `parent`
+- `grandparent`
+- `child`
 
 
 ---
@@ -84,9 +82,9 @@ A--B--C--D--E--HEAD.
 
 Which of the following refers to the commit labeled with D?
 
- ???
+???
 
-- HEAD~~
-- HEAD^2
-- HEAD^1
-- HEAD~1
+- `HEAD~~`
+- `HEAD^2`
+- `HEAD^1`
+- `HEAD~1`

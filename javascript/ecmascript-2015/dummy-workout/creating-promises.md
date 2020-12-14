@@ -2,11 +2,8 @@
 author: Dral
 
 levels:
-
   - basic
-
   - advanced
-
   - medium
 
 type: normal
@@ -14,13 +11,9 @@ type: normal
 category: must-know
 
 tags:
-
   - promise
-
   - async
-
   - functional programming
-
   - es6
 
 notes: >-
@@ -33,18 +26,18 @@ notes: >-
   to experts?
 
 links:
-
-  - '[MDN](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Promise){website}'
+  - '[MDN - Promise](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Promise){website}'
 
 ---
-# Creating promises
+
+# Creating Promises
 
 ---
 ## Content
 
 The ES6 way to create promises is with the `new Promise()` constructor and two callbacks, `resolve` and `reject`, used to alter the promise state.
 
-```
+```js
 function timeout(delay) {
   return new Promise( (resolve, reject) => {
     setTimeout(() => resolve(), delay);
@@ -59,7 +52,7 @@ timeout(1000).then(() => {
 
 To reject the promise, call `reject` instead of `resolve`:
 
-```
+```js
 function myRequestionFn(url) {
   return new Promise( (resolve, reject) => {
     someRequestLib(url, (err, data) => {
@@ -91,11 +84,10 @@ What are the `Promise()` callbacks?
 
 ???
 
-*`resolve`
-*`reject`
-*`response`
-*`request`
-*`url`
-*`pass`
-*`fail`
- 
+* `resolve`
+* `reject`
+* `response`
+* `request`
+* `url`
+* `pass`
+* `fail`

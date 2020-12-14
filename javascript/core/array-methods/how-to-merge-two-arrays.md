@@ -6,7 +6,7 @@ type: normal
 category: hack
 
 links:
-  - '[davidwalsh.name](https://davidwalsh.name/merge-arrays-javascript){website}'
+  - '[Merge Arrays with JavaScript](https://davidwalsh.name/merge-arrays-javascript){website}'
 
 ---
 
@@ -72,12 +72,11 @@ let array2 = ['d', 'e', 'f'];
 array1.???(???array2)
 ```
 
-- push
-- ...
-- merge
-- -
-- concat
-
+- `push`
+- `...`
+- `merge`
+- `-`
+- `concat`
 
 ---
 
@@ -95,10 +94,10 @@ console.log(a);
 
 ???
 
-- [3, 1, 4]
-- [3, 1, 4, 2, 7, 1]
-- [[3, 1, 4], [2, 7, 1]]
-- 2, 7, 1
+- `[3, 1, 4]`
+- `[3, 1, 4, 2, 7, 1]`
+- `[[3, 1, 4], [2, 7, 1]]`
+- `2, 7, 1`
 
 
 ---
@@ -114,7 +113,7 @@ console.log([3, 14] + [2, 71])
 
 ???
 
-- 3,142,71
-- 3,14,2,71
-- [3,14,2,71]
-- [5, 85]
+- `3,142,71`
+- `3,14,2,71`
+- `[3,14,2,71]`
+- `[5, 85]`

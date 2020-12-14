@@ -47,8 +47,8 @@ The following regex pattern would match 65807 as well as 65807-4589.
 
 ???
 
-- False
-- True
+- `False`
+- `True`
 
 ---
 ## Revision
@@ -59,7 +59,7 @@ What do we need to add to make the following regex pattern match both ZIP (65807
 /^\d{5}([-\s]\d{4})???$/
 ```
 
-- ?
-- *
-- +
-- \.
+- `?`
+- `*`
+- `+`
+- `\.`

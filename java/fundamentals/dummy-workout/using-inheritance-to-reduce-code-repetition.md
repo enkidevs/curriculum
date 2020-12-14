@@ -2,9 +2,7 @@
 author: adamMontgomerie
 
 levels:
-
   - basic
-
   - beginner
 
 type: normal
@@ -12,18 +10,15 @@ type: normal
 category: best practice
 
 tags:
-
   - inheritance
-
   - oop-concepts
 
 links:
-
   - >-
-    [docs.oracle.com](https://docs.oracle.com/javase/tutorial/java/concepts/inheritance.html){website}
+    [What Is Inheritance?](https://docs.oracle.com/javase/tutorial/java/concepts/inheritance.html){website}
 
 ---
-# Using Inheritance to reduce code repetition
+# Using Inheritance to Reduce Code Repetition
 
 ---
 ## Content
@@ -34,7 +29,7 @@ All animals have certain behaviour in common, for example, therefore we can defi
 
 Any further animal classes we write can then extend `Animal` and inherit the common behaviour.
 
-```
+```java
 public class Animal {
   public void eat() {
     //implement eat method
@@ -57,10 +52,10 @@ Which keyword is used when inheriting another classes methods?
 
 ???
 
-*extends
-*inherit
-*controls
-*inherits
+* `extends`
+* `inherit`
+* `controls`
+* `inherits`
 
 ---
 ## Revision
@@ -69,7 +64,6 @@ What’s the main advantage of using class inheritance in your code?
 
 ???
 
-*It prevents code repetition.
-*It reduces compilation time.
-*It increases your codes readability.
- 
+* `It prevents code repetition.`
+* `It reduces compilation time.`
+* `It increases your codes readability.`
