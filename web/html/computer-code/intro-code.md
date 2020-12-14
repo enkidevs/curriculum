@@ -1,12 +1,13 @@
 ---
 author: Stefan-Stojanovic
+
 type: normal
+
 category: must-know
-links: null
+
 ---
 
 # Display Code in HTML
-
 
 ---
 
@@ -39,7 +40,6 @@ The default font style for the `<code>` element for most browsers is the monospa
 
 [View CodePen](https://codepen.io/enkidevs/pen/mKzKxa)
 
-
 ---
 
 ## Practice
@@ -48,11 +48,11 @@ What content is best to style when using the `<code>` element?
 
 ???
 
-- All 4
-- HTML elements
-- CSS Rules
-- filenames
-- JS scripts
+- `All 4`
+- `HTML elements`
+- `CSS Rules`
+- `filenames`
+- `JS scripts`
 
 
 ---
@@ -63,10 +63,10 @@ Which of these elements is used to style the contents as computer code?
 
 ???
 
-- <code>
-- <kbd>
-- <codeBlock>
-- <styleCode>
+- `<code>`
+- `<kbd>`
+- `<codeBlock>`
+- `<styleCode>`
 
 
 ---

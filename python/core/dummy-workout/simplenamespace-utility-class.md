@@ -2,9 +2,7 @@
 author: catalin
 
 levels:
-
   - advanced
-
   - medium
 
 type: normal
@@ -12,11 +10,11 @@ type: normal
 category: feature
 
 links:
-
   - >-
-    [docs.python.org](https://docs.python.org/3.5/library/types.html#additional-utility-classes-and-functions){website}
+    [Additional Utility Classes and Functions](https://docs.python.org/3.5/library/types.html#additional-utility-classes-and-functions){website}
 
 ---
+
 # `SimpleNamespace` Utility Class
 
 ---
@@ -42,18 +40,19 @@ print(enki.type)
 ## Practice
 
 Using the `types` module, create a simple class, equivalent to an empty one:
-```
+
+```py
 import types
 
 enki = ???.???()
 ```
 
-*`types` 
-*`SimpleNamespace` 
-*`empty` 
-*`type` 
-*`SimpleClass` 
-*`EmptyClass`
+* `types` 
+* `SimpleNamespace` 
+* `empty` 
+* `type` 
+* `SimpleClass` 
+* `EmptyClass`
 
 ---
 ## Revision
@@ -62,10 +61,9 @@ What Python module contains the `SimpleNamespace` utility class?
 
 ???
 
-* types
-* type
-* classes
-* class
-* utility
-* utilities
- 
+* `types`
+* `type`
+* `classes`
+* `class`
+* `utility`
+* `utilities`

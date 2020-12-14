@@ -1,11 +1,13 @@
 ---
 author: Stefan-Stojanovic
+
 type: normal
+
 category: must-know
+
 ---
 
 # Images
-
 
 ---
 
@@ -90,14 +92,14 @@ If an image does not have an assigned height and width using HTML or CSS, how wi
 ???
 
 - `<img src="image.jpg" alt="Image Description">`
-- alt
-- .img
-- At its original image size.
+- `alt`
+- `.img`
+- `At its original image size.`
 - `<image src="image.jpg" alt="Image Description">`
 - `<img alt="image.jpg" src="Image Description">`
-- desc
-- .png
-- Will resize by default to 100px wide.
+- `desc`
+- `.png`
+- `Will resize by default to 100px wide.`
 
 
 ---
