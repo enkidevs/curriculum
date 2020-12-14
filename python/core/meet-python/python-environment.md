@@ -58,6 +58,8 @@ Once you're using a text editor you can save files using a `.py` extension and t
 python3 myPythonFile.py
 ```
 
+> In Latest version of windows, keyword python or python3 is replaced by `py`.
+You need to use `py` to start the interactive shell and `py fileName.py` to run the file named fileName.
 
 ---
 
@@ -70,7 +72,7 @@ How can you start the interactive Python interpreter?
 ```
 
 - `python`
-- `py`
+- `pyt`
 - `-interactive_mode`
 - `pythoni`
 
