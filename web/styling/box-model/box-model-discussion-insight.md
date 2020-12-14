@@ -53,7 +53,7 @@ When you're ready, leave a comment or a codepen link with your submission. If yo
 ## Footnotes
 [1: Hints]
 
-You should start by first creating the borders and matching the width, height, and color of the bottom div element.
+You can start by first creating the borders and matching the width, height, and color of the bottom div element.
 
 Next, match the margins and paddings on all four sides.
 
