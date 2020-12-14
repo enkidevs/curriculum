@@ -46,6 +46,11 @@ Types of change:
 
 ### Fixed
 
+## December 14th 2020
+
+### Changed
+- [Courses - Make all course slugs unique](https://github.com/enkidevs/curriculum/pull/2489)
+
 ## December 10th 2020
 
 ### Fixed
