@@ -3,7 +3,7 @@ name: Intermediary
 description: Get accustomed to more advanced React features.
 
 next:
-  - react:tips
+  - react:react-tips
 
 sections:
   '0':

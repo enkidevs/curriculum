@@ -17,4 +17,4 @@ sections:
     - comparison-operators-and-functions
 
 next:
-  - spreadsheets:tips-and-tricks
+  - spreadsheets:spreadsheets-tips-and-tricks

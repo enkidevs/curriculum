@@ -15,4 +15,4 @@ sections:
     - charts
 
 next:
-  - spreadsheets:intermediate
+  - spreadsheets:spreadsheets-intermediate
