@@ -5,7 +5,7 @@ description: Learn the basics of React.
 core: true
 
 next:
-  - react:intermediary
+  - react:react-intermediary
 
 sections:
   '0':
