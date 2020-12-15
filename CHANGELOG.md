@@ -46,6 +46,11 @@ Types of change:
 
 ### Fixed
 
+## December 15th 2020
+
+### Changed
+- [Javascript - Arrays - add missing information](https://github.com/enkidevs/curriculum/pull/2492)
+
 ## December 14th 2020
 
 ### Changed
