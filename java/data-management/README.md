@@ -30,4 +30,4 @@ next:
   - java:testing
 
 prerequisites:
-  - java:fundamentals
+  - java:java-fundamentals
