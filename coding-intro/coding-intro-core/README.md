@@ -11,5 +11,5 @@ sections:
     - variables-and-data
     - collections
     - functions
-    - conditions
+    - coding-intro-conditions
     - loops

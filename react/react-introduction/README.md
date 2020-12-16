@@ -11,7 +11,7 @@ sections:
   '0':
     - intro-react
     - react-fundamentals
-    - fundamentals-ii
+    - react-fundamentals-ii
     - basics-i
     - basics-ii
     - introduction-to-hooks
