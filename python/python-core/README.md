@@ -32,7 +32,7 @@ sections:
     - more-on-lists
     - more-on-sets
     - more-on-dictionaries
-    - recipes
+    - python-recipes
     - deep-into-collections
     - advanced-queues
   '3':

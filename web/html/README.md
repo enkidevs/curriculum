@@ -12,7 +12,7 @@ sections:
     - core-html-elements
     - web-page-structure
   '1':
-    - images
+    - html-images
     - links
     - links-ii
     - lists
@@ -36,7 +36,7 @@ sections:
     - semantic-sections
     - citation-elements
     - computer-code
-    - best-practices
+    - html-best-practices
     - html-entities
     - html-versions
 

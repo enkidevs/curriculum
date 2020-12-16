@@ -16,7 +16,7 @@ sections:
     - code-style-recommendations
     - express
     - express-ii
-    - best-practices
+    - node-best-practices
     - patterns
     - tools
     - quirks

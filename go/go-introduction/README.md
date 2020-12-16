@@ -6,7 +6,7 @@ core: true
 
 sections:
   '0':
-    - introduction
+    - go-introduction
     - variables-and-initialization
     - data-types-and-constants
     - go-operators

@@ -8,7 +8,7 @@ sections:
   '0':
     - overview
     - containers
-    - images
+    - docker-images
   '1':
     - storage
     - networking
