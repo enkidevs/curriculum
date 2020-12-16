@@ -49,7 +49,7 @@ Types of change:
 ## December 16th 2020
 
 ## Changed
-- [Part three of making all the workout slugs unique]()
+- [Part three of making all the workout slugs unique](https://github.com/enkidevs/curriculum/pull/2498)
 - [Part two of making all the workout slugs unique](https://github.com/enkidevs/curriculum/pull/2497)
 - [Part one of making all the workout slugs unique](https://github.com/enkidevs/curriculum/pull/2494)
 
