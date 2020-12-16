@@ -50,6 +50,7 @@ Types of change:
 
 ## Changed
 - [Part one of making all the workout slugs unique](https://github.com/enkidevs/curriculum/pull/2494)
+- [Python - Syntax and Numerical Operators - Change insight order, add footnote](https://github.com/enkidevs/curriculum/pull/2496)
 
 ## December 14th 2020
 
