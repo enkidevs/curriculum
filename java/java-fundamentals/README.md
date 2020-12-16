@@ -28,7 +28,7 @@ sections:
   '2':
     - class-interface-tips
     - abstract-keyword
-    - immutability
+    - java-immutability
     - serialization
     - tips-v
   '3':

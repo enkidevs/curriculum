@@ -14,7 +14,7 @@ sections:
     - sequential-data-types-ii
     - unordered-data-types
     - looping
-    - functions
+    - python-functions
     - python-tips
   '1':
     - intro-to-modules
