@@ -17,7 +17,7 @@ sections:
     - express
     - express-ii
     - node-best-practices
-    - patterns
+    - node-patterns
     - tools
     - quirks
     - processes-clustering

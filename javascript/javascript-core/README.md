@@ -11,12 +11,12 @@ sections:
     - flow-control
     - functions-i
     - js-history
-    - arrays
+    - javascript-arrays
     - objects
   '1':
     - types-ii
-    - strings
-    - strings-ii
+    - javascript-strings
+    - javascript-strings-ii
     - numbers
     - array-methods
     - functions-ii

@@ -5,10 +5,10 @@ description: Node package manager. It does everything it says in its name.
 sections:
   '0':
     - intro-npm
-    - features-i
+    - npm-features-i
     - packages-modules
   '1':
-    - features-ii
+    - npm-features-ii
     - publishing
     - npm-tools-i
 

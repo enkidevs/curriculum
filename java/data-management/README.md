@@ -4,7 +4,7 @@ description: Learn all about data, file and system manipulation.
 
 sections:
   '0':
-    - arrays
+    - java-arrays
     - byte-operations-i
     - java-file-management
     - numbers-i

@@ -8,12 +8,12 @@ sections:
   '0':
     - what-is-webflow
     - basics-of-web
-    - templates
+    - webflow-templates-i
     - diy
     - intro-components
     - style
   '1':
-    - templates-2
+    - webflow-templates-ii
     - layouts
 
 
