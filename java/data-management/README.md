@@ -6,7 +6,7 @@ sections:
   '0':
     - arrays
     - byte-operations-i
-    - file-management
+    - java-file-management
     - numbers-i
     - numbers-ii
     - strings-i
@@ -22,7 +22,7 @@ sections:
     - file-system-i
     - file-system-ii
     - data-tips-ii
-    - tools-i
+    - java-tools-i
     - tools-ii
     - file-system-iii
 

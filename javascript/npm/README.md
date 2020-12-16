@@ -10,7 +10,7 @@ sections:
   '1':
     - features-ii
     - publishing
-    - tools-i
+    - npm-tools-i
 
 standards:
   use-open-source-javascript-packages:

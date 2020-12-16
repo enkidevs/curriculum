@@ -4,8 +4,8 @@ description: The engineering discipline studying and analyzing the communication
 
 sections:
   '0':
-    - fundamentals-i
-    - fundamentals-ii
+    - networking-fundamentals-i
+    - networking-fundamentals-ii
     - metrics
     - tools
   '1':

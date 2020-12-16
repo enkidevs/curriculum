@@ -15,7 +15,7 @@ sections:
     - unordered-data-types
     - looping
     - functions
-    - tips
+    - python-tips
   '1':
     - intro-to-modules
     - basic-file-manipulation
