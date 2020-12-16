@@ -23,7 +23,7 @@ sections:
     - class-dependency-ii
     - exceptions-i
     - exceptions-ii
-    - patterns
+    - java-patterns
     - tips-iv
   '2':
     - class-interface-tips
