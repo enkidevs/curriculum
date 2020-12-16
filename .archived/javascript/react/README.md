@@ -4,16 +4,16 @@ description: One of the most popular recent libraries for building user interfac
 
 sections:
   '0':
-    - intro-react
+    - intro-react-archived
     - fundamentals
-    - basics-i
-    - basics-ii
+    - basics-i-archived
+    - basics-ii-archived
   '1':
-    - good-to-know
+    - good-to-know-archived
     - gotchas
-    - props-i
-    - props-ii
+    - props-i-archived
+    - props-ii-archived
   '2':
-    - props-iii
+    - props-iii-archived
     - redux-i
-    - redux-tips
+    - redux-tips-archived

@@ -10,9 +10,9 @@ sections:
     - java-basics
     - operators-i
     - operators-ii
-    - tips-i
-    - tips-ii
-    - tips-iii
+    - java-tips-i
+    - java-tips-ii
+    - java-tips-iii
     - default-methods
   '1':
     - iteration
@@ -24,13 +24,13 @@ sections:
     - exceptions-i
     - exceptions-ii
     - java-patterns
-    - tips-iv
+    - java-tips-iv
   '2':
     - class-interface-tips
     - abstract-keyword
     - java-immutability
     - serialization
-    - tips-v
+    - java-tips-v
   '3':
     - annotations-i
     - annotations-ii
