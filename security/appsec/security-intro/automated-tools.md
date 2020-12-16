@@ -4,8 +4,8 @@ type: normal
 category: how to
 links:
   - >-
-    [OWASP ZAP (a vulnerability scanning
-    tool)](https://www.owasp.org/index.php/OWASP_Zed_Attack_Proxy_Project){website}
+    [ZAP (a vulnerability scanning
+    tool)](https://www.zaproxy.org/){website}
   - >-
     [A roundup of hacker
     tools](https://www.concise-courses.com/hacking-tools/top-ten/){website}
@@ -15,6 +15,7 @@ links:
   - >-
     [An exercise using automated tools with the NodeGoat
     server](https://f0.holisticinfosecforwebdevelopers.com/chap06.html#process-agile-development-and-practices-security-regression-testing){website}
+
 ---
 
 # Automated Tools

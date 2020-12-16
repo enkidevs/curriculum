@@ -1,16 +1,18 @@
 ---
 author: stefkn
+
 type: normal
+
 category: must-know
+
 links:
-  - '[Dictionaries Basics](https://bdhacker.wordpress.com/20){website}'
   - >-
     [How to Override Comparison
     Operators](http://jcalderone.livejournal.com/32837.html){website}
+
 ---
 
 # Atomicity of Failure
-
 
 ---
 
