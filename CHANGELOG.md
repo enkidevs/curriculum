@@ -53,6 +53,9 @@ Types of change:
 - [Javascript - Arrays - add missing information](https://github.com/enkidevs/curriculum/pull/2492)
 
 
+### Fixed
+- [HTML - Html Images - Remove broken/outdated links](https://github.com/enkidevs/curriculum/pull/2495)
+
 ## December 14th 2020
 
 ### Changed
