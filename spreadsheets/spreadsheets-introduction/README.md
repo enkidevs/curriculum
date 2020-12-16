@@ -6,7 +6,7 @@ core: true
 
 sections:
   '0':
-    - introduction
+    - spreadsheets-introduction
     - basics-of-excel
     - templates
     - data-types-and-validation

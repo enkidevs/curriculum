@@ -46,10 +46,12 @@ Types of change:
 
 ### Fixed
 
-## December 15th 2020
+## December 16th 2020
 
-### Changed
+## Changed
+- [Part one of making all the workout slugs unique](https://github.com/enkidevs/curriculum/pull/2494)
 - [Javascript - Arrays - add missing information](https://github.com/enkidevs/curriculum/pull/2492)
+
 
 ## December 14th 2020
 

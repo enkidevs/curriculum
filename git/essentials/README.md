@@ -9,7 +9,7 @@ sections:
     - intro-git
     - getting-started
     - commits
-    - fundamentals
+    - git-fundamentals
     - local-repository
     - remote-repository
     - branching
