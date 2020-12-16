@@ -55,6 +55,7 @@ Types of change:
 - [Part one of making all the workout slugs unique](https://github.com/enkidevs/curriculum/pull/2494)
 
 ### Fixed
+- [Fixed some links in multiple topics]()
 - [HTML - Html Images - Remove broken/outdated links](https://github.com/enkidevs/curriculum/pull/2495)
 
 ## December 14th 2020

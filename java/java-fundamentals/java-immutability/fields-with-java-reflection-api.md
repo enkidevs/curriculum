@@ -1,15 +1,17 @@
 ---
 author: catalin
+
 type: normal
+
 category: feature
+
 links:
   - >-
-    [www.java-tips.org](http://www.java-tips.org/java-lang/2513-how-to-set-field-values-using-java-reflection.html){website}
-notes: 'https://insights.enki.com/#/contrib/55ae3539d457944f00962ca4'
+    [Getting and Setting Field Values](https://docs.oracle.com/javase/tutorial/reflect/member/fieldValues.html){website}
+
 ---
 
 # Fields with Java **Reflection API**
-
 
 ---
 
@@ -22,7 +24,6 @@ Getting a specific field:
 ```java
 Field intField =  
 myObj.getClass().getField("x");
-
 ```
 
 You can iterate through fields. By default, you are not allowed to access **non-public** fields, yet calling the `setAccessible` method will grant access:
@@ -70,7 +71,6 @@ intField.???(myObj, 10);
 - `setInt` 
 - `set` 
 - `setField`
-
 
 ---
 
