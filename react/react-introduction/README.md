@@ -10,7 +10,7 @@ next:
 sections:
   '0':
     - intro-react
-    - fundamentals
+    - react-fundamentals
     - fundamentals-ii
     - basics-i
     - basics-ii
