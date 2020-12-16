@@ -10,6 +10,6 @@ sections:
     - core-concepts
     - variables-and-data
     - collections
-    - functions
+    - coding-intro-functions
     - coding-intro-conditions
     - loops
