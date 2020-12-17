@@ -46,6 +46,37 @@ Types of change:
 
 ### Fixed
 
+## December 17th 2020
+
+## Changed
+- [Part six of making all the workout slugs unique](https://github.com/enkidevs/curriculum/pull/2503)
+
+## December 16th 2020
+
+## Changed
+- [Part five of making all the workout slugs unique](https://github.com/enkidevs/curriculum/pull/2501)
+- [Part four of making all the workout slugs unique](https://github.com/enkidevs/curriculum/pull/2499)
+- [Part three of making all the workout slugs unique](https://github.com/enkidevs/curriculum/pull/2498)
+- [Part two of making all the workout slugs unique](https://github.com/enkidevs/curriculum/pull/2497)
+- [Part one of making all the workout slugs unique](https://github.com/enkidevs/curriculum/pull/2494)
+- [Python - Python Environments - Add information regarding the default interpreter](https://github.com/enkidevs/curriculum/pull/2502)
+
+### Fixed
+- [Fixed some links in multiple topics](https://github.com/enkidevs/curriculum/pull/2500)
+- [HTML - Html Images - Remove broken/outdated links](https://github.com/enkidevs/curriculum/pull/2495)
+
+## December 14th 2020
+
+### Changed
+- [Courses - Make all course slugs unique](https://github.com/enkidevs/curriculum/pull/2489)
+
+## December 10th 2020
+
+### Fixed
+- [Glossary - Retrigger all the glossary entries & insights where they are referenced](https://github.com/enkidevs/curriculum/pull/2485)
+- [Glossary - Markdown Formatting - Remove `;` from Python code](https://github.com/enkidevs/curriculum/pull/2483)
+- [Go - If-Else - Fix broken PQ](https://github.com/enkidevs/curriculum/pull/2482)
+
 ## December 8th 2020
 
 ### Added
@@ -57,6 +88,7 @@ Types of change:
 ### Fixed
 - [Coding Intro - Conditions Intro - Add ending phrase](https://github.com/enkidevs/curriculum/pull/2479)
 - [Coding Intro - Dictionaries - Add more possible answers to the pq](https://github.com/enkidevs/curriculum/pull/2478)
+- [Security - Intro - Replace broken links](https://github.com/enkidevs/curriculum/pull/2481)
 
 ## December 7th 2020
 
@@ -779,4 +811,4 @@ Types of change:
 ### Fixed
 - [Python - Check Available Python Modules - Removed unnecessary `$` and general formatting improvements](https://github.com/enkidevs/curriculum/pull/2127)
 - [Git - What's Git? - Fixed spelling of Linus, creator of Linux](https://github.com/enkidevs/curriculum/pull/2129)
- 
+

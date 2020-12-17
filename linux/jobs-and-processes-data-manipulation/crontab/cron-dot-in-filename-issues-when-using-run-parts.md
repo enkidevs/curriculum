@@ -1,7 +1,10 @@
 ---
 author: tuwidc
+
 type: normal
+
 category: caveats
+
 tags:
   - linux
   - cron
@@ -9,10 +12,10 @@ tags:
   - issues
   - crontab
   - cron.daily
+
 ---
 
 # `Cron` dot-in-filename issues when using `run-parts`
-
 
 ---
 
@@ -30,17 +33,16 @@ digits, underscores, and hyphens.
 
 If there is a cron script `backup.sh` in `cron.daily/` directory, the extension name should be removed.
 
-
 ---
 
 ## Revision
 
 It’s not a good idea to use ??? in a script name when you run it using `run-parts` .
 
-- . 
-- _ 
-- -
-- r
+- `.` 
+- `_` 
+- `-`
+- `r`
 
 
 ---
