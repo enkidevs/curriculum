@@ -46,6 +46,11 @@ Types of change:
 
 ### Fixed
 
+## December 17th 2020
+
+## Changed
+- [Part six of making all the workout slugs unique]()
+
 ## December 16th 2020
 
 ## Changed
