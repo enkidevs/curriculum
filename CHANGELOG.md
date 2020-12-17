@@ -50,6 +50,7 @@ Types of change:
 
 ## Changed
 - [Part six of making all the workout slugs unique](https://github.com/enkidevs/curriculum/pull/2503)
+- [Javascript - Arrays - add missing information](https://github.com/enkidevs/curriculum/pull/2504)
 
 ## December 16th 2020
 
