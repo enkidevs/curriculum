@@ -49,6 +49,7 @@ Types of change:
 ## December 16th 2020
 
 ## Changed
+- [Part five of making all the workout slugs unique](https://github.com/enkidevs/curriculum/pull/2501)
 - [Part four of making all the workout slugs unique](https://github.com/enkidevs/curriculum/pull/2499)
 - [Part three of making all the workout slugs unique](https://github.com/enkidevs/curriculum/pull/2498)
 - [Part two of making all the workout slugs unique](https://github.com/enkidevs/curriculum/pull/2497)
@@ -804,4 +805,4 @@ Types of change:
 ### Fixed
 - [Python - Check Available Python Modules - Removed unnecessary `$` and general formatting improvements](https://github.com/enkidevs/curriculum/pull/2127)
 - [Git - What's Git? - Fixed spelling of Linus, creator of Linux](https://github.com/enkidevs/curriculum/pull/2129)
- 
+
