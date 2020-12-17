@@ -54,6 +54,7 @@ Types of change:
 - [Part three of making all the workout slugs unique](https://github.com/enkidevs/curriculum/pull/2498)
 - [Part two of making all the workout slugs unique](https://github.com/enkidevs/curriculum/pull/2497)
 - [Part one of making all the workout slugs unique](https://github.com/enkidevs/curriculum/pull/2494)
+- [Python - Python Environments - Add information regarding the default interpreter](https://github.com/enkidevs/curriculum/pull/2502)
 
 ### Fixed
 - [Fixed some links in multiple topics](https://github.com/enkidevs/curriculum/pull/2500)
