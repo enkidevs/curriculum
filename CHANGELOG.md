@@ -51,6 +51,9 @@ Types of change:
 ## Changed
 - [Part six of making all the workout slugs unique](https://github.com/enkidevs/curriculum/pull/2503)
 
+## Fixed
+- [Spreadsheets - Why Would You Import Data - Fix wording](https://github.com/enkidevs/curriculum/pull/2505)
+
 ## December 16th 2020
 
 ## Changed
