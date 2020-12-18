@@ -46,6 +46,11 @@ Types of change:
 
 ### Fixed
 
+## December 18th 2020
+
+### Changed
+- [Python - not and is operator - Move mention of `is` operator from the `not` insight to the `is operator` insight](https://github.com/enkidevs/curriculum/pull/2507)
+
 ## December 17th 2020
 
 ## Changed
