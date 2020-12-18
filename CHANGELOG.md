@@ -59,6 +59,7 @@ Types of change:
 
 ## Changed
 - [Part six of making all the workout slugs unique](https://github.com/enkidevs/curriculum/pull/2503)
+- [Javascript - Arrays - add missing information](https://github.com/enkidevs/curriculum/pull/2504)
 
 ## Fixed
 - [Spreadsheets - Why Would You Import Data - Fix wording](https://github.com/enkidevs/curriculum/pull/2505)
