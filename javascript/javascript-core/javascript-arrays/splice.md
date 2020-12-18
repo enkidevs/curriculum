@@ -24,7 +24,7 @@ It accepts three arguments, with **only the first being mandatory**:
 - *Delete* is how many items to remove at the *Start* position (can be 0)
 - *Items to add*, separated by commas
 
-If *Delete* is omitted, splice will remove all elements from the specified *Start* to the end of the array. On the other hand, if its 0 or a negative number, it won't delete any elements.
+If the *Delete* argument is omitted, `splice` will remove all elements from the specified *Start* to the end of the array. On the other hand, if it's `0` or a negative number, it won't delete any elements.
 
 We can use splice to add and remove items anywhere in the array.
 
