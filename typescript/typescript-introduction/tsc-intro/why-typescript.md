@@ -44,7 +44,7 @@ Your editor can integrate with TypeScript and display any problems in the code a
 
 ### Modern, cross-platform JavaScript
 
-Since TypeScript is a standalone layer on top of JavaScript, it allows us to continuously use the latest JavaScript features, even before they become fully supported in JavaScript[2].
+Since TypeScript is a standalone layer on top of JavaScript, it allows us to continuously use the latest ECMAScript features, even before they become fully supported in JavaScript[2].
 
 
 ---

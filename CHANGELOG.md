@@ -57,6 +57,9 @@ Types of change:
 
 ## December 17th 2020
 
+### Fixed
+- [Typescript - Why Typescript - Fix wording in last paragraph](https://github.com/enkidevs/curriculum/pull/2506)
+
 ## Changed
 - [Part six of making all the workout slugs unique](https://github.com/enkidevs/curriculum/pull/2503)
 - [Javascript - Arrays - add missing information](https://github.com/enkidevs/curriculum/pull/2504)
