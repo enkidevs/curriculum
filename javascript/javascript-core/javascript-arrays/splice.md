@@ -18,7 +18,7 @@ links:
 
 Splice is a handy array function that allows you to add and remove items to an array.
 
-It accepts 3 arguments with the 2nd and 3rd being optional:
+It accepts three arguments, with **only the first being mandatory**:
 
 - *Start* is the 0 based index of where to start manipulating the array
 - *Delete* is how many items to remove at the *Start* position (can be 0)
