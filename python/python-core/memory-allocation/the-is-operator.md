@@ -83,6 +83,8 @@ print(hex(id(y)))
 # '0x7faef0fc9dc0'
 ```
 
+You can also negate the `is` operator to check whether an instance `is not` identical to another instance.
+
 ---
 
 ## Practice
