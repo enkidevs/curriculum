@@ -50,6 +50,7 @@ Types of change:
 
 ### Changed
 - [Python - not and is operator - Move mention of `is` operator from the `not` insight to the `is operator` insight](https://github.com/enkidevs/curriculum/pull/2507)
+- [Python - Syntax and Numerical Operators - Change insight order, add footnote](https://github.com/enkidevs/curriculum/pull/2496)
 
 ### Fixed
 - [HTML - Update Hyperlinks - Fix improper rendering of answers](https://github.com/enkidevs/curriculum/pull/2508)
