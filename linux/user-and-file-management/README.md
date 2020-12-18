@@ -12,7 +12,7 @@ sections:
     - linux-intro
     - bash-environment
     - manipulating-environment-variables
-    - file-management
+    - linux-file-management
     - file-permissions
     - file-management-tips
     - shell
@@ -21,7 +21,7 @@ sections:
     - user-permissions
   '1':
     - terminal-power-user-tips
-    - conditions
+    - linux-conditions
     - file-management-tips-ii
     - default-permissions
     - super-users-and-root

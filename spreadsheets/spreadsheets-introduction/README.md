@@ -8,7 +8,7 @@ sections:
   '0':
     - spreadsheets-introduction
     - basics-of-excel
-    - templates
+    - spreadsheets-templates
     - data-types-and-validation
     - filtering-grouping
     - intro-to-functions-and-formulas

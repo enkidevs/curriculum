@@ -46,11 +46,36 @@ Types of change:
 
 ### Fixed
 
+## December 18th 2020
+
+### Changed
+- [Python - not and is operator - Move mention of `is` operator from the `not` insight to the `is operator` insight](https://github.com/enkidevs/curriculum/pull/2507)
+- [Python - Syntax and Numerical Operators - Change insight order, add footnote](https://github.com/enkidevs/curriculum/pull/2496)
+
+### Fixed
+- [HTML - Update Hyperlinks - Fix improper rendering of answers](https://github.com/enkidevs/curriculum/pull/2508)
+
+## December 17th 2020
+
+## Changed
+- [Part six of making all the workout slugs unique](https://github.com/enkidevs/curriculum/pull/2503)
+
+## Fixed
+- [Spreadsheets - Why Would You Import Data - Fix wording](https://github.com/enkidevs/curriculum/pull/2505)
+
 ## December 16th 2020
 
 ## Changed
+- [Part five of making all the workout slugs unique](https://github.com/enkidevs/curriculum/pull/2501)
+- [Part four of making all the workout slugs unique](https://github.com/enkidevs/curriculum/pull/2499)
+- [Part three of making all the workout slugs unique](https://github.com/enkidevs/curriculum/pull/2498)
+- [Part two of making all the workout slugs unique](https://github.com/enkidevs/curriculum/pull/2497)
 - [Part one of making all the workout slugs unique](https://github.com/enkidevs/curriculum/pull/2494)
-- [Python - Syntax and Numerical Operators - Change insight order, add footnote](https://github.com/enkidevs/curriculum/pull/2496)
+- [Python - Python Environments - Add information regarding the default interpreter](https://github.com/enkidevs/curriculum/pull/2502)
+
+### Fixed
+- [Fixed some links in multiple topics](https://github.com/enkidevs/curriculum/pull/2500)
+- [HTML - Html Images - Remove broken/outdated links](https://github.com/enkidevs/curriculum/pull/2495)
 
 ## December 14th 2020
 
@@ -67,6 +92,7 @@ Types of change:
 ## December 8th 2020
 
 ### Added
+- [Styling - Box model - Add a discussion insight](https://github.com/enkidevs/curriculum/pull/2480)
 - [Coding Intro - Collections - Add a discussion insight](https://github.com/enkidevs/curriculum/pull/2474)
 - [Comp. Sci. - The Linked List Data Structure - Add a resource link on the Josephus problem](https://github.com/enkidevs/curriculum/pull/2477)
 - [JavaScript - Flow Control - Discussion Insight](https://github.com/enkidevs/curriculum/pull/2472)
@@ -797,4 +823,4 @@ Types of change:
 ### Fixed
 - [Python - Check Available Python Modules - Removed unnecessary `$` and general formatting improvements](https://github.com/enkidevs/curriculum/pull/2127)
 - [Git - What's Git? - Fixed spelling of Linus, creator of Linux](https://github.com/enkidevs/curriculum/pull/2129)
- 
+

@@ -6,8 +6,8 @@ sections:
   '0':
     - common-mistakes-in-react
   '1':
-    - good-to-know
-    - gotchas
+    - react-good-to-know
+    - react-gotchas
     - redux-tips
     
     

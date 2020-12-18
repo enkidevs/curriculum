@@ -30,8 +30,7 @@ not (x < y)
 # False
 ```
 
-You can also negate the `in` and `is` operators to check whether a value is `not in` another object, or to check whether an instance `is not` identical to another instance. 
-
+You can also negate the `in` operator to check whether a value is `not in` another object.
 
 ---
 

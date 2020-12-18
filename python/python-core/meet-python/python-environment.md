@@ -20,7 +20,7 @@ links:
 
 Python comes pre-installed on most operating systems. It can also be downloaded online for free.
 
-Once installed, you can type `python3`, `python` or `python -i` to run the **Python interpreter**[1] from the shell[2]:
+Once installed, you can type `python3`, `python` or `py`[1] to run the **Python interpreter**[2] from the shell[3]:
 
 ```bash
 python3
@@ -58,19 +58,18 @@ Once you're using a text editor you can save files using a `.py` extension and t
 python3 myPythonFile.py
 ```
 
-
 ---
 
 ## Practice
 
-How can you start the interactive Python interpreter?
+Which of these commands will start the interactive Python interpreter?
 
 ```bash
 ???
 ```
 
 - `python`
-- `py`
+- `pyt`
 - `-interactive_mode`
 - `pythoni`
 
@@ -91,12 +90,21 @@ The Python-specific file extension is ???.
 
 ## Footnotes
 
-[1:Python Interpreter]
+[1:Launching The Interpreter]
+Depending on the operating system or the Python version used, there are multiple ways in which you can start the interpreter.
+
+You can check out all of these ways in the [official Python documentation](https://docs.python.org/3.9/tutorial/interpreter.html).
+
+All you have to do is select the Python version in the top-left of the page:
+
+![python-interpreter-docs](https://img.enkipro.com/cca8e134c009414c09ea957266b52ede.png)
+
+[2:Python Interpreter]
 The Python interpreter is the application that runs your Python script. 
 
 The interpreter is a quick way to explore Python and try out code without creating a file. It is a Read-Eval-Print Loop, or REPL, a tool offered by many modern programming languages. 
 
 To use it, you launch the Python interpreter with `python3`, `python` or `python -i` and type your Python code at the prompt. The interpreter evaluates the code you type and displays the results.
 
-[2:Shell]
+[3:Shell]
 The shell, also known as the command line, is a program which processes shell scripts, like Bash. Shell scripts allow you to manipulate and navigate between files, execute programs, and print text. The shell is run through the terminal.

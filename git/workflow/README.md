@@ -13,6 +13,6 @@ sections:
     - logging
     - staging-i
     - staging-ii
-    - tips
+    - git-workflow-tips
     - work-smart
 

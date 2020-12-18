@@ -6,7 +6,7 @@ core: true
 
 sections:
   '0':
-    - intro
+    - mongodb-intro
     - databases
     - create-and-read-documents
     - update-and-delete-documents

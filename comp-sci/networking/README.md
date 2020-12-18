@@ -4,10 +4,10 @@ description: The engineering discipline studying and analyzing the communication
 
 sections:
   '0':
-    - fundamentals-i
-    - fundamentals-ii
+    - networking-fundamentals-i
+    - networking-fundamentals-ii
     - metrics
-    - tools
+    - networking-tools
   '1':
     - intro-to-http
     - requests-responses

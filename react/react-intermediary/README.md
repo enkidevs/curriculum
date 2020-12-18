@@ -12,5 +12,5 @@ sections:
     - props-iii
     - hooks-i
   '1':
-    - redux-i
+    - react-redux-i
     
