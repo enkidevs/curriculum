@@ -46,11 +46,23 @@ Types of change:
 
 ### Fixed
 
+## December 18th 2020
+
+### Changed
+- [Python - not and is operator - Move mention of `is` operator from the `not` insight to the `is operator` insight](https://github.com/enkidevs/curriculum/pull/2507)
+- [Python - Syntax and Numerical Operators - Change insight order, add footnote](https://github.com/enkidevs/curriculum/pull/2496)
+
+### Fixed
+- [HTML - Update Hyperlinks - Fix improper rendering of answers](https://github.com/enkidevs/curriculum/pull/2508)
+
 ## December 17th 2020
 
 ## Changed
 - [Part six of making all the workout slugs unique](https://github.com/enkidevs/curriculum/pull/2503)
 - [Javascript - Arrays - add missing information](https://github.com/enkidevs/curriculum/pull/2504)
+
+## Fixed
+- [Spreadsheets - Why Would You Import Data - Fix wording](https://github.com/enkidevs/curriculum/pull/2505)
 
 ## December 16th 2020
 

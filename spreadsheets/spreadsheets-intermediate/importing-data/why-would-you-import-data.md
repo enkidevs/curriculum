@@ -12,7 +12,7 @@ category: how to
 ---
 ## Content
 
-More often than now, the data that you want to analyze will not be in your spreadsheet.
+More often than not, the data that you want to analyze will not be in your spreadsheet.
 
 It could be anything, from employee or income records to demographics.
 
