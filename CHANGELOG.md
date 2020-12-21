@@ -41,7 +41,7 @@ Types of change:
 ## WIP
 
 ### Added
-- [SQL - Building Queries - Discussion Insight]()
+- [SQL - Building Queries - Discussion Insight](https://github.com/enkidevs/curriculum/pull/2509)
 
 ### Changed
 
