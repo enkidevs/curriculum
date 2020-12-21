@@ -12,6 +12,7 @@ sections:
     - special-operators
   '1':
     - aggregate-queries
+    - joins-intro
     - joins
     - database-clients
 
