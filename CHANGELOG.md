@@ -40,6 +40,9 @@ Types of change:
 
 ## WIP
 
+### Added
+- [SQL - Aggregate Queries - Discussion Insight]()
+
 ### Changed
 
 ### Archived
