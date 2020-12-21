@@ -31,8 +31,8 @@ The main `pokemon` table has the following schema:
 | ... | ...       | ...        | ...    | ...    |
 
 Your task is to write a query that satisfies these conditions:
-- all Pokémon should be from **one generation**
-- all Pokémon should have at least one similar type
+- all Pokémon should be from **the same generation**
+- all Pokémon should have **the same type**
 
 It's up to you to choose which generation the Pokémon are from, and which type they have in common.
 
@@ -76,7 +76,8 @@ First, include the columns that you want to see in your result set:
 ```sql
 SELECT
   name,
-  region
+  region,
+  type_1
 FROM
   pokemon
 ```
@@ -90,7 +91,8 @@ SELECT
 FROM
   pokemon
 WHERE
-  region = 1;
+  region = 1 AND
+  type_1 = "Fire";
 ```
 
 Finally, after you've tested the query, you can copy and paste it in the comment section.
