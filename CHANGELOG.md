@@ -41,7 +41,7 @@ Types of change:
 ## WIP
 
 ### Added
-- [SQL - Insert - Discussion Insight]()
+- [SQL - Insert - Discussion Insight](https://github.com/enkidevs/curriculum/pull/2512)
 
 ### Changed
 
