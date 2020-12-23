@@ -16,11 +16,11 @@ Just like relational operators, logical operators only evaluate to `true` or `fa
 
 There are a total of three logical operators:
 
-| Operator | Definition                                                                     |
-|----------|--------------------------------------------------------------------------------|
-| `&&`     | `AND` evaluates to `true` if all of the conditions evaluate to `true`          |
-| `||`     | `OR` evaluates to `true` if at least one condition evaluates to `true`         |
-| `!`      | `NOT` evaluates to `true` if the condition evaluates to `false` and vice versa |
+| Operator     | Definition                                                                     |
+|--------------|--------------------------------------------------------------------------------|
+| &amp;&amp;   | `AND` evaluates to `true` if all of the conditions evaluate to `true`          |
+| &vert;&vert; | `OR` evaluates to `true` if at least one condition evaluates to `true`         |
+| !            | `NOT` evaluates to `true` if the condition evaluates to `false` and vice versa |
 
 
 Logical operators are commonly used in `if/if else` or `switch` statements.
