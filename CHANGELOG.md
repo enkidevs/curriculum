@@ -46,6 +46,11 @@ Types of change:
 
 ### Fixed
 
+## December 23rd 2020
+
+### Changed
+- [Javascript - Switch Statement - Reword sentence for clarity](https://github.com/enkidevs/curriculum/pull/2513)
+
 ## December 18th 2020
 
 ### Changed
