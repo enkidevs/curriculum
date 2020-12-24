@@ -46,6 +46,11 @@ Types of change:
 
 ### Fixed
 
+## December 24th 2020
+
+### Change
+- [Go - Go Range - Add another possible answer to the RQ](https://github.com/enkidevs/curriculum/pull/2516)
+
 ## December 18th 2020
 
 ### Changed
