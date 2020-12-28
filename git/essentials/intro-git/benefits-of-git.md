@@ -21,7 +21,8 @@ Let's talk a bit about what **Git** brings to the table.
 
 3. Something happened with the main version? **Recreate it** using a local version.
 
-4. It seems your new code introduces an unforseen bug. **Revert** the change until you find a fix.
+4. It seems your new code introduces an unfore
+seen bug. **Revert** the change until you find a fix.
 
 5. **Flexible**. It's not just for developers! You can also use it in *marketing*, *design*, and *HR* for example.
 
