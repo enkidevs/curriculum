@@ -48,6 +48,9 @@ Types of change:
 
 ## December 29th 2020
 
+### Changed
+- [React - What Is React? - Remove mentions of react being a library or framework]()
+
 ### Fixed
 - [Python - Debugging - Fix PQ by removing the extra answer gap](https://github.com/enkidevs/curriculum/pull/2521)
 
