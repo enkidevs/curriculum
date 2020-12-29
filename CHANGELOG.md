@@ -49,7 +49,7 @@ Types of change:
 ## December 29th 2020
 
 ### Fixed
-- [Python - Debugging - Fix PQ by removing the extra answer gap]()
+- [Python - Debugging - Fix PQ by removing the extra answer gap](https://github.com/enkidevs/curriculum/pull/2521)
 
 ## December 24th 2020
 
