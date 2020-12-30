@@ -46,6 +46,11 @@ Types of change:
 
 ### Fixed
 
+## December 30th 2020
+
+### Fixed
+- [SQL - Why Learn SQL? - Remove broken resource link](https://github.com/enkidevs/curriculum/pull/2524)
+
 ## December 29th 2020
 
 ### Fixed
