@@ -1,15 +1,18 @@
 ---
 author: Stefan-Stojanovic
+
 type: normal
+
 category: must-know
+
 links:
   - >-
     [HTML <section>
     Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/section){documentation}
+
 ---
 
-# The `<section>` Element
-
+# The Section Element
 
 ---
 
@@ -33,7 +36,6 @@ If an `<article>`, `<aside>`, or `<nav>` element is more appropriate in your HTM
 The `<section>` container element should be used only when the contents would be the information stored as an individual record in a database.
 
 It is encouraged to use the `<article>` element instead of the `<section>` element when it would make more sense to syndicate the contents of the element.
-
 
 ---
 
@@ -61,7 +63,6 @@ Authors are encouraged to use the `<article>` element instead of the `<section>`
 
 - True
 - False
-
 
 ---
 
