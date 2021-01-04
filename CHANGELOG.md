@@ -53,6 +53,9 @@ Types of change:
 - [Git - Cloning a Git repository - Fix PQ rendering](https://github.com/enkidevs/curriculum/pull/2527)
 - [Linux - Matching Multiple Files With Wildcards - Fix PQ rendering](https://github.com/enkidevs/curriculum/pull/2526)
 
+### Added
+- [HTML - Divisions and Spans - Add codepen example](https://github.com/enkidevs/curriculum/pull/2525)
+
 ## December 30th 2020
 
 ### Fixed
