@@ -1,19 +1,18 @@
 ---
 author: catalin
+
 type: normal
+
 category: best practice
+
 tags:
   - workout
   - deep
   - obscura
-notes: Im trying to make a Node workout based on security tips. This is one of them.
-links:
-  - >-
-    [blog.liftsecurity.io](https://blog.liftsecurity.io/2014/08/19/Avoid-Command-Injection-Node.js){website}
+
 ---
 
-# Avoid command injection
-
+# Avoid Command Injection
 
 ---
 
@@ -34,7 +33,6 @@ The problem is that `child_process.exec` makes a call to execute `/bin/sh`, mean
 When the user input is passed to the method - can be either *a backtick*  or `$()`, hence a new command can be injected by the attacker.
 
 The simple way to avoid this threat is by using `child_process.execFile` or `child_process.spawn`.
-
 
 ---
 

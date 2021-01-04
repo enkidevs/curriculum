@@ -5,7 +5,7 @@ category: must-know
 links:
   - >-
     [What Is
-    DNS?](https://www.cloudflare.com/learning/dns/what-is-dns/){article}
+    DNS?](https://www.cloudflare.com/en-gb/learning/dns/what-is-dns/){article}
   - '[RFC 1035 Defines DNS](https://www.ietf.org/rfc/rfc1035.txt){documentation}'
 ---
 
