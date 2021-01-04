@@ -52,6 +52,7 @@ Types of change:
 - [Content - Remove all inline code inside PQ/RQ answers to fix rendering](https://github.com/enkidevs/curriculum/pull/2528)
 - [Git - Cloning a Git repository - Fix PQ rendering](https://github.com/enkidevs/curriculum/pull/2527)
 - [Linux - Matching Multiple Files With Wildcards - Fix PQ rendering](https://github.com/enkidevs/curriculum/pull/2526)
+- [Coding intro - First Function - Fix wording in RQ](https://github.com/enkidevs/curriculum/pull/2529)
 
 ### Added
 - [HTML - Divisions and Spans - Add codepen example](https://github.com/enkidevs/curriculum/pull/2525)
