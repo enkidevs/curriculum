@@ -95,13 +95,12 @@ What could be done to Car in order to avoid the above problem?
 ???
 
 - No, Car has a non serializable field
-- Engine should be marked as `transient`
+- Engine should be marked as transient
 - Yes, Car is serializable
 - No, Car doesn't implement the necessary interface
 - No, Car doesn't inherit form a serializable class
-- Engine should be marked as `public`
-- Car should implement `clonable` interface
-
+- Engine should be marked as public
+- Car should implement clonable interface
 
 ---
 
@@ -125,7 +124,6 @@ What is the conventional extension of a file that the information about the clas
 - clonable
 - `.txt`
 - `public`
-
 
 ---
 

@@ -113,7 +113,7 @@ console.log(foo.bar)
 - will log 'enki'
 - will log 'baz'
 - will raise an error
-- will log `null`
+- will log null
 
 
 ---

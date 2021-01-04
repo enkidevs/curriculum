@@ -61,10 +61,10 @@ Which of the following formulas is used to average values based on a criterion?
 
 ???
 
-- =AVERAGEIF
-- =AVERAGE
-- =COUNTIF
-- =COUNT
+- `=AVERAGEIF`
+- `=AVERAGE`
+- `=COUNTIF`
+- `=COUNT`
 
 ---
 ## Revision
@@ -73,10 +73,10 @@ Which of the following formulas is used to count values based on a criterion?
 
 ???
 
-- =COUNTIF
-- =AVERAGEIF
-- =AVERAGE
-- =COUNT
+- `=COUNTIF`
+- `=AVERAGEIF`
+- `=AVERAGE`
+- `=COUNT`
 
 ---
 ## Footnotes

@@ -58,9 +58,8 @@ Which statement is true regarding `enctype`?
 ???
 
 - Specifies how the form-data should be encoded when submitted to a server.
-- Can be used only if `method="get"`.
-- The values `application/x-www-form-urlencoded` and `text/plain` convert spaces into `-` symbols.
-
+- `Can be used only if method="get"`.
+- `The values application/x-www-form-urlencoded and text/plain convert spaces into '-' symbols.`
 
 ---
 
@@ -75,7 +74,6 @@ Which input form attribute is used to specify an encoding type for your form?
 - encode
 - urlencoded
 - form
-
 
 ---
 

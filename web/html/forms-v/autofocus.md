@@ -52,7 +52,7 @@ Which statement isn't true regarding autofocus?
 - It should be assigned to every control in the form.
 - Automatically sets focus to assigned control when the page loads.
 - User can start using assigned control without having to select it first.
-- Can be assiged as: `autofocus` or `autofocus="autofocus"`
+- Can be assigned as: autofocus or autofocus="autofocus"
 
 ---
 

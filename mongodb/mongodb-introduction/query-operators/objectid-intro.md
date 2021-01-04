@@ -38,7 +38,7 @@ What is an `ObjectId`?
 
 ???
 
-- omit the `_id` field and let MongoDB create a unique `ObjectID`
-- An `ObjectId` is a 12-byte BSON type value that stores unique information about the document it was generated for.
-- An `ObjectId` is an object used to hold all the ids.
-- add a manually inputted value for the `_id` field that you can easily remember for later use
+- omit the _id field and let MongoDB create a unique ObjectID
+- An ObjectId is a 12-byte BSON type value that stores unique information about the document it was generated for.
+- An ObjectId is an object used to hold all the ids.
+- add a manually inputted value for the _id field that you can easily remember for later use
