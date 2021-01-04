@@ -82,8 +82,8 @@ How would we get the effect of adding another element to an immutable list?
 
 - Create a copy of the list with the new element added during creation.
 - Not possible.
-- use the `.append()` method on the list.
-- use the `+` operator.
+- `use the .append() method on the list.`
+- `use the + operator.`
 
 
 ---

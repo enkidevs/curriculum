@@ -62,4 +62,4 @@ Treatment
 - Fixing the bug
 - Handling the programmer error
 - Operational error
-- Enclosing the code inside a `try/catch` block
+- Enclosing the code inside a try/catch block

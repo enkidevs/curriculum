@@ -51,4 +51,4 @@ When handling exceptions, being more specific means:
 
 - Catching a particular exception.
 - Catching the generic exception.
-- Having multiple `try` blocks.
+- Having multiple try blocks.

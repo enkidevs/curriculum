@@ -56,4 +56,3 @@ To add a `Slider` to your webpage:
 - Click anywhere on the Canvas and left-click a `Slider` element from the `Add Elements` panel to add it to the previously clicked position.
 - Drag and drop a `Slider` element from the `Add Elements` panel anywhere on the canvas.
 - Drag and drop a `Slider` element from the `Add Elements` panel to a position in the `Navigator`.
- 

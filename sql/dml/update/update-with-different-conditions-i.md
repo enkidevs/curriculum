@@ -113,8 +113,8 @@ SET
 ???
 
 - All the records
-- All the records from `class = 2`
-- Only the records that don't have a `class`
+- All the records from class = 2
+- Only the records that don't have a class
 
 ---
 

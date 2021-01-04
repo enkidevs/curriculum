@@ -34,7 +34,7 @@ What is the main characteristic of any formula?
 
 ???
 
-- It has to start with a `=`
-- It cannot start with a `=`
-- It has to end with a `$`
-- It cannot end with a `$`
+- `It has to start with a =`
+- `It cannot start with a =`
+- `It has to end with a $`
+- `It cannot end with a $`

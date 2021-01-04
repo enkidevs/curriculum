@@ -111,6 +111,6 @@ How is method chaining typically enabled?
 
 ???
 
-- Implementing methods that return `this`
+- Implementing methods that return this
 - No need for implementation
 - Updating the object to allow this

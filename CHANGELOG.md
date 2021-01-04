@@ -49,6 +49,7 @@ Types of change:
 ## January 4th 2021
 
 ### Fixed
+- [Content - Remove all inline code inside PQ/RQ answers to fix rendering](https://github.com/enkidevs/curriculum/pull/2528)
 - [Git - Cloning a Git repository - Fix PQ rendering](https://github.com/enkidevs/curriculum/pull/2527)
 - [Linux - Matching Multiple Files With Wildcards - Fix PQ rendering](https://github.com/enkidevs/curriculum/pull/2526)
 

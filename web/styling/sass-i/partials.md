@@ -24,8 +24,7 @@ Partials are used with the `@import` directive, of which we will talk in the nex
 
 Sass knows that some `.scss` files are partials because ???
 
-- their name is starts with an `_`.
-- they contain the `@partial` directive.
-- they contain the `@partial` mixin.
+- `their name is starts with an _.`
+- `they contain the @partial directive.`
+- `they contain the @partial mixin.`
 - there are no CSS files generated for them.
- 

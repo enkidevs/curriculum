@@ -97,9 +97,9 @@ Where should **initial state** be set in a component class?
 
 ???
 
-- in `constructor(props)`
-- in `render()`
-- in `this.setState(initialState)`
+- `in constructor(props)`
+- `in render()`
+- `in this.setState(initialState)`
 - anywhere in the component
 
 

@@ -1,29 +1,20 @@
 ---
 author: rosielowther
 
-levels:
-
-  - basic
-
 type: normal
 
 category: must-know
 
-aspects:
-
-  - introduction
-  - workout
-  - obscura
-
 links:
-
   - >-
-    [git-scm.com](http://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes){website}
+    [Working With Remotes](http://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes){website}
 
 ---
+
 # Remote repositories: fetching and pushing
 
 ---
+
 ## Content
 
 If you are collaborating on a project stored in a remote repository, you will need to share and receive changes.
@@ -53,25 +44,31 @@ git push origin master
 Note: to be allowed to push you must have pulled the most recent version of the project and incorporated any changes into your code.
 
 ---
+
 ## Practice
 
 What does this command do?
+
 ```bash
 git push enki master
 ```
+
 ???
 
-* Shares `master` branch with `enki` repo.
-* Shares `enki` branch with `master` repo.
-* Gets `master` branch from `enki` repo.
+- Shares master branch with enki repo.
+- Shares enki branch with master repo.
+- Gets master branch from enki repo.
 
 ---
+
 ## Revision
 
 Get the data from the remote repository `enki`:
+
 ```bash
 git ??? ???
 ```
+
 * fetch
 * enki
 * origin
