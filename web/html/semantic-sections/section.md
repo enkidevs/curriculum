@@ -43,10 +43,10 @@ Which of these rules of thumb is not associated with using a `<section>` element
 
 ???
 
-- Use `<section>` when there is naturally a footer at the end of it.
-- If `<article>`, `<aside>`, or `<nav>` are more appropriate, don't use `<section>`.
-- Use `<section>` when there is naturally a heading at the start of it.
-- When a container for styling or scripting is needed, use a `<div>` and not `<section>`.
+- `Use <section> when there is naturally a footer at the end of it.`
+- `If <article>, <aside>, or <nav> are more appropriate, don't use <section>.`
+- `Use <section> when there is naturally a heading at the start of it.`
+- `When a container for styling or scripting is needed, use a <div> and not <section>.`
 
 
 ---

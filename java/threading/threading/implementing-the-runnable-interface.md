@@ -124,4 +124,4 @@ When implementing a `runnable` interface do we create a thread?
 ???
 
 - No, we create a runnable object that has to be passed to an instance of a Thread
-- Yes, we can call `start()` on it straight away as it is a runnable thread.
+- Yes, we can call start() on it straight away as it is a runnable thread.

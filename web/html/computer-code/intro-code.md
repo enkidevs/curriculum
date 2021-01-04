@@ -89,7 +89,7 @@ What will be the effect of wrapping this text in the *code* element?
 </code>
 ```
 
-- All text within `<code>` will display in monospace font.
-- Only the text "var x = 5;" will be displayed within the page because the other line has no semicolon.
-- All text within `<code>`, will display in arial font.
-- All text within `<code>` will display with syntax highlighting associated with the coding language.
+- `All text within <code> will display in monospace font.`
+- `Only the text "var x = 5;" will be displayed within the page because the other line has no semicolon.`
+- `All text within <code> will display in arial font.`
+- `All text within <code> will display with syntax highlighting associated with the coding language.`

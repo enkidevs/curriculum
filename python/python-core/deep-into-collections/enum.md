@@ -124,7 +124,7 @@ print(Car['bmw'])
 ```
 
 - Car.bmw
-- An error, it should be `Car('bmw')`
+- An error, it should be Car('bmw')
 - An error, strings and ints cannot be mixed
 - 1
 - bmw

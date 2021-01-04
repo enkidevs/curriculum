@@ -105,10 +105,10 @@ Use substitution to pass the content of the file to `curl`:
 
 If you want to use the output of a program as a command line argument, you would have to use ???.
 
-- $(...) or `...`
-- >
-- |
-- > >
+- `$(...) or ...`
+- `>`
+- `|`
+- `> >`
 
 ---
 

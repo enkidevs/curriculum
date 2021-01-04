@@ -63,7 +63,7 @@ Which of the following is not true about `child_process.exec`?
 
 ???
 
-- is literally the same as `child_process.spawn`
-- calls to execute `/bin/sh`
+- is literally the same as child_process.spawn
+- calls to execute /bin/sh
 - it's a bash interpreter
 - its calls can be targeted for command injection

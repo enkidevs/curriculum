@@ -36,6 +36,6 @@ How do you add new elements in Webflow?
 
 ???
 
-- By using the `Add Element Panel`.
-- By using the `Insert -> New -> Element` feature.
+- By using the Add Element Panel.
+- By using the Insert -> New -> Element feature.
  
