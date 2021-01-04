@@ -49,7 +49,7 @@ Types of change:
 ## January 4th 2021
 
 ### Fixed
-- [Linux - Matching Multiple Files With Wildcards - Fix PQ rendering]()
+- [Linux - Matching Multiple Files With Wildcards - Fix PQ rendering](https://github.com/enkidevs/curriculum/pull/2526)
 
 ## December 30th 2020
 
