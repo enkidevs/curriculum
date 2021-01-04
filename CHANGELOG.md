@@ -46,6 +46,11 @@ Types of change:
 
 ### Fixed
 
+## January 1st 2021
+
+### Added
+- [HTML - Divisions and Spans - Add codepen example](https://github.com/enkidevs/curriculum/pull/2525)
+
 ## December 30th 2020
 
 ### Fixed
