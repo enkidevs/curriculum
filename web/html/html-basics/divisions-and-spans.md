@@ -55,6 +55,8 @@ When using CSS to style `<div>` and `<span>` elements, ids and classes are often
 </div>
 ```
 
+Here is a [Codepen example](https://codepen.io/enkidevs/pen/dypmEXz) of the above code with and without CSS.
+
 
 ---
 
