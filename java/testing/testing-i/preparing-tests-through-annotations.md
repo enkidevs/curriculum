@@ -45,8 +45,8 @@ In case you need a *custom set up* function for a *single test* in a set, you sh
 ???
 
 - define and call it as a normal method
-- annotate it with @BeforeAll
-- annotate it with @BeforeEach
+- `annotate it with @BeforeAll`
+- `annotate it with @BeforeEach`
 - write a new test
 
 
