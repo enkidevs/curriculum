@@ -101,11 +101,11 @@ print(Shade.blue is Shade.green)
 ???
 ```
 
-- <enum 'Shade'>
+- `<enum 'Shade'>`
 - False
-- <class 'Shade'>
+- `<class 'Shade'>`
 - True
-- <enum 'Shade.blue'>
+- `<enum 'Shade.blue'>`
 
 
 ---

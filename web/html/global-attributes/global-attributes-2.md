@@ -72,9 +72,9 @@ Which 2 atributes use the same Drag and Drop APi?
 
 ???
 
-- `dropzone` and `draggable`
-- `contenteditable` and `draggable`
-- `dropzone` and `hidden`
-- `hidden` and `draggable`
-- `contenteditable` and `hidden`
-- `dropzone` and `contenteditable`
+- `dropzone and draggable`
+- `contenteditable and draggable`
+- `dropzone and hidden`
+- `hidden and draggable`
+- `contenteditable and hidden`
+- `dropzone and contenteditable`

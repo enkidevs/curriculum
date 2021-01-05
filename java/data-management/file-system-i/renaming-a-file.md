@@ -73,7 +73,7 @@ Why is it important to use try/catch block when working with files?
 - It returns a boolean value depending on whether operation was successful
 - There may not be a file that is specified by the path
 - It takes a new name of a file as a string value
-- `renameTo()` is a void function so it does not return anything
+- renameTo() is a void function so it does not return anything
 
 
 ---

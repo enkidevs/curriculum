@@ -79,10 +79,10 @@ HTTP/1.0" 200 468 "-" "Googlebot/2.1
 
 To change the default `awk` field separator, the ??? flag is used.
 
-- -F
-- -S
-- -s
-- -f
+- `-F`
+- `-S`
+- `-s`
+- `-f`
 
 
 ---

@@ -68,10 +68,10 @@ Which of the following can redirect the output of a process to a file?
 
 ???
 
-- >
-- <
-- |
-- $
+- `>`
+- `<`
+- `|`
+- `$`
 
 
 ---
