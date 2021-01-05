@@ -86,7 +86,7 @@ To look for directories with `find` you need
 
 ??? flag.
 
-- -type d
-- -type f
-- dir
-- -dir
+- `-type d`
+- `-type f`
+- `dir`
+- `-dir`

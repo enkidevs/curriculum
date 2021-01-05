@@ -56,9 +56,9 @@ new = filter(??? x: ???, ???)
 ```
 
 - lambda
-- x > 0
+- `x > 0`
 - l
-- x < 0
+- `x < 0`
 - map
 - list
 

@@ -87,5 +87,5 @@ public static void main(String[] args) {
 
 - If the file exists
 - If the stream is empty
-- If variable 'line' is a string
-- If 'stream.filter()' function exists
+- `If variable 'line' is a string`
+- `If 'stream.filter()' function exists`

@@ -90,7 +90,7 @@ const element = <h2>Enki<h2>;
 
 - immutable
 - mutable
-- **DOM** elements
+- DOM elements
 - components
 - classes
 

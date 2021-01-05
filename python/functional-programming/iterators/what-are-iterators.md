@@ -43,9 +43,9 @@ Which method(s) need to be implemented for an object to be classed as an iterato
 ???
 
 - `__next__()`
-- `__next__()`, `__iter__()`
-- `__iter__()`, `__getitem__()`
-- `__iter__()`, `__getitem__()`, `__next__()`
+- `__next__(), __iter__()`
+- `__iter__(), __getitem__()`
+- `__iter__(), __getitem__(), __next__()`
 
 
 ---

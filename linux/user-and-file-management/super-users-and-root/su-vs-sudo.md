@@ -58,7 +58,7 @@ What is a `sudoer`?
 
 - A user that can run one or more commands with elevated privileges.
 - The equivalent of root.
-- A user that can *always* run *all* the commands with elevated privileges.
+- A user that can always run all the commands with elevated privileges.
 - The machine on which a user can run commands with elevated privileges.
 
 

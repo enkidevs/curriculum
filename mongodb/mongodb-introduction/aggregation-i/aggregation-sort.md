@@ -97,9 +97,9 @@ What are the possible values for `$sort`?
 ???
 
 - To sort documents in ascending or descending order based on the specified field
-- `1` and `-1`
+- `1 and -1`
 - To sort documents by the number of fields they have
-- `1`, `0` and `-1`
+- `1, 0 and -1`
 
 
 ---

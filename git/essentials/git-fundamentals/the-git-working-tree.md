@@ -56,5 +56,5 @@ How are changes added to a repository?
 - Through a commit
 - Automatically
 - By staging them
-- By putting them in the **working tree**
+- By putting them in the working tree
  

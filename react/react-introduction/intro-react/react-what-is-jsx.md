@@ -102,10 +102,10 @@ const el = React.createElement(
 
 JSX expressions after compilation are transformed into ???.
 
-- `JavaScript` objects
-- `HTML` elements
-- `JSX` entities
-- `XML` elements
+- JavaScript objects
+- HTML elements
+- JSX entities
+- XML elements
 
 
 ---
