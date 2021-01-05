@@ -46,6 +46,11 @@ Types of change:
 
 ### Fixed
 
+## January 5th 2021
+
+### Fixed
+- [Java - Serial Version UID - Update Wording](https://github.com/enkidevs/curriculum/pull/2532)
+
 ## January 4th 2021
 
 ### Fixed
