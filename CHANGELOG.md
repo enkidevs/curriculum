@@ -46,6 +46,11 @@ Types of change:
 
 ### Fixed
 
+## January 5th 2021
+
+### Fixed
+- [HTML - Formenctype - Replace enctype with formenctype](https://github.com/enkidevs/curriculum/pull/2531)
+
 ## January 4th 2021
 
 ### Fixed
