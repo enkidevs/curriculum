@@ -46,10 +46,12 @@ Types of change:
 
 ### Fixed
 
-## January 5th 2020
+## January 5th 2021
 
 ### Fixed
 - [Content - Remove markdown from question answers](https://github.com/enkidevs/curriculum/pull/2534)
+- [Java - Serial Version UID - Update Wording](https://github.com/enkidevs/curriculum/pull/2532)
+- [HTML - Formenctype - Replace enctype with formenctype](https://github.com/enkidevs/curriculum/pull/2531)
 
 ## January 4th 2021
 
@@ -61,6 +63,9 @@ Types of change:
 
 ### Added
 - [HTML - Divisions and Spans - Add codepen example](https://github.com/enkidevs/curriculum/pull/2525)
+
+### Changed
+- [Javascript - Switch Statement - Reword sentence for clarity](https://github.com/enkidevs/curriculum/pull/2513)
 
 ## December 30th 2020
 
@@ -76,6 +81,7 @@ Types of change:
 
 ### Change
 - [Go - Go Range - Add another possible answer to the RQ](https://github.com/enkidevs/curriculum/pull/2516)
+
 
 ## December 18th 2020
 

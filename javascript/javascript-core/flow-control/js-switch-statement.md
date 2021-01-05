@@ -40,7 +40,7 @@ switch (a) {
 
 The `default` case in a `switch` statement is like the last `else` in an `if..else` chain. It will be reached if none of the previously tested conditions are `true`.
 
-The `break` statement is needed to, as you might've already guessed, break out of the `switch` statement.
+As you might've already guessed, the `break` statement is needed to break out of the `switch` statement.
 
 In case you omit `break`, `switch` will run all the following cases until it encounters `break`.
 
