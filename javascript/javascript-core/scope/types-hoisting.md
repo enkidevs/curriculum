@@ -67,5 +67,5 @@ What does **hoisting** mean?
 
 - Variable declarations using var are processed before their initializations
 - Variable declarations must come before method declarations
-- A general rule for special programs called **linters**
+- A general rule for special programs called linters
 - Variable declarations can have different names

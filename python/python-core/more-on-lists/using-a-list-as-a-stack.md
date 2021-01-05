@@ -48,11 +48,11 @@ stack.???
 ???.???
 ```
 
-- pop()
-- stack
-- append(20)
-- append()
-- push(20)
+- `pop()`
+- `stack`
+- `append(20)`
+- `append()`
+- `push(20)`
 
 
 ---

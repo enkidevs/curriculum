@@ -111,7 +111,7 @@ Which of these operators are Object expression operators?
 
 ???
 
-- `$objectToArray` and `$mergeObjects`
+- `$objectToArray and $mergeObjects`
 - `$fromObjectToAnArray`
-- `$arrayToObjects` and `$mergeArrays`
-- `$objectToArray` and `$arrayToObject`
+- `$arrayToObjects and $mergeArrays`
+- `$objectToArray and $arrayToObject`

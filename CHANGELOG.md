@@ -49,6 +49,7 @@ Types of change:
 ## January 5th 2021
 
 ### Fixed
+- [Content - Remove markdown from question answers](https://github.com/enkidevs/curriculum/pull/2534)
 - [Java - Serial Version UID - Update Wording](https://github.com/enkidevs/curriculum/pull/2532)
 - [HTML - Formenctype - Replace enctype with formenctype](https://github.com/enkidevs/curriculum/pull/2531)
 

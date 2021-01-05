@@ -43,10 +43,10 @@ Which of the following properties will “glue” an element to its place?
 
 ???
 
-- position: fixed;
-- z-index: 9999;
-- position: relative;
-- left:0px;
+- `position: fixed;`
+- `z-index: 9999;`
+- `position: relative;`
+- `left:0px;`
 
 
 ---
