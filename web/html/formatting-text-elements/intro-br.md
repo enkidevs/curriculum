@@ -92,7 +92,7 @@ Cupertino, CA
 
 ???
 
-- Add `<br>`'s to create each new line.
+- `Add <br>'s to create each new line.`
 - Add paragraphs to each new line.
 - New lines should be created using line-height.
 - New lines are not possible within a single paragraph.

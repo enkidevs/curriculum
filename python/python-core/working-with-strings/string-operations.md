@@ -13,7 +13,7 @@ category: must-know
 
 ## Content
 
-Strings are bits of text either defined with 'single' or "double" quotations. Python has a number of build in methods which perform a variety of operations on strings.
+Strings are bits of text either defined with 'single' or "double" quotations. Python has a number of built-in methods which perform a variety of operations on strings.
 
 First we'll declare a string for method testing purposes:
 
@@ -28,7 +28,7 @@ print(len(testString))
 # 10
 ```
 
-The `index` method returns the location of the first occurence of a specified character:
+The `index` method returns the location of the first occurrence of a specified character:
 
 ```python
 print(testString.index("r"))
@@ -44,7 +44,7 @@ print(testString.count("o"))
 # 2
 ```
 
-The following examples prints a `slice` of a string.
+The following example prints a `slice` of a string.
 
 ```python
 print(testString[2:8])

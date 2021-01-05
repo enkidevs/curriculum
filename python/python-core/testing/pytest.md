@@ -92,11 +92,10 @@ For `pytest` to collect an assertion function, its name has
 
 ???
 
-- to start with `test_`
-- to end in `_test`
-- to contain `assert`
+- `to start with test_`
+- `to end in _test`
+- `to contain assert`
 - either one of these
-
 
 ---
 

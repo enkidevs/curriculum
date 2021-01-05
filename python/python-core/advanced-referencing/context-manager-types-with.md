@@ -100,7 +100,7 @@ What functionality does `with` carry in a `with context as name` block in Python
 ???
 
 - `try/except/finally`
-- It automatically cleans up the `context` resource after use.
+- It automatically cleans up the context resource after use.
 - It ensures that context object exists and if doesn't the compiler will throw an error.
 - `try/catch`
 - `exceptions`

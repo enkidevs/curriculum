@@ -46,10 +46,35 @@ Types of change:
 
 ### Fixed
 
-## December 23rd 2020
+## January 4th 2021
+
+### Fixed
+- [Content - Remove all inline code inside PQ/RQ answers to fix rendering](https://github.com/enkidevs/curriculum/pull/2528)
+- [Git - Cloning a Git repository - Fix PQ rendering](https://github.com/enkidevs/curriculum/pull/2527)
+- [Linux - Matching Multiple Files With Wildcards - Fix PQ rendering](https://github.com/enkidevs/curriculum/pull/2526)
+- [Coding intro - First Function - Fix wording in RQ](https://github.com/enkidevs/curriculum/pull/2529)
+
+### Added
+- [HTML - Divisions and Spans - Add codepen example](https://github.com/enkidevs/curriculum/pull/2525)
 
 ### Changed
 - [Javascript - Switch Statement - Reword sentence for clarity](https://github.com/enkidevs/curriculum/pull/2513)
+
+## December 30th 2020
+
+### Fixed
+- [SQL - Why Learn SQL? - Remove broken resource link](https://github.com/enkidevs/curriculum/pull/2524)
+
+## December 29th 2020
+
+### Fixed
+- [Python - Debugging - Fix PQ by removing the extra answer gap](https://github.com/enkidevs/curriculum/pull/2521)
+
+## December 24th 2020
+
+### Change
+- [Go - Go Range - Add another possible answer to the RQ](https://github.com/enkidevs/curriculum/pull/2516)
+
 
 ## December 18th 2020
 

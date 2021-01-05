@@ -77,10 +77,10 @@ random(2);
 
 - 150%
 - 1px
-- random value : `1 <= x <= 2`
+- `random value : 1 <= x <= 2`
 - 120%
 - 1.2%
 - -1px
 - 0px
-- random value : `0 <= x <= 2`
-- random value : `x < 2`
+- `random value : 0 <= x <= 2`
+- `random value : x < 2`

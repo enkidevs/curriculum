@@ -63,8 +63,8 @@ Why would you use a dependency array in your `useEffect()` hook call?
 
 - To reduce the number of re-renders.
 - To increase the number of re-renders.
-- To save the `state` value at a certain point in time.
-- To have access to multiple versions of the `state`.
+- To save the state value at a certain point in time.
+- To have access to multiple versions of the state.
 
 
 ---

@@ -102,7 +102,7 @@ if (true) {
 ```
 
 - throw an error
-- assign 22 to enki within the `if`'s scope
+- assign 22 to enki within the if's scope
 - also throw an error
 - re-assign 22 to enki
 
@@ -126,4 +126,4 @@ if (true) {
 - yes, because the second assignment is in a different scope
 - yes, because the value is changed
 - no, because you can't redeclare a variable
-- no, because the `if` block doesn't have it's own scope
+- no, because the if block doesn't have it's own scope

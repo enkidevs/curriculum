@@ -1,15 +1,18 @@
 ---
 author: Stefan-Stojanovic
+
 type: normal
+
 category: must-know
+
 links:
   - >-
     [HTML <section>
     Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/section){documentation}
+
 ---
 
-# The `<section>` Element
-
+# The Section Element
 
 ---
 
@@ -34,7 +37,6 @@ The `<section>` container element should be used only when the contents would be
 
 It is encouraged to use the `<article>` element instead of the `<section>` element when it would make more sense to syndicate the contents of the element.
 
-
 ---
 
 ## Practice
@@ -43,10 +45,10 @@ Which of these rules of thumb is not associated with using a `<section>` element
 
 ???
 
-- Use `<section>` when there is naturally a footer at the end of it.
-- If `<article>`, `<aside>`, or `<nav>` are more appropriate, don't use `<section>`.
-- Use `<section>` when there is naturally a heading at the start of it.
-- When a container for styling or scripting is needed, use a `<div>` and not `<section>`.
+- `Use <section> when there is naturally a footer at the end of it.`
+- `If <article>, <aside>, or <nav> are more appropriate, don't use <section>.`
+- `Use <section> when there is naturally a heading at the start of it.`
+- `When a container for styling or scripting is needed, use a <div> and not <section>.`
 
 
 ---
@@ -61,7 +63,6 @@ Authors are encouraged to use the `<article>` element instead of the `<section>`
 
 - True
 - False
-
 
 ---
 
@@ -80,5 +81,3 @@ Which HTML container element should be used only when the contents would be info
 - `<data>`
 - `<database>`
 - `<record>`
-
-<!--As blogposts and comments are often syndicated (by being pulled into other blogs or being linked via twitter, reddit etc) they should be articles. Cite: http://html5doctor.com/the-section-element/ -->

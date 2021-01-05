@@ -82,5 +82,5 @@ Which of the following statements is considered true?
 
 - The number type in JavaScript support both whole and decimal numbers
 - Boolean type has three options
-- You need the `Math` object to add numbers
+- You need the Math object to add numbers
 - Boolean types use **Upper case**

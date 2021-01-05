@@ -54,7 +54,7 @@ In order for the JavaScript file to be a module, it must have
 
 ???
 
-- a non-empty `exports` object
+- a non-empty exports object
 - at least one function
 - constants
 - at least one non-void function

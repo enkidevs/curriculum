@@ -66,7 +66,7 @@ Match the definitions with their name:
 ---
 ## Revision
 
-The data given to the function is called an ??? and the result the function products is called an ???
+The data given to the function is called an ??? and the result the function produces is called an ???
 
 - input
 - output

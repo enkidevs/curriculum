@@ -59,10 +59,10 @@ Why can using "©" for a copyright symbol be easier to code?
 
 ???
 
-- Because `©` isn't available on your keyboard.
-- Typing `©` on your keyboard is easier than using `&copy;`.
+- `Because © isn't available on your keyboard.`
+- `Typing © on your keyboard is easier than using &copy;.`
 - There is no good way to code the copyright symbol.
-- `&copy;` is smaller in filesize, loading faster.
+- `&copy; is smaller in filesize, loading faster.`
 
 
 ---
