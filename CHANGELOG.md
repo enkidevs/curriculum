@@ -46,6 +46,11 @@ Types of change:
 
 ### Fixed
 
+## January 5th 2020
+
+### Fixed
+- [Content - Remove markdown from question answers](https://github.com/enkidevs/curriculum/pull/2534)
+
 ## January 4th 2021
 
 ### Fixed
