@@ -50,6 +50,7 @@ Types of change:
 
 ### Fixed
 - [Java - Serial Version UID - Update Wording](https://github.com/enkidevs/curriculum/pull/2532)
+- [HTML - Formenctype - Replace enctype with formenctype](https://github.com/enkidevs/curriculum/pull/2531)
 
 ## January 4th 2021
 
