@@ -57,6 +57,9 @@ Types of change:
 ### Added
 - [HTML - Divisions and Spans - Add codepen example](https://github.com/enkidevs/curriculum/pull/2525)
 
+### Changed
+- [Javascript - Switch Statement - Reword sentence for clarity](https://github.com/enkidevs/curriculum/pull/2513)
+
 ## December 30th 2020
 
 ### Fixed
@@ -71,6 +74,7 @@ Types of change:
 
 ### Change
 - [Go - Go Range - Add another possible answer to the RQ](https://github.com/enkidevs/curriculum/pull/2516)
+
 
 ## December 18th 2020
 
