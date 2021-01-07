@@ -73,7 +73,7 @@ arr.length = 4;
 ```
 
 - length
-- `[1,2,<2 empty items>]`
+- `[1, 2, <2 empty items>]`
 - size
 - `[1,2,<3 empty items>]`
 
