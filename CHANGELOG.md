@@ -46,6 +46,11 @@ Types of change:
 
 ### Fixed
 
+## January 7th 2021
+
+### Changed
+- [Javascript - Setting The Length of An Array - Update information about empty array items](https://github.com/enkidevs/curriculum/pull/2535)
+
 ## January 5th 2021
 
 ### Fixed
