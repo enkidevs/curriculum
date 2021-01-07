@@ -46,7 +46,7 @@ a.length = 4;
 
 Extending an array without adding values would create empty item slots, also called *holes*. An array with *holes* is also referred to as a *sparse* array.
 
-> Check out the link in the links section to read more about *sparse* arrays and *holes*.
+> 💡 Check out the *Learn More* section for more information about *sparse* arrays and *holes*.
 
 Finally, to truncate to zero:
 
