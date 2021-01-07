@@ -5,8 +5,10 @@ category: hack
 tags:
   - introduction
   - obscura
+
 links:
-- '[Array holes](https://medium.com/better-programming/what-are-holes-in-arrays-3ac5fcbcd1c){website}'
+  - >-
+    [Array Holes](https://medium.com/better-programming/what-are-holes-in-arrays-3ac5fcbcd1c){website}
 ---
 
 # Setting the Length of an Array
