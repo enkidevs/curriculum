@@ -94,7 +94,7 @@ names.length = 0;
 // names = ???
 ```
 
-- `["John","Mary","Tom", <1 empty item>]`
+- `["John", "Mary", "Tom",  <1 empty item>]`
 - `[ ]`
 - `[undefined,undefined,undefined, undefined]`
 - `["John","Mary","Tom"]`
