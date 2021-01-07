@@ -73,9 +73,9 @@ arr.length = 4;
 ```
 
 - length
-- `[1, 2, <2 empty items>]`
+- `[1, 2, <1 empty item>, <1 empty item>]`
 - size
-- `[1, 2, <3 empty items>]`
+- `[1, 2, undefined, undefined]`
 
 
 ---
