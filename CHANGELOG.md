@@ -46,6 +46,9 @@ Types of change:
 
 ### Fixed
 
+## January 11th 2021
+- [Go - Assignment Operators - Fix incorrect RQ answer](https://github.com/enkidevs/curriculum/pull/2536)
+
 ## January 5th 2021
 
 ### Fixed
