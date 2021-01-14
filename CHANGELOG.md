@@ -46,7 +46,14 @@ Types of change:
 
 ### Fixed
 
+## January 14th 2021
+
+### Fixed
+- [Linux - Manipulating Environments - Fix incorrect syntax for PQ code block](https://github.com/enkidevs/curriculum/pull/2537)
+
 ## January 11th 2021
+
+### Fixed
 - [Go - Assignment Operators - Fix incorrect RQ answer](https://github.com/enkidevs/curriculum/pull/2536)
 
 ## January 5th 2021
