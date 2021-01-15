@@ -21,8 +21,6 @@ links:
 
 ## Content
 
-`AVG` returns the average numerical value of a given column.
-
 Using the following segment of the `experience` **table**:
 
 | id | level | experience | growth_rate_id |
