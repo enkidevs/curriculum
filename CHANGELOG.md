@@ -49,8 +49,8 @@ Types of change:
 ## January 15th 2021
 
 ### Fixed
-- [JavaScript - Executing Programs With Node - Fix grammatical error]()
-- [Linux - Using `find` To Search By File Size - Fix grammatical error]()
+- [JavaScript - Executing Programs With Node - Fix grammatical error](https://github.com/enkidevs/curriculum/pull/2538)
+- [Linux - Using `find` To Search By File Size - Fix grammatical error](https://github.com/enkidevs/curriculum/pull/2538)
 
 ## January 14th 2021
 
