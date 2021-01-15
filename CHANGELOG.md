@@ -49,6 +49,7 @@ Types of change:
 ## January 15th 2021
 
 ### Fixed
+- [HTML - The <blockquote> Element - Fix headline and resource title](https://github.com/enkidevs/curriculum/pull/2541)
 - [Python - Nose Testing - Fix resource link title](https://github.com/enkidevs/curriculum/pull/2540)
 - [Python - The from...import statement - Re-add deleted footnote](https://github.com/enkidevs/curriculum/pull/2539)
 - [JavaScript - Executing Programs With Node - Fix grammatical error](https://github.com/enkidevs/curriculum/pull/2538)
