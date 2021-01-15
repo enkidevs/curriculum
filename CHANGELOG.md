@@ -46,6 +46,12 @@ Types of change:
 
 ### Fixed
 
+## January 15th 2021
+
+### Fixed
+- [JavaScript - Executing Programs With Node - Fix grammatical error]()
+- [Linux - Using `find` To Search By File Size - Fix grammatical error]()
+
 ## January 14th 2021
 
 ### Fixed
