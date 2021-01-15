@@ -65,6 +65,16 @@ In the Application Layer is ???.
 
 ---
 
+## Footnotes
+
+[1: GUI]
+
+**GUI** (short for **graphical user interface**) is a system of interactive visual components for computer software.
+
+It allows users to interact with the software through graphical icons and audio indicators, instead of text-based user interfaces.
+
+---
+
 ## Quiz
 
 ### What role does this Layer play in the OSI 7 Layer Model?
