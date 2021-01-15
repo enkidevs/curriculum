@@ -49,6 +49,7 @@ Types of change:
 ## January 15th 2021
 
 ### Fixed
+- [Python - The from...import statement - Re-add deleted footnote]()
 - [JavaScript - Executing Programs With Node - Fix grammatical error](https://github.com/enkidevs/curriculum/pull/2538)
 - [Linux - Using `find` To Search By File Size - Fix grammatical error](https://github.com/enkidevs/curriculum/pull/2538)
 
