@@ -1,14 +1,18 @@
 ---
 author: SebaRaba
+
 type: normal
+
 category: must-know
+
 links:
   - >-
-    [Node
+    [Nose
     introduction](http://pythontesting.net/framework/nose/nose-introduction/){website}
+
 ---
 
-# Nose testing
+# Nose Testing
 
 
 ---
