@@ -40,6 +40,9 @@ Types of change:
 
 ## WIP
 
+### Added
+- [SQL - Update - Discussion Insight](https://github.com/enkidevs/curriculum/pull/2523)
+
 ### Changed
 
 ### Archived
