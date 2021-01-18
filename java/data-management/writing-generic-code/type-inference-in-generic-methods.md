@@ -32,11 +32,11 @@ public <E> boolean oneBiggerThanTwo(
 Then we can call it by:
 
 ```java
-boolean bool1 = <Integer>compare
+boolean bool1 = <Integer>oneBiggerThanTwo
                 (Integer.valueOf(13),
                 Integer.valueOf(37));
 //or using type inference
-boolean bool2 = compare
+boolean bool2 = oneBiggerThanTwo
                 (Integer.valueOf(13),
                 Integer.valueOf(37));
 ```
