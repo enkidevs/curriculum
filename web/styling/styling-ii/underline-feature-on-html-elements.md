@@ -71,6 +71,6 @@ a {
 
  ???
 
-- Removes the natural underline feature on all <a> elements.
-- Reverts and changes made to the text in all <a> elements, such as different colors.
-- Adds the natural underline feature to all <a> elements.
+- `Removes the natural underline feature on all <a> elements.`
+- `Reverts and changes made to the text in all <a> elements, such as different colors.`
+- `Adds the natural underline feature to all <a> elements.`

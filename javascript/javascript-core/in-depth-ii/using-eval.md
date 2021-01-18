@@ -55,7 +55,7 @@ let b = eval(str);
 
 Executing javascript code passed in as a string is done with the function ???
 
-- eval()
-- evil()
-- evaluate()
-- (string).toJS()
+- `eval()`
+- `evil()`
+- `evaluate()`
+- `(string).toJS()`

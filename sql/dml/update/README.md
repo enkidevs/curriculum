@@ -11,3 +11,4 @@ insights:
   - update-multiple-columns
   - update-with-different-conditions-i
   - update-with-different-conditions-ii
+  - update-discussion-insight

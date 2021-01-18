@@ -88,8 +88,8 @@ Suppose we receive a `.ser` file which stores information about some `Car` objec
 
 ???
 
-- It will be `null`
-- Deserialing an object with `transient` filed will cause a program termination
+- It will be null
+- Deserialing an object with transient filed will cause a program termination
 - It will be a random address value
 
 

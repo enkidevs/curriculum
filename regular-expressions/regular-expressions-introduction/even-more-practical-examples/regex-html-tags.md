@@ -51,10 +51,10 @@ How could we write a regex pattern to match all `<div>` tags?
 
 ???
 
-- /<div[^>]*>.*?<\/div>/
-- /<div.*>.*?<\/div>/
-- /<div[^>]*><\/div>/
-- /<div[^>]*>.*?</div>/
+- `/<div[^>]*>.*?<\/div>/`
+- `/<div.*>.*?<\/div>/`
+- `/<div[^>]*><\/div>/`
+- `/<div[^>]*>.*?</div>/`
 
 ---
 ## Revision
@@ -63,7 +63,7 @@ How could we write a regex pattern to match all `<img>` tags?
 
 ???
 
-- /<img[^>]*>.*?<\/img>/
-- /<img.*>.*?<\/img>/
-- /<img[^>]*><\/img>/
-- /<img[^>]*>.*?</img>/
+- `/<img[^>]*>.*?<\/img>/`
+- `/<img.*>.*?<\/img>/`
+- `/<img[^>]*><\/img>/`
+- `/<img[^>]*>.*?</img>/`

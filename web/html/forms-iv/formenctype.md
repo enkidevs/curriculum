@@ -53,14 +53,13 @@ In the example above we have set all the spaces in the form to convert to a `+` 
 
 ## Practice
 
-Which statement is true regarding `enctype`?
+Which statement is true regarding `formenctype`?
 
 ???
 
 - Specifies how the form-data should be encoded when submitted to a server.
-- Can be used only if `method="get"`.
-- The values `application/x-www-form-urlencoded` and `text/plain` convert spaces into `-` symbols.
-
+- `Can be used only if method="get"`.
+- `The values application/x-www-form-urlencoded and text/plain convert spaces into '-' symbols.`
 
 ---
 
@@ -76,7 +75,6 @@ Which input form attribute is used to specify an encoding type for your form?
 - urlencoded
 - form
 
-
 ---
 
 ## Quiz
@@ -84,7 +82,7 @@ Which input form attribute is used to specify an encoding type for your form?
 ### How much do you know about HTML input form attributes?
 
 
-Which statement is not true regarding `enctype`?
+Which statement is not true regarding `formenctype`?
 
 - The values `application/x-www-form-urlencoded` and `text/plain` convert spaces into "-" symbols.
 - specifies how the form-data should be encoded when submitted to a server.

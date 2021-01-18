@@ -63,8 +63,8 @@ let multiply = function times(x, y) {
 
 ???
 
-- A function expression of a function named `times` assigned to the variable `multiply`.
-- A function `times` being declared.
+- A function expression of a function named times assigned to the variable multiply.
+- A function times being declared.
 - Function expression of an anonymous function.
 
 
@@ -83,7 +83,7 @@ let multiply = function(x, y) {
 ???
 
 - function expression of an anonymous function
-- function defined with `function` constructor
-- function expression of a `function` named `mult`
+- function defined with function constructor
+- function expression of a function named mult
 - all
 - none

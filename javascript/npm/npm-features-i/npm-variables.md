@@ -67,10 +67,10 @@ The prefix needed to invoke preconfigured values is:
 
 ???
 
-- $npm*package_config*
-- npm*package_config*
-- npm_package_config
-- $npm_config
+- `$npm*package_config*`
+- `npm*package_config*`
+- `npm_package_config`
+- `$npm_config`
 
 
 ---
@@ -85,6 +85,6 @@ npm ??? ??? ??? newValue
 
 - config
 - set
-- packageName:property
+- `packageName:property`
 - property
-- -s
+- `-s`

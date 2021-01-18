@@ -38,8 +38,8 @@ Streams allow data to ??? and ???.
 - WritableReadable
 - processed in chunks
 - processed in one go
-- read into `fs` module
-- used by the `request` module
+- read into fs module
+- used by the request module
 
 
 ---

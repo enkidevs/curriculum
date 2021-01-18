@@ -84,7 +84,7 @@ User root
 
 You can alias *ssh connections* by editing the ??? file .
 
-- .ssh/config
-- .ssh/connections
-- .ssh/servers
-- .ssh/alias
+- `.ssh/config`
+- `.ssh/connections`
+- `.ssh/servers`
+- `.ssh/alias`

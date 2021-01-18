@@ -66,9 +66,9 @@ arr.length = 4;
 ```
 
 - length
-- [1,2,undefined,undefined]
+- `[1,2,undefined,undefined]`
 - size
-- [1,2,undefined,undefined,undefined]
+- `[1,2,undefined,undefined,undefined]`
 
 
 ---
@@ -87,7 +87,7 @@ names.length = 0;
 // names = ???
 ```
 
-- ["John","Mary","Tom", undefined]
-- [ ]
-- [undefined,undefined,undefined, undefined]
-- ["John","Mary","Tom"]
+- `["John","Mary","Tom", undefined]`
+- `[ ]`
+- `[undefined,undefined,undefined, undefined]`
+- `["John","Mary","Tom"]`

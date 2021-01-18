@@ -70,7 +70,7 @@ What symbol must a pseudo-class be preceded by?
 What is the common order of pseudo-classes used for links?
 ??? ??? ??? ???
 
-- ps:link {
-- ps:visited {
-- ps:hover {
-- ps:active {
+- `ps:link {`
+- `ps:visited {`
+- `ps:hover {`
+- `ps:active {`

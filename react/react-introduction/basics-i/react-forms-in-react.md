@@ -139,10 +139,10 @@ What is a **controlled component**?
 
 A component ???.
 
-- whose `state` is the **single source of truth**
-- using **React**-specific *form elements*
-- without `props`
-- with any *HTML form elements*
+- whose state is the single source of truth
+- using React-specific form elements
+- without props
+- with any HTML form elements
 
 
 ---
