@@ -49,7 +49,7 @@ Types of change:
 ## January 18th 2021
 
 ### Changed
-- [Discussion Insights - Update ending note on complexity of the submission]()
+- [Discussion Insights - Update ending note on complexity of the submission](https://github.com/enkidevs/curriculum/pull/2544)
 
 ## January 15th 2021
 
