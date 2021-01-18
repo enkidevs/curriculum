@@ -84,7 +84,7 @@ How are Javascript strings represented?
 
 ???
 
-- UTF-16
-- UTF-8
-- UTF-32
-- US-ASCII
+- `UTF-16`
+- `UTF-8`
+- `UTF-32`
+- `US-ASCII`

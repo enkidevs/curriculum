@@ -58,10 +58,9 @@ git reset --patch enki.md
 
 ???
 
-- interactively removes changes made to `enki.md`
-- restores `enki.md` to the last version
+- interactively removes changes made to enki.md
+- restores enki.md to the last version
 - untracks enki.md
-
 
 ---
 

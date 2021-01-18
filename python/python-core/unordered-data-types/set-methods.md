@@ -65,10 +65,10 @@ Which of the following are both valid `set` methods?
 
 ???
 
-- `update()` and `add()`
-- `update()` and `insert()`
-- `insert()` and `add()`
-- `index()` and `update()`
+- `update() and add()`
+- `update() and insert()`
+- `insert() and add()`
+- `index() and update()`
 
 
 ---

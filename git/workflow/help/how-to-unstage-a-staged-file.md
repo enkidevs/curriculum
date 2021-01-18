@@ -40,12 +40,11 @@ git add enki.md games.md
 git reset 
 ```
 
- ???
+???
 
-- Unstage `enki.md` and `games.md`
-- Unstage `games.md`
-- Delete `enki.md` and `games.md`
-
+- Unstage enki.md and games.md
+- Unstage games.md
+- Delete enki.md and games.md
 
 ---
 

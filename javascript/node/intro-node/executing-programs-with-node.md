@@ -1,16 +1,20 @@
 ---
 author: tommarshall
+
 type: normal
+
 category: must-know
+
 tags:
   - introduction
+
 links:
   - >-
     [nodeguide.com](http://nodeguide.com/beginner.html#the-interactive-node.js-shell){website}
+
 ---
 
-# Executing programs with Node
-
+# Executing Programs With Node
 
 ---
 
@@ -27,7 +31,7 @@ To run any JavaScript program using Node use the following generic command:
 
 ```bash
 node filename.js
-# filename.js will be ran
+# filename.js will be run
 ```
 
 In this case, to run the *main.js* file the following command would be used:

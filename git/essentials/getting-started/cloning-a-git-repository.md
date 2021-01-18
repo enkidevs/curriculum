@@ -1,16 +1,18 @@
 ---
 author: catalin
+
 type: normal
+
 category: must-know
-inAlgoPool: false
+
 links:
   - >-
     [Git Clone Official
     Documentation](https://www.atlassian.com/git/tutorials/setting-up-a-repository/git-clone){website}
+
 ---
 
 # Cloning a Git repository
-
 
 ---
 
@@ -28,11 +30,13 @@ The syntax used to clone a repository is:
 git clone [URL]
 ```
 
-You can clone any open-source project or even private ones as long as you have the right credentials. For example, you can clone the `reduck` library from its specific URL:
+You can clone any open-source project or even private ones as long as you have the right credentials.
+
+For example, you can clone the `reduck` library from its specific URL:
 
 ```bash
 git clone
-    https://github.com/enkidevs/reduck
+  https://github.com/enkidevs/reduck
 ```
 
 Running this command will:
@@ -45,12 +49,12 @@ Running this command will:
 Another name for the parent directory can be specified as follows:
 
 ```bash
-git clone https://github.com/enki/repo \
-                            myAwesomeClone
+git clone 
+  https://github.com/enki/repo \
+    myAwesomeClone
 ```
 
 Apart from the `https` protocol used above, `git` also supports transfer through **SSH** and local protocols.
-
 
 ---
 
@@ -61,10 +65,9 @@ What's the last step **Git** automatically does after running `git clone`?
 ???
 
 - checks out a working copy of the latest version of the project
-- initializes the `.git` directory
-- pulls repository data in the `.git` directory
+- initializes the .git directory
+- pulls repository data in the .git directory
 - create a new folder directory
-
 
 ---
 

@@ -45,7 +45,7 @@ Which of the following elements does not accept top and bottom margin?
 - Inline
 - Block
 - Inline-block
-- Those that have `display:none`
+- `Those that have display:none`
 
 
 ---

@@ -85,10 +85,10 @@ main();
 
 ???
 
-- No error shown, only the message `reject_example`.
-- An exception with the message `throw_example`.
-- An exception with the message `reject_example`.
-- No error shown, only the message `throw_example`.
+- No error shown, only the message reject_example.
+- An exception with the message throw_example.
+- An exception with the message reject_example.
+- No error shown, only the message throw_example.
 
 
 ---

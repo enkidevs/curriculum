@@ -111,11 +111,10 @@ Which JS capabilities are commonly used in **React** for **conditional rendering
 
 ???
 
-- standard `JS` - `if`s and ternary operators
-- the `renderIf` special method
-- the `renderIfElse` special method
-- you can't conditional render in **React**
-
+- `standard JS - ifs and ternary operators`
+- the renderIf special method
+- the renderIfElse special method
+- you can't conditional render in React
 
 ---
 

@@ -66,5 +66,5 @@ What functionality does `callback` carry in `r = weakref.ref(enki, callback)`?
 
 ???
 
-- `callback` function is invoked when `enki` is deleted.
-- In this case `callback` is a proxy to `enki`.
+- callback function is invoked when enki is deleted.
+- In this case callback is a proxy to enki.

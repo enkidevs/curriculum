@@ -40,11 +40,10 @@ Which of the following **is not** a viable option of importing data into Airtabl
 
 ???
 
-- Upload a `.xlsx` file.
-- Upload a `.csv` file.
+- Upload a .xlsx file.
+- Upload a .csv file.
 - Paste your table data.
-- Import a `.csv` file from a storage option.
-
+- Import a .csv file from a storage option.
 
 ---
 

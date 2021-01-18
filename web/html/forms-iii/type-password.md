@@ -51,7 +51,7 @@ Which statement is true about the "type=password" attribute:
 - Each input character appears as bullet.
 - Each input character appears as a dollar sign
 - Each input character does not appear.
-- Must use `width` to adjust input text size vs `font-size`.
+- Must use width to adjust input text size vs font-size.
 
 
 ---

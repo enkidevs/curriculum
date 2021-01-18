@@ -74,7 +74,7 @@ Force killing a process is done by attaching a
 
 ??? code.
 
-- -9
-- -2
-- -3
-- -7
+- `-9`
+- `-2`
+- `-3`
+- `-7`

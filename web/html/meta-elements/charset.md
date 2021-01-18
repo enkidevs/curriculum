@@ -45,15 +45,15 @@ As a best practice, where is the HTML5 character set best placed?
 - meta
 - charset
 - utf-8
-- First line of code within the `<head>` element.
+- `First line of code within the <head> element.`
 - char
 - metatag
 - iso-8859-1
 - 8-utf
 - First line of code in the document.
 - Immediately after the DOCTYPE.
-- Anywhere within the `<head>` element.
-- Last line of code within the `<head>` element.
+- `Anywhere within the <head> element.`
+- `Last line of code within the <head> element.`
 - Anywhere before the first character in the document.
 
 

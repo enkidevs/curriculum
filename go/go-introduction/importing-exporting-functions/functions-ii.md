@@ -59,14 +59,14 @@ Create a function called `powerOfThree` that will calculate the power of 3 of an
 }
 ```
 
-- func
-- powerOfThree
-- x int
-- return x * x * x
-- return x * x
-- Func
-- PowerOfThree
-- x INT
+- `func`
+- `powerOfThree`
+- `x int`
+- `return x * x * x`
+- `return x * x`
+- `Func`
+- `PowerOfThree`
+- `x INT`
 
 ---
 ## Revision
@@ -78,11 +78,11 @@ Create a function called `division` where you divide the first argument by the s
 }
 ```
 
-- func
-- division
-- x, y int
-- return x / y
-- return x * y
-- Func
-- Division
-- x, y INT
+- `func`
+- `division`
+- `x, y int`
+- `return x / y`
+- `return x * y`
+- `Func`
+- `Division`
+- `x, y INT`

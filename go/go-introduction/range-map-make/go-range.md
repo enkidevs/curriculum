@@ -101,7 +101,7 @@ Finish the code to iterate over the elements of the Fibonacci array.
 ```go
 var fibonacci = []int{0, 1, 1, 2, 3, 5, 8, 13, 21, 34}
 
-for i, f := range fibonacci {
+??? i, f := ??? fibonacci {
   fmt.Println(i, f)
 }
 ```

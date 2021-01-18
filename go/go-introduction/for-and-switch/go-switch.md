@@ -75,5 +75,5 @@ func main() {
 
 In a `switch` statement, you can omit ???.
 
-- either the `condition` or the `declaration` but not both
-- both the `condition` and the `declaration`
+- either the condition or the declaration but not both
+- both the condition and the declaration

@@ -36,6 +36,6 @@ The only browser that currently supports this property is `Firefox`.
 
 What is the default text decoration colour? And with what property can this be changed? ???
 
-- Default colour is the text colour. Changed with `text-decoration-color:`.
-- Default colour is black. Changed with `text-decoration-colour:`.
+- `Default colour is the text colour. Changed with text-decoration-color:`
+- `Default colour is black. Changed with text-decoration-colour:`
 - Default colour is white. Cannot be changed.

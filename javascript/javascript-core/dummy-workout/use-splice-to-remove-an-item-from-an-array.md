@@ -1,5 +1,5 @@
 ---
-author: madhavi.penumatsa
+author: madhavipenumatsa
 
 levels:
 
@@ -57,11 +57,11 @@ delete ar[2]; // ar = ???
 // splice(startingPos,deleteCount)
 ar.splice(2,2); // ar = ???
 ```
-* [1,2,undefined,’5’]
-* [1,2]
-* [1,3,’5’]
-* [1,’5’]
-* [1,2,3,’5’]
+* `[1,2,undefined,’5’]`
+* `[1,2]`
+* `[1,3,’5’]`
+* `[1,’5’]`
+* `[1,2,3,’5’]`
 
 ---
 ## Revision
@@ -70,7 +70,7 @@ Let `var x = [1,4,6,8]` .
 
 After calling `splice(1,1)`  on x , it will contain ??? .
 
-* [1,6,8]
-* [4,6,8]
-* [1,undefined,6,8]
+* `[1,6,8]`
+* `[4,6,8]`
+* `[1,undefined,6,8]`
  

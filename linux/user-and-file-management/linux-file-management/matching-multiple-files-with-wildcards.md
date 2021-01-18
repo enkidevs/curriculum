@@ -61,17 +61,16 @@ Likewise, imagine the difference between `rm *.mp3` (which removes every `.mp3` 
 
 What kind of file would the following expression match? 
 
-???
-
 ```bash
 mv ??*.[mM]p3
 ```
 
-- Any file with  a name at least 2 character long and the extension `.mp3` or `.Mp3` .
-- Any file with the extension `.mp3` or `.Mp3` .
-- Any file with a name at least 2 character long and the extension `.mp4` .
-- Any file with a name at least 2 character long.
+???
 
+- Any file with a name of at least two character long and the extension .mp3 or .Mp3.
+- Any file with the extension .mp3 or .Mp3.
+- Any file with a name of at least two character long and the extension .mp4.
+- Any file with a name of at least two character long.
 
 ---
 

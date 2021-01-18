@@ -42,7 +42,7 @@ Here, `'Get some food!'` is printed because the condition above evaluates to `Tr
 > Note: Python booleans must be *capitalized*, and they belong to the `bool` class.
 
 ```python
->>> type(True)
+type(True)
 # <class 'bool'>
 ```
 

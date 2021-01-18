@@ -64,8 +64,8 @@ s.add('set')
 
 ???
 
-- no, because s is a `frozenset`
-- no, because we add `string` not a `char`
+- no, because s is a frozenset
+- no, because we add string not a char
 - yes
 
 

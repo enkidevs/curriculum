@@ -97,8 +97,8 @@ How do you exit/quit the MongoDB interactive JavaScript shell?
 
 ???
 
-- by using the `mongo` command
-- by using the `exit` command
-- by using the `mongodb` command
-- by using the `shell` command
-- by using the `leave` command
+- by using the mongo command
+- by using the exit command
+- by using the mongodb command
+- by using the shell command
+- by using the leave command

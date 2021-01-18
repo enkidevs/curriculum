@@ -109,12 +109,12 @@ print(???('pow(9, 3)',
   'pow': ???, '???': None}))
 ```
 
-* eval
-* None
-* pow
-* __builtins__
-* math.sqrt()
-* squareRoot()
+* `eval`
+* `None`
+* `pow`
+* `__builtins__`
+* `math.sqrt()`
+* `squareRoot()`
 
 ---
 ## Revision
