@@ -57,7 +57,7 @@ git ??? ???
 - `commit`
 - `-m`
 - `"issue no.8 fixed"`
-- -message
+- `-message`
 
 
 ---

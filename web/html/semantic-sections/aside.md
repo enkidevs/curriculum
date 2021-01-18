@@ -48,7 +48,7 @@ What content would be well placed within an aside?
 - pull quotes
 - sidebar
 - advertising
-- groups of `<nav>` elements
+- `groups of <nav> elements`
 
 
 ---

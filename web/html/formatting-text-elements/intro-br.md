@@ -64,8 +64,8 @@ Select the statement that is false about the `<br>` element.
 - Represents line breaks.
 - Should never be used to separate paragraphs.
 - Useful for writing addresses & poems.
-- In HTML5, line breaks are written as `<br>`
-- In XHTML, line breaks are written as `<br />`
+- `In HTML5, line breaks are written as <br>`
+- `In XHTML, line breaks are written as <br />`
 
 
 ---
@@ -92,7 +92,7 @@ Cupertino, CA
 
 ???
 
-- Add `<br>`'s to create each new line.
+- `Add <br>'s to create each new line.`
 - Add paragraphs to each new line.
 - New lines should be created using line-height.
 - New lines are not possible within a single paragraph.

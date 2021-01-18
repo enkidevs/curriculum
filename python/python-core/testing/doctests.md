@@ -119,7 +119,7 @@ def sum(a, b):
 How does `doctest` find a new test case in the documentation?
 ???
 
-- It searches for lines that begin with the interpreter prompt (`>>>`).
+- `It searches for lines that begin with the interpreter prompt (>>>).`
 - It searches for any strings in the documentation.
 - It knows that tests begin after an empty line.
 

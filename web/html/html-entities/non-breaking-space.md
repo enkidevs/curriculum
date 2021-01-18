@@ -136,7 +136,7 @@ What HTML character entity is used to prevent the browser from breaking the line
 - `&nbsp;`
 - `&ensp;`
 - `&ltsp;`
-- empty space: " "
+- `empty space: " "`
 - `&space`
 - `&gap`
 

@@ -93,7 +93,7 @@ cut ??? ??? ???
 
 The flag used to specify the delimiter of the `cut` command is ???.
 
-- -d
-- -f
-- -a
-- -F
+- `-d`
+- `-f`
+- `-a`
+- `-F`

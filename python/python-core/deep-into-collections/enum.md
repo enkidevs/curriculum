@@ -101,11 +101,11 @@ print(Shade.blue is Shade.green)
 ???
 ```
 
-- <enum 'Shade'>
+- `<enum 'Shade'>`
 - False
-- <class 'Shade'>
+- `<class 'Shade'>`
 - True
-- <enum 'Shade.blue'>
+- `<enum 'Shade.blue'>`
 
 
 ---
@@ -124,7 +124,7 @@ print(Car['bmw'])
 ```
 
 - Car.bmw
-- An error, it should be `Car('bmw')`
+- `An error, it should be Car('bmw')`
 - An error, strings and ints cannot be mixed
 - 1
 - bmw

@@ -94,9 +94,9 @@ b = 3
 
 ???
 
-- `a` and `b` represent the same object.
-- `a` and `b` have the same value, but different memory location.
-- `a` and `b` are different objects.
+- a and b represent the same object.
+- a and b have the same value, but different memory location.
+- a and b are different objects.
 - None is true.
 
 

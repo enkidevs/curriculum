@@ -72,10 +72,10 @@ The part of the HTML that is not *displayed* in the web page itself, but helps t
 
 The two main components of a HTML document are ???.
 
-- `<head>` and `<body>`
-- `<heading>` and `<body>`
-- `<p>` and  `<a>`
-- `<h>` and `<body>`
+- `<head> and <body>`
+- `<heading> and <body>`
+- `<p> and  <a>`
+- `<h> and <body>`
 
 
 ---
@@ -84,7 +84,7 @@ The two main components of a HTML document are ???.
 
 The two main components of a HTML document are ???.
 
-- `<head>` and `<body>`
-- `<heading>` and `<body>`
-- `<p>` and `<a>`
-- `<h>` and `<body>`
+- `<head> and <body>`
+- `<heading> and <body>`
+- `<p> and  <a>`
+- `<h> and <body>`

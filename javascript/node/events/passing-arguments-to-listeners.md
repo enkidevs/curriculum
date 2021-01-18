@@ -54,7 +54,7 @@ En ki MyEmitter {
 What does `this` refer to inside of a callback registered to listen to an event on an `EventEmitter`?
 ???
 
-- The instance of `EventEmitter`
+- The instance of EventEmitter
 - global
 - event
 - window

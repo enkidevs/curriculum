@@ -15,11 +15,11 @@ links:
 
 ## Content
 
-The key component of a receiving and deserializing process is **serialVersionUID**. **serialVersionUID** is a class version number which is used during deserialization to verify that the sender and receiver have the same class structure for the serealized object.
+The key component of a receiving and deserializing process is **serialVersionUID**. **serialVersionUID** is a class version number that is used during deserialization to verify that the sender and receiver have the same class structure for the serialized object.
 
-The **serialVersionUID** is created automatically when an object is serialized depending on various aspects of the class. Despite this, **serialVersionUID** can and recommended to be declared manually as the automatic declaration is highly sensitive to the class contents and depends on the compiler implementation.
+The **serialVersionUID** is created automatically when an object is serialized depending on various aspects of the class. Despite this, **serialVersionUID** can and is recommended to be declared manually as the automatic declaration is highly sensitive to the class contents and depends on the compiler implementation.
 
-In order to specify a custom **serialVersionUID** we should create a field *serialVersionUID* that must be static, final, of type long and of any access type[1]. For example:
+In order to specify a custom **serialVersionUID**, we should create a field *serialVersionUID* that must be static, final, of type long, and of any access type[1]. For example:
 
 ```plain-text
 ANY-ACCESS-MODIFIER static final
@@ -83,5 +83,5 @@ What is the data type of serialVersionUID?
 ## Footnotes
 
 [1:ANY-ACCESS-MODIFIER]
-In this it makes no difference if we make it `private`, `public`, `protected` or any other type.
+In this, it makes no difference if we make it `private`, `public`, `protected` or any other type.
  

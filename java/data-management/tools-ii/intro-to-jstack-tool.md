@@ -45,9 +45,9 @@ A `jstack` call also dumps information about non-Java threads running within the
 
 ???
 
-- `Thread.getAllStackTraces()` and `Thread.dumpStack()`
-- `Thread.getStackTraces()` and `Thread.getDumpStack()`
-- `Thread.stackTraces()` and `Thread.allDumpStack()`
+- `Thread.getAllStackTraces() and Thread.dumpStack()`
+- `Thread.getStackTraces() and Thread.getDumpStack()`
+- `Thread.stackTraces() and Thread.allDumpStack()`
 
 
 ---

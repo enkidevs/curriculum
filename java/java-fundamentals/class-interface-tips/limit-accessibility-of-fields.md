@@ -88,10 +88,10 @@ public class Company {
 
 ???
 
-- Field `name` of Person is `private` and cannot be accessed from Company.
-- `this` keyword is wrongly used.
-- `p` is not instantiated correctly.
-- `p.name` shouldn’t be a String.
+- Field name of Person is private and cannot be accessed from Company.
+- this keyword is wrongly used.
+- p is not instantiated correctly.
+- p.name shouldn’t be a String.
 
 
 ---

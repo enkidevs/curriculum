@@ -38,10 +38,10 @@ gzip file
 
 The ??? flag is used to decompress files.
 
-- -d
-- -c
-- -f
-- no flag
+- `-d`
+- `-c`
+- `-f`
+- `no flag`
 
 
 ---

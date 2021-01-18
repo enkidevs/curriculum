@@ -90,13 +90,13 @@ When using the `<colgroup>` element, which statements is not true?
 
 - `colgroup`
 - `col`
-- must be placed before any `<caption>` elements
+- `must be placed before any <caption> elements`
 - `colstyle`
 - `colspan`
 - `column`
-- must be used as a child of a `<table>` element.
-- must be placed after any `<caption>` elements
-- must be placed before any `<thead>`, `<tbody>`, `<tfoot>`, & `<tr>` elements.
+- `must be used as a child of a <table> element.`
+- `must be placed after any <caption> elements`
+- `must be placed before any <thead>, <tbody>, <tfoot>, and <tr> elements.`
 
 
 ---

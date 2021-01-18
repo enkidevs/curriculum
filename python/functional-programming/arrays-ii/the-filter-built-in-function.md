@@ -79,11 +79,11 @@ print(filter(special_function, customers))
 ???
 ```
 
-- The 3-tuples of customers where the associated boolean is `True` and the email includes the substring `'corporate.com'`.
-- The names of customers where their associated boolean is `True` and the email includes the substring `'corporate.com'`.
+- The 3-tuples of customers where the associated boolean is True and the email includes the substring 'corporate.com'.
+- The names of customers where their associated boolean is True and the email includes the substring 'corporate.com'.
 - The 3-tuples of customers whose names are longer than zero characters.
-- The 3-tuples of customers where their associated boolean is `True` or the email includes the substring `'corporate.com'`.
-- The 3-tuples of customers where their associated boolean is not `True` and the email does not include the substring `'corporate.com'`.
+- The 3-tuples of customers where their associated boolean is True or the email includes the substring 'corporate.com'.
+- The 3-tuples of customers where their associated boolean is not True and the email does not include the substring 'corporate.com'.
 
 
 ---

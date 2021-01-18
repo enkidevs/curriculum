@@ -56,7 +56,7 @@ import stringprep
 
 - print
 - in_table_c11
-- ' '
+- `' '`
 - in_table_a1
 - in_c11
 - zip

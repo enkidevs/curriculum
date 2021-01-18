@@ -79,10 +79,10 @@ To check if other people are connected to a server you are using, you could run
 
 ??? .
 
-- w
-- ssh users
-- ssh -u
-- ssh -w
+- `w`
+- `ssh users`
+- `ssh -u`
+- `ssh -w`
 
 
 ---
