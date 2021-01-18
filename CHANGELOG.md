@@ -41,7 +41,6 @@ Types of change:
 ## WIP
 
 ### Added
-- [SQL - Update - Discussion Insight](https://github.com/enkidevs/curriculum/pull/2523)
 
 ### Changed
 
@@ -50,6 +49,10 @@ Types of change:
 ### Fixed
 
 ## January 18th 2021
+
+### Added
+- [SQL - Insert - Discussion Insight](https://github.com/enkidevs/curriculum/pull/2512)
+- [SQL - Update - Discussion Insight](https://github.com/enkidevs/curriculum/pull/2523)
 
 ### Changed
 - [Discussion Insights - Update ending note on complexity of the submission](https://github.com/enkidevs/curriculum/pull/2544)
