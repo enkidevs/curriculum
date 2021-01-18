@@ -7,7 +7,7 @@ category: discussion
 
 links:
   - >-
-    [Playground](https://student.enkicamp.com/public/playground?jsonUrl=https%3A%2F%2Fgist.githubusercontent.com%2Fkapnobatai137%2F2b85df43ad3d134112160d24aa78ad5a%2Fraw%2F9b4aab60d58fbe17e783458192629d83c6eb53aa%2Fsql-building-queries-discussion-insight.json){website}
+    [Playground](https://learner.enkicamp.com/public/playground?jsonUrl=https%3A%2F%2Fgist.githubusercontent.com%2Fkapnobatai137%2F2b85df43ad3d134112160d24aa78ad5a%2Fraw%2F9b4aab60d58fbe17e783458192629d83c6eb53aa%2Fsql-building-queries-discussion-insight.json){website}
 
 ---
 
@@ -25,10 +25,11 @@ You're in charge of the database, meaning that you'll be writing all the queries
 
 The main `pokemon` table has the following schema:
 
-| id  | name      | generation | type_1 | type_2 |
-|-----|-----------|------------|--------|--------|
-| 1   | Bulbasaur | 1          | Grass  | Poison |
-| ... | ...       | ...        | ...    | ...    |
+| id  | name       | generation | type_1 | type_2 |
+|-----|------------|------------|--------|--------|
+| 1   | Bulbasaur  | 1          | Grass  | Poison |
+| 2   | Charmander | 1          | Fire   | Fire   |
+| ... | ...        | ...        | ...    | ...    |
 
 Your task is to write a query that satisfies these conditions:
 - all Pokémon should be from **the same generation**
@@ -50,7 +51,7 @@ When you're ready, leave a comment here with your submission. If you don't want 
 
 > 💡 Before you submit your program, take a look at [how you can format your comments](https://www.enki.com/glossary/general/markdown-formatting).
 
-> 💡 The above are only some guidelines. If you feel comfortable, you can include more concepts, or make your query more complex.
+> 💡 The guidelines above are just suggestions. Feel free to include other concepts in your solution as you see fit, the implementation is up to you.
 
 ---
 
