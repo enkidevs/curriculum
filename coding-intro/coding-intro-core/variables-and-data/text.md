@@ -16,7 +16,7 @@ In the land of computers, the text type is almost never called *text*.
 
 Instead, it is referred to as a **string**[1] (meaning a **string of characters**).
 
-We've already seen this type before when creating the `best_app` variable. 
+We've already seen this type before when creating the `study_buddy` variable. 
 
 Now, let's make another one:
 

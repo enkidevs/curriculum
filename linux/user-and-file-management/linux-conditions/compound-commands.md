@@ -53,7 +53,7 @@ What type of expression can go between `[[ ]]`?
 
 ???
 
-- Any expressions that `test` also accepts
+- Any expressions that test also accepts
 - Only string comparison expressions
 - Only arithmetic expressions
 - Any type expression

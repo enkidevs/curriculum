@@ -44,6 +44,5 @@ When does DNS use the ASCII encoding format?
 ???
 
 - Only for storing portions of domain names.
-- For portions of domain names and record types such as `NS` and `A`
-- For portions of domain names, record types such as `NS` and `A`, and for `class` field in response records.
- 
+- For portions of domain names and record types such as NS and A
+- For portions of domain names, record types such as NS and A, and for class field in response records.

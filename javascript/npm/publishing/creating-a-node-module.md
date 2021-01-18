@@ -54,7 +54,7 @@ In order for the JavaScript file to be a module, it must have
 
 ???
 
-- a non-empty `exports` object
+- a non-empty exports object
 - at least one function
 - constants
 - at least one non-void function
@@ -70,4 +70,4 @@ Usually, a module id is
 
 - the name of the main JavaScript file
 - the name of the first function
-- defined in the *package.json*
+- defined in the package.json

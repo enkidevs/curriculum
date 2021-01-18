@@ -80,9 +80,9 @@ How do you cleanup after running an effect in a function component?
 
 ???
 
-- By returning a cleanup function from the `useEffect()` hook.
-- By calling a cleanup function immediately after the `useEffect()` hook.
-- By writing a custom hook and calling it inside the `useEffect()` hook.
+- By returning a cleanup function from the useEffect() hook.
+- By calling a cleanup function immediately after the useEffect() hook.
+- By writing a custom hook and calling it inside the useEffect() hook.
 
 
 ---
@@ -94,6 +94,6 @@ How should the cleanup function of an `useEffect()` hook be named?
 ???
 
 - It can use any name or use arrow functions.
-- It should be named `cleanup()`.
+- It should be named cleanup().
 - You can only use arrow functions.
-- It should be named `clean()`.
+- It should be named clean().

@@ -65,9 +65,9 @@ What will be printed to the console?
 
 ???
 
-- `c` ASCII value.
-- `c` as a character.
-- `c` as a String.
+- `c ASCII value.`
+- `c as a character.`
+- `c as a String.`
 - Nothing.
 
 

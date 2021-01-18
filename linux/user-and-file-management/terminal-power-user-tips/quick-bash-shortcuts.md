@@ -46,9 +46,9 @@ ls |-l ~/
 ls -l| ~/
 ```
 
-- delete `ls`
-- delete `-l ~/`
-- delete `ls -l`
+- `delete ls`
+- `delete -l ~/`
+- `delete ls -l`
 - move the cursor to the end of line
 - move the cursor to the beginning of the line
 

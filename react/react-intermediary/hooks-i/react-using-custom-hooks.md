@@ -61,7 +61,7 @@ Where can you call custom hooks inside a component?
 
 - Only at the top-level.
 - Anywhere.
-- Only inside a `useEffect()` statement.
+- Only inside a useEffect() statement.
 
 
 ---

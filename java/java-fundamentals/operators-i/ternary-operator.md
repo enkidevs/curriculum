@@ -57,11 +57,11 @@ if (flag > 5) {
 
 ???
 
-- int count = flag > 5 ? 2:5;
-- int flag = count > 5 ? 5:2;
-- int count = flag > 5 ? 5:2;
-- int x = y > 5 ? 5/2;
-- int count = flag > 5 ? 5/2;
+- `int count = flag > 5 ? 2:5;`
+- `int flag = count > 5 ? 5:2;`
+- `int count = flag > 5 ? 5:2;`
+- `int x = y > 5 ? 5/2;`
+- `int count = flag > 5 ? 5/2;`
 
 
 ---

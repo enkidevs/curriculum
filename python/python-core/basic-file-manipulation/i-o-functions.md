@@ -94,10 +94,10 @@ How old are you? 23
 23 ???
 ```
 
-- <class 'str'>
-- <class 'int'>
-- <class 'list'>
-- <class 'tuple'>
+- `<class 'str'>`
+- `<class 'int'>`
+- `<class 'list'>`
+- `<class 'tuple'>`
 
 
 ---

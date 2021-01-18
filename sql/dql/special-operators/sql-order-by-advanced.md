@@ -55,8 +55,8 @@ The `employees` table contains data about each employee at an international comp
 
 Select both columns from the table and sort your resulting set:
 
-- **first** in descending order by the `name` column
-- **second** in ascending order by the `language_id` column
+- first in descending order by the name column
+- second in ascending order by the language_id column
 
 ```sql
 SELECT name, ???

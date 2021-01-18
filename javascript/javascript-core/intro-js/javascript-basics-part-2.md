@@ -75,7 +75,7 @@ What syntax is used in *JavaScript* for **single line** comments?
 
 ???
 
-- //
+- `//`
 - `/* */`
 - `#`
 

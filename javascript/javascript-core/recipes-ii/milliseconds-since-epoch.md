@@ -77,6 +77,6 @@ Get the current time in milliseconds(since 1 Jan 1970):
 var time = Date.???;
 ```
 
-- now();
-- getMillis();
-- getMilliseconds();
+- `now();`
+- `getMillis();`
+- `getMilliseconds();`

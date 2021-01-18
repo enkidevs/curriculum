@@ -64,5 +64,5 @@ if ??? ; x > 0 {
 
 `if-else` statements are used ???
 
-- to execute one code if the condition is `true` and another if it is `false`.
-- for creating `if-else` loops
+- to execute one code if the condition is true and another if it is false.
+- for creating if-else loops

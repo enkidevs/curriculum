@@ -103,9 +103,9 @@ The HTML `<header>` element cannot what?
 
 ???
 
-- be added within a `<footer>` element.
+- `be added within a <footer> element.`
 - contain website navigation
 - display one or more heading (h1-h6) elements
 - hold a graphical logo
 - display authorship information
-- have multiple `<header>` elements within the same doc.
+- `have multiple <header> elements within the same doc.`

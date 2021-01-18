@@ -82,11 +82,11 @@ Which of the following types are immutable?
 
 ???
 
-- `tuple`, `complex`, `range`, `frozenset`
-- `tuple`, `complex`, `set`, `range`, `frozenset`
-- `tuple`, `complex`, `set`, `dict`, `range`, `frozenset`
-- `complex`, `range`, `frozenset`
-- `complex`, `range`, `set`, `frozenset`
+- tuple, complex, range, frozenset
+- tuple, complex, set, range, frozenset
+- tuple, complex, set, dict, range, frozenset
+- complex, range, frozenset
+- complex, range, set, frozenset
 
 
 ---

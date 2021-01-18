@@ -49,6 +49,73 @@ Types of change:
 
 ### Fixed
 
+## January 18th 2021
+
+### Added
+- [SQL - Aggregate Queries - Discussion Insight](https://github.com/enkidevs/curriculum/pull/2510)
+- [SQL - Insert - Discussion Insight](https://github.com/enkidevs/curriculum/pull/2512)
+- [SQL - Update - Discussion Insight](https://github.com/enkidevs/curriculum/pull/2523)
+
+### Changed
+- [Discussion Insights - Update ending note on complexity of the submission](https://github.com/enkidevs/curriculum/pull/2544)
+
+## January 15th 2021
+
+### Fixed
+- [Security - Identifying the Application Layer - Add footnote on GUI](https://github.com/enkidevs/curriculum/pull/2542)
+- [HTML - The `<blockquote>` Element - Fix headline and resource title](https://github.com/enkidevs/curriculum/pull/2541)
+- [Python - Nose Testing - Fix resource link title](https://github.com/enkidevs/curriculum/pull/2540)
+- [Python - The from...import statement - Re-add deleted footnote](https://github.com/enkidevs/curriculum/pull/2539)
+- [JavaScript - Executing Programs With Node - Fix grammatical error](https://github.com/enkidevs/curriculum/pull/2538)
+- [Linux - Using `find` To Search By File Size - Fix grammatical error](https://github.com/enkidevs/curriculum/pull/2538)
+
+## January 14th 2021
+
+### Fixed
+- [Linux - Manipulating Environments - Fix incorrect syntax for PQ code block](https://github.com/enkidevs/curriculum/pull/2537)
+
+## January 11th 2021
+
+### Fixed
+- [Go - Assignment Operators - Fix incorrect RQ answer](https://github.com/enkidevs/curriculum/pull/2536)
+
+## January 5th 2021
+
+### Fixed
+- [Content - Enclose answers that are an array inside backticks to fix rendering](https://github.com/enkidevs/curriculum/pull/2533)
+- [Content - Remove markdown from question answers](https://github.com/enkidevs/curriculum/pull/2534)
+- [Java - Serial Version UID - Update Wording](https://github.com/enkidevs/curriculum/pull/2532)
+- [HTML - Formenctype - Replace enctype with formenctype](https://github.com/enkidevs/curriculum/pull/2531)
+
+## January 4th 2021
+
+### Fixed
+- [Content - Remove all inline code inside PQ/RQ answers to fix rendering](https://github.com/enkidevs/curriculum/pull/2528)
+- [Git - Cloning a Git repository - Fix PQ rendering](https://github.com/enkidevs/curriculum/pull/2527)
+- [Linux - Matching Multiple Files With Wildcards - Fix PQ rendering](https://github.com/enkidevs/curriculum/pull/2526)
+- [Coding intro - First Function - Fix wording in RQ](https://github.com/enkidevs/curriculum/pull/2529)
+
+### Added
+- [HTML - Divisions and Spans - Add codepen example](https://github.com/enkidevs/curriculum/pull/2525)
+
+### Changed
+- [Javascript - Switch Statement - Reword sentence for clarity](https://github.com/enkidevs/curriculum/pull/2513)
+
+## December 30th 2020
+
+### Fixed
+- [SQL - Why Learn SQL? - Remove broken resource link](https://github.com/enkidevs/curriculum/pull/2524)
+
+## December 29th 2020
+
+### Fixed
+- [Python - Debugging - Fix PQ by removing the extra answer gap](https://github.com/enkidevs/curriculum/pull/2521)
+
+## December 24th 2020
+
+### Change
+- [Go - Go Range - Add another possible answer to the RQ](https://github.com/enkidevs/curriculum/pull/2516)
+
 ## December 18th 2020
 
 ### Changed

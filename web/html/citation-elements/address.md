@@ -64,8 +64,8 @@ Which statement about the `<address>` element is not correct?
 
 - Best for postal addresses
 - Contact information of author
-- When placed in `<body>` represents information for the document
-- When placed in `<article>` represents information for that article
+- `When placed in <body> represents information for the document`
+- `When placed in <article> represents information for that article`
 - Displayed as block element
 - Default font-style is italic
 

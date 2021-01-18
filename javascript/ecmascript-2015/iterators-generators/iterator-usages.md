@@ -49,8 +49,7 @@ Can an iterator be used to implement an infinite sequence?
 
 ???
 
-- Yes, by never returning `done` as `true`
-- No, because an iterator must always have `done` equal to `true` at some point
+- Yes, by never returning done as true
+- No, because an iterator must always have done equal to true at some point
 - No, because the memory needed will kill any machine
-- Yes, by making the `next` function recursive
- 
+- Yes, by making the next function recursive

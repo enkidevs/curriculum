@@ -38,7 +38,7 @@ When you're ready, leave a comment here with your submission. If you don't want 
 
 > 💡 Before you submit your program, take a look at [how you can format your comments](https://www.enki.com/glossary/general/markdown-formatting).
 
-> 💡 The above are only some guidelines. If you feel comfortable, you can include more concepts, or make your program more complex.
+> 💡 The guidelines above are just suggestions. Feel free to include other concepts in your solution as you see fit, the implementation is up to you.
 
 If you're stuck or need inspiration, check out our [playground example](https://codepen.io/enkidevs/pen/QWKywyy).
  

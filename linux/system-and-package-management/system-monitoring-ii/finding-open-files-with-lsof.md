@@ -55,10 +55,10 @@ sudo lsof /var/log/syslog
 
 flag is required to find files used by a specific process.
 
-- -p
-- -f
-- -r
-- -pr
+- `-p`
+- `-f`
+- `-r`
+- `-pr`
 
 
 ---
