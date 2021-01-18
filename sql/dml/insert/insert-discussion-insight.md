@@ -10,7 +10,7 @@ category: discussion
 
 links:
   - >-
-    [Playground](https://student.enkicamp.com/public/playground?jsonUrl=https%3A%2F%2Fgist.githubusercontent.com%2Fkapnobatai137%2F757d2557a971940305ace59e5bce0808%2Fraw%2F32399b94024073c351727c6888a697f9fa448737%2Fsql-insert-discussion-insight.json){website}
+    [Playground](https://learner.enkicamp.com/public/playground?jsonUrl=https%3A%2F%2Fgist.githubusercontent.com%2Fkapnobatai137%2F757d2557a971940305ace59e5bce0808%2Fraw%2F32399b94024073c351727c6888a697f9fa448737%2Fsql-insert-discussion-insight.json){website}
 
 ---
 
@@ -20,7 +20,7 @@ links:
 
 ## Content
 
-You've levelled up your SQL skills! Let's see how you handle inserts.
+You've leveled up in SQL! It's time to test your data insertion skills.
 
 Consider the following `movies` table:
 
@@ -31,9 +31,9 @@ Consider the following `movies` table:
 
 How would you insert two more records in this table?
 
-It's up to you to choose which movies you'll insert. They can be your favorite movies, the ones you hate, or just a movie that you like.
+It's up to you to choose which movies you'll insert. They can be your favorite movies ever, some well-known classics, or just recent movies that you like.
 
-It's also up to you to choose the rating system. We have *No Country For Old Men* a nine out of ten, but you can use anything **as long as it's a number**.
+Feel free to choose the rating of the movies. We gave *No Country For Old Men* a nine out of ten, but you can use anything **as long as it's a number**.
 
 To achieve this, you should use the following concepts:
 - inserting data into a table (`INSERT INTO table_name VALUES`)
@@ -44,7 +44,7 @@ When you're ready, leave a comment here with your submission. If you don't want 
 
 > 💡 Before you submit your program, take a look at [how you can format your comments](https://www.enki.com/glossary/general/markdown-formatting).
 
-> 💡 The above are only some guidelines. If you feel comfortable, you can include more concepts, or make your program more complex.
+> 💡 The guidelines above are just suggestions. Feel free to include other concepts in your solution as you see fit, the implementation is up to you.
 
 ---
 
@@ -52,19 +52,22 @@ When you're ready, leave a comment here with your submission. If you don't want 
 
 [1: Hints]
 
-Start off by writing:
+Start off by writing the `INSERT` command:
 
 ```sql
 INSERT INTO movies VALUES
+-- list of rows
 ```
 
-Then, you can start inserting your movies.
+Next, add your selected movies as rows of values.
 
-> 💡 Remember that in the `INSERT` syntax, the values match the order of the columns **as they are defined in the table**.
+> 💡 Remember that the order of values must match the order of the columns **as they are defined in the table**.
 
 ```sql
 INSERT INTO movies VALUES
-(1, "No Country For Old Men", 2007, 9);
+-- the order of values has to be (id, name, year, rating)
+(1, "No Country For Old Men", 2007, 9) -- first row we're adding
+(1, "Toy Story", 1995, 8); -- second row we're adding
 ```
 
 You can try out your query in our **Playground**, which you'll find in the *Learn More* section.
@@ -77,5 +80,3 @@ SELECT
 FROM
   movies;
 ```
-
-When you're ready, you can copy and paste your insert syntax in the comment section.
