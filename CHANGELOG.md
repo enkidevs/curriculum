@@ -51,6 +51,7 @@ Types of change:
 ## January 18th 2021
 
 ### Added
+- [SQL - Aggregate Queries - Discussion Insight](https://github.com/enkidevs/curriculum/pull/2510)
 - [SQL - Insert - Discussion Insight](https://github.com/enkidevs/curriculum/pull/2512)
 - [SQL - Update - Discussion Insight](https://github.com/enkidevs/curriculum/pull/2523)
 
@@ -113,7 +114,6 @@ Types of change:
 
 ### Change
 - [Go - Go Range - Add another possible answer to the RQ](https://github.com/enkidevs/curriculum/pull/2516)
-
 
 ## December 18th 2020
 
