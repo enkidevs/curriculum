@@ -51,6 +51,7 @@ Types of change:
 ## January 18th 2021
 
 ### Added
+- [SQL - Building Queries - Discussion Insight](https://github.com/enkidevs/curriculum/pull/2509)
 - [SQL - Aggregate Queries - Discussion Insight](https://github.com/enkidevs/curriculum/pull/2510)
 - [SQL - Insert - Discussion Insight](https://github.com/enkidevs/curriculum/pull/2512)
 - [SQL - Update - Discussion Insight](https://github.com/enkidevs/curriculum/pull/2523)
