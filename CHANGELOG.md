@@ -41,13 +41,17 @@ Types of change:
 ## WIP
 
 ### Added
-- [SQL - Aggregate Queries - Discussion Insight](https://github.com/enkidevs/curriculum/pull/2510)
 
 ### Changed
 
 ### Archived
 
 ### Fixed
+
+## January 18th 2021
+
+### Added
+- [SQL - Aggregate Queries - Discussion Insight](https://github.com/enkidevs/curriculum/pull/2510)
 
 ## December 18th 2020
 

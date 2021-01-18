@@ -10,7 +10,7 @@ category: discussion
 
 links:
   - >-
-    [Playground](https://student.enkicamp.com/public/playground?jsonUrl=https%3A%2F%2Fgist.githubusercontent.com%2Fkapnobatai137%2F0f58777052a47fc5061fa83370089174%2Fraw%2Faa959e729d71cb03bf7d4a5ec079ced985f1e319%2Fsql-aggregate-queries-discussion-insight.json){website}
+    [Playground](https://learner.enkicamp.com/public/playground?jsonUrl=https%3A%2F%2Fgist.githubusercontent.com%2Fkapnobatai137%2F0f58777052a47fc5061fa83370089174%2Fraw%2Faa959e729d71cb03bf7d4a5ec079ced985f1e319%2Fsql-aggregate-queries-discussion-insight.json){website}
 
 ---
 
@@ -20,29 +20,26 @@ links:
 
 ## Content
 
-You're getting good at SQL! Let's see how you can handle some of the new keywords that you learned.
+Great job getting this far in SQL! Let's apply your learnings through an exercise.
 
 We've prepared a new data set for you, the `students` table:
 
 | id  | first_name | last_name | class | math_grade | english_grade | physics_grade |
 |-----|------------|-----------|-------|------------|---------------|---------------|
 | 1   | Klarrisa   | Selcraig  | d     | 3.8        | 8.3           | 6.8           |
+| 2   | Karel      | Wragge    | d     | 5.4        | 3.4           | 9.7           |
 | ... | ...        | ...       | ...   | ...        | ...           | ...           |
 
-How would you find all the students that **are from the same class** and that **passed one of the classes**.
+Your first challenge is to find all the students that **are from the same class** and that **passed one of the classes**.
 
-Finally, using one of the aggregation keywords (`SUM`, `COUNT`, `MIN`, `MAX`, `AVG`, `COUNT`), create a new column and rename it accordingly (using the `AS` keyword). Here are some examples of what you can do:
+Next, you should create a new column using one of the aggregation keywords (`SUM`, `COUNT`, `MIN`, `MAX`, `AVG`, `COUNT`)  and rename it accordingly (using the `AS` keyword). 
+
+Here are some column ideas:
 - `"Average Math Grade"`
 - `"Minimum English Grade"`
 - `"Total Class Students"`
 
-It's up to you to choose:
-- which class (e.g. `a`)
-- which subject (e.g. `english`)
-- what the passing grade is (e.g. `5`)
-- what aggregation keyword to use
-
-To achieve this, you should use the following concepts:
+To finish both tasks, you can use the following concepts:
 - querying (`SELECT column_name FROM table_name`)
 - conditions (`WHERE <condition>`)
 - comparison operators (`grade > 1`)
@@ -55,7 +52,7 @@ When you're ready, leave a comment here with your submission. If you don't want 
 
 > 💡 Before you submit your program, take a look at [how you can format your comments](https://www.enki.com/glossary/general/markdown-formatting).
 
-> 💡 The above are only some guidelines. If you feel comfortable, you can include more concepts, or make your program more complex.
+> 💡 The guidelines above are just suggestions. Feel free to include other concepts in your solution as you see fit, the implementation is up to you.
 
 ---
 
@@ -63,7 +60,7 @@ When you're ready, leave a comment here with your submission. If you don't want 
 
 [1: Hints]
 
-You should start out by looking at all the data in the table:
+A good place to get started is by examining all the data in the table:
 
 ```sql
 SELECT
@@ -72,18 +69,18 @@ FROM
   students
 ```
 
-This way you'll know which classes, subjects, and grades are present in the table.
+This way you'll know which classes, subjects, and grades exist.
 
-Then, when you're comfortable, start building your query.
+Once you get a feel for the data you're working with, you can start building your query.
 
-First, include the columns that you want to see in your result set:
+To get started, include the columns that you want to see in your result set:
 
 ```sql
 SELECT
   first_name,
   class,
   math_grade,
-  AVG(math_grade)
+  AVG(math_grade) -- here we're aggregating the average math grade
 FROM
   students
 ```
@@ -94,7 +91,8 @@ After that, start building your condition:
 SELECT
   first_name,
   class,
-  math_grade
+  math_grade,
+  AVG(math_grade) -- here we're aggregating the average math grade
 FROM
   students
 WHERE
@@ -102,4 +100,4 @@ WHERE
   math_grade > 1;
 ```
 
-Finally, after you've tested the query, you can copy and paste it in the comment section.
+Finally, after you've tested the query, you can copy and paste it into the comment section.
