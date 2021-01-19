@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## January 19th 2021
+
+### Added
+- [Python - Looping - Add discussion insight](https://github.com/enkidevs/curriculum/pull/2546)
+
 ## January 18th 2021
 
 ### Added
