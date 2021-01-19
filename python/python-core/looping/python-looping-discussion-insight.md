@@ -1,5 +1,5 @@
 ﻿---
-author: stefan-stojanovic
+author: Stefan-Stojanovic
 
 tags:
   - discussion
