@@ -2,6 +2,14 @@
 author: mihaiberq
 type: normal
 category: must-know
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Energy Consumption and Ecology
@@ -47,4 +55,3 @@ Other than electricity consumed for making the chip and running it, what else do
 - Distributing work
 - Hashing
 - Collecting shares
- 

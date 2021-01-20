@@ -1,24 +1,31 @@
 ---
 author: kapnobatai136
-
 type: normal
-
 category: must-know
-
 aspects:
   - workout
   - deep
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Logical Operators
 
+
 ---
+
 ## Content
 
 We have quite a few leftover numbers for our robot to handle. 
 
 Since we're not using them at the moment, let's use groups of numbers for the *paths*:
+
 - 1 - 3 for white bread
 - 4 - 6 for whole wheat bread
 - 7 - 9 for rye bread
@@ -50,12 +57,14 @@ ELSE IF (
 Here are the most commonly used logical operators:
 
 | Operator |          Meaning          |
-|:--------:|:-------------------------:|
+| :------: | :-----------------------: |
 |    AND   | all conditions are `true` |
 |    OR    |  any condition is `true`  |
 |    NOT   |   negates the condition   |
 
+
 ---
+
 ## Practice
 
 Which of these is **not** a logical operator?
@@ -67,7 +76,9 @@ Which of these is **not** a logical operator?
 - NOT
 - OR
 
+
 ---
+
 ## Revision
 
 Fill in the gaps:

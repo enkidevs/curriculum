@@ -6,6 +6,14 @@ links:
   - >-
     [Full list of block
     checks](https://en.bitcoin.it/wiki/Protocol_rules#.22block.22_messages){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Block Verification
@@ -44,4 +52,3 @@ What is the problem solved by verifying all previous transactions?
 - Identity tracing
 - Bottlenecking
 - Theft
- 

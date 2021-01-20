@@ -1,18 +1,24 @@
 ---
 author: emmab
-
 tags:
   - introduction
-
 type: normal
-
 category: must-know
-
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
+
 # Pivot Tables
 
+
 ---
+
 ## Content
 
 As a spreadsheet grows and has more and more records, you'll need tools to understand the data inside it.
@@ -37,27 +43,30 @@ By using Pivot Tables we can quickly calculate the average price of items per ca
 
 We'll cover how to convert pivot tables into graphical data visualizations next!
 
+
 ---
+
 ## Practice
 
 What is the process of viewing a Pivot Table report for a subset that meets the criterion only?
 
 ???
 
-* Filtering
-* Sorting
-* Arranging
-* Positioning
+- Filtering
+- Sorting
+- Arranging
+- Positioning
+
 
 ---
+
 ## Revision
 
 What is a Pivot Table?
 
 ???
 
-* A tool used to summarize data.
-* A table used to calculate financial pivot values.
-* A table containing only black, grey and white formatting.
-* A table containing data that is organized horizontally.
- 
+- A tool used to summarize data.
+- A table used to calculate financial pivot values.
+- A table containing only black, grey and white formatting.
+- A table containing data that is organized horizontally.

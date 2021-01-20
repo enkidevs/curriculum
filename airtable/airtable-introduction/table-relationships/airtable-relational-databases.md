@@ -2,6 +2,14 @@
 author: kapnobatai136
 category: must-know
 type: normal
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Relational Databases
@@ -37,4 +45,3 @@ A better way of doing this is to have two separate tables, one for movies that a
 | ---------- | ---------- | -------- | --- |
 | Andrei     | 25/02/2004 | 1        | ... |
 | ...        | ...        | ...      | ... |
- 

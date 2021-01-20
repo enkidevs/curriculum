@@ -1,20 +1,28 @@
 ---
 author: kapnobatai136
-
 type: normal
-
 category: must-know
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # First Function
 
+
 ---
+
 ## Content
 
 A function is a command that, when executed, takes in data and produces out a result. 
 
 We can think of a function as divide into 3 parts.
+
 1. **input**: the data given to the function
 2. **body**: the commands (instructions) performed within the function
 3. **output**: the result sent out of a function
@@ -44,15 +52,19 @@ INSTRUCT multiplyTwoNumbers(5, 3)
 
 In the above code, the *output* of `multiply` is saved into a variable called `result` and then that variable is passed out as the *output* of `multiplyTwoNumbers`.
 
+
 ---
+
 ## Practice
 
 A function is made out of three parts:
+
 1. the data given to the function
 2. the commands performed within the function
 3. the result sent out of a function
 
 Match the definitions with their name:
+
 ```plain-text
 1. ???
 2. ???
@@ -63,7 +75,9 @@ Match the definitions with their name:
 - body
 - output
 
+
 ---
+
 ## Revision
 
 The data given to the function is called an ??? and the result the function produces is called an ???
@@ -75,7 +89,9 @@ The data given to the function is called an ??? and the result the function prod
 - signal
 - hardware
 
+
 ---
+
 ## Footnotes
 
 [1: This is a Made Up Language]

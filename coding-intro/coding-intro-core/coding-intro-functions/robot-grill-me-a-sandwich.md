@@ -1,15 +1,22 @@
 ---
 author: kapnobatai136
-
 type: normal
-
 category: must-know
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Robot, Grill Me A Sandwich
 
+
 ---
+
 ## Content
 
 The robot instructions are almost done! We're getting hungry.
@@ -28,7 +35,9 @@ ENDFUNCTION
 
 > 💡 We can give input values to functions directly, they don't have to be variables. If you notice above, we passed in the duration string `"3min"` directly into the `fry_the_sandwich_on_each_side` function.
 
+
 ---
+
 ## Footnotes
 
 [1: Grilled Cheese Sandwich Recipe]
@@ -36,6 +45,7 @@ ENDFUNCTION
 The recipe says:
 
 Ingredients:
+
 - cheese
 - bread
 - butter
@@ -45,13 +55,16 @@ Ingredients:
 Instructions:
 
 1. prepare the ingredients
-  - Grate the cheese in a bowl
-  - Cut the bread into slices
+
+- Grate the cheese in a bowl
+- Cut the bread into slices
 
 2. build the sandwich
-  - Butter the bread on both sides
-  - Add the cheese to the sandwich
+
+- Butter the bread on both sides
+- Add the cheese to the sandwich
 
 3. grill the sandwich
-  - Preheat a pan
-  - Fry the sandwich for three minutes on each side (or until golden brown)
+
+- Preheat a pan
+- Fry the sandwich for three minutes on each side (or until golden brown)

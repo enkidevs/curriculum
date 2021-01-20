@@ -1,18 +1,23 @@
 ---
 author: mihaiberq
-
 type: normal
-
 category: must-know
-
 links:
   - >-
     [Interactive tutorial of how blocks are
     built](https://anders.com/blockchain/){website}
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Hashing Block Data
+
 
 ---
 
@@ -37,6 +42,7 @@ But for now, consider a network that accepts any block that contains the previou
 It's worth talking about the **genesis block** or the first block of the blockchain: as there's no previous block, the reference will be equal to `0`.
 
 In the *Learn more* section you can find a link to an interactive website that allows you to create and append blocks to a simplified version of the Bitcoin blockchain.
+
 
 ---
 

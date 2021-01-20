@@ -1,21 +1,28 @@
 ---
 author: emmab
-
 tags:
   - introduction
-
 type: normal
-
 category: must-know
-
 links:
-  - '[Organize Your Spreadsheets](https://towardsdatascience.com/organize-your-spreadsheets-for-data-analysis-and-visualization-b1985a31523a){website}'
-
-
+  - >-
+    [Organize Your
+    Spreadsheets](https://towardsdatascience.com/organize-your-spreadsheets-for-data-analysis-and-visualization-b1985a31523a){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
+
 # Data Cleaning
 
+
 ---
+
 ## Content
 
 To make spreadsheets a useful tool for data analysis, you first need to **organize the data inside** the sheets.
@@ -36,7 +43,7 @@ If your raw data has already been tampered with and you can't download it again,
 - Each cell must contain only one dimension or measure
 - Each column must have a unique name
 
-### More Tips 
+### More Tips
 
 Make sure each column has the correct **data type** - i.e. currency as Currency, dates as Date/Time.
 
@@ -56,27 +63,28 @@ A `vlookup` could be used to look up *matching criteria* in this other data set,
 
 In this case, the matching criteria would be the name or ID of the product.
 
+
 ---
+
 ## Practice
 
 What can we use to pull information from one data set into another?
 
 ???
 
-* Vlookups
-* Data Type
-* Merged Cells
-* Raw Data
+- Vlookups
+- Data Type
+- Merged Cells
+- Raw Data
 
 
 ---
+
 ## Revision
 
 When working with raw data, each row should represent one unaggregated measure.
 
 ???
 
-* True
-* False
-
- 
+- True
+- False

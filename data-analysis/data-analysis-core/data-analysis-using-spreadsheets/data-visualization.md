@@ -1,21 +1,28 @@
 ---
 author: emmab
-
 tags:
   - introduction
-
 type: normal
-
 category: must-know
-
 links:
-  - '[Tell Compelling Stories](https://cloud.google.com/blog/products/g-suite/tell-compelling-stories-with-your-data-using-google-sheets){website}'
-
+  - >-
+    [Tell Compelling
+    Stories](https://cloud.google.com/blog/products/g-suite/tell-compelling-stories-with-your-data-using-google-sheets){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Data Visualization
 
+
 ---
+
 ## Content
 
 Before you present or share your findings, you should make sure that your data is **displayed in the best way possible** so that others can easily understand what story you're telling.
@@ -38,7 +45,9 @@ You can click directly on data labels, chart titles, or legends to reposition th
 
 Once you're happy with your results they should be shared. G Suite lets you give **view or edit access** to anyone you choose, or you can even embed charts into other G Suite apps, like Google Docs or Slides.
 
+
 ---
+
 ## Practice
 
 What type of chart is best for displaying results that are continuous over time?
@@ -50,7 +59,9 @@ What type of chart is best for displaying results that are continuous over time?
 - Pie chart
 - Scatter plot
 
+
 ---
+
 ## Revision
 
 What type of chart is best for assessing the relationship between two variables?
@@ -61,4 +72,3 @@ What type of chart is best for assessing the relationship between two variables?
 - Line graph
 - Scorecard
 - Pie chart
- 

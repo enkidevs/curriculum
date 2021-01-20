@@ -1,15 +1,22 @@
 ---
 author: kapnobatai136
-
 type: normal
-
 category: must-know
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Introducing Collections
 
+
 ---
+
 ## Content
 
 Sometimes a data type is best represented as a collection of one or more data types.
@@ -28,7 +35,9 @@ Think about modeling a shopping bag. It can hold toys, groceries, and clothing f
 
 ![shopping bag](https://img.enkipro.com/658aaef98f3caeb15aa32b7575621429.png)
 
+
 ---
+
 ## Practice
 
 A collection can hold ??? data types.
@@ -38,7 +47,9 @@ A collection can hold ??? data types.
 - a specific number of
 - one or two
 
+
 ---
+
 ## Revision
 
 An item in a collection always has to be of the same type.

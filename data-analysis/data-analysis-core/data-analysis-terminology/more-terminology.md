@@ -1,21 +1,28 @@
 ---
 author: emmab
-
 tags:
   - introduction
-
 type: normal
-
 category: must-know
-
 links:
-  - '[Statistical Significance](https://mixpanel.com/topics/statistical-significance/){website}'
-
+  - >-
+    [Statistical
+    Significance](https://mixpanel.com/topics/statistical-significance/){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # More Terminology
 
+
 ---
+
 ## Content
 
 And here is the last set of important terms to be aware of 🤓.
@@ -54,29 +61,35 @@ The technical side of BI involves learning how to effectively use software to ge
 
 We'll be looking at some of the most popular BI tools, such as Tableau, Looker and Mode, later on!
 
+
 ---
+
 ## Practice
 
 What language can be used to speak to a database?
 
 ???
 
-* SQL
-* BI
-* PostgreSQL
-* MySQL
+- SQL
+- BI
+- PostgreSQL
+- MySQL
+
 
 ---
+
 ## Revision
 
 If we want to predict what grades a particular student might achieve, we could use ???.
 
-* regression analysis
-* statistical significance
-* BI tools
-* data mining
+- regression analysis
+- statistical significance
+- BI tools
+- data mining
+
 
 ---
+
 ## Footnotes
 
 [1:Regression]
@@ -92,4 +105,3 @@ The most common form of regression analysis is linear regression, in which a res
 SQL, Structured Query Language, is the main language that allows your database servers to store, edit and retrieve the data on it.
 
 SQL statements are used to generate queries to the database. This allows users to manipulate and pull data quickly.
- 

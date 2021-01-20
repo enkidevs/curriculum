@@ -10,6 +10,14 @@ links:
   - >-
     [How public key encryption
     works](https://cs.stackexchange.com/questions/59675/can-a-public-key-be-used-to-decrypt-a-message-encrypted-by-the-corresponding-pri){discussion}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Blockchain Practice - Identity
@@ -20,4 +28,3 @@ links:
 ## Exercise
 
 Follow the link below and change the value of the `private key` to be `1234567890` and send the bot a message containing the generated public key.
- 

@@ -2,6 +2,14 @@
 author: mihaiberq
 type: normal
 category: must-know
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Mining
@@ -48,4 +56,3 @@ What effect does mining have on the structure of the blockchain?
 - The miner receives a block reward.
 - The mined block contains the block reward transaction.
 - The last block is skipped.
- 

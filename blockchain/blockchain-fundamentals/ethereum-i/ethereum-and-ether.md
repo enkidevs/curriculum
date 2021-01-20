@@ -8,6 +8,14 @@ links:
   - >-
     [Guide to Casper
     Protocol](https://blockgeeks.com/guides/ethereum-casper/){article}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Ethereum and Ether
@@ -56,4 +64,3 @@ What is the biggest expected change in the Ethereum blockchain protocol, that wi
 - Removing the periodical block reward reduction
 - Further reducing the block time
 - Removing the gas cost of running DApps
- 

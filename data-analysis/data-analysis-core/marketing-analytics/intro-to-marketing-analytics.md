@@ -1,20 +1,28 @@
 ---
 author: emmab
-
 tags:
   - introduction
-
 type: normal
-
 category: must-know
-
 links:
-  - '[Marketing Analytics Examples](https://www.mentionlytics.com/blog/5-real-world-examples-of-how-brands-are-using-big-data-analytics/){website}'
+  - >-
+    [Marketing Analytics
+    Examples](https://www.mentionlytics.com/blog/5-real-world-examples-of-how-brands-are-using-big-data-analytics/){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+---
+
+# Intro to Marketing Analytics
+
 
 ---
-#  Intro to Marketing Analytics
 
----
 ## Content
 
 Marketing aims to reach consumers at the moments that **most influence their decisions**. 
@@ -35,7 +43,9 @@ Growth hackers make use of marketing analysis to quickly figure out which strate
 
 Check out the **Learn More** link to discover more real world examples of how big brands use marketing analytics to drive growth.
 
+
 ---
+
 ## Footnotes
 
 [1:Growth Hacking]
@@ -43,5 +53,4 @@ Growth hacking is an umbrella term for strategies focused solely on growth. It i
 
 The goal of growth hacking strategies is to acquire as many users or customers as possible while spending as little as possible.
 
-Many startups use Dave McClure’s “pirate funnel” as a recipe for growth. These are **acquisition**, **activation**, **retention**, **referral**, and **revenue** (AARRR). 
- 
+Many startups use Dave McClure’s “pirate funnel” as a recipe for growth. These are **acquisition**, **activation**, **retention**, **referral**, and **revenue** (AARRR).

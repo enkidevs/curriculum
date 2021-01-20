@@ -2,6 +2,14 @@
 author: kapnobatai136
 category: must-know
 type: normal
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Tables
@@ -47,4 +55,3 @@ Base 2  Table C
 - You can link records From Table C to Table A
 - You can link records from Table B to Table A
 - You can link records from Table A to Table B
- 

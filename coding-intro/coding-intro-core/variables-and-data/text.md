@@ -1,15 +1,22 @@
 ---
 author: kapnobatai136
-
 type: normal
-
 category: must-know
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Text
 
+
 ---
+
 ## Content
 
 In the land of computers, the text type is almost never called *text*. 
@@ -26,7 +33,9 @@ best_user = "You"
 
 > 💡 To help the computer distinguish strings from variable names, we wrap strings in quotes (`" "`). In some programming languages, you can also use single quotes (`' '`) and/or backticks (`` ` ` ``).
 
+
 ---
+
 ## Practice
 
 Strings commonly have to be enclosed with ???.
@@ -36,7 +45,9 @@ Strings commonly have to be enclosed with ???.
 - square brackets
 - commas
 
+
 ---
+
 ## Revision
 
 Complete the gaps to define a string:
@@ -50,7 +61,9 @@ my_name ??? ???
 - Andrei
 - ==
 
+
 ---
+
 ## Footnotes
 
 [1:String]

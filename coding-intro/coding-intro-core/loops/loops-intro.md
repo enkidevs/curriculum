@@ -1,19 +1,25 @@
 ---
 author: kapnobatai136
-
 type: normal
-
 category: must-know
-
 aspects:
   - workout
   - deep
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Loops Intro
 
+
 ---
+
 ## Content
 
 Loops are everywhere in our lives. A good example of a loop is playing a song on repeat. You replay the same song for a number of times. That's what a computer considers a loop.
@@ -21,6 +27,7 @@ Loops are everywhere in our lives. A good example of a loop is playing a song on
 > 💡 **Looping** (also known as **iterating**) is how we make computers repeat themselves.
 
 In programming, there are different types of loops, with each having their own application. The types can be divided into two main categories:
+
 - counter loops
 - condition loops
 

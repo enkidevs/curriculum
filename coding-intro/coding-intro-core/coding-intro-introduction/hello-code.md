@@ -1,15 +1,22 @@
 ---
 author: kapnobatai136
-
 type: normal
-
 category: must-know
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Hello Code?
 
+
 ---
+
 ## Content
 
 For the rest of this course, we'll use our own [made-up](https://enki.com/glossary/general/pseudocode) language to paint the picture of how programs behave and what you can do with them.

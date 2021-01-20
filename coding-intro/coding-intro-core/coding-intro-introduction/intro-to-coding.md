@@ -1,15 +1,22 @@
 ---
 author: kapnobatai136
-
 type: normal
-
 category: must-know
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Intro to Coding
 
+
 ---
+
 ## Content
 
 If you want to learn to code, this course is the best place to start, before digging later into your language(s) of choice. 
@@ -17,6 +24,7 @@ If you want to learn to code, this course is the best place to start, before dig
 We'll cover the core features everyone should know before starting to program. And we'll emphasize a few key themes and tools that'll be useful as you learn.
 
 All programming languages have a handful of building blocks. When combined, they can create any program:
+
 - **variables** - where data is stored
 - **data types** - how to tell what's a number or what's text
 - **functions** - how we can organize commands

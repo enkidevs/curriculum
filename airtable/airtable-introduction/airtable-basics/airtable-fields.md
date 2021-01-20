@@ -2,6 +2,14 @@
 author: kapnobatai136
 category: must-know
 type: normal
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Fields
@@ -37,4 +45,3 @@ When changing the type of a field, what happens to the data that doesn't fit the
 - It's deleted.
 - It's updated to the new type.
 - You get an error.
- 

@@ -2,6 +2,14 @@
 author: kapnobatai136
 category: must-know
 type: normal
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # What's Airtable?
@@ -29,4 +37,3 @@ Airtable is part ??? and part spreadsheet.
 - database
 - code
 - logic
- 

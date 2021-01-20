@@ -9,6 +9,14 @@ links:
   - >-
     [Advanced Field
     Types](https://support.airtable.com/hc/en-us/sections/200644945-Advanced-field-types-and-workflows){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Field Types
@@ -78,4 +86,3 @@ Which of the following is an accepted field type?
 - Number.
 - Single line text.
 - Currency.
- 

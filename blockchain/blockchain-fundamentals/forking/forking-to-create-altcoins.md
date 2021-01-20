@@ -2,6 +2,14 @@
 author: mihaiberq
 type: normal
 category: must-know
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Forking to Create Altcoins
@@ -47,4 +55,3 @@ What is it that is forked off a blockchain to create an inherently different one
 - The state of the blockchain
 - The source code and everything up to block X
 - The nodes
- 

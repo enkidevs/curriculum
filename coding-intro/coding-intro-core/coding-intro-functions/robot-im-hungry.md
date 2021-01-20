@@ -1,15 +1,22 @@
 ---
 author: kapnobatai136
-
 type: normal
-
 category: must-know
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Robot, I'm Hungry!
 
+
 ---
+
 ## Content
 
 It's Saturday afternoon, and you're ready for a grilled cheese sandwich 🧀. Here is the recipe[1].
@@ -32,10 +39,13 @@ ENDFUNCTION
 The function above is called `prepare_ingredients` and takes in `cheese`, `grater`, `bowl`, and `bread` as inputs and returns a `cheese_bowl` and `sliced_bread` as output.
 
 `prepare_ingredients` calls two functions within its *body*:
+
 - `grate_cheese_in_the_bowl` with `grater`, `cheese` and `bowl` as the input and stores the output into the `cheese_bowl` variable
 - `slice_the_bread` with `bread` as the input and stores the output into the `sliced_bread` variable
 
+
 ---
+
 ## Practice
 
 Functions can call other functions.
@@ -45,7 +55,9 @@ Functions can call other functions.
 - true
 - false
 
+
 ---
+
 ## Revision
 
 Which of these terms isn't correct in this sentence:
@@ -58,7 +70,9 @@ Which of these terms isn't correct in this sentence:
 - run
 - invoke
 
+
 ---
+
 ## Footnotes
 
 [1: Grilled Cheese Sandwich Recipe]
@@ -66,6 +80,7 @@ Which of these terms isn't correct in this sentence:
 The recipe says:
 
 Ingredients:
+
 - cheese
 - bread
 - butter
@@ -75,13 +90,16 @@ Ingredients:
 Instructions:
 
 1. prepare the ingredients
-  - Grate the cheese in a bowl
-  - Cut the bread into slices
+
+- Grate the cheese in a bowl
+- Cut the bread into slices
 
 2. build the sandwich
-  - Butter the bread on both sides
-  - Add the cheese to the sandwich
+
+- Butter the bread on both sides
+- Add the cheese to the sandwich
 
 3. grill the sandwich
-  - Preheat a pan
-  - Fry the sandwich for three minutes on each side (or until golden brown)
+
+- Preheat a pan
+- Fry the sandwich for three minutes on each side (or until golden brown)

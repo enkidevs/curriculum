@@ -1,15 +1,20 @@
 ---
 author: mihaiberq
-
 type: normal
-
 category: must-know
-
 links: null
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Cryptoeconomics
+
 
 ---
 
@@ -20,6 +25,7 @@ Technically, **cryptoeconomics** is the study of incentive mechanisms that are a
 The resulting digital economies are governed by computer code. However, much like a regular economy, they still require definitions for policies, may them be fiscal, monetary or privacy-related. Moreover, they also need the platform maintainers, that would update the protocols overtime in response to changes or needs.
 
 The subject is vast and a solution is far from being platform agnostic.
+
 
 ---
 
@@ -32,6 +38,7 @@ What are the means through which long term holding of properties are encouraged?
 - economic incentives
 - economic punishments
 - cryptographic algorithms
+
 
 ---
 

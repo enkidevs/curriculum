@@ -2,6 +2,14 @@
 author: kapnobatai136
 category: must-know
 type: normal
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Importing Data
@@ -45,10 +53,10 @@ Which of the following **is not** a viable option of importing data into Airtabl
 - Paste your table data.
 - Import a .csv file from a storage option.
 
+
 ---
 
 ## Footnotes
 
 [1:CSV]
 The `.csv` extension stands for **Comma Separated Values**, a file type which is used to store data in plain sets. Each column is separated by a comma, and each new line represents a new row.
- 

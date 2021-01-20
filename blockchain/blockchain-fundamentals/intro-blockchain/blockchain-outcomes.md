@@ -2,6 +2,14 @@
 author: kapnobatai136
 type: normal
 category: must-know
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Outcomes of This Course
@@ -21,8 +29,7 @@ At the end of this course, you should be able to:
 - Identify and analyze the process of securing the network
 
 > 💡 As with all the skills in the app, if you want to access more advanced or specific content at any time, **feel free to use the *Skill Map* tab** to jump to the workouts most relevant for you.
- 
-> 💬 Why are you interested in learning Blockchain?
-> 
-> Leave a comment or view some of the other comments for inspiration before moving on.
 
+> 💬 Why are you interested in learning Blockchain?
+>
+> Leave a comment or view some of the other comments for inspiration before moving on.

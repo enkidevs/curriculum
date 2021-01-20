@@ -1,20 +1,28 @@
 ---
 author: kapnobatai136
-
 type: normal
-
 category: must-know
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Why learn to code?
 
+
 ---
+
 ## Content
 
 Learning how code works isn't only for developers - it can help everyone! 
 
 For example, you'll be able to:
+
 - write programs that automate processes and save you time (and money!)
 - create websites for your products or projects
 - understand how software works, helping to improve your communication and decision making at work

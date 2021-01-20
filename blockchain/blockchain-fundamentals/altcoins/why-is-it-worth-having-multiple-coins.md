@@ -2,6 +2,14 @@
 author: mihaiberq
 type: normal
 category: must-know
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Why Is It Worth Having Multiple Coins?
@@ -46,4 +54,3 @@ Blockchain-based projects, as any other start-ups, are more likely to fail than 
 
 - False
 - True
- 

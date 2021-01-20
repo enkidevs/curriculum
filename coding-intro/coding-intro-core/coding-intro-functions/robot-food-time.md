@@ -1,15 +1,22 @@
 ---
 author: kapnobatai136
-
 type: normal
-
 category: must-know
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Robot, Food Time
 
+
 ---
+
 ## Content
 
 The recipe[1] instructions are complete.
@@ -42,7 +49,9 @@ That's it! Bon Appétit!
 
 > 💡 You should give your functions explanatory names. A good rule is to use verb-noun combinations (`prepare_ingredients`). If your functions require two verbs or nouns for its identifier, it's probably doing too much and you should split it into separate functions.
 
+
 ---
+
 ## Footnotes
 
 [1: Grilled Cheese Sandwich Recipe]
@@ -50,6 +59,7 @@ That's it! Bon Appétit!
 The recipe says:
 
 Ingredients:
+
 - cheese
 - bread
 - butter
@@ -59,13 +69,16 @@ Ingredients:
 Instructions:
 
 1. prepare the ingredients
-  - Grate the cheese in a bowl
-  - Cut the bread into slices
+
+- Grate the cheese in a bowl
+- Cut the bread into slices
 
 2. build the sandwich
-  - Butter the bread on both sides
-  - Add the cheese to the sandwich
+
+- Butter the bread on both sides
+- Add the cheese to the sandwich
 
 3. grill the sandwich
-  - Preheat a pan
-  - Fry the sandwich for three minutes on each side (or until golden brown)
+
+- Preheat a pan
+- Fry the sandwich for three minutes on each side (or until golden brown)

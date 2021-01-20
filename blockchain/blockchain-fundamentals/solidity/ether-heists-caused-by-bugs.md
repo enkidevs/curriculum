@@ -6,6 +6,14 @@ links:
   - >-
     [TheDAO
     hack](https://www.coindesk.com/understanding-dao-hack-journalists/){article}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Ether Heists Cause by Bugs
@@ -50,4 +58,3 @@ If coins are found to be stolen, identify what should be done to revert the thef
 - soft fork
 - ban the thief's address
 - transactions cannot be reverted
- 

@@ -1,21 +1,26 @@
 ---
 author: emmab
-
 tags:
   - introduction
-
 type: normal
-
 category: must-know
-
 links:
   - '[North Star Metric](https://growwithward.com/north-star-metric/){website}'
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # North Star Metric
 
+
 ---
+
 ## Content
 
 A **North Star Metric** is a metric that a company uses as a **focus for their growth**. 🌟
@@ -35,22 +40,24 @@ Different teams can track their own specific KPIs that will ultimately impact th
 
 
 ---
+
 ## Practice
 
 A North Star Metric should be the only metric that a company cares about.
 
 ???
 
-* False
-* True
+- False
+- True
+
 
 ---
+
 ## Revision
 
 North Star Metrics should be relatable to everyone in the company.
 
 ???
 
-* True
-* False
- 
+- True
+- False

@@ -1,23 +1,34 @@
 ---
 author: emmab
-
 tags:
   - introduction
-
 type: normal
-
 category: must-know
-
 links:
-  - '[Data Analysis on Spreadsheets](https://www.digitalvidya.com/blog/how-to-analyze-data-in-excel/){website}'
-  - '[Microsoft Excel vs Google Sheets](https://tallyfy.com/microsoft-excel-vs-google-sheets/){website}'
-  - '[Data Analysis Functions](https://excelwithbusiness.com/blog/15-excel-data-analysis-functions-need/){website}'
-
-
+  - >-
+    [Data Analysis on
+    Spreadsheets](https://www.digitalvidya.com/blog/how-to-analyze-data-in-excel/){website}
+  - >-
+    [Microsoft Excel vs Google
+    Sheets](https://tallyfy.com/microsoft-excel-vs-google-sheets/){website}
+  - >-
+    [Data Analysis
+    Functions](https://excelwithbusiness.com/blog/15-excel-data-analysis-functions-need/){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
+
 # Intro to Spreadsheets
 
+
 ---
+
 ## Content
 
 Spreadsheets allow **anyone** to quickly analyze pretty *large amounts of data*.
@@ -52,23 +63,26 @@ Check out the *Data Analysis Functions* **Learn More** link for some examples of
 
 We also have our own Spreadsheets course which covers everything in much more depth 🔎. 
 
+
 ---
+
 ## Practice
 
 ??? is a useful formula to sum data that meets a certain criteria.
 
-* SUMIF
-* SUM
-* SUMPRODUCT
-* SUMWHEN
+- SUMIF
+- SUM
+- SUMPRODUCT
+- SUMWHEN
+
 
 ---
+
 ## Revision
 
 ??? is a useful formula to average data that meets a certain criteria.
 
-* AVERAGEIF
-* IFAVERAGE
-* AVERAGE
-* AVERAGEWHEN
- 
+- AVERAGEIF
+- IFAVERAGE
+- AVERAGE
+- AVERAGEWHEN

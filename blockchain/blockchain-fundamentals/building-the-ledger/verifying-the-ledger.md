@@ -6,6 +6,14 @@ links:
   - >-
     [Full list of block
     checks](https://en.bitcoin.it/wiki/Protocol_rules#.22block.22_messages){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Verifying the Ledger
@@ -38,4 +46,3 @@ On which two levels are verifications conducted?
 - Transaction and Square
 - Transcript and Block
 - Transfer and Transaction
- 

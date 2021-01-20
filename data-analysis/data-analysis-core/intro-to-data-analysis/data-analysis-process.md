@@ -1,16 +1,21 @@
 ---
 author: emmab
-
 tags:
   - introduction
-
 type: normal
-
 category: must-know
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Data Analysis Process
+
 
 ---
 
@@ -59,11 +64,12 @@ What are the key steps when doing data analysis?
 4. Conclude
 5. Communicate
 
-* Wrangle
-* Explore
-* Purchase
-* Scrape
-* Download
+- Wrangle
+- Explore
+- Purchase
+- Scrape
+- Download
+
 
 ---
 
@@ -77,9 +83,8 @@ What are the key steps when doing data analysis?
 4. ???
 5. Communicate
 
-* Question
-* Conclude
-* Illustrate
-* Buy
-* Share
- 
+- Question
+- Conclude
+- Illustrate
+- Buy
+- Share

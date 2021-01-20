@@ -1,15 +1,22 @@
 ---
 author: kapnobatai136
-
 type: normal
-
 category: must-know
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Robot, Assemble the Sandwich
 
+
 ---
+
 ## Content
 
 Let's continue preparing the sandwich-making instructions for our robot by writing a function to perform the second step of our recipe[1] - building out the sandwich from the ingredients.
@@ -44,7 +51,9 @@ OUTPUT sandwich
 
 The computer wouldn't know what to do! It doesn't know what `sandwich` variable is unless you tell it.
 
+
 ---
+
 ## Practice
 
 Before continuing, let's practice function creation!
@@ -66,7 +75,9 @@ ENDFUNCTION
 - pour
 - OUTPUT
 
+
 ---
+
 ## Revision
 
 Write a function called `fill_glass` that takes in `glass` and `water`, calls `pour` function to pour the `water` into the `glass` and produces a `glass_of_water` as the result:
@@ -86,7 +97,9 @@ ENDFUNCTION
 - pour
 - OUTPUT
 
+
 ---
+
 ## Footnotes
 
 [1: Grilled Cheese Sandwich Recipe]
@@ -94,6 +107,7 @@ ENDFUNCTION
 The recipe says:
 
 Ingredients:
+
 - cheese
 - bread
 - butter
@@ -103,16 +117,19 @@ Ingredients:
 Instructions:
 
 1. prepare the ingredients
-  - Grate the cheese in a bowl
-  - Cut the bread into slices
+
+- Grate the cheese in a bowl
+- Cut the bread into slices
 
 2. build the sandwich
-  - Butter the bread on both sides
-  - Add the cheese to the sandwich
+
+- Butter the bread on both sides
+- Add the cheese to the sandwich
 
 3. grill the sandwich
-  - Preheat a pan
-  - Fry the sandwich for three minutes on each side (or until golden brown)
+
+- Preheat a pan
+- Fry the sandwich for three minutes on each side (or until golden brown)
 
 [2: 💡 Code Must Be Exact]
 
@@ -130,4 +147,4 @@ We have to end it with a `;` like this:
 
 ```plain-text
 study_buddy = "enki";
-``` 
+```

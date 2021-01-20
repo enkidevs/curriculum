@@ -6,6 +6,14 @@ links:
   - >-
     [Examples of Blockchain
     Use-Cases](https://medium.com/@matteozago/50-examples-of-how-blockchains-are-taking-over-the-world-4276bf488a4b){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # What Is a Blockchain?
@@ -51,4 +59,3 @@ A blockchain is a ??? ledger.
 
 [1:Wallet Address]
 Unlike a real address, this will be a long string of numbers and letters.
- 

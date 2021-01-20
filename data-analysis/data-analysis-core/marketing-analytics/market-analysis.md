@@ -1,21 +1,31 @@
 ---
 author: emmab
-
 tags:
   - introduction
-
 type: normal
-
 category: must-know
-
 links:
-  - '[Competitor Analysis](https://realbusiness.co.uk/6-top-tips-for-carrying-out-a-thorough-competitor-analysis/){website}'
-  - '[Total Addressable Market](https://blog.zoominfo.com/how-to-calculate-total-addressable-market/#:~:text=To%20calculate%20your%20market%20size,your%20company%20service%20or%20product.){website}'
-
+  - >-
+    [Competitor
+    Analysis](https://realbusiness.co.uk/6-top-tips-for-carrying-out-a-thorough-competitor-analysis/){website}
+  - >-
+    [Total Addressable
+    Market](https://blog.zoominfo.com/how-to-calculate-total-addressable-market/#:~:text=To%20calculate%20your%20market%20size,your%20company%20service%20or%20product.){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
+
 # Market Analysis
 
+
 ---
+
 ## Content
 
 **Market analysis** is different to marketing analytics. 
@@ -36,22 +46,24 @@ Total Addressable Market (TAM) can be used to calculate the potential revenue op
 
 There are several different approaches for calcuating TAM, read about them [here](https://blog.zoominfo.com/how-to-calculate-total-addressable-market/#:~:text=To%20calculate%20your%20market%20size,your%20company%20service%20or%20product.).
 
+
 ---
+
 ## Practice
 
 TAM stands for ???
 
-* Total Addressable Market
-* Target Addressable Market
-* Total Advertising Market
-* Target Advertising Market
+- Total Addressable Market
+- Target Addressable Market
+- Total Advertising Market
+- Target Advertising Market
 
 
 ---
+
 ## Revision
 
 ??? analyses the attractiveness of a particular market.
 
-* Market Analysis
-* Marketing Analysis
- 
+- Market Analysis
+- Marketing Analysis

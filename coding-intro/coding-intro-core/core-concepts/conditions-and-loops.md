@@ -1,15 +1,22 @@
 ---
 author: kapnobatai136
-
 type: normal
-
 category: must-know
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Conditions and Loops
 
+
 ---
+
 ## Content
 
 It's time to introduce the core tools for making logical decisions and repeating commands within programs.
@@ -32,7 +39,9 @@ We only have to write the command `play` once and then use a loop to repeat it u
 
 > 💡 Loops let us repeat doing a command any number of times
 
+
 ---
+
 ## Footnotes
 
 [1: Computers think in binary]

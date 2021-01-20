@@ -8,6 +8,14 @@ links:
   - >-
     [Market state for the given
     date](https://coinmarketcap.com/historical/20180610/){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Blockchain Practice - Market history
@@ -18,4 +26,3 @@ links:
 ## Exercise
 
 Follow the link below and for the given date, filter by and count the number of cryptocurrencies with a market cap of over $1 billion.
- 

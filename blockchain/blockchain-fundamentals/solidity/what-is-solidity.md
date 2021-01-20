@@ -7,6 +7,14 @@ links:
     [Solidity By
     Example](https://solidity.readthedocs.io/en/develop/solidity-by-example.html){website}
   - '[What is Solidity?](https://blockgeeks.com/guides/solidity/){article}'
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # What is Solidity?
@@ -51,4 +59,3 @@ Why does one pay gas to publish a smart contract on the blockchain?
 - To support the Ethereum foundation
 - To tip the nodes that run the code
 - To speed up the verification process
- 

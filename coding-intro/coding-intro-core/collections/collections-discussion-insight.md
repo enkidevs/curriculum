@@ -1,16 +1,21 @@
 ---
 author: kapnobatai136
-
 tags:
   - discussion
-
 type: normal
-
 category: discussion
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Test Yourself
+
 
 ---
 
@@ -33,6 +38,7 @@ When you're ready, leave a comment here with your submission. If you don't want 
 > 💡 Before you submit your program, take a look at [how you can format your comments](https://www.enki.com/glossary/general/markdown-formatting).
 
 > 💡 The guidelines above are just suggestions. Feel free to include other concepts in your solution as you see fit, the implementation is up to you.
+
 
 ---
 
@@ -76,4 +82,3 @@ favorite_game.name
 favorite_game["rating"]
 // 10
 ```
-

@@ -1,20 +1,28 @@
 ---
 author: emmab
-
 tags:
   - introduction
-
 type: normal
-
 category: must-know
-
 links:
-  - '[Google Analytics for Beginners](https://analytics.google.com/analytics/academy/course/6){website}'
-
+  - >-
+    [Google Analytics for
+    Beginners](https://analytics.google.com/analytics/academy/course/6){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
+
 # Why Google Analytics?
 
+
 ---
+
 ## Content
 
 Do you have a blog? A static website? Do you run an e-commerce platform or webapp? If the answer is yes, whether they are for personal or business use, then you should consider using **Google Analytics**. 
@@ -40,28 +48,33 @@ What's more, Google Analytics is **free** 🎉.
 
 If you want more advanced features, then there is a recurring fee. The premium platform is called Google Analytics 360[1].
 
+
 ---
+
 ## Practice
 
 Google Analytics can tell you information about your users' demographics - age, gender, location, interests, etc.
 
 ???
 
-* True
-* False
+- True
+- False
 
 
 ---
+
 ## Revision
 
 Google Analytics can help you identify which pages are the most clicked on.
 
 ???
 
-* True
-* False
+- True
+- False
+
 
 ---
+
 ## Footnotes
 
 [1:Google Analytics 360]
@@ -72,5 +85,4 @@ Here's an overview of the key benefits:
 - **Higher Quality Data** 
 - **Improved Custom Data Collection**
 - **Advanced Analytics** - access to Data Driven Attribution modeling, DoubleClick Campaign Manager, Google BigQuery
-- **Dedicated Google Analytics account manager** 
- 
+- **Dedicated Google Analytics account manager**

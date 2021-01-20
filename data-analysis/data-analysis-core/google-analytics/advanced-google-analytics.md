@@ -1,21 +1,31 @@
 ---
 author: emmab
-
 tags:
   - introduction
-
 type: normal
-
 category: must-know
-
 links:
-  - '[Advanced Google Analytics](https://analytics.google.com/analytics/academy/course/7/unit/1/lesson/1){website}'
-  - '[Google Analytics Top Tips](https://neilpatel.com/blog/google-analytics-tips/){website}'
-
+  - >-
+    [Advanced Google
+    Analytics](https://analytics.google.com/analytics/academy/course/7/unit/1/lesson/1){website}
+  - >-
+    [Google Analytics Top
+    Tips](https://neilpatel.com/blog/google-analytics-tips/){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
+
 # Advanced Google Analytics
 
+
 ---
+
 ## Content
 
 ### Hits and Sessions
@@ -25,11 +35,11 @@ With each user interaction on your website, the Analytics tracking code automati
 The three most common types of hits are:
 
 1. **“Pageview” hits**
-When a user loads a webpage with the tracking code.
+   When a user loads a webpage with the tracking code.
 2. **“Event” hits**
-When a user interacts with a particular element on your website.
+   When a user interacts with a particular element on your website.
 3. **“Transaction” hits**
-Can pass data to Analytics about ecommerce purchases such as products purchased, transaction IDs, and “stock keeping units” (SKUs).
+   Can pass data to Analytics about ecommerce purchases such as products purchased, transaction IDs, and “stock keeping units” (SKUs).
 
 > 💡 Setting up **Enhanced Ecommerce** allows you to pass additional ecommerce data like product category, whether items have been added or removed from a shopping cart, and how many times users viewed a product.
 
@@ -57,32 +67,37 @@ Read this article for more info on [custom metrics and dimensions](https://suppo
 
 And check out the **Learn More** link for over 20 top Google Analytics tips!
 
+
 ---
+
 ## Practice
 
 What does Google Analytics call a URL that passes data parameters for reporting?
 
 ???
 
-* A hit
-* A tag
-* A dimension
-* A metric
+- A hit
+- A tag
+- A dimension
+- A metric
+
 
 ---
+
 ## Revision
 
 When does the Google Analytics tracking code send a **pageview hit** to Analytics?
 
 ???
 
-* Every time a user loads a webpage
-* Every time a user clicks a video
-* Every time a user adds an item to a shopping cart
-* Every time a user performs a search on a website
+- Every time a user loads a webpage
+- Every time a user clicks a video
+- Every time a user adds an item to a shopping cart
+- Every time a user performs a search on a website
 
 
 ---
+
 ## Footnotes
 
 [1:Session]
@@ -91,4 +106,3 @@ A session begins when a user navigates to a page that includes the GA tracking c
 It will end after 30 minutes if no other hits are recorded. If a user returns to a page after a session ends, a new session will begin.
 
 While sessions time out after thirty minutes of inactivity by default, you can change this setting in your configurations to better align with user behavior on your site. For example, a site with a goal to get users to watch videos may not want sessions to timeout after thirty minutes. They can extend session timeout to the average watch time of the videos on the site.
- 

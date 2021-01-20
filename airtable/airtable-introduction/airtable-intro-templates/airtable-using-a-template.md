@@ -6,6 +6,14 @@ links:
   - >-
     [Apartment Hunting
     Template](https://airtable.com/templates/everyday-life/expPfTzGnfpwjgWlS/apartment-hunting){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Using a Template
@@ -36,4 +44,3 @@ When discovering templates, Airtable shows a description and ???.
 
 - a preview of the selected option
 - other templates related to the selected option
- 

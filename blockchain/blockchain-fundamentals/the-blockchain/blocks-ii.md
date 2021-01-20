@@ -6,6 +6,14 @@ links:
   - >-
     [Interactive tutorial of how blocks are
     built](https://anders.com/blockchain/){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Hash Functions

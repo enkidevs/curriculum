@@ -2,6 +2,14 @@
 author: mihaiberq
 type: normal
 category: must-know
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Anonymity
@@ -49,4 +57,3 @@ What is the level of anonymity provided by the Bitcoin network?
 - pseudoanonymity
 - complete anonymity
 - no anonymity
- 

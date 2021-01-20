@@ -1,15 +1,22 @@
 ---
 author: kapnobatai136
-
 type: normal
-
 category: must-know
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # A Data Type Is A Category
 
+
 ---
+
 ## Content
 
 You can think of a *data type* as a category for information.
@@ -19,6 +26,7 @@ Just like how in most human languages a "house" and a "skyscraper" are both in t
 > 💡 Don't worry too much about the strange-looking `0xff`. The core idea to focus on is that **programs categorize data by type**.
 
 Most programming languages support at least some data types. The most common ones are:
+
 - number
 - text
 - boolean
@@ -29,7 +37,9 @@ There are many more types, (and you can even build your own!) but you'll start l
 
 Data types are very important! They decide what actions you can and cannot take for a particular value. One example is that you can't add the number `1` to the text `"one"`.
 
+
 ---
+
 ## Footnotes
 
 [1: Hexadecimal number]

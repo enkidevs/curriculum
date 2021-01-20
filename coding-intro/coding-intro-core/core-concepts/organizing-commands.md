@@ -1,15 +1,22 @@
 ---
 author: kapnobatai136
-
 type: normal
-
 category: must-know
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Organizing Commands
 
+
 ---
+
 ## Content
 
 Functions allow us to group commands and create new ones.
@@ -19,6 +26,7 @@ Functions allow us to group commands and create new ones.
 Using functions we can organize commands into groups and give each group a name.
 
 For example, if you had a program that was meant to simulate a person going for a run, you might have a function called `goForARun` that makes use of the following commands:
+
 - lift left leg
 - lift right leg
 - inhale

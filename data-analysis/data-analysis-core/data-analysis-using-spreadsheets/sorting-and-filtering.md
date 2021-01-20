@@ -1,18 +1,24 @@
 ---
 author: emmab
-
 tags:
   - introduction
-
 type: normal
-
 category: must-know
-
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
+
 # Sorting and Filtering
 
+
 ---
+
 ## Content
 
 **Sorting your data** makes understanding it much easier.
@@ -56,28 +62,29 @@ The `function codes` which need to be inserted are:
 11 - VARP
 
 
-
 ---
+
 ## Practice
 
 What function can be used to calculate the sum of filtered data?
 
 ???
 
-* SUBTOTAL
-* SUMTOTAL
-* SUM
-* SUMIF
+- SUBTOTAL
+- SUMTOTAL
+- SUM
+- SUMIF
+
 
 ---
+
 ## Revision
 
 What function can be used to calculate the average of filtered data?
 
 ???
 
-* SUBTOTAL
-* AVERAGETOTAL
-* AVERAGE
-* AVERAGEIF
- 
+- SUBTOTAL
+- AVERAGETOTAL
+- AVERAGE
+- AVERAGEIF

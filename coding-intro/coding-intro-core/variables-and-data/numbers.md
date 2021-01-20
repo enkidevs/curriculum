@@ -1,18 +1,26 @@
 ---
 author: kapnobatai136
-
 type: normal
-
 category: must-know
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Numbers
 
+
 ---
+
 ## Content
 
 Just as in maths, we can categorize numerical data based on their properties.
+
 - we can have whole, or integer numbers like `1`, `999`, `-13`
 - we can have fractional numbers or floats like `12.33`, `0.0001`, `-13.2`
 - we can even have complex numbers like `13 + 2j`
@@ -33,7 +41,9 @@ int my_age = 33
 integer my_age = 33
 ```
 
+
 ---
+
 ## Practice
 
 Choose the integer:
@@ -52,7 +62,9 @@ c = "one"
 - b
 - c
 
+
 ---
+
 ## Revision
 
 Create a variable named `age` which stores `33`:
