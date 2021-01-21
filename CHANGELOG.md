@@ -51,7 +51,7 @@ Types of change:
 ## January 21st 2021
 
 ### Changed
-- [Git - What Is Stored in a Commit? - Add footnote and resource link on checksums]()
+- [Git - What Is Stored in a Commit? - Add footnote and resource link on checksums](https://github.com/enkidevs/curriculum/pull/2548)
 
 ## January 19th 2021
 
