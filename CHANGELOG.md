@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## January 21st 2021
+
+### Changed
+- [Git - What Is Stored in a Commit? - Add footnote and resource link on checksums]()
+
 ## January 19th 2021
 
 ### Added
