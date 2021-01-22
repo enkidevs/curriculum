@@ -51,6 +51,7 @@ Types of change:
 ## January 22nd 2021
 
 ### Fixed
+- [Security - Identify Deserialization - Update resource link](https://github.com/enkidevs/curriculum/pull/2550)
 - [HTML - Check Boxes - Fix typo](https://github.com/enkidevs/curriculum/pull/2549)
 
 ## January 21st 2021
