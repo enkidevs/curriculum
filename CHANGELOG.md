@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## January 22nd 2021
+
+### Fixed
+- [HTML - Check Boxes - Fix typo](https://github.com/enkidevs/curriculum/pull/2549)
+
 ## January 19th 2021
 
 ### Added
