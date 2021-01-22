@@ -1,7 +1,10 @@
 ---
 author: catalin
+
 type: normal
+
 category: how to
+
 ---
 
 # Base Conversion
@@ -46,7 +49,6 @@ parseInt("1111011", 2) // 123
 
 The type of returned value is `"number"`.
 
-
 ---
 
 ## Practice
@@ -64,15 +66,14 @@ Complete the following code snippet:
 - toString
 - 2
 - parseInt
-- 16
+- 10
 - '10'
 - '2'
-- 10
+- 16
 - "base 10"
 - "base 16"
 - intoString
 - "two"
-
 
 ---
 

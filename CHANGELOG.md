@@ -51,6 +51,7 @@ Types of change:
 ## January 22nd 2021
 
 ### Fixed
+- [JavaScript - Base Conversion - Fix answer in PQ]()
 - [Security - Identify Deserialization - Update resource link](https://github.com/enkidevs/curriculum/pull/2550)
 - [HTML - Check Boxes - Fix typo](https://github.com/enkidevs/curriculum/pull/2549)
 
