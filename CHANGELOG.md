@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## January 22nd 2021
+
+### Fixed
+- [HTML - Check Boxes - Fix typo]()
+
 ## January 19th 2021
 
 ### Added
