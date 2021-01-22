@@ -51,6 +51,16 @@ Checksums are used to check files and other data to confirm they are identical.
 
 A checksum is produced by running the file through an algorithm (e.g. MD5, SHA-1, SHA-256, SHA-512) and it produces a string of fixed length. The size or type of the file doesn't matter and the length of the string will always be the same.
 
+Here is an example of us generating a checksum for the Enki logo:
+
+```bash
+# generating a checksum on Ubuntu
+sha256sum Enki\ Logo.png
+
+30d9adf29a1a20d269febe8cb378de302bf5019cbd97b14e255d62f129c17965
+  Enki Logo.png
+```
+
 If the files are not identical, the checksum will be entirely different.
 
 For more information about checksums, check the *Learn More* section.
