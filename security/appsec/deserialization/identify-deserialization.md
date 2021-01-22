@@ -7,8 +7,7 @@ category: must-know
 
 links:
   - >-
-    [An example of a data tampering vulnerability upon
-    deserialization](http://nodegoat.herokuapp.com/tutorial/a1){website}
+    [Deserialization of untrusted data](https://owasp.org/www-community/vulnerabilities/Deserialization_of_untrusted_data){website}
 
 ---
 
