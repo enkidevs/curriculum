@@ -49,7 +49,7 @@ The usual commit object contains a hash-code, author’s name and email, date an
 
 Checksums are used to check files and other data to confirm they are identical.
 
-A checksum is produced by running the file through an algorithm (e.g. MD5, SHA-1, SHA-256, SHA-512) and it produces a string of fixed length. The size or type of the file doesn't matter, the length of the string will always be the same.
+A checksum is produced by running the file through an algorithm (e.g. MD5, SHA-1, SHA-256, SHA-512) and it produces a string of fixed length. The size or type of the file doesn't matter and the length of the string will always be the same.
 
 If the files are not identical, the checksum will be entirely different.
 
