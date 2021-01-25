@@ -50,6 +50,9 @@ Types of change:
 
 ## January 25th 2021
 
+### Changed
+- [HTML - Formenctype - Rename to formenctype-and-enctype](https://github.com/enkidevs/curriculum/pull/2555)
+
 ### Added
 - [HTML - Formnovalidate and Novalidate - Add resource link](https://github.com/enkidevs/curriculum/pull/2553)
 
