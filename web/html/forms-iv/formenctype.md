@@ -7,7 +7,7 @@ links:
     [MDN enctype and formenctype](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form#attributes_for_form_submission){documentation}
 ---
 
-# enctype & formenctype Attributes
+# enctype & formenctype
 
 
 ---
