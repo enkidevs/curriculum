@@ -4,7 +4,7 @@ description: 'Using button attributes, we can do a lot!'
 insights:
   - image-button
   - formaction
-  - formenctype
+  - formenctype-and-enctype
   - formmethod
   - formnovalidate-and-novalidate
   - formtarget
