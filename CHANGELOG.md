@@ -58,6 +58,7 @@ Types of change:
 - [HTML - Formnovalidate and Novalidate - Add resource link](https://github.com/enkidevs/curriculum/pull/2553)
 
 ### Fixed
+- [JavaScript - Symbol Special Properties - Update practice question to be more clear](https://github.com/enkidevs/curriculum/pull/2556)
 - [JavaScript - Base Conversion - Revert changes to the correct answer](https://github.com/enkidevs/curriculum/pull/2552)
 - [HTML - Formenctype - Add missing information regarding Enctype](https://github.com/enkidevs/curriculum/pull/2554)
 
