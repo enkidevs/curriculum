@@ -2,10 +2,12 @@
 author: Stefan-Stojanovic
 type: normal
 category: must-know
-links: null
+links:
+  - >-
+    [MDN enctype and formenctype](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form#attributes_for_form_submission){documentation}
 ---
 
-# The `formenctype` Attribute
+# enctype & formenctype Attributes
 
 
 ---
@@ -13,9 +15,13 @@ links: null
 ## Content
 
 The HTML `formenctype` input form attribute is used to specify how form-data should be encoded before it's sent to the server.
-It is only used for buttons and images with `type="submit"`.
+It is only used for buttons with `type="submit"` and `type="image"`.
 
-If the attribute is not set, the default value is set to `application/x-www-form-urlencoded`.
+An equivalent attribute is called `enctype`. It has the same functionality, except it is used on the form instead of the two mentioned button types.
+
+Also, the `formenctype` attribute overwrites the functionalities of `enctype` if both are present within the same form.
+
+If neither of the attributes are present, the default value is set to `application/x-www-form-urlencoded`.
 
 When using `<input>` elements with the attribute `type="file"` it is necessary to set the value as `multipart/form-data`.
 
