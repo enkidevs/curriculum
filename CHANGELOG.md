@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## January 25th 2021
+
+### Fixed
+- [JavaScript - Base Conversion - Revert changes to the correct answer](https://github.com/enkidevs/curriculum/pull/2552)
+
 ## January 22nd 2021
 
 ### Fixed

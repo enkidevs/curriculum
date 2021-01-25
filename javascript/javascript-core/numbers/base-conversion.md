@@ -37,7 +37,7 @@ typeof number.toString(16) // "string"
 
 ### parseInt
 
-`parseInt(<string>, <base>)` takes a string and its base and converts it into a decimal number.
+`parseInt(<string>, <base>)` takes a string and its base and converts it into a decimal number (a number in base 10).
 
 For example, parsing a hexadecimal, octal and binary number in string form into a decimal:
 
@@ -66,10 +66,10 @@ Complete the following code snippet:
 - toString
 - 2
 - parseInt
-- 10
+- 16
 - '10'
 - '2'
-- 16
+- 10
 - "base 10"
 - "base 16"
 - intoString
