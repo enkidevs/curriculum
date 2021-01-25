@@ -93,10 +93,9 @@ Is there a way to make a custom `propTypes` validator function implementing the 
 
 - Yes
 - No
-- Only in `ES6`
-- Only in `ES5` and `ES6`
+- Only in ES6
+- Only in ES5 and ES6
 - Only with an external package
-
 
 ---
 

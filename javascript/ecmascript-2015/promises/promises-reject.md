@@ -71,9 +71,7 @@ What is the second argument the `.then` method can take?
 ???
 
 - a function that is triggered if there is an error in the promise
-- a number, which represents in `ms` how long the `.then` should wait before executing
-- a number, which represents in `ms` how long the `.then` should wait before returning 
-
+- a number, which represents in ms how long the .then should wait before executing
 
 ---
 

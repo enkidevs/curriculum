@@ -98,7 +98,7 @@ What is the difference between the `$floor` and `$ceil` aggregation operators?
 
 ???
 
-- The `$floor` operator rounds down, whereas the `$ceil` operator rounds up.
-- The `$ceil` operator rounds down, whereas the `$floor` operator rounds up.
+- The $floor operator rounds down, whereas the $ceil operator rounds up.
+- The $ceil operator rounds down, whereas the $floor operator rounds up.
 - There is no difference.
-- The `$floor` operator can only be used on an array of values, whereas the `$ceil` operator can only be used on an integer.
+- The $floor operator can only be used on an array of values, whereas the $ceil operator can only be used on an integer.

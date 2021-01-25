@@ -76,10 +76,10 @@ What happens when an iterator reaches the end of the sequence being iterated on?
 
 ???
 
-- `StopIteration` exception
-- `FinishIteration` exception
-- `ReferenceError` exception
-- `TypeError` exception
+- StopIteration exception
+- FinishIteration exception
+- ReferenceError exception
+- TypeError exception
 - Nothing
 
 
@@ -97,11 +97,11 @@ print(sum(iterator))
 
 ???
 
-- `15`, then `0`
-- `TypeError` exception
-- `15`, then `15`
-- `5`, then `5`
-- `5`, then `0`
+- 15, then 0
+- TypeError exception
+- 15, then 15
+- 5, then 5
+- 5, then 0
 
 
 ---

@@ -65,9 +65,9 @@ Even if you use `hostnamectl` to change the hostname, you should manually edit t
 
 ??? file.
 
-- /etc/hosts 
-- /etc/hostname 
-- /etc/hostnamectl
+- `/etc/hosts`
+- `/etc/hostname`
+- `/etc/hostnamectl`
 
 
 ---

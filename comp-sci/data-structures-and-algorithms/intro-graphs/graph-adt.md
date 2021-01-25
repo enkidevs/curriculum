@@ -64,10 +64,10 @@ For any undirected graph represented as a matrix, you can be sure that the cells
 
 ???
 
-- `g[u][v]` and `g[v][u]`
-- `g[0][0]` and `g[n-1][n-1]`
-- `g[u][u]` and `g[v][v]`
-- `g[u][v]` and `g[v-1][u-1]`
+- `g[u][v] and g[v][u]`
+- `g[0][0] and g[n-1][n-1]`
+- `g[u][u] and g[v][v]`
+- `g[u][v] and g[v-1][u-1]`
 
 
 ---

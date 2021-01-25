@@ -50,10 +50,10 @@ How do you declare an `ArrayList` of type `int`?
 ???
 
 - They don't store any additional information such as next element pointer
-- You can't declare an `ArrayList` of primitive type like `int`
+- You can't declare an ArrayList of primitive type like int
 - They are of a fixed length
 - Elements in array can only be accessed by index
-- ArrayList<int> arrList = new ArrayList<>();
+- `ArrayList<int> arrList = new ArrayList<>();`
 
 
 ---

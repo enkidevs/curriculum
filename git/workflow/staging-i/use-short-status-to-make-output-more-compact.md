@@ -48,10 +48,10 @@ M  enki.md
 
 ???
 
-- `enki.md` is modified and staged
-- `enki.md` is modified and not staged
-- `enki.md` is a new untracked file
-- `enki.md` is a new staged file
+- `enki.md is modified and staged`
+- `enki.md is modified and not staged`
+- `enki.md is a new untracked file`
+- `enki.md is a new staged file`
 
 
 ---

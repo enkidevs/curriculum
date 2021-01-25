@@ -40,10 +40,10 @@ How would you find out the owners of the `timetable.txt` file?
 ??? ??? timetable.txt
 ```
 
-- ls
-- -l
-- ld
-- -d
+- `ls`
+- `-l`
+- `ld`
+- `-d`
 
 
 ---

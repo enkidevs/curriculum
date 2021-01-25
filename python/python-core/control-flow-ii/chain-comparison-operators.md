@@ -45,10 +45,10 @@ How do you check whether the value of the integer `x` is at least 2 and no more 
 
 ???
 
-- 1 < x < 11
-- 2 < x < 10
-- 2 < x < 11
-- 1 < x < 10
+- `1 < x < 11`
+- `2 < x < 10`
+- `2 < x < 11`
+- `1 < x < 10`
 
 
 ---

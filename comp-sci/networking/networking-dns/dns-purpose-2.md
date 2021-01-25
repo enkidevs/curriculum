@@ -5,7 +5,7 @@ category: must-know
 links:
   - >-
     [What Is
-    DNS?](https://www.cloudflare.com/learning/dns/what-is-dns/){article}
+    DNS?](https://www.cloudflare.com/en-gb/learning/dns/what-is-dns/){article}
   - '[RFC 1035 Defines DNS](https://www.ietf.org/rfc/rfc1035.txt){documentation}'
 ---
 
@@ -27,11 +27,11 @@ Which of the following actions NEVER require a DNS lookup?
 
 ???
 
-- The terminal command `ping 1.1.1.1`
+- The terminal command ping 1.1.1.1
 - Hitting enter in your browsers URL bar.
 - Sending an email.
 - Making an HTTP request to a web API in a programming language.
-- Using the `curl` command to make an HTTP request from the terminal.
+- Using the curl command to make an HTTP request from the terminal.
 
 
 ---

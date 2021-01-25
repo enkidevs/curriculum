@@ -81,11 +81,10 @@ Which statement is false about pointers in **Go**?
 
 ???
 
-- Pointers don't exist in go.
-- The `*` is used to reference a pointers variable.
-- The `*` is used to dereference a pointers variable.
-- The `&` is used to find the address of a variable.
-
+- `Pointers don't exist in go.`
+- `The * is used to reference a pointers variable.`
+- `The * is used to dereference a pointers variable.`
+- `The & is used to find the address of a variable.`
 
 ---
 ## Revision

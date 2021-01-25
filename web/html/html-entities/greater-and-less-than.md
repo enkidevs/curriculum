@@ -72,11 +72,10 @@ In HTML the browser always assumes `<` and `>` represent the start and end of an
 
 ???
 
-- Using their character entity name(`&lt;`,`&gt;`)
-- Using the designated (<) and (>) buttons on the keyboard
-- Enclosing the characters in single quotation '<','>'
-- Escape them like so: `\<` and `\>`
-
+- `Using their character entity name(&lt;,&gt;)`
+- `Using the designated (<) and (>) buttons on the keyboard`
+- `Enclosing the characters in single quotation '<','>'`
+- `Escape them like so: \< and \>`
 
 ---
 

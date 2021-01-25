@@ -7,6 +7,7 @@ insights:
   - using-else-in-loops
   - nested-loops
   - looping-techniques
+  - python-looping-discussion-insight
 exercises:
   - py-practice-boolean
   - py-practice-iterable

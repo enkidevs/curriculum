@@ -44,11 +44,10 @@ What will running `git init` do?
 
 ???
 
-- setup **Git** and bring your project under its Source Control
-- upload your project to the **Git** server
+- setup Git and bring your project under its Source Control
+- upload your project to the Git server
 - download a sample project from the web
-- link you project to **GitHub**
-
+- link you project to GitHub
 
 ---
 

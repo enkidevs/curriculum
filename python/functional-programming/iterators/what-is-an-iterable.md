@@ -53,12 +53,12 @@ Which of the objects below are `iterable`?
 
 ???
 
-- Sequence types (`list`, `str`, `tuple`...)
+- `Sequence types (list, str, tuple...)`
 - Collection types
 - Any custom classes
 - Iterators
 - Any object
-- Any object with a defined `__next__()` method
+- `Any object with a defined __next__() method`
 
 
 ---
@@ -69,11 +69,10 @@ What is the difference between `__getitem__()` and `__iter__()`?
 
 ???
 
-- `__getitem__()` is for indexed lookup, `__iter__()` returns an iterator
-- `__getitem__()` returns the item, `__iter__()` returns an iterator
-- `__getitem__()` is for indexed lookup, `__iter__()` returns an iterable
-- `__getitem__()` returns an iterator, `__iter__()` is for index lookup
-
+- `__getitem__() is for indexed lookup, __iter__() returns an iterator`
+- `__getitem__() returns the item, __iter__() returns an iterator`
+- `__getitem__() is for indexed lookup, __iter__() returns an iterable`
+- `__getitem__() returns an iterator, __iter__() is for index lookup`
 
 ---
 
