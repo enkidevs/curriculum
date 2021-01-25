@@ -2,7 +2,10 @@
 author: Stefan-Stojanovic
 type: normal
 category: must-know
-links: null
+links:
+  - >-
+    [formnovalidate vs novalidate](https://stackoverflow.com/questions/11761202/whats-the-difference-between-novalidate-and-formnovalidate-attributes-of-html5){website}
+
 ---
 
 # The `formnovalidate` & `novalidate` Attributes
