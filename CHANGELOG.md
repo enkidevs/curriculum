@@ -51,6 +51,7 @@ Types of change:
 ## January 25th 2021
 
 ### Changed
+- [Blockchain - What Is a Blockchain? - Add footnote on the differences between blockchain and distributed ledger](https://github.com/enkidevs/curriculum/pull/2557)
 - [HTML - Formenctype - Rename to formenctype-and-enctype](https://github.com/enkidevs/curriculum/pull/2555)
 
 ### Added

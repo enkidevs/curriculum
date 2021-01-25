@@ -10,12 +10,11 @@ links:
 
 # What Is a Blockchain?
 
-
 ---
 
 ## Content
 
-A **blockchain** (a literal chain of blocks) is, in simple terms, a *distributed ledger*. 
+A **blockchain** (a literal chain of blocks) is, in simple terms, a specific implementation of a *distributed ledger*[1]. 
 
 This means that the data is in a database shared across a network of computers.
 
@@ -23,7 +22,7 @@ A very important property of the blockchain is its resistance to change. Once da
 
 This resistance to change helps to achieve the core benefit of the blockchain: **enabling decentralized trust**.
 
-Another important feature of the blockchain is **anonymity**. Only your wallet address[1] is stored. As long as there is no link between this and your identity, your transactions are anonymous.
+Another important feature of the blockchain is **anonymity**. Only your wallet address[2] is stored. As long as there is no link between this and your identity, your transactions are anonymous.
 
 There are many applications of the blockchain, such as:
 
@@ -49,6 +48,11 @@ A blockchain is a ??? ledger.
 
 ## Footnotes
 
-[1:Wallet Address]
+[1:Distributed Ledger]
+A distributed ledger is a database that exists across several locations or among multiple participants.
+
+Think of blockchain and distributed ledger in the same way you might think of Kleenex and facial tissues. The former is a type of the latter, but it has become so popular that it becomes ingrained in people’s minds as what the product is.
+
+[2:Wallet Address]
 Unlike a real address, this will be a long string of numbers and letters.
  
