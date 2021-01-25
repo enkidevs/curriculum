@@ -52,6 +52,7 @@ Types of change:
 
 ### Fixed
 - [JavaScript - Base Conversion - Revert changes to the correct answer](https://github.com/enkidevs/curriculum/pull/2552)
+- [HTML - Formenctype - Add missing information regarding Enctype](https://github.com/enkidevs/curriculum/pull/2554)
 
 ## January 22nd 2021
 
