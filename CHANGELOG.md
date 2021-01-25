@@ -50,6 +50,9 @@ Types of change:
 
 ## January 25th 2021
 
+### Added
+- [HTML - Formnovalidate and Novalidate - Add resource link](https://github.com/enkidevs/curriculum/pull/2553)
+
 ### Fixed
 - [JavaScript - Base Conversion - Revert changes to the correct answer](https://github.com/enkidevs/curriculum/pull/2552)
 
