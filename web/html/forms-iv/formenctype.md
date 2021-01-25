@@ -20,7 +20,7 @@ It is only used for buttons with `type="submit"` and `type="image"`.
 
 You could also use the `enctype` attribute on the `form` element. This way, you can decide the encoding type for the entire form, instead of specifying it for every `input`.
 
-Also, the `formenctype` attribute overwrites the functionalities of `enctype` if both are present within the same form.
+When using the `enctype` attribute (on the `form` element), its functionality is overwritten by the `formenctype` attribute (on the `input` element) **if both are present within the same form**.
 
 If neither of the attributes are present, the default value is set to `application/x-www-form-urlencoded`.
 
