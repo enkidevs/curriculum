@@ -51,6 +51,7 @@ Types of change:
 ## January 25th 2021
 
 ### Fixed
+- [JavaScript - Symbol Special Properties - Update practice question to be more clear]()
 - [JavaScript - Base Conversion - Revert changes to the correct answer](https://github.com/enkidevs/curriculum/pull/2552)
 
 ## January 22nd 2021
