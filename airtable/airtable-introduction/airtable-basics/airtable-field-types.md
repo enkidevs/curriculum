@@ -6,9 +6,6 @@ links:
   - >-
     [Basic Field
     Types](https://support.airtable.com/hc/en-us/articles/203229705-Guide-to-the-basic-field-types){documentation}
-  - >-
-    [Advanced Field
-    Types](https://support.airtable.com/hc/en-us/sections/200644945-Advanced-field-types-and-workflows){documentation}
 practiceQuestion:
   formats:
     - fill-in-the-gap
