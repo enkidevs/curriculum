@@ -15,6 +15,7 @@ links:
 ## Content
 
 The HTML `formenctype` input form attribute is used to specify how form-data should be encoded before it's sent to the server.
+
 It is only used for buttons with `type="submit"` and `type="image"`.
 
 An equivalent attribute is called `enctype`. It has the same functionality, except it is used on the form instead of the two mentioned button types.
