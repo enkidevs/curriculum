@@ -1,7 +1,7 @@
 ---
 author: mihaiberq
 type: normal
-category: how to
+category: how-to
 practiceQuestion:
   formats:
     - fill-in-the-gap

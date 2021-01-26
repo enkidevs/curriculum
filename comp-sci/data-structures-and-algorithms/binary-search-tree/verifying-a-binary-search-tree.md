@@ -1,7 +1,7 @@
 ---
 author: jfarmer
 type: normal
-category: how to
+category: how-to
 links:
   - >-
     [Validating a
