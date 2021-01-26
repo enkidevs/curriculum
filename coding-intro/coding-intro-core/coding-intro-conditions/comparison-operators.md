@@ -1,15 +1,22 @@
 ---
 author: kapnobatai136
-
 type: normal
-
 category: must-know
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Comparison Operators
 
+
 ---
+
 ## Content
 
 The `input` variable will be used to help the robot decide which action to take. When the value is `0` it will do nothing.
@@ -36,7 +43,7 @@ On the other hand, a single equal sign (`=`) is used for **assigning values** (i
 You are not limited to the equality operator. Here is a table of the most commonly used **comparison operators**:
 
 | Operator |         Meaning         |
-|:--------:|:-----------------------:|
+| :------: | :---------------------: |
 |     <    |        less than        |
 |     >    |       higher than       |
 |    <=    |  less than or equal to  |
@@ -44,7 +51,9 @@ You are not limited to the equality operator. Here is a table of the most common
 |    ==    |         equal to        |
 | != or <> |       not equal to      |
 
+
 ---
+
 ## Practice
 
 What do you think the robot will do here?
@@ -69,7 +78,9 @@ IF (hungry == true) THEN
 - It won't make a sandwich.
 - It will make a sandwich.
 
+
 ---
+
 ## Revision
 
 The boolean type can only have `true` and ??? as values.

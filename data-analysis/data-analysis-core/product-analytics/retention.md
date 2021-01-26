@@ -1,21 +1,28 @@
 ---
 author: emmab
-
 tags:
   - introduction
-
 type: normal
-
 category: must-know
-
 links:
-  - '[Customer Retention Metrics](https://blog.hubspot.com/service/customer-retention-metrics){website}'
-
-
+  - >-
+    [Customer Retention
+    Metrics](https://blog.hubspot.com/service/customer-retention-metrics){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
+
 # Tracking Retention
 
+
 ---
+
 ## Content
 
 To calculate the **retention rate**, you need to look at two numbers: the number of users at the beginning of the time frame, and the number of those users who are still users of the product at the end of that time frame.
@@ -39,6 +46,7 @@ The aim over time is to move the curve upwards by working to improve user engage
 
 
 ---
+
 ## Practice
 
 Using the following formula:
@@ -56,7 +64,9 @@ If we start with 500 customers and we acquire 100 new customers in a week, and w
 - 100%
 - 90%
 
+
 ---
+
 ## Revision
 
 Using the following formula:
@@ -73,4 +83,3 @@ If we start with 1000 customers and we acquire 100 new customers in a week, and 
 - 100%
 - 90% 
 - 5%
- 

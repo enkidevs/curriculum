@@ -1,20 +1,28 @@
 ---
 author: emmab
-
 tags:
   - introduction
-
 type: normal
-
 category: must-know
-
 links:
-  - '[Looker vs Tableau](https://www.quora.com/To-anyone-that-has-used-Looker-how-would-you-compare-it-to-Tableau-in-terms-of-price-capabilities){website}'
-
+  - >-
+    [Looker vs
+    Tableau](https://www.quora.com/To-anyone-that-has-used-Looker-how-would-you-compare-it-to-Tableau-in-terms-of-price-capabilities){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
+
 # Intro to Looker
 
+
 ---
+
 ## Content
 
 **Looker** is another **popular BI tool** that allows you to drag and drop fields to create individual reports or dashboards. 
@@ -31,6 +39,7 @@ Check out the **Learn More** link to discover more differences between Tableau a
 
 
 ---
+
 ## Practice
 
 ??? is 100% browser-based.
@@ -40,6 +49,7 @@ Check out the **Learn More** link to discover more differences between Tableau a
 
 
 ---
+
 ## Revision
 
 Looker and Tableau have very similar functionality.
@@ -48,5 +58,3 @@ Looker and Tableau have very similar functionality.
 
 - True
 - False
-
- 

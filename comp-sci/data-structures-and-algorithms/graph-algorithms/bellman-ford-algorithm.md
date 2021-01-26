@@ -6,6 +6,10 @@ links:
   - >-
     [Step-by-step, interactive Bellman-Ford algorithm
     application](https://www-m9.ma.tum.de/graph-algorithms/spp-bellman-ford/index_en.html){website}
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Bellman-Ford Algorithm
@@ -116,4 +120,3 @@ Assigning an initial approximate value to the distance (i.e. infinity), then rep
 We will assume that the *directed graph* is represented using a *nodes list* and a map with *(edge, weight)* pairs, for which a directed *edge from u to v* is represented as *(u,v)*.
 
 The map would, therefore, contain pairs like `((u,v),weight))`.
- 

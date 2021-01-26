@@ -1,19 +1,25 @@
 ---
 author: kapnobatai136
-
 type: normal
-
 category: must-know
-
 aspects:
   - workout
   - deep
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # DO..WHILE
 
+
 ---
+
 ## Content
 
 In a `DO..WHILE` loop, you start by running the code for the first time, followed by checking a condition. If that evaluates to `true`, you run the code again.
@@ -43,17 +49,21 @@ WHILE (
 
 Now, you'll make the sandwich, and later decide if more sandwiches are required (based on your condition).
 
+
 ---
+
 ## Practice
 
 In a `DO..WHILE` loop, which happens first?
 
 ???
 
-* The code is run.
-* The condition is checked.
+- The code is run.
+- The condition is checked.
+
 
 ---
+
 ## Revision
 
 What is the value of the variable `sandwiches_made` when the code stops running?

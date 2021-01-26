@@ -1,15 +1,18 @@
 ---
 author: kapnobatai136
-
 type: normal
-
 category: must-know
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Lists
 
+
 ---
+
 ## Content
 
 A **List** is a data type that represents a sequential collection.
@@ -38,7 +41,9 @@ The above is a special kind of list called an **array**.
 
 An array is a list where each item can be accessed based on its position.
 
+
 ---
+
 ## Practice
 
 A list is a ??? collection.

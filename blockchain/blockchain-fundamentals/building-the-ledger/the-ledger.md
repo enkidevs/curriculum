@@ -2,6 +2,14 @@
 author: mihaiberq
 type: normal
 category: must-know
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # The Ledger
@@ -61,4 +69,3 @@ In the context of coin-based blockchains, the ledger is
 - account-based
 - property-based
 - storage-based
- 

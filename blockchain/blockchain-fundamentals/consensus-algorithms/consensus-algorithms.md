@@ -6,6 +6,14 @@ links:
   - >-
     [A Hitchiker's Guide to Consensus
     Algorithms](https://hackernoon.com/a-hitchhikers-guide-to-consensus-algorithms-d81aae3eb0e3){article}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Consensus Algorithms
@@ -73,4 +81,3 @@ Which of the following is not a way to validate blocks?
 - Proof of work
 - Proof of stake
 - Proof of useful work
- 

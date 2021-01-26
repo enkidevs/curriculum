@@ -6,6 +6,10 @@ links:
   - >-
     [Interactive tutorial of how blocks are
     built](https://anders.com/blockchain/){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Blocks
@@ -34,4 +38,3 @@ What is the piece of information that goes in a block usually called as?
 - Transcripts
 - Transits
 - Transformators
- 

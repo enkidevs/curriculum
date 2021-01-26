@@ -1,17 +1,24 @@
 ---
 author: emmab
-
 tags:
   - introduction
-
 type: normal
-
 category: must-know
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
+
 # Pipeline Analysis
 
+
 ---
+
 ## Content
 
 Sales processes make up a sales **pipeline** or **funnel** and these can be easily tracked using a CRM tool[1].
@@ -33,6 +40,7 @@ Using simple analysis we can see that our total **conversion rate** is 3%. This 
 **Conversion rates between different stages** of the pipeline also tell a useful story as we can track trends around where leads fall out of the pipeline. 
 
 Other useful sales pipeline analysis metrics include:
+
 - **Number of potential deals**
 - **Average deal size** ($)
 - **Total pipeline value** ($)
@@ -41,29 +49,35 @@ Other useful sales pipeline analysis metrics include:
 - **Lead response time**
 - **Sales pipeline velocity**[2]
 
+
 ---
+
 ## Practice
 
 Suppose we start with 100 leads. 20 of those reach the demo stage, and 5 of them convert. What is our **demo-to-win conversion rate**?
 
 ???
 
-* 25%
-* 20%
-* 5%
+- 25%
+- 20%
+- 5%
+
 
 ---
+
 ## Revision
 
 Let's say we start with 100 leads and 20 of those reach the demo stage, with 5 of those converting. What is our **new-to-demo conversion rate**?
 
 ???
 
-* 20%
-* 5%
-* 25%
+- 20%
+- 5%
+- 25%
+
 
 ---
+
 ## Footnotes
 
 [1:CRM tool]
@@ -80,4 +94,3 @@ The formula is:
 (Number of deals in your pipeline) x (overall successful close rate percentage %) x (average deal size in $) 
 / (length of sales cycle in days)
 ```
- 

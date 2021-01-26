@@ -1,15 +1,22 @@
 ---
 author: kapnobatai136
-
 type: normal
-
 category: must-know
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Let's Use a Variable
 
+
 ---
+
 ## Content
 
 To get us started, let's say that we have the text `"Enki"` as our data, and we want to store it in a variable named `study_buddy`:
@@ -30,7 +37,9 @@ Putting data into a variable is called **an assignment**.
 
 > 💡 Assignment is usually done right to left. Using `"Enki" = study_buddy` will not work.
 
+
 ---
+
 ## Practice
 
 Define a variable named `best_user` that stores `"You"`:
@@ -46,7 +55,9 @@ Define a variable named `best_user` that stores `"You"`:
 - ==
 - You
 
+
 ---
+
 ## Revision
 
 In programming, putting data into a variable is usually done with the ??? sign:

@@ -1,19 +1,25 @@
 ---
 author: kapnobatai136
-
 type: normal
-
 category: must-know
-
 aspects:
   - workout
   - deep
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # WHILE..DO
 
+
 ---
+
 ## Content
 
 The `WHILE..DO` loop is very useful when you want a piece of code to run **after a condition is evaluated to true**. 
@@ -45,7 +51,9 @@ ENDWHILE
 
 We created a complex condition: if the `hungry` variable is equal to `true` **or** less than 4 sandwiches were made, you call the `make_sandwich` function.
 
+
 ---
+
 ## Practice
 
 Complete this loop such that it runs only if `number` is between `1` and `100` (inclusive):
@@ -59,20 +67,22 @@ Complete this loop such that it runs only if `number` is between `1` and `100` (
 ???
 ```
 
-* WHILE
-* >=
-* number
-* ENDWHILE
-* FOR
-* ENDFOR
-* num
+- WHILE
+- > =
+- number
+- ENDWHILE
+- FOR
+- ENDFOR
+- num
+
 
 ---
+
 ## Revision
 
 In a `WHILE..DO` loop, which happens first?
 
 ???
 
-* The condition is checked.
-* The code is ran.
+- The condition is checked.
+- The code is ran.

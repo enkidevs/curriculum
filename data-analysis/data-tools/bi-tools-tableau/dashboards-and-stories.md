@@ -1,20 +1,28 @@
 ---
 author: emmab
-
 tags:
   - introduction
-
 type: normal
-
 category: must-know
-
 links:
-  - '[Tableau Dashboard Tips](https://www.tableau.com/en-gb/about/blog/2017/10/7-tips-and-tricks-dashboard-experts-76821-0){website}'
-
+  - >-
+    [Tableau Dashboard
+    Tips](https://www.tableau.com/en-gb/about/blog/2017/10/7-tips-and-tricks-dashboard-experts-76821-0){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
+
 # Dashboards and Stories
 
+
 ---
+
 ## Content
 
 Dashboards allow you to to display **multiple worksheets** at once and are a great way to **add interactivity**. 
@@ -35,25 +43,26 @@ Check out a few of these [training videos](https://www.tableau.com/learn/trainin
 
 Also check out the **Learn More** link for some dashboard tips and tricks!
 
+
 ---
+
 ## Practice
 
 ??? on Tableau are the best format for presenting findings to a team.
 
-* Stories
-* Dashboards
-* Worksheets
-* Charts
+- Stories
+- Dashboards
+- Worksheets
+- Charts
 
 
 ---
+
 ## Revision
 
 Filters can work across multiple worksheets/charts in a dashboard.
 
 ???
 
-* True
-* False
-
- 
+- True
+- False

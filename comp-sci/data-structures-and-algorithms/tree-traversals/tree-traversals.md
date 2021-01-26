@@ -4,6 +4,14 @@ type: normal
 category: must-know
 links:
   - '[Tree traversals](https://en.wikipedia.org/wiki/Tree_traversal){website}'
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Tree Traversals
@@ -98,4 +106,3 @@ Every node references its children and, maybe, its parent, thus allowing movemen
 Just as the time function can be bounded, the memory used by a data type or algorithm can be quantified. For example, different graph representations have different space requirements: the matrix requires `O(|V*V|)` space, while the edge list and node list combination requires `O(|E+V|)` space.
 
 *|V|*, *|E|* are the number of vertices and edges, respectively.
- 

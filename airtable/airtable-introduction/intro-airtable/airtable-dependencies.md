@@ -2,6 +2,10 @@
 author: kapnobatai136
 category: must-know
 type: normal
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Get started with Airtable
@@ -29,4 +33,3 @@ To use Airtable, you need ???.
 - just an online account
 - to #stayathome
 - to download a desktop app
- 

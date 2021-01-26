@@ -2,6 +2,10 @@
 author: mihaiberq
 type: normal
 category: must-know
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # What Does Ethereum Do Differently?
@@ -48,4 +52,3 @@ while Ethereum blockchain can also
 - solve world hunger
 - ASICs for solving PoW
 - use GPUs
- 

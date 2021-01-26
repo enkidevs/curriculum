@@ -1,21 +1,25 @@
 ---
 author: mihaiberq
-
 type: normal
-
 category: must-know
-
 links:
-  - >- 
-    [Linked Lists](https://www.youtube.com/watch?v=_jQhALI4ujg){video}
+  - '[Linked Lists](https://www.youtube.com/watch?v=_jQhALI4ujg){video}'
   - >-
-    [Linked List Basics](http://cslibrary.stanford.edu/103/LinkedListBasics.pdf){website}
-  - >-
-    [The Josephus Problem](https://www.youtube.com/watch?v=uCsD3ZGzMgE){video}
-
+    [Linked List
+    Basics](http://cslibrary.stanford.edu/103/LinkedListBasics.pdf){website}
+  - '[The Josephus Problem](https://www.youtube.com/watch?v=uCsD3ZGzMgE){video}'
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # The Linked List Data Structure
+
 
 ---
 

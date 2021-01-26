@@ -6,6 +6,10 @@ links:
   - >-
     [Full list of block
     checks](https://en.bitcoin.it/wiki/Protocol_rules#.22block.22_messages){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Transaction Verification and the Double-Spending Problem

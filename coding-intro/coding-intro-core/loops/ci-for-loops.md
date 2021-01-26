@@ -1,15 +1,22 @@
 ---
 author: kapnobatai136
-
 type: normal
-
 category: must-know
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # For Loops
 
+
 ---
+
 ## Content
 
 Let's start with the most used one: the for loop.
@@ -17,6 +24,7 @@ Let's start with the most used one: the for loop.
 The idea behind these loops is that you are repeating an instruction **for each** item in a range or a list.
 
 If, for example, you have this list of friends:
+
 ```plain-text
 friends = [
   "John",
@@ -53,7 +61,9 @@ In this example, we repeat the `wash_hands()` instruction 20 times.
 
 > 💡 The [syntax](https://www.enki.com/glossary/general/syntax) differs for each programming language. When you start learning a specific one, loop functionality will be explained in detail.
 
+
 ---
+
 ## Practice
 
 Complete the loop so that it repeats **five times**:
@@ -64,12 +74,14 @@ Complete the loop so that it repeats **five times**:
 ???
 ```
 
-* FOR
-* TO
-* 5
-* ENDFOR
+- FOR
+- TO
+- 5
+- ENDFOR
+
 
 ---
+
 ## Revision
 
 Complete the loop so that it rings the alarm every day:
@@ -82,16 +94,19 @@ days = ["Monday", "Tuesday", ...]
 ???
 ```
 
-* FOR
-* OF
-* days
-* ENDFOR
+- FOR
+- OF
+- days
+- ENDFOR
+
 
 ---
+
 ## Footnotes
 
 [1:Function]
 Here is the `make_a_grill_cheese_sandwich` function:
+
 ```plain-text
 FUNCTION make_a_grill_cheese_sandwich
   INPUT cheese, grater, bowl, bread, butter, pan, plate

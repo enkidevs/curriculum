@@ -6,7 +6,14 @@ links:
   - >-
     [Big O vs Big
     Theta](http://stackoverflow.com/questions/471199/what-is-the-difference-between-%CE%98n-and-on){website}
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Approximation Methods
@@ -98,4 +105,3 @@ Here, the following axiom is used:
 ```plain-text
 if a>=b and b>=a, then a=b.
 ```
- 

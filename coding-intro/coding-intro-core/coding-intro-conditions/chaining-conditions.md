@@ -1,15 +1,22 @@
 ---
 author: kapnobatai136
-
 type: normal
-
 category: must-know
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Chaining Conditions
 
+
 ---
+
 ## Content
 
 Now, knowing that `0` means "do nothing", we'll want the robot to take an action if `input` has any other value:
@@ -36,6 +43,7 @@ You have now chained two conditions.
 If the `input` is anything other than `0`, then the robot will start making a grilled cheese sandwich.
 
 The next step is to create different *paths*:
+
 - `0` for doing nothing
 - `1` for white bread
 - `2` for whole wheat bread
@@ -76,7 +84,9 @@ You can chain multiple conditions using `ELSE IF`. If the `input` is `1` then th
 
 > 💡 The final `ELSE` clause is optional.
 
+
 ---
+
 ## Practice
 
 Complete the condition such that you only make a sandwich if you're hungry:
@@ -102,7 +112,9 @@ hungry = ???
 - hungry
 - ENDIF
 
+
 ---
+
 ## Revision
 
 Complete the following condition chain:

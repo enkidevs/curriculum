@@ -1,21 +1,28 @@
 ---
 author: emmab
-
 tags:
   - introduction
-
 type: normal
-
 category: must-know
-
 links:
-  - '[Product vs Marketing Analytics](http://upflow.co/l/Yem9/blog/2020/05/27/the-difference-between-product-analytics-and-marketing-analytics-and-why-you-need-both){website}'
-
-
+  - >-
+    [Product vs Marketing
+    Analytics](http://upflow.co/l/Yem9/blog/2020/05/27/the-difference-between-product-analytics-and-marketing-analytics-and-why-you-need-both){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
+
 # Intro to Product Analytics
 
+
 ---
+
 ## Content
 
 **Product Analytics** allows companies to fully understand how users **engage** with what they build.
@@ -36,22 +43,24 @@ Product analytics is a separate area and deserves its own tools. We'll cover the
 
 
 ---
+
 ## Practice
 
 Product analytics cares more about engagement than marketing analytics.
 
 ???
 
-* True
-* False
+- True
+- False
+
 
 ---
+
 ## Revision
 
 Product analytics cares more about retention than marketing analytics.
 
 ???
 
-* True
-* False
- 
+- True
+- False

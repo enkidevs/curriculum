@@ -2,6 +2,14 @@
 author: SebaRaba
 type: normal
 category: must-know
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Server error status codes
@@ -50,4 +58,3 @@ What status code should the server return if it is unable to process the request
 - `503 Service Unavailable`
 - `501 Not Implemented`
 - `504 Gateway Timeout`
- 

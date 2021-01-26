@@ -2,6 +2,14 @@
 author: mihaiberq
 type: normal
 category: must-know
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Token Standards
@@ -56,4 +64,3 @@ Which of the following is not an Ethereum token standard?
 - ERC10
 - ERC20
 - ERC721
- 

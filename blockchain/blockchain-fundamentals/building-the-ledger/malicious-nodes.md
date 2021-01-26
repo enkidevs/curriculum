@@ -1,13 +1,19 @@
 ---
 author: mihaiberq
-
 type: normal
-
 category: must-know
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Malicious Nodes
+
 
 ---
 
@@ -18,6 +24,7 @@ The double-spend attack isn't the only threat to a blockchain and is far from be
 **Malicious nodes** are an inevitable property of open, distributed networks. Some join trying to disrupt the network, others to steal assets.
 
 Taking control of the network is also possible, but comes at a great cost. What follows is a succinct list of possible attacks:
+
 - 51% attack
 - Sybil attack
 - Replay attack
@@ -45,6 +52,7 @@ As for blockchain, it might be possible to replay transactions on forked network
 
 Given the scenarios above, how do you prevent node from "going bad"? Well, positive reinforcement works most of the times: miners/voters (those who secure the network) receive a block reward if the block is valid and acknowledged by enough nodes.
 
+
 ---
 
 ## Practice
@@ -58,6 +66,7 @@ What is it that keeps nodes from going bad?
 - Good faith
 - Higher pick rate
 
+
 ---
 
 ## Revision
@@ -70,4 +79,3 @@ Identify a blockchain attack that, although unlikely, has 100% rate of success.
 - Sybil attack
 - Double-spend attack
 - DDoS
- 

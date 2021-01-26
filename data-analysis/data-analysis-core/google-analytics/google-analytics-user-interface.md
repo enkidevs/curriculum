@@ -1,17 +1,24 @@
 ---
 author: emmab
-
 tags:
   - introduction
-
 type: normal
-
 category: must-know
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
+
 # Google Analytics User Interface
 
+
 ---
+
 ## Content
 
 Let's look at some of the main menu items on the left hand side.
@@ -38,34 +45,38 @@ Behavior reports show you **how people engaged on your site** including which pa
 
 Conversion reports allow you to **track website goals** based on your business objectives.
 
+
 ---
+
 ## Practice
 
 Where would you find reports that show you the top sites that lead users to your site?
 
 ???
 
-* Acquisition
-* Audience
-* Realtime
-* Conversions
+- Acquisition
+- Audience
+- Realtime
+- Conversions
+
 
 ---
+
 ## Revision
 
 Where would you find reports that show you which pages users exit your site from?
 
 ???
 
-* Behavior
-* Audience
-* Realtime
-* Conversions
+- Behavior
+- Audience
+- Realtime
+- Conversions
 
 
 ---
+
 ## Footnotes
 
 [1:CPC]
 CPC stands for Cost Per Click and it represents paid search using Google Adwords.
- 

@@ -1,7 +1,15 @@
 ---
 author: jfarmer
 type: normal
-category: how to
+category: how-to
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Inserting Data Into a Heap With The `upheap` Operation
@@ -83,4 +91,3 @@ In a `max-heap`, during upheap operation, the child swaps places with its parent
 
 [1: Complete heap]
 Complete means that every level of the underlying binary tree structure is filled, except possibly the last level.
- 

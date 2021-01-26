@@ -1,18 +1,24 @@
 ---
 author: emmab
-
 tags:
   - introduction
-
 type: normal
-
 category: must-know
-
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
+
 # SQL Syntax I
 
+
 ---
+
 ## Content
 
 Most of the SQL queries you'll ever write will start with the keyword `SELECT`.
@@ -41,6 +47,7 @@ Whenever we write `SELECT` we must specify where we're grabbing the data from an
 
 
 ---
+
 ## Practice
 
 Complete this basic query to return the name and age of each student in the students table:
@@ -56,7 +63,9 @@ Complete this basic query to return the name and age of each student in the stud
 - GRAB
 - UPDATE
 
+
 ---
+
 ## Revision
 
 Complete this basic query to return the color and category of each product in the productss table:
@@ -71,4 +80,3 @@ Complete this basic query to return the color and category of each product in th
 - INSERT
 - GRAB
 - UPDATE
- 

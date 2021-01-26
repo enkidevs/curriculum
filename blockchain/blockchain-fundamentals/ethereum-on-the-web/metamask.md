@@ -2,6 +2,14 @@
 author: mihaiberq
 type: normal
 category: must-know
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # MetaMask
@@ -44,4 +52,3 @@ Where does Metamask store your wallet?
 - Online, on their servers
 - Online, on the cloud
 - Nowhere, that's not what metamask does
- 

@@ -2,6 +2,14 @@
 author: mihaiberq
 type: normal
 category: must-know
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # What Are Forks?
@@ -52,4 +60,3 @@ What is one case in which the ledger can be modified?
 - True
 - The network initiates a soft-fork
 - There is no such case
- 

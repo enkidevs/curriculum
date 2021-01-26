@@ -7,6 +7,14 @@ links:
     [docs.oracle.com](https://docs.oracle.com/javase/tutorial/networking/urls/definition.html){website}
   - >-
     [www.computerhope.com](http://www.computerhope.com/jargon/u/url.htm){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # What is an URL?
@@ -81,4 +89,3 @@ www.myapp.com/users?name=John
 ```
 
 It would make sense for the above URL to return any users with the name *John*.
- 

@@ -2,6 +2,14 @@
 author: mihaiberq
 type: normal
 category: must-know
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Pre-order Traversal
@@ -87,4 +95,3 @@ D     F     E
 - `D,B,F,A,C,E`
 - `D,F,B,E,C,A`
 - `A,B,C,D,F,E`
- 

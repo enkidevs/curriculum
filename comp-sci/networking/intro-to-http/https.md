@@ -5,6 +5,14 @@ category: must-know
 links:
   - >-
     [robertheaton.com](http://robertheaton.com/2014/03/27/how-does-https-actually-work/){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # HTTPS
@@ -99,4 +107,3 @@ When verifying a **certificate**, the client will check if either it:
 
 [4:man-in-the-middle]
 A **man-in-the-middle attack** is a type of cyberattack where a malicious actor inserts themself into a conversation between two parties, impersonates both parties and gains access to information that the two parties were trying to send to each other.
- 

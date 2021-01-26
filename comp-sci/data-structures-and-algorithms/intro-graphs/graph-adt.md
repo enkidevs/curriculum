@@ -6,6 +6,14 @@ links:
   - >-
     [Graph
     Representation](http://www.geeksforgeeks.org/graph-and-its-representations/){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Graph Representation and ADT
@@ -81,4 +89,3 @@ Which of the following statements is describing an adjacency list?
 - A list describing the set of neighbours for each node.
 - An unordered list of all edges.
 - A matrix of size N*N, where N is the number of nodes.
- 

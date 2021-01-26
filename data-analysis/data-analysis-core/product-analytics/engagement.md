@@ -1,20 +1,28 @@
 ---
 author: emmab
-
 tags:
   - introduction
-
 type: normal
-
 category: must-know
-
 links:
-  - '[Engagement for Growth](https://blog.popcornmetrics.com/5-user-engagement-metrics-for-growth/){website}'
-
+  - >-
+    [Engagement for
+    Growth](https://blog.popcornmetrics.com/5-user-engagement-metrics-for-growth/){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
+
 # Tracking Engagement
 
+
 ---
+
 ## Content
 
 User engagement is when your customer is realizing value from your product, service, website or app.
@@ -39,25 +47,28 @@ A DAU/MAU ratio of 50% means that your users return 15 out of 30 days a month.
 
 Check out the **Learn More** link to read about other ways to calculate user engagement.
 
+
 ---
+
 ## Practice
 
 What does the DAU/MAU ratio measure?
 
 ???
 
-* Stickiness
-* Glueyness
-* Engagement
-* Retention
+- Stickiness
+- Glueyness
+- Engagement
+- Retention
+
 
 ---
+
 ## Revision
 
 DAU, WAU and MAU are great measures for ???.
 
-* Engagement
-* Coversion
-* Retention
-* Stickiness
- 
+- Engagement
+- Coversion
+- Retention
+- Stickiness

@@ -2,6 +2,14 @@
 author: mihaiberq
 type: normal
 category: must-know
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Forking to Reverse Transactions
@@ -44,4 +52,3 @@ Which of the following statements describes Ethereum Classic?
 - Ethereum network post DAO hard-fork
 - Ethereum network with a PoS consensus algorithm
 - A sham Ethereum network
- 

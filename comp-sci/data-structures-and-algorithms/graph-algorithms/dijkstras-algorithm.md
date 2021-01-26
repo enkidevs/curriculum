@@ -6,6 +6,10 @@ links:
   - >-
     [Step-by-step, interactive Dijkstra`s algorithm
     application](https://www-m9.ma.tum.de/graph-algorithms/spp-dijkstra/index_en.html){website}
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Dijkstra's Algorithm
@@ -105,4 +109,3 @@ In case the destination node is known.
 
 [4:Full traversal]
 In case the algorithm computes a full traversal, value of `infinity` tells that the particular node is not reachable.
- 

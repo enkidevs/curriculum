@@ -1,19 +1,20 @@
 ---
 author: catalin
-
 type: normal
-
 category: must-know
-
 links:
+  - '[Packet Loss](https://en.wikipedia.org/wiki/Packet_loss){website}'
   - >-
-    [Packet Loss](https://en.wikipedia.org/wiki/Packet_loss){website}
-  - >-
-    [Understanding Packet Loss](https://esj.com/articles/2012/12/13/understanding-packet-loss.aspx){website}
-
+    [Understanding Packet
+    Loss](https://esj.com/articles/2012/12/13/understanding-packet-loss.aspx){website}
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # How Does Packet Loss Happen?
+
 
 ---
 
@@ -34,6 +35,7 @@ The causes of packet loss vary, yet the most common ones are:
 
 **Packet loss** is a common and normal[3] thing, but at an acceptable rate. For example, for **VoIP**, traffic losses between `5%` and `10%` will significantly affect the quality, while for video and audio streaming `1%` is *good* and `2.5%` is *acceptable*.
 
+
 ---
 
 ## Revision
@@ -44,6 +46,7 @@ The causes of packet loss vary, yet the most common ones are:
 - in milliseconds
 - in seconds
 - as a number of packets
+
 
 ---
 
