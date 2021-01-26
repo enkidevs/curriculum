@@ -51,7 +51,7 @@ Types of change:
 ## January 26th 2021
 
 ### Added
-- [Add support for new question types I]()
+- [Add support for new question types I](https://github.com/enkidevs/curriculum/pull/2560)
 
 ### Fixed
 - [Spreadsheets - Data Validation Example - Add missing word](https://github.com/enkidevs/curriculum/pull/2559)
