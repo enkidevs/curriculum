@@ -1,7 +1,7 @@
 ---
 author: catalin
 type: normal
-category: how to
+category: how-to
 links:
   - >-
     [www.herongyang.com](http://www.herongyang.com/Java-Tools/jstack-JVM-Thread-Dump-Stack-Strace.html){website}

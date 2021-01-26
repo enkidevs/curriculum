@@ -1,7 +1,7 @@
 ---
 author: AlexYancey
 type: normal
-category: how to
+category: how-to
 ---
 
 # Get a Random Item From an Array

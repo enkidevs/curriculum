@@ -1,7 +1,7 @@
 ---
 author: ioanna.ki
 type: normal
-category: how to
+category: how-to
 tags:
   - javascript
 links:

@@ -1,7 +1,7 @@
 ---
 author: aakarsh
 type: normal
-category: how to
+category: how-to
 ---
 
 # Use `tcpdump` to listen to network interface traffic

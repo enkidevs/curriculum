@@ -3,7 +3,7 @@ author: Stefan-Stojanovic
 
 type: normal
 
-category: how to
+category: how-to
 
 links:
  - '[Go fmt](https://blog.golang.org/gofmt){documentation}'

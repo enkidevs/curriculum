@@ -1,7 +1,7 @@
 ---
 author: pawel
 type: normal
-category: how to
+category: how-to
 ---
 
 # How to list all files in a directory that match a filename extension in Java

@@ -1,7 +1,7 @@
 ---
 author: Dral
 type: normal
-category: how to
+category: how-to
 tags:
   - promises
   - functional programming

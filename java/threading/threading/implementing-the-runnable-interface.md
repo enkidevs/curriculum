@@ -1,7 +1,7 @@
 ---
 author: nickdaminov
 type: normal
-category: how to
+category: how-to
 links:
   - >-
     [More on Runnable

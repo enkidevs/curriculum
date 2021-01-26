@@ -1,7 +1,7 @@
 ---
 author: catalin
 type: normal
-category: how to
+category: how-to
 links:
   - '[serve-static](https://github.com/expressjs/serve-static){website}'
 ---

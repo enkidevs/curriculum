@@ -1,7 +1,7 @@
 ---
 author: catalin
 type: normal
-category: how to
+category: how-to
 links:
   - >-
     [codeforgeek.com](https://codeforgeek.com/2014/10/express-complete-tutorial-part-4/){website}

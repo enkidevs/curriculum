@@ -1,7 +1,7 @@
 ---
 author: Stefan-Stojanovic
 type: normal
-category: how to
+category: how-to
 links:
   - >-
     [official-documentation](https://docs.mongodb.com/manual/reference/operator/aggregation/skip/){documentation}

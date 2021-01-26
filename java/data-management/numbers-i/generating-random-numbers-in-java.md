@@ -1,7 +1,7 @@
 ---
 author: adamMontgomerie
 type: normal
-category: how to
+category: how-to
 tags:
   - random
 links:

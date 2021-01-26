@@ -3,7 +3,7 @@ author: Stefan-Stojanovic
 
 type: normal
 
-category: how to
+category: how-to
 
 links:
   - '[The Tour of Go](https://tour.golang.org/welcome/1){website}'

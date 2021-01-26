@@ -1,7 +1,7 @@
 ---
 author: catalin
 type: normal
-category: how to
+category: how-to
 ---
 
 # Private key encryption with `OpenSSL`

@@ -1,7 +1,7 @@
 ---
 author: catalin
 type: normal
-category: how to
+category: how-to
 links:
   - '[shapeshed.com](https://shapeshed.com/unix-traceroute/){website}'
   - >-
