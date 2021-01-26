@@ -6,7 +6,6 @@ category: must-know
 
 # Data Validation Example
 
-
 ---
 
 ## Content
@@ -27,7 +26,7 @@ The `On invalid` radio button is used to determine if we should reject the input
 
 The `Appearance` checkbox is used to give a hint regarding the validation required. If the box is checked, the message is auto-generated depending on the validation set.
 
-Now we're going to write `Input a date between 1/2000 and 1/2010:` in a cell left of `D11` so that users what to input.
+Now we're going to write `Input a date between 1/2000 and 1/2010:` in a cell left of `D11` so that users know what to input.
 
 With our data validation done, this is what our cell looks like when we hover over it:
 
