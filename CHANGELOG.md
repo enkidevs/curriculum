@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## January 26th 2021
+
+### Fixed
+- [Spreadsheets - Data Validation Example - Add missing word](https://github.com/enkidevs/curriculum/pull/2559)
+
 ## January 25th 2021
 
 ### Changed
