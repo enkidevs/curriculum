@@ -1,20 +1,28 @@
 ---
 author: emmab
-
 tags:
   - introduction
-
 type: normal
-
 category: must-know
-
 links:
-  - '[Conditional Formatting Tricks](https://spreadsheeto.com/conditional-formatting/){website}'
-
+  - >-
+    [Conditional Formatting
+    Tricks](https://spreadsheeto.com/conditional-formatting/){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
+
 # Conditional Formatting
 
+
 ---
+
 ## Content
 
 Once you're happy with your raw data, you may want to **duplicate this tab** or **open a new tab** so that you can explore what's going on.
@@ -35,28 +43,30 @@ Now you can easily spot items that have been returned and you can get a clearer 
 
 Check out the **Learn More** link for some more use cases for when conditional formatting will save you a lot of time. 
 
+
 ---
+
 ## Practice
 
 Which of the following are examples of using the Conditional Formatting command?
 
 ???
 
-* All of these are good examples.
-* Turn text red if the number is above 1000.
-* Change the fill color of a cell to yellow if the number is below 500.
-* Turn the number to green if the number is in the bottom 10%.
+- All of these are good examples.
+- Turn text red if the number is above 1000.
+- Change the fill color of a cell to yellow if the number is below 500.
+- Turn the number to green if the number is in the bottom 10%.
 
 
 ---
+
 ## Revision
 
 Which statement best describes Conditional Formatting?
 
 ???
 
-* Applying a rule to a cell or range of cells.
-* Changing the font color.
-* Adding a preceding dollar sign to numbers.
-* Adding decimal places to numbers.
- 
+- Applying a rule to a cell or range of cells.
+- Changing the font color.
+- Adding a preceding dollar sign to numbers.
+- Adding decimal places to numbers.

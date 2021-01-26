@@ -6,6 +6,14 @@ links:
   - >-
     [Wallet
     guide](https://blockgeeks.com/guides/cryptocurrency-wallet-guide/){article}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Keeping Your Wallet Secure
@@ -53,4 +61,3 @@ What is the level of anonymity of most wallets?
 - Similar to one of the coin
 - Anonymous
 - Public
- 

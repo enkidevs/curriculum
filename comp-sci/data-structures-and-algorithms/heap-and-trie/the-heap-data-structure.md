@@ -3,12 +3,24 @@ author: jfarmer
 type: normal
 category: must-know
 links:
-  - '[The heap data structure](https://www.geeksforgeeks.org/heap-data-structure/){website}'
-  - '[Binary Heap](https://www.cs.cmu.edu/~rdriley/121/notes/heaps.html#3-binary-heap){website}'
-
+  - >-
+    [The heap data
+    structure](https://www.geeksforgeeks.org/heap-data-structure/){website}
+  - >-
+    [Binary
+    Heap](https://www.cs.cmu.edu/~rdriley/121/notes/heaps.html#3-binary-heap){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # The Heap Data Structure
+
 
 ---
 
@@ -64,4 +76,3 @@ What operation should a *max heap* support?
 As heaps are data structures for which the minimal or maximal element is prioritized, constant-time removal refers to the removal of this particular element (which we can access in constant-time through the `find-max`/`find-min` functions).
 
 Because of this property, priority queues are often implemented using heaps.
- 

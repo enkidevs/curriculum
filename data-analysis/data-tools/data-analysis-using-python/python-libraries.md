@@ -1,23 +1,30 @@
 ---
 author: emmab
-
 tags:
   - introduction
-
 type: normal
-
 category: must-know
-
 links:
   - '[Install NumPy](https://numpy.org/install/){website}'
-  - '[Install Pandas](https://pandas.pydata.org/pandas-docs/stable/getting_started/install.html){website}'
+  - >-
+    [Install
+    Pandas](https://pandas.pydata.org/pandas-docs/stable/getting_started/install.html){website}
   - '[Install Matplotib](https://matplotlib.org/users/installing.html){website}'
-
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
+
 # Python Libraries
 
+
 ---
+
 ## Content
 
 When using Python for data analysis we can write our code in **Jupyter Notebooks**[1] which are supported by many ever-expanding **libraries**[2]. 
@@ -48,6 +55,7 @@ We're going to be exploring how to analyze data using these libraries next!
 
 
 ---
+
 ## Practice
 
 When using Python for Data Analysis, we write our code inside ??? Notebooks.
@@ -57,7 +65,9 @@ When using Python for Data Analysis, we write our code inside ??? Notebooks.
 - Saturn 
 - Neptune
 
+
 ---
+
 ## Revision
 
 Jupyter Notebooks are supported by many useful Python ???.
@@ -67,7 +77,9 @@ Jupyter Notebooks are supported by many useful Python ???.
 - resources
 - frameworks
 
+
 ---
+
 ## Footnotes
 
 [1: Jupyter Notebooks]
@@ -79,4 +91,3 @@ Use-cases include: data cleaning and transformation, numerical simulation, stati
 A library is a collection of precompiled routines that a program can use.
 
 Libraries are particularly useful for storing frequently used routines because you do not need to explicitly link them to every program that uses them.
- 

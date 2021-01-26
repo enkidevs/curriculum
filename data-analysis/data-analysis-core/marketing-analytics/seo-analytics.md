@@ -1,20 +1,26 @@
 ---
 author: emmab
-
 tags:
   - introduction
-
 type: normal
-
 category: must-know
-
-links: 
+links:
   - '[SEO tools](https://moz.com/blog/best-free-seo-tools){website}'
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+---
+
+# SEO Analytics
+
 
 ---
-#  SEO Analytics
 
----
 ## Content
 
 **SEO[1] Analytics** covers the methods that **measure and track** how an organisation can improve their website's ranking on search engines like Google.
@@ -43,29 +49,34 @@ We'll be digging into Google Analytics in more depth in a later workout.
 
 Check out the **Learn More** link for a full list of SEO tools.
 
+
 ---
+
 ## Practice
 
 Organic search traffic is a highly effective indicator of overall SEO success.
 
 ???
 
-* True
-* False
+- True
+- False
+
 
 ---
+
 ## Revision
 
 ??? can be used to track organic channels of traffic.
 
-* Google Analytics
-* Google Sheets
-* Google Drive
-* Google
+- Google Analytics
+- Google Sheets
+- Google Drive
+- Google
+
 
 ---
+
 ## Footnotes
 
 [1:SEO]
 Search engine optimization (SEO), in its simplest terms, is the process of making changes to your website's content to make it more visible to search engines and improve your site’s rank.
- 

@@ -2,6 +2,14 @@
 author: mihaiberq
 type: normal
 category: must-know
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # How Can One Mine?
@@ -48,4 +56,3 @@ In the context of Bitcoin, what is the name of the variable used to solve the ch
 - Hash
 - Backlink
 - Rock
- 

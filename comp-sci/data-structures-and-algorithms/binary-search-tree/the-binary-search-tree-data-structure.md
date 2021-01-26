@@ -4,6 +4,14 @@ type: normal
 category: must-know
 links:
   - '[Binary Search Trees](http://algs4.cs.princeton.edu/32bst/){website}'
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # The Binary Search Tree Data Structure
@@ -67,4 +75,3 @@ Which child has to be larger than the parent for a tree to be a Binary Search Tr
 - Left
 - Both
 - None
- 

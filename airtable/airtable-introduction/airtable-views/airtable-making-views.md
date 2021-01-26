@@ -2,6 +2,10 @@
 author: kapnobatai136
 category: must-know
 type: normal
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Making Views
@@ -43,4 +47,3 @@ To make a new view, you have to ??? and select the new view you want.
 - create a new base
 - delete the old view
 - delete an old base
- 

@@ -6,7 +6,14 @@ links:
   - >-
     [Prefix, Infix and Postfix
     notations](http://www.cs.man.ac.uk/~pjj/cs2121/fix.html){website}
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Reverse Polish Notation

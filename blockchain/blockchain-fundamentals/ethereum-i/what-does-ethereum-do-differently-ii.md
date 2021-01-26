@@ -2,6 +2,14 @@
 author: mihaiberq
 type: normal
 category: must-know
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # What Else Does Ethereum Do Differently?
@@ -60,4 +68,3 @@ Identify the programming language used to write smart contracts on the Ethereum 
 - Java
 - C++
 - Ethereum
- 

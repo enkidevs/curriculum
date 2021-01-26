@@ -9,6 +9,14 @@ links:
   - >-
     [Byzantine fault
     tolerance](https://medium.com/loom-network/understanding-blockchain-fundamentals-part-1-byzantine-fault-tolerance-245f46fe8419){article}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Byzantine Fault Tolerance (BFT)
@@ -59,4 +67,3 @@ What is the problem that most consensus algorithm are trying to solve?
 - The Byzantine fault tolerance Problem
 - The blockchain problem
 - Centralization problem
- 

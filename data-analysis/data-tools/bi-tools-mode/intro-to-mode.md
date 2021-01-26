@@ -1,21 +1,28 @@
 ---
 author: emmab
-
 tags:
   - introduction
-
 type: normal
-
 category: must-know
-
 links:
-  - '[Mode vs Tableau vs Looker](https://www.stephenlevin.co/advanced-analytics-part-3-data-visualization/){website}'
-
-
+  - >-
+    [Mode vs Tableau vs
+    Looker](https://www.stephenlevin.co/advanced-analytics-part-3-data-visualization/){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
+
 # Intro to Mode
 
+
 ---
+
 ## Content
 
 Mode is an **SQL-based analytics tool *designed for analysts***.
@@ -42,7 +49,9 @@ Some of the key features offered by Mode are:
 
 Check out the **Learn More** link on the benefits of Mode versus other BI tools such as Looker or Tableau.
 
+
 ---
+
 ## Practice
 
 You can write Python code in Mode.
@@ -52,7 +61,9 @@ You can write Python code in Mode.
 - True
 - False
 
+
 ---
+
 ## Revision
 
 Mode is designed for people who are SQL-literate.
@@ -61,4 +72,3 @@ Mode is designed for people who are SQL-literate.
 
 - True
 - False
- 

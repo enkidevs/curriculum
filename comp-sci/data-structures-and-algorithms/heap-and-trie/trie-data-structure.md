@@ -6,6 +6,10 @@ links:
   - >-
     [Working With
     Tries](https://medium.com/algorithms/trie-prefix-tree-algorithm-ee7ab3fe3413){website}
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # The Trie Data Structure
@@ -44,4 +48,3 @@ How long does searching for a word take?
 - O(trie's size)
 - O(word's length * trie's size)
 - O(log n)
- 

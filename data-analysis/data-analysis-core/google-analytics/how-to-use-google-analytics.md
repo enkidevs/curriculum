@@ -1,20 +1,28 @@
 ---
 author: emmab
-
 tags:
   - introduction
-
 type: normal
-
 category: must-know
-
 links:
-  - '[Google Analytics for Beginners](https://analytics.google.com/analytics/academy/course/6){website}'
-
+  - >-
+    [Google Analytics for
+    Beginners](https://analytics.google.com/analytics/academy/course/6){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
+
 # How to use Google Analytics
 
+
 ---
+
 ## Content
 
 Google Analytics is a widely used and powerful tool, especially for Marketing and Product teams.
@@ -28,12 +36,13 @@ In order to use it, you must first have a **Google Analytics account** and then 
 > 💡 Big tip: don't just let anyone create your website's Google Analytics account under their own account so they can "manage" it for you. If you and this person part ways, they will take your Google Analytics data with them, and you'll have to start all over.
 
 A Google Analytics account has the following hierarchical structure:
+
 1. **Account**
-Usually this is just your company.
+   Usually this is just your company.
 2. **Property**
-Your website, webapp, mobile app. You can track as many different properties you like.
+   Your website, webapp, mobile app. You can track as many different properties you like.
 3. **View**
-You can create either predetermined or custom (filtered) views for each property.
+   You can create either predetermined or custom (filtered) views for each property.
 
 > 💡 Here is an important rule of thumb: always create at least three Google Analytics views in your account:
 
@@ -53,7 +62,9 @@ The Raw Data View is an untouched view where you don’t apply any modifications
 
 Let's explore the UI more closely next!
 
+
 ---
+
 ## Practice
 
 To collect data using Google Analytics, which steps must be completed?
@@ -61,23 +72,27 @@ To collect data using Google Analytics, which steps must be completed?
 1. ???
 2. ???
 
-* Create an Analytics account
-* Add Analytics tracking code to each webpage
-* Install Google Analytics desktop software
-* Download the Analytics app
+- Create an Analytics account
+- Add Analytics tracking code to each webpage
+- Install Google Analytics desktop software
+- Download the Analytics app
+
 
 ---
+
 ## Revision
 
 The Analytics tracking code can collect which of the following?
 
 ???
 
-* Device and operating system
-* User’s favorite website
-* User's browsing history
+- Device and operating system
+- User’s favorite website
+- User's browsing history
+
 
 ---
+
 ## Footnotes
 
 [1:Analytics Tracking Code]
@@ -85,4 +100,3 @@ This is a small piece of JavaScript code that needs to be added immediately afte
 
 To locate a property's Analytics tracking code you need to follow these steps:
 Admin > Tracking Info > Tracking Code
- 

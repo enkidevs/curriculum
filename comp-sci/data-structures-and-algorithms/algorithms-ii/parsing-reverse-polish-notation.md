@@ -2,7 +2,14 @@
 author: mihaiberq
 type: normal
 category: how to
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Parsing Reverse Polish Notation
@@ -70,4 +77,3 @@ What are the contents of the stack after evaluating a `valid` postfix expression
 - Two values.
 - A single operator.
 - The stack is empty.
- 

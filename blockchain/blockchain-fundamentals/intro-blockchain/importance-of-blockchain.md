@@ -6,6 +6,10 @@ links:
   - >-
     [Examples of Blockchain
     Use-Cases](https://medium.com/@matteozago/50-examples-of-how-blockchains-are-taking-over-the-world-4276bf488a4b){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Why Should You Care?
@@ -43,4 +47,3 @@ The data in a blockchain is secured using advanced ???.
 - cryptography
 - blocks
 - cryogenics
- 

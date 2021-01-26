@@ -2,6 +2,14 @@
 author: mihaiberq
 type: normal
 category: must-know
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # The Queue Data Structure
@@ -40,7 +48,7 @@ These are your queue options in different programming languages:
 > 💡 As with all the skills in the app, if you want to access more advanced or specific content at any time, **feel free to use the *Skill Map* tab** to jump to the workouts most relevant for you.
 
 > 💬 Why are you interested in learning Computer Science?
-> 
+>
 > Leave a comment or view some of the other comments for inspiration before moving on.
 
 
@@ -92,4 +100,3 @@ The working principle behind a queue is
 
 [1:ADT]
 Abstract Data Type, or ADT, is a definition of a data type (or a data structure) that only mentions what operations are to be performed but not how these operations will be implemented.
- 

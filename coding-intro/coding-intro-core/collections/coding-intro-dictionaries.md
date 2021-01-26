@@ -1,15 +1,22 @@
 ---
 author: kapnobatai136
-
 type: normal
-
 category: must-know
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Dictionaries
 
+
 ---
+
 ## Content
 
 Dictionaries are associative collections that represent **key/value pairs**.
@@ -30,7 +37,9 @@ my_dog = {
 
 In this example, `name` is the **key**, and `"Artemis"` is the value.
 
+
 ---
+
 ## Practice
 
 Complete the gaps such that the dictionary has `age` as a **key** and `33` for the **value**:
@@ -48,7 +57,9 @@ person = {
 - key
 - value
 
+
 ---
+
 ## Revision
 
 Match the variable with its data type:

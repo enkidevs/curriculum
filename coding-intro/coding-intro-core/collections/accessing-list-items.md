@@ -1,15 +1,22 @@
 ---
 author: kapnobatai136
-
 type: normal
-
 category: must-know
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Accessing List Items
 
+
 ---
+
 ## Content
 
 Finding an item in a list is done by searching the whole list, starting from the first item onwards.
@@ -33,7 +40,9 @@ users[2]
 
 > 💡 You can leave comments in your code. Usually, single-line comments are marked using `//`, but some programming languages might use a different way.
 
+
 ---
+
 ## Practice
 
 Given the following list, access the second element:
@@ -57,7 +66,9 @@ work_days = [
 - 0
 - 2
 
+
 ---
+
 ## Revision
 
 Complete the gap with the element found at that index:

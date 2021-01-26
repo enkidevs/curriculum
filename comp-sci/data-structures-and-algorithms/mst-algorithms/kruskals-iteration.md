@@ -2,6 +2,14 @@
 author: mihaiberq
 type: normal
 category: must-know
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Kruskal's Algorithm Iteration
@@ -71,4 +79,3 @@ In order for the Kruskal's algorithm to work, the graph should be
 - directed
 - acyclic
 - disconnected
- 

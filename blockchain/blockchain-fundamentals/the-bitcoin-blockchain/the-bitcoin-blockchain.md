@@ -2,6 +2,14 @@
 author: mihaiberq
 type: normal
 category: must-know
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # The Bitcoin Blockchain
@@ -65,4 +73,3 @@ Which of the following is not a way in which you can obtain bitcoins?
 - Exchanging other currencies for bitcoins
 - Buying bitcoins from ATMs
 - Mining
- 

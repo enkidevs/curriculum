@@ -2,6 +2,10 @@
 author: kapnobatai136
 category: must-know
 type: normal
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Linked Fields
@@ -40,4 +44,3 @@ Which of the following is not a method of linking tables?
 - Creating a new linked base from an existing field.
 - Directly linking two existing table.
 - Creating a new linked table from an existing field.
- 

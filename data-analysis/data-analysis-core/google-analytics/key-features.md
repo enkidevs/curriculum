@@ -1,20 +1,28 @@
 ---
 author: emmab
-
 tags:
   - introduction
-
 type: normal
-
 category: must-know
-
 links:
-  - '[Google Analytics for Beginners](https://analytics.google.com/analytics/academy/course/6){website}'
+  - >-
+    [Google Analytics for
+    Beginners](https://analytics.google.com/analytics/academy/course/6){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+---
+
+# Key Features
+
 
 ---
-# Key Features 
 
----
 ## Content
 
 ### Dashboards and Goals
@@ -49,35 +57,40 @@ New users are *first-time users*. Google’s tracking snippet creates a random, 
 
 > 💡 This information will be lost if a user clears their browsing data, and Google Analytics also doesn't recognise users who visit sites from different devices by default.
 
+
 ---
+
 ## Practice
 
 What is a “metric” in Google Analytics?
 
 ???
 
-* The numbers in a data set often paired with dimensions.
-* A dimension that can help you analyze site performance.
-* The dates in your date range.
-* A segment of data separated out in a report for comparison.
+- The numbers in a data set often paired with dimensions.
+- A dimension that can help you analyze site performance.
+- The dates in your date range.
+- A segment of data separated out in a report for comparison.
+
 
 ---
+
 ## Revision
 
 What is a “dimension” in Google Analytics?
 
 ???
 
-* An attribute of a data set that can be organized for better analysis.
-* The total amount of revenue a business has made in a given date range.
-* A comparison of data between two date ranges.
-* A report that offers information about your audience.
+- An attribute of a data set that can be organized for better analysis.
+- The total amount of revenue a business has made in a given date range.
+- A comparison of data between two date ranges.
+- A report that offers information about your audience.
+
 
 ---
+
 ## Footnotes
 
 [1:Bounce Rate]
 The bounce rate is the percentage of users who left your website after viewing a single page and taking no additional actions.
 
 Companies aim to have as low a bounce rate as possible.
- 

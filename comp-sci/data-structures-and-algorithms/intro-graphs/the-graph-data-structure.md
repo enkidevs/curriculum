@@ -5,6 +5,14 @@ category: must-know
 links:
   - '[Graph Theory](https://en.wikipedia.org/wiki/Graph_theory){website}'
   - '[Graph Theory Overview](https://www.youtube.com/watch?v=82zlRaRUsaY){video}'
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # The Graph Data Structure
@@ -65,4 +73,3 @@ What's the name for an edge in a graph that connects a node with itself?
 - simple edge
 - circular edge
 - self-connection
- 

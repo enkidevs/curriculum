@@ -6,7 +6,14 @@ links:
   - >-
     [Optimizing Levensthein distance
     computation](http://stackoverflow.com/questions/3183149/most-efficient-way-to-calculate-levenshtein-distance){website}
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Levenshtein Distance
@@ -84,4 +91,3 @@ How many removals are needed to get from the string `test` to `east`?
 - 1
 - 2
 - 3
- 

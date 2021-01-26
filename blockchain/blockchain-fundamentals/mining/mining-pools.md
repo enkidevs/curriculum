@@ -2,6 +2,14 @@
 author: mihaiberq
 type: normal
 category: must-know
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Mining Pools
@@ -55,4 +63,3 @@ For most cryptocurrencies, solo mining stops being profitable after the first fe
 - a mining tree
 - a congregation
 - a mine
- 

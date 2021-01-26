@@ -2,7 +2,10 @@
 author: mihaiberq
 type: normal
 category: must-know
-
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Binary Expression Tree
@@ -61,4 +64,3 @@ Depth-first traversal in which the parent node is visited before visiting any of
 
 [3:Post-order traversal]
 Depth-first traversal in which the parent node is visited after both children.
- 

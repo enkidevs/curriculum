@@ -7,6 +7,14 @@ links:
     [www.restapitutorial.com](http://www.restapitutorial.com/lessons/httpmethods.html){website}
   - >-
     [developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Verbs in HTTP
@@ -76,4 +84,3 @@ The `HEAD` verb can sometimes be used to check if the targeted resource has chan
 This is possible as the header of a request contain timestamps.
 [5:Options]
 For example, in case of the server not being able to understand a `PUT` request, sending a `OPTIONS` request first will help us prevent receiving a `400 Bad Request` error.
- 

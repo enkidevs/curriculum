@@ -2,6 +2,14 @@
 author: mihaiberq
 type: normal
 category: must-know
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Initial Coin Offerings
@@ -45,4 +53,3 @@ ICO tokens are similar to
 - stocks
 - bonds
 - options
- 

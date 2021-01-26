@@ -2,6 +2,10 @@
 author: kapnobatai136
 category: must-know
 type: normal
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Filtering Data
@@ -43,4 +47,3 @@ Filters are used to ??? records depending on pre-defined criteria.
 - delete
 - update
 - create
- 

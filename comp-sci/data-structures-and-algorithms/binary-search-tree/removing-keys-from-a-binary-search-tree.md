@@ -2,6 +2,14 @@
 author: jfarmer
 type: normal
 category: how to
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Removing Keys From a Binary Search Tree
@@ -78,4 +86,3 @@ Which BST deletion case does require the most work?
 - When the node has two children
 - When the node has one child
 - When the node has no children
- 

@@ -1,21 +1,28 @@
 ---
 author: emmab
-
 tags:
   - introduction
-
 type: normal
-
 category: must-know
-
 links:
-  - '[Python for Data Analysis](https://www.simplilearn.com/why-python-is-essential-for-data-analysis-article){website}'
-
-
+  - >-
+    [Python for Data
+    Analysis](https://www.simplilearn.com/why-python-is-essential-for-data-analysis-article){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
+
 # Intro to Python for Data Analysis
 
+
 ---
+
 ## Content
 
 Python has become one of the **most popular** programming languages. It is also extremely **versatile**.
@@ -35,6 +42,7 @@ Next we're going to walk you through setting up the best environment for using P
 
 
 ---
+
 ## Practice
 
 Python can be used for building webapps and for Data Analysis.
@@ -44,7 +52,9 @@ Python can be used for building webapps and for Data Analysis.
 - True
 - False
 
+
 ---
+
 ## Revision
 
 Python is the preferred language for Data Analysis.
@@ -54,10 +64,11 @@ Python is the preferred language for Data Analysis.
 - True
 - False
 
+
 ---
+
 ## Footnotes
 
 [1: Frameworks]
 
 A framework is a set of pre-written code libraries designed to be used by developers. Frameworks give you a basic structure to write your code around, and speed up the whole web development process.
- 

@@ -1,20 +1,28 @@
 ---
 author: emmab
-
 tags:
   - introduction
-
 type: normal
-
 category: must-know
-
 links:
-  - '[Walmart & Pop-Tarts](https://www.nytimes.com/2004/11/14/business/yourmoney/what-walmart-knows-about-customers-habits.html){website}'
-
+  - >-
+    [Walmart &
+    Pop-Tarts](https://www.nytimes.com/2004/11/14/business/yourmoney/what-walmart-knows-about-customers-habits.html){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
+
 # What is Data Analysis?
 
+
 ---
+
 ## Content
 
 Data analysis is the method of **discovering useful information** from data. 
@@ -39,7 +47,9 @@ Data Analysis may seem like a huge topic, but don't let that put you off.
 
 We're going to be breaking it all down into bite-size chunks. 🚀
 
+
 ---
+
 ## Practice
 
 Data analysis is about extracting ??? from ???.
@@ -49,13 +59,14 @@ Data analysis is about extracting ??? from ???.
 - pop tarts
 - algorithms
 
+
 ---
+
 ## Revision
 
 Data analysis covers processes such as acquiring, cleaning and organizing data as well as drawing conclusions from it.
 
 ???
 
-* True
-* False
- 
+- True
+- False

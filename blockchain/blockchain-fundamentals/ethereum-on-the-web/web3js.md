@@ -4,6 +4,14 @@ type: normal
 category: must-know
 links:
   - '[Web3.js repo](https://github.com/ethereum/web3.js/){website}'
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Web3.js
@@ -43,4 +51,3 @@ What does `web3` need in order for it to work?
 - The server to run an Ethereum client
 - A global web3 JavaScript object
 - For the website to be written in JavaScript
- 

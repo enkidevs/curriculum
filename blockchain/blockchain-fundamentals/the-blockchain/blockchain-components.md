@@ -2,6 +2,14 @@
 author: mihaiberq
 type: normal
 category: must-know
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Blockchain Components
@@ -63,4 +71,3 @@ What is the name of blockchain participants that verify whole blocks validity?
 - Miners
 - Traders
 - Verifiers
- 
