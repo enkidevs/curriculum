@@ -1,15 +1,18 @@
-﻿---
+---
 author: Stefan-Stojanovic
-
 type: normal
-
 category: how-to
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # How to Extract a Table from a Pivot Table
 
+
 ---
+
 ## Content
 
 When analyzing data through pivot tables, you may want to extract a specific table and compare it to a different one or use it for representation. Whatever the reason, extracting a table can be done in 2 steps.
@@ -28,7 +31,9 @@ Here we have three different tables extracted from the same source data.
 
 ![three-extracted-pivot-tables](https://img.enkipro.com/b8981fdeba86cea84c88206d64f77a03.png)
 
+
 ---
+
 ## Practice
 
 How do you extract a table from a Pivot table?

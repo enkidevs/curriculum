@@ -2,11 +2,14 @@
 author: mihaiberq
 type: normal
 category: must-know
-inAlgoPool: false
 links:
   - >-
     [Scrimba CSS Documents &
     Cascade](https://scrimba.com/p/pWvwCg/c3vE7cg){website}
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Internal CSS

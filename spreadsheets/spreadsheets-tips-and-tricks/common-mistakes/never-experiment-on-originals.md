@@ -2,9 +2,14 @@
 author: Stefan-Stojanovic
 type: normal
 category: how-to
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Never Experiment on Your Original Sheet
+
 
 ---
 
@@ -47,4 +52,3 @@ When testing you should ???.
 
 - create a duplicate in case you need the original again.
 - overwrite the original since you don't need it right then.
- 

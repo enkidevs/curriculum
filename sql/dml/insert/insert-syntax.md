@@ -1,17 +1,22 @@
 ---
 author: kapnobatai136
-
 type: normal
-
 category: must-know
-
 tags:
   - insert
   - syntax
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Syntax
+
 
 ---
 
@@ -29,7 +34,7 @@ This might look slightly confusing, so let's go over an example.
 Consider the following `inventory` table:
 
 | id | product  | quantity |
-|----|----------|----------|
+| -- | -------- | -------- |
 | 1  | Cucumber | 20       |
 | 2  | Tomato   | 50       |
 
@@ -51,10 +56,11 @@ INSERT INTO inventory VALUES
 Here's how the `inventory` table looks like now:
 
 | id | product  | quantity |
-|----|----------|----------|
+| -- | -------- | -------- |
 | 1  | Cucumber | 20       |
 | 2  | Tomato   | 50       |
 | 3  | Carrot   | 30       |
+
 
 ---
 
@@ -94,6 +100,7 @@ Complete the command such that the table looks like this:
 - Rose
 - INSERT
 - RECORDS
+
 
 ---
 

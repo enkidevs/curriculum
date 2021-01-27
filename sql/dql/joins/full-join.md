@@ -1,22 +1,26 @@
 ---
 author: mihaiberq
-
 type: normal
-
 category: must-know
-
 tags:
   - deep
   - workout
-
 links:
   - >-
     [Full Outer
     Join](https://en.wikipedia.org/wiki/Join_(SQL)#Full_outer_join){website}
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # FULL JOIN
+
 
 ---
 
@@ -49,6 +53,7 @@ Here's what a FULL JOIN represents:
 
 ![fulljoin](https://img.enkipro.com/3df8b481080842061546bbcecc23c7a6.png)
 
+
 ---
 
 ## Practice
@@ -70,6 +75,7 @@ WHERE
 - `ON`
 - `*`
 
+
 ---
 
 ## Revision
@@ -87,6 +93,7 @@ pokemon_type.type_id = type.id
 - `ON`
 - `LEFT AND RIGHT JOIN`
 - `OUTER JOIN`
+
 
 ---
 

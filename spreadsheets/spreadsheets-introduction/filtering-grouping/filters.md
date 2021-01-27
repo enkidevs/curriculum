@@ -2,6 +2,10 @@
 author: Stefan-Stojanovic
 type: normal
 category: must-know
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # What Are Filters
@@ -50,4 +54,3 @@ What are filters used to do?
 - Add different colors to your cells.
 - Filter between different sheets of data.
 - Clean up functions.
- 

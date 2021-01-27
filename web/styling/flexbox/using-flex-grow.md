@@ -11,6 +11,14 @@ links:
   - >-
     [MDN Docs on
     flex-grow](https://developer.mozilla.org/en-US/docs/Web/CSS/flex-grow){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Using `flex-grow`

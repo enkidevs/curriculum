@@ -10,6 +10,14 @@ links:
   - >-
     [MDN Docs on
     Animation](https://developer.mozilla.org/en-US/docs/Web/CSS/animation){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Animation basics in CSS

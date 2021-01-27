@@ -18,6 +18,10 @@ links:
   - >-
     [ANSI Standard Data
     Types](https://en.wikibooks.org/wiki/Structured_Query_Language/Data_Types){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Exact Numeric Data Types
@@ -65,4 +69,3 @@ Which of the following data types is not an exact numeric type?
 
 [1: ANSI Standard]
 Since 1970 (the year SQL was invented) improvements have been added constantly and many different SQL *flavors* arose. As an attempt to unify SQL across all *flavors*, the American National Standards Institute (ANSI) has created specific standards for database query languages.
- 

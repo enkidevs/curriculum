@@ -2,7 +2,6 @@
 author: mihaiberq
 type: normal
 category: pattern
-inAlgoPool: false
 links:
   - >-
     [MDN Docs on
@@ -15,6 +14,10 @@ links:
     Values](https://scrimba.com/p/pWvwCg/cpKbvTV){website}
   - '[Scrimba CSS Length Units](https://scrimba.com/p/pWvwCg/cGLEnHg){website}'
   - '[Scrimba CSS Colors](https://scrimba.com/p/pWvwCg/cMMymu2){website}'
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Common CSS Properties Values

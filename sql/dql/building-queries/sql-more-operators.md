@@ -1,18 +1,19 @@
 ---
 author: stefkn
-
 type: normal
-
 category: must-know
-
 links:
   - >-
     [SQL Tutorial:
     WHERE](http://www.sql-tutorial.com/sql-where-sql-tutorial/){website}
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # More Operators
+
 
 ---
 
@@ -72,6 +73,7 @@ FROM pokemon
 - `name IN`
 - `'ivysaur'`
 - `'bulbasaur'`
+
 
 ---
 

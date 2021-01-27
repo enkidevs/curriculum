@@ -6,6 +6,10 @@ links:
   - >-
     [Article on
     Content](https://css-tricks.com/almanac/properties/c/content/){article}
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Disclose file format of links

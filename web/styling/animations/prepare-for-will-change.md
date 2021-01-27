@@ -15,6 +15,10 @@ links:
   - >-
     [25 Pro Tips For
     CSS](https://www.creativebloq.com/css3/tips-breathe-new-life-your-css-61411880){article}
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Prepare for `will-change`
@@ -38,4 +42,3 @@ In what way does `will-animate` make your pages run faster? ???
 - It makes animations run faster.
 - It makes code faster.
 - It helps people read your page faster.
- 

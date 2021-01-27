@@ -7,6 +7,14 @@ links:
     [Try out the code
     example](https://repl.it/@enkicontent/TypeScriptIntroToTypes){website}
   - '[Type Inference](https://en.wikipedia.org/wiki/Type_inference){website}'
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Introduction to Types

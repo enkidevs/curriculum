@@ -12,6 +12,14 @@ links:
   - >-
     [Null &
     Undefined](https://www.typescriptlang.org/docs/handbook/basic-types.html#null-and-undefined){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Any, Void, Null, Undefined

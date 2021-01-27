@@ -6,6 +6,10 @@ tags:
   - matching
   - hue
   - image
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Matching images to a website's color scheme

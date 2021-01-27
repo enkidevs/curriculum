@@ -1,15 +1,22 @@
-﻿---
+---
 author: kapnobatai136
-
 type: normal
-
 category: how-to
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Excel File Types
 
+
 ---
+
 ## Content
 
 Before we find out how to import a file, let's see which file types you can import.
@@ -28,7 +35,9 @@ Templates can have two file types, `.xltx` and `.xltm`. The only difference betw
 
 If you're using **OpenOffice**, then the default file type is `.ods`.
 
+
 ---
+
 ## Practice
 
 The default file type when saving your spreadsheet is ???.
@@ -38,7 +47,9 @@ The default file type when saving your spreadsheet is ???.
 - .txt
 - .pdf
 
+
 ---
+
 ## Revision
 
 The only difference between the `.xltx` and `.xltm` file types is that the ??? type can store macros.

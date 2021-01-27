@@ -1,17 +1,22 @@
 ---
 author: mihaiberq
-
 type: normal
-
 category: must-know
-
 tags:
   - workout
   - deep
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # UNION
+
 
 ---
 
@@ -101,6 +106,7 @@ And the output:
 
 For tables where data singularity is not always the case, the results might be different. An immediate consequence of this is that `UNION` performs worse, as it must scan the result for duplicates.
 
+
 ---
 
 ## Practice
@@ -124,6 +130,7 @@ WHERE region_name.region_id = 2;
 - `OUTER JOIN`
 - `*`
 
+
 ---
 
 ## Revision
@@ -134,6 +141,7 @@ WHERE region_name.region_id = 2;
 - `UNION`
 - `FULL JOIN`
 - `SELECT UNION`
+
 
 ---
 

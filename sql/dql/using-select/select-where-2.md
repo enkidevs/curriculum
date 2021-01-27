@@ -1,20 +1,25 @@
 ---
 author: Kirill
-
 type: normal
-
 category: must-know
-
 links:
   - >-
     [SQL Tutorial:
     WHERE](http://www.sql-tutorial.com/sql-where-sql-tutorial/){website}
   - >-
     [Playground](https://student.enkicamp.com/public/playground?jsonUrl=https%3A%2F%2Fgist.githubusercontent.com%2Fkapnobatai137%2F1cdd1b9fb861adf32b3c64e7eed415b2%2Fraw%2F3c0ae7205b732e3b7d5fb2b4c302e2d00d38d3ec%2Fsql-querying-with-conditions.json){website}
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # WHERE (2)
+
 
 ---
 

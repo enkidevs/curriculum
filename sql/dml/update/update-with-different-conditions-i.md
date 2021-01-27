@@ -1,17 +1,22 @@
 ---
 author: kapnobatai136
-
 type: normal
-
 category: must-know
-
 tags:
   - update
   - syntax
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Updating With Different Conditions I
+
 
 ---
 
@@ -43,7 +48,7 @@ SET
 In this case, because we didn't include a condition, **all the records** will be updated to have an `id` equal to `4`:
 
 | id | name       |
-|----|------------|
+| -- | ---------- |
 | 4  | Carnivores |
 | 4  | Bats       |
 | 4  | Marsupials |
@@ -82,6 +87,7 @@ WHERE
 
 The combination of `id` and `name` in the condition will ensure that you target the exact record that you want.
 
+
 ---
 
 ## Practice
@@ -96,6 +102,7 @@ WHERE ???
 - ALL
 - UPDATE ALL
 - ALL
+
 
 ---
 
@@ -116,6 +123,7 @@ SET
 - All the records from class = 2
 - Only the records that don't have a class
 
+
 ---
 
 ## Footnotes
@@ -125,7 +133,7 @@ SET
 Here is the `mammals` table
 
 | id   | name       |
-|------|------------|
+| ---- | ---------- |
 | 1    | Carnivores |
 | 2    | Bats       |
 | 3    | Marsupials |
