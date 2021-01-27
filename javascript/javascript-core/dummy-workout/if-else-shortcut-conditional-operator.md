@@ -96,3 +96,4 @@ var run = (animal === 'lion')? true:???;
 - 'undefined'
 - 'null'
 - true
+ 

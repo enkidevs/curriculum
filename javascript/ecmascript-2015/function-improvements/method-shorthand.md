@@ -95,3 +95,4 @@ return {
 - function func()
 - func()
 - () =>
+ 

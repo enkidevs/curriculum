@@ -107,3 +107,4 @@ Can generator functions maintain their execution context between method calls?
 - No, because the memory needed would be to big
 - No, because of the JavaScript memory model
 - Only if the calls are done one after the other
+ 

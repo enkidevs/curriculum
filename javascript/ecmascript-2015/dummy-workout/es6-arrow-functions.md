@@ -91,3 +91,4 @@ Give the equivalent using **ES6 Arrow Functions**:
 - {}
 - =
 - >
+ 

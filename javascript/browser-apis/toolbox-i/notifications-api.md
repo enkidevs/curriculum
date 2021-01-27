@@ -110,3 +110,4 @@ Which method exposed by the Notifications API can be used to ask for user permis
 - access
 - grantAccess
 - Notif
+ 

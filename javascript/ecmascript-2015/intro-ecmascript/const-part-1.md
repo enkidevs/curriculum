@@ -134,3 +134,4 @@ if (true) {
 - yes, because the value is changed
 - no, because you can't redeclare a variable
 - no, because the if block doesn't have it's own scope
+ 

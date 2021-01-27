@@ -118,3 +118,4 @@ console.log(copy === arr); // false
 console.log(copy[0] === arr[0]); // true
 console.log(copy[1] === arr[1]); // true
 ```
+ 

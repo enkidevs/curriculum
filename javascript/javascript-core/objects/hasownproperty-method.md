@@ -86,3 +86,4 @@ enki.hasOwnProperty('practiceQuestion');
 - obj hasn’t got ‘prop’ as property
 - obj has the property
 - obj has the property and its value is null
+ 

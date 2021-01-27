@@ -60,3 +60,4 @@ Can an iterator be used to implement an infinite sequence?
 - No, because an iterator must always have done equal to true at some point
 - No, because the memory needed will kill any machine
 - Yes, by making the next function recursive
+ 

@@ -100,3 +100,4 @@ What problem do Promises try to solve?
 - asynchronous calls stopping thread execution
 - lack of any kind of support for asynchronous operation
 - too many libraries doing the same thing
+ 
