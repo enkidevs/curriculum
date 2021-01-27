@@ -9,6 +9,14 @@ tags:
 links:
   - >-
     [css-tricks.com](https://css-tricks.com/snippets/javascript/format-currency/){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Format Currency in JavaScript

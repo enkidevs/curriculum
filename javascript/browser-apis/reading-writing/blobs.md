@@ -4,6 +4,14 @@ type: normal
 category: must-know
 links:
   - '[Blob](http://www.javascripture.com/Blob){website}'
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Blobs

@@ -4,6 +4,14 @@ type: normal
 category: how-to
 tags:
   - url
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Form a `URL` from its parts

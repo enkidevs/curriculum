@@ -8,6 +8,14 @@ tags:
 links:
   - >-
     [davidwalsh.name](https://davidwalsh.name/detect-error-type-javascript){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Detect an Error Type

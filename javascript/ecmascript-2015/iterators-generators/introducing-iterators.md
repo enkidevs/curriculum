@@ -9,6 +9,14 @@ links:
   - >-
     [Iterators in
     Depth](https://ponyfoo.com/articles/es6-iterators-in-depth){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Introducing Iterators

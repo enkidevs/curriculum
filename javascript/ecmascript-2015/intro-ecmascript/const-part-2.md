@@ -1,22 +1,26 @@
 ---
 author: alexjmackey
-
 type: normal
-
 category: must-know
-
 tags:
   - introduction
   - es6
   - memory
-
 links:
   - >-
     [MDN](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Statements/const){website}
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Const (Part 2)
+
 
 ---
 
@@ -61,6 +65,7 @@ p.first = "bob";
 ```
 
 If you do not want anyone to be able to modify the object at all be sure to use `Object.freeze`[1] function.
+
 
 ---
 

@@ -1,16 +1,23 @@
 ---
 author: catalin
-
 type: normal
-
 category: hack
-
 links:
-  - '[Merge Arrays with JavaScript](https://davidwalsh.name/merge-arrays-javascript){website}'
-
+  - >-
+    [Merge Arrays with
+    JavaScript](https://davidwalsh.name/merge-arrays-javascript){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # How to Merge Two Arrays
+
 
 ---
 
@@ -59,6 +66,7 @@ console.log([1, 2] + [3, 4])
 // 1,23,4
 ```
 
+
 ---
 
 ## Practice
@@ -77,6 +85,7 @@ array1.???(???array2)
 - `merge`
 - `-`
 - `concat`
+
 
 ---
 

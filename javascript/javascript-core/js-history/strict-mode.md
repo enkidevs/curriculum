@@ -2,7 +2,6 @@
 author: alexjmackey
 type: normal
 category: must-know
-inAlgoPool: false
 tags:
   - introduction
   - obscura
@@ -10,6 +9,14 @@ links:
   - >-
     [Mozilla Developer
     Network](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Strict Mode
@@ -81,4 +88,3 @@ How do you enable **strict mode** in ECMAScript 5?
 - `strict-mode`
 - `enable`
 - `on`
- 

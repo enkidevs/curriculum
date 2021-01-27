@@ -11,6 +11,14 @@ links:
   - >-
     [15 Common JavaScript
     Gotchas](http://www.standardista.com/javascript/15-common-javascript-gotchas/){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # `String.replace`

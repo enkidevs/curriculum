@@ -10,6 +10,14 @@ links:
   - >-
     [W3C HTML5
     Timers](https://dev.w3.org/html5/spec-LC/timers.html#timers){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Using timers with extra arguments

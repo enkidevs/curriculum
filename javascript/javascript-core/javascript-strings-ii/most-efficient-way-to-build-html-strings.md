@@ -2,6 +2,14 @@
 author: pawel
 type: normal
 category: best-practice
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Most Efficient Way to Build `HTML` Strings
