@@ -15,6 +15,14 @@ links:
   - >-
     [Stack Overflow - Need help to understand what Document Object Model is?
     ](https://stackoverflow.com/questions/6965802/need-help-to-understand-what-document-object-model-is){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # What is the Document Object?

@@ -7,6 +7,14 @@ tags:
 links:
   - >-
     [javahungry.blogspot.com](http://javahungry.blogspot.com/2014/03/hashmap-vs-hashtable-difference-with-example-java-interview-questions.html){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Difference between `HashMap` and `Hashtable`
@@ -49,4 +57,3 @@ Which one of the following classes allow `null` values as keys?
 - `Hashtable` 
 - `both` 
 - `none`
- 

@@ -6,6 +6,14 @@ links:
   - >-
     [More on Banker`s
     Algorithm](https://en.wikipedia.org/wiki/Banker%27s_algorithm){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Deadlock Dynamic Avoidance
@@ -93,4 +101,3 @@ How does dynamic avoidance work?
 - Calculating whether it will be safe to grant a resource to a process on every iteration
 - Calculating the overall load an the capacity of the system
 - Ensuring that the will always be more resources that the processes
- 

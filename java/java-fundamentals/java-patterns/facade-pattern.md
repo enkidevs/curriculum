@@ -6,6 +6,10 @@ links:
   - >-
     [More on the Facade
     Pattern](https://en.wikipedia.org/wiki/Facade_pattern){website}
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Facade Pattern

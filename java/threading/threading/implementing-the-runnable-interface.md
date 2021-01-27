@@ -12,6 +12,14 @@ links:
   - >-
     [More on Overriding
     `.start()`](http://www.javamadesoeasy.com/2015/03/what-will-happen-if-we-override-start.html){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Implementing the Runnable Interface

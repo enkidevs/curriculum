@@ -7,6 +7,10 @@ tags:
 links:
   - >-
     [javarevisited.blogspot.co.uk](http://javarevisited.blogspot.co.uk/2014/10/10-java-best-practices-to-name-variables-methods-classes-packages.html){website}
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Use meaningful names

@@ -9,6 +9,10 @@ links:
     [Class
     Formatter](http://docs.oracle.com/javase/7/docs/api/java/util/Formatter.html){website}
 notes: 'Gamified insight. Static Workout. '
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Altering format string output by changing a format specifier's `argument_index`

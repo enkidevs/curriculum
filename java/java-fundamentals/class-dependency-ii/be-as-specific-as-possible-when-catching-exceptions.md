@@ -7,6 +7,10 @@ tags:
 links:
   - >-
     [docs.oracle.com](https://docs.oracle.com/javase/tutorial/essential/exceptions/advantages.html){website}
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Be as specific as possible when catching exceptions

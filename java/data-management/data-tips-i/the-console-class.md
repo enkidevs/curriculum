@@ -6,6 +6,10 @@ links:
   - '[www.javatpoint.com](http://www.javatpoint.com/Console-class){website}'
 notes: |
   https://insights.enki.com/#/contrib/5597c334d07c503200b46e1a
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # The `Console` class

@@ -4,6 +4,14 @@ type: normal
 category: how-to
 links:
   - '[www.c2.com](http://www.c2.com/cgi/wiki?DoubleBraceInitialization){website}'
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Double Brace Initialization

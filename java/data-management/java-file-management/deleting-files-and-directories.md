@@ -2,6 +2,10 @@
 author: catalin
 type: normal
 category: how-to
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Deleting files and directories

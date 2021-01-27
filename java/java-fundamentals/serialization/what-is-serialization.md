@@ -1,15 +1,15 @@
 ---
 author: nickdaminov
-
 type: normal
-
 category: feature
-
 links:
   - >-
     [More on
     Serialization](https://www.tutorialspoint.com/java/java_serialization.htm){website}
-
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # What Is Serialization?
@@ -31,6 +31,7 @@ The motivation for using **serialization** might be the following points:
 
 In order to serialize an object you will use tools/classes available in the `java.io` library so it is important to remember to import `import java.io.*` library.
 
+
 ---
 
 ## Revision
@@ -51,4 +52,3 @@ What is serialization?
 
 [1:Retractable]
 In this context this means that the information about this class can be restored back.
- 

@@ -9,6 +9,10 @@ links:
   - >-
     [Copy an
     Array](http://www.javapractices.com/topic/TopicAction.do?Id=3){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Copying an Array

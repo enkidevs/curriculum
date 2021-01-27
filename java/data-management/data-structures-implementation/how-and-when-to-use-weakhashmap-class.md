@@ -6,6 +6,14 @@ links:
   - >-
     [stackoverflow.com](http://stackoverflow.com/questions/10599710/weakhashmap-example){website}
 notes: 'https://insights.enki.com/#/contrib/others/5585b52f575399cf01b26b9f?search=kha'
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # How and when to use `WeakHashMap` class

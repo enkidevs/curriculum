@@ -1,25 +1,34 @@
 ---
 author: Stefan-Stojanovic
-
 type: normal
-
 category: must-know
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Shorthand for Defining Variables
 
+
 ---
+
 ## Content
 
 If you are declaring variables on the function level, you can use the shorthand method.
 
 Regular declaration:
+
 ```go
 var name = "Stefan"
 ```
 
 Shorthand declaration:
+
 ```go
 name := "Stefan"
 ```
@@ -32,16 +41,19 @@ Here is a full list of the reserved keywords:
 
 ![reserved-keyword-list](https://img.enkipro.com/b301e7eef8545782f0ab60beb628d8a9.png)
 
+
 ---
 
 ## Practice
 
 The shorthand declaration can only be used on the ??? level.
 
-* function
-* package
+- function
+- package
+
 
 ---
+
 ## Revision
 
 Which of these variables is incorrectly defined?

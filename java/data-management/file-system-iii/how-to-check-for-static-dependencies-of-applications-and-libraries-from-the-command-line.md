@@ -9,6 +9,14 @@ links:
   - >-
     [marxsoftware.blogspot.co.uk](http://marxsoftware.blogspot.co.uk/2014/03/jdeps.html){website}
 notes: 'https://insights.enki.com/insight/55f433a9da97642e00a7819a'
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # How to check for static dependencies of applications and libraries from the command line.

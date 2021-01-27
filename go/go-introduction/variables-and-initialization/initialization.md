@@ -1,15 +1,22 @@
 ---
 author: Stefan-Stojanovic
-
 type: normal
-
 category: must-know
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Initialization
 
+
 ---
+
 ## Content
 
 When declaring variables, they can also be initialized upon declaration.
@@ -48,7 +55,9 @@ If you are initializing a variable, for instance with a string (i.e. "Stefan"), 
 
 This is true for any type. As long as the value is initialized, there is no need for the data type to be present.
 
+
 ---
+
 ## Practice
 
 Which of these is not a correct way of initializing a string variable?
@@ -70,7 +79,9 @@ var name string = Stefan
 - a
 - b
 
+
 ---
+
 ## Revision
 
 Create an uninitialized string variable named `surname`:

@@ -5,6 +5,10 @@ category: caveats
 links:
   - >-
     [www.securecoding.cert.org](https://www.securecoding.cert.org/confluence/display/java/OBJ09-J.+Compare+classes+and+not+class+names){website}
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Compare classes and not class names

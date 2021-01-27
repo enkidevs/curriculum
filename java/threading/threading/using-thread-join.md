@@ -11,6 +11,14 @@ links:
   - >-
     [More on
     InterruptedException](https://docs.oracle.com/javase/7/docs/api/java/lang/InterruptedException.html){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Using `Thread.join`

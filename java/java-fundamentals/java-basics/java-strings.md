@@ -2,7 +2,10 @@
 author: mihaiberq
 type: normal
 category: must-know
-inAlgoPool: false
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Java `Strings`

@@ -9,6 +9,10 @@ links:
   - >-
     [More on
     WildCards](https://docs.oracle.com/javase/tutorial/java/generics/subtyping.html){website}
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Wildcards Extras

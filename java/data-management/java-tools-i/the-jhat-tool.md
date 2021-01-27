@@ -7,6 +7,14 @@ links:
     [docs.oracle.com](http://docs.oracle.com/javase/7/docs/technotes/tools/share/jhat.html){website}
 notes: >-
   https://insights.enki.com/#/contrib/others/55f421b8742fb322000e0d7c?search=khandelwalrinki
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # The `jhat` tool

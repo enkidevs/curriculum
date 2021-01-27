@@ -9,6 +9,14 @@ tags:
 links:
   - >-
     [docs.oracle.com](https://docs.oracle.com/javase/tutorial/java/data/numberformat.html){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Use `DecimalFormat` class to format numbers

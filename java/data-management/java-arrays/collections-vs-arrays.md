@@ -8,6 +8,14 @@ tags:
 links:
   - >-
     [www.javapractices.com](http://www.javapractices.com/topic/TopicAction.do?Id=39){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Collections vs arrays
@@ -35,6 +43,7 @@ Which one of the following has pre-made sorting algorithms?
 
 - `collections` 
 - `arrays`
+
 
 ---
 

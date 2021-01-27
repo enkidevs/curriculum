@@ -7,6 +7,14 @@ tags:
 links:
   - >-
     [docs.oracle.com](https://docs.oracle.com/javase/tutorial/java/javaOO/classvars.html){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Using `static` fields

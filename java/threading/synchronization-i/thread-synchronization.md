@@ -9,6 +9,14 @@ links:
   - >-
     [More on Race
     Condition](https://en.wikipedia.org/wiki/Race_condition){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Thread Synchronization

@@ -1,15 +1,22 @@
-﻿---
+---
 author: Stefan-Stojanovic
-
 type: normal
-
 category: how-to
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Make a Slice
 
+
 ---
+
 ## Content
 
 Slices can be created with a built-in function called `make`.
@@ -24,6 +31,7 @@ fmt.Println("emptySlice ", emptySlice)
 // len(emptySlice)=5
 // emptySlice [0 0 0 0 0]
 ```
+
 We've now created an empty slice that holds five integers. Another way of saying this is an integer slice of length `5`.
 
 To add capacity to a slice, we need to include a third argument when calling `make`.
@@ -36,6 +44,7 @@ fmt.Println("emptySlice2 ", emptySlice2)
 ```
 
 You can also create a slice from the previously created slice:
+
 ```go
 emptySlice3 := emptySlice[:3]
 fmt.Println("emptySlice3 ", emptySlice3)
@@ -44,7 +53,9 @@ fmt.Println("emptySlice3 ", emptySlice3)
 
 > 💡 A slice can contain any type, not just an array. It can also contain other slices.
 
+
 ---
+
 ## Practice
 
 Slices can ???
@@ -52,7 +63,9 @@ Slices can ???
 - contain any type.
 - only contain an array
 
+
 ---
+
 ## Revision
 
 Create an integer slice called `slice` with a length of `0` and a capacity of `7`.

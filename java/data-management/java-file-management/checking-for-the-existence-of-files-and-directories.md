@@ -9,6 +9,10 @@ tags:
 links:
   - >-
     [docs.oracle.com](https://docs.oracle.com/javase/tutorial/essential/io/check.html){website}
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Checking for the existence of files and directories

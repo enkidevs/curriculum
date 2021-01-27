@@ -1,15 +1,22 @@
 ---
 author: Stefan-Stojanovic
-
 type: normal
-
 category: how-to
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Variables
 
+
 ---
+
 ## Content
 
 To declare a variable in **Go**, you need to use the `var` statement.
@@ -19,6 +26,7 @@ To declare a variable in **Go**, you need to use the `var` statement.
 A variable can have a type, which is the kind of information it can hold, and a value that matches that type.
 
 Example:
+
 ```go
 // variable with a value
 var name = "Stefan"
@@ -42,19 +50,23 @@ Variable names have to start either with a `letter` or an underscore `_`. After 
 
 > 💡 It is important to note that variables are case sensitive. `name`, `Name`, and `NAME` are 3 different variables.
 
+
 ---
+
 ## Practice
 
 Where can variables be created?
 
 ???
 
-* At package and function level.
-* At package level only.
-* At function level only.
-* At either the function or package, but not both.
+- At package and function level.
+- At package level only.
+- At function level only.
+- At either the function or package, but not both.
+
 
 ---
+
 ## Revision
 
 Define an empty `float64` variable called `age`:
@@ -79,7 +91,9 @@ Define a string variable called `name` with the value `"Manuel"`:
 - Manuel
 - Variable
 
+
 ---
+
 ## Footnotes
 
 [1: Places to declare a variable]
