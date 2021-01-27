@@ -5,7 +5,7 @@ category: must-know
 links:
   - >-
     [Intro To
-    DNS](https://linuxacademy.com/howtoguides/posts/show/topic/12050-introduction-to-dns){article}
+    DNS](https://www.cloudflare.com/en-gb/learning/dns/what-is-dns/){article}
   - >-
     [IANA Root Server
     List](https://www.iana.org/domains/root/servers){documentation}

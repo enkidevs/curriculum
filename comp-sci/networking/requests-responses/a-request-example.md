@@ -5,7 +5,7 @@ category: must-know
 links:
   - >-
     [What is an "HTTP
-    request"?](https://www.quora.com/What-does-an-HTTP-request-looks-like){website}
+    request"?](https://www.quora.com/What-is-an-HTTP-request){website}
   - >-
     [History of the Browser User-Agent
     String](http://webaim.org/blog/user-agent-string-history/){website}

@@ -5,7 +5,7 @@ category: must-know
 links:
   - >-
     [Git Tools
-    Stashing](https://git-scm.com/book/en/v1/Git-Tools-Stashing){website}
+    Stashing](https://git-scm.com/book/en/v2/Git-Tools-Stashing-and-Cleaning){website}
 practiceQuestion:
   formats:
     - fill-in-the-gap

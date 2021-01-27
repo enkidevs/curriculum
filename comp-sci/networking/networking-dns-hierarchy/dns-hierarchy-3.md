@@ -4,11 +4,9 @@ type: normal
 category: feature
 links:
   - >-
-    [Responsibilities of a DNS
-    Registrar](https://www.icann.org/resources/pages/responsibilities-2014-03-14-en){documentation}
+    [What is a Domain Name Registrar?](https://www.cloudflare.com/en-gb/learning/dns/glossary/what-is-a-domain-name-registrar/){documentation}
   - >-
-    [Registry, Registrar,
-    Registrant](https://www.godaddy.com/help/what-is-the-difference-between-a-registry-registrar-and-registrant-8039){website}
+    [Registry, Registrar, Registrant](https://uk.godaddy.com/help/what-is-the-difference-between-a-registry-registrar-and-registrant-8039){website}
 practiceQuestion:
   formats:
     - fill-in-the-gap

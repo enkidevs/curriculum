@@ -8,7 +8,7 @@ links:
     DNS](https://dyn.com/blog/dns-a-mania-dns-load-balancing-vs-hardware-load-balancing/){article}
   - >-
     [What is
-    Anycast?](https://www.cloudflare.com/learning/cdn/glossary/anycast-network/){article}
+    Anycast?](https://www.cloudflare.com/en-gb/learning/cdn/glossary/anycast-network/){article}
 practiceQuestion:
   formats:
     - fill-in-the-gap

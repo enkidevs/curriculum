@@ -4,9 +4,6 @@ type: normal
 category: must-know
 links:
   - >-
-    [Geographic Implications of DNS
-    Distribution](https://www.cisco.com/c/en/us/about/press/internet-protocol-journal/back-issues/table-contents-35/101-dns-infrastructure.html){article}
-  - >-
     [IANA Root Server
     List](https://www.iana.org/domains/root/servers){documentation}
   - >-

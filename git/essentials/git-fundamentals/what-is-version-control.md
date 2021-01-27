@@ -1,7 +1,7 @@
 ---
 author: catalin
 type: normal
-category: thought
+category: must-know
 links:
   - >-
     [About Version Control Official
