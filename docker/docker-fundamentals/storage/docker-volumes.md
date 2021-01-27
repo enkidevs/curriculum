@@ -1,7 +1,7 @@
 ---
 author: nem035
 type: normal
-category: best practice
+category: best-practice
 links:
   - '[Docker Volumes](https://docs.docker.com/storage/volumes/){documentation}'
   - '[Manage data in Docker](https://docs.docker.com/storage/){documentation}'

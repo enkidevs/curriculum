@@ -1,7 +1,7 @@
 ---
 author: rosielowther
 type: normal
-category: best practice
+category: best-practice
 links:
   - >-
     [Git and Github

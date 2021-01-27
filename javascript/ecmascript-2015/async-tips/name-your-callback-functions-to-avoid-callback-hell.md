@@ -1,7 +1,7 @@
 ---
 author: Bruno
 type: normal
-category: best practice
+category: best-practice
 links:
   - '[callbackhell.com](http://callbackhell.com/){blog}'
 ---

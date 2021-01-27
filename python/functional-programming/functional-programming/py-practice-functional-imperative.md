@@ -1,7 +1,7 @@
 ---
 author: SebaRaba
 type: exercise
-category: best practice
+category: best-practice
 links:
   - >-
     [A blog post with code examples on functional and imperative

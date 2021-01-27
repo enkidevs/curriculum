@@ -1,7 +1,7 @@
 ---
 author: lizTheDeveloper
 type: normal
-category: best practice
+category: best-practice
 ---
 
 # Upgrade Process Cadence

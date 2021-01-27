@@ -1,7 +1,7 @@
 ---
 author: Mathieu
 type: normal
-category: best practice
+category: best-practice
 links:
   - >-
     [CSS for

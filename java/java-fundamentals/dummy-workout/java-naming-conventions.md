@@ -9,7 +9,7 @@ levels:
 
 type: normal
 
-category: best practice
+category: best-practice
 
 tags:
 

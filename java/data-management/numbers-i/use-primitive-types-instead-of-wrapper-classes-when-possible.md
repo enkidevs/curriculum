@@ -1,7 +1,7 @@
 ---
 author: hyousaf
 type: normal
-category: best practice
+category: best-practice
 ---
 
 # Use primitive types instead of wrapper classes when possible
