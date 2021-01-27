@@ -4,6 +4,14 @@ tags:
   - introduction
 type: normal
 category: must-know
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Escaping Characters
@@ -81,4 +89,3 @@ Which regex code would match the first string, but not the second:
 - `/\\\\/`
 - `/\.{2}/`
 - `/\w{2}/`
- 

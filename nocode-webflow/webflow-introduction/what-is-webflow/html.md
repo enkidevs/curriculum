@@ -2,6 +2,10 @@
 author: Stefan-Stojanovic
 type: normal
 category: how-to
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Hypertext Markup Language
@@ -35,4 +39,3 @@ HTML is used to ???.
 - create the structure of a website
 - create animations
 - create interactions within the content
- 

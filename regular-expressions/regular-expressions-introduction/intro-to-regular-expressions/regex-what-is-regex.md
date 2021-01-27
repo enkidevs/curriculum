@@ -6,6 +6,14 @@ type: normal
 category: must-know
 links:
   - '[Regex Wiki](https://en.wikipedia.org/wiki/Regular_expression){website}'
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # What are Regular Expressions?
@@ -34,8 +42,9 @@ Instead of searching for one exact date, you can search for any text that matche
 > 💡 As with all the skills in the app, if you want to access more advanced or specific content at any time, **feel free to use the *Skill Map* tab** to jump to the workouts most relevant for you.
 
 > 💬 Why are you interested in learning Regular Expressions?
-> 
+>
 > Leave a comment or view some of the other comments for inspiration before moving on.
+
 
 ---
 
@@ -71,4 +80,3 @@ Along with letters and numbers, which of the these are valid in regex?
 A wildcard character is a kind of placeholder represented by a single character, such as an asterisk `*` or percentage sign `%`. Wildcards can be interpreted as *multiple characters or an empty string*. 
 
 Wildcards are often used in file searches so that the full name doesn't need to be typed out. They're also commonly used in SQL to match zero or more characters.
- 

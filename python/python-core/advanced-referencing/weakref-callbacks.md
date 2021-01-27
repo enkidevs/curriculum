@@ -4,6 +4,14 @@ type: normal
 category: how-to
 links:
   - '[pymotw.com](https://pymotw.com/2/weakref/#references){website}'
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # `weakref` callbacks

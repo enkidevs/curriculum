@@ -4,6 +4,14 @@ tags:
   - introduction
 type: normal
 category: must-know
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # What's the syntax?
@@ -50,4 +58,3 @@ The regex pattern `/FUN/` matches part of the text `'regex is fun'`.
 
 - False
 - True
- 

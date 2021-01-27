@@ -6,6 +6,14 @@ links:
   - >-
     [from...import in
     depth](https://www.tutorialspoint.com/python3/python_modules.htm){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # The from...import statement
@@ -134,6 +142,7 @@ calculate_volume(radius, height)
 - `__name__`
 - `cylinder:`
 - `def`
+
 
 ---
 

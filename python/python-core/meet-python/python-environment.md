@@ -9,6 +9,14 @@ links:
   - >-
     [Best Text
     Editors](https://www.programiz.com/python-programming/ide){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Python Environment
@@ -57,6 +65,7 @@ Once you're using a text editor you can save files using a `.py` extension and t
 ```bash
 python3 myPythonFile.py
 ```
+
 
 ---
 

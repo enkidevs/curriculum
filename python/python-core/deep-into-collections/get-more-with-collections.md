@@ -7,6 +7,14 @@ links:
     [pymbook.readthedocs.org](http://pymbook.readthedocs.org/en/latest/collections.html){website}
   - >-
     [docs.python.org](https://docs.python.org/3.5/library/collections.html){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Get more with `collections` !

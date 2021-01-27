@@ -9,6 +9,14 @@ links:
   - >-
     [Python
     zip()](https://www.programiz.com/python-programming/methods/built-in/zip){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # The `zip` Built-in Function

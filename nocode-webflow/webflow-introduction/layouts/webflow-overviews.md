@@ -2,6 +2,10 @@
 author: kapnobatai136
 category: feature
 type: normal
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Grid View
@@ -35,4 +39,3 @@ Gridbox allows control of ???.
 - both dimension
 - the horizontal axis only
 - one diagonal
- 

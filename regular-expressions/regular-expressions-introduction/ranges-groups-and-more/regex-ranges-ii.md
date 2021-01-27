@@ -4,6 +4,14 @@ tags:
   - introduction
 type: normal
 category: must-know
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Ranges II
@@ -61,4 +69,3 @@ Using the '^' character, which regex pattern matches `hog` and `dog`, but not `b
 - /[fp]un/
 - /[b]un/
 - /[^fp]un/
- 

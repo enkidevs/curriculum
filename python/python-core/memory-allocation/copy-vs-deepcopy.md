@@ -1,13 +1,19 @@
 ---
 author: mihaiberq
-
 type: normal
-
 category: must-know
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # `copy` vs `deepcopy`
+
 
 ---
 
@@ -100,6 +106,7 @@ k deepcopy: 61.87346560800506
 ```
 
 You can see how, even for a linear list, the required time for **deepcopy** grows exponentially.
+
 
 ---
 

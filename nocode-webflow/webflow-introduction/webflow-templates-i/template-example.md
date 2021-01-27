@@ -2,6 +2,10 @@
 author: Stefan-Stojanovic
 type: normal
 category: how-to
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Using Templates
@@ -59,4 +63,3 @@ How do you create an element from a template?
 
 - dashboard -> new project -> select desired template
 - my account -> new project -> select desired template
- 

@@ -2,6 +2,10 @@
 author: kapnobatai136
 category: must-know
 type: normal
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Editing Templates 2
@@ -46,4 +50,3 @@ You can open the designer from your [dashboard](https://webflow.com/dashboard) b
 
 [2:Add Elements]
 To access this section, either press the `+` button in the top left corner of the page, or press the `A` button on your keyboard.
- 

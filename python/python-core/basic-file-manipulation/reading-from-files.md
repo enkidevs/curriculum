@@ -9,6 +9,14 @@ links:
   - >-
     [Official
     Documentation](https://docs.python.org/3/tutorial/inputoutput.html#methods-of-file-objects){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Reading From Files

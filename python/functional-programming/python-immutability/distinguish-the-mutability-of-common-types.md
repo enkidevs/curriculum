@@ -6,6 +6,14 @@ links:
   - >-
     [PYTHON OBJECTS: MUTABLE VS.
     IMMUTABLE](https://codehabitude.com/2013/12/24/python-objects-mutable-vs-immutable/){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Distinguish the Mutability of Common Types

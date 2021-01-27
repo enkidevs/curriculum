@@ -7,6 +7,14 @@ links:
     [pythontips.com](http://pythontips.com/2014/07/02/an-intro-to-deque-module/){website}
   - >-
     [docs.python.org](https://docs.python.org/3.5/library/collections.html#deque-objects){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Double ended queues with `deque`

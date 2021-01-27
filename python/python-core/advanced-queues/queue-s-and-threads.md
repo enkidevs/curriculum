@@ -7,6 +7,14 @@ links:
     [docs.python.org](https://docs.python.org/3.5/library/stdtypes.html#memory-views){website}
   - >-
     [www.troyfawkes.com](http://www.troyfawkes.com/learn-python-multithreading-queues-basics/){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Queues and threads

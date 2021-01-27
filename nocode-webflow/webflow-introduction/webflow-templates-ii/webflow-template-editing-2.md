@@ -2,6 +2,10 @@
 author: kapnobatai136
 category: must-know
 type: normal
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Editing Templates
@@ -48,4 +52,3 @@ Complete the following block:
 - designer
 - editor
 - color picker
- 

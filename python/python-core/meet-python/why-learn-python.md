@@ -11,6 +11,14 @@ links:
   - >-
     [Python
     OOP](https://www.programiz.com/python-programming/object-oriented-programming){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Why learn Python?
@@ -76,4 +84,3 @@ All you need to know for now is that **object-oriented programming** (OOP) is a 
 Let's use the common car analogy to better understand OOP. 
 
 Think of the car as the object. The model, color or age of the car are the object's *attributes*. Whether the engine is on, or whether it's moving are *behaviors* and would exist as functions.
- 

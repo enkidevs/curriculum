@@ -6,6 +6,14 @@ links:
   - >-
     [The fate of reduce() in Python
     3000](http://www.artima.com/weblogs/viewpost.jsp?thread=98196){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Functions vs procedures
@@ -52,4 +60,3 @@ Is Python considered a functional language?
 - No
 - Yes
 - Sometimes
- 

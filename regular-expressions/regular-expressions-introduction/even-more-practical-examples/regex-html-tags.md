@@ -1,15 +1,22 @@
 ---
 author: emmab
-
 type: normal
-
 category: feature
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # HTML Tags
 
+
 ---
+
 ## Content
 
 In its most basic format, a regex pattern to match an HTML tag, such as an `<a>` tag could look something like this:
@@ -27,10 +34,8 @@ This means that our regex pattern will work for the following valid HTML tags th
 
 And it would not work for the following invalid tags:
 
-```
-<a>some content<a> ❌
-<>some content</> ❌
-```
+    <a>some content<a> ❌
+    <>some content</> ❌
 
 Say we have a long HTML document and we want to extract all of the `<h>` and `<p>` tags... 
 
@@ -44,7 +49,9 @@ We could write something like:
 
 This would match on all `<p>` tags or any `<h1>`, `<h2>`, `<h3>`, `<h4>`, `<h5>` or `<h6>` tags 🎉.
 
+
 ---
+
 ## Practice
 
 How could we write a regex pattern to match all `<div>` tags?
@@ -56,7 +63,9 @@ How could we write a regex pattern to match all `<div>` tags?
 - `/<div[^>]*><\/div>/`
 - `/<div[^>]*>.*?</div>/`
 
+
 ---
+
 ## Revision
 
 How could we write a regex pattern to match all `<img>` tags?

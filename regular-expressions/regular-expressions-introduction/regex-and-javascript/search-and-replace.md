@@ -1,18 +1,24 @@
 ---
 author: emmab
-
 tags:
   - introduction
-
 type: normal
-
 category: must-know
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Search() & Replace()
 
+
 ---
+
 ## Content
 
 As we've already discovered in the Practical Application workouts, Regex can be used to perform any **text search** and **text replace** operations.
@@ -45,7 +51,9 @@ Using regex patterns instead of simply using strings with the `search()` and `re
 
 This is because regex patterns can allow for complex patterns and case insensitivity.
 
+
 ---
+
 ## Practice
 
 Complete the following:
@@ -62,7 +70,9 @@ string.search(/o/i);
 - 6 
 - 7, 12
 
+
 ---
+
 ## Revision
 
 Complete the following:

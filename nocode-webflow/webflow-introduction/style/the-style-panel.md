@@ -2,6 +2,10 @@
 author: Stefan-Stojanovic
 type: normal
 category: how-to
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # The Style Panel
@@ -41,4 +45,3 @@ Which of these is not accessed through the style panel?
 - Typography
 - Borders
 - Effects
- 

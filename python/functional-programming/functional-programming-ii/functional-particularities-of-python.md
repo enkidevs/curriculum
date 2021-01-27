@@ -6,6 +6,14 @@ links:
   - >-
     [Functional Programming in
     Python](http://www.oreilly.com/programming/free/files/functional-programming-python.pdf){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Functional Particularities of Python

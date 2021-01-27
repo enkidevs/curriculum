@@ -6,6 +6,14 @@ links:
   - >-
     [Python
     slice()](https://www.programiz.com/python-programming/methods/built-in/slice){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # The `slice` Built-in Function

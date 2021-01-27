@@ -1,18 +1,24 @@
 ---
 author: emmab
-
 type: normal
-
 category: feature
-
 links:
   - '[Time Format](https://www.regextester.com/104042){website}'
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Time
 
+
 ---
+
 ## Content
 
 Now that we've built a regex pattern to validate dates, let's think about how we can validate time! ⏱
@@ -49,7 +55,9 @@ Putting this all together, and adding ":" in between the hh and mm parts, we hav
 
 Check out the Learn More link for a slightly stricter example.
 
+
 ---
+
 ## Practice
 
 What can be removed in the **ss** part of our regex pattern to make it mandatory?
@@ -63,7 +71,9 @@ What can be removed in the **ss** part of our regex pattern to make it mandatory
 - :
 - \d
 
+
 ---
+
 ## Revision
 
 Which of the following times would match on the following regex pattern:

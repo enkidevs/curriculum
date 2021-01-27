@@ -1,20 +1,26 @@
 ---
 author: mihaiberq
-
 type: normal
-
 category: must-know
-
 links:
   - >-
     [Memory management in
     Python](https://realpython.com/python-memory-management/){website}
   - >-
-    [Python memory management](https://www.geeksforgeeks.org/memory-management-in-python/){website}
-
+    [Python memory
+    management](https://www.geeksforgeeks.org/memory-management-in-python/){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Pointers & References
+
 
 ---
 
@@ -55,6 +61,7 @@ print(b)
 print(mem_loc(b))
 # 0x55a7b5df70c0
 ```
+
 
 ---
 

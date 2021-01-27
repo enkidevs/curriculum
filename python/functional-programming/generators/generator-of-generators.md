@@ -6,6 +6,14 @@ links:
   - >-
     [more on
     generators](http://www.python-course.eu/python3_generators.php){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Generator of generators
@@ -100,4 +108,3 @@ print(list(n_power(
 - `[2, 4, 8, 16]`
 - `[1, 2, 4, 8]`
 - `[2, 4, 8, 16, 32]`
- 

@@ -1,15 +1,22 @@
 ---
 author: emmab
-
 type: normal
-
 category: feature
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Credit Cards II
 
+
 ---
+
 ## Content
 
 What if we only want to accept certain types of credit cards... 🤔
@@ -38,7 +45,9 @@ Discover credit card pattern:
 
 Now you're fully equipped to validate whichever credit card providers you want 👍.
 
+
 ---
+
 ## Practice
 
 We want to accept both Visa and Mastercard. Which regex would allow us to successfully do so?
@@ -50,12 +59,15 @@ We want to accept both Visa and Mastercard. Which regex would allow us to succes
 - `/^(45)\d{15}$/`
 - `/^{45}\d{15}$/`
 
+
 ---
+
 ## Revision
 
 We want to accept Visa, Mastercard and American Express. Which regex would allow us to successfully do so?
 
 Remember:
+
 - Visa credit card patterns must start with a 4, followed by 15 other digits.
 - Mastercard credit card patterns must start with a 5, followed by 15 other digits.
 - American Express credit card patterns must start with a 3, followed by 14 other digits.

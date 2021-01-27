@@ -2,6 +2,10 @@
 author: kapnobatai136
 category: feature
 type: normal
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Paddings
@@ -32,4 +36,3 @@ Padding is used to move components ??? from the border.
 
 - away
 - closer to
- 

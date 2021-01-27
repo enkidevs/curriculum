@@ -6,6 +6,14 @@ links:
   - >-
     [Python
     reversed()](https://www.programiz.com/python-programming/methods/built-in/reversed){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # The `reversed` Built-in Function

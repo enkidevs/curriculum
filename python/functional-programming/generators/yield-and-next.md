@@ -6,6 +6,14 @@ links:
   - >-
     [More about yield and
     next](https://jeffknupp.com/blog/2013/04/07/improve-your-python-yield-and-generators-explained/){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # yield() and next()
@@ -110,4 +118,3 @@ Suppose we want to print the doubled value for the first 2 numbers in the list. 
 - `next()`
 - `yield()`
 - `T`
- 

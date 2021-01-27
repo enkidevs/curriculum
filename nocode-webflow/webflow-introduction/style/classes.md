@@ -2,6 +2,10 @@
 author: Stefan-Stojanovic
 type: normal
 category: how-to
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Classes
@@ -64,4 +68,3 @@ Which statement about classes is not true?
 For instance, imagine your web page has over 300 paragraphs. Between the 300 paragraphs, you want to have 3 different stylings per 100 paragraphs. Imagine having to edit every single paragraph to get the desired effect. That would be very time consuming and that's where classes come in.
 
 You can create a class and edit that class, then just apply it to any paragraph you want and that paragraph will have the styling of that class. This way, if you have 100 paragraphs, you only need to edit one of them and apply the class to the rest and save hours of tedious work.
- 

@@ -1,18 +1,23 @@
 ---
 author: tommarshall
-
 type: normal
-
 category: must-know
-
 links:
   - >-
     [Control flow in
     Python](https://docs.python.org/3/tutorial/controlflow.html){website}
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # `for` loops
+
 
 ---
 
@@ -59,6 +64,7 @@ Gives this output:
 2
 3
 ```
+
 
 ---
 

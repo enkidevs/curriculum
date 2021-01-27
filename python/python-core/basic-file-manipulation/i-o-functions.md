@@ -1,18 +1,23 @@
 ---
 author: SebaRaba
-
 type: normal
-
 category: must-know
-
 links:
   - >-
     [More Information About
     I/O](https://www.tutorialspoint.com/python/python_files_io.htm){website}
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # I/O Functions
+
 
 ---
 
@@ -77,6 +82,7 @@ The `stdout` will look like this:
 How old are you? 21
 21 <class 'int'>
 ```
+
 
 ---
 

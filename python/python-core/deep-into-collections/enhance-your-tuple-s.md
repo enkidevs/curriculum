@@ -45,6 +45,14 @@ notes: >
   Can also mention in brief that Named tuple instances do not have per-instance
   dictionaries, so they are lightweight and require no more memory than regular
   tuples.
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Enhance your `tuple` s

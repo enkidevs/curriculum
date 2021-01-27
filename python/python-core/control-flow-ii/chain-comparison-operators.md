@@ -9,6 +9,14 @@ tags:
 links:
   - >-
     [stackoverflow.com](http://stackoverflow.com/questions/101268/hidden-features-of-python){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Chain comparison operators

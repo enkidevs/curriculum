@@ -9,6 +9,14 @@ links:
   - >-
     [Stackoverflow Email Address
     Checker](https://stackoverflow.com/questions/201323/how-to-validate-an-email-address-using-a-regular-expression/201378#201378){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Email Address Checker II
@@ -77,4 +85,3 @@ Which part of the following regex pattern matches each part of the email address
 - `@`
 - `[a-z]+`
 - `(?:\.[a-z]+)*`
- 

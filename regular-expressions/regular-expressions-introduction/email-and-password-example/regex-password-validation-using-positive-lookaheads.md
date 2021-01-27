@@ -8,6 +8,14 @@ links:
   - >-
     [Special
     Operators](https://www.regular-expressions.info/refadv.html){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Passwords using Positive Lookaheads
@@ -77,4 +85,3 @@ What's the correct syntax for a positive lookahead to check that a password must
 - `/(?=.*\W)/`
 - `/(?=.*[A-Z]{1})/`
 - `/(?=.*\S)/`
- 

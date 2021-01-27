@@ -9,6 +9,14 @@ links:
   - >-
     [Functional Programming
     HOWTO](https://docs.python.org/2/howto/functional.html){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Why Functional Programming?
@@ -59,4 +67,3 @@ Which of the following statements about pure functions is true?
 - They are easier to code than normal functions
 - They can use system calls
 - They are faster
- 

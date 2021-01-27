@@ -1,13 +1,17 @@
 ---
 author: catalin
-
 type: normal
-
 category: how-to
-
 links:
   - '[queue](https://docs.python.org/3/library/queue.html){documentation}'
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Prioritize your `queue`

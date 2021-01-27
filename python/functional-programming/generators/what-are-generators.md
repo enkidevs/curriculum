@@ -12,6 +12,10 @@ notes: >-
   the more common way to use a generator is either to handle the exception via
   try/except, or to call it in a for loop, in which case the for statement
   handles the StopIteration and uses it to terminate the loop.
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # What are generators

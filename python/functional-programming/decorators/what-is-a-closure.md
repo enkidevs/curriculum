@@ -7,6 +7,14 @@ links:
     [More about higher-order
     functions](http://www.composingprograms.com/pages/16-higher-order-functions.html){website}
 notes: 'prerequisites: scoping'
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # What Are Higher-Order Functions?

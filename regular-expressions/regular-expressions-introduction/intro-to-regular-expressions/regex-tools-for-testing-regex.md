@@ -8,6 +8,14 @@ links:
   - '[Regex101](https://regex101.com/){website}'
   - '[Regexr](https://regexr.com/){website}'
   - '[Debuggex](https://www.debuggex.com/){website}'
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # How to test your Regular Expressions
@@ -56,4 +64,3 @@ Once you've learned some syntax, it's recommended to test out your patterns by u
 - your colleagues
 - Google
 - your text editor
- 

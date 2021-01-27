@@ -9,6 +9,10 @@ links:
   - >-
     [A Demo of APL from
     1975](https://www.youtube.com/watch?v=_DTpQ4Kk2wA){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # The `itertools` Module
@@ -50,4 +54,3 @@ The `repeat()` method creates a list of length `n`, where each element is the ??
 Haskell is a widely-used, purely functional, lazy programming language. Because of its purely functional nature, mutations of variables or data structures and I/O are essentially not permitted at all. Therefore it is common to use iteration tools to carry out operations on data where the original object is not modified but a new copy is made with the desired changes already applied to it. Similar mechanics can be found in SML and the other ML family languages such as OCaml (they are not pure, but are still functional) and even in very old languages such as APL. It is from this paradigm that the `itertools` methods get their inspiration.
 
 For an interesting demo of APL featuring a vintage typewriter REPL (Read-Eval-Print Loop) from 1975, see the link in the 'Learn More' section.
- 

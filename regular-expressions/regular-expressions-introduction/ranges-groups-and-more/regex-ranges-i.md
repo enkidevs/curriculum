@@ -4,6 +4,14 @@ tags:
   - introduction
 type: normal
 category: must-know
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Ranges I
@@ -76,4 +84,3 @@ How would you specify a range of letters from 'a' to 'c', and a range of numbers
 - `/[ac-13]/`
 - `/[a-c-1-3]/`
 - `/[ac13]/`
- 

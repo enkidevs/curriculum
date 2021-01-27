@@ -1,18 +1,23 @@
 ---
 author: catalin
-
 type: normal
-
 category: feature
-
 links:
   - >-
     [docs.python.org](https://docs.python.org/3.5/library/stdtypes.html#additional-methods-on-integer-types){website}
   - '[en.wikipedia.org](https://en.wikipedia.org/wiki/Endianness){website}'
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Converting `int` s to binary data
+
 
 ---
 
@@ -81,6 +86,7 @@ Similarly, the `.from_bytes()` method works in reverse:
 516
 ```
 
+
 ---
 
 ## Practice
@@ -104,6 +110,7 @@ Fill the following snippet such that it will first convert `1024` to bytes and t
 - `false`
 - `length`
 - `bytes`
+
 
 ---
 
@@ -131,6 +138,7 @@ b'\x10'
 - `to_byte`
 - `to_byte_array`
 - `orderbyte`
+
 
 ---
 

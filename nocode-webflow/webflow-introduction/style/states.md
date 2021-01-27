@@ -2,6 +2,10 @@
 author: Stefan-Stojanovic
 type: normal
 category: how-to
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # States
@@ -55,4 +59,3 @@ What are the 4 standard states of all elements?
 - Pressed, None, Checked and Hover
 - None, Hover, Checked and Default
 - Hover, Checked, isClicked and None
- 

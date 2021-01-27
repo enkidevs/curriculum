@@ -8,6 +8,14 @@ links:
 notes: >-
   Added the point that the list-to-set comprehension will work even if the list
   contains duplicates.
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Set comprehension

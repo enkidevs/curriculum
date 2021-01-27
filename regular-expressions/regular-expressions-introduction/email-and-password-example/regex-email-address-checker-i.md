@@ -4,6 +4,14 @@ tags:
   - introduction
 type: normal
 category: must-know
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Email Address Checker I
@@ -84,4 +92,3 @@ Using the regex below, we could match the email address `we_love_code@enki.com`.
 
 [1:if statements]
 Conditional statements (or `if` statements) are features of a programming language that perform different actions depending on whether a condition evaluates to true or false.
- 

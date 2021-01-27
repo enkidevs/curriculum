@@ -2,13 +2,20 @@
 author: catalin
 type: normal
 category: feature
-inAlgoPool: false
 links:
   - >-
     [www.tutorialspoint.com](http://www.tutorialspoint.com/python/python_date_time.htm){website}
 notes: >
   Corrected earlier issue with not saving, and updated the insight with my
   changes.
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Playing with `time`

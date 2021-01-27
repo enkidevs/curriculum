@@ -6,6 +6,14 @@ type: normal
 category: must-know
 links:
   - '[Regex Anchors](https://www.rexegg.com/regex-anchors.html){website}'
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Anchors
@@ -94,4 +102,3 @@ Partial matches are when the regex pattern matches some, but not all of the text
 We could use the regex pattern `/.+/` to match the entire text.
 
 `let's match this text` ✅
- 

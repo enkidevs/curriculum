@@ -4,6 +4,14 @@ tags:
   - introduction
 type: normal
 category: must-know
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Quantifiers I
@@ -70,4 +78,3 @@ abccc
 - `/abc{1,3}/`
 - `/abc{1,4}/`
 - `/abc{2,4}/`
- 

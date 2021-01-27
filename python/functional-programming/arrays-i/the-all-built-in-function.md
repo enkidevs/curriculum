@@ -6,6 +6,14 @@ links:
   - >-
     [Python 3 Documentation -
     all](https://docs.python.org/3.3/library/functions.html#all){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # The `all` Built-in Function

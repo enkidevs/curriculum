@@ -6,6 +6,14 @@ links:
   - >-
     [More about creating
     dictionaries](https://developmentality.wordpress.com/2012/03/30/three-ways-of-creating-dictionaries-in-python/){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Convert lists to dictionaries
@@ -124,4 +132,3 @@ print(C)
 - `pop`
 - `clear`
 - `list`
- 

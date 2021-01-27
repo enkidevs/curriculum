@@ -6,6 +6,14 @@ links:
   - >-
     [Python Docs -
     sum](https://docs.python.org/3.3/library/functions.html#sum){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # The `sum` Built-in Function

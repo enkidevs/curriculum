@@ -16,6 +16,14 @@ notes: >
   into a set, will stay constant, that is, no elements will be added later. E.g.
   a set of lowercase English vowels will only ever contain 'a', 'e', 'i', 'o'
   and 'u'.
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Immutable sets with `frozenset`

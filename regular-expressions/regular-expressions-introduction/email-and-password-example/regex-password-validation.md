@@ -4,6 +4,14 @@ tags:
   - introduction
 type: normal
 category: must-know
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Password Validation
@@ -71,4 +79,3 @@ Which regex pattern would ensure that a password is between 8 and 14 characters 
 - `/.{8,}/`
 - `/.{8-14}/`
 - `/.[8-14]/`
- 

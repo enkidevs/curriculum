@@ -2,6 +2,10 @@
 author: Stefan-Stojanovic
 type: normal
 category: how-to
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Quick Start
@@ -26,4 +30,3 @@ Templates are ???.
 
 - a great way to quickly start a new project on Webflow
 - not recommended for new users because they take a lot of time to load
- 

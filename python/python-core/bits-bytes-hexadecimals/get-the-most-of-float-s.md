@@ -6,6 +6,14 @@ links:
   - >-
     [docs.python.org](https://docs.python.org/3.5/library/stdtypes.html#additional-methods-on-float){website}
 notes: abc
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Get the most of `float` s

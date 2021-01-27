@@ -6,6 +6,14 @@ links:
   - '[docs.python.org](https://docs.python.org/3.5/library/heapq.html){website}'
   - '[Replace element using heapq exampel](https://goo.gl/Djrs8h){website}'
   - '[Using heapq example](https://goo.gl/QTLPK6){website}'
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Heap/Priority Queue in Python

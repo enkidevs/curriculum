@@ -1,15 +1,15 @@
 ---
 author: stefkn
-
 type: normal
-
 category: must-know
-
 links:
   - >-
     [How to Override Comparison
     Operators](http://jcalderone.livejournal.com/32837.html){website}
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Avoiding Identity Mutation
@@ -30,6 +30,7 @@ Usually a mutation of state will change the internal state of the object to be d
 However, there are some scenarios where this is not ideal, such as in Key-Value pairs. If some field is mutated within the key object and we try to check if the dictionary contains the same key again, it will return `False`. The identity of the object has been permanently mutated, and the object associated with the object before mutation is no longer accessible, even if it is still technically the same object.
 
 In Python's standard library, mutable data types are prohibited from being used as a key for this very reason. Immutable objects are great for use as keys for any kind of data structure relying on associations between keys and values (such as in a dictionary[2]) as there is no possibility of a corrupted key making a certain value unretrievable.
+
 
 ---
 
@@ -65,4 +66,3 @@ Any data structure with associative mappings between keys and values (Key-Value 
 In Python, the standard associative data structure would be the `Dictionary` data type, which is similar to a Java or C++ `Hashtable`.
 
 See the link in the **Learn More** section for more information.
- 

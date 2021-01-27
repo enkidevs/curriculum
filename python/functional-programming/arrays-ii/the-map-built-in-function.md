@@ -12,6 +12,14 @@ links:
   - >-
     [Lambda, filter, reduce and
     map](http://www.python-course.eu/lambda.php){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # The `map` Built-in Function

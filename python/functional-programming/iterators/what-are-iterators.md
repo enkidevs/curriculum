@@ -6,6 +6,14 @@ links:
   - >-
     [Iterators vs.
     Generators](http://nvie.com/posts/iterators-vs-generators/){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # What Are Iterators?

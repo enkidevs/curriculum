@@ -2,6 +2,10 @@
 author: Stefan-Stojanovic
 type: normal
 category: how-to
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Webflow Setup
@@ -43,4 +47,3 @@ Webflow ???
 - provides both a free and a subscription-based version of the software.
 - is completely free to use.
 - is a premium-only software.
- 

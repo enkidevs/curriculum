@@ -10,6 +10,14 @@ links:
     [Queue
     Module](https://docs.python.org/3/library/queue.html#module-queue){documentation}
   - '[Playground](https://repl.it/@enkicontent/PythonListsAsQueues){website}'
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Using Lists as Queues

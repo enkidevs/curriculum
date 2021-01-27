@@ -4,6 +4,14 @@ tags:
   - introduction
 type: normal
 category: must-know
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Wildcards II
@@ -92,4 +100,3 @@ Which regex pattern would match any non-whitespace characters in the following t
 - `/\d/`
 - `/\D/`
 - `/\s/`
- 

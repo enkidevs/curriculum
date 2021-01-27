@@ -11,6 +11,14 @@ links:
   - >-
     [Sequence
     types](https://docs.python.org/3/library/stdtypes.html#sequence-types-list-tuple-range){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # The `in` operator

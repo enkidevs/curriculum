@@ -5,6 +5,14 @@ category: feature
 links:
   - >-
     [docs.python.org](https://docs.python.org/3.5/tutorial/classes.html#exceptions-are-classes-too){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Custom exceptions as classes

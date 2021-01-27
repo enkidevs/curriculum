@@ -12,6 +12,14 @@ links:
   - >-
     [__cmp__ in Python 2 and
     3](https://stackoverflow.com/questions/8276983/python-2-and-python-3-cmp){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # The `sorted` Built-in Function (Part 1)

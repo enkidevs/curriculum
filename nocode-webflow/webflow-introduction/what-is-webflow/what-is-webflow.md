@@ -2,6 +2,10 @@
 author: Stefan-Stojanovic
 type: normal
 category: must-know
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # What's Webflow?
@@ -34,4 +38,3 @@ Webflow is ???.
 - a new version of the World Wide Web
 - a hub for websites
 - a coding platform
- 

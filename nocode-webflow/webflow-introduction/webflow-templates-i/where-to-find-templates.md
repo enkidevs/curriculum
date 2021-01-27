@@ -2,6 +2,10 @@
 author: Stefan-Stojanovic
 type: normal
 category: how-to
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # How To Find Templates
@@ -33,4 +37,3 @@ Webflow provides ??? templates.
 - both premium and free
 - only premium
 - only free
- 

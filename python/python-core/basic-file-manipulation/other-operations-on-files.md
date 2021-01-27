@@ -6,6 +6,14 @@ links:
   - >-
     [More operations
     here](https://www.tutorialspoint.com/python/python_files_io.htm){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Other operations on files

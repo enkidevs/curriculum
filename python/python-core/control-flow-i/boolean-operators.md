@@ -1,16 +1,21 @@
 ---
 author: emmab
-
 tags:
   - introduction
-
 type: normal
-
 category: must-know
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Boolean Operators
+
 
 ---
 
@@ -42,7 +47,7 @@ if str == 'foobar' or num > 2:
 When using the `or` operator, *at least one of the conditions* must evaluate to `True`.
 
 | Multiple conditions     | Result |
-| ------------------------| -------|
+| ----------------------- | ------ |
 | True and True           | True   |
 | True and False          | False  |
 | True and True and False | False  |
@@ -72,6 +77,7 @@ else:
 - `and`
 - `both`
 - `plus`
+
 
 ---
 

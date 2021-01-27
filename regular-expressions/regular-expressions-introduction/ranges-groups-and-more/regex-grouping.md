@@ -4,6 +4,14 @@ tags:
   - introduction
 type: normal
 category: must-know
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Grouping
@@ -90,4 +98,3 @@ Which of the following would be a valid match for this regex pattern:
 - `choice:heads`
 - `choice:head`
 - `choice: heads or tails`
- 

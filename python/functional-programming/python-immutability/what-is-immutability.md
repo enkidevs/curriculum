@@ -6,6 +6,14 @@ links:
   - >-
     [Immutability -
     Wikipedia](https://en.wikipedia.org/wiki/Immutable_object){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # What Is Immutability?

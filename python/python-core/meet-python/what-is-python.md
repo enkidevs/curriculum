@@ -6,6 +6,14 @@ type: normal
 category: must-know
 links:
   - '[What is Python?](https://www.python.org/doc/essays/blurb/){website}'
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Python Intro

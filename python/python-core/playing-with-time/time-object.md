@@ -7,6 +7,14 @@ links:
     [Time
     Objects](https://docs.python.org/3.5/library/datetime.html#time-objects){website}
   - '[Date & Time Value Manipulation](https://pymotw.com/3/datetime/){website}'
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # `date` and `time` in `datetime`

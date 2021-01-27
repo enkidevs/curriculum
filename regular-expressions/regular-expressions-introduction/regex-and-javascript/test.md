@@ -1,21 +1,27 @@
 ---
 author: emmab
-
 tags:
   - introduction
-
 type: normal
-
 category: must-know
-
-links: 
-  - '[.test()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/test){website}'
-
+links:
+  - >-
+    [.test()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/test){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Test()
 
+
 ---
+
 ## Content
 
 The `test()` method is a special RegExp expression method.
@@ -43,7 +49,9 @@ regex.test(
 // true
 ```
 
+
 ---
+
 ## Practice
 
 The `test()` method takes a regular expression as an argument.
@@ -55,6 +63,7 @@ The `test()` method takes a regular expression as an argument.
 
 
 ---
+
 ## Revision
 
 The `test()` method takes a string as an argument.

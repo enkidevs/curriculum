@@ -6,6 +6,14 @@ links:
   - >-
     [More about
     sets](http://www.python-course.eu/python3_sets_frozensets.php){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Review of Sets
@@ -124,4 +132,3 @@ Which operation is performed using `^` operator?
 - `symmetric difference`
 - `difference`
 - `union`
- 

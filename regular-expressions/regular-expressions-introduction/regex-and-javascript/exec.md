@@ -1,21 +1,27 @@
 ---
 author: emmab
-
 tags:
   - introduction
-
 type: normal
-
 category: must-know
-
 links:
-  - '[.exec()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/exec){website}'
-
+  - >-
+    [.exec()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/exec){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Exec()
 
+
 ---
+
 ## Content
 
 The `exec()` method is another special RegExp expression method.
@@ -49,7 +55,9 @@ As you can see, we can perform operations on our object to return the index posi
 - letter.index - returns the (zero-indexed) index of the match in the string
 - letter.input - returns the string that was used in the search criteria
 
+
 ---
+
 ## Practice
 
 Complete the following:
@@ -66,7 +74,9 @@ console.log(match[0])
 - I want a hot dog.
 - true
 
+
 ---
+
 ## Revision
 
 Complete the following:

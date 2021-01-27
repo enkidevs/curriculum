@@ -6,6 +6,14 @@ links:
   - '[pymotw.com](https://pymotw.com/2/random/){website}'
   - '[docs.python.org](https://docs.python.org/3.5/library/random.html){website}'
 notes: Math modules workout
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Generating `random` numbers

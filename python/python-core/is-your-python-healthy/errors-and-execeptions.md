@@ -6,6 +6,14 @@ links:
   - >-
     [More about errors and
     exceptions](http://www.python-course.eu/python3_exception_handling.php){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Errors and Exceptions

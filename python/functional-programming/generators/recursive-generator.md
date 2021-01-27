@@ -6,6 +6,14 @@ links:
   - >-
     [more about recursive
     generators](https://stackoverflow.com/questions/35015181/python-recursive-generator){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Recursive generator
@@ -99,4 +107,3 @@ print(next(c)) # 29
 - `yield()`
 - `yield from`
 - `.next`
- 
