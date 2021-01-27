@@ -10,6 +10,14 @@ links:
   - >-
     [www.thegeekstuff.com](http://www.thegeekstuff.com/2009/03/15-practical-unix-grep-command-examples/){website}
 notes: ''
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Cleaning up comments on config files with `grep`

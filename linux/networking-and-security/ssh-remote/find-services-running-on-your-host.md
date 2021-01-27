@@ -11,6 +11,10 @@ tags:
   - listening
   - ports
 notes: ''
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Find services running on your host

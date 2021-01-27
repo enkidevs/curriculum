@@ -9,6 +9,14 @@ links:
   - '[nodejs.org](https://nodejs.org/api/errors.html){website}'
   - >-
     [blog.risingstack.com](https://blog.risingstack.com/node-js-best-practices/){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # `try-catch` only for **sync** code

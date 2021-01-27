@@ -10,6 +10,14 @@ links:
   - >-
     [blog.risingstack.com](https://blog.risingstack.com/fundamental-node-js-design-patterns/){website}
   - '[through](https://www.npmjs.com/package/through){documentation}'
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Middleware/pipeline design pattern

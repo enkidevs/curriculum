@@ -8,6 +8,10 @@ tags:
   - ssh
   - bruteforce
   - debian
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Track SSH log-in attempts

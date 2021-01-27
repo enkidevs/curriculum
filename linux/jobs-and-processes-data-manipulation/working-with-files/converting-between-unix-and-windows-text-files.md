@@ -13,6 +13,14 @@ tags:
   - unix2dos
   - null
 notes: a bit niche
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Converting between Unix and Windows text files

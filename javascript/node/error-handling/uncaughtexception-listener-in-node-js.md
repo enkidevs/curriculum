@@ -8,6 +8,14 @@ tags:
 links:
   - >-
     [nodejs.org](https://nodejs.org/api/process.html#process_event_uncaughtexception){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # uncaughtException listener in Node.js

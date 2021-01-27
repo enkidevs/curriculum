@@ -11,6 +11,14 @@ tags:
   - persistent
   - firewall
 notes: ''
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # `Firewall` as a service

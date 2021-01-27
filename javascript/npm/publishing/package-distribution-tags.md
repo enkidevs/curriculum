@@ -6,6 +6,14 @@ links:
   - '[docs.npmjs.com](https://docs.npmjs.com/cli/dist-tag){website}'
 tags:
   - workout
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Package distribution tags

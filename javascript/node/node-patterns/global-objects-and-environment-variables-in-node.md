@@ -9,6 +9,14 @@ links:
   - '[nodejs.org](https://nodejs.org/docs/latest/api/globals.html){website}'
   - >-
     [nodejs.org](https://nodejs.org/api/process.html#process_process_env){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Global Objects and Environment Variables in **Node**

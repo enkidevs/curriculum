@@ -6,6 +6,10 @@ links:
   - >-
     [Site
     Point](https://www.sitepoint.com/demystifying-javascript-variable-scope-hoisting/){website}
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Scope - Hoisting

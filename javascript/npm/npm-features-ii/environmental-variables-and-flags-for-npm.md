@@ -8,6 +8,14 @@ tags:
 links:
   - >-
     [strongloop.com](https://strongloop.com/strongblog/3-neat-tricks-with-npm-run/){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Flags for `npm`

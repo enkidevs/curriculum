@@ -1,23 +1,29 @@
 ---
 author: tuwidc
-
 type: normal
-
 category: must-know
-
 tags:
   - linux
   - du
   - command
   - terminal
   - size
-
 links:
-  - '[`du` Manpage](https://www.commandlinux.com/man-page/man1/du.1.html){documentation}'
-
+  - >-
+    [`du`
+    Manpage](https://www.commandlinux.com/man-page/man1/du.1.html){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Practical `du` Command
+
 
 ---
 
@@ -68,6 +74,7 @@ To find the largest three files in a directory `dir`:
 du -h dir | sort -rh | head -3
 ```
 
+
 ---
 
 ## Practice
@@ -96,6 +103,7 @@ The `du` command stands for ???.
 - disk utility
 - document usage
 - memory usage
+
 
 ---
 

@@ -9,6 +9,10 @@ tags:
   - dig
   - short
   - terminal
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Security news delivered via DNS

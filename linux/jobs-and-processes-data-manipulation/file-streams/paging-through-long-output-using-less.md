@@ -2,12 +2,15 @@
 author: jfarmer
 type: normal
 category: must-know
-inAlgoPool: false
 links:
   - >-
     [Pagers
     comparison](http://unix.stackexchange.com/questions/81129/what-are-the-differences-between-most-more-and-less){website}
   - '[man less](http://man7.org/linux/man-pages/man1/less.1.html){documentation}'
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Paging Through Long Output Using `less`

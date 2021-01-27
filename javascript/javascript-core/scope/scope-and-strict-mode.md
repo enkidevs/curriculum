@@ -10,6 +10,14 @@ tags:
   - obscura
 links:
   - '[john-dugan.com](https://john-dugan.com/hoisting-in-javascript/){website}'
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Scope and Strict Mode

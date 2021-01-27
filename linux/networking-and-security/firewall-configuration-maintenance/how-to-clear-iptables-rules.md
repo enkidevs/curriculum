@@ -11,6 +11,10 @@ tags:
   - chain
   - allow
 notes: ''
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # How to clear `iptables` rules

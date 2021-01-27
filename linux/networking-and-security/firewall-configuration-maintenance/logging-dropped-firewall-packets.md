@@ -7,6 +7,10 @@ tags:
   - firewall
   - logging
 notes: ''
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Logging dropped firewall packets

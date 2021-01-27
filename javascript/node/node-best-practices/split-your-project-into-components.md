@@ -10,6 +10,14 @@ links:
   - >-
     [Modularize your
     solutions](https://github.com/i0natan/nodebestpractices/blob/master/sections/projectstructre/breakintcomponents.md){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Split Your Project into Components

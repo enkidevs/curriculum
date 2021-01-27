@@ -7,6 +7,14 @@ tags:
   - deep
 links:
   - '[docs.npmjs.com](https://docs.npmjs.com/cli/adduser){website}'
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Registry user accounts for npm

@@ -7,6 +7,14 @@ tags:
   - introduction
 links:
   - '[docs.npmjs.com](https://docs.npmjs.com/cli/link){website}'
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Manage local node modules with `npm link`

@@ -4,6 +4,14 @@ type: normal
 category: how-to
 links:
   - '[www.computerhope.com](http://www.computerhope.com/unix/usort.htm){website}'
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # `sort` lines in a text file

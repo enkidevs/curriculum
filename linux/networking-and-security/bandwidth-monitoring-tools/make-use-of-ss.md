@@ -6,6 +6,14 @@ links:
   - >-
     [Example of ss
     capabilities](http://www.binarytides.com/linux-ss-command/){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Make use of `ss`

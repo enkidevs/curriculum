@@ -2,11 +2,14 @@
 author: jfarmer
 type: normal
 category: must-know
-inAlgoPool: false
 links:
   - >-
     [Process
     basics](http://www.tldp.org/LDP/intro-linux/html/sect_04_01.html){website}
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Listing Processes Using `ps`

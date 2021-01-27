@@ -9,6 +9,10 @@ tags:
   - terminal
   - bash
 notes: ''
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Proxifying `ssh` connections

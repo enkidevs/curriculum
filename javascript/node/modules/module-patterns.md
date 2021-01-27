@@ -9,6 +9,14 @@ links:
   - >-
     [Node Module
     Patterns](https://darrenderidder.github.io/talks/ModulePatterns/#/5){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Module patterns
