@@ -1,15 +1,22 @@
 ---
 author: Stefan-Stojanovic
-
 type: normal
-
 category: how-to
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Relational Operators
 
+
 ---
+
 ## Content
 
 Relational operators are used to check if a condition is `true` or `false`.
@@ -17,7 +24,7 @@ Relational operators are used to check if a condition is `true` or `false`.
 There are a total of six relational operators in **Go**.
 
 | Operator | Definition                                                             |
-|----------|------------------------------------------------------------------------|
+| -------- | ---------------------------------------------------------------------- |
 | ==       | Returns true if the values are equal, false otherwise                  |
 | !=       | Returns true if the values are NOT equal, false otherwise              |
 | >        | Returns true if the value is greater, false otherwise                  |
@@ -26,6 +33,7 @@ There are a total of six relational operators in **Go**.
 | <=       | Returns true if the value is smaller than or equal to, false otherwise |
 
 Here is an example of all six relational operators.
+
 ```go
 func main() {
 var x = 10
@@ -51,7 +59,9 @@ var y = 10
 }
 ```
 
+
 ---
+
 ## Practice
 
 Relational operators can ???
@@ -59,7 +69,9 @@ Relational operators can ???
 - only evaluate to true or false.
 - evaluate to any number or boolean.
 
+
 ---
+
 ## Revision
 
 Match the operator to its name.

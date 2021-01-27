@@ -50,6 +50,9 @@ Types of change:
 
 ## January 27th 2021
 
+### Added
+- [Add support for new question types II]()
+
 ### Changed
 - [Update "best practice" to "best-practice" category](https://github.com/enkidevs/curriculum/pull/2564)
 - [Update "how to" to "how-to" category II](https://github.com/enkidevs/curriculum/pull/2562)

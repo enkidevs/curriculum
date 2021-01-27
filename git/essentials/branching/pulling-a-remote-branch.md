@@ -6,6 +6,14 @@ links:
   - >-
     [Remote Branches Official
     Documentation](http://git-scm.com/book/en/v2/Git-Branching-Remote-Branches){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Pulling a remote branch

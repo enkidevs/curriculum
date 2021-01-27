@@ -2,6 +2,14 @@
 author: SebaRaba
 type: normal
 category: must-know
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # The HTTP request
@@ -103,4 +111,3 @@ While the relative one (which requires the `Host` field) is:
 ```plain-text
 /contact
 ```
- 

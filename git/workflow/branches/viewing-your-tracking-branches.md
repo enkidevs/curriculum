@@ -6,6 +6,14 @@ links:
   - >-
     [Tracking
     Branches](http://git-scm.com/book/en/v2/Git-Branching-Remote-Branches){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Viewing your tracking branches

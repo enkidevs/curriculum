@@ -6,6 +6,14 @@ links:
   - >-
     [Bundling Official
     Documentation](http://git-scm.com/book/en/v2/Git-Tools-Bundling){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Sharing data by bundling

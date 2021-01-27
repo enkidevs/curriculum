@@ -5,6 +5,14 @@ category: must-know
 links:
   - >-
     [www.tutorialspoint.com](https://www.tutorialspoint.com/http/http_responses.htm){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # A Response Example
@@ -74,4 +82,3 @@ Which of the following **HTTP response** header fields specifies the format of t
 - `Content-Encoding`
 - `Content-Length`
 - `Content-Format`
- 

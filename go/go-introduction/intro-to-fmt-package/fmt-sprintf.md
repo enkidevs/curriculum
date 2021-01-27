@@ -1,15 +1,22 @@
 ---
 author: Stefan-Stojanovic
-
 type: normal
-
 category: how-to
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # The Sprintf Function
 
+
 ---
+
 ## Content
 
 The `fmt.Sprintf` function operates similarly to the `Printf` function except that after it formats the string it doesn't print it to the console.
@@ -51,14 +58,15 @@ My age in Base 10: 26.
 My age in Base 16: 1a.
 ```
 
-
 In the above example, we use the `Sprintf` function multiple times with four different integer verbs. 
 
 We save each of the functions in variables `s-s4`.
 
 Next, we print all of them in a regular `Print` statement.
 
+
 ---
+
 ## Practice
 
 The `fmt.Sprintf` function formats to a string ???.
@@ -66,7 +74,9 @@ The `fmt.Sprintf` function formats to a string ???.
 - but does not print to the console
 - and prints to the console
 
+
 ---
+
 ## Revision
 
 Fill in the code to format a string and save it into the `s` variable. Then print the variable.

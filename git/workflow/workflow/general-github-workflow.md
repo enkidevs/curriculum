@@ -6,6 +6,10 @@ links:
   - >-
     [Understanding The Github
     Flow](https://guides.github.com/introduction/flow/){website}
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # General **GitHub** workflow
@@ -50,4 +54,3 @@ Is the concept of **pull requests** only used in *GitHub*?
 ## Footnotes
 
 [1:pull request] This occurs automatically when you are **not** a listed 'contributor' on the repository
- 

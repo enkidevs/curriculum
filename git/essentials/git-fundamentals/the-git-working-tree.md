@@ -2,11 +2,18 @@
 author: catalin
 type: normal
 category: must-know
-inAlgoPool: false
 links:
   - >-
     [Git Basics Official
     Documentation](https://git-scm.com/book/en/v2/Getting-Started-Git-Basics){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # The Git working tree
@@ -57,4 +64,3 @@ How are changes added to a repository?
 - Automatically
 - By staging them
 - By putting them in the working tree
- 

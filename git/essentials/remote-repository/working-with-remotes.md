@@ -2,7 +2,6 @@
 author: catalin
 type: normal
 category: must-know
-inAlgoPool: false
 links:
   - >-
     [Remote Branches Official
@@ -10,6 +9,14 @@ links:
   - >-
     [Working With Remotes Official
     Documentation](https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Working with remotes

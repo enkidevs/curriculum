@@ -7,6 +7,14 @@ links:
     [www.w3.org](https://www.w3.org/Protocols/rfc2616/rfc2616-sec6.html#sec6.2){website}
   - >-
     [developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # The HTTP response
@@ -93,4 +101,3 @@ The first line in an HTTP response is usually called
 A resource makes a cross-origin HTTP request when it requests a resource from a different domain, or port than the one which the first resource itself serves. You might find this process abbreviated as CORS (cross-origin resource sharing).
 
 The **Access-Control-Allow-Origin** mechanism indicates which domains are allowed to be requested from.
- 

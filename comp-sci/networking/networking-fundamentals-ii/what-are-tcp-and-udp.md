@@ -6,6 +6,14 @@ links:
   - >-
     [www.bleepingcomputer.com](https://www.bleepingcomputer.com/tutorials/tcp-and-udp-ports-explained/){website}
   - '[www.diffen.com](http://www.diffen.com/difference/TCP_vs_UDP){website}'
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # What are TCP and UDP?
@@ -83,4 +91,3 @@ For example, `HTTPS` refers to the secure extension of `HTTP`.
 
 [2:overhead]
 Overhead, in Computer Science, means any form of excess or indirect computation, time, memory, bandwidth or other resources required to complete a specific task.
- 

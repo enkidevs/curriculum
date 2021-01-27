@@ -7,6 +7,10 @@ links:
     [www.tecmint.com](http://www.tecmint.com/linux-network-configuration-and-troubleshooting-commands/){website}
   - >-
     [slackbook.org](http://slackbook.org/html/basic-network-commands.html){website}
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Tools to interact with Networks

@@ -12,6 +12,14 @@ links:
   - >-
     [RFC 1035, Resolver Implementation is section
     7](https://www.ietf.org/rfc/rfc1035.txt){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # DNS Hierarchy
@@ -63,4 +71,3 @@ Internet users typically send their DNS requests directly to a *** which *** a m
 - authoritative DNS server
 - TLD server
 - is
- 

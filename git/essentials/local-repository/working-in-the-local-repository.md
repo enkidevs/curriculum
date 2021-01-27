@@ -2,7 +2,14 @@
 author: catalin
 type: normal
 category: must-know
-inAlgoPool: false
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Working in the local repository
@@ -51,4 +58,3 @@ Using the `git add` command you include modified files to the ???.
 - git repository
 - working tree
 - GitHub
- 

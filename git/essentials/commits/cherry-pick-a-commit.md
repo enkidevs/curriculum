@@ -6,6 +6,14 @@ links:
   - >-
     [Cherry Picking Small Git
     Lesson](https://swsblog.stanford.edu/blog/cherry-picking-small-git-lesson){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Cherry-pick a commit

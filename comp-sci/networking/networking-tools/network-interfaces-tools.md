@@ -6,6 +6,14 @@ links:
   - >-
     [www.computerhope.com](http://www.computerhope.com/unix/uifconfi.htm){website}
   - '[en.wikipedia.org](https://en.wikipedia.org/wiki/Network_interface){website}'
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Network Interfaces

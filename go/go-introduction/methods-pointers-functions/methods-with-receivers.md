@@ -1,18 +1,24 @@
-﻿---
+---
 author: Stefan-Stojanovic
-
 aspects:
   - workout
-
 type: normal
-
 category: how-to
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Methods With Receivers
 
+
 ---
+
 ## Content
 
 Methods can also be declared with pointer receivers.
@@ -73,7 +79,9 @@ func main() {
 }
 ```
 
+
 ---
+
 ## Practice
 
 Define a method called `Hello()` on the given `struct` with a pointer receiver called `t`.
@@ -87,12 +95,15 @@ func (???) ??? string {
   return fmt.Sprintf("Dear %s %s, welcome!", t.FirstName, t.LastName)
 }
 ```
+
 - t *Person
 - Hello()
 - hello()
 - t Person
 
+
 ---
+
 ## Revision
 
 Finish the code to define a method named `Welcome` with a pointer receiver `Colleague` that returns a `string`.
@@ -110,4 +121,3 @@ Finish the code to define a method named `Welcome` with a pointer receiver `Coll
 - method
 - Student
 - Welcome
-

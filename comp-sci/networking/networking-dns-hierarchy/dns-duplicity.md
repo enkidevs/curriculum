@@ -9,6 +9,14 @@ links:
   - >-
     [What is
     Anycast?](https://www.cloudflare.com/learning/cdn/glossary/anycast-network/){article}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # DNS Duplicity
@@ -51,4 +59,3 @@ DNS can act as a load balancer when a single *** maps to multiple *** .
 - domain names
 - IP address
 - domain name
- 

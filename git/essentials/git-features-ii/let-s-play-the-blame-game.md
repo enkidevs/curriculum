@@ -6,6 +6,14 @@ links:
   - >-
     [Debugging with
     Git](https://git-scm.com/book/en/v2/Git-Tools-Debugging-with-Git){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Let's play the blame game

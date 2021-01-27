@@ -6,6 +6,14 @@ links:
   - '[en.wikipedia.org](https://en.wikipedia.org/wiki/HTTP_pipelining){website}'
   - >-
     [brianbondy.com](https://brianbondy.com/blog/119/what-you-should-know-about-http-pipelining){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # HTTP pipelining
@@ -58,4 +66,3 @@ HTTP pipelining means exchanging multiple messages on the same
 
 [1:idempotent]
 In Computer Science, the term **idempotent** is used to describe an operation that will produce the same result if executed once or multiple times.
- 

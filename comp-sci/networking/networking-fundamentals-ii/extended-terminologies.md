@@ -6,6 +6,10 @@ links:
   - '[blog.ocens.com](http://blog.ocens.com/?p=140){website}'
   - >-
     [www.digitalocean.com](https://www.digitalocean.com/community/tutorials/an-introduction-to-networking-terminology-interfaces-and-protocols){website}
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Extended terminologies
@@ -70,4 +74,3 @@ Which of the following terms refer to the **physical**, **hard-coded** address o
 - `VPN`
 - `Gateway`
 - `Proxy`
- 

@@ -6,6 +6,14 @@ links:
   - >-
     [Docker: use bind
     mounts](https://docs.docker.com/storage/bind-mounts/){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Bind Mounts

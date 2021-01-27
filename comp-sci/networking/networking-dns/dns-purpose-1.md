@@ -10,6 +10,14 @@ links:
     [What Is
     DNS?](https://www.cloudflare.com/learning/dns/what-is-dns/){article}
   - '[RFC 1035 Defines DNS](https://www.ietf.org/rfc/rfc1035.txt){documentation}'
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # DNS Purpose
@@ -48,4 +56,3 @@ DNS is a system that maps *** to *** .
 - name servers
 - web severs
 - URLs
- 

@@ -1,15 +1,22 @@
 ---
 author: Stefan-Stojanovic
-
 type: normal
-
 category: how-to
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Hello World
 
+
 ---
+
 ## Content
 
 To create a program in **Go**, go to your editor of choice, and create a file named `hello.go`, with the following code:
@@ -48,6 +55,7 @@ go build hello.go
 This will create an executable file with the name `hello`.
 
 To check if the file is functioning correctly, run it by typing `./hello` in the terminal whilst in the same directory. The output should be:
+
 ```plain-text
 Hello World!
 ```
@@ -55,10 +63,12 @@ Hello World!
 > 💡 As with all the skills in the app, if you want to access more advanced or specific content at any time, **feel free to use the *Skill Map* tab** to jump to the workouts most relevant for you.
 
 > 💬 Why are you interested in learning Go?
-> 
+>
 > Leave a comment or view some of the other comments for inspiration before moving on.
 
+
 ---
+
 ## Practice
 
 Files that contain **Go** code have the ??? extension.
@@ -67,7 +77,9 @@ Files that contain **Go** code have the ??? extension.
 - .golang
 - .gocode
 
+
 ---
+
 ## Revision
 
 Fill in the gaps to create a Hello World program.

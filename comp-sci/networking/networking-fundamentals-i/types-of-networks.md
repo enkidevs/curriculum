@@ -7,6 +7,14 @@ links:
     [study.com](http://study.com/academy/lesson/types-of-networks-lan-wan-wlan-man-san-pan-epn-vpn.html){website}
   - >-
     [www.bbc.co.uk](http://www.bbc.co.uk/education/guides/z36nb9q/revision){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Types of networks
@@ -95,4 +103,3 @@ Chances are you have already connected to a network via an **Ethernet cable**.
 **Token ring** is a communications *protocol* for `LAN`s. It uses a special `3`-byte frame called a **token** that travels around a logical "ring" of workstations or servers.
 
 This token passing is a channel access method providing fair access for all stations, and eliminating the collisions present in other access methods.
- 

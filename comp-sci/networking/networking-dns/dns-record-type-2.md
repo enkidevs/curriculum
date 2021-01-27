@@ -7,6 +7,14 @@ links:
     [DNS Record Types
     Explained](https://pressable.com/blog/2014/12/23/dns-record-types-explained/){article}
   - '[RFC 1035 Defines DNS](https://www.ietf.org/rfc/rfc1035.txt){documentation}'
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # DNS Record Types
@@ -51,4 +59,3 @@ Which of the following DNS records provides information about the authoritative 
 - CNAME
 - A
 - AAAA
- 

@@ -6,6 +6,14 @@ links:
   - >-
     [Configure Container
     DNS](https://docs.docker.com/v17.09/engine/userguide/networking/default_network/configure-dns/){article}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Docker DNS

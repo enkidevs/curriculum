@@ -9,6 +9,14 @@ links:
   - >-
     [Registry, Registrar,
     Registrant](https://www.godaddy.com/help/what-is-the-difference-between-a-registry-registrar-and-registrant-8039){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # DNS Hierarchy
@@ -62,4 +70,3 @@ A registrar inserts an NS and an A record for a customer's *** into the proper *
 - insufficient
 - root server
 - sufficient
- 

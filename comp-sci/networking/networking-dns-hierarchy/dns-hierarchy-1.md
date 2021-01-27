@@ -12,6 +12,14 @@ links:
   - >-
     [List of top level
     domains](https://www.icann.org/resources/pages/tlds-2012-02-25-en){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # DNS Hierarchy
@@ -55,7 +63,7 @@ Which of the following statements is false?
 
 ## Revision
 
-Identify the the 3 members of the DNS hierarchy, and put them in order based on : _**_ track all of the ___** which track all of the **__**
+Identify the the 3 members of the DNS hierarchy, and put them in order based on : **** track all of the **_** which track all of the ******
 
 ???
 
@@ -65,4 +73,3 @@ Identify the the 3 members of the DNS hierarchy, and put them in order based on 
 - DNS resolvers
 - Web servers
 - Mail servers
- 

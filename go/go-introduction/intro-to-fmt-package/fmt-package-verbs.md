@@ -1,18 +1,24 @@
-﻿---
+---
 author: Stefan-Stojanovic
-
 type: normal
-
 category: how-to
-
 links:
- - '[The FMT Package](https://golang.org/pkg/fmt/){documentation}'
-
+  - '[The FMT Package](https://golang.org/pkg/fmt/){documentation}'
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Package Verbs
 
+
 ---
+
 ## Content
 
 Verbs are predefined sets of instructions used within different I/O functions to convert data types into different formats.
@@ -41,7 +47,9 @@ Here are definitions for some verbs that we will use:
 
 > 💡 In the following insights, we'll show you how verbs are used in `fmt` functions.
 
+
 ---
+
 ## Practice
 
 Match the verb with the description.
@@ -60,6 +68,7 @@ Match the verb with the description.
 
 
 ---
+
 ## Revision
 
 Which of these groups is **not** a part of the `fmt` package?
