@@ -2,9 +2,6 @@
 author: catalin
 type: normal
 category: how-to
-links:
-  - '[5597e786d07c503200b46e1e](5597e786d07c503200b46e1e){website}'
-notes: 'https://insights.enki.com/insight/5597e786d07c503200b46e1e'
 ---
 
 # String formatting and parsing with `SimpleDateFormat`
