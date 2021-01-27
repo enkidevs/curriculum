@@ -6,6 +6,10 @@ links:
   - >-
     [Sass CSS Importer
     Plugin](https://github.com/chriseppstein/sass-css-importer/blob/master/README.markdown){website}
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Importer

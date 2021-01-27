@@ -11,6 +11,14 @@ links:
   - >-
     [CSS list style type
     Property](https://www.w3schools.com/cssref/pr_list-style-type.asp){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Ordered Lists

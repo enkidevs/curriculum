@@ -1,15 +1,20 @@
 ---
 author: Stefan-Stojanovic
-
 type: normal
-
 category: must-know
-
 links: null
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # The `autocomplete` Attribute
+
 
 ---
 
@@ -53,6 +58,7 @@ Also, a credit card used on one website can autocomplete on a different website 
 
 The default value for autocomplete is `on`. 
 
+
 ---
 
 ## Practice
@@ -64,6 +70,7 @@ Which statement is true regarding autocomplete?
 - Can automatically complete fields based on the user's history
 - The data is stored on the webpage.
 - Items like credit card numbers should not be auto-completed.
+
 
 ---
 
@@ -79,6 +86,7 @@ Which input form attribute is used to store input field data and re-populate wit
 - sessionStorage
 - objects
 - storage
+
 
 ---
 

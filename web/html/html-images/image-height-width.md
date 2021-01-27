@@ -1,18 +1,23 @@
 ---
 author: Stefan-Stojanovic
-
 type: normal
-
 category: must-know
-
 links:
   - >-
     [HTML <img>
     Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img){documentation}
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Image Height & Width
+
 
 ---
 
@@ -49,6 +54,7 @@ img {
 
 [View CodePen](https://codepen.io/enkidevs/pen/GBRLYE)
 
+
 ---
 
 ## Practice
@@ -70,6 +76,7 @@ Fill in the appropriate attributes/values for creating an image in HTML with dim
 - size
 - tall
 - wide
+
 
 ---
 
@@ -93,6 +100,7 @@ Create an image in HTML that is `300px` tall and `150px` wide.
 - size
 - tall
 - wide
+
 
 ---
 

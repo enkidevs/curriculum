@@ -7,6 +7,14 @@ links:
   - >-
     [HTML Concept And
     Syntax](https://developer.mozilla.org/en-US/docs/Glossary/HTML){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # HyperText Markup Language

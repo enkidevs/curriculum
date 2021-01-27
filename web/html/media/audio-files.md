@@ -1,10 +1,7 @@
 ---
 author: Stefan-Stojanovic
-
 type: normal
-
 category: must-know
-
 links:
   - >-
     [MDN: <audio>
@@ -12,10 +9,18 @@ links:
   - >-
     [W3S: <audio>
     Element](https://www.w3schools.com/html/html5_audio.asp){documentation}
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Audio Files
+
 
 ---
 
@@ -28,6 +33,7 @@ However, that is no longer the case.
 ![all-audio-format-browsers](https://img.enkipro.com/f969fae6edd7f2063a66bf7cec803c63.png)
 
 All browsers, except Internet Explorer, support these formats:
+
 - WAV
 - MP3
 - M4A
@@ -62,6 +68,7 @@ Using the `<audio>` tag, multiple songs can be added via the `<source>` element 
 
 [View CodePen](https://codepen.io/enkidevs/pen/WKjeLW)
 
+
 ---
 
 ## Practice
@@ -73,6 +80,7 @@ Which of these formats are not supported by all browsers ?
 - .tunes & flash
 - .mp3/.m4a & .ogg
 - .mp4 & .wav
+
 
 ---
 
@@ -86,6 +94,7 @@ When you want to provide fallback content for users that do not have browsers th
 - CSS can be used to notify the user.
 - Any browser, regardless of the version, can play HTML5 audio.
 - Use the attribute "fallback" to provide the appropriate message.
+
 
 ---
 

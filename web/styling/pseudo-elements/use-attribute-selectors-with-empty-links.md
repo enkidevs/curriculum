@@ -7,6 +7,10 @@ links:
   - >-
     [MDN Docs on
     ::before](https://developer.mozilla.org/en-US/docs/Web/CSS/::before){documentation}
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Use attribute selectors with empty links

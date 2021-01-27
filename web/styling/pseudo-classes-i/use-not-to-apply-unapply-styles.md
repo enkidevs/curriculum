@@ -7,6 +7,14 @@ links:
   - >-
     [MDN Docs on
     :not](https://developer.mozilla.org/en-US/docs/Web/CSS/:not){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Use `:not()` to apply/unapply styles

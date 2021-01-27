@@ -1,13 +1,19 @@
 ---
 author: Stefan-Stojanovic
-
 type: normal
-
 category: must-know
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Images
+
 
 ---
 
@@ -107,6 +113,7 @@ If an image does not have an assigned height and width using HTML or CSS, how wi
 ## Quiz
 
 ### How much do you know about HTML
+
 
 Why is assigning height & width attributes to an image size more useful than setting the image size in CSS?
 

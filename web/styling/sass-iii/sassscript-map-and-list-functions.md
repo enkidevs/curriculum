@@ -6,6 +6,10 @@ links:
   - >-
     [Article on List
     Functions](http://sass-lang.com/documentation/Sass/Script/Functions.html#list-functions){article}
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # SassScript Map and List Functions

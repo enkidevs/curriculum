@@ -15,6 +15,14 @@ links:
   - >-
     [w3.org: <map>
     Element](https://dev.w3.org/html5/spec-preview/image-maps.html){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Image Map

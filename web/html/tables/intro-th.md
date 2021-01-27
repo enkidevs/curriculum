@@ -24,6 +24,14 @@ links:
   - >-
     [MDN: <th>
     Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/th){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # The `<th>` Element

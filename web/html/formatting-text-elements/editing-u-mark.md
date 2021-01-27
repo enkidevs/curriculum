@@ -12,6 +12,14 @@ links:
   - >-
     [HTML <mark>
     Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/mark){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Markup for Editing

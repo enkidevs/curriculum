@@ -13,6 +13,14 @@ links:
   - >-
     [MDN Docs on
     :hover](https://developer.mozilla.org/en-US/docs/Web/CSS/:hover){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Use pseudo-classes to describe a special state of an element

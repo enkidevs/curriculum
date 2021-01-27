@@ -2,11 +2,18 @@
 author: Mathieu
 type: normal
 category: must-know
-inAlgoPool: false
 links:
   - >-
     [MDN Docs on Inline
     Elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Inline_elemente){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Inline Elements Characteristics

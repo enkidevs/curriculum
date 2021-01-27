@@ -9,6 +9,14 @@ links:
   - >-
     [MDN Docs on
     :empty](https://developer.mozilla.org/en-US/docs/Web/CSS/:empty){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # `:empty` and `:blank`

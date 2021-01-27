@@ -2,6 +2,14 @@
 author: Stefan-Stojanovic
 type: normal
 category: must-know
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # HTML/CSS Introduction
@@ -104,4 +112,3 @@ What do HTML and CSS stand for?
 - Hyperlink Text Markup Language & Computer SheetStyles
 - Home Tool Markup Listing & Custom ScriptStyles
 - Hyper Text Mark Language & Cascading SheetStyles
- 

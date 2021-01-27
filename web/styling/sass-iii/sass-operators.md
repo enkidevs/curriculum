@@ -6,6 +6,14 @@ links:
   - >-
     [Article on Sass
     Operators](http://webstandardssherpa.com/reviews/getting-started-with-sass-part-2/){article}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Sass Operators
