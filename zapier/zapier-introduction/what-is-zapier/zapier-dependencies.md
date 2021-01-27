@@ -5,6 +5,10 @@ type: normal
 links:
   - '[Sign Up](https://zapier.com/sign-up/){website}'
   - '[Plans & Pricing](https://zapier.com/pricing){website}'
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Zapier Dependencies
@@ -39,4 +43,3 @@ What is needed to use Zapier?
 - A special JavaScript library.
 - Python v3.7.
 - Nothing
- 

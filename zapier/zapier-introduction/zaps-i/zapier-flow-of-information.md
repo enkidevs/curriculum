@@ -2,6 +2,14 @@
 author: kapnobatai136
 category: must-know
 type: normal
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Flow of Information
@@ -53,4 +61,3 @@ What should be the order of the following steps in a zap?
 
 - 2
 - 1
- 

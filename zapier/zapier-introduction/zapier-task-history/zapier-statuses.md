@@ -2,6 +2,10 @@
 author: kapnobatai136
 category: must-know
 type: normal
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Statuses
@@ -51,4 +55,3 @@ Filtered  ???
 - Zap is in the process of completing.
 - Zap is on hold.
 - Zap was stopped due to a constraint.
- 

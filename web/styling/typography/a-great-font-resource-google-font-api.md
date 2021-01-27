@@ -8,6 +8,10 @@ tags:
   - font-family
 links:
   - '[Google Fonts](https://www.google.com/fonts){website}'
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # A great font resource: Google Font API

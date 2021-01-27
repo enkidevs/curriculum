@@ -6,6 +6,14 @@ tags:
   - textarea
   - disable
   - resizable
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Disable resizable property of `textarea`

@@ -2,6 +2,14 @@
 author: kapnobatai136
 category: feature
 type: normal
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Step Names
@@ -47,4 +55,3 @@ Is it possible to add a timezone to your zap?
 
 - Yes.
 - No.
- 

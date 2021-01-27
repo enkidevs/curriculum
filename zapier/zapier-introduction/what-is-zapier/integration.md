@@ -2,6 +2,10 @@
 author: kapnobatai136
 category: must-know
 type: normal
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Integration
@@ -45,4 +49,3 @@ From the following list, select something that Zapier **can't do**:
 - Hook up multiple applications.
 - Read, write & update data.
 - Set filters for data.
- 

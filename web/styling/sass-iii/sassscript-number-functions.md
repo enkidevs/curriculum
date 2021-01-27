@@ -6,6 +6,14 @@ links:
   - >-
     [Article on
     Functions](http://sass-lang.com/documentation/Sass/Script/Functions.html){article}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # SassScript Number Functions
