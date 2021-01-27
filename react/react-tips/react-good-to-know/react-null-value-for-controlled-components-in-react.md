@@ -1,7 +1,7 @@
 ---
 author: catalin
 type: normal
-category: best practice
+category: best-practice
 ---
 
 # `null` value for Controlled Components in React

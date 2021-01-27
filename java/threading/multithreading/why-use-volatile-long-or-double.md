@@ -1,7 +1,7 @@
 ---
 author: catalin
 type: normal
-category: best practice
+category: best-practice
 links:
   - >-
     [stackoverflow.com](http://stackoverflow.com/questions/3463658/are-64-bit-assignments-in-java-atomic-on-a-32-bit-machine){website}

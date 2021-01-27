@@ -1,7 +1,7 @@
 ---
 author: pawel
 type: normal
-category: best practice
+category: best-practice
 ---
 
 # Most Efficient Way to Build `HTML` Strings
