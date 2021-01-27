@@ -1,7 +1,7 @@
 ---
 author: kld14
 type: normal
-category: how to
+category: how-to
 ---
 
 # Multidimensional array declaration

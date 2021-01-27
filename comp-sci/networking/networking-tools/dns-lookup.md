@@ -3,7 +3,7 @@ author: catalin
 
 type: normal
 
-category: how to
+category: how-to
 
 links:
   - >-
@@ -82,3 +82,4 @@ How would you find the IP address behind the enki.com DNS?
 - `nslookup enki.com`
 - `nslookup enki`
 - `nslookup 52.85.178.44`
+

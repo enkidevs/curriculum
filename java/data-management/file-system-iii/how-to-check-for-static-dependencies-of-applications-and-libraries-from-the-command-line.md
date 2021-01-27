@@ -1,7 +1,7 @@
 ---
 author: catalin
 type: normal
-category: how to
+category: how-to
 links:
   - '[dzone.com](https://dzone.com/articles/jdeps-jdk-8-command-line){website}'
   - >-

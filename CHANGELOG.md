@@ -50,6 +50,9 @@ Types of change:
 
 ## January 26th 2021
 
+### Changed
+- [Update "how to" to "how-to" category I](https://github.com/enkidevs/curriculum/pull/2561)
+
 ### Added
 - [Add support for new question types I](https://github.com/enkidevs/curriculum/pull/2560)
 

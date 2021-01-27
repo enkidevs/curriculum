@@ -1,7 +1,7 @@
 ---
 author: catalin
 type: normal
-category: how to
+category: how-to
 links:
   - '[github.com](https://github.com/expressjs/errorhandler){website}'
 ---

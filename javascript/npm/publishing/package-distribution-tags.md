@@ -1,7 +1,7 @@
 ---
 author: catalin
 type: normal
-category: how to
+category: how-to
 links:
   - '[docs.npmjs.com](https://docs.npmjs.com/cli/dist-tag){website}'
 tags:

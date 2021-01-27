@@ -1,7 +1,7 @@
 ---
 author: rosielowther
 type: normal
-category: how to
+category: how-to
 links:
   - >-
     [Untrack A File Without Deleting

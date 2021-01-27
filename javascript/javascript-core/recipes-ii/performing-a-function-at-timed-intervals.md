@@ -1,7 +1,7 @@
 ---
 author: pawel
 type: normal
-category: how to
+category: how-to
 tags:
   - workout
   - introduction

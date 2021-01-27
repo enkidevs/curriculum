@@ -1,7 +1,7 @@
 ---
 author: rosielowther
 type: normal
-category: how to
+category: how-to
 links:
   - >-
     [Create A Global Git Commit

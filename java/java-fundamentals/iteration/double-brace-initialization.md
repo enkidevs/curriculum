@@ -1,7 +1,7 @@
 ---
 author: abhavk
 type: normal
-category: how to
+category: how-to
 links:
   - '[www.c2.com](http://www.c2.com/cgi/wiki?DoubleBraceInitialization){website}'
 ---

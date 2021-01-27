@@ -9,7 +9,7 @@ levels:
 
 type: normal
 
-category: how to
+category: how-to
 
 ---
 # Using `strace` to debug user programs

@@ -8,7 +8,7 @@ levels:
 
 type: normal
 
-category: how to
+category: how-to
 
 notes: 'Check how this works with bruno '
 

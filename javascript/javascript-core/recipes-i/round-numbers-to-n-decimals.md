@@ -1,7 +1,7 @@
 ---
 author: catalin
 type: normal
-category: how to
+category: how-to
 ---
 
 # Round Numbers to `N` Decimals

@@ -1,10 +1,10 @@
 ---
 author: catalin
 type: normal
-category: how to
+category: how-to
 inAlgoPool: false
 links:
-  - '[irc.freenode.net](irc.freenode.net){website}'
+  - '[freenode IRC](https://webchat.freenode.net/){website}'
 ---
 
 # Getting help
@@ -40,8 +40,7 @@ git-clone - Clone a repository into a
 ...
 ```
 
-Additional help can be found on the `#git` and `#github` channels in the Freenode IRC server (`irc.freenode.net`).
-
+Additional help can be found on the `#git` and `#github` channels in the Freenode IRC server.
 
 ---
 

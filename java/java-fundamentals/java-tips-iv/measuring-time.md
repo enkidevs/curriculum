@@ -1,7 +1,7 @@
 ---
 author: vish1891
 type: normal
-category: how to
+category: how-to
 tags:
   - nanoTime()
   - currentTimeMillis()
