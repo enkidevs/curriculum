@@ -15,13 +15,12 @@ When using images in your web page or document, whether it's for a logo, product
 
 Image formats are divided into 2 categories, with some examples being:
 
-- **Raster images**
-  - JPG/JPEG
-  - GIF
-  - PNG
-
-- **Vector images**
-  - SVG
+| Abbreviation |               Name               | Category |
+|--------------|:--------------------------------:|----------|
+| GIF          | Graphics Interchange Format      | Raster   |
+| JPG/JPEG     | Joint Photographic Experts Group | Raster   |
+| PNG          | Portable Networks Graphics       | Raster   |
+| SVG          | Scalable Vector Graphics         | Vector   |
 
 **Raster images**
 
@@ -29,9 +28,9 @@ Raster images consist of a two-dimensional grid of pixels. They do not scale wel
 
 **JPEG/JPG:** Best for photography and supports millions of colors with the best image compresses, although unseen data is removed from the image during compression making images blur if later they are enlarged. 
 
-**GIF:** Best for graphics with flat colors and no gradients since they only support a maximum of 256 colors. Simple  animations made by displaying a sequence of still shots is only possible with GIFs.
+**GIF:** Best for graphics with flat colors and no gradients since they only support a maximum of 256 colors. Simple animations made by displaying a sequence of still shots is only possible with GIFs.
 
-**PNG:** The key factor is that no data is lost during compression making it perfect when working with images that need re-editing and re-exporting. They also support transparency and animation.
+**PNG:** The key factor is that no data is lost during compression making it perfect when working with images that need re-editing and re-exporting. They also support transparency.
 
 There are two categories of PNG images that help keep file sizes down depending on the number of colors available.
 
@@ -46,14 +45,14 @@ Vector images are made of thin lines, curves, and shapes, stored in mathematical
 
 Although we have only presented four image types, there are [many more](https://en.wikipedia.org/wiki/Image_file_formats#Major_graphic_file_formats) from which you can choose, with each type being suited for a different application.
 
-**Note: All image formats are animatable by CSS**
+> 💡 All image formats are animatable by CSS**
 
 
 ---
 
 ## Practice
 
-Match the image format with the most accurate description.
+Match the image category with the most accurate description.
 
 ??? = best for photographs and other information-dense images.
 ??? = best for Logos, icons, and simple image patterns.
