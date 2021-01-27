@@ -8,7 +8,7 @@ tags:
 links:
   - >-
     [Install
-    Ubuntu](https://ubuntu.com/tutorials/tutorial-install-ubuntu-desktop#1-overview){website}
+    Ubuntu](https://ubuntu.com/tutorials/install-ubuntu-desktop#1-overview){website}
   - >-
     [Try
     Ubuntu](https://ubuntu.com/tutorials/try-ubuntu-before-you-install#1-getting-started){website}
