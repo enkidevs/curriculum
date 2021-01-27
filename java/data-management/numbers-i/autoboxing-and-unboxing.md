@@ -6,6 +6,10 @@ links:
   - >-
     [beginnersbook.com](http://beginnersbook.com/2014/09/java-autoboxing-and-unboxing-with-examples/){website}
 notes: 'https://insights.enki.com/#/contrib/others/55c833563f06ab320051aa89?search=kha'
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # `Autoboxing` and `Unboxing`

@@ -9,6 +9,10 @@ links:
   - >-
     [More on Atomic
     Package](https://docs.oracle.com/javase/8/docs/api/java/util/concurrent/atomic/package-summary.html){website}
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # More on Synchronization

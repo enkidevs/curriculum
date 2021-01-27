@@ -4,6 +4,10 @@ type: normal
 category: best-practice
 tags:
   - java-io
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # System independent path specification

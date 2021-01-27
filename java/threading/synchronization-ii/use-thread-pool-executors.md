@@ -10,6 +10,10 @@ links:
     [javarevisited.blogspot.co.uk](http://javarevisited.blogspot.co.uk/2015/05/top-10-java-multithreading-and.html){website}
   - >-
     [javarevisited.blogspot.sg](http://javarevisited.blogspot.sg/2013/07/how-to-create-thread-pools-in-java-executors-framework-example-tutorial.html){website}
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Use thread pool executors

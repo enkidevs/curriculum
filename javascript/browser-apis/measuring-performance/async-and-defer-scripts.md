@@ -8,6 +8,14 @@ tags:
 links:
   - >-
     [www.growingwiththeweb.com](http://www.growingwiththeweb.com/2014/02/async-vs-defer-attributes.html){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Async and defer scripts
@@ -56,4 +64,3 @@ What type of script is executed as soon as it is downloaded, without blocking th
 - `defer`
 - `all`
 - `none`
- 

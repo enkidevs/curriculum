@@ -1,18 +1,24 @@
-﻿---
+---
 author: Stefan-Stojanovic
-
 aspects:
   - workout
-
 type: normal
-
 category: how-to
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Structs
 
+
 ---
+
 ## Content
 
 Structs are collections of fields.
@@ -68,7 +74,9 @@ func main() {
 
 > 💡 When editing structs through a pointer, you don't have to use `(*p).major`. The language allows a shortcut like p.major.
 
+
 ---
+
 ## Practice
 
 What are structs?
@@ -79,7 +87,9 @@ What are structs?
 - A different name for pointers.
 - Collections of pointers.
 
+
 ---
+
 ## Revision
 
 Structs are collections ???. Their fields can be accessed with a ???.

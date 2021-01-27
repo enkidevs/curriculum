@@ -1,19 +1,26 @@
 ---
 author: catalin
-
 type: normal
-
 category: feature
-
 links:
   - >-
-    [Why does the JVM full GC need to stop-the-world?](http://stackoverflow.com/questions/16695874/why-does-the-jvm-full-gc-need-to-stop-the-world){website}
+    [Why does the JVM full GC need to
+    stop-the-world?](http://stackoverflow.com/questions/16695874/why-does-the-jvm-full-gc-need-to-stop-the-world){website}
   - >-
-    [Garbage collection in HotSpot JVM ](http://blog.ragozin.info/2011/12/garbage-collection-in-hotspot-jvm.html){website}
-
+    [Garbage collection in HotSpot JVM
+    ](http://blog.ragozin.info/2011/12/garbage-collection-in-hotspot-jvm.html){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Stop-the-world & Garbage Collection
+
 
 ---
 
@@ -45,6 +52,7 @@ java -XX:+UseConcMarkSweepGC MyApplication
 
 It's designed to minimize *GC* pauses and thus keep the application responsive.
 
+
 ---
 
 ## Practice
@@ -59,6 +67,7 @@ java -XX:+??? Enki
 - `GCLog` 
 - `GCLogging` 
 - `PrintGarbageCollection`
+
 
 ---
 

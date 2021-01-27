@@ -8,6 +8,14 @@ tags:
 links:
   - >-
     [www.javapractices.com](http://www.javapractices.com/topic/TopicAction.do?Id=164){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Template methods in abstract classes

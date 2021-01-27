@@ -1,19 +1,27 @@
 ---
 author: Stefan-Stojanovic
-
 type: normal
-
 category: how-to
-
 links:
- - '[Go fmt](https://blog.golang.org/gofmt){documentation}'
- - '[Why gofmt is Widely Accepted](https://utcc.utoronto.ca/~cks/space/blog/programming/GoWhyGofmtAccepted){documentation}'
-
+  - '[Go fmt](https://blog.golang.org/gofmt){documentation}'
+  - >-
+    [Why gofmt is Widely
+    Accepted](https://utcc.utoronto.ca/~cks/space/blog/programming/GoWhyGofmtAccepted){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Formatting
 
+
 ---
+
 ## Content
 
 The **Go** language uses a formatting tool called `gofmt`.
@@ -23,6 +31,7 @@ To format your code using this tool you can run either of these two commands:
 ```go
 gofmt -w yourcode.go
 ```
+
 or
 
 ```go
@@ -49,7 +58,9 @@ So, for easier readability, we will use smaller indentations in this course.
 
 > ❗ You should always format your code before building it.
 
+
 ---
+
 ## Practice
 
 Format the `file-name.go` package using the `gofmt` command.
@@ -64,6 +75,7 @@ Format the `file-name.go` package using the `gofmt` command.
 
 
 ---
+
 ## Revision
 
 Format the `file-name.go` package found in the `/path/to/directory` using the `gofmt` command

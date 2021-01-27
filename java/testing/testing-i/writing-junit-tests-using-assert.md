@@ -8,6 +8,14 @@ tags:
 links:
   - >-
     [junit.sourceforge.net](http://junit.sourceforge.net/javadoc/org/junit/Assert.html){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Writing JUnit tests using `Assert`

@@ -1,18 +1,24 @@
-﻿---
+---
 author: Stefan-Stojanovic
-
 aspects:
   - workout
-
 type: normal
-
 category: how-to
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Slices
 
+
 ---
+
 ## Content
 
 Slices are [dynamically-sized](https://www.enki.com/glossary/general/dynamically-sized), flexible views of elements in an array.
@@ -72,6 +78,7 @@ If there are multiple slices from the same array, all slices will share the same
 > 💡 The low and high bound can be omitted. The defaults for the low and high bounds are 0 and the length of the slice respectively.
 
 For the `weekDay` array, these work the same:
+
 ```go
 weekDay[0:7]
 weekDay[:7]
@@ -79,7 +86,9 @@ weekDay[0:]
 weekDay[:]
 ```
 
+
 ---
+
 ## Practice
 
 What are slices?
@@ -89,10 +98,13 @@ What are slices?
 - Dynamically-sized, flexible views of elements in an array.
 - Statically-sized, non-flexible views of elements in a string
 
+
 ---
+
 ## Revision
 
 Fill in the code to create a slice called "seaBird" from the second value of the "birds" array.
+
 ```go
 ??? := []string{"Parrots","Penguins","Columbidae"}
 
@@ -107,4 +119,3 @@ fmt.Println(seaBird)
 - birdsArray[1:2]
 - birdsArray[0:1]
 - birdsArray[0:2]
-

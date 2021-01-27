@@ -8,6 +8,14 @@ tags:
 links:
   - >-
     [www.securecoding.cert.org](https://www.securecoding.cert.org/confluence/display/java/NUM00-J.+Detect+or+prevent+integer+overflow){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Detect or prevent integer overflow
@@ -57,4 +65,3 @@ Which of the following primitives does not allow upcasting to prevent overflow?
 - int
 - byte
 - float
- 

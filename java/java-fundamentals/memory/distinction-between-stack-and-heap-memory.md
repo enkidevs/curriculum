@@ -1,22 +1,27 @@
 ---
 author: adamMontgomerie
-
 type: normal
-
 category: tip
-
 tags:
   - stack
   - heap
   - memory
-
 links:
   - >-
-    [Difference Between Stack and Heap](http://javarevisited.blogspot.jp/2013/01/difference-between-stack-and-heap-java.html){website}
-
+    [Difference Between Stack and
+    Heap](http://javarevisited.blogspot.jp/2013/01/difference-between-stack-and-heap-java.html){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Distinction Between Stack and Heap Memory
+
 
 ---
 
@@ -36,6 +41,7 @@ If there is no available stack memory left, then a `java.lang.StackOverFlowError
 
 If there is a lack of heap space, then a `java.lang.OutOfMemoryError: Java Heap Space` error will be thrown.
 
+
 ---
 
 ## Practice
@@ -49,6 +55,7 @@ Heap memory is used to store ???.
 - references to objects stored in heap memory
 - objects
 - global variables
+
 
 ---
 

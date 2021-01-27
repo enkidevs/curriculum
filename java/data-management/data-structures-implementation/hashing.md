@@ -10,6 +10,10 @@ links:
   - >-
     [String
     Hashcode](https://docs.oracle.com/javase/7/docs/api/java/lang/String.html#hashCode()){website}
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Hashing

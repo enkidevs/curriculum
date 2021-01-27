@@ -6,6 +6,14 @@ links:
   - >-
     [More on
     Serialization](https://www.tutorialspoint.com/java/java_serialization.htm){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Serializing
@@ -102,6 +110,7 @@ What could be done to Car in order to avoid the above problem?
 - Engine should be marked as public
 - Car should implement clonable interface
 
+
 ---
 
 ## Revision
@@ -124,6 +133,7 @@ What is the conventional extension of a file that the information about the clas
 - clonable
 - `.txt`
 - `public`
+
 
 ---
 

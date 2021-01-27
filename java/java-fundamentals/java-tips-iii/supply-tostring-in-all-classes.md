@@ -7,6 +7,14 @@ links:
     [stackoverflow.com](http://stackoverflow.com/questions/3615721/how-to-use-the-tostring-method-in-java){website}
 notes: |
   https://insights.enki.com/#/contrib/55ba52a4d5e04e4f0066fe2d
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Supply `toString()` in all classes

@@ -9,6 +9,14 @@ tags:
 links:
   - >-
     [stackoverflow.com](http://stackoverflow.com/questions/2635839/junit-confusion-use-extend-testcase-or-test){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # JUnit: prefer `@Test` over `extends TestCase`

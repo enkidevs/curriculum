@@ -8,6 +8,10 @@ tags:
 links:
   - >-
     [javarevisited.blogspot.jp](http://javarevisited.blogspot.jp/2011/11/static-keyword-method-variable-java.html){website}
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Utility classes and `static` methods

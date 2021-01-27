@@ -8,6 +8,14 @@ tags:
 links:
   - >-
     [docs.oracle.com](http://docs.oracle.com/javase/tutorial/essential/io/pathOps.html){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Create system file paths using the `Path` class

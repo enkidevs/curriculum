@@ -2,6 +2,10 @@
 author: pawel
 type: normal
 category: tip
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # How to create directories in Java

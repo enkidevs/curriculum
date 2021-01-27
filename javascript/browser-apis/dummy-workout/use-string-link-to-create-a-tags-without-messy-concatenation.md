@@ -1,24 +1,30 @@
 ---
 author: AlexYancey
-
 levels:
   - basic
   - advanced
   - medium
-
 type: normal
-
 category: feature
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Use `String.link` to create `<a>` tags without messy concatenation
 
+
 ---
+
 ## Content
 
 When manipulating the `DOM` in JavaScript, it is often useful to create your own hyperlinks using `<a href="">`. 
- 
+
 Instead of:
 
 ```js
@@ -40,7 +46,9 @@ document.write(
 // <a href="http://test.com">Click</a>
 ```
 
+
 ---
+
 ## Practice
 
 Complete the code snippet below to create the following element:
@@ -51,16 +59,18 @@ Complete the code snippet below to create the following element:
 "???".???('www.practiceyourJS.com');
 ```
 
-* `JS`
-* `link`
-* `practiceyourJS`
-* `url`
-* `href`
-* `<a>`
-* `write`
-* `document`
+- `JS`
+- `link`
+- `practiceyourJS`
+- `url`
+- `href`
+- `<a>`
+- `write`
+- `document`
+
 
 ---
+
 ## Revision
 
 Complete the snippet below to create the element commented:
@@ -70,8 +80,8 @@ Complete the snippet below to create the element commented:
 "Enki".???("http.enki.com");
 ```
 
-* `link`
-* `write`
-* `to`
-* `document`
-* `url`
+- `link`
+- `write`
+- `to`
+- `document`
+- `url`

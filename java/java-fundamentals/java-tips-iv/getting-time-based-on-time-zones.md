@@ -9,6 +9,14 @@ links:
   - >-
     [Class
     TimeZone](http://docs.oracle.com/javase/7/docs/api/java/util/TimeZone.html){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Getting Time Based on Time Zones

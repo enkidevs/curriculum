@@ -6,6 +6,14 @@ links:
   - >-
     [www.javacodegeeks.com](http://www.javacodegeeks.com/2013/04/arrays-sort-versus-arrays-parallelsort.html){website}
 notes: 'https://insights.enki.com/insight/55c839baae32453400962645'
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Using `Arrays.parallelSort`

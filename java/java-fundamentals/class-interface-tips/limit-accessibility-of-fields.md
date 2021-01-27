@@ -5,6 +5,14 @@ category: best-practice
 links:
   - >-
     [www.securecoding.cert.org](https://www.securecoding.cert.org/confluence/display/java/OBJ01-J.+Limit+accessibility+of+fields){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Limit Accessibility of `Fields`

@@ -9,6 +9,14 @@ links:
   - >-
     [More on
     Arrays](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Arrays vs Lists

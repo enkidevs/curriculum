@@ -9,6 +9,14 @@ links:
   - >-
     [Java
     Roadmap](https://www.oracle.com/java/technologies/java-se-support-roadmap.html){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Why Learn Java?
@@ -52,4 +60,3 @@ Once you create your Java program, you can run it on any machine. The principle 
 - write once, run anywhere
 - compile once, run anywhere
 - build once, run anywhere
- 
