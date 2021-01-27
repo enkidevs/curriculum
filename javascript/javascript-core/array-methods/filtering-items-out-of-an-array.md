@@ -147,3 +147,4 @@ The `callback` function can take three arguments:
 - `array` (optional, it represents the array on which you call `filter()`)
 
 Here, `thisArg` is also an optional parameter, and it represents that value that is used as `this` when executing the `callback` function.
+ 

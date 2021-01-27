@@ -66,3 +66,4 @@ What represent the **context** of a function in Javascript?
 - history
 - bind
 - new
+ 

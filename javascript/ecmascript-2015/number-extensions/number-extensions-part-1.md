@@ -122,3 +122,4 @@ Number.isInteger(9.81)
 - true, true, false
 - false, true, true
 - true, false, true
+ 

@@ -107,3 +107,4 @@ console.log(Symbol.keyFor(sym1))
 - register
 - new
 - error
+ 

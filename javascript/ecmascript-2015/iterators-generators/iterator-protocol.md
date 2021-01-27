@@ -92,3 +92,4 @@ Which of the following is not part of the iteration protocol?
 - a method to get all the items at once (getAll)
 - a method to advance the iteration (next)
 - a way of telling when the iteration is done (done)
+ 

@@ -74,3 +74,4 @@ Which of the following is true about Symbols?
 - Symbols can be overwritten
 - Symbols can't be used by libraries
 - Symbols are unique and mutable
+ 

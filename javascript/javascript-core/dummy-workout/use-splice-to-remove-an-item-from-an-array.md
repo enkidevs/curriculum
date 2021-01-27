@@ -78,3 +78,4 @@ After calling `splice(1,1)`  on x , it will contain ??? .
 - `[1,6,8]`
 - `[4,6,8]`
 - `[1,undefined,6,8]`
+ 

@@ -117,3 +117,4 @@ Which static `Promise` method will resolve when the first promise in the array s
 - Promise.vector
 - Promise.first
 - Promise.reject
+ 

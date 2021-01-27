@@ -82,3 +82,4 @@ Matching a string with a RegEx is done with:
 
 [1:RegEx]
 RegEx is short for regular expression, and it represent a sequence of characters that define a search pattern. For example, this pattern `/ /g` will match with all the spaces in a string. For more information about RegEx check out [their documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions).
+ 

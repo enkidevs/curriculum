@@ -76,3 +76,4 @@ What global event handler must be added to an element so that it can be dragged 
 - `dragstart_handler`
 - `dataTransfer`
 - `dragAndDrop`
+ 

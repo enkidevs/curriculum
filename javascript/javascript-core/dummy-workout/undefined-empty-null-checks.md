@@ -51,3 +51,4 @@ msg = 'Hello ' + (name || 'friend');
 - Null
 - undefined
 - Empty string
+ 

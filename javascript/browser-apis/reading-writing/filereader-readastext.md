@@ -86,3 +86,4 @@ reader.onload = function(e) {
 - `readText`
 - `readFile`
 - `file`
+ 

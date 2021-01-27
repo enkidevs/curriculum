@@ -86,3 +86,4 @@ function isNumber(n){
 - `typeof`
 - `isNum`
 - `isValue`
+ 
