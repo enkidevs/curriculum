@@ -2,6 +2,10 @@
 author: Stefan-Stojanovic
 type: normal
 category: how-to
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Types of Charts I
@@ -53,4 +57,3 @@ Column : ???
 - Circular and sliced into sections.
 - Used to represent data with either horizontal or vertical bars.
 - Used to represent data with vertical bars.
- 

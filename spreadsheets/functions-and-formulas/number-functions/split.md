@@ -1,18 +1,24 @@
-﻿---
+---
 author: Stefan-Stojanovic
-
 type: normal
-
 category: how-to
-
 links:
   - '[SPLIT](https://support.google.com/docs/answer/3094136?hl=en){documentation}'
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # SPLIT
 
+
 ---
+
 ## Content
 
 The `SPLIT` function is used to divide text by a specified character (or string). 
@@ -33,6 +39,7 @@ The syntax is:
 Let's go over each input and see what they mean.
 
 The `text` is represented by what you want to divide. You can:
+
 - input this yourself (`=SPLIT('some text', ...)`)
 - or select a cell that contains the value (`=SPLIT(A1, ...)`)
 
@@ -58,19 +65,23 @@ And here is the result:
 
 ![result-split](https://img.enkipro.com/5f94d70a8d4f377900c02e03c294f3f2.png)
 
+
 ---
+
 ## Practice
 
 Create a function that will divide the text in cell `A7` after every `,`.
 
 ???
 
-* `=SPLIT(A7, ",")`
-* `=SPLIT(A7 - ",")`
-* `SPLIT(A7, ",")`
-* `SPLIT(A7 - ",")`
+- `=SPLIT(A7, ",")`
+- `=SPLIT(A7 - ",")`
+- `SPLIT(A7, ",")`
+- `SPLIT(A7 - ",")`
+
 
 ---
+
 ## Revision
 
 Which function divides text by a specified character and outputs each piece in a separate cell in the same row as the function? 

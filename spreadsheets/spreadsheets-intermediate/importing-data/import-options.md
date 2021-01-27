@@ -1,18 +1,26 @@
-﻿---
+---
 author: kapnobatai136
-
 type: normal
-
 category: how-to
-
 links:
-  - '[Imported Spreadsheet](https://docs.google.com/spreadsheets/d/1l8zWrzpvPwYNtqvYUxWO2y3KJtFmKVidrAFmpPmaPyo/edit?usp=sharing){website}'
-
+  - >-
+    [Imported
+    Spreadsheet](https://docs.google.com/spreadsheets/d/1l8zWrzpvPwYNtqvYUxWO2y3KJtFmKVidrAFmpPmaPyo/edit?usp=sharing){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Import Options
 
+
 ---
+
 ## Content
 
 After your file has been uploaded a new pop-up window will appear asking you to select several **"import options"**.
@@ -37,7 +45,9 @@ Lastly, click `Import data` and you're done 🎉!
 
 > 💡 Check the *Learn more* section if you want to see how the imported spreadsheet looks like.
 
+
 ---
+
 ## Practice
 
 Which of the following isn't an option when importing a file in Google Sheets?
@@ -48,7 +58,9 @@ Which of the following isn't an option when importing a file in Google Sheets?
 - Separator type
 - Import location
 
+
 ---
+
 ## Revision
 
 Which of the following isn't an option when importing a file in Google Sheets?

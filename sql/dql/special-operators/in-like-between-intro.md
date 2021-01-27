@@ -12,6 +12,10 @@ links:
   - >-
     [The IN
     Keyword](https://en.wikibooks.org/wiki/Structured_Query_Language/Quantified_Comparison#IN){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # IN, LIKE, BETWEEN

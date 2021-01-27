@@ -1,21 +1,21 @@
 ---
 author: kapnobatai136
-
 type: normal
-
 category: must-know
-
 tags:
   - introduction
-
 links:
   - >-
     [Stack Overflow Survey
     2019](https://insights.stackoverflow.com/survey/2019#technology-_-programming-scripting-and-markup-languages){website}
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Why Learn SQL?
+
 
 ---
 

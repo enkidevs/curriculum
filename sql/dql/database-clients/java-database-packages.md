@@ -2,7 +2,6 @@
 author: nickdaminov
 type: normal
 category: how-to
-inAlgoPool: false
 tags:
   - java
   - implementation
@@ -20,6 +19,14 @@ links:
   - >-
     [More
     Examples](https://www.tutorialspoint.com/postgresql/postgresql_java.htm){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Java Database Packages

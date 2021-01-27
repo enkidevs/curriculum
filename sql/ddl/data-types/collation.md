@@ -5,6 +5,10 @@ category: must-know
 tags:
   - introduction
   - workout
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Collation
@@ -40,4 +44,3 @@ A function that maps bits to characters.
 
 - collation
 - encoding
- 

@@ -5,6 +5,10 @@ category: pattern
 tags:
   - 'borders, border, :hover, hover'
 links: null
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Default to a transparent `border-color` before adding a border to on `:hover` state elements

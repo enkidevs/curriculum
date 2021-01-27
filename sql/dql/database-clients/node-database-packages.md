@@ -2,7 +2,6 @@
 author: nickdaminov
 type: normal
 category: feature
-inAlgoPool: false
 tags:
   - node
   - javascript
@@ -14,6 +13,14 @@ links:
     packages](https://www.npmjs.com/browse/keyword/database){website}
   - '[pg node package](https://www.npmjs.com/package/pg){website}'
   - '[pg video tutorial](https://www.youtube.com/watch?v=hzixG7gFTxY){website}'
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Node Database Packages

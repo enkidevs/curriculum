@@ -1,18 +1,20 @@
-﻿---
+---
 author: Stefan-Stojanovic
-
 aspects:
   - workout
-
 type: normal
-
 category: how-to
-
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # The Sparkline Line Chart
 
+
 ---
+
 ## Content
 
 The `line` chart is the default chart and the only one you don't have to specify in the `options` part. 
@@ -29,6 +31,7 @@ Is the same as:
 ```
 
 This chart has the following options:
+
 - `xmin` and `xmax` set the minimum and maximum value along the horizontal axis.
 - `ymin` and `ymax` set the minimum and maximum value along the vertical axis.
 - `color` sets the color of the line.
@@ -56,7 +59,9 @@ Here are some examples of modified line charts with 3 different number sequences
 
 ![three-line-charts](https://img.enkipro.com/7058a7791bbb00359f8de4473e9155b6.png)
 
+
 ---
+
 ## Revision
 
 What is the default chart for the `=SPARKLINE()` function?

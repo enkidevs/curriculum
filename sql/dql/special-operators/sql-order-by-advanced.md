@@ -7,6 +7,14 @@ tags:
   - workout
 links:
   - '[More on ORDER BY](http://www.dofactory.com/sql/order-by){website}'
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Order By Advanced

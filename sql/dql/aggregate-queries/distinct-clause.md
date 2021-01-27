@@ -2,13 +2,20 @@
 author: SebaRaba
 type: normal
 category: must-know
-inAlgoPool: false
 tags:
   - workout
 links:
   - >-
     [More on
     DISTINCT](https://www.tutorialspoint.com/sql/sql-distinct-keyword.htm){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Distinct clause

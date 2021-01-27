@@ -2,7 +2,6 @@
 author: mihaiberq
 type: normal
 category: must-know
-inAlgoPool: false
 links:
   - '[Scrimba Introduction to CSS](https://scrimba.com/p/pWvwCg/c3vBJu2){website}'
   - >-
@@ -11,6 +10,14 @@ links:
   - >-
     [Web Development
     101](http://www.theodinproject.com/courses/web-development-101#section-the-front-end){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # What Is CSS?

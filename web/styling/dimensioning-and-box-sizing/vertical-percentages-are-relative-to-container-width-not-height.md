@@ -9,6 +9,14 @@ links:
   - >-
     [MDN Docs on
     Percentage](https://developer.mozilla.org/en-US/docs/Web/CSS/percentage){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Vertical percentages are relative to container width, not height

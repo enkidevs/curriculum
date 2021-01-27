@@ -2,7 +2,6 @@
 author: SebaRaba
 type: normal
 category: must-know
-inAlgoPool: false
 tags:
   - workout
   - deep
@@ -10,6 +9,14 @@ links:
   - >-
     [SQLMag Do's and Don'ts of
     indices](http://www.itprotoday.com/microsoft-sql-server/indexing-dos-and-don-ts){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # When to add Indices

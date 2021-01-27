@@ -1,18 +1,21 @@
-﻿---
+---
 author: Stefan-Stojanovic
-
 type: normal
-
 category: how-to
-
 links:
-  - '[CONCATENATE](https://support.google.com/docs/answer/3094123?hl=en){documentation}'
-
+  - >-
+    [CONCATENATE](https://support.google.com/docs/answer/3094123?hl=en){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # CONCATENATE
 
+
 ---
+
 ## Content
 
 Compared to `CONCAT`, `CONCATENATE` can take more than one input.
@@ -24,6 +27,7 @@ The syntax is:
 ```
 
 The input (e.g. `value1`) can be:
+
 - a single cell
 - a range of cells
 - a value typed directly into the function.
@@ -55,7 +59,9 @@ Here are some more examples:
 
 ![more-concatenate-examples](https://img.enkipro.com/1107969b8b5426ab84122f7a30f56555.png)
 
+
 ---
+
 ## Practice
 
 The `=CONCATENATE()` function is used to combine data from ???.

@@ -9,6 +9,14 @@ links:
   - >-
     [Interface
     Type](https://www.typescriptlang.org/docs/handbook/interfaces.html){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Introduction to Interfaces

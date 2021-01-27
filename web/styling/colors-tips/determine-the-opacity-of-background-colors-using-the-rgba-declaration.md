@@ -11,6 +11,10 @@ links:
   - >-
     [RGBA Browser
     Support](https://css-tricks.com/rgba-browser-support/){website}
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Determine the opacity of background-colors using the RGBA declaration

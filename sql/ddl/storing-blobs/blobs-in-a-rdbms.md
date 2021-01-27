@@ -6,6 +6,10 @@ tags:
   - introduction
   - workout
   - deep
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Handling Blobs in a RDBMS
@@ -43,4 +47,3 @@ In the next insights you will learn about different BLOB implementations, depend
 - `bigints`
 - `strings`
 - `images`
- 

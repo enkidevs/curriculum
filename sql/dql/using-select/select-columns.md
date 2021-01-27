@@ -8,6 +8,14 @@ links:
     SELECT](http://www.sql-tutorial.com/sql-select-sql-tutorial/){website}
   - >-
     [Playground](https://student.enkicamp.com/public/playground?jsonUrl=https%3A%2F%2Fgist.githubusercontent.com%2Fkapnobatai137%2F87bd176653e79ee9f6d7cc91cc70709f%2Fraw%2F35304e8c4731db33c74209eb8c6e7f330f4b175c%2Fsql-selecting-columns.json){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # SELECTing Columns

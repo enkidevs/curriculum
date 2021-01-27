@@ -2,6 +2,10 @@
 author: Stefan-Stojanovic
 type: normal
 category: how-to
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # What are Formulas?
@@ -48,4 +52,3 @@ What will the formula `= B2 + B4` output?
 - 83
 - 125
 - 23
- 

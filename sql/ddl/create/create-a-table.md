@@ -2,7 +2,6 @@
 author: SebaRaba
 type: normal
 category: must-know
-inAlgoPool: false
 tags:
   - introduction
   - workout
@@ -14,6 +13,14 @@ links:
     [How to create
     tables](https://www.w3schools.com/sql/sql_create_table.asp){website}
   - '[Creating tables](https://youtu.be/EaRj0S3K32Y?t=58s){video}'
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Create a table

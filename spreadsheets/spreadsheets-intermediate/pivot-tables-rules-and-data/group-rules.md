@@ -1,15 +1,18 @@
-﻿---
+---
 author: Stefan-Stojanovic
-
 type: normal
-
 category: how-to
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Group Rule in Pivot Tables
 
+
 ---
+
 ## Content
 
 Pivot tables have a feature called "Group rule". This feature lets you narrow down your rows/columns of data for easier analysis. You can add a `minimum` and/or a `maximum` value and an `interval`.
@@ -31,6 +34,7 @@ This will open a pop-up window called `Group rule`.
 ![group-rules](https://img.enkipro.com/27410ba0b4718716ce202df5d4d45276.png)
 
 The `Group rule` has 3 parts.
+
 - Minimum value
 - Maximum value
 - Interval
@@ -39,7 +43,9 @@ You must have either the minimum, the maximum, or both, as well as the interval.
 
 We will dive into some examples in the next insight.
 
+
 ---
+
 ## Practice
 
 What are group rules used for in pivot tables?

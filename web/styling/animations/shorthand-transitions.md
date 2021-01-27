@@ -6,6 +6,10 @@ links:
   - >-
     [MDN Docs on
     CSS-transitions](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Transitions){documentation}
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Shorthand Transitions

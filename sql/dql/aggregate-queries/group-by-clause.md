@@ -2,13 +2,20 @@
 author: SebaRaba
 type: normal
 category: must-know
-inAlgoPool: false
 tags:
   - workout
 links:
   - >-
     [More on GROUP
     BY](https://www.techonthenet.com/sql/group_by.php){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Group By clause
