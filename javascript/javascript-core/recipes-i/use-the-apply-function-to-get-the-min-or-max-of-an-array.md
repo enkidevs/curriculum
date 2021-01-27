@@ -3,7 +3,8 @@ author: Bruno
 type: normal
 category: pattern
 links:
-  - '[stackoverflow](http://stackoverflow.com/questions/21255138){discussion}'
+  - >-
+    [How does the Math.max.apply() work?](https://stackoverflow.com/questions/21255138/how-does-the-math-max-apply-work){discussion}
 practiceQuestion:
   formats:
     - fill-in-the-gap

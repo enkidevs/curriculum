@@ -7,7 +7,7 @@ tags:
   - workout
 links:
   - >-
-    [stackoverflow.com](http://stackoverflow.com/questions/1986896/what-is-the-difference-between-call-and-apply){website}
+    [What is the difference between call and apply?](http://stackoverflow.com/questions/1986896/what-is-the-difference-between-call-and-apply){website}
 practiceQuestion:
   formats:
     - fill-in-the-gap

@@ -10,7 +10,7 @@ tags:
 links:
   - >-
     [Creating Multi-line String
-    Variables](http://stackoverflow.com/questions/805107/creating-multiline-strings-in-javascript/6247331#6247331){discussion}
+    Variables](https://stackoverflow.com/questions/805107/creating-multiline-strings-in-javascript/6247331#6247331){discussion}
 practiceQuestion:
   formats:
     - fill-in-the-gap

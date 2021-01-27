@@ -7,11 +7,11 @@ tags:
   - workout
 links:
   - >-
-    [benalman.com](http://benalman.com/news/2010/11/immediately-invoked-function-expression/){website}
+    [Immediately-Invoked Function Expression (IIFE)](http://benalman.com/news/2010/11/immediately-invoked-function-expression/){website}
   - >-
-    [stackoverflow.com](http://stackoverflow.com/questions/592396/what-is-the-purpose-of-a-self-executing-function-in-javascript){website}
+    [What is the purpose of a self executing function in javascript?](http://stackoverflow.com/questions/592396/what-is-the-purpose-of-a-self-executing-function-in-javascript){website}
   - >-
-    [markdalgleish.com](http://markdalgleish.com/2011/03/self-executing-anonymous-functions/){website}
+    [Self-Executing Anonymous Functions](http://markdalgleish.com/2011/03/self-executing-anonymous-functions/){website}
 practiceQuestion:
   formats:
     - fill-in-the-gap

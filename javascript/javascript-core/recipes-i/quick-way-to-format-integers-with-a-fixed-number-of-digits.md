@@ -7,7 +7,7 @@ tags:
   - workout
   - slice
 links:
-  - '[stackoverflow](http://stackoverflow.com/questions/8043026){discussion}'
+  - '[How to format numbers by prepending 0 to single-digit numbers?](https://stackoverflow.com/questions/8043026/how-to-format-numbers-by-prepending-0-to-single-digit-numbers){discussion}'
 practiceQuestion:
   formats:
     - fill-in-the-gap
