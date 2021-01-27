@@ -8,7 +8,7 @@ tags:
   - deep
 links:
   - >-
-    [Chaining](http://www.naeemrana.com/node-js/node-js-streams-pipe-and-chaining/){website}
+    [Chaining](https://www.naeemrana.com/node-js/node-js-streams-pipe-and-chaining/){website}
 practiceQuestion:
   formats:
     - fill-in-the-gap
