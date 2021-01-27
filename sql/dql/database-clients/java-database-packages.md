@@ -12,9 +12,6 @@ links:
     [Why
     JDBC](https://www.progress.com/faqs/datadirect-jdbc-faqs/why-do-we-need-jdbc){website}
   - >-
-    [Oracle Statement on
-    JDBCs](http://www.oracle.com/technetwork/java/index-138427.html#13){website}
-  - >-
     [Postgres JDBC
     driver](https://jdbc.postgresql.org/about/about.html){website}
   - >-

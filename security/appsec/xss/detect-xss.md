@@ -11,10 +11,10 @@ links:
     Ten](https://owasp.org/www-project-top-ten/){website}
   - >-
     [Testing for Reflected Cross site
-    scripting](https://www.owasp.org/index.php/Testing_for_Reflected_Cross_site_scripting_(OTG-INPVAL-001)){website}
+    scripting](https://wiki.owasp.org/index.php/Testing_for_Reflected_Cross_site_scripting_(OTG-INPVAL-001)){website}
   - >-
     [Testing for Stored Cross site
-    scripting](https://www.owasp.org/index.php/Testing_for_Stored_Cross_site_scripting_(OTG-INPVAL-002)){website}
+    scripting](https://wiki.owasp.org/index.php/Testing_for_Stored_Cross_site_scripting_(OTG-INPVAL-002)){website}
 
 ---
 
