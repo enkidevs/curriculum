@@ -5,6 +5,14 @@ category: hack
 links:
   - >-
     [www.cyberciti.biz](http://www.cyberciti.biz/faq/linux-disable-modprobe-loading-of-usb-storage-driver/){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Disabling **USB** storage devices

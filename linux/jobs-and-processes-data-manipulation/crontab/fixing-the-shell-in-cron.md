@@ -7,6 +7,10 @@ tags:
   - cron
   - shell
   - null
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Fixing the shell in cron

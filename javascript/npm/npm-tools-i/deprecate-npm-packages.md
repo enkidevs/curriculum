@@ -8,6 +8,14 @@ tags:
   - introduction
 links:
   - '[docs.npmjs.com](https://docs.npmjs.com/cli/deprecate){website}'
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Deprecate npm packages

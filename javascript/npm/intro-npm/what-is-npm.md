@@ -8,6 +8,14 @@ tags:
 links:
   - >-
     [docs.npmjs.com](https://docs.npmjs.com/getting-started/what-is-npm){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # What is npm?
@@ -54,4 +62,3 @@ The aim of a package is to
 - node package manager
 - new package manager
 - node packet manager
- 

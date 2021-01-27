@@ -9,6 +9,10 @@ tags:
   - newline
   - issue
   - trick
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # `Crontab` newline issue
@@ -47,4 +51,3 @@ is needed for `crontab` to run the last job in the list.
 - A newline at the start
 - A comment at the end
 - $
- 

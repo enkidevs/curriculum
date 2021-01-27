@@ -4,6 +4,14 @@ type: normal
 category: must-know
 links:
   - '[github.com](https://github.com/expressjs/compression){website}'
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # GZIP compression for **Express**

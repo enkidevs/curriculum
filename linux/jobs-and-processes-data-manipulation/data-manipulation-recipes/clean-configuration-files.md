@@ -7,6 +7,10 @@ tags:
   - comments
   - clean
 notes: 'ARSENY, THIS IS AN EXPERT''S INSIGHT - DO NOT REJECT'
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Clean configuration files

@@ -4,6 +4,14 @@ type: normal
 category: how-to
 links:
   - '[github.com](https://github.com/expressjs/vhost){website}'
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # `vhost` in **Express**

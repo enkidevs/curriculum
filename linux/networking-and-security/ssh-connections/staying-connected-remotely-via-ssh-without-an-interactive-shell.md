@@ -4,6 +4,10 @@ type: normal
 category: hack
 tags:
   - ssh-tunnel-interactive-shell
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Staying connected remotely via SSH without an interactive shell

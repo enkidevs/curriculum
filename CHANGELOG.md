@@ -51,7 +51,8 @@ Types of change:
 ## January 27th 2021
 
 ### Added
-- [Add support for new question types III](https://github.com/enkidevs/curriculum/pull/2567)
+- [Add support for new question types V](https://github.com/enkidevs/curriculum/pull/2569)
+- [Add support for new question types IV](https://github.com/enkidevs/curriculum/pull/2567)
 - [Add support for new question types III](https://github.com/enkidevs/curriculum/pull/2566)
 - [Add support for new question types II](https://github.com/enkidevs/curriculum/pull/2565)
 

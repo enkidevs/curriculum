@@ -6,6 +6,14 @@ links:
   - >-
     [MDN -
     Falsy](https://developer.mozilla.org/en-US/docs/Glossary/Falsy){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Truthy Falsy

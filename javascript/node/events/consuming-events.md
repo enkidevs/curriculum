@@ -9,6 +9,14 @@ links:
   - >-
     [Node
     Events](https://nodesource.com/blog/understanding-the-nodejs-event-loop/){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Consuming events

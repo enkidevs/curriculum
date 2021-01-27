@@ -8,6 +8,10 @@ tags:
   - ssh
   - lock
   - escape
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Breaking out of a terminal when `ssh` locks

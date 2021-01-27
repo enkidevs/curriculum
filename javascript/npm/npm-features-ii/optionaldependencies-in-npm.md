@@ -8,6 +8,14 @@ tags:
 links:
   - >-
     [docs.npmjs.com](https://docs.npmjs.com/files/package.json#optionaldependencies){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # `optionalDependencies` in npm

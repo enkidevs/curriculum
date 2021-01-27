@@ -8,6 +8,10 @@ tags:
   - private
   - key
   - ssh-keygen
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Extracting the `public key` from the `private key`

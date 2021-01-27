@@ -4,6 +4,14 @@ type: normal
 category: feature
 links:
   - '[node-verror](https://github.com/davepacheco/node-verror){documentation}'
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Wrapping Errors in Node.Js Using `node-verror`

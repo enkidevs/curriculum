@@ -9,6 +9,14 @@ tags:
   - terminal
   - connections
 notes: ''
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Repeating commands with `watch`

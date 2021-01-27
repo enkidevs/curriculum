@@ -5,6 +5,14 @@ tags:
   - workout
   - deep
 category: tip
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # The Worker Class

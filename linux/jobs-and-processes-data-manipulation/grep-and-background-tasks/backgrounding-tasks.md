@@ -8,6 +8,10 @@ tags:
   - terminal
   - background
 notes: ''
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Backgrounding tasks

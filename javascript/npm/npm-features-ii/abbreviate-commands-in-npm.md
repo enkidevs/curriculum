@@ -4,6 +4,14 @@ type: normal
 category: feature
 tags:
   - obscura
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Abbreviate commands in npm

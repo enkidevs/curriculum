@@ -9,6 +9,14 @@ links:
   - >-
     [Node JS and
     Errors](https://www.joyent.com/node-js/production/design/errors){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Handling Operational Errors

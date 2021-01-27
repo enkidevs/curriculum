@@ -6,6 +6,14 @@ links:
   - >-
     [codeforgeek.com](https://codeforgeek.com/2014/10/express-complete-tutorial-part-4/){website}
   - '[github.com](https://github.com/expressjs/session){website}'
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Session handling in **Express**

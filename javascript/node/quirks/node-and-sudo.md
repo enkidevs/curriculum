@@ -10,6 +10,14 @@ tags:
 notes: >-
   This insights is also based on security - should be on a security workout I
   guess.
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Node and `sudo`

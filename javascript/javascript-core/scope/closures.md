@@ -6,6 +6,14 @@ links:
   - >-
     [Understanding Scope and
     Context](http://ryanmorr.com/understanding-scope-and-context-in-javascript/){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Closures

@@ -11,6 +11,10 @@ tags:
   - version
   - debian
 notes: ''
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Install specific version of packages

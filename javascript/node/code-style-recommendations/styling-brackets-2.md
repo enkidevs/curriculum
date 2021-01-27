@@ -12,6 +12,14 @@ links:
   - >-
     [MDN -
     Block](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/block){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Styling Brackets Continued

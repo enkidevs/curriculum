@@ -8,6 +8,14 @@ tags:
   - ssh_config
   - config
   - optimizations
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Useful ssh client optimizations

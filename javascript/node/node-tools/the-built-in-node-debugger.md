@@ -9,6 +9,14 @@ tags:
 links:
   - >-
     [spin.atomicobject.com](http://spin.atomicobject.com/2015/09/25/debug-node-js/){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # The built-in Node debugger

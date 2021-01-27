@@ -6,6 +6,14 @@ tags:
   - workout
   - deep
   - new
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # How npm3 handles dependencies
