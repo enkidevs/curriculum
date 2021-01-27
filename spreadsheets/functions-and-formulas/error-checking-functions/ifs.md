@@ -3,7 +3,7 @@ author: Stefan-Stojanovic
 
 type: normal
 
-category: how to
+category: how-to
 
 links:
   - '[IFS](https://support.google.com/docs/answer/7014145){documentation}'

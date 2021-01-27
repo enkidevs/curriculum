@@ -1,7 +1,7 @@
 ---
 author: priyankinirmal
 type: normal
-category: how to
+category: how-to
 tags:
   - css
   - border

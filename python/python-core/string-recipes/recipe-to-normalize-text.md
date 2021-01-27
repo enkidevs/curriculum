@@ -1,7 +1,7 @@
 ---
 author: catalin
 type: normal
-category: how to
+category: how-to
 links:
   - '[gist.github.com](https://gist.github.com/j4mie/557354){website}'
 ---

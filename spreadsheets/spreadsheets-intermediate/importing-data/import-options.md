@@ -3,7 +3,7 @@ author: kapnobatai136
 
 type: normal
 
-category: how to
+category: how-to
 
 links:
   - '[Imported Spreadsheet](https://docs.google.com/spreadsheets/d/1l8zWrzpvPwYNtqvYUxWO2y3KJtFmKVidrAFmpPmaPyo/edit?usp=sharing){website}'

@@ -3,7 +3,7 @@ author: kapnobatai136
 
 type: normal
 
-category: how to
+category: how-to
 
 links:
   - '[CSV Files](https://people.sc.fsu.edu/~jburkardt/data/csv/csv.html){website}'

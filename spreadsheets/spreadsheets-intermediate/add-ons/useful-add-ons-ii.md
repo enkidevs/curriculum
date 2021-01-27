@@ -3,7 +3,7 @@ author: Stefan-Stojanovic
 
 type: normal
 
-category: how to
+category: how-to
 
 links:
   - '[Autocrat](https://gsuite.google.com/u/0/marketplace/app/autocrat/539341275670){website}'

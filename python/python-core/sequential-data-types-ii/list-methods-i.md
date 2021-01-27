@@ -1,7 +1,7 @@
 ---
 author: emmab
 type: normal
-category: how to
+category: how-to
 links:
   - >-
     [Python List

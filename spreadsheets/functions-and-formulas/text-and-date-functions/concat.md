@@ -3,7 +3,7 @@ author: Stefan-Stojanovic
 
 type: normal
 
-category: how to
+category: how-to
 
 links:
   - '[CONCAT](https://support.google.com/docs/answer/3093592?hl=en-GB){documentation}'

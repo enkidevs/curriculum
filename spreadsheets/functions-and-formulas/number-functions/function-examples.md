@@ -3,7 +3,7 @@ author: Stefan-Stojanovic
 
 type: normal
 
-category: how to
+category: how-to
 
 links:
   - '[AVERAGEIF](https://support.google.com/docs/answer/3256529?hl=en){documentation}'

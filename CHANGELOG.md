@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## January 27th 2021
+
+### Changed
+- [Update "how to" to "how-to" category II](https://github.com/enkidevs/curriculum/pull/2562)
+
 ## January 26th 2021
 
 ### Changed

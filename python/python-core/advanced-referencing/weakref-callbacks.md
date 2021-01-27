@@ -1,7 +1,7 @@
 ---
 author: catalin
 type: normal
-category: how to
+category: how-to
 links:
   - '[pymotw.com](https://pymotw.com/2/weakref/#references){website}'
 ---
