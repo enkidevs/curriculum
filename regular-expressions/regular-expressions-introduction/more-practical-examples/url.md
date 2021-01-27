@@ -105,3 +105,4 @@ Which regex pattern would validate the start of all these URLs?
 The "s" on the end of `https` stands for **Secure**. It means all communications between your browser and the server are encrypted.
 
 `https` is faster than `http`, and is the preferred way to serve web pages.
+ 

@@ -96,3 +96,4 @@ Double underscores in Python are commonly referred to by Pythonistas as "dunder"
 The meaning behind double underscores is to allow the core Python team to define so-called "Magic Methods" which define certain protocols that classes can choose to implement or not. By default, many of the built-in classes implement these methods.
 
 The double underscore was chosen as way to not have as many `reserved` method names such as in Java, by prefixing and postfixing the underscores, the name `iter` is still usable in code without interfering with the language's underlying mechanisms.
+ 

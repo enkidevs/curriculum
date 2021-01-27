@@ -103,3 +103,4 @@ Iterators are objects which return one value at a time from a collection of valu
 
 [2:Third Party Libraries]
 `pyrsistent` is a collection of a number of useful persistent data structures, AKA immutable data structures. `toolz` provides a set of utility functions for iterators, functions and dictionaries. `hypothesis` is a library which allows simple and powerful property-based testing. `more-itertools` is exactly what it says; the library provides additional building blocks, recipes and routines above the standard `itertools`.
+ 

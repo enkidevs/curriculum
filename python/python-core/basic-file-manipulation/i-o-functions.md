@@ -146,3 +146,4 @@ print('Hello')
 
 [2: stdout]
 Standard streams are preconnected communication channels between a computer program and its environment when it begins execution. There are 3 main connections standard input (`stdin`), standard output (`stdout`) and standard error (`stderr`).
+ 

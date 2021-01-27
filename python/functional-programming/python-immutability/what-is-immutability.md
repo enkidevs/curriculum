@@ -133,3 +133,4 @@ As a result of these techniques, immutability does not necessarily mean that the
 
 [2:Weakly Mutable]
 There are differing levels of immutability: **weak** and **strong**. An object is said to be **strongly immutable** if the entire object cannot be modified after creation. An object is said to be **weakly immutable** if the object contains some fields which *are* able to be modified after creation. I.E., the majority of the object would likely be immutable for the benefits that provides, but for convenience some data is still able to be modified after creation.
+ 

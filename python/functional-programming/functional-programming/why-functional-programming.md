@@ -67,3 +67,4 @@ Which of the following statements about pure functions is true?
 - They are easier to code than normal functions
 - They can use system calls
 - They are faster
+ 

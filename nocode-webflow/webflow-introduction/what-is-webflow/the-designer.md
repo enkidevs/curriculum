@@ -62,3 +62,4 @@ There is another way of accessing the `Designer`. From the [dashboard](https://w
 From there you can click on the `Designer` button.
 
 ![existing-project-settings](https://img.enkipro.com/2288aa691ae637d0bfaec1c9628afb36.png)
+ 

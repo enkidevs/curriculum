@@ -42,3 +42,4 @@ Finding a new template on Webflow is ???
 
 - easy because the website offers a search bar, 4 main categories and over 50 tags to customize your search.
 - hard because you only have a search bar.
+ 

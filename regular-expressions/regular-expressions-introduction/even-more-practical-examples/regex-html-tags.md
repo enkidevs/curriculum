@@ -76,3 +76,4 @@ How could we write a regex pattern to match all `<img>` tags?
 - `/<img.*>.*?<\/img>/`
 - `/<img[^>]*><\/img>/`
 - `/<img[^>]*>.*?</img>/`
+ 

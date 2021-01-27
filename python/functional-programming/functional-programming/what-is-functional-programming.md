@@ -128,3 +128,4 @@ print(result)
 
 [1: paradigm]
 A programming paradigm is a "style" of doing something. Basically they define a way to classify programming languages based on their features.
+ 

@@ -118,3 +118,4 @@ What function should be used to create a class Dynamically?
 
 [1:`type` function]
 As python documentation says, `type` is a built-in function which is always accessible. It is actually not a function as we would normally think about it but a class constructor which can take one or three parameters (in this insight we only consider a case where it takes three arguments). Of course it can be considered as a function since from users perspective there is no difference between a built-in class constructor and a function.
+ 
