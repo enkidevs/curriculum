@@ -1,5 +1,5 @@
 ---
-author: ioanna.ki
+author: iikiriakidou
 levels:
   - advanced
   - medium
@@ -9,7 +9,7 @@ tags:
   - javascript
 links:
   - >-
-    [samuli.hakoniemi.net](http://samuli.hakoniemi.net/10-small-things-you-may-not-know-about-javascript/){website}
+    [10 Small Things You May Not Know About Javascript](http://samuli.hakoniemi.net/10-small-things-you-may-not-know-about-javascript/){website}
 revisionQuestion:
   formats:
     - fill-in-the-gap

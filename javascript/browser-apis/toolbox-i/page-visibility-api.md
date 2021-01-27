@@ -4,10 +4,9 @@ type: normal
 category: must-know
 links:
   - >-
-    [developer.mozilla.org]([MDN docs on
-    visibleState](https://developer.mozilla.org/en-US/docs/Web/API/Document/visibilityState0{website}){website}
+    [Page Visibility API](https://developer.mozilla.org/en-US/docs/Web/API/Page_Visibility_API){website}
   - >-
-    [www.html5rocks.com](http://www.html5rocks.com/en/tutorials/pagevisibility/intro/){website}
+    [Using the PageVisibility API](http://www.html5rocks.com/en/tutorials/pagevisibility/intro/){website}
 practiceQuestion:
   formats:
     - fill-in-the-gap
