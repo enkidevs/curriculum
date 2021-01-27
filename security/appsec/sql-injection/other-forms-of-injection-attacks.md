@@ -6,6 +6,14 @@ links:
   - >-
     [Testing for Command Injection (OTG-INPVAL-013)
     ](https://www.owasp.org/index.php/Testing_for_Command_Injection_(OTG-INPVAL-013)){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Other forms of Injection attacks
@@ -62,4 +70,3 @@ http://sensitive/something.php?dir=???
 - %3Bcat%20/etc/passwd
 - ;cat /etc/passwd
 - ;$bash% cat /etc/passwd
- 

@@ -6,6 +6,14 @@ links:
   - >-
     [Refs and the
     DOM](https://facebook.github.io/react/docs/refs-and-the-dom.html){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # `React.createRef`

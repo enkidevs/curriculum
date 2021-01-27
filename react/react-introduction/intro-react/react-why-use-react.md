@@ -9,6 +9,14 @@ links:
   - >-
     [What is
     React.js](https://www.linkedin.com/pulse/what-reactjs-why-i-recommend-other-javascript-sandip-das){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Why use React?

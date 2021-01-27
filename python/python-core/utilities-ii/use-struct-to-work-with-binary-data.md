@@ -10,6 +10,14 @@ notes: >-
   packing and unpacking other data types should be shown. Should mention that is
   useful for reading and writing binary files, and converting between binary
   data and text data formats.
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Use `struct` to work with Binary Data

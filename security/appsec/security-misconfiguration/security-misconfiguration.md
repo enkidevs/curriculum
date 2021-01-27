@@ -15,6 +15,14 @@ links:
   - >-
     [12 Factor Apps store config in the
     environment](https://12factor.net/config){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Security Misconfiguration
@@ -52,4 +60,3 @@ Not checking the default security settings to allow access from only trusted sou
 - Insecure Application
 - Credential Access
 - Remote Access
- 

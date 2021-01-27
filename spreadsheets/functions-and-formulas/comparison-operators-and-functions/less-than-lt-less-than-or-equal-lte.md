@@ -1,15 +1,18 @@
-﻿---
+---
 author: Stefan-Stojanovic
-
 type: normal
-
 category: how-to
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+---
+
+# `<` , `<=` , `LT()` & `LTE()`
+
 
 ---
 
-# `<`, `<=`, `LT()` & `LTE()`
-
----
 ## Content
 
 > 💡 When comparing strings, Sheets will compare each character individually, starting from the first. 
@@ -41,7 +44,9 @@ If the first value is less than or equal to the second value the result will be 
 
 Take a look here[3] for more examples on `LTE()`.
 
+
 ---
+
 ## Revision
 
 The `LT()` function and `<` operator are used to check if the first value is smaller than the second value and output ??? if it is and ??? if it's not.
@@ -53,7 +58,9 @@ The `LTE()` function and `<=` operator are used to check if the first value is s
 - TRUE
 - FALSE
 
+
 ---
+
 ## Footnotes
 
 [1:Zero & Empty Cells]
@@ -63,6 +70,7 @@ If we had this table:
 | 1 | 0 |   |
 
 Then the formula:
+
 ```plain-text
 =LT(A1, B1)
 

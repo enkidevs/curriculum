@@ -1,24 +1,27 @@
-﻿---
+---
 author: Stefan-Stojanovic
-
 type: normal
-
 category: how-to
-
-links: 
+links:
   - '[Xpath Cheatsheet](https://devhints.io/xpath){documentation}'
   - '[IMPORTXML](https://support.google.com/docs/answer/3093342){documentation}'
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # IMPORTXML
 
+
 ---
+
 ## Content
 
 The `=IMPORTXML()` function is used to import various data from XML, HTML, CSV, TSV, RSS or ATOM XML feeds to your spreadsheet.
 
 The syntax is:
+
 ```plain-text
 =IMPORTXML(url, xpath_query)
 ```
@@ -49,7 +52,9 @@ For a list of Xpath functions, check the *Learn more* section.
 
 In the example above, we have imported all the links from a StackOverflow question.
 
+
 ---
+
 ## Practice
 
 What is the syntax for `=IMPORTXML()`?

@@ -3,14 +3,20 @@ author: lizTheDeveloper
 type: normal
 category: hack
 links:
-  - >-
-    [OWASP Top
-    Ten](https://owasp.org/www-project-top-ten/){website}
+  - '[OWASP Top Ten](https://owasp.org/www-project-top-ten/){website}'
   - >-
     [Threat
     Analysis](https://www.owasp.org/index.php/OWASP_Automated_Threats_to_Web_Applications){website}
   - '[Little Bobby Tables](https://xkcd.com/327/){website}'
   - '[Bobby Tables Prevention Guide](http://bobby-tables.com/){website}'
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # SQL Injection

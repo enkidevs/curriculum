@@ -1,18 +1,23 @@
 ---
 author: milesflo
-
 type: normal
-
 category: must-know
-
 links:
   - >-
     [SANS
     Institute](https://www.sans.org/reading-room/whitepapers/protocols/applying-osi-layer-network-model-information-security-1309){website}
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Identifying the Physical Layer
+
 
 ---
 
@@ -25,6 +30,7 @@ It acts as an intermediary between the hardware of the device and the **Data Lin
 The Physical Layer encompasses all electronic circuit transmission technologies on a given network. 
 
 These include but are not limited to: 
+
 - switches
 - ethernet
 - the USB physical layer
@@ -32,6 +38,7 @@ These include but are not limited to:
 - various wireless cards
 
 A wider definition of the Physical Layer may include physical mediums and power supplies.
+
 
 ---
 
@@ -47,6 +54,7 @@ What role does the Physical Layer play in the OSI 7 Layer Model?
 - Packaging data packets into data streams and vice versa for transport
 - Providing a user interface
 
+
 ---
 
 ## Revision
@@ -57,6 +65,7 @@ The Physical Layer converts logical packets from the Data Link Layer into ??? to
 - wavelengths
 - packets
 - light
+
 
 ---
 
@@ -75,7 +84,8 @@ What role does the  Physical Layer play in the OSI 7 Layer Model?
 - Transmitting data between network nodes
 - Routing and transmission over the physical topography of the Internet
 - Packaging data packets into data streams and vice versa for transport
- 
+
+
 ---
 
 ## Footnotes

@@ -3,9 +3,7 @@ author: lizTheDeveloper
 type: normal
 category: how-to
 links:
-  - >-
-    [ZAP (a vulnerability scanning
-    tool)](https://www.zaproxy.org/){website}
+  - '[ZAP (a vulnerability scanning tool)](https://www.zaproxy.org/){website}'
   - >-
     [A roundup of hacker
     tools](https://www.concise-courses.com/hacking-tools/top-ten/){website}
@@ -15,7 +13,10 @@ links:
   - >-
     [An exercise using automated tools with the NodeGoat
     server](https://f0.holisticinfosecforwebdevelopers.com/chap06.html#process-agile-development-and-practices-security-regression-testing){website}
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Automated Tools
@@ -74,4 +75,3 @@ Here's a list of the most common tools used in application security:
 - [John The Ripper](https://www.openwall.com/john/) - a password cracker
 - [Aircrack-NG](https://www.aircrack-ng.org/) - password / wifi cracker
 - [Ettercap](https://www.ettercap-project.org/) - Man in the middle attacker
- 

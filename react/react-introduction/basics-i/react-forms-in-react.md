@@ -4,6 +4,14 @@ type: normal
 category: must-know
 links:
   - '[Forms](https://facebook.github.io/react/docs/forms.html){website}'
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Forms in React

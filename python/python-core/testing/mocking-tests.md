@@ -6,6 +6,14 @@ links:
   - >-
     [More on mocking
     tests](https://docs.python.org/3/library/unittest.mock.html){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Mocking objects

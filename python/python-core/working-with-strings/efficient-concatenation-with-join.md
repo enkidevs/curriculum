@@ -5,6 +5,14 @@ category: tip
 tags:
   - speed-up-code
 notes: ''
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Efficient concatenation with `join()`

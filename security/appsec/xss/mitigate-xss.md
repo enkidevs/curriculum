@@ -1,29 +1,31 @@
 ---
 author: lizTheDeveloper
-
 type: normal
-
 category: how-to
-
 links:
+  - '[OWASP Top Ten](https://owasp.org/www-project-top-ten/){website}'
   - >-
-    [OWASP Top
-    Ten](https://owasp.org/www-project-top-ten/){website}
-  - >-
-    [Cross Site Scripting Prevention Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html){website}
+    [Cross Site Scripting Prevention Cheat
+    Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html){website}
   - >-
     [DOM based XSS Prevention Cheat
     Sheet](https://cheatsheetseries.owasp.org/cheatsheets/DOM_based_XSS_Prevention_Cheat_Sheet.html){website}
   - >-
     [XSS Filter Evasion Cheat
     Sheet](https://owasp.org/www-community/xss-filter-evasion-cheatsheet){website}
-  - >-
-    [OWASP Java Encoder
-    Project](https://owasp.org/owasp-java-encoder/){website}
-
+  - '[OWASP Java Encoder Project](https://owasp.org/owasp-java-encoder/){website}'
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # mitigate-xss
+
 
 ---
 
@@ -42,6 +44,7 @@ Follow these simple rules for mitigating XSS vulnerability.
 - Use HTTPOnly cookie flag
 - Implement Content Security Policy
 - Use an Auto-Escaping Template System
+
 
 ---
 
@@ -67,4 +70,3 @@ How should you escape your user input?
 - Using a library designed for the job
 - Write custom validation for my specific use case
 - Use IP filtering rules to determine which input to escape
- 

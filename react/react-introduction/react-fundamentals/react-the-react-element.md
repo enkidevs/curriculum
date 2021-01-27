@@ -6,6 +6,14 @@ links:
   - >-
     [Rendering
     elements](https://facebook.github.io/react/docs/rendering-elements.html){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # The React element

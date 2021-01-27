@@ -3,9 +3,15 @@ author: lizTheDeveloper
 type: normal
 category: how-to
 links:
-  - >-
-    [OWASP Top
-    Ten](https://owasp.org/www-project-top-ten/){website}
+  - '[OWASP Top Ten](https://owasp.org/www-project-top-ten/){website}'
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Fix broken access control
@@ -81,4 +87,3 @@ What order do these steps go in, to fix broken access control?
 - Return the proper HTTP status code for failing attempts
 - Apply process control measures to your development process to prevent future errors
 - Check for broken access control during your review cadence
- 

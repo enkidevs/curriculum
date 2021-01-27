@@ -6,6 +6,14 @@ links:
   - >-
     [Getting
     Started](https://facebook.github.io/react/docs/getting-started.html){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # React Dependencies
@@ -56,7 +64,7 @@ npm start
 > 💡 As with all the skills in the app, if you want to access more advanced or specific content at any time, **feel free to use the *Skill Map* tab** to jump to the workouts most relevant for you.
 
 > 💬 Why are you interested in learning React?
-> 
+>
 > Leave a comment or view some of the other comments for inspiration before moving on.
 
 

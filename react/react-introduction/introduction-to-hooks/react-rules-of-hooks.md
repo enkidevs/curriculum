@@ -4,6 +4,14 @@ type: normal
 category: how-to
 links:
   - '[Rules of hooks](https://reactjs.org/docs/hooks-rules.html){documentation}'
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Rules of hooks
