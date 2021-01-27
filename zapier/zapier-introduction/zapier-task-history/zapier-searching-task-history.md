@@ -2,6 +2,10 @@
 author: kapnobatai136
 category: feature
 type: normal
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # History of a Single Task
@@ -36,4 +40,3 @@ Zaps can be renamed from which screen?
 - Both.
 - Zap editing screen.
 - Dashboard.
- 

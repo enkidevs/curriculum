@@ -2,6 +2,14 @@
 author: kapnobatai136
 category: must-know
 type: normal
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Search and Create
@@ -60,4 +68,3 @@ One common action in Zapier is the search and create. When setting up your step,
 
 [2:Create a New Column]
 This step was set up such that every time it is activated a new column is added. This means that you might end up with 10 (or even more) new columns with the same name. Some improvements for this zap will be presented in a subsequent mission.
- 

@@ -2,6 +2,14 @@
 author: kapnobatai136
 category: feature
 type: normal
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # What Are Filters?
@@ -43,4 +51,3 @@ Filtering is done with ???.
 
 - the Filter by Zapier step
 - a separate filter application
- 

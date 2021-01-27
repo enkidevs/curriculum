@@ -2,6 +2,10 @@
 author: kapnobatai136
 category: feature
 type: normal
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Task History Advanced
@@ -44,4 +48,3 @@ Clicking on a zap in the task history will:
 - Open a detailed view of said zap.
 - Rename said zap.
 - Will delete zap from the task history.
- 

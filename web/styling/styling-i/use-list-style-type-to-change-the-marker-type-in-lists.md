@@ -12,6 +12,14 @@ links:
   - >-
     [The list-style
     Property](https://css-tricks.com/almanac/properties/l/list-style/){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Use `list-style-type` to change the marker type in lists

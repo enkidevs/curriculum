@@ -5,6 +5,14 @@ type: normal
 links:
   - '[Your Integrations](https://zapier.com/app/zaps){website}'
   - '[Dashboard](https://zapier.com/app/dashboard){website}'
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Maintaining Zaps
@@ -58,4 +66,3 @@ In the [dashboard](https://zapier.com/app/dashboard) you **can**:
 - discover new integrations
 - turn zaps on and off
 - organize zaps
- 

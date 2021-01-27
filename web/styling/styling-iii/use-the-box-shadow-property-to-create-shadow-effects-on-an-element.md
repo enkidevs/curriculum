@@ -12,6 +12,14 @@ links:
   - >-
     [MDN Docs on Box
     Shadow](https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Use the `box-shadow` property to create shadow effects on an element

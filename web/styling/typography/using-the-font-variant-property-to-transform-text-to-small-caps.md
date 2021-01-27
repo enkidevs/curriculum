@@ -14,6 +14,10 @@ links:
   - >-
     [MDN Docs on Font
     Variant](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/font-variant){documentation}
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Using the `font-variant` property to transform text to small caps
