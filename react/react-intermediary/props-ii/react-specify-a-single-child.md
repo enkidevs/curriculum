@@ -1,19 +1,23 @@
 ---
 author: catalin
-
 type: normal
-
 category: how-to
-
 links:
   - >-
     [Requiring Single
     Child](https://facebook.github.io/react/docs/typechecking-with-proptypes.html#requiring-single-child){website}
-
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Specify a Single Child
+
 
 ---
 
@@ -46,6 +50,7 @@ NewComponent.propTypes = {
   children: PropTypes.element.isRequired
 };
 ```
+
 
 ---
 

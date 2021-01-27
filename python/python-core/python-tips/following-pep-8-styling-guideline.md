@@ -6,6 +6,14 @@ links:
   - >-
     [www.python.org](https://www.python.org/dev/peps/pep-0008/#whitespace-in-expressions-and-statements){website}
 notes: ''
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Following PEP 8 styling guideline.

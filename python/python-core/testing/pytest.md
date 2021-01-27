@@ -6,6 +6,14 @@ links:
   - >-
     [Learn more about
     pytest](https://semaphoreci.com/community/tutorials/testing-python-applications-with-pytest){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Pytest
@@ -96,6 +104,7 @@ For `pytest` to collect an assertion function, its name has
 - `to end in _test`
 - `to contain assert`
 - either one of these
+
 
 ---
 

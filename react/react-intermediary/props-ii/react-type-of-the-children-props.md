@@ -6,6 +6,14 @@ links:
   - >-
     [Children in
     JSX](https://facebook.github.io/react/docs/jsx-in-depth.html#children-in-jsx){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Type of the Children props

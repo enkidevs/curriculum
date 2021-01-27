@@ -2,6 +2,14 @@
 author: catalin
 type: normal
 category: best-practice
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # `null` value for Controlled Components in React

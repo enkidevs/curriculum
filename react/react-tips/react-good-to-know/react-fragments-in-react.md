@@ -4,6 +4,14 @@ type: normal
 category: feature
 links:
   - '[Fragments](https://facebook.github.io/react/docs/fragments.html){website}'
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Fragments in **React**

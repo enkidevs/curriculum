@@ -2,6 +2,14 @@
 author: kapnobatai136
 type: normal
 category: tip
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # setState is async
@@ -61,6 +69,7 @@ When thinking of class components, where would you insert a callback function so
 - after calling the setState method
 - before calling the setState method
 - anywhere, as long as it is in the same scope as the setState method
+
 
 ---
 

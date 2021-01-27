@@ -7,6 +7,14 @@ category: must-know
 links:
   - >-
     [Pythonic](https://stackoverflow.com/questions/25011078/what-does-pythonic-mean){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Fundamental Data types

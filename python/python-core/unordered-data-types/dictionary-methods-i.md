@@ -6,6 +6,14 @@ links:
   - >-
     [Dictionary
     methods](https://www.programiz.com/python-programming/dictionary){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Dictionary Methods I

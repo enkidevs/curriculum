@@ -6,6 +6,14 @@ links:
   - >-
     [React
     Children](https://facebook.github.io/react/docs/top-level-api.html#reactchildren){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # `React.Children` methods

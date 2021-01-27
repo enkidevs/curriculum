@@ -1,18 +1,20 @@
-﻿---
+---
 author: Stefan-Stojanovic
-
 type: normal
-
 category: how-to
-
 links:
   - '[IMPORTFEED](https://support.google.com/docs/answer/3093337){documentation}'
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # =IMPORTFEED()
 
+
 ---
+
 ## Content
 
 The `=IMPORTFEED()` function is used to import an RSS or ATOM feed.
@@ -20,6 +22,7 @@ The `=IMPORTFEED()` function is used to import an RSS or ATOM feed.
 ![importfeed](https://img.enkipro.com/c48fee70f924f32110df2d85436e290f.gif)
 
 The syntax is:
+
 ```plain-text
 =IMPORTFEED(url, query, headers, num_items)
 ```
@@ -35,7 +38,9 @@ You can either add the URL directly into the function and enclose it in quotatio
 =IMPORTFEED(A3)
 ```
 
+
 ---
+
 ## Practice
 
 The `=IMPORTFEED()` function is used to import an ???

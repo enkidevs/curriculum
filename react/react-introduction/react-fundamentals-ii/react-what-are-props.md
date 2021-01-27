@@ -9,6 +9,14 @@ links:
   - >-
     [Props
     overview](https://www.tutorialspoint.com/reactjs/reactjs_props_overview.htm){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # What are props?

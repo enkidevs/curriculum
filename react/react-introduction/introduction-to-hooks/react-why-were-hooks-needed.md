@@ -7,6 +7,14 @@ links:
   - >-
     [Higher order
     components](https://reactjs.org/docs/higher-order-components.html){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Why were hooks needed?

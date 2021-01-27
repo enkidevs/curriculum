@@ -4,6 +4,14 @@ type: normal
 category: how-to
 links:
   - '[docs.python.org](https://docs.python.org/3.5/library/sched.html){website}'
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Schedule events with `sched`

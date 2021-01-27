@@ -10,6 +10,14 @@ notes: >-
   Originally from Dan Abramov
   http://twitter.com/dan_abramov/status/658710159125037056 but don't have
   permission to use yet so re-wrote a little
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Use `propTypes` on stateless components

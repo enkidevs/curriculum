@@ -2,6 +2,14 @@
 author: lizTheDeveloper
 type: normal
 category: how-to
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # What else do you need to know?
@@ -23,7 +31,7 @@ Before diving into this skill, you should make sure you have a strong foundation
 > 💡 As with all the skills in the app, if you want to access more advanced or specific content at any time, **feel free to use the *Skill Map* tab** to jump to the workouts most relevant for you.
 
 > 💬 Why are you interested in learning about Security?
-> 
+>
 > Leave a comment or view some of the other comments for inspiration before moving on.
 
 
@@ -69,4 +77,3 @@ How memory in a computer works, and where data is located at any given time
 It's something everyone needs to know at some level. It enforces building a secure application from the start, or when major outbreaks occur they can take steps to protect themselves and the applications they develop
 
 At more advanced levels, it means strictly following regulatory guidelines to ensure certain kinds of data are very well protected. At very advanced levels, it can mean research, penetration testing, and more.
- 

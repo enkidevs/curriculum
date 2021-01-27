@@ -6,6 +6,14 @@ links:
   - >-
     [React.memo Official
     Documentation](https://facebook.github.io/react/docs/react-api.html#reactmemo){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Shallow compare in function components

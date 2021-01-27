@@ -6,6 +6,10 @@ links:
   - >-
     [Use deep compare
     effect](https://github.com/kentcdodds/use-deep-compare-effect){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Dependency array for useEffect

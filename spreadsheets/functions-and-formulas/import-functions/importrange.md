@@ -1,23 +1,26 @@
-﻿---
+---
 author: Stefan-Stojanovic
-
 type: normal
-
 category: how-to
-
 links:
   - '[IMPORTRANGE](https://support.google.com/docs/answer/3093340){documentation}'
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # =IMPORTRANGE()
 
+
 ---
+
 ## Content
 
 The `=IMPORTRANGE()` function is used to import a specific range of cells from a specified spreadsheet.
 
 The syntax is:
+
 ```plain-text
 =IMPORTRANGE(spreadsheet_url, range_string)
 ```
@@ -56,7 +59,9 @@ Whether you use just the `range` or both, you have to enclose them in quotation 
 =IMPORTRANGE(A1,"A1:D99")
 ```
 
+
 ---
+
 ## Practice
 
 Which of the following is not true regarding the `IMPORTRANGE()` function?

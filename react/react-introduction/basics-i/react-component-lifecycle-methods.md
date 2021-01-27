@@ -9,6 +9,14 @@ links:
   - >-
     [Lifecycle methods
     diagram](http://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Component lifecycle methods

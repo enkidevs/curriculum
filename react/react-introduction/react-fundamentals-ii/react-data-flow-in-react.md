@@ -2,6 +2,14 @@
 author: catalin
 type: normal
 category: must-know
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Data Flow in React
@@ -54,4 +62,3 @@ Although React uses one-way data binding, there is also two-way data binding. By
 
 - when you update a property in the model, the UI is also updated
 - when you update the UI, the data model is also changed
- 

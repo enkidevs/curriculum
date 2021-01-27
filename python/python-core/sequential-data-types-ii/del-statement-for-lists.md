@@ -6,6 +6,14 @@ links:
   - >-
     [The `del`
     statement](https://docs.python.org/3.5/tutorial/datastructures.html#the-del-statement){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # The `del` operator for lists

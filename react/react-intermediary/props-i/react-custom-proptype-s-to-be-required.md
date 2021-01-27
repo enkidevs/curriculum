@@ -6,6 +6,14 @@ links:
   - >-
     [Custom PropType validation with
     React](http://www.ian-thomas.net/custom-proptype-validation-with-react/){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Require custom `propTypes` validators
@@ -96,6 +104,7 @@ Is there a way to make a custom `propTypes` validator function implementing the 
 - Only in ES6
 - Only in ES5 and ES6
 - Only with an external package
+
 
 ---
 

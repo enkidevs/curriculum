@@ -2,6 +2,14 @@
 author: Aaron7Sun
 type: normal
 category: tip
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Three ways to substitute a substring of a string

@@ -6,6 +6,10 @@ links:
   - >-
     [Components and
     props](https://facebook.github.io/react/docs/components-and-props.html){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Using React Components

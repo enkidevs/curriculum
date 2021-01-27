@@ -1,10 +1,7 @@
 ---
 author: catalin
-
 type: normal
-
 category: how-to
-
 links:
   - >-
     [Async
@@ -13,11 +10,17 @@ links:
     [Why do we need middleware for async flow in
     Redux](http://stackoverflow.com/questions/34570758/why-do-we-need-middleware-for-async-flow-in-redux){website}
   - '[Redux thunk](https://github.com/reduxjs/redux-thunk){website}'
-
 notes: >-
   This insight should be given right before or after the specific Middleware
   insight. ( 56a2137805a87a0600cfa409 )
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Async Flow in Redux
@@ -94,6 +97,7 @@ function conditional_async() {
 
 In this example, we get the current `state` of our app, and if the `counter` is less that 51 we dispatch the `increase()` action defined before. If the `counter` is higher than or equal to 51, then we do nothing.
 
+
 ---
 
 ## Practice
@@ -105,6 +109,7 @@ Which of the following packages do you think does not provide support for async 
 - bluebird
 - redux-thunk
 - redux-promise
+
 
 ---
 
