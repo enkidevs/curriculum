@@ -2,10 +2,13 @@
 author: jfarmer
 type: normal
 category: must-know
-inAlgoPool: false
 tags:
   - introduction
   - workout
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Users And Groups On Linux

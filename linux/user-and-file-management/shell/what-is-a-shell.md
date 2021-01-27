@@ -2,9 +2,12 @@
 author: jfarmer
 type: normal
 category: must-know
-inAlgoPool: false
 tags:
   - null
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # What is a *shell* ?

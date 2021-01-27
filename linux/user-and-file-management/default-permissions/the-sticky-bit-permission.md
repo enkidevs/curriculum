@@ -9,6 +9,10 @@ tags:
   - sticky bit
   - deep
   - workout
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # The `sticky bit` permission

@@ -10,6 +10,14 @@ tags:
   - bashrc
   - export
   - introduction
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Adding Directories to `PATH`

@@ -12,6 +12,14 @@ tags:
 links:
   - >-
     [www.cyberciti.biz](http://www.cyberciti.biz/faq/unix-linux-w-command-examples-syntax-usage-2/){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # List currently logged in users

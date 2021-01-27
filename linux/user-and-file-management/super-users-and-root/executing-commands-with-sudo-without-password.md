@@ -8,6 +8,10 @@ tags:
   - password
   - workout
 notes: ''
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Executing commands with `sudo` without password
@@ -67,4 +71,3 @@ You can disable the `sudo` password by modifying the
 - `/etc/visudo`
 - `/etc/passwd`
 - `~/.bashrc`
- 

@@ -2,6 +2,10 @@
 author: Stefan-Stojanovic
 type: normal
 category: how-to
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Getting Started
@@ -36,4 +40,3 @@ How do you create a new project?
 - `Dashboard -> + New Project -> Empty`.
 - `Account -> + New Project -> Blank Site`.
 - `Account -> + New Project -> Empty`.
- 

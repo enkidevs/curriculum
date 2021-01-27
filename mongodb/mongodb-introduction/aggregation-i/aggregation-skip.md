@@ -5,6 +5,14 @@ category: how-to
 links:
   - >-
     [official-documentation](https://docs.mongodb.com/manual/reference/operator/aggregation/skip/){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Aggregation $skip

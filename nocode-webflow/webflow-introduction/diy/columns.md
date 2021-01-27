@@ -2,6 +2,10 @@
 author: Stefan-Stojanovic
 type: normal
 category: how-to
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Columns
@@ -48,4 +52,3 @@ Columns are layout elements used for organizing content side by side ???.
 
 - horizontally
 - vertically
- 

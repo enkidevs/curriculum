@@ -11,6 +11,14 @@ tags:
   - find
   - null
   - workout
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Find any Unix / Linux command

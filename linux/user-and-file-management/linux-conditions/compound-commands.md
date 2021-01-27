@@ -6,6 +6,14 @@ links:
   - >-
     [Bash test and comparison
     functions](https://www.ibm.com/developerworks/library/l-bash-test/index.html){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # The `((` and `[[` Compound Commands

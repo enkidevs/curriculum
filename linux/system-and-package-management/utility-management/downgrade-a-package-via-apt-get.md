@@ -8,6 +8,10 @@ tags:
   - apt-get
   - package
   - terminal
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Downgrade a package via `apt-get`

@@ -8,6 +8,10 @@ tags:
   - boot
   - execute
   - rc.local
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Executing scripts on system boot using `systemd`

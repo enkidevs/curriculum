@@ -1,21 +1,20 @@
 ---
 author: jfarmer
-
 type: normal
-
 category: must-know
-
 tags:
   - introduction
   - workout
-
 links:
-  - >- 
-    [ls manual page](https://man7.org/linux/man-pages/man1/ls.1.html){website}
-
+  - '[ls manual page](https://man7.org/linux/man-pages/man1/ls.1.html){website}'
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Using `find` To Search By File Size
+
 
 ---
 
@@ -54,6 +53,7 @@ The `-h` option tells `ls` to output the file sizes in a human-friendly format, 
 
 > 💡 You can use *any* command with `-exec`, not just `ls`.
 
+
 ---
 
 ## Revision
@@ -73,6 +73,7 @@ Find all the files (in the current directory) of at least 1GB in size :
 - `+1GB`
 - `sudo`
 
+
 ---
 
 ## Footnotes
@@ -87,6 +88,7 @@ find . -size +100M
 ```
 
 Because we used `\;`, for **every file found**, this is what happens:
+
 - replace `{}` with the file's name
 - run the `ls -lh` command
 
@@ -96,4 +98,4 @@ You could also use `\+`, which appends all the found file names inside `{}`. The
 
 In this case, the command (`ls -lh`) will have a total number of invocations less than the number of found files.
 
-You can read more about this in the [`find`'s manual page](https://man7.org/linux/man-pages/man1/find.1.html#EXPRESSION). You'll find the information regarding `exec` under the `ACTIONS` headline. 
+You can read more about this in the [`find`'s manual page](https://man7.org/linux/man-pages/man1/find.1.html#EXPRESSION). You'll find the information regarding `exec` under the `ACTIONS` headline.

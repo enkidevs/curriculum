@@ -2,6 +2,10 @@
 author: jfarmer
 type: normal
 category: must-know
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # The Basics of Environment Variables
