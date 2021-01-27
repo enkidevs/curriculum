@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## January 27th 2021
+
+### Changed
+- [HTML - Image Types - Update information, Make Table](https://github.com/enkidevs/curriculum/pull/2563)
+
 ## January 26th 2021
 
 ### Changed
