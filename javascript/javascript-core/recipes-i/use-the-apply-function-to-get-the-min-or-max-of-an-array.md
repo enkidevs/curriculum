@@ -4,6 +4,14 @@ type: normal
 category: pattern
 links:
   - '[stackoverflow](http://stackoverflow.com/questions/21255138){discussion}'
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Use the `apply` Function to Get the `min` or `max` of an Array

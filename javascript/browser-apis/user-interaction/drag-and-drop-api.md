@@ -5,6 +5,14 @@ category: must-know
 links:
   - >-
     [www.tutorialspoint.com](http://www.tutorialspoint.com/html5/html5_drag_drop.htm){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Drag and Drop API

@@ -9,6 +9,14 @@ tags:
 links:
   - >-
     [ruben.verborgh.org](http://ruben.verborgh.org/blog/2012/12/31/asynchronous-error-handling-in-javascript/){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Error-first Callbacks

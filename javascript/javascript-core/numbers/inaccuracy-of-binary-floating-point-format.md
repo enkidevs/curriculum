@@ -2,9 +2,18 @@
 author: catalin
 type: normal
 category: caveats
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Inaccuracy of Binary Floating-Point Format
+
 
 ---
 
@@ -33,6 +42,7 @@ It is advised to avoid comparisons between floating point numbers. Instead, cons
 ```javascript
 eql = Math.abs((.1 + .2) - .3) < .0000001;
 ```
+
 
 ---
 

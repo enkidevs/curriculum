@@ -8,6 +8,14 @@ links:
     visibleState](https://developer.mozilla.org/en-US/docs/Web/API/Document/visibilityState0{website}){website}
   - >-
     [www.html5rocks.com](http://www.html5rocks.com/en/tutorials/pagevisibility/intro/){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Page Visibility API

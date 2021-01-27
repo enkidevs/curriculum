@@ -2,7 +2,6 @@
 author: lizTheDeveloper
 type: normal
 category: feature
-inAlgoPool: false
 tags:
   - introduction
   - workout
@@ -12,6 +11,14 @@ tags:
 links:
   - >-
     [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/copyWithin){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Array.copyWithin

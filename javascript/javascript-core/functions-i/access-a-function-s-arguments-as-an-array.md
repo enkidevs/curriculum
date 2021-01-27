@@ -8,6 +8,14 @@ links:
   - >-
     [The Arguments
     Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/arguments){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Access a Function's `arguments` as an Array
@@ -92,4 +100,3 @@ function myArray() {
 - splice
 - args
 - argvs
-

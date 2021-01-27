@@ -7,6 +7,14 @@ links:
     [developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/API/Window/location){website}
   - >-
     [www.w3schools.com](http://www.w3schools.com/js/js_window_location.asp){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # `top.location.href`

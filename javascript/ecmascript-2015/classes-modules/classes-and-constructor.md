@@ -2,7 +2,6 @@
 author: alexjmackey
 type: normal
 category: feature
-inAlgoPool: false
 tags:
   - es6
   - introduction
@@ -14,6 +13,14 @@ links:
   - >-
     [MDN -
     Constructors](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/constructor){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Classes and Constructor

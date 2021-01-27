@@ -1,25 +1,31 @@
 ---
 author: Kirill
-
 levels:
   - basic
   - advanced
   - medium
-
 type: normal
-
 category: how-to
-
 notes: 'Check how this works with bruno '
-
 links:
-  - '[Checking whether a value is an integer in JavaScript](http://www.2ality.com/2014/05/is-integer.html){blog}'
-
+  - >-
+    [Checking whether a value is an integer in
+    JavaScript](http://www.2ality.com/2014/05/is-integer.html){blog}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Check if an Argument Is a Number
 
+
 ---
+
 ## Content
 
 ```js
@@ -30,7 +36,9 @@ function isNumber(n){
 }
 ```
 
+
 ---
+
 ## Practice
 
 Complete the code to check if the argument is a number:
@@ -43,20 +51,22 @@ function isNumber(x) {
 }
 ```
 
-* `parseFloat`
-* `isFinite`
-* `&&`
-* `finite`
-* `isInfinte`
-* `++`
-* `&`
-* `+`
-* `parse`
-* `'null'`
-* `typeof`
-* `var`
+- `parseFloat`
+- `isFinite`
+- `&&`
+- `finite`
+- `isInfinte`
+- `++`
+- `&`
+- `+`
+- `parse`
+- `'null'`
+- `typeof`
+- `var`
+
 
 ---
+
 ## Revision
 
 Complete the code in order to check if the input is a number or not:
@@ -69,11 +79,10 @@ function isNumber(n){
 }
 ```
 
-* `isNaN`
-* `parseFloat`
-* `isFinite`
-* `isInfinite`
-* `typeof`
-* `isNum`
-* `isValue`
- 
+- `isNaN`
+- `parseFloat`
+- `isFinite`
+- `isInfinite`
+- `typeof`
+- `isNum`
+- `isValue`

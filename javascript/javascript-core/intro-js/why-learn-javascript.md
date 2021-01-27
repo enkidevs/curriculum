@@ -4,6 +4,14 @@ type: normal
 category: must-know
 tags:
   - introduction
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Why Learn JavaScript?
@@ -50,4 +58,3 @@ Why was **JavaScript** originally developed?
 - To create databases
 - To enhance Java
 - To replace HTML
- 

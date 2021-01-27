@@ -8,6 +8,14 @@ tags:
 links:
   - >-
     [www.2ality.com](http://www.2ality.com/2015/04/numbers-math-es6.html){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Binary and octal notation

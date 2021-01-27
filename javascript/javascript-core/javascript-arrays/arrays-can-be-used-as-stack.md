@@ -4,6 +4,14 @@ type: normal
 category: tip
 links:
   - '[stackoverflow](http://stackoverflow.com/questions/1590247){discussion}'
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Arrays Can Be Used as Stack

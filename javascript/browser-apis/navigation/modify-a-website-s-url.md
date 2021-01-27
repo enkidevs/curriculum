@@ -7,6 +7,14 @@ links:
     [css-tricks.com](https://css-tricks.com/using-the-html5-history-api/hello){website}
   - >-
     [developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/API/History_API#The_pushState()_method){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Modify a website's URL

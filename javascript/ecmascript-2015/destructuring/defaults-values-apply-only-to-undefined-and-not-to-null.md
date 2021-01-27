@@ -12,6 +12,14 @@ links:
   - >-
     [MDN -
     Null](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/null){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Defaults values apply only to `undefined` (and not to `null` )

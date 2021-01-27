@@ -6,6 +6,14 @@ links:
   - >-
     [Official
     Documentation](https://developer.mozilla.org/en-US/docs/Web/API/FileReader/readAsText){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # FileReader.readAsText()

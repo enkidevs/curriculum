@@ -9,9 +9,18 @@ links:
   - >-
     [stackoverflow.com](http://stackoverflow.com/questions/2236747/use-of-the-javascript-bind-method){website}
   - '[www.javascripture.com](http://www.javascripture.com/Function#bind){website}'
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # `.bind()`
+
 
 ---
 
@@ -37,6 +46,7 @@ var add10 = sum.bind(null, 10);
 // binds a = 10
 console.log(add10(10)); // 20
 ```
+
 
 ---
 

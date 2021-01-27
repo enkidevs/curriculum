@@ -2,10 +2,17 @@
 author: alexjmackey
 type: normal
 category: feature
-inAlgoPool: false
 links:
   - >-
     [MDN](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Destructuring (Part 3)

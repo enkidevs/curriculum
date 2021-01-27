@@ -2,13 +2,20 @@
 author: alexjmackey
 type: normal
 category: must-know
-inAlgoPool: false
 tags:
   - introduction
   - workout
 links:
   - >-
     [developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Control_flow_and_error_handling){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Exceptions
@@ -112,4 +119,3 @@ Complete the missing keyword for throwing an exception:
 - `catch`
 - `try`
 - `finally`
- 

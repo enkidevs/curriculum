@@ -2,13 +2,20 @@
 author: alexjmackey
 type: normal
 category: must-know
-inAlgoPool: false
 tags:
   - introduction
   - obscura
 links:
   - >-
     [www.ecma-international.org](http://www.ecma-international.org/publications/standards/Ecma-262.htm){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # JavaScript or ECMAScript?
@@ -60,4 +67,3 @@ Which one of the following came first ?
 - JavaScript
 - ECMAScript-262
 - ECMAScript 2016
- 

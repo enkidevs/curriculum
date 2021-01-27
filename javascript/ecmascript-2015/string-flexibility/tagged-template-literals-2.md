@@ -2,7 +2,6 @@
 author: lizTheDeveloper
 type: normal
 category: feature
-inAlgoPool: false
 tags:
   - workout
   - es6
@@ -11,6 +10,14 @@ tags:
 links:
   - >-
     [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Tagged Template Literals

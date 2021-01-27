@@ -2,13 +2,20 @@
 author: alexjmackey
 type: normal
 category: must-know
-inAlgoPool: false
 tags:
   - introduction
   - obscura
 links:
   - >-
     [www.w3.org](https://www.w3.org/community/webed/wiki/A_Short_History_of_JavaScript){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # JavaScript History
@@ -51,4 +58,3 @@ The first version of JavaScript was developed by ??? in only 10 days.
 - Bjarne Stroustrup
 - James Gosling
 - Linus Torvalds
- 

@@ -6,6 +6,14 @@ tags:
   - javascript
 links:
   - '[The Modern JavaScript Tutorial](https://javascript.info/){website}'
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Interaction with the user

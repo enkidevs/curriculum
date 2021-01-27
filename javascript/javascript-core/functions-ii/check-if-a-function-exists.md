@@ -5,9 +5,18 @@ category: feature
 links:
   - >-
     [stackoverflow.com](http://stackoverflow.com/questions/1042138/javascript-check-if-function-exists){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Check If a Function Exists
+
 
 ---
 

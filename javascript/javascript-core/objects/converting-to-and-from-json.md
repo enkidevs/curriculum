@@ -5,6 +5,14 @@ category: feature
 tags:
   - JSON
   - introduction
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Converting to and From JSON
@@ -128,4 +136,3 @@ JSON.stringify(enkiObj);
 - `"{"a":"first","b":"second"}"`
 - `"{"a":"first","b":"second","c":"third"}"`
 - `"{a: "first", b: "second"}"`
-

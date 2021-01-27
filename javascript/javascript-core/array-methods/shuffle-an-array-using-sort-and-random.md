@@ -7,6 +7,14 @@ tags:
   - workout
 links:
   - '[stackoverflow](http://stackoverflow.com/questions/2450954){discussion}'
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Shuffle an Array Using Sort and Random

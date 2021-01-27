@@ -9,6 +9,14 @@ links:
   - >-
     [Profiling Page Loads with the Navigation Timing
     API](http://www.sitepoint.com/profiling-page-loads-with-the-navigation-timing-api/){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Navigation Timing API

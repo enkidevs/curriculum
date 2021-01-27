@@ -8,9 +8,18 @@ tags:
 links:
   - >-
     [stackoverflow.com](http://stackoverflow.com/questions/1986896/what-is-the-difference-between-call-and-apply){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Difference Between **.call** and **.apply** Methods
+
 
 ---
 

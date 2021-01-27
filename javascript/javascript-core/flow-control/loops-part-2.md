@@ -1,16 +1,21 @@
 ---
 author: alexjmackey
-
 type: normal
-
 category: must-know
-
 links:
   - '[for in / for of loops](https://youtu.be/a3KHBqH7njs){video}'
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Loops - Part 2
+
 
 ---
 
@@ -98,6 +103,7 @@ do {
 } while (i < 10);
 // 1 3 4
 ```
+
 
 ---
 

@@ -6,6 +6,14 @@ tags:
   - deep
   - workout
   - polyfill
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Meaning of Polyfill

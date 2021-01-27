@@ -7,6 +7,14 @@ links:
     [16 Common JavaScript
     Gotchas](http://www.standardista.com/javascript/15-common-javascript-gotchas){website}
   - '[== vs ===](https://youtu.be/kVOmc7NK1M0){video}'
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Data Type Comparison in `switch` Statements

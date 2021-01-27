@@ -1,31 +1,28 @@
 ---
 author: mihaiberq
-
 levels:
   - beginner
   - basic
-
 type: normal
-
 category: must-know
-
 stub: true
-
 tags:
   - introduction
-
 aspects:
   - introduction
-
-
 ---
+
 # Automatic Semicolon Insertion
 
----
-## Content
 
 ---
-## Quiz 
+
+## Content
+
+
+---
+
+## Quiz
 
 ### What will the following snippet output?
 
@@ -38,8 +35,7 @@ function pi() {
 }
 console.log(pi())
 
-* 'undefined'
-* {pi: 3.14}
-* SyntaxError
-* {'pi': 3.14}
- 
+- 'undefined'
+- {pi: 3.14}
+- SyntaxError
+- {'pi': 3.14}

@@ -5,6 +5,14 @@ category: hack
 tags:
   - introduction
   - obscura
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Setting the Length of an Array

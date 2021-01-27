@@ -2,10 +2,17 @@
 author: alexjmackey
 type: normal
 category: must-know
-inAlgoPool: false
 links:
   - >-
     [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Number Extensions (Part 2)

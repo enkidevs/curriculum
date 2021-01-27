@@ -8,6 +8,14 @@ tags:
   - slice
 links:
   - '[stackoverflow](http://stackoverflow.com/questions/8043026){discussion}'
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Quick Way to Format Integers With a Fixed Number of Digits.
