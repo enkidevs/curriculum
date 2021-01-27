@@ -4,6 +4,14 @@ type: normal
 category: caveats
 links:
   - '[CSS Trick](https://gist.github.com/sodevious/b87dbedb721624338b04){website}'
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Debug with the `*` selector

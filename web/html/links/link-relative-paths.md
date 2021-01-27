@@ -8,6 +8,14 @@ links:
   - >-
     [Absolute vs Relative
     Paths](https://www.coffeecup.com/help/articles/absolute-vs-relative-pathslinks/){article}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Relative Paths

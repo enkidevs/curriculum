@@ -8,6 +8,14 @@ links:
   - >-
     [HTML <dl>
     Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dl){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Description Lists

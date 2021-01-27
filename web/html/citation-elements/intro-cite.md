@@ -6,6 +6,14 @@ links:
   - >-
     [HTML <cite>
     Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/cite){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # The `<cite>` Element

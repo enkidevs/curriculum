@@ -1,13 +1,19 @@
 ---
 author: Stefan-Stojanovic
-
 type: normal
-
 category: must-know
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Display Code in HTML
+
 
 ---
 
@@ -39,6 +45,7 @@ The default font style for the `<code>` element for most browsers is the monospa
 ![code-element-style](https://img.enkipro.com/aa6b83ce3011d5ec08701c538a3a8f7c.png)
 
 [View CodePen](https://codepen.io/enkidevs/pen/mKzKxa)
+
 
 ---
 

@@ -9,6 +9,14 @@ links:
   - >-
     [StackOverflow: Multiple
     Checkboxes](https://stackoverflow.com/questions/18745456/handle-multiple-checkboxes-with-a-single-serverside-variable){discussion}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Checkbox Groups

@@ -9,6 +9,14 @@ links:
   - >-
     [User
     Agent](https://developer.mozilla.org/en-US/docs/Glossary/user_agent){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # The `<bdi>` Element

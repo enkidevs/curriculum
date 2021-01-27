@@ -2,7 +2,6 @@
 author: mihaiberq
 type: normal
 category: must-know
-inAlgoPool: false
 links:
   - >-
     [Scrimba CSS Position
@@ -10,6 +9,14 @@ links:
   - >-
     [MDN Docs on
     Positioning](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Positioning){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Positioning Elements

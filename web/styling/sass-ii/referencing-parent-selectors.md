@@ -6,6 +6,10 @@ links:
   - >-
     [Referencing Parent
     Selectors](http://thesassway.com/intermediate/referencing-parent-selectors-using-ampersand){website}
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Referencing Parent Selectors

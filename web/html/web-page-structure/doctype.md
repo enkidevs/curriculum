@@ -9,6 +9,14 @@ links:
   - >-
     [All Doctype
     Declarations](https://www.w3.org/QA/2002/04/valid-dtd-list.html){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Doctype

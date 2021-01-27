@@ -1,23 +1,26 @@
 ---
 author: Stefan-Stojanovic
-
 type: normal
-
 category: must-know
-
 stub: true
-
 tags:
   - deep
-
 links:
   - >-
     [HTML <time>
     Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/time){documentation}
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Intro `<time>`
+
 
 ---
 
@@ -163,6 +166,7 @@ Write the code to properly declare the date:
 - /date
 - /datetime
 
+
 ---
 
 ## Revision
@@ -195,7 +199,12 @@ When using the `<time>` element, what attribute is used to declare the machine-r
 
 ## Quiz
 
-### How much do you know about the <time> element?
+### How much do you know about the 
+
+<time>
+
+ element?
+
 
 Match the appropriate datetime attributes:
 

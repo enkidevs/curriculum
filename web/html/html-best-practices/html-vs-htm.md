@@ -2,6 +2,14 @@
 author: Stefan-Stojanovic
 type: normal
 category: must-know
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # .html vs .htm
@@ -46,4 +54,3 @@ When was the “.htm” extension used?
 - It was never used.
 - It is still mandatory on MAC OS
 - When only 3 letter extensions existed.
- 

@@ -8,6 +8,14 @@ links:
   - >-
     [Understanding
     Clearfix](http://fuseinteractive.ca/blog/understanding-humble-clearfix#.VaQqCZNViko){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Clearfix for layouts

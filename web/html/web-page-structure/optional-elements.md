@@ -9,6 +9,14 @@ links:
   - >-
     [Google: Optional
     Elements](https://google.github.io/styleguide/htmlcssguide.html#Optional_Tags){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Optional Elements

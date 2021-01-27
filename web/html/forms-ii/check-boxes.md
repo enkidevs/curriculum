@@ -6,6 +6,14 @@ links:
   - >-
     [HTML <checkbox>
     Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/checkbox){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Check Boxes

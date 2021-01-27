@@ -9,6 +9,10 @@ links:
   - >-
     [MDN Docs on Pseudo
     Classes](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes){documentation}
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # `:required` and `:optional` pseudo classes
