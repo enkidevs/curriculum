@@ -123,3 +123,4 @@ print(filter(mystery_function, numbers))
 
 [2:true]
 *There is also a complementary function `itertools.filterfalse()` which only returns elements of the iterable object if the function returns false on them. Alternatively, you could negate the return value of the function passed to `filter` to achieve the same result.*
+ 

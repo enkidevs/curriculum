@@ -100,3 +100,4 @@ True
 - `isalphanum`
 - `isalpnum`
 - `isnum`
+ 

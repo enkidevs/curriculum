@@ -129,3 +129,4 @@ print(reduce(lambda x, y: x / y, numbers))
 
 [1:Functional Programming]
 *The style of programming that eschews imperative loops such as for loops is called functional programming. For more information about functional programming and Python, see the related workout, since the topic is too broad to cover in one lesson.*
+ 

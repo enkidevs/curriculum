@@ -60,3 +60,4 @@ Is Python considered a functional language?
 - No
 - Yes
 - Sometimes
+ 

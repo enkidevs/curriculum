@@ -82,3 +82,4 @@ Which of the following options would better describe a module in Python?
 
 [1:modular programming]
 Modular programming is a software design technique that emphasizes separating the functionality of a program into independent, interchangeable modules, such that each contains everything necessary to execute only one aspect of the desired functionality.
+ 

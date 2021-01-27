@@ -119,3 +119,4 @@ print(sum(iterator))
 [1:`StopIteration` exception]
 An exception is simply another word for an error. Taken directly from the Python 3.6 documentation:
 "Raised by built-in function `next()` and an iterator‘s `__next__()` method to signal that there are no further items produced by the iterator. The exception object has a single attribute value, which is given as an argument when constructing the exception, and defaults to None."
+ 

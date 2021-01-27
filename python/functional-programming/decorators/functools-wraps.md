@@ -107,3 +107,4 @@ The `wraps` function of `functools` module works like any other
 
 [1: Docstring]
 Python docstrings are a way of documenting code. The docstring for an object should be the first statement of that object, after the definition. They are recognized by the Python compiler and can be accessed via `__doc__` property of the object.
+ 

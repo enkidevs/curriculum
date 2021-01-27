@@ -80,3 +80,4 @@ Along with letters and numbers, which of the these are valid in regex?
 A wildcard character is a kind of placeholder represented by a single character, such as an asterisk `*` or percentage sign `%`. Wildcards can be interpreted as *multiple characters or an empty string*. 
 
 Wildcards are often used in file searches so that the full name doesn't need to be typed out. They're also commonly used in SQL to match zero or more characters.
+ 

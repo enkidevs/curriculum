@@ -2,10 +2,6 @@
 author: SebaRaba
 type: normal
 category: must-know
-links:
-  - >-
-    [More about yield and
-    next](https://jeffknupp.com/blog/2013/04/07/improve-your-python-yield-and-generators-explained/){website}
 practiceQuestion:
   formats:
     - fill-in-the-gap
@@ -34,7 +30,7 @@ The `yield()` **evaluates** and **returns** the value of the expression that fol
 
 **N.B** if all `yield()`s were evaluated and we encounter an extra call of the `next()` method, the following exception will be returned:
 
-```plain-text
+```py
 Traceback (most recent call last):
   File "<stdin>", line 1, in <module>
 StopIteration
@@ -42,7 +38,7 @@ StopIteration
 
 Consider the following generator:
 
-```plain-text
+```py
 def range_gen(n):
     i = 0
     while i < n:
@@ -52,7 +48,7 @@ def range_gen(n):
 
 This **function** generates all natural numbers up to `n`. Let's use the `next()` method now:
 
-```plain-text
+```py
 >>> gen = range_gen(3)
 >>> print(next(gen))
 0
@@ -73,7 +69,7 @@ StopIteration
 
 What is the output of the following snippet?
 
-```plain-text
+```py
 def countdown(num):
     while num > 0:
         yield num
@@ -97,7 +93,7 @@ def countdown(num):
 
 Consider the following snippet:
 
-```plain-text
+```py
 def double(L):
   for x in ???:
     ??? x*2
@@ -118,3 +114,4 @@ Suppose we want to print the doubled value for the first 2 numbers in the list. 
 - `next()`
 - `yield()`
 - `T`
+ 

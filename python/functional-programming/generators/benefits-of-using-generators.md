@@ -8,9 +8,6 @@ tags:
   - performance
 links:
   - >-
-    [Yield & Generators
-    Explained](https://www.jeffknupp.com/blog/2013/04/07/improve-your-python-yield-and-generators-explained/){website}
-  - >-
     [Generators &
     Iterators](https://www.python-course.eu/python3_generators.php){website}
   - >-
@@ -79,3 +76,4 @@ Because generators create values on demand, this results in ??? memory consumpti
 
 - lower
 - higher
+ 

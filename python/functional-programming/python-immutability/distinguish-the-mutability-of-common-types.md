@@ -118,3 +118,4 @@ What is the default mutability of user-defined custom classes that have not had 
 
 [1:Scalar Data Types]
 In programming languages, data types are said to be **scalar** or **base** data types when they hold only one item of data each. This is in contrast to **collections** or **containers** which are the family of data types that have the ability to encapsulate multiple separate items of data, each of which will be of one of the language's scalar types.
+ 

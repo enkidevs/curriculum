@@ -51,7 +51,7 @@ Types of change:
 ## January 27th 2021
 
 ### Added
-- [Add support for new question types VII]()
+- [Add support for new question types VII](https://github.com/enkidevs/curriculum/pull/2571)
 - [Add support for new question types VI](https://github.com/enkidevs/curriculum/pull/2570)
 - [Add support for new question types V](https://github.com/enkidevs/curriculum/pull/2569)
 - [Add support for new question types IV](https://github.com/enkidevs/curriculum/pull/2567)
@@ -957,4 +957,5 @@ Types of change:
 - [Python - Check Available Python Modules - Removed unnecessary `$` and general formatting improvements](https://github.com/enkidevs/curriculum/pull/2127)
 - [Git - What's Git? - Fixed spelling of Linus, creator of Linux](https://github.com/enkidevs/curriculum/pull/2129)
 
+ 
  

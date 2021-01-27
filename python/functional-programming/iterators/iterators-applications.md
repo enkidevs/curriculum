@@ -150,3 +150,4 @@ What method must a custom class implement to be able to support creating iterato
 
 [1:I/O Operations]
 It's generally recommended to close files as soon as you've extracted the data you need to a separate data structure to avoid the possibility of concurrent access errors, or issues with other processes (whether they be OS or third party) wanting to access the same file at the same time. It also happens to be more efficient as the mode-bit change and context switch required to execute the system call to read from storage causes some overhead.
+ 
