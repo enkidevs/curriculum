@@ -4,6 +4,10 @@ type: normal
 category: must-know
 tags:
   - chaining operators
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # `else` statements using the `||` operator

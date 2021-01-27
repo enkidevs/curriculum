@@ -2,6 +2,10 @@
 author: kapnobatai136
 category: must-know
 type: normal
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Flexbox
@@ -28,4 +32,3 @@ Using the flexbox display option will ???.
 
 - allow you to change how the children are displayed
 - provide you with a predefined way of displaying the children elements
- 

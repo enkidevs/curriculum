@@ -10,6 +10,10 @@ tags:
   - terminal
   - server
   - ubuntu
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Using `PPAs`

@@ -4,6 +4,14 @@ type: normal
 category: feature
 tags:
   - chaining operators
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Sequential execution using the `;` statement separator

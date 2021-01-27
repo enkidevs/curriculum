@@ -8,6 +8,14 @@ tags:
   - alias
   - null
   - workout
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Useful aliasing in bash

@@ -8,6 +8,10 @@ tags:
   - terminal
   - mirror
   - ubuntu
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Get `apt` to use a mirror / faster mirror
@@ -65,4 +69,3 @@ You can speed up your download by using
 - mirrors
 - shops
 - packages
- 

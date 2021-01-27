@@ -10,6 +10,10 @@ tags:
   - ssh
   - stat
   - introduction
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Get file permissions in octal form

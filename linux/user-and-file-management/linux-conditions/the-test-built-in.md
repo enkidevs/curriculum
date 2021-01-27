@@ -6,6 +6,14 @@ links:
   - >-
     [Classic test
     command](http://wiki.bash-hackers.org/commands/classictest){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # The `test` Built-in

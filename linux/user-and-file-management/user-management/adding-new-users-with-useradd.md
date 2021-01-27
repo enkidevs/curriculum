@@ -2,9 +2,16 @@
 author: jfarmer
 type: normal
 category: must-know
-inAlgoPool: false
 tags:
   - workout
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Adding New Users With `useradd`

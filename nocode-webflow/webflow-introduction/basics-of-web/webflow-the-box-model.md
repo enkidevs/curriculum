@@ -2,6 +2,10 @@
 author: Stefan-Stojanovic
 type: normal
 category: must-know
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # The Box Model
@@ -50,4 +54,3 @@ Which of these sentences **is not true** about the box model?
 - All elements are treated as boxes.
 - Boxes can be nested inside other boxes.
 - Boxes can be placed in containers for easier access, editing and more.
- 

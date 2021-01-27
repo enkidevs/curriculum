@@ -1,15 +1,19 @@
-﻿---
+---
 author: Stefan-Stojanovic
 type: normal
 category: must-know
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
-# Why Are `ObjectId`s Better Than Manually Inputted `_id`s?
+# Why Are `ObjectId` s Better Than Manually Inputted `_id` s?
+
 
 ---
 
 ## Content
-
 
 To understand why `ObjectId`s are better, let's start off by taking a look at an example document:
 

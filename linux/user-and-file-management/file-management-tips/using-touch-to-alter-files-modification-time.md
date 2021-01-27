@@ -10,6 +10,14 @@ tags:
   - alter
   - workout
   - introduction
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Using `touch` to alter files modification time

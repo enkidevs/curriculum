@@ -9,6 +9,14 @@ tags:
   - bash
   - terminal
   - files
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Difference between `redirection` and `pipe`

@@ -9,6 +9,10 @@ tags:
   - restart
   - reload
   - status
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Basic service management with `systemd`

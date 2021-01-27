@@ -10,6 +10,10 @@ tags:
   - update
   - sync
   - terminal
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Force a time update with `ntp`

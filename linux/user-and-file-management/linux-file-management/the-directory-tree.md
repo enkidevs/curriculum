@@ -1,17 +1,22 @@
 ---
 author: jfarmer
-
 type: normal
-
 category: tip
-
 tags:
   - introduction
   - workout
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # The Directory Tree
+
 
 ---
 
@@ -50,6 +55,7 @@ So, for example, `/usr/share/..` is a valid directory path and refers to the par
 
 `.` and `..` are most useful when navigating the filesystem from the command line.  For example, `cd ..` will cause the shell to change to the current directory's parent directory.
 
+
 ---
 
 ## Practice
@@ -61,6 +67,7 @@ In what directory will you be after issuing `cd .` ?
 - In the same directory
 - In the parent directory
 - In the first child directory
+
 
 ---
 

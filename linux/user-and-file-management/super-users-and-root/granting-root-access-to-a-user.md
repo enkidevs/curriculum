@@ -11,6 +11,10 @@ tags:
   - usermod
   - workout
   - introduction
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Granting `root` access to a user

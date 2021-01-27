@@ -7,6 +7,14 @@ tags:
   - linux
   - halt
   - poweroff
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Commands to shutdown or restart the system

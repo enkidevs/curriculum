@@ -9,6 +9,14 @@ tags:
   - tzdata
   - gmt
   - utc
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Changing the timezone on deb based systems

@@ -2,10 +2,17 @@
 author: jfarmer
 type: normal
 category: must-know
-inAlgoPool: false
 tags:
   - introduction
   - workout
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # The Standard Streams: `stdin` , `stdout` , and `stderr`
@@ -54,4 +61,3 @@ How would a program know who is the source of the input received through `stdin`
 - `By stdin.source`
 - `By stdin -s`
 - By the type of input received
- 
