@@ -4,9 +4,7 @@ type: normal
 category: must-know
 links:
   - >-
-    [Detectify Automated
-    Scanner](https://detectify.com/?utm_source=enki.com){website}
-  - '[Detectify Vulnerability Submissions](https://cs.detectify.com/){website}'
+    [Detectify](https://detectify.com/){website}
 practiceQuestion:
   formats:
     - fill-in-the-gap

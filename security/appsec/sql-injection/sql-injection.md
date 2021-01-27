@@ -6,7 +6,7 @@ links:
   - '[OWASP Top Ten](https://owasp.org/www-project-top-ten/){website}'
   - >-
     [Threat
-    Analysis](https://www.owasp.org/index.php/OWASP_Automated_Threats_to_Web_Applications){website}
+    Analysis](https://owasp.org/www-project-automated-threats-to-web-applications/){website}
   - '[Little Bobby Tables](https://xkcd.com/327/){website}'
   - '[Bobby Tables Prevention Guide](http://bobby-tables.com/){website}'
 practiceQuestion:

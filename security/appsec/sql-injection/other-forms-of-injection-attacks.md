@@ -4,8 +4,7 @@ type: normal
 category: pattern
 links:
   - >-
-    [Testing for Command Injection (OTG-INPVAL-013)
-    ](https://www.owasp.org/index.php/Testing_for_Command_Injection_(OTG-INPVAL-013)){website}
+    [Testing for Command Injection (OTG-INPVAL-013)](https://wiki.owasp.org/index.php/Testing_for_Command_Injection_(OTG-INPVAL-013)){website}
 practiceQuestion:
   formats:
     - fill-in-the-gap

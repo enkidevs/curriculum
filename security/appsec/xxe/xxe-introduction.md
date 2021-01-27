@@ -9,7 +9,7 @@ links:
     Attack](https://en.wikipedia.org/wiki/Billion_laughs_attack){website}
   - >-
     [Security Briefs - XML Denial of Service Attacks and
-    Defenses](https://msdn.microsoft.com/en-us/magazine/ee335713.aspx){website}
+    Defenses](https://docs.microsoft.com/en-us/archive/msdn-magazine/2009/november/xml-denial-of-service-attacks-and-defenses){website}
   - >-
     [SAML Security XML External Entity
     Attack](https://secretsofappsecurity.blogspot.com/2017/01/saml-security-xml-external-entity-attack.html){website}
