@@ -5,7 +5,7 @@ category: feature
 links:
   - >-
     [Classic test
-    command](http://wiki.bash-hackers.org/commands/classictest){website}
+    command](https://wiki.bash-hackers.org/commands/classictest){website}
 practiceQuestion:
   formats:
     - fill-in-the-gap
