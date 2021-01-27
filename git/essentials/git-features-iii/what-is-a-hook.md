@@ -6,6 +6,10 @@ links:
   - >-
     [Git Hooks Official
     Documentation](http://git-scm.com/book/en/v2/Customizing-Git-Git-Hooks){website}
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # What is a hook?
@@ -35,4 +39,3 @@ A hook is a custom ??? that fires when a certain ??? occurs.
 - script
 - action
 - error
- 

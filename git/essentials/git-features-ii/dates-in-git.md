@@ -6,6 +6,14 @@ links:
   - >-
     [Working With Dates In
     Git](https://alexpeattie.com/blog/working-with-dates-in-git){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Dates in git

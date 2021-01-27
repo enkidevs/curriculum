@@ -1,15 +1,22 @@
 ---
 author: Stefan-Stojanovic
-
 type: normal
-
 category: how-to
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # `if..else` Statements Are Stackable
 
+
 ---
+
 ## Content
 
 Stackable `if-else` statements are used when you want to execute code on more than two conditions.
@@ -36,7 +43,9 @@ If we run the program three times with three different values we get these resul
 -1 is negative
 ```
 
+
 ---
+
 ## Practice
 
 `if-else` statements are ??? and used when you want to execute some code on ???.
@@ -46,7 +55,9 @@ If we run the program three times with three different values we get these resul
 - non-stackable
 - a single condition
 
+
 ---
+
 ## Revision
 
 Is there a limit on how many `if..else` statements you can stack?
@@ -56,7 +67,9 @@ Is there a limit on how many `if..else` statements you can stack?
 - No
 - Yes
 
+
 ---
+
 ## Footnotes
 
 [1:Previous `if..else` statement]

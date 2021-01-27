@@ -1,15 +1,22 @@
-﻿---
+---
 author: Stefan-Stojanovic
-
 type: normal
-
 category: how-to
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # The Printf Function
 
+
 ---
+
 ## Content
 
 The `fmt.Printf` function is used for formatting a string and outputting to the console.
@@ -37,6 +44,7 @@ func main() {
 ```
 
 The output is:
+
 ```plain-text
 Hello, my name is Stefan. I am 26 years old and work as a Developer.
 ```
@@ -49,7 +57,9 @@ We are also using the same number of verbs. `%s` two times and `%d` once. This i
 
 Unlike the `Println` function, `Printf` does not add a new line character at the end. You would have to add the `\n` character manually.
 
+
 ---
+
 ## Practice
 
 The `Printf` function ??? verbs and ??? a new line.
@@ -59,7 +69,9 @@ The `Printf` function ??? verbs and ??? a new line.
 - doesn't use
 - appends
 
+
 ---
+
 ## Revision
 
 Fill in the code to format and print a string using `Printf`. Add a new line character at the end of the statement.

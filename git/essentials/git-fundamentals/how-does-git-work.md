@@ -2,11 +2,18 @@
 author: catalin
 type: normal
 category: must-know
-inAlgoPool: false
 links:
   - >-
     [Git Basics Official
     Documentation](https://git-scm.com/book/en/v2/Getting-Started-Git-Basics){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # How does Git work?
@@ -54,4 +61,3 @@ How does **Git** think of data?
 
 - as snapshots
 - as a set of files and changes made to them over time
- 

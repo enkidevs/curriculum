@@ -9,6 +9,14 @@ links:
   - >-
     [Dockerfile
     reference](https://docs.docker.com/engine/reference/builder/){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Dockerfile Instructions

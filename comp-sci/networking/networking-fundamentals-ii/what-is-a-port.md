@@ -5,6 +5,14 @@ category: must-know
 links:
   - >-
     [www.tutorialspoint.com](https://www.tutorialspoint.com/computer_fundamentals/computer_ports.htm){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # What is a port?
@@ -77,4 +85,3 @@ The term **port** has also other uses in computer science:
 
 - physical docking points usually between devices and sockets (eg. USB port)
 - action of moving a program from one operating system environment to another
- 

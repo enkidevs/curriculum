@@ -4,6 +4,14 @@ type: normal
 category: must-know
 links:
   - '[Docker Network Overview](https://docs.docker.com/network/){documentation}'
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Networks

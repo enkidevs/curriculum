@@ -1,21 +1,25 @@
 ---
 author: catalin
-
 type: normal
-
 category: how-to
-
 links:
   - >-
-    [Nslookup – Common Usage Examples](https://blog.thesysadmins.co.uk/nslookup-common-usage-examples.html){website}
+    [Nslookup – Common Usage
+    Examples](https://blog.thesysadmins.co.uk/nslookup-common-usage-examples.html){website}
   - >-
-    [Install dig (Windows)](https://help.dyn.com/how-to-use-binds-dig-tool/#installdigwindows){website}
+    [Install dig
+    (Windows)](https://help.dyn.com/how-to-use-binds-dig-tool/#installdigwindows){website}
   - >-
-    [How Domain Name Servers Work](http://computer.howstuffworks.com/dns.htm){website}
-
+    [How Domain Name Servers
+    Work](http://computer.howstuffworks.com/dns.htm){website}
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # DNS Lookup
+
 
 ---
 
@@ -69,6 +73,7 @@ Pretty straight-forward:
 - `QUESTION SECTION` shows details about our query (useful for more complicated ones)
 - `ANSWER SECTIONS` shows us the mapped IP addresses
 
+
 ---
 
 ## Revision
@@ -82,4 +87,3 @@ How would you find the IP address behind the enki.com DNS?
 - `nslookup enki.com`
 - `nslookup enki`
 - `nslookup 52.85.178.44`
-

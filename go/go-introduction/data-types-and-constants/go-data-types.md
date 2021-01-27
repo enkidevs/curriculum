@@ -1,18 +1,26 @@
 ---
 author: Stefan-Stojanovic
-
 type: normal
-
 category: must-know
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Data Types
 
+
 ---
+
 ## Content
 
 **Go** support several data types. These are categorized into four groups:
+
 - basic
 - aggregate
 - reference
@@ -43,7 +51,9 @@ Strings are a sequence of characters **enclosed by quotation marks** `"lik3 th1s
 
 Booleans are the smallest type. They can only take `true` or `false` as a value.
 
+
 ---
+
 ## Practice
 
 Which of these is not a basic data type?
@@ -55,7 +65,9 @@ Which of these is not a basic data type?
 - Numbers
 - Booleans
 
+
 ---
+
 ## Revision
 
 The four data type groups in **Go** are:
@@ -68,4 +80,4 @@ The four data type groups in **Go** are:
 - Basic
 - Numbers
 - Text
-- Booleans 
+- Booleans

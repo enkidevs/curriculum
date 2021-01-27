@@ -1,15 +1,22 @@
-﻿---
+---
 author: Stefan-Stojanovic
-
 type: normal
-
 category: how-to
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Functions Are Also Values
 
+
 ---
+
 ## Content
 
 Like other values, function values can be used or passed around.
@@ -27,6 +34,7 @@ var sum = func(a int , b int) int {
 In the above example, we have a variable called `sum` that has a function that calculates the sum of 2 numbers and saves it in the variable.
 
 We can call this function in the main function like so:
+
 ```go
 func main() {
   fmt.Println("Result: ", sum(1, 33))
@@ -34,7 +42,9 @@ func main() {
 // Result: 34
 ```
 
+
 ---
+
 ## Practice
 
 Functions ???
@@ -44,9 +54,11 @@ Functions ???
 
 
 ---
+
 ## Revision
 
 Assign a function that adds 3 integer values to the `sum` variable and returns an integer.
+
 ```go
 var ???  = ???(a, b, c int) ??? {
     ??? a + b + c

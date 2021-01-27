@@ -1,15 +1,22 @@
 ---
 author: Stefan-Stojanovic
-
 type: normal
-
 category: must-know
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Packages
 
+
 ---
+
 ## Content
 
 All Go programs are made up of one or more packages.
@@ -59,7 +66,9 @@ Both ways work the same, however, it is common practice to use the *factored imp
 
 > 💡 Factoring means calling a keyword once on multiple instances. Later we'll show other Go keywords that can also be factored.
 
+
 ---
+
 ## Practice
 
 Which of these is the common practice way of importing packages in Go?
@@ -85,7 +94,9 @@ import (
 - Factored import statement.
 - Multi-statement import.
 
+
 ---
+
 ## Revision
 
 Using the `import` keyword once to import multiple packages is called ??? import

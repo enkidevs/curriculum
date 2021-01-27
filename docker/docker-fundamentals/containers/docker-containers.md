@@ -7,6 +7,14 @@ links:
   - >-
     [Six essentials on Docker
     Containers](https://www.plesk.com/blog/business-industry/docker-containers-explained/){article}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Containers

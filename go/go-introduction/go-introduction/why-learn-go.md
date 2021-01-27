@@ -1,19 +1,25 @@
 ---
 author: Stefan-Stojanovic
-
 type: normal
-
 category: how-to
-
 links:
   - '[The Tour of Go](https://tour.golang.org/welcome/1){website}'
   - '[The Go Proverbs](https://go-proverbs.github.io/){website}'
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Why Learn Go
 
+
 ---
+
 ## Content
 
 Developers use **Go** to build things ranging from banking servers, productivity tools, and even cryptocurrency systems.
@@ -42,7 +48,9 @@ Building programs that can efficiently take advantage of modern computers is a c
 
 > 💡 One way to think of Go is as a low-level language with high-level concepts[3].
 
+
 ---
+
 ## Practice
 
 Go is a relatively small language compared to most others.
@@ -52,7 +60,9 @@ Go is a relatively small language compared to most others.
 - True
 - False
 
+
 ---
+
 ## Revision
 
 Which of the following is a feature of Golang?
@@ -64,7 +74,9 @@ Which of the following is a feature of Golang?
 - Efficient use of hardware
 - Consistent standard library
 
+
 ---
+
 ## Footnotes
 
 [1: Go is a small language]
@@ -100,4 +112,3 @@ This makes them easier to read and write but hard to make efficient because we h
 A low-level programming language is one that is "closer to the metal", and can run really fast but is hard to understand for a human.
 
 Go aims to provide the best of both worlds.
-

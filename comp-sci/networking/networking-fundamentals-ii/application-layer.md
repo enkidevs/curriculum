@@ -1,14 +1,19 @@
 ---
 author: SebaRaba
-
 type: normal
-
 category: must-know
-
 links:
   - >-
-    [DCN - Application Layer Introduction](https://www.tutorialspoint.com/data_communication_computer_network/application_layer_introduction.htm){website}
-
+    [DCN - Application Layer
+    Introduction](https://www.tutorialspoint.com/data_communication_computer_network/application_layer_introduction.htm){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Application Layer
@@ -110,4 +115,3 @@ You can watch Star Wars Episode IV - made in ASCII art - from your terminal via 
 ```plain-text
 telnet towel.blinkenlights.nl
 ```
- 

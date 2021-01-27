@@ -5,6 +5,14 @@ category: must-know
 links:
   - '[What is Docker Engine?](https://docs.docker.com/engine/){documentation}'
   - '[Installing Docker](https://docs.docker.com/install/){documentation}'
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Docker Engine
@@ -49,4 +57,3 @@ The two main parts of the Docker architecture are the ???
 - daemon and container
 - Object and namespaces
 - Container and Hub
- 

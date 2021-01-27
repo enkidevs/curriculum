@@ -6,6 +6,14 @@ links:
   - >-
     [Double Dot
     Syntax](http://git-scm.com/book/en/v2/Git-Tools-Revision-Selection){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Specify a range of commits using double dot syntax

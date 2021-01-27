@@ -1,15 +1,22 @@
-﻿---
+---
 author: Stefan-Stojanovic
-
 type: normal
-
 category: how-to
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Appending to a Slice
 
+
 ---
+
 ## Content
 
 `append` is a reserved keyword for a built-in function that appends elements to the end of a slice.
@@ -23,6 +30,7 @@ fmt.Println(s)
 ```
 
 Here is how you append elements to a slice:
+
 ```go
 s = append(s, 1, 2, 3, 4)
 fmt.Println(s)
@@ -30,13 +38,16 @@ fmt.Println(s)
 ```
 
 The first value of append is always the slice name followed by what you want to add to the slice.
+
 ```go
 append(slice_name, value1, value2, ...)
 ```
 
 If you try to add more elements than the slice can have, a new array will automatically be created and the slice will point to that new array.
 
+
 ---
+
 ## Practice
 
 What is `append` used for?
@@ -47,7 +58,9 @@ What is `append` used for?
 - Append doesn't exist in golang
 - To add elements at the beginning of a slice.
 
+
 ---
+
 ## Revision
 
 Add 4 elements to the `emptyS` slice.

@@ -6,6 +6,10 @@ links:
   - >-
     [Git and Github
     Hacks](https://ponyfoo.com/articles/git-github-hacks){website}
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Squashing commits

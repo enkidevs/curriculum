@@ -6,6 +6,14 @@ links:
   - >-
     [Docker
     CLI](https://docs.docker.com/engine/reference/commandline/cli/){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Docker CLI

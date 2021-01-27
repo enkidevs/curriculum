@@ -2,11 +2,18 @@
 author: catalin
 type: normal
 category: must-know
-inAlgoPool: false
 links:
   - >-
     [Git Commit
     Tutorial](https://www.atlassian.com/git/tutorials/saving-changes/git-commit){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Committing

@@ -1,20 +1,28 @@
 ---
 author: Stefan-Stojanovic
-
 type: normal
-
 category: how-to
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Type Conversion
 
+
 ---
+
 ## Content
 
 When converting types in **Go**, you can use the **type conversion** method.
 
 The syntax is:
+
 ```go
 T(variable)
 
@@ -22,16 +30,19 @@ T(variable)
 ```
 
 Here is an example:
+
 ```go
 var result float64 = 31.836
 ```
 
 We can convert the above value to another value like so:
+
 ```go
 var resultAsInt int = int(result)
 ```
 
 And now, an example program!
+
 ```go
 package main
 
@@ -50,7 +61,9 @@ func main() {
 
 This will take the `float64`, convert it to an `int`, and save it in the `resultAsInt` value.
 
+
 ---
+
 ## Practice
 
 Fill in the gaps to convert the `int` variable to `float64`. Then, print the new variable.
@@ -70,7 +83,9 @@ func main() {
 - float64
 - newNumber
 
+
 ---
+
 ## Revision
 
 Finish the code to convert the `result` floating-point number to a new integer number called `newType`. Finally, fill in the output.
@@ -91,9 +106,9 @@ func main() {
 ???
 ```
 
-* newType
-* int(result)
-* newType
-* 37
-* 38
-* result
+- newType
+- int(result)
+- newType
+- 37
+- 38
+- result

@@ -6,6 +6,14 @@ links:
   - >-
     [Tagging Official
     Documentation](http://git-scm.com/book/en/v2/Git-Basics-Tagging){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Pushing tags to a server

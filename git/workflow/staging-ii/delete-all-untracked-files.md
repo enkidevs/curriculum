@@ -4,6 +4,14 @@ type: normal
 category: feature
 links:
   - '[Git Clean](https://git-scm.com/docs/git-clean){documentation}'
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Delete all untracked files

@@ -6,6 +6,14 @@ links:
   - >-
     [Git Tool Rerere Official
     Documentation](http://git-scm.com/book/en/v2/Git-Tools-Rerere){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Remember the results of previous hunk conflicts

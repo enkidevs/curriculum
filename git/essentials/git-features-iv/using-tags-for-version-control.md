@@ -1,18 +1,23 @@
 ---
 author: rosielowther
-
 type: normal
-
 category: must-know
-
 links:
   - >-
     [Tagging Official
     Documentation](http://git-scm.com/book/en/v2/Git-Basics-Tagging){documentation}
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Using Tags for Version Control
+
 
 ---
 

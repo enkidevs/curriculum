@@ -6,6 +6,14 @@ links:
   - >-
     [Git
     Revert](https://www.atlassian.com/git/tutorials/undoing-changes/git-revert){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Undo a committed snapshot

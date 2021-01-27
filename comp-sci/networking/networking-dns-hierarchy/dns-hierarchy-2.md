@@ -4,14 +4,19 @@ type: normal
 category: must-know
 links:
   - >-
-    [Geographic Implications of DNS
-    Distribution](https://www.cisco.com/c/en/us/about/press/internet-protocol-journal/back-issues/table-contents-35/101-dns-infrastructure.html){article}
-  - >-
     [IANA Root Server
     List](https://www.iana.org/domains/root/servers){documentation}
   - >-
     [List of top level
     domains](https://www.icann.org/resources/pages/tlds-2012-02-25-en){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # DNS Hierarchy
@@ -59,4 +64,3 @@ Which of the following server types are considered the source of truth for all o
 - Root servers
 - TLD servers
 - DNS resolvers
- 

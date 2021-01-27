@@ -1,14 +1,19 @@
 ---
 author: catalin
-
 type: normal
-
 category: how-to
-
 links:
   - >-
-    [Netstat Tutorial](http://www.c-jump.com/CIS24/Slides/Networking/html_utils/netstat.html){website}
-
+    [Netstat
+    Tutorial](http://www.c-jump.com/CIS24/Slides/Networking/html_utils/netstat.html){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Network Statistics

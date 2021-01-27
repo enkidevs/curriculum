@@ -1,23 +1,30 @@
-﻿---
+---
 author: Stefan-Stojanovic
-
 aspects:
   - workout
-
 type: normal
-
 category: how-to
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Methods Continued
 
+
 ---
+
 ## Content
 
 Methods don't have to be defined on a struct. They can be defined on any type.
 
 Here is a method defined on a string.
+
 ```go
 package main
 
@@ -47,7 +54,9 @@ The `ToUpper` function is used to convert all the letters of a string to upperca
 
 This is why we use `MyString(INPUT_HERE)`. The `MyString` is an "alias" we use to call the functions we do not "own" (`ToUpper`).
 
+
 ---
+
 ## Practice
 
 Methods can ???.
@@ -55,7 +64,9 @@ Methods can ???.
 - be defined on any data type
 - only be defined on a struct
 
+
 ---
+
 ## Revision
 
 Create a method called `Lowercase()` on a `MyString` Receiver. This method will take a `MyString` input and return a string.

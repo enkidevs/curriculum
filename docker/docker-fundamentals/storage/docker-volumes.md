@@ -5,6 +5,14 @@ category: best-practice
 links:
   - '[Docker Volumes](https://docs.docker.com/storage/volumes/){documentation}'
   - '[Manage data in Docker](https://docs.docker.com/storage/){documentation}'
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Volumes

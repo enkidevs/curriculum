@@ -1,13 +1,19 @@
 ---
 author: Bruno
-
 type: normal
-
 category: tip
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Subdirectory Checkout
+
 
 ---
 
@@ -47,6 +53,7 @@ git pull <remote> <branch>
 ```
 
 Sparse checkout allows the user to choose what files to look at. It does the opposite of `.gitignore`: every file not specified in `.git/info/sparse-checkout` is ignored.
+
 
 ---
 

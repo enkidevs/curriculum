@@ -7,6 +7,14 @@ links:
   - >-
     [Managing Persistence for Docker
     Containers](https://thenewstack.io/methods-dealing-container-storage/){article}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Storage Intro
@@ -60,4 +68,3 @@ There are two ways to persist data beyond the lifetime of a Docker container. Th
 - call-mount
 - file-mount
 - data-mount
- 

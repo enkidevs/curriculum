@@ -5,6 +5,14 @@ category: must-know
 links:
   - '[Docker Registry](https://docs.docker.com/registry/){documentation}'
   - '[Docker Hub](https://hub.docker.com/){website}'
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Image Registries
