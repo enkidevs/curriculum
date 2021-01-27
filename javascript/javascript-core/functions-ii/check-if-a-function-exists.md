@@ -4,7 +4,7 @@ type: normal
 category: feature
 links:
   - >-
-    [How to check if function exists in JavaScript?(http://stackoverflow.com/questions/1042138/javascript-check-if-function-exists){website}
+    [How to check if function exists in JavaScript?(https://stackoverflow.com/questions/1042138/how-to-check-if-function-exists-in-javascript){website}
 practiceQuestion:
   formats:
     - fill-in-the-gap
