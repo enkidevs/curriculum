@@ -1,7 +1,7 @@
 ---
 author: Billiexu
 type: normal
-category: how to
+category: how-to
 tags:
   - webdevelopment
 links:

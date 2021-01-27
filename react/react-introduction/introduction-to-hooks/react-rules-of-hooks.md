@@ -1,7 +1,7 @@
 ---
 author: kapnobatai136
 type: normal
-category: how to
+category: how-to
 links:
   - '[Rules of hooks](https://reactjs.org/docs/hooks-rules.html){documentation}'
 ---

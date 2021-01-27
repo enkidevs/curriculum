@@ -1,7 +1,7 @@
 ---
 author: SeanWalters
 type: normal
-category: how to
+category: how-to
 links:
   - >-
     [Article on Text

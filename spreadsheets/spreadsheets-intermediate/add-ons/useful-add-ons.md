@@ -3,7 +3,7 @@ author: Stefan-Stojanovic
 
 type: normal
 
-category: how to
+category: how-to
 
 links:
   - '[Quiz Banker](https://gsuite.google.com/u/0/marketplace/app/quiz_banker_from_new_visions_for_public/704786429108){website}'

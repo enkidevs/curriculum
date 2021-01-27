@@ -1,7 +1,7 @@
 ---
 author: oj14henry
 type: normal
-category: how to
+category: how-to
 tags:
   - textarea
   - disable

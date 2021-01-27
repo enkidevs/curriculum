@@ -1,7 +1,7 @@
 ---
 author: catalin
 type: normal
-category: how to
+category: how-to
 inAlgoPool: false
 links:
   - '[pymotw.com](https://pymotw.com/2/textwrap/){website}'

@@ -1,7 +1,7 @@
 ---
 author: lizTheDeveloper
 type: normal
-category: how to
+category: how-to
 links:
   - >-
     [ZAP (a vulnerability scanning

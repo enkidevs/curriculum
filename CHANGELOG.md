@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## January 27th 2021
+
+### Changed
+- [Update "how to" to "how-to" category II]()
+
 ## January 26th 2021
 
 ### Changed

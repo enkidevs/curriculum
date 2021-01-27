@@ -1,7 +1,7 @@
 ---
 author: SebaRaba
 type: normal
-category: how to
+category: how-to
 links:
   - >-
     [More about lists as

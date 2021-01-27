@@ -3,7 +3,7 @@ author: Stefan-Stojanovic
 
 type: normal
 
-category: how to
+category: how-to
 
 links:
   - '[IMPORTHTML](https://support.google.com/docs/answer/3093339){documentation}'

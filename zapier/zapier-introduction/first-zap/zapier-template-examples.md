@@ -1,6 +1,6 @@
 ---
 author: kapnobatai136
-category: how to
+category: how-to
 type: normal
 links:
   - '[Explore Integrations](https://zapier.com/apps/integrations/){website}'
