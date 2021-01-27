@@ -3,7 +3,7 @@ author: lizTheDeveloper
 
 type: normal
 
-category: best practice
+category: best-practice
 
 links:
   - '[1Password](https://1password.com/){website}'

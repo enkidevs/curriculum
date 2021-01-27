@@ -5,8 +5,17 @@ category: must-know
 links:
   - >-
     [DNS Record Types
-    Explained](https://pressable.com/blog/2014/12/23/dns-record-types-explained/){article}
-  - '[RFC 1035 Defines DNS](https://www.ietf.org/rfc/rfc1035.txt){documentation}'
+    Explained](https://ns1.com/resources/dns-records-explained){article}
+  - >-
+    [RFC 1035 Defines DNS](https://www.ietf.org/rfc/rfc1035.txt){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # DNS Record Types
@@ -54,4 +63,3 @@ Which DNS record type returns an IPv4 address?
 - MX
 - CNAME
 - None of these
- 

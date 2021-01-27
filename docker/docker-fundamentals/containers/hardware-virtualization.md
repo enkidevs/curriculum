@@ -8,6 +8,14 @@ links:
   - >-
     [Reasons to start using a
     VM](https://www.makeuseof.com/tag/reasons-start-using-virtual-machine/){article}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Virtualization
@@ -56,4 +64,3 @@ A virtual machine allows us to emulate ???.
 - software
 - cpu
 - applications
- 

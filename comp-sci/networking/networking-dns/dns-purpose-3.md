@@ -4,9 +4,17 @@ type: normal
 category: must-know
 links:
   - >-
-    [What Is
-    DNS?](https://www.cloudflare.com/learning/dns/what-is-dns/){article}
-  - '[RFC 1035 Defines DNS](https://www.ietf.org/rfc/rfc1035.txt){documentation}'
+    [What Is DNS?](https://www.cloudflare.com/en-gb/learning/dns/what-is-dns/){article}
+  - >-
+    [RFC 1035 Defines DNS](https://www.ietf.org/rfc/rfc1035.txt){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # DNS - Role and Responsibility
@@ -58,4 +66,3 @@ Which subset of this URL can be mapped to an IP address using DNS?
 - /conways-editor/conways-editor.html
 - https://
 - www.tebs-game-of-life
- 

@@ -1,7 +1,7 @@
 ---
 author: catalin
 type: normal
-category: best practice
+category: best-practice
 links:
   - >-
     [stackoverflow.com](http://stackoverflow.com/questions/10599710/weakhashmap-example){website}

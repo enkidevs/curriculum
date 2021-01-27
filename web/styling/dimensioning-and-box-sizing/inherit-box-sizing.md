@@ -1,7 +1,7 @@
 ---
 author: jordanfish
 type: normal
-category: best practice
+category: best-practice
 links:
   - '[CSS Pro Tips](https://github.com/AllThingsSmitty/css-protips){website}'
   - >-

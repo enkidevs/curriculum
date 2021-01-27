@@ -1,7 +1,7 @@
 ---
 author: rosielowther
 type: normal
-category: best practice
+category: best-practice
 links:
   - >-
     [developer.mozilla.org](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Statements/with){website}

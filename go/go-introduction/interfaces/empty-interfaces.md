@@ -1,18 +1,24 @@
-﻿---
+---
 author: Stefan-Stojanovic
-
 aspects:
   - workout
-
 type: normal
-
 category: how-to
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Empty Interfaces
 
+
 ---
+
 ## Content
 
 An empty interface is an interface type with no specified methods.
@@ -62,7 +68,9 @@ func output(i interface{}) {
 }
 ```
 
+
 ---
+
 ## Practice
 
 Empty interfaces can ???.
@@ -70,7 +78,9 @@ Empty interfaces can ???.
 - hold values of any type
 - only hold values of type "struct"
 
+
 ---
+
 ## Revision
 
 An empty interface is an interface type with ???.

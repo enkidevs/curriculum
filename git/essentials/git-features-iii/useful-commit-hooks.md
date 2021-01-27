@@ -6,6 +6,10 @@ links:
   - >-
     [Git Hooks Official
     Documentation](http://git-scm.com/book/en/v2/Customizing-Git-Git-Hooks){website}
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Useful commit hooks
@@ -36,4 +40,3 @@ Hooks can be attached to the pre-commit and ???-commit phases.
 - pre
 - in
 - during
- 

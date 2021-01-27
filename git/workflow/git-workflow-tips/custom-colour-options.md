@@ -6,6 +6,14 @@ links:
   - >-
     [Colors In Git Official
     Documentation](http://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration#_colors_in_git){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Custom colour options

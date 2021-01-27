@@ -1,7 +1,7 @@
 ---
 author: fahimrahman
 type: normal
-category: best practice
+category: best-practice
 tags:
   - don't-repeat-yourself
   - review

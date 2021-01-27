@@ -7,7 +7,12 @@ links:
     [Git Commit History Official
     Documentation](http://git-scm.com/book/en/v2/Git-Basics-Viewing-the-Commit-History){website}
   - >-
-    [What Is a Checksum](https://www.howtogeek.com/363735/what-is-a-checksum-and-why-should-you-care/){website}
+    [What Is a
+    Checksum](https://www.howtogeek.com/363735/what-is-a-checksum-and-why-should-you-care/){website}
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # What Is Stored in a Commit?
@@ -31,6 +36,7 @@ Date:   Mon Jan 25 09:41:11 2016 +0000
 
 The commit object contains a checksum[1], the author's name and email, the commit message, and a pointer to the commit that came before it (or multiple commits).
 
+
 ---
 
 ## Revision
@@ -40,6 +46,7 @@ The usual commit object contains a hash-code, author’s name and email, date an
 - description
 - SHA-1
 - checksum
+
 
 ---
 

@@ -1,15 +1,22 @@
 ---
 author: Stefan-Stojanovic
-
 type: normal
-
 category: how-to
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Functions
 
+
 ---
+
 ## Content
 
 Functions are pieces of code designed for a particular task.
@@ -37,18 +44,22 @@ The `(x int, y int)` are two parameters that we have given the names `x` and `y`
 The last `int`, after the parentheses, specifies what the type of the return will be.
 
 **Notes:** 
+
 - You can use as many parameters as you want in your function.
 - You can name your function any way you want, but it is best practice to name it according to what it does.
 - Function parameters can be of any data type.
 
 Since the two parameters are of the same type we can also only write the type at the end of the parameters, like so:
+
 ```go
 func multiply(x, y int) int {
   return x * y
 }
 ```
 
+
 ---
+
 ## Practice
 
 Fill in the gaps to create a function with two integer parameters and return their product.
@@ -70,7 +81,9 @@ fmt.Println(multiply(7,1))
 - Return
 - x, y float64
 
+
 ---
+
 ## Revision
 
 Can a function in **Go** have zero parameters?

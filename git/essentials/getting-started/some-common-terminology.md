@@ -2,11 +2,14 @@
 author: catalin
 type: normal
 category: must-know
-inAlgoPool: false
 links:
   - >-
     [GitHub Glossary Official
     Documentation](https://help.github.com/articles/github-glossary/){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Some common terminology
@@ -50,6 +53,7 @@ The `staging` area is where work expected to be committed is staged.
 
 The **staging area** is also referred to as `index`.
 
+
 ---
 
 ## Practice
@@ -62,4 +66,3 @@ What other name does the **staging area** have?
 - HEAD
 - tag
 - stage
- 

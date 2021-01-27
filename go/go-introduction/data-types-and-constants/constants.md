@@ -1,15 +1,22 @@
 ---
 author: Stefan-Stojanovic
-
 type: normal
-
 category: how-to
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Constants
 
+
 ---
+
 ## Content
 
 Constants are variables that cannot be updated after they are initialized.
@@ -32,7 +39,9 @@ Constants cannot be declared using the shorthand method `:=`. They are declared 
 
 > 💡 Any data type can be defined as a constant.
 
+
 ---
+
 ## Practice
 
 Define a constant value called `hasKids` of type `bool` and initialize it with the value `false`.
@@ -41,15 +50,17 @@ Define a constant value called `hasKids` of type `bool` and initialize it with t
 ??? ??? ??? = ???
 ```
 
-* const
-* hasKids
-* bool
-* false
-* constant
-* False
-* HasKids
+- const
+- hasKids
+- bool
+- false
+- constant
+- False
+- HasKids
+
 
 ---
+
 ## Revision
 
 The value of a constant ??? be updated after creation. 

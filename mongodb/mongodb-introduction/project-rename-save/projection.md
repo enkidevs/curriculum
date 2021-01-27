@@ -1,7 +1,7 @@
 ---
 author: Stefan-Stojanovic
 type: normal
-category: best practice
+category: best-practice
 ---
 
 # Projection

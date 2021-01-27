@@ -3,7 +3,7 @@ author: catalin
 
 type: normal
 
-category: best practice
+category: best-practice
 
 tags:
   - workout

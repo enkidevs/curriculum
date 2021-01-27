@@ -9,6 +9,14 @@ links:
   - >-
     [Credential Caching Official
     Documentation](https://git-scm.com/book/tr/v2/Git-Tools-Credential-Storage#_credential_caching){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Cache your authentication details to save time

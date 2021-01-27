@@ -4,6 +4,14 @@ type: normal
 category: hack
 links:
   - '[Git Reset](https://git-scm.com/docs/git-reset){documentation}'
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Move the Last Commit to a New Branch
@@ -36,6 +44,7 @@ git add .
 git commit -m 'fixed'
 ```
 
+
 ---
 
 ## Practice
@@ -52,6 +61,7 @@ Run the commands in the correct order such that the last commit from current bra
 - `git checkout bug-fix`
 - `git add .`
 - `git commit -m 'enki lesson'`
+
 
 ---
 

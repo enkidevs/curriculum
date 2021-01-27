@@ -1,16 +1,18 @@
 ---
 author: SebaRaba
-
 type: normal
-
 category: must-know
-
 links:
   - >-
-    [Network Models](http://what-when-how.com/data-communications-and-networking/network-models-data-communications-and-networking/){website}
+    [Network
+    Models](http://what-when-how.com/data-communications-and-networking/network-models-data-communications-and-networking/){website}
   - >-
-    [The 7 Layers of the OSI Model](http://www.webopedia.com/quick_ref/OSI_Layers.asp){website}
-
+    [The 7 Layers of the OSI
+    Model](http://www.webopedia.com/quick_ref/OSI_Layers.asp){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Network Models (TCP/IP)
@@ -48,4 +50,3 @@ Which of the following layers of the **Internet model** is responsible for addre
 - Transport
 - Application
 - Network Interface
- 

@@ -4,9 +4,13 @@ type: normal
 category: must-know
 links:
   - >-
-    [what-when-how.com](http://what-when-how.com/data-communications-and-networking/network-models-data-communications-and-networking/){website}
+    [Network Models (Data Communications and Networking)](http://what-when-how.com/data-communications-and-networking/network-models-data-communications-and-networking/){website}
   - >-
-    [www.webopedia.com](http://www.webopedia.com/quick_ref/OSI_Layers.asp){website}
+    [The 7 Layers of the OSI Model](http://www.webopedia.com/quick_ref/OSI_Layers.asp){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Network models
@@ -55,4 +59,3 @@ Which of the following layers of the **OSI model** handles the routing of data?
 - Internet
 - Session
 - Presentation
- 

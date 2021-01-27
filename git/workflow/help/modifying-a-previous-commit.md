@@ -6,6 +6,10 @@ links:
   - >-
     [Rewriting Git
     History](https://www.atlassian.com/git/tutorials/rewriting-history){website}
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Modifying a Previous Commit

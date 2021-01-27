@@ -4,6 +4,14 @@ type: normal
 category: must-know
 links:
   - '[www.computerhope.com](http://www.computerhope.com/jargon/i/ip.htm){website}'
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # What is an IP address?
@@ -115,4 +123,3 @@ Its name comes from the most famous protocols in use within the stack:
 
 - `TCP` short for **Transmission Control Protocol**
 - `IP` short for **Internet Protocol**
- 

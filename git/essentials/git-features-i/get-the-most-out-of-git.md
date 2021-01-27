@@ -4,6 +4,14 @@ type: normal
 category: feature
 links:
   - '[webchick.net](http://webchick.net/node/99){website}'
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Get the most out of **Git**
@@ -59,6 +67,7 @@ git ???
 - `revert`
 - `add`
 
+
 ---
 
 ## Revision
@@ -76,6 +85,7 @@ git ??? ???
 - `commit`
 - `all`
 - `diff`
+
 
 ---
 

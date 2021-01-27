@@ -1,18 +1,26 @@
 ---
 author: Stefan-Stojanovic
-
 type: normal
-
 category: how-to
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Function Examples
 
+
 ---
+
 ## Content
 
 Here are some examples of different functions.
+
 ```go
 // Function with 3 arguments 
 // that sums the values 
@@ -36,6 +44,7 @@ func power(x int) int {
 ```
 
 We can call these functions within our main function like so:
+
 ```go
 func main() {
   fmt.Println(sum(3,11,12))
@@ -48,7 +57,9 @@ func main() {
 // 81
 ```
 
+
 ---
+
 ## Practice
 
 Create a function called `powerOfThree` that will calculate the power of 3 of an integer and return the result.
@@ -68,10 +79,13 @@ Create a function called `powerOfThree` that will calculate the power of 3 of an
 - `PowerOfThree`
 - `x INT`
 
+
 ---
+
 ## Revision
 
 Create a function called `division` where you divide the first argument by the second argument and return the result.
+
 ```go
 ??? ??? (???) int {
   ???

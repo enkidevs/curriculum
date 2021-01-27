@@ -1,7 +1,7 @@
 ---
 author: Sergey
 type: normal
-category: best practice
+category: best-practice
 tags:
   - java-io
 ---

@@ -1,7 +1,7 @@
 ---
 author: adamMontgomerie
 type: normal
-category: best practice
+category: best-practice
 tags:
   - multithreading
 links:

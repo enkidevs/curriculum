@@ -1,7 +1,7 @@
 ---
 author: tommarshall
 type: normal
-category: best practice
+category: best-practice
 links:
   - >-
     [Sass

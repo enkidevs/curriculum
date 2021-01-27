@@ -7,6 +7,14 @@ links:
   - >-
     [Git Attributes Official
     Documentation](http://git-scm.com/book/en/v2/Customizing-Git-Git-Attributes){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Diff images using *ExifTool*

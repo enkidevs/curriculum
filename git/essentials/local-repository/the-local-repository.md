@@ -9,6 +9,14 @@ links:
   - >-
     [Git Tutorial
     Udemy](https://blog.udemy.com/git-tutorial-a-comprehensive-guide/#6_1){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # The Local Repository
@@ -58,4 +66,3 @@ The area where 'to be committed' changes are placed is called ??? .
 - the staging area
 - the repository
 - the working directory
- 

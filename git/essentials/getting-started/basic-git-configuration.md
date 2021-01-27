@@ -2,11 +2,18 @@
 author: catalin
 type: normal
 category: how-to
-inAlgoPool: false
 links:
   - >-
     [First Time Git Setup Official
     Documentation](https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Basic Git configuration

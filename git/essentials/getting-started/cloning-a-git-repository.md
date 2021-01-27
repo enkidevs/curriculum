@@ -1,18 +1,23 @@
 ---
 author: catalin
-
 type: normal
-
 category: must-know
-
 links:
   - >-
     [Git Clone Official
     Documentation](https://www.atlassian.com/git/tutorials/setting-up-a-repository/git-clone){website}
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Cloning a Git repository
+
 
 ---
 
@@ -56,6 +61,7 @@ git clone
 
 Apart from the `https` protocol used above, `git` also supports transfer through **SSH** and local protocols.
 
+
 ---
 
 ## Practice
@@ -68,6 +74,7 @@ What's the last step **Git** automatically does after running `git clone`?
 - initializes the .git directory
 - pulls repository data in the .git directory
 - create a new folder directory
+
 
 ---
 

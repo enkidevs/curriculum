@@ -1,8 +1,7 @@
 ---
 author: catalin
 type: normal
-category: thought
-inAlgoPool: false
+category: must-know
 links:
   - >-
     [About Version Control Official
@@ -10,6 +9,14 @@ links:
   - >-
     [What Is Version
     Control](https://www.atlassian.com/git/tutorials/what-is-version-control){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # What is Version Control?
@@ -78,4 +85,3 @@ Both previous types have a common point of failure - a local database can get co
 
 [3:repository]
 The project files and history in DVCSs is the code **repository**.
- 

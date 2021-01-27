@@ -6,6 +6,14 @@ links:
   - >-
     [Untrack A File Without Deleting
     It](https://github.com/jbranchaud/til/blob/master/git/untrack-a-file-without-deleting-it.md){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Untrack a directory/file without deleting it

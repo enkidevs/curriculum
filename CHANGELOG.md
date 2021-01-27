@@ -50,8 +50,12 @@ Types of change:
 
 ## January 27th 2021
 
+### Added
+- [Add support for new question types II](https://github.com/enkidevs/curriculum/pull/2565)
+
 ### Changed
 - [HTML - Image Types - Update information, Make Table](https://github.com/enkidevs/curriculum/pull/2563)
+- [Update "best practice" to "best-practice" category](https://github.com/enkidevs/curriculum/pull/2564)
 - [Update "how to" to "how-to" category II](https://github.com/enkidevs/curriculum/pull/2562)
 
 ## January 26th 2021

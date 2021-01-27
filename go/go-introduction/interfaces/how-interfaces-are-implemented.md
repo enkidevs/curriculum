@@ -1,15 +1,18 @@
-﻿---
+---
 author: Stefan-Stojanovic
-
 type: normal
-
 category: how-to
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # How Are Interfaces Implemented?
 
+
 ---
+
 ## Content
 
 The syntax for interfaces is:
@@ -51,7 +54,9 @@ func main() {
   fmt.Printf("Type of h is: %T\n", h)
 }
 ```
+
 Outputs:
+
 ```plain-text
 Current value of h is: <nil>
 Type of h is: <nil>
@@ -63,7 +68,9 @@ This is because we have not declared any types that implement the `Action()` met
 
 We will dive into some examples in the next insight.
 
+
 ---
+
 ## Practice
 
 What is the syntax for creating an interface?
@@ -73,11 +80,14 @@ What is the syntax for creating an interface?
 // Method signatures
 }
 ```
+
 - type
 - INTERFACE_NAME 
 - interface 
 
+
 ---
+
 ## Footnotes
 
 [1:Implicit vs Explicit]

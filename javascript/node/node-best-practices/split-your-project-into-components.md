@@ -1,7 +1,7 @@
 ---
 author: mihaiberq
 type: normal
-category: best practice
+category: best-practice
 tags:
   - introduction
   - new

@@ -1,20 +1,26 @@
 ---
 author: nem035
-
 type: normal
-
 category: must-know
-
 links:
   - >-
-    [Containers vs VMs](https://blog.netapp.com/blogs/containers-vs-vms/){article}
+    [Containers vs
+    VMs](https://blog.netapp.com/blogs/containers-vs-vms/){article}
   - >-
     [How is Docker different from a virtual
     machine?](https://stackoverflow.com/questions/16047306/how-is-docker-different-from-a-virtual-machine){discussion}
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Container vs VM
+
 
 ---
 
@@ -34,6 +40,7 @@ This is why containers are often preferable when multiple applications using the
 
 If virtual machines abstract away the hardware, containers abstract away the operating system.
 
+
 ---
 
 ## Practice
@@ -44,6 +51,7 @@ Docker container is more ??? than a VM which allows it to be started, stopped an
 - efficiently
 - isolated
 - safely
+
 
 ---
 

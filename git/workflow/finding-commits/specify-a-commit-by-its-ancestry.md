@@ -1,13 +1,19 @@
 ---
 author: rosielowther
-
 type: normal
-
 category: feature
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Specify a Commit by Its Ancestry
+
 
 ---
 
@@ -49,6 +55,7 @@ What is the `~` equivalent of `^^^^`?
 - `~4`
 - `~3`
 - `~2`
+
 
 ---
 
