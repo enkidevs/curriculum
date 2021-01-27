@@ -3,7 +3,7 @@ author: Stefan-Stojanovic
 
 type: normal
 
-category: how to
+category: how-to
 
 links: 
   - '[Xpath Cheatsheet](https://devhints.io/xpath){documentation}'

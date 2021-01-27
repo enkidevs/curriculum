@@ -3,7 +3,7 @@ author: Stefan-Stojanovic
 
 type: normal
 
-category: how to
+category: how-to
 
 links:
   - '[POWER](https://support.google.com/docs/answer/3093433){documentation}'

@@ -1,7 +1,7 @@
 ---
 author: catalin
 type: normal
-category: how to
+category: how-to
 links:
   - >-
     [preshing.com](http://preshing.com/20110920/the-python-with-statement-by-example/){website}

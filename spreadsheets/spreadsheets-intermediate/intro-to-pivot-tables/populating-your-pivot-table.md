@@ -3,7 +3,7 @@ author: Stefan-Stojanovic
 
 type: normal
 
-category: how to
+category: how-to
 
 links:
   - '[Sample Data](https://www.learningcontainer.com/sample-excel-data-for-analysis#Sample_Xlsx_file_download-2){website}'

@@ -1,7 +1,7 @@
 ---
 author: vbaron
 type: normal
-category: how to
+category: how-to
 tags:
   - custom font
   - font-face

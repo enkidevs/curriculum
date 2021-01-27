@@ -52,6 +52,7 @@ Types of change:
 
 ### Changed
 - [HTML - Image Types - Update information, Make Table](https://github.com/enkidevs/curriculum/pull/2563)
+- [Update "how to" to "how-to" category II](https://github.com/enkidevs/curriculum/pull/2562)
 
 ## January 26th 2021
 

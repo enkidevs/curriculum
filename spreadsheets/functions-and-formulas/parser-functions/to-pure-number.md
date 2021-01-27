@@ -3,7 +3,7 @@ author: Stefan-Stojanovic
 
 type: normal
 
-category: how to
+category: how-to
 
 links:
   - '[TO_PURE_NUMBER](https://support.google.com/docs/answer/3094243){documentation}'

@@ -3,7 +3,7 @@ author: catalin
 
 type: normal
 
-category: how to
+category: how-to
 
 links:
   - '[queue](https://docs.python.org/3/library/queue.html){documentation}'

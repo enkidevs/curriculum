@@ -1,7 +1,7 @@
 ---
 author: catalin
 type: normal
-category: how to
+category: how-to
 links:
   - '[docs.python.org](https://docs.python.org/3.5/library/sched.html){website}'
 ---

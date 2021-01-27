@@ -3,7 +3,7 @@ author: Stefan-Stojanovic
 
 type: normal
 
-category: how to
+category: how-to
 
 links:
   - '[TO_PERCENT](https://support.google.com/docs/answer/3094284){documentation}'

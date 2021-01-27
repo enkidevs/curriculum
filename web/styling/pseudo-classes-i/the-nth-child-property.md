@@ -1,7 +1,7 @@
 ---
 author: jordanfish
 type: normal
-category: how to
+category: how-to
 links:
   - >-
     [Tutorial on Pseudo Classes &

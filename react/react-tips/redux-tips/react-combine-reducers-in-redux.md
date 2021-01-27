@@ -1,11 +1,11 @@
 ---
 author: catalin
 type: normal
-category: how to
+category: how-to
 links:
   - >-
     [Combine
-    Reducers](http://rackt.org/redux/docs/api/combineReducers.html){website}
+    Reducers](https://redux.js.org/api/combinereducers){website}
 ---
 
 # Combine reducers in Redux

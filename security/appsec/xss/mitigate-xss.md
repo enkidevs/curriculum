@@ -3,7 +3,7 @@ author: lizTheDeveloper
 
 type: normal
 
-category: how to
+category: how-to
 
 links:
   - >-
@@ -16,7 +16,7 @@ links:
     Sheet](https://cheatsheetseries.owasp.org/cheatsheets/DOM_based_XSS_Prevention_Cheat_Sheet.html){website}
   - >-
     [XSS Filter Evasion Cheat
-    Sheet](https://www.owasp.org/index.php/XSS_Filter_Evasion_Cheat_Sheet){website}
+    Sheet](https://owasp.org/www-community/xss-filter-evasion-cheatsheet){website}
   - >-
     [OWASP Java Encoder
     Project](https://owasp.org/owasp-java-encoder/){website}
