@@ -1,0 +1,28 @@
+{
+  "name": "curriculum",
+  "version": "1.0.0",
+  "description": "The main content repository of the Enki app.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/enkidevs/curriculum.git"
+  },
+  "author": "kapnobatai137",
+  "license": "CC BY-NC-SA 4.0",
+  "bugs": {
+    "url": "https://github.com/enkidevs/curriculum/issues"
+  },
+  "homepage": "https://github.com/enkidevs/curriculum#readme",
+  "devDependencies": {
+    "husky": "^4.3.8"
+  },
+  "husky": {
+    "hooks": {
+       "pre-commit": "./.githooks/pre-commit.sh",
+       "pre-push": "./.githooks/pre-push.sh"
+    }
+  }
+}
