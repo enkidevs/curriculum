@@ -39,18 +39,6 @@ By simply adding `position: sticky` (vendor prefixed), we can tell an element to
 
 ---
 
-## Revision
-
-Which of the following browsers *does not* support `position: sticky`? ???
-
-- Chrome
-- Firefox
-- Safari
-- iOS Safari
-
-
----
-
 ## Footnotes
 
 [1:position fixed]
