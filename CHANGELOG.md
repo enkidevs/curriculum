@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## January 28th 2021
+
+### Changed
+- [CSS - Position Elements With Position Sticky - Remove question](https://github.com/enkidevs/curriculum/pull/2578)
+
 ## January 27th 2021
 
 ### Added
