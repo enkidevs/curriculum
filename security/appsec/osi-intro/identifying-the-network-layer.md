@@ -1,19 +1,23 @@
 ---
 author: milesflo
-
 type: normal
-
 category: must-know
-
-
 links:
   - >-
     [SANS
     Institute](https://www.sans.org/reading-room/whitepapers/protocols/applying-osi-layer-network-model-information-security-1309){website}
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Identifying the Network Layer
+
 
 ---
 
@@ -26,6 +30,7 @@ For example, your computer in London is trying to connect to a server in San Fra
 > The **Network Layer** relays requests from the **Transport Layer** (Layer 4) to the **Data Link Layer** (Layer 2).
 
 Some functions of the **Network Layer** include:
+
 - connectionless communication
   - data packets can travel from sender to recipient, without the recipient having to acknowledge receipt
 - host addressing
@@ -47,6 +52,7 @@ The Network Layer (Layer ???) is responsible for ??? ???.
 - 4
 - host
 - packaging
+
 
 ---
 

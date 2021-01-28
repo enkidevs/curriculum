@@ -14,6 +14,14 @@ notes: >
 
 
   Made the changes in the insight.
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Method overriding
@@ -106,3 +114,4 @@ Complete the missing gaps such that the output of running it will match the give
 - `child`
 - `super`
 - `hello()`
+ 

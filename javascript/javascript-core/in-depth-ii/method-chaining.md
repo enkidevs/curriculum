@@ -11,6 +11,14 @@ tags:
 links:
   - >-
     [schier.co](http://schier.co/blog/2013/11/14/method-chaining-in-javascript.html){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Method Chaining
@@ -114,3 +122,4 @@ How is method chaining typically enabled?
 - Implementing methods that return this
 - No need for implementation
 - Updating the object to allow this
+ 

@@ -9,6 +9,14 @@ links:
   - >-
     [JSX looks like an
     abomination](https://medium.com/javascript-scene/jsx-looks-like-an-abomination-1c1ec351a918#.amqkpfybp/){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # What is JSX?

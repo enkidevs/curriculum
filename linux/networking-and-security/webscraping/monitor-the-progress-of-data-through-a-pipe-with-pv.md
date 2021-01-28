@@ -11,6 +11,10 @@ tags:
   - copy
   - terminal
   - bash
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Monitor the progress of data through a pipe with `pv`

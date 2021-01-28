@@ -7,6 +7,14 @@ tags:
   - deep
   - obscura
 links: null
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Inversion of Control
@@ -83,3 +91,4 @@ What is the name of this dynamic?
 - un-inversion of control
 - callback hell
 - callback trust
+ 

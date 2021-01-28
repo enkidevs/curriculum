@@ -2,7 +2,14 @@
 author: jfarmer
 type: normal
 category: must-know
-inAlgoPool: false
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Viewing Resource Usage With `top`
@@ -59,4 +66,3 @@ To display the processes running in real time, you would use
 - ps
 - ms
 - procstat
- 

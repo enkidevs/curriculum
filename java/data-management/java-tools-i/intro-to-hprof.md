@@ -6,6 +6,14 @@ links:
   - >-
     [www.oracle.com](http://www.oracle.com/technetwork/java/javase/tooldescr-136044.html#gblvj){website}
 notes: 'https://insights.enki.com/#/contrib/others/55f41eef742fb322000e0d7b?search=kha'
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Intro to `HPROF`

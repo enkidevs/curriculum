@@ -2,7 +2,14 @@
 author: tommarshall
 type: normal
 category: must-know
-inAlgoPool: false
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # `break` and `continue` statements
@@ -82,3 +89,4 @@ Which keyword is used to terminate the current loop, then resuming code executio
 - `break`
 - `continue`
 - `next`
+ 

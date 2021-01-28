@@ -15,6 +15,14 @@ links:
   - >-
     [OOP Parents and
     Children](http://www.htmlcenter.com/blog/object-oriented-programming-parents-and-children/){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # What Is an Iterable?
@@ -73,6 +81,7 @@ What is the difference between `__getitem__()` and `__iter__()`?
 - `__getitem__() returns the item, __iter__() returns an iterator`
 - `__getitem__() is for indexed lookup, __iter__() returns an iterable`
 - `__getitem__() returns an iterator, __iter__() is for index lookup`
+
 
 ---
 

@@ -9,6 +9,10 @@ tags:
   - vhost
   - terminal
   - eth0
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Multiple IP Addresses with aliasing

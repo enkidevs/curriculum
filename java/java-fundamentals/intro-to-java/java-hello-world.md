@@ -7,6 +7,14 @@ links:
     [Get started with
     Java](https://docs.oracle.com/javase/tutorial/getStarted/cupojava/index.html){website}
   - '[Playground](https://repl.it/@enkicontent/HelloJavaPlayground){website}'
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Hello Java!

@@ -2,6 +2,10 @@
 author: Stefan-Stojanovic
 type: normal
 category: must-know
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Data Validation
@@ -48,4 +52,3 @@ To remove a data validation, all you have to do is right-click the cell you want
 - an external program used to create valid data.
 - just another name for analysis.
 - a feature used to separate different dates and validate them separately.
- 

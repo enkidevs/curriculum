@@ -6,6 +6,14 @@ links:
   - >-
     [Handling
     events](https://facebook.github.io/react/docs/handling-events.html){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Event handling in React

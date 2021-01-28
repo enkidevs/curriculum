@@ -9,6 +9,14 @@ links:
   - >-
     [Spread
     Operator](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Operators/Spread_operator){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Spread (Part 2)
@@ -110,3 +118,4 @@ console.log(copy === arr); // false
 console.log(copy[0] === arr[0]); // true
 console.log(copy[1] === arr[1]); // true
 ```
+ 

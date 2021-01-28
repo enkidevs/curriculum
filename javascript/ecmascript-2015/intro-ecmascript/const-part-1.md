@@ -2,7 +2,6 @@
 author: alexjmackey
 type: normal
 category: must-know
-inAlgoPool: false
 tags:
   - introduction
   - es6
@@ -10,6 +9,14 @@ tags:
 links:
   - >-
     [MDN](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Statements/const){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Const (Part 1)
@@ -127,3 +134,4 @@ if (true) {
 - yes, because the value is changed
 - no, because you can't redeclare a variable
 - no, because the if block doesn't have it's own scope
+ 

@@ -35,7 +35,7 @@ Why use Python over Excel?
 
 1. Python is great for handling **large datasets** (no limit on the number of rows)
 2. You can **combine multiple files**
-3. You can use **data from many different places** - APIs, databaes, CSVs and more
+3. You can use **data from many different places** - APIs, databases, CSVs and more
 4. You have access to **python functions**! These are quick and easy to use
 
 Next we're going to walk you through setting up the best environment for using Python for data analysis.

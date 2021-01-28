@@ -6,6 +6,14 @@ links:
   - >-
     [Ostrich
     Algorithm](https://en.wikipedia.org/wiki/Ostrich_algorithm){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # How to Avoid a Deadlock
@@ -58,4 +66,3 @@ What is "Ostrich Algorithm"?
 - Ignoring deadlock problem
 - Solving a deadlock by running a an ostrich class
 - Running an ostrich thread in a process-resource cycle
- 

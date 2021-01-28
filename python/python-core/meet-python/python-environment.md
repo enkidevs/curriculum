@@ -9,6 +9,14 @@ links:
   - >-
     [Best Text
     Editors](https://www.programiz.com/python-programming/ide){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Python Environment
@@ -57,6 +65,7 @@ Once you're using a text editor you can save files using a `.py` extension and t
 ```bash
 python3 myPythonFile.py
 ```
+
 
 ---
 
@@ -108,3 +117,4 @@ To use it, you launch the Python interpreter with `python3`, `python` or `python
 
 [3:Shell]
 The shell, also known as the command line, is a program which processes shell scripts, like Bash. Shell scripts allow you to manipulate and navigate between files, execute programs, and print text. The shell is run through the terminal.
+ 

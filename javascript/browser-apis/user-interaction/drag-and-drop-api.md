@@ -5,6 +5,14 @@ category: must-know
 links:
   - >-
     [www.tutorialspoint.com](http://www.tutorialspoint.com/html5/html5_drag_drop.htm){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Drag and Drop API
@@ -68,3 +76,4 @@ What global event handler must be added to an element so that it can be dragged 
 - `dragstart_handler`
 - `dataTransfer`
 - `dragAndDrop`
+ 

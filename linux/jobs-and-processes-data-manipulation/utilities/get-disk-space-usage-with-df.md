@@ -8,6 +8,10 @@ tags:
   - disk usage
   - terminal
   - human readable
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Get disk space usage with `df`

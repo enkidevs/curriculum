@@ -8,11 +8,15 @@ links:
     Important](https://www.csoonline.com/article/3315700/what-is-application-security-a-process-and-tools-for-securing-software.html){website}
   - >-
     [Veracode](https://www.veracode.com/state-of-software-security-report){website}
-  - >-
-    [Data Protection Regulations](https://gdpr-info.eu/){documentation}
+  - '[Data Protection Regulations](https://gdpr-info.eu/){documentation}'
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # What is AppSec?
+
 
 ---
 
@@ -56,4 +60,3 @@ Some examples include:
 - open-source reviewers
 - algorithm developers
 - engineers who are vigilant against common security flaws
- 

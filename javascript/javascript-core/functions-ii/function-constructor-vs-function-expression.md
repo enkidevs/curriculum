@@ -6,6 +6,14 @@ links:
   - >-
     [Constructor vs. Declaration vs.
     Expression](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions#Constructor_vs._declaration_vs._expression){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Function Constructor vs. Function Expression
@@ -26,6 +34,7 @@ let multiply = new Function(
 ```
 
 A function declaration of a function named `multiply`:
+
 ```js
 function multiply(x, y) {
   return x * y;
@@ -87,3 +96,4 @@ let multiply = function(x, y) {
 - function expression of a function named mult
 - all
 - none
+ 

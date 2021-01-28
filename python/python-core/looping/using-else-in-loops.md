@@ -2,7 +2,14 @@
 author: tommarshall
 type: normal
 category: must-know
-inAlgoPool: false
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Using `else` in loops
@@ -136,3 +143,4 @@ else:
 - a a
 - b a
 - a c
+ 

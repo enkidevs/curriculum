@@ -6,6 +6,14 @@ links:
   - >-
     [Official
     Documentation](https://docs.mongodb.com/manual/reference/operator/query-comparison/){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Querying a Collection Using Ranges

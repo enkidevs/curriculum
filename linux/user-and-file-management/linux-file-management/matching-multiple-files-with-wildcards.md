@@ -1,21 +1,25 @@
 ---
 author: jfarmer
-
 type: normal
-
 category: must-know
-
 tags:
   - introduction
   - workout
-
 links:
   - >-
     [Wildcards](http://www.tldp.org/LDP/GNU-Linux-Tools-Summary/html/x11655.htm){website}
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Matching Multiple Files With Wildcards
+
 
 ---
 
@@ -55,6 +59,7 @@ But *every* file matches `*`, so you'd be moving every file in the current direc
 
 Likewise, imagine the difference between `rm *.mp3` (which removes every `.mp3` file) and `rm * .mp3` (which inadvertently removes *every* file).
 
+
 ---
 
 ## Practice
@@ -71,6 +76,7 @@ mv ??*.[mM]p3
 - Any file with the extension .mp3 or .Mp3.
 - Any file with a name of at least two character long and the extension .mp4.
 - Any file with a name of at least two character long.
+
 
 ---
 

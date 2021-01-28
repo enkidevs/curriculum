@@ -5,6 +5,14 @@ category: feature
 links:
   - >-
     [docs.python.org](https://docs.python.org/3.5/library/stdtypes.html#bytearray-objects){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # `bytearray` objects
@@ -82,3 +90,4 @@ Convert the bytearray object into a hexadecimal string:
 - `tohex`
 - `byte`
 - `array`
+ 

@@ -12,6 +12,14 @@ tags:
 links:
   - >-
     [www.freedesktop.org](https://www.freedesktop.org/software/systemd/man/hostnamectl.html){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Change your `hostname` on systems using `systemd`

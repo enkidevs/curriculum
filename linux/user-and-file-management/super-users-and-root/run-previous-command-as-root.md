@@ -6,6 +6,10 @@ tags:
   - root
   - commands
   - introduction
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Run previous command as root

@@ -4,8 +4,16 @@ type: normal
 category: must-know
 links:
   - >-
-    [formnovalidate vs novalidate](https://stackoverflow.com/questions/11761202/whats-the-difference-between-novalidate-and-formnovalidate-attributes-of-html5){website}
-
+    [formnovalidate vs
+    novalidate](https://stackoverflow.com/questions/11761202/whats-the-difference-between-novalidate-and-formnovalidate-attributes-of-html5){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # The `formnovalidate` & `novalidate` Attributes

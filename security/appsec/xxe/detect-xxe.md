@@ -1,10 +1,7 @@
 ---
 author: lizTheDeveloper
-
 type: normal
-
 category: how-to
-
 links:
   - >-
     [XXE
@@ -12,10 +9,18 @@ links:
   - >-
     [XXE Exploit
     Walkthrough](https://resources.infosecinstitute.com/finding-and-exploiting-xxe-xml-external-entities-injection/#gref){website}
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Detect XXE
+
 
 ---
 
@@ -37,6 +42,7 @@ Using a library that is designed for the task is similar to herd immunity- when 
 
 If you *really absolutely have to build your own* understand that it is a sensitive and large undertaking that puts your customers' data at risk, and should be a thoroughly researched and maintained internal module.
 
+
 ---
 
 ## Practice
@@ -53,6 +59,7 @@ What should you disable to prevent them?
 - XML
 - Prevent unescaped user input
 - Code Execution
+
 
 ---
 

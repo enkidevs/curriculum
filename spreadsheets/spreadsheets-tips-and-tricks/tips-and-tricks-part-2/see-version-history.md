@@ -2,6 +2,14 @@
 author: Stefan-Stojanovic
 type: normal
 category: how-to
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Version History
@@ -75,4 +83,3 @@ How do you load a previously saved version of your spreadsheet?
 - Version history 
 - Select the version you want 
 - click Restore this version
- 

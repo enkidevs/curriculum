@@ -8,6 +8,14 @@ links:
   - >-
     [Background
     processes](http://www.cyberciti.biz/faq/linux-command-line-run-in-background/){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # How to pause a process and run others in the background

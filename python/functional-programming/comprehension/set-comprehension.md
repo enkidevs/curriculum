@@ -8,6 +8,14 @@ links:
 notes: >-
   Added the point that the list-to-set comprehension will work even if the list
   contains duplicates.
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Set comprehension
@@ -91,3 +99,4 @@ odd_set = {x for x in l if x % 2}
 - {1,3,5,9}
 - {1,2,3,4,5,8,9}
 - {2,4,8}
+ 

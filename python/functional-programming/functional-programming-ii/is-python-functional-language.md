@@ -6,6 +6,10 @@ links:
   - >-
     [Is Python a functional
     language?](https://www.quora.com/Is-Python-a-functional-language){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Is Python a Functional Language?

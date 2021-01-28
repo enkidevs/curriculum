@@ -9,6 +9,10 @@ tags:
   - bash
   - alias
   - workout
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Get to know your commands with `type`

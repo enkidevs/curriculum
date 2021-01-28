@@ -6,6 +6,14 @@ links:
   - >-
     [More operations
     here](https://www.tutorialspoint.com/python/python_files_io.htm){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Other operations on files
@@ -102,3 +110,4 @@ Which method returns the current position of the file pointer within a **file ob
 - `seek()`
 - `open()`
 - `readline()`
+ 

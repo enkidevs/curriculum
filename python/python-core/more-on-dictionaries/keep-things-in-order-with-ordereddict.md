@@ -18,6 +18,14 @@ notes: >
 
   uses incorrect terms - OrderedDict is not a subclass of collections module but
   a class in that module. And it is a subclass of dict.
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Keep things in order with `OrderedDict`
@@ -103,3 +111,4 @@ for k, v in e.???():
 - `odict`
 - `dictionary`
 - `holds`
+ 

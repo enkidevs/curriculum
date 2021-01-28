@@ -8,6 +8,14 @@ links:
   - >-
     [Flexbox
     Fundamentals](https://egghead.io/lessons/misc-flexbox-fundamentals){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # `direction` : `column-reverse`

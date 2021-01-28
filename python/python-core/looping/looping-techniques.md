@@ -21,6 +21,14 @@ notes: >
 
   The "reversed()" function (note extra "d" at end of name) should be used
   instead of "reverse()". Fixed.
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Looping techniques
@@ -132,3 +140,4 @@ for w in ???(???):
 - `orderreverse`
 - `start`
 - `list`
+ 

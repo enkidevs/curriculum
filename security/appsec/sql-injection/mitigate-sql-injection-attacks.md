@@ -1,10 +1,7 @@
 ---
 author: lizTheDeveloper
-
 type: normal
-
 category: how-to
-
 links:
   - >-
     [Injection Prevention Cheat
@@ -16,10 +13,18 @@ links:
     [Query Parameterization Cheat
     Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Query_Parameterization_Cheat_Sheet.html){website}
   - '[Bobby Tables](http://bobby-tables.com/){website}'
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Mitigate SQL Injection Attacks
+
 
 ---
 
@@ -34,6 +39,7 @@ A few other steps you can take:
 - Always escape and sanitize inputs
 - Log SQL Injection attempts to detect hostile IPs
 
+
 ---
 
 ## Practice
@@ -46,6 +52,7 @@ What step *might not* help you mitigate SQL injection attacks?
 - Evaluate your ORM for SQL Injection vulnerability reports
 - Always escape and sanitize inputs
 - Log SQL Injection attempts to detect hostile IPs
+
 
 ---
 

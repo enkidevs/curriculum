@@ -5,6 +5,14 @@ category: hack
 links:
   - >-
     [Source](https://github.com/facebook/react/issues/812#issuecomment-172929366){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Increase performance with `PROCESS.ENV`

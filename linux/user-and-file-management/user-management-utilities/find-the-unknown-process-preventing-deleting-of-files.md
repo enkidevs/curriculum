@@ -7,6 +7,10 @@ tags:
   - workout
 links:
   - '[linux.die.net](http://linux.die.net/man/1/fuser){website}'
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Find the unknown process preventing deleting of files
@@ -41,4 +45,3 @@ Complete the command to kill the processes that are using a file :
 - `-k`
 - `-v`
 - `kill`
- 

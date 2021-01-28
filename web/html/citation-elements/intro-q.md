@@ -6,6 +6,14 @@ links:
   - >-
     [HTML <q>
     Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/q){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Intro `<q>`

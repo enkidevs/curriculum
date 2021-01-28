@@ -1,27 +1,33 @@
 ---
 author: stefkn
-
 levels:
-
   - beginner
-
   - basic
-
   - medium
-
 type: normal
-
 category: must-know
-
 links:
-
-  - '[Python eval()](https://www.programiz.com/python-programming/methods/built-in/eval)'
-  - '[Eval really is dangerous](https://nedbatchelder.com/blog/201206/eval_really_is_dangerous.html)'
-
+  - >-
+    [Python
+    eval()](https://www.programiz.com/python-programming/methods/built-in/eval){website}
+  - >-
+    [Eval really is
+    dangerous](https://nedbatchelder.com/blog/201206/eval_really_is_dangerous.html){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
+
 # The `eval` Built-in Function
 
+
 ---
+
 ## Content
 
 The `eval` built-in allows a Python program to evaluate a string of Python code within the program. The code to be executed is passed as an argument to `eval`. The function takes the general syntax:
@@ -32,9 +38,9 @@ eval(expression, globals=None, locals=None)
 
 The three parameters are:
 
- - __expression__ - the Python code to be evaluated, as a string. This is mandatory.
- - __globals__ - a dictionary, used to determine which global variables the code in the expression can access. This is optional.
- - __locals__ - a mapping object, also usually a dictionary, used to determine which local variables the code in the expression can access. This is optional.
+- **expression** - the Python code to be evaluated, as a string. This is mandatory.
+- **globals** - a dictionary, used to determine which global variables the code in the expression can access. This is optional.
+- **locals** - a mapping object, also usually a dictionary, used to determine which local variables the code in the expression can access. This is optional.
 
 If no global or local parameters are passed to `eval`, the expression is evaluated in the current scope, which means it has access to the same local and global variables as a line of code executed on the same line.[1] If no local dictionary is provided, `eval` reverts to using the global dictionary as the local one as well. If an empty dictionary is provided as the global dictionary, the only methods available to the expression will be the `__builtins__`, and nothing else, regardless of what is imported outside of the `eval`.
 
@@ -84,7 +90,7 @@ print(eval('squareRoot(9)',
 # Result: 3
 ```
 
-Finally, it is important to be aware of __the security risks associated with `eval`__. If you pass user input to an `eval` and have not restricted the functions available to the expression, it is possible that the user could compromise system security or integrity.
+Finally, it is important to be aware of **the security risks associated with `eval`**. If you pass user input to an `eval` and have not restricted the functions available to the expression, it is possible that the user could compromise system security or integrity.
 
 For example, if the `os` module is available for use, the user could delete arbitrary files from the system by using the `rm -rf` unix command, which can be used from the `os` module and evaluated via `eval`. We should be careful whenever we are passing user input to be evaluated, even if indirectly, because of the risk of code injection. Always ensure user input fed into `eval` commands are properly tokenized. It is generally not recommended to pass user input into `eval` at all.
 
@@ -97,44 +103,46 @@ eval(expression_here,
 
 However, for reasons outside of the scope of this lesson, this is not always completely secure. For more information on the security risks associated with using `eval` see the 'Eval really is dangerous' link in the Learn More section.  
 
+
 ---
+
 ## Practice
 
 Fill in the blanks in the following code to evaluate the expression using `eval`, but restricting the use of `__builtins__` and `sqrt` and allowing the use of `pow`.
 
-```
-from math import *
-print(???('pow(9, 3)',
-{'sqrt': ???, 
-  'pow': ???, '???': None}))
-```
+    from math import *
+    print(???('pow(9, 3)',
+    {'sqrt': ???, 
+      'pow': ???, '???': None}))
 
-* `eval`
-* `None`
-* `pow`
-* `__builtins__`
-* `math.sqrt()`
-* `squareRoot()`
+- `eval`
+- `None`
+- `pow`
+- `__builtins__`
+- `math.sqrt()`
+- `squareRoot()`
+
 
 ---
+
 ## Revision
 
 Fill in the blanks to evaluate the expression, but rename the `gcd` function to `greatestCommonDivisor`.
 
-```
-from math import *
-print(???(???(9, 3)',
-{'???': ???}))
-```
+    from math import *
+    print(???(???(9, 3)',
+    {'???': ???}))
 
-* eval
-* greatestCommonDivisor
-* greatestCommonDivisor
-* gcd
-* math.gcd
-* sqrt
+- eval
+- greatestCommonDivisor
+- greatestCommonDivisor
+- gcd
+- math.gcd
+- sqrt
+
 
 ---
+
 ## Footnotes
 
 [1:Scope]

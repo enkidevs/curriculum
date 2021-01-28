@@ -1,22 +1,26 @@
 ---
 author: emmab
-
 tags:
   - introduction
   - workout
-
 type: normal
-
 category: must-know
-
 links:
   - >-
     [Mapping
     Types](https://docs.python.org/3.5/library/stdtypes.html#mapping-types-dict){website}
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # The `Dictionary`
+
 
 ---
 
@@ -73,6 +77,7 @@ print(preferences)
 ```
 
 > Remember - be careful when using `update()`, as a dictionary can't have multiple entries with the same key.
+
 
 ---
 

@@ -12,6 +12,14 @@ tags:
   - ppa-purge
   - install
   - repository
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Removing PPAs

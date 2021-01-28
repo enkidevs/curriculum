@@ -7,6 +7,14 @@ links:
     [www.infoq.com](http://www.infoq.com/articles/Java-8-Quiet-Features){website}
 notes: >-
   https://insights.enki.com/#/contrib/others/55c838333d25fc2e0079a878?search=khandelwalrinki
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Control OS `Process` es in `Java8`

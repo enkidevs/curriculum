@@ -4,7 +4,16 @@ type: normal
 category: must-know
 links:
   - >-
-    [MDN enctype and formenctype](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form#attributes_for_form_submission){documentation}
+    [MDN enctype and
+    formenctype](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form#attributes_for_form_submission){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # enctype & formenctype
@@ -68,6 +77,7 @@ Which statement is true regarding `formenctype`?
 - `Can be used only if method="get"`.
 - `The values application/x-www-form-urlencoded and text/plain convert spaces into '-' symbols.`
 
+
 ---
 
 ## Revision
@@ -81,6 +91,7 @@ Which input form attribute is used to specify an encoding type for your form?
 - encode
 - urlencoded
 - form
+
 
 ---
 

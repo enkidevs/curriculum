@@ -7,6 +7,14 @@ tags:
   - colour
 links:
   - '[Scrimba CSS Colors](https://scrimba.com/p/pWvwCg/cMMymu2){website}'
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Hexadecimal color system
@@ -56,4 +64,3 @@ Which of these hexadecimal colors are not the same?
 - `#FFFFF and #FFF`
 - `#FFF and #FFFFFF`
 - `#FFC125 and #ffc125`
- 

@@ -17,6 +17,14 @@ links:
     [HTML <tfoot>
     Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tfoot){documentation}
   - '[Codepen Example](https://codepen.io/stefan-stojanovic/pen/jKbJgQ){code}'
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # The `<thead>` , `<tbody>` , & `<tfoot>` Elements
@@ -110,4 +118,3 @@ Which of the following is a key benefit of using `<thead>`, `<tbody>`, and `<tfo
 - alternative colors can be styled to rows/columns differently.
 - best for search engines to determine the type of data.
 - allows for easier nesting of table organization.
- 

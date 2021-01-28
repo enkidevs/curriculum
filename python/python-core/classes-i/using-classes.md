@@ -2,6 +2,14 @@
 author: mihaiberq
 type: normal
 category: must-know
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Using Classes
@@ -90,3 +98,4 @@ class Car:
 - instance attribute
 - class variable
 - instance variable
+ 

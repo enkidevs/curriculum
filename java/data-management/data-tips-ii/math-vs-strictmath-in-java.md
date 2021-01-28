@@ -5,6 +5,14 @@ category: feature
 links:
   - >-
     [stackoverflow.com](http://stackoverflow.com/questions/4232231/whats-the-difference-between-java-lang-math-and-java-lang-strictmath){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # `Math` vs `StrictMath` in java
@@ -41,4 +49,3 @@ What java class related to mathematics have its function not defined to return t
 
 - `Math` 
 - `StrictMath`
- 

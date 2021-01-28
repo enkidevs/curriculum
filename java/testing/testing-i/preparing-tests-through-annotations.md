@@ -4,6 +4,14 @@ type: normal
 category: tip
 notes: |
   https://insights.enki.com/#/contrib/5594adacabc92e3300233c3b
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Preparing tests through annotations

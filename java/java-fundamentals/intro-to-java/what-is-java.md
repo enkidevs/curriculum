@@ -5,6 +5,10 @@ category: must-know
 tags:
   - java
   - introduction
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # What is Java?
@@ -53,4 +57,3 @@ In Java, some security flaws (stack corruption, buffer overflow) are impossible 
 
 [3:Portable]
 Once you compile your Java code, it can run on any machine. This concept is called **WORA** (write once, run anywhere) and will be explained in the following insights.
- 

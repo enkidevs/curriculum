@@ -4,6 +4,14 @@ type: normal
 category: hack
 tags:
   - double-tilde
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Using the Double Tilde `~~`
@@ -73,3 +81,4 @@ console.log( ~~"Sunny" ); // ???
 - 0
 - NaN
 - ”56”
+ 

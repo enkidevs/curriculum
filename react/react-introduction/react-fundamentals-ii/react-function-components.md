@@ -9,6 +9,10 @@ links:
   - >-
     [How are function components different from
     classes](https://overreacted.io/how-are-function-components-different-from-classes/){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Function components

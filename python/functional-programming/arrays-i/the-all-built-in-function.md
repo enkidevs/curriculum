@@ -6,6 +6,14 @@ links:
   - >-
     [Python 3 Documentation -
     all](https://docs.python.org/3.3/library/functions.html#all){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # The `all` Built-in Function
@@ -81,3 +89,4 @@ print(all([" ", 'abc', 12, 145, '']))
 
 [1:Python Truthiness]
 *Using the `bool` built in function, we can check the truthiness of any object in Python. The truthiness rules can be examined at length in the second link in the Learn More section. As a general rule, nonempty objects are True and empty ones are False. For integers, 0 is False, anything else is True. Truthiness can be a useful shortcut when performing operations on these types.*
+ 

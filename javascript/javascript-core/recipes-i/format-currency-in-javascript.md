@@ -9,6 +9,14 @@ tags:
 links:
   - >-
     [css-tricks.com](https://css-tricks.com/snippets/javascript/format-currency/){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Format Currency in JavaScript
@@ -70,3 +78,4 @@ console.log(currency('1234.567'));
 - 1234.57
 - 1234.56
 - 12
+ 

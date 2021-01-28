@@ -2,9 +2,16 @@
 author: alexjmackey
 type: normal
 category: must-know
-inAlgoPool: false
 tags:
   - introduction
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Function Arguments
@@ -72,3 +79,4 @@ console.log(per.name);
 - Alex
 - undefined
 - null
+ 

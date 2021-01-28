@@ -9,6 +9,14 @@ tags:
 links:
   - >-
     [nodejs.org](https://nodejs.org/en/blog/npm/managing-node-js-dependencies-with-shrinkwrap/){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Lock down dependency versions by shrinkwrapping

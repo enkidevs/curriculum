@@ -1,16 +1,20 @@
 ---
 author: alexjmackey
-
 type: normal
-
 category: must-know
-
 links:
   - >-
     [Symbol](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol){website}
   - >-
     [getOwnPropertySymbols](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/getOwnPropertySymbols){website}
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Symbol Special Properties
@@ -76,6 +80,7 @@ console.log(objSymbols[0])
 // Symbol()
 ```
 
+
 ---
 
 ## Practice
@@ -102,6 +107,7 @@ Which of the following code snippets will return an array of all the symbol prop
 - 3
 - 4
 
+
 ---
 
 ## Revision
@@ -123,3 +129,4 @@ console.log(
 - ['Symbol()']
 - ['Symbol(enki)']
 - ['Symbol()', 'Symbol(enki)']
+ 

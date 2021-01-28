@@ -6,6 +6,10 @@ links:
   - >-
     [Python
     debugger](https://www.digitalocean.com/community/tutorials/how-to-use-the-python-debugger){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Python Debugger
@@ -82,3 +86,4 @@ def interaction()
 - ZeroDivisionError: division by 0
 - The code will run with no errors
 - EOFError
+ 

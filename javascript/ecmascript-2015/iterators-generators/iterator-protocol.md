@@ -1,17 +1,23 @@
 ---
 author: alexjmackey
-
 type: normal
-
 category: must-know
-
 links:
   - >-
-    [Iteration protocols](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Iteration_protocols){website}
-
+    [Iteration
+    protocols](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Iteration_protocols){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Iterator Protocol
+
 
 ---
 
@@ -51,6 +57,7 @@ return {
 };
 ```
 
+
 ---
 
 ## Practice
@@ -85,3 +92,4 @@ Which of the following is not part of the iteration protocol?
 - a method to get all the items at once (getAll)
 - a method to advance the iteration (next)
 - a way of telling when the iteration is done (done)
+ 

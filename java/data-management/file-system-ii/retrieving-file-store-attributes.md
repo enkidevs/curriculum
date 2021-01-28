@@ -10,6 +10,10 @@ tags:
 links:
   - >-
     [docs.oracle.com](https://docs.oracle.com/javase/tutorial/essential/io/fileAttr.html){website}
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Retrieving file store attributes

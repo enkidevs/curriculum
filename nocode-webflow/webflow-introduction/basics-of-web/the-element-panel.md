@@ -2,6 +2,10 @@
 author: Stefan-Stojanovic
 type: normal
 category: must-know
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # The Element Panel
@@ -38,4 +42,3 @@ How do you add new elements in Webflow?
 
 - By using the Add Element Panel.
 - `By using the Insert -> New -> Element feature.`
- 

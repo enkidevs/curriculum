@@ -4,6 +4,10 @@ category: how-to
 type: normal
 links:
   - '[Explore Integrations](https://zapier.com/apps/integrations/){website}'
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Some Integrations
@@ -36,4 +40,3 @@ In Zapier, if you don't find a template for your applications, you can ???.
 
 - create your own zap
 - give up
- 

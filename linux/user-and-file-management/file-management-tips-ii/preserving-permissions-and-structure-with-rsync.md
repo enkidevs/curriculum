@@ -9,6 +9,10 @@ tags:
   - backup
   - sync
   - archive
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Preserving permissions and structure with `rsync`

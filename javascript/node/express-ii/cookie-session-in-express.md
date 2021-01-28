@@ -4,6 +4,14 @@ type: normal
 category: how-to
 links:
   - '[github.com](https://github.com/expressjs/cookie-session){website}'
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # `cookie-session` in **Express**

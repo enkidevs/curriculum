@@ -1,23 +1,31 @@
-﻿---
+---
 author: Stefan-Stojanovic
-
 type: normal
-
 category: how-to
-
 links:
   - '[MIN](https://support.google.com/docs/answer/3094017?hl=en){documentation}'
   - '[MAX](https://support.google.com/docs/answer/3094013?hl=en){documentation}'
-  - '[AVERAGE](https://support.google.com/docs/answer/3093615?hl=en){documentation}'
+  - >-
+    [AVERAGE](https://support.google.com/docs/answer/3093615?hl=en){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+---
+
+# `MIN` , `MAX` , `AVERAGE`
+
 
 ---
 
-# `MIN`, `MAX`, `AVERAGE`
-
----
 ## Content
 
 The `MIN`, `MAX`, and `AVERAGE` functions are used to perform calculations on a numeric dataset:
+
 - `MIN` - returns the minimum
 - `MAX` - returns the maximum
 - `AVERAGE` - returns the average
@@ -36,7 +44,9 @@ And here are the results:
 
 ![result-min-max](https://img.enkipro.com/42551f870c015f9013622e86fd37badc.png)
 
+
 ---
+
 ## Practice
 
 Can you insert text in the `MIN` or `MAX` functions?
@@ -46,7 +56,9 @@ Can you insert text in the `MIN` or `MAX` functions?
 - No
 - Yes
 
+
 ---
+
 ## Revision
 
 Can you insert text in the `AVERAGE` function?

@@ -6,6 +6,14 @@ links:
   - >-
     [HTML <bdo>
     Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/bdo){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # The `<bdo>` Element

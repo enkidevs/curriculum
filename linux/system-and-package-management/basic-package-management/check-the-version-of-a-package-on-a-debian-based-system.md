@@ -10,6 +10,14 @@ tags:
   - terminal
   - bash
 notes: ''
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Check the version of a package on a Debian based system

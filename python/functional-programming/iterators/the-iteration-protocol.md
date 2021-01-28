@@ -6,6 +6,14 @@ links:
   - >-
     [Iteration
     Protocol](https://medium.com/the-python-corner/iterators-and-generators-in-python-2c3929a144b){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # The Iteration Protocol
@@ -111,3 +119,4 @@ print(sum(iterator))
 [1:`StopIteration` exception]
 An exception is simply another word for an error. Taken directly from the Python 3.6 documentation:
 "Raised by built-in function `next()` and an iterator‘s `__next__()` method to signal that there are no further items produced by the iterator. The exception object has a single attribute value, which is given as an argument when constructing the exception, and defaults to None."
+ 

@@ -7,8 +7,16 @@ links:
     [Dictionary
     methods](https://www.programiz.com/python-programming/dictionary){website}
   - >-
-    [popitem() 
-    Python 3.7](https://docs.python.org/3/library/stdtypes.html#dict.popitem){website}
+    [popitem()  Python
+    3.7](https://docs.python.org/3/library/stdtypes.html#dict.popitem){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Dictionary Methods II

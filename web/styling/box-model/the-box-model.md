@@ -2,12 +2,15 @@
 author: mihaiberq
 type: normal
 category: tip
-inAlgoPool: false
 links:
   - '[Scrimba CSS the Box Model](https://scrimba.com/p/pWvwCg/cnm3RSZ){website}'
   - >-
     [MDN Docs on the Box
     Model](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Introduction_to_the_CSS_box_model){documentation}
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # The *Box Model*

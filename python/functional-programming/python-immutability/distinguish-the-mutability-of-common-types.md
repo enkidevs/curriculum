@@ -6,6 +6,14 @@ links:
   - >-
     [PYTHON OBJECTS: MUTABLE VS.
     IMMUTABLE](https://codehabitude.com/2013/12/24/python-objects-mutable-vs-immutable/){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Distinguish the Mutability of Common Types
@@ -110,3 +118,4 @@ What is the default mutability of user-defined custom classes that have not had 
 
 [1:Scalar Data Types]
 In programming languages, data types are said to be **scalar** or **base** data types when they hold only one item of data each. This is in contrast to **collections** or **containers** which are the family of data types that have the ability to encapsulate multiple separate items of data, each of which will be of one of the language's scalar types.
+ 

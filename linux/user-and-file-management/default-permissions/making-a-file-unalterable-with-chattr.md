@@ -9,6 +9,10 @@ tags:
   - terminal
   - obscura
   - workout
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Making a file unalterable with `chattr`

@@ -1,17 +1,23 @@
 ---
 author: SebaRaba
-
 type: normal
-
 category: must-know
-
 links:
   - >-
-    [Errors and Exceptions](https://docs.python.org/3/tutorial/errors.html){website}
-
+    [Errors and
+    Exceptions](https://docs.python.org/3/tutorial/errors.html){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Exception Handling
+
 
 ---
 
@@ -77,6 +83,7 @@ finally:
 
 Because we introduced error handling, the program didn't stop when it encountered the `IOError`. 
 
+
 ---
 
 ## Practice
@@ -89,6 +96,7 @@ Can we define a single except clause that will catch all types of exceptions?
 - no
 - depends on the exception
 
+
 ---
 
 ## Revision
@@ -99,6 +107,7 @@ What are the two optional clauses of the `try-except` statement?
 - `else` and `finally`
 - `if` and `return`
 - `elif` and `break`
+
 
 ---
 
@@ -127,3 +136,4 @@ finally:
 - It will do A, B and D
 - It will do A, B, C and D
 - It will do B and D
+ 

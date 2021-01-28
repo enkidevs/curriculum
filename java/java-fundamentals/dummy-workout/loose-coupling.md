@@ -1,33 +1,32 @@
 ---
 author: mihaiberq
-
 levels:
-
   - basic
-
 type: normal
-
 category: must-know
-
 aspects:
-
   - introduction
-
 links:
-
-  - '[Coupling and Cohesion](https://stackoverflow.com/questions/3085285/cohesion-coupling){website}'
-
+  - >-
+    [Coupling and
+    Cohesion](https://stackoverflow.com/questions/3085285/cohesion-coupling){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Loose Coupling
 
----
-## Content
 
+---
+
+## Content
 
 The equivalent of the relation between a smartphone whose battery you could remove yourself and the battery is called **loose coupling**. The implementation details are specific to each class, therefore reducing the dependencies. This design paradigm promotes *single responsibility* and *separation of concerns*.
 
 The difference between the concepts can be explained better through a code example:
+
 ```java
 // tight coupling
 public class Item {
@@ -58,9 +57,11 @@ public class Checkout {
 }
 
 ```
+
 In this case, `Checkout` has to know that `Cart` has an array of `Item`s. Moreover, `Checkout` also has to know that an `Item` has a `price` and a `quantity`. This way, any changes made to the any of the `Class` and `Item` variables/methods also require `Checkout` to be changed.
 
 A better approach would be to designate each class to manipulate the data themselves and retrieve the result through methods:
+
 ```java
 // loose coupling
 public class Item {
@@ -93,17 +94,19 @@ public class Checkout {
   }
 }
 ```
+
 **N.B.** in this example, we've used public variables instead of private ones with getters to reduce the code snippet length. The principle, however, remains the same.
 
+
 ---
+
 ## Practice
 
 Which of the following definitions describes `coupling` the best?
 
 ???
 
-
-* The degree of independence among modules
-* The degree of independence inside modules
-* The alternative use of private and public variables
-* Inheritance dependencies
+- The degree of independence among modules
+- The degree of independence inside modules
+- The alternative use of private and public variables
+- Inheritance dependencies

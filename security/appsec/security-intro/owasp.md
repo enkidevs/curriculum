@@ -1,10 +1,7 @@
 ---
 author: lizTheDeveloper
-
 type: normal
-
 category: must-know
-
 links:
   - '[OWASP](https://www.owasp.org/){website}'
   - >-
@@ -17,10 +14,18 @@ links:
   - >-
     [Cryptography and Security on
     Arxiv](https://arxiv.org/list/cs.CR/recent){website}
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # OWASP & Open Source Initiatives
+
 
 ---
 
@@ -44,6 +49,7 @@ In this Security course we'll teach you:
 - How to evaluate source code for vulnerabilities
 - How to identify and protect sensitive data
 - And much more!
+
 
 ---
 
@@ -70,4 +76,3 @@ OWASP is:
 - An open source community of common security issues and techniques
 - A hacking group
 - A virus affecting wi-fi enabled microwaves
- 

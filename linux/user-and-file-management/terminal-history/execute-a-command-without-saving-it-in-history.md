@@ -10,6 +10,10 @@ tags:
   - bash history
   - workout
 notes: ''
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Execute a command without saving it in history

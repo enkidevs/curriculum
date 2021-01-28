@@ -1,13 +1,19 @@
 ---
 author: kapnobatai136
-
 type: normal
-
 category: must-know
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Java Virtual Machine
+
 
 ---
 
@@ -28,6 +34,7 @@ Okay so what does this have to do with Java? The process is the following:
 3. The JVM then proceeds to identify your operating system and convert the intermediary code to native code
 
 ![jvm-mental-model](https://img.enkipro.com/a038da2671b98d52c795730e3a676198.png)
+
 
 ---
 
@@ -55,4 +62,3 @@ Choose the correct order for converting Java code to native code:
 - Java code is compiled to binary numbers.
 - The binary code is fed to the JVM.
 - The intermediary code is converted to native code.
- 

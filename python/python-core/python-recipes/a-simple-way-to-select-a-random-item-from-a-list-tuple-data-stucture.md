@@ -2,6 +2,14 @@
 author: Aaron7Sun
 type: normal
 category: tip
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # A simple way to select a random item from a `list/tuple` data structure

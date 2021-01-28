@@ -9,6 +9,14 @@ links:
   - >-
     [A more in-depth
     explanation](http://javadude.com/articles/passbyvalue.htm){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # There is no such thing as *pass-by-reference* in Java

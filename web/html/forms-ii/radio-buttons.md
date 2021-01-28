@@ -6,6 +6,10 @@ links:
   - >-
     [HTML Radio
     Button](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/radio){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Radio Buttons
@@ -31,4 +35,3 @@ You can only select ??? of the radio buttons at a time.
 - one
 - two
 - three
- 

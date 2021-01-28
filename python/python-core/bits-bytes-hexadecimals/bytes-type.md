@@ -5,6 +5,14 @@ category: feature
 links:
   - >-
     [docs.python.org](https://docs.python.org/3.5/library/stdtypes.html#bytes){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # `bytes` type
@@ -78,3 +86,4 @@ Bytes are ??? sequences of single bits.
 
 - `immutable`
 - `mutable`
+ 

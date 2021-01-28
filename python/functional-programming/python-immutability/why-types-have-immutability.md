@@ -9,6 +9,10 @@ links:
   - >-
     [Blog post: Objects Should be
     Immutable](http://www.yegor256.com/2014/06/09/objects-should-be-immutable.html){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Why Types Have Immutability

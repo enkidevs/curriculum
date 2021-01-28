@@ -7,6 +7,10 @@ links:
   - >-
     [MDN Docs on Line
     Height](https://developer.mozilla.org/en-US/docs/Web/CSS/line-height){documentation}
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Add `line-height` to `body`

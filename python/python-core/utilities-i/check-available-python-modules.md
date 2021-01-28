@@ -10,6 +10,14 @@ links:
   - >-
     [How to Get a List of Locally Installed
     Modules](http://stackoverflow.com/questions/739993/how-can-i-get-a-list-of-locally-installed-python-modules){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Check Available Python Modules

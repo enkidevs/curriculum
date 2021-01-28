@@ -5,6 +5,14 @@ category: feature
 links:
   - >-
     [www.sitepoint.com](http://www.sitepoint.com/10-html5-apis-worth-looking/){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # User Timing API
@@ -67,3 +75,4 @@ performance.???("???",
 - `time`
 - `elapsed`
 - `timing`
+ 

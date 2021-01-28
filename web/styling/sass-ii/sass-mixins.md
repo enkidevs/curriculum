@@ -6,6 +6,10 @@ links:
   - >-
     [Structure of a
     Stylesheet](http://sass-lang.com/documentation/file.SASS_REFERENCE.html#sassscript){website}
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Sass Mixins

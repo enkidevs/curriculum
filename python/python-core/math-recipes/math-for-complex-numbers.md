@@ -2,9 +2,16 @@
 author: catalin
 type: normal
 category: tip
-inAlgoPool: false
 links:
   - '[docs.python.org](https://docs.python.org/3.5/library/cmath.html){website}'
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Math for complex numbers
@@ -101,3 +108,4 @@ z = ???(2, 4)
 - `c`
 - `math`
 - `create`
+ 

@@ -1,18 +1,23 @@
 ---
 author: SebaRaba
-
 type: normal
-
 category: must-know
-
 links:
   - >-
     [More About
     Debugging](https://pythonconquerstheuniverse.wordpress.com/2009/09/10/debugging-in-python/){website}
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Debugging
+
 
 ---
 
@@ -59,6 +64,7 @@ Now we know that `x` was initialized with value `6` because of `foo()`.
 
 The bug here is that the `while` condition will always evaluate `True` and the program is stuck in an infinite loop: we can assume that because the second `print` statement is never called.
 
+
 ---
 
 ## Practice
@@ -89,6 +95,7 @@ counter(3)
 - 1
 - 0
 
+
 ---
 
 ## Revision
@@ -100,3 +107,4 @@ Which of the following is an ad-hoc debugging method?
 - print()
 - debugging modules
 - Python doesn't support debugging
+ 

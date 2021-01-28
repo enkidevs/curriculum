@@ -8,6 +8,14 @@ links:
   - >-
     [Regex in Google
     Sheets](https://www.distilled.net/how-to-use-regex-in-google-sheets/){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Why Learn Regex?

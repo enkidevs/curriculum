@@ -5,6 +5,14 @@ category: must-know
 links:
   - >-
     [docs.python.org](https://docs.python.org/3.5/tutorial/classes.html#private-variables){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Private Variables
@@ -108,3 +116,4 @@ topsecret = Secret()
 - No, you can access the private variable via 'topsecret.**Secret.**supersecret'
 - No, you can access the private variable via 'topsecret._private__supersecret'
 - Yup, your secret is safe forever!
+ 

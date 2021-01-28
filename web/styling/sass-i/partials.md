@@ -2,6 +2,10 @@
 author: mihaiberq
 type: normal
 category: how-to
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Partials

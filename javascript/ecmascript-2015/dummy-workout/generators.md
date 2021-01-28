@@ -1,22 +1,31 @@
 ---
 author: rosielowther
-
 levels:
   - medium
-
 type: normal
-
 category: feature
-
 links:
-  - '[ES6 Generators in Depth](http://www.2ality.com/2015/03/es6-generators.html){website}'
-  - '[MDN- Generator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator){website}'
-
+  - >-
+    [ES6 Generators in
+    Depth](http://www.2ality.com/2015/03/es6-generators.html){website}
+  - >-
+    [MDN-
+    Generator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Generators
 
+
 ---
+
 ## Content
 
 Generators are functions that can be paused and resumed at a `yield` point.
@@ -38,7 +47,9 @@ let genObj = genFunc();
 
 Note the `*` that indicates `genFunc()` is a generator.
 
+
 ---
+
 ## Practice
 
 Create a generator using generator function declaration:
@@ -48,23 +59,26 @@ Create a generator using generator function declaration:
 let genObj = ???(); 
 ```
 
-* `function*`
-* `generator`
-* `function`
-* `func`
-* `newgenerator`
-* `new`
+- `function*`
+- `generator`
+- `function`
+- `func`
+- `newgenerator`
+- `new`
+
 
 ---
+
 ## Revision
 
 What syntax is used to pause and resume a *generator function* ?
 
 ???
 
-* `yield`
-* `next()`
-* `pause`
-* `stop`
-* `getFunc()`
-* `*`
+- `yield`
+- `next()`
+- `pause`
+- `stop`
+- `getFunc()`
+- `*`
+ 

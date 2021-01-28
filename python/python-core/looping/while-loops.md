@@ -1,13 +1,19 @@
 ---
 author: tommarshall
-
 type: normal
-
 category: must-know
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # `while` loops
+
 
 ---
 
@@ -42,6 +48,7 @@ Gives the following output:
 3
 4
 ```
+
 
 ---
 
@@ -83,3 +90,4 @@ while x < 5:
 - `0 1 2 3 4`
 - `1 2 3 4`
 - `0 1 2 3 4 5`
+ 

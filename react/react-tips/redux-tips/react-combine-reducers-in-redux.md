@@ -3,9 +3,15 @@ author: catalin
 type: normal
 category: how-to
 links:
-  - >-
-    [Combine
-    Reducers](https://redux.js.org/api/combinereducers){website}
+  - '[Combine Reducers](https://redux.js.org/api/combinereducers){website}'
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Combine reducers in Redux

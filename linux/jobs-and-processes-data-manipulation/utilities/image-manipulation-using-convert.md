@@ -11,6 +11,10 @@ tags:
   - ImageMagic
 links:
   - '[www.imagemagick.org](http://www.imagemagick.org/Usage/){website}'
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Image manipulation using `convert`

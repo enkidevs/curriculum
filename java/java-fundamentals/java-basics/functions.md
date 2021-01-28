@@ -2,10 +2,13 @@
 author: mihaiberq
 type: normal
 category: must-know
-inAlgoPool: false
 links:
   - >-
     [docs.oracle.com](https://docs.oracle.com/javase/tutorial/java/javaOO/methods.html){website}
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Functions

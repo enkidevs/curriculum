@@ -2,7 +2,6 @@
 author: Mathieu
 type: normal
 category: must-know
-inAlgoPool: false
 links:
   - >-
     [Scrimba CSS Width and
@@ -10,6 +9,14 @@ links:
   - >-
     [MDN Docs on Block Level
     Elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Block-level_elements){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Block Elements Characteristics
@@ -58,4 +65,3 @@ Which of the following is not a block element?
 - `<form>`
 - `<li>`
 - `<p>`
- 

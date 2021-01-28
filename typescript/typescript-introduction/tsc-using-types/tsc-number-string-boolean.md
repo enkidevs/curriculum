@@ -12,6 +12,14 @@ links:
   - >-
     [Boolean
     Type](https://www.typescriptlang.org/docs/handbook/basic-types.html#boolean){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Number, String & Boolean

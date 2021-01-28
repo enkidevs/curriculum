@@ -2,6 +2,14 @@
 author: kapnobatai136
 category: feature
 type: normal
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Adding and Editing Zaps 2
@@ -70,4 +78,3 @@ You need to complete all the ??? for an integration to work.
 The permissions that Zapier requires differ from application to application. The first time you connect the app with Zapier, you will be presented with a list that you should read. For example, when connecting Slack here is what you would see:
 
 ![slack-permissions](https://img.enkipro.com/5171518b61af8ec2f0a9deca27436351.png)
- 

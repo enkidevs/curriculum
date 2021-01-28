@@ -7,6 +7,14 @@ tags:
   - responsive
   - css
   - multidevice
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Using `@media` rule to create cross platform responsiveness

@@ -1,15 +1,22 @@
 ---
 author: emmab
-
 type: normal
-
 category: feature
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Dates
 
+
 ---
+
 ## Content
 
 Let's say we want to validate some dates to make sure that they're in the MM/DD/YYYY format.
@@ -18,12 +25,10 @@ As always with regex, there are lots of different ways this can be done!
 
 We want to be able to accept the following formats:
 
-```
-1/1/2020 ✅
-01/01/2020 ✅
-1/01/2020 ✅
-01/1/2020 ✅
-```
+    1/1/2020 ✅
+    01/01/2020 ✅
+    1/01/2020 ✅
+    01/1/2020 ✅
 
 So we need our pattern to allow for an optional '0' before single digit dates.
 
@@ -45,7 +50,9 @@ Putting this all together we have:
 
 > 💡 Remember that we need to add `\/` in order to escape the backslashes so that we can use them!
 
+
 ---
+
 ## Practice
 
 How could we specify that we only want dates with years in the range 1900-2099?
@@ -57,7 +64,9 @@ How could we specify that we only want dates with years in the range 1900-2099?
 - /(19|20){2}/
 - /[19|20]\d{2}/
 
+
 ---
+
 ## Revision
 
 How could we specify that we only want dates with years in the range 2000-2099?
@@ -68,3 +77,4 @@ How could we specify that we only want dates with years in the range 2000-2099?
 - /2\d{2}/
 - /2\d{4}/
 - /20\d{3}/
+ 

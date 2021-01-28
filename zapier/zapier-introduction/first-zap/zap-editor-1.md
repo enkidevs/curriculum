@@ -4,6 +4,14 @@ category: feature
 type: normal
 links:
   - '[Explore Integrations](https://zapier.com/apps/integrations/){website}'
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Adding and Editing Zaps
@@ -86,4 +94,3 @@ When testing a trigger in Zapier, a sample is searched for (e.g. a row in your s
   - the connection will be tested, and if no errors show up, Zapier will finish setting up your step
 
 Using these options you can ensure Zapier will be able to function correctly.
- 

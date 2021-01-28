@@ -12,6 +12,14 @@ tags:
   - workout
 links:
   - '[Gutmann Method](https://en.wikipedia.org/wiki/Gutmann_method){website}'
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Deleting files in a secure manner

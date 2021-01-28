@@ -1,17 +1,22 @@
 ---
 author: kapnobatai136
-
 type: normal
-
 category: must-know
-
 tags:
   - insert
   - syntax
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Order Matters II
+
 
 ---
 
@@ -22,7 +27,7 @@ The order also matters when we insert values into specific columns.
 Take this table of `employees` for example:
 
 | id | name | position  | age |
-|----|------|-----------|-----|
+| -- | ---- | --------- | --- |
 | 1  | Will | Developer | 29  |
 
 If we tried this `INSERT` command:
@@ -35,7 +40,7 @@ INSERT INTO employees VALUES
 We would get:
 
 | id | name     | position  | age             |
-|----|----------|-----------|-----------------|
+| -- | -------- | --------- | --------------- |
 | 1  | Will     | Developer | 29              |
 | 2  | Mathilda | 31        | Project Manager |
 
@@ -51,12 +56,13 @@ VALUES
 This is how the table will look like:
 
 | id   | name     | position         | age             |
-|------|----------|------------------|-----------------|
+| ---- | -------- | ---------------- | --------------- |
 | 1    | Will     | Developer        | 29              |
 | 2    | Mathilda | 31               | Project Manager |
 | NULL | 23       | Senior Developer | Bill            |
 
 > 💡 You should make sure you are inserting values in the correct order. Depending on the RDBMS used, the commands above could also throw an error.
+
 
 ---
 
@@ -96,6 +102,7 @@ VALUES
 - C
 - A
 - B
+
 
 ---
 

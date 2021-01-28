@@ -6,8 +6,16 @@ links:
   - '[2ality.com](http://www.2ality.com/2014/02/time-values.html){blog}'
   - '[Luxon](https://moment.github.io/luxon/){documentation}'
   - '[Date-fns](https://date-fns.org/){documentation}'
-  - '[Intl.DateTimeFormat](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/DateTimeFormat/DateTimeFormat){documentation}'
-  
+  - >-
+    [Intl.DateTimeFormat](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/DateTimeFormat/DateTimeFormat){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Milliseconds Since Epoch
@@ -42,12 +50,14 @@ Another powerful tool is the `Intl` global object. It has a `DateTimeFormat()` c
 This constructor creates a new date-time object. It is used for language-sensitive date and time formatting. 
 
 You can use it to:
+
 - convert dates to different location-specific formats for each country
 - convert date and time for a specific numbering system
 - display time and date in different styles; full, long, medium and short.
 - and more.
 
 There are many formatting options for this constructor. You can view them on the link in the "Learn More" section.
+
 
 ---
 
@@ -80,3 +90,4 @@ var time = Date.???;
 - `now();`
 - `getMillis();`
 - `getMilliseconds();`
+ 

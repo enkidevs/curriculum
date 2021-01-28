@@ -2,11 +2,14 @@
 author: mihaiberq
 type: normal
 category: must-know
-inAlgoPool: false
 links:
   - >-
     [Why OOP makes
     sense](https://www.quora.com/What-is-the-difference-between-procedural-and-object-oriented-programming){website}
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # What Is a Class?

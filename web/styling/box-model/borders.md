@@ -2,12 +2,19 @@
 author: mihaiberq
 type: normal
 category: must-know
-inAlgoPool: false
 links:
   - '[Scrimba CSS Borders](https://scrimba.com/p/pWvwCg/cmJvzh6){tutorial}'
   - >-
     [MDN Docs on
     border](https://developer.mozilla.org/en-US/docs/Web/CSS/border){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Borders

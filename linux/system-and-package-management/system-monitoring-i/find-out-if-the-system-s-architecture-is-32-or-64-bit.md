@@ -9,6 +9,14 @@ tags:
   - architecture
   - kernel
   - null
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Find out if the system's architecture is 32 or 64 bit

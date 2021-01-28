@@ -10,6 +10,14 @@ links:
   - >-
     [Peer
     dependencies](https://nodejs.org/en/blog/npm/peer-dependencies/){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Deprecated peer dependencies

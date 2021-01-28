@@ -1,18 +1,24 @@
-﻿---
+---
 author: Stefan-Stojanovic
-
 aspects:
   - workout
-
 type: normal
-
 category: how-to
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Arrays
 
+
 ---
+
 ## Content
 
 Arrays are data structures that consist of a collection of elements. 
@@ -48,6 +54,7 @@ fmt.Println(weekDays[4])
 ```
 
 Here is an example of an empty array:
+
 ```go
 var emptyArray [5]int
 fmt.Println(emptyArray)
@@ -57,6 +64,7 @@ fmt.Println(emptyArray)
 As you can see in the example above, an empty integer array will have all of its values set to 0.
 
 To populate an array as soon as you create it:
+
 ```go
 weekDays := [7]string{
   "Monday",
@@ -68,9 +76,12 @@ weekDays := [7]string{
   "Sunday"
 }
 ```
+
 This is the same as adding elements one by one.
 
+
 ---
+
 ## Practice
 
 What are arrays?
@@ -80,7 +91,9 @@ What are arrays?
 - Data structures that consist of a collection of elements.
 - Elements that have different data types.
 
+
 ---
+
 ## Revision
 
 Arrays can ???

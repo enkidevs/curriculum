@@ -6,6 +6,10 @@ links:
   - >-
     [Hide The Scrollbar In
     IE](https://css-tricks.com/snippets/css/hide-scrollbar-in-edge-ie-1011/){website}
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Autohiding scrollbars for **IE**

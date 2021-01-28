@@ -2,6 +2,14 @@
 author: lizTheDeveloper
 type: normal
 category: best-practice
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Process Control Security Configuration
@@ -45,4 +53,3 @@ The cost of data compromise is ??? than the cost of an hour of paid support.
 - less than
 - no one
 - application development
- 

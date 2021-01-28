@@ -1,13 +1,13 @@
 ---
 author: pawel
-
 type: normal
-
 category: must-know
-
 links:
   - '[On && and || in Javascript](http://www.grauw.nl/blog/entry/510){website}'
-
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Short-Circuit Evaluation
@@ -27,6 +27,7 @@ if (check != false && calc(b)) {
        evaluate();
 }
 ```
+
 
 ---
 

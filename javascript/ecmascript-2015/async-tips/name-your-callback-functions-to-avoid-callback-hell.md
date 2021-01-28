@@ -4,6 +4,14 @@ type: normal
 category: best-practice
 links:
   - '[callbackhell.com](http://callbackhell.com/){blog}'
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Name your callback functions to avoid **callback hell**
@@ -86,3 +94,4 @@ setTimeout(Hey, 1000);
 
 - Option 2
 - Option 1
+ 

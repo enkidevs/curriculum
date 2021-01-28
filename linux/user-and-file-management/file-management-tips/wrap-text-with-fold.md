@@ -7,6 +7,14 @@ tags:
 links:
   - >-
     [www.tutorialspoint.com](http://www.tutorialspoint.com/unix_commands/fold.htm){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Wrap text with `fold`

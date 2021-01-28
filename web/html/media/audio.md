@@ -9,6 +9,14 @@ links:
   - >-
     [W3S: <audio>
     Element](https://www.w3schools.com/html/html5_audio.asp){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # The `<audio>` Element
@@ -127,6 +135,7 @@ Which HTML element is used to insert an audio file into the document?
 ## Quiz
 
 ### How much do you know about the HTML audio element?
+
 
 When you want to provide fallback content for user's that do not have browsers that support HTML5 audio, what do you need to do?
 

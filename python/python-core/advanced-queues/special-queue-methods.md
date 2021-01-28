@@ -1,17 +1,22 @@
 ---
 author: catalin
-
 type: normal
-
 category: feature
-
 links:
   - >-
     [docs.python.org](https://docs.python.org/3.5/library/queue.html#queue-objects){website}
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Special `queue` methods
+
 
 ---
 
@@ -67,6 +72,7 @@ print(q.get(1))
 
 The `get` method can also use the `block` and `timeout` attributes. It behaves similarly with the `put` method, but instead of the `Full` exception it will raise an `Empty` exception. 
 
+
 ---
 
 ## Practice
@@ -98,3 +104,4 @@ q = ???.???(5)
 - `new`
 - `instance`
 - `create`
+ 

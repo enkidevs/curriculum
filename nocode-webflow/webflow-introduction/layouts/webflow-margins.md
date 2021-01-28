@@ -2,6 +2,10 @@
 author: kapnobatai136
 category: feature
 type: normal
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Margins
@@ -30,4 +34,3 @@ Margins are used to ???.
 
 - separate the block from outside elements
 - separate the content from the block's border
- 

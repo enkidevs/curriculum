@@ -1,18 +1,24 @@
 ---
 author: emmab
-
 tags:
   - introduction
-
 type: normal
-
 category: feature
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Instagram Username
 
+
 ---
+
 ## Content
 
 Rules for an Instagram username:
@@ -37,7 +43,9 @@ Putting all of this together we have:
 
 📷
 
+
 ---
+
 ## Practice
 
 Using `/^\w[\w.]{0,28}\w$/` as our regex pattern. Is the following username valid?
@@ -53,6 +61,7 @@ enki_devs.
 
 
 ---
+
 ## Revision
 
 Using `/^\w[\w.]{0,28}\w$/` as our regex pattern. Is the following username valid?
@@ -65,3 +74,4 @@ enki_devs_
 
 - Yes
 - No
+ 

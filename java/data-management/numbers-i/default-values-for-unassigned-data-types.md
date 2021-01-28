@@ -5,6 +5,14 @@ category: must-know
 links:
   - >-
     [docs.oracle.com](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Default values for unassigned data types
@@ -53,4 +61,3 @@ What is the default value of an unassigned `boolean` data type?
 - `true` 
 - `1` 
 - `0`
- 

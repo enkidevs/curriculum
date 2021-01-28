@@ -9,6 +9,14 @@ tags:
 links:
   - >-
     [alvinalexander.com](http://alvinalexander.com/java/edu/pj/pj010018){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Ternary operator

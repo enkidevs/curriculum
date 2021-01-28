@@ -6,6 +6,14 @@ links:
   - >-
     [Variable
     Hoisting](http://stackoverflow.com/questions/3725546/variable-hoisting){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Hoisting Applies Only to Variable Declarations

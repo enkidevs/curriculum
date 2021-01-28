@@ -8,6 +8,14 @@ tags:
 links:
   - >-
     [www.javapractices.com](http://www.javapractices.com/topic/TopicAction.do?Id=23){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Uses of the `final` keyword

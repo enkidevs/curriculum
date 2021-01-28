@@ -7,6 +7,10 @@ tags:
   - linux
   - environment
   - variables
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Common Environment Variables

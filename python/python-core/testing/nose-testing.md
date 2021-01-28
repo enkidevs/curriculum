@@ -1,15 +1,19 @@
 ---
 author: SebaRaba
-
 type: normal
-
 category: must-know
-
 links:
   - >-
     [Nose
     introduction](http://pythontesting.net/framework/nose/nose-introduction/){website}
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Nose Testing

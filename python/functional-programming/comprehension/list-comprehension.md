@@ -5,6 +5,14 @@ category: how-to
 links:
   - >-
     [docs.python.org](https://docs.python.org/3.5/tutorial/datastructures.html#list-comprehensions){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # List comprehension
@@ -117,3 +125,4 @@ x = [x if x % 2 for x in l]
 - [1,3]
 - [2, 4]
 - [1,2,3,4,5]
+ 

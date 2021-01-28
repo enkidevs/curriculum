@@ -1,17 +1,23 @@
 ---
 author: catalin
-
 type: normal
-
 category: feature
-
 links:
   - >-
-    [Getting and Setting Field Values](https://docs.oracle.com/javase/tutorial/reflect/member/fieldValues.html){website}
-
+    [Getting and Setting Field
+    Values](https://docs.oracle.com/javase/tutorial/reflect/member/fieldValues.html){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Fields with Java **Reflection API**
+
 
 ---
 
@@ -71,6 +77,7 @@ intField.???(myObj, 10);
 - `setInt` 
 - `set` 
 - `setField`
+
 
 ---
 

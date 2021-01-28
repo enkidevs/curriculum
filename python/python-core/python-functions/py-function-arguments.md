@@ -6,6 +6,14 @@ links:
   - >-
     [More about
     arguments](https://www.tutorialspoint.com/python/python_functions.htm){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Function arguments
@@ -169,3 +177,4 @@ foo('Baseball bat', ???)
 - quantity
 - price='$1.00'
 - 150
+ 

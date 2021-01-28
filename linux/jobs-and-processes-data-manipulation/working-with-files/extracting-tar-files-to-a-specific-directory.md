@@ -8,6 +8,10 @@ tags:
   - terminal
   - extract
   - compress
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Extracting `tar` files to a specific directory

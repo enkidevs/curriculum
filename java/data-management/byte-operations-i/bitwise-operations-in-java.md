@@ -6,6 +6,14 @@ links:
   - >-
     [Oracle Bit Operations
     Documentation](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/op3.html){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Bitwise Operations in Java

@@ -9,6 +9,14 @@ links:
   - >-
     [HTML <select>
     Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/select){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # DropDown List

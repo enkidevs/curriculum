@@ -7,6 +7,14 @@ links:
     [www.herongyang.com](http://www.herongyang.com/Java-Tools/jstack-JVM-Thread-Dump-Stack-Strace.html){website}
 notes: >-
   https://insights.enki.com/#/contrib/others/55f42bc3da97642e00a78197?search=khandelwalrinki
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Intro to `jstack` tool

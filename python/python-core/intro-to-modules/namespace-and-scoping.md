@@ -6,6 +6,14 @@ links:
   - >-
     [More on
     namespace](https://www.programiz.com/python-programming/namespace){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Namespace and scoping
@@ -118,3 +126,4 @@ print(a)
 - No
 - Yes
 - It can't be determined.
+ 

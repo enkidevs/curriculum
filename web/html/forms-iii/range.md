@@ -6,6 +6,14 @@ links:
   - >-
     [HTML <input
     type="range"](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/range){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # HTML `range` type input

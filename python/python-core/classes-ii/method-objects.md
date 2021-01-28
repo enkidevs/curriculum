@@ -28,6 +28,14 @@ notes: >
 
   It should be connected to some purpose or benefit, otherwise may be better not
   to show it.
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Method objects
@@ -111,3 +119,4 @@ x = test.???
 - `new`
 - `def`
 - `get`
+ 

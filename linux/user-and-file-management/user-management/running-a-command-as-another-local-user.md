@@ -5,6 +5,10 @@ category: tip
 tags:
   - sudo-su-local-shell
   - workout
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Running a command as another local user

@@ -2,6 +2,10 @@
 author: Stefan-Stojanovic
 type: normal
 category: tip
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Aggregating with $sortByCount and $match

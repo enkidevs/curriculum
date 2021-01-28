@@ -1,10 +1,7 @@
 ---
 author: SebaRaba
-
 type: normal
-
 category: must-know
-
 links:
   - >-
     [More About the Snowden
@@ -12,10 +9,18 @@ links:
   - >-
     [More on
     SSH](https://www.digitalocean.com/community/tutorials/how-to-use-ssh-to-connect-to-a-remote-server-in-ubuntu){website}
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # What is SSH?
+
 
 ---
 
@@ -36,6 +41,7 @@ The old version used *public-key cryptography*[1] to authenticate to the remote 
 SSH is included by default in Linux, Unix-like and OSX operating systems, but not in Windows. Typically, an SSH server listens on the standard TCP port 22.
 
 > 💡 There is no evidence of any exploits for SSH-2 yet, however, some documents leaked by Edward Snowden state that some might be available.
+
 
 ---
 
@@ -79,4 +85,3 @@ It stands for Advanced Encryption Standard. It was also chosen by the U.S. gover
 
 [4: Blowfish]
 It's an encryption algorithm that uses an variable-length key (form 32 to 448 bits).
- 

@@ -6,6 +6,14 @@ links:
   - >-
     [Pure
     Components](https://facebook.github.io/react/docs/react-api.html#reactpurecomponent){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Shallow compare in React

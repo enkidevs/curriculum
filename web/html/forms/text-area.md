@@ -1,18 +1,23 @@
 ---
 author: Stefan-Stojanovic
-
 type: normal
-
 category: must-know
-
 links:
   - >-
     [HTML <textarea>
     Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea){documentation}
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Text Area
+
 
 ---
 
@@ -58,6 +63,7 @@ Example with attributes:
 [View CodePen](https://codepen.io/enkidevs/pen/ajpmme)
 
 In the example above, `rows="10"` specifies the number of visible text lines for the control,  `cols="30"` specifies the average characters width and the `placeholder` attribute presents a hint which disappears after the user types something and reappears if there is no input.
+
 
 ---
 

@@ -1,13 +1,19 @@
 ---
 author: catalin
-
 type: normal
-
 category: how-to
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Base Conversion
+
 
 ---
 
@@ -49,6 +55,7 @@ parseInt("1111011", 2) // 123
 
 The type of returned value is `"number"`.
 
+
 ---
 
 ## Practice
@@ -74,6 +81,7 @@ Complete the following code snippet:
 - "base 16"
 - intoString
 - "two"
+
 
 ---
 
@@ -101,3 +109,4 @@ Complete the following code snippet:
 - ”base 10”
 - ”base 15”
 - ”base 2”
+ 

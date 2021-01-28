@@ -9,6 +9,10 @@ tags:
   - package
   - update
   - aptitude
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Prevent updating a specific package in Debian systems

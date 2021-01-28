@@ -6,6 +6,14 @@ links:
   - >-
     [HTML <article>
     Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/article){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # The `<article>` Element

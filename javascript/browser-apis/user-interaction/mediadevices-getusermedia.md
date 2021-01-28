@@ -5,6 +5,14 @@ category: must-know
 links:
   - >-
     [MediaDevices](https://developer.mozilla.org/en-US/docs/Web/API/MediaDevices){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # MediaDevices.getUserMedia()
@@ -96,3 +104,4 @@ promise returned and resolved with? ???
 - A permission object.
 - A promise object.
 - Constraints for the media device.
+ 

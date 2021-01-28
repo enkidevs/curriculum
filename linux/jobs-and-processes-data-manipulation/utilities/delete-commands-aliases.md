@@ -2,6 +2,10 @@
 author: catalin
 type: normal
 category: tip
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Delete commands aliases

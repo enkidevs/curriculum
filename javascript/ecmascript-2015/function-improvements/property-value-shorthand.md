@@ -9,6 +9,14 @@ links:
   - >-
     [Object
     Initializer](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Object_initializer){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Property Value Shorthand
@@ -109,3 +117,4 @@ function foo() {
 - this.prop
 - 'value'
 - prop: 'value'
+ 

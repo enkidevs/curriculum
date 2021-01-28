@@ -6,6 +6,14 @@ links:
   - >-
     [HTML <html>
     Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/html){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # The `<html>` Element

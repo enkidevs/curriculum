@@ -2,6 +2,10 @@
 author: kapnobatai136
 category: must-know
 type: normal
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Filtering Task History
@@ -50,4 +54,3 @@ Which of the following does not represent a possible way of filtering zaps in th
 - Filtering by specific zaps.
 - Filtering by specific status.
 - Filtering by date.
- 

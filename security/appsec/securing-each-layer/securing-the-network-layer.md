@@ -2,11 +2,18 @@
 author: milesflo
 type: normal
 category: must-know
-inAlgoPool: false
 links:
   - >-
     [SANS
     Institute](https://www.sans.org/reading-room/whitepapers/protocols/applying-osi-layer-network-model-information-security-1309){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Securing the Network Layer
@@ -61,4 +68,3 @@ What is one control in the Network Layer of the OSI Model?
 - Using managed switches prevent topographical loops
 - Locks and secure enclosures
 - Encrypted password exchange and storage
- 

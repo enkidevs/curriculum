@@ -10,9 +10,19 @@ tags:
   - es6
 links:
   - >-
-    [ES6 Array Extensions in Depth](https://ponyfoo.com/articles/es6-array-extensions-in-depth){website}
+    [ES6 Array Extensions in
+    Depth](https://ponyfoo.com/articles/es6-array-extensions-in-depth){website}
   - >-
-    [MDN Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array){website}
+    [MDN
+    Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Searching Arrays
@@ -104,3 +114,4 @@ ints.fill(ints.???(???))
 - `findIndex`
 - `includes`
 - `e => e / 2 === 0 && e / 3 === 0`
+ 

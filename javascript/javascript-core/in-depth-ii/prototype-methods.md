@@ -10,6 +10,14 @@ tags:
   - methods
   - class
   - object
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Prototype Methods
@@ -88,3 +96,4 @@ An object in JavaScript that can be inherited from is called ???.
 - prototype
 - variable
 - function
+ 

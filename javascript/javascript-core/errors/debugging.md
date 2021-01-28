@@ -2,6 +2,14 @@
 author: alexjmackey
 type: normal
 category: must-know
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Debugging
@@ -67,3 +75,4 @@ What statement will make the debugger when it sees it?
 - `stop;`
 - `break;`
 - `debug;`
+ 

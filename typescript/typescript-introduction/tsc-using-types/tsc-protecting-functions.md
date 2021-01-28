@@ -6,6 +6,14 @@ links:
   - >-
     [Play with functions and
     parameters](https://repl.it/@enkicontent/TypeScriptFunctionParameters){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Protecting Functions

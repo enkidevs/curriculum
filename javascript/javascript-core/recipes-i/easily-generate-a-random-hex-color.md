@@ -5,6 +5,14 @@ category: tip
 links:
   - >-
     [stackoverflow.com](http://stackoverflow.com/questions/1484506/random-color-generator-in-javascript){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Easily Generate a Random `HEX` Color
@@ -68,3 +76,4 @@ Create a random `hex` color:
 - `Number`
 - `int`
 - `Hex`
+ 

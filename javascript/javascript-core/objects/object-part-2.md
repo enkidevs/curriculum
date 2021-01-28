@@ -2,6 +2,14 @@
 author: alexjmackey
 type: normal
 category: must-know
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Object - Part 2
@@ -99,3 +107,4 @@ flash.superpowers.greet();
 - new
 - superhero
 - powers
+ 

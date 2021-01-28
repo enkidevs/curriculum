@@ -5,6 +5,10 @@ category: how-to
 tags:
   - passwords
   - workout
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Best password generation utilities

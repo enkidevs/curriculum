@@ -2,7 +2,6 @@
 author: alexjmackey
 type: normal
 category: must-know
-inAlgoPool: false
 links:
   - >-
     [MDN -
@@ -13,6 +12,14 @@ links:
   - >-
     [MDN -
     Static](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/static){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Extends, Super and Static
@@ -143,3 +150,4 @@ Fill in the next snippet such that the `Dog` class is a child of the `Animal` cl
 - super()
 - parent
 - childOf
+ 

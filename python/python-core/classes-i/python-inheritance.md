@@ -2,6 +2,14 @@
 author: mihaiberq
 type: normal
 category: must-know
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Inheritance
@@ -135,3 +143,4 @@ print(sq.color)
 - square red
 - AttributeError: 'super' object has no attribute '**getattr**'
 - AttributeError: 'super' object has no attribute '**setattr**'
+ 

@@ -7,6 +7,14 @@ links:
     [Redux usage with
     React](https://redux.js.org/basics/usage-with-react){documentation}
 notes: This can be also placed in the react subtopic
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Use Redux with React (2)

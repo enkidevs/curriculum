@@ -4,6 +4,14 @@ type: normal
 category: feature
 links:
   - '[pymotw.com](https://pymotw.com/2/Queue/){website}'
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # A thread-safe `Queue`
@@ -102,3 +110,4 @@ lq = queue.???()
 - `FifoQueue`
 - `lifoqueue`
 - `fifoqueue`
+ 

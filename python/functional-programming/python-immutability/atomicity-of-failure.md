@@ -1,18 +1,23 @@
 ---
 author: stefkn
-
 type: normal
-
 category: must-know
-
 links:
   - >-
     [How to Override Comparison
     Operators](http://jcalderone.livejournal.com/32837.html){website}
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Atomicity of Failure
+
 
 ---
 
@@ -115,3 +120,4 @@ In what kind of data structures are immutable objects ideal to be used as keys?
 - Integers
 - Arrays
 - Strings
+ 

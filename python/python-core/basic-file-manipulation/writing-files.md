@@ -6,6 +6,14 @@ links:
   - >-
     [More about writing to
     files](https://www.digitalocean.com/community/tutorials/how-to-handle-plain-text-files-in-python-3){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Writing to files

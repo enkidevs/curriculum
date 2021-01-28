@@ -2,12 +2,19 @@
 author: catalin
 type: normal
 category: how-to
-inAlgoPool: false
 links:
   - '[pymotw.com](https://pymotw.com/2/textwrap/){website}'
   - >-
     [docs.python.org](https://docs.python.org/3.5/library/textwrap.html){website}
 notes: String manipulation workout
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Format text paragraphs with `textwrap`

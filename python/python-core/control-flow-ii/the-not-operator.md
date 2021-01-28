@@ -4,6 +4,14 @@ tags:
   - introduction
 type: normal
 category: must-know
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # The `not` operator
@@ -31,6 +39,7 @@ not (x < y)
 ```
 
 You can also negate the `in` operator to check whether a value is `not in` another object.
+
 
 ---
 
@@ -69,3 +78,4 @@ True == (not True)
 - `True`
 - `Error`
 - `false`
+ 

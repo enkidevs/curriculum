@@ -5,6 +5,14 @@ category: must-know
 links:
   - >-
     [Style](https://facebook.github.io/react/docs/dom-elements.html#style){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # React in-line styles

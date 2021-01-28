@@ -2,6 +2,14 @@
 author: Stefan-Stojanovic
 type: normal
 category: must-know
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # What is NoSQL
@@ -68,4 +76,3 @@ An `ACID` transaction should be *atomic*, *consistent*, *isolated*, *durable*:
 - Consistent: a transaction can only bring the database from one valid state to another, based on the database rules
 - Isolation: execution of each transaction should be isolated. The effects of an incomplete transaction should not even be visible to other transactions.
 - Durable: once a transaction has reached a final state, it will remain committed even in the case of a system failure.
- 

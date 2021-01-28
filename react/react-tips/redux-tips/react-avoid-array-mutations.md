@@ -9,6 +9,14 @@ links:
   - >-
     [Immutability
     helper](https://github.com/kolodny/immutability-helper){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Avoid array mutations

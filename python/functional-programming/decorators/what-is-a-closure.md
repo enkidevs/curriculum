@@ -7,6 +7,14 @@ links:
     [More about higher-order
     functions](http://www.composingprograms.com/pages/16-higher-order-functions.html){website}
 notes: 'prerequisites: scoping'
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # What Are Higher-Order Functions?
@@ -91,3 +99,4 @@ def foo():
 
 [1: Higher-Order Function]
 A higher-order function is somewhat similar to a *time capsule*. You put together a bunch of stuff relevant for a moment in time (code block), store it and open it whenever you feel like reminiscing those times (using that particular block/function).
+ 

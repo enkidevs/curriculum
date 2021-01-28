@@ -4,8 +4,17 @@ type: normal
 category: tip
 links:
   - >-
-    [stackoverflow.com](http://stackoverflow.com/questions/31286257/how-to-check-the-click-is-single-or-double-in-javascript){website}
-  - '[javascript.info](http://javascript.info/tutorial/mouse-events){website}'
+    [How to check the click is single or double in javascript](https://stackoverflow.com/questions/31286257/how-to-check-the-click-is-single-or-double-in-javascript){website}
+  - >-
+    [Mouse events](https://javascript.info/mouse-events-basics){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Handling click events
@@ -75,3 +84,4 @@ myVar.???(???,
 - `addClickListener`
 - `false`
 - `contextmenu`
+ 

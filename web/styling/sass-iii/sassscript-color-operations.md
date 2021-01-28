@@ -6,6 +6,14 @@ links:
   - >-
     [Article on Color
     Operations](http://sass-lang.com/documentation/file.SASS_REFERENCE.html#color_operations){article}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # SassScript Color Operations

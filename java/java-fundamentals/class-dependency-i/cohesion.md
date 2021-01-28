@@ -2,6 +2,10 @@
 author: mihaiberq
 type: normal
 category: must-know
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Cohesion

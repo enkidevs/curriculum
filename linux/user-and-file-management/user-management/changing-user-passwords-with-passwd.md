@@ -2,9 +2,16 @@
 author: jfarmer
 type: normal
 category: must-know
-inAlgoPool: false
 tags:
   - workout
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Changing User Passwords With `passwd`

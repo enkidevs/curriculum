@@ -6,6 +6,14 @@ links:
   - >-
     [Unit
     Testing](https://docs.python.org/3/library/unittest.html){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Unittest

@@ -6,6 +6,14 @@ tags:
   - introduction
 links:
   - '[nodejs.org](https://nodejs.org/en/){website}'
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Installing Node.js

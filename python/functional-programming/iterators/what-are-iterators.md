@@ -6,6 +6,14 @@ links:
   - >-
     [Iterators vs.
     Generators](http://nvie.com/posts/iterators-vs-generators/){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # What Are Iterators?
@@ -60,3 +68,4 @@ Which method is called to retrieve a value from an iterator?
 - `__getitem__()`
 - `__iter__()`
 - `__child__()`
+ 

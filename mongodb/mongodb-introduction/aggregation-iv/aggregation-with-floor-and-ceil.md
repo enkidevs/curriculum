@@ -2,6 +2,10 @@
 author: Stefan-Stojanovic
 type: normal
 category: how-to
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # `$ceil` and `$floor`

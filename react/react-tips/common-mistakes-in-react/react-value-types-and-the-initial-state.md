@@ -2,6 +2,10 @@
 author: kapnobatai136
 type: normal
 category: tip
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Value types and the initial state

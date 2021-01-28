@@ -5,6 +5,14 @@ category: must-know
 links:
   - '[www.python-course.eu](http://www.python-course.eu/deep_copy.php){website}'
   - '[docs.python.org](https://docs.python.org/3.5/library/copy.html){website}'
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # There is more to copying
@@ -89,3 +97,4 @@ Why should we use `copy/deepcopy` rather than `B = A` in order to set *B* so tha
 
 - `= doesn't create a copy of an object, it just makes B point to the same memory address as A, so when B is changed, A is changed too.`
 - `Python does not support B = A as you can not assign object references.`
+ 

@@ -9,6 +9,14 @@ links:
   - >-
     [HTML <video>
     Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Video Subtitles

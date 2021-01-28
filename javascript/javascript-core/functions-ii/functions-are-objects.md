@@ -2,9 +2,18 @@
 author: alexjmackey
 type: normal
 category: must-know
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Functions Are Objects
+
 
 ---
 
@@ -57,6 +66,7 @@ let add = function (x, y){
 add(1, 2); // 3
 ```
 
+
 ---
 
 ## Practice
@@ -100,3 +110,4 @@ console.log(x(1, 2, 3));
 - `get`
 - `fn`
 - `()`
+ 

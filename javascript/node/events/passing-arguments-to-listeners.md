@@ -9,6 +9,10 @@ links:
   - >-
     [Passing
     arguments](https://nodejs.org/api/events.html#events_passing_arguments_and_this_to_listeners){website}
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Passing arguments to listeners

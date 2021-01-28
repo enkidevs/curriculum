@@ -7,6 +7,14 @@ links:
     [docs.python.org](https://docs.python.org/3.5/library/stdtypes.html#special-attributes){website}
   - >-
     [MRO](http://python-history.blogspot.in/2010/06/method-resolution-order.html){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Special attributes of objects and classes
@@ -104,3 +112,4 @@ print(Enki.???)
 - `class()`
 - `__meta__`
 - `class`
+ 

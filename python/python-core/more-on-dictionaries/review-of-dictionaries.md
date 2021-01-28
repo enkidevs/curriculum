@@ -6,6 +6,14 @@ links:
   - >-
     [More on
     dictionaries](https://www.digitalocean.com/community/tutorials/understanding-dictionaries-in-python-3){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Review of dictionaries
@@ -137,3 +145,4 @@ print(marks.keys())
 - `dict_keys(['David', 'Amber', 'Steve', 'John', 'Amy'])`
 - `dict_keys(['Steve', 'John', 'Amy'])`
 - `dict_keys(['Amber', 'David', 'John'])`
+ 

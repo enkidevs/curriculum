@@ -3,7 +3,16 @@ author: Bruno
 type: normal
 category: pattern
 links:
-  - '[stackoverflow](http://stackoverflow.com/questions/21255138){discussion}'
+  - >-
+    [How does the Math.max.apply() work?](https://stackoverflow.com/questions/21255138/how-does-the-math-max-apply-work){discussion}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Use the `apply` Function to Get the `min` or `max` of an Array
@@ -71,3 +80,4 @@ Math.max.apply(null, [5,8,2]);
 - `NaN`
 - `-Infinity`
 - `5`
+ 

@@ -7,6 +7,14 @@ links:
     [docs.oracle.com](http://docs.oracle.com/javase/7/docs/technotes/guides/management/jconsole.html){website}
 notes: >-
   https://insights.enki.com/#/contrib/others/55f43176da97642e00a78199?search=khandelwalrinki
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Intro to `JConsole`

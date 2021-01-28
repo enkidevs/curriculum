@@ -6,6 +6,10 @@ links:
   - >-
     [More on Type Inference for
     Methods](https://docs.oracle.com/javase/tutorial/java/generics/genTypeInference.html){website}
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Type Inference in Generic Methods

@@ -6,6 +6,14 @@ type: normal
 category: must-know
 links:
   - '[Regex Anchors](https://www.rexegg.com/regex-anchors.html){website}'
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Anchors

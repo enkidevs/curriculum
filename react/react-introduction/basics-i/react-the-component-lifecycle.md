@@ -9,6 +9,14 @@ links:
   - >-
     [The component
     lifecycle](https://facebook.github.io/react/docs/react-component.html#the-component-lifecycle){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # The component lifecycle

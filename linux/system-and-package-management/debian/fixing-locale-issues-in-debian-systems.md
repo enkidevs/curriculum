@@ -8,6 +8,14 @@ tags:
   - dpkg
   - locales
   - terminal
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Fixing `locale` issues in Debian systems

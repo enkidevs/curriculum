@@ -9,6 +9,10 @@ tags:
   - hdd
   - fsck
   - check
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Check the HDD with `badblocks`

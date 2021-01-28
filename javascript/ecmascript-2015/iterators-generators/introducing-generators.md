@@ -2,11 +2,18 @@
 author: alexjmackey
 type: normal
 category: must-know
-inAlgoPool: false
 links:
   - >-
     [MDN -
     Generators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Introducing Generators
@@ -100,3 +107,4 @@ Can generator functions maintain their execution context between method calls?
 - No, because the memory needed would be to big
 - No, because of the JavaScript memory model
 - Only if the calls are done one after the other
+ 

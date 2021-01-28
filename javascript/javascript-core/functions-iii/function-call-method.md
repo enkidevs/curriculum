@@ -5,6 +5,14 @@ category: must-know
 tags:
   - introduction
   - workout
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Function Call Method
@@ -77,3 +85,4 @@ callObject.call(null, 4, 2);
 - Object: 4, Arguments 2
 - Object: 4, Arguments: null, 2
 - This gives an error
+ 

@@ -2,6 +2,14 @@
 author: jordanfish
 type: normal
 category: caveats
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Counting the Months From Zero
@@ -99,3 +107,4 @@ console.log(new Date(2016, 5, 31));
 - June 31 2016
 - May 31 2016
 - June 1 2016
+ 

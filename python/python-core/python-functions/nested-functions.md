@@ -2,7 +2,14 @@
 author: tommarshall
 type: normal
 category: tip
-inAlgoPool: false
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Nested Functions
@@ -109,3 +116,4 @@ some_new_function(1)
 - NameError: global name 'nested_func_new' is not defined
 - AttributeError: 'super' object has no attribute '**getattr**'
 - 1 NameError: global name 'nested_func' is not defined
+ 

@@ -2,6 +2,10 @@
 author: Stefan-Stojanovic
 type: normal
 category: how-to
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # OR
@@ -66,4 +70,3 @@ In the second image, the green highlighted argument evaluates to `TRUE` so the w
 
 [1:0 is false]
 All positive and negative numbers except 0 logically evaluate to `TRUE`, 0 evaluates to `FALSE`.
- 

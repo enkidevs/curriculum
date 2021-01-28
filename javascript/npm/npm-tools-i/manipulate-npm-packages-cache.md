@@ -8,6 +8,14 @@ tags:
   - new
 links:
   - '[docs.npmjs.com](https://docs.npmjs.com/cli/cache){website}'
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Manipulate npm packages cache

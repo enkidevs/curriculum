@@ -7,6 +7,14 @@ tags:
   - introduction
   - workout
   - deep
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Apply `map` Function to Array Items
@@ -66,3 +74,4 @@ Which of these `Array` methods will produce an array of the same length, after a
 - filter()
 - splice()
 - reduce()
+ 

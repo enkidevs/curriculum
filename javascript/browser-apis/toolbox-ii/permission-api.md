@@ -5,6 +5,14 @@ category: feature
 links:
   - >-
     [developers.google.com](https://developers.google.com/web/updates/2015/04/permissions-api-for-the-web){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Permission API
@@ -70,3 +78,4 @@ Which of the following is a valid service for checking Permissions API browser c
 - NPM
 - GitHub
 - DockerHub
+ 

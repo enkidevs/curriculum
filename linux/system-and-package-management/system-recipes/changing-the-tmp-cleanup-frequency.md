@@ -8,6 +8,14 @@ tags:
   - tmp
   - temp
   - cleanup
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Changing the `/tmp` cleanup frequency

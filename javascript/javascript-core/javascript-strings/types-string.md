@@ -2,6 +2,14 @@
 author: alexjmackey
 type: normal
 category: must-know
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Types - String
@@ -81,3 +89,4 @@ let company2 = 'Enki';
 - first
 - second
 - none
+ 

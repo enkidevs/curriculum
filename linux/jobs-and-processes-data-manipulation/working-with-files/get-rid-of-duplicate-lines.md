@@ -9,6 +9,10 @@ tags:
   - duplicates
   - terminal
 notes: ''
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Get rid of duplicate lines

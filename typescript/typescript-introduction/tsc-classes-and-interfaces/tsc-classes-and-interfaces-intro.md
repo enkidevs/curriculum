@@ -6,6 +6,14 @@ links:
   - >-
     [Play with interfaces and
     classes](https://repl.it/@enkicontent/TypeScriptDragonsFlyButNotFish){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Classes and Interfaces

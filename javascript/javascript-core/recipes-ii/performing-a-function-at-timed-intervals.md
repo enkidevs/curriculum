@@ -8,6 +8,14 @@ tags:
   - deep
   - timed-intervals
   - fundamental
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Performing a Function at Timed Intervals
@@ -77,3 +85,4 @@ var loop = ???
 - 2000
 - 200
 - function
+ 

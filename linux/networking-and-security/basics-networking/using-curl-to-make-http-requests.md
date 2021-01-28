@@ -2,11 +2,14 @@
 author: jfarmer
 type: normal
 category: must-know
-inAlgoPool: false
 links:
   - >-
     [More use
     cases](http://www.thegeekstuff.com/2012/04/curl-examples/){website}
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Using `curl` To Make HTTP Requests

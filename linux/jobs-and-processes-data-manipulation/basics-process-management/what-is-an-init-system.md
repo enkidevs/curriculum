@@ -2,7 +2,14 @@
 author: jfarmer
 type: normal
 category: must-know
-inAlgoPool: false
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # What Is An "Init System"?
@@ -56,4 +63,3 @@ What is the most commonly used `init system` for Linux distributions?
 - system V init
 - gentoo
 - launchd
- 

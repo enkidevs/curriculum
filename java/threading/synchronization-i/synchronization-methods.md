@@ -9,6 +9,10 @@ links:
   - >-
     [Locks Objects in
     Java](https://docs.oracle.com/javase/tutorial/essential/concurrency/newlocks.html){website}
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Synchronization Methods

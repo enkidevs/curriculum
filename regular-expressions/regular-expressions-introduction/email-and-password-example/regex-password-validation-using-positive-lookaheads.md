@@ -8,6 +8,14 @@ links:
   - >-
     [Special
     Operators](https://www.regular-expressions.info/refadv.html){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Passwords using Positive Lookaheads

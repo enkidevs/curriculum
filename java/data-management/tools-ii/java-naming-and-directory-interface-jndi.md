@@ -7,6 +7,10 @@ links:
     [en.wikipedia.org](https://en.wikipedia.org/wiki/Java_Naming_and_Directory_Interface){website}
 notes: |
   https://insights.enki.com/#/contrib/5599b0227d50844e00f804b4
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Java Naming and Directory Interface ( *JNDI* )

@@ -1,13 +1,19 @@
 ---
 author: alexjmackey
-
 type: normal
-
 category: must-know
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Arrays
+
 
 ---
 
@@ -95,6 +101,7 @@ for (let item of myArray) {
 // 3
 ```
 
+
 ---
 
 ## Practice
@@ -120,6 +127,7 @@ console.log(lastVal);
 - `.getLast`
 - `.tail`
 
+
 ---
 
 ## Revision
@@ -139,6 +147,7 @@ let elem = ???.???;
 - `last`
 - `push()`
 
+
 ---
 
 ## Quiz
@@ -157,3 +166,4 @@ console.log(arr.length)
 - 4
 - 0
 - 1
+ 

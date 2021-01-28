@@ -12,6 +12,14 @@ notes: >
   real-life example (which demonstrates the benefits of the feature), and also
   explain the 3 arguments of the __exit__ method and how they can be used in the
   surrounding code.
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Context manager types - `with`
@@ -104,3 +112,4 @@ What functionality does `with` carry in a `with context as name` block in Python
 - It ensures that context object exists and if doesn't the compiler will throw an error.
 - `try/catch`
 - `exceptions`
+ 

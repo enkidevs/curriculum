@@ -4,10 +4,19 @@ type: normal
 category: feature
 links:
   - >-
-    [stackoverflow.com](http://stackoverflow.com/questions/1042138/javascript-check-if-function-exists){website}
+    [How to check if function exists in JavaScript?](https://stackoverflow.com/questions/1042138/how-to-check-if-function-exists-in-javascript){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Check If a Function Exists
+
 
 ---
 
@@ -55,3 +64,4 @@ if(??? myFunction === ???){
 - function
 - !
 - undefined
+ 

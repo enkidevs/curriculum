@@ -7,6 +7,14 @@ tags:
   - workout
 links:
   - '[Node Modules](http://book.mixu.net/node/ch8.html){website}'
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # What are Node Modules?
@@ -52,4 +60,3 @@ Where are third party Node.js modules installed to?
 - local_modules
 - libraries
 - libs
- 

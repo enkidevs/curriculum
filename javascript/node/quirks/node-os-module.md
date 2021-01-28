@@ -7,6 +7,14 @@ tags:
   - workout
 links:
   - '[nodejs.org](https://nodejs.org/api/os.html){website}'
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # **Node** `os` module

@@ -4,6 +4,14 @@ type: normal
 category: how-to
 links:
   - '[github.com](https://github.com/expressjs/errorhandler){website}'
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Error handler in **Express**

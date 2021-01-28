@@ -6,6 +6,14 @@ links:
   - >-
     [medium.com](https://medium.com/@adamzerner/how-bodyparser-works-247897a93b90#.34biejvm1){website}
   - '[github.com](https://github.com/expressjs/body-parser){website}'
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # `body-parser` in **Express**

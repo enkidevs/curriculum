@@ -8,6 +8,10 @@ links:
   - >-
     [www.vogella.com](http://www.vogella.com/tutorials/JavaCollections/article.html#collectionssort){website}
 notes: 'https://insights.enki.com/#/contrib/5599d0efef6d014f00958ea6'
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Using an interface as a parameter

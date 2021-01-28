@@ -2,6 +2,14 @@
 author: kapnobatai136
 category: how-to
 type: normal
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Adding Filters
@@ -66,4 +74,3 @@ OR
 
 - No.
 - Yes.
- 

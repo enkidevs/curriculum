@@ -7,6 +7,14 @@ links:
     [timedelta
     Objects](https://docs.python.org/3.5/library/datetime.html#timedelta-objects){website}
   - '[Playground](https://repl.it/@enkicontent/PythonTimedelta){website}'
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Date arithmetics with `timedelta`
@@ -115,3 +123,4 @@ yesterday = ??? - ???
 - `date`
 - `time`
 - `today / 2`
+ 

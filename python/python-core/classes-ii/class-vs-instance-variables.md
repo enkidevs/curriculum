@@ -5,6 +5,10 @@ category: tip
 links:
   - >-
     [docs.python.org](https://docs.python.org/3.5/tutorial/classes.html#class-and-instance-variables){website}
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # **Class** vs. **Instance** variables
@@ -57,3 +61,4 @@ class Test:
 
 - `class`
 - `instance`
+ 

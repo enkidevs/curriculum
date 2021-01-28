@@ -8,6 +8,10 @@ tags:
   - lsb_release
   - command
   - temrinal
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Detect your linux distribution

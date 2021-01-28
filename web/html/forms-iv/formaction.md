@@ -6,6 +6,14 @@ links:
   - >-
     [HTML formaction
     Attribute](https://www.w3schools.com/tags/att_formaction.asp){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # The `formaction` Attribute

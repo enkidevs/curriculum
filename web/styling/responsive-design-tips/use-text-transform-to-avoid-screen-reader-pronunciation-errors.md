@@ -9,6 +9,14 @@ links:
   - >-
     [47 CSS Tips &
     Tricks](http://www.instantshift.com/2010/03/15/47-css-tips-tricks-to-take-your-site-to-the-next-level/){article}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Use `text-transform` to avoid screen-reader pronunciation errors

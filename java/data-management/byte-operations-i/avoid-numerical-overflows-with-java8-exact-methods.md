@@ -6,6 +6,14 @@ links:
   - >-
     [howtodoinjava.com](http://howtodoinjava.com/2014/05/04/java-8-exact-airthmetic-operations-supported-in-math-class/){website}
 notes: 'https://insights.enki.com/#/contrib/others/55f03d0d1baba32f002fd319?search=kha'
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Avoid numerical overflows with *Java8* `exact` methods.

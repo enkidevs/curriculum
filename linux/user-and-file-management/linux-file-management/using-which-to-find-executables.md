@@ -1,17 +1,18 @@
 ---
 author: jfarmer
-
 type: normal
-
 category: must-know
-
 tags:
   - introduction
   - workout
-
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Using `which` To Find Executables
+
 
 ---
 
@@ -52,6 +53,7 @@ There are two major use cases for `which`:
 
 It directly answers the question, "Wait, am I running the executable I think I am or is my shell running something else?"
 
+
 ---
 
 ## Revision
@@ -63,6 +65,7 @@ The ??? command will tell you what executable your shell would be running after 
 - ps
 - where
 - man
+
 
 ---
 
