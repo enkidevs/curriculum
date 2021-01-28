@@ -7,6 +7,14 @@ links:
     [www.tutorialspoint.com](http://www.tutorialspoint.com/unix_commands/jinfo.htm){website}
 notes: >-
   https://insights.enki.com/#/contrib/others/55f423bfd7d6642d00118729?search=khandelwalrinki
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # The `jinfo` tool

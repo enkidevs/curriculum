@@ -5,6 +5,14 @@ category: must-know
 links:
   - >-
     [developer.mozilla.org](https://developer.mozilla.org/en/docs/Web/API/ProgressEvent){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # ProgressEvent
@@ -83,3 +91,4 @@ Which following property of `ProgressEvent` returns a boolean?
 - `2`
 - `1`
 - `3`
+ 

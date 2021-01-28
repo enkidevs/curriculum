@@ -4,6 +4,14 @@ category: feature
 type: normal
 links:
   - '[Built-In Apps](https://zapier.com/apps/categories/zapier-tools){website}'
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Built-In Options
@@ -57,4 +65,3 @@ Which of these **is** a built-in app?
 - Slack
 - Twitter
 - Gmail
- 

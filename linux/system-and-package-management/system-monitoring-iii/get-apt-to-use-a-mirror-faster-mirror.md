@@ -1,13 +1,17 @@
 ---
 author: tuwidc
 type: normal
-category: best practice
+category: best-practice
 tags:
   - linux
   - apt
   - terminal
   - mirror
   - ubuntu
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Get `apt` to use a mirror / faster mirror
@@ -65,4 +69,3 @@ You can speed up your download by using
 - mirrors
 - shops
 - packages
- 

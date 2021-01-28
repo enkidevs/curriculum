@@ -8,6 +8,14 @@ links:
   - >-
     [Operator
     Precedence](https://docs.python.org/3/reference/expressions.html#operator-precedence){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Complex Operators
@@ -81,7 +89,9 @@ What does the following code snippet return:
 - `2.5`
 - `4.66`
 
+
 ---
+
 ## Footnotes
 
 [1: Order Of Operations]

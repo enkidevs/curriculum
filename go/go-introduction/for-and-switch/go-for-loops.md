@@ -1,15 +1,22 @@
 ---
 author: Stefan-Stojanovic
-
 type: normal
-
-category: how to
-
+category: how-to
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # For Loops
 
+
 ---
+
 ## Content
 
 Compared to other languages, **Go** only has one kind of loop, the `for` loop.
@@ -49,6 +56,7 @@ The **condition expression** is evaluated before each iteration of the loop.
 The **post statement** is executed at the end of every iteration. This is where you increment/decrement the **initial statement**.
 
 Looking at this for loop below:
+
 ```go
 var sum = 0
 
@@ -60,7 +68,9 @@ for i := 0; i < 3; i++ {
 
 We have the **initial** statement, `i := 0`. Then, we have a **condition**, `i < 3`. Next, we have the **post** statement, `i++`. Lastly, we have our code in the curly braces.
 
+
 ---
+
 ## Practice
 
 Complete the code to make the for loop iterate 3 times.
@@ -82,7 +92,9 @@ var sum = 0
 - i < 3:
 - i--
 
+
 ---
+
 ## Revision
 
 `for` loops are used when you want to execute the same code ???.

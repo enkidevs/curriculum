@@ -1,23 +1,30 @@
-﻿---
+---
 author: Stefan-Stojanovic
-
 type: normal
-
-category: how to
-
+category: how-to
 links:
   - '[POWER](https://support.google.com/docs/answer/3093433){documentation}'
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+---
+
+# The POWER function
+
 
 ---
 
-# The POWER function 
-
----
 ## Content
 
 The `=POWER()` function is used to raise a number to a specified power.
 
 The syntax is:
+
 ```plain-text
 =POWER(base, exponent)
 ```
@@ -28,7 +35,9 @@ The `base` is the number to be raised to the `exponent` power.
 
 ![power](https://img.enkipro.com/99603e17e5ed277f0873d1bffa238a05.png)
 
+
 ---
+
 ## Practice
 
 Finish the code to raise `7` to the power of `4`.
@@ -37,12 +46,14 @@ Finish the code to raise `7` to the power of `4`.
 =???(???,???)
 ```
 
-* POWER
-* 7
-* 4
-* RAISE
+- POWER
+- 7
+- 4
+- RAISE
+
 
 ---
+
 ## Revision
 
 What is the `=POWER()` function used for?

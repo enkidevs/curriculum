@@ -2,6 +2,14 @@
 author: mihaiberq
 type: normal
 category: feature
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Decorators syntax
@@ -160,3 +168,4 @@ def decorator():
 - A
 - B
 - they are all valid
+ 

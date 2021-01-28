@@ -1,12 +1,20 @@
 ---
 author: catalin
 type: normal
-category: how to
+category: how-to
 links:
   - >-
     [docs.python.org](https://docs.python.org/3.5/library/stdtypes.html#memory-views){website}
   - >-
     [www.troyfawkes.com](http://www.troyfawkes.com/learn-python-multithreading-queues-basics/){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Queues and threads
@@ -94,3 +102,4 @@ Which methods tells the queue that an operation has finished? ???
 - `task.done()`
 - `task-done()`
 - `taskdone()`
+ 

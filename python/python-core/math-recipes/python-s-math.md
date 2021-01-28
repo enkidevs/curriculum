@@ -2,7 +2,6 @@
 author: catalin
 type: normal
 category: feature
-inAlgoPool: false
 links:
   - '[docs.python.org](https://docs.python.org/3.5/library/math.html){website}'
 notes: |
@@ -20,6 +19,14 @@ notes: |
   titles and items in insight.  Confirm usage
   of modf and also mention fmod and the
   difference between them.
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Python's `math`
@@ -120,3 +127,4 @@ a = ???.???
 - `constants`
 - `e`
 - `3.14`
+ 

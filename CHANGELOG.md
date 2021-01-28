@@ -40,16 +40,109 @@ Types of change:
 
 ## WIP
 
+### Added
+
 ### Changed
 
 ### Archived
 
 ### Fixed
 
-## January 7th 2021
+## January 28th 2021
 
 ### Changed
 - [Javascript - Setting The Length of An Array - Update information about empty array items](https://github.com/enkidevs/curriculum/pull/2535)
+
+## January 27th 2021
+
+### Added
+- [Add support for new question types XI]()
+- [Add support for new question types X](https://github.com/enkidevs/curriculum/pull/2576)
+- [Add support for new question types IX](https://github.com/enkidevs/curriculum/pull/2575)
+- [Add support for new question types VIII](https://github.com/enkidevs/curriculum/pull/2573)
+- [Add support for new question types VII](https://github.com/enkidevs/curriculum/pull/2571)
+- [Add support for new question types VI](https://github.com/enkidevs/curriculum/pull/2570)
+- [Add support for new question types V](https://github.com/enkidevs/curriculum/pull/2569)
+- [Add support for new question types IV](https://github.com/enkidevs/curriculum/pull/2567)
+- [Add support for new question types III](https://github.com/enkidevs/curriculum/pull/2566)
+- [Add support for new question types II](https://github.com/enkidevs/curriculum/pull/2565)
+
+### Changed
+- [Update "best practice" to "best-practice" category](https://github.com/enkidevs/curriculum/pull/2564)
+- [Update "how to" to "how-to" category II](https://github.com/enkidevs/curriculum/pull/2562)
+
+## January 26th 2021
+
+### Changed
+- [Update "how to" to "how-to" category I](https://github.com/enkidevs/curriculum/pull/2561)
+
+### Added
+- [Add support for new question types I](https://github.com/enkidevs/curriculum/pull/2560)
+
+### Fixed
+- [Spreadsheets - Data Validation Example - Add missing word](https://github.com/enkidevs/curriculum/pull/2559)
+
+## January 25th 2021
+
+### Changed
+- [Blockchain - What Is a Blockchain? - Add footnote on the differences between blockchain and distributed ledger](https://github.com/enkidevs/curriculum/pull/2557)
+- [HTML - Formenctype - Rename to formenctype-and-enctype](https://github.com/enkidevs/curriculum/pull/2555)
+
+### Added
+- [HTML - Formnovalidate and Novalidate - Add resource link](https://github.com/enkidevs/curriculum/pull/2553)
+
+### Fixed
+- [JavaScript - Symbol Special Properties - Update practice question to be more clear](https://github.com/enkidevs/curriculum/pull/2556)
+- [JavaScript - Base Conversion - Revert changes to the correct answer](https://github.com/enkidevs/curriculum/pull/2552)
+- [HTML - Formenctype - Add missing information regarding Enctype](https://github.com/enkidevs/curriculum/pull/2554)
+
+## January 22nd 2021
+
+### Fixed
+- [JavaScript - Base Conversion - Fix answer in PQ](https://github.com/enkidevs/curriculum/pull/2551)
+- [Security - Identify Deserialization - Update resource link](https://github.com/enkidevs/curriculum/pull/2550)
+- [HTML - Check Boxes - Fix typo](https://github.com/enkidevs/curriculum/pull/2549)
+
+## January 21st 2021
+
+### Changed
+- [Git - What Is Stored in a Commit? - Add footnote and resource link on checksums](https://github.com/enkidevs/curriculum/pull/2548)
+
+## January 19th 2021
+
+### Added
+- [Python - Looping - Add discussion insight](https://github.com/enkidevs/curriculum/pull/2546)
+
+## January 18th 2021
+
+### Added
+- [SQL - Building Queries - Discussion Insight](https://github.com/enkidevs/curriculum/pull/2509)
+- [SQL - Aggregate Queries - Discussion Insight](https://github.com/enkidevs/curriculum/pull/2510)
+- [SQL - Insert - Discussion Insight](https://github.com/enkidevs/curriculum/pull/2512)
+- [SQL - Update - Discussion Insight](https://github.com/enkidevs/curriculum/pull/2523)
+
+### Changed
+- [Discussion Insights - Update ending note on complexity of the submission](https://github.com/enkidevs/curriculum/pull/2544)
+
+## January 15th 2021
+
+### Fixed
+- [Security - Identifying the Application Layer - Add footnote on GUI](https://github.com/enkidevs/curriculum/pull/2542)
+- [HTML - The `<blockquote>` Element - Fix headline and resource title](https://github.com/enkidevs/curriculum/pull/2541)
+- [Python - Nose Testing - Fix resource link title](https://github.com/enkidevs/curriculum/pull/2540)
+- [Python - The from...import statement - Re-add deleted footnote](https://github.com/enkidevs/curriculum/pull/2539)
+- [JavaScript - Executing Programs With Node - Fix grammatical error](https://github.com/enkidevs/curriculum/pull/2538)
+- [Linux - Using `find` To Search By File Size - Fix grammatical error](https://github.com/enkidevs/curriculum/pull/2538)
+
+## January 14th 2021
+
+### Fixed
+- [Linux - Manipulating Environments - Fix incorrect syntax for PQ code block](https://github.com/enkidevs/curriculum/pull/2537)
+
+## January 11th 2021
+
+### Fixed
+- [Go - Assignment Operators - Fix incorrect RQ answer](https://github.com/enkidevs/curriculum/pull/2536
 
 ## January 5th 2021
 
@@ -80,6 +173,9 @@ Types of change:
 
 ## December 29th 2020
 
+### Changed
+- [React - What Is React? - Remove mentions of react being a library or framework](https://github.com/enkidevs/curriculum/pull/2522)
+
 ### Fixed
 - [Python - Debugging - Fix PQ by removing the extra answer gap](https://github.com/enkidevs/curriculum/pull/2521)
 
@@ -87,7 +183,6 @@ Types of change:
 
 ### Change
 - [Go - Go Range - Add another possible answer to the RQ](https://github.com/enkidevs/curriculum/pull/2516)
-
 
 ## December 18th 2020
 
@@ -871,3 +966,5 @@ Types of change:
 - [Python - Check Available Python Modules - Removed unnecessary `$` and general formatting improvements](https://github.com/enkidevs/curriculum/pull/2127)
 - [Git - What's Git? - Fixed spelling of Linus, creator of Linux](https://github.com/enkidevs/curriculum/pull/2129)
 
+ 
+ 

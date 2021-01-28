@@ -2,6 +2,14 @@
 author: kapnobatai136
 category: must-know
 type: normal
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Multi-Step Zaps
@@ -56,4 +64,3 @@ How many steps is Zapier **limited to**?
 
 [1:Filters]
 In this insight we will briefly go over filters, but they will be explained in more detail in a later workout.
- 

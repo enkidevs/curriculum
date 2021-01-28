@@ -2,6 +2,14 @@
 author: kapnobatai136
 category: must-know
 type: normal
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Zapier?
@@ -41,4 +49,3 @@ Zapier requires ??? coding experience.
 - no
 - some
 - a lot of
- 

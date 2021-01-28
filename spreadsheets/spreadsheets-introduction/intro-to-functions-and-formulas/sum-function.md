@@ -2,6 +2,10 @@
 author: Stefan-Stojanovic
 type: normal
 category: feature
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # The `SUM` Function
@@ -41,4 +45,3 @@ Create a function that will sum up all the values from cell `K63` to `K88`.
 - `=SUM(K63-K88)`
 - `SUM(K63:K88)`
 - `SUM(K63-K88)`
- 

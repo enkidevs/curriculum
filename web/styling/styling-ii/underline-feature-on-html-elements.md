@@ -5,6 +5,14 @@ category: feature
 tags:
   - hyperlink
   - underline
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Underline feature on HTML elements

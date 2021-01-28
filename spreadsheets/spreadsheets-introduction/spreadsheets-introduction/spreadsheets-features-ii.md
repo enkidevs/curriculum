@@ -1,7 +1,11 @@
 ---
 author: Stefan-Stojanovic
 type: normal
-category: how to
+category: how-to
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Spreadsheet Features II
@@ -31,4 +35,3 @@ How do you visually represent data in spreadsheets?
 - Using graphs or charts.
 - Using images.
 - Using gifs.
- 

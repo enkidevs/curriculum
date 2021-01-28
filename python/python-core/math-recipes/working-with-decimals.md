@@ -2,11 +2,18 @@
 author: catalin
 type: normal
 category: feature
-inAlgoPool: false
 links:
   - '[pymotw.com](https://pymotw.com/2/decimal/){website}'
   - '[docs.python.org](https://docs.python.org/3.5/library/decimal.html){website}'
 notes: Math modules workout
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Working with decimals
@@ -94,3 +101,4 @@ a = ???.???(“6.42”)
 - `d`
 - `dec`
 - `Object`
+ 

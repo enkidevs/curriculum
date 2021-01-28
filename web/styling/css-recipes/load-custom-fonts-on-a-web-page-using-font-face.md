@@ -1,7 +1,7 @@
 ---
 author: vbaron
 type: normal
-category: how to
+category: how-to
 tags:
   - custom font
   - font-face
@@ -9,6 +9,14 @@ links:
   - >-
     [Article on
     @font-face](https://css-tricks.com/snippets/css/using-font-face/){article}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Load custom fonts on a web page using `@font-face`

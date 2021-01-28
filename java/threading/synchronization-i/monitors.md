@@ -6,6 +6,14 @@ links:
   - >-
     [More on
     Monitors](https://stackoverflow.com/questions/7335950/semaphore-vs-monitors-whats-the-difference){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Monitors

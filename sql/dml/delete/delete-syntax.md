@@ -1,17 +1,22 @@
 ---
 author: kapnobatai136
-
 type: normal
-
 category: must-know
-
 tags:
   - delete
   - syntax
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Syntax
+
 
 ---
 
@@ -27,13 +32,14 @@ WHERE
 ```
 
 All you have to do is tell SQL:
+
 - which table it should delete from (`DELETE FROM table_name`)
 - which records it should delete (`WHERE condition`)
 
 Take a look at the `favorite_fruits` table:
 
 | id | fruit      |
-|----|------------|
+| -- | ---------- |
 | 1  | Strawberry |
 | 2  | Raspberry  |
 | 3  | Avocado    |
@@ -52,9 +58,10 @@ WHERE
 Done, you remove the pesky `"Avocado"` from your table:
 
 | id | fruit      |
-|----|------------|
+| -- | ---------- |
 | 1  | Strawberry |
 | 2  | Raspberry  |
+
 
 ---
 
@@ -74,6 +81,7 @@ Delete all the `students` that have graduated after `"2020-10-28"`:
 - "2020-10-28"
 - DELETE
 - REMOVE
+
 
 ---
 

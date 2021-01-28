@@ -9,6 +9,14 @@ links:
   - >-
     [Iterators in
     Depth](https://ponyfoo.com/articles/es6-iterators-in-depth){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Introducing Iterators
@@ -90,3 +98,4 @@ What method do iterators canonically make use of to advance the iteration?
 - iterator.get()
 - iterator.advance()
 - iterator.step()
+ 

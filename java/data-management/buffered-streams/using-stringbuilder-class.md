@@ -1,7 +1,7 @@
 ---
 author: catalin
 type: normal
-category: best practice
+category: best-practice
 links:
   - >-
     [stackoverflow.com](http://stackoverflow.com/questions/25138587/what-is-difference-between-mutable-and-immutable-string-in-java){website}

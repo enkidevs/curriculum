@@ -1,10 +1,19 @@
 ---
 author: catalin
 type: normal
-category: how to
+category: how-to
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Base Conversion
+
 
 ---
 
@@ -34,7 +43,7 @@ typeof number.toString(16) // "string"
 
 ### parseInt
 
-`parseInt(<string>, <base>)` takes a string and its base and converts it into a decimal number.
+`parseInt(<string>, <base>)` takes a string and its base and converts it into a decimal number (a number in base 10).
 
 For example, parsing a hexadecimal, octal and binary number in string form into a decimal:
 
@@ -100,3 +109,4 @@ Complete the following code snippet:
 - ”base 10”
 - ”base 15”
 - ”base 2”
+ 

@@ -1,7 +1,7 @@
 ---
 author: adamMontgomerie
 type: normal
-category: how to
+category: how-to
 tags:
   - scanner
   - file-io
@@ -13,6 +13,14 @@ links:
     [docs.oracle.com](https://docs.oracle.com/javase/tutorial/essential/io/scanning.html){website}
   - >-
     [javatutorialhq.com](http://javatutorialhq.com/java/util/scanner-class-tutorial/usedelimiter-string-pattern-method-example/){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Translating `Scanner` tokens into primitive types

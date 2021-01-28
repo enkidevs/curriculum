@@ -1,9 +1,17 @@
 ---
 author: catalin
 type: normal
-category: best practice
+category: best-practice
 links:
   - '[docs.python.org](https://docs.python.org/3.5/library/bisect.html){website}'
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Keep large lists sorted with `bisect`

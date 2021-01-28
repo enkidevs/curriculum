@@ -1,18 +1,24 @@
-﻿---
+---
 author: Stefan-Stojanovic
-
 type: normal
-
-category: how to
-
+category: how-to
 links:
   - '[TO_DATE](https://support.google.com/docs/answer/3094239){documentation}'
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # TO_DATE
 
+
 ---
+
 ## Content
 
 The `=TO_DATE` function is used to convert a number to a date.
@@ -79,7 +85,9 @@ Without proper formatting, `=TO_DATE(0)` and `=TO_DATE(0.25)` would look the sam
 
 ![to-date](https://img.enkipro.com/7540d5617465b0099bc0747edd9c1c21.png)
 
+
 ---
+
 ## Practice
 
 Finish the code below to convert the number 7 to a date value.
@@ -95,11 +103,12 @@ Finish the code below to convert the number 7 to a date value.
 - ]
 - TODATE[
 
+
 ---
+
 ## Revision
 
 The ??? parser function is used to convert a numeric value to a date value.
-
 
 - =TO_DATE()
 - =DATE_TO()

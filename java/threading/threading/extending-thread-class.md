@@ -1,11 +1,19 @@
 ---
 author: nickdaminov
 type: normal
-category: how to
+category: how-to
 links:
   - >-
     [More on the Thread
     Class](https://docs.oracle.com/javase/8/docs/api/java/lang/Thread.html){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Extending Thread Class

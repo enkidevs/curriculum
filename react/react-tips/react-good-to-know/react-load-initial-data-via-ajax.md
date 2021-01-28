@@ -4,6 +4,14 @@ type: normal
 category: must-know
 links:
   - '[Ajax FAQ](https://facebook.github.io/react/docs/faq-ajax.html){website}'
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Load Initial Data via AJAX

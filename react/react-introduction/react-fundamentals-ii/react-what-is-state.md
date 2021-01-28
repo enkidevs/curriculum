@@ -9,6 +9,14 @@ links:
   - >-
     [React
     state](https://medium.com/react-tutorials/react-state-14a6d4f736f5#.8vf5a6ngz){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # What is state?

@@ -2,11 +2,18 @@
 author: catalin
 type: normal
 category: feature
-inAlgoPool: false
 links:
   - >-
     [docs.python.org](https://docs.python.org/3.5/library/fractions.html){website}
 notes: Math modules workout
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Python's `fractions`
@@ -80,3 +87,4 @@ To calculate the greatest common divisor of ints in Python 3.5, what method from
 - `greatest_common_divisor`
 - `cmath`
 - `g`
+ 

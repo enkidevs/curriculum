@@ -2,11 +2,14 @@
 author: catalin
 type: normal
 category: must-know
-inAlgoPool: false
 links:
   - >-
     [Working With Remotes Official
     Documentation](https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes){website}
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Introduction to remote repositories
@@ -62,4 +65,3 @@ You can have ??? remote repositories/repository.
 
 [1:GitHub]
 **GitHub** is the most-known and used web-based Git repository hosting service.
- 

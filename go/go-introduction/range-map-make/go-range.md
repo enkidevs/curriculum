@@ -1,15 +1,22 @@
-﻿---
+---
 author: Stefan-Stojanovic
-
 type: normal
-
-category: how to
-
+category: how-to
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Range
 
+
 ---
+
 ## Content
 
 `range` is a reserved keyword used to iterate over elements in an array, slice, map, and other data structures.
@@ -32,6 +39,7 @@ func main() {
 ```
 
 Here's another example:
+
 ```go
 var fibonacci = []int{0, 1, 1, 2, 3, 5, 8, 13}
 
@@ -54,6 +62,7 @@ func main() {
 > 💡 The index or the value can be skipped by assigning `_` instead.
 
 To skip the index:
+
 ```go
 for _, v := range fibonacci {
   fmt.Println(v)
@@ -70,6 +79,7 @@ for _, v := range fibonacci {
 ```
 
 To skip the value:
+
 ```go
 for i, _ := range fibonacci {
   fmt.Println(i)
@@ -84,7 +94,9 @@ for i, _ := range fibonacci {
 // 7
 ```
 
+
 ---
+
 ## Practice
 
 ??? is a reserved keyword used to iterate over elements in an array, slice, map, and other data structures.
@@ -93,7 +105,9 @@ for i, _ := range fibonacci {
 - iterate
 - span
 
+
 ---
+
 ## Revision
 
 Finish the code to iterate over the elements of the Fibonacci array.

@@ -1,7 +1,15 @@
 ---
 author: catalin
 type: normal
-category: how to
+category: how-to
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Get the similarity ratio of two sequences

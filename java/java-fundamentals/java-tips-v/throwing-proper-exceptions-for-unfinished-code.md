@@ -1,9 +1,7 @@
 ---
 author: hyousaf
 type: normal
-category: best practice
-links:
-  - '[www.javalobby.org](http://www.javalobby.org/){website}'
+category: best-practice
 ---
 
 # Throwing proper exceptions for unfinished code

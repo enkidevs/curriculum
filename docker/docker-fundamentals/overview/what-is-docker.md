@@ -4,6 +4,14 @@ type: normal
 category: must-know
 links:
   - '[Docker](https://www.docker.com/){website}'
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # What is Docker?
@@ -52,4 +60,3 @@ Docker allows us to easily run and deploy our applications using ???.
 - virtual machines
 - databases
 - networks
- 

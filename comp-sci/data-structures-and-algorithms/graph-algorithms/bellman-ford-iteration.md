@@ -2,6 +2,14 @@
 author: mihaiberq
 type: normal
 category: must-know
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Bellman-Ford Algorithm Iteration
@@ -63,4 +71,3 @@ In the worst case, the Bellman-Ford algorithm requires
 - `|V-1| iterations`
 - `|V| iterations`
 - `|V+1| iterations`
- 

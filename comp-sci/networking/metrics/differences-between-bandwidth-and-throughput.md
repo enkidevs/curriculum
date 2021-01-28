@@ -2,6 +2,14 @@
 author: catalin
 type: normal
 category: must-know
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Differences between bandwidth and throughput
@@ -63,4 +71,3 @@ Which of the following metric refers to the **actual** speed data can move over 
 
 [1: ISP]
 Internet Service Provider.
- 

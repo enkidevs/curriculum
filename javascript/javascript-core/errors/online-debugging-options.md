@@ -2,7 +2,6 @@
 author: alexjmackey
 type: normal
 category: must-know
-inAlgoPool: false
 tags:
   - introduction
   - obscura
@@ -11,6 +10,14 @@ links:
   - >-
     [JavaScript
     Visualizer](http://www.pythontutor.com/javascript.html#mode=edit){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Online Debugging Options

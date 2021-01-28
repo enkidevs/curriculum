@@ -1,12 +1,16 @@
 ---
 author: fahimrahman
 type: normal
-category: best practice
+category: best-practice
 tags:
   - numeric-operations
 links:
   - >-
     [www.securecoding.cert.org](https://www.securecoding.cert.org/confluence/display/java/NUM01-J.+Do+not+perform+bitwise+and+arithmetic+operations+on+the+same+data){website}
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Do not perform bitwise and arithmetic operations on the same data

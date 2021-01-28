@@ -6,6 +6,14 @@ links:
   - >-
     [Comment
     Conventions](https://www.python.org/dev/peps/pep-0008/#comments){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Indentation and Commenting
@@ -100,3 +108,4 @@ Which of the following is a valid Python comment?
 - `Comment C`
 - `Comment B`
 - `Comment A`
+ 

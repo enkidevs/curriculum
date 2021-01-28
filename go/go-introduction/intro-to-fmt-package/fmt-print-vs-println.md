@@ -1,15 +1,22 @@
-﻿---
+---
 author: Stefan-Stojanovic
-
 type: normal
-
-category: how to
-
+category: how-to
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Print vs Println
 
+
 ---
+
 ## Content
 
 The `fmt.Print` and `fmt.Println` are the standard printing functions.
@@ -68,7 +75,9 @@ fmt.Print("Hello, my name is ", name, ". I am ", age, " years old and work as a 
 
 This will create an output on two separate lines.
 
+
 ---
+
 ## Practice
 
 Which of these print statements adds a space after **every** operand?
@@ -78,7 +87,9 @@ Which of these print statements adds a space after **every** operand?
 - Println
 - Print
 
+
 ---
+
 ## Revision
 
 The ??? function adds a space after every operand, appends a new line, and outputs to the console.

@@ -6,6 +6,14 @@ links:
   - >-
     [More on
     VarArgs](https://stackoverflow.com/questions/7607353/how-to-create-java-method-that-accepts-variable-number-of-arguments){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Variable Argument Function

@@ -2,7 +2,10 @@
 author: mihaiberq
 type: normal
 category: must-know
-inAlgoPool: false
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Java Identifiers
@@ -33,4 +36,3 @@ An identifier is a variable's ???.
 - value
 - type
 - size
- 

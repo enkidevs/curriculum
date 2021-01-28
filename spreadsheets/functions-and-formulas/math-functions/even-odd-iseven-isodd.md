@@ -1,21 +1,27 @@
-﻿---
+---
 author: Stefan-Stojanovic
-
 type: normal
-
-category: how to
-
+category: how-to
 links:
   - '[EVEN](https://support.google.com/docs/answer/3093409){documentation}'
   - '[ODD](https://support.google.com/docs/answer/3093499){documentation}'
   - '[ISEVEN](https://support.google.com/docs/answer/3093419){documentation}'
   - '[ISODD](https://support.google.com/docs/answer/3093491){documentation}'
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # EVEN, ODD, ISEVEN & ISODD
 
+
 ---
+
 ## Content
 
 The `=EVEN()` function is used to round a number up to the next even integer.
@@ -30,7 +36,9 @@ The `=ISEVEN()` and `=ISODD()` functions are used to check if a number is even o
 
 ![iseven-isodd](https://img.enkipro.com/8ab24101db93d90cc142bdf9232475f0.png)
 
+
 ---
+
 ## Practice
 
 The =??? function is used to round a number up to the next odd integer.
@@ -46,7 +54,9 @@ The =??? function is used to check if a number is odd.
 - EVEN()
 - ISODD()
 
+
 ---
+
 ## Revision
 
 What would the output of these functions be?

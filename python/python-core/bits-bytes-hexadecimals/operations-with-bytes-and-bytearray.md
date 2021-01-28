@@ -5,6 +5,14 @@ category: feature
 links:
   - >-
     [docs.python.org](https://docs.python.org/3.5/library/stdtypes.html#bytes-and-bytearray-operations){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Operations with `bytes` and `bytearray`
@@ -92,3 +100,4 @@ True
 - `isalphanum`
 - `isalpnum`
 - `isnum`
+ 

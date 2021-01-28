@@ -1,11 +1,19 @@
 ---
 author: catalin
 type: normal
-category: how to
+category: how-to
 links:
   - >-
     [Default prop
     values](https://facebook.github.io/react/docs/typechecking-with-proptypes.html#default-prop-values){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Default values for props

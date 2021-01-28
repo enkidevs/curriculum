@@ -1,12 +1,20 @@
 ---
 author: tuwidc
 type: normal
-category: how to
+category: how-to
 tags:
   - linux
   - ipv6
   - ifconfig
   - ip
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # List your IPv6 configuration

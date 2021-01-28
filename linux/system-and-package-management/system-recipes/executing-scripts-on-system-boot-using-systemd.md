@@ -1,13 +1,17 @@
 ---
 author: tuwidc
 type: normal
-category: how to
+category: how-to
 tags:
   - linux
   - system
   - boot
   - execute
   - rc.local
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Executing scripts on system boot using `systemd`

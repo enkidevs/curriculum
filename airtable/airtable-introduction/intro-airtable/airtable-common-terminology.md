@@ -2,6 +2,10 @@
 author: kapnobatai136
 category: must-know
 type: normal
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Common Terminology
@@ -55,4 +59,3 @@ Table      ???
 - Collection of projects
 - A set of tables
 - Spreadsheet of cells
- 

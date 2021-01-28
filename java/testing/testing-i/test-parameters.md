@@ -10,6 +10,14 @@ links:
     [java2novice.com](http://java2novice.com/junit-examples/junit-annotations/){website}
   - >-
     [javarevisited.blogspot.gr](http://javarevisited.blogspot.gr/2012/06/junit4-annotations-test-examples-and.html){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # `@Test` parameters

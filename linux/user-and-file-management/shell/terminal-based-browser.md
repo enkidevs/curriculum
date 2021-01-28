@@ -9,6 +9,10 @@ tags:
   - browser
   - get
   - null
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Terminal based browser

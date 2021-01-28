@@ -2,6 +2,10 @@
 author: SebaRaba
 type: normal
 category: must-know
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # What is a computer network?
@@ -62,4 +66,3 @@ Such examples are:
 - routers
 - modems
 - switches
- 

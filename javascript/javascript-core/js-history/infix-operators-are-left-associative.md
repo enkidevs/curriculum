@@ -7,6 +7,14 @@ links:
     [learnxinyminutes.com](http://learnxinyminutes.com/docs/javascript/){website}
   - >-
     [developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Infix Operators Are Left-Associative
@@ -70,3 +78,4 @@ The processing of operations starts with the ??? operator if no parentheses are 
 - left-most
 - right-most
 - middle
+ 

@@ -1,7 +1,15 @@
 ---
 author: mihaiberq
 type: normal
-category: how to
+category: how-to
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Mixing sets and frozensets
@@ -115,3 +123,4 @@ print(c.pop())
 
 [1: In-place operations]
 Instead of returning a new set containing the result with both operands remaining the same, *in-place operations* assign to the left hand operand the value of the result.
+ 

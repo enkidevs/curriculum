@@ -9,6 +9,14 @@ links:
   - >-
     [W3S: <div>
     Element](https://www.w3schools.com/tags/tag_div.asp){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # The `<div>` element

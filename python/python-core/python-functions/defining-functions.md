@@ -2,10 +2,17 @@
 author: tommarshall
 type: normal
 category: must-know
-inAlgoPool: false
 links:
   - >-
     [anh.cs.luc.edu](http://anh.cs.luc.edu/python/hands-on/3.1/handsonHtml/functions.html){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Defining Functions
@@ -73,3 +80,4 @@ What keyword is used to define a new function?
 - `def`
 - `new`
 - `func`
+ 

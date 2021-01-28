@@ -1,21 +1,28 @@
 ---
 author: emmab
-
 tags:
   - introduction
-
 type: normal
-
 category: must-know
-
 links:
-  - '[What is a KPI?](https://www.linkedin.com/pulse/20130516061123-64875646-what-the-hell-is-a-kpi/){website}'
-
+  - >-
+    [What is a
+    KPI?](https://www.linkedin.com/pulse/20130516061123-64875646-what-the-hell-is-a-kpi/){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Key Metrics
 
+
 ---
+
 ## Content
 
 ### What is a KPI?
@@ -46,27 +53,33 @@ If a company wants to ensure *employee engagement*, it might want to focus on **
 
 Don't worry if you don't understand some of these terms because we're going to explore these metrics in greater depth over the next few role-specific workouts 🔍.
 
+
 ---
+
 ## Practice
 
 If a company's goal is to measure customer engagement, it might want to focus on ??? as a KPI.
 
-* average session duration
-* average monthly revenue
-* total expenditure
-* brand awareness
+- average session duration
+- average monthly revenue
+- total expenditure
+- brand awareness
+
 
 ---
+
 ## Revision
 
 If a company's goal is focused on boosting revenue, it might want to track ??? as a KPI.
 
-* average revenue per user (ARPU)
-* daily active users (DAU)
-* Net Promoter Score
-* pageviews
+- average revenue per user (ARPU)
+- daily active users (DAU)
+- Net Promoter Score
+- pageviews
+
 
 ---
+
 ## Footnotes
 
 [1:Net Promoter Score]
@@ -77,5 +90,3 @@ NPS is calculated as the difference between the percentage of *promoters* and *d
 `NPS = Promotors - Detractors`
 
 For instance, if 25% of the surveyed audience are Promoters, while 55% Passives and 20% Detractors, the NPS will be +5.
-
- 

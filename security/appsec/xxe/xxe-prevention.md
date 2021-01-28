@@ -1,18 +1,23 @@
 ---
 author: lizTheDeveloper
-
 type: normal
-
-category: how to
-
+category: how-to
 links:
   - >-
     [OWASP XXE
     Prevention](https://cheatsheetseries.owasp.org/cheatsheets/XML_External_Entity_Prevention_Cheat_Sheet.html){website}
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # XXE Prevention
+
 
 ---
 
@@ -33,6 +38,7 @@ xmlparser.parse(untrustedXML)
 ```
 
 `set` being an imaginary method that disallows doctype declarations within this set of parsed XML, and sets schemas. Instead of client-side doctypes and schemas, manually set the doctype and schema with server-side definitions on XML received from untrusted sources. Check your library's documentation for a similar feature or upgrade to a library that has this feature.
+
 
 ---
 
@@ -57,6 +63,7 @@ xmlparser.parse(???)
 - "disable"
 - parse
 - "secure"
+
 
 ---
 

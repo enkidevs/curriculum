@@ -1,15 +1,22 @@
-﻿---
+---
 author: Stefan-Stojanovic
-
 type: normal
-
-category: how to
-
+category: how-to
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Implementing Interfaces
 
+
 ---
+
 ## Content
 
 Using the interface from the previous insight[1], we will create three types.
@@ -40,7 +47,7 @@ func (a Age) Action() string {
   return "I am 31 years old, and you?"
 }
 ```
- 
+
 The first type is called `Sing` and has the action of "singing" `La la la`. The second type "greets" and the third specifies the age. 
 
 In the `main()` function we can call all of these individually or we can create a slice with all types.
@@ -65,7 +72,9 @@ Hello! My name is Stefan
 I am 31 years old, and you?
 ```
 
+
 ---
+
 ## Practice
 
 What do you need to do to create a type for an interface?
@@ -75,7 +84,9 @@ What do you need to do to create a type for an interface?
 - You need to assign it the method name defined in the interface.
 - You need to create the type within the interface where the methods go.
 
+
 ---
+
 ## Revision
 
 Given the interface:
@@ -105,7 +116,9 @@ func (???) ??? string {
 - method
 - type
 
+
 ---
+
 ## Footnotes
 
 [1:Previous Interface]

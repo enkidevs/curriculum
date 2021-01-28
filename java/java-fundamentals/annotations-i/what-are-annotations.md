@@ -9,6 +9,14 @@ links:
   - >-
     [More on Annotation
     Elements](https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # What Are Annotations?

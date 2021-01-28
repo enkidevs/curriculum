@@ -1,19 +1,23 @@
 ---
 author: catalin
-
 type: normal
-
-category: how to
-
+category: how-to
 links:
   - >-
     [cloneElement()
     Documentation](https://facebook.github.io/react/docs/top-level-api.html#cloneelement){website}
-
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Clone Elements in React
+
 
 ---
 
@@ -91,6 +95,7 @@ ReactDOM.render(
 // Hello Stefan, and welcome to Enki!
 ```
 
+
 ---
 
 ## Practice
@@ -113,6 +118,7 @@ React.???(
 - `obj`
 - `env`
 
+
 ---
 
 ## Revision
@@ -134,6 +140,7 @@ React.???(
 - `key`
 - `obj`
 - `env`
+
 
 ---
 

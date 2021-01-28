@@ -1,18 +1,24 @@
-﻿---
+---
 author: Stefan-Stojanovic
-
 aspects:
   - workout
-
 type: normal
-
-category: how to
-
+category: how-to
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Pointers & Functions
 
+
 ---
+
 ## Content
 
 Let's take a look at how we can convert methods to functions while keeping their functionality.
@@ -55,7 +61,9 @@ If our functions were methods, they would be able to take a value or a pointer a
 
 Also, if a function has a value type, it must take an input of the same type as its value.
 
+
 ---
+
 ## Practice
 
 A method with a receiver can ???.
@@ -65,7 +73,9 @@ A function with a receiver can ???.
 - take either a value or pointer receiver
 - only take a pointer receiver
 
+
 ---
+
 ## Revision
 
 A function with a pointer argument ??? as the receiver.

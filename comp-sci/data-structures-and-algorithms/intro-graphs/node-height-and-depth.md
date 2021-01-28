@@ -2,6 +2,14 @@
 author: mihaiberq
 type: normal
 category: must-know
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Node Height and Depth
@@ -92,4 +100,3 @@ C: ???
 
 [1:Leaf]
 In computer science, a leaf represents a node with **no children**.
- 

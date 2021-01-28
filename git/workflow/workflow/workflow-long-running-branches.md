@@ -6,6 +6,10 @@ links:
   - >-
     [Branching Workflows Official
     Documentation](http://git-scm.com/book/en/v2/Git-Branching-Branching-Workflows){website}
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Workflow: long running branches

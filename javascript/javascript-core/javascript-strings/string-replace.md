@@ -11,6 +11,14 @@ links:
   - >-
     [15 Common JavaScript
     Gotchas](http://www.standardista.com/javascript/15-common-javascript-gotchas/){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # `String.replace`
@@ -101,3 +109,4 @@ String.prototype.??? is used to replace one or more occurrences of a substring w
 
 [1:RegEx]
 RegEx is short for regular expression, and it represent a sequence of characters that define a search pattern. For example, this pattern `/ /g` will match with all the spaces in a string. For more information about RegEx check out [their documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions).
+ 

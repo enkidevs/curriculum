@@ -8,6 +8,14 @@ tags:
 links:
   - >-
     [nodejs.org](https://nodejs.org/api/fs.html#fs_fs_writefile_file_data_options_callback){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Async File Write in Node.js

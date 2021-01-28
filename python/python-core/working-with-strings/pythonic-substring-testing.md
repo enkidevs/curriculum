@@ -1,17 +1,22 @@
 ---
 author: Ricardo
-
 type: normal
-
 category: tip
-
 tags:
   - substring
   - in
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Pythonic substring testing
+
 
 ---
 
@@ -32,6 +37,7 @@ string = 'Hello world'
 if string.find('Hello') != -1:
   print('Success!')
 ```
+
 
 ---
 

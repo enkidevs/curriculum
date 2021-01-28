@@ -9,6 +9,14 @@ links:
     [Python 3 Vs Python
     2](https://learntocodewith.me/programming/python/python-2-vs-python-3/){website}
   - '[Goodbye Python 2](https://www.python.org/doc/sunset-python-2/){website}'
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Python Versions
@@ -72,3 +80,4 @@ Python 2: ???
 - `print 'Hello world!'`
 - `write 'Hello world!'`
 - `write('Hello world!')`
+ 

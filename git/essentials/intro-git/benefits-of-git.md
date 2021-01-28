@@ -4,6 +4,10 @@ type: normal
 category: must-know
 links:
   - '[Why Git](https://www.atlassian.com/git/tutorials/why-git){website}'
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Benefits of Git
@@ -46,4 +50,3 @@ Git is only useful for developers.
 
 [1:Clone]
 A clone is an exact copy of the project, which retains all information (e.g. history) and references (e.g. branches).
- 

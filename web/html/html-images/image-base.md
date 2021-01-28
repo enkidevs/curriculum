@@ -6,6 +6,14 @@ links:
   - >-
     [HTML <base>
     Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Image Base

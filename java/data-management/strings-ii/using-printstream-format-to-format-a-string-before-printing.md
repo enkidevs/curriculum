@@ -1,13 +1,21 @@
 ---
 author: adamMontgomerie
 type: normal
-category: how to
+category: how-to
 tags:
   - strings
   - formatting
 links:
   - >-
     [docs.oracle.com](https://docs.oracle.com/javase/tutorial/java/data/numberformat.html){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Using `Printstream.format` to format a string before printing

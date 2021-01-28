@@ -1,23 +1,26 @@
-﻿---
+---
 author: Stefan-Stojanovic
-
 type: normal
-
-category: how to
-
+category: how-to
 links:
   - '[IMPORTHTML](https://support.google.com/docs/answer/3093339){documentation}'
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # =IMPORTHTML()
 
+
 ---
+
 ## Content
 
 The `=IMPORTHTML()` function is used to import data from a table or list within an HTML page.
 
 The syntax is:
+
 ```plain-text
 =IMPORTHTML(url, query, index)
 ```
@@ -45,7 +48,9 @@ The `index` starts at 1. This is used to identify the table or list from the HTM
 
 ![importhtml](https://img.enkipro.com/9f227c4cb224eb379f4b6abc21131782.gif)
 
+
 ---
+
 ## Practice
 
 In which order do you write the `query`, `index`, and `url` in the `=IMPORTHTML()` function?

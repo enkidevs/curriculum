@@ -6,6 +6,10 @@ links:
   - >-
     [Git
     Basics](http://git-scm.com/book/en/v2/Git-Basics-Viewing-the-Commit-History){documentation}
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # View your commit history in a graph

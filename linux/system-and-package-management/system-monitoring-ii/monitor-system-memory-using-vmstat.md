@@ -1,12 +1,16 @@
 ---
 author: aakarsh
 type: normal
-category: how to
+category: how-to
 tags:
   - vmstat
   - memory
   - monitor
   - metrics
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Monitor System Memory using `vmstat`

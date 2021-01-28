@@ -1,13 +1,21 @@
 ---
 author: pawel
 type: normal
-category: how to
+category: how-to
 tags:
   - introduction
 links:
   - >-
-    [stackoverflow.com](http://stackoverflow.com/questions/208105/how-to-remove-a-property-from-a-javascript-object){website}
+    [How do I remove a property from a JavaScript object?](https://stackoverflow.com/questions/208105/how-do-i-remove-a-property-from-a-javascript-object){website}
 notes: Hope it's not too basics?
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Deleting Properties
@@ -88,3 +96,4 @@ console.log(obj);
 - `{ one: undefined }`
 - `{ one: null }`
 - `{ }`
+ 

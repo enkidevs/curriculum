@@ -1,20 +1,28 @@
 ---
 author: Stefan-Stojanovic
-
 type: normal
-
 category: must-know
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Multiple Initializations
 
+
 ---
+
 ## Content
 
 An important exception when initializing multiple variables at once is that you cannot add more than one data type.
 
 Here are some examples:
+
 ```go
 // this doesn't work
 var age int, name string, isAdult bool = 26, "Stefan", true
@@ -52,7 +60,9 @@ func main() {
 // 26 Stefan true
 ```
 
+
 ---
+
 ## Practice
 
 Is this initialization correct?
@@ -66,7 +76,9 @@ var age int, isAdult bool = 28, true
 - No
 - Yes
 
+
 ---
+
 ## Revision
 
 Which of these is not a correct way of initializing variables?

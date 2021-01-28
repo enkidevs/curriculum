@@ -4,6 +4,14 @@ type: normal
 category: must-know
 links:
   - '[More on Enum](https://docs.python.org/3/library/enum.html){website}'
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # The `enum` collection
@@ -128,3 +136,4 @@ print(Car['bmw'])
 - An error, strings and ints cannot be mixed
 - 1
 - bmw
+ 

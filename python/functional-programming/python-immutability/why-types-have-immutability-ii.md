@@ -9,6 +9,10 @@ links:
   - >-
     [Blog post: Objects Should be
     Immutable](http://www.yegor256.com/2014/06/09/objects-should-be-immutable.html){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Prevention of Side Effects
@@ -51,3 +55,4 @@ class Connection(object):
 - Temporal coupling
 - Atomicity of failure
 - Identity mutation
+ 

@@ -1,18 +1,26 @@
-﻿---
+---
 author: Stefan-Stojanovic
-
 type: normal
-
-category: how to
-
+category: how-to
 links:
-  - '[Sample Data](https://www.learningcontainer.com/sample-excel-data-for-analysis#Sample_Xlsx_file_download-2){website}'
-
+  - >-
+    [Sample
+    Data](https://www.learningcontainer.com/sample-excel-data-for-analysis#Sample_Xlsx_file_download-2){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Creating Pivot Tables
 
+
 ---
+
 ## Content
 
 Before creating our first pivot table, we're going to need some data.
@@ -39,7 +47,9 @@ Clicking anywhere on the empty pivot table will open the `Pivot table editor` on
 
 This is used to add rows and columns to the pivot table, which we'll go over in the next insight.
 
+
 ---
+
 ## Practice
 
 Creating pivot tables is done from which tab?
@@ -51,7 +61,9 @@ Creating pivot tables is done from which tab?
 - Format
 - View
 
+
 ---
+
 ## Revision
 
 Before you can create a pivot table, you need ???.

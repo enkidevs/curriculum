@@ -2,11 +2,18 @@
 author: mihaiberq
 type: normal
 category: must-know
-inAlgoPool: false
 links:
   - >-
     [How interfaces impact the
     code](http://stackoverflow.com/questions/504904/is-there-more-to-an-interface-than-having-the-correct-methods){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Java Interfaces

@@ -1,15 +1,22 @@
 ---
 author: Stefan-Stojanovic
-
 type: normal
-
-category: how to
-
+category: how-to
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Assignment Operators
 
+
 ---
+
 ## Content
 
 Assignment operators are used to assign values to variables.
@@ -19,15 +26,16 @@ Unlike other operators, assignment operators work from right-to-left.
 There are a total of six assignment operators:
 
 | Operator |                                     Definition                                    |
-|:--------:|:---------------------------------------------------------------------------------:|
+| :------: | :-------------------------------------------------------------------------------: |
 |     =    |            Assigns the values from the right side to the left variable            |
 |    +=    |         Adds the right and left value and assigns it to the left variable         |
 |    -=    | Subtracts the left value from the right value and assigns it to the left variable |
 |    *=    |      Multiplies the right and left value and assigns it to the left variable      |
 |    /=    |  Divides the right value from the left value and assigns it to the left variable  |
 |    %=    |  Takes the modulo of the right and left value and assigns it to the left variable |
- 
+
 Here is an example of all assignment operators.
+
 ```go
 func main() {
   var x = 15
@@ -60,7 +68,9 @@ func main() {
 }
 ```
 
+
 ---
+
 ## Practice
 
 Use assignment operators to make the equations true.
@@ -83,6 +93,7 @@ x ??? y // x = 25
 
 
 ---
+
 ## Revision
 
 Use assignment operators to make the equations true.
@@ -100,7 +111,6 @@ x ??? z // x = 2
 ```
 
 - -=
-- =
+- +=
 - /=
 - %=
-- +=

@@ -1,10 +1,18 @@
 ---
 author: fsites
 type: normal
-category: best practice
+category: best-practice
 tags:
   - obscura
   - introduction
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Double & Single Quotes
@@ -49,3 +57,4 @@ JSON standard requires every string to be ??? quoted.
 
 - double
 - single
+ 

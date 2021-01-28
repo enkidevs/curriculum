@@ -6,6 +6,14 @@ links:
   - >-
     [Python
     debugger](https://www.digitalocean.com/community/tutorials/how-to-use-the-python-debugger){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Python Debugger Methods
@@ -142,3 +150,4 @@ python3 -m pdb debug.py
 -> num_list = [1, 2]
 (Pdb)
 ```
+ 

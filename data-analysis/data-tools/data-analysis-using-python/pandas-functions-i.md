@@ -1,20 +1,28 @@
 ---
 author: emmab
-
 tags:
   - introduction
-
 type: normal
-
 category: must-know
-
 links:
-  - '[Pandas Functions](https://pandas.pydata.org/pandas-docs/stable/reference/general_functions.html){website}'
-
+  - >-
+    [Pandas
+    Functions](https://pandas.pydata.org/pandas-docs/stable/reference/general_functions.html){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
+
 # Pandas Functions I
 
+
 ---
+
 ## Content
 
 Once you've set up your Jupyter workspace and imported some libraries you're nearly ready to explore some data.
@@ -57,7 +65,9 @@ products_data.shape
 
 Check out the **Learn More** link to discover some other useful functions like `tail()`, `columns`, `dtypes` and others!
 
+
 ---
+
 ## Practice
 
 How could you quickly check the number of rows and columns in a data set?
@@ -71,7 +81,9 @@ data_set.???
 - dimensions
 - head
 
+
 ---
+
 ## Revision
 
 How can you return the first 5 rows of data?
@@ -85,10 +97,11 @@ data_set.???(???)
 - first
 - take
 
+
 ---
+
 ## Footnotes
 
 [1:DataFrame]
 
 DataFrame is a 2-dimensional labeled data structure with columns of potentially different types. You can think of it like a spreadsheet or SQL table, or a dict of Series objects. It is generally the most commonly used pandas object.
- 

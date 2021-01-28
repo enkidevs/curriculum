@@ -9,6 +9,14 @@ links:
   - >-
     [A Demo of APL from
     1975](https://www.youtube.com/watch?v=_DTpQ4Kk2wA){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # chain(), filterfalse() and compress()
@@ -135,3 +143,4 @@ print(
 - `['Tom', 'Sadiq', 'Lars', 'Lee', 'Jean', 'Tom']`
 - `['Sadiq', 'Jean', 'Sadiq', 'Jean', 'Sadiq', 'Jean']`
 - `<itertools.islice object at 0x????????>`
+ 

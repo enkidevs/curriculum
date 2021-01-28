@@ -1,13 +1,17 @@
 ---
 author: catalin
-
 type: normal
-
-category: how to
-
+category: how-to
 links:
   - '[queue](https://docs.python.org/3/library/queue.html){documentation}'
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Prioritize your `queue`
@@ -127,3 +131,4 @@ q = queue.PriorityQueue()
 
 [1: Less than]
 The `__lt__` (less than) method is used to override the functionality of the `<` (less than) operator when comparing `Enki` objects. As it is the case in most languages, `a < b` is the shorthand notation of calling `a.__lt__(b)`.
+ 

@@ -5,6 +5,14 @@ category: must-know
 links:
   - >-
     [docs.python.org](https://docs.python.org/3.5/tutorial/classes.html#instance-objects){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Instance objects
@@ -106,3 +114,4 @@ max.age = 3
 
 - Yes
 - No
+ 

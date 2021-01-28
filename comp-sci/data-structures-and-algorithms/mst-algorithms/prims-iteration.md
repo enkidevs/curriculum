@@ -2,6 +2,14 @@
 author: mihaiberq
 type: normal
 category: must-know
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Prim's Algorithm Iteration
@@ -75,4 +83,3 @@ Prim's algorithm uses
 - a dynamic approach
 - a divide and conquer approach
 - no particular approach
- 

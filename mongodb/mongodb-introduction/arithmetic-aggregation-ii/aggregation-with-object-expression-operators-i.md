@@ -2,6 +2,10 @@
 author: Stefan-Stojanovic
 type: normal
 category: feature
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Aggregation With Object Expression Operators

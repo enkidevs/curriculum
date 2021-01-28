@@ -7,6 +7,14 @@ links:
     [pymbook.readthedocs.org](http://pymbook.readthedocs.org/en/latest/collections.html){website}
   - >-
     [docs.python.org](https://docs.python.org/3.5/library/collections.html){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Get more with `collections` !
@@ -57,3 +65,4 @@ Which collections class is used for defining a meaning for every position in a t
 - `namedtuple`
 - `definetuple`
 - `definitiontuple`
+ 

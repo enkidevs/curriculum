@@ -1,7 +1,11 @@
 ---
 author: Stefan-Stojanovic
 type: normal
-category: how to
+category: how-to
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # AND
@@ -68,4 +72,3 @@ In the second image, the red highlighted argument evaluates to `FALSE` so the wh
 
 - All positive and negative numbers except 0 logically evaluate to `TRUE`, 0 evaluates to `FALSE`.
 - You do not have to only compare cells, you can also input anything you want in the formula.
- 

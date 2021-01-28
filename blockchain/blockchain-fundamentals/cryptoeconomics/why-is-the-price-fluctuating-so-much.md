@@ -2,6 +2,14 @@
 author: mihaiberq
 type: normal
 category: must-know
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Why Is the Price Fluctuating so Much?
@@ -47,4 +55,3 @@ What is the metric that describes how valuable a is cryptocurrency?
 - Circulating supply
 - Node investment
 - Volume
- 

@@ -1,7 +1,15 @@
 ---
 author: AlexYancey
 type: normal
-category: how to
+category: how-to
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Get a Random Item From an Array
@@ -90,3 +98,4 @@ console.log(
 
 [1:Explanation]
 The `Math.random()` function returns a random number between 0 and 1 (inclusive of 0 but non-inclusive of 1). By multiplying this with the length of the array (`3`), we will return a random number `x` which has the following bounds `0 < x < 2.99999...`. If we call `Math.floor()` to `x`, the result will be a random number between `0` and `2` inclusively.
+ 

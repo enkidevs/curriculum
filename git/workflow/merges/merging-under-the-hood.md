@@ -6,6 +6,10 @@ links:
   - >-
     [Git Merge
     Tutorial](https://www.atlassian.com/git/tutorials/using-branches/git-merge){website}
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Merging under the hood
@@ -50,4 +54,3 @@ What flag can be used such that fast-forward merge is not used even if its possi
 - `-n-ff`
 - `ff-n`
 - `--twm`
- 

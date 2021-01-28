@@ -6,6 +6,10 @@ links:
   - >-
     [What is a data
     structure?](http://www.bbc.co.uk/education/guides/z4tf9j6/revision/1){website}
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # What is a Data Structure?
@@ -47,4 +51,3 @@ What is a data structure?
 - A pattern for sorting information.
 - A pattern for inserting information.
 - An array of information.
- 

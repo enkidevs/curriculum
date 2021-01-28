@@ -1,7 +1,7 @@
 ---
 author: priyankinirmal
 type: normal
-category: how to
+category: how-to
 tags:
   - css
   - background-repeat
@@ -11,6 +11,14 @@ links:
   - >-
     [MDN Docs on Background
     Repeat](https://developer.mozilla.org/en-US/docs/Web/CSS/background-repeat){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Use `background-repeat` to repeat a background image horizontally or vertically

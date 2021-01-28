@@ -6,6 +6,14 @@ links:
   - >-
     [Structure of a
     Stylesheet](http://sass-lang.com/documentation/file.SASS_REFERENCE.html#sassscript){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Using SassScripts Interactive Shell

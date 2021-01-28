@@ -1,7 +1,7 @@
 ---
 author: jordanfish
 type: normal
-category: how to
+category: how-to
 links:
   - >-
     [Tutorial on Pseudo Classes &
@@ -10,6 +10,10 @@ links:
   - >-
     [MDN Docs on
     :nth-child](https://developer.mozilla.org/en-US/docs/Web/CSS/:nth-child){documentation}
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # The `nth-child` Property

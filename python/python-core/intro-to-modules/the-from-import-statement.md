@@ -6,6 +6,14 @@ links:
   - >-
     [from...import in
     depth](https://www.tutorialspoint.com/python3/python_modules.htm){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # The from...import statement
@@ -134,3 +142,15 @@ calculate_volume(radius, height)
 - `__name__`
 - `cylinder:`
 - `def`
+
+
+---
+
+## Footnotes
+
+[1:Namespace]
+
+As you already know, in Python, everything (count modules, classes, functions, literals etc.) is an *object*. All these objects are referred to using a name.
+
+**Namespace** is the mapping done between *available objects* and their respective *names*.
+ 

@@ -1,7 +1,7 @@
 ---
 author: catalin
 type: normal
-category: how to
+category: how-to
 links:
   - >-
     [Destructuring
@@ -9,6 +9,14 @@ links:
   - >-
     [Destructuring objects as function
     parameters](https://simonsmith.io/destructuring-objects-as-function-parameters-in-es6/){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Destructuring arguments

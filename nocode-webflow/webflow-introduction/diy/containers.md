@@ -1,7 +1,11 @@
 ---
 author: Stefan-Stojanovic
 type: normal
-category: how to
+category: how-to
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Containers
@@ -56,4 +60,3 @@ Which sentence about containers is not true?
 - Containers cannot be nested
 - Containers are used to group a bunch of elements together for easier positioning, styling, text editing and more.
 - By default all elements in a container are centered relative to the window they're being viewed on.
- 

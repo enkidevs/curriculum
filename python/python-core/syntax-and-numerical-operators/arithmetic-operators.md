@@ -8,6 +8,14 @@ links:
   - >-
     [Python
     division](http://stackoverflow.com/questions/2958684/python-division){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Arithmetic Operators

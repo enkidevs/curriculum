@@ -1,7 +1,7 @@
 ---
 author: tuwidc
 type: normal
-category: how to
+category: how-to
 tags:
   - software
   - apt-get
@@ -10,6 +10,10 @@ tags:
   - terminal
   - server
   - ubuntu
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Using `PPAs`

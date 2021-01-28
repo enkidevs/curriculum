@@ -2,6 +2,14 @@
 author: mihaiberq
 type: normal
 category: must-know
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Proof of Work (PoW)
@@ -68,4 +76,3 @@ Which mining validation technique is the most resource intensive for miners?
 - Proof of stake
 - Proof of burn
 - Proof of sweat
- 

@@ -11,6 +11,14 @@ links:
     [www.javapractices.com](http://www.javapractices.com/topic/TopicAction.do?Id=119){website}
   - >-
     [www.javapractices.com](http://www.javapractices.com/topic/TopicAction.do?Id=223){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # The distinction between overloading and overriding methods

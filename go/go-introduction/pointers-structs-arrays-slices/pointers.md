@@ -1,15 +1,22 @@
-﻿---
+---
 author: Stefan-Stojanovic
-
 type: normal
-
-category: how to
-
+category: how-to
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Pointers
 
+
 ---
+
 ## Content
 
 Pointers are used to store memory addresses of a particular value.
@@ -74,7 +81,9 @@ func main() {
 }
 ```
 
+
 ---
+
 ## Practice
 
 Which statement is false about pointers in **Go**?
@@ -86,7 +95,9 @@ Which statement is false about pointers in **Go**?
 - `The * is used to dereference a pointers variable.`
 - `The & is used to find the address of a variable.`
 
+
 ---
+
 ## Revision
 
 The ??? character is used to reference and dereference a pointers variable.

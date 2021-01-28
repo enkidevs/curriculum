@@ -1,12 +1,20 @@
 ---
 author: catalin
 type: normal
-category: how to
+category: how-to
 links:
   - '[pymotw.com](https://pymotw.com/2/collections/counter.html){website}'
 notes: >-
   Insight is correct, But should give a few examples of common counter methods
   like most_common(), elements(), etc.
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # How to count

@@ -2,7 +2,6 @@
 author: mihaiberq
 type: normal
 category: must-know
-inAlgoPool: false
 links:
   - >-
     [MDN Docs on
@@ -10,6 +9,14 @@ links:
   - >-
     [Scrimba CSS Selectors, Properties &
     Values](https://scrimba.com/p/pWvwCg/cpKbvTV){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # CSS Declaration

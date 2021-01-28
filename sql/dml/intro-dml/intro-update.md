@@ -1,17 +1,22 @@
 ---
 author: kapnobatai136
-
 type: normal
-
 category: must-know
-
 tags:
   - introduction
   - update
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # UPDATE
+
 
 ---
 
@@ -22,7 +27,7 @@ On second thought, you realize that you don't enjoy pineapples that much.
 Using the same `fruits` table:
 
 | id | name      |
-|----|-----------|
+| -- | --------- |
 | 1  | Raspberry |
 | 2  | Pineapple |
 
@@ -42,11 +47,12 @@ WHERE
 Done 🎉. The `fruits` table now looks like this:
 
 | id | name      |
-|----|-----------|
+| -- | --------- |
 | 1  | Raspberry |
 | 2  | Grape     |
 
 > 💡 This is a short introduction to the `UPDATE` keyword. We'll explain how everything works in the following workouts.
+
 
 ---
 
@@ -58,6 +64,7 @@ Modifying the value of an existing column is done using the ??? keyword.
 - INSERT
 - SELECT
 - FROM
+
 
 ---
 

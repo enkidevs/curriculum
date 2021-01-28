@@ -9,6 +9,14 @@ tags:
   - introduction
   - workout
   - deep
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Passing through command line arguments in npm scripts

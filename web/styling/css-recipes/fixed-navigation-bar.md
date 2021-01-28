@@ -1,10 +1,18 @@
 ---
 author: nene
 type: normal
-category: how to
+category: how-to
 tags:
   - navigation
   - layout
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Fixed navigation bar

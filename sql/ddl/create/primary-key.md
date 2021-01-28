@@ -2,7 +2,6 @@
 author: kapnobatai136
 type: normal
 category: must-know
-inAlgoPool: false
 tags:
   - introduction
   - primary key
@@ -11,6 +10,14 @@ links:
   - >-
     [Column
     Constraints](https://en.wikibooks.org/wiki/Structured_Query_Language/Create_Table#Column_Constraint){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Primary Key

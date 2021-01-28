@@ -6,6 +6,14 @@ links:
   - >-
     [Lists and
     keys](https://facebook.github.io/react/docs/lists-and-keys.html){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Rendering multiple components

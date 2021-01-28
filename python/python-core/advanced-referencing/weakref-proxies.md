@@ -4,6 +4,14 @@ type: normal
 category: tip
 links:
   - '[pymotw.com](https://pymotw.com/2/weakref/#proxies){website}'
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # `weakref` proxies
@@ -66,3 +74,4 @@ What’s the difference between using `ref` and `proxy` from `weakref`?
 
 - Ref must be dereferenced in order to access the object while Proxies don't have to be.
 - Ref can be used without calling the proxy first to access the object.
+ 

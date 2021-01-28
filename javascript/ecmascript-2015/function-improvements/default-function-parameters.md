@@ -8,6 +8,14 @@ tags:
 links:
   - >-
     [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Default_parameters){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Default function parameters
@@ -76,3 +84,4 @@ console.log(square());
 - error
 - undefined
 - null
+ 

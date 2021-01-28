@@ -1,15 +1,22 @@
 ---
 author: kapnobatai136
-
 type: normal
-
 category: must-know
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Accessing Dictionary Elements
 
+
 ---
+
 ## Content
 
 Compared to lists, dictionaries are **non-sequential**. This means that a dictionary item doesn't have a position.
@@ -40,7 +47,9 @@ my_dog["age"]
 
 This is usually referred to as **bracket notation**.
 
+
 ---
+
 ## Practice
 
 Extract the value for the `color` key using **dot notation**:
@@ -61,7 +70,9 @@ my_dog??????
 - ,
 - "yellow"
 
+
 ---
+
 ## Revision
 
 Extract the value for the `name` key using **bracket notation**:

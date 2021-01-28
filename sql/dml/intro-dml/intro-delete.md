@@ -1,17 +1,22 @@
 ---
 author: kapnobatai136
-
 type: normal
-
 category: must-know
-
 tags:
   - introduction
   - update
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # DELETE
+
 
 ---
 
@@ -33,10 +38,11 @@ WHERE
 That's it, no more raspberries:
 
 | id | name  |
-|----|-------|
+| -- | ----- |
 | 2  | Grape |
 
 > 💡 This is a short introduction to the `DELETE` keyword. We'll explain how everything works in the following workouts.
+
 
 ---
 
@@ -50,6 +56,7 @@ Removing records from a table is done using which keyword?
 - REMOVE
 - SELECT
 - UPDATE
+
 
 ---
 
@@ -68,6 +75,7 @@ Remove the record that has `3` as `id` from the `managers` table:
 - WHERE
 - DELETE
 
+
 ---
 
 ## Footnotes
@@ -76,6 +84,6 @@ Remove the record that has `3` as `id` from the `managers` table:
 Here is how the `fruits` table looked like where we left off:
 
 | id | name      |
-|----|-----------|
+| -- | --------- |
 | 1  | Raspberry |
 | 2  | Grape     |

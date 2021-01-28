@@ -1,15 +1,18 @@
-﻿---
+---
 author: Stefan-Stojanovic
-
 type: normal
-
-category: how to
-
+category: how-to
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Changing Your Chart's Type
 
+
 ---
+
 ## Content
 
 To change the type of the chart, click on the three dots located at the top right of the chart and select `Edit chart`.
@@ -30,12 +33,14 @@ After selecting an option, the chart is instantly updated:
 
 ![update-charts](https://img.enkipro.com/d4c85e725ef4e7d49b0309cae383fe37.gif)
 
+
 ---
+
 ## Practice
 
 Can you change the type of the chart without creating a new one?
 
 ???
 
-* Yes
-* No
+- Yes
+- No

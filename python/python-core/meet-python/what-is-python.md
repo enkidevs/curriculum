@@ -6,6 +6,14 @@ type: normal
 category: must-know
 links:
   - '[What is Python?](https://www.python.org/doc/essays/blurb/){website}'
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Python Intro
@@ -65,3 +73,4 @@ Python is both a ??? and general-purpose programming language.
 
 [1:Syntax]
 The syntax is the set of rules that define how a program will be written and interpreted. It covers the symbols, indentation and keywords of the language. All programming languages use different syntax.
+ 

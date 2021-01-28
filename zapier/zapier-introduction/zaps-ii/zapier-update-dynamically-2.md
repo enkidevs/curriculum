@@ -2,6 +2,14 @@
 author: kapnobatai136
 category: feature
 type: normal
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Update Dynamically 2
@@ -51,4 +59,3 @@ To dynamically change data for every iteration of the zap, you need to add a ???
 - search
 - find
 - filter
- 

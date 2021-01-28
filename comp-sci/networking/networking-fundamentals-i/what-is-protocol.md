@@ -1,17 +1,23 @@
 ---
 author: catalin
-
 type: normal
-
 category: must-know
-
 links:
   - >-
-    [Transmission Control Protocol](https://www.tutorialspoint.com/internet_technologies/internet_protocols.htm){website}
-
+    [Transmission Control
+    Protocol](https://www.tutorialspoint.com/internet_technologies/internet_protocols.htm){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # What Is a Protocol?
+
 
 ---
 
@@ -80,4 +86,3 @@ According to the **OSI model** (used for computer systems communication standard
 These layers range from a low-level **Physical Layer** to a high-level **Application Layer**.
 
 Any protocol can be pinpointed to a specific layer. For example, the `HTTP` protocol is situated on the **Session Layer** that manages continuous exchange of information.
- 

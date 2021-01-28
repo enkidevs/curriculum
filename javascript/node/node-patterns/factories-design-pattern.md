@@ -1,7 +1,7 @@
 ---
 author: catalin
 type: normal
-category: best practice
+category: best-practice
 tags:
   - workout
   - deep
@@ -9,6 +9,14 @@ links:
   - >-
     [blog.risingstack.com](https://blog.risingstack.com/fundamental-node-js-design-patterns/){website}
   - '[thenodeway.io](http://thenodeway.io/posts/designing-factories/){website}'
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Factories design pattern

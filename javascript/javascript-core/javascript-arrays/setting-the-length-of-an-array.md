@@ -5,10 +5,17 @@ category: hack
 tags:
   - introduction
   - obscura
-
 links:
   - >-
     [Array Holes](https://medium.com/better-programming/what-are-holes-in-arrays-3ac5fcbcd1c){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Setting the Length of an Array
@@ -98,3 +105,4 @@ names.length = 0;
 - `[ ]`
 - `[undefined,undefined,undefined, undefined]`
 - `["John","Mary","Tom"]`
+ 

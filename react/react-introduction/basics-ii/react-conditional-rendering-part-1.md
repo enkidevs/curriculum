@@ -1,11 +1,19 @@
 ---
 author: catalin
 type: normal
-category: how to
+category: how-to
 links:
   - >-
     [Conditional
     rendering](https://facebook.github.io/react/docs/conditional-rendering.html){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Conditional rendering (Part 1)
@@ -115,6 +123,7 @@ Which JS capabilities are commonly used in **React** for **conditional rendering
 - the renderIf special method
 - the renderIfElse special method
 - you can't conditional render in React
+
 
 ---
 

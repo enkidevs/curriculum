@@ -4,6 +4,14 @@ type: normal
 category: feature
 links:
   - '[www.sitepoint.com](http://www.sitepoint.com/html5-geolocation/){website}'
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Geolocation
@@ -96,3 +104,4 @@ navigator.???.???(
 - watch
 - listen
 - onChange
+ 

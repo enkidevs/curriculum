@@ -1,7 +1,15 @@
 ---
 author: Stefan-Stojanovic
 type: normal
-category: best practice
+category: best-practice
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Projection

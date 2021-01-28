@@ -1,30 +1,31 @@
 ---
 author: nene
-
 levels:
-
   - basic
-
   - advanced
-
   - medium
-
 type: normal
-
-category: how to
-
+category: how-to
 tags:
-
   - template strings
-
 links:
-
-  - '[MDN](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/template_strings){website}'
-
+  - >-
+    [MDN](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/template_strings){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
+
 # Template Strings
 
+
 ---
+
 ## Content
 
 String templating lets you evaluate JavaScript expressions inside a string expression when they are wrapped in `${}`.
@@ -49,7 +50,9 @@ console.log(`foo ${fn()} bar`);
 //=> foo I am the result. Rarr bar.
 ```
 
+
 ---
+
 ## Practice
 
 Complete the code snippet using template strings:
@@ -62,17 +65,21 @@ function pr() {
 console.log('Time ???{???()} Python!'); 
 // Time to practice my Python!
 ```
-* $
-* pr
-* £
-* &
-* fn
-* func
+
+- $
+- pr
+- £
+- &
+- fn
+- func
+
 
 ---
+
 ## Revision
 
 Using string templating, print the value of `a`:
+
 ```javascript
 let a = 'enki';
 console.log(`
@@ -80,14 +87,14 @@ console.log(`
 `);
 ```
 
-* $
-* a
-* template
-* %
-* (
-* {
-* )
-* }
-* string
-* enki
+- $
+- a
+- template
+- %
+- (
+- {
+- )
+- }
+- string
+- enki
  

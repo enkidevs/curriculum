@@ -1,15 +1,22 @@
 ---
 author: Stefan-Stojanovic
-
 type: normal
-
-category: how to
-
+category: how-to
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # More on `for` Loops
 
+
 ---
+
 ## Content
 
 The `for` loops initial and post statements can be omitted. 
@@ -56,6 +63,7 @@ The value of sum is:  3
 ### Infinite loop
 
 An infinite loop is created when you omit the conditional.
+
 ```go
 sum := 0
 for i := 0; ; i++ {
@@ -88,6 +96,7 @@ for sum < 50 {
 ```
 
 Output:
+
 ```go
 The value of sum is:  2
 The value of sum is:  4
@@ -97,7 +106,9 @@ The value of sum is:  32
 The value of sum is:  64
 ```
 
+
 ---
+
 ## Practice
 
 Match the loop letter with the name.
@@ -134,7 +145,9 @@ C: ???
 - while loop
 - infinite loop
 
+
 ---
+
 ## Revision
 
 Create a while loop that will add `num` to itself until `num` is less than or equal to `1000`.

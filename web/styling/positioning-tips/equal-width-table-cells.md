@@ -4,6 +4,10 @@ type: normal
 category: hack
 links:
   - '[CSS Pro Tips](https://github.com/AllThingsSmitty/css-protips){website}'
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Equal width table cells

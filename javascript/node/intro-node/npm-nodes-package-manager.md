@@ -6,6 +6,14 @@ tags:
   - introduction
 links:
   - '[npmjs.com](https://www.npmjs.com/){website}'
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # NPM, Node's Package Manager

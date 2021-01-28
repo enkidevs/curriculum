@@ -1,13 +1,17 @@
 ---
 author: koenvanlent
 type: normal
-category: how to
+category: how-to
 tags:
   - fonts
   - css
   - font-family
 links:
   - '[Google Fonts](https://www.google.com/fonts){website}'
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # A great font resource: Google Font API

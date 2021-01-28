@@ -8,6 +8,14 @@ tags:
   - regex
   - intro
 notes: ''
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Short intro to `grep`

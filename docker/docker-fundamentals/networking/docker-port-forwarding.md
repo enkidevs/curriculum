@@ -6,6 +6,14 @@ links:
   - >-
     [Binding Docker
     Ports](https://runnable.com/docker/binding-docker-ports){article}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Port Forwarding

@@ -1,15 +1,22 @@
 ---
 author: Stefan-Stojanovic
-
 type: normal
-
-category: how to
-
+category: how-to
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # `if..else`
 
+
 ---
+
 ## Content
 
 An `if-else` statement is used to execute some code if the condition is `true` and another if it is `false`.
@@ -37,9 +44,12 @@ if x := 1 ; x > 0 {
 // Output:
 // 1 is positive
 ```
+
 Now, we would have only one output.
 
+
 ---
+
 ## Practice
 
 Complete the code in the `if-else` statement using the shorthand notation. Then, print a positive result if `true` and a negative if `false`.
@@ -59,7 +69,9 @@ if ??? ; x > 0 {
 - var x : = 1
 - var x = 1
 
+
 ---
+
 ## Revision
 
 `if-else` statements are used ???

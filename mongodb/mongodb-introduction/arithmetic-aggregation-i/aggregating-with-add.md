@@ -1,7 +1,11 @@
 ---
 author: Stefan-Stojanovic
 type: normal
-category: how to
+category: how-to
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Aggregating With `$add`

@@ -1,15 +1,22 @@
 ---
 author: Stefan-Stojanovic
-
 type: normal
-
-category: how to
-
+category: how-to
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # `if` Using Shorthand Declaration
 
+
 ---
+
 ## Content
 
 Just like in the `for` loop, you can create a variable using shorthand declaration before the condition of the `if` statement.
@@ -40,7 +47,9 @@ In this case, we don't need the `y := 2;` declaration. Adding it was just to sho
 
 > 💡 It's important that both `x` and `y` have the same data type. Otherwise, math operations won't work.
 
+
 ---
+
 ## Practice
 
 Complete the code by adding a new variable in the if statement using the shorthand notation. Then, return the result in the form of a string.
@@ -64,7 +73,9 @@ evenOrOdd(71)
 - var y = 2
 - oddOrEven
 
+
 ---
+
 ## Revision
 
 When you define a variable in an `if` statement, the variable is valid ???

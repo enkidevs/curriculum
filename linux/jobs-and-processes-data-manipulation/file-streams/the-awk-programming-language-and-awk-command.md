@@ -2,9 +2,16 @@
 author: jfarmer
 type: normal
 category: must-know
-inAlgoPool: false
 links:
   - '[AWK one-liners](http://www.pement.org/awk/awk1line.txt){website}'
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # The AWK Programming Language And `awk` Command

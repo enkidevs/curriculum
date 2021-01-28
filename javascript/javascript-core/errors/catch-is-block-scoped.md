@@ -6,6 +6,14 @@ tags:
   - workout
   - deep
   - obscura
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # `catch` Is Block Scoped

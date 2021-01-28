@@ -1,7 +1,7 @@
 ---
 author: SebaRaba
 type: exercise
-category: best practice
+category: best-practice
 links:
   - >-
     [link to deeper dive blog

@@ -6,6 +6,14 @@ tags:
   - deep
   - workout
   - obscura
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # JavaScript Compilation
@@ -93,3 +101,4 @@ function foo(){ // foo is in global
 - foo
 - fee
 - local
+ 

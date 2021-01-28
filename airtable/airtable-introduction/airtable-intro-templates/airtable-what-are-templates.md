@@ -4,6 +4,14 @@ category: must-know
 type: normal
 links:
   - '[Templates](https://airtable.com/templates){website}'
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # What Are Templates?
@@ -50,4 +58,3 @@ To get started more quickly with Airtable, you can use pre-built data collection
 - templates
 - patterns
 - impressions
- 

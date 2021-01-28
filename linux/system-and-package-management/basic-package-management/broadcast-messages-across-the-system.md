@@ -1,7 +1,7 @@
 ---
 author: tuwidc
 type: normal
-category: how to
+category: how-to
 tags:
   - bash
   - write
@@ -9,6 +9,10 @@ tags:
   - broadcast
   - messages
 notes: ''
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Broadcast messages across the system
@@ -44,4 +48,3 @@ This command allows you to broadcast a message to all users logged in to the sys
 - `wall`
 - `shout`
 - `bcast`
- 

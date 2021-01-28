@@ -1,7 +1,11 @@
 ---
 author: Stefan-Stojanovic
 type: normal
-category: how to
+category: how-to
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Order of Operations
@@ -66,4 +70,3 @@ What operation comes after exponents, and before subtraction?
 - Multiplication
 - Parentheses
 - No operations do
- 

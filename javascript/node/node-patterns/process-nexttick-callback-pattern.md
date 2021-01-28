@@ -1,11 +1,19 @@
 ---
 author: catalin
 type: normal
-category: best practice
+category: best-practice
 tags:
   - workout
   - deep
   - obscura
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # `process.nextTick()` callback pattern

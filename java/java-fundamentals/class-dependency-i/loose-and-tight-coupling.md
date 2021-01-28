@@ -6,6 +6,14 @@ links:
   - >-
     [Coupling and
     Cohesion](https://stackoverflow.com/questions/3085285/cohesion-coupling){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Loose and Tight Coupling

@@ -2,6 +2,14 @@
 author: Stefan-Stojanovic
 type: normal
 category: must-know
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Tags in HTML
@@ -109,4 +117,3 @@ Which language requires HTML tags to be written in lowercase and has influenced 
 - HTML1
 - HTML4
 - CSS
- 

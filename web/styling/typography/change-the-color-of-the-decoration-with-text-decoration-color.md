@@ -1,7 +1,7 @@
 ---
 author: Mathieu
 type: normal
-category: how to
+category: how-to
 links:
   - >-
     [MDN Docs on Text
@@ -9,6 +9,10 @@ links:
   - >-
     [More Control Over Text
     Decoration](https://css-tricks.com/more-control-over-text-decoration/){website}
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Change the color of the decoration with `text-decoration-color`

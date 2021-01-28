@@ -1,9 +1,17 @@
 ---
 author: catalin
 type: normal
-category: how to
+category: how-to
 links:
   - '[github.com](https://github.com/expressjs/morgan){website}'
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Log with `morgan` in **Express**

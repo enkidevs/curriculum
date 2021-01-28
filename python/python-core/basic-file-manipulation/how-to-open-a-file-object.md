@@ -1,11 +1,19 @@
 ---
 author: SebaRaba
 type: normal
-category: how to
+category: how-to
 links:
   - >-
     [More about open()
     function](https://www.tutorialspoint.com/python3/python_files_io.htm){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # How to open a file object
@@ -100,3 +108,4 @@ file.???('this is my new file')
 - `write`
 - `r`
 - `read`
+ 

@@ -6,6 +6,10 @@ links:
   - >-
     [Step-by-step, interactive Kruskal`s algorithm
     application](https://www-m9.ma.tum.de/graph-algorithms/mst-prim/index_en.html){website}
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Prim's Algorithm
@@ -96,4 +100,3 @@ The maximal number of edges of a directed graph is `|V|×|V-1|`, while for an un
 
 [2: Graph Representation]
 If you remember the first Data Structure and Algorithm insight, we said that different data structures are optimized for different types of operations.
- 

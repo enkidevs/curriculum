@@ -1,20 +1,23 @@
 ---
 author: kapnobatai136
-
 type: normal
-
 category: must-know
-
 tags:
   - introduction
   - foreign key
   - workout
- 
 links:
   - >-
     [Foreign
     Key](https://en.wikibooks.org/wiki/Structured_Query_Language/Foreign_Key){website}
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Foreign Key
@@ -69,6 +72,7 @@ CREATE TABLE employees (
 Defining *constraints* such as a `FOREIGN KEY` usually starts with `CONSTRAINT` followed by the constraint name, which in our case is `department_fk`. Following this is the type of constraint, `FOREIGN KEY`, the name of the column, `department_id`, which `REFERENCES` another table, `departments`, and in parentheses is the *parent* column name, `id`.
 
 > 💡 The column from the *parent* table must be defined as either `PRIMARY KEY` or `UNIQUE`[1] for the relationship to work.
+
 
 ---
 

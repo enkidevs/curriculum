@@ -9,6 +9,14 @@ links:
   - >-
     [Node
     Modules](https://www.bennadel.com/blog/2169-where-does-node-js-and-require-look-for-modules.htm){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Requiring and Exporting

@@ -2,10 +2,17 @@
 author: alexjmackey
 type: normal
 category: must-know
-inAlgoPool: false
 links:
   - >-
     [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/raw){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # String.raw
@@ -84,3 +91,4 @@ Which `String` method is used to get the literal value of the string (without ap
 - format
 - rawLiteral
 - unformat
+ 

@@ -1,18 +1,24 @@
-﻿---
+---
 author: Stefan-Stojanovic
-
 aspects:
   - workout
-
 type: normal
-
-category: how to
-
+category: how-to
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # More on Slices
 
+
 ---
+
 ## Content
 
 Slices have a length and a capacity.
@@ -22,6 +28,7 @@ The length of a slice is the number of elements it can have.
 The capacity of a slice is the number of elements in the underlying array, counting from the first element of the slice.
 
 Take this slice for instance:
+
 ```go
 num := []int{2, 4, 8, 16, 32, 64}
 // length of 6 and capacity of 6
@@ -64,7 +71,9 @@ fmt.Println("capacity=", cap(num))
 
 ```
 
+
 ---
+
 ## Practice
 
 Slices have ???.
@@ -74,7 +83,9 @@ Slices have ???.
 - a width and capacity
 - a capacity and no length
 
+
 ---
+
 ## Revision
 
 The ??? method is used to get the length of a slice while the ??? method is used to get the capacity.
@@ -83,4 +94,3 @@ The ??? method is used to get the length of a slice while the ??? method is used
 - cap()
 - length()
 - capacity()
-

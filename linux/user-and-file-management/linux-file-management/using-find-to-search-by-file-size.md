@@ -1,21 +1,20 @@
 ---
 author: jfarmer
-
 type: normal
-
 category: must-know
-
 tags:
   - introduction
   - workout
-
 links:
-  - >- 
-    [ls manual page](https://man7.org/linux/man-pages/man1/ls.1.html){website}
-
+  - '[ls manual page](https://man7.org/linux/man-pages/man1/ls.1.html){website}'
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Using `find` To Search By File Size
+
 
 ---
 
@@ -44,7 +43,7 @@ find . -size +100M
 
 The `-exec` option tells `find` to execute a particular command for each result, replacing `{}` with the name of the file.
 
-The `\;` here means that the `ls -lh` command will be ran **separately** for each of the found files[1].
+The `\;` here means that the `ls -lh` command will be run **separately** for each of the found files[1].
 
 In this case, we'll call `ls -lh` for each file we find.
 
@@ -53,6 +52,7 @@ For `ls`, the `-l` option produces output that includes file size, file permissi
 The `-h` option tells `ls` to output the file sizes in a human-friendly format, i.e., `550M` for 550MB instead of `576716800` for 576716800 bytes.
 
 > 💡 You can use *any* command with `-exec`, not just `ls`.
+
 
 ---
 
@@ -73,6 +73,7 @@ Find all the files (in the current directory) of at least 1GB in size :
 - `+1GB`
 - `sudo`
 
+
 ---
 
 ## Footnotes
@@ -87,13 +88,14 @@ find . -size +100M
 ```
 
 Because we used `\;`, for **every file found**, this is what happens:
+
 - replace `{}` with the file's name
 - run the `ls -lh` command
 
-In this case, the command (`ls -lh`) will be ran for the same number of found files.
+In this case, the command (`ls -lh`) will be run for the same number of found files.
 
 You could also use `\+`, which appends all the found file names inside `{}`. Then, it calls `ls -lh` **for all the files** inside `{}`.
 
 In this case, the command (`ls -lh`) will have a total number of invocations less than the number of found files.
 
-You can read more about this in the [`find`'s manual page](https://man7.org/linux/man-pages/man1/find.1.html#EXPRESSION). You'll find the information regarding `exec` under the `ACTIONS` headline. 
+You can read more about this in the [`find`'s manual page](https://man7.org/linux/man-pages/man1/find.1.html#EXPRESSION). You'll find the information regarding `exec` under the `ACTIONS` headline.

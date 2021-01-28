@@ -4,6 +4,10 @@ type: normal
 category: must-know
 links:
   - '[Comparison Operators & If Else](https://youtu.be/7WkfzokHGqo){video}'
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # If Statement
@@ -88,3 +92,4 @@ if (condition <= 0) {
 - `switch`
 - `case`
 - `==`
+ 

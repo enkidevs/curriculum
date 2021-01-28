@@ -1,14 +1,10 @@
 ---
 author: mihaiberq
-
 type: normal
-
 category: must-know
-
 tags:
   - introduction
   - workout
-
 links:
   - >-
     [Left Outer
@@ -16,9 +12,18 @@ links:
   - >-
     [Right Outer
     Join](https://en.wikipedia.org/wiki/Join_(SQL)#Right_outer_join){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # LEFT & RIGHT JOINs
+
 
 ---
 

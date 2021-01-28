@@ -1,13 +1,21 @@
 ---
 author: catalin
 type: normal
-category: best practice
+category: best-practice
 links:
   - >-
     [docs.python.org](https://docs.python.org/3.5/tutorial/datastructures.html#using-lists-as-queues){website}
 notes: >-
   Insight content is correct. But the deque class has about 15 methods. Suggest
   adding a few examples of use of other methods.
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Best way to implement a simple `queue`
@@ -73,3 +81,4 @@ print(queue)
 - `append("e")`
 - `pop-left()`
 - `append-left("e")`
+ 

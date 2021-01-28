@@ -1,7 +1,11 @@
 ---
 author: Stefan-Stojanovic
 type: normal
-category: how to
+category: how-to
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Groups
@@ -46,4 +50,3 @@ Which sentence is **not** true about groups?
 - Groups are used to more easily organize data in a spreadsheet.
 - Groups can be applied to both rows and columns.
 - Groups can be nested.
- 

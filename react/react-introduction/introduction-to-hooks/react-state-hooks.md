@@ -1,9 +1,17 @@
 ---
 author: kapnobatai136
 type: normal
-category: how to
+category: how-to
 links:
   - '[State hooks](https://reactjs.org/docs/hooks-state.html){documentation}'
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # State hooks

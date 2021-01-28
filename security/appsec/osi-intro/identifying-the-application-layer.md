@@ -1,15 +1,19 @@
 ---
 author: milesflo
-
 type: normal
-
 category: must-know
-
 links:
   - >-
     [SANS
     Institute](https://www.sans.org/reading-room/whitepapers/protocols/applying-osi-layer-network-model-information-security-1309){website}
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Identifying the Application Layer
@@ -26,6 +30,7 @@ It can be considered a catch-all for anything outside of the concerns of the low
 This layer is represented by the user interface, which is responsible for displaying the information received.
 
 In the **Application Layer** live programs using protocols such as:
+
 - naming (DNS)
 - file transfer (HTTP, FTP)
 - messaging (SMTP, IRC)
@@ -35,6 +40,7 @@ In the **Application Layer** live programs using protocols such as:
 These programs are designed for human interaction (via GUI[1]) and utilize high-level functions that interact with the network.
 
 > 💡 Due to its high level of variance and loose security standards, this layer is the most vulnerable to exploits.
+
 
 ---
 
@@ -52,6 +58,7 @@ What role does the Application Layer play in the OSI 7 Layer Model?
 - Providing computational power via electronic circuits
 - Packaging data packets into data streams and vice versa for transport
 
+
 ---
 
 ## Revision
@@ -62,6 +69,18 @@ In the Application Layer is ???.
 - programs that use a GUI
 - programs that use TCP-based protocols
 - programs that do not require network access
+
+
+---
+
+## Footnotes
+
+[1: GUI]
+
+**GUI** (short for **graphical user interface**) is a system of interactive visual components for computer software.
+
+It allows users to interact with the software through graphical icons and audio indicators, instead of text-based user interfaces.
+
 
 ---
 
@@ -80,4 +99,3 @@ What role does the Application Layer play in the OSI 7 Layer Model?
 - Opening, closing, and managing connections between applications
 - Maintaining and ensuring a stable connection between two hosts over the Internet
 - Packaging data packets into data streams and vice versa for transport
- 

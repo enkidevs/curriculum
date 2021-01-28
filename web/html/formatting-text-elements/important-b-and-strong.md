@@ -12,6 +12,14 @@ links:
   - >-
     [HTML <strong>
     Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/strong){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Important ( `<b>` & `<strong>` )
@@ -88,6 +96,7 @@ Write the code to properly express extra importance on key words in this sentenc
 - i
 - /i
 
+
 ---
 
 ## Revision
@@ -112,6 +121,7 @@ When a text needs to be presented with strong importance, seriousness, or urgenc
 ## Quiz
 
 ### How much do you know about HTML text?
+
 
 Write the code to properly express extra importance to key words :
 

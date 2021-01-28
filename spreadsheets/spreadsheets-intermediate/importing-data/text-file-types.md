@@ -1,15 +1,22 @@
-﻿---
+---
 author: kapnobatai136
-
 type: normal
-
-category: how to
-
+category: how-to
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Text File Types
 
+
 ---
+
 ## Content
 
 These files can be opened with any text editor, but some are not readable when opened like that.
@@ -22,7 +29,9 @@ The values for each column are separated by a comma (`,`), with each record havi
 
 Depending on the operating system on which the file was created, it can also have the `.tab` extension.
 
+
 ---
+
 ## Practice
 
 The `.csv` type stands of ??? Separated Values.
@@ -34,7 +43,9 @@ The `.tsv` type stands for ??? Separated Values.
 - Space
 - Criteria
 
+
 ---
+
 ## Revision
 
 In a `.csv` file, each value is separated by a ??? and every record has its own ???.
@@ -45,7 +56,9 @@ In a `.csv` file, each value is separated by a ??? and every record has its own 
 - space
 - punctuation
 
+
 ---
+
 ## Footnotes
 
 [1:Comma Separated Values]

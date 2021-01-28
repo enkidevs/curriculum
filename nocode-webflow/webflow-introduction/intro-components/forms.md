@@ -1,7 +1,11 @@
 ---
 author: Stefan-Stojanovic
 type: normal
-category: how to
+category: how-to
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Forms
@@ -52,4 +56,3 @@ You can add form elements ???.
 
 - inside a form component
 - anywhere
- 

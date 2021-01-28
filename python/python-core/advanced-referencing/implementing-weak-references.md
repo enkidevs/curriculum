@@ -1,7 +1,7 @@
 ---
 author: catalin
 type: normal
-category: how to
+category: how-to
 links:
   - '[pymotw.com](https://pymotw.com/2/weakref/){website}'
   - '[docs.python.org](https://docs.python.org/3.5/library/weakref.html){website}'
@@ -10,6 +10,14 @@ notes: >
 
   Insight does not show the benefit of using weak references. Change it so it
   does.
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Implementing **weak** references
@@ -132,3 +140,4 @@ if ...
 - if x == None
 - if not x
 - if x is not None
+ 

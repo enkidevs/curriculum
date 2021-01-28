@@ -1,9 +1,13 @@
 ---
 author: Stefan-Stojanovic
 type: normal
-category: how to
+category: how-to
 links:
   - '[Dashboard](https://webflow.com/dashboard){website}'
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # The Designer

@@ -6,6 +6,14 @@ links:
   - >-
     [MDN Docs on
     ::selection](https://developer.mozilla.org/en-US/docs/Web/CSS/%3A%3Aselection){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Change selected area color

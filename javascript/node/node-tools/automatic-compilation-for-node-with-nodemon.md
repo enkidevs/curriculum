@@ -4,6 +4,14 @@ type: normal
 category: hack
 links:
   - '[github.com](https://github.com/remy/nodemon){website}'
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Automatic compilation for Node with **Nodemon**

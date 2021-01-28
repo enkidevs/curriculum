@@ -1,18 +1,26 @@
-﻿---
+---
 author: Stefan-Stojanovic
-
 type: normal
-
-category: how to
-
+category: how-to
 links:
-  - '[Sample Data](https://www.learningcontainer.com/sample-excel-data-for-analysis#Sample_Xlsx_file_download-2){website}'
-  
+  - >-
+    [Sample
+    Data](https://www.learningcontainer.com/sample-excel-data-for-analysis#Sample_Xlsx_file_download-2){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Building Out Your Pivot Table
 
+
 ---
+
 ## Content
 
 Now that we have populated the pivot table, let's see how you can analyze the data using the `Values` and `Filters` fields.
@@ -20,6 +28,7 @@ Now that we have populated the pivot table, let's see how you can analyze the da
 ### Values
 
 `Values` is used to summarize data. You can perform actions such as:
+
 - count and average
 - min and max
 - median and sum
@@ -43,7 +52,9 @@ We can further simplify the table by removing the `Product` data. Now, we have a
 
 We can now analyze data from thousands of records by looking at the summary in our pivot table.
 
+
 ---
+
 ## Practice
 
 The ??? field is used for performing calculations on values from the pivot table.
@@ -53,7 +64,9 @@ The ??? field is used for performing calculations on values from the pivot table
 - Rows
 - Columns
 
+
 ---
+
 ## Revision
 
 Which of the following can't be done using the `Values` field in a pivot table?

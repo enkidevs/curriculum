@@ -1,17 +1,22 @@
 ---
 author: lizTheDeveloper
-
 type: normal
-
-category: best practice
-
+category: best-practice
 links:
   - '[1Password](https://1password.com/){website}'
   - '[LastPass (free)](https://lastpass.com/f?81082801 ){website}'
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Cloud Security Configuration
+
 
 ---
 
@@ -32,6 +37,7 @@ Cloud Security Configuration is a challenging area to perform an audit for, due 
 - Create a recurring calendar item for credential rotation
 - Disable stack trace and verbose error reporting
 
+
 ---
 
 ## Practice
@@ -44,6 +50,7 @@ Which is **not** a practice that will help mitigate cloud security configuration
 - allowing new cloud services to be used in development and only deployed to production after review
 - using a password manager
 - rotating credentials
+
 
 ---
 

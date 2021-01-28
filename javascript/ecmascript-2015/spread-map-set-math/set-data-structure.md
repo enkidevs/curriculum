@@ -2,10 +2,17 @@
 author: alexjmackey
 type: normal
 category: must-know
-inAlgoPool: false
 links:
   - >-
     [MDN](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Set){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Set (data structure)
@@ -84,3 +91,4 @@ What method is used to check if an element is contained in the same data structu
 - contain
 - isIn
 - push
+ 

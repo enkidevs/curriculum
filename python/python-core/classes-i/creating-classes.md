@@ -1,13 +1,19 @@
 ---
 author: mihaiberq
-
 type: normal
-
 category: must-know
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Creating Classes
+
 
 ---
 
@@ -42,7 +48,6 @@ class Employee:
 ```
 
 The `__init__` method is the *initialization method* and it's called when you create a new instance of the class.
-
 
 Now that we have the initialization method we can pass some information when creating a new `Employee`:
 
@@ -116,7 +121,9 @@ new empl = Employee("John")
 - C
 - neither
 
+
 ---
+
 ## Footnotes
 
 [1: Methods]
@@ -129,6 +136,7 @@ Think of a car as the object. The model, color or age of the car are the object'
 Block structures in Python are determined by their indentation.
 
 Take this piece of code for instance:
+
 ```python
 class Employee:
   company = 'Enki'
@@ -154,3 +162,4 @@ Next, we have three 'one-liners' with no block scope.
 The `Employee` class can access both methods because they are in its block scope (shown with indentation). 
 
 The first line of code that is not a part of the `Employee`'s block scope is the instantiation `emp = Employee()`.
+ 

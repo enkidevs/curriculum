@@ -6,6 +6,14 @@ links:
   - >-
     [Multiple
     Borders](https://css-tricks.com/snippets/css/multiple-borders/){article}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Multiple borders with pseudo elements

@@ -6,6 +6,14 @@ links:
   - >-
     [Common
     Gotchas](http://docs.python-guide.org/en/latest/writing/gotchas/){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Immutability Gotchas!
@@ -129,3 +137,4 @@ foo(3)
 - [1]
 - [4, 5, 2]
 - [1, 2, 3]
+ 

@@ -4,9 +4,17 @@ type: normal
 category: feature
 links:
   - >-
-    [www.developer.com](http://www.developer.com/java/other/article.php/2212401/Introduction-to-the-Java-Robot-Class-in-Java.htm){website}
+    [Introduction to the Java Robot Class in Java](https://www.developer.com/java/other/article.php/2212401/Introduction-to-the-Java-Robot-Class-in-Java.htm){website}
   - >-
-    [www.java-tips.org](http://www.java-tips.org/java-se-tips-100019/21-java-awt/1758-how-to-use-robot-class-in-java.html){website}
+    [Robot Class in Java AWT](https://www.geeksforgeeks.org/robot-class-java-awt/){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # The Robot Utility

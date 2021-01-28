@@ -1,7 +1,7 @@
 ---
 author: nickdaminov
 type: normal
-category: how to
+category: how-to
 links:
   - >-
     [File Class
@@ -9,6 +9,14 @@ links:
   - >-
     [File Manipulations with
     Examples](https://www.tutorialspoint.com/java/io/java_io_file.htm){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Renaming a File

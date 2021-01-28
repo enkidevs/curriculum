@@ -1,7 +1,11 @@
 ---
 author: Stefan-Stojanovic
 type: normal
-category: how to
+category: how-to
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Symbols
@@ -42,4 +46,3 @@ Symbols are ???
 
 - instances of an element that can be reused any time.
 - reserved special characters used for creating buttons.
- 

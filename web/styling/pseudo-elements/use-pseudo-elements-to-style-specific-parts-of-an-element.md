@@ -9,6 +9,14 @@ links:
   - >-
     [MDN Docs on Pseudo
     Elements](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Use pseudo-elements to style specific parts of an element

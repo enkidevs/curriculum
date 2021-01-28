@@ -2,7 +2,14 @@
 author: tommarshall
 type: normal
 category: must-know
-inAlgoPool: false
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Calling functions
@@ -100,3 +107,4 @@ num = 5
 - `obj`
 - `var`
 - `function`
+ 

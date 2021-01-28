@@ -7,6 +7,14 @@ links:
   - >-
     [DNS Sections
     Primer](https://www2.cs.duke.edu/courses/fall16/compsci356/DNS/DNS-primer.pdf){article}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # DNS Record Format
@@ -48,4 +56,3 @@ Which of the following sections must be filled out in both DNS queries and DNS r
 - answers
 - authority
 - additional information
- 

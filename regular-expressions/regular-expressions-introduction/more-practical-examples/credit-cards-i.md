@@ -1,15 +1,22 @@
 ---
 author: emmab
-
 type: normal
-
 category: feature
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Credit Cards I
 
+
 ---
+
 ## Content
 
 There are four major credit card networks: American Express (Amex), Discover, Mastercard, and Visa[1].
@@ -20,11 +27,9 @@ Let's build a regex pattern that matches **all four**!
 
 We also want our pattern to match credit cards that have hyphens or spaces in between each set of digits, so it should match the three following formats:
 
-```
-4242-4242-4242-4242 ✅
-4242 4242 4242 4242 ✅
-4242424242424242 ✅
-```
+    4242-4242-4242-4242 ✅
+    4242 4242 4242 4242 ✅
+    4242424242424242 ✅
 
 In order to match all the different types of credit cards, we'll need to make use of the 'OR' operator: `|`.
 
@@ -46,7 +51,9 @@ Putting this together using the 'OR' operator gives us:
 
 Voilà! 🎉
 
+
 ---
+
 ## Practice
 
 Imagine that we don't want to include hyphens or spaces in our pattern for Visa cards. What can we remove from the following regex pattern?
@@ -62,6 +69,7 @@ Imagine that we don't want to include hyphens or spaces in our pattern for Visa 
 
 
 ---
+
 ## Revision
 
 Imagine that we don't want to include hyphens or spaces in our pattern for American Express credit cards. What can we remove from the following regex pattern?
@@ -75,7 +83,9 @@ Imagine that we don't want to include hyphens or spaces in our pattern for Ameri
 - ?
 - \d
 
+
 ---
+
 ## Footnotes
 
 [1: Credit Card Networks]
@@ -83,3 +93,4 @@ Imagine that we don't want to include hyphens or spaces in our pattern for Ameri
 A credit card network sets the interchange or “swipe” fees that merchants are charged to accept a credit card transaction. 
 
 Credit card networks do not control fees a cardholder pays such as the interest rates, annual fees, late fees, foreign transaction fees and over-limit fees.
+ 

@@ -2,6 +2,14 @@
 author: jordanfish
 type: normal
 category: caveats
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # `NaN` Is a Number
@@ -95,3 +103,4 @@ console.log(typeof(NaN));
 - object
 - function
 - undefined
+ 

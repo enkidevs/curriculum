@@ -1,26 +1,26 @@
 ---
-author: ioanna.ki
-
+author: iikiriakidou
 levels:
   - advanced
   - medium
-
 type: normal
-
 category: feature
-
 tags:
   - javascript
-
 links:
-
   - >-
-    [samuli.hakoniemi.net](http://samuli.hakoniemi.net/10-small-things-you-may-not-know-about-javascript/){website}
-
+    [10 Small Things You May Not Know About Javascript](http://samuli.hakoniemi.net/10-small-things-you-may-not-know-about-javascript/){website}
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
+
 # Labeling your loops
 
+
 ---
+
 ## Content
 
 You can give a label to every nested iteration and use the `break` statement to exit them when some condition is fulfilled. 
@@ -44,10 +44,13 @@ for (var i=0; i<5; i++) {
 }
 ```
 
+
 ---
+
 ## Revision
 
 Break `enkiLoop`:
+
 ```javascript
 enkiLoop:
 for(var i=0; i<5; i++) {
@@ -58,10 +61,10 @@ for(var i=0; i<5; i++) {
 
 ```
 
-* break
-* enkiLoop
-* loop
-* yield
-* stop
-* enki
+- break
+- enkiLoop
+- loop
+- yield
+- stop
+- enki
  

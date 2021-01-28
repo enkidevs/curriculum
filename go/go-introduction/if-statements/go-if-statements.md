@@ -1,15 +1,22 @@
 ---
 author: Stefan-Stojanovic
-
 type: normal
-
-category: how to
-
+category: how-to
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # `if` Statements
 
+
 ---
+
 ## Content
 
 `if` statements are conditional statements that can have only one outcome.
@@ -42,7 +49,9 @@ fmt.Println(posOrNeg(-50))
 // x is negative
 ```
 
+
 ---
+
 ## Practice
 
 Fill in the gaps to make the function return "Correct" if it evaluates to `true` and "Incorrect" if it evaluates to `false`.
@@ -64,7 +73,9 @@ func isItTrue(x float64) string {
 - while
 - for
 
+
 ---
+
 ## Revision
 
 Fill in the gaps to make the function check if a number is positive or negative. Return the result for both cases.

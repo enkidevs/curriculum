@@ -1,7 +1,7 @@
 ---
 author: vish1891
 type: normal
-category: how to
+category: how-to
 tags:
   - nanoTime()
   - currentTimeMillis()
@@ -9,6 +9,10 @@ tags:
 links:
   - >-
     [tutorials.jenkov.com](http://tutorials.jenkov.com/java-date-time/time-measurement.html){website}
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Measuring time

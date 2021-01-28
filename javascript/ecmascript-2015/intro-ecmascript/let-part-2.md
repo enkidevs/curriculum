@@ -6,6 +6,14 @@ links:
   - >-
     [MDN
     Documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Let (Part 2)
@@ -142,3 +150,4 @@ console.log(foo);
 ```
 
 Here, `foo` is only accessible in the `if` scope.
+ 

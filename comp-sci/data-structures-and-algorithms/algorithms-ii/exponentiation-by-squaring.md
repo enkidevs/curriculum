@@ -1,12 +1,19 @@
 ---
 author: mihaiberq
 type: normal
-category: how to
+category: how-to
 links:
   - >-
     [Exponentiation by
     squaring](https://en.wikipedia.org/wiki/Exponentiation_by_squaring){website}
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Exponentiation By Squaring
@@ -96,4 +103,3 @@ For an exponent of `350`, what's the upper-bound of the number of operations req
 
 [1:Improvement]
 For an exponent of `20`, it takes *9 operations* to do the same what it would otherwise take *19 operations*.
- 

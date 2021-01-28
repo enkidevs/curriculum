@@ -6,6 +6,14 @@ links:
   - >-
     [HTML <checkbox>
     Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/checkbox){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Check Boxes
@@ -72,7 +80,7 @@ In the example above, the 'name' & 'value' attributes work as a pair in keeping 
 
 If no checkbox is ticked/checked upon form submission, the name/value pair is `value=unchecked` and the value won't be submitted to the server at all.
 
-If the `value` attribute is obmitted, then the default value for the checkbox would be `on` and upon submission, the name/value pair would be `report=on`.
+If the `value` attribute is omitted, then the default value for the checkbox would be `on` and upon submission, the name/value pair would be `report=on`.
 
 
 ---

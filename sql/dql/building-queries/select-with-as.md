@@ -6,6 +6,14 @@ links:
   - >-
     [SQL Tutorial:
     SELECT](http://www.sql-tutorial.com/sql-select-sql-tutorial/){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # SELECT with AS

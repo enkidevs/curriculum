@@ -6,6 +6,14 @@ links:
   - >-
     [Stack Overflow Answer -- Binary vs Text
     protocol](https://stackoverflow.com/questions/2645009/binary-protocols-v-text-protocols){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # DNS Record Format

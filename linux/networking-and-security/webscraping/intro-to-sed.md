@@ -9,6 +9,14 @@ tags:
   - delete empty lines
   - regex
 notes: ''
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Intro to `sed`

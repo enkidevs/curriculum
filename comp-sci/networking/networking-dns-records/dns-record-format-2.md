@@ -7,6 +7,14 @@ links:
   - >-
     [DNS Sections
     Primer](https://www2.cs.duke.edu/courses/fall16/compsci356/DNS/DNS-primer.pdf){article}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # DNS Record Format
@@ -50,4 +58,3 @@ The existence of a record in the ___ section of a DNS message means that the ser
 - question
 - additional information
 - answer
- 

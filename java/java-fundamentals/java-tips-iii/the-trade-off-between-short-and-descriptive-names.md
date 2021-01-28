@@ -1,12 +1,16 @@
 ---
 author: adamMontgomerie
 type: normal
-category: best practice
+category: best-practice
 tags:
   - naming-conventions
 links:
   - >-
     [javarevisited.blogspot.co.uk](http://javarevisited.blogspot.co.uk/2014/10/10-java-best-practices-to-name-variables-methods-classes-packages.html){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # The trade-off between short and descriptive names
@@ -43,4 +47,3 @@ Which of the following methods is best named for finding the age of a person?
 - `age()` 
 - `getAgeOfPerson` 
 - `num()`
- 

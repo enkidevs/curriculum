@@ -2,12 +2,19 @@
 author: alexjmackey
 type: normal
 category: must-know
-inAlgoPool: false
 links:
   - >-
     [How numbers are
     represented](http://steve.hollasch.net/cgindex/coding/ieeefloat.html){website}
   - '[IEEE association](http://standards.ieee.org/){website}'
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Parsing Numbers and IEEE-754
@@ -54,6 +61,7 @@ You should be aware this means you can get issues when performing certain calcul
 0.1 + 0.2 = 0.30000000000000004
 ```
 
+
 ---
 
 ## Practice
@@ -85,3 +93,4 @@ What method would you use to parse the following string so that it doesn't retur
 - `parseInt`
 - `parseString`
 - `parseDouble`
+ 

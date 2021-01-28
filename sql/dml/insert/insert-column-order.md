@@ -1,17 +1,22 @@
 ---
 author: kapnobatai136
-
 type: normal
-
 category: must-know
-
 tags:
   - insert
   - syntax
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Column Order
+
 
 ---
 
@@ -47,7 +52,7 @@ VALUES
 And this is the result:
 
 | id       | product        | quantity |
-|----------|----------------|----------|
+| -------- | -------------- | -------- |
 | 1        | Cucumber       | 20       |
 | 2        | Tomato         | 50       |
 | 5        | Carrot         | 30       |
@@ -55,6 +60,7 @@ And this is the result:
 | **NULL** | **Blueberry**  | **5**    |
 
 > ❗ When inserting data, **if you omit a column**, the inserted value will be `NULL`[2].
+
 
 ---
 
@@ -92,6 +98,7 @@ VALUES
 - (name, age)
 - (NULL, 24, "John")
 
+
 ---
 
 ## Revision
@@ -102,6 +109,7 @@ If you omit a column when inserting, its value will be replaced by ???.
 - UNDEFINED
 - UNKNOWN
 
+
 ---
 
 ## Footnotes
@@ -110,7 +118,7 @@ If you omit a column when inserting, its value will be replaced by ???.
 Here is how the `inventory` table looked like:
 
 | id | product  | quantity |
-|----|----------|----------|
+| -- | -------- | -------- |
 | 1  | Cucumber | 20       |
 | 2  | Tomato   | 50       |
 | 5  | Carrot   | 30       |

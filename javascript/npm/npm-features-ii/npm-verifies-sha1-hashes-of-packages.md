@@ -5,6 +5,14 @@ category: feature
 tags:
   - workout
   - deep
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # `npm` verifies `sha1` hashes of packages

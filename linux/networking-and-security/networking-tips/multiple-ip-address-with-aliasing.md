@@ -1,7 +1,7 @@
 ---
 author: tuwidc
 type: normal
-category: how to
+category: how-to
 tags:
   - linux
   - multiple
@@ -9,6 +9,10 @@ tags:
   - vhost
   - terminal
   - eth0
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Multiple IP Addresses with aliasing

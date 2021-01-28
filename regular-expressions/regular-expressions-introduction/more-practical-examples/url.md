@@ -1,15 +1,22 @@
 ---
 author: emmab
-
 type: normal
-
 category: feature
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # URLs
 
+
 ---
+
 ## Content
 
 Regex can be used to check whether a URL is in the correct format.
@@ -42,17 +49,19 @@ Here's another example:
 
 `/[(http(s)?):\/\/(www\.)?a-zA-Z0-9@:%._\+~#=]{2,256}\.[a-z]{2,6}([-a-zA-Z0-9@:%_\+.~#?&//=]*)/`
 
-This example allows valid URLs to contain either "https://", "http://", "https://www.", "http://www." or just "www.".
+This example allows valid URLs to contain either "https://", "http://", "<https://www.">, "<http://www."> or just "www.".
 
 URLs can then contain characters from the `[a-zA-Z0-9@:%._\+~#=]` set followed by a ".". Then between two and six a-z characters, and zero or more characters from the next set of characters.
 
+
 ---
+
 ## Practice
 
 Given the following URLs:
 
-http://foo.com/blah_blah
-https://www.example.com/foo/?bar=baz&inga=42&quux
+<http://foo.com/blah_blah>
+<https://www.example.com/foo/?bar=baz&inga=42&quux>
 
 Which regex pattern would validate both URLs?
 
@@ -65,13 +74,14 @@ Which regex pattern would validate both URLs?
 
 
 ---
+
 ## Revision
 
 Given the following start of some URLs:
 
 http://
 https://
-http://www.
+<http://www.>
 https://www.
 
 Which regex pattern would validate the start of all these URLs?
@@ -85,6 +95,7 @@ Which regex pattern would validate the start of all these URLs?
 
 
 ---
+
 ## Footnotes
 
 [1:Difference between https and http]
@@ -94,3 +105,4 @@ Which regex pattern would validate the start of all these URLs?
 The "s" on the end of `https` stands for **Secure**. It means all communications between your browser and the server are encrypted.
 
 `https` is faster than `http`, and is the preferred way to serve web pages.
+ 

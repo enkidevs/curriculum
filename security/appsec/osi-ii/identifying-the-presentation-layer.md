@@ -2,11 +2,18 @@
 author: milesflo
 type: normal
 category: must-know
-inAlgoPool: false
 links:
   - >-
     [SANS
     Institute](https://www.sans.org/reading-room/whitepapers/protocols/applying-osi-layer-network-model-information-security-1309){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Identifying the Presentation Layer
@@ -70,4 +77,3 @@ What role does the Presentation Layer play in the OSI 7 Layer Model?
 - Opening, closing, and managing connections between applications
 - Maintaining and ensuring a stable connection between two hosts over the Internet
 - Transmitting data between network nodes
- 

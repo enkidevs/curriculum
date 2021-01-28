@@ -6,6 +6,10 @@ links:
   - >-
     [Article on
     @extend](http://sass-lang.com/documentation/file.SASS_REFERENCE.html#extend){website}
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Sass Extend/Inheritance

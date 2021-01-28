@@ -2,7 +2,14 @@
 author: tommarshall
 type: normal
 category: must-know
-inAlgoPool: false
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Nested Loops
@@ -92,3 +99,4 @@ How do nested loops work?
 - The outer loop increments once per full cycle of the inner loop.
 - The inner loop increments once per full cycle of the outer loop.
 - The inner and outer loops increment simultaneously.
+ 

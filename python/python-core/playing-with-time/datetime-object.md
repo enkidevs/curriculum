@@ -2,10 +2,17 @@
 author: catalin
 type: normal
 category: feature
-inAlgoPool: false
 links:
   - >-
     [docs.python.org](https://docs.python.org/3.5/library/datetime.html#datetime-objects){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # `datetime` object
@@ -158,3 +165,4 @@ Here are few special date formatting characters supported by the method:
 - `%S`: second (e.g `57`)
 
 The full list is actually the one implemented by **C standard** (1989 version)
+ 

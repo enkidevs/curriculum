@@ -8,6 +8,10 @@ tags:
   - tasksel
   - terminal
   - server
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Using `Tasksel` for software installation

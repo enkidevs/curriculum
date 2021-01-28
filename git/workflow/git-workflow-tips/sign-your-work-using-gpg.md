@@ -1,12 +1,20 @@
 ---
 author: rosielowther
 type: normal
-category: how to
+category: how-to
 links:
   - >-
     [Signing Your Work Official
     Documentation](http://git-scm.com/book/en/v2/Git-Tools-Signing-Your-Work){website}
   - '[Git Horror Story](https://mikegerwitz.com/papers/git-horror-story){website}'
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Sign your work (using GPG)

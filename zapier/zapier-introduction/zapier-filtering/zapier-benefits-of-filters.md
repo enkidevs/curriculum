@@ -2,6 +2,14 @@
 author: kapnobatai136
 category: tip
 type: normal
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Why Use Filters?
@@ -50,4 +58,3 @@ When filtering, which type do you have to use such that both checks must pass at
 
 - +AND
 - +OR
- 

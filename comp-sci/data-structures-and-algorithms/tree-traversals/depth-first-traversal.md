@@ -2,6 +2,10 @@
 author: mihaiberq
 type: normal
 category: must-know
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Depth-first Traversal
@@ -50,4 +54,3 @@ Which node will be prioritized after *B* in a depth-first traversal?
 - E
 - A
 - C
- 

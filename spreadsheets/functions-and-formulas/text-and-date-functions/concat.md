@@ -1,18 +1,21 @@
 ---
 author: Stefan-Stojanovic
-
 type: normal
-
-category: how to
-
+category: how-to
 links:
-  - '[CONCAT](https://support.google.com/docs/answer/3093592?hl=en-GB){documentation}'
-
+  - >-
+    [CONCAT](https://support.google.com/docs/answer/3093592?hl=en-GB){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # CONCAT
 
+
 ---
+
 ## Content
 
 The `=CONCAT()` function returns the [concatenation](https://www.enki.com/glossary/general/concatenation) of two values.
@@ -26,6 +29,7 @@ The syntax is:
 ![concat](https://img.enkipro.com/1d91da3da01b6bb3d9aff5f73af6d1fe.png)
 
 Although concatenation is usually done on strings, you can input any data types in `CONCAT`:
+
 - a date and a string
 - a number and a date
 - a special character and a number
@@ -35,7 +39,9 @@ Here are a few more examples of concatenating different data types:
 
 ![more-concat](https://img.enkipro.com/cae1d876723f46b821b82b0e8b6da9ae.png)
 
+
 ---
+
 ## Practice
 
 The `=CONCAT()` function is used to ???
@@ -44,4 +50,3 @@ The `=CONCAT()` function is used to ???
 - reformat text
 - combine data from two or more cells
 - highlight text
-

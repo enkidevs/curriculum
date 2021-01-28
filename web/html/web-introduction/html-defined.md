@@ -4,6 +4,14 @@ type: normal
 category: must-know
 links:
   - '[Short intro video for HTML](https://scrimba.com/p/pZaVfV/cQr3mfM){video}'
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # HTML Defined
@@ -64,4 +72,3 @@ What does HTML provide on a web page?
 - Styling for such content as text, images, & links.
 - Interactive elements of the page.
 - Web hosting.
- 

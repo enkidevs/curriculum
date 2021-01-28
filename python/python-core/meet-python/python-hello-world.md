@@ -1,16 +1,21 @@
 ---
 author: emmab
-
 tags:
   - introduction
-
 type: normal
-
 category: must-know
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Hello World!
+
 
 ---
 
@@ -35,8 +40,9 @@ In this program, we've used Python's built-in `print` function. Soon you'll lear
 > As with all the skills in the app, if you want to access more advanced or specific content at any time, **feel free to use the *Skill Map* tab** to jump to the workouts most relevant for you.
 
 > 💬 Why are you interested in Python?
-> 
+>
 > Leave a comment or view some of the other comments for inspiration before moving on.
+
 
 ---
 
@@ -68,3 +74,4 @@ Complete the code snippet with the correct function to write `'Python with Enki!
 - `write`
 - `sys.out`
 - `writeln`
+ 

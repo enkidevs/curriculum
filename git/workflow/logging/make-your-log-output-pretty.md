@@ -6,6 +6,14 @@ links:
   - >-
     [Git
     Basics](http://git-scm.com/book/en/v2/Git-Basics-Viewing-the-Commit-History){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Make your log output pretty

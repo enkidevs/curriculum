@@ -2,7 +2,6 @@
 author: SebaRaba
 type: normal
 category: must-know
-inAlgoPool: false
 tags:
   - workout
   - deep
@@ -10,6 +9,14 @@ links:
   - >-
     [More on ALTER
     TABLE](https://www.techonthenet.com/sql_server/tables/alter_table.php){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Add Column

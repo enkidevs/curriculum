@@ -2,11 +2,18 @@
 author: catalin
 type: normal
 category: must-know
-inAlgoPool: false
 links:
   - >-
     [Branching And Merging Official
     Documentation](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Merging

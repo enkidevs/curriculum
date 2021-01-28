@@ -5,6 +5,14 @@ category: feature
 links:
   - >-
     [Notification](https://developer.mozilla.org/en-US/docs/Web/API/notification){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Notifications API
@@ -102,3 +110,4 @@ Which method exposed by the Notifications API can be used to ask for user permis
 - access
 - grantAccess
 - Notif
+ 

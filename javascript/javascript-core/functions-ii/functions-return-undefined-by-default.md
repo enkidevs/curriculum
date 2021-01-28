@@ -5,9 +5,18 @@ category: feature
 tags:
   - introduction
   - workout
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Functions Return Undefined by Default
+
 
 ---
 
@@ -88,3 +97,4 @@ foo(3) === foo(1); // = ???
 - null
 - false
 - NaN
+ 

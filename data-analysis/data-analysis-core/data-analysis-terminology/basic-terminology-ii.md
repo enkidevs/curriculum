@@ -1,18 +1,24 @@
 ---
 author: emmab
-
 tags:
   - introduction
-
 type: normal
-
 category: must-know
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Basic Terminology II
 
+
 ---
+
 ## Content
 
 ### Outlier
@@ -39,7 +45,9 @@ A measure of how much a real value differs from another measure (such as the mea
 
 For example, given a prediction that it will be 20 degrees fahrenheit at noon tomorrow, when noon hits and it's only 18 degrees, we have an error (or residual) of 2 degrees.
 
+
 ---
+
 ## Practice
 
 Complete this equation:
@@ -53,7 +61,9 @@ Complete this equation:
 - error
 - outlier
 
+
 ---
+
 ## Revision
 
 A bell-shaped curve depicts data that is normally distributed around a mean.
@@ -63,7 +73,9 @@ A bell-shaped curve depicts data that is normally distributed around a mean.
 - True
 - False
 
+
 ---
+
 ## Footnotes
 
 [1:Variance]
@@ -87,4 +99,3 @@ Here are some examples that closely follow a normal distribution:
 - errors in measurements
 - blood pressure
 - marks on a test
- 

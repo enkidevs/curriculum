@@ -1,7 +1,15 @@
 ---
 author: lizTheDeveloper
 type: normal
-category: best practice
+category: best-practice
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Upgrade Process Cadence
@@ -47,4 +55,3 @@ The probability that you'll be breached from a known vulnerable component ??? ov
 - falls
 - the number of active prevention measures in place
 - the number of hackers that know about the vulnerability
- 

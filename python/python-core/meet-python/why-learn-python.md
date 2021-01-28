@@ -11,6 +11,14 @@ links:
   - >-
     [Python
     OOP](https://www.programiz.com/python-programming/object-oriented-programming){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Why learn Python?

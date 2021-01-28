@@ -6,6 +6,14 @@ links:
   - >-
     [Stacks and
     Queues](https://en.wikibooks.org/wiki/Data_Structures/Stacks_and_Queues){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # The Stack Data Structure
@@ -75,4 +83,3 @@ Which of the following methods can be called on a `stack`?
 - `first()`
 - `none`
 - `all`
- 

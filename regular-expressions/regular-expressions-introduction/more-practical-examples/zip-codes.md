@@ -1,15 +1,22 @@
 ---
 author: emmab
-
 type: normal
-
 category: feature
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # ZIP Codes
 
+
 ---
+
 ## Content
 
 Another way we can use regex to solve **real world problems** is to check whether ZIP codes are formatted correctly.
@@ -38,7 +45,9 @@ Notice how we have grouped the whole second part so that we can make it optional
 
 This means that our regex pattern will work for ZIP codes such as 58701-0124 as well as for 58701 🎉.
 
+
 ---
+
 ## Practice
 
 The following regex pattern would match 65807 as well as 65807-4589.
@@ -50,7 +59,9 @@ The following regex pattern would match 65807 as well as 65807-4589.
 - `False`
 - `True`
 
+
 ---
+
 ## Revision
 
 What do we need to add to make the following regex pattern match both ZIP (65807) and ZIP+4 (65807-4589) codes?
@@ -63,3 +74,4 @@ What do we need to add to make the following regex pattern match both ZIP (65807
 - `*`
 - `+`
 - `\.`
+ 

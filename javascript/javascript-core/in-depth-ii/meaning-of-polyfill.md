@@ -6,6 +6,14 @@ tags:
   - deep
   - workout
   - polyfill
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Meaning of Polyfill
@@ -56,3 +64,4 @@ A polyfill is a downloadable code that provides
 - support for older browsers
 - new features
 - all HTML tags
+ 

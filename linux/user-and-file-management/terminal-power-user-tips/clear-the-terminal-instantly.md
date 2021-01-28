@@ -10,6 +10,10 @@ tags:
   - clenup
   - workout
 notes: ''
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Clear the terminal instantly
@@ -42,4 +46,3 @@ To *reload* the terminal and *clear* the previous output you would run
 - clear
 - clr
 - sudo --reload
- 

@@ -9,6 +9,14 @@ tags:
   - background
 links:
   - '[CSS Gradients](https://css-tricks.com/css3-gradients/){article}'
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Declaring linear gradients using the `background` property

@@ -1,18 +1,24 @@
-﻿---
+---
 author: Stefan-Stojanovic
-
 aspects:
   - workout
-
 type: normal
-
-category: how to
-
+category: how-to
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Methods
 
+
 ---
+
 ## Content
 
 Methods are functions with a special receiver argument.
@@ -49,7 +55,9 @@ The method receiver appears between the `func` keyword and the method name.
 
 In our example above, the receiver is the `s Student` struct, and `WelcomeMessage()` is the method's name.
 
+
 ---
+
 ## Practice
 
 A method is a ??? with a special receiver argument.
@@ -59,7 +67,9 @@ A method is a ??? with a special receiver argument.
 - class
 - assignment operator
 
+
 ---
+
 ## Revision
 
 How do you define a method?

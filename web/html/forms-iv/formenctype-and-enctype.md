@@ -2,10 +2,21 @@
 author: Stefan-Stojanovic
 type: normal
 category: must-know
-links: null
+links:
+  - >-
+    [MDN enctype and
+    formenctype](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form#attributes_for_form_submission){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
-# The `formenctype` Attribute
+# enctype & formenctype
 
 
 ---
@@ -13,9 +24,14 @@ links: null
 ## Content
 
 The HTML `formenctype` input form attribute is used to specify how form-data should be encoded before it's sent to the server.
-It is only used for buttons and images with `type="submit"`.
 
-If the attribute is not set, the default value is set to `application/x-www-form-urlencoded`.
+It is only used for buttons with `type="submit"` and `type="image"`.
+
+You could also use the `enctype` attribute on the `form` element. This way, you can decide the encoding type for the entire form, instead of specifying it for every `input`.
+
+When using the `enctype` attribute (on the `form` element), its functionality is overwritten by the `formenctype` attribute (on the `input` element) **if both are present within the same form**.
+
+If neither of the attributes are present, the default value is set to `application/x-www-form-urlencoded`.
 
 When using `<input>` elements with the attribute `type="file"` it is necessary to set the value as `multipart/form-data`.
 
@@ -61,6 +77,7 @@ Which statement is true regarding `formenctype`?
 - `Can be used only if method="get"`.
 - `The values application/x-www-form-urlencoded and text/plain convert spaces into '-' symbols.`
 
+
 ---
 
 ## Revision
@@ -74,6 +91,7 @@ Which input form attribute is used to specify an encoding type for your form?
 - encode
 - urlencoded
 - form
+
 
 ---
 

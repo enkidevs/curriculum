@@ -5,6 +5,14 @@ category: tip
 tags:
   - workout
   - deep
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Master and Worker Process Communication

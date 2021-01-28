@@ -8,6 +8,14 @@ links:
     WHERE](http://www.sql-tutorial.com/sql-where-sql-tutorial/){website}
   - >-
     [Playground](https://student.enkicamp.com/public/playground?jsonUrl=https%3A%2F%2Fgist.githubusercontent.com%2Fkapnobatai137%2Fc5726ab2b4cdcfca0db48a96276fa362%2Fraw%2F9ee0716a63899360e819559947137af061671e8a%2Fsql-not-example.json){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # NOT Example

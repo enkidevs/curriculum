@@ -1,15 +1,22 @@
 ---
 author: Stefan-Stojanovic
-
 type: normal
-
-category: how to
-
+category: how-to
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Operators
 
+
 ---
+
 ## Content
 
 In this workout, we will discuss how you can use different operators in **Go** as well as what order of operations **Go** follows.
@@ -19,6 +26,7 @@ In this workout, we will discuss how you can use different operators in **Go** a
 Operators are symbols used to indicate operations. 
 
 There are six groups of operators you can use:
+
 - arithmetic
 - relational
 - logical
@@ -27,6 +35,7 @@ There are six groups of operators you can use:
 - miscellaneous.
 
 They are used to:
+
 - perform calculations
 - compare values
 - assign new values to a variable
@@ -47,6 +56,7 @@ Brackets, Orders, Multiplication, Division, Addition, and Subtraction.
 Any calculations done in **Go** follow the above order.
 
 An expression like this one:
+
 ```go
 11 * (3 + 2) - 4 / 2 
 ```
@@ -62,7 +72,9 @@ Would be calculated like this:
 
 > 💡 All operators, except assignment and bitwise, follow a left-to-right order of operations. 
 
+
 ---
+
 ## Practice
 
 The bitwise and ??? operators follow the right-to-left order of operations.
@@ -73,7 +85,9 @@ The bitwise and ??? operators follow the right-to-left order of operations.
 - Logical
 - Miscellaneous
 
+
 ---
+
 ## Revision
 
 Match the operator groups to their order of operations.

@@ -2,7 +2,6 @@
 author: alexjmackey
 type: normal
 category: must-know
-inAlgoPool: false
 links:
   - '[ECMA on Github](https://github.com/tc39/ecma262){website}'
   - >-
@@ -16,6 +15,14 @@ links:
   - >-
     [Who is on the committee right
     now?](https://www.ecma-international.org/memento/tc39.htm){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # ECMAScript

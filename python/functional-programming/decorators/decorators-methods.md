@@ -2,6 +2,14 @@
 author: mihaiberq
 type: normal
 category: must-know
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Decorators and methods
@@ -212,3 +220,4 @@ A dictionary like this will raise an error:
 mydict = {"a":1, "b":2,"c":3}
 # TypeError: unexpected keyword argument c
 ```
+ 

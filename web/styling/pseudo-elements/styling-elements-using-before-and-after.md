@@ -13,6 +13,14 @@ links:
   - >-
     [MDN Docs on
     ::before](https://developer.mozilla.org/en-US/docs/Web/CSS/%3A%3Abefore){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Styling elements using `::before` and `::after`

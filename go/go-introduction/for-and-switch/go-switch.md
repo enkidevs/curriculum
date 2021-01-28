@@ -1,15 +1,22 @@
 ---
 author: Stefan-Stojanovic
-
 type: normal
-
-category: how to
-
+category: how-to
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Switch
 
+
 ---
+
 ## Content
 
 Switch statements are similar to `if-else` statements in **Go**. 
@@ -25,6 +32,7 @@ Unlike other languages, the `break` statements that go after every case are auto
 If none of the cases work, the switch will use the `default` case.
 
 Here is a switch statement without a condition:
+
 ```go
 import (
   "fmt"
@@ -43,7 +51,9 @@ func main() {
 // 0 is neither positive nor negative
 ```
 
+
 ---
+
 ## Practice
 
 Finish the code to make the statement work.
@@ -70,7 +80,9 @@ func main() {
 - if
 - for
 
+
 ---
+
 ## Revision
 
 In a `switch` statement, you can omit ???.

@@ -1,15 +1,22 @@
 ---
 author: Stefan-Stojanovic
-
 type: normal
-
-category: how to
-
+category: how-to
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Arithmetic Operators
 
+
 ---
+
 ## Content
 
 Arithmetic operators are used for basic mathematical calculations.
@@ -17,7 +24,7 @@ Arithmetic operators are used for basic mathematical calculations.
 There are seven arithmetic operators.
 
 | Operator |                                Definition                                |
-|:--------:|:------------------------------------------------------------------------:|
+| :------: | :----------------------------------------------------------------------: |
 |     +    |                                Add numbers                               |
 |     -    |                 Subtract the second number from the first                |
 |     *    |                             Multiply numbers                             |
@@ -27,6 +34,7 @@ There are seven arithmetic operators.
 |    --    |                    Decrement, decrease a value by one                    |
 
 We will use the same variables and values to perform calculations with all seven operators and print the results.
+
 ```go
 func main() {
   var a = 11
@@ -63,7 +71,9 @@ func main() {
 }
 ```
 
+
 ---
+
 ## Practice
 
 Use arithmetic operators to make the equations true.
@@ -86,7 +96,9 @@ y = y ??? x // y = 31
 - `x--`
 - `y--`
 
+
 ---
+
 ## Revision
 
 Use arithmetic operators to make the equations true.

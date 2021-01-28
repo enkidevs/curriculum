@@ -11,6 +11,14 @@ links:
     [www.tutorialspoint.com](https://www.tutorialspoint.com/http/http_status_codes.htm){website}
   - >-
     [www.w3.org](https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Client error status codes
@@ -74,4 +82,3 @@ The `Unauthorized` response has a status code of
 As different servers have different structure, the requests have to fit them. The software vendors were therefore required to  develop such responses to guide users.
 
 Some platforms that implemented them are: Twitter, Microsoft or Nginx.
- 

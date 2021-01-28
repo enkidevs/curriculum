@@ -1,7 +1,15 @@
 ---
 author: jfarmer
 type: normal
-category: how to
+category: how-to
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Removing Data From a Heap With The `downheap` Operation
@@ -73,4 +81,3 @@ During `downheap` operation, if both the children of a node have larger keys tha
 - the larger of the two children
 - the smaller of the two children
 - none, since it already respects the heap property
- 

@@ -1,13 +1,21 @@
 ---
 author: catalin
 type: normal
-category: best practice
+category: best-practice
 tags:
   - workout
   - deep
 links:
   - >-
     [strongloop.com](https://strongloop.com/strongblog/3-neat-tricks-with-npm-run/){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Flags for `npm`

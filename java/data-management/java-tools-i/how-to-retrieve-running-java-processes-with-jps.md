@@ -8,6 +8,14 @@ links:
   - '[andunix.net](https://andunix.net/info/java/jps){website}'
 notes: >-
   https://insights.enki.com/#/contrib/others/55f4294ed7d6642d0011872b?search=khandelwalrinki
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # How to retrieve running java processes with `jps`

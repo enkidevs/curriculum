@@ -3,7 +3,7 @@ author: Stefan-Stojanovic
 
 type: normal
 
-category: how to
+category: how-to
 
 links:
   - '[ISO Language Codes](https://www.labnol.org/code/19899-google-translate-languages){documentation}'

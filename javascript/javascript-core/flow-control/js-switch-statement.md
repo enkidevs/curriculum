@@ -2,6 +2,10 @@
 author: nem035
 type: normal
 category: must-know
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Switch Statement
@@ -71,4 +75,4 @@ switch (checker) {
 - `break`
 - `statement`
 - `statement`
-
+ 

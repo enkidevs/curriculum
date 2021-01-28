@@ -2,11 +2,18 @@
 author: catalin
 type: normal
 category: must-know
-inAlgoPool: false
 links:
   - >-
     [Git Branching Official
     Documentation](https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Branches in Git

@@ -1,13 +1,19 @@
 ---
 author: mihaiberq
-
 type: normal
-
 category: must-know
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # `copy` vs `deepcopy`
+
 
 ---
 
@@ -101,6 +107,7 @@ k deepcopy: 61.87346560800506
 
 You can see how, even for a linear list, the required time for **deepcopy** grows exponentially.
 
+
 ---
 
 ## Practice
@@ -134,3 +141,4 @@ A `deepcopy` means
 - making a copy in memory of the first layer of the data structure
 - making a copy of the data structure's reference
 - allocating some memory to a data structure
+ 

@@ -6,6 +6,14 @@ links:
   - >-
     [More information
     here](https://monjurulhabib.wordpress.com/2016/09/22/python-when-to-use-list-vs-tuple-vs-dictionary-vs-set-theory/){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Lists vs Dictionaries
@@ -113,3 +121,4 @@ We want to access value `5` from the dictionary using one of the list's elements
 - 2
 - getItem
 - 0
+ 

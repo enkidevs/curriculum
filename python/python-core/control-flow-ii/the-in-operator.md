@@ -11,6 +11,14 @@ links:
   - >-
     [Sequence
     types](https://docs.python.org/3/library/stdtypes.html#sequence-types-list-tuple-range){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # The `in` operator
@@ -85,3 +93,4 @@ The `in` operator evaluates to ??? if it finds the specified value in the ???.
 
 [1:Membership operator]
 Membership operators are used to test if a sequence is present in an object, such as a string.
+ 

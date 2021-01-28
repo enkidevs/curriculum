@@ -1,18 +1,23 @@
 ---
 author: lizTheDeveloper
-
 type: normal
-
 category: must-know
-
 links:
   - >-
-    [An example of a data tampering vulnerability upon
-    deserialization](http://nodegoat.herokuapp.com/tutorial/a1){website}
-
+    [Deserialization of untrusted
+    data](https://owasp.org/www-community/vulnerabilities/Deserialization_of_untrusted_data){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Identify Deserialization
+
 
 ---
 
@@ -38,6 +43,7 @@ db.insert(
 ```
 
 The above code is vulnerable to both application logic tampering (the `admin` parameter can be modified, rendering the price 0!) and data tampering (if I know your user ID I can make orders on your behalf!)
+
 
 ---
 

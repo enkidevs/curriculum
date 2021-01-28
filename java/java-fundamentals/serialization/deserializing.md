@@ -1,11 +1,19 @@
 ---
 author: nickdaminov
 type: normal
-category: how to
+category: how-to
 links:
   - >-
     [More on
     Serialization](https://www.tutorialspoint.com/java/java_serialization.htm){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Deserializing

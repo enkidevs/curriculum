@@ -7,6 +7,14 @@ tags:
 links:
   - >-
     [docs.npmjs.com](https://docs.npmjs.com/getting-started/using-a-package.json){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # `package.json`

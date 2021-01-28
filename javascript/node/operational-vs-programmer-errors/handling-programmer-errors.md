@@ -1,10 +1,18 @@
 ---
 author: mihaiberq
 type: normal
-category: how to
+category: how-to
 tags:
   - introduction
   - workout
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Handling Programmer Errors

@@ -1,24 +1,27 @@
 ---
 author: lizTheDeveloper
-
 type: normal
-
-category: how to
-
+category: how-to
 links:
-  - >-
-    [OWASP Top
-    Ten](https://owasp.org/www-project-top-ten/){website}
+  - '[OWASP Top Ten](https://owasp.org/www-project-top-ten/){website}'
   - >-
     [Testing for Reflected Cross site
-    scripting](https://www.owasp.org/index.php/Testing_for_Reflected_Cross_site_scripting_(OTG-INPVAL-001)){website}
+    scripting](https://wiki.owasp.org/index.php/Testing_for_Reflected_Cross_site_scripting_(OTG-INPVAL-001)){website}
   - >-
     [Testing for Stored Cross site
-    scripting](https://www.owasp.org/index.php/Testing_for_Stored_Cross_site_scripting_(OTG-INPVAL-002)){website}
-
+    scripting](https://wiki.owasp.org/index.php/Testing_for_Stored_Cross_site_scripting_(OTG-INPVAL-002)){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Detect XSS Vulnerabilities
+
 
 ---
 
@@ -31,6 +34,7 @@ In order to review source code to establish whether or not your application is v
 - Does my application *write unescaped user input to another page*?
 - Do all of my endpoints contain *server side validation*?
 
+
 ---
 
 ## Practice
@@ -41,6 +45,7 @@ Which of these will produce a vulnerability to XSS?
 - Storing unvalidated input
 - Using JSON
 - Using web forms
+
 
 ---
 

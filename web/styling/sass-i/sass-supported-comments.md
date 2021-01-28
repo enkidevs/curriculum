@@ -1,11 +1,19 @@
 ---
 author: tommarshall
 type: normal
-category: best practice
+category: best-practice
 links:
   - >-
     [Sass
     Comments](http://sass-lang.com/documentation/file.SASS_REFERENCE.html#comments){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Sass Supported Comments

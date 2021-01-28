@@ -6,6 +6,14 @@ links:
   - >-
     [MDN: <img>
     Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Image Alt

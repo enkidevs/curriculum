@@ -13,6 +13,14 @@ links:
   - >-
     [MDN Docs on Box
     Sizing](https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Use `box-sizing` to define an element's `width` and `height` properties
@@ -59,4 +67,3 @@ What's the default value for `box-sizing`?
 - `undefined`
 - `padding-box`
 - `border-box`
- 

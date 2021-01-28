@@ -2,12 +2,15 @@
 author: mihaiberq
 type: normal
 category: must-know
-inAlgoPool: false
 links:
   - '[Scrimba CSS Float & Clear](https://scrimba.com/p/pWvwCg/cD6KWHq){website}'
   - >-
     [MDN Docs on
     Float](https://developer.mozilla.org/en-US/docs/Web/CSS/float){documentation}
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Floating Elements

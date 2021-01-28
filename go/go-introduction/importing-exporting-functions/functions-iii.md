@@ -1,20 +1,28 @@
 ---
 author: Stefan-Stojanovic
-
 type: normal
-
-category: how to
-
+category: how-to
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # More Function Examples
 
+
 ---
+
 ## Content
 
 Functions that are used in the examples can be seen in the footnotes here[1].
 
 You can call multiple functions within the same `Println()` like so:
+
 ```go
 func main() {
   // Adding the input then 
@@ -52,7 +60,9 @@ func main() {
 // 57
 ```
 
+
 ---
+
 ## Practice
 
 Fill in the missing code to save the result of the `sum` function in a variable called `sumResult`.
@@ -71,7 +81,9 @@ func main() {
 - Sum Result
 - println
 
+
 ---
+
 ## Revision
 
 Complete the gaps to create a function named `sum` that adds and returns its arguments:
@@ -87,10 +99,13 @@ func ???(x, ???, z int) ??? {
 - int
 - z
 
+
 ---
+
 ## Footnotes
 
 [1: Previous Examples]
+
 ```go
 // Function with 3 arguments 
 // that sums the values 

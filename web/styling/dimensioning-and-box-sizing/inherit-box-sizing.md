@@ -1,12 +1,16 @@
 ---
 author: jordanfish
 type: normal
-category: best practice
+category: best-practice
 links:
   - '[CSS Pro Tips](https://github.com/AllThingsSmitty/css-protips){website}'
   - >-
     [MDN Docs on Box
     Sizing](https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing){documentation}
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Inherit `box-sizing`

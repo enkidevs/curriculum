@@ -1,15 +1,18 @@
-﻿---
+---
 author: Stefan-Stojanovic
-
 type: normal
+category: how-to
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+---
 
-category: how to
+# `>` , `>=` , `GT()` & `GTE()`
+
 
 ---
 
-# `>`, `>=`, `GT()` & `GTE()`
-
----
 ## Content
 
 > 💡 When comparing strings, Sheets will compare each character individually, starting from the first. 
@@ -41,7 +44,9 @@ If the first value is greater than or equal to the second value the result will 
 
 Take a look here[3] for more examples on `GTE()`.
 
+
 ---
+
 ## Revision
 
 The `GT()` function and `>` operator are used to check if the first value is greater than the second value and output ??? if it is and ??? if it's not.
@@ -53,7 +58,9 @@ The `GTE()` function and `>=` operator are used to check if the first value is g
 - TRUE
 - FALSE
 
+
 ---
+
 ## Footnotes
 
 [1:Zero & Empty Cells]
@@ -63,6 +70,7 @@ If we had this table:
 | 1 | 0 |   |
 
 Then the formula:
+
 ```plain-text
 =GT(A1, B1)
 

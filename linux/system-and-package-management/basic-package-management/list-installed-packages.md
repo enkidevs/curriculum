@@ -1,7 +1,7 @@
 ---
 author: tuwidc
 type: normal
-category: how to
+category: how-to
 tags:
   - linux
   - terminal
@@ -13,6 +13,14 @@ tags:
   - installed
   - grep
 notes: ''
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # List installed packages

@@ -1,20 +1,26 @@
 ---
 author: emmab
-
 tags:
   - introduction
-
 type: normal
-
 category: must-know
-
 links:
   - '[The Mode Notebook](https://mode.com/help/articles/notebook/){website}'
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
+
 # Mode for Data Analysts
 
+
 ---
+
 ## Content
 
 Mode offers analysts with all the things that they could dream of to make their lives easier. 
@@ -41,6 +47,7 @@ Mode Business unlocks all the meat and juice of Mode and helps users to achieve 
 
 
 ---
+
 ## Practice
 
 Mode's Notebook supports Python 2.7, Python 3 and ???.
@@ -50,7 +57,9 @@ Mode's Notebook supports Python 2.7, Python 3 and ???.
 - PostgreSQL
 - MySQL
 
+
 ---
+
 ## Revision
 
 Mode's Notebook supports Python 2.7, ??? and R.
@@ -59,4 +68,3 @@ Mode's Notebook supports Python 2.7, ??? and R.
 - Ruby
 - JavaScript
 - SQL
- 

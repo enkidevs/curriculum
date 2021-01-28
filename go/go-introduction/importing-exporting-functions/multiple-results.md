@@ -1,15 +1,22 @@
 ---
 author: Stefan-Stojanovic
-
 type: normal
-
-category: how to
-
+category: how-to
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Functions Can Return None or Multiple Results
 
+
 ---
+
 ## Content
 
 Function that returns three results:
@@ -33,7 +40,9 @@ The above function gets two numbers inputted and then calculates the average of 
 
 Functions can also return no results. A well-known function like that is the `main()` function.
 
+
 ---
+
 ## Practice
 
 Functions in **Go** can return more than 1 result?
@@ -43,7 +52,9 @@ Functions in **Go** can return more than 1 result?
 - true
 - false
 
+
 ---
+
 ## Revision
 
 What is a well-known function that has no return values?

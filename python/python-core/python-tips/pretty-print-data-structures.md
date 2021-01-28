@@ -5,6 +5,14 @@ category: feature
 links:
   - '[pymotw.com](https://pymotw.com/2/pprint/){website}'
 notes: ''
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Pretty print data structures

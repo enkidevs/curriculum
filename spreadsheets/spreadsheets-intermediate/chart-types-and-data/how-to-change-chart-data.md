@@ -1,15 +1,18 @@
-﻿---
+---
 author: Stefan-Stojanovic
-
 type: normal
-
-category: how to
-
+category: how-to
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # How to Change Chart Data
 
+
 ---
+
 ## Content
 
 There might be times when you want to add more data to your chart after creating it.
@@ -40,10 +43,12 @@ After you click on the `Add another range` button you can navigate to any sheet 
 
 ![different-sheet](https://img.enkipro.com/ec415503b47e9a32facc1c16d25f981f.gif)
 
+
 ---
+
 ## Practice
 
 To add new data to an existing chart you ???
 
-* can pick data from any cells and any sheet within the same spreadsheet.
-* have to pick data from the sheet where the chart was created.
+- can pick data from any cells and any sheet within the same spreadsheet.
+- have to pick data from the sheet where the chart was created.

@@ -1,7 +1,7 @@
 ---
 author: oj14henry
 type: normal
-category: how to
+category: how-to
 tags:
   - shape
   - outside
@@ -9,6 +9,14 @@ links:
   - >-
     [Working With
     Shapes](https://css-tricks.com/working-with-shapes-in-web-design/){article}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Manipulating shapes using CSS: `shape-outside`

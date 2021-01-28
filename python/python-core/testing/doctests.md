@@ -4,6 +4,14 @@ type: normal
 category: must-know
 links:
   - '[More on doctests](https://docs.python.org/3/library/doctest.html){website}'
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Doctest

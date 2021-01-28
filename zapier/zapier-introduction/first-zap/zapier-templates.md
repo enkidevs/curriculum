@@ -5,6 +5,10 @@ type: normal
 links:
   - '[Explore Integrations](https://zapier.com/apps/integrations){website}'
   - '[Discover Apps](https://zapier.com/apps){website}'
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Templates
@@ -44,4 +48,3 @@ In Zapier, you can ???.
 - use predefined templates or create your own zaps.
 - only use the most popular applications.
 - upload and edit images as you wish.
- 

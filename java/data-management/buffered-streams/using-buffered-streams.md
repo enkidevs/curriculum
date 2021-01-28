@@ -1,7 +1,7 @@
 ---
 author: adamMontgomerie
 type: normal
-category: best practice
+category: best-practice
 tags:
   - streams
   - file-io
@@ -9,6 +9,10 @@ tags:
 links:
   - >-
     [docs.oracle.com](https://docs.oracle.com/javase/tutorial/essential/io/buffers.html){website}
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Using buffered streams

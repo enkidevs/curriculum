@@ -7,6 +7,14 @@ tags:
   - workout
 links:
   - '[Node Errors](https://nodejs.org/api/errors.html){website}'
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Handling event errors

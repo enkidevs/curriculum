@@ -1,7 +1,7 @@
 ---
 author: tuwidc
 type: normal
-category: how to
+category: how-to
 tags:
   - linux
   - terminal
@@ -9,6 +9,10 @@ tags:
   - hdd
   - fsck
   - check
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Check the HDD with `badblocks`

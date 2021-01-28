@@ -2,7 +2,6 @@
 author: Mathieu
 type: normal
 category: feature
-inAlgoPool: false
 links:
   - >-
     [MDN Doc on CSS

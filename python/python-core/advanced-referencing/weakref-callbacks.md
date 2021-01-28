@@ -1,9 +1,17 @@
 ---
 author: catalin
 type: normal
-category: how to
+category: how-to
 links:
   - '[pymotw.com](https://pymotw.com/2/weakref/#references){website}'
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # `weakref` callbacks
@@ -68,3 +76,4 @@ What functionality does `callback` carry in `r = weakref.ref(enki, callback)`?
 
 - callback function is invoked when enki is deleted.
 - In this case callback is a proxy to enki.
+ 

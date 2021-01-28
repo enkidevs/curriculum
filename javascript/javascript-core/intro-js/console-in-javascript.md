@@ -8,6 +8,14 @@ links:
   - >-
     [MDN
     Documentation](https://developer.mozilla.org/en/docs/Web/API/Console/log){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # `console.*` in JavaScript
@@ -64,7 +72,7 @@ In addition to this, `console.*` can be used to pipe information to `stdout` in 
 > 💡 As with all the skills in the app, if you want to access more advanced or specific content at any time, **feel free to use the *Skill Map* tab** to jump to the workouts most relevant for you.
 
 > 💬 Why are you interested in learning Javascript?
-> 
+>
 > Leave a comment or view some of the other comments for inspiration before moving on.
 
 
@@ -97,3 +105,4 @@ Log a message in the `console`:
 - `output`
 - `show`
 - `warn`
+ 

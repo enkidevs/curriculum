@@ -1,21 +1,25 @@
 ---
 author: emmab
-
 tags:
   - introduction
-
 type: normal
-
 category: must-know
-
 links:
   - >-
     [is
     operator](http://stackoverflow.com/questions/13650293/understanding-pythons-is-operator){website}
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # The `is` operator
+
 
 ---
 
@@ -66,6 +70,7 @@ x == y
 > 💡 The `==` operator can be used to check whether the *values* are the same.
 
 Let's take a look at another example:
+
 ```py
 x = 'hello'
 y = 'hello'
@@ -75,6 +80,7 @@ x is y
 ```
 
 Although `x is y` should be `False`, the result is `True` in this case. This is due to how Python manages memory. The interpreter optimizes location in memory and both `x` and `y` end up pointing to the same object:
+
 ```py
 print(hex(id(x)))
 # '0x7faef0fc9dc0'
@@ -84,6 +90,7 @@ print(hex(id(y)))
 ```
 
 You can also negate the `is` operator to check whether an instance `is not` identical to another instance.
+
 
 ---
 
@@ -95,6 +102,7 @@ The `is` operator is used to match ??? instead of values.
 - objects
 - lists
 - classes
+
 
 ---
 
@@ -115,3 +123,4 @@ pizza is pasta
 - `True`
 - `Error`
 - `false`
+ 

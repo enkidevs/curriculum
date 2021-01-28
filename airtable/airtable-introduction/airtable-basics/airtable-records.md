@@ -2,6 +2,10 @@
 author: kapnobatai136
 category: must-know
 type: normal
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Records
@@ -35,4 +39,3 @@ In Airtable, a record is identifiable by its ???.
 - row number
 - third column
 - Notes column
- 

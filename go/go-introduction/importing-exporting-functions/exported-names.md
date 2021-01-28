@@ -1,15 +1,22 @@
 ---
 author: Stefan-Stojanovic
-
 type: normal
-
-category: how to
-
+category: how-to
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Exported Names
 
+
 ---
+
 ## Content
 
 The difference between **exported** and **imported**:
@@ -72,7 +79,9 @@ enki.bye()
 // ./prog.go:8:2: undefined: enki.bye
 ```
 
+
 ---
+
 ## Practice
 
 Given the piece of code below, add any missing parts so the output would properly print the result shown in the comment.
@@ -101,7 +110,9 @@ func main() {
 - FMT.Println
 - import "FMT"
 
+
 ---
+
 ## Revision
 
 **Exported** names always start with a capital letter?

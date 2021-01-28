@@ -2,7 +2,6 @@
 author: alexjmackey
 type: normal
 category: must-know
-inAlgoPool: false
 links:
   - >-
     [MDN -
@@ -10,6 +9,14 @@ links:
   - >-
     [MDN - Exception
     Handling](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator/throw){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Generators and Exceptions
@@ -96,3 +103,4 @@ What syntax should be used to catch errors within generators?
 - gen.catch()
 - gen.throw()
 - if/else
+ 

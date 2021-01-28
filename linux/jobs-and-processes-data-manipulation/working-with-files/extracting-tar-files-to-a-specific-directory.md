@@ -1,13 +1,17 @@
 ---
 author: tuwidc
 type: normal
-category: how to
+category: how-to
 tags:
   - linux
   - tar
   - terminal
   - extract
   - compress
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Extracting `tar` files to a specific directory

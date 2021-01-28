@@ -2,7 +2,10 @@
 author: jfarmer
 type: normal
 category: must-know
-inAlgoPool: false
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # The Basics of Process Ownership
@@ -34,4 +37,3 @@ Other than the owner of the process, who else has access to it?
 - The root
 - No one else
 - All other users
- 

@@ -9,6 +9,14 @@ links:
   - >-
     [Justify
     Content](https://developer.mozilla.org/en-US/docs/Web/CSS/justify-content){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Flexbox `justify-content`

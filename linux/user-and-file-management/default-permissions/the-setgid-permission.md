@@ -5,6 +5,14 @@ category: must-know
 tags:
   - deep
   - workout
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # The `setgid` permission

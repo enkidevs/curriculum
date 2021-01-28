@@ -6,6 +6,14 @@ links:
   - >-
     [More on Retention
     Annotation](https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.4.2){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Retention and Inherited Annotations

@@ -1,7 +1,7 @@
 ---
 author: tuwidc
 type: normal
-category: how to
+category: how-to
 tags:
   - linux
   - hardware
@@ -12,6 +12,14 @@ tags:
 links:
   - '[lspci](http://linux.die.net/man/8/lspci){website}'
   - '[lshw](http://linux.die.net/man/1/lshw){website}'
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Get hardware stack details with `lspci`

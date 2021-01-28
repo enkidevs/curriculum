@@ -1,18 +1,26 @@
-﻿---
+---
 author: Stefan-Stojanovic
-
 type: normal
-
-category: how to
-
+category: how-to
 links:
-  - '[Sample Data](https://www.learningcontainer.com/sample-excel-data-for-analysis#Sample_Xlsx_file_download-2){website}'
-
+  - >-
+    [Sample
+    Data](https://www.learningcontainer.com/sample-excel-data-for-analysis#Sample_Xlsx_file_download-2){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Populating Your Pivot Table
 
+
 ---
+
 ## Content
 
 Let's see how you can populate your pivot table!
@@ -53,7 +61,9 @@ You can switch the order of the data by dragging it.
 
 In the same manner, you can add columns.
 
+
 ---
+
 ## Practice
 
 Newly created pivot tables are always empty.
@@ -63,7 +73,9 @@ Newly created pivot tables are always empty.
 - True
 - False
 
+
 ---
+
 ## Revision
 
 In a pivot table, the `Rows` and ??? fields are used to populate it.
@@ -72,7 +84,9 @@ In a pivot table, the `Rows` and ??? fields are used to populate it.
 - Filters
 - Values
 
+
 ---
+
 ## Footnotes
 
 [1:Pivot Table Editor]

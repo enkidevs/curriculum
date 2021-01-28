@@ -1,7 +1,7 @@
 ---
 author: adamMontgomerie
 type: normal
-category: how to
+category: how-to
 tags:
   - file-io
   - char
@@ -9,6 +9,14 @@ tags:
 links:
   - >-
     [docs.oracle.com](https://docs.oracle.com/javase/tutorial/essential/io/charstreams.html){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Reading and writing text files

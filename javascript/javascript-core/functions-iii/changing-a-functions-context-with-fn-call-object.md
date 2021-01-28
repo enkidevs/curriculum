@@ -8,9 +8,18 @@ links:
   - >-
     [Mozilla Developer
     Network](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/call){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Changing a Functions Context With `fn.call(Object)`
+
 
 ---
 
@@ -67,3 +76,4 @@ Using the .???() method will change the ??? context of a JavaScript function cal
 - `this`
 - `context`
 - `scope`
+ 

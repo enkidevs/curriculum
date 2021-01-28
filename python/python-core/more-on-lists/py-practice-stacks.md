@@ -5,7 +5,7 @@ tags:
   - workout
   - deep
 type: exercise
-category: best practice
+category: best-practice
 links:
   - >-
     [link to official

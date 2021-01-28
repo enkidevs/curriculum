@@ -6,7 +6,10 @@ links:
   - >-
     [Why Is It Safer to Keep the Tree
     Balanced?](http://stackoverflow.com/questions/8015630/definition-of-a-balanced-tree){website}
-
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Balanced vs. Unbalanced Binary Trees
@@ -56,4 +59,3 @@ Self-balancing binary search tree, in which the height of the two child subtrees
 
 [2: Red-Black tree]
 Self-balancing binary search tree, in which nodes store an additional bit of data: whether the node is black or red. All of the tree's leaves must be black and, in case of a node being red, its two children must be black.
- 

@@ -1,15 +1,22 @@
-﻿---
+---
 author: Stefan-Stojanovic
-
 type: normal
-
-category: how to
-
+category: how-to
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Map
 
+
 ---
+
 ## Content
 
 `map` is a reserved keyword used to create a "map".
@@ -94,7 +101,9 @@ fmt.Println("len: ", len(m))
 // len: 2
 ```
 
+
 ---
+
 ## Practice
 
 Complete the map syntax code:
@@ -110,7 +119,9 @@ make(???[???]???)
 - key
 - val
 
+
 ---
+
 ## Revision
 
 Here is a sample map with 3 key-value pairs.

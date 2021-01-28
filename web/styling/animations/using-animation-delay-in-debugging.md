@@ -9,6 +9,14 @@ links:
   - >-
     [MDN Docs on
     animation-delay](https://developer.mozilla.org/en-US/docs/Web/CSS/animation-delay){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Using animation delay in debugging

@@ -1,20 +1,28 @@
 ---
 author: Stefan-Stojanovic
-
 type: normal
-
 category: must-know
-
 links:
-  - '[Why Was Go Created](https://tip.golang.org/doc/faq#creating_a_new_language){article}'
-  - '[Official Website](https://golang.org/){website}' 
+  - >-
+    [Why Was Go
+    Created](https://tip.golang.org/doc/faq#creating_a_new_language){article}
+  - '[Official Website](https://golang.org/){website}'
   - '[How Gopher Was Created](https://blog.golang.org/gopher){article}'
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Meet Go
 
+
 ---
+
 ## Content
 
 Go is a [statically typed](https://www.enki.com/glossary/general/statically-typed), fast [compiled](https://www.enki.com/glossary/general/compilation), and [open-source](https://www.enki.com/glossary/general/open-source) language designed by Google.
@@ -33,7 +41,9 @@ It also has a cool mascot, the Gopher!
 
 ![gopher](https://img.enkipro.com/0de65d1452f38c7e2c9afa4bcf162f97.png)
 
+
 ---
+
 ## Practice
 
 A commonly used name for Go is ???
@@ -43,7 +53,9 @@ A commonly used name for Go is ???
 - Ghost
 - Gothic
 
+
 ---
+
 ## Revision
 
 Go was born out of the need for efficiency, safety, and ???.
@@ -53,7 +65,9 @@ Go was born out of the need for efficiency, safety, and ???.
 - a cool mascot
 - homage to C
 
+
 ---
+
 ## Footnotes
 
 [1:C Family of Languages]

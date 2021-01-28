@@ -9,6 +9,10 @@ links:
   - >-
     [Functional Programming
     HOWTO](https://docs.python.org/2/howto/functional.html){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Eschewing Shared State

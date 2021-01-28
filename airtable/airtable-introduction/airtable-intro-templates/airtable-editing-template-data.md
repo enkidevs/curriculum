@@ -2,6 +2,10 @@
 author: kapnobatai136
 category: must-know
 type: normal
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Editing Template Data
@@ -36,4 +40,3 @@ Imported templates ??? be edited.
 
 - can
 - can't
- 

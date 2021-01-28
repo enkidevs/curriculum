@@ -8,6 +8,14 @@ tags:
 category: must-know
 links:
   - '[Writable Streams](https://gist.github.com/joyrexus/10026630){website}'
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Writable Streams

@@ -3,7 +3,16 @@ author: Bruno
 type: normal
 category: tip
 links:
-  - '[stackoverflow](http://stackoverflow.com/questions/1590247){discussion}'
+  - >-
+    [How do you implement a Stack and a Queue in JavaScript?](http://stackoverflow.com/questions/1590247){discussion}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Arrays Can Be Used as Stack
@@ -74,3 +83,4 @@ s.??? ; // s = [1,2,4]
 - push(4)
 - pop(2)
 - pop(4)
+ 

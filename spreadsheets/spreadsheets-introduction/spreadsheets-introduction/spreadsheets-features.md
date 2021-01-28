@@ -1,7 +1,15 @@
 ---
 author: Stefan-Stojanovic
 type: normal
-category: how to
+category: how-to
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Spreadsheet Features I
@@ -40,4 +48,3 @@ What can you **NOT** do using spreadsheets?
 - Calculate numerical data.
 - Create graphs and charts.
 - Create pivot tables.
- 

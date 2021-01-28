@@ -6,6 +6,14 @@ links:
   - >-
     [more about built-in
     exceptions](https://docs.python.org/3/library/exceptions.html){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Built-in Exceptions

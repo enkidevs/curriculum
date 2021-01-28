@@ -1,10 +1,7 @@
 ---
 author: lizTheDeveloper
-
 type: normal
-
-category: best practice
-
+category: best-practice
 links:
   - >-
     [A deeper dive on how and why this
@@ -13,10 +10,18 @@ links:
   - >-
     [Auth0 on how and where to store
     tokens](https://auth0.com/docs/security/store-tokens){website}
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Tokens
+
 
 ---
 
@@ -27,6 +32,7 @@ To identify a request, use a **session token**, and use the session server to st
 If you must send state to a user and be sure it has not been tampered with, you can use an **Integrity Check**. **JSON Web Tokens** have a built-in integrity check, and are a great example of a way to represent claims securely between two parties.
 
 You can use an in-memory store often to store session tokens for later retrevial. Memcached, Redis, and other NoSQL databases are specifically designed to accommodate this type of task, instead offering O(1) access against a key.
+
 
 ---
 

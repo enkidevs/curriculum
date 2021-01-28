@@ -7,6 +7,10 @@ tags:
   - terminal
   - time
   - UTC
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Incorrect time on dual boot systems
@@ -51,6 +55,7 @@ FSCKFIX=no # automatically repair
            # filesystems
 ```
 
+
 ---
 
 ## Revision
@@ -60,6 +65,7 @@ Most of the Unix/Linux operating systems use ??? as the basis for local time.
 - UTC
 - LTS
 - UTL
+
 
 ---
 

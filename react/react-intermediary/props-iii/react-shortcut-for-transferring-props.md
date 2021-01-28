@@ -1,11 +1,19 @@
 ---
 author: catalin
 type: normal
-category: how to
+category: how-to
 links:
   - >-
     [Spread
     attributes](https://facebook.github.io/react/docs/jsx-in-depth.html#spread-attributes){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Shortcut for transferring props

@@ -11,6 +11,14 @@ links:
   - >-
     [Cookies vs
     localStorage](https://medium.com/datadriveninvestor/cookies-vs-local-storage-2f3732c7d977){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # `Window.localStorage`
@@ -96,3 +104,4 @@ Create a `localStorage` item with key `awesome` and value `enki`:
 - `clear`
 - `getItem`
 - `newItem`
+ 

@@ -12,6 +12,14 @@ links:
     [iptables(8) - Linux man
     page](https://linux.die.net/man/8/iptables){website}
 notes: ''
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Intro to `iptables`

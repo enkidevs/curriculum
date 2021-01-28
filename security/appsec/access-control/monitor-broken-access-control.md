@@ -1,10 +1,7 @@
 ---
 author: lizTheDeveloper
-
 type: normal
-
-category: best practice
-
+category: best-practice
 links:
   - >-
     [Event Log
@@ -12,10 +9,18 @@ links:
   - >-
     [Best Practices for audit
     logs](https://www.computerweekly.com/tip/Best-practices-for-audit-log-review-for-IT-security-investigations){website}
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Monitor Broken Access Control
+
 
 ---
 
@@ -63,4 +68,3 @@ The result of ???
 - the determination of the validity of the credential
 - The user's name
 - The number of times the user has presented this credential
- 

@@ -1,7 +1,7 @@
 ---
 author: nene
 type: normal
-category: how to
+category: how-to
 tags:
   - browser
   - scrollbar
@@ -9,6 +9,14 @@ links:
   - >-
     [Hiding the Scrollbar on the
     Web](http://stackoverflow.com/questions/3296644/hiding-the-scrollbar-on-an-html-page){discussion}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Hide the scrollbar in webkit browser

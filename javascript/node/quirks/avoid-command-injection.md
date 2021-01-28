@@ -1,18 +1,23 @@
 ---
 author: catalin
-
 type: normal
-
-category: best practice
-
+category: best-practice
 tags:
   - workout
   - deep
   - obscura
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Avoid Command Injection
+
 
 ---
 
@@ -33,6 +38,7 @@ The problem is that `child_process.exec` makes a call to execute `/bin/sh`, mean
 When the user input is passed to the method - can be either *a backtick*  or `$()`, hence a new command can be injected by the attacker.
 
 The simple way to avoid this threat is by using `child_process.execFile` or `child_process.spawn`.
+
 
 ---
 

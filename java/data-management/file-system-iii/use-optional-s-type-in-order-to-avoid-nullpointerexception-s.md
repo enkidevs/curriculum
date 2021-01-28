@@ -9,6 +9,14 @@ links:
     [blog.idrsolutions.com](https://blog.idrsolutions.com/2015/04/java-8-optional-class-explained-in-5-minutes/){website}
 notes: >-
   https://insights.enki.com/#/contrib/others/55f03bb3f457f33b0062114e?search=khandelwalrinki
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Use `Optional(s)` type in order to avoid `NullPointerException(s)`

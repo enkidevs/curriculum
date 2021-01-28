@@ -1,18 +1,24 @@
 ---
 author: emmab
-
 tags:
   - introduction
-
 type: normal
-
 category: must-know
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Basic Terminology I
 
+
 ---
+
 ## Content
 
 Let's make sure you're comfortable with these core statistical concepts 🔧.
@@ -47,15 +53,18 @@ Using the list above, the median is 10.
 
 
 ---
+
 ## Practice
 
 As the temperature goes down, ice cream sales also go down. This is an example of ???.
 
-* positive correlation
-* no correlation
-* negative correlation
+- positive correlation
+- no correlation
+- negative correlation
+
 
 ---
+
 ## Revision
 
 Imagine we have the following list of numbers:
@@ -70,7 +79,9 @@ Median = ???
 - 10
 - 15
 
+
 ---
+
 ## Footnotes
 
 [1:Correlation]
@@ -78,4 +89,3 @@ Median = ???
 If values increase or decrease together, they are **positively correlated**. If values from one set increase as the other decreases, they are **negatively correlated**. 
 
 There is **no correlation** when a change in one set has nothing to do with a change in the other.
- 

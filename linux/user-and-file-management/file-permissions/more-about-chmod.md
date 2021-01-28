@@ -2,6 +2,14 @@
 author: nene
 type: normal
 category: must-know
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # More about `chmod`
@@ -58,6 +66,7 @@ Here're a few more examples of commonly used permissions:
 740	owner can read, write, & execute; group can only read; others have no permission
 ```
 
+
 ---
 
 ## Practice
@@ -76,6 +85,7 @@ Add *read/execute* permissions for *group* and *other* for `enki.txt`:
 - `755`
 - `changemod`
 - `chperm`
+
 
 ---
 

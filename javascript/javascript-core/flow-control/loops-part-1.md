@@ -5,6 +5,14 @@ category: must-know
 links:
   - '[For Loops](https://youtu.be/24Wpg6njlYI){video}'
   - '[While / Do While loops](https://youtu.be/v9zgD8wjtbw){video}'
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Loops - Part 1
@@ -126,3 +134,4 @@ Complete the following `for` loop such that it's syntactically correct and runs 
 - `while`
 - `do`
 - `i--`
+ 

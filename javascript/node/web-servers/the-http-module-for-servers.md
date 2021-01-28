@@ -7,6 +7,14 @@ tags:
   - workout
 links:
   - '[The HTTP Module](https://davidwalsh.name/nodejs-http-request){website}'
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # The `http` module for servers

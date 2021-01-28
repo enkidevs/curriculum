@@ -6,6 +6,14 @@ links:
   - >-
     [Generating a Bitcoin address on your
     own](http://procbits.com/2013/08/27/generating-a-bitcoin-address-with-javascript){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Wallets
@@ -56,4 +64,3 @@ What do you need to obtain an address' balance for a particular cryptocoin?
 - The private key and a blockchain connection.
 - The public key.
 - The public/private key pair.
- 

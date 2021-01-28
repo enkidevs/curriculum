@@ -1,7 +1,15 @@
 ---
 author: pawel
 type: normal
-category: best practice
+category: best-practice
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Most Efficient Way to Build `HTML` Strings
@@ -78,3 +86,4 @@ What's the more efficient way to build `HTML` strings in modern browsers?
 - 1
 - 2
 - 3
+ 

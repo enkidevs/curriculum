@@ -2,6 +2,14 @@
 author: mihaiberq
 type: normal
 category: must-know
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Delegated Proof of Stake (DPoS)
@@ -50,4 +58,3 @@ When does a new vote happen?
 - Every 2 hours
 - The price of the coin in USD
 - When the price of the coin drops by more than 15%
- 

@@ -2,6 +2,14 @@
 author: mihaiberq
 type: normal
 category: must-know
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Post-order Traversal
@@ -85,4 +93,3 @@ D     F    E
 - A,B,D,F,C,E
 - D,B,F,A,C,E
 - A,B,C,D,E,F
- 

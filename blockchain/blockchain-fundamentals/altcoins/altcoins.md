@@ -2,6 +2,14 @@
 author: mihaiberq
 type: normal
 category: must-know
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Altcoins
@@ -61,4 +69,3 @@ What platform released a standardized token format?
 - Yes
 - Bitcoin
 - Litecoin
- 

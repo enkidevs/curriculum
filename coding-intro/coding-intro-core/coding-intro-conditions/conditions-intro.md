@@ -1,15 +1,22 @@
 ---
 author: kapnobatai136
-
 type: normal
-
 category: must-know
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Conditions Intro
 
+
 ---
+
 ## Content
 
 Have you ever wondered how computer programs can have the same code but with different outcomes? Welcome to the programmer's crossroads.
@@ -26,7 +33,9 @@ input = 0
 
 In the following insights, we'll use `input` to help our robot make decisions.
 
+
 ---
+
 ## Practice
 
 What type is the `input` variable?
@@ -41,7 +50,9 @@ input = 0
 - string
 - list
 
+
 ---
+
 ## Revision
 
 What type is the `input` variable?

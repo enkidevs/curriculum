@@ -1,21 +1,28 @@
 ---
 author: emmab
-
 tags:
   - introduction
-
 type: normal
-
 category: must-know
-
 links:
-  - '[Mode Guide](https://mode.com/help/articles/getting-started-with-mode/#visualize-results){website}'
-
-
+  - >-
+    [Mode
+    Guide](https://mode.com/help/articles/getting-started-with-mode/#visualize-results){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
+
 # How to use Mode
 
+
 ---
+
 ## Content
 
 Mode can be implemented and analysis can be run using these 6 simple steps:
@@ -48,7 +55,9 @@ Design the report layout however you like: pick the charts and tables you want t
 
 Share your analysis with others. Mode makes it easy to share your work with other members of your organization, whether via email, Slack, or sending a URL.
 
+
 ---
+
 ## Practice
 
 What type of databases can Mode connect to?
@@ -58,7 +67,9 @@ What type of databases can Mode connect to?
 - SQL databases
 - NoSQL databases
 
+
 ---
+
 ## Revision
 
 Every user with access to Mode can execute queries.
@@ -67,4 +78,3 @@ Every user with access to Mode can execute queries.
 
 - True
 - False
- 

@@ -6,6 +6,14 @@ links:
   - '[pymotw.com](https://pymotw.com/2/re/){website}'
   - >-
     [docs.python.org](https://docs.python.org/3.5/howto/regex.html#regex-howto){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Regular expressions

@@ -2,6 +2,14 @@
 author: alexjmackey
 type: normal
 category: must-know
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # JavaScript Basics - Part 2
@@ -114,3 +122,4 @@ let 777jackpot = "jackpot";
 - 1
 - 1 & 3
 - 2
+ 

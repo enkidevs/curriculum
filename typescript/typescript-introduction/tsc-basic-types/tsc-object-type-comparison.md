@@ -9,6 +9,14 @@ links:
   - >-
     [Play with object
     types](https://repl.it/@enkicontent/TypeScriptPlayWithObjectTypes){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # `{}` vs `object` vs `Object`

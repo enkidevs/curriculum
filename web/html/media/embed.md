@@ -9,6 +9,14 @@ links:
   - >-
     [MDN: <embed>
     Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/embed){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # The `<embed>` Element

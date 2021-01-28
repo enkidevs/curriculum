@@ -1,13 +1,19 @@
 ---
 author: mihaiberq
-
 type: normal
-
 category: must-know
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Memory Allocation & Mutable Types
+
 
 ---
 
@@ -84,6 +90,7 @@ print(mem_loc(new_a))
 
 In other words, `1` exists in memory as the **integer object 1**, at the address `0x55a7b5df7080`.
 
+
 ---
 
 ## Practice
@@ -103,6 +110,7 @@ print(a)
 - `{'key': 'value', 'key': 'mutable'}`
 - `{}`
 
+
 ---
 
 ## Revision
@@ -121,3 +129,4 @@ print(a)
 - `5`
 - `[]`
 - `a`
+ 

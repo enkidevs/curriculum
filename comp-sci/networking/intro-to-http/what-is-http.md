@@ -6,6 +6,14 @@ links:
   - '[www.tutorialspoint.com](https://www.tutorialspoint.com/http/){website}'
   - '[techterms.com](https://techterms.com/definition/http){website}'
   - '[http2.github.io](https://http2.github.io/){website}'
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # What is HTTP
@@ -71,4 +79,3 @@ HTTP/2 characteristics:
 
 [2: Statistics]
 <https://w3techs.com/technologies/details/ce-http2/all/all>
- 

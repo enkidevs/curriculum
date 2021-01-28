@@ -6,6 +6,14 @@ links:
   - >-
     [Official
     Documentation](https://docs.mongodb.com/manual/reference/method/db.dropDatabase/){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Delete a database

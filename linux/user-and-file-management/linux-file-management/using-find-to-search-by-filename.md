@@ -1,21 +1,26 @@
 ---
 author: jfarmer
-
 type: normal
-
 category: must-know
-
 tags:
   - introduction
   - workout
-
 links:
   - >-
-    [Practical Examples of Linux Find Command](http://www.tecmint.com/35-practical-examples-of-linux-find-command/){website}
-
+    [Practical Examples of Linux Find
+    Command](http://www.tecmint.com/35-practical-examples-of-linux-find-command/){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Using `find` To Search By Filename
+
 
 ---
 
@@ -59,6 +64,7 @@ Thus, in the first example, it's slightly more correct to search for mp3 files w
 find . -type f -name "*.mp3"
 ```
 
+
 ---
 
 ## Practice
@@ -77,6 +83,7 @@ Search in the home directory for files that contain happy in their title:
 - `"*happy*"`
 - `"happy"`
 - `d`
+
 
 ---
 

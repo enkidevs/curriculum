@@ -6,6 +6,14 @@ links:
   - >-
     [Bitcoin transactions are not that
     anonymous.](https://www.technologyreview.com/s/608716/bitcoin-transactions-arent-as-anonymous-as-everyone-hoped/){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # How to De-Anonymize Bitcoin
@@ -52,4 +60,3 @@ Which of the following practices reduces the chances (ever so slightly) of being
 - Using the same service repeatedly
 - Using an online exchange
 - Combining multiple outputs into inputs for the same transaction
- 

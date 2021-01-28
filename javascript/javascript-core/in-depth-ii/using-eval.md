@@ -1,10 +1,18 @@
 ---
 author: rosielowther
 type: normal
-category: best practice
+category: best-practice
 links:
   - >-
     [developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/eval){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Using `eval`
@@ -59,3 +67,4 @@ Executing javascript code passed in as a string is done with the function ???
 - `evil()`
 - `evaluate()`
 - `(string).toJS()`
+ 

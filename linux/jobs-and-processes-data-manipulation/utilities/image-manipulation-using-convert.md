@@ -1,7 +1,7 @@
 ---
 author: tuwidc
 type: normal
-category: how to
+category: how-to
 tags:
   - linux
   - terminal
@@ -11,6 +11,10 @@ tags:
   - ImageMagic
 links:
   - '[www.imagemagick.org](http://www.imagemagick.org/Usage/){website}'
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Image manipulation using `convert`

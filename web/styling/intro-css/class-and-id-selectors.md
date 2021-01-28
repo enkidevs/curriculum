@@ -2,7 +2,6 @@
 author: mihaiberq
 type: normal
 category: must-know
-inAlgoPool: false
 links:
   - >-
     [MDN Docs on CSS
@@ -13,6 +12,14 @@ links:
   - >-
     [Scrimba CSS Classes and
     ID's](https://scrimba.com/p/pWvwCg/cBQp9Cw){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Class and ID Selectors
@@ -63,8 +70,9 @@ And the HTML:
 > 💡 As with all the skills in the app, if you want to access more advanced or specific content at any time, **feel free to use the *Skill Map* tab** to jump to the workouts most relevant for you.
 
 > 💬 Why are you interested in learning CSS?
-> 
+>
 > Leave a comment or view some of the other comments for inspiration before moving on.
+
 
 ---
 

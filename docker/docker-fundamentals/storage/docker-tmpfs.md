@@ -4,6 +4,10 @@ type: normal
 category: feature
 links:
   - '[Use tmpfs mounts](https://docs.docker.com/storage/tmpfs/){documentation}'
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Tmpfs

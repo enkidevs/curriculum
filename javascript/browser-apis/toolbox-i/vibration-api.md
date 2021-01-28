@@ -7,6 +7,14 @@ links:
   - >-
     [Mozilla Developer
     Network](https://developer.mozilla.org/en-US/docs/Web/API/Vibration_API){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Vibration API
@@ -82,3 +90,4 @@ navigator.???(???);
 - `5000`
 - `start`
 - `vibration`
+ 

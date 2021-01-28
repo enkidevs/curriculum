@@ -2,6 +2,10 @@
 author: kapnobatai136
 category: feature
 type: normal
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Display Settings
@@ -55,4 +59,3 @@ inline ???
 
 - starts on a new line and pushes other elements on new lines
 - allows stacking on the same line but can't change width and height
- 

@@ -6,6 +6,10 @@ links:
   - >-
     [Analysis of the NoSQL
     Landscape](http://blog.knuthaugen.no/2010/03/the-nosql-landscape.html){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Document databases
@@ -41,4 +45,3 @@ Which are the 4 types of NoSQL databases:
 - Column, Graph, Table, Key-Value
 - Table, Graph, Circle, Spreadsheet
 - Spreadsheet, Table, Key-Value, Index
- 

@@ -1,15 +1,22 @@
-﻿---
+---
 author: Stefan-Stojanovic
-
 type: normal
-
-category: how to
-
+category: how-to
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # What Are Pivot Tables
 
+
 ---
+
 ## Content
 
 Pivot tables are used to summarize the data of a more extensive table.
@@ -25,6 +32,7 @@ With pivot tables, you can do all of the above in less time, while also **not mo
 > 💡 If you update the original table, the changes will be instantly visible in the pivot table.
 
 Some other features of pivot tables include:
+
 - sorting, reorganizing and counting
 - extracting totals, averages, and other calculations
 
@@ -32,7 +40,9 @@ All of the calculations are done without you having to type any formulas.
 
 All in all, pivot tables are the best solution for analyzing large data sets.
 
+
 ---
+
 ## Practice
 
 Pivot tables modify the data in the original table.
@@ -42,7 +52,9 @@ Pivot tables modify the data in the original table.
 - False
 - True
 
+
 ---
+
 ## Revision
 
 Which of the following isn't a good use case for pivot tables?

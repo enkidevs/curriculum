@@ -10,6 +10,10 @@ tags:
   - workout
   - workout
 notes: ''
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Bash history reverse search
@@ -41,4 +45,3 @@ Bash reverse search is triggered by ??? .
 - Ctrl+E
 - search -r
 - search -r
- 

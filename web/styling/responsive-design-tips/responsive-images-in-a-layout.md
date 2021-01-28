@@ -1,7 +1,7 @@
 ---
 author: nene
 type: normal
-category: how to
+category: how-to
 tags:
   - responsive design
   - layout
@@ -13,6 +13,10 @@ links:
   - >-
     [Web Design
     Basics](https://developers.google.com/web/fundamentals/layouts/rwd-fundamentals/use-media-queries?hl=en){website}
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Responsive images in a layout

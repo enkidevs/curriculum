@@ -7,6 +7,10 @@ links:
     [confluence.atlassian.com](https://confluence.atlassian.com/display/CONFKB/How+to+fix+out+of+memory+errors+by+increasing+available+memory){website}
 notes: >-
   https://insights.enki.com/#/contrib/others/55f05ce11baba32f002fd31c?search=khandelwalrinki
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Increase `PermGen` space as to avoid `OutOfMemory` errors

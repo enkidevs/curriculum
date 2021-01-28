@@ -1,20 +1,26 @@
 ---
 author: emmab
-
 tags:
   - introduction
-
 type: normal
-
 category: must-know
-
 links:
   - '[Tableau](https://www.tableau.com/en-gb){website}'
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
+
 # Intro to Tableau
 
+
 ---
+
 ## Content
 
 Google Analytics is great for analyzing web traffic and user behavior but what if we want to explore the data inside our databases...
@@ -37,31 +43,35 @@ Tableau offers five main products:
 
 We'll be guiding you through the Desktop product for the rest of this workout. 🖥
 
+
 ---
+
 ## Practice
 
 Which Tableau product can you use for sharing your reports?
 
 ???
 
-* Tableau Server
-* Tableau Prep
-* Tableau Desktop
+- Tableau Server
+- Tableau Prep
+- Tableau Desktop
+
 
 ---
+
 ## Revision
 
 Tableau is a ??? tool rather than a Web Analytics tool.
 
-* Business Intelligence
-* General Analytics
-* CRM
-* SEO Analytics
+- Business Intelligence
+- General Analytics
+- CRM
+- SEO Analytics
+
 
 ---
+
 ## Footnotes
 
 [1:BI tool]
 BI stands for Business Intelligence. BI tools allow companies to perform data analysis. You can connect a BI tool with data from a SQL database, a spreadsheet, or cloud apps like Google Analytics and Salesforce.
-
- 

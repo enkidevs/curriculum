@@ -2,6 +2,10 @@
 author: kapnobatai136
 category: must-know
 type: normal
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Sorting Data
@@ -36,4 +40,3 @@ Sorting and filtering can be used for both ??? and ???.
 - creating a new view
 - deleting a current view
 - updating an old view
- 

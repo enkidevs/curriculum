@@ -1,7 +1,15 @@
 ---
 author: lizTheDeveloper
 type: normal
-category: best practice
+category: best-practice
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Process Control Broken Access Control
@@ -41,4 +49,3 @@ When should application resources be checked for proper access control configura
 - During code review
 - quarterly
 - continuously
- 

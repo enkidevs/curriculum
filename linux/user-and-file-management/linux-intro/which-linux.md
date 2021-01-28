@@ -11,6 +11,10 @@ links:
   - >-
     [Linux
     Distributions](https://en.wikipedia.org/wiki/List_of_Linux_distributions){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Which Linux?
@@ -38,4 +42,3 @@ Different *flavors* of Linux are called ???.
 - distributions
 - distractions
 - bistros
- 

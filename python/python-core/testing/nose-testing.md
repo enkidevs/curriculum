@@ -4,11 +4,19 @@ type: normal
 category: must-know
 links:
   - >-
-    [Node
+    [Nose
     introduction](http://pythontesting.net/framework/nose/nose-introduction/){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
-# Nose testing
+# Nose Testing
 
 
 ---

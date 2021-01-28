@@ -4,9 +4,18 @@ type: normal
 category: tip
 tags:
   - introduction
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Be Careful When Using `typeof` .
+
 
 ---
 
@@ -25,6 +34,7 @@ typeof null // "object"
 typeof new Date() // "object"
 typeof new Array() // "object"
 ```
+
 
 ---
 

@@ -1,12 +1,20 @@
 ---
 author: jordanfish
 type: normal
-category: best practice
+category: best-practice
 links:
   - '[CSS Pro Tips](https://github.com/AllThingsSmitty/css-protips){website}'
   - >-
     [MDN Docs on
     Flexbox](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Avoid margin hacks with `flexbox`
