@@ -68,6 +68,7 @@ Types of change:
 - [Add support for new question types II](https://github.com/enkidevs/curriculum/pull/2565)
 
 ### Changed
+- [HTML - Image Types - Update information, Make Table](https://github.com/enkidevs/curriculum/pull/2563)
 - [Update "best practice" to "best-practice" category](https://github.com/enkidevs/curriculum/pull/2564)
 - [Update "how to" to "how-to" category II](https://github.com/enkidevs/curriculum/pull/2562)
 
