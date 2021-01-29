@@ -23,7 +23,7 @@ File transfer on the network without setting up extra software can be easily ach
 
 `woof` (Web Offer One File) is a script and will run on any machine with *Python* installed.
 
-You can check download it from the link in the **Learn More** section.
+To download it, check the **Learn More** section.
 
 To share a file:
 
