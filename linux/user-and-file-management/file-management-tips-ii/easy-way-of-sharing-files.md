@@ -6,6 +6,10 @@ revisionQuestion:
   formats:
     - fill-in-the-gap
   context: relative
+links:
+  - >-
+    [WOOF](https://www.home.unix-ag.org/simon/woof.html){website}
+
 ---
 
 # Easy way of sharing files
@@ -19,7 +23,7 @@ File transfer on the network without setting up extra software can be easily ach
 
 `woof` (Web Offer One File) is a script and will run on any machine with *Python* installed.
 
-It can be downloaded at: `www.home.unix-ag.org/ simon/woof.html`.
+You can check download it from the link in the **Learn More** section.
 
 To share a file:
 
