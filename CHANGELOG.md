@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## January 29th 2021
+
+### Changed
+- [Linux - Easy Way Of Sharing Files - Move link to the Links section](https://github.com/enkidevs/curriculum/pull/2581)
+
 ## January 27th 2021
 
 ### Added
