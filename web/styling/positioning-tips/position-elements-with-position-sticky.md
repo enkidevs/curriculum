@@ -36,6 +36,22 @@ By simply adding `position: sticky` (vendor prefixed), we can tell an element to
 }
 ```
 
+---
+## Revision
+
+Can you make the `.some-class` class sticky?
+
+```ccss
+.some-class{
+    ???;
+    top: 33px;
+}
+```
+
+- `position: sticky`
+- `position: stick`
+- `sticky: position`
+- `appearance: sticky`
 
 ---
 
