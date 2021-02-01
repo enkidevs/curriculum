@@ -11,7 +11,8 @@ practiceQuestion:
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Hello World!
@@ -68,6 +69,9 @@ Complete the code snippet with the correct function to write `'Python with Enki!
 
 ```plain-text
 ???('Python with Enki!')
+
+# Output:
+# Python with Enki!
 ```
 
 - `print`
