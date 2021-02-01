@@ -5,11 +5,12 @@ category: must-know
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: stadalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: stadalone
 ---
 
 # The Redux store
@@ -77,13 +78,19 @@ store.replaceReducer(newReducer);
 
 ## Practice
 
-Create a Redux store and get the current state of the application:
+First, create a Redux store:
 
 ```js
 import { createStore } from ‘redux’;
 let store =
   ???(reducer, initstate);
 store.???();
+```
+
+Next, try to get its state:
+
+```js
+return store.???()
 ```
 
 - `createStore`
@@ -99,7 +106,7 @@ store.???();
 
 ## Revision
 
-What method is used to send an action to the store and to change the state?
+What method is used to send an action to the redux store (which might trigger a state update)?
 ???
 
 - `dispatch()`

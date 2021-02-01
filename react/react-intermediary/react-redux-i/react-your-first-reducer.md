@@ -5,11 +5,13 @@ category: must-know
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: stadalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: stadalone
 ---
 
 # Your first reducer
@@ -114,13 +116,32 @@ The last step is connecting the handler functions `increase`, `decrease`, and `r
 
 ## Practice
 
-Complete the following code to dispatch the `add` action:
+Assume our redux store reducer looks like this:
+
+```js
+//App.js
+function reducer(
+  state = initialState,
+  action
+) {
+  switch (action.type) {
+    case "increment":
+      return {
+        count: state.count + 1
+      };
+    default:
+      return state;
+  }
+}
+```
+
+Complete the following code to dispatch the `increment` action within a class component:
 
 ```jsx
 class MyApp extends React.Component {
   // ...
-  add = () => {
-    ???.???.???({ ???: 'add' })
+  increment = () => {
+    ???.???.???({ ???: 'increment' })
   };
   // ...
 }
@@ -140,13 +161,33 @@ class MyApp extends React.Component {
 
 ## Revision
 
-Complete the following code to dispatch the `add` action:
+Assume our redux store reducer looks like this:
+
+```js
+//App.js
+function reducer(
+  state = initialState,
+  action
+) {
+  switch (action.type) {
+    case "add":
+      return {
+        count: state.count + action.payload
+      };
+    default:
+      return state;
+  }
+}
+```
+
+
+Complete the following code to dispatch the `add` action within a class component:
 
 ```jsx
 class MyApp extends React.Component {
   // ...
   add = () => {
-    ???.???.???({ ???: 'add' })
+    ???.???.???({ ???: 'add', payload: 2 })
   };
   // ...
 }

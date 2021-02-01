@@ -10,11 +10,13 @@ notes: This can be also placed in the react subtopic
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: stadalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: stadalone
 ---
 
 # Use Redux with React
@@ -63,12 +65,18 @@ Note that you must also pass a `store` attribute to the `<Provider />` wrapper.
 
 ## Practice
 
-Complete the following code such that you will make the `store` available for your `<App />`:
+Complete the following code such that you will make the redux `store` available in your `<App />`:
+
 
 ```jsx
+import React from "react";
+import { Provider } from "react-redux";
+import store from "./redux/store";
+
+
 const App = () => (
   <??? ???=???>
-    <Counter />
+    <h1>Hey!</h1>
   <???>
 );
 ```
@@ -87,12 +95,17 @@ const App = () => (
 
 ## Revision
 
-Complete the following code such that you will make the `store` available for your `<App />`:
+Complete the following code such that you will make the redux `store` available in your `<App />`:
 
 ```jsx
+import React from "react";
+import { Provider } from "react-redux";
+import store from "./redux/store";
+
+
 const App = () => (
   <??? ???=???>
-    <Counter />
+    <h1>Hey!</h1>
   <???>
 );
 ```
