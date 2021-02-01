@@ -52,6 +52,7 @@ Types of change:
 
 ### Changed
 - [React - Props in constructor's state - Cleanup the text to make the anti-pattern behavior clearer, add some examples, update both questions](https://github.com/enkidevs/curriculum/pull/2585)
+- [CSS - Position Elements With Position Sticky - Remove question](https://github.com/enkidevs/curriculum/pull/2578)
 
 ### Fixed
 - [Coding Intro - First Functions - Fix typo](https://github.com/enkidevs/curriculum/pull/2582)
