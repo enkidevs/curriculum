@@ -58,7 +58,7 @@ Similarly, we can also add images to the registry by pushing them:
 docker push enki
 ```
 
-You're not required to host your images on Docker Hub and can setup your own registry as well.
+You're not required to host your images on Docker Hub and can setup your own registry if you like.
 
 ### Self-hosted registry
 
