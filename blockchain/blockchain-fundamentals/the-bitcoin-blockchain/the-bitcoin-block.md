@@ -9,11 +9,12 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # The Bitcoin Block
@@ -42,12 +43,12 @@ In the learn more section, you’ll find a link to an online block explorer wher
 
 What is the consensus algorithm implemented in the Bitcoin blockchain?
 
-???
+Proof of ???
 
-- Proof of work
-- Proof of stake
-- Proof of burn
-- Proof of authority
+- work
+- stake
+- burn
+- authority
 
 
 ---

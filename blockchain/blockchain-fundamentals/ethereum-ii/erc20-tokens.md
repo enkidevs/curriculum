@@ -5,11 +5,13 @@ category: must-know
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # ERC20 Tokens
@@ -85,7 +87,7 @@ Some information needed to define a ERC20 token is:
 
 ## Practice
 
-Does ERC20 token standard support decimals?
+ERC20 token standard supports decimals?
 
 ???
 
@@ -97,7 +99,7 @@ Does ERC20 token standard support decimals?
 
 ## Revision
 
-Does the ERC20 standard define the actual implementation of the `balanceOf` function?
+ERC20 standard defines the actual implementation of the `balanceOf` function?
 
 ???
 
