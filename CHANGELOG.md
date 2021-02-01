@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## February 2nd 2021
+
+### Added
+- [Blockchain - Entire Topic - Add type-in-the-gap question type to applicable questions](https://github.com/enkidevs/curriculum/pull/2591)
+
 ## February 1st 2021
 
 ### Changed
