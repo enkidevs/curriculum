@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## February 2nd 2021
+
+### Added
+- [Python - Core topic - Add type in the gap and standalone format to applicable questions](https://github.com/enkidevs/curriculum/pull/2583)
+
 ## February 1st 2021
 
 ### Changed
