@@ -10,11 +10,13 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
+    - type-in-the-gap
 ---
 
 # Special attributes of objects and classes
@@ -88,7 +90,7 @@ print(Enki.__mro__)
 
 Get all the writable attributes of your object:
 
-```plain-text
+```python
 print(Enki.???)
 ```
 
@@ -104,7 +106,7 @@ print(Enki.???)
 
 Get the class’s metaclass:
 
-```plain-text
+```python
 print(Enki.???)
 ```
 

@@ -5,11 +5,12 @@ category: must-know
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # The `return` statement
@@ -71,7 +72,7 @@ def sum():
 
 ## Revision
 
-Python’s return statement exits a function and passes back an ??? to the function caller. It’s used to return the ??? with an output result to the function call.
+Python’s `return` statement exits a function and passes back an ??? to the function caller. It’s used to return the ??? with an output result to the function call.
 
 - expression
 - flow of control

@@ -9,11 +9,12 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # `for` loops
@@ -59,7 +60,7 @@ for x in nums:
 
 Gives this output:
 
-```python
+```plain-text
 1
 2
 3

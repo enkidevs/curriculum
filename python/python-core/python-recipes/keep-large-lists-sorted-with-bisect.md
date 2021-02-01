@@ -7,11 +7,12 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: stadalone
 ---
 
 # Keep large lists sorted with `bisect`
@@ -67,11 +68,15 @@ print(bisect.bisect(a, 11))
 
 Consider the following:
 
-```plain-text
+```python
 a = [0, 1, 2, 2, 2, 3]
 ```
 
-What will the output of `print(bisect.bisect(a, 2))` be? ???
+Fill in the output:
+```py
+print(bisect.bisect(a, 2))
+# ???
+```
 
 - 5
 - 2

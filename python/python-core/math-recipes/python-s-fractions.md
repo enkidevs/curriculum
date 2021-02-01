@@ -9,11 +9,11 @@ notes: Math modules workout
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Python's `fractions`
@@ -58,7 +58,7 @@ Keep in mind that with the release of Python 3.5, this method is deprecated and 
 
 Create a fraction, using the `fractions` module:
 
-```plain-text
+```python
 a = ???.???(5,-2)
 print(a) #-5/2
 ```
@@ -77,7 +77,7 @@ print(a) #-5/2
 
 To calculate the greatest common divisor of ints in Python 3.5, what method from what module should be used?
 
-```plain-text
+```python
 ???.???(30, 90)
 ```
 

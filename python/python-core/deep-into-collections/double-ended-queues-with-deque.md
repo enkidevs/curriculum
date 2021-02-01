@@ -10,11 +10,13 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
+    - type-in-the-gap
 ---
 
 # Double ended queues with `deque`
@@ -79,7 +81,7 @@ deque([1, 2, 3], maxlen=3)
 
 Instantiate a double ended queue with a maximum length of 5:
 
-```plain-text
+```python
 e = ???(??? = 5)
 ```
 
@@ -98,7 +100,7 @@ e = ???(??? = 5)
 
 Complete the code snippet to append `e` to the start of the queue:
 
-```plain-text
+```python
 from collections import deque
 a = deque()
 

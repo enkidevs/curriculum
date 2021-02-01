@@ -21,7 +21,7 @@ revisionQuestion:
 
 ## Content
 
-Using the `unicodedata` Python module it's  easy to normalize any **unicode** data strings (remove accents etc):
+Using the `unicodedata` Python module it's easy to normalize any **unicode** data strings (remove accents etc):
 
 ```python
 import unicodedata
@@ -49,7 +49,7 @@ The `NFKD` stands for Normalization Form Compatibility Decomposition, and this i
 
 Complete the code recipe below such that the text is normalized:
 
-```plain-text
+```python
 import unicodedata
 
 data = u'ïnvéntìve'

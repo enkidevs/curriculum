@@ -8,11 +8,13 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # `bytearray` objects
@@ -60,7 +62,7 @@ Because `bytearray` is a **mutable sequence** it supports additional operations 
 
 Create a bytearray object from the hexadecimal string:
 
-```plain-text
+```python
 >>> bytearray.???('2ef0f1f2')
 bytearray(b'.\xf0\xf1\xf2')
 ```
@@ -77,7 +79,7 @@ bytearray(b'.\xf0\xf1\xf2')
 
 Convert the bytearray object into a hexadecimal string:
 
-```plain-text
+```python
 >>> ???(b'\xf0\xf1\xf2') \
     .???()
 'f0f1f2'

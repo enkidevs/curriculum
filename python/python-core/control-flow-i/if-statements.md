@@ -7,11 +7,13 @@ category: must-know
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # `if...else` statements
@@ -72,8 +74,6 @@ Note that a single `=` is used for assigning values to variables, not for compar
 
 What does the following code snippet print?
 
-???
-
 ```python
 x = 3
 if (x < 3):
@@ -81,6 +81,8 @@ if (x < 3):
 else:
     print ('big')
 ```
+
+???
 
 - big
 - small

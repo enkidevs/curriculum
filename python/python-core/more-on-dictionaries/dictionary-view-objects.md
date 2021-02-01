@@ -8,11 +8,13 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # `Dictionary` view objects
@@ -61,7 +63,6 @@ The `in` keyword, which is used for testing collection membership, can be used b
 True
 >>> 'three' in keys
 False
-
 ```
 
 

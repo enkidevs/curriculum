@@ -5,7 +5,8 @@ category: tip
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
@@ -49,10 +50,9 @@ The `sorted()` method is the equivalent of `sort()` in python3. It sorts the tup
 
 ## Practice
 
-Sort the the following two lists in parallel based on the the values in the first one:
+Sort the following two lists in parallel based on the values in the first one:
 
 ```python
-
 heights=[8848,8611,8516,8481]
 names=['Everest','K2','Lhotse','Makalu']
 

@@ -22,11 +22,13 @@ notes: |
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standaolne
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Python's `math`
@@ -99,7 +101,7 @@ math.pow(x,y) # returns x^y
 
 Check if `var` has the `INF` value:
 
-```plain-text
+```python
 import math
 
 ???.???(var)
@@ -118,7 +120,7 @@ import math
 
 Using the `math`  module, assign to `a` the value of `PI` :
 
-```plain-text
+```python
 a = ???.???
 ```
 

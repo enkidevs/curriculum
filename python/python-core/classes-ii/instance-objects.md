@@ -12,7 +12,8 @@ practiceQuestion:
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Instance objects
@@ -103,7 +104,7 @@ enki = ???
 
 Is the following snippet valid?
 
-```plain-text
+```python
 class Dog:
   pass
 max = Dog()

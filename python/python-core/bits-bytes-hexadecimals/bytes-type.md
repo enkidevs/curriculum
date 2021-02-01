@@ -64,7 +64,7 @@ Convert a `bytes` object to a hexadecimal string:
 
 Complete the output of the command run in the Python interactive shell:
 
-```plain-text
+```python
 >>> a = bytes(range(2))
 >>> a
 ???'\???\???'

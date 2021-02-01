@@ -5,11 +5,11 @@ category: tip
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Three ways to substitute a substring of a string
@@ -69,7 +69,7 @@ print(f'Hello {name}')
 
 Using `string.Template` , substitute the following substring:
 
-```plain-text
+```python
 import string
 t = string
  .???("It's ???weather")

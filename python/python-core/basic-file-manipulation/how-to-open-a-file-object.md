@@ -27,7 +27,7 @@ revisionQuestion:
 
 Consider the following syntax:
 
-```plain-text
+```python
 obj = open(f_name, [access_mode],
                       [buffering])
 ```
@@ -58,7 +58,7 @@ Note that every `file` *object* has the following attributes:
 
 Consider the following example:
 
-```plain-text
+```python
 # Open file.txt and print file name
 
 obj = open("doc.txt","w")

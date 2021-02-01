@@ -8,11 +8,13 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Defining Functions
@@ -32,7 +34,7 @@ block-head:
     block line 2
 ```
 
-Functions in Python are defined using the `def` keyword, and as explained above follow Python's block syntax, in the example below a function called `new_function` is defined with a simple print method inside:
+Functions in Python are defined using the `def` keyword, and as explained above follow Python's block syntax. In the example below a function called `new_function` is defined with a simple print method inside:
 
 ```python
 def new_function():
@@ -62,12 +64,12 @@ def function 4()
     # function code…
 ```
 
-???
+`1, 2, 3 or 4` ???
 
-- `Function 1`
-- `Function 2`
-- `Function 3`
-- `Function 4`
+- `1`
+- `2`
+- `3`
+- `4`
 
 
 ---

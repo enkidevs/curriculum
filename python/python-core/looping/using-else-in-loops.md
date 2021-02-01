@@ -5,11 +5,12 @@ category: must-know
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Using `else` in loops
@@ -36,7 +37,7 @@ else:
 
 Gives the following output:
 
-```python
+```plain-text
 0
 1
 2
@@ -54,7 +55,7 @@ else:
 
 Gives the following output:
 
-```python
+```plain-text
 0
 1
 2
@@ -77,7 +78,7 @@ else:
 
 With the output:
 
-```python
+```plain-text
 b
 a
 ```

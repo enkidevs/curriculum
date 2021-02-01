@@ -9,11 +9,12 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Other operations on files
@@ -63,7 +64,7 @@ file.close()
 # It has two lines of text
 ```
 
-Apart from other uses, `os` module helps with **file processing operations**. Two of this operations are
+Apart from other uses, `os` module helps with **file processing operations**. Two of these operations are
 `rename(current_file_name, new_file_name)` and `remove(file_name)`.
 
 As `os` is a **module**, we need to **import** it to be able to use the operations it provides:

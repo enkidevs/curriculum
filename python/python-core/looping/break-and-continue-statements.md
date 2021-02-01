@@ -5,11 +5,13 @@ category: must-know
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # `break` and `continue` statements
@@ -19,7 +21,7 @@ revisionQuestion:
 
 ## Content
 
-Python's `break` statement is used to terminate the current loop, either a for or a while loop, it then resumes the code execution at the following statement.
+Python's `break` statement is used to terminate the current loop, either a `for` or a `while` loop, it then resumes the code execution at the following statement.
 
 For example:
 
@@ -36,7 +38,7 @@ print("Broken away!")
 
 This gives the following output:
 
-```python
+```plain-text
 5
 4
 3
@@ -56,7 +58,7 @@ for x in range(0, 10):
 
 This gives the following output:
 
-```python
+```plain-text
 1
 3
 5

@@ -8,11 +8,12 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # `datetime` object
@@ -68,7 +69,6 @@ print(dt_2 > dt_1) # True
 As seen above, the string representation of the `datetime` object follows **ISO 8601** format - `YYYY-MM-DDTHH:MM:SS.mmmmmm`. However, outputting in a different format[2] is easily done via `strftime()` method.
 
 ```python
-
 today = datetime.today()
 
 # standard
@@ -117,9 +117,9 @@ else:
 Complete the following code snippet such that it will print the current date and time:
 
 ```python
-import datetime
+from datetime import datetime
 
-???(???)
+???(datetime.???())
 ```
 
 - print
