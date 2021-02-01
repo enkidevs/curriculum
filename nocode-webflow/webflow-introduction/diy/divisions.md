@@ -5,7 +5,8 @@ category: how-to
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Divisions
@@ -42,7 +43,9 @@ Notice how the elements are all over the place. Using the division, we can apply
 
 ## Practice
 
-Without ???, divisions have no effect on the content within them.
+Without CSS or HTML do divisions have no effect on the content within them.
+
+???
 
 - CSS
 - HTML
