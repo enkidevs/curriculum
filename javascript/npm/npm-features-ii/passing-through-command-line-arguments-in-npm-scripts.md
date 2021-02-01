@@ -44,12 +44,11 @@ When running either `start:test`  or `start:stage` scripts, the first command li
 
 To access these arguments the `process.argv` array can be used. In our case `process.argv[2]` represents the first argument provided as `[0]` is `node` and `[1]` is the path to the `.js` file.
 
-Alternatively you can provide `--` when calling a script directly:
+Alternatively you can provide `--` when calling a script directly[1]:
 
 ```bash
-npm run someCommand --arg=value
+npm run someCommand -- --arg=value
 ```
-
 
 ---
 
@@ -89,3 +88,23 @@ npm run myScript \
 - argvs
 - arg
 - `process.argv[0]`
+
+---
+
+## Footnotes
+
+[1:Calling a scrip directly]
+
+When we run scripts through `npm`, we're effectively using `npm` as a middleman.
+
+This means that passing regular arguments would be passing inputs to the `npm` program **directly**, not the script that it runs **underneath**.
+
+```bash
+# passing inputs to npm directly
+npm run someCommand --arg=value
+
+# passing inputs to the someCommand script
+npm run someCommand -- --arg=value
+```
+
+The `--` let's us skip `npm` and pass arguments into the script underneath `npm`.
