@@ -15,8 +15,8 @@ practiceQuestion:
   context: relative
 revisionQuestion:
   formats:
-    - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Python Environment
@@ -65,7 +65,6 @@ Once you're using a text editor you can save files using a `.py` extension and t
 ```bash
 python3 myPythonFile.py
 ```
-
 
 ---
 
