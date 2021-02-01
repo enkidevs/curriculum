@@ -14,7 +14,7 @@ links:
 
 ## Content
 
-A docker image tag is a similar concept to [git tags](https://app.enkipro.com/insights/using-tags-for-version-control). It is a pointer to a specific image commit (id) that serves to identify the image in a meaningful way.
+A docker image tag is a similar concept to [git tags](https://app.enki.com/insights/using-tags-for-version-control). It is a pointer to a specific image commit (id) that serves to identify the image in a meaningful way.
 
 Multiple tags can point to the same image commit (id).
 
