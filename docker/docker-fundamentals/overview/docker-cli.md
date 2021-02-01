@@ -44,7 +44,7 @@ Likewise, to remove an image named `nginx`, we can do:
 docker image rm nginx
 ```
 
-In fact, `docker` has many commands[2] that are generic across Docker Objects (containers, images, etc.) and can be applied to any of them.
+In fact, `docker` has many commands[1] that are generic across Docker Objects (containers, images, etc.) and can be applied to any of them.
 
 ```bash
 # list all objects
@@ -94,7 +94,7 @@ To fetch the logs for a Docker container named `webserver`, we'd run:
 
 ## Footnotes
 
-[2: Docker commands]
+[1: Docker commands]
 To list available commands and other helpful information for `docker` itself or any of its sub commands like `docker container`, we can suffix the command we want to examine with `--help`.
 
 For example:
