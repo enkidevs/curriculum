@@ -48,6 +48,12 @@ Types of change:
 
 ### Fixed
 
+## February 2nd 2021
+
+### Added
+
+- [Python - Functional Programming Topic - Add type in the gap questions and change format](https://github.com/enkidevs/curriculum/pull/2587)
+
 ## February 1st 2021
 
 ### Changed
