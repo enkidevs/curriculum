@@ -5,11 +5,11 @@ category: tip
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Props in constructor's state
@@ -19,43 +19,63 @@ revisionQuestion:
 
 ## Content
 
-Passing down props from the parent to generate state in the `constructor` can lead to duplication of *source of truth*, where the real data is located. This is considered an "anti-pattern".
+Using props from the parent to create the state in the child's `constructor` can lead to stale data if those props change.
 
-An example of a duplication of source of truth:
+Here's an example:
 
-```javascript
-class Duplication extends React.Component {
+```jsx
+class CountryName extends React.Component {
   constructor(props) {
     super(props);
-    this.state = {nameWithQualifier: 'Country ' + this.props.country};
+
+    // find the country name based on the country code
+    // which comes from the parent
+    const countryName = getName(props.countryCode);
+
+    // set the country name into the state
+    this.state = {
+      countryName
+    };
+
+    // because we're doing this in the constructor,
+    // which runs only once when component is created,
+    // the state will not update if props.countryCode changes
   }
+
   render() {
     return (
       <div>
-        {this.state.nameWithQualifier}
+        {this.state.countryName}
       </div>
     );
   }
 }
 ```
 
-This is bad due to `this.state` being invoked when the component is first created, therefore the example allows a value to get out of sync.
+If the parent component of `CountryName` changes the value for `countryCode` and sends it to `CountryName`, `CountryName` will not render it.
 
-Computing values on-the-fly ensures that values don't get out of sync later and cause maintenance issues.
+This is because a `constructor` will run only once when the component gets created, not everytime the props change. 
 
-```javascript
-class OnTheFly extends React.Component {
+We can ensures that values don't get out of sync by computing them from props directly.
+
+```jsx
+class CountryName extends React.Component {
   render() {
+    // create the countryName directly from props
+    // in the render method, which means its value
+    // will always be in sync if countryCode changes
+    const countryName = getName(props.countryCode);
+
     return (
       <div>
-        {'Country: ' + this.props.country}
+        {countryName}
       </div>
     );
   }
 }
 
 ReactDOM.render(
-  <OnTheFly country="England" />,
+  <CountryName countryCode="US" />,
   document.getElementByID('foo')
 );
 ```
@@ -65,51 +85,42 @@ ReactDOM.render(
 
 ## Practice
 
-Which of the following two components do you think employs the best practice for passing props?
-
-```javascript
-class A extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {myState: this.props.myProp};
-  }
-  render() {
-    return (
-      <div>
-        {this.state.myState}
-      </div>
-    );
-  }
-} 
-
-class B extends React.Component {
-  render() {
-    return (
-      <div>
-        {this.props.myProp}
-      </div>
-    );
-  }
-} 
-```
+The `constructor` of a components runs every time the props change.
 
 ???
 
-- B
-- A
-- both
-- neither
-
+- False
+- True
 
 ---
 
 ## Revision
 
-What do you think about generating state from props in `this.state` in the constructor?
+If we wanted to make sure that the `countryName` is always in sync with `countryCode`, what should we change in the code below?
 
-???
+```jsx
+class CountryName extends React.Component {
+  constructor(props) {
+    super(props);
 
-- it's an anti-pattern
-- it's a good practice
-- can cause application crashes
-- it's useful when working with many props
+    const countryName = getName(props.countryCode);
+
+    this.state = {
+      countryName
+    };
+  }
+
+  render() {
+    return (
+      <div>
+        {this.state.countryName}
+      </div>
+    );
+  }
+}
+```
+
+* use `props.countryCode` in `render`, not in the `constructor`
+* use `this.props.countryCode` instead of `props.countryCode`
+* delete the `super(props)` line
+* set to state directly with `this.state.countryName = props.countryCode`
