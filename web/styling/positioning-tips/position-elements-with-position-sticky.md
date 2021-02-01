@@ -42,7 +42,7 @@ By simply adding `position: sticky` (vendor prefixed), we can tell an element to
 Can you make the `.enki` class sticky?
 
 ```ccss
-.some-class{
+.enki {
     ???;
     top: 33px;
 }
