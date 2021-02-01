@@ -48,10 +48,18 @@ Types of change:
 
 ### Fixed
 
-## January 28th 2021
+## February 1st 2021
 
 ### Changed
 - [CSS - Position Elements With Position Sticky - Remove question](https://github.com/enkidevs/curriculum/pull/2578)
+
+### Fixed
+- [Coding Intro - First Functions - Fix typo](https://github.com/enkidevs/curriculum/pull/2582)
+
+## January 29th 2021
+
+### Changed
+- [Linux - Easy Way Of Sharing Files - Move link to the Links section](https://github.com/enkidevs/curriculum/pull/2581)
 
 ## January 27th 2021
 

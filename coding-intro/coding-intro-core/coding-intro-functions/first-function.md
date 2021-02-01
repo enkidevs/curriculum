@@ -21,7 +21,7 @@ revisionQuestion:
 
 A function is a command that, when executed, takes in data and produces out a result. 
 
-We can think of a function as divide into 3 parts.
+We can think of a function as divided into three parts.
 
 1. **input**: the data given to the function
 2. **body**: the commands (instructions) performed within the function
