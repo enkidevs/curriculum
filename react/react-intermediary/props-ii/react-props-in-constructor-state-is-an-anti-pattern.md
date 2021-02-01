@@ -52,7 +52,7 @@ class CountryName extends React.Component {
 }
 ```
 
-If the parent component of `CountryName` changes the value for `countryCode` and sends it to `CountryName`, `CountryName` will not render it.
+If the parent component of `CountryName` changes the value for `countryCode` and sends it to `CountryName`, `CountryName` will still show the previous value and not render the update.
 
 This is because a `constructor` will run only once when the component gets created, not everytime the props change. 
 
