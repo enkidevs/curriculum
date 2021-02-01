@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## February 1st 2021
+
+### Fixed
+- [Coding Intro - First Functions - Fix typo](https://github.com/enkidevs/curriculum/pull/2582)
+
 ## January 29th 2021
 
 ### Changed
