@@ -12,11 +12,13 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Python Versions
@@ -73,11 +75,8 @@ print???'Learning Python!'???
 
 Which of the following code snippets is Python 3 code, and which is Python 2?
 
-Python 3: ???
-Python 2: ???
+`print('Hello world!')`: Python ???
+`print 'Hello world!'`: Python ???
 
-- `print('Hello world!')`
-- `print 'Hello world!'`
-- `write 'Hello world!'`
-- `write('Hello world!')`
- 
+- 3
+- 2 
