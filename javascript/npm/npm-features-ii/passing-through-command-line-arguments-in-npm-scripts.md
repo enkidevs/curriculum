@@ -107,4 +107,4 @@ npm run someCommand --arg=value
 npm run someCommand -- --arg=value
 ```
 
-The `--` let's us skip `npm` and pass arguments into the script underneath `npm`.
+The `--` lets us skip `npm` and pass arguments into the script that `npm` is calling.
