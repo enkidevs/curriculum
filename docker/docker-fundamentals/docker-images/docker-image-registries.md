@@ -3,26 +3,27 @@ author: nem035
 type: normal
 category: must-know
 links:
-  - '[Docker Registry](https://docs.docker.com/registry/){documentation}'
-  - '[Docker Hub](https://hub.docker.com/){website}'
+  - "[Docker Registry](https://docs.docker.com/registry/){documentation}"
+  - "[Docker Hub](https://hub.docker.com/){website}"
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Image Registries
-
 
 ---
 
 ## Content
 
-A Docker image registry stores Docker images. We can think of a Docker image registry being to Docker images as Github is to code repositories.
+A Docker image registry stores Docker images.
+
+We can think of a Docker image registry being to Docker images as [Github](https://github.com) is to code repositories.
 
 By default, Docker is configured to look for images in its own registry called Docker Hub, but users can also run their own private registry.
 
@@ -57,7 +58,7 @@ Similarly, we can also add images to the registry by pushing them:
 docker push enki
 ```
 
-Alternatively, you can host your docker images on GCP, AWS, Azure, GitLab, JFrog or even on your own system.
+You're not required to host your images on Docker Hub and can setup your own registry as well.
 
 ### Self-hosted registry
 
@@ -80,7 +81,6 @@ docker tag ubuntu:16.04 localhost:1234/ubuntu
 docker push localhost:1234/ubuntu
 ```
 
-
 ---
 
 ## Practice
@@ -89,7 +89,6 @@ Images stored on DockerHub are ???
 
 - public
 - private
-
 
 ---
 

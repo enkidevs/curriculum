@@ -9,15 +9,14 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Bind Mounts
-
 
 ---
 
@@ -36,7 +35,6 @@ docker container run \
   -v ~/enki/local_path:/path/container mysql
 ```
 
-
 ---
 
 ## Practice
@@ -47,7 +45,6 @@ A bind mount is ???.
 - a hard-drive on the host machine that is virtually mounted into a container
 - an IP address and a port bound from the host machine to the container
 - an ftp connection mounted onto a file path within a container
-
 
 ---
 

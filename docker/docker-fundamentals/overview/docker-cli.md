@@ -9,21 +9,20 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Docker CLI
-
 
 ---
 
 ## Content
 
-Docker comes with a command-line interface (CLI) that uses the Docker REST API to control or interact with the Docker daemon[1]. This gives us a fine-grain control to manipulate containers, images, networks, services and other Docker Objects.
+Docker comes with CLI that uses the Docker REST API to control or interact with the Docker daemon.
 
 Most Docker CLI commands consists of 3 parts.
 
@@ -45,7 +44,7 @@ Likewise, to remove an image named `nginx`, we can do:
 docker image rm nginx
 ```
 
-In fact, `docker` has many commands that are generic across Docker Objects (containers, images, etc.) and can be applied to any of them.
+In fact, `docker` has many commands[2] that are generic across Docker Objects (containers, images, etc.) and can be applied to any of them.
 
 ```bash
 # list all objects
@@ -61,6 +60,41 @@ docker <OBJECT> inspect <ID_OR_NAME>
 docker <OBJECT> prune
 ```
 
+> 💡 Docker CLI (and Docker in general) has a concept of "_batteries included but removable_".
+
+This means that the default configurations in Docker are setup to be easy to use and solve the most common problems but that we can change most of the options under the hood. Defaults work well in many cases, but it's easy to overwrite them when needed.
+
+---
+
+## Practice
+
+To inspect a Docker `nginx` image, we'd run the command:
+
+???
+
+- `docker image inspect nginx`
+- `docker inspect image nginx`
+- `docker image nginx inspect`
+- `docker inspect nginx image`
+
+---
+
+## Revision
+
+To fetch the logs for a Docker container named `webserver`, we'd run:
+
+???
+
+- `docker container logs webserver`
+- `docker logs container webserver`
+- `docker show logs webserver`
+- `docker webserver container-logs`
+
+---
+
+## Footnotes
+
+[2: Docker commands]
 To list available commands and other helpful information for `docker` itself or any of its sub commands like `docker container`, we can suffix the command we want to examine with `--help`.
 
 For example:
@@ -82,44 +116,3 @@ Options:
       --no-stdin             Do not attach STDIN
       --sig-proxy            Proxy all received signals to the process (default true)
 ```
-
-Docker CLI (and Docker in general) has a concept of "*batteries included but removable*".
-
-This essentially means that the default configurations in Docker are setup to be easy to use and solve the most common problems but that we can change most of the options under the hood. Defaults work well in many cases, but it's easy to overwrite them when needed.
-
-
----
-
-## Practice
-
-To inspect a Docker `nginx` image, we'd run the command:
-
-???
-
-- `docker image inspect nginx`
-- `docker inspect image nginx`
-- `docker image nginx inspect`
-- `docker inspect nginx image`
-
-
----
-
-## Revision
-
-To fetch the logs for a Docker container named `webserver`, we'd run:
-
-???
-
-- `docker container logs webserver`
-- `docker logs container webserver`
-- `docker show logs webserver`
-- `docker webserver container-logs`
-
-
----
-
-## Footnotes
-
-[1: daemon]
-A daemon is a computer program that runs in the background (outside of direct user control) and performs a specified operation at predefined times or in response to certain events. It is usually used for performing automated, administrative tasks for the operating system or an application. For example, `syslogd` is the daemon that implements the system logging facility on Linux, and `sshd` is a daemon that serves incoming SSH connections.
-Traditionally, the name of a daemon process ends with the letter `d`, to make it more distinguishable from other processes.
