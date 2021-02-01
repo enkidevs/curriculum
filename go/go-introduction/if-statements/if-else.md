@@ -5,11 +5,12 @@ category: how-to
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # `if..else`
@@ -56,16 +57,16 @@ Complete the code in the `if-else` statement using the shorthand notation. Then,
 
 ```go
 if ??? ; x > 0 {
-  fmt.Println(x, ???)
+  fmt.Println(x, " ???")
 } ??? {
-  fmt.Println(x, ???)
+  fmt.Println(x, " ???")
 }
 ```
 
 - x := 1
-- " is positive"
+- is positive
 - else
-- " is negative"
+- is negative
 - var x : = 1
 - var x = 1
 

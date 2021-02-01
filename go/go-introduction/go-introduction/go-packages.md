@@ -5,11 +5,13 @@ category: must-know
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Packages
@@ -71,16 +73,16 @@ Both ways work the same, however, it is common practice to use the *factored imp
 
 ## Practice
 
-Which of these is the common practice way of importing packages in Go?
+Which of these is the common practice way of importing packages in Go? A or B?
 
 ```go
-// Multi-statement import
+// A) Multi-statement import
 import "fmt"
 import "math"
 import "zip"
 import "json"
 
-// Factored import
+// B) Factored import
 import (
   "fmt"
   "math"
@@ -91,15 +93,15 @@ import (
 
 ???
 
-- Factored import statement.
-- Multi-statement import.
+- B
+- A
 
 
 ---
 
 ## Revision
 
-Using the `import` keyword once to import multiple packages is called ??? import
+Using the `import` keyword once to import multiple packages is called ??? import.
 
 - factored
 - factorial

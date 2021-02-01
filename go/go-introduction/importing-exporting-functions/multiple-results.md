@@ -49,8 +49,8 @@ Functions in **Go** can return more than 1 result?
 
 ???
 
-- true
-- false
+- True
+- False
 
 
 ---

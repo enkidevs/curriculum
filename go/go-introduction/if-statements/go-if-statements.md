@@ -5,11 +5,13 @@ category: how-to
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # `if` Statements
@@ -85,12 +87,12 @@ func posOrNeg(x float64) ??? {
   if ??? {
     return "x is positive"
   }
-  return ???
+  return "???"
 }
 ```
 
 - string
 - x > 0
-- "x is negative"
+- x is negative
 - x < 0
 - int

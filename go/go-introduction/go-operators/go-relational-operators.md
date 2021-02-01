@@ -5,11 +5,12 @@ category: how-to
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Relational Operators
@@ -74,20 +75,21 @@ Relational operators can ???
 
 ## Revision
 
-Match the operator to its name.
+Add the operator that applies to each stement.
 
-```plain-text
->= - ???
-== - ???
->  - ???
-<= - ???
-<  - ???
-!= - ???
+```go
+???: Greater than or equal to
+???: Equal to
+???: Greater than
+???: Smaller than or equal to
+???: Smaller than
+???: Not equal to
 ```
 
-- Greater than or equal to
-- Equal to
-- Greater than
-- Smaller than or equal to
-- Smaller than
-- Not equal to
+
+- >=
+- ==
+- > 
+- <=
+- < 
+- !=

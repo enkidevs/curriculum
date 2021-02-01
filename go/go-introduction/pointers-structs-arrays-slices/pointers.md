@@ -5,11 +5,12 @@ category: how-to
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Pointers
@@ -104,5 +105,5 @@ The ??? character is used to reference and dereference a pointers variable.
 
 The ??? character is used to find the address of a variable.
 
-- `*`
-- `&`
+- *
+- &

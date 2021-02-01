@@ -5,11 +5,12 @@ category: how-to
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # The Sprintf Function
@@ -79,7 +80,11 @@ The `fmt.Sprintf` function formats to a string ???.
 
 ## Revision
 
-Fill in the code to format a string and save it into the `s` variable. Then print the variable.
+Fill in the code to format a string and save it into the `s` variable.
+
+Use the print statement that formats the string but doesn't print it to the console.
+
+Then print the variable.
 
 ```go
 var name = "Michael"

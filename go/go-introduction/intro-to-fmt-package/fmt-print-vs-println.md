@@ -5,11 +5,13 @@ category: how-to
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Print vs Println
@@ -80,7 +82,7 @@ This will create an output on two separate lines.
 
 ## Practice
 
-Which of these print statements adds a space after **every** operand?
+Which print statement adds a space after **every** operand?
 
 ???
 

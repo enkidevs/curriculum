@@ -5,11 +5,13 @@ category: how-to
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # More on `for` Loops
@@ -141,9 +143,9 @@ A: ???
 B: ???
 C: ???
 
-- for loop
-- while loop
-- infinite loop
+- for
+- while
+- infinite
 
 
 ---
