@@ -51,7 +51,7 @@ Types of change:
 ## February 1st 2021
 
 ### Fixed
-- [JavaScript - Passing through command line arguments in npm scripts - Fix broken PQ & RQ; add type-in-the-gap and change context to standalone]()
+- [JavaScript - Passing through command line arguments in npm scripts - Fix broken PQ & RQ; add type-in-the-gap and change context to standalone](https://github.com/enkidevs/curriculum/pull/2584)
 - [Coding Intro - First Functions - Fix typo](https://github.com/enkidevs/curriculum/pull/2582)
 
 ## January 29th 2021
