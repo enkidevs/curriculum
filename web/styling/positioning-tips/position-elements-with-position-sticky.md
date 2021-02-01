@@ -39,7 +39,7 @@ By simply adding `position: sticky` (vendor prefixed), we can tell an element to
 ---
 ## Revision
 
-Can you make the `.some-class` class sticky?
+Can you make the `.enki` class sticky?
 
 ```ccss
 .some-class{
