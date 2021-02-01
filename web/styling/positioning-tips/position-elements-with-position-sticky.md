@@ -36,18 +36,22 @@ By simply adding `position: sticky` (vendor prefixed), we can tell an element to
 }
 ```
 
-
 ---
-
 ## Revision
 
-Which of the following browsers *does not* support `position: sticky`? ???
+Can you make the `.enki` class sticky?
 
-- Chrome
-- Firefox
-- Safari
-- iOS Safari
+```ccss
+.enki {
+    ???;
+    top: 33px;
+}
+```
 
+- `position: sticky`
+- `position: stick`
+- `sticky: position`
+- `appearance: sticky`
 
 ---
 

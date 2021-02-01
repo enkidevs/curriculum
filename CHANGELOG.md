@@ -50,6 +50,9 @@ Types of change:
 
 ## February 1st 2021
 
+### Changed
+- [CSS - Position Elements With Position Sticky - Remove question](https://github.com/enkidevs/curriculum/pull/2578)
+
 ### Fixed
 - [Coding Intro - First Functions - Fix typo](https://github.com/enkidevs/curriculum/pull/2582)
 
