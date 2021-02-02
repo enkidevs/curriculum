@@ -22,7 +22,7 @@ revisionQuestion:
   context: standalone
 ---
 
-# The `filter` Built-in Function
+# The filter Function
 
 
 ---

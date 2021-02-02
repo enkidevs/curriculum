@@ -12,6 +12,7 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
+    - type-in-the-gap
   context: standalone
 revisionQuestion:
   formats:
@@ -19,7 +20,7 @@ revisionQuestion:
   context: standalone
 ---
 
-# The `zip` Built-in Function
+# The zip Function
 
 
 ---

@@ -16,7 +16,7 @@ practiceQuestion:
   context: standalone
 ---
 
-# The `itertools` Module
+# The itertools Module
 
 
 ---

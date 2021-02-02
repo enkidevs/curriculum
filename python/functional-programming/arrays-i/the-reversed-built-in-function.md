@@ -18,7 +18,7 @@ revisionQuestion:
   context: standalone
 ---
 
-# The `reversed` Built-in Function
+# The reversed Function
 
 
 ---

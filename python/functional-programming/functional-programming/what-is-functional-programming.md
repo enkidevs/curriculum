@@ -9,6 +9,7 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
+    - type-in-the-gap
   context: standalone
 revisionQuestion:
   formats:
@@ -102,7 +103,7 @@ result = ???(sum(2, 3),4)
 
 ## Revision
 
-Can you predict the output?
+Can you predict what the output will be?
 
 ```py
 foo = list(range(1,10))
@@ -116,11 +117,13 @@ print(result)
 
 ```
 
-???
+```plain-text
+[???]
+```
 
-- [2]
-- [2, 4, 6, 8]
-- [2, 4, 6, 8, 10]
+- 2
+- 2, 4, 6, 8
+- 2, 4, 6, 8, 10
 
 
 ---

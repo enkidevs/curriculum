@@ -9,23 +9,21 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-    - type-in-the-gap
   context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-    - type-in-the-gap
   context: standalone
 ---
 
-# The `all` Built-in Function
+# The all Function
 
 
 ---
 
 ## Content
 
-The `all` function takes an iterable object and returns `True` if all the elements in the iterable object evaluate to `True`, or if the object is empty. It takes the form:
+The `all` built-in function takes an iterable object and returns `True` if all the elements in the iterable object evaluate to `True`, or if the object is empty. It takes the form:
 
 ```python
 all(iterable)

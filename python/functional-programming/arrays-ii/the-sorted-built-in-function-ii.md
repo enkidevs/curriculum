@@ -18,7 +18,7 @@ practiceQuestion:
   context: standalone
 ---
 
-# The `sorted` Built-in Function (Part 2)
+# The sorted Function (Part 2)
 
 
 ---

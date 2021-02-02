@@ -18,7 +18,7 @@ revisionQuestion:
   context: standalone
 ---
 
-# The `slice` Built-in Function
+# The slice Function
 
 
 ---

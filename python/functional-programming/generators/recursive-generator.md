@@ -62,7 +62,6 @@ One common use of **recursive generators** is traversing *non-linear data struct
 ## Practice
 
 Can you spot which of the following generators are recursive?
-???
 
 ```python
 def list_gen(l):
@@ -74,6 +73,10 @@ def cubic_generator(n):
 	for i in range(n):
 		yield i ** 3
 
+```
+
+```plain-text
+???
 ```
 
 - `list_gen`

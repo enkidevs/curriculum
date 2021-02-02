@@ -86,7 +86,9 @@ def foo():
     print(myname)
 ```
 
+```plain-text
 ???
+```
 
 - C
 - A

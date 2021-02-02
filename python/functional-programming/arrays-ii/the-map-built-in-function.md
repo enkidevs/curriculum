@@ -22,7 +22,7 @@ revisionQuestion:
   context: standalone
 ---
 
-# The `map` Built-in Function
+# The map Function
 
 
 ---

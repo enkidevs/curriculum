@@ -101,7 +101,9 @@ def deco(func):
     ...
 ```
 
+```plain-text
 ???
+```
 
 - A
 - B
@@ -133,7 +135,9 @@ def deco(self):
   return wrapper
 ```
 
+```plain-text
 ???
+```
 
 - B
 - C

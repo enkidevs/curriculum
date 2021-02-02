@@ -66,8 +66,9 @@ Which of the following is not a benefit of using immutable objects?
 7. Fewer lines of code to write
 8. Prevention of `None` references
 
+```plain-text
 ???
-
+```
 - 7
 - 1
 - 2

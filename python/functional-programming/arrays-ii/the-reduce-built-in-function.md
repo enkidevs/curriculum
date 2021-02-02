@@ -16,7 +16,7 @@ revisionQuestion:
   context: standalone
 ---
 
-# The `reduce` Built-in Function
+# The reduce Function
 
 
 ---

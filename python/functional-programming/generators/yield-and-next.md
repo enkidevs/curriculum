@@ -10,6 +10,7 @@ practiceQuestion:
 revisionQuestion:
   formats:
     - fill-in-the-gap
+    - type-in-the-gap
   context: standalone
 ---
 
@@ -78,10 +79,11 @@ def countdown(num):
 
 >>> gen = countdown(5)
 >>> print(next(gen))
-
 ```
 
+```plain-text
 ???
+```
 
 - `5`
 - `0`

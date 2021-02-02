@@ -104,7 +104,9 @@ print(sum(iterator))
 print(sum(iterator))
 ```
 
+```plain-text
 ???, then ???
+```
 
 - 15
 - 0

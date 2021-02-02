@@ -19,7 +19,7 @@ revisionQuestion:
   context: standalone
 ---
 
-# Speed up your `for` loop using `map()` or list comprehensions
+# Speed up your for loop using map() or list comprehensions
 
 
 ---

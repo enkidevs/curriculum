@@ -58,9 +58,11 @@ print(next(g)) # StopIteration error
 
 ## Revision
 
-What statement is specific to generators instead of `return` ?
+What other statement is specific to generators instead of `return`?
 
+```python
 ???
+```
 
 - `yield`
 - `for`

@@ -118,7 +118,9 @@ def hello_heading(func):
   return func_wrapper
 ```
 
+```plain-text
 ???
+```
 
 - B
 - A

@@ -22,7 +22,7 @@ revisionQuestion:
   context: standalone
 ---
 
-# The `sorted` Built-in Function (Part 1)
+# The sorted Function 
 
 
 ---

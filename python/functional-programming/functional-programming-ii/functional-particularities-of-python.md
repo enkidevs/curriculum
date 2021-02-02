@@ -71,7 +71,9 @@ Finally, Python is also lucky to have an avid user base which is constantly prov
 
 What keyword makes a function a generator?
 
+```python
 ???
+```
 
 - `yield`
 - `return`

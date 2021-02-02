@@ -12,7 +12,7 @@ revisionQuestion:
   context: standalone
 ---
 
-# Functools' `wraps`
+# Functools' wraps
 
 
 ---
