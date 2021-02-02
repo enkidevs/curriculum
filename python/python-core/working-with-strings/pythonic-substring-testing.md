@@ -67,9 +67,11 @@ string = “Hey there”
 
 ## Revision
 
-What keyword can be used in Python for substring testing?
+What keyword can be used in Python for substring testing:
 
+```python
 ???
+```
 
 - `in`
 - `for`

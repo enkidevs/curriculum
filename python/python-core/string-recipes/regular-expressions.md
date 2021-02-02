@@ -84,9 +84,11 @@ if ???.???(‘abc’, text)
 
 ## Revision
 
-Which Python module provides text matching patterns using regular expressions?
+Which Python module provides text matching patterns using regular expressions:
 
+```python
 ???
+```
 
 - `re`
 - `reg`

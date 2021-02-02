@@ -17,7 +17,7 @@ revisionQuestion:
   context: standalone
 ---
 
-# `stringprep` module
+# stringprep module
 
 
 ---

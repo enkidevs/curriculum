@@ -16,7 +16,7 @@ revisionQuestion:
   context: standalone
 ---
 
-# `datetime` module
+# datetime module
 
 
 ---

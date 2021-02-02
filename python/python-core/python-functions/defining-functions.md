@@ -49,22 +49,27 @@ def new_function():
 Which of the following syntaxes is correct for defining Python functions:
 
 ```python
+# 1
 def function1():
     # function code…
 
+# 2
 def function2() {
     # function code…
 }
 
+# 3
 def function 3(
     # function code…
 }
 
+# 4
 def function 4()
     # function code…
-```
 
-`1, 2, 3 or 4` ???
+
+# ???
+```
 
 - `1`
 - `2`
@@ -77,7 +82,10 @@ def function 4()
 ## Revision
 
 What keyword is used to define a new function?
+
+```python
 ???
+```
 
 - `def`
 - `new`

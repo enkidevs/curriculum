@@ -18,7 +18,7 @@ revisionQuestion:
   context: standalone
 ---
 
-# Generating `random` numbers
+# Generating random numbers
 
 
 ---

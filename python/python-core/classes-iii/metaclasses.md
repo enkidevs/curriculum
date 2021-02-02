@@ -82,7 +82,6 @@ metaclass -> class -> instance
 Create a new class of default type, instantiate it and print its type:
 
 ```python
-
 class Enki???:
   pass
 
@@ -106,7 +105,9 @@ print(???(???))
 
 What is the default metaclass of newly defined classes?
 
+```python
 ???
+```
 
 - `type`
 - `meta`

@@ -7,15 +7,15 @@ category: must-know
 practiceQuestion:
   formats:
     - fill-in-the-gap
+    - type-in-the-gap
   context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-    - type-in-the-gap
   context: standalone
 ---
 
-# `if...elif...else` statements
+# If...elif...else statements
 
 
 ---

@@ -76,7 +76,11 @@ I am a bird
 
 ## Practice
 
-To extend the functionality of a parent's class method, but not override it, you can use the ??? function.
+To extend the functionality of a parent's class method, but not override it, you can use which function?
+
+```python
+???
+```
 
 - `super`
 - `yield`

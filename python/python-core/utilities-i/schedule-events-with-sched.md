@@ -15,7 +15,7 @@ revisionQuestion:
   context: standalone
 ---
 
-# Schedule events with `sched`
+# Schedule events with sched
 
 
 ---
@@ -87,10 +87,15 @@ sc.run()
 
 ## Revision
 
-What is the priority ??? and what is the delay ??? of the following scheduler:
+Given the scheduler code:
 
 ```python
 sched.enter(3,2,print,argument=('second',))
+```
+What is the priority and what the delay?
+```python
+# Priority ???
+# Delay ???
 ```
 
 - 2

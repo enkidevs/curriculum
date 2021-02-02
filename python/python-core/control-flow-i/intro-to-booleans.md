@@ -69,8 +69,9 @@ x = 21
 x >= 21
 ```
 
+```python
 ???
-
+```
 - `True`
 - `False`
 - `true` 

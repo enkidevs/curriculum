@@ -14,8 +14,7 @@ revisionQuestion:
   context: standalone
 ---
 
-# `break` and `continue` statements
-
+# break & continue
 
 ---
 
@@ -71,9 +70,11 @@ This gives the following output:
 
 ## Practice
 
-Which keyword is used to skip the current code block, and to resume execution at the start of the current loop?
+Which keyword is used to skip the current code block, and to resume execution at the start of the current loop:
 
+```python
 ???
+```
 
 - `continue`
 - `break`
@@ -84,9 +85,11 @@ Which keyword is used to skip the current code block, and to resume execution at
 
 ## Revision
 
-Which keyword is used to terminate the current loop, then resuming code execution at the following statement?
+Which keyword is used to terminate the current loop, then resuming code execution at the following statement:
 
+```python
 ???
+```
 
 - `break`
 - `continue`

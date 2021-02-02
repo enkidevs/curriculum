@@ -16,7 +16,7 @@ revisionQuestion:
   context: standalone
 ---
 
-# The `not` operator
+# The not operator
 
 
 ---
@@ -72,9 +72,10 @@ What does the following code snippet return:
 
 ```python
 True == (not True)
+
+# ???
 ```
 
-???
 
 - `False`
 - `True`

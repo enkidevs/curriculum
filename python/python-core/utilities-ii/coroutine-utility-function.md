@@ -82,8 +82,9 @@ my_coroutine = ???.???(my_generator)
 
 What function from the `types` module can be used to transform a generator into a coroutine function?
 
+```python
 ???
-
+```
 - `coroutine`
 - `co`
 - `gen`

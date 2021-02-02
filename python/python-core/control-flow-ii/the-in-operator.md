@@ -22,7 +22,7 @@ revisionQuestion:
   context: standalone
 ---
 
-# The `in` operator
+# The in operator
 
 
 ---

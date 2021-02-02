@@ -17,7 +17,7 @@ revisionQuestion:
   context: standalone
 ---
 
-# `bytearray` objects
+# bytearray objects
 
 
 ---

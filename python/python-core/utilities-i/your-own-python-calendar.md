@@ -24,7 +24,7 @@ revisionQuestion:
   context: standalone
 ---
 
-# Your own Python `calendar`
+# Your own Python calendar
 
 
 ---

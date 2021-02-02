@@ -83,7 +83,7 @@ os.remove('new_file.txt');
 
 We want to open `file.txt` just for reading purposes. After we want to print it line by line and print the content.
 
-```plain-text
+```python
 file = open('file.txt','???')
 print(???.readline())
 ```
@@ -105,7 +105,9 @@ print(???.readline())
 
 Which method returns the current position of the file pointer within a **file object**?
 
+```python
 ???
+```
 
 - `tell()`
 - `seek()`

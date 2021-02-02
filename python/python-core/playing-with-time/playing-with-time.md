@@ -11,6 +11,7 @@ notes: >
 practiceQuestion:
   formats:
     - fill-in-the-gap
+    - type-in-the-gap
   context: standalone
 revisionQuestion:
   formats:
@@ -18,7 +19,7 @@ revisionQuestion:
   context: standalone
 ---
 
-# Playing with `time`
+# Playing with time
 
 
 ---

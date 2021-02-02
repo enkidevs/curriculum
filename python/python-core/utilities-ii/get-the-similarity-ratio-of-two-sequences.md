@@ -79,9 +79,11 @@ print(s.???() *100)
 
 ## Revision
 
-What function of `SequenceMatcher`  can be used to get the similarity of two sequences?
+What function of `SequenceMatcher` can be used to get the similarity of two sequences?
 
+```python
 ???
+```
 
 - `ratio`
 - `sim`

@@ -17,7 +17,7 @@ revisionQuestion:
   context: standalone
 ---
 
-# `Dictionary` view objects
+# Dictionary view objects
 
 
 ---

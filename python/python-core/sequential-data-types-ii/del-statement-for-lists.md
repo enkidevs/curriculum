@@ -17,7 +17,7 @@ revisionQuestion:
   context: standalone
 ---
 
-# The `del` operator for lists
+# The del operator for lists
 
 
 ---

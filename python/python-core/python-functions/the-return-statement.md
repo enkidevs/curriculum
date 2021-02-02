@@ -5,7 +5,6 @@ category: must-know
 practiceQuestion:
   formats:
     - fill-in-the-gap
-    - type-in-the-gap
   context: standalone
 revisionQuestion:
   formats:
@@ -13,7 +12,7 @@ revisionQuestion:
   context: standalone
 ---
 
-# The `return` statement
+# The return statement
 
 
 ---

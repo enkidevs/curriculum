@@ -18,7 +18,7 @@ revisionQuestion:
   context: standalone
 ---
 
-# Best way to implement a simple `queue`
+# Best way to implement a simple queue
 
 
 ---

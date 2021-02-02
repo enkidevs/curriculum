@@ -16,7 +16,7 @@ revisionQuestion:
   context: standalone
 ---
 
-# Python's `fractions`
+# Python's fractions
 
 
 ---

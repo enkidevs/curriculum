@@ -16,7 +16,7 @@ revisionQuestion:
   context: standalone
 ---
 
-# Compare sequences with `difflib`
+# Compare sequences with difflib
 
 
 ---
@@ -94,7 +94,9 @@ print(‘\n’.join(diff))
 
 What class from `difflib` with a `compare` method can be used to see differences between two text strings?
 
+```python
 ???
+```
 
 - `Differ`
 - `SequenceMatcher`

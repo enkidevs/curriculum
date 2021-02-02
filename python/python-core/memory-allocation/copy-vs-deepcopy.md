@@ -12,7 +12,7 @@ revisionQuestion:
   context: standalone
 ---
 
-# `copy` vs `deepcopy`
+# copy vs deepcopy
 
 
 ---

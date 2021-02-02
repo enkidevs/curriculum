@@ -17,7 +17,7 @@ revisionQuestion:
   context: standalone
 ---
 
-# Efficient concatenation with `join()`
+# Efficient concatenation with join()
 
 
 ---
@@ -94,9 +94,10 @@ What will the following code snippet output:
 l = ["E","n","k","i"]
 
 l = "".join(l)
+
+# ???
 ```
 
-???
 
 - Enki
 - E n k i

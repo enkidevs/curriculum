@@ -15,7 +15,7 @@ revisionQuestion:
   context: stadalone
 ---
 
-# Keep large lists sorted with `bisect`
+# Keep large lists sorted with bisect
 
 
 ---

@@ -7,11 +7,13 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Recipe to normalize text
@@ -72,9 +74,11 @@ print(normal)
 
 ## Revision
 
-What module has the `normalize` method used to normalise unicode data strings?
+What module has the `normalize` method used to normalise unicode data strings:
 
+```python
 ???
+```
 
 - `unicodedata`
 - `unicode`

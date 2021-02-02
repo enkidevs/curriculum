@@ -57,7 +57,7 @@ revisionQuestion:
   context: standalone
 ---
 
-# Enhance your `tuple` s
+# Enhance your tuples
 
 
 ---

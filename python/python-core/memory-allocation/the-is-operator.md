@@ -19,7 +19,7 @@ revisionQuestion:
   context: standalone
 ---
 
-# The `is` operator
+# The is operator
 
 
 ---
@@ -116,9 +116,9 @@ pizza = 'yummy'
 pasta = 'yummy'
 
 pizza is pasta
-```
 
-???
+# ???
+```
 
 - `False`
 - `True`

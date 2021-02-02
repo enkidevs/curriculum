@@ -16,7 +16,7 @@ revisionQuestion:
   context: standalone
 ---
 
-# A thread-safe `Queue`
+# A thread-safe Queue
 
 
 ---

@@ -31,7 +31,7 @@ revisionQuestion:
   context: standalone
 ---
 
-# Python's `math`
+# Python's math
 
 
 ---

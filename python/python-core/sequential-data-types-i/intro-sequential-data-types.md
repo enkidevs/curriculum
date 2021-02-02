@@ -73,13 +73,13 @@ What's the correct output for the following?
 text = 'Strings can be accessed via indexes!'
 
 print(text[1])
-# ???
+# '???'
 ```
 
-- `'t'`
-- `'S'`
-- `'!'`
-- `'s'`
+- `t`
+- `S`
+- `!`
+- `s`
 
 
 ---
@@ -92,10 +92,10 @@ What's the correct output for the following?
 text = 'Strings can be accessed via indexes!'
 
 print(text[O])
-# ???
+# '???'
 ```
 
-- `'S'`
-- `'s'`
-- `'!'`
-- `'t'`
+- `S`
+- `s`
+- `!`
+- `t`

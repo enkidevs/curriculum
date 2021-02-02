@@ -53,7 +53,9 @@ print(new.inst) # '0.2.41' (unique/instance)
 
 Is `my_var` a class or instance variable?
 
+```plain-text
 ???
+```
 
 ```python
 class Test:

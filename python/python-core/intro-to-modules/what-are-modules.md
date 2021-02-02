@@ -12,6 +12,7 @@ practiceQuestion:
 revisionQuestion:
   formats:
     - fill-in-the-gap
+    - type-in-the-gap
   context: standalone
 ---
 
@@ -54,8 +55,11 @@ Note that within each module, its name is dynamically available through the glob
 
 ## Practice
 
-What is the extension specific to Python **modules**?
+The extension specific to Python **modules** is:
+
+```python
 ???
+```
 
 - `.py`
 - `.md`
@@ -70,11 +74,23 @@ What is the extension specific to Python **modules**?
 ## Revision
 
 Which of the following options would better describe a module in Python?
-???
 
-- A file with python code - definitions and statements
-- A library exposing an API
-- A file with functions written in Python
+```python
+# 1
+# A file with functions written in Python
+
+# 2 
+# A file with python code - definitions and statements
+
+# 3 
+# A library exposing an API
+
+# ???
+```
+
+- 3
+- 2
+- 1
 
 
 ---

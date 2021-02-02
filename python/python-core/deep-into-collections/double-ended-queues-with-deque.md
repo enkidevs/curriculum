@@ -15,11 +15,11 @@ practiceQuestion:
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: standalone
     - type-in-the-gap
+  context: standalone
 ---
 
-# Double ended queues with `deque`
+# Double ended queues with deque
 
 
 ---

@@ -8,7 +8,8 @@ notes: ''
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
@@ -93,7 +94,11 @@ print(pprint.???(???, width=19))
 
 ## Revision
 
-What library provides pretty printing of data structures in *Python*? ???
+What library provides pretty printing of data structures in *Python*:
+
+```python
+???
+```
 
 - `pprint`
 - `draw`

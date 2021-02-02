@@ -87,7 +87,11 @@ Which of these commands will start the interactive Python interpreter?
 
 ## Revision
 
-The Python-specific file extension is ???.
+The Python-specific file extension is:
+
+```bash
+???
+```
 
 - `.py`
 - `.pyt`

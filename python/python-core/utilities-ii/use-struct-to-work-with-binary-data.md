@@ -22,7 +22,7 @@ revisionQuestion:
   context: standalone
 ---
 
-# Use `struct` to work with Binary Data
+# Use struct to work with Binary Data
 
 
 ---

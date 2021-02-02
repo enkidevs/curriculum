@@ -49,7 +49,10 @@ class Employee:
 
 What do classes, variables, lists in python have in common?
 
-they are all ???
+They are all:
+```plain-text
+???
+```
 
 - objects
 - methods

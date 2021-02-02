@@ -15,8 +15,8 @@ practiceQuestion:
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: standalone
     - type-in-the-gap
+  context: standalone
 ---
 
 # Special attributes of objects and classes

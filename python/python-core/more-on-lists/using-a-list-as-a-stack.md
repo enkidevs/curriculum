@@ -16,7 +16,7 @@ revisionQuestion:
   context: standalone
 ---
 
-# Using a `list` as a `stack`
+# Using a list as a stack
 
 
 ---

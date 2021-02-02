@@ -60,7 +60,7 @@ While `c = 10` is valid, writing `count = 10` would make more sense. It is easie
 Complete the following code to print 'Python' to the screen:
 
 ```python
-??? ??? ???
+??? ??? '???'
 print(language)
 
 # Python
@@ -68,9 +68,9 @@ print(language)
 
 - language
 - =
-- 'Python'
-- 'python'
 - Python
+- 'python'
+- python
 
 
 ---

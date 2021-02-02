@@ -5,6 +5,7 @@ category: must-know
 practiceQuestion:
   formats:
     - fill-in-the-gap
+    - type-in-the-gap
   context: standalone
 revisionQuestion:
   formats:
@@ -12,7 +13,7 @@ revisionQuestion:
   context: standalone
 ---
 
-# Complex `set` operations
+# Complex set operations
 
 
 ---

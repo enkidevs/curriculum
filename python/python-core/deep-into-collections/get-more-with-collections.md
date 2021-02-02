@@ -17,7 +17,7 @@ revisionQuestion:
   context: standalone
 ---
 
-# Get more with `collections` !
+# Get more with collections!
 
 
 ---

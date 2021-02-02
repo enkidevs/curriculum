@@ -83,8 +83,9 @@ What does the following code snippet return:
 11 % 4
 ```
 
+```bash
 ???
-
+```
 - `3`
 - `2`
 - `7`
