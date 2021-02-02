@@ -5,7 +5,7 @@ category: how-to
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: stanndalone
 ---
 
 # How to Change Chart Data
