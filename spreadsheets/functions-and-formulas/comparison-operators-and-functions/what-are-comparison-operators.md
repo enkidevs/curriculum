@@ -1,15 +1,16 @@
----
+﻿---
 author: Stefan-Stojanovic
 type: normal
 category: how-to
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # What Are Comparison Operators
@@ -80,16 +81,16 @@ What are the possible outputs when using comparison operators or their equivalen
 
 Match the function with its equivalent comparison operator.
 
-`<`  = ???
-`=`  = ??? 
-`>`  = ???
-`>=` = ???
-`<>` = ???
-`<=` = ???
+`<`  = ???()
+`=`  = ???()
+`>`  = ???()
+`>=` = ???()
+`<>` = ???()
+`<=` = ???()
 
-- LT()
-- EQ()
-- GT()
-- GTE()
-- NE()
-- LTE()
+- LT
+- EQ
+- GT
+- GTE
+- NE
+- LTE
