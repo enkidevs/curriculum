@@ -1,4 +1,4 @@
----
+﻿---
 author: Stefan-Stojanovic
 type: normal
 category: how-to
@@ -7,11 +7,13 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # TO_DOLLARS
@@ -62,8 +64,8 @@ Finish the code below to convert the number 9.99 to a dollar value.
 
 Which function is used to convert a number to a dollar value?
 
-???
+=???()
 
-- =TO_DOLLARS()
-- =TO_DOLLAR()
-- =CONVERT_TO_DOLLARS()
+- TO_DOLLARS
+- TO_DOLLAR
+- CONVERT_TO_DOLLARS
