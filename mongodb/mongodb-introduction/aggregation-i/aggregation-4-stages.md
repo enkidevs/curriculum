@@ -5,7 +5,8 @@ category: how-to
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Aggregation With $skip, $limit, $match and $count
