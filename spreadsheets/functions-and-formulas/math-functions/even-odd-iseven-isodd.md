@@ -10,7 +10,6 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-    - type-in-the-gap
   context: standalone
 revisionQuestion:
   formats:
@@ -63,10 +62,12 @@ The =???() function is used to check if a number is odd.
 
 What would the output of these functions be?
 
+```plain-text
 =EVEN(2.1)   = ???
 =ODD(2.1)    = ???
 =ISEVEN(2.1) = ???
 =ISODD(2.1)  = ???
+```
 
 - 4
 - 3

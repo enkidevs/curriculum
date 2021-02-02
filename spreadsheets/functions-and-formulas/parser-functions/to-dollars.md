@@ -64,7 +64,9 @@ Finish the code below to convert the number 9.99 to a dollar value.
 
 Which function is used to convert a number to a dollar value?
 
+```plain-text
 =???()
+```
 
 - TO_DOLLARS
 - TO_DOLLAR

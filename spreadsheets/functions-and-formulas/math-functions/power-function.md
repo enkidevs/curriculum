@@ -15,7 +15,7 @@ revisionQuestion:
   context: standalone
 ---
 
-# The POWER function
+# POWER
 
 
 ---

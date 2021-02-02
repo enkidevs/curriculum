@@ -8,7 +8,7 @@ revisionQuestion:
   context: standalone
 ---
 
-# `<>` & `NE()`
+# <> & NE()
 
 
 ---

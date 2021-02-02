@@ -8,11 +8,12 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # TO_PURE_NUMBER
@@ -73,7 +74,9 @@ Which of these cells removes all formatting from a numeric value?
 |  A2  | NUMERIC_TO_PURE_NUMBER |
 |  A3  | TO_PURE_NUMBER         |
 
+```plain-text
 A???
+```
 
 - 3
 - 2

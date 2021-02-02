@@ -5,11 +5,10 @@ category: how-to
 practiceQuestion:
   formats:
     - fill-in-the-gap
-    - type-in-the-gap
   context: standalone
 ---
 
-# The `COUNT` Function
+# COUNT
 
 
 ---

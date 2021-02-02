@@ -8,7 +8,7 @@ practiceQuestion:
   context: relative
 ---
 
-# The `SUM` Function
+# SUM
 
  
 ---

@@ -63,9 +63,8 @@ What would the output of this function be?
 
 ```plain-text
 =CEILING(19.89)
-```
-
 ???
+```
 
 - 20
 - 19

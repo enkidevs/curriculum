@@ -42,7 +42,10 @@ If you're using **OpenOffice**, then the default file type is `.ods`.
 
 ## Practice
 
-The default file type when saving your spreadsheet is ???.
+The default file type when saving your spreadsheet is:
+```plain-text
+???
+```
 
 - .xlsx
 - .xls
@@ -54,7 +57,11 @@ The default file type when saving your spreadsheet is ???.
 
 ## Revision
 
-The only difference between the `.xltx` and `.xltm` file types is that the ??? type can store macros.
+The only difference between `.xltx` and `.xltm` file types is that the one of them can store macros. Which one?
+
+```plain-text
+???
+```
 
 - .xltm
 - .xltx

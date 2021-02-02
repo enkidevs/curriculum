@@ -59,8 +59,9 @@ How does the `=PROPER()` function re-format text?
 What is the output of this function?
 
 `=PROPER("The ball is red")`
-
+```plain-text
 ???
+```
 
 - The Ball Is Red
 - The ball is red

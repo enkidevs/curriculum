@@ -1,4 +1,4 @@
----
+﻿---
 author: Stefan-Stojanovic
 type: normal
 category: how-to
@@ -97,7 +97,9 @@ Which of these cells converts a number to 54%?
 |  A3  | =TO_PERCENT(5.4)   |
 |  A4  | =TO_PERCENT(0.054) |
 
+```plain-text
 A???
+```
 
 - 2
 - 1

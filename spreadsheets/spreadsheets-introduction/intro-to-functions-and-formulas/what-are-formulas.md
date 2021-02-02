@@ -53,7 +53,9 @@ Consider the following spreadsheet:
 
 What will the formula `= B2 + B4` output?
 
+```plain-text
 ???
+```
 
 - 51
 - 83

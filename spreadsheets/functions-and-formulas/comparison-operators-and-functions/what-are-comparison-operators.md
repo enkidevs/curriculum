@@ -13,7 +13,7 @@ revisionQuestion:
   context: standalone
 ---
 
-# What Are Comparison Operators
+# What Are Comparison Operators?
 
 
 ---
@@ -81,12 +81,14 @@ What are the possible outputs when using comparison operators or their equivalen
 
 Match the function with its equivalent comparison operator.
 
+```plain-text
 `<`  = ???()
 `=`  = ???()
 `>`  = ???()
 `>=` = ???()
 `<>` = ???()
 `<=` = ???()
+```
 
 - LT
 - EQ

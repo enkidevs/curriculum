@@ -86,9 +86,9 @@ Create a function that will divide the text in cell `A7` after every `,`.
 ## Revision
 
 Which function divides text by a specified character and outputs each piece in a separate cell in the same row as the function? 
-
+```plain-text
 =???()
-
+```
 - SPLIT
 - DIVIDE
 - SEPARATE

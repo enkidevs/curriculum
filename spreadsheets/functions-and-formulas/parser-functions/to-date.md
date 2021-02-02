@@ -110,7 +110,11 @@ Finish the code below to convert the number 7 to a date value.
 
 ## Revision
 
-The =???() parser function is used to convert a numeric value to a date value.
+Which parser function is used to convert a numeric value to a date value?
+
+```plain-text
+=???()
+```
 
 - TO_DATE
 - DATE_TO

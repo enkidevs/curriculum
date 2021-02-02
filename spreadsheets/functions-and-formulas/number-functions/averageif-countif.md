@@ -17,7 +17,7 @@ revisionQuestion:
   context: standalone
 ---
 
-# AVERAGEIF, COUNTIF
+# AVERAGEIF & COUNTIF
 
 
 ---

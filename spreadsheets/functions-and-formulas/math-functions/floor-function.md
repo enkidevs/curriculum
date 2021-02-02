@@ -61,9 +61,8 @@ What would the output of this function be?
 
 ```plain-text
 =FLOOR(31.66)
-```
-
 ???
+```
 
 - 31
 - 32
