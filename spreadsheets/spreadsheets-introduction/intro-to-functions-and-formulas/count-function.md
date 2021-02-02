@@ -5,7 +5,8 @@ category: how-to
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # The `COUNT` Function
@@ -32,9 +33,9 @@ In cell `C18`, we have entered the following formula `COUNT(C6:C17)`. You would 
 
 Create a function that will count how many numerical values are present from the cell `C7` to `C32`.
 
-???
+=???
 
-- `=COUNT(C7:C32)`
-- `=COUNT(C7-C32)`
-- `COUNT(C7:C32)`
-- `COUNT(C7-C32)`
+- COUNT(C7:C32)
+- COUNT(C7-C32)
+- COUNT[C7:C32]
+- COUNT[C7-C32]

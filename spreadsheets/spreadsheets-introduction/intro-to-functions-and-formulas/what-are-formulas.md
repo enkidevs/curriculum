@@ -5,7 +5,8 @@ category: how-to
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # What are Formulas?
@@ -42,7 +43,13 @@ Now, every time you update the data in one of the cells found in the formula (`B
 
 Consider the following spreadsheet:
 
-![data](https://img.enkipro.com/a57be7c4784b165308b3874649d14fcd.png)
+|   |   A  | B        |
+|---|:----:|----------|
+| 1 | Week | Spending |
+| 2 | 1    | 23       |
+| 3 | 2    | 32       |
+| 4 | 3    | 28       |
+| 5 | 4    | 42       |
 
 What will the formula `= B2 + B4` output?
 
