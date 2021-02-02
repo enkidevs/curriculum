@@ -14,7 +14,7 @@ practiceQuestion:
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: stadalone
+  context: standalone
 ---
 
 # Shallow compare in React

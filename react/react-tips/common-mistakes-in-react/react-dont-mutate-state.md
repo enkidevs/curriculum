@@ -5,7 +5,7 @@ category: tip
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: stadalone
+  context: standalone
 ---
 
 # Don't mutate state

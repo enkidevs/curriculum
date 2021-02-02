@@ -5,11 +5,11 @@ category: must-know
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: stadalone
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: stadalone
+  context: standalone
 ---
 
 # Data Flow in React

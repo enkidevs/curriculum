@@ -9,7 +9,7 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: stadalone
+  context: standalone
 ---
 
 # Using React Components

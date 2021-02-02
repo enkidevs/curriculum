@@ -15,7 +15,7 @@ revisionQuestion:
   formats:
     - fill-in-the-gap
     - type-in-the-gap
-  context: stadalone
+  context: standalone
 ---
 
 # The React Component

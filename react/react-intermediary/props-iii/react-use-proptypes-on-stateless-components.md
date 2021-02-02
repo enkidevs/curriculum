@@ -14,12 +14,12 @@ practiceQuestion:
   formats:
     - fill-in-the-gap
     - type-in-the-gap
-  context: stadalone
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
     - type-in-the-gap
-  context: stadalone
+  context: standalone
 ---
 
 # Use `propTypes` on stateless components

@@ -5,12 +5,12 @@ category: tip
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: stadalone
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
     - type-in-the-gap
-  context: stadalone
+  context: standalone
 ---
 
 # Current state and next state
