@@ -12,7 +12,7 @@ revisionQuestion:
   context: relative
 ---
 
-# `if` Using Shorthand Declaration
+# If Using Shorthand Declaration
 
 
 ---

@@ -5,7 +5,6 @@ category: must-know
 practiceQuestion:
   formats:
     - fill-in-the-gap
-    - type-in-the-gap
   context: standalone
 revisionQuestion:
   formats:
@@ -58,7 +57,7 @@ The shorthand declaration can only be used on the ??? level.
 
 ## Revision
 
-Which of these variables is incorrectly defined?
+Given the code:
 
 ```go
 package main
@@ -72,7 +71,11 @@ func main() {
 }
 ```
 
+Which variable is incorrectly defined?
+
+```go
 ???
+```
 
 - name
 - age

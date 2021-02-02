@@ -89,7 +89,15 @@ Slices have ???.
 
 ## Revision
 
-The ??? method is used to get the length of a slice while the ??? method is used to get the capacity.
+This method is used to get the length of a slice:
+```plain-text
+???
+```
+
+While this one is used to get the capacity:
+```plain-text
+???
+```
 
 - len()
 - cap()

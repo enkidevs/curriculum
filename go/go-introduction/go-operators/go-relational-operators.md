@@ -87,9 +87,9 @@ Add the operator that applies to each stement.
 ```
 
 
-- >=
-- ==
-- > 
-- <=
-- < 
-- !=
+- `>=`
+- `==`
+- `>`
+- `<=`
+- `<`
+- `!=`

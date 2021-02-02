@@ -12,7 +12,7 @@ revisionQuestion:
   context: standalone
 ---
 
-# `if..else` Statements Are Stackable
+# Stacking if..else
 
 
 ---

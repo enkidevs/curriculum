@@ -62,7 +62,7 @@ This is true for any type. As long as the value is initialized, there is no need
 
 ## Practice
 
-Which of these is not a correct way of initializing a string variable?
+Which of these variables are incorrectly initialized?
 
 ```go
 var a = "Stefan"
@@ -72,7 +72,9 @@ var b string = "Stefan"
 var c string = Stefan
 ```
 
+```go
 ???
+```
 
 - c
 - a

@@ -101,7 +101,11 @@ for i, _ := range fibonacci {
 
 ## Practice
 
-??? is a reserved keyword used to iterate over elements in an `array`, `slice`, `map`, and other data structures.
+What is the reserved keyword used to iterate over elements in an `array`, `slice`, `map`, and other data structures.
+
+```go
+???
+```
 
 - range
 - iterate

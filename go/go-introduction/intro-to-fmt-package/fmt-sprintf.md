@@ -82,7 +82,7 @@ The `fmt.Sprintf` function formats to a string ???.
 
 Fill in the code to format a string and save it into the `s` variable.
 
-Use the print statement that formats the string but doesn't print it to the console.
+Use the print statement that formats the string but doesn't print to the console.
 
 Then print the variable.
 

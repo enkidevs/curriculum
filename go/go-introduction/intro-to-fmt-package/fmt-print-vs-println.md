@@ -84,7 +84,9 @@ This will create an output on two separate lines.
 
 Which print statement adds a space after **every** operand?
 
+```go
 ???
+```
 
 - Println
 - Print
@@ -94,9 +96,17 @@ Which print statement adds a space after **every** operand?
 
 ## Revision
 
-The ??? function adds a space after every operand, appends a new line, and outputs to the console.
+This function adds a space after every operand, appends a new line, and outputs to the console:
 
-The ??? only prints to the console.
+```go
+???
+```
+
+While this one only prints to the console:
+
+```go
+???
+```
 
 - Println
 - Print

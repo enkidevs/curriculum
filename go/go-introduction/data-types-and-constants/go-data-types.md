@@ -73,11 +73,12 @@ Which of these is not a basic data type?
 
 The four data type groups in **Go** are:
 
+```plain-text
 1. ???
 2. Aggregate
 3. Reference
 4. Interference
-
+```
 - Basic
 - Numbers
 - Text

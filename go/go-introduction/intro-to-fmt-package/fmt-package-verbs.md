@@ -55,17 +55,19 @@ Here are definitions for some verbs that we will use:
 
 Match the verb with the description.
 
+```plain-text
 ??? = convert a numeric value to a base 2
 ??? = display a value in its original format
 ??? = represent a boolean value
 ??? = represent the type of the value
 ??? = convert a numeric value to an uppercase base 16.
+```
 
-- %b
-- %v
-- %t
-- %T
-- %X
+- `%b`
+- `%v`
+- `%t`
+- `%T`
+- `%X`
 
 
 ---

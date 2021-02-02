@@ -101,9 +101,17 @@ Which statement is false about pointers in **Go**?
 
 ## Revision
 
-The ??? character is used to reference and dereference a pointers variable.
+The character used to reference and dereference a pointers variable is:
 
-The ??? character is used to find the address of a variable.
+```plain-text
+???
+```
+
+The character used to find the address of a variable:
+
+```plain-text
+???
+```
 
 - *
 - &

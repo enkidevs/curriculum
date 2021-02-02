@@ -82,7 +82,7 @@ var age int, isAdult bool = 28, true
 
 ## Revision
 
-Which of these is not a correct way of initializing variables?
+Given the code:
 
 ```go
 // a
@@ -98,7 +98,10 @@ var age, name, isAdult = 26, "Stefan", true
 var age, year, something int = 1, 4, 7
 ```
 
+Identify the incorrectly initialized variables:
+```plain-text
 ???
+```
 
 - b
 - a
