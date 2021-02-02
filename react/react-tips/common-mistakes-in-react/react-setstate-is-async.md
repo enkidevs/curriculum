@@ -5,11 +5,13 @@ category: tip
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: stadalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
+
 ---
 
 # setState is async
@@ -75,7 +77,12 @@ When thinking of class components, where would you insert a callback function so
 
 ## Revision
 
-Complete the following code to correctly update the state:
+Complete the following code to correctly update the state. Assume both component snippets will receive a `callback` prop with a single argument. 
+
+```js
+const callback = (x) => console.log(x);
+```
+
 
 ```js
 // class

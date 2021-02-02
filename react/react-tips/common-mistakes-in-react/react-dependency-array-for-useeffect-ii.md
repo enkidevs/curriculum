@@ -9,7 +9,7 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: stadalone
 ---
 
 # Dependency array for useEffect (Part 2)

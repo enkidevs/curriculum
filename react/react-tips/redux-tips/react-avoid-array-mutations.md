@@ -12,11 +12,13 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: stadalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: stadalone
 ---
 
 # Avoid array mutations
@@ -118,7 +120,7 @@ The last option is to use an immutability helper, like the `immutability-helper`
 
 ## Practice
 
-Append `enki` to `myArray` using the spread operator in a **pure** fashion:
+Append the `enki` array to the `myArray` array using the spread operator in a **pure** fashion:
 
 ```js
 return [???myArray, ???];
@@ -135,13 +137,13 @@ return [???myArray, ???];
 
 ## Revision
 
-Append `enki` to `myArray` using the spread operator in a **pure** fashion:
+Append the `enki` array to the `myArray` array using the spread operator in a **pure** fashion:
 
 ```js
-return [???myArray, ???];
+return [???, ???];
 ```
 
-- `...`
+- `...myArray`
 - `enki`
 - `concat`
 - `splice`
