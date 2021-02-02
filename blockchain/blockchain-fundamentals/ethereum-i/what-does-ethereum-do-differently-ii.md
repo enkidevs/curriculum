@@ -49,12 +49,14 @@ Moreover, Ethereum became a decentralized crowdfunding platform: you could launc
 
 What is the most notable token standard for Ethereum?
 
-??? 
+```plain-text
+???
+```
 
-- ERC20
-- ECR21
-- ECR20
-- ERC2020
+- `ERC20`
+- `ECR21`
+- `ECR20`
+- `ERC2020`
 
 
 ---

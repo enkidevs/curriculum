@@ -43,7 +43,9 @@ In the learn more section, you’ll find a link to an online block explorer wher
 
 What is the consensus algorithm implemented in the Bitcoin blockchain?
 
-Proof of ???
+```plain-text
+Proof of ???.
+```
 
 - work
 - stake
