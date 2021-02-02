@@ -12,7 +12,7 @@ practiceQuestion:
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: stadalone
+  context: standalone
 ---
 
 # Keep large lists sorted with bisect
