@@ -13,11 +13,12 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Animation basics in CSS
@@ -74,7 +75,9 @@ Setting it to *paused* stops your animation in place, until you change `animatio
 
 Which keyword determines the actions an element should follow during the animation?
 
+```css
 ???
+```
 
 - `keyframes`
 - `animation`
