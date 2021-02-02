@@ -7,11 +7,12 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: stadalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: stadalone
 ---
 
 # Forms in React

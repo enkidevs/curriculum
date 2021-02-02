@@ -9,11 +9,13 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: stadalone
 ---
 
 # The React Component
@@ -58,7 +60,7 @@ Note: Component names should start with a capital letter such that you can diffe
 
 ## Practice
 
-Complete the missing gaps such that `<MyComponent>` is defined using class syntax:
+Complete the missing gaps such that *component* `<MyComponent>` is defined using class syntax:
 
 ```jsx
 class MyComponent extends React.??? {
@@ -79,10 +81,10 @@ class MyComponent extends React.??? {
 
 ## Revision
 
-Complete the missing gaps such that `MyComponent` is defined using class syntax:
+Complete the missing gaps such that *component* `EnkiComponent` is defined using class syntax:
 
 ```jsx
-??? MyComponent ??? React.??? {
+??? EnkiComponent ??? React.??? {
   ???() {
     return <h1>Hello, World!</h1>;
   }

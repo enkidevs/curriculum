@@ -12,11 +12,11 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: stadalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: stadalone
 ---
 
 # Component lifecycle methods
@@ -97,7 +97,7 @@ constructor(props) {
 
 ## Practice
 
-Which of the following methods is called **after** all **but first** render?
+Which of the following methods is called **after** all **but the first** render?
 
 ???
 
@@ -113,7 +113,7 @@ Which of the following methods is called **after** all **but first** render?
 
 ## Revision
 
-What method is the first being called in the **component lifecycle**?
+What method is the first one being called in the **component lifecycle**?
 
 ???
 

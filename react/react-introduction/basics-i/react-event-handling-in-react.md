@@ -9,11 +9,12 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: stadalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: stadalone
 ---
 
 # Event handling in React
@@ -104,6 +105,7 @@ class Practice extends React.Component {
      ???.???(???)
   }
   myHandler() {
+    // "this" should be available here
     console.log('practice');
   }
   // render()...
