@@ -5,7 +5,6 @@ category: how-to
 practiceQuestion:
   formats:
     - fill-in-the-gap
-    - type-in-the-gap
   context: standalone
 ---
 
@@ -59,8 +58,6 @@ E-mail link:
 ---
 
 ## Practice
-
-True or False?
 
 The `Navbar` is NOT the only element you can place a navigation link in.
 

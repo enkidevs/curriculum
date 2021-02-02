@@ -45,7 +45,9 @@ Notice how the elements are all over the place. Using the division, we can apply
 
 Without CSS or HTML do divisions have no effect on the content within them.
 
+```plain-text
 ???
+```
 
 - CSS
 - HTML
