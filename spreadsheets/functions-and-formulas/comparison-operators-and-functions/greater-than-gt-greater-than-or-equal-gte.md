@@ -1,4 +1,4 @@
-﻿---
+---
 author: Stefan-Stojanovic
 type: normal
 category: how-to
@@ -8,7 +8,7 @@ revisionQuestion:
   context: standalone
 ---
 
-# `>` , `>=` , `GT()` & `GTE()`
+# > , >= , GT() & GTE()
 
 
 ---
@@ -18,7 +18,7 @@ revisionQuestion:
 > 💡 When comparing strings, Sheets will compare each character individually, starting from the first. 
 > They're compared by their position in the alphabet, meaning that `a` is **lower than** `b`. Also, capitalization doesn't count, so `a` is the same as `A` when being compared.
 
-### `GT()` & `>`
+### GT() & >
 
 The greater than comparison operator is equivalent to the `GT()` function.
 
