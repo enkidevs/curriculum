@@ -1,4 +1,4 @@
----
+﻿---
 author: Stefan-Stojanovic
 type: normal
 category: how-to
@@ -7,7 +7,8 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # SWITCH
