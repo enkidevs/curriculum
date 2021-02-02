@@ -10,7 +10,7 @@ practiceQuestion:
 
 # Group Rule in Pivot Tables
 
-
+ 
 ---
 
 ## Content

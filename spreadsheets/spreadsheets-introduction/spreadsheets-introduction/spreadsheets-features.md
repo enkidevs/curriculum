@@ -25,7 +25,7 @@ There are many *formulas* that can be used to organize, calculate, or find the d
 
 ![red-green-color-rule](https://img.enkipro.com/99d219ca6028911ce05d78355f99cb93.gif)
 
-
+ 
 ---
 
 ## Practice

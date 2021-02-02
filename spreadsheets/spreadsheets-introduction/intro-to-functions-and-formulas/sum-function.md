@@ -10,7 +10,7 @@ practiceQuestion:
 
 # The `SUM` Function
 
-
+ 
 ---
 
 ## Content

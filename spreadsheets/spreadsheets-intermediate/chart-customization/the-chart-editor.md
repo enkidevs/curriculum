@@ -1,4 +1,4 @@
-﻿---
+---
 author: Stefan-Stojanovic
 
 type: normal
@@ -13,7 +13,7 @@ category: how-to
 ## Content
 
 Let's take a look at how you can further customize your charts.
-
+ 
 We're going to use the chart from the previous workout[1].
 
 In the `Chart editor`, we have a `Customize` tab.

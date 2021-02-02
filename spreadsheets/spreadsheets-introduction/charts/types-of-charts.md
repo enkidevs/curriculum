@@ -57,3 +57,4 @@ Column : ???
 - Circular and sliced into sections.
 - Used to represent data with either horizontal or vertical bars.
 - Used to represent data with vertical bars.
+ 

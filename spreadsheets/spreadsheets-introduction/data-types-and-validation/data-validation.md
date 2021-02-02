@@ -40,7 +40,7 @@ Depending on your selection, a different subset of options that will appear on t
 To remove a data validation, all you have to do is right-click the cell you want to remove the validation, open `data validation` and click `remove validation`.
 
 ![how-to-remove-gif](https://img.enkipro.com/5942bfe502242b44c2253ac4f6de6b19.gif)
-
+ 
 
 ---
 

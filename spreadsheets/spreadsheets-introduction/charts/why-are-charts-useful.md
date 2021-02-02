@@ -34,3 +34,4 @@ Which of these are not true?
 - A single chart can represent thousands of data points.
 - Charts can be used to detect patterns and understand results in a more clear way.
 - Charts are good for fast analysis of large amounts of data.
+ 
