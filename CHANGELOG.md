@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## February 2nd 2021
+
+### Added
+- [Coding Intro - Mark questions as `type-in-the-gap` and `standalone` accordingly]()
+
 ## February 1st 2021
 
 ### Changed

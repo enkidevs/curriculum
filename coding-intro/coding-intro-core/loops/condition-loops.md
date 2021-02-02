@@ -8,7 +8,7 @@ aspects:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Condition Loops
