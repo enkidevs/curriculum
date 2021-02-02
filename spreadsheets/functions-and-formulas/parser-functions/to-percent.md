@@ -1,4 +1,4 @@
----
+﻿---
 author: Stefan-Stojanovic
 type: normal
 category: how-to
@@ -7,11 +7,13 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # TO_PERCENT
@@ -69,7 +71,7 @@ Here are a few more examples:
 
 ## Practice
 
-Fill in the gaps such that the result is `87%`.
+Fill in the gaps to transform a number into `87%`.
 
 ```plain-text
 =??????
@@ -86,11 +88,18 @@ Fill in the gaps such that the result is `87%`.
 
 ## Revision
 
-Which of these converts a number to 54%?
+Which of these cells converts a number to 54%?
 
-???
+| Cell | Function           |
+|------|--------------------|
+| A1   | =TO_PERCENT(54)    |
+| A2   | =TO_PERCENT(0.54)  |
+| A3   | =TO_PERCENT(5.4)   |
+| A4   | =TO_PERCENT(0.054) |
 
-- =TO_PERCENT(0.54)
-- =TO_PERCENT(54)
-- =TO_PERCENT(5.4)
-- =TO_PERCENT(0.054)
+A1, A2, A3 or A4? A???
+
+- 2
+- 1
+- 4
+- 3
