@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## February 2nd 2021
+
+### Added
+- [React - Entire Topic - Add format and context metadata, improve some questions](https://github.com/enkidevs/curriculum/pull/2586)
+
 ## February 1st 2021
 
 ### Changed
