@@ -48,6 +48,12 @@ Types of change:
 
 ### Fixed
 
+## February 2nd 2021
+
+### Added
+
+- [MongoDB - Entire Topic - Remove backticks from headlines, add type-in-the-gap, update questions](https://github.com/enkidevs/curriculum/pull/2593)
+
 ## February 1st 2021
 
 ### Changed
