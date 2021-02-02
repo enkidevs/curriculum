@@ -9,7 +9,7 @@ practiceQuestion:
   context: standalone
 ---
 
-# Aggregation With $skip, $limit, $match and $count
+# $skip, $limit, $match and $count
 
 
 ---
