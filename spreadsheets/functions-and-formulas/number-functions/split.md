@@ -7,11 +7,12 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # SPLIT
@@ -86,8 +87,8 @@ Create a function that will divide the text in cell `A7` after every `,`.
 
 Which function divides text by a specified character and outputs each piece in a separate cell in the same row as the function? 
 
-???
+=???()
 
-- =SPLIT()
-- =DIVIDE()
-- =SEPARATE()
+- SPLIT
+- DIVIDE
+- SEPARATE
