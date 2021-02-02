@@ -23,7 +23,7 @@ practiceQuestion:
   formats:
     - fill-in-the-gap
     - type-in-the-gap
-  context: standaolne
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
