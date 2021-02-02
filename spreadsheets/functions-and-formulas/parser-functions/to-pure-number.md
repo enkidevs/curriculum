@@ -65,10 +65,16 @@ The `TO_PURE_NUMBER` function is used to convert a ??? to a pure number value ??
 
 ## Revision
 
-Which function removes all formatting from a numeric value?
+Which of these cells removes all formatting from a numeric value?
 
-???
+| Cell | Function               |
+|------|------------------------|
+|  A1  | TO_PURE                |
+|  A2  | NUMERIC_TO_PURE_NUMBER |
+|  A3  | TO_PURE_NUMBER         |
 
-- TO_PURE_NUMBER
-- NUMERIC_TO_PURE_NUMBER
-- TO_PURE
+A???
+
+- 3
+- 2
+- 1
