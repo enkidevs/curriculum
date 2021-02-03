@@ -9,11 +9,13 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # How to flip an image
@@ -42,7 +44,9 @@ The `scale()` method increases or decreases the size of an element (according to
 
 Which method is used to modify the width of an image?
 
+```css
 ???
+```
 
 - `scaleX`
 - `scaleW`

@@ -12,14 +12,15 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
-# The `hover` Pseudo-Class
+# The hover Pseudo-Class
 
 
 ---
@@ -67,7 +68,9 @@ In which of the following cases, will the `:hover` pseudo-class most likely work
 3. When it is applied on a button, in a browser running on a PC.
 4. When it is not used.
 
-???
+```plain-text
+???.
+```
 
 - 3
 - 1

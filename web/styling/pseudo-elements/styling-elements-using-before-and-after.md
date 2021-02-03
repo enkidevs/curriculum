@@ -16,14 +16,14 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
-# Styling elements using `::before` and `::after`
+# Styling elements with ::before & ::after
 
 
 ---

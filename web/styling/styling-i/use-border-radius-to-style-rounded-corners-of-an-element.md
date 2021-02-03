@@ -12,10 +12,10 @@ links:
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
-# Use `border-radius` to style rounded corners of an element
+# Use border-radius to style rounded corners of an element
 
 
 ---

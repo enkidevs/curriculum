@@ -9,7 +9,7 @@ links:
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Prevent Text Enlargement on an iPhone

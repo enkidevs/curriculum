@@ -12,11 +12,12 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Use pseudo-elements to style specific parts of an element
@@ -69,7 +70,9 @@ Which of the following is NOT a pseudo-element?
 
 Ideally, what should precede all pseudo-elements declaration?
 
+```plain-text
 ???
+```
 
 - `::`
 - `;;`
