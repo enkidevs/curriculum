@@ -52,6 +52,7 @@ Types of change:
 
 ### Added
 - [Security - Making SSH Connections - New insight on ssh security & other updates](https://github.com/enkidevs/curriculum/pull/2599)
+- [Styling - Entire Topic - Remove backticks from headlines, add type in the gap to applicable questions](https://github.com/enkidevs/curriculum/pull/2598)
 
 ## February 1st 2021
 
