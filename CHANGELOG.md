@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## February 3rd 2021
+
+### Added
+- [Git - Entire Topic - Add type in the gap & remove all back ticks from headlines](https://github.com/enkidevs/curriculum/pull/2595)
+
 ## February 1st 2021
 
 ### Changed
