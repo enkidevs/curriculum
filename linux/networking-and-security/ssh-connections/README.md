@@ -6,6 +6,7 @@ insights:
   - staying-connected-remotely-via-ssh-without-an-interactive-shell
   - ssh-tunneling-made-easy
   - breaking-out-of-a-terminal-when-ssh-locks
+  - ssh-security
 aspects:
   - workout
   - obscura
