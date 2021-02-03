@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## February 3rd 2021
+
+### Added
+- [Security - Making SSH Connections - New insight on ssh security & other updates](https://github.com/enkidevs/curriculum/pull/2599)
+
 ## February 1st 2021
 
 ### Changed
