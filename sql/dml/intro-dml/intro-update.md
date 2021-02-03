@@ -8,11 +8,12 @@ tags:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # UPDATE
@@ -70,7 +71,7 @@ Modifying the value of an existing column is done using the ??? keyword.
 
 ## Revision
 
-Update the value of the `name` column to `'Artemis'` **if** the `id` is `6`:
+Update the value of the `name` column to `"Artemis"` **if** the `id` is `6`:
 
 ```sql
 ??? 

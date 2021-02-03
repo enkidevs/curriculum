@@ -41,6 +41,7 @@ Types of change:
 ## WIP
 
 ### Added
+- [SQL - Mark questions as `type-in-the-gap` and `standalone` accordingly]()
 
 ### Changed
 
