@@ -17,11 +17,13 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Intro to Spreadsheets
@@ -68,7 +70,11 @@ We also have our own Spreadsheets course which covers everything in much more de
 
 ## Practice
 
-??? is a useful formula to sum data that meets a certain criteria.
+What is a useful spreadsheets formula to sum data that meets a certain criteria.
+
+```plain-text
+???
+```
 
 - SUMIF
 - SUM
@@ -80,7 +86,11 @@ We also have our own Spreadsheets course which covers everything in much more de
 
 ## Revision
 
-??? is a useful formula to average data that meets a certain criteria.
+What is a useful spreadsheets formula to average data that meets a certain criteria?
+
+```plain-text
+=???()
+```
 
 - AVERAGEIF
 - IFAVERAGE
