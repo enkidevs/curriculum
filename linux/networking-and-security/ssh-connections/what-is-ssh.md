@@ -117,4 +117,4 @@ The key's randomart image is:
 +----[SHA256]-----+
 ```
 
-The default key file name for the keys depends on the algorithm. In this case `id_rsa` is used because we're using the default RSA algorithm.
+The default file name for the keys depends on the algorithm. In this case `id_rsa` is used because we're using the default RSA algorithm.
