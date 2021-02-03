@@ -9,7 +9,7 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # HTML4, XHTML, & HTML5
