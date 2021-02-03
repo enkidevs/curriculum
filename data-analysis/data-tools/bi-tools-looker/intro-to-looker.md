@@ -7,7 +7,7 @@ category: must-know
 links:
   - >-
     [Looker vs
-    Tableau](https://www.quora.com/To-anyone-that-has-used-Looker-how-would-you-compare-it-to-Tableau-in-terms-of-price-capabilities){website}
+    Tableau](https://www.betterbuys.com/bi/looker-vs-tableau/){website}
 practiceQuestion:
   formats:
     - fill-in-the-gap
