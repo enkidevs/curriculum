@@ -12,7 +12,7 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: stanndalone
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
