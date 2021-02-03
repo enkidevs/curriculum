@@ -48,6 +48,12 @@ Types of change:
 
 ### Fixed
 
+## February 3rd 2021
+
+### Added
+- [HTML - Entire Topic - Remove HTML tags and back ticks from headlines, add type in the gap to applicable questions](https://github.com/enkidevs/curriculum/pull/2597)
+
+
 ## February 1st 2021
 
 ### Changed
