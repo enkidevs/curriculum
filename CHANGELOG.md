@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## February 3rd 2021
+
+### Added
+- [Data Analysis - Entire Topic - Add type in the gap to applicable questions](https://github.com/enkidevs/curriculum/pull/2596)
+
 ## February 1st 2021
 
 ### Changed
