@@ -196,7 +196,7 @@ Which HTML elements are used to describe a term or name in a description list?
   <term>HTML</term>
   <desc>Content of web page</desc>
 </list>
-```
+
 
 <!--???-->
 ```
