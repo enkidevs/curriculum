@@ -89,7 +89,7 @@ In SSH, the public and private keys work such that anyone with a copy of the pub
 
 > 💡 Your private key shouldn't be shared with anyone.
 
-The simplest way to generate a key pair is to run `ssh-keygen` without arguments.
+The simplest way to generate a public/private key pair is to run `ssh-keygen` without arguments.
 
 Here's an example of the output:
 
