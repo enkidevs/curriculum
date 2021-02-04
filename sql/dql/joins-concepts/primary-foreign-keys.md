@@ -62,7 +62,32 @@ The ??? key of one table points to the ??? entries in another table.
 
 ## Revision
 
-In the following 2 tables
+Consider the following two tables
+
+`pokemon`
+| pokemon_id | name       | pokemon_type |
+|------------|------------|--------------|
+| 1          | charmeleon | fire         |
+| 2          | squirtle   | water        |
+| 3          | blastoise  | water        |
+| 4          | bulbasaur  | grass        |
+
+`types`
+| type     | strong_against      | weak_to         |
+|----------|---------------------|-----------------|
+| electric | flying, water       | grass, electric |
+| grass    | water, ground, rock | fire, grass     |
+| fire     | grass, ice          | water, fire     |
+| water    | fire, ground, rock  | water, grass    |
+
+The ??? column is the ??? that points to the primary key of the `types` table (the ??? column).
+
+- pokemon_type
+- foreign key
+- type
+- strong_against
+- name
+- miscellaneous
 
 ---
 
@@ -71,5 +96,6 @@ In the following 2 tables
 [1:One-Way and Bilateral Relationships]
 Tables can either have one-way or bilateral relationships. One-way relationships typically happen when multiple entries in the table with the foreign key can map to several entries in the other table (one-to-many). This means that trying to map in the other direction (i.e many-to-one) would not make sense. Bilateral relationships can occur where both tables contain foreign keys referencing one another.
 In bilateral relationships there is typically a one-to-one mapping of entries. These generally present areas for potential *database optimization* as you are then storing duplicate info and would be better off just merging the two tables permanently.
+
 
 ---
