@@ -118,3 +118,4 @@ The key's randomart image is:
 ```
 
 The default file name for the keys depends on the algorithm. In this case `id_rsa` is used because we're using the default RSA algorithm.
+
