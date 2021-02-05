@@ -51,7 +51,7 @@ Types of change:
 ## February 5th 2021
 
 ### Fixed
-- [Retrigger failed push event]()
+- [Retrigger failed push event](https://github.com/enkidevs/curriculum/pull/2601)
 
 ## February 3rd 2021
 
