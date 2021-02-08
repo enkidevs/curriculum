@@ -37,7 +37,7 @@ To define a class, we can use the `class` keyword.
 
 To create an object based on that class we can use the `new` keyword.
 
-> 💡 Creating an object based on a class is called _instantiation_
+> 💡 Creating an object based on a class is called *instantiation*
 
 Let's look at an example:
 
