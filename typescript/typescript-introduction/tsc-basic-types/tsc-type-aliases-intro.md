@@ -78,7 +78,10 @@ type NameAndFactTuple = [
   string
 ];
 
-let enki: NameAndFactTuple = ["Enki", "Is a friendly learning coach"];
+let enki: NameAndFactTuple = [
+  "Enki",
+  "Is a friendly learning coach"
+];
 
 let morgan: NameAndFactTuple = ["Morgan Freeman", "Should narrate my life"];
 ```
