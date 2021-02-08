@@ -79,7 +79,7 @@ let u: object = undefined; // error
 
 The `Object` type is less useful than the other two because it often leads to confusion.
 
-Usually by _"object"_ we mean a collection of named values (e.g. map, set, array, plain object), but not a single value (e.g. number, string, etc.).
+Usually by *"object"* we mean a collection of named values (e.g. map, set, array, plain object), but not a single value (e.g. number, string, etc.).
 
 However, the `Object` type can be used to represent any type that is considered to contain a value[2]:
 
