@@ -87,7 +87,9 @@ function hello(name: string): string {
 Which line do you think will compile without errors?
 
 ```ts
-function getLessonsLearned(username: string) {
+function getLessonsLearned(
+  username: string
+) {
   return [
     "optional static types",
     "modern javascript features",
