@@ -37,7 +37,9 @@ function neverEnd(): never {
 // the return type of a function
 // that throws an error instead
 // of returning, is "never"
-function throwError(message: string): never {
+function throwError(
+  message: string	
+): never {
   throw new Error(message);
 }
 
