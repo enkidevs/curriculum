@@ -46,7 +46,7 @@ let name = "Enki";
 console.log(`${name} is cool!`);
 ```
 
-The conversion back from TypeScript to JavaScript has an extra step called _compilation_[3]. To get JavaScript, we must first remove any TypeScript-specific code that isn't valid in JavaScript.
+The conversion back from TypeScript to JavaScript has an extra step called *compilation*[3]. To get JavaScript, we must first remove any TypeScript-specific code that isn't valid in JavaScript.
 
 This step is done with the TypeScript Compiler:
 
