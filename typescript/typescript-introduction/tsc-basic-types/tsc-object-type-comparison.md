@@ -183,8 +183,6 @@ For example, these values are all objects:
 Only these throw an error:
 
 ```js
-undefined.enki(
-  // Uncaught TypeError: Cannot read property 'property' of undefined
-  null
-).enki; // Uncaught TypeError: Cannot read property 'property' of null
+(undefined).enki // Uncaught TypeError: Cannot read property 'property' of undefined
+(null).enki // Uncaught TypeError: Cannot read property 'property' of null
 ```
