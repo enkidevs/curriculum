@@ -56,7 +56,9 @@ class Animal {
 
   // function that belongs to every Animal
   sayHi() {
-    console.log(`Hi, I'm an ${this.kind} called ${this.name}`);
+    console.log(
+      `Hi, I'm an ${this.kind} called ${this.name}`
+    );
   }
 }
 
