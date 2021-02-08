@@ -72,7 +72,9 @@ interface Habit {
 // to master a skill
 // we need to build a habit
 // of practicing it
-interface SkillMastery extends Skill, Habit {
+interface SkillMastery
+  extends Skill,
+    Habit {
   isFun: boolean;
 }
 
