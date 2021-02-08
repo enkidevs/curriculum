@@ -45,7 +45,7 @@ This is useful because making sure that the same data shapes are used throughout
 
 One way to think of TypeScript is as a **spellchecker for JavaScript**.
 
-TypeScript checks your code **statically**, by looking at it _without running it_. This can speed up development because you can catch problems early on[1].
+TypeScript checks your code **statically**, by looking at it *without running it*. This can speed up development because you can catch problems early on[1].
 
 Your editor can integrate with TypeScript and display any problems in the code as you're writing it. This means you write safer code from the start.
 
