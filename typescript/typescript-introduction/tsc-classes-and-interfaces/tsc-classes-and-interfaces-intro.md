@@ -47,7 +47,9 @@ class Bird implements Flyer {
     this.name = name;
   }
   fly() {
-    console.log(`bird ${this.name} is flying`);
+    console.log(
+      `bird ${this.name} is flying`
+    );
   }
 }
 
