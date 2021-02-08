@@ -159,13 +159,13 @@ This means that, when converted to a boolean, a value will become either `true` 
 The values that convert to `false` are:
 
 ```ts
-false;
-0 - 0;
-0n;
-("");
-null;
-undefined;
-NaN;
+false
+0 - 0
+0n
+("")
+null
+undefined
+NaN
 ```
 
 To check if a value is _falsy_ we can negate it with the `!` operator (which converts it into a boolean first) and verify if it becomes `true`.
