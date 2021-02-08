@@ -47,8 +47,12 @@ let skill: TypeScriptSkill = {
   name: "TypeScript",
 };
 
-console.log("The secret of getting ahead is getting started");
-console.log(`${skill.teacher} is teaching ${skill.student} ${skill.name}`);
+console.log(
+  "The secret of getting ahead is getting started"
+);
+console.log(
+  `${skill.teacher} is teaching ${skill.student} ${skill.name}`
+);
 // "Enki is teaching me TypeScript"
 ```
 
