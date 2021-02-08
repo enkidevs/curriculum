@@ -31,7 +31,7 @@ revisionQuestion:
 
 ## Content
 
-The main feature, as its name suggests, is that it allows the use of _types_.
+The main feature, as its name suggests, is that it allows the use of *types*.
 
 ### Structural types
 
