@@ -64,7 +64,9 @@ class Dragon implements Flyer {
 }
 
 const eagle = new Bird("Eagle");
-const jabberwocky = new Dragon("Jabberwocky");
+const jabberwocky = new Dragon(
+  "Jabberwocky"
+);
 
 eagle.fly();
 // bird Eagle is flying
