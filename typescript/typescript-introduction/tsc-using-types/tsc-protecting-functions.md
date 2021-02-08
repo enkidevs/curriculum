@@ -157,7 +157,7 @@ enki(); // call without passing anything in
 ```
 
 [2: Check Value Existence]
-In JavaScript, a value can either be [_falsy_](https://developer.mozilla.org/en-US/docs/Glossary/Falsy) or [_truthy_](https://developer.mozilla.org/en-US/docs/Glossary/Truthy).
+In JavaScript, a value can either be [*falsy*](https://developer.mozilla.org/en-US/docs/Glossary/Falsy) or [*truthy*](https://developer.mozilla.org/en-US/docs/Glossary/Truthy).
 
 This means that, when converted to a boolean, a value will become either `true` or `false`.
 
