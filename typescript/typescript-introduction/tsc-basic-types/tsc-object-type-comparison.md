@@ -175,15 +175,9 @@ x = // anything
 For example, these values are all objects:
 
 ```js
-(3)
-  .enki(
-    // undefined
-    "enki"
-  )
-  .enki(
-    // undefined
-    { enki: 1 }
-  ).enki; // 1
+(3).enki // undefined
+('enki').enki // undefined
+({ enki: 1 }).enki // 1
 ```
 
 Only these throw an error:
