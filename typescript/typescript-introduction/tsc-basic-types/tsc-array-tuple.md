@@ -110,7 +110,9 @@ const powerRangers: Array<
 ];
 
 // create a map out of an array of tuples
-const powerRangersMap = new Map(powerRangers);
+const powerRangersMap = new Map(
+  powerRangers
+);
 
 console.log(
   powerRangersMap.get("blue") // "Billy"
