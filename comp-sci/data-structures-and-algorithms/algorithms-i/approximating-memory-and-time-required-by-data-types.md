@@ -12,11 +12,11 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Approximating Memory and Time Required by Data Types
@@ -80,7 +80,7 @@ In an array, how many operations are required for the worst-case scenario deleti
 
 ## Revision
 
-Which of the following operations is bounded by the constant function?
+Which of the following operations is bounded by the constant approximation function?
 
 ???
 
