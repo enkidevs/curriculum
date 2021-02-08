@@ -167,9 +167,9 @@ A quick test to verify if something is an object is to try and access a property
 ```js
 // use anything as x
 x = // anything
-  // if this throws, then
-  // x is not an object
-  x.enki;
+// if this throws, then
+// x is not an object
+(x).enki;
 ```
 
 For example, these values are all objects:
