@@ -41,7 +41,7 @@ Types of change:
 ## WIP
 
 ### Added
-- [Java - Mark type in the gap and standalone accordingly]()
+- [Java - Mark type in the gap and standalone accordingly](https://github.com/enkidevs/curriculum/pull/2609)
 
 ### Changed
 
