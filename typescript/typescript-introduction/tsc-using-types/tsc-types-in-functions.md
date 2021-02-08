@@ -47,7 +47,10 @@ hello(123);
 TypeScript will also throw an error if the wrong number of [arguments](https://enki.com/glossary/general/parameter-vs-argument) is passed in:
 
 ```ts
-function hello(name: string, emoji: string) {
+function hello(
+  name: string,
+  emoji: string
+) {
   console.log(`${name} ${emoji}!`);
 }
 
