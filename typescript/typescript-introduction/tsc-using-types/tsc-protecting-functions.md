@@ -72,7 +72,7 @@ Since setting the default value is a common operation, TypeScript gives us a bui
 function hello(
   name: string,
   emoji: string = "💚"
-  //              ^^^^^^ default value
+//              ^^^^^^ default value
 ) {
   console.log(`${name} ${emoji}!`);
 }
