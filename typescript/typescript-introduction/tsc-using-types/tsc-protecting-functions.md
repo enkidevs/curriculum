@@ -48,7 +48,10 @@ The reason we get `"Enki undefined"` above is because we didn't pass anything as
 One way to protect against this is to manually give `emoji` some default value if it doesn't exist[2]:
 
 ```ts
-function hello(name: string, emoji?: string) {
+function hello(
+  name: string,
+  emoji?: string
+) {
   if (!emoji) {
     emoji = "💚";
   }
