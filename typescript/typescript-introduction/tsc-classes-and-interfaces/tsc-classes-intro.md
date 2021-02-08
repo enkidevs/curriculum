@@ -131,7 +131,7 @@ let miami = ??? ???('Miami')
 ## Footnotes
 
 [1:Object-oriented programming]
-OOP teaches us to [organize](<https://en.wikipedia.org/wiki/Encapsulation_(computer_programming)>) data along with its associated behaviors into [units](<https://en.wikipedia.org/wiki/Abstraction_(computer_science)>) called classes.
+OOP teaches us to [organize](https://en.wikipedia.org/wiki/Encapsulation_(computer_programming)) data along with its associated behaviors into [units](https://en.wikipedia.org/wiki/Abstraction_(computer_science)) called classes.
 
 Other classes can [inherit](<https://en.wikipedia.org/wiki/Inheritance_(object-oriented_programming)>) this data/behaviors further and change it or add their own.
 
