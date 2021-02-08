@@ -75,7 +75,10 @@ Tuple is like an array, but it can only take in a fixed number of elements with 
 ```ts
 // myTyple has a number at the first position
 // and a boolean at the second position
-let numAndBoolTuple: [number, boolean] = [1, true];
+let numAndBoolTuple: [number, boolean] = [
+  1,
+  true
+];
 ```
 
 The order of the types must be exact:
