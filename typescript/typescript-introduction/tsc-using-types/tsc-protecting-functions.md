@@ -165,7 +165,8 @@ The values that convert to `false` are:
 
 ```ts
 false
-0 - 0
+0
+-0
 0n
 ("")
 null
