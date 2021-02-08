@@ -47,7 +47,7 @@ function impossibleValue(value) {
   if (
     typeof value === "string" &&
     typeof value === "number"
-  )
+  ) {
     // a value cannot be a string and a number
     // at the same time
     value; // type "never"
