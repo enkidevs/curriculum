@@ -61,7 +61,7 @@ We can also define the return type of a function:
 
 ```ts
 function hello(name: string): string {
-  //                          ^^^^^^^^
+//                          ^^^^^^^^
   return `Hello ${name}!`;
 }
 
