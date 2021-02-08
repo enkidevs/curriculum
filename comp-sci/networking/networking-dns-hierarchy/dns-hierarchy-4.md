@@ -15,11 +15,11 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # DNS Hierarchy
@@ -61,9 +61,7 @@ Which of the following statements is false?
 
 ## Revision
 
-Internet users typically send their DNS requests directly to a *** which *** a member of the main DNS hierarchy.
-
-???
+Internet users typically send their DNS requests directly to a ??? which ??? a member of the main DNS hierarchy.
 
 - DNS resolver
 - is not
