@@ -41,7 +41,7 @@ Types of change:
 ## WIP
 
 ### Added
-- [Security - Add type in the gap and standalone accordingly]()
+- [Security - Add type in the gap and standalone accordingly](https://github.com/enkidevs/curriculum/pull/2606)
 
 ### Changed
 
