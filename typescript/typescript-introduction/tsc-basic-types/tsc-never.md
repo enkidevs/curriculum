@@ -38,7 +38,7 @@ function neverEnd(): never {
 // that throws an error instead
 // of returning, is "never"
 function throwError(
-  message: string	
+  message: string
 ): never {
   throw new Error(message);
 }
