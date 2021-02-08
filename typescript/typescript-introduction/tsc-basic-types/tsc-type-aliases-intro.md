@@ -73,7 +73,10 @@ console.log(area({ r: 11 }));
 Any type can be aliased:
 
 ```ts
-type NameAndFactTuple = [string, string];
+type NameAndFactTuple = [
+  string,
+  string
+];
 
 let enki: NameAndFactTuple = ["Enki", "Is a friendly learning coach"];
 
