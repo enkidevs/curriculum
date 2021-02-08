@@ -135,4 +135,4 @@ OOP teaches us to [organize](https://en.wikipedia.org/wiki/Encapsulation_(comput
 
 Other classes can [inherit](https://en.wikipedia.org/wiki/Inheritance_(object-oriented_programming)) this data/behaviors further and change it or add their own.
 
-Related classes can also be [converted into one another](<https://en.wikipedia.org/wiki/Polymorphism_(computer_science)>).
+Related classes can also be [converted into one another](https://en.wikipedia.org/wiki/Polymorphism_(computer_science)).
