@@ -80,7 +80,7 @@ type NameAndFactTuple = [
 
 let enki: NameAndFactTuple = [
   "Enki",
-  "Is a friendly learning coach"
+  "Is a friendly learning coach",
 ];
 
 let morgan: NameAndFactTuple = [
