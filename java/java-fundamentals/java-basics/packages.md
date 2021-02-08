@@ -9,11 +9,13 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Packages
@@ -58,7 +60,7 @@ This will import the `File` class, which is part of the `io` package, which come
 
 Complete the following snippet to include every class in the Java lang package:
 
-```plain-text
+```java
 ??? ???.???.???;
 ```
 
@@ -76,7 +78,7 @@ Complete the following snippet to include every class in the Java lang package:
 
 Complete the following snippet to include every class in the Java I/O package:
 
-```plain-text
+```java
 ??? ???.???.???;
 ```
 

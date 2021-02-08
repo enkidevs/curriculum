@@ -41,6 +41,7 @@ Types of change:
 ## WIP
 
 ### Added
+- [Java - Mark type in the gap and standalone accordingly]()
 
 ### Changed
 

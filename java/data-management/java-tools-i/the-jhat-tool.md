@@ -10,11 +10,12 @@ notes: >-
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # The `jhat` tool
@@ -58,7 +59,7 @@ More functions of this tool can be found via the `jhat -h` command.
 
 Change the webserver port:
 
-```plain-text
+```java
 jhat ??? 8080 enki.hprof
 ```
 

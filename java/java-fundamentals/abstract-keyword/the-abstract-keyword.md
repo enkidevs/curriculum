@@ -12,11 +12,11 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # The `abstract` keyword
@@ -58,7 +58,7 @@ It is worth noting that methods in an interface are implicitly `abstract`, so it
 
 Which of the following is a properly declared abstract method? 
 
-```plain-text
+```java
 abstract String optionX[String s]; 
 abstract String optionY{String s);   
 abstract String optionZ(String s);
@@ -77,7 +77,7 @@ abstract String optionZ(String s);
 
 Which of the following is a properly declared abstract method?
 
-```plain-text
+```java
 abstract float optionA(float e);    
 abstract float optionB(float e) {};
 abstract float optionC(float e) {

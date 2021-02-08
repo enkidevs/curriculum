@@ -9,11 +9,12 @@ notes: 'https://insights.enki.com/#/contrib/others/55f038e0f457f33b0062114c?sear
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Java8's new `StampedLock`

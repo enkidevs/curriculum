@@ -9,7 +9,7 @@ notes: |
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # The `Console` class
