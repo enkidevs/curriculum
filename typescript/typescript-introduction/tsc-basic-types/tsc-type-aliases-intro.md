@@ -83,7 +83,10 @@ let enki: NameAndFactTuple = [
   "Is a friendly learning coach"
 ];
 
-let morgan: NameAndFactTuple = ["Morgan Freeman", "Should narrate my life"];
+let morgan: NameAndFactTuple = [
+  "Morgan Freeman",
+  "Should narrate my life"
+];
 ```
 
 ---
