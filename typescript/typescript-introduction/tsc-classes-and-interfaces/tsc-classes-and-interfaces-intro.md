@@ -57,7 +57,9 @@ class Dragon implements Flyer {
     this.name = name;
   }
   fly() {
-    console.log(`dragon ${this.name} is flying`);
+    console.log(
+      `dragon ${this.name} is flying`
+    );
   }
 }
 
