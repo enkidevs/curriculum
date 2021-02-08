@@ -12,11 +12,12 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Consuming events
@@ -89,6 +90,7 @@ system.file.???(
 ## Revision
 
 Which method is called to register a callback function to run when an event is triggered?
+
 ???
 
 - .on

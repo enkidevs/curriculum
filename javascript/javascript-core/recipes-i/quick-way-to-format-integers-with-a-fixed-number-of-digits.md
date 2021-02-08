@@ -11,11 +11,12 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Quick Way to Format Integers With a Fixed Number of Digits.
@@ -52,18 +53,21 @@ Pay attention though, as `slice()` will throw an error if called by a *number*, 
 
 ## Practice
 
-```javascript
-console.log(("0044742323412")
-  .slice(-3));
-```
-
-Outputs ??? , while
+What will the following code output?
 
 ```javascript
-console.log((32410000).slice(-5));
-```
+console.log(
+  ("0044742323412")
+    .slice(-3)
+);
+// ???
 
-outputs ??? .
+console.log(
+  (32410000)
+    .slice(-5)
+);
+// ???
+```
 
 - 412
 - throws an error
@@ -75,11 +79,12 @@ outputs ??? .
 
 ## Revision
 
+What will the following code output?
+
 ```javascript
 console.log(("123").slice(-4));
+// ???
 ```
-
- outputs ???
 
 - 123
 - 0123

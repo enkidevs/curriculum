@@ -41,6 +41,7 @@ Types of change:
 ## WIP
 
 ### Added
+- [JavaScript - Mark questions as type in the gap and standalone accordingly](https://github.com/enkidevs/curriculum/pull/2603)
 
 ### Changed
 

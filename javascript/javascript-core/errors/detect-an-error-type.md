@@ -11,11 +11,13 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Detect an Error Type
@@ -55,10 +57,10 @@ Complete the following code snippet such that the `try/catch` block will handle 
 
 ```javascript
 ??? {
-    eval('3.14 + /2.71');
+  eval('3.14 + /2.71');
 } catch (???) {
   if (err.??? == ???) {
-    //handling
+    // handling
   }
 }
 ```
@@ -85,7 +87,7 @@ try {
   eval('5 + /3');
 } ??? (e) {
   if(e.constructor == ???) {
-   //handle
+   // handle
   }
 }
 
