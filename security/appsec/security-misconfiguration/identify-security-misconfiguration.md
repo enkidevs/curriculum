@@ -15,11 +15,11 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Identify Security Misconfiguration
@@ -42,7 +42,9 @@ Last, run a progressive permissions-removal process for hardened secure systems 
 
 ## Practice
 
-What should you do once you have accounted for all of the credentials and configurations in an application stack? ???
+What should you do once you have accounted for all of the credentials and configurations in an application stack? 
+
+???
 
 - Ensure that the fewest number of sensitive credentials exist
 - Forbid any new cloud services without extensive security review

@@ -9,11 +9,11 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Securing the Network Layer
@@ -31,6 +31,7 @@ The Network Layer is most vulnerable to malicious **packets** coming in to your 
 ## Practice
 
 What is one control in the Network Layer of the OSI Model?
+
 ???
 
 - Use of a physical firewall

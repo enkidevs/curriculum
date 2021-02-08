@@ -41,6 +41,7 @@ Types of change:
 ## WIP
 
 ### Added
+- [Security - Add type in the gap and standalone accordingly]()
 
 ### Changed
 
