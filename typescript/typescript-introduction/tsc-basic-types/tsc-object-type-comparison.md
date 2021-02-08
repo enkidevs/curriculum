@@ -64,7 +64,9 @@ let obj: object = { enki: true };
 // an array is an "object"
 let arr: object = [1, 2, 3];
 // a map is an "object"
-let map: object = new Map([["enki", "cool"]]);
+let map: object = new Map([
+  ["enki", "cool"]
+]);
 // ...
 // primitive values aren't an "object"
 let str: object = "enki"; // error
