@@ -96,7 +96,9 @@ function enki1(username?: string) {
   console.log(username); // A
 }
 
-function enki2(isTypeScriptFun: boolean = true) {
+function enki2(
+  isTypeScriptFun: boolean = true
+) {
   console.log(
     `TS is fun: ${isTypeScriptFun}` // B
   );
