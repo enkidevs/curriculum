@@ -9,15 +9,15 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Protecting Functions
-
 
 ---
 
@@ -48,10 +48,7 @@ The reason we get `"Enki undefined"` above is because we didn't pass anything as
 One way to protect against this is to manually give `emoji` some default value if it doesn't exist[2]:
 
 ```ts
-function hello(
-  name: string,
-  emoji?: string
-) {
+function hello(name: string, emoji?: string) {
   if (!emoji) {
     emoji = "💚";
   }
@@ -72,7 +69,7 @@ Since setting the default value is a common operation, TypeScript gives us a bui
 function hello(
   name: string,
   emoji: string = "💚"
-//              ^^^^^^ default value
+  //              ^^^^^^ default value
 ) {
   console.log(`${name} ${emoji}!`);
 }
@@ -85,7 +82,6 @@ hello("Enki");
 
 > 💡 When setting a default value we don't need to use the `?` because the parameter automatically becomes optional.
 
-
 ---
 
 ## Practice
@@ -97,9 +93,7 @@ function enki1(username?: string) {
   console.log(username); // A
 }
 
-function enki2(
-  isTypeScriptFun: boolean = true
-) {
+function enki2(isTypeScriptFun: boolean = true) {
   console.log(
     `TS is fun: ${isTypeScriptFun}` // B
   );
@@ -119,7 +113,6 @@ B = ???
 - TS is fun: false
 - error
 
-
 ---
 
 ## Revision
@@ -131,14 +124,13 @@ function enki(age?: number = 5): string {
   return `Enki is ${age} years old`;
 }
 
-enki()
+enki();
 ```
 
 ???
 
 - Yes
 - No
-
 
 ---
 
@@ -160,24 +152,23 @@ enki(); // call without passing anything in
 ```
 
 [2: Check Value Existence]
-In JavaScript, a value can either be [*falsy*](https://developer.mozilla.org/en-US/docs/Glossary/Falsy) or [*truthy*](https://developer.mozilla.org/en-US/docs/Glossary/Truthy).
+In JavaScript, a value can either be [_falsy_](https://developer.mozilla.org/en-US/docs/Glossary/Falsy) or [_truthy_](https://developer.mozilla.org/en-US/docs/Glossary/Truthy).
 
 This means that, when converted to a boolean, a value will become either `true` or `false`.
 
 The values that convert to `false` are:
 
 ```ts
-false
-0
--0
-0n
-""
-null
-undefined
-NaN
+false;
+0 - 0;
+0n;
+("");
+null;
+undefined;
+NaN;
 ```
 
-To check if a value is *falsy* we can negate it with the `!` operator (which converts it into a boolean first) and verify if it becomes `true`.
+To check if a value is _falsy_ we can negate it with the `!` operator (which converts it into a boolean first) and verify if it becomes `true`.
 
 In other words, `!x` will become `true` for any of the above values.
 

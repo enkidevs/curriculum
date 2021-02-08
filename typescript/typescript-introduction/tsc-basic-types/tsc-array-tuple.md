@@ -15,15 +15,14 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Array & Tuple
-
 
 ---
 
@@ -47,7 +46,7 @@ let powerRangerColors: Array<string> = [
   "black",
   "yellow",
   "blue",
-  "pink"
+  "pink",
 ];
 ```
 
@@ -76,10 +75,7 @@ Tuple is like an array, but it can only take in a fixed number of elements with 
 ```ts
 // myTyple has a number at the first position
 // and a boolean at the second position
-let numAndBoolTuple: [number, boolean] = [
-  1,
-  true
-];
+let numAndBoolTuple: [number, boolean] = [1, true];
 ```
 
 The order of the types must be exact:
@@ -89,7 +85,7 @@ The order of the types must be exact:
 // the types in the wrong order
 let numAndBoolTuple: [number, boolean] = [
   true, // error: Type 'true' is not assignable to type 'number'
-  1 // error: Type 'number' is not assignable to type 'boolean'
+  1, // error: Type 'number' is not assignable to type 'boolean'
 ];
 ```
 
@@ -111,15 +107,12 @@ const powerRangers: Array<
 ];
 
 // create a map out of an array of tuples
-const powerRangersMap = new Map(
-  powerRangers
-);
+const powerRangersMap = new Map(powerRangers);
 
 console.log(
   powerRangersMap.get("blue") // "Billy"
 );
 ```
-
 
 ---
 
@@ -141,7 +134,6 @@ let c: []number = [1, 2];
 - a
 - b
 
-
 ---
 
 ## Revision
@@ -152,13 +144,13 @@ Which of the following statements **will not throw** an error:
 let aTuple: [string, boolean];
 
 // a
-aTuple = ['true', true];
+aTuple = ["true", true];
 
 // b
 aTuple = [false, false];
 
 // c
-aTuple = [false, 'false'];
+aTuple = [false, "false"];
 ```
 
 ???

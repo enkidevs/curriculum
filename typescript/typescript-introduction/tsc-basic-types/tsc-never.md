@@ -9,15 +9,15 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Never
-
 
 ---
 
@@ -37,24 +37,18 @@ function neverEnd(): never {
 // the return type of a function
 // that throws an error instead
 // of returning, is "never"
-function throwError(
-  message: string
-): never {
+function throwError(message: string): never {
   throw new Error(message);
 }
 
 function impossibleValue(value) {
-  if (
-    typeof value === "string" &&
-    typeof value === "number"
-  ) {
+  if (typeof value === "string" && typeof value === "number") {
     // a value cannot be a string and a number
     // at the same time
     value; // type "never"
   }
 }
 ```
-
 
 ---
 
@@ -67,7 +61,6 @@ The `never` type is used for values that ???.
 - are falsy
 - never return
 
-
 ---
 
 ## Revision
@@ -79,8 +72,6 @@ function enki(message: string): ??? {
   throw new Error(message);
 }
 ```
-
-???
 
 - `never`
 - `undefined`

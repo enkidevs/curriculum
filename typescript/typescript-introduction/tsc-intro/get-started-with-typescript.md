@@ -3,24 +3,23 @@ author: kapnobatai136
 type: normal
 category: must-know
 links:
-  - '[What is a Compiler?](https://en.wikipedia.org/wiki/Compiler){website}'
-  - '[The TypeScript Compiler](https://www.npmjs.com/package/typescript){website}'
+  - "[What is a Compiler?](https://en.wikipedia.org/wiki/Compiler){website}"
+  - "[The TypeScript Compiler](https://www.npmjs.com/package/typescript){website}"
   - >-
     [Moving to TypeScript
     files](https://www.typescriptlang.org/docs/handbook/migrating-from-javascript.html#moving-to-typescript-files){documentation}
-  - '[Download Node.js](https://nodejs.org/en/download/){website}'
+  - "[Download Node.js](https://nodejs.org/en/download/){website}"
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Get Started with TypeScript
-
 
 ---
 
@@ -42,12 +41,12 @@ Since any valid JavaScript is also TypeScript (and types are optional), to conve
 
 ```ts
 // enki.ts
-let name = 'Enki';
+let name = "Enki";
 
 console.log(`${name} is cool!`);
 ```
 
-The conversion back from TypeScript to JavaScript has an extra step called *compilation*[3]. To get JavaScript, we must first remove any TypeScript-specific code that isn't valid in JavaScript.
+The conversion back from TypeScript to JavaScript has an extra step called _compilation_[3]. To get JavaScript, we must first remove any TypeScript-specific code that isn't valid in JavaScript.
 
 This step is done with the TypeScript Compiler:
 
@@ -59,7 +58,7 @@ Above will compile a TypeScript file `enki.ts` into a JavaScript file `enki.js`:
 
 ```js
 // enki.js
-let name = 'Enki';
+let name = "Enki";
 
 console.log(`${name} is cool!`);
 ```
@@ -67,7 +66,6 @@ console.log(`${name} is cool!`);
 Here's an image to summarize the conversion in both directions:
 
 ![typescript-to-and-from-javascript](https://img.enkipro.com/e481e032bf000bb9622aae28b2bc1e9f.png)
-
 
 ---
 
@@ -80,7 +78,6 @@ The technical term for converting TypeScript into JavaScript is called ???.
 - transformation
 - manipulation
 
-
 ---
 
 ## Revision
@@ -91,7 +88,6 @@ To convert a JavaScript file `enki.js` to TypeScript, we can change the file nam
 
 - true
 - false
-
 
 ---
 
@@ -110,13 +106,13 @@ One example of such type error would be changing a number to a string:
 ```js
 // enki.js
 let num = 5;
-num = 'enki'; // ok in JS
+num = "enki"; // ok in JS
 ```
 
 ```ts
 // enki.ts
 let num = 5;
-num = 'enki'; // error in TS
+num = "enki"; // error in TS
 ```
 
 It is up to the programmer how to deal with these errors.

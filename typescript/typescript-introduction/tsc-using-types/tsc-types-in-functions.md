@@ -12,15 +12,14 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Types in Functions
-
 
 ---
 
@@ -30,11 +29,11 @@ We can attach a type to a parameter of a function by adding a `:` and a type aft
 
 ```ts
 function hello(name: string) {
-//                 ^^^^^^^^
-  console.log(`Hello ${name}!`)
+  //                 ^^^^^^^^
+  console.log(`Hello ${name}!`);
 }
 
-hello('Enki');
+hello("Enki");
 // "Hello Enki!"
 ```
 
@@ -48,10 +47,7 @@ hello(123);
 TypeScript will also throw an error if the wrong number of [arguments](https://enki.com/glossary/general/parameter-vs-argument) is passed in:
 
 ```ts
-function hello(
-  name: string,
-  emoji: string
-) {
+function hello(name: string, emoji: string) {
   console.log(`${name} ${emoji}!`);
 }
 
@@ -65,7 +61,7 @@ We can also define the return type of a function:
 
 ```ts
 function hello(name: string): string {
-//                          ^^^^^^^^
+  //                          ^^^^^^^^
   return `Hello ${name}!`;
 }
 
@@ -84,7 +80,6 @@ function hello(name: string): string {
 }
 ```
 
-
 ---
 
 ## Practice
@@ -92,9 +87,7 @@ function hello(name: string): string {
 Which line do you think will compile without errors?
 
 ```ts
-function getLessonsLearned(
-  username: string
-) {
+function getLessonsLearned(username: string) {
   return [
     "optional static types",
     "modern javascript features",
@@ -113,7 +106,6 @@ getLessonsLearned(100);
 
 - A
 - B
-
 
 ---
 

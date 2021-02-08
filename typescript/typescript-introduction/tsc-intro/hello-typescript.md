@@ -3,7 +3,7 @@ author: kapnobatai136
 type: normal
 category: must-know
 links:
-  - '[ts-node NPM package](https://www.npmjs.com/package/ts-node){website}'
+  - "[ts-node NPM package](https://www.npmjs.com/package/ts-node){website}"
   - >-
     [Try out the hello.ts
     example](https://repl.it/@enkicontent/TypeScriptHelloWorld){website}
@@ -13,15 +13,14 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Hello TypeScript
-
 
 ---
 
@@ -32,10 +31,10 @@ Let's get started writing some TypeScript code:
 ```ts
 // hello.ts
 function hello(name: string) {
-  console.log(`Hello ${name}!`)
+  console.log(`Hello ${name}!`);
 }
 
-hello('Andrei');
+hello("Andrei");
 ```
 
 When running `tsc hello.ts` in the shell, TypeScript code is converted (compiled) into JavaScript and a new file `hello.js` is created:
@@ -44,8 +43,8 @@ When running `tsc hello.ts` in the shell, TypeScript code is converted (compiled
 // hello.js
 function hello(name) {
   console.log(`Hello ${name}!`);
-};
-hello('Andrei');
+}
+hello("Andrei");
 ```
 
 Once you have the JavaScript code, you can run it wherever JavaScript can run (any Node.js or browser environment).
@@ -59,12 +58,11 @@ To compile TypeScript to JavaScript and run the generated JavaScript as a single
 ts-node hello.ts
 ```
 
-> 💡 As with all the skills in the app, if you want to access more advanced or specific content at any time, **feel free to use the *Skill Map* tab** to jump to the workouts most relevant for you.
+> 💡 As with all the skills in the app, if you want to access more advanced or specific content at any time, **feel free to use the _Skill Map_ tab** to jump to the workouts most relevant for you.
 
 > 💬 Why are you interested in learning Typescript?
 >
 > Leave a comment or view some of the other comments for inspiration before moving on.
-
 
 ---
 
@@ -80,7 +78,6 @@ To **compile** a TypeScript file called `enki.ts` into a JavaScript file called 
 - ts-node
 - ts
 - typescript
-
 
 ---
 

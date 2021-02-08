@@ -12,21 +12,22 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Introduction to Classes
-
 
 ---
 
 ## Content
 
-Classes represent the building blocks of the style of programming called *object-oriented programming*, or OOP[1].
+Classes represent the building blocks of the style of programming called _object-oriented programming_, or OOP[1].
 
 The idea behind OOP is to organize related values and behaviors into definitions of things that exist in your program (an "Animal", a "GamePlayer", a "User", etc).
 
@@ -36,7 +37,7 @@ To define a class, we can use the `class` keyword.
 
 To create an object based on that class we can use the `new` keyword.
 
-> 💡 Creating an object based on a class is called *instantiation*
+> 💡 Creating an object based on a class is called _instantiation_
 
 Let's look at an example:
 
@@ -55,9 +56,7 @@ class Animal {
 
   // function that belongs to every Animal
   sayHi() {
-    console.log(
-      `Hi, I'm an ${this.kind} called ${this.name}`
-    );
+    console.log(`Hi, I'm an ${this.kind} called ${this.name}`);
   }
 }
 
@@ -75,7 +74,6 @@ zebra.sayHi(); // "Hi, I'm an animal called zebra"
 The benefit of classes is that they allow us to define data and behaviors in one enclosed place, and then create many objects based on that definition.
 
 In the example above, we used the `Animal` class to create a `zebra` but we could've also created a `tiger` or an `eagle`.
-
 
 ---
 
@@ -98,7 +96,6 @@ let london = ??? ???('London')
 - City
 - New
 - city
-
 
 ---
 
@@ -127,14 +124,13 @@ let miami = ??? ???('Miami')
 - New
 - city
 
-
 ---
 
 ## Footnotes
 
 [1:Object-oriented programming]
-OOP teaches us to [organize](https://en.wikipedia.org/wiki/Encapsulation_(computer_programming)) data along with its associated behaviors into [units](https://en.wikipedia.org/wiki/Abstraction_(computer_science)) called classes.
+OOP teaches us to [organize](<https://en.wikipedia.org/wiki/Encapsulation_(computer_programming)>) data along with its associated behaviors into [units](<https://en.wikipedia.org/wiki/Abstraction_(computer_science)>) called classes.
 
-Other classes can [inherit](https://en.wikipedia.org/wiki/Inheritance_(object-oriented_programming)) this data/behaviors further and change it or add their own.
+Other classes can [inherit](<https://en.wikipedia.org/wiki/Inheritance_(object-oriented_programming)>) this data/behaviors further and change it or add their own.
 
-Related classes can also be [converted into one another](https://en.wikipedia.org/wiki/Polymorphism_(computer_science)).
+Related classes can also be [converted into one another](<https://en.wikipedia.org/wiki/Polymorphism_(computer_science)>).

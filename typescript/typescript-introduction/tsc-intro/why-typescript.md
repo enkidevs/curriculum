@@ -18,21 +18,20 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Why TypeScript?
-
 
 ---
 
 ## Content
 
-The main feature, as its name suggests, is that it allows the use of *types*.
+The main feature, as its name suggests, is that it allows the use of _types_.
 
 ### Structural types
 
@@ -46,14 +45,13 @@ This is useful because making sure that the same data shapes are used throughout
 
 One way to think of TypeScript is as a **spellchecker for JavaScript**.
 
-TypeScript checks your code **statically**, by looking at it *without running it*. This can speed up development because you can catch problems early on[1].
+TypeScript checks your code **statically**, by looking at it _without running it_. This can speed up development because you can catch problems early on[1].
 
 Your editor can integrate with TypeScript and display any problems in the code as you're writing it. This means you write safer code from the start.
 
 ### Modern, cross-platform JavaScript
 
 Since TypeScript is a standalone layer on top of JavaScript, it allows us to continuously use the latest ECMAScript features, even before they become fully supported in JavaScript[2].
-
 
 ---
 
@@ -66,18 +64,16 @@ TypeScript requires your code to run and produce an output before it can check f
 - False
 - True
 
-
 ---
 
 ## Revision
 
-TypeScript compares types based on ???
+TypeScript compares two types based on their ???
 
 - shape
-- quacks
 - name
-- age
-
+- quack
+- location
 
 ---
 

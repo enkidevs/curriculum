@@ -9,15 +9,15 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Introduction to Type Aliases
-
 
 ---
 
@@ -33,7 +33,7 @@ type Language = string;
 type Fun = boolean;
 
 // now we can use the aliases
-let lang: Language = 'TypeScript';
+let lang: Language = "TypeScript";
 let fun: Fun = true;
 ```
 
@@ -51,7 +51,7 @@ type radius = number;
 // "{ r: radius }" type
 // called "Circle"
 type Circle = {
-  r: radius,
+  r: radius;
 };
 
 const PI = 3.14;
@@ -73,22 +73,12 @@ console.log(area({ r: 11 }));
 Any type can be aliased:
 
 ```ts
-type NameAndFactTuple = [
-  string,
-  string
-];
+type NameAndFactTuple = [string, string];
 
-let enki: NameAndFactTuple = [
-  "Enki",
-  "Is a friendly learning coach",
-];
+let enki: NameAndFactTuple = ["Enki", "Is a friendly learning coach"];
 
-let morgan: NameAndFactTuple = [
-  "Morgan Freeman",
-  "Should narrate my life",
-];
+let morgan: NameAndFactTuple = ["Morgan Freeman", "Should narrate my life"];
 ```
-
 
 ---
 
@@ -112,14 +102,11 @@ function logTSFact(): nothing {
 - is
 - ==
 
-
 ---
 
 ## Revision
 
 Type aliases are created using the ??? keyword.
-
-???
 
 - type
 - alias

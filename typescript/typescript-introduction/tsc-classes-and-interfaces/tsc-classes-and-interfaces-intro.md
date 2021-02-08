@@ -9,15 +9,15 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Classes and Interfaces
-
 
 ---
 
@@ -39,17 +39,15 @@ interface Flyer {
 }
 
 class Bird implements Flyer {
-//         ^^^^^^^^^^^^^^^^
-// all Bird now have the data
-// from the Flyer interface
+  //         ^^^^^^^^^^^^^^^^
+  // all Bird now have the data
+  // from the Flyer interface
   name: string;
   constructor(name: string) {
     this.name = name;
   }
   fly() {
-    console.log(
-      `bird ${this.name} is flying`
-    );
+    console.log(`bird ${this.name} is flying`);
   }
 }
 
@@ -59,16 +57,12 @@ class Dragon implements Flyer {
     this.name = name;
   }
   fly() {
-    console.log(
-      `dragon ${this.name} is flying`
-    );
+    console.log(`dragon ${this.name} is flying`);
   }
 }
 
 const eagle = new Bird("Eagle");
-const jabberwocky = new Dragon(
-  "Jabberwocky"
-);
+const jabberwocky = new Dragon("Jabberwocky");
 
 eagle.fly();
 // bird Eagle is flying
@@ -80,7 +74,7 @@ On the other hand, flying in water is a little tough:
 
 ```ts
 class Fish {
-//        ^ doesn't implement Flyer
+  //        ^ doesn't implement Flyer
   name: string;
   constructor(name: string) {
     this.name = name;
@@ -89,10 +83,9 @@ class Fish {
 
 const nemo = new Fish("Nemo");
 
-nemo.fly() // fish can't fly :)
+nemo.fly(); // fish can't fly :)
 // error: Property 'fly' does not exist on type 'Fish'
 ```
-
 
 ---
 
@@ -126,7 +119,6 @@ e.category;
 - create
 - instantiate
 
-
 ---
 
 ## Revision
@@ -139,7 +131,7 @@ interface MadeOfPotion {
 }
 
 class PowerpuffGirl implements MadeOfPotion {
-  ingredients = ["sugar", "spice", "everything nice"]
+  ingredients = ["sugar", "spice", "everything nice"];
 }
 
 let Bubbles = new PowerpuffGirl();
@@ -147,7 +139,7 @@ let Blossom = new PowerpuffGirl();
 let Buttercup = new PowerpuffGirl();
 
 class Obelix implements MadeOfPotion {
-  ingredients = ["magic"]
+  ingredients = ["magic"];
 }
 
 const o = new Obelix();

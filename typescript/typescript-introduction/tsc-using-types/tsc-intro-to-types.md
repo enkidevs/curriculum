@@ -6,19 +6,18 @@ links:
   - >-
     [Try out the code
     example](https://repl.it/@enkicontent/TypeScriptIntroToTypes){website}
-  - '[Type Inference](https://en.wikipedia.org/wiki/Type_inference){website}'
+  - "[Type Inference](https://en.wikipedia.org/wiki/Type_inference){website}"
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Introduction to Types
-
 
 ---
 
@@ -37,14 +36,13 @@ For example, a `number` represents any numerical value and it can be subtracted 
 let num = 5;
 let ok = num - 3; // no error
 
-let str = 'enki';
+let str = "enki";
 let nono = str - 3;
 //         ^^^
 // error because we're subtracting a string
 ```
 
 TypeScript will try to guess as much of the type information as it can in order to provide safety without getting in the way[1].
-
 
 ---
 
@@ -53,7 +51,7 @@ TypeScript will try to guess as much of the type information as it can in order 
 Will this code compile without errors?
 
 ```ts
-let lesson = 'Remember, TS guesses the type';
+let lesson = "Remember, TS guesses the type";
 let points = 10;
 let result = points * lesson;
 ```
@@ -63,7 +61,6 @@ let result = points * lesson;
 - No
 - Yes
 
-
 ---
 
 ## Revision
@@ -71,7 +68,7 @@ let result = points * lesson;
 Will this code compile without errors?
 
 ```ts
-let points = '101';
+let points = "101";
 let total = points + 2;
 ```
 
@@ -80,12 +77,11 @@ let total = points + 2;
 - No
 - Yes
 
-
 ---
 
 ## Footnotes
 
 [1: Type Inference]
-The automatic detection of types is called *type inference*.
+The automatic detection of types is called _type inference_.
 
 This means that all values in TypeScript have an implicit type if no type is declared.

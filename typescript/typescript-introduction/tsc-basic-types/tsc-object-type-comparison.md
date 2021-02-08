@@ -12,15 +12,14 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # `{}` vs `object` vs `Object`
-
 
 ---
 
@@ -38,18 +37,18 @@ The type `{}` is used to represent an object with a specific shape.
 let empty: {} = {};
 
 const Enki: {
-  job: string,
-  isFun: boolean,
+  job: string;
+  isFun: boolean;
 } = {
   job: "teach",
-  isFun: true
+  isFun: true,
 };
 ```
 
 Assigning values that aren't part of the shape will cause errors:
 
 ```ts
-empty.name = 'oops';
+empty.name = "oops";
 // error: Property 'name' does not exist on type '{}'
 Enki.age = 5;
 // error: Property 'age' does not exist on type '{ job: string; isFun: boolean; }'
@@ -65,9 +64,7 @@ let obj: object = { enki: true };
 // an array is an "object"
 let arr: object = [1, 2, 3];
 // a map is an "object"
-let map: object = new Map([
-  ["enki", "cool"],
-]);
+let map: object = new Map([["enki", "cool"]]);
 // ...
 // primitive values aren't an "object"
 let str: object = "enki"; // error
@@ -80,7 +77,7 @@ let u: object = undefined; // error
 
 The `Object` type is less useful than the other two because it often leads to confusion.
 
-Usually by *"object"* we mean a collection of named values (e.g. map, set, array, plain object), but not a single value (e.g. number, string, etc.).
+Usually by _"object"_ we mean a collection of named values (e.g. map, set, array, plain object), but not a single value (e.g. number, string, etc.).
 
 However, the `Object` type can be used to represent any type that is considered to contain a value[2]:
 
@@ -88,7 +85,7 @@ However, the `Object` type can be used to represent any type that is considered 
 // almost anything is an "Object"
 let num: Object = 3;
 let bool: Object = false;
-let str: Object = 'enki';
+let str: Object = "enki";
 let arr: Object = [1, 2, 3];
 // ...
 // only null and undefined
@@ -96,7 +93,6 @@ let arr: Object = [1, 2, 3];
 let n: Object = null; // error
 let u: Object = undefined; // error
 ```
-
 
 ---
 
@@ -106,15 +102,15 @@ Which statement will throw an error?
 
 ```ts
 const a: Object = {
-  enki: 'fun'
+  enki: "fun",
 };
 
 const b: object = {
-  enki: 'fun'
+  enki: "fun",
 };
 
 const c: { enki: string } = {
-  enki: 'fun'
+  enki: "fun",
 };
 ```
 
@@ -124,7 +120,6 @@ const c: { enki: string } = {
 - b
 - a
 - c
-
 
 ---
 
@@ -149,7 +144,6 @@ const d: Object = { enki: true };
 - c
 - d
 
-
 ---
 
 ## Footnotes
@@ -173,22 +167,30 @@ A quick test to verify if something is an object is to try and access a property
 ```js
 // use anything as x
 x = // anything
-// if this throws, then
-// x is not an object
-(x).enki
+  // if this throws, then
+  // x is not an object
+  x.enki;
 ```
 
 For example, these values are all objects:
 
 ```js
-(3).enki // undefined
-('enki').enki // undefined
-({ enki: 1 }).enki // 1
+(3)
+  .enki(
+    // undefined
+    "enki"
+  )
+  .enki(
+    // undefined
+    { enki: 1 }
+  ).enki; // 1
 ```
 
 Only these throw an error:
 
 ```js
-(undefined).enki // Uncaught TypeError: Cannot read property 'property' of undefined
-(null).enki // Uncaught TypeError: Cannot read property 'property' of null
+undefined.enki(
+  // Uncaught TypeError: Cannot read property 'property' of undefined
+  null
+).enki; // Uncaught TypeError: Cannot read property 'property' of null
 ```

@@ -12,15 +12,15 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Extending Interfaces
-
 
 ---
 
@@ -47,12 +47,8 @@ let skill: TypeScriptSkill = {
   name: "TypeScript",
 };
 
-console.log(
-  "The secret of getting ahead is getting started"
-);
-console.log(
-  `${skill.teacher} is teaching ${skill.student} ${skill.name}`
-);
+console.log("The secret of getting ahead is getting started");
+console.log(`${skill.teacher} is teaching ${skill.student} ${skill.name}`);
 // "Enki is teaching me TypeScript"
 ```
 
@@ -72,9 +68,7 @@ interface Habit {
 // to master a skill
 // we need to build a habit
 // of practicing it
-interface SkillMastery
-  extends Skill,
-    Habit {
+interface SkillMastery extends Skill, Habit {
   isFun: boolean;
 }
 
@@ -84,15 +78,10 @@ let ts: SkillMastery = {
   isFun: true,
 };
 
-console.log(
-  `It always seems impossible until it's done`
-);
-console.log(
-  `Learning ${ts.name} ${ts.when} is fun? ${ts.isFun}`
-);
+console.log(`It always seems impossible until it's done`);
+console.log(`Learning ${ts.name} ${ts.when} is fun? ${ts.isFun}`);
 // "Learning TypeScript every day is fun? true"
 ```
-
 
 ---
 
@@ -127,7 +116,6 @@ let human = {
 - with
 - implements
 - extend
-
 
 ---
 

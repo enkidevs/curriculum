@@ -3,25 +3,24 @@ author: kapnobatai136
 type: normal
 category: must-know
 links:
-  - '[Official Website for TypeScript](https://www.typescriptlang.org){website}'
+  - "[Official Website for TypeScript](https://www.typescriptlang.org){website}"
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # What is TypeScript?
-
 
 ---
 
 ## Content
 
-If you're old enough, you might remember when JavaScript was just a web development language. 
+If you're old enough, you might remember when JavaScript was just a web development language.
 
 Due to its versatility, JavaScript is now used in a wide range of applications, like neural network design, server building and many more[1].
 
@@ -41,7 +40,6 @@ This means that TypeScript has and always will have all the functionality of Jav
 
 Anything that you can build with JavaScript you can also build with TypeScript.
 
-
 ---
 
 ## Practice
@@ -54,7 +52,6 @@ All features of JavaScript are included in TypeScript but not all features of Ty
 - False.
 - Not always, it depends.
 
-
 ---
 
 ## Revision
@@ -65,7 +62,6 @@ Using types in TypeScript is required.
 
 - False.
 - True.
-
 
 ---
 
