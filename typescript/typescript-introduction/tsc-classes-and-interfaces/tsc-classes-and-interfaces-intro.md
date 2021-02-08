@@ -78,7 +78,7 @@ On the other hand, flying in water is a little tough:
 
 ```ts
 class Fish {
-  //        ^ doesn't implement Flyer
+//        ^ doesn't implement Flyer
   name: string;
   constructor(name: string) {
     this.name = name;
