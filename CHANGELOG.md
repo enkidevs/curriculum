@@ -49,6 +49,11 @@ Types of change:
 
 ### Fixed
 
+## February 5th 2021
+
+### Fixed
+- [Retrigger failed push event](https://github.com/enkidevs/curriculum/pull/2601)
+- [Go - Data Types - Replace images with typos with markdown tables](https://github.com/enkidevs/curriculum/pull/2602)
 ## February 3rd 2021
 
 ### Added
