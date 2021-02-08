@@ -29,7 +29,7 @@ We can attach a type to a parameter of a function by adding a `:` and a type aft
 
 ```ts
 function hello(name: string) {
-  //                 ^^^^^^^^
+//                 ^^^^^^^^
   console.log(`Hello ${name}!`);
 }
 
