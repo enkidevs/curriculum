@@ -41,7 +41,7 @@ Types of change:
 ## WIP
 
 ### Added
-- [Airtable - Add type in the gap and standalone accordingly]()
+- [Airtable - Add type in the gap and standalone accordingly](https://github.com/enkidevs/curriculum/pull/2607)
 
 ### Changed
 
