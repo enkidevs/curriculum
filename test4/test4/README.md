@@ -5,4 +5,5 @@ description: test4
 core: true
 
 sections:
-'0': - test4
+  '0': 
+    - test4
