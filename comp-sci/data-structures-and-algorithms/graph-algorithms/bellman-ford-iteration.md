@@ -5,11 +5,11 @@ category: must-know
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Bellman-Ford Algorithm Iteration
@@ -50,9 +50,7 @@ One iteration done, **three** left to do. The process is the same, so we'll jump
 
 ## Practice
 
-Bellman-Ford algorithm uses
-
-??? approach.
+Bellman-Ford algorithm uses ??? approach.
 
 - `no specific`
 - `greedy`
@@ -64,9 +62,7 @@ Bellman-Ford algorithm uses
 
 ## Revision
 
-In the worst case, the Bellman-Ford algorithm requires
-
-???
+In the worst case, the Bellman-Ford algorithm requires ???, where V is the number of vertices & E is the number of edges.
 
 - `|V-1| iterations`
 - `|V| iterations`
