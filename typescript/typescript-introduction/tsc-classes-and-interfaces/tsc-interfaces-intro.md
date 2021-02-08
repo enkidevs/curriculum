@@ -45,7 +45,10 @@ function read(book: Book) {
   // ...
 }
 
-function countWord(book: Book, word: string): number {
+function countWord(
+  book: Book,
+  word: string
+): number {
   // ...
 }
 ```
