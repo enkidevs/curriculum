@@ -55,7 +55,8 @@ Types of change:
 
 ### Fixed
 
-- [test](https://github.com/nem035/curriculum/pull/2601)
+- [test](https://github.com/nem035/curriculum/pull/1)
+- [test2](https://github.com/nem035/curriculum/pull/2)
 
 ## February 5th 2021
 
