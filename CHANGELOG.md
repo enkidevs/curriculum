@@ -58,6 +58,7 @@ Types of change:
 - [test](https://github.com/nem035/curriculum/pull/1)
 - [test2](https://github.com/nem035/curriculum/pull/2)
 - [test3](https://github.com/nem035/curriculum/pull/3)
+- [test4](https://github.com/nem035/curriculum/pull/4)
 
 ## February 5th 2021
 
