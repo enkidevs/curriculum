@@ -27,7 +27,7 @@ revisionQuestion:
 
 ## Content
 
-Classes represent the building blocks of the style of programming called _object-oriented programming_, or OOP[1].
+Classes represent the building blocks of the style of programming called *object-oriented programming*, or OOP[1].
 
 The idea behind OOP is to organize related values and behaviors into definitions of things that exist in your program (an "Animal", a "GamePlayer", a "User", etc).
 
