@@ -173,7 +173,7 @@ undefined
 NaN
 ```
 
-To check if a value is _falsy_ we can negate it with the `!` operator (which converts it into a boolean first) and verify if it becomes `true`.
+To check if a value is *falsy* we can negate it with the `!` operator (which converts it into a boolean first) and verify if it becomes `true`.
 
 In other words, `!x` will become `true` for any of the above values.
 
