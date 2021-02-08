@@ -41,6 +41,7 @@ Types of change:
 ## WIP
 
 ### Added
+- [Airtable - Add type in the gap and standalone accordingly]()
 
 ### Changed
 
