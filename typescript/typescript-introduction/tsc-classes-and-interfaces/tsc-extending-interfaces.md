@@ -84,8 +84,12 @@ let ts: SkillMastery = {
   isFun: true,
 };
 
-console.log(`It always seems impossible until it's done`);
-console.log(`Learning ${ts.name} ${ts.when} is fun? ${ts.isFun}`);
+console.log(
+  `It always seems impossible until it's done`
+);
+console.log(
+  `Learning ${ts.name} ${ts.when} is fun? ${ts.isFun}`
+);
 // "Learning TypeScript every day is fun? true"
 ```
 
