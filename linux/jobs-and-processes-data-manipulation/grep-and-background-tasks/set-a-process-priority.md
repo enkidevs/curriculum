@@ -12,12 +12,12 @@ tags:
   - process
 practiceQuestion:
   formats:
-    - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Set a process priority
@@ -64,7 +64,7 @@ renice 5 -p 13254
 
 ## Practice
 
-Set the highest priority for the process with ID `2314` :
+Set the highest priority for the process with ID `2314`:
 
 ```bash
 ??? ??? ??? 2314
@@ -83,9 +83,7 @@ Set the highest priority for the process with ID `2314` :
 
 ## Revision
 
-A process’ nice value of 15 represents a 
-
-??? priority .
+A process’ nice value of 15 represents a ??? priority.
 
 - low
 - high
