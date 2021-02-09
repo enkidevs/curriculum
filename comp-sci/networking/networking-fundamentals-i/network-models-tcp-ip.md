@@ -55,6 +55,8 @@ Which of the following layers of the **Internet model** is responsible for addre
 - Application
 - Network Interface
 
+---
+
 ## Revision
 
 Which of the following layers of the **Internet model** is responsible for addressing data transmitted?
