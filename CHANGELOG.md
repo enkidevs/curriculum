@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## February 9th 2021
+
+### Archived
+- [Git - Dummy Workouts - Archive all insights that already exist in the content](https://github.com/enkidevs/curriculum/pull/2618)
+
 ## February 5th 2021
 
 ### Fixed
