@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## February 9th 2021
+
+### Added
+- [Python - Classes II - Add Discussion Insight](https://github.com/enkidevs/curriculum/pull/2616)
+
 ## February 5th 2021
 
 ### Fixed
