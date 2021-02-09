@@ -5,7 +5,8 @@ tags:
 type: normal
 category: must-know
 links:
-  - [Regex in Google Sheets](https://www.distilled.net/how-to-use-regex-in-google-sheets/){website}
+  - >-
+    [Regex in Google Sheets](https://www.distilled.net/how-to-use-regex-in-google-sheets/){website}
 practiceQuestion:
   formats:
     - fill-in-the-gap
