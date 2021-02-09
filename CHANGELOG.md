@@ -44,6 +44,8 @@ Types of change:
 
 ### Changed
 
+[Comp. Sci. - Type in & standalone questions](https://github.com/enkidevs/curriculum/pull/2605)
+
 ### Archived
 
 ### Fixed
