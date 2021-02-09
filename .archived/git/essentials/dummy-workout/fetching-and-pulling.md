@@ -55,13 +55,11 @@ To automatically do this, you can use the `git pull` command. However, your curr
 git pull
 ```
 
-
 To automatically download and merge missing work from say the `master` branch regardless on which branch you are, you can run:
 
 ```bash
 git pull origin master
 ```
-
 
 ---
 
