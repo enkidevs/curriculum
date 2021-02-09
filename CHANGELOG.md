@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## February 9th 2021
+
+### Changed
+- [Python/Functional Programming - Arrays II - Modify Revision Question](https://github.com/enkidevs/curriculum/pull/2617) 
+
 ## February 5th 2021
 
 ### Fixed
