@@ -104,15 +104,26 @@ What is the printed result of the following code execution?
 numbers = [-3, -2, -1, 0, 1, 2, 3]
 def mystery_function(element):
   return element < 0
-print(filter(mystery_function, numbers))
+
+filteredElements = filter(less_than_two, prices)
+
+for num in filteredElements:
+    print(num)
+    
+# ???
+# ???
+# ???
 ```
 
 ???
 
-- `[-3, -2, -1]`
-- `[-1, -2, -3]`
-- `[1, 2, 3]`
-
+- `-3`
+- `-2`
+- `-1`
+- `3`
+- `2`
+- `1`
+- `0`
 
 ---
 
