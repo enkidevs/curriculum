@@ -50,10 +50,11 @@ The command above will fetch all new work from the server since you either clone
 Keep in mind that `fetch` will only download the missing data in the repository, but not `merge` it in the working directory.
 
 To automatically do this, you can use the `git pull` command. However, your current branch must be set up to track the remote branch.
-
+ 
 ```bash
 git pull
 ```
+
 
 To automatically download and merge missing work from say the `master` branch regardless on which branch you are, you can run:
 
