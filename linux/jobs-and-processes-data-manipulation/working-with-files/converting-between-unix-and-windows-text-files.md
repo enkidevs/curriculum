@@ -30,7 +30,7 @@ revisionQuestion:
 
 ## Content
 
-The format of Windows and Unix text files differs slightly. In Windows, lines end with both the line feed and carriage return[1], while Unix uses only a line feed[2]. 
+The format of Windows and Unix text files differs slightly. In Windows, lines end with both the line feed and carriage return[1], while Unix uses only a line feed[2]: 
 
 Consequently, some Windows applications will not show the line breaks in Unix-format files. Unix programs may display the carriage returns in Windows text files with `Ctrl-M` `(^M)` characters at the end of each line. 
 
