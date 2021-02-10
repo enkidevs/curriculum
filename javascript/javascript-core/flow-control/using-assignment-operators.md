@@ -1,12 +1,7 @@
 ---
 author: fsites
-levels:
-  - basic
-  - beginner
 type: normal
 category: feature
-tags:
-  - 'operators, assignment, loops'
 notes: >-
   Seems trivial but they had me confused when I started looking at other peoples
   code.
@@ -23,7 +18,7 @@ revisionQuestion:
   context: relative
 ---
 
-# Using assignment operators
+# Using Assignment Operators
 
 
 ---
@@ -36,11 +31,14 @@ Instead of `x = x + y`, use `x += y`.
 
 Assignment operators are particularly useful in loops:
 
-    var list = [1, 2, 3];
-    var sumOfSquares = 0;
-    for (i = 0; i < list.length; i++) { 
-      sumOfSquares += Math.pow(list[i], 2);
-    }
+```javascript
+var list = [1, 2, 3];
+var sumOfSquares = 0;
+
+for (i = 0; i < list.length; i++) { 
+  sumOfSquares += Math.pow(list[i], 2);
+}
+```
 
 Other examples of assignment operators include `-=`, `*=`, `/=` and `%=`.
 
@@ -69,9 +67,13 @@ x ??? 3; // lastly, make x == 7
 
 ## Revision
 
-`x = x + y` can be shortened using ??? 
+`x = x + y` can be shortened:
 
-- x += y
-- x ++ y
-- x =+ y
+```javascript
+x ??? y
+```
+
+- +=
+- ++
+- =+
  

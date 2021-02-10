@@ -1,7 +1,5 @@
 ---
 author: catalin
-levels:
-  - basic
 type: normal
 category: tip
 links:
@@ -17,7 +15,7 @@ revisionQuestion:
   context: relative
 ---
 
-# Detect online connection
+# Detect Online Connection
 
 
 ---

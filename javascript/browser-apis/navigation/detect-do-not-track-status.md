@@ -1,9 +1,5 @@
 ---
 author: catalin
-levels:
-  - basic
-  - advanced
-  - medium
 type: normal
 category: feature
 links:
@@ -14,7 +10,7 @@ revisionQuestion:
   context: relative
 ---
 
-# Detect **DO NOT TRACK** status
+# Detect **DO NOT TRACK** Status
 
 
 ---

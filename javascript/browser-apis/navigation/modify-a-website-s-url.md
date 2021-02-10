@@ -17,7 +17,7 @@ revisionQuestion:
   context: relative
 ---
 
-# Modify a website's URL
+# Modify a Website's URL
 
 
 ---
@@ -28,7 +28,7 @@ The HTML5 History API enables developers to alter a website's URL without a full
 
 The format is:
 
-```plain-text
+```javascript
 history.pushState([data], [title], [url]);
 ```
 

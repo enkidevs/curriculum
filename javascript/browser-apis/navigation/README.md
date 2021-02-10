@@ -6,6 +6,8 @@ insights:
   - modify-a-website-s-url
   - warn-user-if-back-button-is-pressed
   - top-location-href
+  - detect-do-not-track-status
+  - detect-online-connection
 aspects:
   - introduction
   - workout

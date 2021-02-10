@@ -1,12 +1,7 @@
 ---
 author: rosielowther
-levels:
-  - advanced
 type: normal
 category: must-know
-aspects:
-  - workout
-  - deep
 links:
   - >-
     [github.com](https://github.com/jbranchaud/til/blob/master/git/dry-runs-in-git.md){website}
@@ -20,7 +15,7 @@ revisionQuestion:
   context: relative
 ---
 
-# Perform a dry run
+# Perform a Dry Run
 
 
 ---

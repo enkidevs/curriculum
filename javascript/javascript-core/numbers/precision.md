@@ -1,13 +1,7 @@
 ---
 author: pawel
-levels:
-  - basic
-  - advanced
-  - medium
 type: normal
 category: must-know
-tags:
-  - integer-precision
 links:
   - '[Arbitrary Precision](http://0.30000000000000004.com/){website}'
 practiceQuestion:
@@ -59,28 +53,30 @@ What are the following variable values?
 
 ```javascript
 var x = 0.6 - 0.2;
-???
+// x is ???
 var y = (0.2 * 10 + 0.3 * 10) / 10;
-???
+// y is ???
 ```
 
-- x: 0.39999999999999997
-- y: 0.5
-- x: 0.4
-- x: 0.6
-- y: 0.49999999999999997
-- y: 0.50000000000000004
+- 0.39999999999999997
+- 0.5
+- 0.4
+- 0.6
+- 0.49999999999999997
+- 0.50000000000000004
 
 
 ---
 
 ## Revision
 
+What is the value of `x`?
+
 ```javascript
-//16 digits
+// 16 digits
 var x = 9999999999999999;
 console.log(x);
-//x: ???
+// x is ???
 ```
 
 - 10000000000000000 // 17 digits

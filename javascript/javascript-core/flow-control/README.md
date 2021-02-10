@@ -7,6 +7,7 @@ insights:
   - js-switch-statement
   - loops-part-1
   - loops-part-2
+  - using-assignment-operators
   - data-type-comparison-in-switch-statements
   - flow-control-discussion-insight
 

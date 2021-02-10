@@ -2,8 +2,6 @@
 author: pawel
 type: normal
 category: how-to
-tags:
-  - url
 practiceQuestion:
   formats:
     - fill-in-the-gap
@@ -14,7 +12,7 @@ revisionQuestion:
   context: relative
 ---
 
-# Form a `URL` from its parts
+# Form a URL From Its Parts
 
 
 ---
