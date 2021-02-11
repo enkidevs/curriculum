@@ -1,22 +1,15 @@
 ---
 author: pawel
 
-levels:
-  - basic
-  - advanced
-  - medium
-
 type: normal
 
 category: best-practice
 
-tags:
-  - best-practice
-
 notes: As always - hope it's not to basic
 
 ---
-# Avoid using `!=` to test the end of a range
+
+# Avoid Using != to Test the End of a Range
 
 ---
 ## Content
