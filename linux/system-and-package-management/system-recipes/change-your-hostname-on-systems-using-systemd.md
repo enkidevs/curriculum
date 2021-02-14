@@ -43,7 +43,7 @@ hostnamectl set-hostname
 You should also update the `/etc/hosts` file and change the line which reads:
 
 ```plain-text
-127.0.1.1     old-hostname
+127.0.0.1     old-hostname
 ```
 
 This takes effect immediately without having to reboot.
