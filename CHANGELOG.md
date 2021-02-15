@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## February 15th 2021
+
+### Fixed
+- [Linux - Customizing Bash Via Bashrc - Fix grammar in first paragraph](https://github.com/enkidevs/curriculum/pull/2621)
+
 ## February 5th 2021
 
 ### Fixed
