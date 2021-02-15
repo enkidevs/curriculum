@@ -95,7 +95,7 @@ The ??? column is the ??? that points to the primary key of the `types` table (t
 
 [1:One-Way and Bilateral Relationships]
 Tables can either have one-way or bilateral relationships. One-way relationships typically happen when multiple entries in the table with the foreign key can map to several entries in the other table (one-to-many). This means that trying to map in the other direction (i.e many-to-one) would not make sense. Bilateral relationships can occur where both tables contain foreign keys referencing one another.
-In bilateral relationships there is typically a one-to-one mapping of entries. These generally present areas for potential *database optimization* as you are then storing duplicate info and would be better off just merging the two tables permanently.
+In bilateral relationships there is typically a one-to-one mapping of entries. These generally present areas for potential *database normalisation* as you are then storing duplicate info and would be better off just merging the two tables permanently.
 
 
 ---
