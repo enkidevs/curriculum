@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## February 16th 2021
+
+### Fixed
+- [Javascript - Console In Javascript - Add inline code identifier to a variable](https://github.com/enkidevs/curriculum/pull/2622)
+
 ## February 5th 2021
 
 ### Fixed
