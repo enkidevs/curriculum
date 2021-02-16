@@ -71,7 +71,7 @@ sudo service
 
 ## Practice
 
-Which of the following commands will be a service-like way to stop `iptables` ?
+Which of the following commands will be a service-like way to stop `iptables`?
 
 ???
 
@@ -85,9 +85,7 @@ Which of the following commands will be a service-like way to stop `iptables` ?
 
 ## Revision
 
-The package that allows you to treat `iptables` like a service on Debian systems is called
-
-???.
+The package that allows you to treat `iptables` like a service on Debian systems is called ???
 
 - `iptables-persistent`
 - `iptables-service`
