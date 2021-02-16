@@ -10,7 +10,7 @@ tags:
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Incorrect time on dual boot systems
