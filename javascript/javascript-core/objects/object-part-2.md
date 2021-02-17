@@ -59,6 +59,7 @@ let p2 = new Person("joe", "smith");
 
 You can even implement inheritance in JavaScript by building on this, but this is a more advanced technique.
 
+A function located within an object is refered to as that object's method.
 
 ---
 
