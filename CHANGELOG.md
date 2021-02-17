@@ -48,6 +48,12 @@ Types of change:
 
 ### Fixed
 
+## February 17th 2021
+
+### Added
+
+- [Javascript - Objects part 2 - Add method explanation sentence](https://github.com/enkidevs/curriculum/pull/2623)
+
 ## February 5th 2021
 
 ### Fixed
