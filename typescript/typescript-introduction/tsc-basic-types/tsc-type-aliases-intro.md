@@ -119,8 +119,6 @@ function logTSFact(): nothing {
 
 Type aliases are created using the ??? keyword.
 
-???
-
 - type
 - alias
 - name

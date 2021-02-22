@@ -48,6 +48,12 @@ Types of change:
 
 ### Fixed
 
+## February 22nd 2021
+
+### Fixed
+- [TypeScript - Never - Remove extra question gap]()
+- [TypeScript - Introduction to Type Aliases - Remove extra question gap]()
+
 ## February 5th 2021
 
 ### Fixed
