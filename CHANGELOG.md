@@ -51,8 +51,8 @@ Types of change:
 ## February 22nd 2021
 
 ### Fixed
-- [TypeScript - Never - Remove extra question gap]()
-- [TypeScript - Introduction to Type Aliases - Remove extra question gap]()
+- [TypeScript - Never - Remove extra question gap](https://github.com/enkidevs/curriculum/pull/2624)
+- [TypeScript - Introduction to Type Aliases - Remove extra question gap](https://github.com/enkidevs/curriculum/pull/2624)
 
 ## February 5th 2021
 
