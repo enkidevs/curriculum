@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## February 23rd 2021
+
+### Fixed
+- [SQL - IN, LIKE, BETWEEN - Fix rendering for PQ answers](https://github.com/enkidevs/curriculum/pull/2625)
+
 ## February 22nd 2021
 
 ### Fixed
