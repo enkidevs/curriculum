@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## February 24th 2021
+
+### Fixed
+- [Python - Boolean Operators - Change reserved variable name]()
+
 ## February 23rd 2021
 
 ### Fixed
