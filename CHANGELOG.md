@@ -53,6 +53,7 @@ Types of change:
 ### Fixed
 - [SQL - IN, LIKE, BETWEEN - Fix rendering for PQ answers](https://github.com/enkidevs/curriculum/pull/2625)
 - [Linux - Customizing Bash Via Bashrc - Fix grammar in first paragraph](https://github.com/enkidevs/curriculum/pull/2621)
+- [Javascript - Console In Javascript - Add inline code identifier to a variable](https://github.com/enkidevs/curriculum/pull/2622)
 
 ## February 22nd 2021
 
