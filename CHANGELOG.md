@@ -48,7 +48,11 @@ Types of change:
 
 ### Fixed
 
+
 ## February 23rd 2021
+
+### Added
+- [Javascript - Objects part 2 - Add method explanation sentence](https://github.com/enkidevs/curriculum/pull/2623)
 
 ### Fixed
 - [SQL - IN, LIKE, BETWEEN - Fix rendering for PQ answers](https://github.com/enkidevs/curriculum/pull/2625)
