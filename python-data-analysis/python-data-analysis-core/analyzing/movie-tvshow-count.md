@@ -75,11 +75,11 @@ people.loc[
 ]
 ```
 
-- people
-- age
-- >=
-- Age
-- >
+- `people`
+- `age`
+- `>=`
+- `Age`
+- `>`
 
 
 ---
