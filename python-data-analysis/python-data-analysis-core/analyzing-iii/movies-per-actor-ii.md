@@ -7,9 +7,9 @@ category: how to
 
 links:
   - >- 
-  [Stack](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.stack.html){documentation}
+    [Stack](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.stack.html){documentation}
   - >- 
-  [Rename](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.rename.html){documentation}
+    [Rename](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.rename.html){documentation}
 
 ---
 
