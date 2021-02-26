@@ -3,7 +3,7 @@ author: Stefan-Stojanovic
 
 type: normal
 
-category: how to
+category: how-to
 
 ---
 
@@ -44,9 +44,3 @@ tvshowPerActor
 And get this output:
 
 ![tvshow-per-actor](https://img.enkipro.com/cc41ead80e14bd00ae6342f1b49b5d8b.png)
-
----
-## Footnotes
-[1:Missing Information]
-
-![missing-cast](https://img.enkipro.com/b382ceeb3ea3513cf9f1874b7a7e7354.png)

@@ -3,11 +3,9 @@ author: Stefan-Stojanovic
 
 type: normal
 
-category: how to
+category: how-to
 
 links:
-  - >-
-    [Netflix Ratings](https://help.netflix.com/en/node/2064){documentation}
   - >-
     [to_frame before reset_index](https://stackoverflow.com/questions/40914200/can-i-assign-a-reset-index-a-name){dicsussion}
 

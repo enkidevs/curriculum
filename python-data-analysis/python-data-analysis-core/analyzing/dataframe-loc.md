@@ -3,11 +3,8 @@ author: Stefan-Stojanovic
 
 type: normal
 
-category: how to
+category: must-know
 
-links:
-  - >-
-    [Netflix Ratings](https://help.netflix.com/en/node/2064){documentation}
 ---
 
 # DataFrame.loc

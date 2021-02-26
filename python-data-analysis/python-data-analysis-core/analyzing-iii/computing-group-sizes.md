@@ -3,7 +3,7 @@ author: Stefan-Stojanovic
 
 type: normal
 
-category: how to
+category: how-to
 
 ---
 
@@ -51,9 +51,3 @@ Same for shows; 9484 actors have starred in 1 show and only 1 in 18.
 > Here is all the work we have done so far in a notebook:
 
 [Google Collab Notebook](https://colab.research.google.com/drive/14jMcJjW5iu6vf2_oQDPEm3oi5jzWuPOj?usp=sharing)
-
----
-## Footnotes
-[1:Missing Information]
-
-![missing-cast](https://img.enkipro.com/b382ceeb3ea3513cf9f1874b7a7e7354.png)

@@ -7,7 +7,7 @@ insights:
   - why-python-for-data-analysis
   - python-data-libraries
   - prerequisites
-  - dawp-analysis-example
+  - analysis-example
 
 aspects:
   - introduction

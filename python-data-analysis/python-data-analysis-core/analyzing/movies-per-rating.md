@@ -3,11 +3,7 @@ author: Stefan-Stojanovic
 
 type: normal
 
-category: how to
-
-links:
-  - >-
-    [Netflix Ratings](https://help.netflix.com/en/node/2064){documentation}
+category: must-know
     
 ---
 

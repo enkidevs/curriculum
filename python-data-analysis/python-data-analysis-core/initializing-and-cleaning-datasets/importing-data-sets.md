@@ -1,7 +1,7 @@
 ---
 author: Stefan-Stojanovic
 type: normal
-category: how to
+category: how-to
 links:
   - >-
     [Netflix Dataset](https://www.kaggle.com/shivamb/netflix-shows/version/3){website}

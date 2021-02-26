@@ -6,7 +6,7 @@ insights:
   - total-number-of-actors
   - movies-per-actor
   - movies-per-actor-ii
-  - tvshows-per-actor
+  - tvshow-per-actor
   - computing-group-sizes
   
 aspects:

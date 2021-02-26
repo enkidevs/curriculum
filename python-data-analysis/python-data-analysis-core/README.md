@@ -13,4 +13,4 @@ sections:
     - analyzing-ii
     - analyzing-iii
     - analyzing-iv
-    - tips
+    - python-da-tips

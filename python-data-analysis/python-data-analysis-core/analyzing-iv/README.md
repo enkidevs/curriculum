@@ -4,8 +4,8 @@ description: Learn how to separate values for easier analysis.
 
 insights:
   - longest-running-shows
-  - longest-running-movies
-  - longest-running-movies-ii
+  - longest-movies
+  - longest-movies-ii
 
 aspects:
   - workout
