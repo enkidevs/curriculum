@@ -48,6 +48,10 @@ Types of change:
 
 ### Fixed
 
+## February 24th 2021
+
+### Fixed
+- [Python - Boolean Operators - Change reserved variable name](https://github.com/enkidevs/curriculum/pull/2626)
 
 ## February 23rd 2021
 
