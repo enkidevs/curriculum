@@ -1,6 +1,6 @@
 name: Data Analysis with Python
 
-color: #D2FFA6
+color: D2FFA6
 
 description: Analyzing Data using Python.
 

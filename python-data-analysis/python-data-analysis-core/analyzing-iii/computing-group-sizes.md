@@ -1,4 +1,4 @@
-﻿---
+---
 author: Stefan-Stojanovic
 
 type: normal
@@ -15,6 +15,7 @@ category: how to
 Now that we have `moviePerActor` and `tvshowPerActor`, we can use them to count how many actors have a specific number of movies/shows.
 
 ### Movies
+
 ```py
 # Group by Sum of Movies
 # count rows
