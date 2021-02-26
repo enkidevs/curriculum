@@ -5,10 +5,6 @@ type: normal
 
 category: how to
 
-links:
-  - >- 
-  [.stack()](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.stack.html){documentation}
-
 ---
 
 # Total Number Of TV Show Actors 

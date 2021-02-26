@@ -59,10 +59,10 @@ Here is all the work we have done in a notebook:
 
 The ??? method is used to remove columns from a DataFrame.
 
-- .drop
-- .remove
-- .disable
-- .getRidOf
+- `.drop()`
+- `.remove()`
+- `.disable()`
+- `.getRidOf()`
 
 ---
 ## Revision
@@ -78,13 +78,15 @@ df???(
 )
 ```
 
-- .drop
-- columns
-- surname
-- age
+- `.drop`
+- `columns`
+- `surname`
+- `age`
 
+---
 
 ## Footnotes
+
 [1:Missing Values]
 
 Using the `.isnull()` function on a `DataFrame` will give us a table of True/False values.

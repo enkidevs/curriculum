@@ -59,8 +59,10 @@ Import a dataset called `my_data.csv` into a `DataFrame` called `df`.
 - my_data.csv
 - readCSV
 
+---
 
-### Footnotes
+## Footnotes
+
 [1: Working Directory]
 
 To check your current working directory, you have to first import the `os` library and use its `.getcwd()` module.

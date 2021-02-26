@@ -7,7 +7,7 @@ category: how to
 
 links:
   - >- 
-  [.stack()](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.stack.html){documentation}
+  [Str.Replace)](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.Series.str.replace.html){documentation}
 
 ---
 

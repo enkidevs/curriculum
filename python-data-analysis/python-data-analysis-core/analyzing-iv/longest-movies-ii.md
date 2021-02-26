@@ -7,8 +7,8 @@ category: how to
 
 links:
   - >- 
-  [.stack()](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.stack.html){documentation}
-
+  [Astype)](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.astype.html){documentation}
+  
 ---
 
 # Longest Running Movies Continued
