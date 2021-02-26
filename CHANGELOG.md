@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## February 26th 2021
+
+### Added
+
+- [Data Analysis With Python - Eight Workouts - Add entire topic and glossaries to curriculum](https://github.com/enkidevs/curriculum/pull/2627)
 
 ## February 23rd 2021
 
