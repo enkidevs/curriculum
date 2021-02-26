@@ -1,6 +1,6 @@
-name: Introduction To Data Analysis with Python
+name: Introduction
 
-description: Learn about analyzing data using Python.
+description: Learn how to analyze data using Python.
 
 insights:
   - brief-introduction-to-data-analysis
