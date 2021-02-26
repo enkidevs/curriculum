@@ -9,6 +9,11 @@ links:
   - >- 
    [Str.Replace](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.Series.str.replace.html){documentation}
 
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+
 ---
 
 # Longest Running Movies

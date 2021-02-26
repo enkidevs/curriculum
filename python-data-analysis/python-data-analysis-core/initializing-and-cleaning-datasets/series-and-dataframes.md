@@ -5,6 +5,16 @@ type: normal
 
 category: how-to
 
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
+
 ---
 
 # Series & DataFrames?
@@ -82,8 +92,11 @@ Both `DataFrame`s and `Series` have an index. By default, this index goes from 0
 
 ??? are 1-Dimensional `pandas` arrays that can hold ???.
 
+??? are 2-Dimensional `pandas` arrays that can hold any data type.
+
 - Series
 - any data type
+- DataFrames
 - only strings and integers
 - only dictionaries and integers
 - Lists

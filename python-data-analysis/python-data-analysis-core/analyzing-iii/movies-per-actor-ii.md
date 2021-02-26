@@ -11,6 +11,12 @@ links:
   - >- 
     [Rename](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.rename.html){documentation}
 
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
+
 ---
 
 # Movies Per Actor Continued

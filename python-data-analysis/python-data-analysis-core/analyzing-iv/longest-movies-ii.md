@@ -9,6 +9,16 @@ links:
   - >- 
     [Astype)](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.astype.html){documentation}
 
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+
 ---
 
 # Longest Running Movies Continued

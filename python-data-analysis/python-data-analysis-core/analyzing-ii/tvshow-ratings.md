@@ -10,6 +10,16 @@ links:
     [to_frame before reset_index](https://stackoverflow.com/questions/40914200/can-i-assign-a-reset-index-a-name){documentation}
     
 
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
+
 ---
 
 # TV Shows Ratings

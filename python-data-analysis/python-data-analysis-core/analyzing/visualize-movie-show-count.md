@@ -11,6 +11,16 @@ links:
   - >-
     [Pyplot Module](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.html#module-matplotlib.pyplot){documentation}
 
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+
 ---
 
 # Visualize Output I

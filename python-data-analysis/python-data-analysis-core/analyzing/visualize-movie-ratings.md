@@ -9,6 +9,12 @@ links:
   - >-
     [sort_values](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.sort_values.html){documentation}
 
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
+
 ---
 
 # Visualize Movie Ratings

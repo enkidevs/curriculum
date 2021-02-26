@@ -9,6 +9,17 @@ links:
   - >-
     [Line Styles](https://matplotlib.org/3.1.1/api/_as_gen/matplotlib.pyplot.plot.html){documentation}
 
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
+
 ---
 
 # Movie Count Per Release Year

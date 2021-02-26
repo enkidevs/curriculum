@@ -9,6 +9,15 @@ links:
   - >-
     [Built-in Functions](https://docs.python.org/3/library/functions.html){documentation}
 
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+
 ---
 
 # Python Data Libraries

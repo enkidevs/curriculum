@@ -5,7 +5,13 @@ category: how-to
 links:
   - >-
     [Netflix Dataset](https://www.kaggle.com/shivamb/netflix-shows/version/3){website}
-    
+   
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
+
 ---
 
 # Importing Datasets
@@ -45,7 +51,7 @@ If you want to use the same dataset, you can download it using the link in the *
 
 
 ---
-## Practice
+## Revision
 
 Import a dataset called `my_data.csv` into a `DataFrame` called `df`.
 
