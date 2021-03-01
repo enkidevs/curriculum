@@ -26,7 +26,7 @@ When you call the methods, they should print the calculated output as part of a 
 
 To achieve this, you should use the following concepts:
 - class keyword (`class`)
-- function creation (`def`..)
+- function creation (`def ...`)
 - area of a rectangle (`Length * Width`)
 - perimeter of a rectangle (`2 * Length + 2 * Width`)
 
