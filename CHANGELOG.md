@@ -52,6 +52,7 @@ Types of change:
 
 ### Added
 - [Python - Classes II - Add Discussion Insight](https://github.com/enkidevs/curriculum/pull/2616)
+- [Python - Playing With Time - Add Discussion Insight](https://github.com/enkidevs/curriculum/pull/2615)
 
 ### Fixed
 - [Python - Other Operations on Files - Remove inexistent footnote reference; add py tags; capitalize title](https://github.com/enkidevs/curriculum/pull/2628)
@@ -76,6 +77,7 @@ Types of change:
 ### Fixed
 - [TypeScript - Never - Remove extra question gap](https://github.com/enkidevs/curriculum/pull/2624)
 - [TypeScript - Introduction to Type Aliases - Remove extra question gap](https://github.com/enkidevs/curriculum/pull/2624)
+
 
 ## February 5th 2021
 
