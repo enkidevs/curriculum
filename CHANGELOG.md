@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## March 1st 2021
+
+### Fixed
+- [Python - Other Operations on Files - Remove inexistent footnote reference; add py tags; capitalize title](https://github.com/enkidevs/curriculum/pull/2628)
+
 ## February 24th 2021
 
 ### Fixed

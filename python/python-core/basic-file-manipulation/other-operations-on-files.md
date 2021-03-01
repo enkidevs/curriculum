@@ -16,7 +16,7 @@ revisionQuestion:
   context: relative
 ---
 
-# Other operations on files
+# Other Operations on Files
 
 
 ---
@@ -38,10 +38,9 @@ In **Python**, the `tell()` function returns the current position in the **file*
 - `1`: which means at the current position;
 - `2`: which means at the end of the file.
 
-Let's see how `tell()` and `seek()` work in practice, considering a dummy `file.txt`[1]:
+Let's see how `tell()` and `seek()` work in practice, considering a dummy `file.txt`:
 
 ```python
-
 file = open('file.txt','r+')
 text = file.read(7)
 
@@ -75,14 +74,13 @@ os.rename('file.txt','new_file.txt');
 os.remove('new_file.txt');
 ```
 
-
 ---
 
 ## Practice
 
 We want to open `file.txt` just for reading purposes. After we want to print it line by line and print the content.
 
-```plain-text
+```py
 file = open('file.txt','???')
 print(???.readline())
 ```
