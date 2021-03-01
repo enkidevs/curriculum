@@ -50,8 +50,8 @@ Start by creating the `Rectangle()` class and the `__init__` method:
 ```python
 class Rectangle():
   def __init__(self, l, w):
-      self.length = l
-      self.width = w
+    self.length = l
+    self.width = w
 ```
 
 Then, add the two methods:
@@ -59,20 +59,20 @@ Then, add the two methods:
 ```python
 # Example 1
 def perimeter(self):
-    return print("The perimeter of the given rectangle is",\
-                  self.length * 2 + self.width * 2)
+  return print("The perimeter of the given rectangle is",\
+    self.length * 2 + self.width * 2)
 
 def area(self):
-    return print("The area of the given rectangle is",\
-                  self.length * self.width)
+  return print("The area of the given rectangle is",\
+    self.length * self.width)
 
 
 # Example 2
 def perimeter(self):
-    return self.length * 2+ self.width * 2
+  return self.length * 2+ self.width * 2
 
 def area(self):
-    return self.length * self.width
+  return self.length * self.width
 ```
 
 Next, instantiate the class and call the two methods:
