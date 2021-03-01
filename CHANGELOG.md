@@ -48,10 +48,34 @@ Types of change:
 
 ### Fixed
 
-## February 9th 2021
+## March 1st 2021
 
 ### Added
 - [Python - Classes II - Add Discussion Insight](https://github.com/enkidevs/curriculum/pull/2616)
+
+### Fixed
+- [Python - Other Operations on Files - Remove inexistent footnote reference; add py tags; capitalize title](https://github.com/enkidevs/curriculum/pull/2628)
+
+## February 24th 2021
+
+### Fixed
+- [Python - Boolean Operators - Change reserved variable name](https://github.com/enkidevs/curriculum/pull/2626)
+
+## February 23rd 2021
+
+### Added
+- [Javascript - Objects part 2 - Add method explanation sentence](https://github.com/enkidevs/curriculum/pull/2623)
+
+### Fixed
+- [SQL - IN, LIKE, BETWEEN - Fix rendering for PQ answers](https://github.com/enkidevs/curriculum/pull/2625)
+- [Linux - Customizing Bash Via Bashrc - Fix grammar in first paragraph](https://github.com/enkidevs/curriculum/pull/2621)
+- [Javascript - Console In Javascript - Add inline code identifier to a variable](https://github.com/enkidevs/curriculum/pull/2622)
+
+## February 22nd 2021
+
+### Fixed
+- [TypeScript - Never - Remove extra question gap](https://github.com/enkidevs/curriculum/pull/2624)
+- [TypeScript - Introduction to Type Aliases - Remove extra question gap](https://github.com/enkidevs/curriculum/pull/2624)
 
 ## February 5th 2021
 
