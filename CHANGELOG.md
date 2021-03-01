@@ -52,6 +52,7 @@ Types of change:
 ## March 1st 2021
 
 ### Added
+- [Python - Classes II - Add Discussion Insight](https://github.com/enkidevs/curriculum/pull/2616)
 - [Python - Intro To Modules - Add Discussion Insight](https://github.com/enkidevs/curriculum/pull/2614)
 - [Python - Playing With Time - Add Discussion Insight](https://github.com/enkidevs/curriculum/pull/2615)
 
