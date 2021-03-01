@@ -22,7 +22,7 @@ How would you create and instantiate a class called `Rectangle`?
 
 The class should have an `__init__` method, plus two methods that will be used to calculate the area and perimeter of the rectangle.
 
-When you call the methods, they should print the calculated output as part of a message - for example, "The area is 10"`.
+When you call the methods, they should print the calculated output as part of a message - for example, `"The area is 10"`.
 
 To achieve this, you should use the following concepts:
 - class keyword (`class`)
