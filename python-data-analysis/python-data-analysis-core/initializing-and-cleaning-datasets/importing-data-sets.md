@@ -29,7 +29,7 @@ For now, we will import a `CSV` file called "netflix_titles.csv".
 
 ![netflix-titles-head](https://img.enkipro.com/c9637b9513606236454371c7c6d749dd.png)
 
-If we are importing externally, we can just use pandas `.read_csv` module with the `URL`  inside.
+If we are importing externally, we can just use `pandas` `.read_csv` module with the `URL`  inside.
 
 ```py
 pd.read_csv('URL')
@@ -37,7 +37,7 @@ pd.read_csv('URL')
 
 On the other hand, if we are importing from a local source, we first have to make sure the file is in our working Python directory[1].
 
-Now we can import it into our project using `pandas`.
+Now we can import it into our project.
 
 > Add this code to the same notebook we created in the previous workout.
 
