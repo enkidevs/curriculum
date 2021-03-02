@@ -10,6 +10,13 @@ tags:
   - keys
   - example
 
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
+
+
 ---
 
 # Keys Example

@@ -6,11 +6,24 @@ type: normal
 category: must-know
 
 links: 
-  - [Difference between Primary and Foreign Keys](https://www.dotnettricks.com/learn/sqlserver/difference-between-primary-key-and-foreign-key){article}
+  - >-
+   [Difference between Primary and Foreign 
+   Keys]
+   (https://www.dotnettricks.com/learn/sqlserver/difference-between-primary-key-and-foreign-key){article}
 
 tags:
   - introduction
   - joins
+
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 
 ---
 

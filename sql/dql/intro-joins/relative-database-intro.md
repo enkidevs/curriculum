@@ -8,6 +8,15 @@ category: must-know
 tags:
   - introduction
   - joins
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Relational Databases

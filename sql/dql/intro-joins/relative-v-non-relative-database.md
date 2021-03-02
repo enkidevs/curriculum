@@ -7,11 +7,22 @@ category: deep-dive
 
 links:
   - >-
-    [Relational vs. Non-Relational Databases](https://www.pluralsight.com/blog/software-development/relational-vs-non-relational-databases){article}
+    [Relational vs. Non-Relational 
+    Databases]
+    (https://www.pluralsight.com/blog/software-development/relational-vs-non-relational-databases){article}
 
 tags:
   - introduction
   - joins
+
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 
 ---
 
