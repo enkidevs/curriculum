@@ -14,7 +14,7 @@ category: must-know
 
 Data analysis is the process of analyzing and discovering useful information from data.
 
-The data analysis process has a handful of steps:
+The process has a handful of steps:
 
 - Decide which questions you want to answer
 - Figure out which data you need
