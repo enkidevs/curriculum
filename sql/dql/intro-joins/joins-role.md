@@ -56,7 +56,7 @@ SELECT
 FROM health JOIN attack
   ON health.id = attack.id
 ```
-Notice that the query makes references to both tables and then also states the **joining condition** (`health.id = attack.id`)[1]. 
+Notice that the query makes references to both tables and then also states the **joining condition**[1] (`health.id = attack.id`). 
 This query returns the following:
 
 | name       | type1    |

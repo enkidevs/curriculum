@@ -43,7 +43,7 @@ Here is an example of what different entries in a non-relational database might 
 
 ![non-relational example](https://img.enkipro.com/463523464e45f58781f33ab42485a64a.png)
 
-This is just one type of database[3]
+This is just one type of database[3].
 
 > 💡 Non-relational databases in detail are beyond the scope of this course, for a more in-depth explanation see the *Learn More* section.
 

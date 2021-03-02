@@ -48,7 +48,7 @@ Inspecting these two tables, it is easy to see that the `id` column is shared.
 More importantly, these two tables **map**, or are related, to one another. 
 
 So the `attack` and type data for Venusaur (`id` = 1) is contained in the `pokemon_attack` table,
-while data for the `name` and the `health` is contained in the `pokemon_health` table.
+while data for the `name` and the `health` is contained in the `pokemon_health` table[1].
 
 ![Health and Attack Tables Graphic](https://img.enkipro.com/2d381a48dbcfcb92827e8fca3b95c450.png)
 
