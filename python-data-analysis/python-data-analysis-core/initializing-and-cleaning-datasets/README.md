@@ -1,4 +1,4 @@
-name: Intro to pandas
+name: Initializing & Cleaning a Dataset
 
 description: Learn what Series and DataFrames are, and how to initialize and prepare a dataset for analysis.
 
