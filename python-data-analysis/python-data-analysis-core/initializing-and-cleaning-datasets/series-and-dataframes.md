@@ -74,11 +74,11 @@ df = pd.DataFrame(f)
 
 When we print `df` we get:
 
-|   |   Name | Age |
-|--:|-------:|----:|
-| 0 | Stefan |  21 |
-| 1 | Marcus |  24 |
-| 2 |   Emma |  23 |
+| id |   Name | Age |
+|---:|-------:|----:|
+| 0  | Stefan |  21 |
+| 1  | Marcus |  24 |
+| 2  |   Emma |  23 |
 
 Both `DataFrame`s and `Series` have an index. By default, this index goes from 0 to the length of the array.
 
