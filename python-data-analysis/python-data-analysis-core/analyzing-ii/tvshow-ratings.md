@@ -83,18 +83,27 @@ Both ways work the same and it's up to you which one you want to use in your cod
 
 ## Practice
 
-Given the code, select the answer that best explains what is going on.
+Given the code with missing parts, and the description, make the code match the description.
 
 ```python
-people.groupby('Age').size()\
-    .sort_values(ascending=False)\
-    .reset_index(name='Count By Age')
+???.groupby('???')???\
+  ???(ascending=False)\
+  .reset_index(name='???')
 ```
+
+Group the `people` `DataFrame` by its `Age` column. Count the number of rows for each `Age` group. Sort the values in descending order. Reset the index to a new logical one from 0 to length and add a new column called `Count By Age` where the `groupby.size` will display the output.
+
 
 ???
 
-- Group the `people` `DataFrame` by its `Age` column. Count the number of rows for each `Age` group. Sort the values in descending order. Reset the index to a new logical one from 0 to length and add a new column called `Count By Age` where the `groupby.size` will display the output.
-- Group the `people` `DataFrame` by its `Age` column. Count the number of rows and columns for each group. Sort the values in ascending order. Create a new index called `Count By Age` and add a new column from 0 to length at the end of the `DataFrame`.
+- `people`
+- `Age`
+- `.size()`
+- `.sort_values`
+- `Count By Age`
+- `count by age`
+- `age`
+- 
 
 ---
 
