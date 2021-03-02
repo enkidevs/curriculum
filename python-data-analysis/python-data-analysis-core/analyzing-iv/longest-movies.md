@@ -76,14 +76,21 @@ Now the column looks like this:
 What does the `.str.replace()` method do in this code?
 
 ```python
-df['duration'] = df['duration']\
-.str.replace(" min", "")
+df['duration'] = \
+  df['duration']\
+  .str.replace(" min", "")
 ```
 
-???
+Replaces every string in the ??? column of the ??? `DataFrame` that has a ??? substring in it with ???.
 
-- Replaces every string in the `duration` column of the `df` that has a `" min"` substring in it, with nothing.
-- replaces every string in the `df` that has `duration` string with `" min"` substring.
+- `duration`
+- `df`
+- `" min"`
+- `nothing`
+- `"min "`
+- `DF`
+- `replace`
+- `a space`
 
 ---
 ## Footnotes
