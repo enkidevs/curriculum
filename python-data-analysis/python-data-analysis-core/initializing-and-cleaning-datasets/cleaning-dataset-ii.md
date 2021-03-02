@@ -60,7 +60,7 @@ If we were to run head or tail again, we would get a cleaner output.
 
 The next step is deciding what we want to analyze and start analyzing. We will do that in the next workout.
 
-Here is all the work we have done in a notebook:
+> Here is all the work we have done in a notebook:
 
 [Google Collab Notebook](https://colab.research.google.com/drive/1WQoAQhnaI5Eh-gQ_Qg-VA9VPk7aSJvgB?authuser=1)
 
