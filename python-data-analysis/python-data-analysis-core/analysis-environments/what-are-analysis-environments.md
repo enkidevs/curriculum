@@ -42,4 +42,4 @@ In this course, we will be using the Jupyter Lab environment.
 
 [1: Terminal Gif]
 
-[terminal-gif](https://img.enkipro.com/0bf78b2222dca114a879cc242715adc3.gif)
+![terminal-gif](https://img.enkipro.com/0bf78b2222dca114a879cc242715adc3.gif)
