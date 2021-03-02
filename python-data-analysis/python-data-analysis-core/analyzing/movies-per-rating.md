@@ -13,7 +13,7 @@ revisionQuestion:
  
 links:
   - >-
-    [Netflix Ratings](https://help.netflix.com/en/node/2064/us){documentation}
+    [TV Parental Guidelines](https://en.wikipedia.org/wiki/TV_Parental_Guidelines){documentation}
  
 ---
 
