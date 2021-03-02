@@ -14,7 +14,7 @@ category: must-know
 
 When it comes to coding in Python, there are several environments you can choose from.
 
-Analysis environments are shells, [IDE's](https://www.enki.com/glossary/general/ide), and other ways where you can test, run, modify, execute, and so on..., a programming language's code.
+Analysis environments are shells, [IDE's](https://www.enki.com/glossary/general/ide), and other ways where you can test, run, modify, execute, and so on, a programming language's code.
 
 For instance, the most basic environment you can write Python is in your OS's terminal[1]. 
 
