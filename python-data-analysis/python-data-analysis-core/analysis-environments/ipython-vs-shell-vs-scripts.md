@@ -23,7 +23,7 @@ revisionQuestion:
 
 ### IPython vs Basic intepreter
 
-The Python language comes with a basic interpreter and a REPL[1] that lets us write and run Python programs.
+The Python language comes with a basic interpreter and a [REPL](https://www.enki.com/glossary/general/repl) that lets us write and run Python programs.
 
 iPython is an enhanced version of that with extra features that make the experience of running Python code more user-friendly.
 
