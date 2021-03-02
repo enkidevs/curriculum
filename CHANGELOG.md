@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## March 2nd 2021
+
+### Fixed
+
+- [Python - Intro to Modules - Fix improper code highlighting](https://github.com/enkidevs/curriculum/pull/2630)
 
 ## March 1st 2021
 
