@@ -53,7 +53,7 @@ Here're some well-known libraries for data analysis which we will use throughout
 
 `matplotlib` is used to create visualizations.
 
-`NumPy` makes working with arrays much easier and faster than Python lists.
+`numpy` makes working with arrays much easier and faster than Python lists.
 
 `pandas` has many useful tools used for data analysis.
 
