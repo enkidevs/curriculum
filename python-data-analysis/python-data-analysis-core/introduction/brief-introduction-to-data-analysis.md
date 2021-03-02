@@ -7,7 +7,7 @@ category: must-know
 
 ---
 
-# Intro to Data Analysis with Python
+# Intro to Data Analysis With Python
 
 ---
 ## Content
