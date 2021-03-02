@@ -54,6 +54,21 @@ Types of change:
 
 - [Data Analysis With Python - Eight Workouts - Add entire topic and glossaries to curriculum](https://github.com/enkidevs/curriculum/pull/2627)
 
+## March 1st 2021
+
+### Added
+- [Python - Classes II - Add Discussion Insight](https://github.com/enkidevs/curriculum/pull/2616)
+- [Python - Intro To Modules - Add Discussion Insight](https://github.com/enkidevs/curriculum/pull/2614)
+- [Python - Playing With Time - Add Discussion Insight](https://github.com/enkidevs/curriculum/pull/2615)
+
+### Fixed
+- [Python - Other Operations on Files - Remove inexistent footnote reference; add py tags; capitalize title](https://github.com/enkidevs/curriculum/pull/2628)
+
+## February 24th 2021
+
+### Fixed
+- [Python - Boolean Operators - Change reserved variable name](https://github.com/enkidevs/curriculum/pull/2626)
+
 ## February 23rd 2021
 
 ### Added
@@ -70,11 +85,13 @@ Types of change:
 - [TypeScript - Never - Remove extra question gap](https://github.com/enkidevs/curriculum/pull/2624)
 - [TypeScript - Introduction to Type Aliases - Remove extra question gap](https://github.com/enkidevs/curriculum/pull/2624)
 
+
 ## February 5th 2021
 
 ### Fixed
 - [Retrigger failed push event](https://github.com/enkidevs/curriculum/pull/2601)
 - [Go - Data Types - Replace images with typos with markdown tables](https://github.com/enkidevs/curriculum/pull/2602)
+
 ## February 3rd 2021
 
 ### Added
