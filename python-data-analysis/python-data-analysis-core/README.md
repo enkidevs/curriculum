@@ -7,8 +7,8 @@ core: true
 sections:
   '0':
     - introduction
-    - initializing-and-cleaning-datasets
     - analysis-environments
+    - initializing-and-cleaning-datasets
     - analyzing
     - analyzing-ii
     - analyzing-iii
