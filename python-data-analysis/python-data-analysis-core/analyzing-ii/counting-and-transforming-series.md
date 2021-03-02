@@ -29,7 +29,7 @@ revisionQuestion:
 
 In the previous workout, we found how many movies of each rating are on this dataset[1].
 
-Now Let's find out how many TV Shows for each rating are there but in a different way.
+Now, let's find out how many TV Shows for each rating are there but in a different way.
 
 We will use `groupby().size()`, `to_frame()` and `reset_index`.
 
