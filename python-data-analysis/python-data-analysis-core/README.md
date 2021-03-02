@@ -1,6 +1,6 @@
 name: Introduction
 
-description: Learn the basics of Go!
+description: Introductory content for analyzing data using Python!
 
 core: true
 
