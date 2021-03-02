@@ -42,11 +42,11 @@ Here is the same code run on the basic interpreter vs IPython:
 
 Basic interpreter:
 
-[windows-10-example](https://img.enkipro.com/cb342ec6c5fb4860fee889d907ee176b.png)
+![windows-10-example](https://img.enkipro.com/cb342ec6c5fb4860fee889d907ee176b.png)
 
 IPython:
 
-[ipython-example](https://img.enkipro.com/02420b736677cad5a5d5d8bcaac54bf4.png)
+![ipython-example](https://img.enkipro.com/02420b736677cad5a5d5d8bcaac54bf4.png)
 
 In the iPython example, all of the code was run on `Line [1]`. On the other hand, in the regular interpreter, we had to run five lines of code to achieve the same thing. (Not counting the two empty lines)
 
