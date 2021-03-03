@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## March 3rd 2021
+
+### Fixed
+- [Python - Nested Functions - Fix answer in PQ](https://github.com/enkidevs/curriculum/pull/2631)
+
 ## March 2nd 2021
 
 ### Fixed
