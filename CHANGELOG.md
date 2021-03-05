@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## March 5th 2021
+
+### Fixed
+- [Python - Arrays I - Add backticks to answer](https://github.com/enkidevs/curriculum/pull/2633)
+
 ## March 3rd 2021
 
 ### Fixed
