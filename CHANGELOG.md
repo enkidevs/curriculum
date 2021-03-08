@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## March 7th 2021
+
+### Fixed
+- [Regular Expressions - Regex Anchors - Update improper example that rendered as a footnote](https://github.com/enkidevs/curriculum/pull/2634)
+
 ## March 5th 2021
 
 ### Fixed
