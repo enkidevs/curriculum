@@ -43,7 +43,7 @@ This library is very extensive. Some functions included there are:
 | `dict()`  | Used to create a dictionary        | `x = dict(name = "Stefan", age = 27)` |
 | `abs()`   | Get the absolute value of a number | `abs(-5)`                             |
 
-> To view the full list of modules from the *standard library* check out the **Learn More** section. 
+> To view the full list of modules from the *standard library* check out the **Learn more** section. 
 
 Functions from the *standard library* are always available.
 
