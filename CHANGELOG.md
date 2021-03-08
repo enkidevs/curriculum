@@ -48,6 +48,12 @@ Types of change:
 
 ### Fixed
 
+## March 8th 2021
+
+### Added
+
+- [Data Analysis With Python - Eight Workouts - Add entire topic and glossaries to curriculum](https://github.com/enkidevs/curriculum/pull/2627)
+
 ## March 7th 2021
 
 ### Fixed
@@ -66,7 +72,6 @@ Types of change:
 ## March 2nd 2021
 
 ### Fixed
-
 - [Python - Intro to Modules - Fix improper code highlighting](https://github.com/enkidevs/curriculum/pull/2630)
 
 ## March 1st 2021
