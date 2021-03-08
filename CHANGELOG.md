@@ -48,11 +48,31 @@ Types of change:
 
 ### Fixed
 
-## February 26th 2021
+## March 8th 2021
 
 ### Added
 
 - [Data Analysis With Python - Eight Workouts - Add entire topic and glossaries to curriculum](https://github.com/enkidevs/curriculum/pull/2627)
+
+## March 7th 2021
+
+### Fixed
+- [Regular Expressions - Regex Anchors - Update improper example that rendered as a footnote](https://github.com/enkidevs/curriculum/pull/2634)
+
+## March 5th 2021
+
+### Fixed
+- [Python - Arrays I - Add backticks to answer](https://github.com/enkidevs/curriculum/pull/2633)
+
+## March 3rd 2021
+
+### Fixed
+- [Python - Nested Functions - Fix answer in PQ](https://github.com/enkidevs/curriculum/pull/2631)
+
+## March 2nd 2021
+
+### Fixed
+- [Python - Intro to Modules - Fix improper code highlighting](https://github.com/enkidevs/curriculum/pull/2630)
 
 ## March 1st 2021
 

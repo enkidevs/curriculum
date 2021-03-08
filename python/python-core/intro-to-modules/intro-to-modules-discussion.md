@@ -24,7 +24,7 @@ It's up to you to choose what the function will be about. It can be anything; a 
 
 To achieve this, you should use the following concepts:
 - importing modules (`import`, `from...import`...)
-- function creation (`def`..)
+- function creation (`def...`)
 
 As for the file name, add it as a comment at the top of the code block where you've defined the function.
 
