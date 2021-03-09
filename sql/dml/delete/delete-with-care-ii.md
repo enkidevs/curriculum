@@ -1,17 +1,22 @@
 ---
 author: kapnobatai136
-
 type: normal
-
 category: must-know
-
 tags:
   - delete
   - syntax
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Delete With Care II
+
 
 ---
 
@@ -26,7 +31,7 @@ If they are too strict, you won't delete all the intended records.
 For example, here is a table name `friends`:
 
 | id | name     | city        |
-|----|----------|-------------|
+| -- | -------- | ----------- |
 | 1  | Rigby    | London      |
 | 2  | Mordecai | London      |
 | 3  | Pops     | Paris       |
@@ -46,11 +51,12 @@ WHERE
 In this case, although `"Rigby"` is from `"London"`, so is `"Mordecai"`. Running the command above will delete **both records** from the `friends` table:
 
 | id | name | city        |
-|----|------|-------------|
+| -- | ---- | ----------- |
 | 3  | Pops | Paris       |
 | 4  | Don  | Los Angeles |
 
 > 💬 What are the correct ways to remove the `"Rigby"` record from the `friends` table? Leave a comment below or view others for inspiration.
+
 
 ---
 
@@ -82,6 +88,7 @@ WHERE
 - John
 - Sarah & Bill
 - Miranda, Sarah & Bill
+
 
 ---
 

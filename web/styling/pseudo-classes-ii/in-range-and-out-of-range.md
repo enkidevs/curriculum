@@ -9,6 +9,14 @@ links:
   - >-
     [MDN Docs on
     :out-of-range](https://developer.mozilla.org/en-US/docs/Web/CSS/:out-of-range){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # The `:in-range` and `:out-of-range` Pseudo-Classes

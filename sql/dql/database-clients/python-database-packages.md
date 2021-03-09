@@ -2,7 +2,6 @@
 author: nickdaminov
 type: normal
 category: feature
-inAlgoPool: false
 tags:
   - python
   - implementation
@@ -15,6 +14,14 @@ links:
   - >-
     [Using Python to query Postgres
     video](https://www.youtube.com/watch?v=8gd1DlXwzlY){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Python Database Packages

@@ -7,6 +7,14 @@ category: must-know
 links:
   - >-
     [Tuples](https://docs.python.org/3.5/tutorial/datastructures.html#tuples-and-sequences){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # The `tuple`

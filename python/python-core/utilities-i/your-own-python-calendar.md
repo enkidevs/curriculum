@@ -12,6 +12,14 @@ notes: |
   print(calendar.calendar(2016))
 
   to show how to print calendar for a year.
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Your own Python `calendar`

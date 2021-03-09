@@ -6,6 +6,14 @@ links:
   - >-
     [Official
     Documentation](https://facebook.github.io/react/docs/dom-elements.html#dangerouslysetinnerhtml){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Dangerously set `innerHTML`

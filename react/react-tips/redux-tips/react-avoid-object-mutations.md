@@ -6,6 +6,14 @@ links:
   - >-
     [Avoiding object
     mutations](https://egghead.io/lessons/javascript-redux-avoiding-object-mutations-with-object-assign-and-spread){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Avoid object mutations

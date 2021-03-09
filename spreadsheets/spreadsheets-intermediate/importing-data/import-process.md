@@ -1,18 +1,24 @@
-﻿---
+---
 author: kapnobatai136
-
 type: normal
-
 category: how-to
-
 links:
   - '[CSV Files](https://people.sc.fsu.edu/~jburkardt/data/csv/csv.html){website}'
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Import Process
 
+
 ---
+
 ## Content
 
 As we've mentioned, no matter the file type, the import process is the same.
@@ -28,6 +34,7 @@ First, create an empty spreadsheet. Then, go to the `File` tab and click `Import
 Now, a pop-up window will appear asking you to select a file.
 
 Depending on where you have the file you can choose to import from:
+
 - your google drive
 - files that were shared with you
 - your recent files
@@ -39,7 +46,9 @@ For this insight, we are going to upload from our computer choosing the `Upload`
 
 You're almost there! The last step is choosing the import options, which we'll go over in the next insight.
 
+
 ---
+
 ## Practice
 
 To import a file you should open the `File` tab and click ???.
@@ -48,9 +57,10 @@ To import a file you should open the `File` tab and click ???.
 - Upload
 - Open
 
----
-## Revision
 
+---
+
+## Revision
 
 In Google Sheets, is it possible to import files from your Google Drive?
 

@@ -6,6 +6,14 @@ links:
   - >-
     [Play with Type
     Aliasing](https://repl.it/@enkicontent/TypeScriptPlayWithTypeAliasing){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Introduction to Type Aliases
@@ -110,8 +118,6 @@ function logTSFact(): nothing {
 ## Revision
 
 Type aliases are created using the ??? keyword.
-
-???
 
 - type
 - alias

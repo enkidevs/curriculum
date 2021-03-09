@@ -6,6 +6,14 @@ links:
   - >-
     [JSX spread
     attributes](https://gist.github.com/sebmarkbage/07bbe37bc42b6d4aef81){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # JSX Spread attributes

@@ -6,6 +6,14 @@ stub: true
 tags:
   - introduction
 links: null
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Italic & Emphasis
@@ -160,6 +168,7 @@ Mark the false statement about the `<em>` element.
 - `em > em in CSS will style nested <em> elements.`
 - `<em>s and nested <em>s will display the exact same by default.`
 
+
 ---
 
 ## Revision
@@ -173,6 +182,7 @@ When emphasis is needed for a foreign word, a fictional character's thoughts, or
 - `<important>`
 - `<b>`
 - `<strong>`
+
 
 ---
 

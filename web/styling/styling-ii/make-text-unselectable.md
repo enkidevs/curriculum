@@ -9,6 +9,14 @@ links:
     [Disable Text
     Selection](http://stackoverflow.com/questions/826782/css-rule-to-disable-text-selection-highlighting){discussion}
   - '[WebKit](http://caniuse.com/#search=webkit){website}'
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Make text unselectable

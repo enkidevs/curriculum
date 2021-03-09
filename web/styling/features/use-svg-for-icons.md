@@ -4,6 +4,14 @@ type: normal
 category: best-practice
 links:
   - '[CSS Pro Tips](https://github.com/AllThingsSmitty/css-protips){website}'
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Use `SVG` for icons

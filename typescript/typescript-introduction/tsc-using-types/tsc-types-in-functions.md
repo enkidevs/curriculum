@@ -9,6 +9,14 @@ links:
   - >-
     [Functions in
     TS](https://www.typescriptlang.org/docs/handbook/functions.html){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Types in Functions
@@ -123,4 +131,3 @@ function enki(age: number): string {
 
 - Yes
 - No
-

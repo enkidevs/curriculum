@@ -4,6 +4,14 @@ category: feature
 type: normal
 links:
   - '[Applications Page](https://zapier.com/apps){website}'
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Unique Search Actions
@@ -58,4 +66,3 @@ Which of the following you **wouldn't** expect to see when looking at an app's p
 - A list of recommended integrations.
 - Recommended templates.
 - All the possible triggers, actions and searches.
- 

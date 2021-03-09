@@ -1,20 +1,24 @@
 ---
 author: mihaiberq
-
 type: normal
-
 category: must-know
-
 tags:
   - introduction
   - workout
-
 links:
   - '[Inner Join](https://en.wikipedia.org/wiki/Join_(SQL)#Inner_join){website}'
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # INNER JOIN
+
 
 ---
 
@@ -34,7 +38,6 @@ The English names of those abilities can be found in the `ability` table (inside
 | 2  | True           | 3             | drizzle      |
 | 3  | True           | 3             | speed-boost  |
 | 4  | True           | 3             | battle-armor |
-
 
 The short and long ability descriptions can be found inside the `ability_effect_text` table (in the same database):
 
@@ -82,6 +85,7 @@ If there were some abilities without an effect text or some effects not describi
 
 So, if the `ability` table has `251` records and the `ability_effect_text` has `191` records, the total number of returned rows after the inner join operation will be `191`. This is because there would be no matches for the extra `60` records in the `ability table`.  
 
+
 ---
 
 ## Practice
@@ -104,6 +108,7 @@ Complete the `INNER JOIN` operation on the `item` and `item_effect_text` tables.
 - `item_effect_text`
 - `ON`
 - `item.id`
+
 
 ---
 

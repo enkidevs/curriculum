@@ -1,18 +1,25 @@
-﻿---
+---
 author: Stefan-Stojanovic
-
 type: normal
-
 category: how-to
-
 links:
-  - '[TO_PURE_NUMBER](https://support.google.com/docs/answer/3094243){documentation}'
-
+  - >-
+    [TO_PURE_NUMBER](https://support.google.com/docs/answer/3094243){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # TO_PURE_NUMBER
 
+
 ---
+
 ## Content
 
 This function is used to convert any numerical value (e.g. date, percentage, currency, and so on) to a pure number without any formatting.
@@ -39,7 +46,9 @@ If all of those cells have numbers in them but are formatted as `plain-text`, th
 
 We would first have to convert them.
 
+
 ---
+
 ## Practice
 
 The `TO_PURE_NUMBER` function is used to convert a ??? to a pure number value ???
@@ -51,7 +60,9 @@ The `TO_PURE_NUMBER` function is used to convert a ??? to a pure number value ??
 - a percentage value
 - a currency value
 
+
 ---
+
 ## Revision
 
 Which function removes all formatting from a numeric value?

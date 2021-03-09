@@ -12,6 +12,14 @@ links:
   - >-
     [MDN Docs on
     flex-shrink](https://developer.mozilla.org/en-US/docs/Web/CSS/flex-shrink){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Using `flex-shrink`

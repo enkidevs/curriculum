@@ -6,6 +6,14 @@ stub: true
 links: null
 tags:
   - deep
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Intro `<wbr>`

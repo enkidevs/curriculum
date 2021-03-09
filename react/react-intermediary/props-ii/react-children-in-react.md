@@ -9,6 +9,14 @@ links:
   - >-
     [React
     Children](https://facebook.github.io/react/docs/react-api.html#reactchildren){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Children in React

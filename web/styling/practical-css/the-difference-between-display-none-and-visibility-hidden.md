@@ -6,6 +6,14 @@ links:
   - >-
     [MDN Docs on
     Display](https://developer.mozilla.org/en-US/docs/Web/CSS/display){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # The difference between display:none and visibility:hidden

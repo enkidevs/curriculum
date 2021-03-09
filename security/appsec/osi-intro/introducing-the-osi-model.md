@@ -1,18 +1,23 @@
 ---
 author: milesflo
-
 type: normal
-
 category: must-know
-
 links:
   - >-
     [SANS
     Institute](https://www.sans.org/reading-room/whitepapers/protocols/applying-osi-layer-network-model-information-security-1309){website}
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Introducing the OSI Model
+
 
 ---
 
@@ -32,6 +37,7 @@ The following workouts will go into detail about the responsibilities of each la
 
 > No two networks are the same, and as such the goal of the OSI Model is to be less of a hard rule and more of **a flexible guideline**.
 
+
 ---
 
 ## Practice
@@ -42,6 +48,7 @@ The OSI model is a ??? standard for various ??? configurations.
 - network
 - hardware component
 - hard
+
 
 ---
 
@@ -67,6 +74,7 @@ The OSI 7 Layer Model is ordered, from bottom to top, in the following order:
 - Presentation Layer
 - Application Layer
 
+
 ---
 
 ## Quiz
@@ -82,4 +90,3 @@ What is the OSI 7 Layer Model?
 - a hard standard for various network configurations
 - a flexible standard for various hardware component configurations
 - a hard standard for various hardware component configurations
- 

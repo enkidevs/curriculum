@@ -6,7 +6,14 @@ links:
   - >-
     [30 days of
     React](https://www.fullstackreact.com/30-days-of-react/day-1/){website}
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # What is React?
@@ -36,6 +43,7 @@ React is an open-source[4] project that was released in 2013 and has since becom
 
 By focusing on developer experience, **React** has become a top choice for both beginners and experts of Front-End Web Development.
 
+
 ---
 
 ## Practice
@@ -63,6 +71,7 @@ React manages to keep the DOM in sync with the data model by
 - using functions to update the DOM
 - using JSX
 
+
 ---
 
 ## Footnotes
@@ -85,4 +94,3 @@ This is also referred to as the Virtual DOM or VDOM. It is a virtual representat
 
 [4:Open-source]
 An open-source software is protected by copyright laws, but the owner grants users the right to study, change, and distribute the software to anyone for any purpose.
- 

@@ -8,6 +8,14 @@ links:
   - >-
     [HTML <a>
     Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Download Link

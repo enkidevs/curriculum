@@ -9,6 +9,14 @@ links:
   - >-
     [MDN Docs on
     Length](https://developer.mozilla.org/en-US/docs/Web/CSS/length){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Use `em` instead of `px` for sizes

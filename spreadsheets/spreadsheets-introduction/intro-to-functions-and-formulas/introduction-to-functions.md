@@ -6,6 +6,10 @@ links:
   - >-
     [Excel Function
     List](https://support.office.com/en-us/article/excel-functions-alphabetical-b3944572-255d-4efb-bb96-c6d90033e188){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # What Are Functions?
@@ -60,4 +64,3 @@ An argument is just a cell or a series of cells that you would pass a function. 
 ```
 
 In this case, `COUNT()` is the function and `A1:A25` is the argument. Basically, everything between the parentheses is the argument.
- 

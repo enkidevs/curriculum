@@ -7,6 +7,14 @@ tags:
   - bullets
 links:
   - '[List Tutorials](http://css.maxdesign.com.au/listutorial/index.htm){article}'
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Removing the bullets from the `ul`

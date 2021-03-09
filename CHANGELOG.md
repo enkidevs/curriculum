@@ -48,9 +48,97 @@ Types of change:
 
 ### Fixed
 
+## March 8th 2021
+
+### Added
+
+- [Data Analysis With Python - Eight Workouts - Add entire topic and glossaries to curriculum](https://github.com/enkidevs/curriculum/pull/2627)
+
+## March 7th 2021
+
+### Fixed
+- [Regular Expressions - Regex Anchors - Update improper example that rendered as a footnote](https://github.com/enkidevs/curriculum/pull/2634)
+
+## March 5th 2021
+
+### Fixed
+- [Python - Arrays I - Add backticks to answer](https://github.com/enkidevs/curriculum/pull/2633)
+
+## March 3rd 2021
+
+### Fixed
+- [Python - Nested Functions - Fix answer in PQ](https://github.com/enkidevs/curriculum/pull/2631)
+
+## March 2nd 2021
+
+### Fixed
+- [Python - Intro to Modules - Fix improper code highlighting](https://github.com/enkidevs/curriculum/pull/2630)
+
+## March 1st 2021
+
+### Added
+- [Python - Classes II - Add Discussion Insight](https://github.com/enkidevs/curriculum/pull/2616)
+- [Python - Intro To Modules - Add Discussion Insight](https://github.com/enkidevs/curriculum/pull/2614)
+- [Python - Playing With Time - Add Discussion Insight](https://github.com/enkidevs/curriculum/pull/2615)
+
+### Fixed
+- [Python - Other Operations on Files - Remove inexistent footnote reference; add py tags; capitalize title](https://github.com/enkidevs/curriculum/pull/2628)
+
+## February 24th 2021
+
+### Fixed
+- [Python - Boolean Operators - Change reserved variable name](https://github.com/enkidevs/curriculum/pull/2626)
+
+## February 23rd 2021
+
+### Added
+- [Javascript - Objects part 2 - Add method explanation sentence](https://github.com/enkidevs/curriculum/pull/2623)
+
+### Fixed
+- [SQL - IN, LIKE, BETWEEN - Fix rendering for PQ answers](https://github.com/enkidevs/curriculum/pull/2625)
+- [Linux - Customizing Bash Via Bashrc - Fix grammar in first paragraph](https://github.com/enkidevs/curriculum/pull/2621)
+- [Javascript - Console In Javascript - Add inline code identifier to a variable](https://github.com/enkidevs/curriculum/pull/2622)
+
+## February 22nd 2021
+
+### Fixed
+- [TypeScript - Never - Remove extra question gap](https://github.com/enkidevs/curriculum/pull/2624)
+- [TypeScript - Introduction to Type Aliases - Remove extra question gap](https://github.com/enkidevs/curriculum/pull/2624)
+
+
+## February 5th 2021
+
+### Fixed
+- [Retrigger failed push event](https://github.com/enkidevs/curriculum/pull/2601)
+- [Go - Data Types - Replace images with typos with markdown tables](https://github.com/enkidevs/curriculum/pull/2602)
+
+## February 3rd 2021
+
+### Added
+- [Security - Making SSH Connections - New insight on ssh security & other updates](https://github.com/enkidevs/curriculum/pull/2599)
+
+## February 1st 2021
+
+### Changed
+- [React - Props in constructor's state - Cleanup the text to make the anti-pattern behavior clearer, add some examples, update both questions](https://github.com/enkidevs/curriculum/pull/2585)
+- [CSS - Position Elements With Position Sticky - Remove question](https://github.com/enkidevs/curriculum/pull/2578)
+
+### Fixed
+- [JavaScript - Passing through command line arguments in npm scripts - Fix broken PQ & RQ; add type-in-the-gap and change context to standalone](https://github.com/enkidevs/curriculum/pull/2584)
+- [Coding Intro - First Functions - Fix typo](https://github.com/enkidevs/curriculum/pull/2582)
+
+## January 29th 2021
+
+### Changed
+- [Linux - Easy Way Of Sharing Files - Move link to the Links section](https://github.com/enkidevs/curriculum/pull/2581)
+
 ## January 27th 2021
 
 ### Added
+- [Add support for new question types XI](https://github.com/enkidevs/curriculum/pull/2577)
+- [Add support for new question types X](https://github.com/enkidevs/curriculum/pull/2576)
+- [Add support for new question types IX](https://github.com/enkidevs/curriculum/pull/2575)
+- [Add support for new question types VIII](https://github.com/enkidevs/curriculum/pull/2573)
 - [Add support for new question types VII](https://github.com/enkidevs/curriculum/pull/2571)
 - [Add support for new question types VI](https://github.com/enkidevs/curriculum/pull/2570)
 - [Add support for new question types V](https://github.com/enkidevs/curriculum/pull/2569)
@@ -59,6 +147,7 @@ Types of change:
 - [Add support for new question types II](https://github.com/enkidevs/curriculum/pull/2565)
 
 ### Changed
+- [HTML - Image Types - Update information, Make Table](https://github.com/enkidevs/curriculum/pull/2563)
 - [Update "best practice" to "best-practice" category](https://github.com/enkidevs/curriculum/pull/2564)
 - [Update "how to" to "how-to" category II](https://github.com/enkidevs/curriculum/pull/2562)
 

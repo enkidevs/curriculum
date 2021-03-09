@@ -2,6 +2,10 @@
 author: Stefan-Stojanovic
 type: normal
 category: how-to
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # The `COUNT` Function
@@ -34,4 +38,3 @@ Create a function that will count how many numerical values are present from the
 - `=COUNT(C7-C32)`
 - `COUNT(C7:C32)`
 - `COUNT(C7-C32)`
- 

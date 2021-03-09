@@ -1,18 +1,23 @@
 ---
 author: kapnobatai136
-
 type: normal
-
 category: must-know
-
 links:
   - >-
     [Introduction to
     Hooks](https://reactjs.org/docs/hooks-intro.html){documentation}
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # What Are Hooks?
+
 
 ---
 
@@ -112,6 +117,7 @@ Both components have the same functionality, but you can already see the differe
 
 When using hooks, we can group related stateful logic and side effects together, effectively separating said group from unrelated code.
 
+
 ---
 
 ## Practice
@@ -124,6 +130,7 @@ Which of the following does not represent a React hook?
 - state hook
 - effect hook
 - custom hook
+
 
 ---
 

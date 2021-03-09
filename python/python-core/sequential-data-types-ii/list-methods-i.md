@@ -6,6 +6,14 @@ links:
   - >-
     [Python List
     Methods](https://www.programiz.com/python-programming/methods/list){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # List Methods I

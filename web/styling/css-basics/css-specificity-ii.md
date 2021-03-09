@@ -2,7 +2,6 @@
 author: Mathieu
 type: normal
 category: feature
-inAlgoPool: false
 links:
   - >-
     [MDN Doc on CSS
@@ -12,6 +11,14 @@ links:
   - >-
     [CSS Tips &
     Tricks](http://www.instantshift.com/2010/03/15/47-css-tips-tricks-to-take-your-site-to-the-next-level/){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # CSS Specificity (Part 2)

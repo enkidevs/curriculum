@@ -7,6 +7,10 @@ links:
   - >-
     [MDN Docs on Box
     Sizing](https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing){documentation}
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Inherit `box-sizing`

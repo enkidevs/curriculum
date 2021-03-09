@@ -6,6 +6,14 @@ links:
   - >-
     [HTML <aside>
     Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/aside){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # The `<aside>` Element

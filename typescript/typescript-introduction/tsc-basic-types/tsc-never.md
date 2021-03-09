@@ -6,6 +6,14 @@ links:
   - >-
     [Never
     Type](https://www.typescriptlang.org/docs/handbook/basic-types.html#never){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Never
@@ -71,8 +79,6 @@ function enki(message: string): ??? {
   throw new Error(message);
 }
 ```
-
-???
 
 - `never`
 - `undefined`

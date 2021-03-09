@@ -4,6 +4,14 @@ type: normal
 category: how-to
 links:
   - '[gist.github.com](https://gist.github.com/j4mie/557354){website}'
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Recipe to normalize text

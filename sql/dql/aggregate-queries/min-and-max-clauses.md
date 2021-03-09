@@ -2,11 +2,18 @@
 author: SebaRaba
 type: normal
 category: must-know
-inAlgoPool: false
 links:
   - >-
     [More on MIN and MAX
     clauses](https://docs.microsoft.com/en-us/sql/t-sql/functions/aggregate-functions-transact-sql){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # MIN and MAX clauses
@@ -78,6 +85,7 @@ SELECT ???(???) FROM ???
 - MIN
 - FROM
 
+
 ---
 
 ## Revision
@@ -102,6 +110,7 @@ FROM move_effect_change;
 - MAX
 - AVG
 - version_group_id
+
 
 ---
 

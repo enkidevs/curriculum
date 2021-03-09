@@ -2,13 +2,20 @@
 author: mihaiberq
 type: normal
 category: must-know
-inAlgoPool: false
 links:
   - '[Scrimba CSS The Box Model](https://scrimba.com/p/pWvwCg/cnm3RSZ){website}'
   - '[Box Sizing](https://css-tricks.com/box-sizing/){website}'
   - >-
     [MDN Docs on Box
     Sizing](https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # The `box-sizing` Property

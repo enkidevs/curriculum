@@ -6,6 +6,10 @@ links:
   - >-
     [Article on Text
     Enlargement](https://css-tricks.com/prevent-iphone-text-enlargement/){article}
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Prevent Text Enlargement on an iPhone

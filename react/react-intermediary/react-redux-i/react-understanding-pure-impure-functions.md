@@ -6,6 +6,14 @@ links:
   - >-
     [Pure functions in
     JavaScript](http://www.nicoespeon.com/en/2015/01/pure-functions-javascript/){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Understanding **pure/impure** functions

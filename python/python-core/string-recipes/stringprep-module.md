@@ -2,11 +2,18 @@
 author: catalin
 type: normal
 category: feature
-inAlgoPool: false
 links:
   - >-
     [docs.python.org](https://docs.python.org/2/library/stringprep.html){website}
   - '[www.ietf.org](https://www.ietf.org/rfc/rfc3454.txt){website}'
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # `stringprep` module

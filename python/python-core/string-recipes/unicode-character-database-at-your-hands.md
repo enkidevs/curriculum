@@ -2,10 +2,17 @@
 author: catalin
 type: normal
 category: feature
-inAlgoPool: false
 links:
   - '[pymotw.com](https://pymotw.com/2/codecs/){website}'
   - '[docs.python.org](https://docs.python.org/3.5/library/codecs.html){website}'
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Unicode character database at your hands

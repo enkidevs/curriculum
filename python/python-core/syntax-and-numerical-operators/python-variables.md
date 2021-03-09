@@ -8,6 +8,14 @@ links:
   - >-
     [Python Naming
     Conventions](https://www.python.org/dev/peps/pep-0008/#prescriptive-naming-conventions){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Variables

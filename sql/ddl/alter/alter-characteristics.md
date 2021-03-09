@@ -2,7 +2,6 @@
 author: kapnobatai136
 type: normal
 category: must-know
-inAlgoPool: false
 tags:
   - workout
   - deep
@@ -10,6 +9,14 @@ links:
   - >-
     [More on ADD
     DEFAULT](https://www.w3schools.com/sql/sql_default.asp){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Alter Characteristics

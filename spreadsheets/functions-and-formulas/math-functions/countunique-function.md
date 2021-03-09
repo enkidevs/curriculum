@@ -1,18 +1,24 @@
-﻿---
+---
 author: Stefan-Stojanovic
-
 type: normal
-
 category: how-to
-
 links:
   - '[COUNTUNIQUE](https://support.google.com/docs/answer/3093405){documentation}'
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # COUNTUNIQUE
 
+
 ---
+
 ## Content
 
 The `=COUNTUNIQUE()` function operates like the `=COUNT()` function except that it only counts unique values.
@@ -20,6 +26,7 @@ The `=COUNTUNIQUE()` function operates like the `=COUNT()` function except that 
 > 💡 Unlike the `=COUNT()` function that only counts numerical values, `=COUNTUNIQUE()` interprets all values as strings and ignores any duplicate cells.
 
 The syntax is:
+
 ```plain-text
 =COUNTUNIQUE(value1, value2, ...)
 ```
@@ -30,7 +37,9 @@ The `value1` can be a single cell, a range of cells, or manually inputted number
 
 ![countunique](https://img.enkipro.com/fe9c8c464c96299dcd485ef05690c612.png)
 
+
 ---
+
 ## Practice
 
 Finish the code to only count unique values from cell `A1` to `D99`.
@@ -39,13 +48,15 @@ Finish the code to only count unique values from cell `A1` to `D99`.
 =???(???)
 ```
 
-* COUNTUNIQUE
-* A1:D99
-* COUNT_UNIQUE
-* A1-D99
-* A1, D99
+- COUNTUNIQUE
+- A1:D99
+- COUNT_UNIQUE
+- A1-D99
+- A1, D99
+
 
 ---
+
 ## Revision
 
 What does the `=COUNTUNIQUE` function do?

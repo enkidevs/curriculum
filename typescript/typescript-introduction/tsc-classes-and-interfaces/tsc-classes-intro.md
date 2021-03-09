@@ -9,6 +9,14 @@ links:
   - >-
     [Class
     Type](https://www.typescriptlang.org/docs/handbook/classes.html){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Introduction to Classes

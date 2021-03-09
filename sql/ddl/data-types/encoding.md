@@ -5,6 +5,10 @@ category: must-know
 tags:
   - introduction
   - workout
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Encoding
@@ -41,4 +45,3 @@ As of now, the most recommended character encoding is
 - UTF-16
 - UTF-32
 - ASCII
- 

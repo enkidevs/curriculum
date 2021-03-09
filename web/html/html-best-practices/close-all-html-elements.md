@@ -6,6 +6,10 @@ links:
   - >-
     [Google
     StyleGuide](https://google.github.io/styleguide/htmlcssguide.html#Optional_Tags){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Close all HTML elements

@@ -9,6 +9,14 @@ links:
   - >-
     [W3S: <main>
     Element](https://www.w3schools.com/tags/tag_main.asp){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # The `<main>` Element

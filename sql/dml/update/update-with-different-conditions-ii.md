@@ -1,17 +1,22 @@
 ---
 author: kapnobatai136
-
 type: normal
-
 category: must-know
-
 tags:
   - update
   - syntax
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Updating With Different Conditions II
+
 
 ---
 
@@ -24,7 +29,7 @@ This is controlled through the `WHERE` condition, which behaves exactly as it do
 Take this `employees` table for example:
 
 | id  | name | branch   | branch_id |
-|-----|------|----------|-----------|
+| --- | ---- | -------- | --------- |
 | 1   | Jim  | Scranton | 24        |
 | 2   | Pam  | Scranton | 24        |
 | 3   | Ryan | Scranton | 24        |
@@ -49,13 +54,14 @@ WHERE
 And this is the resulting table:
 
 | id  | name | branch  | branch_id |
-|-----|------|---------|-----------|
+| --- | ---- | ------- | --------- |
 | 1   | Jim  | Boulder | 17        |
 | 2   | Pam  | Boulder | 17        |
 | 3   | Ryan | Boulder | 17        |
 | ... | ...  | ...     | ...       |
 
 > 💬 Can you think of any other ways in which you can update the table? Leave a comment below or check others for inspiration.
+
 
 ---
 
@@ -78,6 +84,7 @@ Write a query that moves all the managers' `location` from `"New York"` to `"Was
 - WHERE
 - "New York"
 - "Washington DC"
+
 
 ---
 

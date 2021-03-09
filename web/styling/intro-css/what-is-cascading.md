@@ -2,14 +2,21 @@
 author: mihaiberq
 type: normal
 category: must-know
-inAlgoPool: false
 links:
   - >-
     [MDN Docs on
-    CSS](https://developer.mozilla.org/en-US/docs/Glossary/CSSs){documentation}
+    CSS](https://developer.mozilla.org/en-US/docs/Web/CSS){documentation}
   - >-
     [Scrimba CSS Documents & the
     Cascade](https://scrimba.com/p/pWvwCg/c3vE7cg){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # What Is Cascading?

@@ -9,6 +9,14 @@ links:
     [Moving to TypeScript
     files](https://www.typescriptlang.org/docs/handbook/migrating-from-javascript.html#moving-to-typescript-files){documentation}
   - '[Download Node.js](https://nodejs.org/en/download/){website}'
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Get Started with TypeScript

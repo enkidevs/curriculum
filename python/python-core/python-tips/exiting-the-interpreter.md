@@ -1,17 +1,19 @@
 ---
 author: Ricardo
-
 type: normal
-
 category: tip
-
 tags:
   - interpreter
-
 links:
-  - >-
-    [Interpreter](https://docs.python.org/3/tutorial/interpreter.html){website}
-
+  - '[Interpreter](https://docs.python.org/3/tutorial/interpreter.html){website}'
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Exiting the Interpreter

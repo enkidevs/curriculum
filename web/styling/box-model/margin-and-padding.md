@@ -2,7 +2,6 @@
 author: mihaiberq
 type: normal
 category: must-know
-inAlgoPool: false
 links:
   - '[Scrimba CSS Margins](https://scrimba.com/p/pWvwCg/cpKPmh9){tutorial}'
   - >-
@@ -12,6 +11,14 @@ links:
     [MDN Docs on
     Padding](https://developer.mozilla.org/en-US/docs/Web/CSS/padding){documentation}
   - '[Scrimba CSS Padding](https://scrimba.com/p/pWvwCg/czM84uZ){tutorial}'
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Margin and Padding

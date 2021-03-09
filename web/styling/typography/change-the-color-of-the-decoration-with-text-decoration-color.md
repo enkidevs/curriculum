@@ -9,6 +9,10 @@ links:
   - >-
     [More Control Over Text
     Decoration](https://css-tricks.com/more-control-over-text-decoration/){website}
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Change the color of the decoration with `text-decoration-color`

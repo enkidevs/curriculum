@@ -2,6 +2,10 @@
 author: kapnobatai136
 category: feature
 type: normal
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Email & SMS
@@ -40,4 +44,3 @@ With the Email built-in app, you send emails from which address?
 - @gmail.com
 - @google.com
 - @yahoo.com
- 

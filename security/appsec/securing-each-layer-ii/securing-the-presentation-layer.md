@@ -2,11 +2,18 @@
 author: milesflo
 type: normal
 category: must-know
-inAlgoPool: false
 links:
   - >-
     [SANS
     Institute](https://www.sans.org/reading-room/whitepapers/protocols/applying-osi-layer-network-model-information-security-1309){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Securing the Presentation Layer
@@ -76,4 +83,3 @@ What is one control in the Presentation Layer of the OSI Model?
 - Using a strong, unique password
 - Strict use of ports as they are designed
 - Use of a physical firewall
- 

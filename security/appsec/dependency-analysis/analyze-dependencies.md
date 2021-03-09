@@ -1,20 +1,24 @@
 ---
 author: lizTheDeveloper
-
 type: normal
-
 category: best-practice
-
 links:
   - >-
     [Python package
     analyzer](https://pip.pypa.io/en/stable/reference/pip_freeze/){website}
-  - >-
-    [Common Vulnerabilities and Exposures](https://cve.mitre.org/){website}
-
+  - '[Common Vulnerabilities and Exposures](https://cve.mitre.org/){website}'
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Analyze Dependencies
+
 
 ---
 
@@ -29,6 +33,7 @@ In JavaScript, a dependency file means a `package.json` file. In ruby, this is y
 **All applications should have a machine readable file describing the libraries and other assets**. You can search "languageName dependency file" to find which package manager a language uses, and what it's dependency file looks like.
 
 This file can be scanned with a tool. The search phrase is "languageName vulnerability scanning tool".
+
 
 ---
 
@@ -59,4 +64,3 @@ A dependency file allows you to ??? for ??? because you know all of the dependen
 - mark
 - removal
 - CVE
- 

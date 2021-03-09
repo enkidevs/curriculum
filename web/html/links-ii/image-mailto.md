@@ -8,9 +8,18 @@ links:
   - >-
     [HTML <a>
     Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Mailto:
+
 
 ---
 
@@ -40,7 +49,6 @@ Header fields are added by writing their name followed by an equal sign and the 
 The order of the attributes does not matter. However, when using more than one attribute it is important to separate each of them with a `&` (and) sign.
 
 The main e-mail is always separated with a `?` from the other field values.
-
 
 To add `cc` to your e-mail:
 
@@ -88,6 +96,7 @@ Here is an example with all attributes added on the same link:
 ```
 
 [View CodePen](https://codepen.io/enkidevs/pen/OwpKGj)
+
 
 ---
 
@@ -152,7 +161,9 @@ Email Me
 - address:
 - email:
 
+
 ---
+
 ## Footnotes
 
 [1:URL Syntactic Rules]
