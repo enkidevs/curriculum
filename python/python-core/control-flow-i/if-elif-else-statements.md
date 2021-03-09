@@ -14,8 +14,7 @@ revisionQuestion:
   context: relative
 ---
 
-# `if...elif...else` statements
-
+# `if...elif...else` 
 
 ---
 
@@ -78,7 +77,6 @@ if days_coding == 7:
 - `=`
 - `if`
 - `<`
-- `>=`
 
 
 ---

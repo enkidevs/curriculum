@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## March 9th 2021
+
+### Fixed
+- [Python - If, elif, else - fix practice question and shorten headline](https://github.com/enkidevs/curriculum/pull/2635)
+
 ## March 8th 2021
 
 ### Added
