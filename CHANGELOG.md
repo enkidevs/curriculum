@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## March 10th 2021
+
+### Fixed
+- [Python Data Analysis - Modifying a pie chart II - Fix wording in content and broken question](https://github.com/enkidevs/curriculum/pull/2639)
+
 ## March 9th 2021
 
 ### Fixed
