@@ -14,9 +14,9 @@ category: must-know
 
 When it comes to coding in Python, there are several environments you can choose from.
 
-These environments are shells, [IDE's](https://www.enki.com/glossary/general/ide), and other programs that let you write, test, and run Python code.
+These environments are shells[1], [IDE's](https://www.enki.com/glossary/general/ide), and other programs that let you write, test, and run Python code.
 
-The most basic environment you can write Python in is your OS's terminal[1]. 
+The most basic environment you can write Python in is your OS's terminal[2]. 
 
 To try it out, open your terminal, type in the word `python` and press Enter.
 
@@ -41,6 +41,10 @@ In this course, we will be using the Jupyter Lab environment.
 
 ---
 ## Footnotes
+
+[1: Shell]
+
+Shells are command-line tools used to execute code.
 
 [1: Terminal Gif]
 
