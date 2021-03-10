@@ -33,7 +33,7 @@ You and anyone you've shared your notebook with can also comment on any portion 
 
 They also work like *extended versions* of scripts.
 
-Each piece of code can be run and tested independently from other code. However, you can also run all of the code at once.
+Each piece of code can be run and tested independently from other code. Y can also run all of the code at once.
 
 > ❗ When running code out-of-order, while possible, it may have unintended effects[1] as notebooks run cumulatively.
 
