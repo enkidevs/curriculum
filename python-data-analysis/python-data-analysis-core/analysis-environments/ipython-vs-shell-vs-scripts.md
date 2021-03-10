@@ -16,27 +16,68 @@ revisionQuestion:
 
 ---
 
-# IPython vs Python Shell vs Python Scripts
+# IPython (and Scripts)
 
 ---
 ## Content
 
-### IPython vs Basic intepreter
+### IPython
 
 The Python language comes with a basic interpreter and a [REPL](https://www.enki.com/glossary/general/repl) that lets us write and run Python programs.
 
-iPython is an enhanced version of that with extra features that make the experience of running Python code more user-friendly.
-
-iPython features:
+iPython is an enhanced version of that with user-friendly features such as:
 - Auto-completion
 - Support for Data Visualization
 - Multi-line editing
 - Syntax highlighting
 - and more
 
-> 💡 You can also re-run any part of code you've already run with or without modification to the code.
+The IPython shell is usually the recommended shell as it runs your Python code just like the normal Python shell does while also providing a richer set of features on top[1].
 
-> ❗ The multi-line editing feature is not available within the iPython terminal. It is, however, available in any notebook that has iPython.
+The IPython interpreter, as well as the basic Python interpreter, are both interactive shells that are accessed through the terminal via the `python`/`ipython` commands.
+
+If we save code into a file, we call that file a *script*.
+
+If we give the name of our file to the Python shell, we can have it execute the code for us.
+
+```sh
+# scripts with python code
+# are usually saved with
+# the .py extension
+python my_script.py
+```
+
+> 💡 Scripts are executed in the same way as regular, command-line code.
+
+
+---
+## Practice
+
+??? are command-line tools used to execute code.
+
+??? are pieces of code saved into files.
+
+??? are sessions on the computer used to communicate code to shells.
+
+- Shells
+- Scripts
+- Terminals
+
+---
+## Revision
+
+When you put save code in a file, what do you typically call that file?
+
+???.
+
+- a script
+- a terminal
+- text
+- an interpreter
+
+---
+## Footnotes
+[1: Multi Line Execution]
 
 Here is the same code run on the basic interpreter vs IPython:
 
@@ -48,48 +89,17 @@ IPython:
 
 ![ipython-example](https://img.enkipro.com/02420b736677cad5a5d5d8bcaac54bf4.png)
 
-In the iPython example, all of the code was run on `Line [1]`. On the other hand, in the regular interpreter, we had to run five lines of code to achieve the same thing. (Not counting the two empty lines)
-
-In any terminal, pressing the ⬆️ key would give us our last executed instruction.
-
-If we press ⬆️ in iPython, it would give us the whole code as a single line. Whereas on the basic interpreter, we would have to execute the five lines one by one.
-
-### Shell vs Terminal vs Scripts
-
-Shells are command-line tools used to execute code.
-
-Terminals are interface sessions on the computer that we use to communicate with shells. We send input (commands) into and receive output (results) out of the shell via a terminal.
-
-The IPython interpreter, as well as the basic Python interpreter, are actually interactive shells that are accessed through the terminal via the `python`/`ipython` commands.
-
-Scripts are files with runnable code that you can use for easier execution, automation, and more. 
-
-So basically, we type code in a terminal that then sends that code to the command-line tool(shell) which then translates and executes that code for us.
-
-> 💡 Scripts are executed in the same way as regular, command-line code.
+> 💡 In iPython, you can re-run any part of code you've already run with or without modification to the code.
 
 
----
-## Practice
+iPython lets us store multi-line code blocks behind special `Line [N]` variable names. If you look at the iPython example above, all of the code was run on `Line [1]`. This lets us split code into sections and re-run or re-use any section at any time.
 
-??? are command-line tools used to execute code.
+On the other hand, in the regular interpreter, we had to write all lines of code one by one.
 
-??? are pieces of runnable code used for automation, easier execution, and more.
+In any terminal, pressing the ⬆️ key would give us our last executed line.
 
-??? are sessions on the computer used to communicate code to shells.
+If we press ⬆️ in iPython, it would give us last executed `Line`.
 
-- Shells
-- Scripts
-- Terminals
+> ❗ The multi-line editing feature is not available within the iPython terminal and only available in notebooks (more on this to come later)
 
----
-## Revision
-
-When you put some runnable code in a file for easier execution, what do you call that file?
-
-A ???.
-
-- script
-- terminal
-- text
-- interpreter
+You can think of notebooks as interactive Python environments that can combine code execution, rich text, charts, and rich media. 
