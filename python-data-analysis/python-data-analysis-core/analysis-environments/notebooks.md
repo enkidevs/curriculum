@@ -21,7 +21,7 @@ revisionQuestion:
 ---
 ## Content
 
-Notebooks are interactive documents that let you combine code with other visual elements such as text, charts, and images.
+Notebooks are interactive documents[1] that let you combine code with other visual elements such as text, charts, and images.
 
 As long as you have a link to a notebook you can share it with your team or modify it from any computer.
 
