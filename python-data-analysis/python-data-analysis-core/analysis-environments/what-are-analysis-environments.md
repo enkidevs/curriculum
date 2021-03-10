@@ -14,17 +14,19 @@ category: must-know
 
 When it comes to coding in Python, there are several environments you can choose from.
 
-These environments are shells, [IDE's](https://www.enki.com/glossary/general/ide), and other ways where you can test, run, modify, execute, and so on, a programming language's code.
+These environments are shells, [IDE's](https://www.enki.com/glossary/general/ide), and other programs that let you write, test, and run Python code.
 
-For instance, the most basic environment you can write Python in is your OS's terminal[1]. 
+The most basic environment you can write Python in is your OS's terminal[1]. 
 
-To open the Python environment in your terminal (known as *initializing the [interpreter](https://www.enki.com/glossary/general/interpreter)*), type in the word `python` and press Enter.
+To try it out, open your terminal, type in the word `python` and press Enter.
+
+A python environment that understands Python called is usually called *the [interpreter](https://www.enki.com/glossary/general/interpreter)*.
 
 > 💡 Different versions of Python will have different keywords to launch the interpreter. The most common ones are `py` and `python`.
 
-Even though most operating systems come with a pre-installed version of the Python interpreter it is not the recommended tool for codinng as it lacks many features.
+Even though most operating systems come with a pre-installed version of the Python interpreter it is not the recommended tool for coding as it lacks many user-friendly features.
 
-There are far superior environments with better interpreters for coding in Python, such as
+There are superior programs with better interpreters, such as:
 - Jupyter Lab
 - IDLE
 - nteract
