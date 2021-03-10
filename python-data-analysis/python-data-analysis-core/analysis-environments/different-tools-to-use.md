@@ -29,7 +29,7 @@ The main difference is that online tools are immediately available (assuming you
 
 Offline tools need to be installed first, including any library you might need, but can afterwards be used without internet.
 
-> 💡 A popular kind of Python coding tool (available both offline and online) is called a *notebook*[1].
+> 💡 A popular kind of Python coding tool (available both offline and online) is called a *notebook*.
 
 Notebooks offer interactive Python environments that can combine code with other visual elements such as text, charts, and images.
 
