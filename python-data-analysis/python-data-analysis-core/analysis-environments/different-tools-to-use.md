@@ -16,7 +16,7 @@ links:
 
 ---
 
-# Different Tools for Coding in Python
+# Coding Tools
 
 ---
 ## Content
