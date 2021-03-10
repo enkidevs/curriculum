@@ -16,7 +16,7 @@ links:
 ---
 ## Content
 
-Open your terminal and type `jupyter-lab` if yo installed the application locally or go to [their website](https://jupyter.org/try) to open the online version.
+Open your terminal and type `jupyter-lab` if you installed the application locally or go to [their website](https://jupyter.org/try) to open the online version.
 
 Next, to create a new notebook go to `File - > New -> Notebook`.
 
@@ -28,7 +28,7 @@ At the top, you can choose what kind of cell this will be. There are two types; 
 
 `Text/Markdown` is used for adding text as well as elements like headers, paragraphs, and others.
 
-![preview](https://img.enkipro.com/a743a2d759e62869f69789dc28eb9e70.png)
+![preview](https://img.enkipro.com/2b3ab5584c545906ee8ccbf7119ea3e9.png)
 
 The first two cells are `Text/Markdown` cells. The first one contains markdown and the second one contains that same markdown but *executed* to show the resulting text.
 
@@ -38,7 +38,7 @@ The third cell is a `Code` cell. The `[1]:` to the left of it means that it was 
 
 The final two cells both have a `[2]:` before them. 
 
-The first `[2]` is shown because that was the second `Code` line that was executed. The next `[2]` is shown because it matches the output of the previous cell. We returned the variable `x` and its resulting output is `"Hello World"`.
+The first `[2]` is shown because that was the second `Code` line that was executed. The next `[2]` is shown because it matches the output of the previous cell. We returned the variable `x` and its resulting output is `"I am a String"`.
 
 Any `Code` cell that returns something will have a matching cell after it with the same number.
 
