@@ -32,9 +32,13 @@ At the top, you can choose what kind of cell this will be. There are two types; 
 
 The first two cells are exactly the same. The first one was executed while the 2nd was not. They are `Text/Markdown` cells.
 
-The third cell is the first `Code` cell. The `[1]:` to the left of it means that this was the first `Code` cell that was executed.
+The third cell is a `Code` cell. The `[1]:` to the left of it means that this was the first `Code` cell that was executed. This cell prints `Hello World` to the console, which is shown underneath it.
 
-If you run the same cell again or run a different cell, the number will increase. For example, notice that other cells say `[2]:`.
+The final two cells both have a `[2]:` before them. 
+
+The first `[2]` is shown because that was the second `Code` line that was executed. The next `[2]` is shown because it matches the output of the previous cell. We returned the variable `x` and it resulting output is `"Hello World"`.
+
+> 💡 The cell numbers don't have to be in order! If you run the same cell again or run a different cell, the number will increase.
 
 The `Hello World` and `'Hello World'` are outputs from the two code cells.
 
