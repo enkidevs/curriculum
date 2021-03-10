@@ -52,6 +52,10 @@ Types of change:
 
 ### Fixed
 - [Data Analysis - Basic Terminology II - Add missing footnote information](https://github.com/enkidevs/curriculum/pull/2638)
+- [Python Data Analysis - Modifying a pie chart II - Fix wording in content and broken question](https://github.com/enkidevs/curriculum/pull/2639)
+
+### Changed
+- [Python Data Analysis - Why Python For Data Analysis - Remove unnecessary sentence](https://github.com/enkidevs/curriculum/pull/2636)
 
 ## March 9th 2021
 
