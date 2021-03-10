@@ -51,7 +51,7 @@ The output looks like this:
 
 `explode` has the same number of parameters as there are slices of the chart. 
 
-If our chart had 4 portions, and we wanted to only separate the 3rd portion, we would write:
+If our chart had 4 slices, and we wanted to only separate the 3rd one, we would write:
 ```python
 explode =(0,0,0.1,0)
 ```
@@ -78,7 +78,7 @@ data = [100, 150, 200]
 labels = 'Milk','Coffee','Tea'
 
 plt.pie(
-    data,
+    ???,
     ???=labels
     ???=???,
     autopct="%.f",
