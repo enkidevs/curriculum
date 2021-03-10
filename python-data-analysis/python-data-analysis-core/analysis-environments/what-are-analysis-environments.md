@@ -48,4 +48,8 @@ Shells are command-line tools used to execute code.
 
 [1: Terminal Gif]
 
+Terminals are programs on the computer that let us communicate with shells. We send input (commands) into and receive output (results) out of the shell via a terminal.
+
+Here's how we can run the `python` shell:
+
 ![terminal-gif](https://img.enkipro.com/0bf78b2222dca114a879cc242715adc3.gif)
