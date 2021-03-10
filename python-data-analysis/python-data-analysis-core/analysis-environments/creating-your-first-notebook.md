@@ -16,7 +16,7 @@ links:
 ---
 ## Content
 
-Open your terminal and type `jupyter-lab` to open the application locally or go to their website to open the online version.
+Open your terminal and type `jupyter-lab` to open the application locally or go to [their website]() to open the online version.
 
 Next, to create a new notebook go to `File - > New -> Notebook`.
 
