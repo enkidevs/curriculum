@@ -16,7 +16,7 @@ revisionQuestion:
 
 ---
 
-# IPython vs Python Shell vs Python Scripts
+# IPython vs Shell vs Script
 
 ---
 ## Content
