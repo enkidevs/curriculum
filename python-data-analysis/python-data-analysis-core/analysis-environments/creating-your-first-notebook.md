@@ -16,7 +16,7 @@ links:
 ---
 ## Content
 
-Open your terminal and type `jupyter-lab` to open the application locally or go to [their website]() to open the online version.
+Open your terminal and type `jupyter-lab` if yo installed the application locally or go to [their website](https://jupyter.org/try) to open the online version.
 
 Next, to create a new notebook go to `File - > New -> Notebook`.
 
@@ -32,14 +32,14 @@ At the top, you can choose what kind of cell this will be. There are two types; 
 
 The first two cells are exactly the same. The first one was executed while the 2nd was not. They are `Text/Markdown` cells.
 
-The third cell is the first `Code` cell. It was also the first cell of that type that was executed. Shown by `[1]:`.
+The third cell is the first `Code` cell. The `[1]:` to the left of it means that this was the first `Code` cell that was executed.
 
-If you run the same cell again or a different cell, the number will increase. Shown in the second cell;`[2]:`.
+If you run the same cell again or run a different cell, the number will increase. For example, notice that other cells say `[2]:`.
 
-The `Hello World` and `'Hello World'` Are outputs from the two code cells.
+The `Hello World` and `'Hello World'` are outputs from the two code cells.
 
 > 💡 To learn more about markdown, check the *Learn More* section.
 
 Next, save the notebook.
 
-> We will be using the same notebook in the next few workouts to import and analyze a dataset.
+> ℹ️ We will be using the same notebook in the next few workouts to import and analyze a dataset.
