@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## March 10th 2021
+
+### Changed
+- [Python Data Analysis - Why Python For Data Analysis - Remove unnecessary sentence](https://github.com/enkidevs/curriculum/pull/2636)
+
 ## March 9th 2021
 
 ### Fixed
