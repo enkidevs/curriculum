@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## March 10th 2021
+
+### Fixed
+- [Data Analysis - Basic Terminology II - Add missing footnote information](https://github.com/enkidevs/curriculum/pull/2638)
+
 ## March 9th 2021
 
 ### Fixed
