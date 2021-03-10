@@ -41,6 +41,9 @@ If we save code into a file, we call that file a *script*.
 If we give the name of our file to the Python shell, we can have it execute the code for us.
 
 ```sh
+# scripts with python code
+# are usually saved with
+# the .py extension
 python my_script.py
 ```
 
