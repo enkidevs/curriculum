@@ -56,6 +56,8 @@ Types of change:
 
 ### Changed
 - [Python Data Analysis - Why Python For Data Analysis - Remove unnecessary sentence](https://github.com/enkidevs/curriculum/pull/2636)
+- [Python Data Analysis - ipython vs shells vs scripts - Replace wordy sentences](https://github.com/enkidevs/curriculum/pull/2641)
+- [Python Data Analysis - What Are Analysis Environments - Remove wordy sentences](https://github.com/enkidevs/curriculum/pull/2640)
 
 ## March 9th 2021
 
