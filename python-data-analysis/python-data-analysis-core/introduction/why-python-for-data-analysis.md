@@ -24,8 +24,6 @@ These tools usually come from an ever-expanding collection of libraries, man
 
 New libraries or updates to existing libraries arrive often. 
 
-These libraries are the main reasons Python is great for Data Analysis.
-
 Many of these libraries are created for specific tasks like analysis, visualization, array manipulation, and more.
 
 > 💡 We will dive into the different libraries Python has to offer in the next few workouts.
