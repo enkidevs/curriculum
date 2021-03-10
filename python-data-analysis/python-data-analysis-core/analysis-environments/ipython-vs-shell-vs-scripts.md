@@ -16,7 +16,7 @@ revisionQuestion:
 
 ---
 
-# IPython vs Shell vs Script
+# IPython (and Scripts)
 
 ---
 ## Content
@@ -32,19 +32,17 @@ iPython is an enhanced version of that with user-friendly features such as:
 - Syntax highlighting
 - and more
 
-The IPython shell is thus usually the recommended shell as it runs your Python code just like the normal Python shell does while also providing a richer set of features on top[1].
+The IPython shell is usually the recommended shell as it runs your Python code just like the normal Python shell does while also providing a richer set of features on top[1].
 
-### Shell vs Terminal vs Scripts
+The IPython interpreter, as well as the basic Python interpreter, are both interactive shells that are accessed through the terminal via the `python`/`ipython` commands.
 
-Shells are command-line tools used to execute code.
+If we save code into a file, we call that file a *script*.
 
-Terminals are interface sessions on the computer that we use to communicate with shells. We send input (commands) into and receive output (results) out of the shell via a terminal.
+If we give the name of our file to the Python shell, we can have it execute the code for us.
 
-The IPython interpreter, as well as the basic Python interpreter, are actually interactive shells that are accessed through the terminal via the `python`/`ipython` commands.
-
-Scripts are files with runnable code that you can use for easier execution, automation, and more. 
-
-So basically, we type code in a terminal that then sends that code to the command-line tool(shell) which then translates and executes that code for us.
+```sh
+python my_script.py
+```
 
 > 💡 Scripts are executed in the same way as regular, command-line code.
 
@@ -54,7 +52,7 @@ So basically, we type code in a terminal that then sends that code to the comman
 
 ??? are command-line tools used to execute code.
 
-??? are pieces of runnable code used for automation, easier execution, and more.
+??? are pieces of code saved into files.
 
 ??? are sessions on the computer used to communicate code to shells.
 
@@ -65,14 +63,14 @@ So basically, we type code in a terminal that then sends that code to the comman
 ---
 ## Revision
 
-When you put some runnable code in a file for easier execution, what do you call that file?
+When you put save code in a file, what do you typically call that file?
 
-A ???.
+???.
 
-- script
-- terminal
+- a script
+- a terminal
 - text
-- interpreter
+- an interpreter
 
 ---
 ## Footnotes
