@@ -16,84 +16,88 @@ links:
 
 ---
 
-# Coding Tools
+# Python Coding Tools
 
 ---
 ## Content
 
-Before we start coding, we have to decide which tool we are going to use.
+Before we start coding, we have to decide which tool we're going to use.
 
-> 💡 We mentioned in the first insight that we will be using Jupyter Lab in this course. However, there are other alternatives.
+One important category split between most tools is whether they're accessible offline or online.
 
-First off, the main difference between an offline versus an online tool is that online tools do not require installation and usually already have all the necessary libraries readily available.
+The main difference is that online tools are immediately available (assuming you have an internet connection) and usually come with all the necessary libraries[1] included (no need to install anything).
 
-Offline tools, on the other hand, need to be installed first. Also, any library you might want to use has to be installed as well.
+Offline tools need to be installed first, including any library you might need, but can afterwards be used without internet.
 
-> 💡 All offline and online *notebook* tools are based on Jupyter notebooks.
+> 💡 A popular kind of Python coding tool (available both offline and online) is called a *notebook*[1].
 
-> 💡 Jupyter Lab, is the newest version of Jupyter Notebooks.
+Notebooks offer interactive Python environments that can combine code with other visual elements such as text, charts, and images.
 
-Since we will be using Jupyter Lab in our examples, here is how you can install it through `pip`[1] or **anaconda**[2].
+One offline tool that lets you use notebooks is VScode[2]
 
-Another offline tool you can use is VScode.
-
-VScode is an advanced text editor. It has extensions you can download to edit, modify, delete, create and run notebooks.
-
-As for online tools, here are two:
+As for online tools, here're two:
 
 | Name         | Unique Feature                      |
 |--------------|-------------------------------------|
 | Google Colab | Real-time collaboration             |
 | Cocalc       | Collaboration based on edit history |
 
-These two are only some of the tools you can use to create, run, modify a jupyter notebook.
-
 For some in-depth information on these tools and more, check out the **Learn More** section.
 
-> 💡 All of the mentioned tools are based on or have support for Jupyter notebooks. Meaning you can work with any of the mentioned tools and transfer your work between them. 
+> ℹ️ We mentioned in the first insight that we'll be using Jupyter Lab in this course. All of our examples will be available online. If you prefer to run Jupyter Lab offline, here's how you can install it using `pip`[3] or **anaconda**[4].
 
-It is up to you to decide which tool you want to use.
+> 💡 All of the tools mentioned above have support for Jupyter notebooks. This means you can transfer your work between them. 
 
 ---
 
 ## Footnotes
-[1:pip]
+[1: Libraries]
+Think of libraries as external programs you can use to quickly get some functionality you don't want to write by yourself.
+
+For example, if you wanted to draw plots and charts, you'd typically use an existing charting library instead of writting all the code for graphical and spatial calculations yourself.
+
+Most online Python environments come with popular libraries pre-installed.
+
+[2: VSCode]
+VScode is an advanced text editor with extensions that let you edit, modify, delete, create and run notebooks.
+
+[3:pip]
 pip is a package manager for Python.
 
 > 💡 When installing through `pip` you first have to make sure `pip` is upgraded to the latest version.
 
 To upgrade:
 ```python
+# use pip to upgrade itself :)
 pip install --upgrade pip
 ```
 
 If you don't have pip, download the latest python installer from the [official website](https://www.python.org/downloads/) and make sure the checkbox for `pip` is ticked on.
 
-> 💡 Along with Jupyter we will also install iPython.
+> 💡 Along with Jupyter we'll also install iPython.
 
-Then you can install it with this command:
 ```python
 pip install --upgrade jupyter ipython
 ```
 
-To run Jupyter type this in your terminal:
+To run Jupyter, type this in your terminal:
 ```sh
 jupyter-lab
 ```
 
-[2:Anaconda]
+[4:Anaconda]
 Anaconda is a package and environment manager for Python and R. It provides a graphical user interface and a terminal.
 
 To download Anaconda visit [their official website](https://www.anaconda.com/products/individual) link.
 
-> 💡 Along with Jupyter we will also install iPython.
+> 💡 Along with Jupyter we'll also install iPython.
 
 Installing through Anaconda:
 ```sh
 conda install jupyter ipython
 ```
 
-To run Jupyter type this in your terminal:
+To run Jupyter, type this in your terminal:
 ```sh
 jupyter-lab
 ```
