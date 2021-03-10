@@ -21,35 +21,25 @@ revisionQuestion:
 ---
 ## Content
 
-Notebooks are documents that contain both programming code and elements like paragraphs, figures, links.
+Notebooks are interactive documents that let you combine code with other visual elements such as text, charts, and images.
 
-They can be shared with your team or anyone else to work interactively.
+As long as you have a link to a notebook you can share it with your team or modify it from any computer.
 
-Notebooks are where the analysis for this course will be done.
+You and anyone you've shared your notebook can collaborate on the notebook by writting parts of it or leave discussion comments.
 
-As long as you have a link to a notebook you can modify it from any computer.
+Notebooks let you mix code, text and images in any order you like, and each piece can be tested independently.
 
-You and anyone you've shared your notebook with can also comment on any portion of the notebook.
+> ❗ Running code out-of-order may have unintended effects[2] as notebooks run as whole, top to bottom.
 
-They also work like *extended versions* of scripts.
-
-Each piece of code can be run and tested independently from other code. Y can also run all of the code at once.
-
-> ❗ When running code out-of-order, while possible, it may have unintended effects[1] as notebooks run cumulatively.
-
-Notebooks also support images that you can interact with and more.
-
-All of the previously mentioned tools work with notebooks. Meaning, it doesn't matter which tool you choose to work on, you can still follow along.
-
-> We will show you how to create a notebook on Jupyter Lab in the next insight.
+We'll show you how to create a notebook on Jupyter Lab in the next insight.
 
 ---
 ## Practice
 
-Notebooks are documents that ??? 
+Notebooks are documents that support ??? 
 
-- support both text and code cells
-- only support code cells
+- various elements such as code, text and images, and more
+- only code and images
 
 
 ---
@@ -81,7 +71,16 @@ If you have a sharable link to an online notebook you can modify it from any com
 ---
 ## Footnotes
 
-[1:Unintended Consequences]
+[1: Notebook example]
+Here's a notebook containing a line of code, some Markdown text, and an image.
+
+![notebook-writting](https://img.enkipro.com/b0cf77ab69e42faf8e771314ea5c4a46.png)
+
+And here's how the notebook looks when we run it:
+
+![notebook-running](https://img.enkipro.com/bf0e7814a79f2764f337137772d133ae.png)
+
+[2:Unintended Consequences]
 
 Imagine you have this code:
 ```python
@@ -97,7 +96,6 @@ x = x + 1
 # Line 57
 x = "someting else"
 ```
-
 
 If you run the lines in order up to line 57, everything will work as intended. However, if after line 57 you run line 2 without running line 1 first, you will get an error.
 
