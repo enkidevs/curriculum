@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## March 11th 2021
+
+### Changed
+- [Python Data Analysis - Notebooks - Change wording](https://github.com/enkidevs/curriculum/pull/2643)
+
 ## March 10th 2021
 
 ### Fixed
