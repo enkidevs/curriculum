@@ -52,6 +52,7 @@ Types of change:
 
 ### Changed
 - [Python Data Analysis - Notebooks - Change wording](https://github.com/enkidevs/curriculum/pull/2643)
+- [Python Data Analysis - Creating Your First Notebook - Change wording of sentences](https://github.com/enkidevs/curriculum/pull/2644)
 
 ## March 10th 2021
 
@@ -61,6 +62,9 @@ Types of change:
 
 ### Changed
 - [Python Data Analysis - Why Python For Data Analysis - Remove unnecessary sentence](https://github.com/enkidevs/curriculum/pull/2636)
+- [Python Data Analysis - ipython vs shells vs scripts - Replace wordy sentences](https://github.com/enkidevs/curriculum/pull/2641)
+- [Python Data Analysis - What Are Analysis Environments - Remove wordy sentences](https://github.com/enkidevs/curriculum/pull/2640)
+- [Python Data Analysis - Different Tools to Use - Update wordy sentences](https://github.com/enkidevs/curriculum/pull/2642)
 
 ## March 9th 2021
 
