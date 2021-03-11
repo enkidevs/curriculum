@@ -51,6 +51,7 @@ Types of change:
 ## March 11th 2021
 
 ### Changed
+- [Python Data Analysis - Notebooks - Change wording](https://github.com/enkidevs/curriculum/pull/2643)
 - [Python Data Analysis - Creating Your First Notebook - Change wording of sentences](https://github.com/enkidevs/curriculum/pull/2644)
 
 ## March 10th 2021
