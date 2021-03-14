@@ -25,7 +25,7 @@ Notebooks are interactive documents[1] that let you combine code with other visu
 
 As long as you have a link to a notebook you can share it with your team or modify it from any computer.
 
-You and anyone you've shared your notebook can collaborate on the notebook by writting parts of it or leave discussion comments.
+You and anyone you've shared your notebook with can collaborate on the notebook by writting parts of it or leave discussion comments.
 
 Notebooks let you mix code, text and images in any order you like, and each piece can be tested independently.
 
