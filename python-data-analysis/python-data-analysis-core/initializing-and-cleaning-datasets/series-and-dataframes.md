@@ -17,7 +17,7 @@ revisionQuestion:
 
 ---
 
-# Series & DataFrames?
+# Series & DataFrames
 
 ---
 ## Content
