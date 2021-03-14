@@ -44,9 +44,9 @@ As for online tools, here're two:
 
 For some in-depth information on these tools and more, check out the **Learn More** section.
 
-> ℹ️ We mentioned in the first insight that we'll be using Jupyter Lab in this course. All of our examples will be available online. If you prefer to run Jupyter Lab offline, here's how you can install it using `pip`[3] or **anaconda**[4].
+> 💡 We mentioned in the first insight that we'll be using Jupyter Lab in this course. All of our examples will be available online. If you prefer to run Jupyter Lab offline, here's how you can install it using `pip`[3] or **anaconda**[4].
 
-> ℹ️ All of the tools mentioned above have support for Jupyter notebooks. It doesn't matter which tool you choose to work on, you can still follow along.
+> 💡 All of the tools mentioned above have support for Jupyter notebooks. It doesn't matter which tool you choose to work on, you can still follow along.
 
 ---
 
