@@ -52,6 +52,7 @@ Types of change:
 
 ### Fixed
 - [Python Data Analysis - Prerequisites - Fix headline typo](https://github.com/enkidevs/curriculum/pull/2645)
+- [Python Data Analysis - Different Tools to Use - Replace info emoji with the lamp one](https://github.com/enkidevs/curriculum/pull/2646)
 
 ## March 11th 2021
 
