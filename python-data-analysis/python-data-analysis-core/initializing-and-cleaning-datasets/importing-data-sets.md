@@ -39,7 +39,7 @@ On the other hand, if we are importing from a local source, we first have to mak
 
 Now we can import it into our project.
 
-> Add this code to the same notebook we created in the previous workout.
+> 💡 Add this code to the same notebook we created in the previous workout.
 
 ```py
 import pandas as pd
