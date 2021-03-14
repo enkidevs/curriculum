@@ -7,7 +7,7 @@ category: must-know
 
 ---
 
-# Prereqisites
+# Prerequisites
 
 ---
 ## Content

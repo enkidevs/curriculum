@@ -46,4 +46,4 @@ Any `Code` cell that returns something will have a matching cell after it with t
 
 Once you're done playing with the example, save the notebook.
 
-> ℹ️ We will be using the same notebook in the next few workouts to import and analyze a dataset.
+> 💡 We will be using the same notebook in the next few workouts to import and analyze a dataset.

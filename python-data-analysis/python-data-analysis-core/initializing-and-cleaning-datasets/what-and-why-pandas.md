@@ -16,7 +16,7 @@ revisionQuestion:
 
 ---
 
-# What is pandas and why?
+# What is pandas and why use it?
 
 ---
 ## Content
@@ -27,7 +27,7 @@ It offers an efficient `DataFrame` object used for data manipulation.
 
 With `DataFrame`s you can import, transform, manipulate, clean, and analyze datasets.
 
-Think of an empty `DataFrame` as an empty library with empty shelves. When we import a dataset into the `DataFrame` we fill up the shelves with books(data).
+Think of an `DataFrame` as a library with empty shelves. When we import a dataset into the `DataFrame` we fill up the shelves with books(data).
 
 After we fill up our library, we can clean it up and analyze it. 
 

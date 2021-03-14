@@ -48,6 +48,16 @@ Types of change:
 
 ### Fixed
 
+## March 14th 2021
+
+### Fixed
+- [Python Data Analysis - Prerequisites - Fix headline typo](https://github.com/enkidevs/curriculum/pull/2645)
+- [Python Data Analysis - Different Tools to Use - Replace info emoji with the lamp one](https://github.com/enkidevs/curriculum/pull/2646)
+- [Python Data Analysis - Notebooks - Add missing 'with' in a sentence](https://github.com/enkidevs/curriculum/pull/2647)
+- [Python Data Analysis - Creating Your First notebook - Replace info emoji with the lamp one](https://github.com/enkidevs/curriculum/pull/2648)
+- [Python Data Analysis - What is Pandas and Why - Update headline and fix wording of sentences](https://github.com/enkidevs/curriculum/pull/2649)
+- [Python Data Analysis - Series and DataFrames - Add question mark at the end of the headline](https://github.com/enkidevs/curriculum/pull/2650)
+
 ## March 11th 2021
 
 ### Changed
