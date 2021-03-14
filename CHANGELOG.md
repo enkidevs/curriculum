@@ -56,6 +56,7 @@ Types of change:
 - [Python Data Analysis - Notebooks - Add missing 'with' in a sentence](https://github.com/enkidevs/curriculum/pull/2647)
 - [Python Data Analysis - Creating Your First notebook - Replace info emoji with the lamp one](https://github.com/enkidevs/curriculum/pull/2648)
 - [Python Data Analysis - What is Pandas and Why - Update headline and fix wording of sentences](https://github.com/enkidevs/curriculum/pull/2649)
+- [Python Data Analysis - Series and DataFrames - Add question mark at the end of the headline](https://github.com/enkidevs/curriculum/pull/2650)
 
 ## March 11th 2021
 
