@@ -12,3 +12,4 @@ insights:
 aspects:
   - new
   - obscura
+  - workout
