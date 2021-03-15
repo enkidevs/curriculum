@@ -1,6 +1,6 @@
 name: Multi-Course Topic
 
-color: ff00e1
+color: ffa6f4
 
 core: true
 
