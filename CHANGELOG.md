@@ -48,6 +48,45 @@ Types of change:
 
 ### Fixed
 
+## March 15th 2021
+
+### Fixed
+- [Java - Packages - Replace broken oracle link](https://github.com/enkidevs/curriculum/pull/2652)
+
+## March 14th 2021
+
+### Fixed
+- [Python Data Analysis - Prerequisites - Fix headline typo](https://github.com/enkidevs/curriculum/pull/2645)
+- [Python Data Analysis - Different Tools to Use - Replace info emoji with the lamp one](https://github.com/enkidevs/curriculum/pull/2646)
+- [Python Data Analysis - Notebooks - Add missing 'with' in a sentence](https://github.com/enkidevs/curriculum/pull/2647)
+- [Python Data Analysis - Creating Your First notebook - Replace info emoji with the lamp one](https://github.com/enkidevs/curriculum/pull/2648)
+- [Python Data Analysis - What is Pandas and Why - Update headline and fix wording of sentences](https://github.com/enkidevs/curriculum/pull/2649)
+- [Python Data Analysis - Series and DataFrames - Add question mark at the end of the headline](https://github.com/enkidevs/curriculum/pull/2650)
+- [Python Data Analysis - Importing Data Sets - Replace info emoji with the lamp one](https://github.com/enkidevs/curriculum/pull/2651)
+
+## March 11th 2021
+
+### Changed
+- [Python Data Analysis - Notebooks - Change wording](https://github.com/enkidevs/curriculum/pull/2643)
+- [Python Data Analysis - Creating Your First Notebook - Change wording of sentences](https://github.com/enkidevs/curriculum/pull/2644)
+
+## March 10th 2021
+
+### Fixed
+- [Data Analysis - Basic Terminology II - Add missing footnote information](https://github.com/enkidevs/curriculum/pull/2638)
+- [Python Data Analysis - Modifying a pie chart II - Fix wording in content and broken question](https://github.com/enkidevs/curriculum/pull/2639)
+
+### Changed
+- [Python Data Analysis - Why Python For Data Analysis - Remove unnecessary sentence](https://github.com/enkidevs/curriculum/pull/2636)
+- [Python Data Analysis - ipython vs shells vs scripts - Replace wordy sentences](https://github.com/enkidevs/curriculum/pull/2641)
+- [Python Data Analysis - What Are Analysis Environments - Remove wordy sentences](https://github.com/enkidevs/curriculum/pull/2640)
+- [Python Data Analysis - Different Tools to Use - Update wordy sentences](https://github.com/enkidevs/curriculum/pull/2642)
+
+## March 9th 2021
+
+### Fixed
+- [Python - If, elif, else - fix practice question and shorten headline](https://github.com/enkidevs/curriculum/pull/2635)
+
 ## March 8th 2021
 
 ### Added
