@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## March 15th 2021
+
+### Fixed
+- [Java - Packages - Replace broken oracle link](https://github.com/enkidevs/curriculum/pull/2652)
+
 ## March 14th 2021
 
 ### Fixed
