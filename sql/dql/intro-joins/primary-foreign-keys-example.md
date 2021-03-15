@@ -6,14 +6,13 @@ type: normal
 category: must-know
 
 tags: 
-	- joins
+  - joins
   - keys
   - example
 
 practiceQuestion:
   formats:
     - fill-in-the-gap
-    - type-in-the-gap
   context: standalone
 
 

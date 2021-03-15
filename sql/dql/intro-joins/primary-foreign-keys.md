@@ -7,9 +7,9 @@ category: must-know
 
 links: 
   - >-
-   [Difference between Primary and Foreign 
-   Keys]
-   (https://www.dotnettricks.com/learn/sqlserver/difference-between-primary-key-and-foreign-key){article}
+    [Difference between Primary and Foreign 
+    Keys]
+    (https://www.dotnettricks.com/learn/sqlserver/difference-between-primary-key-and-foreign-key){article}
 
 tags:
   - introduction
@@ -18,7 +18,6 @@ tags:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-    - type-in-the-gap
   context: standalone
 revisionQuestion:
   formats:
