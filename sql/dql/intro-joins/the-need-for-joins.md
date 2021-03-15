@@ -43,6 +43,7 @@ However, you can see that for every employee entry that has the same department 
 In order to avoid this, we can split this table into two *related* tables. Let's call these tables the `employees` and `departments` tables and arrange them as follows
 
 `employees`:
+
 | employee_number | employee_name   | employee_email     | department   |
 |-----------------|-----------------|--------------------|--------------|
 | 100912          | Lazar, Marian   | m.lazar@uni.edec   | physics      |
@@ -52,6 +53,7 @@ In order to avoid this, we can split this table into two *related* tables. Let's
 | 100916          | Hardy, Kira     | k.hardy@uni.edec   | anthropology |
 
 `departments`:
+
 | dept_name    | dept_head      | dept_telno |
 |--------------|----------------|------------|
 | physics      | Millward, Fred | 259(9985)  |
@@ -76,8 +78,8 @@ What is usually best practice in relational databases?
 
 ???
 
-- A
 - B 
+- A
 - C
 
 ---

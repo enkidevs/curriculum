@@ -29,6 +29,7 @@ This is to say, we'd like to combine the columns of some tables based on their r
 Say we want to fetch a list of pokemon and their types, in the `pokedex` database however, there is no single table with both the name and the type information. Instead we have the `health` and `attack` tables. In order to create a list with the desired information, we would have to **join** the tables in some way. **SQL** provides a way for us to do this, by using a joining condition between the two tables. For these two tables, the relation is in the `id` columns.
 
 `health`
+
 | id | name       | health |
 |----|------------|--------|
 | 1  | venusaur   | 53     |
@@ -38,6 +39,7 @@ Say we want to fetch a list of pokemon and their types, in the `pokedex` databas
 | 5  | magikarp   | 25     |
 
 `attack`
+
 | id | type1    | type2  | base_attack |
 |----|----------|--------|-------------|
 | 1  | grass    | poison | 25          |
