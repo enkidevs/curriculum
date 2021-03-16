@@ -101,7 +101,7 @@ Which keyword is used to terminate a loop before it's finished executing?
  
 ---
 
-### Footnotes
+## Footnotes
 [1: Loop Iteration]
 A loop iteration is another way to call a loop cycle.
 
