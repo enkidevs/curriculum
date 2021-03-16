@@ -47,7 +47,7 @@ Broken away!
 
 Python's `continue` statement is used to skip only one iteration[1] of the loop.
 
-The code execution will jump to the next loop cycle.
+The code execution will proceed to the beginning of next loop iteration.
 
 For example, here's how we can print only odd numbers by skipping every even loop iteration:
 
