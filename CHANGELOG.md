@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## Match 16th 2021
+
+### Changed
+- [Python Data Analysis - Initializing and cleaning a dataset - Shorten Readme name to preparing a dataset](https://github.com/enkidevs/curriculum/pull/2655)
+
 ## March 15th 2021
 
 ### Fixed
