@@ -19,19 +19,21 @@ revisionQuestion:
 
 ## Content
 
-Python's `break` statement is used to exit out of a loop.
+Python's `break` statement is used to exit out of a loop before the loop is finished.
 
-The code execution will continue at the first statement following the loop.
+The code execution will continue at the first statement outside of the loop.
 
 For example:
 
 ```python
 x = 5
 while (x > 0):
+    if (x == 2):
+        # exit the loop
+        # when x equals 2
+        break
     print(x)
     x = x - 1
-    if (x == 2):
-        break
 
 print("Broken away!")
 ```
@@ -45,7 +47,7 @@ This gives the following output:
 Broken away!
 ```
 
-Python's `continue` statement is used to skip only one iteration[1] of the loop.
+Python's `continue` statement is used to skip only one iteration[1] of a loop.
 
 The code execution will proceed to the beginning of next loop iteration.
 
@@ -69,7 +71,7 @@ This gives the following output:
 9
 ```
 
-> 💡 `break` and `continue` can be used in both a `for` or a `while` loop
+> 💡 `break` and `continue` can be used in either a `for` or a `while` loop
 
 
 ---
@@ -89,7 +91,7 @@ Which keyword is used to skip one loop cycle, and to resume execution at the sta
 
 ## Revision
 
-Which keyword is used to terminate the current loop?
+Which keyword is used to terminate a loop before it's finished executing?
 
 ???
 
