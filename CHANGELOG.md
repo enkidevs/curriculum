@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## March 17th 2021
+
+### Fixed
+- [Go - Assignment Operators - Fix Incorrect Statement about `-=`](https://github.com/enkidevs/curriculum/pull/2657)
+
 ## March 15th 2021
 
 ### Fixed
