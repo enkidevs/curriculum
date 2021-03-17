@@ -53,6 +53,14 @@ Types of change:
 ### Fixed
 - [Go - Assignment Operators - Fix Incorrect Statement about `-=`](https://github.com/enkidevs/curriculum/pull/2657)
 
+## Match 16th 2021
+
+### Changed
+- [Python Data Analysis - Initializing and cleaning a dataset - Shorten Readme name to preparing a dataset](https://github.com/enkidevs/curriculum/pull/2655)
+
+### Fixed
+- [Python - Playing With Time - Polish text](https://github.com/enkidevs/curriculum/pull/2656)
+
 ## March 15th 2021
 
 ### Fixed
