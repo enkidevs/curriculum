@@ -5,15 +5,16 @@ category: must-know
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
-# `break` and `continue` statements
-
+# break & continue
 
 ---
 
@@ -40,7 +41,7 @@ print("Broken away!")
 
 This gives the following output:
 
-```python
+```plain-text
 5
 4
 3
@@ -63,7 +64,7 @@ for x in range(0, 10):
 
 This gives the following output:
 
-```python
+```plain-text
 1
 3
 5
@@ -80,7 +81,9 @@ This gives the following output:
 
 Which keyword is used to skip one loop cycle, and to resume execution at the start of the next one?
 
+```python
 ???
+```
 
 - `continue`
 - `break`
@@ -93,7 +96,9 @@ Which keyword is used to skip one loop cycle, and to resume execution at the sta
 
 Which keyword is used to terminate a loop before it's finished executing?
 
+```python
 ???
+```
 
 - `break`
 - `continue`

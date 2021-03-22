@@ -7,14 +7,15 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
-# Schedule events with `sched`
+# Schedule events with sched
 
 
 ---
@@ -34,7 +35,6 @@ Every operation is done with the help of a `scheduler` class that needs two time
 
 ```python
 s = sched.scheduler(time.time, time.sleep)
-
 ```
 
 Since **Python 3.3** the `scheduler` class is safe for multi-threading.
@@ -65,7 +65,6 @@ s.run()
 Create a new scheduler and set it to enter `print('second')` with priority = 1 and delay = 4.
 
 ```python
-
 import sched
 import time
 
@@ -88,11 +87,15 @@ sc.run()
 
 ## Revision
 
-What is the priority ??? and what is the delay ??? of the following scheduler:
+Given the scheduler code:
 
 ```python
-
 sched.enter(3,2,print,argument=('second',))
+```
+What is the priority and what the delay?
+```python
+# Priority ???
+# Delay ???
 ```
 
 - 2

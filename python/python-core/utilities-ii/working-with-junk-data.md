@@ -8,11 +8,11 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Working with junk data
@@ -64,7 +64,7 @@ print(s.find_longest_match(0, 5, 0, 9))
 
 Complete the `SequenceMatcher`  constructor such that empty spaces are treated as junk:
 
-```plain-text
+```python
 s = SequenceMatcher(??? x: x == ???,
     “ abcd”, “abcd abcd”)
 ```
