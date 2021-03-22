@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## March 22nd 2021
+
+### Fixed
+- [Typescript - TSC Array Tuple - Fix Typo](https://github.com/enkidevs/curriculum/pull/2659)
+
 ## March 17th 2021
 
 ### Fixed
