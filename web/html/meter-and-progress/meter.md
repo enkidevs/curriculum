@@ -6,14 +6,16 @@ links: null
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
-# The `<meter>` Element
+# The meter Element
 
 
 ---
@@ -91,7 +93,9 @@ Create a meter element that displays data between 0 and 20 with a value of 15.
 
 What HTML element would be a good example of displaying the disk usage of your computer, where there is a known range that is measured and then shared with the user in a visual way?
 
-???
+```html
+<???>
+```
 
 - meter
 - progress

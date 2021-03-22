@@ -13,10 +13,10 @@ links:
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
-# Change the style of borders using `border-style`
+# Change the style of borders using border-style
 
 
 ---

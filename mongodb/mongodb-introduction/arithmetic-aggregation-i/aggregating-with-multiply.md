@@ -5,10 +5,11 @@ category: how-to
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
-# Aggregating With `$multiply`
+# $multiply
 
 
 ---
@@ -88,7 +89,11 @@ Although we have only used two expressions in our example, the `$multiply` opera
 
 ## Practice
 
-In MongoDB, you would use the ??? operator to perform multiplication.
+Which operator would you use in MongoDB to perform multiplication?
+
+```javascript
+???
+```
 
 - `$multiply`
 - `$pow`

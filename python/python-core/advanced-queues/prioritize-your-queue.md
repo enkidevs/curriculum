@@ -7,14 +7,16 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
-# Prioritize your `queue`
+# Prioritize your queue
 
 
 ---
@@ -118,11 +120,12 @@ new Queue q = queue.PriorityQueue()
 q = queue.PriorityQueue()
 ```
 
-???
-
-- Queue 3
-- Queue 2
-- Queue 1
+```python
+# Queue ???
+```
+- 3
+- 2
+- 1
 
 
 ---

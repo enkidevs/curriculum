@@ -15,11 +15,13 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Chaining animations
@@ -61,7 +63,9 @@ If the first one takes 1 second to complete, a chain can be created by using the
 
 What property is used to chain animations?
 
+```css
 ???
+```
 
 - animation-delay
 - animation-chained
@@ -73,9 +77,11 @@ What property is used to chain animations?
 
 ## Revision
 
-Which CSS property can be used to chain animations together?
+The CSS property used to chain animations together is:
 
+```css
 ???
+```
 
 - `animation-delay`
 - `animation-chain`

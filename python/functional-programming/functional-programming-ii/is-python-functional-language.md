@@ -5,11 +5,11 @@ category: must-know
 links:
   - >-
     [Is Python a functional
-    language?](https://www.quora.com/Is-Python-a-functional-language){website}
+    language?](https://stackabuse.com/functional-programming-in-python/#:~:text=Python%20is%20not%20a%20functional,for%20the%20task%20at%20hand.){website}
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Is Python a Functional Language?

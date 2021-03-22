@@ -9,14 +9,15 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
-# The `<article>` Element
+# The article Element
 
 
 ---
@@ -72,7 +73,9 @@ The `<article>` element can contain which of the following?
 
 Which HTML container element should be used to hold independent, self-contained content that is possible to share on its own outside the website?
 
+```html
 ???
+```
 
 - `<article>`
 - `<section>`

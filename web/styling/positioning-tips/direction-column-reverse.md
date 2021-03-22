@@ -11,14 +11,15 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
-# `direction` : `column-reverse`
+# Direction : column-reverse
 
 
 ---
@@ -73,10 +74,12 @@ Which of the following elements will be displayed first?
 }
 ```
 
-???
+```plain-text
+Child ???
+```
 
-- Child 2
-- Child 1
+- 2
+- 1
 
 
 ---
