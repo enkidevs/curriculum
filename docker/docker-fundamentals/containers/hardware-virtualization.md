@@ -4,7 +4,7 @@ category: must-know
 type: normal
 links:
   - >-
-    [Virtualization](https://en.wikipedia.org/wiki/Virtualization){documentation}
+    [Why Container Virtualization](https://medium.com/@anilktalla/why-container-virtualization-abb8bfc04048){documentation}
   - >-
     [Reasons to start using a
     VM](https://www.makeuseof.com/tag/reasons-start-using-virtual-machine/){article}
@@ -15,19 +15,18 @@ practiceQuestion:
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Virtualization
-
 
 ---
 
 ## Content
 
-Historically, software applications were limited to running only on specific physical devices. This meant that there was an unavoidable hardware requirement during development as well as during deployment of software.
+Historically, anyone wanting to run software typically had to buy a special type of hardware for every kind of operating system they wanted to support.
 
-Supporting and maintaining various physical devices was very expensive.
+Purchasing and aintaining various physical devices was expensive.
 
 Virtualization was invented as a response to this, enabling software to emulate a particular hardware system. This allowed us to run applications with different hardware requirements on the same physical machine, significantly lowering costs (now we could use less machines).
 
@@ -41,7 +40,6 @@ We could even run multiple VMs on the same physical device, each with a differen
 
 Virtualization provides an abstraction on top of hardware that allowed development, execution, and deployment of software in a hardware-agnostic manner.
 
-
 ---
 
 ## Practice
@@ -52,7 +50,6 @@ Virtualization allows us to abstract away the hardware. This enables us to use ?
 - more
 - cheap
 - fast
-
 
 ---
 

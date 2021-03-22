@@ -12,7 +12,8 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Function components
@@ -99,7 +100,7 @@ For more information on the differences between function and class components ma
 
 ## Practice
 
-Complete the second code snippet such that it's equivalent to the first:
+Complete the second code snippet such that it's equivalent to the first.
 
 First:
 

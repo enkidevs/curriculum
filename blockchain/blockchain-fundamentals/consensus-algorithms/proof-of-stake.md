@@ -5,11 +5,11 @@ category: must-know
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Proof of Stake (PoS)
@@ -41,7 +41,7 @@ A validator can easily propose a new block to follow C and a new block to follow
 
 ## Practice
 
-What is the main difference between PoW and PoS?
+What is the main difference between PoW (Proof of Work) and PoS (Proof of Stake)?
 
 ???
 
@@ -55,7 +55,7 @@ What is the main difference between PoW and PoS?
 
 ## Revision
 
-Identify the weighting factor for choosing validators in a PoS environment:
+Identify the weighting factor for choosing validators in a PoS (Proof of Stake) environment:
 
 ???
 

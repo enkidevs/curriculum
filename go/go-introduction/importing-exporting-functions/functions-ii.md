@@ -5,11 +5,11 @@ category: how-to
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Function Examples
@@ -62,7 +62,7 @@ func main() {
 
 ## Practice
 
-Create a function called `powerOfThree` that will calculate the power of 3 of an integer and return the result.
+Create a function called `powerOfThree` that will calculate the power of 3 of an integer (`x`)and return the result.
 
 ```go
 ??? ??? (???) int {

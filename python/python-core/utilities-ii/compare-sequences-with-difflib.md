@@ -7,21 +7,23 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
-# Compare sequences with `difflib`
+# Compare sequences with difflib
 
 
 ---
 
 ## Content
 
-Another useful Python module  crafted for comparing sequences (even files and text) is `difflib`.
+Another useful Python module crafted for comparing sequences (even files and text) is `difflib`.
 
 Import the module:
 
@@ -29,7 +31,7 @@ Import the module:
 import difflib
 ```
 
- It provides classes and functions such as `Differ` (for lines of text) or `HtmlDiff` to show the differences in a human readable form, like the Unix diff command.
+It provides classes and functions such as `Differ` (for lines of text) or `HtmlDiff` to show the differences in a human readable form, like the Unix diff command.
 
 To see the differences between two text strings (`text_A` and `text_B`) the `Differ`'s `compare` function can be used:
 
@@ -66,7 +68,7 @@ print('\n'.join(diff))
 
 Use `Differ` class to print the differences between texts `a` and `b`  :
 
-```plain-text
+```python
 import difflib
 a = “abc \n xyz”
 b = “abc \n plm”
@@ -92,7 +94,9 @@ print(‘\n’.join(diff))
 
 What class from `difflib` with a `compare` method can be used to see differences between two text strings?
 
+```python
 ???
+```
 
 - `Differ`
 - `SequenceMatcher`

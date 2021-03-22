@@ -5,14 +5,16 @@ category: tip
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
-# A simple way to select a random item from a `list/tuple` data structure
+# A simple way to select a random item from a list/tuple data structure
 
 
 ---
@@ -61,7 +63,7 @@ rand_items = random.sample(items, n)
 
 Complete the following code snippet to select a random item from a list/tuple data structure:
 
-```plain-text
+```python
 rand_item = ???.???(items)
 ```
 
@@ -80,7 +82,7 @@ rand_item = ???.???(items)
 
 Complete the following code snippet to select 2 random items from a list/tuple data structure:
 
-```plain-text
+```python
 rand_items = ???.???(items, 2)
 ```
 

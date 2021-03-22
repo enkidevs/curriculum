@@ -9,11 +9,13 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Regular expressions
@@ -82,9 +84,11 @@ if ???.???(‘abc’, text)
 
 ## Revision
 
-Which Python module provides text matching patterns using regular expressions?
+Which Python module provides text matching patterns using regular expressions:
 
+```python
 ???
+```
 
 - `re`
 - `reg`

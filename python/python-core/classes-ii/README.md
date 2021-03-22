@@ -5,6 +5,7 @@ insights:
   - instance-objects
   - method-objects
   - private-variables
+  - classes-ii-discussion
 aspects:
   - introduction
   - workout
