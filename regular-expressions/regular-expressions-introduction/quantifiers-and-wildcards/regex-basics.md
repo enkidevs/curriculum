@@ -7,11 +7,12 @@ category: must-know
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Regex basics
@@ -26,7 +27,7 @@ Very basic regex patterns can be *identical to the content* of the text we want 
 ```plain-text
 text = 'Fred'
 
-/fred/ ❌ 
+/fred/ ❌
 
 /Fred/ ✅
 ```
@@ -41,7 +42,7 @@ We could use `/Fre/` as our regex pattern to match the following:
 
 '`Fre`d, `Fre`ya, Francis'
 
-> 💡 This would not match the whole name, just the letters 'Fre'. 
+> 💡 This would not match the whole name, just the letters 'Fre'.
 
 In order to match the whole name, we'd have to use quantifiers and wildcards - more about those next!
 
@@ -70,4 +71,3 @@ When writing regex patterns, capitalization matters.
 
 - True
 - False
- 

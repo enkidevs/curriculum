@@ -7,11 +7,11 @@ category: must-know
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Search() & Replace()
@@ -47,7 +47,7 @@ string.replace(/google/i, "Enki");
 
 > 💡 Remember that the `i` modifier can be used to make a case-insensitive search or replacement.
 
-Using regex patterns instead of simply using strings with the `search()` and `replace()` methods is more **powerful**. 
+Using regex patterns instead of simply using strings with the `search()` and `replace()` methods is more **powerful**.
 
 This is because regex patterns can allow for complex patterns and case insensitivity.
 
@@ -67,7 +67,7 @@ string.search(/o/i);
 
 - 7
 - 8
-- 6 
+- 6
 - 7, 12
 
 
@@ -88,4 +88,3 @@ string.replace(/python/i, "JavaScript");
 - Learning about Javascript!
 - Learning about Regex and Javascript!
 - Learning about python and Regex!
- 

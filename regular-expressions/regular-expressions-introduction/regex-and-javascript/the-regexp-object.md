@@ -7,11 +7,12 @@ category: must-know
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # The RegExp Object
@@ -28,7 +29,7 @@ To illustrate this, if we wanted to create a new regex pattern in JavaScript we 
 ```js
 let pattern = /abc/;
 
-OR 
+OR
 
 let pattern = new RegExp('abc');
 ```
@@ -70,4 +71,3 @@ When Regex patterns are used in programming, they exist as ???.
 - booleans
 - methods
 - variables
- 
