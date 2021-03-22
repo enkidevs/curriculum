@@ -12,14 +12,15 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
-# The `<embed>` Element
+# The embed Element
 
 
 ---
@@ -68,7 +69,9 @@ Select the statement that is not true regarding the `<embed>` element:
 
 Which HTML element is used to define the container for an external app or plugin, like Adobe Flash?
 
+```html
 ???
+```
 
 - `<embed>`
 - `<app>`

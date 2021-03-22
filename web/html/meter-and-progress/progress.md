@@ -6,14 +6,16 @@ links: null
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
-# The `<progress>` Element
+# The progress Element
 
 
 ---
@@ -72,7 +74,9 @@ Create a progress element that displays the file size percentage downloaded at a
 
 What HTML element would be a good example of visually displaying the progress of a task, such as the downloading progress of a file?
 
+```html
 ???
+```
 
 - progress
 - meter

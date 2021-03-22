@@ -15,11 +15,13 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Markup for Editing
@@ -83,7 +85,9 @@ Underline the word "mispell":
 </p>
 ```
 
+```html
 tag = ???
+```
 
 Highlight "100 laps" within the blockquote:
 
@@ -103,7 +107,9 @@ Highlight "100 laps" within the blockquote:
 </p>
 ```
 
+```html
 tag = ???
+```
 
 - u
 - mark

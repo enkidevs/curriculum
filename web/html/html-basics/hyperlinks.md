@@ -9,11 +9,13 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Hyperlinks
@@ -76,7 +78,11 @@ Complete the following snippet in order for it to be valid:
 
 ## Revision
 
-The tag denoting a hyperlink is ???.
+The tag denoting a hyperlink is:
+
+```html
+???
+```
 
 - `<a>`
 - `<p>`
