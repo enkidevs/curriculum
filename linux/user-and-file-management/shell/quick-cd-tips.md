@@ -115,7 +115,7 @@ Or, to undo the last change of directory and go back to the last visited path:
 cd -
 ```
 
-To learn more about the directory stack or to view the differences between `popd` and `pushd` vs `cd` in both `bash` and `zsh`, check out the links in the "Learn More" section.
+To learn more about the directory stack or to view the differences between `popd` and `pushd` vs `cd` in both `bash` and `zsh`, check out the links in the *Learn More* section.
 
 ---
 
