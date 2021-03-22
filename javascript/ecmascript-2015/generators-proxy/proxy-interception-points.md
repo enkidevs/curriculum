@@ -5,6 +5,14 @@ category: must-know
 links:
   - >-
     [Proxy](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Using Proxies
@@ -155,3 +163,4 @@ console.log(pObj)
 - proxy
 - function
 - function*
+ 

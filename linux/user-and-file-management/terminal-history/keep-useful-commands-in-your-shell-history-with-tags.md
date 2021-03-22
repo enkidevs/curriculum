@@ -12,6 +12,10 @@ tags:
 links:
   - >-
     [lukas.zapletalovi.com](https://lukas.zapletalovi.com/2013/03/never-lost-your-bash-history-again.html){website}
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Keep useful commands in your shell history with tags

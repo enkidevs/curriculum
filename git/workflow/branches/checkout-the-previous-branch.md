@@ -6,6 +6,10 @@ links:
   - >-
     [Checkout Previous Branch
     Github](https://github.com/jbranchaud/til/blob/master/git/checkout-previous-branch.md){website}
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Checkout the previous branch

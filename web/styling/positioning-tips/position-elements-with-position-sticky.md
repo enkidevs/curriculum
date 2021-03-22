@@ -10,6 +10,10 @@ links:
     [Stick Your
     Landings](http://updates.html5rocks.com/2012/08/Stick-your-landings-position-sticky-lands-in-WebKit){website}
 notes: ''
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Position elements with `position: sticky`
@@ -32,18 +36,25 @@ By simply adding `position: sticky` (vendor prefixed), we can tell an element to
 }
 ```
 
-
 ---
 ## Revision
 
-Which of the following browsers *does not* support `position: sticky`? ???
+Can you make the `.enki` class sticky?
 
-- Chrome
-- Firefox
-- Safari
-- iOS Safari
+```ccss
+.enki {
+    ???;
+    top: 33px;
+}
+```
+
+- `position: sticky`
+- `position: stick`
+- `sticky: position`
+- `appearance: sticky`
 
 ---
+
 ## Footnotes
 
 [1:position fixed]

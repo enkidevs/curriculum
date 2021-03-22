@@ -4,6 +4,10 @@ type: normal
 category: must-know
 links:
   - '[Why Git](https://www.atlassian.com/git/tutorials/why-git){website}'
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Benefits of Git
@@ -21,7 +25,7 @@ Let's talk a bit about what **Git** brings to the table.
 
 3. Something happened with the main version? **Recreate it** using a local version.
 
-4. It seems your new code introduces an unforseen bug. **Revert** the change until you find a fix.
+4. It seems your new code introduces an unforeseen bug. **Revert** the change until you find a fix.
 
 5. **Flexible**. It's not just for developers! You can also use it in *marketing*, *design*, and *HR* for example.
 
@@ -46,4 +50,3 @@ Git is only useful for developers.
 
 [1:Clone]
 A clone is an exact copy of the project, which retains all information (e.g. history) and references (e.g. branches).
- 

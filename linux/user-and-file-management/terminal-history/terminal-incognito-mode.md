@@ -10,6 +10,14 @@ tags:
   - commands
   - incognito
   - workout
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Terminal incognito mode

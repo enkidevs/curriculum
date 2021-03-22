@@ -8,6 +8,14 @@ tags:
 links:
   - >-
     [Permissions](https://wiki.archlinux.org/index.php/File_permissions_and_attributes){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # File Ownership
@@ -40,10 +48,10 @@ How would you find out the owners of the `timetable.txt` file?
 ??? ??? timetable.txt
 ```
 
-- ls
-- -l
-- ld
-- -d
+- `ls`
+- `-l`
+- `ld`
+- `-d`
 
 
 ---

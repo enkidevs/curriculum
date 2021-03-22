@@ -1,10 +1,18 @@
 ---
 author: mihaiberq
 type: normal
-category: how to
+category: how-to
 tags:
   - introduction
   - workout
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Handling Programmer Errors
@@ -62,4 +70,4 @@ Treatment
 - Fixing the bug
 - Handling the programmer error
 - Operational error
-- Enclosing the code inside a `try/catch` block
+- Enclosing the code inside a try/catch block

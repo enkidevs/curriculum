@@ -2,7 +2,6 @@
 author: mihaiberq
 type: normal
 category: must-know
-inAlgoPool: false
 links:
   - >-
     [Scrimba CSS Width and
@@ -10,6 +9,10 @@ links:
   - >-
     [MDN Docs on Inline
     Elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Inline_elements){documentation}
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Inline-block Elements Characteristics
@@ -46,4 +49,3 @@ Whose behavior is `display:inline-block` trying to replicate?
 - Inline elements'
 - Block elements'
 - Newer elements'
- 

@@ -7,3 +7,4 @@ Base64 represents a way to convert binary data into text using 64 [ASCII](https:
 It is predominantly used on the web for encoding files such as images or sounds into textual formats native to the web such as HTML and CSS.
 
 A Base64 character can be an English alphabet letter or the `+`, `/` or `=` sign. Check out the full [conversion table](https://en.wikipedia.org/wiki/Base64#Base64_table).
+

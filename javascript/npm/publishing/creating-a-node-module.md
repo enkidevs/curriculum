@@ -1,11 +1,19 @@
 ---
 author: mihaiberq
 type: normal
-category: how to
+category: how-to
 tags:
   - workout
   - deep
   - new
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Creating a Node Module
@@ -54,7 +62,7 @@ In order for the JavaScript file to be a module, it must have
 
 ???
 
-- a non-empty `exports` object
+- a non-empty exports object
 - at least one function
 - constants
 - at least one non-void function
@@ -70,4 +78,4 @@ Usually, a module id is
 
 - the name of the main JavaScript file
 - the name of the first function
-- defined in the *package.json*
+- defined in the package.json

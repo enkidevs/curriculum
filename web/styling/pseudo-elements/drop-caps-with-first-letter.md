@@ -1,7 +1,7 @@
 ---
 author: Mathieu
 type: normal
-category: how to
+category: how-to
 links:
   - >-
     [MDN Docs on
@@ -9,6 +9,14 @@ links:
   - >-
     [47 CSS Tips &
     Tricks](http://www.instantshift.com/2010/03/15/47-css-tips-tricks-to-take-your-site-to-the-next-level/){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Drop caps with `::first-letter`
@@ -76,6 +84,6 @@ The `::first-letter` pseudo-element won't have the expected result if the target
 
 ???.
 
-- has a `::before` pseudo-element set
-- has an `::after` pseudo-element set
+- `has a ::before pseudo-element set`
+- `has an ::after pseudo-element set`
 - is not a paragraph

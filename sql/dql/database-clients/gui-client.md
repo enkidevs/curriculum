@@ -2,7 +2,6 @@
 author: nickdaminov
 type: normal
 category: feature
-inAlgoPool: false
 links:
   - >-
     [Top 10 GUI Database
@@ -11,6 +10,14 @@ links:
   - >-
     [Installing .dmg
     package](https://apple.stackexchange.com/questions/64845/how-do-i-install-applications-from-a-dmg-file){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # GUI Client
@@ -63,4 +70,3 @@ The username is: ???.
 
 - pokemon
 - ashketchum
- 

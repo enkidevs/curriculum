@@ -2,6 +2,14 @@
 author: catalin
 type: normal
 category: tip
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Lockdown **Cronjobs**
@@ -60,7 +68,7 @@ You can deny users access to *cronjobs* by adding them to
 
 ???.
 
-- /etc/cron.deny
-- /etc/cron.allow
-- /crontab/deny
-- /cron/.deny
+- `/etc/cron.deny`
+- `/etc/cron.allow`
+- `/crontab/deny`
+- `/cron/.deny`

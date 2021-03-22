@@ -23,7 +23,6 @@ revisionQuestion:
   formats:
     - fill-in-the-gap
   context: relative
-    
 ---
 
 # Quick `cd` Tips

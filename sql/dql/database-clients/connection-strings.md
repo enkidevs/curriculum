@@ -2,13 +2,20 @@
 author: SebaRaba
 type: normal
 category: must-know
-inAlgoPool: false
 tags:
   - workout
 links:
   - >-
     [More on connection
     strings](http://www.dofactory.com/reference/connection-strings){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Connection strings
@@ -92,4 +99,3 @@ The port is `23336`.
 - `aws-us-east-1-portal.42.dblayer.com`
 - `23336`
 - `pokemon`
- 

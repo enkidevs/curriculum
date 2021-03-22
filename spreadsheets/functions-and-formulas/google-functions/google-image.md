@@ -1,15 +1,22 @@
-﻿---
+---
 author: Stefan-Stojanovic
-
 type: normal
-
-category: how to
-
+category: how-to
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # IMAGE
 
+
 ---
+
 ## Content
 
 The `=IMAGE()` function is used to insert an image into a single cell.
@@ -27,6 +34,7 @@ The `url` is the URL of the image you want to import. It must be enclosed in quo
 The `mode`, `height` and `width` are optional.
 
 The `mode` is the sizing mode for the image. There are 4 possible values.
+
 - 1 - resizes the image to fit inside the cell whilst maintaining the aspect ratio. This is the default if `mode` is excluded.
 - 2 - stretches or compresses the image to fit inside the cell whilst ignoring the aspect ratio.
 - 3 - leaves the image at its original size.
@@ -42,7 +50,9 @@ Here is the same image with all of the above options.
 
 ![image-function](https://img.enkipro.com/3bcb9ca3ff62d5352a62f9d50c1d4e4d.png)
 
+
 ---
+
 ## Practice
 
 The ??? function is used to insert an image into ???.
@@ -52,7 +62,9 @@ The ??? function is used to insert an image into ???.
 - a single or multiple cells depending on the options
 - =PHOTO()
 
+
 ---
+
 ## Revision
 
 What is the `IMAGE()` function used for in Google Sheets?

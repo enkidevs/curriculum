@@ -1,9 +1,13 @@
 ---
 author: jordanfish
 type: normal
-category: how to
+category: how-to
 links:
   - '[CSS Pro Tips](https://github.com/AllThingsSmitty/css-protips){website}'
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Vertically-center anything

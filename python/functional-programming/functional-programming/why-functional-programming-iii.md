@@ -9,6 +9,10 @@ links:
   - >-
     [Functional Programming
     HOWTO](https://docs.python.org/2/howto/functional.html){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Using Immutable Data
@@ -35,8 +39,8 @@ Which statement is not true regarding `immutable` objects?
 
 ???
 
-- `Immutable` objects are easily modifiable at any time after creation.
-- An `immutable` object is an object which cannot be modified after its creation.
-- `Immutable` objects provide fully-traceable, completely accurate state history.
-- To make changes to state using `immutable` objects, a new copy of the state object needs to be created.
+- Immutable objects are easily modifiable at any time after creation.
+- An immutable object is an object which cannot be modified after its creation.
+- Immutable objects provide fully-traceable, completely accurate state history.
+- To make changes to state using immutable objects, a new copy of the state object needs to be created.
  

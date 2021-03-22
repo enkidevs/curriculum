@@ -6,6 +6,14 @@ links:
   - >-
     [Network Information
     API](http://code.tutsplus.com/tutorials/html5-network-information-api--cms-21598){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Network Information API
@@ -98,3 +106,4 @@ connection.addEventListener(
 - `change`
 - `update`
 - `statusChange`
+ 

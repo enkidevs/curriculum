@@ -1,7 +1,7 @@
 ---
 author: nene
 type: normal
-category: how to
+category: how-to
 tags:
   - chain
   - animations
@@ -12,6 +12,14 @@ links:
   - >-
     [MDN Docs on
     @keyframes](https://developer.mozilla.org/en-US/docs/Web/CSS/@keyframes){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Chaining animations

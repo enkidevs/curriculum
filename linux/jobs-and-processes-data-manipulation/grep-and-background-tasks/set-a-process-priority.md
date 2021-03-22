@@ -10,6 +10,14 @@ tags:
   - PID
   - priority
   - process
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Set a process priority

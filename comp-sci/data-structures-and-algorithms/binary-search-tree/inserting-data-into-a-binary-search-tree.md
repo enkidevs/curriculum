@@ -1,13 +1,19 @@
 ---
 author: jfarmer
-
 type: normal
-
 category: must-know
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Inserting Data Into a Binary Search Tree
+
 
 ---
 
@@ -38,6 +44,7 @@ The final result is a BST that looks like this:
 
 You may have noticed that the shape of the BST depends on the order in which the data is inserted. For example, if the data were all inserted in ascending (or descending order), we would wind up with what essentially resembles a sorted linked list[1].
 
+
 ---
 
 ## Practice
@@ -59,6 +66,7 @@ How many checks are required to insert `9` in this BST?
 - `2`
 - `1`
 - `5`
+
 
 ---
 
@@ -82,10 +90,10 @@ How many checks are required to insert `5` in this BST?
 - `1`
 - `4`
 
+
 ---
 
 ## Footnotes
 
 [1: Worst-case scenario]
 This refers to the case in which the tree's *height* (the distance between the root and the furthest away leaf from the root) is equal to the number of nodes in the tree. In this case, the operations that normally take `O(log n)` end up taking `O(n)`.
- 

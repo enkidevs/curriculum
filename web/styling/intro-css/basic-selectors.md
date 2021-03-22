@@ -2,7 +2,6 @@
 author: mihaiberq
 type: normal
 category: must-know
-inAlgoPool: false
 links:
   - >-
     [Scrimba CSS Selectors, Properties &
@@ -13,6 +12,10 @@ links:
   - >-
     [MDN Docs on CSS
     Selectors](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors){documentation}
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Type Selectors
@@ -89,6 +92,6 @@ The `div` selector targets
 
 ???
 
-- all `div` elements
-- all `div` elements within a class
-- all elements with class `div`
+- all div elements
+- all div elements within a class
+- all elements with class div

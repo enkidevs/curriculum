@@ -10,6 +10,14 @@ tags:
 notes: >-
   This insights is also based on security - should be on a security workout I
   guess.
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Node and `sudo`
@@ -48,8 +56,8 @@ Should you give your node process permissions to your whole system?
 
 - no
 - yes
-- only if you need port `80` for http
-- only if you need port `443` for http
+- only if you need port 80 for http
+- only if you need port 443 for http
 
 
 ---

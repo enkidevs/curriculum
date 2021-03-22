@@ -7,6 +7,14 @@ tags:
   - workout
 links:
   - '[Node Streams](https://maxogden.com/node-streams.html){website}'
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # What are Streams?
@@ -38,8 +46,8 @@ Streams allow data to ??? and ???.
 - WritableReadable
 - processed in chunks
 - processed in one go
-- read into `fs` module
-- used by the `request` module
+- read into fs module
+- used by the request module
 
 
 ---
@@ -59,4 +67,3 @@ Streams are ??? allowing data to be read from a source and for data to be piped 
 
 [1:unix pipes]
 A `pipe` is a form of redirection that is used in **Linux** and other **Unix**-like operating systems to send the *output* of one program to another program for further processing (as *input*).
- 

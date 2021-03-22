@@ -6,6 +6,14 @@ links:
   - >-
     [more on
     generators](http://www.python-course.eu/python3_generators.php){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Generator of generators

@@ -1,7 +1,7 @@
 ---
 author: Mathieu
 type: normal
-category: how to
+category: how-to
 links:
   - >-
     [MDN Docs on Text
@@ -9,6 +9,10 @@ links:
   - >-
     [More Control Over Text
     Decoration](https://css-tricks.com/more-control-over-text-decoration/){website}
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Change the color of the decoration with `text-decoration-color`
@@ -36,6 +40,6 @@ The only browser that currently supports this property is `Firefox`.
 
 What is the default text decoration colour? And with what property can this be changed? ???
 
-- Default colour is the text colour. Changed with `text-decoration-color:`.
-- Default colour is black. Changed with `text-decoration-colour:`.
+- `Default colour is the text colour. Changed with text-decoration-color:`
+- `Default colour is black. Changed with text-decoration-colour:`
 - Default colour is white. Cannot be changed.

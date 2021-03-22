@@ -2,6 +2,10 @@
 author: jfarmer
 type: normal
 category: must-know
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # How Do Binary Heaps Enable O(log(n)) Insertion and Removal?
@@ -35,4 +39,3 @@ For insertion to take O(log n) time, the underlying structure used to implement 
 - complete graph
 - stack
 - tree
- 

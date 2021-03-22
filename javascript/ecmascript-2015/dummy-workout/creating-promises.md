@@ -1,50 +1,44 @@
 ---
 author: Dral
-
 levels:
-
   - basic
-
   - advanced
-
   - medium
-
 type: normal
-
 category: must-know
-
 tags:
-
   - promise
-
   - async
-
   - functional programming
-
   - es6
-
 notes: >-
   I'm wondering if the second block of code is too long. Maybe I should scrap
-  the usage?
-  Nah, you need a bit of code to explain promises, that's just how it is :D -lizthedeveloper
+  the usage? Nah, you need a bit of code to explain promises, that's just how it
+  is :D -lizthedeveloper
 
 
   Also, what if people that are new to promises end up here? Should I set `for`
   to experts?
-
 links:
+  - >-
+    [MDN -
+    Promise](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Promise){website}
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+---
 
-  - '[MDN](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Promise){website}'
+# Creating Promises
+
 
 ---
-# Creating promises
 
----
 ## Content
 
 The ES6 way to create promises is with the `new Promise()` constructor and two callbacks, `resolve` and `reject`, used to alter the promise state.
 
-```
+```js
 function timeout(delay) {
   return new Promise( (resolve, reject) => {
     setTimeout(() => resolve(), delay);
@@ -59,7 +53,7 @@ timeout(1000).then(() => {
 
 To reject the promise, call `reject` instead of `resolve`:
 
-```
+```js
 function myRequestionFn(url) {
   return new Promise( (resolve, reject) => {
     someRequestLib(url, (err, data) => {
@@ -82,7 +76,9 @@ myRequestionFn('/my-api').then(data => {
 });
 ```
 
+
 ---
+
 ## Revision
 
 What are the `Promise()` callbacks?
@@ -91,11 +87,11 @@ What are the `Promise()` callbacks?
 
 ???
 
-*`resolve`
-*`reject`
-*`response`
-*`request`
-*`url`
-*`pass`
-*`fail`
+- `resolve`
+- `reject`
+- `response`
+- `request`
+- `url`
+- `pass`
+- `fail`
  

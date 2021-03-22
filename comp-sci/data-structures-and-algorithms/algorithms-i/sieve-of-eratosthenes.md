@@ -6,7 +6,14 @@ links:
   - >-
     [Sieve of
     Eratosthenes](https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes){website}
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Sieve of Eratosthenes
@@ -87,4 +94,3 @@ You would use the sieve of Eratosthenes for
 - testing if a number is prime
 - test if a tree has a binary search tree's properties
 - finding the prime divisors of a number
- 

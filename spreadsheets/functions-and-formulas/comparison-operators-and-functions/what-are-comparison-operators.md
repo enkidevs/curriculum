@@ -1,20 +1,28 @@
-﻿---
+---
 author: Stefan-Stojanovic
-
 type: normal
-
-category: how to
-
+category: how-to
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # What Are Comparison Operators
 
+
 ---
+
 ## Content
 
 Comparison operators are used for comparing values.
 
 These operators can be applied to any type of value.
+
 - numbers
 - dates
 - checkboxes
@@ -25,14 +33,14 @@ These operators can be applied to any type of value.
 
 Each of the 6 comparison operators has an equivalent function in Google Sheets.
 
-|**Operator**|**Function**|**Description**  |
-|------|---------|--------------------------|
-| `=`  | `EQ()`  | equal                    |
-| `>`  | `GT()`  | greater than             |
-| `>=` | `GTE`   | greater than or equal to |
-| `<`  | `LT()`  | less than                |
-| `<=` | `LTE()` | less than or equal to    |
-| `<>` | `NE()`  | not equal to             |
+| **Operator** | **Function** | **Description**          |
+| ------------ | ------------ | ------------------------ |
+| `=`          | `EQ()`       | equal                    |
+| `>`          | `GT()`       | greater than             |
+| `>=`         | `GTE`        | greater than or equal to |
+| `<`          | `LT()`       | less than                |
+| `<=`         | `LTE()`      | less than or equal to    |
+| `<>`         | `NE()`       | not equal to             |
 
 The functions and operators can be used to achieve the same thing. 
 
@@ -53,7 +61,9 @@ GT(A2,A1)
 
 We will explore each comparison operator in-depth in the next few insights.
 
+
 ---
+
 ## Practice
 
 What are the possible outputs when using comparison operators or their equivalent functions?
@@ -63,7 +73,9 @@ What are the possible outputs when using comparison operators or their equivalen
 - TRUE & FALSE
 - TRUE, FALSE & a numerical result depending on the operator
 
+
 ---
+
 ## Revision
 
 Match the function with its equivalent comparison operator.

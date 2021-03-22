@@ -9,6 +9,14 @@ links:
   - >-
     [Python
     zip()](https://www.programiz.com/python-programming/methods/built-in/zip){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # The `zip` Built-in Function
@@ -155,3 +163,4 @@ print(zip(dates, values))
 
 [2:Uneven length = loss of information]
 *Obviously, any information discarded in the initial `zip` step because of input iterables being of uneven length is not recovered when we unzip the result again; the information has already been discarded at the `zip` step.*
+ 

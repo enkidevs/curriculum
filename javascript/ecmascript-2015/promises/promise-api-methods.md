@@ -2,11 +2,18 @@
 author: alexjmackey
 type: normal
 category: must-know
-inAlgoPool: false
 links:
   - >-
     [MDN -
     Promises](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Promise){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Promise API Methods
@@ -110,3 +117,4 @@ Which static `Promise` method will resolve when the first promise in the array s
 - Promise.vector
 - Promise.first
 - Promise.reject
+ 

@@ -12,6 +12,14 @@ links:
   - >-
     [9 Python Filter Function and List Comprehension
     Examples](http://www.thegeekstuff.com/2014/05/python-filter-and-list){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # The `filter` Built-in Function
@@ -79,11 +87,11 @@ print(filter(special_function, customers))
 ???
 ```
 
-- The 3-tuples of customers where the associated boolean is `True` and the email includes the substring `'corporate.com'`.
-- The names of customers where their associated boolean is `True` and the email includes the substring `'corporate.com'`.
+- The 3-tuples of customers where the associated boolean is True and the email includes the substring 'corporate.com'.
+- The names of customers where their associated boolean is True and the email includes the substring 'corporate.com'.
 - The 3-tuples of customers whose names are longer than zero characters.
-- The 3-tuples of customers where their associated boolean is `True` or the email includes the substring `'corporate.com'`.
-- The 3-tuples of customers where their associated boolean is not `True` and the email does not include the substring `'corporate.com'`.
+- The 3-tuples of customers where their associated boolean is True or the email includes the substring 'corporate.com'.
+- The 3-tuples of customers where their associated boolean is not True and the email does not include the substring 'corporate.com'.
 
 
 ---
@@ -115,3 +123,4 @@ print(filter(mystery_function, numbers))
 
 [2:true]
 *There is also a complementary function `itertools.filterfalse()` which only returns elements of the iterable object if the function returns false on them. Alternatively, you could negate the return value of the function passed to `filter` to achieve the same result.*
+ 

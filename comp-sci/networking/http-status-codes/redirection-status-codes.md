@@ -2,6 +2,14 @@
 author: SebaRaba
 type: normal
 category: must-know
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Redirection status codes
@@ -52,4 +60,3 @@ The only two methods for which a browser should redirect the user after receivin
 - POST
 - DELETE
 - GET
- 

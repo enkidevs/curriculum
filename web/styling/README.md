@@ -24,7 +24,7 @@ sections:
   '2':
     - flexbox
     - features
-    - recipes
+    - css-recipes
     - responsive-design-tips
   '3':
     - sass-i

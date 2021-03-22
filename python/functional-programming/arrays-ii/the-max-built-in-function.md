@@ -9,6 +9,14 @@ links:
   - >-
     [Python 3.3
     Documentation](https://docs.python.org/3.3/library/functions.html#max){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # The `max` Built-in Function
@@ -119,3 +127,4 @@ print(max(list3))
 
 [1:Key]
 *This is exactly the same as the way keys are used in other built-in functions such as `sort` etc. For more information see the lesson on the `sorted` and `sort` functions.*
+ 

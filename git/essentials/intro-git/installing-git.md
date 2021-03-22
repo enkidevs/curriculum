@@ -1,19 +1,20 @@
 ---
 author: catalin
-
 type: normal
-
 category: must-know
-
 links:
   - >-
     [Git Official
     Documentation](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git){website}
   - '[GitHub Download](https://desktop.github.com/){website}'
-
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Installing Git
+
 
 ---
 
@@ -55,6 +56,7 @@ Go to the [official website](https://git-scm.com/download/win) which will automa
 
 If you install the *GitHub* client application (repository hosting service), which is available on all leading operating systems, **Git** will also be installed on your machine.
 
+
 ---
 
 ## Revision
@@ -65,6 +67,7 @@ Git is only available on Mac OS X.
 
 - False.
 - True.
+
 
 ---
 

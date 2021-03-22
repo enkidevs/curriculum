@@ -9,6 +9,14 @@ links:
   - >-
     [W3S: <nav>
     Element](https://www.w3schools.com/tags/tag_nav.asp){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # The `<nav>` element

@@ -1,7 +1,7 @@
 ---
 author: mihaiberq
 type: normal
-category: how to
+category: how-to
 tags:
   - introduction
   - workout
@@ -9,6 +9,14 @@ links:
   - >-
     [Node JS and
     Errors](https://www.joyent.com/node-js/production/design/errors){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Handling Operational Errors
@@ -85,10 +93,10 @@ main();
 
 ???
 
-- No error shown, only the message `reject_example`.
-- An exception with the message `throw_example`.
-- An exception with the message `reject_example`.
-- No error shown, only the message `throw_example`.
+- No error shown, only the message reject_example.
+- An exception with the message throw_example.
+- An exception with the message reject_example.
+- No error shown, only the message throw_example.
 
 
 ---

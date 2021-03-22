@@ -6,6 +6,14 @@ stub: true
 tags:
   - deep
 links: null
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Intro `<abbr>`
@@ -79,6 +87,7 @@ Which HTML element is used with abbreviations to provide a full description for 
 - abbreviate
 - acro
 - desc
+
 
 ---
 

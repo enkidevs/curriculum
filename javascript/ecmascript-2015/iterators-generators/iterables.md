@@ -6,6 +6,14 @@ links:
   - >-
     [Iteration
     Protocols](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Iteration_protocols){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Iterables
@@ -115,7 +123,8 @@ for (const y of obj) {
 
 ???
 
-- No, because it has no iteration protocol implemented via `Symbol.iterator`
-- Yes, because it has the `next` function exposed
-- No, because `done` must be at least one time `false`
+- No, because it has no iteration protocol implemented via Symbol.iterator
+- Yes, because it has the next function exposed
+- No, because done must be at least one time false
 - Yes, because all objects are iterable by default
+ 

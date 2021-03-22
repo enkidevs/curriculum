@@ -15,6 +15,14 @@ links:
     [More redirection
     tricks](http://stackoverflow.com/questions/818255/in-the-shell-what-does-21-mean){website}
 notes: ''
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # The `2>&1` redirection
@@ -81,9 +89,9 @@ You can incorporate the error stream into the output stream using
 
 ??? .
 
-- 2>&1
-- 1>&2
-- 2>&0
+- `2>&1`
+- `1>&2`
+- `2>&0`
 
 
 ---

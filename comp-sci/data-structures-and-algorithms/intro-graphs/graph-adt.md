@@ -6,6 +6,14 @@ links:
   - >-
     [Graph
     Representation](http://www.geeksforgeeks.org/graph-and-its-representations/){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Graph Representation and ADT
@@ -64,10 +72,10 @@ For any undirected graph represented as a matrix, you can be sure that the cells
 
 ???
 
-- `g[u][v]` and `g[v][u]`
-- `g[0][0]` and `g[n-1][n-1]`
-- `g[u][u]` and `g[v][v]`
-- `g[u][v]` and `g[v-1][u-1]`
+- `g[u][v] and g[v][u]`
+- `g[0][0] and g[n-1][n-1]`
+- `g[u][u] and g[v][v]`
+- `g[u][v] and g[v-1][u-1]`
 
 
 ---
@@ -81,4 +89,3 @@ Which of the following statements is describing an adjacency list?
 - A list describing the set of neighbours for each node.
 - An unordered list of all edges.
 - A matrix of size N*N, where N is the number of nodes.
- 

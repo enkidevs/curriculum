@@ -4,11 +4,19 @@ type: normal
 category: must-know
 links:
   - >-
-    [HTML <blockquotes>
-    element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blockquote){documentation}
+    [HTML <blockquote>
+    Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blockquote){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
-# The `<blockquotes>` Element
+# The <blockquote> Element
 
 
 ---

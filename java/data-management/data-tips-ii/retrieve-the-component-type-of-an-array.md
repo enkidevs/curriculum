@@ -1,7 +1,7 @@
 ---
 author: fahimrahman
 type: normal
-category: how to
+category: how-to
 tags:
   - array
   - component-type
@@ -9,6 +9,14 @@ tags:
 links:
   - >-
     [www.tutorialspoint.com](http://www.tutorialspoint.com/java/lang/class_getcomponenttype.htm){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Retrieve the component type of an array

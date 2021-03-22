@@ -1,20 +1,28 @@
 ---
 author: emmab
-
 tags:
   - introduction
-
 type: normal
-
 category: must-know
-
 links:
-  - '[Tableau Tutorial](https://help.tableau.com/current/guides/get-started-tutorial/en-us/get-started-tutorial-home.htm){website}'
-
+  - >-
+    [Tableau
+    Tutorial](https://help.tableau.com/current/guides/get-started-tutorial/en-us/get-started-tutorial-home.htm){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
+
 # Tableau Desktop UI
 
+
 ---
+
 ## Content
 
 Tableau supports the ability to connect to loads of different data sources. The *Connect* pane lists the most common places that you might want to connect to[1].
@@ -39,6 +47,7 @@ In these cases, a bar chart is more appropraite and Tableau will update the type
 
 
 ---
+
 ## Practice
 
 Dimensions are ???, and are blue in Tableau. 
@@ -47,7 +56,9 @@ Measures are ???, and are green in Tableau.
 - discrete
 - continuous
 
+
 ---
+
 ## Revision
 
 ??? are discrete, and are blue in Tableau. 
@@ -56,12 +67,15 @@ Measures are ???, and are green in Tableau.
 - Dimensions
 - Measures
 
+
 ---
+
 ## Footnotes
 
 [1:Connecting to Data]
 
 Tableau allows you to connect to data:
+
 - stored in a file, such as Microsoft Excel, PDF, Spatial files etc
 - stored on a server, such as Tableau Server, Microsoft SQL Server, Google Analytics etc
 - stored in your CRM
@@ -84,5 +98,3 @@ Continuous fields can contain an infinite number of values. This can be a range 
 [5: Measures]
 
 Measures are quantitative numerical data. By default, Tableau treats any field containing this kind of data as a measure, for example, sales transactions or profit. Data that is classified as a measure can be aggregated based on a given dimension, for example, total sales (Measure) by region (Dimension).
-
- 

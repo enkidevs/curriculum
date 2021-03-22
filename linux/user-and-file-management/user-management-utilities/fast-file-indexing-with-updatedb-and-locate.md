@@ -1,7 +1,7 @@
 ---
 author: tuwidc
 type: normal
-category: best practice
+category: best-practice
 tags:
   - updatedb
   - mlocate
@@ -10,6 +10,10 @@ tags:
   - indexing filesystem
   - workout
 notes: ''
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Fast file indexing with `updatedb` and `locate`

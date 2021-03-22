@@ -9,6 +9,14 @@ links:
   - >-
     [5 Useful Tips For A Better Commit
     Message](https://robots.thoughtbot.com/5-useful-tips-for-a-better-commit-message){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # How to write a git commit message
@@ -57,7 +65,7 @@ git ??? ???
 - `commit`
 - `-m`
 - `"issue no.8 fixed"`
-- -message
+- `-message`
 
 
 ---

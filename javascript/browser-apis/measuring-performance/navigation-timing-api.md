@@ -5,10 +5,18 @@ category: feature
 links:
   - >-
     [10 HTML5 APIs Worth Looking
-    Into](http://www.sitepoint.com/10-html5-apis-worth-looking/){website}
+    Into](https://www.sitepoint.com/10-html5-apis-worth-looking/){website}
   - >-
     [Profiling Page Loads with the Navigation Timing
-    API](http://www.sitepoint.com/profiling-page-loads-with-the-navigation-timing-api/){website}
+    API](https://www.sitepoint.com/profiling-page-loads-with-the-navigation-timing-api/){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Navigation Timing API
@@ -90,3 +98,4 @@ Navigation API stores events as a property of which object?
 - `timing.loadEventEnd`
 - `timing.navigationStart`
 - `window.performance.navigation`
+ 

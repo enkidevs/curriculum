@@ -6,6 +6,14 @@ links:
   - >-
     [Shortcuts for
     TSP](https://www.wired.com/2013/01/traveling-salesman-problem/){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Traveling Salesman Problem
@@ -88,4 +96,3 @@ The total number can be halved by not counting reversed routes. For example: [A,
 `Non-deterministic polynomial-time(NP)` problems are a class of problems that cannot be solved in polynomial-time.
 
 `NP-hard` class, of which TSP is a member of, is regarded as containing problems at least as hard as the problems in NP.
- 

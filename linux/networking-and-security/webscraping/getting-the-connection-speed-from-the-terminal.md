@@ -10,6 +10,10 @@ tags:
   - speed
 links:
   - '[github.com](https://github.com/sivel/speedtest-cli){website}'
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Getting the connection speed from the terminal

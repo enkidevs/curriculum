@@ -5,6 +5,14 @@ category: must-know
 links:
   - >-
     [scotch.io](https://scotch.io/tutorials/learn-to-use-the-new-router-in-expressjs-4){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Using **Express 4.0** `router`

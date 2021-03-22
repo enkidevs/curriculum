@@ -1,30 +1,38 @@
 ---
 author: emmab
-
 tags:
   - introduction
-
 type: normal
-
 category: must-know
-
 links:
-  - '[Looker Training](https://training.looker.com/looker-for-data-consumers){website}'
+  - >-
+    [Looker
+    Training](https://training.looker.com/looker-for-data-consumers){website}
   - '[UX Tips](https://looker.com/blog/dashboard-ux-ui){website}'
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
+
 # How to use Looker
 
+
 ---
+
 ## Content
 
 In Looker there are two main types of content:
 
 1. **Looks**
-Individual charts, graphs or tables.
+   Individual charts, graphs or tables.
 
 2. **Dashboards**
-A collection of Looks displayed in tiles.
+   A collection of Looks displayed in tiles.
 
 You can favorite any Looks or Dashboards by clicking on the heart next to the title.
 
@@ -42,7 +50,9 @@ Other temporary changes include **sorting data** and **toggling which data is sh
 
 Check out the **Learn More** link for top dashboard UX tips.
 
+
 ---
+
 ## Practice
 
 What are individual charts, graphs or tables called in Looker?
@@ -54,7 +64,9 @@ What are individual charts, graphs or tables called in Looker?
 - Dashboards
 - Views
 
+
 ---
+
 ## Revision
 
 Filtering, sorting and toggling metrics on and off affects everyone's dashboard views.
@@ -63,4 +75,3 @@ Filtering, sorting and toggling metrics on and off affects everyone's dashboard 
 
 - False
 - True
- 

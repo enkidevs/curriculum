@@ -13,6 +13,10 @@ tags:
 links:
   - '[backports.debian.org](http://backports.debian.org/Instructions/){website}'
 notes: ''
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Backporting on Debian

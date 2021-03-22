@@ -6,6 +6,14 @@ links:
   - >-
     [Intent To
     Add](https://github.com/jbranchaud/til/blob/master/git/intent-to-add.md){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Intent to add

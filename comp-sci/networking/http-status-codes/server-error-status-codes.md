@@ -2,6 +2,14 @@
 author: SebaRaba
 type: normal
 category: must-know
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Server error status codes
@@ -34,9 +42,9 @@ In case of an unexpected factor preventing the server from completing the reques
 
 ???
 
-- `500` **Internal Server Error**
-- `502` **Bad Gateway**
-- `504` **Gateway Timeout**
+- `500 Internal Server Error`
+- `502 Bad Gateway`
+- `504 Gateway Timeout`
 
 
 ---
@@ -47,7 +55,6 @@ What status code should the server return if it is unable to process the request
 
 ???
 
-- `503` **Service Unavailable**
-- `501` **Not Implemented**
-- `504` **Gateway Timeout**
- 
+- `503 Service Unavailable`
+- `501 Not Implemented`
+- `504 Gateway Timeout`

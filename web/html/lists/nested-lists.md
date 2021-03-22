@@ -1,13 +1,9 @@
 ---
 author: Stefan-Stojanovic
-
 type: normal
-
 category: must-know
-
 tags:
   - introduction
-
 links:
   - >-
     [HTML <ul>
@@ -15,10 +11,18 @@ links:
   - >-
     [HTML <ol>
     Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ol){documentation}
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Nested Lists
+
 
 ---
 
@@ -110,6 +114,7 @@ In the example above, the ordered list element `<ol>` is used as the main list b
 
 The unordered list elements don't need to be gathered in any specific order, so this organization makes the most sense.
 
+
 ---
 
 ## Practice
@@ -140,6 +145,7 @@ C: ???
 - `il`
 - `bl`
 - `ll`
+
 
 ---
 

@@ -4,6 +4,14 @@ type: normal
 category: tip
 tags:
   - workout
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Retrieve previous arguments
@@ -72,6 +80,6 @@ rm ???
 
 You can use ??? syntax to repeat the last command's argument.
 
-- !$
-- !!
-- !1
+- `!$`
+- `!!`
+- `!1`

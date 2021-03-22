@@ -1,7 +1,7 @@
 ---
 author: adamMontgomerie
 type: normal
-category: best practice
+category: best-practice
 tags:
   - testing
   - junit
@@ -10,6 +10,14 @@ links:
     [javarevisited.blogspot.co.uk](http://javarevisited.blogspot.co.uk/2012/08/best-practices-to-write-junit-test.html){website}
   - >-
     [zeroturnaround.com](http://zeroturnaround.com/rebellabs/dont-test-blindly-the-right-methods-for-unit-testing-your-java-apps/){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Focus testing on key areas
@@ -55,4 +63,3 @@ What area of testing should not be prioritized?
 - `external libraries`
 - `code with frequent bugs`
 - `code accessed by other modules`
- 

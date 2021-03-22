@@ -1,7 +1,7 @@
 ---
 author: tuwidc
 type: normal
-category: how to
+category: how-to
 tags:
   - linux
   - ubuntu
@@ -12,6 +12,14 @@ tags:
 links:
   - >-
     [www.freedesktop.org](https://www.freedesktop.org/software/systemd/man/hostnamectl.html){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Change your `hostname` on systems using `systemd`
@@ -35,7 +43,7 @@ hostnamectl set-hostname
 You should also update the `/etc/hosts` file and change the line which reads:
 
 ```plain-text
-127.0.1.1     old-hostname
+127.0.0.1     old-hostname
 ```
 
 This takes effect immediately without having to reboot.
@@ -65,9 +73,9 @@ Even if you use `hostnamectl` to change the hostname, you should manually edit t
 
 ??? file.
 
-- /etc/hosts 
-- /etc/hostname 
-- /etc/hostnamectl
+- `/etc/hosts`
+- `/etc/hostname`
+- `/etc/hostnamectl`
 
 
 ---

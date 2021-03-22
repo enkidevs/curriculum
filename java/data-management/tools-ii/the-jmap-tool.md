@@ -9,6 +9,14 @@ links:
     [blog.codecentric.de](https://blog.codecentric.de/en/2008/07/memory-analysis-part-1-obtaining-a-java-heapdump/){website}
 notes: >-
   https://insights.enki.com/#/contrib/others/55f42618da97642e00a78196?search=khandelwalrinki
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # The `jmap` tool

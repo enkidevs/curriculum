@@ -6,6 +6,14 @@ links:
   - >-
     [Global Attribute
     List](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Global Attributes 2
@@ -72,9 +80,9 @@ Which 2 atributes use the same Drag and Drop APi?
 
 ???
 
-- `dropzone` and `draggable`
-- `contenteditable` and `draggable`
-- `dropzone` and `hidden`
-- `hidden` and `draggable`
-- `contenteditable` and `hidden`
-- `dropzone` and `contenteditable`
+- `dropzone and draggable`
+- `contenteditable and draggable`
+- `dropzone and hidden`
+- `hidden and draggable`
+- `contenteditable and hidden`
+- `dropzone and contenteditable`

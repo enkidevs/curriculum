@@ -2,7 +2,14 @@
 author: tommarshall
 type: normal
 category: tip
-inAlgoPool: false
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # `Lambda` Functions
@@ -56,9 +63,9 @@ new = filter(??? x: ???, ???)
 ```
 
 - lambda
-- x > 0
+- `x > 0`
 - l
-- x < 0
+- `x < 0`
 - map
 - list
 
@@ -86,3 +93,4 @@ square = ??? ???: x * x
 - `new`
 - `instance`
 - `function`
+ 

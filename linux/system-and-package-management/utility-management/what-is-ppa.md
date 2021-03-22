@@ -9,6 +9,14 @@ links:
     [PPAs with
     GUI](https://askubuntu.com/questions/4983/what-are-ppas-and-how-do-i-use-them){website}
   - '[Launchpad](https://launchpad.net/){website}'
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # What is a PPA?

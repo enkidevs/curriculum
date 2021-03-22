@@ -14,6 +14,14 @@ links:
   - >-
     [MDN Docs on
     z-index](https://developer.mozilla.org/en-US/docs/Web/CSS/z-index){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Use `z-index` to specify the stack order of elements that overlap

@@ -3,6 +3,14 @@ author: Stefan-Stojanovic
 type: normal
 category: must-know
 links: null
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Intro `<step>`
@@ -49,7 +57,7 @@ Which statement is NOT true regarding step attributes within forms?
 
 - Can step between both numbers and letters.
 - Works with fractions, like 1/2 written as ".5".
-- Specifies the legal number intervals for an `<input>` element.
+- `Specifies the legal number intervals for an <input> element.`
 - Can be used with min & max to create range of legal values.
 - Works with these input types: number, date, & time.
 

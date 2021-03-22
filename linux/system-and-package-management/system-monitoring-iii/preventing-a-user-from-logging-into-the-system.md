@@ -8,6 +8,14 @@ tags:
   - false
   - shells
   - prevent
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Preventing a user from logging into the system

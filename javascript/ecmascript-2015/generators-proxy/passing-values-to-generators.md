@@ -5,6 +5,14 @@ category: must-know
 links:
   - >-
     [Generators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Passing Values to Generators
@@ -112,7 +120,8 @@ What happens when you pass a value to the `next` call of a generator?
 
 ???
 
-- it is assigned to the result of the `yield` statement
+- it is assigned to the result of the yield statement
 - nothing
-- it instantly returns an object of the form `{value: input, done: false}`
+- `it instantly returns an object of the form {value: input, done: false}`
 - it will throw an error
+ 

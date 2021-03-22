@@ -6,11 +6,12 @@ tags:
   - introduction
 links:
   - >-
-    [SQL: One of the Most Valuable
-    Skills](http://www.craigkerstiens.com/2019/02/12/sql-most-valuable-skill/){website}
-  - >-
     [Stack Overflow Survey
     2019](https://insights.stackoverflow.com/survey/2019#technology-_-programming-scripting-and-markup-languages){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Why Learn SQL?
@@ -45,4 +46,3 @@ Learning SQL **will not** help you ???.
 - understand databases better
 - extract your own data
 - create your own reports
- 

@@ -1,7 +1,11 @@
 ---
 author: Stefan-Stojanovic
 type: normal
-category: how to
+category: how-to
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # IF
@@ -45,6 +49,5 @@ What the function outputs when its `TRUE` or `FALSE` is up to you. We could've h
 
 When providing values for an `IF` statement, you should ???.
 
-- make sure your values for `TRUE` and `FALSE` are in the correct order
-- make sure you provide the `TRUE` and `FALSE` values before the arguments.
- 
+- make sure your values for TRUE and FALSE are in the correct order
+- make sure you provide the TRUE and FALSE values before the arguments.

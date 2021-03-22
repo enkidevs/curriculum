@@ -2,7 +2,6 @@
 author: mihaiberq
 type: normal
 category: must-know
-inAlgoPool: false
 links:
   - >-
     [HTML <div>
@@ -10,6 +9,10 @@ links:
   - >-
     [HTML <span>
     Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/span){documentation}
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Divisions and Spans
@@ -54,6 +57,8 @@ When using CSS to style `<div>` and `<span>` elements, ids and classes are often
   </p>
 </div>
 ```
+
+[View CodePen](https://codepen.io/enkidevs/pen/dypmEXz)
 
 
 ---

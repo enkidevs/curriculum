@@ -2,11 +2,18 @@
 author: alexjmackey
 type: normal
 category: must-know
-inAlgoPool: false
 links:
   - >-
     [MDN -
     Promises](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Promise){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Promises - Reject
@@ -71,8 +78,7 @@ What is the second argument the `.then` method can take?
 ???
 
 - a function that is triggered if there is an error in the promise
-- a number, which represents in `ms` how long the `.then` should wait before executing
-- a number, which represents in `ms` how long the `.then` should wait before returning 
+- a number, which represents in ms how long the .then should wait before executing
 
 
 ---
@@ -104,3 +110,4 @@ const p = new ???(
 - try
 - resolve
 - reject
+ 

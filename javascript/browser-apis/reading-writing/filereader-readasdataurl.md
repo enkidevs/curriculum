@@ -5,6 +5,14 @@ category: feature
 links:
   - >-
     [FileReader.readAsDataURL()](https://developer.mozilla.org/en-US/docs/Web/API/FileReader/readAsDataURL){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # FileReader.readAsDataURL()
@@ -88,3 +96,4 @@ The URL returned by the `readAsDataURL` function is
 - a base64 encoded string
 - an SVG's code
 - a link to file's location
+ 

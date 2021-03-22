@@ -2,7 +2,6 @@
 author: alexjmackey
 type: normal
 category: must-know
-inAlgoPool: false
 links:
   - >-
     [MDN -
@@ -10,6 +9,14 @@ links:
   - >-
     [MDN -
     Export](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/export){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Multiple Functions in Single Module
@@ -165,3 +172,4 @@ Main file:
 - path
 - get
 - rename
+ 

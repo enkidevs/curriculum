@@ -6,6 +6,14 @@ tags:
   - introduction
   - workout
   - deep
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Packages vs Modules
@@ -67,4 +75,3 @@ Node's `require()` looks for code in
 - node_modules
 - package.json
 - node_packages
- 

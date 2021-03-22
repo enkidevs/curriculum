@@ -1,7 +1,7 @@
 ---
 author: tuwidc
 type: normal
-category: how to
+category: how-to
 tags:
   - apache2
   - benchmark
@@ -10,6 +10,10 @@ tags:
   - ab
   - apachebench
 notes: ''
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Stress testing with `ab`

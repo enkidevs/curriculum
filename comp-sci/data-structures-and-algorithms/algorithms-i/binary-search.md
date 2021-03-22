@@ -4,7 +4,10 @@ type: normal
 category: must-know
 links:
   - '[Binary Search](http://quiz.geeksforgeeks.org/binary-search/){website}'
-
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Binary Search
@@ -78,4 +81,3 @@ The Big-O of the binary search algorithm is:
 - O(n)
 - O(nˆ2)
 - O(n*log n)
- 

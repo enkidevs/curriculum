@@ -1,13 +1,17 @@
 ---
 author: tuwidc
 type: normal
-category: how to
+category: how-to
 tags:
   - linux
   - distribution
   - lsb_release
   - command
   - temrinal
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Detect your linux distribution

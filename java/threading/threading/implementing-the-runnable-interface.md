@@ -1,7 +1,7 @@
 ---
 author: nickdaminov
 type: normal
-category: how to
+category: how-to
 links:
   - >-
     [More on Runnable
@@ -12,6 +12,14 @@ links:
   - >-
     [More on Overriding
     `.start()`](http://www.javamadesoeasy.com/2015/03/what-will-happen-if-we-override-start.html){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Implementing the Runnable Interface
@@ -124,4 +132,4 @@ When implementing a `runnable` interface do we create a thread?
 ???
 
 - No, we create a runnable object that has to be passed to an instance of a Thread
-- Yes, we can call `start()` on it straight away as it is a runnable thread.
+- `Yes, we can call start() on it straight away as it is a runnable thread.`

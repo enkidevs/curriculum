@@ -2,6 +2,14 @@
 author: Stefan-Stojanovic
 type: normal
 category: must-know
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # The `<meta>` Element
@@ -53,7 +61,7 @@ Meta tags do all but which of the following:
 
 - Some of the data can be displayed in the web page.
 - Google will ignore meta tags it doesn't recognize.
-- Are added to the `<head>` of nearly every web page.
+- `Are added to the <head> of nearly every web page.`
 - Are used to provide information to all sorts of clients.
 - Some specific data will display in search engine results.
 - Some of the tags will help improve the pages SEO.

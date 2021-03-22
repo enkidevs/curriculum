@@ -1,15 +1,22 @@
-﻿---
+---
 author: Stefan-Stojanovic
-
 type: normal
-
-category: how to
-
+category: how-to
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # How to Create a Sparkline Chart?
 
+
 ---
+
 ## Content
 
 As previously mentioned, these charts are created using the `=SPARKLINE()` function.
@@ -27,10 +34,11 @@ The `options` are optional. You can select an array or range of settings to cust
 The type of chart is selected in the `options` field.
 
 The possible options for selecting a chart are:
- - `=SPARKLINE(data, {"charttype", "line"})`
- - `=SPARKLINE(data, {"charttype", "column"})`
- - `=SPARKLINE(data, {"charttype", "bar"})`
- - `=SPARKLINE(data, {"charttype", "winloss"})`
+
+- `=SPARKLINE(data, {"charttype", "line"})`
+- `=SPARKLINE(data, {"charttype", "column"})`
+- `=SPARKLINE(data, {"charttype", "bar"})`
+- `=SPARKLINE(data, {"charttype", "winloss"})`
 
 As you can see in the list above, the `options` part should be "two field-wide".
 
@@ -44,7 +52,9 @@ We will go into the sub-options for each chart in the next few insights.
 
 > Sparkline charts can only be created with a single row or column of data. If you want to use more than 1 column/row you have to use regular charts.
 
+
 ---
+
 ## Practice
 
 Which of the following chart types cannot be created using the `=SPARKLINE()` function?
@@ -57,7 +67,9 @@ Which of the following chart types cannot be created using the `=SPARKLINE()` fu
 - winloss
 - bar
 
+
 ---
+
 ## Revision
 
 Sparkline charts can ???.

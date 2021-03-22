@@ -1,11 +1,19 @@
 ---
 author: rosielowther
 type: normal
-category: best practice
+category: best-practice
 links:
   - >-
     [Git Rebasing Official
     Documentation](http://git-scm.com/book/en/v2/Git-Branching-Rebasing){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # The golden rule of rebasing

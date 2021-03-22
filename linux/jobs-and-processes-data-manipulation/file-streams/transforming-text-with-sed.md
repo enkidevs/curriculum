@@ -2,9 +2,16 @@
 author: jfarmer
 type: normal
 category: must-know
-inAlgoPool: false
 links:
   - '[Useful sed one-liners](http://sed.sourceforge.net/sed1line.txt){website}'
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Transforming Text With `sed`

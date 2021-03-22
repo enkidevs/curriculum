@@ -9,6 +9,14 @@ links:
   - >-
     [MDN Docs on
     :out-of-range](https://developer.mozilla.org/en-US/docs/Web/CSS/:out-of-range){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # The `:in-range` and `:out-of-range` Pseudo-Classes
@@ -53,8 +61,8 @@ For either `:in-range` and `:out-of-range` pseudo-classes to match, the element 
 
 ???
 
-- `min`, `max` or both attributes
-- `range` attribute
+- min, max or both attributes
+- range attribute
 - the type of input
 
 
@@ -66,6 +74,6 @@ For either `:in-range` and `:out-of-range` pseudo-classes to match, the element 
 
 ???
 
-- `min`, `max` or both attributes
-- `range` attribute
+- min, max or both attributes
+- range attribute
 - the type of input

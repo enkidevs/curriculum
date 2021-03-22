@@ -1,7 +1,7 @@
 ---
 author: Stefan-Stojanovic
 type: normal
-category: how to
+category: how-to
 ---
 
 # What Are Logical Functions

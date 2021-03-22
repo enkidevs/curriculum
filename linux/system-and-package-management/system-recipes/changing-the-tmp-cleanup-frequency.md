@@ -1,13 +1,21 @@
 ---
 author: tuwidc
 type: normal
-category: best practice
+category: best-practice
 tags:
   - linux
   - crontab
   - tmp
   - temp
   - cleanup
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Changing the `/tmp` cleanup frequency

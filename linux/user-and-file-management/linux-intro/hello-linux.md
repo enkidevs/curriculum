@@ -8,10 +8,14 @@ tags:
 links:
   - >-
     [Install
-    Ubuntu](https://ubuntu.com/tutorials/tutorial-install-ubuntu-desktop#1-overview){website}
+    Ubuntu](https://ubuntu.com/tutorials/install-ubuntu-desktop#1-overview){website}
   - >-
     [Try
     Ubuntu](https://ubuntu.com/tutorials/try-ubuntu-before-you-install#1-getting-started){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Hello Linux
@@ -59,4 +63,3 @@ Similarly to how you can use a mouse to tell the computer to open a file, you ca
 From opening files to increasing the computer volume, there's a terminal command for anything the computer can do.
 
 The term "terminal" originates from the first computers, which had a physical terminal that was used to communicate.
- 

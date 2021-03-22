@@ -1,13 +1,17 @@
 ---
 author: mihaiberq
-
 type: normal
-
 category: must-know
-
 tags:
   - introduction
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Why Should I Use npm?
@@ -57,4 +61,3 @@ A faster alternative package manager to npm is
 - browserify
 - react
 - node
- 

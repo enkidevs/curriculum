@@ -9,6 +9,14 @@ tags:
   - lynx
   - html
   - strip
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Using `lynx` to convert HTML to text

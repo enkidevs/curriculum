@@ -12,6 +12,10 @@ tags:
   - touch
   - workout
 notes: ''
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Truncate files with `cat` instead of `rm`

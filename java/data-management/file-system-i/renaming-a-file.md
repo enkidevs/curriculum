@@ -1,7 +1,7 @@
 ---
 author: nickdaminov
 type: normal
-category: how to
+category: how-to
 links:
   - >-
     [File Class
@@ -9,6 +9,14 @@ links:
   - >-
     [File Manipulations with
     Examples](https://www.tutorialspoint.com/java/io/java_io_file.htm){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Renaming a File
@@ -73,7 +81,7 @@ Why is it important to use try/catch block when working with files?
 - It returns a boolean value depending on whether operation was successful
 - There may not be a file that is specified by the path
 - It takes a new name of a file as a string value
-- `renameTo()` is a void function so it does not return anything
+- renameTo() is a void function so it does not return anything
 
 
 ---
@@ -85,5 +93,5 @@ Can the `File.renameTo()` method be used to move a file to another directory?
 ???
 
 - Yes, it can move the file to any directory in the system
-- Yes, but only if this directory is a part of `src` folder
+- Yes, but only if this directory is a part of src folder
 - No, it can only rename the file

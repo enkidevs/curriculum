@@ -10,6 +10,14 @@ tags:
 links:
   - '[inux.die.net](https://linux.die.net/man/8/lsof){website}'
 notes: to review parent
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Finding Open Files With `lsof`
@@ -55,10 +63,10 @@ sudo lsof /var/log/syslog
 
 flag is required to find files used by a specific process.
 
-- -p
-- -f
-- -r
-- -pr
+- `-p`
+- `-f`
+- `-r`
+- `-pr`
 
 
 ---

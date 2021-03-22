@@ -6,6 +6,14 @@ links:
   - >-
     [HTML <header>
     Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/header){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # The `<header>` Element
@@ -103,9 +111,9 @@ The HTML `<header>` element cannot what?
 
 ???
 
-- be added within a `<footer>` element.
+- `be added within a <footer> element.`
 - contain website navigation
 - display one or more heading (h1-h6) elements
 - hold a graphical logo
 - display authorship information
-- have multiple `<header>` elements within the same doc.
+- `have multiple <header> elements within the same doc.`

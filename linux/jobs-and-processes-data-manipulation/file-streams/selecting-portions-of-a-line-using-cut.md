@@ -2,7 +2,14 @@
 author: jfarmer
 type: normal
 category: must-know
-inAlgoPool: false
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Selecting Portions of A Line Using `cut`
@@ -93,7 +100,7 @@ cut ??? ??? ???
 
 The flag used to specify the delimiter of the `cut` command is ???.
 
-- -d
-- -f
-- -a
-- -F
+- `-d`
+- `-f`
+- `-a`
+- `-F`

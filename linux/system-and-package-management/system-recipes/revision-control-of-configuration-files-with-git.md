@@ -8,6 +8,10 @@ tags:
   - bash
   - backup
 notes: ''
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Revision control of configuration files with git

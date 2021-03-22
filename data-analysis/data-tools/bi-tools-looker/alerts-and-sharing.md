@@ -1,17 +1,24 @@
 ---
 author: emmab
-
 tags:
   - introduction
-
 type: normal
-
 category: must-know
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
+
 # Alerts and Sharing Reports
 
+
 ---
+
 ## Content
 
 You can configure **alerts** for particular events. 
@@ -28,7 +35,9 @@ If you want to share your data **once**, then you can either *send a snapshot in
 
 If you want the data shared **repeatedly**, then you can schedule it to *send a snapshot of the data on a regular basis*. There are loads of configurable options and multiple email addresses can be added. 
 
+
 ---
+
 ## Practice
 
 How can you check whether a particular event, such as orders reaching 1000 each day, using Looker?
@@ -42,6 +51,7 @@ How can you check whether a particular event, such as orders reaching 1000 each 
 
 
 ---
+
 ## Revision
 
 How can you check whether a particular event, such as items per delivery reaching 20 per driver, using Looker?
@@ -53,7 +63,9 @@ How can you check whether a particular event, such as items per delivery reachin
 - Sharing
 - Notifications
 
+
 ---
+
 ## Footnotes
 
 [1:Webhooks]
@@ -63,5 +75,3 @@ A webhook, often called a reversed API, just sends the data when it’s availabl
 To use a webhook, you register a URL with the company providing the service. That URL is a place within your application that will accept the data and do something with it. 
 
 In some cases, you can tell the provider the situations when you’d like to receive data. Whenever there’s something new, the webhook will send it to your URL.
-
- 

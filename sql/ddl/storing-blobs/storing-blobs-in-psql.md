@@ -1,18 +1,23 @@
 ---
 author: mihaiberq
-
 type: normal
-
-category: how to
-
+category: how-to
 tags:
   - introduction
   - workout
   - deep
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Handling Blobs in SQL
+
 
 ---
 
@@ -37,6 +42,7 @@ VALUES(decode('\xBYTESOFPIKACHUSPRITE',
 ```
 
 Here, the decode function gets a hex string and decodes it into `bytea`.
+
 
 ---
 

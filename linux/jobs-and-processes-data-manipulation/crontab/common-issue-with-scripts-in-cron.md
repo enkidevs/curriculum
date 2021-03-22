@@ -7,6 +7,14 @@ tags:
   - cron
   - script
   - executable
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Common issue with scripts in `cron`

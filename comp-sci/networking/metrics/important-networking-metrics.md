@@ -7,6 +7,14 @@ links:
     [www.techopedia.com](https://www.techopedia.com/definition/8319/metric-networking){website}
   - >-
     [www.informit.com](http://www.informit.com/articles/article.aspx?p=26129&seqNum=7){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Important networking metrics
@@ -74,4 +82,3 @@ Which of the following metrics define maximum rate that information can be trans
 It's not mandatory to measure performance. Instead it can also be modelled and simulated.
 
 One such example is using state transition diagrams to model queuing performance using a **network simulator**.
- 

@@ -11,7 +11,7 @@ levels:
 
 type: normal
 
-category: how to
+category: how-to
 
 notes: ''
 

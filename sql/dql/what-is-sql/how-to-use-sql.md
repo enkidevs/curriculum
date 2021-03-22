@@ -4,6 +4,14 @@ type: normal
 category: must-know
 tags:
   - introduction
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # How to use SQL?
@@ -25,6 +33,7 @@ The American National Standards Institute (ANSI) has adopted SQL as a standard s
 
 This means that any code written in ANSI should work with any flavor. So for the rest of this course, we'll teach you the ANSI Standard SQL. 
 
+
 ---
 
 ## Practice
@@ -38,6 +47,7 @@ What is the acronym of the company that maintains the SQL standard?
 - ASIN
 - AINS
 
+
 ---
 
 ## Revision
@@ -48,6 +58,7 @@ ANSI stands for American National ??? ???.
 - Institute
 - SQL
 - Instrumentation
+
 
 ---
 

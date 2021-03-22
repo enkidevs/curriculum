@@ -1,7 +1,7 @@
 ---
 author: tuwidc
 type: normal
-category: how to
+category: how-to
 tags:
   - linux
   - permissions
@@ -10,6 +10,10 @@ tags:
   - ssh
   - stat
   - introduction
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Get file permissions in octal form

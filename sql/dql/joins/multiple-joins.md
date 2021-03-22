@@ -1,13 +1,19 @@
 ---
 author: mihaiberq
-
 type: normal
-
 category: must-know
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Multiple JOINs
+
 
 ---
 
@@ -70,11 +76,12 @@ This is effectively a join between the first two tables (`pokemon_type` and `pok
 These are the first four rows of output (out of 1225):
 
 | pokemon   | type   |
-|-----------|--------|
+| --------- | ------ |
 | bulbasaur | grass  |
 | bulbasaur | poison |
 | ivysaur   | grass  |
 | ivysaur   | poison |
+
 
 ---
 
@@ -99,6 +106,7 @@ LEFT JOIN subsidiaries ???
 - LEFT JOIN
 - ON
 
+
 ---
 
 ## Revision
@@ -109,6 +117,7 @@ In order to join multiple tables together, subqueries must be used.
 
 - False
 - True
+
 
 ---
 

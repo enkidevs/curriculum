@@ -7,6 +7,14 @@ tags:
 links:
   - >-
     [tutorialsteacher.com](http://www.tutorialsteacher.com/nodejs/nodejs-console-repl){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # The REPL Terminal

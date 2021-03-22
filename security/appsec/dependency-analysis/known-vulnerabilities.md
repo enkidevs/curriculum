@@ -7,6 +7,14 @@ links:
     [Common Vulnerabilities and
     Exposures](https://cve.mitre.org/index.html){website}
   - '[National Vulnerability Database](https://nvd.nist.gov/){website}'
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Known Vulnerabilities
@@ -49,4 +57,3 @@ What is the most common cause of using components with known vulnerabilities?
 - Allowing my dependencies to get out of date
 - Using open-source components
 - Using internally-developed components
- 

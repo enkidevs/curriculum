@@ -9,6 +9,14 @@ tags:
   - terminal
   - config
 notes: ''
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Aliasing ssh connections
@@ -84,7 +92,7 @@ User root
 
 You can alias *ssh connections* by editing the ??? file .
 
-- .ssh/config
-- .ssh/connections
-- .ssh/servers
-- .ssh/alias
+- `.ssh/config`
+- `.ssh/connections`
+- `.ssh/servers`
+- `.ssh/alias`

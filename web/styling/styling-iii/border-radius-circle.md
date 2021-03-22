@@ -4,6 +4,14 @@ type: normal
 category: tip
 links:
   - '[CSS Circles](http://davidwalsh.name/css-circles){website}'
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # `border-radius` circle
@@ -52,4 +60,3 @@ What does the `border-radius` property do to elements? ???
 - Gives the element square corners.
 - Makes a circular shadow for the element.
 - Defines how far the border surrounding the element is from the actual element.
- 

@@ -1,19 +1,27 @@
-﻿---
+---
 author: Stefan-Stojanovic
-
 type: normal
-
-category: how to
-
+category: how-to
 links:
-  - '[AVERAGEIF](https://support.google.com/docs/answer/3256529?hl=en){documentation}'
-  - '[COUNTIF](https://support.google.com/docs/answer/3093480?hl=en){documentation}'
-
+  - >-
+    [AVERAGEIF](https://support.google.com/docs/answer/3256529?hl=en){documentation}
+  - >-
+    [COUNTIF](https://support.google.com/docs/answer/3093480?hl=en){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # AVERAGEIF, COUNTIF
 
+
 ---
+
 ## Content
 
 When analyzing your data set, you might not want to include all the values.
@@ -47,6 +55,7 @@ The `criteria_range` is the range of cells you select, on which the `criterion` 
 The `criterion` is a pattern used to apply to the `criteria_range`. This is how you decide which cells get averaged and which don't.
 
 The possible patterns are:
+
 - Equals: `text`, `=text`, `"number"`, `"=number"`
 - Greater than: `">number"`
 - Smaller than: `"<number"`
@@ -54,31 +63,37 @@ The possible patterns are:
 - Smaller than or equal: `<=number`
 - Not equal to: `<>number` or `<>text`
 
+
 ---
+
 ## Practice
 
 Which of the following formulas is used to average values based on a criterion?
 
 ???
 
-- =AVERAGEIF
-- =AVERAGE
-- =COUNTIF
-- =COUNT
+- `=AVERAGEIF`
+- `=AVERAGE`
+- `=COUNTIF`
+- `=COUNT`
+
 
 ---
+
 ## Revision
 
 Which of the following formulas is used to count values based on a criterion?
 
 ???
 
-- =COUNTIF
-- =AVERAGEIF
-- =AVERAGE
-- =COUNT
+- `=COUNTIF`
+- `=AVERAGEIF`
+- `=AVERAGE`
+- `=COUNT`
+
 
 ---
+
 ## Footnotes
 
 [1:Excel Extra Argument]

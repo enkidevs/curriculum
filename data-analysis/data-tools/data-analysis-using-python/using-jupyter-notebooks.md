@@ -1,21 +1,28 @@
 ---
 author: emmab
-
 tags:
   - introduction
-
 type: normal
-
 category: must-know
-
 links:
-  - '[Install Jupyter Notebooks](https://jupyter.readthedocs.io/en/latest/install.html){website}'
-
-
+  - >-
+    [Install Jupyter
+    Notebooks](https://jupyter.readthedocs.io/en/latest/install.html){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
+
 # Using Jupyter Notebooks
 
+
 ---
+
 ## Content
 
 If there is one tool which every data scientist should use or must be comfortable with, it is a **Jupyter Notebook**.
@@ -46,7 +53,9 @@ You can also write in markdown[1]. This is particularly useful to add any explan
 
 Next we're going to look out how to use these libraries so that we can explore our data!
 
+
 ---
+
 ## Practice
 
 Jupyter Notebooks allow you to write in ??? code or ???.
@@ -56,7 +65,9 @@ Jupyter Notebooks allow you to write in ??? code or ???.
 - JavaScript
 - HTML
 
+
 ---
+
 ## Revision
 
 You can import any Python libraries you may need into a Jupyter Notebook.
@@ -66,11 +77,12 @@ You can import any Python libraries you may need into a Jupyter Notebook.
 - True
 - False
 
+
 ---
+
 ## Footnotes
 
 [1:Markdown]
 Markdown is a lightweight markup language with plain-text-formatting syntax.
 
 Markdown is often used to format readme files, for writing messages in online discussion forums, and to create rich text using a plain text editor.
- 

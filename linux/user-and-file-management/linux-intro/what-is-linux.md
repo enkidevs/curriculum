@@ -10,6 +10,10 @@ links:
   - >-
     [Image
     Source](https://www.cyberciti.biz/humour/dad-what-are-clouds-made-of-in-it/){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # What's Linux?
@@ -56,4 +60,3 @@ Linux is an ???.
 Unix is the first major operating system that made it easier to write and manage programs.
 
 It was created in 1969 at the famous [Bell Labs](https://en.wikipedia.org/wiki/Bell_Labs).
- 

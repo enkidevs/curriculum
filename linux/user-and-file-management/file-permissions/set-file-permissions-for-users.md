@@ -7,6 +7,10 @@ links:
     [Managing Group
     Access](http://www.yolinux.com/TUTORIALS/LinuxTutorialManagingGroups.html){website}
   - '[Unix Permissions](https://drawings.jvns.ca/permissions/){illustration}'
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Set file permissions for users

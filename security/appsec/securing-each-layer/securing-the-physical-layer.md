@@ -2,11 +2,18 @@
 author: milesflo
 type: normal
 category: must-know
-inAlgoPool: false
 links:
   - >-
     [SANS
     Institute](https://www.sans.org/reading-room/whitepapers/protocols/applying-osi-layer-network-model-information-security-1309){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Securing the Physical Layer
@@ -63,4 +70,3 @@ What is one control in the Physical Layer of the OSI Model?
 - Use of a physical firewall
 - Encrypted password exchange and storage
 - Using switches to branch off wired connections
- 

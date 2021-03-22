@@ -1,23 +1,26 @@
-﻿---
+---
 author: Stefan-Stojanovic
-
 type: normal
-
-category: how to
-
+category: how-to
 links:
   - '[SWITCH](https://support.google.com/docs/answer/7013690){documentation}'
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # SWITCH
 
+
 ---
+
 ## Content
 
 The `=SWITCH()` function is used to check if an expression corresponds to a list of cases and returns the value for the case it corresponds with.
 
 The syntax is:
+
 ```plain-text
 =SWITCH(
   expression, 
@@ -48,7 +51,9 @@ If your expression has 50 cells, the switch will return 50 results.
 
 ![switch](https://img.enkipro.com/e362778a4875d151ccf2782f5fdcee38.png)
 
+
 ---
+
 ## Practice
 
 In which order do you write the `value`, `case`, `default` case, and `expression` in the `SWITCH()` functions?

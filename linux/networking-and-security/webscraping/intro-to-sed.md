@@ -9,6 +9,14 @@ tags:
   - delete empty lines
   - regex
 notes: ''
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Intro to `sed`
@@ -88,7 +96,7 @@ To replace all the occurrences of a word, you would most likely use the
 
 ???
 
-- `g` flag
-- `all` flag
-- `l` flag
-- `0` flag
+- `g flag`
+- `all flag`
+- `l flag`
+- `0 flag`

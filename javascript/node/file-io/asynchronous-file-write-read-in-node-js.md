@@ -8,6 +8,14 @@ tags:
 links:
   - >-
     [nodejs.org](https://nodejs.org/api/fs.html#fs_fs_readfile_file_options_callback){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Asynchronous File Write/Read in Node.js

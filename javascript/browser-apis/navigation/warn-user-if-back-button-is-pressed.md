@@ -5,6 +5,14 @@ category: feature
 links:
   - >-
     [viralpatel.net](http://viralpatel.net/blogs/disable-back-button-browser-javascript/){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Warn user if **Back** button is pressed
@@ -69,3 +77,4 @@ Fill the missing event listener such that it will be automatically triggered whe
 - dom
 - global
 - events
+ 

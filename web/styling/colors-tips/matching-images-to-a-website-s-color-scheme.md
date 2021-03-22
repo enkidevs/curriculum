@@ -1,15 +1,15 @@
 ---
 author: oj14henry
 type: normal
-category: how to
+category: how-to
 tags:
   - matching
   - hue
   - image
-links:
-  - >-
-    [CSS
-    Tricks](http://carlosmartinezt.com/2014/04/css-tricks-for-2014/){website}
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Matching images to a website's color scheme

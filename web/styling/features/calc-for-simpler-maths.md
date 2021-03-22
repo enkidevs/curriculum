@@ -1,7 +1,7 @@
 ---
 author: nene
 type: normal
-category: how to
+category: how-to
 tags:
   - layout
 links:
@@ -11,6 +11,10 @@ links:
   - >-
     [MDN Docs on
     calc()](https://developer.mozilla.org/en-US/docs/Web/CSS/calc){documentation}
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # `calc()` for simpler maths

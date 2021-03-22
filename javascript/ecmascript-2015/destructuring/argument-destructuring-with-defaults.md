@@ -2,10 +2,13 @@
 author: Stefan-Stojanovic
 type: normal
 category: tip
-inAlgoPool: false
 links:
   - >-
     [MDN](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Argument Destructuring With Defaults
@@ -63,3 +66,4 @@ function x({ a, b } = {}) {
 
 - B
 - A
+ 

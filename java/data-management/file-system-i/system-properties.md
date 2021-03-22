@@ -6,6 +6,14 @@ links:
   - >-
     [More on System
     Properties](https://docs.oracle.com/javase/tutorial/essential/environment/sysprop.html){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # System Properties
@@ -66,4 +74,3 @@ Why is it important to consider different system properties when working with fi
 
 - Different operating systems have their own unique properties which if mixed up will ruin the program
 - System properties are changing through out the execution process so it is important to stay up to date to ensure the correctness of the program
- 

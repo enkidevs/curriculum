@@ -8,6 +8,14 @@ tags:
   - terminal
   - bash
   - shell
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Using the Terminal

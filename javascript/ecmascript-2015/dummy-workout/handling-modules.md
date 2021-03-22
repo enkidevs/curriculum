@@ -1,30 +1,27 @@
 ---
 author: nene
-
 levels:
-
   - basic
-
   - advanced
-
   - medium
-
 type: normal
-
-category: how to
-
+category: how-to
 tags:
-
   - modules
-
 links:
-
-  - '[www.sitepoint.com](http://www.sitepoint.com/understanding-es6-modules/){website}'
-
+  - >-
+    [www.sitepoint.com](http://www.sitepoint.com/understanding-es6-modules/){website}
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
+
 # Handling modules
 
+
 ---
+
 ## Content
 
 Anything that is declared in a file in an `ES6` project isn't available outside of the said file. 
@@ -43,25 +40,28 @@ export default function User(age){
 ```
 
 Import the class in another file: 
-```
-//user_info.js
 
-import User from 'user';
-var newbie = new User(22);
-```
+    //user_info.js
+
+    import User from 'user';
+    var newbie = new User(22);
+
 
 ---
+
 ## Revision
 
 Import the `enki` class in another file :
+
 ```javascript
 ??? Enki ??? 'enki';
 ```
-* import
-* from
-* to
-* export
-* default
-* function
-* require
+
+- import
+- from
+- to
+- export
+- default
+- function
+- require
  

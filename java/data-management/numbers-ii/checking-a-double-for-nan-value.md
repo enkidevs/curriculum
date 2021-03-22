@@ -1,7 +1,7 @@
 ---
 author: tommarshall
 type: normal
-category: how to
+category: how-to
 ---
 
 # Checking a double for `NaN` value

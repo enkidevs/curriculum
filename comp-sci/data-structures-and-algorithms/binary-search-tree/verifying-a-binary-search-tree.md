@@ -1,11 +1,19 @@
 ---
 author: jfarmer
 type: normal
-category: how to
+category: how-to
 links:
   - >-
     [Validating a
     BST](http://stackoverflow.com/questions/499995/how-do-you-validate-a-binary-search-tree){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Verifying A Binary Search Tree
@@ -83,4 +91,3 @@ A node in a binary search tree has to be
 - larger than its left child and smaller than its right one.
 - larger than the root and smaller than the right-most leaf.
 - larger than any node in its right subtree and smaller than any node in the left one.
- 

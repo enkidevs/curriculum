@@ -7,6 +7,14 @@ tags:
 links:
   - >-
     [www.cyberciti.biz](http://www.cyberciti.biz/faq/howto-compress-expand-gz-files/){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Working with `.gz` files
@@ -38,10 +46,10 @@ gzip file
 
 The ??? flag is used to decompress files.
 
-- -d
-- -c
-- -f
-- no flag
+- `-d`
+- `-c`
+- `-f`
+- `no flag`
 
 
 ---

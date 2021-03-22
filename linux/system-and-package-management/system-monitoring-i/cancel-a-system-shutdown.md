@@ -1,9 +1,13 @@
 ---
 author: nene
 type: normal
-category: how to
+category: how-to
 tags:
   - shutdown
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Cancel a system shutdown

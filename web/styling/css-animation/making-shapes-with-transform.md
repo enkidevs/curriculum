@@ -1,13 +1,17 @@
 ---
 author: oj14henry
 type: normal
-category: how to
+category: how-to
 tags:
   - transform
 links:
   - >-
     [Working With
     Shapes](https://css-tricks.com/working-with-shapes-in-web-design/){article}
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Making shapes with `transform`

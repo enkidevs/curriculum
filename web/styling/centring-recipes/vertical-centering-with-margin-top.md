@@ -1,7 +1,7 @@
 ---
 author: Mathieu
 type: normal
-category: how to
+category: how-to
 links:
   - >-
     [CSS Vertical
@@ -9,6 +9,10 @@ links:
   - >-
     [47 CSS Tips &
     Tricks](http://www.instantshift.com/2010/03/15/47-css-tips-tricks-to-take-your-site-to-the-next-level/){website}
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Vertical centering with `margin-top`

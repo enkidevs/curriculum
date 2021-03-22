@@ -7,6 +7,10 @@ tags:
   - bash
   - terminal
 notes: ''
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Rapidly invoke an editor to write a long, complex, or tricky command
@@ -50,4 +54,3 @@ Choose the odd one out in the following list.
 - vi
 - vim
 - nano
- 

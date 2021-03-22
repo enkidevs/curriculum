@@ -16,9 +16,9 @@ sections:
     - code-style-recommendations
     - express
     - express-ii
-    - best-practices
-    - patterns
-    - tools
+    - node-best-practices
+    - node-patterns
+    - node-tools
     - quirks
     - processes-clustering
 

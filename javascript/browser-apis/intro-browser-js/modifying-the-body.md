@@ -1,10 +1,7 @@
 ---
 author: elliehoward
-
 type: normal
-
 category: must-know
-
 links:
   - >-
     [MDN -
@@ -12,10 +9,18 @@ links:
   - >-
     [W3 Schools - HTML DOM body
     Property](https://www.w3schools.com/jsref/prop_doc_body.asp){website}
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Modifying the Body
+
 
 ---
 
@@ -64,6 +69,7 @@ You can also do cool things like change the background color of the page by sett
 </html>;
 ```
 
+
 ---
 
 ## Practice
@@ -82,6 +88,7 @@ let bodyElement =
 - `DOM`
 - `element`
 - `innerHTML`
+
 
 ---
 

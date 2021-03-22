@@ -9,6 +9,14 @@ tags:
   - bash
   - terminal
   - files
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Difference between `redirection` and `pipe`
@@ -71,7 +79,7 @@ script.sh ??? file.txt
 
 - passing the output to a stream or file
 - passing the output to a script
-- passing the output to `cat`
+- passing the output to cat
 - passing the output to an utility
 
 

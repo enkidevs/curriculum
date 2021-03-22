@@ -1,19 +1,27 @@
-﻿---
+---
 author: Stefan-Stojanovic
-
 type: normal
-
-category: how to
-
+category: how-to
 links:
-  - '[AVERAGEIF](https://support.google.com/docs/answer/3256529?hl=en){documentation}'
-  - '[COUNTIF](https://support.google.com/docs/answer/3093480?hl=en){documentation}'
-
+  - >-
+    [AVERAGEIF](https://support.google.com/docs/answer/3256529?hl=en){documentation}
+  - >-
+    [COUNTIF](https://support.google.com/docs/answer/3093480?hl=en){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Function Example
 
+
 ---
+
 ## Content
 
 Now, let's take a look at some examples.
@@ -52,7 +60,9 @@ The result of this function is:
 
 ![countif-result](https://img.enkipro.com/d4f763bb2541cb19f2b8751ea75f9032.png)
 
+
 ---
+
 ## Practice
 
 Count the values in cells `A1:A6` **only if** they are lower than two.
@@ -71,7 +81,9 @@ Count the values in cells `A1:A6` **only if** they are lower than two.
 - "A1:A6"
 - <2
 
+
 ---
+
 ## Revision
 
 Average the values in cells `D2:D8` **only if** they are not equal to one.

@@ -2,10 +2,17 @@
 author: alexjmackey
 type: normal
 category: must-know
-inAlgoPool: false
 links:
   - >-
     [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Iteration_protocols){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Iterator Usages
@@ -49,8 +56,8 @@ Can an iterator be used to implement an infinite sequence?
 
 ???
 
-- Yes, by never returning `done` as `true`
-- No, because an iterator must always have `done` equal to `true` at some point
+- Yes, by never returning done as true
+- No, because an iterator must always have done equal to true at some point
 - No, because the memory needed will kill any machine
-- Yes, by making the `next` function recursive
+- Yes, by making the next function recursive
  

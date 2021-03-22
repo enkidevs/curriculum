@@ -9,6 +9,14 @@ links:
   - >-
     [W3 Schools - DOM Body property (Try out the
     examples)](https://www.w3schools.com/jsref/prop_doc_body.asp){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Element Contents

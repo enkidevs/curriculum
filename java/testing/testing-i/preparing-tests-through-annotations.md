@@ -4,6 +4,14 @@ type: normal
 category: tip
 notes: |
   https://insights.enki.com/#/contrib/5594adacabc92e3300233c3b
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Preparing tests through annotations
@@ -45,8 +53,8 @@ In case you need a *custom set up* function for a *single test* in a set, you sh
 ???
 
 - define and call it as a normal method
-- annotate it with `@BeforeAll`
-- annotate it with `@BeforeEach`
+- `annotate it with @BeforeAll`
+- `annotate it with @BeforeEach`
 - write a new test
 
 

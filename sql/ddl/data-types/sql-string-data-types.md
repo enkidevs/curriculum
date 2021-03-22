@@ -9,6 +9,14 @@ links:
   - >-
     [ANSI Standard Data
     Types](https://en.wikibooks.org/wiki/Structured_Query_Language/Data_Types){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # SQL String Data Types

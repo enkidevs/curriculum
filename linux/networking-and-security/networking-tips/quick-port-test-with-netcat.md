@@ -7,6 +7,10 @@ tags:
   - terminal
   - netcat
 notes: ''
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Quick port test with `netcat`

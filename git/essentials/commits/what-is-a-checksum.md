@@ -6,6 +6,10 @@ links:
   - >-
     [Getting Started Git
     Basics](http://git-scm.com/book/en/v2/Getting-Started-Git-Basics){website}
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # What is a checksum?
@@ -41,4 +45,3 @@ Git *hashing* is based on the ??? of a file or directory structure .
 - content
 - name
 - date of creation
- 

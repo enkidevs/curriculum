@@ -4,6 +4,14 @@ type: normal
 category: feature
 links:
   - '[node-verror](https://github.com/davepacheco/node-verror){documentation}'
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Wrapping Errors in Node.Js Using `node-verror`
@@ -77,7 +85,7 @@ What two classes does the `node-verror` provide?
 
 ???
 
-- `VError` and `WError`
-- `VError` and `Error`
-- `WError` and `Error`
-- `VError` and `WrapError`
+- `VError and WError`
+- `VError and Error`
+- `WError and Error`
+- `VError and WrapError`

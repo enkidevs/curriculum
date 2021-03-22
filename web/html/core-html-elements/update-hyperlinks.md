@@ -3,6 +3,14 @@ author: Stefan-Stojanovic
 type: normal
 category: must-know
 links: null
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Hyperlinks
@@ -120,7 +128,7 @@ When will the cursor change to a pointer with the following code?
 </main>
 ```
 
-When the mouse hovers: ???
+When the mouse hovers ???
 
 How is a placeholder link created, where the link works, but it doesn't open a new page?
 
@@ -136,19 +144,19 @@ What is the default style of a text link in HTML?
 
 ???
 
-- over the text within the `<a>` element.
+- `over the text within the <a> element.`
 - `#`
-- It is blue and underlined.
-- anywhere within the `<main>` element.
-- anywhere within the web page.
-- The cursor doesn’t change in this case
+- `It is blue and underlined.`
+- `anywhere within the <main> element.`
+- `anywhere within the web page.`
+- `The cursor doesn’t change in this case`
 - `""`
 - `*`
 - `_empty`
 - `_self`
 - `Leave empty`
-- It is blue and bold.
-- There is no visual change to a text link.
+- `It is blue and bold.`
+- `There is no visual change to a text link.`
 
 
 ---

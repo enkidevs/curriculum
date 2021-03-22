@@ -12,6 +12,10 @@ links:
   - >-
     [The IN
     Keyword](https://en.wikibooks.org/wiki/Structured_Query_Language/Quantified_Comparison#IN){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # IN, LIKE, BETWEEN
@@ -75,10 +79,10 @@ FROM pokemon
 ??? ??? ??? ???;
 ```
 
-- WHERE
-- name
-- IN
-- ('Groudon', 'Snorlax', 'Wailord')
-- SUCH THAT
-- IS ONE OF
-- ['Groudon', 'Snorlax', 'Wailord']
+- `WHERE`
+- `name`
+- `IN`
+- `('Groudon', 'Snorlax', 'Wailord')`
+- `SUCH THAT`
+- `IS ONE OF`
+- `['Groudon', 'Snorlax', 'Wailord']`

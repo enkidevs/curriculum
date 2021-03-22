@@ -1,11 +1,15 @@
 ---
 author: SeanWalters
 type: normal
-category: how to
+category: how-to
 links:
   - >-
     [MDN Docs on
     webkit-touch-callout](https://developer.mozilla.org/en-US/docs/Web/CSS/-webkit-touch-callout){documentation}
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Disabling default callouts using `webkit-touch-callout`

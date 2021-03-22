@@ -3,6 +3,14 @@ author: Stefan-Stojanovic
 type: normal
 category: must-know
 links: null
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # The `multiple` Attribute
@@ -44,7 +52,7 @@ Which statement is not true regarding the `multiple` attribute within forms?
 ???
 
 - Works with min and max range input type, separated by |.
-- When present, more than one value can be added in the `<input>` element.
+- `When present, more than one value can be added in the <input> element.`
 - Works with email input type, separated by commas.
 - Works with file input type, by holding down CTRL or SHIFT keys while selecting.
 

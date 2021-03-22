@@ -1,21 +1,26 @@
 ---
 author: lizTheDeveloper
-
 type: normal
-
-category: how to
-
+category: how-to
 links:
   - >-
-    [Testing for SQL Injection (OTG-INPVAL-005)
-    ](https://www.owasp.org/index.php/Testing_for_SQL_Injection_(OTG-INPVAL-005)){website}
+    [SQL
+    Injection](https://owasp.org/www-community/attacks/SQL_Injection){website}
   - >-
     [Testing for ORM Injection (OTG-INPVAL-007)
-    ](https://www.owasp.org/index.php/Testing_for_ORM_Injection_(OTG-INPVAL-007)){website}
-
+    ](https://wiki.owasp.org/index.php/Testing_for_ORM_Injection_(OTG-INPVAL-007)){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Identify SQL Injection
+
 
 ---
 
@@ -39,6 +44,7 @@ Orders.find_all
 order_date = '#{@params['order_date']}'"
 ```
 
+
 ---
 
 ## Practice
@@ -55,6 +61,7 @@ WHERE Username='???'
 - ;SELECT * FROM Users;
 - --; SELECT * FROM Users;
 - OR '1' = '1'
+
 
 ---
 

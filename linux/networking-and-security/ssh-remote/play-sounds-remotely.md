@@ -1,7 +1,11 @@
 ---
 author: catalin
 type: normal
-category: how to
+category: how-to
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Play sounds remotely

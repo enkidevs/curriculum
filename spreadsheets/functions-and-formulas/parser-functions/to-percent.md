@@ -1,18 +1,24 @@
-﻿---
+---
 author: Stefan-Stojanovic
-
 type: normal
-
-category: how to
-
+category: how-to
 links:
   - '[TO_PERCENT](https://support.google.com/docs/answer/3094284){documentation}'
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # TO_PERCENT
 
+
 ---
+
 ## Content
 
 The `=TO_PERCENT` function is used to convert a number to a percentage.
@@ -58,7 +64,9 @@ Here are a few more examples:
 
 ![percentage-examples](https://img.enkipro.com/54b3edceb7c560c5390324103ae353b3.png)
 
+
 ---
+
 ## Practice
 
 Fill in the gaps such that the result is `87%`.
@@ -73,7 +81,9 @@ Fill in the gaps such that the result is `87%`.
 - (87)
 - TOPERCENT
 
+
 ---
+
 ## Revision
 
 Which of these converts a number to 54%?

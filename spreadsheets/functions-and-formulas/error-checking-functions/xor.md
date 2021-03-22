@@ -1,23 +1,26 @@
-﻿---
+---
 author: Stefan-Stojanovic
-
 type: normal
-
-category: how to
-
+category: how-to
 links:
   - '[XOR](https://support.google.com/docs/answer/9116491){documentation}'
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # XOR
 
+
 ---
+
 ## Content
 
 The `=XOR()` function returns `TRUE` only if an odd number of arguments evaluate to `TRUE`, otherwise it returns `FALSE`.
 
 Syntax:
+
 ```plain-text
 =XOR(
   logical_expression1, 
@@ -35,7 +38,9 @@ You can input an expression directly into the formula or you can reference a cel
 
 ![xor](https://img.enkipro.com/7d618724d3e986aab4da343ef7a6feb4.png)
 
+
 ---
+
 ## Practice
 
 The `XOR()` function returns ??? only if an odd number of arguments evaluate to ???, otherwise it returns ???.

@@ -1,17 +1,24 @@
 ---
 author: emmab
-
 tags:
   - introduction
-
 type: normal
-
 category: must-know
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
+
 # What is SQL?
 
+
 ---
+
 ## Content
 
 If you have access to your company's database, or to a cloned/follower database, then it's worth learning some basic SQL. 
@@ -32,6 +39,7 @@ This workout is going to give you all the high-level facts to get you going. We 
 
 
 ---
+
 ## Practice
 
 In order to perform SQL queries you must have access to a database.
@@ -41,7 +49,9 @@ In order to perform SQL queries you must have access to a database.
 - True
 - False
 
+
 ---
+
 ## Revision
 
 As databases amass more data, your SQL results will change to reflect any real-time changes.
@@ -50,4 +60,3 @@ As databases amass more data, your SQL results will change to reflect any real-t
 
 - True
 - False
- 

@@ -5,9 +5,15 @@ category: hack
 links:
   - >-
     [owasp.org](https://www.owasp.org/index.php/Cross-site_Scripting_(XSS)){website}
-  - >-
-    [OWASP Top
-    Ten](https://owasp.org/www-project-top-ten/){pdf}
+  - '[OWASP Top Ten](https://owasp.org/www-project-top-ten/){pdf}'
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # XSS (Cross-Site Scripting) Introduction

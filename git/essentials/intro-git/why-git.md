@@ -2,6 +2,10 @@
 author: kapnobatai136
 type: normal
 category: must-know
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Why Git?
@@ -38,4 +42,3 @@ Git is a ??? Version ??? System.
 - Control
 - Dynamic
 - Cloning
- 

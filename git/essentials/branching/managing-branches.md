@@ -6,6 +6,14 @@ links:
   - >-
     [Branch Management Official
     Documentation](http://git-scm.com/book/en/v2/Git-Branching-Branch-Management){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Managing branches
@@ -71,6 +79,6 @@ test
 
 ???
 
-- `master` is checked out
-- `test` is merged with `master`
-- `master` has modified files
+- `master is checked out`
+- `test is merged with master`
+- `master has modified files`

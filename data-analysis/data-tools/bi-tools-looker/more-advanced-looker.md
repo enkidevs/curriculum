@@ -1,20 +1,27 @@
 ---
 author: emmab
-
 tags:
   - introduction
-
 type: normal
-
 category: must-know
-
 links:
-  - '[LookML](https://training.looker.com/looker-development-foundations/334816){website}'
-
+  - >-
+    [LookML](https://training.looker.com/looker-development-foundations/334816){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
+
 # More Advanced Looker
 
+
 ---
+
 ## Content
 
 Some of the key differences between Looker and other BI tools lie behind the scenes and will only really be noticed by Developers or Data Analysts, but still have massive indirect benefits for other teams.
@@ -39,6 +46,7 @@ All analysis can be run off standardized and centralized data that follows the D
 
 
 ---
+
 ## Practice
 
 What type of language is LookML?
@@ -50,7 +58,9 @@ What type of language is LookML?
 - Front-end
 - High level
 
+
 ---
+
 ## Revision
 
 What's the name of Lookers unique data modeling language?
@@ -62,7 +72,9 @@ What's the name of Lookers unique data modeling language?
 - LookSQL
 - LookerSQL
 
+
 ---
+
 ## Footnotes
 
 [1:LookML]
@@ -73,4 +85,3 @@ Looker uses a model written in LookML to construct SQL queries against a particu
 
 [2:DRY Convention]
 Don't repeat yourself (DRY) is a principle of software development aimed at reducing repetition of code.
- 

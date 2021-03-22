@@ -1,18 +1,22 @@
 ---
 author: catalin
 type: normal
-category: best practice
+category: best-practice
 tags:
   - workout
   - deep
   - obscura
-notes: Im trying to make a Node workout based on security tips. This is one of them.
-links:
-  - >-
-    [blog.liftsecurity.io](https://blog.liftsecurity.io/2014/08/19/Avoid-Command-Injection-Node.js){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
-# Avoid command injection
+# Avoid Command Injection
 
 
 ---
@@ -63,7 +67,7 @@ Which of the following is not true about `child_process.exec`?
 
 ???
 
-- is literally the same as `child_process.spawn`
-- calls to execute `/bin/sh`
+- is literally the same as child_process.spawn
+- calls to execute /bin/sh
 - it's a bash interpreter
 - its calls can be targeted for command injection

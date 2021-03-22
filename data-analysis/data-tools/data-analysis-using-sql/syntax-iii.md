@@ -1,20 +1,26 @@
 ---
 author: emmab
-
 tags:
   - introduction
-
 type: normal
-
 category: must-know
-
 links:
   - '[Types of Join](https://www.dofactory.com/sql/join){website}'
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
+
 # Joins
 
+
 ---
+
 ## Content
 
 A slightly more complex concept in SQL are **joins**.
@@ -24,7 +30,7 @@ Joins allow us to grab results from *multiple tables at once*.
 Previously we had just used our `movies` table. 
 
 Imagine we also have access to a `directors` table that includes information about a director's name, date of birth, nationality and education.
- 
+
 What if we want to get results from both our `movies` and `directors` tables at once?
 
 As **every movie belongs to a director**, we have a reference[1] to this director into our movies table. 
@@ -47,7 +53,7 @@ WHERE directors.name = "Quentin Tarantino"
 We can join the table `directors` to `movies` by matching the `director_id` from the `movies` table, `movies.director_id`, on the `id` from the `directors` table, `directors.id`.
 
 | year | title                         |
-|------|-------------------------------|
+| ---- | ----------------------------- |
 | 1992 | Reservoir Dogs                |
 | 1994 | Pulp Fiction                  |
 | 1997 | Jackie Brown                  |
@@ -74,7 +80,9 @@ WHERE directors.name = "Quentin Tarantino"
 
 We've explored one type of `JOIN`, the `(INNER) JOIN`, so check out the **Learn More** link to discover the other three join types.
 
+
 ---
+
 ## Practice
 
 Imagine that each student belongs to one university.
@@ -87,13 +95,16 @@ FROM students
 ??? universities ???
 students.university_id ??? universities.id
 ```
+
 - JOIN
 - ON
 - =
 - WHERE
 - IN
 
+
 ---
+
 ## Revision
 
 Imagine that each superpower belongs to one superhero.
@@ -106,6 +117,7 @@ FROM superpowers
 ??? superheroes ???
 superpowers.superhero_id ??? superheroes.id
 ```
+
 - JOIN
 - ON
 - =
@@ -114,8 +126,8 @@ superpowers.superhero_id ??? superheroes.id
 
 
 ---
+
 ## Footnotes
 
 [1:References]
 References will have already been set up for you by developers. When they create the initial database structure and when they add in new tables, they will choose how each table relates to another one.
- 

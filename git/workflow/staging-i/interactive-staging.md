@@ -6,6 +6,14 @@ links:
   - >-
     [Interactive
     Staging](http://git-scm.com/book/en/v2/Git-Tools-Interactive-Staging){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Interactive staging

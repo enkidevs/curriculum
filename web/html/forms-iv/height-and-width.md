@@ -2,6 +2,14 @@
 author: Stefan-Stojanovic
 type: normal
 category: must-know
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # The `height` & `width` Attributes
@@ -44,7 +52,7 @@ Which statements are not true regarding height & width attributes within forms?
 
 - CSS cannot assign height & width attributes within forms.
 - Important to add to reserve space during page load.
-- The height attribute is used only with `<input type="image">`.
+- `The height attribute is used only with <input type="image">.`
 - The measurements are in pixels.
 
 

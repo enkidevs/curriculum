@@ -1,13 +1,21 @@
 ---
 author: catalin
 type: normal
-category: how to
+category: how-to
 tags:
   - introduction
   - workout
 links:
   - >-
     [fredkschott.com](http://fredkschott.com/post/2014/03/understanding-error-first-callbacks-in-node-js/){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # First-error callbacks in **Node**

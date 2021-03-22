@@ -1,15 +1,18 @@
-﻿---
+---
 author: Stefan-Stojanovic
-
 type: normal
-
-category: how to
-
+category: how-to
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # `<>` & `NE()`
 
+
 ---
+
 ## Content
 
 The not equal comparison operator is the same as the `NE()` function.
@@ -22,7 +25,9 @@ Both can be used to check if two values are NOT equal to each other and return `
 
 > 💡 You can also compare different data types, but the result will always be `TRUE`. Take a look here[2] for some examples.
 
+
 ---
+
 ## Revision
 
 The `NE()` function and `<>` operator are used to compare ??? values and output ??? if they are equal and ??? if they are not.
@@ -33,7 +38,9 @@ The `NE()` function and `<>` operator are used to compare ??? values and output 
 - two or less
 - two or more
 
+
 ---
+
 ## Footnotes
 
 [1:Zero & Empty Cells]
@@ -43,6 +50,7 @@ If we had this table:
 | 1 | 0 |   |
 
 Then the formula:
+
 ```plain-text
 =NE(A1, B1)
 

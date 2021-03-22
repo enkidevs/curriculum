@@ -2,11 +2,18 @@
 author: jfarmer
 type: normal
 category: tip
-inAlgoPool: false
 links:
   - >-
     [Kill
     signals](http://tldp.org/LDP/Bash-Beginners-Guide/html/sect_12_01.html){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Stopping Processes With `kill` And `killall`
@@ -74,7 +81,7 @@ Force killing a process is done by attaching a
 
 ??? code.
 
-- -9
-- -2
-- -3
-- -7
+- `-9`
+- `-2`
+- `-3`
+- `-7`

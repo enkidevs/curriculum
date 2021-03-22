@@ -6,6 +6,14 @@ links:
   - >-
     [Destructuring
     Assignment](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Destructuring (Part 1)
@@ -72,14 +80,14 @@ console.log(b) // foo
 ```
 
 - , b
-- [b, a]
-- [, a]
+- `[b, a]`
+- `[, a]`
 - a
 - b
 - , a
-- [a]
-- [b]
-- [a, b]
+- `[a]`
+- `[b]`
+- `[a, b]`
 - ,
 
 
@@ -106,10 +114,11 @@ console.log(b);
 - 9
 - 16
 - error
-- [9, 16]
-- [16, 25]
-- [9, 25]
+- `[9, 16]`
+- `[16, 25]`
+- `[9, 25]`
 - 25
 - 0
 - undefined
 - null
+ 

@@ -10,6 +10,14 @@ tags:
   - bashrc
   - export
   - introduction
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Adding Directories to `PATH`
@@ -61,8 +69,8 @@ This is the same as running:
 What should be added to `.bashrc` to prepend `/fun/enki`  to `PATH`?
 
 ```bash
-# PATH=???
-# reload .bashrc
+PATH=???
+reload .bashrc
 ??? ~/.bashrc
 ```
 
@@ -79,9 +87,9 @@ What should be added to `.bashrc` to prepend `/fun/enki`  to `PATH`?
 
 In order to add a new directory to `PATH`, you have to modify the ??? file.
 
-- .bashrc
-- .bashsrc
-- .bashpath
+- `.bashrc`
+- `.bashsrc`
+- `.bashpath`
 
 
 ---

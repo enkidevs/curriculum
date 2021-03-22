@@ -12,6 +12,14 @@ links:
   - >-
     [__cmp__ in Python 2 and
     3](https://stackoverflow.com/questions/8276983/python-2-and-python-3-cmp){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # The `sorted` Built-in Function (Part 1)
@@ -114,3 +122,4 @@ print(sorted([0, 2, 3, 1,
 
 [1:Timsort]
 *Technically, the sort algorithm in Python since version 2.3 has been Timsort, named after creator Tim Peters. It is derived from a hybrid approach of merge sort and insertion sort. Timsort finds subsequences of the data that are already sorted and uses the information found there to sort the rest of the list more effectively. For more information, see the Wikipedia page in the Learn More section titled 'Timsort'.*
+ 

@@ -1,7 +1,7 @@
 ---
 author: fahimrahman
 type: normal
-category: best practice
+category: best-practice
 tags:
   - JUnit
   - testing
@@ -9,6 +9,10 @@ tags:
 links:
   - >-
     [www.javaworld.com](http://www.javaworld.com/article/2076265/testing-debugging/junit-best-practices.html){website}
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # JUnit: Specifying file locations

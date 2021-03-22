@@ -9,6 +9,10 @@ tags:
   - issues
   - crontab
   - cron.daily
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # `Cron` dot-in-filename issues when using `run-parts`
@@ -37,10 +41,10 @@ If there is a cron script `backup.sh` in `cron.daily/` directory, the extension 
 
 It’s not a good idea to use ??? in a script name when you run it using `run-parts` .
 
-- . 
-- _ 
-- -
-- r
+- `.` 
+- `_` 
+- `-`
+- `r`
 
 
 ---
@@ -49,4 +53,3 @@ It’s not a good idea to use ??? in a script name when you run it using `run-pa
 
 [1:Run-parts]
 This command will take a directory as an argument and run every script found in it.
- 

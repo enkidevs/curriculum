@@ -9,6 +9,14 @@ links:
   - >-
     [Git Branch Official
     Documentation](https://git-scm.com/docs/git-branch){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Setting the upstream branch

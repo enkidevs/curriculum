@@ -13,6 +13,14 @@ links:
   - >-
     [MDN Docs on
     :hover](https://developer.mozilla.org/en-US/docs/Web/CSS/:hover){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Use pseudo-classes to describe a special state of an element
@@ -70,7 +78,7 @@ What symbol must a pseudo-class be preceded by?
 What is the common order of pseudo-classes used for links?
 ??? ??? ??? ???
 
-- ps:link {
-- ps:visited {
-- ps:hover {
-- ps:active {
+- `ps:link {`
+- `ps:visited {`
+- `ps:hover {`
+- `ps:active {`

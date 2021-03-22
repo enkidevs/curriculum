@@ -6,6 +6,14 @@ links:
   - >-
     [HTML
     Elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Headings (h1-h6)
@@ -60,9 +68,9 @@ Which of these is not true about headings:
 ???
 
 - Headings are more important for page style than search engine ranking.
-- There are 6 heading sizes ranging from `<h1>` to `<h6>`
-- By default, `<h4>` is the same size as a paragraph `<p>`.
-- Every web page should have at least one `<h1>`.
+- `There are 6 heading sizes ranging from <h1> to <h6>`
+- `By default, <h4> is the same size as a paragraph <p>.`
+- `Every web page should have at least one <h1>.`
 
 
 ---

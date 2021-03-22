@@ -1,23 +1,26 @@
-﻿---
+---
 author: Stefan-Stojanovic
-
 type: normal
-
-category: how to
-
+category: how-to
 links:
   - '[IFS](https://support.google.com/docs/answer/7014145){documentation}'
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # IFS
 
+
 ---
+
 ## Content
 
 The `=IFS()` function is used to evaluate multiple conditions and return the value for the first true condition.
 
 The syntax is:
+
 ```plain-text
 =IFS(
   condition1, 
@@ -31,6 +34,7 @@ The syntax is:
 Only `condition1` and `value1` are mandatory, all others are optional.
 
 `condition1` is the first condition you want to evaluate. Possible values are:
+
 - Array
 - Boolean
 - Number
@@ -50,7 +54,9 @@ Here is one where no condition is true:
 
 ![allfalse](https://img.enkipro.com/4cb9c946dcd00caf5c435dabda965930.png)
 
+
 ---
+
 ## Practice
 
 Which type of data is not supported in the `IFS()` spreadsheet function?

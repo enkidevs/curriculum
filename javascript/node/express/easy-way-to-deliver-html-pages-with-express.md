@@ -1,9 +1,17 @@
 ---
 author: catalin
 type: normal
-category: how to
+category: how-to
 links:
   - '[serve-static](https://github.com/expressjs/serve-static){website}'
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Deliver HTML Pages With Express

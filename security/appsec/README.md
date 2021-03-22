@@ -6,7 +6,7 @@ core: true
 
 sections:
   '0':
-    - intro
+    - security-intro
     - osi-intro
     - osi-ii
     - securing-each-layer

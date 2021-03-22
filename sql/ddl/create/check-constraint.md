@@ -2,11 +2,18 @@
 author: kapnobatai136
 type: normal
 category: must-know
-inAlgoPool: false
 tags:
   - introduction
   - workout
 links: null
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Check Constraint

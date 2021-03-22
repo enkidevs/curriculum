@@ -1,10 +1,18 @@
 ---
 author: mihaiberq
 type: normal
-category: how to
+category: how-to
 tags:
   - introduction
   - workout
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # How to Publish Your Own Packages
@@ -60,5 +68,5 @@ In order to publish your package to the npm repository, you need
 ???.
 
 - an npm account
-- an initial package version of `1.0.0`
-- a `README.md` file
+- `an initial package version of 1.0.0`
+- a README.md file

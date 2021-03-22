@@ -2,7 +2,6 @@
 author: mihaiberq
 type: normal
 category: must-know
-inAlgoPool: false
 links:
   - >-
     [HTML <p>
@@ -10,6 +9,14 @@ links:
   - >-
     [HTML
     Headings](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Headings and Paragraphs

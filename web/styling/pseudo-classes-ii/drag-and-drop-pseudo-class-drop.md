@@ -11,6 +11,10 @@ links:
   - >-
     [Article on CSS
     Selectors](http://www.sitepoint.com/future-generation-css-selectors-level-4/){Article}
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Drag-and-Drop pseudo-class `:drop`

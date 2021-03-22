@@ -1,18 +1,23 @@
 ---
 author: lizTheDeveloper
-
 type: normal
-
-category: best practice
-
+category: best-practice
 links:
   - >-
     [XML Security Cheat
     Sheet](https://cheatsheetseries.owasp.org/cheatsheets/XML_Security_Cheat_Sheet.html){website}
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # XXE Security
+
 
 ---
 
@@ -30,6 +35,7 @@ These document attack vectors include improperly specified schemas allowing mali
 
 **Schema Poisoning** is considered to be within the Invalid XML Documents section, though these are technically correctly formed. Incorrect permissions can cause locally-defined schemas (schemas defined within the document users send) to execute remote code. Because Schema Poisoning need not be from the originating user (it can be accomplished with man-in-the-middle attacks), defend against this layer by not relying on client-side validation, which is what locally-defined schemas are.
 
+
 ---
 
 ## Practice
@@ -46,6 +52,7 @@ Which categories of error do XXE vulnerabilities fall into?
 - Exception
 - NonParseableDocument
 - Broken
+
 
 ---
 

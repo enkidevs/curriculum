@@ -1,14 +1,9 @@
 ---
 author: lizTheDeveloper
-
 type: normal
-
 category: pattern
-
 links:
-  - >-
-    [OWASP Top
-    Ten](https://owasp.org/www-project-top-ten/){website}
+  - '[OWASP Top Ten](https://owasp.org/www-project-top-ten/){website}'
   - >-
     [OWASP Cheat Sheet:
     Deserialization](https://cheatsheetseries.owasp.org/cheatsheets/Deserialization_Cheat_Sheet.html){website}
@@ -18,10 +13,18 @@ links:
   - >-
     [OWASP AppSecUSA 2017: Friday the 13th JSON
     Attacks](https://speakerdeck.com/pwntester/friday-the-13th-json-attacks){website}
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Deserialization
+
 
 ---
 
@@ -34,6 +37,7 @@ Deserialization vulnerability exposes two main vectors of attack:
 - Allowing the contents of a serialized object affect behavior or application logic that is recorded or executed on the server
 - Data tampering, where client-side logic is thwarted by modifying calls to the server
 
+
 ---
 
 ## Practice
@@ -45,6 +49,7 @@ What's the best way to prevent a deserialization attack?
 - Sanitize your inputs
 - Use XML instead of JSON
 - Don't accept any inputs
+
 
 ---
 

@@ -2,10 +2,17 @@
 author: jfarmer
 type: normal
 category: must-know
-inAlgoPool: false
 tags:
   - introduction
   - workout
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Input And Output Redirection With `<` and `>`
@@ -68,10 +75,10 @@ Which of the following can redirect the output of a process to a file?
 
 ???
 
-- >
-- <
-- |
-- $
+- `>`
+- `<`
+- `|`
+- `$`
 
 
 ---

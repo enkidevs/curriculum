@@ -2,7 +2,14 @@
 author: Stefan-Stojanovic
 type: normal
 category: must-know
-links: null
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Display Code in HTML
@@ -48,11 +55,11 @@ What content is best to style when using the `<code>` element?
 
 ???
 
-- All 4
-- HTML elements
-- CSS Rules
-- filenames
-- JS scripts
+- `All 4`
+- `HTML elements`
+- `CSS Rules`
+- `filenames`
+- `JS scripts`
 
 
 ---
@@ -63,10 +70,10 @@ Which of these elements is used to style the contents as computer code?
 
 ???
 
-- <code>
-- <kbd>
-- <codeBlock>
-- <styleCode>
+- `<code>`
+- `<kbd>`
+- `<codeBlock>`
+- `<styleCode>`
 
 
 ---
@@ -89,7 +96,7 @@ What will be the effect of wrapping this text in the *code* element?
 </code>
 ```
 
-- All text within `<code>` will display in monospace font.
-- Only the text "var x = 5;" will be displayed within the page because the other line has no semicolon.
-- All text within `<code>`, will display in arial font.
-- All text within `<code>` will display with syntax highlighting associated with the coding language.
+- `All text within <code> will display in monospace font.`
+- `Only the text "var x = 5;" will be displayed within the page because the other line has no semicolon.`
+- `All text within <code> will display in arial font.`
+- `All text within <code> will display with syntax highlighting associated with the coding language.`

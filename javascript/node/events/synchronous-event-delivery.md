@@ -1,17 +1,18 @@
 ---
 author: tommarshall
-
 type: normal
-
 category: must-know
-
 tags:
   - introduction
   - workout
-
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Event Delivery
+
 
 ---
 
@@ -48,6 +49,7 @@ post hi
 ```
 
 Remember that when emitting events, listeners will be called before `emitter.emit` returns.
+
 
 ---
 

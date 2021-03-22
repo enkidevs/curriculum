@@ -4,6 +4,14 @@ type: normal
 category: must-know
 links:
   - '[Blob](http://www.javascripture.com/Blob){website}'
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Blobs
@@ -135,3 +143,4 @@ This option is used to choose whether you want to transform end-of-line characte
 `Blob`s can be used as an URL for links, images (or other elements) to show its contents.
 
 Also, you can download or upload `Blob` objects, with the type becoming `Content-Type`.
+ 

@@ -3,6 +3,14 @@ author: Stefan-Stojanovic
 type: normal
 category: must-know
 links: null
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # The Non-breaking Space
@@ -136,7 +144,7 @@ What HTML character entity is used to prevent the browser from breaking the line
 - `&nbsp;`
 - `&ensp;`
 - `&ltsp;`
-- empty space: " "
+- `empty space: " "`
 - `&space`
 - `&gap`
 

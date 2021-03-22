@@ -10,6 +10,10 @@ tags:
   - cpu
   - checksum
 notes: ''
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # CPU benchmark with `dd`
