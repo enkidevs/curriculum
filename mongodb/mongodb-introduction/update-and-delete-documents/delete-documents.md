@@ -5,11 +5,13 @@ category: must-know
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Delete documents
@@ -95,7 +97,7 @@ Delete the first document in the `pokemon` table of type `"Fire"`.
 
 ```javascript
 ???.pokemon.???({
-  ???: ???
+  ???: "???"
 })
 ```
 
@@ -108,7 +110,7 @@ Delete all documents within the `pokemon` collection:
 - `db`
 - `deleteOne`
 - `type`
-- `"Fire"`
+- `Fire`
 - `db.pokemon.deleteMany()`
 - `db.pokemon.delete({})`
 - `db.pokemon.deleteAll()`

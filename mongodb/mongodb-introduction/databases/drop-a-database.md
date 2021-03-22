@@ -9,11 +9,13 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Delete a database
@@ -49,7 +51,7 @@ db.dropDatabase()
 
 ## Practice
 
-How do you delete (drop) the currently active database in MongoDB?
+Delete (drop) the currently active database in MongoDB:
 
 ```javascript
 ???.???
@@ -67,10 +69,14 @@ How do you delete (drop) the currently active database in MongoDB?
 
 ## Revision
 
-To delete a database named `pokemon`, you have to use the ??? command followed by using the ??? command.
+Switch to the `pokemon` database and then delete it:
 
-- `use pokemon`
-- `db.dropDatabase()`
+```javascript
+??? ???
+db.???
+```
+- `use`
+- `pokemon`
+- `dropDatabase()`
 - `delete`
-- `db.dropDatabase(pokemon)`
-- `db.delete(pokemon)`
+- `Pokemon`
