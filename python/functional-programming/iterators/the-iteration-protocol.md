@@ -9,11 +9,12 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # The Iteration Protocol
@@ -103,13 +104,15 @@ print(sum(iterator))
 print(sum(iterator))
 ```
 
-???
+```plain-text
+???, then ???
+```
 
-- 15, then 0
+- 15
+- 0
 - TypeError exception
-- 15, then 15
-- 5, then 5
-- 5, then 0
+- 10
+- 5
 
 
 ---

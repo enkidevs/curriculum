@@ -10,11 +10,12 @@ notes: >-
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # How to count
@@ -94,9 +95,9 @@ Which method is used to find the most common occurrence in a counter?
 
 ## Revision
 
-Declare and update the counter e:
+Declare and update the counter `e`:
 
-```plain-text
+```python
 e = ???()
 e.???(“enki”)
 ```

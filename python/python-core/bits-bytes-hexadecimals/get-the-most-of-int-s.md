@@ -9,14 +9,16 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
-# Converting `int` s to binary data
+# Converting ints to binary data
 
 
 ---
@@ -25,7 +27,7 @@ revisionQuestion:
 
 The **built-in** `int` types provide several methods for data manipulation at a binary level. Conventionally, for integer values representation, **bytes** (groups of 8 bits) are used.
 
-For example, you can get the bits required to store a specific number with `bit_length()`
+For example, you can get the bits required to store a specific number with `bit_length()`.
 
 ```python
 >>> n = 1024

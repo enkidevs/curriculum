@@ -12,11 +12,12 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Chain comparison operators
@@ -65,11 +66,12 @@ How do you check whether the value of the integer `x` is at least 2 and no more 
 
 What will the following expression evaluate to?
 
-```plain-text
+```python
 a = 9
 
 1 < a < 8
-???
+
+# ???
 ```
 
 - `False`

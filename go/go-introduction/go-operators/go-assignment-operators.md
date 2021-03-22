@@ -5,11 +5,13 @@ category: how-to
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Assignment Operators
@@ -29,7 +31,7 @@ There are a total of six assignment operators:
 | :------: | :-------------------------------------------------------------------------------: |
 |     =    |            Assigns the values from the right side to the left variable            |
 |    +=    |         Adds the right and left value and assigns it to the left variable         |
-|    -=    | Subtracts the left value from the right value and assigns it to the left variable |
+|    -=    | Subtracts the right value from the left value and assigns it to the left variable |
 |    *=    |      Multiplies the right and left value and assigns it to the left variable      |
 |    /=    |  Divides the right value from the left value and assigns it to the left variable  |
 |    %=    |  Takes the modulo of the right and left value and assigns it to the left variable |
