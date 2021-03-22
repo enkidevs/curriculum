@@ -9,11 +9,13 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Specify a Single Child
@@ -59,9 +61,10 @@ NewComponent.propTypes = {
 What validator must be used to make sure there is exactly one child passed to `children`?
 
 ```js
-children: PropTypes.???.???,
+children: ???.???.???,
 ```
 
+- `PropTypes`
 - `element`
 - `isRequired`
 - `node`
@@ -75,10 +78,10 @@ children: PropTypes.???.???,
 
 ## Revision
 
-What validator must be used to make sure there is exactly one child passed to `children`?
+What validator must be used to make sure there is exactly one child passed to `prop`?
 
 ```js
-children: PropTypes.???.???,
+prop: PropTypes.???.???,
 ```
 
 - `element`
