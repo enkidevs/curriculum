@@ -51,6 +51,7 @@ Types of change:
 ## March 22nd 2021
 
 ### Added
+- [Docker - Add type-in-the-gap and change context where applicable](https://github.com/enkidevs/curriculum/pull/2590)
 - [Go - Entire Topic - Add type-in-the-gap question type to applicable questions](https://github.com/enkidevs/curriculum/pull/2589)
 - [Webflow - Entire Topic - Add type-in-the-gap question type to applicable questions](https://github.com/enkidevs/curriculum/pull/2588)
 - [Python - Functional Programming Topic - Add type in the gap questions and change format](https://github.com/enkidevs/curriculum/pull/2587)
