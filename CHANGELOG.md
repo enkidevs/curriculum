@@ -50,6 +50,9 @@ Types of change:
 
 ## March 22nd 2021
 
+### Changed
+- [Python - Break and Continune Statements - Improve readability](https://github.com/enkidevs/curriculum/pull/2654)
+
 ### Fixed
 - [Typescript - TSC Array Tuple - Fix Typo](https://github.com/enkidevs/curriculum/pull/2659)
 
