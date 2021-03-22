@@ -14,11 +14,13 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Tuple assignment
@@ -95,11 +97,12 @@ x, y = 5, 4
 x, y = y, x
 print(x, y)
 
-# ???
+# ??? ???
 ```
 
-- `4 5`
-- `5 4`
+- `4`
+- `5`
+- `error`
 - `error`
 
 

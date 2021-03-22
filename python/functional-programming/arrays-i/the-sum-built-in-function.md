@@ -57,7 +57,7 @@ print(sum(letters))
 
 - TypeError: unsupported operand type(s) for +: 'int' and 'str'
 - abc
-- ['a', 'b', 'c']
+- `['a', 'b', 'c']`
 
 
 ---
