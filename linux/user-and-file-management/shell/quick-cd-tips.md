@@ -63,7 +63,7 @@ dirs -v
 1 ~/projects/project_1
 ```
 
-> The current directory is always the "top" of the directory stack.
+> 💡 The current directory is always at *the top of the directory stack*.
 
 Let's say we have the following stack:
 
