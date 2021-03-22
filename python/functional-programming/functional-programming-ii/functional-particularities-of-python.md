@@ -5,7 +5,7 @@ category: must-know
 links:
   - >-
     [Functional Programming in
-    Python](http://www.oreilly.com/programming/free/files/functional-programming-python.pdf){website}
+    Python](https://ia801304.us.archive.org/20/items/functional-programming-python/functional-programming-python.pdf){website}
 practiceQuestion:
   formats:
     - fill-in-the-gap
