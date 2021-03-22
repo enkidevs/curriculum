@@ -3,22 +3,23 @@ author: nem035
 type: normal
 category: must-know
 links:
-  - '[What is a Container?](https://www.docker.com/what-container){documentation}'
+  - "[What is a Container?](https://www.docker.com/what-container){documentation}"
   - >-
     [Six essentials on Docker
     Containers](https://www.plesk.com/blog/business-industry/docker-containers-explained/){article}
 practiceQuestion:
   formats:
     - fill-in-the-gap
+    - type-in-the-gap
   context: relative
 revisionQuestion:
   formats:
     - fill-in-the-gap
+    - type-in-the-gap
   context: relative
 ---
 
 # Containers
-
 
 ---
 
@@ -70,7 +71,6 @@ In essence: `docker run = docker container create + docker container start`
 docker run --name enki -p 8080:80 -it nginx
 ```
 
-
 ---
 
 ## Practice
@@ -90,7 +90,6 @@ docker run -p ???:??? --name ??? -it ???
 - container
 - 80
 - 8080
-
 
 ---
 
