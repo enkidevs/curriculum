@@ -8,11 +8,11 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # React in-line styles
@@ -93,11 +93,9 @@ Fill in the following `style` object that's meant to be passed to a React elemen
 var style = {
   color: 'white',
   ???: 'all',
-  ???: 'all'
 }
 ```
 
 - WebkitTransition
-- msTransition
-- ms-transition
 - webkit-transition
+- margin-left

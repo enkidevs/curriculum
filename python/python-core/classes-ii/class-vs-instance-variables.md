@@ -8,10 +8,11 @@ links:
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
-# **Class** vs. **Instance** variables
+# Class vs. Instance Variables
 
 
 ---
@@ -50,11 +51,13 @@ print(new.inst) # '0.2.41' (unique/instance)
 
 ## Revision
 
-Is `my_var`  a class or instance variable?
-
-???
+Is `my_var` a class or instance variable?
 
 ```plain-text
+???
+```
+
+```python
 class Test:
    my_var = ‘enki’
 ```
