@@ -5,14 +5,16 @@ category: how-to
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
-# Delete documents with `remove()`
+# remove()
 
 
 ---
@@ -107,11 +109,18 @@ Remove all documents within the `pokemon` collection.
 
 ## Revision
 
-Which one is not a valid remove method in MongoDB?
+Which number represents an invalid method for removing documents in MongoDB?
+
+```javascript
+1: remove()
+2: deleteOne()
+3: removeAll()
+4: deleteMany()
 
 ???
+```
 
-- `removeAll()`
-- `remove()`
-- `deleteOne()`
-- `deleteMany()`
+- 3
+- 1
+- 2
+- 4

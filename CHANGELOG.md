@@ -52,6 +52,7 @@ Types of change:
 
 ### Added
 - [Spreadsheets - Entire Topic - Add type in the gap to applicable questions](https://github.com/enkidevs/curriculum/pull/2592)
+- [MongoDB - Entire Topic - Remove backticks from headlines, add type-in-the-gap, update questions](https://github.com/enkidevs/curriculum/pull/2593)
 - [Blockchain - Entire Topic - Add type-in-the-gap question type to applicable questions](https://github.com/enkidevs/curriculum/pull/2591)
 - [Docker - Add type-in-the-gap and change context where applicable](https://github.com/enkidevs/curriculum/pull/2590)
 - [Go - Entire Topic - Add type-in-the-gap question type to applicable questions](https://github.com/enkidevs/curriculum/pull/2589)

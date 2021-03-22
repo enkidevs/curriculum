@@ -6,10 +6,10 @@ links: null
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
-# Querying An Array With The $size operator
+# Querying An Array With $size
 
 
 ---
