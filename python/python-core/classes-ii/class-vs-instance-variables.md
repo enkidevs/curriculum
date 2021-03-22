@@ -12,7 +12,7 @@ revisionQuestion:
   context: standalone
 ---
 
-# **Class** vs. **Instance** variables
+# Class vs. Instance Variables
 
 
 ---
