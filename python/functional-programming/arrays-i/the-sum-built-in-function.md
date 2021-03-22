@@ -9,21 +9,21 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
-# The `sum` Built-in Function
+# The sum Function
 
 
 ---
 
 ## Content
 
-`sum` allows us to find the total of a iterable collection of numbers. It takes the general form:
+The `sum` built-in allows us to find the total of a iterable collection of numbers. It takes the general form:
 
 ```python
 sum(iterable [, start])

@@ -15,14 +15,14 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
-# The `sorted` Built-in Function (Part 1)
+# The sorted Function 
 
 
 ---

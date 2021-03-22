@@ -51,6 +51,7 @@ Types of change:
 ## March 22nd 2021
 
 ### Added
+- [Python - Functional Programming Topic - Add type in the gap questions and change format](https://github.com/enkidevs/curriculum/pull/2587)
 - [React - Entire Topic - Add format and context metadata, improve some questions](https://github.com/enkidevs/curriculum/pull/2586)
 - [Python - Core topic - Add type in the gap and standalone format to applicable questions](https://github.com/enkidevs/curriculum/pull/2583)
 
