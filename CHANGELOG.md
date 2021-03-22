@@ -50,6 +50,9 @@ Types of change:
 
 ## March 22nd 2021
 
+### Added
+- [Python - Core topic - Add type in the gap and standalone format to applicable questions](https://github.com/enkidevs/curriculum/pull/2583)
+
 ### Changed
 - [Python - Break and Continune Statements - Improve readability](https://github.com/enkidevs/curriculum/pull/2654)
 

@@ -17,11 +17,13 @@ notes: >
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Method overriding
@@ -74,7 +76,11 @@ I am a bird
 
 ## Practice
 
-To extend the functionality of a parent's class method, but not override it, you can use the ??? function.
+To extend the functionality of a parent's class method, but not override it, you can use which function?
+
+```python
+???
+```
 
 - `super`
 - `yield`

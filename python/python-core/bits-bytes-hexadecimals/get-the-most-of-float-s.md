@@ -9,14 +9,16 @@ notes: abc
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
-# Get the most of `float` s
+# Get the most of floats
 
 
 ---
@@ -78,7 +80,7 @@ The reverse can be achieved with the `fromhex()` class method:
 
 ## Practice
 
-Complete the following code snippet such that the outputted values hold:
+Complete the following code snippet such to convert a number to its hexadecimal representation and then convert it back:
 
 ```python
 
