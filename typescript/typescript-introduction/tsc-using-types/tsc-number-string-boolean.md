@@ -94,7 +94,7 @@ let c: ??? = 123.4;
 
 ## Footnotes
 
-[1: Numerical Values in TypeScript]
+[1:Numerical Values in TypeScript]
 TypeScript numerical values can be integers, decimals, hexadecimals, binary literals or octal literals.
 
 ```ts

@@ -51,6 +51,7 @@ Types of change:
 ## March 22nd 2021
 
 ### Added
+- [TypeScript- Add type-in-the-gap and change context where applicable](https://github.com/enkidevs/curriculum/pull/2604)
 - [Regex- Add type-in-the-gap and change context where applicable](https://github.com/enkidevs/curriculum/pull/2608)
 - [Styling - Entire Topic - Remove backticks from headlines, add type in the gap to applicable questions](https://github.com/enkidevs/curriculum/pull/2598)
 - [HTML - Entire Topic - Remove HTML tags and back ticks from headlines, add type in the gap to applicable questions](https://github.com/enkidevs/curriculum/pull/2597)
