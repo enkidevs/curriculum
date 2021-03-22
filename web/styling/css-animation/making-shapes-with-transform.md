@@ -11,10 +11,11 @@ links:
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
-# Making shapes with `transform`
+# Making shapes with transform
 
 
 ---

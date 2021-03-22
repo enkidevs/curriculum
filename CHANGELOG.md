@@ -51,6 +51,7 @@ Types of change:
 ## March 22nd 2021
 
 ### Added
+- [Styling - Entire Topic - Remove backticks from headlines, add type in the gap to applicable questions](https://github.com/enkidevs/curriculum/pull/2598)
 - [HTML - Entire Topic - Remove HTML tags and back ticks from headlines, add type in the gap to applicable questions](https://github.com/enkidevs/curriculum/pull/2597)
 - [Data Analysis - Entire Topic - Add type in the gap to applicable questions](https://github.com/enkidevs/curriculum/pull/2596)
 - [Git - Entire Topic - Add type in the gap & remove all back ticks from headlines](https://github.com/enkidevs/curriculum/pull/2595)

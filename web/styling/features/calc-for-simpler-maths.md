@@ -14,10 +14,10 @@ links:
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
-# `calc()` for simpler maths
+# Simpler maths with calc()
 
 
 ---

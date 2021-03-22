@@ -10,10 +10,11 @@ links:
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
-# Inherit `box-sizing`
+# Inherit box-sizing
 
 
 ---
