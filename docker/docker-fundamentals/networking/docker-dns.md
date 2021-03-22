@@ -9,15 +9,14 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Docker DNS
-
 
 ---
 
@@ -31,8 +30,7 @@ This is why Docker DNS exists. Docker DNS uses container names as the equivalent
 
 Any non-bridge network has automatic DNS resolution for all the containers on that virtual network using container names. Two containers can find each other on the same network no matter what their IP is.
 
-*Note*: The default `bridge` network doesn't come with this DNS behavior of container names.
-That's why it's **always** good practice to create your own networks.
+> 💡 The default `bridge` network doesn't come with this DNS behavior of container names. That's why it's **always** good practice to create your own networks.
 
 Containers shouldn't rely on IP's for inter-communication and should use container names instead.
 
@@ -77,7 +75,6 @@ PING webserver2 (172.20.0.3): 56 data bytes
 64 bytes from 172.20.0.3: seq=4 ttl=64 time=0.091 ms
 ```
 
-
 ---
 
 ## Practice
@@ -88,7 +85,6 @@ Docker DNS relies on ??? to locate and identify containers.
 - ip addresses
 - zipcodes
 - ids
-
 
 ---
 

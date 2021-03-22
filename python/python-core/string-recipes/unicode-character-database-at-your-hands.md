@@ -8,11 +8,13 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Unicode character database at your hands
@@ -63,7 +65,7 @@ To get the version of the **Unicode Database** currently used:
 
 Get the category of the specified character:
 
-```plain-text
+```python
 >>> ???.???(u’L’)
 ‘Lu’
 #Letter, uppercase
@@ -81,9 +83,9 @@ Get the category of the specified character:
 
 ## Revision
 
-Get the name of a character specified:
+Get the name of the specified character:
 
-```plain-text
+```python
 >>>unicodedata.???(u’~’)
 ‘TILDE’
 ```

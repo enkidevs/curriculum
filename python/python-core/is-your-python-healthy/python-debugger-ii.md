@@ -9,11 +9,13 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Python Debugger Methods
@@ -94,9 +96,23 @@ Finally, whenever you want to leave `pdb` console, type `quit` or `exit`.
 
 ## Practice
 
-The ??? command will **iterate** through the loops showing exactly what the **loop** is doing.
-The ??? command executes **statements**, without showing everything that happened to evaluate the call.
-The ??? command has **optional arguments** that must be two `int` values that define the range of lines the user wants.
+Which command will **iterate** through the loops showing exactly what the **loop** is doing:
+
+```python
+???
+```
+
+Which command executes **statements**, without showing everything that happened to evaluate the call.
+
+```python
+???
+```
+
+Which command has **optional arguments** that must be two `int` values that define the range of lines the user wants.
+
+```python
+???
+```
 
 - step
 - next
@@ -109,7 +125,9 @@ The ??? command has **optional arguments** that must be two `int` values that de
 
 When debugging a python file with `pdb`, which command will show the step-by-step process?
 
+```python
 ???
+```
 
 - `step`
 - `next`

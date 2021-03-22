@@ -7,11 +7,13 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Recipe to normalize text
@@ -21,7 +23,7 @@ revisionQuestion:
 
 ## Content
 
-Using the `unicodedata` Python module it's  easy to normalize any **unicode** data strings (remove accents etc):
+Using the `unicodedata` Python module it's easy to normalize any **unicode** data strings (remove accents etc):
 
 ```python
 import unicodedata
@@ -49,7 +51,7 @@ The `NFKD` stands for Normalization Form Compatibility Decomposition, and this i
 
 Complete the code recipe below such that the text is normalized:
 
-```plain-text
+```python
 import unicodedata
 
 data = u'ïnvéntìve'
@@ -72,9 +74,11 @@ print(normal)
 
 ## Revision
 
-What module has the `normalize` method used to normalise unicode data strings?
+What module has the `normalize` method used to normalise unicode data strings:
 
+```python
 ???
+```
 
 - `unicodedata`
 - `unicode`

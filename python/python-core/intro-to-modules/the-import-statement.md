@@ -9,11 +9,13 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # The import statement
@@ -55,7 +57,7 @@ Note that a module is imported just **once**, regardless of the times it's used 
 
 ## Practice
 
-We have defined the `counter` module that's supposed to `increment` its state with every function call.
+Define the `counter` module that's supposed to `increment` its state with every function call.
 Fill in the gaps such that the module will be successfully imported and ran.
 
 ```python

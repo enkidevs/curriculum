@@ -5,11 +5,12 @@ category: must-know
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Calling functions
@@ -19,7 +20,7 @@ revisionQuestion:
 
 ## Content
 
-To call a function in Python, you write the function's name followed by some brackets `()`.
+To call a function in Python, you write the function's name followed by some parentheses `()`.
 
 For example:
 
@@ -67,7 +68,7 @@ In the example, variable `x` will take the value of `num`, therefore the output 
 
 ## Practice
 
-Find the arithmetic mean of `x` and `y`:
+Complete the code to define and call the `mean` function to get the arithmetic mean of `x` and `y`:
 
 ```python
 x = 4
@@ -90,7 +91,7 @@ y = 2
 
 Complete the code snippet to define and call the function with the correct parameter:
 
-```plain-text
+```python
 ??? cube(x):
     res = x * x * x
     print (res)

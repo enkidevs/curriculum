@@ -10,11 +10,12 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Diff images using *ExifTool*
@@ -52,9 +53,11 @@ Note that `exiftool` may not be present on your machine. You can install it with
 
 ## Practice
 
-`*.png diff=exif`  should be added to
+`*.png diff=exif`  should be added to which file?
 
-??? file.
+```plain-texxt
+???
+```
 
 - .gitattributes
 - .git/config

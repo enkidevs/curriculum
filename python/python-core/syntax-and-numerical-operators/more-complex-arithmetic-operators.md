@@ -11,11 +11,13 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Complex Operators
@@ -81,8 +83,9 @@ What does the following code snippet return:
 11 % 4
 ```
 
+```bash
 ???
-
+```
 - `3`
 - `2`
 - `7`

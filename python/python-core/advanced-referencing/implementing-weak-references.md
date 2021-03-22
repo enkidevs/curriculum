@@ -13,11 +13,13 @@ notes: >
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Implementing **weak** references
@@ -86,7 +88,7 @@ Imagine the case where object X references object Y and Y references X. Without 
 
 Check to see if a reference, `e`, exists:
 
-```plain-text
+```python
 if e ??? not ???
 ```
 
@@ -104,7 +106,7 @@ if e ??? not ???
 
 Create a weak reference (reference that does not affect garbage collector) to the object:
 
-```plain-text
+```python
 class Python(object): pass
 enki = Python()
 
