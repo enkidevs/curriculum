@@ -5,11 +5,12 @@ category: must-know
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Shorthand for Defining Variables
@@ -56,7 +57,7 @@ The shorthand declaration can only be used on the ??? level.
 
 ## Revision
 
-Which of these variables is incorrectly defined?
+Given the code:
 
 ```go
 package main
@@ -70,7 +71,11 @@ func main() {
 }
 ```
 
+Which variable is incorrectly defined?
+
+```go
 ???
+```
 
 - name
 - age

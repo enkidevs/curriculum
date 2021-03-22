@@ -15,14 +15,16 @@ notes: |
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
-# Your own Python `calendar`
+# Your own Python calendar
 
 
 ---
@@ -86,7 +88,7 @@ This module provide other useful methods for working with dates, times and calen
 
 Set the first day of the week of your `calendar` to be Monday:
 
-```plain-text
+```python
 calendar.??? \
   (calendar.MONDAY)
 ```
@@ -102,11 +104,11 @@ calendar.??? \
 
 ## Revision
 
-Print the year 2016 using the python calendar:
+Print the year 2021 using the python calendar:
 
-```plain-text
+```python
 import calendar
-print(calendar.???(2016))
+print(calendar.???(2021))
 ```
 
 - `calendar`

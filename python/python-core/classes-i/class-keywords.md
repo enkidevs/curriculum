@@ -5,11 +5,12 @@ category: must-know
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Class Keywords
@@ -46,9 +47,12 @@ class Employee:
 
 ## Practice
 
-What do classes, variables, lists in python have in common?
+What do classes, variables, and lists have in common in Python?
 
-they are all ???
+They are all:
+```plain-text
+???
+```
 
 - objects
 - methods

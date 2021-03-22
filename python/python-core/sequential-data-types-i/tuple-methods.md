@@ -7,11 +7,13 @@ category: must-know
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Tuple methods
@@ -60,15 +62,15 @@ How could you find the index for `'George'` in the following `tuple`:
 ```python
 beatles = ('John', 'Ringo', 'George', 'Paul')
 
-beatles.???(???)
+beatles.???('???')
 # 2
 ```
 
 - `index`
-- `'George'`
+- `George`
 - `find`
 - `2`
-- `'John'`
+- `John`
 - `count`
 
 
@@ -81,13 +83,13 @@ How could you count the number of dogs in the following tuple:
 ```python
 animals = ('dog', 'cat', 'rabbit', 'dog', 'horse')
 
-animals.???(???)
+animals.???('???')
 # 2
 ```
 
 - `count`
-- `'dog'`
-- `'Dog'`
+- `dog`
+- `Dog`
 - `index`
 - `'0'`
 - `2`
