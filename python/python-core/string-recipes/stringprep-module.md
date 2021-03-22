@@ -13,7 +13,7 @@ practiceQuestion:
   context: standalone
 revisionQuestion:
   formats:
-    - fill-in-the-gap    
+    - fill-in-the-gap
   context: standalone
 ---
 
