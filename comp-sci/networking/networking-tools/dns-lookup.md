@@ -14,6 +14,7 @@ links:
     Work](http://computer.howstuffworks.com/dns.htm){website}
 revisionQuestion:
   formats:
+    - fill-in-the-gap
     - type-in-the-gap
   context: standalone
 ---

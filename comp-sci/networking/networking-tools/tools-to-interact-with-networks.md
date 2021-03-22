@@ -9,6 +9,7 @@ links:
     [slackbook.org](http://slackbook.org/html/basic-network-commands.html){website}
 revisionQuestion:
   formats:
+    - fill-in-the-gap
     - type-in-the-gap
   context: standalone
 ---
