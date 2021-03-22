@@ -64,7 +64,7 @@ print(time.asctime(time_struct))
 # Fri Jun 23 15:27:36 2017
 ```
 
-Another useful function of this module is `time.sleep(n)` which can be used to make your program sleep for `n` seconds:
+Another useful function of this module is `time.sleep(n)` which can be used to make your program pause for `n` seconds:
 
 ```python
 print("good night")
@@ -110,9 +110,9 @@ print(formatted)
 
 ## Revision
 
-The `time` module provides numerous useful function for time manipulation.
+The `time` module provides numerous useful functions for time manipulation.
 
-Supposing all required `import`s are resolved before, complete the following script such that **current time** is `print`ed as a time tuple (`time.struct_time`).
+Complete the following script such that **current time** is `print`ed as a time tuple (`time.struct_time`).
 
 ```python
 print(???(???())
