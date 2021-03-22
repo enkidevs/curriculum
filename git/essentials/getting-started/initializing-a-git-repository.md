@@ -9,11 +9,12 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Initializing a Git repository
@@ -63,7 +64,9 @@ What will running `git init` do?
 
 What command is used to initialize **Git** for a project?
 
+```bash
 ???
+```
 
 - `git init`
 - `git start`

@@ -18,10 +18,10 @@ links:
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
-# Difference between `initial` and `inherit`
+# Difference between initial & inherit
 
 
 ---

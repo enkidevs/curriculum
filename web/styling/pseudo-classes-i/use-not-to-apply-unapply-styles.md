@@ -10,14 +10,14 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
-# Use `:not()` to apply/unapply styles
+# Use :not() to apply/unapply styles
 
 
 ---

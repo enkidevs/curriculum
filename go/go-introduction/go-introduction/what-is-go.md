@@ -11,11 +11,11 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Meet Go
@@ -46,7 +46,7 @@ It also has a cool mascot, the Gopher!
 
 ## Practice
 
-A commonly used name for Go is ???
+A commonly used name for Go is ???.
 
 - Golang
 - Gopher

@@ -8,11 +8,12 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Defining Functions
@@ -32,7 +33,7 @@ block-head:
     block line 2
 ```
 
-Functions in Python are defined using the `def` keyword, and as explained above follow Python's block syntax, in the example below a function called `new_function` is defined with a simple print method inside:
+Functions in Python are defined using the `def` keyword, and as explained above follow Python's block syntax. In the example below a function called `new_function` is defined with a simple print method inside:
 
 ```python
 def new_function():
@@ -47,27 +48,32 @@ def new_function():
 Which of the following syntaxes is correct for defining Python functions:
 
 ```python
+# 1
 def function1():
     # function code…
 
+# 2
 def function2() {
     # function code…
 }
 
+# 3
 def function 3(
     # function code…
 }
 
+# 4
 def function 4()
     # function code…
+
+
+# ???
 ```
 
-???
-
-- `Function 1`
-- `Function 2`
-- `Function 3`
-- `Function 4`
+- `1`
+- `2`
+- `3`
+- `4`
 
 
 ---
@@ -75,7 +81,10 @@ def function 4()
 ## Revision
 
 What keyword is used to define a new function?
+
+```python
 ???
+```
 
 - `def`
 - `new`

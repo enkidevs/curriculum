@@ -5,11 +5,11 @@ category: feature
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # HTML Tags
@@ -23,7 +23,7 @@ In its most basic format, a regex pattern to match an HTML tag, such as an `<a>`
 
 `/<a[^>]*>.*?<\/a>/`
 
-The negated set, `[^>]`, is the key component of this regex as it allows the pattern to match on all characters apart from the closing tag `>`. 
+The negated set, `[^>]`, is the key component of this regex as it allows the pattern to match on all characters apart from the closing tag `>`.
 
 This means that our regex pattern will work for the following valid HTML tags that contain attributes:
 
@@ -37,7 +37,7 @@ And it would not work for the following invalid tags:
     <a>some content<a> ❌
     <>some content</> ❌
 
-Say we have a long HTML document and we want to extract all of the `<h>` and `<p>` tags... 
+Say we have a long HTML document and we want to extract all of the `<h>` and `<p>` tags...
 
 This would be very tedious if we did them all individually.
 
@@ -76,4 +76,3 @@ How could we write a regex pattern to match all `<img>` tags?
 - `/<img.*>.*?<\/img>/`
 - `/<img[^>]*><\/img>/`
 - `/<img[^>]*>.*?</img>/`
- 

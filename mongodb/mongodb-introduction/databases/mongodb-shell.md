@@ -5,7 +5,8 @@ category: must-know
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # MongoDB Shell
@@ -93,16 +94,20 @@ exit
 
 ## Practice
 
-How do you access the MongoDB interactive JavaScript shell?
+Write the command used to access the MongoDB interactive JavaScript shell:
 
+```javascript
 ???
+```
 
-How do you exit/quit the MongoDB interactive JavaScript shell?
+Write the command used to exit/quit the MongoDB interactive JavaScript shell:
 
+```javascript
 ???
+```
 
-- by using the mongo command
-- by using the exit command
-- by using the mongodb command
-- by using the shell command
-- by using the leave command
+- mongo
+- exit
+- mongodb
+- shell
+- leave

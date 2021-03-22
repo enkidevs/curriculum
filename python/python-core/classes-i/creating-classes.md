@@ -5,11 +5,13 @@ category: must-know
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Creating Classes
@@ -89,7 +91,9 @@ class Car:
     print("Starting engine!")
 ```
 
+```plain-text
 ???
+```
 
 - B
 - A

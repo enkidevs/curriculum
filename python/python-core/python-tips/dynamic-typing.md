@@ -5,11 +5,12 @@ category: must-know
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Dynamic Typing
@@ -50,7 +51,7 @@ greeting = 'hey'
 
 ## Practice
 
-What will the type of the `n` variable will be eventually?
+What will the type of the `n` variable be when printed?
 
 ```python
 n = 'hello'
@@ -71,7 +72,7 @@ print(type(n))
 
 ## Revision
 
-What will the type of `d` variable will be eventually?
+What will the type of the `d` variable be when printed?
 
 ```python
 d = 'h'

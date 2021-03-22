@@ -39,7 +39,7 @@ In TypeScript, there are two ways to define an array:
 // here we define an array of numbers
 let primes: number[] = [2, 3, 5, 7];
 
-// or by wraping the type in the Array type
+// or by wrapping the type in the Array type
 // here we define an array of strings
 let powerRangerColors: Array<string> = [
   "red",

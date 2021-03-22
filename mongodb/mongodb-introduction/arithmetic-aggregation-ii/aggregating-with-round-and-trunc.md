@@ -5,10 +5,11 @@ category: feature
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
-# Aggregating With `$round` and `$trunc`
+# $round & $trunc
 
 
 ---
@@ -64,16 +65,22 @@ If we used `-3` as our decimal place (which is equal to the number of digits to 
 
 ## Practice
 
-Match the explanation with the operator.
+Which arithmetic operator matches the explanation.
 
-`$round` - ???
-`$trunc` - ???
+Used to round a positive or negative number up or down to the desired decimal point.
+```javascript
+???
+```
 
-- is an arithmetic operator used to round a positive or negative number up or down to the desired decimal point.
-- is an arithmetic operator used to truncate a positive or negative number to the desired decimal point.
-- is an arithmetic operator only used for rounding positive integers. 
-- is an arithmetic operator only used to truncate a positive integer.
+Used to truncate a positive or negative number to the desired decimal point.
+```javascript
+???
+```
 
+- `$round`
+- `$trunc`
+- `$truncate`
+- `$circle`
 
 ---
 

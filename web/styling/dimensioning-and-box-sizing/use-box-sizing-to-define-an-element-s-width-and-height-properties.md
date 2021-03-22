@@ -16,14 +16,16 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
-# Use `box-sizing` to define an element's `width` and `height` properties
+# Use box-sizing to define an element's width and height properties
 
 
 ---
@@ -45,9 +47,11 @@ Both squares are initially defined as `250×250`. Because of the different `box-
 
 ## Practice
 
-Which properties default value is `content-box` ?
+Which properties default value is `content-box`?
 
+```css
 ???
+```
 
 - `box-sizing`
 - `padding-box`
@@ -60,7 +64,9 @@ Which properties default value is `content-box` ?
 
 What's the default value for `box-sizing`?
 
+```css
 ???
+```
 
 - `content-box`
 - `0`

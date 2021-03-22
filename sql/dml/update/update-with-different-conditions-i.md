@@ -68,7 +68,7 @@ UPDATE
 SET
   id = 4
 WHERE
-  id = NULL;
+  id is NULL;
 ```
 
 But, what if there is another record that has `NULL` for `id` that you didn't see?
@@ -81,7 +81,7 @@ UPDATE
 SET
   id = 4
 WHERE
-  id = NULL AND
+  id is NULL AND
   name = "Primate";
 ```
 
