@@ -47,7 +47,7 @@ class Employee:
 
 ## Practice
 
-What do classes, variables, lists in python have in common?
+What do classes, variables, and lists have in common in Python?
 
 They are all:
 ```plain-text
