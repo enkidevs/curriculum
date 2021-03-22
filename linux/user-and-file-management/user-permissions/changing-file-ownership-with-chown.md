@@ -11,10 +11,11 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
+    - type-in-the-gap
   context: relative
 ---
 
@@ -75,7 +76,7 @@ To change the owner of a file using `chown` you need to ???.
 
 ## Revision
 
-Change the group for the `enki.txt` file:
+Change the group to `new-group` for the `./enki.txt` file:
 
 ```shell
 ??? ??? 
@@ -84,7 +85,7 @@ Change the group for the `enki.txt` file:
 
 - `sudo`
 - `chown`
-- `:new-group`
+- `new-group`
 - `./enki.txt`
 - `new-group`
 - `chmod`
