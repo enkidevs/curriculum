@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## March 22nd 2021
+
+### Changed
+- [Python - Break and Continune Statements - Improve readability](https://github.com/enkidevs/curriculum/pull/2654)
+
 ## March 15th 2021
 
 ### Fixed
