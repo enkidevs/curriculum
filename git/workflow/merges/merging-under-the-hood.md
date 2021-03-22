@@ -9,7 +9,8 @@ links:
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Merging under the hood
@@ -47,7 +48,10 @@ When both branches modify the same part of the same file, conflicts are explicit
 ## Revision
 
 What flag can be used such that fast-forward merge is not used even if its possible?
+
+```basg
 ???
+```
 
 - `--no-ff`
 - `-n`

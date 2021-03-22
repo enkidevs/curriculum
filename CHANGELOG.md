@@ -51,6 +51,7 @@ Types of change:
 ## March 22nd 2021
 
 ### Added
+- [Git - Entire Topic - Add type in the gap & remove all back ticks from headlines](https://github.com/enkidevs/curriculum/pull/2595)
 - [MongoDB - Entire Topic - Remove backticks from headlines, add type-in-the-gap, update questions](https://github.com/enkidevs/curriculum/pull/2593)
 - [Blockchain - Entire Topic - Add type-in-the-gap question type to applicable questions](https://github.com/enkidevs/curriculum/pull/2591)
 - [Docker - Add type-in-the-gap and change context where applicable](https://github.com/enkidevs/curriculum/pull/2590)
