@@ -49,7 +49,7 @@ The string can have one or more character but must end with a `'.'`.
 `sentence ending.` ✅
 sentence ending? ❌
 
-Note that `^` has different uses depending on whether it's inside or outside of square brackets , [^...]. This is where it's used to *exclude characters*.
+Note that `^` has different uses depending on whether it's inside or outside of square brackets , `[^...]`. This is where it's used to *exclude characters*.
 
 
 ---
