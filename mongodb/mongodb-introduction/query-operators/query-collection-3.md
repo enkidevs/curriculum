@@ -9,14 +9,16 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
-# Querying a Collection Using Ranges
+# Querying Using Ranges
 
 
 ---
@@ -150,18 +152,19 @@ Output:
 
 ## Practice
 
-Match the operator with the description:
+Which operator matches the description:
 
-`$lt` : ???
-`$lte`: ???
-`$gt` : ???
-`$gte`: ???
+```javascript
+??? // Less than
+??? // Less than or equal to
+??? // Greater than
+??? // Greater than or equal to
+```
 
-- Less than
-- Less than or equal to
-- Greater than
-- Greater than or equal to
-
+- `$lt`
+- `$lte`
+- `$gt`
+- `$gte`
 
 ---
 

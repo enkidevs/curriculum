@@ -7,14 +7,16 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
-# A thread-safe `Queue`
+# A thread-safe queue
 
 
 ---
@@ -73,7 +75,7 @@ The module also has a `PriorityQueue` that retrieves elements based on a priorit
 
 Complete the code snippet to declare a FIFO and LIFO queue and to see the values in both queues:
 
-```plain-text
+```python
 import queue
 f = queue.???()
 l = queue.LifoQueue()
@@ -97,7 +99,7 @@ l.???
 
 Instantiate a FIFO and LIFO queue:
 
-```plain-text
+```python
 import queue
 
 fq = queue.???()

@@ -9,11 +9,11 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Indentation and Commenting
@@ -83,7 +83,9 @@ else:
    print('this is false')
 ```
 
+```plain-text
 ???
+```
 
 - `this is true`
 - `True`
@@ -103,9 +105,9 @@ Which of the following is a valid Python comment?
 # Comment C
 ```
 
-???
+Comment ???
 
-- `Comment C`
-- `Comment B`
-- `Comment A`
+- `C`
+- `B`
+- `A`
  

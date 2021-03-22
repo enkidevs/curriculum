@@ -80,8 +80,6 @@ function enki(message: string): ??? {
 }
 ```
 
-???
-
 - `never`
 - `undefined`
 - `null`

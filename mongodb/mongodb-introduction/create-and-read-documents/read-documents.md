@@ -5,11 +5,13 @@ category: must-know
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Read documents
@@ -154,17 +156,23 @@ List all documents in the `pokemon` collection.
 
 ## Revision
 
-Which method is used to list all documents located within a single collection?
+How do you list all documents located within a single collection?
 
+```javascript
 ???
+```
 
-Which piece of code lists only the first `3` documents of the `pokemon` collection?
+How do you lists only the first `3` documents of the `pokemon` collection?
 
+```javascript
 ???
+```
 
-Which method is used to make the output of the query sorted by a selected field?
+Which method makes the output of a query sorted by a selected field?
 
+```javacsript
 ???
+```
 
 - `find()`
 - `db.pokemon.find().limit(3)`

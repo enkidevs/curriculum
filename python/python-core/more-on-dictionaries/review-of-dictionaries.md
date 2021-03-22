@@ -9,11 +9,11 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Review of dictionaries
@@ -38,7 +38,7 @@ A dictionary is represented by a series of tuples ( key: value ) wrapped in curl
 
 Being an unordered data type makes it impossible for elements to be accessed via some index. However, we can retrieve any stored value by referencing the related key:
 
-```plain-text
+```python
 print(weather['Barcelona'])
 
 # Output: 28
@@ -95,7 +95,7 @@ del weather
 
 Fill in the gaps such as the commented states of the `weather` dictionary stand true:
 
-```plain-text
+```python
 weather = ???
 
 ???['barcelona'] = 23
@@ -128,7 +128,7 @@ print(weather)
 
 What output will the following snippet generate:
 
-```plain-text
+```python
 marks = {'John': 8, 'Steve': 9.3,
          'Amy': 9.8}
 

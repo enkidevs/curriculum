@@ -12,21 +12,21 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
-# The `max` Built-in Function
+# The max Function
 
 
 ---
 
 ## Content
 
-The `max` function returns the largest item in an iterable object, or, the largest of two or more parameters given to it. The general syntax follows the form:
+The `max` built-in function returns the largest item in an iterable object, or, the largest of two or more parameters given to it. The general syntax follows the form:
 
 ```python
 max(iterable, *iterables [,key, default])
