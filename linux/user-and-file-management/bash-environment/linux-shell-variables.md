@@ -9,11 +9,12 @@ tags:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Variables
@@ -76,7 +77,7 @@ echo ???
 
 ## Revision
 
-Which of these variable declarations will throw an error?
+Which of these variable declarations will throw an error in bash?
 
 ```bash
 a="foobar"
