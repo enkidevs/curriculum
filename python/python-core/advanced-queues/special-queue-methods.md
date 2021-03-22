@@ -15,7 +15,7 @@ revisionQuestion:
   context: relative
 ---
 
-# Special `queue` methods
+# Special queue methods
 
 
 ---

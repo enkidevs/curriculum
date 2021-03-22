@@ -5,11 +5,11 @@ category: must-know
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Nested Loops
@@ -52,7 +52,7 @@ for letter in letters:
 
 Gives the following output:
 
-```python
+```plain-text
 a
 0
 1
@@ -94,6 +94,7 @@ for i in [1,2]:
 ## Revision
 
 How do nested loops work?
+
 ???
 
 - The outer loop increments once per full cycle of the inner loop.

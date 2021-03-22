@@ -8,11 +8,13 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # There is more to copying
@@ -73,7 +75,7 @@ x = deepcopy(y)
 
 Complete the code snippet to create a deep copy:
 
-```plain-text
+```python
 from copy ??? deepcopy
 x = ???(y)
 ```

@@ -5,11 +5,12 @@ category: how-to
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Map
@@ -140,13 +141,13 @@ Here is a sample map with 3 key-value pairs.
 Remove the third key-value pair from the `dogMap` map.
 
 ```go
-  ???(dogMap, ???)
+  ???(dogMap, "???")
   fmt.Println("map:", ???)
 // 
 ```
 
 - delete
-- "3"
+- 3
 - dogMap
 - "Labrador Retriever"
 - remove

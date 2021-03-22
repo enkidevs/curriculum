@@ -9,11 +9,13 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Metaclasses
@@ -80,7 +82,6 @@ metaclass -> class -> instance
 Create a new class of default type, instantiate it and print its type:
 
 ```python
-
 class Enki???:
   pass
 
@@ -104,7 +105,9 @@ print(???(???))
 
 What is the default metaclass of newly defined classes?
 
+```python
 ???
+```
 
 - `type`
 - `meta`

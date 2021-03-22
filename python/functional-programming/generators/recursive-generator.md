@@ -9,11 +9,13 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Recursive generator
@@ -27,7 +29,7 @@ Before the release of Python 3, **recursive generators** were implemented by cal
 
 Consider the following example:
 
-```plain-text
+```python
 def infinity(start):
     yield start
     for x in infinity(start + 1)
@@ -40,7 +42,7 @@ To achieve the same result, **Python 3** introduced a new construct, called `yie
 
 Let's check out the example above implemented using `yield from`:
 
-```plain-text
+```python
 def infinity(start):
     yield start
     yield from infinity(start + 1)
@@ -60,9 +62,8 @@ One common use of **recursive generators** is traversing *non-linear data struct
 ## Practice
 
 Can you spot which of the following generators are recursive?
-???
 
-```plain-text
+```python
 def list_gen(l):
     if l:
         yield l[0]
@@ -72,6 +73,10 @@ def cubic_generator(n):
 	for i in range(n):
 		yield i ** 3
 
+```
+
+```plain-text
+???
 ```
 
 - `list_gen`
@@ -86,7 +91,7 @@ def cubic_generator(n):
 
 Complete the missing Python 3 specific syntax of the following recursive generator:
 
-```plain-text
+```python
 def countdown(start):
     yield ???
     ??? ??? ???(start - 1)
