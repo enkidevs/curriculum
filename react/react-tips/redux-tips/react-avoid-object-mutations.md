@@ -9,11 +9,13 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Avoid object mutations
@@ -90,7 +92,7 @@ return ???.???({}, myObj, {
 What method can be used to create a new object, but with additional properties in a **pure** fashion:
 
 ```jsx
-return ???.???({}, myObj, {
+return ???.???(???, myObj, {
   myProperty: newValue
 });
 
@@ -98,6 +100,7 @@ return ???.???({}, myObj, {
 
 - `Object`
 - `assign`
+- `{}`
 - `...`
 - `clone`
 - `add`

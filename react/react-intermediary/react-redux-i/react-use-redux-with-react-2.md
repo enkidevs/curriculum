@@ -10,11 +10,13 @@ notes: This can be also placed in the react subtopic
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Use Redux with React (2)
@@ -83,7 +85,13 @@ export default ??? ??? ???;
 
 ## Revision
 
-Finish the following code so that you can connect the component to the Redux `store`:
+Assume we connect a *react component* to the redux store as follows:
+
+```js
+export default connect(mapStateToProps)(Component);
+```
+
+Complete the following function which meant to convert *redux store state* to *component props*.
 
 ```js
 function ???(state) {

@@ -9,11 +9,12 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Shallow compare in React
@@ -52,7 +53,7 @@ Another important aspect is that you should make sure all the child components a
 
 ## Practice
 
-Complete the following code to define a pure component:
+Complete the following code to define a **pure component** using class syntax:
 
 ```jsx
 ??? MyComp ??? React.??? {
