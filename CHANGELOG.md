@@ -53,6 +53,22 @@ Types of change:
 ### Changed
 - [Python - Break and Continune Statements - Improve readability](https://github.com/enkidevs/curriculum/pull/2654)
 
+### Fixed
+- [Typescript - TSC Array Tuple - Fix Typo](https://github.com/enkidevs/curriculum/pull/2659)
+
+## March 17th 2021
+
+### Fixed
+- [Go - Assignment Operators - Fix Incorrect Statement about `-=`](https://github.com/enkidevs/curriculum/pull/2657)
+
+## Match 16th 2021
+
+### Changed
+- [Python Data Analysis - Initializing and cleaning a dataset - Shorten Readme name to preparing a dataset](https://github.com/enkidevs/curriculum/pull/2655)
+
+### Fixed
+- [Python - Playing With Time - Polish text](https://github.com/enkidevs/curriculum/pull/2656)
+
 ## March 15th 2021
 
 ### Fixed
@@ -364,6 +380,7 @@ Types of change:
 - [JavaScript - Flow Control - Discussion Insight](https://github.com/enkidevs/curriculum/pull/2472)
 
 ### Fixed
+- [Linux - Quick cd Tips - Improve readability](https://github.com/enkidevs/curriculum/pull/2465)
 - [Coding Intro - Conditions Intro - Add ending phrase](https://github.com/enkidevs/curriculum/pull/2479)
 - [Coding Intro - Dictionaries - Add more possible answers to the pq](https://github.com/enkidevs/curriculum/pull/2478)
 - [Security - Intro - Replace broken links](https://github.com/enkidevs/curriculum/pull/2481)

@@ -1,6 +1,6 @@
-name: Initializing & Cleaning a Dataset
+name: Preparing a Dataset
 
-description: Learn what Series and DataFrames are, and how to initialize and prepare a dataset for analysis.
+description: Learn what Series and Dataframes are, and how to prepare a dataset for analysis.
 
 insights:
   - what-and-why-pandas
