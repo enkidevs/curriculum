@@ -5,11 +5,12 @@ category: how-to
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # For Loops
@@ -78,14 +79,14 @@ Complete the code to make the for loop iterate 3 times.
 ```go
 var sum = 0
 
-??? ??? ??? ??? {
+??? i := 0??? ??? ??? {
   sum += 1
   fmt.Println("The value of sum is: ", sum)
 }
 ```
 
 - for
-- i := 0;
+- ;
 - i < 3;
 - i++
 - i := 0:

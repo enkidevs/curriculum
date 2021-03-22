@@ -80,7 +80,7 @@ A bell-shaped curve depicts data that is normally distributed around a mean.
 
 [1:Variance]
 
-Mathematically speaking, variance is defined as the sum of the squared distances of each term in the distribution from the mean (μ), divided by the number of terms in the distribution (N).
+Mathematically speaking, variance is defined as the sum of the squared distances of each term in the distribution from the mean (μ), divided by the number of terms in the distribution minus one (N - 1).
 
 ![Variance](https://img.enkipro.com/6506f635c3af2ab1f22d103c1e9cfb38.png)
 

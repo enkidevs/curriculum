@@ -8,14 +8,15 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
-# `bytes` type
+# bytes type
 
 
 ---
@@ -64,7 +65,7 @@ Convert a `bytes` object to a hexadecimal string:
 
 Complete the output of the command run in the Python interactive shell:
 
-```plain-text
+```python
 >>> a = bytes(range(2))
 >>> a
 ???'\???\???'

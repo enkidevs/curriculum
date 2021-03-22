@@ -10,11 +10,13 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Queues and threads
@@ -96,7 +98,11 @@ for i in range(num_threads):
 
 ## Revision
 
-Which methods tells the queue that an operation has finished? ???
+Which methods tells the queue that an operation has finished?
+
+```python
+???
+```
 
 - `task_done()`
 - `task.done()`

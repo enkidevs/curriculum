@@ -9,11 +9,13 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Limiting log output by time
@@ -59,14 +61,15 @@ git ???
 
 ## Revision
 
-Show the commits made today :
+Show the commits made today:
 
 ```bash
-git ??? ???
+git ??? ???="???"
 ```
 
 - `log`
-- `--since="yesterday"`
-- `--pretty`
 - `--since`
+- `yesterday`
+- `--pretty`
+- `--since.yesterday`
 - `"yesterday"`

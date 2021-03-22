@@ -10,11 +10,12 @@ notes: 'prerequisites: scoping'
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # What Are Higher-Order Functions?
@@ -85,7 +86,9 @@ def foo():
     print(myname)
 ```
 
+```plain-text
 ???
+```
 
 - C
 - A

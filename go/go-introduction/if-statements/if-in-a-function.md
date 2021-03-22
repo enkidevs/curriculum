@@ -7,7 +7,7 @@ category: how-to
 
 ---
 
-# `if` in `main()` vs Separate Function
+# If in main() vs Separate Function
 
 ---
 ## Content

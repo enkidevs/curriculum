@@ -5,7 +5,7 @@ category: must-know
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Why Are `ObjectId` s Better Than Manually Inputted `_id` s?

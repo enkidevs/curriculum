@@ -9,15 +9,15 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Port Forwarding
-
 
 ---
 
@@ -71,7 +71,6 @@ Above would output something like this:
 0.0.0.0:27017
 ```
 
-
 ---
 
 ## Practice
@@ -98,7 +97,6 @@ Will the container be accessible via port `9090` on the host it's running on?
 
 - No
 - Yes
-
 
 ---
 
