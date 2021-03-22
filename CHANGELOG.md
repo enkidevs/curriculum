@@ -53,6 +53,9 @@ Types of change:
 ### Added
 - [Python - Core topic - Add type in the gap and standalone format to applicable questions](https://github.com/enkidevs/curriculum/pull/2583)
 
+### Changed
+- [Python - Break and Continune Statements - Improve readability](https://github.com/enkidevs/curriculum/pull/2654)
+
 ### Fixed
 - [Typescript - TSC Array Tuple - Fix Typo](https://github.com/enkidevs/curriculum/pull/2659)
 
@@ -380,6 +383,7 @@ Types of change:
 - [JavaScript - Flow Control - Discussion Insight](https://github.com/enkidevs/curriculum/pull/2472)
 
 ### Fixed
+- [Linux - Quick cd Tips - Improve readability](https://github.com/enkidevs/curriculum/pull/2465)
 - [Coding Intro - Conditions Intro - Add ending phrase](https://github.com/enkidevs/curriculum/pull/2479)
 - [Coding Intro - Dictionaries - Add more possible answers to the pq](https://github.com/enkidevs/curriculum/pull/2478)
 - [Security - Intro - Replace broken links](https://github.com/enkidevs/curriculum/pull/2481)
