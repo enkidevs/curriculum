@@ -11,14 +11,14 @@ notes: >-
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
-# Best way to implement a simple `queue`
+# Best way to implement a simple queue
 
 
 ---
@@ -49,7 +49,7 @@ A reverse queue can be implemented by opting for `appendleft` instead of `append
 
 ## Practice
 
-A reverse queue can be implemented by using ???  instead of ??? for adding items, and by using ??? instead of ??? for removing items.
+A reverse queue can be implemented by using ??? instead of ??? for adding items, and by using ??? instead of ??? for removing items.
 
 - appendleft
 - append
@@ -65,7 +65,7 @@ A reverse queue can be implemented by using ???  instead of ??? for adding items
 
 Complete the code snippet so that the queue reads Enki:
 
-```plain-text
+```python
 from collections import deque
 queue = deque(["i", "n", \
               "k", "i"])

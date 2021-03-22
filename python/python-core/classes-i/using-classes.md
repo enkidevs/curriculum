@@ -5,11 +5,12 @@ category: must-know
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Using Classes
@@ -69,12 +70,12 @@ class Employee:
     print("{0} is employee no. {1}"
       .format(self.name, self.idnum))
 
-steve = ???(???)
+steve = ???('???')
 ```
 
 - Employee
-- 'Steve'
 - Steve
+- 'Steve'
 - Employer
 - employee
 

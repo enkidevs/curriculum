@@ -5,11 +5,13 @@ category: must-know
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # yield() and next()
@@ -77,10 +79,11 @@ def countdown(num):
 
 >>> gen = countdown(5)
 >>> print(next(gen))
-
 ```
 
+```plain-text
 ???
+```
 
 - `5`
 - `0`
