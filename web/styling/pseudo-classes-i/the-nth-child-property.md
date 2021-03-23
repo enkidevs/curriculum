@@ -13,10 +13,10 @@ links:
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
-# The `nth-child` Property
+# The nth-child Property
 
 
 ---

@@ -8,11 +8,11 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Why Learn Go
@@ -84,7 +84,7 @@ Every programming language has reserved words with a special meaning that are ca
 
 Go only has 25 keywords:
 
-```plain-text
+```go
 break        default      func         interface    select
 case         defer        go           map          struct
 chan         else         goto         package      switch

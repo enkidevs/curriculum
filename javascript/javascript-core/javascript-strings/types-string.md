@@ -5,11 +5,12 @@ category: must-know
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Types - String
@@ -61,7 +62,7 @@ What special character is used to add a `new line` to strings denoted with quote
 
 ```javascript
 let myString = 'this will ???
-       be displayed on two lines';
+  be displayed on two lines';
 ```
 
 - `\n`

@@ -7,11 +7,13 @@ category: must-know
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Intro to Sequential Data Types
@@ -71,13 +73,13 @@ What's the correct output for the following?
 text = 'Strings can be accessed via indexes!'
 
 print(text[1])
-# ???
+# '???'
 ```
 
-- `'t'`
-- `'S'`
-- `'!'`
-- `'s'`
+- `t`
+- `S`
+- `!`
+- `s`
 
 
 ---
@@ -90,10 +92,10 @@ What's the correct output for the following?
 text = 'Strings can be accessed via indexes!'
 
 print(text[O])
-# ???
+# '???'
 ```
 
-- `'S'`
-- `'s'`
-- `'!'`
-- `'t'`
+- `S`
+- `s`
+- `!`
+- `t`

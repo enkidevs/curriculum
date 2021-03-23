@@ -12,11 +12,12 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # The built-in Node debugger
@@ -28,13 +29,13 @@ revisionQuestion:
 
 Use the built-in Node debugger by running your app in **debug mode**:
 
-```plain-text
+```bash
 node debug [your app]
 ```
 
 Place a `debugger` statement on the line of interest, for example:
 
-```plain-text
+```js
 for(var i=0; i<3; i++){
   debugger;
   console.log("hello " + i);
@@ -56,7 +57,7 @@ Step through your code using these debug commands:
 
 ## Practice
 
-When running the following code snippet in the debugger, which line of code will the debugger break at? ???
+When running the following code snippet in the debugger, which line of code will the debugger break at?
 
 ```javascript
 for(var i=0; i<10; i++) {      // line 0
@@ -65,6 +66,8 @@ for(var i=0; i<10; i++) {      // line 0
 }                              // line 3
 console.log("end");            // line 4
 ```
+
+???
 
 - Line 1
 - Line 0

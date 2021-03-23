@@ -5,11 +5,13 @@ category: must-know
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Initialization
@@ -60,20 +62,19 @@ This is true for any type. As long as the value is initialized, there is no need
 
 ## Practice
 
-Which of these is not a correct way of initializing a string variable?
+Which of these variables are incorrectly initialized?
 
 ```go
-// a
-var name = "Stefan"
+var a = "Stefan"
 
-// b
-var name string = "Stefan"
+var b string = "Stefan"
 
-// c
-var name string = Stefan
+var c string = Stefan
 ```
 
+```go
 ???
+```
 
 - c
 - a

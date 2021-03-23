@@ -7,11 +7,13 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Load Initial Data via AJAX
@@ -54,7 +56,7 @@ Suppose you want to load some data via an ajax call to your component after it w
 ```javascript
 class Component extends React.Component {
   ???() {
-    this.??? = ???
+    this.??? = ???;
     $.get(this.props.ajaxSource, res => {
       if (???) {
         this.setState({

@@ -5,11 +5,12 @@ category: must-know
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Git Ignore
@@ -74,7 +75,9 @@ Can wildcards be used inside the `.gitignore` file?
 
 What file is used to tell git to ignore certain files in your project?
 
+```plain-text
 ???
+```
 
 - `.gitignore`
 - `.git`

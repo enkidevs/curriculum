@@ -13,11 +13,12 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Check Available Python Modules
@@ -47,13 +48,13 @@ Or, inside of a python interactive shell:
 Complete the following command such that when used in the Python interactive shell it will show all modules installed on the machine:
 
 ```py
->>> ???(???)
+>>> ???('???')
 ```
 
 - `help`
-- `'modules'`
-- `pydoc`
 - `modules`
+- `pydoc`
+- `"modules"`
 - `get`
 - `show`
 

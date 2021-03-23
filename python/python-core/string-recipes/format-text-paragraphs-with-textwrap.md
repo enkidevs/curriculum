@@ -10,11 +10,13 @@ notes: String manipulation workout
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Format text paragraphs with `textwrap`
@@ -93,7 +95,7 @@ Other useful methods like `indent` and `dedent` are available in this module.
 
 Truncate `text` to `17` characters max:
 
-```plain-text
+```python
 ???.???(text, ???=17)
 ```
 
@@ -112,7 +114,7 @@ Truncate `text` to `17` characters max:
 
 Wrap the `text`  with a maximum of 30 chars per line:
 
-```plain-text
+```python
 textwrap.???(text, ???=30)
 ```
 

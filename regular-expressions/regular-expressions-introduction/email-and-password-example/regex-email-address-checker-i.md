@@ -7,11 +7,11 @@ category: must-know
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Email Address Checker I
@@ -25,7 +25,7 @@ How many times have you seen the message *“Invalid email format”* in your si
 
 That's because the `input` element on an HTML form already performs the validation without you needing to write any of your own regex.
 
-That being said, if for some reason you don't have access to this field, regex can help you validate email addresses in a single line of code, instead of having to write several `if` statements[1]. 
+That being said, if for some reason you don't have access to this field, regex can help you validate email addresses in a single line of code, instead of having to write several `if` statements[1].
 
 Let's start off with a basic expression to check that the overall structure of the text is in the form `x@y.z`.
 
@@ -49,7 +49,7 @@ Let's try a stricter example:
 
 `/@/` is literally just the '**@**' symbol.
 
-`/[a-z0-9.-]+\.[a-z]{2,6}/` ensures that the domain also contains email address-friendly characters, and that there are between 2-6 characters in the domain extension. 
+`/[a-z0-9.-]+\.[a-z]{2,6}/` ensures that the domain also contains email address-friendly characters, and that there are between 2-6 characters in the domain extension.
 
 We can also add an `i` modifier to the end of our regex to make sure that the pattern is case insensitive 🙌.
 
@@ -92,4 +92,3 @@ Using the regex below, we could match the email address `we_love_code@enki.com`.
 
 [1:if statements]
 Conditional statements (or `if` statements) are features of a programming language that perform different actions depending on whether a condition evaluates to true or false.
- 

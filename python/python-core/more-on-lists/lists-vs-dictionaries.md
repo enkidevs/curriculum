@@ -9,11 +9,12 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Lists vs Dictionaries
@@ -94,7 +95,7 @@ What complexity is required for a lookup on a list?
 
 Consider the following example:
 
-```py
+```python
 my_dict = {
   1: 2, 
   2: 4, 

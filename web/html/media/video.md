@@ -15,14 +15,16 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
-# The `<video>` Element
+# The video Element
 
 
 ---
@@ -86,7 +88,9 @@ Complete the following snippet in order for it to be valid:
 
 Which HTML element is used to insert a movie clip or video stream into the document?
 
+```html
 ???
+```
 
 - `<video>`
 - `<vid>`

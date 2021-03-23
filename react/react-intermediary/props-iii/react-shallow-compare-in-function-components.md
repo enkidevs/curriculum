@@ -9,11 +9,12 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Shallow compare in function components
@@ -57,7 +58,7 @@ const Component = React.memo(
 
 ## Practice
 
-Complete the code so that **EnkiComp** only re-renders if **areEqual** returns false
+Complete the code such that `EnkiComp` only re-renders if `areEqual` returns `false`
 
 ```javascript
 function EnkiComp(props) {

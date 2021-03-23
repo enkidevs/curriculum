@@ -7,11 +7,13 @@ tags:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Using the Double Tilde `~~`
@@ -45,10 +47,14 @@ console.log( ~~null ); // 0
 What does the following JS code snippet output?
 
 ```javascript
-console.log(~~15); // ???
-console.log(~~"7.08"); // ???
-console.log(~~"-1.92"); // ???
-console.log(~~{}); // ???
+console.log(~~15); 
+// ???
+console.log(~~"7.08"); 
+// ???
+console.log(~~"-1.92"); 
+// ???
+console.log(~~{}); 
+// ???
 ```
 
 - 15
@@ -71,9 +77,12 @@ console.log(~~{}); // ???
 The following code will output:
 
 ```javascript
-console.log( ~~12.34 ); // ???
-console.log( ~~"56.78" ); // ???
-console.log( ~~"Sunny" ); // ???
+console.log( ~~12.34 ); 
+// ???
+console.log( ~~"56.78" ); 
+// ???
+console.log( ~~"Sunny" ); 
+// ???
 ```
 
 - 12

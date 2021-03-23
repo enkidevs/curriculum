@@ -9,14 +9,15 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
-# Other operations on files
+# Other Operations on Files
 
 
 ---
@@ -38,10 +39,9 @@ In **Python**, the `tell()` function returns the current position in the **file*
 - `1`: which means at the current position;
 - `2`: which means at the end of the file.
 
-Let's see how `tell()` and `seek()` work in practice, considering a dummy `file.txt`[1]:
+Let's see how `tell()` and `seek()` work in practice, considering a dummy `file.txt`:
 
 ```python
-
 file = open('file.txt','r+')
 text = file.read(7)
 
@@ -63,7 +63,7 @@ file.close()
 # It has two lines of text
 ```
 
-Apart from other uses, `os` module helps with **file processing operations**. Two of this operations are
+Apart from other uses, `os` module helps with **file processing operations**. Two of these operations are
 `rename(current_file_name, new_file_name)` and `remove(file_name)`.
 
 As `os` is a **module**, we need to **import** it to be able to use the operations it provides:
@@ -75,14 +75,13 @@ os.rename('file.txt','new_file.txt');
 os.remove('new_file.txt');
 ```
 
-
 ---
 
 ## Practice
 
 We want to open `file.txt` just for reading purposes. After we want to print it line by line and print the content.
 
-```plain-text
+```py
 file = open('file.txt','???')
 print(???.readline())
 ```
@@ -104,7 +103,9 @@ print(???.readline())
 
 Which method returns the current position of the file pointer within a **file object**?
 
+```python
 ???
+```
 
 - `tell()`
 - `seek()`

@@ -9,11 +9,12 @@ links: null
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Italic & Emphasis
@@ -173,9 +174,17 @@ Mark the false statement about the `<em>` element.
 
 ## Revision
 
-When text is being read by a person (or software) to add emphasis to the pronunciation, use: ???
+When text is being read by a person (or software) to add emphasis to the pronunciation, use:
 
-When emphasis is needed for a foreign word, a fictional character's thoughts, or when the text refers to the definition of a word instead of representing its semantic meaning, use: ???
+```html
+???
+```
+
+When emphasis is needed for a foreign word, a fictional character's thoughts, or when the text refers to the definition of a word instead of representing its semantic meaning, use:
+
+```html
+???
+```
 
 - `<em>`
 - `<i>`

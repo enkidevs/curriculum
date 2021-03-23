@@ -9,11 +9,13 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Branches in Git
@@ -101,9 +103,11 @@ git ??? ??? my-branch
 
 ## Revision
 
-What command is used in **Git** to switch between branches?
+The command used in **Git** to switch between branches:
 
+```bash
 ???
+```
 
 - `git checkout`
 - `git branch`
