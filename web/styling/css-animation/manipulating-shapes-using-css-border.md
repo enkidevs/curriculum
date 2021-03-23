@@ -12,10 +12,10 @@ links:
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
-# Manipulating shapes using CSS: `border`
+# Manipulating shapes using border
 
 
 ---

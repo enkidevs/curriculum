@@ -9,11 +9,12 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # MIN and MAX clauses
@@ -75,7 +76,8 @@ We have the table `item`. It holds data about each item and its cost. We want to
 ```
 
 ```sql
-SELECT ???(???) FROM ???
+SELECT ???(???) 
+FROM ???
 ```
 
 - MAX
@@ -90,7 +92,7 @@ SELECT ???(???) FROM ???
 
 ## Revision
 
-Consider the table `move_effect_change`. Choose the query that finds the move with the **lowest** effect:
+Consider the table `move_effect_change`. Complete the query such that it finds the move with the **lowest** effect:
 
 ```md
 | id | move_effect | version_group_id |

@@ -12,11 +12,11 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # A Request Example
@@ -69,9 +69,7 @@ Most modern browsers like **Microsoft Edge** (*F12*), **Mozilla Firefox** (*CTRL
 
 ## Practice
 
-The filetypes that the server should return are specified in the
-
-??? header field.
+The filetypes that the server should return are specified in the ??? header field.
 
 - Accept
 - User-Agent

@@ -10,11 +10,11 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Page Visibility API
@@ -59,7 +59,9 @@ function(){
 
 ## Practice
 
-Which of the following is not a visibleState property value? ???
+Which of the following is not a `visibleState` property value? 
+
+???
 
 - rawview
 - hidden
@@ -75,7 +77,10 @@ Which of the following is not a visibleState property value? ???
 Complete the following JS code snippet to add an event listener for a visibility change:
 
 ```javascript
-document.???("???", function() {
+document.???(
+  "???",
+  function() {}
+);
 ```
 
 - `addEventListener`

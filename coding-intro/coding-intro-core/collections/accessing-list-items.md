@@ -5,11 +5,13 @@ category: must-know
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Accessing List Items
@@ -81,9 +83,9 @@ spring = [
 ]
 
 spring[3]
-// ???
+// "???"
 ```
 
-- "May"
-- "April"
-- "March"
+- May
+- April
+- March

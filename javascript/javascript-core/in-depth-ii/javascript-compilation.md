@@ -9,11 +9,11 @@ tags:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # JavaScript Compilation
@@ -61,11 +61,13 @@ There are many sophisticated compilation techniques such as **jit** compilation,
 Find the variable scopes in the following code:
 
 ```javascript
-var flag = true; //flag is ???
+var flag = true; 
+// flag is ???
 
 function test() {
    var x;
-   function test2() { // test2 is in ???
+   function test2() { 
+     // test2 is in ???
       var y;
    }
 }
@@ -87,12 +89,18 @@ function test() {
 Find each variable scope in the following code:
 
 ```javascript
-var a = 1; // a is in global
-var b = 2; // b is in ???
-function foo(){ // foo is in global
-  var a = 2; // a is in foo
-  function fee(){ // fee is in ???
-  var b = 3; // b is in ???
+var a = 1; 
+// a is in global
+var b = 2; 
+// b is in ???
+function foo(){ 
+  // foo is in global
+  var a = 2; 
+  // a is in foo
+  function fee(){ 
+    // fee is in ???
+    var b = 3; 
+    // b is in ???
   }
 }
 ```

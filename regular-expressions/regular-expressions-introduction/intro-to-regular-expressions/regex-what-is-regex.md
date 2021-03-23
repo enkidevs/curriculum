@@ -9,11 +9,11 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # What are Regular Expressions?
@@ -23,13 +23,13 @@ revisionQuestion:
 
 ## Content
 
-**Regular expressions** (regex or regexp for short) are *patterns of letters, numbers and non-alphanumeric characters.* 
+**Regular expressions** (regex or regexp for short) are *patterns of letters, numbers and non-alphanumeric characters.*
 
-> They can be used to find matching patterns in other texts. 
+> They can be used to find matching patterns in other texts.
 
 You can think of regular expressions as wildcards[1] on steroids 💪.
 
-Although we can use regex to find *direct matches*, it's more commonly used for  *pattern matching*. 
+Although we can use regex to find *direct matches*, it's more commonly used for  *pattern matching*.
 
 Imagine if you wanted to find your birthday in a long list of birthdays that are all in the DD-MM-YYYY format. You would go to the list and find a date that exactly matches your birthday.
 
@@ -77,7 +77,6 @@ Along with letters and numbers, which of the these are valid in regex?
 ## Footnotes
 
 [1:Wildcards]
-A wildcard character is a kind of placeholder represented by a single character, such as an asterisk `*` or percentage sign `%`. Wildcards can be interpreted as *multiple characters or an empty string*. 
+A wildcard character is a kind of placeholder represented by a single character, such as an asterisk `*` or percentage sign `%`. Wildcards can be interpreted as *multiple characters or an empty string*.
 
 Wildcards are often used in file searches so that the full name doesn't need to be typed out. They're also commonly used in SQL to match zero or more characters.
- 

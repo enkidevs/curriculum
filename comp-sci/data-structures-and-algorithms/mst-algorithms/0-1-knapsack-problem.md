@@ -10,6 +10,14 @@ links:
     [A More in-Depth Explanation of the
     Problem](https://www.quora.com/Whats-an-intuitive-explanation-for-the-0-1-knapsack-problem-in-data-structures-and-algorithms){website}
 
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
 # (0-1) Knapsack Problem

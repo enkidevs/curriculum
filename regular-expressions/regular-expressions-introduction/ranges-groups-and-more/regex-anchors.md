@@ -9,11 +9,11 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Anchors
@@ -49,14 +49,14 @@ The string can have one or more character but must end with a `'.'`.
 `sentence ending.` ✅
 sentence ending? ❌
 
-Note that `^` has different uses depending on whether it's inside or outside of square brackets , [^...]. This is where it's used to *exclude characters*.
+Note that `^` has different uses depending on whether it's inside or outside of square brackets , `[^...]`. This is where it's used to *exclude characters*.
 
 
 ---
 
 ## Practice
 
-Which regex pattern would match with the first line of text? 
+Which regex pattern would match with the first line of text?
 
 ???
 
@@ -74,7 +74,7 @@ Next Mission: successful upon capture of target ❌
 
 ## Revision
 
-Which regex pattern would match with the first line of text? 
+Which regex pattern would match with the first line of text?
 
 ???
 
@@ -102,4 +102,3 @@ Partial matches are when the regex pattern matches some, but not all of the text
 We could use the regex pattern `/.+/` to match the entire text.
 
 `let's match this text` ✅
- 

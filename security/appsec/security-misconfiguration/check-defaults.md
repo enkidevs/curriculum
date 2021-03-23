@@ -9,11 +9,11 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Check Defaults
@@ -49,6 +49,7 @@ A ??? of the ??? is required to identify ??? for each part of the application.
 ## Revision
 
 What is a cause of hackers to develop automated attacks for application components:
+
 ???
 
 - when the default security settings are vulnerable

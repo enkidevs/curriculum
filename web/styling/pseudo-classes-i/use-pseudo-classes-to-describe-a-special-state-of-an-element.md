@@ -16,11 +16,12 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Use pseudo-classes to describe a special state of an element
@@ -62,7 +63,9 @@ If defined in a different order (other than *LVHA*), there's a big chance they w
 
 What symbol must a pseudo-class be preceded by?
 
+```plain-text
 ???
+```
 
 - `:`
 - `;`

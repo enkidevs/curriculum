@@ -13,10 +13,11 @@ notes: ''
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
-# Position elements with `position: sticky`
+# Position elements with position: sticky
 
 
 ---
@@ -43,15 +44,15 @@ Can you make the `.enki` class sticky?
 
 ```ccss
 .enki {
-    ???;
+    ???: ???;
     top: 33px;
 }
 ```
 
-- `position: sticky`
-- `position: stick`
-- `sticky: position`
-- `appearance: sticky`
+- `position`
+- `sticky`
+- `stick`
+- `appearance`
 
 ---
 

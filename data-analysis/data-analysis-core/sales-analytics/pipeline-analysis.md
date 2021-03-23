@@ -7,11 +7,13 @@ category: must-know
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Pipeline Analysis
@@ -56,7 +58,9 @@ Other useful sales pipeline analysis metrics include:
 
 Suppose we start with 100 leads. 20 of those reach the demo stage, and 5 of them convert. What is our **demo-to-win conversion rate**?
 
+```plain-text
 ???
+```
 
 - 25%
 - 20%
@@ -67,9 +71,11 @@ Suppose we start with 100 leads. 20 of those reach the demo stage, and 5 of them
 
 ## Revision
 
-Let's say we start with 100 leads and 20 of those reach the demo stage, with 5 of those converting. What is our **new-to-demo conversion rate**?
+Let's say we start with 100 leads and 25 of those reach the demo stage, with 5 of those converting. What is our **new-to-demo conversion rate**?
 
+```plain-text
 ???
+```
 
 - 20%
 - 5%

@@ -7,11 +7,13 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # GZIP compression for **Express**
@@ -50,15 +52,15 @@ Please be a good citizen and apply gzip compression on your app.
 How would you enable GZIP compression for express 4.0?
 
 ```javascript
-const compress = require(???)
-const express = require(???)
+const compress = require('???')
+const express = require('???')
 
 // ...
 app.???(???)
 ```
 
-- 'compression'
-- 'express'
+- compression
+- express
 - use
 - compress()
 - compress

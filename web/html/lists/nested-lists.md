@@ -14,11 +14,13 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Nested Lists
@@ -134,9 +136,11 @@ Complete the HTML code to create an unordered list within an ordered list.
 </A>
 ```
 
+```plain-text
 A: ???
 B: ???
 C: ???
+```
 
 - `ol`
 - `li`
@@ -194,10 +198,12 @@ Option #2:
 </ol>
 ```
 
-???
+```plain-text
+Option #???
+```
 
-- Option #1
-- Option #2
+- 1
+- 2
 
 
 ---

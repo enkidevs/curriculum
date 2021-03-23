@@ -12,15 +12,14 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Container vs VM
-
 
 ---
 
@@ -30,7 +29,7 @@ We can think of a Docker container as a light-weight virtual machine. But unlike
 
 A virtual machine is more isolated from the host but much heavier because it requires more resources.
 
-Docker is less isolated but the containers require significantly less resources, allowing us to easily run thousands of them on a single host. 
+Docker is less isolated but the containers require significantly less resources, allowing us to easily run thousands of them on a single host.
 
 This approach provides a non-trivial performance boost and can significantly reduce the size of an application.
 
@@ -38,8 +37,7 @@ Containers only virtualize the operating system, not the underlying hardware. Th
 
 This is why containers are often preferable when multiple applications using the same operating system are needed.
 
-If virtual machines abstract away the hardware, containers abstract away the operating system.
-
+> 💡 If virtual machines abstract away the hardware, containers abstract away the operating system.
 
 ---
 
@@ -51,7 +49,6 @@ Docker container is more ??? than a VM which allows it to be started, stopped an
 - efficiently
 - isolated
 - safely
-
 
 ---
 

@@ -5,11 +5,12 @@ category: how-to
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # The Printf Function
@@ -74,7 +75,7 @@ The `Printf` function ??? verbs and ??? a new line.
 
 ## Revision
 
-Fill in the code to format and print a string using `Printf`. Add a new line character at the end of the statement.
+Fill in the code to format and print a string in the same function. Add a new line character at the end of the statement.
 
 ```go
 var name, age = "Joan", 21

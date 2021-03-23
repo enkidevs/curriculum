@@ -9,11 +9,13 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Default values for props
@@ -63,13 +65,14 @@ Comp.??? = {
 - `"xyz"`
 - `default`
 - `getDefaultProps`
+- `xyz`
 
 
 ---
 
 ## Revision
 
-Fill the missing that such that the default values for the `value` prop is `"xyz"`:
+Fill the missing that such that the default values for the `bool` prop is `true`:
 
 ```jsx
 function Comp(props) {
@@ -82,7 +85,9 @@ Comp.??? = {
 ```
 
 - `defaultProps`
-- `value`
-- `"xyz"`
+- `bool`
+- `true`
 - `default`
 - `getDefaultProps`
+- `false`
+- `boolean`

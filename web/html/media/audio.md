@@ -12,14 +12,15 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
-# The `<audio>` Element
+# The audio Element
 
 
 ---
@@ -121,7 +122,9 @@ Add an audio player with controls for a single song:
 
 Which HTML element is used to insert an audio file into the document?
 
+```html
 ???
+```
 
 - `<audio>`
 - `<mp3>`

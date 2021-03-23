@@ -9,11 +9,13 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Basic Git configuration
@@ -93,7 +95,9 @@ git ??? ??? \
 
 What `Git` command is used to change various configuration options?
 
+```bash
 ???
+```
 
 - `git config`
 - `git --global`

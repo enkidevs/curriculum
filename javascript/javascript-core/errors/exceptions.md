@@ -11,11 +11,13 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Exceptions
@@ -88,7 +90,7 @@ Complete the following block in the code snippet such that the comments make sen
 ??? {
    throw "my error";
 } ??? (e) {
-   //exception is caught here
+   // exception is caught here
 } ??? {
    // will always run
 }
