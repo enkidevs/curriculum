@@ -12,11 +12,12 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Requiring and Exporting
@@ -62,6 +63,7 @@ Required and exported!
 ## Practice
 
 Which of the following is included in all JavaScript files by default?
+
 ???
 
 - module.exports
@@ -75,7 +77,7 @@ Which of the following is included in all JavaScript files by default?
 
 Complete the code snippet to import `module.js`:
 
-```plain-text
+```js
 var mod = ???('./module.js');
 ```
 

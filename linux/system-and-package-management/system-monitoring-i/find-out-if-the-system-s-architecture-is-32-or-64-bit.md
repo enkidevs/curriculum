@@ -12,11 +12,11 @@ tags:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Find out if the system's architecture is 32 or 64 bit
@@ -75,7 +75,7 @@ To find out *just* your system’s architecture, you would run :
 
 ## Revision
 
-To find out your system’s arhitecture you would run :
+To find out your system’s arhitecture and properties, you would run :
 
 ```bash
 ???

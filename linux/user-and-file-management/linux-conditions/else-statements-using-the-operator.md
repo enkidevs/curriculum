@@ -7,7 +7,7 @@ tags:
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # `else` statements using the `||` operator

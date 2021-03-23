@@ -9,11 +9,11 @@ tags:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Hook Scripts
@@ -61,7 +61,7 @@ A default `npm` script event is:
 
 What command does `npm start` run by default?
 
-```plain-text
+```sh
 ???
 ```
 

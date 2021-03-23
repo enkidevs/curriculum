@@ -9,7 +9,7 @@ tags:
 notes: code blocks width is weird
 ---
 
-# Debugging `ssh` client issues
+# Debugging ssh client issues
 
 
 ---

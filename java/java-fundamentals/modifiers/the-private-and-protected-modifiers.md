@@ -5,11 +5,12 @@ category: must-know
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # The `private` and `protected` Modifiers
@@ -71,7 +72,7 @@ If the `start()` method was declared private, it wouldn't be accessible from any
 
 Complete the following snippet to make the method usable only in its initial class:
 
-```plain-text
+```java
 ??? class Car{
   private int noDoors;
   ??? void start(){...}

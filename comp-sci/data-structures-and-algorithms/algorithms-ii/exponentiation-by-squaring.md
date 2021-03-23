@@ -9,11 +9,11 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Exponentiation By Squaring
@@ -73,9 +73,7 @@ It is worth noting that after each squaring, the new value would almost double t
 
 For small exponent values, squaring might need more operations than straight-forward approach.
 
-`5^5` would require 4 multiplications, whereas, following the squaring algorithm, the same computation would require a total of
-
-??? operations(decompose+multiply).
+`5^5` would require 4 multiplications, whereas, following the exponentation by squaring algorithm, the same computation would require a total of ??? operations (decompose+multiply).
 
 - 2+3
 - 3+3

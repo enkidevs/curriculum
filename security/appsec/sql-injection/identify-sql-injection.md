@@ -12,11 +12,11 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Identify SQL Injection
@@ -57,10 +57,10 @@ FROM Users
 WHERE Username='???'
 ```
 
-- 1' OR '1' = '1
-- ;SELECT * FROM Users;
-- --; SELECT * FROM Users;
-- OR '1' = '1'
+- `1' OR '1' = '1`
+- `;SELECT * FROM Users;`
+- `--; SELECT * FROM Users;`
+- `OR '1' = '1'`
 
 
 ---
@@ -77,7 +77,7 @@ order_date = '#{@params['order_date']}'"
 
 Input: ???
 
-- 12/12/2012' OR '1' = '1'
-- OR '1' = '1'
-- SELECT * FROM Orders
-- ; SELECT * FROM Orders;
+- `12/12/2012' OR '1' = '1'`
+- `OR '1' = '1'`
+- `SELECT * FROM Orders`
+- `; SELECT * FROM Orders;`

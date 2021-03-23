@@ -8,11 +8,11 @@ tags:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Function Call Method
@@ -61,7 +61,9 @@ str = "Object: 2. Arguments: 4 6 "
 
 ## Practice
 
-If `currObj` is not supplied, what is it set to by default? ???
+If `currObj` is not supplied, what is it set to by default? 
+
+???
 
 - The global object.
 - Equal to null.

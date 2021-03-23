@@ -12,7 +12,7 @@ tags:
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Multiple IP Addresses with aliasing
@@ -72,7 +72,7 @@ IPADDR=192.168.100.100
 
 ## Revision
 
-To temporary alias `eth0` interface as `eth0:1` you would run:
+To temporary alias `eth0` interface as `eth0:1` using `ifconfig`, you would run:
 
 ```bash
 ??? ??? ??? 

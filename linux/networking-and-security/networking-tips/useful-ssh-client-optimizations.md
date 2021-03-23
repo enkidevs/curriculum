@@ -11,11 +11,11 @@ tags:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Useful ssh client optimizations
@@ -64,9 +64,7 @@ Which of these lines will instruct the machine to send empty packets to keep the
 
 ## Revision
 
-You can speed up the connection to a server through 
-
-???.
+You can speed up the connection to a server through ???
 
 - compression
 - keeping the connection alive

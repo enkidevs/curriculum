@@ -9,11 +9,11 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Identifying the Presentation Layer
@@ -37,6 +37,7 @@ The Presentation Layer is also responsible for **encryption/decryption** of data
 ## Practice
 
 What role does the Presentation Layer play in the OSI 7 Layer Model?
+
 ???
 
 - Data conversion and encryption/decryption

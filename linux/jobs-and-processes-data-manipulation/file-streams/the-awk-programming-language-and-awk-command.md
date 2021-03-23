@@ -6,15 +6,15 @@ links:
   - '[AWK one-liners](http://www.pement.org/awk/awk1line.txt){website}'
 practiceQuestion:
   formats:
-    - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
   context: relative
 ---
 
-# The AWK Programming Language And `awk` Command
+# The AWK Programming Language And awk Command
 
 
 ---
@@ -56,8 +56,7 @@ Jeans         300         299       29.99
 Write an `awk` script that would calculate, for each line, the money left from the products not being received. Assume that you are using the default whitespace separator:
 
 ```bash
-awk '{??? ???}' 
-            ~/shipment_track
+awk '{??? ???}' ~/shipment_track
 500.00
 29.99
 ```

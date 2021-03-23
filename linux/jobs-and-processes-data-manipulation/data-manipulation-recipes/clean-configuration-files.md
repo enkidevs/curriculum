@@ -49,9 +49,7 @@ sudo clean_file /etc/ntp/conf
 
 ## Revision
 
-A script to delete comments and empty lines from configuration files would use the 
-
-??? command .
+A script to delete comments and empty lines from configuration files would use the ??? command .
 
 - sed
 - clr

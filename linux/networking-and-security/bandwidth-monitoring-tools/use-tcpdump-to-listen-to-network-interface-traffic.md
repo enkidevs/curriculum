@@ -8,7 +8,7 @@ revisionQuestion:
   context: relative
 ---
 
-# Use `tcpdump` to listen to network interface traffic
+# Use tcpdump to listen to network interface traffic
 
 
 ---

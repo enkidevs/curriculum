@@ -9,11 +9,11 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Securing the Physical Layer
@@ -33,6 +33,7 @@ Not all Physical Layer vulnerabilities are caused by intruders, oblivious staff 
 ## Practice
 
 What is one control in the Physical Layer?
+
 ???
 
 - Locks and secure enclosures

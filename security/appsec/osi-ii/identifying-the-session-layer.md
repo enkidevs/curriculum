@@ -9,11 +9,11 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Identifying the Session Layer
@@ -33,6 +33,7 @@ Session Checkpointing allows information from different streams, perhaps origina
 ## Practice
 
 What roles does The Session Layer play in the OSI 7 Layer Model?
+
 ???
 
 - Opening, closing, and managing connections between applications

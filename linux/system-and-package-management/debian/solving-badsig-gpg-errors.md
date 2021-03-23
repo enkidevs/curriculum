@@ -16,7 +16,7 @@ revisionQuestion:
   context: relative
 ---
 
-# Solving `BADSIG GPG` errors
+# Solving BADSIG GPG errors
 
 
 ---

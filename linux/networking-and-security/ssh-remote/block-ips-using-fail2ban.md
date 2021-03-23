@@ -70,9 +70,7 @@ To stop/start fail2ban service:
 
 ## Revision
 
-The `fail2ban` service looks through logs and bans IPs that 
-
-???.
+The `fail2ban` service looks through logs and bans IPs that ???
 
 - had too many failed log in attempts
 - made too many requests

@@ -11,11 +11,13 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Group By clause
@@ -67,7 +69,7 @@ We have a table called `pokemon`. In this table there are two fields:
 We want to count how many pokemon are **not** default. Fill in the blanks to complete this query:
 
 ```sql
-SELECT ???(name),???
+SELECT ???(name), ???
 FROM pokemon
 ??? is_default;
 ```

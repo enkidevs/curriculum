@@ -9,7 +9,7 @@ practiceQuestion:
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Parsing Reverse Polish Notation
@@ -69,7 +69,7 @@ What values would be left in the stack after the evaluation of `10 5 * 2 + 3 3`?
 
 ## Revision
 
-What are the contents of the stack after evaluating a `valid` postfix expression?
+What are the contents of the memory stack after evaluating a `valid` postfix expression?
 
 ???
 
