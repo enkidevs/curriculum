@@ -5,11 +5,11 @@ category: must-know
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Successful status codes
@@ -41,9 +41,7 @@ Other status codes indicating the **success** of a request are:
 
 ## Practice
 
-A `200` response to a `GET` request contains
-
-??? as payload.
+A `200` response to a `GET` request contains ??? as payload.
 
 - the resource requested
 - the new entity created

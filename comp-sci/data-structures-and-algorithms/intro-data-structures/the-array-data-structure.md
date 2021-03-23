@@ -9,11 +9,11 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # The Array Data Structure
@@ -93,7 +93,7 @@ myArray[0] = x;
 
 ## Practice
 
-To access an element in an array, you would use:
+To access an element in an array, you would use: 
 
 ???
 
@@ -107,9 +107,7 @@ To access an element in an array, you would use:
 
 ## Revision
 
-An array that has its size declared up-front is called
-
-???
+An array that has its size declared up-front is called ???
 
 - static
 - dynamic
