@@ -42,7 +42,7 @@ Booleans
 
 When initialized, if they aren't given any values, each primitive type will default to:
 
-```java
+
 | Data Type | Default Value | Bits |
 |----------:|--------------:|------|
 |    byte   |       0       | 2^8  |
@@ -53,7 +53,7 @@ When initialized, if they aren't given any values, each primitive type will defa
 |   double  |     0.00d     | 2^64 |
 |  boolean  |     false     | 2    |
 |    char   |    '\u0000'   | 2^16 |
-```
+
 
 For Java to make the distinction between values of different type, a suffix is needed: `L` for `long`, `f` for `float` and `d` for double. They should be declared as:
 
