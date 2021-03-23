@@ -9,11 +9,11 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Securing the Data Link Layer
@@ -37,6 +37,7 @@ Another critical vulnerability to the Data Link Layer is the **packet storm**. A
 ## Practice
 
 What is one control in the Data Link Layer of the OSI Model?
+
 ???
 
 - Using managed switches prevent topographical loops

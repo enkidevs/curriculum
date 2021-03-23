@@ -9,11 +9,11 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Securing the Presentation Layer
@@ -43,6 +43,7 @@ The possibility of this happening can be mitigated with untrusting code practice
 ## Practice
 
 What is one control in the Presentation Layer of the OSI Model?
+
 ???
 
 - Input validation of network responses

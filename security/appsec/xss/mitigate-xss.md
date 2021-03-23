@@ -17,11 +17,11 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # mitigate-xss
@@ -51,6 +51,7 @@ Follow these simple rules for mitigating XSS vulnerability.
 ## Practice
 
 What is the best way to prevent XSS attacks?
+
 ???
 
 - Escape untrusted data before doing anything with it
