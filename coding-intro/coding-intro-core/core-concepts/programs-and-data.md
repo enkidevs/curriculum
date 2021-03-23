@@ -7,7 +7,7 @@ category: must-know
 
 links:
   - >-
-    [PB & J Sandwitch](youtube.com/watch?v=Ct-lOOUqmyY){website}
+    [EXACT instructions Challenge](https://youtube.com/watch?v=Ct-lOOUqmyY){website}
   
 ---
 
