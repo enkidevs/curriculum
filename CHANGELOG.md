@@ -50,6 +50,9 @@ Types of change:
 
 ## March 23rd 2021
 
+### Added
+- [Java - Java Primitives - Add missing information about numerical types](https://github.com/enkidevs/curriculum/pull/2663)
+
 ### Changed
 - [TypeScript- Add type-in-the-gap and change context where applicable](https://github.com/enkidevs/curriculum/pull/2604)
 - [Linux - Mark type in the gap and standalone accordingly](https://github.com/enkidevs/curriculum/pull/2613)
