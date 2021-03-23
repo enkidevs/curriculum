@@ -41,7 +41,6 @@ Types of change:
 ## WIP
 
 ### Added
-- [Airtable - Add type in the gap and standalone accordingly](https://github.com/enkidevs/curriculum/pull/2607)
 
 ### Changed
 
@@ -52,6 +51,7 @@ Types of change:
 ## March 23rd 2021
 
 ### Changed
+- [Airtable - Add type in the gap and standalone accordingly](https://github.com/enkidevs/curriculum/pull/2607)
 - [Security - Add type in the gap and standalone accordingly](https://github.com/enkidevs/curriculum/pull/2606)
 - [Comp. Sci. - Type in & standalone questions](https://github.com/enkidevs/curriculum/pull/2605)
 - [JavaScript - Mark questions as type in the gap and standalone accordingly](https://github.com/enkidevs/curriculum/pull/2603)
