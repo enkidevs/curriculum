@@ -9,11 +9,11 @@ notes: 'https://insights.enki.com/#/contrib/others/55f03d0d1baba32f002fd319?sear
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Avoid numerical overflows with *Java8* `exact` methods.

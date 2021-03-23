@@ -9,11 +9,13 @@ notes: 'https://insights.enki.com/#/contrib/others/55f41eef742fb322000e0d7b?sear
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Intro to `HPROF`
@@ -55,7 +57,7 @@ The tool writes profiling information either to a file or to a socket in *ASCII*
 
 Collect CPU usage information from the compiler using HPROF:
 
-```plain-text
+```shell
 java -agentlib:???
     =cpu=??? example.java
 ```

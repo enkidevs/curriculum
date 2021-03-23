@@ -19,7 +19,7 @@ revisionQuestion:
   context: relative
 ---
 
-# Using `lynx` to convert HTML to text
+# Using lynx to convert HTML to text
 
 
 ---

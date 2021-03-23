@@ -9,6 +9,7 @@ notes: 'https://insights.enki.com/#/contrib/others/55f43787ce84ec2100d2bb5e?sear
 practiceQuestion:
   formats:
     - fill-in-the-gap
+    - type-in-the-gap
   context: relative
 revisionQuestion:
   formats:
@@ -55,7 +56,7 @@ A few interesting features of Oracle Nashorn:
 
 Using Java 8’s Oracle Nashorn engine run `enki.js`:
 
-```plain-text
+```java
 ??? ???
 ```
 

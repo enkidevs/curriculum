@@ -5,11 +5,13 @@ category: must-know
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Robot, Assemble the Sandwich
@@ -56,7 +58,7 @@ The computer wouldn't know what to do! It doesn't know what `sandwich` variable 
 
 ## Practice
 
-Before continuing, let's practice function creation!
+Let's practice function creation!
 
 Write a function called `fill_glass` that takes in `glass` and `water`, calls `pour` function to pour the `water` into the `glass` and produces a `glass_of_water` as the result:
 

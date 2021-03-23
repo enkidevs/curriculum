@@ -10,11 +10,13 @@ notes: >-
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # The `jinfo` tool
@@ -63,9 +65,9 @@ The utility can also use the `jsadebugd` daemon to query a process or core file 
 
 Print the JavaSystem properties as name value pairs with the given process running on a 64 bit VM:
 
-```plain-text
+```java
 jinfo ??? ???
-        PID
+  PID
 ```
 
 - `-J-d64`
@@ -82,7 +84,7 @@ jinfo ??? ???
 
 Print the JavaSystem properties as name value pairs:
 
-```plain-text
+```java
 jinfo ??? PID
 ```
 

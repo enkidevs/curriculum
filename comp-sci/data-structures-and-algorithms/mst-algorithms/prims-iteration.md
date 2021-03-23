@@ -9,7 +9,7 @@ practiceQuestion:
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Prim's Algorithm Iteration
@@ -62,9 +62,7 @@ A, D, C, E
 
 The next edge to be picked is:
 
-```plain-text
 ???
-```
 
 - `AB`
 - `AC`

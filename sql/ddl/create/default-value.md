@@ -5,11 +5,10 @@ category: must-know
 tags:
   - introduction
   - workout
-links: null
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Default Value

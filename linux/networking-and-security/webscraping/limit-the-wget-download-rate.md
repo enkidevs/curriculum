@@ -36,11 +36,10 @@ wget --limit-rate 128k
 
 ## Revision
 
-Limit the download rate for `file.iso`  to 1MB:
+Limit the download rate for `file.iso` to 1MB:
 
 ```plain-text
-??? ??? ??? 
-      http://server.com/file.iso
+??? ??? ??? http://server.com/file.iso
 ```
 
 - `wget`

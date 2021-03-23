@@ -6,6 +6,10 @@ practiceQuestion:
   formats:
     - fill-in-the-gap
   context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
 # The Components of a Graph
@@ -15,7 +19,7 @@ practiceQuestion:
 
 ## Content
 
-In a graph, a **path** is a sequence of vertices and edges , such that between two vertices in the path, there is an edge. In a *directed graph*, a **directed path** is a path such that all edges are directed and traversed along their direction. The path below is `[E, C, A, F]`:
+In a graph, a **path** is a sequence of vertices and edges, such that between two vertices in the path, there is an edge. In a *directed graph*, a **directed path** is a path such that all edges are directed and traversed along their direction. The path below is `[E, C, A, F]`:
 
 ![path](https://img.enkipro.com/4ab62c5093646cdf387c937f61f2a83a.png)
 
@@ -36,3 +40,15 @@ If the path starts and ends with the same vertex, having more than one edge, it 
 
 - Cycle
 - Simple Cycle
+
+
+---
+
+## Revision
+
+The two core components of a graph are nodes and ???
+
+- edges
+- vertices
+- cycles
+- islands

@@ -6,11 +6,12 @@ tags:
   - linux
   - terminal
   - alias
-  - null
+  - 'null'
   - workout
 practiceQuestion:
   formats:
     - fill-in-the-gap
+    - type-in-the-gap
   context: relative
 revisionQuestion:
   formats:
@@ -98,9 +99,7 @@ ports
 
 ## Revision
 
-???
-
-is used to give a “false name” to other commands.
+??? is used to give a “false name” to other commands.
 
 - alias
 - short

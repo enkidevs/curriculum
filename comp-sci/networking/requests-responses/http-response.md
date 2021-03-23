@@ -10,11 +10,11 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # The HTTP response
@@ -69,9 +69,7 @@ The response headers are fairly limited compared to request headers:
 
 ## Practice
 
-A resource's specific cached version identifier can be found in the
-
-??? header field.
+A resource's specific cached version identifier can be found in the ??? header field.
 
 - ETag
 - Age

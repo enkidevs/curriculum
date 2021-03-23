@@ -17,7 +17,6 @@ revisionQuestion:
 
 # The `sticky bit` permission
 
-
 ---
 
 ## Content
@@ -45,14 +44,11 @@ To unset it:
 chmod -t file
 ```
 
-
 ---
 
 ## Revision
 
-The sticky bit prevents
-
-???.
+The sticky bit prevents ???.
 
 - other users from deleting the file
 - the owner of the file from deleting the file

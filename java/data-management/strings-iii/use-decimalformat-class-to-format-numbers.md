@@ -12,11 +12,12 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Use `DecimalFormat` class to format numbers
@@ -48,11 +49,11 @@ The `zeroFormat` example shows adding leading zeroes.
 
 ## Practice
 
-What will be the value of `enki`  string after the code snippet is ran?
+What will be the value of `enki` string after the code snippet is ran?
 
 ```java
 DecimalFormat myFormat = 
-    new DecimalFormat("00000");
+  new DecimalFormat("00000");
 String enki = myFormat.format(33);
 // enki = ???
 ```

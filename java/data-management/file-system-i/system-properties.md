@@ -9,11 +9,11 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # System Properties
@@ -70,6 +70,7 @@ What does `user.dir` return?
 ## Revision
 
 Why is it important to consider different system properties when working with file systems?
+
 ???
 
 - Different operating systems have their own unique properties which if mixed up will ruin the program

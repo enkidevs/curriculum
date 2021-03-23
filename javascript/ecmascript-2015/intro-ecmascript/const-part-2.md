@@ -12,11 +12,12 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Const (Part 2)
@@ -76,6 +77,7 @@ Fill in the gaps of the following code such that the output of the log statement
 ```javascript
 const ??? = {
   pi: 3.14,
+  piExtended: 3.141,
   e: 2.71
 }
 

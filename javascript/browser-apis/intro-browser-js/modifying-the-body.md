@@ -12,11 +12,12 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Modifying the Body
@@ -94,7 +95,7 @@ let bodyElement =
 
 ## Revision
 
-What happens when you changes the innerHTML of the body tag?
+What happens when you change the `innerHTML` of the body tag?
 
 ???
 

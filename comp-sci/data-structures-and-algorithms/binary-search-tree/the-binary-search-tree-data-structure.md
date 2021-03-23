@@ -7,11 +7,11 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # The Binary Search Tree Data Structure
@@ -44,7 +44,7 @@ This structure also makes for efficient `min` and `max` operations; to find the 
 
 ## Practice
 
-Which key prevents the following tree from being a *BST*?
+Which key prevents the following tree from being a *Binary Search Tree*?
 
 ```plain-text
        10

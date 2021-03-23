@@ -9,7 +9,7 @@ links:
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Kruskal's Algorithm
@@ -60,7 +60,7 @@ Swipe to the next insight to see an iteration of the algorithm.
 
 Kruskal's algorithm is used for finding
 
-???.
+???
 
 - the minimum spanning tree in a weighted graph
 - distances between the nodes in a weighted graph

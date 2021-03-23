@@ -39,7 +39,7 @@ Each can be used for specific monitoring or basic statistics.
 
 ## Revision
 
-Some tools that monitor the bandwidth are  ???
+Some tools that monitor the bandwidth are ???
 
 - tcptrack and vnstat.
 - dd and tcptrack.

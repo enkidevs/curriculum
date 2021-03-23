@@ -12,11 +12,13 @@ notes: 'https://insights.enki.com/insight/55f433a9da97642e00a7819a'
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # How to check for static dependencies of applications and libraries from the command line.
@@ -60,7 +62,7 @@ There are a few more useful options available for use with `jdeps`. You can alwa
 
 Print all class-level dependencies of `enki.jar` application:
 
-```plain-text
+```java
 ??? ??? enki.jar
 ```
 
@@ -78,7 +80,7 @@ Print all class-level dependencies of `enki.jar` application:
 
 Print all class-level dependencies of `enki.jar` application:
 
-```plain-text
+```java
 ??? ??? enki.jar
 ```
 

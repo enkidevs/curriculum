@@ -69,9 +69,7 @@ Errors on Transmission: 0
 
 ## Revision
 
-`slurm` is used as a
-
-??? .
+`slurm` is used as a ???
 
 - measurement tool for internet speed
 - energy drink

@@ -10,11 +10,11 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Context in JavaScript
@@ -41,7 +41,9 @@ You can use `bind()` to avoid confusion by specifying the `this` to use when cal
 
 ## Practice
 
-What will the context default to when executing a function in strict mode? ???
+What will the context default to when executing a function in strict mode? 
+
+???
 
 - undefined
 - this

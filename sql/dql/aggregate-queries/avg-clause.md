@@ -11,11 +11,13 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # AVG Clause
@@ -120,9 +122,11 @@ FROM contest_combo;
 
 Output:
 
+```md
 | avg     |
 | ------- |
 | 72.3334 |
+```
 
 - AVG
 - second_move

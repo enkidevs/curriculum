@@ -6,19 +6,20 @@ links:
   - >-
     [Enum
     Type](https://www.typescriptlang.org/docs/handbook/basic-types.html#enum){documentation}
-  - '[Try Out Enums](https://repl.it/@enkicontent/TypeScriptEnums){website}'
+  - "[Try Out Enums](https://repl.it/@enkicontent/TypeScriptEnums){website}"
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Enum
-
 
 ---
 
@@ -31,7 +32,7 @@ An `enum` is used to define a set of named constants.
 enum GameLevel {
   A = 1,
   B = 2,
-  C = 3
+  C = 3,
 }
 
 let firstLevel: GameLevel = GameLevel.A;
@@ -47,7 +48,7 @@ If we omit the values, the enum will assign values from `0` onwards:
 enum GameLevel {
   A, // auto-assigned to 0
   B, // auto-assigned to 1
-  C  // auto-assigned to 2
+  C, // auto-assigned to 2
 }
 
 let firstLevel: GameLevel = GameLevel.A;
@@ -72,7 +73,6 @@ console.log(idk);
 // 2
 ```
 
-
 ---
 
 ## Practice
@@ -83,7 +83,7 @@ What will be the value logged in the console?
 enum Enki {
   a,
   b = 10,
-  c
+  c,
 }
 
 let enki: Enki = Enki.c;
@@ -95,7 +95,6 @@ console.log(enki);
 - 1
 - 3
 - 2
-
 
 ---
 

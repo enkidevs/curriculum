@@ -12,11 +12,13 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Alter Characteristics
@@ -119,7 +121,7 @@ ALTER ??? ???
 
 ## Revision
 
-We'd like to set the default value `"ruby"` to all entries in the column `name` in the `version` table. We would also like to remove the `NOT NULL` clause to the `id` column.
+We'd like to set the default value `"ruby"` to all entries in the `name` column in the `version` table. We would also like to remove the `NOT NULL` clause to the `id` column.
 
 ```md
 | id | version_group_id | name     |

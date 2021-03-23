@@ -15,11 +15,12 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # LIKE
@@ -86,8 +87,6 @@ Write a query that will retrieve all the Toy Story movies from the database, usi
 SELECT * FROM movies
 WHERE name ??? 'Toy Story???';
 ```
-
-???
 
 - LIKE
 - %

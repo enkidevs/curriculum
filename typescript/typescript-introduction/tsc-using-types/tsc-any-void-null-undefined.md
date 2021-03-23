@@ -15,15 +15,14 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Any, Void, Null, Undefined
-
 
 ---
 
@@ -35,7 +34,7 @@ If we want to opt-out of type checking, we can use the `any` type:
 
 ```ts
 let anythingReally: any = 1;
-anythingReally = 'one';
+anythingReally = "one";
 anythingReally = [true, false];
 ```
 
@@ -51,7 +50,7 @@ This is usually useful when you want to protect yourself from accidentaly return
 
 ```ts
 function enki(): void {
-  return 'enki'
+  return "enki";
   // error: Type '"enki"' is not assignable to type 'void'
 }
 ```
@@ -64,7 +63,6 @@ Are used to represent lack of value and both have their own types[1]:
 let zilch: undefined = undefined;
 let isEqualToNull: null = null;
 ```
-
 
 ---
 
@@ -85,7 +83,6 @@ cheers();
 - No
 - Yes
 
-
 ---
 
 ## Revision
@@ -96,7 +93,6 @@ Using the `any` type is usually not useful because it defeats the purpose of typ
 
 - true
 - false
-
 
 ---
 

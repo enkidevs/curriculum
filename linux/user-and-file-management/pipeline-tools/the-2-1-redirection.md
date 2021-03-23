@@ -85,9 +85,7 @@ ls -ld ~/ ???
 
 ## Revision
 
-You can incorporate the error stream into the output stream using
-
-??? .
+You can incorporate the error stream into the output stream using ???
 
 - `2>&1`
 - `1>&2`

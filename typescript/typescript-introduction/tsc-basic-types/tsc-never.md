@@ -9,15 +9,15 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Never
-
 
 ---
 
@@ -55,7 +55,6 @@ function impossibleValue(value) {
 }
 ```
 
-
 ---
 
 ## Practice
@@ -66,7 +65,6 @@ The `never` type is used for values that ???.
 - are undefined
 - are falsy
 - never return
-
 
 ---
 
