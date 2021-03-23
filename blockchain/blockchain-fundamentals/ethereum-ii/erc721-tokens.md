@@ -5,11 +5,11 @@ category: must-know
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # ERC721 Tokens
@@ -61,7 +61,7 @@ Note: The ERC721 standard is currently a draft, and there is no officially agree
 
 ## Practice
 
-Does ERC721 token standard support decimals?
+ERC721 token standard supports decimals?
 
 ???
 

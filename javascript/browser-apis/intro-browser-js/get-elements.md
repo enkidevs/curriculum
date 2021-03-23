@@ -15,11 +15,12 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Get Elements
@@ -116,7 +117,7 @@ Select the element with the id `"title"`:
 </p>
 
 <script>
-var title = document.???(???);
+var title = document.???("???");
 </script>
 
 </body>
@@ -124,7 +125,6 @@ var title = document.???(???);
 ```
 
 - `getElementById`
-- `"title"`
 - `title`
 - `getElementsByTagName`
 - `element`
@@ -136,7 +136,6 @@ var title = document.???(???);
 ## Revision
 
 Select all paragraph tags.
-???
 
 ```html
 <html>
@@ -159,6 +158,8 @@ All about coffee
 </body>
 </html>
 ```
+
+???
 
 - `document.getElementsByTagName('p');`
 - `document.getElementsByName('p');`

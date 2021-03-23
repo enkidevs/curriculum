@@ -5,15 +5,16 @@ category: must-know
 links:
   - >-
     [First block
-    mined](https://blockchain.info/block/000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26f){website}
+    mined](https://www.blockchain.com/btc/block/000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26f){website}
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # The Bitcoin Block
@@ -42,12 +43,14 @@ In the learn more section, you’ll find a link to an online block explorer wher
 
 What is the consensus algorithm implemented in the Bitcoin blockchain?
 
-???
+```plain-text
+Proof of ???.
+```
 
-- Proof of work
-- Proof of stake
-- Proof of burn
-- Proof of authority
+- work
+- stake
+- burn
+- authority
 
 
 ---

@@ -5,11 +5,13 @@ category: must-know
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Numbers
@@ -46,7 +48,7 @@ integer my_age = 33
 
 ## Practice
 
-Choose the integer:
+Which of the following is an integer?
 
 ```plain-text
 a = 1

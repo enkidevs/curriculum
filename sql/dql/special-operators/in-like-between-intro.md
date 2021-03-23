@@ -15,7 +15,7 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # IN, LIKE, BETWEEN
@@ -79,10 +79,10 @@ FROM pokemon
 ??? ??? ??? ???;
 ```
 
-- WHERE
-- name
-- IN
-- ('Groudon', 'Snorlax', 'Wailord')
-- SUCH THAT
-- IS ONE OF
-- ['Groudon', 'Snorlax', 'Wailord']
+- `WHERE`
+- `name`
+- `IN`
+- `('Groudon', 'Snorlax', 'Wailord')`
+- `SUCH THAT`
+- `IS ONE OF`
+- `['Groudon', 'Snorlax', 'Wailord']`

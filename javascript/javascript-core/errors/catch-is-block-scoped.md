@@ -9,11 +9,11 @@ tags:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # `catch` Is Block Scoped
@@ -41,7 +41,9 @@ Many linters fail to recognise that it is valid to have multiple  `try...catch` 
 
 ## Practice
 
-What scope is the catch clause of a try/catch statement in? ???
+What scope is the catch clause of a try/catch statement in? 
+
+???
 
 - block scoped.
 - function scoped.

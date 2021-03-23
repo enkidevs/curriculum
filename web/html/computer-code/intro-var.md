@@ -9,14 +9,15 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
-# Intro `<var>`
+# The var Element
 
 
 ---
@@ -69,7 +70,9 @@ Which statement is not true about using the `<var>` element?
 
 What HTML element is best to display mathematical expressions or a programming context differently than the surrounding text?
 
-???
+```html
+<???>
+```
 
 - var
 - samp

@@ -9,11 +9,11 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Installing Node.js
@@ -40,6 +40,7 @@ You should see a `>` appearing under the `node` command. This means your install
 ## Practice
 
 What file extension does `node` use?
+
 ???
 
 - .js
@@ -52,6 +53,7 @@ What file extension does `node` use?
 ## Revision
 
 What command is required to start Node?
+
 ???
 
 - node

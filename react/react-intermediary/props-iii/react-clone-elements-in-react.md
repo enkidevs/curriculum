@@ -9,11 +9,13 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Clone Elements in React
@@ -100,7 +102,7 @@ ReactDOM.render(
 
 ## Practice
 
-Complete the code snippet below to clone an element and override the `ref`:
+Complete the code snippet below to clone an element and override the `ref` with the given value:
 
 ```javascript
 React.???(
@@ -123,16 +125,19 @@ React.???(
 
 ## Revision
 
-Complete the code snippet below to clone an element and override the ref:
+Complete the code snippet below to clone the given `element`:
 
 ```javascript
-React.???(
-  child, 
-  { ???: 'newRef' },
+const element = <h1>Hey!</h1>;
+
+???.???(
+  element, 
+  null,
   null
 );
 ```
 
+- `React`
 - `cloneElement`
 - `ref`
 - `newElement`
@@ -140,6 +145,7 @@ React.???(
 - `key`
 - `obj`
 - `env`
+- `element`
 
 
 ---

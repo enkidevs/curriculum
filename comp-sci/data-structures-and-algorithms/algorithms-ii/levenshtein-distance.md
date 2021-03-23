@@ -9,11 +9,11 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Levenshtein Distance
@@ -69,7 +69,7 @@ The *Levensthein distance* between the two strings, *trace* and *face*, is locat
 
 ## Practice
 
-What is the distance between strings `string` and `int`?
+What is the Levensthein distance between strings `string` and `int`?
 
 ???
 
@@ -83,7 +83,7 @@ What is the distance between strings `string` and `int`?
 
 ## Revision
 
-How many removals are needed to get from the string `test` to `east`?
+In the context of Levenshtein distance, how many removals are needed to get from the string `test` to `east`?
 
 ???
 

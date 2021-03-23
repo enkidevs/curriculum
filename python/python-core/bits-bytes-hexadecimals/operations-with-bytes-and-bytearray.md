@@ -8,14 +8,16 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
-# Operations with `bytes` and `bytearray`
+# Operations with bytes & bytearray
 
 
 ---
@@ -74,7 +76,7 @@ b'enki'
 
 Create a copy of the bytes 0 filled to a specified width:
 
-```plain-text
+```python
 >>> (b"19").???(5)
 b'00019'
 ```
@@ -91,7 +93,7 @@ b'00019'
 
 Check if all the bytes in the sequence are ASCII alphanumeric characters:
 
-```plain-text
+```python
 >>> (b'enki').???()
 True
 ```

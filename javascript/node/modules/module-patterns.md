@@ -12,11 +12,11 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Module patterns
@@ -68,6 +68,7 @@ foo();
 ## Practice
 
 What must be used when exporting an anonymous function?
+
 ???
 
 - module.exports

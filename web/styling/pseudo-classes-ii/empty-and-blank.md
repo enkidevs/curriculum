@@ -12,14 +12,15 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
-# `:empty` and `:blank`
+# :empty and :blank
 
 
 ---
@@ -66,7 +67,9 @@ Which pseudo-class would select the following element?
 <p> </p>
 ```
 
+```css
 ???
+```
 
 - `:blank`
 - `:empty`

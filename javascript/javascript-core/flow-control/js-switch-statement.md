@@ -5,7 +5,8 @@ category: must-know
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Switch Statement

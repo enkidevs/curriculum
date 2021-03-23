@@ -5,7 +5,7 @@ type: normal
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Grid View
@@ -36,7 +36,7 @@ Flexbox allows control of ???.
 Gridbox allows control of ???.
 
 - one dimension
-- both dimension
+- both dimensions
 - the horizontal axis only
 - one diagonal
  

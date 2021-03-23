@@ -11,11 +11,11 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # `optionalDependencies` in npm
@@ -63,7 +63,9 @@ It is better to put a dependency name just in one place as `optionalDependencies
 
 ## Practice
 
-If *npm* cannot find or fails to install the dependency the installation of the module continues, however what is required from the user? ???
+If *npm* cannot find or fails to install the dependency the installation of the module continues, however what is required from the user? 
+
+???
 
 - A try catch to handle the lack of the dependency.
 - A printed error statement.

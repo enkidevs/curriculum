@@ -16,7 +16,8 @@ practiceQuestion:
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Python Environment
@@ -66,7 +67,6 @@ Once you're using a text editor you can save files using a `.py` extension and t
 python3 myPythonFile.py
 ```
 
-
 ---
 
 ## Practice
@@ -87,7 +87,11 @@ Which of these commands will start the interactive Python interpreter?
 
 ## Revision
 
-The Python-specific file extension is ???.
+The Python-specific file extension is:
+
+```bash
+???
+```
 
 - `.py`
 - `.pyt`

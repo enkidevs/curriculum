@@ -13,14 +13,14 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
-# Highlight input forms using `:focus` pseudo-class
+# Highlight input forms using :focus pseudo-class
 
 
 ---

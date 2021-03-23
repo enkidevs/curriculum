@@ -12,14 +12,15 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
-# Declaring linear gradients using the `background` property
+# Declaring linear gradients using the background property
 
 
 ---
@@ -49,7 +50,9 @@ This gradient will transition from blue to green from left to right.
 ## Practice
 
 Which is the most common type of gradient?
+```css
 ???
+```
 
 - `linear-gradient`
 - `square-gradient`

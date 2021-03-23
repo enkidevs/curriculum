@@ -13,11 +13,11 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Using timers with extra arguments
@@ -29,7 +29,7 @@ revisionQuestion:
 
 Both `setTimeout` and `setInterval` are a *W3C HTML5* specification, available as global methods in both client and server engines.
 
-```plain-text
+```js
 // signature for both methods
 const uid = setTimeout(
   handler,    // Function
@@ -51,7 +51,7 @@ let t = setInterval(chrono, 0, Date.now());
 
 It is possible to cancel a scheduled interval or timeout using respectively `clearInterval` or `clearTimeout`
 
-```plain-text
+```js
 // to stop previous chronometer
 clearInterval(t);
 ```
@@ -67,7 +67,7 @@ Delays due to CPU load, other tasks, etc, are to be expected.
 
 How to prevent the `shutdown` to happen?
 
-```plain-text
+```js
 let task = setTimeout(shutdown, 5000);
 if (confirm('cancel shutdown?')) {
   ???
@@ -85,7 +85,7 @@ if (confirm('cancel shutdown?')) {
 
 What log is shown each second?
 
-```plain-text
+```js
 let t = setInterval(
   (a, b) => {
     ++a;
