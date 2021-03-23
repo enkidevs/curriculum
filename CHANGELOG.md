@@ -44,22 +44,21 @@ Types of change:
 
 ### Changed
 
-[Comp. Sci. - Type in & standalone questions](https://github.com/enkidevs/curriculum/pull/2605)
-
 ### Archived
 
 ### Fixed
 
 ## March 23rd 2021
 
-### Added
+### Changed
+- [Comp. Sci. - Type in & standalone questions](https://github.com/enkidevs/curriculum/pull/2605)
 - [JavaScript - Mark questions as type in the gap and standalone accordingly](https://github.com/enkidevs/curriculum/pull/2603)
 - [SQL - Mark questions as `type-in-the-gap` and `standalone` accordingly](https://github.com/enkidevs/curriculum/pull/2600)
 - [Coding Intro - Mark questions as `type-in-the-gap` and `standalone` accordingly](https://github.com/enkidevs/curriculum/pull/2594)
 
 ## March 22nd 2021
 
-### Added
+### Changed
 - [Regex- Add type-in-the-gap and change context where applicable](https://github.com/enkidevs/curriculum/pull/2608)
 - [Styling - Entire Topic - Remove backticks from headlines, add type in the gap to applicable questions](https://github.com/enkidevs/curriculum/pull/2598)
 - [HTML - Entire Topic - Remove HTML tags and back ticks from headlines, add type in the gap to applicable questions](https://github.com/enkidevs/curriculum/pull/2597)
@@ -73,8 +72,6 @@ Types of change:
 - [Python - Functional Programming Topic - Add type in the gap questions and change format](https://github.com/enkidevs/curriculum/pull/2587)
 - [React - Entire Topic - Add format and context metadata, improve some questions](https://github.com/enkidevs/curriculum/pull/2586)
 - [Python - Core topic - Add type in the gap and standalone format to applicable questions](https://github.com/enkidevs/curriculum/pull/2583)
-
-### Changed
 - [Python - Break and Continune Statements - Improve readability](https://github.com/enkidevs/curriculum/pull/2654)
 
 ### Fixed
