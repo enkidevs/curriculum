@@ -12,11 +12,13 @@ notes: >-
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Use `Optional(s)` type in order to avoid `NullPointerException(s)`
@@ -92,7 +94,7 @@ Create an empty `Optional` of type `String`:
 
 ```java
 ???<???> op =
-       Optional.empty();
+  Optional.empty();
 ```
 
 - `Optional` 

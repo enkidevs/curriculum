@@ -10,7 +10,8 @@ notes: >-
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # `Thread.sleep` and `Thread.yield` do not have synchronization mechanisms

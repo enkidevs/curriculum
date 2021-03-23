@@ -12,11 +12,13 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Use `Arrays.asList()` to initialise lists
@@ -49,7 +51,7 @@ List<String> animals = Arrays.asList(
 
 ## Practice
 
-Complete the snippet such that it makes sense:
+Complete the snippet to initialize a list:
 
 ```java
 List<String> enki = 
@@ -70,7 +72,7 @@ List<String> enki =
 
 ## Revision
 
-Complete the snippet such that it makes sense:
+Complete the snippet to initialize a list:
 
 ```java
 List<String> myList = 
