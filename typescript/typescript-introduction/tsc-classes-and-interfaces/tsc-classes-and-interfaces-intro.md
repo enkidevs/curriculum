@@ -9,15 +9,15 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Classes and Interfaces
-
 
 ---
 
@@ -89,10 +89,9 @@ class Fish {
 
 const nemo = new Fish("Nemo");
 
-nemo.fly() // fish can't fly :)
+nemo.fly(); // fish can't fly :)
 // error: Property 'fly' does not exist on type 'Fish'
 ```
-
 
 ---
 
@@ -126,7 +125,6 @@ e.category;
 - create
 - instantiate
 
-
 ---
 
 ## Revision
@@ -139,7 +137,7 @@ interface MadeOfPotion {
 }
 
 class PowerpuffGirl implements MadeOfPotion {
-  ingredients = ["sugar", "spice", "everything nice"]
+  ingredients = ["sugar", "spice", "everything nice"];
 }
 
 let Bubbles = new PowerpuffGirl();
@@ -147,7 +145,7 @@ let Blossom = new PowerpuffGirl();
 let Buttercup = new PowerpuffGirl();
 
 class Obelix implements MadeOfPotion {
-  ingredients = ["magic"]
+  ingredients = ["magic"];
 }
 
 const o = new Obelix();

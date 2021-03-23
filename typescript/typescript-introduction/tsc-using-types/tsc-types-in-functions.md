@@ -12,15 +12,14 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Types in Functions
-
 
 ---
 
@@ -31,10 +30,10 @@ We can attach a type to a parameter of a function by adding a `:` and a type aft
 ```ts
 function hello(name: string) {
 //                 ^^^^^^^^
-  console.log(`Hello ${name}!`)
+  console.log(`Hello ${name}!`);
 }
 
-hello('Enki');
+hello("Enki");
 // "Hello Enki!"
 ```
 
@@ -84,7 +83,6 @@ function hello(name: string): string {
 }
 ```
 
-
 ---
 
 ## Practice
@@ -113,7 +111,6 @@ getLessonsLearned(100);
 
 - A
 - B
-
 
 ---
 

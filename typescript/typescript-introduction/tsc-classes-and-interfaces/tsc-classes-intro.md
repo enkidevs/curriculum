@@ -12,15 +12,16 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Introduction to Classes
-
 
 ---
 
@@ -76,7 +77,6 @@ The benefit of classes is that they allow us to define data and behaviors in one
 
 In the example above, we used the `Animal` class to create a `zebra` but we could've also created a `tiger` or an `eagle`.
 
-
 ---
 
 ## Practice
@@ -98,7 +98,6 @@ let london = ??? ???('London')
 - City
 - New
 - city
-
 
 ---
 
@@ -126,7 +125,6 @@ let miami = ??? ???('Miami')
 - interface
 - New
 - city
-
 
 ---
 

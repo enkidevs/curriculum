@@ -51,6 +51,7 @@ Types of change:
 ## March 23rd 2021
 
 ### Changed
+- [TypeScript- Add type-in-the-gap and change context where applicable](https://github.com/enkidevs/curriculum/pull/2604)
 - [Linux - Mark type in the gap and standalone accordingly](https://github.com/enkidevs/curriculum/pull/2613)
 - [Java - Mark type in the gap and standalone accordingly](https://github.com/enkidevs/curriculum/pull/2609)
 - [Airtable - Add type in the gap and standalone accordingly](https://github.com/enkidevs/curriculum/pull/2607)
