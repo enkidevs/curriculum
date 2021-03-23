@@ -9,11 +9,12 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Debugging
@@ -31,7 +32,7 @@ Usually, developers start by printing everything for a better understanding: **w
 
 Consider the following example:
 
-```plain-text
+```python
 1 def foo():
 2   return 6
 3 x = foo()
@@ -45,7 +46,7 @@ Let's suppose we wanted `"Welcome!"` to be printed. In this simple case, we have
 
 A **useful trick** for debugging is printing the value of `x` and following the execution of the code:
 
-```plain-text
+```python
 1  def foo():
 2    return 6
 3  x = foo()
@@ -71,7 +72,7 @@ The bug here is that the `while` condition will always evaluate `True` and the p
 
 Fill in the output of the `counter(3)` function:
 
-```plain-text
+```python
 1 def counter(x):
 2   print("Line 2:", x)
 3   while x > 0:

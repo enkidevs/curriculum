@@ -5,10 +5,10 @@ category: how-to
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
-# `$ceil` and `$floor`
+# $ceil and $floor
 
 
 ---

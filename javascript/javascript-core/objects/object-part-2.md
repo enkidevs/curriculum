@@ -21,6 +21,8 @@ revisionQuestion:
 
 Object's properties can also be functions.
 
+> 💡 A function that is a property of an object is referred to as that object's *method*.
+
 For example, we might add a function to our person object to print out a greeting message to the console:
 
 ```javascript
@@ -58,7 +60,6 @@ let p2 = new Person("joe", "smith");
 ```
 
 You can even implement inheritance in JavaScript by building on this, but this is a more advanced technique.
-
 
 ---
 

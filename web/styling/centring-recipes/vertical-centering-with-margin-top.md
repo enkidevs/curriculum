@@ -12,10 +12,10 @@ links:
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
-# Vertical centering with `margin-top`
+# Vertical centering with margin-top
 
 
 ---

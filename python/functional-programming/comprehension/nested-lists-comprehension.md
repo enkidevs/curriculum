@@ -8,11 +8,11 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Nested lists comprehension
@@ -89,7 +89,6 @@ l = [??? for x in range(10)\
 What will the output of the following snippet be?
 
 ```python
-
 l = [(x, y) for x in range(10) if x % 2 /
     for y in range(10) if y % 2 == 0]
 print(l[2])

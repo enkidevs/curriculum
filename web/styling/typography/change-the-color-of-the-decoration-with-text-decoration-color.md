@@ -12,10 +12,10 @@ links:
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
-# Change the color of the decoration with `text-decoration-color`
+# Change the decoration color with `text-decoration-color`
 
 
 ---

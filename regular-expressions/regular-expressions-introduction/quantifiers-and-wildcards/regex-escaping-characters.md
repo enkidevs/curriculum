@@ -7,11 +7,11 @@ category: must-know
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Escaping Characters
@@ -61,12 +61,12 @@ Forward slashes must also always be escaped:
 
 ## Practice
 
-Which regex code would match the first string, but not the second:
-
-???
+What regex code would match the first string, but not the second:
 
 `...` ✅
 --- ❌
+
+???
 
 - `/\.{3}/`
 - `/.../`
@@ -83,10 +83,9 @@ Which regex code would match the first string, but not the second:
 ???
 
 `//` ✅
-?? ❌
+`??` ❌
 
 - `/\/{2}/`
 - `/\\\\/`
 - `/\.{2}/`
 - `/\w{2}/`
- 

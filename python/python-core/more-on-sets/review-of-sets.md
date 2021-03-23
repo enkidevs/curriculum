@@ -32,7 +32,7 @@ revisionQuestion:
 
 Consider the following two sets:
 
-```plain-text
+```python
 x = {1,2,3,4,5}
 y = {3,5,4,8,9}
 ```
@@ -44,7 +44,7 @@ The **Union** of these results in a set containing *all elements* from both sets
 
 Consider the following example:
 
-```plain-text
+```python
 print(x | y, '\n')
 print(x.union(y), '\n')
 print(y.union(x))
@@ -63,7 +63,7 @@ We define **Intersection** of two sets, as a resulting set that contains only el
 
 Consider the following example:
 
-```plain-text
+```python
 print(x & y, '\n')
 print(x.intersection(y), '\n')
 print(y.intersection(x))
@@ -81,7 +81,7 @@ print(y.intersection(x))
 
 Consider the following example:
 
-```plain-text
+```python
 print(x - y, '\n')
 print(y.difference(x))
 
@@ -98,7 +98,7 @@ Symmetric difference is performed using:
 
 Consider the following example:
 
-```plain-text
+```python
 print(x ^ y, '\n')
 print(y.symmetric_difference(x))
 

@@ -14,11 +14,11 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Advanced Google Analytics
@@ -74,12 +74,12 @@ And check out the **Learn More** link for over 20 top Google Analytics tips!
 
 What does Google Analytics call a URL that passes data parameters for reporting?
 
-???
+A ???
 
-- A hit
-- A tag
-- A dimension
-- A metric
+- hit
+- tag
+- dimension
+- metric
 
 
 ---
@@ -88,12 +88,12 @@ What does Google Analytics call a URL that passes data parameters for reporting?
 
 When does the Google Analytics tracking code send a **pageview hit** to Analytics?
 
-???
+Every time a user ???
 
-- Every time a user loads a webpage
-- Every time a user clicks a video
-- Every time a user adds an item to a shopping cart
-- Every time a user performs a search on a website
+- loads a webpage
+- clicks a video
+- adds an item to a shopping cart
+- performs a search on a website
 
 
 ---

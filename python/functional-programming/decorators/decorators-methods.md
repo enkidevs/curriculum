@@ -5,11 +5,13 @@ category: must-know
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Decorators and methods
@@ -99,7 +101,9 @@ def deco(func):
     ...
 ```
 
+```plain-text
 ???
+```
 
 - A
 - B
@@ -131,7 +135,9 @@ def deco(self):
   return wrapper
 ```
 
+```plain-text
 ???
+```
 
 - B
 - C

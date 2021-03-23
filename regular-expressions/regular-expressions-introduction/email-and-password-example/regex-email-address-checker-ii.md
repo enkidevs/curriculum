@@ -12,11 +12,11 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Email Address Checker II
@@ -26,7 +26,7 @@ revisionQuestion:
 
 ## Content
 
-There are so many different ways that we could write our email address checker. 
+There are so many different ways that we could write our email address checker.
 
 Here's another way that allows an optional domain name extension, like `co.uk`, but which also works for `.com`:
 
@@ -44,7 +44,7 @@ Let's take a look at each major chunk.
 
 `/(?:\.[a-zA-Z0-9-]+)*/` this is the optional part. It ensure that there must be zero or more instances of that group, so `.com` would match, but also `.co.uk`.
 
-Pretty neat stuff! 
+Pretty neat stuff!
 
 Regex is an awesome tool for making basic validations, but the more compliant you want to be then the more obscure the regex becomes.
 
@@ -55,7 +55,7 @@ Take a look [here](http://emailregex.com/) and [here](https://stackoverflow.com/
 
 ## Practice
 
-Which part of the following regex pattern matches each part of the email address?
+Complete the regex pattern to match the following email address.
 
 `tacos@enki.com` ✅
 
@@ -73,7 +73,7 @@ Which part of the following regex pattern matches each part of the email address
 
 ## Revision
 
-Which part of the following regex pattern matches each part of the email address?
+Complete the regex pattern to match the following email address.
 
 `we_love_tacos@enki.com` ✅
 
@@ -85,4 +85,3 @@ Which part of the following regex pattern matches each part of the email address
 - `@`
 - `[a-z]+`
 - `(?:\.[a-z]+)*`
- 

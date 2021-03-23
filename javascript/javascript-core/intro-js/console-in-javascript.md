@@ -35,7 +35,7 @@ console.log("This is my message");
 // This is my message
 ```
 
-More commonly it is used to show the current value of a variable when debugging. In this example we are logging the value of a variable called username:
+More commonly it is used to show the current value of a variable when debugging. In this example we are logging the value of a variable called `username`:
 
 ```js
 console.log("Username: " + username);
