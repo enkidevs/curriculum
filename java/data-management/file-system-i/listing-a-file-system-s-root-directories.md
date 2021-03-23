@@ -14,7 +14,8 @@ links:
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Listing a file system's root directories
@@ -45,7 +46,7 @@ This is available from Java 1.7.
 
 ## Revision
 
-Complete the code snippet bellow with the missing class such that the code works. 
+Complete the code snippet below with the missing class such that the code works. 
 
 ```java
 Iterable<Path> myDir = ???

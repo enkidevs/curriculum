@@ -14,11 +14,13 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # `Window.localStorage`
@@ -68,7 +70,7 @@ Now that you've learned what `localStorage` is, you might be wondering why you w
 
 ## Practice
 
-Retrieve the data corresponding to the "Enki" key from local storage:
+Retrieve the data corresponding to the `"Enki"` key from local storage:
 
 ```javascript
 var localData = ???.???(

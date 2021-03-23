@@ -30,9 +30,7 @@ The shell will take what you've written on the command line so far and paste it 
 
 ## Revision
 
-To open the line you have written so far in the shell into a text editor, you would press
-
-??? .
+To open the line you have written so far in the shell into a text editor, you would press ???
 
 - ctrl-x-e
 - ctrl-x

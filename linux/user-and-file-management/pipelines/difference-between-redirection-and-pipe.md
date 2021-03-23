@@ -12,11 +12,12 @@ tags:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Difference between `redirection` and `pipe`
@@ -75,7 +76,7 @@ script.sh ??? file.txt
 
 *Piping* refers to passing the output to another program or utility, while *redirecting* to
 
-???.
+???
 
 - passing the output to a stream or file
 - passing the output to a script
@@ -92,7 +93,7 @@ script.sh ??? file.txt
 
 Pick the option that would throw an error.
 
- ???
+???
 
 - cat enki.txt > grep "enki"
 - cat enki.txt | grep "enki"

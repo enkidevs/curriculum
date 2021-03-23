@@ -10,11 +10,11 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # `hasOwnProperty` Method
@@ -52,7 +52,7 @@ It is considered the right practice to use `hasOwnProperty` in every `for in` lo
 
 ## Practice
 
-What does the following JS code return? ???
+What does the following JS code return?
 
 ```javascript
 enki = new Object();
@@ -69,6 +69,8 @@ tricky();
 enki.hasOwnProperty('practiceQuestion');
 ```
 
+???
+
 - True, False, False
 - True, False, True
 - True, True, False
@@ -79,9 +81,7 @@ enki.hasOwnProperty('practiceQuestion');
 
 ## Revision
 
-`obj.hasOwnProperty('prop')` returns false if
-
- ???
+`obj.hasOwnProperty('prop')` returns false if ???
 
 - obj hasn’t got ‘prop’ as property
 - obj has the property

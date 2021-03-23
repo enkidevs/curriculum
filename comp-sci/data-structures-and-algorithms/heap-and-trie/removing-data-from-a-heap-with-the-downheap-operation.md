@@ -5,11 +5,12 @@ category: how-to
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Removing Data From a Heap With The `downheap` Operation
@@ -53,7 +54,7 @@ In this specific case we are done, but in general we might have to perform multi
 
 ## Practice
 
-Which node should we move into the root position after removing the old one?
+Which value should we move into the root position after removing the old root?
 
 ```plain-text
        ???

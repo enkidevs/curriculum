@@ -12,7 +12,7 @@ links:
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Use strings in a `switch` statement

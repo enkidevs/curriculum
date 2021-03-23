@@ -5,7 +5,7 @@ category: tip
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # How to create directories in Java

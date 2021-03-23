@@ -13,15 +13,15 @@ links:
 notes: ''
 practiceQuestion:
   formats:
-    - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
-# Practical `cron`
+# Practical cron
 
 
 ---
@@ -82,11 +82,10 @@ To execute something every 10 minutes before half-past of every hour:
 
 ## Practice
 
-Run `myScript.py` every Saturday at 8:00pm and 10:00pm :
+Setup cron to run `myScript.py` every Saturday at 8:00pm and 10:00pm :
 
 ```plain-text
-??? ??? * * 
-        ??? myScript.py
+??? ??? * * ??? myScript.py
 ```
 
 - `00`
@@ -104,8 +103,7 @@ Run `myScript.py` every Saturday at 8:00pm and 10:00pm :
 A crontab job’s format is:
 
 ```plain-text
-MIN ??? DATE ??? ???
-            COMMAND 
+MIN ??? DATE ??? ??? COMMAND 
 ```
 
 - `HOUR`

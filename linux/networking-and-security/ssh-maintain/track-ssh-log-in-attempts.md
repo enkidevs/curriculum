@@ -11,7 +11,7 @@ tags:
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Track SSH log-in attempts
@@ -62,9 +62,7 @@ journalctl _COMM=sshd
 
 ## Revision
 
-`/log/auth.log` can be used to track 
-
-??? .
+`/log/auth.log` can be used to track ???
 
 - failed log in attempts
 - packets received

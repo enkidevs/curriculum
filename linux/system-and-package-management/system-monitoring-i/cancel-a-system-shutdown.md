@@ -7,7 +7,7 @@ tags:
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Cancel a system shutdown
@@ -36,9 +36,7 @@ pkill shutdown
 
 ## Revision
 
-In order to cancel a shutdown command you can use `shutdown -c` or 
-
-??? .
+In order to cancel a shutdown command you can use `shutdown -c` or ???
 
 - pkill shutdown
 - kill shutdown

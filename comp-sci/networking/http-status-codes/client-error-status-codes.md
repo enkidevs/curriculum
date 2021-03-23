@@ -14,11 +14,11 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Client error status codes
@@ -50,7 +50,7 @@ Other such codes are:
 
 ## Practice
 
-A client error code will be returned in case of a request
+A client error code will be returned in case of a request 
 
 ???
 

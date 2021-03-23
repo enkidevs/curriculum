@@ -5,11 +5,11 @@ category: how-to
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Removing Keys From a Binary Search Tree
@@ -64,9 +64,9 @@ Which node in the left sub-tree would replace *10* in case of its removal?
    5      15
  /  \    /  \
 1    6  13   20
+```
 
 ???
-```
 
 - `6`
 - `1`
@@ -79,7 +79,7 @@ Which node in the left sub-tree would replace *10* in case of its removal?
 
 ## Revision
 
-Which BST deletion case does require the most work?
+Which Binary Search Tree deletion case does require the most work?
 
 ???
 

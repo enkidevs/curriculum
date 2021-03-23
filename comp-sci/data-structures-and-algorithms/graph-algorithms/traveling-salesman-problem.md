@@ -9,11 +9,11 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Traveling Salesman Problem
@@ -59,7 +59,7 @@ Even though there are multiple ways of solving the problem, none that yields the
 
 ## Practice
 
-TSP can be seen as a/an
+Travelling Salesman Problem can be seen as a/an
 
 ???
 
@@ -73,7 +73,7 @@ TSP can be seen as a/an
 
 ## Revision
 
-In the TSP, a greedy approach ??? yields the optimal solution.
+In the Travelling Salesman Problem, a greedy approach ??? yields the optimal solution.
 
 - sometimes
 - never

@@ -9,11 +9,11 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Object - Part 1
@@ -92,7 +92,8 @@ let test = "model";
 Would the following line print `"model"`?
 
 ```js
-console.log(car.test); // ???
+console.log(car.test); 
+// ???
 ```
 
 - no

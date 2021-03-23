@@ -12,7 +12,7 @@ revisionQuestion:
   context: relative
 ---
 
-# Math in the terminal with `bc`
+# Math in the terminal with bc
 
 
 ---
@@ -61,8 +61,7 @@ echo "scale=5; 100/70"|bc
 Print the result of the following expressions, but only show the first 5 digits:
 
 ```bash
-??? "???=???; 58/21" 
-         | ???
+??? "???=???; 58/21" ???
 ```
 
 - `echo`

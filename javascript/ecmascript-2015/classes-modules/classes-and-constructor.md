@@ -16,11 +16,12 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Classes and Constructor
@@ -106,7 +107,7 @@ console.log(myRec.length)
 
 ## Revision
 
-How would you assign a variable passed to the constructor to a class?
+How would you assign a variable `volume` passed to the constructor to a class?
 
 ```javascript
 class Sphere() {

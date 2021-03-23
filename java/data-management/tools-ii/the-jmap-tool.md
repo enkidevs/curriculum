@@ -12,11 +12,13 @@ notes: >-
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # The `jmap` tool
@@ -63,7 +65,7 @@ Dump the heap information into the `practice.bin` file:
 
 ```bash
 jmap ???:???=
-      practice.bin PID
+  practice.bin PID
 ```
 
 - `-dump`

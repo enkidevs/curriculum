@@ -10,11 +10,11 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Mitigate Deserialization
@@ -38,6 +38,7 @@ When user input cannot be deserialized, or it throws an exception, make sure tha
 ## Practice
 
 How can we pass serialized data to the client while making sure it has not been tampered with?
+
 ???
 
 - Integrity Check
@@ -50,6 +51,7 @@ How can we pass serialized data to the client while making sure it has not been 
 ## Revision
 
 What is the most effective defense against serialization attack vectors?
+
 ???
 
 - Input Validation

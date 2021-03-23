@@ -52,9 +52,7 @@ sudo apt-get install lynx-cur
 
 ## Revision
 
-You can browse websites from the terminal using the 
-
-??? .
+You can browse websites from the terminal using the ???
 
 - lynx package
 - browse package
