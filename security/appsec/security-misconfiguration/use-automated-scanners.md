@@ -8,11 +8,11 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Use and Contribute To Automated Scanners
@@ -34,6 +34,7 @@ If there is no automated exploit for a vulnerability you experienced, *you can s
 ## Practice
 
 How do vulnerabilities get added to automated scanners?
+
 ???
 
 - someone reports them and automates them

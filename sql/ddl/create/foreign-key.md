@@ -13,11 +13,12 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Foreign Key
@@ -124,7 +125,7 @@ Consider you have the table `servers` which has a column `id` defined as a `PRIM
 - `id` which can't take `NULL` values
 - `name`
 - `age`
-- `server_id` which references the `id` column from the `servers` table
+- `server_id` constraint which references the `id` column from the `servers` table
 
 ```sql
 ??? players (

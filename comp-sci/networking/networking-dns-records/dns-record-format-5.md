@@ -14,7 +14,7 @@ practiceQuestion:
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # DNS Record Format
@@ -45,8 +45,7 @@ This is a hex-dump of a DNS response.
   d8 3a c0 04   À...........Ø:À.
 ```
 
-Which of the following values is the
-  hexadecimal value of the transaction ID?
+Which of the following values is the hexadecimal value of the transaction ID?
 
 ???
 
@@ -60,8 +59,7 @@ Which of the following values is the
 
 ## Revision
 
-Which of the following is true of DNS
-  transaction IDs?
+Which of the following is true of DNS transaction IDs?
 
 ???
 

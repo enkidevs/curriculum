@@ -12,7 +12,8 @@ notes: 'Gamified insight. Static Workout. '
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Altering format string output by changing a format specifier's `argument_index`

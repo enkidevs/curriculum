@@ -5,10 +5,11 @@ category: tip
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
-# Aggregating with $sortByCount and $match
+# $sortByCount and $match
 
 
 ---

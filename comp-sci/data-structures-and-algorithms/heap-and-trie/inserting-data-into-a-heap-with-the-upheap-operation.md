@@ -5,11 +5,11 @@ category: how-to
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Inserting Data Into a Heap With The `upheap` Operation
@@ -53,7 +53,7 @@ The tree is now a heap again!
 
 ## Practice
 
-Where will the next node be inserted in the heap?
+Where will the next node be inserted in the following heap?
 
 ```plain-text
         50
@@ -62,8 +62,8 @@ Where will the next node be inserted in the heap?
   /    \   /   \
  15    18  C    D
   A     B
-???
 ```
+???
 
 - `C`
 - `A`

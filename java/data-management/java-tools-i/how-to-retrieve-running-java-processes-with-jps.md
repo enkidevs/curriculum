@@ -11,11 +11,13 @@ notes: >-
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # How to retrieve running java processes with `jps`
@@ -74,7 +76,7 @@ If remote system is running `jstatd`,  `jps` can also list processes on a remote
 
 Display all Java VM parameters:
 
-```plain-text
+```java
 ??? ???
 ```
 
@@ -92,7 +94,7 @@ Display all Java VM parameters:
 
 Long list all Java processes using `jps`:
 
-```plain-text
+```java
 ???
 ```
 

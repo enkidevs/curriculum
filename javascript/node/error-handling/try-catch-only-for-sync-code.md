@@ -12,11 +12,11 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # `try-catch` only for **sync** code
@@ -60,7 +60,7 @@ function readJSON(filePath, callback) {
 
 ## Practice
 
-Which of the following is the correct declaration of a `try-catch` block? ???
+Which of the following is the correct declaration of a `try-catch` block?
 
 ```javascript
 // Option A
@@ -83,8 +83,9 @@ try {
 } catch (exception) {
    // return exception
 }
-
 ```
+
+???
 
 - Option C
 - Option A

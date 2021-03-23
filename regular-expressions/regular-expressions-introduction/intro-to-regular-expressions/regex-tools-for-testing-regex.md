@@ -11,11 +11,11 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # How to test your Regular Expressions
@@ -35,7 +35,7 @@ This is the best site for beginners, experts and those in between because it giv
 
 2. **Regexr**
 
-This site also has useful highlighting to easily spot matching patterns, but the main advantage of Regexr is that you can create an account to store your regexes so that you can reuse them easily 💾. 
+This site also has useful highlighting to easily spot matching patterns, but the main advantage of Regexr is that you can create an account to store your regexes so that you can reuse them easily 💾.
 
 3. **Debuggex**
 
@@ -64,4 +64,3 @@ Once you've learned some syntax, it's recommended to test out your patterns by u
 - your colleagues
 - Google
 - your text editor
- 

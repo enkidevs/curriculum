@@ -13,11 +13,13 @@ notes: >-
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Use `propTypes` on stateless components
@@ -83,12 +85,13 @@ Complete the code snippet to enforce **prop validation**:
 
 ```javascript
 ???.??? = {
-  enki: PropTypes.string,
+  enki: ???.string,
 }
 ```
 
 - `enki`
 - `propTypes`
+- `PropTypes`
 - `set`
 - `get`
 - `React`

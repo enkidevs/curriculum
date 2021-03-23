@@ -13,11 +13,12 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # `@Test` parameters
@@ -52,7 +53,7 @@ When a test needs to complete within a specific time period, we can add a parame
 
 ## Practice
 
-Complete the snippet such that the test expects an `IOException`  and has a timeout of `900ms` :
+Complete the snippet such that the test expects an `IOException` and has a timeout of `900ms` :
 
 ```java
 @???(

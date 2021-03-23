@@ -8,11 +8,12 @@ aspects:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # WHILE..DO
@@ -68,7 +69,7 @@ Complete this loop such that it runs only if `number` is between `1` and `100` (
 ```
 
 - WHILE
-- > =
+- `>=`
 - number
 - ENDWHILE
 - FOR

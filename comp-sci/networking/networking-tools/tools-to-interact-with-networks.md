@@ -10,7 +10,8 @@ links:
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Tools to interact with Networks
@@ -45,7 +46,7 @@ Some of the most known and used networking utilities include:
 
 ## Revision
 
-Which of the following tools can be used to echo a packet to remote host?
+Which tool can be used to echo a packet to remote host?
 
 ```bash
 ??? google.com

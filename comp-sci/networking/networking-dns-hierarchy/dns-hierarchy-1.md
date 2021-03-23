@@ -15,11 +15,11 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # DNS Hierarchy
@@ -63,9 +63,7 @@ Which of the following statements is false?
 
 ## Revision
 
-Identify the the 3 members of the DNS hierarchy, and put them in order based on : **** track all of the **_** which track all of the ******
-
-???
+Identify the the 3 members of the DNS hierarchy, and put them in order: ??? track all of the ??? which track all of the ???
 
 - Root servers
 - Top Level Domain servers

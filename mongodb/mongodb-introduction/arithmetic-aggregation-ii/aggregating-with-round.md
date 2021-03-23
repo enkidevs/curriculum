@@ -5,10 +5,11 @@ category: feature
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
-# Aggregating With `$round`
+# $round
 
 
 ---
@@ -84,7 +85,11 @@ Example with `$round: ["$initialPower", 2]`:
 
 ## Practice
 
-To round numerical values in Mongo you have to use the ??? operator.
+Which operator is used to round numerical values in Mongo? 
+
+```javascript
+???
+```
 
 - `$round`
 - `$trunc`

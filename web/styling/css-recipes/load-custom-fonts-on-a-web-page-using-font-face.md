@@ -12,14 +12,14 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
-# Load custom fonts on a web page using `@font-face`
+# Load custom fonts on a web page using @font-face
 
 
 ---

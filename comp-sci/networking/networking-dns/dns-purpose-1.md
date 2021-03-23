@@ -13,11 +13,11 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # DNS Purpose
@@ -47,9 +47,7 @@ Which of the following is NOT a service provided by DNS?
 
 ## Revision
 
-DNS is a system that maps *** to *** .
-
-???
+DNS is a system that maps ??? to ???
 
 - domain names
 - IP addresses

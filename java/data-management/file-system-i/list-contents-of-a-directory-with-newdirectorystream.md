@@ -14,7 +14,8 @@ links:
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # List contents of a directory with `newDirectoryStream`
@@ -32,7 +33,7 @@ DirectoryStream<Path> stream =
 
 The object that is returned implements the `Iterable` interface, which allows us to iterate over the contents of the directory:
 
-```plain-text
+```java
 for(Path file: stream) {
   System.out.println(file.getFileName());
 }

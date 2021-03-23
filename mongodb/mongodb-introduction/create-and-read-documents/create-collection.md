@@ -5,11 +5,13 @@ category: must-know
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Create a collection
@@ -47,17 +49,17 @@ show collections
 Create a new collection named `pokemon` in MongoDB.
 
 ```javascript
-???.???
+???.???("???")
 ```
 
 - `db`
-- `createCollection("pokemon")`
+- `createCollection`
+- `pokemon`
 - `collection`
-- `newCollection("Pokemon")`
-- `new("Pokemon")`
+- `newCollection`
+- `Pokemon`
+- `new`
 - `database`
-- `collection("pokemon")`
-
 
 ---
 

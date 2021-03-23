@@ -10,11 +10,12 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Parsing Numbers and IEEE-754
@@ -70,8 +71,7 @@ What will be the output of the following function call?
 
 ```javascript
 console.log(parseInt("abc",10));
-# ???
-
+// ???
 ```
 
 - `NaN`
