@@ -12,7 +12,7 @@ links:
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Passing arguments to listeners
@@ -56,6 +56,7 @@ En ki MyEmitter {
 ## Revision
 
 What does `this` refer to inside of a callback registered to listen to an event on an `EventEmitter`?
+
 ???
 
 - The instance of EventEmitter

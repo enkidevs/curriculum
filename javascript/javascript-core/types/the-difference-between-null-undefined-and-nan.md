@@ -5,11 +5,13 @@ category: must-know
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # The NaN value
@@ -49,7 +51,7 @@ Number.isNaN(2); // false
 
 ## Practice
 
-The following code outputs ???
+What does the following code output?
 
 ```javascript
 function foo(num){
@@ -57,6 +59,7 @@ function foo(num){
 }
 
 console.log(foo("sum"));
+// ???
 ```
 
 - `NaN`

@@ -13,11 +13,11 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Scope and Strict Mode
@@ -57,8 +57,8 @@ Assuming the scopes specified in the comments, does the snippet use **non-strict
 
 ```javascript
 function bar(foo){
-    foo = "hello"; // local scope
-    baz = "world"; // global scope
+  foo = "hello"; // local scope
+  baz = "world"; // global scope
 }
 ```
 

@@ -18,11 +18,12 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # What is the Document Object?
@@ -61,7 +62,7 @@ document
 
 ## Practice
 
-Select the element with the id "message" and change it's content using the DOM:
+Select the element with the id `"message"` and change its content using the DOM:
 
 ```html
 <html>
@@ -92,7 +93,7 @@ document
 
 ## Revision
 
-Select the element with the id "time" and change it's content to "Future"
+Select the element with the id `"time"` and change its content to `"Future"`.
 
 ```html
 <html>

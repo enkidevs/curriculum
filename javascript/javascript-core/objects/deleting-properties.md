@@ -11,11 +11,12 @@ notes: Hope it's not too basics?
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Deleting Properties
@@ -69,7 +70,7 @@ var test = {
 }
 // set prop1 to undefined
 test.prop1 = ???;
-//remove prop2
+// remove prop2
 ??? ;
 ```
 

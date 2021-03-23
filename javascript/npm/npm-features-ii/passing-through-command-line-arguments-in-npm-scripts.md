@@ -58,14 +58,14 @@ Consider an npm script called `doSomething`. Run it via npm, passing `"enki"` as
 
 ```bash
 ??? ??? ??? \ 
-  ??? ???
+  ??? "???"
 ```
 
 - npm
 - run
 - doSomething
 - `--`
-- "enki"
+- enki
 - add
 - runWithArgs
 - `process.argv[0]`
@@ -79,11 +79,11 @@ How would you pass to the following npm script call a `"test"` argument?
 
 ```bash
 npm run myScript \ 
-  ??? ???
+  ??? "???"
 ```
 
 - `--`
-- "test"
+- test
 - add
 - argvs
 - arg

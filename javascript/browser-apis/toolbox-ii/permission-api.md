@@ -8,11 +8,11 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Permission API
@@ -56,7 +56,9 @@ This API's availability is limited to some specific browsers. To ensure that you
 
 ## Practice
 
-How do you check the status of a permission? ???
+How do you check the status of a permission? 
+
+???
 
 - `permissions.query();`
 - `permissions.status();`

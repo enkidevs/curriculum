@@ -6,15 +6,14 @@ tags:
   - workout
   - deep
   - obscura
-links: null
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Inversion of Control

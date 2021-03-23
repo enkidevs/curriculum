@@ -14,11 +14,12 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # `String.replace`
@@ -76,19 +77,19 @@ Complete the following code snippet to replace **the first** `+` with `-`:
 ```javascript
 let s = 'x + y + z = w';
 s = s.???(
-  ???,
-  ???
+  '???',
+  '???'
 );
 console.log(s); 
 // "x - y + z = w"
 ```
 
 - replace
-- '+'
-- '-'
+- +
+- `-`
 - findAndReplace
 - change
-- '='
+- =
 
 
 ---

@@ -11,11 +11,12 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Async File Write in Node.js
@@ -95,14 +96,12 @@ Using the FileSystem module, write "hello" to `enki.txt`:
 ```javascript
 const fs = require('fs')
 
-???.???(???, ???)
+???.???('???', "???")
 ```
 
 - fs
 - writeFile
-- 'enki.txt'
-- 'hello'
-- hello
 - enki.txt
+- hello
 - FileSystem
 - writeFileAsync

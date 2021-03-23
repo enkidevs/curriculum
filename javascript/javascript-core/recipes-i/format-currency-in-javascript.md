@@ -12,11 +12,13 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Format Currency in JavaScript
@@ -40,7 +42,7 @@ function currency(n){
 
 ## Practice
 
-What does the following code snippet output? ???
+What does the following code snippet output?
 
 ```javascript
 function currency(n) {
@@ -49,7 +51,9 @@ function currency(n) {
          false : n.toFixed(3);
 }
 console.log(
-         currency('10.93719'));
+  currency('10.93719')
+);
+// ???
 ```
 
 - 10.937
@@ -72,7 +76,7 @@ function currency(n){
 }
 console.log(currency('1234.567'));
 
-???
+// ???
 ```
 
 - 1234.57

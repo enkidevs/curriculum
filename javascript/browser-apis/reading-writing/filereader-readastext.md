@@ -9,11 +9,13 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # FileReader.readAsText()
@@ -47,7 +49,7 @@ reader.readAsText(file, encoding);
 
 Read from a text file:
 
-```plain-text
+```js
 reader.onload = function(e) {
   let text = reader.???;
 }
@@ -70,7 +72,7 @@ reader.readAsText(file, ???);
 
 Read from a text file:
 
-```plain-text
+```js
 let reader = new FileReader();
 reader.onload = function(e) {
   let text = reader.result;
