@@ -77,8 +77,7 @@ sed '/^$/d' old_file > new_file
 Complete the following command to replace *cat* with *rat* from lines which contain *dog* as well:
 
 ```bash
-??? ??? 
-  animals > animals1
+??? ??? animals > animals1
 ```
 
 - `sed`

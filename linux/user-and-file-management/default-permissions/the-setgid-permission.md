@@ -8,21 +8,21 @@ tags:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
+    - type-in-the-gap
   context: relative
 ---
 
 # The `setgid` permission
 
-
 ---
 
 ## Content
 
-The `setgid` permission stands for **set group id**. This permission is similar to `setuid`, except that the process's effective group ID is changed to the *group owner* of the file, and access of a *user* is granted based on permissions assigned to that group. Therefore, the file belongs to the group that owns the directory, not to the user's group ownership.
+The `setgid` permission stands for **set group id**. This permission is similar to `setuid`, except that the process's effective group ID is changed to the _group owner_ of the file, and access of a _user_ is granted based on permissions assigned to that group. Therefore, the file belongs to the group that owns the directory, not to the user's group ownership.
 
 When `setgid` permission is applied to a directory, files that were created in this directory belong to the group to which the directory belongs, not the group to which the creating process belongs.
 
@@ -52,7 +52,6 @@ find / -type f -perm /2000 -exec stat
     -c "%A %a %n" {} \;
 ```
 
-
 ---
 
 ## Practice
@@ -66,7 +65,6 @@ If a user of group `test` creates a new file in that directory, which group will
 - enki
 - test
 - both groups
-
 
 ---
 

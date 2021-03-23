@@ -5,14 +5,14 @@ category: must-know
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
-# Using `ping` To Measure Network Latency
+# Using ping To Measure Network Latency
 
 
 ---
@@ -74,9 +74,7 @@ rtt min/avg/max/mdev =
 
 ## Practice
 
-The `ping` command will send ??? and count the time until the
-
-???.
+The `ping` command will send ??? and count the time until the ???
 
 - data
 - server responds

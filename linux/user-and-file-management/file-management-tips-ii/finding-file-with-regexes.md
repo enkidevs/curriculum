@@ -11,6 +11,7 @@ notes: ''
 practiceQuestion:
   formats:
     - fill-in-the-gap
+    - type-in-the-gap
   context: relative
 revisionQuestion:
   formats:
@@ -60,9 +61,7 @@ Find files that have a title containing `script` as a substring and ending in `.
 
 ## Revision
 
-Searching for a file using regular expressions can be done by the 
-
-??? command .
+Searching for a file using regular expressions can be done by the ??? command.
 
 - `find`
 - `search`

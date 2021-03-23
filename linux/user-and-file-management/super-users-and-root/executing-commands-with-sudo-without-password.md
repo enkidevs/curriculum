@@ -63,9 +63,7 @@ YourUserName ALL=(ALL) NOPASSWD: ALL
 
 ## Revision
 
-You can disable the `sudo` password by modifying the
-
- ??? file.
+You can disable the `sudo` password by modifying the ??? file.
 
 - `/etc/sudoers`
 - `/etc/visudo`

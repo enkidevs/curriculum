@@ -7,7 +7,7 @@ tags:
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Conditional command execution ( `&&` operator)
@@ -32,7 +32,7 @@ The above creates *newFolder* and cd into it.
 
 ## Revision
 
-`&&` operator is used to execute a second command if the first one ??? .
+`&&` operator is used to execute a second command if the first one ???
 
 - succeeds
 - fails

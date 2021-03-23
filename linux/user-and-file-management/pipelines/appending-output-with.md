@@ -8,7 +8,7 @@ tags:
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Appending Output With `>>`
@@ -59,9 +59,7 @@ Note that for appending purposes the use of the `cat` command is recommended.
 
 ## Revision
 
-`>` ??? ,
-
- whereas `>>`  ??? .
+`>` ???, whereas `>>`  ??? .
 
 - writes the stdout to a file, overwriting its content
 - appends stdout stream to a file

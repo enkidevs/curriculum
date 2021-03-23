@@ -51,6 +51,7 @@ Types of change:
 ## March 23rd 2021
 
 ### Changed
+- [Linux - Mark type in the gap and standalone accordingly](https://github.com/enkidevs/curriculum/pull/2613)
 - [Java - Mark type in the gap and standalone accordingly](https://github.com/enkidevs/curriculum/pull/2609)
 - [Airtable - Add type in the gap and standalone accordingly](https://github.com/enkidevs/curriculum/pull/2607)
 - [Security - Add type in the gap and standalone accordingly](https://github.com/enkidevs/curriculum/pull/2606)

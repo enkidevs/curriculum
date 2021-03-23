@@ -11,15 +11,15 @@ tags:
 notes: ''
 practiceQuestion:
   formats:
-    - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
-# Repeating commands with `watch`
+# Repeating commands with watch
 
 
 ---
@@ -73,9 +73,7 @@ Write "5" to standard output every 2 seconds:
 
 ## Revision
 
-??? 
-
-allows you to run a command repeatedly at specified time intervals.
+??? allows you to run a command repeatedly at specified time intervals.
 
 - `watch` 
 - `time` 

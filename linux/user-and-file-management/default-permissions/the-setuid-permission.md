@@ -13,15 +13,15 @@ tags:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
+    - type-in-the-gap
   context: relative
 ---
 
 # The `setuid` permission
-
 
 ---
 
@@ -44,7 +44,6 @@ We can set this special permissions with:
 chmod +s file
 ```
 
-
 ---
 
 ## Practice
@@ -57,12 +56,11 @@ Which of the following is an alternate description of what `setuid` does?
 - It gives root privileges over the file to all other users.
 - It gives elevated privileges over the file to all other users in a specific group.
 
-
 ---
 
 ## Revision
 
-Set the `setuid` attribute for a file:
+Use `chmod` to set the `setuid` attribute for `file`:
 
 ```bash
 ??? ??? ???
@@ -70,6 +68,6 @@ Set the `setuid` attribute for a file:
 
 - `chmod`
 - `+s`
-- `file_name`
+- `file`
 - `+g`
 - `setuid`
