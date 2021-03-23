@@ -12,11 +12,12 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Checkbox Groups
@@ -173,7 +174,7 @@ Checkboxes have three possible states, these are `checked`, `unchecked` and:
 
 ## Revision
 
-Create a checkbox group with two checkboxes and larger clickable area
+Given the code:
 
 ```html
 <tagA>
@@ -199,11 +200,15 @@ Create a checkbox group with two checkboxes and larger clickable area
 </tagA>
 ```
 
+Fill in the missing pieces to create a checkbox group with two checkboxes and a larger clickable area:
+
+```html
 tagA: ???
 tagB: ???
 tagC: ???
 tagD: ???
 tagE: ???
+```
 
 - form
 - input

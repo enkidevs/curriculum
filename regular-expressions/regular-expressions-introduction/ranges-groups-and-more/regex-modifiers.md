@@ -12,11 +12,13 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Modifiers
@@ -26,7 +28,7 @@ revisionQuestion:
 
 ## Content
 
-Modifiers change the *whole nature of our regex pattern*. 
+Modifiers change the *whole nature of our regex pattern*.
 
 They're written outside of the `//` like so:
 
@@ -90,4 +92,3 @@ How would you make the following regex pattern match all four abbreviations?
 - `^`
 - `$`
 - `m`
- 

@@ -5,11 +5,11 @@ category: feature
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Dates
@@ -73,8 +73,8 @@ How could we specify that we only want dates with years in the range 2000-2099?
 
 ???
 
+- /20\d{2}/
 - /2\d{3}/
 - /2\d{2}/
 - /2\d{4}/
 - /20\d{3}/
- 

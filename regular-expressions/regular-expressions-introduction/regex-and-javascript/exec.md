@@ -10,11 +10,13 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Exec()
@@ -60,13 +62,12 @@ As you can see, we can perform operations on our object to return the index posi
 
 ## Practice
 
-Complete the following:
+Complete the following code to log `true`:
 
 ```javascript
 const match = /dog/.exec("I want a hot dog.");
 
-console.log(match[0])
-// ???
+console.log(match[0] === '???')
 ```
 
 - dog
@@ -79,17 +80,15 @@ console.log(match[0])
 
 ## Revision
 
-Complete the following:
+Complete the following code to log `true`:
 
 ```javascript
 const match = /dog/.exec("My dog ate it.");
 
-console.log(match.index)
-// ???
+console.log(match.index === ???)
 ```
 
 - 3
 - dog
 - My dog ate it.
 - false
- 

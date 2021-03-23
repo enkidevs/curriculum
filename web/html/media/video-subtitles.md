@@ -12,11 +12,12 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Video Subtitles
@@ -94,7 +95,9 @@ In the case you have videos that support multiple languages, you can provide the
 
 What HTML element is used to connect subtitles to a video?
 
+```html
 ???
+```
 
 - `<track>`
 - `<captions>`
@@ -108,6 +111,7 @@ What HTML element is used to connect subtitles to a video?
 ## Revision
 
 When working with multiple files that provide the subtitles in various languages with a web video, how is one of them given greater priority that the others.
+
 ???
 
 - `Add the default attribute to one of them.`

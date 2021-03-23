@@ -10,14 +10,15 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
-# The `<address>` Element
+# The address Element
 
 
 ---
@@ -84,8 +85,9 @@ Which statement about the `<address>` element is not correct?
 
 Which HTML element is used to contain contact information for its nearest `<article>` or `<body>` that is not related to the primary contact information of the site?
 
+```html
 ???
-
+```
 - `<address>`
 - `<contact>`
 - `<info>`

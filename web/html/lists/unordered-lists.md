@@ -14,11 +14,12 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Unordered Lists
@@ -110,8 +111,10 @@ Complete the HTML code to create a bulleted list.
 </A>
 ```
 
+```plain-text
 A: ???
 B: ???
+```
 
 - `ul`
 - `li`

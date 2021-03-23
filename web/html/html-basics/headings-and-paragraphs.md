@@ -12,11 +12,12 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Headings and Paragraphs
@@ -69,9 +70,11 @@ This HTML will look like this in the browser:
 
 ## Practice
 
-The smallest sized heading is
+The smallest sized heading is:
 
+```html
 ???
+```
 
 - `<h6>`
 - `<h1>`

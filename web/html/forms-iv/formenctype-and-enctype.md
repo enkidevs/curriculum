@@ -9,15 +9,15 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
-# enctype & formenctype
-
+# Attributes (enctype & formenctype)
 
 ---
 
@@ -84,7 +84,9 @@ Which statement is true regarding `formenctype`?
 
 Which input form attribute is used to specify an encoding type for your form?
 
+```html
 ???
+```
 
 - enctype
 - form-data

@@ -14,10 +14,10 @@ links:
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
-# Drag-and-Drop pseudo-class `:drop`
+# Drag-and-Drop pseudo-class :drop
 
 
 ---
