@@ -5,6 +5,10 @@ type: normal
 
 category: must-know
 
+links:
+  - >-
+    [PB & J Sandwitch](youtube.com/watch?v=Ct-lOOUqmyY){website}
+  
 ---
 
 # Programs & Data
@@ -17,6 +21,8 @@ Let's quickly introduce the building blocks we'll cover in this course.
 ### Program
 
 Even though they're super fast, computers are annoyingly literal - you have to spell out everything for them. 
+
+> Check out the *Learn more* section to see two kids writing instructions to their programmer dad on how to make a peanut butter and jelly sandwich.
 
 A program consists of one or more commands we're asking the computer to do. It's a sequence of specific tasks. A list of TODOs for the computer.
 
