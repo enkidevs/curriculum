@@ -85,7 +85,7 @@ console.log(s);
 ```
 
 - replace
-- +
+- `+`
 - `-`
 - findAndReplace
 - change
