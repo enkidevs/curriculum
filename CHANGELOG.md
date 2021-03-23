@@ -51,6 +51,7 @@ Types of change:
 ## March 23rd 2021
 
 ### Added
+- [SQL - Mark questions as `type-in-the-gap` and `standalone` accordingly](https://github.com/enkidevs/curriculum/pull/2600)
 - [Coding Intro - Mark questions as `type-in-the-gap` and `standalone` accordingly](https://github.com/enkidevs/curriculum/pull/2594)
 
 ## March 22nd 2021

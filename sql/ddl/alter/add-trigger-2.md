@@ -12,14 +12,15 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
-# Add Trigger (2)
+# Add Trigger I
 
 
 ---
@@ -97,8 +98,8 @@ CREATE TABLE region_backup (
 
 Complete the following syntax such that the *trigger* named `cstr_2` does the following:
 
-- when deleting from the parent table the corresponding record in the child table is set to its default value
-- when updating the parent table the corresponding record in the child table is updated
+* when deleting from the parent table the corresponding record in the child table is set to its default value
+* when updating the parent table the corresponding record in the child table is updated
 
 ```sql
 CREATE TABLE region (
