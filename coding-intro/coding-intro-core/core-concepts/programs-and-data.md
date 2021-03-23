@@ -22,7 +22,7 @@ Let's quickly introduce the building blocks we'll cover in this course.
 
 Even though they're super fast, computers are annoyingly literal - you have to spell out everything for them. 
 
-> Check out the *Learn more* section to see two kids writing instructions to their programmer dad on how to make a peanut butter and jelly sandwich.
+> Check out the *Learn more* section for a realistic (and funny) example of this 🤓
 
 A program consists of one or more commands we're asking the computer to do. It's a sequence of specific tasks. A list of TODOs for the computer.
 
