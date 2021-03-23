@@ -9,11 +9,13 @@ links: null
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Sub and Super Script
@@ -73,8 +75,10 @@ Write the code to properly display the text above and below the usual line of wr
 </p>
 ```
 
+```html
 tag1 = ???
 tag2 = ???
+```
 
 - sub
 - sup
@@ -89,11 +93,15 @@ tag2 = ???
 
 What element should be used to change the "2" in chemical formulas, like H2O?
 
-???
+```html
+<???>
+```
 
 What element should be used to change the "2" in formulas, like E = mc2?
 
-???
+```html
+<???>
+```
 
 - sub
 - sup

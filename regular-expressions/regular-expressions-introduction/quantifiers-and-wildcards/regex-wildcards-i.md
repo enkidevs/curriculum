@@ -12,11 +12,11 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Wildcards I
@@ -26,7 +26,7 @@ revisionQuestion:
 
 ## Content
 
-Wildcards can be used to add flexibility when you don't want to specify characters. 
+Wildcards can be used to add flexibility when you don't want to specify characters.
 
 > In regex, the dot (`.`) wildcard can be used to stand in for nearly *any* character[1] which is why it's the most powerful wildcard.
 
@@ -65,7 +65,7 @@ Similarly, we can use `/\W+/` or `/\W*/` to match an entire string:
 `!@£$%^&` ✅
 abc ❌
 
-Note, the backslash is necessary syntax here. While some symbols are directly interpreted like special characters (e.g. `'.'`, `'?'` etc.), some only work like special characters if preceeded by a backslash. 
+Note, the backslash is necessary syntax here. While some symbols are directly interpreted like special characters (e.g. `'.'`, `'?'` etc.), some only work like special characters if preceeded by a backslash.
 
 
 ---
@@ -110,4 +110,3 @@ The dot wildcard can be used to match every character **except** for line break 
 This exception exists mostly because of historic reasons. The first tools that used regex were line-based. They would read a file line by line, and apply the regular expression separately to each line. The effect is that with these tools, the string could never contain line breaks, so the dot could never match them.
 
 Fun fact: JavaScript recently introduced the `s` modifier that makes the dot actually match all characters.
- 

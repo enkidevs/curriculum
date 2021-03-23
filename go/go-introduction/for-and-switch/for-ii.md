@@ -5,14 +5,16 @@ category: how-to
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
-# More on `for` Loops
+# More on for Loops
 
 
 ---
@@ -111,17 +113,17 @@ The value of sum is:  64
 
 ## Practice
 
-Match the loop letter with the name.
+Which code block represents which loop type.
 
 ```go
-// A
+// ???
 for sum := 1; sum < 3; {
   sum += 1
 }
 ```
 
 ```go
-// B
+// ???
 sum := 1
 
 for sum < 50 {
@@ -130,20 +132,16 @@ for sum < 50 {
 ```
 
 ```go
-// C
+// ???
 sum := 1
 for i := 0; ; i++ {
   sum += 1
 }
 ```
 
-A: ???
-B: ???
-C: ???
-
-- for loop
-- while loop
-- infinite loop
+- for
+- while
+- infinite
 
 
 ---

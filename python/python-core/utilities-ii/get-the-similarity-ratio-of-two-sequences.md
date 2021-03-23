@@ -5,11 +5,13 @@ category: how-to
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Get the similarity ratio of two sequences
@@ -19,7 +21,7 @@ revisionQuestion:
 
 ## Content
 
-`difflib`'s `SequenceMatcher` class and its ratio method makes it easy to compute  the "similarity" of two sequences.
+`difflib`'s `SequenceMatcher` class and its ratio method makes it easy to compute the "similarity" of two sequences.
 
 ```python
 import difflib
@@ -51,7 +53,7 @@ It can be used to compare sequences of characters as well, i.e. strings.
 
 Instantiate a `SequenceMatcher` object with the given sequences and print the similarity ratio:
 
-```plain-text
+```python
 import difflib
 a = (1, 2, 3, ‘x’)
 b = (1, 2)
@@ -77,9 +79,11 @@ print(s.???() *100)
 
 ## Revision
 
-What function of `SequenceMatcher`  can be used to get the similarity of two sequences?
+What function of `SequenceMatcher` can be used to get the similarity of two sequences?
 
+```python
 ???
+```
 
 - `ratio`
 - `sim`

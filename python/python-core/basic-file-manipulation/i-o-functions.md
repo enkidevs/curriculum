@@ -9,11 +9,13 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # I/O Functions
@@ -97,20 +99,20 @@ print(age, type(age))
 
 ```plain-text
 How old are you? 23
-23 ???
+23 <class '???'>
 ```
 
-- `<class 'str'>`
-- `<class 'int'>`
-- `<class 'list'>`
-- `<class 'tuple'>`
+- `str`
+- `int`
+- `list`
+- `tuple`
 
 
 ---
 
 ## Revision
 
-Suppose we want to add `10` to somebody's age. Fill the gaps accordingly:
+Suppose we want to add `10` to somebody's age. Fill the gaps accordingly to convert the input from a `string` to an `integer`:
 
 ```py
 your_age = ???(input('How old are you?'))

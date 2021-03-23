@@ -9,14 +9,15 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
-# `<samp>` - Sample Output Element
+# The samp Element 
 
 
 ---
@@ -67,7 +68,9 @@ When using the `<samp>` element, which statement is **not** true?
 
 What HTML element wraps around sample output text from a computer program to identify it differently?
 
-???
+```html
+<???>
+```
 
 - samp
 - code

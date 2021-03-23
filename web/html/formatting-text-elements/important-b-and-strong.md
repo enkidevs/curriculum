@@ -15,14 +15,16 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
-# Important ( `<b>` & `<strong>` )
+# Important ( b & strong )
 
 
 ---
@@ -101,13 +103,17 @@ Write the code to properly express extra importance on key words in this sentenc
 
 ## Revision
 
-When text needs to bring users attention, you should use which element?
+When text needs to bring users attention, you should use which element:
 
+```html
 ???
+```
 
-When a text needs to be presented with strong importance, seriousness, or urgency for its contents, you should use which element?
+When a text needs to be presented with strong importance, seriousness, or urgency for its contents, you should use which element:
 
+```html
 ???
+```
 
 - `<b>`
 - `<strong>`

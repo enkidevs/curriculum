@@ -9,7 +9,7 @@ links:
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Sass Extend/Inheritance
@@ -54,9 +54,13 @@ The code in CSS that this generates:
 
 ## Revision
 
-Which is the correct way to use Sass @extend to extend the class *properties*? ???
+Which is the correct way to use Sass @extend to extend the class *properties*?
 
-- @extend .properties;
-- properties(@extend);
-- @extend(properties);
-- extend .properties;
+```css
+???
+```
+
+- `@extend .properties;`
+- `properties(@extend);`
+- `@extend(properties);`
+- `extend .properties;`

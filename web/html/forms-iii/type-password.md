@@ -6,14 +6,15 @@ links: null
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
-# HTML `password` type input
+# The password input type
 
 
 ---
@@ -68,7 +69,9 @@ Which statement is true about the "type=password" attribute:
 
 When sensitive data is input into a text field that should display as `*` in place of characters, which form attribute is used?
 
+```html
 ???
+```
 
 - password
 - private

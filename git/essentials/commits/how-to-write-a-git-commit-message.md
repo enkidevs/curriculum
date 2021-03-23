@@ -12,11 +12,13 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # How to write a git commit message
@@ -55,7 +57,7 @@ You should stick to a convention that is consistent with the rest of the team.
 
 ## Practice
 
-Commit the changes with the message "issue no.8 fixed" :
+Commit the changes with the message "issue no.8 fixed":
 
 ```bash
 git ??? ??? 
@@ -72,7 +74,7 @@ git ??? ???
 
 ## Revision
 
-Commit the changes with the message "typo fixed"
+Commit the changes with the message "typo fixed":
 
 ```bash
 ??? ??? 

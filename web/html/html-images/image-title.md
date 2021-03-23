@@ -5,11 +5,13 @@ category: must-know
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Image Title
@@ -57,7 +59,7 @@ Add a visual tooltip when the cursor is over the image.
 
 ## Revision
 
-What adds a visual tooltip when the cursor is over the image?
+What element adds a visual tooltip when the cursor is over the image?
 
 ```html
 <img 

@@ -6,6 +6,7 @@ insights:
   - time-object
   - datetime-object
   - timedelta-object
+  - playing-with-time-discussion
 aspects:
   - introduction
   - workout

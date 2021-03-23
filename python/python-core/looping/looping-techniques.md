@@ -24,11 +24,13 @@ notes: >
 practiceQuestion:
   formats:
     - fill-in-the-gap
+    - type-in-the-gap
   context: relative
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Looping techniques
@@ -125,7 +127,7 @@ for k, v in ???(list_a, list_one):
 
 Complete the code snippet to loop through the list in reverse and then print it out:
 
-```plain-text
+```python
 enki_list = ['i', 'k', 'n', 'e']
 for w in ???(???):
     ???(w)   

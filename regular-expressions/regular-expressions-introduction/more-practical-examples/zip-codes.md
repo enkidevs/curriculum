@@ -5,11 +5,12 @@ category: feature
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # ZIP Codes
@@ -23,7 +24,7 @@ Another way we can use regex to solve **real world problems** is to check whethe
 
 We're going to use US ZIP codes for our example.
 
-Typically these consist of 5 digits. 
+Typically these consist of 5 digits.
 
 > 💡 Fun fact: In 1983, an extended ZIP+4 code was introduced; it includes the five digits of the ZIP code, followed by a hyphen (or space) and four digits that designate a more specific location.
 
@@ -50,7 +51,7 @@ This means that our regex pattern will work for ZIP codes such as 58701-0124 as 
 
 ## Practice
 
-The following regex pattern would match 65807 as well as 65807-4589.
+The following regex pattern would match `65807` as well as `65807-4589`.
 
 `/^\d{5}([-\s]\d{4})$/`
 
@@ -64,7 +65,7 @@ The following regex pattern would match 65807 as well as 65807-4589.
 
 ## Revision
 
-What do we need to add to make the following regex pattern match both ZIP (65807) and ZIP+4 (65807-4589) codes?
+Complete the following regex pattern to match both ZIP (`65807`) and ZIP+4 (`65807-4589`) codes:
 
 ```plain-text
 /^\d{5}([-\s]\d{4})???$/
@@ -74,4 +75,3 @@ What do we need to add to make the following regex pattern match both ZIP (65807
 - `*`
 - `+`
 - `\.`
- 

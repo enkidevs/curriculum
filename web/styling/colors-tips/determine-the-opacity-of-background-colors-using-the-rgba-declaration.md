@@ -14,7 +14,7 @@ links:
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Determine the opacity of background-colors using the RGBA declaration
