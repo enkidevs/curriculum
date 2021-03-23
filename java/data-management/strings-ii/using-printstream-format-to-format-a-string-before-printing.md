@@ -32,7 +32,7 @@ float f = 2.36;
 String s = "Java";
 // System.out is a PrintStream object
 System.out.format(
-  "Today, I wrote %d lines
+  "Today, I wrote %i lines
   of %s code in %f hours",
   i, s, f  
 );
