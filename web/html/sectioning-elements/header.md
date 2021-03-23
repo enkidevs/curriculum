@@ -9,14 +9,15 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
-# The `<header>` Element
+# The header Element
 
 
 ---
@@ -86,7 +87,9 @@ The `<header>` element is encouraged to do which of the following?
 
 Which container is best to organize the top of a web page or content section?
 
+```html
 ???
+```
 
 - `<header>`
 - `<head>`

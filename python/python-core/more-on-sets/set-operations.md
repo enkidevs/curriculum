@@ -8,11 +8,13 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # `set` operations
@@ -77,7 +79,7 @@ To remove a specific element from the set, either `discard(element)` or `remove(
 
 Create a shallow copy of the set:
 
-```plain-text
+```python
 pq = ???("Practice")
 practice_shallow = pq.???()
 ```
@@ -96,7 +98,7 @@ practice_shallow = pq.???()
 
 Instantiate a set, add an element to it, then clear it:
 
-```plain-text
+```python
 enki = ???("Enk")
 enki.???('i')
 enki.???()

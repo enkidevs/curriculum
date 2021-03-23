@@ -8,11 +8,13 @@ tags:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Pythonic substring testing
@@ -65,9 +67,11 @@ string = “Hey there”
 
 ## Revision
 
-What keyword can be used in Python for substring testing?
+What keyword can be used in Python for substring testing:
 
+```python
 ???
+```
 
 - `in`
 - `for`

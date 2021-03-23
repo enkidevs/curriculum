@@ -9,11 +9,13 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Heap/Priority Queue in Python
@@ -62,7 +64,7 @@ print(a)
 
 ## Practice
 
-Replace the smallest number of the heap h with `50`:
+Replace the smallest number of the heap `h` with `50`:
 
 ```python
 import heapq

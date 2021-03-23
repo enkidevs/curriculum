@@ -5,11 +5,11 @@ category: feature
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # URLs
@@ -25,7 +25,7 @@ What do all valid URLs start with... 🤔
 
 Answer: **http://** or **https://**[1]
 
-Knowing this, we can build our regex pattern 👍. 
+Knowing this, we can build our regex pattern 👍.
 
 > 💡 Side note, as with all regex patterns - there are multiple ways they can be written depending on the strength and flexibility you're going for.
 
@@ -35,13 +35,13 @@ Here's one way we could validate a potential URL string:
 
 Let's break this example down into manageable chunks.
 
-`/(http[s]?:\/\/)` - The pattern should include either "http" or "https" followed by "://". 
+`/(http[s]?:\/\/)` - The pattern should include either "http" or "https" followed by "://".
 
 > 💡 Remember that question marks make the character before optional and that forward slashes must be escaped using backslashes as they're a special regex character.
 
 `/[^\s(["<,>]*/` - The pattern should NOT match any of the characters in the negated set (denoted by the ^ symbol). It can match characters outside of this set zero or more times.
 
-`/\./` - The pattern should then have a dot ".". Again this needs to be escaped as it's a special character in regex. 
+`/\./` - The pattern should then have a dot ".". Again this needs to be escaped as it's a special character in regex.
 
 `/[^\s[",><]*/` - After the first dot, the pattern can then match any character not found in the negated set.
 
@@ -60,8 +60,8 @@ URLs can then contain characters from the `[a-zA-Z0-9@:%._\+~#=]` set followed b
 
 Given the following URLs:
 
-<http://foo.com/blah_blah>
-<https://www.example.com/foo/?bar=baz&inga=42&quux>
+- `http://foo.com/blah_blah`
+- `https://www.example.com/foo/?bar=baz&inga=42&quux`
 
 Which regex pattern would validate both URLs?
 
@@ -79,10 +79,10 @@ Which regex pattern would validate both URLs?
 
 Given the following start of some URLs:
 
-http://
-https://
-<http://www.>
-https://www.
+- `http://`
+- `https://`
+- `http://www.`
+- `https://www.`
 
 Which regex pattern would validate the start of all these URLs?
 
@@ -105,4 +105,3 @@ Which regex pattern would validate the start of all these URLs?
 The "s" on the end of `https` stands for **Secure**. It means all communications between your browser and the server are encrypted.
 
 `https` is faster than `http`, and is the preferred way to serve web pages.
- 

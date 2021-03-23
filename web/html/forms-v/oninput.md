@@ -6,14 +6,15 @@ links: null
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
-# The `oninput` Event
+# The oninput Event
 
 
 ---
@@ -55,7 +56,7 @@ onchange: ???
 
 ## Revision
 
-Which form attribute is used to call a JavaScript when a user writes something within an `<input>` field?
+Which form attribute is used to call a JavaScript function when a user writes something within an `<input>` field?
 
 ```html
 <input

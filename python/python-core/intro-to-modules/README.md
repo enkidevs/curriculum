@@ -6,6 +6,7 @@ insights:
   - the-from-import-statement
   - namespace-and-scoping
   - python-packages
+  - intro-to-modules-discussion
 exercises:
   - py-practice-modules
   - py-practice-modules2

@@ -11,10 +11,10 @@ links:
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
-# `Border-radius` property can use `slash syntax(/)`
+# Border-radius property can use slash syntax(/)
 
 
 ---

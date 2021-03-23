@@ -12,11 +12,11 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # DNS Duplicity
@@ -51,9 +51,7 @@ Which of the following statements is true?
 
 ## Revision
 
-DNS can act as a load balancer when a single *** maps to multiple *** .
-
-???
+DNS can act as a load balancer when a single ??? maps to multiple ???
 
 - IP addresses
 - domain names

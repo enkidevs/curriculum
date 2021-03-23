@@ -7,11 +7,11 @@ category: must-know
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Grouping
@@ -21,9 +21,9 @@ revisionQuestion:
 
 ## Content
 
-We can group certain items using parenthesis, `( )`. 
+We can group certain items using parenthesis, `( )`.
 
-Say we want to match both the singular and plural forms of a word. We can use grouping to include the elements that should be kept together. 
+Say we want to match both the singular and plural forms of a word. We can use grouping to include the elements that should be kept together.
 
 Remember that the `?` character makes the thing before it optional. In this case it makes the *grouping* optional.
 
@@ -79,7 +79,7 @@ Which of the following would be a valid match for this regex pattern:
 - `color: red`
 - `color:green`
 - `color:blue`
-- `color: green or red or blue`
+- All of them
 
 
 ---
@@ -98,4 +98,3 @@ Which of the following would be a valid match for this regex pattern:
 - `choice:heads`
 - `choice:head`
 - `choice: heads or tails`
- 

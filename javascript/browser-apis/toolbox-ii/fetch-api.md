@@ -8,11 +8,11 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Fetch API
@@ -56,7 +56,9 @@ fetch('/the/url', myOptions)
 
 ## Practice
 
-What is the required argument the `fetch()` takes? ???
+What is the required argument the `fetch()` takes? 
+
+???
 
 - The path to the resource you want to fetch.
 - The network name.

@@ -9,11 +9,11 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Securing the Application Layer
@@ -35,6 +35,7 @@ Finally, **YOU are responsible for your security**. Do not run unfamiliar progra
 ## Practice
 
 What is one control in the Application Layer of the OSI Model?
+
 ???
 
 - Utilizing a testing suite in software development

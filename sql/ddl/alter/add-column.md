@@ -12,11 +12,12 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Add Column
@@ -64,7 +65,7 @@ DROP COLUMN boring_column;
 
 ## Practice
 
-Consider the `gender` table. We want to add a new column called `members`. This column will store data about how many members each gender has.
+Consider the `gender` table. We want to add a new column called `members`. This column will store data about how many members each gender has using the `INT` type.
 
 ```md
 | id | name       |

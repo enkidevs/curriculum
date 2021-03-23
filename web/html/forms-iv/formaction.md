@@ -9,14 +9,16 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
-# The `formaction` Attribute
+# The formaction Attribute
 
 
 ---
@@ -84,7 +86,9 @@ Complete the code so that the second button links properly to the action_page2.p
 
 Which input form attribute is used with the submit button when multiple buttons are used to help determine the location for the sent data?
 
+```html
 ???
+```
 
 - formaction
 - form

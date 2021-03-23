@@ -5,7 +5,7 @@ category: must-know
 links:
   - >-
     [Naming
-    conventions](http://www.oracle.com/technetwork/java/codeconventions-135099.html){website}
+    conventions](https://www.oracle.com/java/technologies/naming-conventions.html){website}
 practiceQuestion:
   formats:
     - fill-in-the-gap

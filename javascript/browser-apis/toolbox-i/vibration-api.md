@@ -10,11 +10,13 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Vibration API
@@ -36,13 +38,13 @@ You can specify the number of milliseconds the device should vibrate by passing 
 
 To make the device vibrate for 1 second:
 
-```plain-text
+```js
 navigator.vibrate(1000);
 ```
 
 You can also make the device vibrate in a **pattern** by passing in an array of millisecond values. The values alternate specifying vibration and pause time intervals.
 
-```plain-text
+```js
 // vibrate for one second,
 // pause for one second,
 // vibrate for two seconds then stop
@@ -59,8 +61,11 @@ Vibration can be stopped by passing a `0` or an empty array `[]` to the vibrate 
 Fill in the gaps to make the device vibrate for two seconds, pause for a second, then vibrate for three more seconds:
 
 ```javascript
-???.???([2000, 1000,
-  ???]);
+???.???([
+  2000, 
+  1000,
+  ???
+]);
 ```
 
 - `navigator`

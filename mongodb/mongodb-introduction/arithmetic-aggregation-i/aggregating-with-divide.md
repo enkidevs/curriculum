@@ -5,14 +5,16 @@ category: how-to
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
-# Aggregating With `$divide`
+# $divide
 
 
 ---
@@ -78,7 +80,9 @@ Output:
 
 What operator would you use in MongoDB to perform division?
 
+```javascript
 ???
+```
 
 - `$divide`
 - `$multiply`
@@ -90,15 +94,23 @@ What operator would you use in MongoDB to perform division?
 
 ## Revision
 
-Which of these are not valid arithmetic operator?
+Which number represents an invalid arithmetic operator?
+
+```javascript
+1 : $multiply
+2 : $addition
+3 : $divide
+4 : $subtract
+5 : $add
 
 ???
+```
 
-- `$addition`
-- `$multiply`
-- `$divide`
-- `$subtract`
-- `$add`
+- `2`
+- `1`
+- `3`
+- `4`
+- `5`
 
 
 ---
