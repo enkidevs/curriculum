@@ -7,7 +7,7 @@ category: how-to
 
 ---
 
-# More on `switch` Statements
+# More on switch Statements
 
 ---
 ## Content

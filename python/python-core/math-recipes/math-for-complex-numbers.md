@@ -7,11 +7,13 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Math for complex numbers
@@ -78,7 +80,7 @@ print(cmath.cos(z))
 
 Fill the gaps such that the variable given is correctly created as a complex number, then print its imaginary part:
 
-```plain-text
+```python
 import cmath
 z = 7 + 1???
 print(z.???)
@@ -98,7 +100,7 @@ print(z.???)
 
 Fill the gaps to create a complex number with the given values for the real and imaginary parts:
 
-```plain-text
+```python
 import ???
 z = ???(2, 4)
 ```

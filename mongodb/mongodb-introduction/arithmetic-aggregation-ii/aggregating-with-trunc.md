@@ -5,14 +5,16 @@ category: feature
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
-# Aggregating with `$trunc`
+# $trunc
 
 
 ---
@@ -105,7 +107,11 @@ Similarly, if we wanted to truncate to any different decimal point, we would jus
 
 ## Practice
 
-To truncate numbers in MongoDB you have to use the ??? operator.
+Which operator is used to truncate numbers in Mongo?
+
+```javascript
+???
+```
 
 - `$trunc`
 - `$reduce`
@@ -124,7 +130,7 @@ db.pokemon.aggregate([
   {
     $project: {
       truncatedPower: {
-        ???: [???]
+        ???: ["???"]
       }
     }
   }
@@ -132,6 +138,6 @@ db.pokemon.aggregate([
 ```
 
 - `$trunc`
-- `"$initialPower"`
+- `$initialPower`
 - `$truncate `
-- `"$initialPower", 2"`
+- `$initialPower, 2`

@@ -7,11 +7,12 @@ category: must-know
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Basic Terminology I
@@ -71,8 +72,12 @@ Imagine we have the following list of numbers:
 
 [5, 5, 5, 15]
 
+Fill in the gaps:
+
+```plain-text
 Mean = ???
 Median = ???
+```
 
 - 7.5
 - 5

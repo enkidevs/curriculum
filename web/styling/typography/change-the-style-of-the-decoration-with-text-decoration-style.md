@@ -15,10 +15,10 @@ links:
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
-# Change the style of the decoration with `text-decoration-style`
+# Change the decoration style with text-decoration-style
 
 
 ---

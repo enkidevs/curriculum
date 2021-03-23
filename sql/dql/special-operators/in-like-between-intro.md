@@ -79,10 +79,10 @@ FROM pokemon
 ??? ??? ??? ???;
 ```
 
-- WHERE
-- name
-- IN
-- ('Groudon', 'Snorlax', 'Wailord')
-- SUCH THAT
-- IS ONE OF
-- ['Groudon', 'Snorlax', 'Wailord']
+- `WHERE`
+- `name`
+- `IN`
+- `('Groudon', 'Snorlax', 'Wailord')`
+- `SUCH THAT`
+- `IS ONE OF`
+- `['Groudon', 'Snorlax', 'Wailord']`

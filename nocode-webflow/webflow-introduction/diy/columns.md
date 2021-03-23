@@ -5,7 +5,7 @@ category: how-to
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Columns
@@ -48,7 +48,9 @@ Here is an example of a column elements elements that contains one list and thre
 
 ## Practice
 
-Columns are layout elements used for organizing content side by side ???.
+Columns are layout elements used for organizing content side by side horizontally or vertically?
+
+???
 
 - horizontally
 - vertically

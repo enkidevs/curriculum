@@ -12,14 +12,15 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
-# The `<caption>` Element
+# The caption Element
 
 
 ---
@@ -100,7 +101,9 @@ tag4 = ???
 
 What HTML element represents the title of a table?
 
-???
+```html
+<???>
+```
 
 - caption
 - title

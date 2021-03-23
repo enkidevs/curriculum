@@ -29,7 +29,7 @@ It is designed to improve readability.
 It can however be quite strict (e.g. in the case of whitespaces).
 For instance, this is OK in PEP 8:
 
-```plain-text
+```python
 john = 1
 ted = 2
 fred = 3
@@ -37,7 +37,7 @@ fred = 3
 
 but this is not allowed:
 
-```plain-text
+```python
 john = 1
 ted  = 2
 fred = 3

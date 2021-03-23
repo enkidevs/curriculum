@@ -9,14 +9,14 @@ tags:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
-# Disable resizable property of `textarea`
+# Disable resizable property of textarea
 
 
 ---
