@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## March 23rd 2021
+
+### Added
+- [Coding Intro - Programs and Data - Add youtube video showing instructions for PB and J sandwitch making](https://github.com/enkidevs/curriculum/pull/2660)
+
 ## March 22nd 2021
 
 ### Added
