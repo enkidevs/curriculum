@@ -36,7 +36,7 @@ We can attach a type to a variable by adding a colon (`:`) and a type after its 
 
 A `string` is a data type that represents a sequence of characters.
 
-For a value to be a string, it must be enclosed in single (`'`) or double (`"`) quotation marks or back-ticks `` ` ``.
+For a value to be a string, it must be enclosed in single (`'`) or double (`"`) quotation marks or back-ticks.
 
 ```ts
 let brand: string = "Samsung";
