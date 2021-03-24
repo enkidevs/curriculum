@@ -5,11 +5,13 @@ category: must-know
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Debugging
@@ -69,7 +71,9 @@ How can you log variables into the console?
 
 What statement will make the debugger when it sees it?
 
+```js
 ???
+```
 
 - `debugger;`
 - `stop;`

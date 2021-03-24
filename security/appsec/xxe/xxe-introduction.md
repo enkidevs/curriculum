@@ -20,11 +20,11 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # eXternal XML Entities
@@ -115,6 +115,7 @@ From Wikipedia:
 ## Practice
 
 An XXE attack affects what components of an application?
+
 ???
 
 - XML Processors
@@ -128,6 +129,7 @@ An XXE attack affects what components of an application?
 ## Revision
 
 An XXE attack comes from exploiting what?
+
 ???
 
 - External Entities

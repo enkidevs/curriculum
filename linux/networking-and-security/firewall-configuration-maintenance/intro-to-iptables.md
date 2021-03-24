@@ -14,12 +14,12 @@ links:
 notes: ''
 practiceQuestion:
   formats:
-    - fill-in-the-gap
+    - type-in-the-gap
   context: relative
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Intro to `iptables`
@@ -81,7 +81,7 @@ as opposed to the `-A` flag that appends. The `-j` flag (jump) is used to specif
 
 ## Practice
 
-Append a new rule to the INPUT chain that blocks packets from 132.154.32.101
+Append a new rule to the INPUT chain that blocks packets from `132.154.32.101`
 
 ```bash
 ??? ??? ???
@@ -104,7 +104,7 @@ Append a new rule to the INPUT chain that blocks packets from 132.154.32.101
 
 ## Revision
 
-Which of the following chains is not a default one?
+Which of the following chains is not a default one for `iptables`?
 
 ???
 

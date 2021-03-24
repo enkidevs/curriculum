@@ -9,11 +9,11 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Stopping Processes With `kill` And `killall`
@@ -77,9 +77,7 @@ killall ???
 
 ## Revision
 
-Force killing a process is done by attaching a 
-
-??? code.
+Force killing a process is done by attaching a ??? code.
 
 - `-9`
 - `-2`

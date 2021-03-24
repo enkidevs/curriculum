@@ -9,7 +9,7 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
@@ -70,7 +70,8 @@ Select all the columns and rows from the `pokemon` table where the `level` is le
 ```sql
 SELECT * 
 FROM pokemon
-WHERE ??? 10 AND ??? 'Bugsy';
+WHERE ??? 10 AND 
+  ??? 'Bugsy';
 ```
 
 - level <

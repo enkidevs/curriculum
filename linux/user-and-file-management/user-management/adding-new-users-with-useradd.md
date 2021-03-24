@@ -7,7 +7,7 @@ tags:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
@@ -52,7 +52,7 @@ On Debian systems, it's recommended you use the `adduser` command rather than th
 
 ## Practice
 
-In which case will the new user *not* be able to login? 
+In which case will a new user *not* be able to login? 
 
 ???
 

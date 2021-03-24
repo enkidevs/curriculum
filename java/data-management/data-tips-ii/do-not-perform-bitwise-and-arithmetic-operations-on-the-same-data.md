@@ -10,7 +10,7 @@ links:
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Do not perform bitwise and arithmetic operations on the same data

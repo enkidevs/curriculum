@@ -9,7 +9,7 @@ notes: 'https://insights.enki.com/#/contrib/others/55c833563f06ab320051aa89?sear
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # `Autoboxing` and `Unboxing`

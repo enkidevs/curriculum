@@ -10,11 +10,12 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Infix Operators Are Left-Associative
@@ -49,7 +50,7 @@ let x = a - (b - c);
 
 ## Practice
 
-What does the following JS code output? ???
+What does the following JS code output? 
 
 ```javascript
 let a = 20;
@@ -58,6 +59,7 @@ let c = 12;
 
 let x = a - (-b * c);
 console.log(x);
+// ???
 ```
 
 - 68

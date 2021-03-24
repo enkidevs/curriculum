@@ -9,11 +9,12 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # XXE Prevention
@@ -51,18 +52,18 @@ include xmlparser
 
 untrustedXML = request.body
 
-xmlparser.set(???, true)
+xmlparser.set("???", true)
 
 xmlparser.set("doctype", "myDocType")
 xmlparser.set("schema", "mySchema")
 xmlparser.parse(???)
 ```
 
-- "disallowDoctypeDec"
+- disallowDoctypeDec
 - untrustedXML
-- "disable"
+- disable
 - parse
-- "secure"
+- secure
 
 
 ---

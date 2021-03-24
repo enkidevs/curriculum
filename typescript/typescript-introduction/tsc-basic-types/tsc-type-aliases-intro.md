@@ -9,15 +9,15 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Introduction to Type Aliases
-
 
 ---
 
@@ -33,7 +33,7 @@ type Language = string;
 type Fun = boolean;
 
 // now we can use the aliases
-let lang: Language = 'TypeScript';
+let lang: Language = "TypeScript";
 let fun: Fun = true;
 ```
 
@@ -51,7 +51,7 @@ type radius = number;
 // "{ r: radius }" type
 // called "Circle"
 type Circle = {
-  r: radius,
+  r: radius;
 };
 
 const PI = 3.14;
@@ -89,7 +89,6 @@ let morgan: NameAndFactTuple = [
 ];
 ```
 
-
 ---
 
 ## Practice
@@ -111,7 +110,6 @@ function logTSFact(): nothing {
 - alias
 - is
 - ==
-
 
 ---
 

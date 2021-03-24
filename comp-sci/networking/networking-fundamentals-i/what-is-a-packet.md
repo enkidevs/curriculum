@@ -9,11 +9,11 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # What is a packet?
@@ -52,9 +52,11 @@ In the latter type of networks, packets are sent over the Internet through *node
 
 Data transmission over the Internet works in the following way:
 
-Original data is split into ??? at the ??? .
+Original data is split into ??? at the ???.
+
 Data is transmitted following protocol rules.
-Data is ??? at the ??? .
+
+Data is ??? at the ???.
 
 - packets
 - source
@@ -71,9 +73,7 @@ Data is ??? at the ??? .
 
 ## Revision
 
-IP packets are usually made out of `header` and
-
-???
+IP packets are usually made out of `header` and ???
 
 - payload
 - protocols

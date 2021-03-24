@@ -11,7 +11,7 @@ notes: ''
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Backgrounding tasks
@@ -47,9 +47,7 @@ Or, in case you want to silence the errors:
 
 ## Revision
 
-You can run a command in the background by adding 
-
-??? at the end of it .
+You can run a command in the background by adding ??? at the end of it .
 
 - `&`
 - `$`

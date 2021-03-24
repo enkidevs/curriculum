@@ -10,11 +10,11 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # DNS Record Format
@@ -50,9 +50,7 @@ The question section of a DNS message must always contain at least one entry -- 
 
 ## Revision
 
-The existence of a record in the ___ section of a DNS message means that the server in question does not know the answer to the query, but knows of a better server to ask.
-
-???
+The existence of a record in the ??? section of a DNS message means that the server in question does not know the answer to the query, but knows of a better server to ask.
 
 - authority
 - question

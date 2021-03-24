@@ -13,7 +13,7 @@ practiceQuestion:
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Make use of `ss`
@@ -99,9 +99,7 @@ u_seq ESTAB  0      0     @0001c 30591
 
 ## Practice
 
-The explicit number of TCP connections is part of
-
-???'s output.
+The explicit number of TCP connections is part of ???'s output.
 
 - `ss -s`
 - `ss -a`

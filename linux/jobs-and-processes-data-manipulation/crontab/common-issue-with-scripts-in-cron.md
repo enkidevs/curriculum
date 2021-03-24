@@ -17,7 +17,7 @@ revisionQuestion:
   context: relative
 ---
 
-# Common issue with scripts in `cron`
+# Common issue with scripts in cron
 
 
 ---

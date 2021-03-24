@@ -5,7 +5,7 @@ category: must-know
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Binary Expression Tree

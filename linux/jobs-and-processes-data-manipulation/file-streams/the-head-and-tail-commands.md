@@ -8,7 +8,7 @@ revisionQuestion:
   context: relative
 ---
 
-# The `head` And `tail` Commands
+# The head And tail Commands
 
 
 ---

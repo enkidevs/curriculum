@@ -11,7 +11,7 @@ notes: 'https://insights.enki.com/#/contrib/5599d0efef6d014f00958ea6'
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Using an interface as a parameter

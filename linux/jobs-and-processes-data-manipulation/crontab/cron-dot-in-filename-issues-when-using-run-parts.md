@@ -15,7 +15,7 @@ revisionQuestion:
   context: relative
 ---
 
-# `Cron` dot-in-filename issues when using `run-parts`
+# Cron dot-in-filename issues when using run-parts
 
 
 ---

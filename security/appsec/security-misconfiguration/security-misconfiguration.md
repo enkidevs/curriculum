@@ -15,11 +15,11 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Security Misconfiguration
@@ -39,6 +39,7 @@ Think about all of the cloud services you use, and what their settings were when
 ## Practice
 
 Which is a security misconfiguration vulnerability?
+
 ???
 
 - Keeping the default admin user and password active

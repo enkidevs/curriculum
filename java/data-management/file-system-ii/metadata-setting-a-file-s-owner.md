@@ -12,7 +12,7 @@ links:
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Metadata: setting a file's owner
@@ -43,7 +43,7 @@ Files.setOwner(file, owner);
 
 ## Revision
 
-Create a new instance of  `UserPrincipal` for the username `tom`:
+Create a new instance of `UserPrincipal` for the username `tom`:
 
 ```java
 UserPrincipal owner = 

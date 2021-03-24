@@ -7,7 +7,7 @@ tags:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
@@ -74,9 +74,7 @@ What is a `sudoer`?
 
 ## Revision
 
-Running `su` will 
-
-??? .
+Running `su` will ???
 
 - switch to the root account.
 - give you root privileges for the next command.

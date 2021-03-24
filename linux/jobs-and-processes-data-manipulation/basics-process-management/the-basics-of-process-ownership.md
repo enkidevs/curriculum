@@ -5,7 +5,7 @@ category: must-know
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # The Basics of Process Ownership
@@ -34,6 +34,6 @@ Other than the owner of the process, who else has access to it?
 
 ???
 
-- The root
+- Root users
 - No one else
 - All other users
