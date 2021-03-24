@@ -7,7 +7,7 @@ category: how-to
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # The Sparkline Line Chart

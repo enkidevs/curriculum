@@ -12,7 +12,7 @@ category: must-know
 ## Content
 
 Now that we know how to create a filter, let's add a filter that only displays people who are older than `40`, in `ascending` order.
-
+ 
 When you create a filter, it's blank at the start. You need to select how you want to filter your data.
 
 Press on the three green lines highlighted below:

@@ -1,4 +1,4 @@
-﻿---
+---
 author: Stefan-Stojanovic
 
 type: normal
@@ -15,7 +15,7 @@ category: how-to
 The `Conditional formatting` tab is located under `Format` -> `Conditional formatting`.
 
 ![open-conditional-formatting-gif](https://img.enkipro.com/e4f608a59a425ce135debbfc9a99b581.gif)
-
+ 
 After opening it, a new tab called `Conditional format rules` will appear on the right side of the sheet.
 
 ![conditional-format-rules](https://img.enkipro.com/f8d399e2e1b8ec9012880f1dacf89d91.png)

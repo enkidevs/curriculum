@@ -7,11 +7,12 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # CEILING
@@ -62,9 +63,8 @@ What would the output of this function be?
 
 ```plain-text
 =CEILING(19.89)
-```
-
 ???
+```
 
 - 20
 - 19

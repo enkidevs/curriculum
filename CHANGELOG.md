@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## March 24th 2021
+
+### Changed
+- [Spreadsheets - Entire Topic - Add type in the gap to applicable questions](https://github.com/enkidevs/curriculum/pull/2592)
+
 ## March 23rd 2021
 
 ### Changed

@@ -5,7 +5,7 @@ category: how-to
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # How to Extract a Table from a Pivot Table
@@ -31,7 +31,7 @@ Here we have three different tables extracted from the same source data.
 
 ![three-extracted-pivot-tables](https://img.enkipro.com/b8981fdeba86cea84c88206d64f77a03.png)
 
-
+ 
 ---
 
 ## Practice

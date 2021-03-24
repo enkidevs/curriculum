@@ -25,3 +25,4 @@ It's important to note that **what is displayed is not how the data is saved**.
 
 So, if we format a cell to accept time and date and we input `2.25` the displayed value will be `1/1/1900 6:00:00AM`.
  
+ 
