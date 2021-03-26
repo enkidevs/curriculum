@@ -32,7 +32,7 @@ revisionQuestion:
 
 The **Immediately Invoked Function Expression pattern** (**IIFE** or "iffy") is a function expression (either named or anonymous) that is immediately called. 
 
-The syntax is:
+The syntax is[1]:
 
 ```javascript
 (function(){
@@ -62,9 +62,8 @@ For example:
       return "Hello World!";
   }
   global.fun = fun;
-}(window)); // reference to window object
+})(window); // reference to window object
 ```
-
 
 ---
 
@@ -98,3 +97,46 @@ What's the syntax of an **IIFE** ?
 - `name`
 - `call`
  
+---
+
+## Footnotes
+
+[1: IIFE Syntax]
+
+IIFEs have two ways of writing them:
+
+```js
+(function () {
+  console.log('this works');
+}());
+// ^ invocation parenthesis are inside the outer parenthesis
+
+(function () {
+  console.log('so does this');
+})();
+// ^ invocation parenthesis are outside of the outer parenthesis
+```
+
+This code would output (check out this [StackOverflow thread](https://stackoverflow.com/questions/3384504/location-of-parenthesis-for-auto-executing-anonymous-javascript-functions) for more details):
+
+![iife-syntax](https://img.enkipro.com/8b795a7e5766af215d3ceca8b322eb19.png)
+
+In the case of arrow functions however, the placement of the `()` **does matter**.
+
+```js
+(() => {
+  console.log('this does not work');
+}()); // <-- ERROR
+//^ invocation parenthesis are inside the outer parenthesis
+
+(() => {
+  console.log('but this works');
+})();
+// ^ invocation parenthesis are outside of the outer parenthesis
+```
+
+The short answer of why is that the `=>` symbol is read in a different order by JavaScript than the `function` keyword, leading it to *"wrongly"* confuse an IIFE with a a function that returns an invoked object (i.e. `() => {}()`).
+
+See this [StackOverflow answer](https://stackoverflow.com/questions/34589488/es6-immediately-invoked-arrow-function/34589765#34589765) for a more detailed explanation.
+
+Since both regular and arrow function IIFEs work with the `()` outside, it makes more sense to use this syntax.

@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## March 26th 2021
+
+### Added
+- [JavaScript - IIFE Pattern - Add footnote on syntax differences]()
+
 ## March 24th 2021
 
 ### Changed
