@@ -37,7 +37,7 @@ The syntax is:
 ```javascript
 (function(){
     // do something
-}());
+})();
 ```
 
 It is an alternative to:
