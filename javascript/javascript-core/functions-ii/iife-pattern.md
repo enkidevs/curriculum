@@ -117,9 +117,11 @@ IIFEs have two ways of writing them:
 // ^ invocation parenthesis are outside of the outer parenthesis
 ```
 
-This code would output (check out this [StackOverflow thread](https://stackoverflow.com/questions/3384504/location-of-parenthesis-for-auto-executing-anonymous-javascript-functions) for more details):
+This code would output:
 
 ![iife-syntax](https://img.enkipro.com/8b795a7e5766af215d3ceca8b322eb19.png)
+
+Check out this [StackOverflow thread](https://stackoverflow.com/questions/3384504/location-of-parenthesis-for-auto-executing-anonymous-javascript-functions) for more details.
 
 In the case of arrow functions however, the placement of the `()` **does matter**.
 
