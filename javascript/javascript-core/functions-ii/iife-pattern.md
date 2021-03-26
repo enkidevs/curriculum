@@ -103,7 +103,7 @@ What's the syntax of an **IIFE** ?
 
 [1: IIFE Syntax]
 
-IIFEs have two ways of writing them:
+IIFEs can be written in two ways:
 
 ```js
 (function () {
