@@ -51,7 +51,7 @@ Types of change:
 ## March 26th 2021
 
 ### Added
-- [JavaScript - IIFE Pattern - Add footnote on syntax differences]()
+- [JavaScript - IIFE Pattern - Add footnote on syntax differences](https://github.com/enkidevs/curriculum/pull/2665)
 
 ## March 24th 2021
 
