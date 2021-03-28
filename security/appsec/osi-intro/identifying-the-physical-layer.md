@@ -31,8 +31,8 @@ The Physical Layer encompasses all electronic circuit transmission technologies 
 
 These include but are not limited to: 
 
-- switches
 - ethernet
+- network hubs
 - the USB physical layer
 - the Bluetooth physical layer
 - various wireless cards
