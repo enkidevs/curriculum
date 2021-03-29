@@ -51,7 +51,7 @@ Types of change:
 ## March 29th 2021
 
 ### Fixed
-- [Docker - Virtualization - Fix typo]()
+- [Docker - Virtualization - Fix typo](https://github.com/enkidevs/curriculum/pull/2668)
 
 ## March 26th 2021
 
