@@ -5,12 +5,12 @@ category: how-to
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Group Rule in Pivot Tables
 
-
+ 
 ---
 
 ## Content

@@ -4,7 +4,7 @@ type: normal
 category: how-to
 ---
 
-# The `Functions` Menu
+# The Functions Menu
 
 
 ---

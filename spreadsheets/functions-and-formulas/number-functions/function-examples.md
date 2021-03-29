@@ -10,11 +10,13 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Function Example
@@ -70,16 +72,16 @@ Count the values in cells `A1:A6` **only if** they are lower than two.
 ```plain-text
 =???(
   ???,
-  ???
+  "???"
 )
 ```
 
 - COUNTIF
 - A1:A6
-- "<2"
+- <2
 - AVERAGEIF
 - "A1:A6"
-- <2
+- "<2"
 
 
 ---
@@ -91,13 +93,13 @@ Average the values in cells `D2:D8` **only if** they are not equal to one.
 ```plain-text
 =???(
   ???,
-  ???
+  "???"
 )
 ```
 
 - AVERAGEIF
 - D2:D8
-- "<>1"
+- <>1
 - COUNTIF
 - "D2:D8"
-- <>1
+- "<>1"

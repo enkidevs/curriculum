@@ -1,4 +1,4 @@
-﻿---
+---
 author: Stefan-Stojanovic
 
 type: normal
@@ -11,7 +11,7 @@ category: how-to
 
 ---
 ## Content
-
+ 
 ## Single Color Example
 
 Here is a table that highlights dates using 3 different `single color` rules.

@@ -20,7 +20,7 @@ Next, we're going to use the `between` option, which will give us these two fiel
 
 ![two-dates-image](https://img.enkipro.com/97309a2b386f0f95a331dceba520ca83.png)
 
-Let's say we want a date between `1/2000` and `1/2010`.
+Let's say we want a date between `1/2000` and `1/2010`. 
 
 The `On invalid` radio button is used to determine if we should reject the input or just show a warning that the input is wrong.
 

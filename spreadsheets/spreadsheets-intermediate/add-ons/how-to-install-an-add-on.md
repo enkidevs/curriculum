@@ -1,4 +1,4 @@
-﻿---
+---
 author: Stefan-Stojanovic
 
 type: normal
@@ -30,4 +30,4 @@ After you click on the `Get add-ons` button a pop-up window will appear.
 
 ![g-market-place](https://img.enkipro.com/80d0fcb7a92dfeb927791900534382ec.png)
 
-You can either scroll and find the add-on you want or you can search for it in the `Seach` tab.
+You can either scroll and find the add-on you want or you can search for it in the `Seach` tab. 

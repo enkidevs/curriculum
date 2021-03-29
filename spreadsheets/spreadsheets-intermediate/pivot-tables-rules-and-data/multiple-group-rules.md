@@ -1,4 +1,4 @@
-﻿---
+---
 author: Stefan-Stojanovic
 
 type: normal
@@ -29,4 +29,4 @@ This way we can see how much money was earned from products that cost less than 
 
 > 💡 To check which rows/columns have groups, open the `Pivot table editor` and anyone with a group will have "Grouped" at the start of the name. 
 
-![grouped-cards](https://img.enkipro.com/69310ae8ddb71504fc9a71f8ed22e17d.png)
+![grouped-cards](https://img.enkipro.com/69310ae8ddb71504fc9a71f8ed22e17d.png) 

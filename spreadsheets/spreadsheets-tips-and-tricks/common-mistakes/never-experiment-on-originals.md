@@ -5,7 +5,7 @@ category: how-to
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Never Experiment on Your Original Sheet
@@ -44,11 +44,9 @@ All 3 options do the same thing and are recommended when you want to experiment 
 
 ## Practice
 
----
-
 Which of the following is considered best practice?
 
 When testing you should ???.
 
 - create a duplicate in case you need the original again.
-- overwrite the original since you don't need it right then.
+- overwrite the original since you don't currently need it.

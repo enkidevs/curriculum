@@ -5,7 +5,7 @@ category: how-to
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Characteristics of a Formula
@@ -28,7 +28,7 @@ Hovering over this gives us this explanation:
 Error
 Function ADD parameter 1 expects number values. But 'z' is a text and cannot be coerced to a number.
 ```
-
+ 
 
 ---
 
