@@ -7,7 +7,7 @@ category: must-know
 
 links:
   - >-
-    [EXACT Instructions Challenge](https://youtube.com/watch?v=Ct-lOOUqmyY){video}
+    [Exact Instructions Challenge](https://youtube.com/watch?v=Ct-lOOUqmyY){video}
   
 ---
 
