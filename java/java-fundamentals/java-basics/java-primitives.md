@@ -23,10 +23,12 @@ int myIntVariable = 3;
 
 This line tells the program that a field name `myIntVariable` exists, is of type `int` and has an initial value of `3`. As you might have guessed already, `int` is a primitive type.
 
-By type of data held, some of the other existing primitives are:
+By type of data held, the other existing primitives are:
 
 Numerical
 
+- `byte`, which stores numbers in the range of -128 and 127, or 2 to the power of 8, is the smallest numerical data type.
+- `short`, which is the second smallest, can store numbers up to 5 digits long.
 - `long`: unlike `int` which can hold values up to 10 digits long, `long` values can be as long as 19 digits.
 - `float` and `double`, which both store floating point numbers.
 
@@ -40,14 +42,18 @@ Booleans
 
 When initialized, if they aren't given any values, each primitive type will default to:
 
-```java
-int myInt; // default: 0
-long myLong; // default: 0L
-float myFloat; // default: 0.00f
-double myDouble; // default: 0.00d
-char myChar; // default: '\u0000'
-boolean myBoolean; // default: false
-```
+
+| Data Type | Default Value | Bits |
+|----------:|--------------:|------|
+|    byte   |       0       | 2^8  |
+|   short   |       0       | 2^16 |
+|    int    |       0       | 2^32 |
+|    long   |       0L      | 2^64 |
+|   float   |     0.00f     | 2^64 |
+|   double  |     0.00d     | 2^64 |
+|  boolean  |     false     | 2    |
+|    char   |    '\u0000'   | 2^16 |
+
 
 For Java to make the distinction between values of different type, a suffix is needed: `L` for `long`, `f` for `float` and `d` for double. They should be declared as:
 
