@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## March 29th 2021
+
+### Fixed
+- [Docker - Virtualization - Fix typo]()
+
 ## March 26th 2021
 
 ### Added

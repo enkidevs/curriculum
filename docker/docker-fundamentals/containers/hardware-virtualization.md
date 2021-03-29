@@ -26,7 +26,7 @@ revisionQuestion:
 
 Historically, anyone wanting to run software typically had to buy a special type of hardware for every kind of operating system they wanted to support.
 
-Purchasing and aintaining various physical devices was expensive.
+Purchasing and maintaining various physical devices was expensive.
 
 Virtualization was invented as a response to this, enabling software to emulate a particular hardware system. This allowed us to run applications with different hardware requirements on the same physical machine, significantly lowering costs (now we could use less machines).
 
