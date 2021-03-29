@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## March 29th 2021
+
+### Fixed
+- [Docker - Virtualization - Fix typo](https://github.com/enkidevs/curriculum/pull/2668)
+
 ## March 26th 2021
 
 ### Added
@@ -59,6 +64,9 @@ Types of change:
 - [Spreadsheets - Entire Topic - Add type in the gap to applicable questions](https://github.com/enkidevs/curriculum/pull/2592)
 
 ## March 23rd 2021
+
+### Added
+- [Java - Java Primitives - Add missing information about numerical types](https://github.com/enkidevs/curriculum/pull/2663)
 
 ### Changed
 - [TypeScript- Add type-in-the-gap and change context where applicable](https://github.com/enkidevs/curriculum/pull/2604)
