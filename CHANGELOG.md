@@ -66,6 +66,7 @@ Types of change:
 ## March 23rd 2021
 
 ### Added
+- [Coding Intro - Programs and Data - Add youtube video showing instructions for PB and J sandwitch making](https://github.com/enkidevs/curriculum/pull/2660)
 - [Java - Java Primitives - Add missing information about numerical types](https://github.com/enkidevs/curriculum/pull/2663)
 
 ### Changed
