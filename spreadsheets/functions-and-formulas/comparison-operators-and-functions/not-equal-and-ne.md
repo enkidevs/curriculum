@@ -5,10 +5,10 @@ category: how-to
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
-# `<>` & `NE()`
+# <> & NE()
 
 
 ---

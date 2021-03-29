@@ -5,11 +5,11 @@ category: how-to
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Spreadsheet Features I
@@ -25,7 +25,7 @@ There are many *formulas* that can be used to organize, calculate, or find the d
 
 ![red-green-color-rule](https://img.enkipro.com/99d219ca6028911ce05d78355f99cb93.gif)
 
-
+ 
 ---
 
 ## Practice

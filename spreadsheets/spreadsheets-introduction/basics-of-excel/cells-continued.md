@@ -6,7 +6,6 @@ category: how-to
 
 # Cells (Find and Replace)
 
-
 ---
 
 ## Content

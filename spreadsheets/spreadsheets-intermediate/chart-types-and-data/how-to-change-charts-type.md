@@ -5,11 +5,11 @@ category: how-to
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Changing Your Chart's Type
-
+ 
 
 ---
 

@@ -1,4 +1,4 @@
-﻿---
+---
 author: Stefan-Stojanovic
 
 type: normal
@@ -13,7 +13,7 @@ category: how-to
 ## Content
 
 As with the `Horizontal axis`, in the `Vertical axis` tab you can modify the label and its appearance.
-
+ 
 There's more! You can also add a minimum and maximum value for the labels.
 
 By default, the chart always includes all data but you can modify it to your needs.

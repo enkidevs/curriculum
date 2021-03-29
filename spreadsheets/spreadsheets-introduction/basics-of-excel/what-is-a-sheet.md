@@ -25,3 +25,4 @@ To add a new sheet, go to the bottom left corner of the spreadsheet and press th
 
 Right-clicking on a sheet opens a menu where you can rename it, move it, duplicate it, delete it and more.
  
+ 

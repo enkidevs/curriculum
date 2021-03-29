@@ -1,4 +1,4 @@
-﻿---
+---
 author: Stefan-Stojanovic
 
 type: normal
@@ -11,7 +11,7 @@ category: how-to
 
 ---
 ## Content
-
+ 
 The `Color scale` tab is the second tab in the `Conditional format rules` tab. 
 
 ![color-scale](https://img.enkipro.com/9420d7e65ff062e1ce8a3325d780714d.png)
