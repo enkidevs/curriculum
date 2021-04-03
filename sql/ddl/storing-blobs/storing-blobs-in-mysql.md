@@ -25,7 +25,7 @@ revisionQuestion:
 
 There are four *BLOB* types in MySQL:
 
-- `tinyblob`: 1 + 2^8 bytes (0.256 KB)
+- `tinyblob`: 1 + 2^8 bytes (0.256 B)
 - `blob`: 2 + 2^16 bytes (65.5 KB)
 - `mediumblob`: 3 + 2^24 bytes (16.7 MB)
 - `longblob`: 4 + 2^32 bytes (4.2 GB)
