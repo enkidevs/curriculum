@@ -19,11 +19,15 @@ revisionQuestion:
 
 ## Content
 
-When using class components, your state would usually be nested and you'd only have to call `setState()` once. With hooks, you would usually set the state as a singular value `useState('Enki')` but you can also use objects. For example, let's define a state that records the position of a character as well as the size of the screen:
+When using class components, your state would usually be nested and you'd only have to call `setState()` once. 
+
+With hooks, you would usually set the state as a singular value `useState('Enki')` but you can also use objects. For example, let's define a state that records the position of a character as well as the size of the screen:
 
 ```js
 function Char() {
   const [pos, setPos] = useState({ x: 0, y: 0, width: 100, height: 100 });
+  // pos is our state
+  // setPos is our setState
   // ...
 }
 ```
