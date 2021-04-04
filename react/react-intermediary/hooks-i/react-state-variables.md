@@ -32,12 +32,13 @@ Although nesting state is useful in some cases, let's see what happens when we w
 
 ```js
 function Char() {
-  // ...
+  const [pos, setPos] = useState({ x: 0, y: 0, width: 100, height: 100 });
+
   useEffect(() => {
     function handleCharMovement(e) {
       // We have to spread the state so that
       // we don't lose the width and height
-      setState(state => ({ ...state, x: e.pageX, y: e.pageY }));
+      setPos(state => ({ ...state, x: e.pageX, y: e.pageY }));
     }
     window.addEventListener('charmove', handleCharMovement);
     return () => window.removeEventListener('charmove', handleCharMovement);
@@ -47,7 +48,7 @@ function Char() {
 }
 ```
 
-When updating the state in a function component, we are effectively replacing the entirety of its fields and values. Because we aren't updating the whole `pos` state, we have to spread it using the `setState(state => ({ ...state }))` syntax to ensure that all our fields are kept.
+When updating the state in a function component, we are effectively replacing the entirety of its fields and values. Because we aren't updating the whole `pos` state, we have to spread it using the `setPos(state => ({ ...state }))` syntax to ensure that all our fields are kept.
 
 It is considered good practice to group state variables based on values that tend to change together. In our case, we would group the position into a state variable and the dimension into another one:
 
