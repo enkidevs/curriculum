@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## April 6th 2021
+
+### Changed
+- [React - One or many state variables - Make the example clearer](https://github.com/enkidevs/curriculum/pull/2672)
+
 ## March 29th 2021
 
 ### Fixed
