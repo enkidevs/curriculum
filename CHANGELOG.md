@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## April 9th 2021
+
+### Fixed
+- [Python Data Analysis - Movie and Tv Show Count - Fix misspelled variable output](https://github.com/enkidevs/curriculum/pull/2674)
+
 ## April 6th 2021
 
 ### Changed
