@@ -50,6 +50,9 @@ Types of change:
 
 ## April 13th 2021
 
+### Fixed
+- [Python - Change python coding to discussion back](https://github.com/enkidevs/curriculum/pull/2676)
+
 ### Changed
 - [Python - Change python discussions to coding](https://github.com/enkidevs/curriculum/pull/2675)
 
