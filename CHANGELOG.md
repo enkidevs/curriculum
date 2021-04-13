@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## April 13th 2021
+
+### Changed
+- [Python - Change python discussions to coding](https://github.com/enkidevs/curriculum/pull/2675)
+
 ## April 9th 2021
 
 ### Fixed
