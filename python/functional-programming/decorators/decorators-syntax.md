@@ -1,25 +1,28 @@
 ---
 author: mihaiberq
-
-levels:
-  - beginner
-
-aspects:
-  - introduction
-  - workout
-
 type: normal
-
 category: feature
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Decorators syntax
 
+
 ---
+
 ## Content
 
 Now that you are familiar with the concept of decorators, we can talk about ways you'll see them in practice. With regard to syntax, Python specific decorator's symbol is `@`. Looking at the previous example:  
+
 ```python
 def say_hello(name):
   return "Hello, {0}!".format(name)
@@ -30,7 +33,9 @@ def h2_decorate(string_function):
   return func_wrapper
 hello_wrapper = h2_decorate(say_hello)
 ```
+
 We can shorten the code and get rid of the variable assignment by introducing the `@` notation:
+
 ```python
 def h2_decorate(string_function):
   def func_wrapper(name):
@@ -45,7 +50,9 @@ def say_hello(name):
 print(say_hello("Mike"))
 # <h2>Hello, Mike!<h2>
 ```
+
 As you can see, the function is decorated, without the need of an explicit `h2_decorate` binding. This shorthand notation is also useful in case of multiple decorators being used (`div_decorate` wraps a string in `div` tags):
+
 ```python
 # variable assignment
 def say_hello(name):
@@ -61,15 +68,19 @@ def say_hello(name):
   return "Hello, {0}!".format(name)
 print(say_hello("Mike"))
 ```
+
 Both approaches will result in:
+
 ```html
 <div><h2>Hello, Mike!</h2></div>
 ```
+
 ### Passing arguments
 
 In our case, all the decorators do is wrap a string in tags. This example is simple and straightforward and this might not always be the case. As the outcome is similar for both our decorators (*div* and *h2*), we can take advantage of another feature: passing arguments to the decorator function through `@` notation.
 
 However, this syntax requires an additional enclosing function, as the **decorator** itself should only receive the function to be decorated as its sole parameter:
+
 ```python
 def tags_wrapper(tag):
   def func_decorator(string_function):
@@ -94,10 +105,13 @@ print(say_goodbye("Mike"))
 # <h2><em>Goodbye, Mike!<em></h2>
 ```
 
+
 ---
+
 ## Practice
 
 Which of the following is `not` a potential valid way of decorating the function `foo`?
+
 ```python
 # A
 foo = decorator(foo)
@@ -116,18 +130,22 @@ def foo():
 
 
 ```
+
 ???
 
-* C
-* D
-* A
-* B
-* they are all valid
+- C
+- D
+- A
+- B
+- they are all valid
+
 
 ---
+
 ## Revision
 
 Which of the following is `not` a potential valid way of decorating the function `foo`?
+
 ```python
 # A
 @decorator
@@ -144,12 +162,12 @@ def decorator():
   def foo():
     ...
 ```
+
 ???
 
-* D
-* C
-* A
-* B
-* they are all valid
-
+- D
+- C
+- A
+- B
+- they are all valid
  

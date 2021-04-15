@@ -1,33 +1,27 @@
 ---
 author: pawel
-
-levels:
-
-  - basic
-
-  - medium
-
 type: normal
-
 category: must-know
-
-aspects:
-
-  - introduction
-
 tags:
-
   - hashmap-hashtable
-
 links:
+  - >-
+    [javahungry.blogspot.com](http://javahungry.blogspot.com/2014/03/hashmap-vs-hashtable-difference-with-example-java-interview-questions.html){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+---
 
-  - '[javahungry.blogspot.com](http://javahungry.blogspot.com/2014/03/hashmap-vs-hashtable-difference-with-example-java-interview-questions.html){website}'
+# Difference between `HashMap` and `Hashtable`
+
 
 ---
 
-# Difference between ```HashMap``` and ```Hashtable```
-
----
 ## Content
 
 Both `HashMap` and `Hashtable` implement Map interface but there are some significant differences between them. 
@@ -36,26 +30,30 @@ Both `HashMap` and `Hashtable` implement Map interface but there are some signif
 
 `Hashtable` is also **synchronized** which means it is thread-safe and `Hashtable` instances can be accessed by multiple threads.
 
+
 ---
+
 ## Practice
 
 Which one of the following classes is synchronized?
 
 ???
 
-* `Hashtable` 
-* `HashMap` 
-* `both` 
-* `none`
+- `Hashtable` 
+- `HashMap` 
+- `both` 
+- `none`
+
 
 ---
+
 ## Revision
 
 Which one of the following classes allow `null` values as keys?
 
 ???
 
-* `HashMap` 
-* `Hashtable` 
-* `both` 
-* `none`
+- `HashMap` 
+- `Hashtable` 
+- `both` 
+- `none`

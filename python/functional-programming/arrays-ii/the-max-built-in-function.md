@@ -1,42 +1,32 @@
 ---
 author: stefkn
-
-levels:
-
-  - beginner
-
-  - basic
-
-  - medium
-
 type: normal
-
 category: must-know
-aspects:
-  - introduction
-  - workout
-  - deep
-standards:
-
-  python.data-structures-uses.0: 10
-  python.data-structures-uses.1: 10
-  python.native-types-operations.3: 10
-  python.use-iteration-protocol.1: 10
-
 links:
+  - >-
+    [Python
+    max()](https://www.programiz.com/python-programming/methods/built-in/max){website}
+  - >-
+    [Python 3.3
+    Documentation](https://docs.python.org/3.3/library/functions.html#max){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+---
 
-  - '[Python max()](https://www.programiz.com/python-programming/methods/built-in/max){website}'
-  - '[Python 3.3 Documentation](https://docs.python.org/3.3/library/functions.html#max){website}'
+# The max Function
 
 
 ---
 
-# The `max` Built-in Function
-
----
 ## Content
 
-The `max` function returns the largest item in an iterable object, or, the largest of two or more parameters given to it. The general syntax follows the form:
+The `max` built-in function returns the largest item in an iterable object, or, the largest of two or more parameters given to it. The general syntax follows the form:
 
 ```python
 max(iterable, *iterables [,key, default])
@@ -83,7 +73,9 @@ print(max(num1, num2, key=len))
 # result = [12, 12, 12, 30, 30, 90]
 ```
 
+
 ---
+
 ## Practice
 
 Let's say we have some queues of customers being served pizza. We want to know which queue will be the fastest.
@@ -102,15 +94,16 @@ print(???(queue1,
           key=lambda x: ???/???))
 ```
 
+- max
+- sum(x)
+- len(x)
+- queue
+- map(x)
+- min(x)
 
-* max
-* sum(x)
-* len(x)
-* queue
-* map(x)
-* min(x)
 
 ---
+
 ## Revision
 
 What is the result of executing the following code snippet in Python 3?
@@ -122,13 +115,16 @@ print(max(list3))
 
 ???
 
+- TypeError
+- 'xyz'
+- 'zzz'
+- 4
 
-* TypeError
-* 'xyz'
-* 'zzz'
-* 4
 
 ---
+
 ## Footnotes
+
 [1:Key]
 *This is exactly the same as the way keys are used in other built-in functions such as `sort` etc. For more information see the lesson on the `sorted` and `sort` functions.*
+ 

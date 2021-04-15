@@ -1,42 +1,31 @@
 ---
 author: jfarmer
-
-levels:
-
-  - beginner
-
-  - basic
-
-  - medium
-
-  - advanced
-
 type: normal
-
-category: how to
-
-aspects:
-
-  - deep
-
-  - workout
-
+category: how-to
 links:
-
-  - '[Validating a BST](http://stackoverflow.com/questions/499995/how-do-you-validate-a-binary-search-tree){website}'
-
-parent: the-binary-search-tree-data-structure
-
+  - >-
+    [Validating a
+    BST](http://stackoverflow.com/questions/499995/how-do-you-validate-a-binary-search-tree){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
 # Verifying A Binary Search Tree
 
+
 ---
+
 ## Content
 
 Sometimes we might have a binary tree and want to verify whether it is organized as a binary search tree.  The naive algorithm — traverse the tree, checking at every node whether the node contains a value larger than the value at the left child and smaller than the value on the right child — does not always work. Consider the following tree:
 
-![verifybst](https://img.enkipro.com/7cfc4b31c46131c9b2802142a819989b.png)
+![verifybst](https://img.enkipro.com/7c8b9ec3c166ca7d190807df1e37e575.png)
 
 At each node, the left child is smaller and the right child is greater, but this tree is still not a BST since `5` is less than `20` but is in its right sub-tree.  Instead, we have to make sure that every node in the left sub-tree is smaller than the current node and every node in the right sub-tree is greater than the current node.
 
@@ -47,7 +36,7 @@ Phrased another way:
 
 We can check this recursively using the following pseudo-code:
 
-```text
+```plain-text
 function isBST(root, minKey, maxKey)
   if root is empty then
     return true
@@ -69,11 +58,14 @@ We should pass in the smallest-possible value for `minKey` and the largest-possi
 
 **Note:** What those values are depends on the type of information being stored in the BST and the specific language in which the BST is being implemented. If we were to implement the BST in C and store integers, then we might pass in the `INT_MIN` and `INT_MAX` constants as initial values. If we were to implement it in JavaScript and store numerical values, then we might pass in `-Infinity` and `Infinity` as initial values.
 
+
 ---
+
 ## Practice
 
 Is the following a *binary search tree*?
-```
+
+```plain-text
           15
         /    \
        10    18
@@ -83,19 +75,19 @@ Is the following a *binary search tree*?
 
 ???
 
-* No
-* Yes
+- No
+- Yes
+
 
 ---
+
 ## Revision
 
 A node in a binary search tree has to be
 
 ???
 
-* larger than any node in its left subtree and smaller than any node in the right one.
-* larger than its left child and smaller than its right one.
-* larger than the root and smaller than the right-most leaf.
-* larger than any node in its right subtree and smaller than any node in the left one.
-
-
+- larger than any node in its left subtree and smaller than any node in the right one.
+- larger than its left child and smaller than its right one.
+- larger than the root and smaller than the right-most leaf.
+- larger than any node in its right subtree and smaller than any node in the left one.

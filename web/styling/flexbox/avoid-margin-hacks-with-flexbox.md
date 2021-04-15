@@ -1,34 +1,28 @@
 ---
 author: jordanfish
-
-levels:
-
-  - basic
-
-  - advanced
-
-  - medium
-
 type: normal
-
-category: best practice
-
-aspects:
-  - introduction
-  - workout
-  - deep
-
+category: best-practice
 links:
-
   - '[CSS Pro Tips](https://github.com/AllThingsSmitty/css-protips){website}'
-  - '[MDN Docs on Flexbox](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox){documentation}'
+  - >-
+    [MDN Docs on
+    Flexbox](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
+---
+
+# Avoid margin hacks with flexbox
 
 
 ---
 
-# Avoid margin hacks with `flexbox`
-
----
 ## Content
 
 When working with column gutters you can get rid of `nth-`, `first-`, and `last-child` hacks by using `flexbox`'s `space-between` property:
@@ -43,6 +37,7 @@ When working with column gutters you can get rid of `nth-`, `first-`, and `last-
   flex-basis: 25%;
 }
 ```
+
 Consider the following image:
 
 ![HtmlToSvg.svg](https://img.enkipro.com/5836b46acee2d764e8ee4efb1b8cb8dd.png)
@@ -53,19 +48,23 @@ To do that without `flexbox`, you would have to set `margin-left` of every colum
 
 The column gutters in the second row are inside a `flex` container, with `justify-content: space-between` property. This way, they will always appear evenly spaced.
 
+
 ---
+
 ## Practice
 
 Which element should have `display: flex` property in order for the gutters to be equally distributed?
 
 ???
 
-* The container.
-* Every column gutter.
-* Every column gutter but the first.
-* The html document.
+- The container.
+- Every column gutter.
+- Every column gutter but the first.
+- The html document.
+
 
 ---
+
 ## Revision
 
 Which `flexbox` property can be used to get rid of `nth-`, `first-` and `last-child` column gutter hacks?
@@ -77,9 +76,8 @@ Which `flexbox` property can be used to get rid of `nth-`, `first-` and `last-ch
 }
 ```
 
-
-* `space-between`
-* `flex`
-* `display-flex`
-* `content-box`
-* `space-flex`
+- `space-between`
+- `flex`
+- `display-flex`
+- `content-box`
+- `space-flex`

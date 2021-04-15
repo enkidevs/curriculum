@@ -1,7 +1,5 @@
 name: Database Clients
-
 description: Clients for SQL
-
 insights:
   - connection-strings
   - gui-client
@@ -9,5 +7,6 @@ insights:
   - python-database-packages
   - node-database-packages
   - java-database-packages
- 
+aspects:
+  - workout
  

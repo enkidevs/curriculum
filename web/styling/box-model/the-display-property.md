@@ -1,30 +1,29 @@
 ---
 author: mihaiberq
-
-levels:
-  - beginner
-
 type: normal
-
-aspects:
-  - introduction
-  - workout
-  - deep
-
 category: must-know
-
-inAlgoPool: false
-
 links:
-  - '[Scrimba CSS Width and Height](https://scrimba.com/p/pWvwCg/cPvRvAV){website}'
-  - '[MDN Docs on Display](https://developer.mozilla.org/en-US/docs/Web/CSS/display){documentation}'  
+  - >-
+    [Scrimba CSS Width and
+    Height](https://scrimba.com/p/pWvwCg/cPvRvAV){website}
+  - >-
+    [MDN Docs on
+    Display](https://developer.mozilla.org/en-US/docs/Web/CSS/display){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+---
+
+# The display Property
 
 
 ---
 
-# The `display` Property
-
----
 ## Content
 
 Alongside `box-sizing`, another important property that sets how much space an element should occupy is `display`.
@@ -41,25 +40,29 @@ Even though most browsers have the same default `display` values for HTML elemen
 
 The `none` value of `display` is also worth mentioning. In this case, the browser will behave like the element doesn't exist in the document tree and  won't be rendered at all. When used, the element's descendants also have their display turned off.
 
+
 ---
+
 ## Practice
 
 Which of the following elements does not accept top and bottom margin?
 
 ???
 
-* Inline
-* Block
-* Inline-block
-* Those that have `display:none`
+- Inline
+- Block
+- Inline-block
+- `Those that have display:none`
+
 
 ---
+
 ## Revision
 
 How does `display:none` affect the element's descendants?
 
 ???
 
-* They won't be displayed either.
-* It does not affect them.
-* They will be invisible, but clickable.
+- They won't be displayed either.
+- It does not affect them.
+- They will be invisible, but clickable.

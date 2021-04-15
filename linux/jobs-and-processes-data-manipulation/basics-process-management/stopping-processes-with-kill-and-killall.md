@@ -1,33 +1,26 @@
 ---
 author: jfarmer
-
-levels:
-
-  - basic
-
-  - beginner
-
-aspects:
-  - introduction
-  - workout
-
 type: normal
-
 category: tip
-
-inAlgoPool: false
-
-
 links:
-
-  - '[Kill signals](http://tldp.org/LDP/Bash-Beginners-Guide/html/sect_12_01.html){website}'
-
-
+  - >-
+    [Kill
+    signals](http://tldp.org/LDP/Bash-Beginners-Guide/html/sect_12_01.html){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
 # Stopping Processes With `kill` And `killall`
 
+
 ---
+
 ## Content
 
 Oftentimes we want to kill a process that is consuming too many resources or has otherwise become unresponsive.  The two most common tools for this are `kill` and `killall`.
@@ -37,11 +30,10 @@ The `kill` command expects to be given a process ID (or PID), which can be found
 Consider the following output from `ps`:
 
 ```shell
-$ ps
+ps
   PID TTY           TIME CMD
 20735 ttys000    0:00.10 -bash
  3086 ttys002    0:00.70 -bash
-$
 ```
 
 We have two `bash` processes running, one with PID `20735` and one with PID `3086`.  Running `kill 3086` would cause the operating system to send a "graceful shutdown" signal to that specific `bash` process, while `killall bash` would cause the operating system to terminate *every* `bash` process.
@@ -63,30 +55,31 @@ The `kill -9` or `killall -9` commands are *very* aggressive, roughly equivalent
 
 As a best practice, always try `kill PID` before trying `kill -9 PID`.
 
+
 ---
+
 ## Practice
 
 Match with the correct argument:
-```
-$ kill ???
-$ killall ???
+
+```plain-text
+kill ???
+killall ???
 ```
 
-* `processID`
-* `processname`
-* `taskID`
-* `username`
+- `processID`
+- `processname`
+- `taskID`
+- `username`
+
 
 ---
+
 ## Revision
 
-Force killing a process is done by attaching a 
+Force killing a process is done by attaching a ??? code.
 
-??? code.
-
-* -9
-* -2
-* -3
-* -7
-
- 
+- `-9`
+- `-2`
+- `-3`
+- `-7`

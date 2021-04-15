@@ -1,38 +1,24 @@
 ---
 author: koenvanlent
-
-levels:
-
-  - basic
-
-  - beginner
-
 type: normal
-
-category: how to
-
-aspects:
-  - introduction
-
+category: how-to
 tags:
-
   - fonts
-
   - css
-
   - font-family
-
-
 links:
-
   - '[Google Fonts](https://www.google.com/fonts){website}'
-
-
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
 # A great font resource: Google Font API
 
+
 ---
+
 ## Content
 
 The Google Font API is an easy and useful source for fonts.
@@ -66,15 +52,16 @@ font-weight: 300; /*if available
 
 Voila, you are done!
 
+
 ---
+
 ## Revision
 
 Once you've chosen a font, add the ??? to your HTML and the ??? to your element in CSS.
 
-
-* stylesheet link
-* font-family
-* font name
-* Google font database
-* Google font API
-* font description
+- stylesheet link
+- font-family
+- font name
+- Google font database
+- Google font API
+- font description

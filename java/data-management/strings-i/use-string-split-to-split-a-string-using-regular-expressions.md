@@ -1,37 +1,20 @@
 ---
 author: adamMontgomerie
-
-levels:
-
-  - basic
-
-  - advanced
-
-  - medium
-
 type: normal
-
 category: tip
-
-aspects:
-
-  - introduction
-
 tags:
-
   - strings
-
   - substrings
-
 links:
-
-  - '[docs.oracle.com](https://docs.oracle.com/javase/tutorial/java/data/manipstrings.html){website}'
-
+  - >-
+    [docs.oracle.com](https://docs.oracle.com/javase/tutorial/java/data/manipstrings.html){website}
 ---
 
 # Use `String.split()` to split a string using regular expressions
 
+
 ---
+
 ## Content
 
 `split` takes a regular expression and splits the string around occurrences of this expression into an array of strings.
@@ -68,9 +51,13 @@ Splitting on `\d`:
 
 Java’s split method ignores any trailing empty Strings.
 
+
 ---
-## Quiz 
+
+## Quiz
+
 ### how does string splitting work?
+
 
 What's the value of `l`?
 
@@ -81,7 +68,7 @@ What's the value of `l`?
 
  ???
 
-* 13
-* 10
-* 16
-* 12
+- 13
+- 10
+- 16
+- 12

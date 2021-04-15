@@ -9,6 +9,7 @@ insights:
   - min-and-max-clauses
   - distinct-clause
   - avg-clause
+  - aggregate-queries-discussion-insight
 
 exercises:
   - sql-practice-aggregate-single-table
@@ -17,5 +18,6 @@ exercises:
   - sql-practice-aggregate-table-max-filter
   - sql-practice-aggregate-group
   - sql-practice-aggregate-average
- 
- 
+
+aspects:
+  - workout

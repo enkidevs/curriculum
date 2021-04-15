@@ -1,37 +1,30 @@
 ---
 author: adamMontgomerie
-
-levels:
-
-  - medium
-
 type: normal
-
-category: best practice
-
-aspects:
-
-  - workout
-
-  - deep
-
+category: best-practice
 tags:
-
   - exceptions
-
   - junit-4
-
   - testing
-
 links:
-
-  - '[stackoverflow.com](http://stackoverflow.com/questions/2635839/junit-confusion-use-extend-testcase-or-test){website}'
-
+  - >-
+    [stackoverflow.com](http://stackoverflow.com/questions/2635839/junit-confusion-use-extend-testcase-or-test){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # JUnit: prefer `@Test` over `extends TestCase`
 
+
 ---
+
 ## Content
 
 Before JUnit 4, test classes needed to be written by extending the `TestCase` class, like this:
@@ -64,7 +57,9 @@ One advantage of this notation is that it can be extended to test for exceptions
   FileNotFoundException.class)
 ```
 
+
 ---
+
 ## Practice
 
 Complete the code below such that the test expects the specified error to be thrown:
@@ -74,22 +69,24 @@ Complete the code below such that the test expects the specified error to be thr
    FileNotFoundException.class);
 ```
 
-* `@Test`
-* `expected`
-* `expect`
-* `Test`
-* `throw`
-* `thrown`
-* `TestCase`
+- `@Test`
+- `expected`
+- `expect`
+- `Test`
+- `throw`
+- `thrown`
+- `TestCase`
+
 
 ---
+
 ## Revision
 
 Instead of extending `TestCase` , since JUnit 4 you can use:
 
 ???
 
-* `@Test`
-* `Test`
-* `@TestCase`
-* `@Testing`
+- `@Test`
+- `Test`
+- `@TestCase`
+- `@Testing`

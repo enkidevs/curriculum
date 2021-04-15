@@ -1,29 +1,27 @@
 ---
 author: alexjmackey
-
-levels:
-  - medium
-  - advanced
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-  - new
-  - workout
-
-inAlgoPool: false
-
 links:
-  - '[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Iteration_protocols){website}'
-  - '[link to learn more](https://enki.com){website}'
-
+  - >-
+    [Iteration
+    protocols](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Iteration_protocols){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
+
 # Iterator Protocol
 
+
 ---
+
 ## Content
 
 In our previous example above we have not implemented all of the iterator protocol or agreement.
@@ -47,7 +45,7 @@ Let’s modify our return statement to use this:
 return {
   next: function() {
     if (nextIndex < num.length) {
-      var valueToReturn = num[nextIndex];
+      let valueToReturn = num[nextIndex];
       nextIndex++;
       return {
         value: valueToReturn,
@@ -60,7 +58,9 @@ return {
 };
 ```
 
+
 ---
+
 ## Practice
 
 Fill in the following code expressing the iteration protocol in JavaScript:
@@ -71,24 +71,26 @@ Iterator {
 }
 ```
 
-* next
-* value, done
-* done
-* value
-* getAll
-* get
-* show
-* advance
-* isFinished
+- next
+- value, done
+- done
+- value
+- getAll
+- get
+- show
+- advance
+- isFinished
+
 
 ---
+
 ## Revision
 
 Which of the following is not part of the iteration protocol?
 
 ???
 
-* a method to get all the items at once (getAll)
-* a method to advance the iteration (next)
-* a way of telling when the iteration is done (done)
+- a method to get all the items at once (getAll)
+- a method to advance the iteration (next)
+- a way of telling when the iteration is done (done)
  

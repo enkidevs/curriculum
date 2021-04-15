@@ -6,8 +6,6 @@ description: How to write HTML code.
 
 section: 0
 
-parent: web-introduction
-
 insights:
   - html-structure-define
   - elements
@@ -18,3 +16,6 @@ insights:
 exercises:
   - html-comment-codepen-exercise
   - html-element-attribute-codepen-exercise
+
+aspects:
+  - introduction

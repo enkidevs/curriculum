@@ -6,16 +6,18 @@ core: true
 
 sections:
   '0':
+    - intro-git
     - getting-started
     - commits
-    - fundamentals
+    - git-fundamentals
     - local-repository
     - remote-repository
     - branching
   '1':
-    - features-i
-    - features-ii
-    - features-iii
+    - git-features-i
+    - git-features-ii
+    - git-features-iii
+    - git-features-iv
 
 next:
   - git:workflow

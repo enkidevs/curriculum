@@ -1,32 +1,28 @@
 ---
 author: mihaiberq
-
-levels:
-
-  - beginner
-
 type: normal
-
 category: must-know
-
-inAlgoPool: false
-
-standards:
-  web.syntax-html.0: 10
-  web.markup-text.0: 10
-  web.markup-text.2: 10
-
-aspects:
-  - introduction
-
 links:
-  - '[MDN](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Creating_hyperlinks){documentation}'
-
+  - >-
+    [Creating
+    Hyperlinks](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Creating_hyperlinks){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Hyperlinks
 
+
 ---
+
 ## Content
 
 **Hyperlinks**, or links as they are commonly called, represent the way to click either text or images to tell the browser to move to another web page. Links can also open certain files, open user's email program, or even jump to different locations of a web page.
@@ -48,39 +44,47 @@ href="http://enki.com/samples/page.html">
 </a>'s website.</p>
 ```
 
-![link-text](https://img.enkipro.com/8ffc6087d2e832fc2ae2066d70455afa.png)
+![link-text](https://img.enkipro.com/2de7065475dfbb87f0f827bd0d63c945.png)
 
 [View CodePen](https://codepen.io/enkidevs/pen/RBKobx)
 
 When links are used with text, such as headings and paragraphs, the text links use most of the style properties of that text (like the font family, font size, font weight) with a few changes:
 
-* link text is blue by default. (`color: #0000EE;`)
-* link text has a text decoration with an underline. (`text-decoration: underline;`)
+- link text is blue by default. (`color: #0000EE;`)
+- link text has a text decoration with an underline. (`text-decoration: underline;`)
+
 
 ---
+
 ## Practice
 
 Complete the following snippet in order for it to be valid:
+
 ```html
 <??? ???="http://mywebsite.com">
   My website
 <???>
 ```
 
-* `a`
-* `href`
-* `/a`
-* `style`
-* `p`
-* `link`
+- `a`
+- `href`
+- `/a`
+- `style`
+- `p`
+- `link`
 
 
 ---
+
 ## Revision
 
-The tag denoting a hyperlink is ???.
+The tag denoting a hyperlink is:
 
-* `<a>`
-* `<p>`
-* `<body>`
-* `<div>`
+```html
+???
+```
+
+- `<a>`
+- `<p>`
+- `<body>`
+- `<div>`

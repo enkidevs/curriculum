@@ -1,35 +1,31 @@
 ---
 author: adamMontgomerie
-
-levels:
-
-  - basic
-
 type: normal
-
 category: tip
-
-aspects:
-
-  - introduction
-
 tags:
-
   - lists
-
   - arrays
-
   - collections
-
 links:
-
-  - '[www.javapractices.com](http://www.javapractices.com/topic/TopicAction.do?Id=39){website}'
-
+  - >-
+    [www.javapractices.com](http://www.javapractices.com/topic/TopicAction.do?Id=39){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Use `Arrays.asList()` to initialise lists
 
+
 ---
+
 ## Content
 
 Lists can be initialised concisely using `Arrays.asList()`. For example this:
@@ -41,45 +37,53 @@ animals.add("dog");
 animals.add("sea turtle");
 
 ```
+
 can instead be written like this:
+
 ```java
 List<String> animals = Arrays.asList(
 "cat", "dog", "sea turtle");
 
 ```
 
+
 ---
+
 ## Practice
 
-Complete the snippet such that it makes sense:
+Complete the snippet to initialize a list:
+
 ```java
 List<String> enki = 
    ???.???(
    “enki”, “is”, “cool” );
 ```
 
-* `Arrays` 
-* `asList` 
-* `Array` 
-* `List` 
-* `asArray` 
-* `asArrayList` 
-* `ArrayList`
+- `Arrays` 
+- `asList` 
+- `Array` 
+- `List` 
+- `asArray` 
+- `asArrayList` 
+- `ArrayList`
+
 
 ---
+
 ## Revision
 
-Complete the snippet such that it makes sense:
+Complete the snippet to initialize a list:
+
 ```java
 List<String> myList = 
    Arrays.???(
    “one”, “two”, “three” );
 ```
 
-* `asList` 
-* `ArrayList` 
-* `Array` 
-* `StringList` 
-* `List` 
-* `asArray` 
-* `asArrayList`
+- `asList` 
+- `ArrayList` 
+- `Array` 
+- `StringList` 
+- `List` 
+- `asArray` 
+- `asArrayList`

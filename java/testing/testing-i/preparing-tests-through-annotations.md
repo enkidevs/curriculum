@@ -1,32 +1,24 @@
 ---
 author: catalin
-
-levels:
-
-  - basic
-
-  - advanced
-
-  - medium
-
 type: normal
-
 category: tip
-
-aspects:
-
-  - workout
-
-  - deep
-
 notes: |
   https://insights.enki.com/#/contrib/5594adacabc92e3300233c3b
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
 # Preparing tests through annotations
 
+
 ---
+
 ## Content
 
 As you may have noticed in previous insights, we've used the `@BeforeEach` annotation for describing a `setup()` function. In *JUnit 5*, `@BeforeEach` and `@BeforeAll` (and their equivalent `@AfterEach` and `@AfterAll`) annotations[1] are used to describe functions to be run at the beginning (and at the end) of `@Test` methods.
@@ -51,27 +43,31 @@ If there are multiple methods marked with `@BeforeEach` or `@AfterEach` their or
 
 For more resource intensive activities (opening and closing a database connection), it is recommended to use `@BeforeAll` and `@AfterAll` annotations, hence executing the methods only once.
 
+
 ---
+
 ## Practice
 
-In case you need a _custom set up_ function for a _single test_ in a set, you should
+In case you need a *custom set up* function for a *single test* in a set, you should
 
 ???
 
-* define and call it as a normal method
-* annotate it with `@BeforeAll`
-* annotate it with `@BeforeEach`
-* write a new test
+- define and call it as a normal method
+- `annotate it with @BeforeAll`
+- `annotate it with @BeforeEach`
+- write a new test
+
 
 ---
+
 ## Revision
 
 In JUnit 5, what method will be called only once, before all tests are done?
 
 ???
 
-* `@BeforeAll`
-* `@BeforeClass`
-* `@AfterAll`
-* `@AfterClass`
-* `@Test`
+- `@BeforeAll`
+- `@BeforeClass`
+- `@AfterAll`
+- `@AfterClass`
+- `@Test`

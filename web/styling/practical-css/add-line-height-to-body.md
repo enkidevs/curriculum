@@ -1,30 +1,23 @@
 ---
 author: jordanfish
-
-levels:
-
-  - basic
-
-  - beginner
-
 type: normal
-
-category: how to
-
-aspects:
-  - introduction
-
+category: how-to
 links:
-
   - '[CSS Pro Tips](https://github.com/AllThingsSmitty/css-protips){website}'
-  - '[MDN Docs on Line Height](https://developer.mozilla.org/en-US/docs/Web/CSS/line-height){documentation}'
+  - >-
+    [MDN Docs on Line
+    Height](https://developer.mozilla.org/en-US/docs/Web/CSS/line-height){documentation}
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+---
+
+# Add line-height to body
 
 
 ---
 
-# Add `line-height` to `body`
-
----
 ## Content
 
 Rather than adding `line-height` to each element:
@@ -45,18 +38,21 @@ h2 {
 
 ```
 
-
 Add it to `body` directly:
+
 ```css
 body {
   line-height: 1;
 }
 ```
 
+
 ---
+
 ## Revision
 
 What does the following piece of code do?
+
 ```css
 body {
    font-family: "Arial Narrow";
@@ -65,8 +61,7 @@ body {
 
 ???
 
-
-* Sets the font family to Arial Narrow for all elements in the body.
-* Sets the font family to Arial Narrow for all elements outside the body.
-* Sets the font family to Arial Narrow for the first element in the body,
-* It does nothing.
+- Sets the font family to Arial Narrow for all elements in the body.
+- Sets the font family to Arial Narrow for all elements outside the body.
+- Sets the font family to Arial Narrow for the first element in the body,
+- It does nothing.

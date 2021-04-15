@@ -1,4 +1,4 @@
-name: Networking and Security
+name: Networking & Security
 
 description: Linux does a great job at providing extensibility for network configuration and security management.
 

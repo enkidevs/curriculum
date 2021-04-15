@@ -1,32 +1,30 @@
 ---
 author: Mathieu
-
-levels:
-
-  - basic
-
-  - advanced
-
-  - medium
-
 type: normal
-
-aspects:
-  - introduction
-  - workout
-
 category: caveats
-
 links:
-
-  - '[Vertical Percentage CSS](http://www.impressivewebs.com/vertical-percentages-css/){website}'
-  - '[MDN Docs on Percentage](https://developer.mozilla.org/en-US/docs/Web/CSS/percentage){documentation}'
-
+  - >-
+    [Vertical Percentage
+    CSS](http://www.impressivewebs.com/vertical-percentages-css/){website}
+  - >-
+    [MDN Docs on
+    Percentage](https://developer.mozilla.org/en-US/docs/Web/CSS/percentage){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
 # Vertical percentages are relative to container width, not height
 
+
 ---
+
 ## Content
 
 Width percentage is intuitively calculated based on the width of the container.
@@ -41,14 +39,18 @@ div {
   padding-top: 50%;  /* = 200px */
 }
 ```
+
 Another example:
 
 ![HtmlToSvg.svg](https://img.enkipro.com/13c768bdb4f0d2d17f7b46dbe4bfc84a.png)
 
+
 ---
+
 ## Practice
 
 What is the `margin-top` value in pixels?
+
 ```css
 div {
    width: 300px;
@@ -57,19 +59,21 @@ div {
    /* margin-top: ??? px */
 ```
 
-* `30`
-* `10`
-* `100`
-* `40`
+- `30`
+- `10`
+- `100`
+- `40`
+
 
 ---
+
 ## Revision
 
 Percentages on properties such as *padding-top* and *margin-top* are calculated based on the
 
 ???
 
-* width of the container.
-* height of the container.
-* perimeter of the container.
-* area of the container.
+- width of the container.
+- height of the container.
+- perimeter of the container.
+- area of the container.

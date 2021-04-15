@@ -1,27 +1,12 @@
 ---
 author: mihaiberq
-
-levels:
-
-  - basic
-
-  - medium
-
 type: tetris
-
 category: must-know
-
-aspects:
-
-  - deep
-
-  - workout
-
-parent: primality-test
 
 ---
 
 # Big-Oh, that was the answer!
+
 
 ---
 
@@ -29,7 +14,9 @@ parent: primality-test
 
 Are the following functions' upper bound (Big-Oh) true?
 
+
 ---
+
 ## Game Content
 
 false:true
@@ -73,7 +60,6 @@ The linear function `n` is greater than the constant `6`.
 %
 ```
 
-
 ```false
 n^2 = O(n log n)
 %exp
@@ -100,4 +86,3 @@ n^1000 = O(n)
 The function is equal to `n^3 log n`, which is bigger than `n^2 log n`.
 %
 ```
-

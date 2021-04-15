@@ -1,32 +1,24 @@
 ---
 author: mihaiberq
-
-levels:
-  - beginner
-
 type: normal
-
 category: must-know
-
-standards:
-  javascript.npm-tasks-and-modules-manager.0: 20
-
 tags:
   - introduction
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+---
 
-links:
-  - '[andrewhfarmer.com](http://andrewhfarmer.com/javascript-frontend-package-managers/){website}'
-
-parent: what-is-npm
-
-aspects:
-  - introduction
+# Why Should I Use npm?
 
 
 ---
-# Why should I use npm?
 
----
 ## Content
 
 There are several options when it comes to JavaScript package managers.
@@ -41,28 +33,31 @@ The latest package manager released is **Yarn**. One of the main differences bet
 
 Of these options npm is usually seen as the current best-choice.
 
+
 ---
+
 ## Practice
 
 Which of the following is not a JavaScript package manager?
 
 ???
 
-* webpack
-* npm
-* yarn
-* duo
-* bower
+- webpack
+- npm
+- yarn
+- duo
+- bower
+
 
 ---
+
 ## Revision
 
 A faster alternative package manager to npm is
 
 ???.
 
-* yarn
-* browserify
-* react
-* node
- 
+- yarn
+- browserify
+- react
+- node

@@ -1,50 +1,36 @@
 ---
 author: SebaRaba
-
-levels:
-
-  - beginner
-
-  - basic
-
-  - medium
-
-  - advanced
-
 type: normal
-
 category: must-know
-
-inAlgoPool: false
-
-standards:
-  sql.aggregate-single-table.3: 10
-
 tags:
-
   - workout
-
-
 links:
-
-  - '[More on GROUP BY](https://www.techonthenet.com/sql/group_by.php){documentation}'
-
-parent: order-by-clause
-
-aspects:
-  - workout
-
-
+  - >-
+    [More on GROUP
+    BY](https://www.techonthenet.com/sql/group_by.php){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Group By clause
 
+
 ---
+
 ## Content
 
 The `GROUP BY` clause is often used with aggregate functions (e.g. `SUM`, `AVG`). Syntactically it comes after the `WHERE` clause and before the `ORDER BY` in the *query*. It enables users to group data by one or more columns.
 
 In our Pokemon db, we have a table called `move_name` with the following columns:
+
 - `id` - unique move name id
 - `language_id` - id of the language name is spelled in
 - `move_id`
@@ -61,7 +47,7 @@ GROUP BY language_id;
 Output:
 
 | count | language_id |
-|-------|-------------|
+| ----- | ----------- |
 | 639   | 6           |
 | 639   | 5           |
 | 639   | 8           |
@@ -70,35 +56,43 @@ Output:
 | 617   | 3           |
 | 639   | 7           |
 
+
 ---
+
 ## Practice
 
 We have a table called `pokemon`. In this table there are two fields:
+
 1. `is_default` - Boolean
 2. `name` - String (name of the pokemon)
 
 We want to count how many pokemon are **not** default. Fill in the blanks to complete this query:
+
 ```sql
-SELECT ???(name),???
+SELECT ???(name), ???
 FROM pokemon
 ??? is_default;
 ```
 
 Output:
 
+```md
 | count | is_default |
-|-------|------------|
+| ----- | ---------- |
 | 90    | f          |
 | 721   | t          |
+```
 
-* COUNT
-* is_default
-* GROUP BY
-* AVG
-* SUM
-* name
+- COUNT
+- is_default
+- GROUP BY
+- AVG
+- SUM
+- name
+
 
 ---
+
 ## Revision
 
 `item` is a table with the following columns:  
@@ -107,7 +101,7 @@ Output:
 `item_category_id` - ID category  
 `name` - item's name  
 
-Find the _average cost of items in each category_.
+Find the *average cost of items in each category*.
 
 ```sql
 SELECT ???(cost),item_category_id
@@ -118,8 +112,9 @@ ORDER BY item_category_id;
 
 Output:
 
+```md
 | avg    | item_category_id |
-|--------|------------------|
+| ------ | ---------------- |
 | 550    | 1                |
 | 20     | 2                |
 | 20     | 3                |
@@ -131,12 +126,11 @@ Output:
 | 134.28 | 9                |
 | 1810   | 10               |
 | ...    | ...              |
+```
 
-* AVG
-* item
-* GROUP BY
-* SUM
-* ORDER BY
-* GROUP
- 
- 
+- AVG
+- item
+- GROUP BY
+- SUM
+- ORDER BY
+- GROUP

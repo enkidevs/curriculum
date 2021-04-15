@@ -4,30 +4,30 @@ description: Learn all about data, file and system manipulation.
 
 sections:
   '0':
-    - arrays
+    - java-arrays
     - byte-operations-i
-    - file-management
+    - java-file-management
     - numbers-i
     - numbers-ii
     - strings-i
     - strings-ii
     - strings-iii
+  '1':
     - data-tips-i
     - wildcards-generic-code
     - writing-generic-code
-  '1':
     - buffered-streams
     - data-structures-implementation
+  '2':
     - file-system-i
     - file-system-ii
     - data-tips-ii
-    - tools-i
+    - java-tools-i
     - tools-ii
-  '2':
     - file-system-iii
 
 next:
   - java:testing
 
 prerequisites:
-  - java:fundamentals
+  - java:java-fundamentals

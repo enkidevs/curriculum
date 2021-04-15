@@ -1,29 +1,26 @@
 ---
-author: Nick Daminov
-
-levels:
-
-  - medium
-
+author: nickdaminov
 type: normal
-
-category: how to
-
-aspects:
-
-  - workout
-
-  - deep
-
+category: how-to
 links:
-
-  - '[More on the Thread Class](https://docs.oracle.com/javase/8/docs/api/java/lang/Thread.html){website}'
-
+  - >-
+    [More on the Thread
+    Class](https://docs.oracle.com/javase/8/docs/api/java/lang/Thread.html){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
 # Extending Thread Class
 
+
 ---
+
 ## Content
 
 The easier way of creating a thread is by extending the `Thread` class since we inherit a lot of functionality from it:
@@ -63,7 +60,9 @@ The result of running the above program would be the same as in the previous one
 
 **NOTE:** for better understanding of *threads* please read the *More on the Thread Class* section below.
 
+
 ---
+
 ## Practice
 
 What function should be `Overridden` in a custom thread?
@@ -78,19 +77,21 @@ Should a thread object be passed to an instance of a `Thread` class?
 
 ???
 
-* `run()`
-* `start()`
-* No
-* Yes
-* It does not matter
-* `create()`
+- `run()`
+- `start()`
+- No
+- Yes
+- It does not matter
+- `create()`
+
 
 ---
+
 ## Revision
 
 When we create an object which extends `Thread` do we need to pass this object to an instance of a `Thread` class?
 
 ???
 
-* No, as it is a thread itself
-* Yes, as it is only a runnable object
+- No, as it is a thread itself
+- Yes, as it is only a runnable object

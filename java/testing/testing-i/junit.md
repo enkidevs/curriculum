@@ -1,23 +1,22 @@
 ---
 author: mihaiberq
-
-levels:
-
-  - medium
-
 type: normal
-
 category: must-know
-
-aspects:
-
-  - introduction 
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
 # Intro to JUnit
 
+
 ---
+
 ## Content
 
 **JUnit** is one of the main *unit testing frameworks* written for Java. Testing means verifying that the application as a whole or small parts of it (*units*) behave as expected.
@@ -25,12 +24,13 @@ aspects:
 So, testing with *JUnit* means checking small snippets of code through **assertions**. They are used to make sure that the logic behind a piece of code is not flawed. A single test is called a *test case*. However, as E. W. Dijkstra once said, *testing shows the presence, not the absence of bugs*.
 
 Unit testing comprises:
- - *manual testing*: running each test case by hand
- - *automated testing*: using tools that bundle tests into test suites and running them all at once
+
+- *manual testing*: running each test case by hand
+- *automated testing*: using tools that bundle tests into test suites and running them all at once
 
 One of the most common project structures when including tests (assuming a Maven bundle) is:
 
-```
+```plain-text
 proj/src/main/java/com/users/User.java
 proj/src/test/java/com/users/UserTest.java
 ```
@@ -111,26 +111,30 @@ public class TestRunner {
 You can then run the tests from the command line:
 
 ```bash
-$ javac UserTest.java TestRunner.java
-$ java TestRunner
+javac UserTest.java TestRunner.java
+java TestRunner
 ```
 
+
 ---
+
 ## Practice
 
 In JUnit, code is tested with ???
 
-* assertions
-* equal statements
-* deep equal statements
-* `JUnit.testln()` statements
+- assertions
+- equal statements
+- deep equal statements
+- `JUnit.testln()` statements
+
 
 ---
+
 ## Revision
 
 Setting up a test runner is seen as a type of ??? testing.
 
-* automated
-* manual
-* unit
-* application
+- automated
+- manual
+- unit
+- application

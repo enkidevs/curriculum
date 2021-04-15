@@ -1,33 +1,32 @@
 ---
 author: Stefan-Stojanovic
-
-levels:
-  - beginner
-  - basic
-
 type: normal
-
 category: must-know
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+---
 
-standards:
-  web.metadata.0: 10
+# The meta Element
 
-aspects:
-  - introduction
-  - workout
 
 ---
-# Meta Intro
----
+
 ## Content
 
-In HTML the `<meta>` element is used to describe essentially information about your HTML document or web page. It can contain attributes that share more info about the author, keywords, page description, how to encode your document etc.
+In HTML the `<meta>` element is used to describe essential information about your HTML document or web page. It can contain attributes that share more info about the author, keywords, page description, how to encode your document etc.
 
 The `<meta>` element should always be inside the `<head>` element.
 
 Data within the `<meta>` element will never be displayed on a webpage. However, the data within some of the tags within the `<meta>` element will help improve SEO(Search Engine Optimization). Some of the data will also be displayed in the search engine results.
 
 Here's an example of how metadata is written within an HTML webpage.
+
 ```html
 <head>
  <meta
@@ -51,44 +50,50 @@ Next to the `<meta name="title" content="Page Title">` tag, the `<title>` tag al
 
 **Note:** Google will ignore any meta tags it doesn't recognize.
 
+
 ---
+
 ## Practice
 
 Meta tags do all but which of the following:
 
 ???
 
-* Some of the data can be displayed in the web page.
-* Google will ignore meta tags it doesn't recognize.
-* Are added to the `<head>` of nearly every web page.
-* Are used to provide information to all sorts of clients.
-* Some specific data will display in search engine results.
-* Some of the tags will help improve the pages SEO.
+- Some of the data can be displayed in the web page.
+- Google will ignore meta tags it doesn't recognize.
+- `Are added to the <head> of nearly every web page.`
+- Are used to provide information to all sorts of clients.
+- Some specific data will display in search engine results.
+- Some of the tags will help improve the pages SEO.
+
 
 ---
+
 ## Revision
 
 What is used to provide search engines with information about the content/purpose of the web site?
 
 ???
 
-* metatags
-* cookies
-* reach
-* tracking
-* declaration
+- metatags
+- cookies
+- reach
+- tracking
+- declaration
+
 
 ---
+
 ## Quiz
 
 ### Answer a quick question about the HTML meta element!
+
 
 Can you name three types of the most common meta tags?
 
 ???
 
-* Title, Description and Robots
-* Follow, Advertise and Keyword
-* Facebook, Twitter and Google
-* Title, Keyword and Advertise
- 
+- Title, Description and Robots
+- Follow, Advertise and Keyword
+- Facebook, Twitter and Google
+- Title, Keyword and Advertise

@@ -1,32 +1,30 @@
 ---
 author: Stefan-Stojanovic
-
-levels:
-  - beginner
-  - basic
-
 type: normal
- 
 category: must-know
-
-aspects:
-  - introduction
-  - workout
-  - deep
-
 links:
-  -  '[MDN docs on Global Attributes](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes){website}'
+  - >-
+    [Global Attribute
+    List](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
+
 # Global Attributes 3
+
+
 ---
+
 ## Content
- 
+
 In the previous insight we explained: `contenteditable`, `draggable`, `dropzone ` and `hidden`.  In this one, we will cover: `autocapitalize`, `dir`, `lang`, `spellcheck` and `translate`.
 
 ### autocapitalize
 
 The `autocapitalize` attribute is used to set the automatic capitalization of letters and has 4 possible values; `off` or `none`, `on` or `sentences`, `words` and `characters`.
-  
+
 1. The `off`/`none` value sets the default for all letter to lowercase.
 2. The `on`/`sentences` value sets the first letter of each sentence as capitalized.
 3. The `words` value sets the first letter of every word as capitalized.
@@ -44,6 +42,7 @@ The `dir` attribute is used to set the direction of text and has 3 possible valu
 
 The `lang` attribute is used to define the language of the element.
 Example:
+
 ```html
 <p lang="es">
   ¿Cómo estás?
@@ -66,6 +65,7 @@ The `"no"` value says the content should not be translated.
 
 **Note:** The attribute does not immediately translate the element but rather specifies if it should or should not translate when the user translates the page.
 Example:
+
 ```html
 <p translate="no">
   Contents of this paragraph
@@ -73,7 +73,9 @@ Example:
   </p>
 ```
 
+
 ---
+
 ## Practice
 
 Attribute used to set the language of an element: ???
@@ -84,13 +86,11 @@ Attribute used for setting the direction of text: ???
 
 Attribute used for autocapitalization: ???
 
-
-* lang
-* translate
-* dir
-* autocapitalize
-* language
-* translatetext
-* direction
-* capitalize
-
+- lang
+- translate
+- dir
+- autocapitalize
+- language
+- translatetext
+- direction
+- capitalize

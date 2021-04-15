@@ -1,27 +1,25 @@
 ---
 author: alexjmackey
-
-levels:
-  - beginner
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-  - new
-  - workout
-
-inAlgoPool: false
-
 links:
-  - '[MDN](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Operators/Spread_operator){website}'
-
+  - >-
+    [MDN](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Operators/Spread_operator){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
+
 # Spread (Part 1)
 
+
 ---
+
 ## Content
 
 The spread operator automatically assigns (or spreads out) the contents of an expression to multiple arguments, elements or variables which can save you some tedious assignment code.
@@ -59,7 +57,9 @@ someFunc(...test, ...test);
 
 This saves some tedious and potentially error prone assignment code.
 
+
 ---
+
 ## Practice
 
 Consider the function:
@@ -86,16 +86,18 @@ console.log(
 // 82
 ```
 
-* ...
-* arr1
-* ...arr2
-* arr2
-* ...arr1
-* ,
-* [arr1]
-* [arr2]
+- ...
+- arr1
+- ...arr2
+- arr2
+- ...arr1
+- ,
+- [arr1]
+- [arr2]
+
 
 ---
+
 ## Revision
 
 Complete the following code snippet such that the log statements are correct:
@@ -113,14 +115,14 @@ console.log(??? ???)
 
 ```
 
-* addNumbers(
-* ...
-* arr1)
-* addNumbers
-* (...arr2)
-* arr2)
-* addNumbers(...)
-* addNumbers(arr1)
-* arr2
-* arr1
+- addNumbers(
+- ...
+- arr1)
+- addNumbers
+- (...arr2)
+- arr2)
+- addNumbers(...)
+- addNumbers(arr1)
+- arr2
+- arr1
  

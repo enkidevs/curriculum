@@ -1,37 +1,25 @@
 ---
 author: adamMontgomerie
-
-levels:
-
-  - basic
-
 type: normal
-
 category: must-know
-
-aspects:
-
-  - workout
-
-  - deep
-
 tags:
-
   - generics
-
   - generic-methods
-
   - parameters
-
 links:
-
-  - '[docs.oracle.com](https://docs.oracle.com/javase/tutorial/java/generics/bounded.html){website}'
-
+  - >-
+    [docs.oracle.com](https://docs.oracle.com/javase/tutorial/java/generics/bounded.html){website}
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
 # Using bounded type parameters in generic methods
 
+
 ---
+
 ## Content
 
 Sometimes it may be appropriate to write a generic method, however it will not be possible for it to accept *every* type while still maintaining all the necessary functionality.
@@ -51,7 +39,9 @@ The above method is used to draw a list of shapes. Writing a generic method with
 
 By specifying that `<T extends Shape>` we guarantee that only `Shape` objects can be passed to the method.
 
+
 ---
+
 ## Revision
 
 Declare a generic method that only takes Lists of subclasses of `Dog`:
@@ -65,9 +55,9 @@ public <???>
 }
 ```
 
-* `T extends Dog`
-* `void`
-* `T`
-* `int`
-* `E`
-* `List<Dog>`
+- `T extends Dog`
+- `void`
+- `T`
+- `int`
+- `E`
+- `List<Dog>`

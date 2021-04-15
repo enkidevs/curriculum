@@ -1,35 +1,20 @@
 ---
 author: adamMontgomerie
-
-levels:
-
-  - basic
-
-  - medium
-
 type: normal
-
 category: must-know
-
-aspects:
-
-  - introduction
-
 tags:
-
   - generic-method
-
   - type-inference
-
 links:
-
-  - '[docs.oracle.com](https://docs.oracle.com/javase/tutorial/java/generics/methods.html){website}'
-
+  - >-
+    [docs.oracle.com](https://docs.oracle.com/javase/tutorial/java/generics/methods.html){website}
 ---
 
 # Writing generic methods
 
+
 ---
+
 ## Content
 
 In this example method:

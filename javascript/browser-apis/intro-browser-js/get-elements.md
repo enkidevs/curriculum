@@ -1,42 +1,38 @@
 ---
 author: elliehoward
-
-levels:
-
-  - beginner
-
-  - basic
-
-  - medium
-
-
-aspects:
-
-  - introduction
-
-  - workout
-
-
 type: normal
-
 category: must-know
-
-standards:
-  javascript.dom.4: 10
-
 links:
-
-  - '[MDN - Document.getElementById()](https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById)'
-  - '[MDN - Document.getElementsByClassName()](https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementsByClassName)'
-  - '[MDN - Document.getElementsByTagName()](https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementsByTagName)'
-
+  - >-
+    [MDN -
+    Document.getElementById()](https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById){website}
+  - >-
+    [MDN -
+    Document.getElementsByClassName()](https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementsByClassName){website}
+  - >-
+    [MDN -
+    Document.getElementsByTagName()](https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementsByTagName){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
+
 # Get Elements
+
+
 ---
+
 ## Content
 
 There are a number of ways to select a tag or group of tags on an HTML document using the DOM.
 One of the methods we have seen before, `getElementById`. Here's an example of selecting a tag with the `id` of `'message'`:
+
 ```html
 <html>
 <body>
@@ -55,6 +51,7 @@ var message = document
 ```
 
 Another way to select tags is by tag name with the method `getElementsByTagName`. This will return an array of paragraph tags, even if there is only one.
+
 ```html
 <html>
 <body>
@@ -106,9 +103,11 @@ var blueTags = document
 
 
 ---
+
 ## Practice
 
 Select the element with the id `"title"`:
+
 ```html
 <html>
 <body>
@@ -118,25 +117,25 @@ Select the element with the id `"title"`:
 </p>
 
 <script>
-var title = document.???(???);
+var title = document.???("???");
 </script>
 
 </body>
 </html>
 ```
 
-* `getElementById`
-* `"title"`
-* `title`
-* `getElementsByTagName`
-* `element`
-* `getElementsByClassName`
+- `getElementById`
+- `title`
+- `getElementsByTagName`
+- `element`
+- `getElementsByClassName`
+
 
 ---
+
 ## Revision
 
 Select all paragraph tags.
-???
 
 ```html
 <html>
@@ -160,7 +159,8 @@ All about coffee
 </html>
 ```
 
-* `document.getElementsByTagName('p');`
-* `document.getElementsByName('p');`
-* `document.getElementsByTagName('paragraph');`
- 
+???
+
+- `document.getElementsByTagName('p');`
+- `document.getElementsByName('p');`
+- `document.getElementsByTagName('paragraph');`

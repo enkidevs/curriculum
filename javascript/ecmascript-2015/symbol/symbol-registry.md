@@ -1,29 +1,25 @@
 ---
 author: alexjmackey
-
-levels:
-  - medium
-  - advanced
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-  - new
-  - workout
-  - deep
-
-inAlgoPool: false
-
 links:
-  - '[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol){website}'
-
+  - >-
+    [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
+
 # Symbol Registry
 
+
 ---
+
 ## Content
 
 As we saw earlier even if you create two symbols with the same description/key JavaScript considers them unique.
@@ -56,7 +52,9 @@ You can use the **Symbol.keyFor** method to pass in a symbol and return the desc
 Symbol.keyFor(sym1); //"Enki"
 ```
 
+
 ---
+
 ## Practice
 
 Fill in the gaps such that the logs are correct:
@@ -72,19 +70,21 @@ console.log(Symbol.???(sym1))
 // "enki"
 ```
 
-* for
-* Symbol
-* 'enki'
-* keyFor
-* new
-* "Enki"
-* sym1
-* sym2
-* get
-* access
-* key
+- for
+- Symbol
+- 'enki'
+- keyFor
+- new
+- "Enki"
+- sym1
+- sym2
+- get
+- access
+- key
+
 
 ---
+
 ## Revision
 
 What will be the output of the following expressions?
@@ -100,11 +100,11 @@ console.log(Symbol.keyFor(sym1))
 // ???
 ```
 
-* true
-* "enki"
-* false
-* sym2
-* register
-* new
-* error
+- true
+- "enki"
+- false
+- sym2
+- register
+- new
+- error
  

@@ -1,26 +1,29 @@
 ---
 author: nene
-
-levels:
-  - medium
-
 type: normal
-
-category: how to
-
-aspects:
-  - introduction
-  - workout
-standards:
-  javascript.es6-extensions-standard-library.1: 10
+category: how-to
 links:
-  - '[msdn.microsoft.com](https://msdn.microsoft.com/en-us/library/br212485(v=vs.94).aspx){website}'
-  - '[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray){website}'
-
+  - >-
+    [JavaScript Typed
+    Arrays](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Typed_arrays){documentation}
+  - >-
+    [The TypedArray
+    Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
+
 # Typed Arrays
 
+
 ---
+
 ## Content
 
 Typed arrays are array-like objects providing a mechanism for accessing raw binary data. Usually they're used to implement network protocols, cryptography algorithms, file format manipulations, and so on.
@@ -32,24 +35,26 @@ That's when the view comes in - it provides a data type, starting offset, and nu
 Create a chunk of data 16 bytes long:
 
 ```javascript
-var buffer = new ArrayBuffer(16);
+let buffer = new ArrayBuffer(16);
 ```
 
 Create a view that treats the data as 32-bit signed integers:
 
 ```javascript
-var int32View = new Int32Array(buffer);
+let int32View = new Int32Array(buffer);
 ```
 
 Now the typed array is indexed and accessible:
 
 ```javascript
-for (var i = 0; i < int32View.length; i++) {
+for (let i = 0; i < int32View.length; i++) {
   int32View[i] = i * 2;
 }
 ```
 
+
 ---
+
 ## Practice
 
 What object is used to create a buffer for a typed array?
@@ -60,21 +65,24 @@ What object is used to create a view configured for 32-bit signed integers for a
 
 ???
 
-* ArrayBuffer
-* Int32Array
-* Int32
-* I32Arr
-* Array
-* Buffer
+- ArrayBuffer
+- Int32Array
+- Int32
+- I32Arr
+- Array
+- Buffer
+
 
 ---
+
 ## Revision
 
 What are **Typed Arrays** made of ?
 
 ???
 
-* buffers and views
-* views and streams
-* arrays and buffers
-* iterators and arrays
+- buffers and views
+- views and streams
+- arrays and buffers
+- iterators and arrays
+ 

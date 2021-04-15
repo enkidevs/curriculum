@@ -1,40 +1,34 @@
 ---
 author: SebaRaba
-
-levels:
-
-  - beginner
-
-  - basic
-
-  - medium
-
-  - advanced
-
 type: normal
-
 category: must-know
-
-aspects:
-
-  - deep
-
 links:
-
-  - '[www.quora.com](https://www.quora.com/What-does-an-HTTP-request-looks-like){website}'
-  - '[webaim.org](http://webaim.org/blog/user-agent-string-history/){website}'
-
-parent: http-request
-
+  - >-
+    [What is an "HTTP
+    request"?](https://www.quora.com/What-is-an-HTTP-request){website}
+  - >-
+    [History of the Browser User-Agent
+    String](http://webaim.org/blog/user-agent-string-history/){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
 # A Request Example
 
+
 ---
+
 ## Content
 
 The following is an example of a `POST` request, a consequence of pressing the **Sign in** button to log into our web application:
-```text
+
+```plain-text
 POST /api/auth/login HTTP/1.1
 Host: enkipro.com
 Connection: keep-alive
@@ -70,39 +64,41 @@ The payload contains the data specified by the **client**. In this example, the 
 
 Most modern browsers like **Microsoft Edge** (*F12*), **Mozilla Firefox** (*CTRL/CMD + Shift + J*) or **Chrome** (*CTRL/CMD + Shift + i*) provide a Developer Console accompanied by a *Network* tab where you can take a detailed look on all requests and responses made by your browser.
 
+
 ---
+
 ## Practice
 
-The filetypes that the server should return are specified in the
+The filetypes that the server should return are specified in the ??? header field.
 
-??? header field.
+- Accept
+- User-Agent
+- Accept-Encoding
+- Content-Type
 
-
-* Accept
-* User-Agent
-* Accept-Encoding
-* Content-Type
 
 ---
+
 ## Revision
 
 Within an **HTTP request**, details about the browser are provided by which header field?
 
 ???
 
+- `User-Agent`
+- `Accept`
+- `Referer`
+- `Connection`
 
-* `User-Agent`
-* `Accept`
-* `Referer`
-* `Connection`
 
 ---
+
 ## Footnotes
+
 [1: User-Agent]
-It might seem strange that the first browser in the `User-Agent` field list is `Mozilla` and not `Chrome`. If you bookmark this insight, you will receive a link to an article explaining the reason why.
+It might seem strange that the first browser in the `User-Agent` field list is `Mozilla` and not `Chrome`.
 
 [2: Relative quality factor]
 If this is the first time you encounter the `q=0.8` notation, you should keep in mind that it is used to declare preference (it can take values between *0* and *1*). In this case, we prefer the more specific `en-GB, en-US` (British or American) English variants, rather than a more general English (`en`).
 
 In case `q` isn't present, the option has a default value of `q=1`, equivalent to the most preferred.
-

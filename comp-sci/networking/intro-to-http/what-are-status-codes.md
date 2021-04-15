@@ -1,39 +1,29 @@
 ---
 author: SebaRaba
-
-levels:
-
-  - beginner
-
-  - basic
-
-  - medium
-
-  - advanced
-
 type: normal
-
 category: must-know
-
-aspects:
-
-  - introduction
-
-  - workout
-
 links:
+  - >-
+    [HTTP - Status
+    Codes](https://www.tutorialspoint.com/http/http_status_codes.htm){website}
+  - >-
+    [HTTP Response Status
+    Codes](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+---
 
-  - '[www.tutorialspoint.com](https://www.tutorialspoint.com/http/http_status_codes.htm){website}'
-  - '[msdn.microsoft.com](https://msdn.microsoft.com/en-us/library/windows/desktop/aa383887){website}'
-  - '[developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status){website}'
+# What Are Status Codes?
 
-parent: what-is-an-url
 
 ---
 
-# What are status codes?
-
----
 ## Content
 
 **Status codes** are 3-digit integers, part of the server's response in the HTTP protocol.
@@ -42,7 +32,7 @@ By using URLs and HTTP verbs (more on these in a future workout), a client can m
 
 The *status code* indicates whether the request has been successfully processed or not. The codes are grouped into *five* classes:
 
- - **Informational messages** (`1xx`): This class was introduced in `HTTP/1.1` and indicates that everything is OK so far and that the client can continue with the request.
+- **Informational messages** (`1xx`): This class was introduced in `HTTP/1.1` and indicates that everything is OK so far and that the client can continue with the request.
 
 - **Success messages** (`2xx`): These ones tell the client that the request was acknowledged and successfully processed.
 
@@ -52,31 +42,31 @@ The *status code* indicates whether the request has been successfully processed 
 
 - **Server-error messages** (`5xx`): They show that the server failed to process the request.
 
+
 ---
+
 ## Practice
 
 What is the first digit of the status code for a **successfully processed request**?
 
 ???
 
+- `2`
+- `1`
+- `5`
+- `3`
+- `4`
 
-* `2`
-* `1`
-* `5`
-* `3`
-* `4`
 
 ---
+
 ## Revision
 
 If the client gets a `5xx` status code, it means that
 
 ???
 
-
-* the server failed to process the request
-* the request was processed successfully
-* the requested resource can be found at another address
-* everything is OK so far
-
-
+- the server failed to process the request
+- the request was processed successfully
+- the requested resource can be found at another address
+- everything is OK so far

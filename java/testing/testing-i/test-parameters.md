@@ -1,38 +1,31 @@
 ---
 author: adamMontgomerie
-
-levels:
-
-  - basic
-
-  - medium
-
 type: normal
-
 category: feature
-
-aspects:
-
-  - workout
-
-  - deep
-
 tags:
-
   - junit-4
-
   - testing
-
 links:
-
-  - '[java2novice.com](http://java2novice.com/junit-examples/junit-annotations/){website}'
-  - '[javarevisited.blogspot.gr](http://javarevisited.blogspot.gr/2012/06/junit4-annotations-test-examples-and.html){website}'
-
+  - >-
+    [java2novice.com](http://java2novice.com/junit-examples/junit-annotations/){website}
+  - >-
+    [javarevisited.blogspot.gr](http://javarevisited.blogspot.gr/2012/06/junit4-annotations-test-examples-and.html){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
 # `@Test` parameters
 
+
 ---
+
 ## Content
 
 The JUnit `@Test` annotation is used to indicate that a method should be called to run a test. `@Test` can contain two types of parameter:
@@ -55,10 +48,12 @@ When a test needs to complete within a specific time period, we can add a parame
 @Test(timeout = 500)
 ```
 
+
 ---
+
 ## Practice
 
-Complete the snippet such that the test expects an `IOException`  and has a timeout of `900ms` :
+Complete the snippet such that the test expects an `IOException` and has a timeout of `900ms` :
 
 ```java
 @???(
@@ -66,16 +61,17 @@ Complete the snippet such that the test expects an `IOException`  and has a time
   ??? = 900);
 ```
 
+- `Test`
+- `expected`
+- `timeout`
+- `error`
+- `TestCase`
+- `expects`
+- `time`
 
-* `Test`
-* `expected`
-* `timeout`
-* `error`
-* `TestCase`
-* `expects`
-* `time`
 
 ---
+
 ## Revision
 
 What two parameters can be used with the `@Test` annotation?
@@ -83,9 +79,9 @@ What two parameters can be used with the `@Test` annotation?
 ???
 ???
 
-* `expected`
-* `timeout`
-* `name`
-* `size`
-* `time`
-* `error`
+- `expected`
+- `timeout`
+- `name`
+- `size`
+- `time`
+- `error`

@@ -1,31 +1,33 @@
 ---
 author: ailiea
-
-levels:
-
-  - basic
-
 type: normal
-
 category: tip
-
-aspects:
-  - introduction
-
 tags:
   - styling
   - before
   - after
-
 links:
-  - '[MDN Docs on ::after](https://developer.mozilla.org/en-US/docs/Web/CSS/::after){documentation}'
-  - '[MDN Docs on ::before](https://developer.mozilla.org/en-US/docs/Web/CSS/%3A%3Abefore){documentation}'
+  - >-
+    [MDN Docs on
+    ::after](https://developer.mozilla.org/en-US/docs/Web/CSS/::after){documentation}
+  - >-
+    [MDN Docs on
+    ::before](https://developer.mozilla.org/en-US/docs/Web/CSS/%3A%3Abefore){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+---
+
+# Styling elements with ::before & ::after
+
 
 ---
 
-# Styling elements using `::before` and `::after`
-
----
 ## Content
 
 Use the `::before` selector to add and style content just before the first child of an element.
@@ -38,6 +40,7 @@ Consider the following HTML code:
   <p>Second</p>
   <p>Third</p>
 ```
+
 And the following CSS snippet:
 
 ```css
@@ -51,7 +54,8 @@ And the following CSS snippet:
     color: aqua;
   }
 ```
-This adds a red __#__ at the start of every `p` element and a blue __?__ at the end of them.
+
+This adds a red **#** at the start of every `p` element and a blue **?** at the end of them.
 
 ![HtmlToSvgmin.svg](https://img.enkipro.com/04042139dfbb5bbe310b0eba0b903359.png)
 
@@ -61,20 +65,23 @@ Both `::before` and `::after` can be used to display shapes, images or even bord
 
 [codepen.io](http://codepen.io/anon/pen/MKgrXB)
 
+
 ---
+
 ## Practice
 
 Which CSS property is mandatory to display `::before` and `::after` pseudo-elements but can be empty?
 
  ???
 
+- `content`
+- `element`
+- `div`
+- `class`
 
-* `content`
-* `element`
-* `div`
-* `class`
 
 ---
+
 ## Revision
 
 Using the `::before` and `::after` selectors, what does the following CSS code do?
@@ -89,9 +96,9 @@ div::after {
    color: black;
 }
 ```
+
 ???
 
-
-* Adds a white Hello! before every div element with a black Goodbye! after.
-* Adds a white Hello! after every div element with a black Goodbye! before.
-* It does nothing, improper CSS.
+- Adds a white Hello! before every div element with a black Goodbye! after.
+- Adds a white Hello! after every div element with a black Goodbye! before.
+- It does nothing, improper CSS.

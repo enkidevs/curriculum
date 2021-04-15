@@ -1,27 +1,26 @@
 ---
 author: alexjmackey
-
-levels:
-  - medium
-  - advanced
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-  - workout
-
-inAlgoPool: false
-
 links:
-  - '[MDN - Promises](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Promise){website}'
-
+  - >-
+    [MDN -
+    Promises](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Promise){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
+
 # Introducing Promises
 
+
 ---
+
 ## Content
 
 A **promise** is an object that represents a value that may or may not be obtained in the future and can be passed around like any other value.
@@ -41,6 +40,7 @@ At the same time, with Promises we can write code that behaves like we already h
 ### Promises eliminate time as a concern
 
 Creating a Promise returns immediately:
+
 ```js
 var promise = new Promise(function(
   resolve,
@@ -66,33 +66,38 @@ promise.then(function(value) {
 ### Callbacks do not
 
 When we perform an async operation that involves a callback, we have to immediately provide that callback. We cannot decide to handle this operation differently in another place or read the async value multiple times etc.
+
 ```js
 getThing(() => {
 
 });
 ```
 
+
 ---
+
 ## Practice
 
 Which of the following statements about promises do you consider false?
 
 ???
 
-* Promises will block the execution thread of your application
-* Promises tend to be more useful in complex scenarios where callback get out of control
-* Promises were available before standard JavaScript implementation via third-party libraries
-* Promises are used for asynchronous operations
+- Promises will block the execution thread of your application
+- Promises tend to be more useful in complex scenarios where callback get out of control
+- Promises were available before standard JavaScript implementation via third-party libraries
+- Promises are used for asynchronous operations
+
 
 ---
+
 ## Revision
 
 What problem do Promises try to solve?
 
 ???
 
-* callbacks getting out of control in complex scenarios
-* asynchronous calls stopping thread execution
-* lack of any kind of support for asynchronous operation
-* too many libraries doing the same thing
+- callbacks getting out of control in complex scenarios
+- asynchronous calls stopping thread execution
+- lack of any kind of support for asynchronous operation
+- too many libraries doing the same thing
  

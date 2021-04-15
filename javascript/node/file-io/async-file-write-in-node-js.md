@@ -1,34 +1,29 @@
 ---
 author: rosielowther
-
-levels:
-  - basic
-  - advanced
-  - medium
-
 type: normal
-
 category: must-know
-
-standards:
-  javascript.node-standard-library-os.0: 10
-
 tags:
   - introduction
   - workout
-
 links:
-  - '[nodejs.org](https://nodejs.org/api/fs.html#fs_fs_writefile_file_data_options_callback){website}'
-
-aspects:
-  - introduction
-  - workout
-
-
+  - >-
+    [nodejs.org](https://nodejs.org/api/fs.html#fs_fs_writefile_file_data_options_callback){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
 ---
+
 # Async File Write in Node.js
 
+
 ---
+
 ## Content
 
 The File System (FS) module provides file I/O. You can use `fs.writeFile` to **asynchronously write data to a file**. The data can be a string or a buffer.
@@ -58,7 +53,9 @@ Note: The file specified must support writing and the file is overwritten if it 
 
 It is not recommended to use `fs.writeFile` multiple times on the same file without waiting for the callback.  Use `fs.createWriteStream` instead.
 
+
 ---
+
 ## Practice
 
 Suppose there is a custom file encoding named `xyz`.
@@ -74,22 +71,24 @@ const fs = require('fs')
   }
 ```
 
-* fs
-* writeFile
-* 'myFile'
-* 'XXYYZ'
-* { encoding: 'xyz' }
-* FS
-* FileSystem
-* writeFileAsync
-* write
-* new myFile()
-* XXYYZ
-* { xyz: true }
-* { xyz }
-* customEncode(xyz)
+- fs
+- writeFile
+- 'myFile'
+- 'XXYYZ'
+- { encoding: 'xyz' }
+- FS
+- FileSystem
+- writeFileAsync
+- write
+- new myFile()
+- XXYYZ
+- { xyz: true }
+- { xyz }
+- customEncode(xyz)
+
 
 ---
+
 ## Revision
 
 Using the FileSystem module, write "hello" to `enki.txt`:
@@ -97,15 +96,12 @@ Using the FileSystem module, write "hello" to `enki.txt`:
 ```javascript
 const fs = require('fs')
 
-???.???(???, ???)
+???.???('???', "???")
 ```
 
-* fs
-* writeFile
-* 'enki.txt'
-* 'hello'
-* hello
-* enki.txt
-* FileSystem
-* writeFileAsync
- 
+- fs
+- writeFile
+- enki.txt
+- hello
+- FileSystem
+- writeFileAsync

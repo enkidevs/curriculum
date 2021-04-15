@@ -1,38 +1,38 @@
 ---
 author: Stefan-Stojanovic
-
-levels:
-  - beginner
-  - basic
-
 type: normal
-
 category: must-know
-
 tags:
   - introduction
-
-aspects:
-  - introduction
-
-standards:
-  web.markup-text.2: 10
-
 links:
-  - '[MDN docs for unordered lists](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ul){website}'
-  - '[MDN docs for ordered lists]](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ol){website}'
+  - >-
+    [HTML <ul>
+    Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ul){documentation}
+  - >-
+    [HTML <ol>
+    Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ol){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
+---
+
+# Nested Lists
+
 
 ---
-# Nested Lists
----
+
 ## Content
 
-The two most common lists in HTML are:
+The two most common lists in HTML are ordered (`<ol>`) and unordered (`<ul>`).
 
-* Ordered Lists: `<ol>`
-* Unordered Lists: `<ul>`
-
-**Ordered List:**
+### Ordered List
 
 ```html
 <ol>
@@ -42,11 +42,11 @@ The two most common lists in HTML are:
 </ol>
 ```
 
-![list-ol](%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22320%22%20height%3D%2288%22%3E%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%3Crect%20width%3D%22320%22%20height%3D%2288%22%20fill%3D%22%23FFF%22%20rx%3D%229%22%2F%3E%3Ctext%20fill%3D%22%23000%22%20font-family%3D%22ArialMT%2C%20Arial%22%20font-size%3D%2216%22%3E%3Ctspan%20x%3D%2217%22%20y%3D%2232%22%3E%201.%20Do%20this%20first.%3C%2Ftspan%3E%20%3Ctspan%20x%3D%2217%22%20y%3D%2249%22%3E%202.%20This%20second.%3C%2Ftspan%3E%20%3Ctspan%20x%3D%2217%22%20y%3D%2266%22%3E%203.%20And%20this%20last.%3C%2Ftspan%3E%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fsvg%3E)
+![list-ol](https://img.enkipro.com/cf9b8346bcac3c93325df035ea93b26b.png)
 
 [View CodePen](https://codepen.io/enkidevs/pen/VBbZrW)
 
-**Unordered List:**
+### Unordered List
 
 ```html
 <ul>
@@ -56,18 +56,20 @@ The two most common lists in HTML are:
 </ul>
 ```
 
-![list-ul](%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22320%22%20height%3D%2288%22%3E%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%3Crect%20width%3D%22320%22%20height%3D%2288%22%20fill%3D%22%23FFF%22%20rx%3D%229%22%2F%3E%3Ctext%20fill%3D%22%23000%22%20font-family%3D%22ArialMT%2C%20Arial%22%20font-size%3D%2216%22%3E%3Ctspan%20x%3D%2217%22%20y%3D%2232%22%3E%20%E2%80%A2%20Item%20x%3C%2Ftspan%3E%20%3Ctspan%20x%3D%2217%22%20y%3D%2249%22%3E%20%E2%80%A2%20Item%20x%3C%2Ftspan%3E%20%3Ctspan%20x%3D%2217%22%20y%3D%2266%22%3E%20%E2%80%A2%20Item%20x%3C%2Ftspan%3E%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fsvg%3E)
+![list-ul](https://img.enkipro.com/94d046823ff59ec5885d25c0a58646d9.png)
 
 [View CodePen](https://codepen.io/enkidevs/pen/pZPzdm)
 
-
-**Nested Lists:**
+### Nested Lists
 
 Lists can be nested within other lists. 
 
-When nested, each list section displays starting from either 1 or whatever the `start` attributes value is. Additionally, you can add a different style for each `<ol>` section in the nested list.
+When nested, each list section displays starting from either 1 or whatever the `start` attributes value is.
+
+Additionally, you can add a different style for each `<ol>` section in the nested list.
 
 Example of a nested `<ol>` list:
+
 ```html
 <ol>
   <li>Item A</li>
@@ -82,14 +84,13 @@ Example of a nested `<ol>` list:
 </ol>
 ```
 
-![list-ol-nested](%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22320%22%20height%3D%22139%22%3E%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%3Crect%20width%3D%22320%22%20height%3D%22139%22%20fill%3D%22%23FFF%22%20rx%3D%229%22%2F%3E%3Ctext%20fill%3D%22%23000%22%20font-family%3D%22ArialMT%2C%20Arial%22%20font-size%3D%2216%22%3E%3Ctspan%20x%3D%2217%22%20y%3D%2232%22%3E%201.%20Item%20A%3C%2Ftspan%3E%20%3Ctspan%20x%3D%2217%22%20y%3D%2249%22%3E%202.%20Item%20B%3C%2Ftspan%3E%20%3Ctspan%20x%3D%2217%22%20y%3D%2266%22%3E%201.%20Item%20B1%3C%2Ftspan%3E%20%3Ctspan%20x%3D%2217%22%20y%3D%2283%22%3E%202.%20Item%20B2%3C%2Ftspan%3E%20%3Ctspan%20x%3D%2217%22%20y%3D%22100%22%3E%203.%20Item%20B3%3C%2Ftspan%3E%20%3Ctspan%20x%3D%2217%22%20y%3D%22117%22%3E%203.%20Item%20C%3C%2Ftspan%3E%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fsvg%3E)
+![list-ol-nested](https://img.enkipro.com/1b75cc5b1d33b7b3bdb268a5b7665224.png)
 
 [View CodePen](https://codepen.io/enkidevs/pen/BPRBrO)
 
-**Note:**
-	- The closing `</li>` tag for `Item B` must wrap around the entire nested list.
+> 💡 The closing `</li>` tag for `Item B` must wrap around the entire nested list.
 
-This is an example of an unordered list within an ordered list:
+Here is an example of an unordered list within an ordered list:
 
 ```html
 <p> Instructions </p>
@@ -104,15 +105,20 @@ This is an example of an unordered list within an ordered list:
   <li>Bake 15 mins at 350F</li>
 </ol>
 ```
+
 Result:
 
-![list-nested](%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22320%22%20height%3D%22174%22%3E%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%3Crect%20width%3D%22320%22%20height%3D%22174%22%20fill%3D%22%23FFF%22%20rx%3D%229%22%2F%3E%3Ctext%20fill%3D%22%23000%22%20font-family%3D%22ArialMT%2C%20Arial%22%20font-size%3D%2216%22%3E%3Ctspan%20x%3D%2217%22%20y%3D%2232%22%3EInstructions%3C%2Ftspan%3E%20%20%3Ctspan%20x%3D%2217%22%20y%3D%2266%22%3E%201.%20Gather%20Ingredients%3A%3C%2Ftspan%3E%20%3Ctspan%20x%3D%2217%22%20y%3D%2283%22%3E%20%E2%97%A6%201%201%2F4%20cup%20Nutella%3C%2Ftspan%3E%20%3Ctspan%20x%3D%2217%22%20y%3D%22100%22%3E%20%E2%97%A6%202%20large%20eggs%3C%2Ftspan%3E%20%3Ctspan%20x%3D%2217%22%20y%3D%22117%22%3E%20%3C%2Ftspan%3E%20%3Ctspan%20x%3D%2252.5625%22%20y%3D%22117%22%20font-size%3D%2214%22%3E%E2%97%A6%20%3C%2Ftspan%3E%20%3Ctspan%20x%3D%2261.41504%22%20y%3D%22117%22%3E1%2F2%20cup%20flour%3C%2Ftspan%3E%20%3Ctspan%20x%3D%2217%22%20y%3D%22134%22%3E%202.%20Mix%20Ingredients%3C%2Ftspan%3E%20%3Ctspan%20x%3D%2217%22%20y%3D%22151%22%3E%203.%20Bake%2015%20mins%20at%20350F%3C%2Ftspan%3E%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fsvg%3E)
+![list-nested](https://img.enkipro.com/241430ac2324cde0c4f4b54a010106c7.png)
 
 [View CodePen](https://codepen.io/enkidevs/pen/xJdKpO)
 
-In the example above, the ordered list element `<ol>` is used as the main list because the steps should be followed in a specific order. The unordered list elements don't need to be gathered in any specific order, so this organization of lists makes the most sense.
+In the example above, the ordered list element `<ol>` is used as the main list because the steps should be followed in a specific order. 
+
+The unordered list elements don't need to be gathered in any specific order, so this organization makes the most sense.
+
 
 ---
+
 ## Practice
 
 Complete the HTML code to create an unordered list within an ordered list.
@@ -130,24 +136,28 @@ Complete the HTML code to create an unordered list within an ordered list.
 </A>
 ```
 
+```plain-text
 A: ???
 B: ???
 C: ???
+```
 
-* `ol`
-* `li`
-* `ul`
-* `dl`
-* `il`
-* `bl`
-* `ll`
+- `ol`
+- `li`
+- `ul`
+- `dl`
+- `il`
+- `bl`
+- `ll`
+
 
 ---
+
 ## Revision
 
 Which code block will create this nested list?
 
-```html
+```plain-text
 1. Gather Ingredients:
   * 1 1/4 cup Nutella
   * 2 large eggs
@@ -188,12 +198,16 @@ Option #2:
 </ol>
 ```
 
-???
+```plain-text
+Option #???
+```
 
-* Option #1
-* Option #2
+- 1
+- 2
+
 
 ---
+
 ## Quiz
 
 ### How much do you know about nested HTML lists?
@@ -216,7 +230,7 @@ What does this code create?
 
 ???
 
-* bulleted list within a numbered list
-* 6 items within a numbered list
-* numbered list within a bulleted list
-* ungrouped list within an organic list
+- bulleted list within a numbered list
+- 6 items within a numbered list
+- numbered list within a bulleted list
+- ungrouped list within an organic list

@@ -1,33 +1,28 @@
 ---
 author: stefkn
-
-levels:
-
-  - beginner
-
-  - basic
-
-  - medium
-
 type: normal
-aspects:
-  - introduction
-  - workout
-  - deep
 category: must-know
-standards:
-  python.use-iteration-protocol.1: 10
-
 links:
+  - >-
+    [Python
+    slice()](https://www.programiz.com/python-programming/methods/built-in/slice){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
+---
 
-  - '[Python slice()](https://www.programiz.com/python-programming/methods/built-in/slice){website}'
+# The slice Function
 
 
 ---
 
-# The `slice` Built-in Function
-
----
 ## Content
 
 The `slice` built-in is a constructor which creates a *slice object* representing the set of indices specified by a given range. It can be used to get substrings, subtuples and sublists from their respective sequence objects. The general syntax is of the form:
@@ -40,9 +35,9 @@ slice(start, stop, step)
 
 Where the arguments are all integers. Passing only one integer argument causes it to default the other arguments to `None` and take the integer as a 'stop' value. These values mean the following:
 
- - __start__ - the starting integer where the slice starts. Giving only one integer argument defaults this to `None`, which means the slice starts at index 0, or the beginning of the sequence.
- - __stop__ - the integer value of the index where the slice ends. The slice stops on the index `stop - 1`. If only one integer is given Python assumes it to be the `stop` index.
- - __step__ - the integer value which determines the increment between each index of the slice, i.e. a step of 2 increments the index included in the slice by 2, each step. Giving only one integer argument defaults this to `None`, which means a step of 1.
+- **start** - the starting integer where the slice starts. Giving only one integer argument defaults this to `None`, which means the slice starts at index 0, or the beginning of the sequence.
+- **stop** - the integer value of the index where the slice ends. The slice stops on the index `stop - 1`. If only one integer is given Python assumes it to be the `stop` index.
+- **step** - the integer value which determines the increment between each index of the slice, i.e. a step of 2 increments the index included in the slice by 2, each step. Giving only one integer argument defaults this to `None`, which means a step of 1.
 
 Consider the following example, where we use `slice` to extract a substring from a string.
 
@@ -59,7 +54,7 @@ print(ourString[sObject])
 # Result: rigp
 ```
 
-We can also use __negative numbers__ as arguments to `slice`, which creates a slice with the elements in the reverse order, i.e. index -1 would be the last element in the sequence, -2 would be the second-last, etc.[1]
+We can also use **negative numbers** as arguments to `slice`, which creates a slice with the elements in the reverse order, i.e. index -1 would be the last element in the sequence, -2 would be the second-last, etc.[1]
 
 ```python
 ourString = 'learning-python'
@@ -83,7 +78,9 @@ print(eTuple[sObject])
 # Result: ('N', 'I')
 ```
 
+
 ---
+
 ## Practice
 
 Use `slice` to extract the substring 'spam' from 'spam-eggs-ham-chips' by filling in the gaps.
@@ -95,13 +92,14 @@ sObject = ???(???)
 print(ourString[sObject])
 ```
 
+- slice
+- 4
+- 5
+- 3
 
-* slice
-* 4
-* 5
-* 3
 
 ---
+
 ## Revision
 
 Use `slice` to remove every second number in the list of numbers.
@@ -114,20 +112,24 @@ sObject = ???(???, ???, ???)
 print(nList[sObject])
 ```
 
+- slice
+- 1
+- 8
+- 2
+- 3
+- 7
+- seq
 
-* slice
-* 1
-* 8
-* 2
-* 3
-* 7
-* seq
 
 ---
+
 ## Quiz
+
 ### how does slicing work?
 
+
 What will be printed by the following snippet?
+
 ```python
 a = 'enki'
 print(a[::-1])
@@ -135,12 +137,16 @@ print(a[::-1])
 
  ???
 
-* ikne
-* i
-* enki
-* TypeError: str object is not subscriptable
+- ikne
+- i
+- enki
+- TypeError: str object is not subscriptable
+
 
 ---
+
 ## Footnotes
+
 [1:Negative Numbers]
 *Notice how when negative numbers are given as arguments to `slice` its behavior can be made to be analogous to the `reversed` built-in function. Depending on the context, one function may be more suitable than the other in terms of efficiency, legibility or modularity.*
+ 

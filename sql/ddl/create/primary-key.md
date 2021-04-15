@@ -1,42 +1,32 @@
 ---
 author: kapnobatai136
-
-levels:
-
-  - beginner
-
-  - basic
-
-  - medium
-
 type: normal
-
 category: must-know
-
-inAlgoPool: false
-
-standards:
-  sql.define-tables.4: 10
-
 tags:
-
   - introduction
   - primary key
   - workout
-
 links:
-
-  - '[Column Constraints](https://en.wikibooks.org/wiki/Structured_Query_Language/Create_Table#Column_Constraint){website}'
-
-aspects:
-  - introduction
-  - workout
-
+  - >-
+    [Column
+    Constraints](https://en.wikibooks.org/wiki/Structured_Query_Language/Create_Table#Column_Constraint){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Primary Key
 
+
 ---
+
 ## Content
 
 To allow the association of data in relational databases, rows should be uniquely identifiable. When defining a new table, there are two types of constraints that can be declared, `PRIMARY KEY`s and `FOREIGN KEY`s. This insight will focus on the former. 
@@ -78,7 +68,9 @@ INSERT INTO students values
 -- This will be successful
 ```
 
+
 ---
+
 ## Practice
 
 Create a new table named `muscle_cars` which has the `id`, `name`, and `year` columns. Define the `id` as a primary key.
@@ -91,14 +83,16 @@ Create a new table named `muscle_cars` which has the `id`, `name`, and `year` co
 );
 ```
 
-* CREATE TABLE
-* id
-* PRIMARY KEY
-* FOREIGN KEY
-* MAKE TABLE
-* number
+- CREATE TABLE
+- id
+- PRIMARY KEY
+- FOREIGN KEY
+- MAKE TABLE
+- number
+
 
 ---
+
 ## Revision
 
 Create a table named `billboard_songs` with the `id`, `name`, and `position` columns. Define the `id` column as a primary key and make sure that the `position` column can't take `NULL` values.
@@ -111,9 +105,9 @@ Create a table named `billboard_songs` with the `id`, `name`, and `position` col
 );
 ```
 
-* CREATE TABLE
-* PRIMARY KEY
-* NOT NULL
-* MAKE TABLE
-* FOREIGN KEY
-* NOT ZERO
+- CREATE TABLE
+- PRIMARY KEY
+- NOT NULL
+- MAKE TABLE
+- FOREIGN KEY
+- NOT ZERO

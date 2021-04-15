@@ -1,41 +1,21 @@
 ---
 author: adamMontgomerie
-
-levels:
-
-  - basic
-
-  - advanced
-
-  - medium
-
 type: normal
-
 category: tip
-
-aspects:
-
-  - workout
-
-  - deep
-
 tags:
-
   - generics
-
   - type-inference
-
   - java-7
-
 links:
-
-  - '[docs.oracle.com](https://docs.oracle.com/javase/tutorial/java/generics/types.html){website}'
-
+  - >-
+    [docs.oracle.com](https://docs.oracle.com/javase/tutorial/java/generics/types.html){website}
 ---
 
 # Type inference in generic classes
 
+
 ---
+
 ## Content
 
 Using generic classes in Java can sometimes result in verbose syntax, for example:
@@ -47,7 +27,7 @@ Map<Integer, List<String>> hashMap =
 
 In Java 7+, we can simplify this by using the compiler's ability to infer the type arguments from context. This allows us to avoid specifying the same type arguments multiple times. The previous example now becomes:
 
-```
+```plain-text
 Map<Integer, List<String>> hashMap =
   new HashMap<>();
 ```

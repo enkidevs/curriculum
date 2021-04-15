@@ -1,36 +1,27 @@
 ---
 author: Arseny
-
-levels:
-
-  - basic
-
-  - advanced
-
-  - medium
-
-aspects:
-  - workout
-
 type: tetris
-
 category: tip
+---
+
+# Sudo-fu
+
 
 ---
 
-# Sudo-fu 
-
----
 ## Content
 
 Does the command need to be run under root user, or can the command be run with regular user permissions?
 
 Assume all default or conventional unix directories have default set of permissions.
 
+
 ---
+
 ## Game Content
 
 sudo:no sudo
+
 ```true
 
 ls /usr
@@ -147,4 +138,3 @@ In order to remove everything from /usr/bin directory you need to have sudo acce
 %
 
 ```
- 

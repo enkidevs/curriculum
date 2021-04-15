@@ -1,38 +1,34 @@
 ---
-author: Nick Daminov
-
-levels:
-
-  - medium
-
+author: nickdaminov
 type: normal
-
-category: how to
-
-aspects:
-
-  - workout
-
-  - deep
-
+category: how-to
 links:
-
-  - '[Ostrich Algorithm](https://en.wikipedia.org/wiki/Ostrich_algorithm){website}'
-
+  - >-
+    [Ostrich
+    Algorithm](https://en.wikipedia.org/wiki/Ostrich_algorithm){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
 # How to Avoid a Deadlock
 
+
 ---
+
 ## Content
 
 There are 4 necessary and sufficient conditions for a **deadlock** to occur:
 
- - Mutual Exclusion: only one process at a time can use the resource.
- - Hold and Wait: process that is holding a resource can acquire further resources.
- - No Preemption: resources are only freed after a process has finished executing.
- - Circular Wait: there are at least two processes each waiting for each others resources.
-
+- Mutual Exclusion: only one process at a time can use the resource.
+- Hold and Wait: process that is holding a resource can acquire further resources.
+- No Preemption: resources are only freed after a process has finished executing.
+- Circular Wait: there are at least two processes each waiting for each others resources.
 
 The four main strategies on how to tackle *deadlocks* are:
 
@@ -43,26 +39,30 @@ The four main strategies on how to tackle *deadlocks* are:
 
 The latter three will be discussed in detail in the next insights.
 
+
 ---
+
 ## Practice
 
 What condition is not necessary for a deadlock to occur?
 
 ???
 
-* none of the options listed
-* only one process at a time can use the resource
-* process that is holding a resource can acquire further resources
-* resources are only freed after a process has finished executing
-* at least two processes each waiting for each others resources
+- none of the options listed
+- only one process at a time can use the resource
+- process that is holding a resource can acquire further resources
+- resources are only freed after a process has finished executing
+- at least two processes each waiting for each others resources
+
 
 ---
+
 ## Revision
 
 What is "Ostrich Algorithm"?
 
 ???
 
-* Ignoring deadlock problem
-* Solving a deadlock by running a an ostrich class
-* Running an ostrich thread in a process-resource cycle
+- Ignoring deadlock problem
+- Solving a deadlock by running a an ostrich class
+- Running an ostrich thread in a process-resource cycle

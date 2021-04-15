@@ -1,9 +1,9 @@
 name: Web
 
-description: The language that styles today’s internet. From coloring and sizing, to animations and positioning, CSS has an answer for it.
+description: Create your first webpage here. Includes HTML, CSS, and more.
 
-color: 7A57C1
+color: C3A6FF
 
-icon: https://img.enkipro.com/f35d1d5835b8e9a1815a132bba26c0c3.png
+icon: https://img.enkipro.com/6af370046a3f7c19ba2f16336be2a85f.png
 
 language: css

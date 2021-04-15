@@ -1,33 +1,28 @@
 ---
 author: catalin
-
-levels:
-  - basic
-  - beginner
-
 type: normal
-
-category: how to
-
-standards:
-  javascript.identify-common-design-patterns.5: 10
-
+category: how-to
 tags:
   - introduction
   - workout
-
 links:
-  - '[fredkschott.com](http://fredkschott.com/post/2014/03/understanding-error-first-callbacks-in-node-js/){website}'
-
-aspects:
-  - introduction
-  - workout
-
-
+  - >-
+    [fredkschott.com](http://fredkschott.com/post/2014/03/understanding-error-first-callbacks-in-node-js/){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
+
 # First-error callbacks in **Node**
 
+
 ---
+
 ## Content
 
 The `"error-first"` callback (also "errorback" or "err-back") has become the standard protocol for **Node** as to enable a balanced, non-blocking flow of control and processing power across applications and modules.
@@ -66,7 +61,9 @@ function(err, data) {
 
 ```
 
+
 ---
+
 ## Practice
 
 Implement a simple error-first callback function that will log the `err` if there is an error. Otherwise, it should log the data:
@@ -81,17 +78,19 @@ doSomethingWithCallback(???(???, ???) {
 })
 ```
 
-* `function`
-* `err`
-* `data`
-* `if (err)`
-* `else`
-* `log(data)`
-* `er`
-* `myData`
-* `fn`
+- `function`
+- `err`
+- `data`
+- `if (err)`
+- `else`
+- `log(data)`
+- `er`
+- `myData`
+- `fn`
+
 
 ---
+
 ## Revision
 
 What are the parameters of an error-first callback function?
@@ -102,9 +101,8 @@ function(???, ???) {
 }
 ```
 
-* `err`
-* `data`
-* `fileNotFound`
-* `log`
-* `null`
- 
+- `err`
+- `data`
+- `fileNotFound`
+- `log`
+- `null`

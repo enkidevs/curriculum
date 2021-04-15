@@ -9,8 +9,9 @@ sections:
     - comprehension
     - decorators
     - functional-programming
+    - functional-programming-ii
     - generators
-    - immutability
+    - python-immutability
     - iterators
 
 standards:

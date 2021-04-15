@@ -1,37 +1,23 @@
 ---
 author: aakarsh
-
-levels:
-
-  - basic
-
-  - beginner
-
-aspects:
-  - workout
-
 type: normal
-
-category: how to
-
+category: how-to
 tags:
-
   - vmstat
-
   - memory
-
   - monitor
-
   - metrics
-
-
-
-
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Monitor System Memory using `vmstat`
 
+
 ---
+
 ## Content
 
 `vmstat` allows the user to monitor virtual
@@ -42,21 +28,20 @@ activity.
 The user can specify a sampling period.
 
 ```bash
-$ vmstat 1
+vmstat 1
 procs
-
 ```
 
+
 ---
+
 ## Revision
 
 Running `vmstat 1`  allows the user to monitor the
 
 ???
 
-
-* virtual memory
-* physical memory
-* network
-* server
- 
+- virtual memory
+- physical memory
+- network
+- server

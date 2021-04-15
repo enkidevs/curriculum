@@ -1,37 +1,22 @@
 ---
 author: catalin
-
-levels:
-
-  - beginner
-
-  - basic
-
-  - medium
-
-  - advanced
-
 type: normal
-
 category: must-know
-
-aspects:
-
-  - introduction
-
-  - workout
-
 links:
-
-  - '[www.cisco.com](http://www.cisco.com/c/en/us/support/docs/voice/voice-quality/18902-jitter-packet-voice.html){website}'
-
-parent: what-is-packet-loss
-
+  - >-
+    [www.cisco.com](http://www.cisco.com/c/en/us/support/docs/voice/voice-quality/18902-jitter-packet-voice.html){website}
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
 ---
 
 # What is jitter?
 
+
 ---
+
 ## Content
 
 **Jitter** is defined as the variation in the delay of received packets in computer networks.
@@ -50,31 +35,37 @@ Following this scenario, instead of every `20ms`, **B** can receive packets with
 
 There's a pretty high chance you have experienced jitter before. Most recognisable scenarios are *lag spikes* in video games where players teleport across the map or *pauses in video buffering* on services like YouTube.
 
+
 ---
+
 ## Revision
 
 The term **jitter** is used interchangeably with:
 
+```plain-text
 ??? ??? ???
+```
 
+- Packet
+- Delay
+- Variation
+- Latency
+- Spikes
+- Lag
+- Continuous
+- Effect
 
-* Packet
-* Delay
-* Variation
-* Latency
-* Spikes
-* Lag
-* Continuous
-* Effect
 
 ---
+
 ## Footnotes
+
 [1:packet delay variation]
 Keep in mind that the terms **Jitter** and **Packet Delay Variation** are not completely synonymous, but often used interchangeably.
 
 [2:what causes jitter]
 Common jitter causes in **TCP/IP** networks are:
- - congestion
- - improper queuing
- - configuration errors
 
+- congestion
+- improper queuing
+- configuration errors

@@ -1,23 +1,22 @@
 ---
 author: Stefan-Stojanovic
-
-levels:
-  - beginner
-  - basic
-
 type: normal
-
 category: must-know
-
-standards:
-  web.syntax-html.4: 10
-
-aspects:
-  - introduction
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
+
 # HTML/CSS Code
+
+
 ---
+
 ## Content
 
 **CSS** and **HTML** are the core languages used for creating web pages and web-based applications.
@@ -29,6 +28,7 @@ aspects:
 **CSS** is made of selectors followed by a declaration block; `selector {declaration block}`.
 
 HTML example:
+
 ```html
 <h2>
   This is a heading
@@ -39,6 +39,7 @@ HTML example:
 ```
 
 CSS example:
+
 ```css
 p { color: red; }
 h2 { font-size: 24px; }
@@ -49,6 +50,7 @@ In the **CSS** example above, we set the **HTML** `<p>` elements content to the 
 
 
 ---
+
 ## Practice
 
 Identify the following code languages:
@@ -56,10 +58,12 @@ Identify the following code languages:
 `<h2>CSS</h2>`            : ???
 `h2 { font-size: 24px; }` : ???
 
-* HTML
-* CSS
+- HTML
+- CSS
+
 
 ---
+
 ## Revision
 
 Which is HTML code and which is CSS code?
@@ -67,13 +71,16 @@ Which is HTML code and which is CSS code?
 HTML: ???
 CSS: ???
 
-* `<p>I'm a style.</p>`
-* `p { font-size: 16px; }`
+- `<p>I'm a style.</p>`
+- `p { font-size: 16px; }`
+
 
 ---
+
 ## Quiz
 
 ### How well can you identify HTML and CSS?
+
 
 What lines of code are HTML?
 
@@ -84,12 +91,11 @@ What lines of code are HTML?
 
 ???
 
-* 1 & 3
-* 1, 3, 4
-* 1, 2, 3, 4
-* 2, 4
-* 1, 2, 3
-* 4
-* 1
-* none
- 
+- 1 & 3
+- 1, 3, 4
+- 1, 2, 3, 4
+- 2, 4
+- 1, 2, 3
+- 4
+- 1
+- none

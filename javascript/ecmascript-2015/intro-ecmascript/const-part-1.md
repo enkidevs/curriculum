@@ -1,34 +1,29 @@
 ---
 author: alexjmackey
-
-levels:
-  - beginner
-
 type: normal
-
 category: must-know
-
-inAlgoPool: false
-
 tags:
   - introduction
   - es6
   - memory
-
-standards:
-  javascript.new-declaration-keywords.1: 10
-
 links:
-  - '[MDN](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Statements/const){website}'
-
-aspects:
-  - introduction
-
-
+  - >-
+    [MDN](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Statements/const){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
+
 # Const (Part 1)
 
+
 ---
+
 ## Content
 
 The *`const`* (constant) keyword has been introduced in ES6 and creates a variable that cannot be reassigned.
@@ -86,7 +81,9 @@ if (1 == 1) {
 }
 ```
 
+
 ---
+
 ## Practice
 
 Consider the assignment:
@@ -111,12 +108,14 @@ if (true) {
 }
 ```
 
-* throw an error
-* assign 22 to enki within the `if`'s scope
-* also throw an error
-* re-assign 22 to enki
+- throw an error
+- assign 22 to enki within the if's scope
+- also throw an error
+- re-assign 22 to enki
+
 
 ---
+
 ## Revision
 
 Is the following code valid? Why?
@@ -131,7 +130,8 @@ if (true) {
 }
 ```
 
-* yes, because the second assignment is in a different scope
-* yes, because the value is changed
-* no, because you can't redeclare a variable
-* no, because the `if` block doesn't have it's own scope
+- yes, because the second assignment is in a different scope
+- yes, because the value is changed
+- no, because you can't redeclare a variable
+- no, because the if block doesn't have it's own scope
+ 

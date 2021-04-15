@@ -1,30 +1,26 @@
 ---
 author: alexjmackey
-
-levels:
-  - beginner
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-  - new
-  - workout
-
-inAlgoPool: false
-
 links:
-  - '[MDN](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/String/fromCharCode){website}'
-
-standards:
-  javascript.es6-extensions-standard-library.2: 10
-
+  - >-
+    [MDN](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/String/fromCharCode){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
 ---
+
 # String Extensions
 
+
 ---
+
 ## Content
 
 ES6 expands on existing primitives to fix some long time issues and add useful functionality.
@@ -51,7 +47,9 @@ String.fromCodePoint(65, 66, 67); // ABC
 String.fromCodePoint(0x12014); // 𒀔
 ```
 
+
 ---
+
 ## Practice
 
 Fill in the gap with a method introduced in **ES6** such that the log statement is correct:
@@ -61,19 +59,21 @@ console.log(???.???(70))
 // F
 ```
 
-* String
-* fromCodePoint
-* fromCharCode
-* Char
-* Number
-* Ascii
-* fromAsciiNumber
-* fromNumber
-* fromCode
-* fromNumberCode
-* fromNumberPoint
+- String
+- fromCodePoint
+- fromCharCode
+- Char
+- Number
+- Ascii
+- fromAsciiNumber
+- fromNumber
+- fromCode
+- fromNumberCode
+- fromNumberPoint
+
 
 ---
+
 ## Revision
 
 What should go in the missing gap such that the log statement is correct?
@@ -85,8 +85,9 @@ console.log(String.fromCodePoint(90));
 // ???
 ```
 
-* Z
-* z
-* a
-* 90.0
-* 90
+- Z
+- z
+- a
+- 90.0
+- 90
+ 

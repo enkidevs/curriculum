@@ -1,44 +1,35 @@
 ---
 author: Bruno
-
-levels:
-
-  - basic
-
-  - advanced
-
-  - medium
-
 type: normal
-
 category: caveats
-
-aspects:
-  - introduction
-  - new
-  - workout
-
 tags:
-
   - es6
-
   - caveat
-
 links:
+  - >-
+    [MDN -
+    Undefined](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined){website}
+  - >-
+    [MDN -
+    Null](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/null){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+---
 
-  - '[MDN - Undefined](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined){website}'
-  - '[MDN - Null](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/null){website}'
+# Defaults values apply only to `undefined` (and not to `null` )
 
 
 ---
 
-# Defaults values apply only to `undefined` (and not to `null`)
-
----
 ## Content
 
 Default values in function parameters and object destructuring work as expected when given `undefined`.
-
 
 ```js
 function foo(a = 1) {
@@ -54,6 +45,7 @@ const { a = 1 } = { a: undefined };
 ```
 
 This is however not the case for `null`.
+
 ```js
 function foo(a = 1) {
   return a;
@@ -67,39 +59,47 @@ const { a = 1 } = { a: null };
 // a === null
 ```
 
+
 ---
+
 ## Practice
 
 What is **a** strictly equal to?
+
 ```js
 const { a = 1 } = { a: undefined };
 // a === ???
 ```
 
-* `1`
-* `0`
-* `null`
-* `undefined`
-* `NaN`
+- `1`
+- `0`
+- `null`
+- `undefined`
+- `NaN`
+
 
 ---
+
 ## Revision
 
 What is **a** strictly equal to?
+
 ```javascript
 const { a = 1 } = { a: null };
 // a === ???
 ```
 
+- `null`
+- `undefined`
+- `1`
 
-* `null`
-* `undefined`
-* `1`
 
 ---
-## Quiz 
+
+## Quiz
 
 ### Can you handle optional arguments?
+
 
 ```javascript
 // given:
@@ -112,8 +112,8 @@ foo(null);
 
  ???
 
-* 4
-* null
-* 7
-* NaN
+- 4
+- null
+- 7
+- NaN
  

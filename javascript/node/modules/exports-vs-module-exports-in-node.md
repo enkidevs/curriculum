@@ -1,37 +1,32 @@
 ---
 author: catalin
-
-levels:
-  - basic
-  - beginner
-
 type: normal
-
 category: must-know
-
-standards:
-  javascript.use-modules.0: 10
-  javascript.use-modules.1: 10
-
 tags:
   - introduction
   - workout
-
 links:
-  - '[www.hacksparrow.com](http://www.hacksparrow.com/node-js-exports-vs-module-exports.html){website}'
-
-aspects:
-  - introduction
-  - workout
-
-
+  - >-
+    [www.hacksparrow.com](http://www.hacksparrow.com/node-js-exports-vs-module-exports.html){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
+
 # `exports` vs. `module.exports` in **Node**
 
+
 ---
+
 ## Content
 
 Exporting a module in **Node** can be done in different ways. The most common is using the `exports` object:
+
 ```javascript
 //what is exported (other.js)
 exports.say = function() {
@@ -53,6 +48,7 @@ exports.say = function() {
 
 If we import it the same way as above, this will result in a `TypeError` because `module.exports` already had something in it.
 Export an array with `module.exports`:
+
 ```javascript
 module.exports = [ 'A', 'B', 'C'];
 
@@ -60,10 +56,12 @@ var sample = require('./other.js');
 console.log(sample[2]); // 'C'
 ```
 
+
 ---
+
 ## Practice
 
-What is the output of the following JavaScript code? ???
+What is the output of the following JavaScript code?
 
 ```javascript
 module.exports = ['a', 'k', 'K', 'y', 'a'];
@@ -77,20 +75,24 @@ console.log(test[0]);
 console.log(test[1]);
 ```
 
-* Kayak
-* kayak
-* kayaK
-* ayakK
-* yakaK
+???
+
+- Kayak
+- kayak
+- kayaK
+- ayakK
+- yakaK
+
 
 ---
+
 ## Revision
 
 `exports` is a helper for?
+
 ???
 
-* module.exports
-* module.imports
-* module
-* imports
- 
+- module.exports
+- module.imports
+- module
+- imports

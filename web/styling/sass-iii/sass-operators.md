@@ -1,30 +1,28 @@
 ---
 author: tommarshall
-
-levels:
-
-  - basic
-
-  - medium
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-  - workout
-
 links:
-
-  - '[Article on Sass Operators](http://webstandardssherpa.com/reviews/getting-started-with-sass-part-2/){article}'
-
-
+  - >-
+    [Article on Sass
+    Operators](http://webstandardssherpa.com/reviews/getting-started-with-sass-part-2/){article}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Sass Operators
 
+
 ---
+
 ## Content
 
 *Sass* has a number of standard mathematical operators such as the following `+`, `-`, `*`, `/`, and `%`.
@@ -43,7 +41,9 @@ h1 {
   font-size: 7px + 2px;
 }
 ```
+
 Using variables along with plain CSS with numeric operators:
+
 ```css
 p {
   $font-size: 12px;
@@ -51,17 +51,22 @@ p {
   font: #{$font-size}/#{$line-height};
 }
 ```
+
 Would generate this CSS:
+
 ```css
 p {
   font: 12px/30px;
 }
 ```
 
+
 ---
+
 ## Practice
 
 Fill the gaps such that `font` will be equal to the division of `font-size` and `line-height` :
+
 ```css
 p {
   $font-size: 12px;
@@ -70,17 +75,20 @@ p {
 }
 ```
 
-* `$font-size`
-* `/`
-* `$line-height`
-* `font-size`
-* `line-height`
-* `\`
+- `$font-size`
+- `/`
+- `$line-height`
+- `font-size`
+- `line-height`
+- `\`
+
 
 ---
+
 ## Revision
 
 Fill the gaps such that `font` will be equal to the division of `font-size` and `line-height` :
+
 ```css
 p {
   $font-size: 12px;
@@ -89,9 +97,9 @@ p {
 }
 ```
 
-* `$font-size`
-* `/`
-* `$line-height`
-* `font-size`
-* `line-height`
-* `\`
+- `$font-size`
+- `/`
+- `$line-height`
+- `font-size`
+- `line-height`
+- `\`

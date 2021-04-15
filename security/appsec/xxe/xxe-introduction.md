@@ -1,49 +1,47 @@
 ---
 author: lizTheDeveloper
-
-levels:
-
-  - beginner
-
-  - basic
-
-  - medium
-
-aspects:
-
-  - introduction
-
-  - workout
-
 type: normal
-
 category: hack
-
-
-standards:
-  security.xxe.0: 10
-
 links:
-  - '[OWASP Top Ten](https://www.owasp.org/images/7/72/OWASP_Top_10-2017_%28en%29.pdf.pdf)'
-  - '[Billion Laughs Attack](https://en.wikipedia.org/wiki/Billion_laughs_attack)'
-  - '[Security Briefs - XML Denial of Service Attacks and Defenses](https://msdn.microsoft.com/en-us/magazine/ee335713.aspx)'
-  - '[SAML Security XML External Entity Attack](https://secretsofappsecurity.blogspot.com/2017/01/saml-security-xml-external-entity-attack.html)'
-  - '[Detecting and exploiting XXE in SAML Interfaces](https://web-in-security.blogspot.com/2014/11/detecting-and-exploiting-xxe-in-saml.html)'
-  - '[CVE-611](https://cwe.mitre.org/data/definitions/611.html)'
-
+  - '[OWASP Top Ten](https://owasp.org/www-project-top-ten/){website}'
+  - >-
+    [Billion Laughs
+    Attack](https://en.wikipedia.org/wiki/Billion_laughs_attack){website}
+  - >-
+    [Security Briefs - XML Denial of Service Attacks and
+    Defenses](https://docs.microsoft.com/en-us/archive/msdn-magazine/2009/november/xml-denial-of-service-attacks-and-defenses){website}
+  - >-
+    [SAML Security XML External Entity
+    Attack](https://secretsofappsecurity.blogspot.com/2017/01/saml-security-xml-external-entity-attack.html){website}
+  - >-
+    [Detecting and exploiting XXE in SAML
+    Interfaces](https://web-in-security.blogspot.com/2014/11/detecting-and-exploiting-xxe-in-saml.html){website}
+  - '[CVE-611](https://cwe.mitre.org/data/definitions/611.html){website}'
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
 # eXternal XML Entities
 
+
 ---
+
 ## Content
+
 OWASP describes XXE as Xternal XML Entities, which is a vulnerability vector in XML documents that allows them to embed other documents, including local system files, in XML documents. If these processors run or execute these files with elevated permissions, attackers can inject malicious instructions in their XML files.
 
 These examples from *OWASP's Top Ten* list show how the data can be configured to execute external scripts:
 
 **Scenario #1**: The attacker attempts to extract data from the
 server:
-```
+
+```plain-text
 <?xml version="1.0"
  encoding="ISO-8859-1"?>
 <!DOCTYPE foo [
@@ -55,20 +53,23 @@ server:
 
 **Scenario #2**: An attacker probes the server's private network by
 changing the above ENTITY line to:
-```
+
+```plain-text
 <!ENTITY xxe
 SYSTEM "https://192.168.1.1/private" >]>
 ```
+
 **Scenario #3**: An attacker attempts a denial-of-service attack by
 including a potentially endless file:
-```
+
+```plain-text
 <!ENTITY xxe
 SYSTEM "file:///dev/random" >]>
 ```
- 
+
 Here's an example of this attack that was a widespread problem due to it's simplicity, called the **Billion Laughs Attack**:
 
-```
+```plain-text
 <?xml version="1.0"?>
 <!DOCTYPE lolz [
  <!ENTITY lol "lol">
@@ -103,29 +104,35 @@ Here's an example of this attack that was a widespread problem due to it's simpl
 ]>
 <lolz>&lol9;</lolz>
 ```
+
 From Wikipedia:
 
 > When an XML parser loads this document, it sees that it includes one root element, "lolz", that contains the text "&lol9;". However, "&lol9;" is a defined entity that expands to a string containing ten "&lol8;" strings. Each "&lol8;" string is a defined entity that expands to ten "&lol7;" strings, and so on. After all the entity expansions have been processed, this small (< 1 KB) block of XML will actually contain 10^9 = a billion "lol"s, taking up almost 3 gigabytes of memory.
 
+
 ---
+
 ## Practice
 
 An XXE attack affects what components of an application?
+
 ???
 
-* XML Processors
-* HTTP Endpoints
-* Network Firewall
-* HTML DOM
+- XML Processors
+- HTTP Endpoints
+- Network Firewall
+- HTML DOM
 
 
 ---
+
 ## Revision
 
 An XXE attack comes from exploiting what?
+
 ???
 
-* External Entities
-* Unvalidated Input
-* Untested Code
-* Malformed Requests
+- External Entities
+- Unvalidated Input
+- Untested Code
+- Malformed Requests

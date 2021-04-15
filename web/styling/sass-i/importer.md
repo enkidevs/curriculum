@@ -1,30 +1,22 @@
 ---
 author: Parvin
-
-levels:
-
-  - basic
-
-  - medium
-
 type: normal
-
 category: feature
-
-aspects:
-  - introduction
-  - workout
-
 links:
-
-  - '[Sass CSS Importer Plugin](https://github.com/chriseppstein/sass-css-importer/blob/master/README.markdown){website}'
-
-
+  - >-
+    [Sass CSS Importer
+    Plugin](https://github.com/chriseppstein/sass-css-importer/blob/master/README.markdown){website}
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
 # Importer
 
+
 ---
+
 ## Content
 
 CSS has an import option that lets you split your CSS into smaller, more maintainable portions.
@@ -52,18 +44,20 @@ body {
   background-color: #efefef;
 }  
 ```
+
 Please note that the .css extension triggers special behavior in Sass so you cannot import a file with a CSS extension. To work around this, you must use a special prefix on the import string and omit the extension.
 
+
 ---
+
 ## Revision
 
 Each time you use *@import* in CSS it ???.
 
 When using *@import* in Sass the file you're importing is taken and ???.
 
-
-* creates a new HTTP request.
-* combined with the file you're importing into.
-* creates a new instance of the file.
-* creates a new copy of the file.
-* combined with the file you're importing into, in a new file.
+- creates a new HTTP request.
+- combined with the file you're importing into.
+- creates a new instance of the file.
+- creates a new copy of the file.
+- combined with the file you're importing into, in a new file.

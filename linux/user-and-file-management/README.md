@@ -1,13 +1,18 @@
-name: User and File management
+name: User & File Management
 
 description: Files, users, permissions.
 
 core: true
 
+next:
+  - linux:jobs-and-processes-data-manipulation
+
 sections:
   '0':
+    - linux-intro
     - bash-environment
-    - file-management
+    - manipulating-environment-variables
+    - linux-file-management
     - file-permissions
     - file-management-tips
     - shell
@@ -16,7 +21,7 @@ sections:
     - user-permissions
   '1':
     - terminal-power-user-tips
-    - conditions
+    - linux-conditions
     - file-management-tips-ii
     - default-permissions
     - super-users-and-root
@@ -97,8 +102,3 @@ standards:
       0: Use simple unix programs such as expr to operate on numerical values
       1: Use simple unix programs such as cat and grep to operate on string values
       2: Compose simple unix programs to produce strings or numerical values
-
-
-
-next:
-  - linux:jobs-and-processes-data-manipulation

@@ -1,29 +1,27 @@
 ---
 author: jordanfish
-
-levels:
-
-  - medium
-
 type: normal
-
-category: how to
-
-aspects:
-  - workout
-  - deep
-
+category: how-to
 links:
-
   - '[CSS Pro Tips](https://github.com/AllThingsSmitty/css-protips){website}'
-  - '[MDN Docs on :not](https://developer.mozilla.org/en-US/docs/Web/CSS/:not){documentation}'
+  - >-
+    [MDN Docs on
+    :not](https://developer.mozilla.org/en-US/docs/Web/CSS/:not){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+---
+
+# Use :not() to apply/unapply styles
 
 
 ---
 
-# Use `:not()` to apply/unapply styles
-
----
 ## Content
 
 Rather than adding a border to a navigation bar, and then removing it for the last element:
@@ -39,6 +37,7 @@ Rather than adding a border to a navigation bar, and then removing it for the la
   border-right: none;
 }
 ```
+
 Use the `:not()` pseudo-class to only apply to the elements you want:
 
 ```css
@@ -47,7 +46,9 @@ Use the `:not()` pseudo-class to only apply to the elements you want:
 }
 ```
 
+
 ---
+
 ## Practice
 
 Complete the code snippet:
@@ -58,22 +59,26 @@ Complete the code snippet:
 }
 ```
 
-* `:not`
-* `.not`
-* `::not`
-* `not`
+- `:not`
+- `.not`
+- `::not`
+- `not`
+
 
 ---
+
 ## Revision
 
 What does the following CSS code do?
+
 ```css
 .div li:not(:last-child) {
 
 }
 ```
+
 ???
 
-* Allows styles to be applied to all elements except for the final element.
-* Allows styles to be applied specifically to the final element.
-* Allows styles to be applied to every other element.
+- Allows styles to be applied to all elements except for the final element.
+- Allows styles to be applied specifically to the final element.
+- Allows styles to be applied to every other element.

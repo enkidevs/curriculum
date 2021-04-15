@@ -1,4 +1,4 @@
-name: Jobs and Processes, Data Manipulation
+name: Jobs & Processes, Data Manipulation
 
 description: Must know concepts of handling jobs and processes in addition to data manipulation in Linux.
 

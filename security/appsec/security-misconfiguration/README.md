@@ -1,7 +1,5 @@
 name: Security Misconfiguration
-
 description: Don't be insecure by default!
-
 insights:
   - security-misconfiguration
   - identify-security-misconfiguration
@@ -9,4 +7,10 @@ insights:
   - use-automated-scanners
   - process-control-security-configuration
   - cloud-security-configuration
-
+aspects:
+  - introduction
+  - new
+  - workout
+  - deep
+  - obscura
+ 

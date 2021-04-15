@@ -1,30 +1,18 @@
 ---
 author: aakarsh
-
-levels:
-
-  - basic
-
-  - advanced
-
-  - medium
-
-aspects:
-  - workout
-  - deep
-
 type: normal
+category: how-to
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+---
 
-category: how to
-
-
+# Use tcpdump to listen to network interface traffic
 
 
 ---
 
-# Use `tcpdump` to listen to network interface traffic
-
----
 ## Content
 
 `tcpdump` is a useful utility to print out
@@ -33,7 +21,7 @@ through network interface card which match a
 given boolean expression.
 
 ```bash
-$ sudo tcpdump -i wlan0 -v 'tcp port 80'
+sudo tcpdump -i wlan0 -v 'tcp port 80'
 ...
 17:09:13.099292 IP 10.0.2.15.46998 >
    132.ip-192-99-245.net.https: Flags [.],
@@ -54,14 +42,14 @@ to `80`.
 See man `pcap-filter` for details on
 filters.
 
+
 ---
+
 ## Revision
 
 You can use `tcpdump` to listen to traffic passing through a *specific interface* by using the ??? flag.
 
-* -i
-* -v
-* -e
-* -a
-
- 
+- -i
+- -v
+- -e
+- -a

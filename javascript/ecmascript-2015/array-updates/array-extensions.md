@@ -1,118 +1,112 @@
 ---
 author: alexjmackey
-
-levels:
-  - beginner
-
 type: normal
-
 category: must-know
-
-inAlgoPool: false
-
-tags:
-  - es6
-  - workout
-  - array
-  - iterators
-
-standards:
-  javascript.es6-extensions-standard-library.1: 10
-
 links:
-  - '[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/values){website}'
-
-aspects:
-  - workout
-
+  - >-
+    [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/values){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
+
 # Array Extensions
 
+
 ---
+
 ## Content
 
-In ES6 the array type is expanded with 3 additional properties:
+In ES2015, the array type was updated to conform to the shape of an **iterator**. This gave arrays 3 additional methods:
 
-* keys (the indexes)
-* values
-* entries
+- `keys`
+- `values`
+- `entries`
 
-These properties return a special type of object called an **iterator**.
+If you haven't used an iterator before, you can think of it as a collection that you can move through, one element at a time.
 
-If you haven't used one before, you can think of an iterator as a special collection that you can move through that will maintain its position.
-
-The below code uses `Array`'s **entries** method to get an iterator and then logs `arr`'s _keys_ and _values_:
+The below code uses the `entries` method to get an iterator and then logs the *keys* and *values*:
 
 ```javascript
-var arr = ["a", "b", "c"];
+let arr = ["a", "b", "c"];
 
-var iEntries = arr.entries();
+let keysAndValues = arr.entries();
 
-iEntries.next();
-//{value: [0, "a"], done:false}
+keysAndValues.next();
+// {value: [0, "a"], done:false}
 
-iEntries.next();
-//{value: [1, "b"], done:false}
+keysAndValues.next();
+// {value: [1, "b"], done:false}
 
-iEntries.next();
-//{value: [2, "c"], done:false}
+keysAndValues.next();
+// {value: [2, "c"], done:false}
 
-iEntries.next();
-//{value: undefined, done: true}
+keysAndValues.next();
+// {value: undefined, done: true}
 ```
 
+
 ---
+
 ## Practice
 
 What will the following code do?
 
 ```javascript
-var enki = ["e", "n", "k", "i"]
+let enki = ["e", "n", "k", "i"]
 
-var enkiIterator = enki.keys()
+let enkiIterator = enki.keys()
 
 console.log(enki[enkiIterator.next().value])
 // ???
 ```
 
-* log e
-* log en
-* raise an error
-* log undefined
+- log e
+- log en
+- raise an error
+- log undefined
+
 
 ---
+
 ## Revision
 
 Fill in the gaps such that an iterator will be created from the given array and the code won't raise any errors. The last gap should be completed with the right output of the expression above:
 
 ```javascript
-var arr = [3, 1, 4]
+let arr = [3, 1, 4]
 
-var arrIt = arr.???()
+let arrIt = arr.???()
 
-var first = arrIt.???()
+let first = arrIt.???()
 console.log(first.value[0])
 // 0
 console.log(first.???[???])
 // 3
-var second = arrIt.next()
+let second = arrIt.next()
 console.log(???.value)
 // ???
 ```
 
-* entries
-* next
-* value
-* 1
-* second
-* [1, 1]
-* [1, 4]
-* [0, 1]
-* first
-* keys
-* iterator
-* toIterator
-* key
-* 2
-* 3
-* 0
+- entries
+- next
+- value
+- 1
+- second
+- [1, 1]
+- [1, 4]
+- [0, 1]
+- first
+- keys
+- iterator
+- toIterator
+- key
+- 2
+- 3
+- 0
+ 

@@ -1,52 +1,48 @@
 ---
 author: nickdaminov
-
-levels:
-  - basic
-  - medium
-
 type: normal
-
 category: feature
-
-inAlgoPool: false
-
-standards:
-  sql.connect-client.0: 10
-  sql.connect-client.1: 10
-
 tags:
   - python
   - implementation
   - database packages
-
 links:
   - '[Psycopg2 package](http://initd.org/psycopg/){website}'
   - '[SQLAlchemy package](http://www.sqlalchemy.org/){website}'
   - '[Psycopg documentation](http://initd.org/psycopg/docs/index.html){website}'
   - '[Psycopg start guide](http://initd.org/psycopg/docs/usage.html){website}'
-  - '[Using Python to query Postgres video](https://www.youtube.com/watch?v=8gd1DlXwzlY){website}'
-
-aspects:
-  - workout
-
+  - >-
+    [Using Python to query Postgres
+    video](https://www.youtube.com/watch?v=8gd1DlXwzlY){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Python Database Packages
 
+
 ---
+
 ## Content
 
 **Python** has many libraries which implement various functionalities. Some of those libraries allow the user to operate on databases, these libraries are also called *database drivers*. The examples of such libraries:
- - Psycopg
- - db.py (requires Psycopg installed)
- - SQLAlchemy
+
+- Psycopg
+- db.py (requires Psycopg installed)
+- SQLAlchemy
 
 As an example we will take *Psycopg on MacOS X*, you can run the following commands straight from the command line or from the python scripts.
 
 After installation of the *Psycopg* package we can run python by typing `python` in the terminal.
 
 Now let's connect to a database:
+
 ```python
 # Import the library
 >>> import psycopg2
@@ -60,6 +56,7 @@ Now let's connect to a database:
 ```
 
 In order to execute a query we must use the cursor class:
+
 ```python
 # Creating a cursor instance
 >>> cur = conn.cursor()                    
@@ -80,6 +77,7 @@ As `cur` is now a Python list object we can iterate through the query result sim
 ```
 
 Which should print:
+
 ```python
 (1, 'black')
 (2, 'blue')
@@ -93,7 +91,9 @@ Which should print:
 (10, 'yellow')
 ```
 
+
 ---
+
 ## Practice
 
 If we consider `psycopg2` library what's the correct order of connecting and then using it?
@@ -103,18 +103,18 @@ If we consider `psycopg2` library what's the correct order of connecting and the
 3 - ???
 4 - ???
 
-* import psycopg2
-* establish a connection with the database
-* initialize a cursor
-* execute a query with the cursor
+- import psycopg2
+- establish a connection with the database
+- initialize a cursor
+- execute a query with the cursor
+
 
 ---
+
 ## Revision
 
 How can you connect to a database with Python?
 ???
 
-* By using dedicated libraries
-* Python provides an inbuilt db functionality
- 
- 
+- By using dedicated libraries
+- Python provides an inbuilt db functionality

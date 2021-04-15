@@ -1,51 +1,35 @@
 ---
 author: WebReflection
-
-levels:
-
-  - basic
-
-  - advanced
-
-  - medium
-
 type: normal
-
 category: must-know
-
-standards:
-
-  javascript.async.0: 10
-
 tags:
-
   - introduction
-
   - workout
-
   - deep
-
-aspects:
- - obscura
- - workout
- - deep
-
-
 links:
-
-  - '[W3C HTML5 Timers](https://dev.w3.org/html5/spec-LC/timers.html#timers){documentation}'
-
-
+  - >-
+    [W3C HTML5
+    Timers](https://dev.w3.org/html5/spec-LC/timers.html#timers){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
 # Using timers with extra arguments
 
+
 ---
+
 ## Content
 
-Both `setTimeout` and `setInterval` are a _W3C HTML5_ specification, available as global methods in both client and server engines.
+Both `setTimeout` and `setInterval` are a *W3C HTML5* specification, available as global methods in both client and server engines.
 
-```
+```js
 // signature for both methods
 const uid = setTimeout(
   handler,    // Function
@@ -53,7 +37,9 @@ const uid = setTimeout(
   ...optArgs  // any value
 );
 ```
+
 These methods allow authors to schedule timer-based callbacks.
+
 ```javascript
 function chrono(start) {
   // same start value is passed each time
@@ -62,8 +48,10 @@ function chrono(start) {
 }
 let t = setInterval(chrono, 0, Date.now());
 ```
+
 It is possible to cancel a scheduled interval or timeout using respectively `clearInterval` or `clearTimeout`
-```
+
+```js
 // to stop previous chronometer
 clearInterval(t);
 ```
@@ -72,26 +60,32 @@ Please note this API does not guarantee that timers will fire exactly on schedul
 
 Delays due to CPU load, other tasks, etc, are to be expected.
 
+
 ---
+
 ## Practice
 
 How to prevent the `shutdown` to happen?
-```
+
+```js
 let task = setTimeout(shutdown, 5000);
 if (confirm('cancel shutdown?')) {
   ???
 }
 ```
 
-* `clearTimeout(task)`
-* `task = null;`
-* `delete task;`
+- `clearTimeout(task)`
+- `task = null;`
+- `delete task;`
+
 
 ---
+
 ## Revision
 
 What log is shown each second?
-```
+
+```js
 let t = setInterval(
   (a, b) => {
     ++a;
@@ -104,12 +98,8 @@ let t = setInterval(
 );
 ```
 
-* `always 11`
-* `10 then 11 then 12`
-* `NaN`
-* `11 then 12 then 13`
-
- 
- 
- 
+- `always 11`
+- `10 then 11 then 12`
+- `NaN`
+- `11 then 12 then 13`
  

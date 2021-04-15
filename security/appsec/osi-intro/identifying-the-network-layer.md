@@ -1,73 +1,71 @@
 ---
 author: milesflo
-
-levels:
-
-  - beginner
-
-  - basic
-
-  - medium
-
 type: normal
-
 category: must-know
-
-inAlgoPool: false
-
-aspects:
-  - introduction
-  - workout
-
 links:
-
-  - '[SANS Institute](https://www.sans.org/reading-room/whitepapers/protocols/applying-osi-layer-network-model-information-security-1309){website}'
-
-parent: securing-the-data-link-layer
-
+  - >-
+    [SANS
+    Institute](https://www.sans.org/reading-room/whitepapers/protocols/applying-osi-layer-network-model-information-security-1309){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
 # Identifying the Network Layer
 
+
 ---
+
 ## Content
 
-The Network Layer (Layer 3) is the physical infrastructure that allows the transmission of data over the Internet. These include physical routers, routing tables which use IP addresses for both local and external communication, and next-hops that facilitate the large scale transmission of packets.
- 
+The **Network Layer** (Layer 3) is responsible for packet forwarding, including routing through different routers.
+
+For example, your computer in London is trying to connect to a server in San Francisco. Because there is more than one path that it can take, the **Network Layer** helps it choose the most efficient one.
+
+> The **Network Layer** relays requests from the **Transport Layer** (Layer 4) to the **Data Link Layer** (Layer 2).
+
+Some functions of the **Network Layer** include:
+
+- connectionless communication
+  - data packets can travel from sender to recipient, without the recipient having to acknowledge receipt
+- host addressing
+  - each host in the network must have a unique address, commonly known as IP (Internet Protocol) address
+- message forwarding
+  - due to the nature of how networks are partitioned, gateways (or routers) must be used to forward packets between them 
+
+
 ---
+
 ## Practice
 
-What role does the Network Layer play in the OSI 7 Layer Model?
-???
+The Network Layer (Layer ???) is responsible for ??? ???.
 
+- 3
+- packet
+- forwarding
+- 2
+- 4
+- host
+- packaging
 
-* Routing and transmission over the physical topography of the Internet
-* Providing computational power via electronic circuits
-* Transmitting data between two directly connected mediums
-* Packaging data packets into data streams and vice versa for transport
-* Providing a user interface
 
 ---
+
 ## Revision
 
-One part of the Network Layer is ???, responsible for identifying stations both locally and externally with IP addresses.
+Some functions of the **Network Layer** include:
 
-
-* routing tables
-* next-hops
-* routers
-* ethernet cables
-
----
-## Quiz
-### What role does this Layer play in the OSI 7 Layer Model?
-```
-What role does the Network Layer play in the OSI 7 Layer Model?
+```plain-text
+1. connectionless ???
+2. host ???
+3. message ???
 ```
 
- ???
-
-* Routing and transmission over the physical topography of the Internet
-* Providing computational power via electronic circuits
-* Transmitting data between two directly connected mediums
-* Packaging data packets into data streams and vice versa for transport
+- communication
+- addressing
+- forwarding

@@ -1,36 +1,26 @@
 ---
 author: SebaRaba
-
-levels:
-
-  - beginner
-
-  - basic
-
-  - medium
-
-  - advanced
-
 type: normal
-
 category: must-know
-
-aspects:
-
-  - deep
-
 links:
-
   - '[en.wikipedia.org](https://en.wikipedia.org/wiki/HTTP_pipelining){website}'
-  - '[brianbondy.com](https://brianbondy.com/blog/119/what-you-should-know-about-http-pipelining){website}'
-
-parent: a-response-example
-
+  - >-
+    [brianbondy.com](https://brianbondy.com/blog/119/what-you-should-know-about-http-pipelining){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
 # HTTP pipelining
 
+
 ---
+
 ## Content
 
 **HTTP pipelining** is a technique in which multiple *requests* are sent on a single `TCP` connection, without waiting for the corresponding *responses*.
@@ -43,32 +33,34 @@ Keep in mind that **non-idempotent**[1] requests, like those using `POST`, shoul
 
 HTTP pipelining requires both the *client* and the *server* to support it. Any server that supports `HTTP/1.1` should also support **pipelining** by default.
 
+
 ---
+
 ## Practice
 
-??? and `PATCH` requests shouldn't be pipelined.
+??? and `PATCH` requests shouldn't be sent on a single `TCP` connection.
 
+- `POST`
+- `GET`
+- `HEAD`
+- `OPTIONS`
 
-* `POST`
-* `GET`
-* `HEAD`
-* `OPTIONS`
 
 ---
+
 ## Revision
 
-HTTP pipelining means exchanging multiple messages on the same
+HTTP pipelining means exchanging multiple messages on the same ???
 
-???
+- TCP connection
+- HTTP connection
+- local network
+- wireless connection
 
-
-* TCP connection
-* HTTP connection
-* local network
-* wireless connection
 
 ---
+
 ## Footnotes
+
 [1:idempotent]
 In Computer Science, the term **idempotent** is used to describe an operation that will produce the same result if executed once or multiple times.
-

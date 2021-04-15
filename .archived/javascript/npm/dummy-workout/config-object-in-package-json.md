@@ -57,7 +57,7 @@ The values can later be changed from within the command line:
 ```bash
 # changes port value from 8000
 # to 8080
-$ npm config set enki:port 8080
+npm config set enki:port 8080
 ```
 
 ---
@@ -66,7 +66,7 @@ $ npm config set enki:port 8080
 Change the value of `port` field of the config object in `package.json` to 1000 from the command line:
 
 ```
-$ npm ??? ??? 
+npm ??? ??? 
         enki:??? 1000
 ```
 
@@ -84,7 +84,7 @@ $ npm ??? ???
 Change the value of `port` field of the config object in `package.json` to 1000 from the command line:
 
 ```
-$ npm ??? ??? enki:??? 1000
+npm ??? ??? enki:??? 1000
 ```
 
 * config
@@ -94,3 +94,5 @@ $ npm ??? ??? enki:??? 1000
 * package.json
 * config.json
 * 8080
+ 
+ 

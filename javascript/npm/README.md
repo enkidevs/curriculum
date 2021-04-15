@@ -5,12 +5,12 @@ description: Node package manager. It does everything it says in its name.
 sections:
   '0':
     - intro-npm
-    - features-i
+    - npm-features-i
     - packages-modules
   '1':
-    - features-ii
+    - npm-features-ii
     - publishing
-    - tools-i
+    - npm-tools-i
 
 standards:
   use-open-source-javascript-packages:

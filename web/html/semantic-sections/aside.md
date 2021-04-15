@@ -1,31 +1,26 @@
 ---
 author: Stefan-Stojanovic
-
-levels:
-  - beginner
-  - basic
-
 type: normal
-
 category: must-know
-
-standards:
-  web.layout-html.0: 10
-  web.semantic-html.0: 10
-  web.semantic-html.1: 10
-  web.semantic-html.3: 10
-
-aspects:
-  - introduction
-  - workout
-  - deep
-
 links:
-  - '[MDN docs for aside](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/aside){website}'
+  - >-
+    [HTML <aside>
+    Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/aside){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+---
+
+# The aside Element
+
 
 ---
-# Aside
----
+
 ## Content
 
 The HTML `<aside>` element is a container element used to represent a section of a page that consists of content that is tangentially related to the content around the `<aside>` element. This content is held separate from the page content and frequently presented as sidebars or call-out boxes.
@@ -33,6 +28,7 @@ The HTML `<aside>` element is a container element used to represent a section of
 The `<aside>` element can contain a sidebar, pull quotes, advertising, groups of navigational `<nav>` elements and more.
 
 Example:
+
 ```html
 <p>
   My family and I visited
@@ -47,20 +43,24 @@ Example:
 </aside>
 ```
 
+
 ---
+
 ## Practice
 
 What content would be well placed within an aside?
 
 ???
 
-* all 4 of these choices
-* pull quotes
-* sidebar
-* advertising
-* groups of `<nav>` elements
+- all 4 of these choices
+- pull quotes
+- sidebar
+- advertising
+- `groups of <nav> elements`
+
 
 ---
+
 ## Revision
 
 Which HTML container element represents a section of a page that consists of content that is tangentially related to the content around the aside element, and which could be considered separate from that content?
@@ -71,20 +71,23 @@ An `<aside>` should usually contain a navigation list on either the left- or rig
 
 ???
 
-* `<aside>`
-* `<article>`
-* `<section>`
-* `<comment>`
-* `<news>`
-* `<record>`
-* `<forum>`
-* False
-* True
+- `<aside>`
+- False
+- `<article>`
+- `<section>`
+- `<comment>`
+- `<news>`
+- `<record>`
+- `<forum>`
+- True
+
 
 ---
+
 ## Quiz
 
 ### How much do you know about HTML container elements?
+
 
 What container element would best be used here?
 
@@ -104,9 +107,8 @@ What container element would best be used here?
 
 TAG: ???
 
-* `<aside>`
-* `<main>`
-* `<block>`
-* `<article>`
-* `<section>`
- 
+- `<aside>`
+- `<main>`
+- `<block>`
+- `<article>`
+- `<section>`

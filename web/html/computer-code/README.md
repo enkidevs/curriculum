@@ -6,8 +6,6 @@ description: Displaying code in your HTML website.
 
 section: 0
 
-parent: formatting-text-elements
-
 insights:
   - intro-code
   - intro-kbd
@@ -17,3 +15,8 @@ insights:
 
 exercises:
   - html-computer-code-codepen-exercise
+
+aspects:
+  - introduction
+  - workout
+  - deep

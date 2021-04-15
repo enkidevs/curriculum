@@ -14,5 +14,7 @@ exercises:
   - sql-practice-average-aggregate-multiple-tables
   - sql-practice-max-aggregate-multiple-tables
   - sql-practice-min-max-multiple-tables
- 
- 
+
+aspects:
+  - deep
+  - workout

@@ -1,32 +1,29 @@
 ---
 author: mihaiberq
-
-levels:
-  - beginner
-
 type: normal
-
 category: must-know
-
-aspects:
-  - introduction
-
-inAlgoPool: false
-
 links:
   - '[Scrimba CSS Float & Clear](https://scrimba.com/p/pWvwCg/cD6KWHq){website}'
-  - '[MDN Docs on Float](https://developer.mozilla.org/en-US/docs/Web/CSS/float){documentation}'
-
+  - >-
+    [MDN Docs on
+    Float](https://developer.mozilla.org/en-US/docs/Web/CSS/float){documentation}
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
 # Floating Elements
 
+
 ---
+
 ## Content
 
 Another way to position elements on page is with `floats`. This property allows elements to be positioned to the left or right side of the parent element. All other elements will flow around the floated element.
 
 One use-case is floating an image to the side of a block of text, as the text will surround the image:
+
 ```css
 #imageleft{
   float: left;
@@ -46,6 +43,7 @@ p{
 ![min.svg](https://img.enkipro.com/1deb6d42e45d2bd90fc68736575f71c0.png)
 
 It can also be used to align elements to the side of the last one:
+
 ```css
 .elem{
   width: 120px;
@@ -60,7 +58,9 @@ It can also be used to align elements to the side of the last one:
 }
 
 ```
+
 And the HTML:
+
 ```html
 <div class="elem leftelem">Left</div>
 <div class="elem leftelem">Left</div>
@@ -78,21 +78,25 @@ However, this might not be the layout we were looking to achieve. As there is sp
 To push all right floating elements on the next line, we have to use a property called `clear`. This property doesn't allow any `float` elements to the side specified by its value. The three most used values are: `left`, `right` and `both`.
 
 Because we want the first right element to start on a new line, we have to `clear` floating elements to the left of it:
+
 ```css
 #first-right-elem{
   clear:left;
 }
 ```
+
 And the result will be:
 
 ![clearmin.svg](https://img.enkipro.com/b84c371f37e5eb86d96a9cb45e41a52e.png)
 
+
 ---
+
 ## Revision
 
 Text ??? a floated element.
 
-* surrounds
-* pushes
-* overlaps
-* underlaps
+- surrounds
+- pushes
+- overlaps
+- underlaps

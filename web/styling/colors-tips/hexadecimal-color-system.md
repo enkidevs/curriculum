@@ -1,29 +1,28 @@
 ---
 author: oj14henry
-
-levels:
-  - basic
-  - beginner
-
 type: normal
-
 category: feature
-
-aspects:
-  - introduction
-
 tags:
   - hexadecimal
   - colour
-
 links:
   - '[Scrimba CSS Colors](https://scrimba.com/p/pWvwCg/cMMymu2){website}'
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
 # Hexadecimal color system
 
+
 ---
+
 ## Content
 
 The hexadecimal color system starts with `#` and is case-insensitive.
@@ -40,25 +39,34 @@ The hexadecimal color system starts with `#` and is case-insensitive.
 Hexadecimal runs from `0` to `F`
 (`0`, `1`, `2`, ..., `9`, `A`, `B`, ..., `F`)
 
+
 ---
+
 ## Practice
 
-Hexadecimal numbers run from 0 to ???, and from A to ???.
+Hexadecimal numbers run from:
 
-* `9`
-* `F`
-* `10`
-* `1`
-* `G`
-* `Z`
+```plain-text
+0 to ???
+A to ???
+```
+
+- `9`
+- `F`
+- `10`
+- `1`
+- `G`
+- `Z`
+
 
 ---
+
 ## Revision
 
 Which of these hexadecimal colors are not the same?
 
 ???
 
-* #FFFFF and #FFF
-* #FFF and #FFFFFF
-* #FFC125 and #ffc125
+- `#FFFFF and #FFF`
+- `#FFF and #FFFFFF`
+- `#FFC125 and #ffc125`

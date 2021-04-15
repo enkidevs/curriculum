@@ -1,33 +1,28 @@
 ---
 author: rosielowther
-
-levels:
-  - basic
-  - advanced
-  - medium
-
 type: normal
-
 category: feature
-
-aspects:
-  - introduction
-  - new
-  - workout
-  - deep
-  - obscura
-
-standards:
-  javascript.browser-apis-device.0: 10
-
 links:
   - '[davidwalsh.name](https://davidwalsh.name/javascript-battery-api){website}'
-  - '[developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/API/Battery_Status_API){website}'
-
+  - >-
+    [developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/API/Battery_Status_API){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
 ---
+
 # Battery API
 
+
 ---
+
 ## Content
 
 The Battery API provides information about the system's **battery** status, such as the current charge level, the time left to full charge and the battery time remaining.
@@ -54,7 +49,9 @@ navigator.getBattery()
 
 Keep in mind that this API is currently available for Opera, Firefox and Chrome(Android version as well).
 
+
 ---
+
 ## Practice
 
 The async `getBattery` method of the Battery API returns a `battery` object. Fill in the gaps in the following snippet such that you log each level change in the device's battery via an event listener:
@@ -70,18 +67,20 @@ navigator.???()
   })
 ```
 
-* getBattery
-* battery
-* addEventListener
-* 'levelChange'
-* logBatteryLevel
-* addListener
-* bat
-* 'level'
-* 'change'
-* BatteryAPI
+- getBattery
+- battery
+- addEventListener
+- 'levelChange'
+- logBatteryLevel
+- addListener
+- bat
+- 'level'
+- 'change'
+- BatteryAPI
+
 
 ---
+
 ## Revision
 
 Using the battery API, fill in the missing gaps of the following code snippet such that the battery level is outputed properly:
@@ -93,12 +92,12 @@ Using the battery API, fill in the missing gaps of the following code snippet su
   })
 ```
 
-* navigator
-* getBattery
-* then
-* battery
-* batteryApi
-* now
-* run
-* start
+- navigator
+- getBattery
+- then
+- battery
+- batteryApi
+- now
+- run
+- start
  

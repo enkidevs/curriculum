@@ -1,37 +1,21 @@
 ---
 author: jfarmer
-
-levels:
-
-  - basic
-
-  - beginner
-
 type: normal
-
 category: must-know
-
-inAlgoPool: false
-
 tags:
-
-  - introduction
-
-  - workout
-
-
-
-
-aspects:
   - introduction
   - workout
-
-
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
 # Users And Groups On Linux
 
+
 ---
+
 ## Content
 
 Linux is a multiuser operating system.  Like any multiuser operating system, it has a notion of "permissions", since by default one doesn't want one user to be able to edit another user's files (or edit system files without proving they're an administrator).  There are two concepts central to Linux's permissions: users and groups.
@@ -53,25 +37,25 @@ The `/etc/group` file contains a list of every group on the system.  Run `cat /e
 You can use the `groups` command to see which groups a specific user belongs to.  For example:
 
 ```shell
-$ groups jesse
+groups jesse
 jesse : admin www-data rvm
-$
 ```
 
 Here we can see that the user `jesse` belongs to three groups: `admin`, `www-data`, and `rvm`.
 
+
 ---
+
 ## Revision
 
 You can see the groups a user is in by issuing:
-```
-$ ??? ???
+
+```plain-text
+??? ???
 ```
 
-* `groups`
-* `user`
-* `group`
-* `ls -g`
-* `-groups`
-
- 
+- `groups`
+- `user`
+- `group`
+- `ls -g`
+- `-groups`

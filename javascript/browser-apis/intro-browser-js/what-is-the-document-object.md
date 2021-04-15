@@ -1,37 +1,36 @@
 ---
 author: elliehoward
-
-levels:
-
-  - beginner
-
-  - basic
-
-  - medium
-
-
-aspects:
-
-  - introduction
-
-  - workout
-
-
 type: normal
-
 category: must-know
-
-standards:
-  javascript.dom.2: 10
-
 links:
-  - '[MDN - DOM Introduction](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction){documentation}'
-  - '[W3 Schools - The HTML DOM Element Object](https://www.w3schools.com/jsref/dom_obj_all.asp){article}'
-  - '[Free Code Camp - What is the Document Object Model?](https://www.youtube.com/watch?v=80Mr2Z6Qikc){article}'
-  - '[Stack Overflow - Need help to understand what Document Object Model is? ](https://stackoverflow.com/questions/6965802/need-help-to-understand-what-document-object-model-is){website}'
+  - >-
+    [MDN - DOM
+    Introduction](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction){documentation}
+  - >-
+    [W3 Schools - The HTML DOM Element
+    Object](https://www.w3schools.com/jsref/dom_obj_all.asp){article}
+  - >-
+    [Free Code Camp - What is the Document Object
+    Model?](https://www.youtube.com/watch?v=80Mr2Z6Qikc){article}
+  - >-
+    [Stack Overflow - Need help to understand what Document Object Model is?
+    ](https://stackoverflow.com/questions/6965802/need-help-to-understand-what-document-object-model-is){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
+
 # What is the Document Object?
+
+
 ---
+
 ## Content
 
 The Document Object Model, also called the DOM, is a representation of an HTML or XML document. Nesting elements are arranged into a Tree, similar to the file structure in your computer. It is an API for using a programming language to add, read, edit, and delete HTML elements and attributes. Through this interface, scripts can also change the CSS styles, react to events, and create new elements on the page.
@@ -59,11 +58,12 @@ document
 ```
 
 
-
 ---
+
 ## Practice
 
-Select the element with the id "message" and change it's content using the DOM:
+Select the element with the id `"message"` and change its content using the DOM:
+
 ```html
 <html>
 <body>
@@ -80,19 +80,20 @@ document
 </html>
 ```
 
+- `getElementById`
+- `innerHTML`
+- `message`
+- `DOM`
+- `HTML`
+- `<p>`
+- `id`
 
-* `getElementById`
-* `innerHTML`
-* `message`
-* `DOM`
-* `HTML`
-* `<p>`
-* `id`
 
 ---
+
 ## Revision
 
-Select the element with the id "time" and change it's content to "Future"
+Select the element with the id `"time"` and change its content to `"Future"`.
 
 ```html
 <html>
@@ -110,7 +111,6 @@ Select the element with the id "time" and change it's content to "Future"
 </html>
 ```
 
-* `document.getElementById('time').innerHTML = "Future"`
-* `document.getElement('time').HTML = "Future"`
-* `DOM.getElementById('time').content = "Future"`
- 
+- `document.getElementById('time').innerHTML = "Future"`
+- `document.getElement('time').HTML = "Future"`
+- `DOM.getElementById('time').content = "Future"`

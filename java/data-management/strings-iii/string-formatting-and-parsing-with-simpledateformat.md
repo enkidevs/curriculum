@@ -1,31 +1,24 @@
 ---
 author: catalin
-
-levels:
-
-  - basic
-
-  - beginner
-
 type: normal
-
-category: how to
-
-aspects:
-
-  - introduction
-
-links:
-
-  - '[5597e786d07c503200b46e1e](5597e786d07c503200b46e1e){website}'
-
-notes: 'https://insights.enki.com/insight/5597e786d07c503200b46e1e'
-
+category: how-to
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
 ---
 
 # String formatting and parsing with `SimpleDateFormat`
 
+
 ---
+
 ## Content
 
 `SimpleDateFormat` is a class that provides the user the ability to normalize dates, `format()` `String`s into `Date` objects and vice-versa.
@@ -33,6 +26,7 @@ notes: 'https://insights.enki.com/insight/5597e786d07c503200b46e1e'
 A `SimpleDateFormat` object  will need  to be created containing the date format of `String`.
 
 Convert `String` to `Date`:
+
 - The `parse()` method can be called to get the desired `Date`:
 
 ```java
@@ -47,7 +41,7 @@ Date date = new SimpleDateFormat(
 SimpleDateFormat.setTimeZone(timeZoneObj);
 ```
 
- - Parsing begins by default at index `0` , but the starting index can be specified in the method.
+- Parsing begins by default at index `0` , but the starting index can be specified in the method.
 
 Convert `Date` to `String`:
 
@@ -62,7 +56,9 @@ String string = new SimpleDateFormat
 
 Keep in mind that `SimpleDateFormat` is not `Thread` safe. Avoid static objects and using it outside a `Synchronized` block.
 
+
 ---
+
 ## Practice
 
 Complete the following Java code snippet to convert the string into a date:
@@ -74,29 +70,31 @@ Date date = new
 .???(dateString);
 ```
 
-* `SimpleDateFormat`
-* `parse`
-* `Date`
-* `NewDate`
-* `format`
-* `DateFormat`
+- `SimpleDateFormat`
+- `parse`
+- `Date`
+- `NewDate`
+- `format`
+- `DateFormat`
+
 
 ---
+
 ## Revision
 
 Complete the following Java code snippet to convert the date into a string:
 
 ```java
 Date today = Calendar.???()
-                     .getTime();
+  .getTime();
 String convert =
-    new SimpleDateFormat("mm-DD-yyyy")
-     .???(date);
+  new SimpleDateFormat("mm-DD-yyyy")
+  .???(date);
 ```
 
-* `getInstance`
-* `format`
-* `getDate`
-* `getDay`
-* `parse`
-* `thread`
+- `getInstance`
+- `format`
+- `getDate`
+- `getDay`
+- `parse`
+- `thread`

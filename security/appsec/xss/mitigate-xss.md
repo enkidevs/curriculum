@@ -1,46 +1,37 @@
 ---
 author: lizTheDeveloper
-
-levels:
-
-  - beginner
-
-  - basic
-
-  - medium
-
-aspects:
-
-  - introduction
-
-  - workout
-
 type: normal
-
-category: how to
-
-
-standards:
-  security.xss.3: 10
-  security.xss.4: 10
-  security.xss.6: 10
-  security.xss.7: 10
-
+category: how-to
 links:
-  - '[OWASP Top Ten](https://www.owasp.org/images/7/72/OWASP_Top_10-2017_%28en%29.pdf.pdf)'
-  - '[link to deeper dive blog post](https://www.owasp.org/index.php/XSS_(Cross_Site_Scripting)_Prevention_Cheat_Sheet)'
-  - '[DOM based XSS Prevention Cheat Sheet](https://www.owasp.org/index.php/DOM_based_XSS_Prevention_Cheat_Sheet)'
-  - '[XSS Filter Evasion Cheat Sheet](https://www.owasp.org/index.php/XSS_Filter_Evasion_Cheat_Sheet)'
-  - '[OWASP Java Encoder Project](https://www.owasp.org/index.php/OWASP_Java_Encoder_Project)'
-
+  - '[OWASP Top Ten](https://owasp.org/www-project-top-ten/){website}'
+  - >-
+    [Cross Site Scripting Prevention Cheat
+    Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html){website}
+  - >-
+    [DOM based XSS Prevention Cheat
+    Sheet](https://cheatsheetseries.owasp.org/cheatsheets/DOM_based_XSS_Prevention_Cheat_Sheet.html){website}
+  - >-
+    [XSS Filter Evasion Cheat
+    Sheet](https://owasp.org/www-community/xss-filter-evasion-cheatsheet){website}
+  - '[OWASP Java Encoder Project](https://owasp.org/owasp-java-encoder/){website}'
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
 # mitigate-xss
 
+
 ---
+
 ## Content
 
-Follow these simple rules for mitigating XSS vulnerability. **Bookmark this insight to receive links that have examples.**
+Follow these simple rules for mitigating XSS vulnerability.
 
 - Never Insert Untrusted Data Except in Allowed Locations
 - HTML Escape Before Inserting Untrusted Data into HTML Element Content
@@ -53,25 +44,30 @@ Follow these simple rules for mitigating XSS vulnerability. **Bookmark this insi
 - Use HTTPOnly cookie flag
 - Implement Content Security Policy
 - Use an Auto-Escaping Template System
- 
+
+
 ---
+
 ## Practice
 
 What is the best way to prevent XSS attacks?
+
 ???
 
-* Escape untrusted data before doing anything with it
-* Prevent free-form entry fields
-* Only allow traffic from trusted locations
-* Only store data on the client
+- Escape untrusted data before doing anything with it
+- Prevent free-form entry fields
+- Only allow traffic from trusted locations
+- Only store data on the client
+
 
 ---
+
 ## Revision
 
 How should you escape your user input?
 
 ???
 
-* Using a library designed for the job
-* Write custom validation for my specific use case
-* Use IP filtering rules to determine which input to escape
+- Using a library designed for the job
+- Write custom validation for my specific use case
+- Use IP filtering rules to determine which input to escape

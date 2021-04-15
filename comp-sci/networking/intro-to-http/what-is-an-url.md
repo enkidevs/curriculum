@@ -1,42 +1,34 @@
 ---
 author: SebaRaba
-
-levels:
-
-  - beginner
-
-  - basic
-
-  - medium
-
-  - advanced
-
 type: normal
-
 category: must-know
-
-aspects:
-
-  - introduction
-
 links:
-
-  - '[docs.oracle.com](https://docs.oracle.com/javase/tutorial/networking/urls/definition.html){website}'
-  - '[www.computerhope.com](http://www.computerhope.com/jargon/u/url.htm){website}'
-
-parent: what-is-http
-
+  - >-
+    [docs.oracle.com](https://docs.oracle.com/javase/tutorial/networking/urls/definition.html){website}
+  - >-
+    [www.computerhope.com](http://www.computerhope.com/jargon/u/url.htm){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
 # What is an URL?
 
+
 ---
+
 ## Content
 
 **URLs** (Uniform Resource Locators) are sequences of characters used to identify resources on the Internet. They are specified in the header of the request.
 
 An URL can be broken down into several key components:
-```
+
+```plain-text
 http://www.enki.com:80/path/res?q=x
 |__|   |_____________||_______||__|
 protocol     host        path  query
@@ -52,44 +44,48 @@ A **URL** is not specific to the `HTTP` protocol, but is a generic and standardi
 In fact, a **URL** is subtype of **URI** (Uniform Resource Identifier), but accompanied by an "access mechanism" or "network locator" (`http://`).
 While all **URL**s are **URI**s, not all **URI**s are **URL**s.
 
+
 ---
+
 ## Practice
 
 What character(s) is/are used to specify the beginning of the `query string` in a **URL** ?
 
 ???
 
+- `?`
+- `&`
+- `wwww`
+- `:`
+- `^`
+- `//`
+- `://`
 
-* `?`
-* `&`
-* `wwww`
-* `:`
-* `^`
-* `//`
-* `://`
 
 ---
+
 ## Revision
 
 The substring of an URL containing a subdomain, a domain and a port number is called
 
 ???
 
+- `host`
+- `path`
+- `query`
+- `body`
+- `suffix`
 
-* `host`
-* `path`
-* `query`
-* `body`
-* `suffix`
 
 ---
+
 ## Footnotes
+
 [1: Query string]
 The information in a query string is usually used for additional operations that are done on the server-side, such as filtering or searching:
 
-```
+```plain-text
 www.myapp.com/users?name=John
 ```
 
 It would make sense for the above URL to return any users with the name *John*.
-
