@@ -51,7 +51,7 @@ Types of change:
 ## April 19th 2021
 
 ### Changed
-- [Python - Change discussion insights to coding]()
+- [Python - Change discussion insights to coding](https://github.com/enkidevs/curriculum/pull/2678)
 
 ## April 13th 2021
 
