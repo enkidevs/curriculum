@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## April 19th 2021
+
+### Changed
+- [Python - Change discussion insights to coding]()
+
 ## April 13th 2021
 
 ### Fixed
