@@ -10,25 +10,27 @@ category: coding
 
 ---
 
-# Test Yourself
+# Word Length
 
 ---
 
 ## Content
 
-Can you define a function that will take two tuples as input, sum up the values in each tuple, multiply and print the resulting numbers?
+Can you define a function that will take a sentence as input? The function should split the sentence into separate words and only output words longer than 4 letters?
 
-Tuples:
+Example input/output:
 ```python
-firstTuple = (1, 3, 5)
+# Input
+myFunction('Mary had a little lamb')
 
-secondTuple = (2, 4, 6)
+# Output:
+little
 ```
 
 To achieve this, you can use the following concepts:
-- function definition (`def ...:`)
-- variable creation (`age = 30`)
-- built-in methods (`sum(x)`, `list(x)`)
+- flow control (`for...in...`, `if (x > 4)...`)
+- built-in functions (`len()`, `split()`)
+- function creation (`def ... :`)
 
 Learning is best when we give it an honest try. Even if we make a mistake, we'll remember it and do better next time.
 
@@ -50,20 +52,12 @@ Remember, learning is more effective when we do it with others.
 
 [1: Hints]
 
-Start by defining and naming your function.
+Start by defining a function with an input variable.
 
-Ex:
-```python
-def tupleAddition(a, b):
-```
+Next, split the input variable using (`.split()`).
 
-Inside the function convert each input tuple into a list. (`list(variable)`)
+Then initiate a `for...in...` loop to cycle through the split text.
 
-Then sum up all the values in each list.
+Inside the loop, add a flow control `if` statement that will check if the word is larger than 4. (use `len()`)
 
-Next, return the product of the summed up values.
-
-Outside of the function, create the previously given tuples.
-
-Finally, call the function with the two tuples.
-
+Lastly, print the word inside the `if` statement.
