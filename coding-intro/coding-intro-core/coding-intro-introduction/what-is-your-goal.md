@@ -37,4 +37,4 @@ A querying language is a specialized programming language that is used to commun
 It can be used to retrieve information and alter the contents of the database. 
 
 [2:Data Analysis]
-If you're interested in analyzing data you should check out our Data Analysis topic.
+If you're interested in analyzing data you should check out our [Data Analysis](https://app.enki.com/skill/data-analysis) topic.
