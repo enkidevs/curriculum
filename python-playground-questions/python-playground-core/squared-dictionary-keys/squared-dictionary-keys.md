@@ -16,7 +16,7 @@ category: coding
 
 ## Content
 
-Can you create a dictionary whose keys go from 1 to 10 (bounds included) and each value for the corresponding key is equal to the square of the key?
+Can you create a dictionary whose keys go from 1 to 10 (bounds included), and each value for the corresponding key is equal to the square of the key?
 
 Example solution:
 ```python
