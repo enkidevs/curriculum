@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## April 20th 2021
+
+### Added
+- [Coding Intro - What is Your Goal - Add deep links for SQL, Python, and Web](https://github.com/enkidevs/curriculum/pull/2679)
+
 ## April 19th 2021
 
 ### Changed
