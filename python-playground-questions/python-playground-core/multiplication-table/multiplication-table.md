@@ -75,4 +75,4 @@ Inside that loop, initiate a second `for y in...:` loop to go through the same r
 
 Inside the second loop, add a `print` to output `(x*y), end="/t"` which will give the number and add a tab(4 spaces) after it.
 
-Finally, outside the second loop but inside the first one add a `print()`. This is used to give a new line after each row.
+Finally, outside the second loop but inside the first one, add a `print()`. This is used to give a new line after each row.
