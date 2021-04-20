@@ -2,11 +2,11 @@
 author: Stefan-Stojanovic
 
 tags:
-  - discussion
+  - coding
 
 type: normal
 
-category: discussion
+category: coding
 
 ---
 
