@@ -22,7 +22,7 @@ The Pascal triangle is a triangular array of binomial coefficients.
 
 Here is a gif from Wikipedia that demonstrates how each value is calculated:
 
-![wiki-explanation](https://simple.wikipedia.org/wiki/Pascal%27s_Triangle#/media/File:PascalTriangleAnimated2.gif)
+![wiki-explanation](https://upload.wikimedia.org/wikipedia/commons/0/0d/PascalTriangleAnimated2.gif)
 
 Can you write a program that will print the Pascal triangle exactly like in the above gif?
 
