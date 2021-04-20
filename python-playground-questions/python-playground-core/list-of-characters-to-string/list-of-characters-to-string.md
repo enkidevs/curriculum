@@ -63,7 +63,7 @@ Start by creating the list of characters.
 
 Next, define your function.
 
-Inside the function create an empty string and initiate a `for...in` loop to go through every character of the list.
+Inside the function, create an empty string and initiate a `for...in` loop to go through every character of the list.
 
 Then, inside that loop, assign each character to the empty string.
 
