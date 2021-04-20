@@ -59,9 +59,9 @@ Remember, learning is more effective when we do it with others.
 
 Start by creating the list.
 
-Then, initiate a `for x in..` loop to go from the `length of the list +1 // 2`
+Then, initiate a `for x in..` loop to go from the `length of the list +1 // 2`.
 
-Inside the loop, create a `newList` and set it to equal the value of the current position (`lst[x]`), and the value of the last position (`lst[-(i+1)`).
+Inside the loop, create a `newList` and set it to equal the value of the current position (`lst[x]`) and the value of the last position (`lst[-(i+1)`).
 
 Which looks like this:
 ```python
