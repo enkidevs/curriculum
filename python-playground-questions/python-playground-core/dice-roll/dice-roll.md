@@ -16,7 +16,7 @@ category: coding
 
 ## Content
 
-Using the `random` module, can you create a function that will operate like a dice roll? Every time you execute it you should get a number between 1 and 6.
+Using the `random` module, can you create a function that will operate like a dice roll? Every time you execute it, you should get a number between 1 and 6.
 
 To achieve this, you can use the following concepts:
 - importing (`from...import`, `import`...)
