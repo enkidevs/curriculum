@@ -18,7 +18,7 @@ category: coding
 
 Can you write a program that will take a number as input and output its factorial value?
 
-> A factorial of the number 5, which is written as `5!`, would be calculated as 5 * 4 * 3 * 2 * 1.
+> A factorial of the number 5, written as `5!`, would be calculated as 5 * 4 * 3 * 2 * 1.
 
 Example output:
 
@@ -54,11 +54,11 @@ Remember, learning is more effective when we do it with others.
 
 Start by creating two variables.
 
-One will store the inputted number and the other will start from 1 and store the final number.
+One will store the inputted number, and the other will start from 1 and store the final number.
 
 Next, create a `for...in` loop for the range of `1` to `number + 1`.
 
-Inside the loop multiply the second variable by each number in the range and save it in the same variable.
+Inside the loop, multiply the second variable by each number in the range and save it in the same variable.
 
 Example print:
 ```python
