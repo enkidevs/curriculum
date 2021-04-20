@@ -1,4 +1,4 @@
-name: Sum Lists in a Dictionary.
+name: Sort Lists in a Dictionary.
 
 description: Create a program to sum lists inside a dictionary.
 
@@ -6,4 +6,4 @@ aspects:
   - workout
 
 insights:
-  - sum-lists-in-a-dict
+  - sort-lists-in-a-dict
