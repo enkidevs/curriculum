@@ -10,19 +10,23 @@ category: coding
 
 ---
 
-# Test Yourself
+# Miles to Kilometers Converter
 
 ---
 
 ## Content
 
-The fibonacci sequence is a series of numbers where the next number is the sum of the previous two numbers.
+How would you write a program that will convert miles to kilometres? The output should contain a message along with the result.
 
-Can you write a program that will print the fibonacci sequence up to 15 terms?
+It's up to you to choose which operation to use and what the message will be.
 
-To achieve this, you can use the following concepts:
-- first two terms of the sequence are `0` and `1`.
-- flow control (`while..`)
+To achieve this, you should use the following concepts:
+- variable creation (`age = 29`)
+- arithmetic operators (`+, -, *, /`)
+- A kilometre is equal to `0.621371` miles
+- A mile is equal to `1.60934` kilometres
+
+As bonus points, you can also write a program to convert kilometres to miles.
 
 Learning is best when we give it an honest try. Even if we make a mistake, we'll remember it and do better next time.
 
@@ -44,14 +48,18 @@ Remember, learning is more effective when we do it with others.
 
 [1: Hints]
 
-Start by creating two variables that store 0 and 1.
+Start by creating two variables. One will hold the number of miles while the other holds the conversion factor.
 
-Then create a count variable that will itterate at the end of every loop cycle until it reaches 15. 
+Then, create a third variable that will hold the result of the conversion.
 
-Inside the loop, add a print statement to output a value.
+Finally, print the message along with the result.
 
-After printing the first value, create a temporary value to hold the sum of the first two.
+Example input / output:
+```python
+# Input
+3 miles
 
-Next, save the 2nd value into the first one and the temporary value into the second one.
+# Output
 
-Then increase the count value by 1.
+3 miles are equal to 4.8280 kilometres
+```
