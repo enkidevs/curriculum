@@ -20,9 +20,9 @@ links:
 At the end of this course, you'll have several options for the next step to take.
 
 Here are some suggestions from Enki:
-- Python is a popular language for beginners. It's easy to read, has a large community, and can be used for almost anything.
-- SQL is a *querying* language[1] and a good option as a stepping stone to learning programming languages and analyzing data[2].
-- If you want to start by making a website, make sure you go through our Web course (which includes HTML and CSS).
+- [Python](https://app.enki.com/skill/python) is a popular language for beginners. It's easy to read, has a large community, and can be used for almost anything.
+- [SQL](https://app.enki.com/skill/sql) is a *querying* language[1] and a good option as a stepping stone to learning programming languages and analyzing data[2].
+- If you want to start by making a website, make sure you go through our [Web](https://app.enki.com/skill/web) course (which includes HTML and CSS).
 
 > 💬 Which programming languages will you learn later and why?
 > 
