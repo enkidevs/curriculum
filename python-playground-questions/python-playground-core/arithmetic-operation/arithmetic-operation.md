@@ -16,7 +16,7 @@ category: coding
 
 ## Content
 
-How would you write a program that will either add, subtract, multiply or divide two numbers? The output should contain a message along with the result.
+How would you write a program that will add, subtract, multiply or divide two numbers? The output should contain a message along with the result.
 
 It's up to you to choose which operation to use and what the message will be.
 
@@ -46,7 +46,6 @@ Remember, learning is more effective when we do it with others.
 
 Start by creating two variables that store any numbers. 
 
-Then, use one of the available arithmetic operators to perform a calculation on those two numbers.
+Then, use one of the available arithmetic operators to calculate those two numbers.
 
 Finally, print the message along with the result.
-
