@@ -46,6 +46,6 @@ Start by creating a dictionary whose values are numbers.
 
 Then define a function that takes a `dict` as input.
 
-Inside the function return the sum of the dictionary values.
+Inside the function, return the sum of the dictionary values.
 
 Finally, call the function with the previously created dictionary.
