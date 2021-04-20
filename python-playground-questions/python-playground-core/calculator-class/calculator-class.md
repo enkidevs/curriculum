@@ -18,7 +18,7 @@ category: coding
 
 Can you create a `Calculator` class that has the ability to multiply, divide, subtract and add two numbers?
 
-After creating the class, call each of the four methods with numbers to confirm it works.
+After creating the class, call each of the four methods to confirm it works.
 
 To achieve this, you can use the following concepts:
 - class creation (`class Something:`)
@@ -55,4 +55,4 @@ Next, create four different methods `subtract`, `multiply`, `add`, and `divide`.
 
 Each of them should take two variables as input and return the calculation described in the name.
 
-Finally, outside of the class call each method.
+Finally, outside of the class, call each method.
