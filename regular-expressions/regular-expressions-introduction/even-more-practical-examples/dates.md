@@ -40,7 +40,7 @@ This pattern allows for an optional 0 followed by a single digit, OR a double di
 
 Next we allow another optional 0 followed by a single digit, OR a number in the range 10-29, OR a number in the range 30-31.
 
-`/\d{4}$/`s
+`/\d{4}$/`
 
 The final part is the easiest, as we want to accept any 4 digit number. You can also be more restrictive if you want to only accept certain years.
 
