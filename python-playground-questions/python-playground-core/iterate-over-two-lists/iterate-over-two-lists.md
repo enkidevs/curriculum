@@ -22,7 +22,7 @@ name = ['Stefan', 'Michael', 'Rebekah', "Natasha"]
 lastName = ['Stojanovic', 'Stevens', 'Mikaelson', "Romanoff"]
 ```
 
-Can you write a program that will iterate over both lists at the same time and output the corresponding values?
+Can you write a program that will iterate over both lists simultaneously and output the corresponding values?
 
 Example output:
 ```plain-text
