@@ -26,11 +26,11 @@ dictList = {
 }
 ```
 
-Can you sort the values in each list, alphabetically?
+Can you sort the values in each list alphabetically?
 
 To achieve this, you can use the following concepts:
-- first two terms of the sequence are `0` and `1`.
-- flow control (`while..`)
+- built-in (`sort()`)
+- flow control (`for x in...:`)
 
 Learning is best when we give it an honest try. Even if we make a mistake, we'll remember it and do better next time.
 
@@ -54,8 +54,10 @@ Remember, learning is more effective when we do it with others.
 
 Start by creating the `dict`.
 
-Then initiate a `for...in` loop to go through each key-value pair for each `dict` item.
+Then initiate a `for...in` loop to go through the dictionary.
 
-Inside the loop, create a new dictionary and assign it the current key and the sorted values for that key.
+Next, inside the loop, sort the current values of the dictionary lists:
 
-Finally, add a print to output each key-pair after sort.
+`dict[x].sort()`
+
+Finally, outside of the loop, add a print to output the sorted result.
