@@ -19,7 +19,7 @@ revisionQuestion:
 
 ## Content
 
-An **object** is the representation of a blueprint. Basically, an *object* is created from a *class*. In Java, the `new` keyword is used to create an object. 
+An **object** is the representation of a blueprint. In other words, an *object* is created from a *class*. In Java, the `new` keyword is used to create an object. 
 
 This is how the `Car` constructor looks like:
 

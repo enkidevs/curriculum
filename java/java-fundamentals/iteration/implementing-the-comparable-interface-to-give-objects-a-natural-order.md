@@ -46,11 +46,11 @@ public class MyClass
 }
 ```
 
-`compareTo` method should return:
+The `compareTo` method should return:
 
 - a negative number - when the current is smaller than the comparison object
 - a positive number - when the current is greater than the comparison object
-- zero - both objects are equal in terms of their natural order.
+- zero - when both objects are equal in terms of their natural order.
 
 It is strongly recommended, but not strictly required that 
 

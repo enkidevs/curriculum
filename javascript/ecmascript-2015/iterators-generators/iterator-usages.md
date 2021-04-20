@@ -22,7 +22,7 @@ revisionQuestion:
 
 ## Content
 
-Of course, iterators can work with any sequence of items you want so you could use iterator for:
+Iterators can work with any sequence of items you want so you could use iterator for:
 
 - More efficient resource and memory usage as values are computed on demand and not held in memory
 - Mathematical sequences of numbers e.g. the classic example is Fibonacci numbers

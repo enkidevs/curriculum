@@ -54,7 +54,7 @@ A Google Analytics account has the following hierarchical structure:
 
 The Master View is your working view. It means that you can apply many different filters to get the most accurate and actionable data in your view.
 
-The Test View is where you test all of your filters first. Of course you could always skip testing a filter, but even experienced users should refrain from doing this.
+The Test View is where you test all of your filters first. You could always skip testing a filter, but even experienced users should refrain from doing this.
 
 The Raw Data View is an untouched view where you don’t apply any modifications (like filters) that alter the data collection process. This view allows you to always go back if anything goes wrong in your working view(s).
 
