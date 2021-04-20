@@ -50,15 +50,16 @@ Remember, learning is more effective when we do it with others.
 
 [1: Hints]
 
+
 Start by creating a variable that will hold the value `5` and another that will hold the value `1`. 
 
-> This will be used to determine how many rows the triangle will have and the first value has to be `1`.
+> They will be used to determine how many rows the triangle will have, and the first value has to be `1`.
 
 Next, initiate a `for x in:` loop to go through every number from `1` to `n+1`.
 
 Inside that loop, add another `for y in:` loop to go from `0` to `n-x+1`.
 
-In the second loop, add a `print` to output a space and an `end` with an empty chair. 
+In the second loop, `print` out space and an `end` parameter with an empty character. 
 
 > This will help create a triangle shape
 
@@ -74,6 +75,6 @@ After the `print`, update the variable that was initially `1` using the Binomial
 ```python
 variable = variable * (x - y) // y
 ```
-the `x` is the first `for` value and `y` is the second one.
+The `x` is the first `for` value, and `y` is the second one.
 
 Finally, in the end, outside the two inner loops but inside the first loop, add a `print()`. This will create a new line after every row is calculated.
