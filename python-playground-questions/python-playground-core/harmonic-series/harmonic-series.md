@@ -55,6 +55,6 @@ Inside it, create an empty `sum` variable.
 
 Then, initiate a `for x in` loop to go through every number in the range `1` to `16`.
 
-Inside the loop, update the `sum` variable to equal itself + `1 / i`
+Inside the loop, update the `sum` variable to equal itself + `1 / i`.
 
 Finally, outside the loop, round and return the `sum` variable to 5 decimal places.
