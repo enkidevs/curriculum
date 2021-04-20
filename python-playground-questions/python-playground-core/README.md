@@ -25,7 +25,7 @@ sections:
     - squared-dictionary-keys
     - iterate-over-dict-values
     - sum-items-in-dict
-    - sum-lists-in-a-dict
+    - sort-lists-in-a-dict
     - iterate-over-two-lists
     - remove-odd-numbers-from-list
     - list-of-characters-to-string
