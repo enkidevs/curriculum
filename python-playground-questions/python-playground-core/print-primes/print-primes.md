@@ -57,7 +57,7 @@ Next, create a `for...in` loop that will range from lower to upper + 1.
 
 Inside the loop, add an `if` statement that checks if each number in the range is greater than 1. 
 
-If it is greater add another `for...in` loop that will go in the range of `2` and the value from the first `for` loop. 
+If it is greater, add another `for...in` loop that will go in the range of `2` and the value from the first `for` loop. 
 
 Inside it, check if the number is divisible by the number in the `for...in` range of the second loop.
 
