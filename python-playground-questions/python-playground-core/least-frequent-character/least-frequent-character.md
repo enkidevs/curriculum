@@ -50,7 +50,7 @@ Inside the loop, add an `if` statement to check if the current character is in t
 
 If it is, increase the count by 1. If it is not, add it to the dictionary with the initial value of 1.
 
-After the loop is done, add a print statement to output the least occurring value from the dictionary.
+After the loop is made, add a print statement to output the least occurring value from the dictionary.
 
 Here's one way you can get the least occurring character from a dictionary: 
 
