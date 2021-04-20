@@ -44,7 +44,6 @@ Remember, learning is more effective when we do it with others.
 
 Start by creating a variable that stores the number of spheres. 
 
-Then, use a flow control statement along with the appropriate arithmetic operator to check if it is even or odd.
+Then, use a flow control statement and the appropriate arithmetic operator to check if it is even or odd.
 
 Finally, print the message along with the result.
-
