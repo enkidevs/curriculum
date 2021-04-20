@@ -58,7 +58,7 @@ Ex:
 def tupleAddition(a, b):
 ```
 
-Inside the function convert each input tuple into a list. (`list(variable)`)
+Inside the function, convert each input tuple into a list. (`list(variable)`)
 
 Then sum up all the values in each list.
 
