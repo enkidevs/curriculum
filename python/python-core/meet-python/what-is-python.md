@@ -70,7 +70,7 @@ if my_age >= legal_age:
 
 Python is a programming language that can be used for just about anything.
 
-We call these kinds of languages ??? languages.
+We call these kinds of languages ???.
 
 - general-purpose
 - all da things
