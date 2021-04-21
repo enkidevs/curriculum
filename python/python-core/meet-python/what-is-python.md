@@ -83,5 +83,8 @@ We call these kinds of languages ???.
 ## Footnotes
 
 [1:Syntax]
-The syntax is the set of rules that define how a program will be written and interpreted. It covers the symbols, indentation and keywords of the language. All programming languages use different syntax.
- 
+The syntax of a programming language sets the rules on how a language can be written and understood by the computer.
+
+The same idea exists in human languages. 
+
+Just like how English has special types of words like *verb* and *nouns*, as well as rules on which should come first to make a valid sentence, Python has a different set of rules on how to make valid Python statements.
