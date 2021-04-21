@@ -47,23 +47,34 @@ You can use it to build websites, web apps and desktop apps. But it's also used 
 
 ## Practice
 
-Python is closer to ??? language and further away from ??? language.
+Let's write some Python code! Did you remember how to print a message?
 
-- human
-- machine
-- alien
-- automated
+> Don't worry, this is just to get you comfortable with code. 
+> You'll learn all about how this works in the upcoming lessons
 
+```python
+my_age = 23
+legal_age = 21
+if my_age >= legal_age:
+    ???("You can have a beer!")
+```
+
+- print
+- say
+- yell
+- log
 
 ---
 
 ## Revision
 
-Python is both a ??? and general-purpose programming language.
+Python is a programming language that can be used for just about anything.
 
-- high-level
-- niche
-- low-level
+We call these kinds of languages ??? languages.
+
+- general-purpose
+- all da things
+- multi-featured
 - domain-specific
 
 
