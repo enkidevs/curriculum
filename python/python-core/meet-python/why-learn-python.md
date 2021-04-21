@@ -65,7 +65,7 @@ else:
   print("Don't give up, you're doing great! 🤗")
 ```
 
-> There's no wrong answers here. The goal is to get you comfortable with reading code :)
+> There're no wrong answers here. The goal is to get you comfortable with reading code :)
 
 ???
 
