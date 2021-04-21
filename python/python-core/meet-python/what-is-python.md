@@ -47,7 +47,7 @@ You can use it to build websites, web apps and desktop apps. But it's also used 
 
 ## Practice
 
-Let's write some Python code! Did you remember how to print a message?
+Let's write some Python code! Do you remember how to print a message?
 
 > Don't worry, this is just to get you comfortable with code. 
 > You'll learn all about how this works in the upcoming lessons
