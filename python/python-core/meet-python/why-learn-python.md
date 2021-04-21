@@ -34,9 +34,7 @@ Python is seen as the number one language to learn. Here are a few reasons why:
 
 This makes it an *ideal language for beginners to learn*. And it acts as a stepping-stone for learning other object-oriented [1] languages.
 
-Python is also concise.
-
-For the same task, Python requires *3-5* times less code than Java, and up to *10* times less code than C++.
+Python is also concise and usually requires less code for the same task than languages such as Java or C++.
 
 2. It's a **powerful language for data science**
 
@@ -55,24 +53,42 @@ Check out the *Learn More link* to dig into more reasons to learn Python.
 
 ## Practice
 
-It typically requires ??? code to write the same task in Python than in C++.
+Python is known as an easy-to-read language due to its close similarity to English.
 
-- less
-- more
-- about the same
+With your current knowledge of Python and English, can you guess what this code does?
 
+```Python
+answer = input("Are you excited to learn Python?")
+if answer == "Yes":
+  print("That's the spirit! 🎉") 
+else:
+  print("Don't give up, you're doing great! 🤗")
+```
+
+> There's no wrong answers here. The goal is to get you comfortable with reading code :)
+
+???
+
+- Reads a word from the user and prints a fun message if user said "Yes" or an encouraging message if they said anything else
 
 ---
 
 ## Revision
 
-How much Python code is usually required to write the same task compared to C++ code? ???
+What will this code print if the user input is `"Maybe"`?
 
-- `Up to 10 times less`
-- `Up to 5 times less`
-- `3–5 times less`
-- `Roughly equal`
+```Python
+answer = input("Are you excited to learn Python?")
+if answer == "Yes":
+  print("That's the spirit! 🎉") 
+else:
+  print("Don't give up, you're doing great! 🤗")
+```
 
+???
+
+- `"That's the spirit! 🎉"`
+- `"Don't give up, you're doing great! 🤗"`
 
 ---
 
