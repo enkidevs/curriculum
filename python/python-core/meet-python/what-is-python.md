@@ -49,7 +49,7 @@ You can use it to build websites, web apps and desktop apps. But it's also used 
 
 Let's write some Python code! Do you remember how to print a message?
 
-> Don't worry, this is just to get you comfortable with code. 
+> Don't worry; this is to get you comfortable with code. 
 > You'll learn all about how this works in the upcoming lessons
 
 ```python
