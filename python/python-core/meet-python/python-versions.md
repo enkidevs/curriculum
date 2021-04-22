@@ -29,7 +29,7 @@ revisionQuestion:
 
 In this course you'll be learning the modern version of Python called **Python 3**.
 
-Python 3 is easier for beginners to understand, and is being updated frequently so there're fewer bugs. 
+Python 3 is easier for beginners to understand and is updated frequently, so there're fewer bugs. 
 
 That being said, some programmers still use versions of Python 2.
 
