@@ -47,7 +47,7 @@ In older versions, text is printed like this:
 print 'Python 2'
 ```
 
-Since the start of 2020 Python maintaners are no longer working on improvements to Python 2 and have advised everyone to switch over to Python 3.
+Since the start of 2020, Python maintainers are no longer working on improvements to Python 2 and have advised everyone to switch over to Python 3.
 
 ---
 
