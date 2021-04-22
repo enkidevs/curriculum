@@ -53,9 +53,9 @@ Check out the *Learn More link* to dig into more reasons to learn Python.
 
 ## Practice
 
-Python is an easy-to-read language due to its close similarity to English.
+Python is an easy-to-read language due to its similarity to English.
 
-With your current knowledge of Python and English, can you guess what this code does?
+Can you guess what this code will print if the user input is `"Maybe"`?
 
 ```Python
 answer = input("Are you excited to learn Python?")
@@ -65,11 +65,10 @@ else:
   print("Don't give up, you're doing great! 🤗")
 ```
 
-> There're no wrong answers here. The goal is to get you comfortable with reading code :)
-
 ???
 
-- Reads a word from the user and prints a fun message if user said "Yes" or an encouraging message if they said anything else
+- `"That's the spirit! 🎉"`
+- `"Don't give up, you're doing great! 🤗"`
 
 ---
 
