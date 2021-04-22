@@ -87,4 +87,4 @@ The syntax of a programming language sets the rules on how a language can be wri
 
 The same idea exists in human languages. 
 
-Just like how English has special types of words like *verb* and *nouns*, as well as rules on which should come first to make a valid sentence, Python has a different set of rules on how to make valid Python statements.
+The English language has unique types of words like *verb* and *nouns* and rules on which should come first to make a correct sentence; Python has a different set of rules on making valid Python statements.
