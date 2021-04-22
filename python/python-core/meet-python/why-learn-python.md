@@ -53,7 +53,7 @@ Check out the *Learn More link* to dig into more reasons to learn Python.
 
 ## Practice
 
-Python is known as an easy-to-read language due to its close similarity to English.
+Python is an easy-to-read language due to its close similarity to English.
 
 With your current knowledge of Python and English, can you guess what this code does?
 
