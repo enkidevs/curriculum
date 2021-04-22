@@ -67,8 +67,8 @@ else:
 
 ???
 
-- `"That's the spirit! 🎉"`
 - `"Don't give up, you're doing great! 🤗"`
+- `"That's the spirit! 🎉"`
 
 ---
 
@@ -86,8 +86,8 @@ else:
 
 ???
 
-- `"That's the spirit! 🎉"`
 - `"Don't give up, you're doing great! 🤗"`
+- `"That's the spirit! 🎉"`
 
 ---
 
