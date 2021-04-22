@@ -34,7 +34,7 @@ Python is seen as the number one language to learn. Here are a few reasons why:
 
 This makes it an *ideal language for beginners to learn*. And it acts as a stepping-stone for learning other object-oriented [1] languages.
 
-Python is also concise and usually requires less code for the same task than languages such as Java or C++.
+Python is also concise and usually requires less code for the same task than other languages like Java or C++.
 
 2. It's a **powerful language for data science**
 
