@@ -68,7 +68,7 @@ if my_age >= legal_age:
 
 ## Revision
 
-Python is a programming language that can be used for just about anything.
+Python is a programming language that you can use for just about anything.
 
 We call these kinds of languages ???.
 
