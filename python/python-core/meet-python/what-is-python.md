@@ -60,8 +60,8 @@ if my_age >= legal_age:
 ```
 
 - print
-- say
-- yell
+- state
+- write
 - log
 
 ---
@@ -73,7 +73,7 @@ Python is a programming language that you can use for just about anything.
 We call these kinds of languages ???.
 
 - general-purpose
-- all da things
+- all-the-things
 - multi-featured
 - domain-specific
 
