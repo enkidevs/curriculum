@@ -51,7 +51,7 @@ Types of change:
 ## April 23rd 2021
 
 ### Fixed
-- [Glossary - JSON - Fix malformed link inside the glossary entry]()
+- [Glossary - JSON - Fix malformed link inside the glossary entry](https://github.com/enkidevs/curriculum/pull/2682)
 
 ## April 19th 2021
 
