@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## April 23rd 2021
+
+### Fixed
+- [Glossary - JSON - Fix malformed link inside the glossary entry]()
+
 ## April 19th 2021
 
 ### Changed
