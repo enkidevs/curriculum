@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## April 26th 2021
+
+### Fixed
+- [Go - Why Learn Go - Fix typo]()
+
 ## April 23rd 2021
 
 ### Fixed
