@@ -51,7 +51,7 @@ Types of change:
 ## April 26th 2021
 
 ### Fixed
-- [Go - Why Learn Go - Fix typo]()
+- [Go - Why Learn Go - Fix typo](https://github.com/enkidevs/curriculum/pull/2686)
 
 ## April 23rd 2021
 
