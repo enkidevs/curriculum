@@ -59,6 +59,7 @@ Types of change:
 - [JavaScript - Converting to and From JSON - Fix glossary reference](https://github.com/enkidevs/curriculum/pull/2684)
 - [JavaScript - Converting to and From JSON - Temporarily remove glossary reference](https://github.com/enkidevs/curriculum/pull/2683)
 - [Glossary - JSON - Fix malformed link inside the glossary entry](https://github.com/enkidevs/curriculum/pull/2682)
+- [Airtable - Taging workouts with "workout" aspects](https://github.com/enkidevs/curriculum/pull/2685)
 
 ## April 19th 2021
 
