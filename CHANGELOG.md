@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## April 27th 2021
+
+### Fixed
+- [Git - Cloning A Git Repository - Fix typo](https://github.com/enkidevs/curriculum/pull/2687)
+
 ## April 26th 2021
 
 ### Fixed
