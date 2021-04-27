@@ -7,4 +7,5 @@ insights:
   - airtable-linking-tables-2
 aspects:
   - introduction
+  - workout
  

@@ -48,10 +48,23 @@ Types of change:
 
 ### Fixed
 
-## April 20th 2021
+## April 27th 2021
 
 ### Added
 - [Coding Intro - What is Your Goal - Add deep links for SQL, Python, and Web](https://github.com/enkidevs/curriculum/pull/2679)
+
+## April 26th 2021
+
+### Fixed
+- [Go - Why Learn Go - Fix typo](https://github.com/enkidevs/curriculum/pull/2686)
+
+## April 23rd 2021
+
+### Fixed
+- [JavaScript - Converting to and From JSON - Fix glossary reference](https://github.com/enkidevs/curriculum/pull/2684)
+- [JavaScript - Converting to and From JSON - Temporarily remove glossary reference](https://github.com/enkidevs/curriculum/pull/2683)
+- [Glossary - JSON - Fix malformed link inside the glossary entry](https://github.com/enkidevs/curriculum/pull/2682)
+- [Airtable - Taging workouts with "workout" aspects](https://github.com/enkidevs/curriculum/pull/2685)
 
 ## April 19th 2021
 
