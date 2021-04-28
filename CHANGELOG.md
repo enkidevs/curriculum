@@ -39,7 +39,7 @@ Types of change:
 - `Fixed` for any minor fixes (e.g. add a missing comma, adding a code block tag, fixing a report).
 
 ## WIP
-
+ 
 ### Added
 
 ### Changed
