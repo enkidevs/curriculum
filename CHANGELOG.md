@@ -7,7 +7,7 @@ and it was adapted for the `curriculum` repository.
 **Format**
 
 The general format is:
-
+ 
 ```md
 ## Date
 ### Type of change
@@ -39,7 +39,7 @@ Types of change:
 - `Fixed` for any minor fixes (e.g. add a missing comma, adding a code block tag, fixing a report).
 
 ## WIP
-
+ 
 ### Added
 
 ### Changed
@@ -47,6 +47,11 @@ Types of change:
 ### Archived
 
 ### Fixed
+
+## April 27th 2021
+
+### Added
+- [Coding Intro - What is Your Goal - Add deep links for SQL, Python, and Web](https://github.com/enkidevs/curriculum/pull/2679)
 
 ## April 26th 2021
 
