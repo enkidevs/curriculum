@@ -2,11 +2,21 @@
 author: Stefan-Stojanovic
 
 tags:
-  - coding
+  - introduction
 
 type: normal
 
-category: coding
+category: must-know
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
 
 ---
 
