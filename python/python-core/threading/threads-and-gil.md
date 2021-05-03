@@ -9,9 +9,8 @@ type: normal
 category: coding
 
 links:
-  - >- 
-  [Hyper-Threading Technology](https://en.wikipedia.org/wiki/Simultaneous_multithreading#:~:text=The%20Intel%20Pentium%204%20was,a%20number%20of%20their%20processors.)
-
+  - >-
+    [Hyper-Threading Technology](https://en.wikipedia.org/wiki/Simultaneous_multithreading#:~:text=The%20Intel%20Pentium%204%20was,a%20number%20of%20their%20processors.){website}
 ---
 
 # Threads and GIL
