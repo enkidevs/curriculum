@@ -2,7 +2,7 @@
 author: Stefan-Stojanovic
 
 tags:
-  - coding
+  - must-know
 
 type: normal
 
@@ -11,7 +11,6 @@ category: coding
 revisionQuestion:
   formats:
     - fill-in-the-gap
-    - type-in-the-gap
   context: standalone
   
 ---
@@ -84,5 +83,24 @@ The reason behind this is that the first `MainThread` was created when we launch
 
 ## Revision
 
-Create a function with a `print` statement. Then, using the `threading` module, create a thread with that function. Finally, start the thread.
+Using the `threading` module, create and start a thread with the provided function.
 
+```python
+# Some Function
+def f():
+   for x in range(3):
+      print("I am a thread!!!")
+
+# Thread
+myThread = 
+  ???.???(
+    ???=f
+  )
+
+myThread.???
+```
+
+- threading
+- Thread
+- target
+- start()
