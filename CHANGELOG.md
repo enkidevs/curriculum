@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## May 3rd 2021
+
+### Added
+- [Python - Threading - Add workout](https://github.com/enkidevs/curriculum/pull/2689)
+
 ## April 27th 2021
 
 ### Added
