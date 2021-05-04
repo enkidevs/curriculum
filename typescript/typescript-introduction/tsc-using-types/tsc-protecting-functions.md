@@ -9,15 +9,15 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Protecting Functions
-
 
 ---
 
@@ -85,7 +85,6 @@ hello("Enki");
 
 > 💡 When setting a default value we don't need to use the `?` because the parameter automatically becomes optional.
 
-
 ---
 
 ## Practice
@@ -119,7 +118,6 @@ B = ???
 - TS is fun: false
 - error
 
-
 ---
 
 ## Revision
@@ -131,14 +129,13 @@ function enki(age?: number = 5): string {
   return `Enki is ${age} years old`;
 }
 
-enki()
+enki();
 ```
 
 ???
 
 - Yes
 - No
-
 
 ---
 

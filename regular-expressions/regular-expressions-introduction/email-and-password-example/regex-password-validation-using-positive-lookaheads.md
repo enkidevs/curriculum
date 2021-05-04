@@ -11,11 +11,11 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Passwords using Positive Lookaheads
@@ -25,7 +25,7 @@ revisionQuestion:
 
 ## Content
 
-Password validation works best when we use a regex operator called a **positive lookahead**. 
+Password validation works best when we use a regex operator called a **positive lookahead**.
 
 This will search for the pattern inside the text to make sure it appears *at least once*, but the important thing is that the *order of where it appears doesn't matter*.
 
@@ -85,4 +85,3 @@ What's the correct syntax for a positive lookahead to check that a password must
 - `/(?=.*\W)/`
 - `/(?=.*[A-Z]{1})/`
 - `/(?=.*\S)/`
- 

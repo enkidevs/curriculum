@@ -12,15 +12,15 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Introduction to Interfaces
-
 
 ---
 
@@ -72,13 +72,12 @@ let payment: PaymentTransaction = {
   // no need to add a comment
   // because it's optional
   value: 123,
-}
+};
 
 // cannot change a readonly value
 payment.value = 0;
 // error: Cannot assign to 'value' because it is a read-only property.
 ```
-
 
 ---
 
@@ -110,7 +109,6 @@ let reader??? = {
 - = BookReader
 - Array<string>
 
-
 ---
 
 ## Revision
@@ -119,7 +117,7 @@ Will the following code cause a type error?
 
 ```ts
 interface Enki {
-  note?: string,
+  note?: string;
 }
 
 let e: Enki = {};

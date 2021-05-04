@@ -12,11 +12,13 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Modify Elements
@@ -84,7 +86,7 @@ Change the content of each paragraph tag to say `"My content was changed!"`:
     <p>my content can be changed</p>
 
     <script>
-      let paragraphTags = document.???(???);
+      let paragraphTags = document.???("???");
       for (
         let i = 0;
         i < paragraphTags.length;
@@ -99,7 +101,7 @@ Change the content of each paragraph tag to say `"My content was changed!"`:
 ```
 
 - `getElementsByTagName`
-- `"p"`
+- `p`
 - `paragraphTags`
 - `innerHTML`
 - `document`

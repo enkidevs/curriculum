@@ -8,11 +8,12 @@ tags:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Updating Multiple Columns
@@ -71,7 +72,7 @@ And this is the resulting table:
 
 ## Practice
 
-Update the student's `math_grade` to `9` and `physics_grade` to `8.5`:
+Update the student's (`id = 21`) `math_grade` to `9` and `physics_grade` to `8.5`:
 
 ```sql
 ??? 

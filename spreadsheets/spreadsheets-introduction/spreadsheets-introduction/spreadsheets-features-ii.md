@@ -5,7 +5,7 @@ category: how-to
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Spreadsheet Features II
@@ -23,7 +23,7 @@ Pivot tables are another important feature of spreadsheets. These can be used on
 
 These are just some examples of what spreadsheets can do. We'll cover graphs, pivot tables and many more features in this course.
 
-
+ 
 ---
 
 ## Practice

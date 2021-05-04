@@ -1,4 +1,4 @@
-﻿---
+---
 author: Stefan-Stojanovic
 
 type: normal
@@ -18,7 +18,7 @@ links:
 ## Content
 
 ### Google Analytics
-
+ 
 The `Google Analytics` add-on allows you to utilize the Google Analytics API with Sheets.
 
 You can create custom calculations, query data from multiples profiles, create dashboards with data visualizations, and more.

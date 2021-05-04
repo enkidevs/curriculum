@@ -5,6 +5,10 @@ type: normal
 
 category: must-know
 
+links:
+  - >-
+    [Exact Instructions Challenge](https://youtube.com/watch?v=Ct-lOOUqmyY){video}
+  
 ---
 
 # Programs & Data
@@ -17,6 +21,8 @@ Let's quickly introduce the building blocks we'll cover in this course.
 ### Program
 
 Even though they're super fast, computers are annoyingly literal - you have to spell out everything for them. 
+
+> 💡 Check out the *Learn more* section for a realistic (and funny) example of this 🤓
 
 A program consists of one or more commands we're asking the computer to do. It's a sequence of specific tasks. A list of TODOs for the computer.
 

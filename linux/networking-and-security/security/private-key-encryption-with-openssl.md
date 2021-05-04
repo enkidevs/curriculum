@@ -4,15 +4,15 @@ type: normal
 category: how-to
 practiceQuestion:
   formats:
-    - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
-# Private key encryption with `OpenSSL`
+# Private key encryption with OpenSSL
 
 
 ---

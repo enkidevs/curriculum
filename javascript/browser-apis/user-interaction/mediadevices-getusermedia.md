@@ -8,11 +8,12 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # MediaDevices.getUserMedia()
@@ -97,8 +98,9 @@ let p = navigator.???.???({
 
 ## Revision
 
-If permission is provided, what is the
-promise returned and resolved with? ???
+If permission is provided, what is the promise returned and resolved with? 
+
+???
 
 - The MediaStream object.
 - A permission object.

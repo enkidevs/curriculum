@@ -5,10 +5,11 @@ category: how-to
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
-# Delete documents with `findOneAndUpdate()`
+# findOneAndUpdate()
 
 
 ---
@@ -45,7 +46,7 @@ Output:
 
 ## Practice
 
-Delete the first document that has the `type` equal to `"Water"`:
+Search through the `pokemon` collection and delete the first document that has the `type` equal to `"Water"`:
 
 ```js
 db.pokemon.???({

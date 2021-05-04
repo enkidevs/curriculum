@@ -15,14 +15,15 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
-# Using `flex-shrink`
+# Using flex-shrink
 
 
 ---
@@ -87,7 +88,9 @@ Elements of which class will shrink three times as much as the largest one?
 }
 ```
 
-???
+```css
+.???
+```
 
 - flex1
 - flex3

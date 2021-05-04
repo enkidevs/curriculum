@@ -11,11 +11,11 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Create system file paths using the `Path` class
@@ -66,7 +66,7 @@ Which is the shorthand equivalent of the following command that returns a Path o
 
 ```java
 FileSystems.getDefault()
-           .getPath("/myDocs/diary.txt");
+  .getPath("/myDocs/diary.txt");
 
 ???
 ```

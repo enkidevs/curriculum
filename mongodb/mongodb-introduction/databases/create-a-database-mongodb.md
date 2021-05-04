@@ -5,11 +5,13 @@ category: must-know
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Create a database
@@ -97,11 +99,15 @@ How do you create a database called `Pokemon` in MongoDB?
 
 How do you check which database is currently active in MongoDB?
 
+```javascript
 ???
+```
 
 How do you list all databases in MongoDB?
 
+```javascript
 ???
+```
 
 - `db`
 - `show dbs`

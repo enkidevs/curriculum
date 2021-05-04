@@ -5,11 +5,13 @@ category: how-to
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # String formatting and parsing with `SimpleDateFormat`
@@ -84,10 +86,10 @@ Complete the following Java code snippet to convert the date into a string:
 
 ```java
 Date today = Calendar.???()
-                     .getTime();
+  .getTime();
 String convert =
-    new SimpleDateFormat("mm-DD-yyyy")
-     .???(date);
+  new SimpleDateFormat("mm-DD-yyyy")
+  .???(date);
 ```
 
 - `getInstance`

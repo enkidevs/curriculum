@@ -13,11 +13,13 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Animation basics in CSS
@@ -74,7 +76,9 @@ Setting it to *paused* stops your animation in place, until you change `animatio
 
 Which keyword determines the actions an element should follow during the animation?
 
+```css
 ???
+```
 
 - `keyframes`
 - `animation`
@@ -88,9 +92,17 @@ Which keyword determines the actions an element should follow during the animati
 
 There are two main properties when it comes to animating.
 
-??? are the actions an element should follow throughout the animation.
+The actions an element should follow throughout the animation are:
 
-??? is how an element should transition (duration, speed).
+```css
+???
+```
+
+How an element should transition (duration, speed) is set through this property: 
+
+```css
+???
+```
 
 - keyframes
 - animation

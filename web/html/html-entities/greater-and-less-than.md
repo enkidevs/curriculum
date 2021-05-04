@@ -6,11 +6,12 @@ links: null
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Greater and Less Than
@@ -61,9 +62,11 @@ Result:
 
 ## Practice
 
-Write the code that will display this HTML tag properly: "`<p>` is an HTML paragraph tag."
+Write the code using character entity names to display this HTML tag properly: "`<p>` is an HTML paragraph tag."
 
+```html
 ???p??? is an HTML paragraph tag.
+```
 
 - `&lt;`
 - `&gt;`

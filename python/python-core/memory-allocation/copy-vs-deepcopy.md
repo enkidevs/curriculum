@@ -5,14 +5,14 @@ category: must-know
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
-# `copy` vs `deepcopy`
+# copy vs deepcopy
 
 
 ---

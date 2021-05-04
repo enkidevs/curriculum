@@ -9,11 +9,12 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Headings (h1-h6)
@@ -77,9 +78,11 @@ Which of these is not true about headings:
 
 ## Revision
 
-Which is the largest text heading?
+Which is the largest text heading element?
 
-???
+```html
+<???>
+```
 
 - h1
 - h6

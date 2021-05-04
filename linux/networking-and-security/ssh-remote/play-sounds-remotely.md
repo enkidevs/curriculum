@@ -27,7 +27,7 @@ ssh user@enki 'mpg321 -' < my_sound.mp3
 
 This will play `my_sound.mp3` on the remote machine. 
 
-Obviously using `mpg321 -` is particular to `mp3` files. Other common variants are `ogg123`, `aplay` or `mplayer`.
+In this example, using `mpg321 -` is specific for `mp3` files. Other common variants are `ogg123`, `aplay` or `mplayer`.
 
 
 ---

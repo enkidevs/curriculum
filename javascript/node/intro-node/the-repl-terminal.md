@@ -10,11 +10,11 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # The REPL Terminal
@@ -77,6 +77,7 @@ node
 ## Revision
 
 What does REPL stand for?
+
 ???
 
 - Read, Eval, Print, Loop

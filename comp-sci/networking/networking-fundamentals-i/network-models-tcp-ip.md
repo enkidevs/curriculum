@@ -12,7 +12,11 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
 # Network Models (TCP/IP)
@@ -50,3 +54,17 @@ Which of the following layers of the **Internet model** is responsible for addre
 - Transport
 - Application
 - Network Interface
+
+---
+
+## Revision
+
+Which of the following layers of the **Internet model** is responsible for addressing data transmitted?
+
+???
+
+- Internet
+- Transport
+- Application
+- Network Interface
+

@@ -7,11 +7,12 @@ category: must-know
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # What's the syntax?
@@ -40,12 +41,20 @@ You'll soon learn about all the different ways you can alter your regex pattern 
 
 ## Practice
 
-When using JavaScript or Ruby, valid regex patterns must be written between ???.
+When using JavaScript or Ruby, valid regex patterns must be written between as
 
-- `/ /`
-- `\ \`
-- `< >`
-- `> <` 
+```js
+???enki???
+```
+
+- `/`
+- `/`
+- `\`
+- `\`
+- `<`
+- `>`
+- `>`
+- `<`
 
 
 ---
@@ -58,4 +67,3 @@ The regex pattern `/FUN/` matches part of the text `'regex is fun'`.
 
 - False
 - True
- 

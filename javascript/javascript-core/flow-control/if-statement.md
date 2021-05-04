@@ -7,7 +7,8 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # If Statement
@@ -72,7 +73,7 @@ The output of the code above is:
 
 ## Practice
 
-How would you write an `if/else` statement?
+How would you write an `if/else if` statement?
 
 ```js
 if (condition <= 0) {

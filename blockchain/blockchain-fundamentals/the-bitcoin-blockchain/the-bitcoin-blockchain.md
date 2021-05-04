@@ -5,11 +5,11 @@ category: must-know
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # The Bitcoin Blockchain
@@ -52,7 +52,9 @@ This is the maximum rate at which the block can confirm new transactions. The nu
 
 What was the maximum number of transactions per second the Bitcoin network could initially process?
 
+```plain-text
 ???
+```
 
 - 7
 - 3

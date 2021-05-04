@@ -5,11 +5,11 @@ category: tip
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Nested Functions
@@ -71,7 +71,7 @@ outer(3)
 
 - `(3, 1)`
 - `(5, 3)`
-- `(3, 3,`
+- `(3, 3)`
 - `(1, 3)`
 
 

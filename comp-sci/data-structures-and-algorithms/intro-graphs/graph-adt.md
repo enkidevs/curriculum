@@ -13,7 +13,7 @@ practiceQuestion:
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Graph Representation and ADT
@@ -82,7 +82,7 @@ For any undirected graph represented as a matrix, you can be sure that the cells
 
 ## Revision
 
-Which of the following statements is describing an adjacency list?
+Which of the following statements is describing a graph adjacency list?
 
 ???
 

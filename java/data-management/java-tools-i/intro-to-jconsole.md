@@ -10,11 +10,12 @@ notes: >-
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Intro to `JConsole`
@@ -61,7 +62,7 @@ If you do not specify a host name/port number combination, then `JConsole` will 
 
 Set up remote monitoring with JConsole:
 
-```plain-text
+```java
 jconsole ???:???
 ```
 

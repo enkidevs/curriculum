@@ -1,4 +1,4 @@
-﻿---
+---
 author: Stefan-Stojanovic
 
 type: normal
@@ -8,7 +8,7 @@ category: how-to
 ---
 
 # Choosing the Right Chart
-
+ 
 ---
 ## Content
 

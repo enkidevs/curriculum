@@ -1,4 +1,4 @@
-﻿---
+---
 author: Stefan-Stojanovic
 
 type: normal
@@ -17,7 +17,7 @@ Conditional formatting is achieved through `rules`.
 > 💡 Every rule will correspond to a single `if-then` condition.
 
 You can create as many `rules` as you want.
-
+ 
 For example, you can create `rules` that change the color of a cell to red if the value is a negative number and green if it is a positive number.
 
 Different rules allow you to create different color-coding systems.

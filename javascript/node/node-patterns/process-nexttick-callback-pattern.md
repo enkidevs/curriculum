@@ -9,11 +9,12 @@ tags:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # `process.nextTick()` callback pattern
@@ -25,9 +26,9 @@ revisionQuestion:
 
 *Event loop* can be viewed as a queue of callbacks that are processed by **Node** on consequent **ticks**.
 
-`process.nextTick()` basically defers the execution of an action until the next tick of the *Event Loop*.
+`process.nextTick()` defers the execution of an action until the next tick of the *Event Loop*.
 
-Basic behaviour of `process.nextTick()` can be achieved with ` setTimeout(fn,0)`, yet the former provide better performance.
+Basic behaviour of `process.nextTick()` can be achieved with ` setTimeout(fn,0)`, yet the former provides better performance.
 
 Its usage proves useful when you want to interleave the execution of a **CPU** intensive task with other events.
 

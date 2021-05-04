@@ -5,11 +5,11 @@ category: feature
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Dates
@@ -42,7 +42,7 @@ Next we allow another optional 0 followed by a single digit, OR a number in the 
 
 `/\d{4}$/`
 
-The final part is the easiest, as we want to accept any 4 digit number. Obviously you can be more restrictive if you want to only accept certain years.
+The final part is the easiest, as we want to accept any 4 digit number. You can also be more restrictive if you want to only accept certain years.
 
 Putting this all together we have:
 
@@ -73,8 +73,8 @@ How could we specify that we only want dates with years in the range 2000-2099?
 
 ???
 
+- /20\d{2}/
 - /2\d{3}/
 - /2\d{2}/
 - /2\d{4}/
 - /20\d{3}/
- 

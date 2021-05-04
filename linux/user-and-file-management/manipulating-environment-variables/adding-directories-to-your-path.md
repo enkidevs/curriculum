@@ -13,7 +13,8 @@ tags:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
@@ -70,7 +71,7 @@ What should be added to `.bashrc` to prepend `/fun/enki`  to `PATH`?
 
 ```bash
 PATH=???
-reload .bashrc
+# reload .bashrc
 ??? ~/.bashrc
 ```
 

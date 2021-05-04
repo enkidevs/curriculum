@@ -10,11 +10,12 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # `package.json`
@@ -54,7 +55,7 @@ Using the -y flag speeds up the process by omitting certain options including sp
 
 The default generated file for a project called *example* would look like this:
 
-```plain-text
+```json
 {
   "name": "example",
   "version": "1.0.0",

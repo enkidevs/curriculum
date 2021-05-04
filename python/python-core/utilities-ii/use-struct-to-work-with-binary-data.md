@@ -13,14 +13,16 @@ notes: >-
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
-# Use `struct` to work with Binary Data
+# Use struct to work with binary data
 
 
 ---
@@ -68,7 +70,7 @@ Return the size of the struct:
 
 Return the size of the `struct` given:
 
-```plain-text
+```python
 >>> ???.???(‘hhl’)
 8
 ```
@@ -88,7 +90,7 @@ Return the size of the `struct` given:
 
 What method should be used in the following code snippet to get a `bytes` object from the given argument?
 
-```plain-text
+```python
 >>> struct.???(‘hhl’, 3, 13, 42)
 b'\x03\x00\r\x00*\x00\x00\x00'
 ```

@@ -10,11 +10,11 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # DNS Hierarchy
@@ -59,9 +59,7 @@ When you register your domain name with a DNS registrar, which of the following 
 
 ## Revision
 
-A registrar inserts an NS and an A record for a customer's *** into the proper *** server in order to make a domain available through DNS. This single action is ___ to make the customers web service available through DNS.
-
-???
+A registrar inserts an NS and an A record for a customer's ??? into the proper ??? in order to make a domain available through DNS. This single action is ??? to make the customers web service available through DNS.
 
 - authoritative server
 - top level domain server

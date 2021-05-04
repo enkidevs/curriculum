@@ -5,7 +5,7 @@ category: how-to
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # How to list all files in a directory that match a filename extension in Java

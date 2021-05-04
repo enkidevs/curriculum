@@ -11,11 +11,11 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # `exports` vs. `module.exports` in **Node**
@@ -61,7 +61,7 @@ console.log(sample[2]); // 'C'
 
 ## Practice
 
-What is the output of the following JavaScript code? ???
+What is the output of the following JavaScript code?
 
 ```javascript
 module.exports = ['a', 'k', 'K', 'y', 'a'];
@@ -75,6 +75,8 @@ console.log(test[0]);
 console.log(test[1]);
 ```
 
+???
+
 - Kayak
 - kayak
 - kayaK
@@ -87,6 +89,7 @@ console.log(test[1]);
 ## Revision
 
 `exports` is a helper for?
+
 ???
 
 - module.exports

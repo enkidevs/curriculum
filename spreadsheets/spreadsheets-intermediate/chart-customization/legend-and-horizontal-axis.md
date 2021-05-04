@@ -1,4 +1,4 @@
-﻿---
+---
 author: Stefan-Stojanovic
 
 type: normal
@@ -33,7 +33,7 @@ Moreover, you can:
 ![horizontal-axis](https://img.enkipro.com/32939d1aa850f37458c5528f599e72fe.png)
 
 For now, we'll only change the label formatting to `Bold`.
-
+ 
 ---
 ## Footnotes
 
