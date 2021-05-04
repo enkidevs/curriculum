@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## May 4th 2021
+
+### Changed
+- [Python/Functional Programming - Arrays II - Modify Revision Question](https://github.com/enkidevs/curriculum/pull/2617) 
+
 ## April 27th 2021
 
 ### Added
@@ -250,6 +255,7 @@ Types of change:
 ### Fixed
 - [TypeScript - Never - Remove extra question gap](https://github.com/enkidevs/curriculum/pull/2624)
 - [TypeScript - Introduction to Type Aliases - Remove extra question gap](https://github.com/enkidevs/curriculum/pull/2624)
+
 
 
 ## February 5th 2021

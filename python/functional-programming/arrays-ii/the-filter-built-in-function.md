@@ -35,7 +35,7 @@ Together with the other built-in functions `map`[1] and `reduce`, `filter` allow
 filter(function, iterable)
 ```
 
-`filter` always returns a list, *unless the iterable object passed in is a string or a tuple*; in this case, the return type reflects the input type. If we don't provide a function to `filter`, such as by putting `None` in the place of the function, `filter` assumes the identity function.
+`filter` returns an iterable `filter object`, an iterable can be a tuple, a list, and so on. If we don't provide a function to `filter`, such as by putting `None` in the place of the function, `filter` assumes the identity function.
 
 It is important to remember that `filter` evaluates a boolean value, so it interprets the results of the identity function as such. Therefore—*since Python evaluates `0`, `None` and the empty string as `False`*—a `filter` with `None` as its function will not return these objects if they occur in the iterable object.
 
@@ -104,15 +104,24 @@ What is the printed result of the following code execution?
 numbers = [-3, -2, -1, 0, 1, 2, 3]
 def mystery_function(element):
   return element < 0
-print(filter(mystery_function, numbers))
+
+filtered = filter(mystery_function, numbers)
+print(list(filtered))
+    
+# ???
+# ???
+# ???
 ```
 
 ???
 
-- `[-3, -2, -1]`
-- `[-1, -2, -3]`
-- `[1, 2, 3]`
-
+- `-3`
+- `-2`
+- `-1`
+- `3`
+- `2`
+- `1`
+- `0`
 
 ---
 
