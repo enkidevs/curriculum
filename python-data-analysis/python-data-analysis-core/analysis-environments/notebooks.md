@@ -94,7 +94,7 @@ x = x + 1
 # Something in between 
 
 # Line 57
-x = "someting else"
+x = "something else"
 ```
 
 If you run the lines in order up to line 57, everything will work as intended. However, if after line 57 you run line 2 without running line 1 first, you will get an error.
