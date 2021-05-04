@@ -156,7 +156,7 @@ Along with the `checked` and `unchecked` state, checkboxes have a third state ca
 
 This `indeterminate` state is shown with CSS styling and CSS Tricks. 
 
-> More on this in the **Learn more** section.
+> 💡 If you'd like to know more about the `indeterminate` state, check out the **Learn more** section.
 
 ---
 
