@@ -55,7 +55,12 @@ Types of change:
 
 ### Fixed
 - [Python Data Analysis - What Are Notebooks - Fix typo](https://github.com/enkidevs/curriculum/pull/2693)
+- [Python Data Analysis - Analysis Environments - Fix Footnote number](https://github.com/enkidevs/curriculum/pull/2692)
+
 ## April 27th 2021
+
+### Fixed
+- [Git - Cloning A Git Repository - Fix typo](https://github.com/enkidevs/curriculum/pull/2687)
 
 ### Added
 - [Coding Intro - What is Your Goal - Add deep links for SQL, Python, and Web](https://github.com/enkidevs/curriculum/pull/2679)
