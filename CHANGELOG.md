@@ -58,6 +58,9 @@ Types of change:
 
 ## April 27th 2021
 
+### Fixed
+- [Git - Cloning A Git Repository - Fix typo](https://github.com/enkidevs/curriculum/pull/2687)
+
 ### Added
 - [Coding Intro - What is Your Goal - Add deep links for SQL, Python, and Web](https://github.com/enkidevs/curriculum/pull/2679)
 
