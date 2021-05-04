@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## May 4th 2021
+
+### Fixed
+- [Javascript - Closures - Fix typo](https://github.com/enkidevs/curriculum/pull/2690)
+
 ## April 27th 2021
 
 ### Added
