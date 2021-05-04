@@ -46,7 +46,7 @@ In this course, we will be using the Jupyter Lab environment.
 
 Shells are command-line tools used to execute code.
 
-[1: Terminal Gif]
+[2: Terminal Gif]
 
 Terminals are programs on the computer that let us communicate with shells. We send input (commands) into and receive output (results) out of the shell via a terminal.
 
