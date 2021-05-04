@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## May 4th 2021
+
+### Fixed
+- [Web - Checkbox Group - Move link to links section and remove HTML comment](https://github.com/enkidevs/curriculum/pull/2691)
+
 ## April 27th 2021
 
 ### Added
