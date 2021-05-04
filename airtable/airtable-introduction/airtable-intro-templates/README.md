@@ -7,4 +7,5 @@ insights:
   - airtable-importing-data
 aspects:
   - introduction
+  - workout
  
