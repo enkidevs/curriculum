@@ -3,7 +3,7 @@ author: emmab
 tags:
   - introduction
 type: normal
-category: must-know
+category: coding
 practiceQuestion:
   formats:
     - fill-in-the-gap
@@ -30,7 +30,7 @@ To do this, in the Python interpreter, use Python's print function as follows:
 print('Hello World!')
 ```
 
-The output displayed in the shell is:
+The output displayed in the shell should be:
 
 ```python
 # Hello World!
@@ -49,7 +49,7 @@ In this program, we've used Python's built-in `print` function. Soon you'll lear
 
 ## Practice
 
-Let's practice using Python! Which statement will display `'Enki'`?
+Let's practice more Python! Which statement will display `'Enki'`?
 
 ```python
 ???
@@ -65,7 +65,7 @@ Let's practice using Python! Which statement will display `'Enki'`?
 
 ## Revision
 
-Complete the code snippet with the correct function to write `'Python with Enki!'` to the shell:
+Complete the code snippet with the correct function to output `'Python with Enki!'`:
 
 ```plain-text
 ???('Python with Enki!')

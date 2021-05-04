@@ -47,23 +47,34 @@ You can use it to build websites, web apps and desktop apps. But it's also used 
 
 ## Practice
 
-Python is closer to ??? language and further away from ??? language.
+Let's write some Python code! Do you remember how to print a message?
 
-- human
-- machine
-- alien
-- automated
+> Don't worry; this is to get you comfortable with code. 
+> You'll learn all about how this works in the upcoming lessons
 
+```python
+my_age = 23
+legal_age = 21
+if my_age >= legal_age:
+    ???("You can have a beer!")
+```
+
+- print
+- state
+- write
+- log
 
 ---
 
 ## Revision
 
-Python is both a ??? and general-purpose programming language.
+Python is a programming language that you can use for just about anything.
 
-- high-level
-- niche
-- low-level
+We call these kinds of languages ???.
+
+- general-purpose
+- all-the-things
+- multi-featured
 - domain-specific
 
 
@@ -72,5 +83,8 @@ Python is both a ??? and general-purpose programming language.
 ## Footnotes
 
 [1:Syntax]
-The syntax is the set of rules that define how a program will be written and interpreted. It covers the symbols, indentation and keywords of the language. All programming languages use different syntax.
- 
+The syntax of a programming language sets the rules on how a language can be written and understood by the computer.
+
+The same idea exists in human languages. 
+
+The English language has unique types of words like *verb* and *nouns* and rules on which should come first to make a correct sentence; Python has a different set of rules on making valid Python statements.

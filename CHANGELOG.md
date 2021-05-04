@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## May 4th 2021
+
+### Changed
+- [Python - Meet Python - Add code-oriented questions; other improvements](https://github.com/enkidevs/curriculum/pull/2681)
+
 ## April 27th 2021
 
 ### Fixed
