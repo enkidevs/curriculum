@@ -53,6 +53,8 @@ Types of change:
 ### Changed
 - [Python - Meet Python - Add code-oriented questions; other improvements](https://github.com/enkidevs/curriculum/pull/2681)
 
+### Fixed
+- [Python Data Analysis - What Are Notebooks - Fix typo](https://github.com/enkidevs/curriculum/pull/2693)
 ## April 27th 2021
 
 ### Added
