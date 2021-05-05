@@ -57,6 +57,7 @@ Types of change:
 - [Python - Meet Python - Add code-oriented questions; other improvements](https://github.com/enkidevs/curriculum/pull/2681)
 
 ### Fixed
+- [Python Data Analysis - What Are Notebooks - Fix typo](https://github.com/enkidevs/curriculum/pull/2693)
 - [Python Data Analysis - Analysis Environments - Fix Footnote number](https://github.com/enkidevs/curriculum/pull/2692)
 - [Web - Checkbox Group - Move link to links section and remove HTML comment](https://github.com/enkidevs/curriculum/pull/2691)
 
