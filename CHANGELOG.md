@@ -50,6 +50,9 @@ Types of change:
 
 ## May 4th 2021
 
+### Fixed
+- [Javascript - Closures - Fix typo](https://github.com/enkidevs/curriculum/pull/2690)
+
 ### Changed
 - [Python - Meet Python - Add code-oriented questions; other improvements](https://github.com/enkidevs/curriculum/pull/2681)
 
