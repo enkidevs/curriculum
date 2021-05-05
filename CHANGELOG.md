@@ -48,12 +48,22 @@ Types of change:
 
 ### Fixed
 
-## May 3rd 2021
+## May 4th 2021
+
+### Fixed
+- [Javascript - Closures - Fix typo](https://github.com/enkidevs/curriculum/pull/2690)
+- [Python Data Analysis - Analysis Environments - Fix Footnote number](https://github.com/enkidevs/curriculum/pull/2692)
+
+### Changed
+- [Python - Meet Python - Add code-oriented questions; other improvements](https://github.com/enkidevs/curriculum/pull/2681)
 
 ### Added
 - [Python - Threading - Add workout](https://github.com/enkidevs/curriculum/pull/2689)
 
 ## April 27th 2021
+
+### Fixed
+- [Git - Cloning A Git Repository - Fix typo](https://github.com/enkidevs/curriculum/pull/2687)
 
 ### Added
 - [Coding Intro - What is Your Goal - Add deep links for SQL, Python, and Web](https://github.com/enkidevs/curriculum/pull/2679)
