@@ -25,7 +25,7 @@ Notebooks are interactive documents[1] that let you combine code with other visu
 
 As long as you have a link to a notebook you can share it with your team or modify it from any computer.
 
-You and anyone you've shared your notebook with can collaborate on the notebook by writting parts of it or leave discussion comments.
+You and anyone you've shared your notebook with can collaborate on the notebook by writing parts of it or leave discussion comments.
 
 Notebooks let you mix code, text and images in any order you like, and each piece can be tested independently.
 
@@ -74,7 +74,7 @@ If you have a sharable link to an online notebook you can modify it from any com
 [1: Notebook example]
 Here's a notebook containing a line of code, some Markdown text, and an image.
 
-![notebook-writting](https://img.enkipro.com/b0cf77ab69e42faf8e771314ea5c4a46.png)
+![notebook-writing](https://img.enkipro.com/b0cf77ab69e42faf8e771314ea5c4a46.png)
 
 And here's how the notebook looks when we run it:
 
@@ -94,7 +94,7 @@ x = x + 1
 # Something in between 
 
 # Line 57
-x = "someting else"
+x = "something else"
 ```
 
 If you run the lines in order up to line 57, everything will work as intended. However, if after line 57 you run line 2 without running line 1 first, you will get an error.
