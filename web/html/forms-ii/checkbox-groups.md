@@ -9,6 +9,8 @@ links:
   - >-
     [StackOverflow: Multiple
     Checkboxes](https://stackoverflow.com/questions/18745456/handle-multiple-checkboxes-with-a-single-serverside-variable){discussion}
+  - >-
+    [Indeterminate Checkbox State](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/checkbox){documentation}
 practiceQuestion:
   formats:
     - fill-in-the-gap
@@ -146,14 +148,15 @@ Example:
 
 ![checkbox-folk](https://img.enkipro.com/93a7f957c9bc0528f82918e2a8a6c2d7.png)
 
-[View CodePen](https://codepen.io/enkidevs/pen/BPpLYY)0
+[View CodePen](https://codepen.io/enkidevs/pen/BPpLYY)
 
 Along with the `checked` and `unchecked` state, checkboxes have a third state called `indeterminate`. In this state, you can't tell if the checkbox is toggled on or off. Checkboxes in this state have a horizontal line in the box. The most common use for this is when a checkbox option has multiple checkbox sub-options within it. If all sub-options are selected, then the parent checkbox is also selected. On the other hand, if any of the sub-options have a different state from one another the parent checkbox is in the indeterminate state.
 
 ![checkbox-indeterminate](https://img.enkipro.com/4243d6c40fc35f912a8632e94e00bbcd.png)
 
-<!--This `indeterminate` state is shown with CSS styling and CSS Tricks. More on this: '[Indeterminate state checkboxes](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/checkbox)'-->
+This `indeterminate` state is shown with CSS styling and CSS Tricks. 
 
+> 💡 If you'd like to know more about the `indeterminate` state, check out the **Learn more** section.
 
 ---
 

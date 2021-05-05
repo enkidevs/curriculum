@@ -59,6 +59,7 @@ Types of change:
 ### Fixed
 - [Python Data Analysis - What Are Notebooks - Fix typo](https://github.com/enkidevs/curriculum/pull/2693)
 - [Python Data Analysis - Analysis Environments - Fix Footnote number](https://github.com/enkidevs/curriculum/pull/2692)
+- [Web - Checkbox Group - Move link to links section and remove HTML comment](https://github.com/enkidevs/curriculum/pull/2691)
 
 ## April 27th 2021
 
