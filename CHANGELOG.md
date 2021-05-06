@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## May 6th 2021
+
+### Changed
+- [Javascript - Flow Control Discussion Insight - Convert to coding insight](https://github.com/enkidevs/curriculum/pull/2694)
+
 ## May 4th 2021
 
 ### Fixed
