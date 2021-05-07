@@ -7,7 +7,5 @@ insights:
   - react-effect-hooks
   - react-rules-of-hooks
 aspects:
-  - new
   - workout
   - deep
- 

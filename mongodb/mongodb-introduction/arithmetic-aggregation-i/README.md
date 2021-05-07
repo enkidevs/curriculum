@@ -8,5 +8,3 @@ insights:
   - aggregating-with-divide
 aspects:
   - introduction
-  - new
- 

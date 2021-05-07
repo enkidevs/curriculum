@@ -8,7 +8,6 @@ insights:
   - network-information-api
 aspects:
   - introduction
-  - new
   - workout
   - deep
   - obscura
