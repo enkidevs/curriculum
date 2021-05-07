@@ -9,5 +9,3 @@ insights:
 aspects:
   - introduction
   - obscura
-  - new
- 

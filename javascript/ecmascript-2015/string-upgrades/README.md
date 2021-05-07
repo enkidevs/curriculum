@@ -8,7 +8,6 @@ insights:
 game: ecmascript-time-travel
 aspects:
   - introduction
-  - new
   - workout
   - deep
  

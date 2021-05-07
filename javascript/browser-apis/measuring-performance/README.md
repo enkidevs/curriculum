@@ -7,7 +7,6 @@ insights:
   - user-timing-api
   - progress-event
 aspects:
-  - new
   - workout
   - deep
   - obscura

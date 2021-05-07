@@ -8,7 +8,5 @@ insights:
   - upgrade-process-cadence
 aspects:
   - introduction
-  - new
   - workout
   - deep
- 
