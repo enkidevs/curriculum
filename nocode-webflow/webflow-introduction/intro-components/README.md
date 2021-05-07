@@ -6,7 +6,5 @@ insights:
   - sliders
   - symbols
 aspects:
-  - deep
   - workout
   - introduction
- 

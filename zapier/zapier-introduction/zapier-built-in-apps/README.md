@@ -9,5 +9,3 @@ insights:
   - zapier-schedule-and-delay
 aspects:
   - introduction
-  - deep
- 
