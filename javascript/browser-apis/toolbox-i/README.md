@@ -8,6 +8,7 @@ insights:
   - page-visibility-api
 aspects:
   - introduction
+  - new
   - workout
   - deep
   - obscura

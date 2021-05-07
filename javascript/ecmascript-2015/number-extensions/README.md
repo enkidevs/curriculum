@@ -7,5 +7,6 @@ insights:
   - number-extensions-part-2
 aspects:
   - introduction
+  - new
   - workout
  

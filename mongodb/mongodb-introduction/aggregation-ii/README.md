@@ -8,6 +8,7 @@ insights:
   - aggregation-sortbycount
   - aggregation-sortbycount-ii
 aspects:
+  - new
   - workout
   - introduction
   - deep

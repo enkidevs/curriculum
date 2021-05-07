@@ -11,3 +11,5 @@ aspects:
   - workout
   - deep
   - introduction
+  - new
+ 

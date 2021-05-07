@@ -14,5 +14,6 @@ exercises:
   - js-practice-classes-ii
 aspects:
   - introduction
+  - new
   - workout
  

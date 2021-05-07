@@ -10,4 +10,6 @@ aspects:
   - introduction
   - workout
   - deep
+  - new
   - obscura
+ 

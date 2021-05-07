@@ -8,3 +8,5 @@ insights:
   - let-part-2
 aspects:
   - introduction
+  - new
+ 

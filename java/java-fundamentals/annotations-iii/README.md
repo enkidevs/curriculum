@@ -12,5 +12,6 @@ insights:
 aspects:
   - deep
   - obscura
+  - new
   - introduction
   - workout

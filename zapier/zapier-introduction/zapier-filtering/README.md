@@ -7,3 +7,6 @@ insights:
 aspects:
   - introduction
   - workout
+  - deep
+  - obscura
+ 

@@ -10,3 +10,5 @@ aspects:
   - deep
   - obscura
   - introduction
+  - new
+ 

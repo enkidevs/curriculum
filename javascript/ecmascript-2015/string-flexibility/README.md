@@ -7,6 +7,7 @@ insights:
 game: stringing-it-all-together
 aspects:
   - introduction
+  - new
   - workout
   - deep
  

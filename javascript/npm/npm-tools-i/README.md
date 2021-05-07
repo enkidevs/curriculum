@@ -9,5 +9,6 @@ insights:
 aspects:
   - workout
   - deep
+  - new
   - introduction
  

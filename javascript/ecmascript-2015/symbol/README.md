@@ -8,6 +8,7 @@ insights:
   - symbol-special-properties
 aspects:
   - introduction
+  - new
   - workout
   - deep
  

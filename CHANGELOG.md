@@ -48,11 +48,6 @@ Types of change:
 
 ### Fixed
 
-## May 7th 2021
-
-### Changed
-- [Remove the `new` aspect from all the workouts; Remove the `obscura` and `deep` aspects from Zapier and Webflow](https://github.com/enkidevs/curriculum/pull/2695)
-
 ## May 4th 2021
 
 ### Fixed
