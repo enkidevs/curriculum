@@ -30,7 +30,7 @@ Real databases are often comprised of more than one table.
 
 Relational databases consist of tables and entries that connected to one another in some way. We call this connection a *relationship*.
 
-Consider the `pokedex` database, it contains two tables: the `pokemon_health` and `pokemon_attack` tables.
+Consider the `pokedex` database, it contains two tables: `pokemon_health` and `pokemon_attack`.
 
 | id | name       | health |
 |----|------------|--------|
