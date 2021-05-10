@@ -42,7 +42,7 @@ Consider the `pokedex` database, it contains two tables: the `pokemon_health` an
 | 1  | poison | 21          |
 | 2  | fire   | 15          |
 
-Inspecting these two tables, it is easy to see that the `id` column is shared.
+Inspecting them, we can easily see that the `id` column is shared.
 
 More importantly, these two tables **map**, or are related, to one another. 
 
