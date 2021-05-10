@@ -64,9 +64,8 @@ OverflowError: int too big to convert
 # 10000000000 occupies more than 1 byte
 
 # converting -25 with little endian
->>> (-25).to_bytes(-(-(-25).bit_length()
-    // 8), byteorder="little", signed=True)
-b'\xe7'
+>>> (-25).to_bytes(5, byteorder="little", signed=True)
+b'\xe7\xff\xff\xff\xff'
 ```
 
 Similarly, the `.from_bytes()` method works in reverse:
