@@ -51,7 +51,7 @@ Types of change:
 ## May 11th 2021
 
 ### Fixed
-- [Go - Operators - Fix MD table]()
+- [Go - Operators - Fix MD table](https://github.com/enkidevs/curriculum/pull/2699)
 
 ## May 7th 2021
 
