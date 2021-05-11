@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## May 11th 2021
+
+### Fixed
+- [Go - Operators - Fix MD table]()
+
 ## May 7th 2021
 
 ### Changed
