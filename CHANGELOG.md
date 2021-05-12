@@ -69,10 +69,14 @@ Types of change:
 ### Changed
 - [Javascript - Flow Control Discussion Insight - Convert to coding insight](https://github.com/enkidevs/curriculum/pull/2694)
 
+### Added
+- [Added availableAspects to all topic READMEs](https://github.com/enkidevs/curriculum/pull/2700)
+
 ## May 11th 2021
 
 ### Fixed
 - [Go - Operators - Fix MD table](https://github.com/enkidevs/curriculum/pull/2699)
+
 
 ## May 7th 2021
 
