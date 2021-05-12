@@ -38,7 +38,7 @@ It looks like a lot, but don't be put off! 😅
 
 Let's take a look at each significant chunk.
 
-`/[a-zA-Z0-9.!#$%&'*+/=?^_{|}~-]+/` gives all of the allowed email address characters and ensures that there's at least one of them.
+`/[a-zA-Z0-9.!#$%&’*+/=?^_{|}~-]+/` gives all of the allowed email address characters and ensures that there's at least one of them.
 
 `/[a-zA-Z0-9-]+/` ensures that the hostname is alphanumeric and has at least one character.
 
