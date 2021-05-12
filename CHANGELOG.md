@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## May 12th 2021
+
+### Fixed
+- [Regexp - Email Address Checker II - Update wording](https://github.com/enkidevs/curriculum/pull/2701)
+
 ## May 7th 2021
 
 ### Changed
