@@ -14,7 +14,6 @@ sections:
     - stopping-a-loop
     - least-frequent-character
     - factorial-calculator
-  '1':
     - adding-and-sorting-arrays
     - print-primes
     - string-length
@@ -22,7 +21,6 @@ sections:
     - happy-birthday
     - reverse-a-string
     - combine-objects
-  '2':
     - remove-duplicate-from-array
     - sum-and-product-of-two-arrays
     - squared-object-keys
@@ -33,7 +31,6 @@ sections:
     - remove-odd-numbers-from-array
     - array-of-characters-to-string
     - dice-roll
-  '3':
     - calculator-class
     - multiplication-table
     - pascals-triangle
