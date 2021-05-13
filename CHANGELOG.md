@@ -52,6 +52,7 @@ Types of change:
 
 ### Fixed
 - [Regexp - Email Address Checker II - Update wording](https://github.com/enkidevs/curriculum/pull/2701)
+- [Linux - Math in Terminal with BC - Fix syntax](https://github.com/enkidevs/curriculum/pull/2704)
 
 ## May 11th 2021
 
