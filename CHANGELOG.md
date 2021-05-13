@@ -52,6 +52,7 @@ Types of change:
 
 ### Fixed
 - [Regexp - Email Address Checker II - Update wording](https://github.com/enkidevs/curriculum/pull/2701)
+- [Python - Calling Functions - Improve readability](https://github.com/enkidevs/curriculum/pull/2705)
 
 ## May 11th 2021
 
