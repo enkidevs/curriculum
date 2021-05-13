@@ -37,7 +37,7 @@ firstThread =
 
 Now, let's import the `time` module and use a different function to create one.
 
-> Using the `time` module we can easily see how `threading` works by implemeting the `time.sleep(NUM_OF_SECOND)` method.
+> Using the `time` module we can see how `threading` works by implemeting the `time.sleep(NUM_OF_SECOND)` method.
 
 ```python
 import threading, time
