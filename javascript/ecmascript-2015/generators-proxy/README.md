@@ -10,5 +10,3 @@ game: generators-and-promises
 aspects:
   - introduction
   - workout
-  - new
- 

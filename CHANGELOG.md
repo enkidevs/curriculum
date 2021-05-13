@@ -48,10 +48,24 @@ Types of change:
 
 ### Fixed
 
-## May 6th 2021
+## May 12th 2021
+
+### Fixed
+- [Regexp - Email Address Checker II - Update wording](https://github.com/enkidevs/curriculum/pull/2701)
+- [Linux - Math in Terminal with BC - Fix syntax](https://github.com/enkidevs/curriculum/pull/2704)
 
 ### Changed
 - [Javascript - Flow Control Discussion Insight - Convert to coding insight](https://github.com/enkidevs/curriculum/pull/2694)
+
+## May 11th 2021
+
+### Fixed
+- [Go - Operators - Fix MD table](https://github.com/enkidevs/curriculum/pull/2699)
+
+## May 7th 2021
+
+### Changed
+- [Remove the `new` aspect from all the workouts; Remove the `obscura` and `deep` aspects from Zapier and Webflow](https://github.com/enkidevs/curriculum/pull/2695)
 
 ## May 4th 2021
 

@@ -7,7 +7,5 @@ insights:
   - react-dependency-array
   - react-effects-with-cleanup
 aspects:
-  - new
   - workout
   - deep
- 

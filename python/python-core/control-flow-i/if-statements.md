@@ -76,7 +76,7 @@ What does the following code snippet print?
 
 ```python
 x = 3
-if (x < 3):
+if x < 3:
     print ('small')
 else:
     print ('big')
