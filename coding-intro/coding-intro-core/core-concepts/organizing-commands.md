@@ -39,3 +39,5 @@ Just like organizing a book by chapters makes the book easier to read, so does o
 Functions give the program structure.
 
 > 💡 You should give your functions explanatory names to make it easier for the reader to understand what they do.
+
+Can you think of 3 other functions straight out of your everyday life?
