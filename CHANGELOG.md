@@ -53,6 +53,11 @@ Types of change:
 ### Fixed
 - [Regexp - Email Address Checker II - Update wording](https://github.com/enkidevs/curriculum/pull/2701)
 
+## May 11th 2021
+
+### Fixed
+- [Go - Operators - Fix MD table](https://github.com/enkidevs/curriculum/pull/2699)
+
 ## May 7th 2021
 
 ### Changed
