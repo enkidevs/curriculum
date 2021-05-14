@@ -4,7 +4,7 @@ An `if` is a conditional statement that executes a piece of code if the conditio
 
 An `else` statement is used after the `if` and it executes the code if the `if` condition evaluates to `false`.
 
-`if-else` statements can be nested.
+`if-else` statements can be chained.
 
 ```python
 number = 3
