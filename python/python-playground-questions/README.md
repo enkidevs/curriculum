@@ -1,8 +1,6 @@
-name: Core
+name: Python Questions
 
 description: Questions to improve your coding skills.
-
-core: true
 
 sections:
   '0':
