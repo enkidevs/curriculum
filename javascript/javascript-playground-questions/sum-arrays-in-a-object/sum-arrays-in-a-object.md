@@ -13,7 +13,7 @@ setupCode:
 
 ---
 
-# Sort Lists in an Object
+# Sort Arrays in an Object
 
 ---
 
@@ -29,7 +29,7 @@ let obj = {
 }
 ```
 
-Can you sort the values in each list alphabetically?
+Can you sort the values in each array alphabetically?
 
 To achieve this, you can use the following concepts:
 - Array method (`sort()`)
@@ -57,9 +57,9 @@ Remember, learning is more effective when we do it with others.
 
 Start by creating the object.
 
-Then initiate a `for...of` loop to go through the object.
+Use a `for...of` loop to go through the object.
 
-Next, inside the loop, sort the current values of the object lists:
+Next, inside the loop, sort the current values of the object arrays:
 
 `obj[key].sort()`
 
