@@ -1,5 +1,5 @@
 ---
-author: Stefan-Stojanovic
+author: Stefan-Stojanoviclist
 
 tags:
   - coding
@@ -9,7 +9,7 @@ type: normal
 category: coding
 
 setupCode:
-  startingPoint: "// 👋 Welcome to the JavaScript coding playground. \n. // Here is the list \n let numbers = [1, 3, 5, 7, 9, 10, 8, 6, 4, 2] \n"
+  startingPoint: "// 👋 Welcome to the JavaScript coding playground. \n. // Here is the Array \n let numbers = [1, 3, 5, 7, 9, 10, 8, 6, 4, 2] \n"
 
 ---
 
@@ -19,7 +19,7 @@ setupCode:
 
 ## Content
 
-Given the list:
+Given the array:
 
 ```javascript
 let numbers = [1, 3, 5, 7, 9, 10, 8, 6, 4, 2]
