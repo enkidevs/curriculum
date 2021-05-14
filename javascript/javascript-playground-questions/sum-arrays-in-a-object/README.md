@@ -1,9 +1,9 @@
-name: Sum Lists in an Object.
+name: Sort Arrays in an Object.
 
-description: Create a program to sum lists inside an object.
+description: Create a program to sort arrays inside an object.
 
 aspects:
   - workout
 
 insights:
-  - sum-lists-in-a-object
+  - sort-arrays-in-a-object
