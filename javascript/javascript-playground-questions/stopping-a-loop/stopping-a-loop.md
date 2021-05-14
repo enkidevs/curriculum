@@ -9,7 +9,7 @@ type: normal
 category: coding
 
 setupCode:
-  startingPoint: '// 👋 Welcome to the JavaScript coding playground. \n. // For this problem use this list: \n let scientists = ["Niels Bohr", "Galileo Galilei", "Marie Curie", "Albert Einstein", "Rosalind Franklin", "Katherine Johnson", "Lise Meitner", "Nikola Tesla"] \n'
+  startingPoint: '// 👋 Welcome to the JavaScript coding playground. \n. // For this problem use this array: \n let scientists = ["Niels Bohr", "Galileo Galilei", "Marie Curie", "Albert Einstein", "Rosalind Franklin", "Katherine Johnson", "Lise Meitner", "Nikola Tesla"] \n'
   
 ---
 
@@ -19,7 +19,7 @@ setupCode:
 
 ## Content
 
-Given a list of famous scientist:
+Given an array of famous scientist:
 
 ```javascript
 let scientists = [
@@ -34,7 +34,7 @@ let scientists = [
   ]
 ```
 
-Can you create a loop that will print out every name from the list until it reaches `Katherine Johnson`, including "`Katherine`"?
+Can you create a loop that will print out every name from the array until it reaches `Katherine Johnson`, including "`Katherine`"?
 
 To achieve this, you should use the following concepts:
 - variable creation (`age = 29`)
