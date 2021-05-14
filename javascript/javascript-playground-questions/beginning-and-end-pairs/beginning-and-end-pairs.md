@@ -1,5 +1,5 @@
 ---
-author: Stefan-Stojanoviclist
+author: Stefan-Stojanovic
 
 tags:
   - coding
