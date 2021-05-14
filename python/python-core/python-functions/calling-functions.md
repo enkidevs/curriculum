@@ -40,9 +40,9 @@ Gives the following output:
 Function time!
 ```
 
-A parameter in Python is a variable that can be passed into functions so that methods can be performed onto it.
+The value passed into a function is called an argument. The variable that holds that value within the function is called a parameter.
 
-In this example, variable `x` is passed into the function as a parameter:
+In this example, variable `x` is defined in the function as a parameter:
 
 ```python
 def func(x):
@@ -50,7 +50,9 @@ def func(x):
     print(ans)
 ```
 
-To call this function, you must pass a parameter into it. You can pass a number directly or through a variable:
+To call this function, you must pass a value (i.e. an argument) into it, which will put that value into the `x` variable (i.e. parameter) inside the function.
+
+You can pass a number directly or as a variable:
 
 ```python
 # With a variable
