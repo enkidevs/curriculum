@@ -23,7 +23,7 @@ sections:
     - squared-object-keys
     - iterate-over-object-values
     - sum-items-in-object
-    - sum-arrays-in-a-object
+    - sort-arrays-in-a-object
     - iterate-over-two-arrays
     - remove-odd-numbers-from-array
     - array-of-characters-to-string
