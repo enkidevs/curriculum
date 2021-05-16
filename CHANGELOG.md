@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## May 17th 2021
+
+### Fixed
+- [Linux - Quick cd tips - Fix weird html note](https://github.com/enkidevs/curriculum/pull/2711)
+
 ## May 12th 2021
 
 ### Fixed
