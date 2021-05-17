@@ -52,6 +52,7 @@ Types of change:
 
 ### Fixed
 - [Linux - Quick cd tips - Fix weird html note](https://github.com/enkidevs/curriculum/pull/2711)
+- [Python - Calling Functions - Improve readability](https://github.com/enkidevs/curriculum/pull/2705)
 
 ### Added
 - [Python & Javascript - Glossary - Add glossary on for, while, if and function creation](https://github.com/enkidevs/curriculum/pull/2708)
