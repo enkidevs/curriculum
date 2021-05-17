@@ -53,6 +53,9 @@ Types of change:
 ### Fixed
 - [Linux - Quick cd tips - Fix weird html note](https://github.com/enkidevs/curriculum/pull/2711)
 
+### Added
+- [Python & Javascript - Glossary - Add glossary on for, while, if and function creation](https://github.com/enkidevs/curriculum/pull/2708)
+
 ## May 12th 2021
 
 ### Fixed
