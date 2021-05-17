@@ -52,6 +52,7 @@ Types of change:
 
 ### Fixed
 - [Linux - Quick cd tips - Fix weird html note](https://github.com/enkidevs/curriculum/pull/2711)
+- [Python Data Analysis - What Are Analysis Environents - Fix grammar](https://github.com/enkidevs/curriculum/pull/2714)
 
 ## May 12th 2021
 
