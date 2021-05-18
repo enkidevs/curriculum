@@ -48,10 +48,14 @@ Types of change:
 
 ### Fixed
 
+
+
 ## May 12th 2021
 
 ### Fixed
 - [Regexp - Email Address Checker II - Update wording](https://github.com/enkidevs/curriculum/pull/2701)
+
+- [Python - Control Flow/If...else statements - Removed brackets from an if excercise]
 
 ## May 7th 2021
 
