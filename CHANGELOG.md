@@ -49,6 +49,10 @@ Types of change:
 ### Fixed
 
 
+## May 18th 2021
+
+### Changed
+- [Improvements made to Intro to Coding](https://github.com/enkidevs/curriculum/pull/2716)
 
 ## May 12th 2021
 
