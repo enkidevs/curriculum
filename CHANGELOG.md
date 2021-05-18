@@ -55,7 +55,7 @@ Types of change:
 ### Fixed
 - [Regexp - Email Address Checker II - Update wording](https://github.com/enkidevs/curriculum/pull/2701)
 
-- [Python - Control Flow/If...else statements - Removed brackets from an if excercise]
+- [Python - Control Flow/If...else statements - Removed brackets from an if excercise](https://github.com/enkidevs/curriculum/pull/2703)
 
 ## May 7th 2021
 
