@@ -59,9 +59,9 @@ Remember, learning is more effective when we do it with others.
 
 [1: Hints]
 
-You only need to loop through half of the array.
+You only need to loop through half of the list.
 
-To get the values in each loop cycle, take the loop counter index from the left and right sides of the array.
+To get the values in each loop cycle, take the loop counter index from the left and right sides of the list.
 
 For eample, the 3rd element from left and right of newList is:
 
