@@ -26,17 +26,19 @@ revisionQuestion:
 
 You are now familiar with querying individual tables.
 
-Real databases are often comprised of more than one table. 
+Real databases are often comprised of more than one table.
 
 Relational databases consist of tables and entries that connected to one another in some way. We call this connection a *relationship*.
 
-Consider the `pokedex` database, it contains two tables: `pokemon_health` and `pokemon_attack`.
+Consider the `pokedex` database, it contains two tables:
 
+`pokemon_health`
 | id | name       | health |
 |----|------------|--------|
 | 1  | Venusaur   | 42     |
 | 2  | Charmander | 35     |
 
+`pokemon_attack`
 | id | type   | base-attack |
 |----|--------|-------------|
 | 1  | poison | 21          |
@@ -44,7 +46,7 @@ Consider the `pokedex` database, it contains two tables: `pokemon_health` and `p
 
 Inspecting them, we can easily see that the `id` column is shared.
 
-More importantly, these two tables **map**, or are related, to one another. 
+More importantly, these two tables **map**, or are related, to one another.
 
 So the `attack` and type data for Venusaur (`id` = 1) is contained in the `pokemon_attack` table, while data for the `name` and the `health` is contained in the `pokemon_health` table[1].
 
@@ -102,5 +104,5 @@ and the `country_alt` table:
 
 ## Footnotes
 [1:Multiple Tables]
-These tables can then also be related to other tables in other ways, for example 
+These tables can then also be related to other tables in other ways, for example
 the `attack` table could be linked to a `types` table containing data for each type.
