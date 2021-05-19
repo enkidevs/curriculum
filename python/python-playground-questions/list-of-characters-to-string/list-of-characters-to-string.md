@@ -9,7 +9,7 @@ type: normal
 category: coding
 
 setupCode:
-  startingPoint: "# 👋 Welcome to the JavaScript coding playground. \n. # The array of characters: \n c = ['h', 'e', 'l', 'l', 'o', ' ', 'w', 'o', 'r', 'l', 'd'] \n"
+  startingPoint: "# 👋 Welcome to the Python coding playground. \n. # The list of characters: \n c = ['h', 'e', 'l', 'l', 'o', ' ', 'w', 'o', 'r', 'l', 'd'] \n"
 
 ---
 
@@ -62,4 +62,4 @@ Remember, learning is more effective when we do it with others.
 
 [1: Hints]
 
-Create an empty string and use a `for...of` loop to go through every character of the array, concatenating each character to the empty string.
+Create an empty string and use a `for...of` loop to go through every character of the list, concatenating each character to the empty string.
