@@ -46,5 +46,4 @@ Maybe you could put a loop inside `pick_coins` to repeat the grab coin command 1
 
 There has to be a better way! What else can we do?
 
-Can we put a loop inside another loop? A [loop-de-loop](https://www.youtube.com/watch?v=Yhnx1q1_Bko&ab_channel=TheFabulousEchoes-Topic)? 
-Could that solve our problem? 
+Can we put a loop inside another loop? A [loop-de-loop](https://www.youtube.com/watch?v=Yhnx1q1_Bko&ab_channel=TheFabulousEchoes-Topic)? Could that solve our problem? 

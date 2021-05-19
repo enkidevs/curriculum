@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## May 19th 2021
+
+### Fixed
+
+- [Fixed footnote in "Do it yourself"]()
 
 ## May 18th 2021
 
