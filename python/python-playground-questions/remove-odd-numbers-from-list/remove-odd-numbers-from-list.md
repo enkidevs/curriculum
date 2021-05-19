@@ -52,4 +52,4 @@ Remember, learning is more effective when we do it with others.
 
 You need two lists. The first one is already created; `numbers`. The second one is empty and will hold the odd numbers.
 
-Use a loop to cycle through and a conditional statement to check whether a number is odd and add it to the second array if it is.
+Use a loop to cycle through and a conditional statement to check whether a number is odd and add it to the second list if it is.
