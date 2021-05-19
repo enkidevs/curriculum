@@ -9,7 +9,7 @@ type: normal
 category: coding
 
 setupCode:
-  startingPoint: '# 👋 Welcome to the JavaScript coding playground. \n. # These are the arrays: \n oddNumbers = [101, 23, 11, 8, 3, 83, 1] \n evenNumbers = [12, 0, 37, 91, 99, 44, 76] \n'
+  startingPoint: '# 👋 Welcome to the Python coding playground. \n. # These are the lists: \n oddNumbers = [101, 23, 11, 8, 3, 83, 1] \n evenNumbers = [12, 0, 37, 91, 99, 44, 76] \n'
 
 ---
 
