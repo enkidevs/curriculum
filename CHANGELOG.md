@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## May 20th 2021
+
+### Fixed
+- [SQL - Order By Advanced - Fix footnote table markdown]()
+
 ## May 17th 2021
 
 ### Fixed
