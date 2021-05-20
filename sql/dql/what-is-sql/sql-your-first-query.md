@@ -56,3 +56,4 @@ Complete the following code to retrieve **all** the data from the `fruits` table
 - GET
 - RETRIEVE
 - EXTRACT
+

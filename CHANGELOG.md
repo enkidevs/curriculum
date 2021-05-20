@@ -51,6 +51,7 @@ Types of change:
 ## May 20th 2021
 
 ### Fixed
+- [SQL - Your First Query - Retrigger insight to fix external resource]()
 - [SQL - Order By Advanced - Fix footnote table markdown](https://github.com/enkidevs/curriculum/pull/2717)
 
 ## May 17th 2021
