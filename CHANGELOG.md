@@ -52,6 +52,7 @@ Types of change:
 
 ### Fixed
 - [SQL - Order By Advanced - Fix footnote table markdown](https://github.com/enkidevs/curriculum/pull/2717)
+- [Python Data Analysis - End Goals - Move most questions to footnotes](https://github.com/enkidevs/curriculum/pull/2719)
 
 ## May 17th 2021
 
