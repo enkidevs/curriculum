@@ -5,7 +5,7 @@ category: must-know
 tags:
   - workout
   - deep
-links: null
+
 practiceQuestion:
   formats:
     - fill-in-the-gap
