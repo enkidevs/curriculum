@@ -35,8 +35,7 @@ But this does not mean smart contracts can not eventually access say the tempera
 ## Footnotes
 
 [1: OpenZepellin repository]
-<https://github.com/OpenZeppelin/openzeppelin-solidity>
-
+Here is the [OpenZepellin repository](https://github.com/OpenZeppelin/openzeppelin-solidity).
 
 ---
 

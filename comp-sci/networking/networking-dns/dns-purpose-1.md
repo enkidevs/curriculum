@@ -27,7 +27,7 @@ revisionQuestion:
 
 ## Content
 
-The fundamental purpose of the Domain Name System (DNS) is to provide a map between human readable domain names, such as [www.google.com](http://www.google.com) and the IP addresses of the machines that host services on the web such as `172.217.5.110` (IPv4) and `2607:f8b0:4005:80b::200e` (IPv6).
+The fundamental purpose of the Domain Name System (DNS) is to provide a map between human readable domain names, such as `www.google.com` and the IP addresses of the machines that host services on the web such as `172.217.5.110` (IPv4) and `2607:f8b0:4005:80b::200e` (IPv6).
 
 
 ---

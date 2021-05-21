@@ -33,7 +33,7 @@ This table should have the following columns, which will store the following val
 - `id`, a unique value to identify a user
 - `name`, for example: "John Goose", "Elizabeth Duck"
 - `facebook_id`, for example: "320985721018"
-- `email`, for example: "[john_goose@gmail.com](mailto:john_goose@gmail.com)"
+- `email`, for example: "john_goose@gmail.com"
 - `email_verified`, which will be true or false
 
 Once you've created your table, append these INSERT statements to the left-hand panel:
