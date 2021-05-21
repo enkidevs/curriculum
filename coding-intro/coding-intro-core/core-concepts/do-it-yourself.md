@@ -34,5 +34,3 @@ Don't worry too much about understanding every part of the code; see if you can 
 > 💡 The guidelines above are just suggestions. Feel free to include other concepts in your solution as you see fit. The implementation is up to you.
 
 > 🤓 Happy learning! Open the playground and start coding!
-
----
