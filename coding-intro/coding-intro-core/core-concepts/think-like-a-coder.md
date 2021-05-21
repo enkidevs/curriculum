@@ -10,7 +10,6 @@ category: discussion
 
 ---
 
-
 # Think Like a Coder
 
 ---
