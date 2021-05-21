@@ -52,7 +52,7 @@ Types of change:
 
 ### Fixed
 
-- [Fixed footnote in "Do it yourself"]()
+- [Coding Intro - Do it yourself - Fixed footnote](https://github.com/enkidevs/curriculum/pull/2716)
 
 ## May 18th 2021
 
