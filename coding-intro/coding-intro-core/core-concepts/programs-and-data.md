@@ -29,7 +29,7 @@ The only difference being that computers require specific instructions. (Don't t
 
 ### Data: Variables
 
-Data is information and information needs to be stored somewhere. That’s where variables come in. For instance, when you meet someone new you could store their `name = “Batman”` and `age = 24` as two separate pieces of information.
+Data is information and information needs to be stored somewhere. That’s where variables come in. For instance, when you meet someone new you could store their `name = "Batman"` and `age = 24` as two separate pieces of information.
 
 In this case, `name` and `age` would be the variables that store information.
 
