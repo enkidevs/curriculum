@@ -24,7 +24,7 @@ That's so much work! Instead, imagine if we had one function `makeCoffeee` with 
 
 ### Easier to read
 
-Functions give the program structure and make them easy to understand. Makebed, BrushTeeth, and ReadBook would be a lot easier to understand rather than a series of steps laid out one after the other.
+Functions give the program structure and make them easy to understand. `make_bed`, `brush_teeth`, and `read_book` would be a lot easier to understand rather than a series of steps laid out one after the other.
 > 💡 You should give your functions explanatory names to make it easier for the reader to understand what they do.
 
 Can you think of 3 other functions straight out of your everyday life?
