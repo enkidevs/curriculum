@@ -9,7 +9,11 @@ type: normal
 category: coding
 
 setupCode:
-  startingPoint: "// 👋 Welcome to the JavaScript coding playground. \n. // The array of characters: \n let c = ['h', 'e', 'l', 'l', 'o', ' ', 'w', 'o', 'r', 'l', 'd'] \n"
+  startingPoint: |
+    // 👋 Welcome to the JavaScript coding playground.
+    // The array of characters:
+
+    let c = ['h', 'e', 'l', 'l', 'o', ' ', 'w', 'o', 'r', 'l', 'd']
 
 ---
 

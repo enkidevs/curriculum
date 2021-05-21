@@ -9,7 +9,12 @@ type: normal
 category: coding
 
 setupCode:
-  startingPoint: "// 👋 Welcome to the JavaScript coding playground. \n. function Calculator(x) { \n \n } \n"
+  startingPoint: |
+    // 👋 Welcome to the JavaScript coding playground.
+    
+    function Calculator(x) { 
+    
+    }
 
 ---
 

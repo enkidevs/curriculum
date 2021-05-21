@@ -11,6 +11,14 @@ category: coding
 setupCode:
   startingPoint: "// 👋 Welcome to the JavaScript coding playground. \n. // Example output: \n // Zeus has 31 spheres \n"
 
+
+setupCode:
+  startingPoint: |
+    // 👋 Welcome to the JavaScript coding playground.
+    
+    import Math.random
+
+
 ---
 
 # Even or Odd

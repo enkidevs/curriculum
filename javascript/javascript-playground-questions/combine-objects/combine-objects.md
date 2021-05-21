@@ -9,7 +9,10 @@ type: normal
 category: coding
 
 setupCode:
-  startingPoint: "// 👋 Welcome to the JavaScript coding playground. \n. let o1 = {} \n"
+  startingPoint: |
+    // 👋 Welcome to the JavaScript coding playground.
+    
+    let o1 = {}
 
 ---
 

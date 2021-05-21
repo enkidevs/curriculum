@@ -9,7 +9,10 @@ type: normal
 category: coding
 
 setupCode:
-  startingPoint: "// 👋 Welcome to the JavaScript coding playground. \n. import Math.random \n"
+  startingPoint: |
+    // 👋 Welcome to the JavaScript coding playground.
+    
+    import Math.random
 
 ---
 
