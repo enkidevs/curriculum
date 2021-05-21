@@ -11,7 +11,7 @@ category: discussion
 ---
 
 
-# Think like a coder
+# Think Like a Coder
 
 ---
 ## Content
