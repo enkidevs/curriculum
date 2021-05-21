@@ -5,12 +5,7 @@ type: normal
 
 category: must-know
 
-links:
-  - >-
-    [Loops Explained](https://www.youtube.com/watch?v=wxds6MAtUQ0&ab_channel=Codecademy){video}
-  
 ---
-
 # Conditions and Loops
 
 ---

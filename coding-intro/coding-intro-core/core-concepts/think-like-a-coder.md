@@ -25,11 +25,10 @@ Imagine you have to simulate grabbing 5 coins from 3 different jars.
 You could make a function, `pick_coins`, with 3 commands and use it 5 times, saving yourself a lot of time.
 
 ```python
-pick_coins(){
-#Grab coin 1
-#Grab coin 2
-#Grab coin 3
-}
+def pick_coins():
+  # Grab the first coin
+  # Grab the second coin
+  # Grab the third coin
 
 pick_coins()
 pick_coins()
