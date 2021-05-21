@@ -9,7 +9,18 @@ type: normal
 category: coding
 
 setupCode:
-  startingPoint: '// 👋 Welcome to the JavaScript coding playground. \n. // Example solution: \n {1: 1, 2: 4, 3: 9, 4: 16, 5: 25, 6: 36, 7: 49, 8: 64, 9: 81, 10: 100} \n'
+  startingPoint: |
+    // 👋 Welcome to the JavaScript coding playground.
+    // Example solution:
+    // {
+    //    1: 1, 
+    //    2: 4, 
+    //    3: 9, 
+    //    4: 16, 
+    //    ...
+    //    9: 81,
+    //    10: 100 
+    // }
 
 ---
 

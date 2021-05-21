@@ -9,8 +9,21 @@ type: normal
 category: coding
 
 setupCode:
-  startingPoint: '// 👋 Welcome to the JavaScript coding playground. \n. // For this problem use this array: \n let scientists = ["Niels Bohr", "Galileo Galilei", "Marie Curie", "Albert Einstein", "Rosalind Franklin", "Katherine Johnson", "Lise Meitner", "Nikola Tesla"] \n'
-  
+  startingPoint: |
+    // 👋 Welcome to the JavaScript coding playground.
+    // Array in question:
+
+    let scientists = [
+      "Niels Bohr", 
+      "Galileo Galilei", 
+      "Marie Curie", 
+      "Albert Einstein", 
+      "Rosalind Franklin", 
+      "Katherine Johnson", 
+      "Lise Meitner", 
+      "Nikola Tesla"
+    ];
+
 ---
 
 # Breaking a Loop
@@ -31,7 +44,7 @@ let scientists = [
   "Katherine Johnson", 
   "Lise Meitner", 
   "Nikola Tesla"
-  ]
+  ];
 ```
 
 Can you create a loop that will print out every name from the array until it reaches `Katherine Johnson`, including "`Katherine`"?

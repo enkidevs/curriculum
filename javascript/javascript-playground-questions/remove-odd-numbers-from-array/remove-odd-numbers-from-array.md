@@ -9,8 +9,12 @@ type: normal
 category: coding
 
 setupCode:
-  startingPoint: '// 👋 Welcome to the JavaScript coding playground. \n. // Array in question: \n let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10] \n'
+  startingPoint: |
+    // 👋 Welcome to the JavaScript coding playground.
+    // Array in question:
 
+    let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+    
 ---
 
 # Remove Odd Numbers From an Array

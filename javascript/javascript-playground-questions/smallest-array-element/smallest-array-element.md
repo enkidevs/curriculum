@@ -9,7 +9,12 @@ type: normal
 category: coding
 
 setupCode:
-  startingPoint: '// 👋 Welcome to the JavaScript coding playground. \n. // Array in question: \n let numbers = [33, 99, 41, 73, 2, 21, 1, 18] \n'
+  startingPoint: |
+    // 👋 Welcome to the JavaScript coding playground.
+    // Array in question:
+    
+    let numbers = [33, 99, 41, 73, 2, 21, 1, 18];
+
 
 ---
 
@@ -23,7 +28,7 @@ Can you create a program that will output the smallest number from a given array
 
 Here is the array:
 ```javascript
-let numbers = [33, 99, 41, 73, 2, 21, 1, 18]
+let numbers = [33, 99, 41, 73, 2, 21, 1, 18];
 ```
 
 To achieve this, you can use some of the following concepts:

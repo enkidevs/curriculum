@@ -9,7 +9,16 @@ type: normal
 category: coding
 
 setupCode:
-  startingPoint: '// 👋 Welcome to the JavaScript coding playground. \n. // Object sort: \n let obj = { \n  "first": [7, 1, 5, 3], \n  "second": [4, 8, 2, 6], \n  "third": [8, 1, 19, 13] \n} \n \n'
+  startingPoint: |
+    // 👋 Welcome to the JavaScript coding playground.
+    // Object to sort:
+    
+    let obj = { 
+      "first": [7, 1, 5, 3],
+      "second": [4, 8, 2, 6],
+      "third": [8, 1, 19, 13]
+      }
+
 
 ---
 
@@ -26,7 +35,7 @@ let obj = {
   'first': [7, 1, 5, 3],
   'second': [4, 8, 2, 6],
   'third': [8, 1, 19, 13]
-}
+};
 ```
 
 Can you sort the values in each array alphabetically?

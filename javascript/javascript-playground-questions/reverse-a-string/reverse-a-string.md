@@ -9,7 +9,13 @@ type: normal
 category: coding
 
 setupCode:
-  startingPoint: '// 👋 Welcome to the JavaScript coding playground. \n. // Example reversed String: \n # Input: \n Dennis Ritchie\n // Output: \n eihctiR sinneD'
+  startingPoint: |
+    // 👋 Welcome to the JavaScript coding playground.
+    // Example reversed String:
+    // Input:
+    // "Desserts"
+    // Output:
+    // "stresseD"
 
 ---
 
@@ -24,10 +30,10 @@ Can you write a program that will take a string as input and output it in revers
 Example:
 ```javascript
 // Input
-"Dennis Ritchie"
+"Desserts"
 
 // Output
-"eihctiR sinneD"
+"stresseD"
 ```
 
 To achieve this, you can use the following concepts:

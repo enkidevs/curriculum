@@ -9,11 +9,14 @@ type: normal
 category: coding
 
 setupCode:
-  startingPoint: '// 👋 Welcome to the JavaScript coding playground. \n. // Tuple in question: \n let names = ["Stefan", "Mark", "Joane","Steven", "Natasha", "Mark", "Steven", "Mark", "Natasha"] \n'
-
+  startingPoint: |
+    // 👋 Welcome to the JavaScript coding playground.
+    // Array in question:
+    let names = ["Stefan", "Mark", "Joane","Steven", "Natasha", "Mark", "Steven", "Mark", "Natasha"];
+    
 ---
 
-# Remove Duplicate From Tuple
+# Remove Duplicate From Array
 
 ---
 
@@ -22,7 +25,7 @@ setupCode:
 Given an array with repeating words, can you define a function that will take such array as input and return it without any duplicates?
 
 ```javascript
-let names = ["Stefan", "Mark", "Joane", "Steven", "Natasha", "Mark", "Steven", "Mark", "Natasha"]
+let names = ["Stefan", "Mark", "Joane", "Steven", "Natasha", "Mark", "Steven", "Mark", "Natasha"];
 ```
 
 To achieve this, you can use the following concepts:
@@ -59,7 +62,7 @@ function removeDups(t) {
 }
 ```
 
-Use an empty array to hold all unique values. Use a for loop to cycle through the given array and only if the word is not in the array, add it to the empty one.
+Use an empty `array` to hold all unique values. Use a `for` loop to cycle through the given `array` and only if the word is not in the empty `array`, add it.
 
 After the loop is done, return the resulting array.
 

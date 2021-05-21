@@ -9,7 +9,12 @@ type: normal
 category: coding
 
 setupCode:
-  startingPoint: '// 👋 Welcome to the JavaScript coding playground. \n. // Example input: \n Elon Musk \n // Example output: \n 8 \n'
+  startingPoint: |
+    // 👋 Welcome to the JavaScript coding playground.
+    // Example input:
+    // "Elon Musk"
+    // Example output:
+    // 8
 
 ---
 
