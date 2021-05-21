@@ -53,6 +53,7 @@ Types of change:
 ### Fixed
 - [SQL - Order By Advanced - Fix footnote table markdown](https://github.com/enkidevs/curriculum/pull/2717)
 - [General - Fix some content issues](https://github.com/enkidevs/curriculum/pull/2721)
+- [Curriculum - Accross All Topics - Remove links with value null](https://github.com/enkidevs/curriculum/pull/2720)
 
 ## May 17th 2021
 
