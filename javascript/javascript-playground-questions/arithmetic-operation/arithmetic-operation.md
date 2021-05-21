@@ -9,7 +9,9 @@ type: normal
 category: coding
 
 setupCode:
-  startingPoint: "// 👋 Welcome to the JavaScript coding playground. \n. // For this problem use one of the arithmetic operators like +, -, * or \ \n"
+  startingPoint: |
+    // 👋 Welcome to the JavaScript coding playground.
+    // For this problem use one of the arithmetic operators; +, -, * or \
   
 ---
 
