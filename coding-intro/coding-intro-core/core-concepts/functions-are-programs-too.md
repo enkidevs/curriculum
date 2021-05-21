@@ -32,7 +32,6 @@ If we wanted, we could use `shortest_path` as a function in our new food deliver
 
 Where else could we use the `shortest_path` function?
 
-
 ---
 
 ## Revision
