@@ -9,7 +9,12 @@ type: normal
 category: coding
 
 setupCode:
-  startingPoint: '// 👋 Welcome to the JavaScript coding playground. \n. // let obj = {// Input Object data here} \n'
+  startingPoint: |
+    // 👋 Welcome to the JavaScript coding playground.
+    
+    let obj = {
+      // Input Object data here
+    };
 
 ---
 

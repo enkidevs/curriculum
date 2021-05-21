@@ -9,7 +9,12 @@ type: normal
 category: coding
 
 setupCode:
-  startingPoint: '// 👋 Welcome to the JavaScript coding playground. \n. // Example: \n // Input: \n myFunction("Mary had a little lamb") \n // Output: \n little \n\n \n'
+  startingPoint: |
+    // 👋 Welcome to the JavaScript coding playground.
+    // Example input:
+    // myFunction("Marry had a little lamb");
+    // Example output:
+    // little
 
 ---
 

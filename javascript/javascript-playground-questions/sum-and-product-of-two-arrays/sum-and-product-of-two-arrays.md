@@ -9,8 +9,12 @@ type: normal
 category: coding
 
 setupCode:
-  startingPoint: '// 👋 Welcome to the JavaScript coding playground. \n. # Tuples: \n let first = [1, 3, 5] \n
-let second = [2, 4, 6] \n '
+  startingPoint: |
+    // 👋 Welcome to the JavaScript coding playground.
+    // Arrays in question:
+    
+    let first = [1, 3, 5];
+    let second = [2, 4, 6];
 
 ---
 
@@ -24,9 +28,9 @@ Can you define a function that will take two arrays as input, sum up the values 
 
 Arrays:
 ```javascript
-let first = [1, 3, 5]
+let first = [1, 3, 5];
 
-let second = [2, 4, 6]
+let second = [2, 4, 6];
 ```
 
 The result would be (1 + 3 + 5) * (2 + 4 + 6) = 108
