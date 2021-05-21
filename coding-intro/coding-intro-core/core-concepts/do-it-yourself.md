@@ -6,7 +6,7 @@ type: normal
 category: coding
 
 setupCode:
-  startingPoint: "# Who did you meet today?. \n name = '???' \n age = ??? \n print(age)  # Print age to the screen as it is. \n print(name/2)  # Print name to screen after dividing by 2!? \n"
+  startingPoint: "# Who did you meet today?\n\nname = '???'\nage = ???\n\nprint(age) #Print age to the screen as it is. \nprint(name/2) #Print name to screen after dividing by 2!? \n"
 ---
 # Do it yourself!
 ---
@@ -31,6 +31,9 @@ Don't worry too much about understanding every part of the code; see if you can 
 
 
 > 💡 The [comments](https://enki.com/glossary/general/comment) might help you find what's wrong.
+>
 > 💡 The guidelines above are just suggestions. Feel free to include other concepts in your solution as you see fit. The implementation is up to you.
+>
 > 🤓 Happy learning! Open the playground and start coding!
+
 ---
