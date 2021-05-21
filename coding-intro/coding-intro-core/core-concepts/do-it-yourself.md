@@ -6,7 +6,7 @@ type: normal
 category: coding
 
 setupCode:
-  startingPoint: "# Who did you meet today?\n\nname = '???'\nage = ???\n\nprint(age) #Print age to the screen as it is. \nprint(name/2) #Print name to screen after dividing by 2!? \n"
+  startingPoint: "# Who did you meet today?\n\nname = '???'\nage = ???\n\nprint(age) # Print age to the screen as it is. \nprint(name/2) # Print name to screen after dividing by 2!? \n"
 ---
 # Do it yourself!
 ---
