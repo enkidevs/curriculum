@@ -19,7 +19,7 @@ Coding is all about saving time (and sometimes about making money 😉).
 
 Let's look at a scenario.
 
-Imagine you have to simulate grabbing 5 coins from 3 different jars. 
+Imagine you have to simulate grabbing five coins from three different jars. 
 
 You could make a function, `pick_coins`, with three commands and use it five times, saving yourself a lot of time.
 
