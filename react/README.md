@@ -9,6 +9,6 @@ color: A6EDFF
 language: jsx
 
 availableAspects:
-  - deep
   - introduction
   - workout
+  - deep

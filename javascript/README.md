@@ -9,7 +9,7 @@ color: FFE4A6
 language: javascript
 
 availableAspects:
-  - deep
   - introduction
-  - obscura
   - workout
+  - deep
+  - obscura

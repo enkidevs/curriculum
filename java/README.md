@@ -9,7 +9,7 @@ color: FFA7A6
 language: java
 
 availableAspects:
-  - deep
   - introduction
-  - obscura
   - workout
+  - deep
+  - obscura
