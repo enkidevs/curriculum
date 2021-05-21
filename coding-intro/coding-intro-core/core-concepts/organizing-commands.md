@@ -20,7 +20,7 @@ Functions allow us to make little snippets of code, each for a separate task tha
 4. mix the coffee with the boiling water.
 5. drink (gulp, gulp)
 
-That's so much work! Instead, imagine if we had one function `makeCoffeee` with all of these instructions. Every time we want coffee, we write `makeCoffee` and, voila! - the work is done.
+That's so much work! Instead, imagine if we had one function `make_coffee` with all of these instructions. Every time we want coffee, we write `make_coffee` and, voila! - the work is done.
 
 ### Easier to read
 
