@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## May 21st 2021
+
+### Added
+- [Python - Playground Questions - Add questions for playground](https://github.com/enkidevs/curriculum/pull/2723)
+
 ## May 20th 2021
 
 ### Fixed
