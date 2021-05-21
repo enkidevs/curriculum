@@ -9,7 +9,10 @@ type: normal
 category: coding
 
 setupCode:
-  startingPoint: '// 👋 Welcome to the JavaScript coding playground. \n. print("Hello World") \n'
+  startingPoint: |
+    // 👋 Welcome to the JavaScript coding playground.
+    
+    console.log("Hello world!");
 
 ---
 

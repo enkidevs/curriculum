@@ -9,7 +9,14 @@ type: normal
 category: coding
 
 setupCode:
-  startingPoint: '// 👋 Welcome to the JavaScript coding playground. \n. // Example output: \n // 1   2   3   4   5\n // 2   4   6   8  10\n // 3   6   9  12  15 \n // 4   8  12  16  20 \n // 5  10  15  20  25'
+  startingPoint: |
+    // 👋 Welcome to the JavaScript coding playground.
+    // Example output: 
+    // 1   2   3   4   5
+    // 2   4   6   8  10
+    // 3   6   9  12  15 
+    // 4   8  12  16  20
+    // 5  10  15  20  25
 
 ---
 

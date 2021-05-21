@@ -9,7 +9,10 @@ type: normal
 category: coding
 
 setupCode:
-  startingPoint: '// 👋 Welcome to the JavaScript coding playground. \n. // Example output: \n // The character z appears only 2 times \n'
+  startingPoint: |
+    // 👋 Welcome to the JavaScript coding playground.
+    // Example output:
+    // The character z appears only 2 times
 
 ---
 

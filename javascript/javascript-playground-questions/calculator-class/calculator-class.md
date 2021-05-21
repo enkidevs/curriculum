@@ -14,7 +14,7 @@ setupCode:
     
     function Calculator(x) { 
     
-    }
+    };
 
 ---
 

@@ -13,8 +13,8 @@ setupCode:
     // 👋 Welcome to the JavaScript coding playground.
     // These are the arrays:
 
-    let oddNumbers = [101, 23, 11, 8, 3, 83, 1]
-    let evenNumbers = [12, 0, 37, 91, 99, 44, 76]
+    let oddNumbers = [101, 23, 11, 8, 3, 83, 1];
+    let evenNumbers = [12, 0, 37, 91, 99, 44, 76];
 
 ---
 
@@ -28,8 +28,8 @@ Can you make a program that will take two arrays of numbers, join them together 
 
 Use these two arrays:
 ```javascript
-let oddNumbers = [101, 23, 11, 37, 3, 83, 1]
-let evenNumbers = [12, 0, 8, 92, 98, 44, 76]
+let oddNumbers = [101, 23, 11, 37, 3, 83, 1];
+let evenNumbers = [12, 0, 8, 92, 98, 44, 76];
 ```
 
 To achieve this, you can use some of the following concepts:

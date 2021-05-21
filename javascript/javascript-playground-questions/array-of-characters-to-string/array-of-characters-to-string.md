@@ -13,7 +13,7 @@ setupCode:
     // 👋 Welcome to the JavaScript coding playground.
     // The array of characters:
 
-    let c = ['h', 'e', 'l', 'l', 'o', ' ', 'w', 'o', 'r', 'l', 'd']
+    let c = ['h', 'e', 'l', 'l', 'o', ' ', 'w', 'o', 'r', 'l', 'd'];
 
 ---
 
@@ -37,7 +37,7 @@ let c = [
   'r', 
   'l', 
   'd'
-]
+];
 ```
 
 Can you write a program that will take the array as input, transform it into a string, and output the result?

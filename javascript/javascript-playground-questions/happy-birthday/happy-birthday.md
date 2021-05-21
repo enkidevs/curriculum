@@ -9,7 +9,10 @@ type: normal
 category: coding
 
 setupCode:
-  startingPoint: "// 👋 Welcome to the JavaScript coding playground. \n. // Example output: \n // Your birthday is in 131 days \n"
+  startingPoint: |
+    // 👋 Welcome to the JavaScript coding playground.
+    // Example output:
+    // Your birthday is in 131 days
 
 ---
 

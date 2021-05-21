@@ -9,7 +9,10 @@ type: normal
 category: coding
 
 setupCode:
-  startingPoint: "// 👋 Welcome to the JavaScript coding playground. \n. // Example output: \n // name, Alan \n"
+  startingPoint: |
+    // 👋 Welcome to the JavaScript coding playground.
+    // Example output:
+    // name, Alan
 
 ---
 
@@ -27,7 +30,7 @@ let person = {
   surname: 'Turing', 
   education: 'Sherborne School', 
   country: 'England'
-}
+};
 ```
 
 Can you write a program that iterates over each element and prints them out?

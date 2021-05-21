@@ -9,8 +9,15 @@ type: normal
 category: coding
 
 setupCode:
-  startingPoint: '// 👋 Welcome to the JavaScript coding playground. \n. // Example output: \n //     1 \n //    1 1\n //   1 2 1\n //  1 3 3 1\n //  1 4 6 4 1 '
-
+  startingPoint: |
+    // 👋 Welcome to the JavaScript coding playground.
+    // Example output:
+    //     1 
+    //    1 1
+    //   1 2 1
+    //  1 3 3 1
+    // 1 4 6 4 1 
+    
 ---
 
 # Pascal Triangle

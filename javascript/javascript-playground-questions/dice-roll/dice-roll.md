@@ -12,7 +12,7 @@ setupCode:
   startingPoint: |
     // 👋 Welcome to the JavaScript coding playground.
     
-    import Math.random
+    import Math.random;
 
 ---
 

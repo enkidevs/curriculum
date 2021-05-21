@@ -9,8 +9,12 @@ type: normal
 category: coding
 
 setupCode:
-  startingPoint: '// 👋 Welcome to the JavaScript coding playground. \n. // These are the arrays: \n name = ["Stefan", "Michael", "Rebekah", "Natasha"] \n 
-  lastName = ["Stojanovic", "Stevens", "Mikaelson", "Romanoff"] \n'
+  startingPoint: |
+    // 👋 Welcome to the JavaScript coding playground.
+    // These are the arrays:
+    
+    name = ["Stefan", "Michael", "Rebekah", "Natasha"]
+    lastName = ["Stojanovic", "Stevens", "Mikaelson", "Romanoff"]
 
 ---
 
@@ -23,8 +27,8 @@ setupCode:
 Given two arrays:
 
 ```javascript
-let names = ['Stefan', 'Michael', 'Rebekah', "Natasha"]
-let lastNames = ['Stojanovic', 'Stevens', 'Mikaelson', "Romanoff"]
+let names = ['Stefan', 'Michael', 'Rebekah', "Natasha"];
+let lastNames = ['Stojanovic', 'Stevens', 'Mikaelson', "Romanoff"];
 ```
 
 Can you write a program that will iterate over both arrays simultaneously and output the corresponding values?
