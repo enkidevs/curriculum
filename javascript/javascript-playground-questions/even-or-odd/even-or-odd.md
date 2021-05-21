@@ -9,16 +9,11 @@ type: normal
 category: coding
 
 setupCode:
-  startingPoint: "// 👋 Welcome to the JavaScript coding playground. \n. // Example output: \n // Zeus has 31 spheres \n"
-
-
-setupCode:
   startingPoint: |
     // 👋 Welcome to the JavaScript coding playground.
+    // Example output:
+    // Zeus has 31 spheres
     
-    import Math.random
-
-
 ---
 
 # Even or Odd

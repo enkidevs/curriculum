@@ -9,7 +9,10 @@ type: normal
 category: coding
 
 setupCode:
-  startingPoint: "// 👋 Welcome to the JavaScript coding playground. \n. // Fibonacci Sequence: \n // 1, 1, 2, 3, 5, 8, ... \n"
+  startingPoint: |
+    // 👋 Welcome to the JavaScript coding playground.
+    // Fibonacci Sequence:
+    // 1, 1, 2, 3, 5, 8, ...
 
 ---
 

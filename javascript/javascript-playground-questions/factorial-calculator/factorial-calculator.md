@@ -9,8 +9,11 @@ type: normal
 category: coding
 
 setupCode:
-  startingPoint: "// 👋 Welcome to the JavaScript coding playground. \n. // Example output: \n // 5! is equal to 120 \n"
-
+  startingPoint: |
+    // 👋 Welcome to the JavaScript coding playground.
+    // Example output:
+    // 5! is equal to 120
+    
 ---
 
 # Factorial Calculator
