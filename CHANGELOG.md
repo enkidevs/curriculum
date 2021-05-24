@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## May 24th 2021
+
+### Added
+- [All topics - Retrigger availableAspects](https://github.com/enkidevs/curriculum/pull/2726)
+
 ## May 20th 2021
 
 ### Fixed
