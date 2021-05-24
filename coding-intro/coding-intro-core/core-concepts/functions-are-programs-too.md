@@ -30,9 +30,7 @@ Perhaps someone wrote a smart program called `shortest_path` that calculates the
 
 If we wanted, we could use `shortest_path` as a function in our new food delivery application to show the delivery driver's route.
 
-
 Where else could we use the `shortest_path` function?
-
 
 ---
 

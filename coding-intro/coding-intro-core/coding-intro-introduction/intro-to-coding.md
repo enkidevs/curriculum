@@ -14,10 +14,14 @@ category: must-know
 
 Whether you want to make an omelet or a crème brûlée, you must know how to crack an egg. Similarly, whether you want to edit a spreadsheet or send a man to the moon, this is where you begin, where it all begins. We'll start with the building blocks of any and all programming languages. When combined, they can create any program:
 
-- **variables** - to store information like x=5
+- **variables** - to store information like `x = 5`
 - **data types** - to differentiate between numbers, text, etc.
 - **functions** - to make little blocks for different tasks
 - **conditions** - to make yes/no decisions
 - **loops** - to repeat tasks as we please
 
+<<<<<<< HEAD
 Over the following lessons, we'll cover these fundamentals, a few key themes, some helpful tools, and you'll be ready to cook!
+=======
+Over the following lessons, we'll cover these fundamentals, a few key themes, some helpful tools, and you will be ready to cook!
+>>>>>>> 8ab7b2c922a04abc8975e061b2037812692b8f87
