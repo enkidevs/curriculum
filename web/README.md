@@ -9,7 +9,7 @@ icon: https://img.enkipro.com/6af370046a3f7c19ba2f16336be2a85f.png
 language: css
 
 availableAspects:
-  - deep
   - introduction
-  - obscura
   - workout
+  - deep
+  - obscura

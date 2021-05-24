@@ -9,6 +9,6 @@ color: FFA6ED
 description: Discover distributed databases, Bitcoin, Ethereum, and more.
 
 availableAspects:
-  - deep
   - introduction
   - workout
+  - deep
