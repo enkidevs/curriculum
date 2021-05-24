@@ -45,7 +45,7 @@ pushd projects/
 
 After calling `pushd` followed by a folder name, the directory stack is logged in the shell and you're switched to that folder.
 
-&gt; <span class="x x-first x-last">💡 </span>Tilde `~` is a <span class="x x-first x-last">shorthand</span> notation for `Users/your-name/`.
+> 💡 Tilde `~` is a shorthand notation for `Users/your-name/`.
 
 If you want to add the current directory to the stack, you would call `pushd` while in that directory:
 

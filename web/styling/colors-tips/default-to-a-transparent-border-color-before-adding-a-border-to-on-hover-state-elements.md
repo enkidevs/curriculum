@@ -4,7 +4,7 @@ type: normal
 category: pattern
 tags:
   - 'borders, border, :hover, hover'
-links: null
+
 revisionQuestion:
   formats:
     - fill-in-the-gap

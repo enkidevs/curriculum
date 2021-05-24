@@ -48,6 +48,19 @@ Types of change:
 
 ### Fixed
 
+
+## May 24th 2021
+
+### Added
+- [All topics - Retrigger availableAspects](https://github.com/enkidevs/curriculum/pull/2726)
+
+## May 20th 2021
+
+### Fixed
+- [SQL - Order By Advanced - Fix footnote table markdown](https://github.com/enkidevs/curriculum/pull/2717)
+- [General - Fix some content issues](https://github.com/enkidevs/curriculum/pull/2721)
+- [Curriculum - Accross All Topics - Remove links with value null](https://github.com/enkidevs/curriculum/pull/2720)
+
 ## May 19th 2021
 
 ### Fixed
@@ -59,10 +72,29 @@ Types of change:
 ### Changed
 - [Coding Intro - Improve first workouts](https://github.com/enkidevs/curriculum/pull/2716)
 
+## May 17th 2021
+
+### Fixed
+- [Linux - Quick cd tips - Fix weird html note](https://github.com/enkidevs/curriculum/pull/2711)
+- [Python - Calling Functions - Improve readability](https://github.com/enkidevs/curriculum/pull/2705)
+
 ## May 12th 2021
 
 ### Fixed
 - [Regexp - Email Address Checker II - Update wording](https://github.com/enkidevs/curriculum/pull/2701)
+- [Linux - Math in Terminal with BC - Fix syntax](https://github.com/enkidevs/curriculum/pull/2704)
+
+### Changed
+- [Javascript - Flow Control Discussion Insight - Convert to coding insight](https://github.com/enkidevs/curriculum/pull/2694)
+
+### Added
+- [Added availableAspects to all topic READMEs](https://github.com/enkidevs/curriculum/pull/2700)
+
+## May 11th 2021
+
+### Fixed
+- [Go - Operators - Fix MD table](https://github.com/enkidevs/curriculum/pull/2699)
+
 
 - [Python - Control Flow/If...else statements - Removed brackets from an if excercise](https://github.com/enkidevs/curriculum/pull/2703)
 

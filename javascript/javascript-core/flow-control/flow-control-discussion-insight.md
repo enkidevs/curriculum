@@ -2,11 +2,11 @@
 author: kapnobatai136
 
 tags:
-  - discussion
+  - coding
 
 type: normal
 
-category: discussion
+category: coding
 
 links:
   - >-

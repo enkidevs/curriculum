@@ -2,7 +2,7 @@
 author: Stefan-Stojanovic
 type: normal
 category: must-know
-links: null
+
 practiceQuestion:
   formats:
     - fill-in-the-gap
@@ -41,7 +41,7 @@ Example:
 
 In the example above we have allowed the user to input multiple pictures at once, instead of one by one. The user can select multiple files by pressing down ctrl or shift when selecting.
 
-If the input type is set to `email` the user can enter multiple emails by separating them with a comma. Like so: [firstmail@example.com](mailto:firstmail@example.com), [secondmail@example.com](mailto:secondmail@example.com), [thirdmail@example.com](mailto:thirdmail@example.com), etc.
+If the input type is set to `email` the user can enter multiple emails by separating them with a comma. Like so: `firstmail@example.com`, `secondmail@example.com`, `thirdmail@example.com`, etc.
 
 
 ---
