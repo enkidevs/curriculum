@@ -20,8 +20,4 @@ Whether you want to make an omelet or a crème brûlée, you must know how to cr
 - **conditions** - to make yes/no decisions
 - **loops** - to repeat tasks as we please
 
-<<<<<<< HEAD
 Over the following lessons, we'll cover these fundamentals, a few key themes, some helpful tools, and you'll be ready to cook!
-=======
-Over the following lessons, we'll cover these fundamentals, a few key themes, some helpful tools, and you will be ready to cook!
->>>>>>> 8ab7b2c922a04abc8975e061b2037812692b8f87

@@ -6,7 +6,6 @@ type: normal
 category: coding
 
 setupCode:
-<<<<<<< HEAD
   startingPoint: |
     # Who did you meet today?
     name = "???"
@@ -14,9 +13,6 @@ setupCode:
   
     print(age) #Print age to the screen as it is.
     print(name/2) #Print name to screen after dividing by 2!?
-=======
-  startingPoint: "# Who did you meet today?\n\nname = '???'\nage = ???\n\nprint(age) # Print age to the screen as it is. \nprint(name/2) # Print name to screen after dividing by 2!? \n"
->>>>>>> 8ab7b2c922a04abc8975e061b2037812692b8f87
 ---
 # Do it yourself!
 ---
@@ -44,3 +40,5 @@ Don't worry too much about understanding every part of the code; see if you can 
 > 💡 The guidelines above are just suggestions. Feel free to include other concepts in your solution as you see fit. The implementation is up to you.
 
 > 🤓 Happy learning! Open the playground and start coding!
+>
+> Leave a comment or view some of the other comments for inspiration before moving on.
