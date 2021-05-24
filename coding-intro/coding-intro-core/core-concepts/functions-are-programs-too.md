@@ -33,6 +33,7 @@ If we wanted, we could use `shortest_path` as a function in our new food deliver
 > Where else could we use the `shortest_path` function?
 >
 > Leave a comment or view some of the other comments for inspiration before moving on.
+
 ---
 
 ## Revision
@@ -42,4 +43,3 @@ If a program is inside another program, is it a function?
 
 - Yes
 - No
-
