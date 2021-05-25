@@ -9,13 +9,12 @@ type: normal
 category: coding
 
 setupCode:
-	startingPoint: |
-  	# 👋 Welcome to the Python coding playground. 
-  	# The list of characters
-  	
-    c = ['h', 'e', 'l', 'l', 'o', ' ', 'w', 'o', 'r', 'l', 'd']
+  	startingPoint: |
+	# 👋 Welcome to the Python coding playground. 
+	# The list of characters
+	
+	c = ['h', 'e', 'l', 'l', 'o', ' ', 'w', 'o', 'r', 'l', 'd']
 
-]
 ---
 
 # List of Character to a String
