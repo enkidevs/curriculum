@@ -3,8 +3,8 @@ name: Conditions
 description: Teach your computer to take decisions.
 
 aspects:
+  - introduction
   - workout
-  - deep
 
 insights:
   - conditions-intro
