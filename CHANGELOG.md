@@ -48,6 +48,10 @@ Types of change:
 
 ### Fixed
 
+## May 25th 2021
+
+### Changed
+- [Coding Intro - Core Concepts - Temporarily disable coding insight]()
 
 ## May 24th 2021
 

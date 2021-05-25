@@ -8,7 +8,6 @@ aspects:
 
 insights:
   - programs-and-data
-  - do-it-yourself
   - organizing-commands
   - functions-are-programs-too
   - conditions-and-loops
