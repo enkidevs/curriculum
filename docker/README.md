@@ -9,7 +9,7 @@ icon: https://img.enkipro.com/34b03de37bb8e223594b54e6c26babab.png
 language: bash
 
 availableAspects:
-  - deep
   - introduction
-  - obscura
   - workout
+  - deep
+  - obscura

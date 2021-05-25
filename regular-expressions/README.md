@@ -9,6 +9,6 @@ color: A6D9FF
 language: General
 
 availableAspects:
-  - deep
   - introduction
   - workout
+  - deep

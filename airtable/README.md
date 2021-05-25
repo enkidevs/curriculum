@@ -10,4 +10,3 @@ language: General
 
 availableAspects:
   - introduction
-
