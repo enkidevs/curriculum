@@ -9,10 +9,10 @@ type: normal
 category: coding
 
 setupCode:
-	startingPoint: |
-		# 👋 Welcome to the Python coding playground. 
+  startingPoint: |
+    # 👋 Welcome to the Python coding playground. 
 
-		print("Hello World")
+    print("Hello World")
       
 ---
 

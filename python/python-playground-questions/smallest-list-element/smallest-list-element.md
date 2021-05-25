@@ -9,11 +9,11 @@ type: normal
 category: coding
 
 setupCode:
-	startingPoint: |
-		# 👋 Welcome to the Python coding playground. 
-		# The numbered list:
+  startingPoint: |
+    # 👋 Welcome to the Python coding playground. 
+    # The numbered list:
 
-		numbers = [33, 99, 41, 73, 2, 21, 1, 18]
+    numbers = [33, 99, 41, 73, 2, 21, 1, 18]
 
 ---
 
