@@ -12,7 +12,7 @@ setupCode:
 	startingPoint: |
 		# 👋 Welcome to the Python coding playground.
 		# These are the lists:
-
+		
 		oddNumbers = [101, 23, 11, 37, 3, 83, 1]
 		evenNumbers = [12, 0, 8, 92, 98, 44, 76]
 
