@@ -13,8 +13,6 @@ setupCode:
   	# 👋 Welcome to the Python coding playground. 
   	
   	import random
-
-
       
 ---
 
