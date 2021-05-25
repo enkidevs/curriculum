@@ -12,7 +12,7 @@ setupCode:
   	startingPoint: |
 	# 👋 Welcome to the Python coding playground. 
 	# The list of characters:
-	c = ['h', 'e', 'l', 'l', 'o', ' ', 'w', 'o', 'r', 'l', 'd']
+	characters = ['h', 'e', 'l', 'l', 'o', ' ', 'w', 'o', 'r', 'l', 'd']
 
 ---
 
@@ -24,18 +24,18 @@ setupCode:
 
 Given a list of characters:
 ```python
-c = [
-  'h', 
-  'e', 
-  'l', 
-  'l', 
-  'o', 
-  ' ', 
-  'w', 
-  'o', 
-  'r', 
-  'l', 
-  'd'
+characters = [
+	  'h', 
+	  'e', 
+	  'l', 
+	  'l', 
+	  'o', 
+	  ' ', 
+	  'w', 
+	  'o', 
+	  'r', 
+	  'l', 
+	  'd'
 ]
 ```
 
