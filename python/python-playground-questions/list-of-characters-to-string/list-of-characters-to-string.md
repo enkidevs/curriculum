@@ -11,8 +11,7 @@ category: coding
 setupCode:
   	startingPoint: |
 	# 👋 Welcome to the Python coding playground. 
-	# The list of characters
-	
+	# The list of characters:
 	c = ['h', 'e', 'l', 'l', 'o', ' ', 'w', 'o', 'r', 'l', 'd']
 
 ---
