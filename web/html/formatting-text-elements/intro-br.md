@@ -5,7 +5,7 @@ category: must-know
 stub: true
 tags:
   - introduction
-links: null
+
 practiceQuestion:
   formats:
     - fill-in-the-gap
