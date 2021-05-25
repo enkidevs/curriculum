@@ -10,9 +10,10 @@ category: coding
 
 setupCode:
   	startingPoint: |
-	# 👋 Welcome to the Python coding playground. 
-	# The list of characters:
-	characters = ['h', 'e', 'l', 'l', 'o', ' ', 'w', 'o', 'r', 'l', 'd']
+		# 👋 Welcome to the Python coding playground. 
+		# The list of characters:
+		
+		characters = ['h', 'e', 'l', 'l', 'o', ' ', 'w', 'o', 'r', 'l', 'd']
 	
 ---
 
