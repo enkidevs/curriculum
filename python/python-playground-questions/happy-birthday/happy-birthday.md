@@ -9,10 +9,10 @@ type: normal
 category: coding
 
 setupCode:
-	startingPoint: |
-		# 👋 Welcome to the Python coding playground. 
-		# Example output:
-		# Your birthday is in 131 days
+  startingPoint: |
+    # 👋 Welcome to the Python coding playground. 
+    # Example output:
+    # Your birthday is in 131 days
       
 ---
 

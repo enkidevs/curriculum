@@ -9,10 +9,10 @@ type: normal
 category: coding
 
 setupCode:
-	startingPoint: |
-		# 👋 Welcome to the Python coding playground. 
-		# Example output:
-		# 3 miles are equal to 4.8289 kilometres
+  startingPoint: |
+    # 👋 Welcome to the Python coding playground. 
+    # Example output:
+    # 3 miles are equal to 4.8289 kilometres
     
 ---
 
