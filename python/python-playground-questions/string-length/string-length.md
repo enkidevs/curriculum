@@ -9,9 +9,9 @@ type: normal
 category: coding
 
 setupCode:
-	startingPoint: |
-  	# 👋 Welcome to the Python coding playground. 
-  	# Example input:
+  startingPoint: |
+    # 👋 Welcome to the Python coding playground. 
+    # Example input:
     # "Elon Musk"
     # Example output:
     # 8

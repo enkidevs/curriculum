@@ -9,9 +9,9 @@ type: normal
 category: coding
 
 setupCode:
-	startingPoint: |
-  	# 👋 Welcome to the Python coding playground. 
-  	# Dictionary list to sort:
+  startingPoint: |
+    # 👋 Welcome to the Python coding playground. 
+    # Dictionary list to sort:
 
     dictList = {
       'first': [7, 1, 5, 3],

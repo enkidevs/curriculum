@@ -9,10 +9,10 @@ type: normal
 category: coding
 
 setupCode:
-	startingPoint: |
-  	# 👋 Welcome to the Python coding playground. 
-  	# Example output:
-  	# The character z appears only 2 times
+  startingPoint: |
+    # 👋 Welcome to the Python coding playground. 
+    # Example output:
+    # The character z appears only 2 times
       
 ---
 

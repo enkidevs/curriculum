@@ -10,11 +10,11 @@ category: coding
 
 setupCode:
 	startingPoint: |
-  	# 👋 Welcome to the Python coding playground. 
-  	
-  	someDict = {
+		# 👋 Welcome to the Python coding playground. 
 
-    }
+		someDict = {
+
+		}
 
       
 ---

@@ -9,9 +9,9 @@ type: normal
 category: coding
 
 setupCode:
-	startingPoint: |
-  	# 👋 Welcome to the Python coding playground. 
-  	# List to use:
+  startingPoint: |
+    # 👋 Welcome to the Python coding playground. 
+    # List to use:
 
     scientists = [
       "Niels Bohr",

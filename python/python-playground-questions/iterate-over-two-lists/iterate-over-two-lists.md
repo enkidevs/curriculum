@@ -9,9 +9,9 @@ type: normal
 category: coding
 
 setupCode:
-	startingPoint: |
-  	# 👋 Welcome to the Python coding playground. 
-  	# These are the lists:
+  startingPoint: |
+    # 👋 Welcome to the Python coding playground. 
+    # These are the lists:
 
     name = ['Stefan', 'Michael', 'Rebekah', "Natasha"]
     lastName = ['Stojanovic', 'Stevens', 'Mikaelson', "Romanoff"]

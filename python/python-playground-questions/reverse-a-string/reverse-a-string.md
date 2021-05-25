@@ -9,9 +9,9 @@ type: normal
 category: coding
 
 setupCode:
-	startingPoint: |
-  	# 👋 Welcome to the Python coding playground. 
-  	# Example reversed String:
+  startingPoint: |
+    # 👋 Welcome to the Python coding playground. 
+    # Example reversed String:
     # Input:
     # Desserts
     # Output:

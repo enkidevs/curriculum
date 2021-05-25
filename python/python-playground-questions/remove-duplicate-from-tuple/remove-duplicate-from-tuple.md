@@ -9,9 +9,9 @@ type: normal
 category: coding
 
 setupCode:
-	startingPoint: |
-  	# 👋 Welcome to the Python coding playground. 
-  	# Tuple in question:
+  startingPoint: |
+    # 👋 Welcome to the Python coding playground. 
+    # Tuple in question:
 
     myTuple = (
       "Stefan", "Mark", "Joane",

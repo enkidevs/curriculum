@@ -9,9 +9,9 @@ type: normal
 category: coding
 
 setupCode:
-	startingPoint: |
-  	# 👋 Welcome to the Python coding playground. 
-  	# Example output:
+  startingPoint: |
+    # 👋 Welcome to the Python coding playground. 
+    # Example output:
     #      1
     #     1 1
     #    1 2 1

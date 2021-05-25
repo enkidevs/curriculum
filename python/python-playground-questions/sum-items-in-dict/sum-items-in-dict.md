@@ -9,10 +9,10 @@ type: normal
 category: coding
 
 setupCode:
-	startingPoint: |
-  	# 👋 Welcome to the Python coding playground. 
-  	# The list of characters
-  	
+  startingPoint: |
+    # 👋 Welcome to the Python coding playground. 
+    # The list of characters
+
     someDict = {
       # input data here
     }

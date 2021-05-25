@@ -9,8 +9,8 @@ type: normal
 category: coding
 
 setupCode:
-	startingPoint: |
-  	# 👋 Welcome to the Python coding playground. 
+  startingPoint: |
+    # 👋 Welcome to the Python coding playground. 
     # Example input
     # myFunction('Mary had a little lamb')
     # Output:

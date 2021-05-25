@@ -10,9 +10,9 @@ category: coding
 
 setupCode:
 	startingPoint: |
-  	# 👋 Welcome to the Python coding playground. 
-  	
-  	import random
+		# 👋 Welcome to the Python coding playground. 
+
+		import random
       
 ---
 

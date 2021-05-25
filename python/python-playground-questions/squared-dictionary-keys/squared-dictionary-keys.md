@@ -9,9 +9,9 @@ type: normal
 category: coding
 
 setupCode:
-	startingPoint: |
-  	# 👋 Welcome to the Python coding playground. 
-  	# Example solution:
+  startingPoint: |
+    # 👋 Welcome to the Python coding playground. 
+    # Example solution:
     #
     # {
     #   1: 1, 
@@ -22,9 +22,7 @@ setupCode:
     #   9: 81, 
     #   10: 100
     # }
-  	
-    
-    
+
 ---
 
 # Squared Dictionary Keys

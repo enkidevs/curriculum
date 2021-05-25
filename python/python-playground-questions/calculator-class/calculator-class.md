@@ -9,10 +9,10 @@ type: normal
 category: coding
 
 setupCode:
-	startingPoint: |
-  	# 👋 Welcome to the Python coding playground. 
-  	
-  	def Calculator(x):
+  startingPoint: |
+    # 👋 Welcome to the Python coding playground. 
+
+    def Calculator(x):
       
 
 ---

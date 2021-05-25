@@ -10,9 +10,9 @@ category: coding
 
 setupCode:
 	startingPoint: |
-  	# 👋 Welcome to the Python coding playground. 
-  	# Example output:
-  	# 5! is equal to 120
+		# 👋 Welcome to the Python coding playground. 
+		# Example output:
+		# 5! is equal to 120
       
 ---
 
