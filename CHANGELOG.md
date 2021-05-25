@@ -48,6 +48,10 @@ Types of change:
 
 ### Fixed
 
+## May 25th 2021
+
+### Changed
+- [Coding Intro - Core Concepts - Temporarily disable coding insight](https://github.com/enkidevs/curriculum/pull/2729)
 
 ## May 24th 2021
 
