@@ -48,6 +48,7 @@ Types of change:
 
 ### Fixed
 
+
 ## May 24th 2021
 
 ### Added
@@ -59,6 +60,17 @@ Types of change:
 - [SQL - Order By Advanced - Fix footnote table markdown](https://github.com/enkidevs/curriculum/pull/2717)
 - [General - Fix some content issues](https://github.com/enkidevs/curriculum/pull/2721)
 - [Curriculum - Accross All Topics - Remove links with value null](https://github.com/enkidevs/curriculum/pull/2720)
+
+## May 19th 2021
+
+### Fixed
+
+- [Coding Intro - Do it yourself - Fixed footnote](https://github.com/enkidevs/curriculum/pull/2716)
+
+## May 18th 2021
+
+### Changed
+- [Coding Intro - Improve first workouts](https://github.com/enkidevs/curriculum/pull/2716)
 
 ## May 17th 2021
 
@@ -83,6 +95,8 @@ Types of change:
 ### Fixed
 - [Go - Operators - Fix MD table](https://github.com/enkidevs/curriculum/pull/2699)
 
+
+- [Python - Control Flow/If...else statements - Removed brackets from an if excercise](https://github.com/enkidevs/curriculum/pull/2703)
 
 ## May 7th 2021
 
