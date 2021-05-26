@@ -55,6 +55,9 @@ Types of change:
 
 ## May 24th 2021
 
+### Fixed
+- [Web - Web Introducion - Remove scrimba links because they require an account](https://github.com/enkidevs/curriculum/pull/2727)
+
 ### Added
 - [All topics - Retrigger availableAspects](https://github.com/enkidevs/curriculum/pull/2726)
 
