@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## May 25th 2021
+
+### Changed
+- [Coding Intro - Core Concepts - Temporarily disable coding insight](https://github.com/enkidevs/curriculum/pull/2729)
+
 ## May 24th 2021
 
 ### Fixed
@@ -63,10 +68,22 @@ Types of change:
 - [General - Fix some content issues](https://github.com/enkidevs/curriculum/pull/2721)
 - [Curriculum - Accross All Topics - Remove links with value null](https://github.com/enkidevs/curriculum/pull/2720)
 
+## May 19th 2021
+
+### Fixed
+
+- [Coding Intro - Do it yourself - Fixed footnote](https://github.com/enkidevs/curriculum/pull/2716)
+
+## May 18th 2021
+
+### Changed
+- [Coding Intro - Improve first workouts](https://github.com/enkidevs/curriculum/pull/2716)
+
 ## May 17th 2021
 
 ### Fixed
 - [Linux - Quick cd tips - Fix weird html note](https://github.com/enkidevs/curriculum/pull/2711)
+- [Python Data Analysis - Creating Your First Notebook - Add missing identifiers](https://github.com/enkidevs/curriculum/pull/2713)
 - [Python - Calling Functions - Improve readability](https://github.com/enkidevs/curriculum/pull/2705)
 
 ## May 12th 2021
@@ -86,6 +103,8 @@ Types of change:
 ### Fixed
 - [Go - Operators - Fix MD table](https://github.com/enkidevs/curriculum/pull/2699)
 
+
+- [Python - Control Flow/If...else statements - Removed brackets from an if excercise](https://github.com/enkidevs/curriculum/pull/2703)
 
 ## May 7th 2021
 
