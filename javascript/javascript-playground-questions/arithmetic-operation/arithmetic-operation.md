@@ -53,4 +53,4 @@ Remember, learning is more effective when we do it with others.
 
 [1: Hints]
 
-Use two variables to hold your numbers and a third one to hold the result.
+Use two variables to hold your numbers. You can calculate and output their result on the same line.
