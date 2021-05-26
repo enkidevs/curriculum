@@ -51,4 +51,4 @@ Remember, learning is more effective when we do it with others.
 
 [1: Hints]
 
-Use a flow control statement to check and print if the number is even or odd.
+Use a flow control statement to check and output if the number is even or odd.
