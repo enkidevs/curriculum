@@ -1,4 +1,4 @@
-name: Sum and Product of two Arrays
+name: Sum and Product of Two Arrays
 
 description: Create a program to sum and multiply array  values.
 
