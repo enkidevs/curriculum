@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## May 26th 2021
+
+### Fixed
+- [Python - Why Learn Python - Fix code identifier bug](https://github.com/enkidevs/curriculum/pull/2728)
+
 ## May 24th 2021
 
 ### Added
