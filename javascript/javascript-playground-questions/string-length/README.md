@@ -1,4 +1,4 @@
-name: String Length.
+name: String Length
 
 description: Create a program to determine the length of a string.
 
