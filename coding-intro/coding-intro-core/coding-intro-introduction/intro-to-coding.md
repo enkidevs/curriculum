@@ -12,15 +12,12 @@ category: must-know
 ---
 ## Content
 
-If you want to learn to code, this course is the best place to start, before digging later into your language(s) of choice. 
+Whether you want to make an omelet or a crème brûlée, you must know how to crack an egg. Similarly, whether you want to edit a spreadsheet or send a man to the moon, this is where you begin, where it all begins. We'll start with the building blocks of any and all programming languages. When combined, they can create any program:
 
-We'll cover the core features everyone should know before starting to program. And we'll emphasize a few key themes and tools that'll be useful as you learn.
+- **variables** - to store information like `x = 5`
+- **data types** - to differentiate between numbers, text, etc.
+- **functions** - to make little blocks for different tasks
+- **conditions** - to make yes/no decisions
+- **loops** - to repeat tasks as we please
 
-All programming languages have a handful of building blocks. When combined, they can create any program:
-- **variables** - where data is stored
-- **data types** - how to tell what's a number or what's text
-- **functions** - how we can organize commands
-- **conditions** - how to make yes/no decisions
-- **loops** - how to repeat behavior
-
-Every concept, feature, technology, or best practice beyond these basic building blocks were invented to help us mere humans manage the complexity of larger and larger programs.
+Over the following lessons, we'll cover these fundamentals, a few key themes, some helpful tools, and you'll be ready to cook!
