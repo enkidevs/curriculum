@@ -59,6 +59,6 @@ Remember, learning is more effective when we do it with others.
 
 [1: Hints]
 
-Use one variable for the normal string and another for the reversed.
+Use one variable for the normal `string` and another for the reversed one.
 
 Reverse them using a loop.

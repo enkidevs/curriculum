@@ -60,9 +60,7 @@ Remember, learning is more effective when we do it with others.
 
 Use two variables; one for the inputted number and the other to start from `1` and hold the final number.
 
-One will store the inputted number and the other will start from 1 and store the final number.
-
-Next, create a `for...in` loop for the range of `1` to `number + 1`.
+With a `for...in` loop, you can range from the first to the last number.
 
 Inside the loop multiply the second variable by each number in the range and save it in the same variable.
 

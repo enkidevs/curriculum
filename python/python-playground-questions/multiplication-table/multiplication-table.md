@@ -30,7 +30,6 @@ Can you create a program that will display the multiplication table for any numb
 
 If the input is `5`, the output should look similar to this:
 ```python
-# Version 3
 1, 2, 3, 4, 5
 2, 4, 6, 8, 10
 3, 6, 9, 12, 15

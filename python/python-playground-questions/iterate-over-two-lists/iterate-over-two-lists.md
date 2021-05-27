@@ -63,4 +63,4 @@ Remember, learning is more effective when we do it with others.
 
 [1: Hints]
 
-Use a `for...in` loop and the built-in `zip` method to go through the two lists and output them pair by pair.
+You can use a `for...in` loop and the built-in `zip` method to go through both lists and output them pair by pair.

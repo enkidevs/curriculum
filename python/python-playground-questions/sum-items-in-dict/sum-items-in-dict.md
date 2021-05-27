@@ -52,10 +52,10 @@ Remember, learning is more effective when we do it with others.
 
 [1: Hints]
 
-Start by creating a dictionary whose values are numbers.
+Add numbers to the dictionary.
 
-Then define a function that takes a dictionary as input.
+Define a function that takes a dictionary as input.
 
-Inside the function return the sum of the dictionary values.
+The function should return the sum of the dictionaries values.
 
 Finally, call the function with the previously created dictionary.

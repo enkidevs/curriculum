@@ -13,7 +13,7 @@ setupCode:
     # 👋 Welcome to the Python coding playground. 
 
     someDict = {
-
+      # Input data here
     }
 
       
@@ -55,6 +55,6 @@ Remember, learning is more effective when we do it with others.
 
 Start by defining your function with your choice of name. It should take two dictionaries as input.
 
-One way to add is by using `.update()` within the function and returning the resulting dictionary.
+One way to add them is by using `.update()` within the function and returning the resulting dictionary.
 
 Outside of the function create the two dictionaries and call your function within a `print` statement.

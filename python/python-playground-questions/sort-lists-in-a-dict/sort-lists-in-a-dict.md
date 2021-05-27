@@ -64,10 +64,8 @@ Remember, learning is more effective when we do it with others.
 
 [1: Hints]
 
-Start by creating the `dict`.
-
-Then initiate a `for...in` loop to go through each key-value pair for each `dict` item.
+Use a `for...in` loop to go through each key-value pair for each `dict` item.
 
 Inside the loop, create a new dictionary and assign it the current key and the sorted values for that key.
 
-Finally, add a print to output each key-pair after sort.
+Finally, add a `print` to output each key-pair after sort.

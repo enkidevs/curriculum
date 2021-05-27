@@ -66,6 +66,6 @@ Ex:
 def duplicateRemoval(t):
 ```
 
-You can convert the `tuple` to a `list`, use the `.count()` list method to see which value appears 2 or more times, then remove the duplicates using `.remove()`.
+You can convert the `tuple` to a `list`, use the `.count()` `list` method to see which value appears two or more times, then remove the duplicates using `.remove()`.
 
 Don't forget to convert the `list` back to a `tuple` before returning it.

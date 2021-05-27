@@ -68,7 +68,7 @@ You only need to loop through half of the list.
 
 To get the values in each loop cycle, take the loop counter index from the left and right sides of the list.
 
-For eample, the 3rd element from left and right of newList is:
+For eample, the third element from left and right of `newList` is:
 
 Which looks like this:
 ```python
