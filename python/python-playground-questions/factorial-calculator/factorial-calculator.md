@@ -58,11 +58,13 @@ Remember, learning is more effective when we do it with others.
 
 [1: Hints]
 
-Use two variables; one for the inputted number and the other to start from `1` and hold the final number.
+Start by creating two variables, for example, `number` and `result`.
+
+One will store the inputted number, and the other will start from 1 and store the final number.
 
 With a `for...in` loop, you can range from the first to the last number.
 
-Inside the loop multiply the second variable by each number in the range and save it in the same variable.
+Inside the loop, multiply the `result` by each number in the loop.
 
 Example print:
 ```python

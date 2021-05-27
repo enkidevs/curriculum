@@ -59,9 +59,9 @@ A class in Python is defined like this:
 class Student:
   # Initial method
   def __init__(self, ...):
-    # code here
+    # does stuff
   def someOtherMethodHere(...):
-    # code here
+    # does stuff
 ```
 
 The name for your class should be `Calculator` and it should have four methods for each arithmetic operation.
