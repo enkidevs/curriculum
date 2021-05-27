@@ -52,10 +52,10 @@ Remember, learning is more effective when we do it with others.
 
 [1: Hints]
 
-Start by creating an object whose values are numbers.
+Populate the `object` with numbers.
 
-Then define a function that takes any object as input.
+Create a function that takes any object as input.
 
-Inside the function return the sum of the objects values.
+Inside the function `return` the sum of the objects values.
 
 Finally, call the function with the previously created object.
