@@ -12,7 +12,7 @@ setupCode:
   startingPoint: |
     # 👋 Welcome to the Python coding playground. 
     # Example output:
-    # Zeus has 31 spheres
+    # Poseidon has 714 spheres
       
 ---
 
@@ -22,7 +22,7 @@ setupCode:
 
 ## Content
 
-Your friend Zeus recently bought a box of glass spheres. Can you write a program that will determine if he has an even or odd number of spheres? Print a message along with the result when you're done.
+Your friend Poseidon recently bought a box of strawberries. Can you write a program that will determine if he has an even or odd number of them? Print a message along with the result when you're done.
 
 To achieve this, you can use the following concepts:
 - flow control (`if (age > 30) ...`)
