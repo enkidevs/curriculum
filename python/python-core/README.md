@@ -8,6 +8,7 @@ sections:
   '0':
     - meet-python
     - syntax-and-numerical-operators
+    - arithmetic-operation-exercise
     - control-flow-i
     - control-flow-ii
     - sequential-data-types-i
