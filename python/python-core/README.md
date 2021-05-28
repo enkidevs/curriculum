@@ -10,6 +10,7 @@ sections:
     - syntax-and-numerical-operators
     - arithmetic-operation-exercise
     - control-flow-i
+    - even-or-odd-exercise
     - control-flow-ii
     - sequential-data-types-i
     - sequential-data-types-ii
