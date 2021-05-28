@@ -20,7 +20,7 @@ setupCode:
 
 ---
 
-# Console.log
+# Value in a String
 
 ---
 
