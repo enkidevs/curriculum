@@ -12,6 +12,7 @@ sections:
     - control-flow-i
     - even-or-odd-exercise
     - control-flow-ii
+    - value-in-a-string-exercise
     - sequential-data-types-i
     - sequential-data-types-ii
     - unordered-data-types
