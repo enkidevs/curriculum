@@ -6,4 +6,4 @@ aspects:
   - workout
 
 insights:
-  - arithmetic-operation
+  - arithmetic-operation-exercise
