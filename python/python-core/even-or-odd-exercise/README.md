@@ -6,4 +6,4 @@ aspects:
   - workout
 
 insights:
-  - even-or-odd
+  - even-or-odd-exercise
