@@ -1,6 +1,6 @@
 name: Weekend & Weekday Switch
 
-description: Create a switch statement with several cases coresponding to each day of the week.
+description: Create a switch statement with several cases corresponding to each day of the week.
 
 aspects:
   - workout
