@@ -16,6 +16,7 @@ sections:
     - sequential-data-types-i
     - populate-a-tuple-exercise
     - sequential-data-types-ii
+    - remove-add-values-to-a-list-exercise
     - unordered-data-types
     - looping
     - python-functions
