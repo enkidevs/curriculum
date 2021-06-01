@@ -9,6 +9,7 @@ sections:
     - intro-js
     - types
     - flow-control
+    - weekend-and-weekday-switch-exercise
     - functions-i
     - js-history
     - javascript-arrays
