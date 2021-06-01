@@ -14,6 +14,7 @@ sections:
     - control-flow-ii
     - value-in-a-string-exercise
     - sequential-data-types-i
+    - populate-a-tuple-exercise
     - sequential-data-types-ii
     - unordered-data-types
     - looping
