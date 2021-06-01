@@ -18,6 +18,7 @@ sections:
     - sequential-data-types-ii
     - remove-add-values-to-a-list-exercise
     - unordered-data-types
+    - populate-a-dictionary-exercise
     - looping
     - python-functions
     - python-tips
