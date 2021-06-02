@@ -13,6 +13,7 @@ sections:
     - functions-i
     - js-history
     - javascript-arrays
+    - largest-array-element-exercise
     - objects
   '1':
     - types-ii
