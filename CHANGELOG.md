@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## May 31st 2021
+
+### Fixed
+- [Spreadsheets - Data Validation - Add missing footnote and information](https://github.com/enkidevs/curriculum/pull/2731)
+
 ## May 26th 2021
 
 ### Fixed
