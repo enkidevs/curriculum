@@ -11,6 +11,7 @@ sections:
     - flow-control
     - weekend-and-weekday-switch-exercise
     - functions-i
+    - is-it-a-palindrome-exercise
     - js-history
     - javascript-arrays
     - largest-array-element-exercise
