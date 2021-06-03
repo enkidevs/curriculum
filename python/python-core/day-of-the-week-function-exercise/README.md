@@ -6,4 +6,4 @@ aspects:
   - workout
 
 insights:
-  - day-of-the-week-exercise
+  - day-of-the-week-function-exercise
