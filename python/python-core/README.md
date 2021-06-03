@@ -20,7 +20,9 @@ sections:
     - unordered-data-types
     - populate-a-dictionary-exercise
     - looping
+    - pattern-printing-exercise
     - python-functions
+    - day-of-the-week-functon-exercise
     - python-tips
   '1':
     - intro-to-modules
