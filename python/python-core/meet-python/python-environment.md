@@ -29,7 +29,7 @@ revisionQuestion:
 
 Python comes pre-installed on most operating systems. It can also be downloaded online for free.
 
-Once installed, you can type `python3`, `python` or `py`[1] to run the **Python interpreter**[2] from the shell[3]:
+Once installed, you can type `python3`, `python` or `py`[1] to run the **Python interpreter**[2] from the [shell](https://enki.com/glossary/general/shell):
 
 ```bash
 python3
@@ -118,5 +118,3 @@ The Python interpreter is the application that runs your code.
 The interpreter is a quick way to explore Python and try out code without creating a file. It is a Read-Eval-Print Loop, or REPL, a tool offered by many modern programming languages. 
 
 To use it, you launch the Python interpreter with `python3`, `python` or `python -i` and type your Python code at the prompt. The interpreter evaluates the code you type and displays the results.
-
- 
