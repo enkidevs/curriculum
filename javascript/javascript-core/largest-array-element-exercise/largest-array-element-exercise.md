@@ -10,7 +10,7 @@ category: coding
 
 setupCode:
   startingPoint: |
-    // 👋 Welcome to the Python coding playground. 
+    // 👋 Welcome to the JavaScript coding playground. 
     // Use this array:
 
     let numbers = [23, 81, 14, 5, 33, 631, 47, 78, 99]
@@ -24,7 +24,7 @@ setupCode:
 ## Content
 
 Given a numbered `array`:
-```python
+```javacsript
 let numbers = [23, 81, 14, 5, 33, 631, 47, 78, 99]
 ```
 
