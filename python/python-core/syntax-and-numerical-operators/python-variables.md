@@ -42,7 +42,7 @@ print(number)
 # 100
 ```
 
-Python is a case-sensitive language and variable names should use [snake case](https://enki.com/glossary/general/snake_case), like so:
+Python is a case-sensitive language and variable names should use [snake case](https://enki.com/glossary/general/snakecase), like so:
 
 ```python
 this_is_a_long_variable_name

@@ -4,6 +4,10 @@ tags:
   - introduction
 type: normal
 category: coding
+setupCode:
+  startingPoint: |
+   # Update the statement to print 'Hello World'
+    print("You got this!")
 practiceQuestion:
   formats:
     - fill-in-the-gap
