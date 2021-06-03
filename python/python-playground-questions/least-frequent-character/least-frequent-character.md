@@ -57,7 +57,7 @@ Here's one example of a dictionary:
 {
   a: 5,
   b: 3,
-  // ...
+  # ...
 }
 ```
 
