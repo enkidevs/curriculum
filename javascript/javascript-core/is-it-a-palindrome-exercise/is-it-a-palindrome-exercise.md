@@ -11,9 +11,10 @@ category: coding
 setupCode:
   startingPoint: |
     // 👋 Welcome to the JavaScript coding playground. 
-    // Use this string:
+    // Use these strings:
     
-    palindrome = "Was it a car or a cat I saw"
+    let string1 = "Was it a car or a cat I saw"
+    let string2 = "Hey how are you"
 
 ---
 
@@ -23,12 +24,13 @@ setupCode:
 
 ## Content
 
-Given a palindrome:
+Given two `string`s:
 ```javascript
-palindrome = "Was it a car or a cat I saw"
+let string1 = "Was it a car or a cat I saw"
+let string2 = "Hey how are you"
 ```
 
-Can you create a function that will check if it is or isn't a palindrome?
+Can you create a function that will confirm which of the two `string`s is a palindrome?
 
 To achieve this, you can use the following concepts:
 - string methods (`.split()`)
@@ -56,4 +58,4 @@ Remember, learning is more effective when we do it with others.
 
 [1: Hints]
 
-Your loop only needs to go up to half the `string` and check if the first value equals the last, second value equals second to last, and so on.
+Your loop only needs to go up to half the `string` and check if the first character equals the last, second character equals second to last, and so on.
