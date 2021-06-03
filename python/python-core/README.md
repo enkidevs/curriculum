@@ -22,7 +22,7 @@ sections:
     - looping
     - pattern-printing-exercise
     - python-functions
-    - day-of-the-week-functon-exercise
+    - day-of-the-week-function-exercise
     - python-tips
   '1':
     - intro-to-modules
