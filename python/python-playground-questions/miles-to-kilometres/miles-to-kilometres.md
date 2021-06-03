@@ -61,6 +61,6 @@ Example input / output:
 # Input
 3 miles
 
-// Output
+# Output
 # miles are equal to 4.8280 kilometres
 ```
