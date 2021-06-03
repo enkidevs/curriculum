@@ -18,7 +18,6 @@ revisionQuestion:
 
 # If...else statements
 
-
 ---
 
 ## Content

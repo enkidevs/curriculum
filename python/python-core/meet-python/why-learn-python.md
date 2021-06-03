@@ -20,7 +20,6 @@ revisionQuestion:
 
 # Why learn Python?
 
-
 ---
 
 ## Content
@@ -41,8 +40,6 @@ If you get stuck on a problem, you have a massive online community to help you o
 
 > "Learn Python not to analyze a spreadsheet, nor to create a website. Learn it to understand something you have understood all your life, but in a new way." 
 > -- *Spiderman*
-
-
 
 ---
 

@@ -65,7 +65,6 @@ What’s the output of the following code:
 - `2.0`
 - `1`
 
-
 ---
 
 ## Revision

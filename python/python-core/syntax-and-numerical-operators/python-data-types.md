@@ -21,7 +21,6 @@ revisionQuestion:
 
 # Fundamental Data types
 
-
 ---
 
 ## Content
@@ -86,7 +85,6 @@ What class does the following return?
 - string
 - text
 - data
-
 
 ---
 

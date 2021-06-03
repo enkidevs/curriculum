@@ -21,7 +21,6 @@ revisionQuestion:
 
 # Python Versions
 
-
 ---
 
 ## Content
