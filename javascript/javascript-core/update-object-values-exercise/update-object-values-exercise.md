@@ -19,7 +19,7 @@ setupCode:
       languages: ["Italian", "English"]
       equation: "c^2 = a^2 + b^2"
       quote: "Life is like riding a bicycle. To keep your balance you must keep moving."
-}; 
+    }; 
 ---
 
 # Update Object Values
