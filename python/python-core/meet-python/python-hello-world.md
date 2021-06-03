@@ -6,8 +6,11 @@ type: normal
 category: coding
 setupCode:
   startingPoint: |
+   # 👋 Welcome to the Python coding playground.
    # Update the statement to print 'Hello World'
-    print("You got this!")
+   
+   print("You got this!")
+   
 practiceQuestion:
   formats:
     - fill-in-the-gap
