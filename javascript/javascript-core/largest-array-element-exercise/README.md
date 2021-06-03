@@ -1,6 +1,6 @@
 name: Largest Array Element
 
-description: Use a loop to find the largest element of a given `array`.
+description: Use a loop to find the largest element of a given array.
 
 aspects:
   - workout
