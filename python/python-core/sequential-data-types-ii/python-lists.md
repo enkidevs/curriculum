@@ -53,6 +53,7 @@ We can also use our `index` and `count` methods that we learnt about back in the
 
 Let's discover some more `list` methods next!
 
+> 🤔 What's the difference between a [tuple](https://enki.com/python-core/sequential-data-types-ii/the-fundamental-tuples) and a list?
 
 ---
 

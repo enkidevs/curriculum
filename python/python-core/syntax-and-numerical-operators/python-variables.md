@@ -7,7 +7,7 @@ category: must-know
 links:
   - >-
     [Python Naming
-    Conventions](https://www.python.org/dev/peps/pep-0008/#prescriptive-naming-conventions){documentation}
+    Conventions](https://visualgit.readthedocs.io/en/latest/pages/naming_convention.html){documentation}
 practiceQuestion:
   formats:
     - fill-in-the-gap
@@ -42,7 +42,7 @@ print(number)
 # 100
 ```
 
-Python is a case-sensitive language and variable names should use snake case[1], like so:
+Python is a case-sensitive language and variable names should use [snake case](https://enki.com/glossary/general/snake_case), like so:
 
 ```python
 this_is_a_long_variable_name
@@ -84,10 +84,3 @@ A variable is a ??? for ???.
 - function
 - values
 
-
----
-
-## Footnotes
-
-[1:Snake case]	
-Snake case is a writing convention where words are separated by underscores. It typically uses all lower case letters.

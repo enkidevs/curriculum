@@ -8,7 +8,6 @@ links:
   - >-
     [Python 3 Vs Python
     2](https://learntocodewith.me/programming/python/python-2-vs-python-3/){website}
-  - '[Goodbye Python 2](https://www.python.org/doc/sunset-python-2/){website}'
 practiceQuestion:
   formats:
     - fill-in-the-gap
@@ -26,28 +25,23 @@ revisionQuestion:
 ---
 
 ## Content
+Throughout this course, we will be working with the latest version of Python, known as Python 3.
 
-In this course you'll be learning the modern version of Python called **Python 3**.
+Even though Python 3 is easier to understand and has fewer bugs, you might still see Python 2 code in some places.
 
-Python 3 is easier for beginners to understand and is updated frequently, so there are fewer bugs. 
-
-That being said, some programmers still use versions of Python 2.
-
-Since you might come across it on your learning journey, you should be aware that it exists!
-
-As an example of the difference between the two: in Python 3, text is printed as follows:
+There are minimal differences between the two versions. For instance, in Python 3, the text is printed as follows:
 
 ```python
 print('Python 3')
 ```
 
-And in older versions, text is printed like this:
+While in Python 2 and older versions:
 
 ```python
 print 'Python 2'
 ```
 
-Since the start of 2020, Python maintainers are no longer working on improvements to Python 2 and have advised everyone to switch over to Python 3.
+Python 2 is no longer updated or improved. Not only are all the current applications in Python 3, but the old ones are also being switched to the newer version.
 
 ---
 

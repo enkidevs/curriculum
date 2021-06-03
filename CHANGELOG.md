@@ -48,6 +48,12 @@ Types of change:
 
 ### Fixed
 
+## June 3rd 2021
+
+### Changed
+
+-  [Python - Improve workouts]()
+
 ## May 31st 2021
 
 ### Fixed

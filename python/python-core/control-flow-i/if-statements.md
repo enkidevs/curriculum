@@ -23,7 +23,7 @@ revisionQuestion:
 
 ## Content
 
-Control flow is the *order* in which individual statements or functions are executed. Control flow statements give *choices* that result in *different outcomes*.
+The flow of the program depends on the order in which individual commands are executed—control flow statements like `if...else` allow us to manage the order using conditions.
 
 > The `if...else` statement is used in Python for this decision making.
 
@@ -45,27 +45,27 @@ The code above will print `'3 is a positive number'`.
 The `if` statement can be extended to include a *catch-all*, `else`, that will be executed if the condition is not met.
 
 ```python
-num = -1
-if num >= 0:
-    print("Positive or Zero")
+num = 1
+if num == 0:
+    print("Zero")
 else:
-    print("Negative number")
+    print("Positive number")
 ```
 
-The code above will print `'Negative number'`.
+The code above will print `'Positive number'`.
 
-> As you may have spotted, we can use *comparison operators* to create conditions in Python.
+> Note that the single `=` is used for assigning values to variables, and the double `==` for comparison. There are several different *comparison operators*.
 
 Comparison operators include:
 
-`==` - *is equal to*
-`!=` - *is not equal to*
-`<` - *is less than*
-`<=` - *is less than or equal to*
-`>` - *is greater than*
-`>=` - *is greater than or equal to*
-
-Note that a single `=` is used for assigning values to variables, not for comparison.
+| Operator            | Name                                              |
+| ------------------- | ------------------------------------------------- |
+| `==`                | is equal to                                       |
+| `!=`                | is not equal to                                   |
+| `<`                 | is less than                                      |
+| `<=`                | is less than or equal to                          |
+| `>`                 | is greater than                                   |
+| `>=`                | is greater than or equal to                       |
 
 
 ---
