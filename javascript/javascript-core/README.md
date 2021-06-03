@@ -16,6 +16,7 @@ sections:
     - javascript-arrays
     - largest-array-element-exercise
     - objects
+    - update-object-values-exercise
   '1':
     - types-ii
     - javascript-strings
