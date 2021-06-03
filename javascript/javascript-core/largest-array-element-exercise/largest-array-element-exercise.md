@@ -13,7 +13,7 @@ setupCode:
     // 👋 Welcome to the Python coding playground. 
     // Use this array:
 
-    numbers = [23, 81, 14, 5, 33, 631, 47, 78, 99]
+    let numbers = [23, 81, 14, 5, 33, 631, 47, 78, 99]
 
 ---
 
@@ -25,7 +25,7 @@ setupCode:
 
 Given a numbered `array`:
 ```python
-numbers = [23, 81, 14, 5, 33, 631, 47, 78, 99]
+let numbers = [23, 81, 14, 5, 33, 631, 47, 78, 99]
 ```
 
 Can you create a loop that will cycle through the `array`, determine which number is the largest, and output it to the console?
