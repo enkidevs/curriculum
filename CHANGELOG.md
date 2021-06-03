@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## June 3rd 2021
+
+### Changed
+- [Questions - Remove or update type-in-the-gap questions accordingly](https://github.com/enkidevs/curriculum/pull/2735)
+
 ## May 31st 2021
 
 ### Fixed
