@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## June 4th 2021
+
+### Archived
+- [Java - The distinction between checked and unchecked exceptions - Archive duplicate insight](https://github.com/enkidevs/curriculum/pull/2737)
+
 ## June 3rd 2021
 
 ### Changed
