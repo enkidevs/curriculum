@@ -49,7 +49,7 @@ print(my_first_list)
 # ['bananas', 'oranges', 'pears']
 ```
 
-> We can also use our `index` and `count` methods that we learnt about back in the [Tuple Methods lesson](https://app.enki.com/insights/tuple-methods).
+> We can also use our `index` and `count` methods that we learned about back in the [Tuple Methods lesson](https://app.enki.com/insights/tuple-methods).
 
 Let's discover some more `list` methods next!
 
