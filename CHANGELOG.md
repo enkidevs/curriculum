@@ -52,6 +52,7 @@ Types of change:
 
 ### Fixed
 - [Python - Creating Classes - Update information on instantiating classes](https://github.com/enkidevs/curriculum/pull/2738)
+- [Regex - Ranges I - Update spelling to US](https://github.com/enkidevs/curriculum/pull/2740)
 
 ## June 4th 2021
 
