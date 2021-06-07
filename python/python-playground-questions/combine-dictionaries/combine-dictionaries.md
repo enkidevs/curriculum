@@ -11,11 +11,6 @@ category: coding
 setupCode:
   startingPoint: |
     # 👋 Welcome to the Python coding playground. 
-
-    someDict = {
-      # Input data here
-    }
-
       
 ---
 
