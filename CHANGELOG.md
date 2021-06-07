@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## June 7th 2021
+
+### Fixed
+- [Regex - Ranges I - Update spelling to US]()
+
 ## June 4th 2021
 
 ### Archived
