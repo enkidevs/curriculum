@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## June 7th 2021
+
+### Fixed
+- [Python - Creating Classes - Update information on instantiating classes](https://github.com/enkidevs/curriculum/pull/2738)
+
 ## June 4th 2021
 
 ### Archived
