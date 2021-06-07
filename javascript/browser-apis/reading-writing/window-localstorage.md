@@ -41,7 +41,7 @@ localStorage.setItem('country', 'England');
 Retrieving data from local storage:
 
 ```javascript
-var localData = localStorage.getItem(
+let localData = localStorage.getItem(
   "country"
 );
 console.log(localData); // prints 'England'
@@ -73,7 +73,7 @@ Now that you've learned what `localStorage` is, you might be wondering why you w
 Retrieve the data corresponding to the `"Enki"` key from local storage:
 
 ```javascript
-var localData = ???.???(
+let localData = ???.???(
   "Enki"
 );
 ```

@@ -34,7 +34,7 @@ Creating a function to call returning a string of the object and arguments:
 
 ```javascript
 function callObject(arg1, arg2) {
-  var str;
+  let str;
   str += "Object: " + this + ". ";
   str += "Arguments: "
   for (i in callObject.arguments){

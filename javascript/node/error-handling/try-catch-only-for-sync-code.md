@@ -35,7 +35,7 @@ For example, `JSON.parse` method happens **synchronously**. We can handle its er
 ```javascript
 function readJSON(filePath, callback) {  
   fs.readFile(filePath, (err, data) => {
-    var parsedJson;
+    let parsedJson;
 
     // Handle error
     if (err) {

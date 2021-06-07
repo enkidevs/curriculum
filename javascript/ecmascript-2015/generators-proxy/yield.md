@@ -42,12 +42,14 @@ function* gen1() {
   yield* gen2();
   yield 5;
 }
+
 function* gen2() {
   yield 2;
   yield 3;
   yield 4;
 }
-var it = gen1();
+
+let it = gen1();
 it.next(); // {value: 1, done: false}
 it.next(); // {value: 2, done: false}
 it.next(); // {value: 3, done: false}
@@ -68,7 +70,7 @@ Fill in the missing gaps such that the `next()` calls' output stand true:
   ??? [3,1];
 }
 
-var x = myGen();
+let x = myGen();
 x.next();
 // { value: 4, done: false }
 x.next()
@@ -109,7 +111,7 @@ function* gen2() {
   ???
 }
 
-var x = gen1();
+let x = gen1();
 x.next();
 // { value: 5, done: false }
 x.next()

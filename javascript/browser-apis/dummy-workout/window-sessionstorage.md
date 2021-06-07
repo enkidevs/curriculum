@@ -34,7 +34,7 @@ Saving data to session storage and retrieving it:
 
 ```javascript
 sessionStorage.setItem('itemName', 'info');
-var data = sessionStorage.
+let data = sessionStorage.
                   getItem('itemName');
 console.log(data); // prints 'info'
 ```
@@ -42,7 +42,7 @@ console.log(data); // prints 'info'
 Example of session storage autosaving the value of a text field and restoring this field if a browser is refreshed:
 
 ```javascript
-var test = document.getElementById("input");
+let test = document.getElementById("input");
 // find autosaved value caused by refresh
 if (sessionStorage.getItem("autosave")) {
   test.value = sessionStorage.

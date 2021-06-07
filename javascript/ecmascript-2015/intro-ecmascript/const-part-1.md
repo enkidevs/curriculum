@@ -48,7 +48,7 @@ Before we move on with this insight, we need to take a look at what scope means 
 
 ```js
 function foo() {
-  var x = "declared inside function";
+  let x = "declared inside function";
   // x can only be used in foo
   console.log(x);
 }

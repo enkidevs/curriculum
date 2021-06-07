@@ -23,7 +23,7 @@ links:
 
 You have probably used array syntax to access an objects properties before e.g.
 
-```
+```javascript
 myObj["name"]; //enki
 ```
 
@@ -31,10 +31,10 @@ This is useful as allows the specification of property names at runtime.
 
 With ES6 property names can now even be expressions themselves:
 
-```
-var myPropName = "blah";
+```javascript
+let myPropName = "blah";
 
-var o = {
+let o = {
  [myPropName]: "a",
  ["thisis" + "prop"]: "b",
  ["a" + 1+2]: "c"

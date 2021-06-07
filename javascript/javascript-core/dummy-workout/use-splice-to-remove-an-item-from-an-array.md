@@ -29,21 +29,21 @@ revisionQuestion:
 Use `splice` instead of using `delete` to erase an item from an array. Using `delete` replaces the item with `undefined` instead of removing it from the array entirely.
 
 Instead of:
-
-    var items = [12, 548 ,'a' , 2];
-    items.length; // returns 4
-    delete items[3]; // return true
-    items.length; // returns 4
-    // items = [12, 548, 'a', undefined × 1]
-
+```javascript
+let items = [12, 548 ,'a' , 2];
+items.length; // returns 4
+delete items[3]; // return true
+items.length; // returns 4
+// items = [12, 548, 'a', undefined × 1]
+```
 Use `splice(startPos, length)`:
-
-    var items = [12, 548 ,'a' , 2];
-    items.length; // returns 4
-    items.splice(3,1);
-    items.length; // returns 3
-    // items = [12, 548, 'a']
-
+```javascript
+let items = [12, 548 ,'a' , 2];
+items.length; // returns 4
+items.splice(3,1);
+items.length; // returns 3
+// items = [12, 548, 'a']
+```
 The delete method should *only* be used to delete an object property.
 
 
@@ -54,7 +54,7 @@ The delete method should *only* be used to delete an object property.
 Complete the following snippet:
 
 ```javascript
-var ar = [1,2,3,'5'];
+let ar = [1,2,3,'5'];
 delete ar[2]; // ar = ???
 // splice(startingPos,deleteCount)
 ar.splice(2,2); // ar = ???
@@ -71,9 +71,13 @@ ar.splice(2,2); // ar = ???
 
 ## Revision
 
-Let `var x = [1,4,6,8]` .
+Imagine we have this code:
 
-After calling `splice(1,1)`  on x , it will contain ??? .
+`let x = [1,4,6,8]`
+
+Then we call `splice(1,1)` on `x`. What will remain in `x`?
+
+???
 
 - `[1,6,8]`
 - `[4,6,8]`

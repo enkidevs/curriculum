@@ -42,9 +42,6 @@ function fun(){ // fun is in global
         var b = 3; // b is in yes
     }
 }
-
-
-
 ```
 
 Then the code is executed.

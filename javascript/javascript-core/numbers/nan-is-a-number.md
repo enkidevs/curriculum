@@ -23,7 +23,7 @@ revisionQuestion:
 When using the `typeof` operator with `NaN`, an interesting result is observed:
 
 ```javascript
-var x = typeof NaN;
+let x = typeof NaN;
 console.log(x);
 // 'number'
 ```

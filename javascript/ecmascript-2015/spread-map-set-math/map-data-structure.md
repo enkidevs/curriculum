@@ -31,7 +31,7 @@ Map is a new type of key/value object.
 It is common to use an object to store a set of keys and values:
 
 ```javascript
-var obj = {
+let obj = {
    firstName: "John",
    lastName: "Smith"
 }
@@ -44,8 +44,8 @@ Maps allow keys and values to be other objects (yes even DOM elements!) and you 
 Let's create a map and assign keys and values:
 
 ```javascript
-var map = new Map();
-var str = "A",
+let map = new Map();
+let str = "A",
     func = function (x) {return x*2};
 
 map.set(str, "a");

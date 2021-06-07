@@ -35,13 +35,13 @@ Assignment operators are a great way to reassign a value while keeping your code
 Instead of `x = x + y`, use `x += y`.
 
 Assignment operators are particularly useful in loops:
-
-    var list = [1, 2, 3];
-    var sumOfSquares = 0;
-    for (i = 0; i < list.length; i++) { 
-      sumOfSquares += Math.pow(list[i], 2);
-    }
-
+```javascript
+let list = [1, 2, 3];
+let sumOfSquares = 0;
+for (i = 0; i < list.length; i++) { 
+  sumOfSquares += Math.pow(list[i], 2);
+}
+```
 Other examples of assignment operators include `-=`, `*=`, `/=` and `%=`.
 
 
@@ -52,7 +52,7 @@ Other examples of assignment operators include `-=`, `*=`, `/=` and `%=`.
 Choose the right operator for each step to end up with x equal to 7:
 
 ```javascript
-var x = 5;
+let x = 5;
 x ??? 4; // make x == 20
 x ??? 2; // then, make x == 10
 x ??? 3; // lastly, make x == 7

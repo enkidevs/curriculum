@@ -32,7 +32,7 @@ Node applications are event driven applications, an event occurs upon a change o
 Node events are consumed when an in-application event occurs, modules subscribe to events by listening to the event on a given object. For example, in a file system, an event could be that a file has been edited:
 
 ```javascript
-var system = require('.filesystem.js');
+let system = require('.filesystem.js');
 system.file.on('edit', function() {
 
   // do something...

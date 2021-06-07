@@ -32,7 +32,7 @@ npm install morgan
 And import it:
 
 ```javascript
-var morgan = require('morgan');
+let morgan = require('morgan');
 ```
 
 When creating a new `morgan` logger middleware a `format` must be specified, followed by desired `options` (which are optional) :

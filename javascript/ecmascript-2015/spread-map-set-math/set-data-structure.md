@@ -26,7 +26,7 @@ revisionQuestion:
 Set is a data structure that only stores unique values.
 
 ```javascript
-var mySet = new Set();
+let mySet = new Set();
 mySet.add(1);
 mySet.add(1);
 mySet.add(1);

@@ -40,10 +40,10 @@ bind(thisArg, [p1, [p2, [...]]])
 The other parameters are optional and bind the parameters of the function, for example:
 
 ```javascript
-var sum = function(a, b) {
+let sum = function(a, b) {
   return a + b;
 };
-var add10 = sum.bind(null, 10); 
+let add10 = sum.bind(null, 10); 
 // binds a = 10
 console.log(add10(10)); // 20
 ```
