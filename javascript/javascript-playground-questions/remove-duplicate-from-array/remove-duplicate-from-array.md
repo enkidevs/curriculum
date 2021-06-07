@@ -30,7 +30,7 @@ let names = ["Stefan", "Mark", "Joane", "Steven", "Natasha", "Mark", "Steven", "
 ```
 
 To achieve this, you can use the following concepts:
-- function definition (`function Something()...`)
+- function declaration (`function something(x) { ... }`)
 - flow control (`if (x > 1)`, `for...of`)
 
 Learning is best when we give it an honest try. Even if we make a mistake, we'll remember it and do better next time.

@@ -68,7 +68,7 @@ You only need to loop through half of the array.
 
 To get the values in each loop cycle, take the loop counter index from the left and right sides of the array.
 
-For example, the fourth element from left and right of `myArray` are:
+For example, the 4th element from left and right of `myArray` are:
 ```javascript
 let left = myArray[3];
 let right = myArray[myArray.length - 1 - 3];

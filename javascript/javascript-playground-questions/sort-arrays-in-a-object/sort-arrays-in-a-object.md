@@ -64,10 +64,12 @@ Remember, learning is more effective when we do it with others.
 
 [1: Hints]
 
+Start by creating the object.
+
 Use a `for...of` loop to go through the object.
 
-Inside the loop, sort the current values of the object arrays:
+Next, inside the loop, sort the current values of the object arrays:
 
 `obj[key].sort()`
 
-Finally, outside of the loop, add a `console.log` to output the sorted result.
+Finally, outside of the loop, add a print to output the sorted result.

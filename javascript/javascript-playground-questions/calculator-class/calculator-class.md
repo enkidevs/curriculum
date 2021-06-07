@@ -61,4 +61,4 @@ class Name {
 }
 ```
 
-The name for your class should be `Calculator` and it should have four methods for each arithmetic operation.
+The name for your class should be `Calculator` and it should have 4 methods for each arithmetic operation.

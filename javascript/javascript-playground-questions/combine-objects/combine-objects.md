@@ -12,10 +12,6 @@ setupCode:
   startingPoint: |
     // 👋 Welcome to the JavaScript coding playground.
     
-    let o1 = {
-      // Input data here
-    };
-
 ---
 
 # Combine Objects

@@ -39,7 +39,7 @@ To achieve this, you can use the following concepts:
 - flow control (`for...of...`, `if (x > 4)...`)
 - array functions (`split()`)
 - array property (`length`)
-- function creation (`function ... :`)
+- function declaration (`function something(x) { ... }`)
 
 As a bonus, try combining the array functions `split()` and `filter()` to solve the problem.  
 
