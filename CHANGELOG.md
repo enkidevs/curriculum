@@ -51,7 +51,7 @@ Types of change:
 ## June 7th 2021
 
 ### Fixed
-- [Regex - Ranges I - Update spelling to US]()
+- [Regex - Ranges I - Update spelling to US](https://github.com/enkidevs/curriculum/pull/2740)
 
 ## June 4th 2021
 
