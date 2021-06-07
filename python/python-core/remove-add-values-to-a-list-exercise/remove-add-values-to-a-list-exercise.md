@@ -11,22 +11,29 @@ category: coding
 setupCode:
   startingPoint: |
     # 👋 Welcome to the Python coding playground. 
-    # Example output:
-    # The character z appears only 2 times
-      
+    # Use these lists:
+
+    smallerNumbers = [1, 3, 5, 7]
+    biggerNumbers = [7, 9, 11]
+
 ---
 
-# Least Frequent Character
+# Remove & Add Values to a List
 
 ---
 
 ## Content
 
-Can you write the least frequent character program? It should take a string as input and determine which characters appear the least. 
+Given two `list`s:
+```python
+smallerNumbers = [1, 3, 5, 7]
+biggerNumbers = [7, 9, 11]
+```
+
+Can you remove the last value from the `smallerNumbers` `list`, and then add the `biggerNumbers` `list` to the smaller one?
 
 To achieve this, you can use the following concepts:
-- flow control (`for...in`, `if (age > 1)...`)
-- variable creation (`age = 33`)
+- built-in methods (`extend()`, `remove()`, `pop()`)
 
 Learning is best when we give it an honest try. Even if we make a mistake, we'll remember it and do better next time.
 
@@ -48,23 +55,4 @@ Remember, learning is more effective when we do it with others.
 
 [1: Hints]
 
-Use a loop to cycle through every character and save it in an empty dictionary. 
-
-Within the loop you can check if the character already exists, if it does, increase its count and if it doesn't, add it.
-
-Here's one example of a dictionary:
-```python
-{
-  a: 5,
-  b: 3,
-  # ...
-}
-```
-
-After the loop is made, output the least occurring value from the dictionary.
-
-Here's one way you can get the least occurring character from a dictionary: 
-
-```python
-min(dict, key = dict.get))
-```
+You have to pop a value from the smaller `list` and then add the bigger `list` to the smaller one using a built-in method.

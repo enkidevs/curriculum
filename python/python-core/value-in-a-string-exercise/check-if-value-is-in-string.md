@@ -10,23 +10,31 @@ category: coding
 
 setupCode:
   startingPoint: |
-    # 👋 Welcome to the Python coding playground. 
-    # Example output:
-    # The character z appears only 2 times
-      
+    # 👋 Welcome to the Python coding playground.
+    
+    # List of youtubers names:
+    names = ["Mark Rober", "Backyard Scientist", "Vsauce"]
+
+    # Youtuber:
+    youtuber = "Vsauce"
+
 ---
 
-# Least Frequent Character
+# Value in a String
 
 ---
 
 ## Content
 
-Can you write the least frequent character program? It should take a string as input and determine which characters appear the least. 
+Given a `string` with youtubers names and a single youtuber:
+```python
+names = "Mark Rober", "Backyard Scientist", "Vsauc"]
+youtuber = "Vsauce"
+```
 
-To achieve this, you can use the following concepts:
-- flow control (`for...in`, `if (age > 1)...`)
-- variable creation (`age = 33`)
+Can you check if the `youtuber` is inside the `names` `string`?
+
+If it is, don't forget to `print` the youtuber.
 
 Learning is best when we give it an honest try. Even if we make a mistake, we'll remember it and do better next time.
 
@@ -48,23 +56,4 @@ Remember, learning is more effective when we do it with others.
 
 [1: Hints]
 
-Use a loop to cycle through every character and save it in an empty dictionary. 
-
-Within the loop you can check if the character already exists, if it does, increase its count and if it doesn't, add it.
-
-Here's one example of a dictionary:
-```python
-{
-  a: 5,
-  b: 3,
-  # ...
-}
-```
-
-After the loop is made, output the least occurring value from the dictionary.
-
-Here's one way you can get the least occurring character from a dictionary: 
-
-```python
-min(dict, key = dict.get))
-```
+Use a control flow statement and the `in` operator.

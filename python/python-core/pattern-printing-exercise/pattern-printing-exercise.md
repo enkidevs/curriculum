@@ -11,22 +11,32 @@ category: coding
 setupCode:
   startingPoint: |
     # 👋 Welcome to the Python coding playground. 
-    # Example output:
-    # The character z appears only 2 times
-      
+    # Pattern to output:
+    # *
+    # * *
+    # * * *
+    # * * * *
+    # * * * * *
+
 ---
 
-# Least Frequent Character
+# Pattern Printing
 
 ---
 
 ## Content
 
-Can you write the least frequent character program? It should take a string as input and determine which characters appear the least. 
+Can you write a loop to output this pattern:
+```plain-text
+*
+* *
+* * *
+* * * *
+* * * * *
+```
 
 To achieve this, you can use the following concepts:
-- flow control (`for...in`, `if (age > 1)...`)
-- variable creation (`age = 33`)
+- loops (`for...in`)
 
 Learning is best when we give it an honest try. Even if we make a mistake, we'll remember it and do better next time.
 
@@ -48,23 +58,10 @@ Remember, learning is more effective when we do it with others.
 
 [1: Hints]
 
-Use a loop to cycle through every character and save it in an empty dictionary. 
+One way to solve this is by using nested loops.
 
-Within the loop you can check if the character already exists, if it does, increase its count and if it doesn't, add it.
+The outer loop should handle the number of rows.
 
-Here's one example of a dictionary:
-```python
-{
-  a: 5,
-  b: 3,
-  # ...
-}
-```
+The inner loop should handle the number of columns and output the pattern.
 
-After the loop is made, output the least occurring value from the dictionary.
-
-Here's one way you can get the least occurring character from a dictionary: 
-
-```python
-min(dict, key = dict.get))
-```
+After each outer loop cycle, add a new line.
