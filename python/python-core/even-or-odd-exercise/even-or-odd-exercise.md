@@ -11,8 +11,10 @@ category: coding
 setupCode:
   startingPoint: |
     # 👋 Welcome to the Python coding playground. 
+    # Example input:
+    # 314
     # Example output:
-    # Poseidon has 714 spheres
+    # Poseidon has an even number of spheres
       
 ---
 
