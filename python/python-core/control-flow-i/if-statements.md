@@ -22,7 +22,7 @@ revisionQuestion:
 
 ## Content
 
-The flow of the program depends on the order in which individual commands are executed—control flow statements like `if...else` allow us to manage the order using conditions.
+The flow of the program depends on the order in which individual commands are executed. Control flow statements like `if...else` allow us to manage the order using conditions.
 
 > The `if...else` statement is used in Python for this decision making.
 
