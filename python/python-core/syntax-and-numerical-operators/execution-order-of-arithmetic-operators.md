@@ -6,7 +6,7 @@ type: normal
 category: must-know
 links:
   - >-
-    [Math Refresher](https://www.khanacademy.org/math/cc-sixth-grade-math/cc-6th-arithmetic-operations/cc-6th-order-of-operations/v/introduction-to-order-of-operations){video}
+    [Math Refresher](https://www.mathsisfun.com/operation-order-bodmas.html){video}
 practiceQuestion:
   formats:
     - fill-in-the-gap
