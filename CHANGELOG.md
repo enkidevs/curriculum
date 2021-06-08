@@ -51,6 +51,7 @@ Types of change:
 ## June 7th 2021
 
 ### Fixed
+- [JavaScript - Spread 1 - Add code identifiers to answers to remove differnt colors](https://github.com/enkidevs/curriculum/pull/2742)
 - [Python - Creating Classes - Update information on instantiating classes](https://github.com/enkidevs/curriculum/pull/2738)
 - [Regex - Ranges I - Update spelling to US](https://github.com/enkidevs/curriculum/pull/2740)
 
