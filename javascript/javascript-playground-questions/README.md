@@ -17,7 +17,7 @@ sections:
     - smallest-array-element
     - happy-birthday
     - reverse-a-string
-    - combine-objects
+    - object-combination
     - remove-duplicate-from-array
     - sum-and-product-of-two-arrays
     - squared-object-keys
