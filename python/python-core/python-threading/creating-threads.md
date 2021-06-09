@@ -57,7 +57,7 @@ I am a thread!!!
 I am a thread!!!
 ```
 
-We can use some built-in methods to see how many threads we have or if there are any that are stil active:
+We can use some built-in methods to see how many threads we have or if there're any that are still active:
 
 ```python
 # Check number of threads

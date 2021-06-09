@@ -26,7 +26,7 @@ revisionQuestion:
 
 ## Content
 
-Previoulsy, we did this[1] and got this result:
+Previously, we did this[1] and got this result:
 
 ```python
 Greetings friend
@@ -36,7 +36,7 @@ Third Message
 Why are you ignoring me
 ```
 
-Now let's do the same thing, but instead of only starting it, we will also join it with the main thread.
+Now let's do the same thing, but instead of only starting it, we'll also join it with the main thread.
 
 ```python
 import time, threading

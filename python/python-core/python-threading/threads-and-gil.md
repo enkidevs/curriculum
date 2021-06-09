@@ -31,7 +31,7 @@ If a thread starts using some code, the `GIL` will lock that code to that thread
 
 The reason behind this, is that Python is written in `C`, which is called `CPython`.
 
-And the reason `CPython` has `GIL` is because its memory management is not `thread-safe`.
+And the reason `CPython` has `GIL` is because its memory management is not **thread-safe**.
 
 Prior to modern computing, when it was first created, processes had only 1 thread.
 
