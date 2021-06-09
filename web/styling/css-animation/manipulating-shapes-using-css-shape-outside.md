@@ -12,14 +12,15 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
-# Manipulating shapes using CSS: `shape-outside`
+# Manipulating shapes using shape-outside
 
 
 ---
@@ -65,7 +66,11 @@ The `shape-outside` property only works on elements with the property of ??? app
 
 ## Revision
 
-For the `shape-outside` property to work, which property must have been applied to it? ???
+For the `shape-outside` property to work, which property must have been applied to it:
+
+```css
+???
+```
 
 - `float`
 - `hover`

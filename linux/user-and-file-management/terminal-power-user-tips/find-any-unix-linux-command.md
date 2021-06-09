@@ -77,9 +77,7 @@ install-sgmlcatalog (8) - maintain
 
 ## Revision
 
-`apropos`  allows you to search through
-
-??? .
+`apropos`  allows you to search through ???
 
 - commands’ description
 - users

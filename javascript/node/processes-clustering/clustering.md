@@ -11,11 +11,13 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Clustering
@@ -78,7 +80,9 @@ Identify if the code is executed by the master process:
 
 ```javascript
 var cluster = require('cluster');
+
 if(cluster.???){
+  // ...
 };
 ```
 

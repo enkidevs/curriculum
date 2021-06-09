@@ -10,10 +10,10 @@ notes: ''
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
-# Quick port test with `netcat`
+# Quick port test with netcat
 
 
 ---

@@ -2,15 +2,16 @@
 author: Stefan-Stojanovic
 type: normal
 category: must-know
-links: null
+
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # The Copyright Character
@@ -79,7 +80,9 @@ Why can using "©" for a copyright symbol be easier to code?
 
 What HTML character entity is used to insert a copyright symbol into a document?
 
+```html
 ???
+```
 
 - `&copy;`
 - `@`

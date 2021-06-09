@@ -14,11 +14,11 @@ notes: this should be linked to python metaclasses insight
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Dynamically create types
@@ -30,7 +30,7 @@ revisionQuestion:
 
 In *Python* every **class** is an instance of so called **metaclass**. This means that we can create new classes without `class` structure by calling `type` function[1]:
 
-```plain-text
+```python
 MyClass = type('MyClass', (), {})
 ```
 
@@ -42,7 +42,7 @@ This `type` function takes three arguments:
 
 These two classes implement the same functionality although syntacticly different
 
-```plain-text
+```python
 # The name is set to "BigCar"
 class BigCar:
     counter = 0
@@ -65,7 +65,7 @@ SmallCar = type("BigCar",
 
 So now these two classes are practically identical (`__name__` property is also equal), the only difference can be seen in types, which does not affect the functionality:
 
-```plain-text
+```python
 x = BigCar("BMW")
 y = SmallCar("BMW")
 

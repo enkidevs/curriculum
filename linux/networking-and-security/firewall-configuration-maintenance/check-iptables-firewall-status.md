@@ -21,7 +21,7 @@ revisionQuestion:
   context: relative
 ---
 
-# Check `iptables` firewall status
+# Check iptables firewall status
 
 
 ---

@@ -5,15 +5,17 @@ category: must-know
 stub: true
 tags:
   - deep
-links: null
+
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Markup for Editing
@@ -73,7 +75,7 @@ Result:
 
 ## Practice
 
-Cross out the text "$100":
+Which element would cross out the text "$100":
 
 ```html
 <p>
@@ -82,7 +84,9 @@ Cross out the text "$100":
 </p>
 ```
 
+```html
 tag = ???
+```
 
 Display the first list item as deleted text.
 Then display the third and fourth items as inserted text.
@@ -96,8 +100,10 @@ Then display the third and fourth items as inserted text.
 </ol>
 ```
 
+```html
 tag1 = ???
 tag2 = ???
+```
 
 - s
 - del
@@ -114,11 +120,23 @@ tag2 = ???
 
 ## Revision
 
-Match these elements with their meaning:
+This element defines text that is no longer correct, accurate or relevant:
 
-???: defines text that is no longer correct, accurate or relevant.
-???: defines text that is replaced or deleted text.
-???: defines text that has been inserted.
+```html
+???
+```
+
+This element defines text that is replaced or deleted:
+
+```html
+???
+```
+
+This element defines text that has been inserted:
+
+```html
+???
+```
 
 - s
 - del

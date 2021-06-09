@@ -9,8 +9,6 @@ insights:
   - cloud-security-configuration
 aspects:
   - introduction
-  - new
   - workout
   - deep
   - obscura
- 

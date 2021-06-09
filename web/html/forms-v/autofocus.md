@@ -2,18 +2,19 @@
 author: Stefan-Stojanovic
 type: normal
 category: must-know
-links: null
+
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
-# The `autofocus` Attribute
+# The autofocus Attribute
 
 
 ---
@@ -67,7 +68,9 @@ Which statement isn't true regarding autofocus?
 
 Which input form attribute sets a selected input as active when the page loads?
 
+```html
 ???
+```
 
 - autofocus
 - mark

@@ -10,7 +10,7 @@ links:
 notes: ''
 ---
 
-# `vh` and `vw` , `vmin` and `vmax`
+# vh & vw, vmin & vmax
 
 
 ---

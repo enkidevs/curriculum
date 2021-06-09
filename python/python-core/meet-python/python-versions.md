@@ -12,11 +12,12 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Python Versions
@@ -26,28 +27,27 @@ revisionQuestion:
 
 ## Content
 
-You'll be learning **Python 3** for this course as it's the latest and best version.
+In this course you'll be learning the modern version of Python called **Python 3**.
 
-Python 3 is easier for beginners to understand, and is being updated frequently so there are fewer bugs. 
+Python 3 is easier for beginners to understand and is updated frequently, so there are fewer bugs. 
 
-In the latest version of Python, text is printed as follows:
+That being said, some programmers still use versions of Python 2.
+
+Since you might come across it on your learning journey, you should be aware that it exists!
+
+As an example of the difference between the two: in Python 3, text is printed as follows:
 
 ```python
 print('Python 3')
 ```
 
-In older versions, text is printed like this:
+And in older versions, text is printed like this:
 
 ```python
 print 'Python 2'
 ```
 
-Python 3 treats `print` as a function rather than a statement, so you must pass items that you want printed in parentheses.
-
-Some programmers still use versions of Python 2, with 2.7 being the last major release.
-
-Since the start of 2020 Python HQ are no longer working on improvements to Python 2 and have advised everyone to switch over to Python 3.
-
+Since the start of 2020, Python maintainers are no longer working on improvements to Python 2 and have advised everyone to switch over to Python 3.
 
 ---
 
@@ -71,13 +71,15 @@ print???'Learning Python!'???
 
 ## Revision
 
-Which of the following code snippets is Python 3 code, and which is Python 2?
+Which of these is Python 3 code, and which is Python 2?
 
-Python 3: ???
-Python 2: ???
+```python
+# Python ???
+print('Hello world!')
 
-- `print('Hello world!')`
-- `print 'Hello world!'`
-- `write 'Hello world!'`
-- `write('Hello world!')`
- 
+# Python ???
+print 'Hello world!' 
+```
+
+- 3
+- 2 

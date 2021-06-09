@@ -6,11 +6,12 @@ notes: 'https://insights.enki.com/#/contrib/others/55c83ba83f06ab320051aa8a?sear
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # How Range Operations Work

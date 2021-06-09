@@ -10,11 +10,12 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # EVEN, ODD, ISEVEN & ISODD
@@ -41,18 +42,18 @@ The `=ISEVEN()` and `=ISODD()` functions are used to check if a number is even o
 
 ## Practice
 
-The =??? function is used to round a number up to the next odd integer.
+The =???() function is used to round a number up to the next odd integer.
 
-The =??? function is used to check if a number is even.
+The =???() function is used to check if a number is even.
 
-The =??? function is used to round a number up to the next even integer.
+The =???() function is used to round a number up to the next even integer.
 
-The =??? function is used to check if a number is odd.
+The =???() function is used to check if a number is odd.
 
-- ODD()
-- ISEVEN()
-- EVEN()
-- ISODD()
+- ODD
+- ISEVEN
+- EVEN
+- ISODD
 
 
 ---
@@ -61,10 +62,12 @@ The =??? function is used to check if a number is odd.
 
 What would the output of these functions be?
 
+```plain-text
 =EVEN(2.1)   = ???
 =ODD(2.1)    = ???
 =ISEVEN(2.1) = ???
 =ISODD(2.1)  = ???
+```
 
 - 4
 - 3

@@ -8,8 +8,8 @@ links:
     cases](http://www.thegeekstuff.com/2012/04/curl-examples/){website}
 revisionQuestion:
   formats:
-    - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Using `curl` To Make HTTP Requests
@@ -53,11 +53,10 @@ Both of these will result in `curl` downloading `bar.mp3` and writing it to the 
 
 ## Revision
 
-Complete the following command line snippet to download the picture:
+Complete the following command line snippet to download the picture using `curl`, outputing to a `cat.jpg` file:
 
 ```bash
-??? ??? ???
-  https://catpictures.com/cat1.jpg
+??? ??? ??? https://catpictures.com/cat1.jpg
 ```
 
 - `curl`

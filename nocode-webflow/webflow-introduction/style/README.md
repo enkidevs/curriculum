@@ -7,7 +7,5 @@ insights:
   - states
   - states-2
 aspects:
-  - deep
   - workout
   - introduction
- 

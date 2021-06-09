@@ -12,11 +12,11 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Securing the Transport Layer
@@ -34,6 +34,7 @@ Vulnerabilities in the Transport Layer are usually brought about by misuse of po
 ## Practice
 
 What is one control in the Transport Layer of the OSI Model?
+
 ???
 
 - Strict use of ports as they are designed

@@ -10,11 +10,11 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Order By Advanced
@@ -138,12 +138,14 @@ This table shows how much experience you need to gain in order to get to level 1
 ## Footnotes
 
 [1:Employees Table]
+
 Here is the table we have used previously:
-| id  | first_name | last_name | email                   |
-| --- | ---------- | --------- | ----------------------- |
-| 1   | Karlene    | Pantone   | [kpantone0@topsy.com](mailto:kpantone0@topsy.com)     |
-| 2   | Donnamarie | Beeho     | [dbeeho1@state.tx.us](mailto:dbeeho1@state.tx.us)     |
-| 3   | Tony       | Isworth   | [tisworth2@bloglovin.com](mailto:tisworth2@bloglovin.com) |
-| 4   | Esta       | Warrier   | [ewarrier3@berkeley.edu](mailto:ewarrier3@berkeley.edu)  |
-| 5   | Immanuel   | Kippen    | [ikippen4@biglobe.ne.jp](mailto:ikippen4@biglobe.ne.jp)  |
-| 6   | Regina     | Pantone   | [regone@stratos.org](mailto:regone@stratos.org)      |
+
+| id | first_name | last_name | email                   |
+|----|------------|-----------|-------------------------|
+| 1  | Karlene    | Pantone   | kpantone0@topsy.com     |
+| 2  | Donnamarie | Beeho     | dbeeho1@state.tx.us     |
+| 3  | Tony       | Isworth   | tisworth2@bloglovin.com |
+| 4  | Esta       | Warrier   | ewarrier3@berkeley.edu  |
+| 5  | Immanuel   | Kippen    | ikippen4@biglobe.ne.jp  |
+| 6  | Regina     | Pantone   | regone@stratos.org      |

@@ -13,7 +13,8 @@ links:
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Reading file attributes
@@ -39,7 +40,7 @@ BasicFileAttributes att =
 
 This will return a set of basic file attributes as a `BasicFileAttributes` object. Methods can then be called on this object to access the necessary attributes:
 
-```plain-text
+```java
 long size = att.size();
 ```
 

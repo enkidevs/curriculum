@@ -2,16 +2,14 @@
 author: Stefan-Stojanovic
 type: normal
 category: must-know
-links:
-  - '[Short intro video for HTML](https://scrimba.com/p/pZaVfV/cQr3mfM){video}'
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # HTML Defined

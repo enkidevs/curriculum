@@ -5,7 +5,7 @@ category: must-know
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Data Types II
@@ -54,3 +54,4 @@ Which of these are the 4 main data types?
 - Number, Date, String, and Error.
 - Number, Date, String, and Text.
 - Number, Double, String, and Logical.
+ 

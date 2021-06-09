@@ -7,11 +7,12 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Effect hooks
@@ -125,4 +126,4 @@ function Revision() {
 ## Footnotes
 
 [1:Template literals]
-Template literals (formerly known as *template strings*) are a way of using multi-line strings together with string interpolation features. What this basically means is that it allows us to call the `name` state inside a string by appending the `$` sign before the `{name}` syntax. Template literals are defined using back ticks `` `string text` ``.
+Template literals (formerly known as *template strings*) are a way of using multi-line strings together with string interpolation features. What this means is that it allows us to call the `name` state inside a string by appending the `$` sign before the `{name}` syntax. Template literals are defined using back ticks `` `string text` ``.

@@ -5,7 +5,7 @@ category: tip
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Short Introduction to `Wget`

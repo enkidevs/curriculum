@@ -5,11 +5,12 @@ category: must-know
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Calling functions
@@ -19,7 +20,7 @@ revisionQuestion:
 
 ## Content
 
-To call a function in Python, you write the function's name followed by some brackets `()`.
+To call a function in Python, you write the function's name followed by some parentheses `()`.
 
 For example:
 
@@ -39,9 +40,9 @@ Gives the following output:
 Function time!
 ```
 
-A parameter in Python is a variable which can be passed into functions so that methods can be performed onto it.
+The value passed into a function is called an argument. The variable that holds that value within the function is called a parameter.
 
-In this example, variable `x` is passed into the function as a parameter:
+In this example, variable `x` is defined in the function as a parameter:
 
 ```python
 def func(x):
@@ -49,14 +50,20 @@ def func(x):
     print(ans)
 ```
 
-So to call this function, you must pass a parameter into your function call as follows:
+To call this function, you must pass a value (i.e. an argument) into it, which will put that value into the `x` variable (i.e. parameter) inside the function.
+
+You can pass a number directly or as a variable:
 
 ```python
+# With a variable
 num = 5
 func(num)
+
+# Directly
+func(5)
 ```
 
-In the example, variable `x` will take the value of `num`, therefore the output will be:
+In the `func(x)` example, the variable `x` will take the value of `num` or `5` depending on how we plugged it in. Either way, the output will be:
 
 ```plain-text
 25
@@ -67,7 +74,7 @@ In the example, variable `x` will take the value of `num`, therefore the output 
 
 ## Practice
 
-Find the arithmetic mean of `x` and `y`:
+Complete the code to define and call the `mean` function to get the arithmetic mean of `x` and `y`:
 
 ```python
 x = 4
@@ -90,7 +97,7 @@ y = 2
 
 Complete the code snippet to define and call the function with the correct parameter:
 
-```plain-text
+```python
 ??? cube(x):
     res = x * x * x
     print (res)

@@ -5,11 +5,12 @@ category: how-to
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Exported Names
@@ -89,7 +90,7 @@ Given the piece of code below, add any missing parts so the output would properl
 ```go
 package main
 
-???
+import "???"
 
 var x int
 var y int
@@ -104,11 +105,11 @@ func main() {
 // 7
 ```
 
-- import "fmt"
+- fmt
 - fmt.Println
 - fmt.println
 - FMT.Println
-- import "FMT"
+- FMT
 
 
 ---

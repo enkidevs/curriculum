@@ -17,10 +17,10 @@ links:
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
-# Using the `font-variant` property to transform text to small caps
+# Using the font-variant property to transform text to small caps
 
 
 ---

@@ -5,14 +5,15 @@ category: must-know
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
-# Using `else` in loops
+# Using else in loops
 
 
 ---
@@ -21,7 +22,7 @@ revisionQuestion:
 
 Unlike other programming languages such as C, Python allows the use of `else` statements with loops.
 
-They are implemented so that once a `for` or a `while` loop condition evaluates to false, the `else` is executed. In other words, the `else` statement is called **once** when the loops exit naturally.
+They are implemented so that once a `for` or a `while` loop condition evaluates to false, the `else` is executed. In other words, the `else` statement is called **once** when the loop exits naturally.
 
 For example, an `else` statement integrated into a `while` loop:
 
@@ -36,7 +37,7 @@ else:
 
 Gives the following output:
 
-```python
+```plain-text
 0
 1
 2
@@ -54,7 +55,7 @@ else:
 
 Gives the following output:
 
-```python
+```plain-text
 0
 1
 2
@@ -77,7 +78,7 @@ else:
 
 With the output:
 
-```python
+```plain-text
 b
 a
 ```

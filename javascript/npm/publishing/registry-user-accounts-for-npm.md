@@ -10,11 +10,13 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Registry user accounts for npm
@@ -59,12 +61,14 @@ Note that `npm login` is an alias for `npm adduser` and works in exactly the sam
 
 For what command is `npm login` an alias?
 
-???
+```bash
+npm ???
+```
 
-- npm adduser
-- npm signup
-- npm signin
-- npm add
+- adduser
+- signup
+- signin
+- add
 
 
 ---
@@ -73,9 +77,11 @@ For what command is `npm login` an alias?
 
 For what command is `npm login` an alias?
 
-???
+```bash
+npm ???
+```
 
-- npm adduser
-- npm signup
-- npm signin
-- npm add
+- adduser
+- signup
+- signin
+- add

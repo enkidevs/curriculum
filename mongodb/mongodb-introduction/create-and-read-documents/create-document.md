@@ -5,11 +5,13 @@ category: must-know
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Create a document
@@ -80,16 +82,22 @@ Output:
 
 ## Practice
 
-Method used to add a single document: ???
+Method used to add a single document in Mongo:
+```javascript
+???()
+```
 
-Method used to add multiple documents: ???
+Method used to add multiple documents: 
+```javascript
+???()
+```
 
-- `insertOne()`
-- `insertMany()`
-- `insertSingle()`
-- `insertMultiple()`
-- `insertDocument()`
-- `insertDocuments()`
+- `insertOne`
+- `insertMany`
+- `insertSingle`
+- `insertMultiple`
+- `insertDocument`
+- `insertDocuments`
 
 
 ---

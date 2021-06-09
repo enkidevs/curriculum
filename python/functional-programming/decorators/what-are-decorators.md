@@ -9,11 +9,12 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # What Are Decorators?
@@ -117,7 +118,9 @@ def hello_heading(func):
   return func_wrapper
 ```
 
+```plain-text
 ???
+```
 
 - B
 - A

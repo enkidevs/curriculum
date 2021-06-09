@@ -7,11 +7,12 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # PROPER
@@ -58,8 +59,9 @@ How does the `=PROPER()` function re-format text?
 What is the output of this function?
 
 `=PROPER("The ball is red")`
-
+```plain-text
 ???
+```
 
 - The Ball Is Red
 - The ball is red

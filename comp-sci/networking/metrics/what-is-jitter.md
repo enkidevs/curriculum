@@ -8,7 +8,8 @@ links:
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # What is jitter?
@@ -41,7 +42,9 @@ There's a pretty high chance you have experienced jitter before. Most recognisab
 
 The term **jitter** is used interchangeably with:
 
+```plain-text
 ??? ??? ???
+```
 
 - Packet
 - Delay

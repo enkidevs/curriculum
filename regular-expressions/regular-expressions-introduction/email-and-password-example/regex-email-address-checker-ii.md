@@ -12,11 +12,11 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Email Address Checker II
@@ -26,7 +26,7 @@ revisionQuestion:
 
 ## Content
 
-There are so many different ways that we could write our email address checker. 
+We could write our email address checker in so many different ways.
 
 Here's another way that allows an optional domain name extension, like `co.uk`, but which also works for `.com`:
 
@@ -36,26 +36,27 @@ Here's another way that allows an optional domain name extension, like `co.uk`, 
 
 It looks like a lot, but don't be put off! 😅
 
-Let's take a look at each major chunk.
+Let's take a look at each significant chunk.
 
-`/[a-zA-Z0-9.!#$%&’*+/=?^_{|}~-]+/` gives all of the allowed email address characters, and ensures that there's at least one of them.
+`/[a-zA-Z0-9.!#$%&’*+/=?^_{|}~-]+/` gives all of the allowed email address characters and ensures that there's at least one of them.
 
-`/[a-zA-Z0-9-]+/` ensures that the host name is alphanumeric and has at least one character.
+`/[a-zA-Z0-9-]+/` ensures that the hostname is alphanumeric and has at least one character.
 
-`/(?:\.[a-zA-Z0-9-]+)*/` this is the optional part. It ensure that there must be zero or more instances of that group, so `.com` would match, but also `.co.uk`.
+`/(?:\.[a-zA-Z0-9-]+)*/` this is the optional part. It ensures that there must be zero or more instances of that group, so `.com` would match, but also `.co.uk`.
 
-Pretty neat stuff! 
+Pretty neat stuff!
 
-Regex is an awesome tool for making basic validations, but the more compliant you want to be then the more obscure the regex becomes.
+Regex is an incredible tool for making basic validations, but the more compliant you want to be, the more obscure the regex becomes.
 
 Take a look [here](http://emailregex.com/) and [here](https://stackoverflow.com/a/201378/5583303) to see some even more accurate email address checkers.
+
 
 
 ---
 
 ## Practice
 
-Which part of the following regex pattern matches each part of the email address?
+Complete the regex pattern to match the following email address.
 
 `tacos@enki.com` ✅
 
@@ -73,7 +74,7 @@ Which part of the following regex pattern matches each part of the email address
 
 ## Revision
 
-Which part of the following regex pattern matches each part of the email address?
+Complete the regex pattern to match the following email address.
 
 `we_love_tacos@enki.com` ✅
 
@@ -85,4 +86,3 @@ Which part of the following regex pattern matches each part of the email address
 - `@`
 - `[a-z]+`
 - `(?:\.[a-z]+)*`
- 

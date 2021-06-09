@@ -8,11 +8,11 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Using `eval`
@@ -43,13 +43,15 @@ This is why `eval` is sometimes refered to as "evil".
 
 ## Practice
 
-What does the following JS code return when ran? ???
+What does the following JS code return when ran?
 
 ```javascript
 let str = "if(flag){2*8;} else{-2*8;}";
 let flag = false;
 let b = eval(str);
 ```
+
+???
 
 - `-16`
 - `16`

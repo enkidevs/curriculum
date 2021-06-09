@@ -11,3 +11,4 @@ insights:
   - organizing-commands
   - functions-are-programs-too
   - conditions-and-loops
+  - think-like-a-coder

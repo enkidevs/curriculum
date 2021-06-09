@@ -5,18 +5,19 @@ category: must-know
 tags:
   - workout
   - deep
-links: null
+
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
-# The `<colgroup>` & `<col>` Elements
+# Elements (colgroup & col)
 
 
 ---
@@ -113,7 +114,9 @@ When using the `<colgroup>` element, which statements is not true?
 
 Which HTML element is useful for applying styles to entire columns, rather than in repeating styles for each cell in every row?
 
+```html
 ???
+```
 
 - `<colgroup>`
 - `<rowgroup>`

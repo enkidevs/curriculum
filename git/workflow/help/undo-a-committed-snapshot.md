@@ -9,11 +9,13 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Undo a committed snapshot
@@ -76,7 +78,9 @@ Undo the last commit in the current branch:
 
 What command is used to get rid of a commit by undoing the changes introduced by it?
 
+```bash
 ???
+```
 
 - `git revert`
 - `git reset`

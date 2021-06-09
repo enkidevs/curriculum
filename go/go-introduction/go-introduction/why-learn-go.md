@@ -8,11 +8,11 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Why Learn Go
@@ -24,7 +24,7 @@ revisionQuestion:
 
 Developers use **Go** to build things ranging from banking servers, productivity tools, and even cryptocurrency systems.
 
-Due to its smalls size and efficient architecture, the **Go** language is quick to pick up and fast to run.
+Due to its small size and efficient architecture, the **Go** language is quick to pick up and fast to run.
 
 ### Ease of programming
 
@@ -84,7 +84,7 @@ Every programming language has reserved words with a special meaning that are ca
 
 Go only has 25 keywords:
 
-```plain-text
+```go
 break        default      func         interface    select
 case         defer        go           map          struct
 chan         else         goto         package      switch

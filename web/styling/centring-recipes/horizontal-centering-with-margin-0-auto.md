@@ -12,10 +12,10 @@ links:
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
-# Horizontal centering with `margin: 0 auto;`
+# Horizontal centering with margin: 0 auto;
 
 
 ---

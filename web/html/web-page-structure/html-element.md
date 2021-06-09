@@ -9,14 +9,14 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
-# The `<html>` Element
+# The html Element
 
 
 ---
@@ -81,7 +81,9 @@ What is meant by the html element being the root of an HTML page?
 
 What is the root element of an HTML document?
 
+```html
 ???
+```
 
 What HTML element is best to assign the document’s primary language?
 

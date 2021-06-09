@@ -6,16 +6,15 @@ type: normal
 category: must-know
 links:
   - >-
-    [Regex in Google
-    Sheets](https://www.distilled.net/how-to-use-regex-in-google-sheets/){website}
+    [Regex in Google Sheets](https://www.distilled.net/how-to-use-regex-in-google-sheets/){website}
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Why Learn Regex?
@@ -25,15 +24,15 @@ revisionQuestion:
 
 ## Content
 
-Regex is for *everyone*. 
+Regex is for *everyone*.
 
-> 💡 A developer could use regex to validate that information given by a user is in the correct format. 
+> 💡 A developer could use regex to validate that information given by a user is in the correct format.
 
-For example, when collecting email addresses on a sign up form, the `@` character must be in the correct position for the email address to be valid. If it isn't, then our form should throw an error. 
+For example, when collecting email addresses on a sign up form, the `@` character must be in the correct position for the email address to be valid. If it isn't, then our form should throw an error.
 
 `@gmail.com` ❌
 
-Developers can use regex to construct a pattern that the users' input must match. 
+Developers can use regex to construct a pattern that the users' input must match.
 
 `devs@enki.com` ✅
 
@@ -66,4 +65,3 @@ A regex can be used to find all phone numbers within an article.
 
 - True
 - False
- 

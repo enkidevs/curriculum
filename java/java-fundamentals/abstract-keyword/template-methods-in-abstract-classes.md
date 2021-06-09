@@ -11,11 +11,12 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Template methods in abstract classes
@@ -63,6 +64,7 @@ public class SubClass extends BaseClass {
 ## Practice
 
 Template methods are a good way to prevent
+
 ???.
 
 - code repetition
@@ -82,11 +84,11 @@ public abstract class BigClass {
 }
 
 public class SmallerClass
-         ??? BigClass {
-  ???
-  void render() {
-    // render method code...
-  }
+  ??? BigClass {
+    ???
+    void render() {
+      // render method code...
+    }
 }
 ```
 

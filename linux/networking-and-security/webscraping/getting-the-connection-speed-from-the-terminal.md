@@ -52,9 +52,7 @@ Upload: 5.18 Mbit/s
 
 ## Revision
 
-A tool to test your internet connection using the terminal is 
-
-???.
+A tool to test your internet connection using the terminal is ???.
 
 - speedtest-cli
 - internetspeed-cli

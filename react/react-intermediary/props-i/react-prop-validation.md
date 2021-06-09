@@ -10,11 +10,13 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # `props` Validation
@@ -116,19 +118,19 @@ Test.propTypes = {
 
 ## Revision
 
-Complete the missing validation such that the first prop is a function and the second an object:
+Complete the missing validation such that the first prop is a boolean and the second a string:
 
 ```jsx
 function Test(props) { return <p>A</p>; };
 Test.propTypes = {
-  myFunction: ???.???,
-  myObject: PropTypes.???,
+  myBoolean: ???.???,
+  myString: PropTypes.???,
 };
 ```
 
 - `PropTypes`
-- `func`
-- `object`
+- `bool`
+- `string`
 - `function`
 - `obj`
 - `node`
@@ -136,3 +138,5 @@ Test.propTypes = {
 - `method`
 - `Props`
 - `Primitives`
+- `func`
+- `object`

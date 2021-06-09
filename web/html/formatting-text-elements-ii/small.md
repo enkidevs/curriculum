@@ -5,18 +5,19 @@ category: must-know
 stub: true
 tags:
   - deep
-links: null
+
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
-# The `<small>` Element
+# The small Element
 
 
 ---
@@ -79,7 +80,9 @@ Select the false statement about the `<small>` element.
 
 What HTML element is used to make the text font size one size smaller?
 
+```html
 ???
+```
 
 - `<small>`
 - `<smaller>`

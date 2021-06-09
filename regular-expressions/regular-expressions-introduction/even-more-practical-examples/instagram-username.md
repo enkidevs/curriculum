@@ -7,11 +7,11 @@ category: feature
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Instagram Username
@@ -31,7 +31,7 @@ Let's have a crack at writing our regex pattern!
 
 Knowing that it must start with a word character, we can use `/w` which includes any alphabetical character, number or underscore.
 
-Next, we need to include any word character and we also need to include periods. We can define a range inside `[ ]` such as `[\w.]`. 
+Next, we need to include any word character and we also need to include periods. We can define a range inside `[ ]` such as `[\w.]`.
 
 > 💡 When using ranges we do not need to escape periods. The same applies to all other special characters!
 
@@ -74,4 +74,3 @@ enki_devs_
 
 - Yes
 - No
- 

@@ -5,6 +5,10 @@ type: normal
 
 category: must-know
 
+links:
+  - >-
+    [Exact Instructions Challenge](https://youtube.com/watch?v=Ct-lOOUqmyY){video}
+  
 ---
 
 # Programs & Data
@@ -16,20 +20,23 @@ Let's quickly introduce the building blocks we'll cover in this course.
 
 ### Program
 
-Even though they're super fast, computers are annoyingly literal - you have to spell out everything for them. 
+Today you woke up with a plan, a to-do list, which is essentially your program for the day. Similarly, we give the computers a set of commands to carry out, one after the other. That too is known as a program.
 
-A program consists of one or more commands we're asking the computer to do. It's a sequence of specific tasks. A list of TODOs for the computer.
+The only difference being that computers require specific instructions. (Don't tell anyone we said this, but machines are actually pretty dumb… sssh!)
 
-### Variables
+> 💡 Scroll down to see a hilarious real life example of this in the Learn more section 😆
 
-For a program to remember values, it needs a place to store them. 
 
-This is where variables come in. They serve as storage containers for data.
+### Data: Variables
 
-### Data Types
+Data is information and information needs to be stored somewhere. That’s where variables come in. For instance, when you meet someone new you could store their `name = "Batman"` and `age = 24` as two separate pieces of information.
 
-Computers don't always know the difference between `1` and `one`. Sometimes we have to help them out.
+In this case, `name` and `age` would be the variables that store information.
 
-Using data types, we can mark data with a label that helps the program know the kind of value it holds, such as a number, text, etc.
+### Data: Types
 
-This is useful because text doesn't have the same capabilities as a number. For example, what's the square root of `cat`?
+It’s easy to divide 24 by 2 and get 12. However, dividing “Batman” by 2 might land you in jail. To avoid going to jail, we group information into distinct *data types* depending on whether the values they hold are numbers, texts, or something else.
+
+These *data types* save us from attempting number related operations on texts and vice versa.
+
+For instance, what is the square root of `cat`?

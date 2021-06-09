@@ -7,5 +7,3 @@ insights:
   - aggregation-with-mod
 aspects:
   - introduction
-  - new
- 

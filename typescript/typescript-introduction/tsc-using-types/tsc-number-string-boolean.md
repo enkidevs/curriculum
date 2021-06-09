@@ -15,15 +15,15 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Number, String & Boolean
-
 
 ---
 
@@ -33,12 +33,12 @@ We can attach a type to a variable by adding a colon (`:`) and a type after its 
 
 ### String
 
-A `string` is a data type that represents a sequence of characters. 
+A `string` is a data type that represents a sequence of characters.
 
-For a value to be a string, it must be enclosed in single (`'`) or double (`"`) quotation marks or back-ticks `` ` ``.
+For a value to be a string, it must be enclosed in single (`'`) or double (`"`) quotation marks or back-ticks.
 
 ```ts
-let brand: string = 'Samsung';
+let brand: string = "Samsung";
 brand = "Apple";
 brand = `Enki`;
 ```
@@ -61,7 +61,6 @@ let isTrue: boolean = true;
 let isFalse: boolean = false;
 ```
 
-
 ---
 
 ## Practice
@@ -74,7 +73,6 @@ Declare a variable `ts` with the type `string` and a value `'is fun'`:
 - `let ts string = 'is fun'`
 - `let ts: string > 'is fun'`
 
-
 ---
 
 ## Revision
@@ -83,7 +81,7 @@ Match the types with their values:
 
 ```ts
 let a: ??? = false;
-let b: ??? = 'Enki';
+let b: ??? = "Enki";
 let c: ??? = 123.4;
 ```
 
@@ -91,12 +89,11 @@ let c: ??? = 123.4;
 - string
 - number
 
-
 ---
 
 ## Footnotes
 
-[1: Numerical Values in TypeScript]
+[1:Numerical Values in TypeScript]
 TypeScript numerical values can be integers, decimals, hexadecimals, binary literals or octal literals.
 
 ```ts

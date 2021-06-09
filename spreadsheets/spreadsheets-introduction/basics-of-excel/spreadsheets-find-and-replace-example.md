@@ -38,3 +38,4 @@ You can also use the `Replace all` button to change all instances of `88` to `A`
 
 > 💡 When you press `Replace all` you get a popup window asking you to confirm your decision. This is because some replacements could end up changing a big part of your data, which isn't always desirable or intended.
  
+ 

@@ -7,11 +7,11 @@ category: must-know
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Wildcards II
@@ -27,7 +27,7 @@ Going back to our previous example - if we wanted to find all names beginning wi
 /Fre\w*/
 ```
 
-This would match the names that start with `'Fre'`, and then have zero or more word characters. 
+This would match the names that start with `'Fre'`, and then have zero or more word characters.
 
 `Fred` ✅
 `Freya` ✅
@@ -100,4 +100,3 @@ Which regex pattern would match any non-whitespace characters in the following t
 - `/\d/`
 - `/\D/`
 - `/\s/`
- 

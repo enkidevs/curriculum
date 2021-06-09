@@ -5,7 +5,7 @@ category: how-to
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # What Are Charts?
@@ -33,3 +33,4 @@ Charts are ???.
 - graphical representations of data
 - visual functions
 - maps of a spreadsheet
+ 

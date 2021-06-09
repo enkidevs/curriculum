@@ -7,11 +7,11 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Time
@@ -45,7 +45,7 @@ Next, we have the **mm** part which starts with a number from 0-5 followed by an
 
 `/(:[0-5]\d)?/`
 
-The **ss** part is completely optional, which is why it has been grouped within parentheses. 
+The **ss** part is completely optional, which is why it has been grouped within parentheses.
 
 Putting this all together, and adding ":" in between the hh and mm parts, we have:
 
@@ -66,7 +66,7 @@ What can be removed in the **ss** part of our regex pattern to make it mandatory
 
 ???
 
-- ? 
+- ?
 - ()
 - :
 - \d
@@ -92,4 +92,3 @@ Which of the following times would match on the following regex pattern:
 - 23:11
 - 09:38
 - All of the above
- 

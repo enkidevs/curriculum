@@ -9,11 +9,11 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Variable Argument Function
@@ -41,7 +41,7 @@ varArgsFunc(args);
 varArgsFunc("Enki", "eNki", "enKi");
 ```
 
-Of course the arguments still have to be passed as "array", and the collection should be the last in the order of arguments, otherwise a compile time error will be raised, this is because the compiler assumes unlimited number of elements in the collection:
+The arguments still have to be passed as an "array", and the collection should be the last in the order of arguments, otherwise a compile time error will be raised, this is because the compiler assumes unlimited number of elements in the collection:
 
 ```java
 varArgsFunc(int A, String... stringArray){

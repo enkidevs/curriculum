@@ -7,6 +7,5 @@ insights:
   - aggregation-with-last
   - aggregation-with-max-min
 aspects:
-  - new
   - introduction
  

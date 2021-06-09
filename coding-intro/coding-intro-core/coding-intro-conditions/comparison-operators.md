@@ -5,11 +5,11 @@ category: must-know
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Comparison Operators
@@ -83,7 +83,7 @@ IF (hungry == true) THEN
 
 ## Revision
 
-The boolean type can only have `true` and ??? as values.
+The boolean type can only have true and ??? as values.
 
 - false
 - negative

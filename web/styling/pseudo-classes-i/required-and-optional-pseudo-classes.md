@@ -12,10 +12,10 @@ links:
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
-# `:required` and `:optional` pseudo classes
+# Required and optional pseudo classes
 
 
 ---

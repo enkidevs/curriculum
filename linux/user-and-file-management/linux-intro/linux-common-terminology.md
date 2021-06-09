@@ -8,11 +8,11 @@ tags:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Common Terminology
@@ -55,7 +55,7 @@ The **root user** is also called the ???.
 
 ## Revision
 
-Commands are typed into the ??? and processed by the ???.
+In unix systems, commands are typed into the ??? and processed by the ???.
 
 - terminal
 - shell

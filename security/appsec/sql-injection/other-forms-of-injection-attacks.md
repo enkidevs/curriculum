@@ -8,11 +8,11 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Other forms of Injection attacks
@@ -51,9 +51,9 @@ http://sensitive/cgi-bin/
 userData.pl?doc=???
 ```
 
-- /bin/ls|
-- ;ls|
-- ;$bash% ls .
+- `/bin/ls|`
+- `;ls|`
+- `;$bash% ls .`
 
 
 ---
@@ -66,6 +66,6 @@ Modify the URL to execute `;cat /etc/passwd`
 http://sensitive/something.php?dir=???
 ```
 
-- %3Bcat%20/etc/passwd
-- ;cat /etc/passwd
-- ;$bash% cat /etc/passwd
+- `%3Bcat%20/etc/passwd`
+- `;cat /etc/passwd`
+- `;$bash% cat /etc/passwd`

@@ -10,6 +10,4 @@ insights:
 aspects:
   - deep
   - obscura
-  - new
   - workout
- 

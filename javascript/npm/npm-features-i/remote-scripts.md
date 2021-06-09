@@ -9,11 +9,12 @@ tags:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Remote Scripts
@@ -95,7 +96,7 @@ How would you run the script?
 
 ## Revision
 
-The syntax to add an `external_script.sh` to *package.json* is:
+The syntax to add an `external_script.sh` (found in the main directory of the project) to `package.json` is:
 
 ```javascript
 ??? : {

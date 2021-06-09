@@ -18,15 +18,14 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Why TypeScript?
-
 
 ---
 
@@ -54,7 +53,6 @@ Your editor can integrate with TypeScript and display any problems in the code a
 
 Since TypeScript is a standalone layer on top of JavaScript, it allows us to continuously use the latest ECMAScript features, even before they become fully supported in JavaScript[2].
 
-
 ---
 
 ## Practice
@@ -66,18 +64,16 @@ TypeScript requires your code to run and produce an output before it can check f
 - False
 - True
 
-
 ---
 
 ## Revision
 
-TypeScript compares types based on ???
+TypeScript compares two types based on their ???
 
 - shape
-- quacks
 - name
-- age
-
+- quack
+- location
 
 ---
 

@@ -5,7 +5,7 @@ type: normal
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Linking Tables 1
@@ -47,3 +47,4 @@ To link two already existing tables you have to ???.
 - create a new field and select the 'Link <name of table to be linked>'
 - create a new base and link it using base linking
 - delete the table and create a new table from scratch
+

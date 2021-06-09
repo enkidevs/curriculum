@@ -7,11 +7,13 @@ category: must-know
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Execution Order of Operators
@@ -51,9 +53,8 @@ What’s the output of the following code:
 
 ```bash
 2 + 7 * 2 // 8
-```
-
 ???
+```
 
 - `3`
 - `3.0`
@@ -69,9 +70,9 @@ What’s the output of the following code:
 
 ```bash
 4 + 3 * 9 // 6
+???
 ```
 
-???
 
 - `8`
 - `8.0`

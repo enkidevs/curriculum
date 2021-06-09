@@ -5,11 +5,11 @@ category: caveats
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Inaccuracy of Binary Floating-Point Format

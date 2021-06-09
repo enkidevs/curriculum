@@ -9,11 +9,13 @@ notes: Math modules workout
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Working with decimals
@@ -73,7 +75,7 @@ print(decimal.getcontext())
 
 Using the `decimal` module, print the value of  `d` ‘s logarithm (base 10):
 
-```plain-text
+```python
 import decimal
 d = decimal.Decimal(“2.71”)
 print(d.???())
@@ -91,7 +93,7 @@ print(d.???())
 
 Use the `decimal` module to assign the given value to the decimal variable `a` :
 
-```plain-text
+```python
 import decimal
 a = ???.???(“6.42”)
 ```

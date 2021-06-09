@@ -10,11 +10,11 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Top.location.href
@@ -37,7 +37,9 @@ It is useful when dealing with pages that have multiple `iframes` (e.g. map). In
 
 ## Practice
 
-Assuming that the current window has no parent, what would the following check return? ???
+Assuming that the current window has no parent, what would the following check return? 
+
+???
 
 ```javascript
 window === window.top
@@ -56,7 +58,8 @@ window === window.top
 Assume current window has no parent. What will the output of the following check be?
 
 ```javascript
-window === window.top // ???
+window === window.top 
+// ???
 ```
 
 - `true`

@@ -9,7 +9,7 @@ links:
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # What Is Serialization?
@@ -21,7 +21,7 @@ revisionQuestion:
 
 **Serialization** is a way to convert an object's state (i.e. the information about the object) to an array of bytes in *Java*. 
 
-This information is of course retractable[1] and can be deserialized.
+This information is retractable[1] and can be deserialized.
 
 The motivation for using **serialization** might be the following points:
 

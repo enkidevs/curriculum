@@ -9,11 +9,11 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Identifying the Physical Layer
@@ -31,8 +31,8 @@ The Physical Layer encompasses all electronic circuit transmission technologies 
 
 These include but are not limited to: 
 
-- switches
 - ethernet
+- network hubs
 - the USB physical layer
 - the Bluetooth physical layer
 - various wireless cards

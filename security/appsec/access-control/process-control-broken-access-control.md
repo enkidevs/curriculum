@@ -5,11 +5,11 @@ category: best-practice
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Process Control Broken Access Control
@@ -44,6 +44,7 @@ Where should automated checks for access control go?
 ## Revision
 
 When should application resources be checked for proper access control configuration?
+
 ???
 
 - During code review

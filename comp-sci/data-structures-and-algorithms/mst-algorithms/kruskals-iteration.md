@@ -9,7 +9,7 @@ practiceQuestion:
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Kruskal's Algorithm Iteration
@@ -73,7 +73,7 @@ Is the following graph a valid one on which to apply Kruskal's algorithm?
 
 In order for the Kruskal's algorithm to work, the graph should be
 
-???.
+???
 
 - weighted
 - directed

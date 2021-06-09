@@ -13,5 +13,4 @@ exercises:
 aspects:
   - introduction
   - workout
-  - new
  

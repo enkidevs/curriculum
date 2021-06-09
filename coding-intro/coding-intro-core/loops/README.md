@@ -3,8 +3,8 @@ name: Loops
 description: Repeat your code with no effort.
 
 aspects:
+  - introduction
   - workout
-  - deep
 
 insights:
   - loops-intro
