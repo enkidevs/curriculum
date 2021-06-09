@@ -6,6 +6,7 @@ insights:
   - use-comments-to-explain-the-purpose-of-code
   - avoid-excessively-long-comments
   - avoid-synonyms-when-naming
+  - java-naming-conventions
   - follow-existing-project-naming-conventions
 
 game: java-8

@@ -357,6 +357,10 @@ Types of change:
 - [TypeScript - Never - Remove extra question gap](https://github.com/enkidevs/curriculum/pull/2624)
 - [TypeScript - Introduction to Type Aliases - Remove extra question gap](https://github.com/enkidevs/curriculum/pull/2624)
 
+## February 9th 2021
+
+### Archived
+- [Git, Java, Linux, Javascript, Python - Dummy Workouts - Archive all insights that already exist in the content](https://github.com/enkidevs/curriculum/pull/2618)
 
 ## February 5th 2021
 

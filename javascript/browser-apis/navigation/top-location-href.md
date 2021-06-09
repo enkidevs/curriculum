@@ -17,7 +17,7 @@ revisionQuestion:
   context: standalone
 ---
 
-# `top.location.href`
+# Top.location.href
 
 
 ---
@@ -26,7 +26,7 @@ revisionQuestion:
 
 `top.location.href` returns the location of the topmost window in the window hierarchy. If a window has no parent, `top` is a reference to itself:
 
-```plain-text
+```javascript
 window === window.top
 ```
 

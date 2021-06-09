@@ -20,7 +20,7 @@ revisionQuestion:
   context: relative
 ---
 
-# Java naming conventions
+# General Naming Conventions
 
 
 ---

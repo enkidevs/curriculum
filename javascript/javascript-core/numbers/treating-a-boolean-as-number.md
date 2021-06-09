@@ -1,14 +1,7 @@
 ---
 author: pawel
-levels:
-  - basic
-  - advanced
-  - medium
 type: normal
 category: tip
-tags:
-  - type-coercion
-  - ''
 practiceQuestion:
   formats:
     - fill-in-the-gap
@@ -19,7 +12,7 @@ revisionQuestion:
   context: relative
 ---
 
-# Treating a boolean as number
+# Treating a Boolean as Number
 
 
 ---
@@ -35,6 +28,7 @@ For example:
 ```javascript
 console.log(3 + false); // 3
 console.log(3 + true); // 4
+console.log(3 - true); // 2
 ```
 
 

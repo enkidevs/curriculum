@@ -1,7 +1,5 @@
 ---
 author: rosielowther
-levels:
-  - medium
 type: normal
 category: feature
 links:
@@ -24,18 +22,36 @@ revisionQuestion:
 
 ## Content
 
-ES6 introduces **rest** parameters. These are indicated by three dots `...` preceding a parameter. The rest parameter is an array that contains an indefinite number of arguments.
+Next to the **spread** operator, there is also a **rest** parameter. 
+
+The **rest** parameter is indicated by three dots `...` preceding a parameter. It is an array that contains an indefinite number of arguments.
 
 In this example, if more than three parameters are passed to the function, the additional parameters will be stored in `rest`:
 
-    function(a, b, c, ...rest) {
-      // ...
-    }
+```javascript
+function(a, b, c, ...rest) {
+  // ...
+}
+```
 
-This differs from the `arguments` object of ES5 that would contain **all** the parameters if it was used.
+Since **rest** and **spread** use the same symbol `...`, it's easy to confuse them.
 
-Another difference is that a rest parameter is a true array and so can have array methods such as `sort()` applied to it.
+A good way to think of it is that **rest** is used when  taking data (take a, b and the rest) while **spread** is used when giving data (give a, b and spread some more).
 
+```javascript
+// rest
+function (a, b, ...rest) {
+}
+
+const [a, b, ...rest] = x
+
+// spread
+x(a, b, ...spread);
+
+x = [a, b, ...spread]
+
+x = { a, b, ...spread }
+```
 
 ---
 
@@ -66,7 +82,6 @@ Store all parameters under `rest` in the function:
 function(??????) {
 
 }
-
 ```
 
 - ...

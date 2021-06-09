@@ -3,6 +3,7 @@ description: Idiomatic way to use and inspect data structures in JavaScript.
 insights:
   - spread-part-1
   - spread-part-2
+  - rest-parameters
   - map-data-structure
   - set-data-structure
   - weakmap

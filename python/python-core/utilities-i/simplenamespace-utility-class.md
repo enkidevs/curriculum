@@ -1,8 +1,5 @@
 ---
 author: catalin
-levels:
-  - advanced
-  - medium
 type: normal
 category: feature
 links:

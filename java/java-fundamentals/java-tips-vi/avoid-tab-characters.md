@@ -1,18 +1,7 @@
 ---
 author: adamMontgomerie
-
-levels:
-  - basic
-  - advanced
-  - medium
-
 type: normal
-
 category: tip
-
-tags:
-  - java-common-practises
-
 links:
 
   - >-

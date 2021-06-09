@@ -5,6 +5,8 @@ insights:
   - inaccuracy-of-binary-floating-point-format
   - parsing-numbers-and-ieee-754
   - nan-is-a-number
+  - precision
+  - treating-a-boolean-as-number
 game: infinity-game
 exercises:
   - js-practice-number-tostring

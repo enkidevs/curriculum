@@ -5,6 +5,7 @@ insights:
   - git-ignore
   - check-the-reflog
   - subdirectory-checkout
+  - perform-a-dry-run
 aspects:
   - introduction
   - workout

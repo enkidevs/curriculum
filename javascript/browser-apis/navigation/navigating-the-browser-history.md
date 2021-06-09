@@ -17,7 +17,7 @@ revisionQuestion:
   context: standalone
 ---
 
-# Navigating the browser history
+# Navigating the Browser History
 
 
 ---
@@ -28,19 +28,19 @@ The History API allows navigation of the browser history.
 
 To move backward once (like a *Back* button click)
 
-```plain-text
+```javascript
 window.history.back();
 ```
 
 To move forward once (like a *Forward* button click):
 
-```plain-text
+```javascript
 window.history.forward();
 ```
 
 To move backward (negative) or forward (positive) to a particular point in history, an integer can be passed:
 
-```plain-text
+```javascript
 window.history.go(int); /* current page
 at 0, -1 goes back once, 1 goes
 forward once */
@@ -48,7 +48,7 @@ forward once */
 
 The history length can be found by:
 
-```plain-text
+```javascript
 window.history.length;
 ```
 
