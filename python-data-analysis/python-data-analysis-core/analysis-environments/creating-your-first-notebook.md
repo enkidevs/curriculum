@@ -38,7 +38,7 @@ The third cell is a `Code` cell. The `[1]:` to the left of it means that it was 
 
 The final two cells both have a `[2]:` before them. 
 
-The first `[2]` is shown because that was the second `Code` line that was executed. The next `[2]` is shown because it matches the output of the previous cell. We returned the variable `x` and its resulting output is `"I am a String"`.
+The first `[2]:` is shown because that was the second `Code` line that was executed. The next `[2]:` is shown because it matches the output of the previous cell. We returned the variable `x` and its resulting output is `"I am a String"`.
 
 Any `Code` cell that returns something will have a matching cell after it with the same number.
 

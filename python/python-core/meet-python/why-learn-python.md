@@ -57,7 +57,7 @@ Python is an easy-to-read language due to its similarity to English.
 
 Can you guess what this code will print if the user input is `"Maybe"`?
 
-```Python
+```python
 answer = input("Are you excited to learn Python?")
 if answer == "Yes":
   print("That's the spirit! 🎉") 
@@ -76,7 +76,7 @@ else:
 
 What will this code print if the user input is `"Maybe"`?
 
-```Python
+```python
 answer = input("Are you excited to learn Python?")
 if answer == "Yes":
   print("That's the spirit! 🎉") 
