@@ -28,7 +28,7 @@ Given the array:
 let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 ```
 
-Can you create a program that will create a new array containing only the odd numbers from `myArray`?
+Can you create a program that will create a new array containing only the odd numbers from the `numbers` array?
 
 To achieve this, you can use the following concepts:
 - flow control (`for...of`, `if (x > 1)...`)
