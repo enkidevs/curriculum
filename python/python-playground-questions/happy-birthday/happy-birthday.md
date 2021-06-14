@@ -26,7 +26,7 @@ Using the `datetime` and/or `time` modules, create a program that will check if 
 
 To achieve this, you can use the following concepts:
 - importing (`import`, `from...import...`)
-- built-in methods(`now()`,`year()`,`month()`,...)
+- built-in methods(`now()`, `year()`, `month()`,...)
 
 Learning is best when we give it an honest try. Even if we make a mistake, we'll remember it and do better next time.
 
