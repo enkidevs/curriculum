@@ -24,7 +24,7 @@ setupCode:
 ## Content
 
 Given a numbered `array`:
-```javacsript
+```javascript
 let numbers = [23, 81, 14, 5, 33, 631, 47, 78, 99]
 ```
 
