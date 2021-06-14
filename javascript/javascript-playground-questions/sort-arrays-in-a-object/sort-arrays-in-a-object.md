@@ -13,11 +13,11 @@ setupCode:
     // 👋 Welcome to the JavaScript coding playground.
     // Object to sort:
     
-    let obj = { 
+    let obj = {
       "first": [7, 1, 5, 3],
       "second": [4, 8, 2, 6],
       "third": [8, 1, 19, 13]
-      };
+    };
 
 
 ---
