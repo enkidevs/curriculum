@@ -34,8 +34,7 @@ Can you create a function that will confirm which of the two `string`s is a pali
 
 To achieve this, you can use the following concepts:
 - string methods (`.split()`)
-- loops (`for`)
-- control flow (`if x > 1`)
+- control flow (`if x > 1`, `for`)
 - function declaration (`function something(x) { ... }`)
 
 Learning is best when we give it an honest try. Even if we make a mistake, we'll remember it and do better next time.
