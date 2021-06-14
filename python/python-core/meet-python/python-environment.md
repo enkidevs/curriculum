@@ -42,7 +42,7 @@ python3
 
 This gives you a local interactive environment where you can run Python code and output the results.
 
-> The Python interpreter is your **playground**. Feel free to play with it and try things out"
+> 💡 The Python interpreter is your **playground**. Feel free to play with it and try things out.
 
 It is the ideal place for testing out small pieces of code or calculations.
 
