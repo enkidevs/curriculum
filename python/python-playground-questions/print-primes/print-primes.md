@@ -25,11 +25,9 @@ setupCode:
 
 Can you create a program that will print the first 15 prime numbers?
 
-The first 15 primes fall in the range `2`-`50`.
-
 A prime number is a number that is only divisible by 1 and itself.
 
-The first few prime numbers are 2, 3, 5, 7, 11, 13 ...
+The first 15 primes fall in the range `2`-`50`. Some of them are 2, 3, 5, 7, 11, 13, and so on.
 
 2 is only divisible by 1 and itself, making it prime. 4 is not prime because it is divisible by 1, 2, and itself.
 
