@@ -13,7 +13,11 @@ setupCode:
     // 👋 Welcome to the JavaScript coding playground.
     // Array in question:
     
-    let names = ["Stefan", "Mark", "Joane","Steven", "Natasha", "Mark", "Steven", "Mark", "Natasha"];
+    let names = [
+      "Stefan", "Mark", "Joane", 
+      "Steven", "Natasha", "Mark", 
+      "Steven", "Mark", "Natasha"
+    ];
     
 ---
 
