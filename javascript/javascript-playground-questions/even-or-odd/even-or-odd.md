@@ -11,8 +11,9 @@ category: coding
 setupCode:
   startingPoint: |
     // 👋 Welcome to the JavaScript coding playground.
-    // Example output:
+    // Example outputs:
     // Zeus has 31 spheres
+    // Zeus has an odd number of spheres
     
 ---
 
