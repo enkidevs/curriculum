@@ -25,7 +25,7 @@ setupCode:
 Using the `Math.random` module, can you create a function that will operate like a dice roll? Every time you execute it, you should get a number between 1 and 6.
 
 To achieve this, you can use the following concepts:
-- ffunction declaration (`function something(x) { ... }`)
+- function declaration (`function something(x) { ... }`)
 
 Learning is best when we give it an honest try. Even if we make a mistake, we'll remember it and do better next time.
 
