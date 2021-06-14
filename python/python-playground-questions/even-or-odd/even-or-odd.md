@@ -13,6 +13,7 @@ setupCode:
     # 👋 Welcome to the Python coding playground. 
     # Example output:
     # Zeus has 31 spheres
+    # Zeus has an odd number of spheres
       
 ---
 
