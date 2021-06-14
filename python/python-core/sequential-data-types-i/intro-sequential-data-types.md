@@ -44,7 +44,7 @@ print(text[13])
 # '!'
 ```
 
-Indexes are basically *measures of position*. All elements within a sequence start at index 0.
+Indexes are *measures of position*. All elements within a sequence start at index 0.
 
 The index used must be valid:
 
