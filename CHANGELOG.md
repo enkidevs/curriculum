@@ -48,6 +48,23 @@ Types of change:
 
 ### Fixed
 
+## June 7th 2021
+
+### Fixed
+- [JavaScript - Spread 1 - Add code identifiers to answers to remove differnt colors](https://github.com/enkidevs/curriculum/pull/2742)
+- [Python - Creating Classes - Update information on instantiating classes](https://github.com/enkidevs/curriculum/pull/2738)
+- [Regex - Ranges I - Update spelling to US](https://github.com/enkidevs/curriculum/pull/2740)
+
+## June 4th 2021
+
+### Archived
+- [Java - The distinction between checked and unchecked exceptions - Archive duplicate insight](https://github.com/enkidevs/curriculum/pull/2737)
+
+## June 3rd 2021
+
+### Changed
+- [Questions - Remove or update type-in-the-gap questions accordingly](https://github.com/enkidevs/curriculum/pull/2735)
+
 ## May 31st 2021
 
 ### Fixed
