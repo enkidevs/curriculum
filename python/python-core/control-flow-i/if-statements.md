@@ -51,7 +51,7 @@ else:
 
 The code above will print `'Positive number'`.
 
-> Note that the single `=` is used for assigning values to variables, and the double `==` for comparison. There are several different *comparison operators*.
+> 💡 A single `=` is used for assigning values to variables, and the double `==` for comparison. There are several different *comparison operators*.
 
 Comparison operators include:
 
