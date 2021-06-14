@@ -14,16 +14,10 @@ setupCode:
     # List to use:
 
     scientists = [
-      "Niels Bohr",
-      "Galileo Galilei", 
-      "Marie Curie", 
-      "Albert Einstein", 
-      "Rosalind Franklin", 
-      "Katherine Johnson", 
-      "Lise Meitner", 
-      "Nikola Tesla"
-      ]
-      
+      "Niels Bohr", "Galileo Galilei", 
+      "Marie Curie", "Albert Einstein", "Rosalind Franklin", 
+      "Katherine Johnson", "Lise Meitner", "Nikola Tesla"
+    ]  
 
 ---
 
