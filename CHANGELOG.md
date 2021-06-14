@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## June 14th 2021
+
+### Changed
+- [JavaScript - Whole Topic - Change var to let where applicable](https://github.com/enkidevs/curriculum/pull/2741)
+
 ## June 7th 2021
 
 ### Fixed
