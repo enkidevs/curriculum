@@ -45,7 +45,7 @@ x = 10
 # True
 ```
 
-> 🤔 Is it possible chain separate variables like the following:
+> 🤔 Is it possible to chain separate variables like the following:
 *1 < x < 12 and 4 < y < 8*?
 
 ---
