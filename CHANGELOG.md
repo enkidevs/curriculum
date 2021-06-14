@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## June 14th 2021
+
+### Added
+- [Python - Using else in loops - Add missing info](https://github.com/enkidevs/curriculum/pull/2730)
+
 ## May 26th 2021
 
 ### Fixed
