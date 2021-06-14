@@ -12,7 +12,7 @@ revisionQuestion:
   context: standalone
 ---
 
-# JavaScript Basics - Part 2
+# Basics II
 
 
 ---
@@ -20,22 +20,6 @@ revisionQuestion:
 ## Content
 
 Here are a couple more rules.
-
-### Case Sensitivity
-
-Everything in JavaScript is case sensitive.
-
-```js
-let password;
-// Is not the same as
-let pasSword;
-// or
-let PASSWORD;
-```
-
-### Keywords
-
-Like most languages, there are a number of reserved words in JavaScript that you cannot use to name your functions and variables (e.g. `var`, `let`, `new`).
 
 ### Identifier naming rules
 
@@ -49,6 +33,21 @@ let $taxRate = 8.25; // valid
 let _id = 23; // valid
 let 2Company = "Enki"; // not valid
 ```
+
+### Semicolon
+
+Statements in JavaScript end in a `;`. Based on the ECMAScript[1] rules however, adding a `;` isn't actually required (although it is common practice):
+
+```javascript
+let firstName = "Enki";
+//                    ^
+```
+
+Omitting a semicolon in certain situations can cause problems. JavaScript has a feature called Automatic Semicolon Insertion (ASI) which means that, if you omit a semicolon, JavaScript will automatically add it where it thinks it should go. 
+
+This can sometimes lead to unexpected results[2]. Thus, it's usually recommended to insert the `;` yourself, or use a tool such as [Prettier](https://prettier.io) to do it for you.
+
+
 
 ### Comments
 
@@ -79,14 +78,13 @@ I am a block comment
 
 ## Practice
 
-What syntax is used in *JavaScript* for **single line** comments?
+Are semicolons required in JavaScript?
 
 ???
 
-- `//`
-- `/* */`
-- `#`
-
+- No
+- Yes
+- Sometimes
 
 ---
 
@@ -122,4 +120,37 @@ let 777jackpot = "jackpot";
 - 1
 - 1 & 3
 - 2
+
+---
+
+## Footnotes
+
+[1: ECMAScript]
+ECMAScript is the specification defining the rules of JavaScript. The features of JavaScript are implemented based on these specifications. 
+
+[2: ASI]
+JavaScript ASI will sometimes assume a statement ends where it might not be intended.
+
+For example, the code bellow:
+
+```js
+x 
+++ 
+y
+```
+
+is understod as:
+
+```js
+x;
+++y;
+```
+
+and not as:
+
+```js
+x++;
+y
+```
  
+

@@ -1,7 +1,7 @@
 ---
 author: rosielowther
 type: normal
-category: must-know
+category: discussion
 practiceQuestion:
   formats:
     - fill-in-the-gap
@@ -39,13 +39,19 @@ One notable property of `NaN` is that it is never equal to itself:
 NaN === NaN // false
 ```
 
-The main way to check if a value is `NaN` is by using the `isNaN` function:
+
+Imagine we needed to collect the `age` of every person in a classroom so that we may find the oldest person present. It's a simple calculation that could become quite complex if some of the `age` values are text instead of numbers.
+
+We can tackle this issue using the `isNaN` function. If it's not a number, it will return true. Otherwise, false.
 
 ```js
-Number.isNaN(NaN); // true
-Number.isNaN(2); // false
+isNaN(23) // false (it's a number)
+isNaN("Twenty Three") // true (it's not a number)
 ```
 
+> 🤔 Where else could we use the `isNaN` function to make our lives easier?
+>
+> Leave a comment or view some of the other comments for inspiration before moving on.
 
 ---
 

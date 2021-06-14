@@ -48,11 +48,19 @@ Types of change:
 
 ### Fixed
 
+
+## June 10th 2021
+
+### Changed
+
+-  [JavaScript - Improve workouts]()
+
+
 ## June 3rd 2021
 
 ### Changed
 
--  [Python - Improve workouts]()
+-  [Python - Improve workouts](https://github.com/enkidevs/curriculum/pull/2732)
 
 ## May 31st 2021
 

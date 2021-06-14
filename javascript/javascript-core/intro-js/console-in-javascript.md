@@ -1,7 +1,7 @@
 ---
 author: rosielowther
 type: normal
-category: must-know
+category: discussion
 tags:
   - introduction
 links:
@@ -19,7 +19,7 @@ revisionQuestion:
   context: standalone
 ---
 
-# `console.*` in JavaScript
+# Output to the console 
 
 
 ---
@@ -56,7 +56,7 @@ Sending an error message to the console.
 console.error("File not found!")
 ```
 
-Viewing the current stack trace.
+Viewing the current stack trace [1].
 
 ```js
 console.trace()
@@ -70,11 +70,13 @@ In addition to this, `console.*` can be used to pipe information to `stdout` in 
 
 **It is considered best practice to not include any `console.*` methods in production code.**
 
-> 💡 As with all the skills in the app, if you want to access more advanced or specific content at any time, **feel free to use the *Skill Map* tab** to jump to the workouts most relevant for you.
 
-> 💬 Why are you interested in learning Javascript?
+> 🤔 Can you think of any scenario where `console.warn` might be more suitable than `console.log`?
 >
 > Leave a comment or view some of the other comments for inspiration before moving on.
+
+
+> 💡 As with all the skills in the app, if you want to access more advanced or specific content at any time, **feel free to use the [*Skill Map*](https://enki.com/skill/selection) tab** to jump to the workouts most relevant for you.
 
 
 ---
@@ -107,3 +109,19 @@ Log a message in the `console`:
 - `show`
 - `warn`
  
+---
+
+## Footnotes
+
+[1: stack trace]
+You can think of a stack trace as the "timeline" of your code. It can tell you the ordered steps your program has taken, including the data created along the way.
+
+Think about it like this. You lost your keys and you're trying to find them. You create a list of all the places where you've been:
+
+1. kitchen
+2. living room
+3. pub
+4. ...
+
+You start checking all those places to find your keys. With a stack trace, you do the same thing. The only difference is you're not looking for your keys; most of the time you're looking for an error in your code 😅
+
