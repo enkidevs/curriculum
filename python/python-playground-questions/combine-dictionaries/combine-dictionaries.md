@@ -10,7 +10,9 @@ category: coding
 
 setupCode:
   startingPoint: |
-    # 👋 Welcome to the Python coding playground. 
+    # 👋 Welcome to the Python coding playground.
+    dict1 = { }
+    dict2 = { }
       
 ---
 
