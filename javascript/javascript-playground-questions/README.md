@@ -11,6 +11,7 @@ sections:
     - word-length
     - least-frequent-character
     - factorial-calculator
+    - stopping-a-loop
     - adding-and-sorting-arrays
     - print-primes
     - string-length
@@ -33,4 +34,4 @@ sections:
     - pascals-triangle
     - beginning-and-end-pairs
     - harmonic-series
-    - stopping-a-loop
+    
