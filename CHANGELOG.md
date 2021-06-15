@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## June 14th 2021
+
+### Changed
+- [Python - Sequential data types - Improve explanation](https://github.com/enkidevs/curriculum/pull/2733)
+
 ## June 7th 2021
 
 ### Fixed
