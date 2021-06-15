@@ -54,7 +54,7 @@ For some in-depth information on these tools and more, check out the **Learn Mor
 [1: Libraries]
 Think of libraries as external programs you can use to quickly get some functionality you don't want to write by yourself.
 
-For example, if you wanted to draw plots and charts, you'd typically use an existing charting library instead of writting all the code for graphical and spatial calculations yourself.
+For example, if you wanted to draw plots and charts, you'd typically use an existing charting library instead of writing all the code for graphical and spatial calculations yourself.
 
 Most online Python environments come with popular libraries pre-installed.
 
