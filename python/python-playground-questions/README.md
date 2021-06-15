@@ -1,4 +1,4 @@
-name: Python Playground Questions
+name: Python Exercises
 
 description: Questions to improve your coding skills.
 
