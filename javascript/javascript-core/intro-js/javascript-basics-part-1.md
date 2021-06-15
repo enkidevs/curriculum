@@ -21,6 +21,7 @@ revisionQuestion:
 
 Here we'll look at some fundamental syntax rules for JavaScript.
 
+
 ### Variables
 
 Variables are used to store information - each holds a value with a specific name. 

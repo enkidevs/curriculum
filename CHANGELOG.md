@@ -49,11 +49,29 @@ Types of change:
 ### Fixed
 
 
-## June 10th 2021
+
+
+
+## June 15th 2021
+
+### Fixed
+- [Spreadsheets - if - Remove extra have from insight](https://github.com/enkidevs/curriculum/pull/2745) 
 
 ### Changed
 
--  [JavaScript - Improve workouts]()
+- [JavaScript - Improve workouts]()
+
+## June 14th 2021
+
+### Changed
+- [Python - Improve workouts](https://github.com/enkidevs/curriculum/pull/2734)
+- [JavaScript - Converting to and from JSON - Replace Arrow Function With Regular Function Syntax](https://github.com/enkidevs/curriculum/pull/2743)
+
+### Added
+- [Python - Using else in loops - Add missing info](https://github.com/enkidevs/curriculum/pull/2730)
+
+### Changed
+- [Python - Sequential data types - Improve explanation](https://github.com/enkidevs/curriculum/pull/2733)
 
 
 ## June 3rd 2021
