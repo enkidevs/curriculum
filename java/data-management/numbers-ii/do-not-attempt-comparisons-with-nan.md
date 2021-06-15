@@ -82,16 +82,16 @@ What value will `x` have here?
 
 ```java
 double x = Math.tan(1/0.0);
-```
 
-???
+System.out.println(x);
+// ???
+```
 
 - `NaN`
 - `0`
 - `pi`
 - `Math.PI`
 - `3.14`
-
 
 ---
 
