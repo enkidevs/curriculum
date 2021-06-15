@@ -7,3 +7,8 @@ color: A6EAFF
 icon: https://img.enkipro.com/27253e961a004095c792f2b2eb50d6a4.png
 
 language: General
+
+availableAspects:
+  - introduction
+  - workout
+  - deep
