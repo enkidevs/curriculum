@@ -24,7 +24,7 @@ revisionQuestion:
 
 ## Content
 
-  `JSON.stringify()` method is used to convert a JavaScript object or value to a [JSON](https://enki.com/glossary/general/json) string.
+`JSON.stringify()` method is used to convert a JavaScript object or value to a [JSON](https://enki.com/glossary/general/json) string.
 
 Example:
 
