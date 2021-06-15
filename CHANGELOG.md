@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## June 15th 2021
+
+### Fixed
+- [Spreadsheets - if - Remove extra have from insight](https://github.com/enkidevs/curriculum/pull/2745) 
+
 ## June 14th 2021
 
 ### Changed
