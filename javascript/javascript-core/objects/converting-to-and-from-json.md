@@ -47,7 +47,7 @@ const ourDog = {
     name: 'Rocky',
     age: 2,
     'dog years': 14,
-    toJSON() {
+    toJSON: function() {
       return {
         food: 'dog snacks'
       };
