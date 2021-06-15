@@ -50,6 +50,9 @@ Types of change:
 
 ## June 14th 2021
 
+### Changed
+- [JavaScript - Converting to and from JSON - Replace Arrow Function With Regular Function Syntax](https://github.com/enkidevs/curriculum/pull/2743)
+
 ### Added
 - [Python - Using else in loops - Add missing info](https://github.com/enkidevs/curriculum/pull/2730)
 
