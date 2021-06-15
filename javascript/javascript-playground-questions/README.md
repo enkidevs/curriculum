@@ -1,4 +1,4 @@
-name: JavaScript Questions
+name: JavaScript Exercises
 
 description: Questions to improve your coding skills.
 
