@@ -52,6 +52,13 @@ Types of change:
 
 ### Changed
 -  [Python - Improve workouts](https://github.com/enkidevs/curriculum/pull/2734)
+=======
+### Added
+- [Python - Using else in loops - Add missing info](https://github.com/enkidevs/curriculum/pull/2730)
+
+### Changed
+- [Python - Sequential data types - Improve explanation](https://github.com/enkidevs/curriculum/pull/2733)
+
 
 ## June 7th 2021
 
@@ -115,6 +122,7 @@ Types of change:
 
 ### Fixed
 - [Linux - Quick cd tips - Fix weird html note](https://github.com/enkidevs/curriculum/pull/2711)
+- [Python Data Analysis - Different Tools To Use - Fix grammar](https://github.com/enkidevs/curriculum/pull/2713)
 - [Python Data Analysis - What Are Analysis Environents - Fix grammar](https://github.com/enkidevs/curriculum/pull/2714)
 - [Python Data Analysis - Creating Your First Notebook - Add missing identifiers](https://github.com/enkidevs/curriculum/pull/2713)
 - [Python - Calling Functions - Improve readability](https://github.com/enkidevs/curriculum/pull/2705)
