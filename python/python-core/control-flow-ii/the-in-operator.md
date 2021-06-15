@@ -93,5 +93,5 @@ The `in` operator evaluates to ??? if it finds the specified value in the ???.
 ## Footnotes
 
 [1:Membership operator]
-Membership operators are used to test if a sequence is present in an object, such as a string.
+Membership operators are used to test if a variable is present in an object, such as a string.
  

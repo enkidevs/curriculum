@@ -54,13 +54,15 @@ In addition, `npm` uses **tab completion** which can be modified in the `npm-com
 
 What's the equivalent abbreviated command of `npm link`?
 
-???
+```bash
+npm ???
+```
 
-- npm ln
-- npm lk
-- npm l
-- npm k
-- npm n
+- ln
+- lk
+- l
+- k
+- n
 
 
 ---
@@ -69,10 +71,12 @@ What's the equivalent abbreviated command of `npm link`?
 
 What's the equivalent abbreviated command of `npm link`?
 
-???
+```bash
+npm ???
+```
 
-- npm ln
-- npm lk
-- npm l
-- npm k
-- npm n
+- ln
+- lk
+- l
+- k
+- n

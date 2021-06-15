@@ -48,6 +48,45 @@ Types of change:
 
 ### Fixed
 
+## June 14th 2021
+
+### Changed
+- [Python - Improve workouts](https://github.com/enkidevs/curriculum/pull/2734)
+- [JavaScript - Converting to and from JSON - Replace Arrow Function With Regular Function Syntax](https://github.com/enkidevs/curriculum/pull/2743)
+
+### Added
+- [Python - Using else in loops - Add missing info](https://github.com/enkidevs/curriculum/pull/2730)
+
+### Changed
+- [Python - Sequential data types - Improve explanation](https://github.com/enkidevs/curriculum/pull/2733)
+
+## June 7th 2021
+
+### Fixed
+- [JavaScript - Spread 1 - Add code identifiers to answers to remove differnt colors](https://github.com/enkidevs/curriculum/pull/2742)
+- [Python - Creating Classes - Update information on instantiating classes](https://github.com/enkidevs/curriculum/pull/2738)
+- [Regex - Ranges I - Update spelling to US](https://github.com/enkidevs/curriculum/pull/2740)
+
+## June 4th 2021
+
+### Archived
+- [Java - The distinction between checked and unchecked exceptions - Archive duplicate insight](https://github.com/enkidevs/curriculum/pull/2737)
+
+## June 3rd 2021
+
+### Changed
+- [Questions - Remove or update type-in-the-gap questions accordingly](https://github.com/enkidevs/curriculum/pull/2735)
+
+## May 31st 2021
+
+### Fixed
+- [Spreadsheets - Data Validation - Add missing footnote and information](https://github.com/enkidevs/curriculum/pull/2731)
+
+## May 26th 2021
+
+### Fixed
+- [Python - Why Learn Python - Fix code identifier bug](https://github.com/enkidevs/curriculum/pull/2728)
+
 ## May 25th 2021
 
 ### Changed
@@ -57,6 +96,9 @@ Types of change:
 - [Python - Playground Questions - Add questions for playground](https://github.com/enkidevs/curriculum/pull/2723)
 
 ## May 24th 2021
+
+### Fixed
+- [Web - Web Introducion - Remove scrimba links because they require an account](https://github.com/enkidevs/curriculum/pull/2727)
 
 ### Added
 - [All topics - Retrigger availableAspects](https://github.com/enkidevs/curriculum/pull/2726)
@@ -83,6 +125,8 @@ Types of change:
 
 ### Fixed
 - [Linux - Quick cd tips - Fix weird html note](https://github.com/enkidevs/curriculum/pull/2711)
+- [Python Data Analysis - Different Tools To Use - Fix grammar](https://github.com/enkidevs/curriculum/pull/2713)
+- [Python Data Analysis - What Are Analysis Environents - Fix grammar](https://github.com/enkidevs/curriculum/pull/2714)
 - [Python Data Analysis - Creating Your First Notebook - Add missing identifiers](https://github.com/enkidevs/curriculum/pull/2713)
 - [Python - Calling Functions - Improve readability](https://github.com/enkidevs/curriculum/pull/2705)
 
