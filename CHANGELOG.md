@@ -50,6 +50,9 @@ Types of change:
 
 ## June 14th 2021
 
+### Added
+- [Python - Using else in loops - Add missing info](https://github.com/enkidevs/curriculum/pull/2730)
+
 ### Changed
 - [Python - Sequential data types - Improve explanation](https://github.com/enkidevs/curriculum/pull/2733)
 
