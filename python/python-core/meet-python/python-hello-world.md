@@ -4,6 +4,13 @@ tags:
   - introduction
 type: normal
 category: coding
+setupCode:
+  startingPoint: |
+   # 👋 Welcome to the Python coding playground.
+   # Update the statement to print 'Hello World'
+   
+   print("You got this!")
+   
 practiceQuestion:
   formats:
     - fill-in-the-gap
@@ -32,18 +39,14 @@ print('Hello World!')
 
 The output displayed in the shell should be:
 
-```python
-# Hello World!
+```Plain Text
+Hello World!
 ```
 
 In this program, we've used Python's built-in `print` function. Soon you'll learn about many more of these built-in functions and how to create your own.
 
-> As with all the skills in the app, if you want to access more advanced or specific content at any time, **feel free to use the *Skill Map* tab** to jump to the workouts most relevant for you.
 
-> 💬 Why are you interested in Python?
->
-> Leave a comment or view some of the other comments for inspiration before moving on.
-
+> As with all the skills in the app, if you want to access more advanced or specific content at any time, **feel free to use the [*Skill Map*](https://enki.com/skill/selection) tab** to jump to the workouts most relevant for you.
 
 ---
 

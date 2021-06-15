@@ -1,7 +1,7 @@
 ---
 author: emmab
 type: normal
-category: must-know
+category: discussion
 links:
   - >-
     [The `del`
@@ -70,6 +70,9 @@ print(a)
 # NameError: name 'a' is not defined
 ```
 
+> 🤔 Can you think of any reason we might use pop() instead of del?
+>
+> Leave a comment or view some of the other comments for inspiration before moving on.
 
 ---
 
