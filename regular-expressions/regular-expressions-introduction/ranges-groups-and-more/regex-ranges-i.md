@@ -21,7 +21,7 @@ revisionQuestion:
 
 ## Content
 
-The wildcards that we learnt about previously (`.`, `\w`, `\W`, `\s`, `\S`, `\d`, `\D`) are sometimes *too powerful.*
+The wildcards that we learned about previously (`.`, `\w`, `\W`, `\s`, `\S`, `\d`, `\D`) are sometimes *too powerful.*
 
 Say we want to match *specific characters* instead of every character of a certain type, then we can use **ranges**.
 

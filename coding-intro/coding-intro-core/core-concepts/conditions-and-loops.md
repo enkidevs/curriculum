@@ -6,7 +6,6 @@ type: normal
 category: must-know
 
 ---
-
 # Conditions and Loops
 
 ---
@@ -24,13 +23,13 @@ Imagine that you were writing an app to control a lightbulb. The core of your lo
 
 ### Loops
 
-Loops allow a program to do a command any number of times.
+With loops, we can run a command as many times as we want, automatically!
 
-Picture playing your favorite song on repeat. The command `play` is looped over every time the song is finished.
+Love that song? Put the `play` command inside a loop. Want to do the same calculation 50 times? Put the `calculate` command inside a loop. Any command you put in a loop will keep repeating for as long as you need it to.
 
-We only have to write the command `play` once and then use a loop to repeat it until a user presses stop.
+> 💡 If you right-click on a YouTube video and click "Loop" you can see the video start over and over again.
 
-> 💡 Loops let us repeat doing a command any number of times
+Could a loop continue forever? 🙀
 
 ---
 ## Footnotes
