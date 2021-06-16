@@ -48,18 +48,20 @@ Types of change:
 
 ### Fixed
 
+## June 16th 2021
 
+### Fixed
+- [Python - check if value in string - add missing bracket](https://github.com/enkidevs/curriculum/pull/2749)
 
-
+### Changed
+- [Python - Course Order - Set Playground questions as third course instead of first one](https://github.com/enkidevs/curriculum/pull/2747)
+- [Python - Even or odd & both arithmetic operation exercises - Update Readme names and descriptions of insights](https://github.com/enkidevs/curriculum/pull/2748)
+- [Python - Improve workouts](https://github.com/enkidevs/curriculum/pull/2732)
 
 ## June 15th 2021
 
-### Fixed
-- [Spreadsheets - if - Remove extra have from insight](https://github.com/enkidevs/curriculum/pull/2745) 
-
 ### Changed
-
-- [JavaScript - Improve workouts]()
+- [JavaScript - Improve workouts](https://github.com/enkidevs/curriculum/pull/2746)
 
 ## June 14th 2021
 
@@ -73,12 +75,22 @@ Types of change:
 ### Changed
 - [Python - Sequential data types - Improve explanation](https://github.com/enkidevs/curriculum/pull/2733)
 
+## June 7th 2021
+
+### Fixed
+- [JavaScript - Spread 1 - Add code identifiers to answers to remove differnt colors](https://github.com/enkidevs/curriculum/pull/2742)
+- [Python - Creating Classes - Update information on instantiating classes](https://github.com/enkidevs/curriculum/pull/2738)
+- [Regex - Ranges I - Update spelling to US](https://github.com/enkidevs/curriculum/pull/2740)
+
+## June 4th 2021
+
+### Archived
+- [Java - The distinction between checked and unchecked exceptions - Archive duplicate insight](https://github.com/enkidevs/curriculum/pull/2737)
 
 ## June 3rd 2021
 
 ### Changed
-
--  [Python - Improve workouts](https://github.com/enkidevs/curriculum/pull/2732)
+- [Questions - Remove or update type-in-the-gap questions accordingly](https://github.com/enkidevs/curriculum/pull/2735)
 
 ## May 31st 2021
 
@@ -94,6 +106,9 @@ Types of change:
 
 ### Changed
 - [Coding Intro - Core Concepts - Temporarily disable coding insight](https://github.com/enkidevs/curriculum/pull/2729)
+
+### Added
+- [Python - Playground Questions - Add questions for playground](https://github.com/enkidevs/curriculum/pull/2723)
 
 ## May 24th 2021
 
@@ -125,6 +140,8 @@ Types of change:
 
 ### Fixed
 - [Linux - Quick cd tips - Fix weird html note](https://github.com/enkidevs/curriculum/pull/2711)
+- [Python Data Analysis - Different Tools To Use - Fix grammar](https://github.com/enkidevs/curriculum/pull/2713)
+- [Python Data Analysis - What Are Analysis Environents - Fix grammar](https://github.com/enkidevs/curriculum/pull/2714)
 - [Python Data Analysis - Creating Your First Notebook - Add missing identifiers](https://github.com/enkidevs/curriculum/pull/2713)
 - [Python - Calling Functions - Improve readability](https://github.com/enkidevs/curriculum/pull/2705)
 
