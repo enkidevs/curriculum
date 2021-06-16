@@ -1,4 +1,4 @@
-name: Arithmetic Operations
+name: Multiplication & Division
 
 description: Create a program to either multiply or devide, two numbers.
 
