@@ -28,7 +28,7 @@ setupCode:
 
 Given a `string` with youtubers names and a single youtuber:
 ```python
-names = "Mark Rober", "Backyard Scientist", "Vsauce"]
+names = ["Mark Rober", "Backyard Scientist", "Vsauce"]
 youtuber = "Vsauce"
 ```
 
