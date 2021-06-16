@@ -50,6 +50,9 @@ Types of change:
 
 ## June 16th 2021
 
+### Fixed
+- [Python - check if value in string - add missing bracket](https://github.com/enkidevs/curriculum/pull/2749)
+
 ### Changed
 - [Python - Course Order - Set Playground questions as third course instead of first one](https://github.com/enkidevs/curriculum/pull/2747)
 - [Python - Even or odd & both arithmetic operation exercises - Update Readme names and descriptions of insights](https://github.com/enkidevs/curriculum/pull/2748)
