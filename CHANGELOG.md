@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## June 16th 2021
+
+### Changed
+- [Python - Course Order - Set Playground questions as third course instead of first one](https://github.com/enkidevs/curriculum/pull/2747)
+
 ## June 14th 2021
 
 ### Changed

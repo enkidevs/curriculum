@@ -55,3 +55,6 @@ standards:
       0: Recognize functional programming features not native to python
       1: Use a library to provide support for immutable data structures
       2: Use a library to provide support for Functors, such as Applicative Functors and Monads
+
+next:
+  - python:python-playground-questions
