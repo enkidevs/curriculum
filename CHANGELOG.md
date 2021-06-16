@@ -52,6 +52,7 @@ Types of change:
 
 ### Changed
 - [Python - Course Order - Set Playground questions as third course instead of first one](https://github.com/enkidevs/curriculum/pull/2747)
+- [Python - Even or Odd Core Exercise - Update Readme name with proper formatting](https://github.com/enkidevs/curriculum/pull/2748)
 
 ## June 14th 2021
 
