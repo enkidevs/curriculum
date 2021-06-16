@@ -1,6 +1,6 @@
-name: Arithmetic Operations
+name: Multiplication & Division
 
-description: Create a program to either add, subtract, multiply or devide, two numbers.
+description: Create a program to either multiply or divide two numbers.
 
 aspects:
   - workout
