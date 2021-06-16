@@ -92,6 +92,9 @@ Types of change:
 ### Changed
 - [Coding Intro - Core Concepts - Temporarily disable coding insight](https://github.com/enkidevs/curriculum/pull/2729)
 
+### Added
+- [Python - Playground Questions - Add questions for playground](https://github.com/enkidevs/curriculum/pull/2723)
+
 ## May 24th 2021
 
 ### Fixed
