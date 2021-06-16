@@ -11,24 +11,24 @@ category: coding
 setupCode:
   startingPoint: |
     # 👋 Welcome to the Python coding playground.
-    # For this problem use one of the arithmetic operators
-    # +, -, *, or /
+    # For this problem use one of these arithmetic operators
+    # * or /
 
 ---
 
-# Program to calculate +, - , * or /
+# Multiplication & Division
 
 ---
 
 ## Content
 
-How would you write a program that will either add, subtract, multiply or divide two numbers? The output should contain a message along with the result.
+How would you write a program that will either multiply or divide two numbers? The output should contain a message along with the result.
 
 It's up to you to choose which operation to use and what the message will be.
 
 To achieve this, you should use the following concepts:
 - variable creation (`age = 29`)
-- arithmetic operators (`+, -, *, /`)
+- arithmetic operators (`* or /`)
 
 Learning is best when we give it an honest try. Even if we make a mistake, we'll remember it and do better next time.
 
