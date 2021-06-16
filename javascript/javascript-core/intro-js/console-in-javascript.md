@@ -56,7 +56,7 @@ Sending an error message to the console.
 console.error("File not found!")
 ```
 
-Viewing the current stack trace [1].
+Viewing the current stack trace[1].
 
 ```js
 console.trace()
