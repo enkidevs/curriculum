@@ -27,7 +27,7 @@ revisionQuestion:
 
 ## Content
 
-In JavaScript, there are two ways to check if two values are equal.
+In JavaScript, there are two ways to check if values equal each other.
 
 ### Weak Typing `==`
 
@@ -149,4 +149,3 @@ console.log("" == " ");
 [1: Hints]
 
 Weak equality operators can cause difficult-to-locate bugs due to unexpected type conversions.
-
