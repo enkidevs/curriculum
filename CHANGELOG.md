@@ -48,10 +48,19 @@ Types of change:
 
 ### Fixed
 
-## June 15th 2021
+## June 18th 2021
 
 ### Added
-- [Javascript - Playground questions - Add questions](https://github.com/enkidevs/curriculum/pull/2709)
+- [Javascript - Playground exercises - Add questions](https://github.com/enkidevs/curriculum/pull/2709)
+
+## June 16th 2021
+
+### Fixed
+- [Python - check if value in string - add missing bracket](https://github.com/enkidevs/curriculum/pull/2749)
+
+### Changed
+- [Python - Course Order - Set Playground questions as third course instead of first one](https://github.com/enkidevs/curriculum/pull/2747)
+- [Python - Even or odd & both arithmetic operation exercises - Update Readme names and descriptions of insights](https://github.com/enkidevs/curriculum/pull/2748)
 
 ## June 14th 2021
 
@@ -96,6 +105,9 @@ Types of change:
 
 ### Changed
 - [Coding Intro - Core Concepts - Temporarily disable coding insight](https://github.com/enkidevs/curriculum/pull/2729)
+
+### Added
+- [Python - Playground Questions - Add questions for playground](https://github.com/enkidevs/curriculum/pull/2723)
 
 ## May 24th 2021
 
