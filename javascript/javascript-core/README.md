@@ -9,10 +9,14 @@ sections:
     - intro-js
     - types
     - flow-control
+    - weekend-and-weekday-switch-exercise
     - functions-i
+    - is-it-a-palindrome-exercise
     - js-history
     - javascript-arrays
+    - largest-array-element-exercise
     - objects
+    - update-object-values-exercise
   '1':
     - types-ii
     - javascript-strings
