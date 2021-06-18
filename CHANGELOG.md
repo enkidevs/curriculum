@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## June 18th 2021
+
+### Added
+- [Javascript - Playground exercises - Add questions](https://github.com/enkidevs/curriculum/pull/2709)
+
 ## June 16th 2021
 
 ### Fixed
