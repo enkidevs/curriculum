@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## June 19th 2021
+
+### Changed
+- [JavaScript - JS Exercises - Move course to the bottom](https://github.com/enkidevs/curriculum/pull/2752)
+
 ## June 18th 2021
 
 ### Added
