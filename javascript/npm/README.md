@@ -56,5 +56,5 @@ standards:
 
 
 next:
-  - javascript:react
+  - javascript:javascript-playground-questions
  
