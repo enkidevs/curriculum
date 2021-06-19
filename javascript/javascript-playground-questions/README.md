@@ -36,4 +36,4 @@ sections:
     - js-harmonic-series
     
 next:
-  - javascript:javascript:react
+  - javascript:react
