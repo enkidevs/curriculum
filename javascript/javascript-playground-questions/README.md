@@ -35,5 +35,3 @@ sections:
     - js-beginning-and-end-pairs
     - js-harmonic-series
     
-next:
-  - javascript:react
