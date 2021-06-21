@@ -56,6 +56,7 @@ Types of change:
 ### Changed
 - [JavaScript - JS Exercises - Move course to the bottom](https://github.com/enkidevs/curriculum/pull/2752)
 - [Python Data Analysis - End Goals - Move most questions to footnotes](https://github.com/enkidevs/curriculum/pull/2719)
+- [JavaScript - Whole Topic - Change var to let where applicable](https://github.com/enkidevs/curriculum/pull/2741)
 
 ## June 18th 2021
 

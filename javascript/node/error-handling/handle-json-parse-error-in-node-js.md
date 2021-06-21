@@ -35,7 +35,7 @@ For example:
 
 ```js
 webSocket.on('msg', function (msg) {
-  var msgObj;
+  let msgObj;
   try {
     msgObj = JSON.parse(msg);
   } catch (e) {

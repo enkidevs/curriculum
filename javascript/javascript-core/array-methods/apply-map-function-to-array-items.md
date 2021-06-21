@@ -52,7 +52,7 @@ This is not limited to simple transformations.  Any features of functions can be
 Create a new array by returning the square of each element:
 
 ```javascript
-var arr = [1,2,3,4,'enki'].???(x => x*x);
+let arr = [1,2,3,4,'enki'].???(x => x*x);
 // the result will be [1,4,9,16,???]
 ```
 

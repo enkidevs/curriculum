@@ -39,7 +39,7 @@ The `Map` object is a simple key/value map, in which value (including objects) c
 An iterable object can be passed into the `Map` on creation, after which each key/value pair is added to the new map.
 
 ```javascript
-var map = new Map();
+let map = new Map();
 
 map.set(0, "zero");
 map.set(1, "one");
@@ -48,7 +48,7 @@ map.set(1, "one");
 map.size; // 2
 
 // Get a value of 
-var v = map.get(1); // v = "one"
+let v = map.get(1); // v = "one"
 ```
 
 Elements are stored in the same order in which they are put into the map.
@@ -63,11 +63,11 @@ Therefore, in the above example, calling the `map.values()` method will return `
 What's the output of the following snippet?
 
 ```javascript
-var map = new Map();
+let map = new Map();
 map.set(0,"1");
 map.set(1,"0");
 
-var v = map.get(0);
+let v = map.get(0);
 console.log(v);
 // ???
 ```

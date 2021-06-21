@@ -29,22 +29,23 @@ revisionQuestion:
 ## Content
 
 Rather than using standard `if/else` notation such as:
-
-    var count = 101;
-    var stop;
-    if (count > 100) {
-      stop = true;
-    } else {
-      stop = false;
-    }
-    // stop = true
+```javascript
+let count = 101;
+let stop;
+if (count > 100) {
+  stop = true;
+} else {
+  stop = false;
+}
+// stop = true
+```
 
 It is possible to use a `Condition (ternary)` operator:
-
-    var count = 99;
-    var stop = (count > 100) ? true : false;
-    // stop = false
-
+```javascript
+let count = 99;
+let stop = (count > 100) ? true : false;
+// stop = false
+```
 
 ---
 
@@ -62,8 +63,8 @@ How would you express this using
 a conditional operator?
 
 ```javascript
-var animal = 'lion';
-var run = (animal === 'lion')? true:???;
+let animal = 'lion';
+let run = (animal === 'lion')? true:???;
 ```
 
 - false
@@ -88,8 +89,8 @@ How would you express this using
 a conditional operator?
 
 ```javascript
-var animal = 'lion';
-var run = (animal === 'lion')? true:???;
+let animal = 'lion';
+let run = (animal === 'lion')? true:???;
 ```
 
 - 'false'

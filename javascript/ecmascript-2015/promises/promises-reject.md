@@ -44,7 +44,7 @@ Uh oh - note how the `then` method was not called and how we now have an uncaugh
 But don't worry as we can use the `catch` handler to define logic to be called when errors occur:
 
 ```javascript
-var p = new Promise((resolve, reject) => {
+let p = new Promise((resolve, reject) => {
   setTimeout(() => {
     reject("enki");
   }, 2000);

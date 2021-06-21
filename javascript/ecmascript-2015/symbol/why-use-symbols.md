@@ -25,8 +25,8 @@ revisionQuestion:
 As symbols are always unique they are great for library authors to defining values without fear of overwriting anything existing e.g.
 
 ```javascript
-var companyKey = Symbol();
-var obj = {}
+let companyKey = Symbol();
+let obj = {}
 window[companyKey] = "Enki";
 ```
 

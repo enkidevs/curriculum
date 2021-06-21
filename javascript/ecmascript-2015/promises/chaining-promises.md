@@ -28,7 +28,7 @@ Promises advantages really become apparent when you start working with more comp
 We can chain promises together using the `then` function:
 
 ```javascript
-var p = new Promise((resolve, reject) => {
+let p = new Promise((resolve, reject) => {
   setTimeout(() => {
     resolve("enki");
   }, 2000);

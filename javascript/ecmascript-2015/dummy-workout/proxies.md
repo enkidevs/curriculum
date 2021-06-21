@@ -27,21 +27,21 @@ revisionQuestion:
 Proxies enable custom behaviors for fundamental operations (e.g., property lookup, assignment, enumeration, function invocation...).
 
 For instance:
+```javascript
+// make NaN the default value for getters
+let handler = {
+  get: (target, name) =>
+    name in target ? target[name] : NaN
+};
 
-    // make NaN the default value for getters
-    var handler = {
-      get: (target, name) =>
-        name in target ? target[name] : NaN
-    };
+let obj = new Proxy({}, handler);
+obj.a = 1;
+obj.b = 2;
 
-    var obj = new Proxy({}, handler);
-    obj.a = 1;
-    obj.b = 2;
-
-    console.log(obj.a) // 1
-    console.log(obj.b) // 2
-    console.log(obj.c) // NaN
-
+console.log(obj.a) // 1
+console.log(obj.b) // 2
+console.log(obj.c) // NaN
+```
 `obj.c` evaluates to `NaN` (instead of the usual `undefined`) because of the special behavior defined in the Proxy's handler.
 
 
@@ -52,12 +52,12 @@ For instance:
 What is the output of the following logs?
 
 ```javascript
-var handler = {
+let handler = {
   get: (target, name) =>
     name in target ? target[name] : -4
 };
 
-var obj = new Proxy({}, handler);
+let obj = new Proxy({}, handler);
 obj.a = 5;
 
 console.log(obj.a) // ???

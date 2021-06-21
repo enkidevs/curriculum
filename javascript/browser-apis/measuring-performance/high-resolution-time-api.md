@@ -38,9 +38,9 @@ The API can represent time with up to microsecond precision and is much more acc
 You can use the High Resolution Time API to measure the **performance** of your code:
 
 ```javascript
-var start = performance.now();
+let start = performance.now();
 // do something
-var end = performance.now();
+let end = performance.now();
 console.log("do something took " +
            (end - start) + " milliseconds");
 ```

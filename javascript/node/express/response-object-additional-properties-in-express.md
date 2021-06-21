@@ -101,7 +101,7 @@ res.???('???', ???)
 Send the given JSON file back to the client user Express's `response` object:
 
 ```javascript
-var myJson; // equal to json we want to send
+let myJson; // equal to json we want to send
 //...
 res.???(???);
 ```
