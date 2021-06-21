@@ -51,7 +51,7 @@ Types of change:
 ## June 21st 2021
 
 ### Added
--[SQL - Introduction to Joins - Add workout](https://github.com/enkidevs/curriculum/pull/2629)
+- [SQL - Introduction to Joins - Add workout](https://github.com/enkidevs/curriculum/pull/2629)
 
 ## June 18th 2021
 
