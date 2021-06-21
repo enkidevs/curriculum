@@ -68,7 +68,7 @@ let PASSWORD;
 Like most languages, there are a number of reserved words in JavaScript that you cannot use to name your functions and variables (e.g. `var`, `let`, `new`).
 
 
-> 💡 If you're unsure what a variable is, check out the [variables lesson](https://app.enki.com/insights/programs-and-data) in our [Coding Intro](https://app.enki.com/skill/coding-intro).
+> 💡 If you're unsure what a variable is, check out the [variables lesson](https://app.enki.com/insights/programs-and-data) in our [Coding Intro](https://app.enki.com/skill/coding-intro) topic.
 
 ---
 
