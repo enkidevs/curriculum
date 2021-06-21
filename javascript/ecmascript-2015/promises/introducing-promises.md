@@ -42,7 +42,7 @@ At the same time, with Promises we can write code that behaves like we already h
 Creating a Promise returns immediately:
 
 ```js
-var promise = new Promise(function(
+let promise = new Promise(function(
   resolve,
   reject
 ) {

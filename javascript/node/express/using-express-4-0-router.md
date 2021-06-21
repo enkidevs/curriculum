@@ -39,7 +39,7 @@ app.get('/simple', function(req, res) {
 Creating multiple routes:
 
 ```javascript
-var router = express.Router();
+let router = express.Router();
 router.get('/', function(req, res) {
     res.send('first page');
 });

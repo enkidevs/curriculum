@@ -37,7 +37,7 @@ let longText = "abc" + "def" + "ghi";
 You can also use the backslash character to continue writing text on multiple lines:
 
 ```javascript
-var longerText = "abc\
+let longerText = "abc\
 def\
 ghi";
 ```

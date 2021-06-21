@@ -20,7 +20,7 @@ The most basic environment you can write Python in is your OS's terminal[2].
 
 To try it out, open your terminal, type in the word `python` and press Enter.
 
-A python environment that understands Python called is usually called *the [interpreter](https://www.enki.com/glossary/general/interpreter)*.
+A python environment that understands Python code is usually called *the [interpreter](https://www.enki.com/glossary/general/interpreter)*.
 
 > 💡 Different versions of Python will have different keywords to launch the interpreter. The most common ones are `py` and `python`.
 

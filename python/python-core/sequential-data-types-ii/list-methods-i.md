@@ -73,6 +73,7 @@ print(number_list)
 # [6, 5, 3, 2]
 ```
 
+> 🤔 Can we use extend and append interchangeably?
 
 ---
 

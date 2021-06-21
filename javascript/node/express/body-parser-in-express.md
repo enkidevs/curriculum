@@ -38,7 +38,7 @@ npm install body-parser
 Then imported:
 
 ```javascript
-var bodyParser = require('body-parser');
+let bodyParser = require('body-parser');
 ```
 
 `body-parser` will parse the data depending on the format that is specified:
@@ -55,7 +55,7 @@ app.use(bodyParser.urlencoded({
 The most common way to use `body-parser` with `express` is to add it specifically to the routes:
 
 ```javascript
-var jsonParser = bodyParser.json()
+let jsonParser = bodyParser.json()
 // POST /myRoute gets JSON bodies
 app.post('/myRoute', jsonParser,
 function (req, res) {

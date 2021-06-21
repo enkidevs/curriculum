@@ -42,7 +42,7 @@ The major benefit of using a `WeakMap` is that it helps us prevent memory leaks 
 Create a `WeakMap` out of the following array such that objects point to their position in the array:
 
 ```js
-var arr = [ { enki: 1 }, { enki: 2 } ];
+let arr = [ { enki: 1 }, { enki: 2 } ];
 new ???(
   ???.???((???, 1) => [???, i])
 )

@@ -29,39 +29,41 @@ revisionQuestion:
 ## Content
 
 ES6 **arrow** functions (`=>`) represent function **expressions** in shorter syntax. Arrow functions turn 
-
-    function(arguments){expression}
-
-into 
-
-    arguments => expression
+```javascript
+function(arguments){expression}
+```
+into:
+```javascript
+arguments => expression
+```
 
 For example:
+```javascript
+// with ES5
+let evens = odds.map(
+    function(n){return n + 1}
+  );
 
-    // with ES5
-    var evens = odds.map(
-        function(n){return n + 1}
-      );
-
-    // with ES6
-    var evens = odds.map(n => n + 1);
-
+// with ES6
+let evens = odds.map(n => n + 1);
+```
 
 ---
 
 ## Practice
 
 Give the equivalent using **ES6 Arrow Functions**:
+```javascript
+// with ES5
+let evens = odds.map(
+    function(n){return n + 1}
+  );
 
-    // with ES5
-    var evens = odds.map(
-        function(n){return n + 1}
-      );
+// with ES6
+??? evens = odds.map(n ??? n + 1);
+```
 
-    // with ES6
-    ??? evens = odds.map(n ??? n + 1);
-
-- var
+- let
 - =>
 - return
 - ()
@@ -75,16 +77,17 @@ Give the equivalent using **ES6 Arrow Functions**:
 ## Revision
 
 Give the equivalent using **ES6 Arrow Functions**:
+```javascript
+// with ES5
+let evens = odds.map(
+    function(n){return n + 1}
+  );
 
-    // with ES5
-    var evens = odds.map(
-        function(n){return n + 1}
-      );
+// with ES6
+??? evens = odds.map(n ??? n + 1);
+```
 
-    // with ES6
-    ??? evens = odds.map(n ??? n + 1);
-
-- var
+- let
 - =>
 - return
 - ()

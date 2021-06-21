@@ -4,6 +4,9 @@ tags:
   - introduction
 type: normal
 category: must-know
+links:
+  - >-
+    [Math Refresher](https://www.mathsisfun.com/operation-order-bodmas.html){video}
 practiceQuestion:
   formats:
     - fill-in-the-gap
@@ -53,15 +56,13 @@ What’s the output of the following code:
 
 ```bash
 2 + 7 * 2 // 8
-```
-
 ???
+```
 
 - `3`
 - `3.0`
 - `2.0`
 - `1`
-
 
 ---
 
@@ -71,9 +72,9 @@ What’s the output of the following code:
 
 ```bash
 4 + 3 * 9 // 6
+???
 ```
 
-???
 
 - `8`
 - `8.0`

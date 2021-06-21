@@ -34,7 +34,7 @@ npm install cookie-session
 Then imported:
 
 ```javascript
-var cookieSess = require('cookie-session');
+let cookieSess = require('cookie-session');
 ```
 
 Initialize cookie sessions:
@@ -71,7 +71,7 @@ Using `req.sessionOptions` one can get the current session options and change  t
 Import the needed module for implementing sessions in **Express** with the help of cookies:
 
 ```js
-var cookieSess = ???('???');
+let cookieSess = ???('???');
 ```
 
 - require
@@ -89,7 +89,7 @@ var cookieSess = ???('???');
 Import the needed module for implementing sessions in **Express** with the help of cookies:
 
 ```js
-var cookieSess = ???('???');
+let cookieSess = ???('???');
 ```
 
 - require

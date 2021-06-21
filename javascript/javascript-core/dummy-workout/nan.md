@@ -31,15 +31,15 @@ revisionQuestion:
 `NaN` stands for 'Not a Number' and is used when a number value is expected but a value which is not a number is produced.
 
 For example, when attempting to parse a string that does not contain a number value:
-
-    Number("Enki"); //NaN
-
+```javascript
+Number("Enki"); //NaN
+```
 `"Enki"` cannot be converted into a valid number so `NaN` is returned.
 
 Additionally:
-
-    var x = 0/0; //NaN
-
+```javascript
+let x = 0/0; //NaN
+```
 `x` will be `NaN`, which is the result of `0/0`.
 
 

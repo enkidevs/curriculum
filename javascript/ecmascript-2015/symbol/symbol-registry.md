@@ -25,8 +25,8 @@ revisionQuestion:
 As we saw earlier even if you create two symbols with the same description/key JavaScript considers them unique.
 
 ```javascript
-var sym1 = Symbol("Enki");
-var sym2 = Symbol("Enki");
+let sym1 = Symbol("Enki");
+let sym2 = Symbol("Enki");
 sym1 === sym2; //false
 ```
 

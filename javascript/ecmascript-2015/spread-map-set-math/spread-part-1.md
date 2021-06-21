@@ -27,7 +27,7 @@ The spread operator automatically assigns (or spreads out) the contents of an ex
 For example let’s say we have an array with 3 values we want to pass to a function accepting three arguments:
 
 ```javascript
-var test = [1,2,3];
+let test = [1,2,3];
 function func(x, y, z){
 ...
 }
@@ -86,14 +86,14 @@ console.log(
 // 82
 ```
 
-- ...
-- arr1
-- ...arr2
-- arr2
-- ...arr1
-- ,
-- [arr1]
-- [arr2]
+- `...`
+- `arr1`
+- `...arr2`
+- `arr2`
+- `...arr1`
+- `,`
+- `[arr1]`
+- `[arr2]`
 
 
 ---
@@ -115,14 +115,14 @@ console.log(??? ???)
 
 ```
 
-- addNumbers(
-- ...
-- arr1)
-- addNumbers
-- (...arr2)
-- arr2)
-- addNumbers(...)
-- addNumbers(arr1)
-- arr2
-- arr1
+- `addNumbers(`
+- `...`
+- `arr1)`
+- `addNumbers`
+- `(...arr2)`
+- `arr2)`
+- `addNumbers(...)`
+- `addNumbers(arr1)`
+- `arr2`
+- `arr1`
  

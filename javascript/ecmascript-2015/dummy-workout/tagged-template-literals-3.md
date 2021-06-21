@@ -25,12 +25,12 @@ links:
 
 With access to literals and replacement values you can use Tagged Template Literals to perform additional processing logic on a string and even replace the string entirely - for example:
 
-```
+```javascript
 function myFunc(strings, sub){
  return "Goodbye " + sub;
 }
 
-var company="Enki";
+let company="Enki";
 myFunc `Hello ${company} hows it going?`
 // "Goodbye Enki"
 ```

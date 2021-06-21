@@ -6,4 +6,7 @@ color: A6BAFF
 
 icon: https://img.enkipro.com/044a97a0615eb545853e141afb0a78aa.png
 
-language: General
+language: python
+
+availableAspects:
+  - introduction

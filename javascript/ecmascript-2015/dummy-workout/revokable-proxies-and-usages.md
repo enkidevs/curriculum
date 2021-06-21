@@ -32,20 +32,20 @@ This allows you to later deny access to the proxy by calling the revoke method.
 
 First we use **Proxy.revocable** to obtain a revokable proxy:
 
-```
-var rev = Proxy.revocable({}, {
+```javascript
+let rev = Proxy.revocable({}, {
   get: function(target, name) {
   console.log('accessed ' + target);
   }
 });
 
-var p = rev.proxy;
+let p = rev.proxy;
 p.a; //a accessed
 ```
 
 Then we can deny access to the proxy by calling the revoke method:
 
-```
+```javascript
 rev.revoke();
 p.a;
 // Uncaught TypeError: Cannot perform 'get'

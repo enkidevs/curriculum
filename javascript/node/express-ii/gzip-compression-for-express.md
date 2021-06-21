@@ -38,7 +38,7 @@ app.use(express.compress());
 Apply *gzip compression* for **Express 4.0**:
 
 ```javascript
-var compress = require('compression');
+let compress = require('compression');
 app.use(compress());
 ```
 

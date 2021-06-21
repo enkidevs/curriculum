@@ -48,10 +48,115 @@ Types of change:
 
 ### Fixed
 
+## June 21st 2021
+
+### Fixed
+- [Spreadsheets - if - Fix grammar](https://github.com/enkidevs/curriculum/pull/2745) 
+
+### Changed
+- [JavaScript - JS Exercises - Move course to the bottom](https://github.com/enkidevs/curriculum/pull/2752)
+- [Python Data Analysis - End Goals - Move most questions to footnotes](https://github.com/enkidevs/curriculum/pull/2719)
+- [JavaScript - Whole Topic - Change var to let where applicable](https://github.com/enkidevs/curriculum/pull/2741)
+
+## June 18th 2021
+
+### Added
+- [Javascript - Playground exercises - Add questions](https://github.com/enkidevs/curriculum/pull/2709)
+
+## June 16th 2021
+
+### Fixed
+- [Python - check if value in string - add missing bracket](https://github.com/enkidevs/curriculum/pull/2749)
+
+### Changed
+- [Python - Course Order - Set Playground questions as third course instead of first one](https://github.com/enkidevs/curriculum/pull/2747)
+- [Python - Even or odd & both arithmetic operation exercises - Update Readme names and descriptions of insights](https://github.com/enkidevs/curriculum/pull/2748)
+- [Python - Improve workouts](https://github.com/enkidevs/curriculum/pull/2732)
+
+## June 15th 2021
+
+### Changed
+- [JavaScript - Improve workouts](https://github.com/enkidevs/curriculum/pull/2746)
+
+## June 14th 2021
+
+### Changed
+- [Python - Improve workouts](https://github.com/enkidevs/curriculum/pull/2734)
+- [JavaScript - Converting to and from JSON - Replace Arrow Function With Regular Function Syntax](https://github.com/enkidevs/curriculum/pull/2743)
+
+### Added
+- [Python - Using else in loops - Add missing info](https://github.com/enkidevs/curriculum/pull/2730)
+
+### Changed
+- [Python - Sequential data types - Improve explanation](https://github.com/enkidevs/curriculum/pull/2733)
+
+## June 7th 2021
+
+### Fixed
+- [JavaScript - Spread 1 - Add code identifiers to answers to remove differnt colors](https://github.com/enkidevs/curriculum/pull/2742)
+- [Python - Creating Classes - Update information on instantiating classes](https://github.com/enkidevs/curriculum/pull/2738)
+- [Regex - Ranges I - Update spelling to US](https://github.com/enkidevs/curriculum/pull/2740)
+
+## June 4th 2021
+
+### Archived
+- [Java - The distinction between checked and unchecked exceptions - Archive duplicate insight](https://github.com/enkidevs/curriculum/pull/2737)
+
+## June 3rd 2021
+
+### Changed
+- [Questions - Remove or update type-in-the-gap questions accordingly](https://github.com/enkidevs/curriculum/pull/2735)
+
+## May 31st 2021
+
+### Fixed
+- [Spreadsheets - Data Validation - Add missing footnote and information](https://github.com/enkidevs/curriculum/pull/2731)
+
+## May 26th 2021
+
+### Fixed
+- [Python - Why Learn Python - Fix code identifier bug](https://github.com/enkidevs/curriculum/pull/2728)
+
+## May 25th 2021
+
+### Changed
+- [Coding Intro - Core Concepts - Temporarily disable coding insight](https://github.com/enkidevs/curriculum/pull/2729)
+
+### Added
+- [Python - Playground Questions - Add questions for playground](https://github.com/enkidevs/curriculum/pull/2723)
+
+## May 24th 2021
+
+### Fixed
+- [Web - Web Introducion - Remove scrimba links because they require an account](https://github.com/enkidevs/curriculum/pull/2727)
+
+### Added
+- [All topics - Retrigger availableAspects](https://github.com/enkidevs/curriculum/pull/2726)
+
+## May 20th 2021
+
+### Fixed
+- [SQL - Order By Advanced - Fix footnote table markdown](https://github.com/enkidevs/curriculum/pull/2717)
+- [General - Fix some content issues](https://github.com/enkidevs/curriculum/pull/2721)
+- [Curriculum - Accross All Topics - Remove links with value null](https://github.com/enkidevs/curriculum/pull/2720)
+
+## May 19th 2021
+
+### Fixed
+- [Coding Intro - Do it yourself - Fixed footnote](https://github.com/enkidevs/curriculum/pull/2716)
+
+## May 18th 2021
+
+### Changed
+- [Coding Intro - Improve first workouts](https://github.com/enkidevs/curriculum/pull/2716)
+
 ## May 17th 2021
 
 ### Fixed
 - [Linux - Quick cd tips - Fix weird html note](https://github.com/enkidevs/curriculum/pull/2711)
+- [Python Data Analysis - Different Tools To Use - Fix grammar](https://github.com/enkidevs/curriculum/pull/2713)
+- [Python Data Analysis - What Are Analysis Environents - Fix grammar](https://github.com/enkidevs/curriculum/pull/2714)
+- [Python Data Analysis - Creating Your First Notebook - Add missing identifiers](https://github.com/enkidevs/curriculum/pull/2713)
 - [Python - Calling Functions - Improve readability](https://github.com/enkidevs/curriculum/pull/2705)
 
 ### Added
@@ -66,10 +171,16 @@ Types of change:
 ### Changed
 - [Javascript - Flow Control Discussion Insight - Convert to coding insight](https://github.com/enkidevs/curriculum/pull/2694)
 
+### Added
+- [Added availableAspects to all topic READMEs](https://github.com/enkidevs/curriculum/pull/2700)
+
 ## May 11th 2021
 
 ### Fixed
 - [Go - Operators - Fix MD table](https://github.com/enkidevs/curriculum/pull/2699)
+
+
+- [Python - Control Flow/If...else statements - Removed brackets from an if excercise](https://github.com/enkidevs/curriculum/pull/2703)
 
 ## May 7th 2021
 

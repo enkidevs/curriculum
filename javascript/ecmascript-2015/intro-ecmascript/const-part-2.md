@@ -30,7 +30,7 @@ revisionQuestion:
 Assigning a `const` to another variable and then changing the source variable will not change the value of the `const`:
 
 ```javascript
-var x = 1;
+let x = 1;
 const y = x;
 x = 5;
 console.log(y); 

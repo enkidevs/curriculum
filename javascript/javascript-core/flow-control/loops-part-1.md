@@ -1,7 +1,7 @@
 ---
 author: alexjmackey
 type: normal
-category: must-know
+category: discussion
 links:
   - '[For Loops](https://youtu.be/24Wpg6njlYI){video}'
   - '[While / Do While loops](https://youtu.be/v9zgD8wjtbw){video}'
@@ -16,7 +16,7 @@ revisionQuestion:
   context: standalone
 ---
 
-# Loops - Part 1
+# Loops I
 
 
 ---
@@ -36,7 +36,9 @@ for (let i = 0; i < 10; i++) {
 // 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
 ```
 
-We can also count backwards from 9 to 0:
+In the above code, `i = 0` shows that we start at zero, `i++` means that we will continue increasing the value of `i` by one each time the loop executes and `i < 10` means that we will stop doing it when the value exceeds 9.
+
+`i--` means the value will decrease each time the loop executes. You can see an example of how it might be used below:
 
 ```javascript
 // print values from 9 to 0
@@ -94,6 +96,9 @@ do {
 } while (i < 10);
 ```
 
+> 🤔 In all of the examples above the loop stops once a condition is met, but what if we wanted the loop to go on forever? Is there a way to do that using any of the loops discussed above? 
+>
+> Leave a comment or view some of the other comments for inspiration before moving on.
 
 ---
 
