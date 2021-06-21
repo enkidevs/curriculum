@@ -33,7 +33,7 @@ Example in both cases:
 
 ![if-example](https://img.enkipro.com/5561b64a6cb62ff33b21599c8aacb2d6.png)
 
-What the function outputs when its `TRUE` or `FALSE` is up to you. We could've put "banana", "abgb315123ogua", or anything else.
+What the function outputs when it's `TRUE` or `FALSE` is up to you. We could've put "banana", "abgb315123ogua", or anything else.
 
 `IF` logical functions are good for testing if a condition is `TRUE` or `FALSE` and therefore determining if the condition we are looking for is met.
 
