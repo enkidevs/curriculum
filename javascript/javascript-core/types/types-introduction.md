@@ -21,7 +21,7 @@ revisionQuestion:
 
 ## Content
 
-JavaScript has the following primitive types:
+JavaScript has the following primitive[1] types:
 
 - `undefined`
 - `null`
@@ -91,3 +91,20 @@ Can you change a variable's type in JavaScript?
 - yes
 - no
 - only if you declare it again
+
+---
+
+## Footnotes
+
+[1: primitive]
+A primitive is a fundamental data type that cannot be broken down into a more simple data type. For example, a number, as seen below, is a primitive data type.
+
+```js
+let x = 2
+```
+
+A non-primitive is a data type that can store multiple different types of data, like an array:
+
+```js
+let fruits = ['Apple', 'Banana']
+```
