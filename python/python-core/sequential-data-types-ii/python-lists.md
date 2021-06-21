@@ -53,6 +53,7 @@ print(my_first_list)
 
 Let's discover some more `list` methods next!
 
+> 🤔 What's the difference between a [tuple](https://enki.com/python-core/sequential-data-types-ii/the-fundamental-tuples) and a list?
 
 ---
 

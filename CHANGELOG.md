@@ -48,10 +48,42 @@ Types of change:
 
 ### Fixed
 
-## June 14th 2021
+## June 21st 2021
 
 ### Changed
 - [JavaScript - Whole Topic - Change var to let where applicable](https://github.com/enkidevs/curriculum/pull/2741)
+
+## June 18th 2021
+
+### Added
+- [Javascript - Playground exercises - Add questions](https://github.com/enkidevs/curriculum/pull/2709)
+
+## June 16th 2021
+
+### Fixed
+- [Python - check if value in string - add missing bracket](https://github.com/enkidevs/curriculum/pull/2749)
+
+### Changed
+- [Python - Course Order - Set Playground questions as third course instead of first one](https://github.com/enkidevs/curriculum/pull/2747)
+- [Python - Even or odd & both arithmetic operation exercises - Update Readme names and descriptions of insights](https://github.com/enkidevs/curriculum/pull/2748)
+- [Python - Improve workouts](https://github.com/enkidevs/curriculum/pull/2732)
+
+## June 15th 2021
+
+### Changed
+- [JavaScript - Improve workouts](https://github.com/enkidevs/curriculum/pull/2746)
+
+## June 14th 2021
+
+### Changed
+- [Python - Improve workouts](https://github.com/enkidevs/curriculum/pull/2734)
+- [JavaScript - Converting to and from JSON - Replace Arrow Function With Regular Function Syntax](https://github.com/enkidevs/curriculum/pull/2743)
+
+### Added
+- [Python - Using else in loops - Add missing info](https://github.com/enkidevs/curriculum/pull/2730)
+
+### Changed
+- [Python - Sequential data types - Improve explanation](https://github.com/enkidevs/curriculum/pull/2733)
 
 ## June 7th 2021
 
@@ -85,6 +117,9 @@ Types of change:
 ### Changed
 - [Coding Intro - Core Concepts - Temporarily disable coding insight](https://github.com/enkidevs/curriculum/pull/2729)
 
+### Added
+- [Python - Playground Questions - Add questions for playground](https://github.com/enkidevs/curriculum/pull/2723)
+
 ## May 24th 2021
 
 ### Fixed
@@ -115,6 +150,8 @@ Types of change:
 
 ### Fixed
 - [Linux - Quick cd tips - Fix weird html note](https://github.com/enkidevs/curriculum/pull/2711)
+- [Python Data Analysis - Different Tools To Use - Fix grammar](https://github.com/enkidevs/curriculum/pull/2713)
+- [Python Data Analysis - What Are Analysis Environents - Fix grammar](https://github.com/enkidevs/curriculum/pull/2714)
 - [Python Data Analysis - Creating Your First Notebook - Add missing identifiers](https://github.com/enkidevs/curriculum/pull/2713)
 - [Python - Calling Functions - Improve readability](https://github.com/enkidevs/curriculum/pull/2705)
 
