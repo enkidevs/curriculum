@@ -33,8 +33,8 @@ revisionQuestion:
 ## Content
 
 In many different situations, the data that we come across may have a predefined structure.
-For example payroll data for a large company or a catalogue of different plants and their attributes.
-In these examples there is an entry[1] for every employee, each having its own associated data and primary keys.
+For example, payroll data for a large company or a catalog of different plants and their attributes.
+In these examples, there is an entry[1] for every employee, each having its own associated data and primary keys.
 
 The majority of data available on the internet, however, has little or no structure. An often-seen example of this would be bulk text data[2]. 
 Non-relational databases do not store a rigid system of tables, entries, primary or foreign keys. Instead, the structure of the database varies with the type of data being stored.
@@ -45,7 +45,7 @@ Here is an example of what different entries in a non-relational database might 
 
 This is just one type of database[3].
 
-> 💡 Non-relational databases in detail are beyond the scope of this course, for a more in-depth explanation see the **Learn More** section.
+> 💡 Non-relational databases in detail are beyond the scope of this course; for a more in-depth explanation, see the **Learn More** section.
 
 ---
 
