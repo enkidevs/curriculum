@@ -23,10 +23,10 @@ revisionQuestion:
 
 ## Content
 
-When querying a database with multiple tables, it may be necessary to retrieve information from a number of different tables.
+When querying a database with multiple tables, retrieving information from several different tables may be necessary.
 This is to say, we'd like to combine the columns of some tables based on their relationship.
 
-Say we want to fetch a list of pokemon and their types, in the `pokedex` database however, there is no single table with both the name and the type information. Instead we have the `health` and `attack` tables. In order to create a list with the desired information, we would have to **join** the tables in some way. **SQL** provides a way for us to do this, by using a joining condition between the two tables. For these two tables, the relation is in the `id` columns.
+Say we want to fetch a list of pokemon and their types in the `pokedex` database; however, there is no single table with both the name and the type information. Instead, we have the `health` and `attack` tables. In order to create a list with the desired information, we would have to **join** the tables in some way. **SQL** provides a way for us to do this by using a joining condition between the two tables. For these two tables, the relation is in the `id` columns.
 
 `health`
 
@@ -48,7 +48,7 @@ Say we want to fetch a list of pokemon and their types, in the `pokedex` databas
 | 4  | water    | NULL   | 17          |
 | 5  | water    | NULL   | 12          |
 
-In order to return the `name` and `type1` value of each pokemon, we need to use the `JOIN` keyword. The syntax will be explored in further workouts, but below is the correct query
+To return the `name` and `type1` value of each pokemon, we need to use the `JOIN` keyword. The syntax will be explored in further workouts, but below is the correct query
 
 ```sql
 SELECT 
@@ -68,7 +68,7 @@ This query returns the following:
 | squirtle   | water    |
 | magikarp   | water    |
 
-> 💡 There are a number of different types of joins, with different implementations and different results. These are covered in the next few workouts.
+> 💡 There are many different types of joins, with different implementations and different results. These are covered in the following few workouts.
 
 ---
 
