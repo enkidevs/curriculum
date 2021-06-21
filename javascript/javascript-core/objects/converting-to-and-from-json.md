@@ -47,7 +47,11 @@ const ourDog = {
     name: 'Rocky',
     age: 2,
     'dog years': 14,
-    toJSON: () => ({food: 'dog snacks'})
+    toJSON: function() {
+      return {
+        food: 'dog snacks'
+      };
+    }
 }
 
 console.log(JSON.stringify(ourDog));

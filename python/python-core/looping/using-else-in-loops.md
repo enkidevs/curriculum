@@ -64,7 +64,7 @@ Gives the following output:
 4 is range's upper limit
 ```
 
-If loops exit because of a `break` clause, the `else` clause will be skipped:
+If a loop exits because of a `break` clause, the `else` clause will be skipped:
 
 ```python
 for i in range(0, 2):
@@ -111,7 +111,7 @@ while x ??? 3:
 
 ## Revision
 
-An `else` statement is used in loops when the loops ??? is evaluated to ???.
+An `else` statement is used in loops when the loop's ??? is evaluated to ???.
 
 - condition
 - false

@@ -3,7 +3,7 @@ author: emmab
 tags:
   - introduction
 type: normal
-category: must-know
+category: discussion
 links:
   - >-
     [Pythonic](https://stackoverflow.com/questions/25011078/what-does-pythonic-mean){website}
@@ -21,44 +21,39 @@ revisionQuestion:
 
 # Fundamental Data types
 
-
 ---
 
 ## Content
 
-Everything in Python has a data type, or *class*[1]. The ones you need to know about now are:
+Everything in Python has a data type or a [class](https://enki.com/glossary/general/class). The most important ones are as follows:
 
-- **Integers** - any whole number. Integers belong to the `int` class:
+- **Strings** (str) - To store any sequence of characters. Like a name or an address.
+
+A string is always wrapped in either `'single'` or `"double quotes"`
+
+```bash
+>>> type('person123')
+# <class 'str'>
+```
+
+Though it's more pythonic[2] to use single quotes until you need double quotes.
+
+- **Integers** (int) - To store whole numbers.
 
 ```bash
 >>> type(12)
 # <class 'int'>
 ```
 
-- **Floats** - any decimal number. Floats belong to the `float` class:
+- **Floats** (float) - To store decimal numbers.
 
 ```bash
 >>> type(12.0)
 # <class 'float'>
 ```
 
-For all you mathematicians out there, there's one more numerical data type to be aware of: `complex`[2]. For everyone else, you don't need to worry about these 😅!
+For the hardcore mathematicians, there is also a `complex`[1] class. However, it isn't all that important for the rest of us.
 
-- **Strings** - any character wrapped in single or double quotes (`''` or `""`). Strings belong to the `str` class:
-
-```bash
->>> type('12')
-# <class 'str'>
-```
-
-By using single quotes you can *embed* double quotes and vice-versa:
-
-```python
-single = 'I can use "these"'
-double = "I can use 'these'"
-```
-
-Though it's more pythonic[3] to use single quotes until you need double quotes.
 
 > We can use Python's built-in `type()` function, passing an argument in parenthesis, to see the data type, or *class*, of our argument.
 
@@ -70,6 +65,10 @@ Other Python data types that you'll soon learn about are:
 - **List**
 - **Tuple**
 
+
+> 🤔 Why don't we use floats all the time instead of dealing with integers? 
+>
+> Leave a comment or view some of the other comments for inspiration before moving on.
 
 ---
 
@@ -86,7 +85,6 @@ What class does the following return?
 - string
 - text
 - data
-
 
 ---
 
@@ -107,10 +105,8 @@ What class does the following return?
 
 ## Footnotes
 
-[1:Classes]
-A class is a code template where objects are created. For example, we may have a Car class which acts as a factory for making unique car objects. These cars will belong to the Car class.
 
-[2:Complex Numbers]
+[1:Complex Numbers]
 Complex numbers come in the form `a + b*j`, where `a` is a real number, `b` is an imaginary number and `j` represents `√−1`.
 
 ```python
@@ -119,7 +115,7 @@ type(complex_value)
 # <type 'complex'>
 ```
 
-[3:Pythonic]
+[2:Pythonic]
 Pythonic is an adjective used to describe code that is clear, concise and maintainable.
 
 Pythonic means code that doesn't just get the syntax right but that follows the conventions of the Python community and uses the language in the way it's intended to be used.
