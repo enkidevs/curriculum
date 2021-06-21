@@ -26,9 +26,11 @@ revisionQuestion:
 
 ## Content
 
-When designing a relational database with scalability[1] in mind, it becomes important to minimise the repetition of data[2]. This is because as the database scales so does the memory requirement and so you'd like to minimise repeated data to free up more space.
+When designing a relational database with scalability[1] in mind, it becomes important to minimize the repetition of data[2]. This is because as the database scales, so does the memory requirement, and so you'd like to minimize repeated data to free up more space.
+
 Let's take, for example, a database that stores employee information for a university. Realistically, this database would not contain millions of entries, but the concepts remain the same.
-For each employee, you want to store the name and email address and then department data such as the name of the department, head of department and the department phone number. In theory, it is possible to store this data as follows:
+
+For each employee, you want to store the name and email address and then department data such as the name of the department, head of the department, and the department phone number. In theory, it is possible to store this data as follows:
 
 | employee_number | employee_name   | employee_email     | dept_name    | dept_head      | dept_telno |
 |-----------------|-----------------|--------------------|--------------|----------------|------------|
@@ -38,9 +40,9 @@ For each employee, you want to store the name and email address and then departm
 | 100915          | Bellomo, Amar   | a.bellomo@uni.edec | Biology      | Delaney, Nadia | 259(1099)  |
 | 100916          | Hardy, Kira     | k.hardy@uni.edec   | Anthropology | Akers, Kyros   | 259(9898)  |
 
-However, you can see that for every employee entry that has the same department as another entry, there will be repeated info as is the case here for `Physics` and `Anthropology`. If this is repeated over many many entries, we will end up wasting a lot of storage space. Additionally, if we wanted to update the `dept_head` name for a certain department, we would have to do this over all the repeated entries in the table, this would severely impact the performance of our database.
+However, you can see that for every employee entry that has the same department as another entry, there will be repeated info, as is the case here for `Physics` and `Anthropology`. If this is repeated over many many entries, we will end up wasting a lot of storage space. Additionally, if we wanted to update the `dept_head` name for a certain department, we would have to do this over all the repeated entries in the table. This would severely impact the performance of our database.
 
-In order to avoid this, we can split this table into two *related* tables. Let's call these tables the `employees` and `departments` tables and arrange them as follows
+To avoid this, we can split this table into two *related* tables. Let's call these tables the `employees` and `departments` tables and arrange them as follows.
 
 `employees`:
 
@@ -62,7 +64,7 @@ In order to avoid this, we can split this table into two *related* tables. Let's
 | chemistry    | Dodd, Antonia  | 259(6482)  |
 | geography    | Smith, Henry   | 259(7841)  |
 
-By organising our data into two tables, you can see that we drastically reduce the amount of repetition and, therefore, improve performance[3].
+By organizing our data into two tables, you can see that we drastically reduce the amount of repetition and, therefore, improve performance[3].
 
 What happens now when we want to combine the two tables with a query so that we get a view like that in the original, large table? Keep going to the next insight to find out!
 
