@@ -48,10 +48,13 @@ Types of change:
 
 ### Fixed
 
-## June 19th 2021
+## June 21st 2021
 
+### Fixed
+- [Spreadsheets - if - Fix grammar](https://github.com/enkidevs/curriculum/pull/2745) 
 ### Changed
 - [JavaScript - JS Exercises - Move course to the bottom](https://github.com/enkidevs/curriculum/pull/2752)
+
 
 ## June 18th 2021
 
