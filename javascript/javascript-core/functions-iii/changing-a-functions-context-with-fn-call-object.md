@@ -32,7 +32,7 @@ The first argument `fn.call()` accepts is the alternative *this* context and any
 The code below defines a *discount* of *10* that will be retrieved within *getDiscount* via a call to `this.discount`:
 
 ```javascript
-var discountCalc= {
+let discountCalc= {
     discount: 10,
     getDiscount: function(input){
       return this.discount + input;

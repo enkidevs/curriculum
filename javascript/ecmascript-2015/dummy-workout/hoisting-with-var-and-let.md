@@ -45,13 +45,14 @@ function f2(){
 ```
 
 Note how these functions return different values:
+```javascript
+console.log(f1());
+// 10
+console.log(f2());
+// 5
+```
 
-    console.log(f1());
-    // 10
-    console.log(f2());
-    // 5
-
-  The reason for this is that `var` declarations get hoisted up to **local-scope** inside a function and thus they point to the same instance of `i`.
+The reason for this is that `var` declarations get hoisted up to **local-scope** inside a function and thus they point to the same instance of `i`.
 With `let` however the declarations are separated into a **local-scope** `i` with a value of *5* and **block-scope** `i` with a value of *10*.
 
 Using `let` instead of `var` is considered best practice because it operates on a more precise and natural scope.

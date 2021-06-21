@@ -49,13 +49,13 @@ The below example shows one way to implement our 1-5 iterator as a generator:
 
 ```javascript
 function* getGenerator() {
-  var currentNumber = 1;
+  let currentNumber = 1;
   while (currentNumber < 6) {
     yield currentNumber++;
   }
 }
 
-var gen = getGenerator();
+let gen = getGenerator();
 gen.next(); // {value: 1, done: false}
 gen.next(); // {value: 2, done: false}
 gen.next(); // {value: 3, done: false}

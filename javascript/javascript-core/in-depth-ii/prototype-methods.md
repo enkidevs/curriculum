@@ -50,7 +50,7 @@ function Cat(name) {
 // Cat becomes a subclass of Animal
 // and inherits its properties/methods
 Cat.prototype = new Animal();
-var Kitty = new Cat("Kitty");
+let Kitty = new Cat("Kitty");
 
 Kitty.sayName();
 // "My name is Kitty"
@@ -76,7 +76,7 @@ function MyHobby(hobby){
 }
    
 ???.prototype = new Hobby();
-var student = new MyHobby("studying");
+let student = new MyHobby("studying");
 student.sayHobby();
 ```
 

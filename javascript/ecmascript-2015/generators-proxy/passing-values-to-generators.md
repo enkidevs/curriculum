@@ -38,7 +38,7 @@ function* getGenerator() {
   }
 }
 
-var g = getGenerator();
+let g = getGenerator();
 
 g.next().value; // 1
 g.next().value; // 2

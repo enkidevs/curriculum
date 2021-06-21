@@ -33,7 +33,7 @@ npm install errorhandler
 Importing the API:
 
 ```javascript
-var errorHandler = require('errorhandler');
+let errorHandler = require('errorhandler');
 ```
 
 Whenever an object is provided to **Express** as an error, the `errorhandler` module will print as much as possible about the error, using content negotiation between **HTML**, **JSON** and plain text.

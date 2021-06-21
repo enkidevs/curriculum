@@ -29,8 +29,8 @@ Arrays benefit from a number of extensions in ES6 let's look at these now.
 
 *includes* returns a boolean indicating if an array contains a specific value:
 
-```
-var people = ["john", "bob"];
+```javascript
+let people = ["john", "bob"];
 people.includes("john"); //true
 ```
 
@@ -40,8 +40,8 @@ people.includes("john"); //true
 
 If no elements match then *undefined* will be returned:
 
-```
-var people= [
+```javascript
+let people= [
     {name: 'Alex', age: 36},
     {name: 'John', age: 20},
     {name: 'Tait', age: 1}
@@ -54,9 +54,9 @@ source) {
     return element.age>=18;
 }
 
-var p = people.find(func);
+let p = people.find(func);
 //Alex
-var p = people.findIndex(func);
+let p = people.findIndex(func);
 //0
 
 ```

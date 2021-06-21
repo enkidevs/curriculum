@@ -22,20 +22,20 @@ revisionQuestion:
 It is common to check if a variable is `null` or `undefined` and provide a default value when necessary.
 
 Instead of: 
-
-    var msg;
-    if (name !== null && 
-        name !== undefined &&
-        name !== '') {
-      msg = 'Hello '+ name;
-    } else {
-      msg = 'Hello friend';
-    }
-
+```javascript
+let msg;
+if (name !== null && 
+    name !== undefined &&
+    name !== '') {
+  msg = 'Hello '+ name;
+} else {
+  msg = 'Hello friend';
+}
+```
 A shorter alternative is:
-
-    msg = 'Hello ' + (name || 'friend');
-
+```javascript
+msg = 'Hello ' + (name || 'friend');
+```
 
 ---
 

@@ -34,7 +34,7 @@ It is possible to access the current `URL` in parts, so for a website such as:
 From this, we can construct the full `URL` path:
 
 ```javascript
-var newURL = window.location.protocol +
+let newURL = window.location.protocol +
 "//" + window.location.host +
  "/" + window.location.pathname;
 ```
@@ -47,7 +47,7 @@ var newURL = window.location.protocol +
 Construct the full URL path by completing the JS code snippet below:
 
 ```javascript
-var newURL = ???+
+let newURL = ???+
     "//" + ??? + "/"
          + ???;
 ```

@@ -28,24 +28,23 @@ Anything that is declared in a file in an `ES6` project isn't available outside 
 
 Use `export` to make it accessible. Here's how exporting a user class works:  
 
-```
+```javascript
 //user.js
 
-var localVar = 123; // Invisible externally
+let localVar = 123; // Invisible externally
 
 export default function User(age){
 	this.age = age;
 }; // Can be imported by other files
-
 ```
 
 Import the class in another file: 
+```javascript
+//user_info.js
 
-    //user_info.js
-
-    import User from 'user';
-    var newbie = new User(22);
-
+import User from 'user';
+let newbie = new User(22);
+```
 
 ---
 

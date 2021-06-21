@@ -28,7 +28,7 @@ function changeVal(x) {
   x = 1000;
 }
 
-var x = 5;
+let x = 5;
 changeVal(x);
 console.log(x); // still 5
 ```
@@ -40,7 +40,7 @@ function changeObj(x) {
   x.name = "Apple";
 }
 
-var obj = { name: "Enki" };
+let obj = { name: "Enki" };
 changeObj(obj);
 console.log(obj.name); // Apple
 ```
@@ -69,7 +69,7 @@ function changeProp(obj){
   obj.name = "John";
 }
 
-var per = { name : "Alex"};
+let per = { name : "Alex"};
 changeProp(per);
 console.log(per.name);
 // ???
