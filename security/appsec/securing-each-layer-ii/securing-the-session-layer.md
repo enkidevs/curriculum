@@ -9,11 +9,11 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Securing the Session Layer
@@ -33,6 +33,7 @@ One method employed by hackers to gain a target's login credentials is the **bru
 ## Practice
 
 What is one control in the Session Layer of the OSI Model?
+
 ???
 
 - Using a strong, unique password

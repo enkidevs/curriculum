@@ -5,18 +5,19 @@ category: must-know
 stub: true
 tags:
   - deep
-links: null
+
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
-# Intro `<dfn>`
+# The dfn Element
 
 
 ---
@@ -98,7 +99,9 @@ for your dev skills.
 
 Which HTML element is used to indicate the first use of a term in a document?
 
-???
+```html
+<???>
+```
 
 - dfn
 - dir

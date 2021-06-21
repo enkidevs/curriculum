@@ -10,11 +10,11 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # DNS - Role and Responsibility
@@ -44,11 +44,11 @@ Which of the following values can be mapped to an IP address using DNS?
 
 ???
 
-- [www.tebs-lab.com](http://www.tebs-lab.com)
-- [someone_special@gmail.com](mailto:someone_special@gmail.com)
-- <https://tebs-game-of-life.com/conways-editor/conways-editor.html>
-- .gov
-- www.facebook
+- `www.tebs-lab.com`
+- `someone_special@gmail.com`
+- `https://tebs-game-of-life.com/conways-editor/conways-editor.html`
+- `.gov`
+- `www.facebook`
 
 
 ---
@@ -57,12 +57,12 @@ Which of the following values can be mapped to an IP address using DNS?
 
 Which subset of this URL can be mapped to an IP address using DNS?
 
-<https://www.tebs-game-of-life.com/conways-editor/conways-editor.html>
+`https://www.tebs-game-of-life.com/conways-editor/conways-editor.html`
 
 ???
 
-- [www.tebs-game-of-life.com](http://www.tebs-game-of-life.com)
-- <https://www.tebs-game-of-life.com/conways-editor/conways-editor.html>
-- /conways-editor/conways-editor.html
-- https://
-- www.tebs-game-of-life
+- `www.tebs-game-of-life.com`
+- `https://www.tebs-game-of-life.com/conways-editor/conways-editor.html
+- `/conways-editor/conways-editor.html`
+- `https://`
+- `www.tebs-game-of-life`

@@ -18,10 +18,10 @@ links:
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
-# Prepare for `will-change`
+# Prepare for will-change
 
 
 ---

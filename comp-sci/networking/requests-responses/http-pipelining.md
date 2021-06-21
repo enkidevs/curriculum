@@ -9,11 +9,11 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # HTTP pipelining
@@ -38,7 +38,7 @@ HTTP pipelining requires both the *client* and the *server* to support it. Any s
 
 ## Practice
 
-??? and `PATCH` requests shouldn't be pipelined.
+??? and `PATCH` requests shouldn't be sent on a single `TCP` connection.
 
 - `POST`
 - `GET`
@@ -50,9 +50,7 @@ HTTP pipelining requires both the *client* and the *server* to support it. Any s
 
 ## Revision
 
-HTTP pipelining means exchanging multiple messages on the same
-
-???
+HTTP pipelining means exchanging multiple messages on the same ???
 
 - TCP connection
 - HTTP connection

@@ -2,26 +2,29 @@
 author: emmab
 tags:
   - introduction
+  - discussion
 type: normal
-category: must-know
+category: discussion
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
-# The `not` operator
+# The not operator
 
 
 ---
 
 ## Content
 
-Python's `not` operator returns the opposite of whatever condition is given to it.
+Python's `not` operator returns the opposite of the given condition; we can use it to check if a string is `not in` a sentence or to check for fairly specific conditions.
 
 For example:
 
@@ -38,8 +41,13 @@ not (x < y)
 # False
 ```
 
-You can also negate the `in` operator to check whether a value is `not in` another object.
+We use this approach in our daily lives a lot!
 
+When we make grocery lists, we don't usually go through everything in the fridge. We just check each item straight away. Like this: If milk is `not` there, buy milk!
+
+> 🤔 Can you think of a real-life example where you use the not approach to save your time?
+>
+> Leave a comment or view some of the other comments for inspiration before moving on.
 
 ---
 
@@ -70,9 +78,10 @@ What does the following code snippet return:
 
 ```python
 True == (not True)
+
+# ???
 ```
 
-???
 
 - `False`
 - `True`

@@ -61,7 +61,7 @@ Since we know from our previous function[1] that the `type` column has no missin
 
 As we have first run the `netflix_movies.count()` the upper numbers are for movies.
 
-That means there are a total of 4265 movies and 1696 tv shows on this dataset.
+That means there are a total of 4265 movies and 1969 tv shows on this dataset.
 
 ---
 

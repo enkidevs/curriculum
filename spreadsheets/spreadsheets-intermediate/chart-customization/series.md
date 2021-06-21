@@ -1,4 +1,4 @@
-﻿---
+---
 author: Stefan-Stojanovic
 
 type: normal
@@ -14,7 +14,7 @@ category: how-to
 
 In the `Series` tab you can choose:
 - how the data is shown
-- how thick the lines will be
+- how thick the lines will be 
 - to show plot points
 - to show errors
 - to change the formatting and visual representation

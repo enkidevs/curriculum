@@ -10,11 +10,13 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Borders
@@ -59,13 +61,17 @@ div{
 
 ## Practice
 
-In the shorthand declaration, where is the style of the border located?
+In the shorthand declaration:
 
 ```css
 border: 1 2 3;
 ```
 
+Which number represents the style of the border?
+
+```plain-text
 ???
+```
 
 - 2
 - 1
@@ -76,13 +82,15 @@ border: 1 2 3;
 
 ## Revision
 
-In the shorthand declaration, where is the color of the border located?
+In the shorthand declaration, which number represents the color of the border?
 
 ```css
 border: 1 2 3;
 ```
 
+```plain-text
 ???
+```
 
 - 3
 - 1

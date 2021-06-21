@@ -1,4 +1,4 @@
-﻿---
+---
 author: Stefan-Stojanovic
 
 type: normal
@@ -15,7 +15,7 @@ links:
 
 ---
 ## Content
-
+ 
 ### Autocrat
 
 `Autocrat` is an add-on used to automate the creation and sharing of personalized documents.

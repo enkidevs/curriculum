@@ -9,14 +9,15 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
-# `stringprep` module
+# stringprep module
 
 
 ---
@@ -58,7 +59,6 @@ Check if `tab` is in the table `C.1.1` of RFC 3454:
 import stringprep
 
 ???(stringprep.???('  '))
-
 ```
 
 - print

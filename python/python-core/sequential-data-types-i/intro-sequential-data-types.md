@@ -7,11 +7,13 @@ category: must-know
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Intro to Sequential Data Types
@@ -42,7 +44,7 @@ print(text[13])
 # '!'
 ```
 
-Indexes are basically *measures of position*. All elements within a variable start at index 0.
+Indexes are *measures of position*. All elements within a sequence start at index 0.
 
 The index used must be valid:
 
@@ -51,7 +53,7 @@ print(text[14])
 # IndexError: str index out of range
 ```
 
-Strings are also an **immutable data type** which means that items cannot be reassigned.
+Strings are also an **immutable data type** which means that the characters cannot be changed.
 
 Most python objects (booleans, integers, floats, strings, and tuples) are immutable. This means that after you create the object and assign some value to it, you can't modify that value.
 
@@ -71,13 +73,13 @@ What's the correct output for the following?
 text = 'Strings can be accessed via indexes!'
 
 print(text[1])
-# ???
+# '???'
 ```
 
-- `'t'`
-- `'S'`
-- `'!'`
-- `'s'`
+- `t`
+- `S`
+- `!`
+- `s`
 
 
 ---
@@ -90,10 +92,10 @@ What's the correct output for the following?
 text = 'Strings can be accessed via indexes!'
 
 print(text[O])
-# ???
+# '???'
 ```
 
-- `'S'`
-- `'s'`
-- `'!'`
-- `'t'`
+- `S`
+- `s`
+- `!`
+- `t`

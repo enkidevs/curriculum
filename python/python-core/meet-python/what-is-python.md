@@ -1,19 +1,19 @@
 ---
 author: emmab
+
 tags:
   - introduction
+  - discussion
+
 type: normal
-category: must-know
-links:
-  - '[What is Python?](https://www.python.org/doc/essays/blurb/){website}'
+
+category: discussion
+
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
-revisionQuestion:
-  formats:
-    - fill-in-the-gap
-  context: relative
+  context: standalone
+
 ---
 
 # Python Intro
@@ -23,54 +23,48 @@ revisionQuestion:
 
 ## Content
 
-Python is a popular *high-level* programming language.
 
-That means it's designed to be easy to read, using English keywords and simple syntax[1].
+Python is the world's fastest-growing programming language.
 
-For example, here's how you might check whether a number is greater than another number:
+It's easy to read as the keywords are taken directly from the English Language, and it can be used for just about anything.
+
+For example, the following code check's if you are eligible for a driving license, and if you look closely, you can already understand how it works.
 
 ```python
-my_age = 23
-legal_age = 21
+my_age = 20
+legal_age = 18
 if my_age >= legal_age:
-    print("You can have a beer!")
+    print("Enjoy the ride!")
 else:
-    print("Unlucky.")
+    print("Not so fast, kiddo.")
 ```
 
-Python is also a *general-purpose* programming language. That means it can be used for *just about anything*. 
+Python is used by people of all professions; scientists, analysts, accountants, even kids! 
 
-You can use it to build websites, web apps and desktop apps. But it's also used in scientific computing, artificial intelligence, and data analysis!
+Some people use it for artificial intelligence, scientific computing, or data analysis, while others use it to create websites and desktop applications. The possibilities are endless!
 
+
+> 🤔 What will your first project be? 
+>
+> Leave a comment or view some of the other comments for inspiration before moving on.
 
 ---
 
 ## Practice
 
-Python is closer to ??? language and further away from ??? language.
+Let's write some Python code! Do you remember how to print a message?
 
-- human
-- machine
-- alien
-- automated
+> Don't worry; this is to get you comfortable with code. 
+> You'll learn all about how this works in the upcoming lessons.
 
+```python
+my_age = 20
+legal_age = 18
+if my_age >= legal_age:
+    ???("Enjoy the ride!")
+```
 
----
-
-## Revision
-
-Python is both a ??? and general-purpose programming language.
-
-- high-level
-- niche
-- low-level
-- domain-specific
-
-
----
-
-## Footnotes
-
-[1:Syntax]
-The syntax is the set of rules that define how a program will be written and interpreted. It covers the symbols, indentation and keywords of the language. All programming languages use different syntax.
- 
+- print
+- state
+- write
+- log

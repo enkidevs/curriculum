@@ -1,21 +1,24 @@
 ---
 author: pawel
 type: normal
-category: must-know
+category: discussion
 tags:
   - introduction
 links:
   - >-
     [Comparison
     Operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Comparison_Operators){website}
+  - >-
+    [Using `==` in Js](https://2ality.com/2011/12/strict-equality-exemptions.html){website}
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Weak vs Strict equality operator
@@ -25,34 +28,60 @@ revisionQuestion:
 
 ## Content
 
-JavaScript supports two forms of equality.
+In JavaScript, there are two ways to check if values equal each other.
 
-### Weak Typing
+### Weak Typing `==`
 
-The operator `==` coerces (converts) types before comparing the terms:
+The operator `==` coerces (converts) types before comparing the terms. Using `==` to compare two values will first force the values to have the same type before comparing them:
 
 ```js
-0 == "" // true
-5 == "5" // true
-false == "0" // true
-"enki" == "enki" // true
-```
+// a number 2
+let x = 2; 
 
-Using `==` is generally considered bad practice as it often leads to difficult-to-locate bugs due to unexpected type conversions.
+// a string '2'
+let y = '2';
+
+// are equal when
+// using == because
+// they are both
+// first converted
+// to numbers before
+// comparing
+console.log(
+  x == y // true
+);
+```
 
 > 💡 The **weak equality operator** (`==`) is also refered to as **loose** or **abstract**.
 
-### Strict Typing
+### Strict Typing `===`
 
-The strict equality operator `===` works as `==`, but without type coercion:
+The strict equality operator `===` works as `==`, but without type coercion. Using `===` will require us to match both the type and the value:
 
 ```js
-0 === "" // false
-5 === "5" // false
-false === "0" // false
-"enki" === "enki" // true
+// a number 2
+let x = 2; 
+
+// a string '2'
+let y = '2';
+
+// when using ===
+// any values that
+// have a different
+// type are always
+// not equal
+console.log(
+  x === y // false
+);
 ```
 
+Using `==` is generally considered bad practice as it could lead to bugs in the code. 
+
+> 🤔 What kind of problems do you think using weak equality operators can cause? Can you think of an example?
+>
+> Leave a comment or view some of the other comments for inspiration before moving on.
+
+In case you need a hint, check out this footnote[1].
 
 ---
 
@@ -113,3 +142,11 @@ console.log("" == " ");
 - false
 - SyntaxError
 - String
+
+---
+
+## Footnotes
+
+[1: Hints]
+
+Weak equality operators can cause difficult-to-locate bugs due to unexpected type conversions.

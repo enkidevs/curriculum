@@ -8,5 +8,3 @@ insights:
   - aggregation-with-object-expression-operators-ii
 aspects:
   - introduction
-  - new
- 

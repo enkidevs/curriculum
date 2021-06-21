@@ -9,11 +9,11 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Mocking objects
@@ -25,7 +25,7 @@ revisionQuestion:
 
 **Mocking** is primarily used with **unit testing**. Sometimes, when performing **unittests** on an object, it might have **dependencies** on other complex objects. To isolate the **behavior** of the object you want to **test** you replace the other objects with **mocks** that simulate the behavior of the real objects.
 
-Basically,mocking is creating **mock objects** that simulate the behavior of **real objects**.
+Basically, mocking is creating **mock objects** that simulate the behavior of **real objects**.
 
 Benefits of **mocking**:
 

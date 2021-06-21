@@ -7,7 +7,6 @@ insights:
   - mediadevices-getusermedia
 aspects:
   - introduction
-  - new
   - workout
   - deep
   - obscura

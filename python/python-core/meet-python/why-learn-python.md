@@ -7,81 +7,78 @@ category: tip
 links:
   - >-
     [Why Learn
-    Python](https://medium.com/datadriveninvestor/5-reasons-why-i-learned-python-and-why-you-should-learn-it-as-well-917f781aea05){website}
-  - >-
-    [Python
-    OOP](https://www.programiz.com/python-programming/object-oriented-programming){website}
+    Python](https://www.youtube.com/watch?v=Y8Tko2YC5hA){video}
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Why learn Python?
-
 
 ---
 
 ## Content
 
-Python is seen as the number one language to learn. Here are a few reasons why:
+Python is the language of the present and the future. Here's why:
 
-1. It's **simple to read and understand**
+- *Simplicity*
 
-This makes it an *ideal language for beginners to learn*. And it acts as a stepping-stone for learning other object-oriented [1] languages.
+It's easy to read and understand. It usually requires less code than other languages like Java and C++ to accomplish the same tasks.
+ 
+- *Perfect for Data Science and ML*
 
-Python is also concise.
+It has numerous [libraries](https://enki.com/glossary/general/library) that let us tackle complex problems with a few lines of code. That's why Python developers are amongst the highest paid in data-related fields.
 
-For the same task, Python requires *3-5* times less code than Java, and up to *10* times less code than C++.
+- *Huge Community*
 
-2. It's a **powerful language for data science**
+If you get stuck on a problem, you have a massive online community to help you out. You can always find the answers, whether on Google, Stack Overflow, or even Reddit.
 
-Python is the preferred language for Data Science and Machine Learning. Both areas with exciting work and a growing demand for jobs.
-
-3. A huge community of **web developers** use it
-
-Its popularity for web development means that there are numerous *open source libraries*, *frameworks* and *sources of help* for beginners. 
-
-You can use Python to build whatever you want to build, from a scraper to an e-commerce site.
-
-Check out the *Learn More link* to dig into more reasons to learn Python.
-
+> "Learn Python not to analyze a spreadsheet, nor to create a website. Learn it to understand something you have understood all your life, but in a new way." 
+> -- *Spiderman*
 
 ---
 
 ## Practice
 
-It typically requires ??? code to write the same task in Python than in C++.
+Python is an easy-to-read language due to its similarity to English.
 
-- less
-- more
-- about the same
+Can you guess what this code will print if the user's answer is `"Maybe"`?
 
+```python
+answer = input("Are you excited to learn Python?")
+if answer == "Yes":
+  print("That's the spirit! 🎉") 
+else:
+  print("Don't give up, you're doing great! 🤗")
+```
+
+???
+
+- `"Don't give up, you're doing great! 🤗"`
+- `"That's the spirit! 🎉"`
 
 ---
 
 ## Revision
 
-How much Python code is usually required to write the same task compared to C++ code? ???
+What will this code print if the user input is `"Maybe"`?
 
-- `Up to 10 times less`
-- `Up to 5 times less`
-- `3–5 times less`
-- `Roughly equal`
+```python
+answer = input("Are you excited to learn Python?")
+if answer == "Yes":
+  print("That's the spirit! 🎉") 
+else:
+  print("Don't give up, you're doing great! 🤗")
+```
 
+???
 
----
+- `"Don't give up, you're doing great! 🤗"`
+- `"That's the spirit! 🎉"`
 
-## Footnotes
-
-[1:Object-oriented programming]
-All you need to know for now is that **object-oriented programming** (OOP) is a *programming pattern* that works with real-life entities. These entities are called **objects**, and they have *attributes* and *behaviors*. 
-
-Let's use the common car analogy to better understand OOP. 
-
-Think of the car as the object. The model, color or age of the car are the object's *attributes*. Whether the engine is on, or whether it's moving are *behaviors* and would exist as functions.
  

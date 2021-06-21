@@ -5,11 +5,12 @@ category: must-know
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Text
@@ -50,7 +51,7 @@ Strings commonly have to be enclosed with ???.
 
 ## Revision
 
-Complete the gaps to define a string:
+Complete the gaps to define a variable called `my_name` that stores the `"Andrei"` string:
 
 ```plain-text
 my_name ??? ???

@@ -9,15 +9,14 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Images
-
 
 ---
 
@@ -29,31 +28,15 @@ It contains the specification for instantiating a container, including the envir
 
 Containers derived from the same image are identical to each other in terms of their application code and runtime dependencies.
 
-The image ID is based on the SHA[1] of the docker hub image.
+A Docker image is _immutable_; once an image is created it is never modified.
 
-A Docker image is *immutable*; it only contains read-only layers, meaning that once an image is created it is never modified.
+The only way to modify an image is to extend it and add the changes on top.
 
-Images can be composed from each other to minimize data repetition. This also means that the only way to modify an image is to extend it and add the changes on top. 
+> 💡 An image that doesn't extend any other image is known as the _base_ image.
 
-To make them space-efficient, images are designed to be composed of layers of other images, allowing a minimal amount of data to be sent when transferring images over the network.
+To make them space-efficient, images are designed to be composed of read-only[1] layers of other images.
 
-Every image starts with a blank layer known as *scratch*. Any change that happens after creates a new image layer. This means that image layers are read-only.
-
-It should be noted that running containers include a writable layer (the container layer) on top of the read-only layers of the image. Runtime changes, including any writes and updates to data and files, are saved in this container layer. Thus, multiple concurrent running containers that share the same underlying image may have container layers that differ substantially (they don't interfere).
-
-It's important to note that image layers are cached and can be reused between various images, saving storage.
-
-This is indicated by the `"Layer already exists"` message in the console output when pushing or pulling the image from a registry:
-
-```bash
-docker image pull enki:example
-a82b6c66a6d4: Layer already exists
-1941ca4a7a84: Layer already exists
-a2ae92ffcd29: Layer already exists
-example: digest: sha256:xxx size: 948
-```
-
-When we run a container and change a file within an image, a copy-on-write[2] happens. This file is extracted from the image and stored in the container layer. Any layers that were unchanged are just reused. In this manner, the container contains all of its files and the files that differ from the image that was used to create the container.
+> 💡 Every image starts with a blank layer known as _scratch_.
 
 We can use the `docker history <IMAGE_ID>` command to show the layers of changes made on an image and their sizes.
 
@@ -62,6 +45,8 @@ For example:
 ```bash
 docker history 3f8a4339aadd
 ```
+
+The image ID shown above is based on the SHA[1] of the docker hub image.
 
 would output something like:
 
@@ -79,10 +64,9 @@ IMAGE               CREATED             CREATED BY                              
 <missing>           2 weeks ago         /bin/sh -c #(nop) ADD file:f30a8b5b7cdc9ba...   55.3MB
 ```
 
-An image that doesn't extend any other image is known as the base image.
+Image layers are cached[3] and can be reused between various images, saving storage.
 
-Images are built using a special configuration file (commonly) named Dockerfile and the `docker build` command.
-
+Images are built using a special configuration file (commonly) named _Dockerfile_ and the `docker build` command.
 
 ---
 
@@ -95,7 +79,6 @@ Docker images are composed of ???
 - pixels
 - fragments
 
-
 ---
 
 ## Revision
@@ -107,13 +90,25 @@ A Docker image can be modified.
 - false
 - true
 
-
 ---
 
 ## Footnotes
 
-[1: SHA]
+[1: Writable Layer]
+It should be noted that running containers include a writable layer (the container layer) on top of the read-only layers of the image. Runtime changes, including any writes and updates to data and files, are saved in this container layer.
+
+Thus, multiple concurrent running containers that share the same underlying image may have container layers that differ substantially (they don't interfere).
+
+[2: SHA]
 In cryptography, SHA (Secure Hash Algorithm) is a cryptographic hash function which takes an input and produces a hash value known as a message digest, typically rendered as a hexadecimal number.
 
-[2: copy-on-write]
-"Copy on write" means that everyone has a single shared copy of the same data until it's written, and then a copy is made. This allows an efficient sharing of resources such that new data is only created during modification.
+[3: Image Layers are cached]
+This is indicated by the `"Layer already exists"` message in the console output when pushing or pulling the image from a registry:
+
+```bash
+docker image pull enki:example
+a82b6c66a6d4: Layer already exists
+1941ca4a7a84: Layer already exists
+a2ae92ffcd29: Layer already exists
+example: digest: sha256:xxx size: 948
+```

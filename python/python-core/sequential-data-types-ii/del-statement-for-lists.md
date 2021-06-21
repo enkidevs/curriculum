@@ -1,7 +1,7 @@
 ---
 author: emmab
 type: normal
-category: must-know
+category: discussion
 links:
   - >-
     [The `del`
@@ -9,14 +9,15 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
-# The `del` operator for lists
+# The del operator for lists
 
 
 ---
@@ -31,6 +32,8 @@ To delete an item at a given *index*:
 
 ```python
 a = [0, 1, 2, 3]
+
+# delete the item at index 0
 del a[0]
 
 print(a)
@@ -41,28 +44,35 @@ It can also be used to delete a range of items within a `list`:
 
 ```python
 a = [1, 2, 3, 4]
+
+# delete items from index 0 to index 1
 del a[0:2]
 
 print(a)
 # [3, 4]
 ```
 
-Note that even though three elements are specified (*0, 1, 2*), the last one is not deleted. 
+Note that `[0:2]` does not include the item at index `2`.
 
-We can also use `del` to delete the items inside a `list`, or the whole object itself:
+We can also use `del` to delete all of the items inside a `list`, or the whole object itself:
 
 ```python
+# delete all the items
 del a[:]
 
 print(a)
 # []
 
+# delete the entire list
 del a
 
 print(a)
 # NameError: name 'a' is not defined
 ```
 
+> 🤔 Can you think of any reason we might use pop() instead of del?
+>
+> Leave a comment or view some of the other comments for inspiration before moving on.
 
 ---
 

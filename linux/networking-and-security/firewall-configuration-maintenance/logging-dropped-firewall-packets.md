@@ -10,7 +10,7 @@ notes: ''
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Logging dropped firewall packets

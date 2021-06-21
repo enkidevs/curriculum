@@ -9,11 +9,11 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Closures
@@ -51,7 +51,7 @@ Which is the same as:
 foo("fun")(); // "coding is fun"
 ```
 
-Closures allow us to emulate "private" variables using nested functions, by hidding them in the outer function's scope, and thus making them available only to the returned inner function.
+Closures allow us to emulate "private" variables using nested functions, by hiding them in the outer function's scope, and thus making them available only to the returned inner function.
 
 
 ---

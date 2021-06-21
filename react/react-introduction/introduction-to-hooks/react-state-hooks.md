@@ -7,11 +7,13 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # State hooks
@@ -98,7 +100,11 @@ function Person() {
 
 ## Revision
 
-Complete the following code to define the `count` state and use it in the component's body:
+Complete the following code to define the `count` state.
+
+Next, make sure that the `<p>` displays the `count` state within the component.
+
+Lastly, ensure that pressing the `<button>` will increment the `count`. 
 
 ```jsx
 function Counter() {

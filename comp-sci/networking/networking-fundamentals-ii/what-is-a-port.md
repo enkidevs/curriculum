@@ -8,11 +8,11 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # What is a port?
@@ -71,7 +71,7 @@ What is HTTP's default port?
 
 A port is an essential component of the ??? .
 
-- `IP`
+- `IP address`
 - `networked devices`
 - `Internet`
 

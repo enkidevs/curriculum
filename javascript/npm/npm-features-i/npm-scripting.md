@@ -9,11 +9,12 @@ tags:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Npm Scripting
@@ -125,7 +126,9 @@ Given the following is in your `package.json`, execute the script called `dailyS
 }
 ```
 
+```bash
 ??? ??? ???
+```
 
 - npm
 - run

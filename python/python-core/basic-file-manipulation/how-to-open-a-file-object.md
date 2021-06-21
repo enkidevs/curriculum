@@ -9,11 +9,13 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # How to open a file object
@@ -27,7 +29,7 @@ revisionQuestion:
 
 Consider the following syntax:
 
-```plain-text
+```python
 obj = open(f_name, [access_mode],
                       [buffering])
 ```
@@ -58,7 +60,7 @@ Note that every `file` *object* has the following attributes:
 
 Consider the following example:
 
-```plain-text
+```python
 # Open file.txt and print file name
 
 obj = open("doc.txt","w")

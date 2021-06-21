@@ -9,11 +9,13 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Overcome line-ending issues
@@ -62,8 +64,10 @@ git ??? ???
 ## Revision
 
 To enable `core.autocrlf`, its value should be set to:
-Windows   ???  
-Linux/Mac   ???  
+```bash
+Windows    ???  
+Linux/Mac  ???  
+```
 
 - true
 - input

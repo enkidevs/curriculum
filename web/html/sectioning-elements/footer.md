@@ -9,14 +9,15 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
-# The `<footer>` Element
+# The footer Element
 
 
 ---
@@ -71,7 +72,9 @@ The `<footer>` element is encouraged to contain which of the following?
 
 Which container is best to organize the bottom of a web page or content section?
 
+```html
 ???
+```
 
 - `<footer>`
 - `<foot>`

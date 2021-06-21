@@ -10,11 +10,11 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Handling event errors
@@ -70,24 +70,24 @@ test.on(‘uncaughtException’, function(err)
 ```
 
 What event type is emitted by the `test` event emitter object?
+
 ???
 
 - uncaughtException
 - eventFailure
 - error
 
-
 ---
 
 ## Revision
 
 What happens when the event emitter emits an event with no attached listeners?
+
 ???
 
 - Event is ignored.
 - Event is thrown into the event loop.
 - Event causes an error.
-
 
 ---
 

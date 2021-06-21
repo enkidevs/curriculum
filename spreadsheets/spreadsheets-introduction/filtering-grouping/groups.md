@@ -5,7 +5,7 @@ category: how-to
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Groups
@@ -37,7 +37,7 @@ This will give us a checkbox where we can select to either display or hide the g
 
 We can also group the `Professor` and `Student` cells and then nest all 3 in a top-level group. This will allow us to easily hide the whole table or just parts of it.
 
-
+ 
 ---
 
 ## Practice

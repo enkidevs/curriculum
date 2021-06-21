@@ -20,7 +20,7 @@ practiceQuestion:
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Translating `Scanner` tokens into primitive types

@@ -9,11 +9,11 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Cloning a Git repository
@@ -23,7 +23,7 @@ revisionQuestion:
 
 ## Content
 
-The second way through which you can get your hand on a **Git** repository is by *cloning* it.
+The second way through which you can get your hands on a **Git** repository is by *cloning* it.
 
 The term **cloning** entails how the whole **Git** flow works. Instead of providing a working copy, the `git clone` command makes a full copy of the *repository*, including all project history.
 

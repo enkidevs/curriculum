@@ -3,15 +3,23 @@ author: emmab
 tags:
   - introduction
 type: normal
-category: must-know
+category: coding
+setupCode:
+  startingPoint: |
+   # 👋 Welcome to the Python coding playground.
+   # Update the statement to print 'Hello World'
+   
+   print("You got this!")
+   
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Hello World!
@@ -29,26 +37,22 @@ To do this, in the Python interpreter, use Python's print function as follows:
 print('Hello World!')
 ```
 
-The output displayed in the shell is:
+The output displayed in the shell should be:
 
-```python
-# Hello World!
+```Plain Text
+Hello World!
 ```
 
 In this program, we've used Python's built-in `print` function. Soon you'll learn about many more of these built-in functions and how to create your own.
 
-> As with all the skills in the app, if you want to access more advanced or specific content at any time, **feel free to use the *Skill Map* tab** to jump to the workouts most relevant for you.
 
-> 💬 Why are you interested in Python?
->
-> Leave a comment or view some of the other comments for inspiration before moving on.
-
+> As with all the skills in the app, if you want to access more advanced or specific content at any time, **feel free to use the [*Skill Map*](https://enki.com/skill/selection) tab** to jump to the workouts most relevant for you.
 
 ---
 
 ## Practice
 
-Let's practice using Python! Which statement will display `'Enki'`?
+Let's practice more Python! Which statement will display `'Enki'`?
 
 ```python
 ???
@@ -64,10 +68,13 @@ Let's practice using Python! Which statement will display `'Enki'`?
 
 ## Revision
 
-Complete the code snippet with the correct function to write `'Python with Enki!'` to the shell:
+Complete the code snippet with the correct function to output `'Python with Enki!'`:
 
 ```plain-text
 ???('Python with Enki!')
+
+# Output:
+# Python with Enki!
 ```
 
 - `print`

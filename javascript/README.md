@@ -6,4 +6,10 @@ icon: https://img.enkipro.com/ffb20aa0ebccafc5f626018bccd5ebde.png
 
 color: FFE4A6
 
-language: js
+language: javascript
+
+availableAspects:
+  - introduction
+  - workout
+  - deep
+  - obscura

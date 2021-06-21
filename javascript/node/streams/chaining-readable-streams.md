@@ -12,11 +12,12 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Chaining Readable Streams
@@ -30,7 +31,7 @@ Chaining is where multiple pipes are used to move (pipe) data along a path where
 
 Take the following example:
 
-```plain-text
+```js
 var fs = require(‘fs’);
 var zlib = require(`zlib’);
 

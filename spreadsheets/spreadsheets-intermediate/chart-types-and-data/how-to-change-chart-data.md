@@ -5,7 +5,7 @@ category: how-to
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # How to Change Chart Data
@@ -14,7 +14,7 @@ practiceQuestion:
 ---
 
 ## Content
-
+ 
 There might be times when you want to add more data to your chart after creating it.
 
 To do this you need to open the `Chart editor` and click on the `Select data range` button.

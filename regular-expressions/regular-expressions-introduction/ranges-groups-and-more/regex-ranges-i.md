@@ -7,11 +7,11 @@ category: must-know
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Ranges I
@@ -21,7 +21,7 @@ revisionQuestion:
 
 ## Content
 
-The wildcards that we learnt about previously (`.`, `\w`, `\W`, `\s`, `\S`, `\d`, `\D`) are sometimes *too powerful.*
+The wildcards that we learned about previously (`.`, `\w`, `\W`, `\s`, `\S`, `\d`, `\D`) are sometimes *too powerful.*
 
 Say we want to match *specific characters* instead of every character of a certain type, then we can use **ranges**.
 
@@ -43,7 +43,7 @@ We can also use the `-` symbol to build an inclusive range:
 
 `/[a-zA-Z0-9_]/` is equivalent to `/\w/`
 
-So now we can make our wildcards *more specific* by using ranges. This is super useful! 
+So now we can make our wildcards *more specific* by using ranges. This is super useful!
 
 Take a real-world example. We can use ranges to check whether a list of credit card numbers are Visa or Mastercard, and not American Express.
 
@@ -84,4 +84,3 @@ How would you specify a range of letters from 'a' to 'c', and a range of numbers
 - `/[ac-13]/`
 - `/[a-c-1-3]/`
 - `/[ac13]/`
- 

@@ -12,11 +12,11 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Detect XXE
@@ -48,9 +48,11 @@ If you *really absolutely have to build your own* understand that it is a sensit
 ## Practice
 
 What's the best way to prevent XXE attacks?
+
 ???
 
 What should you disable to prevent them?
+
 ???
 
 - Use a library designed for the job

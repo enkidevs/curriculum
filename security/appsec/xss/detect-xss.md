@@ -13,11 +13,11 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Detect XSS Vulnerabilities
@@ -40,6 +40,7 @@ In order to review source code to establish whether or not your application is v
 ## Practice
 
 Which of these will produce a vulnerability to XSS?
+
 ???
 
 - Storing unvalidated input
@@ -52,6 +53,7 @@ Which of these will produce a vulnerability to XSS?
 ## Revision
 
 Which of these will produce a vulnerability to XSS?
+
 ???
 
 - Writing unvalidated input to the page

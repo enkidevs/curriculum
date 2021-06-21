@@ -7,11 +7,11 @@ category: must-know
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Ranges II
@@ -38,7 +38,7 @@ This means that the following is true:
 
 `[^0-9]` is equivalent to `\D`
 
-Most patterns can be written using the technique from the previous insight as they are really *two sides of the same coin*. 
+Most patterns can be written using the technique from the previous insight as they are really *two sides of the same coin*.
 
 By having both choices, you can decide which one is easier to write and understand when creating your own patterns.
 
@@ -69,4 +69,3 @@ Using the '^' character, which regex pattern matches `hog` and `dog`, but not `b
 - /[fp]un/
 - /[b]un/
 - /[^fp]un/
- 

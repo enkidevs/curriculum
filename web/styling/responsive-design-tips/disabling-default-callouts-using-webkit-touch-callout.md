@@ -9,10 +9,10 @@ links:
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
-# Disabling default callouts using `webkit-touch-callout`
+# Disabling default callouts using webkit-touch-callout
 
 
 ---

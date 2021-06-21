@@ -3,19 +3,19 @@ author: nem035
 type: normal
 category: must-know
 links:
-  - '[Docker Network Overview](https://docs.docker.com/network/){documentation}'
+  - "[Docker Network Overview](https://docs.docker.com/network/){documentation}"
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Networks
-
 
 ---
 
@@ -23,7 +23,7 @@ revisionQuestion:
 
 When we start a container, in the background we are connecting to a particular Docker network.
 
-Each Docker network routes out through a NAT firewall, which is the Docker Daemon configuring the host IP address on its default interface, so that our containers can get out and get back from the Internet or other networks.
+Each Docker network routes out through a NAT firewall[1], which is the Docker Daemon configuring the host IP address on its default interface, so that our containers can get out and get back from the Internet or other networks.
 
 Docker allows us to create a virtual network, to which one or more containers can attach to.
 
@@ -118,7 +118,6 @@ r6kesov18daq        ingress             overlay             swarm
 39c716c01a9f        none                null                local
 ```
 
-
 ---
 
 ## Practice
@@ -129,7 +128,6 @@ The default network in Docker is called ???
 - train
 - host
 - NAT
-
 
 ---
 
@@ -144,3 +142,14 @@ docker network ??? ??? ???
 - connect
 - world
 - enki
+
+---
+
+## Footnotes
+
+[1: NAT Firewall]
+In the field of computer networking, NAT stands for **N\***etwork **A**ddress **T**ranslation\*.
+
+NAT allows many devices on a private network to share a single access point with the internet, commonly called a _gateway_.
+
+A NAT firewall works by only allowing internet traffic to pass through the gateway if a device on the private network requested it.

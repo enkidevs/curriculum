@@ -1,4 +1,4 @@
-﻿---
+---
 author: Stefan-Stojanovic
 
 type: normal
@@ -13,7 +13,7 @@ category: how-to
 ## Content
 
 Charts are a great way of visualizing data.
-
+ 
 Let's say we have a table spanning over three years, with an `Employee of the month` column.
 
 ![table](https://img.enkipro.com/1f584d886ee197028c667f42f509ef2c.png)

@@ -10,7 +10,7 @@ links:
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Paging Through Long Output Using `less`
@@ -60,9 +60,7 @@ Run `man less` to read `less`'s manual (aka "manpage"), or take a look at the re
 
 ## Revision
 
-A pager utility that allows you to scroll and search through a stream of output, alternative to `more`,  is
-
-???.
+A pager utility that allows you to scroll and search through a stream of output, alternative to `more`,  is ???
 
 - less
 - grep

@@ -10,11 +10,13 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Order By clause
@@ -28,14 +30,14 @@ The `ORDER BY` clause in SQL helps you sort the data returned by your queries.
 
 Let's look at the following `employees` table:
 
-| id | first_name | last_name | email                                                     |
-| -- | ---------- | --------- | --------------------------------------------------------- |
-| 1  | Karlene    | Pantone   | [kpantone0@topsy.com](mailto:kpantone0@topsy.com)         |
-| 2  | Donnamarie | Beeho     | [dbeeho1@state.tx.us](mailto:dbeeho1@state.tx.us)         |
-| 3  | Tony       | Isworth   | [tisworth2@bloglovin.com](mailto:tisworth2@bloglovin.com) |
-| 4  | Esta       | Warrier   | [ewarrier3@berkeley.edu](mailto:ewarrier3@berkeley.edu)   |
-| 5  | Immanuel   | Kippen    | [ikippen4@biglobe.ne.jp](mailto:ikippen4@biglobe.ne.jp)   |
-| 6  | Regina     | Pantone   | [regone@stratos.org](mailto:regone@stratos.org)           |
+| id | first_name | last_name | email                   |
+|----|------------|-----------|-------------------------|
+| 1  | Karlene    | Pantone   | kpantone0@topsy.com     |
+| 2  | Donnamarie | Beeho     | dbeeho1@state.tx.us     |
+| 3  | Tony       | Isworth   | tisworth2@bloglovin.com |
+| 4  | Esta       | Warrier   | ewarrier3@berkeley.edu  |
+| 5  | Immanuel   | Kippen    | ikippen4@biglobe.ne.jp  |
+| 6  | Regina     | Pantone   | regone@stratos.org      |
 
 Let's say we want to sort our results alphabetically by their `last_name`. You'd use the following syntax: 
 

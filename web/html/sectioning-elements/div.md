@@ -12,14 +12,15 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
-# The `<div>` element
+# The div element
 
 
 ---
@@ -115,14 +116,16 @@ Which HTML element is best used here?
 </body>
 ```
 
+```html
 TAG: ???
+```
 
-- `<div>`
-- `<main>`
-- `<aside>`
-- `<section>`
-- `<article>`
-- `<wrap>`
+- `div`
+- `main`
+- `aside`
+- `section`
+- `article`
+- `wrap`
 
 
 ---

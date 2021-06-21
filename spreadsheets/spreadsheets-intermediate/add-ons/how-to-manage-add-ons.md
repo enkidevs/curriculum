@@ -1,4 +1,4 @@
-﻿---
+---
 author: Stefan-Stojanovic
 
 type: normal
@@ -26,4 +26,4 @@ This will open a pop-up window which is the same as when installing them. This t
 
 ![manage-installed-add-ons](https://img.enkipro.com/02fdb386c0ae4991689e3878008d9954.png)
 
-You can disable an add-on for the current sheet, get help, report an issue, or uninstall it.
+You can disable an add-on for the current sheet, get help, report an issue, or uninstall it. 

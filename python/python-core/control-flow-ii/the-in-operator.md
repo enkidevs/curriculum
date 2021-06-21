@@ -14,14 +14,15 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
-# The `in` operator
+# The in operator
 
 
 ---
@@ -62,14 +63,14 @@ letter = 'p'
 my_string = 'stop, collaborate and listen'
 
 if letter ??? my_string:
-    print(???)
+    print('???')
 else:
-    print(???)
+    print('???')
 ```
 
 - `in`
-- `'True'`
-- `'False'`
+- `True`
+- `False`
 - `is`
 - `find`
 
@@ -92,5 +93,5 @@ The `in` operator evaluates to ??? if it finds the specified value in the ???.
 ## Footnotes
 
 [1:Membership operator]
-Membership operators are used to test if a sequence is present in an object, such as a string.
+Membership operators are used to test if a variable is present in an object, such as a string.
  

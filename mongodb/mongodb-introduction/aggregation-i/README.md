@@ -8,7 +8,6 @@ insights:
   - aggregation-4-stages
   - aggregation-sort
 aspects:
-  - new
   - workout
   - introduction
  

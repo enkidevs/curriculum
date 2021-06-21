@@ -6,15 +6,15 @@ links:
   - '[Useful sed one-liners](http://sed.sourceforge.net/sed1line.txt){website}'
 practiceQuestion:
   formats:
-    - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
-# Transforming Text With `sed`
+# Transforming Text With sed
 
 
 ---
@@ -67,8 +67,7 @@ As you can see, `sed` offers powerful tools for manipulating text.  It's one of 
 Replace the first apparition of *apple* in each line by *orange*:
 
 ```bash
-??? '??? ??? ???'
-        fruits.txt
+??? '??? ??? ???' fruits.txt
 ```
 
 - `sed`

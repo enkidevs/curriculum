@@ -12,14 +12,14 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
-# Manipulating shapes using CSS: `clip-path`
+# Manipulating shapes using clip-path
 
 
 ---

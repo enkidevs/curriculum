@@ -12,11 +12,12 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Dictionary Methods II
@@ -62,13 +63,18 @@ print(square_numbers)
 # {1: 1, 2: 4, 3: 9, 4: 16}
 ```
 
-- `fromkeys()` return a new **dictionary** with keys provided in the first argument, and values from the second argument:
+- `fromkeys()` can make a new dictionary from the given keys. For instance, we can provide names as keys and surname as the value to get a dictionary of famous_siblings.
 
 ```python
-square_numbers = {}.fromkeys([1,2,3], 0)
+names = ('Luke', 'Chris', 'Liam')
 
-print(square_numbers)
-# {1: 0, 2: 0, 3: 0}
+surname = ('Hemsworth')
+
+famous_siblings = dict.fromkeys(names, surname)
+
+print(famous_siblings)
+
+#{'Luke': 'Hemsworth', 'Chris': 'Hemsworth', 'Liam': 'Hemsworth'}
 ```
 
 

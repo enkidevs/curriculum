@@ -11,11 +11,13 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Description Lists
@@ -148,9 +150,11 @@ Complete the HTML code to create a descriptive list.
 </A>
 ```
 
+```plain-text
 A: ???
 B: ???
 C: ???
+```
 
 - `dl`
 - `dt`
@@ -167,7 +171,6 @@ C: ???
 ## Revision
 
 Which HTML elements are used to describe a term or name in a description list?
-Option A, B, C or D?
 
 ```html
 <!--A-->
@@ -193,9 +196,11 @@ Option A, B, C or D?
   <term>HTML</term>
   <desc>Content of web page</desc>
 </list>
+
+
+<!--???-->
 ```
 
-???
 
 - A
 - B

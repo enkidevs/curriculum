@@ -12,11 +12,12 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Chain comparison operators
@@ -40,10 +41,12 @@ Chaining operators is equivalent to:
 ```python
 x = 10
 
-1 < x  and x < 15
+1 < x and x < 15
 # True
 ```
 
+> 🤔 Is it possible to chain separate variables like the following:
+*1 < x < 12 and 4 < y < 8*?
 
 ---
 
@@ -65,11 +68,12 @@ How do you check whether the value of the integer `x` is at least 2 and no more 
 
 What will the following expression evaluate to?
 
-```plain-text
+```python
 a = 9
 
 1 < a < 8
-???
+
+# ???
 ```
 
 - `False`

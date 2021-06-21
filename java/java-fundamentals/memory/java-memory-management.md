@@ -7,11 +7,11 @@ tags:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Java Memory Management
@@ -25,7 +25,7 @@ Memory management is the process of allocating new objects and removing unused o
 
 > Freeing up used memory is entirely up to the Java Virtual Machine's (JVM) Garbage collector (GC). 
 
-This way, the developer doesn't need to reason about this part of the code and also any possible code bugs leading to memory leaks or referencing already freed up memory are avoided.
+This way, the developer doesn't need to reason about this part of the code. Also, any possible code bugs that lead to memory leaks or references to already freed up memory are avoided.
 
 It's based on a Mark-and-Sweep algorithm which is similar to performing a Breadth/Depth first search on the graph formed by the allocated objects as graph nodes and their pointers as node edges. 
 

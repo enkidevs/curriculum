@@ -9,11 +9,12 @@ notes: 'https://insights.enki.com/#/contrib/others/5585b52f575399cf01b26b9f?sear
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # How and when to use `WeakHashMap` class

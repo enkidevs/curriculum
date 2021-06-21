@@ -8,11 +8,11 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Spread (Part 1)
@@ -86,14 +86,14 @@ console.log(
 // 82
 ```
 
-- ...
-- arr1
-- ...arr2
-- arr2
-- ...arr1
-- ,
-- [arr1]
-- [arr2]
+- `...`
+- `arr1`
+- `...arr2`
+- `arr2`
+- `...arr1`
+- `,`
+- `[arr1]`
+- `[arr2]`
 
 
 ---
@@ -115,14 +115,14 @@ console.log(??? ???)
 
 ```
 
-- addNumbers(
-- ...
-- arr1)
-- addNumbers
-- (...arr2)
-- arr2)
-- addNumbers(...)
-- addNumbers(arr1)
-- arr2
-- arr1
+- `addNumbers(`
+- `...`
+- `arr1)`
+- `addNumbers`
+- `(...arr2)`
+- `arr2)`
+- `addNumbers(...)`
+- `addNumbers(arr1)`
+- `arr2`
+- `arr1`
  

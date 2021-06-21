@@ -12,15 +12,14 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # `{}` vs `object` vs `Object`
-
 
 ---
 
@@ -38,18 +37,18 @@ The type `{}` is used to represent an object with a specific shape.
 let empty: {} = {};
 
 const Enki: {
-  job: string,
-  isFun: boolean,
+  job: string;
+  isFun: boolean;
 } = {
   job: "teach",
-  isFun: true
+  isFun: true,
 };
 ```
 
 Assigning values that aren't part of the shape will cause errors:
 
 ```ts
-empty.name = 'oops';
+empty.name = "oops";
 // error: Property 'name' does not exist on type '{}'
 Enki.age = 5;
 // error: Property 'age' does not exist on type '{ job: string; isFun: boolean; }'
@@ -66,7 +65,7 @@ let obj: object = { enki: true };
 let arr: object = [1, 2, 3];
 // a map is an "object"
 let map: object = new Map([
-  ["enki", "cool"],
+  ["enki", "cool"]
 ]);
 // ...
 // primitive values aren't an "object"
@@ -88,7 +87,7 @@ However, the `Object` type can be used to represent any type that is considered 
 // almost anything is an "Object"
 let num: Object = 3;
 let bool: Object = false;
-let str: Object = 'enki';
+let str: Object = "enki";
 let arr: Object = [1, 2, 3];
 // ...
 // only null and undefined
@@ -96,7 +95,6 @@ let arr: Object = [1, 2, 3];
 let n: Object = null; // error
 let u: Object = undefined; // error
 ```
-
 
 ---
 
@@ -106,15 +104,15 @@ Which statement will throw an error?
 
 ```ts
 const a: Object = {
-  enki: 'fun'
+  enki: "fun",
 };
 
 const b: object = {
-  enki: 'fun'
+  enki: "fun",
 };
 
 const c: { enki: string } = {
-  enki: 'fun'
+  enki: "fun",
 };
 ```
 
@@ -124,7 +122,6 @@ const c: { enki: string } = {
 - b
 - a
 - c
-
 
 ---
 
@@ -148,7 +145,6 @@ const d: Object = { enki: true };
 - a
 - c
 - d
-
 
 ---
 
@@ -175,7 +171,7 @@ A quick test to verify if something is an object is to try and access a property
 x = // anything
 // if this throws, then
 // x is not an object
-(x).enki
+(x).enki;
 ```
 
 For example, these values are all objects:

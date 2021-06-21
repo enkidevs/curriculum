@@ -7,6 +7,7 @@ tags:
 practiceQuestion:
   formats:
     - fill-in-the-gap
+    - type-in-the-gap
   context: relative
 revisionQuestion:
   formats:
@@ -42,7 +43,7 @@ Read `man passwd` for more details.
 
 ## Practice
 
-Change `enkiUser` ‘s password:
+Change `enkiUser`'s password:
 
 ```bash
 ??? ??? ???

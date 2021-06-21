@@ -9,10 +9,12 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
+    - type-in-the-gap
   context: relative
 revisionQuestion:
   formats:
     - fill-in-the-gap
+    - type-in-the-gap
   context: relative
 ---
 
@@ -67,7 +69,7 @@ Print the output of `ls` command in two files:
 
 ## Revision
 
-Print the output of `ls` command in two files:
+Print the output of `ls` command in two files using `tee`:
 
 ```bash
 ??? ??? ??? fileone filetwo

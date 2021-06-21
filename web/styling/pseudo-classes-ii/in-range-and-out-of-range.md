@@ -12,14 +12,14 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
-# The `:in-range` and `:out-of-range` Pseudo-Classes
+# The :in-range & :out-of-range Pseudo-Classes
 
 
 ---

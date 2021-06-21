@@ -7,7 +7,5 @@ insights:
   - webflow-flexbox
   - webflow-overviews
 aspects:
-  - deep
   - workout
   - introduction
- 

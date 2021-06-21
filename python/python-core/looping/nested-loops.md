@@ -1,15 +1,15 @@
 ---
 author: tommarshall
 type: normal
-category: must-know
+category: discussion
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Nested Loops
@@ -52,7 +52,7 @@ for letter in letters:
 
 Gives the following output:
 
-```python
+```plain-text
 a
 0
 1
@@ -67,6 +67,9 @@ c
 2
 ```
 
+> 🤔 Can we insert a `while` loop inside a `for` loop? Can you think of a scenario where we might need to?
+>
+> Leave a comment or view some of the other comments for inspiration before moving on.
 
 ---
 
@@ -94,6 +97,7 @@ for i in [1,2]:
 ## Revision
 
 How do nested loops work?
+
 ???
 
 - The outer loop increments once per full cycle of the inner loop.

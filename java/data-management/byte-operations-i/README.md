@@ -8,6 +8,5 @@ insights:
   - bitwise-operations-in-java
 aspects:
   - introduction
-  - new
   - obscura
  

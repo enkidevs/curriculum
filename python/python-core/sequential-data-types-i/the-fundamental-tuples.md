@@ -10,14 +10,16 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
-# The `tuple`
+# The tuple
 
 
 ---
@@ -34,7 +36,7 @@ They're used to *group any number of items*, regardless of their type, into a *s
 my_first_tuple = ('first', 1, '1', 1.0)
 ```
 
-Again, we can extract elements from tuples using the index operator, and items cannot be reassigned:
+We can extract elements from tuples using the index operator, and items cannot be reassigned:
 
 ```python
 print(my_first_tuple[3])

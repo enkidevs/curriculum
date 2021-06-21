@@ -12,11 +12,12 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Creating Elements
@@ -78,13 +79,13 @@ Given this code, fill in the blanks to create a new paragraph element:
 
 ```javascript
 let p = 
-  document.???(???);
+  document.???("???");
 ```
 
 - `createElement`
-- `"p"`
-- `create`
 - `p`
+- `create`
+- `paragraph`
 - `element`
 - `getElementsByTagName`
 

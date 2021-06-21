@@ -3,30 +3,33 @@ author: nem035
 type: normal
 category: best-practice
 links:
-  - '[Docker Volumes](https://docs.docker.com/storage/volumes/){documentation}'
-  - '[Manage data in Docker](https://docs.docker.com/storage/){documentation}'
+  - "[Docker Volumes](https://docs.docker.com/storage/volumes/){documentation}"
+  - "[Manage data in Docker](https://docs.docker.com/storage/){documentation}"
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Volumes
-
 
 ---
 
 ## Content
 
-Volumes represent a special location outside of a container's file system to store persistent data. This preserves the data through the container's lifespan and allows us to attach it to whatever container we want to(including multiple containers).
+Volumes represent a special location outside of a container's file system to store persistent data.
 
-As far as the container is concerned, that volume is just a local file path.
+This preserves the data through the container's lifespan and allows us to attach it to whatever container we want to(including multiple containers).
 
-This means that volumes require manual deletion and won't be removed by removing the container. Another consequence is that, since they are independent from containers, volumes do not increase the size of a container.
+> 💡 As far as the container is concerned, that volume is just a local file path.
+
+This means that volumes require manual deletion and won't be removed by removing the container.
+
+Since they are independent from containers, volumes do not increase the size of a container.
 
 Volumes can be created using the `VOLUME` command in the Dockerfile, or by using the command line flags for `docker run`. The flags we can use are `--mount` or `--volume` (`-v` for short).
 
@@ -59,7 +62,6 @@ The direct way to create a volume is to use the `create` cli command.
 docker volume create enki-volume
 ```
 
-
 ---
 
 ## Practice
@@ -73,7 +75,6 @@ Volume data is still available when we remove the container.
 - true, but only with a safe exit
 - true, but the data cannot be altered
 
-
 ---
 
 ## Revision
@@ -86,13 +87,11 @@ Multiple containers can share the same volume.
 - false
 - true, but the data cannot be altered
 
-
 ---
 
 ## Quiz
 
 ### How much do you know about volumes in Docker containers?
-
 
 Can Volumes increase the size of the container?
 

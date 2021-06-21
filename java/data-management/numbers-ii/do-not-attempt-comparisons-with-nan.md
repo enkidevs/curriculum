@@ -8,11 +8,13 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Do not attempt comparisons with NaN
@@ -80,16 +82,16 @@ What value will `x` have here?
 
 ```java
 double x = Math.tan(1/0.0);
-```
 
-???
+System.out.println(x);
+// ???
+```
 
 - `NaN`
 - `0`
 - `pi`
 - `Math.PI`
 - `3.14`
-
 
 ---
 

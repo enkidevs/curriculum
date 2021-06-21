@@ -15,7 +15,7 @@ practiceQuestion:
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # File Ownership

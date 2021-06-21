@@ -2,14 +2,14 @@
 author: Stefan-Stojanovic
 type: normal
 category: must-know
-links: null
+
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
-# Querying An Array With The $all Operator
+# Querying An Array With $all
 
 
 ---

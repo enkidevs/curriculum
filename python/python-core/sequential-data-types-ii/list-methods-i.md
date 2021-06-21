@@ -9,11 +9,12 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # List Methods I
@@ -72,6 +73,7 @@ print(number_list)
 # [6, 5, 3, 2]
 ```
 
+> 🤔 Can we use extend and append interchangeably?
 
 ---
 

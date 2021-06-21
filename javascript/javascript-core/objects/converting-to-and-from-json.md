@@ -8,21 +8,23 @@ tags:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
+
 ---
 
 # Converting to and From JSON
-
 
 ---
 
 ## Content
 
-`JSON.stringify()` method is used to convert a JavaScript object or value to a [JSON](https://www.enki.com/glossary/general/json) string.
+`JSON.stringify()` method is used to convert a JavaScript object or value to a [JSON](https://enki.com/glossary/general/json) string.
 
 Example:
 
@@ -36,7 +38,7 @@ console.log(JSON.stringify(ourDog));
 // prints '{"name":"Leo","dog years":14}'
 ```
 
-To override the default behavior of `JSON.stringify()` you can provide a key `toJSON` in your object, mapping to a function with your desired behavior.
+To override the default behavior of `JSON.stringify()`, you can provide a key `toJSON` in your object, mapping to a function with your desired behavior.
 
 Example:
 
@@ -45,14 +47,18 @@ const ourDog = {
     name: 'Rocky',
     age: 2,
     'dog years': 14,
-    toJSON: () => ({food: 'dog snacks'})
+    toJSON: function() {
+      return {
+        food: 'dog snacks'
+      };
+    }
 }
 
 console.log(JSON.stringify(ourDog));
 //prints {"food":"dog snacks"}
 ```
 
-To convert a JSON string back to JavaScript you can use `JSON.parse()` method.
+To convert a JSON string back to JavaScript, you can use the `JSON.parse()` method.
 
 Example:
 
@@ -62,7 +68,6 @@ const dog = JSON.parse(ourJSON);
 console.log(dog.name);
 // prints "Roxy"
 ```
-
 
 ---
 

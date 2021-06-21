@@ -9,7 +9,8 @@ links:
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Shorthand Transitions
@@ -46,7 +47,7 @@ For setting many transitions at once, set every individual group of transition v
 
 ## Revision
 
-Which of the following examples are using the CSS `transition` property with the transition values in the correct order? ???
+Which of the following examples are using the CSS `transition` property with the transition values in the correct order?
 
 ```css
 // Option A
@@ -59,6 +60,10 @@ transition: .2s linear background;
 transition: linear background .2s;
 ```
 
-- Option A
-- Option B
-- Option C
+```plain-text
+Option ???
+```
+
+- A
+- B
+- C

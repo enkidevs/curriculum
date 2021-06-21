@@ -5,11 +5,12 @@ category: how-to
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Logical Operators
@@ -22,12 +23,9 @@ revisionQuestion:
 Just like relational operators, logical operators only evaluate to `true` or `false`.
 
 There are a total of three logical operators:
-
-| Operator | Definition                                                                     |   |                                                                        |
-| -------- | ------------------------------------------------------------------------------ | - | ---------------------------------------------------------------------- |
-| `&&`     | `AND` evaluates to `true` if all of the conditions evaluate to `true`          |   |                                                                        |
-| `        |                                                                                | ` | `OR` evaluates to `true` if at least one condition evaluates to `true` |
-| `!`      | `NOT` evaluates to `true` if the condition evaluates to `false` and vice versa |   |                                                                        |
+  * `&&` (the `AND` condition) evaluates to `true` if all of the conditions evaluate to `true` 
+  * `||` (the `OR` condition) evaluates to `true` if at least one condition evaluates to `true`
+  * `!` (the `NOT` condition) evaluates to `true` if the condition evaluates to `false` and vice versa
 
 Logical operators are commonly used in `if/if else` or `switch` statements.
 

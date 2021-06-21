@@ -13,11 +13,11 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Handle `JSON.parse` error in Node.js
@@ -33,7 +33,7 @@ This is because **synchronous operational errors** are very rare in Node and onl
 
 For example:
 
-```plain-text
+```js
 webSocket.on('msg', function (msg) {
   var msgObj;
   try {

@@ -7,7 +7,7 @@ and it was adapted for the `curriculum` repository.
 **Format**
 
 The general format is:
-
+ 
 ```md
 ## Date
 ### Type of change
@@ -39,7 +39,7 @@ Types of change:
 - `Fixed` for any minor fixes (e.g. add a missing comma, adding a code block tag, fixing a report).
 
 ## WIP
-
+ 
 ### Added
 
 ### Changed
@@ -47,6 +47,256 @@ Types of change:
 ### Archived
 
 ### Fixed
+
+## June 18th 2021
+
+### Added
+- [Javascript - Playground exercises - Add questions](https://github.com/enkidevs/curriculum/pull/2709)
+
+## June 16th 2021
+
+### Fixed
+- [Python - check if value in string - add missing bracket](https://github.com/enkidevs/curriculum/pull/2749)
+
+### Changed
+- [Python - Course Order - Set Playground questions as third course instead of first one](https://github.com/enkidevs/curriculum/pull/2747)
+- [Python - Even or odd & both arithmetic operation exercises - Update Readme names and descriptions of insights](https://github.com/enkidevs/curriculum/pull/2748)
+- [Python - Improve workouts](https://github.com/enkidevs/curriculum/pull/2732)
+
+## June 15th 2021
+
+### Changed
+- [JavaScript - Improve workouts](https://github.com/enkidevs/curriculum/pull/2746)
+
+## June 14th 2021
+
+### Changed
+- [Python - Improve workouts](https://github.com/enkidevs/curriculum/pull/2734)
+- [JavaScript - Converting to and from JSON - Replace Arrow Function With Regular Function Syntax](https://github.com/enkidevs/curriculum/pull/2743)
+
+### Added
+- [Python - Using else in loops - Add missing info](https://github.com/enkidevs/curriculum/pull/2730)
+
+### Changed
+- [Python - Sequential data types - Improve explanation](https://github.com/enkidevs/curriculum/pull/2733)
+
+## June 7th 2021
+
+### Fixed
+- [JavaScript - Spread 1 - Add code identifiers to answers to remove differnt colors](https://github.com/enkidevs/curriculum/pull/2742)
+- [Python - Creating Classes - Update information on instantiating classes](https://github.com/enkidevs/curriculum/pull/2738)
+- [Regex - Ranges I - Update spelling to US](https://github.com/enkidevs/curriculum/pull/2740)
+
+## June 4th 2021
+
+### Archived
+- [Java - The distinction between checked and unchecked exceptions - Archive duplicate insight](https://github.com/enkidevs/curriculum/pull/2737)
+
+## June 3rd 2021
+
+### Changed
+- [Questions - Remove or update type-in-the-gap questions accordingly](https://github.com/enkidevs/curriculum/pull/2735)
+
+## May 31st 2021
+
+### Fixed
+- [Spreadsheets - Data Validation - Add missing footnote and information](https://github.com/enkidevs/curriculum/pull/2731)
+
+## May 26th 2021
+
+### Fixed
+- [Python - Why Learn Python - Fix code identifier bug](https://github.com/enkidevs/curriculum/pull/2728)
+
+## May 25th 2021
+
+### Changed
+- [Coding Intro - Core Concepts - Temporarily disable coding insight](https://github.com/enkidevs/curriculum/pull/2729)
+
+### Added
+- [Python - Playground Questions - Add questions for playground](https://github.com/enkidevs/curriculum/pull/2723)
+
+## May 24th 2021
+
+### Fixed
+- [Web - Web Introducion - Remove scrimba links because they require an account](https://github.com/enkidevs/curriculum/pull/2727)
+
+### Added
+- [All topics - Retrigger availableAspects](https://github.com/enkidevs/curriculum/pull/2726)
+
+## May 20th 2021
+
+### Fixed
+- [SQL - Order By Advanced - Fix footnote table markdown](https://github.com/enkidevs/curriculum/pull/2717)
+- [General - Fix some content issues](https://github.com/enkidevs/curriculum/pull/2721)
+- [Curriculum - Accross All Topics - Remove links with value null](https://github.com/enkidevs/curriculum/pull/2720)
+
+## May 19th 2021
+
+### Fixed
+
+- [Coding Intro - Do it yourself - Fixed footnote](https://github.com/enkidevs/curriculum/pull/2716)
+
+## May 18th 2021
+
+### Changed
+- [Coding Intro - Improve first workouts](https://github.com/enkidevs/curriculum/pull/2716)
+
+## May 17th 2021
+
+### Fixed
+- [Linux - Quick cd tips - Fix weird html note](https://github.com/enkidevs/curriculum/pull/2711)
+- [Python Data Analysis - Different Tools To Use - Fix grammar](https://github.com/enkidevs/curriculum/pull/2713)
+- [Python Data Analysis - What Are Analysis Environents - Fix grammar](https://github.com/enkidevs/curriculum/pull/2714)
+- [Python Data Analysis - Creating Your First Notebook - Add missing identifiers](https://github.com/enkidevs/curriculum/pull/2713)
+- [Python - Calling Functions - Improve readability](https://github.com/enkidevs/curriculum/pull/2705)
+
+## May 12th 2021
+
+### Fixed
+- [Regexp - Email Address Checker II - Update wording](https://github.com/enkidevs/curriculum/pull/2701)
+- [Linux - Math in Terminal with BC - Fix syntax](https://github.com/enkidevs/curriculum/pull/2704)
+
+### Changed
+- [Javascript - Flow Control Discussion Insight - Convert to coding insight](https://github.com/enkidevs/curriculum/pull/2694)
+
+### Added
+- [Added availableAspects to all topic READMEs](https://github.com/enkidevs/curriculum/pull/2700)
+
+## May 11th 2021
+
+### Fixed
+- [Go - Operators - Fix MD table](https://github.com/enkidevs/curriculum/pull/2699)
+
+
+- [Python - Control Flow/If...else statements - Removed brackets from an if excercise](https://github.com/enkidevs/curriculum/pull/2703)
+
+## May 7th 2021
+
+### Changed
+- [Remove the `new` aspect from all the workouts; Remove the `obscura` and `deep` aspects from Zapier and Webflow](https://github.com/enkidevs/curriculum/pull/2695)
+
+## May 4th 2021
+
+### Fixed
+- [Javascript - Closures - Fix typo](https://github.com/enkidevs/curriculum/pull/2690)
+
+### Changed
+- [Python - Meet Python - Add code-oriented questions; other improvements](https://github.com/enkidevs/curriculum/pull/2681)
+
+### Fixed
+- [Python Data Analysis - What Are Notebooks - Fix typo](https://github.com/enkidevs/curriculum/pull/2693)
+- [Python Data Analysis - Analysis Environments - Fix Footnote number](https://github.com/enkidevs/curriculum/pull/2692)
+- [Web - Checkbox Group - Move link to links section and remove HTML comment](https://github.com/enkidevs/curriculum/pull/2691)
+
+## April 27th 2021
+
+### Fixed
+- [Git - Cloning A Git Repository - Fix typo](https://github.com/enkidevs/curriculum/pull/2687)
+
+### Added
+- [Coding Intro - What is Your Goal - Add deep links for SQL, Python, and Web](https://github.com/enkidevs/curriculum/pull/2679)
+
+## April 26th 2021
+
+### Fixed
+- [Go - Why Learn Go - Fix typo](https://github.com/enkidevs/curriculum/pull/2686)
+
+## April 23rd 2021
+
+### Fixed
+- [JavaScript - Converting to and From JSON - Fix glossary reference](https://github.com/enkidevs/curriculum/pull/2684)
+- [JavaScript - Converting to and From JSON - Temporarily remove glossary reference](https://github.com/enkidevs/curriculum/pull/2683)
+- [Glossary - JSON - Fix malformed link inside the glossary entry](https://github.com/enkidevs/curriculum/pull/2682)
+- [Airtable - Taging workouts with "workout" aspects](https://github.com/enkidevs/curriculum/pull/2685)
+
+## April 19th 2021
+
+### Changed
+- [Python - Change discussion insights to coding](https://github.com/enkidevs/curriculum/pull/2678)
+
+## April 13th 2021
+
+### Fixed
+- [Python - Change python coding to discussion back](https://github.com/enkidevs/curriculum/pull/2676)
+
+### Changed
+- [Python - Change python discussions to coding](https://github.com/enkidevs/curriculum/pull/2675)
+
+## April 9th 2021
+
+### Fixed
+- [Python Data Analysis - Movie and Tv Show Count - Fix misspelled variable output](https://github.com/enkidevs/curriculum/pull/2674)
+
+## April 6th 2021
+
+### Changed
+- [React - One or many state variables - Make the example clearer](https://github.com/enkidevs/curriculum/pull/2672)
+
+## March 29th 2021
+
+### Fixed
+- [Docker - Virtualization - Fix typo](https://github.com/enkidevs/curriculum/pull/2668)
+
+## March 26th 2021
+
+### Added
+- [JavaScript - IIFE Pattern - Add footnote on syntax differences](https://github.com/enkidevs/curriculum/pull/2665)
+
+## March 24th 2021
+
+### Changed
+- [Spreadsheets - Entire Topic - Add type in the gap to applicable questions](https://github.com/enkidevs/curriculum/pull/2592)
+
+## March 23rd 2021
+
+### Added
+- [Coding Intro - Programs and Data - Add youtube video showing instructions for PB and J sandwitch making](https://github.com/enkidevs/curriculum/pull/2660)
+- [Java - Java Primitives - Add missing information about numerical types](https://github.com/enkidevs/curriculum/pull/2663)
+
+### Changed
+- [TypeScript- Add type-in-the-gap and change context where applicable](https://github.com/enkidevs/curriculum/pull/2604)
+- [Linux - Mark type in the gap and standalone accordingly](https://github.com/enkidevs/curriculum/pull/2613)
+- [Java - Mark type in the gap and standalone accordingly](https://github.com/enkidevs/curriculum/pull/2609)
+- [Airtable - Add type in the gap and standalone accordingly](https://github.com/enkidevs/curriculum/pull/2607)
+- [Security - Add type in the gap and standalone accordingly](https://github.com/enkidevs/curriculum/pull/2606)
+- [Comp. Sci. - Type in & standalone questions](https://github.com/enkidevs/curriculum/pull/2605)
+- [JavaScript - Mark questions as type in the gap and standalone accordingly](https://github.com/enkidevs/curriculum/pull/2603)
+- [SQL - Mark questions as `type-in-the-gap` and `standalone` accordingly](https://github.com/enkidevs/curriculum/pull/2600)
+- [Coding Intro - Mark questions as `type-in-the-gap` and `standalone` accordingly](https://github.com/enkidevs/curriculum/pull/2594)
+
+## March 22nd 2021
+
+### Changed
+- [Regex- Add type-in-the-gap and change context where applicable](https://github.com/enkidevs/curriculum/pull/2608)
+- [Styling - Entire Topic - Remove backticks from headlines, add type in the gap to applicable questions](https://github.com/enkidevs/curriculum/pull/2598)
+- [HTML - Entire Topic - Remove HTML tags and back ticks from headlines, add type in the gap to applicable questions](https://github.com/enkidevs/curriculum/pull/2597)
+- [Data Analysis - Entire Topic - Add type in the gap to applicable questions](https://github.com/enkidevs/curriculum/pull/2596)
+- [Git - Entire Topic - Add type in the gap & remove all back ticks from headlines](https://github.com/enkidevs/curriculum/pull/2595)
+- [MongoDB - Entire Topic - Remove backticks from headlines, add type-in-the-gap, update questions](https://github.com/enkidevs/curriculum/pull/2593)
+- [Blockchain - Entire Topic - Add type-in-the-gap question type to applicable questions](https://github.com/enkidevs/curriculum/pull/2591)
+- [Docker - Add type-in-the-gap and change context where applicable](https://github.com/enkidevs/curriculum/pull/2590)
+- [Go - Entire Topic - Add type-in-the-gap question type to applicable questions](https://github.com/enkidevs/curriculum/pull/2589)
+- [Webflow - Entire Topic - Add type-in-the-gap question type to applicable questions](https://github.com/enkidevs/curriculum/pull/2588)
+- [Python - Functional Programming Topic - Add type in the gap questions and change format](https://github.com/enkidevs/curriculum/pull/2587)
+- [React - Entire Topic - Add format and context metadata, improve some questions](https://github.com/enkidevs/curriculum/pull/2586)
+- [Python - Core topic - Add type in the gap and standalone format to applicable questions](https://github.com/enkidevs/curriculum/pull/2583)
+- [Python - Break and Continune Statements - Improve readability](https://github.com/enkidevs/curriculum/pull/2654)
+
+### Fixed
+- [Typescript - TSC Array Tuple - Fix Typo](https://github.com/enkidevs/curriculum/pull/2659)
+
+## March 17th 2021
+
+### Fixed
+- [Go - Assignment Operators - Fix Incorrect Statement about `-=`](https://github.com/enkidevs/curriculum/pull/2657)
+
+## Match 16th 2021
+
+### Changed
+- [Python Data Analysis - Initializing and cleaning a dataset - Shorten Readme name to preparing a dataset](https://github.com/enkidevs/curriculum/pull/2655)
+
+### Fixed
+- [Python - Playing With Time - Polish text](https://github.com/enkidevs/curriculum/pull/2656)
 
 ## March 15th 2021
 
@@ -359,6 +609,7 @@ Types of change:
 - [JavaScript - Flow Control - Discussion Insight](https://github.com/enkidevs/curriculum/pull/2472)
 
 ### Fixed
+- [Linux - Quick cd Tips - Improve readability](https://github.com/enkidevs/curriculum/pull/2465)
 - [Coding Intro - Conditions Intro - Add ending phrase](https://github.com/enkidevs/curriculum/pull/2479)
 - [Coding Intro - Dictionaries - Add more possible answers to the pq](https://github.com/enkidevs/curriculum/pull/2478)
 - [Security - Intro - Replace broken links](https://github.com/enkidevs/curriculum/pull/2481)

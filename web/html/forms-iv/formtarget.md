@@ -2,18 +2,20 @@
 author: Stefan-Stojanovic
 type: normal
 category: must-know
-links: null
+
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
-# The `formtarget` Attribute
+# The formtarget Attribute
 
 
 ---
@@ -88,7 +90,9 @@ Complete the code by adding the appropriate input form attributes to submit the 
 
 Which input form attribute, with values such as “_blank” and “framename”, indicates where to display the response that is received after submitting the form?
 
+```html
 ???
+```
 
 - formtarget
 - target

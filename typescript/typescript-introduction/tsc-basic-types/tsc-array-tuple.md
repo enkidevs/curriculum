@@ -15,15 +15,14 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Array & Tuple
-
 
 ---
 
@@ -40,14 +39,14 @@ In TypeScript, there are two ways to define an array:
 // here we define an array of numbers
 let primes: number[] = [2, 3, 5, 7];
 
-// or by wraping the type in the Array type
+// or by wrapping the type in the Array type
 // here we define an array of strings
 let powerRangerColors: Array<string> = [
   "red",
   "black",
   "yellow",
   "blue",
-  "pink"
+  "pink",
 ];
 ```
 
@@ -89,7 +88,7 @@ The order of the types must be exact:
 // the types in the wrong order
 let numAndBoolTuple: [number, boolean] = [
   true, // error: Type 'true' is not assignable to type 'number'
-  1 // error: Type 'number' is not assignable to type 'boolean'
+  1, // error: Type 'number' is not assignable to type 'boolean'
 ];
 ```
 
@@ -120,7 +119,6 @@ console.log(
 );
 ```
 
-
 ---
 
 ## Practice
@@ -141,7 +139,6 @@ let c: []number = [1, 2];
 - a
 - b
 
-
 ---
 
 ## Revision
@@ -152,13 +149,13 @@ Which of the following statements **will not throw** an error:
 let aTuple: [string, boolean];
 
 // a
-aTuple = ['true', true];
+aTuple = ["true", true];
 
 // b
 aTuple = [false, false];
 
 // c
-aTuple = [false, 'false'];
+aTuple = [false, "false"];
 ```
 
 ???

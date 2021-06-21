@@ -10,11 +10,13 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Modify a website's URL
@@ -46,8 +48,11 @@ history.pushState([data], [title], [url]);
 What are the three parameters required with the `pushState` method (in order) when modifying a website's URL?
 
 ```javascript
-history.pushState([???],
-       [???],[???])
+history.pushState(
+  [???],
+  [???],
+  [???]
+)
 ```
 
 - `data`
@@ -68,8 +73,11 @@ history.pushState([???],
 What method is used to modify a website URL without a full page refresh?
 
 ```javascript
-history.???([data],
-            [title], [url]);
+history.???(
+  [data],
+  [title],
+  [url]
+);
 ```
 
 - `pushState`

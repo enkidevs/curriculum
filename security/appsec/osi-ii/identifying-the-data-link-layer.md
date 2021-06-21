@@ -9,11 +9,11 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+  context: standalone
 ---
 
 # Identifying the Data Link Layer
@@ -33,6 +33,7 @@ One note-worthy protocol in the Data Link Layer is the Address Resolution Protoc
 ## Practice
 
 What role does the Data Link Layer play in the OSI 7 Layer Model?
+
 ???
 
 - Transmitting data between network nodes

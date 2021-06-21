@@ -8,11 +8,13 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-  context: relative
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Coroutine Utility function
@@ -57,7 +59,7 @@ In addition, the generator based coroutine is **awaitable**, but does not necess
 
 Convert `my_generator` to a coroutine function:
 
-```plain-text
+```python
 import types
 
 def my_generator():
@@ -80,8 +82,9 @@ my_coroutine = ???.???(my_generator)
 
 What function from the `types` module can be used to transform a generator into a coroutine function?
 
+```python
 ???
-
+```
 - `coroutine`
 - `co`
 - `gen`
