@@ -12,28 +12,21 @@ revisionQuestion:
   context: standalone
 ---
 
-# JavaScript Basics - Part 1
+# Basics I 
 
 
 ---
 
 ## Content
 
-Like most programming languages, JavaScript has a number of syntax rules that it must adhere to.
+Here we'll look at some fundamental syntax rules for JavaScript.
+
 
 ### Variables
 
-Variables are the essential building blocks of programs. They are used to store a value and are given a name. 
+Variables are used to store information - each holds a value with a specific name. 
 
-Declaring a variable in JavaScript can be done in 3 ways.
-
-The first is using the `let` keyword:
-
-```javascript
-let firstName = "Enki";
-```
-
-Which allows us to also change what the variable points to, if needed:
+We can also change the value a variable holds, if needed:
 
 ```javascript
 let firstName = "Enki";
@@ -56,19 +49,26 @@ firstName = "Changed"; // this works
 
 We'll learn more about the differences between `let`, `const`, and `var` later on.
 
-### Semicolon
 
-Statements in JavaScript end in a `;`. Based on the ECMAScript[1] rules however, adding a `;` isn't actually required (although it is common practice):
+### Case Sensitivity
 
-```javascript
-let firstName = "Enki";
-//                    ^
+Everything in JavaScript is case sensitive.
+
+```js
+let password;
+// Is not the same as
+let pasSword;
+// or
+let PASSWORD;
 ```
 
-Omitting a semicolon in certain situations can cause problems. JavaScript has a feature called Automatic Semicolon Insertion (ASI) which means that, if you omit a semicolon, JavaScript will automatically add it where it thinks it should go. 
 
-This can sometimes lead to unexpected results[2]. Thus, it's usually recommended to insert the `;` yourself, or use a tool such as [Prettier](https://prettier.io) to do it for you.
+### Keywords
 
+Like most languages, there are a number of reserved words in JavaScript that you cannot use to name your functions and variables (e.g. `var`, `let`, `new`).
+
+
+> 💡 If you're unsure what a variable is, check out the [variables lesson](https://app.enki.com/insights/programs-and-data) in our [Coding Intro](https://app.enki.com/skill/coding-intro) topic.
 
 ---
 
@@ -106,44 +106,11 @@ answer = 'life';
 
 ## Revision
 
-Are semicolons required in JavaScript?
-
+Can we do the following declaration?
+```js
+let new = "Keywords";
+```
 ???
 
 - No
 - Yes
-- Sometimes
-
-
----
-
-## Footnotes
-
-[1: ECMAScript]
-ECMAScript is the specification defining the rules of JavaScript. The features of JavaScript are implemented based on these specifications. 
-
-[2: ASI]
-JavaScript ASI will sometimes assume a statement ends where it might not be intended.
-
-For example, the code bellow:
-
-```js
-x 
-++ 
-y
-```
-
-is understod as:
-
-```js
-x;
-++y;
-```
-
-and not as:
-
-```js
-x++;
-y
-```
- 
