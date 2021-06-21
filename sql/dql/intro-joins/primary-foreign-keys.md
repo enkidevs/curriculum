@@ -32,13 +32,13 @@ revisionQuestion:
 
 ## Content
 
-Relational databases are based on the *Relational Model*, this is also where they get their name[1]. The concept of a **relation** can be seen from multiple points of view:
-- a table is a **relation** between all of the rows in the table, each row is a different *instance* of the same set of values
-- multiple tables in a database can also be linked by common information, they are **related** to one another.
+Relational databases are based on the *Relational Model*; where they get their name[1]. The concept of a **relation** can be seen from multiple points of view:
+- a table is a **relation** between all of the rows in the table. Each row is a different *instance* of the same set of values
+- multiple tables in a database can also be linked by common information. They are **related** to one another.
 
-Each table in a database has a primary key, which is a column in that table with unique entries for every row. This uniqueness means that you can search for rows in a table reliably with the primary key. Inter-table relationships are contained within each table in the form of **foreign keys**. Foreign keys generally point to the primary keys of the table that they relate to, which is why primary keys have to be unique.
+Each table in a database has a primary key, a column in that table with unique entries for every row. This uniqueness means that you can search for rows in a table reliably with the primary key. Inter-table relationships are contained within each table in the form of **foreign keys**. Foreign keys generally point to the primary keys of the table that they relate to, which is why primary keys have to be unique.
 
-> 💡 It is not strictly necessary for a table to have a clearly defined primary key, a primary key is required when you want to specify how that table is related to other tables in the database.
+> 💡 It is not strictly necessary for a table to have a clearly defined primary key. A primary key is required when you want to specify how that table is related to other tables in the database.
 
 For more information on the difference between foreign and primary keys, see the *Learn More* section.
 
