@@ -25,7 +25,7 @@ practiceQuestion:
 ## Content
 
 Consider the following two tables contained in the `pokedex` database.
-Here is the `pokemon_types` table:
+The `pokemon_types` table:
 
 | type_id | type_name | effective_against      | weak_against        |
 |---------|-----------|------------------------|---------------------|
@@ -33,7 +33,7 @@ Here is the `pokemon_types` table:
 | 2       | water     | fire, ground, rock     | electric, grass     |
 | 3       | electric  | flying, water          | ground              |
 
-Here is the `pokemon` table:
+The `pokemon` table:
 
 | pokemon_id | name       | type |
 |------------|------------|------|
@@ -64,5 +64,8 @@ The minimisation of repetition is an example of database ???.
 
 ## Footnotes
 [1:One-Way and Bilateral Relationships]
-Tables can either have one-way or bilateral relationships. One-way relationships typically happen when multiple entries in the table with the foreign key can map to several entries in the other table (one-to-many). This means that trying to map in the other direction (i.e. many-to-one) would not make sense. Bilateral relationships can occur where both tables contain foreign keys referencing one another.
+Tables can either have one-way or bilateral relationships. 
+
+One-way relationships typically happen when multiple entries in the table with the foreign key can map to several entries in the other table (one-to-many). This means that trying to map in the other direction (i.e. many-to-one) would not make sense. Bilateral relationships can occur where both tables contain foreign keys referencing one another.
+
 In bilateral relationships, there is typically a one-to-one mapping of entries. These generally present areas for potential *database optimization* as you are then storing duplicate info and would be better off just merging the two tables permanently.

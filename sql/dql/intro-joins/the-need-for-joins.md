@@ -125,7 +125,7 @@ Consider the first few rows of tables from the `pokedex` database containing pok
 Database scalability is the ability to scale out or scale up a database to allow it to hold increasing amounts of data without sacrificing performance. This is an important concept, particularly when you have an active stream of data being continuously stored in your database, such as data from apps.
 
 [2:Repetition]
-The minimisation of repetition is an aspect of **database normalisation**. In order for a database to be normalised, there are a number of rules which they have to adhere to. We will cover these rules in the [**Defining Data**](https://app.enkipro.com/course/ddl) topic.
+The minimisation of repetition is an aspect of **database normalisation**. In order for a database to be normalised, there are a number of rules which they have to adhere to. We will cover these rules in the [**Defining Data**](https://app.enki.com/course/ddl) course.
 In some scenarios, it may be beneficial to have a certain degree of repetition in your relational database, as this may improve performance in a few cases. This is, however, not usually the case and we'd generally like to avoid repetition as much as possible.
 
 [3:Reorganisation]

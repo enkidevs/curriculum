@@ -57,9 +57,10 @@ The ??? key of one table points to the ??? entries in another table.
 
 ## Revision
 
-Consider the following two tables
+Consider the following two tables:
 
 `pokemon`
+
 | pokemon_id | name       | pokemon_type |
 |------------|------------|--------------|
 | 1          | charmeleon | fire         |
@@ -68,6 +69,7 @@ Consider the following two tables
 | 4          | bulbasaur  | grass        |
 
 `types`
+
 | type     | strong_against      | weak_to         |
 |----------|---------------------|-----------------|
 | electric | flying, water       | grass, electric |

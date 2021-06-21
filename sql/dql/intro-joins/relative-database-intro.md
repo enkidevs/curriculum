@@ -28,17 +28,19 @@ You are now familiar with querying individual tables.
 
 Real databases are often comprised of more than one table.
 
-Relational databases consist of tables and entries that connected to one another in some way. We call this connection a *relationship*.
+Relational databases consist of tables and entries that are connected to one another in some way. We call this connection a *relationship*.
 
 Consider the `pokedex` database, it contains two tables:
 
 `pokemon_health`
+
 | id | name       | health |
 |----|------------|--------|
 | 1  | Venusaur   | 42     |
 | 2  | Charmander | 35     |
 
 `pokemon_attack`
+
 | id | type   | base-attack |
 |----|--------|-------------|
 | 1  | poison | 21          |
@@ -54,7 +56,7 @@ So the `attack` and type data for Venusaur (`id` = 1) is contained in the `pokem
 
 The **relation** between these two tables is the `id` column and can be used to join them.
 
-> 💡 Note that these two tables do **not** represent best-practices for database design, the reasons for this are covered in the [**Defining Data**](https://app.enkipro.com/course/ddl) topic.
+> 💡 Note that these two tables do **not** represent best-practices for database design, the reasons for this are covered in the [**Defining Data**](https://app.enki.com/course/ddl) course.
 
 ---
 
@@ -71,9 +73,10 @@ Relational databases usually contain ??? of ???.
 
 ## Revision
 
-Consider the following two tables:
+Consider the following tables.
 
-the `country_count` table:
+The `country_count` table:
+
 | id_no | code | total_count | dates               |
 |-------|------|-------------|---------------------|
 | 1     | GBR  | 706         | 2020-03-14 13:55:22 |
@@ -82,7 +85,8 @@ the `country_count` table:
 | 4     | ECU  | 385         | 2020-02-16 03:50:44 |
 | 5     | ISR  | 466         | 2020-07-31 07:16:56 |
 
-and the `country_alt` table:
+And the `country_alt` table:
+
 | countr_code | altitude | names      |
 |-------------|----------|------------|
 | ZAF         | 4663     | C. Semenya |
@@ -104,5 +108,4 @@ and the `country_alt` table:
 
 ## Footnotes
 [1:Multiple Tables]
-These tables can then also be related to other tables in other ways, for example
-the `attack` table could be linked to a `types` table containing data for each type.
+These tables can then also be related to other tables in other ways. For example, the `attack` table could be linked to a `types` table containing data for each type.
