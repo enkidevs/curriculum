@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## June 18th 2021
+
+### Added
+- [Javascript - Playground exercises - Add questions](https://github.com/enkidevs/curriculum/pull/2709)
+
 ## June 16th 2021
 
 ### Fixed
@@ -56,6 +61,12 @@ Types of change:
 ### Changed
 - [Python - Course Order - Set Playground questions as third course instead of first one](https://github.com/enkidevs/curriculum/pull/2747)
 - [Python - Even or odd & both arithmetic operation exercises - Update Readme names and descriptions of insights](https://github.com/enkidevs/curriculum/pull/2748)
+- [Python - Improve workouts](https://github.com/enkidevs/curriculum/pull/2732)
+
+## June 15th 2021
+
+### Changed
+- [JavaScript - Improve workouts](https://github.com/enkidevs/curriculum/pull/2746)
 
 ## June 14th 2021
 
