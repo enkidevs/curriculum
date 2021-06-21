@@ -21,7 +21,7 @@ Every time you refresh your Twitter feed or search for a pair of skinny jeans on
 For instance, the following code shows an alert that you might be familiar with 👖:
 
 ```js
-alert("Warning! Jeans no longer fit.");
+alert("Warning! 👖 no longer fit.");
 ```
 
 ![JavaScript_Jeans_Final](https://img.enkipro.com/bd7c491db166c1fcdc6144f145a186dc.png)
