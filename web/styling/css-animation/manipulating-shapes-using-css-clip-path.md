@@ -46,6 +46,23 @@ If you want text to wrap around a shape, you have to combine `clip-path` with th
 
 **Note:** Top-left corner of the `element` is located at *(0%,0%)*, while the bottom-right one at *(100%, 100%)*.
 
+Here is another example with `clip-path` on an `<img>` element, and the `shape-outside` on a `<div>`:
+
+![html-code-for-manipulating-shapes](https://img.enkipro.com/80365513e58497f9481394e0aa10c42b.png)
+
+![manipulating-shapes-no-css-output](https://img.enkipro.com/784245ce7383a96cc457774dbade5fe2.png)
+
+The first two images show the HTML without any CSS and its output.
+
+The following two images show the added CSS and the new output:
+
+![manipulating-shapes-added-css](https://img.enkipro.com/6f4d868b62eb19eeca6ca08d5d86abef.png)
+
+![manipulating-shape-output-with-css](https://img.enkipro.com/afad6369ac1874d040886e7c24532dde.png)
+
+In the added CSS example, we have clipped the `<img>` element to show an elliptical image instead of the square one shown in the first output.
+
+> Even though we have added the `shape-outside` to the `<div>` element, we haven't changed it. This is because this option changes how other elements react in relation to this one. Meaning, the `<p>` element will have the circle shape, not the `<div>`.
 
 ---
 
