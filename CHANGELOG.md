@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## June 22nd 2021
+
+### Added
+- [Web/CSS - Manipulating Shapes with clip path - Add another example](https://github.com/enkidevs/curriculum/pull/2753)
+
 ## June 21st 2021
 
 ### Added
