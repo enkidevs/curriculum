@@ -59,6 +59,6 @@ Remember, learning is more effective when we do it with others.
 
 You can concatenate the two arrays into a third one and then sort them.
 
-> Note: The `sort` method by default compares values as strings. This means that `101` comes before `2`. To fix this, pass in your own comparison function that returns the difference between the given numbers. 
+> 💡 The `sort` method by default compares values as strings. This means that `101` comes before `2`. To fix this, pass in your own comparison function that returns the difference between the given numbers. 
 
 Don't forget to print the resulting array.
