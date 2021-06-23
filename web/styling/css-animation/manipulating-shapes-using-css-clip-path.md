@@ -65,9 +65,6 @@ Let's see what happens when we use `ellipse` instead of `polygon`:
   clip-path: ellipse(65px 30px at 125px 40px);
 }
 ```
-
-we can see the difference:
-
 ![enki-image-output-for-manipulating-shapes](https://img.enkipro.com/a50732d668d8f66212f89a8420942551.png)
 
 
