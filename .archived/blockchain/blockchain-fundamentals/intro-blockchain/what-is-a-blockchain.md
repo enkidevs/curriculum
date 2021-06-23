@@ -17,11 +17,14 @@ standards:
   blockchain.identify-blockchain-applications.3: 10
   blockchain.identify-blockchain-applications.4: 20
 
-aspects:
-
-  - introduction
-
-  - workout
+practiceQuestion:
+  context: standalone
+  formats:
+    - fill-in-the-gap
+revisionQuestion:
+  context: standalone
+  formats:
+    - fill-in-the-gap
 
 ---
 # What Is a Blockchain?
@@ -97,6 +100,7 @@ Can you identify what concept can be defined by the `sequence of data bundles` s
 - Inheritance
 - Deposition
 - Block
+
 
 
 

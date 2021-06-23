@@ -13,7 +13,7 @@ aspects:
 
 type: normal
 
-category: how to
+category: must-know
 
 
 standards:
@@ -24,6 +24,15 @@ links:
   - '[OWASP Top Ten](https://owasp.org/www-project-top-ten/){website}'
   - '[Common Vulnerabilities and Exposures Database](https://cve.mitre.org/){website}'
   - '[Cryptography and Security on Arxiv](https://arxiv.org/list/cs.CR/recent){website}'
+
+practiceQuestion:
+  context: standalone
+  formats:
+    - fill-in-the-gap
+revisionQuestion:
+  context: standalone
+  formats:
+    - fill-in-the-gap
 
 ---
 
@@ -59,3 +68,4 @@ What is the best way to find out if there is a dependency in your application th
 * manually review each dependency
 * require developers to register any new dependencies before they use them
 * ban all dependencies
+

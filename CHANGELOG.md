@@ -48,10 +48,14 @@ Types of change:
 
 ### Fixed
 
-## June 22nd 2021
+## June 23rd 2021
 
 ### Added
 - [Web/CSS - Manipulating Shapes with clip path - Add another example](https://github.com/enkidevs/curriculum/pull/2753)
+
+### Fixed
+- [Retrigger #2754](https://github.com/enkidevs/curriculum/pull/2755)
+- [Fix some badly archived insights](https://github.com/enkidevs/curriculum/pull/2754)
 
 ## June 21st 2021
 
@@ -1353,6 +1357,3 @@ Types of change:
 ### Fixed
 - [Python - Check Available Python Modules - Removed unnecessary `$` and general formatting improvements](https://github.com/enkidevs/curriculum/pull/2127)
 - [Git - What's Git? - Fixed spelling of Linus, creator of Linux](https://github.com/enkidevs/curriculum/pull/2129)
-
- 
- 

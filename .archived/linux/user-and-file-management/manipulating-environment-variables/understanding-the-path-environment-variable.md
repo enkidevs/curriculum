@@ -7,10 +7,6 @@ levels:
 
   - beginner
 
-aspects:
-  - introduction
-  - workout
-
 type: normal
 
 category: must-know
@@ -21,7 +17,14 @@ tags:
 
   - introduction
 
-
+practiceQuestion:
+  context: standalone
+  formats:
+    - fill-in-the-gap
+revisionQuestion:
+  context: standalone
+  formats:
+    - fill-in-the-gap
 
 ---
 
@@ -118,3 +121,4 @@ for an executable if no match was found in `/bin`?
  
  
  
+
