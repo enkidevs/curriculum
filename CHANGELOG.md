@@ -54,6 +54,9 @@ Types of change:
 - [Retrigger #2754](https://github.com/enkidevs/curriculum/pull/2755)
 - [Fix some badly archived insights](https://github.com/enkidevs/curriculum/pull/2754)
 
+### Changed
+- [Comp. sci - Entire topic - Replace old note format with emoji one](https://github.com/enkidevs/curriculum/pull/2758)
+
 ## June 21st 2021
 
 ### Added
