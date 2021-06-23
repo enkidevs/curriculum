@@ -51,7 +51,7 @@ Types of change:
 ## June 23rd 2021
 
 ### Fixed
-- [Fix some badly archived insights]()
+- [Fix some badly archived insights](https://github.com/enkidevs/curriculum/pull/2754)
 
 ## June 21st 2021
 

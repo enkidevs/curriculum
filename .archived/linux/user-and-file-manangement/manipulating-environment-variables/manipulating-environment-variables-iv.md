@@ -7,10 +7,6 @@ levels:
 
   - beginner
 
-aspects:
-  - introduction
-  - workout
-
 type: normal
 
 category: must-know
@@ -21,6 +17,10 @@ tags:
 
   - introduction
 
+practiceQuestion:
+  context: standalone
+  formats:
+    - fill-in-the-gap
 
 ---
 
