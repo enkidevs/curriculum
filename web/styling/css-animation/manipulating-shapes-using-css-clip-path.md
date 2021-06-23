@@ -44,7 +44,7 @@ The list separated by commas define the *(x,y)* coordinates for each point. Tran
 
 If you want text to wrap around a shape, you have to combine `clip-path` with the `shape-outside` property.
 
-**Note:** Top-left corner of the `element` is located at *(0%,0%)*, while the bottom-right one at *(100%, 100%)*.
+> 💡 Top-left corner of the `element` is located at `(0%,0%)`, while the bottom-right one at `(100%, 100%)`.
 
 Take a look at these two square Enki logos:
 
