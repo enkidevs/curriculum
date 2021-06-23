@@ -46,23 +46,30 @@ If you want text to wrap around a shape, you have to combine `clip-path` with th
 
 **Note:** Top-left corner of the `element` is located at *(0%,0%)*, while the bottom-right one at *(100%, 100%)*.
 
-Here is another example with `clip-path` on an `<img>` element, and the `shape-outside` on a `<div>`:
+Take a look at these two square Enki logos:
 
-![html-code-for-manipulating-shapes](https://img.enkipro.com/80365513e58497f9481394e0aa10c42b.png)
+![manipulating-shapes-enki-logo-example](https://img.enkipro.com/3dc5e3eea131276d0e75a779141a2fc9.png)
 
-![manipulating-shapes-no-css-output](https://img.enkipro.com/784245ce7383a96cc457774dbade5fe2.png)
+Here is the HTML code that contains the links to them. The first one is just the image. The second one is the same image but with a class:
+```html
+<!-- Regular Enki Logo -->
+<img src="https://img.enkipro.com/3369b724e5749ae19442e4677362c1e8.png">
 
-The first two images show the HTML without any CSS and its output.
+<!-- Enki Logo with a class called "clipped" -->
+<img class="clipped" src="https://img.enkipro.com/3369b724e5749ae19442e4677362c1e8.png">
+```
 
-The following two images show the added CSS and the new output:
+Without any CSS the images are identical. However, if we add some CSS to the `clipped` class:
+```css
+.clipped { 
+  clip-path: ellipse(65px 30px at 125px 40px);
+}
+```
 
-![manipulating-shapes-added-css](https://img.enkipro.com/6f4d868b62eb19eeca6ca08d5d86abef.png)
+we can see the difference:
 
-![manipulating-shape-output-with-css](https://img.enkipro.com/afad6369ac1874d040886e7c24532dde.png)
+![enki-image-output-for-manipulating-shapes](https://img.enkipro.com/a50732d668d8f66212f89a8420942551.png)
 
-In the added CSS example, we have clipped the `<img>` element to show an elliptical image instead of the square one shown in the first output.
-
-> Even though we have added the `shape-outside` to the `<div>` element, we haven't changed it. This is because this option changes how other elements react in relation to this one. Meaning, the `<p>` element will have the circle shape, not the `<div>`.
 
 ---
 
