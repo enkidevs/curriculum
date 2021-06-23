@@ -59,7 +59,7 @@ Here's the HTML code:
 <img class="clipped" src="https://img.enkipro.com/3369b724e5749ae19442e4677362c1e8.png">
 ```
 
-Without any CSS the images are identical. However, if we add some CSS to the `clipped` class:
+Let's see what happens when we use `ellipse` instead of `polygon`:
 ```css
 .clipped { 
   clip-path: ellipse(65px 30px at 125px 40px);
