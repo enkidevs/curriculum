@@ -50,7 +50,7 @@ Take a look at these two square Enki logos:
 
 ![manipulating-shapes-enki-logo-example](https://img.enkipro.com/3dc5e3eea131276d0e75a779141a2fc9.png)
 
-Here is the HTML code that contains the links to them. The first one is just the image. The second one is the same image but with a class:
+Here's the HTML code:
 ```html
 <!-- Regular Enki Logo -->
 <img src="https://img.enkipro.com/3369b724e5749ae19442e4677362c1e8.png">
