@@ -23,7 +23,9 @@ In a graph, a **path** is a sequence of vertices and edges, such that between tw
 
 ![path](https://img.enkipro.com/4ab62c5093646cdf387c937f61f2a83a.png)
 
-If the path starts and ends with the same vertex, having more than one edge, it is called a **cycle**. A **directed cycle** is equivalent to a *directed path*. The cycle below is `[C, A, E, C]` (note: every permutation that follows the edge directions is a valid cycle, no matter how many times it goes around - `[A, E, C, A]` and `[E, C, A, E, C]` are both cycles).
+If the path starts and ends with the same vertex, having more than one edge, it is called a **cycle**. A **directed cycle** is equivalent to a *directed path*. The cycle below is `[C, A, E, C]` 
+
+> 💡 Every permutation that follows the edge directions is a valid cycle, no matter how many times it goes around - `[A, E, C, A]` and `[E, C, A, E, C]` are both cycles.
 
 ![cycle](https://img.enkipro.com/9d61467f8592f253b7c556ce50aeca28.png)
 
