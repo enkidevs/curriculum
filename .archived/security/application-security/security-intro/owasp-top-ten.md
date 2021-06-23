@@ -68,3 +68,4 @@ What is the best way to find out if there is a dependency in your application th
 * manually review each dependency
 * require developers to register any new dependencies before they use them
 * ban all dependencies
+
