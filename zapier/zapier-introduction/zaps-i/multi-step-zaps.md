@@ -31,7 +31,7 @@ Here is how you would do that:
 
 Success! You have added another step to your zap. All that is left to do is turning it back on, and you should now only receive a message when someone actually gets access to your base.
 
-Note: To create multi-step zaps, you need to have a paid plan.
+> 💡 To create multi-step zaps, you need to have a paid plan.
 
 
 ---

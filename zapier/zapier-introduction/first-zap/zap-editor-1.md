@@ -40,7 +40,7 @@ Your screen should now look like this, and you are ready to press `Continue`.
 
 ![google-sheets-final-screen](https://img.enkipro.com/a7b9300b3f61a6227d6ea0331e474009.png)
 
-Note: `Has Access?` is just the name of a **column** found in the `Access to your secret base` **worksheet**, which is found in the `Some Important Data` **spreadsheet**.
+> 💡 `Has Access?` is just the name of a **column** found in the `Access to your secret base` **worksheet**, which is found in the `Some Important Data` **spreadsheet**.
 
 Zapier might ask you to test the connection, but for now you can press `Skip Test`[2].
 

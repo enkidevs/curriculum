@@ -54,6 +54,8 @@ Types of change:
 - [JavaScript - Whole Topic - Update old notes to include emojies like 💡❗](https://github.com/enkidevs/curriculum/pull/2756)
 - [Comp. sci - Entire topic - Replace old note format with emoji one](https://github.com/enkidevs/curriculum/pull/2758)
 - [Blockchain - erc721 token - replace old note format with emoji one](https://github.com/enkidevs/curriculum/pull/2757)
+- [Zapier - whole topic - replace old note format with emoji one](https://github.com/enkidevs/curriculum/pull/2760)
+- [Docker - docker dns2 - replace old note with emoji one](https://github.com/enkidevs/curriculum/pull/2759)
 
 ### Added
 - [Web/CSS - Manipulating Shapes with clip path - Add another example](https://github.com/enkidevs/curriculum/pull/2753)
@@ -61,9 +63,6 @@ Types of change:
 ### Fixed
 - [Retrigger #2754](https://github.com/enkidevs/curriculum/pull/2755)
 - [Fix some badly archived insights](https://github.com/enkidevs/curriculum/pull/2754)
-
-### Changed
-- [Docker - docker dns2 - replace old note with emoji one](https://github.com/enkidevs/curriculum/pull/2759)
 
 ## June 21st 2021
 

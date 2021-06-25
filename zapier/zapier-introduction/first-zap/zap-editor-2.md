@@ -27,7 +27,7 @@ Now, we want to choose `Send Direct Message` in the `Choose Action Event` drop-d
 
 The next step is signing in to Slack. If you do this for the first time it might be a good idea to use a test workspace before integrating your production workspace.
 
-Note: Zapier adds a lot of permissions[1] to your account, so if you don't feel comfortable you should check the entire list and decide if you want to go further or not. In the off chance that you do not, you can always choose another app to integrate.
+> 💡 Zapier adds a lot of permissions[1] to your account, so if you don't feel comfortable you should check the entire list and decide if you want to go further or not. In the off chance that you do not, you can always choose another app to integrate.
 
 For this example, we want to receive a direct message every time someone edits the `Has Access?` column.
 
