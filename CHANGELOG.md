@@ -60,6 +60,9 @@ Types of change:
 - [Retrigger #2754](https://github.com/enkidevs/curriculum/pull/2755)
 - [Fix some badly archived insights](https://github.com/enkidevs/curriculum/pull/2754)
 
+### Changed
+- [Blockchain - erc721 token - replace old note format with emoji one](https://github.com/enkidevs/curriculum/pull/2757)
+
 ## June 21st 2021
 
 ### Added
