@@ -13,7 +13,7 @@ category: caveats
 
 Docker containers can have DNS aliases which behave pretty similarly to actual DNS aliases.
 
-Note: We can use the command `--network-alias` to create a network-scoped alias for a container.
+> 💡 We can use the command `--network-alias` to create a network-scoped alias for a container.
 
 By sending requests to the alias instead of a particular container name, Docker will perform round-robin[1] load balancing and redirect it to one of the instances.
 

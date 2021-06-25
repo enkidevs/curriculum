@@ -62,6 +62,9 @@ Types of change:
 - [Retrigger #2754](https://github.com/enkidevs/curriculum/pull/2755)
 - [Fix some badly archived insights](https://github.com/enkidevs/curriculum/pull/2754)
 
+### Changed
+- [Docker - docker dns2 - replace old note with emoji one](https://github.com/enkidevs/curriculum/pull/2759)
+
 ## June 21st 2021
 
 ### Added
