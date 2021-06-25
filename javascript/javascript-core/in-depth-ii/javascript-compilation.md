@@ -48,7 +48,7 @@ Then the code is executed.
 
 There are many sophisticated compilation techniques such as **jit** compilation, which only compiles a function if it reads a call to that function in the code.
 
-**Note:** modern JS can also define block scope variables using `let` and `const`.
+> 💡 Modern JS can also define block scope variables using `let` and `const`.
 
 
 ---

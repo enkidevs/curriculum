@@ -37,7 +37,7 @@ Here are the common falsy values:
 - `NaN` (Not A Number)
 - `-0` (negative zero)	
 
-*Note: there're two more falsy values that are less common, `-0` and `0n`.*
+> 💡 There're two more falsy values that are less common, `-0` and `0n`.*
 
 Every other value is considered to be **truthy**.
 

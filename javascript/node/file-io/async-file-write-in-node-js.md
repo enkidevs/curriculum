@@ -49,7 +49,7 @@ fs.writeFile('msg.txt',
 });
 ```
 
-Note: The file specified must support writing and the file is overwritten if it already exists.
+> 💡 The specified file must support writing. Also, if the file already exists, it will be overwritten.
 
 It is not recommended to use `fs.writeFile` multiple times on the same file without waiting for the callback.  Use `fs.createWriteStream` instead.
 
