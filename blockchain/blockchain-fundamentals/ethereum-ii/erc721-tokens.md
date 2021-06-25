@@ -46,7 +46,7 @@ contract ERC721 {
 }
 ```
 
-Note: The ERC721 standard is currently a draft, and there is no officially agreed-upon implementation yet. However, you can find an example implementation in OpenZeppelin repository.
+> 💡 The ERC721 standard is currently a draft, and there is no officially agreed-upon implementation yet. However, you can find an example implementation in OpenZeppelin repository.
 
 
 ---

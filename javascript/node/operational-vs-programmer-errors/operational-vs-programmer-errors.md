@@ -39,7 +39,9 @@ However, restarting the server won't solve bugs and the only permanent solution 
 
 To make the distinction between the two types is the first step in being able to properly handle them.
 
-Note: You might have also heard of "exceptions". An exception is a "thrown error":
+> 💡 You might have also heard of "exceptions". 
+
+An exception is a "thrown error":
 
 ```javascript
 if(err){
