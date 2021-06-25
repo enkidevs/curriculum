@@ -50,6 +50,9 @@ Types of change:
 
 ## June 23rd 2021
 
+### Changed
+- [JavaScript - Whole Topic - Update old notes to include emojies like 💡❗](https://github.com/enkidevs/curriculum/pull/2756)
+
 ### Added
 - [Web/CSS - Manipulating Shapes with clip path - Add another example](https://github.com/enkidevs/curriculum/pull/2753)
 

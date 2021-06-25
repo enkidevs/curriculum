@@ -40,7 +40,7 @@ let p = new Promise((resolve, reject) => {
 
 Let's pretend we want to call an external service to get a value, and on successful completion log the returned value to the console.
 
-Note: Instead of actually calling an external service we will use the `setTimeout` method to delay the return 2 seconds simulating making a remote call.
+> 💡 Instead of actually calling an external service we will use the `setTimeout` method to delay the return 2 seconds simulating making a remote call.
 
 ```javascript
 let p = new Promise((resolve, reject) => {
