@@ -28,7 +28,7 @@ Python is the world's fastest-growing programming language.
 
 It's easy to read as the keywords are taken directly from the English Language, and it can be used for just about anything.
 
-For example, the following code check's if you are eligible for a driving license, and if you look closely, you can already understand how it works.
+For example, the following code checks if you are eligible for a driving license, and if you look closely, you can already understand how it works.
 
 ```python
 my_age = 20

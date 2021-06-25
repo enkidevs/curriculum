@@ -47,7 +47,7 @@ let blob = new Blob(
 );
 ```
 
-> Note: the first argument **must** be an array.
+> 💡 The first argument **must** be an array.
 
 A blob can be very large, meaning it can contain audio and video data. They can be created on-the-go, and used as files when coupled with blob URLs[5].
 
