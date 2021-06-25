@@ -41,7 +41,7 @@ The *conga line* is an example of a **SinglyLinkedList** because you cannot see 
 
 ![sll](https://img.enkipro.com/9fc64a4643c8c46b7d2a600fe99a124d.png)
 
-Note: when saying the first one we refer to node `A`, and when saying the last one we refer to node `G`.
+> 💡 when saying the first one we refer to node `A`, and when saying the last one we refer to node `G`.
 
 To make it a **DoublyLinkedList**, everyone would have to use one hand to hold the person in front of them, and their other hand to hold the person behind them. In this case, you would be able to move through in both directions, from *start to finish* and from *finish to start*.
 

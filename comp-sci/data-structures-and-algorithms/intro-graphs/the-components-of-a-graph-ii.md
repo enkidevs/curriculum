@@ -41,7 +41,7 @@ If the graph is connected as well, it is called a **tree**. A **spanning tree** 
 
 ![spanningtree](https://img.enkipro.com/48d9282e1686cda71848ec61545ed099.png)
 
-Note: The notion of **tree** here is not related to the one of the *Tree Data Type* since it *does not need* to have a root.
+> 💡 The notion of **tree** here is not related to the one of the *Tree Data Type* since it *does not need* to have a root.
 
 
 ---
