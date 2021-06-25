@@ -6,7 +6,7 @@ tags:
 
 type: normal
 
-category: discussion
+category: must-know
 revisionQuestion:
   formats:
     - fill-in-the-gap

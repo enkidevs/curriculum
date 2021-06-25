@@ -4,7 +4,7 @@ tags:
   - introduction
   - discussion
 type: normal
-category: discussion
+category: must-know
 practiceQuestion:
   formats:
     - fill-in-the-gap

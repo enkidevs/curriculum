@@ -1,7 +1,7 @@
 ---
 author: emmab
 type: normal
-category: discussion
+category: must-know
 links:
   - >-
     [The `del`
