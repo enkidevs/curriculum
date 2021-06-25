@@ -1,7 +1,7 @@
 ---
 author: pawel
 type: normal
-category: discussion
+category: must-know
 tags:
   - introduction
 links:

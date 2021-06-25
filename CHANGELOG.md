@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## June 25th 2021
+
+### Changed
+- [Revert the category of some discussion insights for now]()
+
 ## June 23rd 2021
 
 ### Changed
