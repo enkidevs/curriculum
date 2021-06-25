@@ -34,7 +34,7 @@ The first few prime numbers are 2, 3, 5, 7, 11, 13 ...
 To achieve this, you can use some of the following concepts:
 - flow control (`if (age > 30)...`, `for...of`)
 
-> Note: one way to test if a number is prime, is to check if it's divisible by any number from 2 up to (rounded) half of itself. For example, to test if 31 is prime, we check if it's divisible by any number from 2 up to 15.
+> 💡 One way to test if a number is prime, is to check if it's divisible by any number from 2 up to (rounded) half of itself. For example, to test if 31 is prime, we check if it's divisible by any number from 2 up to 15.
 
 Learning is best when we give it an honest try. Even if we make a mistake, we'll remember it and do better next time.
 

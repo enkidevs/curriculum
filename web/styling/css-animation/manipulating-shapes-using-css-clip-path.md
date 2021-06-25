@@ -44,7 +44,28 @@ The list separated by commas define the *(x,y)* coordinates for each point. Tran
 
 If you want text to wrap around a shape, you have to combine `clip-path` with the `shape-outside` property.
 
-**Note:** Top-left corner of the `element` is located at *(0%,0%)*, while the bottom-right one at *(100%, 100%)*.
+> 💡 Top-left corner of the `element` is located at `(0%,0%)`, while the bottom-right one at `(100%, 100%)`.
+
+Take a look at these two square Enki logos:
+
+![manipulating-shapes-enki-logo-example](https://img.enkipro.com/3dc5e3eea131276d0e75a779141a2fc9.png)
+
+Here's the HTML code:
+```html
+<!-- Regular Enki Logo -->
+<img src="https://img.enkipro.com/3369b724e5749ae19442e4677362c1e8.png">
+
+<!-- Enki Logo with a class called "clipped" -->
+<img class="clipped" src="https://img.enkipro.com/3369b724e5749ae19442e4677362c1e8.png">
+```
+
+Let's see what happens when we use `ellipse` instead of `polygon`:
+```css
+.clipped { 
+  clip-path: ellipse(65px 30px at 125px 40px);
+}
+```
+![enki-image-output-for-manipulating-shapes](https://img.enkipro.com/a50732d668d8f66212f89a8420942551.png)
 
 
 ---
