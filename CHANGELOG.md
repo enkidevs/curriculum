@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## June 28th 2021
+
+### Fixed
+- [Comp. Sci. - Reverse Polish Notation - Replace dead resource link]()
+
 ## June 25th 2021
 
 ### Changed
