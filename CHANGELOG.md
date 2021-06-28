@@ -51,6 +51,7 @@ Types of change:
 ## June 28th 2021
 
 ### Fixed
+- [SQL - MIN and MAX clauses - Fix query & general updates](https://github.com/enkidevs/curriculum/pull/2766)
 - [Comp. Sci. - Reverse Polish Notation - Replace dead resource link](https://github.com/enkidevs/curriculum/pull/2765)
 
 ## June 27th 2021

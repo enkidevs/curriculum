@@ -19,52 +19,57 @@ revisionQuestion:
 
 # MIN and MAX clauses
 
-
 ---
 
 ## Content
 
-The `MIN` clause returns the smallest value in a given column.
-The `MAX` clause returns the biggest value in a given column.
+The `MIN` and `MAX` clauses return the smallest or largest value in a given column.
 
-Using `MIN` function[1]:
+Let's use the `pokemon_experience` table for some examples.
 
-```sql
-SELECT MIN(experience) FROM
-(SELECT experience
-  FROM experience
-  LIMIT 5)
-AS result;
-```
+| id | level | experience | growth_rate_id |
+|----|-------|------------|----------------|
+| 1  | 1     | 0          | 1              |
+| 2  | 2     | 10         | 1              |
+| 3  | 3     | 33         | 1              |
+| 4  | 4     | 80         | 1              |
+| 5  | 5     | 156        | 1              |
 
-Output:
-
-| min |
-| --- |
-| 0   |
-
-Using `MAX` function:
+Now, let's select the minimum value of the `experience` column:
 
 ```sql
-SELECT MAX(experience) FROM
-(SELECT experience
-  FROM experience
-  LIMIT 5)
-AS result;
+SELECT
+  MIN(experience)
+FROM
+  pokemon_experience;
 ```
 
-Output:
+And the output is:
 
-| max |
-| --- |
-| 156 |
+| MIN(experience) |
+|-----------------|
+| 0               |
 
+What if you wanted the maximum value? Then, you would write this:
+
+```sql
+SELECT
+  MAX(experience)
+FROM
+  pokemon_experience;
+```
+
+And the output is:
+
+| MAX(experience) |
+|-----------------|
+| 156             |
 
 ---
 
 ## Practice
 
-We have the table `item`. It holds data about each item and its cost. We want to find out the most expensive item:
+The following `item` table stores information about items and their cost.
 
 ```md
 | id | cost | name        |
@@ -75,9 +80,13 @@ We have the table `item`. It holds data about each item and its cost. We want to
 | 4  | 200  | poke-ball   |
 ```
 
+How could you find out the most expensive item?
+
 ```sql
-SELECT ???(???) 
-FROM ???
+SELECT
+  ???(???)
+FROM
+  ???;
 ```
 
 - MAX
@@ -92,7 +101,7 @@ FROM ???
 
 ## Revision
 
-Consider the table `move_effect_change`. Complete the query such that it finds the move with the **lowest** effect:
+Take a look at the `move_effect_change` table:
 
 ```md
 | id | move_effect | version_group_id |
@@ -102,9 +111,13 @@ Consider the table `move_effect_change`. Complete the query such that it finds t
 | 3  | 29          | 3                |
 ```
 
+How can you find the move with the **lowest** effect:
+
 ```sql
-SELECT ???(???)
-FROM move_effect_change;
+SELECT
+  ???(???)
+FROM
+  move_effect_change;
 ```
 
 - MIN
@@ -112,34 +125,3 @@ FROM move_effect_change;
 - MAX
 - AVG
 - version_group_id
-
-
----
-
-## Footnotes
-
-[1:Pokemon Db]
-We will use the same segment of `experience` table for all aggregate functions:
-
-| id  | level | experience | growth_rate_id |
-| --- | ----- | ---------- | -------------- |
-| 1   | 1     | 0          | 1              |
-| 2   | 2     | 10         | 1              |
-| 3   | 3     | 33         | 1              |
-| ... | ...   | ...        | ...            |
-
-```sql
-SELECT experience
-FROM experience
-LIMIT 5;
-```
-
-Output:
-
-| experience |
-| ---------- |
-| 0          |
-| 10         |
-| 33         |
-| 80         |
-| 156        |
