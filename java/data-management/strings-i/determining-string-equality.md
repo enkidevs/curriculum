@@ -39,7 +39,7 @@ if(string1 == string2){
 return false;
 ```
 
-**NOTE:** If we do not use the keyword `new`, the previous code would return `true`. This is because the variable `string2` would end up pointing to the same reference as the variable `string1` (since the string `"Enki"` would already be in the String pool by the time `string2` is created).
+> ❗ If we do not use the keyword `new`, the previous code would return `true`. This is because the variable `string2` would end up pointing to the same reference as the variable `string1` (since the string `"Enki"` would already be in the String pool by the time `string2` is created).
 
 If we want to compare the values of the strings, we should use `.equals`. This code will return `true`:
 
