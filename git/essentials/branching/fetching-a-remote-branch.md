@@ -41,7 +41,7 @@ To fetch all the remotes:
 git fetch --all
 ```
 
-Note: changes are **not** automatically applied to your local branch, you have to do this yourself with `git merge`.
+> ❗ Changes are **not** automatically applied to your local branch, you have to do this yourself with `git merge`.
 
 
 ---
