@@ -41,7 +41,7 @@ The first input searches for a "Bite" value regardless of the amount of values i
 
 The second one searches for the document whose `spells` array only has the value "Bite" in it and nothing else.
 
-**Note:** For easier comprehension of querying arrays, we will be using the same documents from the  previous insight. **(The documents are in the footnotes of every insight of this workout under Previous Documents[1])**
+> 💡 For easier comprehension of querying arrays, we will be using the same documents from the previous insight. **(The documents are in the footnotes of every insight of this workout under Previous Documents[1])**
 
 Output of 2nd example:
 

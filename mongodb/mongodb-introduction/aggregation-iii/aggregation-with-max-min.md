@@ -61,7 +61,7 @@ Output:
 { "_id": "Water", "highestPower": 667 }
 ```
 
-**Note:** If one of the documents (pokémon) in our database doesn't have a value for the field, the `$max` operator returns `null`.
+> 💡 If one of the documents (pokémon) in our database doesn't have a value for the field, the `$max` operator returns `null`.
 
 ### `$min`
 

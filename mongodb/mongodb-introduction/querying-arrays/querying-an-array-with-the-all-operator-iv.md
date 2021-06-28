@@ -40,7 +40,7 @@ The above method searches for any documents that contain the `spells` field and 
 
 If we wanted to search which array contains the above 3 values, regardless of the order they are in, we would do so by adding the `$all` operator. 
 
-**Note:** The `$all` operator behaves similarly to the `$and` operator (discussed in the `Querying Operators` workout).
+> 💡 The `$all` operator behaves similarly to the `$and` operator (discussed in the `Querying Operators` workout).
 
 ```javascript
 db.pokedex.find({
@@ -69,7 +69,7 @@ Output:
 }
 ```
 
-**Note:** The below two methods give the exact same result.(Any documents with a `spells` array containing the "Bite" value)
+> 💡 The below two methods give the exact same result.(Any documents with a `spells` array containing the "Bite" value)
 
 ```javascript
 // Method 1

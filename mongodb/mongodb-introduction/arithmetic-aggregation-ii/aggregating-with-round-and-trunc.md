@@ -58,7 +58,7 @@ As you can see in the example above, the value is truncated to the left of the d
 
 If we used `-3` as our decimal place (which is equal to the number of digits to the left of the decimal), the results would be `0` for both documents.
 
-**Note:** The negative input works the same for both `$trunc` and `$round`.
+> 💡 The negative input works the same for both `$trunc` and `$round`.
 
 
 ---

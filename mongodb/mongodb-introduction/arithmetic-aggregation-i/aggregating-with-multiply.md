@@ -82,7 +82,7 @@ In the example above, we have used the project stage to only display the `Name` 
 
 Although we have only used two expressions in our example, the `$multiply` operator can take in any number of expressions, with a minimum of two.
 
-**Note:** Just like with the `$add` and `$subtract` operators, the expressions do not have to be existing fields, they can also be any literals.
+> 💡 Just like with the `$add` and `$subtract` operators, the expressions do not have to be existing fields, they can also be any literals.
 
 
 ---

@@ -102,7 +102,7 @@ Output of the above example:
 // ...
 ```
 
-**Note**: The order of the operators does not matter (`$lt`, `$lte`, `$gt` and `$gte`). This means the two examples below would give the exact same output:
+> 💡 The order of the operators does not matter (`$lt`, `$lte`, `$gt` and `$gte`). This means the two examples below would give the exact same output:
 
 ```javascript
 // Example 1:

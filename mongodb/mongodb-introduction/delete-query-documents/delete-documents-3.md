@@ -39,7 +39,7 @@ Output:
 }
 ```
 
-**Note:** When executed, the query returns the document that was deleted.
+> ❗ When executed, the query returns the document that was deleted.
 
 
 ---
