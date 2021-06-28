@@ -64,10 +64,11 @@ It is especially important to use `try` and `catch` blocks when deserializing an
 - Might fail upon loading `bmw.ser` file
 - JVM might not find byte code for the `Car` class
 
-**NOTE:**
+**Notes:**
 
-- `in.readObject()` was casted to `Car`
-- If the object had a `transient` field then upon deserialization, the new field will be assigned with default values such as: `null` for an *object*, `0` for an *int*, `false` for a *Boolean*, etc.
+> 💡 `in.readObject()` was casted to `Car`.
+
+> 💡 If the object had a `transient` field then upon deserialization, the new field will be assigned with default values such as: `null` for an *object*, `0` for an *int*, `false` for a *Boolean*, etc.
 
 
 ---
