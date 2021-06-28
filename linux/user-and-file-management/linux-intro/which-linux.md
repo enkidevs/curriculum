@@ -30,7 +30,7 @@ Although it's good to have such variety, you might find yourself faced with [cho
 
 If you're just starting out, we recommend **Ubuntu** (that's what we're using 👐). It's perfect for beginners, and has the added benefit of being one of the top used and supported distros.
 
-> Note: check the Learn More section if you want to discover more distros.
+> 💡 Check the Learn More section if you want to discover more distros.
 
 
 ---
