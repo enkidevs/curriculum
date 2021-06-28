@@ -51,6 +51,7 @@ Types of change:
 ## June 28th 2021
 
 ### Fixed
+- [Linux - The test Built-in - Update return value of `test` and other general improvements](https://github.com/enkidevs/curriculum/pull/2767)
 - [SQL - MIN and MAX clauses - Fix query & general updates](https://github.com/enkidevs/curriculum/pull/2766)
 - [Comp. Sci. - Reverse Polish Notation - Replace dead resource link](https://github.com/enkidevs/curriculum/pull/2765)
 
