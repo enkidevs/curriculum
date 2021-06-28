@@ -53,6 +53,11 @@ Types of change:
 ### Fixed
 - [Comp. Sci. - Reverse Polish Notation - Replace dead resource link](https://github.com/enkidevs/curriculum/pull/2765)
 
+## June 27th 2021
+
+### Fixed
+- [Pyton - Data types - Fix footnote number](https://github.com/enkidevs/curriculum/pull/2763)
+
 ## June 25th 2021
 
 ### Changed
