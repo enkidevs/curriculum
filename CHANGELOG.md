@@ -55,7 +55,7 @@ Types of change:
 - [Comp. Sci. - Reverse Polish Notation - Replace dead resource link](https://github.com/enkidevs/curriculum/pull/2765)
 
 ### Changed
-- [mongodb - topic -replace old note format with emojis](https://github.com/enkidevs/curriculum/pull/2771)
+- [Mongodb - Topic - replace old note format with emojis](https://github.com/enkidevs/curriculum/pull/2771)
 
 ## June 27th 2021
 
