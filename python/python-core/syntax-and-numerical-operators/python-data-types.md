@@ -36,7 +36,7 @@ A string is always wrapped in either `'single'` or `"double quotes"`
 # <class 'str'>
 ```
 
-Though it's more pythonic[2] to use single quotes until you need double quotes.
+Though it's more pythonic[1] to use single quotes until you need double quotes.
 
 - **Integers** (int) - To store whole numbers.
 
@@ -52,7 +52,7 @@ Though it's more pythonic[2] to use single quotes until you need double quotes.
 # <class 'float'>
 ```
 
-For the hardcore mathematicians, there is also a `complex`[1] class. However, it isn't all that important for the rest of us.
+For the hardcore mathematicians, there is also a `complex`[2] class. However, it isn't all that important for the rest of us.
 
 
 > We can use Python's built-in `type()` function, passing an argument in parenthesis, to see the data type, or *class*, of our argument.
@@ -105,8 +105,12 @@ What class does the following return?
 
 ## Footnotes
 
+[1:Pythonic]
+Pythonic is an adjective used to describe code that is clear, concise and maintainable.
 
-[1:Complex Numbers]
+Pythonic means code that doesn't just get the syntax right but that follows the conventions of the Python community and uses the language in the way it's intended to be used.
+
+[2:Complex Numbers]
 Complex numbers come in the form `a + b*j`, where `a` is a real number, `b` is an imaginary number and `j` represents `√−1`.
 
 ```python
@@ -115,7 +119,4 @@ type(complex_value)
 # <type 'complex'>
 ```
 
-[2:Pythonic]
-Pythonic is an adjective used to describe code that is clear, concise and maintainable.
 
-Pythonic means code that doesn't just get the syntax right but that follows the conventions of the Python community and uses the language in the way it's intended to be used.
