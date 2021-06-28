@@ -51,7 +51,7 @@ Types of change:
 ## June 28th 2021
 
 ### Fixed
-- [Comp. Sci. - Reverse Polish Notation - Replace dead resource link]()
+- [Comp. Sci. - Reverse Polish Notation - Replace dead resource link](https://github.com/enkidevs/curriculum/pull/2765)
 
 ## June 25th 2021
 
