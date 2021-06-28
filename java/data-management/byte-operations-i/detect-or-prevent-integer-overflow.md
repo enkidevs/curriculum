@@ -35,7 +35,11 @@ It is vital that programs should not exceed the integer ranges provided by their
 Few techniques for detecting integer overflow:
 
 1. Precondition testing: Check the inputs to each arithmetic operator to ensure that overflow cannot occur - throw an `ArithmeticException` when the operation would overflow.
-2. Upcasting: Cast the inputs to the next larger primitive integer type and perform the arithmetic in the larger size. Note: Not applicable for `long` as it is the largest integer type.
+
+2. Upcasting: Cast the inputs to the next larger primitive integer type and perform the arithmetic in the larger size. 
+
+> ❗ Not applicable for `long` as it is the largest integer type.
+
 3. `BigInteger` class: Convert the inputs into objects of type `BigInteger` and perform all arithmetic using the class methods.
 
 
