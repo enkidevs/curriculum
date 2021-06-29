@@ -38,7 +38,7 @@ if my_age >= legal_age:
 else:
     print("Unlucky.")
 ```
-```
+
 
 Python is also a *general-purpose* programming language. That means it can be used for *just about anything*. 
 
