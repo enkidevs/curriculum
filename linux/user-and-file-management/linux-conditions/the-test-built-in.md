@@ -16,7 +16,7 @@ revisionQuestion:
   context: relative
 ---
 
-# The `test` Built-in
+# The test Built-in
 
 
 ---
@@ -35,14 +35,14 @@ test expression
 
 While the first option should work in most shells, the second one doesn't work in *zsh* for example.
 
-The command returns **0** if the `expression` evaluates to *false* and **1** otherwise. The `[` **command** must take `]` as its last argument. For example, here are some simple tests you can perform:
+The command returns `0` if the `expression` evaluates to `true` and `1` otherwise. The `[` **command** must take `]` as its last argument. For example, here are some simple tests you can perform:
 
 ```bash
 test 1 -lt 2 && echo true || echo false
 # true
 ```
 
-`test` has a number of conditional flags, some of which are:
+`test` has several conditional flags, some of which are:
 
 - `-e FILE`: true if *FILE* exists
 - `-d FILE`: true if *FILE* exists and is a directory
@@ -56,13 +56,12 @@ Another example:
 
 ```bash
 [ 1 \< 2 ] && [ "abc" = "abc" ]; echo $?
-# 1
+# 0
 ```
 
-As you can see, `\<` must be escaped when using `[]`. `$?` is used to get the return value, hence the printed `1`.
+As you can see, `\<` must be escaped when using `[]`. `$?` is used to get the return value, hence the printed `0`.
 
-There are also flags that replicate the functionality of `&&` (`-a`) and `||` (`-o`), but their use is *ill-advised*.
-
+Some flags replicate the functionality of `&&` (`-a`) and `||` (`-o`), but their use is *ill-advised*.
 
 ---
 
@@ -72,10 +71,12 @@ Fill in the gaps for the following snippet to make sense:
 
 ```bash
 touch script.sh
-test ??? script.sh && echo "created"
+test ??? script.sh \
+  && echo "created"
 # created
 chmod +x script.sh
-test ??? script.sh && echo "executable"
+test ??? script.sh \
+  && echo "executable"
 # executable
 ```
 
@@ -84,7 +85,6 @@ test ??? script.sh && echo "executable"
 - `-ex`
 - `-d`
 - `-z`
-
 
 ---
 
