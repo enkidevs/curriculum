@@ -33,7 +33,7 @@ And here is how it looks like in the `Navigator`:
 
 All forms on Webflow are fully customizable, meaning that after creating a `Form Block` you can remove or add elements to it. 
 
-**Note:** You cannot add a form element anywhere outside of a form, but you can add a non-form element, like a photo, to a form. 
+> ❗ You cannot add a form element anywhere outside of a form, but you can add a non-form element, like a photo, to a form. 
 
 If we tried to add a form element, in this case, a label, outside of the form, we would get this error:
 
