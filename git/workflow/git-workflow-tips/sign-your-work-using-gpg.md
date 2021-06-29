@@ -50,7 +50,7 @@ To sign a commit or merge use `-S`:
 git commit -a -S -m 'Add key'
 ```
 
-Note: this is most useful if everyone in the team follows this practice.
+> 💡 This is most useful if everyone in the team follows this practice.
 
 Signing your commits it's a way to enhance git's security. This way you confirm it's you who made the commit. Also, when working with files from the internet, signed commits ensure that their source is trusted.
 

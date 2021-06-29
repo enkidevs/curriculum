@@ -51,7 +51,7 @@ To revert to an old version of a repository:
 git revert master@{"last Tuesday"}
 ```
 
-Note: these commands use the **committer** date not the **author** date. The committer date refers to the time the work was last applied.
+> ❗ These commands use the **committer** date not the **author** date. The committer date refers to the time the work was last applied.
 
 
 ---
