@@ -25,7 +25,7 @@ As you can see in the first image above, our `OR` function has 2 arguments and s
 
 In the second image, we changed the signs of the highlighted arguments and because all of them are `FALSE` the function evaluated to `FALSE`.
 
-**Note:[1]**
+> ❗ Note:[1]
 
 Negative number:
 
