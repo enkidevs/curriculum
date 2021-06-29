@@ -51,7 +51,7 @@ For example, to share your `master` branch with your `origin` repository:
 git push origin master
 ```
 
-Note: to be allowed to push you must have pulled the most recent version of the project and incorporated any changes into your code.
+> ❗ To be allowed to push you must have pulled the most recent version of the project and incorporated any changes into your code.
 
 
 ---

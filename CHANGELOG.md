@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## June 29th 2021
+
+### Fixed
+- [Git - topic - retrigger changes made in PR2768 Git](https://github.com/enkidevs/curriculum/pull/2773)
+
 ## June 28th 2021
 
 ### Fixed
@@ -55,6 +60,9 @@ Types of change:
 - [SQL - MIN and MAX clauses - Fix query & general updates](https://github.com/enkidevs/curriculum/pull/2766)
 - [Comp. Sci. - Reverse Polish Notation - Replace dead resource link](https://github.com/enkidevs/curriculum/pull/2765)
 
+### Changed
+- [Git - Topic - Replace old note format with emoji one](https://github.com/enkidevs/curriculum/pull/2768)
+ 
 ## June 27th 2021
 
 ### Fixed
