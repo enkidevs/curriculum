@@ -26,25 +26,26 @@ practiceQuestion:
 
 Python is the world's fastest-growing programming language.
 
-It's easy to read as the keywords are taken directly from the English Language, and it can be used for just about anything.
+It's designed to be easy to read, using English keywords and simple syntax[1].
 
-For example, the following code checks if you are eligible for a driving license, and if you look closely, you can already understand how it works.
+For example, here's how you might check whether a number is greater than another number:
 
 ```python
-my_age = 20
-legal_age = 18
+my_age = 23
+legal_age = 21
 if my_age >= legal_age:
-    print("Enjoy the ride!")
+    print("You can have a beer!")
 else:
-    print("Not so fast, kiddo.")
+    print("Unlucky.")
+```
 ```
 
-Python is used by people of all professions; scientists, analysts, accountants, even kids! 
+Python is also a *general-purpose* programming language. That means it can be used for *just about anything*. 
 
-Some people use it for artificial intelligence, scientific computing, or data analysis, while others use it to create websites and desktop applications. The possibilities are endless!
+You can use it to build websites, web apps and desktop apps. But it's also used in scientific computing, artificial intelligence, and data analysis!
 
 
-> 🤔 What will your first project be? 
+> 💬 Why are you interested in Python?
 >
 > Leave a comment or view some of the other comments for inspiration before moving on.
 
@@ -68,3 +69,14 @@ if my_age >= legal_age:
 - state
 - write
 - log
+
+---
+
+## Footnotes
+
+[1:Syntax]
+The syntax of a programming language sets the rules on how a language can be written and understood by the computer.
+
+The same idea exists in human languages. 
+
+The English language has unique types of words like *verb* and *nouns* and rules on which should come first to make a correct sentence; Python has a different set of rules on making valid Python statements.
