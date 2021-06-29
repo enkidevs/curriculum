@@ -25,7 +25,7 @@ As you can see in the first image, our `NOT` function evaluates to `FALSE` becau
 
 In the second image, our `NOT` function evaluates to `TRUE` because its arguments evaluate to `FALSE`. 
 
-**Note:[1]**
+> ❗ Note:[1]
 
 Since all numbers except 0 are logically true, the `NOT` function returns the reversed result.
 
