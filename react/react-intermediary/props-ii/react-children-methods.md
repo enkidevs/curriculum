@@ -53,7 +53,7 @@ React.Children.count(
 )
 ```
 
-Note: this method will not calculate the count of nested components, even if they are enclosed in `<React.Fragment>`
+> ❗ This method will not calculate the count of nested components, even if they are enclosed in `<React.Fragment>`
 
 Verifies that children has only one child (a React element) and returns it. Otherwise this method throws an error:
 
