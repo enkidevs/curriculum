@@ -57,7 +57,7 @@ handle(e) {
 }
 ```
 
-Note: we use `e.target.value` as our state because `e` is a DOM event given to us for an input and it contains the current string value of the input in its `target` object property[1].
+> 💡 We use `e.target.value` as our state because `e` is a DOM event given to us for an input and it contains the current string value of the input in its `target` object property[1].
 
 With consistency in mind, *form elements* in **React** work a little differently:
 
