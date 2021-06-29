@@ -50,6 +50,9 @@ Types of change:
 
 ## June 29th 2021
 
+### Changed
+- [Webflow - topic - replace old note format with emoji one](https://github.com/enkidevs/curriculum/pull/2774)
+
 ### Fixed
 - [Git - topic - retrigger changes made in PR2768 Git](https://github.com/enkidevs/curriculum/pull/2773)
 
