@@ -31,7 +31,7 @@ Or you can also use the combination of both to more precisely select all the cel
 
 ![shift-ctrl-click](https://img.enkipro.com/069f983a0678c66a16026aaafbb6c614.gif)
 
-**Note:** When using `ctrl` to select cells, be careful not to select the same cell more than one time. Doing this will not cause the function to create an error, but it may lead to having wrong calculations for your functions.
+> ❗ When using `ctrl` to select cells, be careful not to select the same cell more than one time. Doing this will not cause the function to create an error, but it may lead to having wrong calculations for your functions.
 
 ![same-cell-multiple-times](https://img.enkipro.com/7ff987107bdd198ba724b78c60307127.gif)
  
