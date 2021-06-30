@@ -25,14 +25,14 @@ revisionQuestion:
 
 Adding one or more spaces before your command will result in `history` not recording it.
 
-This is useful for passwords (those long mysql connections) on the command-line.
+This is useful for passwords (those long MySQL connections) on the command line.
 
 For example:
 
 ```bash
 echo 1
 1
-echo 2
+  echo 2
 2
 echo 3
 3
