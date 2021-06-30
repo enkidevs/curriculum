@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## June 30th 2021
+
+### Fixed
+- [Linux - Execute command without saving it - fix missing space in example](https://github.com/enkidevs/curriculum/pull/2779)
+
 ## June 29th 2021
 
 ### Fixed
