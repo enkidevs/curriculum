@@ -77,8 +77,8 @@ Macros are mini-programs that do not require any code to make. Their goal is to 
 
 To create a macro, go to the Spreadsheet menu, select "Record Macro", and it will start recording your actions. From there, you can create different macros. You can even add a custom shortcut and name to each macro. Also, you can schedule macros to execute at specific times. 
 
-Here are just some things you can do with macros:
-- Applies different colors at the end of every month to your profit table to easily see the loss/growth of profit.
-- Create different formatting options (bold, italic, text color change, and so on)
-- Set up a macro to create a specific graph from the selected range of cells
-- and so on.
+Here are some things you can do with macros:
+- apply different colors at the end of every month to your profit table to easily see the changes in profit
+- create different formatting options (bold, italic, text color change, and so on)
+- create a specific graph from a selected range of cells
+- and many others...
