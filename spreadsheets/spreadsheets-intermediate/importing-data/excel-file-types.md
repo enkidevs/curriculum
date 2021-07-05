@@ -29,7 +29,7 @@ The default file type when saving a spreadsheet is `.xlsx`.
 
 > 💡 If you're using a version of Excel that is older than 2007 then the file type would be `.xls`.
 
-If your spreadsheet contains a macro, then it would have the `.xlsm` type.
+If your spreadsheet contains a macro[1], then it would have the `.xlsm` type.
 
 Templates can have two file types, `.xltx` and `.xltm`. The only difference between the two is that `.xltm` can store macros.
 
@@ -79,6 +79,6 @@ To create a macro, go to the Spreadsheet menu, select "Record Macro", and it wil
 
 Here are some things you can do with macros:
 - apply different colors at the end of every month to your profit table to easily see the changes in profit
-- create different formatting options (bold, italic, text color change, and so on)
+- format (bold, italic, highlight, and others) text or cell groups with the press of a key
 - create a specific graph from a selected range of cells
 - and many others...
