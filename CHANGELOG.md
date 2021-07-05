@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## July 5th 2021
+
+### Changed
+- [Python - Syntax and Numerical Operators - Re-order insights](https://github.com/enkidevs/curriculum/pull/2780)
+
 ## June 29th 2021
 
 ### Fixed
