@@ -48,7 +48,13 @@ Types of change:
 
 ### Fixed
 
-## June 30th 2021
+## July 5th 2021
+
+### Added
+- [Spreadsheets - Excel File Types - Add footnote on Macros](https://github.com/enkidevs/curriculum/pull/2781)
+
+### Changed
+- [Python - Syntax and Numerical Operators - Re-order insights](https://github.com/enkidevs/curriculum/pull/2780)
 
 ### Fixed
 - [Linux - Execute command without saving it - fix missing space in example](https://github.com/enkidevs/curriculum/pull/2779)
