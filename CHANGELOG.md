@@ -56,6 +56,9 @@ Types of change:
 ### Changed
 - [Python - Syntax and Numerical Operators - Re-order insights](https://github.com/enkidevs/curriculum/pull/2780)
 
+### Fixed
+- [Linux - Execute command without saving it - fix missing space in example](https://github.com/enkidevs/curriculum/pull/2779)
+
 ## June 29th 2021
 
 ### Fixed
