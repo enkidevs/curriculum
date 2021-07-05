@@ -7,8 +7,6 @@ tags:
   - deep
 links:
   - >-
-    [CodePen: Scrolling Table CSS](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/thead){code}
-  - >-
     [HTML <thead>
     Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/thead){documentation}
   - >-
@@ -17,9 +15,6 @@ links:
   - >-
     [HTML <tfoot>
     Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tfoot){documentation}
-  - >-
-    [CodePen: Table example](https://codepen.io/stefan-stojanovic/pen/jKbJgQ){code}
-
 practiceQuestion:
   formats:
     - fill-in-the-gap
@@ -71,7 +66,9 @@ Furthermore, there are some important usage notes for these elements. These are:
 
 > 💡 Having a header row doesn't mean having multiple `<thead>` elements, this is not allowed. What this means is each top row of the `<tbody>` element can be made a header with the appropriate combination of `<tr>` and `<th>` elements.
 
-For a similar and larger example with CSS and multiple `<tbody>` elements, check the `codepen example` link under the more info section at the bottom of this insight.
+For a similar example with CSS and multiple `<tbody>` elements, check the following `codepen example` link.
+
+[View CodePen](https://codepen.io/enkidevs/pen/JjNGWqE)
 
 
 ---
