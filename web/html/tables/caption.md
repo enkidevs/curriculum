@@ -58,7 +58,7 @@ Example:
 
 [View CodePen](https://codepen.io/enkidevs/pen/OwNXqB)
 
-**Note:** If a `<table>` element has a `<caption>` and is the only child of a `<figure>` element, you should use a `<figcaption>` instead of the `<caption>` element.
+> 💡 If a `<table>` element has a `<caption>` and is the only child of a `<figure>` element, you should use a `<figcaption>` instead of the `<caption>` element.
 
 
 ---

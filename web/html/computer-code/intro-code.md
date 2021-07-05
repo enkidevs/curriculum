@@ -40,7 +40,7 @@ Code Result:
 
 The default font style for the `<code>` element for most browsers is the monospace font.
 
-**Note:** It's best to use the `<code>` element to style content for HTML elements, CSS rules, filenames, and JS scripts. With a little CSS, the code used can stand out more on a page like this:
+> 💡 It's best to use the `<code>` element to style content for HTML elements, CSS rules, filenames, and JS scripts. With a little CSS, the code used can stand out more on a page like this:
 
 ![code-element-style](https://img.enkipro.com/aa6b83ce3011d5ec08701c538a3a8f7c.png)
 
