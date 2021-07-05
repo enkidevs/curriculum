@@ -67,9 +67,8 @@ The only difference between `.xltx` and `.xltm` file types is that the one of th
 - .xltx
 
 
-
-
 ---
+
 ## Footnotes
 
 [1:Macros]
