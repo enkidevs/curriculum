@@ -6,7 +6,8 @@ tags:
   - workout
   - deep
 links:
-  - '[CodePen: Scrolling Table CSS](https://codepen.io/enkidevs/pen/JBXyoJ){code}'
+  - >-
+    [CodePen: Scrolling Table CSS](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/thead){code}
   - >-
     [HTML <thead>
     Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/thead){documentation}
@@ -16,7 +17,9 @@ links:
   - >-
     [HTML <tfoot>
     Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tfoot){documentation}
-  - '[Codepen Example](https://codepen.io/stefan-stojanovic/pen/jKbJgQ){code}'
+  - >-
+    [CodePen: Table example](https://codepen.io/stefan-stojanovic/pen/jKbJgQ){code}
+
 practiceQuestion:
   formats:
     - fill-in-the-gap
