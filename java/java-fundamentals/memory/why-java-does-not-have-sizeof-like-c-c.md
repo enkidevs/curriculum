@@ -20,7 +20,7 @@ links:
 
 ## Content
 
-In **C** and **C++**, `sizeof()` allocates bytes for data items. 
+In **C** and **C++**, `sizeof()` returns the number of bytes allocated for data items. 
 
 It often varies for different machines or operating systems. For example an integer can be stored in 16 or 32 bits. 
 
