@@ -62,7 +62,7 @@ can <u>corect</u> them.</p>
 
 [View CodePen](https://codepen.io/enkidevs/pen/OwWVBe)
 
-**Note:** The `<u>` element used to be called the `Underline` element before when it was only used to underline text. If you wish to set some text as underline, you should not use the `<u>` element to style it but rather the appropriate CSS properties.
+> 💡 The `<u>` element used to be called the `Underline` element. This was when it was only used to underline text. If you wish to set some text as underline, you should not use the `<u>` element to style it but rather the appropriate CSS properties.
 
 Also, when using the `<u>` element you should give it a different style than underlined because users may confuse them with hyperlinks.
 

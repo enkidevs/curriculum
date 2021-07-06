@@ -55,6 +55,8 @@ Types of change:
 
 ### Changed
 - [Python - Syntax and Numerical Operators - Re-order insights](https://github.com/enkidevs/curriculum/pull/2780)
+- [Web - Topic - Replace old note format with emoji one](https://github.com/enkidevs/curriculum/pull/2782)
+
 
 ### Fixed
 - [Linux - Execute command without saving it - fix missing space in example](https://github.com/enkidevs/curriculum/pull/2779)
