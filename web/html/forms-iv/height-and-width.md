@@ -38,10 +38,10 @@ Example:
 ```
 
 It is very important to set both the height and width in HTML to reserve space while the page loads. If you do not set these properties, the browser won't know how much space to allocate for the image and your web page can change during loading.
-**Note: never specify only the height or only the width property, always specify both.**
+
+> ❗ Never specify only the height or only the width property, always specify both.
 
 Also, you can edit the height and width properties using CSS rules.
-
 
 ---
 
