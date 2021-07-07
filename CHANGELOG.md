@@ -52,6 +52,8 @@ Types of change:
 
 ### Fixed
 - [Python - Hello World! - Fix syntax highlighting](https://github.com/enkidevs/curriculum/pull/2784)
+- [Python - Method Objects - Make example more clear](https://github.com/enkidevs/curriculum/pull/2785)
+
 
 ## July 5th 2021
 
