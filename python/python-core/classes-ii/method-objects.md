@@ -84,7 +84,7 @@ Enki.f(enki) # also returns 'Python'
 print(Enki.f(enki)) # also prints 'Python'
 ```
 
-> ❗ `enki.f(anything)` will throw an error because `enki.f()` only takes Enki class `self` as a parameter.
+> ❗ `enki.f(anything)` will throw an error because `enki.f()` only takes the Enki class `self` as a parameter.
 
 ```python
 enki.f('foobar')
