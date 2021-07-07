@@ -74,7 +74,15 @@ ef() # returns 'Python'
 print(ef()) # prints 'Python'
 ```
 
-Note that under the hood, `enki.f()` is **exactly equivalent** to `Enki.f(enki)`.
+Note that under the hood, `enki.f()` is **exactly equivalent** to `Enki.f(enki)`:
+
+```python
+enki.f() # this will return 'Python'
+print(enki.f()) # prints 'Python'
+
+Enki.f(enki) # also returns 'Python'
+print(Enki.f(enki)) # also prints 'Python'
+```
 
 
 ---
