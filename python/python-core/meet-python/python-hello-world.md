@@ -70,7 +70,7 @@ Let's practice more Python! Which statement will display `'Enki'`?
 
 Complete the code snippet with the correct function to output `'Python with Enki!'`:
 
-```plain-text
+```python
 ???('Python with Enki!')
 
 # Output:
