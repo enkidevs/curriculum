@@ -84,6 +84,17 @@ Enki.f(enki) # also returns 'Python'
 print(Enki.f(enki)) # also prints 'Python'
 ```
 
+> ❗ `enki.f(anything)` will throw an error because `enki.f()` only takes `self` as a parameter.
+
+```python
+enki.f(foobar)
+
+# Traceback (most recent call last):
+#  File "main.py", line 6, in <module>
+#    enki.f(foobar)
+# NameError: name 'foobar' is not defined
+```
+
 
 ---
 
