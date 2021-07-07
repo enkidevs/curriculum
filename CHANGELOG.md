@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## July 7th 2021
+
+### Fixed
+- [Python - Hello World! - Fix syntax highlighting](https://github.com/enkidevs/curriculum/pull/2784)
+
 ## July 5th 2021
 
 ### Added
