@@ -87,12 +87,12 @@ print(Enki.f(enki)) # also prints 'Python'
 > ❗ `enki.f(anything)` will throw an error because `enki.f()` only takes `self` as a parameter.
 
 ```python
-enki.f(foobar)
+enki.f('foobar')
 
 # Traceback (most recent call last):
 #  File "main.py", line 6, in <module>
-#    enki.f(foobar)
-# NameError: name 'foobar' is not defined
+#    enki.f('foobar')
+# TypeError: f() takes 1 positional argument but 2 were given
 ```
 
 
