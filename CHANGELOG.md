@@ -53,6 +53,7 @@ Types of change:
 ### Fixed
 - [JavaScript - Environmental Variables - Fix PQ bug](https://github.com/enkidevs/curriculum/pull/2786)
 - [Python - What Are Iterators - Fix grammar code bug on line 35](https://github.com/enkidevs/curriculum/pull/2787)
+- [Coding Intro - Think Like A Coder - Fix example](https://github.com/enkidevs/curriculum/pull/2788)
 
 ## July 7th 2021
 
