@@ -51,7 +51,7 @@ Types of change:
 ## July 8th 2021
 
 ### Fixed
-- [JavaScript - Environmental Variables - Fix PQ bug]()
+- [JavaScript - Environmental Variables - Fix PQ bug](https://github.com/enkidevs/curriculum/pull/2786)
 
 ## July 7th 2021
 
