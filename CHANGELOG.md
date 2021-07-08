@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## July 8th 2021
+
+### Fixed
+- [JavaScript - Environmental Variables - Fix PQ bug]()
+
 ## July 7th 2021
 
 ### Fixed
