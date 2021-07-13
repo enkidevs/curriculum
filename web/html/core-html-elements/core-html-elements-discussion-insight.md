@@ -48,7 +48,7 @@ If you're stuck or need inspiration, check out our [playground example](https://
 
 > Here are some examples on how you can style your elements:
 
-Chaining css properties together.
+Chaining CSS properties together.
 
 ```css
 <element style="property1:value1;property2:value2">

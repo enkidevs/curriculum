@@ -35,7 +35,7 @@ Links are defined by the `<a>` tag. Every link must have the `href` attribute, w
 </a>
 ```
 
-When links navigate to web pages on other web servers, it is required to use the "http://" protocol, then the domain name, any folder structure, and then the file. In this example, the web page is on another web server, then looking on the enki.com domain, then within the samples folder, and then linking to the page.html web page.
+When links navigate to web pages on other web servers, it is required to use the `"http://"` protocol, then the domain name, any folder structure, and then the file. In this example, the web page is on another web server, then looking on the `enki.com` domain, then within the samples folder, and then linking to the `page.html` web page.
 
 ```html
 <p>I am a <a

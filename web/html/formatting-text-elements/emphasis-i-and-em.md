@@ -24,7 +24,7 @@ revisionQuestion:
 
 ## Content
 
-The HTML `<i>` and `<em>` elements appear very similar since they both have the same default CSS styling of `font-style: italic`. But they both have different purposes.
+The `<i>` and `<em>` elements appear very similar since they both have the same default CSS styling of `font-style: italic`. However, they have different purposes.
 
 The `<i>` element, which stands for **Italic**, is used set a part of a text in a different tone. These parts of text may include:
 
@@ -85,13 +85,11 @@ Furthermore, the `<em>` element is a little different from the `<i>` element in 
 
 [View CodePen](https://codepen.io/enkidevs/pen/GBrpgb)
 
-This is good for expressing a greater degree of emphasis in a sentence. Also, by default nested `<em>` elements they will display the same. Nevertheless, you can use `em > em` in CSS to style nested `<em>` elements.
+This is good for expressing a greater degree of emphasis in a sentence. Also, by default, nested `<em>` elements will display the same. Nevertheless, you can use `em > em` in CSS to style nested `<em>` elements.
 
 ### Used Together
 
 Additionally, the `<em>` and `<i>` elements can be used together.
-
-EM & I Example:
 
 ```html
 <p>
