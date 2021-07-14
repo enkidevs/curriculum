@@ -11,10 +11,12 @@ category: coding
 setupCode:
   startingPoint: |
     // 👋 Welcome to the JavaScript coding playground.
-    // Arrays in question:
     
+    // Arrays in question:
     let first = [1, 3, 5];
     let second = [2, 4, 6];
+
+    // Type your code here:
 
 ---
 

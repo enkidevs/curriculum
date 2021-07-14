@@ -11,12 +11,15 @@ category: coding
 setupCode:
   startingPoint: |
     // 👋 Welcome to the JavaScript coding playground.
+
     let person = {
       name: 'Alan',
       surname: 'Turing',
       education: 'Sherborne School',
       country: 'England'
     };
+
+    // Type your code here:
     
 ---
 

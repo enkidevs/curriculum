@@ -12,8 +12,9 @@ setupCode:
   startingPoint: |
     // 👋 Welcome to the JavaScript coding playground.
     
+    // Type your code here:
     let obj = {
-      // Input Object data here
+      
     };
 
 ---

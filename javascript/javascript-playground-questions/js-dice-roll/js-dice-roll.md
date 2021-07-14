@@ -13,6 +13,7 @@ setupCode:
     // 👋 Welcome to the JavaScript coding playground.
     
     import Math.random;
+    // Type your code here:
 
 ---
 

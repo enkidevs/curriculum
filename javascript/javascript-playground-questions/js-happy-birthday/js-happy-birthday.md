@@ -11,8 +11,11 @@ category: coding
 setupCode:
   startingPoint: |
     // 👋 Welcome to the JavaScript coding playground.
+
     // Example output:
     // Your birthday is in 131 days
+
+    // Type your code here:
 
 ---
 

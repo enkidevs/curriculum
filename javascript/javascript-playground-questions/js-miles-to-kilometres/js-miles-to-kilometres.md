@@ -11,8 +11,11 @@ category: coding
 setupCode:
   startingPoint: |
     // 👋 Welcome to the JavaScript coding playground.
+
     // Example output:
     // 3 miles are equal to 4.8280 kilometers
+
+    // Type your code here:
 
 ---
 

@@ -11,8 +11,11 @@ category: coding
 setupCode:
   startingPoint: |
     // 👋 Welcome to the JavaScript coding playground.
+
     // Example output:
     // 5! is equal to 120
+    
+    // Type your code here:
     
 ---
 

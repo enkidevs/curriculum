@@ -11,11 +11,14 @@ category: coding
 setupCode:
   startingPoint: |
     // 👋 Welcome to the JavaScript coding playground.
+
     // Example reversed String:
     // Input:
     // "Desserts"
     // Output:
     // "stresseD"
+
+    // Type your code here:
 
 ---
 

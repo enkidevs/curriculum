@@ -12,6 +12,7 @@ setupCode:
   startingPoint: |
     // 👋 Welcome to the JavaScript coding playground.
     
+    // Type your code here:
     switch() {
 
     }
@@ -23,7 +24,7 @@ setupCode:
 
 ## Content
 
-Can you create a `switch` statement with `7` `case`s(not including the `default` one). Each `case` can be represented as a number from `0-6` and it should have some output.
+Can you create a `switch` statement with seven `case`s(not including the `default` one). Each `case` can be represented as a number from `0-6` and it should have some output.
 
 Example input output:
 ```javascript

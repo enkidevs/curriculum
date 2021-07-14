@@ -12,7 +12,7 @@ setupCode:
   startingPoint: |
     // 👋 Welcome to the JavaScript coding playground.
     
-    console.log("Hello world!");
+    // Type your code here:
 
 ---
 

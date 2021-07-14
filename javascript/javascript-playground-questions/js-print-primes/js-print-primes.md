@@ -11,9 +11,12 @@ category: coding
 setupCode:
   startingPoint: |
     // 👋 Welcome to the JavaScript coding playground.
+
     // Example output:
     // The first N primes are:
     // 2, 3, 5, 7, 11, 13, ...
+
+    // Type your code here:
     
 ---
 
