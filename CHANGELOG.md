@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## July 14th 2021
+
+### Changed
+- [JavaScript - All Coding Exercises - Update setupCode](https://github.com/enkidevs/curriculum/pull/2792)
+
 ## July 8th 2021
 
 ### Fixed
