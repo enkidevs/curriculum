@@ -11,9 +11,11 @@ category: coding
 setupCode:
   startingPoint: |
     # 👋 Welcome to the Python coding playground. 
-    # Example output:
+    # Example outputs:
     # Zeus has 31 spheres
     # Zeus has an odd number of spheres
+
+    # Type your code here:
       
 ---
 

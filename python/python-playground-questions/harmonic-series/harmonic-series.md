@@ -12,7 +12,7 @@ setupCode:
   startingPoint: |
     # 👋 Welcome to the Python coding playground. 
 
-    print("Hello World")
+    # Type your code here:
       
 ---
 

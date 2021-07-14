@@ -12,9 +12,10 @@ setupCode:
   startingPoint: |
     # 👋 Welcome to the Python coding playground. 
     # The Tuples:
-    
     first = (1, 3, 5)
     second = (2, 4, 6)
+
+    # Type your code here:
     
 
 ---

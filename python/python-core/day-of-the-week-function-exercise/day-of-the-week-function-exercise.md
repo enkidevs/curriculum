@@ -15,6 +15,8 @@ setupCode:
     # 3
     # Example Output:
     # It is Thursday
+    
+    # Type your code here:
 
 ---
 

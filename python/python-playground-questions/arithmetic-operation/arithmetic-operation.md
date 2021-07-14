@@ -14,6 +14,8 @@ setupCode:
     # For this problem use one of these arithmetic operators
     # + or -
 
+    # Type your code here:
+
 ---
 
 # Addition & Subtraction

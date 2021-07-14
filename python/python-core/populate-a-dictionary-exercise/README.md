@@ -1,6 +1,6 @@
 name: Populate a Dictionary
 
-description: Populate an existing `dictionary` with values from two `list`s.
+description: Populate an existing dictionary with values from two lists.
 
 aspects:
   - workout

@@ -17,6 +17,8 @@ setupCode:
     # Output:
     # stresseD
 
+    # Type your code here:
+
 ---
 
 # Reverse String Characters

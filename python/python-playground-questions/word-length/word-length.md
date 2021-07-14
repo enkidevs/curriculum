@@ -16,6 +16,8 @@ setupCode:
     # Output:
     # little
 
+    # Type your code here:
+
 ---
 
 # Word Length
