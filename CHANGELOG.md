@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## Julty 14th 2021
+
+### Changed
+- [Python - All Coding Exercises - Remove markdown form readmes and update setupCodes](https://github.com/enkidevs/curriculum/pull/2791)
+
 ## July 8th 2021
 
 ### Fixed
