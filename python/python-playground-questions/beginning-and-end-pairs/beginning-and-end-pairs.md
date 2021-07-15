@@ -15,6 +15,8 @@ setupCode:
     
     numbers = [1, 3, 5, 7, 9, 10, 8, 6, 4, 2]
 
+    # Type your code here:
+
 
 ---
 

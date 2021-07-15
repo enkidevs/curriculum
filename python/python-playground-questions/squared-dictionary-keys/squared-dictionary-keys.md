@@ -23,6 +23,8 @@ setupCode:
     #   10: 100
     # }
 
+    # Type your code here:
+
 ---
 
 # Squared Dictionary Keys

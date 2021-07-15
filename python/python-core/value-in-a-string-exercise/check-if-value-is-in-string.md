@@ -18,6 +18,8 @@ setupCode:
     # Youtuber:
     youtuber = "Vsauce"
 
+    # Type your code here:
+
 ---
 
 # Value in a String

@@ -19,6 +19,8 @@ setupCode:
       'third': [8, 1, 19, 13]
     }
 
+    # Type your code here:
+
     
 ---
 

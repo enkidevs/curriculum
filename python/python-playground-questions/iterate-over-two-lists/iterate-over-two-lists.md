@@ -15,6 +15,8 @@ setupCode:
 
     name = ['Stefan', 'Michael', 'Rebekah', "Natasha"]
     lastName = ['Stojanovic', 'Stevens', 'Mikaelson', "Romanoff"]
+
+    # Type your code here:
   	  
 ---
 

@@ -11,8 +11,10 @@ category: coding
 setupCode:
   startingPoint: |
     # 👋 Welcome to the Python coding playground.
-    # For this problem use one of these arithmetic operators
+    # For this problem use one of these arithmetic operators:
     # * or /
+
+    # Type your code here:
 
 ---
 

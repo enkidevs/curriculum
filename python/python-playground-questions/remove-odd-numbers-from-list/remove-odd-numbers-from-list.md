@@ -12,8 +12,9 @@ setupCode:
   startingPoint: |
     # 👋 Welcome to the Python coding playground. 
     # Numbered list:
-
     numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+    # Type your code here:
 
 
 ---

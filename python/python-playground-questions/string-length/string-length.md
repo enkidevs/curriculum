@@ -16,6 +16,8 @@ setupCode:
     # Example output:
     # 8
 
+    # Type your code here:
+
 ---
 
 # String Length

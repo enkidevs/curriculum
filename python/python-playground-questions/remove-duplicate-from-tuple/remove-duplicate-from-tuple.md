@@ -18,6 +18,8 @@ setupCode:
       "Steven", "Natasha", "Mark", 
       "Steven", "Mark", "Natasha"
     )
+
+    # Type your code here:
     
     
 ---

@@ -11,12 +11,11 @@ category: coding
 setupCode:
   startingPoint: |
     # 👋 Welcome to the Python coding playground. 
-    # The list of characters
+    # Type your code here:
 
     someDict = {
-      # input data here
+
     }
-    
 
 ---
 

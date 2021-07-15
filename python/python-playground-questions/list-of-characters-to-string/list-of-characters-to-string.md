@@ -14,6 +14,8 @@ setupCode:
     # The list of characters:
 
     characters = ['h', 'e', 'l', 'l', 'o', , 'w', 'o', 'r', 'l' , 'd']
+    
+    # Type your code here:
 
 ---
 
