@@ -13,6 +13,8 @@ setupCode:
     # 👋 Welcome to the Python coding playground. 
     # Example output:
     # 3 miles are equal to 4.8289 kilometres
+
+    # Type your code here:
     
 ---
 

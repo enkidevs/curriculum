@@ -18,6 +18,8 @@ setupCode:
     # * * * *
     # * * * * *
 
+    # Type your code here:
+
 ---
 
 # Pattern Printing

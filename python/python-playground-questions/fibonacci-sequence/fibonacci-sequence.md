@@ -13,6 +13,8 @@ setupCode:
     # 👋 Welcome to the Python coding playground. 
     # Fibonacci sequence:
     # 1, 1, 2, 3, 5, 8
+
+    # Type your code here:
       
 ---
 

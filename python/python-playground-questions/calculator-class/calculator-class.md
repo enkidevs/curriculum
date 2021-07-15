@@ -12,6 +12,7 @@ setupCode:
   startingPoint: |
     # 👋 Welcome to the Python coding playground. 
 
+    # Type your code here:
     def Calculator(x):
       
 

@@ -13,6 +13,8 @@ setupCode:
     # 👋 Welcome to the Python coding playground. 
     # Example output:
     # Your birthday is in 131 days
+
+    # Type your code here:
       
 ---
 

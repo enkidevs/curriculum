@@ -13,6 +13,8 @@ setupCode:
     # 👋 Welcome to the Python coding playground. 
     # Example output:
     # 5! is equal to 120
+
+    # Type your code here:
       
 ---
 

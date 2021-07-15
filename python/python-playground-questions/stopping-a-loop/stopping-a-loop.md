@@ -19,6 +19,8 @@ setupCode:
       "Katherine Johnson", "Lise Meitner", "Nikola Tesla"
     ]  
 
+    # Type your code here:
+
 ---
 
 # Breaking a Loop
