@@ -11,7 +11,8 @@ category: coding
 setupCode:
   startingPoint: |
     // 👋 Welcome to the JavaScript coding playground.
-    
+
+    // Type your code here:
     function Calculator(x) { 
     
     };

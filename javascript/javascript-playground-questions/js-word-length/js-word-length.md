@@ -11,10 +11,13 @@ category: coding
 setupCode:
   startingPoint: |
     // 👋 Welcome to the JavaScript coding playground.
+
     // Example input:
     // myFunction("Marry had a little lamb");
     // Example output:
     // little
+
+    // Type your code here:
 
 ---
 

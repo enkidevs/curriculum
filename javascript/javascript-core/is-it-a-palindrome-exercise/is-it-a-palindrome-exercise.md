@@ -15,6 +15,8 @@ setupCode:
     
     let string1 = "Was it a car or a cat I saw"
     let string2 = "Hey how are you"
+    
+    // Type your code here:
 
 ---
 

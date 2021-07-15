@@ -11,13 +11,15 @@ category: coding
 setupCode:
   startingPoint: |
     // 👋 Welcome to the JavaScript coding playground.
-    // Array in question:
 
+    // Array in question:
     let scientists = [
       "Niels Bohr", "Galileo Galilei", "Marie Curie", 
       "Albert Einstein", "Rosalind Franklin", 
       "Katherine Johnson", "Lise Meitner", "Nikola Tesla"
     ];
+
+    // Type your code here:
 
 ---
 

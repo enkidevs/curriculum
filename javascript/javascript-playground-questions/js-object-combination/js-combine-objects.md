@@ -11,6 +11,8 @@ category: coding
 setupCode:
   startingPoint: |
     // 👋 Welcome to the JavaScript coding playground.
+    
+    // Type your code here:
     let o1 = { }
     let o2 = { }
     

@@ -11,12 +11,15 @@ category: coding
 setupCode:
   startingPoint: |
     // 👋 Welcome to the JavaScript coding playground.
+
     // Example output:
     //     1 
     //    1 1
     //   1 2 1
     //  1 3 3 1
     // 1 4 6 4 1 
+
+    // Type your code here:
     
 ---
 

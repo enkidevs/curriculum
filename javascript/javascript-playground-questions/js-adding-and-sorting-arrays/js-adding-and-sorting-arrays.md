@@ -11,10 +11,12 @@ category: coding
 setupCode:
   startingPoint: |
     // 👋 Welcome to the JavaScript coding playground.
-    // These are the arrays:
 
+    // These are the arrays:
     let oddNumbers = [101, 23, 11, 8, 3, 83, 1];
     let evenNumbers = [12, 0, 37, 91, 99, 44, 76];
+
+    // Type your code here:
 
 ---
 

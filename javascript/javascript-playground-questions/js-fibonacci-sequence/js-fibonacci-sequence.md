@@ -11,8 +11,11 @@ category: coding
 setupCode:
   startingPoint: |
     // 👋 Welcome to the JavaScript coding playground.
+    
     // Fibonacci Sequence:
     // 1, 1, 2, 3, 5, 8, ...
+
+    // Type your code here:
 
 ---
 

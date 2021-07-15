@@ -14,6 +14,8 @@ setupCode:
     // Use this array:
 
     let numbers = [23, 81, 14, 5, 33, 631, 47, 78, 99]
+    
+    // Type your code here:
 
 ---
 

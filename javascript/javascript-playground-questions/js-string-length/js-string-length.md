@@ -11,10 +11,13 @@ category: coding
 setupCode:
   startingPoint: |
     // 👋 Welcome to the JavaScript coding playground.
+
     // Example input:
     // "Elon Musk"
     // Example output:
     // 8
+
+    // Type your code here:
 
 ---
 

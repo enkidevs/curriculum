@@ -11,9 +11,11 @@ category: coding
 setupCode:
   startingPoint: |
     // 👋 Welcome to the JavaScript coding playground.
-    // Array in question:
     
+    // Array in question:
     let numbers = [33, 99, 41, 73, 2, 21, 1, 18];
+
+    // Type your code here:
 
 
 ---

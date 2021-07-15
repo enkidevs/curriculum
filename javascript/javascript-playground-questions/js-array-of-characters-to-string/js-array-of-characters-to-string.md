@@ -11,9 +11,11 @@ category: coding
 setupCode:
   startingPoint: |
     // 👋 Welcome to the JavaScript coding playground.
-    // The array of characters:
 
+    // The array of characters:
     let c = ['h', 'e', 'l', 'l', 'o', ' ', 'w', 'o', 'r', 'l', 'd'];
+
+    // Type your code here:
 
 ---
 
