@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## july 15th 2021
+
+### Changed
+- [Python - Python Versions - Remove type in the gap](https://github.com/enkidevs/curriculum/pull/2793)
+
 ## July 8th 2021
 
 ### Fixed
