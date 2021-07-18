@@ -25,3 +25,20 @@ All programming languages have a handful of building blocks. When combined, they
 - **loops** - to repeat tasks as we please
 
 Every concept, feature, technology, or best practice beyond these basic building blocks were invented to help us mere humans manage the complexity of larger and larger programs.
+
+---
+## Revision
+
+All programming languages have a handful of building blocks. When combined, they can create any program:
+
+??? to store information like `x = 5`
+??? to differentiate between numbers, text, etc.
+??? to make little blocks for different tasks
+??? to make yes/no decisions
+??? to repeat tasks as we please
+
+- variables
+- data types
+- functions
+- conditions
+- loops
