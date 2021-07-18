@@ -5,6 +5,11 @@ type: normal
 
 category: must-know
 
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+
 ---
 
 # Intro to Coding
