@@ -56,7 +56,7 @@ Types of change:
 ## July 19th 2021
 
 ### Fixed
-- [Docker - Docker CLI - Remove the type-in-the-gap format because the answer wasn't explained in the insight]()
+- [Docker - Docker CLI - Remove the type-in-the-gap format because the answer wasn't explained in the insight](https://github.com/enkidevs/curriculum/pull/2796)
 
 ## July 8th 2021
 
