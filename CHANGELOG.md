@@ -53,6 +53,11 @@ Types of change:
 - [Python - Python Versions - Remove type in the gap](https://github.com/enkidevs/curriculum/pull/2793)
 - [JavaScript - All Coding Exercises - Update setupCode](https://github.com/enkidevs/curriculum/pull/2792)
 
+## July 19th 2021
+
+### Fixed
+- [Docker - Docker CLI - Remove the type-in-the-gap format because the answer wasn't explained in the insight]()
+
 ## July 8th 2021
 
 ### Fixed
