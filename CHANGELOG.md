@@ -48,10 +48,10 @@ Types of change:
 
 ### Fixed
 
-## July 16th 2021
+## July 19th 2021
 
 ### Changed
-- [Python and JavaScript - All coding insights - Apply kirils suggestions]()
+- [Python and JavaScript - All coding insights - Apply kirils suggestions](https://github.com/enkidevs/curriculum/pull/2795)
 
 ## July 15th 2021
 
