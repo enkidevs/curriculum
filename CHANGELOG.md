@@ -57,6 +57,7 @@ Types of change:
 
 ### Fixed
 - [Java - How Range Operations Work - Remove trailing spaces from possible PQ answer](https://github.com/enkidevs/curriculum/pull/2797)
+- [Python - The Import Statement - Minor Grammar improvements](https://github.com/enkidevs/curriculum/pull/2798)
 
 ## July 19th 2021
 
