@@ -38,7 +38,7 @@ div{
 }
 ```
 
-Or using the shorthand notation:
+Or you can use the shorthand notation:
 
 ```css
 div{
