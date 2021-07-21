@@ -48,7 +48,7 @@ Types of change:
 
 ### Fixed
 
-## July 21 2021
+## July 21st 2021
 
 ### Fixed
 - [Styling - Borders - Remove incorrect and add correct information regarding borders](https://github.com/enkidevs/curriculum/pull/2799)
