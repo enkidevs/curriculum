@@ -48,7 +48,7 @@ div{
 
 You can declare it with **any combination** of `width`, `style`, and `color` in **any order**.
 
-> ❗ The `style` needs to be set for the border to show. It is because the default value is `none`. 
+> ❗ You need to set the `style` for the border to show. If you don't, the default value is `none`. 
 
 Borders can have different styles, of which the most common is `solid`. Others are `dashed`, `dotted`, or `double`.
 
