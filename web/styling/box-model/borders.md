@@ -28,7 +28,7 @@ revisionQuestion:
 
 Borders occupy the space between margin and padding, providing an outline of the element.
 
-The `border` has 3 properties: `width`, `style`, and `color`. Each of them can be declared individually:
+`border` has three properties: `width`, `style`, and `color`. Each of them can be declared individually:
 
 ```css
 div{
