@@ -26,7 +26,9 @@ revisionQuestion:
 
 ## Content
 
-Borders occupy the space between margin and padding, providing an outline of the element. For a `border` to be displayed, it requires 3 properties: `width`, `style` and `color`. Those properties can be declared individually:
+Borders occupy the space between margin and padding, providing an outline of the element.
+
+The `border` has 3 properties: `width`, `style`, and `color`. Each of them can be declared individually:
 
 ```css
 div{
@@ -36,15 +38,19 @@ div{
 }
 ```
 
-Or using the shorthand notation, that respects the same order:
+Or using the shorthand notation:
 
 ```css
 div{
-  border: 4px solid red;
+  border: red 4px solid;
 }
 ```
 
-Borders can have different styles, of which the most common is `solid`. Others are `dashed`,`dotted` or `double`.
+You can declare it with any combination of the `width`, `style`, and `color`, as well as in any order.
+
+> ❗ The `style` needs to be set for the border to show. It is because the default value is `none`. 
+
+Borders can have different styles, of which the most common is `solid`. Others are `dashed`, `dotted`, or `double`.
 
 You can also set borders for sides individually:
 
@@ -53,8 +59,10 @@ div{
   border-left: 4px dashed red;
   border-top: 2px double blue;
   border-right: 10px dotted green;
+  border-bottom: 7px solid yellow;
 }
 ```
+
 
 
 ---
