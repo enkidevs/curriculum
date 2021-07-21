@@ -46,7 +46,7 @@ div{
 }
 ```
 
-You can declare it with any combination of the `width`, `style`, and `color`, as well as in any order.
+You can declare it with **any combination** of `width`, `style`, and `color` in **any order**.
 
 > ❗ The `style` needs to be set for the border to show. It is because the default value is `none`. 
 
