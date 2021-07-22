@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## July 22nd 2021
+
+### Fixed
+- [Linux - Shell vs. Environment - Fix the type-in-the-gap for the PQ and minor grammar improvements]()
+
 ## July 21st 2021
 
 ### Fixed
