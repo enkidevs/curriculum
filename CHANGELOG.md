@@ -51,7 +51,7 @@ Types of change:
 ## July 22nd 2021
 
 ### Fixed
-- [Linux - Shell vs. Environment - Fix the type-in-the-gap for the PQ and minor grammar improvements]()
+- [Linux - Shell vs. Environment - Fix the type-in-the-gap format for the PQ and minor grammar improvements](https://github.com/enkidevs/curriculum/pull/2800)
 
 ## July 21st 2021
 
