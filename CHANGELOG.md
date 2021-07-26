@@ -51,7 +51,7 @@ Types of change:
 ## July 26th 2021
 
 ### Fixed
-- [Coding Intro - Introduction - General improvements]()
+- [Coding Intro - Introduction - General improvements](https://github.com/enkidevs/curriculum/pull/2803)
 - [Coding Intro - DO..WHILE - Fix RQ](https://github.com/enkidevs/curriculum/pull/2802)
 - [Coding Intro - Accessing List Items - Fix RQ](https://github.com/enkidevs/curriculum/pull/2801)
 
