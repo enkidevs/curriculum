@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## July 26th 2021
+
+### Fixed
+- [Coding Intro - Accessing List Items - Fix RQ]()
+
 ## July 22nd 2021
 
 ### Fixed

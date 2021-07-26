@@ -82,7 +82,7 @@ spring = [
   "May"
 ]
 
-spring[3]
+spring[2]
 // "???"
 ```
 
