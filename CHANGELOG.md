@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## July 28th 2021
+
+### Fixed
+- [Python - Control Flow I - Update duplicated RQ]()
+
 ## July 26th 2021
 
 ### Fixed
