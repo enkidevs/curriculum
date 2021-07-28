@@ -51,7 +51,7 @@ Types of change:
 ## July 28th 2021
 
 ### Fixed
-- [Python - Control Flow I - Update duplicated RQ]()
+- [Python - Control Flow I - Update duplicated RQ](https://github.com/enkidevs/curriculum/pull/2804)
 
 ## July 26th 2021
 
