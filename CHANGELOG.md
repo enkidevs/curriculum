@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## July 29th 2021
+
+### Fixed
+- [Linux - Difference between `redirection` and `pipe` - Fix typo in footnote]()
+
 ## July 28th 2021
 
 ### Fixed
