@@ -51,7 +51,7 @@ Types of change:
 ## July 30th 2021
 
 ### Changed
-- [Coding Intro - Collections - Convert the discussion insight to coding]()
+- [Coding Intro - Collections - Convert the discussion insight to coding](https://github.com/enkidevs/curriculum/pull/2806)
 
 ## July 29th 2021
 
