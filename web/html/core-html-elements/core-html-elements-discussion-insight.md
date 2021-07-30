@@ -1,28 +1,23 @@
 ---
 author: Stefan-Stojanovic
 
-tags:
-  - discussion
-
 type: normal
 
-category: discussion
+category: how-to
 
 ---
 
-# Test Yourself
+# Webpage Content Exercise
 
 ---
 
 ## Content
 
-Now that you've learned some HTML, it's time to try it out!
-
-Can you write HTML code for a webpage that would display:
-- The largest heading containing the title of the page
-- An image of any size. To be nice to your viewers add an alternative text message in case the image cannot load.
-- One paragraph with information about the page.
-- A link to another website
+> 👩‍💻 Your task is to write HTML code for a webpage that would display:
+> - **The largest heading containing the title of the page**
+> - **An image of any size. To be nice to your viewers add an alternative text message in case the image cannot load.**
+> - **One paragraph with information about the page.**
+> - **A link to another website**
 
 It's up to you to choose the title, the image, what the contents of those paragraphs will be, as well as their color.
 
