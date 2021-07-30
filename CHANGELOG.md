@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## July 30th 2021
+
+### Changed
+- [Coding Intro - Collections - Convert the discussion insight to coding]()
+
 ## July 29th 2021
 
 ### Fixed
