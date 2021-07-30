@@ -54,7 +54,7 @@ When you're finished, feel free to share your solution with the community, join 
 
 > 💡 The guidelines above are just suggestions. Feel free to include other concepts in your solution as you see fit. The implementation is up to you.
 
-> 🤓 Happy learning! Open the [playground](https://learn.enki.com/public/playground?jsonUrl=https://gist.githubusercontent.com/kapnobatai137/757d2557a971940305ace59e5bce0808/raw/32399b94024073c351727c6888a697f9fa448737/sql-insert-discussion-insight.json) and start coding!
+> 🤓 Happy learning! Open the [playground](https://learn.enki.com/public/playground?jsonUrl=https://gist.githubusercontent.com/kapnobatai137/0f58777052a47fc5061fa83370089174/raw/aa959e729d71cb03bf7d4a5ec079ced985f1e319/sql-aggregate-queries-discussion-insight.json) and start coding!
 
 ---
 
