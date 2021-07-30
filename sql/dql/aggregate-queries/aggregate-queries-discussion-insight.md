@@ -14,7 +14,7 @@ links:
 
 ---
 
-# Test Yourself
+# Aggregate Queries Exercise
 
 ---
 
