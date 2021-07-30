@@ -51,7 +51,7 @@ Types of change:
 ## July 30th 2021
 
 ### Changed
-- [SQL - Update - Place the discussion insight as an exercise opportunity]()
+- [SQL - Update - Place the discussion insight as an exercise opportunity](https://github.com/enkidevs/curriculum/pull/2808)
 
 ## July 29th 2021
 
