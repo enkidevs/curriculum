@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## July 30th 2021
+
+### Changed
+- [SQL - Update - Place the discussion insight as an exercise opportunity]()
+
 ## July 29th 2021
 
 ### Fixed
