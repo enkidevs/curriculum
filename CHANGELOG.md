@@ -50,6 +50,9 @@ Types of change:
 
 ## July 29th 2021
 
+### Changed
+- [Web - Box Model Discussion Insight - Change category and update content](https://github.com/enkidevs/curriculum/pull/2811)
+
 ### Fixed
 - [Linux - Difference between `redirection` and `pipe` - Fix typo in footnote](https://github.com/enkidevs/curriculum/pull/2805)
 
