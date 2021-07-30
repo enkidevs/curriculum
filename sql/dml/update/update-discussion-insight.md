@@ -6,7 +6,7 @@ tags:
 
 type: normal
 
-category: discussion
+category: how-to
 
 links:
   - >-
