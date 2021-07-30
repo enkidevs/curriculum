@@ -51,7 +51,7 @@ Types of change:
 ## July 30th 2021
 
 ### Changed
-- [SQL - Aggregate Queries - Place the discussion insight as an exercise opportunity]()
+- [SQL - Aggregate Queries - Place the discussion insight as an exercise opportunity](https://github.com/enkidevs/curriculum/pull/2809)
 
 ## July 29th 2021
 
