@@ -22,7 +22,7 @@ For example in `String.substring(from, to)`, the character at position 'from' wi
 
 > **Remember:** As with most programming languages, indexes in Java start from 0.
 
-So, `"Enki".substring(1,3);` will return `"nk"`. The character at 1; 'n' was included and the character at 3; 'i' was excluded.
+So, `"Enki".substring(1,3);` will return `"ni"`. The character at 1; 'n' was included and the character at 3; 'i' was excluded.
 
 This convention also applies in other areas of the JDK such as `List.sublist(from, to)` and `Arrays.copyOfRange(T[], from, to)`.
  
