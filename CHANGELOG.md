@@ -53,6 +53,10 @@ Types of change:
 ### Added
 - [JavaScript - Introducing JavaScript - Add coding insight](https://github.com/enkidevs/curriculum/pull/2815)
 
+### Archived
+- [Comp. Sci. - Archive three unused workouts](https://github.com/enkidevs/curriculum/pull/2814)
+- [TypeScript - Extending Interfaces - Remove the type-in-the-gap from the PQ](https://github.com/enkidevs/curriculum/pull/2816)
+
 ## July 29th 2021
 
 ### Fixed
