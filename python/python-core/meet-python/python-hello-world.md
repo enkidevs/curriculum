@@ -39,7 +39,7 @@ print('Hello World!')
 
 The output displayed in the shell should be:
 
-```Plain Text
+```plain-text
 Hello World!
 ```
 

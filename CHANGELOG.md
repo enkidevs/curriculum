@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## August 2nd 2021
+
+### Added
+- [JavaScript - Introducing JavaScript - Add coding insight]()
+
 ## July 29th 2021
 
 ### Fixed
