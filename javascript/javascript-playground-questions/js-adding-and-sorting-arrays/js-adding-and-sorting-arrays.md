@@ -26,8 +26,8 @@ setupCode:
 
 ## Content
 
-> 👩‍💻 Your task is to:
-> - **create a program that takes two arrays of numbers as input**
+> 👩‍💻 Your task is to create a program that:
+> - **takes two arrays of numbers as input**
 > - **joins them together into one array**
 > - **sort them in ascending or descending order**
 
