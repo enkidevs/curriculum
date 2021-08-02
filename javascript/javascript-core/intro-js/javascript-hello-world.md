@@ -8,14 +8,15 @@ category: coding
 setupCode:
   startingPoint: |
    // 👋 Welcome to the JavaScript coding playground.
-   // Update the statement to log 'Hello World'
+   // Update the statement with
+   // first thing you'd log in your JavaScript notebook
+   // if you just landed on Mars
    
-   console.log("You got this!");
+   console.log("That's one small step for man, one giant leap for JavaScript!");
 
 ---
 
-# Hello World!
-
+# Hello Mars!
 
 ---
 
@@ -23,18 +24,18 @@ setupCode:
 
 Let's write our first JavaScript program!
 
-> 👩‍💻 Your task is to: **log `Hello World!` to our screen**!
+> 👩‍💻 Your task is to use JavaScript's `console.log` function to output **the first thing you'd log in your JavaScript notebook if you just landed on Mars**!
 
-To do this, use JavaScript's `console.log` function:
+Here's how you would say hello to Mars:
 
 ```js
-console.log('Hello World!')
+console.log('Hello Mars!')
 ```
 
-The output displayed in the shell should be:
+And the output displayed in the shell would be:
 
 ```plain-text
-Hello World!
+Hello Mars!
 ```
 
 > As with all the skills in the app, if you want to access more advanced or specific content at any time, **feel free to use the [*Skill Map*](https://enki.com/skill/selection) tab** to jump to the workouts most relevant for you.

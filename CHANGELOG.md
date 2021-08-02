@@ -51,7 +51,10 @@ Types of change:
 ## August 2nd 2021
 
 ### Added
-- [JavaScript - Introducing JavaScript - Add coding insight](https://github.com/enkidevs/curriculum/pull/2815)
+- [JavaScript - Hello Mars! - Add coding insight](https://github.com/enkidevs/curriculum/pull/2815)
+
+### Changed
+- [Python - Hello Mars! - Improve copy](https://github.com/enkidevs/curriculum/pull/2815)
 
 ### Archived
 - [Comp. Sci. - Archive three unused workouts](https://github.com/enkidevs/curriculum/pull/2814)
