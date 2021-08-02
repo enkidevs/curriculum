@@ -50,7 +50,8 @@ Types of change:
 
 ## August 2nd 2021
 
-### Fixed
+### Archived
+- [Comp. Sci. - Archive three unused workouts](https://github.com/enkidevs/curriculum/pull/2814)
 - [TypeScript - Extending Interfaces - Remove the type-in-the-gap from the PQ](https://github.com/enkidevs/curriculum/pull/2816)
 
 ## July 29th 2021
