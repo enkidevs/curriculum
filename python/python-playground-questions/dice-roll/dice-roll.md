@@ -24,7 +24,7 @@ setupCode:
 ## Content
 
 > 👩‍💻 Your task is to:
-- **create a function using the `random` module**
+- **create a function using the random module**
 - **it should operate like a dice roll**
 - **every time you execute it, it should return a number between 1 and 6**
 
