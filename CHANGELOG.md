@@ -51,7 +51,7 @@ Types of change:
 ## August 2nd 2021
 
 ### Fixed
-- [TypeScript - Extending Interfaces - Remove the type-in-the-gap from the PQ]()
+- [TypeScript - Extending Interfaces - Remove the type-in-the-gap from the PQ](https://github.com/enkidevs/curriculum/pull/2816)
 
 ## July 29th 2021
 
