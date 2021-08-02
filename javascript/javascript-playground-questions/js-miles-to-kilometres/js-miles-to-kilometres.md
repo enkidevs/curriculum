@@ -19,7 +19,7 @@ setupCode:
 
 ---
 
-# Miles to Kilometres Converter
+# Miles to Kilometer Converter
 
 ---
 
@@ -68,5 +68,5 @@ Example input / output:
 3 miles
 
 // Output
-3 miles are equal to 4.8280 kilometres
+3 miles are equal to 4.8280 kilometers
 ```
