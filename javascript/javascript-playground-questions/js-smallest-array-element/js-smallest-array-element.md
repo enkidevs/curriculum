@@ -30,7 +30,7 @@ setupCode:
 > - **takes an array as input**
 > - **output the smallest number from the array**
 
-Here is the array:
+Sample array:
 ```javascript
 let numbers = [33, 99, 41, 73, 2, 21, 1, 18];
 ```
