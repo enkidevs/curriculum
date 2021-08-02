@@ -50,6 +50,12 @@ Types of change:
 
 ## August 2nd 2021
 
+### Added
+- [JavaScript - Hello Mars! - Add coding insight](https://github.com/enkidevs/curriculum/pull/2815)
+
+### Changed
+- [Python - Hello Mars! - Improve copy](https://github.com/enkidevs/curriculum/pull/2815)
+
 ### Archived
 - [Comp. Sci. - Archive three unused workouts](https://github.com/enkidevs/curriculum/pull/2814)
 - [TypeScript - Extending Interfaces - Remove the type-in-the-gap from the PQ](https://github.com/enkidevs/curriculum/pull/2816)
