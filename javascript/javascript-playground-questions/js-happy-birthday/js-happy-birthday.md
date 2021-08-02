@@ -26,7 +26,7 @@ setupCode:
 ## Content
 
 > 👩‍💻 Your task is to create a program:
-> - **using the `Date` object**
+> - **using the Date object**
 > - **it should check if the current date is your birthday**
 > - **If it is, print a happy birthday message**
 > - **If not, output how many days until your birthday**
