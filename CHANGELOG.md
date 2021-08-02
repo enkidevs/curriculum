@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## August 2nd 2021
+
+### Archived
+- [Comp. Sci. - Archive three unused workouts]()
+
 ## July 29th 2021
 
 ### Fixed
