@@ -51,7 +51,7 @@ Types of change:
 ## August 2nd 2021
 
 ### Archived
-- [Comp. Sci. - Archive three unused workouts]()
+- [Comp. Sci. - Archive three unused workouts](https://github.com/enkidevs/curriculum/pull/2814)
 
 ## July 29th 2021
 
