@@ -18,7 +18,7 @@ setupCode:
     
 ---
 
-# Miles to Kilometres Converter
+# Miles to Kilometers Converter
 
 ---
 
