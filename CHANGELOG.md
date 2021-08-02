@@ -48,12 +48,46 @@ Types of change:
 
 ### Fixed
 
-## July 19th 2021
+
+## August 2nd 2021
+
+### Added
+- [JavaScript - Hello Mars! - Add coding insight](https://github.com/enkidevs/curriculum/pull/2815)
 
 ### Changed
 - [Python and JavaScript - All coding insights - Apply kirils suggestions](https://github.com/enkidevs/curriculum/pull/2795)
+- [Python - Hello Mars! - Improve copy](https://github.com/enkidevs/curriculum/pull/2815)
 
-## July 15th 2021
+### Archived
+- [Comp. Sci. - Archive three unused workouts](https://github.com/enkidevs/curriculum/pull/2814)
+- [TypeScript - Extending Interfaces - Remove the type-in-the-gap from the PQ](https://github.com/enkidevs/curriculum/pull/2816)
+
+## July 29th 2021
+
+### Fixed
+- [Linux - Difference between `redirection` and `pipe` - Fix typo in footnote](https://github.com/enkidevs/curriculum/pull/2805)
+
+## July 28th 2021
+
+### Fixed
+- [Python - Control Flow I - Update duplicated RQ](https://github.com/enkidevs/curriculum/pull/2804)
+
+## July 26th 2021
+
+### Fixed
+- [Coding Intro - Introduction - General improvements](https://github.com/enkidevs/curriculum/pull/2803)
+- [Coding Intro - DO..WHILE - Fix RQ](https://github.com/enkidevs/curriculum/pull/2802)
+- [Coding Intro - Accessing List Items - Fix RQ](https://github.com/enkidevs/curriculum/pull/2801)
+
+## July 22nd 2021
+
+### Fixed
+- [Linux - Shell vs. Environment - Fix the type-in-the-gap format for the PQ and minor grammar improvements](https://github.com/enkidevs/curriculum/pull/2800)
+
+## July 21st 2021
+
+### Fixed
+- [Styling - Borders - Remove incorrect and add correct information regarding borders](https://github.com/enkidevs/curriculum/pull/2799)
 
 ### Changed
 - [Python - All Coding Exercises - Remove markdown form readmes and update setupCodes](https://github.com/enkidevs/curriculum/pull/2791)
@@ -64,6 +98,7 @@ Types of change:
 
 ### Fixed
 - [Java - How Range Operations Work - Remove trailing spaces from possible PQ answer](https://github.com/enkidevs/curriculum/pull/2797)
+- [Python - The Import Statement - Minor Grammar improvements](https://github.com/enkidevs/curriculum/pull/2798)
 
 ## July 19th 2021
 

@@ -92,8 +92,6 @@ else:
 
 What does the following code snippet print?
 
-???
-
 ```python
 x = 8
 if (x == 8):
@@ -101,6 +99,8 @@ if (x == 8):
 else:
     print ('false')
 ```
+
+???
 
 - true
 - SyntaxError
