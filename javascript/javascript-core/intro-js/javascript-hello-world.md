@@ -8,9 +8,7 @@ category: coding
 setupCode:
   startingPoint: |
    // 👋 Welcome to the JavaScript coding playground.
-   // Update the statement with
-   // first thing you'd log in your JavaScript notebook
-   // if you just landed on Mars
+   // Update the statement with the first thing you'd log if you just landed on Mars!
    
    console.log("That's one small step for man, one giant leap for JavaScript!");
 
@@ -24,7 +22,7 @@ setupCode:
 
 Let's write our first JavaScript program!
 
-> 👩‍💻 Your task is to use JavaScript's `console.log` function to output **the first thing you'd log in your JavaScript notebook if you just landed on Mars**!
+> 👩‍💻 Your task is to use JavaScript's `console.log` function to output **the first thing you'd log if you just landed on Mars**!
 
 Here's how you would say hello to Mars:
 

@@ -11,9 +11,7 @@ category: coding
 setupCode:
   startingPoint: |
    # 👋 Welcome to the Python coding playground.
-   # Update the statement with
-   # the first thing you'd log in your JavaScript notebook
-   # if you just landed on Mars
+   # Update the statement to output the first thing you'd log if you just landed on Mars!
    
    print("That's one small step for man, one giant leap for Python!");
    
@@ -36,7 +34,7 @@ revisionQuestion:
 
 Let's write our first Python program!
 
-> 👩‍💻 Your task is to use Python's `print` function to output **the first thing you'd log in your Python notebook if you just landed on Mars**!
+> 👩‍💻 Your task is to use Python's `print` function to output **the first thing you'd log if you just landed on Mars**!
 
 Here's how you would say hello to Mars:
 
