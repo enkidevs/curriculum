@@ -51,7 +51,7 @@ Types of change:
 ## August 2nd 2021
 
 ### Added
-- [JavaScript - Introducing JavaScript - Add coding insight]()
+- [JavaScript - Introducing JavaScript - Add coding insight](https://github.com/enkidevs/curriculum/pull/2815)
 
 ## July 29th 2021
 
