@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## August 2nd 2021
+
+### Fixed
+- [TypeScript - Extending Interfaces - Remove the type-in-the-gap from the PQ]()
+
 ## July 29th 2021
 
 ### Fixed
