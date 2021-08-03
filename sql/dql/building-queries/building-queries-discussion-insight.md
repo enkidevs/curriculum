@@ -21,7 +21,7 @@ links:
 > - **are from the same generation**
 > - **are from the same type**
 
-Here's how the table looks like:
+Here's what the table looks like:
 
 | id  | name       | generation | type_1 | type_2 |
 |-----|------------|------------|--------|--------|
