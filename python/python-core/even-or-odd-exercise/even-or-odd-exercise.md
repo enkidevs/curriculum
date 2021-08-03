@@ -26,7 +26,16 @@ setupCode:
 
 ## Content
 
-> 👩‍💻 Your task is to write a program that **determines if a number is even or odd and output a message**.
+> 👩‍💻 Your task is to write a program that **determines if a number is even or odd and outputs a message**.
+
+Sample input and output:
+```plain-text
+# Input:
+# 314
+
+# Output:
+# It is even
+```
 
 To achieve this, you can use the following concepts:
 - flow control (`if (age > 30) ...`)
