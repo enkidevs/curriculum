@@ -25,7 +25,7 @@ setupCode:
 
 ## Content
 
-> 👩‍💻 Your task is to write a program that **takes a numbered object with at least five values, sums them, and outputs the result**.
+> 👩‍💻 Your task is to write a program that **takes an object with at least five numerical values, sums them, and outputs the result**.
 
 To achieve this, you can use the following concepts:
 - variable creation (`age = 31`)
