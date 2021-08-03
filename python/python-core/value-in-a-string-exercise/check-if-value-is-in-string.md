@@ -28,9 +28,9 @@ setupCode:
 
 ## Content
 
-> 👩‍💻 Your task is to:
-> - **check if a string is inside a list of strings**
-> - **output a confirmation message if it is**
+> 👩‍💻 Your task is to write a program that:
+> - **checks if a string is inside a list of strings**
+> - **outputs a confirmation message if it is**
 
 You can create your own or use these example strings:
 ```python

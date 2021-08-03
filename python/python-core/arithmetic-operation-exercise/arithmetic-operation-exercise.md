@@ -24,9 +24,7 @@ setupCode:
 
 ## Content
 
-> 👩‍💻 Your task is to write a program that will:
-> - **multiply or divide two numbers**
-> - **output the result along with a message**
+> 👩‍💻 Your task is to write a program that **multiplies or divides two numbers and outputs the result**.
 
 It's up to you to choose which operation to use and what the message will be.
 

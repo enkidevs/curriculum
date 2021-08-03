@@ -27,8 +27,7 @@ setupCode:
 ## Content
 
 > 👩‍💻 Your task is to create a function that will:
-> - **take a number as input**
-> - **determine if the number is between 0-6**
+> - **check if a number is between 0-6**
 > - **if it is, output the corresponding day of the week (0 for Monday)** 
 > - **if not, output a message like "Try Again."**
 

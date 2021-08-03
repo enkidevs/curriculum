@@ -52,6 +52,6 @@ Remember, learning is more effective when we do it with others.
 
 [1: Hints]
 
-For this problem you will need two variables to hold your numbers, a counter variable, and a temporary variable.
+For this problem, you will need two variables to hold your numbers, a counter variable, and a temporary variable.
 
 The temporary variable goes inside the loop while the counter increases at the end of every loop cycle.
