@@ -29,17 +29,17 @@ Here are the two `div` elements:
 Here is how they currently look:
 ![two-different-divs](https://img.enkipro.com/78088e8e786299d04e782ea76b6a4059.png)
 
-Here's how the end result should look like:
+Here's what the end result should look like:
 
 ![two-equal-divs](https://img.enkipro.com/7ff8de095a87198ae6392f1332140eb8.png)
 
 If you're not sure what to do, check out this footnote[1].
 
-When you're ready, leave a comment or a codepen link with your submission. If you don't want to participate, you can always check the comment section to see what the other users come up with.
+When you're ready, leave a comment or a codepen link with your submission. If you don't want to participate, you can always check the comment section to see what others submitted.
 
 > 💡 Before you submit your program, take a look at [how you can format your comments](https://www.enki.com/glossary/general/markdown-formatting).
 
-> 💡 The guidelines above are just suggestions. Feel free to include other concepts in your solution as you see fit, the implementation is up to you.
+> 💡 The guidelines above are just suggestions. Feel free to include other concepts in your solution as you see fit. The implementation is up to you!
  
 ---
 ## Footnotes
