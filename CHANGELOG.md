@@ -48,10 +48,28 @@ Types of change:
 
 ### Fixed
 
+## August 3rd 2021
+
+### Changed
+- [JavaScript - Basics Part 2 - Minor Grammar Improvements](https://github.com/enkidevs/curriculum/pull/2817)
+
+## August 2nd 2021
+
+### Added
+- [JavaScript - Hello Mars! - Add coding insight](https://github.com/enkidevs/curriculum/pull/2815)
+
+### Changed
+- [Python - Hello Mars! - Improve copy](https://github.com/enkidevs/curriculum/pull/2815)
+
+### Archived
+- [Comp. Sci. - Archive three unused workouts](https://github.com/enkidevs/curriculum/pull/2814)
+- [TypeScript - Extending Interfaces - Remove the type-in-the-gap from the PQ](https://github.com/enkidevs/curriculum/pull/2816)
+
 ## July 29th 2021
 
 ### Changed
 - [Web - Core HTML Discussion Insight - Change category and update content](https://github.com/enkidevs/curriculum/pull/2812)
+- [Web - Box Model Discussion Insight - Change category and update content](https://github.com/enkidevs/curriculum/pull/2811)
 
 ### Fixed
 - [Linux - Difference between `redirection` and `pipe` - Fix typo in footnote](https://github.com/enkidevs/curriculum/pull/2805)
