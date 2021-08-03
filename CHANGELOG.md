@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## August 3rd 2021
+
+### Changed
+- [JavaScript - Basics Part 2 - Minor Grammar Improvements](https://github.com/enkidevs/curriculum/pull/2817)
+
 ## August 2nd 2021
 
 ### Added
