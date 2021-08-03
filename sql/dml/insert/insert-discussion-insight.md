@@ -22,7 +22,7 @@ links:
 
 > 👩‍💻 Using our [playground](https://learn.enki.com/public/playground?jsonUrl=https://gist.githubusercontent.com/kapnobatai137/757d2557a971940305ace59e5bce0808/raw/32399b94024073c351727c6888a697f9fa448737/sql-insert-discussion-insight.json), your task is to: **insert two more records into the `movies` table**.
 
-Here is how the `movies` table looks like:
+Here is what the `movies` table looks like:
 
 | id  | name                   | year | rating |
 |-----|------------------------|------|--------|
