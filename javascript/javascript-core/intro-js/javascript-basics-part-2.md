@@ -131,7 +131,7 @@ ECMAScript is the specification defining the rules of JavaScript. The features o
 [2: ASI]
 JavaScript ASI will sometimes assume a statement ends where it might not be intended.
 
-For example, the code bellow:
+For example, the code below:
 
 ```js
 x 
