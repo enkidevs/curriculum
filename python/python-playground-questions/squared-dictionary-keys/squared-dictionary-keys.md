@@ -33,9 +33,9 @@ setupCode:
 
 ## Content
 
-> 👩‍💻 Your task is to create a dictionary:
-> - **its keys should go from 1 to 10 (bounds included)**
-> - **the value corresponding to each key should equal the square value of the key**
+> 👩‍💻 Your task is to create a `squareRoot` dictionary. It should:
+> - **have keys that go from 1 to 10 (bounds included)**
+> - **the value of each key should be the square of the key**
 
 Example solution:
 ```python

@@ -12,10 +12,10 @@ setupCode:
   startingPoint: |
     # 👋 Welcome to the Python coding playground.
     
-    # List of youtubers names:
+    # Sample list of strings:
     names = ["Mark Rober", "Backyard Scientist", "Vsauce"]
 
-    # Youtuber:
+    # Sample string:
     youtuber = "Vsauce"
 
     # Type your code here:
@@ -29,10 +29,10 @@ setupCode:
 ## Content
 
 > 👩‍💻 Your task is to:
-> - **check if the youtuber is inside the names string**
+> - **check if a string is inside a list of strings**
 > - **output a confirmation message if it is**
 
-Youtuber and names strings:
+You can create your own or use these example strings:
 ```python
 names = ["Mark Rober", "Backyard Scientist", "Vsauce"]
 youtuber = "Vsauce"

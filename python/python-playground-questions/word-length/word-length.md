@@ -26,10 +26,7 @@ setupCode:
 
 ## Content
 
-> 👩‍💻 Your task is to define a function that:
-> - **takes a sentence as input**
-> - **splits the sentence into separate words**
-> - **output words longer than four letters**
+> 👩‍💻 Your task is to define a function that **splits a sentence into separate words and only outputs words longer than four letters**.
 
 Example input/output:
 ```python

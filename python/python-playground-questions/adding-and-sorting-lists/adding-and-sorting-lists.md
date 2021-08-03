@@ -11,8 +11,9 @@ category: coding
 setupCode:
   startingPoint: |
     # 👋 Welcome to the Python coding playground.
-    # These are the lists:
-    
+    # Create a function that joins two lists and sorts the resulting list in ascending order.
+
+    # Sample lists to use:
     oddNumbers = [101, 23, 11, 37, 3, 83, 1]
     evenNumbers = [12, 0, 8, 92, 98, 44, 76]
 
@@ -26,13 +27,9 @@ setupCode:
 
 ## Content
 
-> 👩‍💻 Your task is to make a program that will:
-> - **take two numbered lists**
-> - **join them together into one list**
-> - **sort them by size**
-> - **print the resulting list**
+> 👩‍💻 Your task is to: **create a function that joins two lists and sorts the resulting list in ascending order.**
 
-Here are the two lists of numbers:
+Sample lists to use:
 ```python
 oddNumbers = [101, 23, 11, 37, 3, 83, 1]
 evenNumbers = [12, 0, 8, 92, 98, 44, 76]

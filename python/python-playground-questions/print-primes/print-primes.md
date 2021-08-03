@@ -25,8 +25,7 @@ setupCode:
 
 ## Content
 
-> 👩‍💻 Your task is to create a program that:
-> - **outputs the first 15 prime numbers**
+> 👩‍💻 Your task is to create a program that **outputs the first 15 prime numbers.**
 
 > A prime number is a number that is only divisible by 1 and itself.
 

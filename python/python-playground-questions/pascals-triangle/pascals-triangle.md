@@ -28,8 +28,7 @@ setupCode:
 
 ## Content
 
-> 👩‍💻 Your task is to write a program that:
-> - **outputs the Pascal triangle**
+> 👩‍💻 Your task is to write a program that **outputs the Pascal triangle.**
 
 > The Pascal triangle is a triangular array of binomial coefficients.
 

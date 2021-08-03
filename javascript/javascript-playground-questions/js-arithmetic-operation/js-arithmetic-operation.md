@@ -25,9 +25,7 @@ setupCode:
 
 ## Content
 
-> 👩‍💻 Your task is to create a program that will:
-> - **add, subtract, multiply or divide two numbers**
-> - **output the result along with a message**
+> 👩‍💻 Your task is to **create a program that uses at least one of the arithmetic operators and outputs the result**. 
 
 It's up to you to choose which operation to use and what the message will be.
 
@@ -39,7 +37,7 @@ Learning is best when we give it an honest try. Even if we make a mistake, we'll
 
 That being said, if you're not sure how to get started, check out this footnote[1]. 
 
-When you're finished, feel free to share your solution with the community, join in on discussions and upvote solutions from your fellow learners!
+When you're finished, feel free to share your solution with the community, join in on discussions, and upvote solutions from your fellow learners!
 
 Remember, learning is more effective when we do it with others.
 

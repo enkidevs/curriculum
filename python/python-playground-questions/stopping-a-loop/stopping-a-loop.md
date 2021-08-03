@@ -29,9 +29,9 @@ setupCode:
 
 ## Content
 
-> 👩‍💻 Your task is to create a loop that:
-> - **cycles through a list of names**
-> - **outputs every name until it reaches a specific one, then break out of the loop**
+> 👩‍💻 Your task is to create a program that:
+> - **loops through a list of names**
+> - **outputs every name until it reaches a specific one, then breaks out of the loop**
 
 Example list to use:
 

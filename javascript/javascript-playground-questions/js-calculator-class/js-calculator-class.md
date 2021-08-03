@@ -11,9 +11,11 @@ category: coding
 setupCode:
   startingPoint: |
     // 👋 Welcome to the JavaScript coding playground.
-
+    // Create a Calculator class with four methods; multiply, divide, subtract, and add two numbers
+    // Call each method to confirm it works
+    
     // Type your code here:
-    function Calculator(x) { 
+    class Calculator(x) { 
     
     };
 
@@ -25,10 +27,10 @@ setupCode:
 
 ## Content
 
-> 👩‍💻 Your task is to create a `Calculator` class that:
-> - **takes two numbers as input**
-> - **has four methods that; multiply, divide, subtract and add two numbers**
-> - **after creating the class, call each of the four methods to confirm it works**
+> 👩‍💻 Your task is to:
+> - **create a `Calculator` class that takes two numbers as input**
+> - **add four methods to the class: multiply, divide, subtract and add the two numbers**
+> - **call each of the four methods to confirm it works**
 
 To achieve this, you can use the following concepts:
 - class creation (`class Something { }`)
@@ -38,7 +40,7 @@ Learning is best when we give it an honest try. Even if we make a mistake, we'll
 
 That being said, if you're not sure how to get started, check out this footnote[1]. 
 
-When you're finished, feel free to share your solution with the community, join in on discussions and upvote solutions from your fellow learners!
+When you're finished, feel free to share your solution with the community, join in on discussions, and upvote solutions from your fellow learners!
 
 Remember, learning is more effective when we do it with others.
 
@@ -63,4 +65,4 @@ class Name {
 }
 ```
 
-The name for your class should be `Calculator` and it should have 4 methods for each arithmetic operation.
+The name for your class should be `Calculator` and it should have four methods for each arithmetic operation.

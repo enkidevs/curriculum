@@ -25,7 +25,7 @@ setupCode:
 
 > 👩‍💻 Your task is to:
 - **populate an empty tuple with as many different data types as you can think of**
-- **output one of them in a print statement through its index**
+- **access one of the elements through its index and print it**
 
 Learning is best when we give it an honest try. Even if we make a mistake, we'll remember it and do better next time.
 

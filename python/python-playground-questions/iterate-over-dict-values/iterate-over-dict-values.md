@@ -11,6 +11,8 @@ category: coding
 setupCode:
   startingPoint: |
     # 👋 Welcome to the Python coding playground. 
+    # Iterate over each element of the dictionary and print them/
+
     # Example dictionary:
     # myDict = {
     #   'name': 'Alan', 
@@ -18,7 +20,7 @@ setupCode:
     #   'education': 'Sherborne School', 
     #   'country': 'England'
     #  }
-    #
+    
     # Example output:
     # name, Alan
     # surname, Turing
@@ -33,8 +35,7 @@ setupCode:
 
 ## Content
 
-> 👩‍💻 Your task is to write a program that: 
-> - **iterates over each element of a dictionary and prints them**
+> 👩‍💻 Your task is to write a program that **iterates over each element of a dictionary and prints them**
 
 You can use this dictionary:
 ```python

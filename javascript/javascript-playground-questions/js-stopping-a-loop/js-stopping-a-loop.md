@@ -29,9 +29,9 @@ setupCode:
 
 ## Content
   
-> 👩‍💻 Your task is to create a loop that:
-> - **cycles through an array of names**
-> - **outputs every name until it reaches a specific one, then break out of the loop**
+> 👩‍💻 Your task is to create a program that:
+> - **loops through an array of names**
+> - **outputs every name until it reaches a specific one, then breaks out of the loop**
 
 Example array to use:
 
@@ -57,7 +57,7 @@ Learning is best when we give it an honest try. Even if we make a mistake, we'll
 
 That being said, if you're not sure how to get started, check out this footnote[1]. 
 
-When you're finished, feel free to share your solution with the community, join in on discussions and upvote solutions from your fellow learners!
+When you're finished, feel free to share your solution with the community, join in on discussions, and upvote solutions from your fellow learners!
 
 Remember, learning is more effective when we do it with others.
 

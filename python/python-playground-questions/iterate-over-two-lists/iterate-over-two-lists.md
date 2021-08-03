@@ -26,18 +26,16 @@ setupCode:
 
 ## Content
 
-> 👩‍💻 Your task is to write a program that:
-> - **simultaneously iterates over two lists**
-> - **prints a value from each list as a pair**
+> 👩‍💻 Your task is to write a program that: **simultaneously iterates over two lists and prints a value from each list as a pair**
 
-Example arrays:
+Sample arrays:
 
 ```javascript
 let names = ['Stefan', 'Michael', 'Rebekah', "Natasha"];
 let lastNames = ['Stojanovic', 'Stevens', 'Mikaelson', "Romanoff"];
 ```
 
-Example output:
+Sample output:
 ```plain-text
 Stefan Stojanovic
 Michael Stevens

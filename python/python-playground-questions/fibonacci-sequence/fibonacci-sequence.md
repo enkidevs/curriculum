@@ -24,8 +24,7 @@ setupCode:
 
 ## Content
 
-> 👩‍💻 Your task is to write a program that:
-> - **prints the first 15 terms of the Fibonacci sequence**
+> 👩‍💻 Your task is to write a program that **prints the first 15 terms of the Fibonacci sequence**.
 
 > The Fibonacci sequence is a series of numbers where the next number is the sum of the previous two numbers.
 

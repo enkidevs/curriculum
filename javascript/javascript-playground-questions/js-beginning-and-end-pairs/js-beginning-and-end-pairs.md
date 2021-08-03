@@ -25,16 +25,15 @@ setupCode:
 
 ## Content
 
-> 👩‍💻 Your task is to write a program that will:
-> - **take an array as input**
-> - **output the first and last number, second and second to last, and so on**
+> 👩‍💻 Using the `numbers` array, your task is to write a program that **outputs the first and last value, second and second to last, and so on**.
 
-Example input array:
+
+Sample array:
 ```javascript
 let numbers = [1, 3, 5, 7, 9, 10, 8, 6, 4, 2];
 ```
 
-Example output:
+Sample output:
 ```javascript
 [1, 2]
 [3, 4]
@@ -50,7 +49,7 @@ Learning is best when we give it an honest try. Even if we make a mistake, we'll
 
 That being said, if you're not sure how to get started, check out this footnote[1]. 
 
-When you're finished, feel free to share your solution with the community, join in on discussions and upvote solutions from your fellow learners!
+When you're finished, feel free to share your solution with the community, join in on discussions, and upvote solutions from your fellow learners!
 
 Remember, learning is more effective when we do it with others.
 

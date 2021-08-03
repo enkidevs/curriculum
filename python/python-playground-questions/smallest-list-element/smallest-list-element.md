@@ -11,8 +11,10 @@ category: coding
 setupCode:
   startingPoint: |
     # 👋 Welcome to the Python coding playground. 
-    # The numbered list:
+    # Output the smallest number from a list
+    # Example numbered list:
     numbers = [33, 99, 41, 73, 2, 21, 1, 18]
+
     # Type your code here:
 
 ---
@@ -23,11 +25,9 @@ setupCode:
 
 ## Content
 
-> 👩‍💻 Your task is to create a program that:
-> - **takes a numbered list as input**
-> - **output the smallest number from it**
+> 👩‍💻 Your task is to create a program that **outputs the smallest number from a list.**
 
-Here is the list:
+Example list to use:
 ```python
 numbers = [33, 99, 41, 73, 2, 21, 1, 18]
 ```

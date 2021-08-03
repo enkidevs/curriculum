@@ -11,7 +11,9 @@ category: coding
 setupCode:
   startingPoint: |
     # 👋 Welcome to the Python coding playground. 
-
+    # Create a Calculator class with four methods; multiply, divide, subtract, and add two numbers
+    # Call each method to confirm it works
+    
     # Type your code here:
     def Calculator():
       
@@ -25,10 +27,9 @@ setupCode:
 ## Content
 
 > 👩‍💻 Your task is to:
-> - **create a Calculator class**
-> - **that takes two numbers as input**
-> - **has four methods; multiply, divide, subtract and add**
-> - **call each method to confirm they work**
+> - **create a `Calculator` class that takes two numbers as input**
+> - **add four methods to the class: multiply, divide, subtract and add the two numbers**
+> - **call each of the four methods to confirm it works**
 
 To achieve this, you can use the following concepts:
 - class creation (`class Something:`)

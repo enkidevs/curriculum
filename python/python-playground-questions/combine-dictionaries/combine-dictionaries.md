@@ -24,10 +24,7 @@ setupCode:
 
 ## Content
 
-> 👩‍💻 Your task is to create a function that:
-> - **takes two dictionaries as input**
-> - **combines them into one dictionary**
-> - **outputs the new dictionary**
+> 👩‍💻 Your task is to create a function that **combines two dictionaries and outputs the new dictionary**
 
 To achieve this, you can use the following concepts:
 - variable creation (`age = 33`).

@@ -30,10 +30,7 @@ setupCode:
 
 ## Content
 
-> 👩‍💻 Your task is to create a program that:
-> - **takes a dictionary with three lists**
-> - **sorts the values in each list in ascending order**
-> - **print the sorted dictionary**
+> 👩‍💻 Using the `dictList` dictionary, your task is to create a program that **sorts the values in each list in ascending order and prints the resulting dictionary**.
 
 Example `dictionary` with three `list`s:
 

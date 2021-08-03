@@ -30,10 +30,7 @@ setupCode:
 
 ## Content
 
-> 👩‍💻 Your task is to define a function that:
-> - **takes a tuple as input**
-> - **removes the duplicate values**
-> - **returns the new tuple**
+> 👩‍💻 Your task is to define a function that **removes all duplicate values from a tuple and returns the result.**
 
 Example tuple to use:
 ```python

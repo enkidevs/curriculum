@@ -11,6 +11,9 @@ category: coding
 setupCode:
   startingPoint: |
     # 👋 Welcome to the Python coding playground. 
+    # A kilometer is equal to `0.621371` miles
+    # A mile is equal to `1.60934` kilometers
+    
     # Example output:
     # 3 miles are equal to 4.8289 kilometers
 
@@ -24,11 +27,7 @@ setupCode:
 
 ## Content
 
-> 👩‍💻 Your task is to write a program that:
-> - **converts miles to kilometers**
-> - **outputs a message along with the result**
-
-It's up to you to choose which operation to use and what the message will be.
+> 👩‍💻 Your task is to write a program that **converts miles to kilometers and outputs the result**.
 
 To achieve this, you should use the following concepts:
 - variable creation (`age = 29`)

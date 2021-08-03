@@ -26,15 +26,14 @@ setupCode:
 
 ## Content
 
-> 👩‍💻 Your task is to write a program that will take a numbered list and:
-> **print the first and last, second and second to last, and so on**
+> 👩‍💻 Using the `numbers` list, your task is to write a program that **print the first and last, second and second to last, and so on**.
 
-Example list:
+Sample list:
 ```python
 numbers = [1, 3, 5, 7, 9, 10, 8, 6, 4, 2]
 ```
 
-The output should look like this:
+Sample output:
 ```python
 [1, 2]
 [3, 4]

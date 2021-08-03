@@ -25,10 +25,7 @@ setupCode:
 
 ## Content
 
-> 👩‍💻 Your task is to write a program that:
-> - **takes a dictionary with at least five values as input**
-> - **sums all of the values**
-> - **outputs the result**
+> 👩‍💻 Your task is to write a program that **takes a dictionary with at least five values, sums them, and outputs the result**.
 
 To achieve this, you can use the following concepts:
 - variable creation (`age = 31`)

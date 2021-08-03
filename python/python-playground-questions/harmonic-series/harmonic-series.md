@@ -11,7 +11,8 @@ category: coding
 setupCode:
   startingPoint: |
     # 👋 Welcome to the Python coding playground. 
-
+    # Create a function that sums up the first 15 terms of the harmonic series and round the result to 5 decimal places.
+    
     # Type your code here:
       
 ---
@@ -22,9 +23,7 @@ setupCode:
 
 ## Content
 
-> 👩‍💻 Your task is to create a function that will:
-> - **sum up the first 15 terms of the harmonic series**
-> - **round them to 5 decimal places**
+> 👩‍💻 Your task is to create a function that will **sum up the first 15 terms of the harmonic series and round them to 5 decimal places**.
 
 > The harmonic series is the divergent infinite series that looks like this:
 

@@ -11,7 +11,7 @@ category: coding
 setupCode:
   startingPoint: |
     # 👋 Welcome to the Python coding playground.
-    # The list of characters:
+    # Join the list of characters into a string and output the result:
 
     characters = ['h', 'e', 'l', 'l', 'o', , 'w', 'o', 'r', 'l' , 'd']
     
@@ -25,12 +25,9 @@ setupCode:
 
 ## Content
 
-> 👩‍💻 Your task is to write a program that will:
-> - **take a list of characters as input**
-> - **transform it into a string**
-> - **output the new string**
+> 👩‍💻 Your task is to **create a program that joins a list of characters into a string and outputs the result**.
 
-Example list:
+Sample list of characters to use:
 ```python
 characters = [
 	  'h', 

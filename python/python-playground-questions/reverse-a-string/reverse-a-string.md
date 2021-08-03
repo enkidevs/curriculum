@@ -27,10 +27,7 @@ setupCode:
 
 ## Content
 
-> 👩‍💻 Your task is to write a program that:
-> - **takes a string as input**
-> - **reverses it** 
-> - **prints it out**
+> 👩‍💻 Your task is to write a program that **reverses a string and prints it out.**
 
 Example:
 ```python

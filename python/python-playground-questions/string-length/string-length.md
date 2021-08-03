@@ -26,11 +26,7 @@ setupCode:
 
 ## Content
 
-> 👩‍💻 Your task is to make a program that will:
-> - **take a sentence as input**
-> - **count the total number of letters**
-> - **it should ignore spaces**
-> - **output the result**
+> 👩‍💻 Your task is to make a program that will **count the total number of letters in a sentence (excluding spaces) and output the result**.
 
 ```python
 # Input

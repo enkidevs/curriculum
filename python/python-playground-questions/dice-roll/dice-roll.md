@@ -11,6 +11,7 @@ category: coding
 setupCode:
   startingPoint: |
     # 👋 Welcome to the Python coding playground. 
+    # Create a rollDice function.
 
     import random
     # Type your code here:
@@ -23,10 +24,7 @@ setupCode:
 
 ## Content
 
-> 👩‍💻 Your task is to:
-- **create a function using the random module**
-- **it should operate like a dice roll**
-- **every time you execute it, it should return a number between 1 and 6**
+> 👩‍💻 Your task is to **create a function that operates like a dice roll using the `random` module**.
 
 To achieve this, you can use the following concepts:
 - importing (`from...import`, `import`...)

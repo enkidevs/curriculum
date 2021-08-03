@@ -25,10 +25,7 @@ setupCode:
 
 ## Content
 
-> 👩‍💻 Your task is to create a program that:
-> - **takes an array as input**
-> - **removes all odd numbers from it**
-> - **outputs the modified array**
+> 👩‍💻 Your task is to create a program that **removes all odd numbers from an array and returns the result.**
 
 Example array to use:
 ```javascript

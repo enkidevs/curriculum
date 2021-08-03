@@ -25,10 +25,7 @@ setupCode:
 
 ## Content
 
-> 👩‍💻 Your task is to create a program that:
-> - **takes a list as input**
-> - **removes all odd numbers from it**
-> - **outputs the even-numbered list**
+> 👩‍💻 Your task is to create a program that **removes all odd numbers from a list and outputs the result.**
 
 Example list to use:
 ```python

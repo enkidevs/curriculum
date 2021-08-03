@@ -11,8 +11,7 @@ category: coding
 setupCode:
   startingPoint: |
     # 👋 Welcome to the Python coding playground.
-    # For this problem use one of these arithmetic operators
-    # + or -
+    # Add or subtract two numbers and output the result.
 
     # Type your code here:
 
@@ -24,9 +23,7 @@ setupCode:
 
 ## Content
 
-> 👩‍💻 Your task is to write a program that will:
-> - **add or subtract two numbers**
-> - **output the result along with a message**
+> 👩‍💻 Your task is to write a program that **adds or subtracts two numbers and outputs the result**.
 
 It's up to you to choose which operation to use and what the message will be.
 

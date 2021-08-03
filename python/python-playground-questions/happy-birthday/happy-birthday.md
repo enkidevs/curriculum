@@ -24,9 +24,8 @@ setupCode:
 
 ## Content
 
-> 👩‍💻 Your task is to create a program:
-> - **using the datetime or time modules**
-> - **it should check if the current date is your birthday**
+> 👩‍💻 Using the `datetime` or `time` modules, your task is to define a `happyBirthday` function. It should:
+> - **check if the current date is your birthday**
 > - **If it is, print a happy birthday message**
 > - **If not, output how many days until your birthday**
 
