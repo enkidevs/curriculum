@@ -24,7 +24,7 @@ links:
 > - **all the students that are from the same class and passed one of the classes**
 > - **and create a new column column (e.g., "Average Math Grade") using one of the aggregation keywords** 
 
-Here's how the table looks like:
+Here's what the table looks like:
 
 | id  | first_name | last_name | class | math_grade | english_grade | physics_grade |
 |-----|------------|-----------|-------|------------|---------------|---------------|
