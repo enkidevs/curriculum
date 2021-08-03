@@ -22,7 +22,7 @@ links:
 
 > 👩‍💻 Using our [playground](https://learn.enki.com/public/playground?jsonUrl=https://gist.githubusercontent.com/kapnobatai137/a41bb442321200a0ded3475100e5f9a9/raw/000ef19e1786ccc4ca5f846ad98ef2b27b38c189/sql-update-discussion-insight.json), your task is to: **update a movie's rating in the `movies` table**.
 
-Here's how the table looks like:
+Here's what the table looks like:
 
 | id | name                                     | year | rating |
 |----|------------------------------------------|------|--------|
