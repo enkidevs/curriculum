@@ -1,24 +1,21 @@
 ---
 author: Stefan-Stojanovic
 
-tags:
-  - discussion
-
 type: normal
 
-category: discussion
+category: how-to
 
 ---
 
-# Test Yourself
+# Match the Styling Exercise
 
 ---
 
 ## Content
 
-Now that you've learned some CSS, it's time to apply it!
+> 👩‍💻 Using the [codepen playground template](https://codepen.io/pen/?template=rNMLbdM), your task is to **modify the styling of the `topdiv` class to match the `bottomdiv` class**.
 
-Let's say you have these two `<div>` elements:
+Here are the two `div` elements:
 ```html
 <div class="topdiv">
   topdiv
@@ -29,25 +26,20 @@ Let's say you have these two `<div>` elements:
 </div>
 ```
 
-One of them has styling applied to it, while the other doesn't.
-
+Here is how they currently look:
 ![two-different-divs](https://img.enkipro.com/78088e8e786299d04e782ea76b6a4059.png)
 
-Can you make the `topdiv` element match the `bottomdiv` one?
-
-Here's how the end result should look like:
+Here's what the end result should look like:
 
 ![two-equal-divs](https://img.enkipro.com/7ff8de095a87198ae6392f1332140eb8.png)
 
-Also, here is a [codepen playground template](https://codepen.io/pen/?template=rNMLbdM) with the above HTML code. Modify the CSS so the div elements match.
-
 If you're not sure what to do, check out this footnote[1].
 
-When you're ready, leave a comment or a codepen link with your submission. If you don't want to participate, you can always check the comment section to see what the other users come up with.
+When you're ready, leave a comment or a codepen link with your submission. If you don't want to participate, you can always check the comment section to see what others submitted.
 
 > 💡 Before you submit your program, take a look at [how you can format your comments](https://www.enki.com/glossary/general/markdown-formatting).
 
-> 💡 The guidelines above are just suggestions. Feel free to include other concepts in your solution as you see fit, the implementation is up to you.
+> 💡 The guidelines above are just suggestions. Feel free to include other concepts in your solution as you see fit. The implementation is up to you!
  
 ---
 ## Footnotes
