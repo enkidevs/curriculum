@@ -66,7 +66,20 @@ Types of change:
 - [Comp. Sci. - Archive three unused workouts](https://github.com/enkidevs/curriculum/pull/2814)
 - [TypeScript - Extending Interfaces - Remove the type-in-the-gap from the PQ](https://github.com/enkidevs/curriculum/pull/2816)
 
+## July 30th 2021
+
+### Changed
+- [SQL - Insert - Place the discussion insight as an exercise opportunity](https://github.com/enkidevs/curriculum/pull/2807)
+- [SQL - Update - Place the discussion insight as an exercise opportunity](https://github.com/enkidevs/curriculum/pull/2808)
+- [SQL - Aggregate Queries - Place the discussion insight as an exercise opportunity](https://github.com/enkidevs/curriculum/pull/2809)
+- [SQL - Building Queries - Place the discussion insight as an exercise opportunity](https://github.com/enkidevs/curriculum/pull/2810)
+- [Coding Intro - Collections - Convert the discussion insight to coding](https://github.com/enkidevs/curriculum/pull/2806)
+
 ## July 29th 2021
+
+### Changed
+- [Web - Core HTML Discussion Insight - Change category and update content](https://github.com/enkidevs/curriculum/pull/2812)
+- [Web - Box Model Discussion Insight - Change category and update content](https://github.com/enkidevs/curriculum/pull/2811)
 
 ### Fixed
 - [Linux - Difference between `redirection` and `pipe` - Fix typo in footnote](https://github.com/enkidevs/curriculum/pull/2805)
