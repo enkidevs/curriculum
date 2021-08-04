@@ -65,6 +65,11 @@ Types of change:
 - [Comp. Sci. - Archive three unused workouts](https://github.com/enkidevs/curriculum/pull/2814)
 - [TypeScript - Extending Interfaces - Remove the type-in-the-gap from the PQ](https://github.com/enkidevs/curriculum/pull/2816)
 
+## July 30th 2021
+
+### Changed
+- [Coding Intro - Collections - Convert the discussion insight to coding](https://github.com/enkidevs/curriculum/pull/2806)
+
 ## July 29th 2021
 
 ### Changed
