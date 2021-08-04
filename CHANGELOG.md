@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## August 4th 2021
+
+### Fixed
+- [Fix deep links in various insights](https://github.com/enkidevs/curriculum/pull/2818)
+
 ## August 3rd 2021
 
 ### Changed
