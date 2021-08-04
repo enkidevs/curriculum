@@ -65,4 +65,3 @@ element1, element2 {
 }
 </style>
 ```
-
