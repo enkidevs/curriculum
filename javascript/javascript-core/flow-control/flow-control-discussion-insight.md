@@ -12,6 +12,12 @@ links:
   - >-
     [Example](https://repl.it/@enkicontent/JavaScriptFlowControl){website}
 
+setupCode:
+  startingPoint: |
+    // Welcome to the JavaScript playground 👋
+
+    // Start typing your code here:
+
 ---
 
 # Test Yourself

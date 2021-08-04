@@ -8,6 +8,12 @@ type: normal
 
 category: coding
 
+setupCode:
+  startingPoint: |
+    # Welcome to the Python playground 👋
+
+    # Start typing your code here:
+
 ---
 
 # Test Yourself
