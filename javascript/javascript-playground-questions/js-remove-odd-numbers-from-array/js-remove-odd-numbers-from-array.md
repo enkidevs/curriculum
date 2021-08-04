@@ -32,7 +32,7 @@ Example array to use:
 let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 ```
 
-To achieve this, you can use the following concepts:
+To solve this, try using the following concepts:
 - flow control (`for...of`, `if (x > 1)...`)
 - Array methods (`map()`)
 

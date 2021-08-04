@@ -34,7 +34,7 @@ It's up to you to choose which movies you'll insert. They can be your favorite m
 
 Feel free to choose the rating of the movies. We gave *No Country For Old Men* a nine out of ten, but you can use anything **as long as it's a number**.
 
-To achieve this, you should use the following concepts:
+To solve this, try using the following concepts:
 - inserting data into a table (`INSERT INTO table_name VALUES`)
 
 Learning is best when we give it an honest try. Even if we make a mistake, we'll remember it and do better next time.

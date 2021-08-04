@@ -42,7 +42,7 @@ dictList = {
 }
 ```
 
-To achieve this, you can use the following concepts:
+To solve this, try using the following concepts:
 - first two terms of the sequence are `0` and `1`.
 - flow control (`while..`)
 

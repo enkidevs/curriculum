@@ -42,7 +42,7 @@ If the input is `5`, the output should look similar to this:
 5, 10, 15, 20, 25
 ```
 
-To achieve this, you can use the following concepts:
+To solve this, try using the following concepts:
 - variable creation (`age = 25`)
 - built-in (`range()`)
 - flow control (`for...of`)

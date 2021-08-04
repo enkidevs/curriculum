@@ -34,7 +34,7 @@ Here's what the table looks like:
 
 It's up to you to choose the movie and its new rating.
 
-To achieve this, you should use the following concepts:
+To solve this, try using the following concepts:
 - updating data (`UPDATE ... SET ... WHERE ...`)
 
 Learning is best when we give it an honest try. Even if we make a mistake, we'll remember it and do better next time.

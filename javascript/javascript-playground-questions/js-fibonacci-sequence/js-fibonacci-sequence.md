@@ -29,7 +29,7 @@ setupCode:
 
 > The Fibonacci sequence is a series of numbers where the next number is the sum of the previous two numbers.
 
-To achieve this, you can use the following concepts:
+To solve this, try using the following concepts:
 - first two terms of the sequence are `1` and `1`.
 - flow control (`while..`)
 

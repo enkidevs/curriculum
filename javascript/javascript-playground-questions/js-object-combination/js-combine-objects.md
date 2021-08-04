@@ -26,7 +26,7 @@ setupCode:
 
 > 👩‍💻 Your task is to create a function that **combines two objects and returns a single one**
 
-To achieve this, you can use the following concepts:
+To solve this, try using the following concepts:
 - variable creation (`age = 33`).
 - function declaration (`function something(x) { ... }`)
 

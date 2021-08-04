@@ -33,7 +33,7 @@ The first 15 primes fall in the range `2`-`50`. Some of them are 2, 3, 5, 7, 11,
 
 2 is only divisible by 1 and itself, making it prime. 4 is not prime because it is divisible by 1, 2, and itself.
 
-To achieve this, you can use some of the following concepts:
+To solve this, try using the following concepts:
 - loops (`for...in...`)
 - built-in function (`range()`)
 - flow control (`if (age > 30) ...`)

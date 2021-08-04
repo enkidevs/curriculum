@@ -36,7 +36,7 @@ values = ["Alan", "Turing", "Mathematician"]
 
 Don't forget to output the new `dictionary`.
 
-To achieve this, you can use the following concepts:
+To solve this, try using the following concepts:
 - built-in method (`zip`)
 
 Learning is best when we give it an honest try. Even if we make a mistake, we'll remember it and do better next time.

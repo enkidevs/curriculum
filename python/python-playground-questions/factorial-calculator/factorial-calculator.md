@@ -36,7 +36,7 @@ Example output:
 
 For the sake of learning, try not to use the built-in `math` modules' `factorial()` method.
 
-To achieve this, you can use the following concepts:
+To solve this, try using the following concepts:
 - variable creation (`age = 18...`)
 - flow control (`for...in`)
 

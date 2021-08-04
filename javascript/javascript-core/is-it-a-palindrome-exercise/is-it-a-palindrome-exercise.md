@@ -37,7 +37,7 @@ let palindrome = "Was it a car or a cat I saw"
 let nonPalindrome = "Hey how are you"
 ```
 
-To achieve this, you can use the following concepts:
+To solve this, try using the following concepts:
 - string methods (`.split()`)
 - control flow (`if x > 1`, `for`)
 - function declaration (`function something(x) { ... }`)

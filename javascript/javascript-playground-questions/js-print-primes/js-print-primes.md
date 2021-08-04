@@ -34,7 +34,7 @@ The first few prime numbers are 2, 3, 5, 7, 11, 13 ...
 
 2 is only divisible by 1 and itself, making it prime. 4 is not prime because it is divisible by 1, 2, and itself.
 
-To achieve this, you can use some of the following concepts:
+To solve this, try using the following concepts:
 - flow control (`if (age > 30)...`, `for...of`)
 
 > 💡 One way to test if a number is prime is to check if it's divisible by any number from 2 up to (rounded) half of itself. For example, to test if 31 is prime, we check if it's divisible by any number from 2 up to 15.

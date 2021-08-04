@@ -48,7 +48,7 @@ let scientists = [
   ];
 ```
 
-To achieve this, you should use the following concepts:
+To solve this, try using the following concepts:
 - variable creation (`age = 29`)
 - loops (`for x in y:...`)
 - flow-altering statements (`break`, `continue`)

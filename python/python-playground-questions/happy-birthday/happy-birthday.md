@@ -29,7 +29,7 @@ setupCode:
 > - **If it is, print a happy birthday message**
 > - **If not, output how many days until your birthday**
 
-To achieve this, you can use the following concepts:
+To solve this, try using the following concepts:
 - importing (`import`, `from...import...`)
 - built-in methods(`now()`, `year()`, `month()`,...)
 

@@ -48,7 +48,7 @@ myDict = {
 ```
 
 
-To achieve this, you can use the following concepts:
+To solve this, try using the following concepts:
 - variable creation `person ={'name':'Stefan','age'...}`
 - flow control (`for...in`)
 - built-in methods(`.items()`, `get()`)

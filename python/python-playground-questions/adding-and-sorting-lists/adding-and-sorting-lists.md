@@ -35,7 +35,7 @@ oddNumbers = [101, 23, 11, 37, 3, 83, 1]
 evenNumbers = [12, 0, 8, 92, 98, 44, 76]
 ```
 
-To achieve this, you can use some of the following concepts:
+To solve this, try using the following concepts:
 - order (`sorted`, `reversed`)
 - flow control (`if (age > 30) ...`, `for x in y...`)
 - built-in function (`.append()`)
