@@ -77,6 +77,7 @@ Types of change:
 ## July 29th 2021
 
 ### Changed
+- [Web - Core HTML Discussion Insight - Change category and update content](https://github.com/enkidevs/curriculum/pull/2812)
 - [Web - Box Model Discussion Insight - Change category and update content](https://github.com/enkidevs/curriculum/pull/2811)
 
 ### Fixed
