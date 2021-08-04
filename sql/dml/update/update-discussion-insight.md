@@ -6,7 +6,7 @@ tags:
 
 type: normal
 
-category: discussion
+category: how-to
 
 links:
   - >-
@@ -14,15 +14,15 @@ links:
 
 ---
 
-# Test Yourself
+# Update Exercise
 
 ---
 
 ## Content
 
-Let's see how you can handle manipulating data!
+> 👩‍💻 Using our [playground](https://learn.enki.com/public/playground?jsonUrl=https://gist.githubusercontent.com/kapnobatai137/a41bb442321200a0ded3475100e5f9a9/raw/000ef19e1786ccc4ca5f846ad98ef2b27b38c189/sql-update-discussion-insight.json), your task is to: **update a movie's rating in the `movies` table**.
 
-Consider the following `movies` table:
+Here's what the table looks like:
 
 | id | name                                     | year | rating |
 |----|------------------------------------------|------|--------|
@@ -32,22 +32,24 @@ Consider the following `movies` table:
 | 4  | Spider-Man: Into the Spider-Verse        | 2018 | 8.4    |
 | 6  | Goodfellas                               | 1990 | 8.7    |
 
-How would you update the rating of any of the movies?
-
 It's up to you to choose the movie and its new rating.
 
 To achieve this, you should use the following concepts:
 - updating data (`UPDATE ... SET ... WHERE ...`)
 
-If you're not sure what to do, check out this footnote[1].
+Learning is best when we give it an honest try. Even if we make a mistake, we'll remember it and do better next time.
 
-> 💡 We've included a **Playground** in the *Learn More* section. Use that to get accustomed to the table and try things out.
+That being said, if you're not sure how to get started, check out this footnote[1].
+
+When you're finished, feel free to share your solution with the community, join in on discussions, and upvote solutions from your fellow learners!
 
 When you're ready, leave a comment here with your submission. If you don't want to participate, you can always check the comment section to see what the other users come up with.
 
-> 💡 Before you submit your program, take a look at [how you can format your comments](https://www.enki.com/glossary/general/markdown-formatting).
+> 💡 Take a look at [how you can format text using markdown](https://www.enki.com/glossary/general/markdown-formatting).
 
-> 💡 The guidelines above are just suggestions. Feel free to include other concepts in your solution as you see fit, the implementation is up to you.
+> 💡 The guidelines above are just suggestions. Feel free to include other concepts in your solution as you see fit. The implementation is up to you.
+
+> 🤓 Happy learning! Open the [playground](https://learn.enki.com/public/playground?jsonUrl=https://gist.githubusercontent.com/kapnobatai137/a41bb442321200a0ded3475100e5f9a9/raw/000ef19e1786ccc4ca5f846ad98ef2b27b38c189/sql-update-discussion-insight.json) and start coding!
 
 ---
 
@@ -57,16 +59,15 @@ When you're ready, leave a comment here with your submission. If you don't want 
 
 To update the values in a table, start by writing `UPDATE table_name`.
 
-Then, using the `SET` keyword you can change the values found in columns.
+Then, using the `SET` keyword, you can change the values found in columns.
 
 Finally, use the `WHERE` keyword to specify which records should be updated:
 
 ```sql
-UPDATE movies
+UPDATE
+  table
 SET
-  name = "My Movie",
-  year = 2020,
-  rating = 7
+  column = value
 WHERE
-  id = 1;
+  condition;
 ```
