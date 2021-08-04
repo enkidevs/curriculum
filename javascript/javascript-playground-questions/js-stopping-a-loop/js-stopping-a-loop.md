@@ -28,8 +28,12 @@ setupCode:
 ---
 
 ## Content
+  
+> 👩‍💻 Your task is to create a program that:
+> - **loops through an array of names**
+> - **outputs every name until it reaches a specific one, then breaks out of the loop**
 
-Given an array of famous scientist:
+Example array to use:
 
 ```javascript
 let scientists = [
@@ -44,8 +48,6 @@ let scientists = [
   ];
 ```
 
-Can you create a loop that will print out every name from the array until it reaches `Katherine Johnson`, including "`Katherine`"?
-
 To achieve this, you should use the following concepts:
 - variable creation (`age = 29`)
 - loops (`for x in y:...`)
@@ -55,7 +57,7 @@ Learning is best when we give it an honest try. Even if we make a mistake, we'll
 
 That being said, if you're not sure how to get started, check out this footnote[1]. 
 
-When you're finished, feel free to share your solution with the community, join in on discussions and upvote solutions from your fellow learners!
+When you're finished, feel free to share your solution with the community, join in on discussions, and upvote solutions from your fellow learners!
 
 Remember, learning is more effective when we do it with others.
 

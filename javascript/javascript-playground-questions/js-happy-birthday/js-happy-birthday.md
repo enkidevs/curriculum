@@ -11,7 +11,7 @@ category: coding
 setupCode:
   startingPoint: |
     // 👋 Welcome to the JavaScript coding playground.
-
+    // Create a Happy Birthday function using the Date object
     // Example output:
     // Your birthday is in 131 days
 
@@ -25,7 +25,10 @@ setupCode:
 
 ## Content
 
-Using the `Date` object and its methods, create a program that will check if the current date is your birthday. If it is, print a happy birthday message. If it is not, output how many days left till your birthday.
+> 👩‍💻 Using the `Date` object, your task is to create a `happyBirthday` function. It should:
+> - **check if the current date is your birthday**
+> - **If it is, print a happy birthday message**
+> - **If not, output how many days until your birthday**
 
 To achieve this, you can use the following concepts:
 - Date methods(`now()`, `year()`, `month()`,...)
@@ -34,7 +37,7 @@ Learning is best when we give it an honest try. Even if we make a mistake, we'll
 
 That being said, if you're not sure how to get started, check out this footnote[1]. 
 
-When you're finished, feel free to share your solution with the community, join in on discussions and upvote solutions from your fellow learners!
+When you're finished, feel free to share your solution with the community, join in on discussions, and upvote solutions from your fellow learners!
 
 Remember, learning is more effective when we do it with others.
 

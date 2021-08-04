@@ -59,6 +59,7 @@ Types of change:
 - [JavaScript - Hello Mars! - Add coding insight](https://github.com/enkidevs/curriculum/pull/2815)
 
 ### Changed
+- [Python and JavaScript - All coding insights - Copy Improvements](https://github.com/enkidevs/curriculum/pull/2795)
 - [Python - Hello Mars! - Improve copy](https://github.com/enkidevs/curriculum/pull/2815)
 
 ### Archived

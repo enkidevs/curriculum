@@ -11,8 +11,7 @@ category: coding
 setupCode:
   startingPoint: |
     // 👋 Welcome to the JavaScript coding playground.
-
-    // The array of characters:
+    // Join the array of characters into a string and output the result:
     let c = ['h', 'e', 'l', 'l', 'o', ' ', 'w', 'o', 'r', 'l', 'd'];
 
     // Type your code here:
@@ -25,7 +24,9 @@ setupCode:
 
 ## Content
 
-Given an array of characters:
+> 👩‍💻 Your task is to **create a program that joins an array of characters into a string and outputs the result**.
+
+Sample array of characters to use:
 ```javascript
 let c = [
   'h', 
@@ -42,7 +43,6 @@ let c = [
 ];
 ```
 
-Can you write a program that will take the array as input, transform it into a string, and output the result?
 
 To achieve this, you can use the following concepts:
 - function declaration (`function something(x) { ... }`)
@@ -52,7 +52,7 @@ Learning is best when we give it an honest try. Even if we make a mistake, we'll
 
 That being said, if you're not sure how to get started, check out this footnote[1]. 
 
-When you're finished, feel free to share your solution with the community, join in on discussions and upvote solutions from your fellow learners!
+When you're finished, feel free to share your solution with the community, join in on discussions, and upvote solutions from your fellow learners!
 
 Remember, learning is more effective when we do it with others.
 
