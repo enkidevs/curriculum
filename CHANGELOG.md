@@ -68,6 +68,7 @@ Types of change:
 ## July 30th 2021
 
 ### Changed
+- [SQL - Insert - Place the discussion insight as an exercise opportunity](https://github.com/enkidevs/curriculum/pull/2807)
 - [SQL - Update - Place the discussion insight as an exercise opportunity](https://github.com/enkidevs/curriculum/pull/2808)
 - [SQL - Aggregate Queries - Place the discussion insight as an exercise opportunity](https://github.com/enkidevs/curriculum/pull/2809)
 - [SQL - Building Queries - Place the discussion insight as an exercise opportunity](https://github.com/enkidevs/curriculum/pull/2810)
