@@ -37,7 +37,7 @@ Sample input and output:
 # It is even
 ```
 
-To achieve this, you can use the following concepts:
+To solve this, try using the following concepts:
 - flow control (`if (age > 30) ...`)
 - arithmetic operators (`+, -, %, ...`)
 

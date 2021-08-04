@@ -41,7 +41,7 @@ let second = [2, 4, 6];
 
 The result would be (1 + 3 + 5) * (2 + 4 + 6) = 108
 
-To achieve this, you can use the following concepts:
+To solve this, try using the following concepts:
 - function declaration (`function something(x) { ... }`)
 - variable creation (`age = 30`)
 - arithmetic operators (`+`, `*`)

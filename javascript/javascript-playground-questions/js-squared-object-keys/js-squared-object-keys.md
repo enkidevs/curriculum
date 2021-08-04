@@ -53,7 +53,7 @@ Example solution:
 }
 ```
 
-To achieve this, you can use the following concepts:
+To solve this, try using the following concepts:
 - variable creation (`age = 29`)
 - flow control (`for...of`)
 

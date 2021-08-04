@@ -27,7 +27,7 @@ setupCode:
 
 > 👩‍💻 Your task is to write a program that **takes a dictionary with at least five values, sums them, and outputs the result**.
 
-To achieve this, you can use the following concepts:
+To solve this, try using the following concepts:
 - variable creation (`age = 31`)
 - function declaration (`def something(x):`)
 

@@ -22,7 +22,7 @@ How would you create a function in one file and then import and call that functi
 
 It's up to you to choose what the function will be about. It can be anything; a mathematical operation on two numbers, a simple print statement, a conditional operation, and so on... 
 
-To achieve this, you should use the following concepts:
+To solve this, try using the following concepts:
 - importing modules (`import`, `from...import`...)
 - function creation (`def...`)
 

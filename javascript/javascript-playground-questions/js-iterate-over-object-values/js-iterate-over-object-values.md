@@ -43,7 +43,7 @@ let person = {
 };
 ```
 
-To achieve this, you can use the following concepts:
+To solve this, try using the following concepts:
 - variable creation `person = { name:'Alan', age:...}`
 - flow control (`for...of`)
 - Object global methods(`keys()`, `entries()`, ...)

@@ -31,7 +31,7 @@ Here's what the table looks like:
 
 It's up to you to choose which generation the Pokémon are from, and which type they have in common.
 
-To achieve this, you should use the following concepts:
+To solve this, try using the following concepts:
 - querying (`SELECT column_name FROM table_name`)
 - conditions (`WHERE <condition>`)
 - comparison operators (`name = "Enki"`)

@@ -43,8 +43,7 @@ let c = [
 ];
 ```
 
-
-To achieve this, you can use the following concepts:
+To solve this, try using the following concepts:
 - function declaration (`function something(x) { ... }`)
 - flow control (`for...of`)
 

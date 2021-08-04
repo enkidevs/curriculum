@@ -42,7 +42,7 @@ let numberedArrays = {
 };
 ```
 
-To achieve this, you can use the following concepts:
+To solve this, try using the following concepts:
 - Array method (`sort()`)
 - flow control (`for...of:`)
 

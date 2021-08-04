@@ -38,7 +38,7 @@ myFunction('Mary had a little lamb')
 little
 ```
 
-To achieve this, you can use the following concepts:
+To solve this, try using the following concepts:
 - flow control (`for...of...`, `if (x > 4)...`)
 - array functions (`split()`)
 - array property (`length`)

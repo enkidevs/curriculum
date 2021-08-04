@@ -37,7 +37,7 @@ setupCode:
 8
 ```
 
-To achieve this, you can use some of the following concepts:
+To solve this, try using the following concepts:
 - flow control (`if (age > 30)`, `for...of`)
 
 Learning is best when we give it an honest try. Even if we make a mistake, we'll remember it and do better next time.

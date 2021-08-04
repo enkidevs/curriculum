@@ -32,7 +32,7 @@ Example list to use:
 numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 ```
 
-To achieve this, you can use the following concepts:
+To solve this, try using the following concepts:
 - loops (`for...in...`)
 - conditional statements (`if (x>1)...`)
 - built-in method (`remove()`)

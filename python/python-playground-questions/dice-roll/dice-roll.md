@@ -26,7 +26,7 @@ setupCode:
 
 > 👩‍💻 Your task is to **create a function that operates like a dice roll using the `random` module**.
 
-To achieve this, you can use the following concepts:
+To solve this, try using the following concepts:
 - importing (`from...import`, `import`...)
 - function definition (`def something(x):`)
 

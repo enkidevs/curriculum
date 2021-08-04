@@ -29,7 +29,7 @@ setupCode:
 
 > 👩‍💻 Your task is to write a program that **converts miles to kilometers and outputs the result**.
 
-To achieve this, you should use the following concepts:
+To solve this, try using the following concepts:
 - variable creation (`age = 29`)
 - arithmetic operators (`+, -, *, /`)
 - A kilometer is equal to `0.621371` miles

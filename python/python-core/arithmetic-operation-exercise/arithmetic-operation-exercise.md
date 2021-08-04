@@ -28,7 +28,7 @@ setupCode:
 
 It's up to you to choose which operation to use and what the message will be.
 
-To achieve this, you should use the following concepts:
+To solve this, try using the following concepts:
 - variable creation (`age = 29`)
 - arithmetic operators (`* or /`)
 

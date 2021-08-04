@@ -32,7 +32,7 @@ Example list to use:
 numbers = [33, 99, 41, 73, 2, 21, 1, 18]
 ```
 
-To achieve this, you can use some of the following concepts:
+To solve this, try using the following concepts:
 - loops (`for...in...`)
 - built-in function (`len()`)
 - flow control (`if (age > 30) ...`)

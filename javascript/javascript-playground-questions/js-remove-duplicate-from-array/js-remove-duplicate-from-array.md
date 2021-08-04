@@ -43,7 +43,7 @@ let names = [
 ];
 ```
 
-To achieve this, you can use the following concepts:
+To solve this, try using the following concepts:
 - function declaration (`function something(x) { ... }`)
 - flow control (`if (x > 1)`, `for...of`)
 

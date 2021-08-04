@@ -35,7 +35,7 @@ Example output:
 5! is equal to 120
 ```
 
-To achieve this, you can use the following concepts:
+To solve this, try using the following concepts:
 - variable creation (`age = 18...`)
 - flow control (`for...of`)
 

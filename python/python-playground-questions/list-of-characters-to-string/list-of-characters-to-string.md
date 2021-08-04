@@ -44,7 +44,7 @@ characters = [
 ]
 ```
 
-To achieve this, you can use the following concepts:
+To solve this, try using the following concepts:
 - function declaration (`def something(x):`)
 - loops (`for...in...`)
 

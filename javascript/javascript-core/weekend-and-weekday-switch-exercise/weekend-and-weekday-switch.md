@@ -39,7 +39,7 @@ Example input output:
 // It is Wednesday my dudes!
 ```
 
-To achieve this, you can use the following concepts:
+To solve this, try using the following concepts:
 - flow control (`switch`)
 - output (`console.log()`)
 

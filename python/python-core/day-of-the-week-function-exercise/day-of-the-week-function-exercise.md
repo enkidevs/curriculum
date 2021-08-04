@@ -31,7 +31,7 @@ setupCode:
 > - **if it is, output the corresponding day of the week (0 for Monday)** 
 > - **if not, output a message like "Try Again."**
 
-To achieve this, you can use the following concepts:
+To solve this, try using the following concepts:
 - function definition (`def something(x):`)
 - flow control (`if (x > 1):`)
 - dictionary mapping (`week = {1: "Monday"...}`)

@@ -39,7 +39,7 @@ countLegs(animal, numberOfAnimals); // 40
 
 It's up to you to choose what animals your farm has and how many of each you have.
 
-To achieve this, you should use the following concepts:
+To solve this, try using the following concepts:
 - variable creation (`const name = 'Andrei'`)
 - flow control (`if (name === 'Andrei') { ... }`)
 - functions (`function sayHi() { ... }`)

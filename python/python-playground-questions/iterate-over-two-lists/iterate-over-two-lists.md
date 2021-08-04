@@ -42,7 +42,7 @@ Michael Stevens
 ....
 ```
 
-To achieve this, you can use the following concepts:
+To solve this, try using the following concepts:
 - flow control (`for...in`)
 - built-in methods (`zip`)
 

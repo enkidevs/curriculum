@@ -29,7 +29,7 @@ setupCode:
 
 ![harmonic-series](https://img.enkipro.com/86e08401cab9a7841c91077c24e46945.png)
 
-To achieve this, you can use the following concepts:
+To solve this, try using the following concepts:
 - variable creation (`age = 25`)
 - built-in (`range()`, `round()`)
 - flow control (`for...in`)

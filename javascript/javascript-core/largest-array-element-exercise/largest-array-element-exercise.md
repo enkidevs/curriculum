@@ -36,7 +36,7 @@ Example `array` to use:
 let numbers = [23, 81, 14, 5, 33, 631, 47, 78, 99]
 ```
 
-To achieve this, you can use the following concepts:
+To solve this, try using the following concepts:
 - looping (`for`)
 - output (`console.log()`)
 

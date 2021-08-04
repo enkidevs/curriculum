@@ -54,7 +54,7 @@ let person = {
 };
 ```
 
-To achieve this, you can use the following concepts:
+To solve this, try using the following concepts:
 - object methods (`.push()`, `delete`)
 
 Learning is best when we give it an honest try. Even if we make a mistake, we'll remember it and do better next time.

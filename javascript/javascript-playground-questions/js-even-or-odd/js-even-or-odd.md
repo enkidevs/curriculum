@@ -28,7 +28,7 @@ setupCode:
 
 > 👩‍💻 Your task is to create a program that **checks if a number is even or odd and outputs a message for both cases.** 
 
-To achieve this, you can use the following concepts:
+To solve this, try using the following concepts:
 - flow control (`if (age > 30) ...`)
 - arithmetic operators (`+, -, %, ...`)
 

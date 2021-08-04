@@ -30,7 +30,7 @@ setupCode:
 > - **If it is, print a happy birthday message**
 > - **If not, output how many days until your birthday**
 
-To achieve this, you can use the following concepts:
+To solve this, try using the following concepts:
 - Date methods(`now()`, `year()`, `month()`,...)
 
 Learning is best when we give it an honest try. Even if we make a mistake, we'll remember it and do better next time.

@@ -29,7 +29,7 @@ setupCode:
 > - **determines which characters appear the least**
 > - **print the least occurring character along with its number of occurrences**
 
-To achieve this, you can use the following concepts:
+To solve this, try using the following concepts:
 - flow control (`for...in`, `if (age > 1)...`)
 - variable creation (`age = 33`)
 

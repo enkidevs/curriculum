@@ -30,7 +30,7 @@ setupCode:
 > - **determines which characters appear the least**
 > - **outputs the least occuring character along with its number of occurences**
 
-To achieve this, you can use the following concepts:
+To solve this, try using the following concepts:
 - flow control (`for...of`, `if (age > 1)...`)
 - variable creation (`age = 33`)
 

@@ -39,7 +39,7 @@ Here is a gif from Wikipedia that demonstrates how each value is calculated:
 ![wiki-explanation](https://upload.wikimedia.org/wikipedia/commons/0/0d/PascalTriangleAnimated2.gif)
 
 
-To achieve this, you can use the following concepts:
+To solve this, try using the following concepts:
 - variable creation (`age = 22`)
 - loops (`for...in:`)
 

@@ -31,7 +31,7 @@ setupCode:
 > - **add four methods to the class: multiply, divide, subtract and add the two numbers**
 > - **call each of the four methods to confirm it works**
 
-To achieve this, you can use the following concepts:
+To solve this, try using the following concepts:
 - class creation (`class Something:`)
 - initial class method (`__init__ (self...)`)
 - function definition (`def something(x):`)
