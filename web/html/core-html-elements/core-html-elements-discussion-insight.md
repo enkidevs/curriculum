@@ -13,7 +13,7 @@ category: how-to
 
 ## Content
 
-> 👩‍💻 Your task is to write HTML code for a webpage that would display:
+> 👩‍💻 Using this [codepen template](https://codepen.io/enkidevs/pen/jOmvWgg), your task is to write HTML code for a webpage that would display:
 > - **The largest heading containing the title of the page**
 > - **An image of any size. To help your viewers, also add an alternative text message in case the image can't load.**
 > - **One paragraph with information about the page.**
@@ -29,14 +29,15 @@ For bonus points, style the paragraphs and/or headings in a different color.
 
 If you're not sure what to do, check out this footnote[1].
 
+If you're stuck or need inspiration, check out our [playground example](https://codepen.io/enkidevs/pen/QWKywyy).
+
 When you're ready, leave a comment here with your submission. If you don't want to participate, you can always check the comment section to see others' solutions.
 
 > 💡 Before you submit your program, take a look at [how you can format your comments](https://www.enki.com/glossary/general/markdown-formatting).
 
 > 💡 The guidelines above are just suggestions. Feel free to include other concepts in your solution as you see fit, the implementation is up to you.
 
-If you're stuck or need inspiration, check out our [playground example](https://codepen.io/enkidevs/pen/QWKywyy).
- 
+
 ---
 ## Footnotes
 [1: Hints]
