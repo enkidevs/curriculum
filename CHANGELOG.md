@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## August 4th 2021
+
+### Fixed
+- [Fix deep links in various insights]()
+
 ## August 3rd 2021
 
 ### Changed
