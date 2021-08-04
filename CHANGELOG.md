@@ -69,6 +69,7 @@ Types of change:
 
 ### Changed
 - [SQL - Aggregate Queries - Place the discussion insight as an exercise opportunity](https://github.com/enkidevs/curriculum/pull/2809)
+- [SQL - Building Queries - Place the discussion insight as an exercise opportunity](https://github.com/enkidevs/curriculum/pull/2810)
 - [Coding Intro - Collections - Convert the discussion insight to coding](https://github.com/enkidevs/curriculum/pull/2806)
 
 ## July 29th 2021
