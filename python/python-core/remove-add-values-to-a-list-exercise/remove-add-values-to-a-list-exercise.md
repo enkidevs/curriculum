@@ -24,7 +24,7 @@ setupCode:
 
 ## Content
 
-> 👩‍💻 Your task is to:
+> 👩‍💻 Using the two `lists` below, y=our task is to:
 > - **remove the last value from the smallerNumbers list**
 > - **add the biggerNumbers list to the smaller one**
 > - **output the new list**
