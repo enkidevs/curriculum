@@ -24,7 +24,11 @@ setupCode:
 
 ## Content
 
-Can you create a `switch` statement with seven `case`s(not including the `default` one). Each `case` can be represented as a number from `0-6` and it should have some output.
+> 👩‍💻 Your task is to:
+> - **create a switch statement with seven cases (for each day of the week)**
+> - **each case can be represented as a number from 0-6 or a string**
+> - **add a default case**
+> - **each case should output something**
 
 Example input output:
 ```javascript
@@ -43,7 +47,7 @@ Learning is best when we give it an honest try. Even if we make a mistake, we'll
 
 That being said, if you're not sure how to get started, check out this footnote[1]. 
 
-When you're finished, feel free to share your solution with the community, join in on discussions and upvote solutions from your fellow learners!
+When you're finished, feel free to share your solution with the community, join in on discussions, and upvote solutions from your fellow learners!
 
 Remember, learning is more effective when we do it with others.
 

@@ -11,13 +11,18 @@ category: coding
 setupCode:
   startingPoint: |
     // 👋 Welcome to the JavaScript coding playground.
-    // Use this object:
+    // Add "German" to the languages array
+    // Replace the equation with "e = mc^2"
+    // Add a nobelRecipient key and set it to true
+    // Delete the quote key
+    // Log the modified object to the console
 
+    // Use this object:
     let person = {
       name: "Albert Einstein",
       profession: "Theoretical physicist",
-      languages: ["Italian", "English"]
-      equation: "c^2 = a^2 + b^2"
+      languages: ["Italian", "English"],
+      equation: "c^2 = a^2 + b^2",
       quote: "Life is like riding a bicycle. To keep your balance you must keep moving."
     };
     
@@ -31,24 +36,23 @@ setupCode:
 
 ## Content
 
-Given an `object`:
+> 👩‍💻 Using the `person` object, your tasks are to:
+- **add `"German"` to the array of `languages`**
+- **replace the `equation` with `"e = mc^2"`**
+- **add a new key called `"nobelRecipient"` with the value `true`**
+- **delete the `quote` key**
+- **log the new `person` object to the console**
+
+Here's how the `person` object looks like:
 ```javascript
 let person = {
   name: "Albert Einstein",
   profession: "Theoretical physicist",
-  languages: ["Italian", "English"]
-  equation: "c^2 = a^2 + b^2"
+  languages: ["Italian", "English"],
+  equation: "c^2 = a^2 + b^2",
   quote: "Life is like riding a bicycle. To keep your balance you must keep moving."
 };
 ```
-
-Do these tasks:
-
-- Add the missing `"German"` language
-- Replace the wrong `equation` with the correct one; `"e = mc^2"`
-- Add a new key called `"nobelRecipient"` with the value `true`
-- Delete the `quote`
-- Log the new `person` object to the console
 
 To achieve this, you can use the following concepts:
 - object methods (`.push()`, `delete`)
@@ -57,7 +61,7 @@ Learning is best when we give it an honest try. Even if we make a mistake, we'll
 
 That being said, if you're not sure how to get started, check out this footnote[1]. 
 
-When you're finished, feel free to share your solution with the community, join in on discussions and upvote solutions from your fellow learners!
+When you're finished, feel free to share your solution with the community, join in on discussions, and upvote solutions from your fellow learners!
 
 Remember, learning is more effective when we do it with others.
 

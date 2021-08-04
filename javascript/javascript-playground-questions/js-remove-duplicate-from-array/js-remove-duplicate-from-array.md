@@ -29,10 +29,18 @@ setupCode:
 
 ## Content
 
-Given an array with repeating words, can you define a function that will take such array as input and return it without any duplicates?
+> 👩‍💻 Your task is to define a function that:
+> - **takes an array as input**
+> - **removes duplicate values**
+> - **returns the new array**
 
+Example array to use:
 ```javascript
-let names = ["Stefan", "Mark", "Joane", "Steven", "Natasha", "Mark", "Steven", "Mark", "Natasha"];
+let names = [
+  "Stefan", "Mark", "Joane", 
+  "Steven", "Natasha", "Mark", 
+  "Steven", "Mark", "Natasha"
+];
 ```
 
 To achieve this, you can use the following concepts:
@@ -43,7 +51,7 @@ Learning is best when we give it an honest try. Even if we make a mistake, we'll
 
 That being said, if you're not sure how to get started, check out this footnote[1]. 
 
-When you're finished, feel free to share your solution with the community, join in on discussions and upvote solutions from your fellow learners!
+When you're finished, feel free to share your solution with the community, join in on discussions, and upvote solutions from your fellow learners!
 
 Remember, learning is more effective when we do it with others.
 

@@ -11,7 +11,8 @@ category: coding
 setupCode:
   startingPoint: |
     // 👋 Welcome to the JavaScript coding playground.
-
+    // Iterate over each property of the object and output it to the console.
+    
     let person = {
       name: 'Alan',
       surname: 'Turing',
@@ -28,8 +29,10 @@ setupCode:
 ---
 
 ## Content
+  
+> 👩‍💻 Your task is to write a program that **iterates over each property of an object and outputs it to the console**.
 
-Given an object:
+Example object to iterate:
 
 ```javascript
 let person = {
@@ -40,8 +43,6 @@ let person = {
 };
 ```
 
-Can you write a program that iterates over each element and prints them out?
-
 To achieve this, you can use the following concepts:
 - variable creation `person = { name:'Alan', age:...}`
 - flow control (`for...of`)
@@ -51,7 +52,7 @@ Learning is best when we give it an honest try. Even if we make a mistake, we'll
 
 That being said, if you're not sure how to get started, check out this footnote[1]. 
 
-When you're finished, feel free to share your solution with the community, join in on discussions and upvote solutions from your fellow learners!
+When you're finished, feel free to share your solution with the community, join in on discussions, and upvote solutions from your fellow learners!
 
 Remember, learning is more effective when we do it with others.
 

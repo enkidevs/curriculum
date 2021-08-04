@@ -11,8 +11,9 @@ category: coding
 setupCode:
   startingPoint: |
     // 👋 Welcome to the JavaScript coding playground.
-    
-    // Array in question:
+    // Output the smallest number from an array.
+
+    // Sample array to use:
     let numbers = [33, 99, 41, 73, 2, 21, 1, 18];
 
     // Type your code here:
@@ -26,9 +27,9 @@ setupCode:
 
 ## Content
 
-Can you create a program that will output the smallest number from a given array?
+> 👩‍💻 Your task is to create a program that **outputs the smallest number from an array.**
 
-Here is the array:
+Here is a sample array you can use:
 ```javascript
 let numbers = [33, 99, 41, 73, 2, 21, 1, 18];
 ```
@@ -40,7 +41,7 @@ Learning is best when we give it an honest try. Even if we make a mistake, we'll
 
 That being said, if you're not sure how to get started, check out this footnote[1]. 
 
-When you're finished, feel free to share your solution with the community, join in on discussions and upvote solutions from your fellow learners!
+When you're finished, feel free to share your solution with the community, join in on discussions, and upvote solutions from your fellow learners!
 
 Remember, learning is more effective when we do it with others.
 
