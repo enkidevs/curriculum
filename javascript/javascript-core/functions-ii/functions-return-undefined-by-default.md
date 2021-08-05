@@ -54,21 +54,20 @@ Fill in the gaps such that the `naturalHalf` function, given an input number, wi
 ```javascript
 function naturalHalf(number) {
   if (number ??? 2 == 0) {
-    ???
+    return ???
   }
-  ???
+  return ???
 }
 ```
 
 - %
-- return number/2
-- return
-- return NaN
-- return number%2
-- return null
-- returns undefined
-- /
-- number
+- number / 2;
+- ;
+- NaN;
+- number % 2;
+- null;
+- /;
+- number;
 
 
 ---
