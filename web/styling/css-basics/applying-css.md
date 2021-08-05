@@ -27,9 +27,15 @@ revisionQuestion:
 
 ## Content
 
-We talked about CSS and what it can do, but we didn't mention how to actually make the browser use it alongside the HTML file.
+We talked about CSS and what it can do, but we didn't mention how to make the browser use it alongside the HTML file.
 
-There are 3 ways of doing so. In terms of specificity, the external CSS file is the weakest.
+There are three ways of doing so. In terms of specificity, the external CSS file is the "weakest".
+
+In terms of specificity, the rules browsers follow, an element can have only one styling applied. So if we have all three styles on the same element, the inline style would override the internal, and the internal would override the external. Out of the three, the external has the lowest precedence, so we refer to it as the "weakest".
+
+> 💡 Even though it is referred to as the weakest, external stylesheets are the recommended ones.
+
+> We will discuss more about internal and external stylings and specificity later in this workout.
 
 ### External CSS file
 
