@@ -52,6 +52,7 @@ Types of change:
 
 ### Changed
 - [Go - If Else Statements - Remove type in the gap](https://github.com/enkidevs/curriculum/pull/2820)
+- [Styling - CSS Basics Applying CSS - Add more info on external css being called the weakest](https://github.com/enkidevs/curriculum/pull/2822)
 
 ## August 4th 2021
 
