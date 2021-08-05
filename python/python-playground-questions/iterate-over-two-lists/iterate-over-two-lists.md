@@ -46,13 +46,11 @@ To solve this, try using the following concepts:
 - flow control (`for...in`)
 - built-in methods (`zip`)
 
-Learning is best when we give it an honest try. Even if we make a mistake, we'll remember it and do better next time.
+Give it an honest try, and feel free to share your solution!
 
-That being said, if you're not sure how to get started, check out this footnote[1]. 
+You can always read this footnote[1] or the solutions posted in the comments section if you're stuck.
 
-When you're finished, feel free to share your solution with the community, join in on discussions, and upvote solutions from your fellow learners!
-
-Remember, learning is more effective when we do it with others.
+😇 Help us build an uplifting community by leaving encouraging comments or by upvoting your favorite ones!
 
 > 💡 Take a look at [how you can format text using markdown](https://www.enki.com/glossary/general/markdown-formatting).
 
