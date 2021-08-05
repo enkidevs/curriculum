@@ -40,6 +40,7 @@ To solve this, try using the following concepts:
 > 💡 One way to test if a number is prime is to check if it's divisible by any number from 2 up to (rounded) half of itself. For example, to test if 31 is prime, we check if it's divisible by any number from 2 up to 15.
 
 Give it an honest try, and feel free to share your solution!
+
 If you’re stuck, you can always read this footnote[1] or the solutions posted in the comments section.
 
 😇 Help us build an uplifting community by leaving encouraging comments or by upvoting your favorite ones!

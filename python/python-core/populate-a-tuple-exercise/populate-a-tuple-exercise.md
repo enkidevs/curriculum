@@ -28,6 +28,7 @@ setupCode:
 - **access one of the elements through its index and print it**
 
 Give it an honest try, and feel free to share your solution!
+
 If you’re stuck, you can always read this footnote[1] or the solutions posted in the comments section.
 
 😇 Help us build an uplifting community by leaving encouraging comments or by upvoting your favorite ones!
