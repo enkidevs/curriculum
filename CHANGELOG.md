@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## August 5th 2021
+
+### Changed
+- [Go - If Else Statements - Remove type in the gap](https://github.com/enkidevs/curriculum/pull/2820)
+
 ## August 4th 2021
 
 ### Changed
