@@ -52,6 +52,7 @@ Types of change:
 
 ### Changed
 - [Go - If Else Statements - Remove type in the gap](https://github.com/enkidevs/curriculum/pull/2820)
+- [JavaScript - Functions Return Undefined by Default - Update Practice Question](https://github.com/enkidevs/curriculum/pull/2821)
 
 ## August 4th 2021
 
