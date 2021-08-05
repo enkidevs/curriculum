@@ -48,7 +48,6 @@ If you’re stuck, you can always read this footnote[1] or the solutions posted 
 
 😇 Help us build an uplifting community by leaving encouraging comments or by upvoting your favorite ones!
 
-
 > 💡 Take a look at [how you can format text using markdown](https://www.enki.com/glossary/general/markdown-formatting).
 
 > 💡 The guidelines above are just suggestions. Feel free to include other concepts in your solution as you see fit. The implementation is up to you.
