@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## August 6th 2021
+
+### Changed
+- [Web - Paragraphs And Headings - Remove type in the gap](https://github.com/enkidevs/curriculum/pull/2824)
+
 ## August 5th 2021
 
 ### Changed
