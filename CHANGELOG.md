@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## August 10th 2021
+
+### Fixed
+- [Python - Remove Add Values To A List Exercise - Fix typo](https://github.com/enkidevs/curriculum/pull/2825)
+
 ## August 6th 2021
 
 ### Changed
