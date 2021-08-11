@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## August 11th 2021
+
+### Fixed
+- [Python - More Complex Arithmetic Operators - Reword sentence as insight order changed](https://github.com/enkidevs/curriculum/pull/2826) 
+
 ## August 10th 2021
 
 ### Fixed
