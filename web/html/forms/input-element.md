@@ -43,7 +43,7 @@ Here's an example of a raw text field:
 </form>
 ```
 
-![form-input-1](https://img.enkipro.com/95e97e187803e134d74f100a90790eea.png)
+![form-input-1](https://img.enkipro.com/3528ccd4e1f9ff2aefbbfca0805596a3.png)
 
 Example radio buttons:
 
@@ -69,7 +69,7 @@ Example radio buttons:
 </form>
 ```
 
-![simple-radio-buttons](https://img.enkipro.com/fd2abd20a92d991a91180771dcebaa49.png)
+![simple-radio-buttons](https://img.enkipro.com/cfab32b52b4d19035974b4d89752aa10.png)
 
 Example submit:
 
@@ -85,7 +85,7 @@ Example submit:
 </form>
 ```
 
-![simple-submit-button](https://img.enkipro.com/ba294041847414a11b73b000f4a8b28c.png)
+![simple-submit-button](https://img.enkipro.com/70c60859b71cdb20e4aeca00908ec931.png)
 
 [View CodePen](https://codepen.io/enkidevs/pen/pZzGPJ)
 
