@@ -71,6 +71,7 @@ Types of change:
 - [Go - If Else Statements - Remove type in the gap](https://github.com/enkidevs/curriculum/pull/2820)
 - [Styling - CSS Basics Applying CSS - Add more info on external css being called the weakest](https://github.com/enkidevs/curriculum/pull/2822)
 - [JavaScript - Functions Return Undefined by Default - Update Practice Question](https://github.com/enkidevs/curriculum/pull/2821)
+- [Python and JavaScript - All Coding Exercises - Apply shorter copy](https://github.com/enkidevs/curriculum/pull/2823)
 
 ## August 4th 2021
 
