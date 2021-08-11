@@ -48,6 +48,22 @@ Types of change:
 
 ### Fixed
 
+## August 11th 2021
+
+### Fixed
+- [Python Data Analysis - Movie Count Per Release Year Visualized - Fix broken RQ that closes the app](https://github.com/enkidevs/curriculum/pull/2827)
+- [Python - More Complex Arithmetic Operators - Reword sentence as insight order changed](https://github.com/enkidevs/curriculum/pull/2826) 
+
+## August 10th 2021
+
+### Fixed
+- [Python - Remove Add Values To A List Exercise - Fix typo](https://github.com/enkidevs/curriculum/pull/2825)
+
+## August 6th 2021
+
+### Changed
+- [Web - Paragraphs And Headings - Remove type in the gap](https://github.com/enkidevs/curriculum/pull/2824)
+
 ## August 5th 2021
 
 ### Changed
