@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## August 11th 2021
+
+### Fixed
+- [Python Data Analysis - Movie Count Per Release Year Visualized - Fix broken RQ that closes the app](https://github.com/enkidevs/curriculum/pull/2827)
+
 ## August 10th 2021
 
 ### Fixed
