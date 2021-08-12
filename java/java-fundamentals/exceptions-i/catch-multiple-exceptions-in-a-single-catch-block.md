@@ -36,7 +36,7 @@ try {
 
 In the code above, the two exceptions `SQLException` and `IOException` are handled in the same way, but we still have to write two individual catch blocks for them.
 
-We can also condense the code into a single `multi-catch` block using `|`:
+We can also condense the code into a single **multi-catch** block using `|`:
 
 ```java
 try {
