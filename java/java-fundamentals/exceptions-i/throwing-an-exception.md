@@ -20,7 +20,7 @@ revisionQuestion:
 
 ## Content
 
-An `exception` is an event that occurs during the execution of a program disrupting the normal flow of the program.
+An *exception* is an event that occurs during the execution of a program disrupting the normal flow of the program.
 There are two types of `exception`:
 
 - *Checked* : `exception`s checked at compile stage.
