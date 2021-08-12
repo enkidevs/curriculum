@@ -22,7 +22,7 @@ revisionQuestion:
 
 ## Content
 
-It's possible to catch multiple types of exceptions in the same `catch` block. This is known as multi-catch, for example:
+It's possible to catch multiple types of exceptions in the same `catch` block. This is known as **multi-catch**, for example:
 
 ```java
 try {
