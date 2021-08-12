@@ -50,7 +50,7 @@ catch(IOException | SQLException e) {
 
 ## Revision
 
-How can you condense two exceptions into a single `multi-catch` catch block?
+How can you condense two exceptions into a single **multi-catch** catch block?
 ```java
 try {
   // ...
