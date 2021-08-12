@@ -51,7 +51,7 @@ public void myMethod() throws IOException {
 
 An exception should be thrown when a fundamental assumption of the current code block is found to be false. 
 
-For example, a methods that counts the number of elements from a `List` should `throw` an `exception` if the given parameter is not a `List`.
+For example, a methods that counts the number of elements from a `List` should `throw` an exception if the given parameter is not a `List`.
 
 ---
 
