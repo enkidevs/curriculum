@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## August 12th 2021
+
+### Added
+- [Python - Dictionary Standard Mapping Type - Add info on how to create empty dictionaries](https://github.com/enkidevs/curriculum/pull/2829)
+
 ## August 11th 2021
 
 ### Fixed
