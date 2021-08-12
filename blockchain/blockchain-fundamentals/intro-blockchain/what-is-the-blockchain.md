@@ -51,6 +51,17 @@ A blockchain is a ??? ledger.
 
 ---
 
+## Revision
+
+A blockchain is a ??? ledger.
+
+- distributed
+- centralized
+- free
+
+
+---
+
 ## Footnotes
 
 [1:Distributed Ledger]

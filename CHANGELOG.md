@@ -48,6 +48,13 @@ Types of change:
 
 ### Fixed
 
+## August 12th 2021
+
+### Added
+- [Added - RQs - Python - Java - Blockchain]()
+
+
+
 ## August 3rd 2021
 
 ### Changed

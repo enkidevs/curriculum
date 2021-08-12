@@ -7,9 +7,7 @@ tags:
   - jdk-7
 links:
   - >-
-    [docs.oracle.com](http://docs.oracle.com/javase/7/docs/technotes/guides/language/catch-multiple.html){website}
-  - >-
-    [javarevisited.blogspot.jp](http://javarevisited.blogspot.jp/2014/04/10-jdk-7-features-to-revisit-before-you.html){website}
+    [Catching Multiple Exception Types](http://docs.oracle.com/javase/7/docs/technotes/guides/language/catch-multiple.html){website}
 ---
 
 # Catch multiple exceptions in a single `catch` block
@@ -19,27 +17,45 @@ links:
 
 ## Content
 
-It is possible to catch multiple types of exception within a single `catch` block. For example:
+It's possible to catch multiple types of exceptions in the same `catch` block. This is known as multi-catch, for example:
 
 ```java
 try {
-  ...
+  // ...
 } catch (IOException e) {
-  //do something
+  // do something
 } catch (SQLException e) {
-  //do the same thing
+  // do the same thing
 }
 ```
 
-If we want to do the same thing whether we catch an `IOException` or an `SQLException`, such as print out a stack trace, then we will have repeated code. 
+In the code above, the two exceptions `SQLException` and `IOException` are handled in the same way, but we still have to write two individual catch blocks for them.
 
-In JDK 7+ we can condense the code into a single catch block using `|`:
+We can also condense the code into a single `multi-catch` block using `|`:
 
 ```java
 try {
-  ...
+  // ...
 }
 catch(IOException | SQLException e) {
-  //do something
+  // do something
 }
 ```
+---
+
+## Revision
+
+How can you condense two exceptions into a single `multi-catch` catch block?
+```java
+try {
+  // ...
+}
+catch(IOException ??? SQLException e) {
+  // do something
+}
+```
+
+- |
+- &
+- %
+- and
