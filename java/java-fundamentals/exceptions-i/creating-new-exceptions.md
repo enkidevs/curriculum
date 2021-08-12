@@ -9,6 +9,11 @@ links:
     [Creating Exception Classes](https://docs.oracle.com/javase/tutorial/essential/exceptions/creating.html){website}
   - >-
     [Defining Custom Exceptions](http://stackoverflow.com/questions/3776327/how-to-define-custom-exception-class-in-java-the-easiest-way){website}
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Creating new Exceptions

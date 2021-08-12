@@ -8,6 +8,11 @@ tags:
 links:
   - >-
     [Catching Multiple Exception Types](http://docs.oracle.com/javase/7/docs/technotes/guides/language/catch-multiple.html){website}
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Catch multiple exceptions in a single `catch` block

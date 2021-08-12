@@ -7,6 +7,11 @@ links:
     [How to Handle Exceptions Better](http://crunchify.com/better-understanding-on-checked-vs-unchecked-exceptions-how-to-handle-exception-better-way-in-java/){website}
 notes: |
   https://insights.enki.com/#/contrib/55a3b45d2a4a89320042e651
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Throwing an `exception`

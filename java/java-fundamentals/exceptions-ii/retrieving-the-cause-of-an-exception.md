@@ -8,6 +8,11 @@ tags:
 links:
   - >-
     [Chained Exceptions](https://docs.oracle.com/javase/tutorial/essential/exceptions/chained.html){website}
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Retrieving the cause of an exception

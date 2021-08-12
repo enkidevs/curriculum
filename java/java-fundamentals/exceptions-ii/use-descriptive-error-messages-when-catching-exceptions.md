@@ -6,7 +6,12 @@ tags:
   - exceptions
 links:
   - >-
-    [javarevisited.blogspot.co.uk](http://javarevisited.blogspot.co.uk/2013/03/0-exception-handling-best-practices-in-Java-Programming.html){website}
+    [Exception Handling Best Practices](http://javarevisited.blogspot.co.uk/2013/03/0-exception-handling-best-practices-in-Java-Programming.html){website}
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Use descriptive error messages when catching exceptions
@@ -37,7 +42,7 @@ We now know where to look in our code for the problem, and have a good idea of w
 
 ## Revision
 
-Which of the following error messages would be the most helpful:
+Which of the following error messages would be the most helpful?
 
 ```plain-text
 # A
