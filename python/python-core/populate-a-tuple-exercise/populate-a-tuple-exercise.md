@@ -45,33 +45,6 @@ Remember, learning is more effective when we do it with others.
 > 🤓 Happy learning! Open the playground and start coding!
 
 
-
-
----
-
-## Revision
-
-Pick the correct syntax for populating a tuple:
-
-```python
-# A
-myTuple = ('c','a','k','e')
-
-# B
-myTuple = ['c','a','k','e']
-
-# C
-myTuple = new tuple('cake')
-```
-
-???
-
-- A
-- B
-- C
-- neither
-
-
 ---
 
 ## Footnotes
