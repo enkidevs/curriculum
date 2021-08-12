@@ -26,7 +26,7 @@ There are two types of `exception`:
 - *Checked* : exceptions checked at compile stage.
 - *Unchecked*: exceptions that occur during runtime due to faulty logic. They are direct sub-classes of the `RuntimeException` class.
 
-`Exception`s have to be handled and they can also be thrown. You can handle an `exception` inside a `try/catch` block :  
+Exceptions have to be handled and they can also be thrown. You can handle an exception inside a `try/catch` block :  
 
 ```java
 try {
