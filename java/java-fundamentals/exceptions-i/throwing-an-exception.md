@@ -23,7 +23,7 @@ revisionQuestion:
 An *exception* is an event that occurs during the execution of a program disrupting the normal flow of the program.
 There are two types of `exception`:
 
-- *Checked* : `exception`s checked at compile stage.
+- *Checked* : exceptions checked at compile stage.
 - *Unchecked*: `exception`s that occur during runtime due to faulty logic. They are direct sub-classes of the `RuntimeException` class.
 
 `Exception`s have to be handled and they can also be thrown. You can handle an `exception` inside a `try/catch` block :  
